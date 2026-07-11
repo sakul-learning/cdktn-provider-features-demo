@@ -136,7 +136,7 @@ export class Elasticloadbalancingv2TrustStoreTagsOutputReference extends cdktn.C
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -152,7 +152,7 @@ export class Elasticloadbalancingv2TrustStoreTagsOutputReference extends cdktn.C
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -250,7 +250,7 @@ export class Elasticloadbalancingv2TrustStore extends cdktn.TerraformResource {
   // ==========
 
   // ca_certificates_bundle_s3_bucket - computed: true, optional: true, required: false
-  private _caCertificatesBundleS3Bucket?: string;
+  private _caCertificatesBundleS3Bucket?: string; 
   public get caCertificatesBundleS3Bucket() {
     return this.getStringAttribute('ca_certificates_bundle_s3_bucket');
   }
@@ -266,7 +266,7 @@ export class Elasticloadbalancingv2TrustStore extends cdktn.TerraformResource {
   }
 
   // ca_certificates_bundle_s3_key - computed: true, optional: true, required: false
-  private _caCertificatesBundleS3Key?: string;
+  private _caCertificatesBundleS3Key?: string; 
   public get caCertificatesBundleS3Key() {
     return this.getStringAttribute('ca_certificates_bundle_s3_key');
   }
@@ -282,7 +282,7 @@ export class Elasticloadbalancingv2TrustStore extends cdktn.TerraformResource {
   }
 
   // ca_certificates_bundle_s3_object_version - computed: true, optional: true, required: false
-  private _caCertificatesBundleS3ObjectVersion?: string;
+  private _caCertificatesBundleS3ObjectVersion?: string; 
   public get caCertificatesBundleS3ObjectVersion() {
     return this.getStringAttribute('ca_certificates_bundle_s3_object_version');
   }
@@ -303,7 +303,7 @@ export class Elasticloadbalancingv2TrustStore extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }

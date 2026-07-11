@@ -172,7 +172,7 @@ export class FmsPolicyExcludeMapOutputReference extends cdktn.ComplexObject {
   }
 
   // account - computed: true, optional: true, required: false
-  private _account?: string[];
+  private _account?: string[]; 
   public get account() {
     return this.getListAttribute('account');
   }
@@ -188,7 +188,7 @@ export class FmsPolicyExcludeMapOutputReference extends cdktn.ComplexObject {
   }
 
   // orgunit - computed: true, optional: true, required: false
-  private _orgunit?: string[];
+  private _orgunit?: string[]; 
   public get orgunit() {
     return this.getListAttribute('orgunit');
   }
@@ -299,7 +299,7 @@ export class FmsPolicyIncludeMapOutputReference extends cdktn.ComplexObject {
   }
 
   // account - computed: true, optional: true, required: false
-  private _account?: string[];
+  private _account?: string[]; 
   public get account() {
     return this.getListAttribute('account');
   }
@@ -315,7 +315,7 @@ export class FmsPolicyIncludeMapOutputReference extends cdktn.ComplexObject {
   }
 
   // orgunit - computed: true, optional: true, required: false
-  private _orgunit?: string[];
+  private _orgunit?: string[]; 
   public get orgunit() {
     return this.getListAttribute('orgunit');
   }
@@ -428,7 +428,7 @@ export class FmsPolicyResourceTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -444,7 +444,7 @@ export class FmsPolicyResourceTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -579,7 +579,7 @@ export class FmsPolicySecurityServicePolicyDataPolicyOptionNetworkAclCommonPolic
   }
 
   // code - computed: true, optional: true, required: false
-  private _code?: number;
+  private _code?: number; 
   public get code() {
     return this.getNumberAttribute('code');
   }
@@ -595,7 +595,7 @@ export class FmsPolicySecurityServicePolicyDataPolicyOptionNetworkAclCommonPolic
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: number;
+  private _type?: number; 
   public get type() {
     return this.getNumberAttribute('type');
   }
@@ -710,7 +710,7 @@ export class FmsPolicySecurityServicePolicyDataPolicyOptionNetworkAclCommonPolic
   }
 
   // from - computed: true, optional: true, required: false
-  private _from?: number;
+  private _from?: number; 
   public get from() {
     return this.getNumberAttribute('from');
   }
@@ -726,7 +726,7 @@ export class FmsPolicySecurityServicePolicyDataPolicyOptionNetworkAclCommonPolic
   }
 
   // to - computed: true, optional: true, required: false
-  private _to?: number;
+  private _to?: number; 
   public get to() {
     return this.getNumberAttribute('to');
   }
@@ -938,7 +938,7 @@ export class FmsPolicySecurityServicePolicyDataPolicyOptionNetworkAclCommonPolic
   }
 
   // cidr_block - computed: true, optional: true, required: false
-  private _cidrBlock?: string;
+  private _cidrBlock?: string; 
   public get cidrBlock() {
     return this.getStringAttribute('cidr_block');
   }
@@ -954,7 +954,7 @@ export class FmsPolicySecurityServicePolicyDataPolicyOptionNetworkAclCommonPolic
   }
 
   // egress - computed: true, optional: true, required: false
-  private _egress?: boolean | cdktn.IResolvable;
+  private _egress?: boolean | cdktn.IResolvable; 
   public get egress() {
     return this.getBooleanAttribute('egress');
   }
@@ -986,7 +986,7 @@ export class FmsPolicySecurityServicePolicyDataPolicyOptionNetworkAclCommonPolic
   }
 
   // ipv_6_cidr_block - computed: true, optional: true, required: false
-  private _ipv6CidrBlock?: string;
+  private _ipv6CidrBlock?: string; 
   public get ipv6CidrBlock() {
     return this.getStringAttribute('ipv_6_cidr_block');
   }
@@ -1018,7 +1018,7 @@ export class FmsPolicySecurityServicePolicyDataPolicyOptionNetworkAclCommonPolic
   }
 
   // protocol - computed: true, optional: true, required: false
-  private _protocol?: string;
+  private _protocol?: string; 
   public get protocol() {
     return this.getStringAttribute('protocol');
   }
@@ -1034,7 +1034,7 @@ export class FmsPolicySecurityServicePolicyDataPolicyOptionNetworkAclCommonPolic
   }
 
   // rule_action - computed: true, optional: true, required: false
-  private _ruleAction?: string;
+  private _ruleAction?: string; 
   public get ruleAction() {
     return this.getStringAttribute('rule_action');
   }
@@ -1169,7 +1169,7 @@ export class FmsPolicySecurityServicePolicyDataPolicyOptionNetworkAclCommonPolic
   }
 
   // code - computed: true, optional: true, required: false
-  private _code?: number;
+  private _code?: number; 
   public get code() {
     return this.getNumberAttribute('code');
   }
@@ -1185,7 +1185,7 @@ export class FmsPolicySecurityServicePolicyDataPolicyOptionNetworkAclCommonPolic
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: number;
+  private _type?: number; 
   public get type() {
     return this.getNumberAttribute('type');
   }
@@ -1300,7 +1300,7 @@ export class FmsPolicySecurityServicePolicyDataPolicyOptionNetworkAclCommonPolic
   }
 
   // from - computed: true, optional: true, required: false
-  private _from?: number;
+  private _from?: number; 
   public get from() {
     return this.getNumberAttribute('from');
   }
@@ -1316,7 +1316,7 @@ export class FmsPolicySecurityServicePolicyDataPolicyOptionNetworkAclCommonPolic
   }
 
   // to - computed: true, optional: true, required: false
-  private _to?: number;
+  private _to?: number; 
   public get to() {
     return this.getNumberAttribute('to');
   }
@@ -1528,7 +1528,7 @@ export class FmsPolicySecurityServicePolicyDataPolicyOptionNetworkAclCommonPolic
   }
 
   // cidr_block - computed: true, optional: true, required: false
-  private _cidrBlock?: string;
+  private _cidrBlock?: string; 
   public get cidrBlock() {
     return this.getStringAttribute('cidr_block');
   }
@@ -1544,7 +1544,7 @@ export class FmsPolicySecurityServicePolicyDataPolicyOptionNetworkAclCommonPolic
   }
 
   // egress - computed: true, optional: true, required: false
-  private _egress?: boolean | cdktn.IResolvable;
+  private _egress?: boolean | cdktn.IResolvable; 
   public get egress() {
     return this.getBooleanAttribute('egress');
   }
@@ -1576,7 +1576,7 @@ export class FmsPolicySecurityServicePolicyDataPolicyOptionNetworkAclCommonPolic
   }
 
   // ipv_6_cidr_block - computed: true, optional: true, required: false
-  private _ipv6CidrBlock?: string;
+  private _ipv6CidrBlock?: string; 
   public get ipv6CidrBlock() {
     return this.getStringAttribute('ipv_6_cidr_block');
   }
@@ -1608,7 +1608,7 @@ export class FmsPolicySecurityServicePolicyDataPolicyOptionNetworkAclCommonPolic
   }
 
   // protocol - computed: true, optional: true, required: false
-  private _protocol?: string;
+  private _protocol?: string; 
   public get protocol() {
     return this.getStringAttribute('protocol');
   }
@@ -1624,7 +1624,7 @@ export class FmsPolicySecurityServicePolicyDataPolicyOptionNetworkAclCommonPolic
   }
 
   // rule_action - computed: true, optional: true, required: false
-  private _ruleAction?: string;
+  private _ruleAction?: string; 
   public get ruleAction() {
     return this.getStringAttribute('rule_action');
   }
@@ -1809,7 +1809,7 @@ export class FmsPolicySecurityServicePolicyDataPolicyOptionNetworkAclCommonPolic
   }
 
   // force_remediate_for_first_entries - computed: true, optional: true, required: false
-  private _forceRemediateForFirstEntries?: boolean | cdktn.IResolvable;
+  private _forceRemediateForFirstEntries?: boolean | cdktn.IResolvable; 
   public get forceRemediateForFirstEntries() {
     return this.getBooleanAttribute('force_remediate_for_first_entries');
   }
@@ -1825,7 +1825,7 @@ export class FmsPolicySecurityServicePolicyDataPolicyOptionNetworkAclCommonPolic
   }
 
   // force_remediate_for_last_entries - computed: true, optional: true, required: false
-  private _forceRemediateForLastEntries?: boolean | cdktn.IResolvable;
+  private _forceRemediateForLastEntries?: boolean | cdktn.IResolvable; 
   public get forceRemediateForLastEntries() {
     return this.getBooleanAttribute('force_remediate_for_last_entries');
   }
@@ -2033,7 +2033,7 @@ export class FmsPolicySecurityServicePolicyDataPolicyOptionNetworkFirewallPolicy
   }
 
   // firewall_deployment_model - computed: true, optional: true, required: false
-  private _firewallDeploymentModel?: string;
+  private _firewallDeploymentModel?: string; 
   public get firewallDeploymentModel() {
     return this.getStringAttribute('firewall_deployment_model');
   }
@@ -2129,7 +2129,7 @@ export class FmsPolicySecurityServicePolicyDataPolicyOptionThirdPartyFirewallPol
   }
 
   // firewall_deployment_model - computed: true, optional: true, required: false
-  private _firewallDeploymentModel?: string;
+  private _firewallDeploymentModel?: string; 
   public get firewallDeploymentModel() {
     return this.getStringAttribute('firewall_deployment_model');
   }
@@ -2429,7 +2429,7 @@ export class FmsPolicySecurityServicePolicyDataOutputReference extends cdktn.Com
   }
 
   // managed_service_data - computed: true, optional: true, required: false
-  private _managedServiceData?: string;
+  private _managedServiceData?: string; 
   public get managedServiceData() {
     return this.getStringAttribute('managed_service_data');
   }
@@ -2461,7 +2461,7 @@ export class FmsPolicySecurityServicePolicyDataOutputReference extends cdktn.Com
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -2571,7 +2571,7 @@ export class FmsPolicyTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -2587,7 +2587,7 @@ export class FmsPolicyTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2700,7 +2700,7 @@ export class FmsPolicy extends cdktn.TerraformResource {
   }
 
   // delete_all_policy_resources - computed: true, optional: true, required: false
-  private _deleteAllPolicyResources?: boolean | cdktn.IResolvable;
+  private _deleteAllPolicyResources?: boolean | cdktn.IResolvable; 
   public get deleteAllPolicyResources() {
     return this.getBooleanAttribute('delete_all_policy_resources');
   }
@@ -2732,7 +2732,7 @@ export class FmsPolicy extends cdktn.TerraformResource {
   }
 
   // exclude_resource_tags - computed: false, optional: false, required: true
-  private _excludeResourceTags?: boolean | cdktn.IResolvable;
+  private _excludeResourceTags?: boolean | cdktn.IResolvable; 
   public get excludeResourceTags() {
     return this.getBooleanAttribute('exclude_resource_tags');
   }
@@ -2766,7 +2766,7 @@ export class FmsPolicy extends cdktn.TerraformResource {
   }
 
   // policy_description - computed: true, optional: true, required: false
-  private _policyDescription?: string;
+  private _policyDescription?: string; 
   public get policyDescription() {
     return this.getStringAttribute('policy_description');
   }
@@ -2787,7 +2787,7 @@ export class FmsPolicy extends cdktn.TerraformResource {
   }
 
   // policy_name - computed: false, optional: false, required: true
-  private _policyName?: string;
+  private _policyName?: string; 
   public get policyName() {
     return this.getStringAttribute('policy_name');
   }
@@ -2800,7 +2800,7 @@ export class FmsPolicy extends cdktn.TerraformResource {
   }
 
   // remediation_enabled - computed: false, optional: false, required: true
-  private _remediationEnabled?: boolean | cdktn.IResolvable;
+  private _remediationEnabled?: boolean | cdktn.IResolvable; 
   public get remediationEnabled() {
     return this.getBooleanAttribute('remediation_enabled');
   }
@@ -2813,7 +2813,7 @@ export class FmsPolicy extends cdktn.TerraformResource {
   }
 
   // resource_set_ids - computed: true, optional: true, required: false
-  private _resourceSetIds?: string[];
+  private _resourceSetIds?: string[]; 
   public get resourceSetIds() {
     return this.getListAttribute('resource_set_ids');
   }
@@ -2829,7 +2829,7 @@ export class FmsPolicy extends cdktn.TerraformResource {
   }
 
   // resource_tag_logical_operator - computed: true, optional: true, required: false
-  private _resourceTagLogicalOperator?: string;
+  private _resourceTagLogicalOperator?: string; 
   public get resourceTagLogicalOperator() {
     return this.getStringAttribute('resource_tag_logical_operator');
   }
@@ -2861,7 +2861,7 @@ export class FmsPolicy extends cdktn.TerraformResource {
   }
 
   // resource_type - computed: true, optional: true, required: false
-  private _resourceType?: string;
+  private _resourceType?: string; 
   public get resourceType() {
     return this.getStringAttribute('resource_type');
   }
@@ -2877,7 +2877,7 @@ export class FmsPolicy extends cdktn.TerraformResource {
   }
 
   // resource_type_list - computed: true, optional: true, required: false
-  private _resourceTypeList?: string[];
+  private _resourceTypeList?: string[]; 
   public get resourceTypeList() {
     return this.getListAttribute('resource_type_list');
   }
@@ -2893,7 +2893,7 @@ export class FmsPolicy extends cdktn.TerraformResource {
   }
 
   // resources_clean_up - computed: true, optional: true, required: false
-  private _resourcesCleanUp?: boolean | cdktn.IResolvable;
+  private _resourcesCleanUp?: boolean | cdktn.IResolvable; 
   public get resourcesCleanUp() {
     return this.getBooleanAttribute('resources_clean_up');
   }

@@ -197,7 +197,7 @@ export class S3ExpressAccessPointPublicAccessBlockConfigurationOutputReference e
   }
 
   // block_public_acls - computed: true, optional: true, required: false
-  private _blockPublicAcls?: boolean | cdktn.IResolvable;
+  private _blockPublicAcls?: boolean | cdktn.IResolvable; 
   public get blockPublicAcls() {
     return this.getBooleanAttribute('block_public_acls');
   }
@@ -213,7 +213,7 @@ export class S3ExpressAccessPointPublicAccessBlockConfigurationOutputReference e
   }
 
   // block_public_policy - computed: true, optional: true, required: false
-  private _blockPublicPolicy?: boolean | cdktn.IResolvable;
+  private _blockPublicPolicy?: boolean | cdktn.IResolvable; 
   public get blockPublicPolicy() {
     return this.getBooleanAttribute('block_public_policy');
   }
@@ -229,7 +229,7 @@ export class S3ExpressAccessPointPublicAccessBlockConfigurationOutputReference e
   }
 
   // ignore_public_acls - computed: true, optional: true, required: false
-  private _ignorePublicAcls?: boolean | cdktn.IResolvable;
+  private _ignorePublicAcls?: boolean | cdktn.IResolvable; 
   public get ignorePublicAcls() {
     return this.getBooleanAttribute('ignore_public_acls');
   }
@@ -245,7 +245,7 @@ export class S3ExpressAccessPointPublicAccessBlockConfigurationOutputReference e
   }
 
   // restrict_public_buckets - computed: true, optional: true, required: false
-  private _restrictPublicBuckets?: boolean | cdktn.IResolvable;
+  private _restrictPublicBuckets?: boolean | cdktn.IResolvable; 
   public get restrictPublicBuckets() {
     return this.getBooleanAttribute('restrict_public_buckets');
   }
@@ -360,7 +360,7 @@ export class S3ExpressAccessPointScopeOutputReference extends cdktn.ComplexObjec
   }
 
   // permissions - computed: true, optional: true, required: false
-  private _permissions?: string[];
+  private _permissions?: string[]; 
   public get permissions() {
     return this.getListAttribute('permissions');
   }
@@ -376,7 +376,7 @@ export class S3ExpressAccessPointScopeOutputReference extends cdktn.ComplexObjec
   }
 
   // prefixes - computed: true, optional: true, required: false
-  private _prefixes?: string[];
+  private _prefixes?: string[]; 
   public get prefixes() {
     return this.getListAttribute('prefixes');
   }
@@ -489,7 +489,7 @@ export class S3ExpressAccessPointTagsOutputReference extends cdktn.ComplexObject
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -505,7 +505,7 @@ export class S3ExpressAccessPointTagsOutputReference extends cdktn.ComplexObject
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -621,7 +621,7 @@ export class S3ExpressAccessPointVpcConfigurationOutputReference extends cdktn.C
   }
 
   // vpc_id - computed: true, optional: true, required: false
-  private _vpcId?: string;
+  private _vpcId?: string; 
   public get vpcId() {
     return this.getStringAttribute('vpc_id');
   }
@@ -707,7 +707,7 @@ export class S3ExpressAccessPoint extends cdktn.TerraformResource {
   }
 
   // bucket - computed: false, optional: false, required: true
-  private _bucket?: string;
+  private _bucket?: string; 
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -720,7 +720,7 @@ export class S3ExpressAccessPoint extends cdktn.TerraformResource {
   }
 
   // bucket_account_id - computed: true, optional: true, required: false
-  private _bucketAccountId?: string;
+  private _bucketAccountId?: string; 
   public get bucketAccountId() {
     return this.getStringAttribute('bucket_account_id');
   }
@@ -741,7 +741,7 @@ export class S3ExpressAccessPoint extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -762,7 +762,7 @@ export class S3ExpressAccessPoint extends cdktn.TerraformResource {
   }
 
   // policy - computed: true, optional: true, required: false
-  private _policy?: string;
+  private _policy?: string; 
   public get policy() {
     return this.getStringAttribute('policy');
   }

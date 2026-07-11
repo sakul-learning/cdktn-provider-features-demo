@@ -131,7 +131,7 @@ export class CloudsearchDomainServiceAccessPolicyTimeoutsOutputReference extends
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -147,7 +147,7 @@ export class CloudsearchDomainServiceAccessPolicyTimeoutsOutputReference extends
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -225,7 +225,7 @@ export class CloudsearchDomainServiceAccessPolicy extends cdktn.TerraformResourc
   // ==========
 
   // access_policy - computed: false, optional: false, required: true
-  private _accessPolicy?: string;
+  private _accessPolicy?: string; 
   public get accessPolicy() {
     return this.getStringAttribute('access_policy');
   }
@@ -238,7 +238,7 @@ export class CloudsearchDomainServiceAccessPolicy extends cdktn.TerraformResourc
   }
 
   // domain_name - computed: false, optional: false, required: true
-  private _domainName?: string;
+  private _domainName?: string; 
   public get domainName() {
     return this.getStringAttribute('domain_name');
   }
@@ -251,7 +251,7 @@ export class CloudsearchDomainServiceAccessPolicy extends cdktn.TerraformResourc
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -267,7 +267,7 @@ export class CloudsearchDomainServiceAccessPolicy extends cdktn.TerraformResourc
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

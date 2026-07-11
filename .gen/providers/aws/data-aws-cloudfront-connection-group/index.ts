@@ -99,7 +99,7 @@ export class DataAwsCloudfrontConnectionGroup extends cdktn.TerraformDataSource 
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -135,7 +135,7 @@ export class DataAwsCloudfrontConnectionGroup extends cdktn.TerraformDataSource 
   }
 
   // routing_endpoint - computed: true, optional: true, required: false
-  private _routingEndpoint?: string;
+  private _routingEndpoint?: string; 
   public get routingEndpoint() {
     return this.getStringAttribute('routing_endpoint');
   }

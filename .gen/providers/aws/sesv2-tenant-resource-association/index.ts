@@ -83,7 +83,7 @@ export class Sesv2TenantResourceAssociation extends cdktn.TerraformResource {
   // ==========
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -99,7 +99,7 @@ export class Sesv2TenantResourceAssociation extends cdktn.TerraformResource {
   }
 
   // resource_arn - computed: false, optional: false, required: true
-  private _resourceArn?: string;
+  private _resourceArn?: string; 
   public get resourceArn() {
     return this.getStringAttribute('resource_arn');
   }
@@ -112,7 +112,7 @@ export class Sesv2TenantResourceAssociation extends cdktn.TerraformResource {
   }
 
   // tenant_name - computed: false, optional: false, required: true
-  private _tenantName?: string;
+  private _tenantName?: string; 
   public get tenantName() {
     return this.getStringAttribute('tenant_name');
   }

@@ -99,7 +99,7 @@ export class DataAwsOrganizationsPolicy extends cdktn.TerraformDataSource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -120,7 +120,7 @@ export class DataAwsOrganizationsPolicy extends cdktn.TerraformDataSource {
   }
 
   // policy_id - computed: false, optional: false, required: true
-  private _policyId?: string;
+  private _policyId?: string; 
   public get policyId() {
     return this.getStringAttribute('policy_id');
   }

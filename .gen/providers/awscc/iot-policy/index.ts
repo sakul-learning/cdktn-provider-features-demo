@@ -118,7 +118,7 @@ export class IotPolicyTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -134,7 +134,7 @@ export class IotPolicyTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -240,7 +240,7 @@ export class IotPolicy extends cdktn.TerraformResource {
   }
 
   // policy_document - computed: false, optional: false, required: true
-  private _policyDocument?: string;
+  private _policyDocument?: string; 
   public get policyDocument() {
     return this.getStringAttribute('policy_document');
   }
@@ -258,7 +258,7 @@ export class IotPolicy extends cdktn.TerraformResource {
   }
 
   // policy_name - computed: true, optional: true, required: false
-  private _policyName?: string;
+  private _policyName?: string; 
   public get policyName() {
     return this.getStringAttribute('policy_name');
   }

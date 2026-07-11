@@ -9,11 +9,11 @@ import * as cdktn from 'cdktn';
 export interface LogsAccountPolicyConfig extends cdktn.TerraformMetaArguments {
   /**
   * The body of the policy document you want to use for this topic.
-  *
+  * 
   * You can only add one policy per PolicyType.
-  *
+  * 
   * The policy must be in JSON string format.
-  *
+  * 
   * Length Constraints: Maximum length of 30720
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/logs_account_policy#policy_document LogsAccountPolicy#policy_document}
@@ -117,7 +117,7 @@ export class LogsAccountPolicy extends cdktn.TerraformResource {
   }
 
   // policy_document - computed: false, optional: false, required: true
-  private _policyDocument?: string;
+  private _policyDocument?: string; 
   public get policyDocument() {
     return this.getStringAttribute('policy_document');
   }
@@ -130,7 +130,7 @@ export class LogsAccountPolicy extends cdktn.TerraformResource {
   }
 
   // policy_name - computed: false, optional: false, required: true
-  private _policyName?: string;
+  private _policyName?: string; 
   public get policyName() {
     return this.getStringAttribute('policy_name');
   }
@@ -143,7 +143,7 @@ export class LogsAccountPolicy extends cdktn.TerraformResource {
   }
 
   // policy_type - computed: false, optional: false, required: true
-  private _policyType?: string;
+  private _policyType?: string; 
   public get policyType() {
     return this.getStringAttribute('policy_type');
   }
@@ -156,7 +156,7 @@ export class LogsAccountPolicy extends cdktn.TerraformResource {
   }
 
   // scope - computed: true, optional: true, required: false
-  private _scope?: string;
+  private _scope?: string; 
   public get scope() {
     return this.getStringAttribute('scope');
   }
@@ -172,7 +172,7 @@ export class LogsAccountPolicy extends cdktn.TerraformResource {
   }
 
   // selection_criteria - computed: true, optional: true, required: false
-  private _selectionCriteria?: string;
+  private _selectionCriteria?: string; 
   public get selectionCriteria() {
     return this.getStringAttribute('selection_criteria');
   }

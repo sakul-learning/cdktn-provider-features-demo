@@ -220,7 +220,7 @@ export class DatazoneProjectTimeoutsOutputReference extends cdktn.ComplexObject 
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -236,7 +236,7 @@ export class DatazoneProjectTimeoutsOutputReference extends cdktn.ComplexObject 
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -326,7 +326,7 @@ export class DatazoneProject extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -342,7 +342,7 @@ export class DatazoneProject extends cdktn.TerraformResource {
   }
 
   // domain_identifier - computed: false, optional: false, required: true
-  private _domainIdentifier?: string;
+  private _domainIdentifier?: string; 
   public get domainIdentifier() {
     return this.getStringAttribute('domain_identifier');
   }
@@ -361,7 +361,7 @@ export class DatazoneProject extends cdktn.TerraformResource {
   }
 
   // glossary_terms - computed: false, optional: true, required: false
-  private _glossaryTerms?: string[];
+  private _glossaryTerms?: string[]; 
   public get glossaryTerms() {
     return this.getListAttribute('glossary_terms');
   }
@@ -387,7 +387,7 @@ export class DatazoneProject extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -405,7 +405,7 @@ export class DatazoneProject extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -421,7 +421,7 @@ export class DatazoneProject extends cdktn.TerraformResource {
   }
 
   // skip_deletion_check - computed: false, optional: true, required: false
-  private _skipDeletionCheck?: boolean | cdktn.IResolvable;
+  private _skipDeletionCheck?: boolean | cdktn.IResolvable; 
   public get skipDeletionCheck() {
     return this.getBooleanAttribute('skip_deletion_check');
   }

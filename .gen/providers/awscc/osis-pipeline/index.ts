@@ -153,7 +153,7 @@ export class OsisPipelineBufferOptionsOutputReference extends cdktn.ComplexObjec
   }
 
   // persistent_buffer_enabled - computed: true, optional: true, required: false
-  private _persistentBufferEnabled?: boolean | cdktn.IResolvable;
+  private _persistentBufferEnabled?: boolean | cdktn.IResolvable; 
   public get persistentBufferEnabled() {
     return this.getBooleanAttribute('persistent_buffer_enabled');
   }
@@ -249,7 +249,7 @@ export class OsisPipelineEncryptionAtRestOptionsOutputReference extends cdktn.Co
   }
 
   // kms_key_arn - computed: true, optional: true, required: false
-  private _kmsKeyArn?: string;
+  private _kmsKeyArn?: string; 
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -343,7 +343,7 @@ export class OsisPipelineLogPublishingOptionsCloudwatchLogDestinationOutputRefer
   }
 
   // log_group - computed: true, optional: true, required: false
-  private _logGroup?: string;
+  private _logGroup?: string; 
   public get logGroup() {
     return this.getStringAttribute('log_group');
   }
@@ -474,7 +474,7 @@ export class OsisPipelineLogPublishingOptionsOutputReference extends cdktn.Compl
   }
 
   // is_logging_enabled - computed: true, optional: true, required: false
-  private _isLoggingEnabled?: boolean | cdktn.IResolvable;
+  private _isLoggingEnabled?: boolean | cdktn.IResolvable; 
   public get isLoggingEnabled() {
     return this.getBooleanAttribute('is_logging_enabled');
   }
@@ -568,7 +568,7 @@ export class OsisPipelineResourcePolicyOutputReference extends cdktn.ComplexObje
   }
 
   // policy - computed: true, optional: true, required: false
-  private _policy?: string;
+  private _policy?: string; 
   public get policy() {
     return this.getStringAttribute('policy');
   }
@@ -685,7 +685,7 @@ export class OsisPipelineTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -701,7 +701,7 @@ export class OsisPipelineTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1051,7 +1051,7 @@ export class OsisPipelineVpcOptionsVpcAttachmentOptionsOutputReference extends c
   }
 
   // attach_to_vpc - computed: true, optional: true, required: false
-  private _attachToVpc?: boolean | cdktn.IResolvable;
+  private _attachToVpc?: boolean | cdktn.IResolvable; 
   public get attachToVpc() {
     return this.getBooleanAttribute('attach_to_vpc');
   }
@@ -1067,7 +1067,7 @@ export class OsisPipelineVpcOptionsVpcAttachmentOptionsOutputReference extends c
   }
 
   // cidr_block - computed: true, optional: true, required: false
-  private _cidrBlock?: string;
+  private _cidrBlock?: string; 
   public get cidrBlock() {
     return this.getStringAttribute('cidr_block');
   }
@@ -1220,7 +1220,7 @@ export class OsisPipelineVpcOptionsOutputReference extends cdktn.ComplexObject {
   }
 
   // security_group_ids - computed: true, optional: true, required: false
-  private _securityGroupIds?: string[];
+  private _securityGroupIds?: string[]; 
   public get securityGroupIds() {
     return this.getListAttribute('security_group_ids');
   }
@@ -1236,7 +1236,7 @@ export class OsisPipelineVpcOptionsOutputReference extends cdktn.ComplexObject {
   }
 
   // subnet_ids - computed: true, optional: true, required: false
-  private _subnetIds?: string[];
+  private _subnetIds?: string[]; 
   public get subnetIds() {
     return this.getListAttribute('subnet_ids');
   }
@@ -1268,7 +1268,7 @@ export class OsisPipelineVpcOptionsOutputReference extends cdktn.ComplexObject {
   }
 
   // vpc_endpoint_management - computed: true, optional: true, required: false
-  private _vpcEndpointManagement?: string;
+  private _vpcEndpointManagement?: string; 
   public get vpcEndpointManagement() {
     return this.getStringAttribute('vpc_endpoint_management');
   }
@@ -1410,7 +1410,7 @@ export class OsisPipeline extends cdktn.TerraformResource {
   }
 
   // max_units - computed: false, optional: false, required: true
-  private _maxUnits?: number;
+  private _maxUnits?: number; 
   public get maxUnits() {
     return this.getNumberAttribute('max_units');
   }
@@ -1423,7 +1423,7 @@ export class OsisPipeline extends cdktn.TerraformResource {
   }
 
   // min_units - computed: false, optional: false, required: true
-  private _minUnits?: number;
+  private _minUnits?: number; 
   public get minUnits() {
     return this.getNumberAttribute('min_units');
   }
@@ -1441,7 +1441,7 @@ export class OsisPipeline extends cdktn.TerraformResource {
   }
 
   // pipeline_configuration_body - computed: false, optional: false, required: true
-  private _pipelineConfigurationBody?: string;
+  private _pipelineConfigurationBody?: string; 
   public get pipelineConfigurationBody() {
     return this.getStringAttribute('pipeline_configuration_body');
   }
@@ -1454,7 +1454,7 @@ export class OsisPipeline extends cdktn.TerraformResource {
   }
 
   // pipeline_name - computed: false, optional: false, required: true
-  private _pipelineName?: string;
+  private _pipelineName?: string; 
   public get pipelineName() {
     return this.getStringAttribute('pipeline_name');
   }
@@ -1467,7 +1467,7 @@ export class OsisPipeline extends cdktn.TerraformResource {
   }
 
   // pipeline_role_arn - computed: true, optional: true, required: false
-  private _pipelineRoleArn?: string;
+  private _pipelineRoleArn?: string; 
   public get pipelineRoleArn() {
     return this.getStringAttribute('pipeline_role_arn');
   }

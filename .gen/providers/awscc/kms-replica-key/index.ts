@@ -146,7 +146,7 @@ export class KmsReplicaKeyTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -162,7 +162,7 @@ export class KmsReplicaKeyTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -266,7 +266,7 @@ export class KmsReplicaKey extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -282,7 +282,7 @@ export class KmsReplicaKey extends cdktn.TerraformResource {
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -308,7 +308,7 @@ export class KmsReplicaKey extends cdktn.TerraformResource {
   }
 
   // key_policy - computed: false, optional: false, required: true
-  private _keyPolicy?: string;
+  private _keyPolicy?: string; 
   public get keyPolicy() {
     return this.getStringAttribute('key_policy');
   }
@@ -321,7 +321,7 @@ export class KmsReplicaKey extends cdktn.TerraformResource {
   }
 
   // pending_window_in_days - computed: true, optional: true, required: false
-  private _pendingWindowInDays?: number;
+  private _pendingWindowInDays?: number; 
   public get pendingWindowInDays() {
     return this.getNumberAttribute('pending_window_in_days');
   }
@@ -337,7 +337,7 @@ export class KmsReplicaKey extends cdktn.TerraformResource {
   }
 
   // primary_key_arn - computed: false, optional: false, required: true
-  private _primaryKeyArn?: string;
+  private _primaryKeyArn?: string; 
   public get primaryKeyArn() {
     return this.getStringAttribute('primary_key_arn');
   }

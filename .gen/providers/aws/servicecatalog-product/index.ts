@@ -231,7 +231,7 @@ export class ServicecatalogProductProvisioningArtifactParametersOutputReference 
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -247,7 +247,7 @@ export class ServicecatalogProductProvisioningArtifactParametersOutputReference 
   }
 
   // disable_template_validation - computed: false, optional: true, required: false
-  private _disableTemplateValidation?: boolean | cdktn.IResolvable;
+  private _disableTemplateValidation?: boolean | cdktn.IResolvable; 
   public get disableTemplateValidation() {
     return this.getBooleanAttribute('disable_template_validation');
   }
@@ -263,7 +263,7 @@ export class ServicecatalogProductProvisioningArtifactParametersOutputReference 
   }
 
   // name - computed: false, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -279,7 +279,7 @@ export class ServicecatalogProductProvisioningArtifactParametersOutputReference 
   }
 
   // template_physical_id - computed: false, optional: true, required: false
-  private _templatePhysicalId?: string;
+  private _templatePhysicalId?: string; 
   public get templatePhysicalId() {
     return this.getStringAttribute('template_physical_id');
   }
@@ -295,7 +295,7 @@ export class ServicecatalogProductProvisioningArtifactParametersOutputReference 
   }
 
   // template_url - computed: false, optional: true, required: false
-  private _templateUrl?: string;
+  private _templateUrl?: string; 
   public get templateUrl() {
     return this.getStringAttribute('template_url');
   }
@@ -311,7 +311,7 @@ export class ServicecatalogProductProvisioningArtifactParametersOutputReference 
   }
 
   // type - computed: false, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -456,7 +456,7 @@ export class ServicecatalogProductTimeoutsOutputReference extends cdktn.ComplexO
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -472,7 +472,7 @@ export class ServicecatalogProductTimeoutsOutputReference extends cdktn.ComplexO
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -488,7 +488,7 @@ export class ServicecatalogProductTimeoutsOutputReference extends cdktn.ComplexO
   }
 
   // read - computed: false, optional: true, required: false
-  private _read?: string;
+  private _read?: string; 
   public get read() {
     return this.getStringAttribute('read');
   }
@@ -504,7 +504,7 @@ export class ServicecatalogProductTimeoutsOutputReference extends cdktn.ComplexO
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -592,7 +592,7 @@ export class ServicecatalogProduct extends cdktn.TerraformResource {
   // ==========
 
   // accept_language - computed: false, optional: true, required: false
-  private _acceptLanguage?: string;
+  private _acceptLanguage?: string; 
   public get acceptLanguage() {
     return this.getStringAttribute('accept_language');
   }
@@ -618,7 +618,7 @@ export class ServicecatalogProduct extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -634,7 +634,7 @@ export class ServicecatalogProduct extends cdktn.TerraformResource {
   }
 
   // distributor - computed: true, optional: true, required: false
-  private _distributor?: string;
+  private _distributor?: string; 
   public get distributor() {
     return this.getStringAttribute('distributor');
   }
@@ -655,7 +655,7 @@ export class ServicecatalogProduct extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -671,7 +671,7 @@ export class ServicecatalogProduct extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -684,7 +684,7 @@ export class ServicecatalogProduct extends cdktn.TerraformResource {
   }
 
   // owner - computed: false, optional: false, required: true
-  private _owner?: string;
+  private _owner?: string; 
   public get owner() {
     return this.getStringAttribute('owner');
   }
@@ -697,7 +697,7 @@ export class ServicecatalogProduct extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -718,7 +718,7 @@ export class ServicecatalogProduct extends cdktn.TerraformResource {
   }
 
   // support_description - computed: true, optional: true, required: false
-  private _supportDescription?: string;
+  private _supportDescription?: string; 
   public get supportDescription() {
     return this.getStringAttribute('support_description');
   }
@@ -734,7 +734,7 @@ export class ServicecatalogProduct extends cdktn.TerraformResource {
   }
 
   // support_email - computed: true, optional: true, required: false
-  private _supportEmail?: string;
+  private _supportEmail?: string; 
   public get supportEmail() {
     return this.getStringAttribute('support_email');
   }
@@ -750,7 +750,7 @@ export class ServicecatalogProduct extends cdktn.TerraformResource {
   }
 
   // support_url - computed: true, optional: true, required: false
-  private _supportUrl?: string;
+  private _supportUrl?: string; 
   public get supportUrl() {
     return this.getStringAttribute('support_url');
   }
@@ -766,7 +766,7 @@ export class ServicecatalogProduct extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -782,7 +782,7 @@ export class ServicecatalogProduct extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -798,7 +798,7 @@ export class ServicecatalogProduct extends cdktn.TerraformResource {
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }

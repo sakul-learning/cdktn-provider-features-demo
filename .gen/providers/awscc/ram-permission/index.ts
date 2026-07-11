@@ -132,7 +132,7 @@ export class RamPermissionTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -148,7 +148,7 @@ export class RamPermissionTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -260,7 +260,7 @@ export class RamPermission extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -278,7 +278,7 @@ export class RamPermission extends cdktn.TerraformResource {
   }
 
   // policy_template - computed: false, optional: false, required: true
-  private _policyTemplate?: string;
+  private _policyTemplate?: string; 
   public get policyTemplate() {
     return this.getStringAttribute('policy_template');
   }
@@ -291,7 +291,7 @@ export class RamPermission extends cdktn.TerraformResource {
   }
 
   // resource_type - computed: false, optional: false, required: true
-  private _resourceType?: string;
+  private _resourceType?: string; 
   public get resourceType() {
     return this.getStringAttribute('resource_type');
   }

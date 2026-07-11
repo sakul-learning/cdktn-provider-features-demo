@@ -200,7 +200,7 @@ export class ImagebuilderContainerRecipeComponentsParametersOutputReference exte
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -216,7 +216,7 @@ export class ImagebuilderContainerRecipeComponentsParametersOutputReference exte
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string[];
+  private _value?: string[]; 
   public get value() {
     return this.getListAttribute('value');
   }
@@ -353,7 +353,7 @@ export class ImagebuilderContainerRecipeComponentsOutputReference extends cdktn.
   }
 
   // component_arn - computed: true, optional: true, required: false
-  private _componentArn?: string;
+  private _componentArn?: string; 
   public get componentArn() {
     return this.getStringAttribute('component_arn');
   }
@@ -618,7 +618,7 @@ export class ImagebuilderContainerRecipeInstanceConfigurationBlockDeviceMappings
   }
 
   // delete_on_termination - computed: true, optional: true, required: false
-  private _deleteOnTermination?: boolean | cdktn.IResolvable;
+  private _deleteOnTermination?: boolean | cdktn.IResolvable; 
   public get deleteOnTermination() {
     return this.getBooleanAttribute('delete_on_termination');
   }
@@ -634,7 +634,7 @@ export class ImagebuilderContainerRecipeInstanceConfigurationBlockDeviceMappings
   }
 
   // encrypted - computed: true, optional: true, required: false
-  private _encrypted?: boolean | cdktn.IResolvable;
+  private _encrypted?: boolean | cdktn.IResolvable; 
   public get encrypted() {
     return this.getBooleanAttribute('encrypted');
   }
@@ -650,7 +650,7 @@ export class ImagebuilderContainerRecipeInstanceConfigurationBlockDeviceMappings
   }
 
   // iops - computed: true, optional: true, required: false
-  private _iops?: number;
+  private _iops?: number; 
   public get iops() {
     return this.getNumberAttribute('iops');
   }
@@ -666,7 +666,7 @@ export class ImagebuilderContainerRecipeInstanceConfigurationBlockDeviceMappings
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -682,7 +682,7 @@ export class ImagebuilderContainerRecipeInstanceConfigurationBlockDeviceMappings
   }
 
   // snapshot_id - computed: true, optional: true, required: false
-  private _snapshotId?: string;
+  private _snapshotId?: string; 
   public get snapshotId() {
     return this.getStringAttribute('snapshot_id');
   }
@@ -698,7 +698,7 @@ export class ImagebuilderContainerRecipeInstanceConfigurationBlockDeviceMappings
   }
 
   // throughput - computed: true, optional: true, required: false
-  private _throughput?: number;
+  private _throughput?: number; 
   public get throughput() {
     return this.getNumberAttribute('throughput');
   }
@@ -714,7 +714,7 @@ export class ImagebuilderContainerRecipeInstanceConfigurationBlockDeviceMappings
   }
 
   // volume_size - computed: true, optional: true, required: false
-  private _volumeSize?: number;
+  private _volumeSize?: number; 
   public get volumeSize() {
     return this.getNumberAttribute('volume_size');
   }
@@ -730,7 +730,7 @@ export class ImagebuilderContainerRecipeInstanceConfigurationBlockDeviceMappings
   }
 
   // volume_type - computed: true, optional: true, required: false
-  private _volumeType?: string;
+  private _volumeType?: string; 
   public get volumeType() {
     return this.getStringAttribute('volume_type');
   }
@@ -885,7 +885,7 @@ export class ImagebuilderContainerRecipeInstanceConfigurationBlockDeviceMappings
   }
 
   // device_name - computed: true, optional: true, required: false
-  private _deviceName?: string;
+  private _deviceName?: string; 
   public get deviceName() {
     return this.getStringAttribute('device_name');
   }
@@ -917,7 +917,7 @@ export class ImagebuilderContainerRecipeInstanceConfigurationBlockDeviceMappings
   }
 
   // no_device - computed: true, optional: true, required: false
-  private _noDevice?: string;
+  private _noDevice?: string; 
   public get noDevice() {
     return this.getStringAttribute('no_device');
   }
@@ -933,7 +933,7 @@ export class ImagebuilderContainerRecipeInstanceConfigurationBlockDeviceMappings
   }
 
   // virtual_name - computed: true, optional: true, required: false
-  private _virtualName?: string;
+  private _virtualName?: string; 
   public get virtualName() {
     return this.getStringAttribute('virtual_name');
   }
@@ -1084,7 +1084,7 @@ export class ImagebuilderContainerRecipeInstanceConfigurationOutputReference ext
   }
 
   // image - computed: true, optional: true, required: false
-  private _image?: string;
+  private _image?: string; 
   public get image() {
     return this.getStringAttribute('image');
   }
@@ -1268,7 +1268,7 @@ export class ImagebuilderContainerRecipeTargetRepositoryOutputReference extends 
   }
 
   // repository_name - computed: true, optional: true, required: false
-  private _repositoryName?: string;
+  private _repositoryName?: string; 
   public get repositoryName() {
     return this.getStringAttribute('repository_name');
   }
@@ -1284,7 +1284,7 @@ export class ImagebuilderContainerRecipeTargetRepositoryOutputReference extends 
   }
 
   // service - computed: true, optional: true, required: false
-  private _service?: string;
+  private _service?: string; 
   public get service() {
     return this.getStringAttribute('service');
   }
@@ -1393,7 +1393,7 @@ export class ImagebuilderContainerRecipe extends cdktn.TerraformResource {
   }
 
   // container_type - computed: true, optional: true, required: false
-  private _containerType?: string;
+  private _containerType?: string; 
   public get containerType() {
     return this.getStringAttribute('container_type');
   }
@@ -1409,7 +1409,7 @@ export class ImagebuilderContainerRecipe extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1425,7 +1425,7 @@ export class ImagebuilderContainerRecipe extends cdktn.TerraformResource {
   }
 
   // dockerfile_template_data - computed: true, optional: true, required: false
-  private _dockerfileTemplateData?: string;
+  private _dockerfileTemplateData?: string; 
   public get dockerfileTemplateData() {
     return this.getStringAttribute('dockerfile_template_data');
   }
@@ -1441,7 +1441,7 @@ export class ImagebuilderContainerRecipe extends cdktn.TerraformResource {
   }
 
   // dockerfile_template_uri - computed: true, optional: true, required: false
-  private _dockerfileTemplateUri?: string;
+  private _dockerfileTemplateUri?: string; 
   public get dockerfileTemplateUri() {
     return this.getStringAttribute('dockerfile_template_uri');
   }
@@ -1462,7 +1462,7 @@ export class ImagebuilderContainerRecipe extends cdktn.TerraformResource {
   }
 
   // image_os_version_override - computed: true, optional: true, required: false
-  private _imageOsVersionOverride?: string;
+  private _imageOsVersionOverride?: string; 
   public get imageOsVersionOverride() {
     return this.getStringAttribute('image_os_version_override');
   }
@@ -1494,7 +1494,7 @@ export class ImagebuilderContainerRecipe extends cdktn.TerraformResource {
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -1516,7 +1516,7 @@ export class ImagebuilderContainerRecipe extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1532,7 +1532,7 @@ export class ImagebuilderContainerRecipe extends cdktn.TerraformResource {
   }
 
   // parent_image - computed: true, optional: true, required: false
-  private _parentImage?: string;
+  private _parentImage?: string; 
   public get parentImage() {
     return this.getStringAttribute('parent_image');
   }
@@ -1548,7 +1548,7 @@ export class ImagebuilderContainerRecipe extends cdktn.TerraformResource {
   }
 
   // platform_override - computed: true, optional: true, required: false
-  private _platformOverride?: string;
+  private _platformOverride?: string; 
   public get platformOverride() {
     return this.getStringAttribute('platform_override');
   }
@@ -1564,7 +1564,7 @@ export class ImagebuilderContainerRecipe extends cdktn.TerraformResource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -1596,7 +1596,7 @@ export class ImagebuilderContainerRecipe extends cdktn.TerraformResource {
   }
 
   // version - computed: true, optional: true, required: false
-  private _version?: string;
+  private _version?: string; 
   public get version() {
     return this.getStringAttribute('version');
   }
@@ -1612,7 +1612,7 @@ export class ImagebuilderContainerRecipe extends cdktn.TerraformResource {
   }
 
   // working_directory - computed: true, optional: true, required: false
-  private _workingDirectory?: string;
+  private _workingDirectory?: string; 
   public get workingDirectory() {
     return this.getStringAttribute('working_directory');
   }

@@ -87,7 +87,7 @@ export class NetworkmanagerLinkAssociation extends cdktn.TerraformResource {
   // ==========
 
   // device_id - computed: false, optional: false, required: true
-  private _deviceId?: string;
+  private _deviceId?: string; 
   public get deviceId() {
     return this.getStringAttribute('device_id');
   }
@@ -100,7 +100,7 @@ export class NetworkmanagerLinkAssociation extends cdktn.TerraformResource {
   }
 
   // global_network_id - computed: false, optional: false, required: true
-  private _globalNetworkId?: string;
+  private _globalNetworkId?: string; 
   public get globalNetworkId() {
     return this.getStringAttribute('global_network_id');
   }
@@ -118,7 +118,7 @@ export class NetworkmanagerLinkAssociation extends cdktn.TerraformResource {
   }
 
   // link_id - computed: false, optional: false, required: true
-  private _linkId?: string;
+  private _linkId?: string; 
   public get linkId() {
     return this.getStringAttribute('link_id');
   }

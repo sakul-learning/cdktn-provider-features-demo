@@ -90,7 +90,7 @@ export class ShieldDrtAccess extends cdktn.TerraformResource {
   }
 
   // log_bucket_list - computed: true, optional: true, required: false
-  private _logBucketList?: string[];
+  private _logBucketList?: string[]; 
   public get logBucketList() {
     return this.getListAttribute('log_bucket_list');
   }
@@ -106,7 +106,7 @@ export class ShieldDrtAccess extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }

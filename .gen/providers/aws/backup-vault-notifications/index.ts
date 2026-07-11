@@ -101,7 +101,7 @@ export class BackupVaultNotifications extends cdktn.TerraformResource {
   }
 
   // backup_vault_events - computed: false, optional: false, required: true
-  private _backupVaultEvents?: string[];
+  private _backupVaultEvents?: string[]; 
   public get backupVaultEvents() {
     return cdktn.Fn.tolist(this.getListAttribute('backup_vault_events'));
   }
@@ -114,7 +114,7 @@ export class BackupVaultNotifications extends cdktn.TerraformResource {
   }
 
   // backup_vault_name - computed: false, optional: false, required: true
-  private _backupVaultName?: string;
+  private _backupVaultName?: string; 
   public get backupVaultName() {
     return this.getStringAttribute('backup_vault_name');
   }
@@ -127,7 +127,7 @@ export class BackupVaultNotifications extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -143,7 +143,7 @@ export class BackupVaultNotifications extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -159,7 +159,7 @@ export class BackupVaultNotifications extends cdktn.TerraformResource {
   }
 
   // sns_topic_arn - computed: false, optional: false, required: true
-  private _snsTopicArn?: string;
+  private _snsTopicArn?: string; 
   public get snsTopicArn() {
     return this.getStringAttribute('sns_topic_arn');
   }

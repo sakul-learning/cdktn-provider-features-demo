@@ -92,7 +92,7 @@ export class IotResourceSpecificLogging extends cdktn.TerraformResource {
   }
 
   // log_level - computed: false, optional: false, required: true
-  private _logLevel?: string;
+  private _logLevel?: string; 
   public get logLevel() {
     return this.getStringAttribute('log_level');
   }
@@ -110,7 +110,7 @@ export class IotResourceSpecificLogging extends cdktn.TerraformResource {
   }
 
   // target_name - computed: false, optional: false, required: true
-  private _targetName?: string;
+  private _targetName?: string; 
   public get targetName() {
     return this.getStringAttribute('target_name');
   }
@@ -123,7 +123,7 @@ export class IotResourceSpecificLogging extends cdktn.TerraformResource {
   }
 
   // target_type - computed: false, optional: false, required: true
-  private _targetType?: string;
+  private _targetType?: string; 
   public get targetType() {
     return this.getStringAttribute('target_type');
   }

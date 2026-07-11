@@ -161,7 +161,7 @@ export class EmrserverlessApplicationAutoStartConfigurationOutputReference exten
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -276,7 +276,7 @@ export class EmrserverlessApplicationAutoStopConfigurationOutputReference extend
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -292,7 +292,7 @@ export class EmrserverlessApplicationAutoStopConfigurationOutputReference extend
   }
 
   // idle_timeout_minutes - computed: true, optional: true, required: false
-  private _idleTimeoutMinutes?: number;
+  private _idleTimeoutMinutes?: number; 
   public get idleTimeoutMinutes() {
     return this.getNumberAttribute('idle_timeout_minutes');
   }
@@ -388,7 +388,7 @@ export class EmrserverlessApplicationImageConfigurationOutputReference extends c
   }
 
   // image_uri - computed: true, optional: true, required: false
-  private _imageUri?: string;
+  private _imageUri?: string; 
   public get imageUri() {
     return this.getStringAttribute('image_uri');
   }
@@ -522,7 +522,7 @@ export class EmrserverlessApplicationInitialCapacityValueWorkerConfigurationOutp
   }
 
   // cpu - computed: true, optional: true, required: false
-  private _cpu?: string;
+  private _cpu?: string; 
   public get cpu() {
     return this.getStringAttribute('cpu');
   }
@@ -538,7 +538,7 @@ export class EmrserverlessApplicationInitialCapacityValueWorkerConfigurationOutp
   }
 
   // disk - computed: true, optional: true, required: false
-  private _disk?: string;
+  private _disk?: string; 
   public get disk() {
     return this.getStringAttribute('disk');
   }
@@ -554,7 +554,7 @@ export class EmrserverlessApplicationInitialCapacityValueWorkerConfigurationOutp
   }
 
   // memory - computed: true, optional: true, required: false
-  private _memory?: string;
+  private _memory?: string; 
   public get memory() {
     return this.getStringAttribute('memory');
   }
@@ -683,7 +683,7 @@ export class EmrserverlessApplicationInitialCapacityValueOutputReference extends
   }
 
   // worker_count - computed: true, optional: true, required: false
-  private _workerCount?: number;
+  private _workerCount?: number; 
   public get workerCount() {
     return this.getNumberAttribute('worker_count');
   }
@@ -798,7 +798,7 @@ export class EmrserverlessApplicationInitialCapacityOutputReference extends cdkt
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -968,7 +968,7 @@ export class EmrserverlessApplicationMaximumCapacityOutputReference extends cdkt
   }
 
   // cpu - computed: true, optional: true, required: false
-  private _cpu?: string;
+  private _cpu?: string; 
   public get cpu() {
     return this.getStringAttribute('cpu');
   }
@@ -984,7 +984,7 @@ export class EmrserverlessApplicationMaximumCapacityOutputReference extends cdkt
   }
 
   // disk - computed: true, optional: true, required: false
-  private _disk?: string;
+  private _disk?: string; 
   public get disk() {
     return this.getStringAttribute('disk');
   }
@@ -1000,7 +1000,7 @@ export class EmrserverlessApplicationMaximumCapacityOutputReference extends cdkt
   }
 
   // memory - computed: true, optional: true, required: false
-  private _memory?: string;
+  private _memory?: string; 
   public get memory() {
     return this.getStringAttribute('memory');
   }
@@ -1115,7 +1115,7 @@ export class EmrserverlessApplicationNetworkConfigurationOutputReference extends
   }
 
   // security_group_ids - computed: true, optional: true, required: false
-  private _securityGroupIds?: string[];
+  private _securityGroupIds?: string[]; 
   public get securityGroupIds() {
     return cdktn.Fn.tolist(this.getListAttribute('security_group_ids'));
   }
@@ -1131,7 +1131,7 @@ export class EmrserverlessApplicationNetworkConfigurationOutputReference extends
   }
 
   // subnet_ids - computed: true, optional: true, required: false
-  private _subnetIds?: string[];
+  private _subnetIds?: string[]; 
   public get subnetIds() {
     return cdktn.Fn.tolist(this.getListAttribute('subnet_ids'));
   }
@@ -1148,13 +1148,13 @@ export class EmrserverlessApplicationNetworkConfigurationOutputReference extends
 }
 export interface EmrserverlessApplicationTags {
   /**
-  * The value for the tag. You can specify a value that is 1 to 128 Unicode characters in length. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
+  * The value for the tag. You can specify a value that is 1 to 128 Unicode characters in length. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/emrserverless_application#key EmrserverlessApplication#key}
   */
   readonly key?: string;
   /**
-  * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
+  * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/emrserverless_application#value EmrserverlessApplication#value}
   */
@@ -1248,7 +1248,7 @@ export class EmrserverlessApplicationTagsOutputReference extends cdktn.ComplexOb
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1264,7 +1264,7 @@ export class EmrserverlessApplicationTagsOutputReference extends cdktn.ComplexOb
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1380,7 +1380,7 @@ export class EmrserverlessApplicationWorkerTypeSpecificationsImageConfigurationO
   }
 
   // image_uri - computed: true, optional: true, required: false
-  private _imageUri?: string;
+  private _imageUri?: string; 
   public get imageUri() {
     return this.getStringAttribute('image_uri');
   }
@@ -1586,7 +1586,7 @@ export class EmrserverlessApplication extends cdktn.TerraformResource {
   }
 
   // architecture - computed: true, optional: true, required: false
-  private _architecture?: string;
+  private _architecture?: string; 
   public get architecture() {
     return this.getStringAttribute('architecture');
   }
@@ -1692,7 +1692,7 @@ export class EmrserverlessApplication extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1724,7 +1724,7 @@ export class EmrserverlessApplication extends cdktn.TerraformResource {
   }
 
   // release_label - computed: false, optional: false, required: true
-  private _releaseLabel?: string;
+  private _releaseLabel?: string; 
   public get releaseLabel() {
     return this.getStringAttribute('release_label');
   }
@@ -1753,7 +1753,7 @@ export class EmrserverlessApplication extends cdktn.TerraformResource {
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }

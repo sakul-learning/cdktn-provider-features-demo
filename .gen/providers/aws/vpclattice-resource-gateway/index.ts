@@ -171,7 +171,7 @@ export class VpclatticeResourceGatewayTimeoutsOutputReference extends cdktn.Comp
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -187,7 +187,7 @@ export class VpclatticeResourceGatewayTimeoutsOutputReference extends cdktn.Comp
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -203,7 +203,7 @@ export class VpclatticeResourceGatewayTimeoutsOutputReference extends cdktn.Comp
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -296,7 +296,7 @@ export class VpclatticeResourceGateway extends cdktn.TerraformResource {
   }
 
   // ip_address_type - computed: true, optional: true, required: false
-  private _ipAddressType?: string;
+  private _ipAddressType?: string; 
   public get ipAddressType() {
     return this.getStringAttribute('ip_address_type');
   }
@@ -312,7 +312,7 @@ export class VpclatticeResourceGateway extends cdktn.TerraformResource {
   }
 
   // ipv4_addresses_per_eni - computed: true, optional: true, required: false
-  private _ipv4AddressesPerEni?: number;
+  private _ipv4AddressesPerEni?: number; 
   public get ipv4AddressesPerEni() {
     return this.getNumberAttribute('ipv4_addresses_per_eni');
   }
@@ -328,7 +328,7 @@ export class VpclatticeResourceGateway extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -341,7 +341,7 @@ export class VpclatticeResourceGateway extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -357,7 +357,7 @@ export class VpclatticeResourceGateway extends cdktn.TerraformResource {
   }
 
   // resource_config_dns_resolution - computed: true, optional: true, required: false
-  private _resourceConfigDnsResolution?: string;
+  private _resourceConfigDnsResolution?: string; 
   public get resourceConfigDnsResolution() {
     return this.getStringAttribute('resource_config_dns_resolution');
   }
@@ -373,7 +373,7 @@ export class VpclatticeResourceGateway extends cdktn.TerraformResource {
   }
 
   // security_group_ids - computed: true, optional: true, required: false
-  private _securityGroupIds?: string[];
+  private _securityGroupIds?: string[]; 
   public get securityGroupIds() {
     return cdktn.Fn.tolist(this.getListAttribute('security_group_ids'));
   }
@@ -394,7 +394,7 @@ export class VpclatticeResourceGateway extends cdktn.TerraformResource {
   }
 
   // subnet_ids - computed: false, optional: false, required: true
-  private _subnetIds?: string[];
+  private _subnetIds?: string[]; 
   public get subnetIds() {
     return cdktn.Fn.tolist(this.getListAttribute('subnet_ids'));
   }
@@ -407,7 +407,7 @@ export class VpclatticeResourceGateway extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -429,7 +429,7 @@ export class VpclatticeResourceGateway extends cdktn.TerraformResource {
   }
 
   // vpc_id - computed: false, optional: false, required: true
-  private _vpcId?: string;
+  private _vpcId?: string; 
   public get vpcId() {
     return this.getStringAttribute('vpc_id');
   }

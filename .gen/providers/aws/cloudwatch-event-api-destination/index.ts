@@ -116,7 +116,7 @@ export class CloudwatchEventApiDestination extends cdktn.TerraformResource {
   }
 
   // connection_arn - computed: false, optional: false, required: true
-  private _connectionArn?: string;
+  private _connectionArn?: string; 
   public get connectionArn() {
     return this.getStringAttribute('connection_arn');
   }
@@ -129,7 +129,7 @@ export class CloudwatchEventApiDestination extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -145,7 +145,7 @@ export class CloudwatchEventApiDestination extends cdktn.TerraformResource {
   }
 
   // http_method - computed: false, optional: false, required: true
-  private _httpMethod?: string;
+  private _httpMethod?: string; 
   public get httpMethod() {
     return this.getStringAttribute('http_method');
   }
@@ -158,7 +158,7 @@ export class CloudwatchEventApiDestination extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -174,7 +174,7 @@ export class CloudwatchEventApiDestination extends cdktn.TerraformResource {
   }
 
   // invocation_endpoint - computed: false, optional: false, required: true
-  private _invocationEndpoint?: string;
+  private _invocationEndpoint?: string; 
   public get invocationEndpoint() {
     return this.getStringAttribute('invocation_endpoint');
   }
@@ -187,7 +187,7 @@ export class CloudwatchEventApiDestination extends cdktn.TerraformResource {
   }
 
   // invocation_rate_limit_per_second - computed: false, optional: true, required: false
-  private _invocationRateLimitPerSecond?: number;
+  private _invocationRateLimitPerSecond?: number; 
   public get invocationRateLimitPerSecond() {
     return this.getNumberAttribute('invocation_rate_limit_per_second');
   }
@@ -203,7 +203,7 @@ export class CloudwatchEventApiDestination extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -216,7 +216,7 @@ export class CloudwatchEventApiDestination extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

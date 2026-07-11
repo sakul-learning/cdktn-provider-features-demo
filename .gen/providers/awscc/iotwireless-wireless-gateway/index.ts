@@ -146,7 +146,7 @@ export class IotwirelessWirelessGatewayLoRaWanOutputReference extends cdktn.Comp
   }
 
   // gateway_eui - computed: false, optional: false, required: true
-  private _gatewayEui?: string;
+  private _gatewayEui?: string; 
   public get gatewayEui() {
     return this.getStringAttribute('gateway_eui');
   }
@@ -159,7 +159,7 @@ export class IotwirelessWirelessGatewayLoRaWanOutputReference extends cdktn.Comp
   }
 
   // rf_region - computed: false, optional: false, required: true
-  private _rfRegion?: string;
+  private _rfRegion?: string; 
   public get rfRegion() {
     return this.getStringAttribute('rf_region');
   }
@@ -269,7 +269,7 @@ export class IotwirelessWirelessGatewayTagsOutputReference extends cdktn.Complex
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -285,7 +285,7 @@ export class IotwirelessWirelessGatewayTagsOutputReference extends cdktn.Complex
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -390,7 +390,7 @@ export class IotwirelessWirelessGateway extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -411,7 +411,7 @@ export class IotwirelessWirelessGateway extends cdktn.TerraformResource {
   }
 
   // last_uplink_received_at - computed: true, optional: true, required: false
-  private _lastUplinkReceivedAt?: string;
+  private _lastUplinkReceivedAt?: string; 
   public get lastUplinkReceivedAt() {
     return this.getStringAttribute('last_uplink_received_at');
   }
@@ -440,7 +440,7 @@ export class IotwirelessWirelessGateway extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -472,7 +472,7 @@ export class IotwirelessWirelessGateway extends cdktn.TerraformResource {
   }
 
   // thing_arn - computed: true, optional: true, required: false
-  private _thingArn?: string;
+  private _thingArn?: string; 
   public get thingArn() {
     return this.getStringAttribute('thing_arn');
   }
@@ -488,7 +488,7 @@ export class IotwirelessWirelessGateway extends cdktn.TerraformResource {
   }
 
   // thing_name - computed: true, optional: true, required: false
-  private _thingName?: string;
+  private _thingName?: string; 
   public get thingName() {
     return this.getStringAttribute('thing_name');
   }

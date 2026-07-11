@@ -91,7 +91,7 @@ export class CognitoUserPoolGroup extends cdktn.TerraformResource {
   // ==========
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -107,7 +107,7 @@ export class CognitoUserPoolGroup extends cdktn.TerraformResource {
   }
 
   // group_name - computed: true, optional: true, required: false
-  private _groupName?: string;
+  private _groupName?: string; 
   public get groupName() {
     return this.getStringAttribute('group_name');
   }
@@ -128,7 +128,7 @@ export class CognitoUserPoolGroup extends cdktn.TerraformResource {
   }
 
   // precedence - computed: true, optional: true, required: false
-  private _precedence?: number;
+  private _precedence?: number; 
   public get precedence() {
     return this.getNumberAttribute('precedence');
   }
@@ -144,7 +144,7 @@ export class CognitoUserPoolGroup extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -160,7 +160,7 @@ export class CognitoUserPoolGroup extends cdktn.TerraformResource {
   }
 
   // user_pool_id - computed: false, optional: false, required: true
-  private _userPoolId?: string;
+  private _userPoolId?: string; 
   public get userPoolId() {
     return this.getStringAttribute('user_pool_id');
   }

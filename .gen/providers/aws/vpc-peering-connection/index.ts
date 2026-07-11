@@ -136,7 +136,7 @@ export class VpcPeeringConnectionAccepterOutputReference extends cdktn.ComplexOb
   }
 
   // allow_remote_vpc_dns_resolution - computed: false, optional: true, required: false
-  private _allowRemoteVpcDnsResolution?: boolean | cdktn.IResolvable;
+  private _allowRemoteVpcDnsResolution?: boolean | cdktn.IResolvable; 
   public get allowRemoteVpcDnsResolution() {
     return this.getBooleanAttribute('allow_remote_vpc_dns_resolution');
   }
@@ -220,7 +220,7 @@ export class VpcPeeringConnectionRequesterOutputReference extends cdktn.ComplexO
   }
 
   // allow_remote_vpc_dns_resolution - computed: false, optional: true, required: false
-  private _allowRemoteVpcDnsResolution?: boolean | cdktn.IResolvable;
+  private _allowRemoteVpcDnsResolution?: boolean | cdktn.IResolvable; 
   public get allowRemoteVpcDnsResolution() {
     return this.getBooleanAttribute('allow_remote_vpc_dns_resolution');
   }
@@ -348,7 +348,7 @@ export class VpcPeeringConnectionTimeoutsOutputReference extends cdktn.ComplexOb
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -364,7 +364,7 @@ export class VpcPeeringConnectionTimeoutsOutputReference extends cdktn.ComplexOb
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -380,7 +380,7 @@ export class VpcPeeringConnectionTimeoutsOutputReference extends cdktn.ComplexOb
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -470,7 +470,7 @@ export class VpcPeeringConnection extends cdktn.TerraformResource {
   }
 
   // auto_accept - computed: false, optional: true, required: false
-  private _autoAccept?: boolean | cdktn.IResolvable;
+  private _autoAccept?: boolean | cdktn.IResolvable; 
   public get autoAccept() {
     return this.getBooleanAttribute('auto_accept');
   }
@@ -486,7 +486,7 @@ export class VpcPeeringConnection extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -502,7 +502,7 @@ export class VpcPeeringConnection extends cdktn.TerraformResource {
   }
 
   // peer_owner_id - computed: true, optional: true, required: false
-  private _peerOwnerId?: string;
+  private _peerOwnerId?: string; 
   public get peerOwnerId() {
     return this.getStringAttribute('peer_owner_id');
   }
@@ -518,7 +518,7 @@ export class VpcPeeringConnection extends cdktn.TerraformResource {
   }
 
   // peer_region - computed: true, optional: true, required: false
-  private _peerRegion?: string;
+  private _peerRegion?: string; 
   public get peerRegion() {
     return this.getStringAttribute('peer_region');
   }
@@ -534,7 +534,7 @@ export class VpcPeeringConnection extends cdktn.TerraformResource {
   }
 
   // peer_vpc_id - computed: false, optional: false, required: true
-  private _peerVpcId?: string;
+  private _peerVpcId?: string; 
   public get peerVpcId() {
     return this.getStringAttribute('peer_vpc_id');
   }
@@ -547,7 +547,7 @@ export class VpcPeeringConnection extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -563,7 +563,7 @@ export class VpcPeeringConnection extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -579,7 +579,7 @@ export class VpcPeeringConnection extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -595,7 +595,7 @@ export class VpcPeeringConnection extends cdktn.TerraformResource {
   }
 
   // vpc_id - computed: false, optional: false, required: true
-  private _vpcId?: string;
+  private _vpcId?: string; 
   public get vpcId() {
     return this.getStringAttribute('vpc_id');
   }

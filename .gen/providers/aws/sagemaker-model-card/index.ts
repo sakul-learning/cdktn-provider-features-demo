@@ -123,7 +123,7 @@ export class SagemakerModelCardSecurityConfigOutputReference extends cdktn.Compl
   }
 
   // kms_key_id - computed: false, optional: false, required: true
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -236,7 +236,7 @@ export class SagemakerModelCardTimeoutsOutputReference extends cdktn.ComplexObje
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -316,7 +316,7 @@ export class SagemakerModelCard extends cdktn.TerraformResource {
   // ==========
 
   // content - computed: false, optional: false, required: true
-  private _content?: string;
+  private _content?: string; 
   public get content() {
     return this.getStringAttribute('content');
   }
@@ -334,7 +334,7 @@ export class SagemakerModelCard extends cdktn.TerraformResource {
   }
 
   // model_card_name - computed: false, optional: false, required: true
-  private _modelCardName?: string;
+  private _modelCardName?: string; 
   public get modelCardName() {
     return this.getStringAttribute('model_card_name');
   }
@@ -347,7 +347,7 @@ export class SagemakerModelCard extends cdktn.TerraformResource {
   }
 
   // model_card_status - computed: false, optional: false, required: true
-  private _modelCardStatus?: string;
+  private _modelCardStatus?: string; 
   public get modelCardStatus() {
     return this.getStringAttribute('model_card_status');
   }
@@ -360,7 +360,7 @@ export class SagemakerModelCard extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -376,7 +376,7 @@ export class SagemakerModelCard extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

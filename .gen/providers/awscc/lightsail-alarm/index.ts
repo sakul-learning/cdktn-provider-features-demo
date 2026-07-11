@@ -148,7 +148,7 @@ export class LightsailAlarm extends cdktn.TerraformResource {
   }
 
   // alarm_name - computed: false, optional: false, required: true
-  private _alarmName?: string;
+  private _alarmName?: string; 
   public get alarmName() {
     return this.getStringAttribute('alarm_name');
   }
@@ -161,7 +161,7 @@ export class LightsailAlarm extends cdktn.TerraformResource {
   }
 
   // comparison_operator - computed: false, optional: false, required: true
-  private _comparisonOperator?: string;
+  private _comparisonOperator?: string; 
   public get comparisonOperator() {
     return this.getStringAttribute('comparison_operator');
   }
@@ -174,7 +174,7 @@ export class LightsailAlarm extends cdktn.TerraformResource {
   }
 
   // contact_protocols - computed: true, optional: true, required: false
-  private _contactProtocols?: string[];
+  private _contactProtocols?: string[]; 
   public get contactProtocols() {
     return cdktn.Fn.tolist(this.getListAttribute('contact_protocols'));
   }
@@ -190,7 +190,7 @@ export class LightsailAlarm extends cdktn.TerraformResource {
   }
 
   // datapoints_to_alarm - computed: true, optional: true, required: false
-  private _datapointsToAlarm?: number;
+  private _datapointsToAlarm?: number; 
   public get datapointsToAlarm() {
     return this.getNumberAttribute('datapoints_to_alarm');
   }
@@ -206,7 +206,7 @@ export class LightsailAlarm extends cdktn.TerraformResource {
   }
 
   // evaluation_periods - computed: false, optional: false, required: true
-  private _evaluationPeriods?: number;
+  private _evaluationPeriods?: number; 
   public get evaluationPeriods() {
     return this.getNumberAttribute('evaluation_periods');
   }
@@ -224,7 +224,7 @@ export class LightsailAlarm extends cdktn.TerraformResource {
   }
 
   // metric_name - computed: false, optional: false, required: true
-  private _metricName?: string;
+  private _metricName?: string; 
   public get metricName() {
     return this.getStringAttribute('metric_name');
   }
@@ -237,7 +237,7 @@ export class LightsailAlarm extends cdktn.TerraformResource {
   }
 
   // monitored_resource_name - computed: false, optional: false, required: true
-  private _monitoredResourceName?: string;
+  private _monitoredResourceName?: string; 
   public get monitoredResourceName() {
     return this.getStringAttribute('monitored_resource_name');
   }
@@ -250,7 +250,7 @@ export class LightsailAlarm extends cdktn.TerraformResource {
   }
 
   // notification_enabled - computed: true, optional: true, required: false
-  private _notificationEnabled?: boolean | cdktn.IResolvable;
+  private _notificationEnabled?: boolean | cdktn.IResolvable; 
   public get notificationEnabled() {
     return this.getBooleanAttribute('notification_enabled');
   }
@@ -266,7 +266,7 @@ export class LightsailAlarm extends cdktn.TerraformResource {
   }
 
   // notification_triggers - computed: true, optional: true, required: false
-  private _notificationTriggers?: string[];
+  private _notificationTriggers?: string[]; 
   public get notificationTriggers() {
     return cdktn.Fn.tolist(this.getListAttribute('notification_triggers'));
   }
@@ -287,7 +287,7 @@ export class LightsailAlarm extends cdktn.TerraformResource {
   }
 
   // threshold - computed: false, optional: false, required: true
-  private _threshold?: number;
+  private _threshold?: number; 
   public get threshold() {
     return this.getNumberAttribute('threshold');
   }
@@ -300,7 +300,7 @@ export class LightsailAlarm extends cdktn.TerraformResource {
   }
 
   // treat_missing_data - computed: true, optional: true, required: false
-  private _treatMissingData?: string;
+  private _treatMissingData?: string; 
   public get treatMissingData() {
     return this.getStringAttribute('treat_missing_data');
   }

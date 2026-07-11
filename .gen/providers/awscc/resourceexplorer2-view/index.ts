@@ -107,7 +107,7 @@ export class Resourceexplorer2ViewFiltersOutputReference extends cdktn.ComplexOb
   }
 
   // filter_string - computed: true, optional: true, required: false
-  private _filterString?: string;
+  private _filterString?: string; 
   public get filterString() {
     return this.getStringAttribute('filter_string');
   }
@@ -203,7 +203,7 @@ export class Resourceexplorer2ViewIncludedPropertiesOutputReference extends cdkt
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -338,7 +338,7 @@ export class Resourceexplorer2View extends cdktn.TerraformResource {
   }
 
   // scope - computed: true, optional: true, required: false
-  private _scope?: string;
+  private _scope?: string; 
   public get scope() {
     return this.getStringAttribute('scope');
   }
@@ -354,7 +354,7 @@ export class Resourceexplorer2View extends cdktn.TerraformResource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -375,7 +375,7 @@ export class Resourceexplorer2View extends cdktn.TerraformResource {
   }
 
   // view_name - computed: false, optional: false, required: true
-  private _viewName?: string;
+  private _viewName?: string; 
   public get viewName() {
     return this.getStringAttribute('view_name');
   }

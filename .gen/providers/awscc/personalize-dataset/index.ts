@@ -119,7 +119,7 @@ export class PersonalizeDatasetDatasetImportJobDataSourceOutputReference extends
   }
 
   // data_location - computed: true, optional: true, required: false
-  private _dataLocation?: string;
+  private _dataLocation?: string; 
   public get dataLocation() {
     return this.getStringAttribute('data_location');
   }
@@ -307,7 +307,7 @@ export class PersonalizeDatasetDatasetImportJobOutputReference extends cdktn.Com
   }
 
   // dataset_arn - computed: true, optional: true, required: false
-  private _datasetArn?: string;
+  private _datasetArn?: string; 
   public get datasetArn() {
     return this.getStringAttribute('dataset_arn');
   }
@@ -323,7 +323,7 @@ export class PersonalizeDatasetDatasetImportJobOutputReference extends cdktn.Com
   }
 
   // dataset_import_job_arn - computed: true, optional: true, required: false
-  private _datasetImportJobArn?: string;
+  private _datasetImportJobArn?: string; 
   public get datasetImportJobArn() {
     return this.getStringAttribute('dataset_import_job_arn');
   }
@@ -339,7 +339,7 @@ export class PersonalizeDatasetDatasetImportJobOutputReference extends cdktn.Com
   }
 
   // job_name - computed: true, optional: true, required: false
-  private _jobName?: string;
+  private _jobName?: string; 
   public get jobName() {
     return this.getStringAttribute('job_name');
   }
@@ -355,7 +355,7 @@ export class PersonalizeDatasetDatasetImportJobOutputReference extends cdktn.Com
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -438,7 +438,7 @@ export class PersonalizeDataset extends cdktn.TerraformResource {
   }
 
   // dataset_group_arn - computed: false, optional: false, required: true
-  private _datasetGroupArn?: string;
+  private _datasetGroupArn?: string; 
   public get datasetGroupArn() {
     return this.getStringAttribute('dataset_group_arn');
   }
@@ -467,7 +467,7 @@ export class PersonalizeDataset extends cdktn.TerraformResource {
   }
 
   // dataset_type - computed: false, optional: false, required: true
-  private _datasetType?: string;
+  private _datasetType?: string; 
   public get datasetType() {
     return this.getStringAttribute('dataset_type');
   }
@@ -485,7 +485,7 @@ export class PersonalizeDataset extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -498,7 +498,7 @@ export class PersonalizeDataset extends cdktn.TerraformResource {
   }
 
   // schema_arn - computed: false, optional: false, required: true
-  private _schemaArn?: string;
+  private _schemaArn?: string; 
   public get schemaArn() {
     return this.getStringAttribute('schema_arn');
   }

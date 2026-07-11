@@ -143,7 +143,7 @@ export class ShieldProactiveEngagementEmergencyContactListStructOutputReference 
   }
 
   // contact_notes - computed: true, optional: true, required: false
-  private _contactNotes?: string;
+  private _contactNotes?: string; 
   public get contactNotes() {
     return this.getStringAttribute('contact_notes');
   }
@@ -159,7 +159,7 @@ export class ShieldProactiveEngagementEmergencyContactListStructOutputReference 
   }
 
   // email_address - computed: false, optional: false, required: true
-  private _emailAddress?: string;
+  private _emailAddress?: string; 
   public get emailAddress() {
     return this.getStringAttribute('email_address');
   }
@@ -172,7 +172,7 @@ export class ShieldProactiveEngagementEmergencyContactListStructOutputReference 
   }
 
   // phone_number - computed: true, optional: true, required: false
-  private _phoneNumber?: string;
+  private _phoneNumber?: string; 
   public get phoneNumber() {
     return this.getStringAttribute('phone_number');
   }
@@ -290,7 +290,7 @@ export class ShieldProactiveEngagement extends cdktn.TerraformResource {
   }
 
   // proactive_engagement_status - computed: false, optional: false, required: true
-  private _proactiveEngagementStatus?: string;
+  private _proactiveEngagementStatus?: string; 
   public get proactiveEngagementStatus() {
     return this.getStringAttribute('proactive_engagement_status');
   }

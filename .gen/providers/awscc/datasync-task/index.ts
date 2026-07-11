@@ -178,7 +178,7 @@ export class DatasyncTaskExcludesOutputReference extends cdktn.ComplexObject {
   }
 
   // filter_type - computed: true, optional: true, required: false
-  private _filterType?: string;
+  private _filterType?: string; 
   public get filterType() {
     return this.getStringAttribute('filter_type');
   }
@@ -194,7 +194,7 @@ export class DatasyncTaskExcludesOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -331,7 +331,7 @@ export class DatasyncTaskIncludesOutputReference extends cdktn.ComplexObject {
   }
 
   // filter_type - computed: true, optional: true, required: false
-  private _filterType?: string;
+  private _filterType?: string; 
   public get filterType() {
     return this.getStringAttribute('filter_type');
   }
@@ -347,7 +347,7 @@ export class DatasyncTaskIncludesOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -520,7 +520,7 @@ export class DatasyncTaskManifestConfigSourceS3OutputReference extends cdktn.Com
   }
 
   // bucket_access_role_arn - computed: true, optional: true, required: false
-  private _bucketAccessRoleArn?: string;
+  private _bucketAccessRoleArn?: string; 
   public get bucketAccessRoleArn() {
     return this.getStringAttribute('bucket_access_role_arn');
   }
@@ -536,7 +536,7 @@ export class DatasyncTaskManifestConfigSourceS3OutputReference extends cdktn.Com
   }
 
   // manifest_object_path - computed: true, optional: true, required: false
-  private _manifestObjectPath?: string;
+  private _manifestObjectPath?: string; 
   public get manifestObjectPath() {
     return this.getStringAttribute('manifest_object_path');
   }
@@ -552,7 +552,7 @@ export class DatasyncTaskManifestConfigSourceS3OutputReference extends cdktn.Com
   }
 
   // manifest_object_version_id - computed: true, optional: true, required: false
-  private _manifestObjectVersionId?: string;
+  private _manifestObjectVersionId?: string; 
   public get manifestObjectVersionId() {
     return this.getStringAttribute('manifest_object_version_id');
   }
@@ -568,7 +568,7 @@ export class DatasyncTaskManifestConfigSourceS3OutputReference extends cdktn.Com
   }
 
   // s3_bucket_arn - computed: true, optional: true, required: false
-  private _s3BucketArn?: string;
+  private _s3BucketArn?: string; 
   public get s3BucketArn() {
     return this.getStringAttribute('s3_bucket_arn');
   }
@@ -798,7 +798,7 @@ export class DatasyncTaskManifestConfigOutputReference extends cdktn.ComplexObje
   }
 
   // action - computed: true, optional: true, required: false
-  private _action?: string;
+  private _action?: string; 
   public get action() {
     return this.getStringAttribute('action');
   }
@@ -814,7 +814,7 @@ export class DatasyncTaskManifestConfigOutputReference extends cdktn.ComplexObje
   }
 
   // format - computed: true, optional: true, required: false
-  private _format?: string;
+  private _format?: string; 
   public get format() {
     return this.getStringAttribute('format');
   }
@@ -1192,7 +1192,7 @@ export class DatasyncTaskOptionsOutputReference extends cdktn.ComplexObject {
   }
 
   // atime - computed: true, optional: true, required: false
-  private _atime?: string;
+  private _atime?: string; 
   public get atime() {
     return this.getStringAttribute('atime');
   }
@@ -1208,7 +1208,7 @@ export class DatasyncTaskOptionsOutputReference extends cdktn.ComplexObject {
   }
 
   // bytes_per_second - computed: true, optional: true, required: false
-  private _bytesPerSecond?: number;
+  private _bytesPerSecond?: number; 
   public get bytesPerSecond() {
     return this.getNumberAttribute('bytes_per_second');
   }
@@ -1224,7 +1224,7 @@ export class DatasyncTaskOptionsOutputReference extends cdktn.ComplexObject {
   }
 
   // gid - computed: true, optional: true, required: false
-  private _gid?: string;
+  private _gid?: string; 
   public get gid() {
     return this.getStringAttribute('gid');
   }
@@ -1240,7 +1240,7 @@ export class DatasyncTaskOptionsOutputReference extends cdktn.ComplexObject {
   }
 
   // log_level - computed: true, optional: true, required: false
-  private _logLevel?: string;
+  private _logLevel?: string; 
   public get logLevel() {
     return this.getStringAttribute('log_level');
   }
@@ -1256,7 +1256,7 @@ export class DatasyncTaskOptionsOutputReference extends cdktn.ComplexObject {
   }
 
   // mtime - computed: true, optional: true, required: false
-  private _mtime?: string;
+  private _mtime?: string; 
   public get mtime() {
     return this.getStringAttribute('mtime');
   }
@@ -1272,7 +1272,7 @@ export class DatasyncTaskOptionsOutputReference extends cdktn.ComplexObject {
   }
 
   // object_tags - computed: true, optional: true, required: false
-  private _objectTags?: string;
+  private _objectTags?: string; 
   public get objectTags() {
     return this.getStringAttribute('object_tags');
   }
@@ -1288,7 +1288,7 @@ export class DatasyncTaskOptionsOutputReference extends cdktn.ComplexObject {
   }
 
   // overwrite_mode - computed: true, optional: true, required: false
-  private _overwriteMode?: string;
+  private _overwriteMode?: string; 
   public get overwriteMode() {
     return this.getStringAttribute('overwrite_mode');
   }
@@ -1304,7 +1304,7 @@ export class DatasyncTaskOptionsOutputReference extends cdktn.ComplexObject {
   }
 
   // posix_permissions - computed: true, optional: true, required: false
-  private _posixPermissions?: string;
+  private _posixPermissions?: string; 
   public get posixPermissions() {
     return this.getStringAttribute('posix_permissions');
   }
@@ -1320,7 +1320,7 @@ export class DatasyncTaskOptionsOutputReference extends cdktn.ComplexObject {
   }
 
   // preserve_deleted_files - computed: true, optional: true, required: false
-  private _preserveDeletedFiles?: string;
+  private _preserveDeletedFiles?: string; 
   public get preserveDeletedFiles() {
     return this.getStringAttribute('preserve_deleted_files');
   }
@@ -1336,7 +1336,7 @@ export class DatasyncTaskOptionsOutputReference extends cdktn.ComplexObject {
   }
 
   // preserve_devices - computed: true, optional: true, required: false
-  private _preserveDevices?: string;
+  private _preserveDevices?: string; 
   public get preserveDevices() {
     return this.getStringAttribute('preserve_devices');
   }
@@ -1352,7 +1352,7 @@ export class DatasyncTaskOptionsOutputReference extends cdktn.ComplexObject {
   }
 
   // security_descriptor_copy_flags - computed: true, optional: true, required: false
-  private _securityDescriptorCopyFlags?: string;
+  private _securityDescriptorCopyFlags?: string; 
   public get securityDescriptorCopyFlags() {
     return this.getStringAttribute('security_descriptor_copy_flags');
   }
@@ -1368,7 +1368,7 @@ export class DatasyncTaskOptionsOutputReference extends cdktn.ComplexObject {
   }
 
   // task_queueing - computed: true, optional: true, required: false
-  private _taskQueueing?: string;
+  private _taskQueueing?: string; 
   public get taskQueueing() {
     return this.getStringAttribute('task_queueing');
   }
@@ -1384,7 +1384,7 @@ export class DatasyncTaskOptionsOutputReference extends cdktn.ComplexObject {
   }
 
   // transfer_mode - computed: true, optional: true, required: false
-  private _transferMode?: string;
+  private _transferMode?: string; 
   public get transferMode() {
     return this.getStringAttribute('transfer_mode');
   }
@@ -1400,7 +1400,7 @@ export class DatasyncTaskOptionsOutputReference extends cdktn.ComplexObject {
   }
 
   // uid - computed: true, optional: true, required: false
-  private _uid?: string;
+  private _uid?: string; 
   public get uid() {
     return this.getStringAttribute('uid');
   }
@@ -1416,7 +1416,7 @@ export class DatasyncTaskOptionsOutputReference extends cdktn.ComplexObject {
   }
 
   // verify_mode - computed: true, optional: true, required: false
-  private _verifyMode?: string;
+  private _verifyMode?: string; 
   public get verifyMode() {
     return this.getStringAttribute('verify_mode');
   }
@@ -1531,7 +1531,7 @@ export class DatasyncTaskScheduleOutputReference extends cdktn.ComplexObject {
   }
 
   // schedule_expression - computed: true, optional: true, required: false
-  private _scheduleExpression?: string;
+  private _scheduleExpression?: string; 
   public get scheduleExpression() {
     return this.getStringAttribute('schedule_expression');
   }
@@ -1547,7 +1547,7 @@ export class DatasyncTaskScheduleOutputReference extends cdktn.ComplexObject {
   }
 
   // status - computed: true, optional: true, required: false
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -1664,7 +1664,7 @@ export class DatasyncTaskTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1680,7 +1680,7 @@ export class DatasyncTaskTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1834,7 +1834,7 @@ export class DatasyncTaskTaskReportConfigDestinationS3OutputReference extends cd
   }
 
   // bucket_access_role_arn - computed: true, optional: true, required: false
-  private _bucketAccessRoleArn?: string;
+  private _bucketAccessRoleArn?: string; 
   public get bucketAccessRoleArn() {
     return this.getStringAttribute('bucket_access_role_arn');
   }
@@ -1850,7 +1850,7 @@ export class DatasyncTaskTaskReportConfigDestinationS3OutputReference extends cd
   }
 
   // s3_bucket_arn - computed: true, optional: true, required: false
-  private _s3BucketArn?: string;
+  private _s3BucketArn?: string; 
   public get s3BucketArn() {
     return this.getStringAttribute('s3_bucket_arn');
   }
@@ -1866,7 +1866,7 @@ export class DatasyncTaskTaskReportConfigDestinationS3OutputReference extends cd
   }
 
   // subdirectory - computed: true, optional: true, required: false
-  private _subdirectory?: string;
+  private _subdirectory?: string; 
   public get subdirectory() {
     return this.getStringAttribute('subdirectory');
   }
@@ -2058,7 +2058,7 @@ export class DatasyncTaskTaskReportConfigOverridesDeletedOutputReference extends
   }
 
   // report_level - computed: true, optional: true, required: false
-  private _reportLevel?: string;
+  private _reportLevel?: string; 
   public get reportLevel() {
     return this.getStringAttribute('report_level');
   }
@@ -2154,7 +2154,7 @@ export class DatasyncTaskTaskReportConfigOverridesSkippedOutputReference extends
   }
 
   // report_level - computed: true, optional: true, required: false
-  private _reportLevel?: string;
+  private _reportLevel?: string; 
   public get reportLevel() {
     return this.getStringAttribute('report_level');
   }
@@ -2250,7 +2250,7 @@ export class DatasyncTaskTaskReportConfigOverridesTransferredOutputReference ext
   }
 
   // report_level - computed: true, optional: true, required: false
-  private _reportLevel?: string;
+  private _reportLevel?: string; 
   public get reportLevel() {
     return this.getStringAttribute('report_level');
   }
@@ -2346,7 +2346,7 @@ export class DatasyncTaskTaskReportConfigOverridesVerifiedOutputReference extend
   }
 
   // report_level - computed: true, optional: true, required: false
-  private _reportLevel?: string;
+  private _reportLevel?: string; 
   public get reportLevel() {
     return this.getStringAttribute('report_level');
   }
@@ -2735,7 +2735,7 @@ export class DatasyncTaskTaskReportConfigOutputReference extends cdktn.ComplexOb
   }
 
   // object_version_ids - computed: true, optional: true, required: false
-  private _objectVersionIds?: string;
+  private _objectVersionIds?: string; 
   public get objectVersionIds() {
     return this.getStringAttribute('object_version_ids');
   }
@@ -2751,7 +2751,7 @@ export class DatasyncTaskTaskReportConfigOutputReference extends cdktn.ComplexOb
   }
 
   // output_type - computed: true, optional: true, required: false
-  private _outputType?: string;
+  private _outputType?: string; 
   public get outputType() {
     return this.getStringAttribute('output_type');
   }
@@ -2783,7 +2783,7 @@ export class DatasyncTaskTaskReportConfigOutputReference extends cdktn.ComplexOb
   }
 
   // report_level - computed: true, optional: true, required: false
-  private _reportLevel?: string;
+  private _reportLevel?: string; 
   public get reportLevel() {
     return this.getStringAttribute('report_level');
   }
@@ -2868,7 +2868,7 @@ export class DatasyncTask extends cdktn.TerraformResource {
   // ==========
 
   // cloudwatch_log_group_arn - computed: true, optional: true, required: false
-  private _cloudwatchLogGroupArn?: string;
+  private _cloudwatchLogGroupArn?: string; 
   public get cloudwatchLogGroupArn() {
     return this.getStringAttribute('cloudwatch_log_group_arn');
   }
@@ -2884,7 +2884,7 @@ export class DatasyncTask extends cdktn.TerraformResource {
   }
 
   // destination_location_arn - computed: false, optional: false, required: true
-  private _destinationLocationArn?: string;
+  private _destinationLocationArn?: string; 
   public get destinationLocationArn() {
     return this.getStringAttribute('destination_location_arn');
   }
@@ -2955,7 +2955,7 @@ export class DatasyncTask extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -3003,7 +3003,7 @@ export class DatasyncTask extends cdktn.TerraformResource {
   }
 
   // source_location_arn - computed: false, optional: false, required: true
-  private _sourceLocationArn?: string;
+  private _sourceLocationArn?: string; 
   public get sourceLocationArn() {
     return this.getStringAttribute('source_location_arn');
   }
@@ -3047,7 +3047,7 @@ export class DatasyncTask extends cdktn.TerraformResource {
   }
 
   // task_mode - computed: true, optional: true, required: false
-  private _taskMode?: string;
+  private _taskMode?: string; 
   public get taskMode() {
     return this.getStringAttribute('task_mode');
   }

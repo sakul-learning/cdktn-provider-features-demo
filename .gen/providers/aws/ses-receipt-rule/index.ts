@@ -206,7 +206,7 @@ export class SesReceiptRuleAddHeaderActionOutputReference extends cdktn.ComplexO
   }
 
   // header_name - computed: false, optional: false, required: true
-  private _headerName?: string;
+  private _headerName?: string; 
   public get headerName() {
     return this.getStringAttribute('header_name');
   }
@@ -219,7 +219,7 @@ export class SesReceiptRuleAddHeaderActionOutputReference extends cdktn.ComplexO
   }
 
   // header_value - computed: false, optional: false, required: true
-  private _headerValue?: string;
+  private _headerValue?: string; 
   public get headerValue() {
     return this.getStringAttribute('header_value');
   }
@@ -232,7 +232,7 @@ export class SesReceiptRuleAddHeaderActionOutputReference extends cdktn.ComplexO
   }
 
   // position - computed: false, optional: false, required: true
-  private _position?: number;
+  private _position?: number; 
   public get position() {
     return this.getNumberAttribute('position');
   }
@@ -430,7 +430,7 @@ export class SesReceiptRuleBounceActionOutputReference extends cdktn.ComplexObje
   }
 
   // message - computed: false, optional: false, required: true
-  private _message?: string;
+  private _message?: string; 
   public get message() {
     return this.getStringAttribute('message');
   }
@@ -443,7 +443,7 @@ export class SesReceiptRuleBounceActionOutputReference extends cdktn.ComplexObje
   }
 
   // position - computed: false, optional: false, required: true
-  private _position?: number;
+  private _position?: number; 
   public get position() {
     return this.getNumberAttribute('position');
   }
@@ -456,7 +456,7 @@ export class SesReceiptRuleBounceActionOutputReference extends cdktn.ComplexObje
   }
 
   // sender - computed: false, optional: false, required: true
-  private _sender?: string;
+  private _sender?: string; 
   public get sender() {
     return this.getStringAttribute('sender');
   }
@@ -469,7 +469,7 @@ export class SesReceiptRuleBounceActionOutputReference extends cdktn.ComplexObje
   }
 
   // smtp_reply_code - computed: false, optional: false, required: true
-  private _smtpReplyCode?: string;
+  private _smtpReplyCode?: string; 
   public get smtpReplyCode() {
     return this.getStringAttribute('smtp_reply_code');
   }
@@ -482,7 +482,7 @@ export class SesReceiptRuleBounceActionOutputReference extends cdktn.ComplexObje
   }
 
   // status_code - computed: false, optional: true, required: false
-  private _statusCode?: string;
+  private _statusCode?: string; 
   public get statusCode() {
     return this.getStringAttribute('status_code');
   }
@@ -498,7 +498,7 @@ export class SesReceiptRuleBounceActionOutputReference extends cdktn.ComplexObje
   }
 
   // topic_arn - computed: false, optional: true, required: false
-  private _topicArn?: string;
+  private _topicArn?: string; 
   public get topicArn() {
     return this.getStringAttribute('topic_arn');
   }
@@ -665,7 +665,7 @@ export class SesReceiptRuleLambdaActionOutputReference extends cdktn.ComplexObje
   }
 
   // function_arn - computed: false, optional: false, required: true
-  private _functionArn?: string;
+  private _functionArn?: string; 
   public get functionArn() {
     return this.getStringAttribute('function_arn');
   }
@@ -678,7 +678,7 @@ export class SesReceiptRuleLambdaActionOutputReference extends cdktn.ComplexObje
   }
 
   // invocation_type - computed: false, optional: true, required: false
-  private _invocationType?: string;
+  private _invocationType?: string; 
   public get invocationType() {
     return this.getStringAttribute('invocation_type');
   }
@@ -694,7 +694,7 @@ export class SesReceiptRuleLambdaActionOutputReference extends cdktn.ComplexObje
   }
 
   // position - computed: false, optional: false, required: true
-  private _position?: number;
+  private _position?: number; 
   public get position() {
     return this.getNumberAttribute('position');
   }
@@ -707,7 +707,7 @@ export class SesReceiptRuleLambdaActionOutputReference extends cdktn.ComplexObje
   }
 
   // topic_arn - computed: false, optional: true, required: false
-  private _topicArn?: string;
+  private _topicArn?: string; 
   public get topicArn() {
     return this.getStringAttribute('topic_arn');
   }
@@ -908,7 +908,7 @@ export class SesReceiptRuleS3ActionOutputReference extends cdktn.ComplexObject {
   }
 
   // bucket_name - computed: false, optional: false, required: true
-  private _bucketName?: string;
+  private _bucketName?: string; 
   public get bucketName() {
     return this.getStringAttribute('bucket_name');
   }
@@ -921,7 +921,7 @@ export class SesReceiptRuleS3ActionOutputReference extends cdktn.ComplexObject {
   }
 
   // iam_role_arn - computed: false, optional: true, required: false
-  private _iamRoleArn?: string;
+  private _iamRoleArn?: string; 
   public get iamRoleArn() {
     return this.getStringAttribute('iam_role_arn');
   }
@@ -937,7 +937,7 @@ export class SesReceiptRuleS3ActionOutputReference extends cdktn.ComplexObject {
   }
 
   // kms_key_arn - computed: false, optional: true, required: false
-  private _kmsKeyArn?: string;
+  private _kmsKeyArn?: string; 
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -953,7 +953,7 @@ export class SesReceiptRuleS3ActionOutputReference extends cdktn.ComplexObject {
   }
 
   // object_key_prefix - computed: false, optional: true, required: false
-  private _objectKeyPrefix?: string;
+  private _objectKeyPrefix?: string; 
   public get objectKeyPrefix() {
     return this.getStringAttribute('object_key_prefix');
   }
@@ -969,7 +969,7 @@ export class SesReceiptRuleS3ActionOutputReference extends cdktn.ComplexObject {
   }
 
   // position - computed: false, optional: false, required: true
-  private _position?: number;
+  private _position?: number; 
   public get position() {
     return this.getNumberAttribute('position');
   }
@@ -982,7 +982,7 @@ export class SesReceiptRuleS3ActionOutputReference extends cdktn.ComplexObject {
   }
 
   // topic_arn - computed: false, optional: true, required: false
-  private _topicArn?: string;
+  private _topicArn?: string; 
   public get topicArn() {
     return this.getStringAttribute('topic_arn');
   }
@@ -1132,7 +1132,7 @@ export class SesReceiptRuleSnsActionOutputReference extends cdktn.ComplexObject 
   }
 
   // encoding - computed: false, optional: true, required: false
-  private _encoding?: string;
+  private _encoding?: string; 
   public get encoding() {
     return this.getStringAttribute('encoding');
   }
@@ -1148,7 +1148,7 @@ export class SesReceiptRuleSnsActionOutputReference extends cdktn.ComplexObject 
   }
 
   // position - computed: false, optional: false, required: true
-  private _position?: number;
+  private _position?: number; 
   public get position() {
     return this.getNumberAttribute('position');
   }
@@ -1161,7 +1161,7 @@ export class SesReceiptRuleSnsActionOutputReference extends cdktn.ComplexObject 
   }
 
   // topic_arn - computed: false, optional: false, required: true
-  private _topicArn?: string;
+  private _topicArn?: string; 
   public get topicArn() {
     return this.getStringAttribute('topic_arn');
   }
@@ -1308,7 +1308,7 @@ export class SesReceiptRuleStopActionOutputReference extends cdktn.ComplexObject
   }
 
   // position - computed: false, optional: false, required: true
-  private _position?: number;
+  private _position?: number; 
   public get position() {
     return this.getNumberAttribute('position');
   }
@@ -1321,7 +1321,7 @@ export class SesReceiptRuleStopActionOutputReference extends cdktn.ComplexObject
   }
 
   // scope - computed: false, optional: false, required: true
-  private _scope?: string;
+  private _scope?: string; 
   public get scope() {
     return this.getStringAttribute('scope');
   }
@@ -1334,7 +1334,7 @@ export class SesReceiptRuleStopActionOutputReference extends cdktn.ComplexObject
   }
 
   // topic_arn - computed: false, optional: true, required: false
-  private _topicArn?: string;
+  private _topicArn?: string; 
   public get topicArn() {
     return this.getStringAttribute('topic_arn');
   }
@@ -1484,7 +1484,7 @@ export class SesReceiptRuleWorkmailActionOutputReference extends cdktn.ComplexOb
   }
 
   // organization_arn - computed: false, optional: false, required: true
-  private _organizationArn?: string;
+  private _organizationArn?: string; 
   public get organizationArn() {
     return this.getStringAttribute('organization_arn');
   }
@@ -1497,7 +1497,7 @@ export class SesReceiptRuleWorkmailActionOutputReference extends cdktn.ComplexOb
   }
 
   // position - computed: false, optional: false, required: true
-  private _position?: number;
+  private _position?: number; 
   public get position() {
     return this.getNumberAttribute('position');
   }
@@ -1510,7 +1510,7 @@ export class SesReceiptRuleWorkmailActionOutputReference extends cdktn.ComplexOb
   }
 
   // topic_arn - computed: false, optional: true, required: false
-  private _topicArn?: string;
+  private _topicArn?: string; 
   public get topicArn() {
     return this.getStringAttribute('topic_arn');
   }
@@ -1619,7 +1619,7 @@ export class SesReceiptRule extends cdktn.TerraformResource {
   // ==========
 
   // after - computed: false, optional: true, required: false
-  private _after?: string;
+  private _after?: string; 
   public get after() {
     return this.getStringAttribute('after');
   }
@@ -1640,7 +1640,7 @@ export class SesReceiptRule extends cdktn.TerraformResource {
   }
 
   // enabled - computed: false, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -1656,7 +1656,7 @@ export class SesReceiptRule extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -1672,7 +1672,7 @@ export class SesReceiptRule extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1685,7 +1685,7 @@ export class SesReceiptRule extends cdktn.TerraformResource {
   }
 
   // recipients - computed: false, optional: true, required: false
-  private _recipients?: string[];
+  private _recipients?: string[]; 
   public get recipients() {
     return cdktn.Fn.tolist(this.getListAttribute('recipients'));
   }
@@ -1701,7 +1701,7 @@ export class SesReceiptRule extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1717,7 +1717,7 @@ export class SesReceiptRule extends cdktn.TerraformResource {
   }
 
   // rule_set_name - computed: false, optional: false, required: true
-  private _ruleSetName?: string;
+  private _ruleSetName?: string; 
   public get ruleSetName() {
     return this.getStringAttribute('rule_set_name');
   }
@@ -1730,7 +1730,7 @@ export class SesReceiptRule extends cdktn.TerraformResource {
   }
 
   // scan_enabled - computed: false, optional: true, required: false
-  private _scanEnabled?: boolean | cdktn.IResolvable;
+  private _scanEnabled?: boolean | cdktn.IResolvable; 
   public get scanEnabled() {
     return this.getBooleanAttribute('scan_enabled');
   }
@@ -1746,7 +1746,7 @@ export class SesReceiptRule extends cdktn.TerraformResource {
   }
 
   // tls_policy - computed: true, optional: true, required: false
-  private _tlsPolicy?: string;
+  private _tlsPolicy?: string; 
   public get tlsPolicy() {
     return this.getStringAttribute('tls_policy');
   }

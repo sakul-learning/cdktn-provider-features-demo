@@ -85,7 +85,7 @@ export class EmrSecurityConfiguration extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -101,7 +101,7 @@ export class EmrSecurityConfiguration extends cdktn.TerraformResource {
   }
 
   // security_configuration - computed: false, optional: false, required: true
-  private _securityConfiguration?: string;
+  private _securityConfiguration?: string; 
   public get securityConfiguration() {
     return this.getStringAttribute('security_configuration');
   }

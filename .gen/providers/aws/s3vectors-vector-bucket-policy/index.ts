@@ -83,7 +83,7 @@ export class S3VectorsVectorBucketPolicy extends cdktn.TerraformResource {
   // ==========
 
   // policy - computed: false, optional: false, required: true
-  private _policy?: string;
+  private _policy?: string; 
   public get policy() {
     return this.getStringAttribute('policy');
   }
@@ -96,7 +96,7 @@ export class S3VectorsVectorBucketPolicy extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -112,7 +112,7 @@ export class S3VectorsVectorBucketPolicy extends cdktn.TerraformResource {
   }
 
   // vector_bucket_arn - computed: false, optional: false, required: true
-  private _vectorBucketArn?: string;
+  private _vectorBucketArn?: string; 
   public get vectorBucketArn() {
     return this.getStringAttribute('vector_bucket_arn');
   }

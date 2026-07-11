@@ -100,7 +100,7 @@ export class Route53ResolverResolverQueryLoggingConfigAssociation extends cdktn.
   }
 
   // resolver_query_log_config_id - computed: true, optional: true, required: false
-  private _resolverQueryLogConfigId?: string;
+  private _resolverQueryLogConfigId?: string; 
   public get resolverQueryLogConfigId() {
     return this.getStringAttribute('resolver_query_log_config_id');
   }
@@ -121,7 +121,7 @@ export class Route53ResolverResolverQueryLoggingConfigAssociation extends cdktn.
   }
 
   // resource_id - computed: true, optional: true, required: false
-  private _resourceId?: string;
+  private _resourceId?: string; 
   public get resourceId() {
     return this.getStringAttribute('resource_id');
   }

@@ -85,7 +85,7 @@ export class S3TablesNamespace extends cdktn.TerraformResource {
   }
 
   // namespace - computed: false, optional: false, required: true
-  private _namespace?: string;
+  private _namespace?: string; 
   public get namespace() {
     return this.getStringAttribute('namespace');
   }
@@ -98,7 +98,7 @@ export class S3TablesNamespace extends cdktn.TerraformResource {
   }
 
   // table_bucket_arn - computed: false, optional: false, required: true
-  private _tableBucketArn?: string;
+  private _tableBucketArn?: string; 
   public get tableBucketArn() {
     return this.getStringAttribute('table_bucket_arn');
   }

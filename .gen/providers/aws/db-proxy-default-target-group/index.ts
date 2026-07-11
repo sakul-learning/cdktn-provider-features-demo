@@ -174,7 +174,7 @@ export class DbProxyDefaultTargetGroupConnectionPoolConfigOutputReference extend
   }
 
   // connection_borrow_timeout - computed: false, optional: true, required: false
-  private _connectionBorrowTimeout?: number;
+  private _connectionBorrowTimeout?: number; 
   public get connectionBorrowTimeout() {
     return this.getNumberAttribute('connection_borrow_timeout');
   }
@@ -190,7 +190,7 @@ export class DbProxyDefaultTargetGroupConnectionPoolConfigOutputReference extend
   }
 
   // init_query - computed: false, optional: true, required: false
-  private _initQuery?: string;
+  private _initQuery?: string; 
   public get initQuery() {
     return this.getStringAttribute('init_query');
   }
@@ -206,7 +206,7 @@ export class DbProxyDefaultTargetGroupConnectionPoolConfigOutputReference extend
   }
 
   // max_connections_percent - computed: false, optional: true, required: false
-  private _maxConnectionsPercent?: number;
+  private _maxConnectionsPercent?: number; 
   public get maxConnectionsPercent() {
     return this.getNumberAttribute('max_connections_percent');
   }
@@ -222,7 +222,7 @@ export class DbProxyDefaultTargetGroupConnectionPoolConfigOutputReference extend
   }
 
   // max_idle_connections_percent - computed: false, optional: true, required: false
-  private _maxIdleConnectionsPercent?: number;
+  private _maxIdleConnectionsPercent?: number; 
   public get maxIdleConnectionsPercent() {
     return this.getNumberAttribute('max_idle_connections_percent');
   }
@@ -238,7 +238,7 @@ export class DbProxyDefaultTargetGroupConnectionPoolConfigOutputReference extend
   }
 
   // session_pinning_filters - computed: false, optional: true, required: false
-  private _sessionPinningFilters?: string[];
+  private _sessionPinningFilters?: string[]; 
   public get sessionPinningFilters() {
     return cdktn.Fn.tolist(this.getListAttribute('session_pinning_filters'));
   }
@@ -349,7 +349,7 @@ export class DbProxyDefaultTargetGroupTimeoutsOutputReference extends cdktn.Comp
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -365,7 +365,7 @@ export class DbProxyDefaultTargetGroupTimeoutsOutputReference extends cdktn.Comp
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -448,7 +448,7 @@ export class DbProxyDefaultTargetGroup extends cdktn.TerraformResource {
   }
 
   // db_proxy_name - computed: false, optional: false, required: true
-  private _dbProxyName?: string;
+  private _dbProxyName?: string; 
   public get dbProxyName() {
     return this.getStringAttribute('db_proxy_name');
   }
@@ -461,7 +461,7 @@ export class DbProxyDefaultTargetGroup extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -482,7 +482,7 @@ export class DbProxyDefaultTargetGroup extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

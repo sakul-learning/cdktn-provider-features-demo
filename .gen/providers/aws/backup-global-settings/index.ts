@@ -79,7 +79,7 @@ export class BackupGlobalSettings extends cdktn.TerraformResource {
   // ==========
 
   // global_settings - computed: false, optional: false, required: true
-  private _globalSettings?: { [key: string]: string };
+  private _globalSettings?: { [key: string]: string }; 
   public get globalSettings() {
     return this.getStringMapAttribute('global_settings');
   }
@@ -92,7 +92,7 @@ export class BackupGlobalSettings extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }

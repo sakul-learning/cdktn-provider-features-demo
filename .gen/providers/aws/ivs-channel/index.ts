@@ -168,7 +168,7 @@ export class IvsChannelTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -184,7 +184,7 @@ export class IvsChannelTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -200,7 +200,7 @@ export class IvsChannelTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -288,7 +288,7 @@ export class IvsChannel extends cdktn.TerraformResource {
   }
 
   // authorized - computed: true, optional: true, required: false
-  private _authorized?: boolean | cdktn.IResolvable;
+  private _authorized?: boolean | cdktn.IResolvable; 
   public get authorized() {
     return this.getBooleanAttribute('authorized');
   }
@@ -304,7 +304,7 @@ export class IvsChannel extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -325,7 +325,7 @@ export class IvsChannel extends cdktn.TerraformResource {
   }
 
   // latency_mode - computed: true, optional: true, required: false
-  private _latencyMode?: string;
+  private _latencyMode?: string; 
   public get latencyMode() {
     return this.getStringAttribute('latency_mode');
   }
@@ -341,7 +341,7 @@ export class IvsChannel extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -362,7 +362,7 @@ export class IvsChannel extends cdktn.TerraformResource {
   }
 
   // recording_configuration_arn - computed: true, optional: true, required: false
-  private _recordingConfigurationArn?: string;
+  private _recordingConfigurationArn?: string; 
   public get recordingConfigurationArn() {
     return this.getStringAttribute('recording_configuration_arn');
   }
@@ -378,7 +378,7 @@ export class IvsChannel extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -394,7 +394,7 @@ export class IvsChannel extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -410,7 +410,7 @@ export class IvsChannel extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -426,7 +426,7 @@ export class IvsChannel extends cdktn.TerraformResource {
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }

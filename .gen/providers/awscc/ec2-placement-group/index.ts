@@ -134,7 +134,7 @@ export class Ec2PlacementGroupTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -150,7 +150,7 @@ export class Ec2PlacementGroupTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -257,7 +257,7 @@ export class Ec2PlacementGroup extends cdktn.TerraformResource {
   }
 
   // partition_count - computed: true, optional: true, required: false
-  private _partitionCount?: number;
+  private _partitionCount?: number; 
   public get partitionCount() {
     return this.getNumberAttribute('partition_count');
   }
@@ -273,7 +273,7 @@ export class Ec2PlacementGroup extends cdktn.TerraformResource {
   }
 
   // spread_level - computed: true, optional: true, required: false
-  private _spreadLevel?: string;
+  private _spreadLevel?: string; 
   public get spreadLevel() {
     return this.getStringAttribute('spread_level');
   }
@@ -289,7 +289,7 @@ export class Ec2PlacementGroup extends cdktn.TerraformResource {
   }
 
   // strategy - computed: true, optional: true, required: false
-  private _strategy?: string;
+  private _strategy?: string; 
   public get strategy() {
     return this.getStringAttribute('strategy');
   }

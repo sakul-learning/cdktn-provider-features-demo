@@ -122,7 +122,7 @@ export class CognitoUserPoolResourceServerScopesOutputReference extends cdktn.Co
   }
 
   // scope_description - computed: true, optional: true, required: false
-  private _scopeDescription?: string;
+  private _scopeDescription?: string; 
   public get scopeDescription() {
     return this.getStringAttribute('scope_description');
   }
@@ -138,7 +138,7 @@ export class CognitoUserPoolResourceServerScopesOutputReference extends cdktn.Co
   }
 
   // scope_name - computed: true, optional: true, required: false
-  private _scopeName?: string;
+  private _scopeName?: string; 
   public get scopeName() {
     return this.getStringAttribute('scope_name');
   }
@@ -240,7 +240,7 @@ export class CognitoUserPoolResourceServer extends cdktn.TerraformResource {
   }
 
   // identifier - computed: false, optional: false, required: true
-  private _identifier?: string;
+  private _identifier?: string; 
   public get identifier() {
     return this.getStringAttribute('identifier');
   }
@@ -253,7 +253,7 @@ export class CognitoUserPoolResourceServer extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -282,7 +282,7 @@ export class CognitoUserPoolResourceServer extends cdktn.TerraformResource {
   }
 
   // user_pool_id - computed: false, optional: false, required: true
-  private _userPoolId?: string;
+  private _userPoolId?: string; 
   public get userPoolId() {
     return this.getStringAttribute('user_pool_id');
   }

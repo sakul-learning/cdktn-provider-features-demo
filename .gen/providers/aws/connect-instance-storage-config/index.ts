@@ -104,7 +104,7 @@ export class ConnectInstanceStorageConfigStorageConfigKinesisFirehoseConfigOutpu
   }
 
   // firehose_arn - computed: false, optional: false, required: true
-  private _firehoseArn?: string;
+  private _firehoseArn?: string; 
   public get firehoseArn() {
     return this.getStringAttribute('firehose_arn');
   }
@@ -185,7 +185,7 @@ export class ConnectInstanceStorageConfigStorageConfigKinesisStreamConfigOutputR
   }
 
   // stream_arn - computed: false, optional: false, required: true
-  private _streamArn?: string;
+  private _streamArn?: string; 
   public get streamArn() {
     return this.getStringAttribute('stream_arn');
   }
@@ -283,7 +283,7 @@ export class ConnectInstanceStorageConfigStorageConfigKinesisVideoStreamConfigEn
   }
 
   // encryption_type - computed: false, optional: false, required: true
-  private _encryptionType?: string;
+  private _encryptionType?: string; 
   public get encryptionType() {
     return this.getStringAttribute('encryption_type');
   }
@@ -296,7 +296,7 @@ export class ConnectInstanceStorageConfigStorageConfigKinesisVideoStreamConfigEn
   }
 
   // key_id - computed: false, optional: false, required: true
-  private _keyId?: string;
+  private _keyId?: string; 
   public get keyId() {
     return this.getStringAttribute('key_id');
   }
@@ -413,7 +413,7 @@ export class ConnectInstanceStorageConfigStorageConfigKinesisVideoStreamConfigOu
   }
 
   // prefix - computed: false, optional: false, required: true
-  private _prefix?: string;
+  private _prefix?: string; 
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -426,7 +426,7 @@ export class ConnectInstanceStorageConfigStorageConfigKinesisVideoStreamConfigOu
   }
 
   // retention_period_hours - computed: false, optional: false, required: true
-  private _retentionPeriodHours?: number;
+  private _retentionPeriodHours?: number; 
   public get retentionPeriodHours() {
     return this.getNumberAttribute('retention_period_hours');
   }
@@ -537,7 +537,7 @@ export class ConnectInstanceStorageConfigStorageConfigS3ConfigEncryptionConfigOu
   }
 
   // encryption_type - computed: false, optional: false, required: true
-  private _encryptionType?: string;
+  private _encryptionType?: string; 
   public get encryptionType() {
     return this.getStringAttribute('encryption_type');
   }
@@ -550,7 +550,7 @@ export class ConnectInstanceStorageConfigStorageConfigS3ConfigEncryptionConfigOu
   }
 
   // key_id - computed: false, optional: false, required: true
-  private _keyId?: string;
+  private _keyId?: string; 
   public get keyId() {
     return this.getStringAttribute('key_id');
   }
@@ -667,7 +667,7 @@ export class ConnectInstanceStorageConfigStorageConfigS3ConfigOutputReference ex
   }
 
   // bucket_name - computed: false, optional: false, required: true
-  private _bucketName?: string;
+  private _bucketName?: string; 
   public get bucketName() {
     return this.getStringAttribute('bucket_name');
   }
@@ -680,7 +680,7 @@ export class ConnectInstanceStorageConfigStorageConfigS3ConfigOutputReference ex
   }
 
   // bucket_prefix - computed: false, optional: false, required: true
-  private _bucketPrefix?: string;
+  private _bucketPrefix?: string; 
   public get bucketPrefix() {
     return this.getStringAttribute('bucket_prefix');
   }
@@ -853,7 +853,7 @@ export class ConnectInstanceStorageConfigStorageConfigOutputReference extends cd
   }
 
   // storage_type - computed: false, optional: false, required: true
-  private _storageType?: string;
+  private _storageType?: string; 
   public get storageType() {
     return this.getStringAttribute('storage_type');
   }
@@ -997,7 +997,7 @@ export class ConnectInstanceStorageConfig extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -1013,7 +1013,7 @@ export class ConnectInstanceStorageConfig extends cdktn.TerraformResource {
   }
 
   // instance_id - computed: false, optional: false, required: true
-  private _instanceId?: string;
+  private _instanceId?: string; 
   public get instanceId() {
     return this.getStringAttribute('instance_id');
   }
@@ -1026,7 +1026,7 @@ export class ConnectInstanceStorageConfig extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1042,7 +1042,7 @@ export class ConnectInstanceStorageConfig extends cdktn.TerraformResource {
   }
 
   // resource_type - computed: false, optional: false, required: true
-  private _resourceType?: string;
+  private _resourceType?: string; 
   public get resourceType() {
     return this.getStringAttribute('resource_type');
   }

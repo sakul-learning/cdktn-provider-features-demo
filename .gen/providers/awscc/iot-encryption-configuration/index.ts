@@ -156,7 +156,7 @@ export class IotEncryptionConfiguration extends cdktn.TerraformResource {
   }
 
   // encryption_type - computed: false, optional: false, required: true
-  private _encryptionType?: string;
+  private _encryptionType?: string; 
   public get encryptionType() {
     return this.getStringAttribute('encryption_type');
   }
@@ -174,7 +174,7 @@ export class IotEncryptionConfiguration extends cdktn.TerraformResource {
   }
 
   // kms_access_role_arn - computed: true, optional: true, required: false
-  private _kmsAccessRoleArn?: string;
+  private _kmsAccessRoleArn?: string; 
   public get kmsAccessRoleArn() {
     return this.getStringAttribute('kms_access_role_arn');
   }
@@ -190,7 +190,7 @@ export class IotEncryptionConfiguration extends cdktn.TerraformResource {
   }
 
   // kms_key_arn - computed: true, optional: true, required: false
-  private _kmsKeyArn?: string;
+  private _kmsKeyArn?: string; 
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }

@@ -145,7 +145,7 @@ export class CleanroomsPrivacyBudgetTemplateParametersBudgetParametersOutputRefe
   }
 
   // auto_refresh - computed: true, optional: true, required: false
-  private _autoRefresh?: string;
+  private _autoRefresh?: string; 
   public get autoRefresh() {
     return this.getStringAttribute('auto_refresh');
   }
@@ -161,7 +161,7 @@ export class CleanroomsPrivacyBudgetTemplateParametersBudgetParametersOutputRefe
   }
 
   // budget - computed: true, optional: true, required: false
-  private _budget?: number;
+  private _budget?: number; 
   public get budget() {
     return this.getNumberAttribute('budget');
   }
@@ -177,7 +177,7 @@ export class CleanroomsPrivacyBudgetTemplateParametersBudgetParametersOutputRefe
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -358,7 +358,7 @@ export class CleanroomsPrivacyBudgetTemplateParametersOutputReference extends cd
   }
 
   // epsilon - computed: true, optional: true, required: false
-  private _epsilon?: number;
+  private _epsilon?: number; 
   public get epsilon() {
     return this.getNumberAttribute('epsilon');
   }
@@ -374,7 +374,7 @@ export class CleanroomsPrivacyBudgetTemplateParametersOutputReference extends cd
   }
 
   // resource_arn - computed: true, optional: true, required: false
-  private _resourceArn?: string;
+  private _resourceArn?: string; 
   public get resourceArn() {
     return this.getStringAttribute('resource_arn');
   }
@@ -390,7 +390,7 @@ export class CleanroomsPrivacyBudgetTemplateParametersOutputReference extends cd
   }
 
   // users_noise_per_query - computed: true, optional: true, required: false
-  private _usersNoisePerQuery?: number;
+  private _usersNoisePerQuery?: number; 
   public get usersNoisePerQuery() {
     return this.getNumberAttribute('users_noise_per_query');
   }
@@ -503,7 +503,7 @@ export class CleanroomsPrivacyBudgetTemplateTagsOutputReference extends cdktn.Co
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -519,7 +519,7 @@ export class CleanroomsPrivacyBudgetTemplateTagsOutputReference extends cdktn.Co
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -622,7 +622,7 @@ export class CleanroomsPrivacyBudgetTemplate extends cdktn.TerraformResource {
   }
 
   // auto_refresh - computed: false, optional: false, required: true
-  private _autoRefresh?: string;
+  private _autoRefresh?: string; 
   public get autoRefresh() {
     return this.getStringAttribute('auto_refresh');
   }
@@ -655,7 +655,7 @@ export class CleanroomsPrivacyBudgetTemplate extends cdktn.TerraformResource {
   }
 
   // membership_identifier - computed: false, optional: false, required: true
-  private _membershipIdentifier?: string;
+  private _membershipIdentifier?: string; 
   public get membershipIdentifier() {
     return this.getStringAttribute('membership_identifier');
   }
@@ -686,7 +686,7 @@ export class CleanroomsPrivacyBudgetTemplate extends cdktn.TerraformResource {
   }
 
   // privacy_budget_type - computed: false, optional: false, required: true
-  private _privacyBudgetType?: string;
+  private _privacyBudgetType?: string; 
   public get privacyBudgetType() {
     return this.getStringAttribute('privacy_budget_type');
   }

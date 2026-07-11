@@ -214,7 +214,7 @@ export class IotfleetwiseCampaignCollectionSchemeConditionBasedCollectionSchemeO
   }
 
   // condition_language_version - computed: true, optional: true, required: false
-  private _conditionLanguageVersion?: number;
+  private _conditionLanguageVersion?: number; 
   public get conditionLanguageVersion() {
     return this.getNumberAttribute('condition_language_version');
   }
@@ -230,7 +230,7 @@ export class IotfleetwiseCampaignCollectionSchemeConditionBasedCollectionSchemeO
   }
 
   // expression - computed: true, optional: true, required: false
-  private _expression?: string;
+  private _expression?: string; 
   public get expression() {
     return this.getStringAttribute('expression');
   }
@@ -246,7 +246,7 @@ export class IotfleetwiseCampaignCollectionSchemeConditionBasedCollectionSchemeO
   }
 
   // minimum_trigger_interval_ms - computed: true, optional: true, required: false
-  private _minimumTriggerIntervalMs?: number;
+  private _minimumTriggerIntervalMs?: number; 
   public get minimumTriggerIntervalMs() {
     return this.getNumberAttribute('minimum_trigger_interval_ms');
   }
@@ -262,7 +262,7 @@ export class IotfleetwiseCampaignCollectionSchemeConditionBasedCollectionSchemeO
   }
 
   // trigger_mode - computed: true, optional: true, required: false
-  private _triggerMode?: string;
+  private _triggerMode?: string; 
   public get triggerMode() {
     return this.getStringAttribute('trigger_mode');
   }
@@ -356,7 +356,7 @@ export class IotfleetwiseCampaignCollectionSchemeTimeBasedCollectionSchemeOutput
   }
 
   // period_ms - computed: true, optional: true, required: false
-  private _periodMs?: number;
+  private _periodMs?: number; 
   public get periodMs() {
     return this.getNumberAttribute('period_ms');
   }
@@ -594,7 +594,7 @@ export class IotfleetwiseCampaignDataDestinationConfigsMqttTopicConfigOutputRefe
   }
 
   // execution_role_arn - computed: true, optional: true, required: false
-  private _executionRoleArn?: string;
+  private _executionRoleArn?: string; 
   public get executionRoleArn() {
     return this.getStringAttribute('execution_role_arn');
   }
@@ -610,7 +610,7 @@ export class IotfleetwiseCampaignDataDestinationConfigsMqttTopicConfigOutputRefe
   }
 
   // mqtt_topic_arn - computed: true, optional: true, required: false
-  private _mqttTopicArn?: string;
+  private _mqttTopicArn?: string; 
   public get mqttTopicArn() {
     return this.getStringAttribute('mqtt_topic_arn');
   }
@@ -755,7 +755,7 @@ export class IotfleetwiseCampaignDataDestinationConfigsS3ConfigOutputReference e
   }
 
   // bucket_arn - computed: true, optional: true, required: false
-  private _bucketArn?: string;
+  private _bucketArn?: string; 
   public get bucketArn() {
     return this.getStringAttribute('bucket_arn');
   }
@@ -771,7 +771,7 @@ export class IotfleetwiseCampaignDataDestinationConfigsS3ConfigOutputReference e
   }
 
   // data_format - computed: true, optional: true, required: false
-  private _dataFormat?: string;
+  private _dataFormat?: string; 
   public get dataFormat() {
     return this.getStringAttribute('data_format');
   }
@@ -787,7 +787,7 @@ export class IotfleetwiseCampaignDataDestinationConfigsS3ConfigOutputReference e
   }
 
   // prefix - computed: true, optional: true, required: false
-  private _prefix?: string;
+  private _prefix?: string; 
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -803,7 +803,7 @@ export class IotfleetwiseCampaignDataDestinationConfigsS3ConfigOutputReference e
   }
 
   // storage_compression_format - computed: true, optional: true, required: false
-  private _storageCompressionFormat?: string;
+  private _storageCompressionFormat?: string; 
   public get storageCompressionFormat() {
     return this.getStringAttribute('storage_compression_format');
   }
@@ -914,7 +914,7 @@ export class IotfleetwiseCampaignDataDestinationConfigsTimestreamConfigOutputRef
   }
 
   // execution_role_arn - computed: true, optional: true, required: false
-  private _executionRoleArn?: string;
+  private _executionRoleArn?: string; 
   public get executionRoleArn() {
     return this.getStringAttribute('execution_role_arn');
   }
@@ -930,7 +930,7 @@ export class IotfleetwiseCampaignDataDestinationConfigsTimestreamConfigOutputRef
   }
 
   // timestream_table_arn - computed: true, optional: true, required: false
-  private _timestreamTableArn?: string;
+  private _timestreamTableArn?: string; 
   public get timestreamTableArn() {
     return this.getStringAttribute('timestream_table_arn');
   }
@@ -1223,7 +1223,7 @@ export class IotfleetwiseCampaignDataPartitionsStorageOptionsMaximumSizeOutputRe
   }
 
   // unit - computed: true, optional: true, required: false
-  private _unit?: string;
+  private _unit?: string; 
   public get unit() {
     return this.getStringAttribute('unit');
   }
@@ -1239,7 +1239,7 @@ export class IotfleetwiseCampaignDataPartitionsStorageOptionsMaximumSizeOutputRe
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: number;
+  private _value?: number; 
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -1350,7 +1350,7 @@ export class IotfleetwiseCampaignDataPartitionsStorageOptionsMinimumTimeToLiveOu
   }
 
   // unit - computed: true, optional: true, required: false
-  private _unit?: string;
+  private _unit?: string; 
   public get unit() {
     return this.getStringAttribute('unit');
   }
@@ -1366,7 +1366,7 @@ export class IotfleetwiseCampaignDataPartitionsStorageOptionsMinimumTimeToLiveOu
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: number;
+  private _value?: number; 
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -1526,7 +1526,7 @@ export class IotfleetwiseCampaignDataPartitionsStorageOptionsOutputReference ext
   }
 
   // storage_location - computed: true, optional: true, required: false
-  private _storageLocation?: string;
+  private _storageLocation?: string; 
   public get storageLocation() {
     return this.getStringAttribute('storage_location');
   }
@@ -1637,7 +1637,7 @@ export class IotfleetwiseCampaignDataPartitionsUploadOptionsOutputReference exte
   }
 
   // condition_language_version - computed: true, optional: true, required: false
-  private _conditionLanguageVersion?: number;
+  private _conditionLanguageVersion?: number; 
   public get conditionLanguageVersion() {
     return this.getNumberAttribute('condition_language_version');
   }
@@ -1653,7 +1653,7 @@ export class IotfleetwiseCampaignDataPartitionsUploadOptionsOutputReference exte
   }
 
   // expression - computed: true, optional: true, required: false
-  private _expression?: string;
+  private _expression?: string; 
   public get expression() {
     return this.getStringAttribute('expression');
   }
@@ -1786,7 +1786,7 @@ export class IotfleetwiseCampaignDataPartitionsOutputReference extends cdktn.Com
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -1985,7 +1985,7 @@ export class IotfleetwiseCampaignSignalsToCollectOutputReference extends cdktn.C
   }
 
   // data_partition_id - computed: true, optional: true, required: false
-  private _dataPartitionId?: string;
+  private _dataPartitionId?: string; 
   public get dataPartitionId() {
     return this.getStringAttribute('data_partition_id');
   }
@@ -2001,7 +2001,7 @@ export class IotfleetwiseCampaignSignalsToCollectOutputReference extends cdktn.C
   }
 
   // max_sample_count - computed: true, optional: true, required: false
-  private _maxSampleCount?: number;
+  private _maxSampleCount?: number; 
   public get maxSampleCount() {
     return this.getNumberAttribute('max_sample_count');
   }
@@ -2017,7 +2017,7 @@ export class IotfleetwiseCampaignSignalsToCollectOutputReference extends cdktn.C
   }
 
   // minimum_sampling_interval_ms - computed: true, optional: true, required: false
-  private _minimumSamplingIntervalMs?: number;
+  private _minimumSamplingIntervalMs?: number; 
   public get minimumSamplingIntervalMs() {
     return this.getNumberAttribute('minimum_sampling_interval_ms');
   }
@@ -2033,7 +2033,7 @@ export class IotfleetwiseCampaignSignalsToCollectOutputReference extends cdktn.C
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2164,7 +2164,7 @@ export class IotfleetwiseCampaignSignalsToFetchSignalFetchConfigConditionBasedOu
   }
 
   // condition_expression - computed: true, optional: true, required: false
-  private _conditionExpression?: string;
+  private _conditionExpression?: string; 
   public get conditionExpression() {
     return this.getStringAttribute('condition_expression');
   }
@@ -2180,7 +2180,7 @@ export class IotfleetwiseCampaignSignalsToFetchSignalFetchConfigConditionBasedOu
   }
 
   // trigger_mode - computed: true, optional: true, required: false
-  private _triggerMode?: string;
+  private _triggerMode?: string; 
   public get triggerMode() {
     return this.getStringAttribute('trigger_mode');
   }
@@ -2274,7 +2274,7 @@ export class IotfleetwiseCampaignSignalsToFetchSignalFetchConfigTimeBasedOutputR
   }
 
   // execution_frequency_ms - computed: true, optional: true, required: false
-  private _executionFrequencyMs?: number;
+  private _executionFrequencyMs?: number; 
   public get executionFrequencyMs() {
     return this.getNumberAttribute('execution_frequency_ms');
   }
@@ -2548,7 +2548,7 @@ export class IotfleetwiseCampaignSignalsToFetchOutputReference extends cdktn.Com
   }
 
   // actions - computed: true, optional: true, required: false
-  private _actions?: string[];
+  private _actions?: string[]; 
   public get actions() {
     return this.getListAttribute('actions');
   }
@@ -2564,7 +2564,7 @@ export class IotfleetwiseCampaignSignalsToFetchOutputReference extends cdktn.Com
   }
 
   // condition_language_version - computed: true, optional: true, required: false
-  private _conditionLanguageVersion?: number;
+  private _conditionLanguageVersion?: number; 
   public get conditionLanguageVersion() {
     return this.getNumberAttribute('condition_language_version');
   }
@@ -2580,7 +2580,7 @@ export class IotfleetwiseCampaignSignalsToFetchOutputReference extends cdktn.Com
   }
 
   // fully_qualified_name - computed: true, optional: true, required: false
-  private _fullyQualifiedName?: string;
+  private _fullyQualifiedName?: string; 
   public get fullyQualifiedName() {
     return this.getStringAttribute('fully_qualified_name');
   }
@@ -2729,7 +2729,7 @@ export class IotfleetwiseCampaignTagsOutputReference extends cdktn.ComplexObject
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -2745,7 +2745,7 @@ export class IotfleetwiseCampaignTagsOutputReference extends cdktn.ComplexObject
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2857,7 +2857,7 @@ export class IotfleetwiseCampaign extends cdktn.TerraformResource {
   // ==========
 
   // action - computed: true, optional: true, required: false
-  private _action?: string;
+  private _action?: string; 
   public get action() {
     return this.getStringAttribute('action');
   }
@@ -2891,7 +2891,7 @@ export class IotfleetwiseCampaign extends cdktn.TerraformResource {
   }
 
   // compression - computed: true, optional: true, required: false
-  private _compression?: string;
+  private _compression?: string; 
   public get compression() {
     return this.getStringAttribute('compression');
   }
@@ -2928,7 +2928,7 @@ export class IotfleetwiseCampaign extends cdktn.TerraformResource {
   }
 
   // data_extra_dimensions - computed: true, optional: true, required: false
-  private _dataExtraDimensions?: string[];
+  private _dataExtraDimensions?: string[]; 
   public get dataExtraDimensions() {
     return this.getListAttribute('data_extra_dimensions');
   }
@@ -2960,7 +2960,7 @@ export class IotfleetwiseCampaign extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -2976,7 +2976,7 @@ export class IotfleetwiseCampaign extends cdktn.TerraformResource {
   }
 
   // diagnostics_mode - computed: true, optional: true, required: false
-  private _diagnosticsMode?: string;
+  private _diagnosticsMode?: string; 
   public get diagnosticsMode() {
     return this.getStringAttribute('diagnostics_mode');
   }
@@ -2992,7 +2992,7 @@ export class IotfleetwiseCampaign extends cdktn.TerraformResource {
   }
 
   // expiry_time - computed: true, optional: true, required: false
-  private _expiryTime?: string;
+  private _expiryTime?: string; 
   public get expiryTime() {
     return this.getStringAttribute('expiry_time');
   }
@@ -3018,7 +3018,7 @@ export class IotfleetwiseCampaign extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -3031,7 +3031,7 @@ export class IotfleetwiseCampaign extends cdktn.TerraformResource {
   }
 
   // post_trigger_collection_duration - computed: true, optional: true, required: false
-  private _postTriggerCollectionDuration?: number;
+  private _postTriggerCollectionDuration?: number; 
   public get postTriggerCollectionDuration() {
     return this.getNumberAttribute('post_trigger_collection_duration');
   }
@@ -3047,7 +3047,7 @@ export class IotfleetwiseCampaign extends cdktn.TerraformResource {
   }
 
   // priority - computed: true, optional: true, required: false
-  private _priority?: number;
+  private _priority?: number; 
   public get priority() {
     return this.getNumberAttribute('priority');
   }
@@ -3063,7 +3063,7 @@ export class IotfleetwiseCampaign extends cdktn.TerraformResource {
   }
 
   // signal_catalog_arn - computed: false, optional: false, required: true
-  private _signalCatalogArn?: string;
+  private _signalCatalogArn?: string; 
   public get signalCatalogArn() {
     return this.getStringAttribute('signal_catalog_arn');
   }
@@ -3108,7 +3108,7 @@ export class IotfleetwiseCampaign extends cdktn.TerraformResource {
   }
 
   // spooling_mode - computed: true, optional: true, required: false
-  private _spoolingMode?: string;
+  private _spoolingMode?: string; 
   public get spoolingMode() {
     return this.getStringAttribute('spooling_mode');
   }
@@ -3124,7 +3124,7 @@ export class IotfleetwiseCampaign extends cdktn.TerraformResource {
   }
 
   // start_time - computed: true, optional: true, required: false
-  private _startTime?: string;
+  private _startTime?: string; 
   public get startTime() {
     return this.getStringAttribute('start_time');
   }
@@ -3161,7 +3161,7 @@ export class IotfleetwiseCampaign extends cdktn.TerraformResource {
   }
 
   // target_arn - computed: false, optional: false, required: true
-  private _targetArn?: string;
+  private _targetArn?: string; 
   public get targetArn() {
     return this.getStringAttribute('target_arn');
   }

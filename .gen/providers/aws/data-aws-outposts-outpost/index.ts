@@ -101,7 +101,7 @@ export class DataAwsOutpostsOutpost extends cdktn.TerraformDataSource {
   // ==========
 
   // arn - computed: true, optional: true, required: false
-  private _arn?: string;
+  private _arn?: string; 
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -132,7 +132,7 @@ export class DataAwsOutpostsOutpost extends cdktn.TerraformDataSource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -153,7 +153,7 @@ export class DataAwsOutpostsOutpost extends cdktn.TerraformDataSource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -169,7 +169,7 @@ export class DataAwsOutpostsOutpost extends cdktn.TerraformDataSource {
   }
 
   // owner_id - computed: false, optional: true, required: false
-  private _ownerId?: string;
+  private _ownerId?: string; 
   public get ownerId() {
     return this.getStringAttribute('owner_id');
   }
@@ -185,7 +185,7 @@ export class DataAwsOutpostsOutpost extends cdktn.TerraformDataSource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -216,7 +216,7 @@ export class DataAwsOutpostsOutpost extends cdktn.TerraformDataSource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

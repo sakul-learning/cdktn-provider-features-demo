@@ -130,7 +130,7 @@ export class B2BiProfileTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -146,7 +146,7 @@ export class B2BiProfileTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -245,7 +245,7 @@ export class B2BiProfile extends cdktn.TerraformResource {
   // ==========
 
   // business_name - computed: false, optional: false, required: true
-  private _businessName?: string;
+  private _businessName?: string; 
   public get businessName() {
     return this.getStringAttribute('business_name');
   }
@@ -263,7 +263,7 @@ export class B2BiProfile extends cdktn.TerraformResource {
   }
 
   // email - computed: true, optional: true, required: false
-  private _email?: string;
+  private _email?: string; 
   public get email() {
     return this.getStringAttribute('email');
   }
@@ -289,7 +289,7 @@ export class B2BiProfile extends cdktn.TerraformResource {
   }
 
   // logging - computed: false, optional: false, required: true
-  private _logging?: string;
+  private _logging?: string; 
   public get logging() {
     return this.getStringAttribute('logging');
   }
@@ -307,7 +307,7 @@ export class B2BiProfile extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -320,7 +320,7 @@ export class B2BiProfile extends cdktn.TerraformResource {
   }
 
   // phone - computed: false, optional: false, required: true
-  private _phone?: string;
+  private _phone?: string; 
   public get phone() {
     return this.getStringAttribute('phone');
   }

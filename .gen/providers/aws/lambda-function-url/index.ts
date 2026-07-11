@@ -203,7 +203,7 @@ export class LambdaFunctionUrlCorsOutputReference extends cdktn.ComplexObject {
   }
 
   // allow_credentials - computed: false, optional: true, required: false
-  private _allowCredentials?: boolean | cdktn.IResolvable;
+  private _allowCredentials?: boolean | cdktn.IResolvable; 
   public get allowCredentials() {
     return this.getBooleanAttribute('allow_credentials');
   }
@@ -219,7 +219,7 @@ export class LambdaFunctionUrlCorsOutputReference extends cdktn.ComplexObject {
   }
 
   // allow_headers - computed: false, optional: true, required: false
-  private _allowHeaders?: string[];
+  private _allowHeaders?: string[]; 
   public get allowHeaders() {
     return cdktn.Fn.tolist(this.getListAttribute('allow_headers'));
   }
@@ -235,7 +235,7 @@ export class LambdaFunctionUrlCorsOutputReference extends cdktn.ComplexObject {
   }
 
   // allow_methods - computed: false, optional: true, required: false
-  private _allowMethods?: string[];
+  private _allowMethods?: string[]; 
   public get allowMethods() {
     return cdktn.Fn.tolist(this.getListAttribute('allow_methods'));
   }
@@ -251,7 +251,7 @@ export class LambdaFunctionUrlCorsOutputReference extends cdktn.ComplexObject {
   }
 
   // allow_origins - computed: false, optional: true, required: false
-  private _allowOrigins?: string[];
+  private _allowOrigins?: string[]; 
   public get allowOrigins() {
     return cdktn.Fn.tolist(this.getListAttribute('allow_origins'));
   }
@@ -267,7 +267,7 @@ export class LambdaFunctionUrlCorsOutputReference extends cdktn.ComplexObject {
   }
 
   // expose_headers - computed: false, optional: true, required: false
-  private _exposeHeaders?: string[];
+  private _exposeHeaders?: string[]; 
   public get exposeHeaders() {
     return cdktn.Fn.tolist(this.getListAttribute('expose_headers'));
   }
@@ -283,7 +283,7 @@ export class LambdaFunctionUrlCorsOutputReference extends cdktn.ComplexObject {
   }
 
   // max_age - computed: false, optional: true, required: false
-  private _maxAge?: number;
+  private _maxAge?: number; 
   public get maxAge() {
     return this.getNumberAttribute('max_age');
   }
@@ -377,7 +377,7 @@ export class LambdaFunctionUrlTimeoutsOutputReference extends cdktn.ComplexObjec
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -458,7 +458,7 @@ export class LambdaFunctionUrl extends cdktn.TerraformResource {
   // ==========
 
   // authorization_type - computed: false, optional: false, required: true
-  private _authorizationType?: string;
+  private _authorizationType?: string; 
   public get authorizationType() {
     return this.getStringAttribute('authorization_type');
   }
@@ -476,7 +476,7 @@ export class LambdaFunctionUrl extends cdktn.TerraformResource {
   }
 
   // function_name - computed: false, optional: false, required: true
-  private _functionName?: string;
+  private _functionName?: string; 
   public get functionName() {
     return this.getStringAttribute('function_name');
   }
@@ -494,7 +494,7 @@ export class LambdaFunctionUrl extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -510,7 +510,7 @@ export class LambdaFunctionUrl extends cdktn.TerraformResource {
   }
 
   // invoke_mode - computed: false, optional: true, required: false
-  private _invokeMode?: string;
+  private _invokeMode?: string; 
   public get invokeMode() {
     return this.getStringAttribute('invoke_mode');
   }
@@ -526,7 +526,7 @@ export class LambdaFunctionUrl extends cdktn.TerraformResource {
   }
 
   // qualifier - computed: false, optional: true, required: false
-  private _qualifier?: string;
+  private _qualifier?: string; 
   public get qualifier() {
     return this.getStringAttribute('qualifier');
   }
@@ -542,7 +542,7 @@ export class LambdaFunctionUrl extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

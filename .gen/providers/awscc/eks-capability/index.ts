@@ -150,7 +150,7 @@ export class EksCapabilityConfigurationArgoCdAwsIdcOutputReference extends cdktn
   }
 
   // idc_instance_arn - computed: true, optional: true, required: false
-  private _idcInstanceArn?: string;
+  private _idcInstanceArn?: string; 
   public get idcInstanceArn() {
     return this.getStringAttribute('idc_instance_arn');
   }
@@ -171,7 +171,7 @@ export class EksCapabilityConfigurationArgoCdAwsIdcOutputReference extends cdktn
   }
 
   // idc_region - computed: true, optional: true, required: false
-  private _idcRegion?: string;
+  private _idcRegion?: string; 
   public get idcRegion() {
     return this.getStringAttribute('idc_region');
   }
@@ -267,7 +267,7 @@ export class EksCapabilityConfigurationArgoCdNetworkAccessOutputReference extend
   }
 
   // vpce_ids - computed: true, optional: true, required: false
-  private _vpceIds?: string[];
+  private _vpceIds?: string[]; 
   public get vpceIds() {
     return this.getListAttribute('vpce_ids');
   }
@@ -387,7 +387,7 @@ export class EksCapabilityConfigurationArgoCdRbacRoleMappingsIdentitiesOutputRef
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -403,7 +403,7 @@ export class EksCapabilityConfigurationArgoCdRbacRoleMappingsIdentitiesOutputRef
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -556,7 +556,7 @@ export class EksCapabilityConfigurationArgoCdRbacRoleMappingsOutputReference ext
   }
 
   // role - computed: true, optional: true, required: false
-  private _role?: string;
+  private _role?: string; 
   public get role() {
     return this.getStringAttribute('role');
   }
@@ -745,7 +745,7 @@ export class EksCapabilityConfigurationArgoCdOutputReference extends cdktn.Compl
   }
 
   // namespace - computed: true, optional: true, required: false
-  private _namespace?: string;
+  private _namespace?: string; 
   public get namespace() {
     return this.getStringAttribute('namespace');
   }
@@ -995,7 +995,7 @@ export class EksCapabilityTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1011,7 +1011,7 @@ export class EksCapabilityTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1116,7 +1116,7 @@ export class EksCapability extends cdktn.TerraformResource {
   }
 
   // capability_name - computed: false, optional: false, required: true
-  private _capabilityName?: string;
+  private _capabilityName?: string; 
   public get capabilityName() {
     return this.getStringAttribute('capability_name');
   }
@@ -1129,7 +1129,7 @@ export class EksCapability extends cdktn.TerraformResource {
   }
 
   // cluster_name - computed: false, optional: false, required: true
-  private _clusterName?: string;
+  private _clusterName?: string; 
   public get clusterName() {
     return this.getStringAttribute('cluster_name');
   }
@@ -1163,7 +1163,7 @@ export class EksCapability extends cdktn.TerraformResource {
   }
 
   // delete_propagation_policy - computed: false, optional: false, required: true
-  private _deletePropagationPolicy?: string;
+  private _deletePropagationPolicy?: string; 
   public get deletePropagationPolicy() {
     return this.getStringAttribute('delete_propagation_policy');
   }
@@ -1186,7 +1186,7 @@ export class EksCapability extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -1220,7 +1220,7 @@ export class EksCapability extends cdktn.TerraformResource {
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }

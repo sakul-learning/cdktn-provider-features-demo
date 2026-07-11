@@ -298,7 +298,7 @@ export class StoragegatewayGatewayMaintenanceStartTimeOutputReference extends cd
   }
 
   // day_of_month - computed: false, optional: true, required: false
-  private _dayOfMonth?: string;
+  private _dayOfMonth?: string; 
   public get dayOfMonth() {
     return this.getStringAttribute('day_of_month');
   }
@@ -314,7 +314,7 @@ export class StoragegatewayGatewayMaintenanceStartTimeOutputReference extends cd
   }
 
   // day_of_week - computed: false, optional: true, required: false
-  private _dayOfWeek?: string;
+  private _dayOfWeek?: string; 
   public get dayOfWeek() {
     return this.getStringAttribute('day_of_week');
   }
@@ -330,7 +330,7 @@ export class StoragegatewayGatewayMaintenanceStartTimeOutputReference extends cd
   }
 
   // hour_of_day - computed: false, optional: false, required: true
-  private _hourOfDay?: number;
+  private _hourOfDay?: number; 
   public get hourOfDay() {
     return this.getNumberAttribute('hour_of_day');
   }
@@ -343,7 +343,7 @@ export class StoragegatewayGatewayMaintenanceStartTimeOutputReference extends cd
   }
 
   // minute_of_hour - computed: false, optional: true, required: false
-  private _minuteOfHour?: number;
+  private _minuteOfHour?: number; 
   public get minuteOfHour() {
     return this.getNumberAttribute('minute_of_hour');
   }
@@ -517,7 +517,7 @@ export class StoragegatewayGatewaySmbActiveDirectorySettingsOutputReference exte
   }
 
   // domain_controllers - computed: false, optional: true, required: false
-  private _domainControllers?: string[];
+  private _domainControllers?: string[]; 
   public get domainControllers() {
     return cdktn.Fn.tolist(this.getListAttribute('domain_controllers'));
   }
@@ -533,7 +533,7 @@ export class StoragegatewayGatewaySmbActiveDirectorySettingsOutputReference exte
   }
 
   // domain_name - computed: false, optional: false, required: true
-  private _domainName?: string;
+  private _domainName?: string; 
   public get domainName() {
     return this.getStringAttribute('domain_name');
   }
@@ -546,7 +546,7 @@ export class StoragegatewayGatewaySmbActiveDirectorySettingsOutputReference exte
   }
 
   // organizational_unit - computed: false, optional: true, required: false
-  private _organizationalUnit?: string;
+  private _organizationalUnit?: string; 
   public get organizationalUnit() {
     return this.getStringAttribute('organizational_unit');
   }
@@ -562,7 +562,7 @@ export class StoragegatewayGatewaySmbActiveDirectorySettingsOutputReference exte
   }
 
   // password - computed: false, optional: false, required: true
-  private _password?: string;
+  private _password?: string; 
   public get password() {
     return this.getStringAttribute('password');
   }
@@ -575,7 +575,7 @@ export class StoragegatewayGatewaySmbActiveDirectorySettingsOutputReference exte
   }
 
   // timeout_in_seconds - computed: false, optional: true, required: false
-  private _timeoutInSeconds?: number;
+  private _timeoutInSeconds?: number; 
   public get timeoutInSeconds() {
     return this.getNumberAttribute('timeout_in_seconds');
   }
@@ -591,7 +591,7 @@ export class StoragegatewayGatewaySmbActiveDirectorySettingsOutputReference exte
   }
 
   // username - computed: false, optional: false, required: true
-  private _username?: string;
+  private _username?: string; 
   public get username() {
     return this.getStringAttribute('username');
   }
@@ -682,7 +682,7 @@ export class StoragegatewayGatewayTimeoutsOutputReference extends cdktn.ComplexO
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -776,7 +776,7 @@ export class StoragegatewayGateway extends cdktn.TerraformResource {
   // ==========
 
   // activation_key - computed: true, optional: true, required: false
-  private _activationKey?: string;
+  private _activationKey?: string; 
   public get activationKey() {
     return this.getStringAttribute('activation_key');
   }
@@ -797,7 +797,7 @@ export class StoragegatewayGateway extends cdktn.TerraformResource {
   }
 
   // average_download_rate_limit_in_bits_per_sec - computed: false, optional: true, required: false
-  private _averageDownloadRateLimitInBitsPerSec?: number;
+  private _averageDownloadRateLimitInBitsPerSec?: number; 
   public get averageDownloadRateLimitInBitsPerSec() {
     return this.getNumberAttribute('average_download_rate_limit_in_bits_per_sec');
   }
@@ -813,7 +813,7 @@ export class StoragegatewayGateway extends cdktn.TerraformResource {
   }
 
   // average_upload_rate_limit_in_bits_per_sec - computed: false, optional: true, required: false
-  private _averageUploadRateLimitInBitsPerSec?: number;
+  private _averageUploadRateLimitInBitsPerSec?: number; 
   public get averageUploadRateLimitInBitsPerSec() {
     return this.getNumberAttribute('average_upload_rate_limit_in_bits_per_sec');
   }
@@ -829,7 +829,7 @@ export class StoragegatewayGateway extends cdktn.TerraformResource {
   }
 
   // cloudwatch_log_group_arn - computed: false, optional: true, required: false
-  private _cloudwatchLogGroupArn?: string;
+  private _cloudwatchLogGroupArn?: string; 
   public get cloudwatchLogGroupArn() {
     return this.getStringAttribute('cloudwatch_log_group_arn');
   }
@@ -860,7 +860,7 @@ export class StoragegatewayGateway extends cdktn.TerraformResource {
   }
 
   // gateway_ip_address - computed: true, optional: true, required: false
-  private _gatewayIpAddress?: string;
+  private _gatewayIpAddress?: string; 
   public get gatewayIpAddress() {
     return this.getStringAttribute('gateway_ip_address');
   }
@@ -876,7 +876,7 @@ export class StoragegatewayGateway extends cdktn.TerraformResource {
   }
 
   // gateway_name - computed: false, optional: false, required: true
-  private _gatewayName?: string;
+  private _gatewayName?: string; 
   public get gatewayName() {
     return this.getStringAttribute('gateway_name');
   }
@@ -895,7 +895,7 @@ export class StoragegatewayGateway extends cdktn.TerraformResource {
   }
 
   // gateway_timezone - computed: false, optional: false, required: true
-  private _gatewayTimezone?: string;
+  private _gatewayTimezone?: string; 
   public get gatewayTimezone() {
     return this.getStringAttribute('gateway_timezone');
   }
@@ -908,7 +908,7 @@ export class StoragegatewayGateway extends cdktn.TerraformResource {
   }
 
   // gateway_type - computed: false, optional: true, required: false
-  private _gatewayType?: string;
+  private _gatewayType?: string; 
   public get gatewayType() {
     return this.getStringAttribute('gateway_type');
   }
@@ -924,7 +924,7 @@ export class StoragegatewayGateway extends cdktn.TerraformResource {
   }
 
   // gateway_vpc_endpoint - computed: false, optional: true, required: false
-  private _gatewayVpcEndpoint?: string;
+  private _gatewayVpcEndpoint?: string; 
   public get gatewayVpcEndpoint() {
     return this.getStringAttribute('gateway_vpc_endpoint');
   }
@@ -945,7 +945,7 @@ export class StoragegatewayGateway extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -961,7 +961,7 @@ export class StoragegatewayGateway extends cdktn.TerraformResource {
   }
 
   // medium_changer_type - computed: false, optional: true, required: false
-  private _mediumChangerType?: string;
+  private _mediumChangerType?: string; 
   public get mediumChangerType() {
     return this.getStringAttribute('medium_changer_type');
   }
@@ -977,7 +977,7 @@ export class StoragegatewayGateway extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -993,7 +993,7 @@ export class StoragegatewayGateway extends cdktn.TerraformResource {
   }
 
   // smb_file_share_visibility - computed: false, optional: true, required: false
-  private _smbFileShareVisibility?: boolean | cdktn.IResolvable;
+  private _smbFileShareVisibility?: boolean | cdktn.IResolvable; 
   public get smbFileShareVisibility() {
     return this.getBooleanAttribute('smb_file_share_visibility');
   }
@@ -1009,7 +1009,7 @@ export class StoragegatewayGateway extends cdktn.TerraformResource {
   }
 
   // smb_guest_password - computed: false, optional: true, required: false
-  private _smbGuestPassword?: string;
+  private _smbGuestPassword?: string; 
   public get smbGuestPassword() {
     return this.getStringAttribute('smb_guest_password');
   }
@@ -1025,7 +1025,7 @@ export class StoragegatewayGateway extends cdktn.TerraformResource {
   }
 
   // smb_security_strategy - computed: true, optional: true, required: false
-  private _smbSecurityStrategy?: string;
+  private _smbSecurityStrategy?: string; 
   public get smbSecurityStrategy() {
     return this.getStringAttribute('smb_security_strategy');
   }
@@ -1041,7 +1041,7 @@ export class StoragegatewayGateway extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -1057,7 +1057,7 @@ export class StoragegatewayGateway extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -1073,7 +1073,7 @@ export class StoragegatewayGateway extends cdktn.TerraformResource {
   }
 
   // tape_drive_type - computed: false, optional: true, required: false
-  private _tapeDriveType?: string;
+  private _tapeDriveType?: string; 
   public get tapeDriveType() {
     return this.getStringAttribute('tape_drive_type');
   }

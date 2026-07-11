@@ -82,7 +82,7 @@ export class NotificationsManagedNotificationAdditionalChannelAssociation extend
   // ==========
 
   // channel_arn - computed: false, optional: false, required: true
-  private _channelArn?: string;
+  private _channelArn?: string; 
   public get channelArn() {
     return this.getStringAttribute('channel_arn');
   }
@@ -100,7 +100,7 @@ export class NotificationsManagedNotificationAdditionalChannelAssociation extend
   }
 
   // managed_notification_configuration_arn - computed: false, optional: false, required: true
-  private _managedNotificationConfigurationArn?: string;
+  private _managedNotificationConfigurationArn?: string; 
   public get managedNotificationConfigurationArn() {
     return this.getStringAttribute('managed_notification_configuration_arn');
   }

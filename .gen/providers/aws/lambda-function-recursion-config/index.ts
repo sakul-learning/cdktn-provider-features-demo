@@ -83,7 +83,7 @@ export class LambdaFunctionRecursionConfig extends cdktn.TerraformResource {
   // ==========
 
   // function_name - computed: false, optional: false, required: true
-  private _functionName?: string;
+  private _functionName?: string; 
   public get functionName() {
     return this.getStringAttribute('function_name');
   }
@@ -96,7 +96,7 @@ export class LambdaFunctionRecursionConfig extends cdktn.TerraformResource {
   }
 
   // recursive_loop - computed: false, optional: false, required: true
-  private _recursiveLoop?: string;
+  private _recursiveLoop?: string; 
   public get recursiveLoop() {
     return this.getStringAttribute('recursive_loop');
   }
@@ -109,7 +109,7 @@ export class LambdaFunctionRecursionConfig extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

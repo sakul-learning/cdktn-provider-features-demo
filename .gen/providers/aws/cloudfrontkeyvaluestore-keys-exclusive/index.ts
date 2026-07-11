@@ -128,7 +128,7 @@ export class CloudfrontkeyvaluestoreKeysExclusiveResourceKeyValuePairOutputRefer
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -141,7 +141,7 @@ export class CloudfrontkeyvaluestoreKeysExclusiveResourceKeyValuePairOutputRefer
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -234,7 +234,7 @@ export class CloudfrontkeyvaluestoreKeysExclusive extends cdktn.TerraformResourc
   // ==========
 
   // key_value_store_arn - computed: false, optional: false, required: true
-  private _keyValueStoreArn?: string;
+  private _keyValueStoreArn?: string; 
   public get keyValueStoreArn() {
     return this.getStringAttribute('key_value_store_arn');
   }
@@ -247,7 +247,7 @@ export class CloudfrontkeyvaluestoreKeysExclusive extends cdktn.TerraformResourc
   }
 
   // max_batch_size - computed: true, optional: true, required: false
-  private _maxBatchSize?: number;
+  private _maxBatchSize?: number; 
   public get maxBatchSize() {
     return this.getNumberAttribute('max_batch_size');
   }

@@ -145,7 +145,7 @@ export class GlobalacceleratorCrossAccountAttachmentResourcesOutputReference ext
   }
 
   // cidr - computed: true, optional: true, required: false
-  private _cidr?: string;
+  private _cidr?: string; 
   public get cidr() {
     return this.getStringAttribute('cidr');
   }
@@ -161,7 +161,7 @@ export class GlobalacceleratorCrossAccountAttachmentResourcesOutputReference ext
   }
 
   // endpoint_id - computed: true, optional: true, required: false
-  private _endpointId?: string;
+  private _endpointId?: string; 
   public get endpointId() {
     return this.getStringAttribute('endpoint_id');
   }
@@ -177,7 +177,7 @@ export class GlobalacceleratorCrossAccountAttachmentResourcesOutputReference ext
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -314,7 +314,7 @@ export class GlobalacceleratorCrossAccountAttachmentTagsOutputReference extends 
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -330,7 +330,7 @@ export class GlobalacceleratorCrossAccountAttachmentTagsOutputReference extends 
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -437,7 +437,7 @@ export class GlobalacceleratorCrossAccountAttachment extends cdktn.TerraformReso
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -450,7 +450,7 @@ export class GlobalacceleratorCrossAccountAttachment extends cdktn.TerraformReso
   }
 
   // principals - computed: true, optional: true, required: false
-  private _principals?: string[];
+  private _principals?: string[]; 
   public get principals() {
     return this.getListAttribute('principals');
   }

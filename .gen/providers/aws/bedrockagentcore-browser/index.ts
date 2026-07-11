@@ -147,7 +147,7 @@ export class BedrockagentcoreBrowserBrowserSigningOutputReference extends cdktn.
   }
 
   // enabled - computed: false, optional: false, required: true
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -260,7 +260,7 @@ export class BedrockagentcoreBrowserCertificateLocationSecretsManagerOutputRefer
   }
 
   // secret_arn - computed: false, optional: false, required: true
-  private _secretArn?: string;
+  private _secretArn?: string; 
   public get secretArn() {
     return this.getStringAttribute('secret_arn');
   }
@@ -643,7 +643,7 @@ export class BedrockagentcoreBrowserEnterprisePolicyLocationS3OutputReference ex
   }
 
   // bucket - computed: false, optional: false, required: true
-  private _bucket?: string;
+  private _bucket?: string; 
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -656,7 +656,7 @@ export class BedrockagentcoreBrowserEnterprisePolicyLocationS3OutputReference ex
   }
 
   // prefix - computed: false, optional: false, required: true
-  private _prefix?: string;
+  private _prefix?: string; 
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -669,7 +669,7 @@ export class BedrockagentcoreBrowserEnterprisePolicyLocationS3OutputReference ex
   }
 
   // version_id - computed: false, optional: true, required: false
-  private _versionId?: string;
+  private _versionId?: string; 
   public get versionId() {
     return this.getStringAttribute('version_id');
   }
@@ -922,7 +922,7 @@ export class BedrockagentcoreBrowserEnterprisePolicyOutputReference extends cdkt
   }
 
   // type - computed: false, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -1071,7 +1071,7 @@ export class BedrockagentcoreBrowserNetworkConfigurationVpcConfigOutputReference
   }
 
   // security_groups - computed: false, optional: false, required: true
-  private _securityGroups?: string[];
+  private _securityGroups?: string[]; 
   public get securityGroups() {
     return cdktn.Fn.tolist(this.getListAttribute('security_groups'));
   }
@@ -1084,7 +1084,7 @@ export class BedrockagentcoreBrowserNetworkConfigurationVpcConfigOutputReference
   }
 
   // subnets - computed: false, optional: false, required: true
-  private _subnets?: string[];
+  private _subnets?: string[]; 
   public get subnets() {
     return cdktn.Fn.tolist(this.getListAttribute('subnets'));
   }
@@ -1216,7 +1216,7 @@ export class BedrockagentcoreBrowserNetworkConfigurationOutputReference extends 
   }
 
   // network_mode - computed: false, optional: false, required: true
-  private _networkMode?: string;
+  private _networkMode?: string; 
   public get networkMode() {
     return this.getStringAttribute('network_mode');
   }
@@ -1362,7 +1362,7 @@ export class BedrockagentcoreBrowserRecordingS3LocationOutputReference extends c
   }
 
   // bucket - computed: false, optional: false, required: true
-  private _bucket?: string;
+  private _bucket?: string; 
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -1375,7 +1375,7 @@ export class BedrockagentcoreBrowserRecordingS3LocationOutputReference extends c
   }
 
   // prefix - computed: false, optional: false, required: true
-  private _prefix?: string;
+  private _prefix?: string; 
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -1507,7 +1507,7 @@ export class BedrockagentcoreBrowserRecordingOutputReference extends cdktn.Compl
   }
 
   // enabled - computed: false, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -1658,7 +1658,7 @@ export class BedrockagentcoreBrowserTimeoutsOutputReference extends cdktn.Comple
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -1674,7 +1674,7 @@ export class BedrockagentcoreBrowserTimeoutsOutputReference extends cdktn.Comple
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -1768,7 +1768,7 @@ export class BedrockagentcoreBrowser extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1784,7 +1784,7 @@ export class BedrockagentcoreBrowser extends cdktn.TerraformResource {
   }
 
   // execution_role_arn - computed: false, optional: true, required: false
-  private _executionRoleArn?: string;
+  private _executionRoleArn?: string; 
   public get executionRoleArn() {
     return this.getStringAttribute('execution_role_arn');
   }
@@ -1800,7 +1800,7 @@ export class BedrockagentcoreBrowser extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1813,7 +1813,7 @@ export class BedrockagentcoreBrowser extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1829,7 +1829,7 @@ export class BedrockagentcoreBrowser extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

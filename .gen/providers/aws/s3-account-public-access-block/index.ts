@@ -99,7 +99,7 @@ export class S3AccountPublicAccessBlock extends cdktn.TerraformResource {
   // ==========
 
   // account_id - computed: true, optional: true, required: false
-  private _accountId?: string;
+  private _accountId?: string; 
   public get accountId() {
     return this.getStringAttribute('account_id');
   }
@@ -115,7 +115,7 @@ export class S3AccountPublicAccessBlock extends cdktn.TerraformResource {
   }
 
   // block_public_acls - computed: false, optional: true, required: false
-  private _blockPublicAcls?: boolean | cdktn.IResolvable;
+  private _blockPublicAcls?: boolean | cdktn.IResolvable; 
   public get blockPublicAcls() {
     return this.getBooleanAttribute('block_public_acls');
   }
@@ -131,7 +131,7 @@ export class S3AccountPublicAccessBlock extends cdktn.TerraformResource {
   }
 
   // block_public_policy - computed: false, optional: true, required: false
-  private _blockPublicPolicy?: boolean | cdktn.IResolvable;
+  private _blockPublicPolicy?: boolean | cdktn.IResolvable; 
   public get blockPublicPolicy() {
     return this.getBooleanAttribute('block_public_policy');
   }
@@ -147,7 +147,7 @@ export class S3AccountPublicAccessBlock extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -163,7 +163,7 @@ export class S3AccountPublicAccessBlock extends cdktn.TerraformResource {
   }
 
   // ignore_public_acls - computed: false, optional: true, required: false
-  private _ignorePublicAcls?: boolean | cdktn.IResolvable;
+  private _ignorePublicAcls?: boolean | cdktn.IResolvable; 
   public get ignorePublicAcls() {
     return this.getBooleanAttribute('ignore_public_acls');
   }
@@ -179,7 +179,7 @@ export class S3AccountPublicAccessBlock extends cdktn.TerraformResource {
   }
 
   // restrict_public_buckets - computed: false, optional: true, required: false
-  private _restrictPublicBuckets?: boolean | cdktn.IResolvable;
+  private _restrictPublicBuckets?: boolean | cdktn.IResolvable; 
   public get restrictPublicBuckets() {
     return this.getBooleanAttribute('restrict_public_buckets');
   }

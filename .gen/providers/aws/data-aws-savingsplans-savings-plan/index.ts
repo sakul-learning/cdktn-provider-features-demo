@@ -138,7 +138,7 @@ export class DataAwsSavingsplansSavingsPlan extends cdktn.TerraformDataSource {
   }
 
   // savings_plan_id - computed: false, optional: false, required: true
-  private _savingsPlanId?: string;
+  private _savingsPlanId?: string; 
   public get savingsPlanId() {
     return this.getStringAttribute('savings_plan_id');
   }

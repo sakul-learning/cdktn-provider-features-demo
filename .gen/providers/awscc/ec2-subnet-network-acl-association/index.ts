@@ -90,7 +90,7 @@ export class Ec2SubnetNetworkAclAssociation extends cdktn.TerraformResource {
   }
 
   // network_acl_id - computed: false, optional: false, required: true
-  private _networkAclId?: string;
+  private _networkAclId?: string; 
   public get networkAclId() {
     return this.getStringAttribute('network_acl_id');
   }
@@ -103,7 +103,7 @@ export class Ec2SubnetNetworkAclAssociation extends cdktn.TerraformResource {
   }
 
   // subnet_id - computed: false, optional: false, required: true
-  private _subnetId?: string;
+  private _subnetId?: string; 
   public get subnetId() {
     return this.getStringAttribute('subnet_id');
   }

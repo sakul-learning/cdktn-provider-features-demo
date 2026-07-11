@@ -156,7 +156,7 @@ export class VpcIpamResourceDiscoveryAssociationTimeoutsOutputReference extends 
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -172,7 +172,7 @@ export class VpcIpamResourceDiscoveryAssociationTimeoutsOutputReference extends 
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -188,7 +188,7 @@ export class VpcIpamResourceDiscoveryAssociationTimeoutsOutputReference extends 
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -273,7 +273,7 @@ export class VpcIpamResourceDiscoveryAssociation extends cdktn.TerraformResource
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -294,7 +294,7 @@ export class VpcIpamResourceDiscoveryAssociation extends cdktn.TerraformResource
   }
 
   // ipam_id - computed: false, optional: false, required: true
-  private _ipamId?: string;
+  private _ipamId?: string; 
   public get ipamId() {
     return this.getStringAttribute('ipam_id');
   }
@@ -312,7 +312,7 @@ export class VpcIpamResourceDiscoveryAssociation extends cdktn.TerraformResource
   }
 
   // ipam_resource_discovery_id - computed: false, optional: false, required: true
-  private _ipamResourceDiscoveryId?: string;
+  private _ipamResourceDiscoveryId?: string; 
   public get ipamResourceDiscoveryId() {
     return this.getStringAttribute('ipam_resource_discovery_id');
   }
@@ -335,7 +335,7 @@ export class VpcIpamResourceDiscoveryAssociation extends cdktn.TerraformResource
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -356,7 +356,7 @@ export class VpcIpamResourceDiscoveryAssociation extends cdktn.TerraformResource
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -372,7 +372,7 @@ export class VpcIpamResourceDiscoveryAssociation extends cdktn.TerraformResource
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

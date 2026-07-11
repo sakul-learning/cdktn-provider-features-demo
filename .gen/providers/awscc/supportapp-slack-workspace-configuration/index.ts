@@ -85,7 +85,7 @@ export class SupportappSlackWorkspaceConfiguration extends cdktn.TerraformResour
   }
 
   // team_id - computed: false, optional: false, required: true
-  private _teamId?: string;
+  private _teamId?: string; 
   public get teamId() {
     return this.getStringAttribute('team_id');
   }
@@ -98,7 +98,7 @@ export class SupportappSlackWorkspaceConfiguration extends cdktn.TerraformResour
   }
 
   // version_id - computed: true, optional: true, required: false
-  private _versionId?: string;
+  private _versionId?: string; 
   public get versionId() {
     return this.getStringAttribute('version_id');
   }

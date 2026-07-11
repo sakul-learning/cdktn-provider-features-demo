@@ -126,7 +126,7 @@ export class Apigatewayv2RouteResponseResponseParametersOutputReference extends 
   }
 
   // required - computed: true, optional: true, required: false
-  private _required?: boolean | cdktn.IResolvable;
+  private _required?: boolean | cdktn.IResolvable; 
   public get required() {
     return this.getBooleanAttribute('required');
   }
@@ -224,7 +224,7 @@ export class Apigatewayv2RouteResponse extends cdktn.TerraformResource {
   // ==========
 
   // api_id - computed: false, optional: false, required: true
-  private _apiId?: string;
+  private _apiId?: string; 
   public get apiId() {
     return this.getStringAttribute('api_id');
   }
@@ -242,7 +242,7 @@ export class Apigatewayv2RouteResponse extends cdktn.TerraformResource {
   }
 
   // model_selection_expression - computed: true, optional: true, required: false
-  private _modelSelectionExpression?: string;
+  private _modelSelectionExpression?: string; 
   public get modelSelectionExpression() {
     return this.getStringAttribute('model_selection_expression');
   }
@@ -258,7 +258,7 @@ export class Apigatewayv2RouteResponse extends cdktn.TerraformResource {
   }
 
   // response_models - computed: true, optional: true, required: false
-  private _responseModels?: string;
+  private _responseModels?: string; 
   public get responseModels() {
     return this.getStringAttribute('response_models');
   }
@@ -290,7 +290,7 @@ export class Apigatewayv2RouteResponse extends cdktn.TerraformResource {
   }
 
   // route_id - computed: false, optional: false, required: true
-  private _routeId?: string;
+  private _routeId?: string; 
   public get routeId() {
     return this.getStringAttribute('route_id');
   }
@@ -308,7 +308,7 @@ export class Apigatewayv2RouteResponse extends cdktn.TerraformResource {
   }
 
   // route_response_key - computed: false, optional: false, required: true
-  private _routeResponseKey?: string;
+  private _routeResponseKey?: string; 
   public get routeResponseKey() {
     return this.getStringAttribute('route_response_key');
   }

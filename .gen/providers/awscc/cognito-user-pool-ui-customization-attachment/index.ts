@@ -81,7 +81,7 @@ export class CognitoUserPoolUiCustomizationAttachment extends cdktn.TerraformRes
   // ==========
 
   // client_id - computed: false, optional: false, required: true
-  private _clientId?: string;
+  private _clientId?: string; 
   public get clientId() {
     return this.getStringAttribute('client_id');
   }
@@ -94,7 +94,7 @@ export class CognitoUserPoolUiCustomizationAttachment extends cdktn.TerraformRes
   }
 
   // css - computed: true, optional: true, required: false
-  private _css?: string;
+  private _css?: string; 
   public get css() {
     return this.getStringAttribute('css');
   }
@@ -115,7 +115,7 @@ export class CognitoUserPoolUiCustomizationAttachment extends cdktn.TerraformRes
   }
 
   // user_pool_id - computed: false, optional: false, required: true
-  private _userPoolId?: string;
+  private _userPoolId?: string; 
   public get userPoolId() {
     return this.getStringAttribute('user_pool_id');
   }

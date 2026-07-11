@@ -200,7 +200,7 @@ export class BedrockagentcoreHarnessEnvironmentAgentcoreRuntimeEnvironmentFilesy
   }
 
   // access_point_arn - computed: true, optional: true, required: false
-  private _accessPointArn?: string;
+  private _accessPointArn?: string; 
   public get accessPointArn() {
     return this.getStringAttribute('access_point_arn');
   }
@@ -216,7 +216,7 @@ export class BedrockagentcoreHarnessEnvironmentAgentcoreRuntimeEnvironmentFilesy
   }
 
   // mount_path - computed: true, optional: true, required: false
-  private _mountPath?: string;
+  private _mountPath?: string; 
   public get mountPath() {
     return this.getStringAttribute('mount_path');
   }
@@ -349,7 +349,7 @@ export class BedrockagentcoreHarnessEnvironmentAgentcoreRuntimeEnvironmentFilesy
   }
 
   // access_point_arn - computed: true, optional: true, required: false
-  private _accessPointArn?: string;
+  private _accessPointArn?: string; 
   public get accessPointArn() {
     return this.getStringAttribute('access_point_arn');
   }
@@ -365,7 +365,7 @@ export class BedrockagentcoreHarnessEnvironmentAgentcoreRuntimeEnvironmentFilesy
   }
 
   // mount_path - computed: true, optional: true, required: false
-  private _mountPath?: string;
+  private _mountPath?: string; 
   public get mountPath() {
     return this.getStringAttribute('mount_path');
   }
@@ -481,7 +481,7 @@ export class BedrockagentcoreHarnessEnvironmentAgentcoreRuntimeEnvironmentFilesy
   }
 
   // mount_path - computed: true, optional: true, required: false
-  private _mountPath?: string;
+  private _mountPath?: string; 
   public get mountPath() {
     return this.getStringAttribute('mount_path');
   }
@@ -796,7 +796,7 @@ export class BedrockagentcoreHarnessEnvironmentAgentcoreRuntimeEnvironmentLifecy
   }
 
   // idle_runtime_session_timeout - computed: true, optional: true, required: false
-  private _idleRuntimeSessionTimeout?: number;
+  private _idleRuntimeSessionTimeout?: number; 
   public get idleRuntimeSessionTimeout() {
     return this.getNumberAttribute('idle_runtime_session_timeout');
   }
@@ -812,7 +812,7 @@ export class BedrockagentcoreHarnessEnvironmentAgentcoreRuntimeEnvironmentLifecy
   }
 
   // max_lifetime - computed: true, optional: true, required: false
-  private _maxLifetime?: number;
+  private _maxLifetime?: number; 
   public get maxLifetime() {
     return this.getNumberAttribute('max_lifetime');
   }
@@ -945,7 +945,7 @@ export class BedrockagentcoreHarnessEnvironmentAgentcoreRuntimeEnvironmentNetwor
   }
 
   // security_groups - computed: true, optional: true, required: false
-  private _securityGroups?: string[];
+  private _securityGroups?: string[]; 
   public get securityGroups() {
     return cdktn.Fn.tolist(this.getListAttribute('security_groups'));
   }
@@ -961,7 +961,7 @@ export class BedrockagentcoreHarnessEnvironmentAgentcoreRuntimeEnvironmentNetwor
   }
 
   // subnets - computed: true, optional: true, required: false
-  private _subnets?: string[];
+  private _subnets?: string[]; 
   public get subnets() {
     return cdktn.Fn.tolist(this.getListAttribute('subnets'));
   }
@@ -1094,7 +1094,7 @@ export class BedrockagentcoreHarnessEnvironmentAgentcoreRuntimeEnvironmentNetwor
   }
 
   // network_mode - computed: true, optional: true, required: false
-  private _networkMode?: string;
+  private _networkMode?: string; 
   public get networkMode() {
     return this.getStringAttribute('network_mode');
   }
@@ -1311,7 +1311,7 @@ export class BedrockagentcoreHarnessEnvironmentAgentcoreRuntimeEnvironmentOutput
   }
 
   // agent_runtime_arn - computed: true, optional: true, required: false
-  private _agentRuntimeArn?: string;
+  private _agentRuntimeArn?: string; 
   public get agentRuntimeArn() {
     return this.getStringAttribute('agent_runtime_arn');
   }
@@ -1327,7 +1327,7 @@ export class BedrockagentcoreHarnessEnvironmentAgentcoreRuntimeEnvironmentOutput
   }
 
   // agent_runtime_id - computed: true, optional: true, required: false
-  private _agentRuntimeId?: string;
+  private _agentRuntimeId?: string; 
   public get agentRuntimeId() {
     return this.getStringAttribute('agent_runtime_id');
   }
@@ -1343,7 +1343,7 @@ export class BedrockagentcoreHarnessEnvironmentAgentcoreRuntimeEnvironmentOutput
   }
 
   // agent_runtime_name - computed: true, optional: true, required: false
-  private _agentRuntimeName?: string;
+  private _agentRuntimeName?: string; 
   public get agentRuntimeName() {
     return this.getStringAttribute('agent_runtime_name');
   }
@@ -1623,7 +1623,7 @@ export class BedrockagentcoreHarnessTruncationConfigSlidingWindowOutputReference
   }
 
   // messages_count - computed: true, optional: true, required: false
-  private _messagesCount?: number;
+  private _messagesCount?: number; 
   public get messagesCount() {
     return this.getNumberAttribute('messages_count');
   }
@@ -1773,7 +1773,7 @@ export class BedrockagentcoreHarnessTruncationConfigSummarizationOutputReference
   }
 
   // preserve_recent_messages - computed: true, optional: true, required: false
-  private _preserveRecentMessages?: number;
+  private _preserveRecentMessages?: number; 
   public get preserveRecentMessages() {
     return this.getNumberAttribute('preserve_recent_messages');
   }
@@ -1789,7 +1789,7 @@ export class BedrockagentcoreHarnessTruncationConfigSummarizationOutputReference
   }
 
   // summarization_system_prompt - computed: true, optional: true, required: false
-  private _summarizationSystemPrompt?: string;
+  private _summarizationSystemPrompt?: string; 
   public get summarizationSystemPrompt() {
     return this.getStringAttribute('summarization_system_prompt');
   }
@@ -1805,7 +1805,7 @@ export class BedrockagentcoreHarnessTruncationConfigSummarizationOutputReference
   }
 
   // summary_ratio - computed: true, optional: true, required: false
-  private _summaryRatio?: number;
+  private _summaryRatio?: number; 
   public get summaryRatio() {
     return this.getNumberAttribute('summary_ratio');
   }
@@ -2103,7 +2103,7 @@ export class BedrockagentcoreHarnessTruncationOutputReference extends cdktn.Comp
   }
 
   // strategy - computed: true, optional: true, required: false
-  private _strategy?: string;
+  private _strategy?: string; 
   public get strategy() {
     return this.getStringAttribute('strategy');
   }
@@ -2236,7 +2236,7 @@ export class BedrockagentcoreHarnessAuthorizerConfigurationCustomJwtAuthorizerCu
   }
 
   // match_value_string - computed: false, optional: true, required: false
-  private _matchValueString?: string;
+  private _matchValueString?: string; 
   public get matchValueString() {
     return this.getStringAttribute('match_value_string');
   }
@@ -2252,7 +2252,7 @@ export class BedrockagentcoreHarnessAuthorizerConfigurationCustomJwtAuthorizerCu
   }
 
   // match_value_string_list - computed: false, optional: true, required: false
-  private _matchValueStringList?: string[];
+  private _matchValueStringList?: string[]; 
   public get matchValueStringList() {
     return cdktn.Fn.tolist(this.getListAttribute('match_value_string_list'));
   }
@@ -2387,7 +2387,7 @@ export class BedrockagentcoreHarnessAuthorizerConfigurationCustomJwtAuthorizerCu
   }
 
   // claim_match_operator - computed: false, optional: false, required: true
-  private _claimMatchOperator?: string;
+  private _claimMatchOperator?: string; 
   public get claimMatchOperator() {
     return this.getStringAttribute('claim_match_operator');
   }
@@ -2552,7 +2552,7 @@ export class BedrockagentcoreHarnessAuthorizerConfigurationCustomJwtAuthorizerCu
   }
 
   // inbound_token_claim_name - computed: false, optional: false, required: true
-  private _inboundTokenClaimName?: string;
+  private _inboundTokenClaimName?: string; 
   public get inboundTokenClaimName() {
     return this.getStringAttribute('inbound_token_claim_name');
   }
@@ -2565,7 +2565,7 @@ export class BedrockagentcoreHarnessAuthorizerConfigurationCustomJwtAuthorizerCu
   }
 
   // inbound_token_claim_value_type - computed: false, optional: false, required: true
-  private _inboundTokenClaimValueType?: string;
+  private _inboundTokenClaimValueType?: string; 
   public get inboundTokenClaimValueType() {
     return this.getStringAttribute('inbound_token_claim_value_type');
   }
@@ -2764,7 +2764,7 @@ export class BedrockagentcoreHarnessAuthorizerConfigurationCustomJwtAuthorizerOu
   }
 
   // allowed_audience - computed: false, optional: true, required: false
-  private _allowedAudience?: string[];
+  private _allowedAudience?: string[]; 
   public get allowedAudience() {
     return cdktn.Fn.tolist(this.getListAttribute('allowed_audience'));
   }
@@ -2780,7 +2780,7 @@ export class BedrockagentcoreHarnessAuthorizerConfigurationCustomJwtAuthorizerOu
   }
 
   // allowed_clients - computed: false, optional: true, required: false
-  private _allowedClients?: string[];
+  private _allowedClients?: string[]; 
   public get allowedClients() {
     return cdktn.Fn.tolist(this.getListAttribute('allowed_clients'));
   }
@@ -2796,7 +2796,7 @@ export class BedrockagentcoreHarnessAuthorizerConfigurationCustomJwtAuthorizerOu
   }
 
   // allowed_scopes - computed: false, optional: true, required: false
-  private _allowedScopes?: string[];
+  private _allowedScopes?: string[]; 
   public get allowedScopes() {
     return cdktn.Fn.tolist(this.getListAttribute('allowed_scopes'));
   }
@@ -2812,7 +2812,7 @@ export class BedrockagentcoreHarnessAuthorizerConfigurationCustomJwtAuthorizerOu
   }
 
   // discovery_url - computed: false, optional: false, required: true
-  private _discoveryUrl?: string;
+  private _discoveryUrl?: string; 
   public get discoveryUrl() {
     return this.getStringAttribute('discovery_url');
   }
@@ -3059,7 +3059,7 @@ export class BedrockagentcoreHarnessEnvironmentArtifactContainerConfigurationOut
   }
 
   // container_uri - computed: false, optional: false, required: true
-  private _containerUri?: string;
+  private _containerUri?: string; 
   public get containerUri() {
     return this.getStringAttribute('container_uri');
   }
@@ -3341,7 +3341,7 @@ export class BedrockagentcoreHarnessMemoryAgentcoreMemoryConfigurationRetrievalC
   }
 
   // map_block_key - computed: false, optional: false, required: true
-  private _mapBlockKey?: string;
+  private _mapBlockKey?: string; 
   public get mapBlockKey() {
     return this.getStringAttribute('map_block_key');
   }
@@ -3354,7 +3354,7 @@ export class BedrockagentcoreHarnessMemoryAgentcoreMemoryConfigurationRetrievalC
   }
 
   // relevance_score - computed: false, optional: true, required: false
-  private _relevanceScore?: number;
+  private _relevanceScore?: number; 
   public get relevanceScore() {
     return this.getNumberAttribute('relevance_score');
   }
@@ -3370,7 +3370,7 @@ export class BedrockagentcoreHarnessMemoryAgentcoreMemoryConfigurationRetrievalC
   }
 
   // strategy_id - computed: false, optional: true, required: false
-  private _strategyId?: string;
+  private _strategyId?: string; 
   public get strategyId() {
     return this.getStringAttribute('strategy_id');
   }
@@ -3386,7 +3386,7 @@ export class BedrockagentcoreHarnessMemoryAgentcoreMemoryConfigurationRetrievalC
   }
 
   // top_k - computed: false, optional: true, required: false
-  private _topK?: number;
+  private _topK?: number; 
   public get topK() {
     return this.getNumberAttribute('top_k');
   }
@@ -3555,7 +3555,7 @@ export class BedrockagentcoreHarnessMemoryAgentcoreMemoryConfigurationOutputRefe
   }
 
   // actor_id - computed: false, optional: true, required: false
-  private _actorId?: string;
+  private _actorId?: string; 
   public get actorId() {
     return this.getStringAttribute('actor_id');
   }
@@ -3571,7 +3571,7 @@ export class BedrockagentcoreHarnessMemoryAgentcoreMemoryConfigurationOutputRefe
   }
 
   // arn - computed: false, optional: false, required: true
-  private _arn?: string;
+  private _arn?: string; 
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -3584,7 +3584,7 @@ export class BedrockagentcoreHarnessMemoryAgentcoreMemoryConfigurationOutputRefe
   }
 
   // messages_count - computed: false, optional: true, required: false
-  private _messagesCount?: number;
+  private _messagesCount?: number; 
   public get messagesCount() {
     return this.getNumberAttribute('messages_count');
   }
@@ -3885,7 +3885,7 @@ export class BedrockagentcoreHarnessModelBedrockModelConfigOutputReference exten
   }
 
   // max_tokens - computed: false, optional: true, required: false
-  private _maxTokens?: number;
+  private _maxTokens?: number; 
   public get maxTokens() {
     return this.getNumberAttribute('max_tokens');
   }
@@ -3901,7 +3901,7 @@ export class BedrockagentcoreHarnessModelBedrockModelConfigOutputReference exten
   }
 
   // model_id - computed: false, optional: false, required: true
-  private _modelId?: string;
+  private _modelId?: string; 
   public get modelId() {
     return this.getStringAttribute('model_id');
   }
@@ -3914,7 +3914,7 @@ export class BedrockagentcoreHarnessModelBedrockModelConfigOutputReference exten
   }
 
   // temperature - computed: false, optional: true, required: false
-  private _temperature?: number;
+  private _temperature?: number; 
   public get temperature() {
     return this.getNumberAttribute('temperature');
   }
@@ -3930,7 +3930,7 @@ export class BedrockagentcoreHarnessModelBedrockModelConfigOutputReference exten
   }
 
   // top_p - computed: false, optional: true, required: false
-  private _topP?: number;
+  private _topP?: number; 
   public get topP() {
     return this.getNumberAttribute('top_p');
   }
@@ -4131,7 +4131,7 @@ export class BedrockagentcoreHarnessModelGeminiModelConfigOutputReference extend
   }
 
   // api_key_arn - computed: false, optional: false, required: true
-  private _apiKeyArn?: string;
+  private _apiKeyArn?: string; 
   public get apiKeyArn() {
     return this.getStringAttribute('api_key_arn');
   }
@@ -4144,7 +4144,7 @@ export class BedrockagentcoreHarnessModelGeminiModelConfigOutputReference extend
   }
 
   // max_tokens - computed: false, optional: true, required: false
-  private _maxTokens?: number;
+  private _maxTokens?: number; 
   public get maxTokens() {
     return this.getNumberAttribute('max_tokens');
   }
@@ -4160,7 +4160,7 @@ export class BedrockagentcoreHarnessModelGeminiModelConfigOutputReference extend
   }
 
   // model_id - computed: false, optional: false, required: true
-  private _modelId?: string;
+  private _modelId?: string; 
   public get modelId() {
     return this.getStringAttribute('model_id');
   }
@@ -4173,7 +4173,7 @@ export class BedrockagentcoreHarnessModelGeminiModelConfigOutputReference extend
   }
 
   // temperature - computed: false, optional: true, required: false
-  private _temperature?: number;
+  private _temperature?: number; 
   public get temperature() {
     return this.getNumberAttribute('temperature');
   }
@@ -4189,7 +4189,7 @@ export class BedrockagentcoreHarnessModelGeminiModelConfigOutputReference extend
   }
 
   // top_k - computed: false, optional: true, required: false
-  private _topK?: number;
+  private _topK?: number; 
   public get topK() {
     return this.getNumberAttribute('top_k');
   }
@@ -4205,7 +4205,7 @@ export class BedrockagentcoreHarnessModelGeminiModelConfigOutputReference extend
   }
 
   // top_p - computed: false, optional: true, required: false
-  private _topP?: number;
+  private _topP?: number; 
   public get topP() {
     return this.getNumberAttribute('top_p');
   }
@@ -4389,7 +4389,7 @@ export class BedrockagentcoreHarnessModelOpenaiModelConfigOutputReference extend
   }
 
   // api_key_arn - computed: false, optional: false, required: true
-  private _apiKeyArn?: string;
+  private _apiKeyArn?: string; 
   public get apiKeyArn() {
     return this.getStringAttribute('api_key_arn');
   }
@@ -4402,7 +4402,7 @@ export class BedrockagentcoreHarnessModelOpenaiModelConfigOutputReference extend
   }
 
   // max_tokens - computed: false, optional: true, required: false
-  private _maxTokens?: number;
+  private _maxTokens?: number; 
   public get maxTokens() {
     return this.getNumberAttribute('max_tokens');
   }
@@ -4418,7 +4418,7 @@ export class BedrockagentcoreHarnessModelOpenaiModelConfigOutputReference extend
   }
 
   // model_id - computed: false, optional: false, required: true
-  private _modelId?: string;
+  private _modelId?: string; 
   public get modelId() {
     return this.getStringAttribute('model_id');
   }
@@ -4431,7 +4431,7 @@ export class BedrockagentcoreHarnessModelOpenaiModelConfigOutputReference extend
   }
 
   // temperature - computed: false, optional: true, required: false
-  private _temperature?: number;
+  private _temperature?: number; 
   public get temperature() {
     return this.getNumberAttribute('temperature');
   }
@@ -4447,7 +4447,7 @@ export class BedrockagentcoreHarnessModelOpenaiModelConfigOutputReference extend
   }
 
   // top_p - computed: false, optional: true, required: false
-  private _topP?: number;
+  private _topP?: number; 
   public get topP() {
     return this.getNumberAttribute('top_p');
   }
@@ -4751,7 +4751,7 @@ export class BedrockagentcoreHarnessSkillOutputReference extends cdktn.ComplexOb
   }
 
   // path - computed: false, optional: false, required: true
-  private _path?: string;
+  private _path?: string; 
   public get path() {
     return this.getStringAttribute('path');
   }
@@ -4864,7 +4864,7 @@ export class BedrockagentcoreHarnessSystemPromptOutputReference extends cdktn.Co
   }
 
   // text - computed: false, optional: false, required: true
-  private _text?: string;
+  private _text?: string; 
   public get text() {
     return this.getStringAttribute('text');
   }
@@ -5015,7 +5015,7 @@ export class BedrockagentcoreHarnessTimeoutsOutputReference extends cdktn.Comple
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -5031,7 +5031,7 @@ export class BedrockagentcoreHarnessTimeoutsOutputReference extends cdktn.Comple
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -5047,7 +5047,7 @@ export class BedrockagentcoreHarnessTimeoutsOutputReference extends cdktn.Comple
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -5143,7 +5143,7 @@ export class BedrockagentcoreHarnessToolConfigAgentcoreBrowserOutputReference ex
   }
 
   // browser_arn - computed: false, optional: true, required: false
-  private _browserArn?: string;
+  private _browserArn?: string; 
   public get browserArn() {
     return this.getStringAttribute('browser_arn');
   }
@@ -5259,7 +5259,7 @@ export class BedrockagentcoreHarnessToolConfigAgentcoreCodeInterpreterOutputRefe
   }
 
   // code_interpreter_arn - computed: false, optional: true, required: false
-  private _codeInterpreterArn?: string;
+  private _codeInterpreterArn?: string; 
   public get codeInterpreterArn() {
     return this.getStringAttribute('code_interpreter_arn');
   }
@@ -5443,7 +5443,7 @@ export class BedrockagentcoreHarnessToolConfigAgentcoreGatewayOutboundAuthOauthO
   }
 
   // custom_parameters - computed: false, optional: true, required: false
-  private _customParameters?: { [key: string]: string };
+  private _customParameters?: { [key: string]: string }; 
   public get customParameters() {
     return this.getStringMapAttribute('custom_parameters');
   }
@@ -5459,7 +5459,7 @@ export class BedrockagentcoreHarnessToolConfigAgentcoreGatewayOutboundAuthOauthO
   }
 
   // default_return_url - computed: false, optional: true, required: false
-  private _defaultReturnUrl?: string;
+  private _defaultReturnUrl?: string; 
   public get defaultReturnUrl() {
     return this.getStringAttribute('default_return_url');
   }
@@ -5475,7 +5475,7 @@ export class BedrockagentcoreHarnessToolConfigAgentcoreGatewayOutboundAuthOauthO
   }
 
   // grant_type - computed: false, optional: true, required: false
-  private _grantType?: string;
+  private _grantType?: string; 
   public get grantType() {
     return this.getStringAttribute('grant_type');
   }
@@ -5491,7 +5491,7 @@ export class BedrockagentcoreHarnessToolConfigAgentcoreGatewayOutboundAuthOauthO
   }
 
   // provider_arn - computed: false, optional: false, required: true
-  private _providerArn?: string;
+  private _providerArn?: string; 
   public get providerArn() {
     return this.getStringAttribute('provider_arn');
   }
@@ -5504,7 +5504,7 @@ export class BedrockagentcoreHarnessToolConfigAgentcoreGatewayOutboundAuthOauthO
   }
 
   // scopes - computed: false, optional: false, required: true
-  private _scopes?: string[];
+  private _scopes?: string[]; 
   public get scopes() {
     return this.getListAttribute('scopes');
   }
@@ -5653,7 +5653,7 @@ export class BedrockagentcoreHarnessToolConfigAgentcoreGatewayOutboundAuthOutput
   }
 
   // aws_iam - computed: false, optional: true, required: false
-  private _awsIam?: boolean | cdktn.IResolvable;
+  private _awsIam?: boolean | cdktn.IResolvable; 
   public get awsIam() {
     return this.getBooleanAttribute('aws_iam');
   }
@@ -5669,7 +5669,7 @@ export class BedrockagentcoreHarnessToolConfigAgentcoreGatewayOutboundAuthOutput
   }
 
   // none - computed: false, optional: true, required: false
-  private _none?: boolean | cdktn.IResolvable;
+  private _none?: boolean | cdktn.IResolvable; 
   public get none() {
     return this.getBooleanAttribute('none');
   }
@@ -5820,7 +5820,7 @@ export class BedrockagentcoreHarnessToolConfigAgentcoreGatewayOutputReference ex
   }
 
   // gateway_arn - computed: false, optional: false, required: true
-  private _gatewayArn?: string;
+  private _gatewayArn?: string; 
   public get gatewayArn() {
     return this.getStringAttribute('gateway_arn');
   }
@@ -5966,7 +5966,7 @@ export class BedrockagentcoreHarnessToolConfigInlineFunctionOutputReference exte
   }
 
   // description - computed: false, optional: false, required: true
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -5979,7 +5979,7 @@ export class BedrockagentcoreHarnessToolConfigInlineFunctionOutputReference exte
   }
 
   // input_schema - computed: false, optional: false, required: true
-  private _inputSchema?: string;
+  private _inputSchema?: string; 
   public get inputSchema() {
     return this.getStringAttribute('input_schema');
   }
@@ -6109,7 +6109,7 @@ export class BedrockagentcoreHarnessToolConfigRemoteMcpOutputReference extends c
   }
 
   // headers - computed: false, optional: true, required: false
-  private _headers?: { [key: string]: string };
+  private _headers?: { [key: string]: string }; 
   public get headers() {
     return this.getStringMapAttribute('headers');
   }
@@ -6125,7 +6125,7 @@ export class BedrockagentcoreHarnessToolConfigRemoteMcpOutputReference extends c
   }
 
   // url - computed: false, optional: false, required: true
-  private _url?: string;
+  private _url?: string; 
   public get url() {
     return this.getStringAttribute('url');
   }
@@ -6532,7 +6532,7 @@ export class BedrockagentcoreHarnessToolOutputReference extends cdktn.ComplexObj
   }
 
   // name - computed: false, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -6548,7 +6548,7 @@ export class BedrockagentcoreHarnessToolOutputReference extends cdktn.ComplexObj
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -6673,7 +6673,7 @@ export class BedrockagentcoreHarness extends cdktn.TerraformResource {
   // ==========
 
   // allowed_tools - computed: true, optional: true, required: false
-  private _allowedTools?: string[];
+  private _allowedTools?: string[]; 
   public get allowedTools() {
     return this.getListAttribute('allowed_tools');
   }
@@ -6710,7 +6710,7 @@ export class BedrockagentcoreHarness extends cdktn.TerraformResource {
   }
 
   // environment_variables - computed: false, optional: true, required: false
-  private _environmentVariables?: { [key: string]: string };
+  private _environmentVariables?: { [key: string]: string }; 
   public get environmentVariables() {
     return this.getStringMapAttribute('environment_variables');
   }
@@ -6726,7 +6726,7 @@ export class BedrockagentcoreHarness extends cdktn.TerraformResource {
   }
 
   // execution_role_arn - computed: false, optional: false, required: true
-  private _executionRoleArn?: string;
+  private _executionRoleArn?: string; 
   public get executionRoleArn() {
     return this.getStringAttribute('execution_role_arn');
   }
@@ -6744,7 +6744,7 @@ export class BedrockagentcoreHarness extends cdktn.TerraformResource {
   }
 
   // harness_name - computed: false, optional: false, required: true
-  private _harnessName?: string;
+  private _harnessName?: string; 
   public get harnessName() {
     return this.getStringAttribute('harness_name');
   }
@@ -6757,7 +6757,7 @@ export class BedrockagentcoreHarness extends cdktn.TerraformResource {
   }
 
   // max_iterations - computed: true, optional: true, required: false
-  private _maxIterations?: number;
+  private _maxIterations?: number; 
   public get maxIterations() {
     return this.getNumberAttribute('max_iterations');
   }
@@ -6773,7 +6773,7 @@ export class BedrockagentcoreHarness extends cdktn.TerraformResource {
   }
 
   // max_tokens - computed: false, optional: true, required: false
-  private _maxTokens?: number;
+  private _maxTokens?: number; 
   public get maxTokens() {
     return this.getNumberAttribute('max_tokens');
   }
@@ -6789,7 +6789,7 @@ export class BedrockagentcoreHarness extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -6805,7 +6805,7 @@ export class BedrockagentcoreHarness extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -6827,7 +6827,7 @@ export class BedrockagentcoreHarness extends cdktn.TerraformResource {
   }
 
   // timeout_seconds - computed: true, optional: true, required: false
-  private _timeoutSeconds?: number;
+  private _timeoutSeconds?: number; 
   public get timeoutSeconds() {
     return this.getNumberAttribute('timeout_seconds');
   }

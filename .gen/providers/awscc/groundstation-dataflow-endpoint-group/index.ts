@@ -124,7 +124,7 @@ export class GroundstationDataflowEndpointGroupEndpointDetailsAwsGroundStationAg
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -140,7 +140,7 @@ export class GroundstationDataflowEndpointGroupEndpointDetailsAwsGroundStationAg
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -253,7 +253,7 @@ export class GroundstationDataflowEndpointGroupEndpointDetailsAwsGroundStationAg
   }
 
   // mtu - computed: true, optional: true, required: false
-  private _mtu?: number;
+  private _mtu?: number; 
   public get mtu() {
     return this.getNumberAttribute('mtu');
   }
@@ -384,7 +384,7 @@ export class GroundstationDataflowEndpointGroupEndpointDetailsAwsGroundStationAg
   }
 
   // maximum - computed: true, optional: true, required: false
-  private _maximum?: number;
+  private _maximum?: number; 
   public get maximum() {
     return this.getNumberAttribute('maximum');
   }
@@ -400,7 +400,7 @@ export class GroundstationDataflowEndpointGroupEndpointDetailsAwsGroundStationAg
   }
 
   // minimum - computed: true, optional: true, required: false
-  private _minimum?: number;
+  private _minimum?: number; 
   public get minimum() {
     return this.getNumberAttribute('minimum');
   }
@@ -515,7 +515,7 @@ export class GroundstationDataflowEndpointGroupEndpointDetailsAwsGroundStationAg
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -646,7 +646,7 @@ export class GroundstationDataflowEndpointGroupEndpointDetailsAwsGroundStationAg
   }
 
   // mtu - computed: true, optional: true, required: false
-  private _mtu?: number;
+  private _mtu?: number; 
   public get mtu() {
     return this.getNumberAttribute('mtu');
   }
@@ -832,7 +832,7 @@ export class GroundstationDataflowEndpointGroupEndpointDetailsAwsGroundStationAg
   }
 
   // agent_status - computed: true, optional: true, required: false
-  private _agentStatus?: string;
+  private _agentStatus?: string; 
   public get agentStatus() {
     return this.getStringAttribute('agent_status');
   }
@@ -848,7 +848,7 @@ export class GroundstationDataflowEndpointGroupEndpointDetailsAwsGroundStationAg
   }
 
   // audit_results - computed: true, optional: true, required: false
-  private _auditResults?: string;
+  private _auditResults?: string; 
   public get auditResults() {
     return this.getStringAttribute('audit_results');
   }
@@ -896,7 +896,7 @@ export class GroundstationDataflowEndpointGroupEndpointDetailsAwsGroundStationAg
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1007,7 +1007,7 @@ export class GroundstationDataflowEndpointGroupEndpointDetailsEndpointAddressOut
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1023,7 +1023,7 @@ export class GroundstationDataflowEndpointGroupEndpointDetailsEndpointAddressOut
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -1167,7 +1167,7 @@ export class GroundstationDataflowEndpointGroupEndpointDetailsEndpointOutputRefe
   }
 
   // mtu - computed: true, optional: true, required: false
-  private _mtu?: number;
+  private _mtu?: number; 
   public get mtu() {
     return this.getNumberAttribute('mtu');
   }
@@ -1183,7 +1183,7 @@ export class GroundstationDataflowEndpointGroupEndpointDetailsEndpointOutputRefe
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1311,7 +1311,7 @@ export class GroundstationDataflowEndpointGroupEndpointDetailsSecurityDetailsOut
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -1327,7 +1327,7 @@ export class GroundstationDataflowEndpointGroupEndpointDetailsSecurityDetailsOut
   }
 
   // security_group_ids - computed: true, optional: true, required: false
-  private _securityGroupIds?: string[];
+  private _securityGroupIds?: string[]; 
   public get securityGroupIds() {
     return this.getListAttribute('security_group_ids');
   }
@@ -1343,7 +1343,7 @@ export class GroundstationDataflowEndpointGroupEndpointDetailsSecurityDetailsOut
   }
 
   // subnet_ids - computed: true, optional: true, required: false
-  private _subnetIds?: string[];
+  private _subnetIds?: string[]; 
   public get subnetIds() {
     return this.getListAttribute('subnet_ids');
   }
@@ -1640,7 +1640,7 @@ export class GroundstationDataflowEndpointGroupTagsOutputReference extends cdktn
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1656,7 +1656,7 @@ export class GroundstationDataflowEndpointGroupTagsOutputReference extends cdktn
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1758,7 +1758,7 @@ export class GroundstationDataflowEndpointGroup extends cdktn.TerraformResource 
   }
 
   // contact_post_pass_duration_seconds - computed: true, optional: true, required: false
-  private _contactPostPassDurationSeconds?: number;
+  private _contactPostPassDurationSeconds?: number; 
   public get contactPostPassDurationSeconds() {
     return this.getNumberAttribute('contact_post_pass_duration_seconds');
   }
@@ -1774,7 +1774,7 @@ export class GroundstationDataflowEndpointGroup extends cdktn.TerraformResource 
   }
 
   // contact_pre_pass_duration_seconds - computed: true, optional: true, required: false
-  private _contactPrePassDurationSeconds?: number;
+  private _contactPrePassDurationSeconds?: number; 
   public get contactPrePassDurationSeconds() {
     return this.getNumberAttribute('contact_pre_pass_duration_seconds');
   }

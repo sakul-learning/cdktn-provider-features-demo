@@ -137,7 +137,7 @@ export class DlmLifecyclePolicyPolicyDetailsActionCrossRegionCopyEncryptionConfi
   }
 
   // cmk_arn - computed: false, optional: true, required: false
-  private _cmkArn?: string;
+  private _cmkArn?: string; 
   public get cmkArn() {
     return this.getStringAttribute('cmk_arn');
   }
@@ -153,7 +153,7 @@ export class DlmLifecyclePolicyPolicyDetailsActionCrossRegionCopyEncryptionConfi
   }
 
   // encrypted - computed: false, optional: true, required: false
-  private _encrypted?: boolean | cdktn.IResolvable;
+  private _encrypted?: boolean | cdktn.IResolvable; 
   public get encrypted() {
     return this.getBooleanAttribute('encrypted');
   }
@@ -254,7 +254,7 @@ export class DlmLifecyclePolicyPolicyDetailsActionCrossRegionCopyRetainRuleOutpu
   }
 
   // interval - computed: false, optional: false, required: true
-  private _interval?: number;
+  private _interval?: number; 
   public get interval() {
     return this.getNumberAttribute('interval');
   }
@@ -267,7 +267,7 @@ export class DlmLifecyclePolicyPolicyDetailsActionCrossRegionCopyRetainRuleOutpu
   }
 
   // interval_unit - computed: false, optional: false, required: true
-  private _intervalUnit?: string;
+  private _intervalUnit?: string; 
   public get intervalUnit() {
     return this.getStringAttribute('interval_unit');
   }
@@ -398,7 +398,7 @@ export class DlmLifecyclePolicyPolicyDetailsActionCrossRegionCopyOutputReference
   }
 
   // target - computed: false, optional: false, required: true
-  private _target?: string;
+  private _target?: string; 
   public get target() {
     return this.getStringAttribute('target');
   }
@@ -547,7 +547,7 @@ export class DlmLifecyclePolicyPolicyDetailsActionOutputReference extends cdktn.
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -675,7 +675,7 @@ export class DlmLifecyclePolicyPolicyDetailsEventSourceParametersOutputReference
   }
 
   // description_regex - computed: false, optional: false, required: true
-  private _descriptionRegex?: string;
+  private _descriptionRegex?: string; 
   public get descriptionRegex() {
     return this.getStringAttribute('description_regex');
   }
@@ -688,7 +688,7 @@ export class DlmLifecyclePolicyPolicyDetailsEventSourceParametersOutputReference
   }
 
   // event_type - computed: false, optional: false, required: true
-  private _eventType?: string;
+  private _eventType?: string; 
   public get eventType() {
     return this.getStringAttribute('event_type');
   }
@@ -701,7 +701,7 @@ export class DlmLifecyclePolicyPolicyDetailsEventSourceParametersOutputReference
   }
 
   // snapshot_owner - computed: false, optional: false, required: true
-  private _snapshotOwner?: string[];
+  private _snapshotOwner?: string[]; 
   public get snapshotOwner() {
     return cdktn.Fn.tolist(this.getListAttribute('snapshot_owner'));
   }
@@ -801,7 +801,7 @@ export class DlmLifecyclePolicyPolicyDetailsEventSourceOutputReference extends c
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -929,7 +929,7 @@ export class DlmLifecyclePolicyPolicyDetailsExclusionsOutputReference extends cd
   }
 
   // exclude_boot_volumes - computed: false, optional: true, required: false
-  private _excludeBootVolumes?: boolean | cdktn.IResolvable;
+  private _excludeBootVolumes?: boolean | cdktn.IResolvable; 
   public get excludeBootVolumes() {
     return this.getBooleanAttribute('exclude_boot_volumes');
   }
@@ -945,7 +945,7 @@ export class DlmLifecyclePolicyPolicyDetailsExclusionsOutputReference extends cd
   }
 
   // exclude_tags - computed: false, optional: true, required: false
-  private _excludeTags?: { [key: string]: string };
+  private _excludeTags?: { [key: string]: string }; 
   public get excludeTags() {
     return this.getStringMapAttribute('exclude_tags');
   }
@@ -961,7 +961,7 @@ export class DlmLifecyclePolicyPolicyDetailsExclusionsOutputReference extends cd
   }
 
   // exclude_volume_types - computed: false, optional: true, required: false
-  private _excludeVolumeTypes?: string[];
+  private _excludeVolumeTypes?: string[]; 
   public get excludeVolumeTypes() {
     return this.getListAttribute('exclude_volume_types');
   }
@@ -1062,7 +1062,7 @@ export class DlmLifecyclePolicyPolicyDetailsParametersOutputReference extends cd
   }
 
   // exclude_boot_volume - computed: false, optional: true, required: false
-  private _excludeBootVolume?: boolean | cdktn.IResolvable;
+  private _excludeBootVolume?: boolean | cdktn.IResolvable; 
   public get excludeBootVolume() {
     return this.getBooleanAttribute('exclude_boot_volume');
   }
@@ -1078,7 +1078,7 @@ export class DlmLifecyclePolicyPolicyDetailsParametersOutputReference extends cd
   }
 
   // no_reboot - computed: false, optional: true, required: false
-  private _noReboot?: boolean | cdktn.IResolvable;
+  private _noReboot?: boolean | cdktn.IResolvable; 
   public get noReboot() {
     return this.getBooleanAttribute('no_reboot');
   }
@@ -1196,7 +1196,7 @@ export class DlmLifecyclePolicyPolicyDetailsScheduleArchiveRuleArchiveRetainRule
   }
 
   // count - computed: false, optional: true, required: false
-  private _count?: number;
+  private _count?: number; 
   public get count() {
     return this.getNumberAttribute('count');
   }
@@ -1212,7 +1212,7 @@ export class DlmLifecyclePolicyPolicyDetailsScheduleArchiveRuleArchiveRetainRule
   }
 
   // interval - computed: false, optional: true, required: false
-  private _interval?: number;
+  private _interval?: number; 
   public get interval() {
     return this.getNumberAttribute('interval');
   }
@@ -1228,7 +1228,7 @@ export class DlmLifecyclePolicyPolicyDetailsScheduleArchiveRuleArchiveRetainRule
   }
 
   // interval_unit - computed: false, optional: true, required: false
-  private _intervalUnit?: string;
+  private _intervalUnit?: string; 
   public get intervalUnit() {
     return this.getStringAttribute('interval_unit');
   }
@@ -1563,7 +1563,7 @@ export class DlmLifecyclePolicyPolicyDetailsScheduleCreateRuleScriptsOutputRefer
   }
 
   // execute_operation_on_script_failure - computed: true, optional: true, required: false
-  private _executeOperationOnScriptFailure?: boolean | cdktn.IResolvable;
+  private _executeOperationOnScriptFailure?: boolean | cdktn.IResolvable; 
   public get executeOperationOnScriptFailure() {
     return this.getBooleanAttribute('execute_operation_on_script_failure');
   }
@@ -1579,7 +1579,7 @@ export class DlmLifecyclePolicyPolicyDetailsScheduleCreateRuleScriptsOutputRefer
   }
 
   // execution_handler - computed: false, optional: false, required: true
-  private _executionHandler?: string;
+  private _executionHandler?: string; 
   public get executionHandler() {
     return this.getStringAttribute('execution_handler');
   }
@@ -1592,7 +1592,7 @@ export class DlmLifecyclePolicyPolicyDetailsScheduleCreateRuleScriptsOutputRefer
   }
 
   // execution_handler_service - computed: true, optional: true, required: false
-  private _executionHandlerService?: string;
+  private _executionHandlerService?: string; 
   public get executionHandlerService() {
     return this.getStringAttribute('execution_handler_service');
   }
@@ -1608,7 +1608,7 @@ export class DlmLifecyclePolicyPolicyDetailsScheduleCreateRuleScriptsOutputRefer
   }
 
   // execution_timeout - computed: true, optional: true, required: false
-  private _executionTimeout?: number;
+  private _executionTimeout?: number; 
   public get executionTimeout() {
     return this.getNumberAttribute('execution_timeout');
   }
@@ -1624,7 +1624,7 @@ export class DlmLifecyclePolicyPolicyDetailsScheduleCreateRuleScriptsOutputRefer
   }
 
   // maximum_retry_count - computed: true, optional: true, required: false
-  private _maximumRetryCount?: number;
+  private _maximumRetryCount?: number; 
   public get maximumRetryCount() {
     return this.getNumberAttribute('maximum_retry_count');
   }
@@ -1640,7 +1640,7 @@ export class DlmLifecyclePolicyPolicyDetailsScheduleCreateRuleScriptsOutputRefer
   }
 
   // stages - computed: false, optional: true, required: false
-  private _stages?: string[];
+  private _stages?: string[]; 
   public get stages() {
     return this.getListAttribute('stages');
   }
@@ -1811,7 +1811,7 @@ export class DlmLifecyclePolicyPolicyDetailsScheduleCreateRuleOutputReference ex
   }
 
   // cron_expression - computed: false, optional: true, required: false
-  private _cronExpression?: string;
+  private _cronExpression?: string; 
   public get cronExpression() {
     return this.getStringAttribute('cron_expression');
   }
@@ -1827,7 +1827,7 @@ export class DlmLifecyclePolicyPolicyDetailsScheduleCreateRuleOutputReference ex
   }
 
   // interval - computed: false, optional: true, required: false
-  private _interval?: number;
+  private _interval?: number; 
   public get interval() {
     return this.getNumberAttribute('interval');
   }
@@ -1843,7 +1843,7 @@ export class DlmLifecyclePolicyPolicyDetailsScheduleCreateRuleOutputReference ex
   }
 
   // interval_unit - computed: true, optional: true, required: false
-  private _intervalUnit?: string;
+  private _intervalUnit?: string; 
   public get intervalUnit() {
     return this.getStringAttribute('interval_unit');
   }
@@ -1859,7 +1859,7 @@ export class DlmLifecyclePolicyPolicyDetailsScheduleCreateRuleOutputReference ex
   }
 
   // location - computed: true, optional: true, required: false
-  private _location?: string;
+  private _location?: string; 
   public get location() {
     return this.getStringAttribute('location');
   }
@@ -1875,7 +1875,7 @@ export class DlmLifecyclePolicyPolicyDetailsScheduleCreateRuleOutputReference ex
   }
 
   // times - computed: true, optional: true, required: false
-  private _times?: string[];
+  private _times?: string[]; 
   public get times() {
     return this.getListAttribute('times');
   }
@@ -1992,7 +1992,7 @@ export class DlmLifecyclePolicyPolicyDetailsScheduleCrossRegionCopyRuleDeprecate
   }
 
   // interval - computed: false, optional: false, required: true
-  private _interval?: number;
+  private _interval?: number; 
   public get interval() {
     return this.getNumberAttribute('interval');
   }
@@ -2005,7 +2005,7 @@ export class DlmLifecyclePolicyPolicyDetailsScheduleCrossRegionCopyRuleDeprecate
   }
 
   // interval_unit - computed: false, optional: false, required: true
-  private _intervalUnit?: string;
+  private _intervalUnit?: string; 
   public get intervalUnit() {
     return this.getStringAttribute('interval_unit');
   }
@@ -2103,7 +2103,7 @@ export class DlmLifecyclePolicyPolicyDetailsScheduleCrossRegionCopyRuleRetainRul
   }
 
   // interval - computed: false, optional: false, required: true
-  private _interval?: number;
+  private _interval?: number; 
   public get interval() {
     return this.getNumberAttribute('interval');
   }
@@ -2116,7 +2116,7 @@ export class DlmLifecyclePolicyPolicyDetailsScheduleCrossRegionCopyRuleRetainRul
   }
 
   // interval_unit - computed: false, optional: false, required: true
-  private _intervalUnit?: string;
+  private _intervalUnit?: string; 
   public get intervalUnit() {
     return this.getStringAttribute('interval_unit');
   }
@@ -2315,7 +2315,7 @@ export class DlmLifecyclePolicyPolicyDetailsScheduleCrossRegionCopyRuleOutputRef
   }
 
   // cmk_arn - computed: false, optional: true, required: false
-  private _cmkArn?: string;
+  private _cmkArn?: string; 
   public get cmkArn() {
     return this.getStringAttribute('cmk_arn');
   }
@@ -2331,7 +2331,7 @@ export class DlmLifecyclePolicyPolicyDetailsScheduleCrossRegionCopyRuleOutputRef
   }
 
   // copy_tags - computed: true, optional: true, required: false
-  private _copyTags?: boolean | cdktn.IResolvable;
+  private _copyTags?: boolean | cdktn.IResolvable; 
   public get copyTags() {
     return this.getBooleanAttribute('copy_tags');
   }
@@ -2347,7 +2347,7 @@ export class DlmLifecyclePolicyPolicyDetailsScheduleCrossRegionCopyRuleOutputRef
   }
 
   // encrypted - computed: false, optional: false, required: true
-  private _encrypted?: boolean | cdktn.IResolvable;
+  private _encrypted?: boolean | cdktn.IResolvable; 
   public get encrypted() {
     return this.getBooleanAttribute('encrypted');
   }
@@ -2360,7 +2360,7 @@ export class DlmLifecyclePolicyPolicyDetailsScheduleCrossRegionCopyRuleOutputRef
   }
 
   // target - computed: false, optional: true, required: false
-  private _target?: string;
+  private _target?: string; 
   public get target() {
     return this.getStringAttribute('target');
   }
@@ -2376,7 +2376,7 @@ export class DlmLifecyclePolicyPolicyDetailsScheduleCrossRegionCopyRuleOutputRef
   }
 
   // target_region - computed: false, optional: true, required: false
-  private _targetRegion?: string;
+  private _targetRegion?: string; 
   public get targetRegion() {
     return this.getStringAttribute('target_region');
   }
@@ -2546,7 +2546,7 @@ export class DlmLifecyclePolicyPolicyDetailsScheduleDeprecateRuleOutputReference
   }
 
   // count - computed: false, optional: true, required: false
-  private _count?: number;
+  private _count?: number; 
   public get count() {
     return this.getNumberAttribute('count');
   }
@@ -2562,7 +2562,7 @@ export class DlmLifecyclePolicyPolicyDetailsScheduleDeprecateRuleOutputReference
   }
 
   // interval - computed: false, optional: true, required: false
-  private _interval?: number;
+  private _interval?: number; 
   public get interval() {
     return this.getNumberAttribute('interval');
   }
@@ -2578,7 +2578,7 @@ export class DlmLifecyclePolicyPolicyDetailsScheduleDeprecateRuleOutputReference
   }
 
   // interval_unit - computed: false, optional: true, required: false
-  private _intervalUnit?: string;
+  private _intervalUnit?: string; 
   public get intervalUnit() {
     return this.getStringAttribute('interval_unit');
   }
@@ -2713,7 +2713,7 @@ export class DlmLifecyclePolicyPolicyDetailsScheduleFastRestoreRuleOutputReferen
   }
 
   // availability_zones - computed: false, optional: false, required: true
-  private _availabilityZones?: string[];
+  private _availabilityZones?: string[]; 
   public get availabilityZones() {
     return cdktn.Fn.tolist(this.getListAttribute('availability_zones'));
   }
@@ -2726,7 +2726,7 @@ export class DlmLifecyclePolicyPolicyDetailsScheduleFastRestoreRuleOutputReferen
   }
 
   // count - computed: false, optional: true, required: false
-  private _count?: number;
+  private _count?: number; 
   public get count() {
     return this.getNumberAttribute('count');
   }
@@ -2742,7 +2742,7 @@ export class DlmLifecyclePolicyPolicyDetailsScheduleFastRestoreRuleOutputReferen
   }
 
   // interval - computed: false, optional: true, required: false
-  private _interval?: number;
+  private _interval?: number; 
   public get interval() {
     return this.getNumberAttribute('interval');
   }
@@ -2758,7 +2758,7 @@ export class DlmLifecyclePolicyPolicyDetailsScheduleFastRestoreRuleOutputReferen
   }
 
   // interval_unit - computed: false, optional: true, required: false
-  private _intervalUnit?: string;
+  private _intervalUnit?: string; 
   public get intervalUnit() {
     return this.getStringAttribute('interval_unit');
   }
@@ -2876,7 +2876,7 @@ export class DlmLifecyclePolicyPolicyDetailsScheduleRetainRuleOutputReference ex
   }
 
   // count - computed: false, optional: true, required: false
-  private _count?: number;
+  private _count?: number; 
   public get count() {
     return this.getNumberAttribute('count');
   }
@@ -2892,7 +2892,7 @@ export class DlmLifecyclePolicyPolicyDetailsScheduleRetainRuleOutputReference ex
   }
 
   // interval - computed: false, optional: true, required: false
-  private _interval?: number;
+  private _interval?: number; 
   public get interval() {
     return this.getNumberAttribute('interval');
   }
@@ -2908,7 +2908,7 @@ export class DlmLifecyclePolicyPolicyDetailsScheduleRetainRuleOutputReference ex
   }
 
   // interval_unit - computed: false, optional: true, required: false
-  private _intervalUnit?: string;
+  private _intervalUnit?: string; 
   public get intervalUnit() {
     return this.getStringAttribute('interval_unit');
   }
@@ -3026,7 +3026,7 @@ export class DlmLifecyclePolicyPolicyDetailsScheduleShareRuleOutputReference ext
   }
 
   // target_accounts - computed: false, optional: false, required: true
-  private _targetAccounts?: string[];
+  private _targetAccounts?: string[]; 
   public get targetAccounts() {
     return cdktn.Fn.tolist(this.getListAttribute('target_accounts'));
   }
@@ -3039,7 +3039,7 @@ export class DlmLifecyclePolicyPolicyDetailsScheduleShareRuleOutputReference ext
   }
 
   // unshare_interval - computed: false, optional: true, required: false
-  private _unshareInterval?: number;
+  private _unshareInterval?: number; 
   public get unshareInterval() {
     return this.getNumberAttribute('unshare_interval');
   }
@@ -3055,7 +3055,7 @@ export class DlmLifecyclePolicyPolicyDetailsScheduleShareRuleOutputReference ext
   }
 
   // unshare_interval_unit - computed: false, optional: true, required: false
-  private _unshareIntervalUnit?: string;
+  private _unshareIntervalUnit?: string; 
   public get unshareIntervalUnit() {
     return this.getStringAttribute('unshare_interval_unit');
   }
@@ -3335,7 +3335,7 @@ export class DlmLifecyclePolicyPolicyDetailsScheduleOutputReference extends cdkt
   }
 
   // copy_tags - computed: true, optional: true, required: false
-  private _copyTags?: boolean | cdktn.IResolvable;
+  private _copyTags?: boolean | cdktn.IResolvable; 
   public get copyTags() {
     return this.getBooleanAttribute('copy_tags');
   }
@@ -3351,7 +3351,7 @@ export class DlmLifecyclePolicyPolicyDetailsScheduleOutputReference extends cdkt
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -3364,7 +3364,7 @@ export class DlmLifecyclePolicyPolicyDetailsScheduleOutputReference extends cdkt
   }
 
   // tags_to_add - computed: false, optional: true, required: false
-  private _tagsToAdd?: { [key: string]: string };
+  private _tagsToAdd?: { [key: string]: string }; 
   public get tagsToAdd() {
     return this.getStringMapAttribute('tags_to_add');
   }
@@ -3380,7 +3380,7 @@ export class DlmLifecyclePolicyPolicyDetailsScheduleOutputReference extends cdkt
   }
 
   // variable_tags - computed: false, optional: true, required: false
-  private _variableTags?: { [key: string]: string };
+  private _variableTags?: { [key: string]: string }; 
   public get variableTags() {
     return this.getStringMapAttribute('variable_tags');
   }
@@ -3838,7 +3838,7 @@ export class DlmLifecyclePolicyPolicyDetailsOutputReference extends cdktn.Comple
   }
 
   // copy_tags - computed: false, optional: true, required: false
-  private _copyTags?: boolean | cdktn.IResolvable;
+  private _copyTags?: boolean | cdktn.IResolvable; 
   public get copyTags() {
     return this.getBooleanAttribute('copy_tags');
   }
@@ -3854,7 +3854,7 @@ export class DlmLifecyclePolicyPolicyDetailsOutputReference extends cdktn.Comple
   }
 
   // create_interval - computed: false, optional: true, required: false
-  private _createInterval?: number;
+  private _createInterval?: number; 
   public get createInterval() {
     return this.getNumberAttribute('create_interval');
   }
@@ -3870,7 +3870,7 @@ export class DlmLifecyclePolicyPolicyDetailsOutputReference extends cdktn.Comple
   }
 
   // extend_deletion - computed: false, optional: true, required: false
-  private _extendDeletion?: boolean | cdktn.IResolvable;
+  private _extendDeletion?: boolean | cdktn.IResolvable; 
   public get extendDeletion() {
     return this.getBooleanAttribute('extend_deletion');
   }
@@ -3886,7 +3886,7 @@ export class DlmLifecyclePolicyPolicyDetailsOutputReference extends cdktn.Comple
   }
 
   // policy_language - computed: true, optional: true, required: false
-  private _policyLanguage?: string;
+  private _policyLanguage?: string; 
   public get policyLanguage() {
     return this.getStringAttribute('policy_language');
   }
@@ -3902,7 +3902,7 @@ export class DlmLifecyclePolicyPolicyDetailsOutputReference extends cdktn.Comple
   }
 
   // policy_type - computed: false, optional: true, required: false
-  private _policyType?: string;
+  private _policyType?: string; 
   public get policyType() {
     return this.getStringAttribute('policy_type');
   }
@@ -3918,7 +3918,7 @@ export class DlmLifecyclePolicyPolicyDetailsOutputReference extends cdktn.Comple
   }
 
   // resource_locations - computed: true, optional: true, required: false
-  private _resourceLocations?: string[];
+  private _resourceLocations?: string[]; 
   public get resourceLocations() {
     return this.getListAttribute('resource_locations');
   }
@@ -3934,7 +3934,7 @@ export class DlmLifecyclePolicyPolicyDetailsOutputReference extends cdktn.Comple
   }
 
   // resource_type - computed: false, optional: true, required: false
-  private _resourceType?: string;
+  private _resourceType?: string; 
   public get resourceType() {
     return this.getStringAttribute('resource_type');
   }
@@ -3950,7 +3950,7 @@ export class DlmLifecyclePolicyPolicyDetailsOutputReference extends cdktn.Comple
   }
 
   // resource_types - computed: false, optional: true, required: false
-  private _resourceTypes?: string[];
+  private _resourceTypes?: string[]; 
   public get resourceTypes() {
     return this.getListAttribute('resource_types');
   }
@@ -3966,7 +3966,7 @@ export class DlmLifecyclePolicyPolicyDetailsOutputReference extends cdktn.Comple
   }
 
   // retain_interval - computed: false, optional: true, required: false
-  private _retainInterval?: number;
+  private _retainInterval?: number; 
   public get retainInterval() {
     return this.getNumberAttribute('retain_interval');
   }
@@ -3982,7 +3982,7 @@ export class DlmLifecyclePolicyPolicyDetailsOutputReference extends cdktn.Comple
   }
 
   // target_tags - computed: false, optional: true, required: false
-  private _targetTags?: { [key: string]: string };
+  private _targetTags?: { [key: string]: string }; 
   public get targetTags() {
     return this.getStringMapAttribute('target_tags');
   }
@@ -4149,7 +4149,7 @@ export class DlmLifecyclePolicy extends cdktn.TerraformResource {
   }
 
   // default_policy - computed: false, optional: true, required: false
-  private _defaultPolicy?: string;
+  private _defaultPolicy?: string; 
   public get defaultPolicy() {
     return this.getStringAttribute('default_policy');
   }
@@ -4165,7 +4165,7 @@ export class DlmLifecyclePolicy extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: false, required: true
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -4178,7 +4178,7 @@ export class DlmLifecyclePolicy extends cdktn.TerraformResource {
   }
 
   // execution_role_arn - computed: false, optional: false, required: true
-  private _executionRoleArn?: string;
+  private _executionRoleArn?: string; 
   public get executionRoleArn() {
     return this.getStringAttribute('execution_role_arn');
   }
@@ -4191,7 +4191,7 @@ export class DlmLifecyclePolicy extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -4207,7 +4207,7 @@ export class DlmLifecyclePolicy extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -4223,7 +4223,7 @@ export class DlmLifecyclePolicy extends cdktn.TerraformResource {
   }
 
   // state - computed: false, optional: true, required: false
-  private _state?: string;
+  private _state?: string; 
   public get state() {
     return this.getStringAttribute('state');
   }
@@ -4239,7 +4239,7 @@ export class DlmLifecyclePolicy extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -4255,7 +4255,7 @@ export class DlmLifecyclePolicy extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

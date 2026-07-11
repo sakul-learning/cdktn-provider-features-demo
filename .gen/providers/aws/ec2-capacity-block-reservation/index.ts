@@ -113,7 +113,7 @@ export class Ec2CapacityBlockReservationTimeoutsOutputReference extends cdktn.Co
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -201,7 +201,7 @@ export class Ec2CapacityBlockReservation extends cdktn.TerraformResource {
   }
 
   // capacity_block_offering_id - computed: false, optional: false, required: true
-  private _capacityBlockOfferingId?: string;
+  private _capacityBlockOfferingId?: string; 
   public get capacityBlockOfferingId() {
     return this.getStringAttribute('capacity_block_offering_id');
   }
@@ -244,7 +244,7 @@ export class Ec2CapacityBlockReservation extends cdktn.TerraformResource {
   }
 
   // instance_platform - computed: false, optional: false, required: true
-  private _instancePlatform?: string;
+  private _instancePlatform?: string; 
   public get instancePlatform() {
     return this.getStringAttribute('instance_platform');
   }
@@ -272,7 +272,7 @@ export class Ec2CapacityBlockReservation extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -298,7 +298,7 @@ export class Ec2CapacityBlockReservation extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

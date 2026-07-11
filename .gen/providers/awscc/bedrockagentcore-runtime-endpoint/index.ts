@@ -111,7 +111,7 @@ export class BedrockagentcoreRuntimeEndpoint extends cdktn.TerraformResource {
   }
 
   // agent_runtime_id - computed: false, optional: false, required: true
-  private _agentRuntimeId?: string;
+  private _agentRuntimeId?: string; 
   public get agentRuntimeId() {
     return this.getStringAttribute('agent_runtime_id');
   }
@@ -124,7 +124,7 @@ export class BedrockagentcoreRuntimeEndpoint extends cdktn.TerraformResource {
   }
 
   // agent_runtime_version - computed: true, optional: true, required: false
-  private _agentRuntimeVersion?: string;
+  private _agentRuntimeVersion?: string; 
   public get agentRuntimeVersion() {
     return this.getStringAttribute('agent_runtime_version');
   }
@@ -145,7 +145,7 @@ export class BedrockagentcoreRuntimeEndpoint extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -181,7 +181,7 @@ export class BedrockagentcoreRuntimeEndpoint extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -204,7 +204,7 @@ export class BedrockagentcoreRuntimeEndpoint extends cdktn.TerraformResource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

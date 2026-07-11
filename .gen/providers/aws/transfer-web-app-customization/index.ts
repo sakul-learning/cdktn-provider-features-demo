@@ -93,7 +93,7 @@ export class TransferWebAppCustomization extends cdktn.TerraformResource {
   // ==========
 
   // favicon_file - computed: true, optional: true, required: false
-  private _faviconFile?: string;
+  private _faviconFile?: string; 
   public get faviconFile() {
     return this.getStringAttribute('favicon_file');
   }
@@ -109,7 +109,7 @@ export class TransferWebAppCustomization extends cdktn.TerraformResource {
   }
 
   // logo_file - computed: true, optional: true, required: false
-  private _logoFile?: string;
+  private _logoFile?: string; 
   public get logoFile() {
     return this.getStringAttribute('logo_file');
   }
@@ -125,7 +125,7 @@ export class TransferWebAppCustomization extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -141,7 +141,7 @@ export class TransferWebAppCustomization extends cdktn.TerraformResource {
   }
 
   // title - computed: false, optional: true, required: false
-  private _title?: string;
+  private _title?: string; 
   public get title() {
     return this.getStringAttribute('title');
   }
@@ -157,7 +157,7 @@ export class TransferWebAppCustomization extends cdktn.TerraformResource {
   }
 
   // web_app_id - computed: false, optional: false, required: true
-  private _webAppId?: string;
+  private _webAppId?: string; 
   public get webAppId() {
     return this.getStringAttribute('web_app_id');
   }

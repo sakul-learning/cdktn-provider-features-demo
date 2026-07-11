@@ -144,7 +144,7 @@ export class SagemakerProjectServiceCatalogProvisionedProductDetailsOutputRefere
   }
 
   // provisioned_product_id - computed: true, optional: true, required: false
-  private _provisionedProductId?: string;
+  private _provisionedProductId?: string; 
   public get provisionedProductId() {
     return this.getStringAttribute('provisioned_product_id');
   }
@@ -160,7 +160,7 @@ export class SagemakerProjectServiceCatalogProvisionedProductDetailsOutputRefere
   }
 
   // provisioned_product_status_message - computed: true, optional: true, required: false
-  private _provisionedProductStatusMessage?: string;
+  private _provisionedProductStatusMessage?: string; 
   public get provisionedProductStatusMessage() {
     return this.getStringAttribute('provisioned_product_status_message');
   }
@@ -277,7 +277,7 @@ export class SagemakerProjectServiceCatalogProvisioningDetailsProvisioningParame
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -293,7 +293,7 @@ export class SagemakerProjectServiceCatalogProvisioningDetailsProvisioningParame
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -466,7 +466,7 @@ export class SagemakerProjectServiceCatalogProvisioningDetailsOutputReference ex
   }
 
   // path_id - computed: true, optional: true, required: false
-  private _pathId?: string;
+  private _pathId?: string; 
   public get pathId() {
     return this.getStringAttribute('path_id');
   }
@@ -482,7 +482,7 @@ export class SagemakerProjectServiceCatalogProvisioningDetailsOutputReference ex
   }
 
   // product_id - computed: true, optional: true, required: false
-  private _productId?: string;
+  private _productId?: string; 
   public get productId() {
     return this.getStringAttribute('product_id');
   }
@@ -498,7 +498,7 @@ export class SagemakerProjectServiceCatalogProvisioningDetailsOutputReference ex
   }
 
   // provisioning_artifact_id - computed: true, optional: true, required: false
-  private _provisioningArtifactId?: string;
+  private _provisioningArtifactId?: string; 
   public get provisioningArtifactId() {
     return this.getStringAttribute('provisioning_artifact_id');
   }
@@ -531,13 +531,13 @@ export class SagemakerProjectServiceCatalogProvisioningDetailsOutputReference ex
 }
 export interface SagemakerProjectTags {
   /**
-  * The key name of the tag. You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
+  * The key name of the tag. You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_project#key SagemakerProject#key}
   */
   readonly key?: string;
   /**
-  * The value for the tag. You can specify a value that is 1 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
+  * The value for the tag. You can specify a value that is 1 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_project#value SagemakerProject#value}
   */
@@ -631,7 +631,7 @@ export class SagemakerProjectTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -647,7 +647,7 @@ export class SagemakerProjectTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -784,7 +784,7 @@ export class SagemakerProjectTemplateProviderDetailsCfnTemplateProviderDetailPar
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -800,7 +800,7 @@ export class SagemakerProjectTemplateProviderDetailsCfnTemplateProviderDetailPar
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -989,7 +989,7 @@ export class SagemakerProjectTemplateProviderDetailsCfnTemplateProviderDetailOut
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -1005,7 +1005,7 @@ export class SagemakerProjectTemplateProviderDetailsCfnTemplateProviderDetailOut
   }
 
   // template_name - computed: true, optional: true, required: false
-  private _templateName?: string;
+  private _templateName?: string; 
   public get templateName() {
     return this.getStringAttribute('template_name');
   }
@@ -1021,7 +1021,7 @@ export class SagemakerProjectTemplateProviderDetailsCfnTemplateProviderDetailOut
   }
 
   // template_url - computed: true, optional: true, required: false
-  private _templateUrl?: string;
+  private _templateUrl?: string; 
   public get templateUrl() {
     return this.getStringAttribute('template_url');
   }
@@ -1233,7 +1233,7 @@ export class SagemakerProject extends cdktn.TerraformResource {
   }
 
   // project_description - computed: true, optional: true, required: false
-  private _projectDescription?: string;
+  private _projectDescription?: string; 
   public get projectDescription() {
     return this.getStringAttribute('project_description');
   }
@@ -1254,7 +1254,7 @@ export class SagemakerProject extends cdktn.TerraformResource {
   }
 
   // project_name - computed: false, optional: false, required: true
-  private _projectName?: string;
+  private _projectName?: string; 
   public get projectName() {
     return this.getStringAttribute('project_name');
   }

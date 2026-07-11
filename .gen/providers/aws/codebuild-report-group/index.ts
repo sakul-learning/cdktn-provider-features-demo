@@ -184,7 +184,7 @@ export class CodebuildReportGroupExportConfigS3DestinationOutputReference extend
   }
 
   // bucket - computed: false, optional: false, required: true
-  private _bucket?: string;
+  private _bucket?: string; 
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -197,7 +197,7 @@ export class CodebuildReportGroupExportConfigS3DestinationOutputReference extend
   }
 
   // encryption_disabled - computed: false, optional: true, required: false
-  private _encryptionDisabled?: boolean | cdktn.IResolvable;
+  private _encryptionDisabled?: boolean | cdktn.IResolvable; 
   public get encryptionDisabled() {
     return this.getBooleanAttribute('encryption_disabled');
   }
@@ -213,7 +213,7 @@ export class CodebuildReportGroupExportConfigS3DestinationOutputReference extend
   }
 
   // encryption_key - computed: false, optional: false, required: true
-  private _encryptionKey?: string;
+  private _encryptionKey?: string; 
   public get encryptionKey() {
     return this.getStringAttribute('encryption_key');
   }
@@ -226,7 +226,7 @@ export class CodebuildReportGroupExportConfigS3DestinationOutputReference extend
   }
 
   // packaging - computed: false, optional: true, required: false
-  private _packaging?: string;
+  private _packaging?: string; 
   public get packaging() {
     return this.getStringAttribute('packaging');
   }
@@ -242,7 +242,7 @@ export class CodebuildReportGroupExportConfigS3DestinationOutputReference extend
   }
 
   // path - computed: false, optional: true, required: false
-  private _path?: string;
+  private _path?: string; 
   public get path() {
     return this.getStringAttribute('path');
   }
@@ -345,7 +345,7 @@ export class CodebuildReportGroupExportConfigOutputReference extends cdktn.Compl
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -449,7 +449,7 @@ export class CodebuildReportGroup extends cdktn.TerraformResource {
   }
 
   // delete_reports - computed: false, optional: true, required: false
-  private _deleteReports?: boolean | cdktn.IResolvable;
+  private _deleteReports?: boolean | cdktn.IResolvable; 
   public get deleteReports() {
     return this.getBooleanAttribute('delete_reports');
   }
@@ -465,7 +465,7 @@ export class CodebuildReportGroup extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -481,7 +481,7 @@ export class CodebuildReportGroup extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -494,7 +494,7 @@ export class CodebuildReportGroup extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -510,7 +510,7 @@ export class CodebuildReportGroup extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -526,7 +526,7 @@ export class CodebuildReportGroup extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -542,7 +542,7 @@ export class CodebuildReportGroup extends cdktn.TerraformResource {
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }

@@ -118,7 +118,7 @@ export class ArczonalshiftZonalAutoshiftConfigurationPracticeRunConfigurationBlo
   }
 
   // alarm_identifier - computed: true, optional: true, required: false
-  private _alarmIdentifier?: string;
+  private _alarmIdentifier?: string; 
   public get alarmIdentifier() {
     return this.getStringAttribute('alarm_identifier');
   }
@@ -134,7 +134,7 @@ export class ArczonalshiftZonalAutoshiftConfigurationPracticeRunConfigurationBlo
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -267,7 +267,7 @@ export class ArczonalshiftZonalAutoshiftConfigurationPracticeRunConfigurationOut
   }
 
   // alarm_identifier - computed: true, optional: true, required: false
-  private _alarmIdentifier?: string;
+  private _alarmIdentifier?: string; 
   public get alarmIdentifier() {
     return this.getStringAttribute('alarm_identifier');
   }
@@ -283,7 +283,7 @@ export class ArczonalshiftZonalAutoshiftConfigurationPracticeRunConfigurationOut
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -448,7 +448,7 @@ export class ArczonalshiftZonalAutoshiftConfigurationPracticeRunConfigurationOut
   }
 
   // blocked_dates - computed: true, optional: true, required: false
-  private _blockedDates?: string[];
+  private _blockedDates?: string[]; 
   public get blockedDates() {
     return this.getListAttribute('blocked_dates');
   }
@@ -464,7 +464,7 @@ export class ArczonalshiftZonalAutoshiftConfigurationPracticeRunConfigurationOut
   }
 
   // blocked_windows - computed: true, optional: true, required: false
-  private _blockedWindows?: string[];
+  private _blockedWindows?: string[]; 
   public get blockedWindows() {
     return this.getListAttribute('blocked_windows');
   }
@@ -593,7 +593,7 @@ export class ArczonalshiftZonalAutoshiftConfiguration extends cdktn.TerraformRes
   }
 
   // resource_identifier - computed: true, optional: true, required: false
-  private _resourceIdentifier?: string;
+  private _resourceIdentifier?: string; 
   public get resourceIdentifier() {
     return this.getStringAttribute('resource_identifier');
   }
@@ -609,7 +609,7 @@ export class ArczonalshiftZonalAutoshiftConfiguration extends cdktn.TerraformRes
   }
 
   // zonal_autoshift_status - computed: true, optional: true, required: false
-  private _zonalAutoshiftStatus?: string;
+  private _zonalAutoshiftStatus?: string; 
   public get zonalAutoshiftStatus() {
     return this.getStringAttribute('zonal_autoshift_status');
   }

@@ -106,7 +106,7 @@ export class RedshiftSnapshotCopyGrant extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -122,7 +122,7 @@ export class RedshiftSnapshotCopyGrant extends cdktn.TerraformResource {
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -138,7 +138,7 @@ export class RedshiftSnapshotCopyGrant extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -154,7 +154,7 @@ export class RedshiftSnapshotCopyGrant extends cdktn.TerraformResource {
   }
 
   // snapshot_copy_grant_name - computed: false, optional: false, required: true
-  private _snapshotCopyGrantName?: string;
+  private _snapshotCopyGrantName?: string; 
   public get snapshotCopyGrantName() {
     return this.getStringAttribute('snapshot_copy_grant_name');
   }
@@ -167,7 +167,7 @@ export class RedshiftSnapshotCopyGrant extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -183,7 +183,7 @@ export class RedshiftSnapshotCopyGrant extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

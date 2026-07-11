@@ -137,7 +137,7 @@ export class SagemakerModelContainersImageConfigRepositoryAuthConfigOutputRefere
   }
 
   // repository_credentials_provider_arn - computed: true, optional: true, required: false
-  private _repositoryCredentialsProviderArn?: string;
+  private _repositoryCredentialsProviderArn?: string; 
   public get repositoryCredentialsProviderArn() {
     return this.getStringAttribute('repository_credentials_provider_arn');
   }
@@ -252,7 +252,7 @@ export class SagemakerModelContainersImageConfigOutputReference extends cdktn.Co
   }
 
   // repository_access_mode - computed: true, optional: true, required: false
-  private _repositoryAccessMode?: string;
+  private _repositoryAccessMode?: string; 
   public get repositoryAccessMode() {
     return this.getStringAttribute('repository_access_mode');
   }
@@ -364,7 +364,7 @@ export class SagemakerModelContainersModelDataSourceS3DataSourceHubAccessConfigO
   }
 
   // hub_content_arn - computed: true, optional: true, required: false
-  private _hubContentArn?: string;
+  private _hubContentArn?: string; 
   public get hubContentArn() {
     return this.getStringAttribute('hub_content_arn');
   }
@@ -460,7 +460,7 @@ export class SagemakerModelContainersModelDataSourceS3DataSourceModelAccessConfi
   }
 
   // accept_eula - computed: true, optional: true, required: false
-  private _acceptEula?: boolean | cdktn.IResolvable;
+  private _acceptEula?: boolean | cdktn.IResolvable; 
   public get acceptEula() {
     return this.getBooleanAttribute('accept_eula');
   }
@@ -632,7 +632,7 @@ export class SagemakerModelContainersModelDataSourceS3DataSourceOutputReference 
   }
 
   // compression_type - computed: true, optional: true, required: false
-  private _compressionType?: string;
+  private _compressionType?: string; 
   public get compressionType() {
     return this.getStringAttribute('compression_type');
   }
@@ -680,7 +680,7 @@ export class SagemakerModelContainersModelDataSourceS3DataSourceOutputReference 
   }
 
   // s3_data_type - computed: true, optional: true, required: false
-  private _s3DataType?: string;
+  private _s3DataType?: string; 
   public get s3DataType() {
     return this.getStringAttribute('s3_data_type');
   }
@@ -696,7 +696,7 @@ export class SagemakerModelContainersModelDataSourceS3DataSourceOutputReference 
   }
 
   // s3_uri - computed: true, optional: true, required: false
-  private _s3Uri?: string;
+  private _s3Uri?: string; 
   public get s3Uri() {
     return this.getStringAttribute('s3_uri');
   }
@@ -888,7 +888,7 @@ export class SagemakerModelContainersMultiModelConfigOutputReference extends cdk
   }
 
   // model_cache_setting - computed: true, optional: true, required: false
-  private _modelCacheSetting?: string;
+  private _modelCacheSetting?: string; 
   public get modelCacheSetting() {
     return this.getStringAttribute('model_cache_setting');
   }
@@ -906,7 +906,7 @@ export class SagemakerModelContainersMultiModelConfigOutputReference extends cdk
 export interface SagemakerModelContainers {
   /**
   * This parameter is ignored for models that contain only a PrimaryContainer.
-  *
+  * 
   * When a ContainerDefinition is part of an inference pipeline, the value of the parameter uniquely identifies the container for the purposes of logging and metrics. For information, see [Use Logs and Metrics to Monitor an Inference Pipeline](https://docs.aws.amazon.com/sagemaker/latest/dg/inference-pipeline-logs-metrics.html). If you don't specify a value for this parameter for a ContainerDefinition that is part of an inference pipeline, a unique name is automatically assigned based on the position of the ContainerDefinition in the pipeline. If you specify a value for the ContainerHostName for any ContainerDefinition that is part of an inference pipeline, you must specify a value for the ContainerHostName parameter of every ContainerDefinition in that pipeline.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model#container_hostname SagemakerModel#container_hostname}
@@ -914,7 +914,7 @@ export interface SagemakerModelContainers {
   readonly containerHostname?: string;
   /**
   * The environment variables to set in the Docker container. Don't include any sensitive data in your environment variables.
-  *
+  * 
   * The maximum length of each key and value in the Environment map is 1024 bytes. The maximum length of all keys and values in the map, combined, is 32 KB. If you pass multiple containers to a CreateModel request, then the maximum length of all of their maps, combined, is also 32 KB.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model#environment SagemakerModel#environment}
@@ -952,7 +952,7 @@ export interface SagemakerModelContainers {
   readonly modelDataSource?: SagemakerModelContainersModelDataSource;
   /**
   * The S3 path where the model artifacts, which result from model training, are stored. This path must point to a single gzip compressed tar archive (.tar.gz suffix). The S3 path is required for SageMaker built-in algorithms, but not if you use your own algorithms. For more information on built-in algorithms, see [Common Parameters](https://docs.aws.amazon.com/sagemaker/latest/dg/sagemaker-algo-docker-registry-paths.html).
-  *
+  * 
   * If you provide a value for this parameter, SageMaker uses AWS Security Token Service to download model artifacts from the S3 path you provide. AWS STS is activated in your AWS account by default. If you previously deactivated AWS STS for a region, you need to reactivate AWS STS for that region. For more information, see [Activating and Deactivating AWS STS in an AWS Region](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_temp_enable-regions.html) in the AWS Identity and Access Management User Guide
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model#model_data_url SagemakerModel#model_data_url}
@@ -1163,7 +1163,7 @@ export class SagemakerModelContainersOutputReference extends cdktn.ComplexObject
   }
 
   // container_hostname - computed: true, optional: true, required: false
-  private _containerHostname?: string;
+  private _containerHostname?: string; 
   public get containerHostname() {
     return this.getStringAttribute('container_hostname');
   }
@@ -1179,7 +1179,7 @@ export class SagemakerModelContainersOutputReference extends cdktn.ComplexObject
   }
 
   // environment - computed: true, optional: true, required: false
-  private _environment?: string;
+  private _environment?: string; 
   public get environment() {
     return this.getStringAttribute('environment');
   }
@@ -1195,7 +1195,7 @@ export class SagemakerModelContainersOutputReference extends cdktn.ComplexObject
   }
 
   // image - computed: true, optional: true, required: false
-  private _image?: string;
+  private _image?: string; 
   public get image() {
     return this.getStringAttribute('image');
   }
@@ -1227,7 +1227,7 @@ export class SagemakerModelContainersOutputReference extends cdktn.ComplexObject
   }
 
   // inference_specification_name - computed: true, optional: true, required: false
-  private _inferenceSpecificationName?: string;
+  private _inferenceSpecificationName?: string; 
   public get inferenceSpecificationName() {
     return this.getStringAttribute('inference_specification_name');
   }
@@ -1243,7 +1243,7 @@ export class SagemakerModelContainersOutputReference extends cdktn.ComplexObject
   }
 
   // mode - computed: true, optional: true, required: false
-  private _mode?: string;
+  private _mode?: string; 
   public get mode() {
     return this.getStringAttribute('mode');
   }
@@ -1275,7 +1275,7 @@ export class SagemakerModelContainersOutputReference extends cdktn.ComplexObject
   }
 
   // model_data_url - computed: true, optional: true, required: false
-  private _modelDataUrl?: string;
+  private _modelDataUrl?: string; 
   public get modelDataUrl() {
     return this.getStringAttribute('model_data_url');
   }
@@ -1291,7 +1291,7 @@ export class SagemakerModelContainersOutputReference extends cdktn.ComplexObject
   }
 
   // model_package_name - computed: true, optional: true, required: false
-  private _modelPackageName?: string;
+  private _modelPackageName?: string; 
   public get modelPackageName() {
     return this.getStringAttribute('model_package_name');
   }
@@ -1423,7 +1423,7 @@ export class SagemakerModelInferenceExecutionConfigOutputReference extends cdktn
   }
 
   // mode - computed: true, optional: true, required: false
-  private _mode?: string;
+  private _mode?: string; 
   public get mode() {
     return this.getStringAttribute('mode');
   }
@@ -1519,7 +1519,7 @@ export class SagemakerModelPrimaryContainerImageConfigRepositoryAuthConfigOutput
   }
 
   // repository_credentials_provider_arn - computed: true, optional: true, required: false
-  private _repositoryCredentialsProviderArn?: string;
+  private _repositoryCredentialsProviderArn?: string; 
   public get repositoryCredentialsProviderArn() {
     return this.getStringAttribute('repository_credentials_provider_arn');
   }
@@ -1634,7 +1634,7 @@ export class SagemakerModelPrimaryContainerImageConfigOutputReference extends cd
   }
 
   // repository_access_mode - computed: true, optional: true, required: false
-  private _repositoryAccessMode?: string;
+  private _repositoryAccessMode?: string; 
   public get repositoryAccessMode() {
     return this.getStringAttribute('repository_access_mode');
   }
@@ -1746,7 +1746,7 @@ export class SagemakerModelPrimaryContainerModelDataSourceS3DataSourceHubAccessC
   }
 
   // hub_content_arn - computed: true, optional: true, required: false
-  private _hubContentArn?: string;
+  private _hubContentArn?: string; 
   public get hubContentArn() {
     return this.getStringAttribute('hub_content_arn');
   }
@@ -1842,7 +1842,7 @@ export class SagemakerModelPrimaryContainerModelDataSourceS3DataSourceModelAcces
   }
 
   // accept_eula - computed: true, optional: true, required: false
-  private _acceptEula?: boolean | cdktn.IResolvable;
+  private _acceptEula?: boolean | cdktn.IResolvable; 
   public get acceptEula() {
     return this.getBooleanAttribute('accept_eula');
   }
@@ -2014,7 +2014,7 @@ export class SagemakerModelPrimaryContainerModelDataSourceS3DataSourceOutputRefe
   }
 
   // compression_type - computed: true, optional: true, required: false
-  private _compressionType?: string;
+  private _compressionType?: string; 
   public get compressionType() {
     return this.getStringAttribute('compression_type');
   }
@@ -2062,7 +2062,7 @@ export class SagemakerModelPrimaryContainerModelDataSourceS3DataSourceOutputRefe
   }
 
   // s3_data_type - computed: true, optional: true, required: false
-  private _s3DataType?: string;
+  private _s3DataType?: string; 
   public get s3DataType() {
     return this.getStringAttribute('s3_data_type');
   }
@@ -2078,7 +2078,7 @@ export class SagemakerModelPrimaryContainerModelDataSourceS3DataSourceOutputRefe
   }
 
   // s3_uri - computed: true, optional: true, required: false
-  private _s3Uri?: string;
+  private _s3Uri?: string; 
   public get s3Uri() {
     return this.getStringAttribute('s3_uri');
   }
@@ -2270,7 +2270,7 @@ export class SagemakerModelPrimaryContainerMultiModelConfigOutputReference exten
   }
 
   // model_cache_setting - computed: true, optional: true, required: false
-  private _modelCacheSetting?: string;
+  private _modelCacheSetting?: string; 
   public get modelCacheSetting() {
     return this.getStringAttribute('model_cache_setting');
   }
@@ -2288,7 +2288,7 @@ export class SagemakerModelPrimaryContainerMultiModelConfigOutputReference exten
 export interface SagemakerModelPrimaryContainer {
   /**
   * This parameter is ignored for models that contain only a PrimaryContainer.
-  *
+  * 
   * When a ContainerDefinition is part of an inference pipeline, the value of the parameter uniquely identifies the container for the purposes of logging and metrics. For information, see [Use Logs and Metrics to Monitor an Inference Pipeline](https://docs.aws.amazon.com/sagemaker/latest/dg/inference-pipeline-logs-metrics.html). If you don't specify a value for this parameter for a ContainerDefinition that is part of an inference pipeline, a unique name is automatically assigned based on the position of the ContainerDefinition in the pipeline. If you specify a value for the ContainerHostName for any ContainerDefinition that is part of an inference pipeline, you must specify a value for the ContainerHostName parameter of every ContainerDefinition in that pipeline.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model#container_hostname SagemakerModel#container_hostname}
@@ -2296,7 +2296,7 @@ export interface SagemakerModelPrimaryContainer {
   readonly containerHostname?: string;
   /**
   * The environment variables to set in the Docker container. Don't include any sensitive data in your environment variables.
-  *
+  * 
   * The maximum length of each key and value in the Environment map is 1024 bytes. The maximum length of all keys and values in the map, combined, is 32 KB. If you pass multiple containers to a CreateModel request, then the maximum length of all of their maps, combined, is also 32 KB.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model#environment SagemakerModel#environment}
@@ -2334,7 +2334,7 @@ export interface SagemakerModelPrimaryContainer {
   readonly modelDataSource?: SagemakerModelPrimaryContainerModelDataSource;
   /**
   * The S3 path where the model artifacts, which result from model training, are stored. This path must point to a single gzip compressed tar archive (.tar.gz suffix). The S3 path is required for SageMaker built-in algorithms, but not if you use your own algorithms. For more information on built-in algorithms, see [Common Parameters](https://docs.aws.amazon.com/sagemaker/latest/dg/sagemaker-algo-docker-registry-paths.html).
-  *
+  * 
   * If you provide a value for this parameter, SageMaker uses AWS Security Token Service to download model artifacts from the S3 path you provide. AWS STS is activated in your AWS account by default. If you previously deactivated AWS STS for a region, you need to reactivate AWS STS for that region. For more information, see [Activating and Deactivating AWS STS in an AWS Region](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_temp_enable-regions.html) in the AWS Identity and Access Management User Guide
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model#model_data_url SagemakerModel#model_data_url}
@@ -2543,7 +2543,7 @@ export class SagemakerModelPrimaryContainerOutputReference extends cdktn.Complex
   }
 
   // container_hostname - computed: true, optional: true, required: false
-  private _containerHostname?: string;
+  private _containerHostname?: string; 
   public get containerHostname() {
     return this.getStringAttribute('container_hostname');
   }
@@ -2559,7 +2559,7 @@ export class SagemakerModelPrimaryContainerOutputReference extends cdktn.Complex
   }
 
   // environment - computed: true, optional: true, required: false
-  private _environment?: string;
+  private _environment?: string; 
   public get environment() {
     return this.getStringAttribute('environment');
   }
@@ -2575,7 +2575,7 @@ export class SagemakerModelPrimaryContainerOutputReference extends cdktn.Complex
   }
 
   // image - computed: true, optional: true, required: false
-  private _image?: string;
+  private _image?: string; 
   public get image() {
     return this.getStringAttribute('image');
   }
@@ -2607,7 +2607,7 @@ export class SagemakerModelPrimaryContainerOutputReference extends cdktn.Complex
   }
 
   // inference_specification_name - computed: true, optional: true, required: false
-  private _inferenceSpecificationName?: string;
+  private _inferenceSpecificationName?: string; 
   public get inferenceSpecificationName() {
     return this.getStringAttribute('inference_specification_name');
   }
@@ -2623,7 +2623,7 @@ export class SagemakerModelPrimaryContainerOutputReference extends cdktn.Complex
   }
 
   // mode - computed: true, optional: true, required: false
-  private _mode?: string;
+  private _mode?: string; 
   public get mode() {
     return this.getStringAttribute('mode');
   }
@@ -2655,7 +2655,7 @@ export class SagemakerModelPrimaryContainerOutputReference extends cdktn.Complex
   }
 
   // model_data_url - computed: true, optional: true, required: false
-  private _modelDataUrl?: string;
+  private _modelDataUrl?: string; 
   public get modelDataUrl() {
     return this.getStringAttribute('model_data_url');
   }
@@ -2671,7 +2671,7 @@ export class SagemakerModelPrimaryContainerOutputReference extends cdktn.Complex
   }
 
   // model_package_name - computed: true, optional: true, required: false
-  private _modelPackageName?: string;
+  private _modelPackageName?: string; 
   public get modelPackageName() {
     return this.getStringAttribute('model_package_name');
   }
@@ -2804,7 +2804,7 @@ export class SagemakerModelTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -2820,7 +2820,7 @@ export class SagemakerModelTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2955,7 +2955,7 @@ export class SagemakerModelVpcConfigOutputReference extends cdktn.ComplexObject 
   }
 
   // security_group_ids - computed: true, optional: true, required: false
-  private _securityGroupIds?: string[];
+  private _securityGroupIds?: string[]; 
   public get securityGroupIds() {
     return this.getListAttribute('security_group_ids');
   }
@@ -2971,7 +2971,7 @@ export class SagemakerModelVpcConfigOutputReference extends cdktn.ComplexObject 
   }
 
   // subnets - computed: true, optional: true, required: false
-  private _subnets?: string[];
+  private _subnets?: string[]; 
   public get subnets() {
     return this.getListAttribute('subnets');
   }
@@ -3068,7 +3068,7 @@ export class SagemakerModel extends cdktn.TerraformResource {
   }
 
   // enable_network_isolation - computed: true, optional: true, required: false
-  private _enableNetworkIsolation?: boolean | cdktn.IResolvable;
+  private _enableNetworkIsolation?: boolean | cdktn.IResolvable; 
   public get enableNetworkIsolation() {
     return this.getBooleanAttribute('enable_network_isolation');
   }
@@ -3084,7 +3084,7 @@ export class SagemakerModel extends cdktn.TerraformResource {
   }
 
   // execution_role_arn - computed: true, optional: true, required: false
-  private _executionRoleArn?: string;
+  private _executionRoleArn?: string; 
   public get executionRoleArn() {
     return this.getStringAttribute('execution_role_arn');
   }
@@ -3126,7 +3126,7 @@ export class SagemakerModel extends cdktn.TerraformResource {
   }
 
   // model_name - computed: true, optional: true, required: false
-  private _modelName?: string;
+  private _modelName?: string; 
   public get modelName() {
     return this.getStringAttribute('model_name');
   }

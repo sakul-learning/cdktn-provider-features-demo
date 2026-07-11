@@ -147,7 +147,7 @@ export class MediatailorLiveSourceHttpPackageConfigurationsOutputReference exten
   }
 
   // path - computed: false, optional: false, required: true
-  private _path?: string;
+  private _path?: string; 
   public get path() {
     return this.getStringAttribute('path');
   }
@@ -160,7 +160,7 @@ export class MediatailorLiveSourceHttpPackageConfigurationsOutputReference exten
   }
 
   // source_group - computed: false, optional: false, required: true
-  private _sourceGroup?: string;
+  private _sourceGroup?: string; 
   public get sourceGroup() {
     return this.getStringAttribute('source_group');
   }
@@ -173,7 +173,7 @@ export class MediatailorLiveSourceHttpPackageConfigurationsOutputReference exten
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -303,7 +303,7 @@ export class MediatailorLiveSourceTagsOutputReference extends cdktn.ComplexObjec
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -319,7 +319,7 @@ export class MediatailorLiveSourceTagsOutputReference extends cdktn.ComplexObjec
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -439,7 +439,7 @@ export class MediatailorLiveSource extends cdktn.TerraformResource {
   }
 
   // live_source_name - computed: false, optional: false, required: true
-  private _liveSourceName?: string;
+  private _liveSourceName?: string; 
   public get liveSourceName() {
     return this.getStringAttribute('live_source_name');
   }
@@ -452,7 +452,7 @@ export class MediatailorLiveSource extends cdktn.TerraformResource {
   }
 
   // source_location_name - computed: false, optional: false, required: true
-  private _sourceLocationName?: string;
+  private _sourceLocationName?: string; 
   public get sourceLocationName() {
     return this.getStringAttribute('source_location_name');
   }

@@ -153,7 +153,7 @@ export class AppintegrationsApplicationApplicationConfigContactHandlingOutputRef
   }
 
   // scope - computed: true, optional: true, required: false
-  private _scope?: string;
+  private _scope?: string; 
   public get scope() {
     return this.getStringAttribute('scope');
   }
@@ -358,7 +358,7 @@ export class AppintegrationsApplicationApplicationSourceConfigExternalUrlConfigO
   }
 
   // access_url - computed: false, optional: false, required: true
-  private _accessUrl?: string;
+  private _accessUrl?: string; 
   public get accessUrl() {
     return this.getStringAttribute('access_url');
   }
@@ -371,7 +371,7 @@ export class AppintegrationsApplicationApplicationSourceConfigExternalUrlConfigO
   }
 
   // approved_origins - computed: true, optional: true, required: false
-  private _approvedOrigins?: string[];
+  private _approvedOrigins?: string[]; 
   public get approvedOrigins() {
     return this.getListAttribute('approved_origins');
   }
@@ -573,7 +573,7 @@ export class AppintegrationsApplicationIframeConfigOutputReference extends cdktn
   }
 
   // allow - computed: true, optional: true, required: false
-  private _allow?: string[];
+  private _allow?: string[]; 
   public get allow() {
     return this.getListAttribute('allow');
   }
@@ -589,7 +589,7 @@ export class AppintegrationsApplicationIframeConfigOutputReference extends cdktn
   }
 
   // sandbox - computed: true, optional: true, required: false
-  private _sandbox?: string[];
+  private _sandbox?: string[]; 
   public get sandbox() {
     return this.getListAttribute('sandbox');
   }
@@ -706,7 +706,7 @@ export class AppintegrationsApplicationTagsOutputReference extends cdktn.Complex
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -722,7 +722,7 @@ export class AppintegrationsApplicationTagsOutputReference extends cdktn.Complex
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -865,7 +865,7 @@ export class AppintegrationsApplication extends cdktn.TerraformResource {
   }
 
   // application_type - computed: true, optional: true, required: false
-  private _applicationType?: string;
+  private _applicationType?: string; 
   public get applicationType() {
     return this.getStringAttribute('application_type');
   }
@@ -881,7 +881,7 @@ export class AppintegrationsApplication extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -918,7 +918,7 @@ export class AppintegrationsApplication extends cdktn.TerraformResource {
   }
 
   // initialization_timeout - computed: true, optional: true, required: false
-  private _initializationTimeout?: number;
+  private _initializationTimeout?: number; 
   public get initializationTimeout() {
     return this.getNumberAttribute('initialization_timeout');
   }
@@ -934,7 +934,7 @@ export class AppintegrationsApplication extends cdktn.TerraformResource {
   }
 
   // is_service - computed: true, optional: true, required: false
-  private _isService?: boolean | cdktn.IResolvable;
+  private _isService?: boolean | cdktn.IResolvable; 
   public get isService() {
     return this.getBooleanAttribute('is_service');
   }
@@ -950,7 +950,7 @@ export class AppintegrationsApplication extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -963,7 +963,7 @@ export class AppintegrationsApplication extends cdktn.TerraformResource {
   }
 
   // namespace - computed: false, optional: false, required: true
-  private _namespace?: string;
+  private _namespace?: string; 
   public get namespace() {
     return this.getStringAttribute('namespace');
   }
@@ -976,7 +976,7 @@ export class AppintegrationsApplication extends cdktn.TerraformResource {
   }
 
   // permissions - computed: true, optional: true, required: false
-  private _permissions?: string[];
+  private _permissions?: string[]; 
   public get permissions() {
     return this.getListAttribute('permissions');
   }

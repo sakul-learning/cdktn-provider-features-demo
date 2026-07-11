@@ -91,7 +91,7 @@ export class DataAwsWafregionalSubscribedRuleGroup extends cdktn.TerraformDataSo
   // ==========
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -107,7 +107,7 @@ export class DataAwsWafregionalSubscribedRuleGroup extends cdktn.TerraformDataSo
   }
 
   // metric_name - computed: false, optional: true, required: false
-  private _metricName?: string;
+  private _metricName?: string; 
   public get metricName() {
     return this.getStringAttribute('metric_name');
   }
@@ -123,7 +123,7 @@ export class DataAwsWafregionalSubscribedRuleGroup extends cdktn.TerraformDataSo
   }
 
   // name - computed: false, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -139,7 +139,7 @@ export class DataAwsWafregionalSubscribedRuleGroup extends cdktn.TerraformDataSo
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

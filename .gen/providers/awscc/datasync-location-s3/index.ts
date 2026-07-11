@@ -119,7 +119,7 @@ export class DatasyncLocationS3S3ConfigOutputReference extends cdktn.ComplexObje
   }
 
   // bucket_access_role_arn - computed: false, optional: false, required: true
-  private _bucketAccessRoleArn?: string;
+  private _bucketAccessRoleArn?: string; 
   public get bucketAccessRoleArn() {
     return this.getStringAttribute('bucket_access_role_arn');
   }
@@ -233,7 +233,7 @@ export class DatasyncLocationS3TagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -249,7 +249,7 @@ export class DatasyncLocationS3TagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -362,7 +362,7 @@ export class DatasyncLocationS3 extends cdktn.TerraformResource {
   }
 
   // s3_bucket_arn - computed: true, optional: true, required: false
-  private _s3BucketArn?: string;
+  private _s3BucketArn?: string; 
   public get s3BucketArn() {
     return this.getStringAttribute('s3_bucket_arn');
   }
@@ -391,7 +391,7 @@ export class DatasyncLocationS3 extends cdktn.TerraformResource {
   }
 
   // s3_storage_class - computed: true, optional: true, required: false
-  private _s3StorageClass?: string;
+  private _s3StorageClass?: string; 
   public get s3StorageClass() {
     return this.getStringAttribute('s3_storage_class');
   }
@@ -407,7 +407,7 @@ export class DatasyncLocationS3 extends cdktn.TerraformResource {
   }
 
   // subdirectory - computed: true, optional: true, required: false
-  private _subdirectory?: string;
+  private _subdirectory?: string; 
   public get subdirectory() {
     return this.getStringAttribute('subdirectory');
   }

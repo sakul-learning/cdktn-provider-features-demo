@@ -169,7 +169,7 @@ export class Lexv2ModelsBotLocaleTimeoutsOutputReference extends cdktn.ComplexOb
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -185,7 +185,7 @@ export class Lexv2ModelsBotLocaleTimeoutsOutputReference extends cdktn.ComplexOb
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -201,7 +201,7 @@ export class Lexv2ModelsBotLocaleTimeoutsOutputReference extends cdktn.ComplexOb
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -314,7 +314,7 @@ export class Lexv2ModelsBotLocaleVoiceSettingsOutputReference extends cdktn.Comp
   }
 
   // engine - computed: true, optional: true, required: false
-  private _engine?: string;
+  private _engine?: string; 
   public get engine() {
     return this.getStringAttribute('engine');
   }
@@ -330,7 +330,7 @@ export class Lexv2ModelsBotLocaleVoiceSettingsOutputReference extends cdktn.Comp
   }
 
   // voice_id - computed: false, optional: false, required: true
-  private _voiceId?: string;
+  private _voiceId?: string; 
   public get voiceId() {
     return this.getStringAttribute('voice_id');
   }
@@ -429,7 +429,7 @@ export class Lexv2ModelsBotLocale extends cdktn.TerraformResource {
   // ==========
 
   // bot_id - computed: false, optional: false, required: true
-  private _botId?: string;
+  private _botId?: string; 
   public get botId() {
     return this.getStringAttribute('bot_id');
   }
@@ -442,7 +442,7 @@ export class Lexv2ModelsBotLocale extends cdktn.TerraformResource {
   }
 
   // bot_version - computed: false, optional: false, required: true
-  private _botVersion?: string;
+  private _botVersion?: string; 
   public get botVersion() {
     return this.getStringAttribute('bot_version');
   }
@@ -455,7 +455,7 @@ export class Lexv2ModelsBotLocale extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -476,7 +476,7 @@ export class Lexv2ModelsBotLocale extends cdktn.TerraformResource {
   }
 
   // locale_id - computed: false, optional: false, required: true
-  private _localeId?: string;
+  private _localeId?: string; 
   public get localeId() {
     return this.getStringAttribute('locale_id');
   }
@@ -489,7 +489,7 @@ export class Lexv2ModelsBotLocale extends cdktn.TerraformResource {
   }
 
   // n_lu_intent_confidence_threshold - computed: false, optional: false, required: true
-  private _nLuIntentConfidenceThreshold?: number;
+  private _nLuIntentConfidenceThreshold?: number; 
   public get nLuIntentConfidenceThreshold() {
     return this.getNumberAttribute('n_lu_intent_confidence_threshold');
   }
@@ -502,7 +502,7 @@ export class Lexv2ModelsBotLocale extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -518,7 +518,7 @@ export class Lexv2ModelsBotLocale extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

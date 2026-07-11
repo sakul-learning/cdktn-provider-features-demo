@@ -206,7 +206,7 @@ export class DataAwsRoute53ResolverRule extends cdktn.TerraformDataSource {
   }
 
   // domain_name - computed: true, optional: true, required: false
-  private _domainName?: string;
+  private _domainName?: string; 
   public get domainName() {
     return this.getStringAttribute('domain_name');
   }
@@ -222,7 +222,7 @@ export class DataAwsRoute53ResolverRule extends cdktn.TerraformDataSource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -238,7 +238,7 @@ export class DataAwsRoute53ResolverRule extends cdktn.TerraformDataSource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -259,7 +259,7 @@ export class DataAwsRoute53ResolverRule extends cdktn.TerraformDataSource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -275,7 +275,7 @@ export class DataAwsRoute53ResolverRule extends cdktn.TerraformDataSource {
   }
 
   // resolver_endpoint_id - computed: true, optional: true, required: false
-  private _resolverEndpointId?: string;
+  private _resolverEndpointId?: string; 
   public get resolverEndpointId() {
     return this.getStringAttribute('resolver_endpoint_id');
   }
@@ -291,7 +291,7 @@ export class DataAwsRoute53ResolverRule extends cdktn.TerraformDataSource {
   }
 
   // resolver_rule_id - computed: true, optional: true, required: false
-  private _resolverRuleId?: string;
+  private _resolverRuleId?: string; 
   public get resolverRuleId() {
     return this.getStringAttribute('resolver_rule_id');
   }
@@ -307,7 +307,7 @@ export class DataAwsRoute53ResolverRule extends cdktn.TerraformDataSource {
   }
 
   // rule_type - computed: true, optional: true, required: false
-  private _ruleType?: string;
+  private _ruleType?: string; 
   public get ruleType() {
     return this.getStringAttribute('rule_type');
   }
@@ -328,7 +328,7 @@ export class DataAwsRoute53ResolverRule extends cdktn.TerraformDataSource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

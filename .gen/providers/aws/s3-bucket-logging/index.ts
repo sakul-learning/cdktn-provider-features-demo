@@ -177,7 +177,7 @@ export class S3BucketLoggingTargetGrantGranteeOutputReference extends cdktn.Comp
   }
 
   // email_address - computed: false, optional: true, required: false
-  private _emailAddress?: string;
+  private _emailAddress?: string; 
   public get emailAddress() {
     return this.getStringAttribute('email_address');
   }
@@ -193,7 +193,7 @@ export class S3BucketLoggingTargetGrantGranteeOutputReference extends cdktn.Comp
   }
 
   // id - computed: false, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -209,7 +209,7 @@ export class S3BucketLoggingTargetGrantGranteeOutputReference extends cdktn.Comp
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -222,7 +222,7 @@ export class S3BucketLoggingTargetGrantGranteeOutputReference extends cdktn.Comp
   }
 
   // uri - computed: false, optional: true, required: false
-  private _uri?: string;
+  private _uri?: string; 
   public get uri() {
     return this.getStringAttribute('uri');
   }
@@ -337,7 +337,7 @@ export class S3BucketLoggingTargetGrantOutputReference extends cdktn.ComplexObje
   }
 
   // permission - computed: false, optional: false, required: true
-  private _permission?: string;
+  private _permission?: string; 
   public get permission() {
     return this.getStringAttribute('permission');
   }
@@ -451,7 +451,7 @@ export class S3BucketLoggingTargetObjectKeyFormatPartitionedPrefixOutputReferenc
   }
 
   // partition_date_source - computed: false, optional: false, required: true
-  private _partitionDateSource?: string;
+  private _partitionDateSource?: string; 
   public get partitionDateSource() {
     return this.getStringAttribute('partition_date_source');
   }
@@ -699,7 +699,7 @@ export class S3BucketLoggingA extends cdktn.TerraformResource {
   // ==========
 
   // bucket - computed: false, optional: false, required: true
-  private _bucket?: string;
+  private _bucket?: string; 
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -712,7 +712,7 @@ export class S3BucketLoggingA extends cdktn.TerraformResource {
   }
 
   // expected_bucket_owner - computed: false, optional: true, required: false
-  private _expectedBucketOwner?: string;
+  private _expectedBucketOwner?: string; 
   public get expectedBucketOwner() {
     return this.getStringAttribute('expected_bucket_owner');
   }
@@ -728,7 +728,7 @@ export class S3BucketLoggingA extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -744,7 +744,7 @@ export class S3BucketLoggingA extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -760,7 +760,7 @@ export class S3BucketLoggingA extends cdktn.TerraformResource {
   }
 
   // target_bucket - computed: false, optional: false, required: true
-  private _targetBucket?: string;
+  private _targetBucket?: string; 
   public get targetBucket() {
     return this.getStringAttribute('target_bucket');
   }
@@ -773,7 +773,7 @@ export class S3BucketLoggingA extends cdktn.TerraformResource {
   }
 
   // target_prefix - computed: false, optional: false, required: true
-  private _targetPrefix?: string;
+  private _targetPrefix?: string; 
   public get targetPrefix() {
     return this.getStringAttribute('target_prefix');
   }

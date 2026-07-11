@@ -129,7 +129,7 @@ export class AppsyncChannelNamespaceHandlerConfigsOnPublishIntegrationLambdaConf
   }
 
   // invoke_type - computed: false, optional: true, required: false
-  private _invokeType?: string;
+  private _invokeType?: string; 
   public get invokeType() {
     return this.getStringAttribute('invoke_type');
   }
@@ -264,7 +264,7 @@ export class AppsyncChannelNamespaceHandlerConfigsOnPublishIntegrationOutputRefe
   }
 
   // data_source_name - computed: false, optional: false, required: true
-  private _dataSourceName?: string;
+  private _dataSourceName?: string; 
   public get dataSourceName() {
     return this.getStringAttribute('data_source_name');
   }
@@ -412,7 +412,7 @@ export class AppsyncChannelNamespaceHandlerConfigsOnPublishOutputReference exten
   }
 
   // behavior - computed: false, optional: false, required: true
-  private _behavior?: string;
+  private _behavior?: string; 
   public get behavior() {
     return this.getStringAttribute('behavior');
   }
@@ -541,7 +541,7 @@ export class AppsyncChannelNamespaceHandlerConfigsOnSubscribeIntegrationLambdaCo
   }
 
   // invoke_type - computed: false, optional: true, required: false
-  private _invokeType?: string;
+  private _invokeType?: string; 
   public get invokeType() {
     return this.getStringAttribute('invoke_type');
   }
@@ -676,7 +676,7 @@ export class AppsyncChannelNamespaceHandlerConfigsOnSubscribeIntegrationOutputRe
   }
 
   // data_source_name - computed: false, optional: false, required: true
-  private _dataSourceName?: string;
+  private _dataSourceName?: string; 
   public get dataSourceName() {
     return this.getStringAttribute('data_source_name');
   }
@@ -824,7 +824,7 @@ export class AppsyncChannelNamespaceHandlerConfigsOnSubscribeOutputReference ext
   }
 
   // behavior - computed: false, optional: false, required: true
-  private _behavior?: string;
+  private _behavior?: string; 
   public get behavior() {
     return this.getStringAttribute('behavior');
   }
@@ -1106,7 +1106,7 @@ export class AppsyncChannelNamespacePublishAuthModeOutputReference extends cdktn
   }
 
   // auth_type - computed: false, optional: false, required: true
-  private _authType?: string;
+  private _authType?: string; 
   public get authType() {
     return this.getStringAttribute('auth_type');
   }
@@ -1219,7 +1219,7 @@ export class AppsyncChannelNamespaceSubscribeAuthModeOutputReference extends cdk
   }
 
   // auth_type - computed: false, optional: false, required: true
-  private _authType?: string;
+  private _authType?: string; 
   public get authType() {
     return this.getStringAttribute('auth_type');
   }
@@ -1317,7 +1317,7 @@ export class AppsyncChannelNamespace extends cdktn.TerraformResource {
   // ==========
 
   // api_id - computed: false, optional: false, required: true
-  private _apiId?: string;
+  private _apiId?: string; 
   public get apiId() {
     return this.getStringAttribute('api_id');
   }
@@ -1335,7 +1335,7 @@ export class AppsyncChannelNamespace extends cdktn.TerraformResource {
   }
 
   // code_handlers - computed: false, optional: true, required: false
-  private _codeHandlers?: string;
+  private _codeHandlers?: string; 
   public get codeHandlers() {
     return this.getStringAttribute('code_handlers');
   }
@@ -1351,7 +1351,7 @@ export class AppsyncChannelNamespace extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1364,7 +1364,7 @@ export class AppsyncChannelNamespace extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1380,7 +1380,7 @@ export class AppsyncChannelNamespace extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

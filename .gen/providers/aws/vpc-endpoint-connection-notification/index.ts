@@ -101,7 +101,7 @@ export class VpcEndpointConnectionNotification extends cdktn.TerraformResource {
   // ==========
 
   // connection_events - computed: false, optional: false, required: true
-  private _connectionEvents?: string[];
+  private _connectionEvents?: string[]; 
   public get connectionEvents() {
     return cdktn.Fn.tolist(this.getListAttribute('connection_events'));
   }
@@ -114,7 +114,7 @@ export class VpcEndpointConnectionNotification extends cdktn.TerraformResource {
   }
 
   // connection_notification_arn - computed: false, optional: false, required: true
-  private _connectionNotificationArn?: string;
+  private _connectionNotificationArn?: string; 
   public get connectionNotificationArn() {
     return this.getStringAttribute('connection_notification_arn');
   }
@@ -127,7 +127,7 @@ export class VpcEndpointConnectionNotification extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -148,7 +148,7 @@ export class VpcEndpointConnectionNotification extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -169,7 +169,7 @@ export class VpcEndpointConnectionNotification extends cdktn.TerraformResource {
   }
 
   // vpc_endpoint_id - computed: false, optional: true, required: false
-  private _vpcEndpointId?: string;
+  private _vpcEndpointId?: string; 
   public get vpcEndpointId() {
     return this.getStringAttribute('vpc_endpoint_id');
   }
@@ -185,7 +185,7 @@ export class VpcEndpointConnectionNotification extends cdktn.TerraformResource {
   }
 
   // vpc_endpoint_service_id - computed: false, optional: true, required: false
-  private _vpcEndpointServiceId?: string;
+  private _vpcEndpointServiceId?: string; 
   public get vpcEndpointServiceId() {
     return this.getStringAttribute('vpc_endpoint_service_id');
   }

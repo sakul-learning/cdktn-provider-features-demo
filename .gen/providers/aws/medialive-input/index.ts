@@ -162,7 +162,7 @@ export class MedialiveInputDestinationsOutputReference extends cdktn.ComplexObje
   }
 
   // stream_name - computed: false, optional: false, required: true
-  private _streamName?: string;
+  private _streamName?: string; 
   public get streamName() {
     return this.getStringAttribute('stream_name');
   }
@@ -278,7 +278,7 @@ export class MedialiveInputInputDevicesOutputReference extends cdktn.ComplexObje
   }
 
   // id - computed: false, optional: false, required: true
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -391,7 +391,7 @@ export class MedialiveInputMediaConnectFlowsOutputReference extends cdktn.Comple
   }
 
   // flow_arn - computed: false, optional: false, required: true
-  private _flowArn?: string;
+  private _flowArn?: string; 
   public get flowArn() {
     return this.getStringAttribute('flow_arn');
   }
@@ -538,7 +538,7 @@ export class MedialiveInputSourcesOutputReference extends cdktn.ComplexObject {
   }
 
   // password_param - computed: false, optional: false, required: true
-  private _passwordParam?: string;
+  private _passwordParam?: string; 
   public get passwordParam() {
     return this.getStringAttribute('password_param');
   }
@@ -551,7 +551,7 @@ export class MedialiveInputSourcesOutputReference extends cdktn.ComplexObject {
   }
 
   // url - computed: false, optional: false, required: true
-  private _url?: string;
+  private _url?: string; 
   public get url() {
     return this.getStringAttribute('url');
   }
@@ -564,7 +564,7 @@ export class MedialiveInputSourcesOutputReference extends cdktn.ComplexObject {
   }
 
   // username - computed: false, optional: false, required: true
-  private _username?: string;
+  private _username?: string; 
   public get username() {
     return this.getStringAttribute('username');
   }
@@ -709,7 +709,7 @@ export class MedialiveInputTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -725,7 +725,7 @@ export class MedialiveInputTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -741,7 +741,7 @@ export class MedialiveInputTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -842,7 +842,7 @@ export class MedialiveInputVpcOutputReference extends cdktn.ComplexObject {
   }
 
   // security_group_ids - computed: false, optional: true, required: false
-  private _securityGroupIds?: string[];
+  private _securityGroupIds?: string[]; 
   public get securityGroupIds() {
     return this.getListAttribute('security_group_ids');
   }
@@ -858,7 +858,7 @@ export class MedialiveInputVpcOutputReference extends cdktn.ComplexObject {
   }
 
   // subnet_ids - computed: false, optional: false, required: true
-  private _subnetIds?: string[];
+  private _subnetIds?: string[]; 
   public get subnetIds() {
     return this.getListAttribute('subnet_ids');
   }
@@ -952,7 +952,7 @@ export class MedialiveInput extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -978,7 +978,7 @@ export class MedialiveInput extends cdktn.TerraformResource {
   }
 
   // input_security_groups - computed: false, optional: true, required: false
-  private _inputSecurityGroups?: string[];
+  private _inputSecurityGroups?: string[]; 
   public get inputSecurityGroups() {
     return this.getListAttribute('input_security_groups');
   }
@@ -999,7 +999,7 @@ export class MedialiveInput extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1012,7 +1012,7 @@ export class MedialiveInput extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1028,7 +1028,7 @@ export class MedialiveInput extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -1044,7 +1044,7 @@ export class MedialiveInput extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -1060,7 +1060,7 @@ export class MedialiveInput extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -1076,7 +1076,7 @@ export class MedialiveInput extends cdktn.TerraformResource {
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }

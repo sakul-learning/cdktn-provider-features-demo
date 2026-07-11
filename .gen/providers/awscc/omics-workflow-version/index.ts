@@ -155,7 +155,7 @@ export class OmicsWorkflowVersionParameterTemplateOutputReference extends cdktn.
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -171,7 +171,7 @@ export class OmicsWorkflowVersionParameterTemplateOutputReference extends cdktn.
   }
 
   // optional - computed: true, optional: true, required: false
-  private _optional?: boolean | cdktn.IResolvable;
+  private _optional?: boolean | cdktn.IResolvable; 
   public get optional() {
     return this.getBooleanAttribute('optional');
   }
@@ -275,7 +275,7 @@ export class OmicsWorkflowVersion extends cdktn.TerraformResource {
   // ==========
 
   // accelerators - computed: true, optional: true, required: false
-  private _accelerators?: string;
+  private _accelerators?: string; 
   public get accelerators() {
     return this.getStringAttribute('accelerators');
   }
@@ -301,7 +301,7 @@ export class OmicsWorkflowVersion extends cdktn.TerraformResource {
   }
 
   // definition_uri - computed: true, optional: true, required: false
-  private _definitionUri?: string;
+  private _definitionUri?: string; 
   public get definitionUri() {
     return this.getStringAttribute('definition_uri');
   }
@@ -317,7 +317,7 @@ export class OmicsWorkflowVersion extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -333,7 +333,7 @@ export class OmicsWorkflowVersion extends cdktn.TerraformResource {
   }
 
   // engine - computed: true, optional: true, required: false
-  private _engine?: string;
+  private _engine?: string; 
   public get engine() {
     return this.getStringAttribute('engine');
   }
@@ -354,7 +354,7 @@ export class OmicsWorkflowVersion extends cdktn.TerraformResource {
   }
 
   // main - computed: true, optional: true, required: false
-  private _main?: string;
+  private _main?: string; 
   public get main() {
     return this.getStringAttribute('main');
   }
@@ -391,7 +391,7 @@ export class OmicsWorkflowVersion extends cdktn.TerraformResource {
   }
 
   // storage_capacity - computed: true, optional: true, required: false
-  private _storageCapacity?: number;
+  private _storageCapacity?: number; 
   public get storageCapacity() {
     return this.getNumberAttribute('storage_capacity');
   }
@@ -407,7 +407,7 @@ export class OmicsWorkflowVersion extends cdktn.TerraformResource {
   }
 
   // storage_type - computed: true, optional: true, required: false
-  private _storageType?: string;
+  private _storageType?: string; 
   public get storageType() {
     return this.getStringAttribute('storage_type');
   }
@@ -423,7 +423,7 @@ export class OmicsWorkflowVersion extends cdktn.TerraformResource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -449,7 +449,7 @@ export class OmicsWorkflowVersion extends cdktn.TerraformResource {
   }
 
   // version_name - computed: false, optional: false, required: true
-  private _versionName?: string;
+  private _versionName?: string; 
   public get versionName() {
     return this.getStringAttribute('version_name');
   }
@@ -462,7 +462,7 @@ export class OmicsWorkflowVersion extends cdktn.TerraformResource {
   }
 
   // workflow_bucket_owner_id - computed: true, optional: true, required: false
-  private _workflowBucketOwnerId?: string;
+  private _workflowBucketOwnerId?: string; 
   public get workflowBucketOwnerId() {
     return this.getStringAttribute('workflow_bucket_owner_id');
   }
@@ -478,7 +478,7 @@ export class OmicsWorkflowVersion extends cdktn.TerraformResource {
   }
 
   // workflow_id - computed: false, optional: false, required: true
-  private _workflowId?: string;
+  private _workflowId?: string; 
   public get workflowId() {
     return this.getStringAttribute('workflow_id');
   }

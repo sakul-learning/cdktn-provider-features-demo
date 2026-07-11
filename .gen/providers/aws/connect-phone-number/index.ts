@@ -248,7 +248,7 @@ export class ConnectPhoneNumberTimeoutsOutputReference extends cdktn.ComplexObje
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -264,7 +264,7 @@ export class ConnectPhoneNumberTimeoutsOutputReference extends cdktn.ComplexObje
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -280,7 +280,7 @@ export class ConnectPhoneNumberTimeoutsOutputReference extends cdktn.ComplexObje
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -368,7 +368,7 @@ export class ConnectPhoneNumber extends cdktn.TerraformResource {
   }
 
   // country_code - computed: false, optional: false, required: true
-  private _countryCode?: string;
+  private _countryCode?: string; 
   public get countryCode() {
     return this.getStringAttribute('country_code');
   }
@@ -381,7 +381,7 @@ export class ConnectPhoneNumber extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -397,7 +397,7 @@ export class ConnectPhoneNumber extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -418,7 +418,7 @@ export class ConnectPhoneNumber extends cdktn.TerraformResource {
   }
 
   // prefix - computed: false, optional: true, required: false
-  private _prefix?: string;
+  private _prefix?: string; 
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -434,7 +434,7 @@ export class ConnectPhoneNumber extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -456,7 +456,7 @@ export class ConnectPhoneNumber extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -472,7 +472,7 @@ export class ConnectPhoneNumber extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -488,7 +488,7 @@ export class ConnectPhoneNumber extends cdktn.TerraformResource {
   }
 
   // target_arn - computed: false, optional: false, required: true
-  private _targetArn?: string;
+  private _targetArn?: string; 
   public get targetArn() {
     return this.getStringAttribute('target_arn');
   }
@@ -501,7 +501,7 @@ export class ConnectPhoneNumber extends cdktn.TerraformResource {
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }

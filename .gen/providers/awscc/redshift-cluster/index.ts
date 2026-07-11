@@ -15,11 +15,11 @@ export interface RedshiftClusterConfig extends cdktn.TerraformMetaArguments {
   readonly allowVersionUpgrade?: boolean | cdktn.IResolvable;
   /**
   * The value represents how the cluster is configured to use AQUA (Advanced Query Accelerator) after the cluster is restored. Possible values include the following.
-  *
+  * 
   * enabled - Use AQUA if it is available for the current Region and Amazon Redshift node type.
   * disabled - Don't use AQUA.
   * auto - Amazon Redshift determines whether to use AQUA.
-  *
+  * 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_cluster#aqua_configuration_status RedshiftCluster#aqua_configuration_status}
   */
@@ -144,9 +144,9 @@ export interface RedshiftClusterConfig extends cdktn.TerraformMetaArguments {
   readonly endpoint?: RedshiftClusterEndpoint;
   /**
   * An option that specifies whether to create the cluster with enhanced VPC routing enabled. To create a cluster that uses enhanced VPC routing, the cluster must be in a VPC. For more information, see Enhanced VPC Routing in the Amazon Redshift Cluster Management Guide.
-  *
+  * 
   * If this option is true , enhanced VPC routing is enabled.
-  *
+  * 
   * Default: false
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_cluster#enhanced_vpc_routing RedshiftCluster#enhanced_vpc_routing}
@@ -194,7 +194,7 @@ export interface RedshiftClusterConfig extends cdktn.TerraformMetaArguments {
   readonly manageMasterPassword?: boolean | cdktn.IResolvable;
   /**
   * The number of days to retain newly copied snapshots in the destination AWS Region after they are copied from the source AWS Region. If the value is -1, the manual snapshot is retained indefinitely.
-  *
+  * 
   * The value must be either -1 or an integer between 1 and 3,653.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_cluster#manual_snapshot_retention_period RedshiftCluster#manual_snapshot_retention_period}
@@ -301,10 +301,10 @@ export interface RedshiftClusterConfig extends cdktn.TerraformMetaArguments {
   */
   readonly snapshotCopyManual?: boolean | cdktn.IResolvable;
   /**
-  * The number of days to retain automated snapshots in the destination region after they are copied from the source region.
-  *
-  *  Default is 7.
-  *
+  * The number of days to retain automated snapshots in the destination region after they are copied from the source region. 
+  * 
+  *  Default is 7. 
+  * 
   *  Constraints: Must be at least 1 and no more than 35.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_cluster#snapshot_copy_retention_period RedshiftCluster#snapshot_copy_retention_period}
@@ -528,7 +528,7 @@ export class RedshiftClusterLoggingPropertiesOutputReference extends cdktn.Compl
   }
 
   // bucket_name - computed: true, optional: true, required: false
-  private _bucketName?: string;
+  private _bucketName?: string; 
   public get bucketName() {
     return this.getStringAttribute('bucket_name');
   }
@@ -544,7 +544,7 @@ export class RedshiftClusterLoggingPropertiesOutputReference extends cdktn.Compl
   }
 
   // log_destination_type - computed: true, optional: true, required: false
-  private _logDestinationType?: string;
+  private _logDestinationType?: string; 
   public get logDestinationType() {
     return this.getStringAttribute('log_destination_type');
   }
@@ -560,7 +560,7 @@ export class RedshiftClusterLoggingPropertiesOutputReference extends cdktn.Compl
   }
 
   // log_exports - computed: true, optional: true, required: false
-  private _logExports?: string[];
+  private _logExports?: string[]; 
   public get logExports() {
     return this.getListAttribute('log_exports');
   }
@@ -576,7 +576,7 @@ export class RedshiftClusterLoggingPropertiesOutputReference extends cdktn.Compl
   }
 
   // s3_key_prefix - computed: true, optional: true, required: false
-  private _s3KeyPrefix?: string;
+  private _s3KeyPrefix?: string; 
   public get s3KeyPrefix() {
     return this.getStringAttribute('s3_key_prefix');
   }
@@ -693,7 +693,7 @@ export class RedshiftClusterTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -709,7 +709,7 @@ export class RedshiftClusterTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -854,7 +854,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   // ==========
 
   // allow_version_upgrade - computed: true, optional: true, required: false
-  private _allowVersionUpgrade?: boolean | cdktn.IResolvable;
+  private _allowVersionUpgrade?: boolean | cdktn.IResolvable; 
   public get allowVersionUpgrade() {
     return this.getBooleanAttribute('allow_version_upgrade');
   }
@@ -870,7 +870,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // aqua_configuration_status - computed: true, optional: true, required: false
-  private _aquaConfigurationStatus?: string;
+  private _aquaConfigurationStatus?: string; 
   public get aquaConfigurationStatus() {
     return this.getStringAttribute('aqua_configuration_status');
   }
@@ -886,7 +886,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // automated_snapshot_retention_period - computed: true, optional: true, required: false
-  private _automatedSnapshotRetentionPeriod?: number;
+  private _automatedSnapshotRetentionPeriod?: number; 
   public get automatedSnapshotRetentionPeriod() {
     return this.getNumberAttribute('automated_snapshot_retention_period');
   }
@@ -902,7 +902,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // availability_zone - computed: true, optional: true, required: false
-  private _availabilityZone?: string;
+  private _availabilityZone?: string; 
   public get availabilityZone() {
     return this.getStringAttribute('availability_zone');
   }
@@ -918,7 +918,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // availability_zone_relocation - computed: true, optional: true, required: false
-  private _availabilityZoneRelocation?: boolean | cdktn.IResolvable;
+  private _availabilityZoneRelocation?: boolean | cdktn.IResolvable; 
   public get availabilityZoneRelocation() {
     return this.getBooleanAttribute('availability_zone_relocation');
   }
@@ -934,7 +934,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // availability_zone_relocation_status - computed: true, optional: true, required: false
-  private _availabilityZoneRelocationStatus?: string;
+  private _availabilityZoneRelocationStatus?: string; 
   public get availabilityZoneRelocationStatus() {
     return this.getStringAttribute('availability_zone_relocation_status');
   }
@@ -950,7 +950,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // classic - computed: true, optional: true, required: false
-  private _classic?: boolean | cdktn.IResolvable;
+  private _classic?: boolean | cdktn.IResolvable; 
   public get classic() {
     return this.getBooleanAttribute('classic');
   }
@@ -966,7 +966,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // cluster_identifier - computed: true, optional: true, required: false
-  private _clusterIdentifier?: string;
+  private _clusterIdentifier?: string; 
   public get clusterIdentifier() {
     return this.getStringAttribute('cluster_identifier');
   }
@@ -987,7 +987,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // cluster_parameter_group_name - computed: true, optional: true, required: false
-  private _clusterParameterGroupName?: string;
+  private _clusterParameterGroupName?: string; 
   public get clusterParameterGroupName() {
     return this.getStringAttribute('cluster_parameter_group_name');
   }
@@ -1003,7 +1003,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // cluster_security_groups - computed: true, optional: true, required: false
-  private _clusterSecurityGroups?: string[];
+  private _clusterSecurityGroups?: string[]; 
   public get clusterSecurityGroups() {
     return this.getListAttribute('cluster_security_groups');
   }
@@ -1019,7 +1019,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // cluster_subnet_group_name - computed: true, optional: true, required: false
-  private _clusterSubnetGroupName?: string;
+  private _clusterSubnetGroupName?: string; 
   public get clusterSubnetGroupName() {
     return this.getStringAttribute('cluster_subnet_group_name');
   }
@@ -1035,7 +1035,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // cluster_type - computed: false, optional: false, required: true
-  private _clusterType?: string;
+  private _clusterType?: string; 
   public get clusterType() {
     return this.getStringAttribute('cluster_type');
   }
@@ -1048,7 +1048,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // cluster_version - computed: true, optional: true, required: false
-  private _clusterVersion?: string;
+  private _clusterVersion?: string; 
   public get clusterVersion() {
     return this.getStringAttribute('cluster_version');
   }
@@ -1064,7 +1064,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // db_name - computed: false, optional: false, required: true
-  private _dbName?: string;
+  private _dbName?: string; 
   public get dbName() {
     return this.getStringAttribute('db_name');
   }
@@ -1077,7 +1077,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // defer_maintenance - computed: true, optional: true, required: false
-  private _deferMaintenance?: boolean | cdktn.IResolvable;
+  private _deferMaintenance?: boolean | cdktn.IResolvable; 
   public get deferMaintenance() {
     return this.getBooleanAttribute('defer_maintenance');
   }
@@ -1093,7 +1093,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // defer_maintenance_duration - computed: true, optional: true, required: false
-  private _deferMaintenanceDuration?: number;
+  private _deferMaintenanceDuration?: number; 
   public get deferMaintenanceDuration() {
     return this.getNumberAttribute('defer_maintenance_duration');
   }
@@ -1109,7 +1109,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // defer_maintenance_end_time - computed: true, optional: true, required: false
-  private _deferMaintenanceEndTime?: string;
+  private _deferMaintenanceEndTime?: string; 
   public get deferMaintenanceEndTime() {
     return this.getStringAttribute('defer_maintenance_end_time');
   }
@@ -1130,7 +1130,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // defer_maintenance_start_time - computed: true, optional: true, required: false
-  private _deferMaintenanceStartTime?: string;
+  private _deferMaintenanceStartTime?: string; 
   public get deferMaintenanceStartTime() {
     return this.getStringAttribute('defer_maintenance_start_time');
   }
@@ -1146,7 +1146,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // destination_region - computed: true, optional: true, required: false
-  private _destinationRegion?: string;
+  private _destinationRegion?: string; 
   public get destinationRegion() {
     return this.getStringAttribute('destination_region');
   }
@@ -1162,7 +1162,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // elastic_ip - computed: true, optional: true, required: false
-  private _elasticIp?: string;
+  private _elasticIp?: string; 
   public get elasticIp() {
     return this.getStringAttribute('elastic_ip');
   }
@@ -1178,7 +1178,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // encrypted - computed: true, optional: true, required: false
-  private _encrypted?: boolean | cdktn.IResolvable;
+  private _encrypted?: boolean | cdktn.IResolvable; 
   public get encrypted() {
     return this.getBooleanAttribute('encrypted');
   }
@@ -1210,7 +1210,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // enhanced_vpc_routing - computed: true, optional: true, required: false
-  private _enhancedVpcRouting?: boolean | cdktn.IResolvable;
+  private _enhancedVpcRouting?: boolean | cdktn.IResolvable; 
   public get enhancedVpcRouting() {
     return this.getBooleanAttribute('enhanced_vpc_routing');
   }
@@ -1226,7 +1226,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // hsm_client_certificate_identifier - computed: true, optional: true, required: false
-  private _hsmClientCertificateIdentifier?: string;
+  private _hsmClientCertificateIdentifier?: string; 
   public get hsmClientCertificateIdentifier() {
     return this.getStringAttribute('hsm_client_certificate_identifier');
   }
@@ -1242,7 +1242,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // hsm_configuration_identifier - computed: true, optional: true, required: false
-  private _hsmConfigurationIdentifier?: string;
+  private _hsmConfigurationIdentifier?: string; 
   public get hsmConfigurationIdentifier() {
     return this.getStringAttribute('hsm_configuration_identifier');
   }
@@ -1258,7 +1258,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // iam_roles - computed: true, optional: true, required: false
-  private _iamRoles?: string[];
+  private _iamRoles?: string[]; 
   public get iamRoles() {
     return this.getListAttribute('iam_roles');
   }
@@ -1279,7 +1279,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -1311,7 +1311,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // maintenance_track_name - computed: true, optional: true, required: false
-  private _maintenanceTrackName?: string;
+  private _maintenanceTrackName?: string; 
   public get maintenanceTrackName() {
     return this.getStringAttribute('maintenance_track_name');
   }
@@ -1327,7 +1327,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // manage_master_password - computed: true, optional: true, required: false
-  private _manageMasterPassword?: boolean | cdktn.IResolvable;
+  private _manageMasterPassword?: boolean | cdktn.IResolvable; 
   public get manageMasterPassword() {
     return this.getBooleanAttribute('manage_master_password');
   }
@@ -1343,7 +1343,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // manual_snapshot_retention_period - computed: true, optional: true, required: false
-  private _manualSnapshotRetentionPeriod?: number;
+  private _manualSnapshotRetentionPeriod?: number; 
   public get manualSnapshotRetentionPeriod() {
     return this.getNumberAttribute('manual_snapshot_retention_period');
   }
@@ -1364,7 +1364,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // master_password_secret_kms_key_id - computed: true, optional: true, required: false
-  private _masterPasswordSecretKmsKeyId?: string;
+  private _masterPasswordSecretKmsKeyId?: string; 
   public get masterPasswordSecretKmsKeyId() {
     return this.getStringAttribute('master_password_secret_kms_key_id');
   }
@@ -1380,7 +1380,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // master_user_password - computed: true, optional: true, required: false
-  private _masterUserPassword?: string;
+  private _masterUserPassword?: string; 
   public get masterUserPassword() {
     return this.getStringAttribute('master_user_password');
   }
@@ -1396,7 +1396,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // master_username - computed: false, optional: false, required: true
-  private _masterUsername?: string;
+  private _masterUsername?: string; 
   public get masterUsername() {
     return this.getStringAttribute('master_username');
   }
@@ -1409,7 +1409,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // multi_az - computed: true, optional: true, required: false
-  private _multiAz?: boolean | cdktn.IResolvable;
+  private _multiAz?: boolean | cdktn.IResolvable; 
   public get multiAz() {
     return this.getBooleanAttribute('multi_az');
   }
@@ -1425,7 +1425,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // namespace_resource_policy - computed: true, optional: true, required: false
-  private _namespaceResourcePolicy?: string;
+  private _namespaceResourcePolicy?: string; 
   public get namespaceResourcePolicy() {
     return this.getStringAttribute('namespace_resource_policy');
   }
@@ -1441,7 +1441,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // node_type - computed: false, optional: false, required: true
-  private _nodeType?: string;
+  private _nodeType?: string; 
   public get nodeType() {
     return this.getStringAttribute('node_type');
   }
@@ -1454,7 +1454,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // number_of_nodes - computed: true, optional: true, required: false
-  private _numberOfNodes?: number;
+  private _numberOfNodes?: number; 
   public get numberOfNodes() {
     return this.getNumberAttribute('number_of_nodes');
   }
@@ -1470,7 +1470,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // owner_account - computed: true, optional: true, required: false
-  private _ownerAccount?: string;
+  private _ownerAccount?: string; 
   public get ownerAccount() {
     return this.getStringAttribute('owner_account');
   }
@@ -1486,7 +1486,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -1502,7 +1502,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // preferred_maintenance_window - computed: true, optional: true, required: false
-  private _preferredMaintenanceWindow?: string;
+  private _preferredMaintenanceWindow?: string; 
   public get preferredMaintenanceWindow() {
     return this.getStringAttribute('preferred_maintenance_window');
   }
@@ -1518,7 +1518,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // publicly_accessible - computed: true, optional: true, required: false
-  private _publiclyAccessible?: boolean | cdktn.IResolvable;
+  private _publiclyAccessible?: boolean | cdktn.IResolvable; 
   public get publiclyAccessible() {
     return this.getBooleanAttribute('publicly_accessible');
   }
@@ -1534,7 +1534,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // resource_action - computed: true, optional: true, required: false
-  private _resourceAction?: string;
+  private _resourceAction?: string; 
   public get resourceAction() {
     return this.getStringAttribute('resource_action');
   }
@@ -1550,7 +1550,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // revision_target - computed: true, optional: true, required: false
-  private _revisionTarget?: string;
+  private _revisionTarget?: string; 
   public get revisionTarget() {
     return this.getStringAttribute('revision_target');
   }
@@ -1566,7 +1566,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // rotate_encryption_key - computed: true, optional: true, required: false
-  private _rotateEncryptionKey?: boolean | cdktn.IResolvable;
+  private _rotateEncryptionKey?: boolean | cdktn.IResolvable; 
   public get rotateEncryptionKey() {
     return this.getBooleanAttribute('rotate_encryption_key');
   }
@@ -1582,7 +1582,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // snapshot_cluster_identifier - computed: true, optional: true, required: false
-  private _snapshotClusterIdentifier?: string;
+  private _snapshotClusterIdentifier?: string; 
   public get snapshotClusterIdentifier() {
     return this.getStringAttribute('snapshot_cluster_identifier');
   }
@@ -1598,7 +1598,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // snapshot_copy_grant_name - computed: true, optional: true, required: false
-  private _snapshotCopyGrantName?: string;
+  private _snapshotCopyGrantName?: string; 
   public get snapshotCopyGrantName() {
     return this.getStringAttribute('snapshot_copy_grant_name');
   }
@@ -1614,7 +1614,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // snapshot_copy_manual - computed: true, optional: true, required: false
-  private _snapshotCopyManual?: boolean | cdktn.IResolvable;
+  private _snapshotCopyManual?: boolean | cdktn.IResolvable; 
   public get snapshotCopyManual() {
     return this.getBooleanAttribute('snapshot_copy_manual');
   }
@@ -1630,7 +1630,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // snapshot_copy_retention_period - computed: true, optional: true, required: false
-  private _snapshotCopyRetentionPeriod?: number;
+  private _snapshotCopyRetentionPeriod?: number; 
   public get snapshotCopyRetentionPeriod() {
     return this.getNumberAttribute('snapshot_copy_retention_period');
   }
@@ -1646,7 +1646,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // snapshot_identifier - computed: true, optional: true, required: false
-  private _snapshotIdentifier?: string;
+  private _snapshotIdentifier?: string; 
   public get snapshotIdentifier() {
     return this.getStringAttribute('snapshot_identifier');
   }
@@ -1678,7 +1678,7 @@ export class RedshiftCluster extends cdktn.TerraformResource {
   }
 
   // vpc_security_group_ids - computed: true, optional: true, required: false
-  private _vpcSecurityGroupIds?: string[];
+  private _vpcSecurityGroupIds?: string[]; 
   public get vpcSecurityGroupIds() {
     return this.getListAttribute('vpc_security_group_ids');
   }

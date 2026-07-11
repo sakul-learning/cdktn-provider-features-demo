@@ -91,7 +91,7 @@ export class ServicequotasTemplate extends cdktn.TerraformResource {
   // ==========
 
   // aws_region - computed: true, optional: true, required: false
-  private _awsRegion?: string;
+  private _awsRegion?: string; 
   public get awsRegion() {
     return this.getStringAttribute('aws_region');
   }
@@ -117,7 +117,7 @@ export class ServicequotasTemplate extends cdktn.TerraformResource {
   }
 
   // quota_code - computed: false, optional: false, required: true
-  private _quotaCode?: string;
+  private _quotaCode?: string; 
   public get quotaCode() {
     return this.getStringAttribute('quota_code');
   }
@@ -135,7 +135,7 @@ export class ServicequotasTemplate extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -151,7 +151,7 @@ export class ServicequotasTemplate extends cdktn.TerraformResource {
   }
 
   // service_code - computed: false, optional: false, required: true
-  private _serviceCode?: string;
+  private _serviceCode?: string; 
   public get serviceCode() {
     return this.getStringAttribute('service_code');
   }
@@ -174,7 +174,7 @@ export class ServicequotasTemplate extends cdktn.TerraformResource {
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: number;
+  private _value?: number; 
   public get value() {
     return this.getNumberAttribute('value');
   }

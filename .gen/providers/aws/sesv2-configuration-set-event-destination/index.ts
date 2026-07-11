@@ -150,7 +150,7 @@ export class Sesv2ConfigurationSetEventDestinationEventDestinationCloudWatchDest
   }
 
   // default_dimension_value - computed: false, optional: false, required: true
-  private _defaultDimensionValue?: string;
+  private _defaultDimensionValue?: string; 
   public get defaultDimensionValue() {
     return this.getStringAttribute('default_dimension_value');
   }
@@ -163,7 +163,7 @@ export class Sesv2ConfigurationSetEventDestinationEventDestinationCloudWatchDest
   }
 
   // dimension_name - computed: false, optional: false, required: true
-  private _dimensionName?: string;
+  private _dimensionName?: string; 
   public get dimensionName() {
     return this.getStringAttribute('dimension_name');
   }
@@ -176,7 +176,7 @@ export class Sesv2ConfigurationSetEventDestinationEventDestinationCloudWatchDest
   }
 
   // dimension_value_source - computed: false, optional: false, required: true
-  private _dimensionValueSource?: string;
+  private _dimensionValueSource?: string; 
   public get dimensionValueSource() {
     return this.getStringAttribute('dimension_value_source');
   }
@@ -360,7 +360,7 @@ export class Sesv2ConfigurationSetEventDestinationEventDestinationEventBridgeDes
   }
 
   // event_bus_arn - computed: false, optional: false, required: true
-  private _eventBusArn?: string;
+  private _eventBusArn?: string; 
   public get eventBusArn() {
     return this.getStringAttribute('event_bus_arn');
   }
@@ -458,7 +458,7 @@ export class Sesv2ConfigurationSetEventDestinationEventDestinationKinesisFirehos
   }
 
   // delivery_stream_arn - computed: false, optional: false, required: true
-  private _deliveryStreamArn?: string;
+  private _deliveryStreamArn?: string; 
   public get deliveryStreamArn() {
     return this.getStringAttribute('delivery_stream_arn');
   }
@@ -471,7 +471,7 @@ export class Sesv2ConfigurationSetEventDestinationEventDestinationKinesisFirehos
   }
 
   // iam_role_arn - computed: false, optional: false, required: true
-  private _iamRoleArn?: string;
+  private _iamRoleArn?: string; 
   public get iamRoleArn() {
     return this.getStringAttribute('iam_role_arn');
   }
@@ -552,7 +552,7 @@ export class Sesv2ConfigurationSetEventDestinationEventDestinationPinpointDestin
   }
 
   // application_arn - computed: false, optional: false, required: true
-  private _applicationArn?: string;
+  private _applicationArn?: string; 
   public get applicationArn() {
     return this.getStringAttribute('application_arn');
   }
@@ -633,7 +633,7 @@ export class Sesv2ConfigurationSetEventDestinationEventDestinationSnsDestination
   }
 
   // topic_arn - computed: false, optional: false, required: true
-  private _topicArn?: string;
+  private _topicArn?: string; 
   public get topicArn() {
     return this.getStringAttribute('topic_arn');
   }
@@ -826,7 +826,7 @@ export class Sesv2ConfigurationSetEventDestinationEventDestinationOutputReferenc
   }
 
   // enabled - computed: false, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -842,7 +842,7 @@ export class Sesv2ConfigurationSetEventDestinationEventDestinationOutputReferenc
   }
 
   // matching_event_types - computed: false, optional: false, required: true
-  private _matchingEventTypes?: string[];
+  private _matchingEventTypes?: string[]; 
   public get matchingEventTypes() {
     return cdktn.Fn.tolist(this.getListAttribute('matching_event_types'));
   }
@@ -997,7 +997,7 @@ export class Sesv2ConfigurationSetEventDestination extends cdktn.TerraformResour
   // ==========
 
   // configuration_set_name - computed: false, optional: false, required: true
-  private _configurationSetName?: string;
+  private _configurationSetName?: string; 
   public get configurationSetName() {
     return this.getStringAttribute('configuration_set_name');
   }
@@ -1010,7 +1010,7 @@ export class Sesv2ConfigurationSetEventDestination extends cdktn.TerraformResour
   }
 
   // event_destination_name - computed: false, optional: false, required: true
-  private _eventDestinationName?: string;
+  private _eventDestinationName?: string; 
   public get eventDestinationName() {
     return this.getStringAttribute('event_destination_name');
   }
@@ -1023,7 +1023,7 @@ export class Sesv2ConfigurationSetEventDestination extends cdktn.TerraformResour
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -1039,7 +1039,7 @@ export class Sesv2ConfigurationSetEventDestination extends cdktn.TerraformResour
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

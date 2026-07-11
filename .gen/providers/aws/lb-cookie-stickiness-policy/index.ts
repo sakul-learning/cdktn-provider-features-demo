@@ -101,7 +101,7 @@ export class LbCookieStickinessPolicy extends cdktn.TerraformResource {
   // ==========
 
   // cookie_expiration_period - computed: false, optional: true, required: false
-  private _cookieExpirationPeriod?: number;
+  private _cookieExpirationPeriod?: number; 
   public get cookieExpirationPeriod() {
     return this.getNumberAttribute('cookie_expiration_period');
   }
@@ -117,7 +117,7 @@ export class LbCookieStickinessPolicy extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -133,7 +133,7 @@ export class LbCookieStickinessPolicy extends cdktn.TerraformResource {
   }
 
   // lb_port - computed: false, optional: false, required: true
-  private _lbPort?: number;
+  private _lbPort?: number; 
   public get lbPort() {
     return this.getNumberAttribute('lb_port');
   }
@@ -146,7 +146,7 @@ export class LbCookieStickinessPolicy extends cdktn.TerraformResource {
   }
 
   // load_balancer - computed: false, optional: false, required: true
-  private _loadBalancer?: string;
+  private _loadBalancer?: string; 
   public get loadBalancer() {
     return this.getStringAttribute('load_balancer');
   }
@@ -159,7 +159,7 @@ export class LbCookieStickinessPolicy extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -172,7 +172,7 @@ export class LbCookieStickinessPolicy extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

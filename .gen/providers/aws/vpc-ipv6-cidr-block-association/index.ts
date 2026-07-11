@@ -147,7 +147,7 @@ export class VpcIpv6CidrBlockAssociationTimeoutsOutputReference extends cdktn.Co
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -163,7 +163,7 @@ export class VpcIpv6CidrBlockAssociationTimeoutsOutputReference extends cdktn.Co
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -245,7 +245,7 @@ export class VpcIpv6CidrBlockAssociation extends cdktn.TerraformResource {
   // ==========
 
   // assign_generated_ipv6_cidr_block - computed: true, optional: true, required: false
-  private _assignGeneratedIpv6CidrBlock?: boolean | cdktn.IResolvable;
+  private _assignGeneratedIpv6CidrBlock?: boolean | cdktn.IResolvable; 
   public get assignGeneratedIpv6CidrBlock() {
     return this.getBooleanAttribute('assign_generated_ipv6_cidr_block');
   }
@@ -261,7 +261,7 @@ export class VpcIpv6CidrBlockAssociation extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -287,7 +287,7 @@ export class VpcIpv6CidrBlockAssociation extends cdktn.TerraformResource {
   }
 
   // ipv6_cidr_block - computed: true, optional: true, required: false
-  private _ipv6CidrBlock?: string;
+  private _ipv6CidrBlock?: string; 
   public get ipv6CidrBlock() {
     return this.getStringAttribute('ipv6_cidr_block');
   }
@@ -303,7 +303,7 @@ export class VpcIpv6CidrBlockAssociation extends cdktn.TerraformResource {
   }
 
   // ipv6_ipam_pool_id - computed: false, optional: true, required: false
-  private _ipv6IpamPoolId?: string;
+  private _ipv6IpamPoolId?: string; 
   public get ipv6IpamPoolId() {
     return this.getStringAttribute('ipv6_ipam_pool_id');
   }
@@ -319,7 +319,7 @@ export class VpcIpv6CidrBlockAssociation extends cdktn.TerraformResource {
   }
 
   // ipv6_netmask_length - computed: false, optional: true, required: false
-  private _ipv6NetmaskLength?: number;
+  private _ipv6NetmaskLength?: number; 
   public get ipv6NetmaskLength() {
     return this.getNumberAttribute('ipv6_netmask_length');
   }
@@ -335,7 +335,7 @@ export class VpcIpv6CidrBlockAssociation extends cdktn.TerraformResource {
   }
 
   // ipv6_pool - computed: true, optional: true, required: false
-  private _ipv6Pool?: string;
+  private _ipv6Pool?: string; 
   public get ipv6Pool() {
     return this.getStringAttribute('ipv6_pool');
   }
@@ -351,7 +351,7 @@ export class VpcIpv6CidrBlockAssociation extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -367,7 +367,7 @@ export class VpcIpv6CidrBlockAssociation extends cdktn.TerraformResource {
   }
 
   // vpc_id - computed: false, optional: false, required: true
-  private _vpcId?: string;
+  private _vpcId?: string; 
   public get vpcId() {
     return this.getStringAttribute('vpc_id');
   }

@@ -147,7 +147,7 @@ export class DataAwsAvailabilityZoneFilterOutputReference extends cdktn.ComplexO
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -160,7 +160,7 @@ export class DataAwsAvailabilityZoneFilterOutputReference extends cdktn.ComplexO
   }
 
   // values - computed: false, optional: false, required: true
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -271,7 +271,7 @@ export class DataAwsAvailabilityZoneTimeoutsOutputReference extends cdktn.Comple
   }
 
   // read - computed: false, optional: true, required: false
-  private _read?: string;
+  private _read?: string; 
   public get read() {
     return this.getStringAttribute('read');
   }
@@ -352,7 +352,7 @@ export class DataAwsAvailabilityZone extends cdktn.TerraformDataSource {
   // ==========
 
   // all_availability_zones - computed: false, optional: true, required: false
-  private _allAvailabilityZones?: boolean | cdktn.IResolvable;
+  private _allAvailabilityZones?: boolean | cdktn.IResolvable; 
   public get allAvailabilityZones() {
     return this.getBooleanAttribute('all_availability_zones');
   }
@@ -378,7 +378,7 @@ export class DataAwsAvailabilityZone extends cdktn.TerraformDataSource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -394,7 +394,7 @@ export class DataAwsAvailabilityZone extends cdktn.TerraformDataSource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -435,7 +435,7 @@ export class DataAwsAvailabilityZone extends cdktn.TerraformDataSource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -451,7 +451,7 @@ export class DataAwsAvailabilityZone extends cdktn.TerraformDataSource {
   }
 
   // state - computed: true, optional: true, required: false
-  private _state?: string;
+  private _state?: string; 
   public get state() {
     return this.getStringAttribute('state');
   }
@@ -467,7 +467,7 @@ export class DataAwsAvailabilityZone extends cdktn.TerraformDataSource {
   }
 
   // zone_id - computed: true, optional: true, required: false
-  private _zoneId?: string;
+  private _zoneId?: string; 
   public get zoneId() {
     return this.getStringAttribute('zone_id');
   }

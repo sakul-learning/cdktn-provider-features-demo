@@ -101,7 +101,7 @@ export class SecurityhubAccount extends cdktn.TerraformResource {
   }
 
   // auto_enable_controls - computed: false, optional: true, required: false
-  private _autoEnableControls?: boolean | cdktn.IResolvable;
+  private _autoEnableControls?: boolean | cdktn.IResolvable; 
   public get autoEnableControls() {
     return this.getBooleanAttribute('auto_enable_controls');
   }
@@ -117,7 +117,7 @@ export class SecurityhubAccount extends cdktn.TerraformResource {
   }
 
   // control_finding_generator - computed: true, optional: true, required: false
-  private _controlFindingGenerator?: string;
+  private _controlFindingGenerator?: string; 
   public get controlFindingGenerator() {
     return this.getStringAttribute('control_finding_generator');
   }
@@ -133,7 +133,7 @@ export class SecurityhubAccount extends cdktn.TerraformResource {
   }
 
   // enable_default_standards - computed: false, optional: true, required: false
-  private _enableDefaultStandards?: boolean | cdktn.IResolvable;
+  private _enableDefaultStandards?: boolean | cdktn.IResolvable; 
   public get enableDefaultStandards() {
     return this.getBooleanAttribute('enable_default_standards');
   }
@@ -149,7 +149,7 @@ export class SecurityhubAccount extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -165,7 +165,7 @@ export class SecurityhubAccount extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

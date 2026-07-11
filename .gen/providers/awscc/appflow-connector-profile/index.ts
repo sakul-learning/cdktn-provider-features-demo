@@ -142,7 +142,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // api_key - computed: true, optional: true, required: false
-  private _apiKey?: string;
+  private _apiKey?: string; 
   public get apiKey() {
     return this.getStringAttribute('api_key');
   }
@@ -158,7 +158,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // secret_key - computed: true, optional: true, required: false
-  private _secretKey?: string;
+  private _secretKey?: string; 
   public get secretKey() {
     return this.getStringAttribute('secret_key');
   }
@@ -269,7 +269,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // api_key - computed: true, optional: true, required: false
-  private _apiKey?: string;
+  private _apiKey?: string; 
   public get apiKey() {
     return this.getStringAttribute('api_key');
   }
@@ -285,7 +285,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // api_secret_key - computed: true, optional: true, required: false
-  private _apiSecretKey?: string;
+  private _apiSecretKey?: string; 
   public get apiSecretKey() {
     return this.getStringAttribute('api_secret_key');
   }
@@ -396,7 +396,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // password - computed: true, optional: true, required: false
-  private _password?: string;
+  private _password?: string; 
   public get password() {
     return this.getStringAttribute('password');
   }
@@ -412,7 +412,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // username - computed: true, optional: true, required: false
-  private _username?: string;
+  private _username?: string; 
   public get username() {
     return this.getStringAttribute('username');
   }
@@ -525,7 +525,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // credentials_map - computed: true, optional: true, required: false
-  private _credentialsMap?: { [key: string]: string };
+  private _credentialsMap?: { [key: string]: string }; 
   public get credentialsMap() {
     return this.getStringMapAttribute('credentials_map');
   }
@@ -541,7 +541,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // custom_authentication_type - computed: true, optional: true, required: false
-  private _customAuthenticationType?: string;
+  private _customAuthenticationType?: string; 
   public get customAuthenticationType() {
     return this.getStringAttribute('custom_authentication_type');
   }
@@ -657,7 +657,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // auth_code - computed: true, optional: true, required: false
-  private _authCode?: string;
+  private _authCode?: string; 
   public get authCode() {
     return this.getStringAttribute('auth_code');
   }
@@ -673,7 +673,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // redirect_uri - computed: true, optional: true, required: false
-  private _redirectUri?: string;
+  private _redirectUri?: string; 
   public get redirectUri() {
     return this.getStringAttribute('redirect_uri');
   }
@@ -835,7 +835,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // access_token - computed: true, optional: true, required: false
-  private _accessToken?: string;
+  private _accessToken?: string; 
   public get accessToken() {
     return this.getStringAttribute('access_token');
   }
@@ -851,7 +851,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // client_id - computed: true, optional: true, required: false
-  private _clientId?: string;
+  private _clientId?: string; 
   public get clientId() {
     return this.getStringAttribute('client_id');
   }
@@ -867,7 +867,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // client_secret - computed: true, optional: true, required: false
-  private _clientSecret?: string;
+  private _clientSecret?: string; 
   public get clientSecret() {
     return this.getStringAttribute('client_secret');
   }
@@ -899,7 +899,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // refresh_token - computed: true, optional: true, required: false
-  private _refreshToken?: string;
+  private _refreshToken?: string; 
   public get refreshToken() {
     return this.getStringAttribute('refresh_token');
   }
@@ -1077,7 +1077,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // authentication_type - computed: true, optional: true, required: false
-  private _authenticationType?: string;
+  private _authenticationType?: string; 
   public get authenticationType() {
     return this.getStringAttribute('authentication_type');
   }
@@ -1240,7 +1240,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // api_key - computed: true, optional: true, required: false
-  private _apiKey?: string;
+  private _apiKey?: string; 
   public get apiKey() {
     return this.getStringAttribute('api_key');
   }
@@ -1256,7 +1256,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // application_key - computed: true, optional: true, required: false
-  private _applicationKey?: string;
+  private _applicationKey?: string; 
   public get applicationKey() {
     return this.getStringAttribute('application_key');
   }
@@ -1352,7 +1352,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // api_token - computed: true, optional: true, required: false
-  private _apiToken?: string;
+  private _apiToken?: string; 
   public get apiToken() {
     return this.getStringAttribute('api_token');
   }
@@ -1468,7 +1468,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // auth_code - computed: true, optional: true, required: false
-  private _authCode?: string;
+  private _authCode?: string; 
   public get authCode() {
     return this.getStringAttribute('auth_code');
   }
@@ -1484,7 +1484,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // redirect_uri - computed: true, optional: true, required: false
-  private _redirectUri?: string;
+  private _redirectUri?: string; 
   public get redirectUri() {
     return this.getStringAttribute('redirect_uri');
   }
@@ -1656,7 +1656,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // access_token - computed: true, optional: true, required: false
-  private _accessToken?: string;
+  private _accessToken?: string; 
   public get accessToken() {
     return this.getStringAttribute('access_token');
   }
@@ -1672,7 +1672,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // client_id - computed: true, optional: true, required: false
-  private _clientId?: string;
+  private _clientId?: string; 
   public get clientId() {
     return this.getStringAttribute('client_id');
   }
@@ -1688,7 +1688,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // client_secret - computed: true, optional: true, required: false
-  private _clientSecret?: string;
+  private _clientSecret?: string; 
   public get clientSecret() {
     return this.getStringAttribute('client_secret');
   }
@@ -1720,7 +1720,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // refresh_token - computed: true, optional: true, required: false
-  private _refreshToken?: string;
+  private _refreshToken?: string; 
   public get refreshToken() {
     return this.getStringAttribute('refresh_token');
   }
@@ -1873,7 +1873,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // access_key_id - computed: true, optional: true, required: false
-  private _accessKeyId?: string;
+  private _accessKeyId?: string; 
   public get accessKeyId() {
     return this.getStringAttribute('access_key_id');
   }
@@ -1889,7 +1889,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // datakey - computed: true, optional: true, required: false
-  private _datakey?: string;
+  private _datakey?: string; 
   public get datakey() {
     return this.getStringAttribute('datakey');
   }
@@ -1905,7 +1905,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // secret_access_key - computed: true, optional: true, required: false
-  private _secretAccessKey?: string;
+  private _secretAccessKey?: string; 
   public get secretAccessKey() {
     return this.getStringAttribute('secret_access_key');
   }
@@ -1921,7 +1921,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // user_id - computed: true, optional: true, required: false
-  private _userId?: string;
+  private _userId?: string; 
   public get userId() {
     return this.getStringAttribute('user_id');
   }
@@ -2037,7 +2037,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // auth_code - computed: true, optional: true, required: false
-  private _authCode?: string;
+  private _authCode?: string; 
   public get authCode() {
     return this.getStringAttribute('auth_code');
   }
@@ -2053,7 +2053,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // redirect_uri - computed: true, optional: true, required: false
-  private _redirectUri?: string;
+  private _redirectUri?: string; 
   public get redirectUri() {
     return this.getStringAttribute('redirect_uri');
   }
@@ -2206,7 +2206,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // access_token - computed: true, optional: true, required: false
-  private _accessToken?: string;
+  private _accessToken?: string; 
   public get accessToken() {
     return this.getStringAttribute('access_token');
   }
@@ -2222,7 +2222,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // client_id - computed: true, optional: true, required: false
-  private _clientId?: string;
+  private _clientId?: string; 
   public get clientId() {
     return this.getStringAttribute('client_id');
   }
@@ -2238,7 +2238,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // client_secret - computed: true, optional: true, required: false
-  private _clientSecret?: string;
+  private _clientSecret?: string; 
   public get clientSecret() {
     return this.getStringAttribute('client_secret');
   }
@@ -2370,7 +2370,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // auth_code - computed: true, optional: true, required: false
-  private _authCode?: string;
+  private _authCode?: string; 
   public get authCode() {
     return this.getStringAttribute('auth_code');
   }
@@ -2386,7 +2386,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // redirect_uri - computed: true, optional: true, required: false
-  private _redirectUri?: string;
+  private _redirectUri?: string; 
   public get redirectUri() {
     return this.getStringAttribute('redirect_uri');
   }
@@ -2539,7 +2539,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // access_token - computed: true, optional: true, required: false
-  private _accessToken?: string;
+  private _accessToken?: string; 
   public get accessToken() {
     return this.getStringAttribute('access_token');
   }
@@ -2555,7 +2555,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // client_credentials_arn - computed: true, optional: true, required: false
-  private _clientCredentialsArn?: string;
+  private _clientCredentialsArn?: string; 
   public get clientCredentialsArn() {
     return this.getStringAttribute('client_credentials_arn');
   }
@@ -2587,7 +2587,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // refresh_token - computed: true, optional: true, required: false
-  private _refreshToken?: string;
+  private _refreshToken?: string; 
   public get refreshToken() {
     return this.getStringAttribute('refresh_token');
   }
@@ -2702,7 +2702,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // password - computed: true, optional: true, required: false
-  private _password?: string;
+  private _password?: string; 
   public get password() {
     return this.getStringAttribute('password');
   }
@@ -2718,7 +2718,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // username - computed: true, optional: true, required: false
-  private _username?: string;
+  private _username?: string; 
   public get username() {
     return this.getStringAttribute('username');
   }
@@ -2834,7 +2834,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // auth_code - computed: true, optional: true, required: false
-  private _authCode?: string;
+  private _authCode?: string; 
   public get authCode() {
     return this.getStringAttribute('auth_code');
   }
@@ -2850,7 +2850,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // redirect_uri - computed: true, optional: true, required: false
-  private _redirectUri?: string;
+  private _redirectUri?: string; 
   public get redirectUri() {
     return this.getStringAttribute('redirect_uri');
   }
@@ -3003,7 +3003,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // access_token - computed: true, optional: true, required: false
-  private _accessToken?: string;
+  private _accessToken?: string; 
   public get accessToken() {
     return this.getStringAttribute('access_token');
   }
@@ -3019,7 +3019,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // client_credentials_arn - computed: true, optional: true, required: false
-  private _clientCredentialsArn?: string;
+  private _clientCredentialsArn?: string; 
   public get clientCredentialsArn() {
     return this.getStringAttribute('client_credentials_arn');
   }
@@ -3051,7 +3051,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // refresh_token - computed: true, optional: true, required: false
-  private _refreshToken?: string;
+  private _refreshToken?: string; 
   public get refreshToken() {
     return this.getStringAttribute('refresh_token');
   }
@@ -3162,7 +3162,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // password - computed: true, optional: true, required: false
-  private _password?: string;
+  private _password?: string; 
   public get password() {
     return this.getStringAttribute('password');
   }
@@ -3178,7 +3178,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // username - computed: true, optional: true, required: false
-  private _username?: string;
+  private _username?: string; 
   public get username() {
     return this.getStringAttribute('username');
   }
@@ -3294,7 +3294,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // auth_code - computed: true, optional: true, required: false
-  private _authCode?: string;
+  private _authCode?: string; 
   public get authCode() {
     return this.getStringAttribute('auth_code');
   }
@@ -3310,7 +3310,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // redirect_uri - computed: true, optional: true, required: false
-  private _redirectUri?: string;
+  private _redirectUri?: string; 
   public get redirectUri() {
     return this.getStringAttribute('redirect_uri');
   }
@@ -3472,7 +3472,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // access_token - computed: true, optional: true, required: false
-  private _accessToken?: string;
+  private _accessToken?: string; 
   public get accessToken() {
     return this.getStringAttribute('access_token');
   }
@@ -3488,7 +3488,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // client_id - computed: true, optional: true, required: false
-  private _clientId?: string;
+  private _clientId?: string; 
   public get clientId() {
     return this.getStringAttribute('client_id');
   }
@@ -3504,7 +3504,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // client_secret - computed: true, optional: true, required: false
-  private _clientSecret?: string;
+  private _clientSecret?: string; 
   public get clientSecret() {
     return this.getStringAttribute('client_secret');
   }
@@ -3536,7 +3536,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // refresh_token - computed: true, optional: true, required: false
-  private _refreshToken?: string;
+  private _refreshToken?: string; 
   public get refreshToken() {
     return this.getStringAttribute('refresh_token');
   }
@@ -3778,7 +3778,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // password - computed: true, optional: true, required: false
-  private _password?: string;
+  private _password?: string; 
   public get password() {
     return this.getStringAttribute('password');
   }
@@ -3794,7 +3794,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // username - computed: true, optional: true, required: false
-  private _username?: string;
+  private _username?: string; 
   public get username() {
     return this.getStringAttribute('username');
   }
@@ -3890,7 +3890,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // api_key - computed: true, optional: true, required: false
-  private _apiKey?: string;
+  private _apiKey?: string; 
   public get apiKey() {
     return this.getStringAttribute('api_key');
   }
@@ -4006,7 +4006,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // auth_code - computed: true, optional: true, required: false
-  private _authCode?: string;
+  private _authCode?: string; 
   public get authCode() {
     return this.getStringAttribute('auth_code');
   }
@@ -4022,7 +4022,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // redirect_uri - computed: true, optional: true, required: false
-  private _redirectUri?: string;
+  private _redirectUri?: string; 
   public get redirectUri() {
     return this.getStringAttribute('redirect_uri');
   }
@@ -4175,7 +4175,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // access_token - computed: true, optional: true, required: false
-  private _accessToken?: string;
+  private _accessToken?: string; 
   public get accessToken() {
     return this.getStringAttribute('access_token');
   }
@@ -4191,7 +4191,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // client_id - computed: true, optional: true, required: false
-  private _clientId?: string;
+  private _clientId?: string; 
   public get clientId() {
     return this.getStringAttribute('client_id');
   }
@@ -4207,7 +4207,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // client_secret - computed: true, optional: true, required: false
-  private _clientSecret?: string;
+  private _clientSecret?: string; 
   public get clientSecret() {
     return this.getStringAttribute('client_secret');
   }
@@ -4338,7 +4338,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // password - computed: true, optional: true, required: false
-  private _password?: string;
+  private _password?: string; 
   public get password() {
     return this.getStringAttribute('password');
   }
@@ -4354,7 +4354,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // username - computed: true, optional: true, required: false
-  private _username?: string;
+  private _username?: string; 
   public get username() {
     return this.getStringAttribute('username');
   }
@@ -4450,7 +4450,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // api_secret_key - computed: true, optional: true, required: false
-  private _apiSecretKey?: string;
+  private _apiSecretKey?: string; 
   public get apiSecretKey() {
     return this.getStringAttribute('api_secret_key');
   }
@@ -4565,7 +4565,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // password - computed: true, optional: true, required: false
-  private _password?: string;
+  private _password?: string; 
   public get password() {
     return this.getStringAttribute('password');
   }
@@ -4581,7 +4581,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // username - computed: true, optional: true, required: false
-  private _username?: string;
+  private _username?: string; 
   public get username() {
     return this.getStringAttribute('username');
   }
@@ -4697,7 +4697,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // auth_code - computed: true, optional: true, required: false
-  private _authCode?: string;
+  private _authCode?: string; 
   public get authCode() {
     return this.getStringAttribute('auth_code');
   }
@@ -4713,7 +4713,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // redirect_uri - computed: true, optional: true, required: false
-  private _redirectUri?: string;
+  private _redirectUri?: string; 
   public get redirectUri() {
     return this.getStringAttribute('redirect_uri');
   }
@@ -4866,7 +4866,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // access_token - computed: true, optional: true, required: false
-  private _accessToken?: string;
+  private _accessToken?: string; 
   public get accessToken() {
     return this.getStringAttribute('access_token');
   }
@@ -4882,7 +4882,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // client_id - computed: true, optional: true, required: false
-  private _clientId?: string;
+  private _clientId?: string; 
   public get clientId() {
     return this.getStringAttribute('client_id');
   }
@@ -4898,7 +4898,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileCreden
   }
 
   // client_secret - computed: true, optional: true, required: false
-  private _clientSecret?: string;
+  private _clientSecret?: string; 
   public get clientSecret() {
     return this.getStringAttribute('client_secret');
   }
@@ -5699,7 +5699,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileProper
   }
 
   // o_auth_2_grant_type - computed: true, optional: true, required: false
-  private _oAuth2GrantType?: string;
+  private _oAuth2GrantType?: string; 
   public get oAuth2GrantType() {
     return this.getStringAttribute('o_auth_2_grant_type');
   }
@@ -5715,7 +5715,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileProper
   }
 
   // token_url - computed: true, optional: true, required: false
-  private _tokenUrl?: string;
+  private _tokenUrl?: string; 
   public get tokenUrl() {
     return this.getStringAttribute('token_url');
   }
@@ -5731,7 +5731,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileProper
   }
 
   // token_url_custom_properties - computed: true, optional: true, required: false
-  private _tokenUrlCustomProperties?: { [key: string]: string };
+  private _tokenUrlCustomProperties?: { [key: string]: string }; 
   public get tokenUrlCustomProperties() {
     return this.getStringMapAttribute('token_url_custom_properties');
   }
@@ -5860,7 +5860,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileProper
   }
 
   // profile_properties - computed: true, optional: true, required: false
-  private _profileProperties?: { [key: string]: string };
+  private _profileProperties?: { [key: string]: string }; 
   public get profileProperties() {
     return this.getStringMapAttribute('profile_properties');
   }
@@ -5956,7 +5956,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileProper
   }
 
   // instance_url - computed: true, optional: true, required: false
-  private _instanceUrl?: string;
+  private _instanceUrl?: string; 
   public get instanceUrl() {
     return this.getStringAttribute('instance_url');
   }
@@ -6052,7 +6052,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileProper
   }
 
   // instance_url - computed: true, optional: true, required: false
-  private _instanceUrl?: string;
+  private _instanceUrl?: string; 
   public get instanceUrl() {
     return this.getStringAttribute('instance_url');
   }
@@ -6148,7 +6148,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileProper
   }
 
   // instance_url - computed: true, optional: true, required: false
-  private _instanceUrl?: string;
+  private _instanceUrl?: string; 
   public get instanceUrl() {
     return this.getStringAttribute('instance_url');
   }
@@ -6244,7 +6244,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileProper
   }
 
   // instance_url - computed: true, optional: true, required: false
-  private _instanceUrl?: string;
+  private _instanceUrl?: string; 
   public get instanceUrl() {
     return this.getStringAttribute('instance_url');
   }
@@ -6378,7 +6378,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileProper
   }
 
   // business_unit_id - computed: true, optional: true, required: false
-  private _businessUnitId?: string;
+  private _businessUnitId?: string; 
   public get businessUnitId() {
     return this.getStringAttribute('business_unit_id');
   }
@@ -6394,7 +6394,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileProper
   }
 
   // instance_url - computed: true, optional: true, required: false
-  private _instanceUrl?: string;
+  private _instanceUrl?: string; 
   public get instanceUrl() {
     return this.getStringAttribute('instance_url');
   }
@@ -6410,7 +6410,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileProper
   }
 
   // is_sandbox_environment - computed: true, optional: true, required: false
-  private _isSandboxEnvironment?: boolean | cdktn.IResolvable;
+  private _isSandboxEnvironment?: boolean | cdktn.IResolvable; 
   public get isSandboxEnvironment() {
     return this.getBooleanAttribute('is_sandbox_environment');
   }
@@ -6658,7 +6658,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileProper
   }
 
   // bucket_name - computed: true, optional: true, required: false
-  private _bucketName?: string;
+  private _bucketName?: string; 
   public get bucketName() {
     return this.getStringAttribute('bucket_name');
   }
@@ -6674,7 +6674,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileProper
   }
 
   // bucket_prefix - computed: true, optional: true, required: false
-  private _bucketPrefix?: string;
+  private _bucketPrefix?: string; 
   public get bucketPrefix() {
     return this.getStringAttribute('bucket_prefix');
   }
@@ -6690,7 +6690,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileProper
   }
 
   // cluster_identifier - computed: true, optional: true, required: false
-  private _clusterIdentifier?: string;
+  private _clusterIdentifier?: string; 
   public get clusterIdentifier() {
     return this.getStringAttribute('cluster_identifier');
   }
@@ -6706,7 +6706,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileProper
   }
 
   // data_api_role_arn - computed: true, optional: true, required: false
-  private _dataApiRoleArn?: string;
+  private _dataApiRoleArn?: string; 
   public get dataApiRoleArn() {
     return this.getStringAttribute('data_api_role_arn');
   }
@@ -6722,7 +6722,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileProper
   }
 
   // database_name - computed: true, optional: true, required: false
-  private _databaseName?: string;
+  private _databaseName?: string; 
   public get databaseName() {
     return this.getStringAttribute('database_name');
   }
@@ -6738,7 +6738,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileProper
   }
 
   // database_url - computed: true, optional: true, required: false
-  private _databaseUrl?: string;
+  private _databaseUrl?: string; 
   public get databaseUrl() {
     return this.getStringAttribute('database_url');
   }
@@ -6754,7 +6754,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileProper
   }
 
   // is_redshift_serverless - computed: true, optional: true, required: false
-  private _isRedshiftServerless?: boolean | cdktn.IResolvable;
+  private _isRedshiftServerless?: boolean | cdktn.IResolvable; 
   public get isRedshiftServerless() {
     return this.getBooleanAttribute('is_redshift_serverless');
   }
@@ -6770,7 +6770,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileProper
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -6786,7 +6786,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileProper
   }
 
   // workgroup_name - computed: true, optional: true, required: false
-  private _workgroupName?: string;
+  private _workgroupName?: string; 
   public get workgroupName() {
     return this.getStringAttribute('workgroup_name');
   }
@@ -6901,7 +6901,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileProper
   }
 
   // instance_url - computed: true, optional: true, required: false
-  private _instanceUrl?: string;
+  private _instanceUrl?: string; 
   public get instanceUrl() {
     return this.getStringAttribute('instance_url');
   }
@@ -6917,7 +6917,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileProper
   }
 
   // is_sandbox_environment - computed: true, optional: true, required: false
-  private _isSandboxEnvironment?: boolean | cdktn.IResolvable;
+  private _isSandboxEnvironment?: boolean | cdktn.IResolvable; 
   public get isSandboxEnvironment() {
     return this.getBooleanAttribute('is_sandbox_environment');
   }
@@ -7045,7 +7045,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileProper
   }
 
   // auth_code_url - computed: true, optional: true, required: false
-  private _authCodeUrl?: string;
+  private _authCodeUrl?: string; 
   public get authCodeUrl() {
     return this.getStringAttribute('auth_code_url');
   }
@@ -7061,7 +7061,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileProper
   }
 
   // o_auth_scopes - computed: true, optional: true, required: false
-  private _oAuthScopes?: string[];
+  private _oAuthScopes?: string[]; 
   public get oAuthScopes() {
     return this.getListAttribute('o_auth_scopes');
   }
@@ -7077,7 +7077,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileProper
   }
 
   // token_url - computed: true, optional: true, required: false
-  private _tokenUrl?: string;
+  private _tokenUrl?: string; 
   public get tokenUrl() {
     return this.getStringAttribute('token_url');
   }
@@ -7273,7 +7273,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileProper
   }
 
   // application_host_url - computed: true, optional: true, required: false
-  private _applicationHostUrl?: string;
+  private _applicationHostUrl?: string; 
   public get applicationHostUrl() {
     return this.getStringAttribute('application_host_url');
   }
@@ -7289,7 +7289,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileProper
   }
 
   // application_service_path - computed: true, optional: true, required: false
-  private _applicationServicePath?: string;
+  private _applicationServicePath?: string; 
   public get applicationServicePath() {
     return this.getStringAttribute('application_service_path');
   }
@@ -7305,7 +7305,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileProper
   }
 
   // client_number - computed: true, optional: true, required: false
-  private _clientNumber?: string;
+  private _clientNumber?: string; 
   public get clientNumber() {
     return this.getStringAttribute('client_number');
   }
@@ -7321,7 +7321,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileProper
   }
 
   // logon_language - computed: true, optional: true, required: false
-  private _logonLanguage?: string;
+  private _logonLanguage?: string; 
   public get logonLanguage() {
     return this.getStringAttribute('logon_language');
   }
@@ -7353,7 +7353,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileProper
   }
 
   // port_number - computed: true, optional: true, required: false
-  private _portNumber?: number;
+  private _portNumber?: number; 
   public get portNumber() {
     return this.getNumberAttribute('port_number');
   }
@@ -7369,7 +7369,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileProper
   }
 
   // private_link_service_name - computed: true, optional: true, required: false
-  private _privateLinkServiceName?: string;
+  private _privateLinkServiceName?: string; 
   public get privateLinkServiceName() {
     return this.getStringAttribute('private_link_service_name');
   }
@@ -7465,7 +7465,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileProper
   }
 
   // instance_url - computed: true, optional: true, required: false
-  private _instanceUrl?: string;
+  private _instanceUrl?: string; 
   public get instanceUrl() {
     return this.getStringAttribute('instance_url');
   }
@@ -7561,7 +7561,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileProper
   }
 
   // instance_url - computed: true, optional: true, required: false
-  private _instanceUrl?: string;
+  private _instanceUrl?: string; 
   public get instanceUrl() {
     return this.getStringAttribute('instance_url');
   }
@@ -7772,7 +7772,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileProper
   }
 
   // account_name - computed: true, optional: true, required: false
-  private _accountName?: string;
+  private _accountName?: string; 
   public get accountName() {
     return this.getStringAttribute('account_name');
   }
@@ -7788,7 +7788,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileProper
   }
 
   // bucket_name - computed: true, optional: true, required: false
-  private _bucketName?: string;
+  private _bucketName?: string; 
   public get bucketName() {
     return this.getStringAttribute('bucket_name');
   }
@@ -7804,7 +7804,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileProper
   }
 
   // bucket_prefix - computed: true, optional: true, required: false
-  private _bucketPrefix?: string;
+  private _bucketPrefix?: string; 
   public get bucketPrefix() {
     return this.getStringAttribute('bucket_prefix');
   }
@@ -7820,7 +7820,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileProper
   }
 
   // private_link_service_name - computed: true, optional: true, required: false
-  private _privateLinkServiceName?: string;
+  private _privateLinkServiceName?: string; 
   public get privateLinkServiceName() {
     return this.getStringAttribute('private_link_service_name');
   }
@@ -7836,7 +7836,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileProper
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -7852,7 +7852,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileProper
   }
 
   // stage - computed: true, optional: true, required: false
-  private _stage?: string;
+  private _stage?: string; 
   public get stage() {
     return this.getStringAttribute('stage');
   }
@@ -7868,7 +7868,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileProper
   }
 
   // warehouse - computed: true, optional: true, required: false
-  private _warehouse?: string;
+  private _warehouse?: string; 
   public get warehouse() {
     return this.getStringAttribute('warehouse');
   }
@@ -7964,7 +7964,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileProper
   }
 
   // instance_url - computed: true, optional: true, required: false
-  private _instanceUrl?: string;
+  private _instanceUrl?: string; 
   public get instanceUrl() {
     return this.getStringAttribute('instance_url');
   }
@@ -8060,7 +8060,7 @@ export class AppflowConnectorProfileConnectorProfileConfigConnectorProfileProper
   }
 
   // instance_url - computed: true, optional: true, required: false
-  private _instanceUrl?: string;
+  private _instanceUrl?: string; 
   public get instanceUrl() {
     return this.getStringAttribute('instance_url');
   }
@@ -8793,7 +8793,7 @@ export class AppflowConnectorProfile extends cdktn.TerraformResource {
   // ==========
 
   // connection_mode - computed: false, optional: false, required: true
-  private _connectionMode?: string;
+  private _connectionMode?: string; 
   public get connectionMode() {
     return this.getStringAttribute('connection_mode');
   }
@@ -8806,7 +8806,7 @@ export class AppflowConnectorProfile extends cdktn.TerraformResource {
   }
 
   // connector_label - computed: true, optional: true, required: false
-  private _connectorLabel?: string;
+  private _connectorLabel?: string; 
   public get connectorLabel() {
     return this.getStringAttribute('connector_label');
   }
@@ -8843,7 +8843,7 @@ export class AppflowConnectorProfile extends cdktn.TerraformResource {
   }
 
   // connector_profile_name - computed: false, optional: false, required: true
-  private _connectorProfileName?: string;
+  private _connectorProfileName?: string; 
   public get connectorProfileName() {
     return this.getStringAttribute('connector_profile_name');
   }
@@ -8856,7 +8856,7 @@ export class AppflowConnectorProfile extends cdktn.TerraformResource {
   }
 
   // connector_type - computed: false, optional: false, required: true
-  private _connectorType?: string;
+  private _connectorType?: string; 
   public get connectorType() {
     return this.getStringAttribute('connector_type');
   }
@@ -8879,7 +8879,7 @@ export class AppflowConnectorProfile extends cdktn.TerraformResource {
   }
 
   // kms_arn - computed: true, optional: true, required: false
-  private _kmsArn?: string;
+  private _kmsArn?: string; 
   public get kmsArn() {
     return this.getStringAttribute('kms_arn');
   }

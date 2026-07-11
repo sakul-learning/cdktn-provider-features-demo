@@ -251,7 +251,7 @@ export class DbProxyAuthOutputReference extends cdktn.ComplexObject {
   }
 
   // auth_scheme - computed: false, optional: true, required: false
-  private _authScheme?: string;
+  private _authScheme?: string; 
   public get authScheme() {
     return this.getStringAttribute('auth_scheme');
   }
@@ -267,7 +267,7 @@ export class DbProxyAuthOutputReference extends cdktn.ComplexObject {
   }
 
   // client_password_auth_type - computed: true, optional: true, required: false
-  private _clientPasswordAuthType?: string;
+  private _clientPasswordAuthType?: string; 
   public get clientPasswordAuthType() {
     return this.getStringAttribute('client_password_auth_type');
   }
@@ -283,7 +283,7 @@ export class DbProxyAuthOutputReference extends cdktn.ComplexObject {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -299,7 +299,7 @@ export class DbProxyAuthOutputReference extends cdktn.ComplexObject {
   }
 
   // iam_auth - computed: false, optional: true, required: false
-  private _iamAuth?: string;
+  private _iamAuth?: string; 
   public get iamAuth() {
     return this.getStringAttribute('iam_auth');
   }
@@ -315,7 +315,7 @@ export class DbProxyAuthOutputReference extends cdktn.ComplexObject {
   }
 
   // secret_arn - computed: false, optional: true, required: false
-  private _secretArn?: string;
+  private _secretArn?: string; 
   public get secretArn() {
     return this.getStringAttribute('secret_arn');
   }
@@ -331,7 +331,7 @@ export class DbProxyAuthOutputReference extends cdktn.ComplexObject {
   }
 
   // username - computed: false, optional: true, required: false
-  private _username?: string;
+  private _username?: string; 
   public get username() {
     return this.getStringAttribute('username');
   }
@@ -479,7 +479,7 @@ export class DbProxyTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -495,7 +495,7 @@ export class DbProxyTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -511,7 +511,7 @@ export class DbProxyTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -606,7 +606,7 @@ export class DbProxy extends cdktn.TerraformResource {
   }
 
   // debug_logging - computed: false, optional: true, required: false
-  private _debugLogging?: boolean | cdktn.IResolvable;
+  private _debugLogging?: boolean | cdktn.IResolvable; 
   public get debugLogging() {
     return this.getBooleanAttribute('debug_logging');
   }
@@ -622,7 +622,7 @@ export class DbProxy extends cdktn.TerraformResource {
   }
 
   // default_auth_scheme - computed: true, optional: true, required: false
-  private _defaultAuthScheme?: string;
+  private _defaultAuthScheme?: string; 
   public get defaultAuthScheme() {
     return this.getStringAttribute('default_auth_scheme');
   }
@@ -643,7 +643,7 @@ export class DbProxy extends cdktn.TerraformResource {
   }
 
   // endpoint_network_type - computed: true, optional: true, required: false
-  private _endpointNetworkType?: string;
+  private _endpointNetworkType?: string; 
   public get endpointNetworkType() {
     return this.getStringAttribute('endpoint_network_type');
   }
@@ -659,7 +659,7 @@ export class DbProxy extends cdktn.TerraformResource {
   }
 
   // engine_family - computed: false, optional: false, required: true
-  private _engineFamily?: string;
+  private _engineFamily?: string; 
   public get engineFamily() {
     return this.getStringAttribute('engine_family');
   }
@@ -672,7 +672,7 @@ export class DbProxy extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -688,7 +688,7 @@ export class DbProxy extends cdktn.TerraformResource {
   }
 
   // idle_client_timeout - computed: true, optional: true, required: false
-  private _idleClientTimeout?: number;
+  private _idleClientTimeout?: number; 
   public get idleClientTimeout() {
     return this.getNumberAttribute('idle_client_timeout');
   }
@@ -704,7 +704,7 @@ export class DbProxy extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -717,7 +717,7 @@ export class DbProxy extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -733,7 +733,7 @@ export class DbProxy extends cdktn.TerraformResource {
   }
 
   // require_tls - computed: false, optional: true, required: false
-  private _requireTls?: boolean | cdktn.IResolvable;
+  private _requireTls?: boolean | cdktn.IResolvable; 
   public get requireTls() {
     return this.getBooleanAttribute('require_tls');
   }
@@ -749,7 +749,7 @@ export class DbProxy extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -762,7 +762,7 @@ export class DbProxy extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -778,7 +778,7 @@ export class DbProxy extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -794,7 +794,7 @@ export class DbProxy extends cdktn.TerraformResource {
   }
 
   // target_connection_network_type - computed: true, optional: true, required: false
-  private _targetConnectionNetworkType?: string;
+  private _targetConnectionNetworkType?: string; 
   public get targetConnectionNetworkType() {
     return this.getStringAttribute('target_connection_network_type');
   }
@@ -810,7 +810,7 @@ export class DbProxy extends cdktn.TerraformResource {
   }
 
   // vpc_security_group_ids - computed: true, optional: true, required: false
-  private _vpcSecurityGroupIds?: string[];
+  private _vpcSecurityGroupIds?: string[]; 
   public get vpcSecurityGroupIds() {
     return cdktn.Fn.tolist(this.getListAttribute('vpc_security_group_ids'));
   }
@@ -826,7 +826,7 @@ export class DbProxy extends cdktn.TerraformResource {
   }
 
   // vpc_subnet_ids - computed: false, optional: false, required: true
-  private _vpcSubnetIds?: string[];
+  private _vpcSubnetIds?: string[]; 
   public get vpcSubnetIds() {
     return cdktn.Fn.tolist(this.getListAttribute('vpc_subnet_ids'));
   }

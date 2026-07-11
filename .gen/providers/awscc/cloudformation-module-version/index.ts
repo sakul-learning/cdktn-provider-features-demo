@@ -9,7 +9,7 @@ import * as cdktn from 'cdktn';
 export interface CloudformationModuleVersionConfig extends cdktn.TerraformMetaArguments {
   /**
   * The name of the module being registered.
-  *
+  * 
   * Recommended module naming pattern: company_or_organization::service::type::MODULE.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_module_version#module_name CloudformationModuleVersion#module_name}
@@ -107,7 +107,7 @@ export class CloudformationModuleVersion extends cdktn.TerraformResource {
   }
 
   // module_name - computed: false, optional: false, required: true
-  private _moduleName?: string;
+  private _moduleName?: string; 
   public get moduleName() {
     return this.getStringAttribute('module_name');
   }
@@ -120,7 +120,7 @@ export class CloudformationModuleVersion extends cdktn.TerraformResource {
   }
 
   // module_package - computed: false, optional: false, required: true
-  private _modulePackage?: string;
+  private _modulePackage?: string; 
   public get modulePackage() {
     return this.getStringAttribute('module_package');
   }

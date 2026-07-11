@@ -244,7 +244,7 @@ export class Ec2SecurityGroupSecurityGroupEgressOutputReference extends cdktn.Co
   }
 
   // cidr_ip - computed: true, optional: true, required: false
-  private _cidrIp?: string;
+  private _cidrIp?: string; 
   public get cidrIp() {
     return this.getStringAttribute('cidr_ip');
   }
@@ -260,7 +260,7 @@ export class Ec2SecurityGroupSecurityGroupEgressOutputReference extends cdktn.Co
   }
 
   // cidr_ipv_6 - computed: true, optional: true, required: false
-  private _cidrIpv6?: string;
+  private _cidrIpv6?: string; 
   public get cidrIpv6() {
     return this.getStringAttribute('cidr_ipv_6');
   }
@@ -276,7 +276,7 @@ export class Ec2SecurityGroupSecurityGroupEgressOutputReference extends cdktn.Co
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -292,7 +292,7 @@ export class Ec2SecurityGroupSecurityGroupEgressOutputReference extends cdktn.Co
   }
 
   // destination_prefix_list_id - computed: true, optional: true, required: false
-  private _destinationPrefixListId?: string;
+  private _destinationPrefixListId?: string; 
   public get destinationPrefixListId() {
     return this.getStringAttribute('destination_prefix_list_id');
   }
@@ -308,7 +308,7 @@ export class Ec2SecurityGroupSecurityGroupEgressOutputReference extends cdktn.Co
   }
 
   // destination_security_group_id - computed: true, optional: true, required: false
-  private _destinationSecurityGroupId?: string;
+  private _destinationSecurityGroupId?: string; 
   public get destinationSecurityGroupId() {
     return this.getStringAttribute('destination_security_group_id');
   }
@@ -324,7 +324,7 @@ export class Ec2SecurityGroupSecurityGroupEgressOutputReference extends cdktn.Co
   }
 
   // from_port - computed: true, optional: true, required: false
-  private _fromPort?: number;
+  private _fromPort?: number; 
   public get fromPort() {
     return this.getNumberAttribute('from_port');
   }
@@ -340,7 +340,7 @@ export class Ec2SecurityGroupSecurityGroupEgressOutputReference extends cdktn.Co
   }
 
   // ip_protocol - computed: true, optional: true, required: false
-  private _ipProtocol?: string;
+  private _ipProtocol?: string; 
   public get ipProtocol() {
     return this.getStringAttribute('ip_protocol');
   }
@@ -356,7 +356,7 @@ export class Ec2SecurityGroupSecurityGroupEgressOutputReference extends cdktn.Co
   }
 
   // to_port - computed: true, optional: true, required: false
-  private _toPort?: number;
+  private _toPort?: number; 
   public get toPort() {
     return this.getNumberAttribute('to_port');
   }
@@ -625,7 +625,7 @@ export class Ec2SecurityGroupSecurityGroupIngressOutputReference extends cdktn.C
   }
 
   // cidr_ip - computed: true, optional: true, required: false
-  private _cidrIp?: string;
+  private _cidrIp?: string; 
   public get cidrIp() {
     return this.getStringAttribute('cidr_ip');
   }
@@ -641,7 +641,7 @@ export class Ec2SecurityGroupSecurityGroupIngressOutputReference extends cdktn.C
   }
 
   // cidr_ipv_6 - computed: true, optional: true, required: false
-  private _cidrIpv6?: string;
+  private _cidrIpv6?: string; 
   public get cidrIpv6() {
     return this.getStringAttribute('cidr_ipv_6');
   }
@@ -657,7 +657,7 @@ export class Ec2SecurityGroupSecurityGroupIngressOutputReference extends cdktn.C
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -673,7 +673,7 @@ export class Ec2SecurityGroupSecurityGroupIngressOutputReference extends cdktn.C
   }
 
   // from_port - computed: true, optional: true, required: false
-  private _fromPort?: number;
+  private _fromPort?: number; 
   public get fromPort() {
     return this.getNumberAttribute('from_port');
   }
@@ -689,7 +689,7 @@ export class Ec2SecurityGroupSecurityGroupIngressOutputReference extends cdktn.C
   }
 
   // ip_protocol - computed: true, optional: true, required: false
-  private _ipProtocol?: string;
+  private _ipProtocol?: string; 
   public get ipProtocol() {
     return this.getStringAttribute('ip_protocol');
   }
@@ -705,7 +705,7 @@ export class Ec2SecurityGroupSecurityGroupIngressOutputReference extends cdktn.C
   }
 
   // source_prefix_list_id - computed: true, optional: true, required: false
-  private _sourcePrefixListId?: string;
+  private _sourcePrefixListId?: string; 
   public get sourcePrefixListId() {
     return this.getStringAttribute('source_prefix_list_id');
   }
@@ -721,7 +721,7 @@ export class Ec2SecurityGroupSecurityGroupIngressOutputReference extends cdktn.C
   }
 
   // source_security_group_id - computed: true, optional: true, required: false
-  private _sourceSecurityGroupId?: string;
+  private _sourceSecurityGroupId?: string; 
   public get sourceSecurityGroupId() {
     return this.getStringAttribute('source_security_group_id');
   }
@@ -737,7 +737,7 @@ export class Ec2SecurityGroupSecurityGroupIngressOutputReference extends cdktn.C
   }
 
   // source_security_group_name - computed: true, optional: true, required: false
-  private _sourceSecurityGroupName?: string;
+  private _sourceSecurityGroupName?: string; 
   public get sourceSecurityGroupName() {
     return this.getStringAttribute('source_security_group_name');
   }
@@ -753,7 +753,7 @@ export class Ec2SecurityGroupSecurityGroupIngressOutputReference extends cdktn.C
   }
 
   // source_security_group_owner_id - computed: true, optional: true, required: false
-  private _sourceSecurityGroupOwnerId?: string;
+  private _sourceSecurityGroupOwnerId?: string; 
   public get sourceSecurityGroupOwnerId() {
     return this.getStringAttribute('source_security_group_owner_id');
   }
@@ -769,7 +769,7 @@ export class Ec2SecurityGroupSecurityGroupIngressOutputReference extends cdktn.C
   }
 
   // to_port - computed: true, optional: true, required: false
-  private _toPort?: number;
+  private _toPort?: number; 
   public get toPort() {
     return this.getNumberAttribute('to_port');
   }
@@ -902,7 +902,7 @@ export class Ec2SecurityGroupTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -918,7 +918,7 @@ export class Ec2SecurityGroupTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1017,7 +1017,7 @@ export class Ec2SecurityGroup extends cdktn.TerraformResource {
   // ==========
 
   // group_description - computed: false, optional: false, required: true
-  private _groupDescription?: string;
+  private _groupDescription?: string; 
   public get groupDescription() {
     return this.getStringAttribute('group_description');
   }
@@ -1035,7 +1035,7 @@ export class Ec2SecurityGroup extends cdktn.TerraformResource {
   }
 
   // group_name - computed: true, optional: true, required: false
-  private _groupName?: string;
+  private _groupName?: string; 
   public get groupName() {
     return this.getStringAttribute('group_name');
   }
@@ -1109,7 +1109,7 @@ export class Ec2SecurityGroup extends cdktn.TerraformResource {
   }
 
   // vpc_id - computed: true, optional: true, required: false
-  private _vpcId?: string;
+  private _vpcId?: string; 
   public get vpcId() {
     return this.getStringAttribute('vpc_id');
   }

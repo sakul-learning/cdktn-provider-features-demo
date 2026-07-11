@@ -173,7 +173,7 @@ export class OdbNetworkPeeringConnectionTimeoutsOutputReference extends cdktn.Co
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -189,7 +189,7 @@ export class OdbNetworkPeeringConnectionTimeoutsOutputReference extends cdktn.Co
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -205,7 +205,7 @@ export class OdbNetworkPeeringConnectionTimeoutsOutputReference extends cdktn.Co
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -296,7 +296,7 @@ export class OdbNetworkPeeringConnection extends cdktn.TerraformResource {
   }
 
   // display_name - computed: false, optional: false, required: true
-  private _displayName?: string;
+  private _displayName?: string; 
   public get displayName() {
     return this.getStringAttribute('display_name');
   }
@@ -314,7 +314,7 @@ export class OdbNetworkPeeringConnection extends cdktn.TerraformResource {
   }
 
   // odb_network_arn - computed: true, optional: true, required: false
-  private _odbNetworkArn?: string;
+  private _odbNetworkArn?: string; 
   public get odbNetworkArn() {
     return this.getStringAttribute('odb_network_arn');
   }
@@ -330,7 +330,7 @@ export class OdbNetworkPeeringConnection extends cdktn.TerraformResource {
   }
 
   // odb_network_id - computed: true, optional: true, required: false
-  private _odbNetworkId?: string;
+  private _odbNetworkId?: string; 
   public get odbNetworkId() {
     return this.getStringAttribute('odb_network_id');
   }
@@ -356,7 +356,7 @@ export class OdbNetworkPeeringConnection extends cdktn.TerraformResource {
   }
 
   // peer_network_cidrs - computed: true, optional: true, required: false
-  private _peerNetworkCidrs?: string[];
+  private _peerNetworkCidrs?: string[]; 
   public get peerNetworkCidrs() {
     return cdktn.Fn.tolist(this.getListAttribute('peer_network_cidrs'));
   }
@@ -372,7 +372,7 @@ export class OdbNetworkPeeringConnection extends cdktn.TerraformResource {
   }
 
   // peer_network_id - computed: false, optional: false, required: true
-  private _peerNetworkId?: string;
+  private _peerNetworkId?: string; 
   public get peerNetworkId() {
     return this.getStringAttribute('peer_network_id');
   }
@@ -390,7 +390,7 @@ export class OdbNetworkPeeringConnection extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -416,7 +416,7 @@ export class OdbNetworkPeeringConnection extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

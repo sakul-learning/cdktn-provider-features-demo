@@ -131,7 +131,7 @@ export class MqConfiguration extends cdktn.TerraformResource {
   }
 
   // authentication_strategy - computed: true, optional: true, required: false
-  private _authenticationStrategy?: string;
+  private _authenticationStrategy?: string; 
   public get authenticationStrategy() {
     return this.getStringAttribute('authentication_strategy');
   }
@@ -147,7 +147,7 @@ export class MqConfiguration extends cdktn.TerraformResource {
   }
 
   // data - computed: false, optional: false, required: true
-  private _data?: string;
+  private _data?: string; 
   public get data() {
     return this.getStringAttribute('data');
   }
@@ -160,7 +160,7 @@ export class MqConfiguration extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -176,7 +176,7 @@ export class MqConfiguration extends cdktn.TerraformResource {
   }
 
   // engine_type - computed: false, optional: false, required: true
-  private _engineType?: string;
+  private _engineType?: string; 
   public get engineType() {
     return this.getStringAttribute('engine_type');
   }
@@ -189,7 +189,7 @@ export class MqConfiguration extends cdktn.TerraformResource {
   }
 
   // engine_version - computed: false, optional: false, required: true
-  private _engineVersion?: string;
+  private _engineVersion?: string; 
   public get engineVersion() {
     return this.getStringAttribute('engine_version');
   }
@@ -202,7 +202,7 @@ export class MqConfiguration extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -223,7 +223,7 @@ export class MqConfiguration extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -236,7 +236,7 @@ export class MqConfiguration extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -252,7 +252,7 @@ export class MqConfiguration extends cdktn.TerraformResource {
   }
 
   // skip_destroy - computed: false, optional: true, required: false
-  private _skipDestroy?: boolean | cdktn.IResolvable;
+  private _skipDestroy?: boolean | cdktn.IResolvable; 
   public get skipDestroy() {
     return this.getBooleanAttribute('skip_destroy');
   }
@@ -268,7 +268,7 @@ export class MqConfiguration extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -284,7 +284,7 @@ export class MqConfiguration extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

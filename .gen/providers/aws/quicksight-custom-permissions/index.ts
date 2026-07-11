@@ -487,7 +487,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // add_or_run_anomaly_detection_for_analyses - computed: false, optional: true, required: false
-  private _addOrRunAnomalyDetectionForAnalyses?: string;
+  private _addOrRunAnomalyDetectionForAnalyses?: string; 
   public get addOrRunAnomalyDetectionForAnalyses() {
     return this.getStringAttribute('add_or_run_anomaly_detection_for_analyses');
   }
@@ -503,7 +503,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // create_and_update_dashboard_email_reports - computed: false, optional: true, required: false
-  private _createAndUpdateDashboardEmailReports?: string;
+  private _createAndUpdateDashboardEmailReports?: string; 
   public get createAndUpdateDashboardEmailReports() {
     return this.getStringAttribute('create_and_update_dashboard_email_reports');
   }
@@ -519,7 +519,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // create_and_update_data_sources - computed: false, optional: true, required: false
-  private _createAndUpdateDataSources?: string;
+  private _createAndUpdateDataSources?: string; 
   public get createAndUpdateDataSources() {
     return this.getStringAttribute('create_and_update_data_sources');
   }
@@ -535,7 +535,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // create_and_update_datasets - computed: false, optional: true, required: false
-  private _createAndUpdateDatasets?: string;
+  private _createAndUpdateDatasets?: string; 
   public get createAndUpdateDatasets() {
     return this.getStringAttribute('create_and_update_datasets');
   }
@@ -551,7 +551,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // create_and_update_themes - computed: false, optional: true, required: false
-  private _createAndUpdateThemes?: string;
+  private _createAndUpdateThemes?: string; 
   public get createAndUpdateThemes() {
     return this.getStringAttribute('create_and_update_themes');
   }
@@ -567,7 +567,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // create_and_update_threshold_alerts - computed: false, optional: true, required: false
-  private _createAndUpdateThresholdAlerts?: string;
+  private _createAndUpdateThresholdAlerts?: string; 
   public get createAndUpdateThresholdAlerts() {
     return this.getStringAttribute('create_and_update_threshold_alerts');
   }
@@ -583,7 +583,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // create_shared_folders - computed: false, optional: true, required: false
-  private _createSharedFolders?: string;
+  private _createSharedFolders?: string; 
   public get createSharedFolders() {
     return this.getStringAttribute('create_shared_folders');
   }
@@ -599,7 +599,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // create_spice_dataset - computed: false, optional: true, required: false
-  private _createSpiceDataset?: string;
+  private _createSpiceDataset?: string; 
   public get createSpiceDataset() {
     return this.getStringAttribute('create_spice_dataset');
   }
@@ -615,7 +615,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // export_to_csv - computed: false, optional: true, required: false
-  private _exportToCsv?: string;
+  private _exportToCsv?: string; 
   public get exportToCsv() {
     return this.getStringAttribute('export_to_csv');
   }
@@ -631,7 +631,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // export_to_csv_in_scheduled_reports - computed: false, optional: true, required: false
-  private _exportToCsvInScheduledReports?: string;
+  private _exportToCsvInScheduledReports?: string; 
   public get exportToCsvInScheduledReports() {
     return this.getStringAttribute('export_to_csv_in_scheduled_reports');
   }
@@ -647,7 +647,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // export_to_excel - computed: false, optional: true, required: false
-  private _exportToExcel?: string;
+  private _exportToExcel?: string; 
   public get exportToExcel() {
     return this.getStringAttribute('export_to_excel');
   }
@@ -663,7 +663,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // export_to_excel_in_scheduled_reports - computed: false, optional: true, required: false
-  private _exportToExcelInScheduledReports?: string;
+  private _exportToExcelInScheduledReports?: string; 
   public get exportToExcelInScheduledReports() {
     return this.getStringAttribute('export_to_excel_in_scheduled_reports');
   }
@@ -679,7 +679,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // export_to_pdf - computed: false, optional: true, required: false
-  private _exportToPdf?: string;
+  private _exportToPdf?: string; 
   public get exportToPdf() {
     return this.getStringAttribute('export_to_pdf');
   }
@@ -695,7 +695,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // export_to_pdf_in_scheduled_reports - computed: false, optional: true, required: false
-  private _exportToPdfInScheduledReports?: string;
+  private _exportToPdfInScheduledReports?: string; 
   public get exportToPdfInScheduledReports() {
     return this.getStringAttribute('export_to_pdf_in_scheduled_reports');
   }
@@ -711,7 +711,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // include_content_in_scheduled_reports_email - computed: false, optional: true, required: false
-  private _includeContentInScheduledReportsEmail?: string;
+  private _includeContentInScheduledReportsEmail?: string; 
   public get includeContentInScheduledReportsEmail() {
     return this.getStringAttribute('include_content_in_scheduled_reports_email');
   }
@@ -727,7 +727,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // print_reports - computed: false, optional: true, required: false
-  private _printReports?: string;
+  private _printReports?: string; 
   public get printReports() {
     return this.getStringAttribute('print_reports');
   }
@@ -743,7 +743,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // rename_shared_folders - computed: false, optional: true, required: false
-  private _renameSharedFolders?: string;
+  private _renameSharedFolders?: string; 
   public get renameSharedFolders() {
     return this.getStringAttribute('rename_shared_folders');
   }
@@ -759,7 +759,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // share_analyses - computed: false, optional: true, required: false
-  private _shareAnalyses?: string;
+  private _shareAnalyses?: string; 
   public get shareAnalyses() {
     return this.getStringAttribute('share_analyses');
   }
@@ -775,7 +775,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // share_dashboards - computed: false, optional: true, required: false
-  private _shareDashboards?: string;
+  private _shareDashboards?: string; 
   public get shareDashboards() {
     return this.getStringAttribute('share_dashboards');
   }
@@ -791,7 +791,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // share_data_sources - computed: false, optional: true, required: false
-  private _shareDataSources?: string;
+  private _shareDataSources?: string; 
   public get shareDataSources() {
     return this.getStringAttribute('share_data_sources');
   }
@@ -807,7 +807,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // share_datasets - computed: false, optional: true, required: false
-  private _shareDatasets?: string;
+  private _shareDatasets?: string; 
   public get shareDatasets() {
     return this.getStringAttribute('share_datasets');
   }
@@ -823,7 +823,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // subscribe_dashboard_email_reports - computed: false, optional: true, required: false
-  private _subscribeDashboardEmailReports?: string;
+  private _subscribeDashboardEmailReports?: string; 
   public get subscribeDashboardEmailReports() {
     return this.getStringAttribute('subscribe_dashboard_email_reports');
   }
@@ -839,7 +839,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // view_account_spice_capacity - computed: false, optional: true, required: false
-  private _viewAccountSpiceCapacity?: string;
+  private _viewAccountSpiceCapacity?: string; 
   public get viewAccountSpiceCapacity() {
     return this.getStringAttribute('view_account_spice_capacity');
   }
@@ -942,7 +942,7 @@ export class QuicksightCustomPermissions extends cdktn.TerraformResource {
   }
 
   // aws_account_id - computed: true, optional: true, required: false
-  private _awsAccountId?: string;
+  private _awsAccountId?: string; 
   public get awsAccountId() {
     return this.getStringAttribute('aws_account_id');
   }
@@ -958,7 +958,7 @@ export class QuicksightCustomPermissions extends cdktn.TerraformResource {
   }
 
   // custom_permissions_name - computed: false, optional: false, required: true
-  private _customPermissionsName?: string;
+  private _customPermissionsName?: string; 
   public get customPermissionsName() {
     return this.getStringAttribute('custom_permissions_name');
   }
@@ -971,7 +971,7 @@ export class QuicksightCustomPermissions extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -987,7 +987,7 @@ export class QuicksightCustomPermissions extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

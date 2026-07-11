@@ -85,7 +85,7 @@ export class Route53ResolverResolverConfig extends cdktn.TerraformResource {
   }
 
   // autodefined_reverse_flag - computed: false, optional: false, required: true
-  private _autodefinedReverseFlag?: string;
+  private _autodefinedReverseFlag?: string; 
   public get autodefinedReverseFlag() {
     return this.getStringAttribute('autodefined_reverse_flag');
   }
@@ -113,7 +113,7 @@ export class Route53ResolverResolverConfig extends cdktn.TerraformResource {
   }
 
   // resource_id - computed: false, optional: false, required: true
-  private _resourceId?: string;
+  private _resourceId?: string; 
   public get resourceId() {
     return this.getStringAttribute('resource_id');
   }

@@ -170,7 +170,7 @@ export class OrganizationsAccountTimeoutsOutputReference extends cdktn.ComplexOb
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -186,7 +186,7 @@ export class OrganizationsAccountTimeoutsOutputReference extends cdktn.ComplexOb
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -202,7 +202,7 @@ export class OrganizationsAccountTimeoutsOutputReference extends cdktn.ComplexOb
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -291,7 +291,7 @@ export class OrganizationsAccount extends cdktn.TerraformResource {
   }
 
   // close_on_deletion - computed: false, optional: true, required: false
-  private _closeOnDeletion?: boolean | cdktn.IResolvable;
+  private _closeOnDeletion?: boolean | cdktn.IResolvable; 
   public get closeOnDeletion() {
     return this.getBooleanAttribute('close_on_deletion');
   }
@@ -307,7 +307,7 @@ export class OrganizationsAccount extends cdktn.TerraformResource {
   }
 
   // create_govcloud - computed: false, optional: true, required: false
-  private _createGovcloud?: boolean | cdktn.IResolvable;
+  private _createGovcloud?: boolean | cdktn.IResolvable; 
   public get createGovcloud() {
     return this.getBooleanAttribute('create_govcloud');
   }
@@ -323,7 +323,7 @@ export class OrganizationsAccount extends cdktn.TerraformResource {
   }
 
   // email - computed: false, optional: false, required: true
-  private _email?: string;
+  private _email?: string; 
   public get email() {
     return this.getStringAttribute('email');
   }
@@ -341,7 +341,7 @@ export class OrganizationsAccount extends cdktn.TerraformResource {
   }
 
   // iam_user_access_to_billing - computed: false, optional: true, required: false
-  private _iamUserAccessToBilling?: string;
+  private _iamUserAccessToBilling?: string; 
   public get iamUserAccessToBilling() {
     return this.getStringAttribute('iam_user_access_to_billing');
   }
@@ -357,7 +357,7 @@ export class OrganizationsAccount extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -383,7 +383,7 @@ export class OrganizationsAccount extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -396,7 +396,7 @@ export class OrganizationsAccount extends cdktn.TerraformResource {
   }
 
   // parent_id - computed: true, optional: true, required: false
-  private _parentId?: string;
+  private _parentId?: string; 
   public get parentId() {
     return this.getStringAttribute('parent_id');
   }
@@ -412,7 +412,7 @@ export class OrganizationsAccount extends cdktn.TerraformResource {
   }
 
   // role_name - computed: false, optional: true, required: false
-  private _roleName?: string;
+  private _roleName?: string; 
   public get roleName() {
     return this.getStringAttribute('role_name');
   }
@@ -438,7 +438,7 @@ export class OrganizationsAccount extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -454,7 +454,7 @@ export class OrganizationsAccount extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

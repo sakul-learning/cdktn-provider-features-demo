@@ -182,7 +182,7 @@ export class ServicecatalogServiceActionDefinitionOutputReference extends cdktn.
   }
 
   // assume_role - computed: false, optional: true, required: false
-  private _assumeRole?: string;
+  private _assumeRole?: string; 
   public get assumeRole() {
     return this.getStringAttribute('assume_role');
   }
@@ -198,7 +198,7 @@ export class ServicecatalogServiceActionDefinitionOutputReference extends cdktn.
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -211,7 +211,7 @@ export class ServicecatalogServiceActionDefinitionOutputReference extends cdktn.
   }
 
   // parameters - computed: false, optional: true, required: false
-  private _parameters?: string;
+  private _parameters?: string; 
   public get parameters() {
     return this.getStringAttribute('parameters');
   }
@@ -227,7 +227,7 @@ export class ServicecatalogServiceActionDefinitionOutputReference extends cdktn.
   }
 
   // type - computed: false, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -243,7 +243,7 @@ export class ServicecatalogServiceActionDefinitionOutputReference extends cdktn.
   }
 
   // version - computed: false, optional: false, required: true
-  private _version?: string;
+  private _version?: string; 
   public get version() {
     return this.getStringAttribute('version');
   }
@@ -385,7 +385,7 @@ export class ServicecatalogServiceActionTimeoutsOutputReference extends cdktn.Co
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -401,7 +401,7 @@ export class ServicecatalogServiceActionTimeoutsOutputReference extends cdktn.Co
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -417,7 +417,7 @@ export class ServicecatalogServiceActionTimeoutsOutputReference extends cdktn.Co
   }
 
   // read - computed: false, optional: true, required: false
-  private _read?: string;
+  private _read?: string; 
   public get read() {
     return this.getStringAttribute('read');
   }
@@ -433,7 +433,7 @@ export class ServicecatalogServiceActionTimeoutsOutputReference extends cdktn.Co
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -513,7 +513,7 @@ export class ServicecatalogServiceAction extends cdktn.TerraformResource {
   // ==========
 
   // accept_language - computed: false, optional: true, required: false
-  private _acceptLanguage?: string;
+  private _acceptLanguage?: string; 
   public get acceptLanguage() {
     return this.getStringAttribute('accept_language');
   }
@@ -529,7 +529,7 @@ export class ServicecatalogServiceAction extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -545,7 +545,7 @@ export class ServicecatalogServiceAction extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -561,7 +561,7 @@ export class ServicecatalogServiceAction extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -574,7 +574,7 @@ export class ServicecatalogServiceAction extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

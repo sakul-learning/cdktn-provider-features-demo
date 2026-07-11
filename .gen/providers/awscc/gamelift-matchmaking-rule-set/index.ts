@@ -128,7 +128,7 @@ export class GameliftMatchmakingRuleSetTagsOutputReference extends cdktn.Complex
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -144,7 +144,7 @@ export class GameliftMatchmakingRuleSetTagsOutputReference extends cdktn.Complex
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -255,7 +255,7 @@ export class GameliftMatchmakingRuleSet extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -268,7 +268,7 @@ export class GameliftMatchmakingRuleSet extends cdktn.TerraformResource {
   }
 
   // rule_set_body - computed: false, optional: false, required: true
-  private _ruleSetBody?: string;
+  private _ruleSetBody?: string; 
   public get ruleSetBody() {
     return this.getStringAttribute('rule_set_body');
   }

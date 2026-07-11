@@ -147,7 +147,7 @@ export class Ec2TransitGatewayDefaultRouteTableAssociationTimeoutsOutputReferenc
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -163,7 +163,7 @@ export class Ec2TransitGatewayDefaultRouteTableAssociationTimeoutsOutputReferenc
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -179,7 +179,7 @@ export class Ec2TransitGatewayDefaultRouteTableAssociationTimeoutsOutputReferenc
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -266,7 +266,7 @@ export class Ec2TransitGatewayDefaultRouteTableAssociation extends cdktn.Terrafo
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -282,7 +282,7 @@ export class Ec2TransitGatewayDefaultRouteTableAssociation extends cdktn.Terrafo
   }
 
   // transit_gateway_id - computed: false, optional: false, required: true
-  private _transitGatewayId?: string;
+  private _transitGatewayId?: string; 
   public get transitGatewayId() {
     return this.getStringAttribute('transit_gateway_id');
   }
@@ -295,7 +295,7 @@ export class Ec2TransitGatewayDefaultRouteTableAssociation extends cdktn.Terrafo
   }
 
   // transit_gateway_route_table_id - computed: false, optional: false, required: true
-  private _transitGatewayRouteTableId?: string;
+  private _transitGatewayRouteTableId?: string; 
   public get transitGatewayRouteTableId() {
     return this.getStringAttribute('transit_gateway_route_table_id');
   }

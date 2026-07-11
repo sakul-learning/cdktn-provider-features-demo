@@ -132,7 +132,7 @@ export class WorkspaceswebIpAccessSettingsIpRulesOutputReference extends cdktn.C
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -148,7 +148,7 @@ export class WorkspaceswebIpAccessSettingsIpRulesOutputReference extends cdktn.C
   }
 
   // ip_range - computed: false, optional: false, required: true
-  private _ipRange?: string;
+  private _ipRange?: string; 
   public get ipRange() {
     return this.getStringAttribute('ip_range');
   }
@@ -278,7 +278,7 @@ export class WorkspaceswebIpAccessSettingsTagsOutputReference extends cdktn.Comp
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -294,7 +294,7 @@ export class WorkspaceswebIpAccessSettingsTagsOutputReference extends cdktn.Comp
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -393,7 +393,7 @@ export class WorkspaceswebIpAccessSettings extends cdktn.TerraformResource {
   // ==========
 
   // additional_encryption_context - computed: true, optional: true, required: false
-  private _additionalEncryptionContext?: { [key: string]: string };
+  private _additionalEncryptionContext?: { [key: string]: string }; 
   public get additionalEncryptionContext() {
     return this.getStringMapAttribute('additional_encryption_context');
   }
@@ -419,7 +419,7 @@ export class WorkspaceswebIpAccessSettings extends cdktn.TerraformResource {
   }
 
   // customer_managed_key - computed: true, optional: true, required: false
-  private _customerManagedKey?: string;
+  private _customerManagedKey?: string; 
   public get customerManagedKey() {
     return this.getStringAttribute('customer_managed_key');
   }
@@ -435,7 +435,7 @@ export class WorkspaceswebIpAccessSettings extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -451,7 +451,7 @@ export class WorkspaceswebIpAccessSettings extends cdktn.TerraformResource {
   }
 
   // display_name - computed: true, optional: true, required: false
-  private _displayName?: string;
+  private _displayName?: string; 
   public get displayName() {
     return this.getStringAttribute('display_name');
   }

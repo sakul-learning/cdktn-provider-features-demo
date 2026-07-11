@@ -118,7 +118,7 @@ export class CloudfrontOriginRequestPolicyOriginRequestPolicyConfigCookiesConfig
   }
 
   // cookie_behavior - computed: false, optional: false, required: true
-  private _cookieBehavior?: string;
+  private _cookieBehavior?: string; 
   public get cookieBehavior() {
     return this.getStringAttribute('cookie_behavior');
   }
@@ -131,7 +131,7 @@ export class CloudfrontOriginRequestPolicyOriginRequestPolicyConfigCookiesConfig
   }
 
   // cookies - computed: true, optional: true, required: false
-  private _cookies?: string[];
+  private _cookies?: string[]; 
   public get cookies() {
     return this.getListAttribute('cookies');
   }
@@ -251,7 +251,7 @@ export class CloudfrontOriginRequestPolicyOriginRequestPolicyConfigHeadersConfig
   }
 
   // header_behavior - computed: false, optional: false, required: true
-  private _headerBehavior?: string;
+  private _headerBehavior?: string; 
   public get headerBehavior() {
     return this.getStringAttribute('header_behavior');
   }
@@ -264,7 +264,7 @@ export class CloudfrontOriginRequestPolicyOriginRequestPolicyConfigHeadersConfig
   }
 
   // headers - computed: true, optional: true, required: false
-  private _headers?: string[];
+  private _headers?: string[]; 
   public get headers() {
     return this.getListAttribute('headers');
   }
@@ -383,7 +383,7 @@ export class CloudfrontOriginRequestPolicyOriginRequestPolicyConfigQueryStringsC
   }
 
   // query_string_behavior - computed: false, optional: false, required: true
-  private _queryStringBehavior?: string;
+  private _queryStringBehavior?: string; 
   public get queryStringBehavior() {
     return this.getStringAttribute('query_string_behavior');
   }
@@ -396,7 +396,7 @@ export class CloudfrontOriginRequestPolicyOriginRequestPolicyConfigQueryStringsC
   }
 
   // query_strings - computed: true, optional: true, required: false
-  private _queryStrings?: string[];
+  private _queryStrings?: string[]; 
   public get queryStrings() {
     return this.getListAttribute('query_strings');
   }
@@ -568,7 +568,7 @@ export class CloudfrontOriginRequestPolicyOriginRequestPolicyConfigOutputReferen
   }
 
   // comment - computed: true, optional: true, required: false
-  private _comment?: string;
+  private _comment?: string; 
   public get comment() {
     return this.getStringAttribute('comment');
   }
@@ -610,7 +610,7 @@ export class CloudfrontOriginRequestPolicyOriginRequestPolicyConfigOutputReferen
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }

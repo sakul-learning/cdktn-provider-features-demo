@@ -107,7 +107,7 @@ export class CloudfrontAnycastIpListTimeoutsOutputReference extends cdktn.Comple
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -204,7 +204,7 @@ export class CloudfrontAnycastIpList extends cdktn.TerraformResource {
   }
 
   // ip_count - computed: false, optional: false, required: true
-  private _ipCount?: number;
+  private _ipCount?: number; 
   public get ipCount() {
     return this.getNumberAttribute('ip_count');
   }
@@ -217,7 +217,7 @@ export class CloudfrontAnycastIpList extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -230,7 +230,7 @@ export class CloudfrontAnycastIpList extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

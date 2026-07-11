@@ -160,7 +160,7 @@ export class KendraIndexCapacityUnitsOutputReference extends cdktn.ComplexObject
   }
 
   // query_capacity_units - computed: true, optional: true, required: false
-  private _queryCapacityUnits?: number;
+  private _queryCapacityUnits?: number; 
   public get queryCapacityUnits() {
     return this.getNumberAttribute('query_capacity_units');
   }
@@ -176,7 +176,7 @@ export class KendraIndexCapacityUnitsOutputReference extends cdktn.ComplexObject
   }
 
   // storage_capacity_units - computed: true, optional: true, required: false
-  private _storageCapacityUnits?: number;
+  private _storageCapacityUnits?: number; 
   public get storageCapacityUnits() {
     return this.getNumberAttribute('storage_capacity_units');
   }
@@ -289,7 +289,7 @@ export class KendraIndexDocumentMetadataConfigurationsRelevanceValueImportanceIt
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -305,7 +305,7 @@ export class KendraIndexDocumentMetadataConfigurationsRelevanceValueImportanceIt
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: number;
+  private _value?: number; 
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -487,7 +487,7 @@ export class KendraIndexDocumentMetadataConfigurationsRelevanceOutputReference e
   }
 
   // duration - computed: true, optional: true, required: false
-  private _duration?: string;
+  private _duration?: string; 
   public get duration() {
     return this.getStringAttribute('duration');
   }
@@ -503,7 +503,7 @@ export class KendraIndexDocumentMetadataConfigurationsRelevanceOutputReference e
   }
 
   // freshness - computed: true, optional: true, required: false
-  private _freshness?: boolean | cdktn.IResolvable;
+  private _freshness?: boolean | cdktn.IResolvable; 
   public get freshness() {
     return this.getBooleanAttribute('freshness');
   }
@@ -519,7 +519,7 @@ export class KendraIndexDocumentMetadataConfigurationsRelevanceOutputReference e
   }
 
   // importance - computed: true, optional: true, required: false
-  private _importance?: number;
+  private _importance?: number; 
   public get importance() {
     return this.getNumberAttribute('importance');
   }
@@ -535,7 +535,7 @@ export class KendraIndexDocumentMetadataConfigurationsRelevanceOutputReference e
   }
 
   // rank_order - computed: true, optional: true, required: false
-  private _rankOrder?: string;
+  private _rankOrder?: string; 
   public get rankOrder() {
     return this.getStringAttribute('rank_order');
   }
@@ -696,7 +696,7 @@ export class KendraIndexDocumentMetadataConfigurationsSearchOutputReference exte
   }
 
   // displayable - computed: true, optional: true, required: false
-  private _displayable?: boolean | cdktn.IResolvable;
+  private _displayable?: boolean | cdktn.IResolvable; 
   public get displayable() {
     return this.getBooleanAttribute('displayable');
   }
@@ -712,7 +712,7 @@ export class KendraIndexDocumentMetadataConfigurationsSearchOutputReference exte
   }
 
   // facetable - computed: true, optional: true, required: false
-  private _facetable?: boolean | cdktn.IResolvable;
+  private _facetable?: boolean | cdktn.IResolvable; 
   public get facetable() {
     return this.getBooleanAttribute('facetable');
   }
@@ -728,7 +728,7 @@ export class KendraIndexDocumentMetadataConfigurationsSearchOutputReference exte
   }
 
   // searchable - computed: true, optional: true, required: false
-  private _searchable?: boolean | cdktn.IResolvable;
+  private _searchable?: boolean | cdktn.IResolvable; 
   public get searchable() {
     return this.getBooleanAttribute('searchable');
   }
@@ -744,7 +744,7 @@ export class KendraIndexDocumentMetadataConfigurationsSearchOutputReference exte
   }
 
   // sortable - computed: true, optional: true, required: false
-  private _sortable?: boolean | cdktn.IResolvable;
+  private _sortable?: boolean | cdktn.IResolvable; 
   public get sortable() {
     return this.getBooleanAttribute('sortable');
   }
@@ -891,7 +891,7 @@ export class KendraIndexDocumentMetadataConfigurationsOutputReference extends cd
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -939,7 +939,7 @@ export class KendraIndexDocumentMetadataConfigurationsOutputReference extends cd
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -1053,7 +1053,7 @@ export class KendraIndexServerSideEncryptionConfigurationOutputReference extends
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -1170,7 +1170,7 @@ export class KendraIndexTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1186,7 +1186,7 @@ export class KendraIndexTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1317,7 +1317,7 @@ export class KendraIndexUserTokenConfigurationsJsonTokenTypeConfigurationOutputR
   }
 
   // group_attribute_field - computed: true, optional: true, required: false
-  private _groupAttributeField?: string;
+  private _groupAttributeField?: string; 
   public get groupAttributeField() {
     return this.getStringAttribute('group_attribute_field');
   }
@@ -1333,7 +1333,7 @@ export class KendraIndexUserTokenConfigurationsJsonTokenTypeConfigurationOutputR
   }
 
   // user_name_attribute_field - computed: true, optional: true, required: false
-  private _userNameAttributeField?: string;
+  private _userNameAttributeField?: string; 
   public get userNameAttributeField() {
     return this.getStringAttribute('user_name_attribute_field');
   }
@@ -1531,7 +1531,7 @@ export class KendraIndexUserTokenConfigurationsJwtTokenTypeConfigurationOutputRe
   }
 
   // claim_regex - computed: true, optional: true, required: false
-  private _claimRegex?: string;
+  private _claimRegex?: string; 
   public get claimRegex() {
     return this.getStringAttribute('claim_regex');
   }
@@ -1547,7 +1547,7 @@ export class KendraIndexUserTokenConfigurationsJwtTokenTypeConfigurationOutputRe
   }
 
   // group_attribute_field - computed: true, optional: true, required: false
-  private _groupAttributeField?: string;
+  private _groupAttributeField?: string; 
   public get groupAttributeField() {
     return this.getStringAttribute('group_attribute_field');
   }
@@ -1563,7 +1563,7 @@ export class KendraIndexUserTokenConfigurationsJwtTokenTypeConfigurationOutputRe
   }
 
   // issuer - computed: true, optional: true, required: false
-  private _issuer?: string;
+  private _issuer?: string; 
   public get issuer() {
     return this.getStringAttribute('issuer');
   }
@@ -1579,7 +1579,7 @@ export class KendraIndexUserTokenConfigurationsJwtTokenTypeConfigurationOutputRe
   }
 
   // key_location - computed: true, optional: true, required: false
-  private _keyLocation?: string;
+  private _keyLocation?: string; 
   public get keyLocation() {
     return this.getStringAttribute('key_location');
   }
@@ -1595,7 +1595,7 @@ export class KendraIndexUserTokenConfigurationsJwtTokenTypeConfigurationOutputRe
   }
 
   // secret_manager_arn - computed: true, optional: true, required: false
-  private _secretManagerArn?: string;
+  private _secretManagerArn?: string; 
   public get secretManagerArn() {
     return this.getStringAttribute('secret_manager_arn');
   }
@@ -1611,7 +1611,7 @@ export class KendraIndexUserTokenConfigurationsJwtTokenTypeConfigurationOutputRe
   }
 
   // url - computed: true, optional: true, required: false
-  private _url?: string;
+  private _url?: string; 
   public get url() {
     return this.getStringAttribute('url');
   }
@@ -1627,7 +1627,7 @@ export class KendraIndexUserTokenConfigurationsJwtTokenTypeConfigurationOutputRe
   }
 
   // user_name_attribute_field - computed: true, optional: true, required: false
-  private _userNameAttributeField?: string;
+  private _userNameAttributeField?: string; 
   public get userNameAttributeField() {
     return this.getStringAttribute('user_name_attribute_field');
   }
@@ -1880,7 +1880,7 @@ export class KendraIndex extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1912,7 +1912,7 @@ export class KendraIndex extends cdktn.TerraformResource {
   }
 
   // edition - computed: false, optional: false, required: true
-  private _edition?: string;
+  private _edition?: string; 
   public get edition() {
     return this.getStringAttribute('edition');
   }
@@ -1935,7 +1935,7 @@ export class KendraIndex extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1948,7 +1948,7 @@ export class KendraIndex extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -1993,7 +1993,7 @@ export class KendraIndex extends cdktn.TerraformResource {
   }
 
   // user_context_policy - computed: true, optional: true, required: false
-  private _userContextPolicy?: string;
+  private _userContextPolicy?: string; 
   public get userContextPolicy() {
     return this.getStringAttribute('user_context_policy');
   }

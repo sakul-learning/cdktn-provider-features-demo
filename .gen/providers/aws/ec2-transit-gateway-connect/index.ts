@@ -168,7 +168,7 @@ export class Ec2TransitGatewayConnectTimeoutsOutputReference extends cdktn.Compl
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -184,7 +184,7 @@ export class Ec2TransitGatewayConnectTimeoutsOutputReference extends cdktn.Compl
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -200,7 +200,7 @@ export class Ec2TransitGatewayConnectTimeoutsOutputReference extends cdktn.Compl
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -283,7 +283,7 @@ export class Ec2TransitGatewayConnect extends cdktn.TerraformResource {
   // ==========
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -299,7 +299,7 @@ export class Ec2TransitGatewayConnect extends cdktn.TerraformResource {
   }
 
   // protocol - computed: false, optional: true, required: false
-  private _protocol?: string;
+  private _protocol?: string; 
   public get protocol() {
     return this.getStringAttribute('protocol');
   }
@@ -315,7 +315,7 @@ export class Ec2TransitGatewayConnect extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -331,7 +331,7 @@ export class Ec2TransitGatewayConnect extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -347,7 +347,7 @@ export class Ec2TransitGatewayConnect extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -363,7 +363,7 @@ export class Ec2TransitGatewayConnect extends cdktn.TerraformResource {
   }
 
   // transit_gateway_default_route_table_association - computed: false, optional: true, required: false
-  private _transitGatewayDefaultRouteTableAssociation?: boolean | cdktn.IResolvable;
+  private _transitGatewayDefaultRouteTableAssociation?: boolean | cdktn.IResolvable; 
   public get transitGatewayDefaultRouteTableAssociation() {
     return this.getBooleanAttribute('transit_gateway_default_route_table_association');
   }
@@ -379,7 +379,7 @@ export class Ec2TransitGatewayConnect extends cdktn.TerraformResource {
   }
 
   // transit_gateway_default_route_table_propagation - computed: false, optional: true, required: false
-  private _transitGatewayDefaultRouteTablePropagation?: boolean | cdktn.IResolvable;
+  private _transitGatewayDefaultRouteTablePropagation?: boolean | cdktn.IResolvable; 
   public get transitGatewayDefaultRouteTablePropagation() {
     return this.getBooleanAttribute('transit_gateway_default_route_table_propagation');
   }
@@ -395,7 +395,7 @@ export class Ec2TransitGatewayConnect extends cdktn.TerraformResource {
   }
 
   // transit_gateway_id - computed: false, optional: false, required: true
-  private _transitGatewayId?: string;
+  private _transitGatewayId?: string; 
   public get transitGatewayId() {
     return this.getStringAttribute('transit_gateway_id');
   }
@@ -408,7 +408,7 @@ export class Ec2TransitGatewayConnect extends cdktn.TerraformResource {
   }
 
   // transport_attachment_id - computed: false, optional: false, required: true
-  private _transportAttachmentId?: string;
+  private _transportAttachmentId?: string; 
   public get transportAttachmentId() {
     return this.getStringAttribute('transport_attachment_id');
   }

@@ -117,7 +117,7 @@ export class VerifiedaccessInstanceLoggingConfigurationAccessLogsCloudwatchLogsO
   }
 
   // enabled - computed: false, optional: false, required: true
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -130,7 +130,7 @@ export class VerifiedaccessInstanceLoggingConfigurationAccessLogsCloudwatchLogsO
   }
 
   // log_group - computed: false, optional: true, required: false
-  private _logGroup?: string;
+  private _logGroup?: string; 
   public get logGroup() {
     return this.getStringAttribute('log_group');
   }
@@ -231,7 +231,7 @@ export class VerifiedaccessInstanceLoggingConfigurationAccessLogsKinesisDataFire
   }
 
   // delivery_stream - computed: false, optional: true, required: false
-  private _deliveryStream?: string;
+  private _deliveryStream?: string; 
   public get deliveryStream() {
     return this.getStringAttribute('delivery_stream');
   }
@@ -247,7 +247,7 @@ export class VerifiedaccessInstanceLoggingConfigurationAccessLogsKinesisDataFire
   }
 
   // enabled - computed: false, optional: false, required: true
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -379,7 +379,7 @@ export class VerifiedaccessInstanceLoggingConfigurationAccessLogsS3OutputReferen
   }
 
   // bucket_name - computed: false, optional: true, required: false
-  private _bucketName?: string;
+  private _bucketName?: string; 
   public get bucketName() {
     return this.getStringAttribute('bucket_name');
   }
@@ -395,7 +395,7 @@ export class VerifiedaccessInstanceLoggingConfigurationAccessLogsS3OutputReferen
   }
 
   // bucket_owner - computed: true, optional: true, required: false
-  private _bucketOwner?: string;
+  private _bucketOwner?: string; 
   public get bucketOwner() {
     return this.getStringAttribute('bucket_owner');
   }
@@ -411,7 +411,7 @@ export class VerifiedaccessInstanceLoggingConfigurationAccessLogsS3OutputReferen
   }
 
   // enabled - computed: false, optional: false, required: true
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -424,7 +424,7 @@ export class VerifiedaccessInstanceLoggingConfigurationAccessLogsS3OutputReferen
   }
 
   // prefix - computed: false, optional: true, required: false
-  private _prefix?: string;
+  private _prefix?: string; 
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -582,7 +582,7 @@ export class VerifiedaccessInstanceLoggingConfigurationAccessLogsOutputReference
   }
 
   // include_trust_context - computed: true, optional: true, required: false
-  private _includeTrustContext?: boolean | cdktn.IResolvable;
+  private _includeTrustContext?: boolean | cdktn.IResolvable; 
   public get includeTrustContext() {
     return this.getBooleanAttribute('include_trust_context');
   }
@@ -598,7 +598,7 @@ export class VerifiedaccessInstanceLoggingConfigurationAccessLogsOutputReference
   }
 
   // log_version - computed: true, optional: true, required: false
-  private _logVersion?: string;
+  private _logVersion?: string; 
   public get logVersion() {
     return this.getStringAttribute('log_version');
   }
@@ -723,7 +723,7 @@ export class VerifiedaccessInstanceLoggingConfiguration extends cdktn.TerraformR
   // ==========
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -739,7 +739,7 @@ export class VerifiedaccessInstanceLoggingConfiguration extends cdktn.TerraformR
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -755,7 +755,7 @@ export class VerifiedaccessInstanceLoggingConfiguration extends cdktn.TerraformR
   }
 
   // verifiedaccess_instance_id - computed: false, optional: false, required: true
-  private _verifiedaccessInstanceId?: string;
+  private _verifiedaccessInstanceId?: string; 
   public get verifiedaccessInstanceId() {
     return this.getStringAttribute('verifiedaccess_instance_id');
   }

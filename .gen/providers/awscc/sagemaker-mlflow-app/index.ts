@@ -142,7 +142,7 @@ export class SagemakerMlflowAppTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -158,7 +158,7 @@ export class SagemakerMlflowAppTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -262,7 +262,7 @@ export class SagemakerMlflowApp extends cdktn.TerraformResource {
   }
 
   // artifact_store_uri - computed: false, optional: false, required: true
-  private _artifactStoreUri?: string;
+  private _artifactStoreUri?: string; 
   public get artifactStoreUri() {
     return this.getStringAttribute('artifact_store_uri');
   }
@@ -300,7 +300,7 @@ export class SagemakerMlflowApp extends cdktn.TerraformResource {
   }
 
   // model_registration_mode - computed: true, optional: true, required: false
-  private _modelRegistrationMode?: string;
+  private _modelRegistrationMode?: string; 
   public get modelRegistrationMode() {
     return this.getStringAttribute('model_registration_mode');
   }
@@ -316,7 +316,7 @@ export class SagemakerMlflowApp extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -329,7 +329,7 @@ export class SagemakerMlflowApp extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -363,7 +363,7 @@ export class SagemakerMlflowApp extends cdktn.TerraformResource {
   }
 
   // weekly_maintenance_window_start - computed: true, optional: true, required: false
-  private _weeklyMaintenanceWindowStart?: string;
+  private _weeklyMaintenanceWindowStart?: string; 
   public get weeklyMaintenanceWindowStart() {
     return this.getStringAttribute('weekly_maintenance_window_start');
   }

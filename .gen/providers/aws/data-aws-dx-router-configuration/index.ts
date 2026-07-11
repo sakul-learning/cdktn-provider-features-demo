@@ -196,7 +196,7 @@ export class DataAwsDxRouterConfiguration extends cdktn.TerraformDataSource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -212,7 +212,7 @@ export class DataAwsDxRouterConfiguration extends cdktn.TerraformDataSource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -234,7 +234,7 @@ export class DataAwsDxRouterConfiguration extends cdktn.TerraformDataSource {
   }
 
   // router_type_identifier - computed: false, optional: false, required: true
-  private _routerTypeIdentifier?: string;
+  private _routerTypeIdentifier?: string; 
   public get routerTypeIdentifier() {
     return this.getStringAttribute('router_type_identifier');
   }
@@ -247,7 +247,7 @@ export class DataAwsDxRouterConfiguration extends cdktn.TerraformDataSource {
   }
 
   // virtual_interface_id - computed: false, optional: false, required: true
-  private _virtualInterfaceId?: string;
+  private _virtualInterfaceId?: string; 
   public get virtualInterfaceId() {
     return this.getStringAttribute('virtual_interface_id');
   }

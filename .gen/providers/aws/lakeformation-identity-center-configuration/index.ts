@@ -92,7 +92,7 @@ export class LakeformationIdentityCenterConfiguration extends cdktn.TerraformRes
   }
 
   // catalog_id - computed: true, optional: true, required: false
-  private _catalogId?: string;
+  private _catalogId?: string; 
   public get catalogId() {
     return this.getStringAttribute('catalog_id');
   }
@@ -108,7 +108,7 @@ export class LakeformationIdentityCenterConfiguration extends cdktn.TerraformRes
   }
 
   // instance_arn - computed: false, optional: false, required: true
-  private _instanceArn?: string;
+  private _instanceArn?: string; 
   public get instanceArn() {
     return this.getStringAttribute('instance_arn');
   }
@@ -121,7 +121,7 @@ export class LakeformationIdentityCenterConfiguration extends cdktn.TerraformRes
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

@@ -206,7 +206,7 @@ export class DataAwsApiGatewayDomainName extends cdktn.TerraformDataSource {
   }
 
   // domain_name - computed: false, optional: false, required: true
-  private _domainName?: string;
+  private _domainName?: string; 
   public get domainName() {
     return this.getStringAttribute('domain_name');
   }
@@ -219,7 +219,7 @@ export class DataAwsApiGatewayDomainName extends cdktn.TerraformDataSource {
   }
 
   // domain_name_id - computed: true, optional: true, required: false
-  private _domainNameId?: string;
+  private _domainNameId?: string; 
   public get domainNameId() {
     return this.getStringAttribute('domain_name_id');
   }
@@ -246,7 +246,7 @@ export class DataAwsApiGatewayDomainName extends cdktn.TerraformDataSource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -267,7 +267,7 @@ export class DataAwsApiGatewayDomainName extends cdktn.TerraformDataSource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -308,7 +308,7 @@ export class DataAwsApiGatewayDomainName extends cdktn.TerraformDataSource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

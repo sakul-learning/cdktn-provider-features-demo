@@ -197,7 +197,7 @@ export class DmsDataProviderSettingsDocDbSettingsOutputReference extends cdktn.C
   }
 
   // certificate_arn - computed: true, optional: true, required: false
-  private _certificateArn?: string;
+  private _certificateArn?: string; 
   public get certificateArn() {
     return this.getStringAttribute('certificate_arn');
   }
@@ -213,7 +213,7 @@ export class DmsDataProviderSettingsDocDbSettingsOutputReference extends cdktn.C
   }
 
   // database_name - computed: true, optional: true, required: false
-  private _databaseName?: string;
+  private _databaseName?: string; 
   public get databaseName() {
     return this.getStringAttribute('database_name');
   }
@@ -229,7 +229,7 @@ export class DmsDataProviderSettingsDocDbSettingsOutputReference extends cdktn.C
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -245,7 +245,7 @@ export class DmsDataProviderSettingsDocDbSettingsOutputReference extends cdktn.C
   }
 
   // server_name - computed: true, optional: true, required: false
-  private _serverName?: string;
+  private _serverName?: string; 
   public get serverName() {
     return this.getStringAttribute('server_name');
   }
@@ -261,7 +261,7 @@ export class DmsDataProviderSettingsDocDbSettingsOutputReference extends cdktn.C
   }
 
   // ssl_mode - computed: true, optional: true, required: false
-  private _sslMode?: string;
+  private _sslMode?: string; 
   public get sslMode() {
     return this.getStringAttribute('ssl_mode');
   }
@@ -423,7 +423,7 @@ export class DmsDataProviderSettingsIbmDb2LuwSettingsOutputReference extends cdk
   }
 
   // certificate_arn - computed: true, optional: true, required: false
-  private _certificateArn?: string;
+  private _certificateArn?: string; 
   public get certificateArn() {
     return this.getStringAttribute('certificate_arn');
   }
@@ -439,7 +439,7 @@ export class DmsDataProviderSettingsIbmDb2LuwSettingsOutputReference extends cdk
   }
 
   // database_name - computed: true, optional: true, required: false
-  private _databaseName?: string;
+  private _databaseName?: string; 
   public get databaseName() {
     return this.getStringAttribute('database_name');
   }
@@ -455,7 +455,7 @@ export class DmsDataProviderSettingsIbmDb2LuwSettingsOutputReference extends cdk
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -471,7 +471,7 @@ export class DmsDataProviderSettingsIbmDb2LuwSettingsOutputReference extends cdk
   }
 
   // server_name - computed: true, optional: true, required: false
-  private _serverName?: string;
+  private _serverName?: string; 
   public get serverName() {
     return this.getStringAttribute('server_name');
   }
@@ -487,7 +487,7 @@ export class DmsDataProviderSettingsIbmDb2LuwSettingsOutputReference extends cdk
   }
 
   // ssl_mode - computed: true, optional: true, required: false
-  private _sslMode?: string;
+  private _sslMode?: string; 
   public get sslMode() {
     return this.getStringAttribute('ssl_mode');
   }
@@ -649,7 +649,7 @@ export class DmsDataProviderSettingsIbmDb2ZOsSettingsOutputReference extends cdk
   }
 
   // certificate_arn - computed: true, optional: true, required: false
-  private _certificateArn?: string;
+  private _certificateArn?: string; 
   public get certificateArn() {
     return this.getStringAttribute('certificate_arn');
   }
@@ -665,7 +665,7 @@ export class DmsDataProviderSettingsIbmDb2ZOsSettingsOutputReference extends cdk
   }
 
   // database_name - computed: true, optional: true, required: false
-  private _databaseName?: string;
+  private _databaseName?: string; 
   public get databaseName() {
     return this.getStringAttribute('database_name');
   }
@@ -681,7 +681,7 @@ export class DmsDataProviderSettingsIbmDb2ZOsSettingsOutputReference extends cdk
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -697,7 +697,7 @@ export class DmsDataProviderSettingsIbmDb2ZOsSettingsOutputReference extends cdk
   }
 
   // server_name - computed: true, optional: true, required: false
-  private _serverName?: string;
+  private _serverName?: string; 
   public get serverName() {
     return this.getStringAttribute('server_name');
   }
@@ -713,7 +713,7 @@ export class DmsDataProviderSettingsIbmDb2ZOsSettingsOutputReference extends cdk
   }
 
   // ssl_mode - computed: true, optional: true, required: false
-  private _sslMode?: string;
+  private _sslMode?: string; 
   public get sslMode() {
     return this.getStringAttribute('ssl_mode');
   }
@@ -858,7 +858,7 @@ export class DmsDataProviderSettingsMariaDbSettingsOutputReference extends cdktn
   }
 
   // certificate_arn - computed: true, optional: true, required: false
-  private _certificateArn?: string;
+  private _certificateArn?: string; 
   public get certificateArn() {
     return this.getStringAttribute('certificate_arn');
   }
@@ -874,7 +874,7 @@ export class DmsDataProviderSettingsMariaDbSettingsOutputReference extends cdktn
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -890,7 +890,7 @@ export class DmsDataProviderSettingsMariaDbSettingsOutputReference extends cdktn
   }
 
   // server_name - computed: true, optional: true, required: false
-  private _serverName?: string;
+  private _serverName?: string; 
   public get serverName() {
     return this.getStringAttribute('server_name');
   }
@@ -906,7 +906,7 @@ export class DmsDataProviderSettingsMariaDbSettingsOutputReference extends cdktn
   }
 
   // ssl_mode - computed: true, optional: true, required: false
-  private _sslMode?: string;
+  private _sslMode?: string; 
   public get sslMode() {
     return this.getStringAttribute('ssl_mode');
   }
@@ -1068,7 +1068,7 @@ export class DmsDataProviderSettingsMicrosoftSqlServerSettingsOutputReference ex
   }
 
   // certificate_arn - computed: true, optional: true, required: false
-  private _certificateArn?: string;
+  private _certificateArn?: string; 
   public get certificateArn() {
     return this.getStringAttribute('certificate_arn');
   }
@@ -1084,7 +1084,7 @@ export class DmsDataProviderSettingsMicrosoftSqlServerSettingsOutputReference ex
   }
 
   // database_name - computed: true, optional: true, required: false
-  private _databaseName?: string;
+  private _databaseName?: string; 
   public get databaseName() {
     return this.getStringAttribute('database_name');
   }
@@ -1100,7 +1100,7 @@ export class DmsDataProviderSettingsMicrosoftSqlServerSettingsOutputReference ex
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -1116,7 +1116,7 @@ export class DmsDataProviderSettingsMicrosoftSqlServerSettingsOutputReference ex
   }
 
   // server_name - computed: true, optional: true, required: false
-  private _serverName?: string;
+  private _serverName?: string; 
   public get serverName() {
     return this.getStringAttribute('server_name');
   }
@@ -1132,7 +1132,7 @@ export class DmsDataProviderSettingsMicrosoftSqlServerSettingsOutputReference ex
   }
 
   // ssl_mode - computed: true, optional: true, required: false
-  private _sslMode?: string;
+  private _sslMode?: string; 
   public get sslMode() {
     return this.getStringAttribute('ssl_mode');
   }
@@ -1345,7 +1345,7 @@ export class DmsDataProviderSettingsMongoDbSettingsOutputReference extends cdktn
   }
 
   // auth_mechanism - computed: true, optional: true, required: false
-  private _authMechanism?: string;
+  private _authMechanism?: string; 
   public get authMechanism() {
     return this.getStringAttribute('auth_mechanism');
   }
@@ -1361,7 +1361,7 @@ export class DmsDataProviderSettingsMongoDbSettingsOutputReference extends cdktn
   }
 
   // auth_source - computed: true, optional: true, required: false
-  private _authSource?: string;
+  private _authSource?: string; 
   public get authSource() {
     return this.getStringAttribute('auth_source');
   }
@@ -1377,7 +1377,7 @@ export class DmsDataProviderSettingsMongoDbSettingsOutputReference extends cdktn
   }
 
   // auth_type - computed: true, optional: true, required: false
-  private _authType?: string;
+  private _authType?: string; 
   public get authType() {
     return this.getStringAttribute('auth_type');
   }
@@ -1393,7 +1393,7 @@ export class DmsDataProviderSettingsMongoDbSettingsOutputReference extends cdktn
   }
 
   // certificate_arn - computed: true, optional: true, required: false
-  private _certificateArn?: string;
+  private _certificateArn?: string; 
   public get certificateArn() {
     return this.getStringAttribute('certificate_arn');
   }
@@ -1409,7 +1409,7 @@ export class DmsDataProviderSettingsMongoDbSettingsOutputReference extends cdktn
   }
 
   // database_name - computed: true, optional: true, required: false
-  private _databaseName?: string;
+  private _databaseName?: string; 
   public get databaseName() {
     return this.getStringAttribute('database_name');
   }
@@ -1425,7 +1425,7 @@ export class DmsDataProviderSettingsMongoDbSettingsOutputReference extends cdktn
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -1441,7 +1441,7 @@ export class DmsDataProviderSettingsMongoDbSettingsOutputReference extends cdktn
   }
 
   // server_name - computed: true, optional: true, required: false
-  private _serverName?: string;
+  private _serverName?: string; 
   public get serverName() {
     return this.getStringAttribute('server_name');
   }
@@ -1457,7 +1457,7 @@ export class DmsDataProviderSettingsMongoDbSettingsOutputReference extends cdktn
   }
 
   // ssl_mode - computed: true, optional: true, required: false
-  private _sslMode?: string;
+  private _sslMode?: string; 
   public get sslMode() {
     return this.getStringAttribute('ssl_mode');
   }
@@ -1602,7 +1602,7 @@ export class DmsDataProviderSettingsMySqlSettingsOutputReference extends cdktn.C
   }
 
   // certificate_arn - computed: true, optional: true, required: false
-  private _certificateArn?: string;
+  private _certificateArn?: string; 
   public get certificateArn() {
     return this.getStringAttribute('certificate_arn');
   }
@@ -1618,7 +1618,7 @@ export class DmsDataProviderSettingsMySqlSettingsOutputReference extends cdktn.C
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -1634,7 +1634,7 @@ export class DmsDataProviderSettingsMySqlSettingsOutputReference extends cdktn.C
   }
 
   // server_name - computed: true, optional: true, required: false
-  private _serverName?: string;
+  private _serverName?: string; 
   public get serverName() {
     return this.getStringAttribute('server_name');
   }
@@ -1650,7 +1650,7 @@ export class DmsDataProviderSettingsMySqlSettingsOutputReference extends cdktn.C
   }
 
   // ssl_mode - computed: true, optional: true, required: false
-  private _sslMode?: string;
+  private _sslMode?: string; 
   public get sslMode() {
     return this.getStringAttribute('ssl_mode');
   }
@@ -1897,7 +1897,7 @@ export class DmsDataProviderSettingsOracleSettingsOutputReference extends cdktn.
   }
 
   // asm_server - computed: true, optional: true, required: false
-  private _asmServer?: string;
+  private _asmServer?: string; 
   public get asmServer() {
     return this.getStringAttribute('asm_server');
   }
@@ -1913,7 +1913,7 @@ export class DmsDataProviderSettingsOracleSettingsOutputReference extends cdktn.
   }
 
   // certificate_arn - computed: true, optional: true, required: false
-  private _certificateArn?: string;
+  private _certificateArn?: string; 
   public get certificateArn() {
     return this.getStringAttribute('certificate_arn');
   }
@@ -1929,7 +1929,7 @@ export class DmsDataProviderSettingsOracleSettingsOutputReference extends cdktn.
   }
 
   // database_name - computed: true, optional: true, required: false
-  private _databaseName?: string;
+  private _databaseName?: string; 
   public get databaseName() {
     return this.getStringAttribute('database_name');
   }
@@ -1945,7 +1945,7 @@ export class DmsDataProviderSettingsOracleSettingsOutputReference extends cdktn.
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -1961,7 +1961,7 @@ export class DmsDataProviderSettingsOracleSettingsOutputReference extends cdktn.
   }
 
   // secrets_manager_oracle_asm_access_role_arn - computed: true, optional: true, required: false
-  private _secretsManagerOracleAsmAccessRoleArn?: string;
+  private _secretsManagerOracleAsmAccessRoleArn?: string; 
   public get secretsManagerOracleAsmAccessRoleArn() {
     return this.getStringAttribute('secrets_manager_oracle_asm_access_role_arn');
   }
@@ -1977,7 +1977,7 @@ export class DmsDataProviderSettingsOracleSettingsOutputReference extends cdktn.
   }
 
   // secrets_manager_oracle_asm_secret_id - computed: true, optional: true, required: false
-  private _secretsManagerOracleAsmSecretId?: string;
+  private _secretsManagerOracleAsmSecretId?: string; 
   public get secretsManagerOracleAsmSecretId() {
     return this.getStringAttribute('secrets_manager_oracle_asm_secret_id');
   }
@@ -1993,7 +1993,7 @@ export class DmsDataProviderSettingsOracleSettingsOutputReference extends cdktn.
   }
 
   // secrets_manager_security_db_encryption_access_role_arn - computed: true, optional: true, required: false
-  private _secretsManagerSecurityDbEncryptionAccessRoleArn?: string;
+  private _secretsManagerSecurityDbEncryptionAccessRoleArn?: string; 
   public get secretsManagerSecurityDbEncryptionAccessRoleArn() {
     return this.getStringAttribute('secrets_manager_security_db_encryption_access_role_arn');
   }
@@ -2009,7 +2009,7 @@ export class DmsDataProviderSettingsOracleSettingsOutputReference extends cdktn.
   }
 
   // secrets_manager_security_db_encryption_secret_id - computed: true, optional: true, required: false
-  private _secretsManagerSecurityDbEncryptionSecretId?: string;
+  private _secretsManagerSecurityDbEncryptionSecretId?: string; 
   public get secretsManagerSecurityDbEncryptionSecretId() {
     return this.getStringAttribute('secrets_manager_security_db_encryption_secret_id');
   }
@@ -2025,7 +2025,7 @@ export class DmsDataProviderSettingsOracleSettingsOutputReference extends cdktn.
   }
 
   // server_name - computed: true, optional: true, required: false
-  private _serverName?: string;
+  private _serverName?: string; 
   public get serverName() {
     return this.getStringAttribute('server_name');
   }
@@ -2041,7 +2041,7 @@ export class DmsDataProviderSettingsOracleSettingsOutputReference extends cdktn.
   }
 
   // ssl_mode - computed: true, optional: true, required: false
-  private _sslMode?: string;
+  private _sslMode?: string; 
   public get sslMode() {
     return this.getStringAttribute('ssl_mode');
   }
@@ -2203,7 +2203,7 @@ export class DmsDataProviderSettingsPostgreSqlSettingsOutputReference extends cd
   }
 
   // certificate_arn - computed: true, optional: true, required: false
-  private _certificateArn?: string;
+  private _certificateArn?: string; 
   public get certificateArn() {
     return this.getStringAttribute('certificate_arn');
   }
@@ -2219,7 +2219,7 @@ export class DmsDataProviderSettingsPostgreSqlSettingsOutputReference extends cd
   }
 
   // database_name - computed: true, optional: true, required: false
-  private _databaseName?: string;
+  private _databaseName?: string; 
   public get databaseName() {
     return this.getStringAttribute('database_name');
   }
@@ -2235,7 +2235,7 @@ export class DmsDataProviderSettingsPostgreSqlSettingsOutputReference extends cd
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -2251,7 +2251,7 @@ export class DmsDataProviderSettingsPostgreSqlSettingsOutputReference extends cd
   }
 
   // server_name - computed: true, optional: true, required: false
-  private _serverName?: string;
+  private _serverName?: string; 
   public get serverName() {
     return this.getStringAttribute('server_name');
   }
@@ -2267,7 +2267,7 @@ export class DmsDataProviderSettingsPostgreSqlSettingsOutputReference extends cd
   }
 
   // ssl_mode - computed: true, optional: true, required: false
-  private _sslMode?: string;
+  private _sslMode?: string; 
   public get sslMode() {
     return this.getStringAttribute('ssl_mode');
   }
@@ -2395,7 +2395,7 @@ export class DmsDataProviderSettingsRedshiftSettingsOutputReference extends cdkt
   }
 
   // database_name - computed: true, optional: true, required: false
-  private _databaseName?: string;
+  private _databaseName?: string; 
   public get databaseName() {
     return this.getStringAttribute('database_name');
   }
@@ -2411,7 +2411,7 @@ export class DmsDataProviderSettingsRedshiftSettingsOutputReference extends cdkt
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -2427,7 +2427,7 @@ export class DmsDataProviderSettingsRedshiftSettingsOutputReference extends cdkt
   }
 
   // server_name - computed: true, optional: true, required: false
-  private _serverName?: string;
+  private _serverName?: string; 
   public get serverName() {
     return this.getStringAttribute('server_name');
   }
@@ -2606,7 +2606,7 @@ export class DmsDataProviderSettingsSybaseAseSettingsOutputReference extends cdk
   }
 
   // certificate_arn - computed: true, optional: true, required: false
-  private _certificateArn?: string;
+  private _certificateArn?: string; 
   public get certificateArn() {
     return this.getStringAttribute('certificate_arn');
   }
@@ -2622,7 +2622,7 @@ export class DmsDataProviderSettingsSybaseAseSettingsOutputReference extends cdk
   }
 
   // database_name - computed: true, optional: true, required: false
-  private _databaseName?: string;
+  private _databaseName?: string; 
   public get databaseName() {
     return this.getStringAttribute('database_name');
   }
@@ -2638,7 +2638,7 @@ export class DmsDataProviderSettingsSybaseAseSettingsOutputReference extends cdk
   }
 
   // encrypt_password - computed: true, optional: true, required: false
-  private _encryptPassword?: boolean | cdktn.IResolvable;
+  private _encryptPassword?: boolean | cdktn.IResolvable; 
   public get encryptPassword() {
     return this.getBooleanAttribute('encrypt_password');
   }
@@ -2654,7 +2654,7 @@ export class DmsDataProviderSettingsSybaseAseSettingsOutputReference extends cdk
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -2670,7 +2670,7 @@ export class DmsDataProviderSettingsSybaseAseSettingsOutputReference extends cdk
   }
 
   // server_name - computed: true, optional: true, required: false
-  private _serverName?: string;
+  private _serverName?: string; 
   public get serverName() {
     return this.getStringAttribute('server_name');
   }
@@ -2686,7 +2686,7 @@ export class DmsDataProviderSettingsSybaseAseSettingsOutputReference extends cdk
   }
 
   // ssl_mode - computed: true, optional: true, required: false
-  private _sslMode?: string;
+  private _sslMode?: string; 
   public get sslMode() {
     return this.getStringAttribute('ssl_mode');
   }
@@ -3249,7 +3249,7 @@ export class DmsDataProviderTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -3265,7 +3265,7 @@ export class DmsDataProviderTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -3375,7 +3375,7 @@ export class DmsDataProvider extends cdktn.TerraformResource {
   }
 
   // data_provider_identifier - computed: true, optional: true, required: false
-  private _dataProviderIdentifier?: string;
+  private _dataProviderIdentifier?: string; 
   public get dataProviderIdentifier() {
     return this.getStringAttribute('data_provider_identifier');
   }
@@ -3391,7 +3391,7 @@ export class DmsDataProvider extends cdktn.TerraformResource {
   }
 
   // data_provider_name - computed: true, optional: true, required: false
-  private _dataProviderName?: string;
+  private _dataProviderName?: string; 
   public get dataProviderName() {
     return this.getStringAttribute('data_provider_name');
   }
@@ -3407,7 +3407,7 @@ export class DmsDataProvider extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -3423,7 +3423,7 @@ export class DmsDataProvider extends cdktn.TerraformResource {
   }
 
   // engine - computed: false, optional: false, required: true
-  private _engine?: string;
+  private _engine?: string; 
   public get engine() {
     return this.getStringAttribute('engine');
   }
@@ -3436,7 +3436,7 @@ export class DmsDataProvider extends cdktn.TerraformResource {
   }
 
   // exact_settings - computed: true, optional: true, required: false
-  private _exactSettings?: boolean | cdktn.IResolvable;
+  private _exactSettings?: boolean | cdktn.IResolvable; 
   public get exactSettings() {
     return this.getBooleanAttribute('exact_settings');
   }

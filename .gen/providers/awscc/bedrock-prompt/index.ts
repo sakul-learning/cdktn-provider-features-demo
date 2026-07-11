@@ -125,7 +125,7 @@ export class BedrockPromptVariantsGenAiResourceAgentOutputReference extends cdkt
   }
 
   // agent_identifier - computed: true, optional: true, required: false
-  private _agentIdentifier?: string;
+  private _agentIdentifier?: string; 
   public get agentIdentifier() {
     return this.getStringAttribute('agent_identifier');
   }
@@ -374,7 +374,7 @@ export class BedrockPromptVariantsInferenceConfigurationTextOutputReference exte
   }
 
   // max_tokens - computed: true, optional: true, required: false
-  private _maxTokens?: number;
+  private _maxTokens?: number; 
   public get maxTokens() {
     return this.getNumberAttribute('max_tokens');
   }
@@ -390,7 +390,7 @@ export class BedrockPromptVariantsInferenceConfigurationTextOutputReference exte
   }
 
   // stop_sequences - computed: true, optional: true, required: false
-  private _stopSequences?: string[];
+  private _stopSequences?: string[]; 
   public get stopSequences() {
     return this.getListAttribute('stop_sequences');
   }
@@ -406,7 +406,7 @@ export class BedrockPromptVariantsInferenceConfigurationTextOutputReference exte
   }
 
   // temperature - computed: true, optional: true, required: false
-  private _temperature?: number;
+  private _temperature?: number; 
   public get temperature() {
     return this.getNumberAttribute('temperature');
   }
@@ -422,7 +422,7 @@ export class BedrockPromptVariantsInferenceConfigurationTextOutputReference exte
   }
 
   // top_p - computed: true, optional: true, required: false
-  private _topP?: number;
+  private _topP?: number; 
   public get topP() {
     return this.getNumberAttribute('top_p');
   }
@@ -635,7 +635,7 @@ export class BedrockPromptVariantsMetadataOutputReference extends cdktn.ComplexO
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -651,7 +651,7 @@ export class BedrockPromptVariantsMetadataOutputReference extends cdktn.ComplexO
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -769,7 +769,7 @@ export class BedrockPromptVariantsTemplateConfigurationChatInputVariablesOutputR
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -885,7 +885,7 @@ export class BedrockPromptVariantsTemplateConfigurationChatMessagesContentCacheP
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -1018,7 +1018,7 @@ export class BedrockPromptVariantsTemplateConfigurationChatMessagesContentOutput
   }
 
   // text - computed: true, optional: true, required: false
-  private _text?: string;
+  private _text?: string; 
   public get text() {
     return this.getStringAttribute('text');
   }
@@ -1171,7 +1171,7 @@ export class BedrockPromptVariantsTemplateConfigurationChatMessagesOutputReferen
   }
 
   // role - computed: true, optional: true, required: false
-  private _role?: string;
+  private _role?: string; 
   public get role() {
     return this.getStringAttribute('role');
   }
@@ -1287,7 +1287,7 @@ export class BedrockPromptVariantsTemplateConfigurationChatSystemCachePointOutpu
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -1420,7 +1420,7 @@ export class BedrockPromptVariantsTemplateConfigurationChatSystemOutputReference
   }
 
   // text - computed: true, optional: true, required: false
-  private _text?: string;
+  private _text?: string; 
   public get text() {
     return this.getStringAttribute('text');
   }
@@ -1536,7 +1536,7 @@ export class BedrockPromptVariantsTemplateConfigurationChatToolConfigurationTool
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1670,7 +1670,7 @@ export class BedrockPromptVariantsTemplateConfigurationChatToolConfigurationTool
   }
 
   // any - computed: true, optional: true, required: false
-  private _any?: string;
+  private _any?: string; 
   public get any() {
     return this.getStringAttribute('any');
   }
@@ -1686,7 +1686,7 @@ export class BedrockPromptVariantsTemplateConfigurationChatToolConfigurationTool
   }
 
   // auto - computed: true, optional: true, required: false
-  private _auto?: string;
+  private _auto?: string; 
   public get auto() {
     return this.getStringAttribute('auto');
   }
@@ -1798,7 +1798,7 @@ export class BedrockPromptVariantsTemplateConfigurationChatToolConfigurationTool
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -1892,7 +1892,7 @@ export class BedrockPromptVariantsTemplateConfigurationChatToolConfigurationTool
   }
 
   // json - computed: true, optional: true, required: false
-  private _json?: string;
+  private _json?: string; 
   public get json() {
     return this.getStringAttribute('json');
   }
@@ -2024,7 +2024,7 @@ export class BedrockPromptVariantsTemplateConfigurationChatToolConfigurationTool
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -2056,7 +2056,7 @@ export class BedrockPromptVariantsTemplateConfigurationChatToolConfigurationTool
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2637,7 +2637,7 @@ export class BedrockPromptVariantsTemplateConfigurationTextCachePointOutputRefer
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -2735,7 +2735,7 @@ export class BedrockPromptVariantsTemplateConfigurationTextInputVariablesOutputR
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2889,7 +2889,7 @@ export class BedrockPromptVariantsTemplateConfigurationTextTextS3LocationOutputR
   }
 
   // bucket - computed: true, optional: true, required: false
-  private _bucket?: string;
+  private _bucket?: string; 
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -2905,7 +2905,7 @@ export class BedrockPromptVariantsTemplateConfigurationTextTextS3LocationOutputR
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -2921,7 +2921,7 @@ export class BedrockPromptVariantsTemplateConfigurationTextTextS3LocationOutputR
   }
 
   // version - computed: true, optional: true, required: false
-  private _version?: string;
+  private _version?: string; 
   public get version() {
     return this.getStringAttribute('version');
   }
@@ -3106,7 +3106,7 @@ export class BedrockPromptVariantsTemplateConfigurationTextOutputReference exten
   }
 
   // text - computed: true, optional: true, required: false
-  private _text?: string;
+  private _text?: string; 
   public get text() {
     return this.getStringAttribute('text');
   }
@@ -3484,7 +3484,7 @@ export class BedrockPromptVariantsOutputReference extends cdktn.ComplexObject {
   }
 
   // additional_model_request_fields - computed: true, optional: true, required: false
-  private _additionalModelRequestFields?: string;
+  private _additionalModelRequestFields?: string; 
   public get additionalModelRequestFields() {
     return this.getStringAttribute('additional_model_request_fields');
   }
@@ -3548,7 +3548,7 @@ export class BedrockPromptVariantsOutputReference extends cdktn.ComplexObject {
   }
 
   // model_id - computed: true, optional: true, required: false
-  private _modelId?: string;
+  private _modelId?: string; 
   public get modelId() {
     return this.getStringAttribute('model_id');
   }
@@ -3564,7 +3564,7 @@ export class BedrockPromptVariantsOutputReference extends cdktn.ComplexObject {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -3596,7 +3596,7 @@ export class BedrockPromptVariantsOutputReference extends cdktn.ComplexObject {
   }
 
   // template_type - computed: true, optional: true, required: false
-  private _templateType?: string;
+  private _templateType?: string; 
   public get templateType() {
     return this.getStringAttribute('template_type');
   }
@@ -3705,7 +3705,7 @@ export class BedrockPrompt extends cdktn.TerraformResource {
   }
 
   // customer_encryption_key_arn - computed: true, optional: true, required: false
-  private _customerEncryptionKeyArn?: string;
+  private _customerEncryptionKeyArn?: string; 
   public get customerEncryptionKeyArn() {
     return this.getStringAttribute('customer_encryption_key_arn');
   }
@@ -3721,7 +3721,7 @@ export class BedrockPrompt extends cdktn.TerraformResource {
   }
 
   // default_variant - computed: true, optional: true, required: false
-  private _defaultVariant?: string;
+  private _defaultVariant?: string; 
   public get defaultVariant() {
     return this.getStringAttribute('default_variant');
   }
@@ -3737,7 +3737,7 @@ export class BedrockPrompt extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -3758,7 +3758,7 @@ export class BedrockPrompt extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -3776,7 +3776,7 @@ export class BedrockPrompt extends cdktn.TerraformResource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

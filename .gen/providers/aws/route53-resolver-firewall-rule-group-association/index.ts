@@ -121,7 +121,7 @@ export class Route53ResolverFirewallRuleGroupAssociation extends cdktn.Terraform
   }
 
   // firewall_rule_group_id - computed: false, optional: false, required: true
-  private _firewallRuleGroupId?: string;
+  private _firewallRuleGroupId?: string; 
   public get firewallRuleGroupId() {
     return this.getStringAttribute('firewall_rule_group_id');
   }
@@ -134,7 +134,7 @@ export class Route53ResolverFirewallRuleGroupAssociation extends cdktn.Terraform
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -150,7 +150,7 @@ export class Route53ResolverFirewallRuleGroupAssociation extends cdktn.Terraform
   }
 
   // mutation_protection - computed: true, optional: true, required: false
-  private _mutationProtection?: string;
+  private _mutationProtection?: string; 
   public get mutationProtection() {
     return this.getStringAttribute('mutation_protection');
   }
@@ -166,7 +166,7 @@ export class Route53ResolverFirewallRuleGroupAssociation extends cdktn.Terraform
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -179,7 +179,7 @@ export class Route53ResolverFirewallRuleGroupAssociation extends cdktn.Terraform
   }
 
   // priority - computed: false, optional: false, required: true
-  private _priority?: number;
+  private _priority?: number; 
   public get priority() {
     return this.getNumberAttribute('priority');
   }
@@ -192,7 +192,7 @@ export class Route53ResolverFirewallRuleGroupAssociation extends cdktn.Terraform
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -208,7 +208,7 @@ export class Route53ResolverFirewallRuleGroupAssociation extends cdktn.Terraform
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -224,7 +224,7 @@ export class Route53ResolverFirewallRuleGroupAssociation extends cdktn.Terraform
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -240,7 +240,7 @@ export class Route53ResolverFirewallRuleGroupAssociation extends cdktn.Terraform
   }
 
   // vpc_id - computed: false, optional: false, required: true
-  private _vpcId?: string;
+  private _vpcId?: string; 
   public get vpcId() {
     return this.getStringAttribute('vpc_id');
   }

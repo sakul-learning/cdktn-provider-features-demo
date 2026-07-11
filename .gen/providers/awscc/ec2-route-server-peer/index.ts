@@ -132,7 +132,7 @@ export class Ec2RouteServerPeerBgpOptionsOutputReference extends cdktn.ComplexOb
   }
 
   // peer_asn - computed: true, optional: true, required: false
-  private _peerAsn?: number;
+  private _peerAsn?: number; 
   public get peerAsn() {
     return this.getNumberAttribute('peer_asn');
   }
@@ -148,7 +148,7 @@ export class Ec2RouteServerPeerBgpOptionsOutputReference extends cdktn.ComplexOb
   }
 
   // peer_liveness_detection - computed: true, optional: true, required: false
-  private _peerLivenessDetection?: string;
+  private _peerLivenessDetection?: string; 
   public get peerLivenessDetection() {
     return this.getStringAttribute('peer_liveness_detection');
   }
@@ -265,7 +265,7 @@ export class Ec2RouteServerPeerTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -281,7 +281,7 @@ export class Ec2RouteServerPeerTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -411,7 +411,7 @@ export class Ec2RouteServerPeer extends cdktn.TerraformResource {
   }
 
   // peer_address - computed: false, optional: false, required: true
-  private _peerAddress?: string;
+  private _peerAddress?: string; 
   public get peerAddress() {
     return this.getStringAttribute('peer_address');
   }
@@ -424,7 +424,7 @@ export class Ec2RouteServerPeer extends cdktn.TerraformResource {
   }
 
   // route_server_endpoint_id - computed: false, optional: false, required: true
-  private _routeServerEndpointId?: string;
+  private _routeServerEndpointId?: string; 
   public get routeServerEndpointId() {
     return this.getStringAttribute('route_server_endpoint_id');
   }

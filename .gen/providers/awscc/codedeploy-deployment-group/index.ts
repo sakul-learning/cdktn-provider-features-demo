@@ -211,7 +211,7 @@ export class CodedeployDeploymentGroupAlarmConfigurationAlarmsOutputReference ex
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -381,7 +381,7 @@ export class CodedeployDeploymentGroupAlarmConfigurationOutputReference extends 
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -397,7 +397,7 @@ export class CodedeployDeploymentGroupAlarmConfigurationOutputReference extends 
   }
 
   // ignore_poll_alarm_failure - computed: true, optional: true, required: false
-  private _ignorePollAlarmFailure?: boolean | cdktn.IResolvable;
+  private _ignorePollAlarmFailure?: boolean | cdktn.IResolvable; 
   public get ignorePollAlarmFailure() {
     return this.getBooleanAttribute('ignore_poll_alarm_failure');
   }
@@ -512,7 +512,7 @@ export class CodedeployDeploymentGroupAutoRollbackConfigurationOutputReference e
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -528,7 +528,7 @@ export class CodedeployDeploymentGroupAutoRollbackConfigurationOutputReference e
   }
 
   // events - computed: true, optional: true, required: false
-  private _events?: string[];
+  private _events?: string[]; 
   public get events() {
     return this.getListAttribute('events');
   }
@@ -643,7 +643,7 @@ export class CodedeployDeploymentGroupBlueGreenDeploymentConfigurationDeployment
   }
 
   // action_on_timeout - computed: true, optional: true, required: false
-  private _actionOnTimeout?: string;
+  private _actionOnTimeout?: string; 
   public get actionOnTimeout() {
     return this.getStringAttribute('action_on_timeout');
   }
@@ -659,7 +659,7 @@ export class CodedeployDeploymentGroupBlueGreenDeploymentConfigurationDeployment
   }
 
   // wait_time_in_minutes - computed: true, optional: true, required: false
-  private _waitTimeInMinutes?: number;
+  private _waitTimeInMinutes?: number; 
   public get waitTimeInMinutes() {
     return this.getNumberAttribute('wait_time_in_minutes');
   }
@@ -755,7 +755,7 @@ export class CodedeployDeploymentGroupBlueGreenDeploymentConfigurationGreenFleet
   }
 
   // action - computed: true, optional: true, required: false
-  private _action?: string;
+  private _action?: string; 
   public get action() {
     return this.getStringAttribute('action');
   }
@@ -870,7 +870,7 @@ export class CodedeployDeploymentGroupBlueGreenDeploymentConfigurationTerminateB
   }
 
   // action - computed: true, optional: true, required: false
-  private _action?: string;
+  private _action?: string; 
   public get action() {
     return this.getStringAttribute('action');
   }
@@ -886,7 +886,7 @@ export class CodedeployDeploymentGroupBlueGreenDeploymentConfigurationTerminateB
   }
 
   // termination_wait_time_in_minutes - computed: true, optional: true, required: false
-  private _terminationWaitTimeInMinutes?: number;
+  private _terminationWaitTimeInMinutes?: number; 
   public get terminationWaitTimeInMinutes() {
     return this.getNumberAttribute('termination_wait_time_in_minutes');
   }
@@ -1167,7 +1167,7 @@ export class CodedeployDeploymentGroupDeploymentRevisionGitHubLocationOutputRefe
   }
 
   // commit_id - computed: true, optional: true, required: false
-  private _commitId?: string;
+  private _commitId?: string; 
   public get commitId() {
     return this.getStringAttribute('commit_id');
   }
@@ -1183,7 +1183,7 @@ export class CodedeployDeploymentGroupDeploymentRevisionGitHubLocationOutputRefe
   }
 
   // repository - computed: true, optional: true, required: false
-  private _repository?: string;
+  private _repository?: string; 
   public get repository() {
     return this.getStringAttribute('repository');
   }
@@ -1355,7 +1355,7 @@ export class CodedeployDeploymentGroupDeploymentRevisionS3LocationOutputReferenc
   }
 
   // bucket - computed: true, optional: true, required: false
-  private _bucket?: string;
+  private _bucket?: string; 
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -1371,7 +1371,7 @@ export class CodedeployDeploymentGroupDeploymentRevisionS3LocationOutputReferenc
   }
 
   // bundle_type - computed: true, optional: true, required: false
-  private _bundleType?: string;
+  private _bundleType?: string; 
   public get bundleType() {
     return this.getStringAttribute('bundle_type');
   }
@@ -1387,7 +1387,7 @@ export class CodedeployDeploymentGroupDeploymentRevisionS3LocationOutputReferenc
   }
 
   // e_tag - computed: true, optional: true, required: false
-  private _eTag?: string;
+  private _eTag?: string; 
   public get eTag() {
     return this.getStringAttribute('e_tag');
   }
@@ -1403,7 +1403,7 @@ export class CodedeployDeploymentGroupDeploymentRevisionS3LocationOutputReferenc
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1419,7 +1419,7 @@ export class CodedeployDeploymentGroupDeploymentRevisionS3LocationOutputReferenc
   }
 
   // version - computed: true, optional: true, required: false
-  private _version?: string;
+  private _version?: string; 
   public get version() {
     return this.getStringAttribute('version');
   }
@@ -1569,7 +1569,7 @@ export class CodedeployDeploymentGroupDeploymentRevisionOutputReference extends 
   }
 
   // revision_type - computed: true, optional: true, required: false
-  private _revisionType?: string;
+  private _revisionType?: string; 
   public get revisionType() {
     return this.getStringAttribute('revision_type');
   }
@@ -1719,7 +1719,7 @@ export class CodedeployDeploymentGroupDeploymentOutputReference extends cdktn.Co
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1735,7 +1735,7 @@ export class CodedeployDeploymentGroupDeploymentOutputReference extends cdktn.Co
   }
 
   // ignore_application_stop_failures - computed: true, optional: true, required: false
-  private _ignoreApplicationStopFailures?: boolean | cdktn.IResolvable;
+  private _ignoreApplicationStopFailures?: boolean | cdktn.IResolvable; 
   public get ignoreApplicationStopFailures() {
     return this.getBooleanAttribute('ignore_application_stop_failures');
   }
@@ -1866,7 +1866,7 @@ export class CodedeployDeploymentGroupDeploymentStyleOutputReference extends cdk
   }
 
   // deployment_option - computed: true, optional: true, required: false
-  private _deploymentOption?: string;
+  private _deploymentOption?: string; 
   public get deploymentOption() {
     return this.getStringAttribute('deployment_option');
   }
@@ -1882,7 +1882,7 @@ export class CodedeployDeploymentGroupDeploymentStyleOutputReference extends cdk
   }
 
   // deployment_type - computed: true, optional: true, required: false
-  private _deploymentType?: string;
+  private _deploymentType?: string; 
   public get deploymentType() {
     return this.getStringAttribute('deployment_type');
   }
@@ -2018,7 +2018,7 @@ export class CodedeployDeploymentGroupEc2TagFiltersOutputReference extends cdktn
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -2034,7 +2034,7 @@ export class CodedeployDeploymentGroupEc2TagFiltersOutputReference extends cdktn
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -2050,7 +2050,7 @@ export class CodedeployDeploymentGroupEc2TagFiltersOutputReference extends cdktn
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2206,7 +2206,7 @@ export class CodedeployDeploymentGroupEc2TagSetEc2TagSetListEc2TagGroupOutputRef
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -2222,7 +2222,7 @@ export class CodedeployDeploymentGroupEc2TagSetEc2TagSetListEc2TagGroupOutputRef
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -2238,7 +2238,7 @@ export class CodedeployDeploymentGroupEc2TagSetEc2TagSetListEc2TagGroupOutputRef
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2589,7 +2589,7 @@ export class CodedeployDeploymentGroupEcsServicesOutputReference extends cdktn.C
   }
 
   // cluster_name - computed: true, optional: true, required: false
-  private _clusterName?: string;
+  private _clusterName?: string; 
   public get clusterName() {
     return this.getStringAttribute('cluster_name');
   }
@@ -2605,7 +2605,7 @@ export class CodedeployDeploymentGroupEcsServicesOutputReference extends cdktn.C
   }
 
   // service_name - computed: true, optional: true, required: false
-  private _serviceName?: string;
+  private _serviceName?: string; 
   public get serviceName() {
     return this.getStringAttribute('service_name');
   }
@@ -2723,7 +2723,7 @@ export class CodedeployDeploymentGroupLoadBalancerInfoElbInfoListStructOutputRef
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2841,7 +2841,7 @@ export class CodedeployDeploymentGroupLoadBalancerInfoTargetGroupInfoListStructO
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2957,7 +2957,7 @@ export class CodedeployDeploymentGroupLoadBalancerInfoTargetGroupPairInfoListPro
   }
 
   // listener_arns - computed: true, optional: true, required: false
-  private _listenerArns?: string[];
+  private _listenerArns?: string[]; 
   public get listenerArns() {
     return this.getListAttribute('listener_arns');
   }
@@ -3055,7 +3055,7 @@ export class CodedeployDeploymentGroupLoadBalancerInfoTargetGroupPairInfoListTar
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -3171,7 +3171,7 @@ export class CodedeployDeploymentGroupLoadBalancerInfoTargetGroupPairInfoListTes
   }
 
   // listener_arns - computed: true, optional: true, required: false
-  private _listenerArns?: string[];
+  private _listenerArns?: string[]; 
   public get listenerArns() {
     return this.getListAttribute('listener_arns');
   }
@@ -3661,7 +3661,7 @@ export class CodedeployDeploymentGroupOnPremisesInstanceTagFiltersOutputReferenc
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -3677,7 +3677,7 @@ export class CodedeployDeploymentGroupOnPremisesInstanceTagFiltersOutputReferenc
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -3693,7 +3693,7 @@ export class CodedeployDeploymentGroupOnPremisesInstanceTagFiltersOutputReferenc
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -3849,7 +3849,7 @@ export class CodedeployDeploymentGroupOnPremisesTagSetOnPremisesTagSetListOnPrem
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -3865,7 +3865,7 @@ export class CodedeployDeploymentGroupOnPremisesTagSetOnPremisesTagSetListOnPrem
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -3881,7 +3881,7 @@ export class CodedeployDeploymentGroupOnPremisesTagSetOnPremisesTagSetListOnPrem
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -4232,7 +4232,7 @@ export class CodedeployDeploymentGroupTagsOutputReference extends cdktn.ComplexO
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -4248,7 +4248,7 @@ export class CodedeployDeploymentGroupTagsOutputReference extends cdktn.ComplexO
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -4404,7 +4404,7 @@ export class CodedeployDeploymentGroupTriggerConfigurationsOutputReference exten
   }
 
   // trigger_events - computed: true, optional: true, required: false
-  private _triggerEvents?: string[];
+  private _triggerEvents?: string[]; 
   public get triggerEvents() {
     return this.getListAttribute('trigger_events');
   }
@@ -4420,7 +4420,7 @@ export class CodedeployDeploymentGroupTriggerConfigurationsOutputReference exten
   }
 
   // trigger_name - computed: true, optional: true, required: false
-  private _triggerName?: string;
+  private _triggerName?: string; 
   public get triggerName() {
     return this.getStringAttribute('trigger_name');
   }
@@ -4436,7 +4436,7 @@ export class CodedeployDeploymentGroupTriggerConfigurationsOutputReference exten
   }
 
   // trigger_target_arn - computed: true, optional: true, required: false
-  private _triggerTargetArn?: string;
+  private _triggerTargetArn?: string; 
   public get triggerTargetArn() {
     return this.getStringAttribute('trigger_target_arn');
   }
@@ -4565,7 +4565,7 @@ export class CodedeployDeploymentGroup extends cdktn.TerraformResource {
   }
 
   // application_name - computed: false, optional: false, required: true
-  private _applicationName?: string;
+  private _applicationName?: string; 
   public get applicationName() {
     return this.getStringAttribute('application_name');
   }
@@ -4594,7 +4594,7 @@ export class CodedeployDeploymentGroup extends cdktn.TerraformResource {
   }
 
   // auto_scaling_groups - computed: true, optional: true, required: false
-  private _autoScalingGroups?: string[];
+  private _autoScalingGroups?: string[]; 
   public get autoScalingGroups() {
     return this.getListAttribute('auto_scaling_groups');
   }
@@ -4642,7 +4642,7 @@ export class CodedeployDeploymentGroup extends cdktn.TerraformResource {
   }
 
   // deployment_config_name - computed: true, optional: true, required: false
-  private _deploymentConfigName?: string;
+  private _deploymentConfigName?: string; 
   public get deploymentConfigName() {
     return this.getStringAttribute('deployment_config_name');
   }
@@ -4658,7 +4658,7 @@ export class CodedeployDeploymentGroup extends cdktn.TerraformResource {
   }
 
   // deployment_group_name - computed: true, optional: true, required: false
-  private _deploymentGroupName?: string;
+  private _deploymentGroupName?: string; 
   public get deploymentGroupName() {
     return this.getStringAttribute('deployment_group_name');
   }
@@ -4791,7 +4791,7 @@ export class CodedeployDeploymentGroup extends cdktn.TerraformResource {
   }
 
   // outdated_instances_strategy - computed: true, optional: true, required: false
-  private _outdatedInstancesStrategy?: string;
+  private _outdatedInstancesStrategy?: string; 
   public get outdatedInstancesStrategy() {
     return this.getStringAttribute('outdated_instances_strategy');
   }
@@ -4807,7 +4807,7 @@ export class CodedeployDeploymentGroup extends cdktn.TerraformResource {
   }
 
   // service_role_arn - computed: false, optional: false, required: true
-  private _serviceRoleArn?: string;
+  private _serviceRoleArn?: string; 
   public get serviceRoleArn() {
     return this.getStringAttribute('service_role_arn');
   }
@@ -4836,7 +4836,7 @@ export class CodedeployDeploymentGroup extends cdktn.TerraformResource {
   }
 
   // termination_hook_enabled - computed: true, optional: true, required: false
-  private _terminationHookEnabled?: boolean | cdktn.IResolvable;
+  private _terminationHookEnabled?: boolean | cdktn.IResolvable; 
   public get terminationHookEnabled() {
     return this.getBooleanAttribute('termination_hook_enabled');
   }

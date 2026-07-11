@@ -170,7 +170,7 @@ export class Apigatewayv2StageAccessLogSettingsOutputReference extends cdktn.Com
   }
 
   // destination_arn - computed: true, optional: true, required: false
-  private _destinationArn?: string;
+  private _destinationArn?: string; 
   public get destinationArn() {
     return this.getStringAttribute('destination_arn');
   }
@@ -186,7 +186,7 @@ export class Apigatewayv2StageAccessLogSettingsOutputReference extends cdktn.Com
   }
 
   // format - computed: true, optional: true, required: false
-  private _format?: string;
+  private _format?: string; 
   public get format() {
     return this.getStringAttribute('format');
   }
@@ -348,7 +348,7 @@ export class Apigatewayv2StageDefaultRouteSettingsOutputReference extends cdktn.
   }
 
   // data_trace_enabled - computed: true, optional: true, required: false
-  private _dataTraceEnabled?: boolean | cdktn.IResolvable;
+  private _dataTraceEnabled?: boolean | cdktn.IResolvable; 
   public get dataTraceEnabled() {
     return this.getBooleanAttribute('data_trace_enabled');
   }
@@ -364,7 +364,7 @@ export class Apigatewayv2StageDefaultRouteSettingsOutputReference extends cdktn.
   }
 
   // detailed_metrics_enabled - computed: true, optional: true, required: false
-  private _detailedMetricsEnabled?: boolean | cdktn.IResolvable;
+  private _detailedMetricsEnabled?: boolean | cdktn.IResolvable; 
   public get detailedMetricsEnabled() {
     return this.getBooleanAttribute('detailed_metrics_enabled');
   }
@@ -380,7 +380,7 @@ export class Apigatewayv2StageDefaultRouteSettingsOutputReference extends cdktn.
   }
 
   // logging_level - computed: true, optional: true, required: false
-  private _loggingLevel?: string;
+  private _loggingLevel?: string; 
   public get loggingLevel() {
     return this.getStringAttribute('logging_level');
   }
@@ -396,7 +396,7 @@ export class Apigatewayv2StageDefaultRouteSettingsOutputReference extends cdktn.
   }
 
   // throttling_burst_limit - computed: true, optional: true, required: false
-  private _throttlingBurstLimit?: number;
+  private _throttlingBurstLimit?: number; 
   public get throttlingBurstLimit() {
     return this.getNumberAttribute('throttling_burst_limit');
   }
@@ -412,7 +412,7 @@ export class Apigatewayv2StageDefaultRouteSettingsOutputReference extends cdktn.
   }
 
   // throttling_rate_limit - computed: true, optional: true, required: false
-  private _throttlingRateLimit?: number;
+  private _throttlingRateLimit?: number; 
   public get throttlingRateLimit() {
     return this.getNumberAttribute('throttling_rate_limit');
   }
@@ -512,7 +512,7 @@ export class Apigatewayv2Stage extends cdktn.TerraformResource {
   }
 
   // api_id - computed: false, optional: false, required: true
-  private _apiId?: string;
+  private _apiId?: string; 
   public get apiId() {
     return this.getStringAttribute('api_id');
   }
@@ -525,7 +525,7 @@ export class Apigatewayv2Stage extends cdktn.TerraformResource {
   }
 
   // auto_deploy - computed: true, optional: true, required: false
-  private _autoDeploy?: boolean | cdktn.IResolvable;
+  private _autoDeploy?: boolean | cdktn.IResolvable; 
   public get autoDeploy() {
     return this.getBooleanAttribute('auto_deploy');
   }
@@ -541,7 +541,7 @@ export class Apigatewayv2Stage extends cdktn.TerraformResource {
   }
 
   // client_certificate_id - computed: true, optional: true, required: false
-  private _clientCertificateId?: string;
+  private _clientCertificateId?: string; 
   public get clientCertificateId() {
     return this.getStringAttribute('client_certificate_id');
   }
@@ -573,7 +573,7 @@ export class Apigatewayv2Stage extends cdktn.TerraformResource {
   }
 
   // deployment_id - computed: true, optional: true, required: false
-  private _deploymentId?: string;
+  private _deploymentId?: string; 
   public get deploymentId() {
     return this.getStringAttribute('deployment_id');
   }
@@ -589,7 +589,7 @@ export class Apigatewayv2Stage extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -610,7 +610,7 @@ export class Apigatewayv2Stage extends cdktn.TerraformResource {
   }
 
   // route_settings - computed: true, optional: true, required: false
-  private _routeSettings?: string;
+  private _routeSettings?: string; 
   public get routeSettings() {
     return this.getStringAttribute('route_settings');
   }
@@ -626,7 +626,7 @@ export class Apigatewayv2Stage extends cdktn.TerraformResource {
   }
 
   // stage_name - computed: false, optional: false, required: true
-  private _stageName?: string;
+  private _stageName?: string; 
   public get stageName() {
     return this.getStringAttribute('stage_name');
   }
@@ -639,7 +639,7 @@ export class Apigatewayv2Stage extends cdktn.TerraformResource {
   }
 
   // stage_variables - computed: true, optional: true, required: false
-  private _stageVariables?: string;
+  private _stageVariables?: string; 
   public get stageVariables() {
     return this.getStringAttribute('stage_variables');
   }
@@ -655,7 +655,7 @@ export class Apigatewayv2Stage extends cdktn.TerraformResource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: string;
+  private _tags?: string; 
   public get tags() {
     return this.getStringAttribute('tags');
   }

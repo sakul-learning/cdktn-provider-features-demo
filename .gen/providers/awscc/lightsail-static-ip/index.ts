@@ -80,7 +80,7 @@ export class LightsailStaticIp extends cdktn.TerraformResource {
   // ==========
 
   // attached_to - computed: true, optional: true, required: false
-  private _attachedTo?: string;
+  private _attachedTo?: string; 
   public get attachedTo() {
     return this.getStringAttribute('attached_to');
   }
@@ -116,7 +116,7 @@ export class LightsailStaticIp extends cdktn.TerraformResource {
   }
 
   // static_ip_name - computed: false, optional: false, required: true
-  private _staticIpName?: string;
+  private _staticIpName?: string; 
   public get staticIpName() {
     return this.getStringAttribute('static_ip_name');
   }

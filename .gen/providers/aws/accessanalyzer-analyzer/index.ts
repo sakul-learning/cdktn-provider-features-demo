@@ -158,7 +158,7 @@ export class AccessanalyzerAnalyzerConfigurationInternalAccessAnalysisRuleInclus
   }
 
   // account_ids - computed: false, optional: true, required: false
-  private _accountIds?: string[];
+  private _accountIds?: string[]; 
   public get accountIds() {
     return this.getListAttribute('account_ids');
   }
@@ -174,7 +174,7 @@ export class AccessanalyzerAnalyzerConfigurationInternalAccessAnalysisRuleInclus
   }
 
   // resource_arns - computed: false, optional: true, required: false
-  private _resourceArns?: string[];
+  private _resourceArns?: string[]; 
   public get resourceArns() {
     return this.getListAttribute('resource_arns');
   }
@@ -190,7 +190,7 @@ export class AccessanalyzerAnalyzerConfigurationInternalAccessAnalysisRuleInclus
   }
 
   // resource_types - computed: false, optional: true, required: false
-  private _resourceTypes?: string[];
+  private _resourceTypes?: string[]; 
   public get resourceTypes() {
     return this.getListAttribute('resource_types');
   }
@@ -495,7 +495,7 @@ export class AccessanalyzerAnalyzerConfigurationUnusedAccessAnalysisRuleExclusio
   }
 
   // account_ids - computed: false, optional: true, required: false
-  private _accountIds?: string[];
+  private _accountIds?: string[]; 
   public get accountIds() {
     return this.getListAttribute('account_ids');
   }
@@ -511,7 +511,7 @@ export class AccessanalyzerAnalyzerConfigurationUnusedAccessAnalysisRuleExclusio
   }
 
   // resource_tags - computed: false, optional: true, required: false
-  private _resourceTags?: { [key: string]: string }[] | cdktn.IResolvable;
+  private _resourceTags?: { [key: string]: string }[] | cdktn.IResolvable; 
   public get resourceTags() {
     return this.interpolationForAttribute('resource_tags');
   }
@@ -720,7 +720,7 @@ export class AccessanalyzerAnalyzerConfigurationUnusedAccessOutputReference exte
   }
 
   // unused_access_age - computed: false, optional: true, required: false
-  private _unusedAccessAge?: number;
+  private _unusedAccessAge?: number; 
   public get unusedAccessAge() {
     return this.getNumberAttribute('unused_access_age');
   }
@@ -937,7 +937,7 @@ export class AccessanalyzerAnalyzer extends cdktn.TerraformResource {
   // ==========
 
   // analyzer_name - computed: false, optional: false, required: true
-  private _analyzerName?: string;
+  private _analyzerName?: string; 
   public get analyzerName() {
     return this.getStringAttribute('analyzer_name');
   }
@@ -955,7 +955,7 @@ export class AccessanalyzerAnalyzer extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -971,7 +971,7 @@ export class AccessanalyzerAnalyzer extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -987,7 +987,7 @@ export class AccessanalyzerAnalyzer extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -1003,7 +1003,7 @@ export class AccessanalyzerAnalyzer extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -1019,7 +1019,7 @@ export class AccessanalyzerAnalyzer extends cdktn.TerraformResource {
   }
 
   // type - computed: false, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }

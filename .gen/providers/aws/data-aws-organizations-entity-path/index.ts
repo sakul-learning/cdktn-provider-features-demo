@@ -71,7 +71,7 @@ export class DataAwsOrganizationsEntityPath extends cdktn.TerraformDataSource {
   // ==========
 
   // entity_id - computed: false, optional: false, required: true
-  private _entityId?: string;
+  private _entityId?: string; 
   public get entityId() {
     return this.getStringAttribute('entity_id');
   }

@@ -119,7 +119,7 @@ export class CloudfrontFunction extends cdktn.TerraformResource {
   }
 
   // code - computed: false, optional: false, required: true
-  private _code?: string;
+  private _code?: string; 
   public get code() {
     return this.getStringAttribute('code');
   }
@@ -132,7 +132,7 @@ export class CloudfrontFunction extends cdktn.TerraformResource {
   }
 
   // comment - computed: false, optional: true, required: false
-  private _comment?: string;
+  private _comment?: string; 
   public get comment() {
     return this.getStringAttribute('comment');
   }
@@ -153,7 +153,7 @@ export class CloudfrontFunction extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -169,7 +169,7 @@ export class CloudfrontFunction extends cdktn.TerraformResource {
   }
 
   // key_value_store_associations - computed: false, optional: true, required: false
-  private _keyValueStoreAssociations?: string[];
+  private _keyValueStoreAssociations?: string[]; 
   public get keyValueStoreAssociations() {
     return cdktn.Fn.tolist(this.getListAttribute('key_value_store_associations'));
   }
@@ -190,7 +190,7 @@ export class CloudfrontFunction extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -203,7 +203,7 @@ export class CloudfrontFunction extends cdktn.TerraformResource {
   }
 
   // publish - computed: false, optional: true, required: false
-  private _publish?: boolean | cdktn.IResolvable;
+  private _publish?: boolean | cdktn.IResolvable; 
   public get publish() {
     return this.getBooleanAttribute('publish');
   }
@@ -219,7 +219,7 @@ export class CloudfrontFunction extends cdktn.TerraformResource {
   }
 
   // runtime - computed: false, optional: false, required: true
-  private _runtime?: string;
+  private _runtime?: string; 
   public get runtime() {
     return this.getStringAttribute('runtime');
   }
@@ -237,7 +237,7 @@ export class CloudfrontFunction extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -253,7 +253,7 @@ export class CloudfrontFunction extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

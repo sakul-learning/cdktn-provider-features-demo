@@ -141,7 +141,7 @@ export class DatapipelinePipelineDefinitionParameterObjectAttributeOutputReferen
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -154,7 +154,7 @@ export class DatapipelinePipelineDefinitionParameterObjectAttributeOutputReferen
   }
 
   // string_value - computed: false, optional: false, required: true
-  private _stringValue?: string;
+  private _stringValue?: string; 
   public get stringValue() {
     return this.getStringAttribute('string_value');
   }
@@ -289,7 +289,7 @@ export class DatapipelinePipelineDefinitionParameterObjectOutputReference extend
   }
 
   // id - computed: false, optional: false, required: true
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -438,7 +438,7 @@ export class DatapipelinePipelineDefinitionParameterValueOutputReference extends
   }
 
   // id - computed: false, optional: false, required: true
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -451,7 +451,7 @@ export class DatapipelinePipelineDefinitionParameterValueOutputReference extends
   }
 
   // string_value - computed: false, optional: false, required: true
-  private _stringValue?: string;
+  private _stringValue?: string; 
   public get stringValue() {
     return this.getStringAttribute('string_value');
   }
@@ -598,7 +598,7 @@ export class DatapipelinePipelineDefinitionPipelineObjectFieldOutputReference ex
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -611,7 +611,7 @@ export class DatapipelinePipelineDefinitionPipelineObjectFieldOutputReference ex
   }
 
   // ref_value - computed: false, optional: true, required: false
-  private _refValue?: string;
+  private _refValue?: string; 
   public get refValue() {
     return this.getStringAttribute('ref_value');
   }
@@ -627,7 +627,7 @@ export class DatapipelinePipelineDefinitionPipelineObjectFieldOutputReference ex
   }
 
   // string_value - computed: false, optional: true, required: false
-  private _stringValue?: string;
+  private _stringValue?: string; 
   public get stringValue() {
     return this.getStringAttribute('string_value');
   }
@@ -782,7 +782,7 @@ export class DatapipelinePipelineDefinitionPipelineObjectOutputReference extends
   }
 
   // id - computed: false, optional: false, required: true
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -795,7 +795,7 @@ export class DatapipelinePipelineDefinitionPipelineObjectOutputReference extends
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -907,7 +907,7 @@ export class DatapipelinePipelineDefinition extends cdktn.TerraformResource {
   // ==========
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -923,7 +923,7 @@ export class DatapipelinePipelineDefinition extends cdktn.TerraformResource {
   }
 
   // pipeline_id - computed: false, optional: false, required: true
-  private _pipelineId?: string;
+  private _pipelineId?: string; 
   public get pipelineId() {
     return this.getStringAttribute('pipeline_id');
   }
@@ -936,7 +936,7 @@ export class DatapipelinePipelineDefinition extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

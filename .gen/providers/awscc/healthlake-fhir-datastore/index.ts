@@ -239,7 +239,7 @@ export class HealthlakeFhirDatastoreIdentityProviderConfigurationOutputReference
   }
 
   // authorization_strategy - computed: true, optional: true, required: false
-  private _authorizationStrategy?: string;
+  private _authorizationStrategy?: string; 
   public get authorizationStrategy() {
     return this.getStringAttribute('authorization_strategy');
   }
@@ -255,7 +255,7 @@ export class HealthlakeFhirDatastoreIdentityProviderConfigurationOutputReference
   }
 
   // fine_grained_authorization_enabled - computed: true, optional: true, required: false
-  private _fineGrainedAuthorizationEnabled?: boolean | cdktn.IResolvable;
+  private _fineGrainedAuthorizationEnabled?: boolean | cdktn.IResolvable; 
   public get fineGrainedAuthorizationEnabled() {
     return this.getBooleanAttribute('fine_grained_authorization_enabled');
   }
@@ -271,7 +271,7 @@ export class HealthlakeFhirDatastoreIdentityProviderConfigurationOutputReference
   }
 
   // idp_lambda_arn - computed: true, optional: true, required: false
-  private _idpLambdaArn?: string;
+  private _idpLambdaArn?: string; 
   public get idpLambdaArn() {
     return this.getStringAttribute('idp_lambda_arn');
   }
@@ -287,7 +287,7 @@ export class HealthlakeFhirDatastoreIdentityProviderConfigurationOutputReference
   }
 
   // metadata - computed: true, optional: true, required: false
-  private _metadata?: string;
+  private _metadata?: string; 
   public get metadata() {
     return this.getStringAttribute('metadata');
   }
@@ -383,7 +383,7 @@ export class HealthlakeFhirDatastorePreloadDataConfigOutputReference extends cdk
   }
 
   // preload_data_type - computed: true, optional: true, required: false
-  private _preloadDataType?: string;
+  private _preloadDataType?: string; 
   public get preloadDataType() {
     return this.getStringAttribute('preload_data_type');
   }
@@ -498,7 +498,7 @@ export class HealthlakeFhirDatastoreSseConfigurationKmsEncryptionConfigOutputRef
   }
 
   // cmk_type - computed: true, optional: true, required: false
-  private _cmkType?: string;
+  private _cmkType?: string; 
   public get cmkType() {
     return this.getStringAttribute('cmk_type');
   }
@@ -514,7 +514,7 @@ export class HealthlakeFhirDatastoreSseConfigurationKmsEncryptionConfigOutputRef
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -727,7 +727,7 @@ export class HealthlakeFhirDatastoreTagsOutputReference extends cdktn.ComplexObj
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -743,7 +743,7 @@ export class HealthlakeFhirDatastoreTagsOutputReference extends cdktn.ComplexObj
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -863,7 +863,7 @@ export class HealthlakeFhirDatastore extends cdktn.TerraformResource {
   }
 
   // datastore_name - computed: true, optional: true, required: false
-  private _datastoreName?: string;
+  private _datastoreName?: string; 
   public get datastoreName() {
     return this.getStringAttribute('datastore_name');
   }
@@ -884,7 +884,7 @@ export class HealthlakeFhirDatastore extends cdktn.TerraformResource {
   }
 
   // datastore_type_version - computed: false, optional: false, required: true
-  private _datastoreTypeVersion?: string;
+  private _datastoreTypeVersion?: string; 
   public get datastoreTypeVersion() {
     return this.getStringAttribute('datastore_type_version');
   }

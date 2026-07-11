@@ -146,7 +146,7 @@ export class Ec2IpamPrefixListResolverTargetTagsOutputReference extends cdktn.Co
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -162,7 +162,7 @@ export class Ec2IpamPrefixListResolverTargetTagsOutputReference extends cdktn.Co
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -261,7 +261,7 @@ export class Ec2IpamPrefixListResolverTarget extends cdktn.TerraformResource {
   // ==========
 
   // desired_version - computed: true, optional: true, required: false
-  private _desiredVersion?: number;
+  private _desiredVersion?: number; 
   public get desiredVersion() {
     return this.getNumberAttribute('desired_version');
   }
@@ -282,7 +282,7 @@ export class Ec2IpamPrefixListResolverTarget extends cdktn.TerraformResource {
   }
 
   // ipam_prefix_list_resolver_id - computed: false, optional: false, required: true
-  private _ipamPrefixListResolverId?: string;
+  private _ipamPrefixListResolverId?: string; 
   public get ipamPrefixListResolverId() {
     return this.getStringAttribute('ipam_prefix_list_resolver_id');
   }
@@ -305,7 +305,7 @@ export class Ec2IpamPrefixListResolverTarget extends cdktn.TerraformResource {
   }
 
   // prefix_list_id - computed: false, optional: false, required: true
-  private _prefixListId?: string;
+  private _prefixListId?: string; 
   public get prefixListId() {
     return this.getStringAttribute('prefix_list_id');
   }
@@ -318,7 +318,7 @@ export class Ec2IpamPrefixListResolverTarget extends cdktn.TerraformResource {
   }
 
   // prefix_list_region - computed: false, optional: false, required: true
-  private _prefixListRegion?: string;
+  private _prefixListRegion?: string; 
   public get prefixListRegion() {
     return this.getStringAttribute('prefix_list_region');
   }
@@ -347,7 +347,7 @@ export class Ec2IpamPrefixListResolverTarget extends cdktn.TerraformResource {
   }
 
   // track_latest_version - computed: false, optional: false, required: true
-  private _trackLatestVersion?: boolean | cdktn.IResolvable;
+  private _trackLatestVersion?: boolean | cdktn.IResolvable; 
   public get trackLatestVersion() {
     return this.getBooleanAttribute('track_latest_version');
   }

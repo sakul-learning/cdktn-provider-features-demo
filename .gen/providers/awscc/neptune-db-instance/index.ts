@@ -15,7 +15,7 @@ export interface NeptuneDbInstanceConfig extends cdktn.TerraformMetaArguments {
   readonly allowMajorVersionUpgrade?: boolean | cdktn.IResolvable;
   /**
   * Indicates that minor version patches are applied automatically.
-  *
+  * 
   * When updating this property, some interruptions may occur.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/neptune_db_instance#auto_minor_version_upgrade NeptuneDbInstance#auto_minor_version_upgrade}
@@ -35,7 +35,7 @@ export interface NeptuneDbInstanceConfig extends cdktn.TerraformMetaArguments {
   readonly dbClusterIdentifier?: string;
   /**
   * Contains the name of the compute and memory capacity class of the DB instance.
-  *
+  * 
   * If you update this property, some interruptions may occur.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/neptune_db_instance#db_instance_class NeptuneDbInstance#db_instance_class}
@@ -55,12 +55,12 @@ export interface NeptuneDbInstanceConfig extends cdktn.TerraformMetaArguments {
   readonly dbParameterGroupName?: string;
   /**
   * This parameter is not supported.
-  *
+  * 
   * `AWS::Neptune::DBInstance` does not support restoring from snapshots.
-  *
+  * 
   * `AWS::Neptune::DBCluster` does support restoring from snapshots.
-  *
-  *
+  * 
+  * 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/neptune_db_instance#db_snapshot_identifier NeptuneDbInstance#db_snapshot_identifier}
   */
@@ -92,13 +92,13 @@ export interface NeptuneDbInstanceConfig extends cdktn.TerraformMetaArguments {
 }
 export interface NeptuneDbInstanceTags {
   /**
-  * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
+  * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/neptune_db_instance#key NeptuneDbInstance#key}
   */
   readonly key?: string;
   /**
-  * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
+  * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/neptune_db_instance#value NeptuneDbInstance#value}
   */
@@ -192,7 +192,7 @@ export class NeptuneDbInstanceTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -208,7 +208,7 @@ export class NeptuneDbInstanceTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -313,7 +313,7 @@ export class NeptuneDbInstance extends cdktn.TerraformResource {
   // ==========
 
   // allow_major_version_upgrade - computed: true, optional: true, required: false
-  private _allowMajorVersionUpgrade?: boolean | cdktn.IResolvable;
+  private _allowMajorVersionUpgrade?: boolean | cdktn.IResolvable; 
   public get allowMajorVersionUpgrade() {
     return this.getBooleanAttribute('allow_major_version_upgrade');
   }
@@ -329,7 +329,7 @@ export class NeptuneDbInstance extends cdktn.TerraformResource {
   }
 
   // auto_minor_version_upgrade - computed: true, optional: true, required: false
-  private _autoMinorVersionUpgrade?: boolean | cdktn.IResolvable;
+  private _autoMinorVersionUpgrade?: boolean | cdktn.IResolvable; 
   public get autoMinorVersionUpgrade() {
     return this.getBooleanAttribute('auto_minor_version_upgrade');
   }
@@ -345,7 +345,7 @@ export class NeptuneDbInstance extends cdktn.TerraformResource {
   }
 
   // availability_zone - computed: true, optional: true, required: false
-  private _availabilityZone?: string;
+  private _availabilityZone?: string; 
   public get availabilityZone() {
     return this.getStringAttribute('availability_zone');
   }
@@ -361,7 +361,7 @@ export class NeptuneDbInstance extends cdktn.TerraformResource {
   }
 
   // db_cluster_identifier - computed: true, optional: true, required: false
-  private _dbClusterIdentifier?: string;
+  private _dbClusterIdentifier?: string; 
   public get dbClusterIdentifier() {
     return this.getStringAttribute('db_cluster_identifier');
   }
@@ -377,7 +377,7 @@ export class NeptuneDbInstance extends cdktn.TerraformResource {
   }
 
   // db_instance_class - computed: false, optional: false, required: true
-  private _dbInstanceClass?: string;
+  private _dbInstanceClass?: string; 
   public get dbInstanceClass() {
     return this.getStringAttribute('db_instance_class');
   }
@@ -390,7 +390,7 @@ export class NeptuneDbInstance extends cdktn.TerraformResource {
   }
 
   // db_instance_identifier - computed: true, optional: true, required: false
-  private _dbInstanceIdentifier?: string;
+  private _dbInstanceIdentifier?: string; 
   public get dbInstanceIdentifier() {
     return this.getStringAttribute('db_instance_identifier');
   }
@@ -406,7 +406,7 @@ export class NeptuneDbInstance extends cdktn.TerraformResource {
   }
 
   // db_parameter_group_name - computed: true, optional: true, required: false
-  private _dbParameterGroupName?: string;
+  private _dbParameterGroupName?: string; 
   public get dbParameterGroupName() {
     return this.getStringAttribute('db_parameter_group_name');
   }
@@ -422,7 +422,7 @@ export class NeptuneDbInstance extends cdktn.TerraformResource {
   }
 
   // db_snapshot_identifier - computed: true, optional: true, required: false
-  private _dbSnapshotIdentifier?: string;
+  private _dbSnapshotIdentifier?: string; 
   public get dbSnapshotIdentifier() {
     return this.getStringAttribute('db_snapshot_identifier');
   }
@@ -438,7 +438,7 @@ export class NeptuneDbInstance extends cdktn.TerraformResource {
   }
 
   // db_subnet_group_name - computed: true, optional: true, required: false
-  private _dbSubnetGroupName?: string;
+  private _dbSubnetGroupName?: string; 
   public get dbSubnetGroupName() {
     return this.getStringAttribute('db_subnet_group_name');
   }
@@ -469,7 +469,7 @@ export class NeptuneDbInstance extends cdktn.TerraformResource {
   }
 
   // preferred_maintenance_window - computed: true, optional: true, required: false
-  private _preferredMaintenanceWindow?: string;
+  private _preferredMaintenanceWindow?: string; 
   public get preferredMaintenanceWindow() {
     return this.getStringAttribute('preferred_maintenance_window');
   }
@@ -485,7 +485,7 @@ export class NeptuneDbInstance extends cdktn.TerraformResource {
   }
 
   // publicly_accessible - computed: true, optional: true, required: false
-  private _publiclyAccessible?: boolean | cdktn.IResolvable;
+  private _publiclyAccessible?: boolean | cdktn.IResolvable; 
   public get publiclyAccessible() {
     return this.getBooleanAttribute('publicly_accessible');
   }

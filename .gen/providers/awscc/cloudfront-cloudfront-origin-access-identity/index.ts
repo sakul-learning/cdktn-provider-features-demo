@@ -95,7 +95,7 @@ export class CloudfrontCloudfrontOriginAccessIdentityCloudfrontOriginAccessIdent
   }
 
   // comment - computed: false, optional: false, required: true
-  private _comment?: string;
+  private _comment?: string; 
   public get comment() {
     return this.getStringAttribute('comment');
   }

@@ -133,7 +133,7 @@ export class AppmeshVirtualNodeSpecBackendVirtualServiceClientPolicyTlsCertifica
   }
 
   // certificate_chain - computed: false, optional: false, required: true
-  private _certificateChain?: string;
+  private _certificateChain?: string; 
   public get certificateChain() {
     return this.getStringAttribute('certificate_chain');
   }
@@ -146,7 +146,7 @@ export class AppmeshVirtualNodeSpecBackendVirtualServiceClientPolicyTlsCertifica
   }
 
   // private_key - computed: false, optional: false, required: true
-  private _privateKey?: string;
+  private _privateKey?: string; 
   public get privateKey() {
     return this.getStringAttribute('private_key');
   }
@@ -227,7 +227,7 @@ export class AppmeshVirtualNodeSpecBackendVirtualServiceClientPolicyTlsCertifica
   }
 
   // secret_name - computed: false, optional: false, required: true
-  private _secretName?: string;
+  private _secretName?: string; 
   public get secretName() {
     return this.getStringAttribute('secret_name');
   }
@@ -429,7 +429,7 @@ export class AppmeshVirtualNodeSpecBackendVirtualServiceClientPolicyTlsValidatio
   }
 
   // exact - computed: false, optional: false, required: true
-  private _exact?: string[];
+  private _exact?: string[]; 
   public get exact() {
     return cdktn.Fn.tolist(this.getListAttribute('exact'));
   }
@@ -593,7 +593,7 @@ export class AppmeshVirtualNodeSpecBackendVirtualServiceClientPolicyTlsValidatio
   }
 
   // certificate_authority_arns - computed: false, optional: false, required: true
-  private _certificateAuthorityArns?: string[];
+  private _certificateAuthorityArns?: string[]; 
   public get certificateAuthorityArns() {
     return cdktn.Fn.tolist(this.getListAttribute('certificate_authority_arns'));
   }
@@ -674,7 +674,7 @@ export class AppmeshVirtualNodeSpecBackendVirtualServiceClientPolicyTlsValidatio
   }
 
   // certificate_chain - computed: false, optional: false, required: true
-  private _certificateChain?: string;
+  private _certificateChain?: string; 
   public get certificateChain() {
     return this.getStringAttribute('certificate_chain');
   }
@@ -755,7 +755,7 @@ export class AppmeshVirtualNodeSpecBackendVirtualServiceClientPolicyTlsValidatio
   }
 
   // secret_name - computed: false, optional: false, required: true
-  private _secretName?: string;
+  private _secretName?: string; 
   public get secretName() {
     return this.getStringAttribute('secret_name');
   }
@@ -1165,7 +1165,7 @@ export class AppmeshVirtualNodeSpecBackendVirtualServiceClientPolicyTlsOutputRef
   }
 
   // enforce - computed: false, optional: true, required: false
-  private _enforce?: boolean | cdktn.IResolvable;
+  private _enforce?: boolean | cdktn.IResolvable; 
   public get enforce() {
     return this.getBooleanAttribute('enforce');
   }
@@ -1181,7 +1181,7 @@ export class AppmeshVirtualNodeSpecBackendVirtualServiceClientPolicyTlsOutputRef
   }
 
   // ports - computed: false, optional: true, required: false
-  private _ports?: number[];
+  private _ports?: number[]; 
   public get ports() {
     return cdktn.Token.asNumberList(cdktn.Fn.tolist(this.getNumberListAttribute('ports')));
   }
@@ -1399,7 +1399,7 @@ export class AppmeshVirtualNodeSpecBackendVirtualServiceOutputReference extends 
   }
 
   // virtual_service_name - computed: false, optional: false, required: true
-  private _virtualServiceName?: string;
+  private _virtualServiceName?: string; 
   public get virtualServiceName() {
     return this.getStringAttribute('virtual_service_name');
   }
@@ -1628,7 +1628,7 @@ export class AppmeshVirtualNodeSpecBackendDefaultsClientPolicyTlsCertificateFile
   }
 
   // certificate_chain - computed: false, optional: false, required: true
-  private _certificateChain?: string;
+  private _certificateChain?: string; 
   public get certificateChain() {
     return this.getStringAttribute('certificate_chain');
   }
@@ -1641,7 +1641,7 @@ export class AppmeshVirtualNodeSpecBackendDefaultsClientPolicyTlsCertificateFile
   }
 
   // private_key - computed: false, optional: false, required: true
-  private _privateKey?: string;
+  private _privateKey?: string; 
   public get privateKey() {
     return this.getStringAttribute('private_key');
   }
@@ -1722,7 +1722,7 @@ export class AppmeshVirtualNodeSpecBackendDefaultsClientPolicyTlsCertificateSdsO
   }
 
   // secret_name - computed: false, optional: false, required: true
-  private _secretName?: string;
+  private _secretName?: string; 
   public get secretName() {
     return this.getStringAttribute('secret_name');
   }
@@ -1924,7 +1924,7 @@ export class AppmeshVirtualNodeSpecBackendDefaultsClientPolicyTlsValidationSubje
   }
 
   // exact - computed: false, optional: false, required: true
-  private _exact?: string[];
+  private _exact?: string[]; 
   public get exact() {
     return cdktn.Fn.tolist(this.getListAttribute('exact'));
   }
@@ -2088,7 +2088,7 @@ export class AppmeshVirtualNodeSpecBackendDefaultsClientPolicyTlsValidationTrust
   }
 
   // certificate_authority_arns - computed: false, optional: false, required: true
-  private _certificateAuthorityArns?: string[];
+  private _certificateAuthorityArns?: string[]; 
   public get certificateAuthorityArns() {
     return cdktn.Fn.tolist(this.getListAttribute('certificate_authority_arns'));
   }
@@ -2169,7 +2169,7 @@ export class AppmeshVirtualNodeSpecBackendDefaultsClientPolicyTlsValidationTrust
   }
 
   // certificate_chain - computed: false, optional: false, required: true
-  private _certificateChain?: string;
+  private _certificateChain?: string; 
   public get certificateChain() {
     return this.getStringAttribute('certificate_chain');
   }
@@ -2250,7 +2250,7 @@ export class AppmeshVirtualNodeSpecBackendDefaultsClientPolicyTlsValidationTrust
   }
 
   // secret_name - computed: false, optional: false, required: true
-  private _secretName?: string;
+  private _secretName?: string; 
   public get secretName() {
     return this.getStringAttribute('secret_name');
   }
@@ -2660,7 +2660,7 @@ export class AppmeshVirtualNodeSpecBackendDefaultsClientPolicyTlsOutputReference
   }
 
   // enforce - computed: false, optional: true, required: false
-  private _enforce?: boolean | cdktn.IResolvable;
+  private _enforce?: boolean | cdktn.IResolvable; 
   public get enforce() {
     return this.getBooleanAttribute('enforce');
   }
@@ -2676,7 +2676,7 @@ export class AppmeshVirtualNodeSpecBackendDefaultsClientPolicyTlsOutputReference
   }
 
   // ports - computed: false, optional: true, required: false
-  private _ports?: number[];
+  private _ports?: number[]; 
   public get ports() {
     return cdktn.Token.asNumberList(cdktn.Fn.tolist(this.getNumberListAttribute('ports')));
   }
@@ -2961,7 +2961,7 @@ export class AppmeshVirtualNodeSpecListenerConnectionPoolGrpcOutputReference ext
   }
 
   // max_requests - computed: false, optional: false, required: true
-  private _maxRequests?: number;
+  private _maxRequests?: number; 
   public get maxRequests() {
     return this.getNumberAttribute('max_requests');
   }
@@ -3071,7 +3071,7 @@ export class AppmeshVirtualNodeSpecListenerConnectionPoolHttpOutputReference ext
   }
 
   // max_connections - computed: false, optional: false, required: true
-  private _maxConnections?: number;
+  private _maxConnections?: number; 
   public get maxConnections() {
     return this.getNumberAttribute('max_connections');
   }
@@ -3084,7 +3084,7 @@ export class AppmeshVirtualNodeSpecListenerConnectionPoolHttpOutputReference ext
   }
 
   // max_pending_requests - computed: false, optional: true, required: false
-  private _maxPendingRequests?: number;
+  private _maxPendingRequests?: number; 
   public get maxPendingRequests() {
     return this.getNumberAttribute('max_pending_requests');
   }
@@ -3200,7 +3200,7 @@ export class AppmeshVirtualNodeSpecListenerConnectionPoolHttp2OutputReference ex
   }
 
   // max_requests - computed: false, optional: false, required: true
-  private _maxRequests?: number;
+  private _maxRequests?: number; 
   public get maxRequests() {
     return this.getNumberAttribute('max_requests');
   }
@@ -3313,7 +3313,7 @@ export class AppmeshVirtualNodeSpecListenerConnectionPoolTcpOutputReference exte
   }
 
   // max_connections - computed: false, optional: false, required: true
-  private _maxConnections?: number;
+  private _maxConnections?: number; 
   public get maxConnections() {
     return this.getNumberAttribute('max_connections');
   }
@@ -3707,7 +3707,7 @@ export class AppmeshVirtualNodeSpecListenerHealthCheckOutputReference extends cd
   }
 
   // healthy_threshold - computed: false, optional: false, required: true
-  private _healthyThreshold?: number;
+  private _healthyThreshold?: number; 
   public get healthyThreshold() {
     return this.getNumberAttribute('healthy_threshold');
   }
@@ -3720,7 +3720,7 @@ export class AppmeshVirtualNodeSpecListenerHealthCheckOutputReference extends cd
   }
 
   // interval_millis - computed: false, optional: false, required: true
-  private _intervalMillis?: number;
+  private _intervalMillis?: number; 
   public get intervalMillis() {
     return this.getNumberAttribute('interval_millis');
   }
@@ -3733,7 +3733,7 @@ export class AppmeshVirtualNodeSpecListenerHealthCheckOutputReference extends cd
   }
 
   // path - computed: false, optional: true, required: false
-  private _path?: string;
+  private _path?: string; 
   public get path() {
     return this.getStringAttribute('path');
   }
@@ -3749,7 +3749,7 @@ export class AppmeshVirtualNodeSpecListenerHealthCheckOutputReference extends cd
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -3765,7 +3765,7 @@ export class AppmeshVirtualNodeSpecListenerHealthCheckOutputReference extends cd
   }
 
   // protocol - computed: false, optional: false, required: true
-  private _protocol?: string;
+  private _protocol?: string; 
   public get protocol() {
     return this.getStringAttribute('protocol');
   }
@@ -3778,7 +3778,7 @@ export class AppmeshVirtualNodeSpecListenerHealthCheckOutputReference extends cd
   }
 
   // timeout_millis - computed: false, optional: false, required: true
-  private _timeoutMillis?: number;
+  private _timeoutMillis?: number; 
   public get timeoutMillis() {
     return this.getNumberAttribute('timeout_millis');
   }
@@ -3791,7 +3791,7 @@ export class AppmeshVirtualNodeSpecListenerHealthCheckOutputReference extends cd
   }
 
   // unhealthy_threshold - computed: false, optional: false, required: true
-  private _unhealthyThreshold?: number;
+  private _unhealthyThreshold?: number; 
   public get unhealthyThreshold() {
     return this.getNumberAttribute('unhealthy_threshold');
   }
@@ -3889,7 +3889,7 @@ export class AppmeshVirtualNodeSpecListenerOutlierDetectionBaseEjectionDurationO
   }
 
   // unit - computed: false, optional: false, required: true
-  private _unit?: string;
+  private _unit?: string; 
   public get unit() {
     return this.getStringAttribute('unit');
   }
@@ -3902,7 +3902,7 @@ export class AppmeshVirtualNodeSpecListenerOutlierDetectionBaseEjectionDurationO
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: number;
+  private _value?: number; 
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -4000,7 +4000,7 @@ export class AppmeshVirtualNodeSpecListenerOutlierDetectionIntervalOutputReferen
   }
 
   // unit - computed: false, optional: false, required: true
-  private _unit?: string;
+  private _unit?: string; 
   public get unit() {
     return this.getStringAttribute('unit');
   }
@@ -4013,7 +4013,7 @@ export class AppmeshVirtualNodeSpecListenerOutlierDetectionIntervalOutputReferen
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: number;
+  private _value?: number; 
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -4149,7 +4149,7 @@ export class AppmeshVirtualNodeSpecListenerOutlierDetectionOutputReference exten
   }
 
   // max_ejection_percent - computed: false, optional: false, required: true
-  private _maxEjectionPercent?: number;
+  private _maxEjectionPercent?: number; 
   public get maxEjectionPercent() {
     return this.getNumberAttribute('max_ejection_percent');
   }
@@ -4162,7 +4162,7 @@ export class AppmeshVirtualNodeSpecListenerOutlierDetectionOutputReference exten
   }
 
   // max_server_errors - computed: false, optional: false, required: true
-  private _maxServerErrors?: number;
+  private _maxServerErrors?: number; 
   public get maxServerErrors() {
     return this.getNumberAttribute('max_server_errors');
   }
@@ -4286,7 +4286,7 @@ export class AppmeshVirtualNodeSpecListenerPortMappingOutputReference extends cd
   }
 
   // port - computed: false, optional: false, required: true
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -4299,7 +4299,7 @@ export class AppmeshVirtualNodeSpecListenerPortMappingOutputReference extends cd
   }
 
   // protocol - computed: false, optional: false, required: true
-  private _protocol?: string;
+  private _protocol?: string; 
   public get protocol() {
     return this.getStringAttribute('protocol');
   }
@@ -4397,7 +4397,7 @@ export class AppmeshVirtualNodeSpecListenerTimeoutGrpcIdleOutputReference extend
   }
 
   // unit - computed: false, optional: false, required: true
-  private _unit?: string;
+  private _unit?: string; 
   public get unit() {
     return this.getStringAttribute('unit');
   }
@@ -4410,7 +4410,7 @@ export class AppmeshVirtualNodeSpecListenerTimeoutGrpcIdleOutputReference extend
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: number;
+  private _value?: number; 
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -4508,7 +4508,7 @@ export class AppmeshVirtualNodeSpecListenerTimeoutGrpcPerRequestOutputReference 
   }
 
   // unit - computed: false, optional: false, required: true
-  private _unit?: string;
+  private _unit?: string; 
   public get unit() {
     return this.getStringAttribute('unit');
   }
@@ -4521,7 +4521,7 @@ export class AppmeshVirtualNodeSpecListenerTimeoutGrpcPerRequestOutputReference 
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: number;
+  private _value?: number; 
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -4740,7 +4740,7 @@ export class AppmeshVirtualNodeSpecListenerTimeoutHttpIdleOutputReference extend
   }
 
   // unit - computed: false, optional: false, required: true
-  private _unit?: string;
+  private _unit?: string; 
   public get unit() {
     return this.getStringAttribute('unit');
   }
@@ -4753,7 +4753,7 @@ export class AppmeshVirtualNodeSpecListenerTimeoutHttpIdleOutputReference extend
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: number;
+  private _value?: number; 
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -4851,7 +4851,7 @@ export class AppmeshVirtualNodeSpecListenerTimeoutHttpPerRequestOutputReference 
   }
 
   // unit - computed: false, optional: false, required: true
-  private _unit?: string;
+  private _unit?: string; 
   public get unit() {
     return this.getStringAttribute('unit');
   }
@@ -4864,7 +4864,7 @@ export class AppmeshVirtualNodeSpecListenerTimeoutHttpPerRequestOutputReference 
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: number;
+  private _value?: number; 
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -5083,7 +5083,7 @@ export class AppmeshVirtualNodeSpecListenerTimeoutHttp2IdleOutputReference exten
   }
 
   // unit - computed: false, optional: false, required: true
-  private _unit?: string;
+  private _unit?: string; 
   public get unit() {
     return this.getStringAttribute('unit');
   }
@@ -5096,7 +5096,7 @@ export class AppmeshVirtualNodeSpecListenerTimeoutHttp2IdleOutputReference exten
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: number;
+  private _value?: number; 
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -5194,7 +5194,7 @@ export class AppmeshVirtualNodeSpecListenerTimeoutHttp2PerRequestOutputReference
   }
 
   // unit - computed: false, optional: false, required: true
-  private _unit?: string;
+  private _unit?: string; 
   public get unit() {
     return this.getStringAttribute('unit');
   }
@@ -5207,7 +5207,7 @@ export class AppmeshVirtualNodeSpecListenerTimeoutHttp2PerRequestOutputReference
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: number;
+  private _value?: number; 
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -5426,7 +5426,7 @@ export class AppmeshVirtualNodeSpecListenerTimeoutTcpIdleOutputReference extends
   }
 
   // unit - computed: false, optional: false, required: true
-  private _unit?: string;
+  private _unit?: string; 
   public get unit() {
     return this.getStringAttribute('unit');
   }
@@ -5439,7 +5439,7 @@ export class AppmeshVirtualNodeSpecListenerTimeoutTcpIdleOutputReference extends
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: number;
+  private _value?: number; 
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -5797,7 +5797,7 @@ export class AppmeshVirtualNodeSpecListenerTlsCertificateAcmOutputReference exte
   }
 
   // certificate_arn - computed: false, optional: false, required: true
-  private _certificateArn?: string;
+  private _certificateArn?: string; 
   public get certificateArn() {
     return this.getStringAttribute('certificate_arn');
   }
@@ -5895,7 +5895,7 @@ export class AppmeshVirtualNodeSpecListenerTlsCertificateFileOutputReference ext
   }
 
   // certificate_chain - computed: false, optional: false, required: true
-  private _certificateChain?: string;
+  private _certificateChain?: string; 
   public get certificateChain() {
     return this.getStringAttribute('certificate_chain');
   }
@@ -5908,7 +5908,7 @@ export class AppmeshVirtualNodeSpecListenerTlsCertificateFileOutputReference ext
   }
 
   // private_key - computed: false, optional: false, required: true
-  private _privateKey?: string;
+  private _privateKey?: string; 
   public get privateKey() {
     return this.getStringAttribute('private_key');
   }
@@ -5989,7 +5989,7 @@ export class AppmeshVirtualNodeSpecListenerTlsCertificateSdsOutputReference exte
   }
 
   // secret_name - computed: false, optional: false, required: true
-  private _secretName?: string;
+  private _secretName?: string; 
   public get secretName() {
     return this.getStringAttribute('secret_name');
   }
@@ -6226,7 +6226,7 @@ export class AppmeshVirtualNodeSpecListenerTlsValidationSubjectAlternativeNamesM
   }
 
   // exact - computed: false, optional: false, required: true
-  private _exact?: string[];
+  private _exact?: string[]; 
   public get exact() {
     return cdktn.Fn.tolist(this.getListAttribute('exact'));
   }
@@ -6390,7 +6390,7 @@ export class AppmeshVirtualNodeSpecListenerTlsValidationTrustFileOutputReference
   }
 
   // certificate_chain - computed: false, optional: false, required: true
-  private _certificateChain?: string;
+  private _certificateChain?: string; 
   public get certificateChain() {
     return this.getStringAttribute('certificate_chain');
   }
@@ -6471,7 +6471,7 @@ export class AppmeshVirtualNodeSpecListenerTlsValidationTrustSdsOutputReference 
   }
 
   // secret_name - computed: false, optional: false, required: true
-  private _secretName?: string;
+  private _secretName?: string; 
   public get secretName() {
     return this.getStringAttribute('secret_name');
   }
@@ -6829,7 +6829,7 @@ export class AppmeshVirtualNodeSpecListenerTlsOutputReference extends cdktn.Comp
   }
 
   // mode - computed: false, optional: false, required: true
-  private _mode?: string;
+  private _mode?: string; 
   public get mode() {
     return this.getStringAttribute('mode');
   }
@@ -7258,7 +7258,7 @@ export class AppmeshVirtualNodeSpecLoggingAccessLogFileFormatJsonOutputReference
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -7271,7 +7271,7 @@ export class AppmeshVirtualNodeSpecLoggingAccessLogFileFormatJsonOutputReference
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -7391,7 +7391,7 @@ export class AppmeshVirtualNodeSpecLoggingAccessLogFileFormatOutputReference ext
   }
 
   // text - computed: false, optional: true, required: false
-  private _text?: string;
+  private _text?: string; 
   public get text() {
     return this.getStringAttribute('text');
   }
@@ -7510,7 +7510,7 @@ export class AppmeshVirtualNodeSpecLoggingAccessLogFileOutputReference extends c
   }
 
   // path - computed: false, optional: false, required: true
-  private _path?: string;
+  private _path?: string; 
   public get path() {
     return this.getStringAttribute('path');
   }
@@ -7813,7 +7813,7 @@ export class AppmeshVirtualNodeSpecServiceDiscoveryAwsCloudMapOutputReference ex
   }
 
   // attributes - computed: false, optional: true, required: false
-  private _attributes?: { [key: string]: string };
+  private _attributes?: { [key: string]: string }; 
   public get attributes() {
     return this.getStringMapAttribute('attributes');
   }
@@ -7829,7 +7829,7 @@ export class AppmeshVirtualNodeSpecServiceDiscoveryAwsCloudMapOutputReference ex
   }
 
   // namespace_name - computed: false, optional: false, required: true
-  private _namespaceName?: string;
+  private _namespaceName?: string; 
   public get namespaceName() {
     return this.getStringAttribute('namespace_name');
   }
@@ -7842,7 +7842,7 @@ export class AppmeshVirtualNodeSpecServiceDiscoveryAwsCloudMapOutputReference ex
   }
 
   // service_name - computed: false, optional: false, required: true
-  private _serviceName?: string;
+  private _serviceName?: string; 
   public get serviceName() {
     return this.getStringAttribute('service_name');
   }
@@ -7957,7 +7957,7 @@ export class AppmeshVirtualNodeSpecServiceDiscoveryDnsOutputReference extends cd
   }
 
   // hostname - computed: false, optional: false, required: true
-  private _hostname?: string;
+  private _hostname?: string; 
   public get hostname() {
     return this.getStringAttribute('hostname');
   }
@@ -7970,7 +7970,7 @@ export class AppmeshVirtualNodeSpecServiceDiscoveryDnsOutputReference extends cd
   }
 
   // ip_preference - computed: false, optional: true, required: false
-  private _ipPreference?: string;
+  private _ipPreference?: string; 
   public get ipPreference() {
     return this.getStringAttribute('ip_preference');
   }
@@ -7986,7 +7986,7 @@ export class AppmeshVirtualNodeSpecServiceDiscoveryDnsOutputReference extends cd
   }
 
   // response_type - computed: false, optional: true, required: false
-  private _responseType?: string;
+  private _responseType?: string; 
   public get responseType() {
     return this.getStringAttribute('response_type');
   }
@@ -8424,7 +8424,7 @@ export class AppmeshVirtualNode extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -8445,7 +8445,7 @@ export class AppmeshVirtualNode extends cdktn.TerraformResource {
   }
 
   // mesh_name - computed: false, optional: false, required: true
-  private _meshName?: string;
+  private _meshName?: string; 
   public get meshName() {
     return this.getStringAttribute('mesh_name');
   }
@@ -8458,7 +8458,7 @@ export class AppmeshVirtualNode extends cdktn.TerraformResource {
   }
 
   // mesh_owner - computed: true, optional: true, required: false
-  private _meshOwner?: string;
+  private _meshOwner?: string; 
   public get meshOwner() {
     return this.getStringAttribute('mesh_owner');
   }
@@ -8474,7 +8474,7 @@ export class AppmeshVirtualNode extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -8487,7 +8487,7 @@ export class AppmeshVirtualNode extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -8508,7 +8508,7 @@ export class AppmeshVirtualNode extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -8524,7 +8524,7 @@ export class AppmeshVirtualNode extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

@@ -52,13 +52,13 @@ export interface ConnectPhoneNumberConfig extends cdktn.TerraformMetaArguments {
 }
 export interface ConnectPhoneNumberTags {
   /**
-  * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
+  * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_phone_number#key ConnectPhoneNumber#key}
   */
   readonly key?: string;
   /**
-  * The value for the tag. You can specify a value that is 1 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
+  * The value for the tag. You can specify a value that is 1 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_phone_number#value ConnectPhoneNumber#value}
   */
@@ -152,7 +152,7 @@ export class ConnectPhoneNumberTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -168,7 +168,7 @@ export class ConnectPhoneNumberTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -273,7 +273,7 @@ export class ConnectPhoneNumber extends cdktn.TerraformResource {
   }
 
   // country_code - computed: true, optional: true, required: false
-  private _countryCode?: string;
+  private _countryCode?: string; 
   public get countryCode() {
     return this.getStringAttribute('country_code');
   }
@@ -289,7 +289,7 @@ export class ConnectPhoneNumber extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -315,7 +315,7 @@ export class ConnectPhoneNumber extends cdktn.TerraformResource {
   }
 
   // prefix - computed: true, optional: true, required: false
-  private _prefix?: string;
+  private _prefix?: string; 
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -331,7 +331,7 @@ export class ConnectPhoneNumber extends cdktn.TerraformResource {
   }
 
   // source_phone_number_arn - computed: true, optional: true, required: false
-  private _sourcePhoneNumberArn?: string;
+  private _sourcePhoneNumberArn?: string; 
   public get sourcePhoneNumberArn() {
     return this.getStringAttribute('source_phone_number_arn');
   }
@@ -363,7 +363,7 @@ export class ConnectPhoneNumber extends cdktn.TerraformResource {
   }
 
   // target_arn - computed: false, optional: false, required: true
-  private _targetArn?: string;
+  private _targetArn?: string; 
   public get targetArn() {
     return this.getStringAttribute('target_arn');
   }
@@ -376,7 +376,7 @@ export class ConnectPhoneNumber extends cdktn.TerraformResource {
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }

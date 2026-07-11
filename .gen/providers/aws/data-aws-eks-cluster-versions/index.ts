@@ -213,7 +213,7 @@ export class DataAwsEksClusterVersions extends cdktn.TerraformDataSource {
   // ==========
 
   // cluster_type - computed: false, optional: true, required: false
-  private _clusterType?: string;
+  private _clusterType?: string; 
   public get clusterType() {
     return this.getStringAttribute('cluster_type');
   }
@@ -235,7 +235,7 @@ export class DataAwsEksClusterVersions extends cdktn.TerraformDataSource {
   }
 
   // cluster_versions_only - computed: false, optional: true, required: false
-  private _clusterVersionsOnly?: string[];
+  private _clusterVersionsOnly?: string[]; 
   public get clusterVersionsOnly() {
     return this.getListAttribute('cluster_versions_only');
   }
@@ -251,7 +251,7 @@ export class DataAwsEksClusterVersions extends cdktn.TerraformDataSource {
   }
 
   // default_only - computed: false, optional: true, required: false
-  private _defaultOnly?: boolean | cdktn.IResolvable;
+  private _defaultOnly?: boolean | cdktn.IResolvable; 
   public get defaultOnly() {
     return this.getBooleanAttribute('default_only');
   }
@@ -267,7 +267,7 @@ export class DataAwsEksClusterVersions extends cdktn.TerraformDataSource {
   }
 
   // include_all - computed: false, optional: true, required: false
-  private _includeAll?: boolean | cdktn.IResolvable;
+  private _includeAll?: boolean | cdktn.IResolvable; 
   public get includeAll() {
     return this.getBooleanAttribute('include_all');
   }
@@ -283,7 +283,7 @@ export class DataAwsEksClusterVersions extends cdktn.TerraformDataSource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -299,7 +299,7 @@ export class DataAwsEksClusterVersions extends cdktn.TerraformDataSource {
   }
 
   // version_status - computed: false, optional: true, required: false
-  private _versionStatus?: string;
+  private _versionStatus?: string; 
   public get versionStatus() {
     return this.getStringAttribute('version_status');
   }

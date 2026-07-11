@@ -145,7 +145,7 @@ export class RtbfabricResponderGatewayListenerConfigOutputReference extends cdkt
   }
 
   // protocols - computed: true, optional: true, required: false
-  private _protocols?: string[];
+  private _protocols?: string[]; 
   public get protocols() {
     return this.getListAttribute('protocols');
   }
@@ -358,7 +358,7 @@ export class RtbfabricResponderGatewayManagedEndpointConfigurationAutoScalingGro
   }
 
   // healthy_threshold_count - computed: true, optional: true, required: false
-  private _healthyThresholdCount?: number;
+  private _healthyThresholdCount?: number; 
   public get healthyThresholdCount() {
     return this.getNumberAttribute('healthy_threshold_count');
   }
@@ -374,7 +374,7 @@ export class RtbfabricResponderGatewayManagedEndpointConfigurationAutoScalingGro
   }
 
   // interval_seconds - computed: true, optional: true, required: false
-  private _intervalSeconds?: number;
+  private _intervalSeconds?: number; 
   public get intervalSeconds() {
     return this.getNumberAttribute('interval_seconds');
   }
@@ -390,7 +390,7 @@ export class RtbfabricResponderGatewayManagedEndpointConfigurationAutoScalingGro
   }
 
   // path - computed: true, optional: true, required: false
-  private _path?: string;
+  private _path?: string; 
   public get path() {
     return this.getStringAttribute('path');
   }
@@ -406,7 +406,7 @@ export class RtbfabricResponderGatewayManagedEndpointConfigurationAutoScalingGro
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -422,7 +422,7 @@ export class RtbfabricResponderGatewayManagedEndpointConfigurationAutoScalingGro
   }
 
   // protocol - computed: true, optional: true, required: false
-  private _protocol?: string;
+  private _protocol?: string; 
   public get protocol() {
     return this.getStringAttribute('protocol');
   }
@@ -438,7 +438,7 @@ export class RtbfabricResponderGatewayManagedEndpointConfigurationAutoScalingGro
   }
 
   // status_code_matcher - computed: true, optional: true, required: false
-  private _statusCodeMatcher?: string;
+  private _statusCodeMatcher?: string; 
   public get statusCodeMatcher() {
     return this.getStringAttribute('status_code_matcher');
   }
@@ -454,7 +454,7 @@ export class RtbfabricResponderGatewayManagedEndpointConfigurationAutoScalingGro
   }
 
   // timeout_ms - computed: true, optional: true, required: false
-  private _timeoutMs?: number;
+  private _timeoutMs?: number; 
   public get timeoutMs() {
     return this.getNumberAttribute('timeout_ms');
   }
@@ -470,7 +470,7 @@ export class RtbfabricResponderGatewayManagedEndpointConfigurationAutoScalingGro
   }
 
   // unhealthy_threshold_count - computed: true, optional: true, required: false
-  private _unhealthyThresholdCount?: number;
+  private _unhealthyThresholdCount?: number; 
   public get unhealthyThresholdCount() {
     return this.getNumberAttribute('unhealthy_threshold_count');
   }
@@ -598,7 +598,7 @@ export class RtbfabricResponderGatewayManagedEndpointConfigurationAutoScalingGro
   }
 
   // auto_scaling_group_name_list - computed: true, optional: true, required: false
-  private _autoScalingGroupNameList?: string[];
+  private _autoScalingGroupNameList?: string[]; 
   public get autoScalingGroupNameList() {
     return cdktn.Fn.tolist(this.getListAttribute('auto_scaling_group_name_list'));
   }
@@ -630,7 +630,7 @@ export class RtbfabricResponderGatewayManagedEndpointConfigurationAutoScalingGro
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -809,7 +809,7 @@ export class RtbfabricResponderGatewayManagedEndpointConfigurationEksEndpointsCo
   }
 
   // cluster_api_server_ca_certificate_chain - computed: true, optional: true, required: false
-  private _clusterApiServerCaCertificateChain?: string;
+  private _clusterApiServerCaCertificateChain?: string; 
   public get clusterApiServerCaCertificateChain() {
     return this.getStringAttribute('cluster_api_server_ca_certificate_chain');
   }
@@ -825,7 +825,7 @@ export class RtbfabricResponderGatewayManagedEndpointConfigurationEksEndpointsCo
   }
 
   // cluster_api_server_endpoint_uri - computed: true, optional: true, required: false
-  private _clusterApiServerEndpointUri?: string;
+  private _clusterApiServerEndpointUri?: string; 
   public get clusterApiServerEndpointUri() {
     return this.getStringAttribute('cluster_api_server_endpoint_uri');
   }
@@ -841,7 +841,7 @@ export class RtbfabricResponderGatewayManagedEndpointConfigurationEksEndpointsCo
   }
 
   // cluster_name - computed: true, optional: true, required: false
-  private _clusterName?: string;
+  private _clusterName?: string; 
   public get clusterName() {
     return this.getStringAttribute('cluster_name');
   }
@@ -857,7 +857,7 @@ export class RtbfabricResponderGatewayManagedEndpointConfigurationEksEndpointsCo
   }
 
   // endpoints_resource_name - computed: true, optional: true, required: false
-  private _endpointsResourceName?: string;
+  private _endpointsResourceName?: string; 
   public get endpointsResourceName() {
     return this.getStringAttribute('endpoints_resource_name');
   }
@@ -873,7 +873,7 @@ export class RtbfabricResponderGatewayManagedEndpointConfigurationEksEndpointsCo
   }
 
   // endpoints_resource_namespace - computed: true, optional: true, required: false
-  private _endpointsResourceNamespace?: string;
+  private _endpointsResourceNamespace?: string; 
   public get endpointsResourceNamespace() {
     return this.getStringAttribute('endpoints_resource_namespace');
   }
@@ -889,7 +889,7 @@ export class RtbfabricResponderGatewayManagedEndpointConfigurationEksEndpointsCo
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -1033,13 +1033,13 @@ export class RtbfabricResponderGatewayManagedEndpointConfigurationOutputReferenc
 }
 export interface RtbfabricResponderGatewayTags {
   /**
-  * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
+  * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_responder_gateway#key RtbfabricResponderGateway#key}
   */
   readonly key?: string;
   /**
-  * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
+  * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_responder_gateway#value RtbfabricResponderGateway#value}
   */
@@ -1133,7 +1133,7 @@ export class RtbfabricResponderGatewayTagsOutputReference extends cdktn.ComplexO
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1149,7 +1149,7 @@ export class RtbfabricResponderGatewayTagsOutputReference extends cdktn.ComplexO
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1263,7 +1263,7 @@ export class RtbfabricResponderGatewayTrustStoreConfigurationOutputReference ext
   }
 
   // certificate_authority_certificates - computed: true, optional: true, required: false
-  private _certificateAuthorityCertificates?: string[];
+  private _certificateAuthorityCertificates?: string[]; 
   public get certificateAuthorityCertificates() {
     return cdktn.Fn.tolist(this.getListAttribute('certificate_authority_certificates'));
   }
@@ -1349,7 +1349,7 @@ export class RtbfabricResponderGateway extends cdktn.TerraformResource {
   // ==========
 
   // acm_certificate_arn - computed: true, optional: true, required: false
-  private _acmCertificateArn?: string;
+  private _acmCertificateArn?: string; 
   public get acmCertificateArn() {
     return this.getStringAttribute('acm_certificate_arn');
   }
@@ -1380,7 +1380,7 @@ export class RtbfabricResponderGateway extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1396,7 +1396,7 @@ export class RtbfabricResponderGateway extends cdktn.TerraformResource {
   }
 
   // domain_name - computed: true, optional: true, required: false
-  private _domainName?: string;
+  private _domainName?: string; 
   public get domainName() {
     return this.getStringAttribute('domain_name');
   }
@@ -1422,7 +1422,7 @@ export class RtbfabricResponderGateway extends cdktn.TerraformResource {
   }
 
   // gateway_type - computed: true, optional: true, required: false
-  private _gatewayType?: string;
+  private _gatewayType?: string; 
   public get gatewayType() {
     return this.getStringAttribute('gateway_type');
   }
@@ -1475,7 +1475,7 @@ export class RtbfabricResponderGateway extends cdktn.TerraformResource {
   }
 
   // port - computed: false, optional: false, required: true
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -1488,7 +1488,7 @@ export class RtbfabricResponderGateway extends cdktn.TerraformResource {
   }
 
   // protocol - computed: false, optional: false, required: true
-  private _protocol?: string;
+  private _protocol?: string; 
   public get protocol() {
     return this.getStringAttribute('protocol');
   }
@@ -1506,7 +1506,7 @@ export class RtbfabricResponderGateway extends cdktn.TerraformResource {
   }
 
   // security_group_ids - computed: false, optional: false, required: true
-  private _securityGroupIds?: string[];
+  private _securityGroupIds?: string[]; 
   public get securityGroupIds() {
     return cdktn.Fn.tolist(this.getListAttribute('security_group_ids'));
   }
@@ -1519,7 +1519,7 @@ export class RtbfabricResponderGateway extends cdktn.TerraformResource {
   }
 
   // subnet_ids - computed: false, optional: false, required: true
-  private _subnetIds?: string[];
+  private _subnetIds?: string[]; 
   public get subnetIds() {
     return cdktn.Fn.tolist(this.getListAttribute('subnet_ids'));
   }
@@ -1569,7 +1569,7 @@ export class RtbfabricResponderGateway extends cdktn.TerraformResource {
   }
 
   // vpc_id - computed: false, optional: false, required: true
-  private _vpcId?: string;
+  private _vpcId?: string; 
   public get vpcId() {
     return this.getStringAttribute('vpc_id');
   }

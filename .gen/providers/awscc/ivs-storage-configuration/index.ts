@@ -107,7 +107,7 @@ export class IvsStorageConfigurationS3OutputReference extends cdktn.ComplexObjec
   }
 
   // bucket_name - computed: false, optional: false, required: true
-  private _bucketName?: string;
+  private _bucketName?: string; 
   public get bucketName() {
     return this.getStringAttribute('bucket_name');
   }
@@ -221,7 +221,7 @@ export class IvsStorageConfigurationTagsOutputReference extends cdktn.ComplexObj
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -237,7 +237,7 @@ export class IvsStorageConfigurationTagsOutputReference extends cdktn.ComplexObj
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -343,7 +343,7 @@ export class IvsStorageConfiguration extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }

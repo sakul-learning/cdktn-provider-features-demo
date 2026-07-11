@@ -91,7 +91,7 @@ export class LightsailStaticIpAttachment extends cdktn.TerraformResource {
   // ==========
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -107,7 +107,7 @@ export class LightsailStaticIpAttachment extends cdktn.TerraformResource {
   }
 
   // instance_name - computed: false, optional: false, required: true
-  private _instanceName?: string;
+  private _instanceName?: string; 
   public get instanceName() {
     return this.getStringAttribute('instance_name');
   }
@@ -125,7 +125,7 @@ export class LightsailStaticIpAttachment extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -141,7 +141,7 @@ export class LightsailStaticIpAttachment extends cdktn.TerraformResource {
   }
 
   // static_ip_name - computed: false, optional: false, required: true
-  private _staticIpName?: string;
+  private _staticIpName?: string; 
   public get staticIpName() {
     return this.getStringAttribute('static_ip_name');
   }

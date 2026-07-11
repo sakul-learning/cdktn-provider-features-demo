@@ -84,7 +84,7 @@ export class CeCostAllocationTag extends cdktn.TerraformResource {
   // ==========
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -100,7 +100,7 @@ export class CeCostAllocationTag extends cdktn.TerraformResource {
   }
 
   // status - computed: false, optional: false, required: true
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -113,7 +113,7 @@ export class CeCostAllocationTag extends cdktn.TerraformResource {
   }
 
   // tag_key - computed: false, optional: false, required: true
-  private _tagKey?: string;
+  private _tagKey?: string; 
   public get tagKey() {
     return this.getStringAttribute('tag_key');
   }

@@ -128,7 +128,7 @@ export class AppsyncDomainNameTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -144,7 +144,7 @@ export class AppsyncDomainNameTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -246,7 +246,7 @@ export class AppsyncDomainName extends cdktn.TerraformResource {
   }
 
   // certificate_arn - computed: false, optional: false, required: true
-  private _certificateArn?: string;
+  private _certificateArn?: string; 
   public get certificateArn() {
     return this.getStringAttribute('certificate_arn');
   }
@@ -259,7 +259,7 @@ export class AppsyncDomainName extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -275,7 +275,7 @@ export class AppsyncDomainName extends cdktn.TerraformResource {
   }
 
   // domain_name - computed: false, optional: false, required: true
-  private _domainName?: string;
+  private _domainName?: string; 
   public get domainName() {
     return this.getStringAttribute('domain_name');
   }

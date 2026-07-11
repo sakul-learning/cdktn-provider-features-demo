@@ -110,7 +110,7 @@ export class Macie2InvitationAccepterTimeoutsOutputReference extends cdktn.Compl
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -187,7 +187,7 @@ export class Macie2InvitationAccepter extends cdktn.TerraformResource {
   // ==========
 
   // administrator_account_id - computed: false, optional: false, required: true
-  private _administratorAccountId?: string;
+  private _administratorAccountId?: string; 
   public get administratorAccountId() {
     return this.getStringAttribute('administrator_account_id');
   }
@@ -200,7 +200,7 @@ export class Macie2InvitationAccepter extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -221,7 +221,7 @@ export class Macie2InvitationAccepter extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

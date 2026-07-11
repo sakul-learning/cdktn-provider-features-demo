@@ -160,7 +160,7 @@ export class BedrockAutomatedReasoningPolicyPolicyDefinitionRulesOutputReference
   }
 
   // alternate_expression - computed: true, optional: true, required: false
-  private _alternateExpression?: string;
+  private _alternateExpression?: string; 
   public get alternateExpression() {
     return this.getStringAttribute('alternate_expression');
   }
@@ -176,7 +176,7 @@ export class BedrockAutomatedReasoningPolicyPolicyDefinitionRulesOutputReference
   }
 
   // expression - computed: true, optional: true, required: false
-  private _expression?: string;
+  private _expression?: string; 
   public get expression() {
     return this.getStringAttribute('expression');
   }
@@ -192,7 +192,7 @@ export class BedrockAutomatedReasoningPolicyPolicyDefinitionRulesOutputReference
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -329,7 +329,7 @@ export class BedrockAutomatedReasoningPolicyPolicyDefinitionTypesValuesOutputRef
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -345,7 +345,7 @@ export class BedrockAutomatedReasoningPolicyPolicyDefinitionTypesValuesOutputRef
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -501,7 +501,7 @@ export class BedrockAutomatedReasoningPolicyPolicyDefinitionTypesOutputReference
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -517,7 +517,7 @@ export class BedrockAutomatedReasoningPolicyPolicyDefinitionTypesOutputReference
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -689,7 +689,7 @@ export class BedrockAutomatedReasoningPolicyPolicyDefinitionVariablesOutputRefer
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -705,7 +705,7 @@ export class BedrockAutomatedReasoningPolicyPolicyDefinitionVariablesOutputRefer
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -721,7 +721,7 @@ export class BedrockAutomatedReasoningPolicyPolicyDefinitionVariablesOutputRefer
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -942,7 +942,7 @@ export class BedrockAutomatedReasoningPolicyPolicyDefinitionOutputReference exte
   }
 
   // version - computed: true, optional: true, required: false
-  private _version?: string;
+  private _version?: string; 
   public get version() {
     return this.getStringAttribute('version');
   }
@@ -1059,7 +1059,7 @@ export class BedrockAutomatedReasoningPolicyTagsOutputReference extends cdktn.Co
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1075,7 +1075,7 @@ export class BedrockAutomatedReasoningPolicyTagsOutputReference extends cdktn.Co
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1184,7 +1184,7 @@ export class BedrockAutomatedReasoningPolicy extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1200,7 +1200,7 @@ export class BedrockAutomatedReasoningPolicy extends cdktn.TerraformResource {
   }
 
   // force_delete - computed: true, optional: true, required: false
-  private _forceDelete?: boolean | cdktn.IResolvable;
+  private _forceDelete?: boolean | cdktn.IResolvable; 
   public get forceDelete() {
     return this.getBooleanAttribute('force_delete');
   }
@@ -1226,7 +1226,7 @@ export class BedrockAutomatedReasoningPolicy extends cdktn.TerraformResource {
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -1242,7 +1242,7 @@ export class BedrockAutomatedReasoningPolicy extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }

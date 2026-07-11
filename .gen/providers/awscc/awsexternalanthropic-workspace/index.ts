@@ -145,7 +145,7 @@ export class AwsexternalanthropicWorkspaceDataResidencyOutputReference extends c
   }
 
   // allowed_inference_geos - computed: true, optional: true, required: false
-  private _allowedInferenceGeos?: string[];
+  private _allowedInferenceGeos?: string[]; 
   public get allowedInferenceGeos() {
     return cdktn.Fn.tolist(this.getListAttribute('allowed_inference_geos'));
   }
@@ -161,7 +161,7 @@ export class AwsexternalanthropicWorkspaceDataResidencyOutputReference extends c
   }
 
   // default_inference_geo - computed: true, optional: true, required: false
-  private _defaultInferenceGeo?: string;
+  private _defaultInferenceGeo?: string; 
   public get defaultInferenceGeo() {
     return this.getStringAttribute('default_inference_geo');
   }
@@ -177,7 +177,7 @@ export class AwsexternalanthropicWorkspaceDataResidencyOutputReference extends c
   }
 
   // workspace_geo - computed: true, optional: true, required: false
-  private _workspaceGeo?: string;
+  private _workspaceGeo?: string; 
   public get workspaceGeo() {
     return this.getStringAttribute('workspace_geo');
   }
@@ -294,7 +294,7 @@ export class AwsexternalanthropicWorkspaceTagsOutputReference extends cdktn.Comp
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -310,7 +310,7 @@ export class AwsexternalanthropicWorkspaceTagsOutputReference extends cdktn.Comp
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -437,7 +437,7 @@ export class AwsexternalanthropicWorkspace extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }

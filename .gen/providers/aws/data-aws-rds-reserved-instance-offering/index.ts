@@ -111,7 +111,7 @@ export class DataAwsRdsReservedInstanceOffering extends cdktn.TerraformDataSourc
   }
 
   // db_instance_class - computed: false, optional: false, required: true
-  private _dbInstanceClass?: string;
+  private _dbInstanceClass?: string; 
   public get dbInstanceClass() {
     return this.getStringAttribute('db_instance_class');
   }
@@ -124,7 +124,7 @@ export class DataAwsRdsReservedInstanceOffering extends cdktn.TerraformDataSourc
   }
 
   // duration - computed: false, optional: false, required: true
-  private _duration?: number;
+  private _duration?: number; 
   public get duration() {
     return this.getNumberAttribute('duration');
   }
@@ -142,7 +142,7 @@ export class DataAwsRdsReservedInstanceOffering extends cdktn.TerraformDataSourc
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -158,7 +158,7 @@ export class DataAwsRdsReservedInstanceOffering extends cdktn.TerraformDataSourc
   }
 
   // multi_az - computed: false, optional: false, required: true
-  private _multiAz?: boolean | cdktn.IResolvable;
+  private _multiAz?: boolean | cdktn.IResolvable; 
   public get multiAz() {
     return this.getBooleanAttribute('multi_az');
   }
@@ -176,7 +176,7 @@ export class DataAwsRdsReservedInstanceOffering extends cdktn.TerraformDataSourc
   }
 
   // offering_type - computed: false, optional: false, required: true
-  private _offeringType?: string;
+  private _offeringType?: string; 
   public get offeringType() {
     return this.getStringAttribute('offering_type');
   }
@@ -189,7 +189,7 @@ export class DataAwsRdsReservedInstanceOffering extends cdktn.TerraformDataSourc
   }
 
   // product_description - computed: false, optional: false, required: true
-  private _productDescription?: string;
+  private _productDescription?: string; 
   public get productDescription() {
     return this.getStringAttribute('product_description');
   }
@@ -202,7 +202,7 @@ export class DataAwsRdsReservedInstanceOffering extends cdktn.TerraformDataSourc
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

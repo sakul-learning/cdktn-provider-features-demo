@@ -86,7 +86,7 @@ export class ServicecatalogServiceActionAssociation extends cdktn.TerraformResou
   }
 
   // product_id - computed: false, optional: false, required: true
-  private _productId?: string;
+  private _productId?: string; 
   public get productId() {
     return this.getStringAttribute('product_id');
   }
@@ -99,7 +99,7 @@ export class ServicecatalogServiceActionAssociation extends cdktn.TerraformResou
   }
 
   // provisioning_artifact_id - computed: false, optional: false, required: true
-  private _provisioningArtifactId?: string;
+  private _provisioningArtifactId?: string; 
   public get provisioningArtifactId() {
     return this.getStringAttribute('provisioning_artifact_id');
   }
@@ -112,7 +112,7 @@ export class ServicecatalogServiceActionAssociation extends cdktn.TerraformResou
   }
 
   // service_action_id - computed: false, optional: false, required: true
-  private _serviceActionId?: string;
+  private _serviceActionId?: string; 
   public get serviceActionId() {
     return this.getStringAttribute('service_action_id');
   }

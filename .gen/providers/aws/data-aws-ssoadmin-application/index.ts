@@ -244,7 +244,7 @@ export class DataAwsSsoadminApplication extends cdktn.TerraformDataSource {
   }
 
   // application_arn - computed: false, optional: false, required: true
-  private _applicationArn?: string;
+  private _applicationArn?: string; 
   public get applicationArn() {
     return this.getStringAttribute('application_arn');
   }
@@ -288,7 +288,7 @@ export class DataAwsSsoadminApplication extends cdktn.TerraformDataSource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

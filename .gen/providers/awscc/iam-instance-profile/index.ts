@@ -100,7 +100,7 @@ export class IamInstanceProfile extends cdktn.TerraformResource {
   }
 
   // instance_profile_name - computed: true, optional: true, required: false
-  private _instanceProfileName?: string;
+  private _instanceProfileName?: string; 
   public get instanceProfileName() {
     return this.getStringAttribute('instance_profile_name');
   }
@@ -116,7 +116,7 @@ export class IamInstanceProfile extends cdktn.TerraformResource {
   }
 
   // path - computed: true, optional: true, required: false
-  private _path?: string;
+  private _path?: string; 
   public get path() {
     return this.getStringAttribute('path');
   }
@@ -132,7 +132,7 @@ export class IamInstanceProfile extends cdktn.TerraformResource {
   }
 
   // roles - computed: false, optional: false, required: true
-  private _roles?: string[];
+  private _roles?: string[]; 
   public get roles() {
     return cdktn.Fn.tolist(this.getListAttribute('roles'));
   }

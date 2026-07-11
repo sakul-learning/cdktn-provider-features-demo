@@ -188,7 +188,7 @@ export class DatazoneEnvironmentUserParametersOutputReference extends cdktn.Comp
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -204,7 +204,7 @@ export class DatazoneEnvironmentUserParametersOutputReference extends cdktn.Comp
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -330,7 +330,7 @@ export class DatazoneEnvironment extends cdktn.TerraformResource {
   }
 
   // deployment_order - computed: true, optional: true, required: false
-  private _deploymentOrder?: number;
+  private _deploymentOrder?: number; 
   public get deploymentOrder() {
     return this.getNumberAttribute('deployment_order');
   }
@@ -346,7 +346,7 @@ export class DatazoneEnvironment extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -367,7 +367,7 @@ export class DatazoneEnvironment extends cdktn.TerraformResource {
   }
 
   // domain_identifier - computed: false, optional: false, required: true
-  private _domainIdentifier?: string;
+  private _domainIdentifier?: string; 
   public get domainIdentifier() {
     return this.getStringAttribute('domain_identifier');
   }
@@ -380,7 +380,7 @@ export class DatazoneEnvironment extends cdktn.TerraformResource {
   }
 
   // environment_account_identifier - computed: true, optional: true, required: false
-  private _environmentAccountIdentifier?: string;
+  private _environmentAccountIdentifier?: string; 
   public get environmentAccountIdentifier() {
     return this.getStringAttribute('environment_account_identifier');
   }
@@ -396,7 +396,7 @@ export class DatazoneEnvironment extends cdktn.TerraformResource {
   }
 
   // environment_account_region - computed: true, optional: true, required: false
-  private _environmentAccountRegion?: string;
+  private _environmentAccountRegion?: string; 
   public get environmentAccountRegion() {
     return this.getStringAttribute('environment_account_region');
   }
@@ -417,7 +417,7 @@ export class DatazoneEnvironment extends cdktn.TerraformResource {
   }
 
   // environment_blueprint_identifier - computed: true, optional: true, required: false
-  private _environmentBlueprintIdentifier?: string;
+  private _environmentBlueprintIdentifier?: string; 
   public get environmentBlueprintIdentifier() {
     return this.getStringAttribute('environment_blueprint_identifier');
   }
@@ -433,7 +433,7 @@ export class DatazoneEnvironment extends cdktn.TerraformResource {
   }
 
   // environment_configuration_id - computed: true, optional: true, required: false
-  private _environmentConfigurationId?: string;
+  private _environmentConfigurationId?: string; 
   public get environmentConfigurationId() {
     return this.getStringAttribute('environment_configuration_id');
   }
@@ -459,7 +459,7 @@ export class DatazoneEnvironment extends cdktn.TerraformResource {
   }
 
   // environment_profile_identifier - computed: true, optional: true, required: false
-  private _environmentProfileIdentifier?: string;
+  private _environmentProfileIdentifier?: string; 
   public get environmentProfileIdentifier() {
     return this.getStringAttribute('environment_profile_identifier');
   }
@@ -475,7 +475,7 @@ export class DatazoneEnvironment extends cdktn.TerraformResource {
   }
 
   // environment_role_arn - computed: true, optional: true, required: false
-  private _environmentRoleArn?: string;
+  private _environmentRoleArn?: string; 
   public get environmentRoleArn() {
     return this.getStringAttribute('environment_role_arn');
   }
@@ -491,7 +491,7 @@ export class DatazoneEnvironment extends cdktn.TerraformResource {
   }
 
   // glossary_terms - computed: true, optional: true, required: false
-  private _glossaryTerms?: string[];
+  private _glossaryTerms?: string[]; 
   public get glossaryTerms() {
     return this.getListAttribute('glossary_terms');
   }
@@ -512,7 +512,7 @@ export class DatazoneEnvironment extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -530,7 +530,7 @@ export class DatazoneEnvironment extends cdktn.TerraformResource {
   }
 
   // project_identifier - computed: false, optional: false, required: true
-  private _projectIdentifier?: string;
+  private _projectIdentifier?: string; 
   public get projectIdentifier() {
     return this.getStringAttribute('project_identifier');
   }

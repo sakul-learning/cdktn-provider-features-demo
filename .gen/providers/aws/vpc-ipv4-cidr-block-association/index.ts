@@ -139,7 +139,7 @@ export class VpcIpv4CidrBlockAssociationTimeoutsOutputReference extends cdktn.Co
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -155,7 +155,7 @@ export class VpcIpv4CidrBlockAssociationTimeoutsOutputReference extends cdktn.Co
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -235,7 +235,7 @@ export class VpcIpv4CidrBlockAssociation extends cdktn.TerraformResource {
   // ==========
 
   // cidr_block - computed: true, optional: true, required: false
-  private _cidrBlock?: string;
+  private _cidrBlock?: string; 
   public get cidrBlock() {
     return this.getStringAttribute('cidr_block');
   }
@@ -251,7 +251,7 @@ export class VpcIpv4CidrBlockAssociation extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -267,7 +267,7 @@ export class VpcIpv4CidrBlockAssociation extends cdktn.TerraformResource {
   }
 
   // ipv4_ipam_pool_id - computed: false, optional: true, required: false
-  private _ipv4IpamPoolId?: string;
+  private _ipv4IpamPoolId?: string; 
   public get ipv4IpamPoolId() {
     return this.getStringAttribute('ipv4_ipam_pool_id');
   }
@@ -283,7 +283,7 @@ export class VpcIpv4CidrBlockAssociation extends cdktn.TerraformResource {
   }
 
   // ipv4_netmask_length - computed: false, optional: true, required: false
-  private _ipv4NetmaskLength?: number;
+  private _ipv4NetmaskLength?: number; 
   public get ipv4NetmaskLength() {
     return this.getNumberAttribute('ipv4_netmask_length');
   }
@@ -299,7 +299,7 @@ export class VpcIpv4CidrBlockAssociation extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -315,7 +315,7 @@ export class VpcIpv4CidrBlockAssociation extends cdktn.TerraformResource {
   }
 
   // vpc_id - computed: false, optional: false, required: true
-  private _vpcId?: string;
+  private _vpcId?: string; 
   public get vpcId() {
     return this.getStringAttribute('vpc_id');
   }

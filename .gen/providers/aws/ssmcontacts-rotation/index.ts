@@ -138,7 +138,7 @@ export class SsmcontactsRotationRecurrenceDailySettingsOutputReference extends c
   }
 
   // hour_of_day - computed: false, optional: false, required: true
-  private _hourOfDay?: number;
+  private _hourOfDay?: number; 
   public get hourOfDay() {
     return this.getNumberAttribute('hour_of_day');
   }
@@ -151,7 +151,7 @@ export class SsmcontactsRotationRecurrenceDailySettingsOutputReference extends c
   }
 
   // minute_of_hour - computed: false, optional: false, required: true
-  private _minuteOfHour?: number;
+  private _minuteOfHour?: number; 
   public get minuteOfHour() {
     return this.getNumberAttribute('minute_of_hour');
   }
@@ -281,7 +281,7 @@ export class SsmcontactsRotationRecurrenceMonthlySettingsHandOffTimeOutputRefere
   }
 
   // hour_of_day - computed: false, optional: false, required: true
-  private _hourOfDay?: number;
+  private _hourOfDay?: number; 
   public get hourOfDay() {
     return this.getNumberAttribute('hour_of_day');
   }
@@ -294,7 +294,7 @@ export class SsmcontactsRotationRecurrenceMonthlySettingsHandOffTimeOutputRefere
   }
 
   // minute_of_hour - computed: false, optional: false, required: true
-  private _minuteOfHour?: number;
+  private _minuteOfHour?: number; 
   public get minuteOfHour() {
     return this.getNumberAttribute('minute_of_hour');
   }
@@ -426,7 +426,7 @@ export class SsmcontactsRotationRecurrenceMonthlySettingsOutputReference extends
   }
 
   // day_of_month - computed: false, optional: false, required: true
-  private _dayOfMonth?: number;
+  private _dayOfMonth?: number; 
   public get dayOfMonth() {
     return this.getNumberAttribute('day_of_month');
   }
@@ -572,7 +572,7 @@ export class SsmcontactsRotationRecurrenceShiftCoveragesCoverageTimesEndOutputRe
   }
 
   // hour_of_day - computed: false, optional: false, required: true
-  private _hourOfDay?: number;
+  private _hourOfDay?: number; 
   public get hourOfDay() {
     return this.getNumberAttribute('hour_of_day');
   }
@@ -585,7 +585,7 @@ export class SsmcontactsRotationRecurrenceShiftCoveragesCoverageTimesEndOutputRe
   }
 
   // minute_of_hour - computed: false, optional: false, required: true
-  private _minuteOfHour?: number;
+  private _minuteOfHour?: number; 
   public get minuteOfHour() {
     return this.getNumberAttribute('minute_of_hour');
   }
@@ -715,7 +715,7 @@ export class SsmcontactsRotationRecurrenceShiftCoveragesCoverageTimesStartOutput
   }
 
   // hour_of_day - computed: false, optional: false, required: true
-  private _hourOfDay?: number;
+  private _hourOfDay?: number; 
   public get hourOfDay() {
     return this.getNumberAttribute('hour_of_day');
   }
@@ -728,7 +728,7 @@ export class SsmcontactsRotationRecurrenceShiftCoveragesCoverageTimesStartOutput
   }
 
   // minute_of_hour - computed: false, optional: false, required: true
-  private _minuteOfHour?: number;
+  private _minuteOfHour?: number; 
   public get minuteOfHour() {
     return this.getNumberAttribute('minute_of_hour');
   }
@@ -1013,7 +1013,7 @@ export class SsmcontactsRotationRecurrenceShiftCoveragesOutputReference extends 
   }
 
   // map_block_key - computed: false, optional: false, required: true
-  private _mapBlockKey?: string;
+  private _mapBlockKey?: string; 
   public get mapBlockKey() {
     return this.getStringAttribute('map_block_key');
   }
@@ -1159,7 +1159,7 @@ export class SsmcontactsRotationRecurrenceWeeklySettingsHandOffTimeOutputReferen
   }
 
   // hour_of_day - computed: false, optional: false, required: true
-  private _hourOfDay?: number;
+  private _hourOfDay?: number; 
   public get hourOfDay() {
     return this.getNumberAttribute('hour_of_day');
   }
@@ -1172,7 +1172,7 @@ export class SsmcontactsRotationRecurrenceWeeklySettingsHandOffTimeOutputReferen
   }
 
   // minute_of_hour - computed: false, optional: false, required: true
-  private _minuteOfHour?: number;
+  private _minuteOfHour?: number; 
   public get minuteOfHour() {
     return this.getNumberAttribute('minute_of_hour');
   }
@@ -1304,7 +1304,7 @@ export class SsmcontactsRotationRecurrenceWeeklySettingsOutputReference extends 
   }
 
   // day_of_week - computed: false, optional: false, required: true
-  private _dayOfWeek?: string;
+  private _dayOfWeek?: string; 
   public get dayOfWeek() {
     return this.getStringAttribute('day_of_week');
   }
@@ -1526,7 +1526,7 @@ export class SsmcontactsRotationRecurrenceOutputReference extends cdktn.ComplexO
   }
 
   // number_of_on_calls - computed: false, optional: false, required: true
-  private _numberOfOnCalls?: number;
+  private _numberOfOnCalls?: number; 
   public get numberOfOnCalls() {
     return this.getNumberAttribute('number_of_on_calls');
   }
@@ -1539,7 +1539,7 @@ export class SsmcontactsRotationRecurrenceOutputReference extends cdktn.ComplexO
   }
 
   // recurrence_multiplier - computed: false, optional: false, required: true
-  private _recurrenceMultiplier?: number;
+  private _recurrenceMultiplier?: number; 
   public get recurrenceMultiplier() {
     return this.getNumberAttribute('recurrence_multiplier');
   }
@@ -1705,7 +1705,7 @@ export class SsmcontactsRotation extends cdktn.TerraformResource {
   }
 
   // contact_ids - computed: false, optional: false, required: true
-  private _contactIds?: string[];
+  private _contactIds?: string[]; 
   public get contactIds() {
     return this.getListAttribute('contact_ids');
   }
@@ -1723,7 +1723,7 @@ export class SsmcontactsRotation extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1736,7 +1736,7 @@ export class SsmcontactsRotation extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1752,7 +1752,7 @@ export class SsmcontactsRotation extends cdktn.TerraformResource {
   }
 
   // start_time - computed: false, optional: true, required: false
-  private _startTime?: string;
+  private _startTime?: string; 
   public get startTime() {
     return this.getStringAttribute('start_time');
   }
@@ -1768,7 +1768,7 @@ export class SsmcontactsRotation extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -1790,7 +1790,7 @@ export class SsmcontactsRotation extends cdktn.TerraformResource {
   }
 
   // time_zone_id - computed: false, optional: false, required: true
-  private _timeZoneId?: string;
+  private _timeZoneId?: string; 
   public get timeZoneId() {
     return this.getStringAttribute('time_zone_id');
   }

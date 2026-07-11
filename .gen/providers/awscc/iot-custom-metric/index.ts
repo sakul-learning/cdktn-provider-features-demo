@@ -134,7 +134,7 @@ export class IotCustomMetricTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -150,7 +150,7 @@ export class IotCustomMetricTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -247,7 +247,7 @@ export class IotCustomMetric extends cdktn.TerraformResource {
   // ==========
 
   // display_name - computed: true, optional: true, required: false
-  private _displayName?: string;
+  private _displayName?: string; 
   public get displayName() {
     return this.getStringAttribute('display_name');
   }
@@ -273,7 +273,7 @@ export class IotCustomMetric extends cdktn.TerraformResource {
   }
 
   // metric_name - computed: true, optional: true, required: false
-  private _metricName?: string;
+  private _metricName?: string; 
   public get metricName() {
     return this.getStringAttribute('metric_name');
   }
@@ -289,7 +289,7 @@ export class IotCustomMetric extends cdktn.TerraformResource {
   }
 
   // metric_type - computed: false, optional: false, required: true
-  private _metricType?: string;
+  private _metricType?: string; 
   public get metricType() {
     return this.getStringAttribute('metric_type');
   }

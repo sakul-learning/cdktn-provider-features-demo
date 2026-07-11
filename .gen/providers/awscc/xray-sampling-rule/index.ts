@@ -132,7 +132,7 @@ export class XraySamplingRuleSamplingRuleSamplingRateBoostOutputReference extend
   }
 
   // cooldown_window_minutes - computed: true, optional: true, required: false
-  private _cooldownWindowMinutes?: number;
+  private _cooldownWindowMinutes?: number; 
   public get cooldownWindowMinutes() {
     return this.getNumberAttribute('cooldown_window_minutes');
   }
@@ -148,7 +148,7 @@ export class XraySamplingRuleSamplingRuleSamplingRateBoostOutputReference extend
   }
 
   // max_rate - computed: true, optional: true, required: false
-  private _maxRate?: number;
+  private _maxRate?: number; 
   public get maxRate() {
     return this.getNumberAttribute('max_rate');
   }
@@ -489,7 +489,7 @@ export class XraySamplingRuleSamplingRuleOutputReference extends cdktn.ComplexOb
   }
 
   // attributes - computed: true, optional: true, required: false
-  private _attributes?: { [key: string]: string };
+  private _attributes?: { [key: string]: string }; 
   public get attributes() {
     return this.getStringMapAttribute('attributes');
   }
@@ -505,7 +505,7 @@ export class XraySamplingRuleSamplingRuleOutputReference extends cdktn.ComplexOb
   }
 
   // fixed_rate - computed: true, optional: true, required: false
-  private _fixedRate?: number;
+  private _fixedRate?: number; 
   public get fixedRate() {
     return this.getNumberAttribute('fixed_rate');
   }
@@ -521,7 +521,7 @@ export class XraySamplingRuleSamplingRuleOutputReference extends cdktn.ComplexOb
   }
 
   // host - computed: true, optional: true, required: false
-  private _host?: string;
+  private _host?: string; 
   public get host() {
     return this.getStringAttribute('host');
   }
@@ -537,7 +537,7 @@ export class XraySamplingRuleSamplingRuleOutputReference extends cdktn.ComplexOb
   }
 
   // http_method - computed: true, optional: true, required: false
-  private _httpMethod?: string;
+  private _httpMethod?: string; 
   public get httpMethod() {
     return this.getStringAttribute('http_method');
   }
@@ -553,7 +553,7 @@ export class XraySamplingRuleSamplingRuleOutputReference extends cdktn.ComplexOb
   }
 
   // priority - computed: true, optional: true, required: false
-  private _priority?: number;
+  private _priority?: number; 
   public get priority() {
     return this.getNumberAttribute('priority');
   }
@@ -569,7 +569,7 @@ export class XraySamplingRuleSamplingRuleOutputReference extends cdktn.ComplexOb
   }
 
   // reservoir_size - computed: true, optional: true, required: false
-  private _reservoirSize?: number;
+  private _reservoirSize?: number; 
   public get reservoirSize() {
     return this.getNumberAttribute('reservoir_size');
   }
@@ -585,7 +585,7 @@ export class XraySamplingRuleSamplingRuleOutputReference extends cdktn.ComplexOb
   }
 
   // resource_arn - computed: true, optional: true, required: false
-  private _resourceArn?: string;
+  private _resourceArn?: string; 
   public get resourceArn() {
     return this.getStringAttribute('resource_arn');
   }
@@ -601,7 +601,7 @@ export class XraySamplingRuleSamplingRuleOutputReference extends cdktn.ComplexOb
   }
 
   // rule_arn - computed: true, optional: true, required: false
-  private _ruleArn?: string;
+  private _ruleArn?: string; 
   public get ruleArn() {
     return this.getStringAttribute('rule_arn');
   }
@@ -617,7 +617,7 @@ export class XraySamplingRuleSamplingRuleOutputReference extends cdktn.ComplexOb
   }
 
   // rule_name - computed: true, optional: true, required: false
-  private _ruleName?: string;
+  private _ruleName?: string; 
   public get ruleName() {
     return this.getStringAttribute('rule_name');
   }
@@ -649,7 +649,7 @@ export class XraySamplingRuleSamplingRuleOutputReference extends cdktn.ComplexOb
   }
 
   // service_name - computed: true, optional: true, required: false
-  private _serviceName?: string;
+  private _serviceName?: string; 
   public get serviceName() {
     return this.getStringAttribute('service_name');
   }
@@ -665,7 +665,7 @@ export class XraySamplingRuleSamplingRuleOutputReference extends cdktn.ComplexOb
   }
 
   // service_type - computed: true, optional: true, required: false
-  private _serviceType?: string;
+  private _serviceType?: string; 
   public get serviceType() {
     return this.getStringAttribute('service_type');
   }
@@ -681,7 +681,7 @@ export class XraySamplingRuleSamplingRuleOutputReference extends cdktn.ComplexOb
   }
 
   // url_path - computed: true, optional: true, required: false
-  private _urlPath?: string;
+  private _urlPath?: string; 
   public get urlPath() {
     return this.getStringAttribute('url_path');
   }
@@ -697,7 +697,7 @@ export class XraySamplingRuleSamplingRuleOutputReference extends cdktn.ComplexOb
   }
 
   // version - computed: true, optional: true, required: false
-  private _version?: number;
+  private _version?: number; 
   public get version() {
     return this.getNumberAttribute('version');
   }
@@ -812,7 +812,7 @@ export class XraySamplingRuleSamplingRuleRecordSamplingRuleSamplingRateBoostOutp
   }
 
   // cooldown_window_minutes - computed: true, optional: true, required: false
-  private _cooldownWindowMinutes?: number;
+  private _cooldownWindowMinutes?: number; 
   public get cooldownWindowMinutes() {
     return this.getNumberAttribute('cooldown_window_minutes');
   }
@@ -828,7 +828,7 @@ export class XraySamplingRuleSamplingRuleRecordSamplingRuleSamplingRateBoostOutp
   }
 
   // max_rate - computed: true, optional: true, required: false
-  private _maxRate?: number;
+  private _maxRate?: number; 
   public get maxRate() {
     return this.getNumberAttribute('max_rate');
   }
@@ -1169,7 +1169,7 @@ export class XraySamplingRuleSamplingRuleRecordSamplingRuleOutputReference exten
   }
 
   // attributes - computed: true, optional: true, required: false
-  private _attributes?: { [key: string]: string };
+  private _attributes?: { [key: string]: string }; 
   public get attributes() {
     return this.getStringMapAttribute('attributes');
   }
@@ -1185,7 +1185,7 @@ export class XraySamplingRuleSamplingRuleRecordSamplingRuleOutputReference exten
   }
 
   // fixed_rate - computed: true, optional: true, required: false
-  private _fixedRate?: number;
+  private _fixedRate?: number; 
   public get fixedRate() {
     return this.getNumberAttribute('fixed_rate');
   }
@@ -1201,7 +1201,7 @@ export class XraySamplingRuleSamplingRuleRecordSamplingRuleOutputReference exten
   }
 
   // host - computed: true, optional: true, required: false
-  private _host?: string;
+  private _host?: string; 
   public get host() {
     return this.getStringAttribute('host');
   }
@@ -1217,7 +1217,7 @@ export class XraySamplingRuleSamplingRuleRecordSamplingRuleOutputReference exten
   }
 
   // http_method - computed: true, optional: true, required: false
-  private _httpMethod?: string;
+  private _httpMethod?: string; 
   public get httpMethod() {
     return this.getStringAttribute('http_method');
   }
@@ -1233,7 +1233,7 @@ export class XraySamplingRuleSamplingRuleRecordSamplingRuleOutputReference exten
   }
 
   // priority - computed: true, optional: true, required: false
-  private _priority?: number;
+  private _priority?: number; 
   public get priority() {
     return this.getNumberAttribute('priority');
   }
@@ -1249,7 +1249,7 @@ export class XraySamplingRuleSamplingRuleRecordSamplingRuleOutputReference exten
   }
 
   // reservoir_size - computed: true, optional: true, required: false
-  private _reservoirSize?: number;
+  private _reservoirSize?: number; 
   public get reservoirSize() {
     return this.getNumberAttribute('reservoir_size');
   }
@@ -1265,7 +1265,7 @@ export class XraySamplingRuleSamplingRuleRecordSamplingRuleOutputReference exten
   }
 
   // resource_arn - computed: true, optional: true, required: false
-  private _resourceArn?: string;
+  private _resourceArn?: string; 
   public get resourceArn() {
     return this.getStringAttribute('resource_arn');
   }
@@ -1281,7 +1281,7 @@ export class XraySamplingRuleSamplingRuleRecordSamplingRuleOutputReference exten
   }
 
   // rule_arn - computed: true, optional: true, required: false
-  private _ruleArn?: string;
+  private _ruleArn?: string; 
   public get ruleArn() {
     return this.getStringAttribute('rule_arn');
   }
@@ -1297,7 +1297,7 @@ export class XraySamplingRuleSamplingRuleRecordSamplingRuleOutputReference exten
   }
 
   // rule_name - computed: true, optional: true, required: false
-  private _ruleName?: string;
+  private _ruleName?: string; 
   public get ruleName() {
     return this.getStringAttribute('rule_name');
   }
@@ -1329,7 +1329,7 @@ export class XraySamplingRuleSamplingRuleRecordSamplingRuleOutputReference exten
   }
 
   // service_name - computed: true, optional: true, required: false
-  private _serviceName?: string;
+  private _serviceName?: string; 
   public get serviceName() {
     return this.getStringAttribute('service_name');
   }
@@ -1345,7 +1345,7 @@ export class XraySamplingRuleSamplingRuleRecordSamplingRuleOutputReference exten
   }
 
   // service_type - computed: true, optional: true, required: false
-  private _serviceType?: string;
+  private _serviceType?: string; 
   public get serviceType() {
     return this.getStringAttribute('service_type');
   }
@@ -1361,7 +1361,7 @@ export class XraySamplingRuleSamplingRuleRecordSamplingRuleOutputReference exten
   }
 
   // url_path - computed: true, optional: true, required: false
-  private _urlPath?: string;
+  private _urlPath?: string; 
   public get urlPath() {
     return this.getStringAttribute('url_path');
   }
@@ -1377,7 +1377,7 @@ export class XraySamplingRuleSamplingRuleRecordSamplingRuleOutputReference exten
   }
 
   // version - computed: true, optional: true, required: false
-  private _version?: number;
+  private _version?: number; 
   public get version() {
     return this.getNumberAttribute('version');
   }
@@ -1509,7 +1509,7 @@ export class XraySamplingRuleSamplingRuleRecordOutputReference extends cdktn.Com
   }
 
   // created_at - computed: true, optional: true, required: false
-  private _createdAt?: string;
+  private _createdAt?: string; 
   public get createdAt() {
     return this.getStringAttribute('created_at');
   }
@@ -1525,7 +1525,7 @@ export class XraySamplingRuleSamplingRuleRecordOutputReference extends cdktn.Com
   }
 
   // modified_at - computed: true, optional: true, required: false
-  private _modifiedAt?: string;
+  private _modifiedAt?: string; 
   public get modifiedAt() {
     return this.getStringAttribute('modified_at');
   }
@@ -1656,7 +1656,7 @@ export class XraySamplingRuleSamplingRuleUpdateSamplingRateBoostOutputReference 
   }
 
   // cooldown_window_minutes - computed: true, optional: true, required: false
-  private _cooldownWindowMinutes?: number;
+  private _cooldownWindowMinutes?: number; 
   public get cooldownWindowMinutes() {
     return this.getNumberAttribute('cooldown_window_minutes');
   }
@@ -1672,7 +1672,7 @@ export class XraySamplingRuleSamplingRuleUpdateSamplingRateBoostOutputReference 
   }
 
   // max_rate - computed: true, optional: true, required: false
-  private _maxRate?: number;
+  private _maxRate?: number; 
   public get maxRate() {
     return this.getNumberAttribute('max_rate');
   }
@@ -1994,7 +1994,7 @@ export class XraySamplingRuleSamplingRuleUpdateOutputReference extends cdktn.Com
   }
 
   // attributes - computed: true, optional: true, required: false
-  private _attributes?: { [key: string]: string };
+  private _attributes?: { [key: string]: string }; 
   public get attributes() {
     return this.getStringMapAttribute('attributes');
   }
@@ -2010,7 +2010,7 @@ export class XraySamplingRuleSamplingRuleUpdateOutputReference extends cdktn.Com
   }
 
   // fixed_rate - computed: true, optional: true, required: false
-  private _fixedRate?: number;
+  private _fixedRate?: number; 
   public get fixedRate() {
     return this.getNumberAttribute('fixed_rate');
   }
@@ -2026,7 +2026,7 @@ export class XraySamplingRuleSamplingRuleUpdateOutputReference extends cdktn.Com
   }
 
   // host - computed: true, optional: true, required: false
-  private _host?: string;
+  private _host?: string; 
   public get host() {
     return this.getStringAttribute('host');
   }
@@ -2042,7 +2042,7 @@ export class XraySamplingRuleSamplingRuleUpdateOutputReference extends cdktn.Com
   }
 
   // http_method - computed: true, optional: true, required: false
-  private _httpMethod?: string;
+  private _httpMethod?: string; 
   public get httpMethod() {
     return this.getStringAttribute('http_method');
   }
@@ -2058,7 +2058,7 @@ export class XraySamplingRuleSamplingRuleUpdateOutputReference extends cdktn.Com
   }
 
   // priority - computed: true, optional: true, required: false
-  private _priority?: number;
+  private _priority?: number; 
   public get priority() {
     return this.getNumberAttribute('priority');
   }
@@ -2074,7 +2074,7 @@ export class XraySamplingRuleSamplingRuleUpdateOutputReference extends cdktn.Com
   }
 
   // reservoir_size - computed: true, optional: true, required: false
-  private _reservoirSize?: number;
+  private _reservoirSize?: number; 
   public get reservoirSize() {
     return this.getNumberAttribute('reservoir_size');
   }
@@ -2090,7 +2090,7 @@ export class XraySamplingRuleSamplingRuleUpdateOutputReference extends cdktn.Com
   }
 
   // resource_arn - computed: true, optional: true, required: false
-  private _resourceArn?: string;
+  private _resourceArn?: string; 
   public get resourceArn() {
     return this.getStringAttribute('resource_arn');
   }
@@ -2106,7 +2106,7 @@ export class XraySamplingRuleSamplingRuleUpdateOutputReference extends cdktn.Com
   }
 
   // rule_arn - computed: true, optional: true, required: false
-  private _ruleArn?: string;
+  private _ruleArn?: string; 
   public get ruleArn() {
     return this.getStringAttribute('rule_arn');
   }
@@ -2122,7 +2122,7 @@ export class XraySamplingRuleSamplingRuleUpdateOutputReference extends cdktn.Com
   }
 
   // rule_name - computed: true, optional: true, required: false
-  private _ruleName?: string;
+  private _ruleName?: string; 
   public get ruleName() {
     return this.getStringAttribute('rule_name');
   }
@@ -2154,7 +2154,7 @@ export class XraySamplingRuleSamplingRuleUpdateOutputReference extends cdktn.Com
   }
 
   // service_name - computed: true, optional: true, required: false
-  private _serviceName?: string;
+  private _serviceName?: string; 
   public get serviceName() {
     return this.getStringAttribute('service_name');
   }
@@ -2170,7 +2170,7 @@ export class XraySamplingRuleSamplingRuleUpdateOutputReference extends cdktn.Com
   }
 
   // service_type - computed: true, optional: true, required: false
-  private _serviceType?: string;
+  private _serviceType?: string; 
   public get serviceType() {
     return this.getStringAttribute('service_type');
   }
@@ -2186,7 +2186,7 @@ export class XraySamplingRuleSamplingRuleUpdateOutputReference extends cdktn.Com
   }
 
   // url_path - computed: true, optional: true, required: false
-  private _urlPath?: string;
+  private _urlPath?: string; 
   public get urlPath() {
     return this.getStringAttribute('url_path');
   }
@@ -2303,7 +2303,7 @@ export class XraySamplingRuleTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -2319,7 +2319,7 @@ export class XraySamplingRuleTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2427,7 +2427,7 @@ export class XraySamplingRule extends cdktn.TerraformResource {
   }
 
   // rule_name - computed: true, optional: true, required: false
-  private _ruleName?: string;
+  private _ruleName?: string; 
   public get ruleName() {
     return this.getStringAttribute('rule_name');
   }

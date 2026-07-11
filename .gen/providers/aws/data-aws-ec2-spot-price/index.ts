@@ -139,7 +139,7 @@ export class DataAwsEc2SpotPriceFilterOutputReference extends cdktn.ComplexObjec
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -152,7 +152,7 @@ export class DataAwsEc2SpotPriceFilterOutputReference extends cdktn.ComplexObjec
   }
 
   // values - computed: false, optional: false, required: true
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -263,7 +263,7 @@ export class DataAwsEc2SpotPriceTimeoutsOutputReference extends cdktn.ComplexObj
   }
 
   // read - computed: false, optional: true, required: false
-  private _read?: string;
+  private _read?: string; 
   public get read() {
     return this.getStringAttribute('read');
   }
@@ -342,7 +342,7 @@ export class DataAwsEc2SpotPrice extends cdktn.TerraformDataSource {
   // ==========
 
   // availability_zone - computed: false, optional: true, required: false
-  private _availabilityZone?: string;
+  private _availabilityZone?: string; 
   public get availabilityZone() {
     return this.getStringAttribute('availability_zone');
   }
@@ -358,7 +358,7 @@ export class DataAwsEc2SpotPrice extends cdktn.TerraformDataSource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -374,7 +374,7 @@ export class DataAwsEc2SpotPrice extends cdktn.TerraformDataSource {
   }
 
   // instance_type - computed: false, optional: true, required: false
-  private _instanceType?: string;
+  private _instanceType?: string; 
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -390,7 +390,7 @@ export class DataAwsEc2SpotPrice extends cdktn.TerraformDataSource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

@@ -144,7 +144,7 @@ export class Ec2VpcEndpointServiceTagsOutputReference extends cdktn.ComplexObjec
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -160,7 +160,7 @@ export class Ec2VpcEndpointServiceTagsOutputReference extends cdktn.ComplexObjec
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -261,7 +261,7 @@ export class Ec2VpcEndpointService extends cdktn.TerraformResource {
   // ==========
 
   // acceptance_required - computed: true, optional: true, required: false
-  private _acceptanceRequired?: boolean | cdktn.IResolvable;
+  private _acceptanceRequired?: boolean | cdktn.IResolvable; 
   public get acceptanceRequired() {
     return this.getBooleanAttribute('acceptance_required');
   }
@@ -277,7 +277,7 @@ export class Ec2VpcEndpointService extends cdktn.TerraformResource {
   }
 
   // contributor_insights_enabled - computed: true, optional: true, required: false
-  private _contributorInsightsEnabled?: boolean | cdktn.IResolvable;
+  private _contributorInsightsEnabled?: boolean | cdktn.IResolvable; 
   public get contributorInsightsEnabled() {
     return this.getBooleanAttribute('contributor_insights_enabled');
   }
@@ -293,7 +293,7 @@ export class Ec2VpcEndpointService extends cdktn.TerraformResource {
   }
 
   // gateway_load_balancer_arns - computed: true, optional: true, required: false
-  private _gatewayLoadBalancerArns?: string[];
+  private _gatewayLoadBalancerArns?: string[]; 
   public get gatewayLoadBalancerArns() {
     return this.getListAttribute('gateway_load_balancer_arns');
   }
@@ -314,7 +314,7 @@ export class Ec2VpcEndpointService extends cdktn.TerraformResource {
   }
 
   // network_load_balancer_arns - computed: true, optional: true, required: false
-  private _networkLoadBalancerArns?: string[];
+  private _networkLoadBalancerArns?: string[]; 
   public get networkLoadBalancerArns() {
     return this.getListAttribute('network_load_balancer_arns');
   }
@@ -330,7 +330,7 @@ export class Ec2VpcEndpointService extends cdktn.TerraformResource {
   }
 
   // payer_responsibility - computed: true, optional: true, required: false
-  private _payerResponsibility?: string;
+  private _payerResponsibility?: string; 
   public get payerResponsibility() {
     return this.getStringAttribute('payer_responsibility');
   }
@@ -351,7 +351,7 @@ export class Ec2VpcEndpointService extends cdktn.TerraformResource {
   }
 
   // supported_ip_address_types - computed: true, optional: true, required: false
-  private _supportedIpAddressTypes?: string[];
+  private _supportedIpAddressTypes?: string[]; 
   public get supportedIpAddressTypes() {
     return this.getListAttribute('supported_ip_address_types');
   }
@@ -367,7 +367,7 @@ export class Ec2VpcEndpointService extends cdktn.TerraformResource {
   }
 
   // supported_regions - computed: true, optional: true, required: false
-  private _supportedRegions?: string[];
+  private _supportedRegions?: string[]; 
   public get supportedRegions() {
     return cdktn.Fn.tolist(this.getListAttribute('supported_regions'));
   }

@@ -110,7 +110,7 @@ export class XrayIndexingRuleRuleProbabilisticOutputReference extends cdktn.Comp
   }
 
   // desired_sampling_percentage - computed: false, optional: false, required: true
-  private _desiredSamplingPercentage?: number;
+  private _desiredSamplingPercentage?: number; 
   public get desiredSamplingPercentage() {
     return this.getNumberAttribute('desired_sampling_percentage');
   }
@@ -321,7 +321,7 @@ export class XrayIndexingRule extends cdktn.TerraformResource {
   // ==========
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -334,7 +334,7 @@ export class XrayIndexingRule extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

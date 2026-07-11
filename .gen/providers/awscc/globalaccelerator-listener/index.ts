@@ -132,7 +132,7 @@ export class GlobalacceleratorListenerPortRangesOutputReference extends cdktn.Co
   }
 
   // from_port - computed: false, optional: false, required: true
-  private _fromPort?: number;
+  private _fromPort?: number; 
   public get fromPort() {
     return this.getNumberAttribute('from_port');
   }
@@ -145,7 +145,7 @@ export class GlobalacceleratorListenerPortRangesOutputReference extends cdktn.Co
   }
 
   // to_port - computed: false, optional: false, required: true
-  private _toPort?: number;
+  private _toPort?: number; 
   public get toPort() {
     return this.getNumberAttribute('to_port');
   }
@@ -239,7 +239,7 @@ export class GlobalacceleratorListener extends cdktn.TerraformResource {
   // ==========
 
   // accelerator_arn - computed: false, optional: false, required: true
-  private _acceleratorArn?: string;
+  private _acceleratorArn?: string; 
   public get acceleratorArn() {
     return this.getStringAttribute('accelerator_arn');
   }
@@ -252,7 +252,7 @@ export class GlobalacceleratorListener extends cdktn.TerraformResource {
   }
 
   // client_affinity - computed: true, optional: true, required: false
-  private _clientAffinity?: string;
+  private _clientAffinity?: string; 
   public get clientAffinity() {
     return this.getStringAttribute('client_affinity');
   }
@@ -291,7 +291,7 @@ export class GlobalacceleratorListener extends cdktn.TerraformResource {
   }
 
   // protocol - computed: true, optional: true, required: false
-  private _protocol?: string;
+  private _protocol?: string; 
   public get protocol() {
     return this.getStringAttribute('protocol');
   }

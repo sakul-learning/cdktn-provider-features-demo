@@ -184,7 +184,7 @@ export class ChimeVoiceConnectorOriginationRouteOutputReference extends cdktn.Co
   }
 
   // host - computed: false, optional: false, required: true
-  private _host?: string;
+  private _host?: string; 
   public get host() {
     return this.getStringAttribute('host');
   }
@@ -197,7 +197,7 @@ export class ChimeVoiceConnectorOriginationRouteOutputReference extends cdktn.Co
   }
 
   // port - computed: false, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -213,7 +213,7 @@ export class ChimeVoiceConnectorOriginationRouteOutputReference extends cdktn.Co
   }
 
   // priority - computed: false, optional: false, required: true
-  private _priority?: number;
+  private _priority?: number; 
   public get priority() {
     return this.getNumberAttribute('priority');
   }
@@ -226,7 +226,7 @@ export class ChimeVoiceConnectorOriginationRouteOutputReference extends cdktn.Co
   }
 
   // protocol - computed: false, optional: false, required: true
-  private _protocol?: string;
+  private _protocol?: string; 
   public get protocol() {
     return this.getStringAttribute('protocol');
   }
@@ -239,7 +239,7 @@ export class ChimeVoiceConnectorOriginationRouteOutputReference extends cdktn.Co
   }
 
   // weight - computed: false, optional: false, required: true
-  private _weight?: number;
+  private _weight?: number; 
   public get weight() {
     return this.getNumberAttribute('weight');
   }
@@ -334,7 +334,7 @@ export class ChimeVoiceConnectorOrigination extends cdktn.TerraformResource {
   // ==========
 
   // disabled - computed: false, optional: true, required: false
-  private _disabled?: boolean | cdktn.IResolvable;
+  private _disabled?: boolean | cdktn.IResolvable; 
   public get disabled() {
     return this.getBooleanAttribute('disabled');
   }
@@ -350,7 +350,7 @@ export class ChimeVoiceConnectorOrigination extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -366,7 +366,7 @@ export class ChimeVoiceConnectorOrigination extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -382,7 +382,7 @@ export class ChimeVoiceConnectorOrigination extends cdktn.TerraformResource {
   }
 
   // voice_connector_id - computed: false, optional: false, required: true
-  private _voiceConnectorId?: string;
+  private _voiceConnectorId?: string; 
   public get voiceConnectorId() {
     return this.getStringAttribute('voice_connector_id');
   }

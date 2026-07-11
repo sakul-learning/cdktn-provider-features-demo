@@ -257,7 +257,7 @@ export class TransferConnectorAs2ConfigOutputReference extends cdktn.ComplexObje
   }
 
   // compression - computed: false, optional: false, required: true
-  private _compression?: string;
+  private _compression?: string; 
   public get compression() {
     return this.getStringAttribute('compression');
   }
@@ -270,7 +270,7 @@ export class TransferConnectorAs2ConfigOutputReference extends cdktn.ComplexObje
   }
 
   // encryption_algorithm - computed: false, optional: false, required: true
-  private _encryptionAlgorithm?: string;
+  private _encryptionAlgorithm?: string; 
   public get encryptionAlgorithm() {
     return this.getStringAttribute('encryption_algorithm');
   }
@@ -283,7 +283,7 @@ export class TransferConnectorAs2ConfigOutputReference extends cdktn.ComplexObje
   }
 
   // local_profile_id - computed: false, optional: false, required: true
-  private _localProfileId?: string;
+  private _localProfileId?: string; 
   public get localProfileId() {
     return this.getStringAttribute('local_profile_id');
   }
@@ -296,7 +296,7 @@ export class TransferConnectorAs2ConfigOutputReference extends cdktn.ComplexObje
   }
 
   // mdn_response - computed: false, optional: false, required: true
-  private _mdnResponse?: string;
+  private _mdnResponse?: string; 
   public get mdnResponse() {
     return this.getStringAttribute('mdn_response');
   }
@@ -309,7 +309,7 @@ export class TransferConnectorAs2ConfigOutputReference extends cdktn.ComplexObje
   }
 
   // mdn_signing_algorithm - computed: false, optional: true, required: false
-  private _mdnSigningAlgorithm?: string;
+  private _mdnSigningAlgorithm?: string; 
   public get mdnSigningAlgorithm() {
     return this.getStringAttribute('mdn_signing_algorithm');
   }
@@ -325,7 +325,7 @@ export class TransferConnectorAs2ConfigOutputReference extends cdktn.ComplexObje
   }
 
   // message_subject - computed: false, optional: true, required: false
-  private _messageSubject?: string;
+  private _messageSubject?: string; 
   public get messageSubject() {
     return this.getStringAttribute('message_subject');
   }
@@ -341,7 +341,7 @@ export class TransferConnectorAs2ConfigOutputReference extends cdktn.ComplexObje
   }
 
   // partner_profile_id - computed: false, optional: false, required: true
-  private _partnerProfileId?: string;
+  private _partnerProfileId?: string; 
   public get partnerProfileId() {
     return this.getStringAttribute('partner_profile_id');
   }
@@ -354,7 +354,7 @@ export class TransferConnectorAs2ConfigOutputReference extends cdktn.ComplexObje
   }
 
   // signing_algorithm - computed: false, optional: false, required: true
-  private _signingAlgorithm?: string;
+  private _signingAlgorithm?: string; 
   public get signingAlgorithm() {
     return this.getStringAttribute('signing_algorithm');
   }
@@ -452,7 +452,7 @@ export class TransferConnectorEgressConfigVpcLatticeOutputReference extends cdkt
   }
 
   // port_number - computed: false, optional: true, required: false
-  private _portNumber?: number;
+  private _portNumber?: number; 
   public get portNumber() {
     return this.getNumberAttribute('port_number');
   }
@@ -468,7 +468,7 @@ export class TransferConnectorEgressConfigVpcLatticeOutputReference extends cdkt
   }
 
   // resource_configuration_arn - computed: false, optional: false, required: true
-  private _resourceConfigurationArn?: string;
+  private _resourceConfigurationArn?: string; 
   public get resourceConfigurationArn() {
     return this.getStringAttribute('resource_configuration_arn');
   }
@@ -652,7 +652,7 @@ export class TransferConnectorSftpConfigOutputReference extends cdktn.ComplexObj
   }
 
   // trusted_host_keys - computed: false, optional: true, required: false
-  private _trustedHostKeys?: string[];
+  private _trustedHostKeys?: string[]; 
   public get trustedHostKeys() {
     return cdktn.Fn.tolist(this.getListAttribute('trusted_host_keys'));
   }
@@ -668,7 +668,7 @@ export class TransferConnectorSftpConfigOutputReference extends cdktn.ComplexObj
   }
 
   // user_secret_id - computed: false, optional: true, required: false
-  private _userSecretId?: string;
+  private _userSecretId?: string; 
   public get userSecretId() {
     return this.getStringAttribute('user_secret_id');
   }
@@ -796,7 +796,7 @@ export class TransferConnectorTimeoutsOutputReference extends cdktn.ComplexObjec
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -812,7 +812,7 @@ export class TransferConnectorTimeoutsOutputReference extends cdktn.ComplexObjec
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -828,7 +828,7 @@ export class TransferConnectorTimeoutsOutputReference extends cdktn.ComplexObjec
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -913,7 +913,7 @@ export class TransferConnector extends cdktn.TerraformResource {
   // ==========
 
   // access_role - computed: false, optional: false, required: true
-  private _accessRole?: string;
+  private _accessRole?: string; 
   public get accessRole() {
     return this.getStringAttribute('access_role');
   }
@@ -936,7 +936,7 @@ export class TransferConnector extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -952,7 +952,7 @@ export class TransferConnector extends cdktn.TerraformResource {
   }
 
   // logging_role - computed: false, optional: true, required: false
-  private _loggingRole?: string;
+  private _loggingRole?: string; 
   public get loggingRole() {
     return this.getStringAttribute('logging_role');
   }
@@ -968,7 +968,7 @@ export class TransferConnector extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -984,7 +984,7 @@ export class TransferConnector extends cdktn.TerraformResource {
   }
 
   // security_policy_name - computed: true, optional: true, required: false
-  private _securityPolicyName?: string;
+  private _securityPolicyName?: string; 
   public get securityPolicyName() {
     return this.getStringAttribute('security_policy_name');
   }
@@ -1000,7 +1000,7 @@ export class TransferConnector extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -1016,7 +1016,7 @@ export class TransferConnector extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -1032,7 +1032,7 @@ export class TransferConnector extends cdktn.TerraformResource {
   }
 
   // url - computed: false, optional: true, required: false
-  private _url?: string;
+  private _url?: string; 
   public get url() {
     return this.getStringAttribute('url');
   }

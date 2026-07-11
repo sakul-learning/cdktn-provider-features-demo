@@ -118,7 +118,7 @@ export class LexBotBotFileS3LocationOutputReference extends cdktn.ComplexObject 
   }
 
   // s3_bucket - computed: true, optional: true, required: false
-  private _s3Bucket?: string;
+  private _s3Bucket?: string; 
   public get s3Bucket() {
     return this.getStringAttribute('s3_bucket');
   }
@@ -134,7 +134,7 @@ export class LexBotBotFileS3LocationOutputReference extends cdktn.ComplexObject 
   }
 
   // s3_object_key - computed: true, optional: true, required: false
-  private _s3ObjectKey?: string;
+  private _s3ObjectKey?: string; 
   public get s3ObjectKey() {
     return this.getStringAttribute('s3_object_key');
   }
@@ -150,7 +150,7 @@ export class LexBotBotFileS3LocationOutputReference extends cdktn.ComplexObject 
   }
 
   // s3_object_version - computed: true, optional: true, required: false
-  private _s3ObjectVersion?: string;
+  private _s3ObjectVersion?: string; 
   public get s3ObjectVersion() {
     return this.getStringAttribute('s3_object_version');
   }
@@ -267,7 +267,7 @@ export class LexBotBotLocalesCustomVocabularyCustomVocabularyItemsOutputReferenc
   }
 
   // phrase - computed: true, optional: true, required: false
-  private _phrase?: string;
+  private _phrase?: string; 
   public get phrase() {
     return this.getStringAttribute('phrase');
   }
@@ -283,7 +283,7 @@ export class LexBotBotLocalesCustomVocabularyCustomVocabularyItemsOutputReferenc
   }
 
   // weight - computed: true, optional: true, required: false
-  private _weight?: number;
+  private _weight?: number; 
   public get weight() {
     return this.getNumberAttribute('weight');
   }
@@ -491,7 +491,7 @@ export class LexBotBotLocalesIntentsDialogCodeHookOutputReference extends cdktn.
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -587,7 +587,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecifi
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -704,7 +704,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecifi
   }
 
   // text - computed: true, optional: true, required: false
-  private _text?: string;
+  private _text?: string; 
   public get text() {
     return this.getStringAttribute('text');
   }
@@ -720,7 +720,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecifi
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -909,7 +909,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecifi
   }
 
   // image_url - computed: true, optional: true, required: false
-  private _imageUrl?: string;
+  private _imageUrl?: string; 
   public get imageUrl() {
     return this.getStringAttribute('image_url');
   }
@@ -925,7 +925,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecifi
   }
 
   // subtitle - computed: true, optional: true, required: false
-  private _subtitle?: string;
+  private _subtitle?: string; 
   public get subtitle() {
     return this.getStringAttribute('subtitle');
   }
@@ -941,7 +941,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecifi
   }
 
   // title - computed: true, optional: true, required: false
-  private _title?: string;
+  private _title?: string; 
   public get title() {
     return this.getStringAttribute('title');
   }
@@ -1037,7 +1037,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecifi
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1133,7 +1133,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecifi
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1430,7 +1430,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecifi
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1547,7 +1547,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecifi
   }
 
   // text - computed: true, optional: true, required: false
-  private _text?: string;
+  private _text?: string; 
   public get text() {
     return this.getStringAttribute('text');
   }
@@ -1563,7 +1563,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecifi
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1752,7 +1752,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecifi
   }
 
   // image_url - computed: true, optional: true, required: false
-  private _imageUrl?: string;
+  private _imageUrl?: string; 
   public get imageUrl() {
     return this.getStringAttribute('image_url');
   }
@@ -1768,7 +1768,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecifi
   }
 
   // subtitle - computed: true, optional: true, required: false
-  private _subtitle?: string;
+  private _subtitle?: string; 
   public get subtitle() {
     return this.getStringAttribute('subtitle');
   }
@@ -1784,7 +1784,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecifi
   }
 
   // title - computed: true, optional: true, required: false
-  private _title?: string;
+  private _title?: string; 
   public get title() {
     return this.getStringAttribute('title');
   }
@@ -1880,7 +1880,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecifi
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1976,7 +1976,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecifi
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2486,7 +2486,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecifi
   }
 
   // allow_interrupt - computed: true, optional: true, required: false
-  private _allowInterrupt?: boolean | cdktn.IResolvable;
+  private _allowInterrupt?: boolean | cdktn.IResolvable; 
   public get allowInterrupt() {
     return this.getBooleanAttribute('allow_interrupt');
   }
@@ -2502,7 +2502,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecifi
   }
 
   // delay_in_seconds - computed: true, optional: true, required: false
-  private _delayInSeconds?: number;
+  private _delayInSeconds?: number; 
   public get delayInSeconds() {
     return this.getNumberAttribute('delay_in_seconds');
   }
@@ -2614,7 +2614,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecifi
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2731,7 +2731,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecifi
   }
 
   // text - computed: true, optional: true, required: false
-  private _text?: string;
+  private _text?: string; 
   public get text() {
     return this.getStringAttribute('text');
   }
@@ -2747,7 +2747,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecifi
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2936,7 +2936,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecifi
   }
 
   // image_url - computed: true, optional: true, required: false
-  private _imageUrl?: string;
+  private _imageUrl?: string; 
   public get imageUrl() {
     return this.getStringAttribute('image_url');
   }
@@ -2952,7 +2952,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecifi
   }
 
   // subtitle - computed: true, optional: true, required: false
-  private _subtitle?: string;
+  private _subtitle?: string; 
   public get subtitle() {
     return this.getStringAttribute('subtitle');
   }
@@ -2968,7 +2968,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecifi
   }
 
   // title - computed: true, optional: true, required: false
-  private _title?: string;
+  private _title?: string; 
   public get title() {
     return this.getStringAttribute('title');
   }
@@ -3064,7 +3064,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecifi
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -3160,7 +3160,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecifi
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -3457,7 +3457,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecifi
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -3574,7 +3574,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecifi
   }
 
   // text - computed: true, optional: true, required: false
-  private _text?: string;
+  private _text?: string; 
   public get text() {
     return this.getStringAttribute('text');
   }
@@ -3590,7 +3590,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecifi
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -3779,7 +3779,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecifi
   }
 
   // image_url - computed: true, optional: true, required: false
-  private _imageUrl?: string;
+  private _imageUrl?: string; 
   public get imageUrl() {
     return this.getStringAttribute('image_url');
   }
@@ -3795,7 +3795,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecifi
   }
 
   // subtitle - computed: true, optional: true, required: false
-  private _subtitle?: string;
+  private _subtitle?: string; 
   public get subtitle() {
     return this.getStringAttribute('subtitle');
   }
@@ -3811,7 +3811,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecifi
   }
 
   // title - computed: true, optional: true, required: false
-  private _title?: string;
+  private _title?: string; 
   public get title() {
     return this.getStringAttribute('title');
   }
@@ -3907,7 +3907,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecifi
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -4003,7 +4003,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecifi
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -4513,7 +4513,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecifi
   }
 
   // allow_interrupt - computed: true, optional: true, required: false
-  private _allowInterrupt?: boolean | cdktn.IResolvable;
+  private _allowInterrupt?: boolean | cdktn.IResolvable; 
   public get allowInterrupt() {
     return this.getBooleanAttribute('allow_interrupt');
   }
@@ -4529,7 +4529,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecifi
   }
 
   // frequency_in_seconds - computed: true, optional: true, required: false
-  private _frequencyInSeconds?: number;
+  private _frequencyInSeconds?: number; 
   public get frequencyInSeconds() {
     return this.getNumberAttribute('frequency_in_seconds');
   }
@@ -4698,7 +4698,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecifi
   }
 
   // active - computed: true, optional: true, required: false
-  private _active?: boolean | cdktn.IResolvable;
+  private _active?: boolean | cdktn.IResolvable; 
   public get active() {
     return this.getBooleanAttribute('active');
   }
@@ -4730,7 +4730,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookFulfillmentUpdatesSpecifi
   }
 
   // timeout_in_seconds - computed: true, optional: true, required: false
-  private _timeoutInSeconds?: number;
+  private _timeoutInSeconds?: number; 
   public get timeoutInSeconds() {
     return this.getNumberAttribute('timeout_in_seconds');
   }
@@ -4842,7 +4842,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpec
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -4959,7 +4959,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpec
   }
 
   // text - computed: true, optional: true, required: false
-  private _text?: string;
+  private _text?: string; 
   public get text() {
     return this.getStringAttribute('text');
   }
@@ -4975,7 +4975,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpec
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -5164,7 +5164,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpec
   }
 
   // image_url - computed: true, optional: true, required: false
-  private _imageUrl?: string;
+  private _imageUrl?: string; 
   public get imageUrl() {
     return this.getStringAttribute('image_url');
   }
@@ -5180,7 +5180,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpec
   }
 
   // subtitle - computed: true, optional: true, required: false
-  private _subtitle?: string;
+  private _subtitle?: string; 
   public get subtitle() {
     return this.getStringAttribute('subtitle');
   }
@@ -5196,7 +5196,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpec
   }
 
   // title - computed: true, optional: true, required: false
-  private _title?: string;
+  private _title?: string; 
   public get title() {
     return this.getStringAttribute('title');
   }
@@ -5292,7 +5292,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpec
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -5388,7 +5388,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpec
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -5685,7 +5685,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpec
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -5802,7 +5802,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpec
   }
 
   // text - computed: true, optional: true, required: false
-  private _text?: string;
+  private _text?: string; 
   public get text() {
     return this.getStringAttribute('text');
   }
@@ -5818,7 +5818,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpec
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -6007,7 +6007,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpec
   }
 
   // image_url - computed: true, optional: true, required: false
-  private _imageUrl?: string;
+  private _imageUrl?: string; 
   public get imageUrl() {
     return this.getStringAttribute('image_url');
   }
@@ -6023,7 +6023,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpec
   }
 
   // subtitle - computed: true, optional: true, required: false
-  private _subtitle?: string;
+  private _subtitle?: string; 
   public get subtitle() {
     return this.getStringAttribute('subtitle');
   }
@@ -6039,7 +6039,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpec
   }
 
   // title - computed: true, optional: true, required: false
-  private _title?: string;
+  private _title?: string; 
   public get title() {
     return this.getStringAttribute('title');
   }
@@ -6135,7 +6135,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpec
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -6231,7 +6231,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpec
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -6722,7 +6722,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpec
   }
 
   // allow_interrupt - computed: true, optional: true, required: false
-  private _allowInterrupt?: boolean | cdktn.IResolvable;
+  private _allowInterrupt?: boolean | cdktn.IResolvable; 
   public get allowInterrupt() {
     return this.getBooleanAttribute('allow_interrupt');
   }
@@ -6834,7 +6834,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpec
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -6951,7 +6951,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpec
   }
 
   // text - computed: true, optional: true, required: false
-  private _text?: string;
+  private _text?: string; 
   public get text() {
     return this.getStringAttribute('text');
   }
@@ -6967,7 +6967,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpec
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -7156,7 +7156,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpec
   }
 
   // image_url - computed: true, optional: true, required: false
-  private _imageUrl?: string;
+  private _imageUrl?: string; 
   public get imageUrl() {
     return this.getStringAttribute('image_url');
   }
@@ -7172,7 +7172,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpec
   }
 
   // subtitle - computed: true, optional: true, required: false
-  private _subtitle?: string;
+  private _subtitle?: string; 
   public get subtitle() {
     return this.getStringAttribute('subtitle');
   }
@@ -7188,7 +7188,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpec
   }
 
   // title - computed: true, optional: true, required: false
-  private _title?: string;
+  private _title?: string; 
   public get title() {
     return this.getStringAttribute('title');
   }
@@ -7284,7 +7284,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpec
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -7380,7 +7380,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpec
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -7677,7 +7677,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpec
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -7794,7 +7794,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpec
   }
 
   // text - computed: true, optional: true, required: false
-  private _text?: string;
+  private _text?: string; 
   public get text() {
     return this.getStringAttribute('text');
   }
@@ -7810,7 +7810,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpec
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -7999,7 +7999,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpec
   }
 
   // image_url - computed: true, optional: true, required: false
-  private _imageUrl?: string;
+  private _imageUrl?: string; 
   public get imageUrl() {
     return this.getStringAttribute('image_url');
   }
@@ -8015,7 +8015,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpec
   }
 
   // subtitle - computed: true, optional: true, required: false
-  private _subtitle?: string;
+  private _subtitle?: string; 
   public get subtitle() {
     return this.getStringAttribute('subtitle');
   }
@@ -8031,7 +8031,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpec
   }
 
   // title - computed: true, optional: true, required: false
-  private _title?: string;
+  private _title?: string; 
   public get title() {
     return this.getStringAttribute('title');
   }
@@ -8127,7 +8127,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpec
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -8223,7 +8223,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpec
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -8714,7 +8714,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpec
   }
 
   // allow_interrupt - computed: true, optional: true, required: false
-  private _allowInterrupt?: boolean | cdktn.IResolvable;
+  private _allowInterrupt?: boolean | cdktn.IResolvable; 
   public get allowInterrupt() {
     return this.getBooleanAttribute('allow_interrupt');
   }
@@ -8826,7 +8826,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpec
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -8943,7 +8943,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpec
   }
 
   // text - computed: true, optional: true, required: false
-  private _text?: string;
+  private _text?: string; 
   public get text() {
     return this.getStringAttribute('text');
   }
@@ -8959,7 +8959,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpec
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -9148,7 +9148,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpec
   }
 
   // image_url - computed: true, optional: true, required: false
-  private _imageUrl?: string;
+  private _imageUrl?: string; 
   public get imageUrl() {
     return this.getStringAttribute('image_url');
   }
@@ -9164,7 +9164,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpec
   }
 
   // subtitle - computed: true, optional: true, required: false
-  private _subtitle?: string;
+  private _subtitle?: string; 
   public get subtitle() {
     return this.getStringAttribute('subtitle');
   }
@@ -9180,7 +9180,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpec
   }
 
   // title - computed: true, optional: true, required: false
-  private _title?: string;
+  private _title?: string; 
   public get title() {
     return this.getStringAttribute('title');
   }
@@ -9276,7 +9276,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpec
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -9372,7 +9372,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpec
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -9669,7 +9669,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpec
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -9786,7 +9786,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpec
   }
 
   // text - computed: true, optional: true, required: false
-  private _text?: string;
+  private _text?: string; 
   public get text() {
     return this.getStringAttribute('text');
   }
@@ -9802,7 +9802,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpec
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -9991,7 +9991,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpec
   }
 
   // image_url - computed: true, optional: true, required: false
-  private _imageUrl?: string;
+  private _imageUrl?: string; 
   public get imageUrl() {
     return this.getStringAttribute('image_url');
   }
@@ -10007,7 +10007,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpec
   }
 
   // subtitle - computed: true, optional: true, required: false
-  private _subtitle?: string;
+  private _subtitle?: string; 
   public get subtitle() {
     return this.getStringAttribute('subtitle');
   }
@@ -10023,7 +10023,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpec
   }
 
   // title - computed: true, optional: true, required: false
-  private _title?: string;
+  private _title?: string; 
   public get title() {
     return this.getStringAttribute('title');
   }
@@ -10119,7 +10119,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpec
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -10215,7 +10215,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpec
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -10706,7 +10706,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookPostFulfillmentStatusSpec
   }
 
   // allow_interrupt - computed: true, optional: true, required: false
-  private _allowInterrupt?: boolean | cdktn.IResolvable;
+  private _allowInterrupt?: boolean | cdktn.IResolvable; 
   public get allowInterrupt() {
     return this.getBooleanAttribute('allow_interrupt');
   }
@@ -11020,7 +11020,7 @@ export class LexBotBotLocalesIntentsFulfillmentCodeHookOutputReference extends c
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -11150,7 +11150,7 @@ export class LexBotBotLocalesIntentsInputContextsOutputReference extends cdktn.C
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -11266,7 +11266,7 @@ export class LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGr
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -11383,7 +11383,7 @@ export class LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGr
   }
 
   // text - computed: true, optional: true, required: false
-  private _text?: string;
+  private _text?: string; 
   public get text() {
     return this.getStringAttribute('text');
   }
@@ -11399,7 +11399,7 @@ export class LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGr
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -11588,7 +11588,7 @@ export class LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGr
   }
 
   // image_url - computed: true, optional: true, required: false
-  private _imageUrl?: string;
+  private _imageUrl?: string; 
   public get imageUrl() {
     return this.getStringAttribute('image_url');
   }
@@ -11604,7 +11604,7 @@ export class LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGr
   }
 
   // subtitle - computed: true, optional: true, required: false
-  private _subtitle?: string;
+  private _subtitle?: string; 
   public get subtitle() {
     return this.getStringAttribute('subtitle');
   }
@@ -11620,7 +11620,7 @@ export class LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGr
   }
 
   // title - computed: true, optional: true, required: false
-  private _title?: string;
+  private _title?: string; 
   public get title() {
     return this.getStringAttribute('title');
   }
@@ -11716,7 +11716,7 @@ export class LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGr
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -11812,7 +11812,7 @@ export class LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGr
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -12109,7 +12109,7 @@ export class LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGr
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -12226,7 +12226,7 @@ export class LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGr
   }
 
   // text - computed: true, optional: true, required: false
-  private _text?: string;
+  private _text?: string; 
   public get text() {
     return this.getStringAttribute('text');
   }
@@ -12242,7 +12242,7 @@ export class LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGr
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -12431,7 +12431,7 @@ export class LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGr
   }
 
   // image_url - computed: true, optional: true, required: false
-  private _imageUrl?: string;
+  private _imageUrl?: string; 
   public get imageUrl() {
     return this.getStringAttribute('image_url');
   }
@@ -12447,7 +12447,7 @@ export class LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGr
   }
 
   // subtitle - computed: true, optional: true, required: false
-  private _subtitle?: string;
+  private _subtitle?: string; 
   public get subtitle() {
     return this.getStringAttribute('subtitle');
   }
@@ -12463,7 +12463,7 @@ export class LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGr
   }
 
   // title - computed: true, optional: true, required: false
-  private _title?: string;
+  private _title?: string; 
   public get title() {
     return this.getStringAttribute('title');
   }
@@ -12559,7 +12559,7 @@ export class LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGr
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -12655,7 +12655,7 @@ export class LexBotBotLocalesIntentsIntentClosingSettingClosingResponseMessageGr
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -13146,7 +13146,7 @@ export class LexBotBotLocalesIntentsIntentClosingSettingClosingResponseOutputRef
   }
 
   // allow_interrupt - computed: true, optional: true, required: false
-  private _allowInterrupt?: boolean | cdktn.IResolvable;
+  private _allowInterrupt?: boolean | cdktn.IResolvable; 
   public get allowInterrupt() {
     return this.getBooleanAttribute('allow_interrupt');
   }
@@ -13291,7 +13291,7 @@ export class LexBotBotLocalesIntentsIntentClosingSettingOutputReference extends 
   }
 
   // is_active - computed: true, optional: true, required: false
-  private _isActive?: boolean | cdktn.IResolvable;
+  private _isActive?: boolean | cdktn.IResolvable; 
   public get isActive() {
     return this.getBooleanAttribute('is_active');
   }
@@ -13387,7 +13387,7 @@ export class LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponse
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -13504,7 +13504,7 @@ export class LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponse
   }
 
   // text - computed: true, optional: true, required: false
-  private _text?: string;
+  private _text?: string; 
   public get text() {
     return this.getStringAttribute('text');
   }
@@ -13520,7 +13520,7 @@ export class LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponse
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -13709,7 +13709,7 @@ export class LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponse
   }
 
   // image_url - computed: true, optional: true, required: false
-  private _imageUrl?: string;
+  private _imageUrl?: string; 
   public get imageUrl() {
     return this.getStringAttribute('image_url');
   }
@@ -13725,7 +13725,7 @@ export class LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponse
   }
 
   // subtitle - computed: true, optional: true, required: false
-  private _subtitle?: string;
+  private _subtitle?: string; 
   public get subtitle() {
     return this.getStringAttribute('subtitle');
   }
@@ -13741,7 +13741,7 @@ export class LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponse
   }
 
   // title - computed: true, optional: true, required: false
-  private _title?: string;
+  private _title?: string; 
   public get title() {
     return this.getStringAttribute('title');
   }
@@ -13837,7 +13837,7 @@ export class LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponse
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -13933,7 +13933,7 @@ export class LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponse
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -14230,7 +14230,7 @@ export class LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponse
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -14347,7 +14347,7 @@ export class LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponse
   }
 
   // text - computed: true, optional: true, required: false
-  private _text?: string;
+  private _text?: string; 
   public get text() {
     return this.getStringAttribute('text');
   }
@@ -14363,7 +14363,7 @@ export class LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponse
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -14552,7 +14552,7 @@ export class LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponse
   }
 
   // image_url - computed: true, optional: true, required: false
-  private _imageUrl?: string;
+  private _imageUrl?: string; 
   public get imageUrl() {
     return this.getStringAttribute('image_url');
   }
@@ -14568,7 +14568,7 @@ export class LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponse
   }
 
   // subtitle - computed: true, optional: true, required: false
-  private _subtitle?: string;
+  private _subtitle?: string; 
   public get subtitle() {
     return this.getStringAttribute('subtitle');
   }
@@ -14584,7 +14584,7 @@ export class LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponse
   }
 
   // title - computed: true, optional: true, required: false
-  private _title?: string;
+  private _title?: string; 
   public get title() {
     return this.getStringAttribute('title');
   }
@@ -14680,7 +14680,7 @@ export class LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponse
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -14776,7 +14776,7 @@ export class LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponse
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -15267,7 +15267,7 @@ export class LexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponse
   }
 
   // allow_interrupt - computed: true, optional: true, required: false
-  private _allowInterrupt?: boolean | cdktn.IResolvable;
+  private _allowInterrupt?: boolean | cdktn.IResolvable; 
   public get allowInterrupt() {
     return this.getBooleanAttribute('allow_interrupt');
   }
@@ -15379,7 +15379,7 @@ export class LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecification
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -15496,7 +15496,7 @@ export class LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecification
   }
 
   // text - computed: true, optional: true, required: false
-  private _text?: string;
+  private _text?: string; 
   public get text() {
     return this.getStringAttribute('text');
   }
@@ -15512,7 +15512,7 @@ export class LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecification
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -15701,7 +15701,7 @@ export class LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecification
   }
 
   // image_url - computed: true, optional: true, required: false
-  private _imageUrl?: string;
+  private _imageUrl?: string; 
   public get imageUrl() {
     return this.getStringAttribute('image_url');
   }
@@ -15717,7 +15717,7 @@ export class LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecification
   }
 
   // subtitle - computed: true, optional: true, required: false
-  private _subtitle?: string;
+  private _subtitle?: string; 
   public get subtitle() {
     return this.getStringAttribute('subtitle');
   }
@@ -15733,7 +15733,7 @@ export class LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecification
   }
 
   // title - computed: true, optional: true, required: false
-  private _title?: string;
+  private _title?: string; 
   public get title() {
     return this.getStringAttribute('title');
   }
@@ -15829,7 +15829,7 @@ export class LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecification
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -15925,7 +15925,7 @@ export class LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecification
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -16222,7 +16222,7 @@ export class LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecification
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -16339,7 +16339,7 @@ export class LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecification
   }
 
   // text - computed: true, optional: true, required: false
-  private _text?: string;
+  private _text?: string; 
   public get text() {
     return this.getStringAttribute('text');
   }
@@ -16355,7 +16355,7 @@ export class LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecification
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -16544,7 +16544,7 @@ export class LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecification
   }
 
   // image_url - computed: true, optional: true, required: false
-  private _imageUrl?: string;
+  private _imageUrl?: string; 
   public get imageUrl() {
     return this.getStringAttribute('image_url');
   }
@@ -16560,7 +16560,7 @@ export class LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecification
   }
 
   // subtitle - computed: true, optional: true, required: false
-  private _subtitle?: string;
+  private _subtitle?: string; 
   public get subtitle() {
     return this.getStringAttribute('subtitle');
   }
@@ -16576,7 +16576,7 @@ export class LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecification
   }
 
   // title - computed: true, optional: true, required: false
-  private _title?: string;
+  private _title?: string; 
   public get title() {
     return this.getStringAttribute('title');
   }
@@ -16672,7 +16672,7 @@ export class LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecification
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -16768,7 +16768,7 @@ export class LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecification
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -17259,7 +17259,7 @@ export class LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecification
   }
 
   // allow_audio_input - computed: true, optional: true, required: false
-  private _allowAudioInput?: boolean | cdktn.IResolvable;
+  private _allowAudioInput?: boolean | cdktn.IResolvable; 
   public get allowAudioInput() {
     return this.getBooleanAttribute('allow_audio_input');
   }
@@ -17275,7 +17275,7 @@ export class LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecification
   }
 
   // allow_dtmf_input - computed: true, optional: true, required: false
-  private _allowDtmfInput?: boolean | cdktn.IResolvable;
+  private _allowDtmfInput?: boolean | cdktn.IResolvable; 
   public get allowDtmfInput() {
     return this.getBooleanAttribute('allow_dtmf_input');
   }
@@ -17390,7 +17390,7 @@ export class LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecification
   }
 
   // end_timeout_ms - computed: true, optional: true, required: false
-  private _endTimeoutMs?: number;
+  private _endTimeoutMs?: number; 
   public get endTimeoutMs() {
     return this.getNumberAttribute('end_timeout_ms');
   }
@@ -17406,7 +17406,7 @@ export class LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecification
   }
 
   // max_length_ms - computed: true, optional: true, required: false
-  private _maxLengthMs?: number;
+  private _maxLengthMs?: number; 
   public get maxLengthMs() {
     return this.getNumberAttribute('max_length_ms');
   }
@@ -17559,7 +17559,7 @@ export class LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecification
   }
 
   // deletion_character - computed: true, optional: true, required: false
-  private _deletionCharacter?: string;
+  private _deletionCharacter?: string; 
   public get deletionCharacter() {
     return this.getStringAttribute('deletion_character');
   }
@@ -17575,7 +17575,7 @@ export class LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecification
   }
 
   // end_character - computed: true, optional: true, required: false
-  private _endCharacter?: string;
+  private _endCharacter?: string; 
   public get endCharacter() {
     return this.getStringAttribute('end_character');
   }
@@ -17591,7 +17591,7 @@ export class LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecification
   }
 
   // end_timeout_ms - computed: true, optional: true, required: false
-  private _endTimeoutMs?: number;
+  private _endTimeoutMs?: number; 
   public get endTimeoutMs() {
     return this.getNumberAttribute('end_timeout_ms');
   }
@@ -17607,7 +17607,7 @@ export class LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecification
   }
 
   // max_length - computed: true, optional: true, required: false
-  private _maxLength?: number;
+  private _maxLength?: number; 
   public get maxLength() {
     return this.getNumberAttribute('max_length');
   }
@@ -17773,7 +17773,7 @@ export class LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecification
   }
 
   // start_timeout_ms - computed: true, optional: true, required: false
-  private _startTimeoutMs?: number;
+  private _startTimeoutMs?: number; 
   public get startTimeoutMs() {
     return this.getNumberAttribute('start_timeout_ms');
   }
@@ -17869,7 +17869,7 @@ export class LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecification
   }
 
   // start_timeout_ms - computed: true, optional: true, required: false
-  private _startTimeoutMs?: number;
+  private _startTimeoutMs?: number; 
   public get startTimeoutMs() {
     return this.getNumberAttribute('start_timeout_ms');
   }
@@ -18023,7 +18023,7 @@ export class LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecification
   }
 
   // allow_interrupt - computed: true, optional: true, required: false
-  private _allowInterrupt?: boolean | cdktn.IResolvable;
+  private _allowInterrupt?: boolean | cdktn.IResolvable; 
   public get allowInterrupt() {
     return this.getBooleanAttribute('allow_interrupt');
   }
@@ -18262,7 +18262,7 @@ export class LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecification
   }
 
   // allow_interrupt - computed: true, optional: true, required: false
-  private _allowInterrupt?: boolean | cdktn.IResolvable;
+  private _allowInterrupt?: boolean | cdktn.IResolvable; 
   public get allowInterrupt() {
     return this.getBooleanAttribute('allow_interrupt');
   }
@@ -18278,7 +18278,7 @@ export class LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecification
   }
 
   // max_retries - computed: true, optional: true, required: false
-  private _maxRetries?: number;
+  private _maxRetries?: number; 
   public get maxRetries() {
     return this.getNumberAttribute('max_retries');
   }
@@ -18310,7 +18310,7 @@ export class LexBotBotLocalesIntentsIntentConfirmationSettingPromptSpecification
   }
 
   // message_selection_strategy - computed: true, optional: true, required: false
-  private _messageSelectionStrategy?: string;
+  private _messageSelectionStrategy?: string; 
   public get messageSelectionStrategy() {
     return this.getStringAttribute('message_selection_strategy');
   }
@@ -18474,7 +18474,7 @@ export class LexBotBotLocalesIntentsIntentConfirmationSettingOutputReference ext
   }
 
   // is_active - computed: true, optional: true, required: false
-  private _isActive?: boolean | cdktn.IResolvable;
+  private _isActive?: boolean | cdktn.IResolvable; 
   public get isActive() {
     return this.getBooleanAttribute('is_active');
   }
@@ -18624,7 +18624,7 @@ export class LexBotBotLocalesIntentsKendraConfigurationOutputReference extends c
   }
 
   // kendra_index - computed: true, optional: true, required: false
-  private _kendraIndex?: string;
+  private _kendraIndex?: string; 
   public get kendraIndex() {
     return this.getStringAttribute('kendra_index');
   }
@@ -18640,7 +18640,7 @@ export class LexBotBotLocalesIntentsKendraConfigurationOutputReference extends c
   }
 
   // query_filter_string - computed: true, optional: true, required: false
-  private _queryFilterString?: string;
+  private _queryFilterString?: string; 
   public get queryFilterString() {
     return this.getStringAttribute('query_filter_string');
   }
@@ -18656,7 +18656,7 @@ export class LexBotBotLocalesIntentsKendraConfigurationOutputReference extends c
   }
 
   // query_filter_string_enabled - computed: true, optional: true, required: false
-  private _queryFilterStringEnabled?: boolean | cdktn.IResolvable;
+  private _queryFilterStringEnabled?: boolean | cdktn.IResolvable; 
   public get queryFilterStringEnabled() {
     return this.getBooleanAttribute('query_filter_string_enabled');
   }
@@ -18792,7 +18792,7 @@ export class LexBotBotLocalesIntentsOutputContextsOutputReference extends cdktn.
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -18808,7 +18808,7 @@ export class LexBotBotLocalesIntentsOutputContextsOutputReference extends cdktn.
   }
 
   // time_to_live_in_seconds - computed: true, optional: true, required: false
-  private _timeToLiveInSeconds?: number;
+  private _timeToLiveInSeconds?: number; 
   public get timeToLiveInSeconds() {
     return this.getNumberAttribute('time_to_live_in_seconds');
   }
@@ -18824,7 +18824,7 @@ export class LexBotBotLocalesIntentsOutputContextsOutputReference extends cdktn.
   }
 
   // turns_to_live - computed: true, optional: true, required: false
-  private _turnsToLive?: number;
+  private _turnsToLive?: number; 
   public get turnsToLive() {
     return this.getNumberAttribute('turns_to_live');
   }
@@ -18942,7 +18942,7 @@ export class LexBotBotLocalesIntentsSampleUtterancesOutputReference extends cdkt
   }
 
   // utterance - computed: true, optional: true, required: false
-  private _utterance?: string;
+  private _utterance?: string; 
   public get utterance() {
     return this.getStringAttribute('utterance');
   }
@@ -19079,7 +19079,7 @@ export class LexBotBotLocalesIntentsSlotPrioritiesOutputReference extends cdktn.
   }
 
   // priority - computed: true, optional: true, required: false
-  private _priority?: number;
+  private _priority?: number; 
   public get priority() {
     return this.getNumberAttribute('priority');
   }
@@ -19095,7 +19095,7 @@ export class LexBotBotLocalesIntentsSlotPrioritiesOutputReference extends cdktn.
   }
 
   // slot_name - computed: true, optional: true, required: false
-  private _slotName?: string;
+  private _slotName?: string; 
   public get slotName() {
     return this.getStringAttribute('slot_name');
   }
@@ -19209,7 +19209,7 @@ export class LexBotBotLocalesIntentsSlotsMultipleValuesSettingOutputReference ex
   }
 
   // allow_multiple_values - computed: true, optional: true, required: false
-  private _allowMultipleValues?: boolean | cdktn.IResolvable;
+  private _allowMultipleValues?: boolean | cdktn.IResolvable; 
   public get allowMultipleValues() {
     return this.getBooleanAttribute('allow_multiple_values');
   }
@@ -19305,7 +19305,7 @@ export class LexBotBotLocalesIntentsSlotsObfuscationSettingOutputReference exten
   }
 
   // obfuscation_setting_type - computed: true, optional: true, required: false
-  private _obfuscationSettingType?: string;
+  private _obfuscationSettingType?: string; 
   public get obfuscationSettingType() {
     return this.getStringAttribute('obfuscation_setting_type');
   }
@@ -19403,7 +19403,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingDefaultValueSpec
   }
 
   // default_value - computed: true, optional: true, required: false
-  private _defaultValue?: string;
+  private _defaultValue?: string; 
   public get defaultValue() {
     return this.getStringAttribute('default_value');
   }
@@ -19615,7 +19615,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificat
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -19732,7 +19732,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificat
   }
 
   // text - computed: true, optional: true, required: false
-  private _text?: string;
+  private _text?: string; 
   public get text() {
     return this.getStringAttribute('text');
   }
@@ -19748,7 +19748,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificat
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -19937,7 +19937,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificat
   }
 
   // image_url - computed: true, optional: true, required: false
-  private _imageUrl?: string;
+  private _imageUrl?: string; 
   public get imageUrl() {
     return this.getStringAttribute('image_url');
   }
@@ -19953,7 +19953,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificat
   }
 
   // subtitle - computed: true, optional: true, required: false
-  private _subtitle?: string;
+  private _subtitle?: string; 
   public get subtitle() {
     return this.getStringAttribute('subtitle');
   }
@@ -19969,7 +19969,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificat
   }
 
   // title - computed: true, optional: true, required: false
-  private _title?: string;
+  private _title?: string; 
   public get title() {
     return this.getStringAttribute('title');
   }
@@ -20065,7 +20065,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificat
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -20161,7 +20161,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificat
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -20458,7 +20458,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificat
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -20575,7 +20575,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificat
   }
 
   // text - computed: true, optional: true, required: false
-  private _text?: string;
+  private _text?: string; 
   public get text() {
     return this.getStringAttribute('text');
   }
@@ -20591,7 +20591,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificat
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -20780,7 +20780,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificat
   }
 
   // image_url - computed: true, optional: true, required: false
-  private _imageUrl?: string;
+  private _imageUrl?: string; 
   public get imageUrl() {
     return this.getStringAttribute('image_url');
   }
@@ -20796,7 +20796,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificat
   }
 
   // subtitle - computed: true, optional: true, required: false
-  private _subtitle?: string;
+  private _subtitle?: string; 
   public get subtitle() {
     return this.getStringAttribute('subtitle');
   }
@@ -20812,7 +20812,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificat
   }
 
   // title - computed: true, optional: true, required: false
-  private _title?: string;
+  private _title?: string; 
   public get title() {
     return this.getStringAttribute('title');
   }
@@ -20908,7 +20908,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificat
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -21004,7 +21004,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificat
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -21495,7 +21495,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificat
   }
 
   // allow_audio_input - computed: true, optional: true, required: false
-  private _allowAudioInput?: boolean | cdktn.IResolvable;
+  private _allowAudioInput?: boolean | cdktn.IResolvable; 
   public get allowAudioInput() {
     return this.getBooleanAttribute('allow_audio_input');
   }
@@ -21511,7 +21511,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificat
   }
 
   // allow_dtmf_input - computed: true, optional: true, required: false
-  private _allowDtmfInput?: boolean | cdktn.IResolvable;
+  private _allowDtmfInput?: boolean | cdktn.IResolvable; 
   public get allowDtmfInput() {
     return this.getBooleanAttribute('allow_dtmf_input');
   }
@@ -21626,7 +21626,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificat
   }
 
   // end_timeout_ms - computed: true, optional: true, required: false
-  private _endTimeoutMs?: number;
+  private _endTimeoutMs?: number; 
   public get endTimeoutMs() {
     return this.getNumberAttribute('end_timeout_ms');
   }
@@ -21642,7 +21642,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificat
   }
 
   // max_length_ms - computed: true, optional: true, required: false
-  private _maxLengthMs?: number;
+  private _maxLengthMs?: number; 
   public get maxLengthMs() {
     return this.getNumberAttribute('max_length_ms');
   }
@@ -21795,7 +21795,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificat
   }
 
   // deletion_character - computed: true, optional: true, required: false
-  private _deletionCharacter?: string;
+  private _deletionCharacter?: string; 
   public get deletionCharacter() {
     return this.getStringAttribute('deletion_character');
   }
@@ -21811,7 +21811,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificat
   }
 
   // end_character - computed: true, optional: true, required: false
-  private _endCharacter?: string;
+  private _endCharacter?: string; 
   public get endCharacter() {
     return this.getStringAttribute('end_character');
   }
@@ -21827,7 +21827,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificat
   }
 
   // end_timeout_ms - computed: true, optional: true, required: false
-  private _endTimeoutMs?: number;
+  private _endTimeoutMs?: number; 
   public get endTimeoutMs() {
     return this.getNumberAttribute('end_timeout_ms');
   }
@@ -21843,7 +21843,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificat
   }
 
   // max_length - computed: true, optional: true, required: false
-  private _maxLength?: number;
+  private _maxLength?: number; 
   public get maxLength() {
     return this.getNumberAttribute('max_length');
   }
@@ -22009,7 +22009,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificat
   }
 
   // start_timeout_ms - computed: true, optional: true, required: false
-  private _startTimeoutMs?: number;
+  private _startTimeoutMs?: number; 
   public get startTimeoutMs() {
     return this.getNumberAttribute('start_timeout_ms');
   }
@@ -22105,7 +22105,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificat
   }
 
   // start_timeout_ms - computed: true, optional: true, required: false
-  private _startTimeoutMs?: number;
+  private _startTimeoutMs?: number; 
   public get startTimeoutMs() {
     return this.getNumberAttribute('start_timeout_ms');
   }
@@ -22259,7 +22259,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificat
   }
 
   // allow_interrupt - computed: true, optional: true, required: false
-  private _allowInterrupt?: boolean | cdktn.IResolvable;
+  private _allowInterrupt?: boolean | cdktn.IResolvable; 
   public get allowInterrupt() {
     return this.getBooleanAttribute('allow_interrupt');
   }
@@ -22498,7 +22498,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificat
   }
 
   // allow_interrupt - computed: true, optional: true, required: false
-  private _allowInterrupt?: boolean | cdktn.IResolvable;
+  private _allowInterrupt?: boolean | cdktn.IResolvable; 
   public get allowInterrupt() {
     return this.getBooleanAttribute('allow_interrupt');
   }
@@ -22514,7 +22514,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificat
   }
 
   // max_retries - computed: true, optional: true, required: false
-  private _maxRetries?: number;
+  private _maxRetries?: number; 
   public get maxRetries() {
     return this.getNumberAttribute('max_retries');
   }
@@ -22546,7 +22546,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingPromptSpecificat
   }
 
   // message_selection_strategy - computed: true, optional: true, required: false
-  private _messageSelectionStrategy?: string;
+  private _messageSelectionStrategy?: string; 
   public get messageSelectionStrategy() {
     return this.getStringAttribute('message_selection_strategy');
   }

@@ -481,7 +481,7 @@ export class SecurityhubInsightFiltersTitleOutputReference extends cdktn.Complex
   }
 
   // comparison - computed: true, optional: true, required: false
-  private _comparison?: string;
+  private _comparison?: string; 
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -497,7 +497,7 @@ export class SecurityhubInsightFiltersTitleOutputReference extends cdktn.Complex
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -634,7 +634,7 @@ export class SecurityhubInsightFiltersTypeOutputReference extends cdktn.ComplexO
   }
 
   // comparison - computed: true, optional: true, required: false
-  private _comparison?: string;
+  private _comparison?: string; 
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -650,7 +650,7 @@ export class SecurityhubInsightFiltersTypeOutputReference extends cdktn.ComplexO
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -785,7 +785,7 @@ export class SecurityhubInsightFiltersUpdatedAtDateRangeOutputReference extends 
   }
 
   // unit - computed: true, optional: true, required: false
-  private _unit?: string;
+  private _unit?: string; 
   public get unit() {
     return this.getStringAttribute('unit');
   }
@@ -801,7 +801,7 @@ export class SecurityhubInsightFiltersUpdatedAtDateRangeOutputReference extends 
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: number;
+  private _value?: number; 
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -953,7 +953,7 @@ export class SecurityhubInsightFiltersUpdatedAtOutputReference extends cdktn.Com
   }
 
   // end - computed: true, optional: true, required: false
-  private _end?: string;
+  private _end?: string; 
   public get end() {
     return this.getStringAttribute('end');
   }
@@ -969,7 +969,7 @@ export class SecurityhubInsightFiltersUpdatedAtOutputReference extends cdktn.Com
   }
 
   // start - computed: true, optional: true, required: false
-  private _start?: string;
+  private _start?: string; 
   public get start() {
     return this.getStringAttribute('start');
   }
@@ -1125,7 +1125,7 @@ export class SecurityhubInsightFiltersUserDefinedFieldsOutputReference extends c
   }
 
   // comparison - computed: true, optional: true, required: false
-  private _comparison?: string;
+  private _comparison?: string; 
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -1141,7 +1141,7 @@ export class SecurityhubInsightFiltersUserDefinedFieldsOutputReference extends c
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1157,7 +1157,7 @@ export class SecurityhubInsightFiltersUserDefinedFieldsOutputReference extends c
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1294,7 +1294,7 @@ export class SecurityhubInsightFiltersVerificationStateOutputReference extends c
   }
 
   // comparison - computed: true, optional: true, required: false
-  private _comparison?: string;
+  private _comparison?: string; 
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -1310,7 +1310,7 @@ export class SecurityhubInsightFiltersVerificationStateOutputReference extends c
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1447,7 +1447,7 @@ export class SecurityhubInsightFiltersVulnerabilitiesExploitAvailableOutputRefer
   }
 
   // comparison - computed: true, optional: true, required: false
-  private _comparison?: string;
+  private _comparison?: string; 
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -1463,7 +1463,7 @@ export class SecurityhubInsightFiltersVulnerabilitiesExploitAvailableOutputRefer
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1600,7 +1600,7 @@ export class SecurityhubInsightFiltersVulnerabilitiesFixAvailableOutputReference
   }
 
   // comparison - computed: true, optional: true, required: false
-  private _comparison?: string;
+  private _comparison?: string; 
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -1616,7 +1616,7 @@ export class SecurityhubInsightFiltersVulnerabilitiesFixAvailableOutputReference
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1753,7 +1753,7 @@ export class SecurityhubInsightFiltersWorkflowStateOutputReference extends cdktn
   }
 
   // comparison - computed: true, optional: true, required: false
-  private _comparison?: string;
+  private _comparison?: string; 
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -1769,7 +1769,7 @@ export class SecurityhubInsightFiltersWorkflowStateOutputReference extends cdktn
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1906,7 +1906,7 @@ export class SecurityhubInsightFiltersWorkflowStatusOutputReference extends cdkt
   }
 
   // comparison - computed: true, optional: true, required: false
-  private _comparison?: string;
+  private _comparison?: string; 
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -1922,7 +1922,7 @@ export class SecurityhubInsightFiltersWorkflowStatusOutputReference extends cdkt
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }

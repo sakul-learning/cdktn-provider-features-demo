@@ -122,7 +122,7 @@ export class BcmdataexportsExportExportDataQueryOutputReference extends cdktn.Co
   }
 
   // query_statement - computed: false, optional: false, required: true
-  private _queryStatement?: string;
+  private _queryStatement?: string; 
   public get queryStatement() {
     return this.getStringAttribute('query_statement');
   }
@@ -135,7 +135,7 @@ export class BcmdataexportsExportExportDataQueryOutputReference extends cdktn.Co
   }
 
   // table_configurations - computed: true, optional: true, required: false
-  private _tableConfigurations?: { [key: string]: { [key: string]: string } } | cdktn.IResolvable;
+  private _tableConfigurations?: { [key: string]: { [key: string]: string } } | cdktn.IResolvable; 
   public get tableConfigurations() {
     return this.interpolationForAttribute('table_configurations');
   }
@@ -302,7 +302,7 @@ export class BcmdataexportsExportExportDestinationConfigurationsS3DestinationS3O
   }
 
   // compression - computed: false, optional: false, required: true
-  private _compression?: string;
+  private _compression?: string; 
   public get compression() {
     return this.getStringAttribute('compression');
   }
@@ -315,7 +315,7 @@ export class BcmdataexportsExportExportDestinationConfigurationsS3DestinationS3O
   }
 
   // format - computed: false, optional: false, required: true
-  private _format?: string;
+  private _format?: string; 
   public get format() {
     return this.getStringAttribute('format');
   }
@@ -328,7 +328,7 @@ export class BcmdataexportsExportExportDestinationConfigurationsS3DestinationS3O
   }
 
   // output_type - computed: false, optional: false, required: true
-  private _outputType?: string;
+  private _outputType?: string; 
   public get outputType() {
     return this.getStringAttribute('output_type');
   }
@@ -341,7 +341,7 @@ export class BcmdataexportsExportExportDestinationConfigurationsS3DestinationS3O
   }
 
   // overwrite - computed: false, optional: false, required: true
-  private _overwrite?: string;
+  private _overwrite?: string; 
   public get overwrite() {
     return this.getStringAttribute('overwrite');
   }
@@ -507,7 +507,7 @@ export class BcmdataexportsExportExportDestinationConfigurationsS3DestinationOut
   }
 
   // s3_bucket - computed: false, optional: false, required: true
-  private _s3Bucket?: string;
+  private _s3Bucket?: string; 
   public get s3Bucket() {
     return this.getStringAttribute('s3_bucket');
   }
@@ -520,7 +520,7 @@ export class BcmdataexportsExportExportDestinationConfigurationsS3DestinationOut
   }
 
   // s3_prefix - computed: false, optional: false, required: true
-  private _s3Prefix?: string;
+  private _s3Prefix?: string; 
   public get s3Prefix() {
     return this.getStringAttribute('s3_prefix');
   }
@@ -533,7 +533,7 @@ export class BcmdataexportsExportExportDestinationConfigurationsS3DestinationOut
   }
 
   // s3_region - computed: false, optional: false, required: true
-  private _s3Region?: string;
+  private _s3Region?: string; 
   public get s3Region() {
     return this.getStringAttribute('s3_region');
   }
@@ -780,7 +780,7 @@ export class BcmdataexportsExportExportRefreshCadenceOutputReference extends cdk
   }
 
   // frequency - computed: false, optional: false, required: true
-  private _frequency?: string;
+  private _frequency?: string; 
   public get frequency() {
     return this.getStringAttribute('frequency');
   }
@@ -967,7 +967,7 @@ export class BcmdataexportsExportExportOutputReference extends cdktn.ComplexObje
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -988,7 +988,7 @@ export class BcmdataexportsExportExportOutputReference extends cdktn.ComplexObje
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1168,7 +1168,7 @@ export class BcmdataexportsExportTimeoutsOutputReference extends cdktn.ComplexOb
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -1184,7 +1184,7 @@ export class BcmdataexportsExportTimeoutsOutputReference extends cdktn.ComplexOb
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -1270,7 +1270,7 @@ export class BcmdataexportsExport extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

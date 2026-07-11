@@ -136,7 +136,7 @@ export class AppstreamAppBlockPostSetupScriptDetailsScriptS3LocationOutputRefere
   }
 
   // s3_bucket - computed: true, optional: true, required: false
-  private _s3Bucket?: string;
+  private _s3Bucket?: string; 
   public get s3Bucket() {
     return this.getStringAttribute('s3_bucket');
   }
@@ -152,7 +152,7 @@ export class AppstreamAppBlockPostSetupScriptDetailsScriptS3LocationOutputRefere
   }
 
   // s3_key - computed: true, optional: true, required: false
-  private _s3Key?: string;
+  private _s3Key?: string; 
   public get s3Key() {
     return this.getStringAttribute('s3_key');
   }
@@ -297,7 +297,7 @@ export class AppstreamAppBlockPostSetupScriptDetailsOutputReference extends cdkt
   }
 
   // executable_parameters - computed: true, optional: true, required: false
-  private _executableParameters?: string;
+  private _executableParameters?: string; 
   public get executableParameters() {
     return this.getStringAttribute('executable_parameters');
   }
@@ -313,7 +313,7 @@ export class AppstreamAppBlockPostSetupScriptDetailsOutputReference extends cdkt
   }
 
   // executable_path - computed: true, optional: true, required: false
-  private _executablePath?: string;
+  private _executablePath?: string; 
   public get executablePath() {
     return this.getStringAttribute('executable_path');
   }
@@ -345,7 +345,7 @@ export class AppstreamAppBlockPostSetupScriptDetailsOutputReference extends cdkt
   }
 
   // timeout_in_seconds - computed: true, optional: true, required: false
-  private _timeoutInSeconds?: number;
+  private _timeoutInSeconds?: number; 
   public get timeoutInSeconds() {
     return this.getNumberAttribute('timeout_in_seconds');
   }
@@ -456,7 +456,7 @@ export class AppstreamAppBlockSetupScriptDetailsScriptS3LocationOutputReference 
   }
 
   // s3_bucket - computed: true, optional: true, required: false
-  private _s3Bucket?: string;
+  private _s3Bucket?: string; 
   public get s3Bucket() {
     return this.getStringAttribute('s3_bucket');
   }
@@ -472,7 +472,7 @@ export class AppstreamAppBlockSetupScriptDetailsScriptS3LocationOutputReference 
   }
 
   // s3_key - computed: true, optional: true, required: false
-  private _s3Key?: string;
+  private _s3Key?: string; 
   public get s3Key() {
     return this.getStringAttribute('s3_key');
   }
@@ -617,7 +617,7 @@ export class AppstreamAppBlockSetupScriptDetailsOutputReference extends cdktn.Co
   }
 
   // executable_parameters - computed: true, optional: true, required: false
-  private _executableParameters?: string;
+  private _executableParameters?: string; 
   public get executableParameters() {
     return this.getStringAttribute('executable_parameters');
   }
@@ -633,7 +633,7 @@ export class AppstreamAppBlockSetupScriptDetailsOutputReference extends cdktn.Co
   }
 
   // executable_path - computed: true, optional: true, required: false
-  private _executablePath?: string;
+  private _executablePath?: string; 
   public get executablePath() {
     return this.getStringAttribute('executable_path');
   }
@@ -665,7 +665,7 @@ export class AppstreamAppBlockSetupScriptDetailsOutputReference extends cdktn.Co
   }
 
   // timeout_in_seconds - computed: true, optional: true, required: false
-  private _timeoutInSeconds?: number;
+  private _timeoutInSeconds?: number; 
   public get timeoutInSeconds() {
     return this.getNumberAttribute('timeout_in_seconds');
   }
@@ -776,7 +776,7 @@ export class AppstreamAppBlockSourceS3LocationOutputReference extends cdktn.Comp
   }
 
   // s3_bucket - computed: false, optional: false, required: true
-  private _s3Bucket?: string;
+  private _s3Bucket?: string; 
   public get s3Bucket() {
     return this.getStringAttribute('s3_bucket');
   }
@@ -789,7 +789,7 @@ export class AppstreamAppBlockSourceS3LocationOutputReference extends cdktn.Comp
   }
 
   // s3_key - computed: true, optional: true, required: false
-  private _s3Key?: string;
+  private _s3Key?: string; 
   public get s3Key() {
     return this.getStringAttribute('s3_key');
   }
@@ -936,7 +936,7 @@ export class AppstreamAppBlockTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -952,7 +952,7 @@ export class AppstreamAppBlockTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // tag_key - computed: true, optional: true, required: false
-  private _tagKey?: string;
+  private _tagKey?: string; 
   public get tagKey() {
     return this.getStringAttribute('tag_key');
   }
@@ -968,7 +968,7 @@ export class AppstreamAppBlockTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // tag_value - computed: true, optional: true, required: false
-  private _tagValue?: string;
+  private _tagValue?: string; 
   public get tagValue() {
     return this.getStringAttribute('tag_value');
   }
@@ -984,7 +984,7 @@ export class AppstreamAppBlockTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1095,7 +1095,7 @@ export class AppstreamAppBlock extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1111,7 +1111,7 @@ export class AppstreamAppBlock extends cdktn.TerraformResource {
   }
 
   // display_name - computed: true, optional: true, required: false
-  private _displayName?: string;
+  private _displayName?: string; 
   public get displayName() {
     return this.getStringAttribute('display_name');
   }
@@ -1132,7 +1132,7 @@ export class AppstreamAppBlock extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1145,7 +1145,7 @@ export class AppstreamAppBlock extends cdktn.TerraformResource {
   }
 
   // packaging_type - computed: true, optional: true, required: false
-  private _packagingType?: string;
+  private _packagingType?: string; 
   public get packagingType() {
     return this.getStringAttribute('packaging_type');
   }

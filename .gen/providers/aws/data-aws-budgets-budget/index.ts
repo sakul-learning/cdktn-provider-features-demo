@@ -886,7 +886,7 @@ export class DataAwsBudgetsBudget extends cdktn.TerraformDataSource {
   // ==========
 
   // account_id - computed: true, optional: true, required: false
-  private _accountId?: string;
+  private _accountId?: string; 
   public get accountId() {
     return this.getStringAttribute('account_id');
   }
@@ -952,7 +952,7 @@ export class DataAwsBudgetsBudget extends cdktn.TerraformDataSource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -968,7 +968,7 @@ export class DataAwsBudgetsBudget extends cdktn.TerraformDataSource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -981,7 +981,7 @@ export class DataAwsBudgetsBudget extends cdktn.TerraformDataSource {
   }
 
   // name_prefix - computed: false, optional: true, required: false
-  private _namePrefix?: string;
+  private _namePrefix?: string; 
   public get namePrefix() {
     return this.getStringAttribute('name_prefix');
   }
@@ -1009,7 +1009,7 @@ export class DataAwsBudgetsBudget extends cdktn.TerraformDataSource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

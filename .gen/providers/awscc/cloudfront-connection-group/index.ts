@@ -142,7 +142,7 @@ export class CloudfrontConnectionGroupTagsOutputReference extends cdktn.ComplexO
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -158,7 +158,7 @@ export class CloudfrontConnectionGroupTagsOutputReference extends cdktn.ComplexO
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -256,7 +256,7 @@ export class CloudfrontConnectionGroup extends cdktn.TerraformResource {
   // ==========
 
   // anycast_ip_list_id - computed: true, optional: true, required: false
-  private _anycastIpListId?: string;
+  private _anycastIpListId?: string; 
   public get anycastIpListId() {
     return this.getStringAttribute('anycast_ip_list_id');
   }
@@ -292,7 +292,7 @@ export class CloudfrontConnectionGroup extends cdktn.TerraformResource {
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -313,7 +313,7 @@ export class CloudfrontConnectionGroup extends cdktn.TerraformResource {
   }
 
   // ipv_6_enabled - computed: true, optional: true, required: false
-  private _ipv6Enabled?: boolean | cdktn.IResolvable;
+  private _ipv6Enabled?: boolean | cdktn.IResolvable; 
   public get ipv6Enabled() {
     return this.getBooleanAttribute('ipv_6_enabled');
   }
@@ -339,7 +339,7 @@ export class CloudfrontConnectionGroup extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }

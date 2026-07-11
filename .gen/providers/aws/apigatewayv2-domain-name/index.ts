@@ -192,7 +192,7 @@ export class Apigatewayv2DomainNameDomainNameConfigurationOutputReference extend
   }
 
   // certificate_arn - computed: false, optional: false, required: true
-  private _certificateArn?: string;
+  private _certificateArn?: string; 
   public get certificateArn() {
     return this.getStringAttribute('certificate_arn');
   }
@@ -205,7 +205,7 @@ export class Apigatewayv2DomainNameDomainNameConfigurationOutputReference extend
   }
 
   // endpoint_type - computed: false, optional: false, required: true
-  private _endpointType?: string;
+  private _endpointType?: string; 
   public get endpointType() {
     return this.getStringAttribute('endpoint_type');
   }
@@ -223,7 +223,7 @@ export class Apigatewayv2DomainNameDomainNameConfigurationOutputReference extend
   }
 
   // ip_address_type - computed: true, optional: true, required: false
-  private _ipAddressType?: string;
+  private _ipAddressType?: string; 
   public get ipAddressType() {
     return this.getStringAttribute('ip_address_type');
   }
@@ -239,7 +239,7 @@ export class Apigatewayv2DomainNameDomainNameConfigurationOutputReference extend
   }
 
   // ownership_verification_certificate_arn - computed: true, optional: true, required: false
-  private _ownershipVerificationCertificateArn?: string;
+  private _ownershipVerificationCertificateArn?: string; 
   public get ownershipVerificationCertificateArn() {
     return this.getStringAttribute('ownership_verification_certificate_arn');
   }
@@ -255,7 +255,7 @@ export class Apigatewayv2DomainNameDomainNameConfigurationOutputReference extend
   }
 
   // security_policy - computed: false, optional: false, required: true
-  private _securityPolicy?: string;
+  private _securityPolicy?: string; 
   public get securityPolicy() {
     return this.getStringAttribute('security_policy');
   }
@@ -358,7 +358,7 @@ export class Apigatewayv2DomainNameMutualTlsAuthenticationOutputReference extend
   }
 
   // truststore_uri - computed: false, optional: false, required: true
-  private _truststoreUri?: string;
+  private _truststoreUri?: string; 
   public get truststoreUri() {
     return this.getStringAttribute('truststore_uri');
   }
@@ -371,7 +371,7 @@ export class Apigatewayv2DomainNameMutualTlsAuthenticationOutputReference extend
   }
 
   // truststore_version - computed: false, optional: true, required: false
-  private _truststoreVersion?: string;
+  private _truststoreVersion?: string; 
   public get truststoreVersion() {
     return this.getStringAttribute('truststore_version');
   }
@@ -482,7 +482,7 @@ export class Apigatewayv2DomainNameTimeoutsOutputReference extends cdktn.Complex
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -498,7 +498,7 @@ export class Apigatewayv2DomainNameTimeoutsOutputReference extends cdktn.Complex
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -590,7 +590,7 @@ export class Apigatewayv2DomainName extends cdktn.TerraformResource {
   }
 
   // domain_name - computed: false, optional: false, required: true
-  private _domainName?: string;
+  private _domainName?: string; 
   public get domainName() {
     return this.getStringAttribute('domain_name');
   }
@@ -603,7 +603,7 @@ export class Apigatewayv2DomainName extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -619,7 +619,7 @@ export class Apigatewayv2DomainName extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -635,7 +635,7 @@ export class Apigatewayv2DomainName extends cdktn.TerraformResource {
   }
 
   // routing_mode - computed: true, optional: true, required: false
-  private _routingMode?: string;
+  private _routingMode?: string; 
   public get routingMode() {
     return this.getStringAttribute('routing_mode');
   }
@@ -651,7 +651,7 @@ export class Apigatewayv2DomainName extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -667,7 +667,7 @@ export class Apigatewayv2DomainName extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

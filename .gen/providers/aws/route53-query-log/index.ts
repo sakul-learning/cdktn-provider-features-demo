@@ -89,7 +89,7 @@ export class Route53QueryLog extends cdktn.TerraformResource {
   }
 
   // cloudwatch_log_group_arn - computed: false, optional: false, required: true
-  private _cloudwatchLogGroupArn?: string;
+  private _cloudwatchLogGroupArn?: string; 
   public get cloudwatchLogGroupArn() {
     return this.getStringAttribute('cloudwatch_log_group_arn');
   }
@@ -102,7 +102,7 @@ export class Route53QueryLog extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -118,7 +118,7 @@ export class Route53QueryLog extends cdktn.TerraformResource {
   }
 
   // zone_id - computed: false, optional: false, required: true
-  private _zoneId?: string;
+  private _zoneId?: string; 
   public get zoneId() {
     return this.getStringAttribute('zone_id');
   }

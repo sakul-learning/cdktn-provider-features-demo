@@ -114,7 +114,7 @@ export class IottwinmakerSyncJob extends cdktn.TerraformResource {
   }
 
   // sync_role - computed: false, optional: false, required: true
-  private _syncRole?: string;
+  private _syncRole?: string; 
   public get syncRole() {
     return this.getStringAttribute('sync_role');
   }
@@ -127,7 +127,7 @@ export class IottwinmakerSyncJob extends cdktn.TerraformResource {
   }
 
   // sync_source - computed: false, optional: false, required: true
-  private _syncSource?: string;
+  private _syncSource?: string; 
   public get syncSource() {
     return this.getStringAttribute('sync_source');
   }
@@ -140,7 +140,7 @@ export class IottwinmakerSyncJob extends cdktn.TerraformResource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -161,7 +161,7 @@ export class IottwinmakerSyncJob extends cdktn.TerraformResource {
   }
 
   // workspace_id - computed: false, optional: false, required: true
-  private _workspaceId?: string;
+  private _workspaceId?: string; 
   public get workspaceId() {
     return this.getStringAttribute('workspace_id');
   }

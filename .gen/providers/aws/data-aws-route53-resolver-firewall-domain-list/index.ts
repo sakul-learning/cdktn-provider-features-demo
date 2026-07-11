@@ -106,7 +106,7 @@ export class DataAwsRoute53ResolverFirewallDomainList extends cdktn.TerraformDat
   }
 
   // firewall_domain_list_id - computed: false, optional: false, required: true
-  private _firewallDomainListId?: string;
+  private _firewallDomainListId?: string; 
   public get firewallDomainListId() {
     return this.getStringAttribute('firewall_domain_list_id');
   }
@@ -119,7 +119,7 @@ export class DataAwsRoute53ResolverFirewallDomainList extends cdktn.TerraformDat
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -150,7 +150,7 @@ export class DataAwsRoute53ResolverFirewallDomainList extends cdktn.TerraformDat
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

@@ -157,7 +157,7 @@ export class QuicksightActionConnectorAuthenticationConfigAuthenticationMetadata
   }
 
   // api_key - computed: true, optional: true, required: false
-  private _apiKey?: string;
+  private _apiKey?: string; 
   public get apiKey() {
     return this.getStringAttribute('api_key');
   }
@@ -173,7 +173,7 @@ export class QuicksightActionConnectorAuthenticationConfigAuthenticationMetadata
   }
 
   // base_endpoint - computed: true, optional: true, required: false
-  private _baseEndpoint?: string;
+  private _baseEndpoint?: string; 
   public get baseEndpoint() {
     return this.getStringAttribute('base_endpoint');
   }
@@ -189,7 +189,7 @@ export class QuicksightActionConnectorAuthenticationConfigAuthenticationMetadata
   }
 
   // email - computed: true, optional: true, required: false
-  private _email?: string;
+  private _email?: string; 
   public get email() {
     return this.getStringAttribute('email');
   }
@@ -334,7 +334,7 @@ export class QuicksightActionConnectorAuthenticationConfigAuthenticationMetadata
   }
 
   // authorization_endpoint - computed: true, optional: true, required: false
-  private _authorizationEndpoint?: string;
+  private _authorizationEndpoint?: string; 
   public get authorizationEndpoint() {
     return this.getStringAttribute('authorization_endpoint');
   }
@@ -350,7 +350,7 @@ export class QuicksightActionConnectorAuthenticationConfigAuthenticationMetadata
   }
 
   // client_id - computed: true, optional: true, required: false
-  private _clientId?: string;
+  private _clientId?: string; 
   public get clientId() {
     return this.getStringAttribute('client_id');
   }
@@ -366,7 +366,7 @@ export class QuicksightActionConnectorAuthenticationConfigAuthenticationMetadata
   }
 
   // client_secret - computed: true, optional: true, required: false
-  private _clientSecret?: string;
+  private _clientSecret?: string; 
   public get clientSecret() {
     return this.getStringAttribute('client_secret');
   }
@@ -382,7 +382,7 @@ export class QuicksightActionConnectorAuthenticationConfigAuthenticationMetadata
   }
 
   // token_endpoint - computed: true, optional: true, required: false
-  private _tokenEndpoint?: string;
+  private _tokenEndpoint?: string; 
   public get tokenEndpoint() {
     return this.getStringAttribute('token_endpoint');
   }
@@ -637,7 +637,7 @@ export class QuicksightActionConnectorAuthenticationConfigAuthenticationMetadata
   }
 
   // authorization_code_grant_credentials_source - computed: true, optional: true, required: false
-  private _authorizationCodeGrantCredentialsSource?: string;
+  private _authorizationCodeGrantCredentialsSource?: string; 
   public get authorizationCodeGrantCredentialsSource() {
     return this.getStringAttribute('authorization_code_grant_credentials_source');
   }
@@ -653,7 +653,7 @@ export class QuicksightActionConnectorAuthenticationConfigAuthenticationMetadata
   }
 
   // base_endpoint - computed: true, optional: true, required: false
-  private _baseEndpoint?: string;
+  private _baseEndpoint?: string; 
   public get baseEndpoint() {
     return this.getStringAttribute('base_endpoint');
   }
@@ -669,7 +669,7 @@ export class QuicksightActionConnectorAuthenticationConfigAuthenticationMetadata
   }
 
   // redirect_url - computed: true, optional: true, required: false
-  private _redirectUrl?: string;
+  private _redirectUrl?: string; 
   public get redirectUrl() {
     return this.getStringAttribute('redirect_url');
   }
@@ -797,7 +797,7 @@ export class QuicksightActionConnectorAuthenticationConfigAuthenticationMetadata
   }
 
   // base_endpoint - computed: true, optional: true, required: false
-  private _baseEndpoint?: string;
+  private _baseEndpoint?: string; 
   public get baseEndpoint() {
     return this.getStringAttribute('base_endpoint');
   }
@@ -813,7 +813,7 @@ export class QuicksightActionConnectorAuthenticationConfigAuthenticationMetadata
   }
 
   // password - computed: true, optional: true, required: false
-  private _password?: string;
+  private _password?: string; 
   public get password() {
     return this.getStringAttribute('password');
   }
@@ -829,7 +829,7 @@ export class QuicksightActionConnectorAuthenticationConfigAuthenticationMetadata
   }
 
   // username - computed: true, optional: true, required: false
-  private _username?: string;
+  private _username?: string; 
   public get username() {
     return this.getStringAttribute('username');
   }
@@ -957,7 +957,7 @@ export class QuicksightActionConnectorAuthenticationConfigAuthenticationMetadata
   }
 
   // client_id - computed: true, optional: true, required: false
-  private _clientId?: string;
+  private _clientId?: string; 
   public get clientId() {
     return this.getStringAttribute('client_id');
   }
@@ -973,7 +973,7 @@ export class QuicksightActionConnectorAuthenticationConfigAuthenticationMetadata
   }
 
   // client_secret - computed: true, optional: true, required: false
-  private _clientSecret?: string;
+  private _clientSecret?: string; 
   public get clientSecret() {
     return this.getStringAttribute('client_secret');
   }
@@ -989,7 +989,7 @@ export class QuicksightActionConnectorAuthenticationConfigAuthenticationMetadata
   }
 
   // token_endpoint - computed: true, optional: true, required: false
-  private _tokenEndpoint?: string;
+  private _tokenEndpoint?: string; 
   public get tokenEndpoint() {
     return this.getStringAttribute('token_endpoint');
   }
@@ -1211,7 +1211,7 @@ export class QuicksightActionConnectorAuthenticationConfigAuthenticationMetadata
   }
 
   // base_endpoint - computed: true, optional: true, required: false
-  private _baseEndpoint?: string;
+  private _baseEndpoint?: string; 
   public get baseEndpoint() {
     return this.getStringAttribute('base_endpoint');
   }
@@ -1243,7 +1243,7 @@ export class QuicksightActionConnectorAuthenticationConfigAuthenticationMetadata
   }
 
   // client_credentials_source - computed: true, optional: true, required: false
-  private _clientCredentialsSource?: string;
+  private _clientCredentialsSource?: string; 
   public get clientCredentialsSource() {
     return this.getStringAttribute('client_credentials_source');
   }
@@ -1337,7 +1337,7 @@ export class QuicksightActionConnectorAuthenticationConfigAuthenticationMetadata
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -1431,7 +1431,7 @@ export class QuicksightActionConnectorAuthenticationConfigAuthenticationMetadata
   }
 
   // base_endpoint - computed: true, optional: true, required: false
-  private _baseEndpoint?: string;
+  private _baseEndpoint?: string; 
   public get baseEndpoint() {
     return this.getStringAttribute('base_endpoint');
   }
@@ -1814,7 +1814,7 @@ export class QuicksightActionConnectorAuthenticationConfigOutputReference extend
   }
 
   // authentication_type - computed: false, optional: false, required: true
-  private _authenticationType?: string;
+  private _authenticationType?: string; 
   public get authenticationType() {
     return this.getStringAttribute('authentication_type');
   }
@@ -1942,7 +1942,7 @@ export class QuicksightActionConnectorPermissionsOutputReference extends cdktn.C
   }
 
   // actions - computed: true, optional: true, required: false
-  private _actions?: string[];
+  private _actions?: string[]; 
   public get actions() {
     return this.getListAttribute('actions');
   }
@@ -1958,7 +1958,7 @@ export class QuicksightActionConnectorPermissionsOutputReference extends cdktn.C
   }
 
   // principal - computed: true, optional: true, required: false
-  private _principal?: string;
+  private _principal?: string; 
   public get principal() {
     return this.getStringAttribute('principal');
   }
@@ -2095,7 +2095,7 @@ export class QuicksightActionConnectorTagsOutputReference extends cdktn.ComplexO
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -2111,7 +2111,7 @@ export class QuicksightActionConnectorTagsOutputReference extends cdktn.ComplexO
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2213,7 +2213,7 @@ export class QuicksightActionConnector extends cdktn.TerraformResource {
   // ==========
 
   // action_connector_id - computed: false, optional: false, required: true
-  private _actionConnectorId?: string;
+  private _actionConnectorId?: string; 
   public get actionConnectorId() {
     return this.getStringAttribute('action_connector_id');
   }
@@ -2244,7 +2244,7 @@ export class QuicksightActionConnector extends cdktn.TerraformResource {
   }
 
   // aws_account_id - computed: false, optional: false, required: true
-  private _awsAccountId?: string;
+  private _awsAccountId?: string; 
   public get awsAccountId() {
     return this.getStringAttribute('aws_account_id');
   }
@@ -2262,7 +2262,7 @@ export class QuicksightActionConnector extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -2293,7 +2293,7 @@ export class QuicksightActionConnector extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2343,7 +2343,7 @@ export class QuicksightActionConnector extends cdktn.TerraformResource {
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -2356,7 +2356,7 @@ export class QuicksightActionConnector extends cdktn.TerraformResource {
   }
 
   // vpc_connection_arn - computed: true, optional: true, required: false
-  private _vpcConnectionArn?: string;
+  private _vpcConnectionArn?: string; 
   public get vpcConnectionArn() {
     return this.getStringAttribute('vpc_connection_arn');
   }

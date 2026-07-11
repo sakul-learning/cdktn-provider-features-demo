@@ -96,7 +96,7 @@ export class CloudwatchLogDestinationPolicy extends cdktn.TerraformResource {
   // ==========
 
   // access_policy - computed: false, optional: false, required: true
-  private _accessPolicy?: string;
+  private _accessPolicy?: string; 
   public get accessPolicy() {
     return this.getStringAttribute('access_policy');
   }
@@ -109,7 +109,7 @@ export class CloudwatchLogDestinationPolicy extends cdktn.TerraformResource {
   }
 
   // destination_name - computed: false, optional: false, required: true
-  private _destinationName?: string;
+  private _destinationName?: string; 
   public get destinationName() {
     return this.getStringAttribute('destination_name');
   }
@@ -122,7 +122,7 @@ export class CloudwatchLogDestinationPolicy extends cdktn.TerraformResource {
   }
 
   // force_update - computed: false, optional: true, required: false
-  private _forceUpdate?: boolean | cdktn.IResolvable;
+  private _forceUpdate?: boolean | cdktn.IResolvable; 
   public get forceUpdate() {
     return this.getBooleanAttribute('force_update');
   }
@@ -138,7 +138,7 @@ export class CloudwatchLogDestinationPolicy extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -154,7 +154,7 @@ export class CloudwatchLogDestinationPolicy extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

@@ -139,7 +139,7 @@ export class DeadlineStorageProfileFileSystemLocationsOutputReference extends cd
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -155,7 +155,7 @@ export class DeadlineStorageProfileFileSystemLocationsOutputReference extends cd
   }
 
   // path - computed: true, optional: true, required: false
-  private _path?: string;
+  private _path?: string; 
   public get path() {
     return this.getStringAttribute('path');
   }
@@ -171,7 +171,7 @@ export class DeadlineStorageProfileFileSystemLocationsOutputReference extends cd
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -268,7 +268,7 @@ export class DeadlineStorageProfile extends cdktn.TerraformResource {
   // ==========
 
   // display_name - computed: false, optional: false, required: true
-  private _displayName?: string;
+  private _displayName?: string; 
   public get displayName() {
     return this.getStringAttribute('display_name');
   }
@@ -281,7 +281,7 @@ export class DeadlineStorageProfile extends cdktn.TerraformResource {
   }
 
   // farm_id - computed: false, optional: false, required: true
-  private _farmId?: string;
+  private _farmId?: string; 
   public get farmId() {
     return this.getStringAttribute('farm_id');
   }
@@ -315,7 +315,7 @@ export class DeadlineStorageProfile extends cdktn.TerraformResource {
   }
 
   // os_family - computed: false, optional: false, required: true
-  private _osFamily?: string;
+  private _osFamily?: string; 
   public get osFamily() {
     return this.getStringAttribute('os_family');
   }

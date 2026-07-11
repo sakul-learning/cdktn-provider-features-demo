@@ -142,7 +142,7 @@ export class DatabrewProjectSampleOutputReference extends cdktn.ComplexObject {
   }
 
   // size - computed: true, optional: true, required: false
-  private _size?: number;
+  private _size?: number; 
   public get size() {
     return this.getNumberAttribute('size');
   }
@@ -158,7 +158,7 @@ export class DatabrewProjectSampleOutputReference extends cdktn.ComplexObject {
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -271,7 +271,7 @@ export class DatabrewProjectTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -287,7 +287,7 @@ export class DatabrewProjectTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -386,7 +386,7 @@ export class DatabrewProject extends cdktn.TerraformResource {
   // ==========
 
   // dataset_name - computed: false, optional: false, required: true
-  private _datasetName?: string;
+  private _datasetName?: string; 
   public get datasetName() {
     return this.getStringAttribute('dataset_name');
   }
@@ -404,7 +404,7 @@ export class DatabrewProject extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -417,7 +417,7 @@ export class DatabrewProject extends cdktn.TerraformResource {
   }
 
   // recipe_name - computed: false, optional: false, required: true
-  private _recipeName?: string;
+  private _recipeName?: string; 
   public get recipeName() {
     return this.getStringAttribute('recipe_name');
   }
@@ -430,7 +430,7 @@ export class DatabrewProject extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }

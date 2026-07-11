@@ -134,7 +134,7 @@ export class Ec2LocalGatewayVirtualInterfaceGroupTagsOutputReference extends cdk
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -150,7 +150,7 @@ export class Ec2LocalGatewayVirtualInterfaceGroupTagsOutputReference extends cdk
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -257,7 +257,7 @@ export class Ec2LocalGatewayVirtualInterfaceGroup extends cdktn.TerraformResourc
   }
 
   // local_bgp_asn - computed: true, optional: true, required: false
-  private _localBgpAsn?: number;
+  private _localBgpAsn?: number; 
   public get localBgpAsn() {
     return this.getNumberAttribute('local_bgp_asn');
   }
@@ -273,7 +273,7 @@ export class Ec2LocalGatewayVirtualInterfaceGroup extends cdktn.TerraformResourc
   }
 
   // local_bgp_asn_extended - computed: true, optional: true, required: false
-  private _localBgpAsnExtended?: number;
+  private _localBgpAsnExtended?: number; 
   public get localBgpAsnExtended() {
     return this.getNumberAttribute('local_bgp_asn_extended');
   }
@@ -289,7 +289,7 @@ export class Ec2LocalGatewayVirtualInterfaceGroup extends cdktn.TerraformResourc
   }
 
   // local_gateway_id - computed: false, optional: false, required: true
-  private _localGatewayId?: string;
+  private _localGatewayId?: string; 
   public get localGatewayId() {
     return this.getStringAttribute('local_gateway_id');
   }

@@ -189,7 +189,7 @@ export class IotsitewiseAssetAssetHierarchiesOutputReference extends cdktn.Compl
   }
 
   // child_asset_id - computed: true, optional: true, required: false
-  private _childAssetId?: string;
+  private _childAssetId?: string; 
   public get childAssetId() {
     return this.getStringAttribute('child_asset_id');
   }
@@ -205,7 +205,7 @@ export class IotsitewiseAssetAssetHierarchiesOutputReference extends cdktn.Compl
   }
 
   // external_id - computed: true, optional: true, required: false
-  private _externalId?: string;
+  private _externalId?: string; 
   public get externalId() {
     return this.getStringAttribute('external_id');
   }
@@ -221,7 +221,7 @@ export class IotsitewiseAssetAssetHierarchiesOutputReference extends cdktn.Compl
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -237,7 +237,7 @@ export class IotsitewiseAssetAssetHierarchiesOutputReference extends cdktn.Compl
   }
 
   // logical_id - computed: true, optional: true, required: false
-  private _logicalId?: string;
+  private _logicalId?: string; 
   public get logicalId() {
     return this.getStringAttribute('logical_id');
   }
@@ -453,7 +453,7 @@ export class IotsitewiseAssetAssetPropertiesOutputReference extends cdktn.Comple
   }
 
   // alias - computed: true, optional: true, required: false
-  private _alias?: string;
+  private _alias?: string; 
   public get alias() {
     return this.getStringAttribute('alias');
   }
@@ -469,7 +469,7 @@ export class IotsitewiseAssetAssetPropertiesOutputReference extends cdktn.Comple
   }
 
   // external_id - computed: true, optional: true, required: false
-  private _externalId?: string;
+  private _externalId?: string; 
   public get externalId() {
     return this.getStringAttribute('external_id');
   }
@@ -485,7 +485,7 @@ export class IotsitewiseAssetAssetPropertiesOutputReference extends cdktn.Comple
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -501,7 +501,7 @@ export class IotsitewiseAssetAssetPropertiesOutputReference extends cdktn.Comple
   }
 
   // logical_id - computed: true, optional: true, required: false
-  private _logicalId?: string;
+  private _logicalId?: string; 
   public get logicalId() {
     return this.getStringAttribute('logical_id');
   }
@@ -517,7 +517,7 @@ export class IotsitewiseAssetAssetPropertiesOutputReference extends cdktn.Comple
   }
 
   // notification_state - computed: true, optional: true, required: false
-  private _notificationState?: string;
+  private _notificationState?: string; 
   public get notificationState() {
     return this.getStringAttribute('notification_state');
   }
@@ -533,7 +533,7 @@ export class IotsitewiseAssetAssetPropertiesOutputReference extends cdktn.Comple
   }
 
   // unit - computed: true, optional: true, required: false
-  private _unit?: string;
+  private _unit?: string; 
   public get unit() {
     return this.getStringAttribute('unit');
   }
@@ -666,7 +666,7 @@ export class IotsitewiseAssetTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -682,7 +682,7 @@ export class IotsitewiseAssetTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -787,7 +787,7 @@ export class IotsitewiseAsset extends cdktn.TerraformResource {
   }
 
   // asset_description - computed: true, optional: true, required: false
-  private _assetDescription?: string;
+  private _assetDescription?: string; 
   public get assetDescription() {
     return this.getStringAttribute('asset_description');
   }
@@ -803,7 +803,7 @@ export class IotsitewiseAsset extends cdktn.TerraformResource {
   }
 
   // asset_external_id - computed: true, optional: true, required: false
-  private _assetExternalId?: string;
+  private _assetExternalId?: string; 
   public get assetExternalId() {
     return this.getStringAttribute('asset_external_id');
   }
@@ -840,7 +840,7 @@ export class IotsitewiseAsset extends cdktn.TerraformResource {
   }
 
   // asset_model_id - computed: false, optional: false, required: true
-  private _assetModelId?: string;
+  private _assetModelId?: string; 
   public get assetModelId() {
     return this.getStringAttribute('asset_model_id');
   }
@@ -853,7 +853,7 @@ export class IotsitewiseAsset extends cdktn.TerraformResource {
   }
 
   // asset_name - computed: false, optional: false, required: true
-  private _assetName?: string;
+  private _assetName?: string; 
   public get assetName() {
     return this.getStringAttribute('asset_name');
   }

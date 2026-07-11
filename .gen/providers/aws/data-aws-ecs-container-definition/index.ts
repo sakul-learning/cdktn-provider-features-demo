@@ -91,7 +91,7 @@ export class DataAwsEcsContainerDefinition extends cdktn.TerraformDataSource {
   // ==========
 
   // container_name - computed: false, optional: false, required: true
-  private _containerName?: string;
+  private _containerName?: string; 
   public get containerName() {
     return this.getStringAttribute('container_name');
   }
@@ -126,7 +126,7 @@ export class DataAwsEcsContainerDefinition extends cdktn.TerraformDataSource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -162,7 +162,7 @@ export class DataAwsEcsContainerDefinition extends cdktn.TerraformDataSource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -178,7 +178,7 @@ export class DataAwsEcsContainerDefinition extends cdktn.TerraformDataSource {
   }
 
   // task_definition - computed: false, optional: false, required: true
-  private _taskDefinition?: string;
+  private _taskDefinition?: string; 
   public get taskDefinition() {
     return this.getStringAttribute('task_definition');
   }

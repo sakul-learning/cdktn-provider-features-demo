@@ -110,7 +110,7 @@ export class CloudfrontCachePolicyParametersInCacheKeyAndForwardedToOriginCookie
   }
 
   // items - computed: false, optional: true, required: false
-  private _items?: string[];
+  private _items?: string[]; 
   public get items() {
     return cdktn.Fn.tolist(this.getListAttribute('items'));
   }
@@ -213,7 +213,7 @@ export class CloudfrontCachePolicyParametersInCacheKeyAndForwardedToOriginCookie
   }
 
   // cookie_behavior - computed: false, optional: false, required: true
-  private _cookieBehavior?: string;
+  private _cookieBehavior?: string; 
   public get cookieBehavior() {
     return this.getStringAttribute('cookie_behavior');
   }
@@ -310,7 +310,7 @@ export class CloudfrontCachePolicyParametersInCacheKeyAndForwardedToOriginHeader
   }
 
   // items - computed: false, optional: true, required: false
-  private _items?: string[];
+  private _items?: string[]; 
   public get items() {
     return cdktn.Fn.tolist(this.getListAttribute('items'));
   }
@@ -413,7 +413,7 @@ export class CloudfrontCachePolicyParametersInCacheKeyAndForwardedToOriginHeader
   }
 
   // header_behavior - computed: false, optional: true, required: false
-  private _headerBehavior?: string;
+  private _headerBehavior?: string; 
   public get headerBehavior() {
     return this.getStringAttribute('header_behavior');
   }
@@ -513,7 +513,7 @@ export class CloudfrontCachePolicyParametersInCacheKeyAndForwardedToOriginQueryS
   }
 
   // items - computed: false, optional: true, required: false
-  private _items?: string[];
+  private _items?: string[]; 
   public get items() {
     return cdktn.Fn.tolist(this.getListAttribute('items'));
   }
@@ -616,7 +616,7 @@ export class CloudfrontCachePolicyParametersInCacheKeyAndForwardedToOriginQueryS
   }
 
   // query_string_behavior - computed: false, optional: false, required: true
-  private _queryStringBehavior?: string;
+  private _queryStringBehavior?: string; 
   public get queryStringBehavior() {
     return this.getStringAttribute('query_string_behavior');
   }
@@ -787,7 +787,7 @@ export class CloudfrontCachePolicyParametersInCacheKeyAndForwardedToOriginOutput
   }
 
   // enable_accept_encoding_brotli - computed: false, optional: true, required: false
-  private _enableAcceptEncodingBrotli?: boolean | cdktn.IResolvable;
+  private _enableAcceptEncodingBrotli?: boolean | cdktn.IResolvable; 
   public get enableAcceptEncodingBrotli() {
     return this.getBooleanAttribute('enable_accept_encoding_brotli');
   }
@@ -803,7 +803,7 @@ export class CloudfrontCachePolicyParametersInCacheKeyAndForwardedToOriginOutput
   }
 
   // enable_accept_encoding_gzip - computed: false, optional: true, required: false
-  private _enableAcceptEncodingGzip?: boolean | cdktn.IResolvable;
+  private _enableAcceptEncodingGzip?: boolean | cdktn.IResolvable; 
   public get enableAcceptEncodingGzip() {
     return this.getBooleanAttribute('enable_accept_encoding_gzip');
   }
@@ -927,7 +927,7 @@ export class CloudfrontCachePolicy extends cdktn.TerraformResource {
   }
 
   // comment - computed: false, optional: true, required: false
-  private _comment?: string;
+  private _comment?: string; 
   public get comment() {
     return this.getStringAttribute('comment');
   }
@@ -943,7 +943,7 @@ export class CloudfrontCachePolicy extends cdktn.TerraformResource {
   }
 
   // default_ttl - computed: false, optional: true, required: false
-  private _defaultTtl?: number;
+  private _defaultTtl?: number; 
   public get defaultTtl() {
     return this.getNumberAttribute('default_ttl');
   }
@@ -964,7 +964,7 @@ export class CloudfrontCachePolicy extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -980,7 +980,7 @@ export class CloudfrontCachePolicy extends cdktn.TerraformResource {
   }
 
   // max_ttl - computed: false, optional: true, required: false
-  private _maxTtl?: number;
+  private _maxTtl?: number; 
   public get maxTtl() {
     return this.getNumberAttribute('max_ttl');
   }
@@ -996,7 +996,7 @@ export class CloudfrontCachePolicy extends cdktn.TerraformResource {
   }
 
   // min_ttl - computed: false, optional: true, required: false
-  private _minTtl?: number;
+  private _minTtl?: number; 
   public get minTtl() {
     return this.getNumberAttribute('min_ttl');
   }
@@ -1012,7 +1012,7 @@ export class CloudfrontCachePolicy extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }

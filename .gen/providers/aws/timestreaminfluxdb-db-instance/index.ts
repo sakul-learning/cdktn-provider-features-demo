@@ -14,8 +14,8 @@ export interface TimestreaminfluxdbDbInstanceConfig extends cdktn.TerraformMetaA
   */
   readonly allocatedStorage: number;
   /**
-  * The name of the initial InfluxDB bucket. All InfluxDB data is stored in a bucket.
-  * 					A bucket combines the concept of a database and a retention period (the duration of time
+  * The name of the initial InfluxDB bucket. All InfluxDB data is stored in a bucket. 
+  * 					A bucket combines the concept of a database and a retention period (the duration of time 
   * 					that each data point persists). A bucket belongs to an organization.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/timestreaminfluxdb_db_instance#bucket TimestreaminfluxdbDbInstance#bucket}
@@ -34,49 +34,49 @@ export interface TimestreaminfluxdbDbInstanceConfig extends cdktn.TerraformMetaA
   */
   readonly dbParameterGroupIdentifier?: string;
   /**
-  * The Timestream for InfluxDB DB storage type to read and write InfluxDB data.
-  * 					You can choose between 3 different types of provisioned Influx IOPS included storage according
-  * 					to your workloads requirements: Influx IO Included 3000 IOPS, Influx IO Included 12000 IOPS,
+  * The Timestream for InfluxDB DB storage type to read and write InfluxDB data. 
+  * 					You can choose between 3 different types of provisioned Influx IOPS included storage according 
+  * 					to your workloads requirements: Influx IO Included 3000 IOPS, Influx IO Included 12000 IOPS, 
   * 					Influx IO Included 16000 IOPS.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/timestreaminfluxdb_db_instance#db_storage_type TimestreaminfluxdbDbInstance#db_storage_type}
   */
   readonly dbStorageType?: string;
   /**
-  * Specifies whether the DB instance will be deployed as a standalone instance or
+  * Specifies whether the DB instance will be deployed as a standalone instance or 
   * 					with a Multi-AZ standby for high availability.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/timestreaminfluxdb_db_instance#deployment_type TimestreaminfluxdbDbInstance#deployment_type}
   */
   readonly deploymentType?: string;
   /**
-  * The name that uniquely identifies the DB instance when interacting with the
-  * 					Amazon Timestream for InfluxDB API and CLI commands. This name will also be a
-  * 					prefix included in the endpoint. DB instance names must be unique per customer
+  * The name that uniquely identifies the DB instance when interacting with the 
+  * 					Amazon Timestream for InfluxDB API and CLI commands. This name will also be a 
+  * 					prefix included in the endpoint. DB instance names must be unique per customer 
   * 					and per region.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/timestreaminfluxdb_db_instance#name TimestreaminfluxdbDbInstance#name}
   */
   readonly name: string;
   /**
-  * Specifies whether the networkType of the Timestream for InfluxDB instance is
-  * 					IPV4, which can communicate over IPv4 protocol only, or DUAL, which can communicate
+  * Specifies whether the networkType of the Timestream for InfluxDB instance is 
+  * 					IPV4, which can communicate over IPv4 protocol only, or DUAL, which can communicate 
   * 					over both IPv4 and IPv6 protocols.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/timestreaminfluxdb_db_instance#network_type TimestreaminfluxdbDbInstance#network_type}
   */
   readonly networkType?: string;
   /**
-  * The name of the initial organization for the initial admin user in InfluxDB. An
+  * The name of the initial organization for the initial admin user in InfluxDB. An 
   * 					InfluxDB organization is a workspace for a group of users.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/timestreaminfluxdb_db_instance#organization TimestreaminfluxdbDbInstance#organization}
   */
   readonly organization: string;
   /**
-  * The password of the initial admin user created in InfluxDB. This password will
-  * 					allow you to access the InfluxDB UI to perform various administrative tasks and
-  * 					also use the InfluxDB CLI to create an operator token. These attributes will be
+  * The password of the initial admin user created in InfluxDB. This password will 
+  * 					allow you to access the InfluxDB UI to perform various administrative tasks and 
+  * 					also use the InfluxDB CLI to create an operator token. These attributes will be 
   * 					stored in a Secret created in AWS SecretManager in your account.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/timestreaminfluxdb_db_instance#password TimestreaminfluxdbDbInstance#password}
@@ -105,12 +105,12 @@ export interface TimestreaminfluxdbDbInstanceConfig extends cdktn.TerraformMetaA
   */
   readonly tags?: { [key: string]: string };
   /**
-  * The username of the initial admin user created in InfluxDB.
-  * 					Must start with a letter and can't end with a hyphen or contain two
-  * 					consecutive hyphens. For example, my-user1. This username will allow
-  * 					you to access the InfluxDB UI to perform various administrative tasks
-  * 					and also use the InfluxDB CLI to create an operator token. These
-  * 					attributes will be stored in a Secret created in Amazon Secrets
+  * The username of the initial admin user created in InfluxDB. 
+  * 					Must start with a letter and can't end with a hyphen or contain two 
+  * 					consecutive hyphens. For example, my-user1. This username will allow 
+  * 					you to access the InfluxDB UI to perform various administrative tasks 
+  * 					and also use the InfluxDB CLI to create an operator token. These 
+  * 					attributes will be stored in a Secret created in Amazon Secrets 
   * 					Manager in your account
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/timestreaminfluxdb_db_instance#username TimestreaminfluxdbDbInstance#username}
@@ -123,7 +123,7 @@ export interface TimestreaminfluxdbDbInstanceConfig extends cdktn.TerraformMetaA
   */
   readonly vpcSecurityGroupIds: string[];
   /**
-  * A list of VPC subnet IDs to associate with the DB instance. Provide at least
+  * A list of VPC subnet IDs to associate with the DB instance. Provide at least 
   * 					two VPC subnet IDs in different availability zones when deploying with a Multi-AZ standby.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/timestreaminfluxdb_db_instance#vpc_subnet_ids TimestreaminfluxdbDbInstance#vpc_subnet_ids}
@@ -250,7 +250,7 @@ export class TimestreaminfluxdbDbInstanceLogDeliveryConfigurationS3Configuration
   }
 
   // bucket_name - computed: false, optional: false, required: true
-  private _bucketName?: string;
+  private _bucketName?: string; 
   public get bucketName() {
     return this.getStringAttribute('bucket_name');
   }
@@ -263,7 +263,7 @@ export class TimestreaminfluxdbDbInstanceLogDeliveryConfigurationS3Configuration
   }
 
   // enabled - computed: false, optional: false, required: true
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -511,7 +511,7 @@ export class TimestreaminfluxdbDbInstanceMaintenanceScheduleOutputReference exte
   }
 
   // preferred_maintenance_window - computed: false, optional: false, required: true
-  private _preferredMaintenanceWindow?: string;
+  private _preferredMaintenanceWindow?: string; 
   public get preferredMaintenanceWindow() {
     return this.getStringAttribute('preferred_maintenance_window');
   }
@@ -524,7 +524,7 @@ export class TimestreaminfluxdbDbInstanceMaintenanceScheduleOutputReference exte
   }
 
   // timezone - computed: false, optional: false, required: true
-  private _timezone?: string;
+  private _timezone?: string; 
   public get timezone() {
     return this.getStringAttribute('timezone');
   }
@@ -675,7 +675,7 @@ export class TimestreaminfluxdbDbInstanceTimeoutsOutputReference extends cdktn.C
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -691,7 +691,7 @@ export class TimestreaminfluxdbDbInstanceTimeoutsOutputReference extends cdktn.C
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -707,7 +707,7 @@ export class TimestreaminfluxdbDbInstanceTimeoutsOutputReference extends cdktn.C
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -800,7 +800,7 @@ export class TimestreaminfluxdbDbInstance extends cdktn.TerraformResource {
   // ==========
 
   // allocated_storage - computed: false, optional: false, required: true
-  private _allocatedStorage?: number;
+  private _allocatedStorage?: number; 
   public get allocatedStorage() {
     return this.getNumberAttribute('allocated_storage');
   }
@@ -823,7 +823,7 @@ export class TimestreaminfluxdbDbInstance extends cdktn.TerraformResource {
   }
 
   // bucket - computed: false, optional: false, required: true
-  private _bucket?: string;
+  private _bucket?: string; 
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -836,7 +836,7 @@ export class TimestreaminfluxdbDbInstance extends cdktn.TerraformResource {
   }
 
   // db_instance_type - computed: false, optional: false, required: true
-  private _dbInstanceType?: string;
+  private _dbInstanceType?: string; 
   public get dbInstanceType() {
     return this.getStringAttribute('db_instance_type');
   }
@@ -849,7 +849,7 @@ export class TimestreaminfluxdbDbInstance extends cdktn.TerraformResource {
   }
 
   // db_parameter_group_identifier - computed: false, optional: true, required: false
-  private _dbParameterGroupIdentifier?: string;
+  private _dbParameterGroupIdentifier?: string; 
   public get dbParameterGroupIdentifier() {
     return this.getStringAttribute('db_parameter_group_identifier');
   }
@@ -865,7 +865,7 @@ export class TimestreaminfluxdbDbInstance extends cdktn.TerraformResource {
   }
 
   // db_storage_type - computed: true, optional: true, required: false
-  private _dbStorageType?: string;
+  private _dbStorageType?: string; 
   public get dbStorageType() {
     return this.getStringAttribute('db_storage_type');
   }
@@ -881,7 +881,7 @@ export class TimestreaminfluxdbDbInstance extends cdktn.TerraformResource {
   }
 
   // deployment_type - computed: true, optional: true, required: false
-  private _deploymentType?: string;
+  private _deploymentType?: string; 
   public get deploymentType() {
     return this.getStringAttribute('deployment_type');
   }
@@ -912,7 +912,7 @@ export class TimestreaminfluxdbDbInstance extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -925,7 +925,7 @@ export class TimestreaminfluxdbDbInstance extends cdktn.TerraformResource {
   }
 
   // network_type - computed: true, optional: true, required: false
-  private _networkType?: string;
+  private _networkType?: string; 
   public get networkType() {
     return this.getStringAttribute('network_type');
   }
@@ -941,7 +941,7 @@ export class TimestreaminfluxdbDbInstance extends cdktn.TerraformResource {
   }
 
   // organization - computed: false, optional: false, required: true
-  private _organization?: string;
+  private _organization?: string; 
   public get organization() {
     return this.getStringAttribute('organization');
   }
@@ -954,7 +954,7 @@ export class TimestreaminfluxdbDbInstance extends cdktn.TerraformResource {
   }
 
   // password - computed: false, optional: false, required: true
-  private _password?: string;
+  private _password?: string; 
   public get password() {
     return this.getStringAttribute('password');
   }
@@ -967,7 +967,7 @@ export class TimestreaminfluxdbDbInstance extends cdktn.TerraformResource {
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -983,7 +983,7 @@ export class TimestreaminfluxdbDbInstance extends cdktn.TerraformResource {
   }
 
   // publicly_accessible - computed: true, optional: true, required: false
-  private _publiclyAccessible?: boolean | cdktn.IResolvable;
+  private _publiclyAccessible?: boolean | cdktn.IResolvable; 
   public get publiclyAccessible() {
     return this.getBooleanAttribute('publicly_accessible');
   }
@@ -999,7 +999,7 @@ export class TimestreaminfluxdbDbInstance extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1020,7 +1020,7 @@ export class TimestreaminfluxdbDbInstance extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -1042,7 +1042,7 @@ export class TimestreaminfluxdbDbInstance extends cdktn.TerraformResource {
   }
 
   // username - computed: false, optional: false, required: true
-  private _username?: string;
+  private _username?: string; 
   public get username() {
     return this.getStringAttribute('username');
   }
@@ -1055,7 +1055,7 @@ export class TimestreaminfluxdbDbInstance extends cdktn.TerraformResource {
   }
 
   // vpc_security_group_ids - computed: false, optional: false, required: true
-  private _vpcSecurityGroupIds?: string[];
+  private _vpcSecurityGroupIds?: string[]; 
   public get vpcSecurityGroupIds() {
     return cdktn.Fn.tolist(this.getListAttribute('vpc_security_group_ids'));
   }
@@ -1068,7 +1068,7 @@ export class TimestreaminfluxdbDbInstance extends cdktn.TerraformResource {
   }
 
   // vpc_subnet_ids - computed: false, optional: false, required: true
-  private _vpcSubnetIds?: string[];
+  private _vpcSubnetIds?: string[]; 
   public get vpcSubnetIds() {
     return cdktn.Fn.tolist(this.getListAttribute('vpc_subnet_ids'));
   }

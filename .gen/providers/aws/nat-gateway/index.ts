@@ -297,7 +297,7 @@ export class NatGatewayAvailabilityZoneAddressOutputReference extends cdktn.Comp
   }
 
   // allocation_ids - computed: false, optional: true, required: false
-  private _allocationIds?: string[];
+  private _allocationIds?: string[]; 
   public get allocationIds() {
     return cdktn.Fn.tolist(this.getListAttribute('allocation_ids'));
   }
@@ -313,7 +313,7 @@ export class NatGatewayAvailabilityZoneAddressOutputReference extends cdktn.Comp
   }
 
   // availability_zone - computed: false, optional: true, required: false
-  private _availabilityZone?: string;
+  private _availabilityZone?: string; 
   public get availabilityZone() {
     return this.getStringAttribute('availability_zone');
   }
@@ -329,7 +329,7 @@ export class NatGatewayAvailabilityZoneAddressOutputReference extends cdktn.Comp
   }
 
   // availability_zone_id - computed: true, optional: true, required: false
-  private _availabilityZoneId?: string;
+  private _availabilityZoneId?: string; 
   public get availabilityZoneId() {
     return this.getStringAttribute('availability_zone_id');
   }
@@ -477,7 +477,7 @@ export class NatGatewayTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -493,7 +493,7 @@ export class NatGatewayTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -509,7 +509,7 @@ export class NatGatewayTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -597,7 +597,7 @@ export class NatGateway extends cdktn.TerraformResource {
   // ==========
 
   // allocation_id - computed: false, optional: true, required: false
-  private _allocationId?: string;
+  private _allocationId?: string; 
   public get allocationId() {
     return this.getStringAttribute('allocation_id');
   }
@@ -628,7 +628,7 @@ export class NatGateway extends cdktn.TerraformResource {
   }
 
   // availability_mode - computed: true, optional: true, required: false
-  private _availabilityMode?: string;
+  private _availabilityMode?: string; 
   public get availabilityMode() {
     return this.getStringAttribute('availability_mode');
   }
@@ -644,7 +644,7 @@ export class NatGateway extends cdktn.TerraformResource {
   }
 
   // connectivity_type - computed: false, optional: true, required: false
-  private _connectivityType?: string;
+  private _connectivityType?: string; 
   public get connectivityType() {
     return this.getStringAttribute('connectivity_type');
   }
@@ -660,7 +660,7 @@ export class NatGateway extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -681,7 +681,7 @@ export class NatGateway extends cdktn.TerraformResource {
   }
 
   // private_ip - computed: true, optional: true, required: false
-  private _privateIp?: string;
+  private _privateIp?: string; 
   public get privateIp() {
     return this.getStringAttribute('private_ip');
   }
@@ -702,7 +702,7 @@ export class NatGateway extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -734,7 +734,7 @@ export class NatGateway extends cdktn.TerraformResource {
   }
 
   // secondary_allocation_ids - computed: true, optional: true, required: false
-  private _secondaryAllocationIds?: string[];
+  private _secondaryAllocationIds?: string[]; 
   public get secondaryAllocationIds() {
     return cdktn.Fn.tolist(this.getListAttribute('secondary_allocation_ids'));
   }
@@ -750,7 +750,7 @@ export class NatGateway extends cdktn.TerraformResource {
   }
 
   // secondary_private_ip_address_count - computed: true, optional: true, required: false
-  private _secondaryPrivateIpAddressCount?: number;
+  private _secondaryPrivateIpAddressCount?: number; 
   public get secondaryPrivateIpAddressCount() {
     return this.getNumberAttribute('secondary_private_ip_address_count');
   }
@@ -766,7 +766,7 @@ export class NatGateway extends cdktn.TerraformResource {
   }
 
   // secondary_private_ip_addresses - computed: true, optional: true, required: false
-  private _secondaryPrivateIpAddresses?: string[];
+  private _secondaryPrivateIpAddresses?: string[]; 
   public get secondaryPrivateIpAddresses() {
     return cdktn.Fn.tolist(this.getListAttribute('secondary_private_ip_addresses'));
   }
@@ -782,7 +782,7 @@ export class NatGateway extends cdktn.TerraformResource {
   }
 
   // subnet_id - computed: false, optional: true, required: false
-  private _subnetId?: string;
+  private _subnetId?: string; 
   public get subnetId() {
     return this.getStringAttribute('subnet_id');
   }
@@ -798,7 +798,7 @@ export class NatGateway extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -814,7 +814,7 @@ export class NatGateway extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -830,7 +830,7 @@ export class NatGateway extends cdktn.TerraformResource {
   }
 
   // vpc_id - computed: true, optional: true, required: false
-  private _vpcId?: string;
+  private _vpcId?: string; 
   public get vpcId() {
     return this.getStringAttribute('vpc_id');
   }

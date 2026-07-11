@@ -104,7 +104,7 @@ export class ConnectContactFlowModuleAlias extends cdktn.TerraformResource {
   }
 
   // contact_flow_module_id - computed: false, optional: false, required: true
-  private _contactFlowModuleId?: string;
+  private _contactFlowModuleId?: string; 
   public get contactFlowModuleId() {
     return this.getStringAttribute('contact_flow_module_id');
   }
@@ -117,7 +117,7 @@ export class ConnectContactFlowModuleAlias extends cdktn.TerraformResource {
   }
 
   // contact_flow_module_version - computed: false, optional: false, required: true
-  private _contactFlowModuleVersion?: number;
+  private _contactFlowModuleVersion?: number; 
   public get contactFlowModuleVersion() {
     return this.getNumberAttribute('contact_flow_module_version');
   }
@@ -130,7 +130,7 @@ export class ConnectContactFlowModuleAlias extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -151,7 +151,7 @@ export class ConnectContactFlowModuleAlias extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }

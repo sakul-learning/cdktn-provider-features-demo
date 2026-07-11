@@ -88,7 +88,7 @@ export class NetworkmonitorMonitor extends cdktn.TerraformResource {
   // ==========
 
   // aggregation_period - computed: true, optional: true, required: false
-  private _aggregationPeriod?: number;
+  private _aggregationPeriod?: number; 
   public get aggregationPeriod() {
     return this.getNumberAttribute('aggregation_period');
   }
@@ -114,7 +114,7 @@ export class NetworkmonitorMonitor extends cdktn.TerraformResource {
   }
 
   // monitor_name - computed: false, optional: false, required: true
-  private _monitorName?: string;
+  private _monitorName?: string; 
   public get monitorName() {
     return this.getStringAttribute('monitor_name');
   }
@@ -127,7 +127,7 @@ export class NetworkmonitorMonitor extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -143,7 +143,7 @@ export class NetworkmonitorMonitor extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

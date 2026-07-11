@@ -186,7 +186,7 @@ export class SagemakerInferenceExperimentDataStorageConfigContentTypeOutputRefer
   }
 
   // csv_content_types - computed: true, optional: true, required: false
-  private _csvContentTypes?: string[];
+  private _csvContentTypes?: string[]; 
   public get csvContentTypes() {
     return this.getListAttribute('csv_content_types');
   }
@@ -202,7 +202,7 @@ export class SagemakerInferenceExperimentDataStorageConfigContentTypeOutputRefer
   }
 
   // json_content_types - computed: true, optional: true, required: false
-  private _jsonContentTypes?: string[];
+  private _jsonContentTypes?: string[]; 
   public get jsonContentTypes() {
     return this.getListAttribute('json_content_types');
   }
@@ -352,7 +352,7 @@ export class SagemakerInferenceExperimentDataStorageConfigOutputReference extend
   }
 
   // destination - computed: true, optional: true, required: false
-  private _destination?: string;
+  private _destination?: string; 
   public get destination() {
     return this.getStringAttribute('destination');
   }
@@ -368,7 +368,7 @@ export class SagemakerInferenceExperimentDataStorageConfigOutputReference extend
   }
 
   // kms_key - computed: true, optional: true, required: false
-  private _kmsKey?: string;
+  private _kmsKey?: string; 
   public get kmsKey() {
     return this.getStringAttribute('kms_key');
   }
@@ -547,7 +547,7 @@ export class SagemakerInferenceExperimentModelVariantsInfrastructureConfigRealTi
   }
 
   // instance_count - computed: false, optional: false, required: true
-  private _instanceCount?: number;
+  private _instanceCount?: number; 
   public get instanceCount() {
     return this.getNumberAttribute('instance_count');
   }
@@ -560,7 +560,7 @@ export class SagemakerInferenceExperimentModelVariantsInfrastructureConfigRealTi
   }
 
   // instance_type - computed: false, optional: false, required: true
-  private _instanceType?: string;
+  private _instanceType?: string; 
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -672,7 +672,7 @@ export class SagemakerInferenceExperimentModelVariantsInfrastructureConfigOutput
   }
 
   // infrastructure_type - computed: false, optional: false, required: true
-  private _infrastructureType?: string;
+  private _infrastructureType?: string; 
   public get infrastructureType() {
     return this.getStringAttribute('infrastructure_type');
   }
@@ -831,7 +831,7 @@ export class SagemakerInferenceExperimentModelVariantsOutputReference extends cd
   }
 
   // model_name - computed: false, optional: false, required: true
-  private _modelName?: string;
+  private _modelName?: string; 
   public get modelName() {
     return this.getStringAttribute('model_name');
   }
@@ -844,7 +844,7 @@ export class SagemakerInferenceExperimentModelVariantsOutputReference extends cd
   }
 
   // variant_name - computed: false, optional: false, required: true
-  private _variantName?: string;
+  private _variantName?: string; 
   public get variantName() {
     return this.getStringAttribute('variant_name');
   }
@@ -976,7 +976,7 @@ export class SagemakerInferenceExperimentScheduleOutputReference extends cdktn.C
   }
 
   // end_time - computed: true, optional: true, required: false
-  private _endTime?: string;
+  private _endTime?: string; 
   public get endTime() {
     return this.getStringAttribute('end_time');
   }
@@ -992,7 +992,7 @@ export class SagemakerInferenceExperimentScheduleOutputReference extends cdktn.C
   }
 
   // start_time - computed: true, optional: true, required: false
-  private _startTime?: string;
+  private _startTime?: string; 
   public get startTime() {
     return this.getStringAttribute('start_time');
   }
@@ -1109,7 +1109,7 @@ export class SagemakerInferenceExperimentShadowModeConfigShadowModelVariantsOutp
   }
 
   // sampling_percentage - computed: true, optional: true, required: false
-  private _samplingPercentage?: number;
+  private _samplingPercentage?: number; 
   public get samplingPercentage() {
     return this.getNumberAttribute('sampling_percentage');
   }
@@ -1125,7 +1125,7 @@ export class SagemakerInferenceExperimentShadowModeConfigShadowModelVariantsOutp
   }
 
   // shadow_model_variant_name - computed: true, optional: true, required: false
-  private _shadowModelVariantName?: string;
+  private _shadowModelVariantName?: string; 
   public get shadowModelVariantName() {
     return this.getStringAttribute('shadow_model_variant_name');
   }
@@ -1276,7 +1276,7 @@ export class SagemakerInferenceExperimentShadowModeConfigOutputReference extends
   }
 
   // source_model_variant_name - computed: true, optional: true, required: false
-  private _sourceModelVariantName?: string;
+  private _sourceModelVariantName?: string; 
   public get sourceModelVariantName() {
     return this.getStringAttribute('source_model_variant_name');
   }
@@ -1293,13 +1293,13 @@ export class SagemakerInferenceExperimentShadowModeConfigOutputReference extends
 }
 export interface SagemakerInferenceExperimentTags {
   /**
-  * The key name of the tag. You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
+  * The key name of the tag. You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_inference_experiment#key SagemakerInferenceExperiment#key}
   */
   readonly key?: string;
   /**
-  * The value for the tag. You can specify a value that is 1 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
+  * The value for the tag. You can specify a value that is 1 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_inference_experiment#value SagemakerInferenceExperiment#value}
   */
@@ -1393,7 +1393,7 @@ export class SagemakerInferenceExperimentTagsOutputReference extends cdktn.Compl
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1409,7 +1409,7 @@ export class SagemakerInferenceExperimentTagsOutputReference extends cdktn.Compl
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1541,7 +1541,7 @@ export class SagemakerInferenceExperiment extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1557,7 +1557,7 @@ export class SagemakerInferenceExperiment extends cdktn.TerraformResource {
   }
 
   // desired_state - computed: true, optional: true, required: false
-  private _desiredState?: string;
+  private _desiredState?: string; 
   public get desiredState() {
     return this.getStringAttribute('desired_state');
   }
@@ -1579,7 +1579,7 @@ export class SagemakerInferenceExperiment extends cdktn.TerraformResource {
   }
 
   // endpoint_name - computed: false, optional: false, required: true
-  private _endpointName?: string;
+  private _endpointName?: string; 
   public get endpointName() {
     return this.getStringAttribute('endpoint_name');
   }
@@ -1597,7 +1597,7 @@ export class SagemakerInferenceExperiment extends cdktn.TerraformResource {
   }
 
   // kms_key - computed: true, optional: true, required: false
-  private _kmsKey?: string;
+  private _kmsKey?: string; 
   public get kmsKey() {
     return this.getStringAttribute('kms_key');
   }
@@ -1631,7 +1631,7 @@ export class SagemakerInferenceExperiment extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1644,7 +1644,7 @@ export class SagemakerInferenceExperiment extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -1694,7 +1694,7 @@ export class SagemakerInferenceExperiment extends cdktn.TerraformResource {
   }
 
   // status_reason - computed: true, optional: true, required: false
-  private _statusReason?: string;
+  private _statusReason?: string; 
   public get statusReason() {
     return this.getStringAttribute('status_reason');
   }
@@ -1726,7 +1726,7 @@ export class SagemakerInferenceExperiment extends cdktn.TerraformResource {
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }

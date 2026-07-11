@@ -196,7 +196,7 @@ export class CloudformationStackTimeoutsOutputReference extends cdktn.ComplexObj
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -212,7 +212,7 @@ export class CloudformationStackTimeoutsOutputReference extends cdktn.ComplexObj
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -228,7 +228,7 @@ export class CloudformationStackTimeoutsOutputReference extends cdktn.ComplexObj
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -318,7 +318,7 @@ export class CloudformationStack extends cdktn.TerraformResource {
   // ==========
 
   // capabilities - computed: false, optional: true, required: false
-  private _capabilities?: string[];
+  private _capabilities?: string[]; 
   public get capabilities() {
     return cdktn.Fn.tolist(this.getListAttribute('capabilities'));
   }
@@ -334,7 +334,7 @@ export class CloudformationStack extends cdktn.TerraformResource {
   }
 
   // disable_rollback - computed: false, optional: true, required: false
-  private _disableRollback?: boolean | cdktn.IResolvable;
+  private _disableRollback?: boolean | cdktn.IResolvable; 
   public get disableRollback() {
     return this.getBooleanAttribute('disable_rollback');
   }
@@ -350,7 +350,7 @@ export class CloudformationStack extends cdktn.TerraformResource {
   }
 
   // iam_role_arn - computed: false, optional: true, required: false
-  private _iamRoleArn?: string;
+  private _iamRoleArn?: string; 
   public get iamRoleArn() {
     return this.getStringAttribute('iam_role_arn');
   }
@@ -366,7 +366,7 @@ export class CloudformationStack extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -382,7 +382,7 @@ export class CloudformationStack extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -395,7 +395,7 @@ export class CloudformationStack extends cdktn.TerraformResource {
   }
 
   // notification_arns - computed: false, optional: true, required: false
-  private _notificationArns?: string[];
+  private _notificationArns?: string[]; 
   public get notificationArns() {
     return cdktn.Fn.tolist(this.getListAttribute('notification_arns'));
   }
@@ -411,7 +411,7 @@ export class CloudformationStack extends cdktn.TerraformResource {
   }
 
   // on_failure - computed: false, optional: true, required: false
-  private _onFailure?: string;
+  private _onFailure?: string; 
   public get onFailure() {
     return this.getStringAttribute('on_failure');
   }
@@ -433,7 +433,7 @@ export class CloudformationStack extends cdktn.TerraformResource {
   }
 
   // parameters - computed: true, optional: true, required: false
-  private _parameters?: { [key: string]: string };
+  private _parameters?: { [key: string]: string }; 
   public get parameters() {
     return this.getStringMapAttribute('parameters');
   }
@@ -449,7 +449,7 @@ export class CloudformationStack extends cdktn.TerraformResource {
   }
 
   // policy_body - computed: true, optional: true, required: false
-  private _policyBody?: string;
+  private _policyBody?: string; 
   public get policyBody() {
     return this.getStringAttribute('policy_body');
   }
@@ -465,7 +465,7 @@ export class CloudformationStack extends cdktn.TerraformResource {
   }
 
   // policy_url - computed: false, optional: true, required: false
-  private _policyUrl?: string;
+  private _policyUrl?: string; 
   public get policyUrl() {
     return this.getStringAttribute('policy_url');
   }
@@ -481,7 +481,7 @@ export class CloudformationStack extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -497,7 +497,7 @@ export class CloudformationStack extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -513,7 +513,7 @@ export class CloudformationStack extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -529,7 +529,7 @@ export class CloudformationStack extends cdktn.TerraformResource {
   }
 
   // template_body - computed: true, optional: true, required: false
-  private _templateBody?: string;
+  private _templateBody?: string; 
   public get templateBody() {
     return this.getStringAttribute('template_body');
   }
@@ -545,7 +545,7 @@ export class CloudformationStack extends cdktn.TerraformResource {
   }
 
   // template_url - computed: false, optional: true, required: false
-  private _templateUrl?: string;
+  private _templateUrl?: string; 
   public get templateUrl() {
     return this.getStringAttribute('template_url');
   }
@@ -561,7 +561,7 @@ export class CloudformationStack extends cdktn.TerraformResource {
   }
 
   // timeout_in_minutes - computed: false, optional: true, required: false
-  private _timeoutInMinutes?: number;
+  private _timeoutInMinutes?: number; 
   public get timeoutInMinutes() {
     return this.getNumberAttribute('timeout_in_minutes');
   }

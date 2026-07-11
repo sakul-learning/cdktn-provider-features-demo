@@ -140,7 +140,7 @@ export class Route53ResolverOutpostResolverTagsOutputReference extends cdktn.Com
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -156,7 +156,7 @@ export class Route53ResolverOutpostResolverTagsOutputReference extends cdktn.Com
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -274,7 +274,7 @@ export class Route53ResolverOutpostResolver extends cdktn.TerraformResource {
   }
 
   // instance_count - computed: true, optional: true, required: false
-  private _instanceCount?: number;
+  private _instanceCount?: number; 
   public get instanceCount() {
     return this.getNumberAttribute('instance_count');
   }
@@ -295,7 +295,7 @@ export class Route53ResolverOutpostResolver extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -308,7 +308,7 @@ export class Route53ResolverOutpostResolver extends cdktn.TerraformResource {
   }
 
   // outpost_arn - computed: false, optional: false, required: true
-  private _outpostArn?: string;
+  private _outpostArn?: string; 
   public get outpostArn() {
     return this.getStringAttribute('outpost_arn');
   }
@@ -326,7 +326,7 @@ export class Route53ResolverOutpostResolver extends cdktn.TerraformResource {
   }
 
   // preferred_instance_type - computed: false, optional: false, required: true
-  private _preferredInstanceType?: string;
+  private _preferredInstanceType?: string; 
   public get preferredInstanceType() {
     return this.getStringAttribute('preferred_instance_type');
   }

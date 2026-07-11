@@ -128,7 +128,7 @@ export class S3BucketInventoryDestinationBucketEncryptionSseKmsOutputReference e
   }
 
   // key_id - computed: false, optional: false, required: true
-  private _keyId?: string;
+  private _keyId?: string; 
   public get keyId() {
     return this.getStringAttribute('key_id');
   }
@@ -449,7 +449,7 @@ export class S3BucketInventoryDestinationBucketOutputReference extends cdktn.Com
   }
 
   // account_id - computed: false, optional: true, required: false
-  private _accountId?: string;
+  private _accountId?: string; 
   public get accountId() {
     return this.getStringAttribute('account_id');
   }
@@ -465,7 +465,7 @@ export class S3BucketInventoryDestinationBucketOutputReference extends cdktn.Com
   }
 
   // bucket_arn - computed: false, optional: false, required: true
-  private _bucketArn?: string;
+  private _bucketArn?: string; 
   public get bucketArn() {
     return this.getStringAttribute('bucket_arn');
   }
@@ -478,7 +478,7 @@ export class S3BucketInventoryDestinationBucketOutputReference extends cdktn.Com
   }
 
   // format - computed: false, optional: false, required: true
-  private _format?: string;
+  private _format?: string; 
   public get format() {
     return this.getStringAttribute('format');
   }
@@ -491,7 +491,7 @@ export class S3BucketInventoryDestinationBucketOutputReference extends cdktn.Com
   }
 
   // prefix - computed: false, optional: true, required: false
-  private _prefix?: string;
+  private _prefix?: string; 
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -674,7 +674,7 @@ export class S3BucketInventoryFilterOutputReference extends cdktn.ComplexObject 
   }
 
   // prefix - computed: false, optional: true, required: false
-  private _prefix?: string;
+  private _prefix?: string; 
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -758,7 +758,7 @@ export class S3BucketInventoryScheduleOutputReference extends cdktn.ComplexObjec
   }
 
   // frequency - computed: false, optional: false, required: true
-  private _frequency?: string;
+  private _frequency?: string; 
   public get frequency() {
     return this.getStringAttribute('frequency');
   }
@@ -838,7 +838,7 @@ export class S3BucketInventory extends cdktn.TerraformResource {
   // ==========
 
   // bucket - computed: false, optional: false, required: true
-  private _bucket?: string;
+  private _bucket?: string; 
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -851,7 +851,7 @@ export class S3BucketInventory extends cdktn.TerraformResource {
   }
 
   // enabled - computed: false, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -867,7 +867,7 @@ export class S3BucketInventory extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -883,7 +883,7 @@ export class S3BucketInventory extends cdktn.TerraformResource {
   }
 
   // included_object_versions - computed: false, optional: false, required: true
-  private _includedObjectVersions?: string;
+  private _includedObjectVersions?: string; 
   public get includedObjectVersions() {
     return this.getStringAttribute('included_object_versions');
   }
@@ -896,7 +896,7 @@ export class S3BucketInventory extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -909,7 +909,7 @@ export class S3BucketInventory extends cdktn.TerraformResource {
   }
 
   // optional_fields - computed: false, optional: true, required: false
-  private _optionalFields?: string[];
+  private _optionalFields?: string[]; 
   public get optionalFields() {
     return cdktn.Fn.tolist(this.getListAttribute('optional_fields'));
   }
@@ -925,7 +925,7 @@ export class S3BucketInventory extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

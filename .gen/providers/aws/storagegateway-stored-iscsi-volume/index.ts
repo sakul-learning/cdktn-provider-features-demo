@@ -141,7 +141,7 @@ export class StoragegatewayStoredIscsiVolume extends cdktn.TerraformResource {
   }
 
   // disk_id - computed: false, optional: false, required: true
-  private _diskId?: string;
+  private _diskId?: string; 
   public get diskId() {
     return this.getStringAttribute('disk_id');
   }
@@ -154,7 +154,7 @@ export class StoragegatewayStoredIscsiVolume extends cdktn.TerraformResource {
   }
 
   // gateway_arn - computed: false, optional: false, required: true
-  private _gatewayArn?: string;
+  private _gatewayArn?: string; 
   public get gatewayArn() {
     return this.getStringAttribute('gateway_arn');
   }
@@ -167,7 +167,7 @@ export class StoragegatewayStoredIscsiVolume extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -183,7 +183,7 @@ export class StoragegatewayStoredIscsiVolume extends cdktn.TerraformResource {
   }
 
   // kms_encrypted - computed: false, optional: true, required: false
-  private _kmsEncrypted?: boolean | cdktn.IResolvable;
+  private _kmsEncrypted?: boolean | cdktn.IResolvable; 
   public get kmsEncrypted() {
     return this.getBooleanAttribute('kms_encrypted');
   }
@@ -199,7 +199,7 @@ export class StoragegatewayStoredIscsiVolume extends cdktn.TerraformResource {
   }
 
   // kms_key - computed: false, optional: true, required: false
-  private _kmsKey?: string;
+  private _kmsKey?: string; 
   public get kmsKey() {
     return this.getStringAttribute('kms_key');
   }
@@ -220,7 +220,7 @@ export class StoragegatewayStoredIscsiVolume extends cdktn.TerraformResource {
   }
 
   // network_interface_id - computed: false, optional: false, required: true
-  private _networkInterfaceId?: string;
+  private _networkInterfaceId?: string; 
   public get networkInterfaceId() {
     return this.getStringAttribute('network_interface_id');
   }
@@ -238,7 +238,7 @@ export class StoragegatewayStoredIscsiVolume extends cdktn.TerraformResource {
   }
 
   // preserve_existing_data - computed: false, optional: false, required: true
-  private _preserveExistingData?: boolean | cdktn.IResolvable;
+  private _preserveExistingData?: boolean | cdktn.IResolvable; 
   public get preserveExistingData() {
     return this.getBooleanAttribute('preserve_existing_data');
   }
@@ -251,7 +251,7 @@ export class StoragegatewayStoredIscsiVolume extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -267,7 +267,7 @@ export class StoragegatewayStoredIscsiVolume extends cdktn.TerraformResource {
   }
 
   // snapshot_id - computed: false, optional: true, required: false
-  private _snapshotId?: string;
+  private _snapshotId?: string; 
   public get snapshotId() {
     return this.getStringAttribute('snapshot_id');
   }
@@ -283,7 +283,7 @@ export class StoragegatewayStoredIscsiVolume extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -299,7 +299,7 @@ export class StoragegatewayStoredIscsiVolume extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -320,7 +320,7 @@ export class StoragegatewayStoredIscsiVolume extends cdktn.TerraformResource {
   }
 
   // target_name - computed: false, optional: false, required: true
-  private _targetName?: string;
+  private _targetName?: string; 
   public get targetName() {
     return this.getStringAttribute('target_name');
   }

@@ -94,7 +94,7 @@ export class CloudfrontOriginAccessIdentity extends cdktn.TerraformResource {
   }
 
   // comment - computed: false, optional: true, required: false
-  private _comment?: string;
+  private _comment?: string; 
   public get comment() {
     return this.getStringAttribute('comment');
   }
@@ -120,7 +120,7 @@ export class CloudfrontOriginAccessIdentity extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }

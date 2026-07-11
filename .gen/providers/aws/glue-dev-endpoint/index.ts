@@ -161,7 +161,7 @@ export class GlueDevEndpoint extends cdktn.TerraformResource {
   // ==========
 
   // arguments - computed: false, optional: true, required: false
-  private _arguments?: { [key: string]: string };
+  private _arguments?: { [key: string]: string }; 
   public get arguments() {
     return this.getStringMapAttribute('arguments');
   }
@@ -187,7 +187,7 @@ export class GlueDevEndpoint extends cdktn.TerraformResource {
   }
 
   // extra_jars_s3_path - computed: false, optional: true, required: false
-  private _extraJarsS3Path?: string;
+  private _extraJarsS3Path?: string; 
   public get extraJarsS3Path() {
     return this.getStringAttribute('extra_jars_s3_path');
   }
@@ -203,7 +203,7 @@ export class GlueDevEndpoint extends cdktn.TerraformResource {
   }
 
   // extra_python_libs_s3_path - computed: false, optional: true, required: false
-  private _extraPythonLibsS3Path?: string;
+  private _extraPythonLibsS3Path?: string; 
   public get extraPythonLibsS3Path() {
     return this.getStringAttribute('extra_python_libs_s3_path');
   }
@@ -224,7 +224,7 @@ export class GlueDevEndpoint extends cdktn.TerraformResource {
   }
 
   // glue_version - computed: false, optional: true, required: false
-  private _glueVersion?: string;
+  private _glueVersion?: string; 
   public get glueVersion() {
     return this.getStringAttribute('glue_version');
   }
@@ -240,7 +240,7 @@ export class GlueDevEndpoint extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -256,7 +256,7 @@ export class GlueDevEndpoint extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -269,7 +269,7 @@ export class GlueDevEndpoint extends cdktn.TerraformResource {
   }
 
   // number_of_nodes - computed: false, optional: true, required: false
-  private _numberOfNodes?: number;
+  private _numberOfNodes?: number; 
   public get numberOfNodes() {
     return this.getNumberAttribute('number_of_nodes');
   }
@@ -285,7 +285,7 @@ export class GlueDevEndpoint extends cdktn.TerraformResource {
   }
 
   // number_of_workers - computed: false, optional: true, required: false
-  private _numberOfWorkers?: number;
+  private _numberOfWorkers?: number; 
   public get numberOfWorkers() {
     return this.getNumberAttribute('number_of_workers');
   }
@@ -311,7 +311,7 @@ export class GlueDevEndpoint extends cdktn.TerraformResource {
   }
 
   // public_key - computed: false, optional: true, required: false
-  private _publicKey?: string;
+  private _publicKey?: string; 
   public get publicKey() {
     return this.getStringAttribute('public_key');
   }
@@ -327,7 +327,7 @@ export class GlueDevEndpoint extends cdktn.TerraformResource {
   }
 
   // public_keys - computed: false, optional: true, required: false
-  private _publicKeys?: string[];
+  private _publicKeys?: string[]; 
   public get publicKeys() {
     return cdktn.Fn.tolist(this.getListAttribute('public_keys'));
   }
@@ -343,7 +343,7 @@ export class GlueDevEndpoint extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -359,7 +359,7 @@ export class GlueDevEndpoint extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -372,7 +372,7 @@ export class GlueDevEndpoint extends cdktn.TerraformResource {
   }
 
   // security_configuration - computed: false, optional: true, required: false
-  private _securityConfiguration?: string;
+  private _securityConfiguration?: string; 
   public get securityConfiguration() {
     return this.getStringAttribute('security_configuration');
   }
@@ -388,7 +388,7 @@ export class GlueDevEndpoint extends cdktn.TerraformResource {
   }
 
   // security_group_ids - computed: false, optional: true, required: false
-  private _securityGroupIds?: string[];
+  private _securityGroupIds?: string[]; 
   public get securityGroupIds() {
     return cdktn.Fn.tolist(this.getListAttribute('security_group_ids'));
   }
@@ -409,7 +409,7 @@ export class GlueDevEndpoint extends cdktn.TerraformResource {
   }
 
   // subnet_id - computed: false, optional: true, required: false
-  private _subnetId?: string;
+  private _subnetId?: string; 
   public get subnetId() {
     return this.getStringAttribute('subnet_id');
   }
@@ -425,7 +425,7 @@ export class GlueDevEndpoint extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -441,7 +441,7 @@ export class GlueDevEndpoint extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -462,7 +462,7 @@ export class GlueDevEndpoint extends cdktn.TerraformResource {
   }
 
   // worker_type - computed: false, optional: true, required: false
-  private _workerType?: string;
+  private _workerType?: string; 
   public get workerType() {
     return this.getStringAttribute('worker_type');
   }

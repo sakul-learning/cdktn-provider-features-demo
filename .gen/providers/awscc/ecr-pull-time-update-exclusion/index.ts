@@ -78,7 +78,7 @@ export class EcrPullTimeUpdateExclusion extends cdktn.TerraformResource {
   }
 
   // principal_arn - computed: false, optional: false, required: true
-  private _principalArn?: string;
+  private _principalArn?: string; 
   public get principalArn() {
     return this.getStringAttribute('principal_arn');
   }

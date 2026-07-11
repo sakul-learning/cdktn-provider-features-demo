@@ -203,7 +203,7 @@ export class Pinpointsmsvoicev2PoolTimeoutsOutputReference extends cdktn.Complex
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -219,7 +219,7 @@ export class Pinpointsmsvoicev2PoolTimeoutsOutputReference extends cdktn.Complex
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -235,7 +235,7 @@ export class Pinpointsmsvoicev2PoolTimeoutsOutputReference extends cdktn.Complex
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -326,7 +326,7 @@ export class Pinpointsmsvoicev2Pool extends cdktn.TerraformResource {
   }
 
   // deletion_protection_enabled - computed: true, optional: true, required: false
-  private _deletionProtectionEnabled?: boolean | cdktn.IResolvable;
+  private _deletionProtectionEnabled?: boolean | cdktn.IResolvable; 
   public get deletionProtectionEnabled() {
     return this.getBooleanAttribute('deletion_protection_enabled');
   }
@@ -347,7 +347,7 @@ export class Pinpointsmsvoicev2Pool extends cdktn.TerraformResource {
   }
 
   // iso_country_code - computed: false, optional: true, required: false
-  private _isoCountryCode?: string;
+  private _isoCountryCode?: string; 
   public get isoCountryCode() {
     return this.getStringAttribute('iso_country_code');
   }
@@ -363,7 +363,7 @@ export class Pinpointsmsvoicev2Pool extends cdktn.TerraformResource {
   }
 
   // message_type - computed: false, optional: false, required: true
-  private _messageType?: string;
+  private _messageType?: string; 
   public get messageType() {
     return this.getStringAttribute('message_type');
   }
@@ -376,7 +376,7 @@ export class Pinpointsmsvoicev2Pool extends cdktn.TerraformResource {
   }
 
   // opt_out_list_name - computed: true, optional: true, required: false
-  private _optOutListName?: string;
+  private _optOutListName?: string; 
   public get optOutListName() {
     return this.getStringAttribute('opt_out_list_name');
   }
@@ -392,7 +392,7 @@ export class Pinpointsmsvoicev2Pool extends cdktn.TerraformResource {
   }
 
   // origination_identities - computed: false, optional: false, required: true
-  private _originationIdentities?: string[];
+  private _originationIdentities?: string[]; 
   public get originationIdentities() {
     return cdktn.Fn.tolist(this.getListAttribute('origination_identities'));
   }
@@ -405,7 +405,7 @@ export class Pinpointsmsvoicev2Pool extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -421,7 +421,7 @@ export class Pinpointsmsvoicev2Pool extends cdktn.TerraformResource {
   }
 
   // self_managed_opt_outs_enabled - computed: true, optional: true, required: false
-  private _selfManagedOptOutsEnabled?: boolean | cdktn.IResolvable;
+  private _selfManagedOptOutsEnabled?: boolean | cdktn.IResolvable; 
   public get selfManagedOptOutsEnabled() {
     return this.getBooleanAttribute('self_managed_opt_outs_enabled');
   }
@@ -437,7 +437,7 @@ export class Pinpointsmsvoicev2Pool extends cdktn.TerraformResource {
   }
 
   // shared_routes_enabled - computed: true, optional: true, required: false
-  private _sharedRoutesEnabled?: boolean | cdktn.IResolvable;
+  private _sharedRoutesEnabled?: boolean | cdktn.IResolvable; 
   public get sharedRoutesEnabled() {
     return this.getBooleanAttribute('shared_routes_enabled');
   }
@@ -453,7 +453,7 @@ export class Pinpointsmsvoicev2Pool extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -475,7 +475,7 @@ export class Pinpointsmsvoicev2Pool extends cdktn.TerraformResource {
   }
 
   // two_way_channel_arn - computed: false, optional: true, required: false
-  private _twoWayChannelArn?: string;
+  private _twoWayChannelArn?: string; 
   public get twoWayChannelArn() {
     return this.getStringAttribute('two_way_channel_arn');
   }
@@ -491,7 +491,7 @@ export class Pinpointsmsvoicev2Pool extends cdktn.TerraformResource {
   }
 
   // two_way_channel_role - computed: false, optional: true, required: false
-  private _twoWayChannelRole?: string;
+  private _twoWayChannelRole?: string; 
   public get twoWayChannelRole() {
     return this.getStringAttribute('two_way_channel_role');
   }
@@ -507,7 +507,7 @@ export class Pinpointsmsvoicev2Pool extends cdktn.TerraformResource {
   }
 
   // two_way_enabled - computed: true, optional: true, required: false
-  private _twoWayEnabled?: boolean | cdktn.IResolvable;
+  private _twoWayEnabled?: boolean | cdktn.IResolvable; 
   public get twoWayEnabled() {
     return this.getBooleanAttribute('two_way_enabled');
   }

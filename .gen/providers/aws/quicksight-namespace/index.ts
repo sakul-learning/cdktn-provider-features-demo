@@ -136,7 +136,7 @@ export class QuicksightNamespaceTimeoutsOutputReference extends cdktn.ComplexObj
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -152,7 +152,7 @@ export class QuicksightNamespaceTimeoutsOutputReference extends cdktn.ComplexObj
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -236,7 +236,7 @@ export class QuicksightNamespace extends cdktn.TerraformResource {
   }
 
   // aws_account_id - computed: true, optional: true, required: false
-  private _awsAccountId?: string;
+  private _awsAccountId?: string; 
   public get awsAccountId() {
     return this.getStringAttribute('aws_account_id');
   }
@@ -267,7 +267,7 @@ export class QuicksightNamespace extends cdktn.TerraformResource {
   }
 
   // identity_store - computed: true, optional: true, required: false
-  private _identityStore?: string;
+  private _identityStore?: string; 
   public get identityStore() {
     return this.getStringAttribute('identity_store');
   }
@@ -283,7 +283,7 @@ export class QuicksightNamespace extends cdktn.TerraformResource {
   }
 
   // namespace - computed: false, optional: false, required: true
-  private _namespace?: string;
+  private _namespace?: string; 
   public get namespace() {
     return this.getStringAttribute('namespace');
   }
@@ -296,7 +296,7 @@ export class QuicksightNamespace extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -312,7 +312,7 @@ export class QuicksightNamespace extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

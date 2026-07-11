@@ -176,7 +176,7 @@ export class DataAwsAppconfigConfigurationProfile extends cdktn.TerraformDataSou
   // ==========
 
   // application_id - computed: false, optional: false, required: true
-  private _applicationId?: string;
+  private _applicationId?: string; 
   public get applicationId() {
     return this.getStringAttribute('application_id');
   }
@@ -194,7 +194,7 @@ export class DataAwsAppconfigConfigurationProfile extends cdktn.TerraformDataSou
   }
 
   // configuration_profile_id - computed: false, optional: false, required: true
-  private _configurationProfileId?: string;
+  private _configurationProfileId?: string; 
   public get configurationProfileId() {
     return this.getStringAttribute('configuration_profile_id');
   }
@@ -212,7 +212,7 @@ export class DataAwsAppconfigConfigurationProfile extends cdktn.TerraformDataSou
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -243,7 +243,7 @@ export class DataAwsAppconfigConfigurationProfile extends cdktn.TerraformDataSou
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -264,7 +264,7 @@ export class DataAwsAppconfigConfigurationProfile extends cdktn.TerraformDataSou
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

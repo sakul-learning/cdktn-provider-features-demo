@@ -150,7 +150,7 @@ export class Route53KeySigningKeyTimeoutsOutputReference extends cdktn.ComplexOb
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -166,7 +166,7 @@ export class Route53KeySigningKeyTimeoutsOutputReference extends cdktn.ComplexOb
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -182,7 +182,7 @@ export class Route53KeySigningKeyTimeoutsOutputReference extends cdktn.ComplexOb
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -291,7 +291,7 @@ export class Route53KeySigningKey extends cdktn.TerraformResource {
   }
 
   // hosted_zone_id - computed: false, optional: false, required: true
-  private _hostedZoneId?: string;
+  private _hostedZoneId?: string; 
   public get hostedZoneId() {
     return this.getStringAttribute('hosted_zone_id');
   }
@@ -304,7 +304,7 @@ export class Route53KeySigningKey extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -320,7 +320,7 @@ export class Route53KeySigningKey extends cdktn.TerraformResource {
   }
 
   // key_management_service_arn - computed: false, optional: false, required: true
-  private _keyManagementServiceArn?: string;
+  private _keyManagementServiceArn?: string; 
   public get keyManagementServiceArn() {
     return this.getStringAttribute('key_management_service_arn');
   }
@@ -338,7 +338,7 @@ export class Route53KeySigningKey extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -366,7 +366,7 @@ export class Route53KeySigningKey extends cdktn.TerraformResource {
   }
 
   // status - computed: false, optional: true, required: false
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }

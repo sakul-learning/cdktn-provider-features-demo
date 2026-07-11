@@ -126,7 +126,7 @@ export class SsmcontactsPlanStagesTargetsChannelTargetInfoOutputReference extend
   }
 
   // channel_id - computed: true, optional: true, required: false
-  private _channelId?: string;
+  private _channelId?: string; 
   public get channelId() {
     return this.getStringAttribute('channel_id');
   }
@@ -142,7 +142,7 @@ export class SsmcontactsPlanStagesTargetsChannelTargetInfoOutputReference extend
   }
 
   // retry_interval_in_minutes - computed: true, optional: true, required: false
-  private _retryIntervalInMinutes?: number;
+  private _retryIntervalInMinutes?: number; 
   public get retryIntervalInMinutes() {
     return this.getNumberAttribute('retry_interval_in_minutes');
   }
@@ -257,7 +257,7 @@ export class SsmcontactsPlanStagesTargetsContactTargetInfoOutputReference extend
   }
 
   // contact_id - computed: true, optional: true, required: false
-  private _contactId?: string;
+  private _contactId?: string; 
   public get contactId() {
     return this.getStringAttribute('contact_id');
   }
@@ -273,7 +273,7 @@ export class SsmcontactsPlanStagesTargetsContactTargetInfoOutputReference extend
   }
 
   // is_essential - computed: true, optional: true, required: false
-  private _isEssential?: boolean | cdktn.IResolvable;
+  private _isEssential?: boolean | cdktn.IResolvable; 
   public get isEssential() {
     return this.getBooleanAttribute('is_essential');
   }
@@ -543,7 +543,7 @@ export class SsmcontactsPlanStagesOutputReference extends cdktn.ComplexObject {
   }
 
   // duration_in_minutes - computed: true, optional: true, required: false
-  private _durationInMinutes?: number;
+  private _durationInMinutes?: number; 
   public get durationInMinutes() {
     return this.getNumberAttribute('duration_in_minutes');
   }
@@ -660,7 +660,7 @@ export class SsmcontactsPlan extends cdktn.TerraformResource {
   }
 
   // contact_id - computed: true, optional: true, required: false
-  private _contactId?: string;
+  private _contactId?: string; 
   public get contactId() {
     return this.getStringAttribute('contact_id');
   }
@@ -681,7 +681,7 @@ export class SsmcontactsPlan extends cdktn.TerraformResource {
   }
 
   // rotation_ids - computed: true, optional: true, required: false
-  private _rotationIds?: string[];
+  private _rotationIds?: string[]; 
   public get rotationIds() {
     return this.getListAttribute('rotation_ids');
   }

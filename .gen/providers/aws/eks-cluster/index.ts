@@ -441,7 +441,7 @@ export class EksClusterAccessConfigOutputReference extends cdktn.ComplexObject {
   }
 
   // authentication_mode - computed: true, optional: true, required: false
-  private _authenticationMode?: string;
+  private _authenticationMode?: string; 
   public get authenticationMode() {
     return this.getStringAttribute('authentication_mode');
   }
@@ -457,7 +457,7 @@ export class EksClusterAccessConfigOutputReference extends cdktn.ComplexObject {
   }
 
   // bootstrap_cluster_creator_admin_permissions - computed: false, optional: true, required: false
-  private _bootstrapClusterCreatorAdminPermissions?: boolean | cdktn.IResolvable;
+  private _bootstrapClusterCreatorAdminPermissions?: boolean | cdktn.IResolvable; 
   public get bootstrapClusterCreatorAdminPermissions() {
     return this.getBooleanAttribute('bootstrap_cluster_creator_admin_permissions');
   }
@@ -575,7 +575,7 @@ export class EksClusterComputeConfigOutputReference extends cdktn.ComplexObject 
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -591,7 +591,7 @@ export class EksClusterComputeConfigOutputReference extends cdktn.ComplexObject 
   }
 
   // node_pools - computed: false, optional: true, required: false
-  private _nodePools?: string[];
+  private _nodePools?: string[]; 
   public get nodePools() {
     return cdktn.Fn.tolist(this.getListAttribute('node_pools'));
   }
@@ -607,7 +607,7 @@ export class EksClusterComputeConfigOutputReference extends cdktn.ComplexObject 
   }
 
   // node_role_arn - computed: false, optional: true, required: false
-  private _nodeRoleArn?: string;
+  private _nodeRoleArn?: string; 
   public get nodeRoleArn() {
     return this.getStringAttribute('node_role_arn');
   }
@@ -691,7 +691,7 @@ export class EksClusterControlPlaneScalingConfigOutputReference extends cdktn.Co
   }
 
   // tier - computed: true, optional: true, required: false
-  private _tier?: string;
+  private _tier?: string; 
   public get tier() {
     return this.getStringAttribute('tier');
   }
@@ -775,7 +775,7 @@ export class EksClusterEncryptionConfigProviderOutputReference extends cdktn.Com
   }
 
   // key_arn - computed: false, optional: false, required: true
-  private _keyArn?: string;
+  private _keyArn?: string; 
   public get keyArn() {
     return this.getStringAttribute('key_arn');
   }
@@ -875,7 +875,7 @@ export class EksClusterEncryptionConfigOutputReference extends cdktn.ComplexObje
   }
 
   // resources - computed: false, optional: false, required: true
-  private _resources?: string[];
+  private _resources?: string[]; 
   public get resources() {
     return cdktn.Fn.tolist(this.getListAttribute('resources'));
   }
@@ -969,7 +969,7 @@ export class EksClusterKubernetesNetworkConfigElasticLoadBalancingOutputReferenc
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -1089,7 +1089,7 @@ export class EksClusterKubernetesNetworkConfigOutputReference extends cdktn.Comp
   }
 
   // ip_family - computed: true, optional: true, required: false
-  private _ipFamily?: string;
+  private _ipFamily?: string; 
   public get ipFamily() {
     return this.getStringAttribute('ip_family');
   }
@@ -1105,7 +1105,7 @@ export class EksClusterKubernetesNetworkConfigOutputReference extends cdktn.Comp
   }
 
   // service_ipv4_cidr - computed: true, optional: true, required: false
-  private _serviceIpv4Cidr?: string;
+  private _serviceIpv4Cidr?: string; 
   public get serviceIpv4Cidr() {
     return this.getStringAttribute('service_ipv4_cidr');
   }
@@ -1227,7 +1227,7 @@ export class EksClusterOutpostConfigControlPlanePlacementOutputReference extends
   }
 
   // group_name - computed: false, optional: true, required: false
-  private _groupName?: string;
+  private _groupName?: string; 
   public get groupName() {
     return this.getStringAttribute('group_name');
   }
@@ -1243,7 +1243,7 @@ export class EksClusterOutpostConfigControlPlanePlacementOutputReference extends
   }
 
   // spread_level - computed: true, optional: true, required: false
-  private _spreadLevel?: string;
+  private _spreadLevel?: string; 
   public get spreadLevel() {
     return this.getStringAttribute('spread_level');
   }
@@ -1327,7 +1327,7 @@ export class EksClusterOutpostConfigEtcdPlacementOutputReference extends cdktn.C
   }
 
   // spread_level - computed: true, optional: true, required: false
-  private _spreadLevel?: string;
+  private _spreadLevel?: string; 
   public get spreadLevel() {
     return this.getStringAttribute('spread_level');
   }
@@ -1483,7 +1483,7 @@ export class EksClusterOutpostConfigOutputReference extends cdktn.ComplexObject 
   }
 
   // control_plane_instance_type - computed: false, optional: false, required: true
-  private _controlPlaneInstanceType?: string;
+  private _controlPlaneInstanceType?: string; 
   public get controlPlaneInstanceType() {
     return this.getStringAttribute('control_plane_instance_type');
   }
@@ -1496,7 +1496,7 @@ export class EksClusterOutpostConfigOutputReference extends cdktn.ComplexObject 
   }
 
   // etcd_instance_type - computed: true, optional: true, required: false
-  private _etcdInstanceType?: string;
+  private _etcdInstanceType?: string; 
   public get etcdInstanceType() {
     return this.getStringAttribute('etcd_instance_type');
   }
@@ -1512,7 +1512,7 @@ export class EksClusterOutpostConfigOutputReference extends cdktn.ComplexObject 
   }
 
   // outpost_arns - computed: false, optional: false, required: true
-  private _outpostArns?: string[];
+  private _outpostArns?: string[]; 
   public get outpostArns() {
     return cdktn.Fn.tolist(this.getListAttribute('outpost_arns'));
   }
@@ -1625,7 +1625,7 @@ export class EksClusterRemoteNetworkConfigRemoteNodeNetworksOutputReference exte
   }
 
   // cidrs - computed: false, optional: true, required: false
-  private _cidrs?: string[];
+  private _cidrs?: string[]; 
   public get cidrs() {
     return cdktn.Fn.tolist(this.getListAttribute('cidrs'));
   }
@@ -1709,7 +1709,7 @@ export class EksClusterRemoteNetworkConfigRemotePodNetworksOutputReference exten
   }
 
   // cidrs - computed: false, optional: true, required: false
-  private _cidrs?: string[];
+  private _cidrs?: string[]; 
   public get cidrs() {
     return cdktn.Fn.tolist(this.getListAttribute('cidrs'));
   }
@@ -1914,7 +1914,7 @@ export class EksClusterStorageConfigBlockStorageOutputReference extends cdktn.Co
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -2128,7 +2128,7 @@ export class EksClusterTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -2144,7 +2144,7 @@ export class EksClusterTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -2160,7 +2160,7 @@ export class EksClusterTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -2244,7 +2244,7 @@ export class EksClusterUpgradePolicyOutputReference extends cdktn.ComplexObject 
   }
 
   // support_type - computed: true, optional: true, required: false
-  private _supportType?: string;
+  private _supportType?: string; 
   public get supportType() {
     return this.getStringAttribute('support_type');
   }
@@ -2418,7 +2418,7 @@ export class EksClusterVpcConfigOutputReference extends cdktn.ComplexObject {
   }
 
   // control_plane_egress_mode - computed: true, optional: true, required: false
-  private _controlPlaneEgressMode?: string;
+  private _controlPlaneEgressMode?: string; 
   public get controlPlaneEgressMode() {
     return this.getStringAttribute('control_plane_egress_mode');
   }
@@ -2434,7 +2434,7 @@ export class EksClusterVpcConfigOutputReference extends cdktn.ComplexObject {
   }
 
   // endpoint_private_access - computed: false, optional: true, required: false
-  private _endpointPrivateAccess?: boolean | cdktn.IResolvable;
+  private _endpointPrivateAccess?: boolean | cdktn.IResolvable; 
   public get endpointPrivateAccess() {
     return this.getBooleanAttribute('endpoint_private_access');
   }
@@ -2450,7 +2450,7 @@ export class EksClusterVpcConfigOutputReference extends cdktn.ComplexObject {
   }
 
   // endpoint_public_access - computed: false, optional: true, required: false
-  private _endpointPublicAccess?: boolean | cdktn.IResolvable;
+  private _endpointPublicAccess?: boolean | cdktn.IResolvable; 
   public get endpointPublicAccess() {
     return this.getBooleanAttribute('endpoint_public_access');
   }
@@ -2466,7 +2466,7 @@ export class EksClusterVpcConfigOutputReference extends cdktn.ComplexObject {
   }
 
   // public_access_cidrs - computed: true, optional: true, required: false
-  private _publicAccessCidrs?: string[];
+  private _publicAccessCidrs?: string[]; 
   public get publicAccessCidrs() {
     return cdktn.Fn.tolist(this.getListAttribute('public_access_cidrs'));
   }
@@ -2482,7 +2482,7 @@ export class EksClusterVpcConfigOutputReference extends cdktn.ComplexObject {
   }
 
   // security_group_ids - computed: false, optional: true, required: false
-  private _securityGroupIds?: string[];
+  private _securityGroupIds?: string[]; 
   public get securityGroupIds() {
     return cdktn.Fn.tolist(this.getListAttribute('security_group_ids'));
   }
@@ -2498,7 +2498,7 @@ export class EksClusterVpcConfigOutputReference extends cdktn.ComplexObject {
   }
 
   // subnet_ids - computed: false, optional: false, required: true
-  private _subnetIds?: string[];
+  private _subnetIds?: string[]; 
   public get subnetIds() {
     return cdktn.Fn.tolist(this.getListAttribute('subnet_ids'));
   }
@@ -2584,7 +2584,7 @@ export class EksClusterZonalShiftConfigOutputReference extends cdktn.ComplexObje
   }
 
   // enabled - computed: false, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -2685,7 +2685,7 @@ export class EksCluster extends cdktn.TerraformResource {
   }
 
   // bootstrap_self_managed_addons - computed: false, optional: true, required: false
-  private _bootstrapSelfManagedAddons?: boolean | cdktn.IResolvable;
+  private _bootstrapSelfManagedAddons?: boolean | cdktn.IResolvable; 
   public get bootstrapSelfManagedAddons() {
     return this.getBooleanAttribute('bootstrap_self_managed_addons');
   }
@@ -2717,7 +2717,7 @@ export class EksCluster extends cdktn.TerraformResource {
   }
 
   // deletion_protection - computed: true, optional: true, required: false
-  private _deletionProtection?: boolean | cdktn.IResolvable;
+  private _deletionProtection?: boolean | cdktn.IResolvable; 
   public get deletionProtection() {
     return this.getBooleanAttribute('deletion_protection');
   }
@@ -2733,7 +2733,7 @@ export class EksCluster extends cdktn.TerraformResource {
   }
 
   // enabled_cluster_log_types - computed: false, optional: true, required: false
-  private _enabledClusterLogTypes?: string[];
+  private _enabledClusterLogTypes?: string[]; 
   public get enabledClusterLogTypes() {
     return cdktn.Fn.tolist(this.getListAttribute('enabled_cluster_log_types'));
   }
@@ -2754,7 +2754,7 @@ export class EksCluster extends cdktn.TerraformResource {
   }
 
   // force_update_version - computed: false, optional: true, required: false
-  private _forceUpdateVersion?: boolean | cdktn.IResolvable;
+  private _forceUpdateVersion?: boolean | cdktn.IResolvable; 
   public get forceUpdateVersion() {
     return this.getBooleanAttribute('force_update_version');
   }
@@ -2770,7 +2770,7 @@ export class EksCluster extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -2792,7 +2792,7 @@ export class EksCluster extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2810,7 +2810,7 @@ export class EksCluster extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -2826,7 +2826,7 @@ export class EksCluster extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -2844,7 +2844,7 @@ export class EksCluster extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -2860,7 +2860,7 @@ export class EksCluster extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -2876,7 +2876,7 @@ export class EksCluster extends cdktn.TerraformResource {
   }
 
   // version - computed: true, optional: true, required: false
-  private _version?: string;
+  private _version?: string; 
   public get version() {
     return this.getStringAttribute('version');
   }

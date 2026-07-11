@@ -199,7 +199,7 @@ export class Ec2TransitGatewayPeeringAttachmentTagsOutputReference extends cdktn
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -215,7 +215,7 @@ export class Ec2TransitGatewayPeeringAttachmentTagsOutputReference extends cdktn
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -323,7 +323,7 @@ export class Ec2TransitGatewayPeeringAttachment extends cdktn.TerraformResource 
   }
 
   // peer_account_id - computed: false, optional: false, required: true
-  private _peerAccountId?: string;
+  private _peerAccountId?: string; 
   public get peerAccountId() {
     return this.getStringAttribute('peer_account_id');
   }
@@ -336,7 +336,7 @@ export class Ec2TransitGatewayPeeringAttachment extends cdktn.TerraformResource 
   }
 
   // peer_region - computed: false, optional: false, required: true
-  private _peerRegion?: string;
+  private _peerRegion?: string; 
   public get peerRegion() {
     return this.getStringAttribute('peer_region');
   }
@@ -349,7 +349,7 @@ export class Ec2TransitGatewayPeeringAttachment extends cdktn.TerraformResource 
   }
 
   // peer_transit_gateway_id - computed: false, optional: false, required: true
-  private _peerTransitGatewayId?: string;
+  private _peerTransitGatewayId?: string; 
   public get peerTransitGatewayId() {
     return this.getStringAttribute('peer_transit_gateway_id');
   }
@@ -394,7 +394,7 @@ export class Ec2TransitGatewayPeeringAttachment extends cdktn.TerraformResource 
   }
 
   // transit_gateway_id - computed: false, optional: false, required: true
-  private _transitGatewayId?: string;
+  private _transitGatewayId?: string; 
   public get transitGatewayId() {
     return this.getStringAttribute('transit_gateway_id');
   }

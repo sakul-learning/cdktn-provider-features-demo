@@ -114,7 +114,7 @@ export class LambdaCodeSigningConfigAllowedPublishersOutputReference extends cdk
   }
 
   // signing_profile_version_arns - computed: false, optional: false, required: true
-  private _signingProfileVersionArns?: string[];
+  private _signingProfileVersionArns?: string[]; 
   public get signingProfileVersionArns() {
     return cdktn.Fn.tolist(this.getListAttribute('signing_profile_version_arns'));
   }
@@ -195,7 +195,7 @@ export class LambdaCodeSigningConfigPoliciesOutputReference extends cdktn.Comple
   }
 
   // untrusted_artifact_on_deployment - computed: false, optional: false, required: true
-  private _untrustedArtifactOnDeployment?: string;
+  private _untrustedArtifactOnDeployment?: string; 
   public get untrustedArtifactOnDeployment() {
     return this.getStringAttribute('untrusted_artifact_on_deployment');
   }
@@ -282,7 +282,7 @@ export class LambdaCodeSigningConfig extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -298,7 +298,7 @@ export class LambdaCodeSigningConfig extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -319,7 +319,7 @@ export class LambdaCodeSigningConfig extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -335,7 +335,7 @@ export class LambdaCodeSigningConfig extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -351,7 +351,7 @@ export class LambdaCodeSigningConfig extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

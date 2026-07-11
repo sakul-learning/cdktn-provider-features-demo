@@ -28,13 +28,13 @@ export interface CodeartifactDomainConfig extends cdktn.TerraformMetaArguments {
 }
 export interface CodeartifactDomainTags {
   /**
-  * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
+  * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codeartifact_domain#key CodeartifactDomain#key}
   */
   readonly key?: string;
   /**
-  * The value for the tag. You can specify a value that is 1 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
+  * The value for the tag. You can specify a value that is 1 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codeartifact_domain#value CodeartifactDomain#value}
   */
@@ -128,7 +128,7 @@ export class CodeartifactDomainTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -144,7 +144,7 @@ export class CodeartifactDomainTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -245,7 +245,7 @@ export class CodeartifactDomain extends cdktn.TerraformResource {
   }
 
   // domain_name - computed: false, optional: false, required: true
-  private _domainName?: string;
+  private _domainName?: string; 
   public get domainName() {
     return this.getStringAttribute('domain_name');
   }
@@ -278,7 +278,7 @@ export class CodeartifactDomain extends cdktn.TerraformResource {
   }
 
   // permissions_policy_document - computed: true, optional: true, required: false
-  private _permissionsPolicyDocument?: string;
+  private _permissionsPolicyDocument?: string; 
   public get permissionsPolicyDocument() {
     return this.getStringAttribute('permissions_policy_document');
   }

@@ -101,7 +101,7 @@ export class LoadBalancerListenerPolicy extends cdktn.TerraformResource {
   // ==========
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -117,7 +117,7 @@ export class LoadBalancerListenerPolicy extends cdktn.TerraformResource {
   }
 
   // load_balancer_name - computed: false, optional: false, required: true
-  private _loadBalancerName?: string;
+  private _loadBalancerName?: string; 
   public get loadBalancerName() {
     return this.getStringAttribute('load_balancer_name');
   }
@@ -130,7 +130,7 @@ export class LoadBalancerListenerPolicy extends cdktn.TerraformResource {
   }
 
   // load_balancer_port - computed: false, optional: false, required: true
-  private _loadBalancerPort?: number;
+  private _loadBalancerPort?: number; 
   public get loadBalancerPort() {
     return this.getNumberAttribute('load_balancer_port');
   }
@@ -143,7 +143,7 @@ export class LoadBalancerListenerPolicy extends cdktn.TerraformResource {
   }
 
   // policy_names - computed: false, optional: true, required: false
-  private _policyNames?: string[];
+  private _policyNames?: string[]; 
   public get policyNames() {
     return cdktn.Fn.tolist(this.getListAttribute('policy_names'));
   }
@@ -159,7 +159,7 @@ export class LoadBalancerListenerPolicy extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -175,7 +175,7 @@ export class LoadBalancerListenerPolicy extends cdktn.TerraformResource {
   }
 
   // triggers - computed: false, optional: true, required: false
-  private _triggers?: { [key: string]: string };
+  private _triggers?: { [key: string]: string }; 
   public get triggers() {
     return this.getStringMapAttribute('triggers');
   }

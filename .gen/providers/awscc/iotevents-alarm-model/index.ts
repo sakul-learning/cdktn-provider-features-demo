@@ -144,7 +144,7 @@ export class IoteventsAlarmModelAlarmCapabilitiesAcknowledgeFlowOutputReference 
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -240,7 +240,7 @@ export class IoteventsAlarmModelAlarmCapabilitiesInitializationConfigurationOutp
   }
 
   // disabled_on_initialization - computed: true, optional: true, required: false
-  private _disabledOnInitialization?: boolean | cdktn.IResolvable;
+  private _disabledOnInitialization?: boolean | cdktn.IResolvable; 
   public get disabledOnInitialization() {
     return this.getBooleanAttribute('disabled_on_initialization');
   }
@@ -486,7 +486,7 @@ export class IoteventsAlarmModelAlarmEventActionsAlarmActionsDynamoDBv2PayloadOu
   }
 
   // content_expression - computed: true, optional: true, required: false
-  private _contentExpression?: string;
+  private _contentExpression?: string; 
   public get contentExpression() {
     return this.getStringAttribute('content_expression');
   }
@@ -502,7 +502,7 @@ export class IoteventsAlarmModelAlarmEventActionsAlarmActionsDynamoDBv2PayloadOu
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -634,7 +634,7 @@ export class IoteventsAlarmModelAlarmEventActionsAlarmActionsDynamoDBv2OutputRef
   }
 
   // table_name - computed: true, optional: true, required: false
-  private _tableName?: string;
+  private _tableName?: string; 
   public get tableName() {
     return this.getStringAttribute('table_name');
   }
@@ -749,7 +749,7 @@ export class IoteventsAlarmModelAlarmEventActionsAlarmActionsDynamoDbPayloadOutp
   }
 
   // content_expression - computed: true, optional: true, required: false
-  private _contentExpression?: string;
+  private _contentExpression?: string; 
   public get contentExpression() {
     return this.getStringAttribute('content_expression');
   }
@@ -765,7 +765,7 @@ export class IoteventsAlarmModelAlarmEventActionsAlarmActionsDynamoDbPayloadOutp
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -791,7 +791,7 @@ export interface IoteventsAlarmModelAlarmEventActionsAlarmActionsDynamoDb {
   * The data type for the hash key (also called the partition key). You can specify the following values:
   *   +  ``'STRING'`` - The hash key is a string.
   *   +  ``'NUMBER'`` - The hash key is a number.
-  *
+  *   
   *  If you don't specify ``hashKeyType``, the default value is ``'STRING'``.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_alarm_model#hash_key_type IoteventsAlarmModel#hash_key_type}
@@ -804,11 +804,11 @@ export interface IoteventsAlarmModelAlarmEventActionsAlarmActionsDynamoDb {
   */
   readonly hashKeyValue?: string;
   /**
-  * The type of operation to perform. You can specify the following values:
+  * The type of operation to perform. You can specify the following values: 
   *   +  ``'INSERT'`` - Insert data as a new item into the DynamoDB table. This item uses the specified hash key as a partition key. If you specified a range key, the item uses the range key as a sort key.
   *   +  ``'UPDATE'`` - Update an existing item of the DynamoDB table with new data. This item's partition key must match the specified hash key. If you specified a range key, the range key must match the item's sort key.
   *   +  ``'DELETE'`` - Delete an existing item of the DynamoDB table. This item's partition key must match the specified hash key. If you specified a range key, the range key must match the item's sort key.
-  *
+  *   
   *  If you don't specify this parameter, ITE triggers the ``'INSERT'`` operation.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_alarm_model#operation IoteventsAlarmModel#operation}
@@ -838,7 +838,7 @@ export interface IoteventsAlarmModelAlarmEventActionsAlarmActionsDynamoDb {
   * The data type for the range key (also called the sort key), You can specify the following values:
   *   +  ``'STRING'`` - The range key is a string.
   *   +  ``'NUMBER'`` - The range key is number.
-  *
+  *   
   *  If you don't specify ``rangeKeyField``, the default value is ``'STRING'``.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_alarm_model#range_key_type IoteventsAlarmModel#range_key_type}
@@ -1047,7 +1047,7 @@ export class IoteventsAlarmModelAlarmEventActionsAlarmActionsDynamoDbOutputRefer
   }
 
   // hash_key_field - computed: true, optional: true, required: false
-  private _hashKeyField?: string;
+  private _hashKeyField?: string; 
   public get hashKeyField() {
     return this.getStringAttribute('hash_key_field');
   }
@@ -1063,7 +1063,7 @@ export class IoteventsAlarmModelAlarmEventActionsAlarmActionsDynamoDbOutputRefer
   }
 
   // hash_key_type - computed: true, optional: true, required: false
-  private _hashKeyType?: string;
+  private _hashKeyType?: string; 
   public get hashKeyType() {
     return this.getStringAttribute('hash_key_type');
   }
@@ -1079,7 +1079,7 @@ export class IoteventsAlarmModelAlarmEventActionsAlarmActionsDynamoDbOutputRefer
   }
 
   // hash_key_value - computed: true, optional: true, required: false
-  private _hashKeyValue?: string;
+  private _hashKeyValue?: string; 
   public get hashKeyValue() {
     return this.getStringAttribute('hash_key_value');
   }
@@ -1095,7 +1095,7 @@ export class IoteventsAlarmModelAlarmEventActionsAlarmActionsDynamoDbOutputRefer
   }
 
   // operation - computed: true, optional: true, required: false
-  private _operation?: string;
+  private _operation?: string; 
   public get operation() {
     return this.getStringAttribute('operation');
   }
@@ -1127,7 +1127,7 @@ export class IoteventsAlarmModelAlarmEventActionsAlarmActionsDynamoDbOutputRefer
   }
 
   // payload_field - computed: true, optional: true, required: false
-  private _payloadField?: string;
+  private _payloadField?: string; 
   public get payloadField() {
     return this.getStringAttribute('payload_field');
   }
@@ -1143,7 +1143,7 @@ export class IoteventsAlarmModelAlarmEventActionsAlarmActionsDynamoDbOutputRefer
   }
 
   // range_key_field - computed: true, optional: true, required: false
-  private _rangeKeyField?: string;
+  private _rangeKeyField?: string; 
   public get rangeKeyField() {
     return this.getStringAttribute('range_key_field');
   }
@@ -1159,7 +1159,7 @@ export class IoteventsAlarmModelAlarmEventActionsAlarmActionsDynamoDbOutputRefer
   }
 
   // range_key_type - computed: true, optional: true, required: false
-  private _rangeKeyType?: string;
+  private _rangeKeyType?: string; 
   public get rangeKeyType() {
     return this.getStringAttribute('range_key_type');
   }
@@ -1175,7 +1175,7 @@ export class IoteventsAlarmModelAlarmEventActionsAlarmActionsDynamoDbOutputRefer
   }
 
   // range_key_value - computed: true, optional: true, required: false
-  private _rangeKeyValue?: string;
+  private _rangeKeyValue?: string; 
   public get rangeKeyValue() {
     return this.getStringAttribute('range_key_value');
   }
@@ -1191,7 +1191,7 @@ export class IoteventsAlarmModelAlarmEventActionsAlarmActionsDynamoDbOutputRefer
   }
 
   // table_name - computed: true, optional: true, required: false
-  private _tableName?: string;
+  private _tableName?: string; 
   public get tableName() {
     return this.getStringAttribute('table_name');
   }
@@ -1306,7 +1306,7 @@ export class IoteventsAlarmModelAlarmEventActionsAlarmActionsFirehosePayloadOutp
   }
 
   // content_expression - computed: true, optional: true, required: false
-  private _contentExpression?: string;
+  private _contentExpression?: string; 
   public get contentExpression() {
     return this.getStringAttribute('content_expression');
   }
@@ -1322,7 +1322,7 @@ export class IoteventsAlarmModelAlarmEventActionsAlarmActionsFirehosePayloadOutp
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -1456,7 +1456,7 @@ export class IoteventsAlarmModelAlarmEventActionsAlarmActionsFirehoseOutputRefer
   }
 
   // delivery_stream_name - computed: true, optional: true, required: false
-  private _deliveryStreamName?: string;
+  private _deliveryStreamName?: string; 
   public get deliveryStreamName() {
     return this.getStringAttribute('delivery_stream_name');
   }
@@ -1488,7 +1488,7 @@ export class IoteventsAlarmModelAlarmEventActionsAlarmActionsFirehoseOutputRefer
   }
 
   // separator - computed: true, optional: true, required: false
-  private _separator?: string;
+  private _separator?: string; 
   public get separator() {
     return this.getStringAttribute('separator');
   }
@@ -1603,7 +1603,7 @@ export class IoteventsAlarmModelAlarmEventActionsAlarmActionsIotEventsPayloadOut
   }
 
   // content_expression - computed: true, optional: true, required: false
-  private _contentExpression?: string;
+  private _contentExpression?: string; 
   public get contentExpression() {
     return this.getStringAttribute('content_expression');
   }
@@ -1619,7 +1619,7 @@ export class IoteventsAlarmModelAlarmEventActionsAlarmActionsIotEventsPayloadOut
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -1734,7 +1734,7 @@ export class IoteventsAlarmModelAlarmEventActionsAlarmActionsIotEventsOutputRefe
   }
 
   // input_name - computed: true, optional: true, required: false
-  private _inputName?: string;
+  private _inputName?: string; 
   public get inputName() {
     return this.getStringAttribute('input_name');
   }
@@ -1865,7 +1865,7 @@ export class IoteventsAlarmModelAlarmEventActionsAlarmActionsIotSiteWiseProperty
   }
 
   // offset_in_nanos - computed: true, optional: true, required: false
-  private _offsetInNanos?: string;
+  private _offsetInNanos?: string; 
   public get offsetInNanos() {
     return this.getStringAttribute('offset_in_nanos');
   }
@@ -1881,7 +1881,7 @@ export class IoteventsAlarmModelAlarmEventActionsAlarmActionsIotSiteWiseProperty
   }
 
   // time_in_seconds - computed: true, optional: true, required: false
-  private _timeInSeconds?: string;
+  private _timeInSeconds?: string; 
   public get timeInSeconds() {
     return this.getStringAttribute('time_in_seconds');
   }
@@ -2034,7 +2034,7 @@ export class IoteventsAlarmModelAlarmEventActionsAlarmActionsIotSiteWiseProperty
   }
 
   // boolean_value - computed: true, optional: true, required: false
-  private _booleanValue?: string;
+  private _booleanValue?: string; 
   public get booleanValue() {
     return this.getStringAttribute('boolean_value');
   }
@@ -2050,7 +2050,7 @@ export class IoteventsAlarmModelAlarmEventActionsAlarmActionsIotSiteWiseProperty
   }
 
   // double_value - computed: true, optional: true, required: false
-  private _doubleValue?: string;
+  private _doubleValue?: string; 
   public get doubleValue() {
     return this.getStringAttribute('double_value');
   }
@@ -2066,7 +2066,7 @@ export class IoteventsAlarmModelAlarmEventActionsAlarmActionsIotSiteWiseProperty
   }
 
   // integer_value - computed: true, optional: true, required: false
-  private _integerValue?: string;
+  private _integerValue?: string; 
   public get integerValue() {
     return this.getStringAttribute('integer_value');
   }
@@ -2082,7 +2082,7 @@ export class IoteventsAlarmModelAlarmEventActionsAlarmActionsIotSiteWiseProperty
   }
 
   // string_value - computed: true, optional: true, required: false
-  private _stringValue?: string;
+  private _stringValue?: string; 
   public get stringValue() {
     return this.getStringAttribute('string_value');
   }
@@ -2216,7 +2216,7 @@ export class IoteventsAlarmModelAlarmEventActionsAlarmActionsIotSiteWiseProperty
   }
 
   // quality - computed: true, optional: true, required: false
-  private _quality?: string;
+  private _quality?: string; 
   public get quality() {
     return this.getStringAttribute('quality');
   }
@@ -2420,7 +2420,7 @@ export class IoteventsAlarmModelAlarmEventActionsAlarmActionsIotSiteWiseOutputRe
   }
 
   // asset_id - computed: true, optional: true, required: false
-  private _assetId?: string;
+  private _assetId?: string; 
   public get assetId() {
     return this.getStringAttribute('asset_id');
   }
@@ -2436,7 +2436,7 @@ export class IoteventsAlarmModelAlarmEventActionsAlarmActionsIotSiteWiseOutputRe
   }
 
   // entry_id - computed: true, optional: true, required: false
-  private _entryId?: string;
+  private _entryId?: string; 
   public get entryId() {
     return this.getStringAttribute('entry_id');
   }
@@ -2452,7 +2452,7 @@ export class IoteventsAlarmModelAlarmEventActionsAlarmActionsIotSiteWiseOutputRe
   }
 
   // property_alias - computed: true, optional: true, required: false
-  private _propertyAlias?: string;
+  private _propertyAlias?: string; 
   public get propertyAlias() {
     return this.getStringAttribute('property_alias');
   }
@@ -2468,7 +2468,7 @@ export class IoteventsAlarmModelAlarmEventActionsAlarmActionsIotSiteWiseOutputRe
   }
 
   // property_id - computed: true, optional: true, required: false
-  private _propertyId?: string;
+  private _propertyId?: string; 
   public get propertyId() {
     return this.getStringAttribute('property_id');
   }
@@ -2599,7 +2599,7 @@ export class IoteventsAlarmModelAlarmEventActionsAlarmActionsIotTopicPublishPayl
   }
 
   // content_expression - computed: true, optional: true, required: false
-  private _contentExpression?: string;
+  private _contentExpression?: string; 
   public get contentExpression() {
     return this.getStringAttribute('content_expression');
   }
@@ -2615,7 +2615,7 @@ export class IoteventsAlarmModelAlarmEventActionsAlarmActionsIotTopicPublishPayl
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -2730,7 +2730,7 @@ export class IoteventsAlarmModelAlarmEventActionsAlarmActionsIotTopicPublishOutp
   }
 
   // mqtt_topic - computed: true, optional: true, required: false
-  private _mqttTopic?: string;
+  private _mqttTopic?: string; 
   public get mqttTopic() {
     return this.getStringAttribute('mqtt_topic');
   }
@@ -2861,7 +2861,7 @@ export class IoteventsAlarmModelAlarmEventActionsAlarmActionsLambdaPayloadOutput
   }
 
   // content_expression - computed: true, optional: true, required: false
-  private _contentExpression?: string;
+  private _contentExpression?: string; 
   public get contentExpression() {
     return this.getStringAttribute('content_expression');
   }
@@ -2877,7 +2877,7 @@ export class IoteventsAlarmModelAlarmEventActionsAlarmActionsLambdaPayloadOutput
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -2992,7 +2992,7 @@ export class IoteventsAlarmModelAlarmEventActionsAlarmActionsLambdaOutputReferen
   }
 
   // function_arn - computed: true, optional: true, required: false
-  private _functionArn?: string;
+  private _functionArn?: string; 
   public get functionArn() {
     return this.getStringAttribute('function_arn');
   }
@@ -3123,7 +3123,7 @@ export class IoteventsAlarmModelAlarmEventActionsAlarmActionsSnsPayloadOutputRef
   }
 
   // content_expression - computed: true, optional: true, required: false
-  private _contentExpression?: string;
+  private _contentExpression?: string; 
   public get contentExpression() {
     return this.getStringAttribute('content_expression');
   }
@@ -3139,7 +3139,7 @@ export class IoteventsAlarmModelAlarmEventActionsAlarmActionsSnsPayloadOutputRef
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -3270,7 +3270,7 @@ export class IoteventsAlarmModelAlarmEventActionsAlarmActionsSnsOutputReference 
   }
 
   // target_arn - computed: true, optional: true, required: false
-  private _targetArn?: string;
+  private _targetArn?: string; 
   public get targetArn() {
     return this.getStringAttribute('target_arn');
   }
@@ -3385,7 +3385,7 @@ export class IoteventsAlarmModelAlarmEventActionsAlarmActionsSqsPayloadOutputRef
   }
 
   // content_expression - computed: true, optional: true, required: false
-  private _contentExpression?: string;
+  private _contentExpression?: string; 
   public get contentExpression() {
     return this.getStringAttribute('content_expression');
   }
@@ -3401,7 +3401,7 @@ export class IoteventsAlarmModelAlarmEventActionsAlarmActionsSqsPayloadOutputRef
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -3551,7 +3551,7 @@ export class IoteventsAlarmModelAlarmEventActionsAlarmActionsSqsOutputReference 
   }
 
   // queue_url - computed: true, optional: true, required: false
-  private _queueUrl?: string;
+  private _queueUrl?: string; 
   public get queueUrl() {
     return this.getStringAttribute('queue_url');
   }
@@ -3567,7 +3567,7 @@ export class IoteventsAlarmModelAlarmEventActionsAlarmActionsSqsOutputReference 
   }
 
   // use_base_64 - computed: true, optional: true, required: false
-  private _useBase64?: boolean | cdktn.IResolvable;
+  private _useBase64?: boolean | cdktn.IResolvable; 
   public get useBase64() {
     return this.getBooleanAttribute('use_base_64');
   }
@@ -3590,12 +3590,12 @@ export interface IoteventsAlarmModelAlarmEventActionsAlarmActions {
   *  +  For literal values, the expressions must contain single quotes. For example, the value for the ``tableName`` parameter can be ``'GreenhouseTemperatureTable'``.
   *   +  For references, you must specify either variables or input values. For example, the value for the ``tableName`` parameter can be ``$variable.ddbtableName``.
   *   +  For a substitution template, you must use ``${}``, and the template must be in single quotes. A substitution template can also contain a combination of literals, operators, functions, references, and substitution templates.
-  *  In the following example, the value for the ``contentExpression`` parameter in ``Payload`` uses a substitution template.
-  *   ``'{\"sensorID\": \"${$input.GreenhouseInput.sensor_id}\", \"temperature\": \"${$input.GreenhouseInput.temperature * 9 / 5 + 32}\"}'``
+  *  In the following example, the value for the ``contentExpression`` parameter in ``Payload`` uses a substitution template. 
+  *   ``'{\"sensorID\": \"${$input.GreenhouseInput.sensor_id}\", \"temperature\": \"${$input.GreenhouseInput.temperature * 9 / 5 + 32}\"}'`` 
   *   +  For a string concatenation, you must use ``+``. A string concatenation can also contain a combination of literals, operators, functions, references, and substitution templates.
-  *  In the following example, the value for the ``tableName`` parameter uses a string concatenation.
-  *   ``'GreenhouseTemperatureTable ' + $input.GreenhouseInput.date``
-  *
+  *  In the following example, the value for the ``tableName`` parameter uses a string concatenation. 
+  *   ``'GreenhouseTemperatureTable ' + $input.GreenhouseInput.date`` 
+  *   
   *  For more information, see [Expressions](https://docs.aws.amazon.com/iotevents/latest/developerguide/iotevents-expressions.html) in the *Developer Guide*.
   *  The value for the ``type`` parameter in ``Payload`` must be ``JSON``.
   *
@@ -3609,12 +3609,12 @@ export interface IoteventsAlarmModelAlarmEventActionsAlarmActions {
   *  +  For literal values, the expressions must contain single quotes. For example, the value for the ``hashKeyType`` parameter can be ``'STRING'``.
   *   +  For references, you must specify either variables or input values. For example, the value for the ``hashKeyField`` parameter can be ``$input.GreenhouseInput.name``.
   *   +  For a substitution template, you must use ``${}``, and the template must be in single quotes. A substitution template can also contain a combination of literals, operators, functions, references, and substitution templates.
-  *  In the following example, the value for the ``hashKeyValue`` parameter uses a substitution template.
-  *   ``'${$input.GreenhouseInput.temperature * 6 / 5 + 32} in Fahrenheit'``
+  *  In the following example, the value for the ``hashKeyValue`` parameter uses a substitution template. 
+  *   ``'${$input.GreenhouseInput.temperature * 6 / 5 + 32} in Fahrenheit'`` 
   *   +  For a string concatenation, you must use ``+``. A string concatenation can also contain a combination of literals, operators, functions, references, and substitution templates.
-  *  In the following example, the value for the ``tableName`` parameter uses a string concatenation.
-  *   ``'GreenhouseTemperatureTable ' + $input.GreenhouseInput.date``
-  *
+  *  In the following example, the value for the ``tableName`` parameter uses a string concatenation. 
+  *   ``'GreenhouseTemperatureTable ' + $input.GreenhouseInput.date`` 
+  *   
   *  For more information, see [Expressions](https://docs.aws.amazon.com/iotevents/latest/developerguide/iotevents-expressions.html) in the *Developer Guide*.
   *  If the defined payload type is a string, ``DynamoDBAction`` writes non-JSON data to the DynamoDB table as binary data. The DynamoDB console displays the data as Base64-encoded text. The value for the ``payloadField`` parameter is ``<payload-field>_raw``.
   *
@@ -3640,9 +3640,9 @@ export interface IoteventsAlarmModelAlarmEventActionsAlarmActions {
   *  +  For literal values, the expressions must contain single quotes. For example, the value for the ``propertyAlias`` parameter can be ``'/company/windfarm/3/turbine/7/temperature'``.
   *   +  For references, you must specify either variables or input values. For example, the value for the ``assetId`` parameter can be ``$input.TurbineInput.assetId1``.
   *   +  For a substitution template, you must use ``${}``, and the template must be in single quotes. A substitution template can also contain a combination of literals, operators, functions, references, and substitution templates.
-  *  In the following example, the value for the ``propertyAlias`` parameter uses a substitution template.
-  *   ``'company/windfarm/${$input.TemperatureInput.sensorData.windfarmID}/turbine/ ${$input.TemperatureInput.sensorData.turbineID}/temperature'``
-  *
+  *  In the following example, the value for the ``propertyAlias`` parameter uses a substitution template. 
+  *   ``'company/windfarm/${$input.TemperatureInput.sensorData.windfarmID}/turbine/ ${$input.TemperatureInput.sensorData.turbineID}/temperature'`` 
+  *   
   *  You must specify either ``propertyAlias`` or both ``assetId`` and ``propertyId`` to identify the target asset property in ITSW.
   *  For more information, see [Expressions](https://docs.aws.amazon.com/iotevents/latest/developerguide/iotevents-expressions.html) in the *Developer Guide*.
   *
@@ -4231,7 +4231,7 @@ export class IoteventsAlarmModelAlarmRuleSimpleRuleOutputReference extends cdktn
   }
 
   // comparison_operator - computed: true, optional: true, required: false
-  private _comparisonOperator?: string;
+  private _comparisonOperator?: string; 
   public get comparisonOperator() {
     return this.getStringAttribute('comparison_operator');
   }
@@ -4247,7 +4247,7 @@ export class IoteventsAlarmModelAlarmRuleSimpleRuleOutputReference extends cdktn
   }
 
   // input_property - computed: true, optional: true, required: false
-  private _inputProperty?: string;
+  private _inputProperty?: string; 
   public get inputProperty() {
     return this.getStringAttribute('input_property');
   }
@@ -4263,7 +4263,7 @@ export class IoteventsAlarmModelAlarmRuleSimpleRuleOutputReference extends cdktn
   }
 
   // threshold - computed: true, optional: true, required: false
-  private _threshold?: string;
+  private _threshold?: string; 
   public get threshold() {
     return this.getStringAttribute('threshold');
   }
@@ -4476,7 +4476,7 @@ export class IoteventsAlarmModelTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -4492,7 +4492,7 @@ export class IoteventsAlarmModelTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -4626,7 +4626,7 @@ export class IoteventsAlarmModel extends cdktn.TerraformResource {
   }
 
   // alarm_model_description - computed: true, optional: true, required: false
-  private _alarmModelDescription?: string;
+  private _alarmModelDescription?: string; 
   public get alarmModelDescription() {
     return this.getStringAttribute('alarm_model_description');
   }
@@ -4642,7 +4642,7 @@ export class IoteventsAlarmModel extends cdktn.TerraformResource {
   }
 
   // alarm_model_name - computed: true, optional: true, required: false
-  private _alarmModelName?: string;
+  private _alarmModelName?: string; 
   public get alarmModelName() {
     return this.getStringAttribute('alarm_model_name');
   }
@@ -4676,7 +4676,7 @@ export class IoteventsAlarmModel extends cdktn.TerraformResource {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -4692,7 +4692,7 @@ export class IoteventsAlarmModel extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -4705,7 +4705,7 @@ export class IoteventsAlarmModel extends cdktn.TerraformResource {
   }
 
   // severity - computed: true, optional: true, required: false
-  private _severity?: number;
+  private _severity?: number; 
   public get severity() {
     return this.getNumberAttribute('severity');
   }

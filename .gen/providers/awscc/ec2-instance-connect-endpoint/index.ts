@@ -315,7 +315,7 @@ export class Ec2InstanceConnectEndpointTagsOutputReference extends cdktn.Complex
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -331,7 +331,7 @@ export class Ec2InstanceConnectEndpointTagsOutputReference extends cdktn.Complex
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -439,7 +439,7 @@ export class Ec2InstanceConnectEndpoint extends cdktn.TerraformResource {
   }
 
   // client_token - computed: true, optional: true, required: false
-  private _clientToken?: string;
+  private _clientToken?: string; 
   public get clientToken() {
     return this.getStringAttribute('client_token');
   }
@@ -485,7 +485,7 @@ export class Ec2InstanceConnectEndpoint extends cdktn.TerraformResource {
   }
 
   // preserve_client_ip - computed: true, optional: true, required: false
-  private _preserveClientIp?: boolean | cdktn.IResolvable;
+  private _preserveClientIp?: boolean | cdktn.IResolvable; 
   public get preserveClientIp() {
     return this.getBooleanAttribute('preserve_client_ip');
   }
@@ -507,7 +507,7 @@ export class Ec2InstanceConnectEndpoint extends cdktn.TerraformResource {
   }
 
   // security_group_ids - computed: true, optional: true, required: false
-  private _securityGroupIds?: string[];
+  private _securityGroupIds?: string[]; 
   public get securityGroupIds() {
     return cdktn.Fn.tolist(this.getListAttribute('security_group_ids'));
   }
@@ -533,7 +533,7 @@ export class Ec2InstanceConnectEndpoint extends cdktn.TerraformResource {
   }
 
   // subnet_id - computed: false, optional: false, required: true
-  private _subnetId?: string;
+  private _subnetId?: string; 
   public get subnetId() {
     return this.getStringAttribute('subnet_id');
   }

@@ -158,7 +158,7 @@ export class IotwirelessWirelessDeviceLoRaWanAbpV10XSessionKeysOutputReference e
   }
 
   // app_s_key - computed: true, optional: true, required: false
-  private _appSKey?: string;
+  private _appSKey?: string; 
   public get appSKey() {
     return this.getStringAttribute('app_s_key');
   }
@@ -174,7 +174,7 @@ export class IotwirelessWirelessDeviceLoRaWanAbpV10XSessionKeysOutputReference e
   }
 
   // nwk_s_key - computed: true, optional: true, required: false
-  private _nwkSKey?: string;
+  private _nwkSKey?: string; 
   public get nwkSKey() {
     return this.getStringAttribute('nwk_s_key');
   }
@@ -285,7 +285,7 @@ export class IotwirelessWirelessDeviceLoRaWanAbpV10XOutputReference extends cdkt
   }
 
   // dev_addr - computed: true, optional: true, required: false
-  private _devAddr?: string;
+  private _devAddr?: string; 
   public get devAddr() {
     return this.getStringAttribute('dev_addr');
   }
@@ -446,7 +446,7 @@ export class IotwirelessWirelessDeviceLoRaWanAbpV11SessionKeysOutputReference ex
   }
 
   // app_s_key - computed: true, optional: true, required: false
-  private _appSKey?: string;
+  private _appSKey?: string; 
   public get appSKey() {
     return this.getStringAttribute('app_s_key');
   }
@@ -462,7 +462,7 @@ export class IotwirelessWirelessDeviceLoRaWanAbpV11SessionKeysOutputReference ex
   }
 
   // f_nwk_s_int_key - computed: true, optional: true, required: false
-  private _fNwkSIntKey?: string;
+  private _fNwkSIntKey?: string; 
   public get fNwkSIntKey() {
     return this.getStringAttribute('f_nwk_s_int_key');
   }
@@ -478,7 +478,7 @@ export class IotwirelessWirelessDeviceLoRaWanAbpV11SessionKeysOutputReference ex
   }
 
   // nwk_s_enc_key - computed: true, optional: true, required: false
-  private _nwkSEncKey?: string;
+  private _nwkSEncKey?: string; 
   public get nwkSEncKey() {
     return this.getStringAttribute('nwk_s_enc_key');
   }
@@ -494,7 +494,7 @@ export class IotwirelessWirelessDeviceLoRaWanAbpV11SessionKeysOutputReference ex
   }
 
   // s_nwk_s_int_key - computed: true, optional: true, required: false
-  private _sNwkSIntKey?: string;
+  private _sNwkSIntKey?: string; 
   public get sNwkSIntKey() {
     return this.getStringAttribute('s_nwk_s_int_key');
   }
@@ -605,7 +605,7 @@ export class IotwirelessWirelessDeviceLoRaWanAbpV11OutputReference extends cdktn
   }
 
   // dev_addr - computed: true, optional: true, required: false
-  private _devAddr?: string;
+  private _devAddr?: string; 
   public get devAddr() {
     return this.getStringAttribute('dev_addr');
   }
@@ -757,7 +757,7 @@ export class IotwirelessWirelessDeviceLoRaWanFPortsApplicationsOutputReference e
   }
 
   // destination_name - computed: true, optional: true, required: false
-  private _destinationName?: string;
+  private _destinationName?: string; 
   public get destinationName() {
     return this.getStringAttribute('destination_name');
   }
@@ -773,7 +773,7 @@ export class IotwirelessWirelessDeviceLoRaWanFPortsApplicationsOutputReference e
   }
 
   // f_port - computed: true, optional: true, required: false
-  private _fPort?: number;
+  private _fPort?: number; 
   public get fPort() {
     return this.getNumberAttribute('f_port');
   }
@@ -789,7 +789,7 @@ export class IotwirelessWirelessDeviceLoRaWanFPortsApplicationsOutputReference e
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -1016,7 +1016,7 @@ export class IotwirelessWirelessDeviceLoRaWanOtaaV10XOutputReference extends cdk
   }
 
   // app_eui - computed: true, optional: true, required: false
-  private _appEui?: string;
+  private _appEui?: string; 
   public get appEui() {
     return this.getStringAttribute('app_eui');
   }
@@ -1032,7 +1032,7 @@ export class IotwirelessWirelessDeviceLoRaWanOtaaV10XOutputReference extends cdk
   }
 
   // app_key - computed: true, optional: true, required: false
-  private _appKey?: string;
+  private _appKey?: string; 
   public get appKey() {
     return this.getStringAttribute('app_key');
   }
@@ -1160,7 +1160,7 @@ export class IotwirelessWirelessDeviceLoRaWanOtaaV11OutputReference extends cdkt
   }
 
   // app_key - computed: true, optional: true, required: false
-  private _appKey?: string;
+  private _appKey?: string; 
   public get appKey() {
     return this.getStringAttribute('app_key');
   }
@@ -1176,7 +1176,7 @@ export class IotwirelessWirelessDeviceLoRaWanOtaaV11OutputReference extends cdkt
   }
 
   // join_eui - computed: true, optional: true, required: false
-  private _joinEui?: string;
+  private _joinEui?: string; 
   public get joinEui() {
     return this.getStringAttribute('join_eui');
   }
@@ -1192,7 +1192,7 @@ export class IotwirelessWirelessDeviceLoRaWanOtaaV11OutputReference extends cdkt
   }
 
   // nwk_key - computed: true, optional: true, required: false
-  private _nwkKey?: string;
+  private _nwkKey?: string; 
   public get nwkKey() {
     return this.getStringAttribute('nwk_key');
   }
@@ -1437,7 +1437,7 @@ export class IotwirelessWirelessDeviceLoRaWanOutputReference extends cdktn.Compl
   }
 
   // dev_eui - computed: true, optional: true, required: false
-  private _devEui?: string;
+  private _devEui?: string; 
   public get devEui() {
     return this.getStringAttribute('dev_eui');
   }
@@ -1453,7 +1453,7 @@ export class IotwirelessWirelessDeviceLoRaWanOutputReference extends cdktn.Compl
   }
 
   // device_profile_id - computed: true, optional: true, required: false
-  private _deviceProfileId?: string;
+  private _deviceProfileId?: string; 
   public get deviceProfileId() {
     return this.getStringAttribute('device_profile_id');
   }
@@ -1517,7 +1517,7 @@ export class IotwirelessWirelessDeviceLoRaWanOutputReference extends cdktn.Compl
   }
 
   // service_profile_id - computed: true, optional: true, required: false
-  private _serviceProfileId?: string;
+  private _serviceProfileId?: string; 
   public get serviceProfileId() {
     return this.getStringAttribute('service_profile_id');
   }
@@ -1630,7 +1630,7 @@ export class IotwirelessWirelessDeviceTagsOutputReference extends cdktn.ComplexO
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1646,7 +1646,7 @@ export class IotwirelessWirelessDeviceTagsOutputReference extends cdktn.ComplexO
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1753,7 +1753,7 @@ export class IotwirelessWirelessDevice extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1769,7 +1769,7 @@ export class IotwirelessWirelessDevice extends cdktn.TerraformResource {
   }
 
   // destination_name - computed: false, optional: false, required: true
-  private _destinationName?: string;
+  private _destinationName?: string; 
   public get destinationName() {
     return this.getStringAttribute('destination_name');
   }
@@ -1787,7 +1787,7 @@ export class IotwirelessWirelessDevice extends cdktn.TerraformResource {
   }
 
   // last_uplink_received_at - computed: true, optional: true, required: false
-  private _lastUplinkReceivedAt?: string;
+  private _lastUplinkReceivedAt?: string; 
   public get lastUplinkReceivedAt() {
     return this.getStringAttribute('last_uplink_received_at');
   }
@@ -1819,7 +1819,7 @@ export class IotwirelessWirelessDevice extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1835,7 +1835,7 @@ export class IotwirelessWirelessDevice extends cdktn.TerraformResource {
   }
 
   // positioning - computed: true, optional: true, required: false
-  private _positioning?: string;
+  private _positioning?: string; 
   public get positioning() {
     return this.getStringAttribute('positioning');
   }
@@ -1867,7 +1867,7 @@ export class IotwirelessWirelessDevice extends cdktn.TerraformResource {
   }
 
   // thing_arn - computed: true, optional: true, required: false
-  private _thingArn?: string;
+  private _thingArn?: string; 
   public get thingArn() {
     return this.getStringAttribute('thing_arn');
   }
@@ -1888,7 +1888,7 @@ export class IotwirelessWirelessDevice extends cdktn.TerraformResource {
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }

@@ -131,7 +131,7 @@ export class Ec2IpamDefaultResourceDiscoveryOrganizationalUnitExclusionsOutputRe
   }
 
   // organizations_entity_path - computed: true, optional: true, required: false
-  private _organizationsEntityPath?: string;
+  private _organizationsEntityPath?: string; 
   public get organizationsEntityPath() {
     return this.getStringAttribute('organizations_entity_path');
   }
@@ -249,7 +249,7 @@ export class Ec2IpamOperatingRegionsOutputReference extends cdktn.ComplexObject 
   }
 
   // region_name - computed: true, optional: true, required: false
-  private _regionName?: string;
+  private _regionName?: string; 
   public get regionName() {
     return this.getStringAttribute('region_name');
   }
@@ -386,7 +386,7 @@ export class Ec2IpamTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -402,7 +402,7 @@ export class Ec2IpamTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -533,7 +533,7 @@ export class Ec2Ipam extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -549,7 +549,7 @@ export class Ec2Ipam extends cdktn.TerraformResource {
   }
 
   // enable_private_gua - computed: true, optional: true, required: false
-  private _enablePrivateGua?: boolean | cdktn.IResolvable;
+  private _enablePrivateGua?: boolean | cdktn.IResolvable; 
   public get enablePrivateGua() {
     return this.getBooleanAttribute('enable_private_gua');
   }
@@ -575,7 +575,7 @@ export class Ec2Ipam extends cdktn.TerraformResource {
   }
 
   // metered_account - computed: true, optional: true, required: false
-  private _meteredAccount?: string;
+  private _meteredAccount?: string; 
   public get meteredAccount() {
     return this.getStringAttribute('metered_account');
   }
@@ -643,7 +643,7 @@ export class Ec2Ipam extends cdktn.TerraformResource {
   }
 
   // tier - computed: true, optional: true, required: false
-  private _tier?: string;
+  private _tier?: string; 
   public get tier() {
     return this.getStringAttribute('tier');
   }

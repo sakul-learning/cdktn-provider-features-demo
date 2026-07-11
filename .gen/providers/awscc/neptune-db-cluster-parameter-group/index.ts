@@ -140,7 +140,7 @@ export class NeptuneDbClusterParameterGroupTagsOutputReference extends cdktn.Com
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -156,7 +156,7 @@ export class NeptuneDbClusterParameterGroupTagsOutputReference extends cdktn.Com
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -254,7 +254,7 @@ export class NeptuneDbClusterParameterGroup extends cdktn.TerraformResource {
   // ==========
 
   // description - computed: false, optional: false, required: true
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -267,7 +267,7 @@ export class NeptuneDbClusterParameterGroup extends cdktn.TerraformResource {
   }
 
   // family - computed: false, optional: false, required: true
-  private _family?: string;
+  private _family?: string; 
   public get family() {
     return this.getStringAttribute('family');
   }
@@ -285,7 +285,7 @@ export class NeptuneDbClusterParameterGroup extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -301,7 +301,7 @@ export class NeptuneDbClusterParameterGroup extends cdktn.TerraformResource {
   }
 
   // parameters - computed: false, optional: false, required: true
-  private _parameters?: string;
+  private _parameters?: string; 
   public get parameters() {
     return this.getStringAttribute('parameters');
   }

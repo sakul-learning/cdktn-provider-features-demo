@@ -124,7 +124,7 @@ export class ShieldDrtAccessLogBucketAssociationTimeoutsOutputReference extends 
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -140,7 +140,7 @@ export class ShieldDrtAccessLogBucketAssociationTimeoutsOutputReference extends 
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -221,7 +221,7 @@ export class ShieldDrtAccessLogBucketAssociation extends cdktn.TerraformResource
   }
 
   // log_bucket - computed: false, optional: false, required: true
-  private _logBucket?: string;
+  private _logBucket?: string; 
   public get logBucket() {
     return this.getStringAttribute('log_bucket');
   }
@@ -234,7 +234,7 @@ export class ShieldDrtAccessLogBucketAssociation extends cdktn.TerraformResource
   }
 
   // role_arn_association_id - computed: false, optional: false, required: true
-  private _roleArnAssociationId?: string;
+  private _roleArnAssociationId?: string; 
   public get roleArnAssociationId() {
     return this.getStringAttribute('role_arn_association_id');
   }

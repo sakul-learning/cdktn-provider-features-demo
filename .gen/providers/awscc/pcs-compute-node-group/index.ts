@@ -180,7 +180,7 @@ export class PcsComputeNodeGroupCustomLaunchTemplateOutputReference extends cdkt
   }
 
   // template_id - computed: true, optional: true, required: false
-  private _templateId?: string;
+  private _templateId?: string; 
   public get templateId() {
     return this.getStringAttribute('template_id');
   }
@@ -196,7 +196,7 @@ export class PcsComputeNodeGroupCustomLaunchTemplateOutputReference extends cdkt
   }
 
   // version - computed: false, optional: false, required: true
-  private _version?: string;
+  private _version?: string; 
   public get version() {
     return this.getStringAttribute('version');
   }
@@ -371,7 +371,7 @@ export class PcsComputeNodeGroupInstanceConfigsOutputReference extends cdktn.Com
   }
 
   // instance_type - computed: true, optional: true, required: false
-  private _instanceType?: string;
+  private _instanceType?: string; 
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -506,7 +506,7 @@ export class PcsComputeNodeGroupScalingConfigurationOutputReference extends cdkt
   }
 
   // max_instance_count - computed: false, optional: false, required: true
-  private _maxInstanceCount?: number;
+  private _maxInstanceCount?: number; 
   public get maxInstanceCount() {
     return this.getNumberAttribute('max_instance_count');
   }
@@ -519,7 +519,7 @@ export class PcsComputeNodeGroupScalingConfigurationOutputReference extends cdkt
   }
 
   // min_instance_count - computed: false, optional: false, required: true
-  private _minInstanceCount?: number;
+  private _minInstanceCount?: number; 
   public get minInstanceCount() {
     return this.getNumberAttribute('min_instance_count');
   }
@@ -633,7 +633,7 @@ export class PcsComputeNodeGroupSlurmConfigurationSlurmCustomSettingsOutputRefer
   }
 
   // parameter_name - computed: true, optional: true, required: false
-  private _parameterName?: string;
+  private _parameterName?: string; 
   public get parameterName() {
     return this.getStringAttribute('parameter_name');
   }
@@ -649,7 +649,7 @@ export class PcsComputeNodeGroupSlurmConfigurationSlurmCustomSettingsOutputRefer
   }
 
   // parameter_value - computed: true, optional: true, required: false
-  private _parameterValue?: string;
+  private _parameterValue?: string; 
   public get parameterValue() {
     return this.getStringAttribute('parameter_value');
   }
@@ -784,7 +784,7 @@ export class PcsComputeNodeGroupSlurmConfigurationOutputReference extends cdktn.
   }
 
   // scale_down_idle_time_in_seconds - computed: true, optional: true, required: false
-  private _scaleDownIdleTimeInSeconds?: number;
+  private _scaleDownIdleTimeInSeconds?: number; 
   public get scaleDownIdleTimeInSeconds() {
     return this.getNumberAttribute('scale_down_idle_time_in_seconds');
   }
@@ -896,7 +896,7 @@ export class PcsComputeNodeGroupSpotOptionsOutputReference extends cdktn.Complex
   }
 
   // allocation_strategy - computed: true, optional: true, required: false
-  private _allocationStrategy?: string;
+  private _allocationStrategy?: string; 
   public get allocationStrategy() {
     return this.getStringAttribute('allocation_strategy');
   }
@@ -981,7 +981,7 @@ export class PcsComputeNodeGroup extends cdktn.TerraformResource {
   // ==========
 
   // ami_id - computed: true, optional: true, required: false
-  private _amiId?: string;
+  private _amiId?: string; 
   public get amiId() {
     return this.getStringAttribute('ami_id');
   }
@@ -1002,7 +1002,7 @@ export class PcsComputeNodeGroup extends cdktn.TerraformResource {
   }
 
   // cluster_id - computed: false, optional: false, required: true
-  private _clusterId?: string;
+  private _clusterId?: string; 
   public get clusterId() {
     return this.getStringAttribute('cluster_id');
   }
@@ -1039,7 +1039,7 @@ export class PcsComputeNodeGroup extends cdktn.TerraformResource {
   }
 
   // iam_instance_profile_arn - computed: false, optional: false, required: true
-  private _iamInstanceProfileArn?: string;
+  private _iamInstanceProfileArn?: string; 
   public get iamInstanceProfileArn() {
     return this.getStringAttribute('iam_instance_profile_arn');
   }
@@ -1070,7 +1070,7 @@ export class PcsComputeNodeGroup extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1086,7 +1086,7 @@ export class PcsComputeNodeGroup extends cdktn.TerraformResource {
   }
 
   // purchase_option - computed: true, optional: true, required: false
-  private _purchaseOption?: string;
+  private _purchaseOption?: string; 
   public get purchaseOption() {
     return this.getStringAttribute('purchase_option');
   }
@@ -1152,7 +1152,7 @@ export class PcsComputeNodeGroup extends cdktn.TerraformResource {
   }
 
   // subnet_ids - computed: false, optional: false, required: true
-  private _subnetIds?: string[];
+  private _subnetIds?: string[]; 
   public get subnetIds() {
     return this.getListAttribute('subnet_ids');
   }
@@ -1165,7 +1165,7 @@ export class PcsComputeNodeGroup extends cdktn.TerraformResource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

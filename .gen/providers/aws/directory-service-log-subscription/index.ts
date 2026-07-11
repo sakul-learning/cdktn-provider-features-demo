@@ -91,7 +91,7 @@ export class DirectoryServiceLogSubscription extends cdktn.TerraformResource {
   // ==========
 
   // directory_id - computed: false, optional: false, required: true
-  private _directoryId?: string;
+  private _directoryId?: string; 
   public get directoryId() {
     return this.getStringAttribute('directory_id');
   }
@@ -104,7 +104,7 @@ export class DirectoryServiceLogSubscription extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -120,7 +120,7 @@ export class DirectoryServiceLogSubscription extends cdktn.TerraformResource {
   }
 
   // log_group_name - computed: false, optional: false, required: true
-  private _logGroupName?: string;
+  private _logGroupName?: string; 
   public get logGroupName() {
     return this.getStringAttribute('log_group_name');
   }
@@ -133,7 +133,7 @@ export class DirectoryServiceLogSubscription extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

@@ -140,7 +140,7 @@ export class Ec2NetworkInsightsPathFilterAtDestinationDestinationPortRangeOutput
   }
 
   // from_port - computed: true, optional: true, required: false
-  private _fromPort?: number;
+  private _fromPort?: number; 
   public get fromPort() {
     return this.getNumberAttribute('from_port');
   }
@@ -156,7 +156,7 @@ export class Ec2NetworkInsightsPathFilterAtDestinationDestinationPortRangeOutput
   }
 
   // to_port - computed: true, optional: true, required: false
-  private _toPort?: number;
+  private _toPort?: number; 
   public get toPort() {
     return this.getNumberAttribute('to_port');
   }
@@ -267,7 +267,7 @@ export class Ec2NetworkInsightsPathFilterAtDestinationSourcePortRangeOutputRefer
   }
 
   // from_port - computed: true, optional: true, required: false
-  private _fromPort?: number;
+  private _fromPort?: number; 
   public get fromPort() {
     return this.getNumberAttribute('from_port');
   }
@@ -283,7 +283,7 @@ export class Ec2NetworkInsightsPathFilterAtDestinationSourcePortRangeOutputRefer
   }
 
   // to_port - computed: true, optional: true, required: false
-  private _toPort?: number;
+  private _toPort?: number; 
   public get toPort() {
     return this.getNumberAttribute('to_port');
   }
@@ -428,7 +428,7 @@ export class Ec2NetworkInsightsPathFilterAtDestinationOutputReference extends cd
   }
 
   // destination_address - computed: true, optional: true, required: false
-  private _destinationAddress?: string;
+  private _destinationAddress?: string; 
   public get destinationAddress() {
     return this.getStringAttribute('destination_address');
   }
@@ -460,7 +460,7 @@ export class Ec2NetworkInsightsPathFilterAtDestinationOutputReference extends cd
   }
 
   // source_address - computed: true, optional: true, required: false
-  private _sourceAddress?: string;
+  private _sourceAddress?: string; 
   public get sourceAddress() {
     return this.getStringAttribute('source_address');
   }
@@ -587,7 +587,7 @@ export class Ec2NetworkInsightsPathFilterAtSourceDestinationPortRangeOutputRefer
   }
 
   // from_port - computed: true, optional: true, required: false
-  private _fromPort?: number;
+  private _fromPort?: number; 
   public get fromPort() {
     return this.getNumberAttribute('from_port');
   }
@@ -603,7 +603,7 @@ export class Ec2NetworkInsightsPathFilterAtSourceDestinationPortRangeOutputRefer
   }
 
   // to_port - computed: true, optional: true, required: false
-  private _toPort?: number;
+  private _toPort?: number; 
   public get toPort() {
     return this.getNumberAttribute('to_port');
   }
@@ -714,7 +714,7 @@ export class Ec2NetworkInsightsPathFilterAtSourceSourcePortRangeOutputReference 
   }
 
   // from_port - computed: true, optional: true, required: false
-  private _fromPort?: number;
+  private _fromPort?: number; 
   public get fromPort() {
     return this.getNumberAttribute('from_port');
   }
@@ -730,7 +730,7 @@ export class Ec2NetworkInsightsPathFilterAtSourceSourcePortRangeOutputReference 
   }
 
   // to_port - computed: true, optional: true, required: false
-  private _toPort?: number;
+  private _toPort?: number; 
   public get toPort() {
     return this.getNumberAttribute('to_port');
   }
@@ -875,7 +875,7 @@ export class Ec2NetworkInsightsPathFilterAtSourceOutputReference extends cdktn.C
   }
 
   // destination_address - computed: true, optional: true, required: false
-  private _destinationAddress?: string;
+  private _destinationAddress?: string; 
   public get destinationAddress() {
     return this.getStringAttribute('destination_address');
   }
@@ -907,7 +907,7 @@ export class Ec2NetworkInsightsPathFilterAtSourceOutputReference extends cdktn.C
   }
 
   // source_address - computed: true, optional: true, required: false
-  private _sourceAddress?: string;
+  private _sourceAddress?: string; 
   public get sourceAddress() {
     return this.getStringAttribute('source_address');
   }
@@ -1036,7 +1036,7 @@ export class Ec2NetworkInsightsPathTagsOutputReference extends cdktn.ComplexObje
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1052,7 +1052,7 @@ export class Ec2NetworkInsightsPathTagsOutputReference extends cdktn.ComplexObje
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1159,7 +1159,7 @@ export class Ec2NetworkInsightsPath extends cdktn.TerraformResource {
   }
 
   // destination - computed: true, optional: true, required: false
-  private _destination?: string;
+  private _destination?: string; 
   public get destination() {
     return this.getStringAttribute('destination');
   }
@@ -1180,7 +1180,7 @@ export class Ec2NetworkInsightsPath extends cdktn.TerraformResource {
   }
 
   // destination_ip - computed: true, optional: true, required: false
-  private _destinationIp?: string;
+  private _destinationIp?: string; 
   public get destinationIp() {
     return this.getStringAttribute('destination_ip');
   }
@@ -1196,7 +1196,7 @@ export class Ec2NetworkInsightsPath extends cdktn.TerraformResource {
   }
 
   // destination_port - computed: true, optional: true, required: false
-  private _destinationPort?: number;
+  private _destinationPort?: number; 
   public get destinationPort() {
     return this.getNumberAttribute('destination_port');
   }
@@ -1259,7 +1259,7 @@ export class Ec2NetworkInsightsPath extends cdktn.TerraformResource {
   }
 
   // protocol - computed: false, optional: false, required: true
-  private _protocol?: string;
+  private _protocol?: string; 
   public get protocol() {
     return this.getStringAttribute('protocol');
   }
@@ -1272,7 +1272,7 @@ export class Ec2NetworkInsightsPath extends cdktn.TerraformResource {
   }
 
   // source - computed: false, optional: false, required: true
-  private _source?: string;
+  private _source?: string; 
   public get source() {
     return this.getStringAttribute('source');
   }
@@ -1290,7 +1290,7 @@ export class Ec2NetworkInsightsPath extends cdktn.TerraformResource {
   }
 
   // source_ip - computed: true, optional: true, required: false
-  private _sourceIp?: string;
+  private _sourceIp?: string; 
   public get sourceIp() {
     return this.getStringAttribute('source_ip');
   }

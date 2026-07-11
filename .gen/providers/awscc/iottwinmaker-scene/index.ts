@@ -120,7 +120,7 @@ export class IottwinmakerScene extends cdktn.TerraformResource {
   }
 
   // capabilities - computed: true, optional: true, required: false
-  private _capabilities?: string[];
+  private _capabilities?: string[]; 
   public get capabilities() {
     return cdktn.Fn.tolist(this.getListAttribute('capabilities'));
   }
@@ -136,7 +136,7 @@ export class IottwinmakerScene extends cdktn.TerraformResource {
   }
 
   // content_location - computed: false, optional: false, required: true
-  private _contentLocation?: string;
+  private _contentLocation?: string; 
   public get contentLocation() {
     return this.getStringAttribute('content_location');
   }
@@ -154,7 +154,7 @@ export class IottwinmakerScene extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -181,7 +181,7 @@ export class IottwinmakerScene extends cdktn.TerraformResource {
   }
 
   // scene_id - computed: false, optional: false, required: true
-  private _sceneId?: string;
+  private _sceneId?: string; 
   public get sceneId() {
     return this.getStringAttribute('scene_id');
   }
@@ -194,7 +194,7 @@ export class IottwinmakerScene extends cdktn.TerraformResource {
   }
 
   // scene_metadata - computed: true, optional: true, required: false
-  private _sceneMetadata?: { [key: string]: string };
+  private _sceneMetadata?: { [key: string]: string }; 
   public get sceneMetadata() {
     return this.getStringMapAttribute('scene_metadata');
   }
@@ -210,7 +210,7 @@ export class IottwinmakerScene extends cdktn.TerraformResource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -231,7 +231,7 @@ export class IottwinmakerScene extends cdktn.TerraformResource {
   }
 
   // workspace_id - computed: false, optional: false, required: true
-  private _workspaceId?: string;
+  private _workspaceId?: string; 
   public get workspaceId() {
     return this.getStringAttribute('workspace_id');
   }

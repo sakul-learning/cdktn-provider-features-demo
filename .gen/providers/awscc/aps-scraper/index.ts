@@ -131,7 +131,7 @@ export class ApsScraperDestinationAmpConfigurationOutputReference extends cdktn.
   }
 
   // workspace_arn - computed: true, optional: true, required: false
-  private _workspaceArn?: string;
+  private _workspaceArn?: string; 
   public get workspaceArn() {
     return this.getStringAttribute('workspace_arn');
   }
@@ -342,7 +342,7 @@ export class ApsScraperRoleConfigurationOutputReference extends cdktn.ComplexObj
   }
 
   // source_role_arn - computed: true, optional: true, required: false
-  private _sourceRoleArn?: string;
+  private _sourceRoleArn?: string; 
   public get sourceRoleArn() {
     return this.getStringAttribute('source_role_arn');
   }
@@ -358,7 +358,7 @@ export class ApsScraperRoleConfigurationOutputReference extends cdktn.ComplexObj
   }
 
   // target_role_arn - computed: true, optional: true, required: false
-  private _targetRoleArn?: string;
+  private _targetRoleArn?: string; 
   public get targetRoleArn() {
     return this.getStringAttribute('target_role_arn');
   }
@@ -454,7 +454,7 @@ export class ApsScraperScrapeConfigurationOutputReference extends cdktn.ComplexO
   }
 
   // configuration_blob - computed: true, optional: true, required: false
-  private _configurationBlob?: string;
+  private _configurationBlob?: string; 
   public get configurationBlob() {
     return this.getStringAttribute('configuration_blob');
   }
@@ -550,7 +550,7 @@ export class ApsScraperScraperLoggingConfigurationLoggingDestinationCloudwatchLo
   }
 
   // log_group_arn - computed: true, optional: true, required: false
-  private _logGroupArn?: string;
+  private _logGroupArn?: string; 
   public get logGroupArn() {
     return this.getStringAttribute('log_group_arn');
   }
@@ -740,7 +740,7 @@ export class ApsScraperScraperLoggingConfigurationScraperComponentsConfigOutputR
   }
 
   // options - computed: true, optional: true, required: false
-  private _options?: { [key: string]: string };
+  private _options?: { [key: string]: string }; 
   public get options() {
     return this.getStringMapAttribute('options');
   }
@@ -871,7 +871,7 @@ export class ApsScraperScraperLoggingConfigurationScraperComponentsOutputReferen
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -1154,7 +1154,7 @@ export class ApsScraperSourceEksConfigurationOutputReference extends cdktn.Compl
   }
 
   // cluster_arn - computed: true, optional: true, required: false
-  private _clusterArn?: string;
+  private _clusterArn?: string; 
   public get clusterArn() {
     return this.getStringAttribute('cluster_arn');
   }
@@ -1170,7 +1170,7 @@ export class ApsScraperSourceEksConfigurationOutputReference extends cdktn.Compl
   }
 
   // security_group_ids - computed: true, optional: true, required: false
-  private _securityGroupIds?: string[];
+  private _securityGroupIds?: string[]; 
   public get securityGroupIds() {
     return this.getListAttribute('security_group_ids');
   }
@@ -1186,7 +1186,7 @@ export class ApsScraperSourceEksConfigurationOutputReference extends cdktn.Compl
   }
 
   // subnet_ids - computed: true, optional: true, required: false
-  private _subnetIds?: string[];
+  private _subnetIds?: string[]; 
   public get subnetIds() {
     return this.getListAttribute('subnet_ids');
   }
@@ -1301,7 +1301,7 @@ export class ApsScraperSourceVpcConfigurationOutputReference extends cdktn.Compl
   }
 
   // security_group_ids - computed: true, optional: true, required: false
-  private _securityGroupIds?: string[];
+  private _securityGroupIds?: string[]; 
   public get securityGroupIds() {
     return this.getListAttribute('security_group_ids');
   }
@@ -1317,7 +1317,7 @@ export class ApsScraperSourceVpcConfigurationOutputReference extends cdktn.Compl
   }
 
   // subnet_ids - computed: true, optional: true, required: false
-  private _subnetIds?: string[];
+  private _subnetIds?: string[]; 
   public get subnetIds() {
     return this.getListAttribute('subnet_ids');
   }
@@ -1565,7 +1565,7 @@ export class ApsScraperTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1581,7 +1581,7 @@ export class ApsScraperTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1681,7 +1681,7 @@ export class ApsScraper extends cdktn.TerraformResource {
   // ==========
 
   // alias - computed: true, optional: true, required: false
-  private _alias?: string;
+  private _alias?: string; 
   public get alias() {
     return this.getStringAttribute('alias');
   }

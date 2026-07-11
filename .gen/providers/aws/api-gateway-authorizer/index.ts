@@ -131,7 +131,7 @@ export class ApiGatewayAuthorizer extends cdktn.TerraformResource {
   }
 
   // authorizer_credentials - computed: false, optional: true, required: false
-  private _authorizerCredentials?: string;
+  private _authorizerCredentials?: string; 
   public get authorizerCredentials() {
     return this.getStringAttribute('authorizer_credentials');
   }
@@ -147,7 +147,7 @@ export class ApiGatewayAuthorizer extends cdktn.TerraformResource {
   }
 
   // authorizer_result_ttl_in_seconds - computed: false, optional: true, required: false
-  private _authorizerResultTtlInSeconds?: number;
+  private _authorizerResultTtlInSeconds?: number; 
   public get authorizerResultTtlInSeconds() {
     return this.getNumberAttribute('authorizer_result_ttl_in_seconds');
   }
@@ -163,7 +163,7 @@ export class ApiGatewayAuthorizer extends cdktn.TerraformResource {
   }
 
   // authorizer_uri - computed: false, optional: true, required: false
-  private _authorizerUri?: string;
+  private _authorizerUri?: string; 
   public get authorizerUri() {
     return this.getStringAttribute('authorizer_uri');
   }
@@ -179,7 +179,7 @@ export class ApiGatewayAuthorizer extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -195,7 +195,7 @@ export class ApiGatewayAuthorizer extends cdktn.TerraformResource {
   }
 
   // identity_source - computed: false, optional: true, required: false
-  private _identitySource?: string;
+  private _identitySource?: string; 
   public get identitySource() {
     return this.getStringAttribute('identity_source');
   }
@@ -211,7 +211,7 @@ export class ApiGatewayAuthorizer extends cdktn.TerraformResource {
   }
 
   // identity_validation_expression - computed: false, optional: true, required: false
-  private _identityValidationExpression?: string;
+  private _identityValidationExpression?: string; 
   public get identityValidationExpression() {
     return this.getStringAttribute('identity_validation_expression');
   }
@@ -227,7 +227,7 @@ export class ApiGatewayAuthorizer extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -240,7 +240,7 @@ export class ApiGatewayAuthorizer extends cdktn.TerraformResource {
   }
 
   // provider_arns - computed: false, optional: true, required: false
-  private _providerArns?: string[];
+  private _providerArns?: string[]; 
   public get providerArns() {
     return cdktn.Fn.tolist(this.getListAttribute('provider_arns'));
   }
@@ -256,7 +256,7 @@ export class ApiGatewayAuthorizer extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -272,7 +272,7 @@ export class ApiGatewayAuthorizer extends cdktn.TerraformResource {
   }
 
   // rest_api_id - computed: false, optional: false, required: true
-  private _restApiId?: string;
+  private _restApiId?: string; 
   public get restApiId() {
     return this.getStringAttribute('rest_api_id');
   }
@@ -285,7 +285,7 @@ export class ApiGatewayAuthorizer extends cdktn.TerraformResource {
   }
 
   // type - computed: false, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }

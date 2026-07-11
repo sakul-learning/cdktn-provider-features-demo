@@ -165,7 +165,7 @@ export class QuicksightDataSourceAlternateDataSourceParametersAmazonElasticsearc
   }
 
   // domain - computed: true, optional: true, required: false
-  private _domain?: string;
+  private _domain?: string; 
   public get domain() {
     return this.getStringAttribute('domain');
   }
@@ -261,7 +261,7 @@ export class QuicksightDataSourceAlternateDataSourceParametersAmazonOpenSearchPa
   }
 
   // domain - computed: true, optional: true, required: false
-  private _domain?: string;
+  private _domain?: string; 
   public get domain() {
     return this.getStringAttribute('domain');
   }
@@ -357,7 +357,7 @@ export class QuicksightDataSourceAlternateDataSourceParametersAthenaParametersId
   }
 
   // enable_identity_propagation - computed: true, optional: true, required: false
-  private _enableIdentityPropagation?: boolean | cdktn.IResolvable;
+  private _enableIdentityPropagation?: boolean | cdktn.IResolvable; 
   public get enableIdentityPropagation() {
     return this.getBooleanAttribute('enable_identity_propagation');
   }
@@ -507,7 +507,7 @@ export class QuicksightDataSourceAlternateDataSourceParametersAthenaParametersOu
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -523,7 +523,7 @@ export class QuicksightDataSourceAlternateDataSourceParametersAthenaParametersOu
   }
 
   // work_group - computed: true, optional: true, required: false
-  private _workGroup?: string;
+  private _workGroup?: string; 
   public get workGroup() {
     return this.getStringAttribute('work_group');
   }
@@ -657,7 +657,7 @@ export class QuicksightDataSourceAlternateDataSourceParametersAuroraParametersOu
   }
 
   // database - computed: true, optional: true, required: false
-  private _database?: string;
+  private _database?: string; 
   public get database() {
     return this.getStringAttribute('database');
   }
@@ -673,7 +673,7 @@ export class QuicksightDataSourceAlternateDataSourceParametersAuroraParametersOu
   }
 
   // host - computed: true, optional: true, required: false
-  private _host?: string;
+  private _host?: string; 
   public get host() {
     return this.getStringAttribute('host');
   }
@@ -689,7 +689,7 @@ export class QuicksightDataSourceAlternateDataSourceParametersAuroraParametersOu
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -823,7 +823,7 @@ export class QuicksightDataSourceAlternateDataSourceParametersAuroraPostgreSqlPa
   }
 
   // database - computed: true, optional: true, required: false
-  private _database?: string;
+  private _database?: string; 
   public get database() {
     return this.getStringAttribute('database');
   }
@@ -839,7 +839,7 @@ export class QuicksightDataSourceAlternateDataSourceParametersAuroraPostgreSqlPa
   }
 
   // host - computed: true, optional: true, required: false
-  private _host?: string;
+  private _host?: string; 
   public get host() {
     return this.getStringAttribute('host');
   }
@@ -855,7 +855,7 @@ export class QuicksightDataSourceAlternateDataSourceParametersAuroraPostgreSqlPa
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -989,7 +989,7 @@ export class QuicksightDataSourceAlternateDataSourceParametersDatabricksParamete
   }
 
   // host - computed: true, optional: true, required: false
-  private _host?: string;
+  private _host?: string; 
   public get host() {
     return this.getStringAttribute('host');
   }
@@ -1005,7 +1005,7 @@ export class QuicksightDataSourceAlternateDataSourceParametersDatabricksParamete
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -1021,7 +1021,7 @@ export class QuicksightDataSourceAlternateDataSourceParametersDatabricksParamete
   }
 
   // sql_endpoint_path - computed: true, optional: true, required: false
-  private _sqlEndpointPath?: string;
+  private _sqlEndpointPath?: string; 
   public get sqlEndpointPath() {
     return this.getStringAttribute('sql_endpoint_path');
   }
@@ -1155,7 +1155,7 @@ export class QuicksightDataSourceAlternateDataSourceParametersMariaDbParametersO
   }
 
   // database - computed: true, optional: true, required: false
-  private _database?: string;
+  private _database?: string; 
   public get database() {
     return this.getStringAttribute('database');
   }
@@ -1171,7 +1171,7 @@ export class QuicksightDataSourceAlternateDataSourceParametersMariaDbParametersO
   }
 
   // host - computed: true, optional: true, required: false
-  private _host?: string;
+  private _host?: string; 
   public get host() {
     return this.getStringAttribute('host');
   }
@@ -1187,7 +1187,7 @@ export class QuicksightDataSourceAlternateDataSourceParametersMariaDbParametersO
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -1321,7 +1321,7 @@ export class QuicksightDataSourceAlternateDataSourceParametersMySqlParametersOut
   }
 
   // database - computed: true, optional: true, required: false
-  private _database?: string;
+  private _database?: string; 
   public get database() {
     return this.getStringAttribute('database');
   }
@@ -1337,7 +1337,7 @@ export class QuicksightDataSourceAlternateDataSourceParametersMySqlParametersOut
   }
 
   // host - computed: true, optional: true, required: false
-  private _host?: string;
+  private _host?: string; 
   public get host() {
     return this.getStringAttribute('host');
   }
@@ -1353,7 +1353,7 @@ export class QuicksightDataSourceAlternateDataSourceParametersMySqlParametersOut
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -1504,7 +1504,7 @@ export class QuicksightDataSourceAlternateDataSourceParametersOracleParametersOu
   }
 
   // database - computed: true, optional: true, required: false
-  private _database?: string;
+  private _database?: string; 
   public get database() {
     return this.getStringAttribute('database');
   }
@@ -1520,7 +1520,7 @@ export class QuicksightDataSourceAlternateDataSourceParametersOracleParametersOu
   }
 
   // host - computed: true, optional: true, required: false
-  private _host?: string;
+  private _host?: string; 
   public get host() {
     return this.getStringAttribute('host');
   }
@@ -1536,7 +1536,7 @@ export class QuicksightDataSourceAlternateDataSourceParametersOracleParametersOu
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -1552,7 +1552,7 @@ export class QuicksightDataSourceAlternateDataSourceParametersOracleParametersOu
   }
 
   // use_service_name - computed: true, optional: true, required: false
-  private _useServiceName?: boolean | cdktn.IResolvable;
+  private _useServiceName?: boolean | cdktn.IResolvable; 
   public get useServiceName() {
     return this.getBooleanAttribute('use_service_name');
   }
@@ -1686,7 +1686,7 @@ export class QuicksightDataSourceAlternateDataSourceParametersPostgreSqlParamete
   }
 
   // database - computed: true, optional: true, required: false
-  private _database?: string;
+  private _database?: string; 
   public get database() {
     return this.getStringAttribute('database');
   }
@@ -1702,7 +1702,7 @@ export class QuicksightDataSourceAlternateDataSourceParametersPostgreSqlParamete
   }
 
   // host - computed: true, optional: true, required: false
-  private _host?: string;
+  private _host?: string; 
   public get host() {
     return this.getStringAttribute('host');
   }
@@ -1718,7 +1718,7 @@ export class QuicksightDataSourceAlternateDataSourceParametersPostgreSqlParamete
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -1852,7 +1852,7 @@ export class QuicksightDataSourceAlternateDataSourceParametersPrestoParametersOu
   }
 
   // catalog - computed: true, optional: true, required: false
-  private _catalog?: string;
+  private _catalog?: string; 
   public get catalog() {
     return this.getStringAttribute('catalog');
   }
@@ -1868,7 +1868,7 @@ export class QuicksightDataSourceAlternateDataSourceParametersPrestoParametersOu
   }
 
   // host - computed: true, optional: true, required: false
-  private _host?: string;
+  private _host?: string; 
   public get host() {
     return this.getStringAttribute('host');
   }
@@ -1884,7 +1884,7 @@ export class QuicksightDataSourceAlternateDataSourceParametersPrestoParametersOu
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -1999,7 +1999,7 @@ export class QuicksightDataSourceAlternateDataSourceParametersRdsParametersOutpu
   }
 
   // database - computed: true, optional: true, required: false
-  private _database?: string;
+  private _database?: string; 
   public get database() {
     return this.getStringAttribute('database');
   }
@@ -2015,7 +2015,7 @@ export class QuicksightDataSourceAlternateDataSourceParametersRdsParametersOutpu
   }
 
   // instance_id - computed: true, optional: true, required: false
-  private _instanceId?: string;
+  private _instanceId?: string; 
   public get instanceId() {
     return this.getStringAttribute('instance_id');
   }
@@ -2168,7 +2168,7 @@ export class QuicksightDataSourceAlternateDataSourceParametersRedshiftParameters
   }
 
   // auto_create_database_user - computed: true, optional: true, required: false
-  private _autoCreateDatabaseUser?: boolean | cdktn.IResolvable;
+  private _autoCreateDatabaseUser?: boolean | cdktn.IResolvable; 
   public get autoCreateDatabaseUser() {
     return this.getBooleanAttribute('auto_create_database_user');
   }
@@ -2184,7 +2184,7 @@ export class QuicksightDataSourceAlternateDataSourceParametersRedshiftParameters
   }
 
   // database_groups - computed: true, optional: true, required: false
-  private _databaseGroups?: string[];
+  private _databaseGroups?: string[]; 
   public get databaseGroups() {
     return this.getListAttribute('database_groups');
   }
@@ -2200,7 +2200,7 @@ export class QuicksightDataSourceAlternateDataSourceParametersRedshiftParameters
   }
 
   // database_user - computed: true, optional: true, required: false
-  private _databaseUser?: string;
+  private _databaseUser?: string; 
   public get databaseUser() {
     return this.getStringAttribute('database_user');
   }
@@ -2216,7 +2216,7 @@ export class QuicksightDataSourceAlternateDataSourceParametersRedshiftParameters
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -2312,7 +2312,7 @@ export class QuicksightDataSourceAlternateDataSourceParametersRedshiftParameters
   }
 
   // enable_identity_propagation - computed: true, optional: true, required: false
-  private _enableIdentityPropagation?: boolean | cdktn.IResolvable;
+  private _enableIdentityPropagation?: boolean | cdktn.IResolvable; 
   public get enableIdentityPropagation() {
     return this.getBooleanAttribute('enable_identity_propagation');
   }
@@ -2506,7 +2506,7 @@ export class QuicksightDataSourceAlternateDataSourceParametersRedshiftParameters
   }
 
   // cluster_id - computed: true, optional: true, required: false
-  private _clusterId?: string;
+  private _clusterId?: string; 
   public get clusterId() {
     return this.getStringAttribute('cluster_id');
   }
@@ -2522,7 +2522,7 @@ export class QuicksightDataSourceAlternateDataSourceParametersRedshiftParameters
   }
 
   // database - computed: true, optional: true, required: false
-  private _database?: string;
+  private _database?: string; 
   public get database() {
     return this.getStringAttribute('database');
   }
@@ -2538,7 +2538,7 @@ export class QuicksightDataSourceAlternateDataSourceParametersRedshiftParameters
   }
 
   // host - computed: true, optional: true, required: false
-  private _host?: string;
+  private _host?: string; 
   public get host() {
     return this.getStringAttribute('host');
   }
@@ -2586,7 +2586,7 @@ export class QuicksightDataSourceAlternateDataSourceParametersRedshiftParameters
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -2701,7 +2701,7 @@ export class QuicksightDataSourceAlternateDataSourceParametersS3ParametersManife
   }
 
   // bucket - computed: true, optional: true, required: false
-  private _bucket?: string;
+  private _bucket?: string; 
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -2717,7 +2717,7 @@ export class QuicksightDataSourceAlternateDataSourceParametersS3ParametersManife
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -2848,7 +2848,7 @@ export class QuicksightDataSourceAlternateDataSourceParametersS3ParametersOutput
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -2942,7 +2942,7 @@ export class QuicksightDataSourceAlternateDataSourceParametersS3TablesParameters
   }
 
   // table_bucket_arn - computed: true, optional: true, required: false
-  private _tableBucketArn?: string;
+  private _tableBucketArn?: string; 
   public get tableBucketArn() {
     return this.getStringAttribute('table_bucket_arn');
   }
@@ -3038,7 +3038,7 @@ export class QuicksightDataSourceAlternateDataSourceParametersSnowflakeParameter
   }
 
   // vpc_connection_arn - computed: true, optional: true, required: false
-  private _vpcConnectionArn?: string;
+  private _vpcConnectionArn?: string; 
   public get vpcConnectionArn() {
     return this.getStringAttribute('vpc_connection_arn');
   }
@@ -3185,7 +3185,7 @@ export class QuicksightDataSourceAlternateDataSourceParametersSnowflakeParameter
   }
 
   // identity_provider_resource_uri - computed: true, optional: true, required: false
-  private _identityProviderResourceUri?: string;
+  private _identityProviderResourceUri?: string; 
   public get identityProviderResourceUri() {
     return this.getStringAttribute('identity_provider_resource_uri');
   }
@@ -3217,7 +3217,7 @@ export class QuicksightDataSourceAlternateDataSourceParametersSnowflakeParameter
   }
 
   // o_auth_scope - computed: true, optional: true, required: false
-  private _oAuthScope?: string;
+  private _oAuthScope?: string; 
   public get oAuthScope() {
     return this.getStringAttribute('o_auth_scope');
   }
@@ -3233,7 +3233,7 @@ export class QuicksightDataSourceAlternateDataSourceParametersSnowflakeParameter
   }
 
   // token_provider_url - computed: true, optional: true, required: false
-  private _tokenProviderUrl?: string;
+  private _tokenProviderUrl?: string; 
   public get tokenProviderUrl() {
     return this.getStringAttribute('token_provider_url');
   }
@@ -3418,7 +3418,7 @@ export class QuicksightDataSourceAlternateDataSourceParametersSnowflakeParameter
   }
 
   // authentication_type - computed: true, optional: true, required: false
-  private _authenticationType?: string;
+  private _authenticationType?: string; 
   public get authenticationType() {
     return this.getStringAttribute('authentication_type');
   }
@@ -3434,7 +3434,7 @@ export class QuicksightDataSourceAlternateDataSourceParametersSnowflakeParameter
   }
 
   // database - computed: true, optional: true, required: false
-  private _database?: string;
+  private _database?: string; 
   public get database() {
     return this.getStringAttribute('database');
   }
@@ -3450,7 +3450,7 @@ export class QuicksightDataSourceAlternateDataSourceParametersSnowflakeParameter
   }
 
   // database_access_control_role - computed: true, optional: true, required: false
-  private _databaseAccessControlRole?: string;
+  private _databaseAccessControlRole?: string; 
   public get databaseAccessControlRole() {
     return this.getStringAttribute('database_access_control_role');
   }
@@ -3466,7 +3466,7 @@ export class QuicksightDataSourceAlternateDataSourceParametersSnowflakeParameter
   }
 
   // host - computed: true, optional: true, required: false
-  private _host?: string;
+  private _host?: string; 
   public get host() {
     return this.getStringAttribute('host');
   }
@@ -3498,7 +3498,7 @@ export class QuicksightDataSourceAlternateDataSourceParametersSnowflakeParameter
   }
 
   // warehouse - computed: true, optional: true, required: false
-  private _warehouse?: string;
+  private _warehouse?: string; 
   public get warehouse() {
     return this.getStringAttribute('warehouse');
   }
@@ -3613,7 +3613,7 @@ export class QuicksightDataSourceAlternateDataSourceParametersSparkParametersOut
   }
 
   // host - computed: true, optional: true, required: false
-  private _host?: string;
+  private _host?: string; 
   public get host() {
     return this.getStringAttribute('host');
   }
@@ -3629,7 +3629,7 @@ export class QuicksightDataSourceAlternateDataSourceParametersSparkParametersOut
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -3763,7 +3763,7 @@ export class QuicksightDataSourceAlternateDataSourceParametersSqlServerParameter
   }
 
   // database - computed: true, optional: true, required: false
-  private _database?: string;
+  private _database?: string; 
   public get database() {
     return this.getStringAttribute('database');
   }
@@ -3779,7 +3779,7 @@ export class QuicksightDataSourceAlternateDataSourceParametersSqlServerParameter
   }
 
   // host - computed: true, optional: true, required: false
-  private _host?: string;
+  private _host?: string; 
   public get host() {
     return this.getStringAttribute('host');
   }
@@ -3795,7 +3795,7 @@ export class QuicksightDataSourceAlternateDataSourceParametersSqlServerParameter
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -3891,7 +3891,7 @@ export class QuicksightDataSourceAlternateDataSourceParametersStarburstParameter
   }
 
   // vpc_connection_arn - computed: true, optional: true, required: false
-  private _vpcConnectionArn?: string;
+  private _vpcConnectionArn?: string; 
   public get vpcConnectionArn() {
     return this.getStringAttribute('vpc_connection_arn');
   }
@@ -4038,7 +4038,7 @@ export class QuicksightDataSourceAlternateDataSourceParametersStarburstParameter
   }
 
   // identity_provider_resource_uri - computed: true, optional: true, required: false
-  private _identityProviderResourceUri?: string;
+  private _identityProviderResourceUri?: string; 
   public get identityProviderResourceUri() {
     return this.getStringAttribute('identity_provider_resource_uri');
   }
@@ -4070,7 +4070,7 @@ export class QuicksightDataSourceAlternateDataSourceParametersStarburstParameter
   }
 
   // o_auth_scope - computed: true, optional: true, required: false
-  private _oAuthScope?: string;
+  private _oAuthScope?: string; 
   public get oAuthScope() {
     return this.getStringAttribute('o_auth_scope');
   }
@@ -4086,7 +4086,7 @@ export class QuicksightDataSourceAlternateDataSourceParametersStarburstParameter
   }
 
   // token_provider_url - computed: true, optional: true, required: false
-  private _tokenProviderUrl?: string;
+  private _tokenProviderUrl?: string; 
   public get tokenProviderUrl() {
     return this.getStringAttribute('token_provider_url');
   }
@@ -4288,7 +4288,7 @@ export class QuicksightDataSourceAlternateDataSourceParametersStarburstParameter
   }
 
   // authentication_type - computed: true, optional: true, required: false
-  private _authenticationType?: string;
+  private _authenticationType?: string; 
   public get authenticationType() {
     return this.getStringAttribute('authentication_type');
   }
@@ -4304,7 +4304,7 @@ export class QuicksightDataSourceAlternateDataSourceParametersStarburstParameter
   }
 
   // catalog - computed: true, optional: true, required: false
-  private _catalog?: string;
+  private _catalog?: string; 
   public get catalog() {
     return this.getStringAttribute('catalog');
   }
@@ -4320,7 +4320,7 @@ export class QuicksightDataSourceAlternateDataSourceParametersStarburstParameter
   }
 
   // database_access_control_role - computed: true, optional: true, required: false
-  private _databaseAccessControlRole?: string;
+  private _databaseAccessControlRole?: string; 
   public get databaseAccessControlRole() {
     return this.getStringAttribute('database_access_control_role');
   }
@@ -4336,7 +4336,7 @@ export class QuicksightDataSourceAlternateDataSourceParametersStarburstParameter
   }
 
   // host - computed: true, optional: true, required: false
-  private _host?: string;
+  private _host?: string; 
   public get host() {
     return this.getStringAttribute('host');
   }
@@ -4368,7 +4368,7 @@ export class QuicksightDataSourceAlternateDataSourceParametersStarburstParameter
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -4384,7 +4384,7 @@ export class QuicksightDataSourceAlternateDataSourceParametersStarburstParameter
   }
 
   // product_type - computed: true, optional: true, required: false
-  private _productType?: string;
+  private _productType?: string; 
   public get productType() {
     return this.getStringAttribute('product_type');
   }
@@ -4518,7 +4518,7 @@ export class QuicksightDataSourceAlternateDataSourceParametersTeradataParameters
   }
 
   // database - computed: true, optional: true, required: false
-  private _database?: string;
+  private _database?: string; 
   public get database() {
     return this.getStringAttribute('database');
   }
@@ -4534,7 +4534,7 @@ export class QuicksightDataSourceAlternateDataSourceParametersTeradataParameters
   }
 
   // host - computed: true, optional: true, required: false
-  private _host?: string;
+  private _host?: string; 
   public get host() {
     return this.getStringAttribute('host');
   }
@@ -4550,7 +4550,7 @@ export class QuicksightDataSourceAlternateDataSourceParametersTeradataParameters
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -4684,7 +4684,7 @@ export class QuicksightDataSourceAlternateDataSourceParametersTrinoParametersOut
   }
 
   // catalog - computed: true, optional: true, required: false
-  private _catalog?: string;
+  private _catalog?: string; 
   public get catalog() {
     return this.getStringAttribute('catalog');
   }
@@ -4700,7 +4700,7 @@ export class QuicksightDataSourceAlternateDataSourceParametersTrinoParametersOut
   }
 
   // host - computed: true, optional: true, required: false
-  private _host?: string;
+  private _host?: string; 
   public get host() {
     return this.getStringAttribute('host');
   }
@@ -4716,7 +4716,7 @@ export class QuicksightDataSourceAlternateDataSourceParametersTrinoParametersOut
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -5629,7 +5629,7 @@ export class QuicksightDataSourceCredentialsCredentialPairAlternateDataSourcePar
   }
 
   // domain - computed: true, optional: true, required: false
-  private _domain?: string;
+  private _domain?: string; 
   public get domain() {
     return this.getStringAttribute('domain');
   }
@@ -5725,7 +5725,7 @@ export class QuicksightDataSourceCredentialsCredentialPairAlternateDataSourcePar
   }
 
   // domain - computed: true, optional: true, required: false
-  private _domain?: string;
+  private _domain?: string; 
   public get domain() {
     return this.getStringAttribute('domain');
   }
@@ -5821,7 +5821,7 @@ export class QuicksightDataSourceCredentialsCredentialPairAlternateDataSourcePar
   }
 
   // enable_identity_propagation - computed: true, optional: true, required: false
-  private _enableIdentityPropagation?: boolean | cdktn.IResolvable;
+  private _enableIdentityPropagation?: boolean | cdktn.IResolvable; 
   public get enableIdentityPropagation() {
     return this.getBooleanAttribute('enable_identity_propagation');
   }
@@ -5971,7 +5971,7 @@ export class QuicksightDataSourceCredentialsCredentialPairAlternateDataSourcePar
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -5987,7 +5987,7 @@ export class QuicksightDataSourceCredentialsCredentialPairAlternateDataSourcePar
   }
 
   // work_group - computed: true, optional: true, required: false
-  private _workGroup?: string;
+  private _workGroup?: string; 
   public get workGroup() {
     return this.getStringAttribute('work_group');
   }
@@ -6121,7 +6121,7 @@ export class QuicksightDataSourceCredentialsCredentialPairAlternateDataSourcePar
   }
 
   // database - computed: true, optional: true, required: false
-  private _database?: string;
+  private _database?: string; 
   public get database() {
     return this.getStringAttribute('database');
   }
@@ -6137,7 +6137,7 @@ export class QuicksightDataSourceCredentialsCredentialPairAlternateDataSourcePar
   }
 
   // host - computed: true, optional: true, required: false
-  private _host?: string;
+  private _host?: string; 
   public get host() {
     return this.getStringAttribute('host');
   }
@@ -6153,7 +6153,7 @@ export class QuicksightDataSourceCredentialsCredentialPairAlternateDataSourcePar
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -6287,7 +6287,7 @@ export class QuicksightDataSourceCredentialsCredentialPairAlternateDataSourcePar
   }
 
   // database - computed: true, optional: true, required: false
-  private _database?: string;
+  private _database?: string; 
   public get database() {
     return this.getStringAttribute('database');
   }
@@ -6303,7 +6303,7 @@ export class QuicksightDataSourceCredentialsCredentialPairAlternateDataSourcePar
   }
 
   // host - computed: true, optional: true, required: false
-  private _host?: string;
+  private _host?: string; 
   public get host() {
     return this.getStringAttribute('host');
   }
@@ -6319,7 +6319,7 @@ export class QuicksightDataSourceCredentialsCredentialPairAlternateDataSourcePar
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -6453,7 +6453,7 @@ export class QuicksightDataSourceCredentialsCredentialPairAlternateDataSourcePar
   }
 
   // host - computed: true, optional: true, required: false
-  private _host?: string;
+  private _host?: string; 
   public get host() {
     return this.getStringAttribute('host');
   }
@@ -6469,7 +6469,7 @@ export class QuicksightDataSourceCredentialsCredentialPairAlternateDataSourcePar
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -6485,7 +6485,7 @@ export class QuicksightDataSourceCredentialsCredentialPairAlternateDataSourcePar
   }
 
   // sql_endpoint_path - computed: true, optional: true, required: false
-  private _sqlEndpointPath?: string;
+  private _sqlEndpointPath?: string; 
   public get sqlEndpointPath() {
     return this.getStringAttribute('sql_endpoint_path');
   }
@@ -6619,7 +6619,7 @@ export class QuicksightDataSourceCredentialsCredentialPairAlternateDataSourcePar
   }
 
   // database - computed: true, optional: true, required: false
-  private _database?: string;
+  private _database?: string; 
   public get database() {
     return this.getStringAttribute('database');
   }
@@ -6635,7 +6635,7 @@ export class QuicksightDataSourceCredentialsCredentialPairAlternateDataSourcePar
   }
 
   // host - computed: true, optional: true, required: false
-  private _host?: string;
+  private _host?: string; 
   public get host() {
     return this.getStringAttribute('host');
   }
@@ -6651,7 +6651,7 @@ export class QuicksightDataSourceCredentialsCredentialPairAlternateDataSourcePar
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -6785,7 +6785,7 @@ export class QuicksightDataSourceCredentialsCredentialPairAlternateDataSourcePar
   }
 
   // database - computed: true, optional: true, required: false
-  private _database?: string;
+  private _database?: string; 
   public get database() {
     return this.getStringAttribute('database');
   }
@@ -6801,7 +6801,7 @@ export class QuicksightDataSourceCredentialsCredentialPairAlternateDataSourcePar
   }
 
   // host - computed: true, optional: true, required: false
-  private _host?: string;
+  private _host?: string; 
   public get host() {
     return this.getStringAttribute('host');
   }
@@ -6817,7 +6817,7 @@ export class QuicksightDataSourceCredentialsCredentialPairAlternateDataSourcePar
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -6968,7 +6968,7 @@ export class QuicksightDataSourceCredentialsCredentialPairAlternateDataSourcePar
   }
 
   // database - computed: true, optional: true, required: false
-  private _database?: string;
+  private _database?: string; 
   public get database() {
     return this.getStringAttribute('database');
   }
@@ -6984,7 +6984,7 @@ export class QuicksightDataSourceCredentialsCredentialPairAlternateDataSourcePar
   }
 
   // host - computed: true, optional: true, required: false
-  private _host?: string;
+  private _host?: string; 
   public get host() {
     return this.getStringAttribute('host');
   }
@@ -7000,7 +7000,7 @@ export class QuicksightDataSourceCredentialsCredentialPairAlternateDataSourcePar
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -7016,7 +7016,7 @@ export class QuicksightDataSourceCredentialsCredentialPairAlternateDataSourcePar
   }
 
   // use_service_name - computed: true, optional: true, required: false
-  private _useServiceName?: boolean | cdktn.IResolvable;
+  private _useServiceName?: boolean | cdktn.IResolvable; 
   public get useServiceName() {
     return this.getBooleanAttribute('use_service_name');
   }
@@ -7150,7 +7150,7 @@ export class QuicksightDataSourceCredentialsCredentialPairAlternateDataSourcePar
   }
 
   // database - computed: true, optional: true, required: false
-  private _database?: string;
+  private _database?: string; 
   public get database() {
     return this.getStringAttribute('database');
   }
@@ -7166,7 +7166,7 @@ export class QuicksightDataSourceCredentialsCredentialPairAlternateDataSourcePar
   }
 
   // host - computed: true, optional: true, required: false
-  private _host?: string;
+  private _host?: string; 
   public get host() {
     return this.getStringAttribute('host');
   }
@@ -7182,7 +7182,7 @@ export class QuicksightDataSourceCredentialsCredentialPairAlternateDataSourcePar
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -7316,7 +7316,7 @@ export class QuicksightDataSourceCredentialsCredentialPairAlternateDataSourcePar
   }
 
   // catalog - computed: true, optional: true, required: false
-  private _catalog?: string;
+  private _catalog?: string; 
   public get catalog() {
     return this.getStringAttribute('catalog');
   }
@@ -7332,7 +7332,7 @@ export class QuicksightDataSourceCredentialsCredentialPairAlternateDataSourcePar
   }
 
   // host - computed: true, optional: true, required: false
-  private _host?: string;
+  private _host?: string; 
   public get host() {
     return this.getStringAttribute('host');
   }
@@ -7348,7 +7348,7 @@ export class QuicksightDataSourceCredentialsCredentialPairAlternateDataSourcePar
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -7463,7 +7463,7 @@ export class QuicksightDataSourceCredentialsCredentialPairAlternateDataSourcePar
   }
 
   // database - computed: true, optional: true, required: false
-  private _database?: string;
+  private _database?: string; 
   public get database() {
     return this.getStringAttribute('database');
   }
@@ -7479,7 +7479,7 @@ export class QuicksightDataSourceCredentialsCredentialPairAlternateDataSourcePar
   }
 
   // instance_id - computed: true, optional: true, required: false
-  private _instanceId?: string;
+  private _instanceId?: string; 
   public get instanceId() {
     return this.getStringAttribute('instance_id');
   }
@@ -7632,7 +7632,7 @@ export class QuicksightDataSourceCredentialsCredentialPairAlternateDataSourcePar
   }
 
   // auto_create_database_user - computed: true, optional: true, required: false
-  private _autoCreateDatabaseUser?: boolean | cdktn.IResolvable;
+  private _autoCreateDatabaseUser?: boolean | cdktn.IResolvable; 
   public get autoCreateDatabaseUser() {
     return this.getBooleanAttribute('auto_create_database_user');
   }
@@ -7648,7 +7648,7 @@ export class QuicksightDataSourceCredentialsCredentialPairAlternateDataSourcePar
   }
 
   // database_groups - computed: true, optional: true, required: false
-  private _databaseGroups?: string[];
+  private _databaseGroups?: string[]; 
   public get databaseGroups() {
     return this.getListAttribute('database_groups');
   }
@@ -7664,7 +7664,7 @@ export class QuicksightDataSourceCredentialsCredentialPairAlternateDataSourcePar
   }
 
   // database_user - computed: true, optional: true, required: false
-  private _databaseUser?: string;
+  private _databaseUser?: string; 
   public get databaseUser() {
     return this.getStringAttribute('database_user');
   }
@@ -7680,7 +7680,7 @@ export class QuicksightDataSourceCredentialsCredentialPairAlternateDataSourcePar
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -7776,7 +7776,7 @@ export class QuicksightDataSourceCredentialsCredentialPairAlternateDataSourcePar
   }
 
   // enable_identity_propagation - computed: true, optional: true, required: false
-  private _enableIdentityPropagation?: boolean | cdktn.IResolvable;
+  private _enableIdentityPropagation?: boolean | cdktn.IResolvable; 
   public get enableIdentityPropagation() {
     return this.getBooleanAttribute('enable_identity_propagation');
   }
@@ -7970,7 +7970,7 @@ export class QuicksightDataSourceCredentialsCredentialPairAlternateDataSourcePar
   }
 
   // cluster_id - computed: true, optional: true, required: false
-  private _clusterId?: string;
+  private _clusterId?: string; 
   public get clusterId() {
     return this.getStringAttribute('cluster_id');
   }
@@ -7986,7 +7986,7 @@ export class QuicksightDataSourceCredentialsCredentialPairAlternateDataSourcePar
   }
 
   // database - computed: true, optional: true, required: false
-  private _database?: string;
+  private _database?: string; 
   public get database() {
     return this.getStringAttribute('database');
   }
@@ -8002,7 +8002,7 @@ export class QuicksightDataSourceCredentialsCredentialPairAlternateDataSourcePar
   }
 
   // host - computed: true, optional: true, required: false
-  private _host?: string;
+  private _host?: string; 
   public get host() {
     return this.getStringAttribute('host');
   }
@@ -8050,7 +8050,7 @@ export class QuicksightDataSourceCredentialsCredentialPairAlternateDataSourcePar
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -8165,7 +8165,7 @@ export class QuicksightDataSourceCredentialsCredentialPairAlternateDataSourcePar
   }
 
   // bucket - computed: true, optional: true, required: false
-  private _bucket?: string;
+  private _bucket?: string; 
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -8181,7 +8181,7 @@ export class QuicksightDataSourceCredentialsCredentialPairAlternateDataSourcePar
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -8312,7 +8312,7 @@ export class QuicksightDataSourceCredentialsCredentialPairAlternateDataSourcePar
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -8406,7 +8406,7 @@ export class QuicksightDataSourceCredentialsCredentialPairAlternateDataSourcePar
   }
 
   // table_bucket_arn - computed: true, optional: true, required: false
-  private _tableBucketArn?: string;
+  private _tableBucketArn?: string; 
   public get tableBucketArn() {
     return this.getStringAttribute('table_bucket_arn');
   }
@@ -8502,7 +8502,7 @@ export class QuicksightDataSourceCredentialsCredentialPairAlternateDataSourcePar
   }
 
   // vpc_connection_arn - computed: true, optional: true, required: false
-  private _vpcConnectionArn?: string;
+  private _vpcConnectionArn?: string; 
   public get vpcConnectionArn() {
     return this.getStringAttribute('vpc_connection_arn');
   }
@@ -8649,7 +8649,7 @@ export class QuicksightDataSourceCredentialsCredentialPairAlternateDataSourcePar
   }
 
   // identity_provider_resource_uri - computed: true, optional: true, required: false
-  private _identityProviderResourceUri?: string;
+  private _identityProviderResourceUri?: string; 
   public get identityProviderResourceUri() {
     return this.getStringAttribute('identity_provider_resource_uri');
   }
@@ -8681,7 +8681,7 @@ export class QuicksightDataSourceCredentialsCredentialPairAlternateDataSourcePar
   }
 
   // o_auth_scope - computed: true, optional: true, required: false
-  private _oAuthScope?: string;
+  private _oAuthScope?: string; 
   public get oAuthScope() {
     return this.getStringAttribute('o_auth_scope');
   }
@@ -8697,7 +8697,7 @@ export class QuicksightDataSourceCredentialsCredentialPairAlternateDataSourcePar
   }
 
   // token_provider_url - computed: true, optional: true, required: false
-  private _tokenProviderUrl?: string;
+  private _tokenProviderUrl?: string; 
   public get tokenProviderUrl() {
     return this.getStringAttribute('token_provider_url');
   }
@@ -8882,7 +8882,7 @@ export class QuicksightDataSourceCredentialsCredentialPairAlternateDataSourcePar
   }
 
   // authentication_type - computed: true, optional: true, required: false
-  private _authenticationType?: string;
+  private _authenticationType?: string; 
   public get authenticationType() {
     return this.getStringAttribute('authentication_type');
   }
@@ -8898,7 +8898,7 @@ export class QuicksightDataSourceCredentialsCredentialPairAlternateDataSourcePar
   }
 
   // database - computed: true, optional: true, required: false
-  private _database?: string;
+  private _database?: string; 
   public get database() {
     return this.getStringAttribute('database');
   }
@@ -8914,7 +8914,7 @@ export class QuicksightDataSourceCredentialsCredentialPairAlternateDataSourcePar
   }
 
   // database_access_control_role - computed: true, optional: true, required: false
-  private _databaseAccessControlRole?: string;
+  private _databaseAccessControlRole?: string; 
   public get databaseAccessControlRole() {
     return this.getStringAttribute('database_access_control_role');
   }
@@ -8930,7 +8930,7 @@ export class QuicksightDataSourceCredentialsCredentialPairAlternateDataSourcePar
   }
 
   // host - computed: true, optional: true, required: false
-  private _host?: string;
+  private _host?: string; 
   public get host() {
     return this.getStringAttribute('host');
   }
@@ -8962,7 +8962,7 @@ export class QuicksightDataSourceCredentialsCredentialPairAlternateDataSourcePar
   }
 
   // warehouse - computed: true, optional: true, required: false
-  private _warehouse?: string;
+  private _warehouse?: string; 
   public get warehouse() {
     return this.getStringAttribute('warehouse');
   }
@@ -9077,7 +9077,7 @@ export class QuicksightDataSourceCredentialsCredentialPairAlternateDataSourcePar
   }
 
   // host - computed: true, optional: true, required: false
-  private _host?: string;
+  private _host?: string; 
   public get host() {
     return this.getStringAttribute('host');
   }
@@ -9093,7 +9093,7 @@ export class QuicksightDataSourceCredentialsCredentialPairAlternateDataSourcePar
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -9227,7 +9227,7 @@ export class QuicksightDataSourceCredentialsCredentialPairAlternateDataSourcePar
   }
 
   // database - computed: true, optional: true, required: false
-  private _database?: string;
+  private _database?: string; 
   public get database() {
     return this.getStringAttribute('database');
   }
@@ -9243,7 +9243,7 @@ export class QuicksightDataSourceCredentialsCredentialPairAlternateDataSourcePar
   }
 
   // host - computed: true, optional: true, required: false
-  private _host?: string;
+  private _host?: string; 
   public get host() {
     return this.getStringAttribute('host');
   }
@@ -9259,7 +9259,7 @@ export class QuicksightDataSourceCredentialsCredentialPairAlternateDataSourcePar
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -9355,7 +9355,7 @@ export class QuicksightDataSourceCredentialsCredentialPairAlternateDataSourcePar
   }
 
   // vpc_connection_arn - computed: true, optional: true, required: false
-  private _vpcConnectionArn?: string;
+  private _vpcConnectionArn?: string; 
   public get vpcConnectionArn() {
     return this.getStringAttribute('vpc_connection_arn');
   }
@@ -9502,7 +9502,7 @@ export class QuicksightDataSourceCredentialsCredentialPairAlternateDataSourcePar
   }
 
   // identity_provider_resource_uri - computed: true, optional: true, required: false
-  private _identityProviderResourceUri?: string;
+  private _identityProviderResourceUri?: string; 
   public get identityProviderResourceUri() {
     return this.getStringAttribute('identity_provider_resource_uri');
   }
@@ -9534,7 +9534,7 @@ export class QuicksightDataSourceCredentialsCredentialPairAlternateDataSourcePar
   }
 
   // o_auth_scope - computed: true, optional: true, required: false
-  private _oAuthScope?: string;
+  private _oAuthScope?: string; 
   public get oAuthScope() {
     return this.getStringAttribute('o_auth_scope');
   }
@@ -9550,7 +9550,7 @@ export class QuicksightDataSourceCredentialsCredentialPairAlternateDataSourcePar
   }
 
   // token_provider_url - computed: true, optional: true, required: false
-  private _tokenProviderUrl?: string;
+  private _tokenProviderUrl?: string; 
   public get tokenProviderUrl() {
     return this.getStringAttribute('token_provider_url');
   }
@@ -9752,7 +9752,7 @@ export class QuicksightDataSourceCredentialsCredentialPairAlternateDataSourcePar
   }
 
   // authentication_type - computed: true, optional: true, required: false
-  private _authenticationType?: string;
+  private _authenticationType?: string; 
   public get authenticationType() {
     return this.getStringAttribute('authentication_type');
   }
@@ -9768,7 +9768,7 @@ export class QuicksightDataSourceCredentialsCredentialPairAlternateDataSourcePar
   }
 
   // catalog - computed: true, optional: true, required: false
-  private _catalog?: string;
+  private _catalog?: string; 
   public get catalog() {
     return this.getStringAttribute('catalog');
   }
@@ -9784,7 +9784,7 @@ export class QuicksightDataSourceCredentialsCredentialPairAlternateDataSourcePar
   }
 
   // database_access_control_role - computed: true, optional: true, required: false
-  private _databaseAccessControlRole?: string;
+  private _databaseAccessControlRole?: string; 
   public get databaseAccessControlRole() {
     return this.getStringAttribute('database_access_control_role');
   }
@@ -9800,7 +9800,7 @@ export class QuicksightDataSourceCredentialsCredentialPairAlternateDataSourcePar
   }
 
   // host - computed: true, optional: true, required: false
-  private _host?: string;
+  private _host?: string; 
   public get host() {
     return this.getStringAttribute('host');
   }
@@ -9832,7 +9832,7 @@ export class QuicksightDataSourceCredentialsCredentialPairAlternateDataSourcePar
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -9848,7 +9848,7 @@ export class QuicksightDataSourceCredentialsCredentialPairAlternateDataSourcePar
   }
 
   // product_type - computed: true, optional: true, required: false
-  private _productType?: string;
+  private _productType?: string; 
   public get productType() {
     return this.getStringAttribute('product_type');
   }
@@ -9982,7 +9982,7 @@ export class QuicksightDataSourceCredentialsCredentialPairAlternateDataSourcePar
   }
 
   // database - computed: true, optional: true, required: false
-  private _database?: string;
+  private _database?: string; 
   public get database() {
     return this.getStringAttribute('database');
   }
@@ -9998,7 +9998,7 @@ export class QuicksightDataSourceCredentialsCredentialPairAlternateDataSourcePar
   }
 
   // host - computed: true, optional: true, required: false
-  private _host?: string;
+  private _host?: string; 
   public get host() {
     return this.getStringAttribute('host');
   }
@@ -10014,7 +10014,7 @@ export class QuicksightDataSourceCredentialsCredentialPairAlternateDataSourcePar
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -10148,7 +10148,7 @@ export class QuicksightDataSourceCredentialsCredentialPairAlternateDataSourcePar
   }
 
   // catalog - computed: true, optional: true, required: false
-  private _catalog?: string;
+  private _catalog?: string; 
   public get catalog() {
     return this.getStringAttribute('catalog');
   }
@@ -10164,7 +10164,7 @@ export class QuicksightDataSourceCredentialsCredentialPairAlternateDataSourcePar
   }
 
   // host - computed: true, optional: true, required: false
-  private _host?: string;
+  private _host?: string; 
   public get host() {
     return this.getStringAttribute('host');
   }
@@ -10180,7 +10180,7 @@ export class QuicksightDataSourceCredentialsCredentialPairAlternateDataSourcePar
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -11155,7 +11155,7 @@ export class QuicksightDataSourceCredentialsCredentialPairOutputReference extend
   }
 
   // password - computed: true, optional: true, required: false
-  private _password?: string;
+  private _password?: string; 
   public get password() {
     return this.getStringAttribute('password');
   }
@@ -11171,7 +11171,7 @@ export class QuicksightDataSourceCredentialsCredentialPairOutputReference extend
   }
 
   // username - computed: true, optional: true, required: false
-  private _username?: string;
+  private _username?: string; 
   public get username() {
     return this.getStringAttribute('username');
   }
@@ -11299,7 +11299,7 @@ export class QuicksightDataSourceCredentialsKeyPairCredentialsOutputReference ex
   }
 
   // key_pair_username - computed: true, optional: true, required: false
-  private _keyPairUsername?: string;
+  private _keyPairUsername?: string; 
   public get keyPairUsername() {
     return this.getStringAttribute('key_pair_username');
   }
@@ -11315,7 +11315,7 @@ export class QuicksightDataSourceCredentialsKeyPairCredentialsOutputReference ex
   }
 
   // private_key - computed: true, optional: true, required: false
-  private _privateKey?: string;
+  private _privateKey?: string; 
   public get privateKey() {
     return this.getStringAttribute('private_key');
   }
@@ -11331,7 +11331,7 @@ export class QuicksightDataSourceCredentialsKeyPairCredentialsOutputReference ex
   }
 
   // private_key_passphrase - computed: true, optional: true, required: false
-  private _privateKeyPassphrase?: string;
+  private _privateKeyPassphrase?: string; 
   public get privateKeyPassphrase() {
     return this.getStringAttribute('private_key_passphrase');
   }
@@ -11485,7 +11485,7 @@ export class QuicksightDataSourceCredentialsOutputReference extends cdktn.Comple
   }
 
   // copy_source_arn - computed: true, optional: true, required: false
-  private _copySourceArn?: string;
+  private _copySourceArn?: string; 
   public get copySourceArn() {
     return this.getStringAttribute('copy_source_arn');
   }
@@ -11533,7 +11533,7 @@ export class QuicksightDataSourceCredentialsOutputReference extends cdktn.Comple
   }
 
   // secret_arn - computed: true, optional: true, required: false
-  private _secretArn?: string;
+  private _secretArn?: string; 
   public get secretArn() {
     return this.getStringAttribute('secret_arn');
   }
@@ -11629,7 +11629,7 @@ export class QuicksightDataSourceDataSourceParametersAmazonElasticsearchParamete
   }
 
   // domain - computed: true, optional: true, required: false
-  private _domain?: string;
+  private _domain?: string; 
   public get domain() {
     return this.getStringAttribute('domain');
   }
@@ -11725,7 +11725,7 @@ export class QuicksightDataSourceDataSourceParametersAmazonOpenSearchParametersO
   }
 
   // domain - computed: true, optional: true, required: false
-  private _domain?: string;
+  private _domain?: string; 
   public get domain() {
     return this.getStringAttribute('domain');
   }
@@ -11821,7 +11821,7 @@ export class QuicksightDataSourceDataSourceParametersAthenaParametersIdentityCen
   }
 
   // enable_identity_propagation - computed: true, optional: true, required: false
-  private _enableIdentityPropagation?: boolean | cdktn.IResolvable;
+  private _enableIdentityPropagation?: boolean | cdktn.IResolvable; 
   public get enableIdentityPropagation() {
     return this.getBooleanAttribute('enable_identity_propagation');
   }
@@ -11971,7 +11971,7 @@ export class QuicksightDataSourceDataSourceParametersAthenaParametersOutputRefer
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -11987,7 +11987,7 @@ export class QuicksightDataSourceDataSourceParametersAthenaParametersOutputRefer
   }
 
   // work_group - computed: true, optional: true, required: false
-  private _workGroup?: string;
+  private _workGroup?: string; 
   public get workGroup() {
     return this.getStringAttribute('work_group');
   }
@@ -12121,7 +12121,7 @@ export class QuicksightDataSourceDataSourceParametersAuroraParametersOutputRefer
   }
 
   // database - computed: true, optional: true, required: false
-  private _database?: string;
+  private _database?: string; 
   public get database() {
     return this.getStringAttribute('database');
   }
@@ -12137,7 +12137,7 @@ export class QuicksightDataSourceDataSourceParametersAuroraParametersOutputRefer
   }
 
   // host - computed: true, optional: true, required: false
-  private _host?: string;
+  private _host?: string; 
   public get host() {
     return this.getStringAttribute('host');
   }
@@ -12153,7 +12153,7 @@ export class QuicksightDataSourceDataSourceParametersAuroraParametersOutputRefer
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -12287,7 +12287,7 @@ export class QuicksightDataSourceDataSourceParametersAuroraPostgreSqlParametersO
   }
 
   // database - computed: true, optional: true, required: false
-  private _database?: string;
+  private _database?: string; 
   public get database() {
     return this.getStringAttribute('database');
   }
@@ -12303,7 +12303,7 @@ export class QuicksightDataSourceDataSourceParametersAuroraPostgreSqlParametersO
   }
 
   // host - computed: true, optional: true, required: false
-  private _host?: string;
+  private _host?: string; 
   public get host() {
     return this.getStringAttribute('host');
   }
@@ -12319,7 +12319,7 @@ export class QuicksightDataSourceDataSourceParametersAuroraPostgreSqlParametersO
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -12453,7 +12453,7 @@ export class QuicksightDataSourceDataSourceParametersDatabricksParametersOutputR
   }
 
   // host - computed: true, optional: true, required: false
-  private _host?: string;
+  private _host?: string; 
   public get host() {
     return this.getStringAttribute('host');
   }
@@ -12469,7 +12469,7 @@ export class QuicksightDataSourceDataSourceParametersDatabricksParametersOutputR
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -12485,7 +12485,7 @@ export class QuicksightDataSourceDataSourceParametersDatabricksParametersOutputR
   }
 
   // sql_endpoint_path - computed: true, optional: true, required: false
-  private _sqlEndpointPath?: string;
+  private _sqlEndpointPath?: string; 
   public get sqlEndpointPath() {
     return this.getStringAttribute('sql_endpoint_path');
   }
@@ -12619,7 +12619,7 @@ export class QuicksightDataSourceDataSourceParametersMariaDbParametersOutputRefe
   }
 
   // database - computed: true, optional: true, required: false
-  private _database?: string;
+  private _database?: string; 
   public get database() {
     return this.getStringAttribute('database');
   }
@@ -12635,7 +12635,7 @@ export class QuicksightDataSourceDataSourceParametersMariaDbParametersOutputRefe
   }
 
   // host - computed: true, optional: true, required: false
-  private _host?: string;
+  private _host?: string; 
   public get host() {
     return this.getStringAttribute('host');
   }
@@ -12651,7 +12651,7 @@ export class QuicksightDataSourceDataSourceParametersMariaDbParametersOutputRefe
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -12785,7 +12785,7 @@ export class QuicksightDataSourceDataSourceParametersMySqlParametersOutputRefere
   }
 
   // database - computed: true, optional: true, required: false
-  private _database?: string;
+  private _database?: string; 
   public get database() {
     return this.getStringAttribute('database');
   }
@@ -12801,7 +12801,7 @@ export class QuicksightDataSourceDataSourceParametersMySqlParametersOutputRefere
   }
 
   // host - computed: true, optional: true, required: false
-  private _host?: string;
+  private _host?: string; 
   public get host() {
     return this.getStringAttribute('host');
   }
@@ -12817,7 +12817,7 @@ export class QuicksightDataSourceDataSourceParametersMySqlParametersOutputRefere
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -12968,7 +12968,7 @@ export class QuicksightDataSourceDataSourceParametersOracleParametersOutputRefer
   }
 
   // database - computed: true, optional: true, required: false
-  private _database?: string;
+  private _database?: string; 
   public get database() {
     return this.getStringAttribute('database');
   }
@@ -12984,7 +12984,7 @@ export class QuicksightDataSourceDataSourceParametersOracleParametersOutputRefer
   }
 
   // host - computed: true, optional: true, required: false
-  private _host?: string;
+  private _host?: string; 
   public get host() {
     return this.getStringAttribute('host');
   }
@@ -13000,7 +13000,7 @@ export class QuicksightDataSourceDataSourceParametersOracleParametersOutputRefer
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -13016,7 +13016,7 @@ export class QuicksightDataSourceDataSourceParametersOracleParametersOutputRefer
   }
 
   // use_service_name - computed: true, optional: true, required: false
-  private _useServiceName?: boolean | cdktn.IResolvable;
+  private _useServiceName?: boolean | cdktn.IResolvable; 
   public get useServiceName() {
     return this.getBooleanAttribute('use_service_name');
   }
@@ -13150,7 +13150,7 @@ export class QuicksightDataSourceDataSourceParametersPostgreSqlParametersOutputR
   }
 
   // database - computed: true, optional: true, required: false
-  private _database?: string;
+  private _database?: string; 
   public get database() {
     return this.getStringAttribute('database');
   }
@@ -13166,7 +13166,7 @@ export class QuicksightDataSourceDataSourceParametersPostgreSqlParametersOutputR
   }
 
   // host - computed: true, optional: true, required: false
-  private _host?: string;
+  private _host?: string; 
   public get host() {
     return this.getStringAttribute('host');
   }
@@ -13182,7 +13182,7 @@ export class QuicksightDataSourceDataSourceParametersPostgreSqlParametersOutputR
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -13316,7 +13316,7 @@ export class QuicksightDataSourceDataSourceParametersPrestoParametersOutputRefer
   }
 
   // catalog - computed: true, optional: true, required: false
-  private _catalog?: string;
+  private _catalog?: string; 
   public get catalog() {
     return this.getStringAttribute('catalog');
   }
@@ -13332,7 +13332,7 @@ export class QuicksightDataSourceDataSourceParametersPrestoParametersOutputRefer
   }
 
   // host - computed: true, optional: true, required: false
-  private _host?: string;
+  private _host?: string; 
   public get host() {
     return this.getStringAttribute('host');
   }
@@ -13348,7 +13348,7 @@ export class QuicksightDataSourceDataSourceParametersPrestoParametersOutputRefer
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -13463,7 +13463,7 @@ export class QuicksightDataSourceDataSourceParametersRdsParametersOutputReferenc
   }
 
   // database - computed: true, optional: true, required: false
-  private _database?: string;
+  private _database?: string; 
   public get database() {
     return this.getStringAttribute('database');
   }
@@ -13479,7 +13479,7 @@ export class QuicksightDataSourceDataSourceParametersRdsParametersOutputReferenc
   }
 
   // instance_id - computed: true, optional: true, required: false
-  private _instanceId?: string;
+  private _instanceId?: string; 
   public get instanceId() {
     return this.getStringAttribute('instance_id');
   }
@@ -13632,7 +13632,7 @@ export class QuicksightDataSourceDataSourceParametersRedshiftParametersIamParame
   }
 
   // auto_create_database_user - computed: true, optional: true, required: false
-  private _autoCreateDatabaseUser?: boolean | cdktn.IResolvable;
+  private _autoCreateDatabaseUser?: boolean | cdktn.IResolvable; 
   public get autoCreateDatabaseUser() {
     return this.getBooleanAttribute('auto_create_database_user');
   }
@@ -13648,7 +13648,7 @@ export class QuicksightDataSourceDataSourceParametersRedshiftParametersIamParame
   }
 
   // database_groups - computed: true, optional: true, required: false
-  private _databaseGroups?: string[];
+  private _databaseGroups?: string[]; 
   public get databaseGroups() {
     return this.getListAttribute('database_groups');
   }
@@ -13664,7 +13664,7 @@ export class QuicksightDataSourceDataSourceParametersRedshiftParametersIamParame
   }
 
   // database_user - computed: true, optional: true, required: false
-  private _databaseUser?: string;
+  private _databaseUser?: string; 
   public get databaseUser() {
     return this.getStringAttribute('database_user');
   }
@@ -13680,7 +13680,7 @@ export class QuicksightDataSourceDataSourceParametersRedshiftParametersIamParame
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -13776,7 +13776,7 @@ export class QuicksightDataSourceDataSourceParametersRedshiftParametersIdentityC
   }
 
   // enable_identity_propagation - computed: true, optional: true, required: false
-  private _enableIdentityPropagation?: boolean | cdktn.IResolvable;
+  private _enableIdentityPropagation?: boolean | cdktn.IResolvable; 
   public get enableIdentityPropagation() {
     return this.getBooleanAttribute('enable_identity_propagation');
   }
@@ -13970,7 +13970,7 @@ export class QuicksightDataSourceDataSourceParametersRedshiftParametersOutputRef
   }
 
   // cluster_id - computed: true, optional: true, required: false
-  private _clusterId?: string;
+  private _clusterId?: string; 
   public get clusterId() {
     return this.getStringAttribute('cluster_id');
   }
@@ -13986,7 +13986,7 @@ export class QuicksightDataSourceDataSourceParametersRedshiftParametersOutputRef
   }
 
   // database - computed: true, optional: true, required: false
-  private _database?: string;
+  private _database?: string; 
   public get database() {
     return this.getStringAttribute('database');
   }
@@ -14002,7 +14002,7 @@ export class QuicksightDataSourceDataSourceParametersRedshiftParametersOutputRef
   }
 
   // host - computed: true, optional: true, required: false
-  private _host?: string;
+  private _host?: string; 
   public get host() {
     return this.getStringAttribute('host');
   }
@@ -14050,7 +14050,7 @@ export class QuicksightDataSourceDataSourceParametersRedshiftParametersOutputRef
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -14165,7 +14165,7 @@ export class QuicksightDataSourceDataSourceParametersS3ParametersManifestFileLoc
   }
 
   // bucket - computed: true, optional: true, required: false
-  private _bucket?: string;
+  private _bucket?: string; 
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -14181,7 +14181,7 @@ export class QuicksightDataSourceDataSourceParametersS3ParametersManifestFileLoc
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -14312,7 +14312,7 @@ export class QuicksightDataSourceDataSourceParametersS3ParametersOutputReference
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -14406,7 +14406,7 @@ export class QuicksightDataSourceDataSourceParametersS3TablesParametersOutputRef
   }
 
   // table_bucket_arn - computed: true, optional: true, required: false
-  private _tableBucketArn?: string;
+  private _tableBucketArn?: string; 
   public get tableBucketArn() {
     return this.getStringAttribute('table_bucket_arn');
   }
@@ -14502,7 +14502,7 @@ export class QuicksightDataSourceDataSourceParametersSnowflakeParametersOAuthPar
   }
 
   // vpc_connection_arn - computed: true, optional: true, required: false
-  private _vpcConnectionArn?: string;
+  private _vpcConnectionArn?: string; 
   public get vpcConnectionArn() {
     return this.getStringAttribute('vpc_connection_arn');
   }
@@ -14649,7 +14649,7 @@ export class QuicksightDataSourceDataSourceParametersSnowflakeParametersOAuthPar
   }
 
   // identity_provider_resource_uri - computed: true, optional: true, required: false
-  private _identityProviderResourceUri?: string;
+  private _identityProviderResourceUri?: string; 
   public get identityProviderResourceUri() {
     return this.getStringAttribute('identity_provider_resource_uri');
   }
@@ -14681,7 +14681,7 @@ export class QuicksightDataSourceDataSourceParametersSnowflakeParametersOAuthPar
   }
 
   // o_auth_scope - computed: true, optional: true, required: false
-  private _oAuthScope?: string;
+  private _oAuthScope?: string; 
   public get oAuthScope() {
     return this.getStringAttribute('o_auth_scope');
   }
@@ -14697,7 +14697,7 @@ export class QuicksightDataSourceDataSourceParametersSnowflakeParametersOAuthPar
   }
 
   // token_provider_url - computed: true, optional: true, required: false
-  private _tokenProviderUrl?: string;
+  private _tokenProviderUrl?: string; 
   public get tokenProviderUrl() {
     return this.getStringAttribute('token_provider_url');
   }
@@ -14882,7 +14882,7 @@ export class QuicksightDataSourceDataSourceParametersSnowflakeParametersOutputRe
   }
 
   // authentication_type - computed: true, optional: true, required: false
-  private _authenticationType?: string;
+  private _authenticationType?: string; 
   public get authenticationType() {
     return this.getStringAttribute('authentication_type');
   }
@@ -14898,7 +14898,7 @@ export class QuicksightDataSourceDataSourceParametersSnowflakeParametersOutputRe
   }
 
   // database - computed: true, optional: true, required: false
-  private _database?: string;
+  private _database?: string; 
   public get database() {
     return this.getStringAttribute('database');
   }
@@ -14914,7 +14914,7 @@ export class QuicksightDataSourceDataSourceParametersSnowflakeParametersOutputRe
   }
 
   // database_access_control_role - computed: true, optional: true, required: false
-  private _databaseAccessControlRole?: string;
+  private _databaseAccessControlRole?: string; 
   public get databaseAccessControlRole() {
     return this.getStringAttribute('database_access_control_role');
   }
@@ -14930,7 +14930,7 @@ export class QuicksightDataSourceDataSourceParametersSnowflakeParametersOutputRe
   }
 
   // host - computed: true, optional: true, required: false
-  private _host?: string;
+  private _host?: string; 
   public get host() {
     return this.getStringAttribute('host');
   }
@@ -14962,7 +14962,7 @@ export class QuicksightDataSourceDataSourceParametersSnowflakeParametersOutputRe
   }
 
   // warehouse - computed: true, optional: true, required: false
-  private _warehouse?: string;
+  private _warehouse?: string; 
   public get warehouse() {
     return this.getStringAttribute('warehouse');
   }
@@ -15077,7 +15077,7 @@ export class QuicksightDataSourceDataSourceParametersSparkParametersOutputRefere
   }
 
   // host - computed: true, optional: true, required: false
-  private _host?: string;
+  private _host?: string; 
   public get host() {
     return this.getStringAttribute('host');
   }
@@ -15093,7 +15093,7 @@ export class QuicksightDataSourceDataSourceParametersSparkParametersOutputRefere
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -15227,7 +15227,7 @@ export class QuicksightDataSourceDataSourceParametersSqlServerParametersOutputRe
   }
 
   // database - computed: true, optional: true, required: false
-  private _database?: string;
+  private _database?: string; 
   public get database() {
     return this.getStringAttribute('database');
   }
@@ -15243,7 +15243,7 @@ export class QuicksightDataSourceDataSourceParametersSqlServerParametersOutputRe
   }
 
   // host - computed: true, optional: true, required: false
-  private _host?: string;
+  private _host?: string; 
   public get host() {
     return this.getStringAttribute('host');
   }
@@ -15259,7 +15259,7 @@ export class QuicksightDataSourceDataSourceParametersSqlServerParametersOutputRe
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -15355,7 +15355,7 @@ export class QuicksightDataSourceDataSourceParametersStarburstParametersOAuthPar
   }
 
   // vpc_connection_arn - computed: true, optional: true, required: false
-  private _vpcConnectionArn?: string;
+  private _vpcConnectionArn?: string; 
   public get vpcConnectionArn() {
     return this.getStringAttribute('vpc_connection_arn');
   }
@@ -15502,7 +15502,7 @@ export class QuicksightDataSourceDataSourceParametersStarburstParametersOAuthPar
   }
 
   // identity_provider_resource_uri - computed: true, optional: true, required: false
-  private _identityProviderResourceUri?: string;
+  private _identityProviderResourceUri?: string; 
   public get identityProviderResourceUri() {
     return this.getStringAttribute('identity_provider_resource_uri');
   }
@@ -15534,7 +15534,7 @@ export class QuicksightDataSourceDataSourceParametersStarburstParametersOAuthPar
   }
 
   // o_auth_scope - computed: true, optional: true, required: false
-  private _oAuthScope?: string;
+  private _oAuthScope?: string; 
   public get oAuthScope() {
     return this.getStringAttribute('o_auth_scope');
   }
@@ -15550,7 +15550,7 @@ export class QuicksightDataSourceDataSourceParametersStarburstParametersOAuthPar
   }
 
   // token_provider_url - computed: true, optional: true, required: false
-  private _tokenProviderUrl?: string;
+  private _tokenProviderUrl?: string; 
   public get tokenProviderUrl() {
     return this.getStringAttribute('token_provider_url');
   }
@@ -15752,7 +15752,7 @@ export class QuicksightDataSourceDataSourceParametersStarburstParametersOutputRe
   }
 
   // authentication_type - computed: true, optional: true, required: false
-  private _authenticationType?: string;
+  private _authenticationType?: string; 
   public get authenticationType() {
     return this.getStringAttribute('authentication_type');
   }
@@ -15768,7 +15768,7 @@ export class QuicksightDataSourceDataSourceParametersStarburstParametersOutputRe
   }
 
   // catalog - computed: true, optional: true, required: false
-  private _catalog?: string;
+  private _catalog?: string; 
   public get catalog() {
     return this.getStringAttribute('catalog');
   }
@@ -15784,7 +15784,7 @@ export class QuicksightDataSourceDataSourceParametersStarburstParametersOutputRe
   }
 
   // database_access_control_role - computed: true, optional: true, required: false
-  private _databaseAccessControlRole?: string;
+  private _databaseAccessControlRole?: string; 
   public get databaseAccessControlRole() {
     return this.getStringAttribute('database_access_control_role');
   }
@@ -15800,7 +15800,7 @@ export class QuicksightDataSourceDataSourceParametersStarburstParametersOutputRe
   }
 
   // host - computed: true, optional: true, required: false
-  private _host?: string;
+  private _host?: string; 
   public get host() {
     return this.getStringAttribute('host');
   }
@@ -15832,7 +15832,7 @@ export class QuicksightDataSourceDataSourceParametersStarburstParametersOutputRe
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -15848,7 +15848,7 @@ export class QuicksightDataSourceDataSourceParametersStarburstParametersOutputRe
   }
 
   // product_type - computed: true, optional: true, required: false
-  private _productType?: string;
+  private _productType?: string; 
   public get productType() {
     return this.getStringAttribute('product_type');
   }
@@ -15982,7 +15982,7 @@ export class QuicksightDataSourceDataSourceParametersTeradataParametersOutputRef
   }
 
   // database - computed: true, optional: true, required: false
-  private _database?: string;
+  private _database?: string; 
   public get database() {
     return this.getStringAttribute('database');
   }
@@ -15998,7 +15998,7 @@ export class QuicksightDataSourceDataSourceParametersTeradataParametersOutputRef
   }
 
   // host - computed: true, optional: true, required: false
-  private _host?: string;
+  private _host?: string; 
   public get host() {
     return this.getStringAttribute('host');
   }
@@ -16014,7 +16014,7 @@ export class QuicksightDataSourceDataSourceParametersTeradataParametersOutputRef
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -16148,7 +16148,7 @@ export class QuicksightDataSourceDataSourceParametersTrinoParametersOutputRefere
   }
 
   // catalog - computed: true, optional: true, required: false
-  private _catalog?: string;
+  private _catalog?: string; 
   public get catalog() {
     return this.getStringAttribute('catalog');
   }
@@ -16164,7 +16164,7 @@ export class QuicksightDataSourceDataSourceParametersTrinoParametersOutputRefere
   }
 
   // host - computed: true, optional: true, required: false
-  private _host?: string;
+  private _host?: string; 
   public get host() {
     return this.getStringAttribute('host');
   }
@@ -16180,7 +16180,7 @@ export class QuicksightDataSourceDataSourceParametersTrinoParametersOutputRefere
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -17088,7 +17088,7 @@ export class QuicksightDataSourceErrorInfoOutputReference extends cdktn.ComplexO
   }
 
   // message - computed: true, optional: true, required: false
-  private _message?: string;
+  private _message?: string; 
   public get message() {
     return this.getStringAttribute('message');
   }
@@ -17104,7 +17104,7 @@ export class QuicksightDataSourceErrorInfoOutputReference extends cdktn.ComplexO
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -17252,7 +17252,7 @@ export class QuicksightDataSourcePermissionsOutputReference extends cdktn.Comple
   }
 
   // actions - computed: true, optional: true, required: false
-  private _actions?: string[];
+  private _actions?: string[]; 
   public get actions() {
     return this.getListAttribute('actions');
   }
@@ -17268,7 +17268,7 @@ export class QuicksightDataSourcePermissionsOutputReference extends cdktn.Comple
   }
 
   // principal - computed: true, optional: true, required: false
-  private _principal?: string;
+  private _principal?: string; 
   public get principal() {
     return this.getStringAttribute('principal');
   }
@@ -17284,7 +17284,7 @@ export class QuicksightDataSourcePermissionsOutputReference extends cdktn.Comple
   }
 
   // resource - computed: true, optional: true, required: false
-  private _resource?: string;
+  private _resource?: string; 
   public get resource() {
     return this.getStringAttribute('resource');
   }
@@ -17400,7 +17400,7 @@ export class QuicksightDataSourceSslPropertiesOutputReference extends cdktn.Comp
   }
 
   // disable_ssl - computed: true, optional: true, required: false
-  private _disableSsl?: boolean | cdktn.IResolvable;
+  private _disableSsl?: boolean | cdktn.IResolvable; 
   public get disableSsl() {
     return this.getBooleanAttribute('disable_ssl');
   }
@@ -17517,7 +17517,7 @@ export class QuicksightDataSourceTagsOutputReference extends cdktn.ComplexObject
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -17533,7 +17533,7 @@ export class QuicksightDataSourceTagsOutputReference extends cdktn.ComplexObject
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -17649,7 +17649,7 @@ export class QuicksightDataSourceVpcConnectionPropertiesOutputReference extends 
   }
 
   // vpc_connection_arn - computed: true, optional: true, required: false
-  private _vpcConnectionArn?: string;
+  private _vpcConnectionArn?: string; 
   public get vpcConnectionArn() {
     return this.getStringAttribute('vpc_connection_arn');
   }
@@ -17756,7 +17756,7 @@ export class QuicksightDataSource extends cdktn.TerraformResource {
   }
 
   // aws_account_id - computed: true, optional: true, required: false
-  private _awsAccountId?: string;
+  private _awsAccountId?: string; 
   public get awsAccountId() {
     return this.getStringAttribute('aws_account_id');
   }
@@ -17793,7 +17793,7 @@ export class QuicksightDataSource extends cdktn.TerraformResource {
   }
 
   // data_source_id - computed: true, optional: true, required: false
-  private _dataSourceId?: string;
+  private _dataSourceId?: string; 
   public get dataSourceId() {
     return this.getStringAttribute('data_source_id');
   }
@@ -17841,7 +17841,7 @@ export class QuicksightDataSource extends cdktn.TerraformResource {
   }
 
   // folder_arns - computed: true, optional: true, required: false
-  private _folderArns?: string[];
+  private _folderArns?: string[]; 
   public get folderArns() {
     return this.getListAttribute('folder_arns');
   }
@@ -17867,7 +17867,7 @@ export class QuicksightDataSource extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -17933,7 +17933,7 @@ export class QuicksightDataSource extends cdktn.TerraformResource {
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }

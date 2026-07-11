@@ -2246,7 +2246,7 @@ export class BedrockFlowVersion extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -2267,7 +2267,7 @@ export class BedrockFlowVersion extends cdktn.TerraformResource {
   }
 
   // flow_arn - computed: false, optional: false, required: true
-  private _flowArn?: string;
+  private _flowArn?: string; 
   public get flowArn() {
     return this.getStringAttribute('flow_arn');
   }

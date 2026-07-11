@@ -86,7 +86,7 @@ export class DataAwsSfnStateMachineVersions extends cdktn.TerraformDataSource {
   // ==========
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -102,7 +102,7 @@ export class DataAwsSfnStateMachineVersions extends cdktn.TerraformDataSource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -118,7 +118,7 @@ export class DataAwsSfnStateMachineVersions extends cdktn.TerraformDataSource {
   }
 
   // statemachine_arn - computed: false, optional: false, required: true
-  private _statemachineArn?: string;
+  private _statemachineArn?: string; 
   public get statemachineArn() {
     return this.getStringAttribute('statemachine_arn');
   }

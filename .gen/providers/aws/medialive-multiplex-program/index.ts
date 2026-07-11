@@ -132,7 +132,7 @@ export class MedialiveMultiplexProgramMultiplexProgramSettingsServiceDescriptorO
   }
 
   // provider_name - computed: false, optional: false, required: true
-  private _providerName?: string;
+  private _providerName?: string; 
   public get providerName() {
     return this.getStringAttribute('provider_name');
   }
@@ -145,7 +145,7 @@ export class MedialiveMultiplexProgramMultiplexProgramSettingsServiceDescriptorO
   }
 
   // service_name - computed: false, optional: false, required: true
-  private _serviceName?: string;
+  private _serviceName?: string; 
   public get serviceName() {
     return this.getStringAttribute('service_name');
   }
@@ -292,7 +292,7 @@ export class MedialiveMultiplexProgramMultiplexProgramSettingsVideoSettingsStatm
   }
 
   // maximum_bitrate - computed: true, optional: true, required: false
-  private _maximumBitrate?: number;
+  private _maximumBitrate?: number; 
   public get maximumBitrate() {
     return this.getNumberAttribute('maximum_bitrate');
   }
@@ -308,7 +308,7 @@ export class MedialiveMultiplexProgramMultiplexProgramSettingsVideoSettingsStatm
   }
 
   // minimum_bitrate - computed: true, optional: true, required: false
-  private _minimumBitrate?: number;
+  private _minimumBitrate?: number; 
   public get minimumBitrate() {
     return this.getNumberAttribute('minimum_bitrate');
   }
@@ -324,7 +324,7 @@ export class MedialiveMultiplexProgramMultiplexProgramSettingsVideoSettingsStatm
   }
 
   // priority - computed: true, optional: true, required: false
-  private _priority?: number;
+  private _priority?: number; 
   public get priority() {
     return this.getNumberAttribute('priority');
   }
@@ -459,7 +459,7 @@ export class MedialiveMultiplexProgramMultiplexProgramSettingsVideoSettingsOutpu
   }
 
   // constant_bitrate - computed: true, optional: true, required: false
-  private _constantBitrate?: number;
+  private _constantBitrate?: number; 
   public get constantBitrate() {
     return this.getNumberAttribute('constant_bitrate');
   }
@@ -646,7 +646,7 @@ export class MedialiveMultiplexProgramMultiplexProgramSettingsOutputReference ex
   }
 
   // preferred_channel_pipeline - computed: false, optional: false, required: true
-  private _preferredChannelPipeline?: string;
+  private _preferredChannelPipeline?: string; 
   public get preferredChannelPipeline() {
     return this.getStringAttribute('preferred_channel_pipeline');
   }
@@ -659,7 +659,7 @@ export class MedialiveMultiplexProgramMultiplexProgramSettingsOutputReference ex
   }
 
   // program_number - computed: false, optional: false, required: true
-  private _programNumber?: number;
+  private _programNumber?: number; 
   public get programNumber() {
     return this.getNumberAttribute('program_number');
   }
@@ -804,7 +804,7 @@ export class MedialiveMultiplexProgramTimeoutsOutputReference extends cdktn.Comp
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -887,7 +887,7 @@ export class MedialiveMultiplexProgram extends cdktn.TerraformResource {
   }
 
   // multiplex_id - computed: false, optional: false, required: true
-  private _multiplexId?: string;
+  private _multiplexId?: string; 
   public get multiplexId() {
     return this.getStringAttribute('multiplex_id');
   }
@@ -900,7 +900,7 @@ export class MedialiveMultiplexProgram extends cdktn.TerraformResource {
   }
 
   // program_name - computed: false, optional: false, required: true
-  private _programName?: string;
+  private _programName?: string; 
   public get programName() {
     return this.getStringAttribute('program_name');
   }
@@ -913,7 +913,7 @@ export class MedialiveMultiplexProgram extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

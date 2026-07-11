@@ -80,7 +80,7 @@ export class Ec2SecurityGroupVpcAssociation extends cdktn.TerraformResource {
   // ==========
 
   // group_id - computed: false, optional: false, required: true
-  private _groupId?: string;
+  private _groupId?: string; 
   public get groupId() {
     return this.getStringAttribute('group_id');
   }
@@ -108,7 +108,7 @@ export class Ec2SecurityGroupVpcAssociation extends cdktn.TerraformResource {
   }
 
   // vpc_id - computed: false, optional: false, required: true
-  private _vpcId?: string;
+  private _vpcId?: string; 
   public get vpcId() {
     return this.getStringAttribute('vpc_id');
   }

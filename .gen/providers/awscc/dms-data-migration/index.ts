@@ -175,7 +175,7 @@ export class DmsDataMigrationDataMigrationSettingsOutputReference extends cdktn.
   }
 
   // cloudwatch_logs_enabled - computed: true, optional: true, required: false
-  private _cloudwatchLogsEnabled?: boolean | cdktn.IResolvable;
+  private _cloudwatchLogsEnabled?: boolean | cdktn.IResolvable; 
   public get cloudwatchLogsEnabled() {
     return this.getBooleanAttribute('cloudwatch_logs_enabled');
   }
@@ -191,7 +191,7 @@ export class DmsDataMigrationDataMigrationSettingsOutputReference extends cdktn.
   }
 
   // number_of_jobs - computed: true, optional: true, required: false
-  private _numberOfJobs?: number;
+  private _numberOfJobs?: number; 
   public get numberOfJobs() {
     return this.getNumberAttribute('number_of_jobs');
   }
@@ -207,7 +207,7 @@ export class DmsDataMigrationDataMigrationSettingsOutputReference extends cdktn.
   }
 
   // selection_rules - computed: true, optional: true, required: false
-  private _selectionRules?: string;
+  private _selectionRules?: string; 
   public get selectionRules() {
     return this.getStringAttribute('selection_rules');
   }
@@ -362,7 +362,7 @@ export class DmsDataMigrationSourceDataSettingsOutputReference extends cdktn.Com
   }
 
   // cdc_start_position - computed: true, optional: true, required: false
-  private _cdcStartPosition?: string;
+  private _cdcStartPosition?: string; 
   public get cdcStartPosition() {
     return this.getStringAttribute('cdc_start_position');
   }
@@ -378,7 +378,7 @@ export class DmsDataMigrationSourceDataSettingsOutputReference extends cdktn.Com
   }
 
   // cdc_start_time - computed: true, optional: true, required: false
-  private _cdcStartTime?: string;
+  private _cdcStartTime?: string; 
   public get cdcStartTime() {
     return this.getStringAttribute('cdc_start_time');
   }
@@ -394,7 +394,7 @@ export class DmsDataMigrationSourceDataSettingsOutputReference extends cdktn.Com
   }
 
   // cdc_stop_time - computed: true, optional: true, required: false
-  private _cdcStopTime?: string;
+  private _cdcStopTime?: string; 
   public get cdcStopTime() {
     return this.getStringAttribute('cdc_stop_time');
   }
@@ -410,7 +410,7 @@ export class DmsDataMigrationSourceDataSettingsOutputReference extends cdktn.Com
   }
 
   // slot_name - computed: true, optional: true, required: false
-  private _slotName?: string;
+  private _slotName?: string; 
   public get slotName() {
     return this.getStringAttribute('slot_name');
   }
@@ -547,7 +547,7 @@ export class DmsDataMigrationTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -563,7 +563,7 @@ export class DmsDataMigrationTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -674,7 +674,7 @@ export class DmsDataMigration extends cdktn.TerraformResource {
   }
 
   // data_migration_identifier - computed: true, optional: true, required: false
-  private _dataMigrationIdentifier?: string;
+  private _dataMigrationIdentifier?: string; 
   public get dataMigrationIdentifier() {
     return this.getStringAttribute('data_migration_identifier');
   }
@@ -690,7 +690,7 @@ export class DmsDataMigration extends cdktn.TerraformResource {
   }
 
   // data_migration_name - computed: true, optional: true, required: false
-  private _dataMigrationName?: string;
+  private _dataMigrationName?: string; 
   public get dataMigrationName() {
     return this.getStringAttribute('data_migration_name');
   }
@@ -722,7 +722,7 @@ export class DmsDataMigration extends cdktn.TerraformResource {
   }
 
   // data_migration_type - computed: false, optional: false, required: true
-  private _dataMigrationType?: string;
+  private _dataMigrationType?: string; 
   public get dataMigrationType() {
     return this.getStringAttribute('data_migration_type');
   }
@@ -740,7 +740,7 @@ export class DmsDataMigration extends cdktn.TerraformResource {
   }
 
   // migration_project_identifier - computed: false, optional: false, required: true
-  private _migrationProjectIdentifier?: string;
+  private _migrationProjectIdentifier?: string; 
   public get migrationProjectIdentifier() {
     return this.getStringAttribute('migration_project_identifier');
   }
@@ -753,7 +753,7 @@ export class DmsDataMigration extends cdktn.TerraformResource {
   }
 
   // service_access_role_arn - computed: false, optional: false, required: true
-  private _serviceAccessRoleArn?: string;
+  private _serviceAccessRoleArn?: string; 
   public get serviceAccessRoleArn() {
     return this.getStringAttribute('service_access_role_arn');
   }

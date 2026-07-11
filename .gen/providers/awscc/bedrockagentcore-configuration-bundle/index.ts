@@ -138,7 +138,7 @@ export class BedrockagentcoreConfigurationBundleComponentsOutputReference extend
   }
 
   // configuration - computed: true, optional: true, required: false
-  private _configuration?: string;
+  private _configuration?: string; 
   public get configuration() {
     return this.getStringAttribute('configuration');
   }
@@ -272,7 +272,7 @@ export class BedrockagentcoreConfigurationBundleCreatedByOutputReference extends
   }
 
   // arn - computed: true, optional: true, required: false
-  private _arn?: string;
+  private _arn?: string; 
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -288,7 +288,7 @@ export class BedrockagentcoreConfigurationBundleCreatedByOutputReference extends
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -530,7 +530,7 @@ export class BedrockagentcoreConfigurationBundleTagsOutputReference extends cdkt
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -546,7 +546,7 @@ export class BedrockagentcoreConfigurationBundleTagsOutputReference extends cdkt
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -647,7 +647,7 @@ export class BedrockagentcoreConfigurationBundle extends cdktn.TerraformResource
   // ==========
 
   // branch_name - computed: true, optional: true, required: false
-  private _branchName?: string;
+  private _branchName?: string; 
   public get branchName() {
     return this.getStringAttribute('branch_name');
   }
@@ -673,7 +673,7 @@ export class BedrockagentcoreConfigurationBundle extends cdktn.TerraformResource
   }
 
   // bundle_name - computed: false, optional: false, required: true
-  private _bundleName?: string;
+  private _bundleName?: string; 
   public get bundleName() {
     return this.getStringAttribute('bundle_name');
   }
@@ -686,7 +686,7 @@ export class BedrockagentcoreConfigurationBundle extends cdktn.TerraformResource
   }
 
   // commit_message - computed: true, optional: true, required: false
-  private _commitMessage?: string;
+  private _commitMessage?: string; 
   public get commitMessage() {
     return this.getStringAttribute('commit_message');
   }
@@ -736,7 +736,7 @@ export class BedrockagentcoreConfigurationBundle extends cdktn.TerraformResource
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -757,7 +757,7 @@ export class BedrockagentcoreConfigurationBundle extends cdktn.TerraformResource
   }
 
   // kms_key_arn - computed: true, optional: true, required: false
-  private _kmsKeyArn?: string;
+  private _kmsKeyArn?: string; 
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }

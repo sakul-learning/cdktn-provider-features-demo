@@ -106,7 +106,7 @@ export class DataAwsEcrImage extends cdktn.TerraformDataSource {
   // ==========
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -122,7 +122,7 @@ export class DataAwsEcrImage extends cdktn.TerraformDataSource {
   }
 
   // image_digest - computed: true, optional: true, required: false
-  private _imageDigest?: string;
+  private _imageDigest?: string; 
   public get imageDigest() {
     return this.getStringAttribute('image_digest');
   }
@@ -148,7 +148,7 @@ export class DataAwsEcrImage extends cdktn.TerraformDataSource {
   }
 
   // image_tag - computed: false, optional: true, required: false
-  private _imageTag?: string;
+  private _imageTag?: string; 
   public get imageTag() {
     return this.getStringAttribute('image_tag');
   }
@@ -174,7 +174,7 @@ export class DataAwsEcrImage extends cdktn.TerraformDataSource {
   }
 
   // most_recent - computed: false, optional: true, required: false
-  private _mostRecent?: boolean | cdktn.IResolvable;
+  private _mostRecent?: boolean | cdktn.IResolvable; 
   public get mostRecent() {
     return this.getBooleanAttribute('most_recent');
   }
@@ -190,7 +190,7 @@ export class DataAwsEcrImage extends cdktn.TerraformDataSource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -206,7 +206,7 @@ export class DataAwsEcrImage extends cdktn.TerraformDataSource {
   }
 
   // registry_id - computed: true, optional: true, required: false
-  private _registryId?: string;
+  private _registryId?: string; 
   public get registryId() {
     return this.getStringAttribute('registry_id');
   }
@@ -222,7 +222,7 @@ export class DataAwsEcrImage extends cdktn.TerraformDataSource {
   }
 
   // repository_name - computed: false, optional: false, required: true
-  private _repositoryName?: string;
+  private _repositoryName?: string; 
   public get repositoryName() {
     return this.getStringAttribute('repository_name');
   }

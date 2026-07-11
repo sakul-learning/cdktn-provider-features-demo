@@ -143,7 +143,7 @@ export class GameliftGameSessionQueueDestinationsOutputReference extends cdktn.C
   }
 
   // destination_arn - computed: true, optional: true, required: false
-  private _destinationArn?: string;
+  private _destinationArn?: string; 
   public get destinationArn() {
     return this.getStringAttribute('destination_arn');
   }
@@ -259,7 +259,7 @@ export class GameliftGameSessionQueueFilterConfigurationOutputReference extends 
   }
 
   // allowed_locations - computed: true, optional: true, required: false
-  private _allowedLocations?: string[];
+  private _allowedLocations?: string[]; 
   public get allowedLocations() {
     return this.getListAttribute('allowed_locations');
   }
@@ -376,7 +376,7 @@ export class GameliftGameSessionQueuePlayerLatencyPoliciesOutputReference extend
   }
 
   // maximum_individual_player_latency_milliseconds - computed: true, optional: true, required: false
-  private _maximumIndividualPlayerLatencyMilliseconds?: number;
+  private _maximumIndividualPlayerLatencyMilliseconds?: number; 
   public get maximumIndividualPlayerLatencyMilliseconds() {
     return this.getNumberAttribute('maximum_individual_player_latency_milliseconds');
   }
@@ -392,7 +392,7 @@ export class GameliftGameSessionQueuePlayerLatencyPoliciesOutputReference extend
   }
 
   // policy_duration_seconds - computed: true, optional: true, required: false
-  private _policyDurationSeconds?: number;
+  private _policyDurationSeconds?: number; 
   public get policyDurationSeconds() {
     return this.getNumberAttribute('policy_duration_seconds');
   }
@@ -527,7 +527,7 @@ export class GameliftGameSessionQueuePriorityConfigurationOutputReference extend
   }
 
   // location_order - computed: true, optional: true, required: false
-  private _locationOrder?: string[];
+  private _locationOrder?: string[]; 
   public get locationOrder() {
     return this.getListAttribute('location_order');
   }
@@ -543,7 +543,7 @@ export class GameliftGameSessionQueuePriorityConfigurationOutputReference extend
   }
 
   // priority_order - computed: true, optional: true, required: false
-  private _priorityOrder?: string[];
+  private _priorityOrder?: string[]; 
   public get priorityOrder() {
     return this.getListAttribute('priority_order');
   }
@@ -660,7 +660,7 @@ export class GameliftGameSessionQueueTagsOutputReference extends cdktn.ComplexOb
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -676,7 +676,7 @@ export class GameliftGameSessionQueueTagsOutputReference extends cdktn.ComplexOb
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -783,7 +783,7 @@ export class GameliftGameSessionQueue extends cdktn.TerraformResource {
   }
 
   // custom_event_data - computed: true, optional: true, required: false
-  private _customEventData?: string;
+  private _customEventData?: string; 
   public get customEventData() {
     return this.getStringAttribute('custom_event_data');
   }
@@ -836,7 +836,7 @@ export class GameliftGameSessionQueue extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -849,7 +849,7 @@ export class GameliftGameSessionQueue extends cdktn.TerraformResource {
   }
 
   // notification_target - computed: true, optional: true, required: false
-  private _notificationTarget?: string;
+  private _notificationTarget?: string; 
   public get notificationTarget() {
     return this.getStringAttribute('notification_target');
   }
@@ -913,7 +913,7 @@ export class GameliftGameSessionQueue extends cdktn.TerraformResource {
   }
 
   // timeout_in_seconds - computed: true, optional: true, required: false
-  private _timeoutInSeconds?: number;
+  private _timeoutInSeconds?: number; 
   public get timeoutInSeconds() {
     return this.getNumberAttribute('timeout_in_seconds');
   }

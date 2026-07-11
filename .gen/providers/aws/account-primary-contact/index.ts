@@ -139,7 +139,7 @@ export class AccountPrimaryContact extends cdktn.TerraformResource {
   // ==========
 
   // account_id - computed: false, optional: true, required: false
-  private _accountId?: string;
+  private _accountId?: string; 
   public get accountId() {
     return this.getStringAttribute('account_id');
   }
@@ -155,7 +155,7 @@ export class AccountPrimaryContact extends cdktn.TerraformResource {
   }
 
   // address_line_1 - computed: false, optional: false, required: true
-  private _addressLine1?: string;
+  private _addressLine1?: string; 
   public get addressLine1() {
     return this.getStringAttribute('address_line_1');
   }
@@ -168,7 +168,7 @@ export class AccountPrimaryContact extends cdktn.TerraformResource {
   }
 
   // address_line_2 - computed: false, optional: true, required: false
-  private _addressLine2?: string;
+  private _addressLine2?: string; 
   public get addressLine2() {
     return this.getStringAttribute('address_line_2');
   }
@@ -184,7 +184,7 @@ export class AccountPrimaryContact extends cdktn.TerraformResource {
   }
 
   // address_line_3 - computed: false, optional: true, required: false
-  private _addressLine3?: string;
+  private _addressLine3?: string; 
   public get addressLine3() {
     return this.getStringAttribute('address_line_3');
   }
@@ -200,7 +200,7 @@ export class AccountPrimaryContact extends cdktn.TerraformResource {
   }
 
   // city - computed: false, optional: false, required: true
-  private _city?: string;
+  private _city?: string; 
   public get city() {
     return this.getStringAttribute('city');
   }
@@ -213,7 +213,7 @@ export class AccountPrimaryContact extends cdktn.TerraformResource {
   }
 
   // company_name - computed: false, optional: true, required: false
-  private _companyName?: string;
+  private _companyName?: string; 
   public get companyName() {
     return this.getStringAttribute('company_name');
   }
@@ -229,7 +229,7 @@ export class AccountPrimaryContact extends cdktn.TerraformResource {
   }
 
   // country_code - computed: false, optional: false, required: true
-  private _countryCode?: string;
+  private _countryCode?: string; 
   public get countryCode() {
     return this.getStringAttribute('country_code');
   }
@@ -242,7 +242,7 @@ export class AccountPrimaryContact extends cdktn.TerraformResource {
   }
 
   // district_or_county - computed: false, optional: true, required: false
-  private _districtOrCounty?: string;
+  private _districtOrCounty?: string; 
   public get districtOrCounty() {
     return this.getStringAttribute('district_or_county');
   }
@@ -258,7 +258,7 @@ export class AccountPrimaryContact extends cdktn.TerraformResource {
   }
 
   // full_name - computed: false, optional: false, required: true
-  private _fullName?: string;
+  private _fullName?: string; 
   public get fullName() {
     return this.getStringAttribute('full_name');
   }
@@ -271,7 +271,7 @@ export class AccountPrimaryContact extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -287,7 +287,7 @@ export class AccountPrimaryContact extends cdktn.TerraformResource {
   }
 
   // phone_number - computed: false, optional: false, required: true
-  private _phoneNumber?: string;
+  private _phoneNumber?: string; 
   public get phoneNumber() {
     return this.getStringAttribute('phone_number');
   }
@@ -300,7 +300,7 @@ export class AccountPrimaryContact extends cdktn.TerraformResource {
   }
 
   // postal_code - computed: false, optional: false, required: true
-  private _postalCode?: string;
+  private _postalCode?: string; 
   public get postalCode() {
     return this.getStringAttribute('postal_code');
   }
@@ -313,7 +313,7 @@ export class AccountPrimaryContact extends cdktn.TerraformResource {
   }
 
   // state_or_region - computed: false, optional: true, required: false
-  private _stateOrRegion?: string;
+  private _stateOrRegion?: string; 
   public get stateOrRegion() {
     return this.getStringAttribute('state_or_region');
   }
@@ -329,7 +329,7 @@ export class AccountPrimaryContact extends cdktn.TerraformResource {
   }
 
   // website_url - computed: false, optional: true, required: false
-  private _websiteUrl?: string;
+  private _websiteUrl?: string; 
   public get websiteUrl() {
     return this.getStringAttribute('website_url');
   }

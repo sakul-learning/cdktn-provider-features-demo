@@ -116,7 +116,7 @@ export class GroundstationConfigConfigDataAntennaDownlinkConfigSpectrumConfigBan
   }
 
   // units - computed: true, optional: true, required: false
-  private _units?: string;
+  private _units?: string; 
   public get units() {
     return this.getStringAttribute('units');
   }
@@ -132,7 +132,7 @@ export class GroundstationConfigConfigDataAntennaDownlinkConfigSpectrumConfigBan
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: number;
+  private _value?: number; 
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -243,7 +243,7 @@ export class GroundstationConfigConfigDataAntennaDownlinkConfigSpectrumConfigCen
   }
 
   // units - computed: true, optional: true, required: false
-  private _units?: string;
+  private _units?: string; 
   public get units() {
     return this.getStringAttribute('units');
   }
@@ -259,7 +259,7 @@ export class GroundstationConfigConfigDataAntennaDownlinkConfigSpectrumConfigCen
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: number;
+  private _value?: number; 
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -419,7 +419,7 @@ export class GroundstationConfigConfigDataAntennaDownlinkConfigSpectrumConfigOut
   }
 
   // polarization - computed: true, optional: true, required: false
-  private _polarization?: string;
+  private _polarization?: string; 
   public get polarization() {
     return this.getStringAttribute('polarization');
   }
@@ -607,7 +607,7 @@ export class GroundstationConfigConfigDataAntennaDownlinkDemodDecodeConfigDecode
   }
 
   // unvalidated_json - computed: true, optional: true, required: false
-  private _unvalidatedJson?: string;
+  private _unvalidatedJson?: string; 
   public get unvalidatedJson() {
     return this.getStringAttribute('unvalidated_json');
   }
@@ -701,7 +701,7 @@ export class GroundstationConfigConfigDataAntennaDownlinkDemodDecodeConfigDemodu
   }
 
   // unvalidated_json - computed: true, optional: true, required: false
-  private _unvalidatedJson?: string;
+  private _unvalidatedJson?: string; 
   public get unvalidatedJson() {
     return this.getStringAttribute('unvalidated_json');
   }
@@ -812,7 +812,7 @@ export class GroundstationConfigConfigDataAntennaDownlinkDemodDecodeConfigSpectr
   }
 
   // units - computed: true, optional: true, required: false
-  private _units?: string;
+  private _units?: string; 
   public get units() {
     return this.getStringAttribute('units');
   }
@@ -828,7 +828,7 @@ export class GroundstationConfigConfigDataAntennaDownlinkDemodDecodeConfigSpectr
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: number;
+  private _value?: number; 
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -939,7 +939,7 @@ export class GroundstationConfigConfigDataAntennaDownlinkDemodDecodeConfigSpectr
   }
 
   // units - computed: true, optional: true, required: false
-  private _units?: string;
+  private _units?: string; 
   public get units() {
     return this.getStringAttribute('units');
   }
@@ -955,7 +955,7 @@ export class GroundstationConfigConfigDataAntennaDownlinkDemodDecodeConfigSpectr
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: number;
+  private _value?: number; 
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -1115,7 +1115,7 @@ export class GroundstationConfigConfigDataAntennaDownlinkDemodDecodeConfigSpectr
   }
 
   // polarization - computed: true, optional: true, required: false
-  private _polarization?: string;
+  private _polarization?: string; 
   public get polarization() {
     return this.getStringAttribute('polarization');
   }
@@ -1386,7 +1386,7 @@ export class GroundstationConfigConfigDataAntennaUplinkConfigSpectrumConfigCente
   }
 
   // units - computed: true, optional: true, required: false
-  private _units?: string;
+  private _units?: string; 
   public get units() {
     return this.getStringAttribute('units');
   }
@@ -1402,7 +1402,7 @@ export class GroundstationConfigConfigDataAntennaUplinkConfigSpectrumConfigCente
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: number;
+  private _value?: number; 
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -1529,7 +1529,7 @@ export class GroundstationConfigConfigDataAntennaUplinkConfigSpectrumConfigOutpu
   }
 
   // polarization - computed: true, optional: true, required: false
-  private _polarization?: string;
+  private _polarization?: string; 
   public get polarization() {
     return this.getStringAttribute('polarization');
   }
@@ -1640,7 +1640,7 @@ export class GroundstationConfigConfigDataAntennaUplinkConfigTargetEirpOutputRef
   }
 
   // units - computed: true, optional: true, required: false
-  private _units?: string;
+  private _units?: string; 
   public get units() {
     return this.getStringAttribute('units');
   }
@@ -1656,7 +1656,7 @@ export class GroundstationConfigConfigDataAntennaUplinkConfigTargetEirpOutputRef
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: number;
+  private _value?: number; 
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -1816,7 +1816,7 @@ export class GroundstationConfigConfigDataAntennaUplinkConfigOutputReference ext
   }
 
   // transmit_disabled - computed: true, optional: true, required: false
-  private _transmitDisabled?: boolean | cdktn.IResolvable;
+  private _transmitDisabled?: boolean | cdktn.IResolvable; 
   public get transmitDisabled() {
     return this.getBooleanAttribute('transmit_disabled');
   }
@@ -1927,7 +1927,7 @@ export class GroundstationConfigConfigDataDataflowEndpointConfigOutputReference 
   }
 
   // dataflow_endpoint_name - computed: true, optional: true, required: false
-  private _dataflowEndpointName?: string;
+  private _dataflowEndpointName?: string; 
   public get dataflowEndpointName() {
     return this.getStringAttribute('dataflow_endpoint_name');
   }
@@ -1943,7 +1943,7 @@ export class GroundstationConfigConfigDataDataflowEndpointConfigOutputReference 
   }
 
   // dataflow_endpoint_region - computed: true, optional: true, required: false
-  private _dataflowEndpointRegion?: string;
+  private _dataflowEndpointRegion?: string; 
   public get dataflowEndpointRegion() {
     return this.getStringAttribute('dataflow_endpoint_region');
   }
@@ -2071,7 +2071,7 @@ export class GroundstationConfigConfigDataS3RecordingConfigOutputReference exten
   }
 
   // bucket_arn - computed: true, optional: true, required: false
-  private _bucketArn?: string;
+  private _bucketArn?: string; 
   public get bucketArn() {
     return this.getStringAttribute('bucket_arn');
   }
@@ -2087,7 +2087,7 @@ export class GroundstationConfigConfigDataS3RecordingConfigOutputReference exten
   }
 
   // prefix - computed: true, optional: true, required: false
-  private _prefix?: string;
+  private _prefix?: string; 
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -2103,7 +2103,7 @@ export class GroundstationConfigConfigDataS3RecordingConfigOutputReference exten
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -2214,7 +2214,7 @@ export class GroundstationConfigConfigDataTelemetrySinkConfigTelemetrySinkDataKi
   }
 
   // kinesis_data_stream_arn - computed: true, optional: true, required: false
-  private _kinesisDataStreamArn?: string;
+  private _kinesisDataStreamArn?: string; 
   public get kinesisDataStreamArn() {
     return this.getStringAttribute('kinesis_data_stream_arn');
   }
@@ -2230,7 +2230,7 @@ export class GroundstationConfigConfigDataTelemetrySinkConfigTelemetrySinkDataKi
   }
 
   // kinesis_role_arn - computed: true, optional: true, required: false
-  private _kinesisRoleArn?: string;
+  private _kinesisRoleArn?: string; 
   public get kinesisRoleArn() {
     return this.getStringAttribute('kinesis_role_arn');
   }
@@ -2451,7 +2451,7 @@ export class GroundstationConfigConfigDataTelemetrySinkConfigOutputReference ext
   }
 
   // telemetry_sink_type - computed: true, optional: true, required: false
-  private _telemetrySinkType?: string;
+  private _telemetrySinkType?: string; 
   public get telemetrySinkType() {
     return this.getStringAttribute('telemetry_sink_type');
   }
@@ -2545,7 +2545,7 @@ export class GroundstationConfigConfigDataTrackingConfigOutputReference extends 
   }
 
   // autotrack - computed: true, optional: true, required: false
-  private _autotrack?: string;
+  private _autotrack?: string; 
   public get autotrack() {
     return this.getStringAttribute('autotrack');
   }
@@ -2656,7 +2656,7 @@ export class GroundstationConfigConfigDataUplinkEchoConfigOutputReference extend
   }
 
   // antenna_uplink_config_arn - computed: true, optional: true, required: false
-  private _antennaUplinkConfigArn?: string;
+  private _antennaUplinkConfigArn?: string; 
   public get antennaUplinkConfigArn() {
     return this.getStringAttribute('antenna_uplink_config_arn');
   }
@@ -2672,7 +2672,7 @@ export class GroundstationConfigConfigDataUplinkEchoConfigOutputReference extend
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -3110,7 +3110,7 @@ export class GroundstationConfigTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -3126,7 +3126,7 @@ export class GroundstationConfigTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -3250,7 +3250,7 @@ export class GroundstationConfig extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }

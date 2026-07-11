@@ -83,7 +83,7 @@ export class WorkspaceswebDataProtectionSettingsAssociation extends cdktn.Terraf
   // ==========
 
   // data_protection_settings_arn - computed: false, optional: false, required: true
-  private _dataProtectionSettingsArn?: string;
+  private _dataProtectionSettingsArn?: string; 
   public get dataProtectionSettingsArn() {
     return this.getStringAttribute('data_protection_settings_arn');
   }
@@ -96,7 +96,7 @@ export class WorkspaceswebDataProtectionSettingsAssociation extends cdktn.Terraf
   }
 
   // portal_arn - computed: false, optional: false, required: true
-  private _portalArn?: string;
+  private _portalArn?: string; 
   public get portalArn() {
     return this.getStringAttribute('portal_arn');
   }
@@ -109,7 +109,7 @@ export class WorkspaceswebDataProtectionSettingsAssociation extends cdktn.Terraf
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

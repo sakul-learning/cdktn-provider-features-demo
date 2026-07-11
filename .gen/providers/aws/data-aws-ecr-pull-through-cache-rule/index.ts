@@ -96,7 +96,7 @@ export class DataAwsEcrPullThroughCacheRule extends cdktn.TerraformDataSource {
   }
 
   // ecr_repository_prefix - computed: false, optional: false, required: true
-  private _ecrRepositoryPrefix?: string;
+  private _ecrRepositoryPrefix?: string; 
   public get ecrRepositoryPrefix() {
     return this.getStringAttribute('ecr_repository_prefix');
   }
@@ -109,7 +109,7 @@ export class DataAwsEcrPullThroughCacheRule extends cdktn.TerraformDataSource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -125,7 +125,7 @@ export class DataAwsEcrPullThroughCacheRule extends cdktn.TerraformDataSource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

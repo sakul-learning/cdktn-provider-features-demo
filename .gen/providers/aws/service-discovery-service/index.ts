@@ -165,7 +165,7 @@ export class ServiceDiscoveryServiceDnsConfigDnsRecordsOutputReference extends c
   }
 
   // ttl - computed: false, optional: false, required: true
-  private _ttl?: number;
+  private _ttl?: number; 
   public get ttl() {
     return this.getNumberAttribute('ttl');
   }
@@ -178,7 +178,7 @@ export class ServiceDiscoveryServiceDnsConfigDnsRecordsOutputReference extends c
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -315,7 +315,7 @@ export class ServiceDiscoveryServiceDnsConfigOutputReference extends cdktn.Compl
   }
 
   // namespace_id - computed: false, optional: false, required: true
-  private _namespaceId?: string;
+  private _namespaceId?: string; 
   public get namespaceId() {
     return this.getStringAttribute('namespace_id');
   }
@@ -328,7 +328,7 @@ export class ServiceDiscoveryServiceDnsConfigOutputReference extends cdktn.Compl
   }
 
   // routing_policy - computed: false, optional: true, required: false
-  private _routingPolicy?: string;
+  private _routingPolicy?: string; 
   public get routingPolicy() {
     return this.getStringAttribute('routing_policy');
   }
@@ -459,7 +459,7 @@ export class ServiceDiscoveryServiceHealthCheckConfigOutputReference extends cdk
   }
 
   // failure_threshold - computed: false, optional: true, required: false
-  private _failureThreshold?: number;
+  private _failureThreshold?: number; 
   public get failureThreshold() {
     return this.getNumberAttribute('failure_threshold');
   }
@@ -475,7 +475,7 @@ export class ServiceDiscoveryServiceHealthCheckConfigOutputReference extends cdk
   }
 
   // resource_path - computed: false, optional: true, required: false
-  private _resourcePath?: string;
+  private _resourcePath?: string; 
   public get resourcePath() {
     return this.getStringAttribute('resource_path');
   }
@@ -491,7 +491,7 @@ export class ServiceDiscoveryServiceHealthCheckConfigOutputReference extends cdk
   }
 
   // type - computed: false, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -575,7 +575,7 @@ export class ServiceDiscoveryServiceHealthCheckCustomConfigOutputReference exten
   }
 
   // failure_threshold - computed: false, optional: true, required: false
-  private _failureThreshold?: number;
+  private _failureThreshold?: number; 
   public get failureThreshold() {
     return this.getNumberAttribute('failure_threshold');
   }
@@ -665,7 +665,7 @@ export class ServiceDiscoveryService extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -681,7 +681,7 @@ export class ServiceDiscoveryService extends cdktn.TerraformResource {
   }
 
   // force_destroy - computed: false, optional: true, required: false
-  private _forceDestroy?: boolean | cdktn.IResolvable;
+  private _forceDestroy?: boolean | cdktn.IResolvable; 
   public get forceDestroy() {
     return this.getBooleanAttribute('force_destroy');
   }
@@ -697,7 +697,7 @@ export class ServiceDiscoveryService extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -713,7 +713,7 @@ export class ServiceDiscoveryService extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -726,7 +726,7 @@ export class ServiceDiscoveryService extends cdktn.TerraformResource {
   }
 
   // namespace_id - computed: true, optional: true, required: false
-  private _namespaceId?: string;
+  private _namespaceId?: string; 
   public get namespaceId() {
     return this.getStringAttribute('namespace_id');
   }
@@ -742,7 +742,7 @@ export class ServiceDiscoveryService extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -758,7 +758,7 @@ export class ServiceDiscoveryService extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -774,7 +774,7 @@ export class ServiceDiscoveryService extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -790,7 +790,7 @@ export class ServiceDiscoveryService extends cdktn.TerraformResource {
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }

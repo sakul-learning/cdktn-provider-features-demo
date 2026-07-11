@@ -343,7 +343,7 @@ export class InstanceCapacityReservationSpecificationCapacityReservationTargetOu
   }
 
   // capacity_reservation_id - computed: false, optional: true, required: false
-  private _capacityReservationId?: string;
+  private _capacityReservationId?: string; 
   public get capacityReservationId() {
     return this.getStringAttribute('capacity_reservation_id');
   }
@@ -359,7 +359,7 @@ export class InstanceCapacityReservationSpecificationCapacityReservationTargetOu
   }
 
   // capacity_reservation_resource_group_arn - computed: false, optional: true, required: false
-  private _capacityReservationResourceGroupArn?: string;
+  private _capacityReservationResourceGroupArn?: string; 
   public get capacityReservationResourceGroupArn() {
     return this.getStringAttribute('capacity_reservation_resource_group_arn');
   }
@@ -462,7 +462,7 @@ export class InstanceCapacityReservationSpecificationOutputReference extends cdk
   }
 
   // capacity_reservation_preference - computed: false, optional: true, required: false
-  private _capacityReservationPreference?: string;
+  private _capacityReservationPreference?: string; 
   public get capacityReservationPreference() {
     return this.getStringAttribute('capacity_reservation_preference');
   }
@@ -613,7 +613,7 @@ export class InstanceCpuOptionsOutputReference extends cdktn.ComplexObject {
   }
 
   // amd_sev_snp - computed: true, optional: true, required: false
-  private _amdSevSnp?: string;
+  private _amdSevSnp?: string; 
   public get amdSevSnp() {
     return this.getStringAttribute('amd_sev_snp');
   }
@@ -629,7 +629,7 @@ export class InstanceCpuOptionsOutputReference extends cdktn.ComplexObject {
   }
 
   // core_count - computed: true, optional: true, required: false
-  private _coreCount?: number;
+  private _coreCount?: number; 
   public get coreCount() {
     return this.getNumberAttribute('core_count');
   }
@@ -645,7 +645,7 @@ export class InstanceCpuOptionsOutputReference extends cdktn.ComplexObject {
   }
 
   // nested_virtualization - computed: true, optional: true, required: false
-  private _nestedVirtualization?: string;
+  private _nestedVirtualization?: string; 
   public get nestedVirtualization() {
     return this.getStringAttribute('nested_virtualization');
   }
@@ -661,7 +661,7 @@ export class InstanceCpuOptionsOutputReference extends cdktn.ComplexObject {
   }
 
   // threads_per_core - computed: true, optional: true, required: false
-  private _threadsPerCore?: number;
+  private _threadsPerCore?: number; 
   public get threadsPerCore() {
     return this.getNumberAttribute('threads_per_core');
   }
@@ -745,7 +745,7 @@ export class InstanceCreditSpecificationOutputReference extends cdktn.ComplexObj
   }
 
   // cpu_credits - computed: false, optional: true, required: false
-  private _cpuCredits?: string;
+  private _cpuCredits?: string; 
   public get cpuCredits() {
     return this.getStringAttribute('cpu_credits');
   }
@@ -1011,7 +1011,7 @@ export class InstanceEbsBlockDeviceOutputReference extends cdktn.ComplexObject {
   }
 
   // delete_on_termination - computed: false, optional: true, required: false
-  private _deleteOnTermination?: boolean | cdktn.IResolvable;
+  private _deleteOnTermination?: boolean | cdktn.IResolvable; 
   public get deleteOnTermination() {
     return this.getBooleanAttribute('delete_on_termination');
   }
@@ -1027,7 +1027,7 @@ export class InstanceEbsBlockDeviceOutputReference extends cdktn.ComplexObject {
   }
 
   // device_name - computed: false, optional: false, required: true
-  private _deviceName?: string;
+  private _deviceName?: string; 
   public get deviceName() {
     return this.getStringAttribute('device_name');
   }
@@ -1040,7 +1040,7 @@ export class InstanceEbsBlockDeviceOutputReference extends cdktn.ComplexObject {
   }
 
   // encrypted - computed: true, optional: true, required: false
-  private _encrypted?: boolean | cdktn.IResolvable;
+  private _encrypted?: boolean | cdktn.IResolvable; 
   public get encrypted() {
     return this.getBooleanAttribute('encrypted');
   }
@@ -1056,7 +1056,7 @@ export class InstanceEbsBlockDeviceOutputReference extends cdktn.ComplexObject {
   }
 
   // iops - computed: true, optional: true, required: false
-  private _iops?: number;
+  private _iops?: number; 
   public get iops() {
     return this.getNumberAttribute('iops');
   }
@@ -1072,7 +1072,7 @@ export class InstanceEbsBlockDeviceOutputReference extends cdktn.ComplexObject {
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -1088,7 +1088,7 @@ export class InstanceEbsBlockDeviceOutputReference extends cdktn.ComplexObject {
   }
 
   // snapshot_id - computed: true, optional: true, required: false
-  private _snapshotId?: string;
+  private _snapshotId?: string; 
   public get snapshotId() {
     return this.getStringAttribute('snapshot_id');
   }
@@ -1104,7 +1104,7 @@ export class InstanceEbsBlockDeviceOutputReference extends cdktn.ComplexObject {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -1120,7 +1120,7 @@ export class InstanceEbsBlockDeviceOutputReference extends cdktn.ComplexObject {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -1136,7 +1136,7 @@ export class InstanceEbsBlockDeviceOutputReference extends cdktn.ComplexObject {
   }
 
   // throughput - computed: true, optional: true, required: false
-  private _throughput?: number;
+  private _throughput?: number; 
   public get throughput() {
     return this.getNumberAttribute('throughput');
   }
@@ -1157,7 +1157,7 @@ export class InstanceEbsBlockDeviceOutputReference extends cdktn.ComplexObject {
   }
 
   // volume_size - computed: true, optional: true, required: false
-  private _volumeSize?: number;
+  private _volumeSize?: number; 
   public get volumeSize() {
     return this.getNumberAttribute('volume_size');
   }
@@ -1173,7 +1173,7 @@ export class InstanceEbsBlockDeviceOutputReference extends cdktn.ComplexObject {
   }
 
   // volume_type - computed: true, optional: true, required: false
-  private _volumeType?: string;
+  private _volumeType?: string; 
   public get volumeType() {
     return this.getStringAttribute('volume_type');
   }
@@ -1277,7 +1277,7 @@ export class InstanceEnclaveOptionsOutputReference extends cdktn.ComplexObject {
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -1407,7 +1407,7 @@ export class InstanceEphemeralBlockDeviceOutputReference extends cdktn.ComplexOb
   }
 
   // device_name - computed: false, optional: false, required: true
-  private _deviceName?: string;
+  private _deviceName?: string; 
   public get deviceName() {
     return this.getStringAttribute('device_name');
   }
@@ -1420,7 +1420,7 @@ export class InstanceEphemeralBlockDeviceOutputReference extends cdktn.ComplexOb
   }
 
   // no_device - computed: false, optional: true, required: false
-  private _noDevice?: boolean | cdktn.IResolvable;
+  private _noDevice?: boolean | cdktn.IResolvable; 
   public get noDevice() {
     return this.getBooleanAttribute('no_device');
   }
@@ -1436,7 +1436,7 @@ export class InstanceEphemeralBlockDeviceOutputReference extends cdktn.ComplexOb
   }
 
   // virtual_name - computed: false, optional: true, required: false
-  private _virtualName?: string;
+  private _virtualName?: string; 
   public get virtualName() {
     return this.getStringAttribute('virtual_name');
   }
@@ -1591,7 +1591,7 @@ export class InstanceInstanceMarketOptionsSpotOptionsOutputReference extends cdk
   }
 
   // instance_interruption_behavior - computed: true, optional: true, required: false
-  private _instanceInterruptionBehavior?: string;
+  private _instanceInterruptionBehavior?: string; 
   public get instanceInterruptionBehavior() {
     return this.getStringAttribute('instance_interruption_behavior');
   }
@@ -1607,7 +1607,7 @@ export class InstanceInstanceMarketOptionsSpotOptionsOutputReference extends cdk
   }
 
   // max_price - computed: true, optional: true, required: false
-  private _maxPrice?: string;
+  private _maxPrice?: string; 
   public get maxPrice() {
     return this.getStringAttribute('max_price');
   }
@@ -1623,7 +1623,7 @@ export class InstanceInstanceMarketOptionsSpotOptionsOutputReference extends cdk
   }
 
   // spot_instance_type - computed: true, optional: true, required: false
-  private _spotInstanceType?: string;
+  private _spotInstanceType?: string; 
   public get spotInstanceType() {
     return this.getStringAttribute('spot_instance_type');
   }
@@ -1639,7 +1639,7 @@ export class InstanceInstanceMarketOptionsSpotOptionsOutputReference extends cdk
   }
 
   // valid_until - computed: true, optional: true, required: false
-  private _validUntil?: string;
+  private _validUntil?: string; 
   public get validUntil() {
     return this.getStringAttribute('valid_until');
   }
@@ -1742,7 +1742,7 @@ export class InstanceInstanceMarketOptionsOutputReference extends cdktn.ComplexO
   }
 
   // market_type - computed: true, optional: true, required: false
-  private _marketType?: string;
+  private _marketType?: string; 
   public get marketType() {
     return this.getStringAttribute('market_type');
   }
@@ -1879,7 +1879,7 @@ export class InstanceLaunchTemplateOutputReference extends cdktn.ComplexObject {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -1895,7 +1895,7 @@ export class InstanceLaunchTemplateOutputReference extends cdktn.ComplexObject {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1911,7 +1911,7 @@ export class InstanceLaunchTemplateOutputReference extends cdktn.ComplexObject {
   }
 
   // version - computed: false, optional: true, required: false
-  private _version?: string;
+  private _version?: string; 
   public get version() {
     return this.getStringAttribute('version');
   }
@@ -1995,7 +1995,7 @@ export class InstanceMaintenanceOptionsOutputReference extends cdktn.ComplexObje
   }
 
   // auto_recovery - computed: true, optional: true, required: false
-  private _autoRecovery?: string;
+  private _autoRecovery?: string; 
   public get autoRecovery() {
     return this.getStringAttribute('auto_recovery');
   }
@@ -2147,7 +2147,7 @@ export class InstanceMetadataOptionsOutputReference extends cdktn.ComplexObject 
   }
 
   // http_endpoint - computed: false, optional: true, required: false
-  private _httpEndpoint?: string;
+  private _httpEndpoint?: string; 
   public get httpEndpoint() {
     return this.getStringAttribute('http_endpoint');
   }
@@ -2163,7 +2163,7 @@ export class InstanceMetadataOptionsOutputReference extends cdktn.ComplexObject 
   }
 
   // http_protocol_ipv6 - computed: false, optional: true, required: false
-  private _httpProtocolIpv6?: string;
+  private _httpProtocolIpv6?: string; 
   public get httpProtocolIpv6() {
     return this.getStringAttribute('http_protocol_ipv6');
   }
@@ -2179,7 +2179,7 @@ export class InstanceMetadataOptionsOutputReference extends cdktn.ComplexObject 
   }
 
   // http_put_response_hop_limit - computed: true, optional: true, required: false
-  private _httpPutResponseHopLimit?: number;
+  private _httpPutResponseHopLimit?: number; 
   public get httpPutResponseHopLimit() {
     return this.getNumberAttribute('http_put_response_hop_limit');
   }
@@ -2195,7 +2195,7 @@ export class InstanceMetadataOptionsOutputReference extends cdktn.ComplexObject 
   }
 
   // http_tokens - computed: true, optional: true, required: false
-  private _httpTokens?: string;
+  private _httpTokens?: string; 
   public get httpTokens() {
     return this.getStringAttribute('http_tokens');
   }
@@ -2211,7 +2211,7 @@ export class InstanceMetadataOptionsOutputReference extends cdktn.ComplexObject 
   }
 
   // instance_metadata_tags - computed: true, optional: true, required: false
-  private _instanceMetadataTags?: string;
+  private _instanceMetadataTags?: string; 
   public get instanceMetadataTags() {
     return this.getStringAttribute('instance_metadata_tags');
   }
@@ -2358,7 +2358,7 @@ export class InstanceNetworkInterfaceOutputReference extends cdktn.ComplexObject
   }
 
   // delete_on_termination - computed: false, optional: true, required: false
-  private _deleteOnTermination?: boolean | cdktn.IResolvable;
+  private _deleteOnTermination?: boolean | cdktn.IResolvable; 
   public get deleteOnTermination() {
     return this.getBooleanAttribute('delete_on_termination');
   }
@@ -2374,7 +2374,7 @@ export class InstanceNetworkInterfaceOutputReference extends cdktn.ComplexObject
   }
 
   // device_index - computed: false, optional: false, required: true
-  private _deviceIndex?: number;
+  private _deviceIndex?: number; 
   public get deviceIndex() {
     return this.getNumberAttribute('device_index');
   }
@@ -2387,7 +2387,7 @@ export class InstanceNetworkInterfaceOutputReference extends cdktn.ComplexObject
   }
 
   // network_card_index - computed: false, optional: true, required: false
-  private _networkCardIndex?: number;
+  private _networkCardIndex?: number; 
   public get networkCardIndex() {
     return this.getNumberAttribute('network_card_index');
   }
@@ -2403,7 +2403,7 @@ export class InstanceNetworkInterfaceOutputReference extends cdktn.ComplexObject
   }
 
   // network_interface_id - computed: false, optional: false, required: true
-  private _networkInterfaceId?: string;
+  private _networkInterfaceId?: string; 
   public get networkInterfaceId() {
     return this.getStringAttribute('network_interface_id');
   }
@@ -2509,7 +2509,7 @@ export class InstancePrimaryNetworkInterfaceOutputReference extends cdktn.Comple
   }
 
   // network_interface_id - computed: false, optional: false, required: true
-  private _networkInterfaceId?: string;
+  private _networkInterfaceId?: string; 
   public get networkInterfaceId() {
     return this.getStringAttribute('network_interface_id');
   }
@@ -2624,7 +2624,7 @@ export class InstancePrivateDnsNameOptionsOutputReference extends cdktn.ComplexO
   }
 
   // enable_resource_name_dns_a_record - computed: true, optional: true, required: false
-  private _enableResourceNameDnsARecord?: boolean | cdktn.IResolvable;
+  private _enableResourceNameDnsARecord?: boolean | cdktn.IResolvable; 
   public get enableResourceNameDnsARecord() {
     return this.getBooleanAttribute('enable_resource_name_dns_a_record');
   }
@@ -2640,7 +2640,7 @@ export class InstancePrivateDnsNameOptionsOutputReference extends cdktn.ComplexO
   }
 
   // enable_resource_name_dns_aaaa_record - computed: true, optional: true, required: false
-  private _enableResourceNameDnsAaaaRecord?: boolean | cdktn.IResolvable;
+  private _enableResourceNameDnsAaaaRecord?: boolean | cdktn.IResolvable; 
   public get enableResourceNameDnsAaaaRecord() {
     return this.getBooleanAttribute('enable_resource_name_dns_aaaa_record');
   }
@@ -2656,7 +2656,7 @@ export class InstancePrivateDnsNameOptionsOutputReference extends cdktn.ComplexO
   }
 
   // hostname_type - computed: true, optional: true, required: false
-  private _hostnameType?: string;
+  private _hostnameType?: string; 
   public get hostnameType() {
     return this.getStringAttribute('hostname_type');
   }
@@ -2876,7 +2876,7 @@ export class InstanceRootBlockDeviceOutputReference extends cdktn.ComplexObject 
   }
 
   // delete_on_termination - computed: false, optional: true, required: false
-  private _deleteOnTermination?: boolean | cdktn.IResolvable;
+  private _deleteOnTermination?: boolean | cdktn.IResolvable; 
   public get deleteOnTermination() {
     return this.getBooleanAttribute('delete_on_termination');
   }
@@ -2897,7 +2897,7 @@ export class InstanceRootBlockDeviceOutputReference extends cdktn.ComplexObject 
   }
 
   // encrypted - computed: true, optional: true, required: false
-  private _encrypted?: boolean | cdktn.IResolvable;
+  private _encrypted?: boolean | cdktn.IResolvable; 
   public get encrypted() {
     return this.getBooleanAttribute('encrypted');
   }
@@ -2913,7 +2913,7 @@ export class InstanceRootBlockDeviceOutputReference extends cdktn.ComplexObject 
   }
 
   // iops - computed: true, optional: true, required: false
-  private _iops?: number;
+  private _iops?: number; 
   public get iops() {
     return this.getNumberAttribute('iops');
   }
@@ -2929,7 +2929,7 @@ export class InstanceRootBlockDeviceOutputReference extends cdktn.ComplexObject 
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -2945,7 +2945,7 @@ export class InstanceRootBlockDeviceOutputReference extends cdktn.ComplexObject 
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -2961,7 +2961,7 @@ export class InstanceRootBlockDeviceOutputReference extends cdktn.ComplexObject 
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -2977,7 +2977,7 @@ export class InstanceRootBlockDeviceOutputReference extends cdktn.ComplexObject 
   }
 
   // throughput - computed: true, optional: true, required: false
-  private _throughput?: number;
+  private _throughput?: number; 
   public get throughput() {
     return this.getNumberAttribute('throughput');
   }
@@ -2998,7 +2998,7 @@ export class InstanceRootBlockDeviceOutputReference extends cdktn.ComplexObject 
   }
 
   // volume_size - computed: true, optional: true, required: false
-  private _volumeSize?: number;
+  private _volumeSize?: number; 
   public get volumeSize() {
     return this.getNumberAttribute('volume_size');
   }
@@ -3014,7 +3014,7 @@ export class InstanceRootBlockDeviceOutputReference extends cdktn.ComplexObject 
   }
 
   // volume_type - computed: true, optional: true, required: false
-  private _volumeType?: string;
+  private _volumeType?: string; 
   public get volumeType() {
     return this.getStringAttribute('volume_type');
   }
@@ -3195,7 +3195,7 @@ export class InstanceSecondaryNetworkInterfaceOutputReference extends cdktn.Comp
   }
 
   // delete_on_termination - computed: false, optional: true, required: false
-  private _deleteOnTermination?: boolean | cdktn.IResolvable;
+  private _deleteOnTermination?: boolean | cdktn.IResolvable; 
   public get deleteOnTermination() {
     return this.getBooleanAttribute('delete_on_termination');
   }
@@ -3211,7 +3211,7 @@ export class InstanceSecondaryNetworkInterfaceOutputReference extends cdktn.Comp
   }
 
   // device_index - computed: false, optional: true, required: false
-  private _deviceIndex?: number;
+  private _deviceIndex?: number; 
   public get deviceIndex() {
     return this.getNumberAttribute('device_index');
   }
@@ -3227,7 +3227,7 @@ export class InstanceSecondaryNetworkInterfaceOutputReference extends cdktn.Comp
   }
 
   // interface_type - computed: false, optional: true, required: false
-  private _interfaceType?: string;
+  private _interfaceType?: string; 
   public get interfaceType() {
     return this.getStringAttribute('interface_type');
   }
@@ -3248,7 +3248,7 @@ export class InstanceSecondaryNetworkInterfaceOutputReference extends cdktn.Comp
   }
 
   // network_card_index - computed: false, optional: false, required: true
-  private _networkCardIndex?: number;
+  private _networkCardIndex?: number; 
   public get networkCardIndex() {
     return this.getNumberAttribute('network_card_index');
   }
@@ -3261,7 +3261,7 @@ export class InstanceSecondaryNetworkInterfaceOutputReference extends cdktn.Comp
   }
 
   // private_ip_address_count - computed: false, optional: true, required: false
-  private _privateIpAddressCount?: number;
+  private _privateIpAddressCount?: number; 
   public get privateIpAddressCount() {
     return this.getNumberAttribute('private_ip_address_count');
   }
@@ -3292,7 +3292,7 @@ export class InstanceSecondaryNetworkInterfaceOutputReference extends cdktn.Comp
   }
 
   // secondary_subnet_id - computed: false, optional: false, required: true
-  private _secondarySubnetId?: string;
+  private _secondarySubnetId?: string; 
   public get secondarySubnetId() {
     return this.getStringAttribute('secondary_subnet_id');
   }
@@ -3464,7 +3464,7 @@ export class InstanceTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -3480,7 +3480,7 @@ export class InstanceTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -3496,7 +3496,7 @@ export class InstanceTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // read - computed: false, optional: true, required: false
-  private _read?: string;
+  private _read?: string; 
   public get read() {
     return this.getStringAttribute('read');
   }
@@ -3512,7 +3512,7 @@ export class InstanceTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -3638,7 +3638,7 @@ export class Instance extends cdktn.TerraformResource {
   // ==========
 
   // ami - computed: true, optional: true, required: false
-  private _ami?: string;
+  private _ami?: string; 
   public get ami() {
     return this.getStringAttribute('ami');
   }
@@ -3659,7 +3659,7 @@ export class Instance extends cdktn.TerraformResource {
   }
 
   // associate_public_ip_address - computed: true, optional: true, required: false
-  private _associatePublicIpAddress?: boolean | cdktn.IResolvable;
+  private _associatePublicIpAddress?: boolean | cdktn.IResolvable; 
   public get associatePublicIpAddress() {
     return this.getBooleanAttribute('associate_public_ip_address');
   }
@@ -3675,7 +3675,7 @@ export class Instance extends cdktn.TerraformResource {
   }
 
   // availability_zone - computed: true, optional: true, required: false
-  private _availabilityZone?: string;
+  private _availabilityZone?: string; 
   public get availabilityZone() {
     return this.getStringAttribute('availability_zone');
   }
@@ -3691,7 +3691,7 @@ export class Instance extends cdktn.TerraformResource {
   }
 
   // disable_api_stop - computed: true, optional: true, required: false
-  private _disableApiStop?: boolean | cdktn.IResolvable;
+  private _disableApiStop?: boolean | cdktn.IResolvable; 
   public get disableApiStop() {
     return this.getBooleanAttribute('disable_api_stop');
   }
@@ -3707,7 +3707,7 @@ export class Instance extends cdktn.TerraformResource {
   }
 
   // disable_api_termination - computed: true, optional: true, required: false
-  private _disableApiTermination?: boolean | cdktn.IResolvable;
+  private _disableApiTermination?: boolean | cdktn.IResolvable; 
   public get disableApiTermination() {
     return this.getBooleanAttribute('disable_api_termination');
   }
@@ -3723,7 +3723,7 @@ export class Instance extends cdktn.TerraformResource {
   }
 
   // ebs_optimized - computed: true, optional: true, required: false
-  private _ebsOptimized?: boolean | cdktn.IResolvable;
+  private _ebsOptimized?: boolean | cdktn.IResolvable; 
   public get ebsOptimized() {
     return this.getBooleanAttribute('ebs_optimized');
   }
@@ -3739,7 +3739,7 @@ export class Instance extends cdktn.TerraformResource {
   }
 
   // enable_primary_ipv6 - computed: true, optional: true, required: false
-  private _enablePrimaryIpv6?: boolean | cdktn.IResolvable;
+  private _enablePrimaryIpv6?: boolean | cdktn.IResolvable; 
   public get enablePrimaryIpv6() {
     return this.getBooleanAttribute('enable_primary_ipv6');
   }
@@ -3755,7 +3755,7 @@ export class Instance extends cdktn.TerraformResource {
   }
 
   // force_destroy - computed: false, optional: true, required: false
-  private _forceDestroy?: boolean | cdktn.IResolvable;
+  private _forceDestroy?: boolean | cdktn.IResolvable; 
   public get forceDestroy() {
     return this.getBooleanAttribute('force_destroy');
   }
@@ -3771,7 +3771,7 @@ export class Instance extends cdktn.TerraformResource {
   }
 
   // get_password_data - computed: false, optional: true, required: false
-  private _getPasswordData?: boolean | cdktn.IResolvable;
+  private _getPasswordData?: boolean | cdktn.IResolvable; 
   public get fetchPasswordData() {
     return this.getBooleanAttribute('get_password_data');
   }
@@ -3787,7 +3787,7 @@ export class Instance extends cdktn.TerraformResource {
   }
 
   // hibernation - computed: false, optional: true, required: false
-  private _hibernation?: boolean | cdktn.IResolvable;
+  private _hibernation?: boolean | cdktn.IResolvable; 
   public get hibernation() {
     return this.getBooleanAttribute('hibernation');
   }
@@ -3803,7 +3803,7 @@ export class Instance extends cdktn.TerraformResource {
   }
 
   // host_id - computed: true, optional: true, required: false
-  private _hostId?: string;
+  private _hostId?: string; 
   public get hostId() {
     return this.getStringAttribute('host_id');
   }
@@ -3819,7 +3819,7 @@ export class Instance extends cdktn.TerraformResource {
   }
 
   // host_resource_group_arn - computed: true, optional: true, required: false
-  private _hostResourceGroupArn?: string;
+  private _hostResourceGroupArn?: string; 
   public get hostResourceGroupArn() {
     return this.getStringAttribute('host_resource_group_arn');
   }
@@ -3835,7 +3835,7 @@ export class Instance extends cdktn.TerraformResource {
   }
 
   // iam_instance_profile - computed: true, optional: true, required: false
-  private _iamInstanceProfile?: string;
+  private _iamInstanceProfile?: string; 
   public get iamInstanceProfile() {
     return this.getStringAttribute('iam_instance_profile');
   }
@@ -3851,7 +3851,7 @@ export class Instance extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -3867,7 +3867,7 @@ export class Instance extends cdktn.TerraformResource {
   }
 
   // instance_initiated_shutdown_behavior - computed: true, optional: true, required: false
-  private _instanceInitiatedShutdownBehavior?: string;
+  private _instanceInitiatedShutdownBehavior?: string; 
   public get instanceInitiatedShutdownBehavior() {
     return this.getStringAttribute('instance_initiated_shutdown_behavior');
   }
@@ -3893,7 +3893,7 @@ export class Instance extends cdktn.TerraformResource {
   }
 
   // instance_type - computed: true, optional: true, required: false
-  private _instanceType?: string;
+  private _instanceType?: string; 
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -3909,7 +3909,7 @@ export class Instance extends cdktn.TerraformResource {
   }
 
   // ipv6_address_count - computed: true, optional: true, required: false
-  private _ipv6AddressCount?: number;
+  private _ipv6AddressCount?: number; 
   public get ipv6AddressCount() {
     return this.getNumberAttribute('ipv6_address_count');
   }
@@ -3925,7 +3925,7 @@ export class Instance extends cdktn.TerraformResource {
   }
 
   // ipv6_addresses - computed: true, optional: true, required: false
-  private _ipv6Addresses?: string[];
+  private _ipv6Addresses?: string[]; 
   public get ipv6Addresses() {
     return this.getListAttribute('ipv6_addresses');
   }
@@ -3941,7 +3941,7 @@ export class Instance extends cdktn.TerraformResource {
   }
 
   // key_name - computed: true, optional: true, required: false
-  private _keyName?: string;
+  private _keyName?: string; 
   public get keyName() {
     return this.getStringAttribute('key_name');
   }
@@ -3957,7 +3957,7 @@ export class Instance extends cdktn.TerraformResource {
   }
 
   // monitoring - computed: true, optional: true, required: false
-  private _monitoring?: boolean | cdktn.IResolvable;
+  private _monitoring?: boolean | cdktn.IResolvable; 
   public get monitoring() {
     return this.getBooleanAttribute('monitoring');
   }
@@ -3983,7 +3983,7 @@ export class Instance extends cdktn.TerraformResource {
   }
 
   // placement_group - computed: true, optional: true, required: false
-  private _placementGroup?: string;
+  private _placementGroup?: string; 
   public get placementGroup() {
     return this.getStringAttribute('placement_group');
   }
@@ -3999,7 +3999,7 @@ export class Instance extends cdktn.TerraformResource {
   }
 
   // placement_group_id - computed: true, optional: true, required: false
-  private _placementGroupId?: string;
+  private _placementGroupId?: string; 
   public get placementGroupId() {
     return this.getStringAttribute('placement_group_id');
   }
@@ -4015,7 +4015,7 @@ export class Instance extends cdktn.TerraformResource {
   }
 
   // placement_partition_number - computed: true, optional: true, required: false
-  private _placementPartitionNumber?: number;
+  private _placementPartitionNumber?: number; 
   public get placementPartitionNumber() {
     return this.getNumberAttribute('placement_partition_number');
   }
@@ -4041,7 +4041,7 @@ export class Instance extends cdktn.TerraformResource {
   }
 
   // private_ip - computed: true, optional: true, required: false
-  private _privateIp?: string;
+  private _privateIp?: string; 
   public get privateIp() {
     return this.getStringAttribute('private_ip');
   }
@@ -4067,7 +4067,7 @@ export class Instance extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -4083,7 +4083,7 @@ export class Instance extends cdktn.TerraformResource {
   }
 
   // secondary_private_ips - computed: true, optional: true, required: false
-  private _secondaryPrivateIps?: string[];
+  private _secondaryPrivateIps?: string[]; 
   public get secondaryPrivateIps() {
     return cdktn.Fn.tolist(this.getListAttribute('secondary_private_ips'));
   }
@@ -4099,7 +4099,7 @@ export class Instance extends cdktn.TerraformResource {
   }
 
   // security_groups - computed: true, optional: true, required: false
-  private _securityGroups?: string[];
+  private _securityGroups?: string[]; 
   public get securityGroups() {
     return cdktn.Fn.tolist(this.getListAttribute('security_groups'));
   }
@@ -4115,7 +4115,7 @@ export class Instance extends cdktn.TerraformResource {
   }
 
   // source_dest_check - computed: false, optional: true, required: false
-  private _sourceDestCheck?: boolean | cdktn.IResolvable;
+  private _sourceDestCheck?: boolean | cdktn.IResolvable; 
   public get sourceDestCheck() {
     return this.getBooleanAttribute('source_dest_check');
   }
@@ -4136,7 +4136,7 @@ export class Instance extends cdktn.TerraformResource {
   }
 
   // subnet_id - computed: true, optional: true, required: false
-  private _subnetId?: string;
+  private _subnetId?: string; 
   public get subnetId() {
     return this.getStringAttribute('subnet_id');
   }
@@ -4152,7 +4152,7 @@ export class Instance extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -4168,7 +4168,7 @@ export class Instance extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -4184,7 +4184,7 @@ export class Instance extends cdktn.TerraformResource {
   }
 
   // tenancy - computed: true, optional: true, required: false
-  private _tenancy?: string;
+  private _tenancy?: string; 
   public get tenancy() {
     return this.getStringAttribute('tenancy');
   }
@@ -4200,7 +4200,7 @@ export class Instance extends cdktn.TerraformResource {
   }
 
   // user_data - computed: false, optional: true, required: false
-  private _userData?: string;
+  private _userData?: string; 
   public get userData() {
     return this.getStringAttribute('user_data');
   }
@@ -4216,7 +4216,7 @@ export class Instance extends cdktn.TerraformResource {
   }
 
   // user_data_base64 - computed: true, optional: true, required: false
-  private _userDataBase64?: string;
+  private _userDataBase64?: string; 
   public get userDataBase64() {
     return this.getStringAttribute('user_data_base64');
   }
@@ -4232,7 +4232,7 @@ export class Instance extends cdktn.TerraformResource {
   }
 
   // user_data_replace_on_change - computed: false, optional: true, required: false
-  private _userDataReplaceOnChange?: boolean | cdktn.IResolvable;
+  private _userDataReplaceOnChange?: boolean | cdktn.IResolvable; 
   public get userDataReplaceOnChange() {
     return this.getBooleanAttribute('user_data_replace_on_change');
   }
@@ -4248,7 +4248,7 @@ export class Instance extends cdktn.TerraformResource {
   }
 
   // volume_tags - computed: false, optional: true, required: false
-  private _volumeTags?: { [key: string]: string };
+  private _volumeTags?: { [key: string]: string }; 
   public get volumeTags() {
     return this.getStringMapAttribute('volume_tags');
   }
@@ -4264,7 +4264,7 @@ export class Instance extends cdktn.TerraformResource {
   }
 
   // vpc_security_group_ids - computed: true, optional: true, required: false
-  private _vpcSecurityGroupIds?: string[];
+  private _vpcSecurityGroupIds?: string[]; 
   public get vpcSecurityGroupIds() {
     return cdktn.Fn.tolist(this.getListAttribute('vpc_security_group_ids'));
   }

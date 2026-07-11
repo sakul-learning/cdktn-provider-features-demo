@@ -108,7 +108,7 @@ export class ApprunnerObservabilityConfigurationTraceConfigurationOutputReferenc
   }
 
   // vendor - computed: false, optional: true, required: false
-  private _vendor?: string;
+  private _vendor?: string; 
   public get vendor() {
     return this.getStringAttribute('vendor');
   }
@@ -192,7 +192,7 @@ export class ApprunnerObservabilityConfiguration extends cdktn.TerraformResource
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -213,7 +213,7 @@ export class ApprunnerObservabilityConfiguration extends cdktn.TerraformResource
   }
 
   // observability_configuration_name - computed: false, optional: false, required: true
-  private _observabilityConfigurationName?: string;
+  private _observabilityConfigurationName?: string; 
   public get observabilityConfigurationName() {
     return this.getStringAttribute('observability_configuration_name');
   }
@@ -231,7 +231,7 @@ export class ApprunnerObservabilityConfiguration extends cdktn.TerraformResource
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -252,7 +252,7 @@ export class ApprunnerObservabilityConfiguration extends cdktn.TerraformResource
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -268,7 +268,7 @@ export class ApprunnerObservabilityConfiguration extends cdktn.TerraformResource
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

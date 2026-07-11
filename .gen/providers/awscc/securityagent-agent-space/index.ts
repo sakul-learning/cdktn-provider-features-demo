@@ -177,7 +177,7 @@ export class SecurityagentAgentSpaceAwsResourcesVpcsOutputReference extends cdkt
   }
 
   // security_group_arns - computed: true, optional: true, required: false
-  private _securityGroupArns?: string[];
+  private _securityGroupArns?: string[]; 
   public get securityGroupArns() {
     return this.getListAttribute('security_group_arns');
   }
@@ -193,7 +193,7 @@ export class SecurityagentAgentSpaceAwsResourcesVpcsOutputReference extends cdkt
   }
 
   // subnet_arns - computed: true, optional: true, required: false
-  private _subnetArns?: string[];
+  private _subnetArns?: string[]; 
   public get subnetArns() {
     return this.getListAttribute('subnet_arns');
   }
@@ -209,7 +209,7 @@ export class SecurityagentAgentSpaceAwsResourcesVpcsOutputReference extends cdkt
   }
 
   // vpc_arn - computed: true, optional: true, required: false
-  private _vpcArn?: string;
+  private _vpcArn?: string; 
   public get vpcArn() {
     return this.getStringAttribute('vpc_arn');
   }
@@ -420,7 +420,7 @@ export class SecurityagentAgentSpaceAwsResourcesOutputReference extends cdktn.Co
   }
 
   // iam_roles - computed: true, optional: true, required: false
-  private _iamRoles?: string[];
+  private _iamRoles?: string[]; 
   public get iamRoles() {
     return this.getListAttribute('iam_roles');
   }
@@ -436,7 +436,7 @@ export class SecurityagentAgentSpaceAwsResourcesOutputReference extends cdktn.Co
   }
 
   // lambda_function_arns - computed: true, optional: true, required: false
-  private _lambdaFunctionArns?: string[];
+  private _lambdaFunctionArns?: string[]; 
   public get lambdaFunctionArns() {
     return this.getListAttribute('lambda_function_arns');
   }
@@ -452,7 +452,7 @@ export class SecurityagentAgentSpaceAwsResourcesOutputReference extends cdktn.Co
   }
 
   // log_groups - computed: true, optional: true, required: false
-  private _logGroups?: string[];
+  private _logGroups?: string[]; 
   public get logGroups() {
     return this.getListAttribute('log_groups');
   }
@@ -468,7 +468,7 @@ export class SecurityagentAgentSpaceAwsResourcesOutputReference extends cdktn.Co
   }
 
   // s3_buckets - computed: true, optional: true, required: false
-  private _s3Buckets?: string[];
+  private _s3Buckets?: string[]; 
   public get s3Buckets() {
     return this.getListAttribute('s3_buckets');
   }
@@ -484,7 +484,7 @@ export class SecurityagentAgentSpaceAwsResourcesOutputReference extends cdktn.Co
   }
 
   // secret_arns - computed: true, optional: true, required: false
-  private _secretArns?: string[];
+  private _secretArns?: string[]; 
   public get secretArns() {
     return this.getListAttribute('secret_arns');
   }
@@ -615,7 +615,7 @@ export class SecurityagentAgentSpaceCodeReviewSettingsOutputReference extends cd
   }
 
   // controls_scanning - computed: true, optional: true, required: false
-  private _controlsScanning?: boolean | cdktn.IResolvable;
+  private _controlsScanning?: boolean | cdktn.IResolvable; 
   public get controlsScanning() {
     return this.getBooleanAttribute('controls_scanning');
   }
@@ -631,7 +631,7 @@ export class SecurityagentAgentSpaceCodeReviewSettingsOutputReference extends cd
   }
 
   // general_purpose_scanning - computed: true, optional: true, required: false
-  private _generalPurposeScanning?: boolean | cdktn.IResolvable;
+  private _generalPurposeScanning?: boolean | cdktn.IResolvable; 
   public get generalPurposeScanning() {
     return this.getBooleanAttribute('general_purpose_scanning');
   }
@@ -746,7 +746,7 @@ export class SecurityagentAgentSpaceIntegratedResourcesProviderResourcesBitbucke
   }
 
   // leave_comments - computed: true, optional: true, required: false
-  private _leaveComments?: boolean | cdktn.IResolvable;
+  private _leaveComments?: boolean | cdktn.IResolvable; 
   public get leaveComments() {
     return this.getBooleanAttribute('leave_comments');
   }
@@ -762,7 +762,7 @@ export class SecurityagentAgentSpaceIntegratedResourcesProviderResourcesBitbucke
   }
 
   // remediate_code - computed: true, optional: true, required: false
-  private _remediateCode?: boolean | cdktn.IResolvable;
+  private _remediateCode?: boolean | cdktn.IResolvable; 
   public get remediateCode() {
     return this.getBooleanAttribute('remediate_code');
   }
@@ -877,7 +877,7 @@ export class SecurityagentAgentSpaceIntegratedResourcesProviderResourcesBitbucke
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -893,7 +893,7 @@ export class SecurityagentAgentSpaceIntegratedResourcesProviderResourcesBitbucke
   }
 
   // workspace - computed: true, optional: true, required: false
-  private _workspace?: string;
+  private _workspace?: string; 
   public get workspace() {
     return this.getStringAttribute('workspace');
   }
@@ -1027,7 +1027,7 @@ export class SecurityagentAgentSpaceIntegratedResourcesProviderResourcesConfluen
   }
 
   // create_document - computed: true, optional: true, required: false
-  private _createDocument?: boolean | cdktn.IResolvable;
+  private _createDocument?: boolean | cdktn.IResolvable; 
   public get createDocument() {
     return this.getBooleanAttribute('create_document');
   }
@@ -1043,7 +1043,7 @@ export class SecurityagentAgentSpaceIntegratedResourcesProviderResourcesConfluen
   }
 
   // fetch_document - computed: true, optional: true, required: false
-  private _fetchDocument?: boolean | cdktn.IResolvable;
+  private _fetchDocument?: boolean | cdktn.IResolvable; 
   public get fetchDocument() {
     return this.getBooleanAttribute('fetch_document');
   }
@@ -1059,7 +1059,7 @@ export class SecurityagentAgentSpaceIntegratedResourcesProviderResourcesConfluen
   }
 
   // update_document - computed: true, optional: true, required: false
-  private _updateDocument?: boolean | cdktn.IResolvable;
+  private _updateDocument?: boolean | cdktn.IResolvable; 
   public get updateDocument() {
     return this.getBooleanAttribute('update_document');
   }
@@ -1231,7 +1231,7 @@ export class SecurityagentAgentSpaceIntegratedResourcesProviderResourcesConfluen
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1247,7 +1247,7 @@ export class SecurityagentAgentSpaceIntegratedResourcesProviderResourcesConfluen
   }
 
   // page_id - computed: true, optional: true, required: false
-  private _pageId?: string;
+  private _pageId?: string; 
   public get pageId() {
     return this.getStringAttribute('page_id');
   }
@@ -1263,7 +1263,7 @@ export class SecurityagentAgentSpaceIntegratedResourcesProviderResourcesConfluen
   }
 
   // space_key - computed: true, optional: true, required: false
-  private _spaceKey?: string;
+  private _spaceKey?: string; 
   public get spaceKey() {
     return this.getStringAttribute('space_key');
   }
@@ -1279,7 +1279,7 @@ export class SecurityagentAgentSpaceIntegratedResourcesProviderResourcesConfluen
   }
 
   // space_title - computed: true, optional: true, required: false
-  private _spaceTitle?: string;
+  private _spaceTitle?: string; 
   public get spaceTitle() {
     return this.getStringAttribute('space_title');
   }
@@ -1295,7 +1295,7 @@ export class SecurityagentAgentSpaceIntegratedResourcesProviderResourcesConfluen
   }
 
   // title - computed: true, optional: true, required: false
-  private _title?: string;
+  private _title?: string; 
   public get title() {
     return this.getStringAttribute('title');
   }
@@ -1410,7 +1410,7 @@ export class SecurityagentAgentSpaceIntegratedResourcesProviderResourcesGitHubCa
   }
 
   // leave_comments - computed: true, optional: true, required: false
-  private _leaveComments?: boolean | cdktn.IResolvable;
+  private _leaveComments?: boolean | cdktn.IResolvable; 
   public get leaveComments() {
     return this.getBooleanAttribute('leave_comments');
   }
@@ -1426,7 +1426,7 @@ export class SecurityagentAgentSpaceIntegratedResourcesProviderResourcesGitHubCa
   }
 
   // remediate_code - computed: true, optional: true, required: false
-  private _remediateCode?: boolean | cdktn.IResolvable;
+  private _remediateCode?: boolean | cdktn.IResolvable; 
   public get remediateCode() {
     return this.getBooleanAttribute('remediate_code');
   }
@@ -1541,7 +1541,7 @@ export class SecurityagentAgentSpaceIntegratedResourcesProviderResourcesGitHubRe
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1557,7 +1557,7 @@ export class SecurityagentAgentSpaceIntegratedResourcesProviderResourcesGitHubRe
   }
 
   // owner - computed: true, optional: true, required: false
-  private _owner?: string;
+  private _owner?: string; 
   public get owner() {
     return this.getStringAttribute('owner');
   }
@@ -1672,7 +1672,7 @@ export class SecurityagentAgentSpaceIntegratedResourcesProviderResourcesGitLabCa
   }
 
   // leave_comments - computed: true, optional: true, required: false
-  private _leaveComments?: boolean | cdktn.IResolvable;
+  private _leaveComments?: boolean | cdktn.IResolvable; 
   public get leaveComments() {
     return this.getBooleanAttribute('leave_comments');
   }
@@ -1688,7 +1688,7 @@ export class SecurityagentAgentSpaceIntegratedResourcesProviderResourcesGitLabCa
   }
 
   // remediate_code - computed: true, optional: true, required: false
-  private _remediateCode?: boolean | cdktn.IResolvable;
+  private _remediateCode?: boolean | cdktn.IResolvable; 
   public get remediateCode() {
     return this.getBooleanAttribute('remediate_code');
   }
@@ -1803,7 +1803,7 @@ export class SecurityagentAgentSpaceIntegratedResourcesProviderResourcesGitLabRe
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1819,7 +1819,7 @@ export class SecurityagentAgentSpaceIntegratedResourcesProviderResourcesGitLabRe
   }
 
   // namespace - computed: true, optional: true, required: false
-  private _namespace?: string;
+  private _namespace?: string; 
   public get namespace() {
     return this.getStringAttribute('namespace');
   }
@@ -2299,7 +2299,7 @@ export class SecurityagentAgentSpaceIntegratedResourcesOutputReference extends c
   }
 
   // integration - computed: true, optional: true, required: false
-  private _integration?: string;
+  private _integration?: string; 
   public get integration() {
     return this.getStringAttribute('integration');
   }
@@ -2452,7 +2452,7 @@ export class SecurityagentAgentSpaceTagsOutputReference extends cdktn.ComplexObj
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -2468,7 +2468,7 @@ export class SecurityagentAgentSpaceTagsOutputReference extends cdktn.ComplexObj
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2611,7 +2611,7 @@ export class SecurityagentAgentSpace extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -2648,7 +2648,7 @@ export class SecurityagentAgentSpace extends cdktn.TerraformResource {
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -2664,7 +2664,7 @@ export class SecurityagentAgentSpace extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2693,7 +2693,7 @@ export class SecurityagentAgentSpace extends cdktn.TerraformResource {
   }
 
   // target_domain_ids - computed: true, optional: true, required: false
-  private _targetDomainIds?: string[];
+  private _targetDomainIds?: string[]; 
   public get targetDomainIds() {
     return this.getListAttribute('target_domain_ids');
   }

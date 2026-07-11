@@ -181,7 +181,7 @@ export class AppstreamStackAccessEndpointsOutputReference extends cdktn.ComplexO
   }
 
   // endpoint_type - computed: false, optional: false, required: true
-  private _endpointType?: string;
+  private _endpointType?: string; 
   public get endpointType() {
     return this.getStringAttribute('endpoint_type');
   }
@@ -194,7 +194,7 @@ export class AppstreamStackAccessEndpointsOutputReference extends cdktn.ComplexO
   }
 
   // vpce_id - computed: true, optional: true, required: false
-  private _vpceId?: string;
+  private _vpceId?: string; 
   public get vpceId() {
     return this.getStringAttribute('vpce_id');
   }
@@ -315,7 +315,7 @@ export class AppstreamStackApplicationSettingsOutputReference extends cdktn.Comp
   }
 
   // enabled - computed: false, optional: false, required: true
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -328,7 +328,7 @@ export class AppstreamStackApplicationSettingsOutputReference extends cdktn.Comp
   }
 
   // settings_group - computed: false, optional: true, required: false
-  private _settingsGroup?: string;
+  private _settingsGroup?: string; 
   public get settingsGroup() {
     return this.getStringAttribute('settings_group');
   }
@@ -458,7 +458,7 @@ export class AppstreamStackStorageConnectorsOutputReference extends cdktn.Comple
   }
 
   // connector_type - computed: false, optional: false, required: true
-  private _connectorType?: string;
+  private _connectorType?: string; 
   public get connectorType() {
     return this.getStringAttribute('connector_type');
   }
@@ -471,7 +471,7 @@ export class AppstreamStackStorageConnectorsOutputReference extends cdktn.Comple
   }
 
   // domains - computed: true, optional: true, required: false
-  private _domains?: string[];
+  private _domains?: string[]; 
   public get domains() {
     return this.getListAttribute('domains');
   }
@@ -487,7 +487,7 @@ export class AppstreamStackStorageConnectorsOutputReference extends cdktn.Comple
   }
 
   // resource_identifier - computed: true, optional: true, required: false
-  private _resourceIdentifier?: string;
+  private _resourceIdentifier?: string; 
   public get resourceIdentifier() {
     return this.getStringAttribute('resource_identifier');
   }
@@ -591,7 +591,7 @@ export class AppstreamStackStreamingExperienceSettingsOutputReference extends cd
   }
 
   // preferred_protocol - computed: false, optional: true, required: false
-  private _preferredProtocol?: string;
+  private _preferredProtocol?: string; 
   public get preferredProtocol() {
     return this.getStringAttribute('preferred_protocol');
   }
@@ -704,7 +704,7 @@ export class AppstreamStackUserSettingsOutputReference extends cdktn.ComplexObje
   }
 
   // action - computed: false, optional: false, required: true
-  private _action?: string;
+  private _action?: string; 
   public get action() {
     return this.getStringAttribute('action');
   }
@@ -717,7 +717,7 @@ export class AppstreamStackUserSettingsOutputReference extends cdktn.ComplexObje
   }
 
   // permission - computed: false, optional: false, required: true
-  private _permission?: string;
+  private _permission?: string; 
   public get permission() {
     return this.getStringAttribute('permission');
   }
@@ -832,7 +832,7 @@ export class AppstreamStack extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -848,7 +848,7 @@ export class AppstreamStack extends cdktn.TerraformResource {
   }
 
   // display_name - computed: false, optional: true, required: false
-  private _displayName?: string;
+  private _displayName?: string; 
   public get displayName() {
     return this.getStringAttribute('display_name');
   }
@@ -864,7 +864,7 @@ export class AppstreamStack extends cdktn.TerraformResource {
   }
 
   // embed_host_domains - computed: true, optional: true, required: false
-  private _embedHostDomains?: string[];
+  private _embedHostDomains?: string[]; 
   public get embedHostDomains() {
     return cdktn.Fn.tolist(this.getListAttribute('embed_host_domains'));
   }
@@ -880,7 +880,7 @@ export class AppstreamStack extends cdktn.TerraformResource {
   }
 
   // feedback_url - computed: true, optional: true, required: false
-  private _feedbackUrl?: string;
+  private _feedbackUrl?: string; 
   public get feedbackUrl() {
     return this.getStringAttribute('feedback_url');
   }
@@ -896,7 +896,7 @@ export class AppstreamStack extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -912,7 +912,7 @@ export class AppstreamStack extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -925,7 +925,7 @@ export class AppstreamStack extends cdktn.TerraformResource {
   }
 
   // redirect_url - computed: true, optional: true, required: false
-  private _redirectUrl?: string;
+  private _redirectUrl?: string; 
   public get redirectUrl() {
     return this.getStringAttribute('redirect_url');
   }
@@ -941,7 +941,7 @@ export class AppstreamStack extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -957,7 +957,7 @@ export class AppstreamStack extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -973,7 +973,7 @@ export class AppstreamStack extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

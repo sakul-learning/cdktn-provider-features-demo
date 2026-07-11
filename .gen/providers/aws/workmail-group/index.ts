@@ -106,7 +106,7 @@ export class WorkmailGroup extends cdktn.TerraformResource {
   }
 
   // email - computed: false, optional: false, required: true
-  private _email?: string;
+  private _email?: string; 
   public get email() {
     return this.getStringAttribute('email');
   }
@@ -129,7 +129,7 @@ export class WorkmailGroup extends cdktn.TerraformResource {
   }
 
   // hidden_from_global_address_list - computed: true, optional: true, required: false
-  private _hiddenFromGlobalAddressList?: boolean | cdktn.IResolvable;
+  private _hiddenFromGlobalAddressList?: boolean | cdktn.IResolvable; 
   public get hiddenFromGlobalAddressList() {
     return this.getBooleanAttribute('hidden_from_global_address_list');
   }
@@ -145,7 +145,7 @@ export class WorkmailGroup extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -158,7 +158,7 @@ export class WorkmailGroup extends cdktn.TerraformResource {
   }
 
   // organization_id - computed: false, optional: false, required: true
-  private _organizationId?: string;
+  private _organizationId?: string; 
   public get organizationId() {
     return this.getStringAttribute('organization_id');
   }
@@ -171,7 +171,7 @@ export class WorkmailGroup extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

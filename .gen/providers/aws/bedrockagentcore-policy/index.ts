@@ -123,7 +123,7 @@ export class BedrockagentcorePolicyDefinitionCedarOutputReference extends cdktn.
   }
 
   // statement - computed: false, optional: false, required: true
-  private _statement?: string;
+  private _statement?: string; 
   public get statement() {
     return this.getStringAttribute('statement');
   }
@@ -392,7 +392,7 @@ export class BedrockagentcorePolicyTimeoutsOutputReference extends cdktn.Complex
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -408,7 +408,7 @@ export class BedrockagentcorePolicyTimeoutsOutputReference extends cdktn.Complex
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -424,7 +424,7 @@ export class BedrockagentcorePolicyTimeoutsOutputReference extends cdktn.Complex
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -504,7 +504,7 @@ export class BedrockagentcorePolicy extends cdktn.TerraformResource {
   // ==========
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -520,7 +520,7 @@ export class BedrockagentcorePolicy extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -538,7 +538,7 @@ export class BedrockagentcorePolicy extends cdktn.TerraformResource {
   }
 
   // policy_engine_id - computed: false, optional: false, required: true
-  private _policyEngineId?: string;
+  private _policyEngineId?: string; 
   public get policyEngineId() {
     return this.getStringAttribute('policy_engine_id');
   }
@@ -556,7 +556,7 @@ export class BedrockagentcorePolicy extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -572,7 +572,7 @@ export class BedrockagentcorePolicy extends cdktn.TerraformResource {
   }
 
   // validation_mode - computed: false, optional: true, required: false
-  private _validationMode?: string;
+  private _validationMode?: string; 
   public get validationMode() {
     return this.getStringAttribute('validation_mode');
   }

@@ -189,7 +189,7 @@ export class BackupRestoreTestingPlanRecoveryPointSelectionOutputReference exten
   }
 
   // algorithm - computed: false, optional: false, required: true
-  private _algorithm?: string;
+  private _algorithm?: string; 
   public get algorithm() {
     return this.getStringAttribute('algorithm');
   }
@@ -202,7 +202,7 @@ export class BackupRestoreTestingPlanRecoveryPointSelectionOutputReference exten
   }
 
   // exclude_vaults - computed: true, optional: true, required: false
-  private _excludeVaults?: string[];
+  private _excludeVaults?: string[]; 
   public get excludeVaults() {
     return cdktn.Fn.tolist(this.getListAttribute('exclude_vaults'));
   }
@@ -218,7 +218,7 @@ export class BackupRestoreTestingPlanRecoveryPointSelectionOutputReference exten
   }
 
   // include_vaults - computed: false, optional: false, required: true
-  private _includeVaults?: string[];
+  private _includeVaults?: string[]; 
   public get includeVaults() {
     return cdktn.Fn.tolist(this.getListAttribute('include_vaults'));
   }
@@ -231,7 +231,7 @@ export class BackupRestoreTestingPlanRecoveryPointSelectionOutputReference exten
   }
 
   // recovery_point_types - computed: false, optional: false, required: true
-  private _recoveryPointTypes?: string[];
+  private _recoveryPointTypes?: string[]; 
   public get recoveryPointTypes() {
     return cdktn.Fn.tolist(this.getListAttribute('recovery_point_types'));
   }
@@ -244,7 +244,7 @@ export class BackupRestoreTestingPlanRecoveryPointSelectionOutputReference exten
   }
 
   // selection_window_days - computed: true, optional: true, required: false
-  private _selectionWindowDays?: number;
+  private _selectionWindowDays?: number; 
   public get selectionWindowDays() {
     return this.getNumberAttribute('selection_window_days');
   }
@@ -349,7 +349,7 @@ export class BackupRestoreTestingPlan extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -362,7 +362,7 @@ export class BackupRestoreTestingPlan extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -378,7 +378,7 @@ export class BackupRestoreTestingPlan extends cdktn.TerraformResource {
   }
 
   // schedule_expression - computed: false, optional: false, required: true
-  private _scheduleExpression?: string;
+  private _scheduleExpression?: string; 
   public get scheduleExpression() {
     return this.getStringAttribute('schedule_expression');
   }
@@ -391,7 +391,7 @@ export class BackupRestoreTestingPlan extends cdktn.TerraformResource {
   }
 
   // schedule_expression_timezone - computed: true, optional: true, required: false
-  private _scheduleExpressionTimezone?: string;
+  private _scheduleExpressionTimezone?: string; 
   public get scheduleExpressionTimezone() {
     return this.getStringAttribute('schedule_expression_timezone');
   }
@@ -407,7 +407,7 @@ export class BackupRestoreTestingPlan extends cdktn.TerraformResource {
   }
 
   // start_window_hours - computed: true, optional: true, required: false
-  private _startWindowHours?: number;
+  private _startWindowHours?: number; 
   public get startWindowHours() {
     return this.getNumberAttribute('start_window_hours');
   }
@@ -423,7 +423,7 @@ export class BackupRestoreTestingPlan extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

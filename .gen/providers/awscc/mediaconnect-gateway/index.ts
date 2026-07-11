@@ -128,7 +128,7 @@ export class MediaconnectGatewayNetworksOutputReference extends cdktn.ComplexObj
   }
 
   // cidr_block - computed: false, optional: false, required: true
-  private _cidrBlock?: string;
+  private _cidrBlock?: string; 
   public get cidrBlock() {
     return this.getStringAttribute('cidr_block');
   }
@@ -141,7 +141,7 @@ export class MediaconnectGatewayNetworksOutputReference extends cdktn.ComplexObj
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -234,7 +234,7 @@ export class MediaconnectGateway extends cdktn.TerraformResource {
   // ==========
 
   // egress_cidr_blocks - computed: false, optional: false, required: true
-  private _egressCidrBlocks?: string[];
+  private _egressCidrBlocks?: string[]; 
   public get egressCidrBlocks() {
     return this.getListAttribute('egress_cidr_blocks');
   }
@@ -262,7 +262,7 @@ export class MediaconnectGateway extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }

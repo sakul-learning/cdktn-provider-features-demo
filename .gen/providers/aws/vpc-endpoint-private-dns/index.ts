@@ -83,7 +83,7 @@ export class VpcEndpointPrivateDns extends cdktn.TerraformResource {
   // ==========
 
   // private_dns_enabled - computed: false, optional: false, required: true
-  private _privateDnsEnabled?: boolean | cdktn.IResolvable;
+  private _privateDnsEnabled?: boolean | cdktn.IResolvable; 
   public get privateDnsEnabled() {
     return this.getBooleanAttribute('private_dns_enabled');
   }
@@ -96,7 +96,7 @@ export class VpcEndpointPrivateDns extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -112,7 +112,7 @@ export class VpcEndpointPrivateDns extends cdktn.TerraformResource {
   }
 
   // vpc_endpoint_id - computed: false, optional: false, required: true
-  private _vpcEndpointId?: string;
+  private _vpcEndpointId?: string; 
   public get vpcEndpointId() {
     return this.getStringAttribute('vpc_endpoint_id');
   }

@@ -166,7 +166,7 @@ export class LightsailInstanceAddOnOutputReference extends cdktn.ComplexObject {
   }
 
   // snapshot_time - computed: false, optional: false, required: true
-  private _snapshotTime?: string;
+  private _snapshotTime?: string; 
   public get snapshotTime() {
     return this.getStringAttribute('snapshot_time');
   }
@@ -179,7 +179,7 @@ export class LightsailInstanceAddOnOutputReference extends cdktn.ComplexObject {
   }
 
   // status - computed: false, optional: false, required: true
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -192,7 +192,7 @@ export class LightsailInstanceAddOnOutputReference extends cdktn.ComplexObject {
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -279,7 +279,7 @@ export class LightsailInstance extends cdktn.TerraformResource {
   }
 
   // availability_zone - computed: false, optional: false, required: true
-  private _availabilityZone?: string;
+  private _availabilityZone?: string; 
   public get availabilityZone() {
     return this.getStringAttribute('availability_zone');
   }
@@ -292,7 +292,7 @@ export class LightsailInstance extends cdktn.TerraformResource {
   }
 
   // blueprint_id - computed: false, optional: false, required: true
-  private _blueprintId?: string;
+  private _blueprintId?: string; 
   public get blueprintId() {
     return this.getStringAttribute('blueprint_id');
   }
@@ -305,7 +305,7 @@ export class LightsailInstance extends cdktn.TerraformResource {
   }
 
   // bundle_id - computed: false, optional: false, required: true
-  private _bundleId?: string;
+  private _bundleId?: string; 
   public get bundleId() {
     return this.getStringAttribute('bundle_id');
   }
@@ -328,7 +328,7 @@ export class LightsailInstance extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -344,7 +344,7 @@ export class LightsailInstance extends cdktn.TerraformResource {
   }
 
   // ip_address_type - computed: false, optional: true, required: false
-  private _ipAddressType?: string;
+  private _ipAddressType?: string; 
   public get ipAddressType() {
     return this.getStringAttribute('ip_address_type');
   }
@@ -370,7 +370,7 @@ export class LightsailInstance extends cdktn.TerraformResource {
   }
 
   // key_pair_name - computed: false, optional: true, required: false
-  private _keyPairName?: string;
+  private _keyPairName?: string; 
   public get keyPairName() {
     return this.getStringAttribute('key_pair_name');
   }
@@ -386,7 +386,7 @@ export class LightsailInstance extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -414,7 +414,7 @@ export class LightsailInstance extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -430,7 +430,7 @@ export class LightsailInstance extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -446,7 +446,7 @@ export class LightsailInstance extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -462,7 +462,7 @@ export class LightsailInstance extends cdktn.TerraformResource {
   }
 
   // user_data - computed: false, optional: true, required: false
-  private _userData?: string;
+  private _userData?: string; 
   public get userData() {
     return this.getStringAttribute('user_data');
   }

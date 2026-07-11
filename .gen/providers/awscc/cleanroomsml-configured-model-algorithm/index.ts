@@ -117,7 +117,7 @@ export class CleanroomsmlConfiguredModelAlgorithmInferenceContainerConfigOutputR
   }
 
   // image_uri - computed: true, optional: true, required: false
-  private _imageUri?: string;
+  private _imageUri?: string; 
   public get imageUri() {
     return this.getStringAttribute('image_uri');
   }
@@ -230,7 +230,7 @@ export class CleanroomsmlConfiguredModelAlgorithmTagsOutputReference extends cdk
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -246,7 +246,7 @@ export class CleanroomsmlConfiguredModelAlgorithmTagsOutputReference extends cdk
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -379,7 +379,7 @@ export class CleanroomsmlConfiguredModelAlgorithmTrainingContainerConfigMetricDe
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -395,7 +395,7 @@ export class CleanroomsmlConfiguredModelAlgorithmTrainingContainerConfigMetricDe
   }
 
   // regex - computed: true, optional: true, required: false
-  private _regex?: string;
+  private _regex?: string; 
   public get regex() {
     return this.getStringAttribute('regex');
   }
@@ -560,7 +560,7 @@ export class CleanroomsmlConfiguredModelAlgorithmTrainingContainerConfigOutputRe
   }
 
   // arguments - computed: true, optional: true, required: false
-  private _arguments?: string[];
+  private _arguments?: string[]; 
   public get arguments() {
     return this.getListAttribute('arguments');
   }
@@ -576,7 +576,7 @@ export class CleanroomsmlConfiguredModelAlgorithmTrainingContainerConfigOutputRe
   }
 
   // entrypoint - computed: true, optional: true, required: false
-  private _entrypoint?: string[];
+  private _entrypoint?: string[]; 
   public get entrypoint() {
     return this.getListAttribute('entrypoint');
   }
@@ -592,7 +592,7 @@ export class CleanroomsmlConfiguredModelAlgorithmTrainingContainerConfigOutputRe
   }
 
   // image_uri - computed: true, optional: true, required: false
-  private _imageUri?: string;
+  private _imageUri?: string; 
   public get imageUri() {
     return this.getStringAttribute('image_uri');
   }
@@ -693,7 +693,7 @@ export class CleanroomsmlConfiguredModelAlgorithm extends cdktn.TerraformResourc
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -730,7 +730,7 @@ export class CleanroomsmlConfiguredModelAlgorithm extends cdktn.TerraformResourc
   }
 
   // kms_key_arn - computed: true, optional: true, required: false
-  private _kmsKeyArn?: string;
+  private _kmsKeyArn?: string; 
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -746,7 +746,7 @@ export class CleanroomsmlConfiguredModelAlgorithm extends cdktn.TerraformResourc
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -759,7 +759,7 @@ export class CleanroomsmlConfiguredModelAlgorithm extends cdktn.TerraformResourc
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }

@@ -20,7 +20,7 @@ export interface AppflowConnectorConfig extends cdktn.TerraformMetaArguments {
   */
   readonly connectorProvisioningConfig: AppflowConnectorConnectorProvisioningConfig;
   /**
-  * The provisioning type of the connector. Currently the only supported value is LAMBDA.
+  * The provisioning type of the connector. Currently the only supported value is LAMBDA. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_connector#connector_provisioning_type AppflowConnector#connector_provisioning_type}
   */
@@ -113,7 +113,7 @@ export class AppflowConnectorConnectorProvisioningConfigLambdaOutputReference ex
   }
 
   // lambda_arn - computed: true, optional: true, required: false
-  private _lambdaArn?: string;
+  private _lambdaArn?: string; 
   public get lambdaArn() {
     return this.getStringAttribute('lambda_arn');
   }
@@ -291,7 +291,7 @@ export class AppflowConnector extends cdktn.TerraformResource {
   }
 
   // connector_label - computed: true, optional: true, required: false
-  private _connectorLabel?: string;
+  private _connectorLabel?: string; 
   public get connectorLabel() {
     return this.getStringAttribute('connector_label');
   }
@@ -320,7 +320,7 @@ export class AppflowConnector extends cdktn.TerraformResource {
   }
 
   // connector_provisioning_type - computed: false, optional: false, required: true
-  private _connectorProvisioningType?: string;
+  private _connectorProvisioningType?: string; 
   public get connectorProvisioningType() {
     return this.getStringAttribute('connector_provisioning_type');
   }
@@ -333,7 +333,7 @@ export class AppflowConnector extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }

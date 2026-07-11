@@ -112,7 +112,7 @@ export class SecurityagentApplicationIdCConfigurationOutputReference extends cdk
   }
 
   // id_c_instance_arn - computed: true, optional: true, required: false
-  private _idCInstanceArn?: string;
+  private _idCInstanceArn?: string; 
   public get idCInstanceArn() {
     return this.getStringAttribute('id_c_instance_arn');
   }
@@ -229,7 +229,7 @@ export class SecurityagentApplicationTagsOutputReference extends cdktn.ComplexOb
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -245,7 +245,7 @@ export class SecurityagentApplicationTagsOutputReference extends cdktn.ComplexOb
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -352,7 +352,7 @@ export class SecurityagentApplication extends cdktn.TerraformResource {
   }
 
   // default_kms_key_id - computed: true, optional: true, required: false
-  private _defaultKmsKeyId?: string;
+  private _defaultKmsKeyId?: string; 
   public get defaultKmsKeyId() {
     return this.getStringAttribute('default_kms_key_id');
   }
@@ -394,7 +394,7 @@ export class SecurityagentApplication extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }

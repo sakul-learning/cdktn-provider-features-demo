@@ -181,7 +181,7 @@ export class AppstreamImageBuilderAccessEndpointOutputReference extends cdktn.Co
   }
 
   // endpoint_type - computed: false, optional: false, required: true
-  private _endpointType?: string;
+  private _endpointType?: string; 
   public get endpointType() {
     return this.getStringAttribute('endpoint_type');
   }
@@ -194,7 +194,7 @@ export class AppstreamImageBuilderAccessEndpointOutputReference extends cdktn.Co
   }
 
   // vpce_id - computed: true, optional: true, required: false
-  private _vpceId?: string;
+  private _vpceId?: string; 
   public get vpceId() {
     return this.getStringAttribute('vpce_id');
   }
@@ -315,7 +315,7 @@ export class AppstreamImageBuilderDomainJoinInfoOutputReference extends cdktn.Co
   }
 
   // directory_name - computed: false, optional: true, required: false
-  private _directoryName?: string;
+  private _directoryName?: string; 
   public get directoryName() {
     return this.getStringAttribute('directory_name');
   }
@@ -331,7 +331,7 @@ export class AppstreamImageBuilderDomainJoinInfoOutputReference extends cdktn.Co
   }
 
   // organizational_unit_distinguished_name - computed: false, optional: true, required: false
-  private _organizationalUnitDistinguishedName?: string;
+  private _organizationalUnitDistinguishedName?: string; 
   public get organizationalUnitDistinguishedName() {
     return this.getStringAttribute('organizational_unit_distinguished_name');
   }
@@ -432,7 +432,7 @@ export class AppstreamImageBuilderVpcConfigOutputReference extends cdktn.Complex
   }
 
   // security_group_ids - computed: true, optional: true, required: false
-  private _securityGroupIds?: string[];
+  private _securityGroupIds?: string[]; 
   public get securityGroupIds() {
     return cdktn.Fn.tolist(this.getListAttribute('security_group_ids'));
   }
@@ -448,7 +448,7 @@ export class AppstreamImageBuilderVpcConfigOutputReference extends cdktn.Complex
   }
 
   // subnet_ids - computed: true, optional: true, required: false
-  private _subnetIds?: string[];
+  private _subnetIds?: string[]; 
   public get subnetIds() {
     return cdktn.Fn.tolist(this.getListAttribute('subnet_ids'));
   }
@@ -537,7 +537,7 @@ export class AppstreamImageBuilder extends cdktn.TerraformResource {
   // ==========
 
   // appstream_agent_version - computed: true, optional: true, required: false
-  private _appstreamAgentVersion?: string;
+  private _appstreamAgentVersion?: string; 
   public get appstreamAgentVersion() {
     return this.getStringAttribute('appstream_agent_version');
   }
@@ -563,7 +563,7 @@ export class AppstreamImageBuilder extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -579,7 +579,7 @@ export class AppstreamImageBuilder extends cdktn.TerraformResource {
   }
 
   // display_name - computed: true, optional: true, required: false
-  private _displayName?: string;
+  private _displayName?: string; 
   public get displayName() {
     return this.getStringAttribute('display_name');
   }
@@ -595,7 +595,7 @@ export class AppstreamImageBuilder extends cdktn.TerraformResource {
   }
 
   // enable_default_internet_access - computed: true, optional: true, required: false
-  private _enableDefaultInternetAccess?: boolean | cdktn.IResolvable;
+  private _enableDefaultInternetAccess?: boolean | cdktn.IResolvable; 
   public get enableDefaultInternetAccess() {
     return this.getBooleanAttribute('enable_default_internet_access');
   }
@@ -611,7 +611,7 @@ export class AppstreamImageBuilder extends cdktn.TerraformResource {
   }
 
   // iam_role_arn - computed: true, optional: true, required: false
-  private _iamRoleArn?: string;
+  private _iamRoleArn?: string; 
   public get iamRoleArn() {
     return this.getStringAttribute('iam_role_arn');
   }
@@ -627,7 +627,7 @@ export class AppstreamImageBuilder extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -643,7 +643,7 @@ export class AppstreamImageBuilder extends cdktn.TerraformResource {
   }
 
   // image_arn - computed: true, optional: true, required: false
-  private _imageArn?: string;
+  private _imageArn?: string; 
   public get imageArn() {
     return this.getStringAttribute('image_arn');
   }
@@ -659,7 +659,7 @@ export class AppstreamImageBuilder extends cdktn.TerraformResource {
   }
 
   // image_name - computed: true, optional: true, required: false
-  private _imageName?: string;
+  private _imageName?: string; 
   public get imageName() {
     return this.getStringAttribute('image_name');
   }
@@ -675,7 +675,7 @@ export class AppstreamImageBuilder extends cdktn.TerraformResource {
   }
 
   // instance_type - computed: false, optional: false, required: true
-  private _instanceType?: string;
+  private _instanceType?: string; 
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -688,7 +688,7 @@ export class AppstreamImageBuilder extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -701,7 +701,7 @@ export class AppstreamImageBuilder extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -722,7 +722,7 @@ export class AppstreamImageBuilder extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -738,7 +738,7 @@ export class AppstreamImageBuilder extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

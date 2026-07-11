@@ -134,7 +134,7 @@ export class MskReplicatorKafkaClusterAmazonMskClusterOutputReference extends cd
   }
 
   // msk_cluster_arn - computed: false, optional: false, required: true
-  private _mskClusterArn?: string;
+  private _mskClusterArn?: string; 
   public get mskClusterArn() {
     return this.getStringAttribute('msk_cluster_arn');
   }
@@ -232,7 +232,7 @@ export class MskReplicatorKafkaClusterVpcConfigOutputReference extends cdktn.Com
   }
 
   // security_groups_ids - computed: false, optional: true, required: false
-  private _securityGroupsIds?: string[];
+  private _securityGroupsIds?: string[]; 
   public get securityGroupsIds() {
     return cdktn.Fn.tolist(this.getListAttribute('security_groups_ids'));
   }
@@ -248,7 +248,7 @@ export class MskReplicatorKafkaClusterVpcConfigOutputReference extends cdktn.Com
   }
 
   // subnet_ids - computed: false, optional: false, required: true
-  private _subnetIds?: string[];
+  private _subnetIds?: string[]; 
   public get subnetIds() {
     return cdktn.Fn.tolist(this.getListAttribute('subnet_ids'));
   }
@@ -493,7 +493,7 @@ export class MskReplicatorLogDeliveryReplicatorLogDeliveryCloudwatchLogsOutputRe
   }
 
   // enabled - computed: false, optional: false, required: true
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -506,7 +506,7 @@ export class MskReplicatorLogDeliveryReplicatorLogDeliveryCloudwatchLogsOutputRe
   }
 
   // log_group - computed: false, optional: true, required: false
-  private _logGroup?: string;
+  private _logGroup?: string; 
   public get logGroup() {
     return this.getStringAttribute('log_group');
   }
@@ -607,7 +607,7 @@ export class MskReplicatorLogDeliveryReplicatorLogDeliveryFirehoseOutputReferenc
   }
 
   // delivery_stream - computed: false, optional: true, required: false
-  private _deliveryStream?: string;
+  private _deliveryStream?: string; 
   public get deliveryStream() {
     return this.getStringAttribute('delivery_stream');
   }
@@ -623,7 +623,7 @@ export class MskReplicatorLogDeliveryReplicatorLogDeliveryFirehoseOutputReferenc
   }
 
   // enabled - computed: false, optional: false, required: true
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -738,7 +738,7 @@ export class MskReplicatorLogDeliveryReplicatorLogDeliveryS3OutputReference exte
   }
 
   // bucket - computed: false, optional: true, required: false
-  private _bucket?: string;
+  private _bucket?: string; 
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -754,7 +754,7 @@ export class MskReplicatorLogDeliveryReplicatorLogDeliveryS3OutputReference exte
   }
 
   // enabled - computed: false, optional: false, required: true
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -767,7 +767,7 @@ export class MskReplicatorLogDeliveryReplicatorLogDeliveryS3OutputReference exte
   }
 
   // prefix - computed: false, optional: true, required: false
-  private _prefix?: string;
+  private _prefix?: string; 
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -1156,7 +1156,7 @@ export class MskReplicatorReplicationInfoListConsumerGroupReplicationOutputRefer
   }
 
   // consumer_groups_to_exclude - computed: true, optional: true, required: false
-  private _consumerGroupsToExclude?: string[];
+  private _consumerGroupsToExclude?: string[]; 
   public get consumerGroupsToExclude() {
     return cdktn.Fn.tolist(this.getListAttribute('consumer_groups_to_exclude'));
   }
@@ -1172,7 +1172,7 @@ export class MskReplicatorReplicationInfoListConsumerGroupReplicationOutputRefer
   }
 
   // consumer_groups_to_replicate - computed: false, optional: false, required: true
-  private _consumerGroupsToReplicate?: string[];
+  private _consumerGroupsToReplicate?: string[]; 
   public get consumerGroupsToReplicate() {
     return cdktn.Fn.tolist(this.getListAttribute('consumer_groups_to_replicate'));
   }
@@ -1185,7 +1185,7 @@ export class MskReplicatorReplicationInfoListConsumerGroupReplicationOutputRefer
   }
 
   // detect_and_copy_new_consumer_groups - computed: false, optional: true, required: false
-  private _detectAndCopyNewConsumerGroups?: boolean | cdktn.IResolvable;
+  private _detectAndCopyNewConsumerGroups?: boolean | cdktn.IResolvable; 
   public get detectAndCopyNewConsumerGroups() {
     return this.getBooleanAttribute('detect_and_copy_new_consumer_groups');
   }
@@ -1201,7 +1201,7 @@ export class MskReplicatorReplicationInfoListConsumerGroupReplicationOutputRefer
   }
 
   // synchronise_consumer_group_offsets - computed: false, optional: true, required: false
-  private _synchroniseConsumerGroupOffsets?: boolean | cdktn.IResolvable;
+  private _synchroniseConsumerGroupOffsets?: boolean | cdktn.IResolvable; 
   public get synchroniseConsumerGroupOffsets() {
     return this.getBooleanAttribute('synchronise_consumer_group_offsets');
   }
@@ -1305,7 +1305,7 @@ export class MskReplicatorReplicationInfoListTopicReplicationStartingPositionOut
   }
 
   // type - computed: false, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -1389,7 +1389,7 @@ export class MskReplicatorReplicationInfoListTopicReplicationTopicNameConfigurat
   }
 
   // type - computed: false, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -1591,7 +1591,7 @@ export class MskReplicatorReplicationInfoListTopicReplicationOutputReference ext
   }
 
   // copy_access_control_lists_for_topics - computed: false, optional: true, required: false
-  private _copyAccessControlListsForTopics?: boolean | cdktn.IResolvable;
+  private _copyAccessControlListsForTopics?: boolean | cdktn.IResolvable; 
   public get copyAccessControlListsForTopics() {
     return this.getBooleanAttribute('copy_access_control_lists_for_topics');
   }
@@ -1607,7 +1607,7 @@ export class MskReplicatorReplicationInfoListTopicReplicationOutputReference ext
   }
 
   // copy_topic_configurations - computed: false, optional: true, required: false
-  private _copyTopicConfigurations?: boolean | cdktn.IResolvable;
+  private _copyTopicConfigurations?: boolean | cdktn.IResolvable; 
   public get copyTopicConfigurations() {
     return this.getBooleanAttribute('copy_topic_configurations');
   }
@@ -1623,7 +1623,7 @@ export class MskReplicatorReplicationInfoListTopicReplicationOutputReference ext
   }
 
   // detect_and_copy_new_topics - computed: false, optional: true, required: false
-  private _detectAndCopyNewTopics?: boolean | cdktn.IResolvable;
+  private _detectAndCopyNewTopics?: boolean | cdktn.IResolvable; 
   public get detectAndCopyNewTopics() {
     return this.getBooleanAttribute('detect_and_copy_new_topics');
   }
@@ -1639,7 +1639,7 @@ export class MskReplicatorReplicationInfoListTopicReplicationOutputReference ext
   }
 
   // topics_to_exclude - computed: true, optional: true, required: false
-  private _topicsToExclude?: string[];
+  private _topicsToExclude?: string[]; 
   public get topicsToExclude() {
     return cdktn.Fn.tolist(this.getListAttribute('topics_to_exclude'));
   }
@@ -1655,7 +1655,7 @@ export class MskReplicatorReplicationInfoListTopicReplicationOutputReference ext
   }
 
   // topics_to_replicate - computed: false, optional: false, required: true
-  private _topicsToReplicate?: string[];
+  private _topicsToReplicate?: string[]; 
   public get topicsToReplicate() {
     return cdktn.Fn.tolist(this.getListAttribute('topics_to_replicate'));
   }
@@ -1865,7 +1865,7 @@ export class MskReplicatorReplicationInfoListStructOutputReference extends cdktn
   }
 
   // source_kafka_cluster_arn - computed: false, optional: false, required: true
-  private _sourceKafkaClusterArn?: string;
+  private _sourceKafkaClusterArn?: string; 
   public get sourceKafkaClusterArn() {
     return this.getStringAttribute('source_kafka_cluster_arn');
   }
@@ -1878,7 +1878,7 @@ export class MskReplicatorReplicationInfoListStructOutputReference extends cdktn
   }
 
   // target_compression_type - computed: false, optional: false, required: true
-  private _targetCompressionType?: string;
+  private _targetCompressionType?: string; 
   public get targetCompressionType() {
     return this.getStringAttribute('target_compression_type');
   }
@@ -1896,7 +1896,7 @@ export class MskReplicatorReplicationInfoListStructOutputReference extends cdktn
   }
 
   // target_kafka_cluster_arn - computed: false, optional: false, required: true
-  private _targetKafkaClusterArn?: string;
+  private _targetKafkaClusterArn?: string; 
   public get targetKafkaClusterArn() {
     return this.getStringAttribute('target_kafka_cluster_arn');
   }
@@ -2047,7 +2047,7 @@ export class MskReplicatorTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -2063,7 +2063,7 @@ export class MskReplicatorTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -2079,7 +2079,7 @@ export class MskReplicatorTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -2173,7 +2173,7 @@ export class MskReplicator extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -2189,7 +2189,7 @@ export class MskReplicator extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -2205,7 +2205,7 @@ export class MskReplicator extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -2221,7 +2221,7 @@ export class MskReplicator extends cdktn.TerraformResource {
   }
 
   // replicator_name - computed: false, optional: false, required: true
-  private _replicatorName?: string;
+  private _replicatorName?: string; 
   public get replicatorName() {
     return this.getStringAttribute('replicator_name');
   }
@@ -2234,7 +2234,7 @@ export class MskReplicator extends cdktn.TerraformResource {
   }
 
   // service_execution_role_arn - computed: false, optional: false, required: true
-  private _serviceExecutionRoleArn?: string;
+  private _serviceExecutionRoleArn?: string; 
   public get serviceExecutionRoleArn() {
     return this.getStringAttribute('service_execution_role_arn');
   }
@@ -2247,7 +2247,7 @@ export class MskReplicator extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -2263,7 +2263,7 @@ export class MskReplicator extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

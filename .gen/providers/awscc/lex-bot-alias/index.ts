@@ -156,7 +156,7 @@ export class LexBotAliasBotAliasLocaleSettingsBotAliasLocaleSettingCodeHookSpeci
   }
 
   // code_hook_interface_version - computed: true, optional: true, required: false
-  private _codeHookInterfaceVersion?: string;
+  private _codeHookInterfaceVersion?: string; 
   public get codeHookInterfaceVersion() {
     return this.getStringAttribute('code_hook_interface_version');
   }
@@ -172,7 +172,7 @@ export class LexBotAliasBotAliasLocaleSettingsBotAliasLocaleSettingCodeHookSpeci
   }
 
   // lambda_arn - computed: true, optional: true, required: false
-  private _lambdaArn?: string;
+  private _lambdaArn?: string; 
   public get lambdaArn() {
     return this.getStringAttribute('lambda_arn');
   }
@@ -399,7 +399,7 @@ export class LexBotAliasBotAliasLocaleSettingsBotAliasLocaleSettingOutputReferen
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -532,7 +532,7 @@ export class LexBotAliasBotAliasLocaleSettingsOutputReference extends cdktn.Comp
   }
 
   // locale_id - computed: true, optional: true, required: false
-  private _localeId?: string;
+  private _localeId?: string; 
   public get localeId() {
     return this.getStringAttribute('locale_id');
   }
@@ -669,7 +669,7 @@ export class LexBotAliasBotAliasTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -685,7 +685,7 @@ export class LexBotAliasBotAliasTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -839,7 +839,7 @@ export class LexBotAliasConversationLogSettingsAudioLogSettingsDestinationS3Buck
   }
 
   // kms_key_arn - computed: true, optional: true, required: false
-  private _kmsKeyArn?: string;
+  private _kmsKeyArn?: string; 
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -855,7 +855,7 @@ export class LexBotAliasConversationLogSettingsAudioLogSettingsDestinationS3Buck
   }
 
   // log_prefix - computed: true, optional: true, required: false
-  private _logPrefix?: string;
+  private _logPrefix?: string; 
   public get logPrefix() {
     return this.getStringAttribute('log_prefix');
   }
@@ -871,7 +871,7 @@ export class LexBotAliasConversationLogSettingsAudioLogSettingsDestinationS3Buck
   }
 
   // s3_bucket_arn - computed: true, optional: true, required: false
-  private _s3BucketArn?: string;
+  private _s3BucketArn?: string; 
   public get s3BucketArn() {
     return this.getStringAttribute('s3_bucket_arn');
   }
@@ -1098,7 +1098,7 @@ export class LexBotAliasConversationLogSettingsAudioLogSettingsOutputReference e
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -1233,7 +1233,7 @@ export class LexBotAliasConversationLogSettingsTextLogSettingsDestinationCloudwa
   }
 
   // cloudwatch_log_group_arn - computed: true, optional: true, required: false
-  private _cloudwatchLogGroupArn?: string;
+  private _cloudwatchLogGroupArn?: string; 
   public get cloudwatchLogGroupArn() {
     return this.getStringAttribute('cloudwatch_log_group_arn');
   }
@@ -1249,7 +1249,7 @@ export class LexBotAliasConversationLogSettingsTextLogSettingsDestinationCloudwa
   }
 
   // log_prefix - computed: true, optional: true, required: false
-  private _logPrefix?: string;
+  private _logPrefix?: string; 
   public get logPrefix() {
     return this.getStringAttribute('log_prefix');
   }
@@ -1474,7 +1474,7 @@ export class LexBotAliasConversationLogSettingsTextLogSettingsOutputReference ex
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -1721,7 +1721,7 @@ export class LexBotAliasSentimentAnalysisSettingsOutputReference extends cdktn.C
   }
 
   // detect_sentiment - computed: true, optional: true, required: false
-  private _detectSentiment?: boolean | cdktn.IResolvable;
+  private _detectSentiment?: boolean | cdktn.IResolvable; 
   public get detectSentiment() {
     return this.getBooleanAttribute('detect_sentiment');
   }
@@ -1828,7 +1828,7 @@ export class LexBotAlias extends cdktn.TerraformResource {
   }
 
   // bot_alias_name - computed: false, optional: false, required: true
-  private _botAliasName?: string;
+  private _botAliasName?: string; 
   public get botAliasName() {
     return this.getStringAttribute('bot_alias_name');
   }
@@ -1862,7 +1862,7 @@ export class LexBotAlias extends cdktn.TerraformResource {
   }
 
   // bot_id - computed: false, optional: false, required: true
-  private _botId?: string;
+  private _botId?: string; 
   public get botId() {
     return this.getStringAttribute('bot_id');
   }
@@ -1875,7 +1875,7 @@ export class LexBotAlias extends cdktn.TerraformResource {
   }
 
   // bot_version - computed: true, optional: true, required: false
-  private _botVersion?: string;
+  private _botVersion?: string; 
   public get botVersion() {
     return this.getStringAttribute('bot_version');
   }
@@ -1907,7 +1907,7 @@ export class LexBotAlias extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }

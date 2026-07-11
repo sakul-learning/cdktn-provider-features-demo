@@ -131,7 +131,7 @@ export class SnapshotCreateVolumePermissionTimeoutsOutputReference extends cdktn
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -147,7 +147,7 @@ export class SnapshotCreateVolumePermissionTimeoutsOutputReference extends cdktn
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -225,7 +225,7 @@ export class SnapshotCreateVolumePermission extends cdktn.TerraformResource {
   // ==========
 
   // account_id - computed: false, optional: false, required: true
-  private _accountId?: string;
+  private _accountId?: string; 
   public get accountId() {
     return this.getStringAttribute('account_id');
   }
@@ -238,7 +238,7 @@ export class SnapshotCreateVolumePermission extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -254,7 +254,7 @@ export class SnapshotCreateVolumePermission extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -270,7 +270,7 @@ export class SnapshotCreateVolumePermission extends cdktn.TerraformResource {
   }
 
   // snapshot_id - computed: false, optional: false, required: true
-  private _snapshotId?: string;
+  private _snapshotId?: string; 
   public get snapshotId() {
     return this.getStringAttribute('snapshot_id');
   }

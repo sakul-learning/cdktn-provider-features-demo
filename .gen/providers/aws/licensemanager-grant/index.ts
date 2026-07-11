@@ -109,7 +109,7 @@ export class LicensemanagerGrant extends cdktn.TerraformResource {
   // ==========
 
   // allowed_operations - computed: false, optional: false, required: true
-  private _allowedOperations?: string[];
+  private _allowedOperations?: string[]; 
   public get allowedOperations() {
     return cdktn.Fn.tolist(this.getListAttribute('allowed_operations'));
   }
@@ -132,7 +132,7 @@ export class LicensemanagerGrant extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -148,7 +148,7 @@ export class LicensemanagerGrant extends cdktn.TerraformResource {
   }
 
   // license_arn - computed: false, optional: false, required: true
-  private _licenseArn?: string;
+  private _licenseArn?: string; 
   public get licenseArn() {
     return this.getStringAttribute('license_arn');
   }
@@ -161,7 +161,7 @@ export class LicensemanagerGrant extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -179,7 +179,7 @@ export class LicensemanagerGrant extends cdktn.TerraformResource {
   }
 
   // principal - computed: false, optional: false, required: true
-  private _principal?: string;
+  private _principal?: string; 
   public get principal() {
     return this.getStringAttribute('principal');
   }
@@ -192,7 +192,7 @@ export class LicensemanagerGrant extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

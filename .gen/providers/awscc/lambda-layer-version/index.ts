@@ -182,7 +182,7 @@ export class LambdaLayerVersionContentOutputReference extends cdktn.ComplexObjec
   }
 
   // s3_bucket - computed: false, optional: false, required: true
-  private _s3Bucket?: string;
+  private _s3Bucket?: string; 
   public get s3Bucket() {
     return this.getStringAttribute('s3_bucket');
   }
@@ -195,7 +195,7 @@ export class LambdaLayerVersionContentOutputReference extends cdktn.ComplexObjec
   }
 
   // s3_key - computed: false, optional: false, required: true
-  private _s3Key?: string;
+  private _s3Key?: string; 
   public get s3Key() {
     return this.getStringAttribute('s3_key');
   }
@@ -208,7 +208,7 @@ export class LambdaLayerVersionContentOutputReference extends cdktn.ComplexObjec
   }
 
   // s3_object_storage_mode - computed: true, optional: true, required: false
-  private _s3ObjectStorageMode?: string;
+  private _s3ObjectStorageMode?: string; 
   public get s3ObjectStorageMode() {
     return this.getStringAttribute('s3_object_storage_mode');
   }
@@ -224,7 +224,7 @@ export class LambdaLayerVersionContentOutputReference extends cdktn.ComplexObjec
   }
 
   // s3_object_version - computed: true, optional: true, required: false
-  private _s3ObjectVersion?: string;
+  private _s3ObjectVersion?: string; 
   public get s3ObjectVersion() {
     return this.getStringAttribute('s3_object_version');
   }
@@ -303,7 +303,7 @@ export class LambdaLayerVersion extends cdktn.TerraformResource {
   // ==========
 
   // compatible_architectures - computed: true, optional: true, required: false
-  private _compatibleArchitectures?: string[];
+  private _compatibleArchitectures?: string[]; 
   public get compatibleArchitectures() {
     return this.getListAttribute('compatible_architectures');
   }
@@ -319,7 +319,7 @@ export class LambdaLayerVersion extends cdktn.TerraformResource {
   }
 
   // compatible_runtimes - computed: true, optional: true, required: false
-  private _compatibleRuntimes?: string[];
+  private _compatibleRuntimes?: string[]; 
   public get compatibleRuntimes() {
     return this.getListAttribute('compatible_runtimes');
   }
@@ -348,7 +348,7 @@ export class LambdaLayerVersion extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -369,7 +369,7 @@ export class LambdaLayerVersion extends cdktn.TerraformResource {
   }
 
   // layer_name - computed: true, optional: true, required: false
-  private _layerName?: string;
+  private _layerName?: string; 
   public get layerName() {
     return this.getStringAttribute('layer_name');
   }
@@ -390,7 +390,7 @@ export class LambdaLayerVersion extends cdktn.TerraformResource {
   }
 
   // license_info - computed: true, optional: true, required: false
-  private _licenseInfo?: string;
+  private _licenseInfo?: string; 
   public get licenseInfo() {
     return this.getStringAttribute('license_info');
   }

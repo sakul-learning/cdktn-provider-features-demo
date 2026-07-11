@@ -154,7 +154,7 @@ export class BedrockagentcoreMemoryIndexedKeyOutputReference extends cdktn.Compl
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -167,7 +167,7 @@ export class BedrockagentcoreMemoryIndexedKeyOutputReference extends cdktn.Compl
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -297,7 +297,7 @@ export class BedrockagentcoreMemoryStreamDeliveryResourcesResourceKinesisContent
   }
 
   // level - computed: true, optional: true, required: false
-  private _level?: string;
+  private _level?: string; 
   public get level() {
     return this.getStringAttribute('level');
   }
@@ -313,7 +313,7 @@ export class BedrockagentcoreMemoryStreamDeliveryResourcesResourceKinesisContent
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -445,7 +445,7 @@ export class BedrockagentcoreMemoryStreamDeliveryResourcesResourceKinesisOutputR
   }
 
   // data_stream_arn - computed: false, optional: false, required: true
-  private _dataStreamArn?: string;
+  private _dataStreamArn?: string; 
   public get dataStreamArn() {
     return this.getStringAttribute('data_stream_arn');
   }
@@ -829,7 +829,7 @@ export class BedrockagentcoreMemoryTimeoutsOutputReference extends cdktn.Complex
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -845,7 +845,7 @@ export class BedrockagentcoreMemoryTimeoutsOutputReference extends cdktn.Complex
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -933,7 +933,7 @@ export class BedrockagentcoreMemory extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -949,7 +949,7 @@ export class BedrockagentcoreMemory extends cdktn.TerraformResource {
   }
 
   // encryption_key_arn - computed: false, optional: true, required: false
-  private _encryptionKeyArn?: string;
+  private _encryptionKeyArn?: string; 
   public get encryptionKeyArn() {
     return this.getStringAttribute('encryption_key_arn');
   }
@@ -965,7 +965,7 @@ export class BedrockagentcoreMemory extends cdktn.TerraformResource {
   }
 
   // event_expiry_duration - computed: false, optional: false, required: true
-  private _eventExpiryDuration?: number;
+  private _eventExpiryDuration?: number; 
   public get eventExpiryDuration() {
     return this.getNumberAttribute('event_expiry_duration');
   }
@@ -983,7 +983,7 @@ export class BedrockagentcoreMemory extends cdktn.TerraformResource {
   }
 
   // memory_execution_role_arn - computed: false, optional: true, required: false
-  private _memoryExecutionRoleArn?: string;
+  private _memoryExecutionRoleArn?: string; 
   public get memoryExecutionRoleArn() {
     return this.getStringAttribute('memory_execution_role_arn');
   }
@@ -999,7 +999,7 @@ export class BedrockagentcoreMemory extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1012,7 +1012,7 @@ export class BedrockagentcoreMemory extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1028,7 +1028,7 @@ export class BedrockagentcoreMemory extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

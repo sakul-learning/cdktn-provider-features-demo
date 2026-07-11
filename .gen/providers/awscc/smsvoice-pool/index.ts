@@ -141,7 +141,7 @@ export class SmsvoicePoolMandatoryKeywordsHelpOutputReference extends cdktn.Comp
   }
 
   // message - computed: false, optional: false, required: true
-  private _message?: string;
+  private _message?: string; 
   public get message() {
     return this.getStringAttribute('message');
   }
@@ -232,7 +232,7 @@ export class SmsvoicePoolMandatoryKeywordsStopOutputReference extends cdktn.Comp
   }
 
   // message - computed: false, optional: false, required: true
-  private _message?: string;
+  private _message?: string; 
   public get message() {
     return this.getStringAttribute('message');
   }
@@ -484,7 +484,7 @@ export class SmsvoicePoolOptionalKeywordsOutputReference extends cdktn.ComplexOb
   }
 
   // action - computed: true, optional: true, required: false
-  private _action?: string;
+  private _action?: string; 
   public get action() {
     return this.getStringAttribute('action');
   }
@@ -500,7 +500,7 @@ export class SmsvoicePoolOptionalKeywordsOutputReference extends cdktn.ComplexOb
   }
 
   // keyword - computed: true, optional: true, required: false
-  private _keyword?: string;
+  private _keyword?: string; 
   public get keyword() {
     return this.getStringAttribute('keyword');
   }
@@ -516,7 +516,7 @@ export class SmsvoicePoolOptionalKeywordsOutputReference extends cdktn.ComplexOb
   }
 
   // message - computed: true, optional: true, required: false
-  private _message?: string;
+  private _message?: string; 
   public get message() {
     return this.getStringAttribute('message');
   }
@@ -653,7 +653,7 @@ export class SmsvoicePoolTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -669,7 +669,7 @@ export class SmsvoicePoolTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -823,7 +823,7 @@ export class SmsvoicePoolTwoWayOutputReference extends cdktn.ComplexObject {
   }
 
   // channel_arn - computed: true, optional: true, required: false
-  private _channelArn?: string;
+  private _channelArn?: string; 
   public get channelArn() {
     return this.getStringAttribute('channel_arn');
   }
@@ -839,7 +839,7 @@ export class SmsvoicePoolTwoWayOutputReference extends cdktn.ComplexObject {
   }
 
   // channel_role - computed: true, optional: true, required: false
-  private _channelRole?: string;
+  private _channelRole?: string; 
   public get channelRole() {
     return this.getStringAttribute('channel_role');
   }
@@ -855,7 +855,7 @@ export class SmsvoicePoolTwoWayOutputReference extends cdktn.ComplexObject {
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -942,7 +942,7 @@ export class SmsvoicePool extends cdktn.TerraformResource {
   }
 
   // deletion_protection_enabled - computed: true, optional: true, required: false
-  private _deletionProtectionEnabled?: boolean | cdktn.IResolvable;
+  private _deletionProtectionEnabled?: boolean | cdktn.IResolvable; 
   public get deletionProtectionEnabled() {
     return this.getBooleanAttribute('deletion_protection_enabled');
   }
@@ -976,7 +976,7 @@ export class SmsvoicePool extends cdktn.TerraformResource {
   }
 
   // opt_out_list_name - computed: true, optional: true, required: false
-  private _optOutListName?: string;
+  private _optOutListName?: string; 
   public get optOutListName() {
     return this.getStringAttribute('opt_out_list_name');
   }
@@ -1008,7 +1008,7 @@ export class SmsvoicePool extends cdktn.TerraformResource {
   }
 
   // origination_identities - computed: false, optional: false, required: true
-  private _originationIdentities?: string[];
+  private _originationIdentities?: string[]; 
   public get originationIdentities() {
     return cdktn.Fn.tolist(this.getListAttribute('origination_identities'));
   }
@@ -1026,7 +1026,7 @@ export class SmsvoicePool extends cdktn.TerraformResource {
   }
 
   // self_managed_opt_outs_enabled - computed: true, optional: true, required: false
-  private _selfManagedOptOutsEnabled?: boolean | cdktn.IResolvable;
+  private _selfManagedOptOutsEnabled?: boolean | cdktn.IResolvable; 
   public get selfManagedOptOutsEnabled() {
     return this.getBooleanAttribute('self_managed_opt_outs_enabled');
   }
@@ -1042,7 +1042,7 @@ export class SmsvoicePool extends cdktn.TerraformResource {
   }
 
   // shared_routes_enabled - computed: true, optional: true, required: false
-  private _sharedRoutesEnabled?: boolean | cdktn.IResolvable;
+  private _sharedRoutesEnabled?: boolean | cdktn.IResolvable; 
   public get sharedRoutesEnabled() {
     return this.getBooleanAttribute('shared_routes_enabled');
   }

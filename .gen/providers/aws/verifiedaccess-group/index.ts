@@ -133,7 +133,7 @@ export class VerifiedaccessGroupSseConfigurationOutputReference extends cdktn.Co
   }
 
   // customer_managed_key_enabled - computed: false, optional: true, required: false
-  private _customerManagedKeyEnabled?: boolean | cdktn.IResolvable;
+  private _customerManagedKeyEnabled?: boolean | cdktn.IResolvable; 
   public get customerManagedKeyEnabled() {
     return this.getBooleanAttribute('customer_managed_key_enabled');
   }
@@ -149,7 +149,7 @@ export class VerifiedaccessGroupSseConfigurationOutputReference extends cdktn.Co
   }
 
   // kms_key_arn - computed: false, optional: true, required: false
-  private _kmsKeyArn?: string;
+  private _kmsKeyArn?: string; 
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -240,7 +240,7 @@ export class VerifiedaccessGroup extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -256,7 +256,7 @@ export class VerifiedaccessGroup extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -282,7 +282,7 @@ export class VerifiedaccessGroup extends cdktn.TerraformResource {
   }
 
   // policy_document - computed: false, optional: true, required: false
-  private _policyDocument?: string;
+  private _policyDocument?: string; 
   public get policyDocument() {
     return this.getStringAttribute('policy_document');
   }
@@ -298,7 +298,7 @@ export class VerifiedaccessGroup extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -314,7 +314,7 @@ export class VerifiedaccessGroup extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -330,7 +330,7 @@ export class VerifiedaccessGroup extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -356,7 +356,7 @@ export class VerifiedaccessGroup extends cdktn.TerraformResource {
   }
 
   // verifiedaccess_instance_id - computed: false, optional: false, required: true
-  private _verifiedaccessInstanceId?: string;
+  private _verifiedaccessInstanceId?: string; 
   public get verifiedaccessInstanceId() {
     return this.getStringAttribute('verifiedaccess_instance_id');
   }

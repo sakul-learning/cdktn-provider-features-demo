@@ -140,7 +140,7 @@ export class ControltowerBaselineParametersOutputReference extends cdktn.Complex
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -153,7 +153,7 @@ export class ControltowerBaselineParametersOutputReference extends cdktn.Complex
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -304,7 +304,7 @@ export class ControltowerBaselineTimeoutsOutputReference extends cdktn.ComplexOb
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -320,7 +320,7 @@ export class ControltowerBaselineTimeoutsOutputReference extends cdktn.ComplexOb
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -336,7 +336,7 @@ export class ControltowerBaselineTimeoutsOutputReference extends cdktn.ComplexOb
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -421,7 +421,7 @@ export class ControltowerBaseline extends cdktn.TerraformResource {
   }
 
   // baseline_identifier - computed: false, optional: false, required: true
-  private _baselineIdentifier?: string;
+  private _baselineIdentifier?: string; 
   public get baselineIdentifier() {
     return this.getStringAttribute('baseline_identifier');
   }
@@ -434,7 +434,7 @@ export class ControltowerBaseline extends cdktn.TerraformResource {
   }
 
   // baseline_version - computed: false, optional: false, required: true
-  private _baselineVersion?: string;
+  private _baselineVersion?: string; 
   public get baselineVersion() {
     return this.getStringAttribute('baseline_version');
   }
@@ -452,7 +452,7 @@ export class ControltowerBaseline extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -468,7 +468,7 @@ export class ControltowerBaseline extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -490,7 +490,7 @@ export class ControltowerBaseline extends cdktn.TerraformResource {
   }
 
   // target_identifier - computed: false, optional: false, required: true
-  private _targetIdentifier?: string;
+  private _targetIdentifier?: string; 
   public get targetIdentifier() {
     return this.getStringAttribute('target_identifier');
   }

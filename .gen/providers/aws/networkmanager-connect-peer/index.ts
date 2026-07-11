@@ -310,7 +310,7 @@ export class NetworkmanagerConnectPeerBgpOptionsOutputReference extends cdktn.Co
   }
 
   // peer_asn - computed: true, optional: true, required: false
-  private _peerAsn?: string;
+  private _peerAsn?: string; 
   public get peerAsn() {
     return this.getStringAttribute('peer_asn');
   }
@@ -421,7 +421,7 @@ export class NetworkmanagerConnectPeerTimeoutsOutputReference extends cdktn.Comp
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -437,7 +437,7 @@ export class NetworkmanagerConnectPeerTimeoutsOutputReference extends cdktn.Comp
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -531,7 +531,7 @@ export class NetworkmanagerConnectPeer extends cdktn.TerraformResource {
   }
 
   // connect_attachment_id - computed: false, optional: false, required: true
-  private _connectAttachmentId?: string;
+  private _connectAttachmentId?: string; 
   public get connectAttachmentId() {
     return this.getStringAttribute('connect_attachment_id');
   }
@@ -549,7 +549,7 @@ export class NetworkmanagerConnectPeer extends cdktn.TerraformResource {
   }
 
   // core_network_address - computed: false, optional: true, required: false
-  private _coreNetworkAddress?: string;
+  private _coreNetworkAddress?: string; 
   public get coreNetworkAddress() {
     return this.getStringAttribute('core_network_address');
   }
@@ -580,7 +580,7 @@ export class NetworkmanagerConnectPeer extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -596,7 +596,7 @@ export class NetworkmanagerConnectPeer extends cdktn.TerraformResource {
   }
 
   // inside_cidr_blocks - computed: false, optional: true, required: false
-  private _insideCidrBlocks?: string[];
+  private _insideCidrBlocks?: string[]; 
   public get insideCidrBlocks() {
     return this.getListAttribute('inside_cidr_blocks');
   }
@@ -612,7 +612,7 @@ export class NetworkmanagerConnectPeer extends cdktn.TerraformResource {
   }
 
   // peer_address - computed: false, optional: false, required: true
-  private _peerAddress?: string;
+  private _peerAddress?: string; 
   public get peerAddress() {
     return this.getStringAttribute('peer_address');
   }
@@ -630,7 +630,7 @@ export class NetworkmanagerConnectPeer extends cdktn.TerraformResource {
   }
 
   // subnet_arn - computed: false, optional: true, required: false
-  private _subnetArn?: string;
+  private _subnetArn?: string; 
   public get subnetArn() {
     return this.getStringAttribute('subnet_arn');
   }
@@ -646,7 +646,7 @@ export class NetworkmanagerConnectPeer extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -662,7 +662,7 @@ export class NetworkmanagerConnectPeer extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

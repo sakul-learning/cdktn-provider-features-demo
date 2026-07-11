@@ -267,7 +267,7 @@ export class EmrClusterPlacementGroupConfigOutputReference extends cdktn.Complex
   }
 
   // instance_role - computed: false, optional: true, required: false
-  private _instanceRole?: string;
+  private _instanceRole?: string; 
   public get instanceRole() {
     return this.getStringAttribute('instance_role');
   }
@@ -283,7 +283,7 @@ export class EmrClusterPlacementGroupConfigOutputReference extends cdktn.Complex
   }
 
   // placement_strategy - computed: false, optional: true, required: false
-  private _placementStrategy?: string;
+  private _placementStrategy?: string; 
   public get placementStrategy() {
     return this.getStringAttribute('placement_strategy');
   }
@@ -450,7 +450,7 @@ export class EmrClusterStepHadoopJarStepOutputReference extends cdktn.ComplexObj
   }
 
   // args - computed: true, optional: true, required: false
-  private _args?: string[];
+  private _args?: string[]; 
   public get args() {
     return this.getListAttribute('args');
   }
@@ -466,7 +466,7 @@ export class EmrClusterStepHadoopJarStepOutputReference extends cdktn.ComplexObj
   }
 
   // jar - computed: true, optional: true, required: false
-  private _jar?: string;
+  private _jar?: string; 
   public get jar() {
     return this.getStringAttribute('jar');
   }
@@ -482,7 +482,7 @@ export class EmrClusterStepHadoopJarStepOutputReference extends cdktn.ComplexObj
   }
 
   // main_class - computed: true, optional: true, required: false
-  private _mainClass?: string;
+  private _mainClass?: string; 
   public get mainClass() {
     return this.getStringAttribute('main_class');
   }
@@ -498,7 +498,7 @@ export class EmrClusterStepHadoopJarStepOutputReference extends cdktn.ComplexObj
   }
 
   // properties - computed: true, optional: true, required: false
-  private _properties?: { [key: string]: string };
+  private _properties?: { [key: string]: string }; 
   public get properties() {
     return this.getStringMapAttribute('properties');
   }
@@ -648,7 +648,7 @@ export class EmrClusterStepOutputReference extends cdktn.ComplexObject {
   }
 
   // action_on_failure - computed: true, optional: true, required: false
-  private _actionOnFailure?: string;
+  private _actionOnFailure?: string; 
   public get actionOnFailure() {
     return this.getStringAttribute('action_on_failure');
   }
@@ -680,7 +680,7 @@ export class EmrClusterStepOutputReference extends cdktn.ComplexObject {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -784,7 +784,7 @@ export class EmrClusterAutoTerminationPolicyOutputReference extends cdktn.Comple
   }
 
   // idle_timeout - computed: false, optional: true, required: false
-  private _idleTimeout?: number;
+  private _idleTimeout?: number; 
   public get idleTimeout() {
     return this.getNumberAttribute('idle_timeout');
   }
@@ -914,7 +914,7 @@ export class EmrClusterBootstrapActionOutputReference extends cdktn.ComplexObjec
   }
 
   // args - computed: false, optional: true, required: false
-  private _args?: string[];
+  private _args?: string[]; 
   public get args() {
     return this.getListAttribute('args');
   }
@@ -930,7 +930,7 @@ export class EmrClusterBootstrapActionOutputReference extends cdktn.ComplexObjec
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -943,7 +943,7 @@ export class EmrClusterBootstrapActionOutputReference extends cdktn.ComplexObjec
   }
 
   // path - computed: false, optional: false, required: true
-  private _path?: string;
+  private _path?: string; 
   public get path() {
     return this.getStringAttribute('path');
   }
@@ -1073,7 +1073,7 @@ export class EmrClusterCoreInstanceFleetInstanceTypeConfigsConfigurationsOutputR
   }
 
   // classification - computed: false, optional: true, required: false
-  private _classification?: string;
+  private _classification?: string; 
   public get classification() {
     return this.getStringAttribute('classification');
   }
@@ -1089,7 +1089,7 @@ export class EmrClusterCoreInstanceFleetInstanceTypeConfigsConfigurationsOutputR
   }
 
   // properties - computed: false, optional: true, required: false
-  private _properties?: { [key: string]: string };
+  private _properties?: { [key: string]: string }; 
   public get properties() {
     return this.getStringMapAttribute('properties');
   }
@@ -1256,7 +1256,7 @@ export class EmrClusterCoreInstanceFleetInstanceTypeConfigsEbsConfigOutputRefere
   }
 
   // iops - computed: false, optional: true, required: false
-  private _iops?: number;
+  private _iops?: number; 
   public get iops() {
     return this.getNumberAttribute('iops');
   }
@@ -1272,7 +1272,7 @@ export class EmrClusterCoreInstanceFleetInstanceTypeConfigsEbsConfigOutputRefere
   }
 
   // size - computed: false, optional: false, required: true
-  private _size?: number;
+  private _size?: number; 
   public get size() {
     return this.getNumberAttribute('size');
   }
@@ -1285,7 +1285,7 @@ export class EmrClusterCoreInstanceFleetInstanceTypeConfigsEbsConfigOutputRefere
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -1298,7 +1298,7 @@ export class EmrClusterCoreInstanceFleetInstanceTypeConfigsEbsConfigOutputRefere
   }
 
   // volumes_per_instance - computed: false, optional: true, required: false
-  private _volumesPerInstance?: number;
+  private _volumesPerInstance?: number; 
   public get volumesPerInstance() {
     return this.getNumberAttribute('volumes_per_instance');
   }
@@ -1503,7 +1503,7 @@ export class EmrClusterCoreInstanceFleetInstanceTypeConfigsOutputReference exten
   }
 
   // bid_price - computed: false, optional: true, required: false
-  private _bidPrice?: string;
+  private _bidPrice?: string; 
   public get bidPrice() {
     return this.getStringAttribute('bid_price');
   }
@@ -1519,7 +1519,7 @@ export class EmrClusterCoreInstanceFleetInstanceTypeConfigsOutputReference exten
   }
 
   // bid_price_as_percentage_of_on_demand_price - computed: false, optional: true, required: false
-  private _bidPriceAsPercentageOfOnDemandPrice?: number;
+  private _bidPriceAsPercentageOfOnDemandPrice?: number; 
   public get bidPriceAsPercentageOfOnDemandPrice() {
     return this.getNumberAttribute('bid_price_as_percentage_of_on_demand_price');
   }
@@ -1535,7 +1535,7 @@ export class EmrClusterCoreInstanceFleetInstanceTypeConfigsOutputReference exten
   }
 
   // instance_type - computed: false, optional: false, required: true
-  private _instanceType?: string;
+  private _instanceType?: string; 
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -1548,7 +1548,7 @@ export class EmrClusterCoreInstanceFleetInstanceTypeConfigsOutputReference exten
   }
 
   // weighted_capacity - computed: false, optional: true, required: false
-  private _weightedCapacity?: number;
+  private _weightedCapacity?: number; 
   public get weightedCapacity() {
     return this.getNumberAttribute('weighted_capacity');
   }
@@ -1696,7 +1696,7 @@ export class EmrClusterCoreInstanceFleetLaunchSpecificationsOnDemandSpecificatio
   }
 
   // allocation_strategy - computed: false, optional: false, required: true
-  private _allocationStrategy?: string;
+  private _allocationStrategy?: string; 
   public get allocationStrategy() {
     return this.getStringAttribute('allocation_strategy');
   }
@@ -1860,7 +1860,7 @@ export class EmrClusterCoreInstanceFleetLaunchSpecificationsSpotSpecificationOut
   }
 
   // allocation_strategy - computed: false, optional: false, required: true
-  private _allocationStrategy?: string;
+  private _allocationStrategy?: string; 
   public get allocationStrategy() {
     return this.getStringAttribute('allocation_strategy');
   }
@@ -1873,7 +1873,7 @@ export class EmrClusterCoreInstanceFleetLaunchSpecificationsSpotSpecificationOut
   }
 
   // block_duration_minutes - computed: false, optional: true, required: false
-  private _blockDurationMinutes?: number;
+  private _blockDurationMinutes?: number; 
   public get blockDurationMinutes() {
     return this.getNumberAttribute('block_duration_minutes');
   }
@@ -1889,7 +1889,7 @@ export class EmrClusterCoreInstanceFleetLaunchSpecificationsSpotSpecificationOut
   }
 
   // timeout_action - computed: false, optional: false, required: true
-  private _timeoutAction?: string;
+  private _timeoutAction?: string; 
   public get timeoutAction() {
     return this.getStringAttribute('timeout_action');
   }
@@ -1902,7 +1902,7 @@ export class EmrClusterCoreInstanceFleetLaunchSpecificationsSpotSpecificationOut
   }
 
   // timeout_duration_minutes - computed: false, optional: false, required: true
-  private _timeoutDurationMinutes?: number;
+  private _timeoutDurationMinutes?: number; 
   public get timeoutDurationMinutes() {
     return this.getNumberAttribute('timeout_duration_minutes');
   }
@@ -2201,7 +2201,7 @@ export class EmrClusterCoreInstanceFleetOutputReference extends cdktn.ComplexObj
   }
 
   // name - computed: false, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2227,7 +2227,7 @@ export class EmrClusterCoreInstanceFleetOutputReference extends cdktn.ComplexObj
   }
 
   // target_on_demand_capacity - computed: false, optional: true, required: false
-  private _targetOnDemandCapacity?: number;
+  private _targetOnDemandCapacity?: number; 
   public get targetOnDemandCapacity() {
     return this.getNumberAttribute('target_on_demand_capacity');
   }
@@ -2243,7 +2243,7 @@ export class EmrClusterCoreInstanceFleetOutputReference extends cdktn.ComplexObj
   }
 
   // target_spot_capacity - computed: false, optional: true, required: false
-  private _targetSpotCapacity?: number;
+  private _targetSpotCapacity?: number; 
   public get targetSpotCapacity() {
     return this.getNumberAttribute('target_spot_capacity');
   }
@@ -2439,7 +2439,7 @@ export class EmrClusterCoreInstanceGroupEbsConfigOutputReference extends cdktn.C
   }
 
   // iops - computed: false, optional: true, required: false
-  private _iops?: number;
+  private _iops?: number; 
   public get iops() {
     return this.getNumberAttribute('iops');
   }
@@ -2455,7 +2455,7 @@ export class EmrClusterCoreInstanceGroupEbsConfigOutputReference extends cdktn.C
   }
 
   // size - computed: false, optional: false, required: true
-  private _size?: number;
+  private _size?: number; 
   public get size() {
     return this.getNumberAttribute('size');
   }
@@ -2468,7 +2468,7 @@ export class EmrClusterCoreInstanceGroupEbsConfigOutputReference extends cdktn.C
   }
 
   // throughput - computed: false, optional: true, required: false
-  private _throughput?: number;
+  private _throughput?: number; 
   public get throughput() {
     return this.getNumberAttribute('throughput');
   }
@@ -2484,7 +2484,7 @@ export class EmrClusterCoreInstanceGroupEbsConfigOutputReference extends cdktn.C
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -2497,7 +2497,7 @@ export class EmrClusterCoreInstanceGroupEbsConfigOutputReference extends cdktn.C
   }
 
   // volumes_per_instance - computed: false, optional: true, required: false
-  private _volumesPerInstance?: number;
+  private _volumesPerInstance?: number; 
   public get volumesPerInstance() {
     return this.getNumberAttribute('volumes_per_instance');
   }
@@ -2688,7 +2688,7 @@ export class EmrClusterCoreInstanceGroupOutputReference extends cdktn.ComplexObj
   }
 
   // autoscaling_policy - computed: false, optional: true, required: false
-  private _autoscalingPolicy?: string;
+  private _autoscalingPolicy?: string; 
   public get autoscalingPolicy() {
     return this.getStringAttribute('autoscaling_policy');
   }
@@ -2704,7 +2704,7 @@ export class EmrClusterCoreInstanceGroupOutputReference extends cdktn.ComplexObj
   }
 
   // bid_price - computed: false, optional: true, required: false
-  private _bidPrice?: string;
+  private _bidPrice?: string; 
   public get bidPrice() {
     return this.getStringAttribute('bid_price');
   }
@@ -2725,7 +2725,7 @@ export class EmrClusterCoreInstanceGroupOutputReference extends cdktn.ComplexObj
   }
 
   // instance_count - computed: false, optional: true, required: false
-  private _instanceCount?: number;
+  private _instanceCount?: number; 
   public get instanceCount() {
     return this.getNumberAttribute('instance_count');
   }
@@ -2741,7 +2741,7 @@ export class EmrClusterCoreInstanceGroupOutputReference extends cdktn.ComplexObj
   }
 
   // instance_type - computed: false, optional: false, required: true
-  private _instanceType?: string;
+  private _instanceType?: string; 
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -2754,7 +2754,7 @@ export class EmrClusterCoreInstanceGroupOutputReference extends cdktn.ComplexObj
   }
 
   // name - computed: false, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2990,7 +2990,7 @@ export class EmrClusterEc2AttributesOutputReference extends cdktn.ComplexObject 
   }
 
   // additional_master_security_groups - computed: false, optional: true, required: false
-  private _additionalMasterSecurityGroups?: string;
+  private _additionalMasterSecurityGroups?: string; 
   public get additionalMasterSecurityGroups() {
     return this.getStringAttribute('additional_master_security_groups');
   }
@@ -3006,7 +3006,7 @@ export class EmrClusterEc2AttributesOutputReference extends cdktn.ComplexObject 
   }
 
   // additional_slave_security_groups - computed: false, optional: true, required: false
-  private _additionalSlaveSecurityGroups?: string;
+  private _additionalSlaveSecurityGroups?: string; 
   public get additionalSlaveSecurityGroups() {
     return this.getStringAttribute('additional_slave_security_groups');
   }
@@ -3022,7 +3022,7 @@ export class EmrClusterEc2AttributesOutputReference extends cdktn.ComplexObject 
   }
 
   // emr_managed_master_security_group - computed: true, optional: true, required: false
-  private _emrManagedMasterSecurityGroup?: string;
+  private _emrManagedMasterSecurityGroup?: string; 
   public get emrManagedMasterSecurityGroup() {
     return this.getStringAttribute('emr_managed_master_security_group');
   }
@@ -3038,7 +3038,7 @@ export class EmrClusterEc2AttributesOutputReference extends cdktn.ComplexObject 
   }
 
   // emr_managed_slave_security_group - computed: true, optional: true, required: false
-  private _emrManagedSlaveSecurityGroup?: string;
+  private _emrManagedSlaveSecurityGroup?: string; 
   public get emrManagedSlaveSecurityGroup() {
     return this.getStringAttribute('emr_managed_slave_security_group');
   }
@@ -3054,7 +3054,7 @@ export class EmrClusterEc2AttributesOutputReference extends cdktn.ComplexObject 
   }
 
   // instance_profile - computed: false, optional: false, required: true
-  private _instanceProfile?: string;
+  private _instanceProfile?: string; 
   public get instanceProfile() {
     return this.getStringAttribute('instance_profile');
   }
@@ -3067,7 +3067,7 @@ export class EmrClusterEc2AttributesOutputReference extends cdktn.ComplexObject 
   }
 
   // key_name - computed: false, optional: true, required: false
-  private _keyName?: string;
+  private _keyName?: string; 
   public get keyName() {
     return this.getStringAttribute('key_name');
   }
@@ -3083,7 +3083,7 @@ export class EmrClusterEc2AttributesOutputReference extends cdktn.ComplexObject 
   }
 
   // service_access_security_group - computed: true, optional: true, required: false
-  private _serviceAccessSecurityGroup?: string;
+  private _serviceAccessSecurityGroup?: string; 
   public get serviceAccessSecurityGroup() {
     return this.getStringAttribute('service_access_security_group');
   }
@@ -3099,7 +3099,7 @@ export class EmrClusterEc2AttributesOutputReference extends cdktn.ComplexObject 
   }
 
   // subnet_id - computed: true, optional: true, required: false
-  private _subnetId?: string;
+  private _subnetId?: string; 
   public get subnetId() {
     return this.getStringAttribute('subnet_id');
   }
@@ -3115,7 +3115,7 @@ export class EmrClusterEc2AttributesOutputReference extends cdktn.ComplexObject 
   }
 
   // subnet_ids - computed: true, optional: true, required: false
-  private _subnetIds?: string[];
+  private _subnetIds?: string[]; 
   public get subnetIds() {
     return cdktn.Fn.tolist(this.getListAttribute('subnet_ids'));
   }
@@ -3267,7 +3267,7 @@ export class EmrClusterKerberosAttributesOutputReference extends cdktn.ComplexOb
   }
 
   // ad_domain_join_password - computed: false, optional: true, required: false
-  private _adDomainJoinPassword?: string;
+  private _adDomainJoinPassword?: string; 
   public get adDomainJoinPassword() {
     return this.getStringAttribute('ad_domain_join_password');
   }
@@ -3283,7 +3283,7 @@ export class EmrClusterKerberosAttributesOutputReference extends cdktn.ComplexOb
   }
 
   // ad_domain_join_user - computed: false, optional: true, required: false
-  private _adDomainJoinUser?: string;
+  private _adDomainJoinUser?: string; 
   public get adDomainJoinUser() {
     return this.getStringAttribute('ad_domain_join_user');
   }
@@ -3299,7 +3299,7 @@ export class EmrClusterKerberosAttributesOutputReference extends cdktn.ComplexOb
   }
 
   // cross_realm_trust_principal_password - computed: false, optional: true, required: false
-  private _crossRealmTrustPrincipalPassword?: string;
+  private _crossRealmTrustPrincipalPassword?: string; 
   public get crossRealmTrustPrincipalPassword() {
     return this.getStringAttribute('cross_realm_trust_principal_password');
   }
@@ -3315,7 +3315,7 @@ export class EmrClusterKerberosAttributesOutputReference extends cdktn.ComplexOb
   }
 
   // kdc_admin_password - computed: false, optional: false, required: true
-  private _kdcAdminPassword?: string;
+  private _kdcAdminPassword?: string; 
   public get kdcAdminPassword() {
     return this.getStringAttribute('kdc_admin_password');
   }
@@ -3328,7 +3328,7 @@ export class EmrClusterKerberosAttributesOutputReference extends cdktn.ComplexOb
   }
 
   // realm - computed: false, optional: false, required: true
-  private _realm?: string;
+  private _realm?: string; 
   public get realm() {
     return this.getStringAttribute('realm');
   }
@@ -3438,7 +3438,7 @@ export class EmrClusterMasterInstanceFleetInstanceTypeConfigsConfigurationsOutpu
   }
 
   // classification - computed: false, optional: true, required: false
-  private _classification?: string;
+  private _classification?: string; 
   public get classification() {
     return this.getStringAttribute('classification');
   }
@@ -3454,7 +3454,7 @@ export class EmrClusterMasterInstanceFleetInstanceTypeConfigsConfigurationsOutpu
   }
 
   // properties - computed: false, optional: true, required: false
-  private _properties?: { [key: string]: string };
+  private _properties?: { [key: string]: string }; 
   public get properties() {
     return this.getStringMapAttribute('properties');
   }
@@ -3621,7 +3621,7 @@ export class EmrClusterMasterInstanceFleetInstanceTypeConfigsEbsConfigOutputRefe
   }
 
   // iops - computed: false, optional: true, required: false
-  private _iops?: number;
+  private _iops?: number; 
   public get iops() {
     return this.getNumberAttribute('iops');
   }
@@ -3637,7 +3637,7 @@ export class EmrClusterMasterInstanceFleetInstanceTypeConfigsEbsConfigOutputRefe
   }
 
   // size - computed: false, optional: false, required: true
-  private _size?: number;
+  private _size?: number; 
   public get size() {
     return this.getNumberAttribute('size');
   }
@@ -3650,7 +3650,7 @@ export class EmrClusterMasterInstanceFleetInstanceTypeConfigsEbsConfigOutputRefe
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -3663,7 +3663,7 @@ export class EmrClusterMasterInstanceFleetInstanceTypeConfigsEbsConfigOutputRefe
   }
 
   // volumes_per_instance - computed: false, optional: true, required: false
-  private _volumesPerInstance?: number;
+  private _volumesPerInstance?: number; 
   public get volumesPerInstance() {
     return this.getNumberAttribute('volumes_per_instance');
   }
@@ -3868,7 +3868,7 @@ export class EmrClusterMasterInstanceFleetInstanceTypeConfigsOutputReference ext
   }
 
   // bid_price - computed: false, optional: true, required: false
-  private _bidPrice?: string;
+  private _bidPrice?: string; 
   public get bidPrice() {
     return this.getStringAttribute('bid_price');
   }
@@ -3884,7 +3884,7 @@ export class EmrClusterMasterInstanceFleetInstanceTypeConfigsOutputReference ext
   }
 
   // bid_price_as_percentage_of_on_demand_price - computed: false, optional: true, required: false
-  private _bidPriceAsPercentageOfOnDemandPrice?: number;
+  private _bidPriceAsPercentageOfOnDemandPrice?: number; 
   public get bidPriceAsPercentageOfOnDemandPrice() {
     return this.getNumberAttribute('bid_price_as_percentage_of_on_demand_price');
   }
@@ -3900,7 +3900,7 @@ export class EmrClusterMasterInstanceFleetInstanceTypeConfigsOutputReference ext
   }
 
   // instance_type - computed: false, optional: false, required: true
-  private _instanceType?: string;
+  private _instanceType?: string; 
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -3913,7 +3913,7 @@ export class EmrClusterMasterInstanceFleetInstanceTypeConfigsOutputReference ext
   }
 
   // weighted_capacity - computed: false, optional: true, required: false
-  private _weightedCapacity?: number;
+  private _weightedCapacity?: number; 
   public get weightedCapacity() {
     return this.getNumberAttribute('weighted_capacity');
   }
@@ -4061,7 +4061,7 @@ export class EmrClusterMasterInstanceFleetLaunchSpecificationsOnDemandSpecificat
   }
 
   // allocation_strategy - computed: false, optional: false, required: true
-  private _allocationStrategy?: string;
+  private _allocationStrategy?: string; 
   public get allocationStrategy() {
     return this.getStringAttribute('allocation_strategy');
   }
@@ -4225,7 +4225,7 @@ export class EmrClusterMasterInstanceFleetLaunchSpecificationsSpotSpecificationO
   }
 
   // allocation_strategy - computed: false, optional: false, required: true
-  private _allocationStrategy?: string;
+  private _allocationStrategy?: string; 
   public get allocationStrategy() {
     return this.getStringAttribute('allocation_strategy');
   }
@@ -4238,7 +4238,7 @@ export class EmrClusterMasterInstanceFleetLaunchSpecificationsSpotSpecificationO
   }
 
   // block_duration_minutes - computed: false, optional: true, required: false
-  private _blockDurationMinutes?: number;
+  private _blockDurationMinutes?: number; 
   public get blockDurationMinutes() {
     return this.getNumberAttribute('block_duration_minutes');
   }
@@ -4254,7 +4254,7 @@ export class EmrClusterMasterInstanceFleetLaunchSpecificationsSpotSpecificationO
   }
 
   // timeout_action - computed: false, optional: false, required: true
-  private _timeoutAction?: string;
+  private _timeoutAction?: string; 
   public get timeoutAction() {
     return this.getStringAttribute('timeout_action');
   }
@@ -4267,7 +4267,7 @@ export class EmrClusterMasterInstanceFleetLaunchSpecificationsSpotSpecificationO
   }
 
   // timeout_duration_minutes - computed: false, optional: false, required: true
-  private _timeoutDurationMinutes?: number;
+  private _timeoutDurationMinutes?: number; 
   public get timeoutDurationMinutes() {
     return this.getNumberAttribute('timeout_duration_minutes');
   }
@@ -4566,7 +4566,7 @@ export class EmrClusterMasterInstanceFleetOutputReference extends cdktn.ComplexO
   }
 
   // name - computed: false, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -4592,7 +4592,7 @@ export class EmrClusterMasterInstanceFleetOutputReference extends cdktn.ComplexO
   }
 
   // target_on_demand_capacity - computed: false, optional: true, required: false
-  private _targetOnDemandCapacity?: number;
+  private _targetOnDemandCapacity?: number; 
   public get targetOnDemandCapacity() {
     return this.getNumberAttribute('target_on_demand_capacity');
   }
@@ -4608,7 +4608,7 @@ export class EmrClusterMasterInstanceFleetOutputReference extends cdktn.ComplexO
   }
 
   // target_spot_capacity - computed: false, optional: true, required: false
-  private _targetSpotCapacity?: number;
+  private _targetSpotCapacity?: number; 
   public get targetSpotCapacity() {
     return this.getNumberAttribute('target_spot_capacity');
   }
@@ -4804,7 +4804,7 @@ export class EmrClusterMasterInstanceGroupEbsConfigOutputReference extends cdktn
   }
 
   // iops - computed: false, optional: true, required: false
-  private _iops?: number;
+  private _iops?: number; 
   public get iops() {
     return this.getNumberAttribute('iops');
   }
@@ -4820,7 +4820,7 @@ export class EmrClusterMasterInstanceGroupEbsConfigOutputReference extends cdktn
   }
 
   // size - computed: false, optional: false, required: true
-  private _size?: number;
+  private _size?: number; 
   public get size() {
     return this.getNumberAttribute('size');
   }
@@ -4833,7 +4833,7 @@ export class EmrClusterMasterInstanceGroupEbsConfigOutputReference extends cdktn
   }
 
   // throughput - computed: false, optional: true, required: false
-  private _throughput?: number;
+  private _throughput?: number; 
   public get throughput() {
     return this.getNumberAttribute('throughput');
   }
@@ -4849,7 +4849,7 @@ export class EmrClusterMasterInstanceGroupEbsConfigOutputReference extends cdktn
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -4862,7 +4862,7 @@ export class EmrClusterMasterInstanceGroupEbsConfigOutputReference extends cdktn
   }
 
   // volumes_per_instance - computed: false, optional: true, required: false
-  private _volumesPerInstance?: number;
+  private _volumesPerInstance?: number; 
   public get volumesPerInstance() {
     return this.getNumberAttribute('volumes_per_instance');
   }
@@ -5036,7 +5036,7 @@ export class EmrClusterMasterInstanceGroupOutputReference extends cdktn.ComplexO
   }
 
   // bid_price - computed: false, optional: true, required: false
-  private _bidPrice?: string;
+  private _bidPrice?: string; 
   public get bidPrice() {
     return this.getStringAttribute('bid_price');
   }
@@ -5057,7 +5057,7 @@ export class EmrClusterMasterInstanceGroupOutputReference extends cdktn.ComplexO
   }
 
   // instance_count - computed: false, optional: true, required: false
-  private _instanceCount?: number;
+  private _instanceCount?: number; 
   public get instanceCount() {
     return this.getNumberAttribute('instance_count');
   }
@@ -5073,7 +5073,7 @@ export class EmrClusterMasterInstanceGroupOutputReference extends cdktn.ComplexO
   }
 
   // instance_type - computed: false, optional: false, required: true
-  private _instanceType?: string;
+  private _instanceType?: string; 
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -5086,7 +5086,7 @@ export class EmrClusterMasterInstanceGroupOutputReference extends cdktn.ComplexO
   }
 
   // name - computed: false, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -5210,7 +5210,7 @@ export class EmrCluster extends cdktn.TerraformResource {
   // ==========
 
   // additional_info - computed: false, optional: true, required: false
-  private _additionalInfo?: string;
+  private _additionalInfo?: string; 
   public get additionalInfo() {
     return this.getStringAttribute('additional_info');
   }
@@ -5226,7 +5226,7 @@ export class EmrCluster extends cdktn.TerraformResource {
   }
 
   // applications - computed: false, optional: true, required: false
-  private _applications?: string[];
+  private _applications?: string[]; 
   public get applications() {
     return cdktn.Fn.tolist(this.getListAttribute('applications'));
   }
@@ -5247,7 +5247,7 @@ export class EmrCluster extends cdktn.TerraformResource {
   }
 
   // autoscaling_role - computed: false, optional: true, required: false
-  private _autoscalingRole?: string;
+  private _autoscalingRole?: string; 
   public get autoscalingRole() {
     return this.getStringAttribute('autoscaling_role');
   }
@@ -5268,7 +5268,7 @@ export class EmrCluster extends cdktn.TerraformResource {
   }
 
   // configurations - computed: false, optional: true, required: false
-  private _configurations?: string;
+  private _configurations?: string; 
   public get configurations() {
     return this.getStringAttribute('configurations');
   }
@@ -5284,7 +5284,7 @@ export class EmrCluster extends cdktn.TerraformResource {
   }
 
   // configurations_json - computed: false, optional: true, required: false
-  private _configurationsJson?: string;
+  private _configurationsJson?: string; 
   public get configurationsJson() {
     return this.getStringAttribute('configurations_json');
   }
@@ -5300,7 +5300,7 @@ export class EmrCluster extends cdktn.TerraformResource {
   }
 
   // custom_ami_id - computed: false, optional: true, required: false
-  private _customAmiId?: string;
+  private _customAmiId?: string; 
   public get customAmiId() {
     return this.getStringAttribute('custom_ami_id');
   }
@@ -5316,7 +5316,7 @@ export class EmrCluster extends cdktn.TerraformResource {
   }
 
   // ebs_root_volume_size - computed: false, optional: true, required: false
-  private _ebsRootVolumeSize?: number;
+  private _ebsRootVolumeSize?: number; 
   public get ebsRootVolumeSize() {
     return this.getNumberAttribute('ebs_root_volume_size');
   }
@@ -5332,7 +5332,7 @@ export class EmrCluster extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -5348,7 +5348,7 @@ export class EmrCluster extends cdktn.TerraformResource {
   }
 
   // keep_job_flow_alive_when_no_steps - computed: true, optional: true, required: false
-  private _keepJobFlowAliveWhenNoSteps?: boolean | cdktn.IResolvable;
+  private _keepJobFlowAliveWhenNoSteps?: boolean | cdktn.IResolvable; 
   public get keepJobFlowAliveWhenNoSteps() {
     return this.getBooleanAttribute('keep_job_flow_alive_when_no_steps');
   }
@@ -5364,7 +5364,7 @@ export class EmrCluster extends cdktn.TerraformResource {
   }
 
   // list_steps_states - computed: false, optional: true, required: false
-  private _listStepsStates?: string[];
+  private _listStepsStates?: string[]; 
   public get listStepsStates() {
     return cdktn.Fn.tolist(this.getListAttribute('list_steps_states'));
   }
@@ -5380,7 +5380,7 @@ export class EmrCluster extends cdktn.TerraformResource {
   }
 
   // log_encryption_kms_key_id - computed: false, optional: true, required: false
-  private _logEncryptionKmsKeyId?: string;
+  private _logEncryptionKmsKeyId?: string; 
   public get logEncryptionKmsKeyId() {
     return this.getStringAttribute('log_encryption_kms_key_id');
   }
@@ -5396,7 +5396,7 @@ export class EmrCluster extends cdktn.TerraformResource {
   }
 
   // log_uri - computed: false, optional: true, required: false
-  private _logUri?: string;
+  private _logUri?: string; 
   public get logUri() {
     return this.getStringAttribute('log_uri');
   }
@@ -5417,7 +5417,7 @@ export class EmrCluster extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -5430,7 +5430,7 @@ export class EmrCluster extends cdktn.TerraformResource {
   }
 
   // os_release_label - computed: false, optional: true, required: false
-  private _osReleaseLabel?: string;
+  private _osReleaseLabel?: string; 
   public get osReleaseLabel() {
     return this.getStringAttribute('os_release_label');
   }
@@ -5462,7 +5462,7 @@ export class EmrCluster extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -5478,7 +5478,7 @@ export class EmrCluster extends cdktn.TerraformResource {
   }
 
   // release_label - computed: false, optional: false, required: true
-  private _releaseLabel?: string;
+  private _releaseLabel?: string; 
   public get releaseLabel() {
     return this.getStringAttribute('release_label');
   }
@@ -5491,7 +5491,7 @@ export class EmrCluster extends cdktn.TerraformResource {
   }
 
   // scale_down_behavior - computed: true, optional: true, required: false
-  private _scaleDownBehavior?: string;
+  private _scaleDownBehavior?: string; 
   public get scaleDownBehavior() {
     return this.getStringAttribute('scale_down_behavior');
   }
@@ -5507,7 +5507,7 @@ export class EmrCluster extends cdktn.TerraformResource {
   }
 
   // security_configuration - computed: false, optional: true, required: false
-  private _securityConfiguration?: string;
+  private _securityConfiguration?: string; 
   public get securityConfiguration() {
     return this.getStringAttribute('security_configuration');
   }
@@ -5523,7 +5523,7 @@ export class EmrCluster extends cdktn.TerraformResource {
   }
 
   // service_role - computed: false, optional: false, required: true
-  private _serviceRole?: string;
+  private _serviceRole?: string; 
   public get serviceRole() {
     return this.getStringAttribute('service_role');
   }
@@ -5552,7 +5552,7 @@ export class EmrCluster extends cdktn.TerraformResource {
   }
 
   // step_concurrency_level - computed: false, optional: true, required: false
-  private _stepConcurrencyLevel?: number;
+  private _stepConcurrencyLevel?: number; 
   public get stepConcurrencyLevel() {
     return this.getNumberAttribute('step_concurrency_level');
   }
@@ -5568,7 +5568,7 @@ export class EmrCluster extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -5584,7 +5584,7 @@ export class EmrCluster extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -5600,7 +5600,7 @@ export class EmrCluster extends cdktn.TerraformResource {
   }
 
   // termination_protection - computed: true, optional: true, required: false
-  private _terminationProtection?: boolean | cdktn.IResolvable;
+  private _terminationProtection?: boolean | cdktn.IResolvable; 
   public get terminationProtection() {
     return this.getBooleanAttribute('termination_protection');
   }
@@ -5616,7 +5616,7 @@ export class EmrCluster extends cdktn.TerraformResource {
   }
 
   // unhealthy_node_replacement - computed: false, optional: true, required: false
-  private _unhealthyNodeReplacement?: boolean | cdktn.IResolvable;
+  private _unhealthyNodeReplacement?: boolean | cdktn.IResolvable; 
   public get unhealthyNodeReplacement() {
     return this.getBooleanAttribute('unhealthy_node_replacement');
   }
@@ -5632,7 +5632,7 @@ export class EmrCluster extends cdktn.TerraformResource {
   }
 
   // visible_to_all_users - computed: false, optional: true, required: false
-  private _visibleToAllUsers?: boolean | cdktn.IResolvable;
+  private _visibleToAllUsers?: boolean | cdktn.IResolvable; 
   public get visibleToAllUsers() {
     return this.getBooleanAttribute('visible_to_all_users');
   }

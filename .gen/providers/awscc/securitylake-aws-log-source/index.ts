@@ -94,7 +94,7 @@ export class SecuritylakeAwsLogSource extends cdktn.TerraformResource {
   // ==========
 
   // accounts - computed: true, optional: true, required: false
-  private _accounts?: string[];
+  private _accounts?: string[]; 
   public get accounts() {
     return cdktn.Fn.tolist(this.getListAttribute('accounts'));
   }
@@ -110,7 +110,7 @@ export class SecuritylakeAwsLogSource extends cdktn.TerraformResource {
   }
 
   // data_lake_arn - computed: false, optional: false, required: true
-  private _dataLakeArn?: string;
+  private _dataLakeArn?: string; 
   public get dataLakeArn() {
     return this.getStringAttribute('data_lake_arn');
   }
@@ -128,7 +128,7 @@ export class SecuritylakeAwsLogSource extends cdktn.TerraformResource {
   }
 
   // source_name - computed: false, optional: false, required: true
-  private _sourceName?: string;
+  private _sourceName?: string; 
   public get sourceName() {
     return this.getStringAttribute('source_name');
   }
@@ -141,7 +141,7 @@ export class SecuritylakeAwsLogSource extends cdktn.TerraformResource {
   }
 
   // source_version - computed: false, optional: false, required: true
-  private _sourceVersion?: string;
+  private _sourceVersion?: string; 
   public get sourceVersion() {
     return this.getStringAttribute('source_version');
   }

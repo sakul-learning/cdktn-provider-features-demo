@@ -161,7 +161,7 @@ export class BedrockGuardrailContentPolicyConfigTierConfigOutputReference extend
   }
 
   // tier_name - computed: true, optional: true, required: false
-  private _tierName?: string;
+  private _tierName?: string; 
   public get tierName() {
     return this.getStringAttribute('tier_name');
   }
@@ -413,7 +413,7 @@ export class BedrockGuardrailContentPolicyConfigFiltersConfigOutputReference ext
   }
 
   // input_action - computed: false, optional: true, required: false
-  private _inputAction?: string;
+  private _inputAction?: string; 
   public get inputAction() {
     return this.getStringAttribute('input_action');
   }
@@ -429,7 +429,7 @@ export class BedrockGuardrailContentPolicyConfigFiltersConfigOutputReference ext
   }
 
   // input_enabled - computed: false, optional: true, required: false
-  private _inputEnabled?: boolean | cdktn.IResolvable;
+  private _inputEnabled?: boolean | cdktn.IResolvable; 
   public get inputEnabled() {
     return this.getBooleanAttribute('input_enabled');
   }
@@ -445,7 +445,7 @@ export class BedrockGuardrailContentPolicyConfigFiltersConfigOutputReference ext
   }
 
   // input_modalities - computed: false, optional: true, required: false
-  private _inputModalities?: string[];
+  private _inputModalities?: string[]; 
   public get inputModalities() {
     return cdktn.Fn.tolist(this.getListAttribute('input_modalities'));
   }
@@ -461,7 +461,7 @@ export class BedrockGuardrailContentPolicyConfigFiltersConfigOutputReference ext
   }
 
   // input_strength - computed: false, optional: false, required: true
-  private _inputStrength?: string;
+  private _inputStrength?: string; 
   public get inputStrength() {
     return this.getStringAttribute('input_strength');
   }
@@ -474,7 +474,7 @@ export class BedrockGuardrailContentPolicyConfigFiltersConfigOutputReference ext
   }
 
   // output_action - computed: false, optional: true, required: false
-  private _outputAction?: string;
+  private _outputAction?: string; 
   public get outputAction() {
     return this.getStringAttribute('output_action');
   }
@@ -490,7 +490,7 @@ export class BedrockGuardrailContentPolicyConfigFiltersConfigOutputReference ext
   }
 
   // output_enabled - computed: false, optional: true, required: false
-  private _outputEnabled?: boolean | cdktn.IResolvable;
+  private _outputEnabled?: boolean | cdktn.IResolvable; 
   public get outputEnabled() {
     return this.getBooleanAttribute('output_enabled');
   }
@@ -506,7 +506,7 @@ export class BedrockGuardrailContentPolicyConfigFiltersConfigOutputReference ext
   }
 
   // output_modalities - computed: false, optional: true, required: false
-  private _outputModalities?: string[];
+  private _outputModalities?: string[]; 
   public get outputModalities() {
     return cdktn.Fn.tolist(this.getListAttribute('output_modalities'));
   }
@@ -522,7 +522,7 @@ export class BedrockGuardrailContentPolicyConfigFiltersConfigOutputReference ext
   }
 
   // output_strength - computed: false, optional: false, required: true
-  private _outputStrength?: string;
+  private _outputStrength?: string; 
   public get outputStrength() {
     return this.getStringAttribute('output_strength');
   }
@@ -535,7 +535,7 @@ export class BedrockGuardrailContentPolicyConfigFiltersConfigOutputReference ext
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -816,7 +816,7 @@ export class BedrockGuardrailContextualGroundingPolicyConfigFiltersConfigOutputR
   }
 
   // threshold - computed: false, optional: false, required: true
-  private _threshold?: number;
+  private _threshold?: number; 
   public get threshold() {
     return this.getNumberAttribute('threshold');
   }
@@ -829,7 +829,7 @@ export class BedrockGuardrailContextualGroundingPolicyConfigFiltersConfigOutputR
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -1060,7 +1060,7 @@ export class BedrockGuardrailCrossRegionConfigOutputReference extends cdktn.Comp
   }
 
   // guardrail_profile_identifier - computed: false, optional: false, required: true
-  private _guardrailProfileIdentifier?: string;
+  private _guardrailProfileIdentifier?: string; 
   public get guardrailProfileIdentifier() {
     return this.getStringAttribute('guardrail_profile_identifier');
   }
@@ -1258,7 +1258,7 @@ export class BedrockGuardrailSensitiveInformationPolicyConfigPiiEntitiesConfigOu
   }
 
   // action - computed: false, optional: false, required: true
-  private _action?: string;
+  private _action?: string; 
   public get action() {
     return this.getStringAttribute('action');
   }
@@ -1271,7 +1271,7 @@ export class BedrockGuardrailSensitiveInformationPolicyConfigPiiEntitiesConfigOu
   }
 
   // input_action - computed: true, optional: true, required: false
-  private _inputAction?: string;
+  private _inputAction?: string; 
   public get inputAction() {
     return this.getStringAttribute('input_action');
   }
@@ -1287,7 +1287,7 @@ export class BedrockGuardrailSensitiveInformationPolicyConfigPiiEntitiesConfigOu
   }
 
   // input_enabled - computed: true, optional: true, required: false
-  private _inputEnabled?: boolean | cdktn.IResolvable;
+  private _inputEnabled?: boolean | cdktn.IResolvable; 
   public get inputEnabled() {
     return this.getBooleanAttribute('input_enabled');
   }
@@ -1303,7 +1303,7 @@ export class BedrockGuardrailSensitiveInformationPolicyConfigPiiEntitiesConfigOu
   }
 
   // output_action - computed: true, optional: true, required: false
-  private _outputAction?: string;
+  private _outputAction?: string; 
   public get outputAction() {
     return this.getStringAttribute('output_action');
   }
@@ -1319,7 +1319,7 @@ export class BedrockGuardrailSensitiveInformationPolicyConfigPiiEntitiesConfigOu
   }
 
   // output_enabled - computed: true, optional: true, required: false
-  private _outputEnabled?: boolean | cdktn.IResolvable;
+  private _outputEnabled?: boolean | cdktn.IResolvable; 
   public get outputEnabled() {
     return this.getBooleanAttribute('output_enabled');
   }
@@ -1335,7 +1335,7 @@ export class BedrockGuardrailSensitiveInformationPolicyConfigPiiEntitiesConfigOu
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -1567,7 +1567,7 @@ export class BedrockGuardrailSensitiveInformationPolicyConfigRegexesConfigOutput
   }
 
   // action - computed: false, optional: false, required: true
-  private _action?: string;
+  private _action?: string; 
   public get action() {
     return this.getStringAttribute('action');
   }
@@ -1580,7 +1580,7 @@ export class BedrockGuardrailSensitiveInformationPolicyConfigRegexesConfigOutput
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1596,7 +1596,7 @@ export class BedrockGuardrailSensitiveInformationPolicyConfigRegexesConfigOutput
   }
 
   // input_action - computed: true, optional: true, required: false
-  private _inputAction?: string;
+  private _inputAction?: string; 
   public get inputAction() {
     return this.getStringAttribute('input_action');
   }
@@ -1612,7 +1612,7 @@ export class BedrockGuardrailSensitiveInformationPolicyConfigRegexesConfigOutput
   }
 
   // input_enabled - computed: true, optional: true, required: false
-  private _inputEnabled?: boolean | cdktn.IResolvable;
+  private _inputEnabled?: boolean | cdktn.IResolvable; 
   public get inputEnabled() {
     return this.getBooleanAttribute('input_enabled');
   }
@@ -1628,7 +1628,7 @@ export class BedrockGuardrailSensitiveInformationPolicyConfigRegexesConfigOutput
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1641,7 +1641,7 @@ export class BedrockGuardrailSensitiveInformationPolicyConfigRegexesConfigOutput
   }
 
   // output_action - computed: true, optional: true, required: false
-  private _outputAction?: string;
+  private _outputAction?: string; 
   public get outputAction() {
     return this.getStringAttribute('output_action');
   }
@@ -1657,7 +1657,7 @@ export class BedrockGuardrailSensitiveInformationPolicyConfigRegexesConfigOutput
   }
 
   // output_enabled - computed: true, optional: true, required: false
-  private _outputEnabled?: boolean | cdktn.IResolvable;
+  private _outputEnabled?: boolean | cdktn.IResolvable; 
   public get outputEnabled() {
     return this.getBooleanAttribute('output_enabled');
   }
@@ -1673,7 +1673,7 @@ export class BedrockGuardrailSensitiveInformationPolicyConfigRegexesConfigOutput
   }
 
   // pattern - computed: false, optional: false, required: true
-  private _pattern?: string;
+  private _pattern?: string; 
   public get pattern() {
     return this.getStringAttribute('pattern');
   }
@@ -1977,7 +1977,7 @@ export class BedrockGuardrailTimeoutsOutputReference extends cdktn.ComplexObject
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -1993,7 +1993,7 @@ export class BedrockGuardrailTimeoutsOutputReference extends cdktn.ComplexObject
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -2009,7 +2009,7 @@ export class BedrockGuardrailTimeoutsOutputReference extends cdktn.ComplexObject
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -2105,7 +2105,7 @@ export class BedrockGuardrailTopicPolicyConfigTierConfigOutputReference extends 
   }
 
   // tier_name - computed: true, optional: true, required: false
-  private _tierName?: string;
+  private _tierName?: string; 
   public get tierName() {
     return this.getStringAttribute('tier_name');
   }
@@ -2272,7 +2272,7 @@ export class BedrockGuardrailTopicPolicyConfigTopicsConfigOutputReference extend
   }
 
   // definition - computed: false, optional: false, required: true
-  private _definition?: string;
+  private _definition?: string; 
   public get definition() {
     return this.getStringAttribute('definition');
   }
@@ -2285,7 +2285,7 @@ export class BedrockGuardrailTopicPolicyConfigTopicsConfigOutputReference extend
   }
 
   // examples - computed: true, optional: true, required: false
-  private _examples?: string[];
+  private _examples?: string[]; 
   public get examples() {
     return this.getListAttribute('examples');
   }
@@ -2301,7 +2301,7 @@ export class BedrockGuardrailTopicPolicyConfigTopicsConfigOutputReference extend
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2314,7 +2314,7 @@ export class BedrockGuardrailTopicPolicyConfigTopicsConfigOutputReference extend
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -2646,7 +2646,7 @@ export class BedrockGuardrailWordPolicyConfigManagedWordListsConfigOutputReferen
   }
 
   // input_action - computed: false, optional: true, required: false
-  private _inputAction?: string;
+  private _inputAction?: string; 
   public get inputAction() {
     return this.getStringAttribute('input_action');
   }
@@ -2662,7 +2662,7 @@ export class BedrockGuardrailWordPolicyConfigManagedWordListsConfigOutputReferen
   }
 
   // input_enabled - computed: false, optional: true, required: false
-  private _inputEnabled?: boolean | cdktn.IResolvable;
+  private _inputEnabled?: boolean | cdktn.IResolvable; 
   public get inputEnabled() {
     return this.getBooleanAttribute('input_enabled');
   }
@@ -2678,7 +2678,7 @@ export class BedrockGuardrailWordPolicyConfigManagedWordListsConfigOutputReferen
   }
 
   // output_action - computed: false, optional: true, required: false
-  private _outputAction?: string;
+  private _outputAction?: string; 
   public get outputAction() {
     return this.getStringAttribute('output_action');
   }
@@ -2694,7 +2694,7 @@ export class BedrockGuardrailWordPolicyConfigManagedWordListsConfigOutputReferen
   }
 
   // output_enabled - computed: false, optional: true, required: false
-  private _outputEnabled?: boolean | cdktn.IResolvable;
+  private _outputEnabled?: boolean | cdktn.IResolvable; 
   public get outputEnabled() {
     return this.getBooleanAttribute('output_enabled');
   }
@@ -2710,7 +2710,7 @@ export class BedrockGuardrailWordPolicyConfigManagedWordListsConfigOutputReferen
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -2891,7 +2891,7 @@ export class BedrockGuardrailWordPolicyConfigWordsConfigOutputReference extends 
   }
 
   // input_action - computed: false, optional: true, required: false
-  private _inputAction?: string;
+  private _inputAction?: string; 
   public get inputAction() {
     return this.getStringAttribute('input_action');
   }
@@ -2907,7 +2907,7 @@ export class BedrockGuardrailWordPolicyConfigWordsConfigOutputReference extends 
   }
 
   // input_enabled - computed: false, optional: true, required: false
-  private _inputEnabled?: boolean | cdktn.IResolvable;
+  private _inputEnabled?: boolean | cdktn.IResolvable; 
   public get inputEnabled() {
     return this.getBooleanAttribute('input_enabled');
   }
@@ -2923,7 +2923,7 @@ export class BedrockGuardrailWordPolicyConfigWordsConfigOutputReference extends 
   }
 
   // output_action - computed: false, optional: true, required: false
-  private _outputAction?: string;
+  private _outputAction?: string; 
   public get outputAction() {
     return this.getStringAttribute('output_action');
   }
@@ -2939,7 +2939,7 @@ export class BedrockGuardrailWordPolicyConfigWordsConfigOutputReference extends 
   }
 
   // output_enabled - computed: false, optional: true, required: false
-  private _outputEnabled?: boolean | cdktn.IResolvable;
+  private _outputEnabled?: boolean | cdktn.IResolvable; 
   public get outputEnabled() {
     return this.getBooleanAttribute('output_enabled');
   }
@@ -2955,7 +2955,7 @@ export class BedrockGuardrailWordPolicyConfigWordsConfigOutputReference extends 
   }
 
   // text - computed: false, optional: false, required: true
-  private _text?: string;
+  private _text?: string; 
   public get text() {
     return this.getStringAttribute('text');
   }
@@ -3212,7 +3212,7 @@ export class BedrockGuardrail extends cdktn.TerraformResource {
   // ==========
 
   // blocked_input_messaging - computed: false, optional: false, required: true
-  private _blockedInputMessaging?: string;
+  private _blockedInputMessaging?: string; 
   public get blockedInputMessaging() {
     return this.getStringAttribute('blocked_input_messaging');
   }
@@ -3225,7 +3225,7 @@ export class BedrockGuardrail extends cdktn.TerraformResource {
   }
 
   // blocked_outputs_messaging - computed: false, optional: false, required: true
-  private _blockedOutputsMessaging?: string;
+  private _blockedOutputsMessaging?: string; 
   public get blockedOutputsMessaging() {
     return this.getStringAttribute('blocked_outputs_messaging');
   }
@@ -3243,7 +3243,7 @@ export class BedrockGuardrail extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -3269,7 +3269,7 @@ export class BedrockGuardrail extends cdktn.TerraformResource {
   }
 
   // kms_key_arn - computed: false, optional: true, required: false
-  private _kmsKeyArn?: string;
+  private _kmsKeyArn?: string; 
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -3285,7 +3285,7 @@ export class BedrockGuardrail extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -3298,7 +3298,7 @@ export class BedrockGuardrail extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -3319,7 +3319,7 @@ export class BedrockGuardrail extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

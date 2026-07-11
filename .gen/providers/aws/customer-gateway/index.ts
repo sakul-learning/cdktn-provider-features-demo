@@ -126,7 +126,7 @@ export class CustomerGateway extends cdktn.TerraformResource {
   }
 
   // bgp_asn - computed: false, optional: true, required: false
-  private _bgpAsn?: string;
+  private _bgpAsn?: string; 
   public get bgpAsn() {
     return this.getStringAttribute('bgp_asn');
   }
@@ -142,7 +142,7 @@ export class CustomerGateway extends cdktn.TerraformResource {
   }
 
   // bgp_asn_extended - computed: false, optional: true, required: false
-  private _bgpAsnExtended?: string;
+  private _bgpAsnExtended?: string; 
   public get bgpAsnExtended() {
     return this.getStringAttribute('bgp_asn_extended');
   }
@@ -158,7 +158,7 @@ export class CustomerGateway extends cdktn.TerraformResource {
   }
 
   // certificate_arn - computed: false, optional: true, required: false
-  private _certificateArn?: string;
+  private _certificateArn?: string; 
   public get certificateArn() {
     return this.getStringAttribute('certificate_arn');
   }
@@ -174,7 +174,7 @@ export class CustomerGateway extends cdktn.TerraformResource {
   }
 
   // device_name - computed: false, optional: true, required: false
-  private _deviceName?: string;
+  private _deviceName?: string; 
   public get deviceName() {
     return this.getStringAttribute('device_name');
   }
@@ -190,7 +190,7 @@ export class CustomerGateway extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -206,7 +206,7 @@ export class CustomerGateway extends cdktn.TerraformResource {
   }
 
   // ip_address - computed: false, optional: true, required: false
-  private _ipAddress?: string;
+  private _ipAddress?: string; 
   public get ipAddress() {
     return this.getStringAttribute('ip_address');
   }
@@ -222,7 +222,7 @@ export class CustomerGateway extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -238,7 +238,7 @@ export class CustomerGateway extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -254,7 +254,7 @@ export class CustomerGateway extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -270,7 +270,7 @@ export class CustomerGateway extends cdktn.TerraformResource {
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }

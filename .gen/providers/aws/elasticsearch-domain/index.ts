@@ -220,7 +220,7 @@ export class ElasticsearchDomainAdvancedSecurityOptionsMasterUserOptionsOutputRe
   }
 
   // master_user_arn - computed: false, optional: true, required: false
-  private _masterUserArn?: string;
+  private _masterUserArn?: string; 
   public get masterUserArn() {
     return this.getStringAttribute('master_user_arn');
   }
@@ -236,7 +236,7 @@ export class ElasticsearchDomainAdvancedSecurityOptionsMasterUserOptionsOutputRe
   }
 
   // master_user_name - computed: false, optional: true, required: false
-  private _masterUserName?: string;
+  private _masterUserName?: string; 
   public get masterUserName() {
     return this.getStringAttribute('master_user_name');
   }
@@ -252,7 +252,7 @@ export class ElasticsearchDomainAdvancedSecurityOptionsMasterUserOptionsOutputRe
   }
 
   // master_user_password - computed: false, optional: true, required: false
-  private _masterUserPassword?: string;
+  private _masterUserPassword?: string; 
   public get masterUserPassword() {
     return this.getStringAttribute('master_user_password');
   }
@@ -372,7 +372,7 @@ export class ElasticsearchDomainAdvancedSecurityOptionsOutputReference extends c
   }
 
   // enabled - computed: false, optional: false, required: true
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -385,7 +385,7 @@ export class ElasticsearchDomainAdvancedSecurityOptionsOutputReference extends c
   }
 
   // internal_user_database_enabled - computed: false, optional: true, required: false
-  private _internalUserDatabaseEnabled?: boolean | cdktn.IResolvable;
+  private _internalUserDatabaseEnabled?: boolean | cdktn.IResolvable; 
   public get internalUserDatabaseEnabled() {
     return this.getBooleanAttribute('internal_user_database_enabled');
   }
@@ -502,7 +502,7 @@ export class ElasticsearchDomainAutoTuneOptionsMaintenanceScheduleDurationOutput
   }
 
   // unit - computed: false, optional: false, required: true
-  private _unit?: string;
+  private _unit?: string; 
   public get unit() {
     return this.getStringAttribute('unit');
   }
@@ -515,7 +515,7 @@ export class ElasticsearchDomainAutoTuneOptionsMaintenanceScheduleDurationOutput
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: number;
+  private _value?: number; 
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -644,7 +644,7 @@ export class ElasticsearchDomainAutoTuneOptionsMaintenanceScheduleOutputReferenc
   }
 
   // cron_expression_for_recurrence - computed: false, optional: false, required: true
-  private _cronExpressionForRecurrence?: string;
+  private _cronExpressionForRecurrence?: string; 
   public get cronExpressionForRecurrence() {
     return this.getStringAttribute('cron_expression_for_recurrence');
   }
@@ -657,7 +657,7 @@ export class ElasticsearchDomainAutoTuneOptionsMaintenanceScheduleOutputReferenc
   }
 
   // start_at - computed: false, optional: false, required: true
-  private _startAt?: string;
+  private _startAt?: string; 
   public get startAt() {
     return this.getStringAttribute('start_at');
   }
@@ -807,7 +807,7 @@ export class ElasticsearchDomainAutoTuneOptionsOutputReference extends cdktn.Com
   }
 
   // desired_state - computed: false, optional: false, required: true
-  private _desiredState?: string;
+  private _desiredState?: string; 
   public get desiredState() {
     return this.getStringAttribute('desired_state');
   }
@@ -820,7 +820,7 @@ export class ElasticsearchDomainAutoTuneOptionsOutputReference extends cdktn.Com
   }
 
   // rollback_on_disable - computed: true, optional: true, required: false
-  private _rollbackOnDisable?: string;
+  private _rollbackOnDisable?: string; 
   public get rollbackOnDisable() {
     return this.getStringAttribute('rollback_on_disable');
   }
@@ -920,7 +920,7 @@ export class ElasticsearchDomainClusterConfigColdStorageOptionsOutputReference e
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -1004,7 +1004,7 @@ export class ElasticsearchDomainClusterConfigZoneAwarenessConfigOutputReference 
   }
 
   // availability_zone_count - computed: false, optional: true, required: false
-  private _availabilityZoneCount?: number;
+  private _availabilityZoneCount?: number; 
   public get availabilityZoneCount() {
     return this.getNumberAttribute('availability_zone_count');
   }
@@ -1262,7 +1262,7 @@ export class ElasticsearchDomainClusterConfigOutputReference extends cdktn.Compl
   }
 
   // dedicated_master_count - computed: false, optional: true, required: false
-  private _dedicatedMasterCount?: number;
+  private _dedicatedMasterCount?: number; 
   public get dedicatedMasterCount() {
     return this.getNumberAttribute('dedicated_master_count');
   }
@@ -1278,7 +1278,7 @@ export class ElasticsearchDomainClusterConfigOutputReference extends cdktn.Compl
   }
 
   // dedicated_master_enabled - computed: false, optional: true, required: false
-  private _dedicatedMasterEnabled?: boolean | cdktn.IResolvable;
+  private _dedicatedMasterEnabled?: boolean | cdktn.IResolvable; 
   public get dedicatedMasterEnabled() {
     return this.getBooleanAttribute('dedicated_master_enabled');
   }
@@ -1294,7 +1294,7 @@ export class ElasticsearchDomainClusterConfigOutputReference extends cdktn.Compl
   }
 
   // dedicated_master_type - computed: false, optional: true, required: false
-  private _dedicatedMasterType?: string;
+  private _dedicatedMasterType?: string; 
   public get dedicatedMasterType() {
     return this.getStringAttribute('dedicated_master_type');
   }
@@ -1310,7 +1310,7 @@ export class ElasticsearchDomainClusterConfigOutputReference extends cdktn.Compl
   }
 
   // instance_count - computed: false, optional: true, required: false
-  private _instanceCount?: number;
+  private _instanceCount?: number; 
   public get instanceCount() {
     return this.getNumberAttribute('instance_count');
   }
@@ -1326,7 +1326,7 @@ export class ElasticsearchDomainClusterConfigOutputReference extends cdktn.Compl
   }
 
   // instance_type - computed: false, optional: true, required: false
-  private _instanceType?: string;
+  private _instanceType?: string; 
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -1342,7 +1342,7 @@ export class ElasticsearchDomainClusterConfigOutputReference extends cdktn.Compl
   }
 
   // warm_count - computed: false, optional: true, required: false
-  private _warmCount?: number;
+  private _warmCount?: number; 
   public get warmCount() {
     return this.getNumberAttribute('warm_count');
   }
@@ -1358,7 +1358,7 @@ export class ElasticsearchDomainClusterConfigOutputReference extends cdktn.Compl
   }
 
   // warm_enabled - computed: false, optional: true, required: false
-  private _warmEnabled?: boolean | cdktn.IResolvable;
+  private _warmEnabled?: boolean | cdktn.IResolvable; 
   public get warmEnabled() {
     return this.getBooleanAttribute('warm_enabled');
   }
@@ -1374,7 +1374,7 @@ export class ElasticsearchDomainClusterConfigOutputReference extends cdktn.Compl
   }
 
   // warm_type - computed: false, optional: true, required: false
-  private _warmType?: string;
+  private _warmType?: string; 
   public get warmType() {
     return this.getStringAttribute('warm_type');
   }
@@ -1390,7 +1390,7 @@ export class ElasticsearchDomainClusterConfigOutputReference extends cdktn.Compl
   }
 
   // zone_awareness_enabled - computed: false, optional: true, required: false
-  private _zoneAwarenessEnabled?: boolean | cdktn.IResolvable;
+  private _zoneAwarenessEnabled?: boolean | cdktn.IResolvable; 
   public get zoneAwarenessEnabled() {
     return this.getBooleanAttribute('zone_awareness_enabled');
   }
@@ -1557,7 +1557,7 @@ export class ElasticsearchDomainCognitoOptionsOutputReference extends cdktn.Comp
   }
 
   // enabled - computed: false, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -1573,7 +1573,7 @@ export class ElasticsearchDomainCognitoOptionsOutputReference extends cdktn.Comp
   }
 
   // identity_pool_id - computed: false, optional: false, required: true
-  private _identityPoolId?: string;
+  private _identityPoolId?: string; 
   public get identityPoolId() {
     return this.getStringAttribute('identity_pool_id');
   }
@@ -1586,7 +1586,7 @@ export class ElasticsearchDomainCognitoOptionsOutputReference extends cdktn.Comp
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -1599,7 +1599,7 @@ export class ElasticsearchDomainCognitoOptionsOutputReference extends cdktn.Comp
   }
 
   // user_pool_id - computed: false, optional: false, required: true
-  private _userPoolId?: string;
+  private _userPoolId?: string; 
   public get userPoolId() {
     return this.getStringAttribute('user_pool_id');
   }
@@ -1748,7 +1748,7 @@ export class ElasticsearchDomainDomainEndpointOptionsOutputReference extends cdk
   }
 
   // custom_endpoint - computed: false, optional: true, required: false
-  private _customEndpoint?: string;
+  private _customEndpoint?: string; 
   public get customEndpoint() {
     return this.getStringAttribute('custom_endpoint');
   }
@@ -1764,7 +1764,7 @@ export class ElasticsearchDomainDomainEndpointOptionsOutputReference extends cdk
   }
 
   // custom_endpoint_certificate_arn - computed: false, optional: true, required: false
-  private _customEndpointCertificateArn?: string;
+  private _customEndpointCertificateArn?: string; 
   public get customEndpointCertificateArn() {
     return this.getStringAttribute('custom_endpoint_certificate_arn');
   }
@@ -1780,7 +1780,7 @@ export class ElasticsearchDomainDomainEndpointOptionsOutputReference extends cdk
   }
 
   // custom_endpoint_enabled - computed: false, optional: true, required: false
-  private _customEndpointEnabled?: boolean | cdktn.IResolvable;
+  private _customEndpointEnabled?: boolean | cdktn.IResolvable; 
   public get customEndpointEnabled() {
     return this.getBooleanAttribute('custom_endpoint_enabled');
   }
@@ -1796,7 +1796,7 @@ export class ElasticsearchDomainDomainEndpointOptionsOutputReference extends cdk
   }
 
   // enforce_https - computed: false, optional: true, required: false
-  private _enforceHttps?: boolean | cdktn.IResolvable;
+  private _enforceHttps?: boolean | cdktn.IResolvable; 
   public get enforceHttps() {
     return this.getBooleanAttribute('enforce_https');
   }
@@ -1812,7 +1812,7 @@ export class ElasticsearchDomainDomainEndpointOptionsOutputReference extends cdk
   }
 
   // tls_security_policy - computed: true, optional: true, required: false
-  private _tlsSecurityPolicy?: string;
+  private _tlsSecurityPolicy?: string; 
   public get tlsSecurityPolicy() {
     return this.getStringAttribute('tls_security_policy');
   }
@@ -1964,7 +1964,7 @@ export class ElasticsearchDomainEbsOptionsOutputReference extends cdktn.ComplexO
   }
 
   // ebs_enabled - computed: false, optional: false, required: true
-  private _ebsEnabled?: boolean | cdktn.IResolvable;
+  private _ebsEnabled?: boolean | cdktn.IResolvable; 
   public get ebsEnabled() {
     return this.getBooleanAttribute('ebs_enabled');
   }
@@ -1977,7 +1977,7 @@ export class ElasticsearchDomainEbsOptionsOutputReference extends cdktn.ComplexO
   }
 
   // iops - computed: true, optional: true, required: false
-  private _iops?: number;
+  private _iops?: number; 
   public get iops() {
     return this.getNumberAttribute('iops');
   }
@@ -1993,7 +1993,7 @@ export class ElasticsearchDomainEbsOptionsOutputReference extends cdktn.ComplexO
   }
 
   // throughput - computed: true, optional: true, required: false
-  private _throughput?: number;
+  private _throughput?: number; 
   public get throughput() {
     return this.getNumberAttribute('throughput');
   }
@@ -2009,7 +2009,7 @@ export class ElasticsearchDomainEbsOptionsOutputReference extends cdktn.ComplexO
   }
 
   // volume_size - computed: false, optional: true, required: false
-  private _volumeSize?: number;
+  private _volumeSize?: number; 
   public get volumeSize() {
     return this.getNumberAttribute('volume_size');
   }
@@ -2025,7 +2025,7 @@ export class ElasticsearchDomainEbsOptionsOutputReference extends cdktn.ComplexO
   }
 
   // volume_type - computed: true, optional: true, required: false
-  private _volumeType?: string;
+  private _volumeType?: string; 
   public get volumeType() {
     return this.getStringAttribute('volume_type');
   }
@@ -2126,7 +2126,7 @@ export class ElasticsearchDomainEncryptAtRestOutputReference extends cdktn.Compl
   }
 
   // enabled - computed: false, optional: false, required: true
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -2139,7 +2139,7 @@ export class ElasticsearchDomainEncryptAtRestOutputReference extends cdktn.Compl
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -2269,7 +2269,7 @@ export class ElasticsearchDomainLogPublishingOptionsOutputReference extends cdkt
   }
 
   // cloudwatch_log_group_arn - computed: false, optional: false, required: true
-  private _cloudwatchLogGroupArn?: string;
+  private _cloudwatchLogGroupArn?: string; 
   public get cloudwatchLogGroupArn() {
     return this.getStringAttribute('cloudwatch_log_group_arn');
   }
@@ -2282,7 +2282,7 @@ export class ElasticsearchDomainLogPublishingOptionsOutputReference extends cdkt
   }
 
   // enabled - computed: false, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -2298,7 +2298,7 @@ export class ElasticsearchDomainLogPublishingOptionsOutputReference extends cdkt
   }
 
   // log_type - computed: false, optional: false, required: true
-  private _logType?: string;
+  private _logType?: string; 
   public get logType() {
     return this.getStringAttribute('log_type');
   }
@@ -2399,7 +2399,7 @@ export class ElasticsearchDomainNodeToNodeEncryptionOutputReference extends cdkt
   }
 
   // enabled - computed: false, optional: false, required: true
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -2480,7 +2480,7 @@ export class ElasticsearchDomainSnapshotOptionsOutputReference extends cdktn.Com
   }
 
   // automated_snapshot_start_hour - computed: false, optional: false, required: true
-  private _automatedSnapshotStartHour?: number;
+  private _automatedSnapshotStartHour?: number; 
   public get automatedSnapshotStartHour() {
     return this.getNumberAttribute('automated_snapshot_start_hour');
   }
@@ -2605,7 +2605,7 @@ export class ElasticsearchDomainTimeoutsOutputReference extends cdktn.ComplexObj
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -2621,7 +2621,7 @@ export class ElasticsearchDomainTimeoutsOutputReference extends cdktn.ComplexObj
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -2637,7 +2637,7 @@ export class ElasticsearchDomainTimeoutsOutputReference extends cdktn.ComplexObj
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -2743,7 +2743,7 @@ export class ElasticsearchDomainVpcOptionsOutputReference extends cdktn.ComplexO
   }
 
   // security_group_ids - computed: false, optional: true, required: false
-  private _securityGroupIds?: string[];
+  private _securityGroupIds?: string[]; 
   public get securityGroupIds() {
     return cdktn.Fn.tolist(this.getListAttribute('security_group_ids'));
   }
@@ -2759,7 +2759,7 @@ export class ElasticsearchDomainVpcOptionsOutputReference extends cdktn.ComplexO
   }
 
   // subnet_ids - computed: false, optional: true, required: false
-  private _subnetIds?: string[];
+  private _subnetIds?: string[]; 
   public get subnetIds() {
     return cdktn.Fn.tolist(this.getListAttribute('subnet_ids'));
   }
@@ -2857,7 +2857,7 @@ export class ElasticsearchDomain extends cdktn.TerraformResource {
   // ==========
 
   // access_policies - computed: true, optional: true, required: false
-  private _accessPolicies?: string;
+  private _accessPolicies?: string; 
   public get accessPolicies() {
     return this.getStringAttribute('access_policies');
   }
@@ -2873,7 +2873,7 @@ export class ElasticsearchDomain extends cdktn.TerraformResource {
   }
 
   // advanced_options - computed: true, optional: true, required: false
-  private _advancedOptions?: { [key: string]: string };
+  private _advancedOptions?: { [key: string]: string }; 
   public get advancedOptions() {
     return this.getStringMapAttribute('advanced_options');
   }
@@ -2899,7 +2899,7 @@ export class ElasticsearchDomain extends cdktn.TerraformResource {
   }
 
   // domain_name - computed: false, optional: false, required: true
-  private _domainName?: string;
+  private _domainName?: string; 
   public get domainName() {
     return this.getStringAttribute('domain_name');
   }
@@ -2912,7 +2912,7 @@ export class ElasticsearchDomain extends cdktn.TerraformResource {
   }
 
   // elasticsearch_version - computed: false, optional: true, required: false
-  private _elasticsearchVersion?: string;
+  private _elasticsearchVersion?: string; 
   public get elasticsearchVersion() {
     return this.getStringAttribute('elasticsearch_version');
   }
@@ -2933,7 +2933,7 @@ export class ElasticsearchDomain extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -2954,7 +2954,7 @@ export class ElasticsearchDomain extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -2970,7 +2970,7 @@ export class ElasticsearchDomain extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -2986,7 +2986,7 @@ export class ElasticsearchDomain extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

@@ -147,7 +147,7 @@ export class MediatailorVodSourceHttpPackageConfigurationsOutputReference extend
   }
 
   // path - computed: false, optional: false, required: true
-  private _path?: string;
+  private _path?: string; 
   public get path() {
     return this.getStringAttribute('path');
   }
@@ -160,7 +160,7 @@ export class MediatailorVodSourceHttpPackageConfigurationsOutputReference extend
   }
 
   // source_group - computed: false, optional: false, required: true
-  private _sourceGroup?: string;
+  private _sourceGroup?: string; 
   public get sourceGroup() {
     return this.getStringAttribute('source_group');
   }
@@ -173,7 +173,7 @@ export class MediatailorVodSourceHttpPackageConfigurationsOutputReference extend
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -303,7 +303,7 @@ export class MediatailorVodSourceTagsOutputReference extends cdktn.ComplexObject
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -319,7 +319,7 @@ export class MediatailorVodSourceTagsOutputReference extends cdktn.ComplexObject
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -439,7 +439,7 @@ export class MediatailorVodSource extends cdktn.TerraformResource {
   }
 
   // source_location_name - computed: false, optional: false, required: true
-  private _sourceLocationName?: string;
+  private _sourceLocationName?: string; 
   public get sourceLocationName() {
     return this.getStringAttribute('source_location_name');
   }
@@ -468,7 +468,7 @@ export class MediatailorVodSource extends cdktn.TerraformResource {
   }
 
   // vod_source_name - computed: false, optional: false, required: true
-  private _vodSourceName?: string;
+  private _vodSourceName?: string; 
   public get vodSourceName() {
     return this.getStringAttribute('vod_source_name');
   }

@@ -117,7 +117,7 @@ export class RefactorspacesRouteDefaultRouteOutputReference extends cdktn.Comple
   }
 
   // activation_state - computed: true, optional: true, required: false
-  private _activationState?: string;
+  private _activationState?: string; 
   public get activationState() {
     return this.getStringAttribute('activation_state');
   }
@@ -234,7 +234,7 @@ export class RefactorspacesRouteTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -250,7 +250,7 @@ export class RefactorspacesRouteTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -432,7 +432,7 @@ export class RefactorspacesRouteUriPathRouteOutputReference extends cdktn.Comple
   }
 
   // activation_state - computed: true, optional: true, required: false
-  private _activationState?: string;
+  private _activationState?: string; 
   public get activationState() {
     return this.getStringAttribute('activation_state');
   }
@@ -448,7 +448,7 @@ export class RefactorspacesRouteUriPathRouteOutputReference extends cdktn.Comple
   }
 
   // append_source_path - computed: true, optional: true, required: false
-  private _appendSourcePath?: boolean | cdktn.IResolvable;
+  private _appendSourcePath?: boolean | cdktn.IResolvable; 
   public get appendSourcePath() {
     return this.getBooleanAttribute('append_source_path');
   }
@@ -464,7 +464,7 @@ export class RefactorspacesRouteUriPathRouteOutputReference extends cdktn.Comple
   }
 
   // include_child_paths - computed: true, optional: true, required: false
-  private _includeChildPaths?: boolean | cdktn.IResolvable;
+  private _includeChildPaths?: boolean | cdktn.IResolvable; 
   public get includeChildPaths() {
     return this.getBooleanAttribute('include_child_paths');
   }
@@ -480,7 +480,7 @@ export class RefactorspacesRouteUriPathRouteOutputReference extends cdktn.Comple
   }
 
   // methods - computed: true, optional: true, required: false
-  private _methods?: string[];
+  private _methods?: string[]; 
   public get methods() {
     return this.getListAttribute('methods');
   }
@@ -496,7 +496,7 @@ export class RefactorspacesRouteUriPathRouteOutputReference extends cdktn.Comple
   }
 
   // source_path - computed: true, optional: true, required: false
-  private _sourcePath?: string;
+  private _sourcePath?: string; 
   public get sourcePath() {
     return this.getStringAttribute('source_path');
   }
@@ -576,7 +576,7 @@ export class RefactorspacesRoute extends cdktn.TerraformResource {
   // ==========
 
   // application_identifier - computed: false, optional: false, required: true
-  private _applicationIdentifier?: string;
+  private _applicationIdentifier?: string; 
   public get applicationIdentifier() {
     return this.getStringAttribute('application_identifier');
   }
@@ -610,7 +610,7 @@ export class RefactorspacesRoute extends cdktn.TerraformResource {
   }
 
   // environment_identifier - computed: false, optional: false, required: true
-  private _environmentIdentifier?: string;
+  private _environmentIdentifier?: string; 
   public get environmentIdentifier() {
     return this.getStringAttribute('environment_identifier');
   }
@@ -638,7 +638,7 @@ export class RefactorspacesRoute extends cdktn.TerraformResource {
   }
 
   // route_type - computed: false, optional: false, required: true
-  private _routeType?: string;
+  private _routeType?: string; 
   public get routeType() {
     return this.getStringAttribute('route_type');
   }
@@ -651,7 +651,7 @@ export class RefactorspacesRoute extends cdktn.TerraformResource {
   }
 
   // service_identifier - computed: false, optional: false, required: true
-  private _serviceIdentifier?: string;
+  private _serviceIdentifier?: string; 
   public get serviceIdentifier() {
     return this.getStringAttribute('service_identifier');
   }

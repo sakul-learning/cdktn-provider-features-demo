@@ -96,7 +96,7 @@ export class DataAwsOutpostsOutpostInstanceType extends cdktn.TerraformDataSourc
   // ==========
 
   // arn - computed: false, optional: false, required: true
-  private _arn?: string;
+  private _arn?: string; 
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -109,7 +109,7 @@ export class DataAwsOutpostsOutpostInstanceType extends cdktn.TerraformDataSourc
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -125,7 +125,7 @@ export class DataAwsOutpostsOutpostInstanceType extends cdktn.TerraformDataSourc
   }
 
   // instance_type - computed: true, optional: true, required: false
-  private _instanceType?: string;
+  private _instanceType?: string; 
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -141,7 +141,7 @@ export class DataAwsOutpostsOutpostInstanceType extends cdktn.TerraformDataSourc
   }
 
   // preferred_instance_types - computed: false, optional: true, required: false
-  private _preferredInstanceTypes?: string[];
+  private _preferredInstanceTypes?: string[]; 
   public get preferredInstanceTypes() {
     return this.getListAttribute('preferred_instance_types');
   }
@@ -157,7 +157,7 @@ export class DataAwsOutpostsOutpostInstanceType extends cdktn.TerraformDataSourc
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

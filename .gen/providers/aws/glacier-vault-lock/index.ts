@@ -101,7 +101,7 @@ export class GlacierVaultLock extends cdktn.TerraformResource {
   // ==========
 
   // complete_lock - computed: false, optional: false, required: true
-  private _completeLock?: boolean | cdktn.IResolvable;
+  private _completeLock?: boolean | cdktn.IResolvable; 
   public get completeLock() {
     return this.getBooleanAttribute('complete_lock');
   }
@@ -114,7 +114,7 @@ export class GlacierVaultLock extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -130,7 +130,7 @@ export class GlacierVaultLock extends cdktn.TerraformResource {
   }
 
   // ignore_deletion_error - computed: false, optional: true, required: false
-  private _ignoreDeletionError?: boolean | cdktn.IResolvable;
+  private _ignoreDeletionError?: boolean | cdktn.IResolvable; 
   public get ignoreDeletionError() {
     return this.getBooleanAttribute('ignore_deletion_error');
   }
@@ -146,7 +146,7 @@ export class GlacierVaultLock extends cdktn.TerraformResource {
   }
 
   // policy - computed: false, optional: false, required: true
-  private _policy?: string;
+  private _policy?: string; 
   public get policy() {
     return this.getStringAttribute('policy');
   }
@@ -159,7 +159,7 @@ export class GlacierVaultLock extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -175,7 +175,7 @@ export class GlacierVaultLock extends cdktn.TerraformResource {
   }
 
   // vault_name - computed: false, optional: false, required: true
-  private _vaultName?: string;
+  private _vaultName?: string; 
   public get vaultName() {
     return this.getStringAttribute('vault_name');
   }

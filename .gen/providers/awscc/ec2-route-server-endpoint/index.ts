@@ -128,7 +128,7 @@ export class Ec2RouteServerEndpointTagsOutputReference extends cdktn.ComplexObje
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -144,7 +144,7 @@ export class Ec2RouteServerEndpointTagsOutputReference extends cdktn.ComplexObje
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -265,7 +265,7 @@ export class Ec2RouteServerEndpoint extends cdktn.TerraformResource {
   }
 
   // route_server_id - computed: false, optional: false, required: true
-  private _routeServerId?: string;
+  private _routeServerId?: string; 
   public get routeServerId() {
     return this.getStringAttribute('route_server_id');
   }
@@ -278,7 +278,7 @@ export class Ec2RouteServerEndpoint extends cdktn.TerraformResource {
   }
 
   // subnet_id - computed: false, optional: false, required: true
-  private _subnetId?: string;
+  private _subnetId?: string; 
   public get subnetId() {
     return this.getStringAttribute('subnet_id');
   }

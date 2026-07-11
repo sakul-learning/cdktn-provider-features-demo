@@ -97,7 +97,7 @@ export class ConnectViewVersion extends cdktn.TerraformResource {
   }
 
   // version_description - computed: true, optional: true, required: false
-  private _versionDescription?: string;
+  private _versionDescription?: string; 
   public get versionDescription() {
     return this.getStringAttribute('version_description');
   }
@@ -113,7 +113,7 @@ export class ConnectViewVersion extends cdktn.TerraformResource {
   }
 
   // view_arn - computed: false, optional: false, required: true
-  private _viewArn?: string;
+  private _viewArn?: string; 
   public get viewArn() {
     return this.getStringAttribute('view_arn');
   }
@@ -126,7 +126,7 @@ export class ConnectViewVersion extends cdktn.TerraformResource {
   }
 
   // view_content_sha_256 - computed: true, optional: true, required: false
-  private _viewContentSha256?: string;
+  private _viewContentSha256?: string; 
   public get viewContentSha256() {
     return this.getStringAttribute('view_content_sha_256');
   }

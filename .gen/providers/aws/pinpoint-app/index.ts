@@ -158,7 +158,7 @@ export class PinpointAppCampaignHookOutputReference extends cdktn.ComplexObject 
   }
 
   // lambda_function_name - computed: false, optional: true, required: false
-  private _lambdaFunctionName?: string;
+  private _lambdaFunctionName?: string; 
   public get lambdaFunctionName() {
     return this.getStringAttribute('lambda_function_name');
   }
@@ -174,7 +174,7 @@ export class PinpointAppCampaignHookOutputReference extends cdktn.ComplexObject 
   }
 
   // mode - computed: false, optional: true, required: false
-  private _mode?: string;
+  private _mode?: string; 
   public get mode() {
     return this.getStringAttribute('mode');
   }
@@ -190,7 +190,7 @@ export class PinpointAppCampaignHookOutputReference extends cdktn.ComplexObject 
   }
 
   // web_url - computed: false, optional: true, required: false
-  private _webUrl?: string;
+  private _webUrl?: string; 
   public get webUrl() {
     return this.getStringAttribute('web_url');
   }
@@ -325,7 +325,7 @@ export class PinpointAppLimitsOutputReference extends cdktn.ComplexObject {
   }
 
   // daily - computed: false, optional: true, required: false
-  private _daily?: number;
+  private _daily?: number; 
   public get daily() {
     return this.getNumberAttribute('daily');
   }
@@ -341,7 +341,7 @@ export class PinpointAppLimitsOutputReference extends cdktn.ComplexObject {
   }
 
   // maximum_duration - computed: false, optional: true, required: false
-  private _maximumDuration?: number;
+  private _maximumDuration?: number; 
   public get maximumDuration() {
     return this.getNumberAttribute('maximum_duration');
   }
@@ -357,7 +357,7 @@ export class PinpointAppLimitsOutputReference extends cdktn.ComplexObject {
   }
 
   // messages_per_second - computed: false, optional: true, required: false
-  private _messagesPerSecond?: number;
+  private _messagesPerSecond?: number; 
   public get messagesPerSecond() {
     return this.getNumberAttribute('messages_per_second');
   }
@@ -373,7 +373,7 @@ export class PinpointAppLimitsOutputReference extends cdktn.ComplexObject {
   }
 
   // total - computed: false, optional: true, required: false
-  private _total?: number;
+  private _total?: number; 
   public get total() {
     return this.getNumberAttribute('total');
   }
@@ -474,7 +474,7 @@ export class PinpointAppQuietTimeOutputReference extends cdktn.ComplexObject {
   }
 
   // end - computed: false, optional: true, required: false
-  private _end?: string;
+  private _end?: string; 
   public get end() {
     return this.getStringAttribute('end');
   }
@@ -490,7 +490,7 @@ export class PinpointAppQuietTimeOutputReference extends cdktn.ComplexObject {
   }
 
   // start - computed: false, optional: true, required: false
-  private _start?: string;
+  private _start?: string; 
   public get start() {
     return this.getStringAttribute('start');
   }
@@ -582,7 +582,7 @@ export class PinpointApp extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -598,7 +598,7 @@ export class PinpointApp extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -614,7 +614,7 @@ export class PinpointApp extends cdktn.TerraformResource {
   }
 
   // name_prefix - computed: true, optional: true, required: false
-  private _namePrefix?: string;
+  private _namePrefix?: string; 
   public get namePrefix() {
     return this.getStringAttribute('name_prefix');
   }
@@ -630,7 +630,7 @@ export class PinpointApp extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -646,7 +646,7 @@ export class PinpointApp extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -662,7 +662,7 @@ export class PinpointApp extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

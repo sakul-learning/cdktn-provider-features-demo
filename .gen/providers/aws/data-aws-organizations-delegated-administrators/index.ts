@@ -195,7 +195,7 @@ export class DataAwsOrganizationsDelegatedAdministrators extends cdktn.Terraform
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -211,7 +211,7 @@ export class DataAwsOrganizationsDelegatedAdministrators extends cdktn.Terraform
   }
 
   // service_principal - computed: false, optional: true, required: false
-  private _servicePrincipal?: string;
+  private _servicePrincipal?: string; 
   public get servicePrincipal() {
     return this.getStringAttribute('service_principal');
   }

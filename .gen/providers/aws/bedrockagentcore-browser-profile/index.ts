@@ -132,7 +132,7 @@ export class BedrockagentcoreBrowserProfileTimeoutsOutputReference extends cdktn
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -148,7 +148,7 @@ export class BedrockagentcoreBrowserProfileTimeoutsOutputReference extends cdktn
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -226,7 +226,7 @@ export class BedrockagentcoreBrowserProfile extends cdktn.TerraformResource {
   // ==========
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -242,7 +242,7 @@ export class BedrockagentcoreBrowserProfile extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -265,7 +265,7 @@ export class BedrockagentcoreBrowserProfile extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -281,7 +281,7 @@ export class BedrockagentcoreBrowserProfile extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

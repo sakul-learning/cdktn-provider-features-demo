@@ -177,7 +177,7 @@ export class WorkmailDomain extends cdktn.TerraformResource {
   }
 
   // domain_name - computed: false, optional: false, required: true
-  private _domainName?: string;
+  private _domainName?: string; 
   public get domainName() {
     return this.getStringAttribute('domain_name');
   }
@@ -200,7 +200,7 @@ export class WorkmailDomain extends cdktn.TerraformResource {
   }
 
   // organization_id - computed: false, optional: false, required: true
-  private _organizationId?: string;
+  private _organizationId?: string; 
   public get organizationId() {
     return this.getStringAttribute('organization_id');
   }
@@ -224,7 +224,7 @@ export class WorkmailDomain extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

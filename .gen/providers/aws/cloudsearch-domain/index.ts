@@ -139,7 +139,7 @@ export class CloudsearchDomainEndpointOptionsOutputReference extends cdktn.Compl
   }
 
   // enforce_https - computed: true, optional: true, required: false
-  private _enforceHttps?: boolean | cdktn.IResolvable;
+  private _enforceHttps?: boolean | cdktn.IResolvable; 
   public get enforceHttps() {
     return this.getBooleanAttribute('enforce_https');
   }
@@ -155,7 +155,7 @@ export class CloudsearchDomainEndpointOptionsOutputReference extends cdktn.Compl
   }
 
   // tls_security_policy - computed: true, optional: true, required: false
-  private _tlsSecurityPolicy?: string;
+  private _tlsSecurityPolicy?: string; 
   public get tlsSecurityPolicy() {
     return this.getStringAttribute('tls_security_policy');
   }
@@ -404,7 +404,7 @@ export class CloudsearchDomainIndexFieldOutputReference extends cdktn.ComplexObj
   }
 
   // analysis_scheme - computed: false, optional: true, required: false
-  private _analysisScheme?: string;
+  private _analysisScheme?: string; 
   public get analysisScheme() {
     return this.getStringAttribute('analysis_scheme');
   }
@@ -420,7 +420,7 @@ export class CloudsearchDomainIndexFieldOutputReference extends cdktn.ComplexObj
   }
 
   // default_value - computed: false, optional: true, required: false
-  private _defaultValue?: string;
+  private _defaultValue?: string; 
   public get defaultValue() {
     return this.getStringAttribute('default_value');
   }
@@ -436,7 +436,7 @@ export class CloudsearchDomainIndexFieldOutputReference extends cdktn.ComplexObj
   }
 
   // facet - computed: false, optional: true, required: false
-  private _facet?: boolean | cdktn.IResolvable;
+  private _facet?: boolean | cdktn.IResolvable; 
   public get facet() {
     return this.getBooleanAttribute('facet');
   }
@@ -452,7 +452,7 @@ export class CloudsearchDomainIndexFieldOutputReference extends cdktn.ComplexObj
   }
 
   // highlight - computed: false, optional: true, required: false
-  private _highlight?: boolean | cdktn.IResolvable;
+  private _highlight?: boolean | cdktn.IResolvable; 
   public get highlight() {
     return this.getBooleanAttribute('highlight');
   }
@@ -468,7 +468,7 @@ export class CloudsearchDomainIndexFieldOutputReference extends cdktn.ComplexObj
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -481,7 +481,7 @@ export class CloudsearchDomainIndexFieldOutputReference extends cdktn.ComplexObj
   }
 
   // return - computed: false, optional: true, required: false
-  private _return?: boolean | cdktn.IResolvable;
+  private _return?: boolean | cdktn.IResolvable; 
   public get return() {
     return this.getBooleanAttribute('return');
   }
@@ -497,7 +497,7 @@ export class CloudsearchDomainIndexFieldOutputReference extends cdktn.ComplexObj
   }
 
   // search - computed: false, optional: true, required: false
-  private _search?: boolean | cdktn.IResolvable;
+  private _search?: boolean | cdktn.IResolvable; 
   public get search() {
     return this.getBooleanAttribute('search');
   }
@@ -513,7 +513,7 @@ export class CloudsearchDomainIndexFieldOutputReference extends cdktn.ComplexObj
   }
 
   // sort - computed: false, optional: true, required: false
-  private _sort?: boolean | cdktn.IResolvable;
+  private _sort?: boolean | cdktn.IResolvable; 
   public get sort() {
     return this.getBooleanAttribute('sort');
   }
@@ -529,7 +529,7 @@ export class CloudsearchDomainIndexFieldOutputReference extends cdktn.ComplexObj
   }
 
   // source_fields - computed: false, optional: true, required: false
-  private _sourceFields?: string;
+  private _sourceFields?: string; 
   public get sourceFields() {
     return this.getStringAttribute('source_fields');
   }
@@ -545,7 +545,7 @@ export class CloudsearchDomainIndexFieldOutputReference extends cdktn.ComplexObj
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -680,7 +680,7 @@ export class CloudsearchDomainScalingParametersOutputReference extends cdktn.Com
   }
 
   // desired_instance_type - computed: true, optional: true, required: false
-  private _desiredInstanceType?: string;
+  private _desiredInstanceType?: string; 
   public get desiredInstanceType() {
     return this.getStringAttribute('desired_instance_type');
   }
@@ -696,7 +696,7 @@ export class CloudsearchDomainScalingParametersOutputReference extends cdktn.Com
   }
 
   // desired_partition_count - computed: true, optional: true, required: false
-  private _desiredPartitionCount?: number;
+  private _desiredPartitionCount?: number; 
   public get desiredPartitionCount() {
     return this.getNumberAttribute('desired_partition_count');
   }
@@ -712,7 +712,7 @@ export class CloudsearchDomainScalingParametersOutputReference extends cdktn.Com
   }
 
   // desired_replication_count - computed: true, optional: true, required: false
-  private _desiredReplicationCount?: number;
+  private _desiredReplicationCount?: number; 
   public get desiredReplicationCount() {
     return this.getNumberAttribute('desired_replication_count');
   }
@@ -840,7 +840,7 @@ export class CloudsearchDomainTimeoutsOutputReference extends cdktn.ComplexObjec
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -856,7 +856,7 @@ export class CloudsearchDomainTimeoutsOutputReference extends cdktn.ComplexObjec
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -872,7 +872,7 @@ export class CloudsearchDomainTimeoutsOutputReference extends cdktn.ComplexObjec
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -968,7 +968,7 @@ export class CloudsearchDomain extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -984,7 +984,7 @@ export class CloudsearchDomain extends cdktn.TerraformResource {
   }
 
   // multi_az - computed: true, optional: true, required: false
-  private _multiAz?: boolean | cdktn.IResolvable;
+  private _multiAz?: boolean | cdktn.IResolvable; 
   public get multiAz() {
     return this.getBooleanAttribute('multi_az');
   }
@@ -1000,7 +1000,7 @@ export class CloudsearchDomain extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1013,7 +1013,7 @@ export class CloudsearchDomain extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

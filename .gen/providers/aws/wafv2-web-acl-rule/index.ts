@@ -1,36 +1,36 @@
 // generated from terraform resource schema
 
-import { Wafv2WebAclRuleActionA,
-wafv2WebAclRuleActionAToTerraform,
-wafv2WebAclRuleActionAToHclTerraform,
-Wafv2WebAclRuleActionAList,
-Wafv2WebAclRuleCaptchaConfigA,
-wafv2WebAclRuleCaptchaConfigAToTerraform,
-wafv2WebAclRuleCaptchaConfigAToHclTerraform,
-Wafv2WebAclRuleCaptchaConfigAList,
-Wafv2WebAclRuleChallengeConfigA,
-wafv2WebAclRuleChallengeConfigAToTerraform,
-wafv2WebAclRuleChallengeConfigAToHclTerraform,
-Wafv2WebAclRuleChallengeConfigAList,
-Wafv2WebAclRuleOverrideActionA,
-wafv2WebAclRuleOverrideActionAToTerraform,
-wafv2WebAclRuleOverrideActionAToHclTerraform,
-Wafv2WebAclRuleOverrideActionAList,
-Wafv2WebAclRuleRuleLabelA,
-wafv2WebAclRuleRuleLabelAToTerraform,
-wafv2WebAclRuleRuleLabelAToHclTerraform,
-Wafv2WebAclRuleRuleLabelAList,
-Wafv2WebAclRuleStatement,
-wafv2WebAclRuleStatementToTerraform,
-wafv2WebAclRuleStatementToHclTerraform,
-Wafv2WebAclRuleStatementList,
-Wafv2WebAclRuleTimeouts,
-wafv2WebAclRuleTimeoutsToTerraform,
-wafv2WebAclRuleTimeoutsToHclTerraform,
-Wafv2WebAclRuleTimeoutsOutputReference,
-Wafv2WebAclRuleVisibilityConfigA,
-wafv2WebAclRuleVisibilityConfigAToTerraform,
-wafv2WebAclRuleVisibilityConfigAToHclTerraform,
+import { Wafv2WebAclRuleActionA, 
+wafv2WebAclRuleActionAToTerraform, 
+wafv2WebAclRuleActionAToHclTerraform, 
+Wafv2WebAclRuleActionAList, 
+Wafv2WebAclRuleCaptchaConfigA, 
+wafv2WebAclRuleCaptchaConfigAToTerraform, 
+wafv2WebAclRuleCaptchaConfigAToHclTerraform, 
+Wafv2WebAclRuleCaptchaConfigAList, 
+Wafv2WebAclRuleChallengeConfigA, 
+wafv2WebAclRuleChallengeConfigAToTerraform, 
+wafv2WebAclRuleChallengeConfigAToHclTerraform, 
+Wafv2WebAclRuleChallengeConfigAList, 
+Wafv2WebAclRuleOverrideActionA, 
+wafv2WebAclRuleOverrideActionAToTerraform, 
+wafv2WebAclRuleOverrideActionAToHclTerraform, 
+Wafv2WebAclRuleOverrideActionAList, 
+Wafv2WebAclRuleRuleLabelA, 
+wafv2WebAclRuleRuleLabelAToTerraform, 
+wafv2WebAclRuleRuleLabelAToHclTerraform, 
+Wafv2WebAclRuleRuleLabelAList, 
+Wafv2WebAclRuleStatement, 
+wafv2WebAclRuleStatementToTerraform, 
+wafv2WebAclRuleStatementToHclTerraform, 
+Wafv2WebAclRuleStatementList, 
+Wafv2WebAclRuleTimeouts, 
+wafv2WebAclRuleTimeoutsToTerraform, 
+wafv2WebAclRuleTimeoutsToHclTerraform, 
+Wafv2WebAclRuleTimeoutsOutputReference, 
+Wafv2WebAclRuleVisibilityConfigA, 
+wafv2WebAclRuleVisibilityConfigAToTerraform, 
+wafv2WebAclRuleVisibilityConfigAToHclTerraform, 
 Wafv2WebAclRuleVisibilityConfigAList} from './index-structs/index.js';
 export * from './index-structs/index.js';
 import { Construct } from 'constructs';
@@ -179,7 +179,7 @@ export class Wafv2WebAclRuleA extends cdktn.TerraformResource {
   // ==========
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -192,7 +192,7 @@ export class Wafv2WebAclRuleA extends cdktn.TerraformResource {
   }
 
   // priority - computed: false, optional: false, required: true
-  private _priority?: number;
+  private _priority?: number; 
   public get priority() {
     return this.getNumberAttribute('priority');
   }
@@ -205,7 +205,7 @@ export class Wafv2WebAclRuleA extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -221,7 +221,7 @@ export class Wafv2WebAclRuleA extends cdktn.TerraformResource {
   }
 
   // web_acl_arn - computed: false, optional: false, required: true
-  private _webAclArn?: string;
+  private _webAclArn?: string; 
   public get webAclArn() {
     return this.getStringAttribute('web_acl_arn');
   }

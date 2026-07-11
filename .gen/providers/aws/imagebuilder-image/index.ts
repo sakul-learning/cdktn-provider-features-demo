@@ -426,7 +426,7 @@ export class ImagebuilderImageImageScanningConfigurationEcrConfigurationOutputRe
   }
 
   // container_tags - computed: false, optional: true, required: false
-  private _containerTags?: string[];
+  private _containerTags?: string[]; 
   public get containerTags() {
     return cdktn.Fn.tolist(this.getListAttribute('container_tags'));
   }
@@ -442,7 +442,7 @@ export class ImagebuilderImageImageScanningConfigurationEcrConfigurationOutputRe
   }
 
   // repository_name - computed: false, optional: true, required: false
-  private _repositoryName?: string;
+  private _repositoryName?: string; 
   public get repositoryName() {
     return this.getStringAttribute('repository_name');
   }
@@ -545,7 +545,7 @@ export class ImagebuilderImageImageScanningConfigurationOutputReference extends 
   }
 
   // image_scanning_enabled - computed: false, optional: true, required: false
-  private _imageScanningEnabled?: boolean | cdktn.IResolvable;
+  private _imageScanningEnabled?: boolean | cdktn.IResolvable; 
   public get imageScanningEnabled() {
     return this.getBooleanAttribute('image_scanning_enabled');
   }
@@ -662,7 +662,7 @@ export class ImagebuilderImageImageTestsConfigurationOutputReference extends cdk
   }
 
   // image_tests_enabled - computed: false, optional: true, required: false
-  private _imageTestsEnabled?: boolean | cdktn.IResolvable;
+  private _imageTestsEnabled?: boolean | cdktn.IResolvable; 
   public get imageTestsEnabled() {
     return this.getBooleanAttribute('image_tests_enabled');
   }
@@ -678,7 +678,7 @@ export class ImagebuilderImageImageTestsConfigurationOutputReference extends cdk
   }
 
   // timeout_minutes - computed: false, optional: true, required: false
-  private _timeoutMinutes?: number;
+  private _timeoutMinutes?: number; 
   public get timeoutMinutes() {
     return this.getNumberAttribute('timeout_minutes');
   }
@@ -762,7 +762,7 @@ export class ImagebuilderImageLoggingConfigurationOutputReference extends cdktn.
   }
 
   // log_group_name - computed: false, optional: false, required: true
-  private _logGroupName?: string;
+  private _logGroupName?: string; 
   public get logGroupName() {
     return this.getStringAttribute('log_group_name');
   }
@@ -853,7 +853,7 @@ export class ImagebuilderImageTimeoutsOutputReference extends cdktn.ComplexObjec
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -966,7 +966,7 @@ export class ImagebuilderImageWorkflowParameterOutputReference extends cdktn.Com
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -979,7 +979,7 @@ export class ImagebuilderImageWorkflowParameterOutputReference extends cdktn.Com
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1145,7 +1145,7 @@ export class ImagebuilderImageWorkflowOutputReference extends cdktn.ComplexObjec
   }
 
   // on_failure - computed: false, optional: true, required: false
-  private _onFailure?: string;
+  private _onFailure?: string; 
   public get onFailure() {
     return this.getStringAttribute('on_failure');
   }
@@ -1161,7 +1161,7 @@ export class ImagebuilderImageWorkflowOutputReference extends cdktn.ComplexObjec
   }
 
   // parallel_group - computed: false, optional: true, required: false
-  private _parallelGroup?: string;
+  private _parallelGroup?: string; 
   public get parallelGroup() {
     return this.getStringAttribute('parallel_group');
   }
@@ -1177,7 +1177,7 @@ export class ImagebuilderImageWorkflowOutputReference extends cdktn.ComplexObjec
   }
 
   // workflow_arn - computed: false, optional: false, required: true
-  private _workflowArn?: string;
+  private _workflowArn?: string; 
   public get workflowArn() {
     return this.getStringAttribute('workflow_arn');
   }
@@ -1303,7 +1303,7 @@ export class ImagebuilderImage extends cdktn.TerraformResource {
   }
 
   // container_recipe_arn - computed: false, optional: true, required: false
-  private _containerRecipeArn?: string;
+  private _containerRecipeArn?: string; 
   public get containerRecipeArn() {
     return this.getStringAttribute('container_recipe_arn');
   }
@@ -1324,7 +1324,7 @@ export class ImagebuilderImage extends cdktn.TerraformResource {
   }
 
   // distribution_configuration_arn - computed: false, optional: true, required: false
-  private _distributionConfigurationArn?: string;
+  private _distributionConfigurationArn?: string; 
   public get distributionConfigurationArn() {
     return this.getStringAttribute('distribution_configuration_arn');
   }
@@ -1340,7 +1340,7 @@ export class ImagebuilderImage extends cdktn.TerraformResource {
   }
 
   // enhanced_image_metadata_enabled - computed: false, optional: true, required: false
-  private _enhancedImageMetadataEnabled?: boolean | cdktn.IResolvable;
+  private _enhancedImageMetadataEnabled?: boolean | cdktn.IResolvable; 
   public get enhancedImageMetadataEnabled() {
     return this.getBooleanAttribute('enhanced_image_metadata_enabled');
   }
@@ -1356,7 +1356,7 @@ export class ImagebuilderImage extends cdktn.TerraformResource {
   }
 
   // execution_role - computed: true, optional: true, required: false
-  private _executionRole?: string;
+  private _executionRole?: string; 
   public get executionRole() {
     return this.getStringAttribute('execution_role');
   }
@@ -1372,7 +1372,7 @@ export class ImagebuilderImage extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -1388,7 +1388,7 @@ export class ImagebuilderImage extends cdktn.TerraformResource {
   }
 
   // image_recipe_arn - computed: false, optional: true, required: false
-  private _imageRecipeArn?: string;
+  private _imageRecipeArn?: string; 
   public get imageRecipeArn() {
     return this.getStringAttribute('image_recipe_arn');
   }
@@ -1404,7 +1404,7 @@ export class ImagebuilderImage extends cdktn.TerraformResource {
   }
 
   // infrastructure_configuration_arn - computed: false, optional: false, required: true
-  private _infrastructureConfigurationArn?: string;
+  private _infrastructureConfigurationArn?: string; 
   public get infrastructureConfigurationArn() {
     return this.getStringAttribute('infrastructure_configuration_arn');
   }
@@ -1438,7 +1438,7 @@ export class ImagebuilderImage extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1454,7 +1454,7 @@ export class ImagebuilderImage extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -1470,7 +1470,7 @@ export class ImagebuilderImage extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

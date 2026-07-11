@@ -222,7 +222,7 @@ export class Mediapackagev2ChannelInputSwitchConfigurationOutputReference extend
   }
 
   // mqcs_input_switching - computed: true, optional: true, required: false
-  private _mqcsInputSwitching?: boolean | cdktn.IResolvable;
+  private _mqcsInputSwitching?: boolean | cdktn.IResolvable; 
   public get mqcsInputSwitching() {
     return this.getBooleanAttribute('mqcs_input_switching');
   }
@@ -238,7 +238,7 @@ export class Mediapackagev2ChannelInputSwitchConfigurationOutputReference extend
   }
 
   // preferred_input - computed: true, optional: true, required: false
-  private _preferredInput?: number;
+  private _preferredInput?: number; 
   public get preferredInput() {
     return this.getNumberAttribute('preferred_input');
   }
@@ -334,7 +334,7 @@ export class Mediapackagev2ChannelOutputHeaderConfigurationOutputReference exten
   }
 
   // publish_mqcs - computed: true, optional: true, required: false
-  private _publishMqcs?: boolean | cdktn.IResolvable;
+  private _publishMqcs?: boolean | cdktn.IResolvable; 
   public get publishMqcs() {
     return this.getBooleanAttribute('publish_mqcs');
   }
@@ -447,7 +447,7 @@ export class Mediapackagev2ChannelTagsOutputReference extends cdktn.ComplexObjec
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -463,7 +463,7 @@ export class Mediapackagev2ChannelTagsOutputReference extends cdktn.ComplexObjec
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -568,7 +568,7 @@ export class Mediapackagev2Channel extends cdktn.TerraformResource {
   }
 
   // channel_group_name - computed: false, optional: false, required: true
-  private _channelGroupName?: string;
+  private _channelGroupName?: string; 
   public get channelGroupName() {
     return this.getStringAttribute('channel_group_name');
   }
@@ -581,7 +581,7 @@ export class Mediapackagev2Channel extends cdktn.TerraformResource {
   }
 
   // channel_name - computed: false, optional: false, required: true
-  private _channelName?: string;
+  private _channelName?: string; 
   public get channelName() {
     return this.getStringAttribute('channel_name');
   }
@@ -599,7 +599,7 @@ export class Mediapackagev2Channel extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -647,7 +647,7 @@ export class Mediapackagev2Channel extends cdktn.TerraformResource {
   }
 
   // input_type - computed: true, optional: true, required: false
-  private _inputType?: string;
+  private _inputType?: string; 
   public get inputType() {
     return this.getStringAttribute('input_type');
   }

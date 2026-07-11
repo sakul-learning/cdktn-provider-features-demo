@@ -129,7 +129,7 @@ export class AccountRegionTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -145,7 +145,7 @@ export class AccountRegionTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -223,7 +223,7 @@ export class AccountRegion extends cdktn.TerraformResource {
   // ==========
 
   // account_id - computed: false, optional: true, required: false
-  private _accountId?: string;
+  private _accountId?: string; 
   public get accountId() {
     return this.getStringAttribute('account_id');
   }
@@ -239,7 +239,7 @@ export class AccountRegion extends cdktn.TerraformResource {
   }
 
   // enabled - computed: false, optional: false, required: true
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -252,7 +252,7 @@ export class AccountRegion extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -273,7 +273,7 @@ export class AccountRegion extends cdktn.TerraformResource {
   }
 
   // region_name - computed: false, optional: false, required: true
-  private _regionName?: string;
+  private _regionName?: string; 
   public get regionName() {
     return this.getStringAttribute('region_name');
   }

@@ -116,7 +116,7 @@ export class SesMailManagerRuleSetRulesActionsAddHeaderOutputReference extends c
   }
 
   // header_name - computed: true, optional: true, required: false
-  private _headerName?: string;
+  private _headerName?: string; 
   public get headerName() {
     return this.getStringAttribute('header_name');
   }
@@ -132,7 +132,7 @@ export class SesMailManagerRuleSetRulesActionsAddHeaderOutputReference extends c
   }
 
   // header_value - computed: true, optional: true, required: false
-  private _headerValue?: string;
+  private _headerValue?: string; 
   public get headerValue() {
     return this.getStringAttribute('header_value');
   }
@@ -243,7 +243,7 @@ export class SesMailManagerRuleSetRulesActionsArchiveOutputReference extends cdk
   }
 
   // action_failure_policy - computed: true, optional: true, required: false
-  private _actionFailurePolicy?: string;
+  private _actionFailurePolicy?: string; 
   public get actionFailurePolicy() {
     return this.getStringAttribute('action_failure_policy');
   }
@@ -259,7 +259,7 @@ export class SesMailManagerRuleSetRulesActionsArchiveOutputReference extends cdk
   }
 
   // target_archive - computed: true, optional: true, required: false
-  private _targetArchive?: string;
+  private _targetArchive?: string; 
   public get targetArchive() {
     return this.getStringAttribute('target_archive');
   }
@@ -455,7 +455,7 @@ export class SesMailManagerRuleSetRulesActionsBounceOutputReference extends cdkt
   }
 
   // action_failure_policy - computed: true, optional: true, required: false
-  private _actionFailurePolicy?: string;
+  private _actionFailurePolicy?: string; 
   public get actionFailurePolicy() {
     return this.getStringAttribute('action_failure_policy');
   }
@@ -471,7 +471,7 @@ export class SesMailManagerRuleSetRulesActionsBounceOutputReference extends cdkt
   }
 
   // diagnostic_message - computed: true, optional: true, required: false
-  private _diagnosticMessage?: string;
+  private _diagnosticMessage?: string; 
   public get diagnosticMessage() {
     return this.getStringAttribute('diagnostic_message');
   }
@@ -487,7 +487,7 @@ export class SesMailManagerRuleSetRulesActionsBounceOutputReference extends cdkt
   }
 
   // message - computed: true, optional: true, required: false
-  private _message?: string;
+  private _message?: string; 
   public get message() {
     return this.getStringAttribute('message');
   }
@@ -503,7 +503,7 @@ export class SesMailManagerRuleSetRulesActionsBounceOutputReference extends cdkt
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -519,7 +519,7 @@ export class SesMailManagerRuleSetRulesActionsBounceOutputReference extends cdkt
   }
 
   // sender - computed: true, optional: true, required: false
-  private _sender?: string;
+  private _sender?: string; 
   public get sender() {
     return this.getStringAttribute('sender');
   }
@@ -535,7 +535,7 @@ export class SesMailManagerRuleSetRulesActionsBounceOutputReference extends cdkt
   }
 
   // smtp_reply_code - computed: true, optional: true, required: false
-  private _smtpReplyCode?: string;
+  private _smtpReplyCode?: string; 
   public get smtpReplyCode() {
     return this.getStringAttribute('smtp_reply_code');
   }
@@ -551,7 +551,7 @@ export class SesMailManagerRuleSetRulesActionsBounceOutputReference extends cdkt
   }
 
   // status_code - computed: true, optional: true, required: false
-  private _statusCode?: string;
+  private _statusCode?: string; 
   public get statusCode() {
     return this.getStringAttribute('status_code');
   }
@@ -679,7 +679,7 @@ export class SesMailManagerRuleSetRulesActionsDeliverToMailboxOutputReference ex
   }
 
   // action_failure_policy - computed: true, optional: true, required: false
-  private _actionFailurePolicy?: string;
+  private _actionFailurePolicy?: string; 
   public get actionFailurePolicy() {
     return this.getStringAttribute('action_failure_policy');
   }
@@ -695,7 +695,7 @@ export class SesMailManagerRuleSetRulesActionsDeliverToMailboxOutputReference ex
   }
 
   // mailbox_arn - computed: true, optional: true, required: false
-  private _mailboxArn?: string;
+  private _mailboxArn?: string; 
   public get mailboxArn() {
     return this.getStringAttribute('mailbox_arn');
   }
@@ -711,7 +711,7 @@ export class SesMailManagerRuleSetRulesActionsDeliverToMailboxOutputReference ex
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -856,7 +856,7 @@ export class SesMailManagerRuleSetRulesActionsDeliverToQBusinessOutputReference 
   }
 
   // action_failure_policy - computed: true, optional: true, required: false
-  private _actionFailurePolicy?: string;
+  private _actionFailurePolicy?: string; 
   public get actionFailurePolicy() {
     return this.getStringAttribute('action_failure_policy');
   }
@@ -872,7 +872,7 @@ export class SesMailManagerRuleSetRulesActionsDeliverToQBusinessOutputReference 
   }
 
   // application_id - computed: true, optional: true, required: false
-  private _applicationId?: string;
+  private _applicationId?: string; 
   public get applicationId() {
     return this.getStringAttribute('application_id');
   }
@@ -888,7 +888,7 @@ export class SesMailManagerRuleSetRulesActionsDeliverToQBusinessOutputReference 
   }
 
   // index_id - computed: true, optional: true, required: false
-  private _indexId?: string;
+  private _indexId?: string; 
   public get indexId() {
     return this.getStringAttribute('index_id');
   }
@@ -904,7 +904,7 @@ export class SesMailManagerRuleSetRulesActionsDeliverToQBusinessOutputReference 
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -1066,7 +1066,7 @@ export class SesMailManagerRuleSetRulesActionsInvokeLambdaOutputReference extend
   }
 
   // action_failure_policy - computed: true, optional: true, required: false
-  private _actionFailurePolicy?: string;
+  private _actionFailurePolicy?: string; 
   public get actionFailurePolicy() {
     return this.getStringAttribute('action_failure_policy');
   }
@@ -1082,7 +1082,7 @@ export class SesMailManagerRuleSetRulesActionsInvokeLambdaOutputReference extend
   }
 
   // function_arn - computed: true, optional: true, required: false
-  private _functionArn?: string;
+  private _functionArn?: string; 
   public get functionArn() {
     return this.getStringAttribute('function_arn');
   }
@@ -1098,7 +1098,7 @@ export class SesMailManagerRuleSetRulesActionsInvokeLambdaOutputReference extend
   }
 
   // invocation_type - computed: true, optional: true, required: false
-  private _invocationType?: string;
+  private _invocationType?: string; 
   public get invocationType() {
     return this.getStringAttribute('invocation_type');
   }
@@ -1114,7 +1114,7 @@ export class SesMailManagerRuleSetRulesActionsInvokeLambdaOutputReference extend
   }
 
   // retry_time_minutes - computed: true, optional: true, required: false
-  private _retryTimeMinutes?: number;
+  private _retryTimeMinutes?: number; 
   public get retryTimeMinutes() {
     return this.getNumberAttribute('retry_time_minutes');
   }
@@ -1130,7 +1130,7 @@ export class SesMailManagerRuleSetRulesActionsInvokeLambdaOutputReference extend
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -1292,7 +1292,7 @@ export class SesMailManagerRuleSetRulesActionsPublishToSnsOutputReference extend
   }
 
   // action_failure_policy - computed: true, optional: true, required: false
-  private _actionFailurePolicy?: string;
+  private _actionFailurePolicy?: string; 
   public get actionFailurePolicy() {
     return this.getStringAttribute('action_failure_policy');
   }
@@ -1308,7 +1308,7 @@ export class SesMailManagerRuleSetRulesActionsPublishToSnsOutputReference extend
   }
 
   // encoding - computed: true, optional: true, required: false
-  private _encoding?: string;
+  private _encoding?: string; 
   public get encoding() {
     return this.getStringAttribute('encoding');
   }
@@ -1324,7 +1324,7 @@ export class SesMailManagerRuleSetRulesActionsPublishToSnsOutputReference extend
   }
 
   // payload_type - computed: true, optional: true, required: false
-  private _payloadType?: string;
+  private _payloadType?: string; 
   public get payloadType() {
     return this.getStringAttribute('payload_type');
   }
@@ -1340,7 +1340,7 @@ export class SesMailManagerRuleSetRulesActionsPublishToSnsOutputReference extend
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -1356,7 +1356,7 @@ export class SesMailManagerRuleSetRulesActionsPublishToSnsOutputReference extend
   }
 
   // topic_arn - computed: true, optional: true, required: false
-  private _topicArn?: string;
+  private _topicArn?: string; 
   public get topicArn() {
     return this.getStringAttribute('topic_arn');
   }
@@ -1484,7 +1484,7 @@ export class SesMailManagerRuleSetRulesActionsRelayOutputReference extends cdktn
   }
 
   // action_failure_policy - computed: true, optional: true, required: false
-  private _actionFailurePolicy?: string;
+  private _actionFailurePolicy?: string; 
   public get actionFailurePolicy() {
     return this.getStringAttribute('action_failure_policy');
   }
@@ -1500,7 +1500,7 @@ export class SesMailManagerRuleSetRulesActionsRelayOutputReference extends cdktn
   }
 
   // mail_from - computed: true, optional: true, required: false
-  private _mailFrom?: string;
+  private _mailFrom?: string; 
   public get mailFrom() {
     return this.getStringAttribute('mail_from');
   }
@@ -1516,7 +1516,7 @@ export class SesMailManagerRuleSetRulesActionsRelayOutputReference extends cdktn
   }
 
   // relay - computed: true, optional: true, required: false
-  private _relay?: string;
+  private _relay?: string; 
   public get relay() {
     return this.getStringAttribute('relay');
   }
@@ -1610,7 +1610,7 @@ export class SesMailManagerRuleSetRulesActionsReplaceRecipientOutputReference ex
   }
 
   // replace_with - computed: true, optional: true, required: false
-  private _replaceWith?: string[];
+  private _replaceWith?: string[]; 
   public get replaceWith() {
     return this.getListAttribute('replace_with');
   }
@@ -1721,7 +1721,7 @@ export class SesMailManagerRuleSetRulesActionsSendOutputReference extends cdktn.
   }
 
   // action_failure_policy - computed: true, optional: true, required: false
-  private _actionFailurePolicy?: string;
+  private _actionFailurePolicy?: string; 
   public get actionFailurePolicy() {
     return this.getStringAttribute('action_failure_policy');
   }
@@ -1737,7 +1737,7 @@ export class SesMailManagerRuleSetRulesActionsSendOutputReference extends cdktn.
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -1899,7 +1899,7 @@ export class SesMailManagerRuleSetRulesActionsWriteToS3OutputReference extends c
   }
 
   // action_failure_policy - computed: true, optional: true, required: false
-  private _actionFailurePolicy?: string;
+  private _actionFailurePolicy?: string; 
   public get actionFailurePolicy() {
     return this.getStringAttribute('action_failure_policy');
   }
@@ -1915,7 +1915,7 @@ export class SesMailManagerRuleSetRulesActionsWriteToS3OutputReference extends c
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -1931,7 +1931,7 @@ export class SesMailManagerRuleSetRulesActionsWriteToS3OutputReference extends c
   }
 
   // s3_bucket - computed: true, optional: true, required: false
-  private _s3Bucket?: string;
+  private _s3Bucket?: string; 
   public get s3Bucket() {
     return this.getStringAttribute('s3_bucket');
   }
@@ -1947,7 +1947,7 @@ export class SesMailManagerRuleSetRulesActionsWriteToS3OutputReference extends c
   }
 
   // s3_prefix - computed: true, optional: true, required: false
-  private _s3Prefix?: string;
+  private _s3Prefix?: string; 
   public get s3Prefix() {
     return this.getStringAttribute('s3_prefix');
   }
@@ -1963,7 +1963,7 @@ export class SesMailManagerRuleSetRulesActionsWriteToS3OutputReference extends c
   }
 
   // s3_sse_kms_key_id - computed: true, optional: true, required: false
-  private _s3SseKmsKeyId?: string;
+  private _s3SseKmsKeyId?: string; 
   public get s3SseKmsKeyId() {
     return this.getStringAttribute('s3_sse_kms_key_id');
   }
@@ -2326,7 +2326,7 @@ export class SesMailManagerRuleSetRulesActionsOutputReference extends cdktn.Comp
   }
 
   // drop - computed: true, optional: true, required: false
-  private _drop?: string;
+  private _drop?: string; 
   public get drop() {
     return this.getStringAttribute('drop');
   }
@@ -2553,7 +2553,7 @@ export class SesMailManagerRuleSetRulesConditionsBooleanExpressionEvaluateAnalys
   }
 
   // analyzer - computed: true, optional: true, required: false
-  private _analyzer?: string;
+  private _analyzer?: string; 
   public get analyzer() {
     return this.getStringAttribute('analyzer');
   }
@@ -2569,7 +2569,7 @@ export class SesMailManagerRuleSetRulesConditionsBooleanExpressionEvaluateAnalys
   }
 
   // result_field - computed: true, optional: true, required: false
-  private _resultField?: string;
+  private _resultField?: string; 
   public get resultField() {
     return this.getStringAttribute('result_field');
   }
@@ -2680,7 +2680,7 @@ export class SesMailManagerRuleSetRulesConditionsBooleanExpressionEvaluateIsInAd
   }
 
   // address_lists - computed: true, optional: true, required: false
-  private _addressLists?: string[];
+  private _addressLists?: string[]; 
   public get addressLists() {
     return this.getListAttribute('address_lists');
   }
@@ -2696,7 +2696,7 @@ export class SesMailManagerRuleSetRulesConditionsBooleanExpressionEvaluateIsInAd
   }
 
   // attribute - computed: true, optional: true, required: false
-  private _attribute?: string;
+  private _attribute?: string; 
   public get attribute() {
     return this.getStringAttribute('attribute');
   }
@@ -2840,7 +2840,7 @@ export class SesMailManagerRuleSetRulesConditionsBooleanExpressionEvaluateOutput
   }
 
   // attribute - computed: true, optional: true, required: false
-  private _attribute?: string;
+  private _attribute?: string; 
   public get attribute() {
     return this.getStringAttribute('attribute');
   }
@@ -2983,7 +2983,7 @@ export class SesMailManagerRuleSetRulesConditionsBooleanExpressionOutputReferenc
   }
 
   // operator - computed: true, optional: true, required: false
-  private _operator?: string;
+  private _operator?: string; 
   public get operator() {
     return this.getStringAttribute('operator');
   }
@@ -3094,7 +3094,7 @@ export class SesMailManagerRuleSetRulesConditionsDmarcExpressionOutputReference 
   }
 
   // operator - computed: true, optional: true, required: false
-  private _operator?: string;
+  private _operator?: string; 
   public get operator() {
     return this.getStringAttribute('operator');
   }
@@ -3110,7 +3110,7 @@ export class SesMailManagerRuleSetRulesConditionsDmarcExpressionOutputReference 
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -3204,7 +3204,7 @@ export class SesMailManagerRuleSetRulesConditionsIpExpressionEvaluateOutputRefer
   }
 
   // attribute - computed: true, optional: true, required: false
-  private _attribute?: string;
+  private _attribute?: string; 
   public get attribute() {
     return this.getStringAttribute('attribute');
   }
@@ -3348,7 +3348,7 @@ export class SesMailManagerRuleSetRulesConditionsIpExpressionOutputReference ext
   }
 
   // operator - computed: true, optional: true, required: false
-  private _operator?: string;
+  private _operator?: string; 
   public get operator() {
     return this.getStringAttribute('operator');
   }
@@ -3364,7 +3364,7 @@ export class SesMailManagerRuleSetRulesConditionsIpExpressionOutputReference ext
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -3458,7 +3458,7 @@ export class SesMailManagerRuleSetRulesConditionsNumberExpressionEvaluateOutputR
   }
 
   // attribute - computed: true, optional: true, required: false
-  private _attribute?: string;
+  private _attribute?: string; 
   public get attribute() {
     return this.getStringAttribute('attribute');
   }
@@ -3602,7 +3602,7 @@ export class SesMailManagerRuleSetRulesConditionsNumberExpressionOutputReference
   }
 
   // operator - computed: true, optional: true, required: false
-  private _operator?: string;
+  private _operator?: string; 
   public get operator() {
     return this.getStringAttribute('operator');
   }
@@ -3618,7 +3618,7 @@ export class SesMailManagerRuleSetRulesConditionsNumberExpressionOutputReference
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: number;
+  private _value?: number; 
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -3729,7 +3729,7 @@ export class SesMailManagerRuleSetRulesConditionsStringExpressionEvaluateAnalysi
   }
 
   // analyzer - computed: true, optional: true, required: false
-  private _analyzer?: string;
+  private _analyzer?: string; 
   public get analyzer() {
     return this.getStringAttribute('analyzer');
   }
@@ -3745,7 +3745,7 @@ export class SesMailManagerRuleSetRulesConditionsStringExpressionEvaluateAnalysi
   }
 
   // result_field - computed: true, optional: true, required: false
-  private _resultField?: string;
+  private _resultField?: string; 
   public get resultField() {
     return this.getStringAttribute('result_field');
   }
@@ -3906,7 +3906,7 @@ export class SesMailManagerRuleSetRulesConditionsStringExpressionEvaluateOutputR
   }
 
   // attribute - computed: true, optional: true, required: false
-  private _attribute?: string;
+  private _attribute?: string; 
   public get attribute() {
     return this.getStringAttribute('attribute');
   }
@@ -3922,7 +3922,7 @@ export class SesMailManagerRuleSetRulesConditionsStringExpressionEvaluateOutputR
   }
 
   // client_certificate_attribute - computed: true, optional: true, required: false
-  private _clientCertificateAttribute?: string;
+  private _clientCertificateAttribute?: string; 
   public get clientCertificateAttribute() {
     return this.getStringAttribute('client_certificate_attribute');
   }
@@ -3938,7 +3938,7 @@ export class SesMailManagerRuleSetRulesConditionsStringExpressionEvaluateOutputR
   }
 
   // mime_header_attribute - computed: true, optional: true, required: false
-  private _mimeHeaderAttribute?: string;
+  private _mimeHeaderAttribute?: string; 
   public get mimeHeaderAttribute() {
     return this.getStringAttribute('mime_header_attribute');
   }
@@ -4082,7 +4082,7 @@ export class SesMailManagerRuleSetRulesConditionsStringExpressionOutputReference
   }
 
   // operator - computed: true, optional: true, required: false
-  private _operator?: string;
+  private _operator?: string; 
   public get operator() {
     return this.getStringAttribute('operator');
   }
@@ -4098,7 +4098,7 @@ export class SesMailManagerRuleSetRulesConditionsStringExpressionOutputReference
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -4209,7 +4209,7 @@ export class SesMailManagerRuleSetRulesConditionsVerdictExpressionEvaluateAnalys
   }
 
   // analyzer - computed: true, optional: true, required: false
-  private _analyzer?: string;
+  private _analyzer?: string; 
   public get analyzer() {
     return this.getStringAttribute('analyzer');
   }
@@ -4225,7 +4225,7 @@ export class SesMailManagerRuleSetRulesConditionsVerdictExpressionEvaluateAnalys
   }
 
   // result_field - computed: true, optional: true, required: false
-  private _resultField?: string;
+  private _resultField?: string; 
   public get resultField() {
     return this.getStringAttribute('result_field');
   }
@@ -4352,7 +4352,7 @@ export class SesMailManagerRuleSetRulesConditionsVerdictExpressionEvaluateOutput
   }
 
   // attribute - computed: true, optional: true, required: false
-  private _attribute?: string;
+  private _attribute?: string; 
   public get attribute() {
     return this.getStringAttribute('attribute');
   }
@@ -4496,7 +4496,7 @@ export class SesMailManagerRuleSetRulesConditionsVerdictExpressionOutputReferenc
   }
 
   // operator - computed: true, optional: true, required: false
-  private _operator?: string;
+  private _operator?: string; 
   public get operator() {
     return this.getStringAttribute('operator');
   }
@@ -4512,7 +4512,7 @@ export class SesMailManagerRuleSetRulesConditionsVerdictExpressionOutputReferenc
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -4904,7 +4904,7 @@ export class SesMailManagerRuleSetRulesUnlessBooleanExpressionEvaluateAnalysisOu
   }
 
   // analyzer - computed: true, optional: true, required: false
-  private _analyzer?: string;
+  private _analyzer?: string; 
   public get analyzer() {
     return this.getStringAttribute('analyzer');
   }
@@ -4920,7 +4920,7 @@ export class SesMailManagerRuleSetRulesUnlessBooleanExpressionEvaluateAnalysisOu
   }
 
   // result_field - computed: true, optional: true, required: false
-  private _resultField?: string;
+  private _resultField?: string; 
   public get resultField() {
     return this.getStringAttribute('result_field');
   }
@@ -5031,7 +5031,7 @@ export class SesMailManagerRuleSetRulesUnlessBooleanExpressionEvaluateIsInAddres
   }
 
   // address_lists - computed: true, optional: true, required: false
-  private _addressLists?: string[];
+  private _addressLists?: string[]; 
   public get addressLists() {
     return this.getListAttribute('address_lists');
   }
@@ -5047,7 +5047,7 @@ export class SesMailManagerRuleSetRulesUnlessBooleanExpressionEvaluateIsInAddres
   }
 
   // attribute - computed: true, optional: true, required: false
-  private _attribute?: string;
+  private _attribute?: string; 
   public get attribute() {
     return this.getStringAttribute('attribute');
   }
@@ -5191,7 +5191,7 @@ export class SesMailManagerRuleSetRulesUnlessBooleanExpressionEvaluateOutputRefe
   }
 
   // attribute - computed: true, optional: true, required: false
-  private _attribute?: string;
+  private _attribute?: string; 
   public get attribute() {
     return this.getStringAttribute('attribute');
   }
@@ -5334,7 +5334,7 @@ export class SesMailManagerRuleSetRulesUnlessBooleanExpressionOutputReference ex
   }
 
   // operator - computed: true, optional: true, required: false
-  private _operator?: string;
+  private _operator?: string; 
   public get operator() {
     return this.getStringAttribute('operator');
   }
@@ -5445,7 +5445,7 @@ export class SesMailManagerRuleSetRulesUnlessDmarcExpressionOutputReference exte
   }
 
   // operator - computed: true, optional: true, required: false
-  private _operator?: string;
+  private _operator?: string; 
   public get operator() {
     return this.getStringAttribute('operator');
   }
@@ -5461,7 +5461,7 @@ export class SesMailManagerRuleSetRulesUnlessDmarcExpressionOutputReference exte
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -5555,7 +5555,7 @@ export class SesMailManagerRuleSetRulesUnlessIpExpressionEvaluateOutputReference
   }
 
   // attribute - computed: true, optional: true, required: false
-  private _attribute?: string;
+  private _attribute?: string; 
   public get attribute() {
     return this.getStringAttribute('attribute');
   }
@@ -5699,7 +5699,7 @@ export class SesMailManagerRuleSetRulesUnlessIpExpressionOutputReference extends
   }
 
   // operator - computed: true, optional: true, required: false
-  private _operator?: string;
+  private _operator?: string; 
   public get operator() {
     return this.getStringAttribute('operator');
   }
@@ -5715,7 +5715,7 @@ export class SesMailManagerRuleSetRulesUnlessIpExpressionOutputReference extends
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -5809,7 +5809,7 @@ export class SesMailManagerRuleSetRulesUnlessNumberExpressionEvaluateOutputRefer
   }
 
   // attribute - computed: true, optional: true, required: false
-  private _attribute?: string;
+  private _attribute?: string; 
   public get attribute() {
     return this.getStringAttribute('attribute');
   }
@@ -5953,7 +5953,7 @@ export class SesMailManagerRuleSetRulesUnlessNumberExpressionOutputReference ext
   }
 
   // operator - computed: true, optional: true, required: false
-  private _operator?: string;
+  private _operator?: string; 
   public get operator() {
     return this.getStringAttribute('operator');
   }
@@ -5969,7 +5969,7 @@ export class SesMailManagerRuleSetRulesUnlessNumberExpressionOutputReference ext
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: number;
+  private _value?: number; 
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -6080,7 +6080,7 @@ export class SesMailManagerRuleSetRulesUnlessStringExpressionEvaluateAnalysisOut
   }
 
   // analyzer - computed: true, optional: true, required: false
-  private _analyzer?: string;
+  private _analyzer?: string; 
   public get analyzer() {
     return this.getStringAttribute('analyzer');
   }
@@ -6096,7 +6096,7 @@ export class SesMailManagerRuleSetRulesUnlessStringExpressionEvaluateAnalysisOut
   }
 
   // result_field - computed: true, optional: true, required: false
-  private _resultField?: string;
+  private _resultField?: string; 
   public get resultField() {
     return this.getStringAttribute('result_field');
   }
@@ -6257,7 +6257,7 @@ export class SesMailManagerRuleSetRulesUnlessStringExpressionEvaluateOutputRefer
   }
 
   // attribute - computed: true, optional: true, required: false
-  private _attribute?: string;
+  private _attribute?: string; 
   public get attribute() {
     return this.getStringAttribute('attribute');
   }
@@ -6273,7 +6273,7 @@ export class SesMailManagerRuleSetRulesUnlessStringExpressionEvaluateOutputRefer
   }
 
   // client_certificate_attribute - computed: true, optional: true, required: false
-  private _clientCertificateAttribute?: string;
+  private _clientCertificateAttribute?: string; 
   public get clientCertificateAttribute() {
     return this.getStringAttribute('client_certificate_attribute');
   }
@@ -6289,7 +6289,7 @@ export class SesMailManagerRuleSetRulesUnlessStringExpressionEvaluateOutputRefer
   }
 
   // mime_header_attribute - computed: true, optional: true, required: false
-  private _mimeHeaderAttribute?: string;
+  private _mimeHeaderAttribute?: string; 
   public get mimeHeaderAttribute() {
     return this.getStringAttribute('mime_header_attribute');
   }
@@ -6433,7 +6433,7 @@ export class SesMailManagerRuleSetRulesUnlessStringExpressionOutputReference ext
   }
 
   // operator - computed: true, optional: true, required: false
-  private _operator?: string;
+  private _operator?: string; 
   public get operator() {
     return this.getStringAttribute('operator');
   }
@@ -6449,7 +6449,7 @@ export class SesMailManagerRuleSetRulesUnlessStringExpressionOutputReference ext
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -6560,7 +6560,7 @@ export class SesMailManagerRuleSetRulesUnlessVerdictExpressionEvaluateAnalysisOu
   }
 
   // analyzer - computed: true, optional: true, required: false
-  private _analyzer?: string;
+  private _analyzer?: string; 
   public get analyzer() {
     return this.getStringAttribute('analyzer');
   }
@@ -6576,7 +6576,7 @@ export class SesMailManagerRuleSetRulesUnlessVerdictExpressionEvaluateAnalysisOu
   }
 
   // result_field - computed: true, optional: true, required: false
-  private _resultField?: string;
+  private _resultField?: string; 
   public get resultField() {
     return this.getStringAttribute('result_field');
   }
@@ -6703,7 +6703,7 @@ export class SesMailManagerRuleSetRulesUnlessVerdictExpressionEvaluateOutputRefe
   }
 
   // attribute - computed: true, optional: true, required: false
-  private _attribute?: string;
+  private _attribute?: string; 
   public get attribute() {
     return this.getStringAttribute('attribute');
   }
@@ -6847,7 +6847,7 @@ export class SesMailManagerRuleSetRulesUnlessVerdictExpressionOutputReference ex
   }
 
   // operator - computed: true, optional: true, required: false
-  private _operator?: string;
+  private _operator?: string; 
   public get operator() {
     return this.getStringAttribute('operator');
   }
@@ -6863,7 +6863,7 @@ export class SesMailManagerRuleSetRulesUnlessVerdictExpressionOutputReference ex
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -7320,7 +7320,7 @@ export class SesMailManagerRuleSetRulesOutputReference extends cdktn.ComplexObje
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -7469,7 +7469,7 @@ export class SesMailManagerRuleSetTagsOutputReference extends cdktn.ComplexObjec
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -7485,7 +7485,7 @@ export class SesMailManagerRuleSetTagsOutputReference extends cdktn.ComplexObjec
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -7596,7 +7596,7 @@ export class SesMailManagerRuleSet extends cdktn.TerraformResource {
   }
 
   // rule_set_name - computed: true, optional: true, required: false
-  private _ruleSetName?: string;
+  private _ruleSetName?: string; 
   public get ruleSetName() {
     return this.getStringAttribute('rule_set_name');
   }

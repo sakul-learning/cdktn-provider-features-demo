@@ -146,7 +146,7 @@ export class ConnectViewTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -162,7 +162,7 @@ export class ConnectViewTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -261,7 +261,7 @@ export class ConnectView extends cdktn.TerraformResource {
   // ==========
 
   // actions - computed: false, optional: false, required: true
-  private _actions?: string[];
+  private _actions?: string[]; 
   public get actions() {
     return this.getListAttribute('actions');
   }
@@ -274,7 +274,7 @@ export class ConnectView extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -295,7 +295,7 @@ export class ConnectView extends cdktn.TerraformResource {
   }
 
   // instance_arn - computed: false, optional: false, required: true
-  private _instanceArn?: string;
+  private _instanceArn?: string; 
   public get instanceArn() {
     return this.getStringAttribute('instance_arn');
   }
@@ -308,7 +308,7 @@ export class ConnectView extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -337,7 +337,7 @@ export class ConnectView extends cdktn.TerraformResource {
   }
 
   // template - computed: false, optional: false, required: true
-  private _template?: string;
+  private _template?: string; 
   public get template() {
     return this.getStringAttribute('template');
   }

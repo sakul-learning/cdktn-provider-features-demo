@@ -271,7 +271,7 @@ export class DataAwsEfsFileSystem extends cdktn.TerraformDataSource {
   }
 
   // creation_token - computed: true, optional: true, required: false
-  private _creationToken?: string;
+  private _creationToken?: string; 
   public get creationToken() {
     return this.getStringAttribute('creation_token');
   }
@@ -297,7 +297,7 @@ export class DataAwsEfsFileSystem extends cdktn.TerraformDataSource {
   }
 
   // file_system_id - computed: true, optional: true, required: false
-  private _fileSystemId?: string;
+  private _fileSystemId?: string; 
   public get fileSystemId() {
     return this.getStringAttribute('file_system_id');
   }
@@ -313,7 +313,7 @@ export class DataAwsEfsFileSystem extends cdktn.TerraformDataSource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -361,7 +361,7 @@ export class DataAwsEfsFileSystem extends cdktn.TerraformDataSource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -382,7 +382,7 @@ export class DataAwsEfsFileSystem extends cdktn.TerraformDataSource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

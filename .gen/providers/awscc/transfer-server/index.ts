@@ -223,7 +223,7 @@ export class TransferServerEndpointDetailsOutputReference extends cdktn.ComplexO
   }
 
   // address_allocation_ids - computed: true, optional: true, required: false
-  private _addressAllocationIds?: string[];
+  private _addressAllocationIds?: string[]; 
   public get addressAllocationIds() {
     return this.getListAttribute('address_allocation_ids');
   }
@@ -239,7 +239,7 @@ export class TransferServerEndpointDetailsOutputReference extends cdktn.ComplexO
   }
 
   // security_group_ids - computed: true, optional: true, required: false
-  private _securityGroupIds?: string[];
+  private _securityGroupIds?: string[]; 
   public get securityGroupIds() {
     return this.getListAttribute('security_group_ids');
   }
@@ -255,7 +255,7 @@ export class TransferServerEndpointDetailsOutputReference extends cdktn.ComplexO
   }
 
   // subnet_ids - computed: true, optional: true, required: false
-  private _subnetIds?: string[];
+  private _subnetIds?: string[]; 
   public get subnetIds() {
     return this.getListAttribute('subnet_ids');
   }
@@ -271,7 +271,7 @@ export class TransferServerEndpointDetailsOutputReference extends cdktn.ComplexO
   }
 
   // vpc_endpoint_id - computed: true, optional: true, required: false
-  private _vpcEndpointId?: string;
+  private _vpcEndpointId?: string; 
   public get vpcEndpointId() {
     return this.getStringAttribute('vpc_endpoint_id');
   }
@@ -287,7 +287,7 @@ export class TransferServerEndpointDetailsOutputReference extends cdktn.ComplexO
   }
 
   // vpc_id - computed: true, optional: true, required: false
-  private _vpcId?: string;
+  private _vpcId?: string; 
   public get vpcId() {
     return this.getStringAttribute('vpc_id');
   }
@@ -449,7 +449,7 @@ export class TransferServerIdentityProviderDetailsOutputReference extends cdktn.
   }
 
   // directory_id - computed: true, optional: true, required: false
-  private _directoryId?: string;
+  private _directoryId?: string; 
   public get directoryId() {
     return this.getStringAttribute('directory_id');
   }
@@ -465,7 +465,7 @@ export class TransferServerIdentityProviderDetailsOutputReference extends cdktn.
   }
 
   // function - computed: true, optional: true, required: false
-  private _function?: string;
+  private _function?: string; 
   public get function() {
     return this.getStringAttribute('function');
   }
@@ -481,7 +481,7 @@ export class TransferServerIdentityProviderDetailsOutputReference extends cdktn.
   }
 
   // invocation_role - computed: true, optional: true, required: false
-  private _invocationRole?: string;
+  private _invocationRole?: string; 
   public get invocationRole() {
     return this.getStringAttribute('invocation_role');
   }
@@ -497,7 +497,7 @@ export class TransferServerIdentityProviderDetailsOutputReference extends cdktn.
   }
 
   // sftp_authentication_methods - computed: true, optional: true, required: false
-  private _sftpAuthenticationMethods?: string;
+  private _sftpAuthenticationMethods?: string; 
   public get sftpAuthenticationMethods() {
     return this.getStringAttribute('sftp_authentication_methods');
   }
@@ -513,7 +513,7 @@ export class TransferServerIdentityProviderDetailsOutputReference extends cdktn.
   }
 
   // url - computed: true, optional: true, required: false
-  private _url?: string;
+  private _url?: string; 
   public get url() {
     return this.getStringAttribute('url');
   }
@@ -658,7 +658,7 @@ export class TransferServerProtocolDetailsOutputReference extends cdktn.ComplexO
   }
 
   // as_2_transports - computed: true, optional: true, required: false
-  private _as2Transports?: string[];
+  private _as2Transports?: string[]; 
   public get as2Transports() {
     return this.getListAttribute('as_2_transports');
   }
@@ -674,7 +674,7 @@ export class TransferServerProtocolDetailsOutputReference extends cdktn.ComplexO
   }
 
   // passive_ip - computed: true, optional: true, required: false
-  private _passiveIp?: string;
+  private _passiveIp?: string; 
   public get passiveIp() {
     return this.getStringAttribute('passive_ip');
   }
@@ -690,7 +690,7 @@ export class TransferServerProtocolDetailsOutputReference extends cdktn.ComplexO
   }
 
   // set_stat_option - computed: true, optional: true, required: false
-  private _setStatOption?: string;
+  private _setStatOption?: string; 
   public get setStatOption() {
     return this.getStringAttribute('set_stat_option');
   }
@@ -706,7 +706,7 @@ export class TransferServerProtocolDetailsOutputReference extends cdktn.ComplexO
   }
 
   // tls_session_resumption_mode - computed: true, optional: true, required: false
-  private _tlsSessionResumptionMode?: string;
+  private _tlsSessionResumptionMode?: string; 
   public get tlsSessionResumptionMode() {
     return this.getStringAttribute('tls_session_resumption_mode');
   }
@@ -802,7 +802,7 @@ export class TransferServerS3StorageOptionsOutputReference extends cdktn.Complex
   }
 
   // directory_listing_optimization - computed: true, optional: true, required: false
-  private _directoryListingOptimization?: string;
+  private _directoryListingOptimization?: string; 
   public get directoryListingOptimization() {
     return this.getStringAttribute('directory_listing_optimization');
   }
@@ -915,7 +915,7 @@ export class TransferServerTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -931,7 +931,7 @@ export class TransferServerTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1064,7 +1064,7 @@ export class TransferServerWorkflowDetailsOnPartialUploadOutputReference extends
   }
 
   // execution_role - computed: true, optional: true, required: false
-  private _executionRole?: string;
+  private _executionRole?: string; 
   public get executionRole() {
     return this.getStringAttribute('execution_role');
   }
@@ -1080,7 +1080,7 @@ export class TransferServerWorkflowDetailsOnPartialUploadOutputReference extends
   }
 
   // workflow_id - computed: true, optional: true, required: false
-  private _workflowId?: string;
+  private _workflowId?: string; 
   public get workflowId() {
     return this.getStringAttribute('workflow_id');
   }
@@ -1213,7 +1213,7 @@ export class TransferServerWorkflowDetailsOnUploadOutputReference extends cdktn.
   }
 
   // execution_role - computed: true, optional: true, required: false
-  private _executionRole?: string;
+  private _executionRole?: string; 
   public get executionRole() {
     return this.getStringAttribute('execution_role');
   }
@@ -1229,7 +1229,7 @@ export class TransferServerWorkflowDetailsOnUploadOutputReference extends cdktn.
   }
 
   // workflow_id - computed: true, optional: true, required: false
-  private _workflowId?: string;
+  private _workflowId?: string; 
   public get workflowId() {
     return this.getStringAttribute('workflow_id');
   }
@@ -1476,7 +1476,7 @@ export class TransferServer extends cdktn.TerraformResource {
   }
 
   // certificate - computed: true, optional: true, required: false
-  private _certificate?: string;
+  private _certificate?: string; 
   public get certificate() {
     return this.getStringAttribute('certificate');
   }
@@ -1492,7 +1492,7 @@ export class TransferServer extends cdktn.TerraformResource {
   }
 
   // domain - computed: true, optional: true, required: false
-  private _domain?: string;
+  private _domain?: string; 
   public get domain() {
     return this.getStringAttribute('domain');
   }
@@ -1524,7 +1524,7 @@ export class TransferServer extends cdktn.TerraformResource {
   }
 
   // endpoint_type - computed: true, optional: true, required: false
-  private _endpointType?: string;
+  private _endpointType?: string; 
   public get endpointType() {
     return this.getStringAttribute('endpoint_type');
   }
@@ -1561,7 +1561,7 @@ export class TransferServer extends cdktn.TerraformResource {
   }
 
   // identity_provider_type - computed: true, optional: true, required: false
-  private _identityProviderType?: string;
+  private _identityProviderType?: string; 
   public get identityProviderType() {
     return this.getStringAttribute('identity_provider_type');
   }
@@ -1577,7 +1577,7 @@ export class TransferServer extends cdktn.TerraformResource {
   }
 
   // ip_address_type - computed: true, optional: true, required: false
-  private _ipAddressType?: string;
+  private _ipAddressType?: string; 
   public get ipAddressType() {
     return this.getStringAttribute('ip_address_type');
   }
@@ -1593,7 +1593,7 @@ export class TransferServer extends cdktn.TerraformResource {
   }
 
   // logging_role - computed: true, optional: true, required: false
-  private _loggingRole?: string;
+  private _loggingRole?: string; 
   public get loggingRole() {
     return this.getStringAttribute('logging_role');
   }
@@ -1609,7 +1609,7 @@ export class TransferServer extends cdktn.TerraformResource {
   }
 
   // post_authentication_login_banner - computed: true, optional: true, required: false
-  private _postAuthenticationLoginBanner?: string;
+  private _postAuthenticationLoginBanner?: string; 
   public get postAuthenticationLoginBanner() {
     return this.getStringAttribute('post_authentication_login_banner');
   }
@@ -1625,7 +1625,7 @@ export class TransferServer extends cdktn.TerraformResource {
   }
 
   // pre_authentication_login_banner - computed: true, optional: true, required: false
-  private _preAuthenticationLoginBanner?: string;
+  private _preAuthenticationLoginBanner?: string; 
   public get preAuthenticationLoginBanner() {
     return this.getStringAttribute('pre_authentication_login_banner');
   }
@@ -1657,7 +1657,7 @@ export class TransferServer extends cdktn.TerraformResource {
   }
 
   // protocols - computed: true, optional: true, required: false
-  private _protocols?: string[];
+  private _protocols?: string[]; 
   public get protocols() {
     return this.getListAttribute('protocols');
   }
@@ -1689,7 +1689,7 @@ export class TransferServer extends cdktn.TerraformResource {
   }
 
   // security_policy_name - computed: true, optional: true, required: false
-  private _securityPolicyName?: string;
+  private _securityPolicyName?: string; 
   public get securityPolicyName() {
     return this.getStringAttribute('security_policy_name');
   }
@@ -1715,7 +1715,7 @@ export class TransferServer extends cdktn.TerraformResource {
   }
 
   // structured_log_destinations - computed: true, optional: true, required: false
-  private _structuredLogDestinations?: string[];
+  private _structuredLogDestinations?: string[]; 
   public get structuredLogDestinations() {
     return this.getListAttribute('structured_log_destinations');
   }

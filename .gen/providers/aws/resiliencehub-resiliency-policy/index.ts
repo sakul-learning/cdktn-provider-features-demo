@@ -156,7 +156,7 @@ export class ResiliencehubResiliencyPolicyPolicyAzOutputReference extends cdktn.
   }
 
   // rpo - computed: false, optional: false, required: true
-  private _rpo?: string;
+  private _rpo?: string; 
   public get rpo() {
     return this.getStringAttribute('rpo');
   }
@@ -169,7 +169,7 @@ export class ResiliencehubResiliencyPolicyPolicyAzOutputReference extends cdktn.
   }
 
   // rto - computed: false, optional: false, required: true
-  private _rto?: string;
+  private _rto?: string; 
   public get rto() {
     return this.getStringAttribute('rto');
   }
@@ -303,7 +303,7 @@ export class ResiliencehubResiliencyPolicyPolicyHardwareOutputReference extends 
   }
 
   // rpo - computed: false, optional: false, required: true
-  private _rpo?: string;
+  private _rpo?: string; 
   public get rpo() {
     return this.getStringAttribute('rpo');
   }
@@ -316,7 +316,7 @@ export class ResiliencehubResiliencyPolicyPolicyHardwareOutputReference extends 
   }
 
   // rto - computed: false, optional: false, required: true
-  private _rto?: string;
+  private _rto?: string; 
   public get rto() {
     return this.getStringAttribute('rto');
   }
@@ -450,7 +450,7 @@ export class ResiliencehubResiliencyPolicyPolicyRegionOutputReference extends cd
   }
 
   // rpo - computed: false, optional: true, required: false
-  private _rpo?: string;
+  private _rpo?: string; 
   public get rpo() {
     return this.getStringAttribute('rpo');
   }
@@ -466,7 +466,7 @@ export class ResiliencehubResiliencyPolicyPolicyRegionOutputReference extends cd
   }
 
   // rto - computed: false, optional: true, required: false
-  private _rto?: string;
+  private _rto?: string; 
   public get rto() {
     return this.getStringAttribute('rto');
   }
@@ -603,7 +603,7 @@ export class ResiliencehubResiliencyPolicyPolicySoftwareOutputReference extends 
   }
 
   // rpo - computed: false, optional: false, required: true
-  private _rpo?: string;
+  private _rpo?: string; 
   public get rpo() {
     return this.getStringAttribute('rpo');
   }
@@ -616,7 +616,7 @@ export class ResiliencehubResiliencyPolicyPolicySoftwareOutputReference extends 
   }
 
   // rto - computed: false, optional: false, required: true
-  private _rto?: string;
+  private _rto?: string; 
   public get rto() {
     return this.getStringAttribute('rto');
   }
@@ -990,7 +990,7 @@ export class ResiliencehubResiliencyPolicyTimeoutsOutputReference extends cdktn.
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -1006,7 +1006,7 @@ export class ResiliencehubResiliencyPolicyTimeoutsOutputReference extends cdktn.
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -1022,7 +1022,7 @@ export class ResiliencehubResiliencyPolicyTimeoutsOutputReference extends cdktn.
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -1108,7 +1108,7 @@ export class ResiliencehubResiliencyPolicy extends cdktn.TerraformResource {
   }
 
   // data_location_constraint - computed: true, optional: true, required: false
-  private _dataLocationConstraint?: string;
+  private _dataLocationConstraint?: string; 
   public get dataLocationConstraint() {
     return this.getStringAttribute('data_location_constraint');
   }
@@ -1124,7 +1124,7 @@ export class ResiliencehubResiliencyPolicy extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1145,7 +1145,7 @@ export class ResiliencehubResiliencyPolicy extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1158,7 +1158,7 @@ export class ResiliencehubResiliencyPolicy extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1174,7 +1174,7 @@ export class ResiliencehubResiliencyPolicy extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -1196,7 +1196,7 @@ export class ResiliencehubResiliencyPolicy extends cdktn.TerraformResource {
   }
 
   // tier - computed: false, optional: false, required: true
-  private _tier?: string;
+  private _tier?: string; 
   public get tier() {
     return this.getStringAttribute('tier');
   }

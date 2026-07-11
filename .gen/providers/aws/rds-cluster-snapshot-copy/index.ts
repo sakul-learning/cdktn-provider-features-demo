@@ -133,7 +133,7 @@ export class RdsClusterSnapshotCopyTimeoutsOutputReference extends cdktn.Complex
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -221,7 +221,7 @@ export class RdsClusterSnapshotCopy extends cdktn.TerraformResource {
   }
 
   // copy_tags - computed: false, optional: true, required: false
-  private _copyTags?: boolean | cdktn.IResolvable;
+  private _copyTags?: boolean | cdktn.IResolvable; 
   public get copyTags() {
     return this.getBooleanAttribute('copy_tags');
   }
@@ -242,7 +242,7 @@ export class RdsClusterSnapshotCopy extends cdktn.TerraformResource {
   }
 
   // destination_region - computed: false, optional: true, required: false
-  private _destinationRegion?: string;
+  private _destinationRegion?: string; 
   public get destinationRegion() {
     return this.getStringAttribute('destination_region');
   }
@@ -273,7 +273,7 @@ export class RdsClusterSnapshotCopy extends cdktn.TerraformResource {
   }
 
   // kms_key_id - computed: false, optional: true, required: false
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -294,7 +294,7 @@ export class RdsClusterSnapshotCopy extends cdktn.TerraformResource {
   }
 
   // presigned_url - computed: false, optional: true, required: false
-  private _presignedUrl?: string;
+  private _presignedUrl?: string; 
   public get presignedUrl() {
     return this.getStringAttribute('presigned_url');
   }
@@ -310,7 +310,7 @@ export class RdsClusterSnapshotCopy extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -326,7 +326,7 @@ export class RdsClusterSnapshotCopy extends cdktn.TerraformResource {
   }
 
   // shared_accounts - computed: false, optional: true, required: false
-  private _sharedAccounts?: string[];
+  private _sharedAccounts?: string[]; 
   public get sharedAccounts() {
     return cdktn.Fn.tolist(this.getListAttribute('shared_accounts'));
   }
@@ -347,7 +347,7 @@ export class RdsClusterSnapshotCopy extends cdktn.TerraformResource {
   }
 
   // source_db_cluster_snapshot_identifier - computed: false, optional: false, required: true
-  private _sourceDbClusterSnapshotIdentifier?: string;
+  private _sourceDbClusterSnapshotIdentifier?: string; 
   public get sourceDbClusterSnapshotIdentifier() {
     return this.getStringAttribute('source_db_cluster_snapshot_identifier');
   }
@@ -370,7 +370,7 @@ export class RdsClusterSnapshotCopy extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -392,7 +392,7 @@ export class RdsClusterSnapshotCopy extends cdktn.TerraformResource {
   }
 
   // target_db_cluster_snapshot_identifier - computed: false, optional: false, required: true
-  private _targetDbClusterSnapshotIdentifier?: string;
+  private _targetDbClusterSnapshotIdentifier?: string; 
   public get targetDbClusterSnapshotIdentifier() {
     return this.getStringAttribute('target_db_cluster_snapshot_identifier');
   }

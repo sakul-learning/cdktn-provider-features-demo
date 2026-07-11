@@ -152,7 +152,7 @@ export class Elasticloadbalancingv2TrustStoreRevocationRevocationContentsOutputR
   }
 
   // revocation_type - computed: true, optional: true, required: false
-  private _revocationType?: string;
+  private _revocationType?: string; 
   public get revocationType() {
     return this.getStringAttribute('revocation_type');
   }
@@ -168,7 +168,7 @@ export class Elasticloadbalancingv2TrustStoreRevocationRevocationContentsOutputR
   }
 
   // s3_bucket - computed: true, optional: true, required: false
-  private _s3Bucket?: string;
+  private _s3Bucket?: string; 
   public get s3Bucket() {
     return this.getStringAttribute('s3_bucket');
   }
@@ -184,7 +184,7 @@ export class Elasticloadbalancingv2TrustStoreRevocationRevocationContentsOutputR
   }
 
   // s3_key - computed: true, optional: true, required: false
-  private _s3Key?: string;
+  private _s3Key?: string; 
   public get s3Key() {
     return this.getStringAttribute('s3_key');
   }
@@ -200,7 +200,7 @@ export class Elasticloadbalancingv2TrustStoreRevocationRevocationContentsOutputR
   }
 
   // s3_object_version - computed: true, optional: true, required: false
-  private _s3ObjectVersion?: string;
+  private _s3ObjectVersion?: string; 
   public get s3ObjectVersion() {
     return this.getStringAttribute('s3_object_version');
   }
@@ -411,7 +411,7 @@ export class Elasticloadbalancingv2TrustStoreRevocation extends cdktn.TerraformR
   }
 
   // trust_store_arn - computed: true, optional: true, required: false
-  private _trustStoreArn?: string;
+  private _trustStoreArn?: string; 
   public get trustStoreArn() {
     return this.getStringAttribute('trust_store_arn');
   }

@@ -131,7 +131,7 @@ export class LocationTrackerAssociationTimeoutsOutputReference extends cdktn.Com
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -147,7 +147,7 @@ export class LocationTrackerAssociationTimeoutsOutputReference extends cdktn.Com
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -225,7 +225,7 @@ export class LocationTrackerAssociation extends cdktn.TerraformResource {
   // ==========
 
   // consumer_arn - computed: false, optional: false, required: true
-  private _consumerArn?: string;
+  private _consumerArn?: string; 
   public get consumerArn() {
     return this.getStringAttribute('consumer_arn');
   }
@@ -238,7 +238,7 @@ export class LocationTrackerAssociation extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -254,7 +254,7 @@ export class LocationTrackerAssociation extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -270,7 +270,7 @@ export class LocationTrackerAssociation extends cdktn.TerraformResource {
   }
 
   // tracker_name - computed: false, optional: false, required: true
-  private _trackerName?: string;
+  private _trackerName?: string; 
   public get trackerName() {
     return this.getStringAttribute('tracker_name');
   }

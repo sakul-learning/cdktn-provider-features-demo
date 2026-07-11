@@ -113,7 +113,7 @@ export class VerifiedpermissionsPolicyStoreValidationSettingsOutputReference ext
   }
 
   // mode - computed: false, optional: false, required: true
-  private _mode?: string;
+  private _mode?: string; 
   public get mode() {
     return this.getStringAttribute('mode');
   }
@@ -213,7 +213,7 @@ export class VerifiedpermissionsPolicyStore extends cdktn.TerraformResource {
   }
 
   // deletion_protection - computed: true, optional: true, required: false
-  private _deletionProtection?: string;
+  private _deletionProtection?: string; 
   public get deletionProtection() {
     return this.getStringAttribute('deletion_protection');
   }
@@ -229,7 +229,7 @@ export class VerifiedpermissionsPolicyStore extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -255,7 +255,7 @@ export class VerifiedpermissionsPolicyStore extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -271,7 +271,7 @@ export class VerifiedpermissionsPolicyStore extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

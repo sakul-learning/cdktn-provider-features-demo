@@ -206,7 +206,7 @@ export class AppstreamStackAccessEndpointsOutputReference extends cdktn.ComplexO
   }
 
   // endpoint_type - computed: true, optional: true, required: false
-  private _endpointType?: string;
+  private _endpointType?: string; 
   public get endpointType() {
     return this.getStringAttribute('endpoint_type');
   }
@@ -222,7 +222,7 @@ export class AppstreamStackAccessEndpointsOutputReference extends cdktn.ComplexO
   }
 
   // vpce_id - computed: true, optional: true, required: false
-  private _vpceId?: string;
+  private _vpceId?: string; 
   public get vpceId() {
     return this.getStringAttribute('vpce_id');
   }
@@ -359,7 +359,7 @@ export class AppstreamStackAgentAccessConfigSettingsOutputReference extends cdkt
   }
 
   // agent_action - computed: true, optional: true, required: false
-  private _agentAction?: string;
+  private _agentAction?: string; 
   public get agentAction() {
     return this.getStringAttribute('agent_action');
   }
@@ -375,7 +375,7 @@ export class AppstreamStackAgentAccessConfigSettingsOutputReference extends cdkt
   }
 
   // permission - computed: true, optional: true, required: false
-  private _permission?: string;
+  private _permission?: string; 
   public get permission() {
     return this.getStringAttribute('permission');
   }
@@ -586,7 +586,7 @@ export class AppstreamStackAgentAccessConfigOutputReference extends cdktn.Comple
   }
 
   // s3_bucket_arn - computed: true, optional: true, required: false
-  private _s3BucketArn?: string;
+  private _s3BucketArn?: string; 
   public get s3BucketArn() {
     return this.getStringAttribute('s3_bucket_arn');
   }
@@ -602,7 +602,7 @@ export class AppstreamStackAgentAccessConfigOutputReference extends cdktn.Comple
   }
 
   // screen_image_format - computed: true, optional: true, required: false
-  private _screenImageFormat?: string;
+  private _screenImageFormat?: string; 
   public get screenImageFormat() {
     return this.getStringAttribute('screen_image_format');
   }
@@ -618,7 +618,7 @@ export class AppstreamStackAgentAccessConfigOutputReference extends cdktn.Comple
   }
 
   // screen_resolution - computed: true, optional: true, required: false
-  private _screenResolution?: string;
+  private _screenResolution?: string; 
   public get screenResolution() {
     return this.getStringAttribute('screen_resolution');
   }
@@ -634,7 +634,7 @@ export class AppstreamStackAgentAccessConfigOutputReference extends cdktn.Comple
   }
 
   // screenshots_upload_enabled - computed: true, optional: true, required: false
-  private _screenshotsUploadEnabled?: boolean | cdktn.IResolvable;
+  private _screenshotsUploadEnabled?: boolean | cdktn.IResolvable; 
   public get screenshotsUploadEnabled() {
     return this.getBooleanAttribute('screenshots_upload_enabled');
   }
@@ -666,7 +666,7 @@ export class AppstreamStackAgentAccessConfigOutputReference extends cdktn.Comple
   }
 
   // user_control_mode - computed: true, optional: true, required: false
-  private _userControlMode?: string;
+  private _userControlMode?: string; 
   public get userControlMode() {
     return this.getStringAttribute('user_control_mode');
   }
@@ -781,7 +781,7 @@ export class AppstreamStackApplicationSettingsOutputReference extends cdktn.Comp
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -797,7 +797,7 @@ export class AppstreamStackApplicationSettingsOutputReference extends cdktn.Comp
   }
 
   // settings_group - computed: true, optional: true, required: false
-  private _settingsGroup?: string;
+  private _settingsGroup?: string; 
   public get settingsGroup() {
     return this.getStringAttribute('settings_group');
   }
@@ -931,7 +931,7 @@ export class AppstreamStackContentRedirectionHostToClientOutputReference extends
   }
 
   // allowed_urls - computed: true, optional: true, required: false
-  private _allowedUrls?: string[];
+  private _allowedUrls?: string[]; 
   public get allowedUrls() {
     return this.getListAttribute('allowed_urls');
   }
@@ -947,7 +947,7 @@ export class AppstreamStackContentRedirectionHostToClientOutputReference extends
   }
 
   // denied_urls - computed: true, optional: true, required: false
-  private _deniedUrls?: string[];
+  private _deniedUrls?: string[]; 
   public get deniedUrls() {
     return this.getListAttribute('denied_urls');
   }
@@ -963,7 +963,7 @@ export class AppstreamStackContentRedirectionHostToClientOutputReference extends
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -1195,7 +1195,7 @@ export class AppstreamStackStorageConnectorsOutputReference extends cdktn.Comple
   }
 
   // connector_type - computed: true, optional: true, required: false
-  private _connectorType?: string;
+  private _connectorType?: string; 
   public get connectorType() {
     return this.getStringAttribute('connector_type');
   }
@@ -1211,7 +1211,7 @@ export class AppstreamStackStorageConnectorsOutputReference extends cdktn.Comple
   }
 
   // domains - computed: true, optional: true, required: false
-  private _domains?: string[];
+  private _domains?: string[]; 
   public get domains() {
     return this.getListAttribute('domains');
   }
@@ -1227,7 +1227,7 @@ export class AppstreamStackStorageConnectorsOutputReference extends cdktn.Comple
   }
 
   // resource_identifier - computed: true, optional: true, required: false
-  private _resourceIdentifier?: string;
+  private _resourceIdentifier?: string; 
   public get resourceIdentifier() {
     return this.getStringAttribute('resource_identifier');
   }
@@ -1343,7 +1343,7 @@ export class AppstreamStackStreamingExperienceSettingsOutputReference extends cd
   }
 
   // preferred_protocol - computed: true, optional: true, required: false
-  private _preferredProtocol?: string;
+  private _preferredProtocol?: string; 
   public get preferredProtocol() {
     return this.getStringAttribute('preferred_protocol');
   }
@@ -1460,7 +1460,7 @@ export class AppstreamStackTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1476,7 +1476,7 @@ export class AppstreamStackTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1632,7 +1632,7 @@ export class AppstreamStackUserSettingsOutputReference extends cdktn.ComplexObje
   }
 
   // action - computed: true, optional: true, required: false
-  private _action?: string;
+  private _action?: string; 
   public get action() {
     return this.getStringAttribute('action');
   }
@@ -1648,7 +1648,7 @@ export class AppstreamStackUserSettingsOutputReference extends cdktn.ComplexObje
   }
 
   // maximum_length - computed: true, optional: true, required: false
-  private _maximumLength?: number;
+  private _maximumLength?: number; 
   public get maximumLength() {
     return this.getNumberAttribute('maximum_length');
   }
@@ -1664,7 +1664,7 @@ export class AppstreamStackUserSettingsOutputReference extends cdktn.ComplexObje
   }
 
   // permission - computed: true, optional: true, required: false
-  private _permission?: string;
+  private _permission?: string; 
   public get permission() {
     return this.getStringAttribute('permission');
   }
@@ -1821,7 +1821,7 @@ export class AppstreamStack extends cdktn.TerraformResource {
   }
 
   // attributes_to_delete - computed: true, optional: true, required: false
-  private _attributesToDelete?: string[];
+  private _attributesToDelete?: string[]; 
   public get attributesToDelete() {
     return this.getListAttribute('attributes_to_delete');
   }
@@ -1853,7 +1853,7 @@ export class AppstreamStack extends cdktn.TerraformResource {
   }
 
   // delete_storage_connectors - computed: true, optional: true, required: false
-  private _deleteStorageConnectors?: boolean | cdktn.IResolvable;
+  private _deleteStorageConnectors?: boolean | cdktn.IResolvable; 
   public get deleteStorageConnectors() {
     return this.getBooleanAttribute('delete_storage_connectors');
   }
@@ -1869,7 +1869,7 @@ export class AppstreamStack extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1885,7 +1885,7 @@ export class AppstreamStack extends cdktn.TerraformResource {
   }
 
   // display_name - computed: true, optional: true, required: false
-  private _displayName?: string;
+  private _displayName?: string; 
   public get displayName() {
     return this.getStringAttribute('display_name');
   }
@@ -1901,7 +1901,7 @@ export class AppstreamStack extends cdktn.TerraformResource {
   }
 
   // embed_host_domains - computed: true, optional: true, required: false
-  private _embedHostDomains?: string[];
+  private _embedHostDomains?: string[]; 
   public get embedHostDomains() {
     return this.getListAttribute('embed_host_domains');
   }
@@ -1917,7 +1917,7 @@ export class AppstreamStack extends cdktn.TerraformResource {
   }
 
   // feedback_url - computed: true, optional: true, required: false
-  private _feedbackUrl?: string;
+  private _feedbackUrl?: string; 
   public get feedbackUrl() {
     return this.getStringAttribute('feedback_url');
   }
@@ -1938,7 +1938,7 @@ export class AppstreamStack extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1954,7 +1954,7 @@ export class AppstreamStack extends cdktn.TerraformResource {
   }
 
   // redirect_url - computed: true, optional: true, required: false
-  private _redirectUrl?: string;
+  private _redirectUrl?: string; 
   public get redirectUrl() {
     return this.getStringAttribute('redirect_url');
   }

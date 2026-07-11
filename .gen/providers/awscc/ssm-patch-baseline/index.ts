@@ -196,7 +196,7 @@ export class SsmPatchBaselineApprovalRulesPatchRulesPatchFilterGroupPatchFilters
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -212,7 +212,7 @@ export class SsmPatchBaselineApprovalRulesPatchRulesPatchFilterGroupPatchFilters
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -492,7 +492,7 @@ export class SsmPatchBaselineApprovalRulesPatchRulesOutputReference extends cdkt
   }
 
   // approve_after_days - computed: true, optional: true, required: false
-  private _approveAfterDays?: number;
+  private _approveAfterDays?: number; 
   public get approveAfterDays() {
     return this.getNumberAttribute('approve_after_days');
   }
@@ -508,7 +508,7 @@ export class SsmPatchBaselineApprovalRulesPatchRulesOutputReference extends cdkt
   }
 
   // approve_until_date - computed: true, optional: true, required: false
-  private _approveUntilDate?: string;
+  private _approveUntilDate?: string; 
   public get approveUntilDate() {
     return this.getStringAttribute('approve_until_date');
   }
@@ -524,7 +524,7 @@ export class SsmPatchBaselineApprovalRulesPatchRulesOutputReference extends cdkt
   }
 
   // compliance_level - computed: true, optional: true, required: false
-  private _complianceLevel?: string;
+  private _complianceLevel?: string; 
   public get complianceLevel() {
     return this.getStringAttribute('compliance_level');
   }
@@ -540,7 +540,7 @@ export class SsmPatchBaselineApprovalRulesPatchRulesOutputReference extends cdkt
   }
 
   // enable_non_security - computed: true, optional: true, required: false
-  private _enableNonSecurity?: boolean | cdktn.IResolvable;
+  private _enableNonSecurity?: boolean | cdktn.IResolvable; 
   public get enableNonSecurity() {
     return this.getBooleanAttribute('enable_non_security');
   }
@@ -783,7 +783,7 @@ export class SsmPatchBaselineGlobalFiltersPatchFiltersOutputReference extends cd
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -799,7 +799,7 @@ export class SsmPatchBaselineGlobalFiltersPatchFiltersOutputReference extends cd
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -1043,7 +1043,7 @@ export class SsmPatchBaselineSourcesOutputReference extends cdktn.ComplexObject 
   }
 
   // configuration - computed: true, optional: true, required: false
-  private _configuration?: string;
+  private _configuration?: string; 
   public get configuration() {
     return this.getStringAttribute('configuration');
   }
@@ -1059,7 +1059,7 @@ export class SsmPatchBaselineSourcesOutputReference extends cdktn.ComplexObject 
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1075,7 +1075,7 @@ export class SsmPatchBaselineSourcesOutputReference extends cdktn.ComplexObject 
   }
 
   // products - computed: true, optional: true, required: false
-  private _products?: string[];
+  private _products?: string[]; 
   public get products() {
     return this.getListAttribute('products');
   }
@@ -1208,7 +1208,7 @@ export class SsmPatchBaselineTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1224,7 +1224,7 @@ export class SsmPatchBaselineTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1348,7 +1348,7 @@ export class SsmPatchBaseline extends cdktn.TerraformResource {
   }
 
   // approved_patches - computed: true, optional: true, required: false
-  private _approvedPatches?: string[];
+  private _approvedPatches?: string[]; 
   public get approvedPatches() {
     return this.getListAttribute('approved_patches');
   }
@@ -1364,7 +1364,7 @@ export class SsmPatchBaseline extends cdktn.TerraformResource {
   }
 
   // approved_patches_compliance_level - computed: true, optional: true, required: false
-  private _approvedPatchesComplianceLevel?: string;
+  private _approvedPatchesComplianceLevel?: string; 
   public get approvedPatchesComplianceLevel() {
     return this.getStringAttribute('approved_patches_compliance_level');
   }
@@ -1380,7 +1380,7 @@ export class SsmPatchBaseline extends cdktn.TerraformResource {
   }
 
   // approved_patches_enable_non_security - computed: true, optional: true, required: false
-  private _approvedPatchesEnableNonSecurity?: boolean | cdktn.IResolvable;
+  private _approvedPatchesEnableNonSecurity?: boolean | cdktn.IResolvable; 
   public get approvedPatchesEnableNonSecurity() {
     return this.getBooleanAttribute('approved_patches_enable_non_security');
   }
@@ -1396,7 +1396,7 @@ export class SsmPatchBaseline extends cdktn.TerraformResource {
   }
 
   // available_security_updates_compliance_status - computed: true, optional: true, required: false
-  private _availableSecurityUpdatesComplianceStatus?: string;
+  private _availableSecurityUpdatesComplianceStatus?: string; 
   public get availableSecurityUpdatesComplianceStatus() {
     return this.getStringAttribute('available_security_updates_compliance_status');
   }
@@ -1412,7 +1412,7 @@ export class SsmPatchBaseline extends cdktn.TerraformResource {
   }
 
   // default_baseline - computed: true, optional: true, required: false
-  private _defaultBaseline?: boolean | cdktn.IResolvable;
+  private _defaultBaseline?: boolean | cdktn.IResolvable; 
   public get defaultBaseline() {
     return this.getBooleanAttribute('default_baseline');
   }
@@ -1428,7 +1428,7 @@ export class SsmPatchBaseline extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1465,7 +1465,7 @@ export class SsmPatchBaseline extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1478,7 +1478,7 @@ export class SsmPatchBaseline extends cdktn.TerraformResource {
   }
 
   // operating_system - computed: true, optional: true, required: false
-  private _operatingSystem?: string;
+  private _operatingSystem?: string; 
   public get operatingSystem() {
     return this.getStringAttribute('operating_system');
   }
@@ -1499,7 +1499,7 @@ export class SsmPatchBaseline extends cdktn.TerraformResource {
   }
 
   // patch_groups - computed: true, optional: true, required: false
-  private _patchGroups?: string[];
+  private _patchGroups?: string[]; 
   public get patchGroups() {
     return this.getListAttribute('patch_groups');
   }
@@ -1515,7 +1515,7 @@ export class SsmPatchBaseline extends cdktn.TerraformResource {
   }
 
   // rejected_patches - computed: true, optional: true, required: false
-  private _rejectedPatches?: string[];
+  private _rejectedPatches?: string[]; 
   public get rejectedPatches() {
     return this.getListAttribute('rejected_patches');
   }
@@ -1531,7 +1531,7 @@ export class SsmPatchBaseline extends cdktn.TerraformResource {
   }
 
   // rejected_patches_action - computed: true, optional: true, required: false
-  private _rejectedPatchesAction?: string;
+  private _rejectedPatchesAction?: string; 
   public get rejectedPatchesAction() {
     return this.getStringAttribute('rejected_patches_action');
   }

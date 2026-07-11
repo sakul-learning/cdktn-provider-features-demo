@@ -133,7 +133,7 @@ export class DxGatewayTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -149,7 +149,7 @@ export class DxGatewayTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -228,7 +228,7 @@ export class DxGateway extends cdktn.TerraformResource {
   // ==========
 
   // amazon_side_asn - computed: false, optional: false, required: true
-  private _amazonSideAsn?: string;
+  private _amazonSideAsn?: string; 
   public get amazonSideAsn() {
     return this.getStringAttribute('amazon_side_asn');
   }
@@ -246,7 +246,7 @@ export class DxGateway extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -262,7 +262,7 @@ export class DxGateway extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -280,7 +280,7 @@ export class DxGateway extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -296,7 +296,7 @@ export class DxGateway extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

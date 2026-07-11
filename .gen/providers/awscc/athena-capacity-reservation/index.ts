@@ -113,7 +113,7 @@ export class AthenaCapacityReservationCapacityAssignmentConfigurationCapacityAss
   }
 
   // workgroup_names - computed: true, optional: true, required: false
-  private _workgroupNames?: string[];
+  private _workgroupNames?: string[]; 
   public get workgroupNames() {
     return this.getListAttribute('workgroup_names');
   }
@@ -342,7 +342,7 @@ export class AthenaCapacityReservationTagsOutputReference extends cdktn.ComplexO
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -358,7 +358,7 @@ export class AthenaCapacityReservationTagsOutputReference extends cdktn.ComplexO
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -496,7 +496,7 @@ export class AthenaCapacityReservation extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -530,7 +530,7 @@ export class AthenaCapacityReservation extends cdktn.TerraformResource {
   }
 
   // target_dpus - computed: false, optional: false, required: true
-  private _targetDpus?: number;
+  private _targetDpus?: number; 
   public get targetDpus() {
     return this.getNumberAttribute('target_dpus');
   }

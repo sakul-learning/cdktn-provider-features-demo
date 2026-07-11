@@ -157,7 +157,7 @@ export class IotwirelessTaskDefinitionLoRaWanUpdateGatewayTaskEntryCurrentVersio
   }
 
   // model - computed: true, optional: true, required: false
-  private _model?: string;
+  private _model?: string; 
   public get model() {
     return this.getStringAttribute('model');
   }
@@ -173,7 +173,7 @@ export class IotwirelessTaskDefinitionLoRaWanUpdateGatewayTaskEntryCurrentVersio
   }
 
   // package_version - computed: true, optional: true, required: false
-  private _packageVersion?: string;
+  private _packageVersion?: string; 
   public get packageVersion() {
     return this.getStringAttribute('package_version');
   }
@@ -189,7 +189,7 @@ export class IotwirelessTaskDefinitionLoRaWanUpdateGatewayTaskEntryCurrentVersio
   }
 
   // station - computed: true, optional: true, required: false
-  private _station?: string;
+  private _station?: string; 
   public get station() {
     return this.getStringAttribute('station');
   }
@@ -317,7 +317,7 @@ export class IotwirelessTaskDefinitionLoRaWanUpdateGatewayTaskEntryUpdateVersion
   }
 
   // model - computed: true, optional: true, required: false
-  private _model?: string;
+  private _model?: string; 
   public get model() {
     return this.getStringAttribute('model');
   }
@@ -333,7 +333,7 @@ export class IotwirelessTaskDefinitionLoRaWanUpdateGatewayTaskEntryUpdateVersion
   }
 
   // package_version - computed: true, optional: true, required: false
-  private _packageVersion?: string;
+  private _packageVersion?: string; 
   public get packageVersion() {
     return this.getStringAttribute('package_version');
   }
@@ -349,7 +349,7 @@ export class IotwirelessTaskDefinitionLoRaWanUpdateGatewayTaskEntryUpdateVersion
   }
 
   // station - computed: true, optional: true, required: false
-  private _station?: string;
+  private _station?: string; 
   public get station() {
     return this.getStringAttribute('station');
   }
@@ -589,7 +589,7 @@ export class IotwirelessTaskDefinitionTagsOutputReference extends cdktn.ComplexO
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -605,7 +605,7 @@ export class IotwirelessTaskDefinitionTagsOutputReference extends cdktn.ComplexO
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -753,7 +753,7 @@ export class IotwirelessTaskDefinitionUpdateLoRaWanCurrentVersionOutputReference
   }
 
   // model - computed: true, optional: true, required: false
-  private _model?: string;
+  private _model?: string; 
   public get model() {
     return this.getStringAttribute('model');
   }
@@ -769,7 +769,7 @@ export class IotwirelessTaskDefinitionUpdateLoRaWanCurrentVersionOutputReference
   }
 
   // package_version - computed: true, optional: true, required: false
-  private _packageVersion?: string;
+  private _packageVersion?: string; 
   public get packageVersion() {
     return this.getStringAttribute('package_version');
   }
@@ -785,7 +785,7 @@ export class IotwirelessTaskDefinitionUpdateLoRaWanCurrentVersionOutputReference
   }
 
   // station - computed: true, optional: true, required: false
-  private _station?: string;
+  private _station?: string; 
   public get station() {
     return this.getStringAttribute('station');
   }
@@ -913,7 +913,7 @@ export class IotwirelessTaskDefinitionUpdateLoRaWanUpdateVersionOutputReference 
   }
 
   // model - computed: true, optional: true, required: false
-  private _model?: string;
+  private _model?: string; 
   public get model() {
     return this.getStringAttribute('model');
   }
@@ -929,7 +929,7 @@ export class IotwirelessTaskDefinitionUpdateLoRaWanUpdateVersionOutputReference 
   }
 
   // package_version - computed: true, optional: true, required: false
-  private _packageVersion?: string;
+  private _packageVersion?: string; 
   public get packageVersion() {
     return this.getStringAttribute('package_version');
   }
@@ -945,7 +945,7 @@ export class IotwirelessTaskDefinitionUpdateLoRaWanUpdateVersionOutputReference 
   }
 
   // station - computed: true, optional: true, required: false
-  private _station?: string;
+  private _station?: string; 
   public get station() {
     return this.getStringAttribute('station');
   }
@@ -1106,7 +1106,7 @@ export class IotwirelessTaskDefinitionUpdateLoRaWanOutputReference extends cdktn
   }
 
   // sig_key_crc - computed: true, optional: true, required: false
-  private _sigKeyCrc?: number;
+  private _sigKeyCrc?: number; 
   public get sigKeyCrc() {
     return this.getNumberAttribute('sig_key_crc');
   }
@@ -1122,7 +1122,7 @@ export class IotwirelessTaskDefinitionUpdateLoRaWanOutputReference extends cdktn
   }
 
   // update_signature - computed: true, optional: true, required: false
-  private _updateSignature?: string;
+  private _updateSignature?: string; 
   public get updateSignature() {
     return this.getStringAttribute('update_signature');
   }
@@ -1282,7 +1282,7 @@ export class IotwirelessTaskDefinitionUpdateOutputReference extends cdktn.Comple
   }
 
   // update_data_role - computed: true, optional: true, required: false
-  private _updateDataRole?: string;
+  private _updateDataRole?: string; 
   public get updateDataRole() {
     return this.getStringAttribute('update_data_role');
   }
@@ -1298,7 +1298,7 @@ export class IotwirelessTaskDefinitionUpdateOutputReference extends cdktn.Comple
   }
 
   // update_data_source - computed: true, optional: true, required: false
-  private _updateDataSource?: string;
+  private _updateDataSource?: string; 
   public get updateDataSource() {
     return this.getStringAttribute('update_data_source');
   }
@@ -1382,7 +1382,7 @@ export class IotwirelessTaskDefinition extends cdktn.TerraformResource {
   }
 
   // auto_create_tasks - computed: false, optional: false, required: true
-  private _autoCreateTasks?: boolean | cdktn.IResolvable;
+  private _autoCreateTasks?: boolean | cdktn.IResolvable; 
   public get autoCreateTasks() {
     return this.getBooleanAttribute('auto_create_tasks');
   }
@@ -1416,7 +1416,7 @@ export class IotwirelessTaskDefinition extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1453,7 +1453,7 @@ export class IotwirelessTaskDefinition extends cdktn.TerraformResource {
   }
 
   // task_definition_type - computed: true, optional: true, required: false
-  private _taskDefinitionType?: string;
+  private _taskDefinitionType?: string; 
   public get taskDefinitionType() {
     return this.getStringAttribute('task_definition_type');
   }

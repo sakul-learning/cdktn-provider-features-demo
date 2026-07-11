@@ -177,7 +177,7 @@ export class GlueIntegrationIntegrationConfigOutputReference extends cdktn.Compl
   }
 
   // continuous_sync - computed: true, optional: true, required: false
-  private _continuousSync?: boolean | cdktn.IResolvable;
+  private _continuousSync?: boolean | cdktn.IResolvable; 
   public get continuousSync() {
     return this.getBooleanAttribute('continuous_sync');
   }
@@ -193,7 +193,7 @@ export class GlueIntegrationIntegrationConfigOutputReference extends cdktn.Compl
   }
 
   // refresh_interval - computed: true, optional: true, required: false
-  private _refreshInterval?: string;
+  private _refreshInterval?: string; 
   public get refreshInterval() {
     return this.getStringAttribute('refresh_interval');
   }
@@ -209,7 +209,7 @@ export class GlueIntegrationIntegrationConfigOutputReference extends cdktn.Compl
   }
 
   // source_properties - computed: true, optional: true, required: false
-  private _sourceProperties?: { [key: string]: string };
+  private _sourceProperties?: { [key: string]: string }; 
   public get sourceProperties() {
     return this.getStringMapAttribute('source_properties');
   }
@@ -226,13 +226,13 @@ export class GlueIntegrationIntegrationConfigOutputReference extends cdktn.Compl
 }
 export interface GlueIntegrationTags {
   /**
-  * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
+  * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_integration#key GlueIntegration#key}
   */
   readonly key?: string;
   /**
-  * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
+  * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_integration#value GlueIntegration#value}
   */
@@ -326,7 +326,7 @@ export class GlueIntegrationTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -342,7 +342,7 @@ export class GlueIntegrationTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -444,7 +444,7 @@ export class GlueIntegration extends cdktn.TerraformResource {
   // ==========
 
   // additional_encryption_context - computed: true, optional: true, required: false
-  private _additionalEncryptionContext?: { [key: string]: string };
+  private _additionalEncryptionContext?: { [key: string]: string }; 
   public get additionalEncryptionContext() {
     return this.getStringMapAttribute('additional_encryption_context');
   }
@@ -465,7 +465,7 @@ export class GlueIntegration extends cdktn.TerraformResource {
   }
 
   // data_filter - computed: true, optional: true, required: false
-  private _dataFilter?: string;
+  private _dataFilter?: string; 
   public get dataFilter() {
     return this.getStringAttribute('data_filter');
   }
@@ -481,7 +481,7 @@ export class GlueIntegration extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -523,7 +523,7 @@ export class GlueIntegration extends cdktn.TerraformResource {
   }
 
   // integration_name - computed: false, optional: false, required: true
-  private _integrationName?: string;
+  private _integrationName?: string; 
   public get integrationName() {
     return this.getStringAttribute('integration_name');
   }
@@ -536,7 +536,7 @@ export class GlueIntegration extends cdktn.TerraformResource {
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -552,7 +552,7 @@ export class GlueIntegration extends cdktn.TerraformResource {
   }
 
   // source_arn - computed: false, optional: false, required: true
-  private _sourceArn?: string;
+  private _sourceArn?: string; 
   public get sourceArn() {
     return this.getStringAttribute('source_arn');
   }
@@ -586,7 +586,7 @@ export class GlueIntegration extends cdktn.TerraformResource {
   }
 
   // target_arn - computed: false, optional: false, required: true
-  private _targetArn?: string;
+  private _targetArn?: string; 
   public get targetArn() {
     return this.getStringAttribute('target_arn');
   }

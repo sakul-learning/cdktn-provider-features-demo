@@ -192,7 +192,7 @@ export class DataAwsCloudhsmV2Cluster extends cdktn.TerraformDataSource {
   }
 
   // cluster_id - computed: false, optional: false, required: true
-  private _clusterId?: string;
+  private _clusterId?: string; 
   public get clusterId() {
     return this.getStringAttribute('cluster_id');
   }
@@ -205,7 +205,7 @@ export class DataAwsCloudhsmV2Cluster extends cdktn.TerraformDataSource {
   }
 
   // cluster_state - computed: true, optional: true, required: false
-  private _clusterState?: string;
+  private _clusterState?: string; 
   public get clusterState() {
     return this.getStringAttribute('cluster_state');
   }
@@ -221,7 +221,7 @@ export class DataAwsCloudhsmV2Cluster extends cdktn.TerraformDataSource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -237,7 +237,7 @@ export class DataAwsCloudhsmV2Cluster extends cdktn.TerraformDataSource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

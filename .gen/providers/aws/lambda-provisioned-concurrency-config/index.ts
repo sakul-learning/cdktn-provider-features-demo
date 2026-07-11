@@ -139,7 +139,7 @@ export class LambdaProvisionedConcurrencyConfigTimeoutsOutputReference extends c
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -155,7 +155,7 @@ export class LambdaProvisionedConcurrencyConfigTimeoutsOutputReference extends c
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -235,7 +235,7 @@ export class LambdaProvisionedConcurrencyConfig extends cdktn.TerraformResource 
   // ==========
 
   // function_name - computed: false, optional: false, required: true
-  private _functionName?: string;
+  private _functionName?: string; 
   public get functionName() {
     return this.getStringAttribute('function_name');
   }
@@ -248,7 +248,7 @@ export class LambdaProvisionedConcurrencyConfig extends cdktn.TerraformResource 
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -264,7 +264,7 @@ export class LambdaProvisionedConcurrencyConfig extends cdktn.TerraformResource 
   }
 
   // provisioned_concurrent_executions - computed: false, optional: false, required: true
-  private _provisionedConcurrentExecutions?: number;
+  private _provisionedConcurrentExecutions?: number; 
   public get provisionedConcurrentExecutions() {
     return this.getNumberAttribute('provisioned_concurrent_executions');
   }
@@ -277,7 +277,7 @@ export class LambdaProvisionedConcurrencyConfig extends cdktn.TerraformResource 
   }
 
   // qualifier - computed: false, optional: false, required: true
-  private _qualifier?: string;
+  private _qualifier?: string; 
   public get qualifier() {
     return this.getStringAttribute('qualifier');
   }
@@ -290,7 +290,7 @@ export class LambdaProvisionedConcurrencyConfig extends cdktn.TerraformResource 
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -306,7 +306,7 @@ export class LambdaProvisionedConcurrencyConfig extends cdktn.TerraformResource 
   }
 
   // skip_destroy - computed: false, optional: true, required: false
-  private _skipDestroy?: boolean | cdktn.IResolvable;
+  private _skipDestroy?: boolean | cdktn.IResolvable; 
   public get skipDestroy() {
     return this.getBooleanAttribute('skip_destroy');
   }

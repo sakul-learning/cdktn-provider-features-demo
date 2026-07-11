@@ -160,7 +160,7 @@ export class GroundstationMissionProfileDataflowEdgesOutputReference extends cdk
   }
 
   // destination - computed: true, optional: true, required: false
-  private _destination?: string;
+  private _destination?: string; 
   public get destination() {
     return this.getStringAttribute('destination');
   }
@@ -176,7 +176,7 @@ export class GroundstationMissionProfileDataflowEdgesOutputReference extends cdk
   }
 
   // source - computed: true, optional: true, required: false
-  private _source?: string;
+  private _source?: string; 
   public get source() {
     return this.getStringAttribute('source');
   }
@@ -324,7 +324,7 @@ export class GroundstationMissionProfileStreamsKmsKeyOutputReference extends cdk
   }
 
   // kms_alias_arn - computed: true, optional: true, required: false
-  private _kmsAliasArn?: string;
+  private _kmsAliasArn?: string; 
   public get kmsAliasArn() {
     return this.getStringAttribute('kms_alias_arn');
   }
@@ -340,7 +340,7 @@ export class GroundstationMissionProfileStreamsKmsKeyOutputReference extends cdk
   }
 
   // kms_alias_name - computed: true, optional: true, required: false
-  private _kmsAliasName?: string;
+  private _kmsAliasName?: string; 
   public get kmsAliasName() {
     return this.getStringAttribute('kms_alias_name');
   }
@@ -356,7 +356,7 @@ export class GroundstationMissionProfileStreamsKmsKeyOutputReference extends cdk
   }
 
   // kms_key_arn - computed: true, optional: true, required: false
-  private _kmsKeyArn?: string;
+  private _kmsKeyArn?: string; 
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -469,7 +469,7 @@ export class GroundstationMissionProfileTagsOutputReference extends cdktn.Comple
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -485,7 +485,7 @@ export class GroundstationMissionProfileTagsOutputReference extends cdktn.Comple
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -593,7 +593,7 @@ export class GroundstationMissionProfile extends cdktn.TerraformResource {
   }
 
   // contact_post_pass_duration_seconds - computed: true, optional: true, required: false
-  private _contactPostPassDurationSeconds?: number;
+  private _contactPostPassDurationSeconds?: number; 
   public get contactPostPassDurationSeconds() {
     return this.getNumberAttribute('contact_post_pass_duration_seconds');
   }
@@ -609,7 +609,7 @@ export class GroundstationMissionProfile extends cdktn.TerraformResource {
   }
 
   // contact_pre_pass_duration_seconds - computed: true, optional: true, required: false
-  private _contactPrePassDurationSeconds?: number;
+  private _contactPrePassDurationSeconds?: number; 
   public get contactPrePassDurationSeconds() {
     return this.getNumberAttribute('contact_pre_pass_duration_seconds');
   }
@@ -643,7 +643,7 @@ export class GroundstationMissionProfile extends cdktn.TerraformResource {
   }
 
   // minimum_viable_contact_duration_seconds - computed: false, optional: false, required: true
-  private _minimumViableContactDurationSeconds?: number;
+  private _minimumViableContactDurationSeconds?: number; 
   public get minimumViableContactDurationSeconds() {
     return this.getNumberAttribute('minimum_viable_contact_duration_seconds');
   }
@@ -661,7 +661,7 @@ export class GroundstationMissionProfile extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -695,7 +695,7 @@ export class GroundstationMissionProfile extends cdktn.TerraformResource {
   }
 
   // streams_kms_role - computed: true, optional: true, required: false
-  private _streamsKmsRole?: string;
+  private _streamsKmsRole?: string; 
   public get streamsKmsRole() {
     return this.getStringAttribute('streams_kms_role');
   }
@@ -727,7 +727,7 @@ export class GroundstationMissionProfile extends cdktn.TerraformResource {
   }
 
   // telemetry_sink_config_arn - computed: true, optional: true, required: false
-  private _telemetrySinkConfigArn?: string;
+  private _telemetrySinkConfigArn?: string; 
   public get telemetrySinkConfigArn() {
     return this.getStringAttribute('telemetry_sink_config_arn');
   }
@@ -743,7 +743,7 @@ export class GroundstationMissionProfile extends cdktn.TerraformResource {
   }
 
   // tracking_config_arn - computed: false, optional: false, required: true
-  private _trackingConfigArn?: string;
+  private _trackingConfigArn?: string; 
   public get trackingConfigArn() {
     return this.getStringAttribute('tracking_config_arn');
   }

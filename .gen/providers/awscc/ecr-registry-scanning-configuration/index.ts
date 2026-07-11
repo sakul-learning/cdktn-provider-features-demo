@@ -122,7 +122,7 @@ export class EcrRegistryScanningConfigurationRulesRepositoryFiltersOutputReferen
   }
 
   // filter - computed: false, optional: false, required: true
-  private _filter?: string;
+  private _filter?: string; 
   public get filter() {
     return this.getStringAttribute('filter');
   }
@@ -135,7 +135,7 @@ export class EcrRegistryScanningConfigurationRulesRepositoryFiltersOutputReferen
   }
 
   // filter_type - computed: false, optional: false, required: true
-  private _filterType?: string;
+  private _filterType?: string; 
   public get filterType() {
     return this.getStringAttribute('filter_type');
   }
@@ -282,7 +282,7 @@ export class EcrRegistryScanningConfigurationRulesOutputReference extends cdktn.
   }
 
   // scan_frequency - computed: false, optional: false, required: true
-  private _scanFrequency?: string;
+  private _scanFrequency?: string; 
   public get scanFrequency() {
     return this.getStringAttribute('scan_frequency');
   }
@@ -397,7 +397,7 @@ export class EcrRegistryScanningConfiguration extends cdktn.TerraformResource {
   }
 
   // scan_type - computed: false, optional: false, required: true
-  private _scanType?: string;
+  private _scanType?: string; 
   public get scanType() {
     return this.getStringAttribute('scan_type');
   }

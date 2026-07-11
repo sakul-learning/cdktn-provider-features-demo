@@ -162,7 +162,7 @@ export class BedrockagentcoreMemoryIndexedKeysOutputReference extends cdktn.Comp
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -178,7 +178,7 @@ export class BedrockagentcoreMemoryIndexedKeysOutputReference extends cdktn.Comp
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -311,7 +311,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfigura
   }
 
   // append_to_prompt - computed: true, optional: true, required: false
-  private _appendToPrompt?: string;
+  private _appendToPrompt?: string; 
   public get appendToPrompt() {
     return this.getStringAttribute('append_to_prompt');
   }
@@ -327,7 +327,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfigura
   }
 
   // model_id - computed: true, optional: true, required: false
-  private _modelId?: string;
+  private _modelId?: string; 
   public get modelId() {
     return this.getStringAttribute('model_id');
   }
@@ -440,7 +440,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfigura
   }
 
   // append_to_prompt - computed: true, optional: true, required: false
-  private _appendToPrompt?: string;
+  private _appendToPrompt?: string; 
   public get appendToPrompt() {
     return this.getStringAttribute('append_to_prompt');
   }
@@ -456,7 +456,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfigura
   }
 
   // model_id - computed: true, optional: true, required: false
-  private _modelId?: string;
+  private _modelId?: string; 
   public get modelId() {
     return this.getStringAttribute('model_id');
   }
@@ -567,7 +567,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfigura
   }
 
   // max_value - computed: true, optional: true, required: false
-  private _maxValue?: number;
+  private _maxValue?: number; 
   public get maxValue() {
     return this.getNumberAttribute('max_value');
   }
@@ -583,7 +583,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfigura
   }
 
   // min_value - computed: true, optional: true, required: false
-  private _minValue?: number;
+  private _minValue?: number; 
   public get minValue() {
     return this.getNumberAttribute('min_value');
   }
@@ -694,7 +694,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfigura
   }
 
   // allowed_values - computed: true, optional: true, required: false
-  private _allowedValues?: string[];
+  private _allowedValues?: string[]; 
   public get allowedValues() {
     return this.getListAttribute('allowed_values');
   }
@@ -710,7 +710,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfigura
   }
 
   // max_items - computed: true, optional: true, required: false
-  private _maxItems?: number;
+  private _maxItems?: number; 
   public get maxItems() {
     return this.getNumberAttribute('max_items');
   }
@@ -804,7 +804,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfigura
   }
 
   // allowed_values - computed: true, optional: true, required: false
-  private _allowedValues?: string[];
+  private _allowedValues?: string[]; 
   public get allowedValues() {
     return this.getListAttribute('allowed_values');
   }
@@ -1096,7 +1096,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfigura
   }
 
   // definition - computed: true, optional: true, required: false
-  private _definition?: string;
+  private _definition?: string; 
   public get definition() {
     return this.getStringAttribute('definition');
   }
@@ -1112,7 +1112,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfigura
   }
 
   // llm_extraction_instruction - computed: true, optional: true, required: false
-  private _llmExtractionInstruction?: string;
+  private _llmExtractionInstruction?: string; 
   public get llmExtractionInstruction() {
     return this.getStringAttribute('llm_extraction_instruction');
   }
@@ -1372,7 +1372,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfigura
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1388,7 +1388,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfigura
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -1672,7 +1672,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfigura
   }
 
   // append_to_prompt - computed: true, optional: true, required: false
-  private _appendToPrompt?: string;
+  private _appendToPrompt?: string; 
   public get appendToPrompt() {
     return this.getStringAttribute('append_to_prompt');
   }
@@ -1704,7 +1704,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfigura
   }
 
   // model_id - computed: true, optional: true, required: false
-  private _modelId?: string;
+  private _modelId?: string; 
   public get modelId() {
     return this.getStringAttribute('model_id');
   }
@@ -1720,7 +1720,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfigura
   }
 
   // namespace_templates - computed: true, optional: true, required: false
-  private _namespaceTemplates?: string[];
+  private _namespaceTemplates?: string[]; 
   public get namespaceTemplates() {
     return this.getListAttribute('namespace_templates');
   }
@@ -1736,7 +1736,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfigura
   }
 
   // namespaces - computed: true, optional: true, required: false
-  private _namespaces?: string[];
+  private _namespaces?: string[]; 
   public get namespaces() {
     return this.getListAttribute('namespaces');
   }
@@ -2009,7 +2009,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfigura
   }
 
   // payload_delivery_bucket_name - computed: true, optional: true, required: false
-  private _payloadDeliveryBucketName?: string;
+  private _payloadDeliveryBucketName?: string; 
   public get payloadDeliveryBucketName() {
     return this.getStringAttribute('payload_delivery_bucket_name');
   }
@@ -2025,7 +2025,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfigura
   }
 
   // topic_arn - computed: true, optional: true, required: false
-  private _topicArn?: string;
+  private _topicArn?: string; 
   public get topicArn() {
     return this.getStringAttribute('topic_arn');
   }
@@ -2119,7 +2119,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfigura
   }
 
   // message_count - computed: true, optional: true, required: false
-  private _messageCount?: number;
+  private _messageCount?: number; 
   public get messageCount() {
     return this.getNumberAttribute('message_count');
   }
@@ -2213,7 +2213,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfigura
   }
 
   // idle_session_timeout - computed: true, optional: true, required: false
-  private _idleSessionTimeout?: number;
+  private _idleSessionTimeout?: number; 
   public get idleSessionTimeout() {
     return this.getNumberAttribute('idle_session_timeout');
   }
@@ -2307,7 +2307,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfigura
   }
 
   // token_count - computed: true, optional: true, required: false
-  private _tokenCount?: number;
+  private _tokenCount?: number; 
   public get tokenCount() {
     return this.getNumberAttribute('token_count');
   }
@@ -2617,7 +2617,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfigura
   }
 
   // historical_context_window_size - computed: true, optional: true, required: false
-  private _historicalContextWindowSize?: number;
+  private _historicalContextWindowSize?: number; 
   public get historicalContextWindowSize() {
     return this.getNumberAttribute('historical_context_window_size');
   }
@@ -2762,7 +2762,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfigura
   }
 
   // append_to_prompt - computed: true, optional: true, required: false
-  private _appendToPrompt?: string;
+  private _appendToPrompt?: string; 
   public get appendToPrompt() {
     return this.getStringAttribute('append_to_prompt');
   }
@@ -2778,7 +2778,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfigura
   }
 
   // model_id - computed: true, optional: true, required: false
-  private _modelId?: string;
+  private _modelId?: string; 
   public get modelId() {
     return this.getStringAttribute('model_id');
   }
@@ -2891,7 +2891,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfigura
   }
 
   // append_to_prompt - computed: true, optional: true, required: false
-  private _appendToPrompt?: string;
+  private _appendToPrompt?: string; 
   public get appendToPrompt() {
     return this.getStringAttribute('append_to_prompt');
   }
@@ -2907,7 +2907,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfigura
   }
 
   // model_id - computed: true, optional: true, required: false
-  private _modelId?: string;
+  private _modelId?: string; 
   public get modelId() {
     return this.getStringAttribute('model_id');
   }
@@ -3147,7 +3147,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfigura
   }
 
   // append_to_prompt - computed: true, optional: true, required: false
-  private _appendToPrompt?: string;
+  private _appendToPrompt?: string; 
   public get appendToPrompt() {
     return this.getStringAttribute('append_to_prompt');
   }
@@ -3163,7 +3163,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfigura
   }
 
   // model_id - computed: true, optional: true, required: false
-  private _modelId?: string;
+  private _modelId?: string; 
   public get modelId() {
     return this.getStringAttribute('model_id');
   }
@@ -3370,7 +3370,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfigura
   }
 
   // append_to_prompt - computed: true, optional: true, required: false
-  private _appendToPrompt?: string;
+  private _appendToPrompt?: string; 
   public get appendToPrompt() {
     return this.getStringAttribute('append_to_prompt');
   }
@@ -3386,7 +3386,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfigura
   }
 
   // model_id - computed: true, optional: true, required: false
-  private _modelId?: string;
+  private _modelId?: string; 
   public get modelId() {
     return this.getStringAttribute('model_id');
   }
@@ -3499,7 +3499,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfigura
   }
 
   // append_to_prompt - computed: true, optional: true, required: false
-  private _appendToPrompt?: string;
+  private _appendToPrompt?: string; 
   public get appendToPrompt() {
     return this.getStringAttribute('append_to_prompt');
   }
@@ -3515,7 +3515,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfigura
   }
 
   // model_id - computed: true, optional: true, required: false
-  private _modelId?: string;
+  private _modelId?: string; 
   public get modelId() {
     return this.getStringAttribute('model_id');
   }
@@ -3979,7 +3979,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyMemoryRec
   }
 
   // max_value - computed: true, optional: true, required: false
-  private _maxValue?: number;
+  private _maxValue?: number; 
   public get maxValue() {
     return this.getNumberAttribute('max_value');
   }
@@ -3995,7 +3995,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyMemoryRec
   }
 
   // min_value - computed: true, optional: true, required: false
-  private _minValue?: number;
+  private _minValue?: number; 
   public get minValue() {
     return this.getNumberAttribute('min_value');
   }
@@ -4106,7 +4106,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyMemoryRec
   }
 
   // allowed_values - computed: true, optional: true, required: false
-  private _allowedValues?: string[];
+  private _allowedValues?: string[]; 
   public get allowedValues() {
     return this.getListAttribute('allowed_values');
   }
@@ -4122,7 +4122,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyMemoryRec
   }
 
   // max_items - computed: true, optional: true, required: false
-  private _maxItems?: number;
+  private _maxItems?: number; 
   public get maxItems() {
     return this.getNumberAttribute('max_items');
   }
@@ -4216,7 +4216,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyMemoryRec
   }
 
   // allowed_values - computed: true, optional: true, required: false
-  private _allowedValues?: string[];
+  private _allowedValues?: string[]; 
   public get allowedValues() {
     return this.getListAttribute('allowed_values');
   }
@@ -4508,7 +4508,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyMemoryRec
   }
 
   // definition - computed: true, optional: true, required: false
-  private _definition?: string;
+  private _definition?: string; 
   public get definition() {
     return this.getStringAttribute('definition');
   }
@@ -4524,7 +4524,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyMemoryRec
   }
 
   // llm_extraction_instruction - computed: true, optional: true, required: false
-  private _llmExtractionInstruction?: string;
+  private _llmExtractionInstruction?: string; 
   public get llmExtractionInstruction() {
     return this.getStringAttribute('llm_extraction_instruction');
   }
@@ -4784,7 +4784,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyMemoryRec
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -4800,7 +4800,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyMemoryRec
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -5214,7 +5214,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyOutputRef
   }
 
   // created_at - computed: true, optional: true, required: false
-  private _createdAt?: string;
+  private _createdAt?: string; 
   public get createdAt() {
     return this.getStringAttribute('created_at');
   }
@@ -5230,7 +5230,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyOutputRef
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -5262,7 +5262,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyOutputRef
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -5278,7 +5278,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyOutputRef
   }
 
   // namespace_templates - computed: true, optional: true, required: false
-  private _namespaceTemplates?: string[];
+  private _namespaceTemplates?: string[]; 
   public get namespaceTemplates() {
     return this.getListAttribute('namespace_templates');
   }
@@ -5294,7 +5294,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyOutputRef
   }
 
   // namespaces - computed: true, optional: true, required: false
-  private _namespaces?: string[];
+  private _namespaces?: string[]; 
   public get namespaces() {
     return this.getListAttribute('namespaces');
   }
@@ -5310,7 +5310,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyOutputRef
   }
 
   // status - computed: true, optional: true, required: false
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -5326,7 +5326,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyOutputRef
   }
 
   // strategy_id - computed: true, optional: true, required: false
-  private _strategyId?: string;
+  private _strategyId?: string; 
   public get strategyId() {
     return this.getStringAttribute('strategy_id');
   }
@@ -5342,7 +5342,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyOutputRef
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -5358,7 +5358,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyOutputRef
   }
 
   // updated_at - computed: true, optional: true, required: false
-  private _updatedAt?: string;
+  private _updatedAt?: string; 
   public get updatedAt() {
     return this.getStringAttribute('updated_at');
   }
@@ -5469,7 +5469,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesEpisodicMemoryStrategyMemoryR
   }
 
   // max_value - computed: true, optional: true, required: false
-  private _maxValue?: number;
+  private _maxValue?: number; 
   public get maxValue() {
     return this.getNumberAttribute('max_value');
   }
@@ -5485,7 +5485,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesEpisodicMemoryStrategyMemoryR
   }
 
   // min_value - computed: true, optional: true, required: false
-  private _minValue?: number;
+  private _minValue?: number; 
   public get minValue() {
     return this.getNumberAttribute('min_value');
   }
@@ -5596,7 +5596,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesEpisodicMemoryStrategyMemoryR
   }
 
   // allowed_values - computed: true, optional: true, required: false
-  private _allowedValues?: string[];
+  private _allowedValues?: string[]; 
   public get allowedValues() {
     return this.getListAttribute('allowed_values');
   }
@@ -5612,7 +5612,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesEpisodicMemoryStrategyMemoryR
   }
 
   // max_items - computed: true, optional: true, required: false
-  private _maxItems?: number;
+  private _maxItems?: number; 
   public get maxItems() {
     return this.getNumberAttribute('max_items');
   }
@@ -5706,7 +5706,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesEpisodicMemoryStrategyMemoryR
   }
 
   // allowed_values - computed: true, optional: true, required: false
-  private _allowedValues?: string[];
+  private _allowedValues?: string[]; 
   public get allowedValues() {
     return this.getListAttribute('allowed_values');
   }
@@ -5998,7 +5998,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesEpisodicMemoryStrategyMemoryR
   }
 
   // definition - computed: true, optional: true, required: false
-  private _definition?: string;
+  private _definition?: string; 
   public get definition() {
     return this.getStringAttribute('definition');
   }
@@ -6014,7 +6014,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesEpisodicMemoryStrategyMemoryR
   }
 
   // llm_extraction_instruction - computed: true, optional: true, required: false
-  private _llmExtractionInstruction?: string;
+  private _llmExtractionInstruction?: string; 
   public get llmExtractionInstruction() {
     return this.getStringAttribute('llm_extraction_instruction');
   }
@@ -6274,7 +6274,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesEpisodicMemoryStrategyMemoryR
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -6290,7 +6290,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesEpisodicMemoryStrategyMemoryR
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -6517,7 +6517,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesEpisodicMemoryStrategyReflect
   }
 
   // max_value - computed: true, optional: true, required: false
-  private _maxValue?: number;
+  private _maxValue?: number; 
   public get maxValue() {
     return this.getNumberAttribute('max_value');
   }
@@ -6533,7 +6533,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesEpisodicMemoryStrategyReflect
   }
 
   // min_value - computed: true, optional: true, required: false
-  private _minValue?: number;
+  private _minValue?: number; 
   public get minValue() {
     return this.getNumberAttribute('min_value');
   }
@@ -6644,7 +6644,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesEpisodicMemoryStrategyReflect
   }
 
   // allowed_values - computed: true, optional: true, required: false
-  private _allowedValues?: string[];
+  private _allowedValues?: string[]; 
   public get allowedValues() {
     return this.getListAttribute('allowed_values');
   }
@@ -6660,7 +6660,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesEpisodicMemoryStrategyReflect
   }
 
   // max_items - computed: true, optional: true, required: false
-  private _maxItems?: number;
+  private _maxItems?: number; 
   public get maxItems() {
     return this.getNumberAttribute('max_items');
   }
@@ -6754,7 +6754,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesEpisodicMemoryStrategyReflect
   }
 
   // allowed_values - computed: true, optional: true, required: false
-  private _allowedValues?: string[];
+  private _allowedValues?: string[]; 
   public get allowedValues() {
     return this.getListAttribute('allowed_values');
   }
@@ -7046,7 +7046,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesEpisodicMemoryStrategyReflect
   }
 
   // definition - computed: true, optional: true, required: false
-  private _definition?: string;
+  private _definition?: string; 
   public get definition() {
     return this.getStringAttribute('definition');
   }
@@ -7062,7 +7062,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesEpisodicMemoryStrategyReflect
   }
 
   // llm_extraction_instruction - computed: true, optional: true, required: false
-  private _llmExtractionInstruction?: string;
+  private _llmExtractionInstruction?: string; 
   public get llmExtractionInstruction() {
     return this.getStringAttribute('llm_extraction_instruction');
   }
@@ -7322,7 +7322,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesEpisodicMemoryStrategyReflect
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -7338,7 +7338,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesEpisodicMemoryStrategyReflect
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -7602,7 +7602,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesEpisodicMemoryStrategyReflect
   }
 
   // namespace_templates - computed: true, optional: true, required: false
-  private _namespaceTemplates?: string[];
+  private _namespaceTemplates?: string[]; 
   public get namespaceTemplates() {
     return this.getListAttribute('namespace_templates');
   }
@@ -7618,7 +7618,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesEpisodicMemoryStrategyReflect
   }
 
   // namespaces - computed: true, optional: true, required: false
-  private _namespaces?: string[];
+  private _namespaces?: string[]; 
   public get namespaces() {
     return this.getListAttribute('namespaces');
   }
@@ -7900,7 +7900,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesEpisodicMemoryStrategyOutputR
   }
 
   // created_at - computed: true, optional: true, required: false
-  private _createdAt?: string;
+  private _createdAt?: string; 
   public get createdAt() {
     return this.getStringAttribute('created_at');
   }
@@ -7916,7 +7916,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesEpisodicMemoryStrategyOutputR
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -7948,7 +7948,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesEpisodicMemoryStrategyOutputR
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -7964,7 +7964,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesEpisodicMemoryStrategyOutputR
   }
 
   // namespace_templates - computed: true, optional: true, required: false
-  private _namespaceTemplates?: string[];
+  private _namespaceTemplates?: string[]; 
   public get namespaceTemplates() {
     return this.getListAttribute('namespace_templates');
   }
@@ -7980,7 +7980,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesEpisodicMemoryStrategyOutputR
   }
 
   // namespaces - computed: true, optional: true, required: false
-  private _namespaces?: string[];
+  private _namespaces?: string[]; 
   public get namespaces() {
     return this.getListAttribute('namespaces');
   }
@@ -8012,7 +8012,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesEpisodicMemoryStrategyOutputR
   }
 
   // status - computed: true, optional: true, required: false
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -8028,7 +8028,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesEpisodicMemoryStrategyOutputR
   }
 
   // strategy_id - computed: true, optional: true, required: false
-  private _strategyId?: string;
+  private _strategyId?: string; 
   public get strategyId() {
     return this.getStringAttribute('strategy_id');
   }
@@ -8044,7 +8044,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesEpisodicMemoryStrategyOutputR
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -8060,7 +8060,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesEpisodicMemoryStrategyOutputR
   }
 
   // updated_at - computed: true, optional: true, required: false
-  private _updatedAt?: string;
+  private _updatedAt?: string; 
   public get updatedAt() {
     return this.getStringAttribute('updated_at');
   }
@@ -8171,7 +8171,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesSemanticMemoryStrategyMemoryR
   }
 
   // max_value - computed: true, optional: true, required: false
-  private _maxValue?: number;
+  private _maxValue?: number; 
   public get maxValue() {
     return this.getNumberAttribute('max_value');
   }
@@ -8187,7 +8187,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesSemanticMemoryStrategyMemoryR
   }
 
   // min_value - computed: true, optional: true, required: false
-  private _minValue?: number;
+  private _minValue?: number; 
   public get minValue() {
     return this.getNumberAttribute('min_value');
   }
@@ -8298,7 +8298,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesSemanticMemoryStrategyMemoryR
   }
 
   // allowed_values - computed: true, optional: true, required: false
-  private _allowedValues?: string[];
+  private _allowedValues?: string[]; 
   public get allowedValues() {
     return this.getListAttribute('allowed_values');
   }
@@ -8314,7 +8314,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesSemanticMemoryStrategyMemoryR
   }
 
   // max_items - computed: true, optional: true, required: false
-  private _maxItems?: number;
+  private _maxItems?: number; 
   public get maxItems() {
     return this.getNumberAttribute('max_items');
   }
@@ -8408,7 +8408,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesSemanticMemoryStrategyMemoryR
   }
 
   // allowed_values - computed: true, optional: true, required: false
-  private _allowedValues?: string[];
+  private _allowedValues?: string[]; 
   public get allowedValues() {
     return this.getListAttribute('allowed_values');
   }
@@ -8700,7 +8700,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesSemanticMemoryStrategyMemoryR
   }
 
   // definition - computed: true, optional: true, required: false
-  private _definition?: string;
+  private _definition?: string; 
   public get definition() {
     return this.getStringAttribute('definition');
   }
@@ -8716,7 +8716,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesSemanticMemoryStrategyMemoryR
   }
 
   // llm_extraction_instruction - computed: true, optional: true, required: false
-  private _llmExtractionInstruction?: string;
+  private _llmExtractionInstruction?: string; 
   public get llmExtractionInstruction() {
     return this.getStringAttribute('llm_extraction_instruction');
   }
@@ -8976,7 +8976,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesSemanticMemoryStrategyMemoryR
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -8992,7 +8992,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesSemanticMemoryStrategyMemoryR
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -9373,7 +9373,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesSemanticMemoryStrategyOutputR
   }
 
   // created_at - computed: true, optional: true, required: false
-  private _createdAt?: string;
+  private _createdAt?: string; 
   public get createdAt() {
     return this.getStringAttribute('created_at');
   }
@@ -9389,7 +9389,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesSemanticMemoryStrategyOutputR
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -9421,7 +9421,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesSemanticMemoryStrategyOutputR
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -9437,7 +9437,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesSemanticMemoryStrategyOutputR
   }
 
   // namespace_templates - computed: true, optional: true, required: false
-  private _namespaceTemplates?: string[];
+  private _namespaceTemplates?: string[]; 
   public get namespaceTemplates() {
     return this.getListAttribute('namespace_templates');
   }
@@ -9453,7 +9453,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesSemanticMemoryStrategyOutputR
   }
 
   // namespaces - computed: true, optional: true, required: false
-  private _namespaces?: string[];
+  private _namespaces?: string[]; 
   public get namespaces() {
     return this.getListAttribute('namespaces');
   }
@@ -9469,7 +9469,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesSemanticMemoryStrategyOutputR
   }
 
   // status - computed: true, optional: true, required: false
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -9485,7 +9485,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesSemanticMemoryStrategyOutputR
   }
 
   // strategy_id - computed: true, optional: true, required: false
-  private _strategyId?: string;
+  private _strategyId?: string; 
   public get strategyId() {
     return this.getStringAttribute('strategy_id');
   }
@@ -9501,7 +9501,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesSemanticMemoryStrategyOutputR
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -9517,7 +9517,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesSemanticMemoryStrategyOutputR
   }
 
   // updated_at - computed: true, optional: true, required: false
-  private _updatedAt?: string;
+  private _updatedAt?: string; 
   public get updatedAt() {
     return this.getStringAttribute('updated_at');
   }
@@ -9628,7 +9628,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesSummaryMemoryStrategyMemoryRe
   }
 
   // max_value - computed: true, optional: true, required: false
-  private _maxValue?: number;
+  private _maxValue?: number; 
   public get maxValue() {
     return this.getNumberAttribute('max_value');
   }
@@ -9644,7 +9644,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesSummaryMemoryStrategyMemoryRe
   }
 
   // min_value - computed: true, optional: true, required: false
-  private _minValue?: number;
+  private _minValue?: number; 
   public get minValue() {
     return this.getNumberAttribute('min_value');
   }
@@ -9755,7 +9755,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesSummaryMemoryStrategyMemoryRe
   }
 
   // allowed_values - computed: true, optional: true, required: false
-  private _allowedValues?: string[];
+  private _allowedValues?: string[]; 
   public get allowedValues() {
     return this.getListAttribute('allowed_values');
   }
@@ -9771,7 +9771,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesSummaryMemoryStrategyMemoryRe
   }
 
   // max_items - computed: true, optional: true, required: false
-  private _maxItems?: number;
+  private _maxItems?: number; 
   public get maxItems() {
     return this.getNumberAttribute('max_items');
   }
@@ -9865,7 +9865,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesSummaryMemoryStrategyMemoryRe
   }
 
   // allowed_values - computed: true, optional: true, required: false
-  private _allowedValues?: string[];
+  private _allowedValues?: string[]; 
   public get allowedValues() {
     return this.getListAttribute('allowed_values');
   }
@@ -10157,7 +10157,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesSummaryMemoryStrategyMemoryRe
   }
 
   // definition - computed: true, optional: true, required: false
-  private _definition?: string;
+  private _definition?: string; 
   public get definition() {
     return this.getStringAttribute('definition');
   }
@@ -10173,7 +10173,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesSummaryMemoryStrategyMemoryRe
   }
 
   // llm_extraction_instruction - computed: true, optional: true, required: false
-  private _llmExtractionInstruction?: string;
+  private _llmExtractionInstruction?: string; 
   public get llmExtractionInstruction() {
     return this.getStringAttribute('llm_extraction_instruction');
   }
@@ -10433,7 +10433,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesSummaryMemoryStrategyMemoryRe
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -10449,7 +10449,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesSummaryMemoryStrategyMemoryRe
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -10830,7 +10830,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesSummaryMemoryStrategyOutputRe
   }
 
   // created_at - computed: true, optional: true, required: false
-  private _createdAt?: string;
+  private _createdAt?: string; 
   public get createdAt() {
     return this.getStringAttribute('created_at');
   }
@@ -10846,7 +10846,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesSummaryMemoryStrategyOutputRe
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -10878,7 +10878,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesSummaryMemoryStrategyOutputRe
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -10894,7 +10894,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesSummaryMemoryStrategyOutputRe
   }
 
   // namespace_templates - computed: true, optional: true, required: false
-  private _namespaceTemplates?: string[];
+  private _namespaceTemplates?: string[]; 
   public get namespaceTemplates() {
     return this.getListAttribute('namespace_templates');
   }
@@ -10910,7 +10910,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesSummaryMemoryStrategyOutputRe
   }
 
   // namespaces - computed: true, optional: true, required: false
-  private _namespaces?: string[];
+  private _namespaces?: string[]; 
   public get namespaces() {
     return this.getListAttribute('namespaces');
   }
@@ -10926,7 +10926,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesSummaryMemoryStrategyOutputRe
   }
 
   // status - computed: true, optional: true, required: false
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -10942,7 +10942,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesSummaryMemoryStrategyOutputRe
   }
 
   // strategy_id - computed: true, optional: true, required: false
-  private _strategyId?: string;
+  private _strategyId?: string; 
   public get strategyId() {
     return this.getStringAttribute('strategy_id');
   }
@@ -10958,7 +10958,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesSummaryMemoryStrategyOutputRe
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -10974,7 +10974,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesSummaryMemoryStrategyOutputRe
   }
 
   // updated_at - computed: true, optional: true, required: false
-  private _updatedAt?: string;
+  private _updatedAt?: string; 
   public get updatedAt() {
     return this.getStringAttribute('updated_at');
   }
@@ -11085,7 +11085,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStrategyM
   }
 
   // max_value - computed: true, optional: true, required: false
-  private _maxValue?: number;
+  private _maxValue?: number; 
   public get maxValue() {
     return this.getNumberAttribute('max_value');
   }
@@ -11101,7 +11101,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStrategyM
   }
 
   // min_value - computed: true, optional: true, required: false
-  private _minValue?: number;
+  private _minValue?: number; 
   public get minValue() {
     return this.getNumberAttribute('min_value');
   }
@@ -11212,7 +11212,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStrategyM
   }
 
   // allowed_values - computed: true, optional: true, required: false
-  private _allowedValues?: string[];
+  private _allowedValues?: string[]; 
   public get allowedValues() {
     return this.getListAttribute('allowed_values');
   }
@@ -11228,7 +11228,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStrategyM
   }
 
   // max_items - computed: true, optional: true, required: false
-  private _maxItems?: number;
+  private _maxItems?: number; 
   public get maxItems() {
     return this.getNumberAttribute('max_items');
   }
@@ -11322,7 +11322,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStrategyM
   }
 
   // allowed_values - computed: true, optional: true, required: false
-  private _allowedValues?: string[];
+  private _allowedValues?: string[]; 
   public get allowedValues() {
     return this.getListAttribute('allowed_values');
   }
@@ -11614,7 +11614,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStrategyM
   }
 
   // definition - computed: true, optional: true, required: false
-  private _definition?: string;
+  private _definition?: string; 
   public get definition() {
     return this.getStringAttribute('definition');
   }
@@ -11630,7 +11630,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStrategyM
   }
 
   // llm_extraction_instruction - computed: true, optional: true, required: false
-  private _llmExtractionInstruction?: string;
+  private _llmExtractionInstruction?: string; 
   public get llmExtractionInstruction() {
     return this.getStringAttribute('llm_extraction_instruction');
   }
@@ -11890,7 +11890,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStrategyM
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -11906,7 +11906,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStrategyM
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -12287,7 +12287,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStrategyO
   }
 
   // created_at - computed: true, optional: true, required: false
-  private _createdAt?: string;
+  private _createdAt?: string; 
   public get createdAt() {
     return this.getStringAttribute('created_at');
   }
@@ -12303,7 +12303,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStrategyO
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -12335,7 +12335,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStrategyO
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -12351,7 +12351,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStrategyO
   }
 
   // namespace_templates - computed: true, optional: true, required: false
-  private _namespaceTemplates?: string[];
+  private _namespaceTemplates?: string[]; 
   public get namespaceTemplates() {
     return this.getListAttribute('namespace_templates');
   }
@@ -12367,7 +12367,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStrategyO
   }
 
   // namespaces - computed: true, optional: true, required: false
-  private _namespaces?: string[];
+  private _namespaces?: string[]; 
   public get namespaces() {
     return this.getListAttribute('namespaces');
   }
@@ -12383,7 +12383,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStrategyO
   }
 
   // status - computed: true, optional: true, required: false
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -12399,7 +12399,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStrategyO
   }
 
   // strategy_id - computed: true, optional: true, required: false
-  private _strategyId?: string;
+  private _strategyId?: string; 
   public get strategyId() {
     return this.getStringAttribute('strategy_id');
   }
@@ -12415,7 +12415,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStrategyO
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -12431,7 +12431,7 @@ export class BedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStrategyO
   }
 
   // updated_at - computed: true, optional: true, required: false
-  private _updatedAt?: string;
+  private _updatedAt?: string; 
   public get updatedAt() {
     return this.getStringAttribute('updated_at');
   }
@@ -12796,7 +12796,7 @@ export class BedrockagentcoreMemoryStreamDeliveryResourcesResourcesKinesisConten
   }
 
   // level - computed: true, optional: true, required: false
-  private _level?: string;
+  private _level?: string; 
   public get level() {
     return this.getStringAttribute('level');
   }
@@ -12812,7 +12812,7 @@ export class BedrockagentcoreMemoryStreamDeliveryResourcesResourcesKinesisConten
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -12961,7 +12961,7 @@ export class BedrockagentcoreMemoryStreamDeliveryResourcesResourcesKinesisOutput
   }
 
   // data_stream_arn - computed: true, optional: true, required: false
-  private _dataStreamArn?: string;
+  private _dataStreamArn?: string; 
   public get dataStreamArn() {
     return this.getStringAttribute('data_stream_arn');
   }
@@ -13258,7 +13258,7 @@ export class BedrockagentcoreMemory extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -13274,7 +13274,7 @@ export class BedrockagentcoreMemory extends cdktn.TerraformResource {
   }
 
   // encryption_key_arn - computed: true, optional: true, required: false
-  private _encryptionKeyArn?: string;
+  private _encryptionKeyArn?: string; 
   public get encryptionKeyArn() {
     return this.getStringAttribute('encryption_key_arn');
   }
@@ -13290,7 +13290,7 @@ export class BedrockagentcoreMemory extends cdktn.TerraformResource {
   }
 
   // event_expiry_duration - computed: false, optional: false, required: true
-  private _eventExpiryDuration?: number;
+  private _eventExpiryDuration?: number; 
   public get eventExpiryDuration() {
     return this.getNumberAttribute('event_expiry_duration');
   }
@@ -13334,7 +13334,7 @@ export class BedrockagentcoreMemory extends cdktn.TerraformResource {
   }
 
   // memory_execution_role_arn - computed: true, optional: true, required: false
-  private _memoryExecutionRoleArn?: string;
+  private _memoryExecutionRoleArn?: string; 
   public get memoryExecutionRoleArn() {
     return this.getStringAttribute('memory_execution_role_arn');
   }
@@ -13371,7 +13371,7 @@ export class BedrockagentcoreMemory extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -13405,7 +13405,7 @@ export class BedrockagentcoreMemory extends cdktn.TerraformResource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

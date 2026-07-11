@@ -106,7 +106,7 @@ export class QuicksightGroup extends cdktn.TerraformResource {
   }
 
   // aws_account_id - computed: true, optional: true, required: false
-  private _awsAccountId?: string;
+  private _awsAccountId?: string; 
   public get awsAccountId() {
     return this.getStringAttribute('aws_account_id');
   }
@@ -122,7 +122,7 @@ export class QuicksightGroup extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -138,7 +138,7 @@ export class QuicksightGroup extends cdktn.TerraformResource {
   }
 
   // group_name - computed: false, optional: false, required: true
-  private _groupName?: string;
+  private _groupName?: string; 
   public get groupName() {
     return this.getStringAttribute('group_name');
   }
@@ -151,7 +151,7 @@ export class QuicksightGroup extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -167,7 +167,7 @@ export class QuicksightGroup extends cdktn.TerraformResource {
   }
 
   // namespace - computed: false, optional: true, required: false
-  private _namespace?: string;
+  private _namespace?: string; 
   public get namespace() {
     return this.getStringAttribute('namespace');
   }
@@ -183,7 +183,7 @@ export class QuicksightGroup extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

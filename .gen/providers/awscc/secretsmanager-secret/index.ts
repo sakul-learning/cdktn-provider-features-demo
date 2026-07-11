@@ -51,9 +51,9 @@ export interface SecretsmanagerSecretConfig extends cdktn.TerraformMetaArguments
   readonly secretString?: string;
   /**
   * A list of tags to attach to the secret. Each tag is a key and value pair of strings in a JSON text string, for example:
-  *   ``[{"Key":"CostCenter","Value":"12345"},{"Key":"environment","Value":"production"}]``
+  *   ``[{"Key":"CostCenter","Value":"12345"},{"Key":"environment","Value":"production"}]`` 
   *  Secrets Manager tag key names are case sensitive. A tag with the key "ABC" is a different tag from one with key "abc".
-  *  Stack-level tags, tags you apply to the CloudFormation stack, are also attached to the secret.
+  *  Stack-level tags, tags you apply to the CloudFormation stack, are also attached to the secret. 
   *  If you check tags in permissions policies as part of your security strategy, then adding or removing a tag can change permissions. If the completion of this operation would result in you losing your permissions for this secret, then Secrets Manager blocks the operation and returns an ``Access Denied`` error. For more information, see [Control access to secrets using tags](https://docs.aws.amazon.com/secretsmanager/latest/userguide/auth-and-access_examples.html#tag-secrets-abac) and [Limit access to identities with tags that match secrets' tags](https://docs.aws.amazon.com/secretsmanager/latest/userguide/auth-and-access_examples.html#auth-and-access_tags2).
   *  For information about how to format a JSON parameter for the various command line tool environments, see [Using JSON for Parameters](https://docs.aws.amazon.com/cli/latest/userguide/cli-using-param.html#cli-using-param-json). If your command-line tool or SDK requires quotation marks around the parameter, you should use single quotes to avoid confusion with the double quotes required in the JSON text.
   *  The following restrictions apply to tags:
@@ -326,7 +326,7 @@ export class SecretsmanagerSecretGenerateSecretStringOutputReference extends cdk
   }
 
   // exclude_characters - computed: true, optional: true, required: false
-  private _excludeCharacters?: string;
+  private _excludeCharacters?: string; 
   public get excludeCharacters() {
     return this.getStringAttribute('exclude_characters');
   }
@@ -342,7 +342,7 @@ export class SecretsmanagerSecretGenerateSecretStringOutputReference extends cdk
   }
 
   // exclude_lowercase - computed: true, optional: true, required: false
-  private _excludeLowercase?: boolean | cdktn.IResolvable;
+  private _excludeLowercase?: boolean | cdktn.IResolvable; 
   public get excludeLowercase() {
     return this.getBooleanAttribute('exclude_lowercase');
   }
@@ -358,7 +358,7 @@ export class SecretsmanagerSecretGenerateSecretStringOutputReference extends cdk
   }
 
   // exclude_numbers - computed: true, optional: true, required: false
-  private _excludeNumbers?: boolean | cdktn.IResolvable;
+  private _excludeNumbers?: boolean | cdktn.IResolvable; 
   public get excludeNumbers() {
     return this.getBooleanAttribute('exclude_numbers');
   }
@@ -374,7 +374,7 @@ export class SecretsmanagerSecretGenerateSecretStringOutputReference extends cdk
   }
 
   // exclude_punctuation - computed: true, optional: true, required: false
-  private _excludePunctuation?: boolean | cdktn.IResolvable;
+  private _excludePunctuation?: boolean | cdktn.IResolvable; 
   public get excludePunctuation() {
     return this.getBooleanAttribute('exclude_punctuation');
   }
@@ -390,7 +390,7 @@ export class SecretsmanagerSecretGenerateSecretStringOutputReference extends cdk
   }
 
   // exclude_uppercase - computed: true, optional: true, required: false
-  private _excludeUppercase?: boolean | cdktn.IResolvable;
+  private _excludeUppercase?: boolean | cdktn.IResolvable; 
   public get excludeUppercase() {
     return this.getBooleanAttribute('exclude_uppercase');
   }
@@ -406,7 +406,7 @@ export class SecretsmanagerSecretGenerateSecretStringOutputReference extends cdk
   }
 
   // generate_string_key - computed: true, optional: true, required: false
-  private _generateStringKey?: string;
+  private _generateStringKey?: string; 
   public get generateStringKey() {
     return this.getStringAttribute('generate_string_key');
   }
@@ -422,7 +422,7 @@ export class SecretsmanagerSecretGenerateSecretStringOutputReference extends cdk
   }
 
   // include_space - computed: true, optional: true, required: false
-  private _includeSpace?: boolean | cdktn.IResolvable;
+  private _includeSpace?: boolean | cdktn.IResolvable; 
   public get includeSpace() {
     return this.getBooleanAttribute('include_space');
   }
@@ -438,7 +438,7 @@ export class SecretsmanagerSecretGenerateSecretStringOutputReference extends cdk
   }
 
   // password_length - computed: true, optional: true, required: false
-  private _passwordLength?: number;
+  private _passwordLength?: number; 
   public get passwordLength() {
     return this.getNumberAttribute('password_length');
   }
@@ -454,7 +454,7 @@ export class SecretsmanagerSecretGenerateSecretStringOutputReference extends cdk
   }
 
   // require_each_included_type - computed: true, optional: true, required: false
-  private _requireEachIncludedType?: boolean | cdktn.IResolvable;
+  private _requireEachIncludedType?: boolean | cdktn.IResolvable; 
   public get requireEachIncludedType() {
     return this.getBooleanAttribute('require_each_included_type');
   }
@@ -470,7 +470,7 @@ export class SecretsmanagerSecretGenerateSecretStringOutputReference extends cdk
   }
 
   // secret_string_template - computed: true, optional: true, required: false
-  private _secretStringTemplate?: string;
+  private _secretStringTemplate?: string; 
   public get secretStringTemplate() {
     return this.getStringAttribute('secret_string_template');
   }
@@ -587,7 +587,7 @@ export class SecretsmanagerSecretReplicaRegionsOutputReference extends cdktn.Com
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -603,7 +603,7 @@ export class SecretsmanagerSecretReplicaRegionsOutputReference extends cdktn.Com
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -740,7 +740,7 @@ export class SecretsmanagerSecretTagsOutputReference extends cdktn.ComplexObject
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -756,7 +756,7 @@ export class SecretsmanagerSecretTagsOutputReference extends cdktn.ComplexObject
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -857,7 +857,7 @@ export class SecretsmanagerSecret extends cdktn.TerraformResource {
   // ==========
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -894,7 +894,7 @@ export class SecretsmanagerSecret extends cdktn.TerraformResource {
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -910,7 +910,7 @@ export class SecretsmanagerSecret extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -947,7 +947,7 @@ export class SecretsmanagerSecret extends cdktn.TerraformResource {
   }
 
   // secret_string - computed: true, optional: true, required: false
-  private _secretString?: string;
+  private _secretString?: string; 
   public get secretString() {
     return this.getStringAttribute('secret_string');
   }
@@ -979,7 +979,7 @@ export class SecretsmanagerSecret extends cdktn.TerraformResource {
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }

@@ -128,7 +128,7 @@ export class SecurityagentTargetDomainTagsOutputReference extends cdktn.ComplexO
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -144,7 +144,7 @@ export class SecurityagentTargetDomainTagsOutputReference extends cdktn.ComplexO
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -460,7 +460,7 @@ export class SecurityagentTargetDomain extends cdktn.TerraformResource {
   }
 
   // target_domain_name - computed: false, optional: false, required: true
-  private _targetDomainName?: string;
+  private _targetDomainName?: string; 
   public get targetDomainName() {
     return this.getStringAttribute('target_domain_name');
   }
@@ -479,7 +479,7 @@ export class SecurityagentTargetDomain extends cdktn.TerraformResource {
   }
 
   // verification_method - computed: false, optional: false, required: true
-  private _verificationMethod?: string;
+  private _verificationMethod?: string; 
   public get verificationMethod() {
     return this.getStringAttribute('verification_method');
   }

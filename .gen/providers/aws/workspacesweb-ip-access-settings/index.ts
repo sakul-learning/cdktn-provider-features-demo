@@ -138,7 +138,7 @@ export class WorkspaceswebIpAccessSettingsIpRuleOutputReference extends cdktn.Co
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -154,7 +154,7 @@ export class WorkspaceswebIpAccessSettingsIpRuleOutputReference extends cdktn.Co
   }
 
   // ip_range - computed: false, optional: false, required: true
-  private _ipRange?: string;
+  private _ipRange?: string; 
   public get ipRange() {
     return this.getStringAttribute('ip_range');
   }
@@ -251,7 +251,7 @@ export class WorkspaceswebIpAccessSettings extends cdktn.TerraformResource {
   // ==========
 
   // additional_encryption_context - computed: false, optional: true, required: false
-  private _additionalEncryptionContext?: { [key: string]: string };
+  private _additionalEncryptionContext?: { [key: string]: string }; 
   public get additionalEncryptionContext() {
     return this.getStringMapAttribute('additional_encryption_context');
   }
@@ -272,7 +272,7 @@ export class WorkspaceswebIpAccessSettings extends cdktn.TerraformResource {
   }
 
   // customer_managed_key - computed: false, optional: true, required: false
-  private _customerManagedKey?: string;
+  private _customerManagedKey?: string; 
   public get customerManagedKey() {
     return this.getStringAttribute('customer_managed_key');
   }
@@ -288,7 +288,7 @@ export class WorkspaceswebIpAccessSettings extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -304,7 +304,7 @@ export class WorkspaceswebIpAccessSettings extends cdktn.TerraformResource {
   }
 
   // display_name - computed: false, optional: false, required: true
-  private _displayName?: string;
+  private _displayName?: string; 
   public get displayName() {
     return this.getStringAttribute('display_name');
   }
@@ -322,7 +322,7 @@ export class WorkspaceswebIpAccessSettings extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -338,7 +338,7 @@ export class WorkspaceswebIpAccessSettings extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

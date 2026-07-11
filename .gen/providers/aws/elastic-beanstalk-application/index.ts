@@ -163,7 +163,7 @@ export class ElasticBeanstalkApplicationAppversionLifecycleOutputReference exten
   }
 
   // delete_source_from_s3 - computed: false, optional: true, required: false
-  private _deleteSourceFromS3?: boolean | cdktn.IResolvable;
+  private _deleteSourceFromS3?: boolean | cdktn.IResolvable; 
   public get deleteSourceFromS3() {
     return this.getBooleanAttribute('delete_source_from_s3');
   }
@@ -179,7 +179,7 @@ export class ElasticBeanstalkApplicationAppversionLifecycleOutputReference exten
   }
 
   // max_age_in_days - computed: false, optional: true, required: false
-  private _maxAgeInDays?: number;
+  private _maxAgeInDays?: number; 
   public get maxAgeInDays() {
     return this.getNumberAttribute('max_age_in_days');
   }
@@ -195,7 +195,7 @@ export class ElasticBeanstalkApplicationAppversionLifecycleOutputReference exten
   }
 
   // max_count - computed: false, optional: true, required: false
-  private _maxCount?: number;
+  private _maxCount?: number; 
   public get maxCount() {
     return this.getNumberAttribute('max_count');
   }
@@ -211,7 +211,7 @@ export class ElasticBeanstalkApplicationAppversionLifecycleOutputReference exten
   }
 
   // service_role - computed: false, optional: false, required: true
-  private _serviceRole?: string;
+  private _serviceRole?: string; 
   public get serviceRole() {
     return this.getStringAttribute('service_role');
   }
@@ -293,7 +293,7 @@ export class ElasticBeanstalkApplication extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -309,7 +309,7 @@ export class ElasticBeanstalkApplication extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -325,7 +325,7 @@ export class ElasticBeanstalkApplication extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -338,7 +338,7 @@ export class ElasticBeanstalkApplication extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -354,7 +354,7 @@ export class ElasticBeanstalkApplication extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -370,7 +370,7 @@ export class ElasticBeanstalkApplication extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

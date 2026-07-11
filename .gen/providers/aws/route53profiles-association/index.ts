@@ -155,7 +155,7 @@ export class Route53ProfilesAssociationTimeoutsOutputReference extends cdktn.Com
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -171,7 +171,7 @@ export class Route53ProfilesAssociationTimeoutsOutputReference extends cdktn.Com
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -187,7 +187,7 @@ export class Route53ProfilesAssociationTimeoutsOutputReference extends cdktn.Com
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -276,7 +276,7 @@ export class Route53ProfilesAssociation extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -294,7 +294,7 @@ export class Route53ProfilesAssociation extends cdktn.TerraformResource {
   }
 
   // profile_id - computed: false, optional: false, required: true
-  private _profileId?: string;
+  private _profileId?: string; 
   public get profileId() {
     return this.getStringAttribute('profile_id');
   }
@@ -307,7 +307,7 @@ export class Route53ProfilesAssociation extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -323,7 +323,7 @@ export class Route53ProfilesAssociation extends cdktn.TerraformResource {
   }
 
   // resource_id - computed: false, optional: false, required: true
-  private _resourceId?: string;
+  private _resourceId?: string; 
   public get resourceId() {
     return this.getStringAttribute('resource_id');
   }
@@ -346,7 +346,7 @@ export class Route53ProfilesAssociation extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

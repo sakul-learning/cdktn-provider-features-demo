@@ -87,7 +87,7 @@ export class M2Deployment extends cdktn.TerraformResource {
   // ==========
 
   // application_id - computed: false, optional: false, required: true
-  private _applicationId?: string;
+  private _applicationId?: string; 
   public get applicationId() {
     return this.getStringAttribute('application_id');
   }
@@ -100,7 +100,7 @@ export class M2Deployment extends cdktn.TerraformResource {
   }
 
   // application_version - computed: false, optional: false, required: true
-  private _applicationVersion?: number;
+  private _applicationVersion?: number; 
   public get applicationVersion() {
     return this.getNumberAttribute('application_version');
   }
@@ -118,7 +118,7 @@ export class M2Deployment extends cdktn.TerraformResource {
   }
 
   // environment_id - computed: false, optional: false, required: true
-  private _environmentId?: string;
+  private _environmentId?: string; 
   public get environmentId() {
     return this.getStringAttribute('environment_id');
   }

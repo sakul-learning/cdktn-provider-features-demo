@@ -134,7 +134,7 @@ export class CloudtrailChannelDestinationsOutputReference extends cdktn.ComplexO
   }
 
   // location - computed: true, optional: true, required: false
-  private _location?: string;
+  private _location?: string; 
   public get location() {
     return this.getStringAttribute('location');
   }
@@ -150,7 +150,7 @@ export class CloudtrailChannelDestinationsOutputReference extends cdktn.ComplexO
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -287,7 +287,7 @@ export class CloudtrailChannelTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -303,7 +303,7 @@ export class CloudtrailChannelTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -426,7 +426,7 @@ export class CloudtrailChannel extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -442,7 +442,7 @@ export class CloudtrailChannel extends cdktn.TerraformResource {
   }
 
   // source - computed: true, optional: true, required: false
-  private _source?: string;
+  private _source?: string; 
   public get source() {
     return this.getStringAttribute('source');
   }

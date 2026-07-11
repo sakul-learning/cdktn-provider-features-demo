@@ -151,7 +151,7 @@ export class Apigatewayv2RoutingRuleActionsInvokeApiOutputReference extends cdkt
   }
 
   // api_id - computed: false, optional: false, required: true
-  private _apiId?: string;
+  private _apiId?: string; 
   public get apiId() {
     return this.getStringAttribute('api_id');
   }
@@ -164,7 +164,7 @@ export class Apigatewayv2RoutingRuleActionsInvokeApiOutputReference extends cdkt
   }
 
   // stage - computed: false, optional: false, required: true
-  private _stage?: string;
+  private _stage?: string; 
   public get stage() {
     return this.getStringAttribute('stage');
   }
@@ -177,7 +177,7 @@ export class Apigatewayv2RoutingRuleActionsInvokeApiOutputReference extends cdkt
   }
 
   // strip_base_path - computed: true, optional: true, required: false
-  private _stripBasePath?: boolean | cdktn.IResolvable;
+  private _stripBasePath?: boolean | cdktn.IResolvable; 
   public get stripBasePath() {
     return this.getBooleanAttribute('strip_base_path');
   }
@@ -388,7 +388,7 @@ export class Apigatewayv2RoutingRuleConditionsMatchBasePathsOutputReference exte
   }
 
   // any_of - computed: true, optional: true, required: false
-  private _anyOf?: string[];
+  private _anyOf?: string[]; 
   public get anyOf() {
     return this.getListAttribute('any_of');
   }
@@ -505,7 +505,7 @@ export class Apigatewayv2RoutingRuleConditionsMatchHeadersAnyOfOutputReference e
   }
 
   // header - computed: true, optional: true, required: false
-  private _header?: string;
+  private _header?: string; 
   public get header() {
     return this.getStringAttribute('header');
   }
@@ -521,7 +521,7 @@ export class Apigatewayv2RoutingRuleConditionsMatchHeadersAnyOfOutputReference e
   }
 
   // value_glob - computed: true, optional: true, required: false
-  private _valueGlob?: string;
+  private _valueGlob?: string; 
   public get valueGlob() {
     return this.getStringAttribute('value_glob');
   }
@@ -893,7 +893,7 @@ export class Apigatewayv2RoutingRule extends cdktn.TerraformResource {
   }
 
   // domain_name_arn - computed: false, optional: false, required: true
-  private _domainNameArn?: string;
+  private _domainNameArn?: string; 
   public get domainNameArn() {
     return this.getStringAttribute('domain_name_arn');
   }
@@ -911,7 +911,7 @@ export class Apigatewayv2RoutingRule extends cdktn.TerraformResource {
   }
 
   // priority - computed: false, optional: false, required: true
-  private _priority?: number;
+  private _priority?: number; 
   public get priority() {
     return this.getNumberAttribute('priority');
   }

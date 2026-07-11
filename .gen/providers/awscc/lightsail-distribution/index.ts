@@ -168,7 +168,7 @@ export class LightsailDistributionCacheBehaviorSettingsForwardedCookiesOutputRef
   }
 
   // cookies_allow_list - computed: true, optional: true, required: false
-  private _cookiesAllowList?: string[];
+  private _cookiesAllowList?: string[]; 
   public get cookiesAllowList() {
     return cdktn.Fn.tolist(this.getListAttribute('cookies_allow_list'));
   }
@@ -184,7 +184,7 @@ export class LightsailDistributionCacheBehaviorSettingsForwardedCookiesOutputRef
   }
 
   // option - computed: true, optional: true, required: false
-  private _option?: string;
+  private _option?: string; 
   public get option() {
     return this.getStringAttribute('option');
   }
@@ -299,7 +299,7 @@ export class LightsailDistributionCacheBehaviorSettingsForwardedHeadersOutputRef
   }
 
   // headers_allow_list - computed: true, optional: true, required: false
-  private _headersAllowList?: string[];
+  private _headersAllowList?: string[]; 
   public get headersAllowList() {
     return cdktn.Fn.tolist(this.getListAttribute('headers_allow_list'));
   }
@@ -315,7 +315,7 @@ export class LightsailDistributionCacheBehaviorSettingsForwardedHeadersOutputRef
   }
 
   // option - computed: true, optional: true, required: false
-  private _option?: string;
+  private _option?: string; 
   public get option() {
     return this.getStringAttribute('option');
   }
@@ -430,7 +430,7 @@ export class LightsailDistributionCacheBehaviorSettingsForwardedQueryStringsOutp
   }
 
   // option - computed: true, optional: true, required: false
-  private _option?: boolean | cdktn.IResolvable;
+  private _option?: boolean | cdktn.IResolvable; 
   public get option() {
     return this.getBooleanAttribute('option');
   }
@@ -446,7 +446,7 @@ export class LightsailDistributionCacheBehaviorSettingsForwardedQueryStringsOutp
   }
 
   // query_strings_allow_list - computed: true, optional: true, required: false
-  private _queryStringsAllowList?: string[];
+  private _queryStringsAllowList?: string[]; 
   public get queryStringsAllowList() {
     return cdktn.Fn.tolist(this.getListAttribute('query_strings_allow_list'));
   }
@@ -675,7 +675,7 @@ export class LightsailDistributionCacheBehaviorSettingsOutputReference extends c
   }
 
   // allowed_http_methods - computed: true, optional: true, required: false
-  private _allowedHttpMethods?: string;
+  private _allowedHttpMethods?: string; 
   public get allowedHttpMethods() {
     return this.getStringAttribute('allowed_http_methods');
   }
@@ -691,7 +691,7 @@ export class LightsailDistributionCacheBehaviorSettingsOutputReference extends c
   }
 
   // cached_http_methods - computed: true, optional: true, required: false
-  private _cachedHttpMethods?: string;
+  private _cachedHttpMethods?: string; 
   public get cachedHttpMethods() {
     return this.getStringAttribute('cached_http_methods');
   }
@@ -707,7 +707,7 @@ export class LightsailDistributionCacheBehaviorSettingsOutputReference extends c
   }
 
   // default_ttl - computed: true, optional: true, required: false
-  private _defaultTtl?: number;
+  private _defaultTtl?: number; 
   public get defaultTtl() {
     return this.getNumberAttribute('default_ttl');
   }
@@ -771,7 +771,7 @@ export class LightsailDistributionCacheBehaviorSettingsOutputReference extends c
   }
 
   // maximum_ttl - computed: true, optional: true, required: false
-  private _maximumTtl?: number;
+  private _maximumTtl?: number; 
   public get maximumTtl() {
     return this.getNumberAttribute('maximum_ttl');
   }
@@ -787,7 +787,7 @@ export class LightsailDistributionCacheBehaviorSettingsOutputReference extends c
   }
 
   // minimum_ttl - computed: true, optional: true, required: false
-  private _minimumTtl?: number;
+  private _minimumTtl?: number; 
   public get minimumTtl() {
     return this.getNumberAttribute('minimum_ttl');
   }
@@ -904,7 +904,7 @@ export class LightsailDistributionCacheBehaviorsOutputReference extends cdktn.Co
   }
 
   // behavior - computed: true, optional: true, required: false
-  private _behavior?: string;
+  private _behavior?: string; 
   public get behavior() {
     return this.getStringAttribute('behavior');
   }
@@ -920,7 +920,7 @@ export class LightsailDistributionCacheBehaviorsOutputReference extends cdktn.Co
   }
 
   // path - computed: true, optional: true, required: false
-  private _path?: string;
+  private _path?: string; 
   public get path() {
     return this.getStringAttribute('path');
   }
@@ -1036,7 +1036,7 @@ export class LightsailDistributionDefaultCacheBehaviorOutputReference extends cd
   }
 
   // behavior - computed: true, optional: true, required: false
-  private _behavior?: string;
+  private _behavior?: string; 
   public get behavior() {
     return this.getStringAttribute('behavior');
   }
@@ -1170,7 +1170,7 @@ export class LightsailDistributionOriginOutputReference extends cdktn.ComplexObj
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1186,7 +1186,7 @@ export class LightsailDistributionOriginOutputReference extends cdktn.ComplexObj
   }
 
   // protocol_policy - computed: true, optional: true, required: false
-  private _protocolPolicy?: string;
+  private _protocolPolicy?: string; 
   public get protocolPolicy() {
     return this.getStringAttribute('protocol_policy');
   }
@@ -1202,7 +1202,7 @@ export class LightsailDistributionOriginOutputReference extends cdktn.ComplexObj
   }
 
   // region_name - computed: true, optional: true, required: false
-  private _regionName?: string;
+  private _regionName?: string; 
   public get regionName() {
     return this.getStringAttribute('region_name');
   }
@@ -1319,7 +1319,7 @@ export class LightsailDistributionTagsOutputReference extends cdktn.ComplexObjec
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1335,7 +1335,7 @@ export class LightsailDistributionTagsOutputReference extends cdktn.ComplexObjec
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1443,7 +1443,7 @@ export class LightsailDistribution extends cdktn.TerraformResource {
   }
 
   // bundle_id - computed: false, optional: false, required: true
-  private _bundleId?: string;
+  private _bundleId?: string; 
   public get bundleId() {
     return this.getStringAttribute('bundle_id');
   }
@@ -1488,7 +1488,7 @@ export class LightsailDistribution extends cdktn.TerraformResource {
   }
 
   // certificate_name - computed: true, optional: true, required: false
-  private _certificateName?: string;
+  private _certificateName?: string; 
   public get certificateName() {
     return this.getStringAttribute('certificate_name');
   }
@@ -1522,7 +1522,7 @@ export class LightsailDistribution extends cdktn.TerraformResource {
   }
 
   // distribution_name - computed: false, optional: false, required: true
-  private _distributionName?: string;
+  private _distributionName?: string; 
   public get distributionName() {
     return this.getStringAttribute('distribution_name');
   }
@@ -1540,7 +1540,7 @@ export class LightsailDistribution extends cdktn.TerraformResource {
   }
 
   // ip_address_type - computed: true, optional: true, required: false
-  private _ipAddressType?: string;
+  private _ipAddressType?: string; 
   public get ipAddressType() {
     return this.getStringAttribute('ip_address_type');
   }
@@ -1556,7 +1556,7 @@ export class LightsailDistribution extends cdktn.TerraformResource {
   }
 
   // is_enabled - computed: true, optional: true, required: false
-  private _isEnabled?: boolean | cdktn.IResolvable;
+  private _isEnabled?: boolean | cdktn.IResolvable; 
   public get isEnabled() {
     return this.getBooleanAttribute('is_enabled');
   }

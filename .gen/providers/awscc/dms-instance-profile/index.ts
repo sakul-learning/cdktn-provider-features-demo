@@ -170,7 +170,7 @@ export class DmsInstanceProfileTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -186,7 +186,7 @@ export class DmsInstanceProfileTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -289,7 +289,7 @@ export class DmsInstanceProfile extends cdktn.TerraformResource {
   // ==========
 
   // availability_zone - computed: true, optional: true, required: false
-  private _availabilityZone?: string;
+  private _availabilityZone?: string; 
   public get availabilityZone() {
     return this.getStringAttribute('availability_zone');
   }
@@ -305,7 +305,7 @@ export class DmsInstanceProfile extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -336,7 +336,7 @@ export class DmsInstanceProfile extends cdktn.TerraformResource {
   }
 
   // instance_profile_identifier - computed: true, optional: true, required: false
-  private _instanceProfileIdentifier?: string;
+  private _instanceProfileIdentifier?: string; 
   public get instanceProfileIdentifier() {
     return this.getStringAttribute('instance_profile_identifier');
   }
@@ -352,7 +352,7 @@ export class DmsInstanceProfile extends cdktn.TerraformResource {
   }
 
   // instance_profile_name - computed: true, optional: true, required: false
-  private _instanceProfileName?: string;
+  private _instanceProfileName?: string; 
   public get instanceProfileName() {
     return this.getStringAttribute('instance_profile_name');
   }
@@ -368,7 +368,7 @@ export class DmsInstanceProfile extends cdktn.TerraformResource {
   }
 
   // kms_key_arn - computed: true, optional: true, required: false
-  private _kmsKeyArn?: string;
+  private _kmsKeyArn?: string; 
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -384,7 +384,7 @@ export class DmsInstanceProfile extends cdktn.TerraformResource {
   }
 
   // network_type - computed: true, optional: true, required: false
-  private _networkType?: string;
+  private _networkType?: string; 
   public get networkType() {
     return this.getStringAttribute('network_type');
   }
@@ -400,7 +400,7 @@ export class DmsInstanceProfile extends cdktn.TerraformResource {
   }
 
   // publicly_accessible - computed: true, optional: true, required: false
-  private _publiclyAccessible?: boolean | cdktn.IResolvable;
+  private _publiclyAccessible?: boolean | cdktn.IResolvable; 
   public get publiclyAccessible() {
     return this.getBooleanAttribute('publicly_accessible');
   }
@@ -416,7 +416,7 @@ export class DmsInstanceProfile extends cdktn.TerraformResource {
   }
 
   // subnet_group_identifier - computed: true, optional: true, required: false
-  private _subnetGroupIdentifier?: string;
+  private _subnetGroupIdentifier?: string; 
   public get subnetGroupIdentifier() {
     return this.getStringAttribute('subnet_group_identifier');
   }
@@ -448,7 +448,7 @@ export class DmsInstanceProfile extends cdktn.TerraformResource {
   }
 
   // vpc_security_groups - computed: true, optional: true, required: false
-  private _vpcSecurityGroups?: string[];
+  private _vpcSecurityGroups?: string[]; 
   public get vpcSecurityGroups() {
     return cdktn.Fn.tolist(this.getListAttribute('vpc_security_groups'));
   }

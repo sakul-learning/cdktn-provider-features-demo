@@ -106,7 +106,7 @@ export class SsmcontactsContactChannel extends cdktn.TerraformResource {
   }
 
   // channel_address - computed: true, optional: true, required: false
-  private _channelAddress?: string;
+  private _channelAddress?: string; 
   public get channelAddress() {
     return this.getStringAttribute('channel_address');
   }
@@ -122,7 +122,7 @@ export class SsmcontactsContactChannel extends cdktn.TerraformResource {
   }
 
   // channel_name - computed: true, optional: true, required: false
-  private _channelName?: string;
+  private _channelName?: string; 
   public get channelName() {
     return this.getStringAttribute('channel_name');
   }
@@ -138,7 +138,7 @@ export class SsmcontactsContactChannel extends cdktn.TerraformResource {
   }
 
   // channel_type - computed: true, optional: true, required: false
-  private _channelType?: string;
+  private _channelType?: string; 
   public get channelType() {
     return this.getStringAttribute('channel_type');
   }
@@ -154,7 +154,7 @@ export class SsmcontactsContactChannel extends cdktn.TerraformResource {
   }
 
   // contact_id - computed: true, optional: true, required: false
-  private _contactId?: string;
+  private _contactId?: string; 
   public get contactId() {
     return this.getStringAttribute('contact_id');
   }
@@ -170,7 +170,7 @@ export class SsmcontactsContactChannel extends cdktn.TerraformResource {
   }
 
   // defer_activation - computed: true, optional: true, required: false
-  private _deferActivation?: boolean | cdktn.IResolvable;
+  private _deferActivation?: boolean | cdktn.IResolvable; 
   public get deferActivation() {
     return this.getBooleanAttribute('defer_activation');
   }

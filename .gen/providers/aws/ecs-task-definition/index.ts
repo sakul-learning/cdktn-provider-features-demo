@@ -180,7 +180,7 @@ export class EcsTaskDefinitionEphemeralStorageOutputReference extends cdktn.Comp
   }
 
   // size_in_gib - computed: false, optional: false, required: true
-  private _sizeInGib?: number;
+  private _sizeInGib?: number; 
   public get sizeInGib() {
     return this.getNumberAttribute('size_in_gib');
   }
@@ -290,7 +290,7 @@ export class EcsTaskDefinitionPlacementConstraintsOutputReference extends cdktn.
   }
 
   // expression - computed: false, optional: true, required: false
-  private _expression?: string;
+  private _expression?: string; 
   public get expression() {
     return this.getStringAttribute('expression');
   }
@@ -306,7 +306,7 @@ export class EcsTaskDefinitionPlacementConstraintsOutputReference extends cdktn.
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -441,7 +441,7 @@ export class EcsTaskDefinitionProxyConfigurationOutputReference extends cdktn.Co
   }
 
   // container_name - computed: false, optional: false, required: true
-  private _containerName?: string;
+  private _containerName?: string; 
   public get containerName() {
     return this.getStringAttribute('container_name');
   }
@@ -454,7 +454,7 @@ export class EcsTaskDefinitionProxyConfigurationOutputReference extends cdktn.Co
   }
 
   // properties - computed: false, optional: true, required: false
-  private _properties?: { [key: string]: string };
+  private _properties?: { [key: string]: string }; 
   public get properties() {
     return this.getStringMapAttribute('properties');
   }
@@ -470,7 +470,7 @@ export class EcsTaskDefinitionProxyConfigurationOutputReference extends cdktn.Co
   }
 
   // type - computed: false, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -571,7 +571,7 @@ export class EcsTaskDefinitionRuntimePlatformOutputReference extends cdktn.Compl
   }
 
   // cpu_architecture - computed: false, optional: true, required: false
-  private _cpuArchitecture?: string;
+  private _cpuArchitecture?: string; 
   public get cpuArchitecture() {
     return this.getStringAttribute('cpu_architecture');
   }
@@ -587,7 +587,7 @@ export class EcsTaskDefinitionRuntimePlatformOutputReference extends cdktn.Compl
   }
 
   // operating_system_family - computed: false, optional: true, required: false
-  private _operatingSystemFamily?: string;
+  private _operatingSystemFamily?: string; 
   public get operatingSystemFamily() {
     return this.getStringAttribute('operating_system_family');
   }
@@ -739,7 +739,7 @@ export class EcsTaskDefinitionVolumeDockerVolumeConfigurationOutputReference ext
   }
 
   // autoprovision - computed: false, optional: true, required: false
-  private _autoprovision?: boolean | cdktn.IResolvable;
+  private _autoprovision?: boolean | cdktn.IResolvable; 
   public get autoprovision() {
     return this.getBooleanAttribute('autoprovision');
   }
@@ -755,7 +755,7 @@ export class EcsTaskDefinitionVolumeDockerVolumeConfigurationOutputReference ext
   }
 
   // driver - computed: true, optional: true, required: false
-  private _driver?: string;
+  private _driver?: string; 
   public get driver() {
     return this.getStringAttribute('driver');
   }
@@ -771,7 +771,7 @@ export class EcsTaskDefinitionVolumeDockerVolumeConfigurationOutputReference ext
   }
 
   // driver_opts - computed: false, optional: true, required: false
-  private _driverOpts?: { [key: string]: string };
+  private _driverOpts?: { [key: string]: string }; 
   public get driverOpts() {
     return this.getStringMapAttribute('driver_opts');
   }
@@ -787,7 +787,7 @@ export class EcsTaskDefinitionVolumeDockerVolumeConfigurationOutputReference ext
   }
 
   // labels - computed: false, optional: true, required: false
-  private _labels?: { [key: string]: string };
+  private _labels?: { [key: string]: string }; 
   public get labels() {
     return this.getStringMapAttribute('labels');
   }
@@ -803,7 +803,7 @@ export class EcsTaskDefinitionVolumeDockerVolumeConfigurationOutputReference ext
   }
 
   // scope - computed: true, optional: true, required: false
-  private _scope?: string;
+  private _scope?: string; 
   public get scope() {
     return this.getStringAttribute('scope');
   }
@@ -904,7 +904,7 @@ export class EcsTaskDefinitionVolumeEfsVolumeConfigurationAuthorizationConfigOut
   }
 
   // access_point_id - computed: false, optional: true, required: false
-  private _accessPointId?: string;
+  private _accessPointId?: string; 
   public get accessPointId() {
     return this.getStringAttribute('access_point_id');
   }
@@ -920,7 +920,7 @@ export class EcsTaskDefinitionVolumeEfsVolumeConfigurationAuthorizationConfigOut
   }
 
   // iam - computed: false, optional: true, required: false
-  private _iam?: string;
+  private _iam?: string; 
   public get iam() {
     return this.getStringAttribute('iam');
   }
@@ -1074,7 +1074,7 @@ export class EcsTaskDefinitionVolumeEfsVolumeConfigurationOutputReference extend
   }
 
   // file_system_id - computed: false, optional: false, required: true
-  private _fileSystemId?: string;
+  private _fileSystemId?: string; 
   public get fileSystemId() {
     return this.getStringAttribute('file_system_id');
   }
@@ -1087,7 +1087,7 @@ export class EcsTaskDefinitionVolumeEfsVolumeConfigurationOutputReference extend
   }
 
   // root_directory - computed: false, optional: true, required: false
-  private _rootDirectory?: string;
+  private _rootDirectory?: string; 
   public get rootDirectory() {
     return this.getStringAttribute('root_directory');
   }
@@ -1103,7 +1103,7 @@ export class EcsTaskDefinitionVolumeEfsVolumeConfigurationOutputReference extend
   }
 
   // transit_encryption - computed: false, optional: true, required: false
-  private _transitEncryption?: string;
+  private _transitEncryption?: string; 
   public get transitEncryption() {
     return this.getStringAttribute('transit_encryption');
   }
@@ -1119,7 +1119,7 @@ export class EcsTaskDefinitionVolumeEfsVolumeConfigurationOutputReference extend
   }
 
   // transit_encryption_port - computed: false, optional: true, required: false
-  private _transitEncryptionPort?: number;
+  private _transitEncryptionPort?: number; 
   public get transitEncryptionPort() {
     return this.getNumberAttribute('transit_encryption_port');
   }
@@ -1236,7 +1236,7 @@ export class EcsTaskDefinitionVolumeFsxWindowsFileServerVolumeConfigurationAutho
   }
 
   // credentials_parameter - computed: false, optional: false, required: true
-  private _credentialsParameter?: string;
+  private _credentialsParameter?: string; 
   public get credentialsParameter() {
     return this.getStringAttribute('credentials_parameter');
   }
@@ -1249,7 +1249,7 @@ export class EcsTaskDefinitionVolumeFsxWindowsFileServerVolumeConfigurationAutho
   }
 
   // domain - computed: false, optional: false, required: true
-  private _domain?: string;
+  private _domain?: string; 
   public get domain() {
     return this.getStringAttribute('domain');
   }
@@ -1366,7 +1366,7 @@ export class EcsTaskDefinitionVolumeFsxWindowsFileServerVolumeConfigurationOutpu
   }
 
   // file_system_id - computed: false, optional: false, required: true
-  private _fileSystemId?: string;
+  private _fileSystemId?: string; 
   public get fileSystemId() {
     return this.getStringAttribute('file_system_id');
   }
@@ -1379,7 +1379,7 @@ export class EcsTaskDefinitionVolumeFsxWindowsFileServerVolumeConfigurationOutpu
   }
 
   // root_directory - computed: false, optional: false, required: true
-  private _rootDirectory?: string;
+  private _rootDirectory?: string; 
   public get rootDirectory() {
     return this.getStringAttribute('root_directory');
   }
@@ -1524,7 +1524,7 @@ export class EcsTaskDefinitionVolumeS3FilesVolumeConfigurationOutputReference ex
   }
 
   // access_point_arn - computed: false, optional: true, required: false
-  private _accessPointArn?: string;
+  private _accessPointArn?: string; 
   public get accessPointArn() {
     return this.getStringAttribute('access_point_arn');
   }
@@ -1540,7 +1540,7 @@ export class EcsTaskDefinitionVolumeS3FilesVolumeConfigurationOutputReference ex
   }
 
   // file_system_arn - computed: false, optional: false, required: true
-  private _fileSystemArn?: string;
+  private _fileSystemArn?: string; 
   public get fileSystemArn() {
     return this.getStringAttribute('file_system_arn');
   }
@@ -1553,7 +1553,7 @@ export class EcsTaskDefinitionVolumeS3FilesVolumeConfigurationOutputReference ex
   }
 
   // root_directory - computed: false, optional: true, required: false
-  private _rootDirectory?: string;
+  private _rootDirectory?: string; 
   public get rootDirectory() {
     return this.getStringAttribute('root_directory');
   }
@@ -1569,7 +1569,7 @@ export class EcsTaskDefinitionVolumeS3FilesVolumeConfigurationOutputReference ex
   }
 
   // transit_encryption_port - computed: false, optional: true, required: false
-  private _transitEncryptionPort?: number;
+  private _transitEncryptionPort?: number; 
   public get transitEncryptionPort() {
     return this.getNumberAttribute('transit_encryption_port');
   }
@@ -1775,7 +1775,7 @@ export class EcsTaskDefinitionVolumeOutputReference extends cdktn.ComplexObject 
   }
 
   // configure_at_launch - computed: true, optional: true, required: false
-  private _configureAtLaunch?: boolean | cdktn.IResolvable;
+  private _configureAtLaunch?: boolean | cdktn.IResolvable; 
   public get configureAtLaunch() {
     return this.getBooleanAttribute('configure_at_launch');
   }
@@ -1791,7 +1791,7 @@ export class EcsTaskDefinitionVolumeOutputReference extends cdktn.ComplexObject 
   }
 
   // host_path - computed: false, optional: true, required: false
-  private _hostPath?: string;
+  private _hostPath?: string; 
   public get hostPath() {
     return this.getStringAttribute('host_path');
   }
@@ -1807,7 +1807,7 @@ export class EcsTaskDefinitionVolumeOutputReference extends cdktn.ComplexObject 
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1993,7 +1993,7 @@ export class EcsTaskDefinition extends cdktn.TerraformResource {
   }
 
   // container_definitions - computed: false, optional: false, required: true
-  private _containerDefinitions?: string;
+  private _containerDefinitions?: string; 
   public get containerDefinitions() {
     return this.getStringAttribute('container_definitions');
   }
@@ -2006,7 +2006,7 @@ export class EcsTaskDefinition extends cdktn.TerraformResource {
   }
 
   // cpu - computed: false, optional: true, required: false
-  private _cpu?: string;
+  private _cpu?: string; 
   public get cpu() {
     return this.getStringAttribute('cpu');
   }
@@ -2022,7 +2022,7 @@ export class EcsTaskDefinition extends cdktn.TerraformResource {
   }
 
   // enable_fault_injection - computed: true, optional: true, required: false
-  private _enableFaultInjection?: boolean | cdktn.IResolvable;
+  private _enableFaultInjection?: boolean | cdktn.IResolvable; 
   public get enableFaultInjection() {
     return this.getBooleanAttribute('enable_fault_injection');
   }
@@ -2038,7 +2038,7 @@ export class EcsTaskDefinition extends cdktn.TerraformResource {
   }
 
   // execution_role_arn - computed: false, optional: true, required: false
-  private _executionRoleArn?: string;
+  private _executionRoleArn?: string; 
   public get executionRoleArn() {
     return this.getStringAttribute('execution_role_arn');
   }
@@ -2054,7 +2054,7 @@ export class EcsTaskDefinition extends cdktn.TerraformResource {
   }
 
   // family - computed: false, optional: false, required: true
-  private _family?: string;
+  private _family?: string; 
   public get family() {
     return this.getStringAttribute('family');
   }
@@ -2067,7 +2067,7 @@ export class EcsTaskDefinition extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -2083,7 +2083,7 @@ export class EcsTaskDefinition extends cdktn.TerraformResource {
   }
 
   // ipc_mode - computed: false, optional: true, required: false
-  private _ipcMode?: string;
+  private _ipcMode?: string; 
   public get ipcMode() {
     return this.getStringAttribute('ipc_mode');
   }
@@ -2099,7 +2099,7 @@ export class EcsTaskDefinition extends cdktn.TerraformResource {
   }
 
   // memory - computed: false, optional: true, required: false
-  private _memory?: string;
+  private _memory?: string; 
   public get memory() {
     return this.getStringAttribute('memory');
   }
@@ -2115,7 +2115,7 @@ export class EcsTaskDefinition extends cdktn.TerraformResource {
   }
 
   // network_mode - computed: true, optional: true, required: false
-  private _networkMode?: string;
+  private _networkMode?: string; 
   public get networkMode() {
     return this.getStringAttribute('network_mode');
   }
@@ -2131,7 +2131,7 @@ export class EcsTaskDefinition extends cdktn.TerraformResource {
   }
 
   // pid_mode - computed: false, optional: true, required: false
-  private _pidMode?: string;
+  private _pidMode?: string; 
   public get pidMode() {
     return this.getStringAttribute('pid_mode');
   }
@@ -2147,7 +2147,7 @@ export class EcsTaskDefinition extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -2163,7 +2163,7 @@ export class EcsTaskDefinition extends cdktn.TerraformResource {
   }
 
   // requires_compatibilities - computed: false, optional: true, required: false
-  private _requiresCompatibilities?: string[];
+  private _requiresCompatibilities?: string[]; 
   public get requiresCompatibilities() {
     return cdktn.Fn.tolist(this.getListAttribute('requires_compatibilities'));
   }
@@ -2184,7 +2184,7 @@ export class EcsTaskDefinition extends cdktn.TerraformResource {
   }
 
   // skip_destroy - computed: false, optional: true, required: false
-  private _skipDestroy?: boolean | cdktn.IResolvable;
+  private _skipDestroy?: boolean | cdktn.IResolvable; 
   public get skipDestroy() {
     return this.getBooleanAttribute('skip_destroy');
   }
@@ -2200,7 +2200,7 @@ export class EcsTaskDefinition extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -2216,7 +2216,7 @@ export class EcsTaskDefinition extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -2232,7 +2232,7 @@ export class EcsTaskDefinition extends cdktn.TerraformResource {
   }
 
   // task_role_arn - computed: false, optional: true, required: false
-  private _taskRoleArn?: string;
+  private _taskRoleArn?: string; 
   public get taskRoleArn() {
     return this.getStringAttribute('task_role_arn');
   }
@@ -2248,7 +2248,7 @@ export class EcsTaskDefinition extends cdktn.TerraformResource {
   }
 
   // track_latest - computed: false, optional: true, required: false
-  private _trackLatest?: boolean | cdktn.IResolvable;
+  private _trackLatest?: boolean | cdktn.IResolvable; 
   public get trackLatest() {
     return this.getBooleanAttribute('track_latest');
   }

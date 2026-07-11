@@ -111,7 +111,7 @@ export class SignerSigningProfilePermission extends cdktn.TerraformResource {
   // ==========
 
   // action - computed: false, optional: false, required: true
-  private _action?: string;
+  private _action?: string; 
   public get action() {
     return this.getStringAttribute('action');
   }
@@ -124,7 +124,7 @@ export class SignerSigningProfilePermission extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -140,7 +140,7 @@ export class SignerSigningProfilePermission extends cdktn.TerraformResource {
   }
 
   // principal - computed: false, optional: false, required: true
-  private _principal?: string;
+  private _principal?: string; 
   public get principal() {
     return this.getStringAttribute('principal');
   }
@@ -153,7 +153,7 @@ export class SignerSigningProfilePermission extends cdktn.TerraformResource {
   }
 
   // profile_name - computed: false, optional: false, required: true
-  private _profileName?: string;
+  private _profileName?: string; 
   public get profileName() {
     return this.getStringAttribute('profile_name');
   }
@@ -166,7 +166,7 @@ export class SignerSigningProfilePermission extends cdktn.TerraformResource {
   }
 
   // profile_version - computed: true, optional: true, required: false
-  private _profileVersion?: string;
+  private _profileVersion?: string; 
   public get profileVersion() {
     return this.getStringAttribute('profile_version');
   }
@@ -182,7 +182,7 @@ export class SignerSigningProfilePermission extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -198,7 +198,7 @@ export class SignerSigningProfilePermission extends cdktn.TerraformResource {
   }
 
   // statement_id - computed: true, optional: true, required: false
-  private _statementId?: string;
+  private _statementId?: string; 
   public get statementId() {
     return this.getStringAttribute('statement_id');
   }
@@ -214,7 +214,7 @@ export class SignerSigningProfilePermission extends cdktn.TerraformResource {
   }
 
   // statement_id_prefix - computed: true, optional: true, required: false
-  private _statementIdPrefix?: string;
+  private _statementIdPrefix?: string; 
   public get statementIdPrefix() {
     return this.getStringAttribute('statement_id_prefix');
   }

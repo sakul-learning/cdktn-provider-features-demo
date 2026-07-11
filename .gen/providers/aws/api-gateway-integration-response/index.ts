@@ -121,7 +121,7 @@ export class ApiGatewayIntegrationResponse extends cdktn.TerraformResource {
   // ==========
 
   // content_handling - computed: false, optional: true, required: false
-  private _contentHandling?: string;
+  private _contentHandling?: string; 
   public get contentHandling() {
     return this.getStringAttribute('content_handling');
   }
@@ -137,7 +137,7 @@ export class ApiGatewayIntegrationResponse extends cdktn.TerraformResource {
   }
 
   // http_method - computed: false, optional: false, required: true
-  private _httpMethod?: string;
+  private _httpMethod?: string; 
   public get httpMethod() {
     return this.getStringAttribute('http_method');
   }
@@ -150,7 +150,7 @@ export class ApiGatewayIntegrationResponse extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -166,7 +166,7 @@ export class ApiGatewayIntegrationResponse extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -182,7 +182,7 @@ export class ApiGatewayIntegrationResponse extends cdktn.TerraformResource {
   }
 
   // resource_id - computed: false, optional: false, required: true
-  private _resourceId?: string;
+  private _resourceId?: string; 
   public get resourceId() {
     return this.getStringAttribute('resource_id');
   }
@@ -195,7 +195,7 @@ export class ApiGatewayIntegrationResponse extends cdktn.TerraformResource {
   }
 
   // response_parameters - computed: false, optional: true, required: false
-  private _responseParameters?: { [key: string]: string };
+  private _responseParameters?: { [key: string]: string }; 
   public get responseParameters() {
     return this.getStringMapAttribute('response_parameters');
   }
@@ -211,7 +211,7 @@ export class ApiGatewayIntegrationResponse extends cdktn.TerraformResource {
   }
 
   // response_templates - computed: false, optional: true, required: false
-  private _responseTemplates?: { [key: string]: string };
+  private _responseTemplates?: { [key: string]: string }; 
   public get responseTemplates() {
     return this.getStringMapAttribute('response_templates');
   }
@@ -227,7 +227,7 @@ export class ApiGatewayIntegrationResponse extends cdktn.TerraformResource {
   }
 
   // rest_api_id - computed: false, optional: false, required: true
-  private _restApiId?: string;
+  private _restApiId?: string; 
   public get restApiId() {
     return this.getStringAttribute('rest_api_id');
   }
@@ -240,7 +240,7 @@ export class ApiGatewayIntegrationResponse extends cdktn.TerraformResource {
   }
 
   // selection_pattern - computed: false, optional: true, required: false
-  private _selectionPattern?: string;
+  private _selectionPattern?: string; 
   public get selectionPattern() {
     return this.getStringAttribute('selection_pattern');
   }
@@ -256,7 +256,7 @@ export class ApiGatewayIntegrationResponse extends cdktn.TerraformResource {
   }
 
   // status_code - computed: false, optional: false, required: true
-  private _statusCode?: string;
+  private _statusCode?: string; 
   public get statusCode() {
     return this.getStringAttribute('status_code');
   }

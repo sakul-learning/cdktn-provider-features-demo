@@ -160,7 +160,7 @@ export class DataAwsIamPolicyDocumentStatementConditionOutputReference extends c
   }
 
   // test - computed: false, optional: false, required: true
-  private _test?: string;
+  private _test?: string; 
   public get test() {
     return this.getStringAttribute('test');
   }
@@ -173,7 +173,7 @@ export class DataAwsIamPolicyDocumentStatementConditionOutputReference extends c
   }
 
   // values - computed: false, optional: false, required: true
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -186,7 +186,7 @@ export class DataAwsIamPolicyDocumentStatementConditionOutputReference extends c
   }
 
   // variable - computed: false, optional: false, required: true
-  private _variable?: string;
+  private _variable?: string; 
   public get variable() {
     return this.getStringAttribute('variable');
   }
@@ -316,7 +316,7 @@ export class DataAwsIamPolicyDocumentStatementNotPrincipalsOutputReference exten
   }
 
   // identifiers - computed: false, optional: false, required: true
-  private _identifiers?: string[];
+  private _identifiers?: string[]; 
   public get identifiers() {
     return cdktn.Fn.tolist(this.getListAttribute('identifiers'));
   }
@@ -329,7 +329,7 @@ export class DataAwsIamPolicyDocumentStatementNotPrincipalsOutputReference exten
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -459,7 +459,7 @@ export class DataAwsIamPolicyDocumentStatementPrincipalsOutputReference extends 
   }
 
   // identifiers - computed: false, optional: false, required: true
-  private _identifiers?: string[];
+  private _identifiers?: string[]; 
   public get identifiers() {
     return cdktn.Fn.tolist(this.getListAttribute('identifiers'));
   }
@@ -472,7 +472,7 @@ export class DataAwsIamPolicyDocumentStatementPrincipalsOutputReference extends 
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -727,7 +727,7 @@ export class DataAwsIamPolicyDocumentStatementOutputReference extends cdktn.Comp
   }
 
   // actions - computed: false, optional: true, required: false
-  private _actions?: string[];
+  private _actions?: string[]; 
   public get actions() {
     return cdktn.Fn.tolist(this.getListAttribute('actions'));
   }
@@ -743,7 +743,7 @@ export class DataAwsIamPolicyDocumentStatementOutputReference extends cdktn.Comp
   }
 
   // effect - computed: false, optional: true, required: false
-  private _effect?: string;
+  private _effect?: string; 
   public get effect() {
     return this.getStringAttribute('effect');
   }
@@ -759,7 +759,7 @@ export class DataAwsIamPolicyDocumentStatementOutputReference extends cdktn.Comp
   }
 
   // not_actions - computed: false, optional: true, required: false
-  private _notActions?: string[];
+  private _notActions?: string[]; 
   public get notActions() {
     return cdktn.Fn.tolist(this.getListAttribute('not_actions'));
   }
@@ -775,7 +775,7 @@ export class DataAwsIamPolicyDocumentStatementOutputReference extends cdktn.Comp
   }
 
   // not_resources - computed: false, optional: true, required: false
-  private _notResources?: string[];
+  private _notResources?: string[]; 
   public get notResources() {
     return cdktn.Fn.tolist(this.getListAttribute('not_resources'));
   }
@@ -791,7 +791,7 @@ export class DataAwsIamPolicyDocumentStatementOutputReference extends cdktn.Comp
   }
 
   // resources - computed: false, optional: true, required: false
-  private _resources?: string[];
+  private _resources?: string[]; 
   public get resources() {
     return cdktn.Fn.tolist(this.getListAttribute('resources'));
   }
@@ -807,7 +807,7 @@ export class DataAwsIamPolicyDocumentStatementOutputReference extends cdktn.Comp
   }
 
   // sid - computed: false, optional: true, required: false
-  private _sid?: string;
+  private _sid?: string; 
   public get sid() {
     return this.getStringAttribute('sid');
   }
@@ -956,7 +956,7 @@ export class DataAwsIamPolicyDocument extends cdktn.TerraformDataSource {
   // ==========
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -982,7 +982,7 @@ export class DataAwsIamPolicyDocument extends cdktn.TerraformDataSource {
   }
 
   // override_json - computed: false, optional: true, required: false
-  private _overrideJson?: string;
+  private _overrideJson?: string; 
   public get overrideJson() {
     return this.getStringAttribute('override_json');
   }
@@ -998,7 +998,7 @@ export class DataAwsIamPolicyDocument extends cdktn.TerraformDataSource {
   }
 
   // override_policy_documents - computed: false, optional: true, required: false
-  private _overridePolicyDocuments?: string[];
+  private _overridePolicyDocuments?: string[]; 
   public get overridePolicyDocuments() {
     return this.getListAttribute('override_policy_documents');
   }
@@ -1014,7 +1014,7 @@ export class DataAwsIamPolicyDocument extends cdktn.TerraformDataSource {
   }
 
   // policy_id - computed: false, optional: true, required: false
-  private _policyId?: string;
+  private _policyId?: string; 
   public get policyId() {
     return this.getStringAttribute('policy_id');
   }
@@ -1030,7 +1030,7 @@ export class DataAwsIamPolicyDocument extends cdktn.TerraformDataSource {
   }
 
   // source_json - computed: false, optional: true, required: false
-  private _sourceJson?: string;
+  private _sourceJson?: string; 
   public get sourceJson() {
     return this.getStringAttribute('source_json');
   }
@@ -1046,7 +1046,7 @@ export class DataAwsIamPolicyDocument extends cdktn.TerraformDataSource {
   }
 
   // source_policy_documents - computed: false, optional: true, required: false
-  private _sourcePolicyDocuments?: string[];
+  private _sourcePolicyDocuments?: string[]; 
   public get sourcePolicyDocuments() {
     return this.getListAttribute('source_policy_documents');
   }
@@ -1062,7 +1062,7 @@ export class DataAwsIamPolicyDocument extends cdktn.TerraformDataSource {
   }
 
   // version - computed: false, optional: true, required: false
-  private _version?: string;
+  private _version?: string; 
   public get version() {
     return this.getStringAttribute('version');
   }

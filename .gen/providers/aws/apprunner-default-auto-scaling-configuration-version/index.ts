@@ -78,7 +78,7 @@ export class ApprunnerDefaultAutoScalingConfigurationVersion extends cdktn.Terra
   // ==========
 
   // auto_scaling_configuration_arn - computed: false, optional: false, required: true
-  private _autoScalingConfigurationArn?: string;
+  private _autoScalingConfigurationArn?: string; 
   public get autoScalingConfigurationArn() {
     return this.getStringAttribute('auto_scaling_configuration_arn');
   }
@@ -96,7 +96,7 @@ export class ApprunnerDefaultAutoScalingConfigurationVersion extends cdktn.Terra
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

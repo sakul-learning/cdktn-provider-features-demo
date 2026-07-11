@@ -144,7 +144,7 @@ export class VpclatticeResourceGatewayTagsOutputReference extends cdktn.ComplexO
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -160,7 +160,7 @@ export class VpclatticeResourceGatewayTagsOutputReference extends cdktn.ComplexO
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -271,7 +271,7 @@ export class VpclatticeResourceGateway extends cdktn.TerraformResource {
   }
 
   // ip_address_type - computed: true, optional: true, required: false
-  private _ipAddressType?: string;
+  private _ipAddressType?: string; 
   public get ipAddressType() {
     return this.getStringAttribute('ip_address_type');
   }
@@ -287,7 +287,7 @@ export class VpclatticeResourceGateway extends cdktn.TerraformResource {
   }
 
   // ipv_4_addresses_per_eni - computed: true, optional: true, required: false
-  private _ipv4AddressesPerEni?: number;
+  private _ipv4AddressesPerEni?: number; 
   public get ipv4AddressesPerEni() {
     return this.getNumberAttribute('ipv_4_addresses_per_eni');
   }
@@ -303,7 +303,7 @@ export class VpclatticeResourceGateway extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -316,7 +316,7 @@ export class VpclatticeResourceGateway extends cdktn.TerraformResource {
   }
 
   // resource_config_dns_resolution - computed: true, optional: true, required: false
-  private _resourceConfigDnsResolution?: string;
+  private _resourceConfigDnsResolution?: string; 
   public get resourceConfigDnsResolution() {
     return this.getStringAttribute('resource_config_dns_resolution');
   }
@@ -337,7 +337,7 @@ export class VpclatticeResourceGateway extends cdktn.TerraformResource {
   }
 
   // security_group_ids - computed: true, optional: true, required: false
-  private _securityGroupIds?: string[];
+  private _securityGroupIds?: string[]; 
   public get securityGroupIds() {
     return cdktn.Fn.tolist(this.getListAttribute('security_group_ids'));
   }
@@ -353,7 +353,7 @@ export class VpclatticeResourceGateway extends cdktn.TerraformResource {
   }
 
   // subnet_ids - computed: false, optional: false, required: true
-  private _subnetIds?: string[];
+  private _subnetIds?: string[]; 
   public get subnetIds() {
     return cdktn.Fn.tolist(this.getListAttribute('subnet_ids'));
   }
@@ -382,7 +382,7 @@ export class VpclatticeResourceGateway extends cdktn.TerraformResource {
   }
 
   // vpc_identifier - computed: false, optional: false, required: true
-  private _vpcIdentifier?: string;
+  private _vpcIdentifier?: string; 
   public get vpcIdentifier() {
     return this.getStringAttribute('vpc_identifier');
   }

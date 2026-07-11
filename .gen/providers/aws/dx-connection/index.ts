@@ -136,7 +136,7 @@ export class DxConnection extends cdktn.TerraformResource {
   }
 
   // bandwidth - computed: false, optional: false, required: true
-  private _bandwidth?: string;
+  private _bandwidth?: string; 
   public get bandwidth() {
     return this.getStringAttribute('bandwidth');
   }
@@ -149,7 +149,7 @@ export class DxConnection extends cdktn.TerraformResource {
   }
 
   // encryption_mode - computed: true, optional: true, required: false
-  private _encryptionMode?: string;
+  private _encryptionMode?: string; 
   public get encryptionMode() {
     return this.getStringAttribute('encryption_mode');
   }
@@ -170,7 +170,7 @@ export class DxConnection extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -191,7 +191,7 @@ export class DxConnection extends cdktn.TerraformResource {
   }
 
   // location - computed: false, optional: false, required: true
-  private _location?: string;
+  private _location?: string; 
   public get location() {
     return this.getStringAttribute('location');
   }
@@ -209,7 +209,7 @@ export class DxConnection extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -237,7 +237,7 @@ export class DxConnection extends cdktn.TerraformResource {
   }
 
   // provider_name - computed: true, optional: true, required: false
-  private _providerName?: string;
+  private _providerName?: string; 
   public get providerName() {
     return this.getStringAttribute('provider_name');
   }
@@ -253,7 +253,7 @@ export class DxConnection extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -269,7 +269,7 @@ export class DxConnection extends cdktn.TerraformResource {
   }
 
   // request_macsec - computed: false, optional: true, required: false
-  private _requestMacsec?: boolean | cdktn.IResolvable;
+  private _requestMacsec?: boolean | cdktn.IResolvable; 
   public get requestMacsec() {
     return this.getBooleanAttribute('request_macsec');
   }
@@ -285,7 +285,7 @@ export class DxConnection extends cdktn.TerraformResource {
   }
 
   // skip_destroy - computed: false, optional: true, required: false
-  private _skipDestroy?: boolean | cdktn.IResolvable;
+  private _skipDestroy?: boolean | cdktn.IResolvable; 
   public get skipDestroy() {
     return this.getBooleanAttribute('skip_destroy');
   }
@@ -301,7 +301,7 @@ export class DxConnection extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -317,7 +317,7 @@ export class DxConnection extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

@@ -248,7 +248,7 @@ export class CodepipelineCustomActionTypeConfigurationPropertyOutputReference ex
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -264,7 +264,7 @@ export class CodepipelineCustomActionTypeConfigurationPropertyOutputReference ex
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: boolean | cdktn.IResolvable;
+  private _key?: boolean | cdktn.IResolvable; 
   public get key() {
     return this.getBooleanAttribute('key');
   }
@@ -277,7 +277,7 @@ export class CodepipelineCustomActionTypeConfigurationPropertyOutputReference ex
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -290,7 +290,7 @@ export class CodepipelineCustomActionTypeConfigurationPropertyOutputReference ex
   }
 
   // queryable - computed: false, optional: true, required: false
-  private _queryable?: boolean | cdktn.IResolvable;
+  private _queryable?: boolean | cdktn.IResolvable; 
   public get queryable() {
     return this.getBooleanAttribute('queryable');
   }
@@ -306,7 +306,7 @@ export class CodepipelineCustomActionTypeConfigurationPropertyOutputReference ex
   }
 
   // required - computed: false, optional: false, required: true
-  private _required?: boolean | cdktn.IResolvable;
+  private _required?: boolean | cdktn.IResolvable; 
   public get required() {
     return this.getBooleanAttribute('required');
   }
@@ -319,7 +319,7 @@ export class CodepipelineCustomActionTypeConfigurationPropertyOutputReference ex
   }
 
   // secret - computed: false, optional: false, required: true
-  private _secret?: boolean | cdktn.IResolvable;
+  private _secret?: boolean | cdktn.IResolvable; 
   public get secret() {
     return this.getBooleanAttribute('secret');
   }
@@ -332,7 +332,7 @@ export class CodepipelineCustomActionTypeConfigurationPropertyOutputReference ex
   }
 
   // type - computed: false, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -453,7 +453,7 @@ export class CodepipelineCustomActionTypeInputArtifactDetailsOutputReference ext
   }
 
   // maximum_count - computed: false, optional: false, required: true
-  private _maximumCount?: number;
+  private _maximumCount?: number; 
   public get maximumCount() {
     return this.getNumberAttribute('maximum_count');
   }
@@ -466,7 +466,7 @@ export class CodepipelineCustomActionTypeInputArtifactDetailsOutputReference ext
   }
 
   // minimum_count - computed: false, optional: false, required: true
-  private _minimumCount?: number;
+  private _minimumCount?: number; 
   public get minimumCount() {
     return this.getNumberAttribute('minimum_count');
   }
@@ -564,7 +564,7 @@ export class CodepipelineCustomActionTypeOutputArtifactDetailsOutputReference ex
   }
 
   // maximum_count - computed: false, optional: false, required: true
-  private _maximumCount?: number;
+  private _maximumCount?: number; 
   public get maximumCount() {
     return this.getNumberAttribute('maximum_count');
   }
@@ -577,7 +577,7 @@ export class CodepipelineCustomActionTypeOutputArtifactDetailsOutputReference ex
   }
 
   // minimum_count - computed: false, optional: false, required: true
-  private _minimumCount?: number;
+  private _minimumCount?: number; 
   public get minimumCount() {
     return this.getNumberAttribute('minimum_count');
   }
@@ -709,7 +709,7 @@ export class CodepipelineCustomActionTypeSettingsOutputReference extends cdktn.C
   }
 
   // entity_url_template - computed: false, optional: true, required: false
-  private _entityUrlTemplate?: string;
+  private _entityUrlTemplate?: string; 
   public get entityUrlTemplate() {
     return this.getStringAttribute('entity_url_template');
   }
@@ -725,7 +725,7 @@ export class CodepipelineCustomActionTypeSettingsOutputReference extends cdktn.C
   }
 
   // execution_url_template - computed: false, optional: true, required: false
-  private _executionUrlTemplate?: string;
+  private _executionUrlTemplate?: string; 
   public get executionUrlTemplate() {
     return this.getStringAttribute('execution_url_template');
   }
@@ -741,7 +741,7 @@ export class CodepipelineCustomActionTypeSettingsOutputReference extends cdktn.C
   }
 
   // revision_url_template - computed: false, optional: true, required: false
-  private _revisionUrlTemplate?: string;
+  private _revisionUrlTemplate?: string; 
   public get revisionUrlTemplate() {
     return this.getStringAttribute('revision_url_template');
   }
@@ -757,7 +757,7 @@ export class CodepipelineCustomActionTypeSettingsOutputReference extends cdktn.C
   }
 
   // third_party_configuration_url - computed: false, optional: true, required: false
-  private _thirdPartyConfigurationUrl?: string;
+  private _thirdPartyConfigurationUrl?: string; 
   public get thirdPartyConfigurationUrl() {
     return this.getStringAttribute('third_party_configuration_url');
   }
@@ -846,7 +846,7 @@ export class CodepipelineCustomActionType extends cdktn.TerraformResource {
   }
 
   // category - computed: false, optional: false, required: true
-  private _category?: string;
+  private _category?: string; 
   public get category() {
     return this.getStringAttribute('category');
   }
@@ -859,7 +859,7 @@ export class CodepipelineCustomActionType extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -880,7 +880,7 @@ export class CodepipelineCustomActionType extends cdktn.TerraformResource {
   }
 
   // provider_name - computed: false, optional: false, required: true
-  private _providerName?: string;
+  private _providerName?: string; 
   public get providerName() {
     return this.getStringAttribute('provider_name');
   }
@@ -893,7 +893,7 @@ export class CodepipelineCustomActionType extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -909,7 +909,7 @@ export class CodepipelineCustomActionType extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -925,7 +925,7 @@ export class CodepipelineCustomActionType extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -941,7 +941,7 @@ export class CodepipelineCustomActionType extends cdktn.TerraformResource {
   }
 
   // version - computed: false, optional: false, required: true
-  private _version?: string;
+  private _version?: string; 
   public get version() {
     return this.getStringAttribute('version');
   }

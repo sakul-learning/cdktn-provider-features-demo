@@ -156,7 +156,7 @@ export class EcsDaemonDeploymentConfigurationAlarmsOutputReference extends cdktn
   }
 
   // alarm_names - computed: false, optional: true, required: false
-  private _alarmNames?: string[];
+  private _alarmNames?: string[]; 
   public get alarmNames() {
     return this.getListAttribute('alarm_names');
   }
@@ -172,7 +172,7 @@ export class EcsDaemonDeploymentConfigurationAlarmsOutputReference extends cdktn
   }
 
   // enable - computed: true, optional: true, required: false
-  private _enable?: boolean | cdktn.IResolvable;
+  private _enable?: boolean | cdktn.IResolvable; 
   public get enable() {
     return this.getBooleanAttribute('enable');
   }
@@ -324,7 +324,7 @@ export class EcsDaemonDeploymentConfigurationOutputReference extends cdktn.Compl
   }
 
   // bake_time_in_minutes - computed: true, optional: true, required: false
-  private _bakeTimeInMinutes?: number;
+  private _bakeTimeInMinutes?: number; 
   public get bakeTimeInMinutes() {
     return this.getNumberAttribute('bake_time_in_minutes');
   }
@@ -340,7 +340,7 @@ export class EcsDaemonDeploymentConfigurationOutputReference extends cdktn.Compl
   }
 
   // drain_percent - computed: false, optional: true, required: false
-  private _drainPercent?: number;
+  private _drainPercent?: number; 
   public get drainPercent() {
     return this.getNumberAttribute('drain_percent');
   }
@@ -510,7 +510,7 @@ export class EcsDaemonTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -526,7 +526,7 @@ export class EcsDaemonTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -542,7 +542,7 @@ export class EcsDaemonTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -631,7 +631,7 @@ export class EcsDaemon extends cdktn.TerraformResource {
   }
 
   // capacity_provider_arns - computed: false, optional: false, required: true
-  private _capacityProviderArns?: string[];
+  private _capacityProviderArns?: string[]; 
   public get capacityProviderArns() {
     return cdktn.Fn.tolist(this.getListAttribute('capacity_provider_arns'));
   }
@@ -644,7 +644,7 @@ export class EcsDaemon extends cdktn.TerraformResource {
   }
 
   // cluster_arn - computed: true, optional: true, required: false
-  private _clusterArn?: string;
+  private _clusterArn?: string; 
   public get clusterArn() {
     return this.getStringAttribute('cluster_arn');
   }
@@ -660,7 +660,7 @@ export class EcsDaemon extends cdktn.TerraformResource {
   }
 
   // daemon_task_definition_arn - computed: false, optional: false, required: true
-  private _daemonTaskDefinitionArn?: string;
+  private _daemonTaskDefinitionArn?: string; 
   public get daemonTaskDefinitionArn() {
     return this.getStringAttribute('daemon_task_definition_arn');
   }
@@ -678,7 +678,7 @@ export class EcsDaemon extends cdktn.TerraformResource {
   }
 
   // enable_ecs_managed_tags - computed: false, optional: true, required: false
-  private _enableEcsManagedTags?: boolean | cdktn.IResolvable;
+  private _enableEcsManagedTags?: boolean | cdktn.IResolvable; 
   public get enableEcsManagedTags() {
     return this.getBooleanAttribute('enable_ecs_managed_tags');
   }
@@ -694,7 +694,7 @@ export class EcsDaemon extends cdktn.TerraformResource {
   }
 
   // enable_execute_command - computed: false, optional: true, required: false
-  private _enableExecuteCommand?: boolean | cdktn.IResolvable;
+  private _enableExecuteCommand?: boolean | cdktn.IResolvable; 
   public get enableExecuteCommand() {
     return this.getBooleanAttribute('enable_execute_command');
   }
@@ -710,7 +710,7 @@ export class EcsDaemon extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -723,7 +723,7 @@ export class EcsDaemon extends cdktn.TerraformResource {
   }
 
   // propagate_tags - computed: false, optional: true, required: false
-  private _propagateTags?: string;
+  private _propagateTags?: string; 
   public get propagateTags() {
     return this.getStringAttribute('propagate_tags');
   }
@@ -739,7 +739,7 @@ export class EcsDaemon extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -760,7 +760,7 @@ export class EcsDaemon extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

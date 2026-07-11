@@ -116,7 +116,7 @@ export class CloudwatchEventArchive extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -132,7 +132,7 @@ export class CloudwatchEventArchive extends cdktn.TerraformResource {
   }
 
   // event_pattern - computed: false, optional: true, required: false
-  private _eventPattern?: string;
+  private _eventPattern?: string; 
   public get eventPattern() {
     return this.getStringAttribute('event_pattern');
   }
@@ -148,7 +148,7 @@ export class CloudwatchEventArchive extends cdktn.TerraformResource {
   }
 
   // event_source_arn - computed: false, optional: false, required: true
-  private _eventSourceArn?: string;
+  private _eventSourceArn?: string; 
   public get eventSourceArn() {
     return this.getStringAttribute('event_source_arn');
   }
@@ -161,7 +161,7 @@ export class CloudwatchEventArchive extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -177,7 +177,7 @@ export class CloudwatchEventArchive extends cdktn.TerraformResource {
   }
 
   // kms_key_identifier - computed: false, optional: true, required: false
-  private _kmsKeyIdentifier?: string;
+  private _kmsKeyIdentifier?: string; 
   public get kmsKeyIdentifier() {
     return this.getStringAttribute('kms_key_identifier');
   }
@@ -193,7 +193,7 @@ export class CloudwatchEventArchive extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -206,7 +206,7 @@ export class CloudwatchEventArchive extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -222,7 +222,7 @@ export class CloudwatchEventArchive extends cdktn.TerraformResource {
   }
 
   // retention_days - computed: false, optional: true, required: false
-  private _retentionDays?: number;
+  private _retentionDays?: number; 
   public get retentionDays() {
     return this.getNumberAttribute('retention_days');
   }

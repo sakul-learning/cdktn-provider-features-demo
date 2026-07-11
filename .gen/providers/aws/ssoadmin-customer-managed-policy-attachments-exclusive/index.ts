@@ -132,7 +132,7 @@ export class SsoadminCustomerManagedPolicyAttachmentsExclusiveCustomerManagedPol
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -145,7 +145,7 @@ export class SsoadminCustomerManagedPolicyAttachmentsExclusiveCustomerManagedPol
   }
 
   // path - computed: true, optional: true, required: false
-  private _path?: string;
+  private _path?: string; 
   public get path() {
     return this.getStringAttribute('path');
   }
@@ -280,7 +280,7 @@ export class SsoadminCustomerManagedPolicyAttachmentsExclusiveTimeoutsOutputRefe
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -296,7 +296,7 @@ export class SsoadminCustomerManagedPolicyAttachmentsExclusiveTimeoutsOutputRefe
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -374,7 +374,7 @@ export class SsoadminCustomerManagedPolicyAttachmentsExclusive extends cdktn.Ter
   // ==========
 
   // instance_arn - computed: false, optional: false, required: true
-  private _instanceArn?: string;
+  private _instanceArn?: string; 
   public get instanceArn() {
     return this.getStringAttribute('instance_arn');
   }
@@ -387,7 +387,7 @@ export class SsoadminCustomerManagedPolicyAttachmentsExclusive extends cdktn.Ter
   }
 
   // permission_set_arn - computed: false, optional: false, required: true
-  private _permissionSetArn?: string;
+  private _permissionSetArn?: string; 
   public get permissionSetArn() {
     return this.getStringAttribute('permission_set_arn');
   }
@@ -400,7 +400,7 @@ export class SsoadminCustomerManagedPolicyAttachmentsExclusive extends cdktn.Ter
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

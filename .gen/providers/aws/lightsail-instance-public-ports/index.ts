@@ -197,7 +197,7 @@ export class LightsailInstancePublicPortsPortInfoOutputReference extends cdktn.C
   }
 
   // cidr_list_aliases - computed: true, optional: true, required: false
-  private _cidrListAliases?: string[];
+  private _cidrListAliases?: string[]; 
   public get cidrListAliases() {
     return cdktn.Fn.tolist(this.getListAttribute('cidr_list_aliases'));
   }
@@ -213,7 +213,7 @@ export class LightsailInstancePublicPortsPortInfoOutputReference extends cdktn.C
   }
 
   // cidrs - computed: true, optional: true, required: false
-  private _cidrs?: string[];
+  private _cidrs?: string[]; 
   public get cidrs() {
     return cdktn.Fn.tolist(this.getListAttribute('cidrs'));
   }
@@ -229,7 +229,7 @@ export class LightsailInstancePublicPortsPortInfoOutputReference extends cdktn.C
   }
 
   // from_port - computed: false, optional: false, required: true
-  private _fromPort?: number;
+  private _fromPort?: number; 
   public get fromPort() {
     return this.getNumberAttribute('from_port');
   }
@@ -242,7 +242,7 @@ export class LightsailInstancePublicPortsPortInfoOutputReference extends cdktn.C
   }
 
   // ipv6_cidrs - computed: true, optional: true, required: false
-  private _ipv6Cidrs?: string[];
+  private _ipv6Cidrs?: string[]; 
   public get ipv6Cidrs() {
     return cdktn.Fn.tolist(this.getListAttribute('ipv6_cidrs'));
   }
@@ -258,7 +258,7 @@ export class LightsailInstancePublicPortsPortInfoOutputReference extends cdktn.C
   }
 
   // protocol - computed: false, optional: false, required: true
-  private _protocol?: string;
+  private _protocol?: string; 
   public get protocol() {
     return this.getStringAttribute('protocol');
   }
@@ -271,7 +271,7 @@ export class LightsailInstancePublicPortsPortInfoOutputReference extends cdktn.C
   }
 
   // to_port - computed: false, optional: false, required: true
-  private _toPort?: number;
+  private _toPort?: number; 
   public get toPort() {
     return this.getNumberAttribute('to_port');
   }
@@ -365,7 +365,7 @@ export class LightsailInstancePublicPorts extends cdktn.TerraformResource {
   // ==========
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -381,7 +381,7 @@ export class LightsailInstancePublicPorts extends cdktn.TerraformResource {
   }
 
   // instance_name - computed: false, optional: false, required: true
-  private _instanceName?: string;
+  private _instanceName?: string; 
   public get instanceName() {
     return this.getStringAttribute('instance_name');
   }
@@ -394,7 +394,7 @@ export class LightsailInstancePublicPorts extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

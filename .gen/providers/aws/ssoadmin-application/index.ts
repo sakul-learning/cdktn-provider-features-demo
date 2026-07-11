@@ -146,7 +146,7 @@ export class SsoadminApplicationPortalOptionsSignInOptionsOutputReference extend
   }
 
   // application_url - computed: false, optional: true, required: false
-  private _applicationUrl?: string;
+  private _applicationUrl?: string; 
   public get applicationUrl() {
     return this.getStringAttribute('application_url');
   }
@@ -162,7 +162,7 @@ export class SsoadminApplicationPortalOptionsSignInOptionsOutputReference extend
   }
 
   // origin - computed: false, optional: false, required: true
-  private _origin?: string;
+  private _origin?: string; 
   public get origin() {
     return this.getStringAttribute('origin');
   }
@@ -294,7 +294,7 @@ export class SsoadminApplicationPortalOptionsOutputReference extends cdktn.Compl
   }
 
   // visibility - computed: true, optional: true, required: false
-  private _visibility?: string;
+  private _visibility?: string; 
   public get visibility() {
     return this.getStringAttribute('visibility');
   }
@@ -422,7 +422,7 @@ export class SsoadminApplication extends cdktn.TerraformResource {
   }
 
   // application_provider_arn - computed: false, optional: false, required: true
-  private _applicationProviderArn?: string;
+  private _applicationProviderArn?: string; 
   public get applicationProviderArn() {
     return this.getStringAttribute('application_provider_arn');
   }
@@ -440,7 +440,7 @@ export class SsoadminApplication extends cdktn.TerraformResource {
   }
 
   // client_token - computed: false, optional: true, required: false
-  private _clientToken?: string;
+  private _clientToken?: string; 
   public get clientToken() {
     return this.getStringAttribute('client_token');
   }
@@ -456,7 +456,7 @@ export class SsoadminApplication extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -477,7 +477,7 @@ export class SsoadminApplication extends cdktn.TerraformResource {
   }
 
   // instance_arn - computed: false, optional: false, required: true
-  private _instanceArn?: string;
+  private _instanceArn?: string; 
   public get instanceArn() {
     return this.getStringAttribute('instance_arn');
   }
@@ -490,7 +490,7 @@ export class SsoadminApplication extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -503,7 +503,7 @@ export class SsoadminApplication extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -519,7 +519,7 @@ export class SsoadminApplication extends cdktn.TerraformResource {
   }
 
   // status - computed: true, optional: true, required: false
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -535,7 +535,7 @@ export class SsoadminApplication extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

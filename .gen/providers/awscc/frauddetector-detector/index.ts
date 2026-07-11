@@ -133,7 +133,7 @@ export class FrauddetectorDetectorAssociatedModelsOutputReference extends cdktn.
   }
 
   // arn - computed: true, optional: true, required: false
-  private _arn?: string;
+  private _arn?: string; 
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -266,7 +266,7 @@ export class FrauddetectorDetectorEventTypeEntityTypesTagsOutputReference extend
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -282,7 +282,7 @@ export class FrauddetectorDetectorEventTypeEntityTypesTagsOutputReference extend
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -508,7 +508,7 @@ export class FrauddetectorDetectorEventTypeEntityTypesOutputReference extends cd
   }
 
   // arn - computed: true, optional: true, required: false
-  private _arn?: string;
+  private _arn?: string; 
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -524,7 +524,7 @@ export class FrauddetectorDetectorEventTypeEntityTypesOutputReference extends cd
   }
 
   // created_time - computed: true, optional: true, required: false
-  private _createdTime?: string;
+  private _createdTime?: string; 
   public get createdTime() {
     return this.getStringAttribute('created_time');
   }
@@ -540,7 +540,7 @@ export class FrauddetectorDetectorEventTypeEntityTypesOutputReference extends cd
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -556,7 +556,7 @@ export class FrauddetectorDetectorEventTypeEntityTypesOutputReference extends cd
   }
 
   // inline - computed: true, optional: true, required: false
-  private _inline?: boolean | cdktn.IResolvable;
+  private _inline?: boolean | cdktn.IResolvable; 
   public get inline() {
     return this.getBooleanAttribute('inline');
   }
@@ -572,7 +572,7 @@ export class FrauddetectorDetectorEventTypeEntityTypesOutputReference extends cd
   }
 
   // last_updated_time - computed: true, optional: true, required: false
-  private _lastUpdatedTime?: string;
+  private _lastUpdatedTime?: string; 
   public get lastUpdatedTime() {
     return this.getStringAttribute('last_updated_time');
   }
@@ -588,7 +588,7 @@ export class FrauddetectorDetectorEventTypeEntityTypesOutputReference extends cd
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -737,7 +737,7 @@ export class FrauddetectorDetectorEventTypeEventVariablesTagsOutputReference ext
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -753,7 +753,7 @@ export class FrauddetectorDetectorEventTypeEventVariablesTagsOutputReference ext
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1047,7 +1047,7 @@ export class FrauddetectorDetectorEventTypeEventVariablesOutputReference extends
   }
 
   // arn - computed: true, optional: true, required: false
-  private _arn?: string;
+  private _arn?: string; 
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -1063,7 +1063,7 @@ export class FrauddetectorDetectorEventTypeEventVariablesOutputReference extends
   }
 
   // created_time - computed: true, optional: true, required: false
-  private _createdTime?: string;
+  private _createdTime?: string; 
   public get createdTime() {
     return this.getStringAttribute('created_time');
   }
@@ -1079,7 +1079,7 @@ export class FrauddetectorDetectorEventTypeEventVariablesOutputReference extends
   }
 
   // data_source - computed: true, optional: true, required: false
-  private _dataSource?: string;
+  private _dataSource?: string; 
   public get dataSource() {
     return this.getStringAttribute('data_source');
   }
@@ -1095,7 +1095,7 @@ export class FrauddetectorDetectorEventTypeEventVariablesOutputReference extends
   }
 
   // data_type - computed: true, optional: true, required: false
-  private _dataType?: string;
+  private _dataType?: string; 
   public get dataType() {
     return this.getStringAttribute('data_type');
   }
@@ -1111,7 +1111,7 @@ export class FrauddetectorDetectorEventTypeEventVariablesOutputReference extends
   }
 
   // default_value - computed: true, optional: true, required: false
-  private _defaultValue?: string;
+  private _defaultValue?: string; 
   public get defaultValue() {
     return this.getStringAttribute('default_value');
   }
@@ -1127,7 +1127,7 @@ export class FrauddetectorDetectorEventTypeEventVariablesOutputReference extends
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1143,7 +1143,7 @@ export class FrauddetectorDetectorEventTypeEventVariablesOutputReference extends
   }
 
   // inline - computed: true, optional: true, required: false
-  private _inline?: boolean | cdktn.IResolvable;
+  private _inline?: boolean | cdktn.IResolvable; 
   public get inline() {
     return this.getBooleanAttribute('inline');
   }
@@ -1159,7 +1159,7 @@ export class FrauddetectorDetectorEventTypeEventVariablesOutputReference extends
   }
 
   // last_updated_time - computed: true, optional: true, required: false
-  private _lastUpdatedTime?: string;
+  private _lastUpdatedTime?: string; 
   public get lastUpdatedTime() {
     return this.getStringAttribute('last_updated_time');
   }
@@ -1175,7 +1175,7 @@ export class FrauddetectorDetectorEventTypeEventVariablesOutputReference extends
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1207,7 +1207,7 @@ export class FrauddetectorDetectorEventTypeEventVariablesOutputReference extends
   }
 
   // variable_type - computed: true, optional: true, required: false
-  private _variableType?: string;
+  private _variableType?: string; 
   public get variableType() {
     return this.getStringAttribute('variable_type');
   }
@@ -1340,7 +1340,7 @@ export class FrauddetectorDetectorEventTypeLabelsTagsOutputReference extends cdk
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1356,7 +1356,7 @@ export class FrauddetectorDetectorEventTypeLabelsTagsOutputReference extends cdk
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1582,7 +1582,7 @@ export class FrauddetectorDetectorEventTypeLabelsOutputReference extends cdktn.C
   }
 
   // arn - computed: true, optional: true, required: false
-  private _arn?: string;
+  private _arn?: string; 
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -1598,7 +1598,7 @@ export class FrauddetectorDetectorEventTypeLabelsOutputReference extends cdktn.C
   }
 
   // created_time - computed: true, optional: true, required: false
-  private _createdTime?: string;
+  private _createdTime?: string; 
   public get createdTime() {
     return this.getStringAttribute('created_time');
   }
@@ -1614,7 +1614,7 @@ export class FrauddetectorDetectorEventTypeLabelsOutputReference extends cdktn.C
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1630,7 +1630,7 @@ export class FrauddetectorDetectorEventTypeLabelsOutputReference extends cdktn.C
   }
 
   // inline - computed: true, optional: true, required: false
-  private _inline?: boolean | cdktn.IResolvable;
+  private _inline?: boolean | cdktn.IResolvable; 
   public get inline() {
     return this.getBooleanAttribute('inline');
   }
@@ -1646,7 +1646,7 @@ export class FrauddetectorDetectorEventTypeLabelsOutputReference extends cdktn.C
   }
 
   // last_updated_time - computed: true, optional: true, required: false
-  private _lastUpdatedTime?: string;
+  private _lastUpdatedTime?: string; 
   public get lastUpdatedTime() {
     return this.getStringAttribute('last_updated_time');
   }
@@ -1662,7 +1662,7 @@ export class FrauddetectorDetectorEventTypeLabelsOutputReference extends cdktn.C
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1811,7 +1811,7 @@ export class FrauddetectorDetectorEventTypeTagsOutputReference extends cdktn.Com
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1827,7 +1827,7 @@ export class FrauddetectorDetectorEventTypeTagsOutputReference extends cdktn.Com
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2059,7 +2059,7 @@ export class FrauddetectorDetectorEventTypeOutputReference extends cdktn.Complex
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -2107,7 +2107,7 @@ export class FrauddetectorDetectorEventTypeOutputReference extends cdktn.Complex
   }
 
   // inline - computed: true, optional: true, required: false
-  private _inline?: boolean | cdktn.IResolvable;
+  private _inline?: boolean | cdktn.IResolvable; 
   public get inline() {
     return this.getBooleanAttribute('inline');
   }
@@ -2144,7 +2144,7 @@ export class FrauddetectorDetectorEventTypeOutputReference extends cdktn.Complex
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2273,7 +2273,7 @@ export class FrauddetectorDetectorRulesOutcomesTagsOutputReference extends cdktn
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -2289,7 +2289,7 @@ export class FrauddetectorDetectorRulesOutcomesTagsOutputReference extends cdktn
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2515,7 +2515,7 @@ export class FrauddetectorDetectorRulesOutcomesOutputReference extends cdktn.Com
   }
 
   // arn - computed: true, optional: true, required: false
-  private _arn?: string;
+  private _arn?: string; 
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -2531,7 +2531,7 @@ export class FrauddetectorDetectorRulesOutcomesOutputReference extends cdktn.Com
   }
 
   // created_time - computed: true, optional: true, required: false
-  private _createdTime?: string;
+  private _createdTime?: string; 
   public get createdTime() {
     return this.getStringAttribute('created_time');
   }
@@ -2547,7 +2547,7 @@ export class FrauddetectorDetectorRulesOutcomesOutputReference extends cdktn.Com
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -2563,7 +2563,7 @@ export class FrauddetectorDetectorRulesOutcomesOutputReference extends cdktn.Com
   }
 
   // inline - computed: true, optional: true, required: false
-  private _inline?: boolean | cdktn.IResolvable;
+  private _inline?: boolean | cdktn.IResolvable; 
   public get inline() {
     return this.getBooleanAttribute('inline');
   }
@@ -2579,7 +2579,7 @@ export class FrauddetectorDetectorRulesOutcomesOutputReference extends cdktn.Com
   }
 
   // last_updated_time - computed: true, optional: true, required: false
-  private _lastUpdatedTime?: string;
+  private _lastUpdatedTime?: string; 
   public get lastUpdatedTime() {
     return this.getStringAttribute('last_updated_time');
   }
@@ -2595,7 +2595,7 @@ export class FrauddetectorDetectorRulesOutcomesOutputReference extends cdktn.Com
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2744,7 +2744,7 @@ export class FrauddetectorDetectorRulesTagsOutputReference extends cdktn.Complex
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -2760,7 +2760,7 @@ export class FrauddetectorDetectorRulesTagsOutputReference extends cdktn.Complex
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -3054,7 +3054,7 @@ export class FrauddetectorDetectorRulesOutputReference extends cdktn.ComplexObje
   }
 
   // arn - computed: true, optional: true, required: false
-  private _arn?: string;
+  private _arn?: string; 
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -3070,7 +3070,7 @@ export class FrauddetectorDetectorRulesOutputReference extends cdktn.ComplexObje
   }
 
   // created_time - computed: true, optional: true, required: false
-  private _createdTime?: string;
+  private _createdTime?: string; 
   public get createdTime() {
     return this.getStringAttribute('created_time');
   }
@@ -3086,7 +3086,7 @@ export class FrauddetectorDetectorRulesOutputReference extends cdktn.ComplexObje
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -3102,7 +3102,7 @@ export class FrauddetectorDetectorRulesOutputReference extends cdktn.ComplexObje
   }
 
   // detector_id - computed: true, optional: true, required: false
-  private _detectorId?: string;
+  private _detectorId?: string; 
   public get detectorId() {
     return this.getStringAttribute('detector_id');
   }
@@ -3118,7 +3118,7 @@ export class FrauddetectorDetectorRulesOutputReference extends cdktn.ComplexObje
   }
 
   // expression - computed: true, optional: true, required: false
-  private _expression?: string;
+  private _expression?: string; 
   public get expression() {
     return this.getStringAttribute('expression');
   }
@@ -3134,7 +3134,7 @@ export class FrauddetectorDetectorRulesOutputReference extends cdktn.ComplexObje
   }
 
   // language - computed: true, optional: true, required: false
-  private _language?: string;
+  private _language?: string; 
   public get language() {
     return this.getStringAttribute('language');
   }
@@ -3150,7 +3150,7 @@ export class FrauddetectorDetectorRulesOutputReference extends cdktn.ComplexObje
   }
 
   // last_updated_time - computed: true, optional: true, required: false
-  private _lastUpdatedTime?: string;
+  private _lastUpdatedTime?: string; 
   public get lastUpdatedTime() {
     return this.getStringAttribute('last_updated_time');
   }
@@ -3182,7 +3182,7 @@ export class FrauddetectorDetectorRulesOutputReference extends cdktn.ComplexObje
   }
 
   // rule_id - computed: true, optional: true, required: false
-  private _ruleId?: string;
+  private _ruleId?: string; 
   public get ruleId() {
     return this.getStringAttribute('rule_id');
   }
@@ -3198,7 +3198,7 @@ export class FrauddetectorDetectorRulesOutputReference extends cdktn.ComplexObje
   }
 
   // rule_version - computed: true, optional: true, required: false
-  private _ruleVersion?: string;
+  private _ruleVersion?: string; 
   public get ruleVersion() {
     return this.getStringAttribute('rule_version');
   }
@@ -3347,7 +3347,7 @@ export class FrauddetectorDetectorTagsOutputReference extends cdktn.ComplexObjec
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -3363,7 +3363,7 @@ export class FrauddetectorDetectorTagsOutputReference extends cdktn.ComplexObjec
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -3490,7 +3490,7 @@ export class FrauddetectorDetector extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -3506,7 +3506,7 @@ export class FrauddetectorDetector extends cdktn.TerraformResource {
   }
 
   // detector_id - computed: false, optional: false, required: true
-  private _detectorId?: string;
+  private _detectorId?: string; 
   public get detectorId() {
     return this.getStringAttribute('detector_id');
   }
@@ -3524,7 +3524,7 @@ export class FrauddetectorDetector extends cdktn.TerraformResource {
   }
 
   // detector_version_status - computed: true, optional: true, required: false
-  private _detectorVersionStatus?: string;
+  private _detectorVersionStatus?: string; 
   public get detectorVersionStatus() {
     return this.getStringAttribute('detector_version_status');
   }
@@ -3563,7 +3563,7 @@ export class FrauddetectorDetector extends cdktn.TerraformResource {
   }
 
   // rule_execution_mode - computed: true, optional: true, required: false
-  private _ruleExecutionMode?: string;
+  private _ruleExecutionMode?: string; 
   public get ruleExecutionMode() {
     return this.getStringAttribute('rule_execution_mode');
   }

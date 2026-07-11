@@ -121,7 +121,7 @@ export class S3ControlObjectLambdaAccessPointConfigurationTransformationConfigur
   }
 
   // function_arn - computed: false, optional: false, required: true
-  private _functionArn?: string;
+  private _functionArn?: string; 
   public get functionArn() {
     return this.getStringAttribute('function_arn');
   }
@@ -134,7 +134,7 @@ export class S3ControlObjectLambdaAccessPointConfigurationTransformationConfigur
   }
 
   // function_payload - computed: false, optional: true, required: false
-  private _functionPayload?: string;
+  private _functionPayload?: string; 
   public get functionPayload() {
     return this.getStringAttribute('function_payload');
   }
@@ -332,7 +332,7 @@ export class S3ControlObjectLambdaAccessPointConfigurationTransformationConfigur
   }
 
   // actions - computed: false, optional: false, required: true
-  private _actions?: string[];
+  private _actions?: string[]; 
   public get actions() {
     return cdktn.Fn.tolist(this.getListAttribute('actions'));
   }
@@ -499,7 +499,7 @@ export class S3ControlObjectLambdaAccessPointConfigurationOutputReference extend
   }
 
   // allowed_features - computed: false, optional: true, required: false
-  private _allowedFeatures?: string[];
+  private _allowedFeatures?: string[]; 
   public get allowedFeatures() {
     return cdktn.Fn.tolist(this.getListAttribute('allowed_features'));
   }
@@ -515,7 +515,7 @@ export class S3ControlObjectLambdaAccessPointConfigurationOutputReference extend
   }
 
   // cloud_watch_metrics_enabled - computed: false, optional: true, required: false
-  private _cloudWatchMetricsEnabled?: boolean | cdktn.IResolvable;
+  private _cloudWatchMetricsEnabled?: boolean | cdktn.IResolvable; 
   public get cloudWatchMetricsEnabled() {
     return this.getBooleanAttribute('cloud_watch_metrics_enabled');
   }
@@ -531,7 +531,7 @@ export class S3ControlObjectLambdaAccessPointConfigurationOutputReference extend
   }
 
   // supporting_access_point - computed: false, optional: false, required: true
-  private _supportingAccessPoint?: string;
+  private _supportingAccessPoint?: string; 
   public get supportingAccessPoint() {
     return this.getStringAttribute('supporting_access_point');
   }
@@ -619,7 +619,7 @@ export class S3ControlObjectLambdaAccessPoint extends cdktn.TerraformResource {
   // ==========
 
   // account_id - computed: true, optional: true, required: false
-  private _accountId?: string;
+  private _accountId?: string; 
   public get accountId() {
     return this.getStringAttribute('account_id');
   }
@@ -645,7 +645,7 @@ export class S3ControlObjectLambdaAccessPoint extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -661,7 +661,7 @@ export class S3ControlObjectLambdaAccessPoint extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -674,7 +674,7 @@ export class S3ControlObjectLambdaAccessPoint extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

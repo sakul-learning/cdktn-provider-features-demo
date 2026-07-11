@@ -85,7 +85,7 @@ export class SqsQueueInlinePolicy extends cdktn.TerraformResource {
   }
 
   // policy_document - computed: false, optional: false, required: true
-  private _policyDocument?: string;
+  private _policyDocument?: string; 
   public get policyDocument() {
     return this.getStringAttribute('policy_document');
   }
@@ -98,7 +98,7 @@ export class SqsQueueInlinePolicy extends cdktn.TerraformResource {
   }
 
   // queue - computed: false, optional: false, required: true
-  private _queue?: string;
+  private _queue?: string; 
   public get queue() {
     return this.getStringAttribute('queue');
   }

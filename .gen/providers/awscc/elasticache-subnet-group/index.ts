@@ -128,7 +128,7 @@ export class ElasticacheSubnetGroupTagsOutputReference extends cdktn.ComplexObje
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -144,7 +144,7 @@ export class ElasticacheSubnetGroupTagsOutputReference extends cdktn.ComplexObje
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -241,7 +241,7 @@ export class ElasticacheSubnetGroup extends cdktn.TerraformResource {
   // ==========
 
   // cache_subnet_group_name - computed: true, optional: true, required: false
-  private _cacheSubnetGroupName?: string;
+  private _cacheSubnetGroupName?: string; 
   public get cacheSubnetGroupName() {
     return this.getStringAttribute('cache_subnet_group_name');
   }
@@ -257,7 +257,7 @@ export class ElasticacheSubnetGroup extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: false, required: true
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -275,7 +275,7 @@ export class ElasticacheSubnetGroup extends cdktn.TerraformResource {
   }
 
   // subnet_ids - computed: false, optional: false, required: true
-  private _subnetIds?: string[];
+  private _subnetIds?: string[]; 
   public get subnetIds() {
     return this.getListAttribute('subnet_ids');
   }

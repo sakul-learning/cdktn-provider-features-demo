@@ -207,7 +207,7 @@ export class DatazoneFormTypeModelOutputReference extends cdktn.ComplexObject {
   }
 
   // smithy - computed: false, optional: false, required: true
-  private _smithy?: string;
+  private _smithy?: string; 
   public get smithy() {
     return this.getStringAttribute('smithy');
   }
@@ -320,7 +320,7 @@ export class DatazoneFormTypeTimeoutsOutputReference extends cdktn.ComplexObject
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -411,7 +411,7 @@ export class DatazoneFormType extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -427,7 +427,7 @@ export class DatazoneFormType extends cdktn.TerraformResource {
   }
 
   // domain_identifier - computed: false, optional: false, required: true
-  private _domainIdentifier?: string;
+  private _domainIdentifier?: string; 
   public get domainIdentifier() {
     return this.getStringAttribute('domain_identifier');
   }
@@ -446,7 +446,7 @@ export class DatazoneFormType extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -469,7 +469,7 @@ export class DatazoneFormType extends cdktn.TerraformResource {
   }
 
   // owning_project_identifier - computed: false, optional: false, required: true
-  private _owningProjectIdentifier?: string;
+  private _owningProjectIdentifier?: string; 
   public get owningProjectIdentifier() {
     return this.getStringAttribute('owning_project_identifier');
   }
@@ -482,7 +482,7 @@ export class DatazoneFormType extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -503,7 +503,7 @@ export class DatazoneFormType extends cdktn.TerraformResource {
   }
 
   // status - computed: true, optional: true, required: false
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }

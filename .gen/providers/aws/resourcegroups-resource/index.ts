@@ -131,7 +131,7 @@ export class ResourcegroupsResourceTimeoutsOutputReference extends cdktn.Complex
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -147,7 +147,7 @@ export class ResourcegroupsResourceTimeoutsOutputReference extends cdktn.Complex
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -225,7 +225,7 @@ export class ResourcegroupsResource extends cdktn.TerraformResource {
   // ==========
 
   // group_arn - computed: false, optional: false, required: true
-  private _groupArn?: string;
+  private _groupArn?: string; 
   public get groupArn() {
     return this.getStringAttribute('group_arn');
   }
@@ -238,7 +238,7 @@ export class ResourcegroupsResource extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -254,7 +254,7 @@ export class ResourcegroupsResource extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -270,7 +270,7 @@ export class ResourcegroupsResource extends cdktn.TerraformResource {
   }
 
   // resource_arn - computed: false, optional: false, required: true
-  private _resourceArn?: string;
+  private _resourceArn?: string; 
   public get resourceArn() {
     return this.getStringAttribute('resource_arn');
   }

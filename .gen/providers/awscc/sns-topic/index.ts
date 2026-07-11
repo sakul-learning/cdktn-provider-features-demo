@@ -15,7 +15,7 @@ export interface SnsTopicConfig extends cdktn.TerraformMetaArguments {
   readonly archivePolicy?: string;
   /**
   * Enables content-based deduplication for FIFO topics.
-  *   +  By default, ``ContentBasedDeduplication`` is set to ``false``. If you create a FIFO topic and this attribute is ``false``, you must specify a value for the ``MessageDeduplicationId`` parameter for the [Publish](https://docs.aws.amazon.com/sns/latest/api/API_Publish.html) action.
+  *   +  By default, ``ContentBasedDeduplication`` is set to ``false``. If you create a FIFO topic and this attribute is ``false``, you must specify a value for the ``MessageDeduplicationId`` parameter for the [Publish](https://docs.aws.amazon.com/sns/latest/api/API_Publish.html) action. 
   *   +  When you set ``ContentBasedDeduplication`` to ``true``, SNS uses a SHA-256 hash to generate the ``MessageDeduplicationId`` using the body of the message (but not the attributes of the message).
   *  (Optional) To override the generated value, you can specify a value for the the ``MessageDeduplicationId`` parameter for the ``Publish`` action.
   *
@@ -33,12 +33,12 @@ export interface SnsTopicConfig extends cdktn.TerraformMetaArguments {
   readonly dataProtectionPolicy?: string;
   /**
   * The ``DeliveryStatusLogging`` configuration enables you to log the delivery status of messages sent from your Amazon SNS topic to subscribed endpoints with the following supported delivery protocols:
-  *   +  HTTP
+  *   +  HTTP 
   *   +  Amazon Kinesis Data Firehose
   *   +   AWS Lambda
   *   +  Platform application endpoint
   *   +  Amazon Simple Queue Service
-  *
+  *   
   *  Once configured, log entries are sent to Amazon CloudWatch Logs.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sns_topic#delivery_status_logging SnsTopic#delivery_status_logging}
@@ -243,7 +243,7 @@ export class SnsTopicDeliveryStatusLoggingOutputReference extends cdktn.ComplexO
   }
 
   // failure_feedback_role_arn - computed: true, optional: true, required: false
-  private _failureFeedbackRoleArn?: string;
+  private _failureFeedbackRoleArn?: string; 
   public get failureFeedbackRoleArn() {
     return this.getStringAttribute('failure_feedback_role_arn');
   }
@@ -259,7 +259,7 @@ export class SnsTopicDeliveryStatusLoggingOutputReference extends cdktn.ComplexO
   }
 
   // protocol - computed: true, optional: true, required: false
-  private _protocol?: string;
+  private _protocol?: string; 
   public get protocol() {
     return this.getStringAttribute('protocol');
   }
@@ -275,7 +275,7 @@ export class SnsTopicDeliveryStatusLoggingOutputReference extends cdktn.ComplexO
   }
 
   // success_feedback_role_arn - computed: true, optional: true, required: false
-  private _successFeedbackRoleArn?: string;
+  private _successFeedbackRoleArn?: string; 
   public get successFeedbackRoleArn() {
     return this.getStringAttribute('success_feedback_role_arn');
   }
@@ -291,7 +291,7 @@ export class SnsTopicDeliveryStatusLoggingOutputReference extends cdktn.ComplexO
   }
 
   // success_feedback_sample_rate - computed: true, optional: true, required: false
-  private _successFeedbackSampleRate?: string;
+  private _successFeedbackSampleRate?: string; 
   public get successFeedbackSampleRate() {
     return this.getStringAttribute('success_feedback_sample_rate');
   }
@@ -428,7 +428,7 @@ export class SnsTopicSubscriptionOutputReference extends cdktn.ComplexObject {
   }
 
   // endpoint - computed: true, optional: true, required: false
-  private _endpoint?: string;
+  private _endpoint?: string; 
   public get endpoint() {
     return this.getStringAttribute('endpoint');
   }
@@ -444,7 +444,7 @@ export class SnsTopicSubscriptionOutputReference extends cdktn.ComplexObject {
   }
 
   // protocol - computed: true, optional: true, required: false
-  private _protocol?: string;
+  private _protocol?: string; 
   public get protocol() {
     return this.getStringAttribute('protocol');
   }
@@ -581,7 +581,7 @@ export class SnsTopicTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -597,7 +597,7 @@ export class SnsTopicTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -703,7 +703,7 @@ export class SnsTopic extends cdktn.TerraformResource {
   // ==========
 
   // archive_policy - computed: true, optional: true, required: false
-  private _archivePolicy?: string;
+  private _archivePolicy?: string; 
   public get archivePolicy() {
     return this.getStringAttribute('archive_policy');
   }
@@ -719,7 +719,7 @@ export class SnsTopic extends cdktn.TerraformResource {
   }
 
   // content_based_deduplication - computed: true, optional: true, required: false
-  private _contentBasedDeduplication?: boolean | cdktn.IResolvable;
+  private _contentBasedDeduplication?: boolean | cdktn.IResolvable; 
   public get contentBasedDeduplication() {
     return this.getBooleanAttribute('content_based_deduplication');
   }
@@ -735,7 +735,7 @@ export class SnsTopic extends cdktn.TerraformResource {
   }
 
   // data_protection_policy - computed: true, optional: true, required: false
-  private _dataProtectionPolicy?: string;
+  private _dataProtectionPolicy?: string; 
   public get dataProtectionPolicy() {
     return this.getStringAttribute('data_protection_policy');
   }
@@ -767,7 +767,7 @@ export class SnsTopic extends cdktn.TerraformResource {
   }
 
   // display_name - computed: true, optional: true, required: false
-  private _displayName?: string;
+  private _displayName?: string; 
   public get displayName() {
     return this.getStringAttribute('display_name');
   }
@@ -783,7 +783,7 @@ export class SnsTopic extends cdktn.TerraformResource {
   }
 
   // fifo_throughput_scope - computed: true, optional: true, required: false
-  private _fifoThroughputScope?: string;
+  private _fifoThroughputScope?: string; 
   public get fifoThroughputScope() {
     return this.getStringAttribute('fifo_throughput_scope');
   }
@@ -799,7 +799,7 @@ export class SnsTopic extends cdktn.TerraformResource {
   }
 
   // fifo_topic - computed: true, optional: true, required: false
-  private _fifoTopic?: boolean | cdktn.IResolvable;
+  private _fifoTopic?: boolean | cdktn.IResolvable; 
   public get fifoTopic() {
     return this.getBooleanAttribute('fifo_topic');
   }
@@ -820,7 +820,7 @@ export class SnsTopic extends cdktn.TerraformResource {
   }
 
   // kms_master_key_id - computed: true, optional: true, required: false
-  private _kmsMasterKeyId?: string;
+  private _kmsMasterKeyId?: string; 
   public get kmsMasterKeyId() {
     return this.getStringAttribute('kms_master_key_id');
   }
@@ -836,7 +836,7 @@ export class SnsTopic extends cdktn.TerraformResource {
   }
 
   // signature_version - computed: true, optional: true, required: false
-  private _signatureVersion?: string;
+  private _signatureVersion?: string; 
   public get signatureVersion() {
     return this.getStringAttribute('signature_version');
   }
@@ -889,7 +889,7 @@ export class SnsTopic extends cdktn.TerraformResource {
   }
 
   // topic_name - computed: true, optional: true, required: false
-  private _topicName?: string;
+  private _topicName?: string; 
   public get topicName() {
     return this.getStringAttribute('topic_name');
   }
@@ -905,7 +905,7 @@ export class SnsTopic extends cdktn.TerraformResource {
   }
 
   // tracing_config - computed: true, optional: true, required: false
-  private _tracingConfig?: string;
+  private _tracingConfig?: string; 
   public get tracingConfig() {
     return this.getStringAttribute('tracing_config');
   }

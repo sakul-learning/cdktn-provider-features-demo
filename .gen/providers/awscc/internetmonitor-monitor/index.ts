@@ -169,7 +169,7 @@ export class InternetmonitorMonitorHealthEventsConfigAvailabilityLocalHealthEven
   }
 
   // health_score_threshold - computed: true, optional: true, required: false
-  private _healthScoreThreshold?: number;
+  private _healthScoreThreshold?: number; 
   public get healthScoreThreshold() {
     return this.getNumberAttribute('health_score_threshold');
   }
@@ -185,7 +185,7 @@ export class InternetmonitorMonitorHealthEventsConfigAvailabilityLocalHealthEven
   }
 
   // min_traffic_impact - computed: true, optional: true, required: false
-  private _minTrafficImpact?: number;
+  private _minTrafficImpact?: number; 
   public get minTrafficImpact() {
     return this.getNumberAttribute('min_traffic_impact');
   }
@@ -201,7 +201,7 @@ export class InternetmonitorMonitorHealthEventsConfigAvailabilityLocalHealthEven
   }
 
   // status - computed: true, optional: true, required: false
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -329,7 +329,7 @@ export class InternetmonitorMonitorHealthEventsConfigPerformanceLocalHealthEvent
   }
 
   // health_score_threshold - computed: true, optional: true, required: false
-  private _healthScoreThreshold?: number;
+  private _healthScoreThreshold?: number; 
   public get healthScoreThreshold() {
     return this.getNumberAttribute('health_score_threshold');
   }
@@ -345,7 +345,7 @@ export class InternetmonitorMonitorHealthEventsConfigPerformanceLocalHealthEvent
   }
 
   // min_traffic_impact - computed: true, optional: true, required: false
-  private _minTrafficImpact?: number;
+  private _minTrafficImpact?: number; 
   public get minTrafficImpact() {
     return this.getNumberAttribute('min_traffic_impact');
   }
@@ -361,7 +361,7 @@ export class InternetmonitorMonitorHealthEventsConfigPerformanceLocalHealthEvent
   }
 
   // status - computed: true, optional: true, required: false
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -522,7 +522,7 @@ export class InternetmonitorMonitorHealthEventsConfigOutputReference extends cdk
   }
 
   // availability_score_threshold - computed: true, optional: true, required: false
-  private _availabilityScoreThreshold?: number;
+  private _availabilityScoreThreshold?: number; 
   public get availabilityScoreThreshold() {
     return this.getNumberAttribute('availability_score_threshold');
   }
@@ -554,7 +554,7 @@ export class InternetmonitorMonitorHealthEventsConfigOutputReference extends cdk
   }
 
   // performance_score_threshold - computed: true, optional: true, required: false
-  private _performanceScoreThreshold?: number;
+  private _performanceScoreThreshold?: number; 
   public get performanceScoreThreshold() {
     return this.getNumberAttribute('performance_score_threshold');
   }
@@ -682,7 +682,7 @@ export class InternetmonitorMonitorInternetMeasurementsLogDeliveryS3ConfigOutput
   }
 
   // bucket_name - computed: true, optional: true, required: false
-  private _bucketName?: string;
+  private _bucketName?: string; 
   public get bucketName() {
     return this.getStringAttribute('bucket_name');
   }
@@ -698,7 +698,7 @@ export class InternetmonitorMonitorInternetMeasurementsLogDeliveryS3ConfigOutput
   }
 
   // bucket_prefix - computed: true, optional: true, required: false
-  private _bucketPrefix?: string;
+  private _bucketPrefix?: string; 
   public get bucketPrefix() {
     return this.getStringAttribute('bucket_prefix');
   }
@@ -714,7 +714,7 @@ export class InternetmonitorMonitorInternetMeasurementsLogDeliveryS3ConfigOutput
   }
 
   // log_delivery_status - computed: true, optional: true, required: false
-  private _logDeliveryStatus?: string;
+  private _logDeliveryStatus?: string; 
   public get logDeliveryStatus() {
     return this.getStringAttribute('log_delivery_status');
   }
@@ -921,7 +921,7 @@ export class InternetmonitorMonitorTagsOutputReference extends cdktn.ComplexObje
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -937,7 +937,7 @@ export class InternetmonitorMonitorTagsOutputReference extends cdktn.ComplexObje
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1068,7 +1068,7 @@ export class InternetmonitorMonitor extends cdktn.TerraformResource {
   }
 
   // include_linked_accounts - computed: true, optional: true, required: false
-  private _includeLinkedAccounts?: boolean | cdktn.IResolvable;
+  private _includeLinkedAccounts?: boolean | cdktn.IResolvable; 
   public get includeLinkedAccounts() {
     return this.getBooleanAttribute('include_linked_accounts');
   }
@@ -1100,7 +1100,7 @@ export class InternetmonitorMonitor extends cdktn.TerraformResource {
   }
 
   // linked_account_id - computed: true, optional: true, required: false
-  private _linkedAccountId?: string;
+  private _linkedAccountId?: string; 
   public get linkedAccountId() {
     return this.getStringAttribute('linked_account_id');
   }
@@ -1116,7 +1116,7 @@ export class InternetmonitorMonitor extends cdktn.TerraformResource {
   }
 
   // max_city_networks_to_monitor - computed: true, optional: true, required: false
-  private _maxCityNetworksToMonitor?: number;
+  private _maxCityNetworksToMonitor?: number; 
   public get maxCityNetworksToMonitor() {
     return this.getNumberAttribute('max_city_networks_to_monitor');
   }
@@ -1142,7 +1142,7 @@ export class InternetmonitorMonitor extends cdktn.TerraformResource {
   }
 
   // monitor_name - computed: false, optional: false, required: true
-  private _monitorName?: string;
+  private _monitorName?: string; 
   public get monitorName() {
     return this.getStringAttribute('monitor_name');
   }
@@ -1165,7 +1165,7 @@ export class InternetmonitorMonitor extends cdktn.TerraformResource {
   }
 
   // resources - computed: true, optional: true, required: false
-  private _resources?: string[];
+  private _resources?: string[]; 
   public get resources() {
     return this.getListAttribute('resources');
   }
@@ -1181,7 +1181,7 @@ export class InternetmonitorMonitor extends cdktn.TerraformResource {
   }
 
   // resources_to_add - computed: true, optional: true, required: false
-  private _resourcesToAdd?: string[];
+  private _resourcesToAdd?: string[]; 
   public get resourcesToAdd() {
     return this.getListAttribute('resources_to_add');
   }
@@ -1197,7 +1197,7 @@ export class InternetmonitorMonitor extends cdktn.TerraformResource {
   }
 
   // resources_to_remove - computed: true, optional: true, required: false
-  private _resourcesToRemove?: string[];
+  private _resourcesToRemove?: string[]; 
   public get resourcesToRemove() {
     return this.getListAttribute('resources_to_remove');
   }
@@ -1213,7 +1213,7 @@ export class InternetmonitorMonitor extends cdktn.TerraformResource {
   }
 
   // status - computed: true, optional: true, required: false
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -1245,7 +1245,7 @@ export class InternetmonitorMonitor extends cdktn.TerraformResource {
   }
 
   // traffic_percentage_to_monitor - computed: true, optional: true, required: false
-  private _trafficPercentageToMonitor?: number;
+  private _trafficPercentageToMonitor?: number; 
   public get trafficPercentageToMonitor() {
     return this.getNumberAttribute('traffic_percentage_to_monitor');
   }

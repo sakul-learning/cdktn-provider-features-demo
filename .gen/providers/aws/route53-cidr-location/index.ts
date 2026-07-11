@@ -81,7 +81,7 @@ export class Route53CidrLocation extends cdktn.TerraformResource {
   // ==========
 
   // cidr_blocks - computed: false, optional: false, required: true
-  private _cidrBlocks?: string[];
+  private _cidrBlocks?: string[]; 
   public get cidrBlocks() {
     return cdktn.Fn.tolist(this.getListAttribute('cidr_blocks'));
   }
@@ -94,7 +94,7 @@ export class Route53CidrLocation extends cdktn.TerraformResource {
   }
 
   // cidr_collection_id - computed: false, optional: false, required: true
-  private _cidrCollectionId?: string;
+  private _cidrCollectionId?: string; 
   public get cidrCollectionId() {
     return this.getStringAttribute('cidr_collection_id');
   }
@@ -112,7 +112,7 @@ export class Route53CidrLocation extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }

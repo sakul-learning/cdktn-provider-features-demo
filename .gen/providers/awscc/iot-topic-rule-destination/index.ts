@@ -105,7 +105,7 @@ export class IotTopicRuleDestinationHttpUrlPropertiesOutputReference extends cdk
   }
 
   // confirmation_url - computed: true, optional: true, required: false
-  private _confirmationUrl?: string;
+  private _confirmationUrl?: string; 
   public get confirmationUrl() {
     return this.getStringAttribute('confirmation_url');
   }
@@ -250,7 +250,7 @@ export class IotTopicRuleDestinationVpcPropertiesOutputReference extends cdktn.C
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -266,7 +266,7 @@ export class IotTopicRuleDestinationVpcPropertiesOutputReference extends cdktn.C
   }
 
   // security_groups - computed: true, optional: true, required: false
-  private _securityGroups?: string[];
+  private _securityGroups?: string[]; 
   public get securityGroups() {
     return this.getListAttribute('security_groups');
   }
@@ -282,7 +282,7 @@ export class IotTopicRuleDestinationVpcPropertiesOutputReference extends cdktn.C
   }
 
   // subnet_ids - computed: true, optional: true, required: false
-  private _subnetIds?: string[];
+  private _subnetIds?: string[]; 
   public get subnetIds() {
     return this.getListAttribute('subnet_ids');
   }
@@ -298,7 +298,7 @@ export class IotTopicRuleDestinationVpcPropertiesOutputReference extends cdktn.C
   }
 
   // vpc_id - computed: true, optional: true, required: false
-  private _vpcId?: string;
+  private _vpcId?: string; 
   public get vpcId() {
     return this.getStringAttribute('vpc_id');
   }
@@ -400,7 +400,7 @@ export class IotTopicRuleDestination extends cdktn.TerraformResource {
   }
 
   // status - computed: true, optional: true, required: false
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }

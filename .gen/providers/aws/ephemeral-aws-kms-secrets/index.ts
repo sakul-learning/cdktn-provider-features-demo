@@ -186,7 +186,7 @@ export class EphemeralAwsKmsSecretsSecretOutputReference extends cdktn.ComplexOb
   }
 
   // context - computed: false, optional: true, required: false
-  private _context?: { [key: string]: string };
+  private _context?: { [key: string]: string }; 
   public get context() {
     return this.getStringMapAttribute('context');
   }
@@ -202,7 +202,7 @@ export class EphemeralAwsKmsSecretsSecretOutputReference extends cdktn.ComplexOb
   }
 
   // encryption_algorithm - computed: false, optional: true, required: false
-  private _encryptionAlgorithm?: string;
+  private _encryptionAlgorithm?: string; 
   public get encryptionAlgorithm() {
     return this.getStringAttribute('encryption_algorithm');
   }
@@ -218,7 +218,7 @@ export class EphemeralAwsKmsSecretsSecretOutputReference extends cdktn.ComplexOb
   }
 
   // grant_tokens - computed: false, optional: true, required: false
-  private _grantTokens?: string[];
+  private _grantTokens?: string[]; 
   public get grantTokens() {
     return this.getListAttribute('grant_tokens');
   }
@@ -234,7 +234,7 @@ export class EphemeralAwsKmsSecretsSecretOutputReference extends cdktn.ComplexOb
   }
 
   // key_id - computed: false, optional: true, required: false
-  private _keyId?: string;
+  private _keyId?: string; 
   public get keyId() {
     return this.getStringAttribute('key_id');
   }
@@ -250,7 +250,7 @@ export class EphemeralAwsKmsSecretsSecretOutputReference extends cdktn.ComplexOb
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -263,7 +263,7 @@ export class EphemeralAwsKmsSecretsSecretOutputReference extends cdktn.ComplexOb
   }
 
   // payload - computed: false, optional: false, required: true
-  private _payload?: string;
+  private _payload?: string; 
   public get payload() {
     return this.getStringAttribute('payload');
   }
@@ -345,7 +345,7 @@ export class EphemeralAwsKmsSecrets extends cdktn.TerraformEphemeralResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

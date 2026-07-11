@@ -106,7 +106,7 @@ export class IotRoleAlias extends cdktn.TerraformResource {
   // ==========
 
   // alias - computed: false, optional: false, required: true
-  private _alias?: string;
+  private _alias?: string; 
   public get alias() {
     return this.getStringAttribute('alias');
   }
@@ -124,7 +124,7 @@ export class IotRoleAlias extends cdktn.TerraformResource {
   }
 
   // credential_duration - computed: false, optional: true, required: false
-  private _credentialDuration?: number;
+  private _credentialDuration?: number; 
   public get credentialDuration() {
     return this.getNumberAttribute('credential_duration');
   }
@@ -140,7 +140,7 @@ export class IotRoleAlias extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -156,7 +156,7 @@ export class IotRoleAlias extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -172,7 +172,7 @@ export class IotRoleAlias extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -185,7 +185,7 @@ export class IotRoleAlias extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -201,7 +201,7 @@ export class IotRoleAlias extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

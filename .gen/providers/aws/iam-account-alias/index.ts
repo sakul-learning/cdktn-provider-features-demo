@@ -79,7 +79,7 @@ export class IamAccountAlias extends cdktn.TerraformResource {
   // ==========
 
   // account_alias - computed: false, optional: false, required: true
-  private _accountAlias?: string;
+  private _accountAlias?: string; 
   public get accountAlias() {
     return this.getStringAttribute('account_alias');
   }
@@ -92,7 +92,7 @@ export class IamAccountAlias extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }

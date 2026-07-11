@@ -175,7 +175,7 @@ export class CloudfrontOriginAccessControlOriginAccessControlConfigOutputReferen
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -191,7 +191,7 @@ export class CloudfrontOriginAccessControlOriginAccessControlConfigOutputReferen
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -204,7 +204,7 @@ export class CloudfrontOriginAccessControlOriginAccessControlConfigOutputReferen
   }
 
   // origin_access_control_origin_type - computed: false, optional: false, required: true
-  private _originAccessControlOriginType?: string;
+  private _originAccessControlOriginType?: string; 
   public get originAccessControlOriginType() {
     return this.getStringAttribute('origin_access_control_origin_type');
   }
@@ -217,7 +217,7 @@ export class CloudfrontOriginAccessControlOriginAccessControlConfigOutputReferen
   }
 
   // signing_behavior - computed: false, optional: false, required: true
-  private _signingBehavior?: string;
+  private _signingBehavior?: string; 
   public get signingBehavior() {
     return this.getStringAttribute('signing_behavior');
   }
@@ -230,7 +230,7 @@ export class CloudfrontOriginAccessControlOriginAccessControlConfigOutputReferen
   }
 
   // signing_protocol - computed: false, optional: false, required: true
-  private _signingProtocol?: string;
+  private _signingProtocol?: string; 
   public get signingProtocol() {
     return this.getStringAttribute('signing_protocol');
   }

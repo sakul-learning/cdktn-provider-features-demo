@@ -136,7 +136,7 @@ export class IotsitewiseDashboardTagsOutputReference extends cdktn.ComplexObject
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -152,7 +152,7 @@ export class IotsitewiseDashboardTagsOutputReference extends cdktn.ComplexObject
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -255,7 +255,7 @@ export class IotsitewiseDashboard extends cdktn.TerraformResource {
   }
 
   // dashboard_definition - computed: false, optional: false, required: true
-  private _dashboardDefinition?: string;
+  private _dashboardDefinition?: string; 
   public get dashboardDefinition() {
     return this.getStringAttribute('dashboard_definition');
   }
@@ -268,7 +268,7 @@ export class IotsitewiseDashboard extends cdktn.TerraformResource {
   }
 
   // dashboard_description - computed: false, optional: false, required: true
-  private _dashboardDescription?: string;
+  private _dashboardDescription?: string; 
   public get dashboardDescription() {
     return this.getStringAttribute('dashboard_description');
   }
@@ -286,7 +286,7 @@ export class IotsitewiseDashboard extends cdktn.TerraformResource {
   }
 
   // dashboard_name - computed: false, optional: false, required: true
-  private _dashboardName?: string;
+  private _dashboardName?: string; 
   public get dashboardName() {
     return this.getStringAttribute('dashboard_name');
   }
@@ -304,7 +304,7 @@ export class IotsitewiseDashboard extends cdktn.TerraformResource {
   }
 
   // project_id - computed: true, optional: true, required: false
-  private _projectId?: string;
+  private _projectId?: string; 
   public get projectId() {
     return this.getStringAttribute('project_id');
   }

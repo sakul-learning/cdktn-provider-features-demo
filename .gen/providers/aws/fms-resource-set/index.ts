@@ -179,7 +179,7 @@ export class FmsResourceSetResourceSetOutputReference extends cdktn.ComplexObjec
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -205,7 +205,7 @@ export class FmsResourceSetResourceSetOutputReference extends cdktn.ComplexObjec
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -218,7 +218,7 @@ export class FmsResourceSetResourceSetOutputReference extends cdktn.ComplexObjec
   }
 
   // resource_set_status - computed: true, optional: true, required: false
-  private _resourceSetStatus?: string;
+  private _resourceSetStatus?: string; 
   public get resourceSetStatus() {
     return this.getStringAttribute('resource_set_status');
   }
@@ -234,7 +234,7 @@ export class FmsResourceSetResourceSetOutputReference extends cdktn.ComplexObjec
   }
 
   // resource_type_list - computed: false, optional: true, required: false
-  private _resourceTypeList?: string[];
+  private _resourceTypeList?: string[]; 
   public get resourceTypeList() {
     return this.getListAttribute('resource_type_list');
   }
@@ -250,7 +250,7 @@ export class FmsResourceSetResourceSetOutputReference extends cdktn.ComplexObjec
   }
 
   // update_token - computed: true, optional: true, required: false
-  private _updateToken?: string;
+  private _updateToken?: string; 
   public get updateToken() {
     return this.getStringAttribute('update_token');
   }
@@ -404,7 +404,7 @@ export class FmsResourceSetTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -420,7 +420,7 @@ export class FmsResourceSetTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -436,7 +436,7 @@ export class FmsResourceSetTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -523,7 +523,7 @@ export class FmsResourceSet extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -539,7 +539,7 @@ export class FmsResourceSet extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

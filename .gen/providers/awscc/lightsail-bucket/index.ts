@@ -150,7 +150,7 @@ export class LightsailBucketAccessRulesOutputReference extends cdktn.ComplexObje
   }
 
   // allow_public_overrides - computed: true, optional: true, required: false
-  private _allowPublicOverrides?: boolean | cdktn.IResolvable;
+  private _allowPublicOverrides?: boolean | cdktn.IResolvable; 
   public get allowPublicOverrides() {
     return this.getBooleanAttribute('allow_public_overrides');
   }
@@ -166,7 +166,7 @@ export class LightsailBucketAccessRulesOutputReference extends cdktn.ComplexObje
   }
 
   // get_object - computed: true, optional: true, required: false
-  private _getObject?: string;
+  private _getObject?: string; 
   public get fetchObject() {
     return this.getStringAttribute('get_object');
   }
@@ -283,7 +283,7 @@ export class LightsailBucketTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -299,7 +299,7 @@ export class LightsailBucketTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -425,7 +425,7 @@ export class LightsailBucket extends cdktn.TerraformResource {
   }
 
   // bucket_name - computed: false, optional: false, required: true
-  private _bucketName?: string;
+  private _bucketName?: string; 
   public get bucketName() {
     return this.getStringAttribute('bucket_name');
   }
@@ -438,7 +438,7 @@ export class LightsailBucket extends cdktn.TerraformResource {
   }
 
   // bundle_id - computed: false, optional: false, required: true
-  private _bundleId?: string;
+  private _bundleId?: string; 
   public get bundleId() {
     return this.getStringAttribute('bundle_id');
   }
@@ -456,7 +456,7 @@ export class LightsailBucket extends cdktn.TerraformResource {
   }
 
   // object_versioning - computed: true, optional: true, required: false
-  private _objectVersioning?: boolean | cdktn.IResolvable;
+  private _objectVersioning?: boolean | cdktn.IResolvable; 
   public get objectVersioning() {
     return this.getBooleanAttribute('object_versioning');
   }
@@ -472,7 +472,7 @@ export class LightsailBucket extends cdktn.TerraformResource {
   }
 
   // read_only_access_accounts - computed: true, optional: true, required: false
-  private _readOnlyAccessAccounts?: string[];
+  private _readOnlyAccessAccounts?: string[]; 
   public get readOnlyAccessAccounts() {
     return cdktn.Fn.tolist(this.getListAttribute('read_only_access_accounts'));
   }
@@ -488,7 +488,7 @@ export class LightsailBucket extends cdktn.TerraformResource {
   }
 
   // resources_receiving_access - computed: true, optional: true, required: false
-  private _resourcesReceivingAccess?: string[];
+  private _resourcesReceivingAccess?: string[]; 
   public get resourcesReceivingAccess() {
     return cdktn.Fn.tolist(this.getListAttribute('resources_receiving_access'));
   }

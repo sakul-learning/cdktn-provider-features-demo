@@ -106,7 +106,7 @@ export class ApiGatewayDeployment extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -122,7 +122,7 @@ export class ApiGatewayDeployment extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -138,7 +138,7 @@ export class ApiGatewayDeployment extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -154,7 +154,7 @@ export class ApiGatewayDeployment extends cdktn.TerraformResource {
   }
 
   // rest_api_id - computed: false, optional: false, required: true
-  private _restApiId?: string;
+  private _restApiId?: string; 
   public get restApiId() {
     return this.getStringAttribute('rest_api_id');
   }
@@ -167,7 +167,7 @@ export class ApiGatewayDeployment extends cdktn.TerraformResource {
   }
 
   // triggers - computed: false, optional: true, required: false
-  private _triggers?: { [key: string]: string };
+  private _triggers?: { [key: string]: string }; 
   public get triggers() {
     return this.getStringMapAttribute('triggers');
   }
@@ -183,7 +183,7 @@ export class ApiGatewayDeployment extends cdktn.TerraformResource {
   }
 
   // variables - computed: false, optional: true, required: false
-  private _variables?: { [key: string]: string };
+  private _variables?: { [key: string]: string }; 
   public get variables() {
     return this.getStringMapAttribute('variables');
   }

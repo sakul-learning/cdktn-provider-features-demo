@@ -158,7 +158,7 @@ export class MediaconnectRouterOutputConfigurationMediaConnectFlowDestinationTra
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -174,7 +174,7 @@ export class MediaconnectRouterOutputConfigurationMediaConnectFlowDestinationTra
   }
 
   // secret_arn - computed: true, optional: true, required: false
-  private _secretArn?: string;
+  private _secretArn?: string; 
   public get secretArn() {
     return this.getStringAttribute('secret_arn');
   }
@@ -289,7 +289,7 @@ export class MediaconnectRouterOutputConfigurationMediaConnectFlowDestinationTra
   }
 
   // automatic - computed: true, optional: true, required: false
-  private _automatic?: string;
+  private _automatic?: string; 
   public get automatic() {
     return this.getStringAttribute('automatic');
   }
@@ -434,7 +434,7 @@ export class MediaconnectRouterOutputConfigurationMediaConnectFlowDestinationTra
   }
 
   // encryption_key_type - computed: true, optional: true, required: false
-  private _encryptionKeyType?: string;
+  private _encryptionKeyType?: string; 
   public get encryptionKeyType() {
     return this.getStringAttribute('encryption_key_type');
   }
@@ -584,7 +584,7 @@ export class MediaconnectRouterOutputConfigurationMediaConnectFlowOutputReferenc
   }
 
   // flow_arn - computed: true, optional: true, required: false
-  private _flowArn?: string;
+  private _flowArn?: string; 
   public get flowArn() {
     return this.getStringAttribute('flow_arn');
   }
@@ -600,7 +600,7 @@ export class MediaconnectRouterOutputConfigurationMediaConnectFlowOutputReferenc
   }
 
   // flow_source_arn - computed: true, optional: true, required: false
-  private _flowSourceArn?: string;
+  private _flowSourceArn?: string; 
   public get flowSourceArn() {
     return this.getStringAttribute('flow_source_arn');
   }
@@ -715,7 +715,7 @@ export class MediaconnectRouterOutputConfigurationMediaLiveInputDestinationTrans
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -731,7 +731,7 @@ export class MediaconnectRouterOutputConfigurationMediaLiveInputDestinationTrans
   }
 
   // secret_arn - computed: true, optional: true, required: false
-  private _secretArn?: string;
+  private _secretArn?: string; 
   public get secretArn() {
     return this.getStringAttribute('secret_arn');
   }
@@ -846,7 +846,7 @@ export class MediaconnectRouterOutputConfigurationMediaLiveInputDestinationTrans
   }
 
   // automatic - computed: true, optional: true, required: false
-  private _automatic?: string;
+  private _automatic?: string; 
   public get automatic() {
     return this.getStringAttribute('automatic');
   }
@@ -991,7 +991,7 @@ export class MediaconnectRouterOutputConfigurationMediaLiveInputDestinationTrans
   }
 
   // encryption_key_type - computed: true, optional: true, required: false
-  private _encryptionKeyType?: string;
+  private _encryptionKeyType?: string; 
   public get encryptionKeyType() {
     return this.getStringAttribute('encryption_key_type');
   }
@@ -1139,7 +1139,7 @@ export class MediaconnectRouterOutputConfigurationMediaLiveInputOutputReference 
   }
 
   // media_live_input_arn - computed: true, optional: true, required: false
-  private _mediaLiveInputArn?: string;
+  private _mediaLiveInputArn?: string; 
   public get mediaLiveInputArn() {
     return this.getStringAttribute('media_live_input_arn');
   }
@@ -1155,7 +1155,7 @@ export class MediaconnectRouterOutputConfigurationMediaLiveInputOutputReference 
   }
 
   // media_live_pipeline_id - computed: true, optional: true, required: false
-  private _mediaLivePipelineId?: string;
+  private _mediaLivePipelineId?: string; 
   public get mediaLivePipelineId() {
     return this.getStringAttribute('media_live_pipeline_id');
   }
@@ -1270,7 +1270,7 @@ export class MediaconnectRouterOutputConfigurationStandardProtocolConfigurationR
   }
 
   // destination_address - computed: true, optional: true, required: false
-  private _destinationAddress?: string;
+  private _destinationAddress?: string; 
   public get destinationAddress() {
     return this.getStringAttribute('destination_address');
   }
@@ -1286,7 +1286,7 @@ export class MediaconnectRouterOutputConfigurationStandardProtocolConfigurationR
   }
 
   // destination_port - computed: true, optional: true, required: false
-  private _destinationPort?: number;
+  private _destinationPort?: number; 
   public get destinationPort() {
     return this.getNumberAttribute('destination_port');
   }
@@ -1418,7 +1418,7 @@ export class MediaconnectRouterOutputConfigurationStandardProtocolConfigurationR
   }
 
   // destination_address - computed: true, optional: true, required: false
-  private _destinationAddress?: string;
+  private _destinationAddress?: string; 
   public get destinationAddress() {
     return this.getStringAttribute('destination_address');
   }
@@ -1434,7 +1434,7 @@ export class MediaconnectRouterOutputConfigurationStandardProtocolConfigurationR
   }
 
   // destination_port - computed: true, optional: true, required: false
-  private _destinationPort?: number;
+  private _destinationPort?: number; 
   public get destinationPort() {
     return this.getNumberAttribute('destination_port');
   }
@@ -1450,7 +1450,7 @@ export class MediaconnectRouterOutputConfigurationStandardProtocolConfigurationR
   }
 
   // forward_error_correction - computed: true, optional: true, required: false
-  private _forwardErrorCorrection?: string;
+  private _forwardErrorCorrection?: string; 
   public get forwardErrorCorrection() {
     return this.getStringAttribute('forward_error_correction');
   }
@@ -1565,7 +1565,7 @@ export class MediaconnectRouterOutputConfigurationStandardProtocolConfigurationS
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -1581,7 +1581,7 @@ export class MediaconnectRouterOutputConfigurationStandardProtocolConfigurationS
   }
 
   // secret_arn - computed: true, optional: true, required: false
-  private _secretArn?: string;
+  private _secretArn?: string; 
   public get secretArn() {
     return this.getStringAttribute('secret_arn');
   }
@@ -1849,7 +1849,7 @@ export class MediaconnectRouterOutputConfigurationStandardProtocolConfigurationS
   }
 
   // destination_address - computed: true, optional: true, required: false
-  private _destinationAddress?: string;
+  private _destinationAddress?: string; 
   public get destinationAddress() {
     return this.getStringAttribute('destination_address');
   }
@@ -1865,7 +1865,7 @@ export class MediaconnectRouterOutputConfigurationStandardProtocolConfigurationS
   }
 
   // destination_port - computed: true, optional: true, required: false
-  private _destinationPort?: number;
+  private _destinationPort?: number; 
   public get destinationPort() {
     return this.getNumberAttribute('destination_port');
   }
@@ -1897,7 +1897,7 @@ export class MediaconnectRouterOutputConfigurationStandardProtocolConfigurationS
   }
 
   // minimum_latency_milliseconds - computed: true, optional: true, required: false
-  private _minimumLatencyMilliseconds?: number;
+  private _minimumLatencyMilliseconds?: number; 
   public get minimumLatencyMilliseconds() {
     return this.getNumberAttribute('minimum_latency_milliseconds');
   }
@@ -1913,7 +1913,7 @@ export class MediaconnectRouterOutputConfigurationStandardProtocolConfigurationS
   }
 
   // stream_id - computed: true, optional: true, required: false
-  private _streamId?: string;
+  private _streamId?: string; 
   public get streamId() {
     return this.getStringAttribute('stream_id');
   }
@@ -2028,7 +2028,7 @@ export class MediaconnectRouterOutputConfigurationStandardProtocolConfigurationS
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -2044,7 +2044,7 @@ export class MediaconnectRouterOutputConfigurationStandardProtocolConfigurationS
   }
 
   // secret_arn - computed: true, optional: true, required: false
-  private _secretArn?: string;
+  private _secretArn?: string; 
   public get secretArn() {
     return this.getStringAttribute('secret_arn');
   }
@@ -2290,7 +2290,7 @@ export class MediaconnectRouterOutputConfigurationStandardProtocolConfigurationS
   }
 
   // minimum_latency_milliseconds - computed: true, optional: true, required: false
-  private _minimumLatencyMilliseconds?: number;
+  private _minimumLatencyMilliseconds?: number; 
   public get minimumLatencyMilliseconds() {
     return this.getNumberAttribute('minimum_latency_milliseconds');
   }
@@ -2306,7 +2306,7 @@ export class MediaconnectRouterOutputConfigurationStandardProtocolConfigurationS
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -2639,7 +2639,7 @@ export class MediaconnectRouterOutputConfigurationStandardOutputReference extend
   }
 
   // network_interface_arn - computed: true, optional: true, required: false
-  private _networkInterfaceArn?: string;
+  private _networkInterfaceArn?: string; 
   public get networkInterfaceArn() {
     return this.getStringAttribute('network_interface_arn');
   }
@@ -2655,7 +2655,7 @@ export class MediaconnectRouterOutputConfigurationStandardOutputReference extend
   }
 
   // protocol - computed: true, optional: true, required: false
-  private _protocol?: string;
+  private _protocol?: string; 
   public get protocol() {
     return this.getStringAttribute('protocol');
   }
@@ -2950,7 +2950,7 @@ export class MediaconnectRouterOutputMaintenanceConfigurationPreferredDayTimeOut
   }
 
   // day - computed: true, optional: true, required: false
-  private _day?: string;
+  private _day?: string; 
   public get day() {
     return this.getStringAttribute('day');
   }
@@ -2966,7 +2966,7 @@ export class MediaconnectRouterOutputMaintenanceConfigurationPreferredDayTimeOut
   }
 
   // time - computed: true, optional: true, required: false
-  private _time?: string;
+  private _time?: string; 
   public get time() {
     return this.getStringAttribute('time');
   }
@@ -3081,7 +3081,7 @@ export class MediaconnectRouterOutputMaintenanceConfigurationOutputReference ext
   }
 
   // default - computed: true, optional: true, required: false
-  private _default?: string;
+  private _default?: string; 
   public get default() {
     return this.getStringAttribute('default');
   }
@@ -3210,7 +3210,7 @@ export class MediaconnectRouterOutputTagsOutputReference extends cdktn.ComplexOb
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -3226,7 +3226,7 @@ export class MediaconnectRouterOutputTagsOutputReference extends cdktn.ComplexOb
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -3333,7 +3333,7 @@ export class MediaconnectRouterOutput extends cdktn.TerraformResource {
   }
 
   // availability_zone - computed: true, optional: true, required: false
-  private _availabilityZone?: string;
+  private _availabilityZone?: string; 
   public get availabilityZone() {
     return this.getStringAttribute('availability_zone');
   }
@@ -3398,7 +3398,7 @@ export class MediaconnectRouterOutput extends cdktn.TerraformResource {
   }
 
   // maximum_bitrate - computed: false, optional: false, required: true
-  private _maximumBitrate?: number;
+  private _maximumBitrate?: number; 
   public get maximumBitrate() {
     return this.getNumberAttribute('maximum_bitrate');
   }
@@ -3411,7 +3411,7 @@ export class MediaconnectRouterOutput extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -3429,7 +3429,7 @@ export class MediaconnectRouterOutput extends cdktn.TerraformResource {
   }
 
   // region_name - computed: true, optional: true, required: false
-  private _regionName?: string;
+  private _regionName?: string; 
   public get regionName() {
     return this.getStringAttribute('region_name');
   }
@@ -3455,7 +3455,7 @@ export class MediaconnectRouterOutput extends cdktn.TerraformResource {
   }
 
   // routing_scope - computed: false, optional: false, required: true
-  private _routingScope?: string;
+  private _routingScope?: string; 
   public get routingScope() {
     return this.getStringAttribute('routing_scope');
   }
@@ -3489,7 +3489,7 @@ export class MediaconnectRouterOutput extends cdktn.TerraformResource {
   }
 
   // tier - computed: false, optional: false, required: true
-  private _tier?: string;
+  private _tier?: string; 
   public get tier() {
     return this.getStringAttribute('tier');
   }

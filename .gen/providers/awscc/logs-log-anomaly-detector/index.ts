@@ -111,7 +111,7 @@ export class LogsLogAnomalyDetector extends cdktn.TerraformResource {
   // ==========
 
   // account_id - computed: true, optional: true, required: false
-  private _accountId?: string;
+  private _accountId?: string; 
   public get accountId() {
     return this.getStringAttribute('account_id');
   }
@@ -137,7 +137,7 @@ export class LogsLogAnomalyDetector extends cdktn.TerraformResource {
   }
 
   // anomaly_visibility_time - computed: true, optional: true, required: false
-  private _anomalyVisibilityTime?: number;
+  private _anomalyVisibilityTime?: number; 
   public get anomalyVisibilityTime() {
     return this.getNumberAttribute('anomaly_visibility_time');
   }
@@ -158,7 +158,7 @@ export class LogsLogAnomalyDetector extends cdktn.TerraformResource {
   }
 
   // detector_name - computed: true, optional: true, required: false
-  private _detectorName?: string;
+  private _detectorName?: string; 
   public get detectorName() {
     return this.getStringAttribute('detector_name');
   }
@@ -174,7 +174,7 @@ export class LogsLogAnomalyDetector extends cdktn.TerraformResource {
   }
 
   // evaluation_frequency - computed: true, optional: true, required: false
-  private _evaluationFrequency?: string;
+  private _evaluationFrequency?: string; 
   public get evaluationFrequency() {
     return this.getStringAttribute('evaluation_frequency');
   }
@@ -190,7 +190,7 @@ export class LogsLogAnomalyDetector extends cdktn.TerraformResource {
   }
 
   // filter_pattern - computed: true, optional: true, required: false
-  private _filterPattern?: string;
+  private _filterPattern?: string; 
   public get filterPattern() {
     return this.getStringAttribute('filter_pattern');
   }
@@ -211,7 +211,7 @@ export class LogsLogAnomalyDetector extends cdktn.TerraformResource {
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -232,7 +232,7 @@ export class LogsLogAnomalyDetector extends cdktn.TerraformResource {
   }
 
   // log_group_arn_list - computed: true, optional: true, required: false
-  private _logGroupArnList?: string[];
+  private _logGroupArnList?: string[]; 
   public get logGroupArnList() {
     return cdktn.Fn.tolist(this.getListAttribute('log_group_arn_list'));
   }

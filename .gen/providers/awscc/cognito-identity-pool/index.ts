@@ -173,7 +173,7 @@ export class CognitoIdentityPoolCognitoIdentityProvidersOutputReference extends 
   }
 
   // client_id - computed: true, optional: true, required: false
-  private _clientId?: string;
+  private _clientId?: string; 
   public get clientId() {
     return this.getStringAttribute('client_id');
   }
@@ -189,7 +189,7 @@ export class CognitoIdentityPoolCognitoIdentityProvidersOutputReference extends 
   }
 
   // provider_name - computed: true, optional: true, required: false
-  private _providerName?: string;
+  private _providerName?: string; 
   public get providerName() {
     return this.getStringAttribute('provider_name');
   }
@@ -205,7 +205,7 @@ export class CognitoIdentityPoolCognitoIdentityProvidersOutputReference extends 
   }
 
   // server_side_token_check - computed: true, optional: true, required: false
-  private _serverSideTokenCheck?: boolean | cdktn.IResolvable;
+  private _serverSideTokenCheck?: boolean | cdktn.IResolvable; 
   public get serverSideTokenCheck() {
     return this.getBooleanAttribute('server_side_token_check');
   }
@@ -353,7 +353,7 @@ export class CognitoIdentityPoolCognitoStreamsOutputReference extends cdktn.Comp
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -369,7 +369,7 @@ export class CognitoIdentityPoolCognitoStreamsOutputReference extends cdktn.Comp
   }
 
   // stream_name - computed: true, optional: true, required: false
-  private _streamName?: string;
+  private _streamName?: string; 
   public get streamName() {
     return this.getStringAttribute('stream_name');
   }
@@ -385,7 +385,7 @@ export class CognitoIdentityPoolCognitoStreamsOutputReference extends cdktn.Comp
   }
 
   // streaming_status - computed: true, optional: true, required: false
-  private _streamingStatus?: string;
+  private _streamingStatus?: string; 
   public get streamingStatus() {
     return this.getStringAttribute('streaming_status');
   }
@@ -502,7 +502,7 @@ export class CognitoIdentityPoolIdentityPoolTagsOutputReference extends cdktn.Co
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -518,7 +518,7 @@ export class CognitoIdentityPoolIdentityPoolTagsOutputReference extends cdktn.Co
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -649,7 +649,7 @@ export class CognitoIdentityPoolPushSyncOutputReference extends cdktn.ComplexObj
   }
 
   // application_arns - computed: true, optional: true, required: false
-  private _applicationArns?: string[];
+  private _applicationArns?: string[]; 
   public get applicationArns() {
     return this.getListAttribute('application_arns');
   }
@@ -665,7 +665,7 @@ export class CognitoIdentityPoolPushSyncOutputReference extends cdktn.ComplexObj
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -750,7 +750,7 @@ export class CognitoIdentityPool extends cdktn.TerraformResource {
   // ==========
 
   // allow_classic_flow - computed: true, optional: true, required: false
-  private _allowClassicFlow?: boolean | cdktn.IResolvable;
+  private _allowClassicFlow?: boolean | cdktn.IResolvable; 
   public get allowClassicFlow() {
     return this.getBooleanAttribute('allow_classic_flow');
   }
@@ -766,7 +766,7 @@ export class CognitoIdentityPool extends cdktn.TerraformResource {
   }
 
   // allow_unauthenticated_identities - computed: false, optional: false, required: true
-  private _allowUnauthenticatedIdentities?: boolean | cdktn.IResolvable;
+  private _allowUnauthenticatedIdentities?: boolean | cdktn.IResolvable; 
   public get allowUnauthenticatedIdentities() {
     return this.getBooleanAttribute('allow_unauthenticated_identities');
   }
@@ -779,7 +779,7 @@ export class CognitoIdentityPool extends cdktn.TerraformResource {
   }
 
   // cognito_events - computed: true, optional: true, required: false
-  private _cognitoEvents?: string;
+  private _cognitoEvents?: string; 
   public get cognitoEvents() {
     return this.getStringAttribute('cognito_events');
   }
@@ -827,7 +827,7 @@ export class CognitoIdentityPool extends cdktn.TerraformResource {
   }
 
   // developer_provider_name - computed: true, optional: true, required: false
-  private _developerProviderName?: string;
+  private _developerProviderName?: string; 
   public get developerProviderName() {
     return this.getStringAttribute('developer_provider_name');
   }
@@ -853,7 +853,7 @@ export class CognitoIdentityPool extends cdktn.TerraformResource {
   }
 
   // identity_pool_name - computed: true, optional: true, required: false
-  private _identityPoolName?: string;
+  private _identityPoolName?: string; 
   public get identityPoolName() {
     return this.getStringAttribute('identity_pool_name');
   }
@@ -890,7 +890,7 @@ export class CognitoIdentityPool extends cdktn.TerraformResource {
   }
 
   // open_id_connect_provider_ar_ns - computed: true, optional: true, required: false
-  private _openIdConnectProviderArNs?: string[];
+  private _openIdConnectProviderArNs?: string[]; 
   public get openIdConnectProviderArNs() {
     return this.getListAttribute('open_id_connect_provider_ar_ns');
   }
@@ -922,7 +922,7 @@ export class CognitoIdentityPool extends cdktn.TerraformResource {
   }
 
   // saml_provider_ar_ns - computed: true, optional: true, required: false
-  private _samlProviderArNs?: string[];
+  private _samlProviderArNs?: string[]; 
   public get samlProviderArNs() {
     return this.getListAttribute('saml_provider_ar_ns');
   }
@@ -938,7 +938,7 @@ export class CognitoIdentityPool extends cdktn.TerraformResource {
   }
 
   // supported_login_providers - computed: true, optional: true, required: false
-  private _supportedLoginProviders?: string;
+  private _supportedLoginProviders?: string; 
   public get supportedLoginProviders() {
     return this.getStringAttribute('supported_login_providers');
   }

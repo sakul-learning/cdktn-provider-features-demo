@@ -136,7 +136,7 @@ export class Cloud9EnvironmentEc2 extends cdktn.TerraformResource {
   }
 
   // automatic_stop_time_minutes - computed: false, optional: true, required: false
-  private _automaticStopTimeMinutes?: number;
+  private _automaticStopTimeMinutes?: number; 
   public get automaticStopTimeMinutes() {
     return this.getNumberAttribute('automatic_stop_time_minutes');
   }
@@ -152,7 +152,7 @@ export class Cloud9EnvironmentEc2 extends cdktn.TerraformResource {
   }
 
   // connection_type - computed: false, optional: true, required: false
-  private _connectionType?: string;
+  private _connectionType?: string; 
   public get connectionType() {
     return this.getStringAttribute('connection_type');
   }
@@ -168,7 +168,7 @@ export class Cloud9EnvironmentEc2 extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -184,7 +184,7 @@ export class Cloud9EnvironmentEc2 extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -200,7 +200,7 @@ export class Cloud9EnvironmentEc2 extends cdktn.TerraformResource {
   }
 
   // image_id - computed: false, optional: false, required: true
-  private _imageId?: string;
+  private _imageId?: string; 
   public get imageId() {
     return this.getStringAttribute('image_id');
   }
@@ -213,7 +213,7 @@ export class Cloud9EnvironmentEc2 extends cdktn.TerraformResource {
   }
 
   // instance_type - computed: false, optional: false, required: true
-  private _instanceType?: string;
+  private _instanceType?: string; 
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -226,7 +226,7 @@ export class Cloud9EnvironmentEc2 extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -239,7 +239,7 @@ export class Cloud9EnvironmentEc2 extends cdktn.TerraformResource {
   }
 
   // owner_arn - computed: true, optional: true, required: false
-  private _ownerArn?: string;
+  private _ownerArn?: string; 
   public get ownerArn() {
     return this.getStringAttribute('owner_arn');
   }
@@ -255,7 +255,7 @@ export class Cloud9EnvironmentEc2 extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -271,7 +271,7 @@ export class Cloud9EnvironmentEc2 extends cdktn.TerraformResource {
   }
 
   // subnet_id - computed: false, optional: true, required: false
-  private _subnetId?: string;
+  private _subnetId?: string; 
   public get subnetId() {
     return this.getStringAttribute('subnet_id');
   }
@@ -287,7 +287,7 @@ export class Cloud9EnvironmentEc2 extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -303,7 +303,7 @@ export class Cloud9EnvironmentEc2 extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

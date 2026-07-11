@@ -83,7 +83,7 @@ export class LookoutvisionProject extends cdktn.TerraformResource {
   }
 
   // project_name - computed: false, optional: false, required: true
-  private _projectName?: string;
+  private _projectName?: string; 
   public get projectName() {
     return this.getStringAttribute('project_name');
   }

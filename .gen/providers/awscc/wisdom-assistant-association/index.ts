@@ -120,7 +120,7 @@ export class WisdomAssistantAssociationAssociationExternalBedrockKnowledgeBaseCo
   }
 
   // access_role_arn - computed: true, optional: true, required: false
-  private _accessRoleArn?: string;
+  private _accessRoleArn?: string; 
   public get accessRoleArn() {
     return this.getStringAttribute('access_role_arn');
   }
@@ -136,7 +136,7 @@ export class WisdomAssistantAssociationAssociationExternalBedrockKnowledgeBaseCo
   }
 
   // bedrock_knowledge_base_arn - computed: true, optional: true, required: false
-  private _bedrockKnowledgeBaseArn?: string;
+  private _bedrockKnowledgeBaseArn?: string; 
   public get bedrockKnowledgeBaseArn() {
     return this.getStringAttribute('bedrock_knowledge_base_arn');
   }
@@ -263,7 +263,7 @@ export class WisdomAssistantAssociationAssociationOutputReference extends cdktn.
   }
 
   // knowledge_base_id - computed: true, optional: true, required: false
-  private _knowledgeBaseId?: string;
+  private _knowledgeBaseId?: string; 
   public get knowledgeBaseId() {
     return this.getStringAttribute('knowledge_base_id');
   }
@@ -376,7 +376,7 @@ export class WisdomAssistantAssociationTagsOutputReference extends cdktn.Complex
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -392,7 +392,7 @@ export class WisdomAssistantAssociationTagsOutputReference extends cdktn.Complex
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -504,7 +504,7 @@ export class WisdomAssistantAssociation extends cdktn.TerraformResource {
   }
 
   // assistant_id - computed: false, optional: false, required: true
-  private _assistantId?: string;
+  private _assistantId?: string; 
   public get assistantId() {
     return this.getStringAttribute('assistant_id');
   }
@@ -530,7 +530,7 @@ export class WisdomAssistantAssociation extends cdktn.TerraformResource {
   }
 
   // association_type - computed: false, optional: false, required: true
-  private _associationType?: string;
+  private _associationType?: string; 
   public get associationType() {
     return this.getStringAttribute('association_type');
   }

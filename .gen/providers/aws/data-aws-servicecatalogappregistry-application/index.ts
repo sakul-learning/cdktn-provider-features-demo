@@ -97,7 +97,7 @@ export class DataAwsServicecatalogappregistryApplication extends cdktn.Terraform
   }
 
   // id - computed: false, optional: false, required: true
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -115,7 +115,7 @@ export class DataAwsServicecatalogappregistryApplication extends cdktn.Terraform
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

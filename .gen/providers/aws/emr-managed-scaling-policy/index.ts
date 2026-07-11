@@ -188,7 +188,7 @@ export class EmrManagedScalingPolicyComputeLimitsOutputReference extends cdktn.C
   }
 
   // maximum_capacity_units - computed: false, optional: false, required: true
-  private _maximumCapacityUnits?: number;
+  private _maximumCapacityUnits?: number; 
   public get maximumCapacityUnits() {
     return this.getNumberAttribute('maximum_capacity_units');
   }
@@ -201,7 +201,7 @@ export class EmrManagedScalingPolicyComputeLimitsOutputReference extends cdktn.C
   }
 
   // maximum_core_capacity_units - computed: false, optional: true, required: false
-  private _maximumCoreCapacityUnits?: number;
+  private _maximumCoreCapacityUnits?: number; 
   public get maximumCoreCapacityUnits() {
     return this.getNumberAttribute('maximum_core_capacity_units');
   }
@@ -217,7 +217,7 @@ export class EmrManagedScalingPolicyComputeLimitsOutputReference extends cdktn.C
   }
 
   // maximum_ondemand_capacity_units - computed: false, optional: true, required: false
-  private _maximumOndemandCapacityUnits?: number;
+  private _maximumOndemandCapacityUnits?: number; 
   public get maximumOndemandCapacityUnits() {
     return this.getNumberAttribute('maximum_ondemand_capacity_units');
   }
@@ -233,7 +233,7 @@ export class EmrManagedScalingPolicyComputeLimitsOutputReference extends cdktn.C
   }
 
   // minimum_capacity_units - computed: false, optional: false, required: true
-  private _minimumCapacityUnits?: number;
+  private _minimumCapacityUnits?: number; 
   public get minimumCapacityUnits() {
     return this.getNumberAttribute('minimum_capacity_units');
   }
@@ -246,7 +246,7 @@ export class EmrManagedScalingPolicyComputeLimitsOutputReference extends cdktn.C
   }
 
   // unit_type - computed: false, optional: false, required: true
-  private _unitType?: string;
+  private _unitType?: string; 
   public get unitType() {
     return this.getStringAttribute('unit_type');
   }
@@ -342,7 +342,7 @@ export class EmrManagedScalingPolicy extends cdktn.TerraformResource {
   // ==========
 
   // cluster_id - computed: false, optional: false, required: true
-  private _clusterId?: string;
+  private _clusterId?: string; 
   public get clusterId() {
     return this.getStringAttribute('cluster_id');
   }
@@ -355,7 +355,7 @@ export class EmrManagedScalingPolicy extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -371,7 +371,7 @@ export class EmrManagedScalingPolicy extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -387,7 +387,7 @@ export class EmrManagedScalingPolicy extends cdktn.TerraformResource {
   }
 
   // scaling_strategy - computed: false, optional: true, required: false
-  private _scalingStrategy?: string;
+  private _scalingStrategy?: string; 
   public get scalingStrategy() {
     return this.getStringAttribute('scaling_strategy');
   }
@@ -403,7 +403,7 @@ export class EmrManagedScalingPolicy extends cdktn.TerraformResource {
   }
 
   // utilization_performance_index - computed: false, optional: true, required: false
-  private _utilizationPerformanceIndex?: number;
+  private _utilizationPerformanceIndex?: number; 
   public get utilizationPerformanceIndex() {
     return this.getNumberAttribute('utilization_performance_index');
   }

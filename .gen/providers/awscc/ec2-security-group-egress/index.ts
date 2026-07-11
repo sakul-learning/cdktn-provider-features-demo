@@ -137,7 +137,7 @@ export class Ec2SecurityGroupEgress extends cdktn.TerraformResource {
   // ==========
 
   // cidr_ip - computed: true, optional: true, required: false
-  private _cidrIp?: string;
+  private _cidrIp?: string; 
   public get cidrIp() {
     return this.getStringAttribute('cidr_ip');
   }
@@ -153,7 +153,7 @@ export class Ec2SecurityGroupEgress extends cdktn.TerraformResource {
   }
 
   // cidr_ipv_6 - computed: true, optional: true, required: false
-  private _cidrIpv6?: string;
+  private _cidrIpv6?: string; 
   public get cidrIpv6() {
     return this.getStringAttribute('cidr_ipv_6');
   }
@@ -169,7 +169,7 @@ export class Ec2SecurityGroupEgress extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -185,7 +185,7 @@ export class Ec2SecurityGroupEgress extends cdktn.TerraformResource {
   }
 
   // destination_prefix_list_id - computed: true, optional: true, required: false
-  private _destinationPrefixListId?: string;
+  private _destinationPrefixListId?: string; 
   public get destinationPrefixListId() {
     return this.getStringAttribute('destination_prefix_list_id');
   }
@@ -201,7 +201,7 @@ export class Ec2SecurityGroupEgress extends cdktn.TerraformResource {
   }
 
   // destination_security_group_id - computed: true, optional: true, required: false
-  private _destinationSecurityGroupId?: string;
+  private _destinationSecurityGroupId?: string; 
   public get destinationSecurityGroupId() {
     return this.getStringAttribute('destination_security_group_id');
   }
@@ -217,7 +217,7 @@ export class Ec2SecurityGroupEgress extends cdktn.TerraformResource {
   }
 
   // from_port - computed: true, optional: true, required: false
-  private _fromPort?: number;
+  private _fromPort?: number; 
   public get fromPort() {
     return this.getNumberAttribute('from_port');
   }
@@ -233,7 +233,7 @@ export class Ec2SecurityGroupEgress extends cdktn.TerraformResource {
   }
 
   // group_id - computed: false, optional: false, required: true
-  private _groupId?: string;
+  private _groupId?: string; 
   public get groupId() {
     return this.getStringAttribute('group_id');
   }
@@ -251,7 +251,7 @@ export class Ec2SecurityGroupEgress extends cdktn.TerraformResource {
   }
 
   // ip_protocol - computed: false, optional: false, required: true
-  private _ipProtocol?: string;
+  private _ipProtocol?: string; 
   public get ipProtocol() {
     return this.getStringAttribute('ip_protocol');
   }
@@ -269,7 +269,7 @@ export class Ec2SecurityGroupEgress extends cdktn.TerraformResource {
   }
 
   // to_port - computed: true, optional: true, required: false
-  private _toPort?: number;
+  private _toPort?: number; 
   public get toPort() {
     return this.getNumberAttribute('to_port');
   }

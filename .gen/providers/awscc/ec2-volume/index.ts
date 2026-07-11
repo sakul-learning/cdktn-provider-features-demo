@@ -37,12 +37,12 @@ export interface Ec2VolumeConfig extends cdktn.TerraformMetaArguments {
   */
   readonly encrypted?: boolean | cdktn.IResolvable;
   /**
-  * The number of I/O operations per second (IOPS) to provision for the volume. Required for ``io1`` and ``io2`` volumes. Optional for ``gp3`` volumes. Omit for all other volume types.
+  * The number of I/O operations per second (IOPS) to provision for the volume. Required for ``io1`` and ``io2`` volumes. Optional for ``gp3`` volumes. Omit for all other volume types. 
   *  Valid ranges:
   *   +  gp3: ``3,000``(*default*)``- 80,000`` IOPS
   *   +  io1: ``100 - 64,000`` IOPS
   *   +  io2: ``100 - 256,000`` IOPS
-  *
+  *   
   *   [Instances built on the Nitro System](https://docs.aws.amazon.com/ec2/latest/instancetypes/ec2-nitro-instances.html) can support up to 256,000 IOPS. Other instances can support up to 32,000 IOPS.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_volume#iops Ec2Volume#iops}
@@ -56,7 +56,7 @@ export interface Ec2VolumeConfig extends cdktn.TerraformMetaArguments {
   *   +  Key alias. Specify the alias for the key, prefixed with ``alias/``. For example, for a key with the alias ``my_cmk``, use ``alias/my_cmk``. Or to specify the aws-managed-key, use ``alias/aws/ebs``.
   *   +  Key ARN. For example, arn:aws:kms:us-east-1:012345678910:key/1234abcd-12ab-34cd-56ef-1234567890ab.
   *   +  Alias ARN. For example, arn:aws:kms:us-east-1:012345678910:alias/ExampleAlias.
-  *
+  *   
   *  If you are creating a volume copy, omit this parameter. The volume is automatically encrypted with the same KMS key as the source volume. You can't copy unencrypted volumes.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_volume#kms_key_id Ec2Volume#kms_key_id}
@@ -80,7 +80,7 @@ export interface Ec2VolumeConfig extends cdktn.TerraformMetaArguments {
   * The size of the volume, in GiBs.
   *   +  Required for new empty volumes.
   *   +  Optional for volumes created from snapshots and volume copies. In this case, the size defaults to the size of the snapshot or source volume. You can optionally specify a size that is equal to or larger than the size of the source snapshot or volume.
-  *
+  *   
   *  Supported volume sizes:
   *   +  gp2: ``1 - 16,384`` GiB
   *   +  gp3: ``1 - 65,536`` GiB
@@ -125,7 +125,7 @@ export interface Ec2VolumeConfig extends cdktn.TerraformMetaArguments {
   *   +  You want to create the volume using fast snapshot restore. You must specify a snapshot that is enabled for fast snapshot restore. In this case, the volume is fully initialized at creation.
   *   If you specify a snapshot that is enabled for fast snapshot restore and a volume initialization rate, the volume will be initialized at the specified rate instead of fast snapshot restore.
   *    +  You want to create a volume that is initialized at the default rate.
-  *
+  *   
   *  For more information, see [Initialize Amazon EBS volumes](https://docs.aws.amazon.com/ebs/latest/userguide/initalize-volume.html) in the *Amazon EC2 User Guide*.
   *  Valid range: 100 - 300 MiB/s
   *
@@ -139,7 +139,7 @@ export interface Ec2VolumeConfig extends cdktn.TerraformMetaArguments {
   *   +  Throughput Optimized HDD: ``st1``
   *   +  Cold HDD: ``sc1``
   *   +  Magnetic: ``standard``
-  *
+  *   
   *   Throughput Optimized HDD (``st1``) and Cold HDD (``sc1``) volumes can't be used as boot volumes.
   *   For more information, see [Amazon EBS volume types](https://docs.aws.amazon.com/ebs/latest/userguide/ebs-volume-types.html) in the *Amazon EBS User Guide*.
   *  Default: ``gp2``
@@ -250,7 +250,7 @@ export class Ec2VolumeTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -266,7 +266,7 @@ export class Ec2VolumeTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -374,7 +374,7 @@ export class Ec2Volume extends cdktn.TerraformResource {
   // ==========
 
   // auto_enable_io - computed: true, optional: true, required: false
-  private _autoEnableIo?: boolean | cdktn.IResolvable;
+  private _autoEnableIo?: boolean | cdktn.IResolvable; 
   public get autoEnableIo() {
     return this.getBooleanAttribute('auto_enable_io');
   }
@@ -390,7 +390,7 @@ export class Ec2Volume extends cdktn.TerraformResource {
   }
 
   // availability_zone - computed: true, optional: true, required: false
-  private _availabilityZone?: string;
+  private _availabilityZone?: string; 
   public get availabilityZone() {
     return this.getStringAttribute('availability_zone');
   }
@@ -406,7 +406,7 @@ export class Ec2Volume extends cdktn.TerraformResource {
   }
 
   // availability_zone_id - computed: true, optional: true, required: false
-  private _availabilityZoneId?: string;
+  private _availabilityZoneId?: string; 
   public get availabilityZoneId() {
     return this.getStringAttribute('availability_zone_id');
   }
@@ -422,7 +422,7 @@ export class Ec2Volume extends cdktn.TerraformResource {
   }
 
   // encrypted - computed: true, optional: true, required: false
-  private _encrypted?: boolean | cdktn.IResolvable;
+  private _encrypted?: boolean | cdktn.IResolvable; 
   public get encrypted() {
     return this.getBooleanAttribute('encrypted');
   }
@@ -443,7 +443,7 @@ export class Ec2Volume extends cdktn.TerraformResource {
   }
 
   // iops - computed: true, optional: true, required: false
-  private _iops?: number;
+  private _iops?: number; 
   public get iops() {
     return this.getNumberAttribute('iops');
   }
@@ -459,7 +459,7 @@ export class Ec2Volume extends cdktn.TerraformResource {
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -475,7 +475,7 @@ export class Ec2Volume extends cdktn.TerraformResource {
   }
 
   // multi_attach_enabled - computed: true, optional: true, required: false
-  private _multiAttachEnabled?: boolean | cdktn.IResolvable;
+  private _multiAttachEnabled?: boolean | cdktn.IResolvable; 
   public get multiAttachEnabled() {
     return this.getBooleanAttribute('multi_attach_enabled');
   }
@@ -491,7 +491,7 @@ export class Ec2Volume extends cdktn.TerraformResource {
   }
 
   // outpost_arn - computed: true, optional: true, required: false
-  private _outpostArn?: string;
+  private _outpostArn?: string; 
   public get outpostArn() {
     return this.getStringAttribute('outpost_arn');
   }
@@ -507,7 +507,7 @@ export class Ec2Volume extends cdktn.TerraformResource {
   }
 
   // size - computed: true, optional: true, required: false
-  private _size?: number;
+  private _size?: number; 
   public get size() {
     return this.getNumberAttribute('size');
   }
@@ -523,7 +523,7 @@ export class Ec2Volume extends cdktn.TerraformResource {
   }
 
   // snapshot_id - computed: true, optional: true, required: false
-  private _snapshotId?: string;
+  private _snapshotId?: string; 
   public get snapshotId() {
     return this.getStringAttribute('snapshot_id');
   }
@@ -539,7 +539,7 @@ export class Ec2Volume extends cdktn.TerraformResource {
   }
 
   // source_volume_id - computed: true, optional: true, required: false
-  private _sourceVolumeId?: string;
+  private _sourceVolumeId?: string; 
   public get sourceVolumeId() {
     return this.getStringAttribute('source_volume_id');
   }
@@ -571,7 +571,7 @@ export class Ec2Volume extends cdktn.TerraformResource {
   }
 
   // throughput - computed: true, optional: true, required: false
-  private _throughput?: number;
+  private _throughput?: number; 
   public get throughput() {
     return this.getNumberAttribute('throughput');
   }
@@ -592,7 +592,7 @@ export class Ec2Volume extends cdktn.TerraformResource {
   }
 
   // volume_initialization_rate - computed: true, optional: true, required: false
-  private _volumeInitializationRate?: number;
+  private _volumeInitializationRate?: number; 
   public get volumeInitializationRate() {
     return this.getNumberAttribute('volume_initialization_rate');
   }
@@ -608,7 +608,7 @@ export class Ec2Volume extends cdktn.TerraformResource {
   }
 
   // volume_type - computed: true, optional: true, required: false
-  private _volumeType?: string;
+  private _volumeType?: string; 
   public get volumeType() {
     return this.getStringAttribute('volume_type');
   }

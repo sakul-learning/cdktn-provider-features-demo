@@ -138,7 +138,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingSampleUtterances
   }
 
   // utterance - computed: true, optional: true, required: false
-  private _utterance?: string;
+  private _utterance?: string; 
   public get utterance() {
     return this.getStringAttribute('utterance');
   }
@@ -254,7 +254,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueS
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -371,7 +371,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueS
   }
 
   // text - computed: true, optional: true, required: false
-  private _text?: string;
+  private _text?: string; 
   public get text() {
     return this.getStringAttribute('text');
   }
@@ -387,7 +387,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueS
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -576,7 +576,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueS
   }
 
   // image_url - computed: true, optional: true, required: false
-  private _imageUrl?: string;
+  private _imageUrl?: string; 
   public get imageUrl() {
     return this.getStringAttribute('image_url');
   }
@@ -592,7 +592,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueS
   }
 
   // subtitle - computed: true, optional: true, required: false
-  private _subtitle?: string;
+  private _subtitle?: string; 
   public get subtitle() {
     return this.getStringAttribute('subtitle');
   }
@@ -608,7 +608,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueS
   }
 
   // title - computed: true, optional: true, required: false
-  private _title?: string;
+  private _title?: string; 
   public get title() {
     return this.getStringAttribute('title');
   }
@@ -704,7 +704,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueS
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -800,7 +800,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueS
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1097,7 +1097,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueS
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1214,7 +1214,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueS
   }
 
   // text - computed: true, optional: true, required: false
-  private _text?: string;
+  private _text?: string; 
   public get text() {
     return this.getStringAttribute('text');
   }
@@ -1230,7 +1230,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueS
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1419,7 +1419,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueS
   }
 
   // image_url - computed: true, optional: true, required: false
-  private _imageUrl?: string;
+  private _imageUrl?: string; 
   public get imageUrl() {
     return this.getStringAttribute('image_url');
   }
@@ -1435,7 +1435,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueS
   }
 
   // subtitle - computed: true, optional: true, required: false
-  private _subtitle?: string;
+  private _subtitle?: string; 
   public get subtitle() {
     return this.getStringAttribute('subtitle');
   }
@@ -1451,7 +1451,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueS
   }
 
   // title - computed: true, optional: true, required: false
-  private _title?: string;
+  private _title?: string; 
   public get title() {
     return this.getStringAttribute('title');
   }
@@ -1547,7 +1547,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueS
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1643,7 +1643,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueS
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2134,7 +2134,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueS
   }
 
   // allow_interrupt - computed: true, optional: true, required: false
-  private _allowInterrupt?: boolean | cdktn.IResolvable;
+  private _allowInterrupt?: boolean | cdktn.IResolvable; 
   public get allowInterrupt() {
     return this.getBooleanAttribute('allow_interrupt');
   }
@@ -2246,7 +2246,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueS
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2363,7 +2363,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueS
   }
 
   // text - computed: true, optional: true, required: false
-  private _text?: string;
+  private _text?: string; 
   public get text() {
     return this.getStringAttribute('text');
   }
@@ -2379,7 +2379,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueS
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2568,7 +2568,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueS
   }
 
   // image_url - computed: true, optional: true, required: false
-  private _imageUrl?: string;
+  private _imageUrl?: string; 
   public get imageUrl() {
     return this.getStringAttribute('image_url');
   }
@@ -2584,7 +2584,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueS
   }
 
   // subtitle - computed: true, optional: true, required: false
-  private _subtitle?: string;
+  private _subtitle?: string; 
   public get subtitle() {
     return this.getStringAttribute('subtitle');
   }
@@ -2600,7 +2600,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueS
   }
 
   // title - computed: true, optional: true, required: false
-  private _title?: string;
+  private _title?: string; 
   public get title() {
     return this.getStringAttribute('title');
   }
@@ -2696,7 +2696,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueS
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2792,7 +2792,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueS
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -3089,7 +3089,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueS
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -3206,7 +3206,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueS
   }
 
   // text - computed: true, optional: true, required: false
-  private _text?: string;
+  private _text?: string; 
   public get text() {
     return this.getStringAttribute('text');
   }
@@ -3222,7 +3222,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueS
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -3411,7 +3411,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueS
   }
 
   // image_url - computed: true, optional: true, required: false
-  private _imageUrl?: string;
+  private _imageUrl?: string; 
   public get imageUrl() {
     return this.getStringAttribute('image_url');
   }
@@ -3427,7 +3427,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueS
   }
 
   // subtitle - computed: true, optional: true, required: false
-  private _subtitle?: string;
+  private _subtitle?: string; 
   public get subtitle() {
     return this.getStringAttribute('subtitle');
   }
@@ -3443,7 +3443,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueS
   }
 
   // title - computed: true, optional: true, required: false
-  private _title?: string;
+  private _title?: string; 
   public get title() {
     return this.getStringAttribute('title');
   }
@@ -3539,7 +3539,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueS
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -3635,7 +3635,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueS
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -4164,7 +4164,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueS
   }
 
   // allow_interrupt - computed: true, optional: true, required: false
-  private _allowInterrupt?: boolean | cdktn.IResolvable;
+  private _allowInterrupt?: boolean | cdktn.IResolvable; 
   public get allowInterrupt() {
     return this.getBooleanAttribute('allow_interrupt');
   }
@@ -4180,7 +4180,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueS
   }
 
   // frequency_in_seconds - computed: true, optional: true, required: false
-  private _frequencyInSeconds?: number;
+  private _frequencyInSeconds?: number; 
   public get frequencyInSeconds() {
     return this.getNumberAttribute('frequency_in_seconds');
   }
@@ -4212,7 +4212,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueS
   }
 
   // timeout_in_seconds - computed: true, optional: true, required: false
-  private _timeoutInSeconds?: number;
+  private _timeoutInSeconds?: number; 
   public get timeoutInSeconds() {
     return this.getNumberAttribute('timeout_in_seconds');
   }
@@ -4308,7 +4308,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueS
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -4425,7 +4425,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueS
   }
 
   // text - computed: true, optional: true, required: false
-  private _text?: string;
+  private _text?: string; 
   public get text() {
     return this.getStringAttribute('text');
   }
@@ -4441,7 +4441,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueS
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -4630,7 +4630,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueS
   }
 
   // image_url - computed: true, optional: true, required: false
-  private _imageUrl?: string;
+  private _imageUrl?: string; 
   public get imageUrl() {
     return this.getStringAttribute('image_url');
   }
@@ -4646,7 +4646,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueS
   }
 
   // subtitle - computed: true, optional: true, required: false
-  private _subtitle?: string;
+  private _subtitle?: string; 
   public get subtitle() {
     return this.getStringAttribute('subtitle');
   }
@@ -4662,7 +4662,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueS
   }
 
   // title - computed: true, optional: true, required: false
-  private _title?: string;
+  private _title?: string; 
   public get title() {
     return this.getStringAttribute('title');
   }
@@ -4758,7 +4758,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueS
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -4854,7 +4854,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueS
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -5151,7 +5151,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueS
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -5268,7 +5268,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueS
   }
 
   // text - computed: true, optional: true, required: false
-  private _text?: string;
+  private _text?: string; 
   public get text() {
     return this.getStringAttribute('text');
   }
@@ -5284,7 +5284,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueS
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -5473,7 +5473,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueS
   }
 
   // image_url - computed: true, optional: true, required: false
-  private _imageUrl?: string;
+  private _imageUrl?: string; 
   public get imageUrl() {
     return this.getStringAttribute('image_url');
   }
@@ -5489,7 +5489,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueS
   }
 
   // subtitle - computed: true, optional: true, required: false
-  private _subtitle?: string;
+  private _subtitle?: string; 
   public get subtitle() {
     return this.getStringAttribute('subtitle');
   }
@@ -5505,7 +5505,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueS
   }
 
   // title - computed: true, optional: true, required: false
-  private _title?: string;
+  private _title?: string; 
   public get title() {
     return this.getStringAttribute('title');
   }
@@ -5601,7 +5601,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueS
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -5697,7 +5697,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueS
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -6188,7 +6188,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueS
   }
 
   // allow_interrupt - computed: true, optional: true, required: false
-  private _allowInterrupt?: boolean | cdktn.IResolvable;
+  private _allowInterrupt?: boolean | cdktn.IResolvable; 
   public get allowInterrupt() {
     return this.getBooleanAttribute('allow_interrupt');
   }
@@ -6373,7 +6373,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingWaitAndContinueS
   }
 
   // is_active - computed: true, optional: true, required: false
-  private _isActive?: boolean | cdktn.IResolvable;
+  private _isActive?: boolean | cdktn.IResolvable; 
   public get isActive() {
     return this.getBooleanAttribute('is_active');
   }
@@ -6625,7 +6625,7 @@ export class LexBotBotLocalesIntentsSlotsValueElicitationSettingOutputReference 
   }
 
   // slot_constraint - computed: true, optional: true, required: false
-  private _slotConstraint?: string;
+  private _slotConstraint?: string; 
   public get slotConstraint() {
     return this.getStringAttribute('slot_constraint');
   }
@@ -6834,7 +6834,7 @@ export class LexBotBotLocalesIntentsSlotsOutputReference extends cdktn.ComplexOb
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -6866,7 +6866,7 @@ export class LexBotBotLocalesIntentsSlotsOutputReference extends cdktn.ComplexOb
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -6898,7 +6898,7 @@ export class LexBotBotLocalesIntentsSlotsOutputReference extends cdktn.ComplexOb
   }
 
   // slot_type_name - computed: true, optional: true, required: false
-  private _slotTypeName?: string;
+  private _slotTypeName?: string; 
   public get slotTypeName() {
     return this.getStringAttribute('slot_type_name');
   }
@@ -7260,7 +7260,7 @@ export class LexBotBotLocalesIntentsOutputReference extends cdktn.ComplexObject 
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -7372,7 +7372,7 @@ export class LexBotBotLocalesIntentsOutputReference extends cdktn.ComplexObject 
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -7404,7 +7404,7 @@ export class LexBotBotLocalesIntentsOutputReference extends cdktn.ComplexObject 
   }
 
   // parent_intent_signature - computed: true, optional: true, required: false
-  private _parentIntentSignature?: string;
+  private _parentIntentSignature?: string; 
   public get parentIntentSignature() {
     return this.getStringAttribute('parent_intent_signature');
   }
@@ -7606,7 +7606,7 @@ export class LexBotBotLocalesSlotTypesExternalSourceSettingGrammarSlotTypeSettin
   }
 
   // kms_key_arn - computed: true, optional: true, required: false
-  private _kmsKeyArn?: string;
+  private _kmsKeyArn?: string; 
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -7622,7 +7622,7 @@ export class LexBotBotLocalesSlotTypesExternalSourceSettingGrammarSlotTypeSettin
   }
 
   // s3_bucket_name - computed: true, optional: true, required: false
-  private _s3BucketName?: string;
+  private _s3BucketName?: string; 
   public get s3BucketName() {
     return this.getStringAttribute('s3_bucket_name');
   }
@@ -7638,7 +7638,7 @@ export class LexBotBotLocalesSlotTypesExternalSourceSettingGrammarSlotTypeSettin
   }
 
   // s3_object_key - computed: true, optional: true, required: false
-  private _s3ObjectKey?: string;
+  private _s3ObjectKey?: string; 
   public get s3ObjectKey() {
     return this.getStringAttribute('s3_object_key');
   }
@@ -7926,7 +7926,7 @@ export class LexBotBotLocalesSlotTypesSlotTypeValuesSampleValueOutputReference e
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -8024,7 +8024,7 @@ export class LexBotBotLocalesSlotTypesSlotTypeValuesSynonymsOutputReference exte
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -8293,7 +8293,7 @@ export class LexBotBotLocalesSlotTypesValueSelectionSettingAdvancedRecognitionSe
   }
 
   // audio_recognition_strategy - computed: true, optional: true, required: false
-  private _audioRecognitionStrategy?: string;
+  private _audioRecognitionStrategy?: string; 
   public get audioRecognitionStrategy() {
     return this.getStringAttribute('audio_recognition_strategy');
   }
@@ -8389,7 +8389,7 @@ export class LexBotBotLocalesSlotTypesValueSelectionSettingRegexFilterOutputRefe
   }
 
   // pattern - computed: true, optional: true, required: false
-  private _pattern?: string;
+  private _pattern?: string; 
   public get pattern() {
     return this.getStringAttribute('pattern');
   }
@@ -8553,7 +8553,7 @@ export class LexBotBotLocalesSlotTypesValueSelectionSettingOutputReference exten
   }
 
   // resolution_strategy - computed: true, optional: true, required: false
-  private _resolutionStrategy?: string;
+  private _resolutionStrategy?: string; 
   public get resolutionStrategy() {
     return this.getStringAttribute('resolution_strategy');
   }
@@ -8746,7 +8746,7 @@ export class LexBotBotLocalesSlotTypesOutputReference extends cdktn.ComplexObjec
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -8778,7 +8778,7 @@ export class LexBotBotLocalesSlotTypesOutputReference extends cdktn.ComplexObjec
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -8794,7 +8794,7 @@ export class LexBotBotLocalesSlotTypesOutputReference extends cdktn.ComplexObjec
   }
 
   // parent_slot_type_signature - computed: true, optional: true, required: false
-  private _parentSlotTypeSignature?: string;
+  private _parentSlotTypeSignature?: string; 
   public get parentSlotTypeSignature() {
     return this.getStringAttribute('parent_slot_type_signature');
   }
@@ -8961,7 +8961,7 @@ export class LexBotBotLocalesVoiceSettingsOutputReference extends cdktn.ComplexO
   }
 
   // engine - computed: true, optional: true, required: false
-  private _engine?: string;
+  private _engine?: string; 
   public get engine() {
     return this.getStringAttribute('engine');
   }
@@ -8977,7 +8977,7 @@ export class LexBotBotLocalesVoiceSettingsOutputReference extends cdktn.ComplexO
   }
 
   // voice_id - computed: true, optional: true, required: false
-  private _voiceId?: string;
+  private _voiceId?: string; 
   public get voiceId() {
     return this.getStringAttribute('voice_id');
   }
@@ -9205,7 +9205,7 @@ export class LexBotBotLocalesOutputReference extends cdktn.ComplexObject {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -9237,7 +9237,7 @@ export class LexBotBotLocalesOutputReference extends cdktn.ComplexObject {
   }
 
   // locale_id - computed: true, optional: true, required: false
-  private _localeId?: string;
+  private _localeId?: string; 
   public get localeId() {
     return this.getStringAttribute('locale_id');
   }
@@ -9253,7 +9253,7 @@ export class LexBotBotLocalesOutputReference extends cdktn.ComplexObject {
   }
 
   // nlu_confidence_threshold - computed: true, optional: true, required: false
-  private _nluConfidenceThreshold?: number;
+  private _nluConfidenceThreshold?: number; 
   public get nluConfidenceThreshold() {
     return this.getNumberAttribute('nlu_confidence_threshold');
   }
@@ -9422,7 +9422,7 @@ export class LexBotBotTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -9438,7 +9438,7 @@ export class LexBotBotTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -9552,7 +9552,7 @@ export class LexBotDataPrivacyOutputReference extends cdktn.ComplexObject {
   }
 
   // child_directed - computed: false, optional: false, required: true
-  private _childDirected?: boolean | cdktn.IResolvable;
+  private _childDirected?: boolean | cdktn.IResolvable; 
   public get childDirected() {
     return this.getBooleanAttribute('child_directed');
   }
@@ -9664,7 +9664,7 @@ export class LexBotTestBotAliasSettingsBotAliasLocaleSettingsBotAliasLocaleSetti
   }
 
   // code_hook_interface_version - computed: true, optional: true, required: false
-  private _codeHookInterfaceVersion?: string;
+  private _codeHookInterfaceVersion?: string; 
   public get codeHookInterfaceVersion() {
     return this.getStringAttribute('code_hook_interface_version');
   }
@@ -9680,7 +9680,7 @@ export class LexBotTestBotAliasSettingsBotAliasLocaleSettingsBotAliasLocaleSetti
   }
 
   // lambda_arn - computed: true, optional: true, required: false
-  private _lambdaArn?: string;
+  private _lambdaArn?: string; 
   public get lambdaArn() {
     return this.getStringAttribute('lambda_arn');
   }
@@ -9907,7 +9907,7 @@ export class LexBotTestBotAliasSettingsBotAliasLocaleSettingsBotAliasLocaleSetti
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -10040,7 +10040,7 @@ export class LexBotTestBotAliasSettingsBotAliasLocaleSettingsOutputReference ext
   }
 
   // locale_id - computed: true, optional: true, required: false
-  private _localeId?: string;
+  private _localeId?: string; 
   public get localeId() {
     return this.getStringAttribute('locale_id');
   }
@@ -10194,7 +10194,7 @@ export class LexBotTestBotAliasSettingsConversationLogSettingsAudioLogSettingsDe
   }
 
   // kms_key_arn - computed: true, optional: true, required: false
-  private _kmsKeyArn?: string;
+  private _kmsKeyArn?: string; 
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -10210,7 +10210,7 @@ export class LexBotTestBotAliasSettingsConversationLogSettingsAudioLogSettingsDe
   }
 
   // log_prefix - computed: true, optional: true, required: false
-  private _logPrefix?: string;
+  private _logPrefix?: string; 
   public get logPrefix() {
     return this.getStringAttribute('log_prefix');
   }
@@ -10226,7 +10226,7 @@ export class LexBotTestBotAliasSettingsConversationLogSettingsAudioLogSettingsDe
   }
 
   // s3_bucket_arn - computed: true, optional: true, required: false
-  private _s3BucketArn?: string;
+  private _s3BucketArn?: string; 
   public get s3BucketArn() {
     return this.getStringAttribute('s3_bucket_arn');
   }
@@ -10453,7 +10453,7 @@ export class LexBotTestBotAliasSettingsConversationLogSettingsAudioLogSettingsOu
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -10588,7 +10588,7 @@ export class LexBotTestBotAliasSettingsConversationLogSettingsTextLogSettingsDes
   }
 
   // cloudwatch_log_group_arn - computed: true, optional: true, required: false
-  private _cloudwatchLogGroupArn?: string;
+  private _cloudwatchLogGroupArn?: string; 
   public get cloudwatchLogGroupArn() {
     return this.getStringAttribute('cloudwatch_log_group_arn');
   }
@@ -10604,7 +10604,7 @@ export class LexBotTestBotAliasSettingsConversationLogSettingsTextLogSettingsDes
   }
 
   // log_prefix - computed: true, optional: true, required: false
-  private _logPrefix?: string;
+  private _logPrefix?: string; 
   public get logPrefix() {
     return this.getStringAttribute('log_prefix');
   }
@@ -10829,7 +10829,7 @@ export class LexBotTestBotAliasSettingsConversationLogSettingsTextLogSettingsOut
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -11076,7 +11076,7 @@ export class LexBotTestBotAliasSettingsSentimentAnalysisSettingsOutputReference 
   }
 
   // detect_sentiment - computed: true, optional: true, required: false
-  private _detectSentiment?: boolean | cdktn.IResolvable;
+  private _detectSentiment?: boolean | cdktn.IResolvable; 
   public get detectSentiment() {
     return this.getBooleanAttribute('detect_sentiment');
   }
@@ -11261,7 +11261,7 @@ export class LexBotTestBotAliasSettingsOutputReference extends cdktn.ComplexObje
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -11394,7 +11394,7 @@ export class LexBotTestBotAliasTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -11410,7 +11410,7 @@ export class LexBotTestBotAliasTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }

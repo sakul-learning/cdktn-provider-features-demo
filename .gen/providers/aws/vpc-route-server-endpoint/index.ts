@@ -132,7 +132,7 @@ export class VpcRouteServerEndpointTimeoutsOutputReference extends cdktn.Complex
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -148,7 +148,7 @@ export class VpcRouteServerEndpointTimeoutsOutputReference extends cdktn.Complex
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -241,7 +241,7 @@ export class VpcRouteServerEndpoint extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -262,7 +262,7 @@ export class VpcRouteServerEndpoint extends cdktn.TerraformResource {
   }
 
   // route_server_id - computed: false, optional: false, required: true
-  private _routeServerId?: string;
+  private _routeServerId?: string; 
   public get routeServerId() {
     return this.getStringAttribute('route_server_id');
   }
@@ -275,7 +275,7 @@ export class VpcRouteServerEndpoint extends cdktn.TerraformResource {
   }
 
   // subnet_id - computed: false, optional: false, required: true
-  private _subnetId?: string;
+  private _subnetId?: string; 
   public get subnetId() {
     return this.getStringAttribute('subnet_id');
   }
@@ -288,7 +288,7 @@ export class VpcRouteServerEndpoint extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

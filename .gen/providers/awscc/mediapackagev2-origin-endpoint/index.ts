@@ -159,7 +159,7 @@ export class Mediapackagev2OriginEndpointDashManifestsAvailabilityStartTimeConfi
   }
 
   // fixed_availability_start_time - computed: true, optional: true, required: false
-  private _fixedAvailabilityStartTime?: string;
+  private _fixedAvailabilityStartTime?: string; 
   public get fixedAvailabilityStartTime() {
     return this.getStringAttribute('fixed_availability_start_time');
   }
@@ -314,7 +314,7 @@ export class Mediapackagev2OriginEndpointDashManifestsBaseUrlsOutputReference ex
   }
 
   // dvb_priority - computed: true, optional: true, required: false
-  private _dvbPriority?: number;
+  private _dvbPriority?: number; 
   public get dvbPriority() {
     return this.getNumberAttribute('dvb_priority');
   }
@@ -330,7 +330,7 @@ export class Mediapackagev2OriginEndpointDashManifestsBaseUrlsOutputReference ex
   }
 
   // dvb_weight - computed: true, optional: true, required: false
-  private _dvbWeight?: number;
+  private _dvbWeight?: number; 
   public get dvbWeight() {
     return this.getNumberAttribute('dvb_weight');
   }
@@ -346,7 +346,7 @@ export class Mediapackagev2OriginEndpointDashManifestsBaseUrlsOutputReference ex
   }
 
   // service_location - computed: true, optional: true, required: false
-  private _serviceLocation?: string;
+  private _serviceLocation?: string; 
   public get serviceLocation() {
     return this.getStringAttribute('service_location');
   }
@@ -362,7 +362,7 @@ export class Mediapackagev2OriginEndpointDashManifestsBaseUrlsOutputReference ex
   }
 
   // url - computed: true, optional: true, required: false
-  private _url?: string;
+  private _url?: string; 
   public get url() {
     return this.getStringAttribute('url');
   }
@@ -499,7 +499,7 @@ export class Mediapackagev2OriginEndpointDashManifestsDvbSettingsErrorMetricsOut
   }
 
   // probability - computed: true, optional: true, required: false
-  private _probability?: number;
+  private _probability?: number; 
   public get probability() {
     return this.getNumberAttribute('probability');
   }
@@ -515,7 +515,7 @@ export class Mediapackagev2OriginEndpointDashManifestsDvbSettingsErrorMetricsOut
   }
 
   // reporting_url - computed: true, optional: true, required: false
-  private _reportingUrl?: string;
+  private _reportingUrl?: string; 
   public get reportingUrl() {
     return this.getStringAttribute('reporting_url');
   }
@@ -669,7 +669,7 @@ export class Mediapackagev2OriginEndpointDashManifestsDvbSettingsFontDownloadOut
   }
 
   // font_family - computed: true, optional: true, required: false
-  private _fontFamily?: string;
+  private _fontFamily?: string; 
   public get fontFamily() {
     return this.getStringAttribute('font_family');
   }
@@ -685,7 +685,7 @@ export class Mediapackagev2OriginEndpointDashManifestsDvbSettingsFontDownloadOut
   }
 
   // mime_type - computed: true, optional: true, required: false
-  private _mimeType?: string;
+  private _mimeType?: string; 
   public get mimeType() {
     return this.getStringAttribute('mime_type');
   }
@@ -701,7 +701,7 @@ export class Mediapackagev2OriginEndpointDashManifestsDvbSettingsFontDownloadOut
   }
 
   // url - computed: true, optional: true, required: false
-  private _url?: string;
+  private _url?: string; 
   public get url() {
     return this.getStringAttribute('url');
   }
@@ -1023,7 +1023,7 @@ export class Mediapackagev2OriginEndpointDashManifestsFilterConfigurationOutputR
   }
 
   // clip_start_time - computed: true, optional: true, required: false
-  private _clipStartTime?: string;
+  private _clipStartTime?: string; 
   public get clipStartTime() {
     return this.getStringAttribute('clip_start_time');
   }
@@ -1039,7 +1039,7 @@ export class Mediapackagev2OriginEndpointDashManifestsFilterConfigurationOutputR
   }
 
   // drm_settings - computed: true, optional: true, required: false
-  private _drmSettings?: string;
+  private _drmSettings?: string; 
   public get drmSettings() {
     return this.getStringAttribute('drm_settings');
   }
@@ -1055,7 +1055,7 @@ export class Mediapackagev2OriginEndpointDashManifestsFilterConfigurationOutputR
   }
 
   // end - computed: true, optional: true, required: false
-  private _end?: string;
+  private _end?: string; 
   public get end() {
     return this.getStringAttribute('end');
   }
@@ -1071,7 +1071,7 @@ export class Mediapackagev2OriginEndpointDashManifestsFilterConfigurationOutputR
   }
 
   // manifest_filter - computed: true, optional: true, required: false
-  private _manifestFilter?: string;
+  private _manifestFilter?: string; 
   public get manifestFilter() {
     return this.getStringAttribute('manifest_filter');
   }
@@ -1087,7 +1087,7 @@ export class Mediapackagev2OriginEndpointDashManifestsFilterConfigurationOutputR
   }
 
   // start - computed: true, optional: true, required: false
-  private _start?: string;
+  private _start?: string; 
   public get start() {
     return this.getStringAttribute('start');
   }
@@ -1103,7 +1103,7 @@ export class Mediapackagev2OriginEndpointDashManifestsFilterConfigurationOutputR
   }
 
   // time_delay_seconds - computed: true, optional: true, required: false
-  private _timeDelaySeconds?: number;
+  private _timeDelaySeconds?: number; 
   public get timeDelaySeconds() {
     return this.getNumberAttribute('time_delay_seconds');
   }
@@ -1275,7 +1275,7 @@ export class Mediapackagev2OriginEndpointDashManifestsProgramInformationOutputRe
   }
 
   // copyright - computed: true, optional: true, required: false
-  private _copyright?: string;
+  private _copyright?: string; 
   public get copyright() {
     return this.getStringAttribute('copyright');
   }
@@ -1291,7 +1291,7 @@ export class Mediapackagev2OriginEndpointDashManifestsProgramInformationOutputRe
   }
 
   // language_code - computed: true, optional: true, required: false
-  private _languageCode?: string;
+  private _languageCode?: string; 
   public get languageCode() {
     return this.getStringAttribute('language_code');
   }
@@ -1307,7 +1307,7 @@ export class Mediapackagev2OriginEndpointDashManifestsProgramInformationOutputRe
   }
 
   // more_information_url - computed: true, optional: true, required: false
-  private _moreInformationUrl?: string;
+  private _moreInformationUrl?: string; 
   public get moreInformationUrl() {
     return this.getStringAttribute('more_information_url');
   }
@@ -1323,7 +1323,7 @@ export class Mediapackagev2OriginEndpointDashManifestsProgramInformationOutputRe
   }
 
   // source - computed: true, optional: true, required: false
-  private _source?: string;
+  private _source?: string; 
   public get source() {
     return this.getStringAttribute('source');
   }
@@ -1339,7 +1339,7 @@ export class Mediapackagev2OriginEndpointDashManifestsProgramInformationOutputRe
   }
 
   // title - computed: true, optional: true, required: false
-  private _title?: string;
+  private _title?: string; 
   public get title() {
     return this.getStringAttribute('title');
   }
@@ -1450,7 +1450,7 @@ export class Mediapackagev2OriginEndpointDashManifestsScteDashOutputReference ex
   }
 
   // ad_marker_dash - computed: true, optional: true, required: false
-  private _adMarkerDash?: string;
+  private _adMarkerDash?: string; 
   public get adMarkerDash() {
     return this.getStringAttribute('ad_marker_dash');
   }
@@ -1466,7 +1466,7 @@ export class Mediapackagev2OriginEndpointDashManifestsScteDashOutputReference ex
   }
 
   // scte_in_manifests - computed: true, optional: true, required: false
-  private _scteInManifests?: string;
+  private _scteInManifests?: string; 
   public get scteInManifests() {
     return this.getStringAttribute('scte_in_manifests');
   }
@@ -1560,7 +1560,7 @@ export class Mediapackagev2OriginEndpointDashManifestsSubtitleConfigurationTtmlC
   }
 
   // ttml_profile - computed: true, optional: true, required: false
-  private _ttmlProfile?: string;
+  private _ttmlProfile?: string; 
   public get ttmlProfile() {
     return this.getStringAttribute('ttml_profile');
   }
@@ -1769,7 +1769,7 @@ export class Mediapackagev2OriginEndpointDashManifestsUtcTimingOutputReference e
   }
 
   // timing_mode - computed: true, optional: true, required: false
-  private _timingMode?: string;
+  private _timingMode?: string; 
   public get timingMode() {
     return this.getStringAttribute('timing_mode');
   }
@@ -1785,7 +1785,7 @@ export class Mediapackagev2OriginEndpointDashManifestsUtcTimingOutputReference e
   }
 
   // timing_source - computed: true, optional: true, required: false
-  private _timingSource?: string;
+  private _timingSource?: string; 
   public get timingSource() {
     return this.getStringAttribute('timing_source');
   }
@@ -2232,7 +2232,7 @@ export class Mediapackagev2OriginEndpointDashManifestsOutputReference extends cd
   }
 
   // audio_timeline_pattern - computed: true, optional: true, required: false
-  private _audioTimelinePattern?: string;
+  private _audioTimelinePattern?: string; 
   public get audioTimelinePattern() {
     return this.getStringAttribute('audio_timeline_pattern');
   }
@@ -2280,7 +2280,7 @@ export class Mediapackagev2OriginEndpointDashManifestsOutputReference extends cd
   }
 
   // compactness - computed: true, optional: true, required: false
-  private _compactness?: string;
+  private _compactness?: string; 
   public get compactness() {
     return this.getStringAttribute('compactness');
   }
@@ -2296,7 +2296,7 @@ export class Mediapackagev2OriginEndpointDashManifestsOutputReference extends cd
   }
 
   // drm_signaling - computed: true, optional: true, required: false
-  private _drmSignaling?: string;
+  private _drmSignaling?: string; 
   public get drmSignaling() {
     return this.getStringAttribute('drm_signaling');
   }
@@ -2344,7 +2344,7 @@ export class Mediapackagev2OriginEndpointDashManifestsOutputReference extends cd
   }
 
   // manifest_name - computed: true, optional: true, required: false
-  private _manifestName?: string;
+  private _manifestName?: string; 
   public get manifestName() {
     return this.getStringAttribute('manifest_name');
   }
@@ -2360,7 +2360,7 @@ export class Mediapackagev2OriginEndpointDashManifestsOutputReference extends cd
   }
 
   // manifest_window_seconds - computed: true, optional: true, required: false
-  private _manifestWindowSeconds?: number;
+  private _manifestWindowSeconds?: number; 
   public get manifestWindowSeconds() {
     return this.getNumberAttribute('manifest_window_seconds');
   }
@@ -2376,7 +2376,7 @@ export class Mediapackagev2OriginEndpointDashManifestsOutputReference extends cd
   }
 
   // min_buffer_time_seconds - computed: true, optional: true, required: false
-  private _minBufferTimeSeconds?: number;
+  private _minBufferTimeSeconds?: number; 
   public get minBufferTimeSeconds() {
     return this.getNumberAttribute('min_buffer_time_seconds');
   }
@@ -2392,7 +2392,7 @@ export class Mediapackagev2OriginEndpointDashManifestsOutputReference extends cd
   }
 
   // min_update_period_seconds - computed: true, optional: true, required: false
-  private _minUpdatePeriodSeconds?: number;
+  private _minUpdatePeriodSeconds?: number; 
   public get minUpdatePeriodSeconds() {
     return this.getNumberAttribute('min_update_period_seconds');
   }
@@ -2408,7 +2408,7 @@ export class Mediapackagev2OriginEndpointDashManifestsOutputReference extends cd
   }
 
   // period_triggers - computed: true, optional: true, required: false
-  private _periodTriggers?: string[];
+  private _periodTriggers?: string[]; 
   public get periodTriggers() {
     return this.getListAttribute('period_triggers');
   }
@@ -2424,7 +2424,7 @@ export class Mediapackagev2OriginEndpointDashManifestsOutputReference extends cd
   }
 
   // profiles - computed: true, optional: true, required: false
-  private _profiles?: string[];
+  private _profiles?: string[]; 
   public get profiles() {
     return this.getListAttribute('profiles');
   }
@@ -2472,7 +2472,7 @@ export class Mediapackagev2OriginEndpointDashManifestsOutputReference extends cd
   }
 
   // segment_template_format - computed: true, optional: true, required: false
-  private _segmentTemplateFormat?: string;
+  private _segmentTemplateFormat?: string; 
   public get segmentTemplateFormat() {
     return this.getStringAttribute('segment_template_format');
   }
@@ -2504,7 +2504,7 @@ export class Mediapackagev2OriginEndpointDashManifestsOutputReference extends cd
   }
 
   // suggested_presentation_delay_seconds - computed: true, optional: true, required: false
-  private _suggestedPresentationDelaySeconds?: number;
+  private _suggestedPresentationDelaySeconds?: number; 
   public get suggestedPresentationDelaySeconds() {
     return this.getNumberAttribute('suggested_presentation_delay_seconds');
   }
@@ -2520,7 +2520,7 @@ export class Mediapackagev2OriginEndpointDashManifestsOutputReference extends cd
   }
 
   // uri_path_type - computed: true, optional: true, required: false
-  private _uriPathType?: string;
+  private _uriPathType?: string; 
   public get uriPathType() {
     return this.getStringAttribute('uri_path_type');
   }
@@ -2652,7 +2652,7 @@ export class Mediapackagev2OriginEndpointForceEndpointErrorConfigurationOutputRe
   }
 
   // endpoint_error_conditions - computed: true, optional: true, required: false
-  private _endpointErrorConditions?: string[];
+  private _endpointErrorConditions?: string[]; 
   public get endpointErrorConditions() {
     return this.getListAttribute('endpoint_error_conditions');
   }
@@ -2843,7 +2843,7 @@ export class Mediapackagev2OriginEndpointHlsManifestsFilterConfigurationOutputRe
   }
 
   // clip_start_time - computed: true, optional: true, required: false
-  private _clipStartTime?: string;
+  private _clipStartTime?: string; 
   public get clipStartTime() {
     return this.getStringAttribute('clip_start_time');
   }
@@ -2859,7 +2859,7 @@ export class Mediapackagev2OriginEndpointHlsManifestsFilterConfigurationOutputRe
   }
 
   // drm_settings - computed: true, optional: true, required: false
-  private _drmSettings?: string;
+  private _drmSettings?: string; 
   public get drmSettings() {
     return this.getStringAttribute('drm_settings');
   }
@@ -2875,7 +2875,7 @@ export class Mediapackagev2OriginEndpointHlsManifestsFilterConfigurationOutputRe
   }
 
   // end - computed: true, optional: true, required: false
-  private _end?: string;
+  private _end?: string; 
   public get end() {
     return this.getStringAttribute('end');
   }
@@ -2891,7 +2891,7 @@ export class Mediapackagev2OriginEndpointHlsManifestsFilterConfigurationOutputRe
   }
 
   // manifest_filter - computed: true, optional: true, required: false
-  private _manifestFilter?: string;
+  private _manifestFilter?: string; 
   public get manifestFilter() {
     return this.getStringAttribute('manifest_filter');
   }
@@ -2907,7 +2907,7 @@ export class Mediapackagev2OriginEndpointHlsManifestsFilterConfigurationOutputRe
   }
 
   // start - computed: true, optional: true, required: false
-  private _start?: string;
+  private _start?: string; 
   public get start() {
     return this.getStringAttribute('start');
   }
@@ -2923,7 +2923,7 @@ export class Mediapackagev2OriginEndpointHlsManifestsFilterConfigurationOutputRe
   }
 
   // time_delay_seconds - computed: true, optional: true, required: false
-  private _timeDelaySeconds?: number;
+  private _timeDelaySeconds?: number; 
   public get timeDelaySeconds() {
     return this.getNumberAttribute('time_delay_seconds');
   }
@@ -3034,7 +3034,7 @@ export class Mediapackagev2OriginEndpointHlsManifestsScteHlsOutputReference exte
   }
 
   // ad_marker_hls - computed: true, optional: true, required: false
-  private _adMarkerHls?: string;
+  private _adMarkerHls?: string; 
   public get adMarkerHls() {
     return this.getStringAttribute('ad_marker_hls');
   }
@@ -3050,7 +3050,7 @@ export class Mediapackagev2OriginEndpointHlsManifestsScteHlsOutputReference exte
   }
 
   // scte_in_manifests - computed: true, optional: true, required: false
-  private _scteInManifests?: string;
+  private _scteInManifests?: string; 
   public get scteInManifests() {
     return this.getStringAttribute('scte_in_manifests');
   }
@@ -3165,7 +3165,7 @@ export class Mediapackagev2OriginEndpointHlsManifestsStartTagOutputReference ext
   }
 
   // precise - computed: true, optional: true, required: false
-  private _precise?: boolean | cdktn.IResolvable;
+  private _precise?: boolean | cdktn.IResolvable; 
   public get precise() {
     return this.getBooleanAttribute('precise');
   }
@@ -3181,7 +3181,7 @@ export class Mediapackagev2OriginEndpointHlsManifestsStartTagOutputReference ext
   }
 
   // time_offset - computed: true, optional: true, required: false
-  private _timeOffset?: number;
+  private _timeOffset?: number; 
   public get timeOffset() {
     return this.getNumberAttribute('time_offset');
   }
@@ -3448,7 +3448,7 @@ export class Mediapackagev2OriginEndpointHlsManifestsOutputReference extends cdk
   }
 
   // child_manifest_name - computed: true, optional: true, required: false
-  private _childManifestName?: string;
+  private _childManifestName?: string; 
   public get childManifestName() {
     return this.getStringAttribute('child_manifest_name');
   }
@@ -3480,7 +3480,7 @@ export class Mediapackagev2OriginEndpointHlsManifestsOutputReference extends cdk
   }
 
   // manifest_name - computed: true, optional: true, required: false
-  private _manifestName?: string;
+  private _manifestName?: string; 
   public get manifestName() {
     return this.getStringAttribute('manifest_name');
   }
@@ -3496,7 +3496,7 @@ export class Mediapackagev2OriginEndpointHlsManifestsOutputReference extends cdk
   }
 
   // manifest_window_seconds - computed: true, optional: true, required: false
-  private _manifestWindowSeconds?: number;
+  private _manifestWindowSeconds?: number; 
   public get manifestWindowSeconds() {
     return this.getNumberAttribute('manifest_window_seconds');
   }
@@ -3512,7 +3512,7 @@ export class Mediapackagev2OriginEndpointHlsManifestsOutputReference extends cdk
   }
 
   // program_date_time_interval_seconds - computed: true, optional: true, required: false
-  private _programDateTimeIntervalSeconds?: number;
+  private _programDateTimeIntervalSeconds?: number; 
   public get programDateTimeIntervalSeconds() {
     return this.getNumberAttribute('program_date_time_interval_seconds');
   }
@@ -3560,7 +3560,7 @@ export class Mediapackagev2OriginEndpointHlsManifestsOutputReference extends cdk
   }
 
   // uri_path_type - computed: true, optional: true, required: false
-  private _uriPathType?: string;
+  private _uriPathType?: string; 
   public get uriPathType() {
     return this.getStringAttribute('uri_path_type');
   }
@@ -3576,7 +3576,7 @@ export class Mediapackagev2OriginEndpointHlsManifestsOutputReference extends cdk
   }
 
   // url - computed: true, optional: true, required: false
-  private _url?: string;
+  private _url?: string; 
   public get url() {
     return this.getStringAttribute('url');
   }
@@ -3592,7 +3592,7 @@ export class Mediapackagev2OriginEndpointHlsManifestsOutputReference extends cdk
   }
 
   // url_encode_child_manifest - computed: true, optional: true, required: false
-  private _urlEncodeChildManifest?: boolean | cdktn.IResolvable;
+  private _urlEncodeChildManifest?: boolean | cdktn.IResolvable; 
   public get urlEncodeChildManifest() {
     return this.getBooleanAttribute('url_encode_child_manifest');
   }
@@ -3803,7 +3803,7 @@ export class Mediapackagev2OriginEndpointLowLatencyHlsManifestsFilterConfigurati
   }
 
   // clip_start_time - computed: true, optional: true, required: false
-  private _clipStartTime?: string;
+  private _clipStartTime?: string; 
   public get clipStartTime() {
     return this.getStringAttribute('clip_start_time');
   }
@@ -3819,7 +3819,7 @@ export class Mediapackagev2OriginEndpointLowLatencyHlsManifestsFilterConfigurati
   }
 
   // drm_settings - computed: true, optional: true, required: false
-  private _drmSettings?: string;
+  private _drmSettings?: string; 
   public get drmSettings() {
     return this.getStringAttribute('drm_settings');
   }
@@ -3835,7 +3835,7 @@ export class Mediapackagev2OriginEndpointLowLatencyHlsManifestsFilterConfigurati
   }
 
   // end - computed: true, optional: true, required: false
-  private _end?: string;
+  private _end?: string; 
   public get end() {
     return this.getStringAttribute('end');
   }
@@ -3851,7 +3851,7 @@ export class Mediapackagev2OriginEndpointLowLatencyHlsManifestsFilterConfigurati
   }
 
   // manifest_filter - computed: true, optional: true, required: false
-  private _manifestFilter?: string;
+  private _manifestFilter?: string; 
   public get manifestFilter() {
     return this.getStringAttribute('manifest_filter');
   }
@@ -3867,7 +3867,7 @@ export class Mediapackagev2OriginEndpointLowLatencyHlsManifestsFilterConfigurati
   }
 
   // start - computed: true, optional: true, required: false
-  private _start?: string;
+  private _start?: string; 
   public get start() {
     return this.getStringAttribute('start');
   }
@@ -3883,7 +3883,7 @@ export class Mediapackagev2OriginEndpointLowLatencyHlsManifestsFilterConfigurati
   }
 
   // time_delay_seconds - computed: true, optional: true, required: false
-  private _timeDelaySeconds?: number;
+  private _timeDelaySeconds?: number; 
   public get timeDelaySeconds() {
     return this.getNumberAttribute('time_delay_seconds');
   }
@@ -3994,7 +3994,7 @@ export class Mediapackagev2OriginEndpointLowLatencyHlsManifestsScteHlsOutputRefe
   }
 
   // ad_marker_hls - computed: true, optional: true, required: false
-  private _adMarkerHls?: string;
+  private _adMarkerHls?: string; 
   public get adMarkerHls() {
     return this.getStringAttribute('ad_marker_hls');
   }
@@ -4010,7 +4010,7 @@ export class Mediapackagev2OriginEndpointLowLatencyHlsManifestsScteHlsOutputRefe
   }
 
   // scte_in_manifests - computed: true, optional: true, required: false
-  private _scteInManifests?: string;
+  private _scteInManifests?: string; 
   public get scteInManifests() {
     return this.getStringAttribute('scte_in_manifests');
   }
@@ -4125,7 +4125,7 @@ export class Mediapackagev2OriginEndpointLowLatencyHlsManifestsStartTagOutputRef
   }
 
   // precise - computed: true, optional: true, required: false
-  private _precise?: boolean | cdktn.IResolvable;
+  private _precise?: boolean | cdktn.IResolvable; 
   public get precise() {
     return this.getBooleanAttribute('precise');
   }
@@ -4141,7 +4141,7 @@ export class Mediapackagev2OriginEndpointLowLatencyHlsManifestsStartTagOutputRef
   }
 
   // time_offset - computed: true, optional: true, required: false
-  private _timeOffset?: number;
+  private _timeOffset?: number; 
   public get timeOffset() {
     return this.getNumberAttribute('time_offset');
   }
@@ -4408,7 +4408,7 @@ export class Mediapackagev2OriginEndpointLowLatencyHlsManifestsOutputReference e
   }
 
   // child_manifest_name - computed: true, optional: true, required: false
-  private _childManifestName?: string;
+  private _childManifestName?: string; 
   public get childManifestName() {
     return this.getStringAttribute('child_manifest_name');
   }
@@ -4440,7 +4440,7 @@ export class Mediapackagev2OriginEndpointLowLatencyHlsManifestsOutputReference e
   }
 
   // manifest_name - computed: true, optional: true, required: false
-  private _manifestName?: string;
+  private _manifestName?: string; 
   public get manifestName() {
     return this.getStringAttribute('manifest_name');
   }
@@ -4456,7 +4456,7 @@ export class Mediapackagev2OriginEndpointLowLatencyHlsManifestsOutputReference e
   }
 
   // manifest_window_seconds - computed: true, optional: true, required: false
-  private _manifestWindowSeconds?: number;
+  private _manifestWindowSeconds?: number; 
   public get manifestWindowSeconds() {
     return this.getNumberAttribute('manifest_window_seconds');
   }
@@ -4472,7 +4472,7 @@ export class Mediapackagev2OriginEndpointLowLatencyHlsManifestsOutputReference e
   }
 
   // program_date_time_interval_seconds - computed: true, optional: true, required: false
-  private _programDateTimeIntervalSeconds?: number;
+  private _programDateTimeIntervalSeconds?: number; 
   public get programDateTimeIntervalSeconds() {
     return this.getNumberAttribute('program_date_time_interval_seconds');
   }
@@ -4520,7 +4520,7 @@ export class Mediapackagev2OriginEndpointLowLatencyHlsManifestsOutputReference e
   }
 
   // uri_path_type - computed: true, optional: true, required: false
-  private _uriPathType?: string;
+  private _uriPathType?: string; 
   public get uriPathType() {
     return this.getStringAttribute('uri_path_type');
   }
@@ -4536,7 +4536,7 @@ export class Mediapackagev2OriginEndpointLowLatencyHlsManifestsOutputReference e
   }
 
   // url - computed: true, optional: true, required: false
-  private _url?: string;
+  private _url?: string; 
   public get url() {
     return this.getStringAttribute('url');
   }
@@ -4552,7 +4552,7 @@ export class Mediapackagev2OriginEndpointLowLatencyHlsManifestsOutputReference e
   }
 
   // url_encode_child_manifest - computed: true, optional: true, required: false
-  private _urlEncodeChildManifest?: boolean | cdktn.IResolvable;
+  private _urlEncodeChildManifest?: boolean | cdktn.IResolvable; 
   public get urlEncodeChildManifest() {
     return this.getBooleanAttribute('url_encode_child_manifest');
   }
@@ -4763,7 +4763,7 @@ export class Mediapackagev2OriginEndpointMssManifestsFilterConfigurationOutputRe
   }
 
   // clip_start_time - computed: true, optional: true, required: false
-  private _clipStartTime?: string;
+  private _clipStartTime?: string; 
   public get clipStartTime() {
     return this.getStringAttribute('clip_start_time');
   }
@@ -4779,7 +4779,7 @@ export class Mediapackagev2OriginEndpointMssManifestsFilterConfigurationOutputRe
   }
 
   // drm_settings - computed: true, optional: true, required: false
-  private _drmSettings?: string;
+  private _drmSettings?: string; 
   public get drmSettings() {
     return this.getStringAttribute('drm_settings');
   }
@@ -4795,7 +4795,7 @@ export class Mediapackagev2OriginEndpointMssManifestsFilterConfigurationOutputRe
   }
 
   // end - computed: true, optional: true, required: false
-  private _end?: string;
+  private _end?: string; 
   public get end() {
     return this.getStringAttribute('end');
   }
@@ -4811,7 +4811,7 @@ export class Mediapackagev2OriginEndpointMssManifestsFilterConfigurationOutputRe
   }
 
   // manifest_filter - computed: true, optional: true, required: false
-  private _manifestFilter?: string;
+  private _manifestFilter?: string; 
   public get manifestFilter() {
     return this.getStringAttribute('manifest_filter');
   }
@@ -4827,7 +4827,7 @@ export class Mediapackagev2OriginEndpointMssManifestsFilterConfigurationOutputRe
   }
 
   // start - computed: true, optional: true, required: false
-  private _start?: string;
+  private _start?: string; 
   public get start() {
     return this.getStringAttribute('start');
   }
@@ -4843,7 +4843,7 @@ export class Mediapackagev2OriginEndpointMssManifestsFilterConfigurationOutputRe
   }
 
   // time_delay_seconds - computed: true, optional: true, required: false
-  private _timeDelaySeconds?: number;
+  private _timeDelaySeconds?: number; 
   public get timeDelaySeconds() {
     return this.getNumberAttribute('time_delay_seconds');
   }
@@ -5012,7 +5012,7 @@ export class Mediapackagev2OriginEndpointMssManifestsOutputReference extends cdk
   }
 
   // manifest_layout - computed: true, optional: true, required: false
-  private _manifestLayout?: string;
+  private _manifestLayout?: string; 
   public get manifestLayout() {
     return this.getStringAttribute('manifest_layout');
   }
@@ -5028,7 +5028,7 @@ export class Mediapackagev2OriginEndpointMssManifestsOutputReference extends cdk
   }
 
   // manifest_name - computed: true, optional: true, required: false
-  private _manifestName?: string;
+  private _manifestName?: string; 
   public get manifestName() {
     return this.getStringAttribute('manifest_name');
   }
@@ -5044,7 +5044,7 @@ export class Mediapackagev2OriginEndpointMssManifestsOutputReference extends cdk
   }
 
   // manifest_window_seconds - computed: true, optional: true, required: false
-  private _manifestWindowSeconds?: number;
+  private _manifestWindowSeconds?: number; 
   public get manifestWindowSeconds() {
     return this.getNumberAttribute('manifest_window_seconds');
   }
@@ -5192,7 +5192,7 @@ export class Mediapackagev2OriginEndpointSegmentEncryptionEncryptionMethodOutput
   }
 
   // cmaf_encryption_method - computed: true, optional: true, required: false
-  private _cmafEncryptionMethod?: string;
+  private _cmafEncryptionMethod?: string; 
   public get cmafEncryptionMethod() {
     return this.getStringAttribute('cmaf_encryption_method');
   }
@@ -5208,7 +5208,7 @@ export class Mediapackagev2OriginEndpointSegmentEncryptionEncryptionMethodOutput
   }
 
   // ism_encryption_method - computed: true, optional: true, required: false
-  private _ismEncryptionMethod?: string;
+  private _ismEncryptionMethod?: string; 
   public get ismEncryptionMethod() {
     return this.getStringAttribute('ism_encryption_method');
   }
@@ -5224,7 +5224,7 @@ export class Mediapackagev2OriginEndpointSegmentEncryptionEncryptionMethodOutput
   }
 
   // ts_encryption_method - computed: true, optional: true, required: false
-  private _tsEncryptionMethod?: string;
+  private _tsEncryptionMethod?: string; 
   public get tsEncryptionMethod() {
     return this.getStringAttribute('ts_encryption_method');
   }
@@ -5335,7 +5335,7 @@ export class Mediapackagev2OriginEndpointSegmentEncryptionSpekeKeyProviderEncryp
   }
 
   // preset_speke_20_audio - computed: true, optional: true, required: false
-  private _presetSpeke20Audio?: string;
+  private _presetSpeke20Audio?: string; 
   public get presetSpeke20Audio() {
     return this.getStringAttribute('preset_speke_20_audio');
   }
@@ -5351,7 +5351,7 @@ export class Mediapackagev2OriginEndpointSegmentEncryptionSpekeKeyProviderEncryp
   }
 
   // preset_speke_20_video - computed: true, optional: true, required: false
-  private _presetSpeke20Video?: string;
+  private _presetSpeke20Video?: string; 
   public get presetSpeke20Video() {
     return this.getStringAttribute('preset_speke_20_video');
   }
@@ -5542,7 +5542,7 @@ export class Mediapackagev2OriginEndpointSegmentEncryptionSpekeKeyProviderOutput
   }
 
   // certificate_arn - computed: true, optional: true, required: false
-  private _certificateArn?: string;
+  private _certificateArn?: string; 
   public get certificateArn() {
     return this.getStringAttribute('certificate_arn');
   }
@@ -5558,7 +5558,7 @@ export class Mediapackagev2OriginEndpointSegmentEncryptionSpekeKeyProviderOutput
   }
 
   // drm_systems - computed: true, optional: true, required: false
-  private _drmSystems?: string[];
+  private _drmSystems?: string[]; 
   public get drmSystems() {
     return this.getListAttribute('drm_systems');
   }
@@ -5590,7 +5590,7 @@ export class Mediapackagev2OriginEndpointSegmentEncryptionSpekeKeyProviderOutput
   }
 
   // resource_id - computed: true, optional: true, required: false
-  private _resourceId?: string;
+  private _resourceId?: string; 
   public get resourceId() {
     return this.getStringAttribute('resource_id');
   }
@@ -5606,7 +5606,7 @@ export class Mediapackagev2OriginEndpointSegmentEncryptionSpekeKeyProviderOutput
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -5622,7 +5622,7 @@ export class Mediapackagev2OriginEndpointSegmentEncryptionSpekeKeyProviderOutput
   }
 
   // url - computed: true, optional: true, required: false
-  private _url?: string;
+  private _url?: string; 
   public get url() {
     return this.getStringAttribute('url');
   }
@@ -5794,7 +5794,7 @@ export class Mediapackagev2OriginEndpointSegmentEncryptionOutputReference extend
   }
 
   // cmaf_exclude_segment_drm_metadata - computed: true, optional: true, required: false
-  private _cmafExcludeSegmentDrmMetadata?: boolean | cdktn.IResolvable;
+  private _cmafExcludeSegmentDrmMetadata?: boolean | cdktn.IResolvable; 
   public get cmafExcludeSegmentDrmMetadata() {
     return this.getBooleanAttribute('cmaf_exclude_segment_drm_metadata');
   }
@@ -5810,7 +5810,7 @@ export class Mediapackagev2OriginEndpointSegmentEncryptionOutputReference extend
   }
 
   // constant_initialization_vector - computed: true, optional: true, required: false
-  private _constantInitializationVector?: string;
+  private _constantInitializationVector?: string; 
   public get constantInitializationVector() {
     return this.getStringAttribute('constant_initialization_vector');
   }
@@ -5842,7 +5842,7 @@ export class Mediapackagev2OriginEndpointSegmentEncryptionOutputReference extend
   }
 
   // key_rotation_interval_seconds - computed: true, optional: true, required: false
-  private _keyRotationIntervalSeconds?: number;
+  private _keyRotationIntervalSeconds?: number; 
   public get keyRotationIntervalSeconds() {
     return this.getNumberAttribute('key_rotation_interval_seconds');
   }
@@ -5990,7 +5990,7 @@ export class Mediapackagev2OriginEndpointSegmentScteOutputReference extends cdkt
   }
 
   // custom_ad_types - computed: true, optional: true, required: false
-  private _customAdTypes?: string[];
+  private _customAdTypes?: string[]; 
   public get customAdTypes() {
     return this.getListAttribute('custom_ad_types');
   }
@@ -6006,7 +6006,7 @@ export class Mediapackagev2OriginEndpointSegmentScteOutputReference extends cdkt
   }
 
   // scte_filter - computed: true, optional: true, required: false
-  private _scteFilter?: string[];
+  private _scteFilter?: string[]; 
   public get scteFilter() {
     return this.getListAttribute('scte_filter');
   }
@@ -6022,7 +6022,7 @@ export class Mediapackagev2OriginEndpointSegmentScteOutputReference extends cdkt
   }
 
   // scte_in_segments - computed: true, optional: true, required: false
-  private _scteInSegments?: string;
+  private _scteInSegments?: string; 
   public get scteInSegments() {
     return this.getStringAttribute('scte_in_segments');
   }
@@ -6248,7 +6248,7 @@ export class Mediapackagev2OriginEndpointSegmentOutputReference extends cdktn.Co
   }
 
   // include_iframe_only_streams - computed: true, optional: true, required: false
-  private _includeIframeOnlyStreams?: boolean | cdktn.IResolvable;
+  private _includeIframeOnlyStreams?: boolean | cdktn.IResolvable; 
   public get includeIframeOnlyStreams() {
     return this.getBooleanAttribute('include_iframe_only_streams');
   }
@@ -6280,7 +6280,7 @@ export class Mediapackagev2OriginEndpointSegmentOutputReference extends cdktn.Co
   }
 
   // segment_duration_seconds - computed: true, optional: true, required: false
-  private _segmentDurationSeconds?: number;
+  private _segmentDurationSeconds?: number; 
   public get segmentDurationSeconds() {
     return this.getNumberAttribute('segment_duration_seconds');
   }
@@ -6296,7 +6296,7 @@ export class Mediapackagev2OriginEndpointSegmentOutputReference extends cdktn.Co
   }
 
   // segment_name - computed: true, optional: true, required: false
-  private _segmentName?: string;
+  private _segmentName?: string; 
   public get segmentName() {
     return this.getStringAttribute('segment_name');
   }
@@ -6312,7 +6312,7 @@ export class Mediapackagev2OriginEndpointSegmentOutputReference extends cdktn.Co
   }
 
   // ts_include_dvb_subtitles - computed: true, optional: true, required: false
-  private _tsIncludeDvbSubtitles?: boolean | cdktn.IResolvable;
+  private _tsIncludeDvbSubtitles?: boolean | cdktn.IResolvable; 
   public get tsIncludeDvbSubtitles() {
     return this.getBooleanAttribute('ts_include_dvb_subtitles');
   }
@@ -6328,7 +6328,7 @@ export class Mediapackagev2OriginEndpointSegmentOutputReference extends cdktn.Co
   }
 
   // ts_use_audio_rendition_group - computed: true, optional: true, required: false
-  private _tsUseAudioRenditionGroup?: boolean | cdktn.IResolvable;
+  private _tsUseAudioRenditionGroup?: boolean | cdktn.IResolvable; 
   public get tsUseAudioRenditionGroup() {
     return this.getBooleanAttribute('ts_use_audio_rendition_group');
   }
@@ -6441,7 +6441,7 @@ export class Mediapackagev2OriginEndpointTagsOutputReference extends cdktn.Compl
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -6457,7 +6457,7 @@ export class Mediapackagev2OriginEndpointTagsOutputReference extends cdktn.Compl
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -6569,7 +6569,7 @@ export class Mediapackagev2OriginEndpoint extends cdktn.TerraformResource {
   }
 
   // channel_group_name - computed: false, optional: false, required: true
-  private _channelGroupName?: string;
+  private _channelGroupName?: string; 
   public get channelGroupName() {
     return this.getStringAttribute('channel_group_name');
   }
@@ -6582,7 +6582,7 @@ export class Mediapackagev2OriginEndpoint extends cdktn.TerraformResource {
   }
 
   // channel_name - computed: false, optional: false, required: true
-  private _channelName?: string;
+  private _channelName?: string; 
   public get channelName() {
     return this.getStringAttribute('channel_name');
   }
@@ -6595,7 +6595,7 @@ export class Mediapackagev2OriginEndpoint extends cdktn.TerraformResource {
   }
 
   // container_type - computed: false, optional: false, required: true
-  private _containerType?: string;
+  private _containerType?: string; 
   public get containerType() {
     return this.getStringAttribute('container_type');
   }
@@ -6634,7 +6634,7 @@ export class Mediapackagev2OriginEndpoint extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -6739,7 +6739,7 @@ export class Mediapackagev2OriginEndpoint extends cdktn.TerraformResource {
   }
 
   // origin_endpoint_name - computed: false, optional: false, required: true
-  private _originEndpointName?: string;
+  private _originEndpointName?: string; 
   public get originEndpointName() {
     return this.getStringAttribute('origin_endpoint_name');
   }
@@ -6768,7 +6768,7 @@ export class Mediapackagev2OriginEndpoint extends cdktn.TerraformResource {
   }
 
   // startover_window_seconds - computed: true, optional: true, required: false
-  private _startoverWindowSeconds?: number;
+  private _startoverWindowSeconds?: number; 
   public get startoverWindowSeconds() {
     return this.getNumberAttribute('startover_window_seconds');
   }
@@ -6800,7 +6800,7 @@ export class Mediapackagev2OriginEndpoint extends cdktn.TerraformResource {
   }
 
   // uri_separator - computed: true, optional: true, required: false
-  private _uriSeparator?: string;
+  private _uriSeparator?: string; 
   public get uriSeparator() {
     return this.getStringAttribute('uri_separator');
   }

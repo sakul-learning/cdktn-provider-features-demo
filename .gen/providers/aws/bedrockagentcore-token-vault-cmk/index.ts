@@ -122,7 +122,7 @@ export class BedrockagentcoreTokenVaultCmkKmsConfigurationOutputReference extend
   }
 
   // key_type - computed: false, optional: false, required: true
-  private _keyType?: string;
+  private _keyType?: string; 
   public get keyType() {
     return this.getStringAttribute('key_type');
   }
@@ -135,7 +135,7 @@ export class BedrockagentcoreTokenVaultCmkKmsConfigurationOutputReference extend
   }
 
   // kms_key_arn - computed: false, optional: true, required: false
-  private _kmsKeyArn?: string;
+  private _kmsKeyArn?: string; 
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -231,7 +231,7 @@ export class BedrockagentcoreTokenVaultCmk extends cdktn.TerraformResource {
   // ==========
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -247,7 +247,7 @@ export class BedrockagentcoreTokenVaultCmk extends cdktn.TerraformResource {
   }
 
   // token_vault_id - computed: true, optional: true, required: false
-  private _tokenVaultId?: string;
+  private _tokenVaultId?: string; 
   public get tokenVaultId() {
     return this.getStringAttribute('token_vault_id');
   }

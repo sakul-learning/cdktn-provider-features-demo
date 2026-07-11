@@ -103,7 +103,7 @@ export class SesMailManagerArchiveRetentionOutputReference extends cdktn.Complex
   }
 
   // retention_period - computed: true, optional: true, required: false
-  private _retentionPeriod?: string;
+  private _retentionPeriod?: string; 
   public get retentionPeriod() {
     return this.getStringAttribute('retention_period');
   }
@@ -216,7 +216,7 @@ export class SesMailManagerArchiveTagsOutputReference extends cdktn.ComplexObjec
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -232,7 +232,7 @@ export class SesMailManagerArchiveTagsOutputReference extends cdktn.ComplexObjec
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -339,7 +339,7 @@ export class SesMailManagerArchive extends cdktn.TerraformResource {
   }
 
   // archive_name - computed: true, optional: true, required: false
-  private _archiveName?: string;
+  private _archiveName?: string; 
   public get archiveName() {
     return this.getStringAttribute('archive_name');
   }
@@ -365,7 +365,7 @@ export class SesMailManagerArchive extends cdktn.TerraformResource {
   }
 
   // kms_key_arn - computed: true, optional: true, required: false
-  private _kmsKeyArn?: string;
+  private _kmsKeyArn?: string; 
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }

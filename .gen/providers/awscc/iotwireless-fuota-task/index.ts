@@ -149,7 +149,7 @@ export class IotwirelessFuotaTaskLoRaWanOutputReference extends cdktn.ComplexObj
   }
 
   // rf_region - computed: false, optional: false, required: true
-  private _rfRegion?: string;
+  private _rfRegion?: string; 
   public get rfRegion() {
     return this.getStringAttribute('rf_region');
   }
@@ -264,7 +264,7 @@ export class IotwirelessFuotaTaskTagsOutputReference extends cdktn.ComplexObject
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -280,7 +280,7 @@ export class IotwirelessFuotaTaskTagsOutputReference extends cdktn.ComplexObject
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -388,7 +388,7 @@ export class IotwirelessFuotaTask extends cdktn.TerraformResource {
   }
 
   // associate_multicast_group - computed: true, optional: true, required: false
-  private _associateMulticastGroup?: string;
+  private _associateMulticastGroup?: string; 
   public get associateMulticastGroup() {
     return this.getStringAttribute('associate_multicast_group');
   }
@@ -404,7 +404,7 @@ export class IotwirelessFuotaTask extends cdktn.TerraformResource {
   }
 
   // associate_wireless_device - computed: true, optional: true, required: false
-  private _associateWirelessDevice?: string;
+  private _associateWirelessDevice?: string; 
   public get associateWirelessDevice() {
     return this.getStringAttribute('associate_wireless_device');
   }
@@ -420,7 +420,7 @@ export class IotwirelessFuotaTask extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -436,7 +436,7 @@ export class IotwirelessFuotaTask extends cdktn.TerraformResource {
   }
 
   // disassociate_multicast_group - computed: true, optional: true, required: false
-  private _disassociateMulticastGroup?: string;
+  private _disassociateMulticastGroup?: string; 
   public get disassociateMulticastGroup() {
     return this.getStringAttribute('disassociate_multicast_group');
   }
@@ -452,7 +452,7 @@ export class IotwirelessFuotaTask extends cdktn.TerraformResource {
   }
 
   // disassociate_wireless_device - computed: true, optional: true, required: false
-  private _disassociateWirelessDevice?: string;
+  private _disassociateWirelessDevice?: string; 
   public get disassociateWirelessDevice() {
     return this.getStringAttribute('disassociate_wireless_device');
   }
@@ -468,7 +468,7 @@ export class IotwirelessFuotaTask extends cdktn.TerraformResource {
   }
 
   // firmware_update_image - computed: false, optional: false, required: true
-  private _firmwareUpdateImage?: string;
+  private _firmwareUpdateImage?: string; 
   public get firmwareUpdateImage() {
     return this.getStringAttribute('firmware_update_image');
   }
@@ -481,7 +481,7 @@ export class IotwirelessFuotaTask extends cdktn.TerraformResource {
   }
 
   // firmware_update_role - computed: false, optional: false, required: true
-  private _firmwareUpdateRole?: string;
+  private _firmwareUpdateRole?: string; 
   public get firmwareUpdateRole() {
     return this.getStringAttribute('firmware_update_role');
   }
@@ -522,7 +522,7 @@ export class IotwirelessFuotaTask extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }

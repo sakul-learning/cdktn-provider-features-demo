@@ -115,7 +115,7 @@ export class MediaconnectRouterNetworkInterfaceConfigurationPublicAllowRulesOutp
   }
 
   // cidr - computed: true, optional: true, required: false
-  private _cidr?: string;
+  private _cidr?: string; 
   public get cidr() {
     return this.getStringAttribute('cidr');
   }
@@ -346,7 +346,7 @@ export class MediaconnectRouterNetworkInterfaceConfigurationVpcOutputReference e
   }
 
   // security_group_ids - computed: true, optional: true, required: false
-  private _securityGroupIds?: string[];
+  private _securityGroupIds?: string[]; 
   public get securityGroupIds() {
     return this.getListAttribute('security_group_ids');
   }
@@ -362,7 +362,7 @@ export class MediaconnectRouterNetworkInterfaceConfigurationVpcOutputReference e
   }
 
   // subnet_id - computed: true, optional: true, required: false
-  private _subnetId?: string;
+  private _subnetId?: string; 
   public get subnetId() {
     return this.getStringAttribute('subnet_id');
   }
@@ -606,7 +606,7 @@ export class MediaconnectRouterNetworkInterfaceTagsOutputReference extends cdktn
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -622,7 +622,7 @@ export class MediaconnectRouterNetworkInterfaceTagsOutputReference extends cdktn
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -757,7 +757,7 @@ export class MediaconnectRouterNetworkInterface extends cdktn.TerraformResource 
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -775,7 +775,7 @@ export class MediaconnectRouterNetworkInterface extends cdktn.TerraformResource 
   }
 
   // region_name - computed: true, optional: true, required: false
-  private _regionName?: string;
+  private _regionName?: string; 
   public get regionName() {
     return this.getStringAttribute('region_name');
   }

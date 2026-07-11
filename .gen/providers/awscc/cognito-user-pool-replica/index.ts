@@ -86,7 +86,7 @@ export class CognitoUserPoolReplica extends cdktn.TerraformResource {
   }
 
   // region_name - computed: false, optional: false, required: true
-  private _regionName?: string;
+  private _regionName?: string; 
   public get regionName() {
     return this.getStringAttribute('region_name');
   }
@@ -99,7 +99,7 @@ export class CognitoUserPoolReplica extends cdktn.TerraformResource {
   }
 
   // user_pool_id - computed: false, optional: false, required: true
-  private _userPoolId?: string;
+  private _userPoolId?: string; 
   public get userPoolId() {
     return this.getStringAttribute('user_pool_id');
   }
@@ -112,7 +112,7 @@ export class CognitoUserPoolReplica extends cdktn.TerraformResource {
   }
 
   // user_pool_tags_at_create - computed: true, optional: true, required: false
-  private _userPoolTagsAtCreate?: { [key: string]: string };
+  private _userPoolTagsAtCreate?: { [key: string]: string }; 
   public get userPoolTagsAtCreate() {
     return this.getStringMapAttribute('user_pool_tags_at_create');
   }

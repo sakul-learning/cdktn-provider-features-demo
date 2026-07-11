@@ -143,7 +143,7 @@ export class IvschatRoomMessageReviewHandlerOutputReference extends cdktn.Comple
   }
 
   // fallback_result - computed: true, optional: true, required: false
-  private _fallbackResult?: string;
+  private _fallbackResult?: string; 
   public get fallbackResult() {
     return this.getStringAttribute('fallback_result');
   }
@@ -159,7 +159,7 @@ export class IvschatRoomMessageReviewHandlerOutputReference extends cdktn.Comple
   }
 
   // uri - computed: false, optional: true, required: false
-  private _uri?: string;
+  private _uri?: string; 
   public get uri() {
     return this.getStringAttribute('uri');
   }
@@ -287,7 +287,7 @@ export class IvschatRoomTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -303,7 +303,7 @@ export class IvschatRoomTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -319,7 +319,7 @@ export class IvschatRoomTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -407,7 +407,7 @@ export class IvschatRoom extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -423,7 +423,7 @@ export class IvschatRoom extends cdktn.TerraformResource {
   }
 
   // logging_configuration_identifiers - computed: false, optional: true, required: false
-  private _loggingConfigurationIdentifiers?: string[];
+  private _loggingConfigurationIdentifiers?: string[]; 
   public get loggingConfigurationIdentifiers() {
     return this.getListAttribute('logging_configuration_identifiers');
   }
@@ -439,7 +439,7 @@ export class IvschatRoom extends cdktn.TerraformResource {
   }
 
   // maximum_message_length - computed: true, optional: true, required: false
-  private _maximumMessageLength?: number;
+  private _maximumMessageLength?: number; 
   public get maximumMessageLength() {
     return this.getNumberAttribute('maximum_message_length');
   }
@@ -455,7 +455,7 @@ export class IvschatRoom extends cdktn.TerraformResource {
   }
 
   // maximum_message_rate_per_second - computed: true, optional: true, required: false
-  private _maximumMessageRatePerSecond?: number;
+  private _maximumMessageRatePerSecond?: number; 
   public get maximumMessageRatePerSecond() {
     return this.getNumberAttribute('maximum_message_rate_per_second');
   }
@@ -471,7 +471,7 @@ export class IvschatRoom extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -487,7 +487,7 @@ export class IvschatRoom extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -503,7 +503,7 @@ export class IvschatRoom extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -519,7 +519,7 @@ export class IvschatRoom extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

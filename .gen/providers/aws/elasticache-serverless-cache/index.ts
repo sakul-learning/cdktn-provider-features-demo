@@ -353,7 +353,7 @@ export class ElasticacheServerlessCacheCacheUsageLimitsDataStorageOutputReferenc
   }
 
   // maximum - computed: true, optional: true, required: false
-  private _maximum?: number;
+  private _maximum?: number; 
   public get maximum() {
     return this.getNumberAttribute('maximum');
   }
@@ -369,7 +369,7 @@ export class ElasticacheServerlessCacheCacheUsageLimitsDataStorageOutputReferenc
   }
 
   // minimum - computed: true, optional: true, required: false
-  private _minimum?: number;
+  private _minimum?: number; 
   public get minimum() {
     return this.getNumberAttribute('minimum');
   }
@@ -385,7 +385,7 @@ export class ElasticacheServerlessCacheCacheUsageLimitsDataStorageOutputReferenc
   }
 
   // unit - computed: false, optional: false, required: true
-  private _unit?: string;
+  private _unit?: string; 
   public get unit() {
     return this.getStringAttribute('unit');
   }
@@ -515,7 +515,7 @@ export class ElasticacheServerlessCacheCacheUsageLimitsEcpuPerSecondOutputRefere
   }
 
   // maximum - computed: true, optional: true, required: false
-  private _maximum?: number;
+  private _maximum?: number; 
   public get maximum() {
     return this.getNumberAttribute('maximum');
   }
@@ -531,7 +531,7 @@ export class ElasticacheServerlessCacheCacheUsageLimitsEcpuPerSecondOutputRefere
   }
 
   // minimum - computed: true, optional: true, required: false
-  private _minimum?: number;
+  private _minimum?: number; 
   public get minimum() {
     return this.getNumberAttribute('minimum');
   }
@@ -838,7 +838,7 @@ export class ElasticacheServerlessCacheTimeoutsOutputReference extends cdktn.Com
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -854,7 +854,7 @@ export class ElasticacheServerlessCacheTimeoutsOutputReference extends cdktn.Com
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -870,7 +870,7 @@ export class ElasticacheServerlessCacheTimeoutsOutputReference extends cdktn.Com
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -969,7 +969,7 @@ export class ElasticacheServerlessCache extends cdktn.TerraformResource {
   }
 
   // daily_snapshot_time - computed: true, optional: true, required: false
-  private _dailySnapshotTime?: string;
+  private _dailySnapshotTime?: string; 
   public get dailySnapshotTime() {
     return this.getStringAttribute('daily_snapshot_time');
   }
@@ -985,7 +985,7 @@ export class ElasticacheServerlessCache extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1007,7 +1007,7 @@ export class ElasticacheServerlessCache extends cdktn.TerraformResource {
   }
 
   // engine - computed: false, optional: false, required: true
-  private _engine?: string;
+  private _engine?: string; 
   public get engine() {
     return this.getStringAttribute('engine');
   }
@@ -1030,7 +1030,7 @@ export class ElasticacheServerlessCache extends cdktn.TerraformResource {
   }
 
   // kms_key_id - computed: false, optional: true, required: false
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -1046,7 +1046,7 @@ export class ElasticacheServerlessCache extends cdktn.TerraformResource {
   }
 
   // major_engine_version - computed: true, optional: true, required: false
-  private _majorEngineVersion?: string;
+  private _majorEngineVersion?: string; 
   public get majorEngineVersion() {
     return this.getStringAttribute('major_engine_version');
   }
@@ -1062,7 +1062,7 @@ export class ElasticacheServerlessCache extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1075,7 +1075,7 @@ export class ElasticacheServerlessCache extends cdktn.TerraformResource {
   }
 
   // network_type - computed: true, optional: true, required: false
-  private _networkType?: string;
+  private _networkType?: string; 
   public get networkType() {
     return this.getStringAttribute('network_type');
   }
@@ -1097,7 +1097,7 @@ export class ElasticacheServerlessCache extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1113,7 +1113,7 @@ export class ElasticacheServerlessCache extends cdktn.TerraformResource {
   }
 
   // security_group_ids - computed: true, optional: true, required: false
-  private _securityGroupIds?: string[];
+  private _securityGroupIds?: string[]; 
   public get securityGroupIds() {
     return cdktn.Fn.tolist(this.getListAttribute('security_group_ids'));
   }
@@ -1129,7 +1129,7 @@ export class ElasticacheServerlessCache extends cdktn.TerraformResource {
   }
 
   // snapshot_arns_to_restore - computed: false, optional: true, required: false
-  private _snapshotArnsToRestore?: string[];
+  private _snapshotArnsToRestore?: string[]; 
   public get snapshotArnsToRestore() {
     return this.getListAttribute('snapshot_arns_to_restore');
   }
@@ -1145,7 +1145,7 @@ export class ElasticacheServerlessCache extends cdktn.TerraformResource {
   }
 
   // snapshot_retention_limit - computed: true, optional: true, required: false
-  private _snapshotRetentionLimit?: number;
+  private _snapshotRetentionLimit?: number; 
   public get snapshotRetentionLimit() {
     return this.getNumberAttribute('snapshot_retention_limit');
   }
@@ -1166,7 +1166,7 @@ export class ElasticacheServerlessCache extends cdktn.TerraformResource {
   }
 
   // subnet_ids - computed: true, optional: true, required: false
-  private _subnetIds?: string[];
+  private _subnetIds?: string[]; 
   public get subnetIds() {
     return cdktn.Fn.tolist(this.getListAttribute('subnet_ids'));
   }
@@ -1182,7 +1182,7 @@ export class ElasticacheServerlessCache extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -1204,7 +1204,7 @@ export class ElasticacheServerlessCache extends cdktn.TerraformResource {
   }
 
   // user_group_id - computed: false, optional: true, required: false
-  private _userGroupId?: string;
+  private _userGroupId?: string; 
   public get userGroupId() {
     return this.getStringAttribute('user_group_id');
   }

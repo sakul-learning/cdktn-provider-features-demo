@@ -179,7 +179,7 @@ export class DatasyncLocationSmbCmkSecretConfigOutputReference extends cdktn.Com
   }
 
   // kms_key_arn - computed: true, optional: true, required: false
-  private _kmsKeyArn?: string;
+  private _kmsKeyArn?: string; 
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -299,7 +299,7 @@ export class DatasyncLocationSmbCustomSecretConfigOutputReference extends cdktn.
   }
 
   // secret_access_role_arn - computed: true, optional: true, required: false
-  private _secretAccessRoleArn?: string;
+  private _secretAccessRoleArn?: string; 
   public get secretAccessRoleArn() {
     return this.getStringAttribute('secret_access_role_arn');
   }
@@ -315,7 +315,7 @@ export class DatasyncLocationSmbCustomSecretConfigOutputReference extends cdktn.
   }
 
   // secret_arn - computed: true, optional: true, required: false
-  private _secretArn?: string;
+  private _secretArn?: string; 
   public get secretArn() {
     return this.getStringAttribute('secret_arn');
   }
@@ -465,7 +465,7 @@ export class DatasyncLocationSmbMountOptionsOutputReference extends cdktn.Comple
   }
 
   // version - computed: true, optional: true, required: false
-  private _version?: string;
+  private _version?: string; 
   public get version() {
     return this.getStringAttribute('version');
   }
@@ -582,7 +582,7 @@ export class DatasyncLocationSmbTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -598,7 +598,7 @@ export class DatasyncLocationSmbTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -706,7 +706,7 @@ export class DatasyncLocationSmb extends cdktn.TerraformResource {
   // ==========
 
   // agent_arns - computed: false, optional: false, required: true
-  private _agentArns?: string[];
+  private _agentArns?: string[]; 
   public get agentArns() {
     return this.getListAttribute('agent_arns');
   }
@@ -719,7 +719,7 @@ export class DatasyncLocationSmb extends cdktn.TerraformResource {
   }
 
   // authentication_type - computed: true, optional: true, required: false
-  private _authenticationType?: string;
+  private _authenticationType?: string; 
   public get authenticationType() {
     return this.getStringAttribute('authentication_type');
   }
@@ -767,7 +767,7 @@ export class DatasyncLocationSmb extends cdktn.TerraformResource {
   }
 
   // dns_ip_addresses - computed: true, optional: true, required: false
-  private _dnsIpAddresses?: string[];
+  private _dnsIpAddresses?: string[]; 
   public get dnsIpAddresses() {
     return this.getListAttribute('dns_ip_addresses');
   }
@@ -783,7 +783,7 @@ export class DatasyncLocationSmb extends cdktn.TerraformResource {
   }
 
   // domain - computed: true, optional: true, required: false
-  private _domain?: string;
+  private _domain?: string; 
   public get domain() {
     return this.getStringAttribute('domain');
   }
@@ -804,7 +804,7 @@ export class DatasyncLocationSmb extends cdktn.TerraformResource {
   }
 
   // kerberos_keytab - computed: true, optional: true, required: false
-  private _kerberosKeytab?: string;
+  private _kerberosKeytab?: string; 
   public get kerberosKeytab() {
     return this.getStringAttribute('kerberos_keytab');
   }
@@ -820,7 +820,7 @@ export class DatasyncLocationSmb extends cdktn.TerraformResource {
   }
 
   // kerberos_krb_5_conf - computed: true, optional: true, required: false
-  private _kerberosKrb5Conf?: string;
+  private _kerberosKrb5Conf?: string; 
   public get kerberosKrb5Conf() {
     return this.getStringAttribute('kerberos_krb_5_conf');
   }
@@ -836,7 +836,7 @@ export class DatasyncLocationSmb extends cdktn.TerraformResource {
   }
 
   // kerberos_principal - computed: true, optional: true, required: false
-  private _kerberosPrincipal?: string;
+  private _kerberosPrincipal?: string; 
   public get kerberosPrincipal() {
     return this.getStringAttribute('kerberos_principal');
   }
@@ -884,7 +884,7 @@ export class DatasyncLocationSmb extends cdktn.TerraformResource {
   }
 
   // password - computed: true, optional: true, required: false
-  private _password?: string;
+  private _password?: string; 
   public get password() {
     return this.getStringAttribute('password');
   }
@@ -900,7 +900,7 @@ export class DatasyncLocationSmb extends cdktn.TerraformResource {
   }
 
   // server_hostname - computed: true, optional: true, required: false
-  private _serverHostname?: string;
+  private _serverHostname?: string; 
   public get serverHostname() {
     return this.getStringAttribute('server_hostname');
   }
@@ -916,7 +916,7 @@ export class DatasyncLocationSmb extends cdktn.TerraformResource {
   }
 
   // subdirectory - computed: true, optional: true, required: false
-  private _subdirectory?: string;
+  private _subdirectory?: string; 
   public get subdirectory() {
     return this.getStringAttribute('subdirectory');
   }
@@ -948,7 +948,7 @@ export class DatasyncLocationSmb extends cdktn.TerraformResource {
   }
 
   // user - computed: true, optional: true, required: false
-  private _user?: string;
+  private _user?: string; 
   public get user() {
     return this.getStringAttribute('user');
   }

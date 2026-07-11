@@ -96,7 +96,7 @@ export class CloudwatchDashboard extends cdktn.TerraformResource {
   }
 
   // dashboard_body - computed: false, optional: false, required: true
-  private _dashboardBody?: string;
+  private _dashboardBody?: string; 
   public get dashboardBody() {
     return this.getStringAttribute('dashboard_body');
   }
@@ -109,7 +109,7 @@ export class CloudwatchDashboard extends cdktn.TerraformResource {
   }
 
   // dashboard_name - computed: false, optional: false, required: true
-  private _dashboardName?: string;
+  private _dashboardName?: string; 
   public get dashboardName() {
     return this.getStringAttribute('dashboard_name');
   }
@@ -122,7 +122,7 @@ export class CloudwatchDashboard extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -138,7 +138,7 @@ export class CloudwatchDashboard extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

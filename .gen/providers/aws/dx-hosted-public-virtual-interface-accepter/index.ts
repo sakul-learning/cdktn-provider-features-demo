@@ -135,7 +135,7 @@ export class DxHostedPublicVirtualInterfaceAccepterTimeoutsOutputReference exten
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -151,7 +151,7 @@ export class DxHostedPublicVirtualInterfaceAccepterTimeoutsOutputReference exten
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -235,7 +235,7 @@ export class DxHostedPublicVirtualInterfaceAccepter extends cdktn.TerraformResou
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -251,7 +251,7 @@ export class DxHostedPublicVirtualInterfaceAccepter extends cdktn.TerraformResou
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -267,7 +267,7 @@ export class DxHostedPublicVirtualInterfaceAccepter extends cdktn.TerraformResou
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -283,7 +283,7 @@ export class DxHostedPublicVirtualInterfaceAccepter extends cdktn.TerraformResou
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -299,7 +299,7 @@ export class DxHostedPublicVirtualInterfaceAccepter extends cdktn.TerraformResou
   }
 
   // virtual_interface_id - computed: false, optional: false, required: true
-  private _virtualInterfaceId?: string;
+  private _virtualInterfaceId?: string; 
   public get virtualInterfaceId() {
     return this.getStringAttribute('virtual_interface_id');
   }

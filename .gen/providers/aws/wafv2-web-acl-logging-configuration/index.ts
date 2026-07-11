@@ -114,7 +114,7 @@ export class Wafv2WebAclLoggingConfigurationLoggingFilterFilterConditionActionCo
   }
 
   // action - computed: false, optional: false, required: true
-  private _action?: string;
+  private _action?: string; 
   public get action() {
     return this.getStringAttribute('action');
   }
@@ -195,7 +195,7 @@ export class Wafv2WebAclLoggingConfigurationLoggingFilterFilterConditionLabelNam
   }
 
   // label_name - computed: false, optional: false, required: true
-  private _labelName?: string;
+  private _labelName?: string; 
   public get labelName() {
     return this.getStringAttribute('label_name');
   }
@@ -477,7 +477,7 @@ export class Wafv2WebAclLoggingConfigurationLoggingFilterFilterOutputReference e
   }
 
   // behavior - computed: false, optional: false, required: true
-  private _behavior?: string;
+  private _behavior?: string; 
   public get behavior() {
     return this.getStringAttribute('behavior');
   }
@@ -490,7 +490,7 @@ export class Wafv2WebAclLoggingConfigurationLoggingFilterFilterOutputReference e
   }
 
   // requirement - computed: false, optional: false, required: true
-  private _requirement?: string;
+  private _requirement?: string; 
   public get requirement() {
     return this.getStringAttribute('requirement');
   }
@@ -623,7 +623,7 @@ export class Wafv2WebAclLoggingConfigurationLoggingFilterOutputReference extends
   }
 
   // default_behavior - computed: false, optional: false, required: true
-  private _defaultBehavior?: string;
+  private _defaultBehavior?: string; 
   public get defaultBehavior() {
     return this.getStringAttribute('default_behavior');
   }
@@ -815,7 +815,7 @@ export class Wafv2WebAclLoggingConfigurationRedactedFieldsSingleHeaderOutputRefe
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1163,7 +1163,7 @@ export class Wafv2WebAclLoggingConfiguration extends cdktn.TerraformResource {
   // ==========
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -1179,7 +1179,7 @@ export class Wafv2WebAclLoggingConfiguration extends cdktn.TerraformResource {
   }
 
   // log_destination_configs - computed: false, optional: false, required: true
-  private _logDestinationConfigs?: string[];
+  private _logDestinationConfigs?: string[]; 
   public get logDestinationConfigs() {
     return cdktn.Fn.tolist(this.getListAttribute('log_destination_configs'));
   }
@@ -1192,7 +1192,7 @@ export class Wafv2WebAclLoggingConfiguration extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1208,7 +1208,7 @@ export class Wafv2WebAclLoggingConfiguration extends cdktn.TerraformResource {
   }
 
   // resource_arn - computed: false, optional: false, required: true
-  private _resourceArn?: string;
+  private _resourceArn?: string; 
   public get resourceArn() {
     return this.getStringAttribute('resource_arn');
   }

@@ -113,7 +113,7 @@ export class VerifiedpermissionsPolicyStoreDeletionProtectionOutputReference ext
   }
 
   // mode - computed: true, optional: true, required: false
-  private _mode?: string;
+  private _mode?: string; 
   public get mode() {
     return this.getStringAttribute('mode');
   }
@@ -224,7 +224,7 @@ export class VerifiedpermissionsPolicyStoreEncryptionSettingsKmsEncryptionSettin
   }
 
   // encryption_context - computed: true, optional: true, required: false
-  private _encryptionContext?: { [key: string]: string };
+  private _encryptionContext?: { [key: string]: string }; 
   public get encryptionContext() {
     return this.getStringMapAttribute('encryption_context');
   }
@@ -240,7 +240,7 @@ export class VerifiedpermissionsPolicyStoreEncryptionSettingsKmsEncryptionSettin
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -351,7 +351,7 @@ export class VerifiedpermissionsPolicyStoreEncryptionSettingsOutputReference ext
   }
 
   // default - computed: true, optional: true, required: false
-  private _default?: string;
+  private _default?: string; 
   public get default() {
     return this.getStringAttribute('default');
   }
@@ -581,7 +581,7 @@ export class VerifiedpermissionsPolicyStoreSchemaOutputReference extends cdktn.C
   }
 
   // cedar_json - computed: true, optional: true, required: false
-  private _cedarJson?: string;
+  private _cedarJson?: string; 
   public get cedarJson() {
     return this.getStringAttribute('cedar_json');
   }
@@ -694,7 +694,7 @@ export class VerifiedpermissionsPolicyStoreTagsOutputReference extends cdktn.Com
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -710,7 +710,7 @@ export class VerifiedpermissionsPolicyStoreTagsOutputReference extends cdktn.Com
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -824,7 +824,7 @@ export class VerifiedpermissionsPolicyStoreValidationSettingsOutputReference ext
   }
 
   // mode - computed: false, optional: false, required: true
-  private _mode?: string;
+  private _mode?: string; 
   public get mode() {
     return this.getStringAttribute('mode');
   }
@@ -921,7 +921,7 @@ export class VerifiedpermissionsPolicyStore extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }

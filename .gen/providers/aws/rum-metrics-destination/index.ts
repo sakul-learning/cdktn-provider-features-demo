@@ -101,7 +101,7 @@ export class RumMetricsDestination extends cdktn.TerraformResource {
   // ==========
 
   // app_monitor_name - computed: false, optional: false, required: true
-  private _appMonitorName?: string;
+  private _appMonitorName?: string; 
   public get appMonitorName() {
     return this.getStringAttribute('app_monitor_name');
   }
@@ -114,7 +114,7 @@ export class RumMetricsDestination extends cdktn.TerraformResource {
   }
 
   // destination - computed: false, optional: false, required: true
-  private _destination?: string;
+  private _destination?: string; 
   public get destination() {
     return this.getStringAttribute('destination');
   }
@@ -127,7 +127,7 @@ export class RumMetricsDestination extends cdktn.TerraformResource {
   }
 
   // destination_arn - computed: false, optional: true, required: false
-  private _destinationArn?: string;
+  private _destinationArn?: string; 
   public get destinationArn() {
     return this.getStringAttribute('destination_arn');
   }
@@ -143,7 +143,7 @@ export class RumMetricsDestination extends cdktn.TerraformResource {
   }
 
   // iam_role_arn - computed: false, optional: true, required: false
-  private _iamRoleArn?: string;
+  private _iamRoleArn?: string; 
   public get iamRoleArn() {
     return this.getStringAttribute('iam_role_arn');
   }
@@ -159,7 +159,7 @@ export class RumMetricsDestination extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -175,7 +175,7 @@ export class RumMetricsDestination extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

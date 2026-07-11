@@ -452,7 +452,7 @@ export class DatazoneEnvironmentTimeoutsOutputReference extends cdktn.ComplexObj
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -468,7 +468,7 @@ export class DatazoneEnvironmentTimeoutsOutputReference extends cdktn.ComplexObj
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -484,7 +484,7 @@ export class DatazoneEnvironmentTimeoutsOutputReference extends cdktn.ComplexObj
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -597,7 +597,7 @@ export class DatazoneEnvironmentUserParametersOutputReference extends cdktn.Comp
   }
 
   // name - computed: false, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -613,7 +613,7 @@ export class DatazoneEnvironmentUserParametersOutputReference extends cdktn.Comp
   }
 
   // value - computed: false, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -718,7 +718,7 @@ export class DatazoneEnvironment extends cdktn.TerraformResource {
   // ==========
 
   // account_identifier - computed: true, optional: true, required: false
-  private _accountIdentifier?: string;
+  private _accountIdentifier?: string; 
   public get accountIdentifier() {
     return this.getStringAttribute('account_identifier');
   }
@@ -734,7 +734,7 @@ export class DatazoneEnvironment extends cdktn.TerraformResource {
   }
 
   // account_region - computed: true, optional: true, required: false
-  private _accountRegion?: string;
+  private _accountRegion?: string; 
   public get accountRegion() {
     return this.getStringAttribute('account_region');
   }
@@ -750,7 +750,7 @@ export class DatazoneEnvironment extends cdktn.TerraformResource {
   }
 
   // blueprint_identifier - computed: true, optional: true, required: false
-  private _blueprintIdentifier?: string;
+  private _blueprintIdentifier?: string; 
   public get blueprintIdentifier() {
     return this.getStringAttribute('blueprint_identifier');
   }
@@ -776,7 +776,7 @@ export class DatazoneEnvironment extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -792,7 +792,7 @@ export class DatazoneEnvironment extends cdktn.TerraformResource {
   }
 
   // domain_identifier - computed: false, optional: false, required: true
-  private _domainIdentifier?: string;
+  private _domainIdentifier?: string; 
   public get domainIdentifier() {
     return this.getStringAttribute('domain_identifier');
   }
@@ -805,7 +805,7 @@ export class DatazoneEnvironment extends cdktn.TerraformResource {
   }
 
   // glossary_terms - computed: false, optional: true, required: false
-  private _glossaryTerms?: string[];
+  private _glossaryTerms?: string[]; 
   public get glossaryTerms() {
     return this.getListAttribute('glossary_terms');
   }
@@ -832,7 +832,7 @@ export class DatazoneEnvironment extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -845,7 +845,7 @@ export class DatazoneEnvironment extends cdktn.TerraformResource {
   }
 
   // profile_identifier - computed: false, optional: false, required: true
-  private _profileIdentifier?: string;
+  private _profileIdentifier?: string; 
   public get profileIdentifier() {
     return this.getStringAttribute('profile_identifier');
   }
@@ -858,7 +858,7 @@ export class DatazoneEnvironment extends cdktn.TerraformResource {
   }
 
   // project_identifier - computed: false, optional: false, required: true
-  private _projectIdentifier?: string;
+  private _projectIdentifier?: string; 
   public get projectIdentifier() {
     return this.getStringAttribute('project_identifier');
   }
@@ -882,7 +882,7 @@ export class DatazoneEnvironment extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

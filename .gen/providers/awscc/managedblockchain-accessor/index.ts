@@ -24,13 +24,13 @@ export interface ManagedblockchainAccessorConfig extends cdktn.TerraformMetaArgu
 }
 export interface ManagedblockchainAccessorTags {
   /**
-  * The key name of the tag. You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
+  * The key name of the tag. You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/managedblockchain_accessor#key ManagedblockchainAccessor#key}
   */
   readonly key?: string;
   /**
-  * The value for the tag. You can specify a value that is 1 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
+  * The value for the tag. You can specify a value that is 1 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/managedblockchain_accessor#value ManagedblockchainAccessor#value}
   */
@@ -124,7 +124,7 @@ export class ManagedblockchainAccessorTagsOutputReference extends cdktn.ComplexO
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -140,7 +140,7 @@ export class ManagedblockchainAccessorTagsOutputReference extends cdktn.ComplexO
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -241,7 +241,7 @@ export class ManagedblockchainAccessor extends cdktn.TerraformResource {
   }
 
   // accessor_type - computed: false, optional: false, required: true
-  private _accessorType?: string;
+  private _accessorType?: string; 
   public get accessorType() {
     return this.getStringAttribute('accessor_type');
   }
@@ -274,7 +274,7 @@ export class ManagedblockchainAccessor extends cdktn.TerraformResource {
   }
 
   // network_type - computed: true, optional: true, required: false
-  private _networkType?: string;
+  private _networkType?: string; 
   public get networkType() {
     return this.getStringAttribute('network_type');
   }

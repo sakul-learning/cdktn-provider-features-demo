@@ -133,7 +133,7 @@ export class CustomerprofilesIntegrationFlowDefinitionSourceFlowConfigIncrementa
   }
 
   // datetime_type_field_name - computed: true, optional: true, required: false
-  private _datetimeTypeFieldName?: string;
+  private _datetimeTypeFieldName?: string; 
   public get datetimeTypeFieldName() {
     return this.getStringAttribute('datetime_type_field_name');
   }
@@ -227,7 +227,7 @@ export class CustomerprofilesIntegrationFlowDefinitionSourceFlowConfigSourceConn
   }
 
   // object - computed: true, optional: true, required: false
-  private _object?: string;
+  private _object?: string; 
   public get object() {
     return this.getStringAttribute('object');
   }
@@ -338,7 +338,7 @@ export class CustomerprofilesIntegrationFlowDefinitionSourceFlowConfigSourceConn
   }
 
   // bucket_name - computed: true, optional: true, required: false
-  private _bucketName?: string;
+  private _bucketName?: string; 
   public get bucketName() {
     return this.getStringAttribute('bucket_name');
   }
@@ -354,7 +354,7 @@ export class CustomerprofilesIntegrationFlowDefinitionSourceFlowConfigSourceConn
   }
 
   // bucket_prefix - computed: true, optional: true, required: false
-  private _bucketPrefix?: string;
+  private _bucketPrefix?: string; 
   public get bucketPrefix() {
     return this.getStringAttribute('bucket_prefix');
   }
@@ -482,7 +482,7 @@ export class CustomerprofilesIntegrationFlowDefinitionSourceFlowConfigSourceConn
   }
 
   // enable_dynamic_field_update - computed: true, optional: true, required: false
-  private _enableDynamicFieldUpdate?: boolean | cdktn.IResolvable;
+  private _enableDynamicFieldUpdate?: boolean | cdktn.IResolvable; 
   public get enableDynamicFieldUpdate() {
     return this.getBooleanAttribute('enable_dynamic_field_update');
   }
@@ -498,7 +498,7 @@ export class CustomerprofilesIntegrationFlowDefinitionSourceFlowConfigSourceConn
   }
 
   // include_deleted_records - computed: true, optional: true, required: false
-  private _includeDeletedRecords?: boolean | cdktn.IResolvable;
+  private _includeDeletedRecords?: boolean | cdktn.IResolvable; 
   public get includeDeletedRecords() {
     return this.getBooleanAttribute('include_deleted_records');
   }
@@ -514,7 +514,7 @@ export class CustomerprofilesIntegrationFlowDefinitionSourceFlowConfigSourceConn
   }
 
   // object - computed: true, optional: true, required: false
-  private _object?: string;
+  private _object?: string; 
   public get object() {
     return this.getStringAttribute('object');
   }
@@ -608,7 +608,7 @@ export class CustomerprofilesIntegrationFlowDefinitionSourceFlowConfigSourceConn
   }
 
   // object - computed: true, optional: true, required: false
-  private _object?: string;
+  private _object?: string; 
   public get object() {
     return this.getStringAttribute('object');
   }
@@ -702,7 +702,7 @@ export class CustomerprofilesIntegrationFlowDefinitionSourceFlowConfigSourceConn
   }
 
   // object - computed: true, optional: true, required: false
-  private _object?: string;
+  private _object?: string; 
   public get object() {
     return this.getStringAttribute('object');
   }
@@ -1073,7 +1073,7 @@ export class CustomerprofilesIntegrationFlowDefinitionSourceFlowConfigOutputRefe
   }
 
   // connector_profile_name - computed: true, optional: true, required: false
-  private _connectorProfileName?: string;
+  private _connectorProfileName?: string; 
   public get connectorProfileName() {
     return this.getStringAttribute('connector_profile_name');
   }
@@ -1089,7 +1089,7 @@ export class CustomerprofilesIntegrationFlowDefinitionSourceFlowConfigOutputRefe
   }
 
   // connector_type - computed: true, optional: true, required: false
-  private _connectorType?: string;
+  private _connectorType?: string; 
   public get connectorType() {
     return this.getStringAttribute('connector_type');
   }
@@ -1283,7 +1283,7 @@ export class CustomerprofilesIntegrationFlowDefinitionTasksConnectorOperatorOutp
   }
 
   // marketo - computed: true, optional: true, required: false
-  private _marketo?: string;
+  private _marketo?: string; 
   public get marketo() {
     return this.getStringAttribute('marketo');
   }
@@ -1299,7 +1299,7 @@ export class CustomerprofilesIntegrationFlowDefinitionTasksConnectorOperatorOutp
   }
 
   // s3 - computed: true, optional: true, required: false
-  private _s3?: string;
+  private _s3?: string; 
   public get s3() {
     return this.getStringAttribute('s3');
   }
@@ -1315,7 +1315,7 @@ export class CustomerprofilesIntegrationFlowDefinitionTasksConnectorOperatorOutp
   }
 
   // salesforce - computed: true, optional: true, required: false
-  private _salesforce?: string;
+  private _salesforce?: string; 
   public get salesforce() {
     return this.getStringAttribute('salesforce');
   }
@@ -1331,7 +1331,7 @@ export class CustomerprofilesIntegrationFlowDefinitionTasksConnectorOperatorOutp
   }
 
   // service_now - computed: true, optional: true, required: false
-  private _serviceNow?: string;
+  private _serviceNow?: string; 
   public get serviceNow() {
     return this.getStringAttribute('service_now');
   }
@@ -1347,7 +1347,7 @@ export class CustomerprofilesIntegrationFlowDefinitionTasksConnectorOperatorOutp
   }
 
   // zendesk - computed: true, optional: true, required: false
-  private _zendesk?: string;
+  private _zendesk?: string; 
   public get zendesk() {
     return this.getStringAttribute('zendesk');
   }
@@ -1460,7 +1460,7 @@ export class CustomerprofilesIntegrationFlowDefinitionTasksTaskPropertiesOutputR
   }
 
   // operator_property_key - computed: true, optional: true, required: false
-  private _operatorPropertyKey?: string;
+  private _operatorPropertyKey?: string; 
   public get operatorPropertyKey() {
     return this.getStringAttribute('operator_property_key');
   }
@@ -1476,7 +1476,7 @@ export class CustomerprofilesIntegrationFlowDefinitionTasksTaskPropertiesOutputR
   }
 
   // property - computed: true, optional: true, required: false
-  private _property?: string;
+  private _property?: string; 
   public get property() {
     return this.getStringAttribute('property');
   }
@@ -1676,7 +1676,7 @@ export class CustomerprofilesIntegrationFlowDefinitionTasksOutputReference exten
   }
 
   // destination_field - computed: true, optional: true, required: false
-  private _destinationField?: string;
+  private _destinationField?: string; 
   public get destinationField() {
     return this.getStringAttribute('destination_field');
   }
@@ -1692,7 +1692,7 @@ export class CustomerprofilesIntegrationFlowDefinitionTasksOutputReference exten
   }
 
   // source_fields - computed: true, optional: true, required: false
-  private _sourceFields?: string[];
+  private _sourceFields?: string[]; 
   public get sourceFields() {
     return this.getListAttribute('source_fields');
   }
@@ -1724,7 +1724,7 @@ export class CustomerprofilesIntegrationFlowDefinitionTasksOutputReference exten
   }
 
   // task_type - computed: true, optional: true, required: false
-  private _taskType?: string;
+  private _taskType?: string; 
   public get taskType() {
     return this.getStringAttribute('task_type');
   }
@@ -1940,7 +1940,7 @@ export class CustomerprofilesIntegrationFlowDefinitionTriggerConfigTriggerProper
   }
 
   // data_pull_mode - computed: true, optional: true, required: false
-  private _dataPullMode?: string;
+  private _dataPullMode?: string; 
   public get dataPullMode() {
     return this.getStringAttribute('data_pull_mode');
   }
@@ -1956,7 +1956,7 @@ export class CustomerprofilesIntegrationFlowDefinitionTriggerConfigTriggerProper
   }
 
   // first_execution_from - computed: true, optional: true, required: false
-  private _firstExecutionFrom?: number;
+  private _firstExecutionFrom?: number; 
   public get firstExecutionFrom() {
     return this.getNumberAttribute('first_execution_from');
   }
@@ -1972,7 +1972,7 @@ export class CustomerprofilesIntegrationFlowDefinitionTriggerConfigTriggerProper
   }
 
   // schedule_end_time - computed: true, optional: true, required: false
-  private _scheduleEndTime?: number;
+  private _scheduleEndTime?: number; 
   public get scheduleEndTime() {
     return this.getNumberAttribute('schedule_end_time');
   }
@@ -1988,7 +1988,7 @@ export class CustomerprofilesIntegrationFlowDefinitionTriggerConfigTriggerProper
   }
 
   // schedule_expression - computed: true, optional: true, required: false
-  private _scheduleExpression?: string;
+  private _scheduleExpression?: string; 
   public get scheduleExpression() {
     return this.getStringAttribute('schedule_expression');
   }
@@ -2004,7 +2004,7 @@ export class CustomerprofilesIntegrationFlowDefinitionTriggerConfigTriggerProper
   }
 
   // schedule_offset - computed: true, optional: true, required: false
-  private _scheduleOffset?: number;
+  private _scheduleOffset?: number; 
   public get scheduleOffset() {
     return this.getNumberAttribute('schedule_offset');
   }
@@ -2020,7 +2020,7 @@ export class CustomerprofilesIntegrationFlowDefinitionTriggerConfigTriggerProper
   }
 
   // schedule_start_time - computed: true, optional: true, required: false
-  private _scheduleStartTime?: number;
+  private _scheduleStartTime?: number; 
   public get scheduleStartTime() {
     return this.getNumberAttribute('schedule_start_time');
   }
@@ -2036,7 +2036,7 @@ export class CustomerprofilesIntegrationFlowDefinitionTriggerConfigTriggerProper
   }
 
   // timezone - computed: true, optional: true, required: false
-  private _timezone?: string;
+  private _timezone?: string; 
   public get timezone() {
     return this.getStringAttribute('timezone');
   }
@@ -2257,7 +2257,7 @@ export class CustomerprofilesIntegrationFlowDefinitionTriggerConfigOutputReferen
   }
 
   // trigger_type - computed: true, optional: true, required: false
-  private _triggerType?: string;
+  private _triggerType?: string; 
   public get triggerType() {
     return this.getStringAttribute('trigger_type');
   }
@@ -2436,7 +2436,7 @@ export class CustomerprofilesIntegrationFlowDefinitionOutputReference extends cd
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -2452,7 +2452,7 @@ export class CustomerprofilesIntegrationFlowDefinitionOutputReference extends cd
   }
 
   // flow_name - computed: true, optional: true, required: false
-  private _flowName?: string;
+  private _flowName?: string; 
   public get flowName() {
     return this.getStringAttribute('flow_name');
   }
@@ -2468,7 +2468,7 @@ export class CustomerprofilesIntegrationFlowDefinitionOutputReference extends cd
   }
 
   // kms_arn - computed: true, optional: true, required: false
-  private _kmsArn?: string;
+  private _kmsArn?: string; 
   public get kmsArn() {
     return this.getStringAttribute('kms_arn');
   }
@@ -2629,7 +2629,7 @@ export class CustomerprofilesIntegrationObjectTypeNamesOutputReference extends c
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -2645,7 +2645,7 @@ export class CustomerprofilesIntegrationObjectTypeNamesOutputReference extends c
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2778,7 +2778,7 @@ export class CustomerprofilesIntegrationTagsOutputReference extends cdktn.Comple
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -2794,7 +2794,7 @@ export class CustomerprofilesIntegrationTagsOutputReference extends cdktn.Comple
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2900,7 +2900,7 @@ export class CustomerprofilesIntegration extends cdktn.TerraformResource {
   }
 
   // domain_name - computed: false, optional: false, required: true
-  private _domainName?: string;
+  private _domainName?: string; 
   public get domainName() {
     return this.getStringAttribute('domain_name');
   }
@@ -2913,7 +2913,7 @@ export class CustomerprofilesIntegration extends cdktn.TerraformResource {
   }
 
   // event_trigger_names - computed: true, optional: true, required: false
-  private _eventTriggerNames?: string[];
+  private _eventTriggerNames?: string[]; 
   public get eventTriggerNames() {
     return this.getListAttribute('event_trigger_names');
   }
@@ -2955,7 +2955,7 @@ export class CustomerprofilesIntegration extends cdktn.TerraformResource {
   }
 
   // object_type_name - computed: true, optional: true, required: false
-  private _objectTypeName?: string;
+  private _objectTypeName?: string; 
   public get objectTypeName() {
     return this.getStringAttribute('object_type_name');
   }
@@ -2987,7 +2987,7 @@ export class CustomerprofilesIntegration extends cdktn.TerraformResource {
   }
 
   // scope - computed: true, optional: true, required: false
-  private _scope?: string;
+  private _scope?: string; 
   public get scope() {
     return this.getStringAttribute('scope');
   }
@@ -3019,7 +3019,7 @@ export class CustomerprofilesIntegration extends cdktn.TerraformResource {
   }
 
   // uri - computed: true, optional: true, required: false
-  private _uri?: string;
+  private _uri?: string; 
   public get uri() {
     return this.getStringAttribute('uri');
   }

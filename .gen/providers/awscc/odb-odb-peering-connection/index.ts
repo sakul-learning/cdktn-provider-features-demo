@@ -146,7 +146,7 @@ export class OdbOdbPeeringConnectionTagsOutputReference extends cdktn.ComplexObj
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -162,7 +162,7 @@ export class OdbOdbPeeringConnectionTagsOutputReference extends cdktn.ComplexObj
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -261,7 +261,7 @@ export class OdbOdbPeeringConnection extends cdktn.TerraformResource {
   // ==========
 
   // additional_peer_network_cidrs - computed: true, optional: true, required: false
-  private _additionalPeerNetworkCidrs?: string[];
+  private _additionalPeerNetworkCidrs?: string[]; 
   public get additionalPeerNetworkCidrs() {
     return this.getListAttribute('additional_peer_network_cidrs');
   }
@@ -277,7 +277,7 @@ export class OdbOdbPeeringConnection extends cdktn.TerraformResource {
   }
 
   // display_name - computed: true, optional: true, required: false
-  private _displayName?: string;
+  private _displayName?: string; 
   public get displayName() {
     return this.getStringAttribute('display_name');
   }
@@ -303,7 +303,7 @@ export class OdbOdbPeeringConnection extends cdktn.TerraformResource {
   }
 
   // odb_network_id - computed: true, optional: true, required: false
-  private _odbNetworkId?: string;
+  private _odbNetworkId?: string; 
   public get odbNetworkId() {
     return this.getStringAttribute('odb_network_id');
   }
@@ -339,7 +339,7 @@ export class OdbOdbPeeringConnection extends cdktn.TerraformResource {
   }
 
   // peer_network_id - computed: true, optional: true, required: false
-  private _peerNetworkId?: string;
+  private _peerNetworkId?: string; 
   public get peerNetworkId() {
     return this.getStringAttribute('peer_network_id');
   }
@@ -355,7 +355,7 @@ export class OdbOdbPeeringConnection extends cdktn.TerraformResource {
   }
 
   // peer_network_route_table_ids - computed: true, optional: true, required: false
-  private _peerNetworkRouteTableIds?: string[];
+  private _peerNetworkRouteTableIds?: string[]; 
   public get peerNetworkRouteTableIds() {
     return this.getListAttribute('peer_network_route_table_ids');
   }

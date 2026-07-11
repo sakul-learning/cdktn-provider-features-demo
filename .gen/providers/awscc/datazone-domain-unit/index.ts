@@ -99,7 +99,7 @@ export class DatazoneDomainUnit extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -120,7 +120,7 @@ export class DatazoneDomainUnit extends cdktn.TerraformResource {
   }
 
   // domain_identifier - computed: false, optional: false, required: true
-  private _domainIdentifier?: string;
+  private _domainIdentifier?: string; 
   public get domainIdentifier() {
     return this.getStringAttribute('domain_identifier');
   }
@@ -153,7 +153,7 @@ export class DatazoneDomainUnit extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -171,7 +171,7 @@ export class DatazoneDomainUnit extends cdktn.TerraformResource {
   }
 
   // parent_domain_unit_identifier - computed: false, optional: false, required: true
-  private _parentDomainUnitIdentifier?: string;
+  private _parentDomainUnitIdentifier?: string; 
   public get parentDomainUnitIdentifier() {
     return this.getStringAttribute('parent_domain_unit_identifier');
   }

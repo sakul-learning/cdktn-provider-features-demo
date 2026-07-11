@@ -96,7 +96,7 @@ export class CognitoTerms extends cdktn.TerraformResource {
   // ==========
 
   // client_id - computed: true, optional: true, required: false
-  private _clientId?: string;
+  private _clientId?: string; 
   public get clientId() {
     return this.getStringAttribute('client_id');
   }
@@ -112,7 +112,7 @@ export class CognitoTerms extends cdktn.TerraformResource {
   }
 
   // enforcement - computed: false, optional: false, required: true
-  private _enforcement?: string;
+  private _enforcement?: string; 
   public get enforcement() {
     return this.getStringAttribute('enforcement');
   }
@@ -130,7 +130,7 @@ export class CognitoTerms extends cdktn.TerraformResource {
   }
 
   // links - computed: false, optional: false, required: true
-  private _links?: { [key: string]: string };
+  private _links?: { [key: string]: string }; 
   public get links() {
     return this.getStringMapAttribute('links');
   }
@@ -148,7 +148,7 @@ export class CognitoTerms extends cdktn.TerraformResource {
   }
 
   // terms_name - computed: false, optional: false, required: true
-  private _termsName?: string;
+  private _termsName?: string; 
   public get termsName() {
     return this.getStringAttribute('terms_name');
   }
@@ -161,7 +161,7 @@ export class CognitoTerms extends cdktn.TerraformResource {
   }
 
   // terms_source - computed: false, optional: false, required: true
-  private _termsSource?: string;
+  private _termsSource?: string; 
   public get termsSource() {
     return this.getStringAttribute('terms_source');
   }
@@ -174,7 +174,7 @@ export class CognitoTerms extends cdktn.TerraformResource {
   }
 
   // user_pool_id - computed: false, optional: false, required: true
-  private _userPoolId?: string;
+  private _userPoolId?: string; 
   public get userPoolId() {
     return this.getStringAttribute('user_pool_id');
   }

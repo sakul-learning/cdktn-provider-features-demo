@@ -91,7 +91,7 @@ export class DataAwsLocationTrackerAssociation extends cdktn.TerraformDataSource
   // ==========
 
   // consumer_arn - computed: false, optional: false, required: true
-  private _consumerArn?: string;
+  private _consumerArn?: string; 
   public get consumerArn() {
     return this.getStringAttribute('consumer_arn');
   }
@@ -104,7 +104,7 @@ export class DataAwsLocationTrackerAssociation extends cdktn.TerraformDataSource
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -120,7 +120,7 @@ export class DataAwsLocationTrackerAssociation extends cdktn.TerraformDataSource
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -136,7 +136,7 @@ export class DataAwsLocationTrackerAssociation extends cdktn.TerraformDataSource
   }
 
   // tracker_name - computed: false, optional: false, required: true
-  private _trackerName?: string;
+  private _trackerName?: string; 
   public get trackerName() {
     return this.getStringAttribute('tracker_name');
   }

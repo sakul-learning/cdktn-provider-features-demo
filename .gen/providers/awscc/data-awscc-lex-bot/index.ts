@@ -1,10 +1,10 @@
 // generated from terraform resource schema
 
-import { DataAwsccLexBotBotFileS3LocationOutputReference,
-DataAwsccLexBotBotLocalesList,
-DataAwsccLexBotBotTagsList,
-DataAwsccLexBotDataPrivacyOutputReference,
-DataAwsccLexBotTestBotAliasSettingsOutputReference,
+import { DataAwsccLexBotBotFileS3LocationOutputReference, 
+DataAwsccLexBotBotLocalesList, 
+DataAwsccLexBotBotTagsList, 
+DataAwsccLexBotDataPrivacyOutputReference, 
+DataAwsccLexBotTestBotAliasSettingsOutputReference, 
 DataAwsccLexBotTestBotAliasTagsList} from './index-structs/index.js';
 export * from './index-structs/index.js';
 import { Construct } from 'constructs';
@@ -123,7 +123,7 @@ export class DataAwsccLexBot extends cdktn.TerraformDataSource {
   }
 
   // id - computed: false, optional: false, required: true
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }

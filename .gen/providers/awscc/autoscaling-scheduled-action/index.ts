@@ -122,7 +122,7 @@ export class AutoscalingScheduledAction extends cdktn.TerraformResource {
   // ==========
 
   // auto_scaling_group_name - computed: false, optional: false, required: true
-  private _autoScalingGroupName?: string;
+  private _autoScalingGroupName?: string; 
   public get autoScalingGroupName() {
     return this.getStringAttribute('auto_scaling_group_name');
   }
@@ -135,7 +135,7 @@ export class AutoscalingScheduledAction extends cdktn.TerraformResource {
   }
 
   // desired_capacity - computed: true, optional: true, required: false
-  private _desiredCapacity?: number;
+  private _desiredCapacity?: number; 
   public get desiredCapacity() {
     return this.getNumberAttribute('desired_capacity');
   }
@@ -151,7 +151,7 @@ export class AutoscalingScheduledAction extends cdktn.TerraformResource {
   }
 
   // end_time - computed: true, optional: true, required: false
-  private _endTime?: string;
+  private _endTime?: string; 
   public get endTime() {
     return this.getStringAttribute('end_time');
   }
@@ -172,7 +172,7 @@ export class AutoscalingScheduledAction extends cdktn.TerraformResource {
   }
 
   // max_size - computed: true, optional: true, required: false
-  private _maxSize?: number;
+  private _maxSize?: number; 
   public get maxSize() {
     return this.getNumberAttribute('max_size');
   }
@@ -188,7 +188,7 @@ export class AutoscalingScheduledAction extends cdktn.TerraformResource {
   }
 
   // min_size - computed: true, optional: true, required: false
-  private _minSize?: number;
+  private _minSize?: number; 
   public get minSize() {
     return this.getNumberAttribute('min_size');
   }
@@ -204,7 +204,7 @@ export class AutoscalingScheduledAction extends cdktn.TerraformResource {
   }
 
   // recurrence - computed: true, optional: true, required: false
-  private _recurrence?: string;
+  private _recurrence?: string; 
   public get recurrence() {
     return this.getStringAttribute('recurrence');
   }
@@ -225,7 +225,7 @@ export class AutoscalingScheduledAction extends cdktn.TerraformResource {
   }
 
   // start_time - computed: true, optional: true, required: false
-  private _startTime?: string;
+  private _startTime?: string; 
   public get startTime() {
     return this.getStringAttribute('start_time');
   }
@@ -241,7 +241,7 @@ export class AutoscalingScheduledAction extends cdktn.TerraformResource {
   }
 
   // time_zone - computed: true, optional: true, required: false
-  private _timeZone?: string;
+  private _timeZone?: string; 
   public get timeZone() {
     return this.getStringAttribute('time_zone');
   }

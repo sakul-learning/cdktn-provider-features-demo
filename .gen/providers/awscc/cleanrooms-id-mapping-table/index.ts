@@ -128,7 +128,7 @@ export class CleanroomsIdMappingTableInputReferenceConfigOutputReference extends
   }
 
   // input_reference_arn - computed: false, optional: false, required: true
-  private _inputReferenceArn?: string;
+  private _inputReferenceArn?: string; 
   public get inputReferenceArn() {
     return this.getStringAttribute('input_reference_arn');
   }
@@ -141,7 +141,7 @@ export class CleanroomsIdMappingTableInputReferenceConfigOutputReference extends
   }
 
   // manage_resource_policies - computed: false, optional: false, required: true
-  private _manageResourcePolicies?: boolean | cdktn.IResolvable;
+  private _manageResourcePolicies?: boolean | cdktn.IResolvable; 
   public get manageResourcePolicies() {
     return this.getBooleanAttribute('manage_resource_policies');
   }
@@ -386,7 +386,7 @@ export class CleanroomsIdMappingTableTagsOutputReference extends cdktn.ComplexOb
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -402,7 +402,7 @@ export class CleanroomsIdMappingTableTagsOutputReference extends cdktn.ComplexOb
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -516,7 +516,7 @@ export class CleanroomsIdMappingTable extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -561,7 +561,7 @@ export class CleanroomsIdMappingTable extends cdktn.TerraformResource {
   }
 
   // kms_key_arn - computed: true, optional: true, required: false
-  private _kmsKeyArn?: string;
+  private _kmsKeyArn?: string; 
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -582,7 +582,7 @@ export class CleanroomsIdMappingTable extends cdktn.TerraformResource {
   }
 
   // membership_identifier - computed: false, optional: false, required: true
-  private _membershipIdentifier?: string;
+  private _membershipIdentifier?: string; 
   public get membershipIdentifier() {
     return this.getStringAttribute('membership_identifier');
   }
@@ -595,7 +595,7 @@ export class CleanroomsIdMappingTable extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }

@@ -116,7 +116,7 @@ export class DatasyncLocationFsxOntapFileSystemProtocolNfsMountOptionsOutputRefe
   }
 
   // version - computed: false, optional: true, required: false
-  private _version?: string;
+  private _version?: string; 
   public get version() {
     return this.getStringAttribute('version');
   }
@@ -283,7 +283,7 @@ export class DatasyncLocationFsxOntapFileSystemProtocolSmbMountOptionsOutputRefe
   }
 
   // version - computed: false, optional: true, required: false
-  private _version?: string;
+  private _version?: string; 
   public get version() {
     return this.getStringAttribute('version');
   }
@@ -420,7 +420,7 @@ export class DatasyncLocationFsxOntapFileSystemProtocolSmbOutputReference extend
   }
 
   // domain - computed: false, optional: true, required: false
-  private _domain?: string;
+  private _domain?: string; 
   public get domain() {
     return this.getStringAttribute('domain');
   }
@@ -436,7 +436,7 @@ export class DatasyncLocationFsxOntapFileSystemProtocolSmbOutputReference extend
   }
 
   // password - computed: false, optional: false, required: true
-  private _password?: string;
+  private _password?: string; 
   public get password() {
     return this.getStringAttribute('password');
   }
@@ -449,7 +449,7 @@ export class DatasyncLocationFsxOntapFileSystemProtocolSmbOutputReference extend
   }
 
   // user - computed: false, optional: false, required: true
-  private _user?: string;
+  private _user?: string; 
   public get user() {
     return this.getStringAttribute('user');
   }
@@ -676,7 +676,7 @@ export class DatasyncLocationFsxOntapFileSystem extends cdktn.TerraformResource 
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -692,7 +692,7 @@ export class DatasyncLocationFsxOntapFileSystem extends cdktn.TerraformResource 
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -708,7 +708,7 @@ export class DatasyncLocationFsxOntapFileSystem extends cdktn.TerraformResource 
   }
 
   // security_group_arns - computed: false, optional: false, required: true
-  private _securityGroupArns?: string[];
+  private _securityGroupArns?: string[]; 
   public get securityGroupArns() {
     return cdktn.Fn.tolist(this.getListAttribute('security_group_arns'));
   }
@@ -721,7 +721,7 @@ export class DatasyncLocationFsxOntapFileSystem extends cdktn.TerraformResource 
   }
 
   // storage_virtual_machine_arn - computed: false, optional: false, required: true
-  private _storageVirtualMachineArn?: string;
+  private _storageVirtualMachineArn?: string; 
   public get storageVirtualMachineArn() {
     return this.getStringAttribute('storage_virtual_machine_arn');
   }
@@ -734,7 +734,7 @@ export class DatasyncLocationFsxOntapFileSystem extends cdktn.TerraformResource 
   }
 
   // subdirectory - computed: true, optional: true, required: false
-  private _subdirectory?: string;
+  private _subdirectory?: string; 
   public get subdirectory() {
     return this.getStringAttribute('subdirectory');
   }
@@ -750,7 +750,7 @@ export class DatasyncLocationFsxOntapFileSystem extends cdktn.TerraformResource 
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -766,7 +766,7 @@ export class DatasyncLocationFsxOntapFileSystem extends cdktn.TerraformResource 
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

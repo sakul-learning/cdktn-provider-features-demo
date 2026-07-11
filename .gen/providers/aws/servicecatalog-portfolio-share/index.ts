@@ -185,7 +185,7 @@ export class ServicecatalogPortfolioShareTimeoutsOutputReference extends cdktn.C
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -201,7 +201,7 @@ export class ServicecatalogPortfolioShareTimeoutsOutputReference extends cdktn.C
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -217,7 +217,7 @@ export class ServicecatalogPortfolioShareTimeoutsOutputReference extends cdktn.C
   }
 
   // read - computed: false, optional: true, required: false
-  private _read?: string;
+  private _read?: string; 
   public get read() {
     return this.getStringAttribute('read');
   }
@@ -233,7 +233,7 @@ export class ServicecatalogPortfolioShareTimeoutsOutputReference extends cdktn.C
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -316,7 +316,7 @@ export class ServicecatalogPortfolioShare extends cdktn.TerraformResource {
   // ==========
 
   // accept_language - computed: false, optional: true, required: false
-  private _acceptLanguage?: string;
+  private _acceptLanguage?: string; 
   public get acceptLanguage() {
     return this.getStringAttribute('accept_language');
   }
@@ -337,7 +337,7 @@ export class ServicecatalogPortfolioShare extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -353,7 +353,7 @@ export class ServicecatalogPortfolioShare extends cdktn.TerraformResource {
   }
 
   // portfolio_id - computed: false, optional: false, required: true
-  private _portfolioId?: string;
+  private _portfolioId?: string; 
   public get portfolioId() {
     return this.getStringAttribute('portfolio_id');
   }
@@ -366,7 +366,7 @@ export class ServicecatalogPortfolioShare extends cdktn.TerraformResource {
   }
 
   // principal_id - computed: false, optional: false, required: true
-  private _principalId?: string;
+  private _principalId?: string; 
   public get principalId() {
     return this.getStringAttribute('principal_id');
   }
@@ -379,7 +379,7 @@ export class ServicecatalogPortfolioShare extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -395,7 +395,7 @@ export class ServicecatalogPortfolioShare extends cdktn.TerraformResource {
   }
 
   // share_principals - computed: false, optional: true, required: false
-  private _sharePrincipals?: boolean | cdktn.IResolvable;
+  private _sharePrincipals?: boolean | cdktn.IResolvable; 
   public get sharePrincipals() {
     return this.getBooleanAttribute('share_principals');
   }
@@ -411,7 +411,7 @@ export class ServicecatalogPortfolioShare extends cdktn.TerraformResource {
   }
 
   // share_tag_options - computed: false, optional: true, required: false
-  private _shareTagOptions?: boolean | cdktn.IResolvable;
+  private _shareTagOptions?: boolean | cdktn.IResolvable; 
   public get shareTagOptions() {
     return this.getBooleanAttribute('share_tag_options');
   }
@@ -427,7 +427,7 @@ export class ServicecatalogPortfolioShare extends cdktn.TerraformResource {
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -440,7 +440,7 @@ export class ServicecatalogPortfolioShare extends cdktn.TerraformResource {
   }
 
   // wait_for_acceptance - computed: false, optional: true, required: false
-  private _waitForAcceptance?: boolean | cdktn.IResolvable;
+  private _waitForAcceptance?: boolean | cdktn.IResolvable; 
   public get waitForAcceptance() {
     return this.getBooleanAttribute('wait_for_acceptance');
   }

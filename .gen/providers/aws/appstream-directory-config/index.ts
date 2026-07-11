@@ -127,7 +127,7 @@ export class AppstreamDirectoryConfigCertificateBasedAuthPropertiesOutputReferen
   }
 
   // certificate_authority_arn - computed: false, optional: true, required: false
-  private _certificateAuthorityArn?: string;
+  private _certificateAuthorityArn?: string; 
   public get certificateAuthorityArn() {
     return this.getStringAttribute('certificate_authority_arn');
   }
@@ -143,7 +143,7 @@ export class AppstreamDirectoryConfigCertificateBasedAuthPropertiesOutputReferen
   }
 
   // status - computed: false, optional: true, required: false
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -244,7 +244,7 @@ export class AppstreamDirectoryConfigServiceAccountCredentialsOutputReference ex
   }
 
   // account_name - computed: false, optional: false, required: true
-  private _accountName?: string;
+  private _accountName?: string; 
   public get accountName() {
     return this.getStringAttribute('account_name');
   }
@@ -257,7 +257,7 @@ export class AppstreamDirectoryConfigServiceAccountCredentialsOutputReference ex
   }
 
   // account_password - computed: false, optional: false, required: true
-  private _accountPassword?: string;
+  private _accountPassword?: string; 
   public get accountPassword() {
     return this.getStringAttribute('account_password');
   }
@@ -338,7 +338,7 @@ export class AppstreamDirectoryConfig extends cdktn.TerraformResource {
   }
 
   // directory_name - computed: false, optional: false, required: true
-  private _directoryName?: string;
+  private _directoryName?: string; 
   public get directoryName() {
     return this.getStringAttribute('directory_name');
   }
@@ -351,7 +351,7 @@ export class AppstreamDirectoryConfig extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -367,7 +367,7 @@ export class AppstreamDirectoryConfig extends cdktn.TerraformResource {
   }
 
   // organizational_unit_distinguished_names - computed: false, optional: false, required: true
-  private _organizationalUnitDistinguishedNames?: string[];
+  private _organizationalUnitDistinguishedNames?: string[]; 
   public get organizationalUnitDistinguishedNames() {
     return cdktn.Fn.tolist(this.getListAttribute('organizational_unit_distinguished_names'));
   }
@@ -380,7 +380,7 @@ export class AppstreamDirectoryConfig extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

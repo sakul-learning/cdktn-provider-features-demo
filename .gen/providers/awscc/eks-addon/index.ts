@@ -149,7 +149,7 @@ export class EksAddonNamespaceConfigOutputReference extends cdktn.ComplexObject 
   }
 
   // namespace - computed: true, optional: true, required: false
-  private _namespace?: string;
+  private _namespace?: string; 
   public get namespace() {
     return this.getStringAttribute('namespace');
   }
@@ -266,7 +266,7 @@ export class EksAddonPodIdentityAssociationsOutputReference extends cdktn.Comple
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -282,7 +282,7 @@ export class EksAddonPodIdentityAssociationsOutputReference extends cdktn.Comple
   }
 
   // service_account - computed: true, optional: true, required: false
-  private _serviceAccount?: string;
+  private _serviceAccount?: string; 
   public get serviceAccount() {
     return this.getStringAttribute('service_account');
   }
@@ -319,13 +319,13 @@ export class EksAddonPodIdentityAssociationsList extends cdktn.ComplexList {
 }
 export interface EksAddonTags {
   /**
-  * The key name of the tag. You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
+  * The key name of the tag. You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eks_addon#key EksAddon#key}
   */
   readonly key?: string;
   /**
-  * The value for the tag. You can specify a value that is 1 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
+  * The value for the tag. You can specify a value that is 1 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eks_addon#value EksAddon#value}
   */
@@ -419,7 +419,7 @@ export class EksAddonTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -435,7 +435,7 @@ export class EksAddonTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -538,7 +538,7 @@ export class EksAddon extends cdktn.TerraformResource {
   // ==========
 
   // addon_name - computed: false, optional: false, required: true
-  private _addonName?: string;
+  private _addonName?: string; 
   public get addonName() {
     return this.getStringAttribute('addon_name');
   }
@@ -551,7 +551,7 @@ export class EksAddon extends cdktn.TerraformResource {
   }
 
   // addon_version - computed: true, optional: true, required: false
-  private _addonVersion?: string;
+  private _addonVersion?: string; 
   public get addonVersion() {
     return this.getStringAttribute('addon_version');
   }
@@ -572,7 +572,7 @@ export class EksAddon extends cdktn.TerraformResource {
   }
 
   // cluster_name - computed: false, optional: false, required: true
-  private _clusterName?: string;
+  private _clusterName?: string; 
   public get clusterName() {
     return this.getStringAttribute('cluster_name');
   }
@@ -585,7 +585,7 @@ export class EksAddon extends cdktn.TerraformResource {
   }
 
   // configuration_values - computed: true, optional: true, required: false
-  private _configurationValues?: string;
+  private _configurationValues?: string; 
   public get configurationValues() {
     return this.getStringAttribute('configuration_values');
   }
@@ -638,7 +638,7 @@ export class EksAddon extends cdktn.TerraformResource {
   }
 
   // preserve_on_delete - computed: true, optional: true, required: false
-  private _preserveOnDelete?: boolean | cdktn.IResolvable;
+  private _preserveOnDelete?: boolean | cdktn.IResolvable; 
   public get preserveOnDelete() {
     return this.getBooleanAttribute('preserve_on_delete');
   }
@@ -654,7 +654,7 @@ export class EksAddon extends cdktn.TerraformResource {
   }
 
   // resolve_conflicts - computed: true, optional: true, required: false
-  private _resolveConflicts?: string;
+  private _resolveConflicts?: string; 
   public get resolveConflicts() {
     return this.getStringAttribute('resolve_conflicts');
   }
@@ -670,7 +670,7 @@ export class EksAddon extends cdktn.TerraformResource {
   }
 
   // service_account_role_arn - computed: true, optional: true, required: false
-  private _serviceAccountRoleArn?: string;
+  private _serviceAccountRoleArn?: string; 
   public get serviceAccountRoleArn() {
     return this.getStringAttribute('service_account_role_arn');
   }

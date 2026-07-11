@@ -208,7 +208,7 @@ export class DmsReplicationInstanceKerberosAuthenticationSettingsOutputReference
   }
 
   // key_cache_secret_iam_arn - computed: false, optional: false, required: true
-  private _keyCacheSecretIamArn?: string;
+  private _keyCacheSecretIamArn?: string; 
   public get keyCacheSecretIamArn() {
     return this.getStringAttribute('key_cache_secret_iam_arn');
   }
@@ -221,7 +221,7 @@ export class DmsReplicationInstanceKerberosAuthenticationSettingsOutputReference
   }
 
   // key_cache_secret_id - computed: false, optional: false, required: true
-  private _keyCacheSecretId?: string;
+  private _keyCacheSecretId?: string; 
   public get keyCacheSecretId() {
     return this.getStringAttribute('key_cache_secret_id');
   }
@@ -234,7 +234,7 @@ export class DmsReplicationInstanceKerberosAuthenticationSettingsOutputReference
   }
 
   // krb5_file_contents - computed: false, optional: false, required: true
-  private _krb5FileContents?: string;
+  private _krb5FileContents?: string; 
   public get krb5FileContents() {
     return this.getStringAttribute('krb5_file_contents');
   }
@@ -359,7 +359,7 @@ export class DmsReplicationInstanceTimeoutsOutputReference extends cdktn.Complex
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -375,7 +375,7 @@ export class DmsReplicationInstanceTimeoutsOutputReference extends cdktn.Complex
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -391,7 +391,7 @@ export class DmsReplicationInstanceTimeoutsOutputReference extends cdktn.Complex
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -486,7 +486,7 @@ export class DmsReplicationInstance extends cdktn.TerraformResource {
   // ==========
 
   // allocated_storage - computed: true, optional: true, required: false
-  private _allocatedStorage?: number;
+  private _allocatedStorage?: number; 
   public get allocatedStorage() {
     return this.getNumberAttribute('allocated_storage');
   }
@@ -502,7 +502,7 @@ export class DmsReplicationInstance extends cdktn.TerraformResource {
   }
 
   // allow_major_version_upgrade - computed: false, optional: true, required: false
-  private _allowMajorVersionUpgrade?: boolean | cdktn.IResolvable;
+  private _allowMajorVersionUpgrade?: boolean | cdktn.IResolvable; 
   public get allowMajorVersionUpgrade() {
     return this.getBooleanAttribute('allow_major_version_upgrade');
   }
@@ -518,7 +518,7 @@ export class DmsReplicationInstance extends cdktn.TerraformResource {
   }
 
   // apply_immediately - computed: false, optional: true, required: false
-  private _applyImmediately?: boolean | cdktn.IResolvable;
+  private _applyImmediately?: boolean | cdktn.IResolvable; 
   public get applyImmediately() {
     return this.getBooleanAttribute('apply_immediately');
   }
@@ -534,7 +534,7 @@ export class DmsReplicationInstance extends cdktn.TerraformResource {
   }
 
   // auto_minor_version_upgrade - computed: true, optional: true, required: false
-  private _autoMinorVersionUpgrade?: boolean | cdktn.IResolvable;
+  private _autoMinorVersionUpgrade?: boolean | cdktn.IResolvable; 
   public get autoMinorVersionUpgrade() {
     return this.getBooleanAttribute('auto_minor_version_upgrade');
   }
@@ -550,7 +550,7 @@ export class DmsReplicationInstance extends cdktn.TerraformResource {
   }
 
   // availability_zone - computed: true, optional: true, required: false
-  private _availabilityZone?: string;
+  private _availabilityZone?: string; 
   public get availabilityZone() {
     return this.getStringAttribute('availability_zone');
   }
@@ -566,7 +566,7 @@ export class DmsReplicationInstance extends cdktn.TerraformResource {
   }
 
   // dns_name_servers - computed: false, optional: true, required: false
-  private _dnsNameServers?: string;
+  private _dnsNameServers?: string; 
   public get dnsNameServers() {
     return this.getStringAttribute('dns_name_servers');
   }
@@ -582,7 +582,7 @@ export class DmsReplicationInstance extends cdktn.TerraformResource {
   }
 
   // engine_version - computed: true, optional: true, required: false
-  private _engineVersion?: string;
+  private _engineVersion?: string; 
   public get engineVersion() {
     return this.getStringAttribute('engine_version');
   }
@@ -598,7 +598,7 @@ export class DmsReplicationInstance extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -614,7 +614,7 @@ export class DmsReplicationInstance extends cdktn.TerraformResource {
   }
 
   // kms_key_arn - computed: true, optional: true, required: false
-  private _kmsKeyArn?: string;
+  private _kmsKeyArn?: string; 
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -630,7 +630,7 @@ export class DmsReplicationInstance extends cdktn.TerraformResource {
   }
 
   // multi_az - computed: true, optional: true, required: false
-  private _multiAz?: boolean | cdktn.IResolvable;
+  private _multiAz?: boolean | cdktn.IResolvable; 
   public get multiAz() {
     return this.getBooleanAttribute('multi_az');
   }
@@ -646,7 +646,7 @@ export class DmsReplicationInstance extends cdktn.TerraformResource {
   }
 
   // network_type - computed: true, optional: true, required: false
-  private _networkType?: string;
+  private _networkType?: string; 
   public get networkType() {
     return this.getStringAttribute('network_type');
   }
@@ -662,7 +662,7 @@ export class DmsReplicationInstance extends cdktn.TerraformResource {
   }
 
   // preferred_maintenance_window - computed: true, optional: true, required: false
-  private _preferredMaintenanceWindow?: string;
+  private _preferredMaintenanceWindow?: string; 
   public get preferredMaintenanceWindow() {
     return this.getStringAttribute('preferred_maintenance_window');
   }
@@ -678,7 +678,7 @@ export class DmsReplicationInstance extends cdktn.TerraformResource {
   }
 
   // publicly_accessible - computed: true, optional: true, required: false
-  private _publiclyAccessible?: boolean | cdktn.IResolvable;
+  private _publiclyAccessible?: boolean | cdktn.IResolvable; 
   public get publiclyAccessible() {
     return this.getBooleanAttribute('publicly_accessible');
   }
@@ -694,7 +694,7 @@ export class DmsReplicationInstance extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -715,7 +715,7 @@ export class DmsReplicationInstance extends cdktn.TerraformResource {
   }
 
   // replication_instance_class - computed: false, optional: false, required: true
-  private _replicationInstanceClass?: string;
+  private _replicationInstanceClass?: string; 
   public get replicationInstanceClass() {
     return this.getStringAttribute('replication_instance_class');
   }
@@ -728,7 +728,7 @@ export class DmsReplicationInstance extends cdktn.TerraformResource {
   }
 
   // replication_instance_id - computed: false, optional: false, required: true
-  private _replicationInstanceId?: string;
+  private _replicationInstanceId?: string; 
   public get replicationInstanceId() {
     return this.getStringAttribute('replication_instance_id');
   }
@@ -751,7 +751,7 @@ export class DmsReplicationInstance extends cdktn.TerraformResource {
   }
 
   // replication_subnet_group_id - computed: true, optional: true, required: false
-  private _replicationSubnetGroupId?: string;
+  private _replicationSubnetGroupId?: string; 
   public get replicationSubnetGroupId() {
     return this.getStringAttribute('replication_subnet_group_id');
   }
@@ -767,7 +767,7 @@ export class DmsReplicationInstance extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -783,7 +783,7 @@ export class DmsReplicationInstance extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -799,7 +799,7 @@ export class DmsReplicationInstance extends cdktn.TerraformResource {
   }
 
   // vpc_security_group_ids - computed: true, optional: true, required: false
-  private _vpcSecurityGroupIds?: string[];
+  private _vpcSecurityGroupIds?: string[]; 
   public get vpcSecurityGroupIds() {
     return cdktn.Fn.tolist(this.getListAttribute('vpc_security_group_ids'));
   }

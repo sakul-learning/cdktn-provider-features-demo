@@ -83,7 +83,7 @@ export class XrayTransactionSearchConfig extends cdktn.TerraformResource {
   }
 
   // indexing_percentage - computed: true, optional: true, required: false
-  private _indexingPercentage?: number;
+  private _indexingPercentage?: number; 
   public get indexingPercentage() {
     return this.getNumberAttribute('indexing_percentage');
   }

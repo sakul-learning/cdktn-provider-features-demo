@@ -128,7 +128,7 @@ export class IotThingTypeTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -144,7 +144,7 @@ export class IotThingTypeTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -294,7 +294,7 @@ export class IotThingTypeThingTypePropertiesMqtt5ConfigurationPropagatingAttribu
   }
 
   // connection_attribute - computed: true, optional: true, required: false
-  private _connectionAttribute?: string;
+  private _connectionAttribute?: string; 
   public get connectionAttribute() {
     return this.getStringAttribute('connection_attribute');
   }
@@ -310,7 +310,7 @@ export class IotThingTypeThingTypePropertiesMqtt5ConfigurationPropagatingAttribu
   }
 
   // thing_attribute - computed: true, optional: true, required: false
-  private _thingAttribute?: string;
+  private _thingAttribute?: string; 
   public get thingAttribute() {
     return this.getStringAttribute('thing_attribute');
   }
@@ -326,7 +326,7 @@ export class IotThingTypeThingTypePropertiesMqtt5ConfigurationPropagatingAttribu
   }
 
   // user_property_key - computed: true, optional: true, required: false
-  private _userPropertyKey?: string;
+  private _userPropertyKey?: string; 
   public get userPropertyKey() {
     return this.getStringAttribute('user_property_key');
   }
@@ -584,7 +584,7 @@ export class IotThingTypeThingTypePropertiesOutputReference extends cdktn.Comple
   }
 
   // searchable_attributes - computed: true, optional: true, required: false
-  private _searchableAttributes?: string[];
+  private _searchableAttributes?: string[]; 
   public get searchableAttributes() {
     return this.getListAttribute('searchable_attributes');
   }
@@ -600,7 +600,7 @@ export class IotThingTypeThingTypePropertiesOutputReference extends cdktn.Comple
   }
 
   // thing_type_description - computed: true, optional: true, required: false
-  private _thingTypeDescription?: string;
+  private _thingTypeDescription?: string; 
   public get thingTypeDescription() {
     return this.getStringAttribute('thing_type_description');
   }
@@ -682,7 +682,7 @@ export class IotThingType extends cdktn.TerraformResource {
   }
 
   // deprecate_thing_type - computed: true, optional: true, required: false
-  private _deprecateThingType?: boolean | cdktn.IResolvable;
+  private _deprecateThingType?: boolean | cdktn.IResolvable; 
   public get deprecateThingType() {
     return this.getBooleanAttribute('deprecate_thing_type');
   }
@@ -724,7 +724,7 @@ export class IotThingType extends cdktn.TerraformResource {
   }
 
   // thing_type_name - computed: true, optional: true, required: false
-  private _thingTypeName?: string;
+  private _thingTypeName?: string; 
   public get thingTypeName() {
     return this.getStringAttribute('thing_type_name');
   }

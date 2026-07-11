@@ -132,7 +132,7 @@ export class Greengrassv2DeploymentComponentsConfigurationUpdateOutputReference 
   }
 
   // merge - computed: true, optional: true, required: false
-  private _merge?: string;
+  private _merge?: string; 
   public get merge() {
     return this.getStringAttribute('merge');
   }
@@ -148,7 +148,7 @@ export class Greengrassv2DeploymentComponentsConfigurationUpdateOutputReference 
   }
 
   // reset - computed: true, optional: true, required: false
-  private _reset?: string[];
+  private _reset?: string[]; 
   public get reset() {
     return this.getListAttribute('reset');
   }
@@ -259,7 +259,7 @@ export class Greengrassv2DeploymentComponentsRunWithSystemResourceLimitsOutputRe
   }
 
   // cpus - computed: true, optional: true, required: false
-  private _cpus?: number;
+  private _cpus?: number; 
   public get cpus() {
     return this.getNumberAttribute('cpus');
   }
@@ -275,7 +275,7 @@ export class Greengrassv2DeploymentComponentsRunWithSystemResourceLimitsOutputRe
   }
 
   // memory - computed: true, optional: true, required: false
-  private _memory?: number;
+  private _memory?: number; 
   public get memory() {
     return this.getNumberAttribute('memory');
   }
@@ -403,7 +403,7 @@ export class Greengrassv2DeploymentComponentsRunWithOutputReference extends cdkt
   }
 
   // posix_user - computed: true, optional: true, required: false
-  private _posixUser?: string;
+  private _posixUser?: string; 
   public get posixUser() {
     return this.getStringAttribute('posix_user');
   }
@@ -435,7 +435,7 @@ export class Greengrassv2DeploymentComponentsRunWithOutputReference extends cdkt
   }
 
   // windows_user - computed: true, optional: true, required: false
-  private _windowsUser?: string;
+  private _windowsUser?: string; 
   public get windowsUser() {
     return this.getStringAttribute('windows_user');
   }
@@ -564,7 +564,7 @@ export class Greengrassv2DeploymentComponentsOutputReference extends cdktn.Compl
   }
 
   // component_version - computed: true, optional: true, required: false
-  private _componentVersion?: string;
+  private _componentVersion?: string; 
   public get componentVersion() {
     return this.getStringAttribute('component_version');
   }
@@ -726,7 +726,7 @@ export class Greengrassv2DeploymentDeploymentPoliciesComponentUpdatePolicyOutput
   }
 
   // action - computed: true, optional: true, required: false
-  private _action?: string;
+  private _action?: string; 
   public get action() {
     return this.getStringAttribute('action');
   }
@@ -742,7 +742,7 @@ export class Greengrassv2DeploymentDeploymentPoliciesComponentUpdatePolicyOutput
   }
 
   // timeout_in_seconds - computed: true, optional: true, required: false
-  private _timeoutInSeconds?: number;
+  private _timeoutInSeconds?: number; 
   public get timeoutInSeconds() {
     return this.getNumberAttribute('timeout_in_seconds');
   }
@@ -836,7 +836,7 @@ export class Greengrassv2DeploymentDeploymentPoliciesConfigurationValidationPoli
   }
 
   // timeout_in_seconds - computed: true, optional: true, required: false
-  private _timeoutInSeconds?: number;
+  private _timeoutInSeconds?: number; 
   public get timeoutInSeconds() {
     return this.getNumberAttribute('timeout_in_seconds');
   }
@@ -996,7 +996,7 @@ export class Greengrassv2DeploymentDeploymentPoliciesOutputReference extends cdk
   }
 
   // failure_handling_policy - computed: true, optional: true, required: false
-  private _failureHandlingPolicy?: string;
+  private _failureHandlingPolicy?: string; 
   public get failureHandlingPolicy() {
     return this.getStringAttribute('failure_handling_policy');
   }
@@ -1143,7 +1143,7 @@ export class Greengrassv2DeploymentIotJobConfigurationAbortConfigCriteriaListStr
   }
 
   // action - computed: true, optional: true, required: false
-  private _action?: string;
+  private _action?: string; 
   public get action() {
     return this.getStringAttribute('action');
   }
@@ -1159,7 +1159,7 @@ export class Greengrassv2DeploymentIotJobConfigurationAbortConfigCriteriaListStr
   }
 
   // failure_type - computed: true, optional: true, required: false
-  private _failureType?: string;
+  private _failureType?: string; 
   public get failureType() {
     return this.getStringAttribute('failure_type');
   }
@@ -1175,7 +1175,7 @@ export class Greengrassv2DeploymentIotJobConfigurationAbortConfigCriteriaListStr
   }
 
   // min_number_of_executed_things - computed: true, optional: true, required: false
-  private _minNumberOfExecutedThings?: number;
+  private _minNumberOfExecutedThings?: number; 
   public get minNumberOfExecutedThings() {
     return this.getNumberAttribute('min_number_of_executed_things');
   }
@@ -1191,7 +1191,7 @@ export class Greengrassv2DeploymentIotJobConfigurationAbortConfigCriteriaListStr
   }
 
   // threshold_percentage - computed: true, optional: true, required: false
-  private _thresholdPercentage?: number;
+  private _thresholdPercentage?: number; 
   public get thresholdPercentage() {
     return this.getNumberAttribute('threshold_percentage');
   }
@@ -1416,7 +1416,7 @@ export class Greengrassv2DeploymentIotJobConfigurationJobExecutionsRolloutConfig
   }
 
   // number_of_notified_things - computed: true, optional: true, required: false
-  private _numberOfNotifiedThings?: number;
+  private _numberOfNotifiedThings?: number; 
   public get numberOfNotifiedThings() {
     return this.getNumberAttribute('number_of_notified_things');
   }
@@ -1432,7 +1432,7 @@ export class Greengrassv2DeploymentIotJobConfigurationJobExecutionsRolloutConfig
   }
 
   // number_of_succeeded_things - computed: true, optional: true, required: false
-  private _numberOfSucceededThings?: number;
+  private _numberOfSucceededThings?: number; 
   public get numberOfSucceededThings() {
     return this.getNumberAttribute('number_of_succeeded_things');
   }
@@ -1560,7 +1560,7 @@ export class Greengrassv2DeploymentIotJobConfigurationJobExecutionsRolloutConfig
   }
 
   // base_rate_per_minute - computed: true, optional: true, required: false
-  private _baseRatePerMinute?: number;
+  private _baseRatePerMinute?: number; 
   public get baseRatePerMinute() {
     return this.getNumberAttribute('base_rate_per_minute');
   }
@@ -1576,7 +1576,7 @@ export class Greengrassv2DeploymentIotJobConfigurationJobExecutionsRolloutConfig
   }
 
   // increment_factor - computed: true, optional: true, required: false
-  private _incrementFactor?: number;
+  private _incrementFactor?: number; 
   public get incrementFactor() {
     return this.getNumberAttribute('increment_factor');
   }
@@ -1719,7 +1719,7 @@ export class Greengrassv2DeploymentIotJobConfigurationJobExecutionsRolloutConfig
   }
 
   // maximum_per_minute - computed: true, optional: true, required: false
-  private _maximumPerMinute?: number;
+  private _maximumPerMinute?: number; 
   public get maximumPerMinute() {
     return this.getNumberAttribute('maximum_per_minute');
   }
@@ -1813,7 +1813,7 @@ export class Greengrassv2DeploymentIotJobConfigurationTimeoutConfigOutputReferen
   }
 
   // in_progress_timeout_in_minutes - computed: true, optional: true, required: false
-  private _inProgressTimeoutInMinutes?: number;
+  private _inProgressTimeoutInMinutes?: number; 
   public get inProgressTimeoutInMinutes() {
     return this.getNumberAttribute('in_progress_timeout_in_minutes');
   }
@@ -2074,7 +2074,7 @@ export class Greengrassv2Deployment extends cdktn.TerraformResource {
   }
 
   // deployment_name - computed: true, optional: true, required: false
-  private _deploymentName?: string;
+  private _deploymentName?: string; 
   public get deploymentName() {
     return this.getStringAttribute('deployment_name');
   }
@@ -2127,7 +2127,7 @@ export class Greengrassv2Deployment extends cdktn.TerraformResource {
   }
 
   // parent_target_arn - computed: true, optional: true, required: false
-  private _parentTargetArn?: string;
+  private _parentTargetArn?: string; 
   public get parentTargetArn() {
     return this.getStringAttribute('parent_target_arn');
   }
@@ -2143,7 +2143,7 @@ export class Greengrassv2Deployment extends cdktn.TerraformResource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -2159,7 +2159,7 @@ export class Greengrassv2Deployment extends cdktn.TerraformResource {
   }
 
   // target_arn - computed: false, optional: false, required: true
-  private _targetArn?: string;
+  private _targetArn?: string; 
   public get targetArn() {
     return this.getStringAttribute('target_arn');
   }

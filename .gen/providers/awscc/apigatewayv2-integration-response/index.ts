@@ -118,7 +118,7 @@ export class Apigatewayv2IntegrationResponse extends cdktn.TerraformResource {
   // ==========
 
   // api_id - computed: false, optional: false, required: true
-  private _apiId?: string;
+  private _apiId?: string; 
   public get apiId() {
     return this.getStringAttribute('api_id');
   }
@@ -131,7 +131,7 @@ export class Apigatewayv2IntegrationResponse extends cdktn.TerraformResource {
   }
 
   // content_handling_strategy - computed: true, optional: true, required: false
-  private _contentHandlingStrategy?: string;
+  private _contentHandlingStrategy?: string; 
   public get contentHandlingStrategy() {
     return this.getStringAttribute('content_handling_strategy');
   }
@@ -152,7 +152,7 @@ export class Apigatewayv2IntegrationResponse extends cdktn.TerraformResource {
   }
 
   // integration_id - computed: false, optional: false, required: true
-  private _integrationId?: string;
+  private _integrationId?: string; 
   public get integrationId() {
     return this.getStringAttribute('integration_id');
   }
@@ -170,7 +170,7 @@ export class Apigatewayv2IntegrationResponse extends cdktn.TerraformResource {
   }
 
   // integration_response_key - computed: false, optional: false, required: true
-  private _integrationResponseKey?: string;
+  private _integrationResponseKey?: string; 
   public get integrationResponseKey() {
     return this.getStringAttribute('integration_response_key');
   }
@@ -183,7 +183,7 @@ export class Apigatewayv2IntegrationResponse extends cdktn.TerraformResource {
   }
 
   // response_parameters - computed: true, optional: true, required: false
-  private _responseParameters?: string;
+  private _responseParameters?: string; 
   public get responseParameters() {
     return this.getStringAttribute('response_parameters');
   }
@@ -199,7 +199,7 @@ export class Apigatewayv2IntegrationResponse extends cdktn.TerraformResource {
   }
 
   // response_templates - computed: true, optional: true, required: false
-  private _responseTemplates?: string;
+  private _responseTemplates?: string; 
   public get responseTemplates() {
     return this.getStringAttribute('response_templates');
   }
@@ -215,7 +215,7 @@ export class Apigatewayv2IntegrationResponse extends cdktn.TerraformResource {
   }
 
   // template_selection_expression - computed: true, optional: true, required: false
-  private _templateSelectionExpression?: string;
+  private _templateSelectionExpression?: string; 
   public get templateSelectionExpression() {
     return this.getStringAttribute('template_selection_expression');
   }

@@ -379,7 +379,7 @@ export class DataAwsEc2TransitGatewayMulticastDomainFilterOutputReference extend
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -392,7 +392,7 @@ export class DataAwsEc2TransitGatewayMulticastDomainFilterOutputReference extend
   }
 
   // values - computed: false, optional: false, required: true
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -503,7 +503,7 @@ export class DataAwsEc2TransitGatewayMulticastDomainTimeoutsOutputReference exte
   }
 
   // read - computed: false, optional: true, required: false
-  private _read?: string;
+  private _read?: string; 
   public get read() {
     return this.getStringAttribute('read');
   }
@@ -598,7 +598,7 @@ export class DataAwsEc2TransitGatewayMulticastDomain extends cdktn.TerraformData
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -630,7 +630,7 @@ export class DataAwsEc2TransitGatewayMulticastDomain extends cdktn.TerraformData
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -662,7 +662,7 @@ export class DataAwsEc2TransitGatewayMulticastDomain extends cdktn.TerraformData
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -688,7 +688,7 @@ export class DataAwsEc2TransitGatewayMulticastDomain extends cdktn.TerraformData
   }
 
   // transit_gateway_multicast_domain_id - computed: true, optional: true, required: false
-  private _transitGatewayMulticastDomainId?: string;
+  private _transitGatewayMulticastDomainId?: string; 
   public get transitGatewayMulticastDomainId() {
     return this.getStringAttribute('transit_gateway_multicast_domain_id');
   }

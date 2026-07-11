@@ -346,7 +346,7 @@ export class AcmCertificateOptionsOutputReference extends cdktn.ComplexObject {
   }
 
   // certificate_transparency_logging_preference - computed: false, optional: true, required: false
-  private _certificateTransparencyLoggingPreference?: string;
+  private _certificateTransparencyLoggingPreference?: string; 
   public get certificateTransparencyLoggingPreference() {
     return this.getStringAttribute('certificate_transparency_logging_preference');
   }
@@ -362,7 +362,7 @@ export class AcmCertificateOptionsOutputReference extends cdktn.ComplexObject {
   }
 
   // export - computed: true, optional: true, required: false
-  private _export?: string;
+  private _export?: string; 
   public get export() {
     return this.getStringAttribute('export');
   }
@@ -475,7 +475,7 @@ export class AcmCertificateValidationOptionOutputReference extends cdktn.Complex
   }
 
   // domain_name - computed: false, optional: false, required: true
-  private _domainName?: string;
+  private _domainName?: string; 
   public get domainName() {
     return this.getStringAttribute('domain_name');
   }
@@ -488,7 +488,7 @@ export class AcmCertificateValidationOptionOutputReference extends cdktn.Complex
   }
 
   // validation_domain - computed: false, optional: false, required: true
-  private _validationDomain?: string;
+  private _validationDomain?: string; 
   public get validationDomain() {
     return this.getStringAttribute('validation_domain');
   }
@@ -601,7 +601,7 @@ export class AcmCertificate extends cdktn.TerraformResource {
   }
 
   // certificate_authority_arn - computed: false, optional: true, required: false
-  private _certificateAuthorityArn?: string;
+  private _certificateAuthorityArn?: string; 
   public get certificateAuthorityArn() {
     return this.getStringAttribute('certificate_authority_arn');
   }
@@ -617,7 +617,7 @@ export class AcmCertificate extends cdktn.TerraformResource {
   }
 
   // certificate_body - computed: false, optional: true, required: false
-  private _certificateBody?: string;
+  private _certificateBody?: string; 
   public get certificateBody() {
     return this.getStringAttribute('certificate_body');
   }
@@ -633,7 +633,7 @@ export class AcmCertificate extends cdktn.TerraformResource {
   }
 
   // certificate_chain - computed: false, optional: true, required: false
-  private _certificateChain?: string;
+  private _certificateChain?: string; 
   public get certificateChain() {
     return this.getStringAttribute('certificate_chain');
   }
@@ -649,7 +649,7 @@ export class AcmCertificate extends cdktn.TerraformResource {
   }
 
   // domain_name - computed: true, optional: true, required: false
-  private _domainName?: string;
+  private _domainName?: string; 
   public get domainName() {
     return this.getStringAttribute('domain_name');
   }
@@ -671,7 +671,7 @@ export class AcmCertificate extends cdktn.TerraformResource {
   }
 
   // early_renewal_duration - computed: false, optional: true, required: false
-  private _earlyRenewalDuration?: string;
+  private _earlyRenewalDuration?: string; 
   public get earlyRenewalDuration() {
     return this.getStringAttribute('early_renewal_duration');
   }
@@ -687,7 +687,7 @@ export class AcmCertificate extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -703,7 +703,7 @@ export class AcmCertificate extends cdktn.TerraformResource {
   }
 
   // key_algorithm - computed: true, optional: true, required: false
-  private _keyAlgorithm?: string;
+  private _keyAlgorithm?: string; 
   public get keyAlgorithm() {
     return this.getStringAttribute('key_algorithm');
   }
@@ -734,7 +734,7 @@ export class AcmCertificate extends cdktn.TerraformResource {
   }
 
   // private_key - computed: false, optional: true, required: false
-  private _privateKey?: string;
+  private _privateKey?: string; 
   public get privateKey() {
     return this.getStringAttribute('private_key');
   }
@@ -750,7 +750,7 @@ export class AcmCertificate extends cdktn.TerraformResource {
   }
 
   // private_key_wo - computed: false, optional: true, required: false
-  private _privateKeyWo?: string;
+  private _privateKeyWo?: string; 
   /**
   * @deprecated Write-only: the provider never returns this value; reading it always yields null by protocol contract. The getter remains for compatibility and will be removed in a future prebuilt-provider major.
   */
@@ -770,7 +770,7 @@ export class AcmCertificate extends cdktn.TerraformResource {
   }
 
   // private_key_wo_version - computed: false, optional: true, required: false
-  private _privateKeyWoVersion?: number;
+  private _privateKeyWoVersion?: number; 
   public get privateKeyWoVersion() {
     return this.getNumberAttribute('private_key_wo_version');
   }
@@ -786,7 +786,7 @@ export class AcmCertificate extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -818,7 +818,7 @@ export class AcmCertificate extends cdktn.TerraformResource {
   }
 
   // subject_alternative_names - computed: true, optional: true, required: false
-  private _subjectAlternativeNames?: string[];
+  private _subjectAlternativeNames?: string[]; 
   public get subjectAlternativeNames() {
     return cdktn.Fn.tolist(this.getListAttribute('subject_alternative_names'));
   }
@@ -834,7 +834,7 @@ export class AcmCertificate extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -850,7 +850,7 @@ export class AcmCertificate extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -876,7 +876,7 @@ export class AcmCertificate extends cdktn.TerraformResource {
   }
 
   // validation_method - computed: true, optional: true, required: false
-  private _validationMethod?: string;
+  private _validationMethod?: string; 
   public get validationMethod() {
     return this.getStringAttribute('validation_method');
   }

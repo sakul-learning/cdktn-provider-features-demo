@@ -170,7 +170,7 @@ export class DbParameterGroupParameterOutputReference extends cdktn.ComplexObjec
   }
 
   // apply_method - computed: false, optional: true, required: false
-  private _applyMethod?: string;
+  private _applyMethod?: string; 
   public get applyMethod() {
     return this.getStringAttribute('apply_method');
   }
@@ -186,7 +186,7 @@ export class DbParameterGroupParameterOutputReference extends cdktn.ComplexObjec
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -199,7 +199,7 @@ export class DbParameterGroupParameterOutputReference extends cdktn.ComplexObjec
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -304,7 +304,7 @@ export class DbParameterGroup extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -320,7 +320,7 @@ export class DbParameterGroup extends cdktn.TerraformResource {
   }
 
   // family - computed: false, optional: false, required: true
-  private _family?: string;
+  private _family?: string; 
   public get family() {
     return this.getStringAttribute('family');
   }
@@ -333,7 +333,7 @@ export class DbParameterGroup extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -349,7 +349,7 @@ export class DbParameterGroup extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -365,7 +365,7 @@ export class DbParameterGroup extends cdktn.TerraformResource {
   }
 
   // name_prefix - computed: true, optional: true, required: false
-  private _namePrefix?: string;
+  private _namePrefix?: string; 
   public get namePrefix() {
     return this.getStringAttribute('name_prefix');
   }
@@ -381,7 +381,7 @@ export class DbParameterGroup extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -397,7 +397,7 @@ export class DbParameterGroup extends cdktn.TerraformResource {
   }
 
   // skip_destroy - computed: false, optional: true, required: false
-  private _skipDestroy?: boolean | cdktn.IResolvable;
+  private _skipDestroy?: boolean | cdktn.IResolvable; 
   public get skipDestroy() {
     return this.getBooleanAttribute('skip_destroy');
   }
@@ -413,7 +413,7 @@ export class DbParameterGroup extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -429,7 +429,7 @@ export class DbParameterGroup extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

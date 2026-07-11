@@ -97,7 +97,7 @@ export class MedialiveEventBridgeRuleTemplateGroup extends cdktn.TerraformResour
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -133,7 +133,7 @@ export class MedialiveEventBridgeRuleTemplateGroup extends cdktn.TerraformResour
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -146,7 +146,7 @@ export class MedialiveEventBridgeRuleTemplateGroup extends cdktn.TerraformResour
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

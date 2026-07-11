@@ -208,7 +208,7 @@ export class AppsyncGraphqlApiAdditionalAuthenticationProviderLambdaAuthorizerCo
   }
 
   // authorizer_result_ttl_in_seconds - computed: false, optional: true, required: false
-  private _authorizerResultTtlInSeconds?: number;
+  private _authorizerResultTtlInSeconds?: number; 
   public get authorizerResultTtlInSeconds() {
     return this.getNumberAttribute('authorizer_result_ttl_in_seconds');
   }
@@ -224,7 +224,7 @@ export class AppsyncGraphqlApiAdditionalAuthenticationProviderLambdaAuthorizerCo
   }
 
   // authorizer_uri - computed: false, optional: false, required: true
-  private _authorizerUri?: string;
+  private _authorizerUri?: string; 
   public get authorizerUri() {
     return this.getStringAttribute('authorizer_uri');
   }
@@ -237,7 +237,7 @@ export class AppsyncGraphqlApiAdditionalAuthenticationProviderLambdaAuthorizerCo
   }
 
   // identity_validation_expression - computed: false, optional: true, required: false
-  private _identityValidationExpression?: string;
+  private _identityValidationExpression?: string; 
   public get identityValidationExpression() {
     return this.getStringAttribute('identity_validation_expression');
   }
@@ -372,7 +372,7 @@ export class AppsyncGraphqlApiAdditionalAuthenticationProviderOpenidConnectConfi
   }
 
   // auth_ttl - computed: false, optional: true, required: false
-  private _authTtl?: number;
+  private _authTtl?: number; 
   public get authTtl() {
     return this.getNumberAttribute('auth_ttl');
   }
@@ -388,7 +388,7 @@ export class AppsyncGraphqlApiAdditionalAuthenticationProviderOpenidConnectConfi
   }
 
   // client_id - computed: false, optional: true, required: false
-  private _clientId?: string;
+  private _clientId?: string; 
   public get clientId() {
     return this.getStringAttribute('client_id');
   }
@@ -404,7 +404,7 @@ export class AppsyncGraphqlApiAdditionalAuthenticationProviderOpenidConnectConfi
   }
 
   // iat_ttl - computed: false, optional: true, required: false
-  private _iatTtl?: number;
+  private _iatTtl?: number; 
   public get iatTtl() {
     return this.getNumberAttribute('iat_ttl');
   }
@@ -420,7 +420,7 @@ export class AppsyncGraphqlApiAdditionalAuthenticationProviderOpenidConnectConfi
   }
 
   // issuer - computed: false, optional: false, required: true
-  private _issuer?: string;
+  private _issuer?: string; 
   public get issuer() {
     return this.getStringAttribute('issuer');
   }
@@ -535,7 +535,7 @@ export class AppsyncGraphqlApiAdditionalAuthenticationProviderUserPoolConfigOutp
   }
 
   // app_id_client_regex - computed: false, optional: true, required: false
-  private _appIdClientRegex?: string;
+  private _appIdClientRegex?: string; 
   public get appIdClientRegex() {
     return this.getStringAttribute('app_id_client_regex');
   }
@@ -551,7 +551,7 @@ export class AppsyncGraphqlApiAdditionalAuthenticationProviderUserPoolConfigOutp
   }
 
   // aws_region - computed: true, optional: true, required: false
-  private _awsRegion?: string;
+  private _awsRegion?: string; 
   public get awsRegion() {
     return this.getStringAttribute('aws_region');
   }
@@ -567,7 +567,7 @@ export class AppsyncGraphqlApiAdditionalAuthenticationProviderUserPoolConfigOutp
   }
 
   // user_pool_id - computed: false, optional: false, required: true
-  private _userPoolId?: string;
+  private _userPoolId?: string; 
   public get userPoolId() {
     return this.getStringAttribute('user_pool_id');
   }
@@ -717,7 +717,7 @@ export class AppsyncGraphqlApiAdditionalAuthenticationProviderOutputReference ex
   }
 
   // authentication_type - computed: false, optional: false, required: true
-  private _authenticationType?: string;
+  private _authenticationType?: string; 
   public get authenticationType() {
     return this.getStringAttribute('authentication_type');
   }
@@ -900,7 +900,7 @@ export class AppsyncGraphqlApiEnhancedMetricsConfigOutputReference extends cdktn
   }
 
   // data_source_level_metrics_behavior - computed: false, optional: false, required: true
-  private _dataSourceLevelMetricsBehavior?: string;
+  private _dataSourceLevelMetricsBehavior?: string; 
   public get dataSourceLevelMetricsBehavior() {
     return this.getStringAttribute('data_source_level_metrics_behavior');
   }
@@ -913,7 +913,7 @@ export class AppsyncGraphqlApiEnhancedMetricsConfigOutputReference extends cdktn
   }
 
   // operation_level_metrics_config - computed: false, optional: false, required: true
-  private _operationLevelMetricsConfig?: string;
+  private _operationLevelMetricsConfig?: string; 
   public get operationLevelMetricsConfig() {
     return this.getStringAttribute('operation_level_metrics_config');
   }
@@ -926,7 +926,7 @@ export class AppsyncGraphqlApiEnhancedMetricsConfigOutputReference extends cdktn
   }
 
   // resolver_level_metrics_behavior - computed: false, optional: false, required: true
-  private _resolverLevelMetricsBehavior?: string;
+  private _resolverLevelMetricsBehavior?: string; 
   public get resolverLevelMetricsBehavior() {
     return this.getStringAttribute('resolver_level_metrics_behavior');
   }
@@ -1041,7 +1041,7 @@ export class AppsyncGraphqlApiLambdaAuthorizerConfigOutputReference extends cdkt
   }
 
   // authorizer_result_ttl_in_seconds - computed: false, optional: true, required: false
-  private _authorizerResultTtlInSeconds?: number;
+  private _authorizerResultTtlInSeconds?: number; 
   public get authorizerResultTtlInSeconds() {
     return this.getNumberAttribute('authorizer_result_ttl_in_seconds');
   }
@@ -1057,7 +1057,7 @@ export class AppsyncGraphqlApiLambdaAuthorizerConfigOutputReference extends cdkt
   }
 
   // authorizer_uri - computed: false, optional: false, required: true
-  private _authorizerUri?: string;
+  private _authorizerUri?: string; 
   public get authorizerUri() {
     return this.getStringAttribute('authorizer_uri');
   }
@@ -1070,7 +1070,7 @@ export class AppsyncGraphqlApiLambdaAuthorizerConfigOutputReference extends cdkt
   }
 
   // identity_validation_expression - computed: false, optional: true, required: false
-  private _identityValidationExpression?: string;
+  private _identityValidationExpression?: string; 
   public get identityValidationExpression() {
     return this.getStringAttribute('identity_validation_expression');
   }
@@ -1188,7 +1188,7 @@ export class AppsyncGraphqlApiLogConfigOutputReference extends cdktn.ComplexObje
   }
 
   // cloudwatch_logs_role_arn - computed: false, optional: false, required: true
-  private _cloudwatchLogsRoleArn?: string;
+  private _cloudwatchLogsRoleArn?: string; 
   public get cloudwatchLogsRoleArn() {
     return this.getStringAttribute('cloudwatch_logs_role_arn');
   }
@@ -1201,7 +1201,7 @@ export class AppsyncGraphqlApiLogConfigOutputReference extends cdktn.ComplexObje
   }
 
   // exclude_verbose_content - computed: false, optional: true, required: false
-  private _excludeVerboseContent?: boolean | cdktn.IResolvable;
+  private _excludeVerboseContent?: boolean | cdktn.IResolvable; 
   public get excludeVerboseContent() {
     return this.getBooleanAttribute('exclude_verbose_content');
   }
@@ -1217,7 +1217,7 @@ export class AppsyncGraphqlApiLogConfigOutputReference extends cdktn.ComplexObje
   }
 
   // field_log_level - computed: false, optional: false, required: true
-  private _fieldLogLevel?: string;
+  private _fieldLogLevel?: string; 
   public get fieldLogLevel() {
     return this.getStringAttribute('field_log_level');
   }
@@ -1349,7 +1349,7 @@ export class AppsyncGraphqlApiOpenidConnectConfigOutputReference extends cdktn.C
   }
 
   // auth_ttl - computed: false, optional: true, required: false
-  private _authTtl?: number;
+  private _authTtl?: number; 
   public get authTtl() {
     return this.getNumberAttribute('auth_ttl');
   }
@@ -1365,7 +1365,7 @@ export class AppsyncGraphqlApiOpenidConnectConfigOutputReference extends cdktn.C
   }
 
   // client_id - computed: false, optional: true, required: false
-  private _clientId?: string;
+  private _clientId?: string; 
   public get clientId() {
     return this.getStringAttribute('client_id');
   }
@@ -1381,7 +1381,7 @@ export class AppsyncGraphqlApiOpenidConnectConfigOutputReference extends cdktn.C
   }
 
   // iat_ttl - computed: false, optional: true, required: false
-  private _iatTtl?: number;
+  private _iatTtl?: number; 
   public get iatTtl() {
     return this.getNumberAttribute('iat_ttl');
   }
@@ -1397,7 +1397,7 @@ export class AppsyncGraphqlApiOpenidConnectConfigOutputReference extends cdktn.C
   }
 
   // issuer - computed: false, optional: false, required: true
-  private _issuer?: string;
+  private _issuer?: string; 
   public get issuer() {
     return this.getStringAttribute('issuer');
   }
@@ -1529,7 +1529,7 @@ export class AppsyncGraphqlApiUserPoolConfigOutputReference extends cdktn.Comple
   }
 
   // app_id_client_regex - computed: false, optional: true, required: false
-  private _appIdClientRegex?: string;
+  private _appIdClientRegex?: string; 
   public get appIdClientRegex() {
     return this.getStringAttribute('app_id_client_regex');
   }
@@ -1545,7 +1545,7 @@ export class AppsyncGraphqlApiUserPoolConfigOutputReference extends cdktn.Comple
   }
 
   // aws_region - computed: true, optional: true, required: false
-  private _awsRegion?: string;
+  private _awsRegion?: string; 
   public get awsRegion() {
     return this.getStringAttribute('aws_region');
   }
@@ -1561,7 +1561,7 @@ export class AppsyncGraphqlApiUserPoolConfigOutputReference extends cdktn.Comple
   }
 
   // default_action - computed: false, optional: false, required: true
-  private _defaultAction?: string;
+  private _defaultAction?: string; 
   public get defaultAction() {
     return this.getStringAttribute('default_action');
   }
@@ -1574,7 +1574,7 @@ export class AppsyncGraphqlApiUserPoolConfigOutputReference extends cdktn.Comple
   }
 
   // user_pool_id - computed: false, optional: false, required: true
-  private _userPoolId?: string;
+  private _userPoolId?: string; 
   public get userPoolId() {
     return this.getStringAttribute('user_pool_id');
   }
@@ -1664,7 +1664,7 @@ export class AppsyncGraphqlApi extends cdktn.TerraformResource {
   // ==========
 
   // api_type - computed: false, optional: true, required: false
-  private _apiType?: string;
+  private _apiType?: string; 
   public get apiType() {
     return this.getStringAttribute('api_type');
   }
@@ -1685,7 +1685,7 @@ export class AppsyncGraphqlApi extends cdktn.TerraformResource {
   }
 
   // authentication_type - computed: false, optional: false, required: true
-  private _authenticationType?: string;
+  private _authenticationType?: string; 
   public get authenticationType() {
     return this.getStringAttribute('authentication_type');
   }
@@ -1698,7 +1698,7 @@ export class AppsyncGraphqlApi extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -1714,7 +1714,7 @@ export class AppsyncGraphqlApi extends cdktn.TerraformResource {
   }
 
   // introspection_config - computed: false, optional: true, required: false
-  private _introspectionConfig?: string;
+  private _introspectionConfig?: string; 
   public get introspectionConfig() {
     return this.getStringAttribute('introspection_config');
   }
@@ -1730,7 +1730,7 @@ export class AppsyncGraphqlApi extends cdktn.TerraformResource {
   }
 
   // merged_api_execution_role_arn - computed: false, optional: true, required: false
-  private _mergedApiExecutionRoleArn?: string;
+  private _mergedApiExecutionRoleArn?: string; 
   public get mergedApiExecutionRoleArn() {
     return this.getStringAttribute('merged_api_execution_role_arn');
   }
@@ -1746,7 +1746,7 @@ export class AppsyncGraphqlApi extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1759,7 +1759,7 @@ export class AppsyncGraphqlApi extends cdktn.TerraformResource {
   }
 
   // query_depth_limit - computed: false, optional: true, required: false
-  private _queryDepthLimit?: number;
+  private _queryDepthLimit?: number; 
   public get queryDepthLimit() {
     return this.getNumberAttribute('query_depth_limit');
   }
@@ -1775,7 +1775,7 @@ export class AppsyncGraphqlApi extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1791,7 +1791,7 @@ export class AppsyncGraphqlApi extends cdktn.TerraformResource {
   }
 
   // resolver_count_limit - computed: false, optional: true, required: false
-  private _resolverCountLimit?: number;
+  private _resolverCountLimit?: number; 
   public get resolverCountLimit() {
     return this.getNumberAttribute('resolver_count_limit');
   }
@@ -1807,7 +1807,7 @@ export class AppsyncGraphqlApi extends cdktn.TerraformResource {
   }
 
   // schema - computed: false, optional: true, required: false
-  private _schema?: string;
+  private _schema?: string; 
   public get schema() {
     return this.getStringAttribute('schema');
   }
@@ -1823,7 +1823,7 @@ export class AppsyncGraphqlApi extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -1839,7 +1839,7 @@ export class AppsyncGraphqlApi extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -1861,7 +1861,7 @@ export class AppsyncGraphqlApi extends cdktn.TerraformResource {
   }
 
   // visibility - computed: false, optional: true, required: false
-  private _visibility?: string;
+  private _visibility?: string; 
   public get visibility() {
     return this.getStringAttribute('visibility');
   }
@@ -1877,7 +1877,7 @@ export class AppsyncGraphqlApi extends cdktn.TerraformResource {
   }
 
   // xray_enabled - computed: false, optional: true, required: false
-  private _xrayEnabled?: boolean | cdktn.IResolvable;
+  private _xrayEnabled?: boolean | cdktn.IResolvable; 
   public get xrayEnabled() {
     return this.getBooleanAttribute('xray_enabled');
   }

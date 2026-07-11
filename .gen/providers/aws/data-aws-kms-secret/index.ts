@@ -159,7 +159,7 @@ export class DataAwsKmsSecretSecretOutputReference extends cdktn.ComplexObject {
   }
 
   // context - computed: false, optional: true, required: false
-  private _context?: { [key: string]: string };
+  private _context?: { [key: string]: string }; 
   public get context() {
     return this.getStringMapAttribute('context');
   }
@@ -175,7 +175,7 @@ export class DataAwsKmsSecretSecretOutputReference extends cdktn.ComplexObject {
   }
 
   // grant_tokens - computed: false, optional: true, required: false
-  private _grantTokens?: string[];
+  private _grantTokens?: string[]; 
   public get grantTokens() {
     return this.getListAttribute('grant_tokens');
   }
@@ -191,7 +191,7 @@ export class DataAwsKmsSecretSecretOutputReference extends cdktn.ComplexObject {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -204,7 +204,7 @@ export class DataAwsKmsSecretSecretOutputReference extends cdktn.ComplexObject {
   }
 
   // payload - computed: false, optional: false, required: true
-  private _payload?: string;
+  private _payload?: string; 
   public get payload() {
     return this.getStringAttribute('payload');
   }
@@ -297,7 +297,7 @@ export class DataAwsKmsSecret extends cdktn.TerraformDataSource {
   // ==========
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -313,7 +313,7 @@ export class DataAwsKmsSecret extends cdktn.TerraformDataSource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

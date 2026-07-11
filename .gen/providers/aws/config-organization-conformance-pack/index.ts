@@ -155,7 +155,7 @@ export class ConfigOrganizationConformancePackInputParameterOutputReference exte
   }
 
   // parameter_name - computed: false, optional: false, required: true
-  private _parameterName?: string;
+  private _parameterName?: string; 
   public get parameterName() {
     return this.getStringAttribute('parameter_name');
   }
@@ -168,7 +168,7 @@ export class ConfigOrganizationConformancePackInputParameterOutputReference exte
   }
 
   // parameter_value - computed: false, optional: false, required: true
-  private _parameterValue?: string;
+  private _parameterValue?: string; 
   public get parameterValue() {
     return this.getStringAttribute('parameter_value');
   }
@@ -313,7 +313,7 @@ export class ConfigOrganizationConformancePackTimeoutsOutputReference extends cd
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -329,7 +329,7 @@ export class ConfigOrganizationConformancePackTimeoutsOutputReference extends cd
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -345,7 +345,7 @@ export class ConfigOrganizationConformancePackTimeoutsOutputReference extends cd
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -433,7 +433,7 @@ export class ConfigOrganizationConformancePack extends cdktn.TerraformResource {
   }
 
   // delivery_s3_bucket - computed: false, optional: true, required: false
-  private _deliveryS3Bucket?: string;
+  private _deliveryS3Bucket?: string; 
   public get deliveryS3Bucket() {
     return this.getStringAttribute('delivery_s3_bucket');
   }
@@ -449,7 +449,7 @@ export class ConfigOrganizationConformancePack extends cdktn.TerraformResource {
   }
 
   // delivery_s3_key_prefix - computed: false, optional: true, required: false
-  private _deliveryS3KeyPrefix?: string;
+  private _deliveryS3KeyPrefix?: string; 
   public get deliveryS3KeyPrefix() {
     return this.getStringAttribute('delivery_s3_key_prefix');
   }
@@ -465,7 +465,7 @@ export class ConfigOrganizationConformancePack extends cdktn.TerraformResource {
   }
 
   // excluded_accounts - computed: false, optional: true, required: false
-  private _excludedAccounts?: string[];
+  private _excludedAccounts?: string[]; 
   public get excludedAccounts() {
     return cdktn.Fn.tolist(this.getListAttribute('excluded_accounts'));
   }
@@ -481,7 +481,7 @@ export class ConfigOrganizationConformancePack extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -497,7 +497,7 @@ export class ConfigOrganizationConformancePack extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -510,7 +510,7 @@ export class ConfigOrganizationConformancePack extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -526,7 +526,7 @@ export class ConfigOrganizationConformancePack extends cdktn.TerraformResource {
   }
 
   // template_body - computed: false, optional: true, required: false
-  private _templateBody?: string;
+  private _templateBody?: string; 
   public get templateBody() {
     return this.getStringAttribute('template_body');
   }
@@ -542,7 +542,7 @@ export class ConfigOrganizationConformancePack extends cdktn.TerraformResource {
   }
 
   // template_s3_uri - computed: false, optional: true, required: false
-  private _templateS3Uri?: string;
+  private _templateS3Uri?: string; 
   public get templateS3Uri() {
     return this.getStringAttribute('template_s3_uri');
   }

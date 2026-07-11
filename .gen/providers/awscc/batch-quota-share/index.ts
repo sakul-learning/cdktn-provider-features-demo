@@ -152,7 +152,7 @@ export class BatchQuotaShareCapacityLimitsOutputReference extends cdktn.ComplexO
   }
 
   // capacity_unit - computed: false, optional: false, required: true
-  private _capacityUnit?: string;
+  private _capacityUnit?: string; 
   public get capacityUnit() {
     return this.getStringAttribute('capacity_unit');
   }
@@ -165,7 +165,7 @@ export class BatchQuotaShareCapacityLimitsOutputReference extends cdktn.ComplexO
   }
 
   // max_capacity - computed: false, optional: false, required: true
-  private _maxCapacity?: number;
+  private _maxCapacity?: number; 
   public get maxCapacity() {
     return this.getNumberAttribute('max_capacity');
   }
@@ -278,7 +278,7 @@ export class BatchQuotaSharePreemptionConfigurationOutputReference extends cdktn
   }
 
   // in_share_preemption - computed: false, optional: false, required: true
-  private _inSharePreemption?: string;
+  private _inSharePreemption?: string; 
   public get inSharePreemption() {
     return this.getStringAttribute('in_share_preemption');
   }
@@ -390,7 +390,7 @@ export class BatchQuotaShareResourceSharingConfigurationOutputReference extends 
   }
 
   // borrow_limit - computed: true, optional: true, required: false
-  private _borrowLimit?: number;
+  private _borrowLimit?: number; 
   public get borrowLimit() {
     return this.getNumberAttribute('borrow_limit');
   }
@@ -406,7 +406,7 @@ export class BatchQuotaShareResourceSharingConfigurationOutputReference extends 
   }
 
   // strategy - computed: false, optional: false, required: true
-  private _strategy?: string;
+  private _strategy?: string; 
   public get strategy() {
     return this.getStringAttribute('strategy');
   }
@@ -501,7 +501,7 @@ export class BatchQuotaShare extends cdktn.TerraformResource {
   }
 
   // job_queue - computed: false, optional: false, required: true
-  private _jobQueue?: string;
+  private _jobQueue?: string; 
   public get jobQueue() {
     return this.getStringAttribute('job_queue');
   }
@@ -532,7 +532,7 @@ export class BatchQuotaShare extends cdktn.TerraformResource {
   }
 
   // quota_share_name - computed: false, optional: false, required: true
-  private _quotaShareName?: string;
+  private _quotaShareName?: string; 
   public get quotaShareName() {
     return this.getStringAttribute('quota_share_name');
   }
@@ -558,7 +558,7 @@ export class BatchQuotaShare extends cdktn.TerraformResource {
   }
 
   // state - computed: true, optional: true, required: false
-  private _state?: string;
+  private _state?: string; 
   public get state() {
     return this.getStringAttribute('state');
   }
@@ -574,7 +574,7 @@ export class BatchQuotaShare extends cdktn.TerraformResource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

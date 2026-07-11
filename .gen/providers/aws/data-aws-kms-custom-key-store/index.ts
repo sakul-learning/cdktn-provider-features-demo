@@ -106,7 +106,7 @@ export class DataAwsKmsCustomKeyStore extends cdktn.TerraformDataSource {
   }
 
   // custom_key_store_id - computed: true, optional: true, required: false
-  private _customKeyStoreId?: string;
+  private _customKeyStoreId?: string; 
   public get customKeyStoreId() {
     return this.getStringAttribute('custom_key_store_id');
   }
@@ -122,7 +122,7 @@ export class DataAwsKmsCustomKeyStore extends cdktn.TerraformDataSource {
   }
 
   // custom_key_store_name - computed: true, optional: true, required: false
-  private _customKeyStoreName?: string;
+  private _customKeyStoreName?: string; 
   public get customKeyStoreName() {
     return this.getStringAttribute('custom_key_store_name');
   }
@@ -138,7 +138,7 @@ export class DataAwsKmsCustomKeyStore extends cdktn.TerraformDataSource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -154,7 +154,7 @@ export class DataAwsKmsCustomKeyStore extends cdktn.TerraformDataSource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

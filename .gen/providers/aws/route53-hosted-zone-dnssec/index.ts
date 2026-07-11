@@ -142,7 +142,7 @@ export class Route53HostedZoneDnssecTimeoutsOutputReference extends cdktn.Comple
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -158,7 +158,7 @@ export class Route53HostedZoneDnssecTimeoutsOutputReference extends cdktn.Comple
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -174,7 +174,7 @@ export class Route53HostedZoneDnssecTimeoutsOutputReference extends cdktn.Comple
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -251,7 +251,7 @@ export class Route53HostedZoneDnssec extends cdktn.TerraformResource {
   // ==========
 
   // hosted_zone_id - computed: false, optional: false, required: true
-  private _hostedZoneId?: string;
+  private _hostedZoneId?: string; 
   public get hostedZoneId() {
     return this.getStringAttribute('hosted_zone_id');
   }
@@ -264,7 +264,7 @@ export class Route53HostedZoneDnssec extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -280,7 +280,7 @@ export class Route53HostedZoneDnssec extends cdktn.TerraformResource {
   }
 
   // signing_status - computed: false, optional: true, required: false
-  private _signingStatus?: string;
+  private _signingStatus?: string; 
   public get signingStatus() {
     return this.getStringAttribute('signing_status');
   }

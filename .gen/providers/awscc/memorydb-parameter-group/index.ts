@@ -140,7 +140,7 @@ export class MemorydbParameterGroupTagsOutputReference extends cdktn.ComplexObje
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -156,7 +156,7 @@ export class MemorydbParameterGroupTagsOutputReference extends cdktn.ComplexObje
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -259,7 +259,7 @@ export class MemorydbParameterGroup extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -275,7 +275,7 @@ export class MemorydbParameterGroup extends cdktn.TerraformResource {
   }
 
   // family - computed: false, optional: false, required: true
-  private _family?: string;
+  private _family?: string; 
   public get family() {
     return this.getStringAttribute('family');
   }
@@ -293,7 +293,7 @@ export class MemorydbParameterGroup extends cdktn.TerraformResource {
   }
 
   // parameter_group_name - computed: false, optional: false, required: true
-  private _parameterGroupName?: string;
+  private _parameterGroupName?: string; 
   public get parameterGroupName() {
     return this.getStringAttribute('parameter_group_name');
   }
@@ -306,7 +306,7 @@ export class MemorydbParameterGroup extends cdktn.TerraformResource {
   }
 
   // parameters - computed: true, optional: true, required: false
-  private _parameters?: string;
+  private _parameters?: string; 
   public get parameters() {
     return this.getStringAttribute('parameters');
   }

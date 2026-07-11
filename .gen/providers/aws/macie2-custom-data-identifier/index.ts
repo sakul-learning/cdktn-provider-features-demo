@@ -142,7 +142,7 @@ export class Macie2CustomDataIdentifierTimeoutsOutputReference extends cdktn.Com
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -237,7 +237,7 @@ export class Macie2CustomDataIdentifier extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -253,7 +253,7 @@ export class Macie2CustomDataIdentifier extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -269,7 +269,7 @@ export class Macie2CustomDataIdentifier extends cdktn.TerraformResource {
   }
 
   // ignore_words - computed: false, optional: true, required: false
-  private _ignoreWords?: string[];
+  private _ignoreWords?: string[]; 
   public get ignoreWords() {
     return cdktn.Fn.tolist(this.getListAttribute('ignore_words'));
   }
@@ -285,7 +285,7 @@ export class Macie2CustomDataIdentifier extends cdktn.TerraformResource {
   }
 
   // keywords - computed: false, optional: true, required: false
-  private _keywords?: string[];
+  private _keywords?: string[]; 
   public get keywords() {
     return cdktn.Fn.tolist(this.getListAttribute('keywords'));
   }
@@ -301,7 +301,7 @@ export class Macie2CustomDataIdentifier extends cdktn.TerraformResource {
   }
 
   // maximum_match_distance - computed: true, optional: true, required: false
-  private _maximumMatchDistance?: number;
+  private _maximumMatchDistance?: number; 
   public get maximumMatchDistance() {
     return this.getNumberAttribute('maximum_match_distance');
   }
@@ -317,7 +317,7 @@ export class Macie2CustomDataIdentifier extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -333,7 +333,7 @@ export class Macie2CustomDataIdentifier extends cdktn.TerraformResource {
   }
 
   // name_prefix - computed: true, optional: true, required: false
-  private _namePrefix?: string;
+  private _namePrefix?: string; 
   public get namePrefix() {
     return this.getStringAttribute('name_prefix');
   }
@@ -349,7 +349,7 @@ export class Macie2CustomDataIdentifier extends cdktn.TerraformResource {
   }
 
   // regex - computed: false, optional: true, required: false
-  private _regex?: string;
+  private _regex?: string; 
   public get regex() {
     return this.getStringAttribute('regex');
   }
@@ -365,7 +365,7 @@ export class Macie2CustomDataIdentifier extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -381,7 +381,7 @@ export class Macie2CustomDataIdentifier extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -397,7 +397,7 @@ export class Macie2CustomDataIdentifier extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

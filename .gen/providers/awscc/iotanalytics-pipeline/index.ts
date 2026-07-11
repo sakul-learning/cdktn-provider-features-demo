@@ -133,7 +133,7 @@ export class IotanalyticsPipelinePipelineActivitiesAddAttributesOutputReference 
   }
 
   // attributes - computed: true, optional: true, required: false
-  private _attributes?: { [key: string]: string };
+  private _attributes?: { [key: string]: string }; 
   public get attributes() {
     return this.getStringMapAttribute('attributes');
   }
@@ -149,7 +149,7 @@ export class IotanalyticsPipelinePipelineActivitiesAddAttributesOutputReference 
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -165,7 +165,7 @@ export class IotanalyticsPipelinePipelineActivitiesAddAttributesOutputReference 
   }
 
   // next - computed: true, optional: true, required: false
-  private _next?: string;
+  private _next?: string; 
   public get next() {
     return this.getStringAttribute('next');
   }
@@ -293,7 +293,7 @@ export class IotanalyticsPipelinePipelineActivitiesChannelOutputReference extend
   }
 
   // channel_name - computed: true, optional: true, required: false
-  private _channelName?: string;
+  private _channelName?: string; 
   public get channelName() {
     return this.getStringAttribute('channel_name');
   }
@@ -309,7 +309,7 @@ export class IotanalyticsPipelinePipelineActivitiesChannelOutputReference extend
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -325,7 +325,7 @@ export class IotanalyticsPipelinePipelineActivitiesChannelOutputReference extend
   }
 
   // next - computed: true, optional: true, required: false
-  private _next?: string;
+  private _next?: string; 
   public get next() {
     return this.getStringAttribute('next');
   }
@@ -436,7 +436,7 @@ export class IotanalyticsPipelinePipelineActivitiesDatastoreOutputReference exte
   }
 
   // datastore_name - computed: true, optional: true, required: false
-  private _datastoreName?: string;
+  private _datastoreName?: string; 
   public get datastoreName() {
     return this.getStringAttribute('datastore_name');
   }
@@ -452,7 +452,7 @@ export class IotanalyticsPipelinePipelineActivitiesDatastoreOutputReference exte
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -614,7 +614,7 @@ export class IotanalyticsPipelinePipelineActivitiesDeviceRegistryEnrichOutputRef
   }
 
   // attribute - computed: true, optional: true, required: false
-  private _attribute?: string;
+  private _attribute?: string; 
   public get attribute() {
     return this.getStringAttribute('attribute');
   }
@@ -630,7 +630,7 @@ export class IotanalyticsPipelinePipelineActivitiesDeviceRegistryEnrichOutputRef
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -646,7 +646,7 @@ export class IotanalyticsPipelinePipelineActivitiesDeviceRegistryEnrichOutputRef
   }
 
   // next - computed: true, optional: true, required: false
-  private _next?: string;
+  private _next?: string; 
   public get next() {
     return this.getStringAttribute('next');
   }
@@ -662,7 +662,7 @@ export class IotanalyticsPipelinePipelineActivitiesDeviceRegistryEnrichOutputRef
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -678,7 +678,7 @@ export class IotanalyticsPipelinePipelineActivitiesDeviceRegistryEnrichOutputRef
   }
 
   // thing_name - computed: true, optional: true, required: false
-  private _thingName?: string;
+  private _thingName?: string; 
   public get thingName() {
     return this.getStringAttribute('thing_name');
   }
@@ -840,7 +840,7 @@ export class IotanalyticsPipelinePipelineActivitiesDeviceShadowEnrichOutputRefer
   }
 
   // attribute - computed: true, optional: true, required: false
-  private _attribute?: string;
+  private _attribute?: string; 
   public get attribute() {
     return this.getStringAttribute('attribute');
   }
@@ -856,7 +856,7 @@ export class IotanalyticsPipelinePipelineActivitiesDeviceShadowEnrichOutputRefer
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -872,7 +872,7 @@ export class IotanalyticsPipelinePipelineActivitiesDeviceShadowEnrichOutputRefer
   }
 
   // next - computed: true, optional: true, required: false
-  private _next?: string;
+  private _next?: string; 
   public get next() {
     return this.getStringAttribute('next');
   }
@@ -888,7 +888,7 @@ export class IotanalyticsPipelinePipelineActivitiesDeviceShadowEnrichOutputRefer
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -904,7 +904,7 @@ export class IotanalyticsPipelinePipelineActivitiesDeviceShadowEnrichOutputRefer
   }
 
   // thing_name - computed: true, optional: true, required: false
-  private _thingName?: string;
+  private _thingName?: string; 
   public get thingName() {
     return this.getStringAttribute('thing_name');
   }
@@ -1032,7 +1032,7 @@ export class IotanalyticsPipelinePipelineActivitiesFilterOutputReference extends
   }
 
   // filter - computed: true, optional: true, required: false
-  private _filter?: string;
+  private _filter?: string; 
   public get filter() {
     return this.getStringAttribute('filter');
   }
@@ -1048,7 +1048,7 @@ export class IotanalyticsPipelinePipelineActivitiesFilterOutputReference extends
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1064,7 +1064,7 @@ export class IotanalyticsPipelinePipelineActivitiesFilterOutputReference extends
   }
 
   // next - computed: true, optional: true, required: false
-  private _next?: string;
+  private _next?: string; 
   public get next() {
     return this.getStringAttribute('next');
   }
@@ -1209,7 +1209,7 @@ export class IotanalyticsPipelinePipelineActivitiesLambdaOutputReference extends
   }
 
   // batch_size - computed: true, optional: true, required: false
-  private _batchSize?: number;
+  private _batchSize?: number; 
   public get batchSize() {
     return this.getNumberAttribute('batch_size');
   }
@@ -1225,7 +1225,7 @@ export class IotanalyticsPipelinePipelineActivitiesLambdaOutputReference extends
   }
 
   // lambda_name - computed: true, optional: true, required: false
-  private _lambdaName?: string;
+  private _lambdaName?: string; 
   public get lambdaName() {
     return this.getStringAttribute('lambda_name');
   }
@@ -1241,7 +1241,7 @@ export class IotanalyticsPipelinePipelineActivitiesLambdaOutputReference extends
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1257,7 +1257,7 @@ export class IotanalyticsPipelinePipelineActivitiesLambdaOutputReference extends
   }
 
   // next - computed: true, optional: true, required: false
-  private _next?: string;
+  private _next?: string; 
   public get next() {
     return this.getStringAttribute('next');
   }
@@ -1402,7 +1402,7 @@ export class IotanalyticsPipelinePipelineActivitiesMathOutputReference extends c
   }
 
   // attribute - computed: true, optional: true, required: false
-  private _attribute?: string;
+  private _attribute?: string; 
   public get attribute() {
     return this.getStringAttribute('attribute');
   }
@@ -1418,7 +1418,7 @@ export class IotanalyticsPipelinePipelineActivitiesMathOutputReference extends c
   }
 
   // math - computed: true, optional: true, required: false
-  private _math?: string;
+  private _math?: string; 
   public get math() {
     return this.getStringAttribute('math');
   }
@@ -1434,7 +1434,7 @@ export class IotanalyticsPipelinePipelineActivitiesMathOutputReference extends c
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1450,7 +1450,7 @@ export class IotanalyticsPipelinePipelineActivitiesMathOutputReference extends c
   }
 
   // next - computed: true, optional: true, required: false
-  private _next?: string;
+  private _next?: string; 
   public get next() {
     return this.getStringAttribute('next');
   }
@@ -1578,7 +1578,7 @@ export class IotanalyticsPipelinePipelineActivitiesRemoveAttributesOutputReferen
   }
 
   // attributes - computed: true, optional: true, required: false
-  private _attributes?: string[];
+  private _attributes?: string[]; 
   public get attributes() {
     return this.getListAttribute('attributes');
   }
@@ -1594,7 +1594,7 @@ export class IotanalyticsPipelinePipelineActivitiesRemoveAttributesOutputReferen
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1610,7 +1610,7 @@ export class IotanalyticsPipelinePipelineActivitiesRemoveAttributesOutputReferen
   }
 
   // next - computed: true, optional: true, required: false
-  private _next?: string;
+  private _next?: string; 
   public get next() {
     return this.getStringAttribute('next');
   }
@@ -1738,7 +1738,7 @@ export class IotanalyticsPipelinePipelineActivitiesSelectAttributesOutputReferen
   }
 
   // attributes - computed: true, optional: true, required: false
-  private _attributes?: string[];
+  private _attributes?: string[]; 
   public get attributes() {
     return this.getListAttribute('attributes');
   }
@@ -1754,7 +1754,7 @@ export class IotanalyticsPipelinePipelineActivitiesSelectAttributesOutputReferen
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1770,7 +1770,7 @@ export class IotanalyticsPipelinePipelineActivitiesSelectAttributesOutputReferen
   }
 
   // next - computed: true, optional: true, required: false
-  private _next?: string;
+  private _next?: string; 
   public get next() {
     return this.getStringAttribute('next');
   }
@@ -2296,7 +2296,7 @@ export class IotanalyticsPipelineTagsOutputReference extends cdktn.ComplexObject
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -2312,7 +2312,7 @@ export class IotanalyticsPipelineTagsOutputReference extends cdktn.ComplexObject
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2431,7 +2431,7 @@ export class IotanalyticsPipeline extends cdktn.TerraformResource {
   }
 
   // pipeline_name - computed: true, optional: true, required: false
-  private _pipelineName?: string;
+  private _pipelineName?: string; 
   public get pipelineName() {
     return this.getStringAttribute('pipeline_name');
   }

@@ -141,7 +141,7 @@ export class ApprunnerServiceEncryptionConfigurationOutputReference extends cdkt
   }
 
   // kms_key - computed: true, optional: true, required: false
-  private _kmsKey?: string;
+  private _kmsKey?: string; 
   public get kmsKey() {
     return this.getStringAttribute('kms_key');
   }
@@ -332,7 +332,7 @@ export class ApprunnerServiceHealthCheckConfigurationOutputReference extends cdk
   }
 
   // healthy_threshold - computed: true, optional: true, required: false
-  private _healthyThreshold?: number;
+  private _healthyThreshold?: number; 
   public get healthyThreshold() {
     return this.getNumberAttribute('healthy_threshold');
   }
@@ -348,7 +348,7 @@ export class ApprunnerServiceHealthCheckConfigurationOutputReference extends cdk
   }
 
   // interval - computed: true, optional: true, required: false
-  private _interval?: number;
+  private _interval?: number; 
   public get interval() {
     return this.getNumberAttribute('interval');
   }
@@ -364,7 +364,7 @@ export class ApprunnerServiceHealthCheckConfigurationOutputReference extends cdk
   }
 
   // path - computed: true, optional: true, required: false
-  private _path?: string;
+  private _path?: string; 
   public get path() {
     return this.getStringAttribute('path');
   }
@@ -380,7 +380,7 @@ export class ApprunnerServiceHealthCheckConfigurationOutputReference extends cdk
   }
 
   // protocol - computed: true, optional: true, required: false
-  private _protocol?: string;
+  private _protocol?: string; 
   public get protocol() {
     return this.getStringAttribute('protocol');
   }
@@ -396,7 +396,7 @@ export class ApprunnerServiceHealthCheckConfigurationOutputReference extends cdk
   }
 
   // timeout - computed: true, optional: true, required: false
-  private _timeout?: number;
+  private _timeout?: number; 
   public get timeout() {
     return this.getNumberAttribute('timeout');
   }
@@ -412,7 +412,7 @@ export class ApprunnerServiceHealthCheckConfigurationOutputReference extends cdk
   }
 
   // unhealthy_threshold - computed: true, optional: true, required: false
-  private _unhealthyThreshold?: number;
+  private _unhealthyThreshold?: number; 
   public get unhealthyThreshold() {
     return this.getNumberAttribute('unhealthy_threshold');
   }
@@ -546,7 +546,7 @@ export class ApprunnerServiceInstanceConfigurationOutputReference extends cdktn.
   }
 
   // cpu - computed: true, optional: true, required: false
-  private _cpu?: string;
+  private _cpu?: string; 
   public get cpu() {
     return this.getStringAttribute('cpu');
   }
@@ -562,7 +562,7 @@ export class ApprunnerServiceInstanceConfigurationOutputReference extends cdktn.
   }
 
   // instance_role_arn - computed: true, optional: true, required: false
-  private _instanceRoleArn?: string;
+  private _instanceRoleArn?: string; 
   public get instanceRoleArn() {
     return this.getStringAttribute('instance_role_arn');
   }
@@ -578,7 +578,7 @@ export class ApprunnerServiceInstanceConfigurationOutputReference extends cdktn.
   }
 
   // memory - computed: true, optional: true, required: false
-  private _memory?: string;
+  private _memory?: string; 
   public get memory() {
     return this.getStringAttribute('memory');
   }
@@ -693,7 +693,7 @@ export class ApprunnerServiceNetworkConfigurationEgressConfigurationOutputRefere
   }
 
   // egress_type - computed: true, optional: true, required: false
-  private _egressType?: string;
+  private _egressType?: string; 
   public get egressType() {
     return this.getStringAttribute('egress_type');
   }
@@ -709,7 +709,7 @@ export class ApprunnerServiceNetworkConfigurationEgressConfigurationOutputRefere
   }
 
   // vpc_connector_arn - computed: true, optional: true, required: false
-  private _vpcConnectorArn?: string;
+  private _vpcConnectorArn?: string; 
   public get vpcConnectorArn() {
     return this.getStringAttribute('vpc_connector_arn');
   }
@@ -805,7 +805,7 @@ export class ApprunnerServiceNetworkConfigurationIngressConfigurationOutputRefer
   }
 
   // is_publicly_accessible - computed: true, optional: true, required: false
-  private _isPubliclyAccessible?: boolean | cdktn.IResolvable;
+  private _isPubliclyAccessible?: boolean | cdktn.IResolvable; 
   public get isPubliclyAccessible() {
     return this.getBooleanAttribute('is_publicly_accessible');
   }
@@ -971,7 +971,7 @@ export class ApprunnerServiceNetworkConfigurationOutputReference extends cdktn.C
   }
 
   // ip_address_type - computed: true, optional: true, required: false
-  private _ipAddressType?: string;
+  private _ipAddressType?: string; 
   public get ipAddressType() {
     return this.getStringAttribute('ip_address_type');
   }
@@ -1086,7 +1086,7 @@ export class ApprunnerServiceObservabilityConfigurationOutputReference extends c
   }
 
   // observability_configuration_arn - computed: true, optional: true, required: false
-  private _observabilityConfigurationArn?: string;
+  private _observabilityConfigurationArn?: string; 
   public get observabilityConfigurationArn() {
     return this.getStringAttribute('observability_configuration_arn');
   }
@@ -1102,7 +1102,7 @@ export class ApprunnerServiceObservabilityConfigurationOutputReference extends c
   }
 
   // observability_enabled - computed: true, optional: true, required: false
-  private _observabilityEnabled?: boolean | cdktn.IResolvable;
+  private _observabilityEnabled?: boolean | cdktn.IResolvable; 
   public get observabilityEnabled() {
     return this.getBooleanAttribute('observability_enabled');
   }
@@ -1217,7 +1217,7 @@ export class ApprunnerServiceSourceConfigurationAuthenticationConfigurationOutpu
   }
 
   // access_role_arn - computed: true, optional: true, required: false
-  private _accessRoleArn?: string;
+  private _accessRoleArn?: string; 
   public get accessRoleArn() {
     return this.getStringAttribute('access_role_arn');
   }
@@ -1233,7 +1233,7 @@ export class ApprunnerServiceSourceConfigurationAuthenticationConfigurationOutpu
   }
 
   // connection_arn - computed: true, optional: true, required: false
-  private _connectionArn?: string;
+  private _connectionArn?: string; 
   public get connectionArn() {
     return this.getStringAttribute('connection_arn');
   }
@@ -1346,7 +1346,7 @@ export class ApprunnerServiceSourceConfigurationCodeRepositoryCodeConfigurationC
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1362,7 +1362,7 @@ export class ApprunnerServiceSourceConfigurationCodeRepositoryCodeConfigurationC
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1495,7 +1495,7 @@ export class ApprunnerServiceSourceConfigurationCodeRepositoryCodeConfigurationC
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1511,7 +1511,7 @@ export class ApprunnerServiceSourceConfigurationCodeRepositoryCodeConfigurationC
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1720,7 +1720,7 @@ export class ApprunnerServiceSourceConfigurationCodeRepositoryCodeConfigurationC
   }
 
   // build_command - computed: true, optional: true, required: false
-  private _buildCommand?: string;
+  private _buildCommand?: string; 
   public get buildCommand() {
     return this.getStringAttribute('build_command');
   }
@@ -1736,7 +1736,7 @@ export class ApprunnerServiceSourceConfigurationCodeRepositoryCodeConfigurationC
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: string;
+  private _port?: string; 
   public get port() {
     return this.getStringAttribute('port');
   }
@@ -1752,7 +1752,7 @@ export class ApprunnerServiceSourceConfigurationCodeRepositoryCodeConfigurationC
   }
 
   // runtime - computed: true, optional: true, required: false
-  private _runtime?: string;
+  private _runtime?: string; 
   public get runtime() {
     return this.getStringAttribute('runtime');
   }
@@ -1800,7 +1800,7 @@ export class ApprunnerServiceSourceConfigurationCodeRepositoryCodeConfigurationC
   }
 
   // start_command - computed: true, optional: true, required: false
-  private _startCommand?: string;
+  private _startCommand?: string; 
   public get startCommand() {
     return this.getStringAttribute('start_command');
   }
@@ -1931,7 +1931,7 @@ export class ApprunnerServiceSourceConfigurationCodeRepositoryCodeConfigurationO
   }
 
   // configuration_source - computed: true, optional: true, required: false
-  private _configurationSource?: string;
+  private _configurationSource?: string; 
   public get configurationSource() {
     return this.getStringAttribute('configuration_source');
   }
@@ -2046,7 +2046,7 @@ export class ApprunnerServiceSourceConfigurationCodeRepositorySourceCodeVersionO
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -2062,7 +2062,7 @@ export class ApprunnerServiceSourceConfigurationCodeRepositorySourceCodeVersionO
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2231,7 +2231,7 @@ export class ApprunnerServiceSourceConfigurationCodeRepositoryOutputReference ex
   }
 
   // repository_url - computed: true, optional: true, required: false
-  private _repositoryUrl?: string;
+  private _repositoryUrl?: string; 
   public get repositoryUrl() {
     return this.getStringAttribute('repository_url');
   }
@@ -2263,7 +2263,7 @@ export class ApprunnerServiceSourceConfigurationCodeRepositoryOutputReference ex
   }
 
   // source_directory - computed: true, optional: true, required: false
-  private _sourceDirectory?: string;
+  private _sourceDirectory?: string; 
   public get sourceDirectory() {
     return this.getStringAttribute('source_directory');
   }
@@ -2376,7 +2376,7 @@ export class ApprunnerServiceSourceConfigurationImageRepositoryImageConfiguratio
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2392,7 +2392,7 @@ export class ApprunnerServiceSourceConfigurationImageRepositoryImageConfiguratio
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2525,7 +2525,7 @@ export class ApprunnerServiceSourceConfigurationImageRepositoryImageConfiguratio
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2541,7 +2541,7 @@ export class ApprunnerServiceSourceConfigurationImageRepositoryImageConfiguratio
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2712,7 +2712,7 @@ export class ApprunnerServiceSourceConfigurationImageRepositoryImageConfiguratio
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: string;
+  private _port?: string; 
   public get port() {
     return this.getStringAttribute('port');
   }
@@ -2760,7 +2760,7 @@ export class ApprunnerServiceSourceConfigurationImageRepositoryImageConfiguratio
   }
 
   // start_command - computed: true, optional: true, required: false
-  private _startCommand?: string;
+  private _startCommand?: string; 
   public get startCommand() {
     return this.getStringAttribute('start_command');
   }
@@ -2910,7 +2910,7 @@ export class ApprunnerServiceSourceConfigurationImageRepositoryOutputReference e
   }
 
   // image_identifier - computed: true, optional: true, required: false
-  private _imageIdentifier?: string;
+  private _imageIdentifier?: string; 
   public get imageIdentifier() {
     return this.getStringAttribute('image_identifier');
   }
@@ -2926,7 +2926,7 @@ export class ApprunnerServiceSourceConfigurationImageRepositoryOutputReference e
   }
 
   // image_repository_type - computed: true, optional: true, required: false
-  private _imageRepositoryType?: string;
+  private _imageRepositoryType?: string; 
   public get imageRepositoryType() {
     return this.getStringAttribute('image_repository_type');
   }
@@ -3095,7 +3095,7 @@ export class ApprunnerServiceSourceConfigurationOutputReference extends cdktn.Co
   }
 
   // auto_deployments_enabled - computed: true, optional: true, required: false
-  private _autoDeploymentsEnabled?: boolean | cdktn.IResolvable;
+  private _autoDeploymentsEnabled?: boolean | cdktn.IResolvable; 
   public get autoDeploymentsEnabled() {
     return this.getBooleanAttribute('auto_deployments_enabled');
   }
@@ -3240,7 +3240,7 @@ export class ApprunnerServiceTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -3256,7 +3256,7 @@ export class ApprunnerServiceTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -3358,7 +3358,7 @@ export class ApprunnerService extends cdktn.TerraformResource {
   // ==========
 
   // auto_scaling_configuration_arn - computed: true, optional: true, required: false
-  private _autoScalingConfigurationArn?: string;
+  private _autoScalingConfigurationArn?: string; 
   public get autoScalingConfigurationArn() {
     return this.getStringAttribute('auto_scaling_configuration_arn');
   }
@@ -3469,7 +3469,7 @@ export class ApprunnerService extends cdktn.TerraformResource {
   }
 
   // service_name - computed: true, optional: true, required: false
-  private _serviceName?: string;
+  private _serviceName?: string; 
   public get serviceName() {
     return this.getStringAttribute('service_name');
   }

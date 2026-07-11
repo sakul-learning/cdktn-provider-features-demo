@@ -155,7 +155,7 @@ export class EbsSnapshotTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -171,7 +171,7 @@ export class EbsSnapshotTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -265,7 +265,7 @@ export class EbsSnapshot extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -286,7 +286,7 @@ export class EbsSnapshot extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -307,7 +307,7 @@ export class EbsSnapshot extends cdktn.TerraformResource {
   }
 
   // outpost_arn - computed: false, optional: true, required: false
-  private _outpostArn?: string;
+  private _outpostArn?: string; 
   public get outpostArn() {
     return this.getStringAttribute('outpost_arn');
   }
@@ -333,7 +333,7 @@ export class EbsSnapshot extends cdktn.TerraformResource {
   }
 
   // permanent_restore - computed: false, optional: true, required: false
-  private _permanentRestore?: boolean | cdktn.IResolvable;
+  private _permanentRestore?: boolean | cdktn.IResolvable; 
   public get permanentRestore() {
     return this.getBooleanAttribute('permanent_restore');
   }
@@ -349,7 +349,7 @@ export class EbsSnapshot extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -365,7 +365,7 @@ export class EbsSnapshot extends cdktn.TerraformResource {
   }
 
   // storage_tier - computed: true, optional: true, required: false
-  private _storageTier?: string;
+  private _storageTier?: string; 
   public get storageTier() {
     return this.getStringAttribute('storage_tier');
   }
@@ -381,7 +381,7 @@ export class EbsSnapshot extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -397,7 +397,7 @@ export class EbsSnapshot extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -413,7 +413,7 @@ export class EbsSnapshot extends cdktn.TerraformResource {
   }
 
   // temporary_restore_days - computed: false, optional: true, required: false
-  private _temporaryRestoreDays?: number;
+  private _temporaryRestoreDays?: number; 
   public get temporaryRestoreDays() {
     return this.getNumberAttribute('temporary_restore_days');
   }
@@ -429,7 +429,7 @@ export class EbsSnapshot extends cdktn.TerraformResource {
   }
 
   // volume_id - computed: false, optional: false, required: true
-  private _volumeId?: string;
+  private _volumeId?: string; 
   public get volumeId() {
     return this.getStringAttribute('volume_id');
   }

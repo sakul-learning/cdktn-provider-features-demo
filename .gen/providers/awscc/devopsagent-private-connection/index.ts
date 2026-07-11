@@ -113,7 +113,7 @@ export class DevopsagentPrivateConnectionConnectionConfigurationSelfManagedOutpu
   }
 
   // resource_configuration_id - computed: true, optional: true, required: false
-  private _resourceConfigurationId?: string;
+  private _resourceConfigurationId?: string; 
   public get resourceConfigurationId() {
     return this.getStringAttribute('resource_configuration_id');
   }
@@ -323,7 +323,7 @@ export class DevopsagentPrivateConnectionConnectionConfigurationServiceManagedOu
   }
 
   // host_address - computed: true, optional: true, required: false
-  private _hostAddress?: string;
+  private _hostAddress?: string; 
   public get hostAddress() {
     return this.getStringAttribute('host_address');
   }
@@ -339,7 +339,7 @@ export class DevopsagentPrivateConnectionConnectionConfigurationServiceManagedOu
   }
 
   // ip_address_type - computed: true, optional: true, required: false
-  private _ipAddressType?: string;
+  private _ipAddressType?: string; 
   public get ipAddressType() {
     return this.getStringAttribute('ip_address_type');
   }
@@ -355,7 +355,7 @@ export class DevopsagentPrivateConnectionConnectionConfigurationServiceManagedOu
   }
 
   // ipv_4_addresses_per_eni - computed: true, optional: true, required: false
-  private _ipv4AddressesPerEni?: number;
+  private _ipv4AddressesPerEni?: number; 
   public get ipv4AddressesPerEni() {
     return this.getNumberAttribute('ipv_4_addresses_per_eni');
   }
@@ -371,7 +371,7 @@ export class DevopsagentPrivateConnectionConnectionConfigurationServiceManagedOu
   }
 
   // port_ranges - computed: true, optional: true, required: false
-  private _portRanges?: string[];
+  private _portRanges?: string[]; 
   public get portRanges() {
     return this.getListAttribute('port_ranges');
   }
@@ -387,7 +387,7 @@ export class DevopsagentPrivateConnectionConnectionConfigurationServiceManagedOu
   }
 
   // security_group_ids - computed: true, optional: true, required: false
-  private _securityGroupIds?: string[];
+  private _securityGroupIds?: string[]; 
   public get securityGroupIds() {
     return this.getListAttribute('security_group_ids');
   }
@@ -403,7 +403,7 @@ export class DevopsagentPrivateConnectionConnectionConfigurationServiceManagedOu
   }
 
   // subnet_ids - computed: true, optional: true, required: false
-  private _subnetIds?: string[];
+  private _subnetIds?: string[]; 
   public get subnetIds() {
     return this.getListAttribute('subnet_ids');
   }
@@ -419,7 +419,7 @@ export class DevopsagentPrivateConnectionConnectionConfigurationServiceManagedOu
   }
 
   // vpc_id - computed: true, optional: true, required: false
-  private _vpcId?: string;
+  private _vpcId?: string; 
   public get vpcId() {
     return this.getStringAttribute('vpc_id');
   }
@@ -667,7 +667,7 @@ export class DevopsagentPrivateConnectionTagsOutputReference extends cdktn.Compl
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -683,7 +683,7 @@ export class DevopsagentPrivateConnectionTagsOutputReference extends cdktn.Compl
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -785,7 +785,7 @@ export class DevopsagentPrivateConnection extends cdktn.TerraformResource {
   }
 
   // certificate - computed: true, optional: true, required: false
-  private _certificate?: string;
+  private _certificate?: string; 
   public get certificate() {
     return this.getStringAttribute('certificate');
   }
@@ -824,7 +824,7 @@ export class DevopsagentPrivateConnection extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }

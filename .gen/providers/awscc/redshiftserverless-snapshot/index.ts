@@ -229,7 +229,7 @@ export class RedshiftserverlessSnapshotTagsOutputReference extends cdktn.Complex
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -245,7 +245,7 @@ export class RedshiftserverlessSnapshotTagsOutputReference extends cdktn.Complex
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -347,7 +347,7 @@ export class RedshiftserverlessSnapshot extends cdktn.TerraformResource {
   }
 
   // namespace_name - computed: true, optional: true, required: false
-  private _namespaceName?: string;
+  private _namespaceName?: string; 
   public get namespaceName() {
     return this.getStringAttribute('namespace_name');
   }
@@ -368,7 +368,7 @@ export class RedshiftserverlessSnapshot extends cdktn.TerraformResource {
   }
 
   // retention_period - computed: true, optional: true, required: false
-  private _retentionPeriod?: number;
+  private _retentionPeriod?: number; 
   public get retentionPeriod() {
     return this.getNumberAttribute('retention_period');
   }
@@ -390,7 +390,7 @@ export class RedshiftserverlessSnapshot extends cdktn.TerraformResource {
   }
 
   // snapshot_name - computed: false, optional: false, required: true
-  private _snapshotName?: string;
+  private _snapshotName?: string; 
   public get snapshotName() {
     return this.getStringAttribute('snapshot_name');
   }

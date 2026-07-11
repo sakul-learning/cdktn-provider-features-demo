@@ -101,7 +101,7 @@ export class Ec2LocalGatewayRouteTableVpcAssociation extends cdktn.TerraformReso
   // ==========
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -122,7 +122,7 @@ export class Ec2LocalGatewayRouteTableVpcAssociation extends cdktn.TerraformReso
   }
 
   // local_gateway_route_table_id - computed: false, optional: false, required: true
-  private _localGatewayRouteTableId?: string;
+  private _localGatewayRouteTableId?: string; 
   public get localGatewayRouteTableId() {
     return this.getStringAttribute('local_gateway_route_table_id');
   }
@@ -135,7 +135,7 @@ export class Ec2LocalGatewayRouteTableVpcAssociation extends cdktn.TerraformReso
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -151,7 +151,7 @@ export class Ec2LocalGatewayRouteTableVpcAssociation extends cdktn.TerraformReso
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -167,7 +167,7 @@ export class Ec2LocalGatewayRouteTableVpcAssociation extends cdktn.TerraformReso
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -183,7 +183,7 @@ export class Ec2LocalGatewayRouteTableVpcAssociation extends cdktn.TerraformReso
   }
 
   // vpc_id - computed: false, optional: false, required: true
-  private _vpcId?: string;
+  private _vpcId?: string; 
   public get vpcId() {
     return this.getStringAttribute('vpc_id');
   }

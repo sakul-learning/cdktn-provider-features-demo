@@ -113,7 +113,7 @@ export class EventsEndpointEventBusesOutputReference extends cdktn.ComplexObject
   }
 
   // event_bus_arn - computed: false, optional: false, required: true
-  private _eventBusArn?: string;
+  private _eventBusArn?: string; 
   public get eventBusArn() {
     return this.getStringAttribute('event_bus_arn');
   }
@@ -224,7 +224,7 @@ export class EventsEndpointReplicationConfigOutputReference extends cdktn.Comple
   }
 
   // state - computed: true, optional: true, required: false
-  private _state?: string;
+  private _state?: string; 
   public get state() {
     return this.getStringAttribute('state');
   }
@@ -318,7 +318,7 @@ export class EventsEndpointRoutingConfigFailoverConfigPrimaryOutputReference ext
   }
 
   // health_check - computed: false, optional: false, required: true
-  private _healthCheck?: string;
+  private _healthCheck?: string; 
   public get healthCheck() {
     return this.getStringAttribute('health_check');
   }
@@ -409,7 +409,7 @@ export class EventsEndpointRoutingConfigFailoverConfigSecondaryOutputReference e
   }
 
   // route - computed: false, optional: false, required: true
-  private _route?: string;
+  private _route?: string; 
   public get route() {
     return this.getStringAttribute('route');
   }
@@ -702,7 +702,7 @@ export class EventsEndpoint extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -746,7 +746,7 @@ export class EventsEndpoint extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -778,7 +778,7 @@ export class EventsEndpoint extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }

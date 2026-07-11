@@ -111,7 +111,7 @@ export class WafSizeConstraintSetSizeConstraintsFieldToMatchOutputReference exte
   }
 
   // data - computed: false, optional: true, required: false
-  private _data?: string;
+  private _data?: string; 
   public get data() {
     return this.getStringAttribute('data');
   }
@@ -127,7 +127,7 @@ export class WafSizeConstraintSetSizeConstraintsFieldToMatchOutputReference exte
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -273,7 +273,7 @@ export class WafSizeConstraintSetSizeConstraintsOutputReference extends cdktn.Co
   }
 
   // comparison_operator - computed: false, optional: false, required: true
-  private _comparisonOperator?: string;
+  private _comparisonOperator?: string; 
   public get comparisonOperator() {
     return this.getStringAttribute('comparison_operator');
   }
@@ -286,7 +286,7 @@ export class WafSizeConstraintSetSizeConstraintsOutputReference extends cdktn.Co
   }
 
   // size - computed: false, optional: false, required: true
-  private _size?: number;
+  private _size?: number; 
   public get size() {
     return this.getNumberAttribute('size');
   }
@@ -299,7 +299,7 @@ export class WafSizeConstraintSetSizeConstraintsOutputReference extends cdktn.Co
   }
 
   // text_transformation - computed: false, optional: false, required: true
-  private _textTransformation?: string;
+  private _textTransformation?: string; 
   public get textTransformation() {
     return this.getStringAttribute('text_transformation');
   }
@@ -410,7 +410,7 @@ export class WafSizeConstraintSet extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -426,7 +426,7 @@ export class WafSizeConstraintSet extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }

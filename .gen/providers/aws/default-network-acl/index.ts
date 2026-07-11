@@ -266,7 +266,7 @@ export class DefaultNetworkAclEgressOutputReference extends cdktn.ComplexObject 
   }
 
   // action - computed: false, optional: false, required: true
-  private _action?: string;
+  private _action?: string; 
   public get action() {
     return this.getStringAttribute('action');
   }
@@ -279,7 +279,7 @@ export class DefaultNetworkAclEgressOutputReference extends cdktn.ComplexObject 
   }
 
   // cidr_block - computed: false, optional: true, required: false
-  private _cidrBlock?: string;
+  private _cidrBlock?: string; 
   public get cidrBlock() {
     return this.getStringAttribute('cidr_block');
   }
@@ -295,7 +295,7 @@ export class DefaultNetworkAclEgressOutputReference extends cdktn.ComplexObject 
   }
 
   // from_port - computed: false, optional: false, required: true
-  private _fromPort?: number;
+  private _fromPort?: number; 
   public get fromPort() {
     return this.getNumberAttribute('from_port');
   }
@@ -308,7 +308,7 @@ export class DefaultNetworkAclEgressOutputReference extends cdktn.ComplexObject 
   }
 
   // icmp_code - computed: false, optional: true, required: false
-  private _icmpCode?: number;
+  private _icmpCode?: number; 
   public get icmpCode() {
     return this.getNumberAttribute('icmp_code');
   }
@@ -324,7 +324,7 @@ export class DefaultNetworkAclEgressOutputReference extends cdktn.ComplexObject 
   }
 
   // icmp_type - computed: false, optional: true, required: false
-  private _icmpType?: number;
+  private _icmpType?: number; 
   public get icmpType() {
     return this.getNumberAttribute('icmp_type');
   }
@@ -340,7 +340,7 @@ export class DefaultNetworkAclEgressOutputReference extends cdktn.ComplexObject 
   }
 
   // ipv6_cidr_block - computed: false, optional: true, required: false
-  private _ipv6CidrBlock?: string;
+  private _ipv6CidrBlock?: string; 
   public get ipv6CidrBlock() {
     return this.getStringAttribute('ipv6_cidr_block');
   }
@@ -356,7 +356,7 @@ export class DefaultNetworkAclEgressOutputReference extends cdktn.ComplexObject 
   }
 
   // protocol - computed: false, optional: false, required: true
-  private _protocol?: string;
+  private _protocol?: string; 
   public get protocol() {
     return this.getStringAttribute('protocol');
   }
@@ -369,7 +369,7 @@ export class DefaultNetworkAclEgressOutputReference extends cdktn.ComplexObject 
   }
 
   // rule_no - computed: false, optional: false, required: true
-  private _ruleNo?: number;
+  private _ruleNo?: number; 
   public get ruleNo() {
     return this.getNumberAttribute('rule_no');
   }
@@ -382,7 +382,7 @@ export class DefaultNetworkAclEgressOutputReference extends cdktn.ComplexObject 
   }
 
   // to_port - computed: false, optional: false, required: true
-  private _toPort?: number;
+  private _toPort?: number; 
   public get toPort() {
     return this.getNumberAttribute('to_port');
   }
@@ -631,7 +631,7 @@ export class DefaultNetworkAclIngressOutputReference extends cdktn.ComplexObject
   }
 
   // action - computed: false, optional: false, required: true
-  private _action?: string;
+  private _action?: string; 
   public get action() {
     return this.getStringAttribute('action');
   }
@@ -644,7 +644,7 @@ export class DefaultNetworkAclIngressOutputReference extends cdktn.ComplexObject
   }
 
   // cidr_block - computed: false, optional: true, required: false
-  private _cidrBlock?: string;
+  private _cidrBlock?: string; 
   public get cidrBlock() {
     return this.getStringAttribute('cidr_block');
   }
@@ -660,7 +660,7 @@ export class DefaultNetworkAclIngressOutputReference extends cdktn.ComplexObject
   }
 
   // from_port - computed: false, optional: false, required: true
-  private _fromPort?: number;
+  private _fromPort?: number; 
   public get fromPort() {
     return this.getNumberAttribute('from_port');
   }
@@ -673,7 +673,7 @@ export class DefaultNetworkAclIngressOutputReference extends cdktn.ComplexObject
   }
 
   // icmp_code - computed: false, optional: true, required: false
-  private _icmpCode?: number;
+  private _icmpCode?: number; 
   public get icmpCode() {
     return this.getNumberAttribute('icmp_code');
   }
@@ -689,7 +689,7 @@ export class DefaultNetworkAclIngressOutputReference extends cdktn.ComplexObject
   }
 
   // icmp_type - computed: false, optional: true, required: false
-  private _icmpType?: number;
+  private _icmpType?: number; 
   public get icmpType() {
     return this.getNumberAttribute('icmp_type');
   }
@@ -705,7 +705,7 @@ export class DefaultNetworkAclIngressOutputReference extends cdktn.ComplexObject
   }
 
   // ipv6_cidr_block - computed: false, optional: true, required: false
-  private _ipv6CidrBlock?: string;
+  private _ipv6CidrBlock?: string; 
   public get ipv6CidrBlock() {
     return this.getStringAttribute('ipv6_cidr_block');
   }
@@ -721,7 +721,7 @@ export class DefaultNetworkAclIngressOutputReference extends cdktn.ComplexObject
   }
 
   // protocol - computed: false, optional: false, required: true
-  private _protocol?: string;
+  private _protocol?: string; 
   public get protocol() {
     return this.getStringAttribute('protocol');
   }
@@ -734,7 +734,7 @@ export class DefaultNetworkAclIngressOutputReference extends cdktn.ComplexObject
   }
 
   // rule_no - computed: false, optional: false, required: true
-  private _ruleNo?: number;
+  private _ruleNo?: number; 
   public get ruleNo() {
     return this.getNumberAttribute('rule_no');
   }
@@ -747,7 +747,7 @@ export class DefaultNetworkAclIngressOutputReference extends cdktn.ComplexObject
   }
 
   // to_port - computed: false, optional: false, required: true
-  private _toPort?: number;
+  private _toPort?: number; 
   public get toPort() {
     return this.getNumberAttribute('to_port');
   }
@@ -850,7 +850,7 @@ export class DefaultNetworkAcl extends cdktn.TerraformResource {
   }
 
   // default_network_acl_id - computed: false, optional: false, required: true
-  private _defaultNetworkAclId?: string;
+  private _defaultNetworkAclId?: string; 
   public get defaultNetworkAclId() {
     return this.getStringAttribute('default_network_acl_id');
   }
@@ -863,7 +863,7 @@ export class DefaultNetworkAcl extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -884,7 +884,7 @@ export class DefaultNetworkAcl extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -900,7 +900,7 @@ export class DefaultNetworkAcl extends cdktn.TerraformResource {
   }
 
   // subnet_ids - computed: false, optional: true, required: false
-  private _subnetIds?: string[];
+  private _subnetIds?: string[]; 
   public get subnetIds() {
     return cdktn.Fn.tolist(this.getListAttribute('subnet_ids'));
   }
@@ -916,7 +916,7 @@ export class DefaultNetworkAcl extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -932,7 +932,7 @@ export class DefaultNetworkAcl extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

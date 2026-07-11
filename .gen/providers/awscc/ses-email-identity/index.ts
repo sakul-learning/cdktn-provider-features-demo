@@ -131,7 +131,7 @@ export class SesEmailIdentityConfigurationSetAttributesOutputReference extends c
   }
 
   // configuration_set_name - computed: true, optional: true, required: false
-  private _configurationSetName?: string;
+  private _configurationSetName?: string; 
   public get configurationSetName() {
     return this.getStringAttribute('configuration_set_name');
   }
@@ -227,7 +227,7 @@ export class SesEmailIdentityDkimAttributesOutputReference extends cdktn.Complex
   }
 
   // signing_enabled - computed: true, optional: true, required: false
-  private _signingEnabled?: boolean | cdktn.IResolvable;
+  private _signingEnabled?: boolean | cdktn.IResolvable; 
   public get signingEnabled() {
     return this.getBooleanAttribute('signing_enabled');
   }
@@ -361,7 +361,7 @@ export class SesEmailIdentityDkimSigningAttributesOutputReference extends cdktn.
   }
 
   // domain_signing_private_key - computed: true, optional: true, required: false
-  private _domainSigningPrivateKey?: string;
+  private _domainSigningPrivateKey?: string; 
   public get domainSigningPrivateKey() {
     return this.getStringAttribute('domain_signing_private_key');
   }
@@ -377,7 +377,7 @@ export class SesEmailIdentityDkimSigningAttributesOutputReference extends cdktn.
   }
 
   // domain_signing_selector - computed: true, optional: true, required: false
-  private _domainSigningSelector?: string;
+  private _domainSigningSelector?: string; 
   public get domainSigningSelector() {
     return this.getStringAttribute('domain_signing_selector');
   }
@@ -393,7 +393,7 @@ export class SesEmailIdentityDkimSigningAttributesOutputReference extends cdktn.
   }
 
   // next_signing_key_length - computed: true, optional: true, required: false
-  private _nextSigningKeyLength?: string;
+  private _nextSigningKeyLength?: string; 
   public get nextSigningKeyLength() {
     return this.getStringAttribute('next_signing_key_length');
   }
@@ -489,7 +489,7 @@ export class SesEmailIdentityFeedbackAttributesOutputReference extends cdktn.Com
   }
 
   // email_forwarding_enabled - computed: true, optional: true, required: false
-  private _emailForwardingEnabled?: boolean | cdktn.IResolvable;
+  private _emailForwardingEnabled?: boolean | cdktn.IResolvable; 
   public get emailForwardingEnabled() {
     return this.getBooleanAttribute('email_forwarding_enabled');
   }
@@ -604,7 +604,7 @@ export class SesEmailIdentityMailFromAttributesOutputReference extends cdktn.Com
   }
 
   // behavior_on_mx_failure - computed: true, optional: true, required: false
-  private _behaviorOnMxFailure?: string;
+  private _behaviorOnMxFailure?: string; 
   public get behaviorOnMxFailure() {
     return this.getStringAttribute('behavior_on_mx_failure');
   }
@@ -620,7 +620,7 @@ export class SesEmailIdentityMailFromAttributesOutputReference extends cdktn.Com
   }
 
   // mail_from_domain - computed: true, optional: true, required: false
-  private _mailFromDomain?: string;
+  private _mailFromDomain?: string; 
   public get mailFromDomain() {
     return this.getStringAttribute('mail_from_domain');
   }
@@ -733,7 +733,7 @@ export class SesEmailIdentityTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -749,7 +749,7 @@ export class SesEmailIdentityTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -927,7 +927,7 @@ export class SesEmailIdentity extends cdktn.TerraformResource {
   }
 
   // email_identity - computed: false, optional: false, required: true
-  private _emailIdentity?: string;
+  private _emailIdentity?: string; 
   public get emailIdentity() {
     return this.getStringAttribute('email_identity');
   }

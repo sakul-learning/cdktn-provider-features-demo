@@ -148,7 +148,7 @@ export class FrauddetectorVariableTagsOutputReference extends cdktn.ComplexObjec
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -164,7 +164,7 @@ export class FrauddetectorVariableTagsOutputReference extends cdktn.ComplexObjec
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -274,7 +274,7 @@ export class FrauddetectorVariable extends cdktn.TerraformResource {
   }
 
   // data_source - computed: false, optional: false, required: true
-  private _dataSource?: string;
+  private _dataSource?: string; 
   public get dataSource() {
     return this.getStringAttribute('data_source');
   }
@@ -287,7 +287,7 @@ export class FrauddetectorVariable extends cdktn.TerraformResource {
   }
 
   // data_type - computed: false, optional: false, required: true
-  private _dataType?: string;
+  private _dataType?: string; 
   public get dataType() {
     return this.getStringAttribute('data_type');
   }
@@ -300,7 +300,7 @@ export class FrauddetectorVariable extends cdktn.TerraformResource {
   }
 
   // default_value - computed: false, optional: false, required: true
-  private _defaultValue?: string;
+  private _defaultValue?: string; 
   public get defaultValue() {
     return this.getStringAttribute('default_value');
   }
@@ -313,7 +313,7 @@ export class FrauddetectorVariable extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -339,7 +339,7 @@ export class FrauddetectorVariable extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -368,7 +368,7 @@ export class FrauddetectorVariable extends cdktn.TerraformResource {
   }
 
   // variable_type - computed: true, optional: true, required: false
-  private _variableType?: string;
+  private _variableType?: string; 
   public get variableType() {
     return this.getStringAttribute('variable_type');
   }

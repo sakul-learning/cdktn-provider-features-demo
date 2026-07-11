@@ -162,7 +162,7 @@ export class AppautoscalingTargetSuspendedStateOutputReference extends cdktn.Com
   }
 
   // dynamic_scaling_in_suspended - computed: false, optional: true, required: false
-  private _dynamicScalingInSuspended?: boolean | cdktn.IResolvable;
+  private _dynamicScalingInSuspended?: boolean | cdktn.IResolvable; 
   public get dynamicScalingInSuspended() {
     return this.getBooleanAttribute('dynamic_scaling_in_suspended');
   }
@@ -178,7 +178,7 @@ export class AppautoscalingTargetSuspendedStateOutputReference extends cdktn.Com
   }
 
   // dynamic_scaling_out_suspended - computed: false, optional: true, required: false
-  private _dynamicScalingOutSuspended?: boolean | cdktn.IResolvable;
+  private _dynamicScalingOutSuspended?: boolean | cdktn.IResolvable; 
   public get dynamicScalingOutSuspended() {
     return this.getBooleanAttribute('dynamic_scaling_out_suspended');
   }
@@ -194,7 +194,7 @@ export class AppautoscalingTargetSuspendedStateOutputReference extends cdktn.Com
   }
 
   // scheduled_scaling_suspended - computed: false, optional: true, required: false
-  private _scheduledScalingSuspended?: boolean | cdktn.IResolvable;
+  private _scheduledScalingSuspended?: boolean | cdktn.IResolvable; 
   public get scheduledScalingSuspended() {
     return this.getBooleanAttribute('scheduled_scaling_suspended');
   }
@@ -283,7 +283,7 @@ export class AppautoscalingTarget extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -299,7 +299,7 @@ export class AppautoscalingTarget extends cdktn.TerraformResource {
   }
 
   // max_capacity - computed: false, optional: false, required: true
-  private _maxCapacity?: number;
+  private _maxCapacity?: number; 
   public get maxCapacity() {
     return this.getNumberAttribute('max_capacity');
   }
@@ -312,7 +312,7 @@ export class AppautoscalingTarget extends cdktn.TerraformResource {
   }
 
   // min_capacity - computed: false, optional: false, required: true
-  private _minCapacity?: number;
+  private _minCapacity?: number; 
   public get minCapacity() {
     return this.getNumberAttribute('min_capacity');
   }
@@ -325,7 +325,7 @@ export class AppautoscalingTarget extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -341,7 +341,7 @@ export class AppautoscalingTarget extends cdktn.TerraformResource {
   }
 
   // resource_id - computed: false, optional: false, required: true
-  private _resourceId?: string;
+  private _resourceId?: string; 
   public get resourceId() {
     return this.getStringAttribute('resource_id');
   }
@@ -354,7 +354,7 @@ export class AppautoscalingTarget extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -370,7 +370,7 @@ export class AppautoscalingTarget extends cdktn.TerraformResource {
   }
 
   // scalable_dimension - computed: false, optional: false, required: true
-  private _scalableDimension?: string;
+  private _scalableDimension?: string; 
   public get scalableDimension() {
     return this.getStringAttribute('scalable_dimension');
   }
@@ -383,7 +383,7 @@ export class AppautoscalingTarget extends cdktn.TerraformResource {
   }
 
   // service_namespace - computed: false, optional: false, required: true
-  private _serviceNamespace?: string;
+  private _serviceNamespace?: string; 
   public get serviceNamespace() {
     return this.getStringAttribute('service_namespace');
   }
@@ -396,7 +396,7 @@ export class AppautoscalingTarget extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -412,7 +412,7 @@ export class AppautoscalingTarget extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

@@ -151,7 +151,7 @@ export class NetworkmanagerSiteLocationOutputReference extends cdktn.ComplexObje
   }
 
   // address - computed: true, optional: true, required: false
-  private _address?: string;
+  private _address?: string; 
   public get address() {
     return this.getStringAttribute('address');
   }
@@ -167,7 +167,7 @@ export class NetworkmanagerSiteLocationOutputReference extends cdktn.ComplexObje
   }
 
   // latitude - computed: true, optional: true, required: false
-  private _latitude?: string;
+  private _latitude?: string; 
   public get latitude() {
     return this.getStringAttribute('latitude');
   }
@@ -183,7 +183,7 @@ export class NetworkmanagerSiteLocationOutputReference extends cdktn.ComplexObje
   }
 
   // longitude - computed: true, optional: true, required: false
-  private _longitude?: string;
+  private _longitude?: string; 
   public get longitude() {
     return this.getStringAttribute('longitude');
   }
@@ -300,7 +300,7 @@ export class NetworkmanagerSiteTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -316,7 +316,7 @@ export class NetworkmanagerSiteTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -418,7 +418,7 @@ export class NetworkmanagerSite extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -434,7 +434,7 @@ export class NetworkmanagerSite extends cdktn.TerraformResource {
   }
 
   // global_network_id - computed: false, optional: false, required: true
-  private _globalNetworkId?: string;
+  private _globalNetworkId?: string; 
   public get globalNetworkId() {
     return this.getStringAttribute('global_network_id');
   }

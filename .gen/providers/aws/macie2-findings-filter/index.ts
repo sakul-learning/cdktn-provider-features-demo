@@ -261,7 +261,7 @@ export class Macie2FindingsFilterFindingCriteriaCriterionOutputReference extends
   }
 
   // eq - computed: false, optional: true, required: false
-  private _eq?: string[];
+  private _eq?: string[]; 
   public get eq() {
     return cdktn.Fn.tolist(this.getListAttribute('eq'));
   }
@@ -277,7 +277,7 @@ export class Macie2FindingsFilterFindingCriteriaCriterionOutputReference extends
   }
 
   // eq_exact_match - computed: false, optional: true, required: false
-  private _eqExactMatch?: string[];
+  private _eqExactMatch?: string[]; 
   public get eqExactMatch() {
     return cdktn.Fn.tolist(this.getListAttribute('eq_exact_match'));
   }
@@ -293,7 +293,7 @@ export class Macie2FindingsFilterFindingCriteriaCriterionOutputReference extends
   }
 
   // field - computed: false, optional: false, required: true
-  private _field?: string;
+  private _field?: string; 
   public get field() {
     return this.getStringAttribute('field');
   }
@@ -306,7 +306,7 @@ export class Macie2FindingsFilterFindingCriteriaCriterionOutputReference extends
   }
 
   // gt - computed: false, optional: true, required: false
-  private _gt?: string;
+  private _gt?: string; 
   public get gt() {
     return this.getStringAttribute('gt');
   }
@@ -322,7 +322,7 @@ export class Macie2FindingsFilterFindingCriteriaCriterionOutputReference extends
   }
 
   // gte - computed: false, optional: true, required: false
-  private _gte?: string;
+  private _gte?: string; 
   public get gte() {
     return this.getStringAttribute('gte');
   }
@@ -338,7 +338,7 @@ export class Macie2FindingsFilterFindingCriteriaCriterionOutputReference extends
   }
 
   // lt - computed: false, optional: true, required: false
-  private _lt?: string;
+  private _lt?: string; 
   public get lt() {
     return this.getStringAttribute('lt');
   }
@@ -354,7 +354,7 @@ export class Macie2FindingsFilterFindingCriteriaCriterionOutputReference extends
   }
 
   // lte - computed: false, optional: true, required: false
-  private _lte?: string;
+  private _lte?: string; 
   public get lte() {
     return this.getStringAttribute('lte');
   }
@@ -370,7 +370,7 @@ export class Macie2FindingsFilterFindingCriteriaCriterionOutputReference extends
   }
 
   // neq - computed: false, optional: true, required: false
-  private _neq?: string[];
+  private _neq?: string[]; 
   public get neq() {
     return cdktn.Fn.tolist(this.getListAttribute('neq'));
   }
@@ -570,7 +570,7 @@ export class Macie2FindingsFilterTimeoutsOutputReference extends cdktn.ComplexOb
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -654,7 +654,7 @@ export class Macie2FindingsFilter extends cdktn.TerraformResource {
   // ==========
 
   // action - computed: false, optional: false, required: true
-  private _action?: string;
+  private _action?: string; 
   public get action() {
     return this.getStringAttribute('action');
   }
@@ -672,7 +672,7 @@ export class Macie2FindingsFilter extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -688,7 +688,7 @@ export class Macie2FindingsFilter extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -704,7 +704,7 @@ export class Macie2FindingsFilter extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -720,7 +720,7 @@ export class Macie2FindingsFilter extends cdktn.TerraformResource {
   }
 
   // name_prefix - computed: true, optional: true, required: false
-  private _namePrefix?: string;
+  private _namePrefix?: string; 
   public get namePrefix() {
     return this.getStringAttribute('name_prefix');
   }
@@ -736,7 +736,7 @@ export class Macie2FindingsFilter extends cdktn.TerraformResource {
   }
 
   // position - computed: true, optional: true, required: false
-  private _position?: number;
+  private _position?: number; 
   public get position() {
     return this.getNumberAttribute('position');
   }
@@ -752,7 +752,7 @@ export class Macie2FindingsFilter extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -768,7 +768,7 @@ export class Macie2FindingsFilter extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -784,7 +784,7 @@ export class Macie2FindingsFilter extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

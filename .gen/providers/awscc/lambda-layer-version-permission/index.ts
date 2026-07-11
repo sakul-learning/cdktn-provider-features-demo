@@ -94,7 +94,7 @@ export class LambdaLayerVersionPermission extends cdktn.TerraformResource {
   // ==========
 
   // action - computed: false, optional: false, required: true
-  private _action?: string;
+  private _action?: string; 
   public get action() {
     return this.getStringAttribute('action');
   }
@@ -112,7 +112,7 @@ export class LambdaLayerVersionPermission extends cdktn.TerraformResource {
   }
 
   // layer_version_arn - computed: false, optional: false, required: true
-  private _layerVersionArn?: string;
+  private _layerVersionArn?: string; 
   public get layerVersionArn() {
     return this.getStringAttribute('layer_version_arn');
   }
@@ -130,7 +130,7 @@ export class LambdaLayerVersionPermission extends cdktn.TerraformResource {
   }
 
   // organization_id - computed: true, optional: true, required: false
-  private _organizationId?: string;
+  private _organizationId?: string; 
   public get organizationId() {
     return this.getStringAttribute('organization_id');
   }
@@ -146,7 +146,7 @@ export class LambdaLayerVersionPermission extends cdktn.TerraformResource {
   }
 
   // principal - computed: false, optional: false, required: true
-  private _principal?: string;
+  private _principal?: string; 
   public get principal() {
     return this.getStringAttribute('principal');
   }

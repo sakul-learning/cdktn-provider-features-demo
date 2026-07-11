@@ -135,7 +135,7 @@ export class DataAwsEc2TransitGatewayPeeringAttachmentFilterOutputReference exte
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -148,7 +148,7 @@ export class DataAwsEc2TransitGatewayPeeringAttachmentFilterOutputReference exte
   }
 
   // values - computed: false, optional: false, required: true
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -259,7 +259,7 @@ export class DataAwsEc2TransitGatewayPeeringAttachmentTimeoutsOutputReference ex
   }
 
   // read - computed: false, optional: true, required: false
-  private _read?: string;
+  private _read?: string; 
   public get read() {
     return this.getStringAttribute('read');
   }
@@ -342,7 +342,7 @@ export class DataAwsEc2TransitGatewayPeeringAttachment extends cdktn.TerraformDa
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -373,7 +373,7 @@ export class DataAwsEc2TransitGatewayPeeringAttachment extends cdktn.TerraformDa
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -394,7 +394,7 @@ export class DataAwsEc2TransitGatewayPeeringAttachment extends cdktn.TerraformDa
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

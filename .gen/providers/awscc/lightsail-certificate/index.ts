@@ -134,7 +134,7 @@ export class LightsailCertificateTagsOutputReference extends cdktn.ComplexObject
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -150,7 +150,7 @@ export class LightsailCertificateTagsOutputReference extends cdktn.ComplexObject
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -252,7 +252,7 @@ export class LightsailCertificate extends cdktn.TerraformResource {
   }
 
   // certificate_name - computed: false, optional: false, required: true
-  private _certificateName?: string;
+  private _certificateName?: string; 
   public get certificateName() {
     return this.getStringAttribute('certificate_name');
   }
@@ -265,7 +265,7 @@ export class LightsailCertificate extends cdktn.TerraformResource {
   }
 
   // domain_name - computed: false, optional: false, required: true
-  private _domainName?: string;
+  private _domainName?: string; 
   public get domainName() {
     return this.getStringAttribute('domain_name');
   }
@@ -288,7 +288,7 @@ export class LightsailCertificate extends cdktn.TerraformResource {
   }
 
   // subject_alternative_names - computed: true, optional: true, required: false
-  private _subjectAlternativeNames?: string[];
+  private _subjectAlternativeNames?: string[]; 
   public get subjectAlternativeNames() {
     return cdktn.Fn.tolist(this.getListAttribute('subject_alternative_names'));
   }

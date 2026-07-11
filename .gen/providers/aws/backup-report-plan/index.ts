@@ -152,7 +152,7 @@ export class BackupReportPlanReportDeliveryChannelOutputReference extends cdktn.
   }
 
   // formats - computed: false, optional: true, required: false
-  private _formats?: string[];
+  private _formats?: string[]; 
   public get formats() {
     return cdktn.Fn.tolist(this.getListAttribute('formats'));
   }
@@ -168,7 +168,7 @@ export class BackupReportPlanReportDeliveryChannelOutputReference extends cdktn.
   }
 
   // s3_bucket_name - computed: false, optional: false, required: true
-  private _s3BucketName?: string;
+  private _s3BucketName?: string; 
   public get s3BucketName() {
     return this.getStringAttribute('s3_bucket_name');
   }
@@ -181,7 +181,7 @@ export class BackupReportPlanReportDeliveryChannelOutputReference extends cdktn.
   }
 
   // s3_key_prefix - computed: false, optional: true, required: false
-  private _s3KeyPrefix?: string;
+  private _s3KeyPrefix?: string; 
   public get s3KeyPrefix() {
     return this.getStringAttribute('s3_key_prefix');
   }
@@ -350,7 +350,7 @@ export class BackupReportPlanReportSettingOutputReference extends cdktn.ComplexO
   }
 
   // accounts - computed: false, optional: true, required: false
-  private _accounts?: string[];
+  private _accounts?: string[]; 
   public get accounts() {
     return cdktn.Fn.tolist(this.getListAttribute('accounts'));
   }
@@ -366,7 +366,7 @@ export class BackupReportPlanReportSettingOutputReference extends cdktn.ComplexO
   }
 
   // framework_arns - computed: false, optional: true, required: false
-  private _frameworkArns?: string[];
+  private _frameworkArns?: string[]; 
   public get frameworkArns() {
     return cdktn.Fn.tolist(this.getListAttribute('framework_arns'));
   }
@@ -382,7 +382,7 @@ export class BackupReportPlanReportSettingOutputReference extends cdktn.ComplexO
   }
 
   // number_of_frameworks - computed: false, optional: true, required: false
-  private _numberOfFrameworks?: number;
+  private _numberOfFrameworks?: number; 
   public get numberOfFrameworks() {
     return this.getNumberAttribute('number_of_frameworks');
   }
@@ -398,7 +398,7 @@ export class BackupReportPlanReportSettingOutputReference extends cdktn.ComplexO
   }
 
   // organization_units - computed: false, optional: true, required: false
-  private _organizationUnits?: string[];
+  private _organizationUnits?: string[]; 
   public get organizationUnits() {
     return cdktn.Fn.tolist(this.getListAttribute('organization_units'));
   }
@@ -414,7 +414,7 @@ export class BackupReportPlanReportSettingOutputReference extends cdktn.ComplexO
   }
 
   // regions - computed: false, optional: true, required: false
-  private _regions?: string[];
+  private _regions?: string[]; 
   public get regions() {
     return cdktn.Fn.tolist(this.getListAttribute('regions'));
   }
@@ -430,7 +430,7 @@ export class BackupReportPlanReportSettingOutputReference extends cdktn.ComplexO
   }
 
   // report_template - computed: false, optional: false, required: true
-  private _reportTemplate?: string;
+  private _reportTemplate?: string; 
   public get reportTemplate() {
     return this.getStringAttribute('report_template');
   }
@@ -523,7 +523,7 @@ export class BackupReportPlan extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -539,7 +539,7 @@ export class BackupReportPlan extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -555,7 +555,7 @@ export class BackupReportPlan extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -568,7 +568,7 @@ export class BackupReportPlan extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -584,7 +584,7 @@ export class BackupReportPlan extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -600,7 +600,7 @@ export class BackupReportPlan extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

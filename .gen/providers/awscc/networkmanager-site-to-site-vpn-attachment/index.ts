@@ -152,7 +152,7 @@ export class NetworkmanagerSiteToSiteVpnAttachmentProposedNetworkFunctionGroupCh
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -168,7 +168,7 @@ export class NetworkmanagerSiteToSiteVpnAttachmentProposedNetworkFunctionGroupCh
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -322,7 +322,7 @@ export class NetworkmanagerSiteToSiteVpnAttachmentProposedNetworkFunctionGroupCh
   }
 
   // attachment_policy_rule_number - computed: true, optional: true, required: false
-  private _attachmentPolicyRuleNumber?: number;
+  private _attachmentPolicyRuleNumber?: number; 
   public get attachmentPolicyRuleNumber() {
     return this.getNumberAttribute('attachment_policy_rule_number');
   }
@@ -338,7 +338,7 @@ export class NetworkmanagerSiteToSiteVpnAttachmentProposedNetworkFunctionGroupCh
   }
 
   // network_function_group_name - computed: true, optional: true, required: false
-  private _networkFunctionGroupName?: string;
+  private _networkFunctionGroupName?: string; 
   public get networkFunctionGroupName() {
     return this.getStringAttribute('network_function_group_name');
   }
@@ -471,7 +471,7 @@ export class NetworkmanagerSiteToSiteVpnAttachmentProposedSegmentChangeTagsOutpu
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -487,7 +487,7 @@ export class NetworkmanagerSiteToSiteVpnAttachmentProposedSegmentChangeTagsOutpu
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -641,7 +641,7 @@ export class NetworkmanagerSiteToSiteVpnAttachmentProposedSegmentChangeOutputRef
   }
 
   // attachment_policy_rule_number - computed: true, optional: true, required: false
-  private _attachmentPolicyRuleNumber?: number;
+  private _attachmentPolicyRuleNumber?: number; 
   public get attachmentPolicyRuleNumber() {
     return this.getNumberAttribute('attachment_policy_rule_number');
   }
@@ -657,7 +657,7 @@ export class NetworkmanagerSiteToSiteVpnAttachmentProposedSegmentChangeOutputRef
   }
 
   // segment_name - computed: true, optional: true, required: false
-  private _segmentName?: string;
+  private _segmentName?: string; 
   public get segmentName() {
     return this.getStringAttribute('segment_name');
   }
@@ -790,7 +790,7 @@ export class NetworkmanagerSiteToSiteVpnAttachmentTagsOutputReference extends cd
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -806,7 +806,7 @@ export class NetworkmanagerSiteToSiteVpnAttachmentTagsOutputReference extends cd
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -926,7 +926,7 @@ export class NetworkmanagerSiteToSiteVpnAttachment extends cdktn.TerraformResour
   }
 
   // core_network_id - computed: false, optional: false, required: true
-  private _coreNetworkId?: string;
+  private _coreNetworkId?: string; 
   public get coreNetworkId() {
     return this.getStringAttribute('core_network_id');
   }
@@ -959,7 +959,7 @@ export class NetworkmanagerSiteToSiteVpnAttachment extends cdktn.TerraformResour
   }
 
   // network_function_group_name - computed: true, optional: true, required: false
-  private _networkFunctionGroupName?: string;
+  private _networkFunctionGroupName?: string; 
   public get networkFunctionGroupName() {
     return this.getStringAttribute('network_function_group_name');
   }
@@ -1017,7 +1017,7 @@ export class NetworkmanagerSiteToSiteVpnAttachment extends cdktn.TerraformResour
   }
 
   // routing_policy_label - computed: true, optional: true, required: false
-  private _routingPolicyLabel?: string;
+  private _routingPolicyLabel?: string; 
   public get routingPolicyLabel() {
     return this.getStringAttribute('routing_policy_label');
   }
@@ -1064,7 +1064,7 @@ export class NetworkmanagerSiteToSiteVpnAttachment extends cdktn.TerraformResour
   }
 
   // vpn_connection_arn - computed: false, optional: false, required: true
-  private _vpnConnectionArn?: string;
+  private _vpnConnectionArn?: string; 
   public get vpnConnectionArn() {
     return this.getStringAttribute('vpn_connection_arn');
   }

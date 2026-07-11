@@ -231,7 +231,7 @@ export class OdbCloudAutonomousVmClusterIamRolesOutputReference extends cdktn.Co
   }
 
   // aws_integration - computed: true, optional: true, required: false
-  private _awsIntegration?: string;
+  private _awsIntegration?: string; 
   public get awsIntegration() {
     return this.getStringAttribute('aws_integration');
   }
@@ -247,7 +247,7 @@ export class OdbCloudAutonomousVmClusterIamRolesOutputReference extends cdktn.Co
   }
 
   // iam_role_arn - computed: true, optional: true, required: false
-  private _iamRoleArn?: string;
+  private _iamRoleArn?: string; 
   public get iamRoleArn() {
     return this.getStringAttribute('iam_role_arn');
   }
@@ -263,7 +263,7 @@ export class OdbCloudAutonomousVmClusterIamRolesOutputReference extends cdktn.Co
   }
 
   // status - computed: true, optional: true, required: false
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -474,7 +474,7 @@ export class OdbCloudAutonomousVmClusterMaintenanceWindowOutputReference extends
   }
 
   // days_of_week - computed: true, optional: true, required: false
-  private _daysOfWeek?: string[];
+  private _daysOfWeek?: string[]; 
   public get daysOfWeek() {
     return this.getListAttribute('days_of_week');
   }
@@ -490,7 +490,7 @@ export class OdbCloudAutonomousVmClusterMaintenanceWindowOutputReference extends
   }
 
   // hours_of_day - computed: true, optional: true, required: false
-  private _hoursOfDay?: number[];
+  private _hoursOfDay?: number[]; 
   public get hoursOfDay() {
     return this.getNumberListAttribute('hours_of_day');
   }
@@ -506,7 +506,7 @@ export class OdbCloudAutonomousVmClusterMaintenanceWindowOutputReference extends
   }
 
   // lead_time_in_weeks - computed: true, optional: true, required: false
-  private _leadTimeInWeeks?: number;
+  private _leadTimeInWeeks?: number; 
   public get leadTimeInWeeks() {
     return this.getNumberAttribute('lead_time_in_weeks');
   }
@@ -522,7 +522,7 @@ export class OdbCloudAutonomousVmClusterMaintenanceWindowOutputReference extends
   }
 
   // months - computed: true, optional: true, required: false
-  private _months?: string[];
+  private _months?: string[]; 
   public get months() {
     return this.getListAttribute('months');
   }
@@ -538,7 +538,7 @@ export class OdbCloudAutonomousVmClusterMaintenanceWindowOutputReference extends
   }
 
   // preference - computed: true, optional: true, required: false
-  private _preference?: string;
+  private _preference?: string; 
   public get preference() {
     return this.getStringAttribute('preference');
   }
@@ -554,7 +554,7 @@ export class OdbCloudAutonomousVmClusterMaintenanceWindowOutputReference extends
   }
 
   // weeks_of_month - computed: true, optional: true, required: false
-  private _weeksOfMonth?: number[];
+  private _weeksOfMonth?: number[]; 
   public get weeksOfMonth() {
     return this.getNumberListAttribute('weeks_of_month');
   }
@@ -671,7 +671,7 @@ export class OdbCloudAutonomousVmClusterTagsOutputReference extends cdktn.Comple
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -687,7 +687,7 @@ export class OdbCloudAutonomousVmClusterTagsOutputReference extends cdktn.Comple
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -802,7 +802,7 @@ export class OdbCloudAutonomousVmCluster extends cdktn.TerraformResource {
   }
 
   // autonomous_data_storage_size_in_t_bs - computed: true, optional: true, required: false
-  private _autonomousDataStorageSizeInTBs?: number;
+  private _autonomousDataStorageSizeInTBs?: number; 
   public get autonomousDataStorageSizeInTBs() {
     return this.getNumberAttribute('autonomous_data_storage_size_in_t_bs');
   }
@@ -843,7 +843,7 @@ export class OdbCloudAutonomousVmCluster extends cdktn.TerraformResource {
   }
 
   // cloud_exadata_infrastructure_id - computed: true, optional: true, required: false
-  private _cloudExadataInfrastructureId?: string;
+  private _cloudExadataInfrastructureId?: string; 
   public get cloudExadataInfrastructureId() {
     return this.getStringAttribute('cloud_exadata_infrastructure_id');
   }
@@ -869,7 +869,7 @@ export class OdbCloudAutonomousVmCluster extends cdktn.TerraformResource {
   }
 
   // cpu_core_count_per_node - computed: true, optional: true, required: false
-  private _cpuCoreCountPerNode?: number;
+  private _cpuCoreCountPerNode?: number; 
   public get cpuCoreCountPerNode() {
     return this.getNumberAttribute('cpu_core_count_per_node');
   }
@@ -905,7 +905,7 @@ export class OdbCloudAutonomousVmCluster extends cdktn.TerraformResource {
   }
 
   // db_servers - computed: true, optional: true, required: false
-  private _dbServers?: string[];
+  private _dbServers?: string[]; 
   public get dbServers() {
     return this.getListAttribute('db_servers');
   }
@@ -921,7 +921,7 @@ export class OdbCloudAutonomousVmCluster extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -937,7 +937,7 @@ export class OdbCloudAutonomousVmCluster extends cdktn.TerraformResource {
   }
 
   // display_name - computed: true, optional: true, required: false
-  private _displayName?: string;
+  private _displayName?: string; 
   public get displayName() {
     return this.getStringAttribute('display_name');
   }
@@ -989,7 +989,7 @@ export class OdbCloudAutonomousVmCluster extends cdktn.TerraformResource {
   }
 
   // is_mtls_enabled_vm_cluster - computed: true, optional: true, required: false
-  private _isMtlsEnabledVmCluster?: boolean | cdktn.IResolvable;
+  private _isMtlsEnabledVmCluster?: boolean | cdktn.IResolvable; 
   public get isMtlsEnabledVmCluster() {
     return this.getBooleanAttribute('is_mtls_enabled_vm_cluster');
   }
@@ -1005,7 +1005,7 @@ export class OdbCloudAutonomousVmCluster extends cdktn.TerraformResource {
   }
 
   // license_model - computed: true, optional: true, required: false
-  private _licenseModel?: string;
+  private _licenseModel?: string; 
   public get licenseModel() {
     return this.getStringAttribute('license_model');
   }
@@ -1042,7 +1042,7 @@ export class OdbCloudAutonomousVmCluster extends cdktn.TerraformResource {
   }
 
   // memory_per_oracle_compute_unit_in_g_bs - computed: true, optional: true, required: false
-  private _memoryPerOracleComputeUnitInGBs?: number;
+  private _memoryPerOracleComputeUnitInGBs?: number; 
   public get memoryPerOracleComputeUnitInGBs() {
     return this.getNumberAttribute('memory_per_oracle_compute_unit_in_g_bs');
   }
@@ -1088,7 +1088,7 @@ export class OdbCloudAutonomousVmCluster extends cdktn.TerraformResource {
   }
 
   // odb_network_id - computed: true, optional: true, required: false
-  private _odbNetworkId?: string;
+  private _odbNetworkId?: string; 
   public get odbNetworkId() {
     return this.getStringAttribute('odb_network_id');
   }
@@ -1129,7 +1129,7 @@ export class OdbCloudAutonomousVmCluster extends cdktn.TerraformResource {
   }
 
   // scan_listener_port_non_tls - computed: true, optional: true, required: false
-  private _scanListenerPortNonTls?: number;
+  private _scanListenerPortNonTls?: number; 
   public get scanListenerPortNonTls() {
     return this.getNumberAttribute('scan_listener_port_non_tls');
   }
@@ -1145,7 +1145,7 @@ export class OdbCloudAutonomousVmCluster extends cdktn.TerraformResource {
   }
 
   // scan_listener_port_tls - computed: true, optional: true, required: false
-  private _scanListenerPortTls?: number;
+  private _scanListenerPortTls?: number; 
   public get scanListenerPortTls() {
     return this.getNumberAttribute('scan_listener_port_tls');
   }
@@ -1182,7 +1182,7 @@ export class OdbCloudAutonomousVmCluster extends cdktn.TerraformResource {
   }
 
   // time_zone - computed: true, optional: true, required: false
-  private _timeZone?: string;
+  private _timeZone?: string; 
   public get timeZone() {
     return this.getStringAttribute('time_zone');
   }
@@ -1198,7 +1198,7 @@ export class OdbCloudAutonomousVmCluster extends cdktn.TerraformResource {
   }
 
   // total_container_databases - computed: true, optional: true, required: false
-  private _totalContainerDatabases?: number;
+  private _totalContainerDatabases?: number; 
   public get totalContainerDatabases() {
     return this.getNumberAttribute('total_container_databases');
   }

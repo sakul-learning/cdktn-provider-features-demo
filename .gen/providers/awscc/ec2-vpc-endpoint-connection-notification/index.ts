@@ -94,7 +94,7 @@ export class Ec2VpcEndpointConnectionNotification extends cdktn.TerraformResourc
   // ==========
 
   // connection_events - computed: false, optional: false, required: true
-  private _connectionEvents?: string[];
+  private _connectionEvents?: string[]; 
   public get connectionEvents() {
     return this.getListAttribute('connection_events');
   }
@@ -107,7 +107,7 @@ export class Ec2VpcEndpointConnectionNotification extends cdktn.TerraformResourc
   }
 
   // connection_notification_arn - computed: false, optional: false, required: true
-  private _connectionNotificationArn?: string;
+  private _connectionNotificationArn?: string; 
   public get connectionNotificationArn() {
     return this.getStringAttribute('connection_notification_arn');
   }
@@ -125,7 +125,7 @@ export class Ec2VpcEndpointConnectionNotification extends cdktn.TerraformResourc
   }
 
   // service_id - computed: true, optional: true, required: false
-  private _serviceId?: string;
+  private _serviceId?: string; 
   public get serviceId() {
     return this.getStringAttribute('service_id');
   }
@@ -146,7 +146,7 @@ export class Ec2VpcEndpointConnectionNotification extends cdktn.TerraformResourc
   }
 
   // vpc_endpoint_id - computed: true, optional: true, required: false
-  private _vpcEndpointId?: string;
+  private _vpcEndpointId?: string; 
   public get vpcEndpointId() {
     return this.getStringAttribute('vpc_endpoint_id');
   }

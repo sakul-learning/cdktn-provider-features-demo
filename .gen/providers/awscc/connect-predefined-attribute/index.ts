@@ -138,7 +138,7 @@ export class ConnectPredefinedAttributeAttributeConfigurationOutputReference ext
   }
 
   // enable_value_validation_on_association - computed: true, optional: true, required: false
-  private _enableValueValidationOnAssociation?: boolean | cdktn.IResolvable;
+  private _enableValueValidationOnAssociation?: boolean | cdktn.IResolvable; 
   public get enableValueValidationOnAssociation() {
     return this.getBooleanAttribute('enable_value_validation_on_association');
   }
@@ -154,7 +154,7 @@ export class ConnectPredefinedAttributeAttributeConfigurationOutputReference ext
   }
 
   // is_read_only - computed: true, optional: true, required: false
-  private _isReadOnly?: boolean | cdktn.IResolvable;
+  private _isReadOnly?: boolean | cdktn.IResolvable; 
   public get isReadOnly() {
     return this.getBooleanAttribute('is_read_only');
   }
@@ -250,7 +250,7 @@ export class ConnectPredefinedAttributeValuesOutputReference extends cdktn.Compl
   }
 
   // string_list - computed: true, optional: true, required: false
-  private _stringList?: string[];
+  private _stringList?: string[]; 
   public get stringList() {
     return this.getListAttribute('string_list');
   }
@@ -349,7 +349,7 @@ export class ConnectPredefinedAttribute extends cdktn.TerraformResource {
   }
 
   // instance_arn - computed: false, optional: false, required: true
-  private _instanceArn?: string;
+  private _instanceArn?: string; 
   public get instanceArn() {
     return this.getStringAttribute('instance_arn');
   }
@@ -372,7 +372,7 @@ export class ConnectPredefinedAttribute extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -385,7 +385,7 @@ export class ConnectPredefinedAttribute extends cdktn.TerraformResource {
   }
 
   // purposes - computed: true, optional: true, required: false
-  private _purposes?: string[];
+  private _purposes?: string[]; 
   public get purposes() {
     return this.getListAttribute('purposes');
   }

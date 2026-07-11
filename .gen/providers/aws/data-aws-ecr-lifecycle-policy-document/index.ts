@@ -112,7 +112,7 @@ export class DataAwsEcrLifecyclePolicyDocumentRuleActionOutputReference extends 
   }
 
   // target_storage_class - computed: false, optional: true, required: false
-  private _targetStorageClass?: string;
+  private _targetStorageClass?: string; 
   public get targetStorageClass() {
     return this.getStringAttribute('target_storage_class');
   }
@@ -128,7 +128,7 @@ export class DataAwsEcrLifecyclePolicyDocumentRuleActionOutputReference extends 
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -343,7 +343,7 @@ export class DataAwsEcrLifecyclePolicyDocumentRuleSelectionOutputReference exten
   }
 
   // count_number - computed: false, optional: false, required: true
-  private _countNumber?: number;
+  private _countNumber?: number; 
   public get countNumber() {
     return this.getNumberAttribute('count_number');
   }
@@ -356,7 +356,7 @@ export class DataAwsEcrLifecyclePolicyDocumentRuleSelectionOutputReference exten
   }
 
   // count_type - computed: false, optional: false, required: true
-  private _countType?: string;
+  private _countType?: string; 
   public get countType() {
     return this.getStringAttribute('count_type');
   }
@@ -369,7 +369,7 @@ export class DataAwsEcrLifecyclePolicyDocumentRuleSelectionOutputReference exten
   }
 
   // count_unit - computed: false, optional: true, required: false
-  private _countUnit?: string;
+  private _countUnit?: string; 
   public get countUnit() {
     return this.getStringAttribute('count_unit');
   }
@@ -385,7 +385,7 @@ export class DataAwsEcrLifecyclePolicyDocumentRuleSelectionOutputReference exten
   }
 
   // storage_class - computed: false, optional: true, required: false
-  private _storageClass?: string;
+  private _storageClass?: string; 
   public get storageClass() {
     return this.getStringAttribute('storage_class');
   }
@@ -401,7 +401,7 @@ export class DataAwsEcrLifecyclePolicyDocumentRuleSelectionOutputReference exten
   }
 
   // tag_pattern_list - computed: false, optional: true, required: false
-  private _tagPatternList?: string[];
+  private _tagPatternList?: string[]; 
   public get tagPatternList() {
     return this.getListAttribute('tag_pattern_list');
   }
@@ -417,7 +417,7 @@ export class DataAwsEcrLifecyclePolicyDocumentRuleSelectionOutputReference exten
   }
 
   // tag_prefix_list - computed: false, optional: true, required: false
-  private _tagPrefixList?: string[];
+  private _tagPrefixList?: string[]; 
   public get tagPrefixList() {
     return this.getListAttribute('tag_prefix_list');
   }
@@ -433,7 +433,7 @@ export class DataAwsEcrLifecyclePolicyDocumentRuleSelectionOutputReference exten
   }
 
   // tag_status - computed: false, optional: false, required: true
-  private _tagStatus?: string;
+  private _tagStatus?: string; 
   public get tagStatus() {
     return this.getStringAttribute('tag_status');
   }
@@ -601,7 +601,7 @@ export class DataAwsEcrLifecyclePolicyDocumentRuleOutputReference extends cdktn.
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -617,7 +617,7 @@ export class DataAwsEcrLifecyclePolicyDocumentRuleOutputReference extends cdktn.
   }
 
   // priority - computed: false, optional: false, required: true
-  private _priority?: number;
+  private _priority?: number; 
   public get priority() {
     return this.getNumberAttribute('priority');
   }

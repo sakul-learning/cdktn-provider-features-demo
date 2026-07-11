@@ -119,7 +119,7 @@ export class LookoutmetricsAnomalyDetectorAnomalyDetectorConfigOutputReference e
   }
 
   // anomaly_detector_frequency - computed: false, optional: false, required: true
-  private _anomalyDetectorFrequency?: string;
+  private _anomalyDetectorFrequency?: string; 
   public get anomalyDetectorFrequency() {
     return this.getStringAttribute('anomaly_detector_frequency');
   }
@@ -250,7 +250,7 @@ export class LookoutmetricsAnomalyDetectorMetricSetListMetricListStructOutputRef
   }
 
   // aggregation_function - computed: false, optional: false, required: true
-  private _aggregationFunction?: string;
+  private _aggregationFunction?: string; 
   public get aggregationFunction() {
     return this.getStringAttribute('aggregation_function');
   }
@@ -263,7 +263,7 @@ export class LookoutmetricsAnomalyDetectorMetricSetListMetricListStructOutputRef
   }
 
   // metric_name - computed: false, optional: false, required: true
-  private _metricName?: string;
+  private _metricName?: string; 
   public get metricName() {
     return this.getStringAttribute('metric_name');
   }
@@ -276,7 +276,7 @@ export class LookoutmetricsAnomalyDetectorMetricSetListMetricListStructOutputRef
   }
 
   // namespace - computed: true, optional: true, required: false
-  private _namespace?: string;
+  private _namespace?: string; 
   public get namespace() {
     return this.getStringAttribute('namespace');
   }
@@ -407,7 +407,7 @@ export class LookoutmetricsAnomalyDetectorMetricSetListMetricSourceAppFlowConfig
   }
 
   // flow_name - computed: true, optional: true, required: false
-  private _flowName?: string;
+  private _flowName?: string; 
   public get flowName() {
     return this.getStringAttribute('flow_name');
   }
@@ -423,7 +423,7 @@ export class LookoutmetricsAnomalyDetectorMetricSetListMetricSourceAppFlowConfig
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -517,7 +517,7 @@ export class LookoutmetricsAnomalyDetectorMetricSetListMetricSourceCloudwatchCon
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -628,7 +628,7 @@ export class LookoutmetricsAnomalyDetectorMetricSetListMetricSourceRdsSourceConf
   }
 
   // security_group_id_list - computed: true, optional: true, required: false
-  private _securityGroupIdList?: string[];
+  private _securityGroupIdList?: string[]; 
   public get securityGroupIdList() {
     return this.getListAttribute('security_group_id_list');
   }
@@ -644,7 +644,7 @@ export class LookoutmetricsAnomalyDetectorMetricSetListMetricSourceRdsSourceConf
   }
 
   // subnet_id_list - computed: true, optional: true, required: false
-  private _subnetIdList?: string[];
+  private _subnetIdList?: string[]; 
   public get subnetIdList() {
     return this.getListAttribute('subnet_id_list');
   }
@@ -857,7 +857,7 @@ export class LookoutmetricsAnomalyDetectorMetricSetListMetricSourceRdsSourceConf
   }
 
   // database_host - computed: true, optional: true, required: false
-  private _databaseHost?: string;
+  private _databaseHost?: string; 
   public get databaseHost() {
     return this.getStringAttribute('database_host');
   }
@@ -873,7 +873,7 @@ export class LookoutmetricsAnomalyDetectorMetricSetListMetricSourceRdsSourceConf
   }
 
   // database_name - computed: true, optional: true, required: false
-  private _databaseName?: string;
+  private _databaseName?: string; 
   public get databaseName() {
     return this.getStringAttribute('database_name');
   }
@@ -889,7 +889,7 @@ export class LookoutmetricsAnomalyDetectorMetricSetListMetricSourceRdsSourceConf
   }
 
   // database_port - computed: true, optional: true, required: false
-  private _databasePort?: number;
+  private _databasePort?: number; 
   public get databasePort() {
     return this.getNumberAttribute('database_port');
   }
@@ -905,7 +905,7 @@ export class LookoutmetricsAnomalyDetectorMetricSetListMetricSourceRdsSourceConf
   }
 
   // db_instance_identifier - computed: true, optional: true, required: false
-  private _dbInstanceIdentifier?: string;
+  private _dbInstanceIdentifier?: string; 
   public get dbInstanceIdentifier() {
     return this.getStringAttribute('db_instance_identifier');
   }
@@ -921,7 +921,7 @@ export class LookoutmetricsAnomalyDetectorMetricSetListMetricSourceRdsSourceConf
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -937,7 +937,7 @@ export class LookoutmetricsAnomalyDetectorMetricSetListMetricSourceRdsSourceConf
   }
 
   // secret_manager_arn - computed: true, optional: true, required: false
-  private _secretManagerArn?: string;
+  private _secretManagerArn?: string; 
   public get secretManagerArn() {
     return this.getStringAttribute('secret_manager_arn');
   }
@@ -953,7 +953,7 @@ export class LookoutmetricsAnomalyDetectorMetricSetListMetricSourceRdsSourceConf
   }
 
   // table_name - computed: true, optional: true, required: false
-  private _tableName?: string;
+  private _tableName?: string; 
   public get tableName() {
     return this.getStringAttribute('table_name');
   }
@@ -1080,7 +1080,7 @@ export class LookoutmetricsAnomalyDetectorMetricSetListMetricSourceRedshiftSourc
   }
 
   // security_group_id_list - computed: true, optional: true, required: false
-  private _securityGroupIdList?: string[];
+  private _securityGroupIdList?: string[]; 
   public get securityGroupIdList() {
     return this.getListAttribute('security_group_id_list');
   }
@@ -1096,7 +1096,7 @@ export class LookoutmetricsAnomalyDetectorMetricSetListMetricSourceRedshiftSourc
   }
 
   // subnet_id_list - computed: true, optional: true, required: false
-  private _subnetIdList?: string[];
+  private _subnetIdList?: string[]; 
   public get subnetIdList() {
     return this.getListAttribute('subnet_id_list');
   }
@@ -1309,7 +1309,7 @@ export class LookoutmetricsAnomalyDetectorMetricSetListMetricSourceRedshiftSourc
   }
 
   // cluster_identifier - computed: true, optional: true, required: false
-  private _clusterIdentifier?: string;
+  private _clusterIdentifier?: string; 
   public get clusterIdentifier() {
     return this.getStringAttribute('cluster_identifier');
   }
@@ -1325,7 +1325,7 @@ export class LookoutmetricsAnomalyDetectorMetricSetListMetricSourceRedshiftSourc
   }
 
   // database_host - computed: true, optional: true, required: false
-  private _databaseHost?: string;
+  private _databaseHost?: string; 
   public get databaseHost() {
     return this.getStringAttribute('database_host');
   }
@@ -1341,7 +1341,7 @@ export class LookoutmetricsAnomalyDetectorMetricSetListMetricSourceRedshiftSourc
   }
 
   // database_name - computed: true, optional: true, required: false
-  private _databaseName?: string;
+  private _databaseName?: string; 
   public get databaseName() {
     return this.getStringAttribute('database_name');
   }
@@ -1357,7 +1357,7 @@ export class LookoutmetricsAnomalyDetectorMetricSetListMetricSourceRedshiftSourc
   }
 
   // database_port - computed: true, optional: true, required: false
-  private _databasePort?: number;
+  private _databasePort?: number; 
   public get databasePort() {
     return this.getNumberAttribute('database_port');
   }
@@ -1373,7 +1373,7 @@ export class LookoutmetricsAnomalyDetectorMetricSetListMetricSourceRedshiftSourc
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -1389,7 +1389,7 @@ export class LookoutmetricsAnomalyDetectorMetricSetListMetricSourceRedshiftSourc
   }
 
   // secret_manager_arn - computed: true, optional: true, required: false
-  private _secretManagerArn?: string;
+  private _secretManagerArn?: string; 
   public get secretManagerArn() {
     return this.getStringAttribute('secret_manager_arn');
   }
@@ -1405,7 +1405,7 @@ export class LookoutmetricsAnomalyDetectorMetricSetListMetricSourceRedshiftSourc
   }
 
   // table_name - computed: true, optional: true, required: false
-  private _tableName?: string;
+  private _tableName?: string; 
   public get tableName() {
     return this.getStringAttribute('table_name');
   }
@@ -1600,7 +1600,7 @@ export class LookoutmetricsAnomalyDetectorMetricSetListMetricSourceS3SourceConfi
   }
 
   // charset - computed: true, optional: true, required: false
-  private _charset?: string;
+  private _charset?: string; 
   public get charset() {
     return this.getStringAttribute('charset');
   }
@@ -1616,7 +1616,7 @@ export class LookoutmetricsAnomalyDetectorMetricSetListMetricSourceS3SourceConfi
   }
 
   // contains_header - computed: true, optional: true, required: false
-  private _containsHeader?: boolean | cdktn.IResolvable;
+  private _containsHeader?: boolean | cdktn.IResolvable; 
   public get containsHeader() {
     return this.getBooleanAttribute('contains_header');
   }
@@ -1632,7 +1632,7 @@ export class LookoutmetricsAnomalyDetectorMetricSetListMetricSourceS3SourceConfi
   }
 
   // delimiter - computed: true, optional: true, required: false
-  private _delimiter?: string;
+  private _delimiter?: string; 
   public get delimiter() {
     return this.getStringAttribute('delimiter');
   }
@@ -1648,7 +1648,7 @@ export class LookoutmetricsAnomalyDetectorMetricSetListMetricSourceS3SourceConfi
   }
 
   // file_compression - computed: true, optional: true, required: false
-  private _fileCompression?: string;
+  private _fileCompression?: string; 
   public get fileCompression() {
     return this.getStringAttribute('file_compression');
   }
@@ -1664,7 +1664,7 @@ export class LookoutmetricsAnomalyDetectorMetricSetListMetricSourceS3SourceConfi
   }
 
   // header_list - computed: true, optional: true, required: false
-  private _headerList?: string[];
+  private _headerList?: string[]; 
   public get headerList() {
     return this.getListAttribute('header_list');
   }
@@ -1680,7 +1680,7 @@ export class LookoutmetricsAnomalyDetectorMetricSetListMetricSourceS3SourceConfi
   }
 
   // quote_symbol - computed: true, optional: true, required: false
-  private _quoteSymbol?: string;
+  private _quoteSymbol?: string; 
   public get quoteSymbol() {
     return this.getStringAttribute('quote_symbol');
   }
@@ -1791,7 +1791,7 @@ export class LookoutmetricsAnomalyDetectorMetricSetListMetricSourceS3SourceConfi
   }
 
   // charset - computed: true, optional: true, required: false
-  private _charset?: string;
+  private _charset?: string; 
   public get charset() {
     return this.getStringAttribute('charset');
   }
@@ -1807,7 +1807,7 @@ export class LookoutmetricsAnomalyDetectorMetricSetListMetricSourceS3SourceConfi
   }
 
   // file_compression - computed: true, optional: true, required: false
-  private _fileCompression?: string;
+  private _fileCompression?: string; 
   public get fileCompression() {
     return this.getStringAttribute('file_compression');
   }
@@ -2095,7 +2095,7 @@ export class LookoutmetricsAnomalyDetectorMetricSetListMetricSourceS3SourceConfi
   }
 
   // historical_data_path_list - computed: true, optional: true, required: false
-  private _historicalDataPathList?: string[];
+  private _historicalDataPathList?: string[]; 
   public get historicalDataPathList() {
     return this.getListAttribute('historical_data_path_list');
   }
@@ -2111,7 +2111,7 @@ export class LookoutmetricsAnomalyDetectorMetricSetListMetricSourceS3SourceConfi
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -2127,7 +2127,7 @@ export class LookoutmetricsAnomalyDetectorMetricSetListMetricSourceS3SourceConfi
   }
 
   // templated_path_list - computed: true, optional: true, required: false
-  private _templatedPathList?: string[];
+  private _templatedPathList?: string[]; 
   public get templatedPathList() {
     return this.getListAttribute('templated_path_list');
   }
@@ -2468,7 +2468,7 @@ export class LookoutmetricsAnomalyDetectorMetricSetListTimestampColumnOutputRefe
   }
 
   // column_format - computed: true, optional: true, required: false
-  private _columnFormat?: string;
+  private _columnFormat?: string; 
   public get columnFormat() {
     return this.getStringAttribute('column_format');
   }
@@ -2484,7 +2484,7 @@ export class LookoutmetricsAnomalyDetectorMetricSetListTimestampColumnOutputRefe
   }
 
   // column_name - computed: true, optional: true, required: false
-  private _columnName?: string;
+  private _columnName?: string; 
   public get columnName() {
     return this.getStringAttribute('column_name');
   }
@@ -2728,7 +2728,7 @@ export class LookoutmetricsAnomalyDetectorMetricSetListStructOutputReference ext
   }
 
   // dimension_list - computed: true, optional: true, required: false
-  private _dimensionList?: string[];
+  private _dimensionList?: string[]; 
   public get dimensionList() {
     return this.getListAttribute('dimension_list');
   }
@@ -2757,7 +2757,7 @@ export class LookoutmetricsAnomalyDetectorMetricSetListStructOutputReference ext
   }
 
   // metric_set_description - computed: true, optional: true, required: false
-  private _metricSetDescription?: string;
+  private _metricSetDescription?: string; 
   public get metricSetDescription() {
     return this.getStringAttribute('metric_set_description');
   }
@@ -2773,7 +2773,7 @@ export class LookoutmetricsAnomalyDetectorMetricSetListStructOutputReference ext
   }
 
   // metric_set_frequency - computed: true, optional: true, required: false
-  private _metricSetFrequency?: string;
+  private _metricSetFrequency?: string; 
   public get metricSetFrequency() {
     return this.getStringAttribute('metric_set_frequency');
   }
@@ -2789,7 +2789,7 @@ export class LookoutmetricsAnomalyDetectorMetricSetListStructOutputReference ext
   }
 
   // metric_set_name - computed: false, optional: false, required: true
-  private _metricSetName?: string;
+  private _metricSetName?: string; 
   public get metricSetName() {
     return this.getStringAttribute('metric_set_name');
   }
@@ -2815,7 +2815,7 @@ export class LookoutmetricsAnomalyDetectorMetricSetListStructOutputReference ext
   }
 
   // offset - computed: true, optional: true, required: false
-  private _offset?: number;
+  private _offset?: number; 
   public get offset() {
     return this.getNumberAttribute('offset');
   }
@@ -2847,7 +2847,7 @@ export class LookoutmetricsAnomalyDetectorMetricSetListStructOutputReference ext
   }
 
   // timezone - computed: true, optional: true, required: false
-  private _timezone?: string;
+  private _timezone?: string; 
   public get timezone() {
     return this.getStringAttribute('timezone');
   }
@@ -2958,7 +2958,7 @@ export class LookoutmetricsAnomalyDetector extends cdktn.TerraformResource {
   }
 
   // anomaly_detector_description - computed: true, optional: true, required: false
-  private _anomalyDetectorDescription?: string;
+  private _anomalyDetectorDescription?: string; 
   public get anomalyDetectorDescription() {
     return this.getStringAttribute('anomaly_detector_description');
   }
@@ -2974,7 +2974,7 @@ export class LookoutmetricsAnomalyDetector extends cdktn.TerraformResource {
   }
 
   // anomaly_detector_name - computed: true, optional: true, required: false
-  private _anomalyDetectorName?: string;
+  private _anomalyDetectorName?: string; 
   public get anomalyDetectorName() {
     return this.getStringAttribute('anomaly_detector_name');
   }
@@ -3000,7 +3000,7 @@ export class LookoutmetricsAnomalyDetector extends cdktn.TerraformResource {
   }
 
   // kms_key_arn - computed: true, optional: true, required: false
-  private _kmsKeyArn?: string;
+  private _kmsKeyArn?: string; 
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }

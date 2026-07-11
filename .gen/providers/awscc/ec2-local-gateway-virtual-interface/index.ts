@@ -158,7 +158,7 @@ export class Ec2LocalGatewayVirtualInterfaceTagsOutputReference extends cdktn.Co
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -174,7 +174,7 @@ export class Ec2LocalGatewayVirtualInterfaceTagsOutputReference extends cdktn.Co
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -285,7 +285,7 @@ export class Ec2LocalGatewayVirtualInterface extends cdktn.TerraformResource {
   }
 
   // local_address - computed: false, optional: false, required: true
-  private _localAddress?: string;
+  private _localAddress?: string; 
   public get localAddress() {
     return this.getStringAttribute('local_address');
   }
@@ -308,7 +308,7 @@ export class Ec2LocalGatewayVirtualInterface extends cdktn.TerraformResource {
   }
 
   // local_gateway_virtual_interface_group_id - computed: false, optional: false, required: true
-  private _localGatewayVirtualInterfaceGroupId?: string;
+  private _localGatewayVirtualInterfaceGroupId?: string; 
   public get localGatewayVirtualInterfaceGroupId() {
     return this.getStringAttribute('local_gateway_virtual_interface_group_id');
   }
@@ -326,7 +326,7 @@ export class Ec2LocalGatewayVirtualInterface extends cdktn.TerraformResource {
   }
 
   // outpost_lag_id - computed: false, optional: false, required: true
-  private _outpostLagId?: string;
+  private _outpostLagId?: string; 
   public get outpostLagId() {
     return this.getStringAttribute('outpost_lag_id');
   }
@@ -344,7 +344,7 @@ export class Ec2LocalGatewayVirtualInterface extends cdktn.TerraformResource {
   }
 
   // peer_address - computed: false, optional: false, required: true
-  private _peerAddress?: string;
+  private _peerAddress?: string; 
   public get peerAddress() {
     return this.getStringAttribute('peer_address');
   }
@@ -357,7 +357,7 @@ export class Ec2LocalGatewayVirtualInterface extends cdktn.TerraformResource {
   }
 
   // peer_bgp_asn - computed: true, optional: true, required: false
-  private _peerBgpAsn?: number;
+  private _peerBgpAsn?: number; 
   public get peerBgpAsn() {
     return this.getNumberAttribute('peer_bgp_asn');
   }
@@ -373,7 +373,7 @@ export class Ec2LocalGatewayVirtualInterface extends cdktn.TerraformResource {
   }
 
   // peer_bgp_asn_extended - computed: true, optional: true, required: false
-  private _peerBgpAsnExtended?: number;
+  private _peerBgpAsnExtended?: number; 
   public get peerBgpAsnExtended() {
     return this.getNumberAttribute('peer_bgp_asn_extended');
   }
@@ -405,7 +405,7 @@ export class Ec2LocalGatewayVirtualInterface extends cdktn.TerraformResource {
   }
 
   // vlan - computed: false, optional: false, required: true
-  private _vlan?: number;
+  private _vlan?: number; 
   public get vlan() {
     return this.getNumberAttribute('vlan');
   }

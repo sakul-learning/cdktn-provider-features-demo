@@ -111,7 +111,7 @@ export class ChimeVoiceConnectorTermination extends cdktn.TerraformResource {
   // ==========
 
   // calling_regions - computed: false, optional: false, required: true
-  private _callingRegions?: string[];
+  private _callingRegions?: string[]; 
   public get callingRegions() {
     return cdktn.Fn.tolist(this.getListAttribute('calling_regions'));
   }
@@ -124,7 +124,7 @@ export class ChimeVoiceConnectorTermination extends cdktn.TerraformResource {
   }
 
   // cidr_allow_list - computed: false, optional: false, required: true
-  private _cidrAllowList?: string[];
+  private _cidrAllowList?: string[]; 
   public get cidrAllowList() {
     return cdktn.Fn.tolist(this.getListAttribute('cidr_allow_list'));
   }
@@ -137,7 +137,7 @@ export class ChimeVoiceConnectorTermination extends cdktn.TerraformResource {
   }
 
   // cps_limit - computed: false, optional: true, required: false
-  private _cpsLimit?: number;
+  private _cpsLimit?: number; 
   public get cpsLimit() {
     return this.getNumberAttribute('cps_limit');
   }
@@ -153,7 +153,7 @@ export class ChimeVoiceConnectorTermination extends cdktn.TerraformResource {
   }
 
   // default_phone_number - computed: false, optional: true, required: false
-  private _defaultPhoneNumber?: string;
+  private _defaultPhoneNumber?: string; 
   public get defaultPhoneNumber() {
     return this.getStringAttribute('default_phone_number');
   }
@@ -169,7 +169,7 @@ export class ChimeVoiceConnectorTermination extends cdktn.TerraformResource {
   }
 
   // disabled - computed: false, optional: true, required: false
-  private _disabled?: boolean | cdktn.IResolvable;
+  private _disabled?: boolean | cdktn.IResolvable; 
   public get disabled() {
     return this.getBooleanAttribute('disabled');
   }
@@ -185,7 +185,7 @@ export class ChimeVoiceConnectorTermination extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -201,7 +201,7 @@ export class ChimeVoiceConnectorTermination extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -217,7 +217,7 @@ export class ChimeVoiceConnectorTermination extends cdktn.TerraformResource {
   }
 
   // voice_connector_id - computed: false, optional: false, required: true
-  private _voiceConnectorId?: string;
+  private _voiceConnectorId?: string; 
   public get voiceConnectorId() {
     return this.getStringAttribute('voice_connector_id');
   }

@@ -186,7 +186,7 @@ export class DataAwsServicequotasTemplates extends cdktn.TerraformDataSource {
   // ==========
 
   // aws_region - computed: false, optional: true, required: false
-  private _awsRegion?: string;
+  private _awsRegion?: string; 
   public get awsRegion() {
     return this.getStringAttribute('aws_region');
   }
@@ -207,7 +207,7 @@ export class DataAwsServicequotasTemplates extends cdktn.TerraformDataSource {
   }
 
   // region - computed: false, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

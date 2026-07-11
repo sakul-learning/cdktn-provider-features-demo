@@ -56,7 +56,7 @@ export interface AppsyncGraphQlApiConfig extends cdktn.TerraformMetaArguments {
   */
   readonly logConfig?: AppsyncGraphQlApiLogConfig;
   /**
-  * The AWS Identity and Access Management service role ARN for a merged API.
+  * The AWS Identity and Access Management service role ARN for a merged API. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_graph_ql_api#merged_api_execution_role_arn AppsyncGraphQlApi#merged_api_execution_role_arn}
   */
@@ -93,16 +93,16 @@ export interface AppsyncGraphQlApiConfig extends cdktn.TerraformMetaArguments {
   readonly resolverCountLimit?: number;
   /**
   * An arbitrary set of tags (key-value pairs) for this GraphQL API.
-  *
-  *
+  * 
+  * 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_graph_ql_api#tags AppsyncGraphQlApi#tags}
   */
   readonly tags?: AppsyncGraphQlApiTags[] | cdktn.IResolvable;
   /**
   * Optional authorization configuration for using Amazon Cognito user pools with your GraphQL endpoint.
-  *
-  *
+  * 
+  * 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_graph_ql_api#user_pool_config AppsyncGraphQlApi#user_pool_config}
   */
@@ -115,8 +115,8 @@ export interface AppsyncGraphQlApiConfig extends cdktn.TerraformMetaArguments {
   readonly visibility?: string;
   /**
   * A flag indicating whether to use AWS X-Ray tracing for this GraphqlApi.
-  *
-  *
+  * 
+  * 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_graph_ql_api#xray_enabled AppsyncGraphQlApi#xray_enabled}
   */
@@ -241,7 +241,7 @@ export class AppsyncGraphQlApiAdditionalAuthenticationProvidersLambdaAuthorizerC
   }
 
   // authorizer_result_ttl_in_seconds - computed: true, optional: true, required: false
-  private _authorizerResultTtlInSeconds?: number;
+  private _authorizerResultTtlInSeconds?: number; 
   public get authorizerResultTtlInSeconds() {
     return this.getNumberAttribute('authorizer_result_ttl_in_seconds');
   }
@@ -257,7 +257,7 @@ export class AppsyncGraphQlApiAdditionalAuthenticationProvidersLambdaAuthorizerC
   }
 
   // authorizer_uri - computed: true, optional: true, required: false
-  private _authorizerUri?: string;
+  private _authorizerUri?: string; 
   public get authorizerUri() {
     return this.getStringAttribute('authorizer_uri');
   }
@@ -273,7 +273,7 @@ export class AppsyncGraphQlApiAdditionalAuthenticationProvidersLambdaAuthorizerC
   }
 
   // identity_validation_expression - computed: true, optional: true, required: false
-  private _identityValidationExpression?: string;
+  private _identityValidationExpression?: string; 
   public get identityValidationExpression() {
     return this.getStringAttribute('identity_validation_expression');
   }
@@ -303,14 +303,14 @@ export interface AppsyncGraphQlApiAdditionalAuthenticationProvidersOpenIdConnect
   readonly clientId?: string;
   /**
   * The number of milliseconds that a token is valid after it's issued to a user.
-  *
-  *
+  * 
+  * 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_graph_ql_api#iat_ttl AppsyncGraphQlApi#iat_ttl}
   */
   readonly iatTtl?: number;
   /**
-  * The issuer for the OIDC configuration.
+  * The issuer for the OIDC configuration. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_graph_ql_api#issuer AppsyncGraphQlApi#issuer}
   */
@@ -428,7 +428,7 @@ export class AppsyncGraphQlApiAdditionalAuthenticationProvidersOpenIdConnectConf
   }
 
   // auth_ttl - computed: true, optional: true, required: false
-  private _authTtl?: number;
+  private _authTtl?: number; 
   public get authTtl() {
     return this.getNumberAttribute('auth_ttl');
   }
@@ -444,7 +444,7 @@ export class AppsyncGraphQlApiAdditionalAuthenticationProvidersOpenIdConnectConf
   }
 
   // client_id - computed: true, optional: true, required: false
-  private _clientId?: string;
+  private _clientId?: string; 
   public get clientId() {
     return this.getStringAttribute('client_id');
   }
@@ -460,7 +460,7 @@ export class AppsyncGraphQlApiAdditionalAuthenticationProvidersOpenIdConnectConf
   }
 
   // iat_ttl - computed: true, optional: true, required: false
-  private _iatTtl?: number;
+  private _iatTtl?: number; 
   public get iatTtl() {
     return this.getNumberAttribute('iat_ttl');
   }
@@ -476,7 +476,7 @@ export class AppsyncGraphQlApiAdditionalAuthenticationProvidersOpenIdConnectConf
   }
 
   // issuer - computed: true, optional: true, required: false
-  private _issuer?: string;
+  private _issuer?: string; 
   public get issuer() {
     return this.getStringAttribute('issuer');
   }
@@ -493,7 +493,7 @@ export class AppsyncGraphQlApiAdditionalAuthenticationProvidersOpenIdConnectConf
 }
 export interface AppsyncGraphQlApiAdditionalAuthenticationProvidersUserPoolConfig {
   /**
-  * A regular expression for validating the incoming Amazon Cognito user pool app client ID.
+  * A regular expression for validating the incoming Amazon Cognito user pool app client ID. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_graph_ql_api#app_id_client_regex AppsyncGraphQlApi#app_id_client_regex}
   */
@@ -610,7 +610,7 @@ export class AppsyncGraphQlApiAdditionalAuthenticationProvidersUserPoolConfigOut
   }
 
   // app_id_client_regex - computed: true, optional: true, required: false
-  private _appIdClientRegex?: string;
+  private _appIdClientRegex?: string; 
   public get appIdClientRegex() {
     return this.getStringAttribute('app_id_client_regex');
   }
@@ -626,7 +626,7 @@ export class AppsyncGraphQlApiAdditionalAuthenticationProvidersUserPoolConfigOut
   }
 
   // aws_region - computed: true, optional: true, required: false
-  private _awsRegion?: string;
+  private _awsRegion?: string; 
   public get awsRegion() {
     return this.getStringAttribute('aws_region');
   }
@@ -642,7 +642,7 @@ export class AppsyncGraphQlApiAdditionalAuthenticationProvidersUserPoolConfigOut
   }
 
   // user_pool_id - computed: true, optional: true, required: false
-  private _userPoolId?: string;
+  private _userPoolId?: string; 
   public get userPoolId() {
     return this.getStringAttribute('user_pool_id');
   }
@@ -791,7 +791,7 @@ export class AppsyncGraphQlApiAdditionalAuthenticationProvidersOutputReference e
   }
 
   // authentication_type - computed: true, optional: true, required: false
-  private _authenticationType?: string;
+  private _authenticationType?: string; 
   public get authenticationType() {
     return this.getStringAttribute('authentication_type');
   }
@@ -877,24 +877,24 @@ export class AppsyncGraphQlApiAdditionalAuthenticationProvidersList extends cdkt
 export interface AppsyncGraphQlApiEnhancedMetricsConfig {
   /**
   * Controls how data source metrics will be emitted to CloudWatch. Data source metrics include:
-  *
-  *
+  * 
+  * 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_graph_ql_api#data_source_level_metrics_behavior AppsyncGraphQlApi#data_source_level_metrics_behavior}
   */
   readonly dataSourceLevelMetricsBehavior?: string;
   /**
   * Controls how operation metrics will be emitted to CloudWatch. Operation metrics include:
-  *
-  *
+  * 
+  * 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_graph_ql_api#operation_level_metrics_config AppsyncGraphQlApi#operation_level_metrics_config}
   */
   readonly operationLevelMetricsConfig?: string;
   /**
   * Controls how resolver metrics will be emitted to CloudWatch. Resolver metrics include:
-  *
-  *
+  * 
+  * 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_graph_ql_api#resolver_level_metrics_behavior AppsyncGraphQlApi#resolver_level_metrics_behavior}
   */
@@ -999,7 +999,7 @@ export class AppsyncGraphQlApiEnhancedMetricsConfigOutputReference extends cdktn
   }
 
   // data_source_level_metrics_behavior - computed: true, optional: true, required: false
-  private _dataSourceLevelMetricsBehavior?: string;
+  private _dataSourceLevelMetricsBehavior?: string; 
   public get dataSourceLevelMetricsBehavior() {
     return this.getStringAttribute('data_source_level_metrics_behavior');
   }
@@ -1015,7 +1015,7 @@ export class AppsyncGraphQlApiEnhancedMetricsConfigOutputReference extends cdktn
   }
 
   // operation_level_metrics_config - computed: true, optional: true, required: false
-  private _operationLevelMetricsConfig?: string;
+  private _operationLevelMetricsConfig?: string; 
   public get operationLevelMetricsConfig() {
     return this.getStringAttribute('operation_level_metrics_config');
   }
@@ -1031,7 +1031,7 @@ export class AppsyncGraphQlApiEnhancedMetricsConfigOutputReference extends cdktn
   }
 
   // resolver_level_metrics_behavior - computed: true, optional: true, required: false
-  private _resolverLevelMetricsBehavior?: string;
+  private _resolverLevelMetricsBehavior?: string; 
   public get resolverLevelMetricsBehavior() {
     return this.getStringAttribute('resolver_level_metrics_behavior');
   }
@@ -1165,7 +1165,7 @@ export class AppsyncGraphQlApiLambdaAuthorizerConfigOutputReference extends cdkt
   }
 
   // authorizer_result_ttl_in_seconds - computed: true, optional: true, required: false
-  private _authorizerResultTtlInSeconds?: number;
+  private _authorizerResultTtlInSeconds?: number; 
   public get authorizerResultTtlInSeconds() {
     return this.getNumberAttribute('authorizer_result_ttl_in_seconds');
   }
@@ -1181,7 +1181,7 @@ export class AppsyncGraphQlApiLambdaAuthorizerConfigOutputReference extends cdkt
   }
 
   // authorizer_uri - computed: true, optional: true, required: false
-  private _authorizerUri?: string;
+  private _authorizerUri?: string; 
   public get authorizerUri() {
     return this.getStringAttribute('authorizer_uri');
   }
@@ -1197,7 +1197,7 @@ export class AppsyncGraphQlApiLambdaAuthorizerConfigOutputReference extends cdkt
   }
 
   // identity_validation_expression - computed: true, optional: true, required: false
-  private _identityValidationExpression?: string;
+  private _identityValidationExpression?: string; 
   public get identityValidationExpression() {
     return this.getStringAttribute('identity_validation_expression');
   }
@@ -1331,7 +1331,7 @@ export class AppsyncGraphQlApiLogConfigOutputReference extends cdktn.ComplexObje
   }
 
   // cloudwatch_logs_role_arn - computed: true, optional: true, required: false
-  private _cloudwatchLogsRoleArn?: string;
+  private _cloudwatchLogsRoleArn?: string; 
   public get cloudwatchLogsRoleArn() {
     return this.getStringAttribute('cloudwatch_logs_role_arn');
   }
@@ -1347,7 +1347,7 @@ export class AppsyncGraphQlApiLogConfigOutputReference extends cdktn.ComplexObje
   }
 
   // exclude_verbose_content - computed: true, optional: true, required: false
-  private _excludeVerboseContent?: boolean | cdktn.IResolvable;
+  private _excludeVerboseContent?: boolean | cdktn.IResolvable; 
   public get excludeVerboseContent() {
     return this.getBooleanAttribute('exclude_verbose_content');
   }
@@ -1363,7 +1363,7 @@ export class AppsyncGraphQlApiLogConfigOutputReference extends cdktn.ComplexObje
   }
 
   // field_log_level - computed: true, optional: true, required: false
-  private _fieldLogLevel?: string;
+  private _fieldLogLevel?: string; 
   public get fieldLogLevel() {
     return this.getStringAttribute('field_log_level');
   }
@@ -1393,14 +1393,14 @@ export interface AppsyncGraphQlApiOpenIdConnectConfig {
   readonly clientId?: string;
   /**
   * The number of milliseconds that a token is valid after it's issued to a user.
-  *
-  *
+  * 
+  * 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_graph_ql_api#iat_ttl AppsyncGraphQlApi#iat_ttl}
   */
   readonly iatTtl?: number;
   /**
-  * The issuer for the OIDC configuration.
+  * The issuer for the OIDC configuration. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_graph_ql_api#issuer AppsyncGraphQlApi#issuer}
   */
@@ -1518,7 +1518,7 @@ export class AppsyncGraphQlApiOpenIdConnectConfigOutputReference extends cdktn.C
   }
 
   // auth_ttl - computed: true, optional: true, required: false
-  private _authTtl?: number;
+  private _authTtl?: number; 
   public get authTtl() {
     return this.getNumberAttribute('auth_ttl');
   }
@@ -1534,7 +1534,7 @@ export class AppsyncGraphQlApiOpenIdConnectConfigOutputReference extends cdktn.C
   }
 
   // client_id - computed: true, optional: true, required: false
-  private _clientId?: string;
+  private _clientId?: string; 
   public get clientId() {
     return this.getStringAttribute('client_id');
   }
@@ -1550,7 +1550,7 @@ export class AppsyncGraphQlApiOpenIdConnectConfigOutputReference extends cdktn.C
   }
 
   // iat_ttl - computed: true, optional: true, required: false
-  private _iatTtl?: number;
+  private _iatTtl?: number; 
   public get iatTtl() {
     return this.getNumberAttribute('iat_ttl');
   }
@@ -1566,7 +1566,7 @@ export class AppsyncGraphQlApiOpenIdConnectConfigOutputReference extends cdktn.C
   }
 
   // issuer - computed: true, optional: true, required: false
-  private _issuer?: string;
+  private _issuer?: string; 
   public get issuer() {
     return this.getStringAttribute('issuer');
   }
@@ -1679,7 +1679,7 @@ export class AppsyncGraphQlApiTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1695,7 +1695,7 @@ export class AppsyncGraphQlApiTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1868,7 +1868,7 @@ export class AppsyncGraphQlApiUserPoolConfigOutputReference extends cdktn.Comple
   }
 
   // app_id_client_regex - computed: true, optional: true, required: false
-  private _appIdClientRegex?: string;
+  private _appIdClientRegex?: string; 
   public get appIdClientRegex() {
     return this.getStringAttribute('app_id_client_regex');
   }
@@ -1884,7 +1884,7 @@ export class AppsyncGraphQlApiUserPoolConfigOutputReference extends cdktn.Comple
   }
 
   // aws_region - computed: true, optional: true, required: false
-  private _awsRegion?: string;
+  private _awsRegion?: string; 
   public get awsRegion() {
     return this.getStringAttribute('aws_region');
   }
@@ -1900,7 +1900,7 @@ export class AppsyncGraphQlApiUserPoolConfigOutputReference extends cdktn.Comple
   }
 
   // default_action - computed: true, optional: true, required: false
-  private _defaultAction?: string;
+  private _defaultAction?: string; 
   public get defaultAction() {
     return this.getStringAttribute('default_action');
   }
@@ -1916,7 +1916,7 @@ export class AppsyncGraphQlApiUserPoolConfigOutputReference extends cdktn.Comple
   }
 
   // user_pool_id - computed: true, optional: true, required: false
-  private _userPoolId?: string;
+  private _userPoolId?: string; 
   public get userPoolId() {
     return this.getStringAttribute('user_pool_id');
   }
@@ -2028,7 +2028,7 @@ export class AppsyncGraphQlApi extends cdktn.TerraformResource {
   }
 
   // api_type - computed: true, optional: true, required: false
-  private _apiType?: string;
+  private _apiType?: string; 
   public get apiType() {
     return this.getStringAttribute('api_type');
   }
@@ -2049,7 +2049,7 @@ export class AppsyncGraphQlApi extends cdktn.TerraformResource {
   }
 
   // authentication_type - computed: false, optional: false, required: true
-  private _authenticationType?: string;
+  private _authenticationType?: string; 
   public get authenticationType() {
     return this.getStringAttribute('authentication_type');
   }
@@ -2078,7 +2078,7 @@ export class AppsyncGraphQlApi extends cdktn.TerraformResource {
   }
 
   // environment_variables - computed: true, optional: true, required: false
-  private _environmentVariables?: { [key: string]: string };
+  private _environmentVariables?: { [key: string]: string }; 
   public get environmentVariables() {
     return this.getStringMapAttribute('environment_variables');
   }
@@ -2114,7 +2114,7 @@ export class AppsyncGraphQlApi extends cdktn.TerraformResource {
   }
 
   // introspection_config - computed: true, optional: true, required: false
-  private _introspectionConfig?: string;
+  private _introspectionConfig?: string; 
   public get introspectionConfig() {
     return this.getStringAttribute('introspection_config');
   }
@@ -2162,7 +2162,7 @@ export class AppsyncGraphQlApi extends cdktn.TerraformResource {
   }
 
   // merged_api_execution_role_arn - computed: true, optional: true, required: false
-  private _mergedApiExecutionRoleArn?: string;
+  private _mergedApiExecutionRoleArn?: string; 
   public get mergedApiExecutionRoleArn() {
     return this.getStringAttribute('merged_api_execution_role_arn');
   }
@@ -2178,7 +2178,7 @@ export class AppsyncGraphQlApi extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2207,7 +2207,7 @@ export class AppsyncGraphQlApi extends cdktn.TerraformResource {
   }
 
   // owner_contact - computed: true, optional: true, required: false
-  private _ownerContact?: string;
+  private _ownerContact?: string; 
   public get ownerContact() {
     return this.getStringAttribute('owner_contact');
   }
@@ -2223,7 +2223,7 @@ export class AppsyncGraphQlApi extends cdktn.TerraformResource {
   }
 
   // query_depth_limit - computed: true, optional: true, required: false
-  private _queryDepthLimit?: number;
+  private _queryDepthLimit?: number; 
   public get queryDepthLimit() {
     return this.getNumberAttribute('query_depth_limit');
   }
@@ -2249,7 +2249,7 @@ export class AppsyncGraphQlApi extends cdktn.TerraformResource {
   }
 
   // resolver_count_limit - computed: true, optional: true, required: false
-  private _resolverCountLimit?: number;
+  private _resolverCountLimit?: number; 
   public get resolverCountLimit() {
     return this.getNumberAttribute('resolver_count_limit');
   }
@@ -2297,7 +2297,7 @@ export class AppsyncGraphQlApi extends cdktn.TerraformResource {
   }
 
   // visibility - computed: true, optional: true, required: false
-  private _visibility?: string;
+  private _visibility?: string; 
   public get visibility() {
     return this.getStringAttribute('visibility');
   }
@@ -2313,7 +2313,7 @@ export class AppsyncGraphQlApi extends cdktn.TerraformResource {
   }
 
   // xray_enabled - computed: true, optional: true, required: false
-  private _xrayEnabled?: boolean | cdktn.IResolvable;
+  private _xrayEnabled?: boolean | cdktn.IResolvable; 
   public get xrayEnabled() {
     return this.getBooleanAttribute('xray_enabled');
   }

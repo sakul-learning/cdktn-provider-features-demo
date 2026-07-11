@@ -121,7 +121,7 @@ export class CloudwatchLogSubscriptionFilter extends cdktn.TerraformResource {
   // ==========
 
   // apply_on_transformed_logs - computed: true, optional: true, required: false
-  private _applyOnTransformedLogs?: boolean | cdktn.IResolvable;
+  private _applyOnTransformedLogs?: boolean | cdktn.IResolvable; 
   public get applyOnTransformedLogs() {
     return this.getBooleanAttribute('apply_on_transformed_logs');
   }
@@ -137,7 +137,7 @@ export class CloudwatchLogSubscriptionFilter extends cdktn.TerraformResource {
   }
 
   // destination_arn - computed: false, optional: false, required: true
-  private _destinationArn?: string;
+  private _destinationArn?: string; 
   public get destinationArn() {
     return this.getStringAttribute('destination_arn');
   }
@@ -150,7 +150,7 @@ export class CloudwatchLogSubscriptionFilter extends cdktn.TerraformResource {
   }
 
   // distribution - computed: false, optional: true, required: false
-  private _distribution?: string;
+  private _distribution?: string; 
   public get distribution() {
     return this.getStringAttribute('distribution');
   }
@@ -166,7 +166,7 @@ export class CloudwatchLogSubscriptionFilter extends cdktn.TerraformResource {
   }
 
   // emit_system_fields - computed: false, optional: true, required: false
-  private _emitSystemFields?: string[];
+  private _emitSystemFields?: string[]; 
   public get emitSystemFields() {
     return cdktn.Fn.tolist(this.getListAttribute('emit_system_fields'));
   }
@@ -182,7 +182,7 @@ export class CloudwatchLogSubscriptionFilter extends cdktn.TerraformResource {
   }
 
   // filter_pattern - computed: false, optional: false, required: true
-  private _filterPattern?: string;
+  private _filterPattern?: string; 
   public get filterPattern() {
     return this.getStringAttribute('filter_pattern');
   }
@@ -195,7 +195,7 @@ export class CloudwatchLogSubscriptionFilter extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -211,7 +211,7 @@ export class CloudwatchLogSubscriptionFilter extends cdktn.TerraformResource {
   }
 
   // log_group_name - computed: false, optional: false, required: true
-  private _logGroupName?: string;
+  private _logGroupName?: string; 
   public get logGroupName() {
     return this.getStringAttribute('log_group_name');
   }
@@ -224,7 +224,7 @@ export class CloudwatchLogSubscriptionFilter extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -237,7 +237,7 @@ export class CloudwatchLogSubscriptionFilter extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -253,7 +253,7 @@ export class CloudwatchLogSubscriptionFilter extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }

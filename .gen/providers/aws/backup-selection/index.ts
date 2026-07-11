@@ -151,7 +151,7 @@ export class BackupSelectionConditionStringEqualsOutputReference extends cdktn.C
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -164,7 +164,7 @@ export class BackupSelectionConditionStringEqualsOutputReference extends cdktn.C
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -294,7 +294,7 @@ export class BackupSelectionConditionStringLikeOutputReference extends cdktn.Com
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -307,7 +307,7 @@ export class BackupSelectionConditionStringLikeOutputReference extends cdktn.Com
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -437,7 +437,7 @@ export class BackupSelectionConditionStringNotEqualsOutputReference extends cdkt
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -450,7 +450,7 @@ export class BackupSelectionConditionStringNotEqualsOutputReference extends cdkt
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -580,7 +580,7 @@ export class BackupSelectionConditionStringNotLikeOutputReference extends cdktn.
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -593,7 +593,7 @@ export class BackupSelectionConditionStringNotLikeOutputReference extends cdktn.
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -963,7 +963,7 @@ export class BackupSelectionSelectionTagOutputReference extends cdktn.ComplexObj
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -976,7 +976,7 @@ export class BackupSelectionSelectionTagOutputReference extends cdktn.ComplexObj
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -989,7 +989,7 @@ export class BackupSelectionSelectionTagOutputReference extends cdktn.ComplexObj
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1088,7 +1088,7 @@ export class BackupSelection extends cdktn.TerraformResource {
   // ==========
 
   // iam_role_arn - computed: false, optional: false, required: true
-  private _iamRoleArn?: string;
+  private _iamRoleArn?: string; 
   public get iamRoleArn() {
     return this.getStringAttribute('iam_role_arn');
   }
@@ -1101,7 +1101,7 @@ export class BackupSelection extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -1117,7 +1117,7 @@ export class BackupSelection extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1130,7 +1130,7 @@ export class BackupSelection extends cdktn.TerraformResource {
   }
 
   // not_resources - computed: true, optional: true, required: false
-  private _notResources?: string[];
+  private _notResources?: string[]; 
   public get notResources() {
     return cdktn.Fn.tolist(this.getListAttribute('not_resources'));
   }
@@ -1146,7 +1146,7 @@ export class BackupSelection extends cdktn.TerraformResource {
   }
 
   // plan_id - computed: false, optional: false, required: true
-  private _planId?: string;
+  private _planId?: string; 
   public get planId() {
     return this.getStringAttribute('plan_id');
   }
@@ -1159,7 +1159,7 @@ export class BackupSelection extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1175,7 +1175,7 @@ export class BackupSelection extends cdktn.TerraformResource {
   }
 
   // resources - computed: false, optional: true, required: false
-  private _resources?: string[];
+  private _resources?: string[]; 
   public get resources() {
     return cdktn.Fn.tolist(this.getListAttribute('resources'));
   }

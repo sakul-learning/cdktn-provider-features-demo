@@ -137,7 +137,7 @@ export class IotanalyticsChannelChannelStorageCustomerManagedS3OutputReference e
   }
 
   // bucket - computed: true, optional: true, required: false
-  private _bucket?: string;
+  private _bucket?: string; 
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -153,7 +153,7 @@ export class IotanalyticsChannelChannelStorageCustomerManagedS3OutputReference e
   }
 
   // key_prefix - computed: true, optional: true, required: false
-  private _keyPrefix?: string;
+  private _keyPrefix?: string; 
   public get keyPrefix() {
     return this.getStringAttribute('key_prefix');
   }
@@ -169,7 +169,7 @@ export class IotanalyticsChannelChannelStorageCustomerManagedS3OutputReference e
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -296,7 +296,7 @@ export class IotanalyticsChannelChannelStorageOutputReference extends cdktn.Comp
   }
 
   // service_managed_s3 - computed: true, optional: true, required: false
-  private _serviceManagedS3?: string;
+  private _serviceManagedS3?: string; 
   public get serviceManagedS3() {
     return this.getStringAttribute('service_managed_s3');
   }
@@ -407,7 +407,7 @@ export class IotanalyticsChannelRetentionPeriodOutputReference extends cdktn.Com
   }
 
   // number_of_days - computed: true, optional: true, required: false
-  private _numberOfDays?: number;
+  private _numberOfDays?: number; 
   public get numberOfDays() {
     return this.getNumberAttribute('number_of_days');
   }
@@ -423,7 +423,7 @@ export class IotanalyticsChannelRetentionPeriodOutputReference extends cdktn.Com
   }
 
   // unlimited - computed: true, optional: true, required: false
-  private _unlimited?: boolean | cdktn.IResolvable;
+  private _unlimited?: boolean | cdktn.IResolvable; 
   public get unlimited() {
     return this.getBooleanAttribute('unlimited');
   }
@@ -536,7 +536,7 @@ export class IotanalyticsChannelTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -552,7 +552,7 @@ export class IotanalyticsChannelTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -654,7 +654,7 @@ export class IotanalyticsChannel extends cdktn.TerraformResource {
   }
 
   // channel_name - computed: true, optional: true, required: false
-  private _channelName?: string;
+  private _channelName?: string; 
   public get channelName() {
     return this.getStringAttribute('channel_name');
   }

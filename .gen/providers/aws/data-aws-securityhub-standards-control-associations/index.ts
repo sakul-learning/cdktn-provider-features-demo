@@ -198,7 +198,7 @@ export class DataAwsSecurityhubStandardsControlAssociations extends cdktn.Terraf
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -214,7 +214,7 @@ export class DataAwsSecurityhubStandardsControlAssociations extends cdktn.Terraf
   }
 
   // security_control_id - computed: false, optional: false, required: true
-  private _securityControlId?: string;
+  private _securityControlId?: string; 
   public get securityControlId() {
     return this.getStringAttribute('security_control_id');
   }

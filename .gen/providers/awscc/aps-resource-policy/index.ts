@@ -85,7 +85,7 @@ export class ApsResourcePolicy extends cdktn.TerraformResource {
   }
 
   // policy_document - computed: false, optional: false, required: true
-  private _policyDocument?: string;
+  private _policyDocument?: string; 
   public get policyDocument() {
     return this.getStringAttribute('policy_document');
   }
@@ -98,7 +98,7 @@ export class ApsResourcePolicy extends cdktn.TerraformResource {
   }
 
   // workspace_arn - computed: false, optional: false, required: true
-  private _workspaceArn?: string;
+  private _workspaceArn?: string; 
   public get workspaceArn() {
     return this.getStringAttribute('workspace_arn');
   }

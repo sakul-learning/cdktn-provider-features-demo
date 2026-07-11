@@ -147,7 +147,7 @@ export class VpclatticeResourceConfigurationResourceConfigurationDefinitionArnRe
   }
 
   // arn - computed: false, optional: false, required: true
-  private _arn?: string;
+  private _arn?: string; 
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -277,7 +277,7 @@ export class VpclatticeResourceConfigurationResourceConfigurationDefinitionDnsRe
   }
 
   // domain_name - computed: false, optional: false, required: true
-  private _domainName?: string;
+  private _domainName?: string; 
   public get domainName() {
     return this.getStringAttribute('domain_name');
   }
@@ -290,7 +290,7 @@ export class VpclatticeResourceConfigurationResourceConfigurationDefinitionDnsRe
   }
 
   // ip_address_type - computed: false, optional: false, required: true
-  private _ipAddressType?: string;
+  private _ipAddressType?: string; 
   public get ipAddressType() {
     return this.getStringAttribute('ip_address_type');
   }
@@ -403,7 +403,7 @@ export class VpclatticeResourceConfigurationResourceConfigurationDefinitionIpRes
   }
 
   // ip_address - computed: false, optional: false, required: true
-  private _ipAddress?: string;
+  private _ipAddress?: string; 
   public get ipAddress() {
     return this.getStringAttribute('ip_address');
   }
@@ -742,7 +742,7 @@ export class VpclatticeResourceConfigurationTimeoutsOutputReference extends cdkt
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -758,7 +758,7 @@ export class VpclatticeResourceConfigurationTimeoutsOutputReference extends cdkt
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -774,7 +774,7 @@ export class VpclatticeResourceConfigurationTimeoutsOutputReference extends cdkt
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -860,7 +860,7 @@ export class VpclatticeResourceConfiguration extends cdktn.TerraformResource {
   // ==========
 
   // allow_association_to_shareable_service_network - computed: true, optional: true, required: false
-  private _allowAssociationToShareableServiceNetwork?: boolean | cdktn.IResolvable;
+  private _allowAssociationToShareableServiceNetwork?: boolean | cdktn.IResolvable; 
   public get allowAssociationToShareableServiceNetwork() {
     return this.getBooleanAttribute('allow_association_to_shareable_service_network');
   }
@@ -881,7 +881,7 @@ export class VpclatticeResourceConfiguration extends cdktn.TerraformResource {
   }
 
   // custom_domain_name - computed: false, optional: true, required: false
-  private _customDomainName?: string;
+  private _customDomainName?: string; 
   public get customDomainName() {
     return this.getStringAttribute('custom_domain_name');
   }
@@ -902,7 +902,7 @@ export class VpclatticeResourceConfiguration extends cdktn.TerraformResource {
   }
 
   // domain_verification_id - computed: true, optional: true, required: false
-  private _domainVerificationId?: string;
+  private _domainVerificationId?: string; 
   public get domainVerificationId() {
     return this.getStringAttribute('domain_verification_id');
   }
@@ -928,7 +928,7 @@ export class VpclatticeResourceConfiguration extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -941,7 +941,7 @@ export class VpclatticeResourceConfiguration extends cdktn.TerraformResource {
   }
 
   // port_ranges - computed: true, optional: true, required: false
-  private _portRanges?: string[];
+  private _portRanges?: string[]; 
   public get portRanges() {
     return cdktn.Fn.tolist(this.getListAttribute('port_ranges'));
   }
@@ -957,7 +957,7 @@ export class VpclatticeResourceConfiguration extends cdktn.TerraformResource {
   }
 
   // protocol - computed: true, optional: true, required: false
-  private _protocol?: string;
+  private _protocol?: string; 
   public get protocol() {
     return this.getStringAttribute('protocol');
   }
@@ -973,7 +973,7 @@ export class VpclatticeResourceConfiguration extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -989,7 +989,7 @@ export class VpclatticeResourceConfiguration extends cdktn.TerraformResource {
   }
 
   // resource_configuration_group_id - computed: false, optional: true, required: false
-  private _resourceConfigurationGroupId?: string;
+  private _resourceConfigurationGroupId?: string; 
   public get resourceConfigurationGroupId() {
     return this.getStringAttribute('resource_configuration_group_id');
   }
@@ -1005,7 +1005,7 @@ export class VpclatticeResourceConfiguration extends cdktn.TerraformResource {
   }
 
   // resource_gateway_identifier - computed: true, optional: true, required: false
-  private _resourceGatewayIdentifier?: string;
+  private _resourceGatewayIdentifier?: string; 
   public get resourceGatewayIdentifier() {
     return this.getStringAttribute('resource_gateway_identifier');
   }
@@ -1021,7 +1021,7 @@ export class VpclatticeResourceConfiguration extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -1043,7 +1043,7 @@ export class VpclatticeResourceConfiguration extends cdktn.TerraformResource {
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }

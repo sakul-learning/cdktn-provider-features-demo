@@ -200,7 +200,7 @@ export class RouteTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -216,7 +216,7 @@ export class RouteTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -232,7 +232,7 @@ export class RouteTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -323,7 +323,7 @@ export class Route extends cdktn.TerraformResource {
   // ==========
 
   // carrier_gateway_id - computed: false, optional: true, required: false
-  private _carrierGatewayId?: string;
+  private _carrierGatewayId?: string; 
   public get carrierGatewayId() {
     return this.getStringAttribute('carrier_gateway_id');
   }
@@ -339,7 +339,7 @@ export class Route extends cdktn.TerraformResource {
   }
 
   // core_network_arn - computed: false, optional: true, required: false
-  private _coreNetworkArn?: string;
+  private _coreNetworkArn?: string; 
   public get coreNetworkArn() {
     return this.getStringAttribute('core_network_arn');
   }
@@ -355,7 +355,7 @@ export class Route extends cdktn.TerraformResource {
   }
 
   // destination_cidr_block - computed: false, optional: true, required: false
-  private _destinationCidrBlock?: string;
+  private _destinationCidrBlock?: string; 
   public get destinationCidrBlock() {
     return this.getStringAttribute('destination_cidr_block');
   }
@@ -371,7 +371,7 @@ export class Route extends cdktn.TerraformResource {
   }
 
   // destination_ipv6_cidr_block - computed: false, optional: true, required: false
-  private _destinationIpv6CidrBlock?: string;
+  private _destinationIpv6CidrBlock?: string; 
   public get destinationIpv6CidrBlock() {
     return this.getStringAttribute('destination_ipv6_cidr_block');
   }
@@ -387,7 +387,7 @@ export class Route extends cdktn.TerraformResource {
   }
 
   // destination_prefix_list_id - computed: false, optional: true, required: false
-  private _destinationPrefixListId?: string;
+  private _destinationPrefixListId?: string; 
   public get destinationPrefixListId() {
     return this.getStringAttribute('destination_prefix_list_id');
   }
@@ -403,7 +403,7 @@ export class Route extends cdktn.TerraformResource {
   }
 
   // egress_only_gateway_id - computed: false, optional: true, required: false
-  private _egressOnlyGatewayId?: string;
+  private _egressOnlyGatewayId?: string; 
   public get egressOnlyGatewayId() {
     return this.getStringAttribute('egress_only_gateway_id');
   }
@@ -419,7 +419,7 @@ export class Route extends cdktn.TerraformResource {
   }
 
   // gateway_id - computed: false, optional: true, required: false
-  private _gatewayId?: string;
+  private _gatewayId?: string; 
   public get gatewayId() {
     return this.getStringAttribute('gateway_id');
   }
@@ -435,7 +435,7 @@ export class Route extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -461,7 +461,7 @@ export class Route extends cdktn.TerraformResource {
   }
 
   // local_gateway_id - computed: false, optional: true, required: false
-  private _localGatewayId?: string;
+  private _localGatewayId?: string; 
   public get localGatewayId() {
     return this.getStringAttribute('local_gateway_id');
   }
@@ -477,7 +477,7 @@ export class Route extends cdktn.TerraformResource {
   }
 
   // nat_gateway_id - computed: false, optional: true, required: false
-  private _natGatewayId?: string;
+  private _natGatewayId?: string; 
   public get natGatewayId() {
     return this.getStringAttribute('nat_gateway_id');
   }
@@ -493,7 +493,7 @@ export class Route extends cdktn.TerraformResource {
   }
 
   // network_interface_id - computed: true, optional: true, required: false
-  private _networkInterfaceId?: string;
+  private _networkInterfaceId?: string; 
   public get networkInterfaceId() {
     return this.getStringAttribute('network_interface_id');
   }
@@ -509,7 +509,7 @@ export class Route extends cdktn.TerraformResource {
   }
 
   // odb_network_arn - computed: false, optional: true, required: false
-  private _odbNetworkArn?: string;
+  private _odbNetworkArn?: string; 
   public get odbNetworkArn() {
     return this.getStringAttribute('odb_network_arn');
   }
@@ -530,7 +530,7 @@ export class Route extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -546,7 +546,7 @@ export class Route extends cdktn.TerraformResource {
   }
 
   // route_table_id - computed: false, optional: false, required: true
-  private _routeTableId?: string;
+  private _routeTableId?: string; 
   public get routeTableId() {
     return this.getStringAttribute('route_table_id');
   }
@@ -564,7 +564,7 @@ export class Route extends cdktn.TerraformResource {
   }
 
   // transit_gateway_id - computed: false, optional: true, required: false
-  private _transitGatewayId?: string;
+  private _transitGatewayId?: string; 
   public get transitGatewayId() {
     return this.getStringAttribute('transit_gateway_id');
   }
@@ -580,7 +580,7 @@ export class Route extends cdktn.TerraformResource {
   }
 
   // vpc_endpoint_id - computed: false, optional: true, required: false
-  private _vpcEndpointId?: string;
+  private _vpcEndpointId?: string; 
   public get vpcEndpointId() {
     return this.getStringAttribute('vpc_endpoint_id');
   }
@@ -596,7 +596,7 @@ export class Route extends cdktn.TerraformResource {
   }
 
   // vpc_peering_connection_id - computed: false, optional: true, required: false
-  private _vpcPeeringConnectionId?: string;
+  private _vpcPeeringConnectionId?: string; 
   public get vpcPeeringConnectionId() {
     return this.getStringAttribute('vpc_peering_connection_id');
   }

@@ -119,7 +119,7 @@ export class CertificatemanagerAcmeEndpointCertificateAuthorityPublicCertificate
   }
 
   // allowed_key_algorithms - computed: true, optional: true, required: false
-  private _allowedKeyAlgorithms?: string[];
+  private _allowedKeyAlgorithms?: string[]; 
   public get allowedKeyAlgorithms() {
     return this.getListAttribute('allowed_key_algorithms');
   }
@@ -329,7 +329,7 @@ export class CertificatemanagerAcmeEndpointCertificateTagsOutputReference extend
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -345,7 +345,7 @@ export class CertificatemanagerAcmeEndpointCertificateTagsOutputReference extend
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -482,7 +482,7 @@ export class CertificatemanagerAcmeEndpointTagsOutputReference extends cdktn.Com
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -498,7 +498,7 @@ export class CertificatemanagerAcmeEndpointTagsOutputReference extends cdktn.Com
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -601,7 +601,7 @@ export class CertificatemanagerAcmeEndpoint extends cdktn.TerraformResource {
   }
 
   // authorization_behavior - computed: false, optional: false, required: true
-  private _authorizationBehavior?: string;
+  private _authorizationBehavior?: string; 
   public get authorizationBehavior() {
     return this.getStringAttribute('authorization_behavior');
   }
@@ -643,7 +643,7 @@ export class CertificatemanagerAcmeEndpoint extends cdktn.TerraformResource {
   }
 
   // contact - computed: true, optional: true, required: false
-  private _contact?: string;
+  private _contact?: string; 
   public get contact() {
     return this.getStringAttribute('contact');
   }

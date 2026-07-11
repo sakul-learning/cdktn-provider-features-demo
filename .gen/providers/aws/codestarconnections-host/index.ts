@@ -158,7 +158,7 @@ export class CodestarconnectionsHostTimeoutsOutputReference extends cdktn.Comple
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -174,7 +174,7 @@ export class CodestarconnectionsHostTimeoutsOutputReference extends cdktn.Comple
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -190,7 +190,7 @@ export class CodestarconnectionsHostTimeoutsOutputReference extends cdktn.Comple
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -325,7 +325,7 @@ export class CodestarconnectionsHostVpcConfigurationOutputReference extends cdkt
   }
 
   // security_group_ids - computed: false, optional: false, required: true
-  private _securityGroupIds?: string[];
+  private _securityGroupIds?: string[]; 
   public get securityGroupIds() {
     return cdktn.Fn.tolist(this.getListAttribute('security_group_ids'));
   }
@@ -338,7 +338,7 @@ export class CodestarconnectionsHostVpcConfigurationOutputReference extends cdkt
   }
 
   // subnet_ids - computed: false, optional: false, required: true
-  private _subnetIds?: string[];
+  private _subnetIds?: string[]; 
   public get subnetIds() {
     return cdktn.Fn.tolist(this.getListAttribute('subnet_ids'));
   }
@@ -351,7 +351,7 @@ export class CodestarconnectionsHostVpcConfigurationOutputReference extends cdkt
   }
 
   // tls_certificate - computed: false, optional: true, required: false
-  private _tlsCertificate?: string;
+  private _tlsCertificate?: string; 
   public get tlsCertificate() {
     return this.getStringAttribute('tls_certificate');
   }
@@ -367,7 +367,7 @@ export class CodestarconnectionsHostVpcConfigurationOutputReference extends cdkt
   }
 
   // vpc_id - computed: false, optional: false, required: true
-  private _vpcId?: string;
+  private _vpcId?: string; 
   public get vpcId() {
     return this.getStringAttribute('vpc_id');
   }
@@ -449,7 +449,7 @@ export class CodestarconnectionsHost extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -465,7 +465,7 @@ export class CodestarconnectionsHost extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -478,7 +478,7 @@ export class CodestarconnectionsHost extends cdktn.TerraformResource {
   }
 
   // provider_endpoint - computed: false, optional: false, required: true
-  private _providerEndpoint?: string;
+  private _providerEndpoint?: string; 
   public get providerEndpoint() {
     return this.getStringAttribute('provider_endpoint');
   }
@@ -491,7 +491,7 @@ export class CodestarconnectionsHost extends cdktn.TerraformResource {
   }
 
   // provider_type - computed: false, optional: false, required: true
-  private _providerType?: string;
+  private _providerType?: string; 
   public get providerType() {
     return this.getStringAttribute('provider_type');
   }
@@ -504,7 +504,7 @@ export class CodestarconnectionsHost extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

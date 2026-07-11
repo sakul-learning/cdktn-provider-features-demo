@@ -76,7 +76,7 @@ export class ApigatewayAccount extends cdktn.TerraformResource {
   }
 
   // cloudwatch_role_arn - computed: true, optional: true, required: false
-  private _cloudwatchRoleArn?: string;
+  private _cloudwatchRoleArn?: string; 
   public get cloudwatchRoleArn() {
     return this.getStringAttribute('cloudwatch_role_arn');
   }

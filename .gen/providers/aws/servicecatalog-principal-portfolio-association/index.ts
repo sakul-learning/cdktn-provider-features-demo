@@ -156,7 +156,7 @@ export class ServicecatalogPrincipalPortfolioAssociationTimeoutsOutputReference 
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -172,7 +172,7 @@ export class ServicecatalogPrincipalPortfolioAssociationTimeoutsOutputReference 
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -188,7 +188,7 @@ export class ServicecatalogPrincipalPortfolioAssociationTimeoutsOutputReference 
   }
 
   // read - computed: false, optional: true, required: false
-  private _read?: string;
+  private _read?: string; 
   public get read() {
     return this.getStringAttribute('read');
   }
@@ -268,7 +268,7 @@ export class ServicecatalogPrincipalPortfolioAssociation extends cdktn.Terraform
   // ==========
 
   // accept_language - computed: false, optional: true, required: false
-  private _acceptLanguage?: string;
+  private _acceptLanguage?: string; 
   public get acceptLanguage() {
     return this.getStringAttribute('accept_language');
   }
@@ -284,7 +284,7 @@ export class ServicecatalogPrincipalPortfolioAssociation extends cdktn.Terraform
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -300,7 +300,7 @@ export class ServicecatalogPrincipalPortfolioAssociation extends cdktn.Terraform
   }
 
   // portfolio_id - computed: false, optional: false, required: true
-  private _portfolioId?: string;
+  private _portfolioId?: string; 
   public get portfolioId() {
     return this.getStringAttribute('portfolio_id');
   }
@@ -313,7 +313,7 @@ export class ServicecatalogPrincipalPortfolioAssociation extends cdktn.Terraform
   }
 
   // principal_arn - computed: false, optional: false, required: true
-  private _principalArn?: string;
+  private _principalArn?: string; 
   public get principalArn() {
     return this.getStringAttribute('principal_arn');
   }
@@ -326,7 +326,7 @@ export class ServicecatalogPrincipalPortfolioAssociation extends cdktn.Terraform
   }
 
   // principal_type - computed: false, optional: true, required: false
-  private _principalType?: string;
+  private _principalType?: string; 
   public get principalType() {
     return this.getStringAttribute('principal_type');
   }
@@ -342,7 +342,7 @@ export class ServicecatalogPrincipalPortfolioAssociation extends cdktn.Terraform
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

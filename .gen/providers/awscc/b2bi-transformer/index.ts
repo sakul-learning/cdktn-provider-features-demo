@@ -152,7 +152,7 @@ export class B2BiTransformerEdiTypeX12DetailsOutputReference extends cdktn.Compl
   }
 
   // transaction_set - computed: true, optional: true, required: false
-  private _transactionSet?: string;
+  private _transactionSet?: string; 
   public get transactionSet() {
     return this.getStringAttribute('transaction_set');
   }
@@ -168,7 +168,7 @@ export class B2BiTransformerEdiTypeX12DetailsOutputReference extends cdktn.Compl
   }
 
   // version - computed: true, optional: true, required: false
-  private _version?: string;
+  private _version?: string; 
   public get version() {
     return this.getStringAttribute('version');
   }
@@ -356,7 +356,7 @@ export class B2BiTransformerInputConversionAdvancedOptionsX12SplitOptionsOutputR
   }
 
   // split_by - computed: true, optional: true, required: false
-  private _splitBy?: string;
+  private _splitBy?: string; 
   public get splitBy() {
     return this.getStringAttribute('split_by');
   }
@@ -484,7 +484,7 @@ export class B2BiTransformerInputConversionAdvancedOptionsX12ValidationOptionsVa
   }
 
   // codes_to_add - computed: true, optional: true, required: false
-  private _codesToAdd?: string[];
+  private _codesToAdd?: string[]; 
   public get codesToAdd() {
     return this.getListAttribute('codes_to_add');
   }
@@ -500,7 +500,7 @@ export class B2BiTransformerInputConversionAdvancedOptionsX12ValidationOptionsVa
   }
 
   // codes_to_remove - computed: true, optional: true, required: false
-  private _codesToRemove?: string[];
+  private _codesToRemove?: string[]; 
   public get codesToRemove() {
     return this.getListAttribute('codes_to_remove');
   }
@@ -516,7 +516,7 @@ export class B2BiTransformerInputConversionAdvancedOptionsX12ValidationOptionsVa
   }
 
   // element_id - computed: true, optional: true, required: false
-  private _elementId?: string;
+  private _elementId?: string; 
   public get elementId() {
     return this.getStringAttribute('element_id');
   }
@@ -644,7 +644,7 @@ export class B2BiTransformerInputConversionAdvancedOptionsX12ValidationOptionsVa
   }
 
   // element_id - computed: true, optional: true, required: false
-  private _elementId?: string;
+  private _elementId?: string; 
   public get elementId() {
     return this.getStringAttribute('element_id');
   }
@@ -660,7 +660,7 @@ export class B2BiTransformerInputConversionAdvancedOptionsX12ValidationOptionsVa
   }
 
   // max_length - computed: true, optional: true, required: false
-  private _maxLength?: number;
+  private _maxLength?: number; 
   public get maxLength() {
     return this.getNumberAttribute('max_length');
   }
@@ -676,7 +676,7 @@ export class B2BiTransformerInputConversionAdvancedOptionsX12ValidationOptionsVa
   }
 
   // min_length - computed: true, optional: true, required: false
-  private _minLength?: number;
+  private _minLength?: number; 
   public get minLength() {
     return this.getNumberAttribute('min_length');
   }
@@ -787,7 +787,7 @@ export class B2BiTransformerInputConversionAdvancedOptionsX12ValidationOptionsVa
   }
 
   // element_position - computed: true, optional: true, required: false
-  private _elementPosition?: string;
+  private _elementPosition?: string; 
   public get elementPosition() {
     return this.getStringAttribute('element_position');
   }
@@ -803,7 +803,7 @@ export class B2BiTransformerInputConversionAdvancedOptionsX12ValidationOptionsVa
   }
 
   // requirement - computed: true, optional: true, required: false
-  private _requirement?: string;
+  private _requirement?: string; 
   public get requirement() {
     return this.getStringAttribute('requirement');
   }
@@ -1411,7 +1411,7 @@ export class B2BiTransformerInputConversionFormatOptionsX12OutputReference exten
   }
 
   // transaction_set - computed: true, optional: true, required: false
-  private _transactionSet?: string;
+  private _transactionSet?: string; 
   public get transactionSet() {
     return this.getStringAttribute('transaction_set');
   }
@@ -1427,7 +1427,7 @@ export class B2BiTransformerInputConversionFormatOptionsX12OutputReference exten
   }
 
   // version - computed: true, optional: true, required: false
-  private _version?: string;
+  private _version?: string; 
   public get version() {
     return this.getStringAttribute('version');
   }
@@ -1681,7 +1681,7 @@ export class B2BiTransformerInputConversionOutputReference extends cdktn.Complex
   }
 
   // from_format - computed: true, optional: true, required: false
-  private _fromFormat?: string;
+  private _fromFormat?: string; 
   public get fromFormat() {
     return this.getStringAttribute('from_format');
   }
@@ -1792,7 +1792,7 @@ export class B2BiTransformerMappingOutputReference extends cdktn.ComplexObject {
   }
 
   // template - computed: true, optional: true, required: false
-  private _template?: string;
+  private _template?: string; 
   public get template() {
     return this.getStringAttribute('template');
   }
@@ -1808,7 +1808,7 @@ export class B2BiTransformerMappingOutputReference extends cdktn.ComplexObject {
   }
 
   // template_language - computed: true, optional: true, required: false
-  private _templateLanguage?: string;
+  private _templateLanguage?: string; 
   public get templateLanguage() {
     return this.getStringAttribute('template_language');
   }
@@ -1902,7 +1902,7 @@ export class B2BiTransformerOutputConversionAdvancedOptionsX12SplitOptionsOutput
   }
 
   // split_by - computed: true, optional: true, required: false
-  private _splitBy?: string;
+  private _splitBy?: string; 
   public get splitBy() {
     return this.getStringAttribute('split_by');
   }
@@ -2030,7 +2030,7 @@ export class B2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptionsV
   }
 
   // codes_to_add - computed: true, optional: true, required: false
-  private _codesToAdd?: string[];
+  private _codesToAdd?: string[]; 
   public get codesToAdd() {
     return this.getListAttribute('codes_to_add');
   }
@@ -2046,7 +2046,7 @@ export class B2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptionsV
   }
 
   // codes_to_remove - computed: true, optional: true, required: false
-  private _codesToRemove?: string[];
+  private _codesToRemove?: string[]; 
   public get codesToRemove() {
     return this.getListAttribute('codes_to_remove');
   }
@@ -2062,7 +2062,7 @@ export class B2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptionsV
   }
 
   // element_id - computed: true, optional: true, required: false
-  private _elementId?: string;
+  private _elementId?: string; 
   public get elementId() {
     return this.getStringAttribute('element_id');
   }
@@ -2190,7 +2190,7 @@ export class B2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptionsV
   }
 
   // element_id - computed: true, optional: true, required: false
-  private _elementId?: string;
+  private _elementId?: string; 
   public get elementId() {
     return this.getStringAttribute('element_id');
   }
@@ -2206,7 +2206,7 @@ export class B2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptionsV
   }
 
   // max_length - computed: true, optional: true, required: false
-  private _maxLength?: number;
+  private _maxLength?: number; 
   public get maxLength() {
     return this.getNumberAttribute('max_length');
   }
@@ -2222,7 +2222,7 @@ export class B2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptionsV
   }
 
   // min_length - computed: true, optional: true, required: false
-  private _minLength?: number;
+  private _minLength?: number; 
   public get minLength() {
     return this.getNumberAttribute('min_length');
   }
@@ -2333,7 +2333,7 @@ export class B2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptionsV
   }
 
   // element_position - computed: true, optional: true, required: false
-  private _elementPosition?: string;
+  private _elementPosition?: string; 
   public get elementPosition() {
     return this.getStringAttribute('element_position');
   }
@@ -2349,7 +2349,7 @@ export class B2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptionsV
   }
 
   // requirement - computed: true, optional: true, required: false
-  private _requirement?: string;
+  private _requirement?: string; 
   public get requirement() {
     return this.getStringAttribute('requirement');
   }
@@ -2957,7 +2957,7 @@ export class B2BiTransformerOutputConversionFormatOptionsX12OutputReference exte
   }
 
   // transaction_set - computed: true, optional: true, required: false
-  private _transactionSet?: string;
+  private _transactionSet?: string; 
   public get transactionSet() {
     return this.getStringAttribute('transaction_set');
   }
@@ -2973,7 +2973,7 @@ export class B2BiTransformerOutputConversionFormatOptionsX12OutputReference exte
   }
 
   // version - computed: true, optional: true, required: false
-  private _version?: string;
+  private _version?: string; 
   public get version() {
     return this.getStringAttribute('version');
   }
@@ -3227,7 +3227,7 @@ export class B2BiTransformerOutputConversionOutputReference extends cdktn.Comple
   }
 
   // to_format - computed: true, optional: true, required: false
-  private _toFormat?: string;
+  private _toFormat?: string; 
   public get toFormat() {
     return this.getStringAttribute('to_format');
   }
@@ -3340,7 +3340,7 @@ export class B2BiTransformerSampleDocumentsKeysOutputReference extends cdktn.Com
   }
 
   // input - computed: true, optional: true, required: false
-  private _input?: string;
+  private _input?: string; 
   public get input() {
     return this.getStringAttribute('input');
   }
@@ -3356,7 +3356,7 @@ export class B2BiTransformerSampleDocumentsKeysOutputReference extends cdktn.Com
   }
 
   // output - computed: true, optional: true, required: false
-  private _output?: string;
+  private _output?: string; 
   public get output() {
     return this.getStringAttribute('output');
   }
@@ -3487,7 +3487,7 @@ export class B2BiTransformerSampleDocumentsOutputReference extends cdktn.Complex
   }
 
   // bucket_name - computed: true, optional: true, required: false
-  private _bucketName?: string;
+  private _bucketName?: string; 
   public get bucketName() {
     return this.getStringAttribute('bucket_name');
   }
@@ -3616,7 +3616,7 @@ export class B2BiTransformerTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -3632,7 +3632,7 @@ export class B2BiTransformerTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -3757,7 +3757,7 @@ export class B2BiTransformer extends cdktn.TerraformResource {
   }
 
   // file_format - computed: true, optional: true, required: false
-  private _fileFormat?: string;
+  private _fileFormat?: string; 
   public get fileFormat() {
     return this.getStringAttribute('file_format');
   }
@@ -3810,7 +3810,7 @@ export class B2BiTransformer extends cdktn.TerraformResource {
   }
 
   // mapping_template - computed: true, optional: true, required: false
-  private _mappingTemplate?: string;
+  private _mappingTemplate?: string; 
   public get mappingTemplate() {
     return this.getStringAttribute('mapping_template');
   }
@@ -3831,7 +3831,7 @@ export class B2BiTransformer extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -3860,7 +3860,7 @@ export class B2BiTransformer extends cdktn.TerraformResource {
   }
 
   // sample_document - computed: true, optional: true, required: false
-  private _sampleDocument?: string;
+  private _sampleDocument?: string; 
   public get sampleDocument() {
     return this.getStringAttribute('sample_document');
   }
@@ -3892,7 +3892,7 @@ export class B2BiTransformer extends cdktn.TerraformResource {
   }
 
   // status - computed: false, optional: false, required: true
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }

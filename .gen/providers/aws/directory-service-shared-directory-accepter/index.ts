@@ -127,7 +127,7 @@ export class DirectoryServiceSharedDirectoryAccepterTimeoutsOutputReference exte
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -143,7 +143,7 @@ export class DirectoryServiceSharedDirectoryAccepterTimeoutsOutputReference exte
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -220,7 +220,7 @@ export class DirectoryServiceSharedDirectoryAccepter extends cdktn.TerraformReso
   // ==========
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -256,7 +256,7 @@ export class DirectoryServiceSharedDirectoryAccepter extends cdktn.TerraformReso
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -272,7 +272,7 @@ export class DirectoryServiceSharedDirectoryAccepter extends cdktn.TerraformReso
   }
 
   // shared_directory_id - computed: false, optional: false, required: true
-  private _sharedDirectoryId?: string;
+  private _sharedDirectoryId?: string; 
   public get sharedDirectoryId() {
     return this.getStringAttribute('shared_directory_id');
   }

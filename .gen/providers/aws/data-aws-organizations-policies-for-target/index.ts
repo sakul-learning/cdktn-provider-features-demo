@@ -84,7 +84,7 @@ export class DataAwsOrganizationsPoliciesForTarget extends cdktn.TerraformDataSo
   // ==========
 
   // filter - computed: false, optional: false, required: true
-  private _filter?: string;
+  private _filter?: string; 
   public get filter() {
     return this.getStringAttribute('filter');
   }
@@ -97,7 +97,7 @@ export class DataAwsOrganizationsPoliciesForTarget extends cdktn.TerraformDataSo
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -118,7 +118,7 @@ export class DataAwsOrganizationsPoliciesForTarget extends cdktn.TerraformDataSo
   }
 
   // target_id - computed: false, optional: false, required: true
-  private _targetId?: string;
+  private _targetId?: string; 
   public get targetId() {
     return this.getStringAttribute('target_id');
   }

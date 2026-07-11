@@ -199,7 +199,7 @@ export class S3BucketNotificationLambdaFunctionOutputReference extends cdktn.Com
   }
 
   // events - computed: false, optional: false, required: true
-  private _events?: string[];
+  private _events?: string[]; 
   public get events() {
     return cdktn.Fn.tolist(this.getListAttribute('events'));
   }
@@ -212,7 +212,7 @@ export class S3BucketNotificationLambdaFunctionOutputReference extends cdktn.Com
   }
 
   // filter_prefix - computed: false, optional: true, required: false
-  private _filterPrefix?: string;
+  private _filterPrefix?: string; 
   public get filterPrefix() {
     return this.getStringAttribute('filter_prefix');
   }
@@ -228,7 +228,7 @@ export class S3BucketNotificationLambdaFunctionOutputReference extends cdktn.Com
   }
 
   // filter_suffix - computed: false, optional: true, required: false
-  private _filterSuffix?: string;
+  private _filterSuffix?: string; 
   public get filterSuffix() {
     return this.getStringAttribute('filter_suffix');
   }
@@ -244,7 +244,7 @@ export class S3BucketNotificationLambdaFunctionOutputReference extends cdktn.Com
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -260,7 +260,7 @@ export class S3BucketNotificationLambdaFunctionOutputReference extends cdktn.Com
   }
 
   // lambda_function_arn - computed: false, optional: true, required: false
-  private _lambdaFunctionArn?: string;
+  private _lambdaFunctionArn?: string; 
   public get lambdaFunctionArn() {
     return this.getStringAttribute('lambda_function_arn');
   }
@@ -447,7 +447,7 @@ export class S3BucketNotificationQueueOutputReference extends cdktn.ComplexObjec
   }
 
   // events - computed: false, optional: false, required: true
-  private _events?: string[];
+  private _events?: string[]; 
   public get events() {
     return cdktn.Fn.tolist(this.getListAttribute('events'));
   }
@@ -460,7 +460,7 @@ export class S3BucketNotificationQueueOutputReference extends cdktn.ComplexObjec
   }
 
   // filter_prefix - computed: false, optional: true, required: false
-  private _filterPrefix?: string;
+  private _filterPrefix?: string; 
   public get filterPrefix() {
     return this.getStringAttribute('filter_prefix');
   }
@@ -476,7 +476,7 @@ export class S3BucketNotificationQueueOutputReference extends cdktn.ComplexObjec
   }
 
   // filter_suffix - computed: false, optional: true, required: false
-  private _filterSuffix?: string;
+  private _filterSuffix?: string; 
   public get filterSuffix() {
     return this.getStringAttribute('filter_suffix');
   }
@@ -492,7 +492,7 @@ export class S3BucketNotificationQueueOutputReference extends cdktn.ComplexObjec
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -508,7 +508,7 @@ export class S3BucketNotificationQueueOutputReference extends cdktn.ComplexObjec
   }
 
   // queue_arn - computed: false, optional: false, required: true
-  private _queueArn?: string;
+  private _queueArn?: string; 
   public get queueArn() {
     return this.getStringAttribute('queue_arn');
   }
@@ -692,7 +692,7 @@ export class S3BucketNotificationTopicOutputReference extends cdktn.ComplexObjec
   }
 
   // events - computed: false, optional: false, required: true
-  private _events?: string[];
+  private _events?: string[]; 
   public get events() {
     return cdktn.Fn.tolist(this.getListAttribute('events'));
   }
@@ -705,7 +705,7 @@ export class S3BucketNotificationTopicOutputReference extends cdktn.ComplexObjec
   }
 
   // filter_prefix - computed: false, optional: true, required: false
-  private _filterPrefix?: string;
+  private _filterPrefix?: string; 
   public get filterPrefix() {
     return this.getStringAttribute('filter_prefix');
   }
@@ -721,7 +721,7 @@ export class S3BucketNotificationTopicOutputReference extends cdktn.ComplexObjec
   }
 
   // filter_suffix - computed: false, optional: true, required: false
-  private _filterSuffix?: string;
+  private _filterSuffix?: string; 
   public get filterSuffix() {
     return this.getStringAttribute('filter_suffix');
   }
@@ -737,7 +737,7 @@ export class S3BucketNotificationTopicOutputReference extends cdktn.ComplexObjec
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -753,7 +753,7 @@ export class S3BucketNotificationTopicOutputReference extends cdktn.ComplexObjec
   }
 
   // topic_arn - computed: false, optional: false, required: true
-  private _topicArn?: string;
+  private _topicArn?: string; 
   public get topicArn() {
     return this.getStringAttribute('topic_arn');
   }
@@ -850,7 +850,7 @@ export class S3BucketNotification extends cdktn.TerraformResource {
   // ==========
 
   // bucket - computed: false, optional: false, required: true
-  private _bucket?: string;
+  private _bucket?: string; 
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -863,7 +863,7 @@ export class S3BucketNotification extends cdktn.TerraformResource {
   }
 
   // eventbridge - computed: false, optional: true, required: false
-  private _eventbridge?: boolean | cdktn.IResolvable;
+  private _eventbridge?: boolean | cdktn.IResolvable; 
   public get eventbridge() {
     return this.getBooleanAttribute('eventbridge');
   }
@@ -879,7 +879,7 @@ export class S3BucketNotification extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -895,7 +895,7 @@ export class S3BucketNotification extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

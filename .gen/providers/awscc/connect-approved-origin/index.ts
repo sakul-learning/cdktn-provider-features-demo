@@ -85,7 +85,7 @@ export class ConnectApprovedOrigin extends cdktn.TerraformResource {
   }
 
   // instance_id - computed: false, optional: false, required: true
-  private _instanceId?: string;
+  private _instanceId?: string; 
   public get instanceId() {
     return this.getStringAttribute('instance_id');
   }
@@ -98,7 +98,7 @@ export class ConnectApprovedOrigin extends cdktn.TerraformResource {
   }
 
   // origin - computed: false, optional: false, required: true
-  private _origin?: string;
+  private _origin?: string; 
   public get origin() {
     return this.getStringAttribute('origin');
   }

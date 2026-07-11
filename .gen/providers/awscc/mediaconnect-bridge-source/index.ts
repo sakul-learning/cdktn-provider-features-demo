@@ -113,7 +113,7 @@ export class MediaconnectBridgeSourceFlowSourceFlowVpcInterfaceAttachmentOutputR
   }
 
   // vpc_interface_name - computed: true, optional: true, required: false
-  private _vpcInterfaceName?: string;
+  private _vpcInterfaceName?: string; 
   public get vpcInterfaceName() {
     return this.getStringAttribute('vpc_interface_name');
   }
@@ -228,7 +228,7 @@ export class MediaconnectBridgeSourceFlowSourceOutputReference extends cdktn.Com
   }
 
   // flow_arn - computed: true, optional: true, required: false
-  private _flowArn?: string;
+  private _flowArn?: string; 
   public get flowArn() {
     return this.getStringAttribute('flow_arn');
   }
@@ -340,7 +340,7 @@ export class MediaconnectBridgeSourceNetworkSourceMulticastSourceSettingsOutputR
   }
 
   // multicast_source_ip - computed: true, optional: true, required: false
-  private _multicastSourceIp?: string;
+  private _multicastSourceIp?: string; 
   public get multicastSourceIp() {
     return this.getStringAttribute('multicast_source_ip');
   }
@@ -512,7 +512,7 @@ export class MediaconnectBridgeSourceNetworkSourceOutputReference extends cdktn.
   }
 
   // multicast_ip - computed: true, optional: true, required: false
-  private _multicastIp?: string;
+  private _multicastIp?: string; 
   public get multicastIp() {
     return this.getStringAttribute('multicast_ip');
   }
@@ -544,7 +544,7 @@ export class MediaconnectBridgeSourceNetworkSourceOutputReference extends cdktn.
   }
 
   // network_name - computed: true, optional: true, required: false
-  private _networkName?: string;
+  private _networkName?: string; 
   public get networkName() {
     return this.getStringAttribute('network_name');
   }
@@ -560,7 +560,7 @@ export class MediaconnectBridgeSourceNetworkSourceOutputReference extends cdktn.
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -576,7 +576,7 @@ export class MediaconnectBridgeSourceNetworkSourceOutputReference extends cdktn.
   }
 
   // protocol - computed: true, optional: true, required: false
-  private _protocol?: string;
+  private _protocol?: string; 
   public get protocol() {
     return this.getStringAttribute('protocol');
   }
@@ -653,7 +653,7 @@ export class MediaconnectBridgeSource extends cdktn.TerraformResource {
   // ==========
 
   // bridge_arn - computed: false, optional: false, required: true
-  private _bridgeArn?: string;
+  private _bridgeArn?: string; 
   public get bridgeArn() {
     return this.getStringAttribute('bridge_arn');
   }
@@ -687,7 +687,7 @@ export class MediaconnectBridgeSource extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }

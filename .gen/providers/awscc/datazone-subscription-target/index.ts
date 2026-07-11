@@ -164,7 +164,7 @@ export class DatazoneSubscriptionTargetSubscriptionTargetConfigOutputReference e
   }
 
   // content - computed: false, optional: false, required: true
-  private _content?: string;
+  private _content?: string; 
   public get content() {
     return this.getStringAttribute('content');
   }
@@ -177,7 +177,7 @@ export class DatazoneSubscriptionTargetSubscriptionTargetConfigOutputReference e
   }
 
   // form_name - computed: false, optional: false, required: true
-  private _formName?: string;
+  private _formName?: string; 
   public get formName() {
     return this.getStringAttribute('form_name');
   }
@@ -276,7 +276,7 @@ export class DatazoneSubscriptionTarget extends cdktn.TerraformResource {
   // ==========
 
   // applicable_asset_types - computed: false, optional: false, required: true
-  private _applicableAssetTypes?: string[];
+  private _applicableAssetTypes?: string[]; 
   public get applicableAssetTypes() {
     return this.getListAttribute('applicable_asset_types');
   }
@@ -289,7 +289,7 @@ export class DatazoneSubscriptionTarget extends cdktn.TerraformResource {
   }
 
   // authorized_principals - computed: false, optional: false, required: true
-  private _authorizedPrincipals?: string[];
+  private _authorizedPrincipals?: string[]; 
   public get authorizedPrincipals() {
     return this.getListAttribute('authorized_principals');
   }
@@ -317,7 +317,7 @@ export class DatazoneSubscriptionTarget extends cdktn.TerraformResource {
   }
 
   // domain_identifier - computed: false, optional: false, required: true
-  private _domainIdentifier?: string;
+  private _domainIdentifier?: string; 
   public get domainIdentifier() {
     return this.getStringAttribute('domain_identifier');
   }
@@ -335,7 +335,7 @@ export class DatazoneSubscriptionTarget extends cdktn.TerraformResource {
   }
 
   // environment_identifier - computed: false, optional: false, required: true
-  private _environmentIdentifier?: string;
+  private _environmentIdentifier?: string; 
   public get environmentIdentifier() {
     return this.getStringAttribute('environment_identifier');
   }
@@ -353,7 +353,7 @@ export class DatazoneSubscriptionTarget extends cdktn.TerraformResource {
   }
 
   // manage_access_role - computed: true, optional: true, required: false
-  private _manageAccessRole?: string;
+  private _manageAccessRole?: string; 
   public get manageAccessRole() {
     return this.getStringAttribute('manage_access_role');
   }
@@ -369,7 +369,7 @@ export class DatazoneSubscriptionTarget extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -387,7 +387,7 @@ export class DatazoneSubscriptionTarget extends cdktn.TerraformResource {
   }
 
   // provider_name - computed: true, optional: true, required: false
-  private _providerName?: string;
+  private _providerName?: string; 
   public get providerName() {
     return this.getStringAttribute('provider_name');
   }
@@ -421,7 +421,7 @@ export class DatazoneSubscriptionTarget extends cdktn.TerraformResource {
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }

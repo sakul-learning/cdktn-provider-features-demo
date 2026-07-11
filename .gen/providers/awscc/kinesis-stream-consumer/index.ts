@@ -128,7 +128,7 @@ export class KinesisStreamConsumerTagsOutputReference extends cdktn.ComplexObjec
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -144,7 +144,7 @@ export class KinesisStreamConsumerTagsOutputReference extends cdktn.ComplexObjec
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -250,7 +250,7 @@ export class KinesisStreamConsumer extends cdktn.TerraformResource {
   }
 
   // consumer_name - computed: false, optional: false, required: true
-  private _consumerName?: string;
+  private _consumerName?: string; 
   public get consumerName() {
     return this.getStringAttribute('consumer_name');
   }
@@ -273,7 +273,7 @@ export class KinesisStreamConsumer extends cdktn.TerraformResource {
   }
 
   // stream_arn - computed: false, optional: false, required: true
-  private _streamArn?: string;
+  private _streamArn?: string; 
   public get streamArn() {
     return this.getStringAttribute('stream_arn');
   }

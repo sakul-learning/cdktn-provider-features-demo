@@ -130,7 +130,7 @@ export class ApprunnerVpcConnectorTagsOutputReference extends cdktn.ComplexObjec
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -146,7 +146,7 @@ export class ApprunnerVpcConnectorTagsOutputReference extends cdktn.ComplexObjec
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -248,7 +248,7 @@ export class ApprunnerVpcConnector extends cdktn.TerraformResource {
   }
 
   // security_groups - computed: true, optional: true, required: false
-  private _securityGroups?: string[];
+  private _securityGroups?: string[]; 
   public get securityGroups() {
     return cdktn.Fn.tolist(this.getListAttribute('security_groups'));
   }
@@ -264,7 +264,7 @@ export class ApprunnerVpcConnector extends cdktn.TerraformResource {
   }
 
   // subnets - computed: false, optional: false, required: true
-  private _subnets?: string[];
+  private _subnets?: string[]; 
   public get subnets() {
     return cdktn.Fn.tolist(this.getListAttribute('subnets'));
   }
@@ -298,7 +298,7 @@ export class ApprunnerVpcConnector extends cdktn.TerraformResource {
   }
 
   // vpc_connector_name - computed: true, optional: true, required: false
-  private _vpcConnectorName?: string;
+  private _vpcConnectorName?: string; 
   public get vpcConnectorName() {
     return this.getStringAttribute('vpc_connector_name');
   }

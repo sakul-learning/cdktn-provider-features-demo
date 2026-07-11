@@ -158,7 +158,7 @@ export class FinspaceEnvironmentFederationParametersAttributeMapOutputReference 
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -174,7 +174,7 @@ export class FinspaceEnvironmentFederationParametersAttributeMapOutputReference 
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -385,7 +385,7 @@ export class FinspaceEnvironmentFederationParametersOutputReference extends cdkt
   }
 
   // application_call_back_url - computed: true, optional: true, required: false
-  private _applicationCallBackUrl?: string;
+  private _applicationCallBackUrl?: string; 
   public get applicationCallBackUrl() {
     return this.getStringAttribute('application_call_back_url');
   }
@@ -417,7 +417,7 @@ export class FinspaceEnvironmentFederationParametersOutputReference extends cdkt
   }
 
   // federation_provider_name - computed: true, optional: true, required: false
-  private _federationProviderName?: string;
+  private _federationProviderName?: string; 
   public get federationProviderName() {
     return this.getStringAttribute('federation_provider_name');
   }
@@ -433,7 +433,7 @@ export class FinspaceEnvironmentFederationParametersOutputReference extends cdkt
   }
 
   // federation_urn - computed: true, optional: true, required: false
-  private _federationUrn?: string;
+  private _federationUrn?: string; 
   public get federationUrn() {
     return this.getStringAttribute('federation_urn');
   }
@@ -449,7 +449,7 @@ export class FinspaceEnvironmentFederationParametersOutputReference extends cdkt
   }
 
   // saml_metadata_document - computed: true, optional: true, required: false
-  private _samlMetadataDocument?: string;
+  private _samlMetadataDocument?: string; 
   public get samlMetadataDocument() {
     return this.getStringAttribute('saml_metadata_document');
   }
@@ -465,7 +465,7 @@ export class FinspaceEnvironmentFederationParametersOutputReference extends cdkt
   }
 
   // saml_metadata_url - computed: true, optional: true, required: false
-  private _samlMetadataUrl?: string;
+  private _samlMetadataUrl?: string; 
   public get samlMetadataUrl() {
     return this.getStringAttribute('saml_metadata_url');
   }
@@ -599,7 +599,7 @@ export class FinspaceEnvironmentSuperuserParametersOutputReference extends cdktn
   }
 
   // email_address - computed: true, optional: true, required: false
-  private _emailAddress?: string;
+  private _emailAddress?: string; 
   public get emailAddress() {
     return this.getStringAttribute('email_address');
   }
@@ -615,7 +615,7 @@ export class FinspaceEnvironmentSuperuserParametersOutputReference extends cdktn
   }
 
   // first_name - computed: true, optional: true, required: false
-  private _firstName?: string;
+  private _firstName?: string; 
   public get firstName() {
     return this.getStringAttribute('first_name');
   }
@@ -631,7 +631,7 @@ export class FinspaceEnvironmentSuperuserParametersOutputReference extends cdktn
   }
 
   // last_name - computed: true, optional: true, required: false
-  private _lastName?: string;
+  private _lastName?: string; 
   public get lastName() {
     return this.getStringAttribute('last_name');
   }
@@ -748,7 +748,7 @@ export class FinspaceEnvironmentTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -764,7 +764,7 @@ export class FinspaceEnvironmentTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -870,7 +870,7 @@ export class FinspaceEnvironment extends cdktn.TerraformResource {
   }
 
   // data_bundles - computed: true, optional: true, required: false
-  private _dataBundles?: string[];
+  private _dataBundles?: string[]; 
   public get dataBundles() {
     return this.getListAttribute('data_bundles');
   }
@@ -891,7 +891,7 @@ export class FinspaceEnvironment extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -922,7 +922,7 @@ export class FinspaceEnvironment extends cdktn.TerraformResource {
   }
 
   // federation_mode - computed: true, optional: true, required: false
-  private _federationMode?: string;
+  private _federationMode?: string; 
   public get federationMode() {
     return this.getStringAttribute('federation_mode');
   }
@@ -959,7 +959,7 @@ export class FinspaceEnvironment extends cdktn.TerraformResource {
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -975,7 +975,7 @@ export class FinspaceEnvironment extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }

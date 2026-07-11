@@ -167,7 +167,7 @@ export class ApiGatewayStageAccessLogSettingsOutputReference extends cdktn.Compl
   }
 
   // destination_arn - computed: false, optional: false, required: true
-  private _destinationArn?: string;
+  private _destinationArn?: string; 
   public get destinationArn() {
     return this.getStringAttribute('destination_arn');
   }
@@ -180,7 +180,7 @@ export class ApiGatewayStageAccessLogSettingsOutputReference extends cdktn.Compl
   }
 
   // format - computed: false, optional: false, required: true
-  private _format?: string;
+  private _format?: string; 
   public get format() {
     return this.getStringAttribute('format');
   }
@@ -312,7 +312,7 @@ export class ApiGatewayStageCanarySettingsOutputReference extends cdktn.ComplexO
   }
 
   // deployment_id - computed: false, optional: false, required: true
-  private _deploymentId?: string;
+  private _deploymentId?: string; 
   public get deploymentId() {
     return this.getStringAttribute('deployment_id');
   }
@@ -325,7 +325,7 @@ export class ApiGatewayStageCanarySettingsOutputReference extends cdktn.ComplexO
   }
 
   // percent_traffic - computed: false, optional: true, required: false
-  private _percentTraffic?: number;
+  private _percentTraffic?: number; 
   public get percentTraffic() {
     return this.getNumberAttribute('percent_traffic');
   }
@@ -341,7 +341,7 @@ export class ApiGatewayStageCanarySettingsOutputReference extends cdktn.ComplexO
   }
 
   // stage_variable_overrides - computed: false, optional: true, required: false
-  private _stageVariableOverrides?: { [key: string]: string };
+  private _stageVariableOverrides?: { [key: string]: string }; 
   public get stageVariableOverrides() {
     return this.getStringMapAttribute('stage_variable_overrides');
   }
@@ -357,7 +357,7 @@ export class ApiGatewayStageCanarySettingsOutputReference extends cdktn.ComplexO
   }
 
   // use_stage_cache - computed: false, optional: true, required: false
-  private _useStageCache?: boolean | cdktn.IResolvable;
+  private _useStageCache?: boolean | cdktn.IResolvable; 
   public get useStageCache() {
     return this.getBooleanAttribute('use_stage_cache');
   }
@@ -451,7 +451,7 @@ export class ApiGatewayStage extends cdktn.TerraformResource {
   }
 
   // cache_cluster_enabled - computed: false, optional: true, required: false
-  private _cacheClusterEnabled?: boolean | cdktn.IResolvable;
+  private _cacheClusterEnabled?: boolean | cdktn.IResolvable; 
   public get cacheClusterEnabled() {
     return this.getBooleanAttribute('cache_cluster_enabled');
   }
@@ -467,7 +467,7 @@ export class ApiGatewayStage extends cdktn.TerraformResource {
   }
 
   // cache_cluster_size - computed: false, optional: true, required: false
-  private _cacheClusterSize?: string;
+  private _cacheClusterSize?: string; 
   public get cacheClusterSize() {
     return this.getStringAttribute('cache_cluster_size');
   }
@@ -483,7 +483,7 @@ export class ApiGatewayStage extends cdktn.TerraformResource {
   }
 
   // client_certificate_id - computed: false, optional: true, required: false
-  private _clientCertificateId?: string;
+  private _clientCertificateId?: string; 
   public get clientCertificateId() {
     return this.getStringAttribute('client_certificate_id');
   }
@@ -499,7 +499,7 @@ export class ApiGatewayStage extends cdktn.TerraformResource {
   }
 
   // deployment_id - computed: false, optional: false, required: true
-  private _deploymentId?: string;
+  private _deploymentId?: string; 
   public get deploymentId() {
     return this.getStringAttribute('deployment_id');
   }
@@ -512,7 +512,7 @@ export class ApiGatewayStage extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -528,7 +528,7 @@ export class ApiGatewayStage extends cdktn.TerraformResource {
   }
 
   // documentation_version - computed: false, optional: true, required: false
-  private _documentationVersion?: string;
+  private _documentationVersion?: string; 
   public get documentationVersion() {
     return this.getStringAttribute('documentation_version');
   }
@@ -549,7 +549,7 @@ export class ApiGatewayStage extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -570,7 +570,7 @@ export class ApiGatewayStage extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -586,7 +586,7 @@ export class ApiGatewayStage extends cdktn.TerraformResource {
   }
 
   // rest_api_id - computed: false, optional: false, required: true
-  private _restApiId?: string;
+  private _restApiId?: string; 
   public get restApiId() {
     return this.getStringAttribute('rest_api_id');
   }
@@ -599,7 +599,7 @@ export class ApiGatewayStage extends cdktn.TerraformResource {
   }
 
   // stage_name - computed: false, optional: false, required: true
-  private _stageName?: string;
+  private _stageName?: string; 
   public get stageName() {
     return this.getStringAttribute('stage_name');
   }
@@ -612,7 +612,7 @@ export class ApiGatewayStage extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -628,7 +628,7 @@ export class ApiGatewayStage extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -644,7 +644,7 @@ export class ApiGatewayStage extends cdktn.TerraformResource {
   }
 
   // variables - computed: false, optional: true, required: false
-  private _variables?: { [key: string]: string };
+  private _variables?: { [key: string]: string }; 
   public get variables() {
     return this.getStringMapAttribute('variables');
   }
@@ -665,7 +665,7 @@ export class ApiGatewayStage extends cdktn.TerraformResource {
   }
 
   // xray_tracing_enabled - computed: false, optional: true, required: false
-  private _xrayTracingEnabled?: boolean | cdktn.IResolvable;
+  private _xrayTracingEnabled?: boolean | cdktn.IResolvable; 
   public get xrayTracingEnabled() {
     return this.getBooleanAttribute('xray_tracing_enabled');
   }

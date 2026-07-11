@@ -134,7 +134,7 @@ export class Route53ResolverFirewallDomainListTagsOutputReference extends cdktn.
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -150,7 +150,7 @@ export class Route53ResolverFirewallDomainListTagsOutputReference extends cdktn.
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -267,7 +267,7 @@ export class Route53ResolverFirewallDomainList extends cdktn.TerraformResource {
   }
 
   // domain_file_url - computed: true, optional: true, required: false
-  private _domainFileUrl?: string;
+  private _domainFileUrl?: string; 
   public get domainFileUrl() {
     return this.getStringAttribute('domain_file_url');
   }
@@ -283,7 +283,7 @@ export class Route53ResolverFirewallDomainList extends cdktn.TerraformResource {
   }
 
   // domains - computed: true, optional: true, required: false
-  private _domains?: string[];
+  private _domains?: string[]; 
   public get domains() {
     return this.getListAttribute('domains');
   }
@@ -319,7 +319,7 @@ export class Route53ResolverFirewallDomainList extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }

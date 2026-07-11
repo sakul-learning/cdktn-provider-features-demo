@@ -136,7 +136,7 @@ export class IotProvisioningTemplatePreProvisioningHookOutputReference extends c
   }
 
   // payload_version - computed: true, optional: true, required: false
-  private _payloadVersion?: string;
+  private _payloadVersion?: string; 
   public get payloadVersion() {
     return this.getStringAttribute('payload_version');
   }
@@ -152,7 +152,7 @@ export class IotProvisioningTemplatePreProvisioningHookOutputReference extends c
   }
 
   // target_arn - computed: true, optional: true, required: false
-  private _targetArn?: string;
+  private _targetArn?: string; 
   public get targetArn() {
     return this.getStringAttribute('target_arn');
   }
@@ -265,7 +265,7 @@ export class IotProvisioningTemplateTagsOutputReference extends cdktn.ComplexObj
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -281,7 +281,7 @@ export class IotProvisioningTemplateTagsOutputReference extends cdktn.ComplexObj
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -382,7 +382,7 @@ export class IotProvisioningTemplate extends cdktn.TerraformResource {
   // ==========
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -398,7 +398,7 @@ export class IotProvisioningTemplate extends cdktn.TerraformResource {
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -435,7 +435,7 @@ export class IotProvisioningTemplate extends cdktn.TerraformResource {
   }
 
   // provisioning_role_arn - computed: false, optional: false, required: true
-  private _provisioningRoleArn?: string;
+  private _provisioningRoleArn?: string; 
   public get provisioningRoleArn() {
     return this.getStringAttribute('provisioning_role_arn');
   }
@@ -469,7 +469,7 @@ export class IotProvisioningTemplate extends cdktn.TerraformResource {
   }
 
   // template_body - computed: false, optional: false, required: true
-  private _templateBody?: string;
+  private _templateBody?: string; 
   public get templateBody() {
     return this.getStringAttribute('template_body');
   }
@@ -482,7 +482,7 @@ export class IotProvisioningTemplate extends cdktn.TerraformResource {
   }
 
   // template_name - computed: true, optional: true, required: false
-  private _templateName?: string;
+  private _templateName?: string; 
   public get templateName() {
     return this.getStringAttribute('template_name');
   }
@@ -498,7 +498,7 @@ export class IotProvisioningTemplate extends cdktn.TerraformResource {
   }
 
   // template_type - computed: true, optional: true, required: false
-  private _templateType?: string;
+  private _templateType?: string; 
   public get templateType() {
     return this.getStringAttribute('template_type');
   }

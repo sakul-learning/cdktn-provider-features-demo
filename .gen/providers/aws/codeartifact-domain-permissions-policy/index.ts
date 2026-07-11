@@ -101,7 +101,7 @@ export class CodeartifactDomainPermissionsPolicy extends cdktn.TerraformResource
   // ==========
 
   // domain - computed: false, optional: false, required: true
-  private _domain?: string;
+  private _domain?: string; 
   public get domain() {
     return this.getStringAttribute('domain');
   }
@@ -114,7 +114,7 @@ export class CodeartifactDomainPermissionsPolicy extends cdktn.TerraformResource
   }
 
   // domain_owner - computed: true, optional: true, required: false
-  private _domainOwner?: string;
+  private _domainOwner?: string; 
   public get domainOwner() {
     return this.getStringAttribute('domain_owner');
   }
@@ -130,7 +130,7 @@ export class CodeartifactDomainPermissionsPolicy extends cdktn.TerraformResource
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -146,7 +146,7 @@ export class CodeartifactDomainPermissionsPolicy extends cdktn.TerraformResource
   }
 
   // policy_document - computed: true, optional: true, required: false
-  private _policyDocument?: string;
+  private _policyDocument?: string; 
   public get policyDocument() {
     return this.getStringAttribute('policy_document');
   }
@@ -162,7 +162,7 @@ export class CodeartifactDomainPermissionsPolicy extends cdktn.TerraformResource
   }
 
   // policy_revision - computed: true, optional: true, required: false
-  private _policyRevision?: string;
+  private _policyRevision?: string; 
   public get policyRevision() {
     return this.getStringAttribute('policy_revision');
   }
@@ -178,7 +178,7 @@ export class CodeartifactDomainPermissionsPolicy extends cdktn.TerraformResource
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

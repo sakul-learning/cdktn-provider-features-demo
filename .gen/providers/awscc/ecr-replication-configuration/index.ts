@@ -116,7 +116,7 @@ export class EcrReplicationConfigurationReplicationConfigurationRulesDestination
   }
 
   // region - computed: false, optional: false, required: true
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -129,7 +129,7 @@ export class EcrReplicationConfigurationReplicationConfigurationRulesDestination
   }
 
   // registry_id - computed: false, optional: false, required: true
-  private _registryId?: string;
+  private _registryId?: string; 
   public get registryId() {
     return this.getStringAttribute('registry_id');
   }
@@ -263,7 +263,7 @@ export class EcrReplicationConfigurationReplicationConfigurationRulesRepositoryF
   }
 
   // filter - computed: true, optional: true, required: false
-  private _filter?: string;
+  private _filter?: string; 
   public get filter() {
     return this.getStringAttribute('filter');
   }
@@ -279,7 +279,7 @@ export class EcrReplicationConfigurationReplicationConfigurationRulesRepositoryF
   }
 
   // filter_type - computed: true, optional: true, required: false
-  private _filterType?: string;
+  private _filterType?: string; 
   public get filterType() {
     return this.getStringAttribute('filter_type');
   }

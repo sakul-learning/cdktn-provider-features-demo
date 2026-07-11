@@ -138,7 +138,7 @@ export class Route53GlobalresolverFirewallDomainListTagsOutputReference extends 
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -154,7 +154,7 @@ export class Route53GlobalresolverFirewallDomainListTagsOutputReference extends 
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -259,7 +259,7 @@ export class Route53GlobalresolverFirewallDomainList extends cdktn.TerraformReso
   }
 
   // client_token - computed: true, optional: true, required: false
-  private _clientToken?: string;
+  private _clientToken?: string; 
   public get clientToken() {
     return this.getStringAttribute('client_token');
   }
@@ -280,7 +280,7 @@ export class Route53GlobalresolverFirewallDomainList extends cdktn.TerraformReso
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -301,7 +301,7 @@ export class Route53GlobalresolverFirewallDomainList extends cdktn.TerraformReso
   }
 
   // domain_file_url - computed: true, optional: true, required: false
-  private _domainFileUrl?: string;
+  private _domainFileUrl?: string; 
   public get domainFileUrl() {
     return this.getStringAttribute('domain_file_url');
   }
@@ -317,7 +317,7 @@ export class Route53GlobalresolverFirewallDomainList extends cdktn.TerraformReso
   }
 
   // domains - computed: true, optional: true, required: false
-  private _domains?: string[];
+  private _domains?: string[]; 
   public get domains() {
     return cdktn.Fn.tolist(this.getListAttribute('domains'));
   }
@@ -338,7 +338,7 @@ export class Route53GlobalresolverFirewallDomainList extends cdktn.TerraformReso
   }
 
   // global_resolver_id - computed: false, optional: false, required: true
-  private _globalResolverId?: string;
+  private _globalResolverId?: string; 
   public get globalResolverId() {
     return this.getStringAttribute('global_resolver_id');
   }
@@ -356,7 +356,7 @@ export class Route53GlobalresolverFirewallDomainList extends cdktn.TerraformReso
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }

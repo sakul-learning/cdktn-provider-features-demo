@@ -230,7 +230,7 @@ export class KinesisFirehoseDeliveryStreamElasticsearchConfigurationCloudwatchLo
   }
 
   // enabled - computed: false, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -246,7 +246,7 @@ export class KinesisFirehoseDeliveryStreamElasticsearchConfigurationCloudwatchLo
   }
 
   // log_group_name - computed: false, optional: true, required: false
-  private _logGroupName?: string;
+  private _logGroupName?: string; 
   public get logGroupName() {
     return this.getStringAttribute('log_group_name');
   }
@@ -262,7 +262,7 @@ export class KinesisFirehoseDeliveryStreamElasticsearchConfigurationCloudwatchLo
   }
 
   // log_stream_name - computed: false, optional: true, required: false
-  private _logStreamName?: string;
+  private _logStreamName?: string; 
   public get logStreamName() {
     return this.getStringAttribute('log_stream_name');
   }
@@ -375,7 +375,7 @@ export class KinesisFirehoseDeliveryStreamElasticsearchConfigurationProcessingCo
   }
 
   // parameter_name - computed: false, optional: false, required: true
-  private _parameterName?: string;
+  private _parameterName?: string; 
   public get parameterName() {
     return this.getStringAttribute('parameter_name');
   }
@@ -388,7 +388,7 @@ export class KinesisFirehoseDeliveryStreamElasticsearchConfigurationProcessingCo
   }
 
   // parameter_value - computed: false, optional: false, required: true
-  private _parameterValue?: string;
+  private _parameterValue?: string; 
   public get parameterValue() {
     return this.getStringAttribute('parameter_value');
   }
@@ -520,7 +520,7 @@ export class KinesisFirehoseDeliveryStreamElasticsearchConfigurationProcessingCo
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -656,7 +656,7 @@ export class KinesisFirehoseDeliveryStreamElasticsearchConfigurationProcessingCo
   }
 
   // enabled - computed: false, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -790,7 +790,7 @@ export class KinesisFirehoseDeliveryStreamElasticsearchConfigurationS3Configurat
   }
 
   // enabled - computed: false, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -806,7 +806,7 @@ export class KinesisFirehoseDeliveryStreamElasticsearchConfigurationS3Configurat
   }
 
   // log_group_name - computed: false, optional: true, required: false
-  private _logGroupName?: string;
+  private _logGroupName?: string; 
   public get logGroupName() {
     return this.getStringAttribute('log_group_name');
   }
@@ -822,7 +822,7 @@ export class KinesisFirehoseDeliveryStreamElasticsearchConfigurationS3Configurat
   }
 
   // log_stream_name - computed: false, optional: true, required: false
-  private _logStreamName?: string;
+  private _logStreamName?: string; 
   public get logStreamName() {
     return this.getStringAttribute('log_stream_name');
   }
@@ -1044,7 +1044,7 @@ export class KinesisFirehoseDeliveryStreamElasticsearchConfigurationS3Configurat
   }
 
   // bucket_arn - computed: false, optional: false, required: true
-  private _bucketArn?: string;
+  private _bucketArn?: string; 
   public get bucketArn() {
     return this.getStringAttribute('bucket_arn');
   }
@@ -1057,7 +1057,7 @@ export class KinesisFirehoseDeliveryStreamElasticsearchConfigurationS3Configurat
   }
 
   // buffering_interval - computed: false, optional: true, required: false
-  private _bufferingInterval?: number;
+  private _bufferingInterval?: number; 
   public get bufferingInterval() {
     return this.getNumberAttribute('buffering_interval');
   }
@@ -1073,7 +1073,7 @@ export class KinesisFirehoseDeliveryStreamElasticsearchConfigurationS3Configurat
   }
 
   // buffering_size - computed: false, optional: true, required: false
-  private _bufferingSize?: number;
+  private _bufferingSize?: number; 
   public get bufferingSize() {
     return this.getNumberAttribute('buffering_size');
   }
@@ -1089,7 +1089,7 @@ export class KinesisFirehoseDeliveryStreamElasticsearchConfigurationS3Configurat
   }
 
   // compression_format - computed: false, optional: true, required: false
-  private _compressionFormat?: string;
+  private _compressionFormat?: string; 
   public get compressionFormat() {
     return this.getStringAttribute('compression_format');
   }
@@ -1105,7 +1105,7 @@ export class KinesisFirehoseDeliveryStreamElasticsearchConfigurationS3Configurat
   }
 
   // error_output_prefix - computed: false, optional: true, required: false
-  private _errorOutputPrefix?: string;
+  private _errorOutputPrefix?: string; 
   public get errorOutputPrefix() {
     return this.getStringAttribute('error_output_prefix');
   }
@@ -1121,7 +1121,7 @@ export class KinesisFirehoseDeliveryStreamElasticsearchConfigurationS3Configurat
   }
 
   // kms_key_arn - computed: false, optional: true, required: false
-  private _kmsKeyArn?: string;
+  private _kmsKeyArn?: string; 
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -1137,7 +1137,7 @@ export class KinesisFirehoseDeliveryStreamElasticsearchConfigurationS3Configurat
   }
 
   // prefix - computed: false, optional: true, required: false
-  private _prefix?: string;
+  private _prefix?: string; 
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -1153,7 +1153,7 @@ export class KinesisFirehoseDeliveryStreamElasticsearchConfigurationS3Configurat
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -1284,7 +1284,7 @@ export class KinesisFirehoseDeliveryStreamElasticsearchConfigurationVpcConfigOut
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -1297,7 +1297,7 @@ export class KinesisFirehoseDeliveryStreamElasticsearchConfigurationVpcConfigOut
   }
 
   // security_group_ids - computed: false, optional: false, required: true
-  private _securityGroupIds?: string[];
+  private _securityGroupIds?: string[]; 
   public get securityGroupIds() {
     return cdktn.Fn.tolist(this.getListAttribute('security_group_ids'));
   }
@@ -1310,7 +1310,7 @@ export class KinesisFirehoseDeliveryStreamElasticsearchConfigurationVpcConfigOut
   }
 
   // subnet_ids - computed: false, optional: false, required: true
-  private _subnetIds?: string[];
+  private _subnetIds?: string[]; 
   public get subnetIds() {
     return cdktn.Fn.tolist(this.getListAttribute('subnet_ids'));
   }
@@ -1625,7 +1625,7 @@ export class KinesisFirehoseDeliveryStreamElasticsearchConfigurationOutputRefere
   }
 
   // buffering_interval - computed: false, optional: true, required: false
-  private _bufferingInterval?: number;
+  private _bufferingInterval?: number; 
   public get bufferingInterval() {
     return this.getNumberAttribute('buffering_interval');
   }
@@ -1641,7 +1641,7 @@ export class KinesisFirehoseDeliveryStreamElasticsearchConfigurationOutputRefere
   }
 
   // buffering_size - computed: false, optional: true, required: false
-  private _bufferingSize?: number;
+  private _bufferingSize?: number; 
   public get bufferingSize() {
     return this.getNumberAttribute('buffering_size');
   }
@@ -1657,7 +1657,7 @@ export class KinesisFirehoseDeliveryStreamElasticsearchConfigurationOutputRefere
   }
 
   // cluster_endpoint - computed: false, optional: true, required: false
-  private _clusterEndpoint?: string;
+  private _clusterEndpoint?: string; 
   public get clusterEndpoint() {
     return this.getStringAttribute('cluster_endpoint');
   }
@@ -1673,7 +1673,7 @@ export class KinesisFirehoseDeliveryStreamElasticsearchConfigurationOutputRefere
   }
 
   // domain_arn - computed: false, optional: true, required: false
-  private _domainArn?: string;
+  private _domainArn?: string; 
   public get domainArn() {
     return this.getStringAttribute('domain_arn');
   }
@@ -1689,7 +1689,7 @@ export class KinesisFirehoseDeliveryStreamElasticsearchConfigurationOutputRefere
   }
 
   // index_name - computed: false, optional: false, required: true
-  private _indexName?: string;
+  private _indexName?: string; 
   public get indexName() {
     return this.getStringAttribute('index_name');
   }
@@ -1702,7 +1702,7 @@ export class KinesisFirehoseDeliveryStreamElasticsearchConfigurationOutputRefere
   }
 
   // index_rotation_period - computed: false, optional: true, required: false
-  private _indexRotationPeriod?: string;
+  private _indexRotationPeriod?: string; 
   public get indexRotationPeriod() {
     return this.getStringAttribute('index_rotation_period');
   }
@@ -1718,7 +1718,7 @@ export class KinesisFirehoseDeliveryStreamElasticsearchConfigurationOutputRefere
   }
 
   // retry_duration - computed: false, optional: true, required: false
-  private _retryDuration?: number;
+  private _retryDuration?: number; 
   public get retryDuration() {
     return this.getNumberAttribute('retry_duration');
   }
@@ -1734,7 +1734,7 @@ export class KinesisFirehoseDeliveryStreamElasticsearchConfigurationOutputRefere
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -1747,7 +1747,7 @@ export class KinesisFirehoseDeliveryStreamElasticsearchConfigurationOutputRefere
   }
 
   // s3_backup_mode - computed: false, optional: true, required: false
-  private _s3BackupMode?: string;
+  private _s3BackupMode?: string; 
   public get s3BackupMode() {
     return this.getStringAttribute('s3_backup_mode');
   }
@@ -1763,7 +1763,7 @@ export class KinesisFirehoseDeliveryStreamElasticsearchConfigurationOutputRefere
   }
 
   // type_name - computed: false, optional: true, required: false
-  private _typeName?: string;
+  private _typeName?: string; 
   public get typeName() {
     return this.getStringAttribute('type_name');
   }
@@ -1942,7 +1942,7 @@ export class KinesisFirehoseDeliveryStreamExtendedS3ConfigurationCloudwatchLoggi
   }
 
   // enabled - computed: false, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -1958,7 +1958,7 @@ export class KinesisFirehoseDeliveryStreamExtendedS3ConfigurationCloudwatchLoggi
   }
 
   // log_group_name - computed: false, optional: true, required: false
-  private _logGroupName?: string;
+  private _logGroupName?: string; 
   public get logGroupName() {
     return this.getStringAttribute('log_group_name');
   }
@@ -1974,7 +1974,7 @@ export class KinesisFirehoseDeliveryStreamExtendedS3ConfigurationCloudwatchLoggi
   }
 
   // log_stream_name - computed: false, optional: true, required: false
-  private _logStreamName?: string;
+  private _logStreamName?: string; 
   public get logStreamName() {
     return this.getStringAttribute('log_stream_name');
   }
@@ -2058,7 +2058,7 @@ export class KinesisFirehoseDeliveryStreamExtendedS3ConfigurationDataFormatConve
   }
 
   // timestamp_formats - computed: false, optional: true, required: false
-  private _timestampFormats?: string[];
+  private _timestampFormats?: string[]; 
   public get timestampFormats() {
     return this.getListAttribute('timestamp_formats');
   }
@@ -2176,7 +2176,7 @@ export class KinesisFirehoseDeliveryStreamExtendedS3ConfigurationDataFormatConve
   }
 
   // case_insensitive - computed: false, optional: true, required: false
-  private _caseInsensitive?: boolean | cdktn.IResolvable;
+  private _caseInsensitive?: boolean | cdktn.IResolvable; 
   public get caseInsensitive() {
     return this.getBooleanAttribute('case_insensitive');
   }
@@ -2192,7 +2192,7 @@ export class KinesisFirehoseDeliveryStreamExtendedS3ConfigurationDataFormatConve
   }
 
   // column_to_json_key_mappings - computed: false, optional: true, required: false
-  private _columnToJsonKeyMappings?: { [key: string]: string };
+  private _columnToJsonKeyMappings?: { [key: string]: string }; 
   public get columnToJsonKeyMappings() {
     return this.getStringMapAttribute('column_to_json_key_mappings');
   }
@@ -2208,7 +2208,7 @@ export class KinesisFirehoseDeliveryStreamExtendedS3ConfigurationDataFormatConve
   }
 
   // convert_dots_in_json_keys_to_underscores - computed: false, optional: true, required: false
-  private _convertDotsInJsonKeysToUnderscores?: boolean | cdktn.IResolvable;
+  private _convertDotsInJsonKeysToUnderscores?: boolean | cdktn.IResolvable; 
   public get convertDotsInJsonKeysToUnderscores() {
     return this.getBooleanAttribute('convert_dots_in_json_keys_to_underscores');
   }
@@ -2649,7 +2649,7 @@ export class KinesisFirehoseDeliveryStreamExtendedS3ConfigurationDataFormatConve
   }
 
   // block_size_bytes - computed: false, optional: true, required: false
-  private _blockSizeBytes?: number;
+  private _blockSizeBytes?: number; 
   public get blockSizeBytes() {
     return this.getNumberAttribute('block_size_bytes');
   }
@@ -2665,7 +2665,7 @@ export class KinesisFirehoseDeliveryStreamExtendedS3ConfigurationDataFormatConve
   }
 
   // bloom_filter_columns - computed: false, optional: true, required: false
-  private _bloomFilterColumns?: string[];
+  private _bloomFilterColumns?: string[]; 
   public get bloomFilterColumns() {
     return this.getListAttribute('bloom_filter_columns');
   }
@@ -2681,7 +2681,7 @@ export class KinesisFirehoseDeliveryStreamExtendedS3ConfigurationDataFormatConve
   }
 
   // bloom_filter_false_positive_probability - computed: false, optional: true, required: false
-  private _bloomFilterFalsePositiveProbability?: number;
+  private _bloomFilterFalsePositiveProbability?: number; 
   public get bloomFilterFalsePositiveProbability() {
     return this.getNumberAttribute('bloom_filter_false_positive_probability');
   }
@@ -2697,7 +2697,7 @@ export class KinesisFirehoseDeliveryStreamExtendedS3ConfigurationDataFormatConve
   }
 
   // compression - computed: false, optional: true, required: false
-  private _compression?: string;
+  private _compression?: string; 
   public get compression() {
     return this.getStringAttribute('compression');
   }
@@ -2713,7 +2713,7 @@ export class KinesisFirehoseDeliveryStreamExtendedS3ConfigurationDataFormatConve
   }
 
   // dictionary_key_threshold - computed: false, optional: true, required: false
-  private _dictionaryKeyThreshold?: number;
+  private _dictionaryKeyThreshold?: number; 
   public get dictionaryKeyThreshold() {
     return this.getNumberAttribute('dictionary_key_threshold');
   }
@@ -2729,7 +2729,7 @@ export class KinesisFirehoseDeliveryStreamExtendedS3ConfigurationDataFormatConve
   }
 
   // enable_padding - computed: false, optional: true, required: false
-  private _enablePadding?: boolean | cdktn.IResolvable;
+  private _enablePadding?: boolean | cdktn.IResolvable; 
   public get enablePadding() {
     return this.getBooleanAttribute('enable_padding');
   }
@@ -2745,7 +2745,7 @@ export class KinesisFirehoseDeliveryStreamExtendedS3ConfigurationDataFormatConve
   }
 
   // format_version - computed: false, optional: true, required: false
-  private _formatVersion?: string;
+  private _formatVersion?: string; 
   public get formatVersion() {
     return this.getStringAttribute('format_version');
   }
@@ -2761,7 +2761,7 @@ export class KinesisFirehoseDeliveryStreamExtendedS3ConfigurationDataFormatConve
   }
 
   // padding_tolerance - computed: false, optional: true, required: false
-  private _paddingTolerance?: number;
+  private _paddingTolerance?: number; 
   public get paddingTolerance() {
     return this.getNumberAttribute('padding_tolerance');
   }
@@ -2777,7 +2777,7 @@ export class KinesisFirehoseDeliveryStreamExtendedS3ConfigurationDataFormatConve
   }
 
   // row_index_stride - computed: false, optional: true, required: false
-  private _rowIndexStride?: number;
+  private _rowIndexStride?: number; 
   public get rowIndexStride() {
     return this.getNumberAttribute('row_index_stride');
   }
@@ -2793,7 +2793,7 @@ export class KinesisFirehoseDeliveryStreamExtendedS3ConfigurationDataFormatConve
   }
 
   // stripe_size_bytes - computed: false, optional: true, required: false
-  private _stripeSizeBytes?: number;
+  private _stripeSizeBytes?: number; 
   public get stripeSizeBytes() {
     return this.getNumberAttribute('stripe_size_bytes');
   }
@@ -2962,7 +2962,7 @@ export class KinesisFirehoseDeliveryStreamExtendedS3ConfigurationDataFormatConve
   }
 
   // block_size_bytes - computed: false, optional: true, required: false
-  private _blockSizeBytes?: number;
+  private _blockSizeBytes?: number; 
   public get blockSizeBytes() {
     return this.getNumberAttribute('block_size_bytes');
   }
@@ -2978,7 +2978,7 @@ export class KinesisFirehoseDeliveryStreamExtendedS3ConfigurationDataFormatConve
   }
 
   // compression - computed: false, optional: true, required: false
-  private _compression?: string;
+  private _compression?: string; 
   public get compression() {
     return this.getStringAttribute('compression');
   }
@@ -2994,7 +2994,7 @@ export class KinesisFirehoseDeliveryStreamExtendedS3ConfigurationDataFormatConve
   }
 
   // enable_dictionary_compression - computed: false, optional: true, required: false
-  private _enableDictionaryCompression?: boolean | cdktn.IResolvable;
+  private _enableDictionaryCompression?: boolean | cdktn.IResolvable; 
   public get enableDictionaryCompression() {
     return this.getBooleanAttribute('enable_dictionary_compression');
   }
@@ -3010,7 +3010,7 @@ export class KinesisFirehoseDeliveryStreamExtendedS3ConfigurationDataFormatConve
   }
 
   // max_padding_bytes - computed: false, optional: true, required: false
-  private _maxPaddingBytes?: number;
+  private _maxPaddingBytes?: number; 
   public get maxPaddingBytes() {
     return this.getNumberAttribute('max_padding_bytes');
   }
@@ -3026,7 +3026,7 @@ export class KinesisFirehoseDeliveryStreamExtendedS3ConfigurationDataFormatConve
   }
 
   // page_size_bytes - computed: false, optional: true, required: false
-  private _pageSizeBytes?: number;
+  private _pageSizeBytes?: number; 
   public get pageSizeBytes() {
     return this.getNumberAttribute('page_size_bytes');
   }
@@ -3042,7 +3042,7 @@ export class KinesisFirehoseDeliveryStreamExtendedS3ConfigurationDataFormatConve
   }
 
   // writer_version - computed: false, optional: true, required: false
-  private _writerVersion?: string;
+  private _writerVersion?: string; 
   public get writerVersion() {
     return this.getStringAttribute('writer_version');
   }
@@ -3415,7 +3415,7 @@ export class KinesisFirehoseDeliveryStreamExtendedS3ConfigurationDataFormatConve
   }
 
   // catalog_id - computed: true, optional: true, required: false
-  private _catalogId?: string;
+  private _catalogId?: string; 
   public get catalogId() {
     return this.getStringAttribute('catalog_id');
   }
@@ -3431,7 +3431,7 @@ export class KinesisFirehoseDeliveryStreamExtendedS3ConfigurationDataFormatConve
   }
 
   // database_name - computed: false, optional: false, required: true
-  private _databaseName?: string;
+  private _databaseName?: string; 
   public get databaseName() {
     return this.getStringAttribute('database_name');
   }
@@ -3444,7 +3444,7 @@ export class KinesisFirehoseDeliveryStreamExtendedS3ConfigurationDataFormatConve
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -3460,7 +3460,7 @@ export class KinesisFirehoseDeliveryStreamExtendedS3ConfigurationDataFormatConve
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -3473,7 +3473,7 @@ export class KinesisFirehoseDeliveryStreamExtendedS3ConfigurationDataFormatConve
   }
 
   // table_name - computed: false, optional: false, required: true
-  private _tableName?: string;
+  private _tableName?: string; 
   public get tableName() {
     return this.getStringAttribute('table_name');
   }
@@ -3486,7 +3486,7 @@ export class KinesisFirehoseDeliveryStreamExtendedS3ConfigurationDataFormatConve
   }
 
   // version_id - computed: false, optional: true, required: false
-  private _versionId?: string;
+  private _versionId?: string; 
   public get versionId() {
     return this.getStringAttribute('version_id');
   }
@@ -3627,7 +3627,7 @@ export class KinesisFirehoseDeliveryStreamExtendedS3ConfigurationDataFormatConve
   }
 
   // enabled - computed: false, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -3767,7 +3767,7 @@ export class KinesisFirehoseDeliveryStreamExtendedS3ConfigurationDynamicPartitio
   }
 
   // enabled - computed: false, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -3783,7 +3783,7 @@ export class KinesisFirehoseDeliveryStreamExtendedS3ConfigurationDynamicPartitio
   }
 
   // retry_duration - computed: false, optional: true, required: false
-  private _retryDuration?: number;
+  private _retryDuration?: number; 
   public get retryDuration() {
     return this.getNumberAttribute('retry_duration');
   }
@@ -3896,7 +3896,7 @@ export class KinesisFirehoseDeliveryStreamExtendedS3ConfigurationProcessingConfi
   }
 
   // parameter_name - computed: false, optional: false, required: true
-  private _parameterName?: string;
+  private _parameterName?: string; 
   public get parameterName() {
     return this.getStringAttribute('parameter_name');
   }
@@ -3909,7 +3909,7 @@ export class KinesisFirehoseDeliveryStreamExtendedS3ConfigurationProcessingConfi
   }
 
   // parameter_value - computed: false, optional: false, required: true
-  private _parameterValue?: string;
+  private _parameterValue?: string; 
   public get parameterValue() {
     return this.getStringAttribute('parameter_value');
   }
@@ -4041,7 +4041,7 @@ export class KinesisFirehoseDeliveryStreamExtendedS3ConfigurationProcessingConfi
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -4177,7 +4177,7 @@ export class KinesisFirehoseDeliveryStreamExtendedS3ConfigurationProcessingConfi
   }
 
   // enabled - computed: false, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -4311,7 +4311,7 @@ export class KinesisFirehoseDeliveryStreamExtendedS3ConfigurationS3BackupConfigu
   }
 
   // enabled - computed: false, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -4327,7 +4327,7 @@ export class KinesisFirehoseDeliveryStreamExtendedS3ConfigurationS3BackupConfigu
   }
 
   // log_group_name - computed: false, optional: true, required: false
-  private _logGroupName?: string;
+  private _logGroupName?: string; 
   public get logGroupName() {
     return this.getStringAttribute('log_group_name');
   }
@@ -4343,7 +4343,7 @@ export class KinesisFirehoseDeliveryStreamExtendedS3ConfigurationS3BackupConfigu
   }
 
   // log_stream_name - computed: false, optional: true, required: false
-  private _logStreamName?: string;
+  private _logStreamName?: string; 
   public get logStreamName() {
     return this.getStringAttribute('log_stream_name');
   }
@@ -4565,7 +4565,7 @@ export class KinesisFirehoseDeliveryStreamExtendedS3ConfigurationS3BackupConfigu
   }
 
   // bucket_arn - computed: false, optional: false, required: true
-  private _bucketArn?: string;
+  private _bucketArn?: string; 
   public get bucketArn() {
     return this.getStringAttribute('bucket_arn');
   }
@@ -4578,7 +4578,7 @@ export class KinesisFirehoseDeliveryStreamExtendedS3ConfigurationS3BackupConfigu
   }
 
   // buffering_interval - computed: false, optional: true, required: false
-  private _bufferingInterval?: number;
+  private _bufferingInterval?: number; 
   public get bufferingInterval() {
     return this.getNumberAttribute('buffering_interval');
   }
@@ -4594,7 +4594,7 @@ export class KinesisFirehoseDeliveryStreamExtendedS3ConfigurationS3BackupConfigu
   }
 
   // buffering_size - computed: false, optional: true, required: false
-  private _bufferingSize?: number;
+  private _bufferingSize?: number; 
   public get bufferingSize() {
     return this.getNumberAttribute('buffering_size');
   }
@@ -4610,7 +4610,7 @@ export class KinesisFirehoseDeliveryStreamExtendedS3ConfigurationS3BackupConfigu
   }
 
   // compression_format - computed: false, optional: true, required: false
-  private _compressionFormat?: string;
+  private _compressionFormat?: string; 
   public get compressionFormat() {
     return this.getStringAttribute('compression_format');
   }
@@ -4626,7 +4626,7 @@ export class KinesisFirehoseDeliveryStreamExtendedS3ConfigurationS3BackupConfigu
   }
 
   // error_output_prefix - computed: false, optional: true, required: false
-  private _errorOutputPrefix?: string;
+  private _errorOutputPrefix?: string; 
   public get errorOutputPrefix() {
     return this.getStringAttribute('error_output_prefix');
   }
@@ -4642,7 +4642,7 @@ export class KinesisFirehoseDeliveryStreamExtendedS3ConfigurationS3BackupConfigu
   }
 
   // kms_key_arn - computed: false, optional: true, required: false
-  private _kmsKeyArn?: string;
+  private _kmsKeyArn?: string; 
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -4658,7 +4658,7 @@ export class KinesisFirehoseDeliveryStreamExtendedS3ConfigurationS3BackupConfigu
   }
 
   // prefix - computed: false, optional: true, required: false
-  private _prefix?: string;
+  private _prefix?: string; 
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -4674,7 +4674,7 @@ export class KinesisFirehoseDeliveryStreamExtendedS3ConfigurationS3BackupConfigu
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -5036,7 +5036,7 @@ export class KinesisFirehoseDeliveryStreamExtendedS3ConfigurationOutputReference
   }
 
   // bucket_arn - computed: false, optional: false, required: true
-  private _bucketArn?: string;
+  private _bucketArn?: string; 
   public get bucketArn() {
     return this.getStringAttribute('bucket_arn');
   }
@@ -5049,7 +5049,7 @@ export class KinesisFirehoseDeliveryStreamExtendedS3ConfigurationOutputReference
   }
 
   // buffering_interval - computed: false, optional: true, required: false
-  private _bufferingInterval?: number;
+  private _bufferingInterval?: number; 
   public get bufferingInterval() {
     return this.getNumberAttribute('buffering_interval');
   }
@@ -5065,7 +5065,7 @@ export class KinesisFirehoseDeliveryStreamExtendedS3ConfigurationOutputReference
   }
 
   // buffering_size - computed: false, optional: true, required: false
-  private _bufferingSize?: number;
+  private _bufferingSize?: number; 
   public get bufferingSize() {
     return this.getNumberAttribute('buffering_size');
   }
@@ -5081,7 +5081,7 @@ export class KinesisFirehoseDeliveryStreamExtendedS3ConfigurationOutputReference
   }
 
   // compression_format - computed: false, optional: true, required: false
-  private _compressionFormat?: string;
+  private _compressionFormat?: string; 
   public get compressionFormat() {
     return this.getStringAttribute('compression_format');
   }
@@ -5097,7 +5097,7 @@ export class KinesisFirehoseDeliveryStreamExtendedS3ConfigurationOutputReference
   }
 
   // custom_time_zone - computed: false, optional: true, required: false
-  private _customTimeZone?: string;
+  private _customTimeZone?: string; 
   public get customTimeZone() {
     return this.getStringAttribute('custom_time_zone');
   }
@@ -5113,7 +5113,7 @@ export class KinesisFirehoseDeliveryStreamExtendedS3ConfigurationOutputReference
   }
 
   // error_output_prefix - computed: false, optional: true, required: false
-  private _errorOutputPrefix?: string;
+  private _errorOutputPrefix?: string; 
   public get errorOutputPrefix() {
     return this.getStringAttribute('error_output_prefix');
   }
@@ -5129,7 +5129,7 @@ export class KinesisFirehoseDeliveryStreamExtendedS3ConfigurationOutputReference
   }
 
   // file_extension - computed: false, optional: true, required: false
-  private _fileExtension?: string;
+  private _fileExtension?: string; 
   public get fileExtension() {
     return this.getStringAttribute('file_extension');
   }
@@ -5145,7 +5145,7 @@ export class KinesisFirehoseDeliveryStreamExtendedS3ConfigurationOutputReference
   }
 
   // kms_key_arn - computed: false, optional: true, required: false
-  private _kmsKeyArn?: string;
+  private _kmsKeyArn?: string; 
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -5161,7 +5161,7 @@ export class KinesisFirehoseDeliveryStreamExtendedS3ConfigurationOutputReference
   }
 
   // prefix - computed: false, optional: true, required: false
-  private _prefix?: string;
+  private _prefix?: string; 
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -5177,7 +5177,7 @@ export class KinesisFirehoseDeliveryStreamExtendedS3ConfigurationOutputReference
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -5190,7 +5190,7 @@ export class KinesisFirehoseDeliveryStreamExtendedS3ConfigurationOutputReference
   }
 
   // s3_backup_mode - computed: false, optional: true, required: false
-  private _s3BackupMode?: string;
+  private _s3BackupMode?: string; 
   public get s3BackupMode() {
     return this.getStringAttribute('s3_backup_mode');
   }
@@ -5388,7 +5388,7 @@ export class KinesisFirehoseDeliveryStreamHttpEndpointConfigurationCloudwatchLog
   }
 
   // enabled - computed: false, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -5404,7 +5404,7 @@ export class KinesisFirehoseDeliveryStreamHttpEndpointConfigurationCloudwatchLog
   }
 
   // log_group_name - computed: false, optional: true, required: false
-  private _logGroupName?: string;
+  private _logGroupName?: string; 
   public get logGroupName() {
     return this.getStringAttribute('log_group_name');
   }
@@ -5420,7 +5420,7 @@ export class KinesisFirehoseDeliveryStreamHttpEndpointConfigurationCloudwatchLog
   }
 
   // log_stream_name - computed: false, optional: true, required: false
-  private _logStreamName?: string;
+  private _logStreamName?: string; 
   public get logStreamName() {
     return this.getStringAttribute('log_stream_name');
   }
@@ -5533,7 +5533,7 @@ export class KinesisFirehoseDeliveryStreamHttpEndpointConfigurationProcessingCon
   }
 
   // parameter_name - computed: false, optional: false, required: true
-  private _parameterName?: string;
+  private _parameterName?: string; 
   public get parameterName() {
     return this.getStringAttribute('parameter_name');
   }
@@ -5546,7 +5546,7 @@ export class KinesisFirehoseDeliveryStreamHttpEndpointConfigurationProcessingCon
   }
 
   // parameter_value - computed: false, optional: false, required: true
-  private _parameterValue?: string;
+  private _parameterValue?: string; 
   public get parameterValue() {
     return this.getStringAttribute('parameter_value');
   }
@@ -5678,7 +5678,7 @@ export class KinesisFirehoseDeliveryStreamHttpEndpointConfigurationProcessingCon
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -5814,7 +5814,7 @@ export class KinesisFirehoseDeliveryStreamHttpEndpointConfigurationProcessingCon
   }
 
   // enabled - computed: false, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -5943,7 +5943,7 @@ export class KinesisFirehoseDeliveryStreamHttpEndpointConfigurationRequestConfig
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -5956,7 +5956,7 @@ export class KinesisFirehoseDeliveryStreamHttpEndpointConfigurationRequestConfig
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -6076,7 +6076,7 @@ export class KinesisFirehoseDeliveryStreamHttpEndpointConfigurationRequestConfig
   }
 
   // content_encoding - computed: false, optional: true, required: false
-  private _contentEncoding?: string;
+  private _contentEncoding?: string; 
   public get contentEncoding() {
     return this.getStringAttribute('content_encoding');
   }
@@ -6210,7 +6210,7 @@ export class KinesisFirehoseDeliveryStreamHttpEndpointConfigurationS3Configurati
   }
 
   // enabled - computed: false, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -6226,7 +6226,7 @@ export class KinesisFirehoseDeliveryStreamHttpEndpointConfigurationS3Configurati
   }
 
   // log_group_name - computed: false, optional: true, required: false
-  private _logGroupName?: string;
+  private _logGroupName?: string; 
   public get logGroupName() {
     return this.getStringAttribute('log_group_name');
   }
@@ -6242,7 +6242,7 @@ export class KinesisFirehoseDeliveryStreamHttpEndpointConfigurationS3Configurati
   }
 
   // log_stream_name - computed: false, optional: true, required: false
-  private _logStreamName?: string;
+  private _logStreamName?: string; 
   public get logStreamName() {
     return this.getStringAttribute('log_stream_name');
   }
@@ -6464,7 +6464,7 @@ export class KinesisFirehoseDeliveryStreamHttpEndpointConfigurationS3Configurati
   }
 
   // bucket_arn - computed: false, optional: false, required: true
-  private _bucketArn?: string;
+  private _bucketArn?: string; 
   public get bucketArn() {
     return this.getStringAttribute('bucket_arn');
   }
@@ -6477,7 +6477,7 @@ export class KinesisFirehoseDeliveryStreamHttpEndpointConfigurationS3Configurati
   }
 
   // buffering_interval - computed: false, optional: true, required: false
-  private _bufferingInterval?: number;
+  private _bufferingInterval?: number; 
   public get bufferingInterval() {
     return this.getNumberAttribute('buffering_interval');
   }
@@ -6493,7 +6493,7 @@ export class KinesisFirehoseDeliveryStreamHttpEndpointConfigurationS3Configurati
   }
 
   // buffering_size - computed: false, optional: true, required: false
-  private _bufferingSize?: number;
+  private _bufferingSize?: number; 
   public get bufferingSize() {
     return this.getNumberAttribute('buffering_size');
   }
@@ -6509,7 +6509,7 @@ export class KinesisFirehoseDeliveryStreamHttpEndpointConfigurationS3Configurati
   }
 
   // compression_format - computed: false, optional: true, required: false
-  private _compressionFormat?: string;
+  private _compressionFormat?: string; 
   public get compressionFormat() {
     return this.getStringAttribute('compression_format');
   }
@@ -6525,7 +6525,7 @@ export class KinesisFirehoseDeliveryStreamHttpEndpointConfigurationS3Configurati
   }
 
   // error_output_prefix - computed: false, optional: true, required: false
-  private _errorOutputPrefix?: string;
+  private _errorOutputPrefix?: string; 
   public get errorOutputPrefix() {
     return this.getStringAttribute('error_output_prefix');
   }
@@ -6541,7 +6541,7 @@ export class KinesisFirehoseDeliveryStreamHttpEndpointConfigurationS3Configurati
   }
 
   // kms_key_arn - computed: false, optional: true, required: false
-  private _kmsKeyArn?: string;
+  private _kmsKeyArn?: string; 
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -6557,7 +6557,7 @@ export class KinesisFirehoseDeliveryStreamHttpEndpointConfigurationS3Configurati
   }
 
   // prefix - computed: false, optional: true, required: false
-  private _prefix?: string;
+  private _prefix?: string; 
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -6573,7 +6573,7 @@ export class KinesisFirehoseDeliveryStreamHttpEndpointConfigurationS3Configurati
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -6704,7 +6704,7 @@ export class KinesisFirehoseDeliveryStreamHttpEndpointConfigurationSecretsManage
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -6720,7 +6720,7 @@ export class KinesisFirehoseDeliveryStreamHttpEndpointConfigurationSecretsManage
   }
 
   // role_arn - computed: false, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -6736,7 +6736,7 @@ export class KinesisFirehoseDeliveryStreamHttpEndpointConfigurationSecretsManage
   }
 
   // secret_arn - computed: false, optional: true, required: false
-  private _secretArn?: string;
+  private _secretArn?: string; 
   public get secretArn() {
     return this.getStringAttribute('secret_arn');
   }
@@ -7034,7 +7034,7 @@ export class KinesisFirehoseDeliveryStreamHttpEndpointConfigurationOutputReferen
   }
 
   // access_key - computed: false, optional: true, required: false
-  private _accessKey?: string;
+  private _accessKey?: string; 
   public get accessKey() {
     return this.getStringAttribute('access_key');
   }
@@ -7050,7 +7050,7 @@ export class KinesisFirehoseDeliveryStreamHttpEndpointConfigurationOutputReferen
   }
 
   // buffering_interval - computed: false, optional: true, required: false
-  private _bufferingInterval?: number;
+  private _bufferingInterval?: number; 
   public get bufferingInterval() {
     return this.getNumberAttribute('buffering_interval');
   }
@@ -7066,7 +7066,7 @@ export class KinesisFirehoseDeliveryStreamHttpEndpointConfigurationOutputReferen
   }
 
   // buffering_size - computed: false, optional: true, required: false
-  private _bufferingSize?: number;
+  private _bufferingSize?: number; 
   public get bufferingSize() {
     return this.getNumberAttribute('buffering_size');
   }
@@ -7082,7 +7082,7 @@ export class KinesisFirehoseDeliveryStreamHttpEndpointConfigurationOutputReferen
   }
 
   // name - computed: false, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -7098,7 +7098,7 @@ export class KinesisFirehoseDeliveryStreamHttpEndpointConfigurationOutputReferen
   }
 
   // retry_duration - computed: false, optional: true, required: false
-  private _retryDuration?: number;
+  private _retryDuration?: number; 
   public get retryDuration() {
     return this.getNumberAttribute('retry_duration');
   }
@@ -7114,7 +7114,7 @@ export class KinesisFirehoseDeliveryStreamHttpEndpointConfigurationOutputReferen
   }
 
   // role_arn - computed: false, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -7130,7 +7130,7 @@ export class KinesisFirehoseDeliveryStreamHttpEndpointConfigurationOutputReferen
   }
 
   // s3_backup_mode - computed: false, optional: true, required: false
-  private _s3BackupMode?: string;
+  private _s3BackupMode?: string; 
   public get s3BackupMode() {
     return this.getStringAttribute('s3_backup_mode');
   }
@@ -7146,7 +7146,7 @@ export class KinesisFirehoseDeliveryStreamHttpEndpointConfigurationOutputReferen
   }
 
   // url - computed: false, optional: false, required: true
-  private _url?: string;
+  private _url?: string; 
   public get url() {
     return this.getStringAttribute('url');
   }
@@ -7338,7 +7338,7 @@ export class KinesisFirehoseDeliveryStreamIcebergConfigurationCloudwatchLoggingO
   }
 
   // enabled - computed: false, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -7354,7 +7354,7 @@ export class KinesisFirehoseDeliveryStreamIcebergConfigurationCloudwatchLoggingO
   }
 
   // log_group_name - computed: false, optional: true, required: false
-  private _logGroupName?: string;
+  private _logGroupName?: string; 
   public get logGroupName() {
     return this.getStringAttribute('log_group_name');
   }
@@ -7370,7 +7370,7 @@ export class KinesisFirehoseDeliveryStreamIcebergConfigurationCloudwatchLoggingO
   }
 
   // log_stream_name - computed: false, optional: true, required: false
-  private _logStreamName?: string;
+  private _logStreamName?: string; 
   public get logStreamName() {
     return this.getStringAttribute('log_stream_name');
   }
@@ -7517,7 +7517,7 @@ export class KinesisFirehoseDeliveryStreamIcebergConfigurationDestinationTableCo
   }
 
   // database_name - computed: false, optional: false, required: true
-  private _databaseName?: string;
+  private _databaseName?: string; 
   public get databaseName() {
     return this.getStringAttribute('database_name');
   }
@@ -7530,7 +7530,7 @@ export class KinesisFirehoseDeliveryStreamIcebergConfigurationDestinationTableCo
   }
 
   // s3_error_output_prefix - computed: false, optional: true, required: false
-  private _s3ErrorOutputPrefix?: string;
+  private _s3ErrorOutputPrefix?: string; 
   public get s3ErrorOutputPrefix() {
     return this.getStringAttribute('s3_error_output_prefix');
   }
@@ -7546,7 +7546,7 @@ export class KinesisFirehoseDeliveryStreamIcebergConfigurationDestinationTableCo
   }
 
   // table_name - computed: false, optional: false, required: true
-  private _tableName?: string;
+  private _tableName?: string; 
   public get tableName() {
     return this.getStringAttribute('table_name');
   }
@@ -7559,7 +7559,7 @@ export class KinesisFirehoseDeliveryStreamIcebergConfigurationDestinationTableCo
   }
 
   // unique_keys - computed: false, optional: true, required: false
-  private _uniqueKeys?: string[];
+  private _uniqueKeys?: string[]; 
   public get uniqueKeys() {
     return this.getListAttribute('unique_keys');
   }
@@ -7692,7 +7692,7 @@ export class KinesisFirehoseDeliveryStreamIcebergConfigurationProcessingConfigur
   }
 
   // parameter_name - computed: false, optional: false, required: true
-  private _parameterName?: string;
+  private _parameterName?: string; 
   public get parameterName() {
     return this.getStringAttribute('parameter_name');
   }
@@ -7705,7 +7705,7 @@ export class KinesisFirehoseDeliveryStreamIcebergConfigurationProcessingConfigur
   }
 
   // parameter_value - computed: false, optional: false, required: true
-  private _parameterValue?: string;
+  private _parameterValue?: string; 
   public get parameterValue() {
     return this.getStringAttribute('parameter_value');
   }
@@ -7837,7 +7837,7 @@ export class KinesisFirehoseDeliveryStreamIcebergConfigurationProcessingConfigur
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -7973,7 +7973,7 @@ export class KinesisFirehoseDeliveryStreamIcebergConfigurationProcessingConfigur
   }
 
   // enabled - computed: false, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -8107,7 +8107,7 @@ export class KinesisFirehoseDeliveryStreamIcebergConfigurationS3ConfigurationClo
   }
 
   // enabled - computed: false, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -8123,7 +8123,7 @@ export class KinesisFirehoseDeliveryStreamIcebergConfigurationS3ConfigurationClo
   }
 
   // log_group_name - computed: false, optional: true, required: false
-  private _logGroupName?: string;
+  private _logGroupName?: string; 
   public get logGroupName() {
     return this.getStringAttribute('log_group_name');
   }
@@ -8139,7 +8139,7 @@ export class KinesisFirehoseDeliveryStreamIcebergConfigurationS3ConfigurationClo
   }
 
   // log_stream_name - computed: false, optional: true, required: false
-  private _logStreamName?: string;
+  private _logStreamName?: string; 
   public get logStreamName() {
     return this.getStringAttribute('log_stream_name');
   }
@@ -8361,7 +8361,7 @@ export class KinesisFirehoseDeliveryStreamIcebergConfigurationS3ConfigurationOut
   }
 
   // bucket_arn - computed: false, optional: false, required: true
-  private _bucketArn?: string;
+  private _bucketArn?: string; 
   public get bucketArn() {
     return this.getStringAttribute('bucket_arn');
   }
@@ -8374,7 +8374,7 @@ export class KinesisFirehoseDeliveryStreamIcebergConfigurationS3ConfigurationOut
   }
 
   // buffering_interval - computed: false, optional: true, required: false
-  private _bufferingInterval?: number;
+  private _bufferingInterval?: number; 
   public get bufferingInterval() {
     return this.getNumberAttribute('buffering_interval');
   }
@@ -8390,7 +8390,7 @@ export class KinesisFirehoseDeliveryStreamIcebergConfigurationS3ConfigurationOut
   }
 
   // buffering_size - computed: false, optional: true, required: false
-  private _bufferingSize?: number;
+  private _bufferingSize?: number; 
   public get bufferingSize() {
     return this.getNumberAttribute('buffering_size');
   }
@@ -8406,7 +8406,7 @@ export class KinesisFirehoseDeliveryStreamIcebergConfigurationS3ConfigurationOut
   }
 
   // compression_format - computed: false, optional: true, required: false
-  private _compressionFormat?: string;
+  private _compressionFormat?: string; 
   public get compressionFormat() {
     return this.getStringAttribute('compression_format');
   }
@@ -8422,7 +8422,7 @@ export class KinesisFirehoseDeliveryStreamIcebergConfigurationS3ConfigurationOut
   }
 
   // error_output_prefix - computed: false, optional: true, required: false
-  private _errorOutputPrefix?: string;
+  private _errorOutputPrefix?: string; 
   public get errorOutputPrefix() {
     return this.getStringAttribute('error_output_prefix');
   }
@@ -8438,7 +8438,7 @@ export class KinesisFirehoseDeliveryStreamIcebergConfigurationS3ConfigurationOut
   }
 
   // kms_key_arn - computed: false, optional: true, required: false
-  private _kmsKeyArn?: string;
+  private _kmsKeyArn?: string; 
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -8454,7 +8454,7 @@ export class KinesisFirehoseDeliveryStreamIcebergConfigurationS3ConfigurationOut
   }
 
   // prefix - computed: false, optional: true, required: false
-  private _prefix?: string;
+  private _prefix?: string; 
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -8470,7 +8470,7 @@ export class KinesisFirehoseDeliveryStreamIcebergConfigurationS3ConfigurationOut
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -8745,7 +8745,7 @@ export class KinesisFirehoseDeliveryStreamIcebergConfigurationOutputReference ex
   }
 
   // append_only - computed: true, optional: true, required: false
-  private _appendOnly?: boolean | cdktn.IResolvable;
+  private _appendOnly?: boolean | cdktn.IResolvable; 
   public get appendOnly() {
     return this.getBooleanAttribute('append_only');
   }
@@ -8761,7 +8761,7 @@ export class KinesisFirehoseDeliveryStreamIcebergConfigurationOutputReference ex
   }
 
   // buffering_interval - computed: false, optional: true, required: false
-  private _bufferingInterval?: number;
+  private _bufferingInterval?: number; 
   public get bufferingInterval() {
     return this.getNumberAttribute('buffering_interval');
   }
@@ -8777,7 +8777,7 @@ export class KinesisFirehoseDeliveryStreamIcebergConfigurationOutputReference ex
   }
 
   // buffering_size - computed: false, optional: true, required: false
-  private _bufferingSize?: number;
+  private _bufferingSize?: number; 
   public get bufferingSize() {
     return this.getNumberAttribute('buffering_size');
   }
@@ -8793,7 +8793,7 @@ export class KinesisFirehoseDeliveryStreamIcebergConfigurationOutputReference ex
   }
 
   // catalog_arn - computed: false, optional: false, required: true
-  private _catalogArn?: string;
+  private _catalogArn?: string; 
   public get catalogArn() {
     return this.getStringAttribute('catalog_arn');
   }
@@ -8806,7 +8806,7 @@ export class KinesisFirehoseDeliveryStreamIcebergConfigurationOutputReference ex
   }
 
   // retry_duration - computed: false, optional: true, required: false
-  private _retryDuration?: number;
+  private _retryDuration?: number; 
   public get retryDuration() {
     return this.getNumberAttribute('retry_duration');
   }
@@ -8822,7 +8822,7 @@ export class KinesisFirehoseDeliveryStreamIcebergConfigurationOutputReference ex
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -8835,7 +8835,7 @@ export class KinesisFirehoseDeliveryStreamIcebergConfigurationOutputReference ex
   }
 
   // s3_backup_mode - computed: false, optional: true, required: false
-  private _s3BackupMode?: string;
+  private _s3BackupMode?: string; 
   public get s3BackupMode() {
     return this.getStringAttribute('s3_backup_mode');
   }
@@ -8997,7 +8997,7 @@ export class KinesisFirehoseDeliveryStreamKinesisSourceConfigurationOutputRefere
   }
 
   // kinesis_stream_arn - computed: false, optional: false, required: true
-  private _kinesisStreamArn?: string;
+  private _kinesisStreamArn?: string; 
   public get kinesisStreamArn() {
     return this.getStringAttribute('kinesis_stream_arn');
   }
@@ -9010,7 +9010,7 @@ export class KinesisFirehoseDeliveryStreamKinesisSourceConfigurationOutputRefere
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -9108,7 +9108,7 @@ export class KinesisFirehoseDeliveryStreamMskSourceConfigurationAuthenticationCo
   }
 
   // connectivity - computed: false, optional: false, required: true
-  private _connectivity?: string;
+  private _connectivity?: string; 
   public get connectivity() {
     return this.getStringAttribute('connectivity');
   }
@@ -9121,7 +9121,7 @@ export class KinesisFirehoseDeliveryStreamMskSourceConfigurationAuthenticationCo
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -9255,7 +9255,7 @@ export class KinesisFirehoseDeliveryStreamMskSourceConfigurationOutputReference 
   }
 
   // msk_cluster_arn - computed: false, optional: false, required: true
-  private _mskClusterArn?: string;
+  private _mskClusterArn?: string; 
   public get mskClusterArn() {
     return this.getStringAttribute('msk_cluster_arn');
   }
@@ -9268,7 +9268,7 @@ export class KinesisFirehoseDeliveryStreamMskSourceConfigurationOutputReference 
   }
 
   // read_from_timestamp - computed: false, optional: true, required: false
-  private _readFromTimestamp?: string;
+  private _readFromTimestamp?: string; 
   public get readFromTimestamp() {
     return this.getStringAttribute('read_from_timestamp');
   }
@@ -9284,7 +9284,7 @@ export class KinesisFirehoseDeliveryStreamMskSourceConfigurationOutputReference 
   }
 
   // topic_name - computed: false, optional: false, required: true
-  private _topicName?: string;
+  private _topicName?: string; 
   public get topicName() {
     return this.getStringAttribute('topic_name');
   }
@@ -9412,7 +9412,7 @@ export class KinesisFirehoseDeliveryStreamOpensearchConfigurationCloudwatchLoggi
   }
 
   // enabled - computed: false, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -9428,7 +9428,7 @@ export class KinesisFirehoseDeliveryStreamOpensearchConfigurationCloudwatchLoggi
   }
 
   // log_group_name - computed: false, optional: true, required: false
-  private _logGroupName?: string;
+  private _logGroupName?: string; 
   public get logGroupName() {
     return this.getStringAttribute('log_group_name');
   }
@@ -9444,7 +9444,7 @@ export class KinesisFirehoseDeliveryStreamOpensearchConfigurationCloudwatchLoggi
   }
 
   // log_stream_name - computed: false, optional: true, required: false
-  private _logStreamName?: string;
+  private _logStreamName?: string; 
   public get logStreamName() {
     return this.getStringAttribute('log_stream_name');
   }
@@ -9528,7 +9528,7 @@ export class KinesisFirehoseDeliveryStreamOpensearchConfigurationDocumentIdOptio
   }
 
   // default_document_id_format - computed: false, optional: false, required: true
-  private _defaultDocumentIdFormat?: string;
+  private _defaultDocumentIdFormat?: string; 
   public get defaultDocumentIdFormat() {
     return this.getStringAttribute('default_document_id_format');
   }
@@ -9638,7 +9638,7 @@ export class KinesisFirehoseDeliveryStreamOpensearchConfigurationProcessingConfi
   }
 
   // parameter_name - computed: false, optional: false, required: true
-  private _parameterName?: string;
+  private _parameterName?: string; 
   public get parameterName() {
     return this.getStringAttribute('parameter_name');
   }
@@ -9651,7 +9651,7 @@ export class KinesisFirehoseDeliveryStreamOpensearchConfigurationProcessingConfi
   }
 
   // parameter_value - computed: false, optional: false, required: true
-  private _parameterValue?: string;
+  private _parameterValue?: string; 
   public get parameterValue() {
     return this.getStringAttribute('parameter_value');
   }
@@ -9783,7 +9783,7 @@ export class KinesisFirehoseDeliveryStreamOpensearchConfigurationProcessingConfi
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -9919,7 +9919,7 @@ export class KinesisFirehoseDeliveryStreamOpensearchConfigurationProcessingConfi
   }
 
   // enabled - computed: false, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -10053,7 +10053,7 @@ export class KinesisFirehoseDeliveryStreamOpensearchConfigurationS3Configuration
   }
 
   // enabled - computed: false, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -10069,7 +10069,7 @@ export class KinesisFirehoseDeliveryStreamOpensearchConfigurationS3Configuration
   }
 
   // log_group_name - computed: false, optional: true, required: false
-  private _logGroupName?: string;
+  private _logGroupName?: string; 
   public get logGroupName() {
     return this.getStringAttribute('log_group_name');
   }
@@ -10085,7 +10085,7 @@ export class KinesisFirehoseDeliveryStreamOpensearchConfigurationS3Configuration
   }
 
   // log_stream_name - computed: false, optional: true, required: false
-  private _logStreamName?: string;
+  private _logStreamName?: string; 
   public get logStreamName() {
     return this.getStringAttribute('log_stream_name');
   }
@@ -10307,7 +10307,7 @@ export class KinesisFirehoseDeliveryStreamOpensearchConfigurationS3Configuration
   }
 
   // bucket_arn - computed: false, optional: false, required: true
-  private _bucketArn?: string;
+  private _bucketArn?: string; 
   public get bucketArn() {
     return this.getStringAttribute('bucket_arn');
   }
@@ -10320,7 +10320,7 @@ export class KinesisFirehoseDeliveryStreamOpensearchConfigurationS3Configuration
   }
 
   // buffering_interval - computed: false, optional: true, required: false
-  private _bufferingInterval?: number;
+  private _bufferingInterval?: number; 
   public get bufferingInterval() {
     return this.getNumberAttribute('buffering_interval');
   }
@@ -10336,7 +10336,7 @@ export class KinesisFirehoseDeliveryStreamOpensearchConfigurationS3Configuration
   }
 
   // buffering_size - computed: false, optional: true, required: false
-  private _bufferingSize?: number;
+  private _bufferingSize?: number; 
   public get bufferingSize() {
     return this.getNumberAttribute('buffering_size');
   }
@@ -10352,7 +10352,7 @@ export class KinesisFirehoseDeliveryStreamOpensearchConfigurationS3Configuration
   }
 
   // compression_format - computed: false, optional: true, required: false
-  private _compressionFormat?: string;
+  private _compressionFormat?: string; 
   public get compressionFormat() {
     return this.getStringAttribute('compression_format');
   }
@@ -10368,7 +10368,7 @@ export class KinesisFirehoseDeliveryStreamOpensearchConfigurationS3Configuration
   }
 
   // error_output_prefix - computed: false, optional: true, required: false
-  private _errorOutputPrefix?: string;
+  private _errorOutputPrefix?: string; 
   public get errorOutputPrefix() {
     return this.getStringAttribute('error_output_prefix');
   }
@@ -10384,7 +10384,7 @@ export class KinesisFirehoseDeliveryStreamOpensearchConfigurationS3Configuration
   }
 
   // kms_key_arn - computed: false, optional: true, required: false
-  private _kmsKeyArn?: string;
+  private _kmsKeyArn?: string; 
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -10400,7 +10400,7 @@ export class KinesisFirehoseDeliveryStreamOpensearchConfigurationS3Configuration
   }
 
   // prefix - computed: false, optional: true, required: false
-  private _prefix?: string;
+  private _prefix?: string; 
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -10416,7 +10416,7 @@ export class KinesisFirehoseDeliveryStreamOpensearchConfigurationS3Configuration
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -10547,7 +10547,7 @@ export class KinesisFirehoseDeliveryStreamOpensearchConfigurationVpcConfigOutput
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -10560,7 +10560,7 @@ export class KinesisFirehoseDeliveryStreamOpensearchConfigurationVpcConfigOutput
   }
 
   // security_group_ids - computed: false, optional: false, required: true
-  private _securityGroupIds?: string[];
+  private _securityGroupIds?: string[]; 
   public get securityGroupIds() {
     return cdktn.Fn.tolist(this.getListAttribute('security_group_ids'));
   }
@@ -10573,7 +10573,7 @@ export class KinesisFirehoseDeliveryStreamOpensearchConfigurationVpcConfigOutput
   }
 
   // subnet_ids - computed: false, optional: false, required: true
-  private _subnetIds?: string[];
+  private _subnetIds?: string[]; 
   public get subnetIds() {
     return cdktn.Fn.tolist(this.getListAttribute('subnet_ids'));
   }
@@ -10907,7 +10907,7 @@ export class KinesisFirehoseDeliveryStreamOpensearchConfigurationOutputReference
   }
 
   // buffering_interval - computed: false, optional: true, required: false
-  private _bufferingInterval?: number;
+  private _bufferingInterval?: number; 
   public get bufferingInterval() {
     return this.getNumberAttribute('buffering_interval');
   }
@@ -10923,7 +10923,7 @@ export class KinesisFirehoseDeliveryStreamOpensearchConfigurationOutputReference
   }
 
   // buffering_size - computed: false, optional: true, required: false
-  private _bufferingSize?: number;
+  private _bufferingSize?: number; 
   public get bufferingSize() {
     return this.getNumberAttribute('buffering_size');
   }
@@ -10939,7 +10939,7 @@ export class KinesisFirehoseDeliveryStreamOpensearchConfigurationOutputReference
   }
 
   // cluster_endpoint - computed: false, optional: true, required: false
-  private _clusterEndpoint?: string;
+  private _clusterEndpoint?: string; 
   public get clusterEndpoint() {
     return this.getStringAttribute('cluster_endpoint');
   }
@@ -10955,7 +10955,7 @@ export class KinesisFirehoseDeliveryStreamOpensearchConfigurationOutputReference
   }
 
   // domain_arn - computed: false, optional: true, required: false
-  private _domainArn?: string;
+  private _domainArn?: string; 
   public get domainArn() {
     return this.getStringAttribute('domain_arn');
   }
@@ -10971,7 +10971,7 @@ export class KinesisFirehoseDeliveryStreamOpensearchConfigurationOutputReference
   }
 
   // index_name - computed: false, optional: false, required: true
-  private _indexName?: string;
+  private _indexName?: string; 
   public get indexName() {
     return this.getStringAttribute('index_name');
   }
@@ -10984,7 +10984,7 @@ export class KinesisFirehoseDeliveryStreamOpensearchConfigurationOutputReference
   }
 
   // index_rotation_period - computed: false, optional: true, required: false
-  private _indexRotationPeriod?: string;
+  private _indexRotationPeriod?: string; 
   public get indexRotationPeriod() {
     return this.getStringAttribute('index_rotation_period');
   }
@@ -11000,7 +11000,7 @@ export class KinesisFirehoseDeliveryStreamOpensearchConfigurationOutputReference
   }
 
   // retry_duration - computed: false, optional: true, required: false
-  private _retryDuration?: number;
+  private _retryDuration?: number; 
   public get retryDuration() {
     return this.getNumberAttribute('retry_duration');
   }
@@ -11016,7 +11016,7 @@ export class KinesisFirehoseDeliveryStreamOpensearchConfigurationOutputReference
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -11029,7 +11029,7 @@ export class KinesisFirehoseDeliveryStreamOpensearchConfigurationOutputReference
   }
 
   // s3_backup_mode - computed: false, optional: true, required: false
-  private _s3BackupMode?: string;
+  private _s3BackupMode?: string; 
   public get s3BackupMode() {
     return this.getStringAttribute('s3_backup_mode');
   }
@@ -11045,7 +11045,7 @@ export class KinesisFirehoseDeliveryStreamOpensearchConfigurationOutputReference
   }
 
   // type_name - computed: false, optional: true, required: false
-  private _typeName?: string;
+  private _typeName?: string; 
   public get typeName() {
     return this.getStringAttribute('type_name');
   }
@@ -11240,7 +11240,7 @@ export class KinesisFirehoseDeliveryStreamOpensearchserverlessConfigurationCloud
   }
 
   // enabled - computed: false, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -11256,7 +11256,7 @@ export class KinesisFirehoseDeliveryStreamOpensearchserverlessConfigurationCloud
   }
 
   // log_group_name - computed: false, optional: true, required: false
-  private _logGroupName?: string;
+  private _logGroupName?: string; 
   public get logGroupName() {
     return this.getStringAttribute('log_group_name');
   }
@@ -11272,7 +11272,7 @@ export class KinesisFirehoseDeliveryStreamOpensearchserverlessConfigurationCloud
   }
 
   // log_stream_name - computed: false, optional: true, required: false
-  private _logStreamName?: string;
+  private _logStreamName?: string; 
   public get logStreamName() {
     return this.getStringAttribute('log_stream_name');
   }
@@ -11385,7 +11385,7 @@ export class KinesisFirehoseDeliveryStreamOpensearchserverlessConfigurationProce
   }
 
   // parameter_name - computed: false, optional: false, required: true
-  private _parameterName?: string;
+  private _parameterName?: string; 
   public get parameterName() {
     return this.getStringAttribute('parameter_name');
   }
@@ -11398,7 +11398,7 @@ export class KinesisFirehoseDeliveryStreamOpensearchserverlessConfigurationProce
   }
 
   // parameter_value - computed: false, optional: false, required: true
-  private _parameterValue?: string;
+  private _parameterValue?: string; 
   public get parameterValue() {
     return this.getStringAttribute('parameter_value');
   }
@@ -11530,7 +11530,7 @@ export class KinesisFirehoseDeliveryStreamOpensearchserverlessConfigurationProce
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -11666,7 +11666,7 @@ export class KinesisFirehoseDeliveryStreamOpensearchserverlessConfigurationProce
   }
 
   // enabled - computed: false, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -11800,7 +11800,7 @@ export class KinesisFirehoseDeliveryStreamOpensearchserverlessConfigurationS3Con
   }
 
   // enabled - computed: false, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -11816,7 +11816,7 @@ export class KinesisFirehoseDeliveryStreamOpensearchserverlessConfigurationS3Con
   }
 
   // log_group_name - computed: false, optional: true, required: false
-  private _logGroupName?: string;
+  private _logGroupName?: string; 
   public get logGroupName() {
     return this.getStringAttribute('log_group_name');
   }
@@ -11832,7 +11832,7 @@ export class KinesisFirehoseDeliveryStreamOpensearchserverlessConfigurationS3Con
   }
 
   // log_stream_name - computed: false, optional: true, required: false
-  private _logStreamName?: string;
+  private _logStreamName?: string; 
   public get logStreamName() {
     return this.getStringAttribute('log_stream_name');
   }
@@ -12054,7 +12054,7 @@ export class KinesisFirehoseDeliveryStreamOpensearchserverlessConfigurationS3Con
   }
 
   // bucket_arn - computed: false, optional: false, required: true
-  private _bucketArn?: string;
+  private _bucketArn?: string; 
   public get bucketArn() {
     return this.getStringAttribute('bucket_arn');
   }
@@ -12067,7 +12067,7 @@ export class KinesisFirehoseDeliveryStreamOpensearchserverlessConfigurationS3Con
   }
 
   // buffering_interval - computed: false, optional: true, required: false
-  private _bufferingInterval?: number;
+  private _bufferingInterval?: number; 
   public get bufferingInterval() {
     return this.getNumberAttribute('buffering_interval');
   }
@@ -12083,7 +12083,7 @@ export class KinesisFirehoseDeliveryStreamOpensearchserverlessConfigurationS3Con
   }
 
   // buffering_size - computed: false, optional: true, required: false
-  private _bufferingSize?: number;
+  private _bufferingSize?: number; 
   public get bufferingSize() {
     return this.getNumberAttribute('buffering_size');
   }
@@ -12099,7 +12099,7 @@ export class KinesisFirehoseDeliveryStreamOpensearchserverlessConfigurationS3Con
   }
 
   // compression_format - computed: false, optional: true, required: false
-  private _compressionFormat?: string;
+  private _compressionFormat?: string; 
   public get compressionFormat() {
     return this.getStringAttribute('compression_format');
   }
@@ -12115,7 +12115,7 @@ export class KinesisFirehoseDeliveryStreamOpensearchserverlessConfigurationS3Con
   }
 
   // error_output_prefix - computed: false, optional: true, required: false
-  private _errorOutputPrefix?: string;
+  private _errorOutputPrefix?: string; 
   public get errorOutputPrefix() {
     return this.getStringAttribute('error_output_prefix');
   }
@@ -12131,7 +12131,7 @@ export class KinesisFirehoseDeliveryStreamOpensearchserverlessConfigurationS3Con
   }
 
   // kms_key_arn - computed: false, optional: true, required: false
-  private _kmsKeyArn?: string;
+  private _kmsKeyArn?: string; 
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -12147,7 +12147,7 @@ export class KinesisFirehoseDeliveryStreamOpensearchserverlessConfigurationS3Con
   }
 
   // prefix - computed: false, optional: true, required: false
-  private _prefix?: string;
+  private _prefix?: string; 
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -12163,7 +12163,7 @@ export class KinesisFirehoseDeliveryStreamOpensearchserverlessConfigurationS3Con
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -12294,7 +12294,7 @@ export class KinesisFirehoseDeliveryStreamOpensearchserverlessConfigurationVpcCo
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -12307,7 +12307,7 @@ export class KinesisFirehoseDeliveryStreamOpensearchserverlessConfigurationVpcCo
   }
 
   // security_group_ids - computed: false, optional: false, required: true
-  private _securityGroupIds?: string[];
+  private _securityGroupIds?: string[]; 
   public get securityGroupIds() {
     return cdktn.Fn.tolist(this.getListAttribute('security_group_ids'));
   }
@@ -12320,7 +12320,7 @@ export class KinesisFirehoseDeliveryStreamOpensearchserverlessConfigurationVpcCo
   }
 
   // subnet_ids - computed: false, optional: false, required: true
-  private _subnetIds?: string[];
+  private _subnetIds?: string[]; 
   public get subnetIds() {
     return cdktn.Fn.tolist(this.getListAttribute('subnet_ids'));
   }
@@ -12584,7 +12584,7 @@ export class KinesisFirehoseDeliveryStreamOpensearchserverlessConfigurationOutpu
   }
 
   // buffering_interval - computed: false, optional: true, required: false
-  private _bufferingInterval?: number;
+  private _bufferingInterval?: number; 
   public get bufferingInterval() {
     return this.getNumberAttribute('buffering_interval');
   }
@@ -12600,7 +12600,7 @@ export class KinesisFirehoseDeliveryStreamOpensearchserverlessConfigurationOutpu
   }
 
   // buffering_size - computed: false, optional: true, required: false
-  private _bufferingSize?: number;
+  private _bufferingSize?: number; 
   public get bufferingSize() {
     return this.getNumberAttribute('buffering_size');
   }
@@ -12616,7 +12616,7 @@ export class KinesisFirehoseDeliveryStreamOpensearchserverlessConfigurationOutpu
   }
 
   // collection_endpoint - computed: false, optional: false, required: true
-  private _collectionEndpoint?: string;
+  private _collectionEndpoint?: string; 
   public get collectionEndpoint() {
     return this.getStringAttribute('collection_endpoint');
   }
@@ -12629,7 +12629,7 @@ export class KinesisFirehoseDeliveryStreamOpensearchserverlessConfigurationOutpu
   }
 
   // index_name - computed: false, optional: false, required: true
-  private _indexName?: string;
+  private _indexName?: string; 
   public get indexName() {
     return this.getStringAttribute('index_name');
   }
@@ -12642,7 +12642,7 @@ export class KinesisFirehoseDeliveryStreamOpensearchserverlessConfigurationOutpu
   }
 
   // retry_duration - computed: false, optional: true, required: false
-  private _retryDuration?: number;
+  private _retryDuration?: number; 
   public get retryDuration() {
     return this.getNumberAttribute('retry_duration');
   }
@@ -12658,7 +12658,7 @@ export class KinesisFirehoseDeliveryStreamOpensearchserverlessConfigurationOutpu
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -12671,7 +12671,7 @@ export class KinesisFirehoseDeliveryStreamOpensearchserverlessConfigurationOutpu
   }
 
   // s3_backup_mode - computed: false, optional: true, required: false
-  private _s3BackupMode?: string;
+  private _s3BackupMode?: string; 
   public get s3BackupMode() {
     return this.getStringAttribute('s3_backup_mode');
   }
@@ -12850,7 +12850,7 @@ export class KinesisFirehoseDeliveryStreamRedshiftConfigurationCloudwatchLogging
   }
 
   // enabled - computed: false, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -12866,7 +12866,7 @@ export class KinesisFirehoseDeliveryStreamRedshiftConfigurationCloudwatchLogging
   }
 
   // log_group_name - computed: false, optional: true, required: false
-  private _logGroupName?: string;
+  private _logGroupName?: string; 
   public get logGroupName() {
     return this.getStringAttribute('log_group_name');
   }
@@ -12882,7 +12882,7 @@ export class KinesisFirehoseDeliveryStreamRedshiftConfigurationCloudwatchLogging
   }
 
   // log_stream_name - computed: false, optional: true, required: false
-  private _logStreamName?: string;
+  private _logStreamName?: string; 
   public get logStreamName() {
     return this.getStringAttribute('log_stream_name');
   }
@@ -12995,7 +12995,7 @@ export class KinesisFirehoseDeliveryStreamRedshiftConfigurationProcessingConfigu
   }
 
   // parameter_name - computed: false, optional: false, required: true
-  private _parameterName?: string;
+  private _parameterName?: string; 
   public get parameterName() {
     return this.getStringAttribute('parameter_name');
   }
@@ -13008,7 +13008,7 @@ export class KinesisFirehoseDeliveryStreamRedshiftConfigurationProcessingConfigu
   }
 
   // parameter_value - computed: false, optional: false, required: true
-  private _parameterValue?: string;
+  private _parameterValue?: string; 
   public get parameterValue() {
     return this.getStringAttribute('parameter_value');
   }
@@ -13140,7 +13140,7 @@ export class KinesisFirehoseDeliveryStreamRedshiftConfigurationProcessingConfigu
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -13276,7 +13276,7 @@ export class KinesisFirehoseDeliveryStreamRedshiftConfigurationProcessingConfigu
   }
 
   // enabled - computed: false, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -13410,7 +13410,7 @@ export class KinesisFirehoseDeliveryStreamRedshiftConfigurationS3BackupConfigura
   }
 
   // enabled - computed: false, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -13426,7 +13426,7 @@ export class KinesisFirehoseDeliveryStreamRedshiftConfigurationS3BackupConfigura
   }
 
   // log_group_name - computed: false, optional: true, required: false
-  private _logGroupName?: string;
+  private _logGroupName?: string; 
   public get logGroupName() {
     return this.getStringAttribute('log_group_name');
   }
@@ -13442,7 +13442,7 @@ export class KinesisFirehoseDeliveryStreamRedshiftConfigurationS3BackupConfigura
   }
 
   // log_stream_name - computed: false, optional: true, required: false
-  private _logStreamName?: string;
+  private _logStreamName?: string; 
   public get logStreamName() {
     return this.getStringAttribute('log_stream_name');
   }
@@ -13664,7 +13664,7 @@ export class KinesisFirehoseDeliveryStreamRedshiftConfigurationS3BackupConfigura
   }
 
   // bucket_arn - computed: false, optional: false, required: true
-  private _bucketArn?: string;
+  private _bucketArn?: string; 
   public get bucketArn() {
     return this.getStringAttribute('bucket_arn');
   }
@@ -13677,7 +13677,7 @@ export class KinesisFirehoseDeliveryStreamRedshiftConfigurationS3BackupConfigura
   }
 
   // buffering_interval - computed: false, optional: true, required: false
-  private _bufferingInterval?: number;
+  private _bufferingInterval?: number; 
   public get bufferingInterval() {
     return this.getNumberAttribute('buffering_interval');
   }
@@ -13693,7 +13693,7 @@ export class KinesisFirehoseDeliveryStreamRedshiftConfigurationS3BackupConfigura
   }
 
   // buffering_size - computed: false, optional: true, required: false
-  private _bufferingSize?: number;
+  private _bufferingSize?: number; 
   public get bufferingSize() {
     return this.getNumberAttribute('buffering_size');
   }
@@ -13709,7 +13709,7 @@ export class KinesisFirehoseDeliveryStreamRedshiftConfigurationS3BackupConfigura
   }
 
   // compression_format - computed: false, optional: true, required: false
-  private _compressionFormat?: string;
+  private _compressionFormat?: string; 
   public get compressionFormat() {
     return this.getStringAttribute('compression_format');
   }
@@ -13725,7 +13725,7 @@ export class KinesisFirehoseDeliveryStreamRedshiftConfigurationS3BackupConfigura
   }
 
   // error_output_prefix - computed: false, optional: true, required: false
-  private _errorOutputPrefix?: string;
+  private _errorOutputPrefix?: string; 
   public get errorOutputPrefix() {
     return this.getStringAttribute('error_output_prefix');
   }
@@ -13741,7 +13741,7 @@ export class KinesisFirehoseDeliveryStreamRedshiftConfigurationS3BackupConfigura
   }
 
   // kms_key_arn - computed: false, optional: true, required: false
-  private _kmsKeyArn?: string;
+  private _kmsKeyArn?: string; 
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -13757,7 +13757,7 @@ export class KinesisFirehoseDeliveryStreamRedshiftConfigurationS3BackupConfigura
   }
 
   // prefix - computed: false, optional: true, required: false
-  private _prefix?: string;
+  private _prefix?: string; 
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -13773,7 +13773,7 @@ export class KinesisFirehoseDeliveryStreamRedshiftConfigurationS3BackupConfigura
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -13904,7 +13904,7 @@ export class KinesisFirehoseDeliveryStreamRedshiftConfigurationS3ConfigurationCl
   }
 
   // enabled - computed: false, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -13920,7 +13920,7 @@ export class KinesisFirehoseDeliveryStreamRedshiftConfigurationS3ConfigurationCl
   }
 
   // log_group_name - computed: false, optional: true, required: false
-  private _logGroupName?: string;
+  private _logGroupName?: string; 
   public get logGroupName() {
     return this.getStringAttribute('log_group_name');
   }
@@ -13936,7 +13936,7 @@ export class KinesisFirehoseDeliveryStreamRedshiftConfigurationS3ConfigurationCl
   }
 
   // log_stream_name - computed: false, optional: true, required: false
-  private _logStreamName?: string;
+  private _logStreamName?: string; 
   public get logStreamName() {
     return this.getStringAttribute('log_stream_name');
   }
@@ -14158,7 +14158,7 @@ export class KinesisFirehoseDeliveryStreamRedshiftConfigurationS3ConfigurationOu
   }
 
   // bucket_arn - computed: false, optional: false, required: true
-  private _bucketArn?: string;
+  private _bucketArn?: string; 
   public get bucketArn() {
     return this.getStringAttribute('bucket_arn');
   }
@@ -14171,7 +14171,7 @@ export class KinesisFirehoseDeliveryStreamRedshiftConfigurationS3ConfigurationOu
   }
 
   // buffering_interval - computed: false, optional: true, required: false
-  private _bufferingInterval?: number;
+  private _bufferingInterval?: number; 
   public get bufferingInterval() {
     return this.getNumberAttribute('buffering_interval');
   }
@@ -14187,7 +14187,7 @@ export class KinesisFirehoseDeliveryStreamRedshiftConfigurationS3ConfigurationOu
   }
 
   // buffering_size - computed: false, optional: true, required: false
-  private _bufferingSize?: number;
+  private _bufferingSize?: number; 
   public get bufferingSize() {
     return this.getNumberAttribute('buffering_size');
   }
@@ -14203,7 +14203,7 @@ export class KinesisFirehoseDeliveryStreamRedshiftConfigurationS3ConfigurationOu
   }
 
   // compression_format - computed: false, optional: true, required: false
-  private _compressionFormat?: string;
+  private _compressionFormat?: string; 
   public get compressionFormat() {
     return this.getStringAttribute('compression_format');
   }
@@ -14219,7 +14219,7 @@ export class KinesisFirehoseDeliveryStreamRedshiftConfigurationS3ConfigurationOu
   }
 
   // error_output_prefix - computed: false, optional: true, required: false
-  private _errorOutputPrefix?: string;
+  private _errorOutputPrefix?: string; 
   public get errorOutputPrefix() {
     return this.getStringAttribute('error_output_prefix');
   }
@@ -14235,7 +14235,7 @@ export class KinesisFirehoseDeliveryStreamRedshiftConfigurationS3ConfigurationOu
   }
 
   // kms_key_arn - computed: false, optional: true, required: false
-  private _kmsKeyArn?: string;
+  private _kmsKeyArn?: string; 
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -14251,7 +14251,7 @@ export class KinesisFirehoseDeliveryStreamRedshiftConfigurationS3ConfigurationOu
   }
 
   // prefix - computed: false, optional: true, required: false
-  private _prefix?: string;
+  private _prefix?: string; 
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -14267,7 +14267,7 @@ export class KinesisFirehoseDeliveryStreamRedshiftConfigurationS3ConfigurationOu
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -14398,7 +14398,7 @@ export class KinesisFirehoseDeliveryStreamRedshiftConfigurationSecretsManagerCon
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -14414,7 +14414,7 @@ export class KinesisFirehoseDeliveryStreamRedshiftConfigurationSecretsManagerCon
   }
 
   // role_arn - computed: false, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -14430,7 +14430,7 @@ export class KinesisFirehoseDeliveryStreamRedshiftConfigurationSecretsManagerCon
   }
 
   // secret_arn - computed: false, optional: true, required: false
-  private _secretArn?: string;
+  private _secretArn?: string; 
   public get secretArn() {
     return this.getStringAttribute('secret_arn');
   }
@@ -14745,7 +14745,7 @@ export class KinesisFirehoseDeliveryStreamRedshiftConfigurationOutputReference e
   }
 
   // cluster_jdbcurl - computed: false, optional: false, required: true
-  private _clusterJdbcurl?: string;
+  private _clusterJdbcurl?: string; 
   public get clusterJdbcurl() {
     return this.getStringAttribute('cluster_jdbcurl');
   }
@@ -14758,7 +14758,7 @@ export class KinesisFirehoseDeliveryStreamRedshiftConfigurationOutputReference e
   }
 
   // copy_options - computed: false, optional: true, required: false
-  private _copyOptions?: string;
+  private _copyOptions?: string; 
   public get copyOptions() {
     return this.getStringAttribute('copy_options');
   }
@@ -14774,7 +14774,7 @@ export class KinesisFirehoseDeliveryStreamRedshiftConfigurationOutputReference e
   }
 
   // data_table_columns - computed: false, optional: true, required: false
-  private _dataTableColumns?: string;
+  private _dataTableColumns?: string; 
   public get dataTableColumns() {
     return this.getStringAttribute('data_table_columns');
   }
@@ -14790,7 +14790,7 @@ export class KinesisFirehoseDeliveryStreamRedshiftConfigurationOutputReference e
   }
 
   // data_table_name - computed: false, optional: false, required: true
-  private _dataTableName?: string;
+  private _dataTableName?: string; 
   public get dataTableName() {
     return this.getStringAttribute('data_table_name');
   }
@@ -14803,7 +14803,7 @@ export class KinesisFirehoseDeliveryStreamRedshiftConfigurationOutputReference e
   }
 
   // password - computed: false, optional: true, required: false
-  private _password?: string;
+  private _password?: string; 
   public get password() {
     return this.getStringAttribute('password');
   }
@@ -14819,7 +14819,7 @@ export class KinesisFirehoseDeliveryStreamRedshiftConfigurationOutputReference e
   }
 
   // retry_duration - computed: false, optional: true, required: false
-  private _retryDuration?: number;
+  private _retryDuration?: number; 
   public get retryDuration() {
     return this.getNumberAttribute('retry_duration');
   }
@@ -14835,7 +14835,7 @@ export class KinesisFirehoseDeliveryStreamRedshiftConfigurationOutputReference e
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -14848,7 +14848,7 @@ export class KinesisFirehoseDeliveryStreamRedshiftConfigurationOutputReference e
   }
 
   // s3_backup_mode - computed: false, optional: true, required: false
-  private _s3BackupMode?: string;
+  private _s3BackupMode?: string; 
   public get s3BackupMode() {
     return this.getStringAttribute('s3_backup_mode');
   }
@@ -14864,7 +14864,7 @@ export class KinesisFirehoseDeliveryStreamRedshiftConfigurationOutputReference e
   }
 
   // username - computed: false, optional: true, required: false
-  private _username?: string;
+  private _username?: string; 
   public get username() {
     return this.getStringAttribute('username');
   }
@@ -15059,7 +15059,7 @@ export class KinesisFirehoseDeliveryStreamServerSideEncryptionOutputReference ex
   }
 
   // enabled - computed: false, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -15075,7 +15075,7 @@ export class KinesisFirehoseDeliveryStreamServerSideEncryptionOutputReference ex
   }
 
   // key_arn - computed: false, optional: true, required: false
-  private _keyArn?: string;
+  private _keyArn?: string; 
   public get keyArn() {
     return this.getStringAttribute('key_arn');
   }
@@ -15091,7 +15091,7 @@ export class KinesisFirehoseDeliveryStreamServerSideEncryptionOutputReference ex
   }
 
   // key_type - computed: false, optional: true, required: false
-  private _keyType?: string;
+  private _keyType?: string; 
   public get keyType() {
     return this.getStringAttribute('key_type');
   }
@@ -15209,7 +15209,7 @@ export class KinesisFirehoseDeliveryStreamSnowflakeConfigurationCloudwatchLoggin
   }
 
   // enabled - computed: false, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -15225,7 +15225,7 @@ export class KinesisFirehoseDeliveryStreamSnowflakeConfigurationCloudwatchLoggin
   }
 
   // log_group_name - computed: false, optional: true, required: false
-  private _logGroupName?: string;
+  private _logGroupName?: string; 
   public get logGroupName() {
     return this.getStringAttribute('log_group_name');
   }
@@ -15241,7 +15241,7 @@ export class KinesisFirehoseDeliveryStreamSnowflakeConfigurationCloudwatchLoggin
   }
 
   // log_stream_name - computed: false, optional: true, required: false
-  private _logStreamName?: string;
+  private _logStreamName?: string; 
   public get logStreamName() {
     return this.getStringAttribute('log_stream_name');
   }
@@ -15354,7 +15354,7 @@ export class KinesisFirehoseDeliveryStreamSnowflakeConfigurationProcessingConfig
   }
 
   // parameter_name - computed: false, optional: false, required: true
-  private _parameterName?: string;
+  private _parameterName?: string; 
   public get parameterName() {
     return this.getStringAttribute('parameter_name');
   }
@@ -15367,7 +15367,7 @@ export class KinesisFirehoseDeliveryStreamSnowflakeConfigurationProcessingConfig
   }
 
   // parameter_value - computed: false, optional: false, required: true
-  private _parameterValue?: string;
+  private _parameterValue?: string; 
   public get parameterValue() {
     return this.getStringAttribute('parameter_value');
   }
@@ -15499,7 +15499,7 @@ export class KinesisFirehoseDeliveryStreamSnowflakeConfigurationProcessingConfig
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -15635,7 +15635,7 @@ export class KinesisFirehoseDeliveryStreamSnowflakeConfigurationProcessingConfig
   }
 
   // enabled - computed: false, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -15769,7 +15769,7 @@ export class KinesisFirehoseDeliveryStreamSnowflakeConfigurationS3ConfigurationC
   }
 
   // enabled - computed: false, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -15785,7 +15785,7 @@ export class KinesisFirehoseDeliveryStreamSnowflakeConfigurationS3ConfigurationC
   }
 
   // log_group_name - computed: false, optional: true, required: false
-  private _logGroupName?: string;
+  private _logGroupName?: string; 
   public get logGroupName() {
     return this.getStringAttribute('log_group_name');
   }
@@ -15801,7 +15801,7 @@ export class KinesisFirehoseDeliveryStreamSnowflakeConfigurationS3ConfigurationC
   }
 
   // log_stream_name - computed: false, optional: true, required: false
-  private _logStreamName?: string;
+  private _logStreamName?: string; 
   public get logStreamName() {
     return this.getStringAttribute('log_stream_name');
   }
@@ -16023,7 +16023,7 @@ export class KinesisFirehoseDeliveryStreamSnowflakeConfigurationS3ConfigurationO
   }
 
   // bucket_arn - computed: false, optional: false, required: true
-  private _bucketArn?: string;
+  private _bucketArn?: string; 
   public get bucketArn() {
     return this.getStringAttribute('bucket_arn');
   }
@@ -16036,7 +16036,7 @@ export class KinesisFirehoseDeliveryStreamSnowflakeConfigurationS3ConfigurationO
   }
 
   // buffering_interval - computed: false, optional: true, required: false
-  private _bufferingInterval?: number;
+  private _bufferingInterval?: number; 
   public get bufferingInterval() {
     return this.getNumberAttribute('buffering_interval');
   }
@@ -16052,7 +16052,7 @@ export class KinesisFirehoseDeliveryStreamSnowflakeConfigurationS3ConfigurationO
   }
 
   // buffering_size - computed: false, optional: true, required: false
-  private _bufferingSize?: number;
+  private _bufferingSize?: number; 
   public get bufferingSize() {
     return this.getNumberAttribute('buffering_size');
   }
@@ -16068,7 +16068,7 @@ export class KinesisFirehoseDeliveryStreamSnowflakeConfigurationS3ConfigurationO
   }
 
   // compression_format - computed: false, optional: true, required: false
-  private _compressionFormat?: string;
+  private _compressionFormat?: string; 
   public get compressionFormat() {
     return this.getStringAttribute('compression_format');
   }
@@ -16084,7 +16084,7 @@ export class KinesisFirehoseDeliveryStreamSnowflakeConfigurationS3ConfigurationO
   }
 
   // error_output_prefix - computed: false, optional: true, required: false
-  private _errorOutputPrefix?: string;
+  private _errorOutputPrefix?: string; 
   public get errorOutputPrefix() {
     return this.getStringAttribute('error_output_prefix');
   }
@@ -16100,7 +16100,7 @@ export class KinesisFirehoseDeliveryStreamSnowflakeConfigurationS3ConfigurationO
   }
 
   // kms_key_arn - computed: false, optional: true, required: false
-  private _kmsKeyArn?: string;
+  private _kmsKeyArn?: string; 
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -16116,7 +16116,7 @@ export class KinesisFirehoseDeliveryStreamSnowflakeConfigurationS3ConfigurationO
   }
 
   // prefix - computed: false, optional: true, required: false
-  private _prefix?: string;
+  private _prefix?: string; 
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -16132,7 +16132,7 @@ export class KinesisFirehoseDeliveryStreamSnowflakeConfigurationS3ConfigurationO
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -16263,7 +16263,7 @@ export class KinesisFirehoseDeliveryStreamSnowflakeConfigurationSecretsManagerCo
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -16279,7 +16279,7 @@ export class KinesisFirehoseDeliveryStreamSnowflakeConfigurationSecretsManagerCo
   }
 
   // role_arn - computed: false, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -16295,7 +16295,7 @@ export class KinesisFirehoseDeliveryStreamSnowflakeConfigurationSecretsManagerCo
   }
 
   // secret_arn - computed: false, optional: true, required: false
-  private _secretArn?: string;
+  private _secretArn?: string; 
   public get secretArn() {
     return this.getStringAttribute('secret_arn');
   }
@@ -16396,7 +16396,7 @@ export class KinesisFirehoseDeliveryStreamSnowflakeConfigurationSnowflakeRoleCon
   }
 
   // enabled - computed: false, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -16412,7 +16412,7 @@ export class KinesisFirehoseDeliveryStreamSnowflakeConfigurationSnowflakeRoleCon
   }
 
   // snowflake_role - computed: false, optional: true, required: false
-  private _snowflakeRole?: string;
+  private _snowflakeRole?: string; 
   public get snowflakeRole() {
     return this.getStringAttribute('snowflake_role');
   }
@@ -16496,7 +16496,7 @@ export class KinesisFirehoseDeliveryStreamSnowflakeConfigurationSnowflakeVpcConf
   }
 
   // private_link_vpce_id - computed: false, optional: false, required: true
-  private _privateLinkVpceId?: string;
+  private _privateLinkVpceId?: string; 
   public get privateLinkVpceId() {
     return this.getStringAttribute('private_link_vpce_id');
   }
@@ -16929,7 +16929,7 @@ export class KinesisFirehoseDeliveryStreamSnowflakeConfigurationOutputReference 
   }
 
   // account_url - computed: false, optional: false, required: true
-  private _accountUrl?: string;
+  private _accountUrl?: string; 
   public get accountUrl() {
     return this.getStringAttribute('account_url');
   }
@@ -16942,7 +16942,7 @@ export class KinesisFirehoseDeliveryStreamSnowflakeConfigurationOutputReference 
   }
 
   // buffering_interval - computed: false, optional: true, required: false
-  private _bufferingInterval?: number;
+  private _bufferingInterval?: number; 
   public get bufferingInterval() {
     return this.getNumberAttribute('buffering_interval');
   }
@@ -16958,7 +16958,7 @@ export class KinesisFirehoseDeliveryStreamSnowflakeConfigurationOutputReference 
   }
 
   // buffering_size - computed: false, optional: true, required: false
-  private _bufferingSize?: number;
+  private _bufferingSize?: number; 
   public get bufferingSize() {
     return this.getNumberAttribute('buffering_size');
   }
@@ -16974,7 +16974,7 @@ export class KinesisFirehoseDeliveryStreamSnowflakeConfigurationOutputReference 
   }
 
   // content_column_name - computed: false, optional: true, required: false
-  private _contentColumnName?: string;
+  private _contentColumnName?: string; 
   public get contentColumnName() {
     return this.getStringAttribute('content_column_name');
   }
@@ -16990,7 +16990,7 @@ export class KinesisFirehoseDeliveryStreamSnowflakeConfigurationOutputReference 
   }
 
   // data_loading_option - computed: false, optional: true, required: false
-  private _dataLoadingOption?: string;
+  private _dataLoadingOption?: string; 
   public get dataLoadingOption() {
     return this.getStringAttribute('data_loading_option');
   }
@@ -17006,7 +17006,7 @@ export class KinesisFirehoseDeliveryStreamSnowflakeConfigurationOutputReference 
   }
 
   // database - computed: false, optional: false, required: true
-  private _database?: string;
+  private _database?: string; 
   public get database() {
     return this.getStringAttribute('database');
   }
@@ -17019,7 +17019,7 @@ export class KinesisFirehoseDeliveryStreamSnowflakeConfigurationOutputReference 
   }
 
   // key_passphrase - computed: false, optional: true, required: false
-  private _keyPassphrase?: string;
+  private _keyPassphrase?: string; 
   public get keyPassphrase() {
     return this.getStringAttribute('key_passphrase');
   }
@@ -17035,7 +17035,7 @@ export class KinesisFirehoseDeliveryStreamSnowflakeConfigurationOutputReference 
   }
 
   // metadata_column_name - computed: false, optional: true, required: false
-  private _metadataColumnName?: string;
+  private _metadataColumnName?: string; 
   public get metadataColumnName() {
     return this.getStringAttribute('metadata_column_name');
   }
@@ -17051,7 +17051,7 @@ export class KinesisFirehoseDeliveryStreamSnowflakeConfigurationOutputReference 
   }
 
   // private_key - computed: false, optional: true, required: false
-  private _privateKey?: string;
+  private _privateKey?: string; 
   public get privateKey() {
     return this.getStringAttribute('private_key');
   }
@@ -17067,7 +17067,7 @@ export class KinesisFirehoseDeliveryStreamSnowflakeConfigurationOutputReference 
   }
 
   // retry_duration - computed: false, optional: true, required: false
-  private _retryDuration?: number;
+  private _retryDuration?: number; 
   public get retryDuration() {
     return this.getNumberAttribute('retry_duration');
   }
@@ -17083,7 +17083,7 @@ export class KinesisFirehoseDeliveryStreamSnowflakeConfigurationOutputReference 
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -17096,7 +17096,7 @@ export class KinesisFirehoseDeliveryStreamSnowflakeConfigurationOutputReference 
   }
 
   // s3_backup_mode - computed: false, optional: true, required: false
-  private _s3BackupMode?: string;
+  private _s3BackupMode?: string; 
   public get s3BackupMode() {
     return this.getStringAttribute('s3_backup_mode');
   }
@@ -17112,7 +17112,7 @@ export class KinesisFirehoseDeliveryStreamSnowflakeConfigurationOutputReference 
   }
 
   // schema - computed: false, optional: false, required: true
-  private _schema?: string;
+  private _schema?: string; 
   public get schema() {
     return this.getStringAttribute('schema');
   }
@@ -17125,7 +17125,7 @@ export class KinesisFirehoseDeliveryStreamSnowflakeConfigurationOutputReference 
   }
 
   // table - computed: false, optional: false, required: true
-  private _table?: string;
+  private _table?: string; 
   public get table() {
     return this.getStringAttribute('table');
   }
@@ -17138,7 +17138,7 @@ export class KinesisFirehoseDeliveryStreamSnowflakeConfigurationOutputReference 
   }
 
   // user - computed: false, optional: true, required: false
-  private _user?: string;
+  private _user?: string; 
   public get user() {
     return this.getStringAttribute('user');
   }
@@ -17349,7 +17349,7 @@ export class KinesisFirehoseDeliveryStreamSplunkConfigurationCloudwatchLoggingOp
   }
 
   // enabled - computed: false, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -17365,7 +17365,7 @@ export class KinesisFirehoseDeliveryStreamSplunkConfigurationCloudwatchLoggingOp
   }
 
   // log_group_name - computed: false, optional: true, required: false
-  private _logGroupName?: string;
+  private _logGroupName?: string; 
   public get logGroupName() {
     return this.getStringAttribute('log_group_name');
   }
@@ -17381,7 +17381,7 @@ export class KinesisFirehoseDeliveryStreamSplunkConfigurationCloudwatchLoggingOp
   }
 
   // log_stream_name - computed: false, optional: true, required: false
-  private _logStreamName?: string;
+  private _logStreamName?: string; 
   public get logStreamName() {
     return this.getStringAttribute('log_stream_name');
   }
@@ -17494,7 +17494,7 @@ export class KinesisFirehoseDeliveryStreamSplunkConfigurationProcessingConfigura
   }
 
   // parameter_name - computed: false, optional: false, required: true
-  private _parameterName?: string;
+  private _parameterName?: string; 
   public get parameterName() {
     return this.getStringAttribute('parameter_name');
   }
@@ -17507,7 +17507,7 @@ export class KinesisFirehoseDeliveryStreamSplunkConfigurationProcessingConfigura
   }
 
   // parameter_value - computed: false, optional: false, required: true
-  private _parameterValue?: string;
+  private _parameterValue?: string; 
   public get parameterValue() {
     return this.getStringAttribute('parameter_value');
   }
@@ -17639,7 +17639,7 @@ export class KinesisFirehoseDeliveryStreamSplunkConfigurationProcessingConfigura
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -17775,7 +17775,7 @@ export class KinesisFirehoseDeliveryStreamSplunkConfigurationProcessingConfigura
   }
 
   // enabled - computed: false, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -17909,7 +17909,7 @@ export class KinesisFirehoseDeliveryStreamSplunkConfigurationS3ConfigurationClou
   }
 
   // enabled - computed: false, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -17925,7 +17925,7 @@ export class KinesisFirehoseDeliveryStreamSplunkConfigurationS3ConfigurationClou
   }
 
   // log_group_name - computed: false, optional: true, required: false
-  private _logGroupName?: string;
+  private _logGroupName?: string; 
   public get logGroupName() {
     return this.getStringAttribute('log_group_name');
   }
@@ -17941,7 +17941,7 @@ export class KinesisFirehoseDeliveryStreamSplunkConfigurationS3ConfigurationClou
   }
 
   // log_stream_name - computed: false, optional: true, required: false
-  private _logStreamName?: string;
+  private _logStreamName?: string; 
   public get logStreamName() {
     return this.getStringAttribute('log_stream_name');
   }
@@ -18163,7 +18163,7 @@ export class KinesisFirehoseDeliveryStreamSplunkConfigurationS3ConfigurationOutp
   }
 
   // bucket_arn - computed: false, optional: false, required: true
-  private _bucketArn?: string;
+  private _bucketArn?: string; 
   public get bucketArn() {
     return this.getStringAttribute('bucket_arn');
   }
@@ -18176,7 +18176,7 @@ export class KinesisFirehoseDeliveryStreamSplunkConfigurationS3ConfigurationOutp
   }
 
   // buffering_interval - computed: false, optional: true, required: false
-  private _bufferingInterval?: number;
+  private _bufferingInterval?: number; 
   public get bufferingInterval() {
     return this.getNumberAttribute('buffering_interval');
   }
@@ -18192,7 +18192,7 @@ export class KinesisFirehoseDeliveryStreamSplunkConfigurationS3ConfigurationOutp
   }
 
   // buffering_size - computed: false, optional: true, required: false
-  private _bufferingSize?: number;
+  private _bufferingSize?: number; 
   public get bufferingSize() {
     return this.getNumberAttribute('buffering_size');
   }
@@ -18208,7 +18208,7 @@ export class KinesisFirehoseDeliveryStreamSplunkConfigurationS3ConfigurationOutp
   }
 
   // compression_format - computed: false, optional: true, required: false
-  private _compressionFormat?: string;
+  private _compressionFormat?: string; 
   public get compressionFormat() {
     return this.getStringAttribute('compression_format');
   }
@@ -18224,7 +18224,7 @@ export class KinesisFirehoseDeliveryStreamSplunkConfigurationS3ConfigurationOutp
   }
 
   // error_output_prefix - computed: false, optional: true, required: false
-  private _errorOutputPrefix?: string;
+  private _errorOutputPrefix?: string; 
   public get errorOutputPrefix() {
     return this.getStringAttribute('error_output_prefix');
   }
@@ -18240,7 +18240,7 @@ export class KinesisFirehoseDeliveryStreamSplunkConfigurationS3ConfigurationOutp
   }
 
   // kms_key_arn - computed: false, optional: true, required: false
-  private _kmsKeyArn?: string;
+  private _kmsKeyArn?: string; 
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -18256,7 +18256,7 @@ export class KinesisFirehoseDeliveryStreamSplunkConfigurationS3ConfigurationOutp
   }
 
   // prefix - computed: false, optional: true, required: false
-  private _prefix?: string;
+  private _prefix?: string; 
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -18272,7 +18272,7 @@ export class KinesisFirehoseDeliveryStreamSplunkConfigurationS3ConfigurationOutp
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -18403,7 +18403,7 @@ export class KinesisFirehoseDeliveryStreamSplunkConfigurationSecretsManagerConfi
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -18419,7 +18419,7 @@ export class KinesisFirehoseDeliveryStreamSplunkConfigurationSecretsManagerConfi
   }
 
   // role_arn - computed: false, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -18435,7 +18435,7 @@ export class KinesisFirehoseDeliveryStreamSplunkConfigurationSecretsManagerConfi
   }
 
   // secret_arn - computed: false, optional: true, required: false
-  private _secretArn?: string;
+  private _secretArn?: string; 
   public get secretArn() {
     return this.getStringAttribute('secret_arn');
   }
@@ -18714,7 +18714,7 @@ export class KinesisFirehoseDeliveryStreamSplunkConfigurationOutputReference ext
   }
 
   // buffering_interval - computed: false, optional: true, required: false
-  private _bufferingInterval?: number;
+  private _bufferingInterval?: number; 
   public get bufferingInterval() {
     return this.getNumberAttribute('buffering_interval');
   }
@@ -18730,7 +18730,7 @@ export class KinesisFirehoseDeliveryStreamSplunkConfigurationOutputReference ext
   }
 
   // buffering_size - computed: false, optional: true, required: false
-  private _bufferingSize?: number;
+  private _bufferingSize?: number; 
   public get bufferingSize() {
     return this.getNumberAttribute('buffering_size');
   }
@@ -18746,7 +18746,7 @@ export class KinesisFirehoseDeliveryStreamSplunkConfigurationOutputReference ext
   }
 
   // hec_acknowledgment_timeout - computed: false, optional: true, required: false
-  private _hecAcknowledgmentTimeout?: number;
+  private _hecAcknowledgmentTimeout?: number; 
   public get hecAcknowledgmentTimeout() {
     return this.getNumberAttribute('hec_acknowledgment_timeout');
   }
@@ -18762,7 +18762,7 @@ export class KinesisFirehoseDeliveryStreamSplunkConfigurationOutputReference ext
   }
 
   // hec_endpoint - computed: false, optional: false, required: true
-  private _hecEndpoint?: string;
+  private _hecEndpoint?: string; 
   public get hecEndpoint() {
     return this.getStringAttribute('hec_endpoint');
   }
@@ -18775,7 +18775,7 @@ export class KinesisFirehoseDeliveryStreamSplunkConfigurationOutputReference ext
   }
 
   // hec_endpoint_type - computed: false, optional: true, required: false
-  private _hecEndpointType?: string;
+  private _hecEndpointType?: string; 
   public get hecEndpointType() {
     return this.getStringAttribute('hec_endpoint_type');
   }
@@ -18791,7 +18791,7 @@ export class KinesisFirehoseDeliveryStreamSplunkConfigurationOutputReference ext
   }
 
   // hec_token - computed: false, optional: true, required: false
-  private _hecToken?: string;
+  private _hecToken?: string; 
   public get hecToken() {
     return this.getStringAttribute('hec_token');
   }
@@ -18807,7 +18807,7 @@ export class KinesisFirehoseDeliveryStreamSplunkConfigurationOutputReference ext
   }
 
   // retry_duration - computed: false, optional: true, required: false
-  private _retryDuration?: number;
+  private _retryDuration?: number; 
   public get retryDuration() {
     return this.getNumberAttribute('retry_duration');
   }
@@ -18823,7 +18823,7 @@ export class KinesisFirehoseDeliveryStreamSplunkConfigurationOutputReference ext
   }
 
   // s3_backup_mode - computed: false, optional: true, required: false
-  private _s3BackupMode?: string;
+  private _s3BackupMode?: string; 
   public get s3BackupMode() {
     return this.getStringAttribute('s3_backup_mode');
   }
@@ -19012,7 +19012,7 @@ export class KinesisFirehoseDeliveryStreamTimeoutsOutputReference extends cdktn.
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -19028,7 +19028,7 @@ export class KinesisFirehoseDeliveryStreamTimeoutsOutputReference extends cdktn.
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -19044,7 +19044,7 @@ export class KinesisFirehoseDeliveryStreamTimeoutsOutputReference extends cdktn.
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -19139,7 +19139,7 @@ export class KinesisFirehoseDeliveryStream extends cdktn.TerraformResource {
   // ==========
 
   // arn - computed: true, optional: true, required: false
-  private _arn?: string;
+  private _arn?: string; 
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -19155,7 +19155,7 @@ export class KinesisFirehoseDeliveryStream extends cdktn.TerraformResource {
   }
 
   // destination - computed: false, optional: false, required: true
-  private _destination?: string;
+  private _destination?: string; 
   public get destination() {
     return this.getStringAttribute('destination');
   }
@@ -19168,7 +19168,7 @@ export class KinesisFirehoseDeliveryStream extends cdktn.TerraformResource {
   }
 
   // destination_id - computed: true, optional: true, required: false
-  private _destinationId?: string;
+  private _destinationId?: string; 
   public get destinationId() {
     return this.getStringAttribute('destination_id');
   }
@@ -19184,7 +19184,7 @@ export class KinesisFirehoseDeliveryStream extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -19200,7 +19200,7 @@ export class KinesisFirehoseDeliveryStream extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -19213,7 +19213,7 @@ export class KinesisFirehoseDeliveryStream extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -19229,7 +19229,7 @@ export class KinesisFirehoseDeliveryStream extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -19245,7 +19245,7 @@ export class KinesisFirehoseDeliveryStream extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -19261,7 +19261,7 @@ export class KinesisFirehoseDeliveryStream extends cdktn.TerraformResource {
   }
 
   // version_id - computed: true, optional: true, required: false
-  private _versionId?: string;
+  private _versionId?: string; 
   public get versionId() {
     return this.getStringAttribute('version_id');
   }

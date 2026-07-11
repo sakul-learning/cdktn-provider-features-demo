@@ -175,7 +175,7 @@ export class Sesv2ContactListTopicOutputReference extends cdktn.ComplexObject {
   }
 
   // default_subscription_status - computed: false, optional: false, required: true
-  private _defaultSubscriptionStatus?: string;
+  private _defaultSubscriptionStatus?: string; 
   public get defaultSubscriptionStatus() {
     return this.getStringAttribute('default_subscription_status');
   }
@@ -188,7 +188,7 @@ export class Sesv2ContactListTopicOutputReference extends cdktn.ComplexObject {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -204,7 +204,7 @@ export class Sesv2ContactListTopicOutputReference extends cdktn.ComplexObject {
   }
 
   // display_name - computed: false, optional: false, required: true
-  private _displayName?: string;
+  private _displayName?: string; 
   public get displayName() {
     return this.getStringAttribute('display_name');
   }
@@ -217,7 +217,7 @@ export class Sesv2ContactListTopicOutputReference extends cdktn.ComplexObject {
   }
 
   // topic_name - computed: false, optional: false, required: true
-  private _topicName?: string;
+  private _topicName?: string; 
   public get topicName() {
     return this.getStringAttribute('topic_name');
   }
@@ -319,7 +319,7 @@ export class Sesv2ContactList extends cdktn.TerraformResource {
   }
 
   // contact_list_name - computed: false, optional: false, required: true
-  private _contactListName?: string;
+  private _contactListName?: string; 
   public get contactListName() {
     return this.getStringAttribute('contact_list_name');
   }
@@ -337,7 +337,7 @@ export class Sesv2ContactList extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -353,7 +353,7 @@ export class Sesv2ContactList extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -374,7 +374,7 @@ export class Sesv2ContactList extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -390,7 +390,7 @@ export class Sesv2ContactList extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -406,7 +406,7 @@ export class Sesv2ContactList extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

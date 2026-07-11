@@ -146,7 +146,7 @@ export class AppconfigEnvironmentMonitorsOutputReference extends cdktn.ComplexOb
   }
 
   // alarm_arn - computed: true, optional: true, required: false
-  private _alarmArn?: string;
+  private _alarmArn?: string; 
   public get alarmArn() {
     return this.getStringAttribute('alarm_arn');
   }
@@ -162,7 +162,7 @@ export class AppconfigEnvironmentMonitorsOutputReference extends cdktn.ComplexOb
   }
 
   // alarm_role_arn - computed: true, optional: true, required: false
-  private _alarmRoleArn?: string;
+  private _alarmRoleArn?: string; 
   public get alarmRoleArn() {
     return this.getStringAttribute('alarm_role_arn');
   }
@@ -299,7 +299,7 @@ export class AppconfigEnvironmentTagsOutputReference extends cdktn.ComplexObject
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -315,7 +315,7 @@ export class AppconfigEnvironmentTagsOutputReference extends cdktn.ComplexObject
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -414,7 +414,7 @@ export class AppconfigEnvironment extends cdktn.TerraformResource {
   // ==========
 
   // application_id - computed: false, optional: false, required: true
-  private _applicationId?: string;
+  private _applicationId?: string; 
   public get applicationId() {
     return this.getStringAttribute('application_id');
   }
@@ -427,7 +427,7 @@ export class AppconfigEnvironment extends cdktn.TerraformResource {
   }
 
   // deletion_protection_check - computed: true, optional: true, required: false
-  private _deletionProtectionCheck?: string;
+  private _deletionProtectionCheck?: string; 
   public get deletionProtectionCheck() {
     return this.getStringAttribute('deletion_protection_check');
   }
@@ -443,7 +443,7 @@ export class AppconfigEnvironment extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -485,7 +485,7 @@ export class AppconfigEnvironment extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }

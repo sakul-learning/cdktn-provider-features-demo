@@ -114,7 +114,7 @@ export class DocdbClusterSnapshotTimeoutsOutputReference extends cdktn.ComplexOb
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -197,7 +197,7 @@ export class DocdbClusterSnapshot extends cdktn.TerraformResource {
   }
 
   // db_cluster_identifier - computed: false, optional: false, required: true
-  private _dbClusterIdentifier?: string;
+  private _dbClusterIdentifier?: string; 
   public get dbClusterIdentifier() {
     return this.getStringAttribute('db_cluster_identifier');
   }
@@ -215,7 +215,7 @@ export class DocdbClusterSnapshot extends cdktn.TerraformResource {
   }
 
   // db_cluster_snapshot_identifier - computed: false, optional: false, required: true
-  private _dbClusterSnapshotIdentifier?: string;
+  private _dbClusterSnapshotIdentifier?: string; 
   public get dbClusterSnapshotIdentifier() {
     return this.getStringAttribute('db_cluster_snapshot_identifier');
   }
@@ -238,7 +238,7 @@ export class DocdbClusterSnapshot extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -264,7 +264,7 @@ export class DocdbClusterSnapshot extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

@@ -89,7 +89,7 @@ export class DataAwsIamUserSshKey extends cdktn.TerraformDataSource {
   // ==========
 
   // encoding - computed: false, optional: false, required: true
-  private _encoding?: string;
+  private _encoding?: string; 
   public get encoding() {
     return this.getStringAttribute('encoding');
   }
@@ -107,7 +107,7 @@ export class DataAwsIamUserSshKey extends cdktn.TerraformDataSource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -128,7 +128,7 @@ export class DataAwsIamUserSshKey extends cdktn.TerraformDataSource {
   }
 
   // ssh_public_key_id - computed: false, optional: false, required: true
-  private _sshPublicKeyId?: string;
+  private _sshPublicKeyId?: string; 
   public get sshPublicKeyId() {
     return this.getStringAttribute('ssh_public_key_id');
   }
@@ -146,7 +146,7 @@ export class DataAwsIamUserSshKey extends cdktn.TerraformDataSource {
   }
 
   // username - computed: false, optional: false, required: true
-  private _username?: string;
+  private _username?: string; 
   public get username() {
     return this.getStringAttribute('username');
   }

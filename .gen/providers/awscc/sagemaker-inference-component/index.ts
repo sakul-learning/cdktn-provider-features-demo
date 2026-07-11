@@ -137,7 +137,7 @@ export class SagemakerInferenceComponentDeploymentConfigAutoRollbackConfiguratio
   }
 
   // alarm_name - computed: true, optional: true, required: false
-  private _alarmName?: string;
+  private _alarmName?: string; 
   public get alarmName() {
     return this.getStringAttribute('alarm_name');
   }
@@ -364,7 +364,7 @@ export class SagemakerInferenceComponentDeploymentConfigRollingUpdatePolicyMaxim
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -380,7 +380,7 @@ export class SagemakerInferenceComponentDeploymentConfigRollingUpdatePolicyMaxim
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: number;
+  private _value?: number; 
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -493,7 +493,7 @@ export class SagemakerInferenceComponentDeploymentConfigRollingUpdatePolicyRollb
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -509,7 +509,7 @@ export class SagemakerInferenceComponentDeploymentConfigRollingUpdatePolicyRollb
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: number;
+  private _value?: number; 
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -674,7 +674,7 @@ export class SagemakerInferenceComponentDeploymentConfigRollingUpdatePolicyOutpu
   }
 
   // maximum_execution_timeout_in_seconds - computed: true, optional: true, required: false
-  private _maximumExecutionTimeoutInSeconds?: number;
+  private _maximumExecutionTimeoutInSeconds?: number; 
   public get maximumExecutionTimeoutInSeconds() {
     return this.getNumberAttribute('maximum_execution_timeout_in_seconds');
   }
@@ -706,7 +706,7 @@ export class SagemakerInferenceComponentDeploymentConfigRollingUpdatePolicyOutpu
   }
 
   // wait_interval_in_seconds - computed: true, optional: true, required: false
-  private _waitIntervalInSeconds?: number;
+  private _waitIntervalInSeconds?: number; 
   public get waitIntervalInSeconds() {
     return this.getNumberAttribute('wait_interval_in_seconds');
   }
@@ -931,7 +931,7 @@ export class SagemakerInferenceComponentRuntimeConfigOutputReference extends cdk
   }
 
   // copy_count - computed: true, optional: true, required: false
-  private _copyCount?: number;
+  private _copyCount?: number; 
   public get copyCount() {
     return this.getNumberAttribute('copy_count');
   }
@@ -1086,7 +1086,7 @@ export class SagemakerInferenceComponentSpecificationComputeResourceRequirements
   }
 
   // max_memory_required_in_mb - computed: true, optional: true, required: false
-  private _maxMemoryRequiredInMb?: number;
+  private _maxMemoryRequiredInMb?: number; 
   public get maxMemoryRequiredInMb() {
     return this.getNumberAttribute('max_memory_required_in_mb');
   }
@@ -1102,7 +1102,7 @@ export class SagemakerInferenceComponentSpecificationComputeResourceRequirements
   }
 
   // min_memory_required_in_mb - computed: true, optional: true, required: false
-  private _minMemoryRequiredInMb?: number;
+  private _minMemoryRequiredInMb?: number; 
   public get minMemoryRequiredInMb() {
     return this.getNumberAttribute('min_memory_required_in_mb');
   }
@@ -1118,7 +1118,7 @@ export class SagemakerInferenceComponentSpecificationComputeResourceRequirements
   }
 
   // number_of_accelerator_devices_required - computed: true, optional: true, required: false
-  private _numberOfAcceleratorDevicesRequired?: number;
+  private _numberOfAcceleratorDevicesRequired?: number; 
   public get numberOfAcceleratorDevicesRequired() {
     return this.getNumberAttribute('number_of_accelerator_devices_required');
   }
@@ -1134,7 +1134,7 @@ export class SagemakerInferenceComponentSpecificationComputeResourceRequirements
   }
 
   // number_of_cpu_cores_required - computed: true, optional: true, required: false
-  private _numberOfCpuCoresRequired?: number;
+  private _numberOfCpuCoresRequired?: number; 
   public get numberOfCpuCoresRequired() {
     return this.getNumberAttribute('number_of_cpu_cores_required');
   }
@@ -1330,7 +1330,7 @@ export class SagemakerInferenceComponentSpecificationContainerOutputReference ex
   }
 
   // artifact_url - computed: true, optional: true, required: false
-  private _artifactUrl?: string;
+  private _artifactUrl?: string; 
   public get artifactUrl() {
     return this.getStringAttribute('artifact_url');
   }
@@ -1352,7 +1352,7 @@ export class SagemakerInferenceComponentSpecificationContainerOutputReference ex
   }
 
   // environment - computed: true, optional: true, required: false
-  private _environment?: { [key: string]: string };
+  private _environment?: { [key: string]: string }; 
   public get environment() {
     return this.getStringMapAttribute('environment');
   }
@@ -1368,7 +1368,7 @@ export class SagemakerInferenceComponentSpecificationContainerOutputReference ex
   }
 
   // image - computed: true, optional: true, required: false
-  private _image?: string;
+  private _image?: string; 
   public get image() {
     return this.getStringAttribute('image');
   }
@@ -1479,7 +1479,7 @@ export class SagemakerInferenceComponentSpecificationStartupParametersOutputRefe
   }
 
   // container_startup_health_check_timeout_in_seconds - computed: true, optional: true, required: false
-  private _containerStartupHealthCheckTimeoutInSeconds?: number;
+  private _containerStartupHealthCheckTimeoutInSeconds?: number; 
   public get containerStartupHealthCheckTimeoutInSeconds() {
     return this.getNumberAttribute('container_startup_health_check_timeout_in_seconds');
   }
@@ -1495,7 +1495,7 @@ export class SagemakerInferenceComponentSpecificationStartupParametersOutputRefe
   }
 
   // model_data_download_timeout_in_seconds - computed: true, optional: true, required: false
-  private _modelDataDownloadTimeoutInSeconds?: number;
+  private _modelDataDownloadTimeoutInSeconds?: number; 
   public get modelDataDownloadTimeoutInSeconds() {
     return this.getNumberAttribute('model_data_download_timeout_in_seconds');
   }
@@ -1661,7 +1661,7 @@ export class SagemakerInferenceComponentSpecificationOutputReference extends cdk
   }
 
   // base_inference_component_name - computed: true, optional: true, required: false
-  private _baseInferenceComponentName?: string;
+  private _baseInferenceComponentName?: string; 
   public get baseInferenceComponentName() {
     return this.getStringAttribute('base_inference_component_name');
   }
@@ -1709,7 +1709,7 @@ export class SagemakerInferenceComponentSpecificationOutputReference extends cdk
   }
 
   // model_name - computed: true, optional: true, required: false
-  private _modelName?: string;
+  private _modelName?: string; 
   public get modelName() {
     return this.getStringAttribute('model_name');
   }
@@ -1842,7 +1842,7 @@ export class SagemakerInferenceComponentTagsOutputReference extends cdktn.Comple
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1858,7 +1858,7 @@ export class SagemakerInferenceComponentTagsOutputReference extends cdktn.Comple
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1980,7 +1980,7 @@ export class SagemakerInferenceComponent extends cdktn.TerraformResource {
   }
 
   // endpoint_arn - computed: true, optional: true, required: false
-  private _endpointArn?: string;
+  private _endpointArn?: string; 
   public get endpointArn() {
     return this.getStringAttribute('endpoint_arn');
   }
@@ -1996,7 +1996,7 @@ export class SagemakerInferenceComponent extends cdktn.TerraformResource {
   }
 
   // endpoint_name - computed: false, optional: false, required: true
-  private _endpointName?: string;
+  private _endpointName?: string; 
   public get endpointName() {
     return this.getStringAttribute('endpoint_name');
   }
@@ -2024,7 +2024,7 @@ export class SagemakerInferenceComponent extends cdktn.TerraformResource {
   }
 
   // inference_component_name - computed: true, optional: true, required: false
-  private _inferenceComponentName?: string;
+  private _inferenceComponentName?: string; 
   public get inferenceComponentName() {
     return this.getStringAttribute('inference_component_name');
   }
@@ -2095,7 +2095,7 @@ export class SagemakerInferenceComponent extends cdktn.TerraformResource {
   }
 
   // variant_name - computed: true, optional: true, required: false
-  private _variantName?: string;
+  private _variantName?: string; 
   public get variantName() {
     return this.getStringAttribute('variant_name');
   }

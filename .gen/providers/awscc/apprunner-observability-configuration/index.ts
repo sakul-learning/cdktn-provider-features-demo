@@ -124,7 +124,7 @@ export class ApprunnerObservabilityConfigurationTagsOutputReference extends cdkt
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -140,7 +140,7 @@ export class ApprunnerObservabilityConfigurationTagsOutputReference extends cdkt
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -256,7 +256,7 @@ export class ApprunnerObservabilityConfigurationTraceConfigurationOutputReferenc
   }
 
   // vendor - computed: true, optional: true, required: false
-  private _vendor?: string;
+  private _vendor?: string; 
   public get vendor() {
     return this.getStringAttribute('vendor');
   }
@@ -347,7 +347,7 @@ export class ApprunnerObservabilityConfiguration extends cdktn.TerraformResource
   }
 
   // observability_configuration_name - computed: true, optional: true, required: false
-  private _observabilityConfigurationName?: string;
+  private _observabilityConfigurationName?: string; 
   public get observabilityConfigurationName() {
     return this.getStringAttribute('observability_configuration_name');
   }

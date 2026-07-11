@@ -126,7 +126,7 @@ export class PinpointApnsVoipSandboxChannel extends cdktn.TerraformResource {
   // ==========
 
   // application_id - computed: false, optional: false, required: true
-  private _applicationId?: string;
+  private _applicationId?: string; 
   public get applicationId() {
     return this.getStringAttribute('application_id');
   }
@@ -139,7 +139,7 @@ export class PinpointApnsVoipSandboxChannel extends cdktn.TerraformResource {
   }
 
   // bundle_id - computed: false, optional: true, required: false
-  private _bundleId?: string;
+  private _bundleId?: string; 
   public get bundleId() {
     return this.getStringAttribute('bundle_id');
   }
@@ -155,7 +155,7 @@ export class PinpointApnsVoipSandboxChannel extends cdktn.TerraformResource {
   }
 
   // certificate - computed: false, optional: true, required: false
-  private _certificate?: string;
+  private _certificate?: string; 
   public get certificate() {
     return this.getStringAttribute('certificate');
   }
@@ -171,7 +171,7 @@ export class PinpointApnsVoipSandboxChannel extends cdktn.TerraformResource {
   }
 
   // default_authentication_method - computed: false, optional: true, required: false
-  private _defaultAuthenticationMethod?: string;
+  private _defaultAuthenticationMethod?: string; 
   public get defaultAuthenticationMethod() {
     return this.getStringAttribute('default_authentication_method');
   }
@@ -187,7 +187,7 @@ export class PinpointApnsVoipSandboxChannel extends cdktn.TerraformResource {
   }
 
   // enabled - computed: false, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -203,7 +203,7 @@ export class PinpointApnsVoipSandboxChannel extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -219,7 +219,7 @@ export class PinpointApnsVoipSandboxChannel extends cdktn.TerraformResource {
   }
 
   // private_key - computed: false, optional: true, required: false
-  private _privateKey?: string;
+  private _privateKey?: string; 
   public get privateKey() {
     return this.getStringAttribute('private_key');
   }
@@ -235,7 +235,7 @@ export class PinpointApnsVoipSandboxChannel extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -251,7 +251,7 @@ export class PinpointApnsVoipSandboxChannel extends cdktn.TerraformResource {
   }
 
   // team_id - computed: false, optional: true, required: false
-  private _teamId?: string;
+  private _teamId?: string; 
   public get teamId() {
     return this.getStringAttribute('team_id');
   }
@@ -267,7 +267,7 @@ export class PinpointApnsVoipSandboxChannel extends cdktn.TerraformResource {
   }
 
   // token_key - computed: false, optional: true, required: false
-  private _tokenKey?: string;
+  private _tokenKey?: string; 
   public get tokenKey() {
     return this.getStringAttribute('token_key');
   }
@@ -283,7 +283,7 @@ export class PinpointApnsVoipSandboxChannel extends cdktn.TerraformResource {
   }
 
   // token_key_id - computed: false, optional: true, required: false
-  private _tokenKeyId?: string;
+  private _tokenKeyId?: string; 
   public get tokenKeyId() {
     return this.getStringAttribute('token_key_id');
   }

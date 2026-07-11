@@ -71,7 +71,7 @@ export class CloudtrailOrganizationDelegatedAdminAccount extends cdktn.Terraform
   // ==========
 
   // account_id - computed: false, optional: false, required: true
-  private _accountId?: string;
+  private _accountId?: string; 
   public get accountId() {
     return this.getStringAttribute('account_id');
   }

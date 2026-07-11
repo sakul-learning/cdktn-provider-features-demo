@@ -143,7 +143,7 @@ export class QbusinessPermissionConditionsOutputReference extends cdktn.ComplexO
   }
 
   // condition_key - computed: true, optional: true, required: false
-  private _conditionKey?: string;
+  private _conditionKey?: string; 
   public get conditionKey() {
     return this.getStringAttribute('condition_key');
   }
@@ -159,7 +159,7 @@ export class QbusinessPermissionConditionsOutputReference extends cdktn.ComplexO
   }
 
   // condition_operator - computed: true, optional: true, required: false
-  private _conditionOperator?: string;
+  private _conditionOperator?: string; 
   public get conditionOperator() {
     return this.getStringAttribute('condition_operator');
   }
@@ -175,7 +175,7 @@ export class QbusinessPermissionConditionsOutputReference extends cdktn.ComplexO
   }
 
   // condition_values - computed: true, optional: true, required: false
-  private _conditionValues?: string[];
+  private _conditionValues?: string[]; 
   public get conditionValues() {
     return this.getListAttribute('condition_values');
   }
@@ -273,7 +273,7 @@ export class QbusinessPermission extends cdktn.TerraformResource {
   // ==========
 
   // actions - computed: false, optional: false, required: true
-  private _actions?: string[];
+  private _actions?: string[]; 
   public get actions() {
     return this.getListAttribute('actions');
   }
@@ -286,7 +286,7 @@ export class QbusinessPermission extends cdktn.TerraformResource {
   }
 
   // application_id - computed: false, optional: false, required: true
-  private _applicationId?: string;
+  private _applicationId?: string; 
   public get applicationId() {
     return this.getStringAttribute('application_id');
   }
@@ -320,7 +320,7 @@ export class QbusinessPermission extends cdktn.TerraformResource {
   }
 
   // principal - computed: false, optional: false, required: true
-  private _principal?: string;
+  private _principal?: string; 
   public get principal() {
     return this.getStringAttribute('principal');
   }
@@ -333,7 +333,7 @@ export class QbusinessPermission extends cdktn.TerraformResource {
   }
 
   // statement_id - computed: false, optional: false, required: true
-  private _statementId?: string;
+  private _statementId?: string; 
   public get statementId() {
     return this.getStringAttribute('statement_id');
   }

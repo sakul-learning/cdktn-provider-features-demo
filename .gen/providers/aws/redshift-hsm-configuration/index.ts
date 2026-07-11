@@ -126,7 +126,7 @@ export class RedshiftHsmConfiguration extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: false, required: true
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -139,7 +139,7 @@ export class RedshiftHsmConfiguration extends cdktn.TerraformResource {
   }
 
   // hsm_configuration_identifier - computed: false, optional: false, required: true
-  private _hsmConfigurationIdentifier?: string;
+  private _hsmConfigurationIdentifier?: string; 
   public get hsmConfigurationIdentifier() {
     return this.getStringAttribute('hsm_configuration_identifier');
   }
@@ -152,7 +152,7 @@ export class RedshiftHsmConfiguration extends cdktn.TerraformResource {
   }
 
   // hsm_ip_address - computed: false, optional: false, required: true
-  private _hsmIpAddress?: string;
+  private _hsmIpAddress?: string; 
   public get hsmIpAddress() {
     return this.getStringAttribute('hsm_ip_address');
   }
@@ -165,7 +165,7 @@ export class RedshiftHsmConfiguration extends cdktn.TerraformResource {
   }
 
   // hsm_partition_name - computed: false, optional: false, required: true
-  private _hsmPartitionName?: string;
+  private _hsmPartitionName?: string; 
   public get hsmPartitionName() {
     return this.getStringAttribute('hsm_partition_name');
   }
@@ -178,7 +178,7 @@ export class RedshiftHsmConfiguration extends cdktn.TerraformResource {
   }
 
   // hsm_partition_password - computed: false, optional: false, required: true
-  private _hsmPartitionPassword?: string;
+  private _hsmPartitionPassword?: string; 
   public get hsmPartitionPassword() {
     return this.getStringAttribute('hsm_partition_password');
   }
@@ -191,7 +191,7 @@ export class RedshiftHsmConfiguration extends cdktn.TerraformResource {
   }
 
   // hsm_server_public_certificate - computed: false, optional: false, required: true
-  private _hsmServerPublicCertificate?: string;
+  private _hsmServerPublicCertificate?: string; 
   public get hsmServerPublicCertificate() {
     return this.getStringAttribute('hsm_server_public_certificate');
   }
@@ -204,7 +204,7 @@ export class RedshiftHsmConfiguration extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -220,7 +220,7 @@ export class RedshiftHsmConfiguration extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -236,7 +236,7 @@ export class RedshiftHsmConfiguration extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -252,7 +252,7 @@ export class RedshiftHsmConfiguration extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

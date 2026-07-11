@@ -120,7 +120,7 @@ export class Ec2TransitGatewayPeeringAttachmentOptionsOutputReference extends cd
   }
 
   // dynamic_routing - computed: false, optional: true, required: false
-  private _dynamicRouting?: string;
+  private _dynamicRouting?: string; 
   public get dynamicRouting() {
     return this.getStringAttribute('dynamic_routing');
   }
@@ -207,7 +207,7 @@ export class Ec2TransitGatewayPeeringAttachment extends cdktn.TerraformResource 
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -223,7 +223,7 @@ export class Ec2TransitGatewayPeeringAttachment extends cdktn.TerraformResource 
   }
 
   // peer_account_id - computed: true, optional: true, required: false
-  private _peerAccountId?: string;
+  private _peerAccountId?: string; 
   public get peerAccountId() {
     return this.getStringAttribute('peer_account_id');
   }
@@ -239,7 +239,7 @@ export class Ec2TransitGatewayPeeringAttachment extends cdktn.TerraformResource 
   }
 
   // peer_region - computed: false, optional: false, required: true
-  private _peerRegion?: string;
+  private _peerRegion?: string; 
   public get peerRegion() {
     return this.getStringAttribute('peer_region');
   }
@@ -252,7 +252,7 @@ export class Ec2TransitGatewayPeeringAttachment extends cdktn.TerraformResource 
   }
 
   // peer_transit_gateway_id - computed: false, optional: false, required: true
-  private _peerTransitGatewayId?: string;
+  private _peerTransitGatewayId?: string; 
   public get peerTransitGatewayId() {
     return this.getStringAttribute('peer_transit_gateway_id');
   }
@@ -265,7 +265,7 @@ export class Ec2TransitGatewayPeeringAttachment extends cdktn.TerraformResource 
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -286,7 +286,7 @@ export class Ec2TransitGatewayPeeringAttachment extends cdktn.TerraformResource 
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -302,7 +302,7 @@ export class Ec2TransitGatewayPeeringAttachment extends cdktn.TerraformResource 
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -318,7 +318,7 @@ export class Ec2TransitGatewayPeeringAttachment extends cdktn.TerraformResource 
   }
 
   // transit_gateway_id - computed: false, optional: false, required: true
-  private _transitGatewayId?: string;
+  private _transitGatewayId?: string; 
   public get transitGatewayId() {
     return this.getStringAttribute('transit_gateway_id');
   }

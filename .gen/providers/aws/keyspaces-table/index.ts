@@ -192,7 +192,7 @@ export class KeyspacesTableCapacitySpecificationOutputReference extends cdktn.Co
   }
 
   // read_capacity_units - computed: false, optional: true, required: false
-  private _readCapacityUnits?: number;
+  private _readCapacityUnits?: number; 
   public get readCapacityUnits() {
     return this.getNumberAttribute('read_capacity_units');
   }
@@ -208,7 +208,7 @@ export class KeyspacesTableCapacitySpecificationOutputReference extends cdktn.Co
   }
 
   // throughput_mode - computed: true, optional: true, required: false
-  private _throughputMode?: string;
+  private _throughputMode?: string; 
   public get throughputMode() {
     return this.getStringAttribute('throughput_mode');
   }
@@ -224,7 +224,7 @@ export class KeyspacesTableCapacitySpecificationOutputReference extends cdktn.Co
   }
 
   // write_capacity_units - computed: false, optional: true, required: false
-  private _writeCapacityUnits?: number;
+  private _writeCapacityUnits?: number; 
   public get writeCapacityUnits() {
     return this.getNumberAttribute('write_capacity_units');
   }
@@ -308,7 +308,7 @@ export class KeyspacesTableClientSideTimestampsOutputReference extends cdktn.Com
   }
 
   // status - computed: false, optional: false, required: true
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -389,7 +389,7 @@ export class KeyspacesTableCommentOutputReference extends cdktn.ComplexObject {
   }
 
   // message - computed: true, optional: true, required: false
-  private _message?: string;
+  private _message?: string; 
   public get message() {
     return this.getStringAttribute('message');
   }
@@ -490,7 +490,7 @@ export class KeyspacesTableEncryptionSpecificationOutputReference extends cdktn.
   }
 
   // kms_key_identifier - computed: false, optional: true, required: false
-  private _kmsKeyIdentifier?: string;
+  private _kmsKeyIdentifier?: string; 
   public get kmsKeyIdentifier() {
     return this.getStringAttribute('kms_key_identifier');
   }
@@ -506,7 +506,7 @@ export class KeyspacesTableEncryptionSpecificationOutputReference extends cdktn.
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -590,7 +590,7 @@ export class KeyspacesTablePointInTimeRecoveryOutputReference extends cdktn.Comp
   }
 
   // status - computed: true, optional: true, required: false
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -703,7 +703,7 @@ export class KeyspacesTableSchemaDefinitionClusteringKeyOutputReference extends 
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -716,7 +716,7 @@ export class KeyspacesTableSchemaDefinitionClusteringKeyOutputReference extends 
   }
 
   // order_by - computed: false, optional: false, required: true
-  private _orderBy?: string;
+  private _orderBy?: string; 
   public get orderBy() {
     return this.getStringAttribute('order_by');
   }
@@ -846,7 +846,7 @@ export class KeyspacesTableSchemaDefinitionColumnOutputReference extends cdktn.C
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -859,7 +859,7 @@ export class KeyspacesTableSchemaDefinitionColumnOutputReference extends cdktn.C
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -972,7 +972,7 @@ export class KeyspacesTableSchemaDefinitionPartitionKeyOutputReference extends c
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1085,7 +1085,7 @@ export class KeyspacesTableSchemaDefinitionStaticColumnOutputReference extends c
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1415,7 +1415,7 @@ export class KeyspacesTableTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -1431,7 +1431,7 @@ export class KeyspacesTableTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -1447,7 +1447,7 @@ export class KeyspacesTableTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -1531,7 +1531,7 @@ export class KeyspacesTableTtlOutputReference extends cdktn.ComplexObject {
   }
 
   // status - computed: false, optional: false, required: true
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -1621,7 +1621,7 @@ export class KeyspacesTable extends cdktn.TerraformResource {
   }
 
   // default_time_to_live - computed: false, optional: true, required: false
-  private _defaultTimeToLive?: number;
+  private _defaultTimeToLive?: number; 
   public get defaultTimeToLive() {
     return this.getNumberAttribute('default_time_to_live');
   }
@@ -1637,7 +1637,7 @@ export class KeyspacesTable extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -1653,7 +1653,7 @@ export class KeyspacesTable extends cdktn.TerraformResource {
   }
 
   // keyspace_name - computed: false, optional: false, required: true
-  private _keyspaceName?: string;
+  private _keyspaceName?: string; 
   public get keyspaceName() {
     return this.getStringAttribute('keyspace_name');
   }
@@ -1666,7 +1666,7 @@ export class KeyspacesTable extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1682,7 +1682,7 @@ export class KeyspacesTable extends cdktn.TerraformResource {
   }
 
   // table_name - computed: false, optional: false, required: true
-  private _tableName?: string;
+  private _tableName?: string; 
   public get tableName() {
     return this.getStringAttribute('table_name');
   }
@@ -1695,7 +1695,7 @@ export class KeyspacesTable extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -1711,7 +1711,7 @@ export class KeyspacesTable extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

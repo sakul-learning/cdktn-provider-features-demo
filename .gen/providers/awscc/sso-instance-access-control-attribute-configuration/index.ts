@@ -103,7 +103,7 @@ export class SsoInstanceAccessControlAttributeConfigurationAccessControlAttribut
   }
 
   // source - computed: true, optional: true, required: false
-  private _source?: string[];
+  private _source?: string[]; 
   public get source() {
     return this.getListAttribute('source');
   }
@@ -216,7 +216,7 @@ export class SsoInstanceAccessControlAttributeConfigurationAccessControlAttribut
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -346,7 +346,7 @@ export class SsoInstanceAccessControlAttributeConfigurationInstanceAccessControl
   }
 
   // source - computed: true, optional: true, required: false
-  private _source?: string[];
+  private _source?: string[]; 
   public get source() {
     return this.getListAttribute('source');
   }
@@ -459,7 +459,7 @@ export class SsoInstanceAccessControlAttributeConfigurationInstanceAccessControl
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -702,7 +702,7 @@ export class SsoInstanceAccessControlAttributeConfiguration extends cdktn.Terraf
   }
 
   // instance_arn - computed: false, optional: false, required: true
-  private _instanceArn?: string;
+  private _instanceArn?: string; 
   public get instanceArn() {
     return this.getStringAttribute('instance_arn');
   }

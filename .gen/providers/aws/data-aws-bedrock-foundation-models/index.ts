@@ -208,7 +208,7 @@ export class DataAwsBedrockFoundationModels extends cdktn.TerraformDataSource {
   // ==========
 
   // by_customization_type - computed: false, optional: true, required: false
-  private _byCustomizationType?: string;
+  private _byCustomizationType?: string; 
   public get byCustomizationType() {
     return this.getStringAttribute('by_customization_type');
   }
@@ -224,7 +224,7 @@ export class DataAwsBedrockFoundationModels extends cdktn.TerraformDataSource {
   }
 
   // by_inference_type - computed: false, optional: true, required: false
-  private _byInferenceType?: string;
+  private _byInferenceType?: string; 
   public get byInferenceType() {
     return this.getStringAttribute('by_inference_type');
   }
@@ -240,7 +240,7 @@ export class DataAwsBedrockFoundationModels extends cdktn.TerraformDataSource {
   }
 
   // by_output_modality - computed: false, optional: true, required: false
-  private _byOutputModality?: string;
+  private _byOutputModality?: string; 
   public get byOutputModality() {
     return this.getStringAttribute('by_output_modality');
   }
@@ -256,7 +256,7 @@ export class DataAwsBedrockFoundationModels extends cdktn.TerraformDataSource {
   }
 
   // by_provider - computed: false, optional: true, required: false
-  private _byProvider?: string;
+  private _byProvider?: string; 
   public get byProvider() {
     return this.getStringAttribute('by_provider');
   }
@@ -283,7 +283,7 @@ export class DataAwsBedrockFoundationModels extends cdktn.TerraformDataSource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

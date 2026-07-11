@@ -98,7 +98,7 @@ export class LambdaRuntimeManagementConfig extends cdktn.TerraformResource {
   }
 
   // function_name - computed: false, optional: false, required: true
-  private _functionName?: string;
+  private _functionName?: string; 
   public get functionName() {
     return this.getStringAttribute('function_name');
   }
@@ -111,7 +111,7 @@ export class LambdaRuntimeManagementConfig extends cdktn.TerraformResource {
   }
 
   // qualifier - computed: false, optional: true, required: false
-  private _qualifier?: string;
+  private _qualifier?: string; 
   public get qualifier() {
     return this.getStringAttribute('qualifier');
   }
@@ -127,7 +127,7 @@ export class LambdaRuntimeManagementConfig extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -143,7 +143,7 @@ export class LambdaRuntimeManagementConfig extends cdktn.TerraformResource {
   }
 
   // runtime_version_arn - computed: false, optional: true, required: false
-  private _runtimeVersionArn?: string;
+  private _runtimeVersionArn?: string; 
   public get runtimeVersionArn() {
     return this.getStringAttribute('runtime_version_arn');
   }
@@ -159,7 +159,7 @@ export class LambdaRuntimeManagementConfig extends cdktn.TerraformResource {
   }
 
   // update_runtime_on - computed: false, optional: true, required: false
-  private _updateRuntimeOn?: string;
+  private _updateRuntimeOn?: string; 
   public get updateRuntimeOn() {
     return this.getStringAttribute('update_runtime_on');
   }

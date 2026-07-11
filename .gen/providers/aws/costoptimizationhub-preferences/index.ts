@@ -81,7 +81,7 @@ export class CostoptimizationhubPreferences extends cdktn.TerraformResource {
   }
 
   // member_account_discount_visibility - computed: true, optional: true, required: false
-  private _memberAccountDiscountVisibility?: string;
+  private _memberAccountDiscountVisibility?: string; 
   public get memberAccountDiscountVisibility() {
     return this.getStringAttribute('member_account_discount_visibility');
   }
@@ -97,7 +97,7 @@ export class CostoptimizationhubPreferences extends cdktn.TerraformResource {
   }
 
   // savings_estimation_mode - computed: true, optional: true, required: false
-  private _savingsEstimationMode?: string;
+  private _savingsEstimationMode?: string; 
   public get savingsEstimationMode() {
     return this.getStringAttribute('savings_estimation_mode');
   }

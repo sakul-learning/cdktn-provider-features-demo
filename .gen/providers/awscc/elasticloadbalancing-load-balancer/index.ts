@@ -107,7 +107,7 @@ export interface ElasticloadbalancingLoadBalancerConfig extends cdktn.TerraformM
 export interface ElasticloadbalancingLoadBalancerAccessLoggingPolicy {
   /**
   * The interval for publishing the access logs. You can specify an interval of either 5 minutes or 60 minutes.
-  *
+  * 
   * Default: 60 minutes
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancing_load_balancer#emit_interval ElasticloadbalancingLoadBalancer#emit_interval}
@@ -244,7 +244,7 @@ export class ElasticloadbalancingLoadBalancerAccessLoggingPolicyOutputReference 
   }
 
   // emit_interval - computed: true, optional: true, required: false
-  private _emitInterval?: number;
+  private _emitInterval?: number; 
   public get emitInterval() {
     return this.getNumberAttribute('emit_interval');
   }
@@ -260,7 +260,7 @@ export class ElasticloadbalancingLoadBalancerAccessLoggingPolicyOutputReference 
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -276,7 +276,7 @@ export class ElasticloadbalancingLoadBalancerAccessLoggingPolicyOutputReference 
   }
 
   // s3_bucket_name - computed: true, optional: true, required: false
-  private _s3BucketName?: string;
+  private _s3BucketName?: string; 
   public get s3BucketName() {
     return this.getStringAttribute('s3_bucket_name');
   }
@@ -292,7 +292,7 @@ export class ElasticloadbalancingLoadBalancerAccessLoggingPolicyOutputReference 
   }
 
   // s3_bucket_prefix - computed: true, optional: true, required: false
-  private _s3BucketPrefix?: string;
+  private _s3BucketPrefix?: string; 
   public get s3BucketPrefix() {
     return this.getStringAttribute('s3_bucket_prefix');
   }
@@ -409,7 +409,7 @@ export class ElasticloadbalancingLoadBalancerAppCookieStickinessPolicyOutputRefe
   }
 
   // cookie_name - computed: true, optional: true, required: false
-  private _cookieName?: string;
+  private _cookieName?: string; 
   public get cookieName() {
     return this.getStringAttribute('cookie_name');
   }
@@ -425,7 +425,7 @@ export class ElasticloadbalancingLoadBalancerAppCookieStickinessPolicyOutputRefe
   }
 
   // policy_name - computed: true, optional: true, required: false
-  private _policyName?: string;
+  private _policyName?: string; 
   public get policyName() {
     return this.getStringAttribute('policy_name');
   }
@@ -560,7 +560,7 @@ export class ElasticloadbalancingLoadBalancerConnectionDrainingPolicyOutputRefer
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -576,7 +576,7 @@ export class ElasticloadbalancingLoadBalancerConnectionDrainingPolicyOutputRefer
   }
 
   // timeout - computed: true, optional: true, required: false
-  private _timeout?: number;
+  private _timeout?: number; 
   public get timeout() {
     return this.getNumberAttribute('timeout');
   }
@@ -672,7 +672,7 @@ export class ElasticloadbalancingLoadBalancerConnectionSettingsOutputReference e
   }
 
   // idle_timeout - computed: true, optional: true, required: false
-  private _idleTimeout?: number;
+  private _idleTimeout?: number; 
   public get idleTimeout() {
     return this.getNumberAttribute('idle_timeout');
   }
@@ -708,7 +708,7 @@ export interface ElasticloadbalancingLoadBalancerHealthCheck {
   readonly target?: string;
   /**
   * The amount of time, in seconds, during which no response means a failed health check.
-  *
+  * 
   * This value must be less than the `Interval` value.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancing_load_balancer#timeout ElasticloadbalancingLoadBalancer#timeout}
@@ -846,7 +846,7 @@ export class ElasticloadbalancingLoadBalancerHealthCheckOutputReference extends 
   }
 
   // healthy_threshold - computed: true, optional: true, required: false
-  private _healthyThreshold?: string;
+  private _healthyThreshold?: string; 
   public get healthyThreshold() {
     return this.getStringAttribute('healthy_threshold');
   }
@@ -862,7 +862,7 @@ export class ElasticloadbalancingLoadBalancerHealthCheckOutputReference extends 
   }
 
   // interval - computed: true, optional: true, required: false
-  private _interval?: string;
+  private _interval?: string; 
   public get interval() {
     return this.getStringAttribute('interval');
   }
@@ -878,7 +878,7 @@ export class ElasticloadbalancingLoadBalancerHealthCheckOutputReference extends 
   }
 
   // target - computed: true, optional: true, required: false
-  private _target?: string;
+  private _target?: string; 
   public get target() {
     return this.getStringAttribute('target');
   }
@@ -894,7 +894,7 @@ export class ElasticloadbalancingLoadBalancerHealthCheckOutputReference extends 
   }
 
   // timeout - computed: true, optional: true, required: false
-  private _timeout?: string;
+  private _timeout?: string; 
   public get timeout() {
     return this.getStringAttribute('timeout');
   }
@@ -910,7 +910,7 @@ export class ElasticloadbalancingLoadBalancerHealthCheckOutputReference extends 
   }
 
   // unhealthy_threshold - computed: true, optional: true, required: false
-  private _unhealthyThreshold?: string;
+  private _unhealthyThreshold?: string; 
   public get unhealthyThreshold() {
     return this.getStringAttribute('unhealthy_threshold');
   }
@@ -1027,7 +1027,7 @@ export class ElasticloadbalancingLoadBalancerLbCookieStickinessPolicyOutputRefer
   }
 
   // cookie_expiration_period - computed: true, optional: true, required: false
-  private _cookieExpirationPeriod?: string;
+  private _cookieExpirationPeriod?: string; 
   public get cookieExpirationPeriod() {
     return this.getStringAttribute('cookie_expiration_period');
   }
@@ -1043,7 +1043,7 @@ export class ElasticloadbalancingLoadBalancerLbCookieStickinessPolicyOutputRefer
   }
 
   // policy_name - computed: true, optional: true, required: false
-  private _policyName?: string;
+  private _policyName?: string; 
   public get policyName() {
     return this.getStringAttribute('policy_name');
   }
@@ -1087,11 +1087,11 @@ export interface ElasticloadbalancingLoadBalancerListeners {
   readonly instancePort: string;
   /**
   * The protocol to use for routing traffic to instances: HTTP, HTTPS, TCP, or SSL.
-  *
+  * 
   * If the front-end protocol is TCP or SSL, the back-end protocol must be TCP or SSL. If the front-end protocol is HTTP or HTTPS, the back-end protocol must be HTTP or HTTPS.
-  *
+  * 
   * If there is another listener with the same `InstancePort` whose `InstanceProtocol` is secure, (HTTPS or SSL), the listener's `InstanceProtocol` must also be secure.
-  *
+  * 
   * If there is another listener with the same `InstancePort` whose `InstanceProtocol` is HTTP or TCP, the listener's `InstanceProtocol` must be HTTP or TCP.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancing_load_balancer#instance_protocol ElasticloadbalancingLoadBalancer#instance_protocol}
@@ -1262,7 +1262,7 @@ export class ElasticloadbalancingLoadBalancerListenersOutputReference extends cd
   }
 
   // instance_port - computed: false, optional: false, required: true
-  private _instancePort?: string;
+  private _instancePort?: string; 
   public get instancePort() {
     return this.getStringAttribute('instance_port');
   }
@@ -1275,7 +1275,7 @@ export class ElasticloadbalancingLoadBalancerListenersOutputReference extends cd
   }
 
   // instance_protocol - computed: true, optional: true, required: false
-  private _instanceProtocol?: string;
+  private _instanceProtocol?: string; 
   public get instanceProtocol() {
     return this.getStringAttribute('instance_protocol');
   }
@@ -1291,7 +1291,7 @@ export class ElasticloadbalancingLoadBalancerListenersOutputReference extends cd
   }
 
   // load_balancer_port - computed: false, optional: false, required: true
-  private _loadBalancerPort?: string;
+  private _loadBalancerPort?: string; 
   public get loadBalancerPort() {
     return this.getStringAttribute('load_balancer_port');
   }
@@ -1304,7 +1304,7 @@ export class ElasticloadbalancingLoadBalancerListenersOutputReference extends cd
   }
 
   // policy_names - computed: true, optional: true, required: false
-  private _policyNames?: string[];
+  private _policyNames?: string[]; 
   public get policyNames() {
     return this.getListAttribute('policy_names');
   }
@@ -1320,7 +1320,7 @@ export class ElasticloadbalancingLoadBalancerListenersOutputReference extends cd
   }
 
   // protocol - computed: false, optional: false, required: true
-  private _protocol?: string;
+  private _protocol?: string; 
   public get protocol() {
     return this.getStringAttribute('protocol');
   }
@@ -1333,7 +1333,7 @@ export class ElasticloadbalancingLoadBalancerListenersOutputReference extends cd
   }
 
   // ssl_certificate_id - computed: true, optional: true, required: false
-  private _sslCertificateId?: string;
+  private _sslCertificateId?: string; 
   public get sslCertificateId() {
     return this.getStringAttribute('ssl_certificate_id');
   }
@@ -1466,7 +1466,7 @@ export class ElasticloadbalancingLoadBalancerPoliciesAttributesOutputReference e
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1482,7 +1482,7 @@ export class ElasticloadbalancingLoadBalancerPoliciesAttributesOutputReference e
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1692,7 +1692,7 @@ export class ElasticloadbalancingLoadBalancerPoliciesOutputReference extends cdk
   }
 
   // instance_ports - computed: true, optional: true, required: false
-  private _instancePorts?: string[];
+  private _instancePorts?: string[]; 
   public get instancePorts() {
     return this.getListAttribute('instance_ports');
   }
@@ -1708,7 +1708,7 @@ export class ElasticloadbalancingLoadBalancerPoliciesOutputReference extends cdk
   }
 
   // load_balancer_ports - computed: true, optional: true, required: false
-  private _loadBalancerPorts?: string[];
+  private _loadBalancerPorts?: string[]; 
   public get loadBalancerPorts() {
     return this.getListAttribute('load_balancer_ports');
   }
@@ -1724,7 +1724,7 @@ export class ElasticloadbalancingLoadBalancerPoliciesOutputReference extends cdk
   }
 
   // policy_name - computed: true, optional: true, required: false
-  private _policyName?: string;
+  private _policyName?: string; 
   public get policyName() {
     return this.getStringAttribute('policy_name');
   }
@@ -1740,7 +1740,7 @@ export class ElasticloadbalancingLoadBalancerPoliciesOutputReference extends cdk
   }
 
   // policy_type - computed: true, optional: true, required: false
-  private _policyType?: string;
+  private _policyType?: string; 
   public get policyType() {
     return this.getStringAttribute('policy_type');
   }
@@ -1936,7 +1936,7 @@ export class ElasticloadbalancingLoadBalancerTagsOutputReference extends cdktn.C
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1952,7 +1952,7 @@ export class ElasticloadbalancingLoadBalancerTagsOutputReference extends cdktn.C
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2093,7 +2093,7 @@ export class ElasticloadbalancingLoadBalancer extends cdktn.TerraformResource {
   }
 
   // availability_zones - computed: true, optional: true, required: false
-  private _availabilityZones?: string[];
+  private _availabilityZones?: string[]; 
   public get availabilityZones() {
     return this.getListAttribute('availability_zones');
   }
@@ -2151,7 +2151,7 @@ export class ElasticloadbalancingLoadBalancer extends cdktn.TerraformResource {
   }
 
   // cross_zone - computed: true, optional: true, required: false
-  private _crossZone?: boolean | cdktn.IResolvable;
+  private _crossZone?: boolean | cdktn.IResolvable; 
   public get crossZone() {
     return this.getBooleanAttribute('cross_zone');
   }
@@ -2193,7 +2193,7 @@ export class ElasticloadbalancingLoadBalancer extends cdktn.TerraformResource {
   }
 
   // instances - computed: true, optional: true, required: false
-  private _instances?: string[];
+  private _instances?: string[]; 
   public get instances() {
     return this.getListAttribute('instances');
   }
@@ -2238,7 +2238,7 @@ export class ElasticloadbalancingLoadBalancer extends cdktn.TerraformResource {
   }
 
   // load_balancer_name - computed: true, optional: true, required: false
-  private _loadBalancerName?: string;
+  private _loadBalancerName?: string; 
   public get loadBalancerName() {
     return this.getStringAttribute('load_balancer_name');
   }
@@ -2270,7 +2270,7 @@ export class ElasticloadbalancingLoadBalancer extends cdktn.TerraformResource {
   }
 
   // scheme - computed: true, optional: true, required: false
-  private _scheme?: string;
+  private _scheme?: string; 
   public get scheme() {
     return this.getStringAttribute('scheme');
   }
@@ -2286,7 +2286,7 @@ export class ElasticloadbalancingLoadBalancer extends cdktn.TerraformResource {
   }
 
   // security_groups - computed: true, optional: true, required: false
-  private _securityGroups?: string[];
+  private _securityGroups?: string[]; 
   public get securityGroups() {
     return this.getListAttribute('security_groups');
   }
@@ -2308,7 +2308,7 @@ export class ElasticloadbalancingLoadBalancer extends cdktn.TerraformResource {
   }
 
   // subnets - computed: true, optional: true, required: false
-  private _subnets?: string[];
+  private _subnets?: string[]; 
   public get subnets() {
     return this.getListAttribute('subnets');
   }

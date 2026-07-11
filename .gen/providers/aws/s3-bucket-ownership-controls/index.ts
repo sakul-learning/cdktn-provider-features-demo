@@ -100,7 +100,7 @@ export class S3BucketOwnershipControlsRuleOutputReference extends cdktn.ComplexO
   }
 
   // object_ownership - computed: false, optional: false, required: true
-  private _objectOwnership?: string;
+  private _objectOwnership?: string; 
   public get objectOwnership() {
     return this.getStringAttribute('object_ownership');
   }
@@ -174,7 +174,7 @@ export class S3BucketOwnershipControls extends cdktn.TerraformResource {
   // ==========
 
   // bucket - computed: false, optional: false, required: true
-  private _bucket?: string;
+  private _bucket?: string; 
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -187,7 +187,7 @@ export class S3BucketOwnershipControls extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -203,7 +203,7 @@ export class S3BucketOwnershipControls extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

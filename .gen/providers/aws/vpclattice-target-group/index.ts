@@ -118,7 +118,7 @@ export class VpclatticeTargetGroupConfigHealthCheckMatcherOutputReference extend
   }
 
   // value - computed: false, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -357,7 +357,7 @@ export class VpclatticeTargetGroupConfigHealthCheckOutputReference extends cdktn
   }
 
   // enabled - computed: false, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -373,7 +373,7 @@ export class VpclatticeTargetGroupConfigHealthCheckOutputReference extends cdktn
   }
 
   // health_check_interval_seconds - computed: false, optional: true, required: false
-  private _healthCheckIntervalSeconds?: number;
+  private _healthCheckIntervalSeconds?: number; 
   public get healthCheckIntervalSeconds() {
     return this.getNumberAttribute('health_check_interval_seconds');
   }
@@ -389,7 +389,7 @@ export class VpclatticeTargetGroupConfigHealthCheckOutputReference extends cdktn
   }
 
   // health_check_timeout_seconds - computed: false, optional: true, required: false
-  private _healthCheckTimeoutSeconds?: number;
+  private _healthCheckTimeoutSeconds?: number; 
   public get healthCheckTimeoutSeconds() {
     return this.getNumberAttribute('health_check_timeout_seconds');
   }
@@ -405,7 +405,7 @@ export class VpclatticeTargetGroupConfigHealthCheckOutputReference extends cdktn
   }
 
   // healthy_threshold_count - computed: false, optional: true, required: false
-  private _healthyThresholdCount?: number;
+  private _healthyThresholdCount?: number; 
   public get healthyThresholdCount() {
     return this.getNumberAttribute('healthy_threshold_count');
   }
@@ -421,7 +421,7 @@ export class VpclatticeTargetGroupConfigHealthCheckOutputReference extends cdktn
   }
 
   // path - computed: false, optional: true, required: false
-  private _path?: string;
+  private _path?: string; 
   public get path() {
     return this.getStringAttribute('path');
   }
@@ -437,7 +437,7 @@ export class VpclatticeTargetGroupConfigHealthCheckOutputReference extends cdktn
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -453,7 +453,7 @@ export class VpclatticeTargetGroupConfigHealthCheckOutputReference extends cdktn
   }
 
   // protocol - computed: true, optional: true, required: false
-  private _protocol?: string;
+  private _protocol?: string; 
   public get protocol() {
     return this.getStringAttribute('protocol');
   }
@@ -469,7 +469,7 @@ export class VpclatticeTargetGroupConfigHealthCheckOutputReference extends cdktn
   }
 
   // protocol_version - computed: false, optional: true, required: false
-  private _protocolVersion?: string;
+  private _protocolVersion?: string; 
   public get protocolVersion() {
     return this.getStringAttribute('protocol_version');
   }
@@ -485,7 +485,7 @@ export class VpclatticeTargetGroupConfigHealthCheckOutputReference extends cdktn
   }
 
   // unhealthy_threshold_count - computed: false, optional: true, required: false
-  private _unhealthyThresholdCount?: number;
+  private _unhealthyThresholdCount?: number; 
   public get unhealthyThresholdCount() {
     return this.getNumberAttribute('unhealthy_threshold_count');
   }
@@ -689,7 +689,7 @@ export class VpclatticeTargetGroupConfigAOutputReference extends cdktn.ComplexOb
   }
 
   // ip_address_type - computed: true, optional: true, required: false
-  private _ipAddressType?: string;
+  private _ipAddressType?: string; 
   public get ipAddressType() {
     return this.getStringAttribute('ip_address_type');
   }
@@ -705,7 +705,7 @@ export class VpclatticeTargetGroupConfigAOutputReference extends cdktn.ComplexOb
   }
 
   // lambda_event_structure_version - computed: true, optional: true, required: false
-  private _lambdaEventStructureVersion?: string;
+  private _lambdaEventStructureVersion?: string; 
   public get lambdaEventStructureVersion() {
     return this.getStringAttribute('lambda_event_structure_version');
   }
@@ -721,7 +721,7 @@ export class VpclatticeTargetGroupConfigAOutputReference extends cdktn.ComplexOb
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -737,7 +737,7 @@ export class VpclatticeTargetGroupConfigAOutputReference extends cdktn.ComplexOb
   }
 
   // protocol - computed: true, optional: true, required: false
-  private _protocol?: string;
+  private _protocol?: string; 
   public get protocol() {
     return this.getStringAttribute('protocol');
   }
@@ -753,7 +753,7 @@ export class VpclatticeTargetGroupConfigAOutputReference extends cdktn.ComplexOb
   }
 
   // protocol_version - computed: true, optional: true, required: false
-  private _protocolVersion?: string;
+  private _protocolVersion?: string; 
   public get protocolVersion() {
     return this.getStringAttribute('protocol_version');
   }
@@ -769,7 +769,7 @@ export class VpclatticeTargetGroupConfigAOutputReference extends cdktn.ComplexOb
   }
 
   // vpc_identifier - computed: false, optional: true, required: false
-  private _vpcIdentifier?: string;
+  private _vpcIdentifier?: string; 
   public get vpcIdentifier() {
     return this.getStringAttribute('vpc_identifier');
   }
@@ -913,7 +913,7 @@ export class VpclatticeTargetGroupTimeoutsOutputReference extends cdktn.ComplexO
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -929,7 +929,7 @@ export class VpclatticeTargetGroupTimeoutsOutputReference extends cdktn.ComplexO
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -945,7 +945,7 @@ export class VpclatticeTargetGroupTimeoutsOutputReference extends cdktn.ComplexO
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -1031,7 +1031,7 @@ export class VpclatticeTargetGroup extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -1047,7 +1047,7 @@ export class VpclatticeTargetGroup extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1060,7 +1060,7 @@ export class VpclatticeTargetGroup extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1081,7 +1081,7 @@ export class VpclatticeTargetGroup extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -1097,7 +1097,7 @@ export class VpclatticeTargetGroup extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -1113,7 +1113,7 @@ export class VpclatticeTargetGroup extends cdktn.TerraformResource {
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }

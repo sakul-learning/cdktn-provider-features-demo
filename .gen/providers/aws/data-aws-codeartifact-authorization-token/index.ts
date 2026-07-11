@@ -101,7 +101,7 @@ export class DataAwsCodeartifactAuthorizationToken extends cdktn.TerraformDataSo
   }
 
   // domain - computed: false, optional: false, required: true
-  private _domain?: string;
+  private _domain?: string; 
   public get domain() {
     return this.getStringAttribute('domain');
   }
@@ -114,7 +114,7 @@ export class DataAwsCodeartifactAuthorizationToken extends cdktn.TerraformDataSo
   }
 
   // domain_owner - computed: true, optional: true, required: false
-  private _domainOwner?: string;
+  private _domainOwner?: string; 
   public get domainOwner() {
     return this.getStringAttribute('domain_owner');
   }
@@ -130,7 +130,7 @@ export class DataAwsCodeartifactAuthorizationToken extends cdktn.TerraformDataSo
   }
 
   // duration_seconds - computed: false, optional: true, required: false
-  private _durationSeconds?: number;
+  private _durationSeconds?: number; 
   public get durationSeconds() {
     return this.getNumberAttribute('duration_seconds');
   }
@@ -151,7 +151,7 @@ export class DataAwsCodeartifactAuthorizationToken extends cdktn.TerraformDataSo
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -167,7 +167,7 @@ export class DataAwsCodeartifactAuthorizationToken extends cdktn.TerraformDataSo
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

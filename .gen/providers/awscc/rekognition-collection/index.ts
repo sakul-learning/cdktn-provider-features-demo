@@ -122,7 +122,7 @@ export class RekognitionCollectionTagsOutputReference extends cdktn.ComplexObjec
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -138,7 +138,7 @@ export class RekognitionCollectionTagsOutputReference extends cdktn.ComplexObjec
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -238,7 +238,7 @@ export class RekognitionCollection extends cdktn.TerraformResource {
   }
 
   // collection_id - computed: false, optional: false, required: true
-  private _collectionId?: string;
+  private _collectionId?: string; 
   public get collectionId() {
     return this.getStringAttribute('collection_id');
   }

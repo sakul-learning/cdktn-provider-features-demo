@@ -172,7 +172,7 @@ export class DataAwsBillingViews extends cdktn.TerraformDataSource {
   }
 
   // billing_view_types - computed: false, optional: true, required: false
-  private _billingViewTypes?: string[];
+  private _billingViewTypes?: string[]; 
   public get billingViewTypes() {
     return this.getListAttribute('billing_view_types');
   }

@@ -111,7 +111,7 @@ export class DataAwsApigatewayv2Export extends cdktn.TerraformDataSource {
   // ==========
 
   // api_id - computed: false, optional: false, required: true
-  private _apiId?: string;
+  private _apiId?: string; 
   public get apiId() {
     return this.getStringAttribute('api_id');
   }
@@ -129,7 +129,7 @@ export class DataAwsApigatewayv2Export extends cdktn.TerraformDataSource {
   }
 
   // export_version - computed: false, optional: true, required: false
-  private _exportVersion?: string;
+  private _exportVersion?: string; 
   public get exportVersion() {
     return this.getStringAttribute('export_version');
   }
@@ -145,7 +145,7 @@ export class DataAwsApigatewayv2Export extends cdktn.TerraformDataSource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -161,7 +161,7 @@ export class DataAwsApigatewayv2Export extends cdktn.TerraformDataSource {
   }
 
   // include_extensions - computed: false, optional: true, required: false
-  private _includeExtensions?: boolean | cdktn.IResolvable;
+  private _includeExtensions?: boolean | cdktn.IResolvable; 
   public get includeExtensions() {
     return this.getBooleanAttribute('include_extensions');
   }
@@ -177,7 +177,7 @@ export class DataAwsApigatewayv2Export extends cdktn.TerraformDataSource {
   }
 
   // output_type - computed: false, optional: false, required: true
-  private _outputType?: string;
+  private _outputType?: string; 
   public get outputType() {
     return this.getStringAttribute('output_type');
   }
@@ -190,7 +190,7 @@ export class DataAwsApigatewayv2Export extends cdktn.TerraformDataSource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -206,7 +206,7 @@ export class DataAwsApigatewayv2Export extends cdktn.TerraformDataSource {
   }
 
   // specification - computed: false, optional: false, required: true
-  private _specification?: string;
+  private _specification?: string; 
   public get specification() {
     return this.getStringAttribute('specification');
   }
@@ -219,7 +219,7 @@ export class DataAwsApigatewayv2Export extends cdktn.TerraformDataSource {
   }
 
   // stage_name - computed: false, optional: true, required: false
-  private _stageName?: string;
+  private _stageName?: string; 
   public get stageName() {
     return this.getStringAttribute('stage_name');
   }

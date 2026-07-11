@@ -116,7 +116,7 @@ export class GuarddutyPublishingDestination extends cdktn.TerraformResource {
   }
 
   // destination_arn - computed: false, optional: false, required: true
-  private _destinationArn?: string;
+  private _destinationArn?: string; 
   public get destinationArn() {
     return this.getStringAttribute('destination_arn');
   }
@@ -134,7 +134,7 @@ export class GuarddutyPublishingDestination extends cdktn.TerraformResource {
   }
 
   // destination_type - computed: false, optional: true, required: false
-  private _destinationType?: string;
+  private _destinationType?: string; 
   public get destinationType() {
     return this.getStringAttribute('destination_type');
   }
@@ -150,7 +150,7 @@ export class GuarddutyPublishingDestination extends cdktn.TerraformResource {
   }
 
   // detector_id - computed: false, optional: false, required: true
-  private _detectorId?: string;
+  private _detectorId?: string; 
   public get detectorId() {
     return this.getStringAttribute('detector_id');
   }
@@ -163,7 +163,7 @@ export class GuarddutyPublishingDestination extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -179,7 +179,7 @@ export class GuarddutyPublishingDestination extends cdktn.TerraformResource {
   }
 
   // kms_key_arn - computed: false, optional: false, required: true
-  private _kmsKeyArn?: string;
+  private _kmsKeyArn?: string; 
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -192,7 +192,7 @@ export class GuarddutyPublishingDestination extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -208,7 +208,7 @@ export class GuarddutyPublishingDestination extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -224,7 +224,7 @@ export class GuarddutyPublishingDestination extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

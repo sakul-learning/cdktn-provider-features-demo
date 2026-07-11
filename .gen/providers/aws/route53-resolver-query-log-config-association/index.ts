@@ -91,7 +91,7 @@ export class Route53ResolverQueryLogConfigAssociation extends cdktn.TerraformRes
   // ==========
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -107,7 +107,7 @@ export class Route53ResolverQueryLogConfigAssociation extends cdktn.TerraformRes
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -123,7 +123,7 @@ export class Route53ResolverQueryLogConfigAssociation extends cdktn.TerraformRes
   }
 
   // resolver_query_log_config_id - computed: false, optional: false, required: true
-  private _resolverQueryLogConfigId?: string;
+  private _resolverQueryLogConfigId?: string; 
   public get resolverQueryLogConfigId() {
     return this.getStringAttribute('resolver_query_log_config_id');
   }
@@ -136,7 +136,7 @@ export class Route53ResolverQueryLogConfigAssociation extends cdktn.TerraformRes
   }
 
   // resource_id - computed: false, optional: false, required: true
-  private _resourceId?: string;
+  private _resourceId?: string; 
   public get resourceId() {
     return this.getStringAttribute('resource_id');
   }

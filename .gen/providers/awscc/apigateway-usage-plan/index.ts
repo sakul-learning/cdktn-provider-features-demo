@@ -134,7 +134,7 @@ export class ApigatewayUsagePlanApiStagesThrottleOutputReference extends cdktn.C
   }
 
   // burst_limit - computed: true, optional: true, required: false
-  private _burstLimit?: number;
+  private _burstLimit?: number; 
   public get burstLimit() {
     return this.getNumberAttribute('burst_limit');
   }
@@ -150,7 +150,7 @@ export class ApigatewayUsagePlanApiStagesThrottleOutputReference extends cdktn.C
   }
 
   // rate_limit - computed: true, optional: true, required: false
-  private _rateLimit?: number;
+  private _rateLimit?: number; 
   public get rateLimit() {
     return this.getNumberAttribute('rate_limit');
   }
@@ -299,7 +299,7 @@ export class ApigatewayUsagePlanApiStagesOutputReference extends cdktn.ComplexOb
   }
 
   // api_id - computed: true, optional: true, required: false
-  private _apiId?: string;
+  private _apiId?: string; 
   public get apiId() {
     return this.getStringAttribute('api_id');
   }
@@ -315,7 +315,7 @@ export class ApigatewayUsagePlanApiStagesOutputReference extends cdktn.ComplexOb
   }
 
   // stage - computed: true, optional: true, required: false
-  private _stage?: string;
+  private _stage?: string; 
   public get stage() {
     return this.getStringAttribute('stage');
   }
@@ -479,7 +479,7 @@ export class ApigatewayUsagePlanQuotaOutputReference extends cdktn.ComplexObject
   }
 
   // limit - computed: true, optional: true, required: false
-  private _limit?: number;
+  private _limit?: number; 
   public get limit() {
     return this.getNumberAttribute('limit');
   }
@@ -495,7 +495,7 @@ export class ApigatewayUsagePlanQuotaOutputReference extends cdktn.ComplexObject
   }
 
   // offset - computed: true, optional: true, required: false
-  private _offset?: number;
+  private _offset?: number; 
   public get offset() {
     return this.getNumberAttribute('offset');
   }
@@ -511,7 +511,7 @@ export class ApigatewayUsagePlanQuotaOutputReference extends cdktn.ComplexObject
   }
 
   // period - computed: true, optional: true, required: false
-  private _period?: string;
+  private _period?: string; 
   public get period() {
     return this.getStringAttribute('period');
   }
@@ -628,7 +628,7 @@ export class ApigatewayUsagePlanTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -644,7 +644,7 @@ export class ApigatewayUsagePlanTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -775,7 +775,7 @@ export class ApigatewayUsagePlanThrottleOutputReference extends cdktn.ComplexObj
   }
 
   // burst_limit - computed: true, optional: true, required: false
-  private _burstLimit?: number;
+  private _burstLimit?: number; 
   public get burstLimit() {
     return this.getNumberAttribute('burst_limit');
   }
@@ -791,7 +791,7 @@ export class ApigatewayUsagePlanThrottleOutputReference extends cdktn.ComplexObj
   }
 
   // rate_limit - computed: true, optional: true, required: false
-  private _rateLimit?: number;
+  private _rateLimit?: number; 
   public get rateLimit() {
     return this.getNumberAttribute('rate_limit');
   }
@@ -886,7 +886,7 @@ export class ApigatewayUsagePlan extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -960,7 +960,7 @@ export class ApigatewayUsagePlan extends cdktn.TerraformResource {
   }
 
   // usage_plan_name - computed: true, optional: true, required: false
-  private _usagePlanName?: string;
+  private _usagePlanName?: string; 
   public get usagePlanName() {
     return this.getStringAttribute('usage_plan_name');
   }

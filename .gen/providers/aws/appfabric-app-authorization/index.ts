@@ -129,7 +129,7 @@ export class AppfabricAppAuthorizationCredentialApiKeyCredentialOutputReference 
   }
 
   // api_key - computed: false, optional: false, required: true
-  private _apiKey?: string;
+  private _apiKey?: string; 
   public get apiKey() {
     return this.getStringAttribute('api_key');
   }
@@ -259,7 +259,7 @@ export class AppfabricAppAuthorizationCredentialOauth2CredentialOutputReference 
   }
 
   // client_id - computed: false, optional: false, required: true
-  private _clientId?: string;
+  private _clientId?: string; 
   public get clientId() {
     return this.getStringAttribute('client_id');
   }
@@ -272,7 +272,7 @@ export class AppfabricAppAuthorizationCredentialOauth2CredentialOutputReference 
   }
 
   // client_secret - computed: false, optional: false, required: true
-  private _clientSecret?: string;
+  private _clientSecret?: string; 
   public get clientSecret() {
     return this.getStringAttribute('client_secret');
   }
@@ -555,7 +555,7 @@ export class AppfabricAppAuthorizationTenantOutputReference extends cdktn.Comple
   }
 
   // tenant_display_name - computed: false, optional: false, required: true
-  private _tenantDisplayName?: string;
+  private _tenantDisplayName?: string; 
   public get tenantDisplayName() {
     return this.getStringAttribute('tenant_display_name');
   }
@@ -568,7 +568,7 @@ export class AppfabricAppAuthorizationTenantOutputReference extends cdktn.Comple
   }
 
   // tenant_identifier - computed: false, optional: false, required: true
-  private _tenantIdentifier?: string;
+  private _tenantIdentifier?: string; 
   public get tenantIdentifier() {
     return this.getStringAttribute('tenant_identifier');
   }
@@ -719,7 +719,7 @@ export class AppfabricAppAuthorizationTimeoutsOutputReference extends cdktn.Comp
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -735,7 +735,7 @@ export class AppfabricAppAuthorizationTimeoutsOutputReference extends cdktn.Comp
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -751,7 +751,7 @@ export class AppfabricAppAuthorizationTimeoutsOutputReference extends cdktn.Comp
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -832,7 +832,7 @@ export class AppfabricAppAuthorization extends cdktn.TerraformResource {
   // ==========
 
   // app - computed: false, optional: false, required: true
-  private _app?: string;
+  private _app?: string; 
   public get app() {
     return this.getStringAttribute('app');
   }
@@ -845,7 +845,7 @@ export class AppfabricAppAuthorization extends cdktn.TerraformResource {
   }
 
   // app_bundle_arn - computed: false, optional: false, required: true
-  private _appBundleArn?: string;
+  private _appBundleArn?: string; 
   public get appBundleArn() {
     return this.getStringAttribute('app_bundle_arn');
   }
@@ -863,7 +863,7 @@ export class AppfabricAppAuthorization extends cdktn.TerraformResource {
   }
 
   // auth_type - computed: false, optional: false, required: true
-  private _authType?: string;
+  private _authType?: string; 
   public get authType() {
     return this.getStringAttribute('auth_type');
   }
@@ -896,7 +896,7 @@ export class AppfabricAppAuthorization extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -912,7 +912,7 @@ export class AppfabricAppAuthorization extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

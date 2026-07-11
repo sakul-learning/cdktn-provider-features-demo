@@ -137,7 +137,7 @@ export class GlobalacceleratorListenerPortRangeOutputReference extends cdktn.Com
   }
 
   // from_port - computed: false, optional: true, required: false
-  private _fromPort?: number;
+  private _fromPort?: number; 
   public get fromPort() {
     return this.getNumberAttribute('from_port');
   }
@@ -153,7 +153,7 @@ export class GlobalacceleratorListenerPortRangeOutputReference extends cdktn.Com
   }
 
   // to_port - computed: false, optional: true, required: false
-  private _toPort?: number;
+  private _toPort?: number; 
   public get toPort() {
     return this.getNumberAttribute('to_port');
   }
@@ -301,7 +301,7 @@ export class GlobalacceleratorListenerTimeoutsOutputReference extends cdktn.Comp
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -317,7 +317,7 @@ export class GlobalacceleratorListenerTimeoutsOutputReference extends cdktn.Comp
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -333,7 +333,7 @@ export class GlobalacceleratorListenerTimeoutsOutputReference extends cdktn.Comp
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -412,7 +412,7 @@ export class GlobalacceleratorListener extends cdktn.TerraformResource {
   // ==========
 
   // accelerator_arn - computed: false, optional: false, required: true
-  private _acceleratorArn?: string;
+  private _acceleratorArn?: string; 
   public get acceleratorArn() {
     return this.getStringAttribute('accelerator_arn');
   }
@@ -430,7 +430,7 @@ export class GlobalacceleratorListener extends cdktn.TerraformResource {
   }
 
   // client_affinity - computed: false, optional: true, required: false
-  private _clientAffinity?: string;
+  private _clientAffinity?: string; 
   public get clientAffinity() {
     return this.getStringAttribute('client_affinity');
   }
@@ -446,7 +446,7 @@ export class GlobalacceleratorListener extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -462,7 +462,7 @@ export class GlobalacceleratorListener extends cdktn.TerraformResource {
   }
 
   // protocol - computed: false, optional: false, required: true
-  private _protocol?: string;
+  private _protocol?: string; 
   public get protocol() {
     return this.getStringAttribute('protocol');
   }

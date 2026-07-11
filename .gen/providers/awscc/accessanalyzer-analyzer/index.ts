@@ -157,7 +157,7 @@ export class AccessanalyzerAnalyzerAnalyzerConfigurationInternalAccessConfigurat
   }
 
   // account_ids - computed: true, optional: true, required: false
-  private _accountIds?: string[];
+  private _accountIds?: string[]; 
   public get accountIds() {
     return this.getListAttribute('account_ids');
   }
@@ -173,7 +173,7 @@ export class AccessanalyzerAnalyzerAnalyzerConfigurationInternalAccessConfigurat
   }
 
   // resource_arns - computed: true, optional: true, required: false
-  private _resourceArns?: string[];
+  private _resourceArns?: string[]; 
   public get resourceArns() {
     return this.getListAttribute('resource_arns');
   }
@@ -189,7 +189,7 @@ export class AccessanalyzerAnalyzerAnalyzerConfigurationInternalAccessConfigurat
   }
 
   // resource_types - computed: true, optional: true, required: false
-  private _resourceTypes?: string[];
+  private _resourceTypes?: string[]; 
   public get resourceTypes() {
     return this.getListAttribute('resource_types');
   }
@@ -506,9 +506,9 @@ export interface AccessanalyzerAnalyzerAnalyzerConfigurationUnusedAccessConfigur
   readonly accountIds?: string[];
   /**
   * An array of key-value pairs to match for your resources. You can use the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
-  *
+  * 
   * For the tag key, you can specify a value that is 1 to 128 characters in length and cannot be prefixed with aws:.
-  *
+  * 
   * For the tag value, you can specify a value that is 0 to 256 characters in length. If the specified tag value is 0 characters, the rule is applied to all principals with the specified tag key.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/accessanalyzer_analyzer#resource_tags AccessanalyzerAnalyzer#resource_tags}
@@ -603,7 +603,7 @@ export class AccessanalyzerAnalyzerAnalyzerConfigurationUnusedAccessConfiguratio
   }
 
   // account_ids - computed: true, optional: true, required: false
-  private _accountIds?: string[];
+  private _accountIds?: string[]; 
   public get accountIds() {
     return this.getListAttribute('account_ids');
   }
@@ -866,7 +866,7 @@ export class AccessanalyzerAnalyzerAnalyzerConfigurationUnusedAccessConfiguratio
   }
 
   // unused_access_age - computed: true, optional: true, required: false
-  private _unusedAccessAge?: number;
+  private _unusedAccessAge?: number; 
   public get unusedAccessAge() {
     return this.getNumberAttribute('unused_access_age');
   }
@@ -1161,7 +1161,7 @@ export class AccessanalyzerAnalyzerArchiveRulesFilterOutputReference extends cdk
   }
 
   // contains - computed: true, optional: true, required: false
-  private _contains?: string[];
+  private _contains?: string[]; 
   public get contains() {
     return this.getListAttribute('contains');
   }
@@ -1177,7 +1177,7 @@ export class AccessanalyzerAnalyzerArchiveRulesFilterOutputReference extends cdk
   }
 
   // eq - computed: true, optional: true, required: false
-  private _eq?: string[];
+  private _eq?: string[]; 
   public get eq() {
     return this.getListAttribute('eq');
   }
@@ -1193,7 +1193,7 @@ export class AccessanalyzerAnalyzerArchiveRulesFilterOutputReference extends cdk
   }
 
   // exists - computed: true, optional: true, required: false
-  private _exists?: boolean | cdktn.IResolvable;
+  private _exists?: boolean | cdktn.IResolvable; 
   public get exists() {
     return this.getBooleanAttribute('exists');
   }
@@ -1209,7 +1209,7 @@ export class AccessanalyzerAnalyzerArchiveRulesFilterOutputReference extends cdk
   }
 
   // neq - computed: true, optional: true, required: false
-  private _neq?: string[];
+  private _neq?: string[]; 
   public get neq() {
     return this.getListAttribute('neq');
   }
@@ -1225,7 +1225,7 @@ export class AccessanalyzerAnalyzerArchiveRulesFilterOutputReference extends cdk
   }
 
   // property - computed: true, optional: true, required: false
-  private _property?: string;
+  private _property?: string; 
   public get property() {
     return this.getStringAttribute('property');
   }
@@ -1376,7 +1376,7 @@ export class AccessanalyzerAnalyzerArchiveRulesOutputReference extends cdktn.Com
   }
 
   // rule_name - computed: true, optional: true, required: false
-  private _ruleName?: string;
+  private _ruleName?: string; 
   public get ruleName() {
     return this.getStringAttribute('rule_name');
   }
@@ -1413,13 +1413,13 @@ export class AccessanalyzerAnalyzerArchiveRulesList extends cdktn.ComplexList {
 }
 export interface AccessanalyzerAnalyzerTags {
   /**
-  * The key name of the tag. You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
+  * The key name of the tag. You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/accessanalyzer_analyzer#key AccessanalyzerAnalyzer#key}
   */
   readonly key?: string;
   /**
-  * The value for the tag. You can specify a value that is 0 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
+  * The value for the tag. You can specify a value that is 0 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/accessanalyzer_analyzer#value AccessanalyzerAnalyzer#value}
   */
@@ -1513,7 +1513,7 @@ export class AccessanalyzerAnalyzerTagsOutputReference extends cdktn.ComplexObje
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1529,7 +1529,7 @@ export class AccessanalyzerAnalyzerTagsOutputReference extends cdktn.ComplexObje
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1643,7 +1643,7 @@ export class AccessanalyzerAnalyzer extends cdktn.TerraformResource {
   }
 
   // analyzer_name - computed: true, optional: true, required: false
-  private _analyzerName?: string;
+  private _analyzerName?: string; 
   public get analyzerName() {
     return this.getStringAttribute('analyzer_name');
   }
@@ -1701,7 +1701,7 @@ export class AccessanalyzerAnalyzer extends cdktn.TerraformResource {
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }

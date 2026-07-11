@@ -142,7 +142,7 @@ export class NetworkflowmonitorMonitorLocalResourceOutputReference extends cdktn
   }
 
   // identifier - computed: false, optional: false, required: true
-  private _identifier?: string;
+  private _identifier?: string; 
   public get identifier() {
     return this.getStringAttribute('identifier');
   }
@@ -155,7 +155,7 @@ export class NetworkflowmonitorMonitorLocalResourceOutputReference extends cdktn
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -285,7 +285,7 @@ export class NetworkflowmonitorMonitorRemoteResourceOutputReference extends cdkt
   }
 
   // identifier - computed: false, optional: false, required: true
-  private _identifier?: string;
+  private _identifier?: string; 
   public get identifier() {
     return this.getStringAttribute('identifier');
   }
@@ -298,7 +298,7 @@ export class NetworkflowmonitorMonitorRemoteResourceOutputReference extends cdkt
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -449,7 +449,7 @@ export class NetworkflowmonitorMonitorTimeoutsOutputReference extends cdktn.Comp
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -465,7 +465,7 @@ export class NetworkflowmonitorMonitorTimeoutsOutputReference extends cdktn.Comp
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -481,7 +481,7 @@ export class NetworkflowmonitorMonitorTimeoutsOutputReference extends cdktn.Comp
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -566,7 +566,7 @@ export class NetworkflowmonitorMonitor extends cdktn.TerraformResource {
   }
 
   // monitor_name - computed: false, optional: false, required: true
-  private _monitorName?: string;
+  private _monitorName?: string; 
   public get monitorName() {
     return this.getStringAttribute('monitor_name');
   }
@@ -579,7 +579,7 @@ export class NetworkflowmonitorMonitor extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -595,7 +595,7 @@ export class NetworkflowmonitorMonitor extends cdktn.TerraformResource {
   }
 
   // scope_arn - computed: false, optional: false, required: true
-  private _scopeArn?: string;
+  private _scopeArn?: string; 
   public get scopeArn() {
     return this.getStringAttribute('scope_arn');
   }
@@ -608,7 +608,7 @@ export class NetworkflowmonitorMonitor extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

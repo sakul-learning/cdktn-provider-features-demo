@@ -131,7 +131,7 @@ export class LakeformationDataCellsFilterColumnWildcardOutputReference extends c
   }
 
   // excluded_column_names - computed: true, optional: true, required: false
-  private _excludedColumnNames?: string[];
+  private _excludedColumnNames?: string[]; 
   public get excludedColumnNames() {
     return this.getListAttribute('excluded_column_names');
   }
@@ -246,7 +246,7 @@ export class LakeformationDataCellsFilterRowFilterOutputReference extends cdktn.
   }
 
   // all_rows_wildcard - computed: true, optional: true, required: false
-  private _allRowsWildcard?: string;
+  private _allRowsWildcard?: string; 
   public get allRowsWildcard() {
     return this.getStringAttribute('all_rows_wildcard');
   }
@@ -262,7 +262,7 @@ export class LakeformationDataCellsFilterRowFilterOutputReference extends cdktn.
   }
 
   // filter_expression - computed: true, optional: true, required: false
-  private _filterExpression?: string;
+  private _filterExpression?: string; 
   public get filterExpression() {
     return this.getStringAttribute('filter_expression');
   }
@@ -342,7 +342,7 @@ export class LakeformationDataCellsFilter extends cdktn.TerraformResource {
   // ==========
 
   // column_names - computed: true, optional: true, required: false
-  private _columnNames?: string[];
+  private _columnNames?: string[]; 
   public get columnNames() {
     return this.getListAttribute('column_names');
   }
@@ -374,7 +374,7 @@ export class LakeformationDataCellsFilter extends cdktn.TerraformResource {
   }
 
   // database_name - computed: false, optional: false, required: true
-  private _databaseName?: string;
+  private _databaseName?: string; 
   public get databaseName() {
     return this.getStringAttribute('database_name');
   }
@@ -392,7 +392,7 @@ export class LakeformationDataCellsFilter extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -421,7 +421,7 @@ export class LakeformationDataCellsFilter extends cdktn.TerraformResource {
   }
 
   // table_catalog_id - computed: false, optional: false, required: true
-  private _tableCatalogId?: string;
+  private _tableCatalogId?: string; 
   public get tableCatalogId() {
     return this.getStringAttribute('table_catalog_id');
   }
@@ -434,7 +434,7 @@ export class LakeformationDataCellsFilter extends cdktn.TerraformResource {
   }
 
   // table_name - computed: false, optional: false, required: true
-  private _tableName?: string;
+  private _tableName?: string; 
   public get tableName() {
     return this.getStringAttribute('table_name');
   }

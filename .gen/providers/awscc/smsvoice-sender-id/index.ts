@@ -134,7 +134,7 @@ export class SmsvoiceSenderIdTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -150,7 +150,7 @@ export class SmsvoiceSenderIdTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -252,7 +252,7 @@ export class SmsvoiceSenderId extends cdktn.TerraformResource {
   }
 
   // deletion_protection_enabled - computed: true, optional: true, required: false
-  private _deletionProtectionEnabled?: boolean | cdktn.IResolvable;
+  private _deletionProtectionEnabled?: boolean | cdktn.IResolvable; 
   public get deletionProtectionEnabled() {
     return this.getBooleanAttribute('deletion_protection_enabled');
   }
@@ -273,7 +273,7 @@ export class SmsvoiceSenderId extends cdktn.TerraformResource {
   }
 
   // iso_country_code - computed: false, optional: false, required: true
-  private _isoCountryCode?: string;
+  private _isoCountryCode?: string; 
   public get isoCountryCode() {
     return this.getStringAttribute('iso_country_code');
   }
@@ -286,7 +286,7 @@ export class SmsvoiceSenderId extends cdktn.TerraformResource {
   }
 
   // sender_id - computed: false, optional: false, required: true
-  private _senderId?: string;
+  private _senderId?: string; 
   public get senderId() {
     return this.getStringAttribute('sender_id');
   }

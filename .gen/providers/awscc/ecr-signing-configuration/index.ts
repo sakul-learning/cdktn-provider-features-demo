@@ -116,7 +116,7 @@ export class EcrSigningConfigurationRulesRepositoryFiltersOutputReference extend
   }
 
   // filter - computed: true, optional: true, required: false
-  private _filter?: string;
+  private _filter?: string; 
   public get filter() {
     return this.getStringAttribute('filter');
   }
@@ -132,7 +132,7 @@ export class EcrSigningConfigurationRulesRepositoryFiltersOutputReference extend
   }
 
   // filter_type - computed: true, optional: true, required: false
-  private _filterType?: string;
+  private _filterType?: string; 
   public get filterType() {
     return this.getStringAttribute('filter_type');
   }
@@ -285,7 +285,7 @@ export class EcrSigningConfigurationRulesOutputReference extends cdktn.ComplexOb
   }
 
   // signing_profile_arn - computed: false, optional: false, required: true
-  private _signingProfileArn?: string;
+  private _signingProfileArn?: string; 
   public get signingProfileArn() {
     return this.getStringAttribute('signing_profile_arn');
   }

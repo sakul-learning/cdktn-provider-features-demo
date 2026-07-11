@@ -139,7 +139,7 @@ export class DataAwsPrefixListFilterOutputReference extends cdktn.ComplexObject 
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -152,7 +152,7 @@ export class DataAwsPrefixListFilterOutputReference extends cdktn.ComplexObject 
   }
 
   // values - computed: false, optional: false, required: true
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -263,7 +263,7 @@ export class DataAwsPrefixListTimeoutsOutputReference extends cdktn.ComplexObjec
   }
 
   // read - computed: false, optional: true, required: false
-  private _read?: string;
+  private _read?: string; 
   public get read() {
     return this.getStringAttribute('read');
   }
@@ -347,7 +347,7 @@ export class DataAwsPrefixList extends cdktn.TerraformDataSource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -363,7 +363,7 @@ export class DataAwsPrefixList extends cdktn.TerraformDataSource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -379,7 +379,7 @@ export class DataAwsPrefixList extends cdktn.TerraformDataSource {
   }
 
   // prefix_list_id - computed: false, optional: true, required: false
-  private _prefixListId?: string;
+  private _prefixListId?: string; 
   public get prefixListId() {
     return this.getStringAttribute('prefix_list_id');
   }
@@ -395,7 +395,7 @@ export class DataAwsPrefixList extends cdktn.TerraformDataSource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

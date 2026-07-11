@@ -94,7 +94,7 @@ export class IamUserPolicy extends cdktn.TerraformResource {
   // ==========
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -110,7 +110,7 @@ export class IamUserPolicy extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -126,7 +126,7 @@ export class IamUserPolicy extends cdktn.TerraformResource {
   }
 
   // name_prefix - computed: true, optional: true, required: false
-  private _namePrefix?: string;
+  private _namePrefix?: string; 
   public get namePrefix() {
     return this.getStringAttribute('name_prefix');
   }
@@ -142,7 +142,7 @@ export class IamUserPolicy extends cdktn.TerraformResource {
   }
 
   // policy - computed: false, optional: false, required: true
-  private _policy?: string;
+  private _policy?: string; 
   public get policy() {
     return this.getStringAttribute('policy');
   }
@@ -155,7 +155,7 @@ export class IamUserPolicy extends cdktn.TerraformResource {
   }
 
   // user - computed: false, optional: false, required: true
-  private _user?: string;
+  private _user?: string; 
   public get user() {
     return this.getStringAttribute('user');
   }

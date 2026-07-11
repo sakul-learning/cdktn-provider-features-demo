@@ -126,7 +126,7 @@ export class OpensearchOutboundConnectionConnectionPropertiesCrossClusterSearchO
   }
 
   // skip_unavailable - computed: false, optional: true, required: false
-  private _skipUnavailable?: string;
+  private _skipUnavailable?: string; 
   public get skipUnavailable() {
     return this.getStringAttribute('skip_unavailable');
   }
@@ -335,7 +335,7 @@ export class OpensearchOutboundConnectionLocalDomainInfoOutputReference extends 
   }
 
   // domain_name - computed: false, optional: false, required: true
-  private _domainName?: string;
+  private _domainName?: string; 
   public get domainName() {
     return this.getStringAttribute('domain_name');
   }
@@ -348,7 +348,7 @@ export class OpensearchOutboundConnectionLocalDomainInfoOutputReference extends 
   }
 
   // owner_id - computed: false, optional: false, required: true
-  private _ownerId?: string;
+  private _ownerId?: string; 
   public get ownerId() {
     return this.getStringAttribute('owner_id');
   }
@@ -361,7 +361,7 @@ export class OpensearchOutboundConnectionLocalDomainInfoOutputReference extends 
   }
 
   // region - computed: false, optional: false, required: true
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -476,7 +476,7 @@ export class OpensearchOutboundConnectionRemoteDomainInfoOutputReference extends
   }
 
   // domain_name - computed: false, optional: false, required: true
-  private _domainName?: string;
+  private _domainName?: string; 
   public get domainName() {
     return this.getStringAttribute('domain_name');
   }
@@ -489,7 +489,7 @@ export class OpensearchOutboundConnectionRemoteDomainInfoOutputReference extends
   }
 
   // owner_id - computed: false, optional: false, required: true
-  private _ownerId?: string;
+  private _ownerId?: string; 
   public get ownerId() {
     return this.getStringAttribute('owner_id');
   }
@@ -502,7 +502,7 @@ export class OpensearchOutboundConnectionRemoteDomainInfoOutputReference extends
   }
 
   // region - computed: false, optional: false, required: true
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -610,7 +610,7 @@ export class OpensearchOutboundConnectionTimeoutsOutputReference extends cdktn.C
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -626,7 +626,7 @@ export class OpensearchOutboundConnectionTimeoutsOutputReference extends cdktn.C
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -708,7 +708,7 @@ export class OpensearchOutboundConnection extends cdktn.TerraformResource {
   // ==========
 
   // accept_connection - computed: false, optional: true, required: false
-  private _acceptConnection?: boolean | cdktn.IResolvable;
+  private _acceptConnection?: boolean | cdktn.IResolvable; 
   public get acceptConnection() {
     return this.getBooleanAttribute('accept_connection');
   }
@@ -724,7 +724,7 @@ export class OpensearchOutboundConnection extends cdktn.TerraformResource {
   }
 
   // connection_alias - computed: false, optional: false, required: true
-  private _connectionAlias?: string;
+  private _connectionAlias?: string; 
   public get connectionAlias() {
     return this.getStringAttribute('connection_alias');
   }
@@ -737,7 +737,7 @@ export class OpensearchOutboundConnection extends cdktn.TerraformResource {
   }
 
   // connection_mode - computed: true, optional: true, required: false
-  private _connectionMode?: string;
+  private _connectionMode?: string; 
   public get connectionMode() {
     return this.getStringAttribute('connection_mode');
   }
@@ -758,7 +758,7 @@ export class OpensearchOutboundConnection extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -774,7 +774,7 @@ export class OpensearchOutboundConnection extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

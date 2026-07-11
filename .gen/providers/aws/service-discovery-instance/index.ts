@@ -96,7 +96,7 @@ export class ServiceDiscoveryInstance extends cdktn.TerraformResource {
   // ==========
 
   // attributes - computed: false, optional: false, required: true
-  private _attributes?: { [key: string]: string };
+  private _attributes?: { [key: string]: string }; 
   public get attributes() {
     return this.getStringMapAttribute('attributes');
   }
@@ -109,7 +109,7 @@ export class ServiceDiscoveryInstance extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -125,7 +125,7 @@ export class ServiceDiscoveryInstance extends cdktn.TerraformResource {
   }
 
   // instance_id - computed: false, optional: false, required: true
-  private _instanceId?: string;
+  private _instanceId?: string; 
   public get instanceId() {
     return this.getStringAttribute('instance_id');
   }
@@ -138,7 +138,7 @@ export class ServiceDiscoveryInstance extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -154,7 +154,7 @@ export class ServiceDiscoveryInstance extends cdktn.TerraformResource {
   }
 
   // service_id - computed: false, optional: false, required: true
-  private _serviceId?: string;
+  private _serviceId?: string; 
   public get serviceId() {
     return this.getStringAttribute('service_id');
   }

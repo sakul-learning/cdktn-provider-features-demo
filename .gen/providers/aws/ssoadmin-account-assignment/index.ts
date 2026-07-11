@@ -147,7 +147,7 @@ export class SsoadminAccountAssignmentTimeoutsOutputReference extends cdktn.Comp
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -163,7 +163,7 @@ export class SsoadminAccountAssignmentTimeoutsOutputReference extends cdktn.Comp
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -245,7 +245,7 @@ export class SsoadminAccountAssignment extends cdktn.TerraformResource {
   // ==========
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -261,7 +261,7 @@ export class SsoadminAccountAssignment extends cdktn.TerraformResource {
   }
 
   // instance_arn - computed: false, optional: false, required: true
-  private _instanceArn?: string;
+  private _instanceArn?: string; 
   public get instanceArn() {
     return this.getStringAttribute('instance_arn');
   }
@@ -274,7 +274,7 @@ export class SsoadminAccountAssignment extends cdktn.TerraformResource {
   }
 
   // permission_set_arn - computed: false, optional: false, required: true
-  private _permissionSetArn?: string;
+  private _permissionSetArn?: string; 
   public get permissionSetArn() {
     return this.getStringAttribute('permission_set_arn');
   }
@@ -287,7 +287,7 @@ export class SsoadminAccountAssignment extends cdktn.TerraformResource {
   }
 
   // principal_id - computed: false, optional: false, required: true
-  private _principalId?: string;
+  private _principalId?: string; 
   public get principalId() {
     return this.getStringAttribute('principal_id');
   }
@@ -300,7 +300,7 @@ export class SsoadminAccountAssignment extends cdktn.TerraformResource {
   }
 
   // principal_type - computed: false, optional: false, required: true
-  private _principalType?: string;
+  private _principalType?: string; 
   public get principalType() {
     return this.getStringAttribute('principal_type');
   }
@@ -313,7 +313,7 @@ export class SsoadminAccountAssignment extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -329,7 +329,7 @@ export class SsoadminAccountAssignment extends cdktn.TerraformResource {
   }
 
   // target_id - computed: false, optional: false, required: true
-  private _targetId?: string;
+  private _targetId?: string; 
   public get targetId() {
     return this.getStringAttribute('target_id');
   }
@@ -342,7 +342,7 @@ export class SsoadminAccountAssignment extends cdktn.TerraformResource {
   }
 
   // target_type - computed: false, optional: false, required: true
-  private _targetType?: string;
+  private _targetType?: string; 
   public get targetType() {
     return this.getStringAttribute('target_type');
   }

@@ -174,7 +174,7 @@ export class AppflowFlowDestinationFlowConfigDestinationConnectorPropertiesCusto
   }
 
   // bucket_name - computed: false, optional: true, required: false
-  private _bucketName?: string;
+  private _bucketName?: string; 
   public get bucketName() {
     return this.getStringAttribute('bucket_name');
   }
@@ -190,7 +190,7 @@ export class AppflowFlowDestinationFlowConfigDestinationConnectorPropertiesCusto
   }
 
   // bucket_prefix - computed: false, optional: true, required: false
-  private _bucketPrefix?: string;
+  private _bucketPrefix?: string; 
   public get bucketPrefix() {
     return this.getStringAttribute('bucket_prefix');
   }
@@ -206,7 +206,7 @@ export class AppflowFlowDestinationFlowConfigDestinationConnectorPropertiesCusto
   }
 
   // fail_on_first_destination_error - computed: false, optional: true, required: false
-  private _failOnFirstDestinationError?: boolean | cdktn.IResolvable;
+  private _failOnFirstDestinationError?: boolean | cdktn.IResolvable; 
   public get failOnFirstDestinationError() {
     return this.getBooleanAttribute('fail_on_first_destination_error');
   }
@@ -360,7 +360,7 @@ export class AppflowFlowDestinationFlowConfigDestinationConnectorPropertiesCusto
   }
 
   // custom_properties - computed: false, optional: true, required: false
-  private _customProperties?: { [key: string]: string };
+  private _customProperties?: { [key: string]: string }; 
   public get customProperties() {
     return this.getStringMapAttribute('custom_properties');
   }
@@ -376,7 +376,7 @@ export class AppflowFlowDestinationFlowConfigDestinationConnectorPropertiesCusto
   }
 
   // entity_name - computed: false, optional: false, required: true
-  private _entityName?: string;
+  private _entityName?: string; 
   public get entityName() {
     return this.getStringAttribute('entity_name');
   }
@@ -389,7 +389,7 @@ export class AppflowFlowDestinationFlowConfigDestinationConnectorPropertiesCusto
   }
 
   // id_field_names - computed: false, optional: true, required: false
-  private _idFieldNames?: string[];
+  private _idFieldNames?: string[]; 
   public get idFieldNames() {
     return this.getListAttribute('id_field_names');
   }
@@ -405,7 +405,7 @@ export class AppflowFlowDestinationFlowConfigDestinationConnectorPropertiesCusto
   }
 
   // write_operation_type - computed: false, optional: true, required: false
-  private _writeOperationType?: string;
+  private _writeOperationType?: string; 
   public get writeOperationType() {
     return this.getStringAttribute('write_operation_type');
   }
@@ -522,7 +522,7 @@ export class AppflowFlowDestinationFlowConfigDestinationConnectorPropertiesCusto
   }
 
   // domain_name - computed: false, optional: false, required: true
-  private _domainName?: string;
+  private _domainName?: string; 
   public get domainName() {
     return this.getStringAttribute('domain_name');
   }
@@ -535,7 +535,7 @@ export class AppflowFlowDestinationFlowConfigDestinationConnectorPropertiesCusto
   }
 
   // object_type_name - computed: false, optional: true, required: false
-  private _objectTypeName?: string;
+  private _objectTypeName?: string; 
   public get objectTypeName() {
     return this.getStringAttribute('object_type_name');
   }
@@ -653,7 +653,7 @@ export class AppflowFlowDestinationFlowConfigDestinationConnectorPropertiesEvent
   }
 
   // bucket_name - computed: false, optional: true, required: false
-  private _bucketName?: string;
+  private _bucketName?: string; 
   public get bucketName() {
     return this.getStringAttribute('bucket_name');
   }
@@ -669,7 +669,7 @@ export class AppflowFlowDestinationFlowConfigDestinationConnectorPropertiesEvent
   }
 
   // bucket_prefix - computed: false, optional: true, required: false
-  private _bucketPrefix?: string;
+  private _bucketPrefix?: string; 
   public get bucketPrefix() {
     return this.getStringAttribute('bucket_prefix');
   }
@@ -685,7 +685,7 @@ export class AppflowFlowDestinationFlowConfigDestinationConnectorPropertiesEvent
   }
 
   // fail_on_first_destination_error - computed: false, optional: true, required: false
-  private _failOnFirstDestinationError?: boolean | cdktn.IResolvable;
+  private _failOnFirstDestinationError?: boolean | cdktn.IResolvable; 
   public get failOnFirstDestinationError() {
     return this.getBooleanAttribute('fail_on_first_destination_error');
   }
@@ -788,7 +788,7 @@ export class AppflowFlowDestinationFlowConfigDestinationConnectorPropertiesEvent
   }
 
   // object - computed: false, optional: false, required: true
-  private _object?: string;
+  private _object?: string; 
   public get object() {
     return this.getStringAttribute('object');
   }
@@ -919,7 +919,7 @@ export class AppflowFlowDestinationFlowConfigDestinationConnectorPropertiesHoney
   }
 
   // bucket_name - computed: false, optional: true, required: false
-  private _bucketName?: string;
+  private _bucketName?: string; 
   public get bucketName() {
     return this.getStringAttribute('bucket_name');
   }
@@ -935,7 +935,7 @@ export class AppflowFlowDestinationFlowConfigDestinationConnectorPropertiesHoney
   }
 
   // bucket_prefix - computed: false, optional: true, required: false
-  private _bucketPrefix?: string;
+  private _bucketPrefix?: string; 
   public get bucketPrefix() {
     return this.getStringAttribute('bucket_prefix');
   }
@@ -951,7 +951,7 @@ export class AppflowFlowDestinationFlowConfigDestinationConnectorPropertiesHoney
   }
 
   // fail_on_first_destination_error - computed: false, optional: true, required: false
-  private _failOnFirstDestinationError?: boolean | cdktn.IResolvable;
+  private _failOnFirstDestinationError?: boolean | cdktn.IResolvable; 
   public get failOnFirstDestinationError() {
     return this.getBooleanAttribute('fail_on_first_destination_error');
   }
@@ -1054,7 +1054,7 @@ export class AppflowFlowDestinationFlowConfigDestinationConnectorPropertiesHoney
   }
 
   // object - computed: false, optional: false, required: true
-  private _object?: string;
+  private _object?: string; 
   public get object() {
     return this.getStringAttribute('object');
   }
@@ -1234,7 +1234,7 @@ export class AppflowFlowDestinationFlowConfigDestinationConnectorPropertiesMarke
   }
 
   // bucket_name - computed: false, optional: true, required: false
-  private _bucketName?: string;
+  private _bucketName?: string; 
   public get bucketName() {
     return this.getStringAttribute('bucket_name');
   }
@@ -1250,7 +1250,7 @@ export class AppflowFlowDestinationFlowConfigDestinationConnectorPropertiesMarke
   }
 
   // bucket_prefix - computed: false, optional: true, required: false
-  private _bucketPrefix?: string;
+  private _bucketPrefix?: string; 
   public get bucketPrefix() {
     return this.getStringAttribute('bucket_prefix');
   }
@@ -1266,7 +1266,7 @@ export class AppflowFlowDestinationFlowConfigDestinationConnectorPropertiesMarke
   }
 
   // fail_on_first_destination_error - computed: false, optional: true, required: false
-  private _failOnFirstDestinationError?: boolean | cdktn.IResolvable;
+  private _failOnFirstDestinationError?: boolean | cdktn.IResolvable; 
   public get failOnFirstDestinationError() {
     return this.getBooleanAttribute('fail_on_first_destination_error');
   }
@@ -1369,7 +1369,7 @@ export class AppflowFlowDestinationFlowConfigDestinationConnectorPropertiesMarke
   }
 
   // object - computed: false, optional: false, required: true
-  private _object?: string;
+  private _object?: string; 
   public get object() {
     return this.getStringAttribute('object');
   }
@@ -1500,7 +1500,7 @@ export class AppflowFlowDestinationFlowConfigDestinationConnectorPropertiesRedsh
   }
 
   // bucket_name - computed: false, optional: true, required: false
-  private _bucketName?: string;
+  private _bucketName?: string; 
   public get bucketName() {
     return this.getStringAttribute('bucket_name');
   }
@@ -1516,7 +1516,7 @@ export class AppflowFlowDestinationFlowConfigDestinationConnectorPropertiesRedsh
   }
 
   // bucket_prefix - computed: false, optional: true, required: false
-  private _bucketPrefix?: string;
+  private _bucketPrefix?: string; 
   public get bucketPrefix() {
     return this.getStringAttribute('bucket_prefix');
   }
@@ -1532,7 +1532,7 @@ export class AppflowFlowDestinationFlowConfigDestinationConnectorPropertiesRedsh
   }
 
   // fail_on_first_destination_error - computed: false, optional: true, required: false
-  private _failOnFirstDestinationError?: boolean | cdktn.IResolvable;
+  private _failOnFirstDestinationError?: boolean | cdktn.IResolvable; 
   public get failOnFirstDestinationError() {
     return this.getBooleanAttribute('fail_on_first_destination_error');
   }
@@ -1669,7 +1669,7 @@ export class AppflowFlowDestinationFlowConfigDestinationConnectorPropertiesRedsh
   }
 
   // bucket_prefix - computed: false, optional: true, required: false
-  private _bucketPrefix?: string;
+  private _bucketPrefix?: string; 
   public get bucketPrefix() {
     return this.getStringAttribute('bucket_prefix');
   }
@@ -1685,7 +1685,7 @@ export class AppflowFlowDestinationFlowConfigDestinationConnectorPropertiesRedsh
   }
 
   // intermediate_bucket_name - computed: false, optional: false, required: true
-  private _intermediateBucketName?: string;
+  private _intermediateBucketName?: string; 
   public get intermediateBucketName() {
     return this.getStringAttribute('intermediate_bucket_name');
   }
@@ -1698,7 +1698,7 @@ export class AppflowFlowDestinationFlowConfigDestinationConnectorPropertiesRedsh
   }
 
   // object - computed: false, optional: false, required: true
-  private _object?: string;
+  private _object?: string; 
   public get object() {
     return this.getStringAttribute('object');
   }
@@ -1812,7 +1812,7 @@ export class AppflowFlowDestinationFlowConfigDestinationConnectorPropertiesS3S3O
   }
 
   // aggregation_type - computed: true, optional: true, required: false
-  private _aggregationType?: string;
+  private _aggregationType?: string; 
   public get aggregationType() {
     return this.getStringAttribute('aggregation_type');
   }
@@ -1828,7 +1828,7 @@ export class AppflowFlowDestinationFlowConfigDestinationConnectorPropertiesS3S3O
   }
 
   // target_file_size - computed: true, optional: true, required: false
-  private _targetFileSize?: number;
+  private _targetFileSize?: number; 
   public get targetFileSize() {
     return this.getNumberAttribute('target_file_size');
   }
@@ -1946,7 +1946,7 @@ export class AppflowFlowDestinationFlowConfigDestinationConnectorPropertiesS3S3O
   }
 
   // prefix_format - computed: false, optional: true, required: false
-  private _prefixFormat?: string;
+  private _prefixFormat?: string; 
   public get prefixFormat() {
     return this.getStringAttribute('prefix_format');
   }
@@ -1962,7 +1962,7 @@ export class AppflowFlowDestinationFlowConfigDestinationConnectorPropertiesS3S3O
   }
 
   // prefix_hierarchy - computed: true, optional: true, required: false
-  private _prefixHierarchy?: string[];
+  private _prefixHierarchy?: string[]; 
   public get prefixHierarchy() {
     return this.getListAttribute('prefix_hierarchy');
   }
@@ -1978,7 +1978,7 @@ export class AppflowFlowDestinationFlowConfigDestinationConnectorPropertiesS3S3O
   }
 
   // prefix_type - computed: false, optional: true, required: false
-  private _prefixType?: string;
+  private _prefixType?: string; 
   public get prefixType() {
     return this.getStringAttribute('prefix_type');
   }
@@ -2117,7 +2117,7 @@ export class AppflowFlowDestinationFlowConfigDestinationConnectorPropertiesS3S3O
   }
 
   // file_type - computed: false, optional: true, required: false
-  private _fileType?: string;
+  private _fileType?: string; 
   public get fileType() {
     return this.getStringAttribute('file_type');
   }
@@ -2133,7 +2133,7 @@ export class AppflowFlowDestinationFlowConfigDestinationConnectorPropertiesS3S3O
   }
 
   // preserve_source_data_typing - computed: true, optional: true, required: false
-  private _preserveSourceDataTyping?: boolean | cdktn.IResolvable;
+  private _preserveSourceDataTyping?: boolean | cdktn.IResolvable; 
   public get preserveSourceDataTyping() {
     return this.getBooleanAttribute('preserve_source_data_typing');
   }
@@ -2285,7 +2285,7 @@ export class AppflowFlowDestinationFlowConfigDestinationConnectorPropertiesS3Out
   }
 
   // bucket_name - computed: false, optional: false, required: true
-  private _bucketName?: string;
+  private _bucketName?: string; 
   public get bucketName() {
     return this.getStringAttribute('bucket_name');
   }
@@ -2298,7 +2298,7 @@ export class AppflowFlowDestinationFlowConfigDestinationConnectorPropertiesS3Out
   }
 
   // bucket_prefix - computed: true, optional: true, required: false
-  private _bucketPrefix?: string;
+  private _bucketPrefix?: string; 
   public get bucketPrefix() {
     return this.getStringAttribute('bucket_prefix');
   }
@@ -2432,7 +2432,7 @@ export class AppflowFlowDestinationFlowConfigDestinationConnectorPropertiesSales
   }
 
   // bucket_name - computed: false, optional: true, required: false
-  private _bucketName?: string;
+  private _bucketName?: string; 
   public get bucketName() {
     return this.getStringAttribute('bucket_name');
   }
@@ -2448,7 +2448,7 @@ export class AppflowFlowDestinationFlowConfigDestinationConnectorPropertiesSales
   }
 
   // bucket_prefix - computed: false, optional: true, required: false
-  private _bucketPrefix?: string;
+  private _bucketPrefix?: string; 
   public get bucketPrefix() {
     return this.getStringAttribute('bucket_prefix');
   }
@@ -2464,7 +2464,7 @@ export class AppflowFlowDestinationFlowConfigDestinationConnectorPropertiesSales
   }
 
   // fail_on_first_destination_error - computed: false, optional: true, required: false
-  private _failOnFirstDestinationError?: boolean | cdktn.IResolvable;
+  private _failOnFirstDestinationError?: boolean | cdktn.IResolvable; 
   public get failOnFirstDestinationError() {
     return this.getBooleanAttribute('fail_on_first_destination_error');
   }
@@ -2618,7 +2618,7 @@ export class AppflowFlowDestinationFlowConfigDestinationConnectorPropertiesSales
   }
 
   // data_transfer_api - computed: false, optional: true, required: false
-  private _dataTransferApi?: string;
+  private _dataTransferApi?: string; 
   public get dataTransferApi() {
     return this.getStringAttribute('data_transfer_api');
   }
@@ -2634,7 +2634,7 @@ export class AppflowFlowDestinationFlowConfigDestinationConnectorPropertiesSales
   }
 
   // id_field_names - computed: false, optional: true, required: false
-  private _idFieldNames?: string[];
+  private _idFieldNames?: string[]; 
   public get idFieldNames() {
     return this.getListAttribute('id_field_names');
   }
@@ -2650,7 +2650,7 @@ export class AppflowFlowDestinationFlowConfigDestinationConnectorPropertiesSales
   }
 
   // object - computed: false, optional: false, required: true
-  private _object?: string;
+  private _object?: string; 
   public get object() {
     return this.getStringAttribute('object');
   }
@@ -2663,7 +2663,7 @@ export class AppflowFlowDestinationFlowConfigDestinationConnectorPropertiesSales
   }
 
   // write_operation_type - computed: false, optional: true, required: false
-  private _writeOperationType?: string;
+  private _writeOperationType?: string; 
   public get writeOperationType() {
     return this.getStringAttribute('write_operation_type');
   }
@@ -2797,7 +2797,7 @@ export class AppflowFlowDestinationFlowConfigDestinationConnectorPropertiesSapoD
   }
 
   // bucket_name - computed: false, optional: true, required: false
-  private _bucketName?: string;
+  private _bucketName?: string; 
   public get bucketName() {
     return this.getStringAttribute('bucket_name');
   }
@@ -2813,7 +2813,7 @@ export class AppflowFlowDestinationFlowConfigDestinationConnectorPropertiesSapoD
   }
 
   // bucket_prefix - computed: false, optional: true, required: false
-  private _bucketPrefix?: string;
+  private _bucketPrefix?: string; 
   public get bucketPrefix() {
     return this.getStringAttribute('bucket_prefix');
   }
@@ -2829,7 +2829,7 @@ export class AppflowFlowDestinationFlowConfigDestinationConnectorPropertiesSapoD
   }
 
   // fail_on_first_destination_error - computed: false, optional: true, required: false
-  private _failOnFirstDestinationError?: boolean | cdktn.IResolvable;
+  private _failOnFirstDestinationError?: boolean | cdktn.IResolvable; 
   public get failOnFirstDestinationError() {
     return this.getBooleanAttribute('fail_on_first_destination_error');
   }
@@ -2930,7 +2930,7 @@ export class AppflowFlowDestinationFlowConfigDestinationConnectorPropertiesSapoD
   }
 
   // bucket_name - computed: false, optional: true, required: false
-  private _bucketName?: string;
+  private _bucketName?: string; 
   public get bucketName() {
     return this.getStringAttribute('bucket_name');
   }
@@ -2946,7 +2946,7 @@ export class AppflowFlowDestinationFlowConfigDestinationConnectorPropertiesSapoD
   }
 
   // bucket_prefix - computed: false, optional: true, required: false
-  private _bucketPrefix?: string;
+  private _bucketPrefix?: string; 
   public get bucketPrefix() {
     return this.getStringAttribute('bucket_prefix');
   }
@@ -3102,7 +3102,7 @@ export class AppflowFlowDestinationFlowConfigDestinationConnectorPropertiesSapoD
   }
 
   // id_field_names - computed: false, optional: true, required: false
-  private _idFieldNames?: string[];
+  private _idFieldNames?: string[]; 
   public get idFieldNames() {
     return this.getListAttribute('id_field_names');
   }
@@ -3118,7 +3118,7 @@ export class AppflowFlowDestinationFlowConfigDestinationConnectorPropertiesSapoD
   }
 
   // object_path - computed: false, optional: false, required: true
-  private _objectPath?: string;
+  private _objectPath?: string; 
   public get objectPath() {
     return this.getStringAttribute('object_path');
   }
@@ -3131,7 +3131,7 @@ export class AppflowFlowDestinationFlowConfigDestinationConnectorPropertiesSapoD
   }
 
   // write_operation_type - computed: false, optional: true, required: false
-  private _writeOperationType?: string;
+  private _writeOperationType?: string; 
   public get writeOperationType() {
     return this.getStringAttribute('write_operation_type');
   }
@@ -3281,7 +3281,7 @@ export class AppflowFlowDestinationFlowConfigDestinationConnectorPropertiesSnowf
   }
 
   // bucket_name - computed: false, optional: true, required: false
-  private _bucketName?: string;
+  private _bucketName?: string; 
   public get bucketName() {
     return this.getStringAttribute('bucket_name');
   }
@@ -3297,7 +3297,7 @@ export class AppflowFlowDestinationFlowConfigDestinationConnectorPropertiesSnowf
   }
 
   // bucket_prefix - computed: false, optional: true, required: false
-  private _bucketPrefix?: string;
+  private _bucketPrefix?: string; 
   public get bucketPrefix() {
     return this.getStringAttribute('bucket_prefix');
   }
@@ -3313,7 +3313,7 @@ export class AppflowFlowDestinationFlowConfigDestinationConnectorPropertiesSnowf
   }
 
   // fail_on_first_destination_error - computed: false, optional: true, required: false
-  private _failOnFirstDestinationError?: boolean | cdktn.IResolvable;
+  private _failOnFirstDestinationError?: boolean | cdktn.IResolvable; 
   public get failOnFirstDestinationError() {
     return this.getBooleanAttribute('fail_on_first_destination_error');
   }
@@ -3450,7 +3450,7 @@ export class AppflowFlowDestinationFlowConfigDestinationConnectorPropertiesSnowf
   }
 
   // bucket_prefix - computed: false, optional: true, required: false
-  private _bucketPrefix?: string;
+  private _bucketPrefix?: string; 
   public get bucketPrefix() {
     return this.getStringAttribute('bucket_prefix');
   }
@@ -3466,7 +3466,7 @@ export class AppflowFlowDestinationFlowConfigDestinationConnectorPropertiesSnowf
   }
 
   // intermediate_bucket_name - computed: false, optional: false, required: true
-  private _intermediateBucketName?: string;
+  private _intermediateBucketName?: string; 
   public get intermediateBucketName() {
     return this.getStringAttribute('intermediate_bucket_name');
   }
@@ -3479,7 +3479,7 @@ export class AppflowFlowDestinationFlowConfigDestinationConnectorPropertiesSnowf
   }
 
   // object - computed: false, optional: false, required: true
-  private _object?: string;
+  private _object?: string; 
   public get object() {
     return this.getStringAttribute('object');
   }
@@ -3576,7 +3576,7 @@ export class AppflowFlowDestinationFlowConfigDestinationConnectorPropertiesUpsol
   }
 
   // aggregation_type - computed: false, optional: true, required: false
-  private _aggregationType?: string;
+  private _aggregationType?: string; 
   public get aggregationType() {
     return this.getStringAttribute('aggregation_type');
   }
@@ -3694,7 +3694,7 @@ export class AppflowFlowDestinationFlowConfigDestinationConnectorPropertiesUpsol
   }
 
   // prefix_format - computed: false, optional: true, required: false
-  private _prefixFormat?: string;
+  private _prefixFormat?: string; 
   public get prefixFormat() {
     return this.getStringAttribute('prefix_format');
   }
@@ -3710,7 +3710,7 @@ export class AppflowFlowDestinationFlowConfigDestinationConnectorPropertiesUpsol
   }
 
   // prefix_hierarchy - computed: true, optional: true, required: false
-  private _prefixHierarchy?: string[];
+  private _prefixHierarchy?: string[]; 
   public get prefixHierarchy() {
     return this.getListAttribute('prefix_hierarchy');
   }
@@ -3726,7 +3726,7 @@ export class AppflowFlowDestinationFlowConfigDestinationConnectorPropertiesUpsol
   }
 
   // prefix_type - computed: false, optional: false, required: true
-  private _prefixType?: string;
+  private _prefixType?: string; 
   public get prefixType() {
     return this.getStringAttribute('prefix_type');
   }
@@ -3845,7 +3845,7 @@ export class AppflowFlowDestinationFlowConfigDestinationConnectorPropertiesUpsol
   }
 
   // file_type - computed: false, optional: true, required: false
-  private _fileType?: string;
+  private _fileType?: string; 
   public get fileType() {
     return this.getStringAttribute('file_type');
   }
@@ -3994,7 +3994,7 @@ export class AppflowFlowDestinationFlowConfigDestinationConnectorPropertiesUpsol
   }
 
   // bucket_name - computed: false, optional: false, required: true
-  private _bucketName?: string;
+  private _bucketName?: string; 
   public get bucketName() {
     return this.getStringAttribute('bucket_name');
   }
@@ -4007,7 +4007,7 @@ export class AppflowFlowDestinationFlowConfigDestinationConnectorPropertiesUpsol
   }
 
   // bucket_prefix - computed: false, optional: true, required: false
-  private _bucketPrefix?: string;
+  private _bucketPrefix?: string; 
   public get bucketPrefix() {
     return this.getStringAttribute('bucket_prefix');
   }
@@ -4138,7 +4138,7 @@ export class AppflowFlowDestinationFlowConfigDestinationConnectorPropertiesZende
   }
 
   // bucket_name - computed: false, optional: true, required: false
-  private _bucketName?: string;
+  private _bucketName?: string; 
   public get bucketName() {
     return this.getStringAttribute('bucket_name');
   }
@@ -4154,7 +4154,7 @@ export class AppflowFlowDestinationFlowConfigDestinationConnectorPropertiesZende
   }
 
   // bucket_prefix - computed: false, optional: true, required: false
-  private _bucketPrefix?: string;
+  private _bucketPrefix?: string; 
   public get bucketPrefix() {
     return this.getStringAttribute('bucket_prefix');
   }
@@ -4170,7 +4170,7 @@ export class AppflowFlowDestinationFlowConfigDestinationConnectorPropertiesZende
   }
 
   // fail_on_first_destination_error - computed: false, optional: true, required: false
-  private _failOnFirstDestinationError?: boolean | cdktn.IResolvable;
+  private _failOnFirstDestinationError?: boolean | cdktn.IResolvable; 
   public get failOnFirstDestinationError() {
     return this.getBooleanAttribute('fail_on_first_destination_error');
   }
@@ -4307,7 +4307,7 @@ export class AppflowFlowDestinationFlowConfigDestinationConnectorPropertiesZende
   }
 
   // id_field_names - computed: false, optional: true, required: false
-  private _idFieldNames?: string[];
+  private _idFieldNames?: string[]; 
   public get idFieldNames() {
     return this.getListAttribute('id_field_names');
   }
@@ -4323,7 +4323,7 @@ export class AppflowFlowDestinationFlowConfigDestinationConnectorPropertiesZende
   }
 
   // object - computed: false, optional: false, required: true
-  private _object?: string;
+  private _object?: string; 
   public get object() {
     return this.getStringAttribute('object');
   }
@@ -4336,7 +4336,7 @@ export class AppflowFlowDestinationFlowConfigDestinationConnectorPropertiesZende
   }
 
   // write_operation_type - computed: false, optional: true, required: false
-  private _writeOperationType?: string;
+  private _writeOperationType?: string; 
   public get writeOperationType() {
     return this.getStringAttribute('write_operation_type');
   }
@@ -5007,7 +5007,7 @@ export class AppflowFlowDestinationFlowConfigOutputReference extends cdktn.Compl
   }
 
   // api_version - computed: false, optional: true, required: false
-  private _apiVersion?: string;
+  private _apiVersion?: string; 
   public get apiVersion() {
     return this.getStringAttribute('api_version');
   }
@@ -5023,7 +5023,7 @@ export class AppflowFlowDestinationFlowConfigOutputReference extends cdktn.Compl
   }
 
   // connector_profile_name - computed: false, optional: true, required: false
-  private _connectorProfileName?: string;
+  private _connectorProfileName?: string; 
   public get connectorProfileName() {
     return this.getStringAttribute('connector_profile_name');
   }
@@ -5039,7 +5039,7 @@ export class AppflowFlowDestinationFlowConfigOutputReference extends cdktn.Compl
   }
 
   // connector_type - computed: false, optional: false, required: true
-  private _connectorType?: string;
+  private _connectorType?: string; 
   public get connectorType() {
     return this.getStringAttribute('connector_type');
   }
@@ -5187,7 +5187,7 @@ export class AppflowFlowMetadataCatalogConfigGlueDataCatalogOutputReference exte
   }
 
   // database_name - computed: false, optional: false, required: true
-  private _databaseName?: string;
+  private _databaseName?: string; 
   public get databaseName() {
     return this.getStringAttribute('database_name');
   }
@@ -5200,7 +5200,7 @@ export class AppflowFlowMetadataCatalogConfigGlueDataCatalogOutputReference exte
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -5213,7 +5213,7 @@ export class AppflowFlowMetadataCatalogConfigGlueDataCatalogOutputReference exte
   }
 
   // table_prefix - computed: false, optional: false, required: true
-  private _tablePrefix?: string;
+  private _tablePrefix?: string; 
   public get tablePrefix() {
     return this.getStringAttribute('table_prefix');
   }
@@ -5380,7 +5380,7 @@ export class AppflowFlowSourceFlowConfigIncrementalPullConfigOutputReference ext
   }
 
   // datetime_type_field_name - computed: false, optional: true, required: false
-  private _datetimeTypeFieldName?: string;
+  private _datetimeTypeFieldName?: string; 
   public get datetimeTypeFieldName() {
     return this.getStringAttribute('datetime_type_field_name');
   }
@@ -5464,7 +5464,7 @@ export class AppflowFlowSourceFlowConfigSourceConnectorPropertiesAmplitudeOutput
   }
 
   // object - computed: false, optional: false, required: true
-  private _object?: string;
+  private _object?: string; 
   public get object() {
     return this.getStringAttribute('object');
   }
@@ -5562,7 +5562,7 @@ export class AppflowFlowSourceFlowConfigSourceConnectorPropertiesCustomConnector
   }
 
   // custom_properties - computed: false, optional: true, required: false
-  private _customProperties?: { [key: string]: string };
+  private _customProperties?: { [key: string]: string }; 
   public get customProperties() {
     return this.getStringMapAttribute('custom_properties');
   }
@@ -5578,7 +5578,7 @@ export class AppflowFlowSourceFlowConfigSourceConnectorPropertiesCustomConnector
   }
 
   // entity_name - computed: false, optional: false, required: true
-  private _entityName?: string;
+  private _entityName?: string; 
   public get entityName() {
     return this.getStringAttribute('entity_name');
   }
@@ -5659,7 +5659,7 @@ export class AppflowFlowSourceFlowConfigSourceConnectorPropertiesDatadogOutputRe
   }
 
   // object - computed: false, optional: false, required: true
-  private _object?: string;
+  private _object?: string; 
   public get object() {
     return this.getStringAttribute('object');
   }
@@ -5740,7 +5740,7 @@ export class AppflowFlowSourceFlowConfigSourceConnectorPropertiesDynatraceOutput
   }
 
   // object - computed: false, optional: false, required: true
-  private _object?: string;
+  private _object?: string; 
   public get object() {
     return this.getStringAttribute('object');
   }
@@ -5821,7 +5821,7 @@ export class AppflowFlowSourceFlowConfigSourceConnectorPropertiesGoogleAnalytics
   }
 
   // object - computed: false, optional: false, required: true
-  private _object?: string;
+  private _object?: string; 
   public get object() {
     return this.getStringAttribute('object');
   }
@@ -5902,7 +5902,7 @@ export class AppflowFlowSourceFlowConfigSourceConnectorPropertiesInforNexusOutpu
   }
 
   // object - computed: false, optional: false, required: true
-  private _object?: string;
+  private _object?: string; 
   public get object() {
     return this.getStringAttribute('object');
   }
@@ -5983,7 +5983,7 @@ export class AppflowFlowSourceFlowConfigSourceConnectorPropertiesMarketoOutputRe
   }
 
   // object - computed: false, optional: false, required: true
-  private _object?: string;
+  private _object?: string; 
   public get object() {
     return this.getStringAttribute('object');
   }
@@ -6064,7 +6064,7 @@ export class AppflowFlowSourceFlowConfigSourceConnectorPropertiesS3S3InputFormat
   }
 
   // s3_input_file_type - computed: false, optional: true, required: false
-  private _s3InputFileType?: string;
+  private _s3InputFileType?: string; 
   public get s3InputFileType() {
     return this.getStringAttribute('s3_input_file_type');
   }
@@ -6184,7 +6184,7 @@ export class AppflowFlowSourceFlowConfigSourceConnectorPropertiesS3OutputReferen
   }
 
   // bucket_name - computed: false, optional: false, required: true
-  private _bucketName?: string;
+  private _bucketName?: string; 
   public get bucketName() {
     return this.getStringAttribute('bucket_name');
   }
@@ -6197,7 +6197,7 @@ export class AppflowFlowSourceFlowConfigSourceConnectorPropertiesS3OutputReferen
   }
 
   // bucket_prefix - computed: false, optional: false, required: true
-  private _bucketPrefix?: string;
+  private _bucketPrefix?: string; 
   public get bucketPrefix() {
     return this.getStringAttribute('bucket_prefix');
   }
@@ -6345,7 +6345,7 @@ export class AppflowFlowSourceFlowConfigSourceConnectorPropertiesSalesforceOutpu
   }
 
   // data_transfer_api - computed: false, optional: true, required: false
-  private _dataTransferApi?: string;
+  private _dataTransferApi?: string; 
   public get dataTransferApi() {
     return this.getStringAttribute('data_transfer_api');
   }
@@ -6361,7 +6361,7 @@ export class AppflowFlowSourceFlowConfigSourceConnectorPropertiesSalesforceOutpu
   }
 
   // enable_dynamic_field_update - computed: false, optional: true, required: false
-  private _enableDynamicFieldUpdate?: boolean | cdktn.IResolvable;
+  private _enableDynamicFieldUpdate?: boolean | cdktn.IResolvable; 
   public get enableDynamicFieldUpdate() {
     return this.getBooleanAttribute('enable_dynamic_field_update');
   }
@@ -6377,7 +6377,7 @@ export class AppflowFlowSourceFlowConfigSourceConnectorPropertiesSalesforceOutpu
   }
 
   // include_deleted_records - computed: false, optional: true, required: false
-  private _includeDeletedRecords?: boolean | cdktn.IResolvable;
+  private _includeDeletedRecords?: boolean | cdktn.IResolvable; 
   public get includeDeletedRecords() {
     return this.getBooleanAttribute('include_deleted_records');
   }
@@ -6393,7 +6393,7 @@ export class AppflowFlowSourceFlowConfigSourceConnectorPropertiesSalesforceOutpu
   }
 
   // object - computed: false, optional: false, required: true
-  private _object?: string;
+  private _object?: string; 
   public get object() {
     return this.getStringAttribute('object');
   }
@@ -6474,7 +6474,7 @@ export class AppflowFlowSourceFlowConfigSourceConnectorPropertiesSapoDataPaginat
   }
 
   // max_page_size - computed: false, optional: false, required: true
-  private _maxPageSize?: number;
+  private _maxPageSize?: number; 
   public get maxPageSize() {
     return this.getNumberAttribute('max_page_size');
   }
@@ -6555,7 +6555,7 @@ export class AppflowFlowSourceFlowConfigSourceConnectorPropertiesSapoDataParalle
   }
 
   // max_page_size - computed: false, optional: false, required: true
-  private _maxPageSize?: number;
+  private _maxPageSize?: number; 
   public get maxPageSize() {
     return this.getNumberAttribute('max_page_size');
   }
@@ -6674,7 +6674,7 @@ export class AppflowFlowSourceFlowConfigSourceConnectorPropertiesSapoDataOutputR
   }
 
   // object_path - computed: false, optional: false, required: true
-  private _objectPath?: string;
+  private _objectPath?: string; 
   public get objectPath() {
     return this.getStringAttribute('object_path');
   }
@@ -6787,7 +6787,7 @@ export class AppflowFlowSourceFlowConfigSourceConnectorPropertiesServiceNowOutpu
   }
 
   // object - computed: false, optional: false, required: true
-  private _object?: string;
+  private _object?: string; 
   public get object() {
     return this.getStringAttribute('object');
   }
@@ -6868,7 +6868,7 @@ export class AppflowFlowSourceFlowConfigSourceConnectorPropertiesSingularOutputR
   }
 
   // object - computed: false, optional: false, required: true
-  private _object?: string;
+  private _object?: string; 
   public get object() {
     return this.getStringAttribute('object');
   }
@@ -6949,7 +6949,7 @@ export class AppflowFlowSourceFlowConfigSourceConnectorPropertiesSlackOutputRefe
   }
 
   // object - computed: false, optional: false, required: true
-  private _object?: string;
+  private _object?: string; 
   public get object() {
     return this.getStringAttribute('object');
   }
@@ -7030,7 +7030,7 @@ export class AppflowFlowSourceFlowConfigSourceConnectorPropertiesTrendmicroOutpu
   }
 
   // object - computed: false, optional: false, required: true
-  private _object?: string;
+  private _object?: string; 
   public get object() {
     return this.getStringAttribute('object');
   }
@@ -7179,7 +7179,7 @@ export class AppflowFlowSourceFlowConfigSourceConnectorPropertiesVeevaOutputRefe
   }
 
   // document_type - computed: false, optional: true, required: false
-  private _documentType?: string;
+  private _documentType?: string; 
   public get documentType() {
     return this.getStringAttribute('document_type');
   }
@@ -7195,7 +7195,7 @@ export class AppflowFlowSourceFlowConfigSourceConnectorPropertiesVeevaOutputRefe
   }
 
   // include_all_versions - computed: false, optional: true, required: false
-  private _includeAllVersions?: boolean | cdktn.IResolvable;
+  private _includeAllVersions?: boolean | cdktn.IResolvable; 
   public get includeAllVersions() {
     return this.getBooleanAttribute('include_all_versions');
   }
@@ -7211,7 +7211,7 @@ export class AppflowFlowSourceFlowConfigSourceConnectorPropertiesVeevaOutputRefe
   }
 
   // include_renditions - computed: false, optional: true, required: false
-  private _includeRenditions?: boolean | cdktn.IResolvable;
+  private _includeRenditions?: boolean | cdktn.IResolvable; 
   public get includeRenditions() {
     return this.getBooleanAttribute('include_renditions');
   }
@@ -7227,7 +7227,7 @@ export class AppflowFlowSourceFlowConfigSourceConnectorPropertiesVeevaOutputRefe
   }
 
   // include_source_files - computed: false, optional: true, required: false
-  private _includeSourceFiles?: boolean | cdktn.IResolvable;
+  private _includeSourceFiles?: boolean | cdktn.IResolvable; 
   public get includeSourceFiles() {
     return this.getBooleanAttribute('include_source_files');
   }
@@ -7243,7 +7243,7 @@ export class AppflowFlowSourceFlowConfigSourceConnectorPropertiesVeevaOutputRefe
   }
 
   // object - computed: false, optional: false, required: true
-  private _object?: string;
+  private _object?: string; 
   public get object() {
     return this.getStringAttribute('object');
   }
@@ -7324,7 +7324,7 @@ export class AppflowFlowSourceFlowConfigSourceConnectorPropertiesZendeskOutputRe
   }
 
   // object - computed: false, optional: false, required: true
-  private _object?: string;
+  private _object?: string; 
   public get object() {
     return this.getStringAttribute('object');
   }
@@ -8088,7 +8088,7 @@ export class AppflowFlowSourceFlowConfigOutputReference extends cdktn.ComplexObj
   }
 
   // api_version - computed: false, optional: true, required: false
-  private _apiVersion?: string;
+  private _apiVersion?: string; 
   public get apiVersion() {
     return this.getStringAttribute('api_version');
   }
@@ -8104,7 +8104,7 @@ export class AppflowFlowSourceFlowConfigOutputReference extends cdktn.ComplexObj
   }
 
   // connector_profile_name - computed: false, optional: true, required: false
-  private _connectorProfileName?: string;
+  private _connectorProfileName?: string; 
   public get connectorProfileName() {
     return this.getStringAttribute('connector_profile_name');
   }
@@ -8120,7 +8120,7 @@ export class AppflowFlowSourceFlowConfigOutputReference extends cdktn.ComplexObj
   }
 
   // connector_type - computed: false, optional: false, required: true
-  private _connectorType?: string;
+  private _connectorType?: string; 
   public get connectorType() {
     return this.getStringAttribute('connector_type');
   }
@@ -8497,7 +8497,7 @@ export class AppflowFlowTaskConnectorOperatorOutputReference extends cdktn.Compl
   }
 
   // amplitude - computed: false, optional: true, required: false
-  private _amplitude?: string;
+  private _amplitude?: string; 
   public get amplitude() {
     return this.getStringAttribute('amplitude');
   }
@@ -8513,7 +8513,7 @@ export class AppflowFlowTaskConnectorOperatorOutputReference extends cdktn.Compl
   }
 
   // custom_connector - computed: false, optional: true, required: false
-  private _customConnector?: string;
+  private _customConnector?: string; 
   public get customConnector() {
     return this.getStringAttribute('custom_connector');
   }
@@ -8529,7 +8529,7 @@ export class AppflowFlowTaskConnectorOperatorOutputReference extends cdktn.Compl
   }
 
   // datadog - computed: false, optional: true, required: false
-  private _datadog?: string;
+  private _datadog?: string; 
   public get datadog() {
     return this.getStringAttribute('datadog');
   }
@@ -8545,7 +8545,7 @@ export class AppflowFlowTaskConnectorOperatorOutputReference extends cdktn.Compl
   }
 
   // dynatrace - computed: false, optional: true, required: false
-  private _dynatrace?: string;
+  private _dynatrace?: string; 
   public get dynatrace() {
     return this.getStringAttribute('dynatrace');
   }
@@ -8561,7 +8561,7 @@ export class AppflowFlowTaskConnectorOperatorOutputReference extends cdktn.Compl
   }
 
   // google_analytics - computed: false, optional: true, required: false
-  private _googleAnalytics?: string;
+  private _googleAnalytics?: string; 
   public get googleAnalytics() {
     return this.getStringAttribute('google_analytics');
   }
@@ -8577,7 +8577,7 @@ export class AppflowFlowTaskConnectorOperatorOutputReference extends cdktn.Compl
   }
 
   // infor_nexus - computed: false, optional: true, required: false
-  private _inforNexus?: string;
+  private _inforNexus?: string; 
   public get inforNexus() {
     return this.getStringAttribute('infor_nexus');
   }
@@ -8593,7 +8593,7 @@ export class AppflowFlowTaskConnectorOperatorOutputReference extends cdktn.Compl
   }
 
   // marketo - computed: false, optional: true, required: false
-  private _marketo?: string;
+  private _marketo?: string; 
   public get marketo() {
     return this.getStringAttribute('marketo');
   }
@@ -8609,7 +8609,7 @@ export class AppflowFlowTaskConnectorOperatorOutputReference extends cdktn.Compl
   }
 
   // s3 - computed: false, optional: true, required: false
-  private _s3?: string;
+  private _s3?: string; 
   public get s3() {
     return this.getStringAttribute('s3');
   }
@@ -8625,7 +8625,7 @@ export class AppflowFlowTaskConnectorOperatorOutputReference extends cdktn.Compl
   }
 
   // salesforce - computed: false, optional: true, required: false
-  private _salesforce?: string;
+  private _salesforce?: string; 
   public get salesforce() {
     return this.getStringAttribute('salesforce');
   }
@@ -8641,7 +8641,7 @@ export class AppflowFlowTaskConnectorOperatorOutputReference extends cdktn.Compl
   }
 
   // sapo_data - computed: false, optional: true, required: false
-  private _sapoData?: string;
+  private _sapoData?: string; 
   public get sapoData() {
     return this.getStringAttribute('sapo_data');
   }
@@ -8657,7 +8657,7 @@ export class AppflowFlowTaskConnectorOperatorOutputReference extends cdktn.Compl
   }
 
   // service_now - computed: false, optional: true, required: false
-  private _serviceNow?: string;
+  private _serviceNow?: string; 
   public get serviceNow() {
     return this.getStringAttribute('service_now');
   }
@@ -8673,7 +8673,7 @@ export class AppflowFlowTaskConnectorOperatorOutputReference extends cdktn.Compl
   }
 
   // singular - computed: false, optional: true, required: false
-  private _singular?: string;
+  private _singular?: string; 
   public get singular() {
     return this.getStringAttribute('singular');
   }
@@ -8689,7 +8689,7 @@ export class AppflowFlowTaskConnectorOperatorOutputReference extends cdktn.Compl
   }
 
   // slack - computed: false, optional: true, required: false
-  private _slack?: string;
+  private _slack?: string; 
   public get slack() {
     return this.getStringAttribute('slack');
   }
@@ -8705,7 +8705,7 @@ export class AppflowFlowTaskConnectorOperatorOutputReference extends cdktn.Compl
   }
 
   // trendmicro - computed: false, optional: true, required: false
-  private _trendmicro?: string;
+  private _trendmicro?: string; 
   public get trendmicro() {
     return this.getStringAttribute('trendmicro');
   }
@@ -8721,7 +8721,7 @@ export class AppflowFlowTaskConnectorOperatorOutputReference extends cdktn.Compl
   }
 
   // veeva - computed: false, optional: true, required: false
-  private _veeva?: string;
+  private _veeva?: string; 
   public get veeva() {
     return this.getStringAttribute('veeva');
   }
@@ -8737,7 +8737,7 @@ export class AppflowFlowTaskConnectorOperatorOutputReference extends cdktn.Compl
   }
 
   // zendesk - computed: false, optional: true, required: false
-  private _zendesk?: string;
+  private _zendesk?: string; 
   public get zendesk() {
     return this.getStringAttribute('zendesk');
   }
@@ -8923,7 +8923,7 @@ export class AppflowFlowTaskOutputReference extends cdktn.ComplexObject {
   }
 
   // destination_field - computed: false, optional: true, required: false
-  private _destinationField?: string;
+  private _destinationField?: string; 
   public get destinationField() {
     return this.getStringAttribute('destination_field');
   }
@@ -8939,7 +8939,7 @@ export class AppflowFlowTaskOutputReference extends cdktn.ComplexObject {
   }
 
   // source_fields - computed: true, optional: true, required: false
-  private _sourceFields?: string[];
+  private _sourceFields?: string[]; 
   public get sourceFields() {
     return this.getListAttribute('source_fields');
   }
@@ -8955,7 +8955,7 @@ export class AppflowFlowTaskOutputReference extends cdktn.ComplexObject {
   }
 
   // task_properties - computed: false, optional: true, required: false
-  private _taskProperties?: { [key: string]: string };
+  private _taskProperties?: { [key: string]: string }; 
   public get taskProperties() {
     return this.getStringMapAttribute('task_properties');
   }
@@ -8971,7 +8971,7 @@ export class AppflowFlowTaskOutputReference extends cdktn.ComplexObject {
   }
 
   // task_type - computed: false, optional: false, required: true
-  private _taskType?: string;
+  private _taskType?: string; 
   public get taskType() {
     return this.getStringAttribute('task_type');
   }
@@ -9190,7 +9190,7 @@ export class AppflowFlowTriggerConfigTriggerPropertiesScheduledOutputReference e
   }
 
   // data_pull_mode - computed: false, optional: true, required: false
-  private _dataPullMode?: string;
+  private _dataPullMode?: string; 
   public get dataPullMode() {
     return this.getStringAttribute('data_pull_mode');
   }
@@ -9206,7 +9206,7 @@ export class AppflowFlowTriggerConfigTriggerPropertiesScheduledOutputReference e
   }
 
   // first_execution_from - computed: false, optional: true, required: false
-  private _firstExecutionFrom?: string;
+  private _firstExecutionFrom?: string; 
   public get firstExecutionFrom() {
     return this.getStringAttribute('first_execution_from');
   }
@@ -9222,7 +9222,7 @@ export class AppflowFlowTriggerConfigTriggerPropertiesScheduledOutputReference e
   }
 
   // schedule_end_time - computed: false, optional: true, required: false
-  private _scheduleEndTime?: string;
+  private _scheduleEndTime?: string; 
   public get scheduleEndTime() {
     return this.getStringAttribute('schedule_end_time');
   }
@@ -9238,7 +9238,7 @@ export class AppflowFlowTriggerConfigTriggerPropertiesScheduledOutputReference e
   }
 
   // schedule_expression - computed: false, optional: false, required: true
-  private _scheduleExpression?: string;
+  private _scheduleExpression?: string; 
   public get scheduleExpression() {
     return this.getStringAttribute('schedule_expression');
   }
@@ -9251,7 +9251,7 @@ export class AppflowFlowTriggerConfigTriggerPropertiesScheduledOutputReference e
   }
 
   // schedule_offset - computed: false, optional: true, required: false
-  private _scheduleOffset?: number;
+  private _scheduleOffset?: number; 
   public get scheduleOffset() {
     return this.getNumberAttribute('schedule_offset');
   }
@@ -9267,7 +9267,7 @@ export class AppflowFlowTriggerConfigTriggerPropertiesScheduledOutputReference e
   }
 
   // schedule_start_time - computed: false, optional: true, required: false
-  private _scheduleStartTime?: string;
+  private _scheduleStartTime?: string; 
   public get scheduleStartTime() {
     return this.getStringAttribute('schedule_start_time');
   }
@@ -9283,7 +9283,7 @@ export class AppflowFlowTriggerConfigTriggerPropertiesScheduledOutputReference e
   }
 
   // timezone - computed: false, optional: true, required: false
-  private _timezone?: string;
+  private _timezone?: string; 
   public get timezone() {
     return this.getStringAttribute('timezone');
   }
@@ -9472,7 +9472,7 @@ export class AppflowFlowTriggerConfigOutputReference extends cdktn.ComplexObject
   }
 
   // trigger_type - computed: false, optional: false, required: true
-  private _triggerType?: string;
+  private _triggerType?: string; 
   public get triggerType() {
     return this.getStringAttribute('trigger_type');
   }
@@ -9575,7 +9575,7 @@ export class AppflowFlow extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -9596,7 +9596,7 @@ export class AppflowFlow extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -9612,7 +9612,7 @@ export class AppflowFlow extends cdktn.TerraformResource {
   }
 
   // kms_arn - computed: true, optional: true, required: false
-  private _kmsArn?: string;
+  private _kmsArn?: string; 
   public get kmsArn() {
     return this.getStringAttribute('kms_arn');
   }
@@ -9628,7 +9628,7 @@ export class AppflowFlow extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -9641,7 +9641,7 @@ export class AppflowFlow extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -9657,7 +9657,7 @@ export class AppflowFlow extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -9673,7 +9673,7 @@ export class AppflowFlow extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

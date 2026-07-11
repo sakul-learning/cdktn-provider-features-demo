@@ -134,7 +134,7 @@ export class ElasticacheUserGroupTagsOutputReference extends cdktn.ComplexObject
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -150,7 +150,7 @@ export class ElasticacheUserGroupTagsOutputReference extends cdktn.ComplexObject
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -252,7 +252,7 @@ export class ElasticacheUserGroup extends cdktn.TerraformResource {
   }
 
   // engine - computed: false, optional: false, required: true
-  private _engine?: string;
+  private _engine?: string; 
   public get engine() {
     return this.getStringAttribute('engine');
   }
@@ -291,7 +291,7 @@ export class ElasticacheUserGroup extends cdktn.TerraformResource {
   }
 
   // user_group_id - computed: false, optional: false, required: true
-  private _userGroupId?: string;
+  private _userGroupId?: string; 
   public get userGroupId() {
     return this.getStringAttribute('user_group_id');
   }
@@ -304,7 +304,7 @@ export class ElasticacheUserGroup extends cdktn.TerraformResource {
   }
 
   // user_ids - computed: false, optional: false, required: true
-  private _userIds?: string[];
+  private _userIds?: string[]; 
   public get userIds() {
     return cdktn.Fn.tolist(this.getListAttribute('user_ids'));
   }

@@ -174,7 +174,7 @@ export class BedrockagentcoreApiKeyCredentialProvider extends cdktn.TerraformRes
   // ==========
 
   // api_key - computed: false, optional: true, required: false
-  private _apiKey?: string;
+  private _apiKey?: string; 
   public get apiKey() {
     return this.getStringAttribute('api_key');
   }
@@ -196,7 +196,7 @@ export class BedrockagentcoreApiKeyCredentialProvider extends cdktn.TerraformRes
   }
 
   // api_key_wo - computed: false, optional: true, required: false
-  private _apiKeyWo?: string;
+  private _apiKeyWo?: string; 
   /**
   * @deprecated Write-only: the provider never returns this value; reading it always yields null by protocol contract. The getter remains for compatibility and will be removed in a future prebuilt-provider major.
   */
@@ -216,7 +216,7 @@ export class BedrockagentcoreApiKeyCredentialProvider extends cdktn.TerraformRes
   }
 
   // api_key_wo_version - computed: false, optional: true, required: false
-  private _apiKeyWoVersion?: number;
+  private _apiKeyWoVersion?: number; 
   public get apiKeyWoVersion() {
     return this.getNumberAttribute('api_key_wo_version');
   }
@@ -237,7 +237,7 @@ export class BedrockagentcoreApiKeyCredentialProvider extends cdktn.TerraformRes
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -250,7 +250,7 @@ export class BedrockagentcoreApiKeyCredentialProvider extends cdktn.TerraformRes
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -266,7 +266,7 @@ export class BedrockagentcoreApiKeyCredentialProvider extends cdktn.TerraformRes
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

@@ -175,7 +175,7 @@ export class S3ObjectlambdaAccessPointObjectLambdaConfigurationTransformationCon
   }
 
   // function_arn - computed: true, optional: true, required: false
-  private _functionArn?: string;
+  private _functionArn?: string; 
   public get functionArn() {
     return this.getStringAttribute('function_arn');
   }
@@ -191,7 +191,7 @@ export class S3ObjectlambdaAccessPointObjectLambdaConfigurationTransformationCon
   }
 
   // function_payload - computed: true, optional: true, required: false
-  private _functionPayload?: string;
+  private _functionPayload?: string; 
   public get functionPayload() {
     return this.getStringAttribute('function_payload');
   }
@@ -398,7 +398,7 @@ export class S3ObjectlambdaAccessPointObjectLambdaConfigurationTransformationCon
   }
 
   // actions - computed: false, optional: false, required: true
-  private _actions?: string[];
+  private _actions?: string[]; 
   public get actions() {
     return cdktn.Fn.tolist(this.getListAttribute('actions'));
   }
@@ -573,7 +573,7 @@ export class S3ObjectlambdaAccessPointObjectLambdaConfigurationOutputReference e
   }
 
   // allowed_features - computed: true, optional: true, required: false
-  private _allowedFeatures?: string[];
+  private _allowedFeatures?: string[]; 
   public get allowedFeatures() {
     return cdktn.Fn.tolist(this.getListAttribute('allowed_features'));
   }
@@ -589,7 +589,7 @@ export class S3ObjectlambdaAccessPointObjectLambdaConfigurationOutputReference e
   }
 
   // cloudwatch_metrics_enabled - computed: true, optional: true, required: false
-  private _cloudwatchMetricsEnabled?: boolean | cdktn.IResolvable;
+  private _cloudwatchMetricsEnabled?: boolean | cdktn.IResolvable; 
   public get cloudwatchMetricsEnabled() {
     return this.getBooleanAttribute('cloudwatch_metrics_enabled');
   }
@@ -605,7 +605,7 @@ export class S3ObjectlambdaAccessPointObjectLambdaConfigurationOutputReference e
   }
 
   // supporting_access_point - computed: false, optional: false, required: true
-  private _supportingAccessPoint?: string;
+  private _supportingAccessPoint?: string; 
   public get supportingAccessPoint() {
     return this.getStringAttribute('supporting_access_point');
   }
@@ -834,7 +834,7 @@ export class S3ObjectlambdaAccessPoint extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }

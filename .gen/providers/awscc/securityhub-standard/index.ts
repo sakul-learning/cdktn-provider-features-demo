@@ -8,7 +8,7 @@ import * as cdktn from 'cdktn';
 
 export interface SecurityhubStandardConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Specifies which controls are to be disabled in a standard.
+  * Specifies which controls are to be disabled in a standard. 
   *  *Maximum*: ``100``
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_standard#disabled_standards_controls SecurityhubStandard#disabled_standards_controls}
@@ -123,7 +123,7 @@ export class SecurityhubStandardDisabledStandardsControlsOutputReference extends
   }
 
   // reason - computed: true, optional: true, required: false
-  private _reason?: string;
+  private _reason?: string; 
   public get reason() {
     return this.getStringAttribute('reason');
   }
@@ -139,7 +139,7 @@ export class SecurityhubStandardDisabledStandardsControlsOutputReference extends
   }
 
   // standards_control_arn - computed: true, optional: true, required: false
-  private _standardsControlArn?: string;
+  private _standardsControlArn?: string; 
   public get standardsControlArn() {
     return this.getStringAttribute('standards_control_arn');
   }
@@ -255,7 +255,7 @@ export class SecurityhubStandard extends cdktn.TerraformResource {
   }
 
   // standards_arn - computed: false, optional: false, required: true
-  private _standardsArn?: string;
+  private _standardsArn?: string; 
   public get standardsArn() {
     return this.getStringAttribute('standards_arn');
   }

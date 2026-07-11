@@ -140,7 +140,7 @@ export class LogsDestinationTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -156,7 +156,7 @@ export class LogsDestinationTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -259,7 +259,7 @@ export class LogsDestination extends cdktn.TerraformResource {
   }
 
   // destination_name - computed: false, optional: false, required: true
-  private _destinationName?: string;
+  private _destinationName?: string; 
   public get destinationName() {
     return this.getStringAttribute('destination_name');
   }
@@ -272,7 +272,7 @@ export class LogsDestination extends cdktn.TerraformResource {
   }
 
   // destination_policy - computed: true, optional: true, required: false
-  private _destinationPolicy?: string;
+  private _destinationPolicy?: string; 
   public get destinationPolicy() {
     return this.getStringAttribute('destination_policy');
   }
@@ -293,7 +293,7 @@ export class LogsDestination extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -322,7 +322,7 @@ export class LogsDestination extends cdktn.TerraformResource {
   }
 
   // target_arn - computed: false, optional: false, required: true
-  private _targetArn?: string;
+  private _targetArn?: string; 
   public get targetArn() {
     return this.getStringAttribute('target_arn');
   }

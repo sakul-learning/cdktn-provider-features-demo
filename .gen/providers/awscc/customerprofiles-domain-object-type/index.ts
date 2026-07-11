@@ -183,7 +183,7 @@ export class CustomerprofilesDomainObjectTypeFieldsOutputReference extends cdktn
   }
 
   // content_type - computed: true, optional: true, required: false
-  private _contentType?: string;
+  private _contentType?: string; 
   public get contentType() {
     return this.getStringAttribute('content_type');
   }
@@ -199,7 +199,7 @@ export class CustomerprofilesDomainObjectTypeFieldsOutputReference extends cdktn
   }
 
   // feature_type - computed: true, optional: true, required: false
-  private _featureType?: string;
+  private _featureType?: string; 
   public get featureType() {
     return this.getStringAttribute('feature_type');
   }
@@ -215,7 +215,7 @@ export class CustomerprofilesDomainObjectTypeFieldsOutputReference extends cdktn
   }
 
   // source - computed: true, optional: true, required: false
-  private _source?: string;
+  private _source?: string; 
   public get source() {
     return this.getStringAttribute('source');
   }
@@ -231,7 +231,7 @@ export class CustomerprofilesDomainObjectTypeFieldsOutputReference extends cdktn
   }
 
   // target - computed: true, optional: true, required: false
-  private _target?: string;
+  private _target?: string; 
   public get target() {
     return this.getStringAttribute('target');
   }
@@ -367,7 +367,7 @@ export class CustomerprofilesDomainObjectTypeTagsOutputReference extends cdktn.C
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -383,7 +383,7 @@ export class CustomerprofilesDomainObjectTypeTagsOutputReference extends cdktn.C
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -487,7 +487,7 @@ export class CustomerprofilesDomainObjectType extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -503,7 +503,7 @@ export class CustomerprofilesDomainObjectType extends cdktn.TerraformResource {
   }
 
   // domain_name - computed: false, optional: false, required: true
-  private _domainName?: string;
+  private _domainName?: string; 
   public get domainName() {
     return this.getStringAttribute('domain_name');
   }
@@ -516,7 +516,7 @@ export class CustomerprofilesDomainObjectType extends cdktn.TerraformResource {
   }
 
   // encryption_key - computed: true, optional: true, required: false
-  private _encryptionKey?: string;
+  private _encryptionKey?: string; 
   public get encryptionKey() {
     return this.getStringAttribute('encryption_key');
   }
@@ -555,7 +555,7 @@ export class CustomerprofilesDomainObjectType extends cdktn.TerraformResource {
   }
 
   // object_type_name - computed: false, optional: false, required: true
-  private _objectTypeName?: string;
+  private _objectTypeName?: string; 
   public get objectTypeName() {
     return this.getStringAttribute('object_type_name');
   }

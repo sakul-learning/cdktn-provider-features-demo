@@ -57,7 +57,7 @@ export interface MemorydbMultiRegionClusterConfig extends cdktn.TerraformMetaArg
   readonly tags?: MemorydbMultiRegionClusterTags[] | cdktn.IResolvable;
   /**
   * A flag that enables in-transit encryption when set to true.
-  *
+  * 
   * You cannot modify the value of TransitEncryptionEnabled after the cluster is created. To enable in-transit encryption on a cluster you must set TransitEncryptionEnabled to true when you create a cluster.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/memorydb_multi_region_cluster#tls_enabled MemorydbMultiRegionCluster#tls_enabled}
@@ -172,7 +172,7 @@ export class MemorydbMultiRegionClusterTagsOutputReference extends cdktn.Complex
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -188,7 +188,7 @@ export class MemorydbMultiRegionClusterTagsOutputReference extends cdktn.Complex
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -296,7 +296,7 @@ export class MemorydbMultiRegionCluster extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -312,7 +312,7 @@ export class MemorydbMultiRegionCluster extends cdktn.TerraformResource {
   }
 
   // engine - computed: true, optional: true, required: false
-  private _engine?: string;
+  private _engine?: string; 
   public get engine() {
     return this.getStringAttribute('engine');
   }
@@ -328,7 +328,7 @@ export class MemorydbMultiRegionCluster extends cdktn.TerraformResource {
   }
 
   // engine_version - computed: true, optional: true, required: false
-  private _engineVersion?: string;
+  private _engineVersion?: string; 
   public get engineVersion() {
     return this.getStringAttribute('engine_version');
   }
@@ -354,7 +354,7 @@ export class MemorydbMultiRegionCluster extends cdktn.TerraformResource {
   }
 
   // multi_region_cluster_name_suffix - computed: true, optional: true, required: false
-  private _multiRegionClusterNameSuffix?: string;
+  private _multiRegionClusterNameSuffix?: string; 
   public get multiRegionClusterNameSuffix() {
     return this.getStringAttribute('multi_region_cluster_name_suffix');
   }
@@ -370,7 +370,7 @@ export class MemorydbMultiRegionCluster extends cdktn.TerraformResource {
   }
 
   // multi_region_parameter_group_name - computed: true, optional: true, required: false
-  private _multiRegionParameterGroupName?: string;
+  private _multiRegionParameterGroupName?: string; 
   public get multiRegionParameterGroupName() {
     return this.getStringAttribute('multi_region_parameter_group_name');
   }
@@ -386,7 +386,7 @@ export class MemorydbMultiRegionCluster extends cdktn.TerraformResource {
   }
 
   // node_type - computed: false, optional: false, required: true
-  private _nodeType?: string;
+  private _nodeType?: string; 
   public get nodeType() {
     return this.getStringAttribute('node_type');
   }
@@ -399,7 +399,7 @@ export class MemorydbMultiRegionCluster extends cdktn.TerraformResource {
   }
 
   // num_shards - computed: true, optional: true, required: false
-  private _numShards?: number;
+  private _numShards?: number; 
   public get numShards() {
     return this.getNumberAttribute('num_shards');
   }
@@ -436,7 +436,7 @@ export class MemorydbMultiRegionCluster extends cdktn.TerraformResource {
   }
 
   // tls_enabled - computed: true, optional: true, required: false
-  private _tlsEnabled?: boolean | cdktn.IResolvable;
+  private _tlsEnabled?: boolean | cdktn.IResolvable; 
   public get tlsEnabled() {
     return this.getBooleanAttribute('tls_enabled');
   }
@@ -452,7 +452,7 @@ export class MemorydbMultiRegionCluster extends cdktn.TerraformResource {
   }
 
   // update_strategy - computed: true, optional: true, required: false
-  private _updateStrategy?: string;
+  private _updateStrategy?: string; 
   public get updateStrategy() {
     return this.getStringAttribute('update_strategy');
   }

@@ -156,7 +156,7 @@ export class AthenaPreparedStatementTimeoutsOutputReference extends cdktn.Comple
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -172,7 +172,7 @@ export class AthenaPreparedStatementTimeoutsOutputReference extends cdktn.Comple
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -188,7 +188,7 @@ export class AthenaPreparedStatementTimeoutsOutputReference extends cdktn.Comple
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -268,7 +268,7 @@ export class AthenaPreparedStatement extends cdktn.TerraformResource {
   // ==========
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -284,7 +284,7 @@ export class AthenaPreparedStatement extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -300,7 +300,7 @@ export class AthenaPreparedStatement extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -313,7 +313,7 @@ export class AthenaPreparedStatement extends cdktn.TerraformResource {
   }
 
   // query_statement - computed: false, optional: false, required: true
-  private _queryStatement?: string;
+  private _queryStatement?: string; 
   public get queryStatement() {
     return this.getStringAttribute('query_statement');
   }
@@ -326,7 +326,7 @@ export class AthenaPreparedStatement extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -342,7 +342,7 @@ export class AthenaPreparedStatement extends cdktn.TerraformResource {
   }
 
   // workgroup - computed: false, optional: false, required: true
-  private _workgroup?: string;
+  private _workgroup?: string; 
   public get workgroup() {
     return this.getStringAttribute('workgroup');
   }

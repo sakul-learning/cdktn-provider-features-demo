@@ -172,7 +172,7 @@ export class BudgetsBudgetAutoAdjustDataHistoricalOptionsOutputReference extends
   }
 
   // budget_adjustment_period - computed: false, optional: false, required: true
-  private _budgetAdjustmentPeriod?: number;
+  private _budgetAdjustmentPeriod?: number; 
   public get budgetAdjustmentPeriod() {
     return this.getNumberAttribute('budget_adjustment_period');
   }
@@ -277,7 +277,7 @@ export class BudgetsBudgetAutoAdjustDataOutputReference extends cdktn.ComplexObj
   }
 
   // auto_adjust_type - computed: false, optional: false, required: true
-  private _autoAdjustType?: string;
+  private _autoAdjustType?: string; 
   public get autoAdjustType() {
     return this.getStringAttribute('auto_adjust_type');
   }
@@ -408,7 +408,7 @@ export class BudgetsBudgetCostFilterOutputReference extends cdktn.ComplexObject 
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -421,7 +421,7 @@ export class BudgetsBudgetCostFilterOutputReference extends cdktn.ComplexObject 
   }
 
   // values - computed: false, optional: false, required: true
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -692,7 +692,7 @@ export class BudgetsBudgetCostTypesOutputReference extends cdktn.ComplexObject {
   }
 
   // include_credit - computed: false, optional: true, required: false
-  private _includeCredit?: boolean | cdktn.IResolvable;
+  private _includeCredit?: boolean | cdktn.IResolvable; 
   public get includeCredit() {
     return this.getBooleanAttribute('include_credit');
   }
@@ -708,7 +708,7 @@ export class BudgetsBudgetCostTypesOutputReference extends cdktn.ComplexObject {
   }
 
   // include_discount - computed: false, optional: true, required: false
-  private _includeDiscount?: boolean | cdktn.IResolvable;
+  private _includeDiscount?: boolean | cdktn.IResolvable; 
   public get includeDiscount() {
     return this.getBooleanAttribute('include_discount');
   }
@@ -724,7 +724,7 @@ export class BudgetsBudgetCostTypesOutputReference extends cdktn.ComplexObject {
   }
 
   // include_other_subscription - computed: false, optional: true, required: false
-  private _includeOtherSubscription?: boolean | cdktn.IResolvable;
+  private _includeOtherSubscription?: boolean | cdktn.IResolvable; 
   public get includeOtherSubscription() {
     return this.getBooleanAttribute('include_other_subscription');
   }
@@ -740,7 +740,7 @@ export class BudgetsBudgetCostTypesOutputReference extends cdktn.ComplexObject {
   }
 
   // include_recurring - computed: false, optional: true, required: false
-  private _includeRecurring?: boolean | cdktn.IResolvable;
+  private _includeRecurring?: boolean | cdktn.IResolvable; 
   public get includeRecurring() {
     return this.getBooleanAttribute('include_recurring');
   }
@@ -756,7 +756,7 @@ export class BudgetsBudgetCostTypesOutputReference extends cdktn.ComplexObject {
   }
 
   // include_refund - computed: false, optional: true, required: false
-  private _includeRefund?: boolean | cdktn.IResolvable;
+  private _includeRefund?: boolean | cdktn.IResolvable; 
   public get includeRefund() {
     return this.getBooleanAttribute('include_refund');
   }
@@ -772,7 +772,7 @@ export class BudgetsBudgetCostTypesOutputReference extends cdktn.ComplexObject {
   }
 
   // include_subscription - computed: false, optional: true, required: false
-  private _includeSubscription?: boolean | cdktn.IResolvable;
+  private _includeSubscription?: boolean | cdktn.IResolvable; 
   public get includeSubscription() {
     return this.getBooleanAttribute('include_subscription');
   }
@@ -788,7 +788,7 @@ export class BudgetsBudgetCostTypesOutputReference extends cdktn.ComplexObject {
   }
 
   // include_support - computed: false, optional: true, required: false
-  private _includeSupport?: boolean | cdktn.IResolvable;
+  private _includeSupport?: boolean | cdktn.IResolvable; 
   public get includeSupport() {
     return this.getBooleanAttribute('include_support');
   }
@@ -804,7 +804,7 @@ export class BudgetsBudgetCostTypesOutputReference extends cdktn.ComplexObject {
   }
 
   // include_tax - computed: false, optional: true, required: false
-  private _includeTax?: boolean | cdktn.IResolvable;
+  private _includeTax?: boolean | cdktn.IResolvable; 
   public get includeTax() {
     return this.getBooleanAttribute('include_tax');
   }
@@ -820,7 +820,7 @@ export class BudgetsBudgetCostTypesOutputReference extends cdktn.ComplexObject {
   }
 
   // include_upfront - computed: false, optional: true, required: false
-  private _includeUpfront?: boolean | cdktn.IResolvable;
+  private _includeUpfront?: boolean | cdktn.IResolvable; 
   public get includeUpfront() {
     return this.getBooleanAttribute('include_upfront');
   }
@@ -836,7 +836,7 @@ export class BudgetsBudgetCostTypesOutputReference extends cdktn.ComplexObject {
   }
 
   // use_amortized - computed: false, optional: true, required: false
-  private _useAmortized?: boolean | cdktn.IResolvable;
+  private _useAmortized?: boolean | cdktn.IResolvable; 
   public get useAmortized() {
     return this.getBooleanAttribute('use_amortized');
   }
@@ -852,7 +852,7 @@ export class BudgetsBudgetCostTypesOutputReference extends cdktn.ComplexObject {
   }
 
   // use_blended - computed: false, optional: true, required: false
-  private _useBlended?: boolean | cdktn.IResolvable;
+  private _useBlended?: boolean | cdktn.IResolvable; 
   public get useBlended() {
     return this.getBooleanAttribute('use_blended');
   }
@@ -970,7 +970,7 @@ export class BudgetsBudgetFilterExpressionAndAndCostCategoriesOutputReference ex
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -986,7 +986,7 @@ export class BudgetsBudgetFilterExpressionAndAndCostCategoriesOutputReference ex
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[];
+  private _matchOptions?: string[]; 
   public get matchOptions() {
     return this.getListAttribute('match_options');
   }
@@ -1002,7 +1002,7 @@ export class BudgetsBudgetFilterExpressionAndAndCostCategoriesOutputReference ex
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -1120,7 +1120,7 @@ export class BudgetsBudgetFilterExpressionAndAndDimensionsOutputReference extend
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1133,7 +1133,7 @@ export class BudgetsBudgetFilterExpressionAndAndDimensionsOutputReference extend
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[];
+  private _matchOptions?: string[]; 
   public get matchOptions() {
     return this.getListAttribute('match_options');
   }
@@ -1149,7 +1149,7 @@ export class BudgetsBudgetFilterExpressionAndAndDimensionsOutputReference extend
   }
 
   // values - computed: false, optional: false, required: true
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -1264,7 +1264,7 @@ export class BudgetsBudgetFilterExpressionAndAndTagsOutputReference extends cdkt
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1280,7 +1280,7 @@ export class BudgetsBudgetFilterExpressionAndAndTagsOutputReference extends cdkt
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[];
+  private _matchOptions?: string[]; 
   public get matchOptions() {
     return this.getListAttribute('match_options');
   }
@@ -1296,7 +1296,7 @@ export class BudgetsBudgetFilterExpressionAndAndTagsOutputReference extends cdkt
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -1602,7 +1602,7 @@ export class BudgetsBudgetFilterExpressionAndCostCategoriesOutputReference exten
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1618,7 +1618,7 @@ export class BudgetsBudgetFilterExpressionAndCostCategoriesOutputReference exten
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[];
+  private _matchOptions?: string[]; 
   public get matchOptions() {
     return this.getListAttribute('match_options');
   }
@@ -1634,7 +1634,7 @@ export class BudgetsBudgetFilterExpressionAndCostCategoriesOutputReference exten
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -1752,7 +1752,7 @@ export class BudgetsBudgetFilterExpressionAndDimensionsOutputReference extends c
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1765,7 +1765,7 @@ export class BudgetsBudgetFilterExpressionAndDimensionsOutputReference extends c
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[];
+  private _matchOptions?: string[]; 
   public get matchOptions() {
     return this.getListAttribute('match_options');
   }
@@ -1781,7 +1781,7 @@ export class BudgetsBudgetFilterExpressionAndDimensionsOutputReference extends c
   }
 
   // values - computed: false, optional: false, required: true
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -1896,7 +1896,7 @@ export class BudgetsBudgetFilterExpressionAndNotCostCategoriesOutputReference ex
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1912,7 +1912,7 @@ export class BudgetsBudgetFilterExpressionAndNotCostCategoriesOutputReference ex
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[];
+  private _matchOptions?: string[]; 
   public get matchOptions() {
     return this.getListAttribute('match_options');
   }
@@ -1928,7 +1928,7 @@ export class BudgetsBudgetFilterExpressionAndNotCostCategoriesOutputReference ex
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -2046,7 +2046,7 @@ export class BudgetsBudgetFilterExpressionAndNotDimensionsOutputReference extend
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -2059,7 +2059,7 @@ export class BudgetsBudgetFilterExpressionAndNotDimensionsOutputReference extend
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[];
+  private _matchOptions?: string[]; 
   public get matchOptions() {
     return this.getListAttribute('match_options');
   }
@@ -2075,7 +2075,7 @@ export class BudgetsBudgetFilterExpressionAndNotDimensionsOutputReference extend
   }
 
   // values - computed: false, optional: false, required: true
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -2190,7 +2190,7 @@ export class BudgetsBudgetFilterExpressionAndNotTagsOutputReference extends cdkt
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -2206,7 +2206,7 @@ export class BudgetsBudgetFilterExpressionAndNotTagsOutputReference extends cdkt
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[];
+  private _matchOptions?: string[]; 
   public get matchOptions() {
     return this.getListAttribute('match_options');
   }
@@ -2222,7 +2222,7 @@ export class BudgetsBudgetFilterExpressionAndNotTagsOutputReference extends cdkt
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -2496,7 +2496,7 @@ export class BudgetsBudgetFilterExpressionAndOrCostCategoriesOutputReference ext
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -2512,7 +2512,7 @@ export class BudgetsBudgetFilterExpressionAndOrCostCategoriesOutputReference ext
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[];
+  private _matchOptions?: string[]; 
   public get matchOptions() {
     return this.getListAttribute('match_options');
   }
@@ -2528,7 +2528,7 @@ export class BudgetsBudgetFilterExpressionAndOrCostCategoriesOutputReference ext
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -2646,7 +2646,7 @@ export class BudgetsBudgetFilterExpressionAndOrDimensionsOutputReference extends
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -2659,7 +2659,7 @@ export class BudgetsBudgetFilterExpressionAndOrDimensionsOutputReference extends
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[];
+  private _matchOptions?: string[]; 
   public get matchOptions() {
     return this.getListAttribute('match_options');
   }
@@ -2675,7 +2675,7 @@ export class BudgetsBudgetFilterExpressionAndOrDimensionsOutputReference extends
   }
 
   // values - computed: false, optional: false, required: true
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -2790,7 +2790,7 @@ export class BudgetsBudgetFilterExpressionAndOrTagsOutputReference extends cdktn
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -2806,7 +2806,7 @@ export class BudgetsBudgetFilterExpressionAndOrTagsOutputReference extends cdktn
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[];
+  private _matchOptions?: string[]; 
   public get matchOptions() {
     return this.getListAttribute('match_options');
   }
@@ -2822,7 +2822,7 @@ export class BudgetsBudgetFilterExpressionAndOrTagsOutputReference extends cdktn
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -3128,7 +3128,7 @@ export class BudgetsBudgetFilterExpressionAndTagsOutputReference extends cdktn.C
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -3144,7 +3144,7 @@ export class BudgetsBudgetFilterExpressionAndTagsOutputReference extends cdktn.C
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[];
+  private _matchOptions?: string[]; 
   public get matchOptions() {
     return this.getListAttribute('match_options');
   }
@@ -3160,7 +3160,7 @@ export class BudgetsBudgetFilterExpressionAndTagsOutputReference extends cdktn.C
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -3571,7 +3571,7 @@ export class BudgetsBudgetFilterExpressionCostCategoriesOutputReference extends 
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -3587,7 +3587,7 @@ export class BudgetsBudgetFilterExpressionCostCategoriesOutputReference extends 
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[];
+  private _matchOptions?: string[]; 
   public get matchOptions() {
     return this.getListAttribute('match_options');
   }
@@ -3603,7 +3603,7 @@ export class BudgetsBudgetFilterExpressionCostCategoriesOutputReference extends 
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -3721,7 +3721,7 @@ export class BudgetsBudgetFilterExpressionDimensionsOutputReference extends cdkt
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -3734,7 +3734,7 @@ export class BudgetsBudgetFilterExpressionDimensionsOutputReference extends cdkt
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[];
+  private _matchOptions?: string[]; 
   public get matchOptions() {
     return this.getListAttribute('match_options');
   }
@@ -3750,7 +3750,7 @@ export class BudgetsBudgetFilterExpressionDimensionsOutputReference extends cdkt
   }
 
   // values - computed: false, optional: false, required: true
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -3865,7 +3865,7 @@ export class BudgetsBudgetFilterExpressionNotAndCostCategoriesOutputReference ex
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -3881,7 +3881,7 @@ export class BudgetsBudgetFilterExpressionNotAndCostCategoriesOutputReference ex
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[];
+  private _matchOptions?: string[]; 
   public get matchOptions() {
     return this.getListAttribute('match_options');
   }
@@ -3897,7 +3897,7 @@ export class BudgetsBudgetFilterExpressionNotAndCostCategoriesOutputReference ex
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -4015,7 +4015,7 @@ export class BudgetsBudgetFilterExpressionNotAndDimensionsOutputReference extend
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -4028,7 +4028,7 @@ export class BudgetsBudgetFilterExpressionNotAndDimensionsOutputReference extend
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[];
+  private _matchOptions?: string[]; 
   public get matchOptions() {
     return this.getListAttribute('match_options');
   }
@@ -4044,7 +4044,7 @@ export class BudgetsBudgetFilterExpressionNotAndDimensionsOutputReference extend
   }
 
   // values - computed: false, optional: false, required: true
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -4159,7 +4159,7 @@ export class BudgetsBudgetFilterExpressionNotAndTagsOutputReference extends cdkt
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -4175,7 +4175,7 @@ export class BudgetsBudgetFilterExpressionNotAndTagsOutputReference extends cdkt
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[];
+  private _matchOptions?: string[]; 
   public get matchOptions() {
     return this.getListAttribute('match_options');
   }
@@ -4191,7 +4191,7 @@ export class BudgetsBudgetFilterExpressionNotAndTagsOutputReference extends cdkt
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -4497,7 +4497,7 @@ export class BudgetsBudgetFilterExpressionNotCostCategoriesOutputReference exten
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -4513,7 +4513,7 @@ export class BudgetsBudgetFilterExpressionNotCostCategoriesOutputReference exten
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[];
+  private _matchOptions?: string[]; 
   public get matchOptions() {
     return this.getListAttribute('match_options');
   }
@@ -4529,7 +4529,7 @@ export class BudgetsBudgetFilterExpressionNotCostCategoriesOutputReference exten
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -4647,7 +4647,7 @@ export class BudgetsBudgetFilterExpressionNotDimensionsOutputReference extends c
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -4660,7 +4660,7 @@ export class BudgetsBudgetFilterExpressionNotDimensionsOutputReference extends c
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[];
+  private _matchOptions?: string[]; 
   public get matchOptions() {
     return this.getListAttribute('match_options');
   }
@@ -4676,7 +4676,7 @@ export class BudgetsBudgetFilterExpressionNotDimensionsOutputReference extends c
   }
 
   // values - computed: false, optional: false, required: true
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -4791,7 +4791,7 @@ export class BudgetsBudgetFilterExpressionNotNotCostCategoriesOutputReference ex
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -4807,7 +4807,7 @@ export class BudgetsBudgetFilterExpressionNotNotCostCategoriesOutputReference ex
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[];
+  private _matchOptions?: string[]; 
   public get matchOptions() {
     return this.getListAttribute('match_options');
   }
@@ -4823,7 +4823,7 @@ export class BudgetsBudgetFilterExpressionNotNotCostCategoriesOutputReference ex
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -4941,7 +4941,7 @@ export class BudgetsBudgetFilterExpressionNotNotDimensionsOutputReference extend
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -4954,7 +4954,7 @@ export class BudgetsBudgetFilterExpressionNotNotDimensionsOutputReference extend
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[];
+  private _matchOptions?: string[]; 
   public get matchOptions() {
     return this.getListAttribute('match_options');
   }
@@ -4970,7 +4970,7 @@ export class BudgetsBudgetFilterExpressionNotNotDimensionsOutputReference extend
   }
 
   // values - computed: false, optional: false, required: true
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -5085,7 +5085,7 @@ export class BudgetsBudgetFilterExpressionNotNotTagsOutputReference extends cdkt
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -5101,7 +5101,7 @@ export class BudgetsBudgetFilterExpressionNotNotTagsOutputReference extends cdkt
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[];
+  private _matchOptions?: string[]; 
   public get matchOptions() {
     return this.getListAttribute('match_options');
   }
@@ -5117,7 +5117,7 @@ export class BudgetsBudgetFilterExpressionNotNotTagsOutputReference extends cdkt
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -5391,7 +5391,7 @@ export class BudgetsBudgetFilterExpressionNotOrCostCategoriesOutputReference ext
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -5407,7 +5407,7 @@ export class BudgetsBudgetFilterExpressionNotOrCostCategoriesOutputReference ext
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[];
+  private _matchOptions?: string[]; 
   public get matchOptions() {
     return this.getListAttribute('match_options');
   }
@@ -5423,7 +5423,7 @@ export class BudgetsBudgetFilterExpressionNotOrCostCategoriesOutputReference ext
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -5541,7 +5541,7 @@ export class BudgetsBudgetFilterExpressionNotOrDimensionsOutputReference extends
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -5554,7 +5554,7 @@ export class BudgetsBudgetFilterExpressionNotOrDimensionsOutputReference extends
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[];
+  private _matchOptions?: string[]; 
   public get matchOptions() {
     return this.getListAttribute('match_options');
   }
@@ -5570,7 +5570,7 @@ export class BudgetsBudgetFilterExpressionNotOrDimensionsOutputReference extends
   }
 
   // values - computed: false, optional: false, required: true
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -5685,7 +5685,7 @@ export class BudgetsBudgetFilterExpressionNotOrTagsOutputReference extends cdktn
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -5701,7 +5701,7 @@ export class BudgetsBudgetFilterExpressionNotOrTagsOutputReference extends cdktn
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[];
+  private _matchOptions?: string[]; 
   public get matchOptions() {
     return this.getListAttribute('match_options');
   }
@@ -5717,7 +5717,7 @@ export class BudgetsBudgetFilterExpressionNotOrTagsOutputReference extends cdktn
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -6023,7 +6023,7 @@ export class BudgetsBudgetFilterExpressionNotTagsOutputReference extends cdktn.C
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -6039,7 +6039,7 @@ export class BudgetsBudgetFilterExpressionNotTagsOutputReference extends cdktn.C
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[];
+  private _matchOptions?: string[]; 
   public get matchOptions() {
     return this.getListAttribute('match_options');
   }
@@ -6055,7 +6055,7 @@ export class BudgetsBudgetFilterExpressionNotTagsOutputReference extends cdktn.C
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -6434,7 +6434,7 @@ export class BudgetsBudgetFilterExpressionOrAndCostCategoriesOutputReference ext
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -6450,7 +6450,7 @@ export class BudgetsBudgetFilterExpressionOrAndCostCategoriesOutputReference ext
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[];
+  private _matchOptions?: string[]; 
   public get matchOptions() {
     return this.getListAttribute('match_options');
   }
@@ -6466,7 +6466,7 @@ export class BudgetsBudgetFilterExpressionOrAndCostCategoriesOutputReference ext
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -6584,7 +6584,7 @@ export class BudgetsBudgetFilterExpressionOrAndDimensionsOutputReference extends
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -6597,7 +6597,7 @@ export class BudgetsBudgetFilterExpressionOrAndDimensionsOutputReference extends
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[];
+  private _matchOptions?: string[]; 
   public get matchOptions() {
     return this.getListAttribute('match_options');
   }
@@ -6613,7 +6613,7 @@ export class BudgetsBudgetFilterExpressionOrAndDimensionsOutputReference extends
   }
 
   // values - computed: false, optional: false, required: true
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -6728,7 +6728,7 @@ export class BudgetsBudgetFilterExpressionOrAndTagsOutputReference extends cdktn
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -6744,7 +6744,7 @@ export class BudgetsBudgetFilterExpressionOrAndTagsOutputReference extends cdktn
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[];
+  private _matchOptions?: string[]; 
   public get matchOptions() {
     return this.getListAttribute('match_options');
   }
@@ -6760,7 +6760,7 @@ export class BudgetsBudgetFilterExpressionOrAndTagsOutputReference extends cdktn
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -7066,7 +7066,7 @@ export class BudgetsBudgetFilterExpressionOrCostCategoriesOutputReference extend
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -7082,7 +7082,7 @@ export class BudgetsBudgetFilterExpressionOrCostCategoriesOutputReference extend
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[];
+  private _matchOptions?: string[]; 
   public get matchOptions() {
     return this.getListAttribute('match_options');
   }
@@ -7098,7 +7098,7 @@ export class BudgetsBudgetFilterExpressionOrCostCategoriesOutputReference extend
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -7216,7 +7216,7 @@ export class BudgetsBudgetFilterExpressionOrDimensionsOutputReference extends cd
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -7229,7 +7229,7 @@ export class BudgetsBudgetFilterExpressionOrDimensionsOutputReference extends cd
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[];
+  private _matchOptions?: string[]; 
   public get matchOptions() {
     return this.getListAttribute('match_options');
   }
@@ -7245,7 +7245,7 @@ export class BudgetsBudgetFilterExpressionOrDimensionsOutputReference extends cd
   }
 
   // values - computed: false, optional: false, required: true
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -7360,7 +7360,7 @@ export class BudgetsBudgetFilterExpressionOrNotCostCategoriesOutputReference ext
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -7376,7 +7376,7 @@ export class BudgetsBudgetFilterExpressionOrNotCostCategoriesOutputReference ext
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[];
+  private _matchOptions?: string[]; 
   public get matchOptions() {
     return this.getListAttribute('match_options');
   }
@@ -7392,7 +7392,7 @@ export class BudgetsBudgetFilterExpressionOrNotCostCategoriesOutputReference ext
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -7510,7 +7510,7 @@ export class BudgetsBudgetFilterExpressionOrNotDimensionsOutputReference extends
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -7523,7 +7523,7 @@ export class BudgetsBudgetFilterExpressionOrNotDimensionsOutputReference extends
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[];
+  private _matchOptions?: string[]; 
   public get matchOptions() {
     return this.getListAttribute('match_options');
   }
@@ -7539,7 +7539,7 @@ export class BudgetsBudgetFilterExpressionOrNotDimensionsOutputReference extends
   }
 
   // values - computed: false, optional: false, required: true
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -7654,7 +7654,7 @@ export class BudgetsBudgetFilterExpressionOrNotTagsOutputReference extends cdktn
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -7670,7 +7670,7 @@ export class BudgetsBudgetFilterExpressionOrNotTagsOutputReference extends cdktn
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[];
+  private _matchOptions?: string[]; 
   public get matchOptions() {
     return this.getListAttribute('match_options');
   }
@@ -7686,7 +7686,7 @@ export class BudgetsBudgetFilterExpressionOrNotTagsOutputReference extends cdktn
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -7960,7 +7960,7 @@ export class BudgetsBudgetFilterExpressionOrOrCostCategoriesOutputReference exte
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -7976,7 +7976,7 @@ export class BudgetsBudgetFilterExpressionOrOrCostCategoriesOutputReference exte
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[];
+  private _matchOptions?: string[]; 
   public get matchOptions() {
     return this.getListAttribute('match_options');
   }
@@ -7992,7 +7992,7 @@ export class BudgetsBudgetFilterExpressionOrOrCostCategoriesOutputReference exte
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -8110,7 +8110,7 @@ export class BudgetsBudgetFilterExpressionOrOrDimensionsOutputReference extends 
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -8123,7 +8123,7 @@ export class BudgetsBudgetFilterExpressionOrOrDimensionsOutputReference extends 
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[];
+  private _matchOptions?: string[]; 
   public get matchOptions() {
     return this.getListAttribute('match_options');
   }
@@ -8139,7 +8139,7 @@ export class BudgetsBudgetFilterExpressionOrOrDimensionsOutputReference extends 
   }
 
   // values - computed: false, optional: false, required: true
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -8254,7 +8254,7 @@ export class BudgetsBudgetFilterExpressionOrOrTagsOutputReference extends cdktn.
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -8270,7 +8270,7 @@ export class BudgetsBudgetFilterExpressionOrOrTagsOutputReference extends cdktn.
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[];
+  private _matchOptions?: string[]; 
   public get matchOptions() {
     return this.getListAttribute('match_options');
   }
@@ -8286,7 +8286,7 @@ export class BudgetsBudgetFilterExpressionOrOrTagsOutputReference extends cdktn.
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -8592,7 +8592,7 @@ export class BudgetsBudgetFilterExpressionOrTagsOutputReference extends cdktn.Co
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -8608,7 +8608,7 @@ export class BudgetsBudgetFilterExpressionOrTagsOutputReference extends cdktn.Co
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[];
+  private _matchOptions?: string[]; 
   public get matchOptions() {
     return this.getListAttribute('match_options');
   }
@@ -8624,7 +8624,7 @@ export class BudgetsBudgetFilterExpressionOrTagsOutputReference extends cdktn.Co
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -9035,7 +9035,7 @@ export class BudgetsBudgetFilterExpressionTagsOutputReference extends cdktn.Comp
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -9051,7 +9051,7 @@ export class BudgetsBudgetFilterExpressionTagsOutputReference extends cdktn.Comp
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[];
+  private _matchOptions?: string[]; 
   public get matchOptions() {
     return this.getListAttribute('match_options');
   }
@@ -9067,7 +9067,7 @@ export class BudgetsBudgetFilterExpressionTagsOutputReference extends cdktn.Comp
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -9509,7 +9509,7 @@ export class BudgetsBudgetNotificationOutputReference extends cdktn.ComplexObjec
   }
 
   // comparison_operator - computed: false, optional: false, required: true
-  private _comparisonOperator?: string;
+  private _comparisonOperator?: string; 
   public get comparisonOperator() {
     return this.getStringAttribute('comparison_operator');
   }
@@ -9522,7 +9522,7 @@ export class BudgetsBudgetNotificationOutputReference extends cdktn.ComplexObjec
   }
 
   // notification_type - computed: false, optional: false, required: true
-  private _notificationType?: string;
+  private _notificationType?: string; 
   public get notificationType() {
     return this.getStringAttribute('notification_type');
   }
@@ -9535,7 +9535,7 @@ export class BudgetsBudgetNotificationOutputReference extends cdktn.ComplexObjec
   }
 
   // subscriber_email_addresses - computed: false, optional: true, required: false
-  private _subscriberEmailAddresses?: string[];
+  private _subscriberEmailAddresses?: string[]; 
   public get subscriberEmailAddresses() {
     return cdktn.Fn.tolist(this.getListAttribute('subscriber_email_addresses'));
   }
@@ -9551,7 +9551,7 @@ export class BudgetsBudgetNotificationOutputReference extends cdktn.ComplexObjec
   }
 
   // subscriber_sns_topic_arns - computed: false, optional: true, required: false
-  private _subscriberSnsTopicArns?: string[];
+  private _subscriberSnsTopicArns?: string[]; 
   public get subscriberSnsTopicArns() {
     return cdktn.Fn.tolist(this.getListAttribute('subscriber_sns_topic_arns'));
   }
@@ -9567,7 +9567,7 @@ export class BudgetsBudgetNotificationOutputReference extends cdktn.ComplexObjec
   }
 
   // threshold - computed: false, optional: false, required: true
-  private _threshold?: number;
+  private _threshold?: number; 
   public get threshold() {
     return this.getNumberAttribute('threshold');
   }
@@ -9580,7 +9580,7 @@ export class BudgetsBudgetNotificationOutputReference extends cdktn.ComplexObjec
   }
 
   // threshold_type - computed: false, optional: false, required: true
-  private _thresholdType?: string;
+  private _thresholdType?: string; 
   public get thresholdType() {
     return this.getStringAttribute('threshold_type');
   }
@@ -9727,7 +9727,7 @@ export class BudgetsBudgetPlannedLimitOutputReference extends cdktn.ComplexObjec
   }
 
   // amount - computed: false, optional: false, required: true
-  private _amount?: string;
+  private _amount?: string; 
   public get amount() {
     return this.getStringAttribute('amount');
   }
@@ -9740,7 +9740,7 @@ export class BudgetsBudgetPlannedLimitOutputReference extends cdktn.ComplexObjec
   }
 
   // start_time - computed: false, optional: false, required: true
-  private _startTime?: string;
+  private _startTime?: string; 
   public get startTime() {
     return this.getStringAttribute('start_time');
   }
@@ -9753,7 +9753,7 @@ export class BudgetsBudgetPlannedLimitOutputReference extends cdktn.ComplexObjec
   }
 
   // unit - computed: false, optional: false, required: true
-  private _unit?: string;
+  private _unit?: string; 
   public get unit() {
     return this.getStringAttribute('unit');
   }
@@ -9863,7 +9863,7 @@ export class BudgetsBudget extends cdktn.TerraformResource {
   // ==========
 
   // account_id - computed: true, optional: true, required: false
-  private _accountId?: string;
+  private _accountId?: string; 
   public get accountId() {
     return this.getStringAttribute('account_id');
   }
@@ -9884,7 +9884,7 @@ export class BudgetsBudget extends cdktn.TerraformResource {
   }
 
   // billing_view_arn - computed: false, optional: true, required: false
-  private _billingViewArn?: string;
+  private _billingViewArn?: string; 
   public get billingViewArn() {
     return this.getStringAttribute('billing_view_arn');
   }
@@ -9900,7 +9900,7 @@ export class BudgetsBudget extends cdktn.TerraformResource {
   }
 
   // budget_type - computed: false, optional: false, required: true
-  private _budgetType?: string;
+  private _budgetType?: string; 
   public get budgetType() {
     return this.getStringAttribute('budget_type');
   }
@@ -9913,7 +9913,7 @@ export class BudgetsBudget extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -9929,7 +9929,7 @@ export class BudgetsBudget extends cdktn.TerraformResource {
   }
 
   // limit_amount - computed: true, optional: true, required: false
-  private _limitAmount?: string;
+  private _limitAmount?: string; 
   public get limitAmount() {
     return this.getStringAttribute('limit_amount');
   }
@@ -9945,7 +9945,7 @@ export class BudgetsBudget extends cdktn.TerraformResource {
   }
 
   // limit_unit - computed: true, optional: true, required: false
-  private _limitUnit?: string;
+  private _limitUnit?: string; 
   public get limitUnit() {
     return this.getStringAttribute('limit_unit');
   }
@@ -9961,7 +9961,7 @@ export class BudgetsBudget extends cdktn.TerraformResource {
   }
 
   // metrics - computed: false, optional: true, required: false
-  private _metrics?: string[];
+  private _metrics?: string[]; 
   public get metrics() {
     return this.getListAttribute('metrics');
   }
@@ -9977,7 +9977,7 @@ export class BudgetsBudget extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -9993,7 +9993,7 @@ export class BudgetsBudget extends cdktn.TerraformResource {
   }
 
   // name_prefix - computed: true, optional: true, required: false
-  private _namePrefix?: string;
+  private _namePrefix?: string; 
   public get namePrefix() {
     return this.getStringAttribute('name_prefix');
   }
@@ -10009,7 +10009,7 @@ export class BudgetsBudget extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -10025,7 +10025,7 @@ export class BudgetsBudget extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -10041,7 +10041,7 @@ export class BudgetsBudget extends cdktn.TerraformResource {
   }
 
   // time_period_end - computed: false, optional: true, required: false
-  private _timePeriodEnd?: string;
+  private _timePeriodEnd?: string; 
   public get timePeriodEnd() {
     return this.getStringAttribute('time_period_end');
   }
@@ -10057,7 +10057,7 @@ export class BudgetsBudget extends cdktn.TerraformResource {
   }
 
   // time_period_start - computed: true, optional: true, required: false
-  private _timePeriodStart?: string;
+  private _timePeriodStart?: string; 
   public get timePeriodStart() {
     return this.getStringAttribute('time_period_start');
   }
@@ -10073,7 +10073,7 @@ export class BudgetsBudget extends cdktn.TerraformResource {
   }
 
   // time_unit - computed: false, optional: false, required: true
-  private _timeUnit?: string;
+  private _timeUnit?: string; 
   public get timeUnit() {
     return this.getStringAttribute('time_unit');
   }

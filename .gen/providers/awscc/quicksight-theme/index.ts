@@ -163,7 +163,7 @@ export class QuicksightThemeConfigurationDataColorPaletteOutputReference extends
   }
 
   // colors - computed: true, optional: true, required: false
-  private _colors?: string[];
+  private _colors?: string[]; 
   public get colors() {
     return this.getListAttribute('colors');
   }
@@ -179,7 +179,7 @@ export class QuicksightThemeConfigurationDataColorPaletteOutputReference extends
   }
 
   // empty_fill_color - computed: true, optional: true, required: false
-  private _emptyFillColor?: string;
+  private _emptyFillColor?: string; 
   public get emptyFillColor() {
     return this.getStringAttribute('empty_fill_color');
   }
@@ -195,7 +195,7 @@ export class QuicksightThemeConfigurationDataColorPaletteOutputReference extends
   }
 
   // min_max_gradient - computed: true, optional: true, required: false
-  private _minMaxGradient?: string[];
+  private _minMaxGradient?: string[]; 
   public get minMaxGradient() {
     return this.getListAttribute('min_max_gradient');
   }
@@ -291,7 +291,7 @@ export class QuicksightThemeConfigurationSheetTileBorderOutputReference extends 
   }
 
   // show - computed: true, optional: true, required: false
-  private _show?: boolean | cdktn.IResolvable;
+  private _show?: boolean | cdktn.IResolvable; 
   public get show() {
     return this.getBooleanAttribute('show');
   }
@@ -484,7 +484,7 @@ export class QuicksightThemeConfigurationSheetTileLayoutGutterOutputReference ex
   }
 
   // show - computed: true, optional: true, required: false
-  private _show?: boolean | cdktn.IResolvable;
+  private _show?: boolean | cdktn.IResolvable; 
   public get show() {
     return this.getBooleanAttribute('show');
   }
@@ -580,7 +580,7 @@ export class QuicksightThemeConfigurationSheetTileLayoutMarginOutputReference ex
   }
 
   // show - computed: true, optional: true, required: false
-  private _show?: boolean | cdktn.IResolvable;
+  private _show?: boolean | cdktn.IResolvable; 
   public get show() {
     return this.getBooleanAttribute('show');
   }
@@ -938,7 +938,7 @@ export class QuicksightThemeConfigurationTypographyFontFamiliesOutputReference e
   }
 
   // font_family - computed: true, optional: true, required: false
-  private _fontFamily?: string;
+  private _fontFamily?: string; 
   public get fontFamily() {
     return this.getStringAttribute('font_family');
   }
@@ -1443,7 +1443,7 @@ export class QuicksightThemeConfigurationUiColorPaletteOutputReference extends c
   }
 
   // accent - computed: true, optional: true, required: false
-  private _accent?: string;
+  private _accent?: string; 
   public get accent() {
     return this.getStringAttribute('accent');
   }
@@ -1459,7 +1459,7 @@ export class QuicksightThemeConfigurationUiColorPaletteOutputReference extends c
   }
 
   // accent_foreground - computed: true, optional: true, required: false
-  private _accentForeground?: string;
+  private _accentForeground?: string; 
   public get accentForeground() {
     return this.getStringAttribute('accent_foreground');
   }
@@ -1475,7 +1475,7 @@ export class QuicksightThemeConfigurationUiColorPaletteOutputReference extends c
   }
 
   // danger - computed: true, optional: true, required: false
-  private _danger?: string;
+  private _danger?: string; 
   public get danger() {
     return this.getStringAttribute('danger');
   }
@@ -1491,7 +1491,7 @@ export class QuicksightThemeConfigurationUiColorPaletteOutputReference extends c
   }
 
   // danger_foreground - computed: true, optional: true, required: false
-  private _dangerForeground?: string;
+  private _dangerForeground?: string; 
   public get dangerForeground() {
     return this.getStringAttribute('danger_foreground');
   }
@@ -1507,7 +1507,7 @@ export class QuicksightThemeConfigurationUiColorPaletteOutputReference extends c
   }
 
   // dimension - computed: true, optional: true, required: false
-  private _dimension?: string;
+  private _dimension?: string; 
   public get dimension() {
     return this.getStringAttribute('dimension');
   }
@@ -1523,7 +1523,7 @@ export class QuicksightThemeConfigurationUiColorPaletteOutputReference extends c
   }
 
   // dimension_foreground - computed: true, optional: true, required: false
-  private _dimensionForeground?: string;
+  private _dimensionForeground?: string; 
   public get dimensionForeground() {
     return this.getStringAttribute('dimension_foreground');
   }
@@ -1539,7 +1539,7 @@ export class QuicksightThemeConfigurationUiColorPaletteOutputReference extends c
   }
 
   // measure - computed: true, optional: true, required: false
-  private _measure?: string;
+  private _measure?: string; 
   public get measure() {
     return this.getStringAttribute('measure');
   }
@@ -1555,7 +1555,7 @@ export class QuicksightThemeConfigurationUiColorPaletteOutputReference extends c
   }
 
   // measure_foreground - computed: true, optional: true, required: false
-  private _measureForeground?: string;
+  private _measureForeground?: string; 
   public get measureForeground() {
     return this.getStringAttribute('measure_foreground');
   }
@@ -1571,7 +1571,7 @@ export class QuicksightThemeConfigurationUiColorPaletteOutputReference extends c
   }
 
   // primary_background - computed: true, optional: true, required: false
-  private _primaryBackground?: string;
+  private _primaryBackground?: string; 
   public get primaryBackground() {
     return this.getStringAttribute('primary_background');
   }
@@ -1587,7 +1587,7 @@ export class QuicksightThemeConfigurationUiColorPaletteOutputReference extends c
   }
 
   // primary_foreground - computed: true, optional: true, required: false
-  private _primaryForeground?: string;
+  private _primaryForeground?: string; 
   public get primaryForeground() {
     return this.getStringAttribute('primary_foreground');
   }
@@ -1603,7 +1603,7 @@ export class QuicksightThemeConfigurationUiColorPaletteOutputReference extends c
   }
 
   // secondary_background - computed: true, optional: true, required: false
-  private _secondaryBackground?: string;
+  private _secondaryBackground?: string; 
   public get secondaryBackground() {
     return this.getStringAttribute('secondary_background');
   }
@@ -1619,7 +1619,7 @@ export class QuicksightThemeConfigurationUiColorPaletteOutputReference extends c
   }
 
   // secondary_foreground - computed: true, optional: true, required: false
-  private _secondaryForeground?: string;
+  private _secondaryForeground?: string; 
   public get secondaryForeground() {
     return this.getStringAttribute('secondary_foreground');
   }
@@ -1635,7 +1635,7 @@ export class QuicksightThemeConfigurationUiColorPaletteOutputReference extends c
   }
 
   // success - computed: true, optional: true, required: false
-  private _success?: string;
+  private _success?: string; 
   public get success() {
     return this.getStringAttribute('success');
   }
@@ -1651,7 +1651,7 @@ export class QuicksightThemeConfigurationUiColorPaletteOutputReference extends c
   }
 
   // success_foreground - computed: true, optional: true, required: false
-  private _successForeground?: string;
+  private _successForeground?: string; 
   public get successForeground() {
     return this.getStringAttribute('success_foreground');
   }
@@ -1667,7 +1667,7 @@ export class QuicksightThemeConfigurationUiColorPaletteOutputReference extends c
   }
 
   // warning - computed: true, optional: true, required: false
-  private _warning?: string;
+  private _warning?: string; 
   public get warning() {
     return this.getStringAttribute('warning');
   }
@@ -1683,7 +1683,7 @@ export class QuicksightThemeConfigurationUiColorPaletteOutputReference extends c
   }
 
   // warning_foreground - computed: true, optional: true, required: false
-  private _warningForeground?: string;
+  private _warningForeground?: string; 
   public get warningForeground() {
     return this.getStringAttribute('warning_foreground');
   }
@@ -2019,7 +2019,7 @@ export class QuicksightThemePermissionsOutputReference extends cdktn.ComplexObje
   }
 
   // actions - computed: true, optional: true, required: false
-  private _actions?: string[];
+  private _actions?: string[]; 
   public get actions() {
     return this.getListAttribute('actions');
   }
@@ -2035,7 +2035,7 @@ export class QuicksightThemePermissionsOutputReference extends cdktn.ComplexObje
   }
 
   // principal - computed: true, optional: true, required: false
-  private _principal?: string;
+  private _principal?: string; 
   public get principal() {
     return this.getStringAttribute('principal');
   }
@@ -2172,7 +2172,7 @@ export class QuicksightThemeTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -2188,7 +2188,7 @@ export class QuicksightThemeTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -3200,7 +3200,7 @@ export class QuicksightTheme extends cdktn.TerraformResource {
   }
 
   // aws_account_id - computed: false, optional: false, required: true
-  private _awsAccountId?: string;
+  private _awsAccountId?: string; 
   public get awsAccountId() {
     return this.getStringAttribute('aws_account_id');
   }
@@ -3213,7 +3213,7 @@ export class QuicksightTheme extends cdktn.TerraformResource {
   }
 
   // base_theme_id - computed: false, optional: false, required: true
-  private _baseThemeId?: string;
+  private _baseThemeId?: string; 
   public get baseThemeId() {
     return this.getStringAttribute('base_theme_id');
   }
@@ -3254,7 +3254,7 @@ export class QuicksightTheme extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -3299,7 +3299,7 @@ export class QuicksightTheme extends cdktn.TerraformResource {
   }
 
   // theme_id - computed: false, optional: false, required: true
-  private _themeId?: string;
+  private _themeId?: string; 
   public get themeId() {
     return this.getStringAttribute('theme_id');
   }
@@ -3323,7 +3323,7 @@ export class QuicksightTheme extends cdktn.TerraformResource {
   }
 
   // version_description - computed: true, optional: true, required: false
-  private _versionDescription?: string;
+  private _versionDescription?: string; 
   public get versionDescription() {
     return this.getStringAttribute('version_description');
   }

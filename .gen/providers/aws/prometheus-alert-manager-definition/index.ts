@@ -91,7 +91,7 @@ export class PrometheusAlertManagerDefinition extends cdktn.TerraformResource {
   // ==========
 
   // definition - computed: false, optional: false, required: true
-  private _definition?: string;
+  private _definition?: string; 
   public get definition() {
     return this.getStringAttribute('definition');
   }
@@ -104,7 +104,7 @@ export class PrometheusAlertManagerDefinition extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -120,7 +120,7 @@ export class PrometheusAlertManagerDefinition extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -136,7 +136,7 @@ export class PrometheusAlertManagerDefinition extends cdktn.TerraformResource {
   }
 
   // workspace_id - computed: false, optional: false, required: true
-  private _workspaceId?: string;
+  private _workspaceId?: string; 
   public get workspaceId() {
     return this.getStringAttribute('workspace_id');
   }

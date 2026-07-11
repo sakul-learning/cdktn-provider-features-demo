@@ -148,7 +148,7 @@ export class Ec2DhcpOptionsTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -164,7 +164,7 @@ export class Ec2DhcpOptionsTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -269,7 +269,7 @@ export class Ec2DhcpOptions extends cdktn.TerraformResource {
   }
 
   // domain_name - computed: true, optional: true, required: false
-  private _domainName?: string;
+  private _domainName?: string; 
   public get domainName() {
     return this.getStringAttribute('domain_name');
   }
@@ -285,7 +285,7 @@ export class Ec2DhcpOptions extends cdktn.TerraformResource {
   }
 
   // domain_name_servers - computed: true, optional: true, required: false
-  private _domainNameServers?: string[];
+  private _domainNameServers?: string[]; 
   public get domainNameServers() {
     return this.getListAttribute('domain_name_servers');
   }
@@ -306,7 +306,7 @@ export class Ec2DhcpOptions extends cdktn.TerraformResource {
   }
 
   // ipv_6_address_preferred_lease_time - computed: true, optional: true, required: false
-  private _ipv6AddressPreferredLeaseTime?: number;
+  private _ipv6AddressPreferredLeaseTime?: number; 
   public get ipv6AddressPreferredLeaseTime() {
     return this.getNumberAttribute('ipv_6_address_preferred_lease_time');
   }
@@ -322,7 +322,7 @@ export class Ec2DhcpOptions extends cdktn.TerraformResource {
   }
 
   // netbios_name_servers - computed: true, optional: true, required: false
-  private _netbiosNameServers?: string[];
+  private _netbiosNameServers?: string[]; 
   public get netbiosNameServers() {
     return this.getListAttribute('netbios_name_servers');
   }
@@ -338,7 +338,7 @@ export class Ec2DhcpOptions extends cdktn.TerraformResource {
   }
 
   // netbios_node_type - computed: true, optional: true, required: false
-  private _netbiosNodeType?: number;
+  private _netbiosNodeType?: number; 
   public get netbiosNodeType() {
     return this.getNumberAttribute('netbios_node_type');
   }
@@ -354,7 +354,7 @@ export class Ec2DhcpOptions extends cdktn.TerraformResource {
   }
 
   // ntp_servers - computed: true, optional: true, required: false
-  private _ntpServers?: string[];
+  private _ntpServers?: string[]; 
   public get ntpServers() {
     return this.getListAttribute('ntp_servers');
   }

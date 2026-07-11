@@ -24,13 +24,13 @@ export interface SyntheticsGroupConfig extends cdktn.TerraformMetaArguments {
 }
 export interface SyntheticsGroupTags {
   /**
-  * The key name of the tag. You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
+  * The key name of the tag. You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/synthetics_group#key SyntheticsGroup#key}
   */
   readonly key?: string;
   /**
-  * The value for the tag. You can specify a value that is 1 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
+  * The value for the tag. You can specify a value that is 1 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/synthetics_group#value SyntheticsGroup#value}
   */
@@ -124,7 +124,7 @@ export class SyntheticsGroupTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -140,7 +140,7 @@ export class SyntheticsGroupTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -246,7 +246,7 @@ export class SyntheticsGroup extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -259,7 +259,7 @@ export class SyntheticsGroup extends cdktn.TerraformResource {
   }
 
   // resource_arns - computed: true, optional: true, required: false
-  private _resourceArns?: string[];
+  private _resourceArns?: string[]; 
   public get resourceArns() {
     return this.getListAttribute('resource_arns');
   }

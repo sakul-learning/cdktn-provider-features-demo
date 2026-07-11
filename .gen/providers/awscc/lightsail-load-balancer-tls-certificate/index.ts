@@ -108,7 +108,7 @@ export class LightsailLoadBalancerTlsCertificate extends cdktn.TerraformResource
   // ==========
 
   // certificate_alternative_names - computed: true, optional: true, required: false
-  private _certificateAlternativeNames?: string[];
+  private _certificateAlternativeNames?: string[]; 
   public get certificateAlternativeNames() {
     return cdktn.Fn.tolist(this.getListAttribute('certificate_alternative_names'));
   }
@@ -124,7 +124,7 @@ export class LightsailLoadBalancerTlsCertificate extends cdktn.TerraformResource
   }
 
   // certificate_domain_name - computed: false, optional: false, required: true
-  private _certificateDomainName?: string;
+  private _certificateDomainName?: string; 
   public get certificateDomainName() {
     return this.getStringAttribute('certificate_domain_name');
   }
@@ -137,7 +137,7 @@ export class LightsailLoadBalancerTlsCertificate extends cdktn.TerraformResource
   }
 
   // certificate_name - computed: false, optional: false, required: true
-  private _certificateName?: string;
+  private _certificateName?: string; 
   public get certificateName() {
     return this.getStringAttribute('certificate_name');
   }
@@ -150,7 +150,7 @@ export class LightsailLoadBalancerTlsCertificate extends cdktn.TerraformResource
   }
 
   // https_redirection_enabled - computed: true, optional: true, required: false
-  private _httpsRedirectionEnabled?: boolean | cdktn.IResolvable;
+  private _httpsRedirectionEnabled?: boolean | cdktn.IResolvable; 
   public get httpsRedirectionEnabled() {
     return this.getBooleanAttribute('https_redirection_enabled');
   }
@@ -171,7 +171,7 @@ export class LightsailLoadBalancerTlsCertificate extends cdktn.TerraformResource
   }
 
   // is_attached - computed: true, optional: true, required: false
-  private _isAttached?: boolean | cdktn.IResolvable;
+  private _isAttached?: boolean | cdktn.IResolvable; 
   public get isAttached() {
     return this.getBooleanAttribute('is_attached');
   }
@@ -187,7 +187,7 @@ export class LightsailLoadBalancerTlsCertificate extends cdktn.TerraformResource
   }
 
   // load_balancer_name - computed: false, optional: false, required: true
-  private _loadBalancerName?: string;
+  private _loadBalancerName?: string; 
   public get loadBalancerName() {
     return this.getStringAttribute('load_balancer_name');
   }

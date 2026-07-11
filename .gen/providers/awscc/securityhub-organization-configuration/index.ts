@@ -87,7 +87,7 @@ export class SecurityhubOrganizationConfiguration extends cdktn.TerraformResourc
   // ==========
 
   // auto_enable - computed: false, optional: false, required: true
-  private _autoEnable?: boolean | cdktn.IResolvable;
+  private _autoEnable?: boolean | cdktn.IResolvable; 
   public get autoEnable() {
     return this.getBooleanAttribute('auto_enable');
   }
@@ -100,7 +100,7 @@ export class SecurityhubOrganizationConfiguration extends cdktn.TerraformResourc
   }
 
   // auto_enable_standards - computed: true, optional: true, required: false
-  private _autoEnableStandards?: string;
+  private _autoEnableStandards?: string; 
   public get autoEnableStandards() {
     return this.getStringAttribute('auto_enable_standards');
   }
@@ -116,7 +116,7 @@ export class SecurityhubOrganizationConfiguration extends cdktn.TerraformResourc
   }
 
   // configuration_type - computed: true, optional: true, required: false
-  private _configurationType?: string;
+  private _configurationType?: string; 
   public get configurationType() {
     return this.getStringAttribute('configuration_type');
   }

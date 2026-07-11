@@ -101,7 +101,7 @@ export class SesVdmAttributesDashboardAttributesOutputReference extends cdktn.Co
   }
 
   // engagement_metrics - computed: true, optional: true, required: false
-  private _engagementMetrics?: string;
+  private _engagementMetrics?: string; 
   public get engagementMetrics() {
     return this.getStringAttribute('engagement_metrics');
   }
@@ -197,7 +197,7 @@ export class SesVdmAttributesGuardianAttributesOutputReference extends cdktn.Com
   }
 
   // optimized_shared_delivery - computed: true, optional: true, required: false
-  private _optimizedSharedDelivery?: string;
+  private _optimizedSharedDelivery?: string; 
   public get optimizedSharedDelivery() {
     return this.getStringAttribute('optimized_shared_delivery');
   }

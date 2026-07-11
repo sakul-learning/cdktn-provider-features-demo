@@ -280,7 +280,7 @@ export class AutoscalingGroupAvailabilityZoneDistributionOutputReference extends
   }
 
   // capacity_distribution_strategy - computed: false, optional: true, required: false
-  private _capacityDistributionStrategy?: string;
+  private _capacityDistributionStrategy?: string; 
   public get capacityDistributionStrategy() {
     return this.getStringAttribute('capacity_distribution_strategy');
   }
@@ -381,7 +381,7 @@ export class AutoscalingGroupCapacityReservationSpecificationCapacityReservation
   }
 
   // capacity_reservation_ids - computed: false, optional: true, required: false
-  private _capacityReservationIds?: string[];
+  private _capacityReservationIds?: string[]; 
   public get capacityReservationIds() {
     return this.getListAttribute('capacity_reservation_ids');
   }
@@ -397,7 +397,7 @@ export class AutoscalingGroupCapacityReservationSpecificationCapacityReservation
   }
 
   // capacity_reservation_resource_group_arns - computed: false, optional: true, required: false
-  private _capacityReservationResourceGroupArns?: string[];
+  private _capacityReservationResourceGroupArns?: string[]; 
   public get capacityReservationResourceGroupArns() {
     return this.getListAttribute('capacity_reservation_resource_group_arns');
   }
@@ -500,7 +500,7 @@ export class AutoscalingGroupCapacityReservationSpecificationOutputReference ext
   }
 
   // capacity_reservation_preference - computed: true, optional: true, required: false
-  private _capacityReservationPreference?: string;
+  private _capacityReservationPreference?: string; 
   public get capacityReservationPreference() {
     return this.getStringAttribute('capacity_reservation_preference');
   }
@@ -714,7 +714,7 @@ export class AutoscalingGroupInitialLifecycleHookOutputReference extends cdktn.C
   }
 
   // default_result - computed: true, optional: true, required: false
-  private _defaultResult?: string;
+  private _defaultResult?: string; 
   public get defaultResult() {
     return this.getStringAttribute('default_result');
   }
@@ -730,7 +730,7 @@ export class AutoscalingGroupInitialLifecycleHookOutputReference extends cdktn.C
   }
 
   // heartbeat_timeout - computed: false, optional: true, required: false
-  private _heartbeatTimeout?: number;
+  private _heartbeatTimeout?: number; 
   public get heartbeatTimeout() {
     return this.getNumberAttribute('heartbeat_timeout');
   }
@@ -746,7 +746,7 @@ export class AutoscalingGroupInitialLifecycleHookOutputReference extends cdktn.C
   }
 
   // lifecycle_transition - computed: false, optional: false, required: true
-  private _lifecycleTransition?: string;
+  private _lifecycleTransition?: string; 
   public get lifecycleTransition() {
     return this.getStringAttribute('lifecycle_transition');
   }
@@ -759,7 +759,7 @@ export class AutoscalingGroupInitialLifecycleHookOutputReference extends cdktn.C
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -772,7 +772,7 @@ export class AutoscalingGroupInitialLifecycleHookOutputReference extends cdktn.C
   }
 
   // notification_metadata - computed: false, optional: true, required: false
-  private _notificationMetadata?: string;
+  private _notificationMetadata?: string; 
   public get notificationMetadata() {
     return this.getStringAttribute('notification_metadata');
   }
@@ -788,7 +788,7 @@ export class AutoscalingGroupInitialLifecycleHookOutputReference extends cdktn.C
   }
 
   // notification_target_arn - computed: false, optional: true, required: false
-  private _notificationTargetArn?: string;
+  private _notificationTargetArn?: string; 
   public get notificationTargetArn() {
     return this.getStringAttribute('notification_target_arn');
   }
@@ -804,7 +804,7 @@ export class AutoscalingGroupInitialLifecycleHookOutputReference extends cdktn.C
   }
 
   // role_arn - computed: false, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -925,7 +925,7 @@ export class AutoscalingGroupInstanceMaintenancePolicyOutputReference extends cd
   }
 
   // max_healthy_percentage - computed: false, optional: false, required: true
-  private _maxHealthyPercentage?: number;
+  private _maxHealthyPercentage?: number; 
   public get maxHealthyPercentage() {
     return this.getNumberAttribute('max_healthy_percentage');
   }
@@ -938,7 +938,7 @@ export class AutoscalingGroupInstanceMaintenancePolicyOutputReference extends cd
   }
 
   // min_healthy_percentage - computed: false, optional: false, required: true
-  private _minHealthyPercentage?: number;
+  private _minHealthyPercentage?: number; 
   public get minHealthyPercentage() {
     return this.getNumberAttribute('min_healthy_percentage');
   }
@@ -1019,7 +1019,7 @@ export class AutoscalingGroupInstanceRefreshPreferencesAlarmSpecificationOutputR
   }
 
   // alarms - computed: false, optional: true, required: false
-  private _alarms?: string[];
+  private _alarms?: string[]; 
   public get alarms() {
     return this.getListAttribute('alarms');
   }
@@ -1258,7 +1258,7 @@ export class AutoscalingGroupInstanceRefreshPreferencesOutputReference extends c
   }
 
   // auto_rollback - computed: false, optional: true, required: false
-  private _autoRollback?: boolean | cdktn.IResolvable;
+  private _autoRollback?: boolean | cdktn.IResolvable; 
   public get autoRollback() {
     return this.getBooleanAttribute('auto_rollback');
   }
@@ -1274,7 +1274,7 @@ export class AutoscalingGroupInstanceRefreshPreferencesOutputReference extends c
   }
 
   // checkpoint_delay - computed: false, optional: true, required: false
-  private _checkpointDelay?: string;
+  private _checkpointDelay?: string; 
   public get checkpointDelay() {
     return this.getStringAttribute('checkpoint_delay');
   }
@@ -1290,7 +1290,7 @@ export class AutoscalingGroupInstanceRefreshPreferencesOutputReference extends c
   }
 
   // checkpoint_percentages - computed: false, optional: true, required: false
-  private _checkpointPercentages?: number[];
+  private _checkpointPercentages?: number[]; 
   public get checkpointPercentages() {
     return this.getNumberListAttribute('checkpoint_percentages');
   }
@@ -1306,7 +1306,7 @@ export class AutoscalingGroupInstanceRefreshPreferencesOutputReference extends c
   }
 
   // instance_warmup - computed: false, optional: true, required: false
-  private _instanceWarmup?: string;
+  private _instanceWarmup?: string; 
   public get instanceWarmup() {
     return this.getStringAttribute('instance_warmup');
   }
@@ -1322,7 +1322,7 @@ export class AutoscalingGroupInstanceRefreshPreferencesOutputReference extends c
   }
 
   // max_healthy_percentage - computed: false, optional: true, required: false
-  private _maxHealthyPercentage?: number;
+  private _maxHealthyPercentage?: number; 
   public get maxHealthyPercentage() {
     return this.getNumberAttribute('max_healthy_percentage');
   }
@@ -1338,7 +1338,7 @@ export class AutoscalingGroupInstanceRefreshPreferencesOutputReference extends c
   }
 
   // min_healthy_percentage - computed: false, optional: true, required: false
-  private _minHealthyPercentage?: number;
+  private _minHealthyPercentage?: number; 
   public get minHealthyPercentage() {
     return this.getNumberAttribute('min_healthy_percentage');
   }
@@ -1354,7 +1354,7 @@ export class AutoscalingGroupInstanceRefreshPreferencesOutputReference extends c
   }
 
   // scale_in_protected_instances - computed: false, optional: true, required: false
-  private _scaleInProtectedInstances?: string;
+  private _scaleInProtectedInstances?: string; 
   public get scaleInProtectedInstances() {
     return this.getStringAttribute('scale_in_protected_instances');
   }
@@ -1370,7 +1370,7 @@ export class AutoscalingGroupInstanceRefreshPreferencesOutputReference extends c
   }
 
   // skip_matching - computed: false, optional: true, required: false
-  private _skipMatching?: boolean | cdktn.IResolvable;
+  private _skipMatching?: boolean | cdktn.IResolvable; 
   public get skipMatching() {
     return this.getBooleanAttribute('skip_matching');
   }
@@ -1386,7 +1386,7 @@ export class AutoscalingGroupInstanceRefreshPreferencesOutputReference extends c
   }
 
   // standby_instances - computed: false, optional: true, required: false
-  private _standbyInstances?: string;
+  private _standbyInstances?: string; 
   public get standbyInstances() {
     return this.getStringAttribute('standby_instances');
   }
@@ -1522,7 +1522,7 @@ export class AutoscalingGroupInstanceRefreshOutputReference extends cdktn.Comple
   }
 
   // strategy - computed: false, optional: false, required: true
-  private _strategy?: string;
+  private _strategy?: string; 
   public get strategy() {
     return this.getStringAttribute('strategy');
   }
@@ -1535,7 +1535,7 @@ export class AutoscalingGroupInstanceRefreshOutputReference extends cdktn.Comple
   }
 
   // triggers - computed: false, optional: true, required: false
-  private _triggers?: string[];
+  private _triggers?: string[]; 
   public get triggers() {
     return cdktn.Fn.tolist(this.getListAttribute('triggers'));
   }
@@ -1672,7 +1672,7 @@ export class AutoscalingGroupLaunchTemplateOutputReference extends cdktn.Complex
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -1688,7 +1688,7 @@ export class AutoscalingGroupLaunchTemplateOutputReference extends cdktn.Complex
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1704,7 +1704,7 @@ export class AutoscalingGroupLaunchTemplateOutputReference extends cdktn.Complex
   }
 
   // version - computed: true, optional: true, required: false
-  private _version?: string;
+  private _version?: string; 
   public get version() {
     return this.getStringAttribute('version');
   }
@@ -1873,7 +1873,7 @@ export class AutoscalingGroupMixedInstancesPolicyInstancesDistributionOutputRefe
   }
 
   // on_demand_allocation_strategy - computed: true, optional: true, required: false
-  private _onDemandAllocationStrategy?: string;
+  private _onDemandAllocationStrategy?: string; 
   public get onDemandAllocationStrategy() {
     return this.getStringAttribute('on_demand_allocation_strategy');
   }
@@ -1889,7 +1889,7 @@ export class AutoscalingGroupMixedInstancesPolicyInstancesDistributionOutputRefe
   }
 
   // on_demand_base_capacity - computed: true, optional: true, required: false
-  private _onDemandBaseCapacity?: number;
+  private _onDemandBaseCapacity?: number; 
   public get onDemandBaseCapacity() {
     return this.getNumberAttribute('on_demand_base_capacity');
   }
@@ -1905,7 +1905,7 @@ export class AutoscalingGroupMixedInstancesPolicyInstancesDistributionOutputRefe
   }
 
   // on_demand_percentage_above_base_capacity - computed: true, optional: true, required: false
-  private _onDemandPercentageAboveBaseCapacity?: number;
+  private _onDemandPercentageAboveBaseCapacity?: number; 
   public get onDemandPercentageAboveBaseCapacity() {
     return this.getNumberAttribute('on_demand_percentage_above_base_capacity');
   }
@@ -1921,7 +1921,7 @@ export class AutoscalingGroupMixedInstancesPolicyInstancesDistributionOutputRefe
   }
 
   // spot_allocation_strategy - computed: true, optional: true, required: false
-  private _spotAllocationStrategy?: string;
+  private _spotAllocationStrategy?: string; 
   public get spotAllocationStrategy() {
     return this.getStringAttribute('spot_allocation_strategy');
   }
@@ -1937,7 +1937,7 @@ export class AutoscalingGroupMixedInstancesPolicyInstancesDistributionOutputRefe
   }
 
   // spot_instance_pools - computed: true, optional: true, required: false
-  private _spotInstancePools?: number;
+  private _spotInstancePools?: number; 
   public get spotInstancePools() {
     return this.getNumberAttribute('spot_instance_pools');
   }
@@ -1953,7 +1953,7 @@ export class AutoscalingGroupMixedInstancesPolicyInstancesDistributionOutputRefe
   }
 
   // spot_max_price - computed: false, optional: true, required: false
-  private _spotMaxPrice?: string;
+  private _spotMaxPrice?: string; 
   public get spotMaxPrice() {
     return this.getStringAttribute('spot_max_price');
   }
@@ -2071,7 +2071,7 @@ export class AutoscalingGroupMixedInstancesPolicyLaunchTemplateLaunchTemplateSpe
   }
 
   // launch_template_id - computed: true, optional: true, required: false
-  private _launchTemplateId?: string;
+  private _launchTemplateId?: string; 
   public get launchTemplateId() {
     return this.getStringAttribute('launch_template_id');
   }
@@ -2087,7 +2087,7 @@ export class AutoscalingGroupMixedInstancesPolicyLaunchTemplateLaunchTemplateSpe
   }
 
   // launch_template_name - computed: true, optional: true, required: false
-  private _launchTemplateName?: string;
+  private _launchTemplateName?: string; 
   public get launchTemplateName() {
     return this.getStringAttribute('launch_template_name');
   }
@@ -2103,7 +2103,7 @@ export class AutoscalingGroupMixedInstancesPolicyLaunchTemplateLaunchTemplateSpe
   }
 
   // version - computed: true, optional: true, required: false
-  private _version?: string;
+  private _version?: string; 
   public get version() {
     return this.getStringAttribute('version');
   }
@@ -2204,7 +2204,7 @@ export class AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideInstanceR
   }
 
   // max - computed: false, optional: true, required: false
-  private _max?: number;
+  private _max?: number; 
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -2220,7 +2220,7 @@ export class AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideInstanceR
   }
 
   // min - computed: false, optional: true, required: false
-  private _min?: number;
+  private _min?: number; 
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -2321,7 +2321,7 @@ export class AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideInstanceR
   }
 
   // max - computed: false, optional: true, required: false
-  private _max?: number;
+  private _max?: number; 
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -2337,7 +2337,7 @@ export class AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideInstanceR
   }
 
   // min - computed: false, optional: true, required: false
-  private _min?: number;
+  private _min?: number; 
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -2438,7 +2438,7 @@ export class AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideInstanceR
   }
 
   // max - computed: false, optional: true, required: false
-  private _max?: number;
+  private _max?: number; 
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -2454,7 +2454,7 @@ export class AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideInstanceR
   }
 
   // min - computed: false, optional: true, required: false
-  private _min?: number;
+  private _min?: number; 
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -2555,7 +2555,7 @@ export class AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideInstanceR
   }
 
   // max - computed: false, optional: true, required: false
-  private _max?: number;
+  private _max?: number; 
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -2571,7 +2571,7 @@ export class AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideInstanceR
   }
 
   // min - computed: false, optional: true, required: false
-  private _min?: number;
+  private _min?: number; 
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -2672,7 +2672,7 @@ export class AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideInstanceR
   }
 
   // max - computed: false, optional: true, required: false
-  private _max?: number;
+  private _max?: number; 
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -2688,7 +2688,7 @@ export class AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideInstanceR
   }
 
   // min - computed: false, optional: true, required: false
-  private _min?: number;
+  private _min?: number; 
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -2789,7 +2789,7 @@ export class AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideInstanceR
   }
 
   // max - computed: false, optional: true, required: false
-  private _max?: number;
+  private _max?: number; 
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -2805,7 +2805,7 @@ export class AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideInstanceR
   }
 
   // min - computed: false, optional: true, required: false
-  private _min?: number;
+  private _min?: number; 
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -2906,7 +2906,7 @@ export class AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideInstanceR
   }
 
   // max - computed: false, optional: true, required: false
-  private _max?: number;
+  private _max?: number; 
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -2922,7 +2922,7 @@ export class AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideInstanceR
   }
 
   // min - computed: false, optional: true, required: false
-  private _min?: number;
+  private _min?: number; 
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -3023,7 +3023,7 @@ export class AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideInstanceR
   }
 
   // max - computed: false, optional: true, required: false
-  private _max?: number;
+  private _max?: number; 
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -3039,7 +3039,7 @@ export class AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideInstanceR
   }
 
   // min - computed: false, optional: true, required: false
-  private _min?: number;
+  private _min?: number; 
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -3140,7 +3140,7 @@ export class AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideInstanceR
   }
 
   // max - computed: false, optional: true, required: false
-  private _max?: number;
+  private _max?: number; 
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -3156,7 +3156,7 @@ export class AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideInstanceR
   }
 
   // min - computed: false, optional: true, required: false
-  private _min?: number;
+  private _min?: number; 
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -3649,7 +3649,7 @@ export class AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideInstanceR
   }
 
   // accelerator_manufacturers - computed: false, optional: true, required: false
-  private _acceleratorManufacturers?: string[];
+  private _acceleratorManufacturers?: string[]; 
   public get acceleratorManufacturers() {
     return cdktn.Fn.tolist(this.getListAttribute('accelerator_manufacturers'));
   }
@@ -3665,7 +3665,7 @@ export class AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideInstanceR
   }
 
   // accelerator_names - computed: false, optional: true, required: false
-  private _acceleratorNames?: string[];
+  private _acceleratorNames?: string[]; 
   public get acceleratorNames() {
     return cdktn.Fn.tolist(this.getListAttribute('accelerator_names'));
   }
@@ -3681,7 +3681,7 @@ export class AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideInstanceR
   }
 
   // accelerator_types - computed: false, optional: true, required: false
-  private _acceleratorTypes?: string[];
+  private _acceleratorTypes?: string[]; 
   public get acceleratorTypes() {
     return cdktn.Fn.tolist(this.getListAttribute('accelerator_types'));
   }
@@ -3697,7 +3697,7 @@ export class AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideInstanceR
   }
 
   // allowed_instance_types - computed: false, optional: true, required: false
-  private _allowedInstanceTypes?: string[];
+  private _allowedInstanceTypes?: string[]; 
   public get allowedInstanceTypes() {
     return cdktn.Fn.tolist(this.getListAttribute('allowed_instance_types'));
   }
@@ -3713,7 +3713,7 @@ export class AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideInstanceR
   }
 
   // bare_metal - computed: false, optional: true, required: false
-  private _bareMetal?: string;
+  private _bareMetal?: string; 
   public get bareMetal() {
     return this.getStringAttribute('bare_metal');
   }
@@ -3729,7 +3729,7 @@ export class AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideInstanceR
   }
 
   // burstable_performance - computed: false, optional: true, required: false
-  private _burstablePerformance?: string;
+  private _burstablePerformance?: string; 
   public get burstablePerformance() {
     return this.getStringAttribute('burstable_performance');
   }
@@ -3745,7 +3745,7 @@ export class AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideInstanceR
   }
 
   // cpu_manufacturers - computed: false, optional: true, required: false
-  private _cpuManufacturers?: string[];
+  private _cpuManufacturers?: string[]; 
   public get cpuManufacturers() {
     return cdktn.Fn.tolist(this.getListAttribute('cpu_manufacturers'));
   }
@@ -3761,7 +3761,7 @@ export class AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideInstanceR
   }
 
   // excluded_instance_types - computed: false, optional: true, required: false
-  private _excludedInstanceTypes?: string[];
+  private _excludedInstanceTypes?: string[]; 
   public get excludedInstanceTypes() {
     return cdktn.Fn.tolist(this.getListAttribute('excluded_instance_types'));
   }
@@ -3777,7 +3777,7 @@ export class AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideInstanceR
   }
 
   // instance_generations - computed: false, optional: true, required: false
-  private _instanceGenerations?: string[];
+  private _instanceGenerations?: string[]; 
   public get instanceGenerations() {
     return cdktn.Fn.tolist(this.getListAttribute('instance_generations'));
   }
@@ -3793,7 +3793,7 @@ export class AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideInstanceR
   }
 
   // local_storage - computed: false, optional: true, required: false
-  private _localStorage?: string;
+  private _localStorage?: string; 
   public get localStorage() {
     return this.getStringAttribute('local_storage');
   }
@@ -3809,7 +3809,7 @@ export class AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideInstanceR
   }
 
   // local_storage_types - computed: false, optional: true, required: false
-  private _localStorageTypes?: string[];
+  private _localStorageTypes?: string[]; 
   public get localStorageTypes() {
     return cdktn.Fn.tolist(this.getListAttribute('local_storage_types'));
   }
@@ -3825,7 +3825,7 @@ export class AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideInstanceR
   }
 
   // max_spot_price_as_percentage_of_optimal_on_demand_price - computed: false, optional: true, required: false
-  private _maxSpotPriceAsPercentageOfOptimalOnDemandPrice?: number;
+  private _maxSpotPriceAsPercentageOfOptimalOnDemandPrice?: number; 
   public get maxSpotPriceAsPercentageOfOptimalOnDemandPrice() {
     return this.getNumberAttribute('max_spot_price_as_percentage_of_optimal_on_demand_price');
   }
@@ -3841,7 +3841,7 @@ export class AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideInstanceR
   }
 
   // on_demand_max_price_percentage_over_lowest_price - computed: false, optional: true, required: false
-  private _onDemandMaxPricePercentageOverLowestPrice?: number;
+  private _onDemandMaxPricePercentageOverLowestPrice?: number; 
   public get onDemandMaxPricePercentageOverLowestPrice() {
     return this.getNumberAttribute('on_demand_max_price_percentage_over_lowest_price');
   }
@@ -3857,7 +3857,7 @@ export class AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideInstanceR
   }
 
   // require_hibernate_support - computed: false, optional: true, required: false
-  private _requireHibernateSupport?: boolean | cdktn.IResolvable;
+  private _requireHibernateSupport?: boolean | cdktn.IResolvable; 
   public get requireHibernateSupport() {
     return this.getBooleanAttribute('require_hibernate_support');
   }
@@ -3873,7 +3873,7 @@ export class AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideInstanceR
   }
 
   // spot_max_price_percentage_over_lowest_price - computed: false, optional: true, required: false
-  private _spotMaxPricePercentageOverLowestPrice?: number;
+  private _spotMaxPricePercentageOverLowestPrice?: number; 
   public get spotMaxPricePercentageOverLowestPrice() {
     return this.getNumberAttribute('spot_max_price_percentage_over_lowest_price');
   }
@@ -4135,7 +4135,7 @@ export class AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideLaunchTem
   }
 
   // launch_template_id - computed: true, optional: true, required: false
-  private _launchTemplateId?: string;
+  private _launchTemplateId?: string; 
   public get launchTemplateId() {
     return this.getStringAttribute('launch_template_id');
   }
@@ -4151,7 +4151,7 @@ export class AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideLaunchTem
   }
 
   // launch_template_name - computed: true, optional: true, required: false
-  private _launchTemplateName?: string;
+  private _launchTemplateName?: string; 
   public get launchTemplateName() {
     return this.getStringAttribute('launch_template_name');
   }
@@ -4167,7 +4167,7 @@ export class AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideLaunchTem
   }
 
   // version - computed: true, optional: true, required: false
-  private _version?: string;
+  private _version?: string; 
   public get version() {
     return this.getStringAttribute('version');
   }
@@ -4318,7 +4318,7 @@ export class AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideOutputRef
   }
 
   // instance_type - computed: false, optional: true, required: false
-  private _instanceType?: string;
+  private _instanceType?: string; 
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -4334,7 +4334,7 @@ export class AutoscalingGroupMixedInstancesPolicyLaunchTemplateOverrideOutputRef
   }
 
   // weighted_capacity - computed: false, optional: true, required: false
-  private _weightedCapacity?: string;
+  private _weightedCapacity?: string; 
   public get weightedCapacity() {
     return this.getStringAttribute('weighted_capacity');
   }
@@ -4752,7 +4752,7 @@ export class AutoscalingGroupTagOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -4765,7 +4765,7 @@ export class AutoscalingGroupTagOutputReference extends cdktn.ComplexObject {
   }
 
   // propagate_at_launch - computed: false, optional: false, required: true
-  private _propagateAtLaunch?: boolean | cdktn.IResolvable;
+  private _propagateAtLaunch?: boolean | cdktn.IResolvable; 
   public get propagateAtLaunch() {
     return this.getBooleanAttribute('propagate_at_launch');
   }
@@ -4778,7 +4778,7 @@ export class AutoscalingGroupTagOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -4906,7 +4906,7 @@ export class AutoscalingGroupTimeoutsOutputReference extends cdktn.ComplexObject
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -4922,7 +4922,7 @@ export class AutoscalingGroupTimeoutsOutputReference extends cdktn.ComplexObject
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -5035,7 +5035,7 @@ export class AutoscalingGroupTrafficSourceOutputReference extends cdktn.ComplexO
   }
 
   // identifier - computed: false, optional: false, required: true
-  private _identifier?: string;
+  private _identifier?: string; 
   public get identifier() {
     return this.getStringAttribute('identifier');
   }
@@ -5048,7 +5048,7 @@ export class AutoscalingGroupTrafficSourceOutputReference extends cdktn.ComplexO
   }
 
   // type - computed: false, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -5152,7 +5152,7 @@ export class AutoscalingGroupWarmPoolInstanceReusePolicyOutputReference extends 
   }
 
   // reuse_on_scale_in - computed: false, optional: true, required: false
-  private _reuseOnScaleIn?: boolean | cdktn.IResolvable;
+  private _reuseOnScaleIn?: boolean | cdktn.IResolvable; 
   public get reuseOnScaleIn() {
     return this.getBooleanAttribute('reuse_on_scale_in');
   }
@@ -5289,7 +5289,7 @@ export class AutoscalingGroupWarmPoolOutputReference extends cdktn.ComplexObject
   }
 
   // max_group_prepared_capacity - computed: false, optional: true, required: false
-  private _maxGroupPreparedCapacity?: number;
+  private _maxGroupPreparedCapacity?: number; 
   public get maxGroupPreparedCapacity() {
     return this.getNumberAttribute('max_group_prepared_capacity');
   }
@@ -5305,7 +5305,7 @@ export class AutoscalingGroupWarmPoolOutputReference extends cdktn.ComplexObject
   }
 
   // min_size - computed: false, optional: true, required: false
-  private _minSize?: number;
+  private _minSize?: number; 
   public get minSize() {
     return this.getNumberAttribute('min_size');
   }
@@ -5321,7 +5321,7 @@ export class AutoscalingGroupWarmPoolOutputReference extends cdktn.ComplexObject
   }
 
   // pool_state - computed: false, optional: true, required: false
-  private _poolState?: string;
+  private _poolState?: string; 
   public get poolState() {
     return this.getStringAttribute('pool_state');
   }
@@ -5459,7 +5459,7 @@ export class AutoscalingGroup extends cdktn.TerraformResource {
   }
 
   // availability_zones - computed: true, optional: true, required: false
-  private _availabilityZones?: string[];
+  private _availabilityZones?: string[]; 
   public get availabilityZones() {
     return cdktn.Fn.tolist(this.getListAttribute('availability_zones'));
   }
@@ -5475,7 +5475,7 @@ export class AutoscalingGroup extends cdktn.TerraformResource {
   }
 
   // capacity_rebalance - computed: false, optional: true, required: false
-  private _capacityRebalance?: boolean | cdktn.IResolvable;
+  private _capacityRebalance?: boolean | cdktn.IResolvable; 
   public get capacityRebalance() {
     return this.getBooleanAttribute('capacity_rebalance');
   }
@@ -5491,7 +5491,7 @@ export class AutoscalingGroup extends cdktn.TerraformResource {
   }
 
   // context - computed: false, optional: true, required: false
-  private _context?: string;
+  private _context?: string; 
   public get context() {
     return this.getStringAttribute('context');
   }
@@ -5507,7 +5507,7 @@ export class AutoscalingGroup extends cdktn.TerraformResource {
   }
 
   // default_cooldown - computed: true, optional: true, required: false
-  private _defaultCooldown?: number;
+  private _defaultCooldown?: number; 
   public get defaultCooldown() {
     return this.getNumberAttribute('default_cooldown');
   }
@@ -5523,7 +5523,7 @@ export class AutoscalingGroup extends cdktn.TerraformResource {
   }
 
   // default_instance_warmup - computed: false, optional: true, required: false
-  private _defaultInstanceWarmup?: number;
+  private _defaultInstanceWarmup?: number; 
   public get defaultInstanceWarmup() {
     return this.getNumberAttribute('default_instance_warmup');
   }
@@ -5539,7 +5539,7 @@ export class AutoscalingGroup extends cdktn.TerraformResource {
   }
 
   // desired_capacity - computed: true, optional: true, required: false
-  private _desiredCapacity?: number;
+  private _desiredCapacity?: number; 
   public get desiredCapacity() {
     return this.getNumberAttribute('desired_capacity');
   }
@@ -5555,7 +5555,7 @@ export class AutoscalingGroup extends cdktn.TerraformResource {
   }
 
   // desired_capacity_type - computed: false, optional: true, required: false
-  private _desiredCapacityType?: string;
+  private _desiredCapacityType?: string; 
   public get desiredCapacityType() {
     return this.getStringAttribute('desired_capacity_type');
   }
@@ -5571,7 +5571,7 @@ export class AutoscalingGroup extends cdktn.TerraformResource {
   }
 
   // enabled_metrics - computed: false, optional: true, required: false
-  private _enabledMetrics?: string[];
+  private _enabledMetrics?: string[]; 
   public get enabledMetrics() {
     return cdktn.Fn.tolist(this.getListAttribute('enabled_metrics'));
   }
@@ -5587,7 +5587,7 @@ export class AutoscalingGroup extends cdktn.TerraformResource {
   }
 
   // force_delete - computed: false, optional: true, required: false
-  private _forceDelete?: boolean | cdktn.IResolvable;
+  private _forceDelete?: boolean | cdktn.IResolvable; 
   public get forceDelete() {
     return this.getBooleanAttribute('force_delete');
   }
@@ -5603,7 +5603,7 @@ export class AutoscalingGroup extends cdktn.TerraformResource {
   }
 
   // force_delete_warm_pool - computed: false, optional: true, required: false
-  private _forceDeleteWarmPool?: boolean | cdktn.IResolvable;
+  private _forceDeleteWarmPool?: boolean | cdktn.IResolvable; 
   public get forceDeleteWarmPool() {
     return this.getBooleanAttribute('force_delete_warm_pool');
   }
@@ -5619,7 +5619,7 @@ export class AutoscalingGroup extends cdktn.TerraformResource {
   }
 
   // health_check_grace_period - computed: false, optional: true, required: false
-  private _healthCheckGracePeriod?: number;
+  private _healthCheckGracePeriod?: number; 
   public get healthCheckGracePeriod() {
     return this.getNumberAttribute('health_check_grace_period');
   }
@@ -5635,7 +5635,7 @@ export class AutoscalingGroup extends cdktn.TerraformResource {
   }
 
   // health_check_type - computed: true, optional: true, required: false
-  private _healthCheckType?: string;
+  private _healthCheckType?: string; 
   public get healthCheckType() {
     return this.getStringAttribute('health_check_type');
   }
@@ -5651,7 +5651,7 @@ export class AutoscalingGroup extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -5667,7 +5667,7 @@ export class AutoscalingGroup extends cdktn.TerraformResource {
   }
 
   // ignore_failed_scaling_activities - computed: false, optional: true, required: false
-  private _ignoreFailedScalingActivities?: boolean | cdktn.IResolvable;
+  private _ignoreFailedScalingActivities?: boolean | cdktn.IResolvable; 
   public get ignoreFailedScalingActivities() {
     return this.getBooleanAttribute('ignore_failed_scaling_activities');
   }
@@ -5683,7 +5683,7 @@ export class AutoscalingGroup extends cdktn.TerraformResource {
   }
 
   // launch_configuration - computed: false, optional: true, required: false
-  private _launchConfiguration?: string;
+  private _launchConfiguration?: string; 
   public get launchConfiguration() {
     return this.getStringAttribute('launch_configuration');
   }
@@ -5699,7 +5699,7 @@ export class AutoscalingGroup extends cdktn.TerraformResource {
   }
 
   // load_balancers - computed: true, optional: true, required: false
-  private _loadBalancers?: string[];
+  private _loadBalancers?: string[]; 
   public get loadBalancers() {
     return cdktn.Fn.tolist(this.getListAttribute('load_balancers'));
   }
@@ -5715,7 +5715,7 @@ export class AutoscalingGroup extends cdktn.TerraformResource {
   }
 
   // max_instance_lifetime - computed: false, optional: true, required: false
-  private _maxInstanceLifetime?: number;
+  private _maxInstanceLifetime?: number; 
   public get maxInstanceLifetime() {
     return this.getNumberAttribute('max_instance_lifetime');
   }
@@ -5731,7 +5731,7 @@ export class AutoscalingGroup extends cdktn.TerraformResource {
   }
 
   // max_size - computed: false, optional: false, required: true
-  private _maxSize?: number;
+  private _maxSize?: number; 
   public get maxSize() {
     return this.getNumberAttribute('max_size');
   }
@@ -5744,7 +5744,7 @@ export class AutoscalingGroup extends cdktn.TerraformResource {
   }
 
   // metrics_granularity - computed: false, optional: true, required: false
-  private _metricsGranularity?: string;
+  private _metricsGranularity?: string; 
   public get metricsGranularity() {
     return this.getStringAttribute('metrics_granularity');
   }
@@ -5760,7 +5760,7 @@ export class AutoscalingGroup extends cdktn.TerraformResource {
   }
 
   // min_elb_capacity - computed: false, optional: true, required: false
-  private _minElbCapacity?: number;
+  private _minElbCapacity?: number; 
   public get minElbCapacity() {
     return this.getNumberAttribute('min_elb_capacity');
   }
@@ -5776,7 +5776,7 @@ export class AutoscalingGroup extends cdktn.TerraformResource {
   }
 
   // min_size - computed: false, optional: false, required: true
-  private _minSize?: number;
+  private _minSize?: number; 
   public get minSize() {
     return this.getNumberAttribute('min_size');
   }
@@ -5789,7 +5789,7 @@ export class AutoscalingGroup extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -5805,7 +5805,7 @@ export class AutoscalingGroup extends cdktn.TerraformResource {
   }
 
   // name_prefix - computed: true, optional: true, required: false
-  private _namePrefix?: string;
+  private _namePrefix?: string; 
   public get namePrefix() {
     return this.getStringAttribute('name_prefix');
   }
@@ -5821,7 +5821,7 @@ export class AutoscalingGroup extends cdktn.TerraformResource {
   }
 
   // placement_group - computed: false, optional: true, required: false
-  private _placementGroup?: string;
+  private _placementGroup?: string; 
   public get placementGroup() {
     return this.getStringAttribute('placement_group');
   }
@@ -5842,7 +5842,7 @@ export class AutoscalingGroup extends cdktn.TerraformResource {
   }
 
   // protect_from_scale_in - computed: false, optional: true, required: false
-  private _protectFromScaleIn?: boolean | cdktn.IResolvable;
+  private _protectFromScaleIn?: boolean | cdktn.IResolvable; 
   public get protectFromScaleIn() {
     return this.getBooleanAttribute('protect_from_scale_in');
   }
@@ -5858,7 +5858,7 @@ export class AutoscalingGroup extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -5874,7 +5874,7 @@ export class AutoscalingGroup extends cdktn.TerraformResource {
   }
 
   // service_linked_role_arn - computed: true, optional: true, required: false
-  private _serviceLinkedRoleArn?: string;
+  private _serviceLinkedRoleArn?: string; 
   public get serviceLinkedRoleArn() {
     return this.getStringAttribute('service_linked_role_arn');
   }
@@ -5890,7 +5890,7 @@ export class AutoscalingGroup extends cdktn.TerraformResource {
   }
 
   // suspended_processes - computed: false, optional: true, required: false
-  private _suspendedProcesses?: string[];
+  private _suspendedProcesses?: string[]; 
   public get suspendedProcesses() {
     return cdktn.Fn.tolist(this.getListAttribute('suspended_processes'));
   }
@@ -5906,7 +5906,7 @@ export class AutoscalingGroup extends cdktn.TerraformResource {
   }
 
   // target_group_arns - computed: true, optional: true, required: false
-  private _targetGroupArns?: string[];
+  private _targetGroupArns?: string[]; 
   public get targetGroupArns() {
     return cdktn.Fn.tolist(this.getListAttribute('target_group_arns'));
   }
@@ -5922,7 +5922,7 @@ export class AutoscalingGroup extends cdktn.TerraformResource {
   }
 
   // termination_policies - computed: false, optional: true, required: false
-  private _terminationPolicies?: string[];
+  private _terminationPolicies?: string[]; 
   public get terminationPolicies() {
     return this.getListAttribute('termination_policies');
   }
@@ -5938,7 +5938,7 @@ export class AutoscalingGroup extends cdktn.TerraformResource {
   }
 
   // vpc_zone_identifier - computed: true, optional: true, required: false
-  private _vpcZoneIdentifier?: string[];
+  private _vpcZoneIdentifier?: string[]; 
   public get vpcZoneIdentifier() {
     return cdktn.Fn.tolist(this.getListAttribute('vpc_zone_identifier'));
   }
@@ -5954,7 +5954,7 @@ export class AutoscalingGroup extends cdktn.TerraformResource {
   }
 
   // wait_for_capacity_timeout - computed: false, optional: true, required: false
-  private _waitForCapacityTimeout?: string;
+  private _waitForCapacityTimeout?: string; 
   public get waitForCapacityTimeout() {
     return this.getStringAttribute('wait_for_capacity_timeout');
   }
@@ -5970,7 +5970,7 @@ export class AutoscalingGroup extends cdktn.TerraformResource {
   }
 
   // wait_for_elb_capacity - computed: false, optional: true, required: false
-  private _waitForElbCapacity?: number;
+  private _waitForElbCapacity?: number; 
   public get waitForElbCapacity() {
     return this.getNumberAttribute('wait_for_elb_capacity');
   }

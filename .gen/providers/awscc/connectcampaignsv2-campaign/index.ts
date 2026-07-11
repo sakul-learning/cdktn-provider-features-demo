@@ -193,7 +193,7 @@ export class Connectcampaignsv2CampaignChannelSubtypeConfigEmailDefaultOutboundC
   }
 
   // connect_source_email_address - computed: true, optional: true, required: false
-  private _connectSourceEmailAddress?: string;
+  private _connectSourceEmailAddress?: string; 
   public get connectSourceEmailAddress() {
     return this.getStringAttribute('connect_source_email_address');
   }
@@ -209,7 +209,7 @@ export class Connectcampaignsv2CampaignChannelSubtypeConfigEmailDefaultOutboundC
   }
 
   // source_email_address_display_name - computed: true, optional: true, required: false
-  private _sourceEmailAddressDisplayName?: string;
+  private _sourceEmailAddressDisplayName?: string; 
   public get sourceEmailAddressDisplayName() {
     return this.getStringAttribute('source_email_address_display_name');
   }
@@ -225,7 +225,7 @@ export class Connectcampaignsv2CampaignChannelSubtypeConfigEmailDefaultOutboundC
   }
 
   // wisdom_template_arn - computed: true, optional: true, required: false
-  private _wisdomTemplateArn?: string;
+  private _wisdomTemplateArn?: string; 
   public get wisdomTemplateArn() {
     return this.getStringAttribute('wisdom_template_arn');
   }
@@ -321,7 +321,7 @@ export class Connectcampaignsv2CampaignChannelSubtypeConfigEmailOutboundModeOutp
   }
 
   // agentless_config - computed: true, optional: true, required: false
-  private _agentlessConfig?: string;
+  private _agentlessConfig?: string; 
   public get agentlessConfig() {
     return this.getStringAttribute('agentless_config');
   }
@@ -455,7 +455,7 @@ export class Connectcampaignsv2CampaignChannelSubtypeConfigEmailOutputReference 
   }
 
   // capacity - computed: true, optional: true, required: false
-  private _capacity?: number;
+  private _capacity?: number; 
   public get capacity() {
     return this.getNumberAttribute('capacity');
   }
@@ -602,7 +602,7 @@ export class Connectcampaignsv2CampaignChannelSubtypeConfigSmsDefaultOutboundCon
   }
 
   // connect_source_phone_number_arn - computed: true, optional: true, required: false
-  private _connectSourcePhoneNumberArn?: string;
+  private _connectSourcePhoneNumberArn?: string; 
   public get connectSourcePhoneNumberArn() {
     return this.getStringAttribute('connect_source_phone_number_arn');
   }
@@ -618,7 +618,7 @@ export class Connectcampaignsv2CampaignChannelSubtypeConfigSmsDefaultOutboundCon
   }
 
   // wisdom_template_arn - computed: true, optional: true, required: false
-  private _wisdomTemplateArn?: string;
+  private _wisdomTemplateArn?: string; 
   public get wisdomTemplateArn() {
     return this.getStringAttribute('wisdom_template_arn');
   }
@@ -714,7 +714,7 @@ export class Connectcampaignsv2CampaignChannelSubtypeConfigSmsOutboundModeOutput
   }
 
   // agentless_config - computed: true, optional: true, required: false
-  private _agentlessConfig?: string;
+  private _agentlessConfig?: string; 
   public get agentlessConfig() {
     return this.getStringAttribute('agentless_config');
   }
@@ -848,7 +848,7 @@ export class Connectcampaignsv2CampaignChannelSubtypeConfigSmsOutputReference ex
   }
 
   // capacity - computed: true, optional: true, required: false
-  private _capacity?: number;
+  private _capacity?: number; 
   public get capacity() {
     return this.getNumberAttribute('capacity');
   }
@@ -995,7 +995,7 @@ export class Connectcampaignsv2CampaignChannelSubtypeConfigTelephonyDefaultOutbo
   }
 
   // await_answer_machine_prompt - computed: true, optional: true, required: false
-  private _awaitAnswerMachinePrompt?: boolean | cdktn.IResolvable;
+  private _awaitAnswerMachinePrompt?: boolean | cdktn.IResolvable; 
   public get awaitAnswerMachinePrompt() {
     return this.getBooleanAttribute('await_answer_machine_prompt');
   }
@@ -1011,7 +1011,7 @@ export class Connectcampaignsv2CampaignChannelSubtypeConfigTelephonyDefaultOutbo
   }
 
   // enable_answer_machine_detection - computed: true, optional: true, required: false
-  private _enableAnswerMachineDetection?: boolean | cdktn.IResolvable;
+  private _enableAnswerMachineDetection?: boolean | cdktn.IResolvable; 
   public get enableAnswerMachineDetection() {
     return this.getBooleanAttribute('enable_answer_machine_detection');
   }
@@ -1180,7 +1180,7 @@ export class Connectcampaignsv2CampaignChannelSubtypeConfigTelephonyDefaultOutbo
   }
 
   // connect_contact_flow_id - computed: true, optional: true, required: false
-  private _connectContactFlowId?: string;
+  private _connectContactFlowId?: string; 
   public get connectContactFlowId() {
     return this.getStringAttribute('connect_contact_flow_id');
   }
@@ -1196,7 +1196,7 @@ export class Connectcampaignsv2CampaignChannelSubtypeConfigTelephonyDefaultOutbo
   }
 
   // connect_source_phone_number - computed: true, optional: true, required: false
-  private _connectSourcePhoneNumber?: string;
+  private _connectSourcePhoneNumber?: string; 
   public get connectSourcePhoneNumber() {
     return this.getStringAttribute('connect_source_phone_number');
   }
@@ -1212,7 +1212,7 @@ export class Connectcampaignsv2CampaignChannelSubtypeConfigTelephonyDefaultOutbo
   }
 
   // ring_timeout - computed: true, optional: true, required: false
-  private _ringTimeout?: number;
+  private _ringTimeout?: number; 
   public get ringTimeout() {
     return this.getNumberAttribute('ring_timeout');
   }
@@ -1308,7 +1308,7 @@ export class Connectcampaignsv2CampaignChannelSubtypeConfigTelephonyOutboundMode
   }
 
   // bandwidth_allocation - computed: true, optional: true, required: false
-  private _bandwidthAllocation?: number;
+  private _bandwidthAllocation?: number; 
   public get bandwidthAllocation() {
     return this.getNumberAttribute('bandwidth_allocation');
   }
@@ -1404,7 +1404,7 @@ export class Connectcampaignsv2CampaignChannelSubtypeConfigTelephonyOutboundMode
   }
 
   // duration_in_seconds - computed: true, optional: true, required: false
-  private _durationInSeconds?: number;
+  private _durationInSeconds?: number; 
   public get durationInSeconds() {
     return this.getNumberAttribute('duration_in_seconds');
   }
@@ -1538,7 +1538,7 @@ export class Connectcampaignsv2CampaignChannelSubtypeConfigTelephonyOutboundMode
   }
 
   // agent_actions - computed: true, optional: true, required: false
-  private _agentActions?: string[];
+  private _agentActions?: string[]; 
   public get agentActions() {
     return this.getListAttribute('agent_actions');
   }
@@ -1554,7 +1554,7 @@ export class Connectcampaignsv2CampaignChannelSubtypeConfigTelephonyOutboundMode
   }
 
   // bandwidth_allocation - computed: true, optional: true, required: false
-  private _bandwidthAllocation?: number;
+  private _bandwidthAllocation?: number; 
   public get bandwidthAllocation() {
     return this.getNumberAttribute('bandwidth_allocation');
   }
@@ -1666,7 +1666,7 @@ export class Connectcampaignsv2CampaignChannelSubtypeConfigTelephonyOutboundMode
   }
 
   // bandwidth_allocation - computed: true, optional: true, required: false
-  private _bandwidthAllocation?: number;
+  private _bandwidthAllocation?: number; 
   public get bandwidthAllocation() {
     return this.getNumberAttribute('bandwidth_allocation');
   }
@@ -1819,7 +1819,7 @@ export class Connectcampaignsv2CampaignChannelSubtypeConfigTelephonyOutboundMode
   }
 
   // agentless_config - computed: true, optional: true, required: false
-  private _agentlessConfig?: string;
+  private _agentlessConfig?: string; 
   public get agentlessConfig() {
     return this.getStringAttribute('agentless_config');
   }
@@ -2020,7 +2020,7 @@ export class Connectcampaignsv2CampaignChannelSubtypeConfigTelephonyOutputRefere
   }
 
   // capacity - computed: true, optional: true, required: false
-  private _capacity?: number;
+  private _capacity?: number; 
   public get capacity() {
     return this.getNumberAttribute('capacity');
   }
@@ -2036,7 +2036,7 @@ export class Connectcampaignsv2CampaignChannelSubtypeConfigTelephonyOutputRefere
   }
 
   // connect_queue_id - computed: true, optional: true, required: false
-  private _connectQueueId?: string;
+  private _connectQueueId?: string; 
   public get connectQueueId() {
     return this.getStringAttribute('connect_queue_id');
   }
@@ -2183,7 +2183,7 @@ export class Connectcampaignsv2CampaignChannelSubtypeConfigWhatsAppDefaultOutbou
   }
 
   // connect_source_phone_number_arn - computed: true, optional: true, required: false
-  private _connectSourcePhoneNumberArn?: string;
+  private _connectSourcePhoneNumberArn?: string; 
   public get connectSourcePhoneNumberArn() {
     return this.getStringAttribute('connect_source_phone_number_arn');
   }
@@ -2199,7 +2199,7 @@ export class Connectcampaignsv2CampaignChannelSubtypeConfigWhatsAppDefaultOutbou
   }
 
   // wisdom_template_arn - computed: true, optional: true, required: false
-  private _wisdomTemplateArn?: string;
+  private _wisdomTemplateArn?: string; 
   public get wisdomTemplateArn() {
     return this.getStringAttribute('wisdom_template_arn');
   }
@@ -2295,7 +2295,7 @@ export class Connectcampaignsv2CampaignChannelSubtypeConfigWhatsAppOutboundModeO
   }
 
   // agentless_config - computed: true, optional: true, required: false
-  private _agentlessConfig?: string;
+  private _agentlessConfig?: string; 
   public get agentlessConfig() {
     return this.getStringAttribute('agentless_config');
   }
@@ -2429,7 +2429,7 @@ export class Connectcampaignsv2CampaignChannelSubtypeConfigWhatsAppOutputReferen
   }
 
   // capacity - computed: true, optional: true, required: false
-  private _capacity?: number;
+  private _capacity?: number; 
   public get capacity() {
     return this.getNumberAttribute('capacity');
   }
@@ -2794,7 +2794,7 @@ export class Connectcampaignsv2CampaignCommunicationLimitsOverrideAllChannelsSub
   }
 
   // frequency - computed: true, optional: true, required: false
-  private _frequency?: number;
+  private _frequency?: number; 
   public get frequency() {
     return this.getNumberAttribute('frequency');
   }
@@ -2810,7 +2810,7 @@ export class Connectcampaignsv2CampaignCommunicationLimitsOverrideAllChannelsSub
   }
 
   // max_count_per_recipient - computed: true, optional: true, required: false
-  private _maxCountPerRecipient?: number;
+  private _maxCountPerRecipient?: number; 
   public get maxCountPerRecipient() {
     return this.getNumberAttribute('max_count_per_recipient');
   }
@@ -2826,7 +2826,7 @@ export class Connectcampaignsv2CampaignCommunicationLimitsOverrideAllChannelsSub
   }
 
   // unit - computed: true, optional: true, required: false
-  private _unit?: string;
+  private _unit?: string; 
   public get unit() {
     return this.getStringAttribute('unit');
   }
@@ -3073,7 +3073,7 @@ export class Connectcampaignsv2CampaignCommunicationLimitsOverrideOutputReferenc
   }
 
   // instance_limits_handling - computed: true, optional: true, required: false
-  private _instanceLimitsHandling?: string;
+  private _instanceLimitsHandling?: string; 
   public get instanceLimitsHandling() {
     return this.getStringAttribute('instance_limits_handling');
   }
@@ -3190,7 +3190,7 @@ export class Connectcampaignsv2CampaignCommunicationTimeConfigEmailOpenHoursDail
   }
 
   // end_time - computed: true, optional: true, required: false
-  private _endTime?: string;
+  private _endTime?: string; 
   public get endTime() {
     return this.getStringAttribute('end_time');
   }
@@ -3206,7 +3206,7 @@ export class Connectcampaignsv2CampaignCommunicationTimeConfigEmailOpenHoursDail
   }
 
   // start_time - computed: true, optional: true, required: false
-  private _startTime?: string;
+  private _startTime?: string; 
   public get startTime() {
     return this.getStringAttribute('start_time');
   }
@@ -3343,7 +3343,7 @@ export class Connectcampaignsv2CampaignCommunicationTimeConfigEmailOpenHoursDail
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -3611,7 +3611,7 @@ export class Connectcampaignsv2CampaignCommunicationTimeConfigEmailRestrictedPer
   }
 
   // end_date - computed: true, optional: true, required: false
-  private _endDate?: string;
+  private _endDate?: string; 
   public get endDate() {
     return this.getStringAttribute('end_date');
   }
@@ -3627,7 +3627,7 @@ export class Connectcampaignsv2CampaignCommunicationTimeConfigEmailRestrictedPer
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -3643,7 +3643,7 @@ export class Connectcampaignsv2CampaignCommunicationTimeConfigEmailRestrictedPer
   }
 
   // start_date - computed: true, optional: true, required: false
-  private _startDate?: string;
+  private _startDate?: string; 
   public get startDate() {
     return this.getStringAttribute('start_date');
   }
@@ -4024,7 +4024,7 @@ export class Connectcampaignsv2CampaignCommunicationTimeConfigLocalTimeZoneConfi
   }
 
   // default_time_zone - computed: true, optional: true, required: false
-  private _defaultTimeZone?: string;
+  private _defaultTimeZone?: string; 
   public get defaultTimeZone() {
     return this.getStringAttribute('default_time_zone');
   }
@@ -4040,7 +4040,7 @@ export class Connectcampaignsv2CampaignCommunicationTimeConfigLocalTimeZoneConfi
   }
 
   // local_time_zone_detection - computed: true, optional: true, required: false
-  private _localTimeZoneDetection?: string[];
+  private _localTimeZoneDetection?: string[]; 
   public get localTimeZoneDetection() {
     return this.getListAttribute('local_time_zone_detection');
   }
@@ -4056,7 +4056,7 @@ export class Connectcampaignsv2CampaignCommunicationTimeConfigLocalTimeZoneConfi
   }
 
   // local_time_zone_detection_scope - computed: true, optional: true, required: false
-  private _localTimeZoneDetectionScope?: string;
+  private _localTimeZoneDetectionScope?: string; 
   public get localTimeZoneDetectionScope() {
     return this.getStringAttribute('local_time_zone_detection_scope');
   }
@@ -4173,7 +4173,7 @@ export class Connectcampaignsv2CampaignCommunicationTimeConfigSmsOpenHoursDailyH
   }
 
   // end_time - computed: true, optional: true, required: false
-  private _endTime?: string;
+  private _endTime?: string; 
   public get endTime() {
     return this.getStringAttribute('end_time');
   }
@@ -4189,7 +4189,7 @@ export class Connectcampaignsv2CampaignCommunicationTimeConfigSmsOpenHoursDailyH
   }
 
   // start_time - computed: true, optional: true, required: false
-  private _startTime?: string;
+  private _startTime?: string; 
   public get startTime() {
     return this.getStringAttribute('start_time');
   }
@@ -4326,7 +4326,7 @@ export class Connectcampaignsv2CampaignCommunicationTimeConfigSmsOpenHoursDailyH
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -4594,7 +4594,7 @@ export class Connectcampaignsv2CampaignCommunicationTimeConfigSmsRestrictedPerio
   }
 
   // end_date - computed: true, optional: true, required: false
-  private _endDate?: string;
+  private _endDate?: string; 
   public get endDate() {
     return this.getStringAttribute('end_date');
   }
@@ -4610,7 +4610,7 @@ export class Connectcampaignsv2CampaignCommunicationTimeConfigSmsRestrictedPerio
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -4626,7 +4626,7 @@ export class Connectcampaignsv2CampaignCommunicationTimeConfigSmsRestrictedPerio
   }
 
   // start_date - computed: true, optional: true, required: false
-  private _startDate?: string;
+  private _startDate?: string; 
   public get startDate() {
     return this.getStringAttribute('start_date');
   }
@@ -4990,7 +4990,7 @@ export class Connectcampaignsv2CampaignCommunicationTimeConfigTelephonyOpenHours
   }
 
   // end_time - computed: true, optional: true, required: false
-  private _endTime?: string;
+  private _endTime?: string; 
   public get endTime() {
     return this.getStringAttribute('end_time');
   }
@@ -5006,7 +5006,7 @@ export class Connectcampaignsv2CampaignCommunicationTimeConfigTelephonyOpenHours
   }
 
   // start_time - computed: true, optional: true, required: false
-  private _startTime?: string;
+  private _startTime?: string; 
   public get startTime() {
     return this.getStringAttribute('start_time');
   }
@@ -5143,7 +5143,7 @@ export class Connectcampaignsv2CampaignCommunicationTimeConfigTelephonyOpenHours
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -5411,7 +5411,7 @@ export class Connectcampaignsv2CampaignCommunicationTimeConfigTelephonyRestricte
   }
 
   // end_date - computed: true, optional: true, required: false
-  private _endDate?: string;
+  private _endDate?: string; 
   public get endDate() {
     return this.getStringAttribute('end_date');
   }
@@ -5427,7 +5427,7 @@ export class Connectcampaignsv2CampaignCommunicationTimeConfigTelephonyRestricte
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -5443,7 +5443,7 @@ export class Connectcampaignsv2CampaignCommunicationTimeConfigTelephonyRestricte
   }
 
   // start_date - computed: true, optional: true, required: false
-  private _startDate?: string;
+  private _startDate?: string; 
   public get startDate() {
     return this.getStringAttribute('start_date');
   }
@@ -5807,7 +5807,7 @@ export class Connectcampaignsv2CampaignCommunicationTimeConfigWhatsAppOpenHoursD
   }
 
   // end_time - computed: true, optional: true, required: false
-  private _endTime?: string;
+  private _endTime?: string; 
   public get endTime() {
     return this.getStringAttribute('end_time');
   }
@@ -5823,7 +5823,7 @@ export class Connectcampaignsv2CampaignCommunicationTimeConfigWhatsAppOpenHoursD
   }
 
   // start_time - computed: true, optional: true, required: false
-  private _startTime?: string;
+  private _startTime?: string; 
   public get startTime() {
     return this.getStringAttribute('start_time');
   }
@@ -5960,7 +5960,7 @@ export class Connectcampaignsv2CampaignCommunicationTimeConfigWhatsAppOpenHoursD
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -6228,7 +6228,7 @@ export class Connectcampaignsv2CampaignCommunicationTimeConfigWhatsAppRestricted
   }
 
   // end_date - computed: true, optional: true, required: false
-  private _endDate?: string;
+  private _endDate?: string; 
   public get endDate() {
     return this.getStringAttribute('end_date');
   }
@@ -6244,7 +6244,7 @@ export class Connectcampaignsv2CampaignCommunicationTimeConfigWhatsAppRestricted
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -6260,7 +6260,7 @@ export class Connectcampaignsv2CampaignCommunicationTimeConfigWhatsAppRestricted
   }
 
   // start_date - computed: true, optional: true, required: false
-  private _startDate?: string;
+  private _startDate?: string; 
   public get startDate() {
     return this.getStringAttribute('start_date');
   }
@@ -6858,7 +6858,7 @@ export class Connectcampaignsv2CampaignEntryLimitsConfigOutputReference extends 
   }
 
   // max_entry_count - computed: true, optional: true, required: false
-  private _maxEntryCount?: number;
+  private _maxEntryCount?: number; 
   public get maxEntryCount() {
     return this.getNumberAttribute('max_entry_count');
   }
@@ -6874,7 +6874,7 @@ export class Connectcampaignsv2CampaignEntryLimitsConfigOutputReference extends 
   }
 
   // min_entry_interval - computed: true, optional: true, required: false
-  private _minEntryInterval?: string;
+  private _minEntryInterval?: string; 
   public get minEntryInterval() {
     return this.getStringAttribute('min_entry_interval');
   }
@@ -7008,7 +7008,7 @@ export class Connectcampaignsv2CampaignScheduleOutputReference extends cdktn.Com
   }
 
   // end_time - computed: true, optional: true, required: false
-  private _endTime?: string;
+  private _endTime?: string; 
   public get endTime() {
     return this.getStringAttribute('end_time');
   }
@@ -7024,7 +7024,7 @@ export class Connectcampaignsv2CampaignScheduleOutputReference extends cdktn.Com
   }
 
   // refresh_frequency - computed: true, optional: true, required: false
-  private _refreshFrequency?: string;
+  private _refreshFrequency?: string; 
   public get refreshFrequency() {
     return this.getStringAttribute('refresh_frequency');
   }
@@ -7040,7 +7040,7 @@ export class Connectcampaignsv2CampaignScheduleOutputReference extends cdktn.Com
   }
 
   // start_time - computed: true, optional: true, required: false
-  private _startTime?: string;
+  private _startTime?: string; 
   public get startTime() {
     return this.getStringAttribute('start_time');
   }
@@ -7136,7 +7136,7 @@ export class Connectcampaignsv2CampaignSourceEventTriggerOutputReference extends
   }
 
   // customer_profiles_domain_arn - computed: true, optional: true, required: false
-  private _customerProfilesDomainArn?: string;
+  private _customerProfilesDomainArn?: string; 
   public get customerProfilesDomainArn() {
     return this.getStringAttribute('customer_profiles_domain_arn');
   }
@@ -7251,7 +7251,7 @@ export class Connectcampaignsv2CampaignSourceOutputReference extends cdktn.Compl
   }
 
   // customer_profiles_segment_arn - computed: true, optional: true, required: false
-  private _customerProfilesSegmentArn?: string;
+  private _customerProfilesSegmentArn?: string; 
   public get customerProfilesSegmentArn() {
     return this.getStringAttribute('customer_profiles_segment_arn');
   }
@@ -7384,7 +7384,7 @@ export class Connectcampaignsv2CampaignTagsOutputReference extends cdktn.Complex
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -7400,7 +7400,7 @@ export class Connectcampaignsv2CampaignTagsOutputReference extends cdktn.Complex
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -7557,7 +7557,7 @@ export class Connectcampaignsv2Campaign extends cdktn.TerraformResource {
   }
 
   // connect_campaign_flow_arn - computed: true, optional: true, required: false
-  private _connectCampaignFlowArn?: string;
+  private _connectCampaignFlowArn?: string; 
   public get connectCampaignFlowArn() {
     return this.getStringAttribute('connect_campaign_flow_arn');
   }
@@ -7573,7 +7573,7 @@ export class Connectcampaignsv2Campaign extends cdktn.TerraformResource {
   }
 
   // connect_instance_id - computed: false, optional: false, required: true
-  private _connectInstanceId?: string;
+  private _connectInstanceId?: string; 
   public get connectInstanceId() {
     return this.getStringAttribute('connect_instance_id');
   }
@@ -7607,7 +7607,7 @@ export class Connectcampaignsv2Campaign extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -7668,7 +7668,7 @@ export class Connectcampaignsv2Campaign extends cdktn.TerraformResource {
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }

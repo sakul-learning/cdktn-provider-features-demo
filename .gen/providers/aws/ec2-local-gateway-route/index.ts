@@ -96,7 +96,7 @@ export class Ec2LocalGatewayRoute extends cdktn.TerraformResource {
   // ==========
 
   // destination_cidr_block - computed: false, optional: false, required: true
-  private _destinationCidrBlock?: string;
+  private _destinationCidrBlock?: string; 
   public get destinationCidrBlock() {
     return this.getStringAttribute('destination_cidr_block');
   }
@@ -109,7 +109,7 @@ export class Ec2LocalGatewayRoute extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -125,7 +125,7 @@ export class Ec2LocalGatewayRoute extends cdktn.TerraformResource {
   }
 
   // local_gateway_route_table_id - computed: false, optional: false, required: true
-  private _localGatewayRouteTableId?: string;
+  private _localGatewayRouteTableId?: string; 
   public get localGatewayRouteTableId() {
     return this.getStringAttribute('local_gateway_route_table_id');
   }
@@ -138,7 +138,7 @@ export class Ec2LocalGatewayRoute extends cdktn.TerraformResource {
   }
 
   // local_gateway_virtual_interface_group_id - computed: false, optional: false, required: true
-  private _localGatewayVirtualInterfaceGroupId?: string;
+  private _localGatewayVirtualInterfaceGroupId?: string; 
   public get localGatewayVirtualInterfaceGroupId() {
     return this.getStringAttribute('local_gateway_virtual_interface_group_id');
   }
@@ -151,7 +151,7 @@ export class Ec2LocalGatewayRoute extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

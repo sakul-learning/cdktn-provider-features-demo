@@ -147,7 +147,7 @@ export class DataAwsAvailabilityZonesFilterOutputReference extends cdktn.Complex
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -160,7 +160,7 @@ export class DataAwsAvailabilityZonesFilterOutputReference extends cdktn.Complex
   }
 
   // values - computed: false, optional: false, required: true
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -271,7 +271,7 @@ export class DataAwsAvailabilityZonesTimeoutsOutputReference extends cdktn.Compl
   }
 
   // read - computed: false, optional: true, required: false
-  private _read?: string;
+  private _read?: string; 
   public get read() {
     return this.getStringAttribute('read');
   }
@@ -352,7 +352,7 @@ export class DataAwsAvailabilityZones extends cdktn.TerraformDataSource {
   // ==========
 
   // all_availability_zones - computed: false, optional: true, required: false
-  private _allAvailabilityZones?: boolean | cdktn.IResolvable;
+  private _allAvailabilityZones?: boolean | cdktn.IResolvable; 
   public get allAvailabilityZones() {
     return this.getBooleanAttribute('all_availability_zones');
   }
@@ -368,7 +368,7 @@ export class DataAwsAvailabilityZones extends cdktn.TerraformDataSource {
   }
 
   // exclude_names - computed: false, optional: true, required: false
-  private _excludeNames?: string[];
+  private _excludeNames?: string[]; 
   public get excludeNames() {
     return cdktn.Fn.tolist(this.getListAttribute('exclude_names'));
   }
@@ -384,7 +384,7 @@ export class DataAwsAvailabilityZones extends cdktn.TerraformDataSource {
   }
 
   // exclude_zone_ids - computed: false, optional: true, required: false
-  private _excludeZoneIds?: string[];
+  private _excludeZoneIds?: string[]; 
   public get excludeZoneIds() {
     return cdktn.Fn.tolist(this.getListAttribute('exclude_zone_ids'));
   }
@@ -405,7 +405,7 @@ export class DataAwsAvailabilityZones extends cdktn.TerraformDataSource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -426,7 +426,7 @@ export class DataAwsAvailabilityZones extends cdktn.TerraformDataSource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -442,7 +442,7 @@ export class DataAwsAvailabilityZones extends cdktn.TerraformDataSource {
   }
 
   // state - computed: false, optional: true, required: false
-  private _state?: string;
+  private _state?: string; 
   public get state() {
     return this.getStringAttribute('state');
   }

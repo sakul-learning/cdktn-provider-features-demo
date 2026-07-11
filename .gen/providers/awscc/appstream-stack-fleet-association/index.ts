@@ -80,7 +80,7 @@ export class AppstreamStackFleetAssociation extends cdktn.TerraformResource {
   // ==========
 
   // fleet_name - computed: false, optional: false, required: true
-  private _fleetName?: string;
+  private _fleetName?: string; 
   public get fleetName() {
     return this.getStringAttribute('fleet_name');
   }
@@ -98,7 +98,7 @@ export class AppstreamStackFleetAssociation extends cdktn.TerraformResource {
   }
 
   // stack_name - computed: false, optional: false, required: true
-  private _stackName?: string;
+  private _stackName?: string; 
   public get stackName() {
     return this.getStringAttribute('stack_name');
   }

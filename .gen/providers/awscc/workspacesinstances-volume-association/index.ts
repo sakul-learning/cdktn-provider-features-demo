@@ -94,7 +94,7 @@ export class WorkspacesinstancesVolumeAssociation extends cdktn.TerraformResourc
   // ==========
 
   // device - computed: false, optional: false, required: true
-  private _device?: string;
+  private _device?: string; 
   public get device() {
     return this.getStringAttribute('device');
   }
@@ -107,7 +107,7 @@ export class WorkspacesinstancesVolumeAssociation extends cdktn.TerraformResourc
   }
 
   // disassociate_mode - computed: true, optional: true, required: false
-  private _disassociateMode?: string;
+  private _disassociateMode?: string; 
   public get disassociateMode() {
     return this.getStringAttribute('disassociate_mode');
   }
@@ -128,7 +128,7 @@ export class WorkspacesinstancesVolumeAssociation extends cdktn.TerraformResourc
   }
 
   // volume_id - computed: false, optional: false, required: true
-  private _volumeId?: string;
+  private _volumeId?: string; 
   public get volumeId() {
     return this.getStringAttribute('volume_id');
   }
@@ -141,7 +141,7 @@ export class WorkspacesinstancesVolumeAssociation extends cdktn.TerraformResourc
   }
 
   // workspace_instance_id - computed: false, optional: false, required: true
-  private _workspaceInstanceId?: string;
+  private _workspaceInstanceId?: string; 
   public get workspaceInstanceId() {
     return this.getStringAttribute('workspace_instance_id');
   }

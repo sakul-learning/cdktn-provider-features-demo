@@ -81,7 +81,7 @@ export class NetworkmanagerAttachmentRoutingPolicyLabel extends cdktn.TerraformR
   // ==========
 
   // attachment_id - computed: false, optional: false, required: true
-  private _attachmentId?: string;
+  private _attachmentId?: string; 
   public get attachmentId() {
     return this.getStringAttribute('attachment_id');
   }
@@ -94,7 +94,7 @@ export class NetworkmanagerAttachmentRoutingPolicyLabel extends cdktn.TerraformR
   }
 
   // core_network_id - computed: false, optional: false, required: true
-  private _coreNetworkId?: string;
+  private _coreNetworkId?: string; 
   public get coreNetworkId() {
     return this.getStringAttribute('core_network_id');
   }
@@ -107,7 +107,7 @@ export class NetworkmanagerAttachmentRoutingPolicyLabel extends cdktn.TerraformR
   }
 
   // routing_policy_label - computed: false, optional: false, required: true
-  private _routingPolicyLabel?: string;
+  private _routingPolicyLabel?: string; 
   public get routingPolicyLabel() {
     return this.getStringAttribute('routing_policy_label');
   }

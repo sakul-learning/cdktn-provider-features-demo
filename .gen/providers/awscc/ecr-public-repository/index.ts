@@ -190,7 +190,7 @@ export class EcrPublicRepositoryRepositoryCatalogDataOutputReference extends cdk
   }
 
   // about_text - computed: true, optional: true, required: false
-  private _aboutText?: string;
+  private _aboutText?: string; 
   public get aboutText() {
     return this.getStringAttribute('about_text');
   }
@@ -206,7 +206,7 @@ export class EcrPublicRepositoryRepositoryCatalogDataOutputReference extends cdk
   }
 
   // architectures - computed: true, optional: true, required: false
-  private _architectures?: string[];
+  private _architectures?: string[]; 
   public get architectures() {
     return cdktn.Fn.tolist(this.getListAttribute('architectures'));
   }
@@ -222,7 +222,7 @@ export class EcrPublicRepositoryRepositoryCatalogDataOutputReference extends cdk
   }
 
   // operating_systems - computed: true, optional: true, required: false
-  private _operatingSystems?: string[];
+  private _operatingSystems?: string[]; 
   public get operatingSystems() {
     return cdktn.Fn.tolist(this.getListAttribute('operating_systems'));
   }
@@ -238,7 +238,7 @@ export class EcrPublicRepositoryRepositoryCatalogDataOutputReference extends cdk
   }
 
   // repository_description - computed: true, optional: true, required: false
-  private _repositoryDescription?: string;
+  private _repositoryDescription?: string; 
   public get repositoryDescription() {
     return this.getStringAttribute('repository_description');
   }
@@ -254,7 +254,7 @@ export class EcrPublicRepositoryRepositoryCatalogDataOutputReference extends cdk
   }
 
   // usage_text - computed: true, optional: true, required: false
-  private _usageText?: string;
+  private _usageText?: string; 
   public get usageText() {
     return this.getStringAttribute('usage_text');
   }
@@ -371,7 +371,7 @@ export class EcrPublicRepositoryTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -387,7 +387,7 @@ export class EcrPublicRepositoryTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -510,7 +510,7 @@ export class EcrPublicRepository extends cdktn.TerraformResource {
   }
 
   // repository_name - computed: true, optional: true, required: false
-  private _repositoryName?: string;
+  private _repositoryName?: string; 
   public get repositoryName() {
     return this.getStringAttribute('repository_name');
   }
@@ -526,7 +526,7 @@ export class EcrPublicRepository extends cdktn.TerraformResource {
   }
 
   // repository_policy_text - computed: true, optional: true, required: false
-  private _repositoryPolicyText?: string;
+  private _repositoryPolicyText?: string; 
   public get repositoryPolicyText() {
     return this.getStringAttribute('repository_policy_text');
   }

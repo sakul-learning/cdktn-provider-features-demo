@@ -143,7 +143,7 @@ export class CleanroomsConfiguredTableTableReferenceOutputReference extends cdkt
   }
 
   // database_name - computed: false, optional: false, required: true
-  private _databaseName?: string;
+  private _databaseName?: string; 
   public get databaseName() {
     return this.getStringAttribute('database_name');
   }
@@ -156,7 +156,7 @@ export class CleanroomsConfiguredTableTableReferenceOutputReference extends cdkt
   }
 
   // table_name - computed: false, optional: false, required: true
-  private _tableName?: string;
+  private _tableName?: string; 
   public get tableName() {
     return this.getStringAttribute('table_name');
   }
@@ -281,7 +281,7 @@ export class CleanroomsConfiguredTableTimeoutsOutputReference extends cdktn.Comp
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -297,7 +297,7 @@ export class CleanroomsConfiguredTableTimeoutsOutputReference extends cdktn.Comp
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -313,7 +313,7 @@ export class CleanroomsConfiguredTableTimeoutsOutputReference extends cdktn.Comp
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -396,7 +396,7 @@ export class CleanroomsConfiguredTable extends cdktn.TerraformResource {
   // ==========
 
   // allowed_columns - computed: false, optional: false, required: true
-  private _allowedColumns?: string[];
+  private _allowedColumns?: string[]; 
   public get allowedColumns() {
     return cdktn.Fn.tolist(this.getListAttribute('allowed_columns'));
   }
@@ -409,7 +409,7 @@ export class CleanroomsConfiguredTable extends cdktn.TerraformResource {
   }
 
   // analysis_method - computed: false, optional: false, required: true
-  private _analysisMethod?: string;
+  private _analysisMethod?: string; 
   public get analysisMethod() {
     return this.getStringAttribute('analysis_method');
   }
@@ -432,7 +432,7 @@ export class CleanroomsConfiguredTable extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -448,7 +448,7 @@ export class CleanroomsConfiguredTable extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -464,7 +464,7 @@ export class CleanroomsConfiguredTable extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -477,7 +477,7 @@ export class CleanroomsConfiguredTable extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -493,7 +493,7 @@ export class CleanroomsConfiguredTable extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -509,7 +509,7 @@ export class CleanroomsConfiguredTable extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

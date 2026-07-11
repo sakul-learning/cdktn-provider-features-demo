@@ -422,7 +422,7 @@ export class DataAwsImagebuilderInfrastructureConfiguration extends cdktn.Terraf
   // ==========
 
   // arn - computed: false, optional: false, required: true
-  private _arn?: string;
+  private _arn?: string; 
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -450,7 +450,7 @@ export class DataAwsImagebuilderInfrastructureConfiguration extends cdktn.Terraf
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -504,7 +504,7 @@ export class DataAwsImagebuilderInfrastructureConfiguration extends cdktn.Terraf
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -520,7 +520,7 @@ export class DataAwsImagebuilderInfrastructureConfiguration extends cdktn.Terraf
   }
 
   // resource_tags - computed: true, optional: true, required: false
-  private _resourceTags?: { [key: string]: string };
+  private _resourceTags?: { [key: string]: string }; 
   public get resourceTags() {
     return this.getStringMapAttribute('resource_tags');
   }
@@ -551,7 +551,7 @@ export class DataAwsImagebuilderInfrastructureConfiguration extends cdktn.Terraf
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

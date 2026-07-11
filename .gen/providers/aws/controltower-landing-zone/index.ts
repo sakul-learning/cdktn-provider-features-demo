@@ -235,7 +235,7 @@ export class ControltowerLandingZoneTimeoutsOutputReference extends cdktn.Comple
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -251,7 +251,7 @@ export class ControltowerLandingZoneTimeoutsOutputReference extends cdktn.Comple
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -267,7 +267,7 @@ export class ControltowerLandingZoneTimeoutsOutputReference extends cdktn.Comple
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -359,7 +359,7 @@ export class ControltowerLandingZone extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -380,7 +380,7 @@ export class ControltowerLandingZone extends cdktn.TerraformResource {
   }
 
   // manifest_json - computed: false, optional: false, required: true
-  private _manifestJson?: string;
+  private _manifestJson?: string; 
   public get manifestJson() {
     return this.getStringAttribute('manifest_json');
   }
@@ -393,7 +393,7 @@ export class ControltowerLandingZone extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -409,7 +409,7 @@ export class ControltowerLandingZone extends cdktn.TerraformResource {
   }
 
   // remediation_types - computed: false, optional: true, required: false
-  private _remediationTypes?: string[];
+  private _remediationTypes?: string[]; 
   public get remediationTypes() {
     return cdktn.Fn.tolist(this.getListAttribute('remediation_types'));
   }
@@ -425,7 +425,7 @@ export class ControltowerLandingZone extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -441,7 +441,7 @@ export class ControltowerLandingZone extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -457,7 +457,7 @@ export class ControltowerLandingZone extends cdktn.TerraformResource {
   }
 
   // version - computed: false, optional: false, required: true
-  private _version?: string;
+  private _version?: string; 
   public get version() {
     return this.getStringAttribute('version');
   }

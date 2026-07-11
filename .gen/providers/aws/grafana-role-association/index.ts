@@ -139,7 +139,7 @@ export class GrafanaRoleAssociationTimeoutsOutputReference extends cdktn.Complex
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -155,7 +155,7 @@ export class GrafanaRoleAssociationTimeoutsOutputReference extends cdktn.Complex
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -235,7 +235,7 @@ export class GrafanaRoleAssociation extends cdktn.TerraformResource {
   // ==========
 
   // group_ids - computed: false, optional: true, required: false
-  private _groupIds?: string[];
+  private _groupIds?: string[]; 
   public get groupIds() {
     return cdktn.Fn.tolist(this.getListAttribute('group_ids'));
   }
@@ -251,7 +251,7 @@ export class GrafanaRoleAssociation extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -267,7 +267,7 @@ export class GrafanaRoleAssociation extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -283,7 +283,7 @@ export class GrafanaRoleAssociation extends cdktn.TerraformResource {
   }
 
   // role - computed: false, optional: false, required: true
-  private _role?: string;
+  private _role?: string; 
   public get role() {
     return this.getStringAttribute('role');
   }
@@ -296,7 +296,7 @@ export class GrafanaRoleAssociation extends cdktn.TerraformResource {
   }
 
   // user_ids - computed: false, optional: true, required: false
-  private _userIds?: string[];
+  private _userIds?: string[]; 
   public get userIds() {
     return cdktn.Fn.tolist(this.getListAttribute('user_ids'));
   }
@@ -312,7 +312,7 @@ export class GrafanaRoleAssociation extends cdktn.TerraformResource {
   }
 
   // workspace_id - computed: false, optional: false, required: true
-  private _workspaceId?: string;
+  private _workspaceId?: string; 
   public get workspaceId() {
     return this.getStringAttribute('workspace_id');
   }

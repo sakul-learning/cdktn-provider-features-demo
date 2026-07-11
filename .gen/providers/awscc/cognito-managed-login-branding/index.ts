@@ -181,7 +181,7 @@ export class CognitoManagedLoginBrandingAssetsOutputReference extends cdktn.Comp
   }
 
   // bytes - computed: true, optional: true, required: false
-  private _bytes?: string;
+  private _bytes?: string; 
   public get bytes() {
     return this.getStringAttribute('bytes');
   }
@@ -197,7 +197,7 @@ export class CognitoManagedLoginBrandingAssetsOutputReference extends cdktn.Comp
   }
 
   // category - computed: true, optional: true, required: false
-  private _category?: string;
+  private _category?: string; 
   public get category() {
     return this.getStringAttribute('category');
   }
@@ -213,7 +213,7 @@ export class CognitoManagedLoginBrandingAssetsOutputReference extends cdktn.Comp
   }
 
   // color_mode - computed: true, optional: true, required: false
-  private _colorMode?: string;
+  private _colorMode?: string; 
   public get colorMode() {
     return this.getStringAttribute('color_mode');
   }
@@ -229,7 +229,7 @@ export class CognitoManagedLoginBrandingAssetsOutputReference extends cdktn.Comp
   }
 
   // extension - computed: true, optional: true, required: false
-  private _extension?: string;
+  private _extension?: string; 
   public get extension() {
     return this.getStringAttribute('extension');
   }
@@ -245,7 +245,7 @@ export class CognitoManagedLoginBrandingAssetsOutputReference extends cdktn.Comp
   }
 
   // resource_id - computed: true, optional: true, required: false
-  private _resourceId?: string;
+  private _resourceId?: string; 
   public get resourceId() {
     return this.getStringAttribute('resource_id');
   }
@@ -360,7 +360,7 @@ export class CognitoManagedLoginBranding extends cdktn.TerraformResource {
   }
 
   // client_id - computed: true, optional: true, required: false
-  private _clientId?: string;
+  private _clientId?: string; 
   public get clientId() {
     return this.getStringAttribute('client_id');
   }
@@ -386,7 +386,7 @@ export class CognitoManagedLoginBranding extends cdktn.TerraformResource {
   }
 
   // return_merged_resources - computed: true, optional: true, required: false
-  private _returnMergedResources?: boolean | cdktn.IResolvable;
+  private _returnMergedResources?: boolean | cdktn.IResolvable; 
   public get returnMergedResources() {
     return this.getBooleanAttribute('return_merged_resources');
   }
@@ -402,7 +402,7 @@ export class CognitoManagedLoginBranding extends cdktn.TerraformResource {
   }
 
   // settings - computed: true, optional: true, required: false
-  private _settings?: string;
+  private _settings?: string; 
   public get settings() {
     return this.getStringAttribute('settings');
   }
@@ -418,7 +418,7 @@ export class CognitoManagedLoginBranding extends cdktn.TerraformResource {
   }
 
   // use_cognito_provided_values - computed: true, optional: true, required: false
-  private _useCognitoProvidedValues?: boolean | cdktn.IResolvable;
+  private _useCognitoProvidedValues?: boolean | cdktn.IResolvable; 
   public get useCognitoProvidedValues() {
     return this.getBooleanAttribute('use_cognito_provided_values');
   }
@@ -434,7 +434,7 @@ export class CognitoManagedLoginBranding extends cdktn.TerraformResource {
   }
 
   // user_pool_id - computed: false, optional: false, required: true
-  private _userPoolId?: string;
+  private _userPoolId?: string; 
   public get userPoolId() {
     return this.getStringAttribute('user_pool_id');
   }

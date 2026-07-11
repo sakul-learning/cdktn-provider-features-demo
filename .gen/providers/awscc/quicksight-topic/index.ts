@@ -129,7 +129,7 @@ export class QuicksightTopicConfigOptionsOutputReference extends cdktn.ComplexOb
   }
 
   // q_business_insights_enabled - computed: true, optional: true, required: false
-  private _qBusinessInsightsEnabled?: boolean | cdktn.IResolvable;
+  private _qBusinessInsightsEnabled?: boolean | cdktn.IResolvable; 
   public get qBusinessInsightsEnabled() {
     return this.getBooleanAttribute('q_business_insights_enabled');
   }
@@ -223,7 +223,7 @@ export class QuicksightTopicCustomInstructionsOutputReference extends cdktn.Comp
   }
 
   // custom_instructions_string - computed: true, optional: true, required: false
-  private _customInstructionsString?: string;
+  private _customInstructionsString?: string; 
   public get customInstructionsString() {
     return this.getStringAttribute('custom_instructions_string');
   }
@@ -336,7 +336,7 @@ export class QuicksightTopicDataSetsCalculatedFieldsCellValueSynonymsOutputRefer
   }
 
   // cell_value - computed: true, optional: true, required: false
-  private _cellValue?: string;
+  private _cellValue?: string; 
   public get cellValue() {
     return this.getStringAttribute('cell_value');
   }
@@ -352,7 +352,7 @@ export class QuicksightTopicDataSetsCalculatedFieldsCellValueSynonymsOutputRefer
   }
 
   // synonyms - computed: true, optional: true, required: false
-  private _synonyms?: string[];
+  private _synonyms?: string[]; 
   public get synonyms() {
     return this.getListAttribute('synonyms');
   }
@@ -500,7 +500,7 @@ export class QuicksightTopicDataSetsCalculatedFieldsComparativeOrderOutputRefere
   }
 
   // specifed_order - computed: true, optional: true, required: false
-  private _specifedOrder?: string[];
+  private _specifedOrder?: string[]; 
   public get specifedOrder() {
     return this.getListAttribute('specifed_order');
   }
@@ -516,7 +516,7 @@ export class QuicksightTopicDataSetsCalculatedFieldsComparativeOrderOutputRefere
   }
 
   // treat_undefined_specified_values - computed: true, optional: true, required: false
-  private _treatUndefinedSpecifiedValues?: string;
+  private _treatUndefinedSpecifiedValues?: string; 
   public get treatUndefinedSpecifiedValues() {
     return this.getStringAttribute('treat_undefined_specified_values');
   }
@@ -532,7 +532,7 @@ export class QuicksightTopicDataSetsCalculatedFieldsComparativeOrderOutputRefere
   }
 
   // use_ordering - computed: true, optional: true, required: false
-  private _useOrdering?: string;
+  private _useOrdering?: string; 
   public get useOrdering() {
     return this.getStringAttribute('use_ordering');
   }
@@ -643,7 +643,7 @@ export class QuicksightTopicDataSetsCalculatedFieldsDefaultFormattingDisplayForm
   }
 
   // prefix - computed: true, optional: true, required: false
-  private _prefix?: string;
+  private _prefix?: string; 
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -659,7 +659,7 @@ export class QuicksightTopicDataSetsCalculatedFieldsDefaultFormattingDisplayForm
   }
 
   // suffix - computed: true, optional: true, required: false
-  private _suffix?: string;
+  private _suffix?: string; 
   public get suffix() {
     return this.getStringAttribute('suffix');
   }
@@ -940,7 +940,7 @@ export class QuicksightTopicDataSetsCalculatedFieldsDefaultFormattingDisplayForm
   }
 
   // blank_cell_format - computed: true, optional: true, required: false
-  private _blankCellFormat?: string;
+  private _blankCellFormat?: string; 
   public get blankCellFormat() {
     return this.getStringAttribute('blank_cell_format');
   }
@@ -956,7 +956,7 @@ export class QuicksightTopicDataSetsCalculatedFieldsDefaultFormattingDisplayForm
   }
 
   // currency_symbol - computed: true, optional: true, required: false
-  private _currencySymbol?: string;
+  private _currencySymbol?: string; 
   public get currencySymbol() {
     return this.getStringAttribute('currency_symbol');
   }
@@ -972,7 +972,7 @@ export class QuicksightTopicDataSetsCalculatedFieldsDefaultFormattingDisplayForm
   }
 
   // date_format - computed: true, optional: true, required: false
-  private _dateFormat?: string;
+  private _dateFormat?: string; 
   public get dateFormat() {
     return this.getStringAttribute('date_format');
   }
@@ -988,7 +988,7 @@ export class QuicksightTopicDataSetsCalculatedFieldsDefaultFormattingDisplayForm
   }
 
   // decimal_separator - computed: true, optional: true, required: false
-  private _decimalSeparator?: string;
+  private _decimalSeparator?: string; 
   public get decimalSeparator() {
     return this.getStringAttribute('decimal_separator');
   }
@@ -1004,7 +1004,7 @@ export class QuicksightTopicDataSetsCalculatedFieldsDefaultFormattingDisplayForm
   }
 
   // fraction_digits - computed: true, optional: true, required: false
-  private _fractionDigits?: number;
+  private _fractionDigits?: number; 
   public get fractionDigits() {
     return this.getNumberAttribute('fraction_digits');
   }
@@ -1020,7 +1020,7 @@ export class QuicksightTopicDataSetsCalculatedFieldsDefaultFormattingDisplayForm
   }
 
   // grouping_separator - computed: true, optional: true, required: false
-  private _groupingSeparator?: string;
+  private _groupingSeparator?: string; 
   public get groupingSeparator() {
     return this.getStringAttribute('grouping_separator');
   }
@@ -1052,7 +1052,7 @@ export class QuicksightTopicDataSetsCalculatedFieldsDefaultFormattingDisplayForm
   }
 
   // prefix - computed: true, optional: true, required: false
-  private _prefix?: string;
+  private _prefix?: string; 
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -1068,7 +1068,7 @@ export class QuicksightTopicDataSetsCalculatedFieldsDefaultFormattingDisplayForm
   }
 
   // suffix - computed: true, optional: true, required: false
-  private _suffix?: string;
+  private _suffix?: string; 
   public get suffix() {
     return this.getStringAttribute('suffix');
   }
@@ -1084,7 +1084,7 @@ export class QuicksightTopicDataSetsCalculatedFieldsDefaultFormattingDisplayForm
   }
 
   // unit_scaler - computed: true, optional: true, required: false
-  private _unitScaler?: string;
+  private _unitScaler?: string; 
   public get unitScaler() {
     return this.getStringAttribute('unit_scaler');
   }
@@ -1100,7 +1100,7 @@ export class QuicksightTopicDataSetsCalculatedFieldsDefaultFormattingDisplayForm
   }
 
   // use_blank_cell_format - computed: true, optional: true, required: false
-  private _useBlankCellFormat?: boolean | cdktn.IResolvable;
+  private _useBlankCellFormat?: boolean | cdktn.IResolvable; 
   public get useBlankCellFormat() {
     return this.getBooleanAttribute('use_blank_cell_format');
   }
@@ -1116,7 +1116,7 @@ export class QuicksightTopicDataSetsCalculatedFieldsDefaultFormattingDisplayForm
   }
 
   // use_grouping - computed: true, optional: true, required: false
-  private _useGrouping?: boolean | cdktn.IResolvable;
+  private _useGrouping?: boolean | cdktn.IResolvable; 
   public get useGrouping() {
     return this.getBooleanAttribute('use_grouping');
   }
@@ -1227,7 +1227,7 @@ export class QuicksightTopicDataSetsCalculatedFieldsDefaultFormattingOutputRefer
   }
 
   // display_format - computed: true, optional: true, required: false
-  private _displayFormat?: string;
+  private _displayFormat?: string; 
   public get displayFormat() {
     return this.getStringAttribute('display_format');
   }
@@ -1439,7 +1439,7 @@ export class QuicksightTopicDataSetsCalculatedFieldsSemanticTypeOutputReference 
   }
 
   // falsey_cell_value - computed: true, optional: true, required: false
-  private _falseyCellValue?: string;
+  private _falseyCellValue?: string; 
   public get falseyCellValue() {
     return this.getStringAttribute('falsey_cell_value');
   }
@@ -1455,7 +1455,7 @@ export class QuicksightTopicDataSetsCalculatedFieldsSemanticTypeOutputReference 
   }
 
   // falsey_cell_value_synonyms - computed: true, optional: true, required: false
-  private _falseyCellValueSynonyms?: string[];
+  private _falseyCellValueSynonyms?: string[]; 
   public get falseyCellValueSynonyms() {
     return this.getListAttribute('falsey_cell_value_synonyms');
   }
@@ -1471,7 +1471,7 @@ export class QuicksightTopicDataSetsCalculatedFieldsSemanticTypeOutputReference 
   }
 
   // sub_type_name - computed: true, optional: true, required: false
-  private _subTypeName?: string;
+  private _subTypeName?: string; 
   public get subTypeName() {
     return this.getStringAttribute('sub_type_name');
   }
@@ -1487,7 +1487,7 @@ export class QuicksightTopicDataSetsCalculatedFieldsSemanticTypeOutputReference 
   }
 
   // truthy_cell_value - computed: true, optional: true, required: false
-  private _truthyCellValue?: string;
+  private _truthyCellValue?: string; 
   public get truthyCellValue() {
     return this.getStringAttribute('truthy_cell_value');
   }
@@ -1503,7 +1503,7 @@ export class QuicksightTopicDataSetsCalculatedFieldsSemanticTypeOutputReference 
   }
 
   // truthy_cell_value_synonyms - computed: true, optional: true, required: false
-  private _truthyCellValueSynonyms?: string[];
+  private _truthyCellValueSynonyms?: string[]; 
   public get truthyCellValueSynonyms() {
     return this.getListAttribute('truthy_cell_value_synonyms');
   }
@@ -1519,7 +1519,7 @@ export class QuicksightTopicDataSetsCalculatedFieldsSemanticTypeOutputReference 
   }
 
   // type_name - computed: true, optional: true, required: false
-  private _typeName?: string;
+  private _typeName?: string; 
   public get typeName() {
     return this.getStringAttribute('type_name');
   }
@@ -1535,7 +1535,7 @@ export class QuicksightTopicDataSetsCalculatedFieldsSemanticTypeOutputReference 
   }
 
   // type_parameters - computed: true, optional: true, required: false
-  private _typeParameters?: { [key: string]: string };
+  private _typeParameters?: { [key: string]: string }; 
   public get typeParameters() {
     return this.getStringMapAttribute('type_parameters');
   }
@@ -1903,7 +1903,7 @@ export class QuicksightTopicDataSetsCalculatedFieldsOutputReference extends cdkt
   }
 
   // aggregation - computed: true, optional: true, required: false
-  private _aggregation?: string;
+  private _aggregation?: string; 
   public get aggregation() {
     return this.getStringAttribute('aggregation');
   }
@@ -1919,7 +1919,7 @@ export class QuicksightTopicDataSetsCalculatedFieldsOutputReference extends cdkt
   }
 
   // allowed_aggregations - computed: true, optional: true, required: false
-  private _allowedAggregations?: string[];
+  private _allowedAggregations?: string[]; 
   public get allowedAggregations() {
     return this.getListAttribute('allowed_aggregations');
   }
@@ -1935,7 +1935,7 @@ export class QuicksightTopicDataSetsCalculatedFieldsOutputReference extends cdkt
   }
 
   // calculated_field_description - computed: true, optional: true, required: false
-  private _calculatedFieldDescription?: string;
+  private _calculatedFieldDescription?: string; 
   public get calculatedFieldDescription() {
     return this.getStringAttribute('calculated_field_description');
   }
@@ -1951,7 +1951,7 @@ export class QuicksightTopicDataSetsCalculatedFieldsOutputReference extends cdkt
   }
 
   // calculated_field_name - computed: true, optional: true, required: false
-  private _calculatedFieldName?: string;
+  private _calculatedFieldName?: string; 
   public get calculatedFieldName() {
     return this.getStringAttribute('calculated_field_name');
   }
@@ -1967,7 +1967,7 @@ export class QuicksightTopicDataSetsCalculatedFieldsOutputReference extends cdkt
   }
 
   // calculated_field_synonyms - computed: true, optional: true, required: false
-  private _calculatedFieldSynonyms?: string[];
+  private _calculatedFieldSynonyms?: string[]; 
   public get calculatedFieldSynonyms() {
     return this.getListAttribute('calculated_field_synonyms');
   }
@@ -1999,7 +1999,7 @@ export class QuicksightTopicDataSetsCalculatedFieldsOutputReference extends cdkt
   }
 
   // column_data_role - computed: true, optional: true, required: false
-  private _columnDataRole?: string;
+  private _columnDataRole?: string; 
   public get columnDataRole() {
     return this.getStringAttribute('column_data_role');
   }
@@ -2047,7 +2047,7 @@ export class QuicksightTopicDataSetsCalculatedFieldsOutputReference extends cdkt
   }
 
   // disable_indexing - computed: true, optional: true, required: false
-  private _disableIndexing?: boolean | cdktn.IResolvable;
+  private _disableIndexing?: boolean | cdktn.IResolvable; 
   public get disableIndexing() {
     return this.getBooleanAttribute('disable_indexing');
   }
@@ -2063,7 +2063,7 @@ export class QuicksightTopicDataSetsCalculatedFieldsOutputReference extends cdkt
   }
 
   // expression - computed: true, optional: true, required: false
-  private _expression?: string;
+  private _expression?: string; 
   public get expression() {
     return this.getStringAttribute('expression');
   }
@@ -2079,7 +2079,7 @@ export class QuicksightTopicDataSetsCalculatedFieldsOutputReference extends cdkt
   }
 
   // is_included_in_topic - computed: true, optional: true, required: false
-  private _isIncludedInTopic?: boolean | cdktn.IResolvable;
+  private _isIncludedInTopic?: boolean | cdktn.IResolvable; 
   public get isIncludedInTopic() {
     return this.getBooleanAttribute('is_included_in_topic');
   }
@@ -2095,7 +2095,7 @@ export class QuicksightTopicDataSetsCalculatedFieldsOutputReference extends cdkt
   }
 
   // never_aggregate_in_filter - computed: true, optional: true, required: false
-  private _neverAggregateInFilter?: boolean | cdktn.IResolvable;
+  private _neverAggregateInFilter?: boolean | cdktn.IResolvable; 
   public get neverAggregateInFilter() {
     return this.getBooleanAttribute('never_aggregate_in_filter');
   }
@@ -2111,7 +2111,7 @@ export class QuicksightTopicDataSetsCalculatedFieldsOutputReference extends cdkt
   }
 
   // non_additive - computed: true, optional: true, required: false
-  private _nonAdditive?: boolean | cdktn.IResolvable;
+  private _nonAdditive?: boolean | cdktn.IResolvable; 
   public get nonAdditive() {
     return this.getBooleanAttribute('non_additive');
   }
@@ -2127,7 +2127,7 @@ export class QuicksightTopicDataSetsCalculatedFieldsOutputReference extends cdkt
   }
 
   // not_allowed_aggregations - computed: true, optional: true, required: false
-  private _notAllowedAggregations?: string[];
+  private _notAllowedAggregations?: string[]; 
   public get notAllowedAggregations() {
     return this.getListAttribute('not_allowed_aggregations');
   }
@@ -2159,7 +2159,7 @@ export class QuicksightTopicDataSetsCalculatedFieldsOutputReference extends cdkt
   }
 
   // time_granularity - computed: true, optional: true, required: false
-  private _timeGranularity?: string;
+  private _timeGranularity?: string; 
   public get timeGranularity() {
     return this.getStringAttribute('time_granularity');
   }
@@ -2292,7 +2292,7 @@ export class QuicksightTopicDataSetsColumnsCellValueSynonymsOutputReference exte
   }
 
   // cell_value - computed: true, optional: true, required: false
-  private _cellValue?: string;
+  private _cellValue?: string; 
   public get cellValue() {
     return this.getStringAttribute('cell_value');
   }
@@ -2308,7 +2308,7 @@ export class QuicksightTopicDataSetsColumnsCellValueSynonymsOutputReference exte
   }
 
   // synonyms - computed: true, optional: true, required: false
-  private _synonyms?: string[];
+  private _synonyms?: string[]; 
   public get synonyms() {
     return this.getListAttribute('synonyms');
   }
@@ -2456,7 +2456,7 @@ export class QuicksightTopicDataSetsColumnsComparativeOrderOutputReference exten
   }
 
   // specifed_order - computed: true, optional: true, required: false
-  private _specifedOrder?: string[];
+  private _specifedOrder?: string[]; 
   public get specifedOrder() {
     return this.getListAttribute('specifed_order');
   }
@@ -2472,7 +2472,7 @@ export class QuicksightTopicDataSetsColumnsComparativeOrderOutputReference exten
   }
 
   // treat_undefined_specified_values - computed: true, optional: true, required: false
-  private _treatUndefinedSpecifiedValues?: string;
+  private _treatUndefinedSpecifiedValues?: string; 
   public get treatUndefinedSpecifiedValues() {
     return this.getStringAttribute('treat_undefined_specified_values');
   }
@@ -2488,7 +2488,7 @@ export class QuicksightTopicDataSetsColumnsComparativeOrderOutputReference exten
   }
 
   // use_ordering - computed: true, optional: true, required: false
-  private _useOrdering?: string;
+  private _useOrdering?: string; 
   public get useOrdering() {
     return this.getStringAttribute('use_ordering');
   }
@@ -2599,7 +2599,7 @@ export class QuicksightTopicDataSetsColumnsDefaultFormattingDisplayFormatOptions
   }
 
   // prefix - computed: true, optional: true, required: false
-  private _prefix?: string;
+  private _prefix?: string; 
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -2615,7 +2615,7 @@ export class QuicksightTopicDataSetsColumnsDefaultFormattingDisplayFormatOptions
   }
 
   // suffix - computed: true, optional: true, required: false
-  private _suffix?: string;
+  private _suffix?: string; 
   public get suffix() {
     return this.getStringAttribute('suffix');
   }
@@ -2896,7 +2896,7 @@ export class QuicksightTopicDataSetsColumnsDefaultFormattingDisplayFormatOptions
   }
 
   // blank_cell_format - computed: true, optional: true, required: false
-  private _blankCellFormat?: string;
+  private _blankCellFormat?: string; 
   public get blankCellFormat() {
     return this.getStringAttribute('blank_cell_format');
   }
@@ -2912,7 +2912,7 @@ export class QuicksightTopicDataSetsColumnsDefaultFormattingDisplayFormatOptions
   }
 
   // currency_symbol - computed: true, optional: true, required: false
-  private _currencySymbol?: string;
+  private _currencySymbol?: string; 
   public get currencySymbol() {
     return this.getStringAttribute('currency_symbol');
   }
@@ -2928,7 +2928,7 @@ export class QuicksightTopicDataSetsColumnsDefaultFormattingDisplayFormatOptions
   }
 
   // date_format - computed: true, optional: true, required: false
-  private _dateFormat?: string;
+  private _dateFormat?: string; 
   public get dateFormat() {
     return this.getStringAttribute('date_format');
   }
@@ -2944,7 +2944,7 @@ export class QuicksightTopicDataSetsColumnsDefaultFormattingDisplayFormatOptions
   }
 
   // decimal_separator - computed: true, optional: true, required: false
-  private _decimalSeparator?: string;
+  private _decimalSeparator?: string; 
   public get decimalSeparator() {
     return this.getStringAttribute('decimal_separator');
   }
@@ -2960,7 +2960,7 @@ export class QuicksightTopicDataSetsColumnsDefaultFormattingDisplayFormatOptions
   }
 
   // fraction_digits - computed: true, optional: true, required: false
-  private _fractionDigits?: number;
+  private _fractionDigits?: number; 
   public get fractionDigits() {
     return this.getNumberAttribute('fraction_digits');
   }
@@ -2976,7 +2976,7 @@ export class QuicksightTopicDataSetsColumnsDefaultFormattingDisplayFormatOptions
   }
 
   // grouping_separator - computed: true, optional: true, required: false
-  private _groupingSeparator?: string;
+  private _groupingSeparator?: string; 
   public get groupingSeparator() {
     return this.getStringAttribute('grouping_separator');
   }
@@ -3008,7 +3008,7 @@ export class QuicksightTopicDataSetsColumnsDefaultFormattingDisplayFormatOptions
   }
 
   // prefix - computed: true, optional: true, required: false
-  private _prefix?: string;
+  private _prefix?: string; 
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -3024,7 +3024,7 @@ export class QuicksightTopicDataSetsColumnsDefaultFormattingDisplayFormatOptions
   }
 
   // suffix - computed: true, optional: true, required: false
-  private _suffix?: string;
+  private _suffix?: string; 
   public get suffix() {
     return this.getStringAttribute('suffix');
   }
@@ -3040,7 +3040,7 @@ export class QuicksightTopicDataSetsColumnsDefaultFormattingDisplayFormatOptions
   }
 
   // unit_scaler - computed: true, optional: true, required: false
-  private _unitScaler?: string;
+  private _unitScaler?: string; 
   public get unitScaler() {
     return this.getStringAttribute('unit_scaler');
   }
@@ -3056,7 +3056,7 @@ export class QuicksightTopicDataSetsColumnsDefaultFormattingDisplayFormatOptions
   }
 
   // use_blank_cell_format - computed: true, optional: true, required: false
-  private _useBlankCellFormat?: boolean | cdktn.IResolvable;
+  private _useBlankCellFormat?: boolean | cdktn.IResolvable; 
   public get useBlankCellFormat() {
     return this.getBooleanAttribute('use_blank_cell_format');
   }
@@ -3072,7 +3072,7 @@ export class QuicksightTopicDataSetsColumnsDefaultFormattingDisplayFormatOptions
   }
 
   // use_grouping - computed: true, optional: true, required: false
-  private _useGrouping?: boolean | cdktn.IResolvable;
+  private _useGrouping?: boolean | cdktn.IResolvable; 
   public get useGrouping() {
     return this.getBooleanAttribute('use_grouping');
   }
@@ -3183,7 +3183,7 @@ export class QuicksightTopicDataSetsColumnsDefaultFormattingOutputReference exte
   }
 
   // display_format - computed: true, optional: true, required: false
-  private _displayFormat?: string;
+  private _displayFormat?: string; 
   public get displayFormat() {
     return this.getStringAttribute('display_format');
   }
@@ -3395,7 +3395,7 @@ export class QuicksightTopicDataSetsColumnsSemanticTypeOutputReference extends c
   }
 
   // falsey_cell_value - computed: true, optional: true, required: false
-  private _falseyCellValue?: string;
+  private _falseyCellValue?: string; 
   public get falseyCellValue() {
     return this.getStringAttribute('falsey_cell_value');
   }
@@ -3411,7 +3411,7 @@ export class QuicksightTopicDataSetsColumnsSemanticTypeOutputReference extends c
   }
 
   // falsey_cell_value_synonyms - computed: true, optional: true, required: false
-  private _falseyCellValueSynonyms?: string[];
+  private _falseyCellValueSynonyms?: string[]; 
   public get falseyCellValueSynonyms() {
     return this.getListAttribute('falsey_cell_value_synonyms');
   }
@@ -3427,7 +3427,7 @@ export class QuicksightTopicDataSetsColumnsSemanticTypeOutputReference extends c
   }
 
   // sub_type_name - computed: true, optional: true, required: false
-  private _subTypeName?: string;
+  private _subTypeName?: string; 
   public get subTypeName() {
     return this.getStringAttribute('sub_type_name');
   }
@@ -3443,7 +3443,7 @@ export class QuicksightTopicDataSetsColumnsSemanticTypeOutputReference extends c
   }
 
   // truthy_cell_value - computed: true, optional: true, required: false
-  private _truthyCellValue?: string;
+  private _truthyCellValue?: string; 
   public get truthyCellValue() {
     return this.getStringAttribute('truthy_cell_value');
   }
@@ -3459,7 +3459,7 @@ export class QuicksightTopicDataSetsColumnsSemanticTypeOutputReference extends c
   }
 
   // truthy_cell_value_synonyms - computed: true, optional: true, required: false
-  private _truthyCellValueSynonyms?: string[];
+  private _truthyCellValueSynonyms?: string[]; 
   public get truthyCellValueSynonyms() {
     return this.getListAttribute('truthy_cell_value_synonyms');
   }
@@ -3475,7 +3475,7 @@ export class QuicksightTopicDataSetsColumnsSemanticTypeOutputReference extends c
   }
 
   // type_name - computed: true, optional: true, required: false
-  private _typeName?: string;
+  private _typeName?: string; 
   public get typeName() {
     return this.getStringAttribute('type_name');
   }
@@ -3491,7 +3491,7 @@ export class QuicksightTopicDataSetsColumnsSemanticTypeOutputReference extends c
   }
 
   // type_parameters - computed: true, optional: true, required: false
-  private _typeParameters?: { [key: string]: string };
+  private _typeParameters?: { [key: string]: string }; 
   public get typeParameters() {
     return this.getStringMapAttribute('type_parameters');
   }
@@ -3859,7 +3859,7 @@ export class QuicksightTopicDataSetsColumnsOutputReference extends cdktn.Complex
   }
 
   // aggregation - computed: true, optional: true, required: false
-  private _aggregation?: string;
+  private _aggregation?: string; 
   public get aggregation() {
     return this.getStringAttribute('aggregation');
   }
@@ -3875,7 +3875,7 @@ export class QuicksightTopicDataSetsColumnsOutputReference extends cdktn.Complex
   }
 
   // allowed_aggregations - computed: true, optional: true, required: false
-  private _allowedAggregations?: string[];
+  private _allowedAggregations?: string[]; 
   public get allowedAggregations() {
     return this.getListAttribute('allowed_aggregations');
   }
@@ -3907,7 +3907,7 @@ export class QuicksightTopicDataSetsColumnsOutputReference extends cdktn.Complex
   }
 
   // column_data_role - computed: true, optional: true, required: false
-  private _columnDataRole?: string;
+  private _columnDataRole?: string; 
   public get columnDataRole() {
     return this.getStringAttribute('column_data_role');
   }
@@ -3923,7 +3923,7 @@ export class QuicksightTopicDataSetsColumnsOutputReference extends cdktn.Complex
   }
 
   // column_description - computed: true, optional: true, required: false
-  private _columnDescription?: string;
+  private _columnDescription?: string; 
   public get columnDescription() {
     return this.getStringAttribute('column_description');
   }
@@ -3939,7 +3939,7 @@ export class QuicksightTopicDataSetsColumnsOutputReference extends cdktn.Complex
   }
 
   // column_friendly_name - computed: true, optional: true, required: false
-  private _columnFriendlyName?: string;
+  private _columnFriendlyName?: string; 
   public get columnFriendlyName() {
     return this.getStringAttribute('column_friendly_name');
   }
@@ -3955,7 +3955,7 @@ export class QuicksightTopicDataSetsColumnsOutputReference extends cdktn.Complex
   }
 
   // column_name - computed: true, optional: true, required: false
-  private _columnName?: string;
+  private _columnName?: string; 
   public get columnName() {
     return this.getStringAttribute('column_name');
   }
@@ -3971,7 +3971,7 @@ export class QuicksightTopicDataSetsColumnsOutputReference extends cdktn.Complex
   }
 
   // column_synonyms - computed: true, optional: true, required: false
-  private _columnSynonyms?: string[];
+  private _columnSynonyms?: string[]; 
   public get columnSynonyms() {
     return this.getListAttribute('column_synonyms');
   }
@@ -4019,7 +4019,7 @@ export class QuicksightTopicDataSetsColumnsOutputReference extends cdktn.Complex
   }
 
   // disable_indexing - computed: true, optional: true, required: false
-  private _disableIndexing?: boolean | cdktn.IResolvable;
+  private _disableIndexing?: boolean | cdktn.IResolvable; 
   public get disableIndexing() {
     return this.getBooleanAttribute('disable_indexing');
   }
@@ -4035,7 +4035,7 @@ export class QuicksightTopicDataSetsColumnsOutputReference extends cdktn.Complex
   }
 
   // is_included_in_topic - computed: true, optional: true, required: false
-  private _isIncludedInTopic?: boolean | cdktn.IResolvable;
+  private _isIncludedInTopic?: boolean | cdktn.IResolvable; 
   public get isIncludedInTopic() {
     return this.getBooleanAttribute('is_included_in_topic');
   }
@@ -4051,7 +4051,7 @@ export class QuicksightTopicDataSetsColumnsOutputReference extends cdktn.Complex
   }
 
   // never_aggregate_in_filter - computed: true, optional: true, required: false
-  private _neverAggregateInFilter?: boolean | cdktn.IResolvable;
+  private _neverAggregateInFilter?: boolean | cdktn.IResolvable; 
   public get neverAggregateInFilter() {
     return this.getBooleanAttribute('never_aggregate_in_filter');
   }
@@ -4067,7 +4067,7 @@ export class QuicksightTopicDataSetsColumnsOutputReference extends cdktn.Complex
   }
 
   // non_additive - computed: true, optional: true, required: false
-  private _nonAdditive?: boolean | cdktn.IResolvable;
+  private _nonAdditive?: boolean | cdktn.IResolvable; 
   public get nonAdditive() {
     return this.getBooleanAttribute('non_additive');
   }
@@ -4083,7 +4083,7 @@ export class QuicksightTopicDataSetsColumnsOutputReference extends cdktn.Complex
   }
 
   // not_allowed_aggregations - computed: true, optional: true, required: false
-  private _notAllowedAggregations?: string[];
+  private _notAllowedAggregations?: string[]; 
   public get notAllowedAggregations() {
     return this.getListAttribute('not_allowed_aggregations');
   }
@@ -4115,7 +4115,7 @@ export class QuicksightTopicDataSetsColumnsOutputReference extends cdktn.Complex
   }
 
   // time_granularity - computed: true, optional: true, required: false
-  private _timeGranularity?: string;
+  private _timeGranularity?: string; 
   public get timeGranularity() {
     return this.getStringAttribute('time_granularity');
   }
@@ -4246,7 +4246,7 @@ export class QuicksightTopicDataSetsDataAggregationOutputReference extends cdktn
   }
 
   // dataset_row_date_granularity - computed: true, optional: true, required: false
-  private _datasetRowDateGranularity?: string;
+  private _datasetRowDateGranularity?: string; 
   public get datasetRowDateGranularity() {
     return this.getStringAttribute('dataset_row_date_granularity');
   }
@@ -4262,7 +4262,7 @@ export class QuicksightTopicDataSetsDataAggregationOutputReference extends cdktn
   }
 
   // default_date_column_name - computed: true, optional: true, required: false
-  private _defaultDateColumnName?: string;
+  private _defaultDateColumnName?: string; 
   public get defaultDateColumnName() {
     return this.getStringAttribute('default_date_column_name');
   }
@@ -4356,7 +4356,7 @@ export class QuicksightTopicDataSetsFiltersCategoryFilterConstantCollectiveConst
   }
 
   // value_list - computed: true, optional: true, required: false
-  private _valueList?: string[];
+  private _valueList?: string[]; 
   public get valueList() {
     return this.getListAttribute('value_list');
   }
@@ -4500,7 +4500,7 @@ export class QuicksightTopicDataSetsFiltersCategoryFilterConstantOutputReference
   }
 
   // constant_type - computed: true, optional: true, required: false
-  private _constantType?: string;
+  private _constantType?: string; 
   public get constantType() {
     return this.getStringAttribute('constant_type');
   }
@@ -4516,7 +4516,7 @@ export class QuicksightTopicDataSetsFiltersCategoryFilterConstantOutputReference
   }
 
   // singular_constant - computed: true, optional: true, required: false
-  private _singularConstant?: string;
+  private _singularConstant?: string; 
   public get singularConstant() {
     return this.getStringAttribute('singular_constant');
   }
@@ -4661,7 +4661,7 @@ export class QuicksightTopicDataSetsFiltersCategoryFilterOutputReference extends
   }
 
   // category_filter_function - computed: true, optional: true, required: false
-  private _categoryFilterFunction?: string;
+  private _categoryFilterFunction?: string; 
   public get categoryFilterFunction() {
     return this.getStringAttribute('category_filter_function');
   }
@@ -4677,7 +4677,7 @@ export class QuicksightTopicDataSetsFiltersCategoryFilterOutputReference extends
   }
 
   // category_filter_type - computed: true, optional: true, required: false
-  private _categoryFilterType?: string;
+  private _categoryFilterType?: string; 
   public get categoryFilterType() {
     return this.getStringAttribute('category_filter_type');
   }
@@ -4709,7 +4709,7 @@ export class QuicksightTopicDataSetsFiltersCategoryFilterOutputReference extends
   }
 
   // inverse - computed: true, optional: true, required: false
-  private _inverse?: boolean | cdktn.IResolvable;
+  private _inverse?: boolean | cdktn.IResolvable; 
   public get inverse() {
     return this.getBooleanAttribute('inverse');
   }
@@ -4820,7 +4820,7 @@ export class QuicksightTopicDataSetsFiltersDateRangeFilterConstantRangeConstantO
   }
 
   // maximum - computed: true, optional: true, required: false
-  private _maximum?: string;
+  private _maximum?: string; 
   public get maximum() {
     return this.getStringAttribute('maximum');
   }
@@ -4836,7 +4836,7 @@ export class QuicksightTopicDataSetsFiltersDateRangeFilterConstantRangeConstantO
   }
 
   // minimum - computed: true, optional: true, required: false
-  private _minimum?: string;
+  private _minimum?: string; 
   public get minimum() {
     return this.getStringAttribute('minimum');
   }
@@ -4947,7 +4947,7 @@ export class QuicksightTopicDataSetsFiltersDateRangeFilterConstantOutputReferenc
   }
 
   // constant_type - computed: true, optional: true, required: false
-  private _constantType?: string;
+  private _constantType?: string; 
   public get constantType() {
     return this.getStringAttribute('constant_type');
   }
@@ -5090,7 +5090,7 @@ export class QuicksightTopicDataSetsFiltersDateRangeFilterOutputReference extend
   }
 
   // inclusive - computed: true, optional: true, required: false
-  private _inclusive?: boolean | cdktn.IResolvable;
+  private _inclusive?: boolean | cdktn.IResolvable; 
   public get inclusive() {
     return this.getBooleanAttribute('inclusive');
   }
@@ -5201,7 +5201,7 @@ export class QuicksightTopicDataSetsFiltersNumericEqualityFilterConstantOutputRe
   }
 
   // constant_type - computed: true, optional: true, required: false
-  private _constantType?: string;
+  private _constantType?: string; 
   public get constantType() {
     return this.getStringAttribute('constant_type');
   }
@@ -5217,7 +5217,7 @@ export class QuicksightTopicDataSetsFiltersNumericEqualityFilterConstantOutputRe
   }
 
   // singular_constant - computed: true, optional: true, required: false
-  private _singularConstant?: string;
+  private _singularConstant?: string; 
   public get singularConstant() {
     return this.getStringAttribute('singular_constant');
   }
@@ -5328,7 +5328,7 @@ export class QuicksightTopicDataSetsFiltersNumericEqualityFilterOutputReference 
   }
 
   // aggregation - computed: true, optional: true, required: false
-  private _aggregation?: string;
+  private _aggregation?: string; 
   public get aggregation() {
     return this.getStringAttribute('aggregation');
   }
@@ -5455,7 +5455,7 @@ export class QuicksightTopicDataSetsFiltersNumericRangeFilterConstantRangeConsta
   }
 
   // maximum - computed: true, optional: true, required: false
-  private _maximum?: string;
+  private _maximum?: string; 
   public get maximum() {
     return this.getStringAttribute('maximum');
   }
@@ -5471,7 +5471,7 @@ export class QuicksightTopicDataSetsFiltersNumericRangeFilterConstantRangeConsta
   }
 
   // minimum - computed: true, optional: true, required: false
-  private _minimum?: string;
+  private _minimum?: string; 
   public get minimum() {
     return this.getStringAttribute('minimum');
   }
@@ -5582,7 +5582,7 @@ export class QuicksightTopicDataSetsFiltersNumericRangeFilterConstantOutputRefer
   }
 
   // constant_type - computed: true, optional: true, required: false
-  private _constantType?: string;
+  private _constantType?: string; 
   public get constantType() {
     return this.getStringAttribute('constant_type');
   }
@@ -5726,7 +5726,7 @@ export class QuicksightTopicDataSetsFiltersNumericRangeFilterOutputReference ext
   }
 
   // aggregation - computed: true, optional: true, required: false
-  private _aggregation?: string;
+  private _aggregation?: string; 
   public get aggregation() {
     return this.getStringAttribute('aggregation');
   }
@@ -5758,7 +5758,7 @@ export class QuicksightTopicDataSetsFiltersNumericRangeFilterOutputReference ext
   }
 
   // inclusive - computed: true, optional: true, required: false
-  private _inclusive?: boolean | cdktn.IResolvable;
+  private _inclusive?: boolean | cdktn.IResolvable; 
   public get inclusive() {
     return this.getBooleanAttribute('inclusive');
   }
@@ -5869,7 +5869,7 @@ export class QuicksightTopicDataSetsFiltersRelativeDateFilterConstantOutputRefer
   }
 
   // constant_type - computed: true, optional: true, required: false
-  private _constantType?: string;
+  private _constantType?: string; 
   public get constantType() {
     return this.getStringAttribute('constant_type');
   }
@@ -5885,7 +5885,7 @@ export class QuicksightTopicDataSetsFiltersRelativeDateFilterConstantOutputRefer
   }
 
   // singular_constant - computed: true, optional: true, required: false
-  private _singularConstant?: string;
+  private _singularConstant?: string; 
   public get singularConstant() {
     return this.getStringAttribute('singular_constant');
   }
@@ -6029,7 +6029,7 @@ export class QuicksightTopicDataSetsFiltersRelativeDateFilterOutputReference ext
   }
 
   // relative_date_filter_function - computed: true, optional: true, required: false
-  private _relativeDateFilterFunction?: string;
+  private _relativeDateFilterFunction?: string; 
   public get relativeDateFilterFunction() {
     return this.getStringAttribute('relative_date_filter_function');
   }
@@ -6045,7 +6045,7 @@ export class QuicksightTopicDataSetsFiltersRelativeDateFilterOutputReference ext
   }
 
   // time_granularity - computed: true, optional: true, required: false
-  private _timeGranularity?: string;
+  private _timeGranularity?: string; 
   public get timeGranularity() {
     return this.getStringAttribute('time_granularity');
   }
@@ -6343,7 +6343,7 @@ export class QuicksightTopicDataSetsFiltersOutputReference extends cdktn.Complex
   }
 
   // filter_class - computed: true, optional: true, required: false
-  private _filterClass?: string;
+  private _filterClass?: string; 
   public get filterClass() {
     return this.getStringAttribute('filter_class');
   }
@@ -6359,7 +6359,7 @@ export class QuicksightTopicDataSetsFiltersOutputReference extends cdktn.Complex
   }
 
   // filter_description - computed: true, optional: true, required: false
-  private _filterDescription?: string;
+  private _filterDescription?: string; 
   public get filterDescription() {
     return this.getStringAttribute('filter_description');
   }
@@ -6375,7 +6375,7 @@ export class QuicksightTopicDataSetsFiltersOutputReference extends cdktn.Complex
   }
 
   // filter_name - computed: true, optional: true, required: false
-  private _filterName?: string;
+  private _filterName?: string; 
   public get filterName() {
     return this.getStringAttribute('filter_name');
   }
@@ -6391,7 +6391,7 @@ export class QuicksightTopicDataSetsFiltersOutputReference extends cdktn.Complex
   }
 
   // filter_synonyms - computed: true, optional: true, required: false
-  private _filterSynonyms?: string[];
+  private _filterSynonyms?: string[]; 
   public get filterSynonyms() {
     return this.getListAttribute('filter_synonyms');
   }
@@ -6407,7 +6407,7 @@ export class QuicksightTopicDataSetsFiltersOutputReference extends cdktn.Complex
   }
 
   // filter_type - computed: true, optional: true, required: false
-  private _filterType?: string;
+  private _filterType?: string; 
   public get filterType() {
     return this.getStringAttribute('filter_type');
   }
@@ -6455,7 +6455,7 @@ export class QuicksightTopicDataSetsFiltersOutputReference extends cdktn.Complex
   }
 
   // operand_field_name - computed: true, optional: true, required: false
-  private _operandFieldName?: string;
+  private _operandFieldName?: string; 
   public get operandFieldName() {
     return this.getStringAttribute('operand_field_name');
   }
@@ -6602,7 +6602,7 @@ export class QuicksightTopicDataSetsNamedEntitiesDefinitionMetricOutputReference
   }
 
   // aggregation - computed: true, optional: true, required: false
-  private _aggregation?: string;
+  private _aggregation?: string; 
   public get aggregation() {
     return this.getStringAttribute('aggregation');
   }
@@ -6618,7 +6618,7 @@ export class QuicksightTopicDataSetsNamedEntitiesDefinitionMetricOutputReference
   }
 
   // aggregation_function_parameters - computed: true, optional: true, required: false
-  private _aggregationFunctionParameters?: { [key: string]: string };
+  private _aggregationFunctionParameters?: { [key: string]: string }; 
   public get aggregationFunctionParameters() {
     return this.getStringMapAttribute('aggregation_function_parameters');
   }
@@ -6782,7 +6782,7 @@ export class QuicksightTopicDataSetsNamedEntitiesDefinitionOutputReference exten
   }
 
   // field_name - computed: true, optional: true, required: false
-  private _fieldName?: string;
+  private _fieldName?: string; 
   public get fieldName() {
     return this.getStringAttribute('field_name');
   }
@@ -6814,7 +6814,7 @@ export class QuicksightTopicDataSetsNamedEntitiesDefinitionOutputReference exten
   }
 
   // property_name - computed: true, optional: true, required: false
-  private _propertyName?: string;
+  private _propertyName?: string; 
   public get propertyName() {
     return this.getStringAttribute('property_name');
   }
@@ -6830,7 +6830,7 @@ export class QuicksightTopicDataSetsNamedEntitiesDefinitionOutputReference exten
   }
 
   // property_role - computed: true, optional: true, required: false
-  private _propertyRole?: string;
+  private _propertyRole?: string; 
   public get propertyRole() {
     return this.getStringAttribute('property_role');
   }
@@ -6846,7 +6846,7 @@ export class QuicksightTopicDataSetsNamedEntitiesDefinitionOutputReference exten
   }
 
   // property_usage - computed: true, optional: true, required: false
-  private _propertyUsage?: string;
+  private _propertyUsage?: string; 
   public get propertyUsage() {
     return this.getStringAttribute('property_usage');
   }
@@ -6994,7 +6994,7 @@ export class QuicksightTopicDataSetsNamedEntitiesSemanticEntityTypeOutputReferen
   }
 
   // sub_type_name - computed: true, optional: true, required: false
-  private _subTypeName?: string;
+  private _subTypeName?: string; 
   public get subTypeName() {
     return this.getStringAttribute('sub_type_name');
   }
@@ -7010,7 +7010,7 @@ export class QuicksightTopicDataSetsNamedEntitiesSemanticEntityTypeOutputReferen
   }
 
   // type_name - computed: true, optional: true, required: false
-  private _typeName?: string;
+  private _typeName?: string; 
   public get typeName() {
     return this.getStringAttribute('type_name');
   }
@@ -7026,7 +7026,7 @@ export class QuicksightTopicDataSetsNamedEntitiesSemanticEntityTypeOutputReferen
   }
 
   // type_parameters - computed: true, optional: true, required: false
-  private _typeParameters?: { [key: string]: string };
+  private _typeParameters?: { [key: string]: string }; 
   public get typeParameters() {
     return this.getStringMapAttribute('type_parameters');
   }
@@ -7206,7 +7206,7 @@ export class QuicksightTopicDataSetsNamedEntitiesOutputReference extends cdktn.C
   }
 
   // entity_description - computed: true, optional: true, required: false
-  private _entityDescription?: string;
+  private _entityDescription?: string; 
   public get entityDescription() {
     return this.getStringAttribute('entity_description');
   }
@@ -7222,7 +7222,7 @@ export class QuicksightTopicDataSetsNamedEntitiesOutputReference extends cdktn.C
   }
 
   // entity_name - computed: true, optional: true, required: false
-  private _entityName?: string;
+  private _entityName?: string; 
   public get entityName() {
     return this.getStringAttribute('entity_name');
   }
@@ -7238,7 +7238,7 @@ export class QuicksightTopicDataSetsNamedEntitiesOutputReference extends cdktn.C
   }
 
   // entity_synonyms - computed: true, optional: true, required: false
-  private _entitySynonyms?: string[];
+  private _entitySynonyms?: string[]; 
   public get entitySynonyms() {
     return this.getListAttribute('entity_synonyms');
   }
@@ -7537,7 +7537,7 @@ export class QuicksightTopicDataSetsOutputReference extends cdktn.ComplexObject 
   }
 
   // dataset_arn - computed: true, optional: true, required: false
-  private _datasetArn?: string;
+  private _datasetArn?: string; 
   public get datasetArn() {
     return this.getStringAttribute('dataset_arn');
   }
@@ -7553,7 +7553,7 @@ export class QuicksightTopicDataSetsOutputReference extends cdktn.ComplexObject 
   }
 
   // dataset_description - computed: true, optional: true, required: false
-  private _datasetDescription?: string;
+  private _datasetDescription?: string; 
   public get datasetDescription() {
     return this.getStringAttribute('dataset_description');
   }
@@ -7569,7 +7569,7 @@ export class QuicksightTopicDataSetsOutputReference extends cdktn.ComplexObject 
   }
 
   // dataset_name - computed: true, optional: true, required: false
-  private _datasetName?: string;
+  private _datasetName?: string; 
   public get datasetName() {
     return this.getStringAttribute('dataset_name');
   }
@@ -7738,7 +7738,7 @@ export class QuicksightTopicTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -7754,7 +7754,7 @@ export class QuicksightTopicTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -7862,7 +7862,7 @@ export class QuicksightTopic extends cdktn.TerraformResource {
   }
 
   // aws_account_id - computed: true, optional: true, required: false
-  private _awsAccountId?: string;
+  private _awsAccountId?: string; 
   public get awsAccountId() {
     return this.getStringAttribute('aws_account_id');
   }
@@ -7926,7 +7926,7 @@ export class QuicksightTopic extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -7942,7 +7942,7 @@ export class QuicksightTopic extends cdktn.TerraformResource {
   }
 
   // folder_arns - computed: true, optional: true, required: false
-  private _folderArns?: string[];
+  private _folderArns?: string[]; 
   public get folderArns() {
     return this.getListAttribute('folder_arns');
   }
@@ -7963,7 +7963,7 @@ export class QuicksightTopic extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -7995,7 +7995,7 @@ export class QuicksightTopic extends cdktn.TerraformResource {
   }
 
   // topic_id - computed: true, optional: true, required: false
-  private _topicId?: string;
+  private _topicId?: string; 
   public get topicId() {
     return this.getStringAttribute('topic_id');
   }
@@ -8011,7 +8011,7 @@ export class QuicksightTopic extends cdktn.TerraformResource {
   }
 
   // user_experience_version - computed: true, optional: true, required: false
-  private _userExperienceVersion?: string;
+  private _userExperienceVersion?: string; 
   public get userExperienceVersion() {
     return this.getStringAttribute('user_experience_version');
   }

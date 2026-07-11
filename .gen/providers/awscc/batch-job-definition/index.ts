@@ -170,7 +170,7 @@ export class BatchJobDefinitionConsumableResourcePropertiesConsumableResourceLis
   }
 
   // consumable_resource - computed: true, optional: true, required: false
-  private _consumableResource?: string;
+  private _consumableResource?: string; 
   public get consumableResource() {
     return this.getStringAttribute('consumable_resource');
   }
@@ -186,7 +186,7 @@ export class BatchJobDefinitionConsumableResourcePropertiesConsumableResourceLis
   }
 
   // quantity - computed: true, optional: true, required: false
-  private _quantity?: number;
+  private _quantity?: number; 
   public get quantity() {
     return this.getNumberAttribute('quantity');
   }
@@ -413,7 +413,7 @@ export class BatchJobDefinitionContainerPropertiesEnvironmentOutputReference ext
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -429,7 +429,7 @@ export class BatchJobDefinitionContainerPropertiesEnvironmentOutputReference ext
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -543,7 +543,7 @@ export class BatchJobDefinitionContainerPropertiesEphemeralStorageOutputReferenc
   }
 
   // size_in_gi_b - computed: true, optional: true, required: false
-  private _sizeInGiB?: number;
+  private _sizeInGiB?: number; 
   public get sizeInGiB() {
     return this.getNumberAttribute('size_in_gi_b');
   }
@@ -637,7 +637,7 @@ export class BatchJobDefinitionContainerPropertiesFargatePlatformConfigurationOu
   }
 
   // platform_version - computed: true, optional: true, required: false
-  private _platformVersion?: string;
+  private _platformVersion?: string; 
   public get platformVersion() {
     return this.getStringAttribute('platform_version');
   }
@@ -767,7 +767,7 @@ export class BatchJobDefinitionContainerPropertiesLinuxParametersDevicesOutputRe
   }
 
   // container_path - computed: true, optional: true, required: false
-  private _containerPath?: string;
+  private _containerPath?: string; 
   public get containerPath() {
     return this.getStringAttribute('container_path');
   }
@@ -783,7 +783,7 @@ export class BatchJobDefinitionContainerPropertiesLinuxParametersDevicesOutputRe
   }
 
   // host_path - computed: true, optional: true, required: false
-  private _hostPath?: string;
+  private _hostPath?: string; 
   public get hostPath() {
     return this.getStringAttribute('host_path');
   }
@@ -799,7 +799,7 @@ export class BatchJobDefinitionContainerPropertiesLinuxParametersDevicesOutputRe
   }
 
   // permissions - computed: true, optional: true, required: false
-  private _permissions?: string[];
+  private _permissions?: string[]; 
   public get permissions() {
     return this.getListAttribute('permissions');
   }
@@ -949,7 +949,7 @@ export class BatchJobDefinitionContainerPropertiesLinuxParametersTmpfsOutputRefe
   }
 
   // container_path - computed: true, optional: true, required: false
-  private _containerPath?: string;
+  private _containerPath?: string; 
   public get containerPath() {
     return this.getStringAttribute('container_path');
   }
@@ -965,7 +965,7 @@ export class BatchJobDefinitionContainerPropertiesLinuxParametersTmpfsOutputRefe
   }
 
   // mount_options - computed: true, optional: true, required: false
-  private _mountOptions?: string[];
+  private _mountOptions?: string[]; 
   public get mountOptions() {
     return this.getListAttribute('mount_options');
   }
@@ -981,7 +981,7 @@ export class BatchJobDefinitionContainerPropertiesLinuxParametersTmpfsOutputRefe
   }
 
   // size - computed: true, optional: true, required: false
-  private _size?: number;
+  private _size?: number; 
   public get size() {
     return this.getNumberAttribute('size');
   }
@@ -1196,7 +1196,7 @@ export class BatchJobDefinitionContainerPropertiesLinuxParametersOutputReference
   }
 
   // init_process_enabled - computed: true, optional: true, required: false
-  private _initProcessEnabled?: boolean | cdktn.IResolvable;
+  private _initProcessEnabled?: boolean | cdktn.IResolvable; 
   public get initProcessEnabled() {
     return this.getBooleanAttribute('init_process_enabled');
   }
@@ -1212,7 +1212,7 @@ export class BatchJobDefinitionContainerPropertiesLinuxParametersOutputReference
   }
 
   // max_swap - computed: true, optional: true, required: false
-  private _maxSwap?: number;
+  private _maxSwap?: number; 
   public get maxSwap() {
     return this.getNumberAttribute('max_swap');
   }
@@ -1228,7 +1228,7 @@ export class BatchJobDefinitionContainerPropertiesLinuxParametersOutputReference
   }
 
   // shared_memory_size - computed: true, optional: true, required: false
-  private _sharedMemorySize?: number;
+  private _sharedMemorySize?: number; 
   public get sharedMemorySize() {
     return this.getNumberAttribute('shared_memory_size');
   }
@@ -1244,7 +1244,7 @@ export class BatchJobDefinitionContainerPropertiesLinuxParametersOutputReference
   }
 
   // swappiness - computed: true, optional: true, required: false
-  private _swappiness?: number;
+  private _swappiness?: number; 
   public get swappiness() {
     return this.getNumberAttribute('swappiness');
   }
@@ -1373,7 +1373,7 @@ export class BatchJobDefinitionContainerPropertiesLogConfigurationSecretOptionsO
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1389,7 +1389,7 @@ export class BatchJobDefinitionContainerPropertiesLogConfigurationSecretOptionsO
   }
 
   // value_from - computed: true, optional: true, required: false
-  private _valueFrom?: string;
+  private _valueFrom?: string; 
   public get valueFrom() {
     return this.getStringAttribute('value_from');
   }
@@ -1537,7 +1537,7 @@ export class BatchJobDefinitionContainerPropertiesLogConfigurationOutputReferenc
   }
 
   // log_driver - computed: true, optional: true, required: false
-  private _logDriver?: string;
+  private _logDriver?: string; 
   public get logDriver() {
     return this.getStringAttribute('log_driver');
   }
@@ -1553,7 +1553,7 @@ export class BatchJobDefinitionContainerPropertiesLogConfigurationOutputReferenc
   }
 
   // options - computed: true, optional: true, required: false
-  private _options?: { [key: string]: string };
+  private _options?: { [key: string]: string }; 
   public get options() {
     return this.getStringMapAttribute('options');
   }
@@ -1699,7 +1699,7 @@ export class BatchJobDefinitionContainerPropertiesMountPointsOutputReference ext
   }
 
   // container_path - computed: true, optional: true, required: false
-  private _containerPath?: string;
+  private _containerPath?: string; 
   public get containerPath() {
     return this.getStringAttribute('container_path');
   }
@@ -1715,7 +1715,7 @@ export class BatchJobDefinitionContainerPropertiesMountPointsOutputReference ext
   }
 
   // read_only - computed: true, optional: true, required: false
-  private _readOnly?: boolean | cdktn.IResolvable;
+  private _readOnly?: boolean | cdktn.IResolvable; 
   public get readOnly() {
     return this.getBooleanAttribute('read_only');
   }
@@ -1731,7 +1731,7 @@ export class BatchJobDefinitionContainerPropertiesMountPointsOutputReference ext
   }
 
   // source_volume - computed: true, optional: true, required: false
-  private _sourceVolume?: string;
+  private _sourceVolume?: string; 
   public get sourceVolume() {
     return this.getStringAttribute('source_volume');
   }
@@ -1845,7 +1845,7 @@ export class BatchJobDefinitionContainerPropertiesNetworkConfigurationOutputRefe
   }
 
   // assign_public_ip - computed: true, optional: true, required: false
-  private _assignPublicIp?: string;
+  private _assignPublicIp?: string; 
   public get assignPublicIp() {
     return this.getStringAttribute('assign_public_ip');
   }
@@ -1939,7 +1939,7 @@ export class BatchJobDefinitionContainerPropertiesRepositoryCredentialsOutputRef
   }
 
   // credentials_parameter - computed: true, optional: true, required: false
-  private _credentialsParameter?: string;
+  private _credentialsParameter?: string; 
   public get credentialsParameter() {
     return this.getStringAttribute('credentials_parameter');
   }
@@ -2052,7 +2052,7 @@ export class BatchJobDefinitionContainerPropertiesResourceRequirementsOutputRefe
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -2068,7 +2068,7 @@ export class BatchJobDefinitionContainerPropertiesResourceRequirementsOutputRefe
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2199,7 +2199,7 @@ export class BatchJobDefinitionContainerPropertiesRuntimePlatformOutputReference
   }
 
   // cpu_architecture - computed: true, optional: true, required: false
-  private _cpuArchitecture?: string;
+  private _cpuArchitecture?: string; 
   public get cpuArchitecture() {
     return this.getStringAttribute('cpu_architecture');
   }
@@ -2215,7 +2215,7 @@ export class BatchJobDefinitionContainerPropertiesRuntimePlatformOutputReference
   }
 
   // operating_system_family - computed: true, optional: true, required: false
-  private _operatingSystemFamily?: string;
+  private _operatingSystemFamily?: string; 
   public get operatingSystemFamily() {
     return this.getStringAttribute('operating_system_family');
   }
@@ -2328,7 +2328,7 @@ export class BatchJobDefinitionContainerPropertiesSecretsOutputReference extends
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2344,7 +2344,7 @@ export class BatchJobDefinitionContainerPropertiesSecretsOutputReference extends
   }
 
   // value_from - computed: true, optional: true, required: false
-  private _valueFrom?: string;
+  private _valueFrom?: string; 
   public get valueFrom() {
     return this.getStringAttribute('value_from');
   }
@@ -2494,7 +2494,7 @@ export class BatchJobDefinitionContainerPropertiesUlimitsOutputReference extends
   }
 
   // hard_limit - computed: true, optional: true, required: false
-  private _hardLimit?: number;
+  private _hardLimit?: number; 
   public get hardLimit() {
     return this.getNumberAttribute('hard_limit');
   }
@@ -2510,7 +2510,7 @@ export class BatchJobDefinitionContainerPropertiesUlimitsOutputReference extends
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2526,7 +2526,7 @@ export class BatchJobDefinitionContainerPropertiesUlimitsOutputReference extends
   }
 
   // soft_limit - computed: true, optional: true, required: false
-  private _softLimit?: number;
+  private _softLimit?: number; 
   public get softLimit() {
     return this.getNumberAttribute('soft_limit');
   }
@@ -2657,7 +2657,7 @@ export class BatchJobDefinitionContainerPropertiesVolumesEfsVolumeConfigurationA
   }
 
   // access_point_id - computed: true, optional: true, required: false
-  private _accessPointId?: string;
+  private _accessPointId?: string; 
   public get accessPointId() {
     return this.getStringAttribute('access_point_id');
   }
@@ -2673,7 +2673,7 @@ export class BatchJobDefinitionContainerPropertiesVolumesEfsVolumeConfigurationA
   }
 
   // iam - computed: true, optional: true, required: false
-  private _iam?: string;
+  private _iam?: string; 
   public get iam() {
     return this.getStringAttribute('iam');
   }
@@ -2851,7 +2851,7 @@ export class BatchJobDefinitionContainerPropertiesVolumesEfsVolumeConfigurationO
   }
 
   // file_system_id - computed: true, optional: true, required: false
-  private _fileSystemId?: string;
+  private _fileSystemId?: string; 
   public get fileSystemId() {
     return this.getStringAttribute('file_system_id');
   }
@@ -2867,7 +2867,7 @@ export class BatchJobDefinitionContainerPropertiesVolumesEfsVolumeConfigurationO
   }
 
   // root_directory - computed: true, optional: true, required: false
-  private _rootDirectory?: string;
+  private _rootDirectory?: string; 
   public get rootDirectory() {
     return this.getStringAttribute('root_directory');
   }
@@ -2883,7 +2883,7 @@ export class BatchJobDefinitionContainerPropertiesVolumesEfsVolumeConfigurationO
   }
 
   // transit_encryption - computed: true, optional: true, required: false
-  private _transitEncryption?: string;
+  private _transitEncryption?: string; 
   public get transitEncryption() {
     return this.getStringAttribute('transit_encryption');
   }
@@ -2899,7 +2899,7 @@ export class BatchJobDefinitionContainerPropertiesVolumesEfsVolumeConfigurationO
   }
 
   // transit_encryption_port - computed: true, optional: true, required: false
-  private _transitEncryptionPort?: number;
+  private _transitEncryptionPort?: number; 
   public get transitEncryptionPort() {
     return this.getNumberAttribute('transit_encryption_port');
   }
@@ -2993,7 +2993,7 @@ export class BatchJobDefinitionContainerPropertiesVolumesHostOutputReference ext
   }
 
   // source_path - computed: true, optional: true, required: false
-  private _sourcePath?: string;
+  private _sourcePath?: string; 
   public get sourcePath() {
     return this.getStringAttribute('source_path');
   }
@@ -3138,7 +3138,7 @@ export class BatchJobDefinitionContainerPropertiesVolumesS3FilesVolumeConfigurat
   }
 
   // access_point_arn - computed: true, optional: true, required: false
-  private _accessPointArn?: string;
+  private _accessPointArn?: string; 
   public get accessPointArn() {
     return this.getStringAttribute('access_point_arn');
   }
@@ -3154,7 +3154,7 @@ export class BatchJobDefinitionContainerPropertiesVolumesS3FilesVolumeConfigurat
   }
 
   // file_system_arn - computed: true, optional: true, required: false
-  private _fileSystemArn?: string;
+  private _fileSystemArn?: string; 
   public get fileSystemArn() {
     return this.getStringAttribute('file_system_arn');
   }
@@ -3170,7 +3170,7 @@ export class BatchJobDefinitionContainerPropertiesVolumesS3FilesVolumeConfigurat
   }
 
   // root_directory - computed: true, optional: true, required: false
-  private _rootDirectory?: string;
+  private _rootDirectory?: string; 
   public get rootDirectory() {
     return this.getStringAttribute('root_directory');
   }
@@ -3186,7 +3186,7 @@ export class BatchJobDefinitionContainerPropertiesVolumesS3FilesVolumeConfigurat
   }
 
   // transit_encryption_port - computed: true, optional: true, required: false
-  private _transitEncryptionPort?: number;
+  private _transitEncryptionPort?: number; 
   public get transitEncryptionPort() {
     return this.getNumberAttribute('transit_encryption_port');
   }
@@ -3365,7 +3365,7 @@ export class BatchJobDefinitionContainerPropertiesVolumesOutputReference extends
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -3869,7 +3869,7 @@ export class BatchJobDefinitionContainerPropertiesOutputReference extends cdktn.
   }
 
   // command - computed: true, optional: true, required: false
-  private _command?: string[];
+  private _command?: string[]; 
   public get command() {
     return this.getListAttribute('command');
   }
@@ -3885,7 +3885,7 @@ export class BatchJobDefinitionContainerPropertiesOutputReference extends cdktn.
   }
 
   // enable_execute_command - computed: true, optional: true, required: false
-  private _enableExecuteCommand?: boolean | cdktn.IResolvable;
+  private _enableExecuteCommand?: boolean | cdktn.IResolvable; 
   public get enableExecuteCommand() {
     return this.getBooleanAttribute('enable_execute_command');
   }
@@ -3933,7 +3933,7 @@ export class BatchJobDefinitionContainerPropertiesOutputReference extends cdktn.
   }
 
   // execution_role_arn - computed: true, optional: true, required: false
-  private _executionRoleArn?: string;
+  private _executionRoleArn?: string; 
   public get executionRoleArn() {
     return this.getStringAttribute('execution_role_arn');
   }
@@ -3965,7 +3965,7 @@ export class BatchJobDefinitionContainerPropertiesOutputReference extends cdktn.
   }
 
   // image - computed: true, optional: true, required: false
-  private _image?: string;
+  private _image?: string; 
   public get image() {
     return this.getStringAttribute('image');
   }
@@ -3981,7 +3981,7 @@ export class BatchJobDefinitionContainerPropertiesOutputReference extends cdktn.
   }
 
   // job_role_arn - computed: true, optional: true, required: false
-  private _jobRoleArn?: string;
+  private _jobRoleArn?: string; 
   public get jobRoleArn() {
     return this.getStringAttribute('job_role_arn');
   }
@@ -4029,7 +4029,7 @@ export class BatchJobDefinitionContainerPropertiesOutputReference extends cdktn.
   }
 
   // memory - computed: true, optional: true, required: false
-  private _memory?: number;
+  private _memory?: number; 
   public get memory() {
     return this.getNumberAttribute('memory');
   }
@@ -4077,7 +4077,7 @@ export class BatchJobDefinitionContainerPropertiesOutputReference extends cdktn.
   }
 
   // privileged - computed: true, optional: true, required: false
-  private _privileged?: boolean | cdktn.IResolvable;
+  private _privileged?: boolean | cdktn.IResolvable; 
   public get privileged() {
     return this.getBooleanAttribute('privileged');
   }
@@ -4093,7 +4093,7 @@ export class BatchJobDefinitionContainerPropertiesOutputReference extends cdktn.
   }
 
   // readonly_root_filesystem - computed: true, optional: true, required: false
-  private _readonlyRootFilesystem?: boolean | cdktn.IResolvable;
+  private _readonlyRootFilesystem?: boolean | cdktn.IResolvable; 
   public get readonlyRootFilesystem() {
     return this.getBooleanAttribute('readonly_root_filesystem');
   }
@@ -4189,7 +4189,7 @@ export class BatchJobDefinitionContainerPropertiesOutputReference extends cdktn.
   }
 
   // user - computed: true, optional: true, required: false
-  private _user?: string;
+  private _user?: string; 
   public get user() {
     return this.getStringAttribute('user');
   }
@@ -4205,7 +4205,7 @@ export class BatchJobDefinitionContainerPropertiesOutputReference extends cdktn.
   }
 
   // vcpus - computed: true, optional: true, required: false
-  private _vcpus?: number;
+  private _vcpus?: number; 
   public get vcpus() {
     return this.getNumberAttribute('vcpus');
   }
@@ -4334,7 +4334,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesContainersDependsOnOut
   }
 
   // condition - computed: true, optional: true, required: false
-  private _condition?: string;
+  private _condition?: string; 
   public get condition() {
     return this.getStringAttribute('condition');
   }
@@ -4350,7 +4350,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesContainersDependsOnOut
   }
 
   // container_name - computed: true, optional: true, required: false
-  private _containerName?: string;
+  private _containerName?: string; 
   public get containerName() {
     return this.getStringAttribute('container_name');
   }
@@ -4483,7 +4483,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesContainersEnvironmentO
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -4499,7 +4499,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesContainersEnvironmentO
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -4630,7 +4630,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesContainersFirelensConf
   }
 
   // options - computed: true, optional: true, required: false
-  private _options?: { [key: string]: string };
+  private _options?: { [key: string]: string }; 
   public get options() {
     return this.getStringMapAttribute('options');
   }
@@ -4646,7 +4646,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesContainersFirelensConf
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -4776,7 +4776,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesContainersLinuxParamet
   }
 
   // container_path - computed: true, optional: true, required: false
-  private _containerPath?: string;
+  private _containerPath?: string; 
   public get containerPath() {
     return this.getStringAttribute('container_path');
   }
@@ -4792,7 +4792,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesContainersLinuxParamet
   }
 
   // host_path - computed: true, optional: true, required: false
-  private _hostPath?: string;
+  private _hostPath?: string; 
   public get hostPath() {
     return this.getStringAttribute('host_path');
   }
@@ -4808,7 +4808,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesContainersLinuxParamet
   }
 
   // permissions - computed: true, optional: true, required: false
-  private _permissions?: string[];
+  private _permissions?: string[]; 
   public get permissions() {
     return this.getListAttribute('permissions');
   }
@@ -4958,7 +4958,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesContainersLinuxParamet
   }
 
   // container_path - computed: true, optional: true, required: false
-  private _containerPath?: string;
+  private _containerPath?: string; 
   public get containerPath() {
     return this.getStringAttribute('container_path');
   }
@@ -4974,7 +4974,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesContainersLinuxParamet
   }
 
   // mount_options - computed: true, optional: true, required: false
-  private _mountOptions?: string[];
+  private _mountOptions?: string[]; 
   public get mountOptions() {
     return this.getListAttribute('mount_options');
   }
@@ -4990,7 +4990,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesContainersLinuxParamet
   }
 
   // size - computed: true, optional: true, required: false
-  private _size?: number;
+  private _size?: number; 
   public get size() {
     return this.getNumberAttribute('size');
   }
@@ -5205,7 +5205,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesContainersLinuxParamet
   }
 
   // init_process_enabled - computed: true, optional: true, required: false
-  private _initProcessEnabled?: boolean | cdktn.IResolvable;
+  private _initProcessEnabled?: boolean | cdktn.IResolvable; 
   public get initProcessEnabled() {
     return this.getBooleanAttribute('init_process_enabled');
   }
@@ -5221,7 +5221,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesContainersLinuxParamet
   }
 
   // max_swap - computed: true, optional: true, required: false
-  private _maxSwap?: number;
+  private _maxSwap?: number; 
   public get maxSwap() {
     return this.getNumberAttribute('max_swap');
   }
@@ -5237,7 +5237,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesContainersLinuxParamet
   }
 
   // shared_memory_size - computed: true, optional: true, required: false
-  private _sharedMemorySize?: number;
+  private _sharedMemorySize?: number; 
   public get sharedMemorySize() {
     return this.getNumberAttribute('shared_memory_size');
   }
@@ -5253,7 +5253,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesContainersLinuxParamet
   }
 
   // swappiness - computed: true, optional: true, required: false
-  private _swappiness?: number;
+  private _swappiness?: number; 
   public get swappiness() {
     return this.getNumberAttribute('swappiness');
   }
@@ -5382,7 +5382,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesContainersLogConfigura
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -5398,7 +5398,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesContainersLogConfigura
   }
 
   // value_from - computed: true, optional: true, required: false
-  private _valueFrom?: string;
+  private _valueFrom?: string; 
   public get valueFrom() {
     return this.getStringAttribute('value_from');
   }
@@ -5546,7 +5546,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesContainersLogConfigura
   }
 
   // log_driver - computed: true, optional: true, required: false
-  private _logDriver?: string;
+  private _logDriver?: string; 
   public get logDriver() {
     return this.getStringAttribute('log_driver');
   }
@@ -5562,7 +5562,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesContainersLogConfigura
   }
 
   // options - computed: true, optional: true, required: false
-  private _options?: { [key: string]: string };
+  private _options?: { [key: string]: string }; 
   public get options() {
     return this.getStringMapAttribute('options');
   }
@@ -5708,7 +5708,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesContainersMountPointsO
   }
 
   // container_path - computed: true, optional: true, required: false
-  private _containerPath?: string;
+  private _containerPath?: string; 
   public get containerPath() {
     return this.getStringAttribute('container_path');
   }
@@ -5724,7 +5724,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesContainersMountPointsO
   }
 
   // read_only - computed: true, optional: true, required: false
-  private _readOnly?: boolean | cdktn.IResolvable;
+  private _readOnly?: boolean | cdktn.IResolvable; 
   public get readOnly() {
     return this.getBooleanAttribute('read_only');
   }
@@ -5740,7 +5740,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesContainersMountPointsO
   }
 
   // source_volume - computed: true, optional: true, required: false
-  private _sourceVolume?: string;
+  private _sourceVolume?: string; 
   public get sourceVolume() {
     return this.getStringAttribute('source_volume');
   }
@@ -5854,7 +5854,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesContainersRepositoryCr
   }
 
   // credentials_parameter - computed: true, optional: true, required: false
-  private _credentialsParameter?: string;
+  private _credentialsParameter?: string; 
   public get credentialsParameter() {
     return this.getStringAttribute('credentials_parameter');
   }
@@ -5967,7 +5967,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesContainersResourceRequ
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -5983,7 +5983,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesContainersResourceRequ
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -6116,7 +6116,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesContainersSecretsOutpu
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -6132,7 +6132,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesContainersSecretsOutpu
   }
 
   // value_from - computed: true, optional: true, required: false
-  private _valueFrom?: string;
+  private _valueFrom?: string; 
   public get valueFrom() {
     return this.getStringAttribute('value_from');
   }
@@ -6282,7 +6282,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesContainersUlimitsOutpu
   }
 
   // hard_limit - computed: true, optional: true, required: false
-  private _hardLimit?: number;
+  private _hardLimit?: number; 
   public get hardLimit() {
     return this.getNumberAttribute('hard_limit');
   }
@@ -6298,7 +6298,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesContainersUlimitsOutpu
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -6314,7 +6314,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesContainersUlimitsOutpu
   }
 
   // soft_limit - computed: true, optional: true, required: false
-  private _softLimit?: number;
+  private _softLimit?: number; 
   public get softLimit() {
     return this.getNumberAttribute('soft_limit');
   }
@@ -6736,7 +6736,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesContainersOutputRefere
   }
 
   // command - computed: true, optional: true, required: false
-  private _command?: string[];
+  private _command?: string[]; 
   public get command() {
     return this.getListAttribute('command');
   }
@@ -6784,7 +6784,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesContainersOutputRefere
   }
 
   // essential - computed: true, optional: true, required: false
-  private _essential?: boolean | cdktn.IResolvable;
+  private _essential?: boolean | cdktn.IResolvable; 
   public get essential() {
     return this.getBooleanAttribute('essential');
   }
@@ -6816,7 +6816,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesContainersOutputRefere
   }
 
   // image - computed: true, optional: true, required: false
-  private _image?: string;
+  private _image?: string; 
   public get image() {
     return this.getStringAttribute('image');
   }
@@ -6880,7 +6880,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesContainersOutputRefere
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -6896,7 +6896,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesContainersOutputRefere
   }
 
   // privileged - computed: true, optional: true, required: false
-  private _privileged?: boolean | cdktn.IResolvable;
+  private _privileged?: boolean | cdktn.IResolvable; 
   public get privileged() {
     return this.getBooleanAttribute('privileged');
   }
@@ -6912,7 +6912,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesContainersOutputRefere
   }
 
   // readonly_root_filesystem - computed: true, optional: true, required: false
-  private _readonlyRootFilesystem?: boolean | cdktn.IResolvable;
+  private _readonlyRootFilesystem?: boolean | cdktn.IResolvable; 
   public get readonlyRootFilesystem() {
     return this.getBooleanAttribute('readonly_root_filesystem');
   }
@@ -6976,7 +6976,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesContainersOutputRefere
   }
 
   // start_timeout - computed: true, optional: true, required: false
-  private _startTimeout?: number;
+  private _startTimeout?: number; 
   public get startTimeout() {
     return this.getNumberAttribute('start_timeout');
   }
@@ -6992,7 +6992,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesContainersOutputRefere
   }
 
   // stop_timeout - computed: true, optional: true, required: false
-  private _stopTimeout?: number;
+  private _stopTimeout?: number; 
   public get stopTimeout() {
     return this.getNumberAttribute('stop_timeout');
   }
@@ -7024,7 +7024,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesContainersOutputRefere
   }
 
   // user - computed: true, optional: true, required: false
-  private _user?: string;
+  private _user?: string; 
   public get user() {
     return this.getStringAttribute('user');
   }
@@ -7138,7 +7138,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesEphemeralStorageOutput
   }
 
   // size_in_gi_b - computed: true, optional: true, required: false
-  private _sizeInGiB?: number;
+  private _sizeInGiB?: number; 
   public get sizeInGiB() {
     return this.getNumberAttribute('size_in_gi_b');
   }
@@ -7232,7 +7232,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesNetworkConfigurationOu
   }
 
   // assign_public_ip - computed: true, optional: true, required: false
-  private _assignPublicIp?: string;
+  private _assignPublicIp?: string; 
   public get assignPublicIp() {
     return this.getStringAttribute('assign_public_ip');
   }
@@ -7343,7 +7343,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesRuntimePlatformOutputR
   }
 
   // cpu_architecture - computed: true, optional: true, required: false
-  private _cpuArchitecture?: string;
+  private _cpuArchitecture?: string; 
   public get cpuArchitecture() {
     return this.getStringAttribute('cpu_architecture');
   }
@@ -7359,7 +7359,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesRuntimePlatformOutputR
   }
 
   // operating_system_family - computed: true, optional: true, required: false
-  private _operatingSystemFamily?: string;
+  private _operatingSystemFamily?: string; 
   public get operatingSystemFamily() {
     return this.getStringAttribute('operating_system_family');
   }
@@ -7470,7 +7470,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesVolumesEfsVolumeConfig
   }
 
   // access_point_id - computed: true, optional: true, required: false
-  private _accessPointId?: string;
+  private _accessPointId?: string; 
   public get accessPointId() {
     return this.getStringAttribute('access_point_id');
   }
@@ -7486,7 +7486,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesVolumesEfsVolumeConfig
   }
 
   // iam - computed: true, optional: true, required: false
-  private _iam?: string;
+  private _iam?: string; 
   public get iam() {
     return this.getStringAttribute('iam');
   }
@@ -7664,7 +7664,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesVolumesEfsVolumeConfig
   }
 
   // file_system_id - computed: true, optional: true, required: false
-  private _fileSystemId?: string;
+  private _fileSystemId?: string; 
   public get fileSystemId() {
     return this.getStringAttribute('file_system_id');
   }
@@ -7680,7 +7680,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesVolumesEfsVolumeConfig
   }
 
   // root_directory - computed: true, optional: true, required: false
-  private _rootDirectory?: string;
+  private _rootDirectory?: string; 
   public get rootDirectory() {
     return this.getStringAttribute('root_directory');
   }
@@ -7696,7 +7696,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesVolumesEfsVolumeConfig
   }
 
   // transit_encryption - computed: true, optional: true, required: false
-  private _transitEncryption?: string;
+  private _transitEncryption?: string; 
   public get transitEncryption() {
     return this.getStringAttribute('transit_encryption');
   }
@@ -7712,7 +7712,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesVolumesEfsVolumeConfig
   }
 
   // transit_encryption_port - computed: true, optional: true, required: false
-  private _transitEncryptionPort?: number;
+  private _transitEncryptionPort?: number; 
   public get transitEncryptionPort() {
     return this.getNumberAttribute('transit_encryption_port');
   }
@@ -7806,7 +7806,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesVolumesHostOutputRefer
   }
 
   // source_path - computed: true, optional: true, required: false
-  private _sourcePath?: string;
+  private _sourcePath?: string; 
   public get sourcePath() {
     return this.getStringAttribute('source_path');
   }
@@ -7951,7 +7951,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesVolumesS3FilesVolumeCo
   }
 
   // access_point_arn - computed: true, optional: true, required: false
-  private _accessPointArn?: string;
+  private _accessPointArn?: string; 
   public get accessPointArn() {
     return this.getStringAttribute('access_point_arn');
   }
@@ -7967,7 +7967,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesVolumesS3FilesVolumeCo
   }
 
   // file_system_arn - computed: true, optional: true, required: false
-  private _fileSystemArn?: string;
+  private _fileSystemArn?: string; 
   public get fileSystemArn() {
     return this.getStringAttribute('file_system_arn');
   }
@@ -7983,7 +7983,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesVolumesS3FilesVolumeCo
   }
 
   // root_directory - computed: true, optional: true, required: false
-  private _rootDirectory?: string;
+  private _rootDirectory?: string; 
   public get rootDirectory() {
     return this.getStringAttribute('root_directory');
   }
@@ -7999,7 +7999,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesVolumesS3FilesVolumeCo
   }
 
   // transit_encryption_port - computed: true, optional: true, required: false
-  private _transitEncryptionPort?: number;
+  private _transitEncryptionPort?: number; 
   public get transitEncryptionPort() {
     return this.getNumberAttribute('transit_encryption_port');
   }
@@ -8178,7 +8178,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesVolumesOutputReference
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -8496,7 +8496,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesOutputReference extend
   }
 
   // enable_execute_command - computed: true, optional: true, required: false
-  private _enableExecuteCommand?: boolean | cdktn.IResolvable;
+  private _enableExecuteCommand?: boolean | cdktn.IResolvable; 
   public get enableExecuteCommand() {
     return this.getBooleanAttribute('enable_execute_command');
   }
@@ -8528,7 +8528,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesOutputReference extend
   }
 
   // execution_role_arn - computed: true, optional: true, required: false
-  private _executionRoleArn?: string;
+  private _executionRoleArn?: string; 
   public get executionRoleArn() {
     return this.getStringAttribute('execution_role_arn');
   }
@@ -8544,7 +8544,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesOutputReference extend
   }
 
   // ipc_mode - computed: true, optional: true, required: false
-  private _ipcMode?: string;
+  private _ipcMode?: string; 
   public get ipcMode() {
     return this.getStringAttribute('ipc_mode');
   }
@@ -8576,7 +8576,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesOutputReference extend
   }
 
   // pid_mode - computed: true, optional: true, required: false
-  private _pidMode?: string;
+  private _pidMode?: string; 
   public get pidMode() {
     return this.getStringAttribute('pid_mode');
   }
@@ -8592,7 +8592,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesOutputReference extend
   }
 
   // platform_version - computed: true, optional: true, required: false
-  private _platformVersion?: string;
+  private _platformVersion?: string; 
   public get platformVersion() {
     return this.getStringAttribute('platform_version');
   }
@@ -8624,7 +8624,7 @@ export class BatchJobDefinitionEcsPropertiesTaskPropertiesOutputReference extend
   }
 
   // task_role_arn - computed: true, optional: true, required: false
-  private _taskRoleArn?: string;
+  private _taskRoleArn?: string; 
   public get taskRoleArn() {
     return this.getStringAttribute('task_role_arn');
   }
@@ -8867,7 +8867,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesContainersEnvOutputRefe
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -8883,7 +8883,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesContainersEnvOutputRefe
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -9014,7 +9014,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesContainersResourcesOutp
   }
 
   // limits - computed: true, optional: true, required: false
-  private _limits?: { [key: string]: string };
+  private _limits?: { [key: string]: string }; 
   public get limits() {
     return this.getStringMapAttribute('limits');
   }
@@ -9030,7 +9030,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesContainersResourcesOutp
   }
 
   // requests - computed: true, optional: true, required: false
-  private _requests?: { [key: string]: string };
+  private _requests?: { [key: string]: string }; 
   public get requests() {
     return this.getStringMapAttribute('requests');
   }
@@ -9209,7 +9209,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesContainersSecurityConte
   }
 
   // allow_privilege_escalation - computed: true, optional: true, required: false
-  private _allowPrivilegeEscalation?: boolean | cdktn.IResolvable;
+  private _allowPrivilegeEscalation?: boolean | cdktn.IResolvable; 
   public get allowPrivilegeEscalation() {
     return this.getBooleanAttribute('allow_privilege_escalation');
   }
@@ -9225,7 +9225,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesContainersSecurityConte
   }
 
   // privileged - computed: true, optional: true, required: false
-  private _privileged?: boolean | cdktn.IResolvable;
+  private _privileged?: boolean | cdktn.IResolvable; 
   public get privileged() {
     return this.getBooleanAttribute('privileged');
   }
@@ -9241,7 +9241,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesContainersSecurityConte
   }
 
   // read_only_root_filesystem - computed: true, optional: true, required: false
-  private _readOnlyRootFilesystem?: boolean | cdktn.IResolvable;
+  private _readOnlyRootFilesystem?: boolean | cdktn.IResolvable; 
   public get readOnlyRootFilesystem() {
     return this.getBooleanAttribute('read_only_root_filesystem');
   }
@@ -9257,7 +9257,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesContainersSecurityConte
   }
 
   // run_as_group - computed: true, optional: true, required: false
-  private _runAsGroup?: number;
+  private _runAsGroup?: number; 
   public get runAsGroup() {
     return this.getNumberAttribute('run_as_group');
   }
@@ -9273,7 +9273,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesContainersSecurityConte
   }
 
   // run_as_non_root - computed: true, optional: true, required: false
-  private _runAsNonRoot?: boolean | cdktn.IResolvable;
+  private _runAsNonRoot?: boolean | cdktn.IResolvable; 
   public get runAsNonRoot() {
     return this.getBooleanAttribute('run_as_non_root');
   }
@@ -9289,7 +9289,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesContainersSecurityConte
   }
 
   // run_as_user - computed: true, optional: true, required: false
-  private _runAsUser?: number;
+  private _runAsUser?: number; 
   public get runAsUser() {
     return this.getNumberAttribute('run_as_user');
   }
@@ -9436,7 +9436,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesContainersVolumeMountsO
   }
 
   // mount_path - computed: true, optional: true, required: false
-  private _mountPath?: string;
+  private _mountPath?: string; 
   public get mountPath() {
     return this.getStringAttribute('mount_path');
   }
@@ -9452,7 +9452,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesContainersVolumeMountsO
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -9468,7 +9468,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesContainersVolumeMountsO
   }
 
   // read_only - computed: true, optional: true, required: false
-  private _readOnly?: boolean | cdktn.IResolvable;
+  private _readOnly?: boolean | cdktn.IResolvable; 
   public get readOnly() {
     return this.getBooleanAttribute('read_only');
   }
@@ -9484,7 +9484,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesContainersVolumeMountsO
   }
 
   // sub_path - computed: true, optional: true, required: false
-  private _subPath?: string;
+  private _subPath?: string; 
   public get subPath() {
     return this.getStringAttribute('sub_path');
   }
@@ -9736,7 +9736,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesContainersOutputReferen
   }
 
   // args - computed: true, optional: true, required: false
-  private _args?: string[];
+  private _args?: string[]; 
   public get args() {
     return this.getListAttribute('args');
   }
@@ -9752,7 +9752,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesContainersOutputReferen
   }
 
   // command - computed: true, optional: true, required: false
-  private _command?: string[];
+  private _command?: string[]; 
   public get command() {
     return this.getListAttribute('command');
   }
@@ -9784,7 +9784,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesContainersOutputReferen
   }
 
   // image - computed: true, optional: true, required: false
-  private _image?: string;
+  private _image?: string; 
   public get image() {
     return this.getStringAttribute('image');
   }
@@ -9800,7 +9800,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesContainersOutputReferen
   }
 
   // image_pull_policy - computed: true, optional: true, required: false
-  private _imagePullPolicy?: string;
+  private _imagePullPolicy?: string; 
   public get imagePullPolicy() {
     return this.getStringAttribute('image_pull_policy');
   }
@@ -9816,7 +9816,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesContainersOutputReferen
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -9980,7 +9980,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesImagePullSecretsOutputR
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -10113,7 +10113,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesInitContainersEnvOutput
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -10129,7 +10129,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesInitContainersEnvOutput
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -10260,7 +10260,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesInitContainersResources
   }
 
   // limits - computed: true, optional: true, required: false
-  private _limits?: { [key: string]: string };
+  private _limits?: { [key: string]: string }; 
   public get limits() {
     return this.getStringMapAttribute('limits');
   }
@@ -10276,7 +10276,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesInitContainersResources
   }
 
   // requests - computed: true, optional: true, required: false
-  private _requests?: { [key: string]: string };
+  private _requests?: { [key: string]: string }; 
   public get requests() {
     return this.getStringMapAttribute('requests');
   }
@@ -10455,7 +10455,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesInitContainersSecurityC
   }
 
   // allow_privilege_escalation - computed: true, optional: true, required: false
-  private _allowPrivilegeEscalation?: boolean | cdktn.IResolvable;
+  private _allowPrivilegeEscalation?: boolean | cdktn.IResolvable; 
   public get allowPrivilegeEscalation() {
     return this.getBooleanAttribute('allow_privilege_escalation');
   }
@@ -10471,7 +10471,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesInitContainersSecurityC
   }
 
   // privileged - computed: true, optional: true, required: false
-  private _privileged?: boolean | cdktn.IResolvable;
+  private _privileged?: boolean | cdktn.IResolvable; 
   public get privileged() {
     return this.getBooleanAttribute('privileged');
   }
@@ -10487,7 +10487,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesInitContainersSecurityC
   }
 
   // read_only_root_filesystem - computed: true, optional: true, required: false
-  private _readOnlyRootFilesystem?: boolean | cdktn.IResolvable;
+  private _readOnlyRootFilesystem?: boolean | cdktn.IResolvable; 
   public get readOnlyRootFilesystem() {
     return this.getBooleanAttribute('read_only_root_filesystem');
   }
@@ -10503,7 +10503,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesInitContainersSecurityC
   }
 
   // run_as_group - computed: true, optional: true, required: false
-  private _runAsGroup?: number;
+  private _runAsGroup?: number; 
   public get runAsGroup() {
     return this.getNumberAttribute('run_as_group');
   }
@@ -10519,7 +10519,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesInitContainersSecurityC
   }
 
   // run_as_non_root - computed: true, optional: true, required: false
-  private _runAsNonRoot?: boolean | cdktn.IResolvable;
+  private _runAsNonRoot?: boolean | cdktn.IResolvable; 
   public get runAsNonRoot() {
     return this.getBooleanAttribute('run_as_non_root');
   }
@@ -10535,7 +10535,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesInitContainersSecurityC
   }
 
   // run_as_user - computed: true, optional: true, required: false
-  private _runAsUser?: number;
+  private _runAsUser?: number; 
   public get runAsUser() {
     return this.getNumberAttribute('run_as_user');
   }
@@ -10682,7 +10682,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesInitContainersVolumeMou
   }
 
   // mount_path - computed: true, optional: true, required: false
-  private _mountPath?: string;
+  private _mountPath?: string; 
   public get mountPath() {
     return this.getStringAttribute('mount_path');
   }
@@ -10698,7 +10698,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesInitContainersVolumeMou
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -10714,7 +10714,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesInitContainersVolumeMou
   }
 
   // read_only - computed: true, optional: true, required: false
-  private _readOnly?: boolean | cdktn.IResolvable;
+  private _readOnly?: boolean | cdktn.IResolvable; 
   public get readOnly() {
     return this.getBooleanAttribute('read_only');
   }
@@ -10730,7 +10730,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesInitContainersVolumeMou
   }
 
   // sub_path - computed: true, optional: true, required: false
-  private _subPath?: string;
+  private _subPath?: string; 
   public get subPath() {
     return this.getStringAttribute('sub_path');
   }
@@ -10982,7 +10982,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesInitContainersOutputRef
   }
 
   // args - computed: true, optional: true, required: false
-  private _args?: string[];
+  private _args?: string[]; 
   public get args() {
     return this.getListAttribute('args');
   }
@@ -10998,7 +10998,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesInitContainersOutputRef
   }
 
   // command - computed: true, optional: true, required: false
-  private _command?: string[];
+  private _command?: string[]; 
   public get command() {
     return this.getListAttribute('command');
   }
@@ -11030,7 +11030,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesInitContainersOutputRef
   }
 
   // image - computed: true, optional: true, required: false
-  private _image?: string;
+  private _image?: string; 
   public get image() {
     return this.getStringAttribute('image');
   }
@@ -11046,7 +11046,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesInitContainersOutputRef
   }
 
   // image_pull_policy - computed: true, optional: true, required: false
-  private _imagePullPolicy?: string;
+  private _imagePullPolicy?: string; 
   public get imagePullPolicy() {
     return this.getStringAttribute('image_pull_policy');
   }
@@ -11062,7 +11062,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesInitContainersOutputRef
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -11258,7 +11258,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesMetadataOutputReference
   }
 
   // annotations - computed: true, optional: true, required: false
-  private _annotations?: { [key: string]: string };
+  private _annotations?: { [key: string]: string }; 
   public get annotations() {
     return this.getStringMapAttribute('annotations');
   }
@@ -11274,7 +11274,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesMetadataOutputReference
   }
 
   // labels - computed: true, optional: true, required: false
-  private _labels?: { [key: string]: string };
+  private _labels?: { [key: string]: string }; 
   public get labels() {
     return this.getStringMapAttribute('labels');
   }
@@ -11290,7 +11290,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesMetadataOutputReference
   }
 
   // namespace - computed: true, optional: true, required: false
-  private _namespace?: string;
+  private _namespace?: string; 
   public get namespace() {
     return this.getStringAttribute('namespace');
   }
@@ -11401,7 +11401,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesVolumesEmptyDirOutputRe
   }
 
   // medium - computed: true, optional: true, required: false
-  private _medium?: string;
+  private _medium?: string; 
   public get medium() {
     return this.getStringAttribute('medium');
   }
@@ -11417,7 +11417,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesVolumesEmptyDirOutputRe
   }
 
   // size_limit - computed: true, optional: true, required: false
-  private _sizeLimit?: string;
+  private _sizeLimit?: string; 
   public get sizeLimit() {
     return this.getStringAttribute('size_limit');
   }
@@ -11511,7 +11511,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesVolumesHostPathOutputRe
   }
 
   // path - computed: true, optional: true, required: false
-  private _path?: string;
+  private _path?: string; 
   public get path() {
     return this.getStringAttribute('path');
   }
@@ -11622,7 +11622,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesVolumesPersistentVolume
   }
 
   // claim_name - computed: true, optional: true, required: false
-  private _claimName?: string;
+  private _claimName?: string; 
   public get claimName() {
     return this.getStringAttribute('claim_name');
   }
@@ -11638,7 +11638,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesVolumesPersistentVolume
   }
 
   // read_only - computed: true, optional: true, required: false
-  private _readOnly?: boolean | cdktn.IResolvable;
+  private _readOnly?: boolean | cdktn.IResolvable; 
   public get readOnly() {
     return this.getBooleanAttribute('read_only');
   }
@@ -11749,7 +11749,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesVolumesSecretOutputRefe
   }
 
   // optional - computed: true, optional: true, required: false
-  private _optional?: boolean | cdktn.IResolvable;
+  private _optional?: boolean | cdktn.IResolvable; 
   public get optional() {
     return this.getBooleanAttribute('optional');
   }
@@ -11765,7 +11765,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesVolumesSecretOutputRefe
   }
 
   // secret_name - computed: true, optional: true, required: false
-  private _secretName?: string;
+  private _secretName?: string; 
   public get secretName() {
     return this.getStringAttribute('secret_name');
   }
@@ -11961,7 +11961,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesVolumesOutputReference 
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -12259,7 +12259,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesOutputReference extends
   }
 
   // dns_policy - computed: true, optional: true, required: false
-  private _dnsPolicy?: string;
+  private _dnsPolicy?: string; 
   public get dnsPolicy() {
     return this.getStringAttribute('dns_policy');
   }
@@ -12275,7 +12275,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesOutputReference extends
   }
 
   // host_network - computed: true, optional: true, required: false
-  private _hostNetwork?: boolean | cdktn.IResolvable;
+  private _hostNetwork?: boolean | cdktn.IResolvable; 
   public get hostNetwork() {
     return this.getBooleanAttribute('host_network');
   }
@@ -12339,7 +12339,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesOutputReference extends
   }
 
   // service_account_name - computed: true, optional: true, required: false
-  private _serviceAccountName?: string;
+  private _serviceAccountName?: string; 
   public get serviceAccountName() {
     return this.getStringAttribute('service_account_name');
   }
@@ -12355,7 +12355,7 @@ export class BatchJobDefinitionEksPropertiesPodPropertiesOutputReference extends
   }
 
   // share_process_namespace - computed: true, optional: true, required: false
-  private _shareProcessNamespace?: boolean | cdktn.IResolvable;
+  private _shareProcessNamespace?: boolean | cdktn.IResolvable; 
   public get shareProcessNamespace() {
     return this.getBooleanAttribute('share_process_namespace');
   }
@@ -12580,7 +12580,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesConsumableResour
   }
 
   // consumable_resource - computed: true, optional: true, required: false
-  private _consumableResource?: string;
+  private _consumableResource?: string; 
   public get consumableResource() {
     return this.getStringAttribute('consumable_resource');
   }
@@ -12596,7 +12596,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesConsumableResour
   }
 
   // quantity - computed: true, optional: true, required: false
-  private _quantity?: number;
+  private _quantity?: number; 
   public get quantity() {
     return this.getNumberAttribute('quantity');
   }
@@ -12823,7 +12823,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerEnviron
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -12839,7 +12839,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerEnviron
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -12953,7 +12953,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerEphemer
   }
 
   // size_in_gi_b - computed: true, optional: true, required: false
-  private _sizeInGiB?: number;
+  private _sizeInGiB?: number; 
   public get sizeInGiB() {
     return this.getNumberAttribute('size_in_gi_b');
   }
@@ -13083,7 +13083,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerLinuxPa
   }
 
   // container_path - computed: true, optional: true, required: false
-  private _containerPath?: string;
+  private _containerPath?: string; 
   public get containerPath() {
     return this.getStringAttribute('container_path');
   }
@@ -13099,7 +13099,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerLinuxPa
   }
 
   // host_path - computed: true, optional: true, required: false
-  private _hostPath?: string;
+  private _hostPath?: string; 
   public get hostPath() {
     return this.getStringAttribute('host_path');
   }
@@ -13115,7 +13115,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerLinuxPa
   }
 
   // permissions - computed: true, optional: true, required: false
-  private _permissions?: string[];
+  private _permissions?: string[]; 
   public get permissions() {
     return this.getListAttribute('permissions');
   }
@@ -13265,7 +13265,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerLinuxPa
   }
 
   // container_path - computed: true, optional: true, required: false
-  private _containerPath?: string;
+  private _containerPath?: string; 
   public get containerPath() {
     return this.getStringAttribute('container_path');
   }
@@ -13281,7 +13281,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerLinuxPa
   }
 
   // mount_options - computed: true, optional: true, required: false
-  private _mountOptions?: string[];
+  private _mountOptions?: string[]; 
   public get mountOptions() {
     return this.getListAttribute('mount_options');
   }
@@ -13297,7 +13297,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerLinuxPa
   }
 
   // size - computed: true, optional: true, required: false
-  private _size?: number;
+  private _size?: number; 
   public get size() {
     return this.getNumberAttribute('size');
   }
@@ -13512,7 +13512,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerLinuxPa
   }
 
   // init_process_enabled - computed: true, optional: true, required: false
-  private _initProcessEnabled?: boolean | cdktn.IResolvable;
+  private _initProcessEnabled?: boolean | cdktn.IResolvable; 
   public get initProcessEnabled() {
     return this.getBooleanAttribute('init_process_enabled');
   }
@@ -13528,7 +13528,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerLinuxPa
   }
 
   // max_swap - computed: true, optional: true, required: false
-  private _maxSwap?: number;
+  private _maxSwap?: number; 
   public get maxSwap() {
     return this.getNumberAttribute('max_swap');
   }
@@ -13544,7 +13544,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerLinuxPa
   }
 
   // shared_memory_size - computed: true, optional: true, required: false
-  private _sharedMemorySize?: number;
+  private _sharedMemorySize?: number; 
   public get sharedMemorySize() {
     return this.getNumberAttribute('shared_memory_size');
   }
@@ -13560,7 +13560,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerLinuxPa
   }
 
   // swappiness - computed: true, optional: true, required: false
-  private _swappiness?: number;
+  private _swappiness?: number; 
   public get swappiness() {
     return this.getNumberAttribute('swappiness');
   }
@@ -13689,7 +13689,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerLogConf
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -13705,7 +13705,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerLogConf
   }
 
   // value_from - computed: true, optional: true, required: false
-  private _valueFrom?: string;
+  private _valueFrom?: string; 
   public get valueFrom() {
     return this.getStringAttribute('value_from');
   }
@@ -13853,7 +13853,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerLogConf
   }
 
   // log_driver - computed: true, optional: true, required: false
-  private _logDriver?: string;
+  private _logDriver?: string; 
   public get logDriver() {
     return this.getStringAttribute('log_driver');
   }
@@ -13869,7 +13869,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerLogConf
   }
 
   // options - computed: true, optional: true, required: false
-  private _options?: { [key: string]: string };
+  private _options?: { [key: string]: string }; 
   public get options() {
     return this.getStringMapAttribute('options');
   }
@@ -14015,7 +14015,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerMountPo
   }
 
   // container_path - computed: true, optional: true, required: false
-  private _containerPath?: string;
+  private _containerPath?: string; 
   public get containerPath() {
     return this.getStringAttribute('container_path');
   }
@@ -14031,7 +14031,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerMountPo
   }
 
   // read_only - computed: true, optional: true, required: false
-  private _readOnly?: boolean | cdktn.IResolvable;
+  private _readOnly?: boolean | cdktn.IResolvable; 
   public get readOnly() {
     return this.getBooleanAttribute('read_only');
   }
@@ -14047,7 +14047,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerMountPo
   }
 
   // source_volume - computed: true, optional: true, required: false
-  private _sourceVolume?: string;
+  private _sourceVolume?: string; 
   public get sourceVolume() {
     return this.getStringAttribute('source_volume');
   }
@@ -14161,7 +14161,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerReposit
   }
 
   // credentials_parameter - computed: true, optional: true, required: false
-  private _credentialsParameter?: string;
+  private _credentialsParameter?: string; 
   public get credentialsParameter() {
     return this.getStringAttribute('credentials_parameter');
   }
@@ -14274,7 +14274,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerResourc
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -14290,7 +14290,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerResourc
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -14421,7 +14421,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerRuntime
   }
 
   // cpu_architecture - computed: true, optional: true, required: false
-  private _cpuArchitecture?: string;
+  private _cpuArchitecture?: string; 
   public get cpuArchitecture() {
     return this.getStringAttribute('cpu_architecture');
   }
@@ -14437,7 +14437,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerRuntime
   }
 
   // operating_system_family - computed: true, optional: true, required: false
-  private _operatingSystemFamily?: string;
+  private _operatingSystemFamily?: string; 
   public get operatingSystemFamily() {
     return this.getStringAttribute('operating_system_family');
   }
@@ -14550,7 +14550,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerSecrets
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -14566,7 +14566,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerSecrets
   }
 
   // value_from - computed: true, optional: true, required: false
-  private _valueFrom?: string;
+  private _valueFrom?: string; 
   public get valueFrom() {
     return this.getStringAttribute('value_from');
   }
@@ -14716,7 +14716,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerUlimits
   }
 
   // hard_limit - computed: true, optional: true, required: false
-  private _hardLimit?: number;
+  private _hardLimit?: number; 
   public get hardLimit() {
     return this.getNumberAttribute('hard_limit');
   }
@@ -14732,7 +14732,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerUlimits
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -14748,7 +14748,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerUlimits
   }
 
   // soft_limit - computed: true, optional: true, required: false
-  private _softLimit?: number;
+  private _softLimit?: number; 
   public get softLimit() {
     return this.getNumberAttribute('soft_limit');
   }
@@ -14879,7 +14879,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerVolumes
   }
 
   // access_point_id - computed: true, optional: true, required: false
-  private _accessPointId?: string;
+  private _accessPointId?: string; 
   public get accessPointId() {
     return this.getStringAttribute('access_point_id');
   }
@@ -14895,7 +14895,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerVolumes
   }
 
   // iam - computed: true, optional: true, required: false
-  private _iam?: string;
+  private _iam?: string; 
   public get iam() {
     return this.getStringAttribute('iam');
   }
@@ -15073,7 +15073,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerVolumes
   }
 
   // file_system_id - computed: true, optional: true, required: false
-  private _fileSystemId?: string;
+  private _fileSystemId?: string; 
   public get fileSystemId() {
     return this.getStringAttribute('file_system_id');
   }
@@ -15089,7 +15089,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerVolumes
   }
 
   // root_directory - computed: true, optional: true, required: false
-  private _rootDirectory?: string;
+  private _rootDirectory?: string; 
   public get rootDirectory() {
     return this.getStringAttribute('root_directory');
   }
@@ -15105,7 +15105,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerVolumes
   }
 
   // transit_encryption - computed: true, optional: true, required: false
-  private _transitEncryption?: string;
+  private _transitEncryption?: string; 
   public get transitEncryption() {
     return this.getStringAttribute('transit_encryption');
   }
@@ -15121,7 +15121,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerVolumes
   }
 
   // transit_encryption_port - computed: true, optional: true, required: false
-  private _transitEncryptionPort?: number;
+  private _transitEncryptionPort?: number; 
   public get transitEncryptionPort() {
     return this.getNumberAttribute('transit_encryption_port');
   }
@@ -15215,7 +15215,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerVolumes
   }
 
   // source_path - computed: true, optional: true, required: false
-  private _sourcePath?: string;
+  private _sourcePath?: string; 
   public get sourcePath() {
     return this.getStringAttribute('source_path');
   }
@@ -15360,7 +15360,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerVolumes
   }
 
   // access_point_arn - computed: true, optional: true, required: false
-  private _accessPointArn?: string;
+  private _accessPointArn?: string; 
   public get accessPointArn() {
     return this.getStringAttribute('access_point_arn');
   }
@@ -15376,7 +15376,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerVolumes
   }
 
   // file_system_arn - computed: true, optional: true, required: false
-  private _fileSystemArn?: string;
+  private _fileSystemArn?: string; 
   public get fileSystemArn() {
     return this.getStringAttribute('file_system_arn');
   }
@@ -15392,7 +15392,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerVolumes
   }
 
   // root_directory - computed: true, optional: true, required: false
-  private _rootDirectory?: string;
+  private _rootDirectory?: string; 
   public get rootDirectory() {
     return this.getStringAttribute('root_directory');
   }
@@ -15408,7 +15408,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerVolumes
   }
 
   // transit_encryption_port - computed: true, optional: true, required: false
-  private _transitEncryptionPort?: number;
+  private _transitEncryptionPort?: number; 
   public get transitEncryptionPort() {
     return this.getNumberAttribute('transit_encryption_port');
   }
@@ -15587,7 +15587,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerVolumes
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -16074,7 +16074,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerOutputR
   }
 
   // command - computed: true, optional: true, required: false
-  private _command?: string[];
+  private _command?: string[]; 
   public get command() {
     return this.getListAttribute('command');
   }
@@ -16090,7 +16090,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerOutputR
   }
 
   // enable_execute_command - computed: true, optional: true, required: false
-  private _enableExecuteCommand?: boolean | cdktn.IResolvable;
+  private _enableExecuteCommand?: boolean | cdktn.IResolvable; 
   public get enableExecuteCommand() {
     return this.getBooleanAttribute('enable_execute_command');
   }
@@ -16138,7 +16138,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerOutputR
   }
 
   // execution_role_arn - computed: true, optional: true, required: false
-  private _executionRoleArn?: string;
+  private _executionRoleArn?: string; 
   public get executionRoleArn() {
     return this.getStringAttribute('execution_role_arn');
   }
@@ -16154,7 +16154,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerOutputR
   }
 
   // image - computed: true, optional: true, required: false
-  private _image?: string;
+  private _image?: string; 
   public get image() {
     return this.getStringAttribute('image');
   }
@@ -16170,7 +16170,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerOutputR
   }
 
   // instance_type - computed: true, optional: true, required: false
-  private _instanceType?: string;
+  private _instanceType?: string; 
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -16186,7 +16186,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerOutputR
   }
 
   // job_role_arn - computed: true, optional: true, required: false
-  private _jobRoleArn?: string;
+  private _jobRoleArn?: string; 
   public get jobRoleArn() {
     return this.getStringAttribute('job_role_arn');
   }
@@ -16234,7 +16234,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerOutputR
   }
 
   // memory - computed: true, optional: true, required: false
-  private _memory?: number;
+  private _memory?: number; 
   public get memory() {
     return this.getNumberAttribute('memory');
   }
@@ -16266,7 +16266,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerOutputR
   }
 
   // privileged - computed: true, optional: true, required: false
-  private _privileged?: boolean | cdktn.IResolvable;
+  private _privileged?: boolean | cdktn.IResolvable; 
   public get privileged() {
     return this.getBooleanAttribute('privileged');
   }
@@ -16282,7 +16282,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerOutputR
   }
 
   // readonly_root_filesystem - computed: true, optional: true, required: false
-  private _readonlyRootFilesystem?: boolean | cdktn.IResolvable;
+  private _readonlyRootFilesystem?: boolean | cdktn.IResolvable; 
   public get readonlyRootFilesystem() {
     return this.getBooleanAttribute('readonly_root_filesystem');
   }
@@ -16378,7 +16378,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerOutputR
   }
 
   // user - computed: true, optional: true, required: false
-  private _user?: string;
+  private _user?: string; 
   public get user() {
     return this.getStringAttribute('user');
   }
@@ -16394,7 +16394,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerOutputR
   }
 
   // vcpus - computed: true, optional: true, required: false
-  private _vcpus?: number;
+  private _vcpus?: number; 
   public get vcpus() {
     return this.getNumberAttribute('vcpus');
   }
@@ -16523,7 +16523,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // condition - computed: true, optional: true, required: false
-  private _condition?: string;
+  private _condition?: string; 
   public get condition() {
     return this.getStringAttribute('condition');
   }
@@ -16539,7 +16539,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // container_name - computed: true, optional: true, required: false
-  private _containerName?: string;
+  private _containerName?: string; 
   public get containerName() {
     return this.getStringAttribute('container_name');
   }
@@ -16672,7 +16672,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -16688,7 +16688,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -16819,7 +16819,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // options - computed: true, optional: true, required: false
-  private _options?: { [key: string]: string };
+  private _options?: { [key: string]: string }; 
   public get options() {
     return this.getStringMapAttribute('options');
   }
@@ -16835,7 +16835,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -16965,7 +16965,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // container_path - computed: true, optional: true, required: false
-  private _containerPath?: string;
+  private _containerPath?: string; 
   public get containerPath() {
     return this.getStringAttribute('container_path');
   }
@@ -16981,7 +16981,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // host_path - computed: true, optional: true, required: false
-  private _hostPath?: string;
+  private _hostPath?: string; 
   public get hostPath() {
     return this.getStringAttribute('host_path');
   }
@@ -16997,7 +16997,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // permissions - computed: true, optional: true, required: false
-  private _permissions?: string[];
+  private _permissions?: string[]; 
   public get permissions() {
     return this.getListAttribute('permissions');
   }
@@ -17147,7 +17147,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // container_path - computed: true, optional: true, required: false
-  private _containerPath?: string;
+  private _containerPath?: string; 
   public get containerPath() {
     return this.getStringAttribute('container_path');
   }
@@ -17163,7 +17163,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // mount_options - computed: true, optional: true, required: false
-  private _mountOptions?: string[];
+  private _mountOptions?: string[]; 
   public get mountOptions() {
     return this.getListAttribute('mount_options');
   }
@@ -17179,7 +17179,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // size - computed: true, optional: true, required: false
-  private _size?: number;
+  private _size?: number; 
   public get size() {
     return this.getNumberAttribute('size');
   }
@@ -17394,7 +17394,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // init_process_enabled - computed: true, optional: true, required: false
-  private _initProcessEnabled?: boolean | cdktn.IResolvable;
+  private _initProcessEnabled?: boolean | cdktn.IResolvable; 
   public get initProcessEnabled() {
     return this.getBooleanAttribute('init_process_enabled');
   }
@@ -17410,7 +17410,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // max_swap - computed: true, optional: true, required: false
-  private _maxSwap?: number;
+  private _maxSwap?: number; 
   public get maxSwap() {
     return this.getNumberAttribute('max_swap');
   }
@@ -17426,7 +17426,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // shared_memory_size - computed: true, optional: true, required: false
-  private _sharedMemorySize?: number;
+  private _sharedMemorySize?: number; 
   public get sharedMemorySize() {
     return this.getNumberAttribute('shared_memory_size');
   }
@@ -17442,7 +17442,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // swappiness - computed: true, optional: true, required: false
-  private _swappiness?: number;
+  private _swappiness?: number; 
   public get swappiness() {
     return this.getNumberAttribute('swappiness');
   }
@@ -17571,7 +17571,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -17587,7 +17587,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // value_from - computed: true, optional: true, required: false
-  private _valueFrom?: string;
+  private _valueFrom?: string; 
   public get valueFrom() {
     return this.getStringAttribute('value_from');
   }
@@ -17735,7 +17735,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // log_driver - computed: true, optional: true, required: false
-  private _logDriver?: string;
+  private _logDriver?: string; 
   public get logDriver() {
     return this.getStringAttribute('log_driver');
   }
@@ -17751,7 +17751,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // options - computed: true, optional: true, required: false
-  private _options?: { [key: string]: string };
+  private _options?: { [key: string]: string }; 
   public get options() {
     return this.getStringMapAttribute('options');
   }
@@ -17897,7 +17897,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // container_path - computed: true, optional: true, required: false
-  private _containerPath?: string;
+  private _containerPath?: string; 
   public get containerPath() {
     return this.getStringAttribute('container_path');
   }
@@ -17913,7 +17913,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // read_only - computed: true, optional: true, required: false
-  private _readOnly?: boolean | cdktn.IResolvable;
+  private _readOnly?: boolean | cdktn.IResolvable; 
   public get readOnly() {
     return this.getBooleanAttribute('read_only');
   }
@@ -17929,7 +17929,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // source_volume - computed: true, optional: true, required: false
-  private _sourceVolume?: string;
+  private _sourceVolume?: string; 
   public get sourceVolume() {
     return this.getStringAttribute('source_volume');
   }
@@ -18043,7 +18043,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // credentials_parameter - computed: true, optional: true, required: false
-  private _credentialsParameter?: string;
+  private _credentialsParameter?: string; 
   public get credentialsParameter() {
     return this.getStringAttribute('credentials_parameter');
   }
@@ -18156,7 +18156,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -18172,7 +18172,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -18305,7 +18305,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -18321,7 +18321,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // value_from - computed: true, optional: true, required: false
-  private _valueFrom?: string;
+  private _valueFrom?: string; 
   public get valueFrom() {
     return this.getStringAttribute('value_from');
   }
@@ -18471,7 +18471,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // hard_limit - computed: true, optional: true, required: false
-  private _hardLimit?: number;
+  private _hardLimit?: number; 
   public get hardLimit() {
     return this.getNumberAttribute('hard_limit');
   }
@@ -18487,7 +18487,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -18503,7 +18503,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // soft_limit - computed: true, optional: true, required: false
-  private _softLimit?: number;
+  private _softLimit?: number; 
   public get softLimit() {
     return this.getNumberAttribute('soft_limit');
   }
@@ -18925,7 +18925,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // command - computed: true, optional: true, required: false
-  private _command?: string[];
+  private _command?: string[]; 
   public get command() {
     return this.getListAttribute('command');
   }
@@ -18973,7 +18973,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // essential - computed: true, optional: true, required: false
-  private _essential?: boolean | cdktn.IResolvable;
+  private _essential?: boolean | cdktn.IResolvable; 
   public get essential() {
     return this.getBooleanAttribute('essential');
   }
@@ -19005,7 +19005,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // image - computed: true, optional: true, required: false
-  private _image?: string;
+  private _image?: string; 
   public get image() {
     return this.getStringAttribute('image');
   }
@@ -19069,7 +19069,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -19085,7 +19085,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // privileged - computed: true, optional: true, required: false
-  private _privileged?: boolean | cdktn.IResolvable;
+  private _privileged?: boolean | cdktn.IResolvable; 
   public get privileged() {
     return this.getBooleanAttribute('privileged');
   }
@@ -19101,7 +19101,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // readonly_root_filesystem - computed: true, optional: true, required: false
-  private _readonlyRootFilesystem?: boolean | cdktn.IResolvable;
+  private _readonlyRootFilesystem?: boolean | cdktn.IResolvable; 
   public get readonlyRootFilesystem() {
     return this.getBooleanAttribute('readonly_root_filesystem');
   }
@@ -19165,7 +19165,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // start_timeout - computed: true, optional: true, required: false
-  private _startTimeout?: number;
+  private _startTimeout?: number; 
   public get startTimeout() {
     return this.getNumberAttribute('start_timeout');
   }
@@ -19181,7 +19181,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // stop_timeout - computed: true, optional: true, required: false
-  private _stopTimeout?: number;
+  private _stopTimeout?: number; 
   public get stopTimeout() {
     return this.getNumberAttribute('stop_timeout');
   }
@@ -19213,7 +19213,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // user - computed: true, optional: true, required: false
-  private _user?: string;
+  private _user?: string; 
   public get user() {
     return this.getStringAttribute('user');
   }
@@ -19344,7 +19344,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // access_point_id - computed: true, optional: true, required: false
-  private _accessPointId?: string;
+  private _accessPointId?: string; 
   public get accessPointId() {
     return this.getStringAttribute('access_point_id');
   }
@@ -19360,7 +19360,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // iam - computed: true, optional: true, required: false
-  private _iam?: string;
+  private _iam?: string; 
   public get iam() {
     return this.getStringAttribute('iam');
   }
@@ -19538,7 +19538,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // file_system_id - computed: true, optional: true, required: false
-  private _fileSystemId?: string;
+  private _fileSystemId?: string; 
   public get fileSystemId() {
     return this.getStringAttribute('file_system_id');
   }
@@ -19554,7 +19554,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // root_directory - computed: true, optional: true, required: false
-  private _rootDirectory?: string;
+  private _rootDirectory?: string; 
   public get rootDirectory() {
     return this.getStringAttribute('root_directory');
   }
@@ -19570,7 +19570,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // transit_encryption - computed: true, optional: true, required: false
-  private _transitEncryption?: string;
+  private _transitEncryption?: string; 
   public get transitEncryption() {
     return this.getStringAttribute('transit_encryption');
   }
@@ -19586,7 +19586,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // transit_encryption_port - computed: true, optional: true, required: false
-  private _transitEncryptionPort?: number;
+  private _transitEncryptionPort?: number; 
   public get transitEncryptionPort() {
     return this.getNumberAttribute('transit_encryption_port');
   }
@@ -19680,7 +19680,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // source_path - computed: true, optional: true, required: false
-  private _sourcePath?: string;
+  private _sourcePath?: string; 
   public get sourcePath() {
     return this.getStringAttribute('source_path');
   }
@@ -19825,7 +19825,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // access_point_arn - computed: true, optional: true, required: false
-  private _accessPointArn?: string;
+  private _accessPointArn?: string; 
   public get accessPointArn() {
     return this.getStringAttribute('access_point_arn');
   }
@@ -19841,7 +19841,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // file_system_arn - computed: true, optional: true, required: false
-  private _fileSystemArn?: string;
+  private _fileSystemArn?: string; 
   public get fileSystemArn() {
     return this.getStringAttribute('file_system_arn');
   }
@@ -19857,7 +19857,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // root_directory - computed: true, optional: true, required: false
-  private _rootDirectory?: string;
+  private _rootDirectory?: string; 
   public get rootDirectory() {
     return this.getStringAttribute('root_directory');
   }
@@ -19873,7 +19873,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // transit_encryption_port - computed: true, optional: true, required: false
-  private _transitEncryptionPort?: number;
+  private _transitEncryptionPort?: number; 
   public get transitEncryptionPort() {
     return this.getNumberAttribute('transit_encryption_port');
   }
@@ -20052,7 +20052,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -20302,7 +20302,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // enable_execute_command - computed: true, optional: true, required: false
-  private _enableExecuteCommand?: boolean | cdktn.IResolvable;
+  private _enableExecuteCommand?: boolean | cdktn.IResolvable; 
   public get enableExecuteCommand() {
     return this.getBooleanAttribute('enable_execute_command');
   }
@@ -20318,7 +20318,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // execution_role_arn - computed: true, optional: true, required: false
-  private _executionRoleArn?: string;
+  private _executionRoleArn?: string; 
   public get executionRoleArn() {
     return this.getStringAttribute('execution_role_arn');
   }
@@ -20334,7 +20334,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // ipc_mode - computed: true, optional: true, required: false
-  private _ipcMode?: string;
+  private _ipcMode?: string; 
   public get ipcMode() {
     return this.getStringAttribute('ipc_mode');
   }
@@ -20350,7 +20350,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // pid_mode - computed: true, optional: true, required: false
-  private _pidMode?: string;
+  private _pidMode?: string; 
   public get pidMode() {
     return this.getStringAttribute('pid_mode');
   }
@@ -20366,7 +20366,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTas
   }
 
   // task_role_arn - computed: true, optional: true, required: false
-  private _taskRoleArn?: string;
+  private _taskRoleArn?: string; 
   public get taskRoleArn() {
     return this.getStringAttribute('task_role_arn');
   }
@@ -20609,7 +20609,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -20625,7 +20625,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -20756,7 +20756,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // limits - computed: true, optional: true, required: false
-  private _limits?: { [key: string]: string };
+  private _limits?: { [key: string]: string }; 
   public get limits() {
     return this.getStringMapAttribute('limits');
   }
@@ -20772,7 +20772,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // requests - computed: true, optional: true, required: false
-  private _requests?: { [key: string]: string };
+  private _requests?: { [key: string]: string }; 
   public get requests() {
     return this.getStringMapAttribute('requests');
   }
@@ -20951,7 +20951,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // allow_privilege_escalation - computed: true, optional: true, required: false
-  private _allowPrivilegeEscalation?: boolean | cdktn.IResolvable;
+  private _allowPrivilegeEscalation?: boolean | cdktn.IResolvable; 
   public get allowPrivilegeEscalation() {
     return this.getBooleanAttribute('allow_privilege_escalation');
   }
@@ -20967,7 +20967,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // privileged - computed: true, optional: true, required: false
-  private _privileged?: boolean | cdktn.IResolvable;
+  private _privileged?: boolean | cdktn.IResolvable; 
   public get privileged() {
     return this.getBooleanAttribute('privileged');
   }
@@ -20983,7 +20983,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // read_only_root_filesystem - computed: true, optional: true, required: false
-  private _readOnlyRootFilesystem?: boolean | cdktn.IResolvable;
+  private _readOnlyRootFilesystem?: boolean | cdktn.IResolvable; 
   public get readOnlyRootFilesystem() {
     return this.getBooleanAttribute('read_only_root_filesystem');
   }
@@ -20999,7 +20999,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // run_as_group - computed: true, optional: true, required: false
-  private _runAsGroup?: number;
+  private _runAsGroup?: number; 
   public get runAsGroup() {
     return this.getNumberAttribute('run_as_group');
   }
@@ -21015,7 +21015,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // run_as_non_root - computed: true, optional: true, required: false
-  private _runAsNonRoot?: boolean | cdktn.IResolvable;
+  private _runAsNonRoot?: boolean | cdktn.IResolvable; 
   public get runAsNonRoot() {
     return this.getBooleanAttribute('run_as_non_root');
   }
@@ -21031,7 +21031,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // run_as_user - computed: true, optional: true, required: false
-  private _runAsUser?: number;
+  private _runAsUser?: number; 
   public get runAsUser() {
     return this.getNumberAttribute('run_as_user');
   }
@@ -21178,7 +21178,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // mount_path - computed: true, optional: true, required: false
-  private _mountPath?: string;
+  private _mountPath?: string; 
   public get mountPath() {
     return this.getStringAttribute('mount_path');
   }
@@ -21194,7 +21194,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -21210,7 +21210,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // read_only - computed: true, optional: true, required: false
-  private _readOnly?: boolean | cdktn.IResolvable;
+  private _readOnly?: boolean | cdktn.IResolvable; 
   public get readOnly() {
     return this.getBooleanAttribute('read_only');
   }
@@ -21226,7 +21226,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // sub_path - computed: true, optional: true, required: false
-  private _subPath?: string;
+  private _subPath?: string; 
   public get subPath() {
     return this.getStringAttribute('sub_path');
   }
@@ -21478,7 +21478,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // args - computed: true, optional: true, required: false
-  private _args?: string[];
+  private _args?: string[]; 
   public get args() {
     return this.getListAttribute('args');
   }
@@ -21494,7 +21494,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // command - computed: true, optional: true, required: false
-  private _command?: string[];
+  private _command?: string[]; 
   public get command() {
     return this.getListAttribute('command');
   }
@@ -21526,7 +21526,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // image - computed: true, optional: true, required: false
-  private _image?: string;
+  private _image?: string; 
   public get image() {
     return this.getStringAttribute('image');
   }
@@ -21542,7 +21542,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // image_pull_policy - computed: true, optional: true, required: false
-  private _imagePullPolicy?: string;
+  private _imagePullPolicy?: string; 
   public get imagePullPolicy() {
     return this.getStringAttribute('image_pull_policy');
   }
@@ -21558,7 +21558,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -21722,7 +21722,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -21855,7 +21855,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -21871,7 +21871,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -22002,7 +22002,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // limits - computed: true, optional: true, required: false
-  private _limits?: { [key: string]: string };
+  private _limits?: { [key: string]: string }; 
   public get limits() {
     return this.getStringMapAttribute('limits');
   }
@@ -22018,7 +22018,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // requests - computed: true, optional: true, required: false
-  private _requests?: { [key: string]: string };
+  private _requests?: { [key: string]: string }; 
   public get requests() {
     return this.getStringMapAttribute('requests');
   }
@@ -22197,7 +22197,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // allow_privilege_escalation - computed: true, optional: true, required: false
-  private _allowPrivilegeEscalation?: boolean | cdktn.IResolvable;
+  private _allowPrivilegeEscalation?: boolean | cdktn.IResolvable; 
   public get allowPrivilegeEscalation() {
     return this.getBooleanAttribute('allow_privilege_escalation');
   }
@@ -22213,7 +22213,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // privileged - computed: true, optional: true, required: false
-  private _privileged?: boolean | cdktn.IResolvable;
+  private _privileged?: boolean | cdktn.IResolvable; 
   public get privileged() {
     return this.getBooleanAttribute('privileged');
   }
@@ -22229,7 +22229,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // read_only_root_filesystem - computed: true, optional: true, required: false
-  private _readOnlyRootFilesystem?: boolean | cdktn.IResolvable;
+  private _readOnlyRootFilesystem?: boolean | cdktn.IResolvable; 
   public get readOnlyRootFilesystem() {
     return this.getBooleanAttribute('read_only_root_filesystem');
   }
@@ -22245,7 +22245,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // run_as_group - computed: true, optional: true, required: false
-  private _runAsGroup?: number;
+  private _runAsGroup?: number; 
   public get runAsGroup() {
     return this.getNumberAttribute('run_as_group');
   }
@@ -22261,7 +22261,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // run_as_non_root - computed: true, optional: true, required: false
-  private _runAsNonRoot?: boolean | cdktn.IResolvable;
+  private _runAsNonRoot?: boolean | cdktn.IResolvable; 
   public get runAsNonRoot() {
     return this.getBooleanAttribute('run_as_non_root');
   }
@@ -22277,7 +22277,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // run_as_user - computed: true, optional: true, required: false
-  private _runAsUser?: number;
+  private _runAsUser?: number; 
   public get runAsUser() {
     return this.getNumberAttribute('run_as_user');
   }
@@ -22424,7 +22424,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // mount_path - computed: true, optional: true, required: false
-  private _mountPath?: string;
+  private _mountPath?: string; 
   public get mountPath() {
     return this.getStringAttribute('mount_path');
   }
@@ -22440,7 +22440,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -22456,7 +22456,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // read_only - computed: true, optional: true, required: false
-  private _readOnly?: boolean | cdktn.IResolvable;
+  private _readOnly?: boolean | cdktn.IResolvable; 
   public get readOnly() {
     return this.getBooleanAttribute('read_only');
   }
@@ -22472,7 +22472,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // sub_path - computed: true, optional: true, required: false
-  private _subPath?: string;
+  private _subPath?: string; 
   public get subPath() {
     return this.getStringAttribute('sub_path');
   }
@@ -22724,7 +22724,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // args - computed: true, optional: true, required: false
-  private _args?: string[];
+  private _args?: string[]; 
   public get args() {
     return this.getListAttribute('args');
   }
@@ -22740,7 +22740,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // command - computed: true, optional: true, required: false
-  private _command?: string[];
+  private _command?: string[]; 
   public get command() {
     return this.getListAttribute('command');
   }
@@ -22772,7 +22772,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // image - computed: true, optional: true, required: false
-  private _image?: string;
+  private _image?: string; 
   public get image() {
     return this.getStringAttribute('image');
   }
@@ -22788,7 +22788,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // image_pull_policy - computed: true, optional: true, required: false
-  private _imagePullPolicy?: string;
+  private _imagePullPolicy?: string; 
   public get imagePullPolicy() {
     return this.getStringAttribute('image_pull_policy');
   }
@@ -22804,7 +22804,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -23000,7 +23000,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // annotations - computed: true, optional: true, required: false
-  private _annotations?: { [key: string]: string };
+  private _annotations?: { [key: string]: string }; 
   public get annotations() {
     return this.getStringMapAttribute('annotations');
   }
@@ -23016,7 +23016,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // labels - computed: true, optional: true, required: false
-  private _labels?: { [key: string]: string };
+  private _labels?: { [key: string]: string }; 
   public get labels() {
     return this.getStringMapAttribute('labels');
   }
@@ -23032,7 +23032,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // namespace - computed: true, optional: true, required: false
-  private _namespace?: string;
+  private _namespace?: string; 
   public get namespace() {
     return this.getStringAttribute('namespace');
   }
@@ -23143,7 +23143,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // medium - computed: true, optional: true, required: false
-  private _medium?: string;
+  private _medium?: string; 
   public get medium() {
     return this.getStringAttribute('medium');
   }
@@ -23159,7 +23159,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // size_limit - computed: true, optional: true, required: false
-  private _sizeLimit?: string;
+  private _sizeLimit?: string; 
   public get sizeLimit() {
     return this.getStringAttribute('size_limit');
   }
@@ -23253,7 +23253,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // path - computed: true, optional: true, required: false
-  private _path?: string;
+  private _path?: string; 
   public get path() {
     return this.getStringAttribute('path');
   }
@@ -23364,7 +23364,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // claim_name - computed: true, optional: true, required: false
-  private _claimName?: string;
+  private _claimName?: string; 
   public get claimName() {
     return this.getStringAttribute('claim_name');
   }
@@ -23380,7 +23380,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // read_only - computed: true, optional: true, required: false
-  private _readOnly?: boolean | cdktn.IResolvable;
+  private _readOnly?: boolean | cdktn.IResolvable; 
   public get readOnly() {
     return this.getBooleanAttribute('read_only');
   }
@@ -23491,7 +23491,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // optional - computed: true, optional: true, required: false
-  private _optional?: boolean | cdktn.IResolvable;
+  private _optional?: boolean | cdktn.IResolvable; 
   public get optional() {
     return this.getBooleanAttribute('optional');
   }
@@ -23507,7 +23507,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // secret_name - computed: true, optional: true, required: false
-  private _secretName?: string;
+  private _secretName?: string; 
   public get secretName() {
     return this.getStringAttribute('secret_name');
   }
@@ -23703,7 +23703,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -24001,7 +24001,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // dns_policy - computed: true, optional: true, required: false
-  private _dnsPolicy?: string;
+  private _dnsPolicy?: string; 
   public get dnsPolicy() {
     return this.getStringAttribute('dns_policy');
   }
@@ -24017,7 +24017,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // host_network - computed: true, optional: true, required: false
-  private _hostNetwork?: boolean | cdktn.IResolvable;
+  private _hostNetwork?: boolean | cdktn.IResolvable; 
   public get hostNetwork() {
     return this.getBooleanAttribute('host_network');
   }
@@ -24081,7 +24081,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // service_account_name - computed: true, optional: true, required: false
-  private _serviceAccountName?: string;
+  private _serviceAccountName?: string; 
   public get serviceAccountName() {
     return this.getStringAttribute('service_account_name');
   }
@@ -24097,7 +24097,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPod
   }
 
   // share_process_namespace - computed: true, optional: true, required: false
-  private _shareProcessNamespace?: boolean | cdktn.IResolvable;
+  private _shareProcessNamespace?: boolean | cdktn.IResolvable; 
   public get shareProcessNamespace() {
     return this.getBooleanAttribute('share_process_namespace');
   }
@@ -24452,7 +24452,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesOutputReference 
   }
 
   // instance_types - computed: true, optional: true, required: false
-  private _instanceTypes?: string[];
+  private _instanceTypes?: string[]; 
   public get instanceTypes() {
     return this.getListAttribute('instance_types');
   }
@@ -24468,7 +24468,7 @@ export class BatchJobDefinitionNodePropertiesNodeRangePropertiesOutputReference 
   }
 
   // target_nodes - computed: true, optional: true, required: false
-  private _targetNodes?: string;
+  private _targetNodes?: string; 
   public get targetNodes() {
     return this.getStringAttribute('target_nodes');
   }
@@ -24616,7 +24616,7 @@ export class BatchJobDefinitionNodePropertiesOutputReference extends cdktn.Compl
   }
 
   // main_node - computed: true, optional: true, required: false
-  private _mainNode?: number;
+  private _mainNode?: number; 
   public get mainNode() {
     return this.getNumberAttribute('main_node');
   }
@@ -24648,7 +24648,7 @@ export class BatchJobDefinitionNodePropertiesOutputReference extends cdktn.Compl
   }
 
   // num_nodes - computed: true, optional: true, required: false
-  private _numNodes?: number;
+  private _numNodes?: number; 
   public get numNodes() {
     return this.getNumberAttribute('num_nodes');
   }
@@ -24742,7 +24742,7 @@ export class BatchJobDefinitionResourceRetentionPolicyOutputReference extends cd
   }
 
   // skip_deregister_on_update - computed: true, optional: true, required: false
-  private _skipDeregisterOnUpdate?: boolean | cdktn.IResolvable;
+  private _skipDeregisterOnUpdate?: boolean | cdktn.IResolvable; 
   public get skipDeregisterOnUpdate() {
     return this.getBooleanAttribute('skip_deregister_on_update');
   }
@@ -24889,7 +24889,7 @@ export class BatchJobDefinitionRetryStrategyEvaluateOnExitOutputReference extend
   }
 
   // action - computed: true, optional: true, required: false
-  private _action?: string;
+  private _action?: string; 
   public get action() {
     return this.getStringAttribute('action');
   }
@@ -24905,7 +24905,7 @@ export class BatchJobDefinitionRetryStrategyEvaluateOnExitOutputReference extend
   }
 
   // on_exit_code - computed: true, optional: true, required: false
-  private _onExitCode?: string;
+  private _onExitCode?: string; 
   public get onExitCode() {
     return this.getStringAttribute('on_exit_code');
   }
@@ -24921,7 +24921,7 @@ export class BatchJobDefinitionRetryStrategyEvaluateOnExitOutputReference extend
   }
 
   // on_reason - computed: true, optional: true, required: false
-  private _onReason?: string;
+  private _onReason?: string; 
   public get onReason() {
     return this.getStringAttribute('on_reason');
   }
@@ -24937,7 +24937,7 @@ export class BatchJobDefinitionRetryStrategyEvaluateOnExitOutputReference extend
   }
 
   // on_status_reason - computed: true, optional: true, required: false
-  private _onStatusReason?: string;
+  private _onStatusReason?: string; 
   public get onStatusReason() {
     return this.getStringAttribute('on_status_reason');
   }
@@ -25068,7 +25068,7 @@ export class BatchJobDefinitionRetryStrategyOutputReference extends cdktn.Comple
   }
 
   // attempts - computed: true, optional: true, required: false
-  private _attempts?: number;
+  private _attempts?: number; 
   public get attempts() {
     return this.getNumberAttribute('attempts');
   }
@@ -25178,7 +25178,7 @@ export class BatchJobDefinitionTimeoutOutputReference extends cdktn.ComplexObjec
   }
 
   // attempt_duration_seconds - computed: true, optional: true, required: false
-  private _attemptDurationSeconds?: number;
+  private _attemptDurationSeconds?: number; 
   public get attemptDurationSeconds() {
     return this.getNumberAttribute('attempt_duration_seconds');
   }
@@ -25340,7 +25340,7 @@ export class BatchJobDefinition extends cdktn.TerraformResource {
   }
 
   // job_definition_name - computed: true, optional: true, required: false
-  private _jobDefinitionName?: string;
+  private _jobDefinitionName?: string; 
   public get jobDefinitionName() {
     return this.getStringAttribute('job_definition_name');
   }
@@ -25372,7 +25372,7 @@ export class BatchJobDefinition extends cdktn.TerraformResource {
   }
 
   // parameters - computed: true, optional: true, required: false
-  private _parameters?: { [key: string]: string };
+  private _parameters?: { [key: string]: string }; 
   public get parameters() {
     return this.getStringMapAttribute('parameters');
   }
@@ -25388,7 +25388,7 @@ export class BatchJobDefinition extends cdktn.TerraformResource {
   }
 
   // platform_capabilities - computed: true, optional: true, required: false
-  private _platformCapabilities?: string[];
+  private _platformCapabilities?: string[]; 
   public get platformCapabilities() {
     return this.getListAttribute('platform_capabilities');
   }
@@ -25404,7 +25404,7 @@ export class BatchJobDefinition extends cdktn.TerraformResource {
   }
 
   // propagate_tags - computed: true, optional: true, required: false
-  private _propagateTags?: boolean | cdktn.IResolvable;
+  private _propagateTags?: boolean | cdktn.IResolvable; 
   public get propagateTags() {
     return this.getBooleanAttribute('propagate_tags');
   }
@@ -25452,7 +25452,7 @@ export class BatchJobDefinition extends cdktn.TerraformResource {
   }
 
   // scheduling_priority - computed: true, optional: true, required: false
-  private _schedulingPriority?: number;
+  private _schedulingPriority?: number; 
   public get schedulingPriority() {
     return this.getNumberAttribute('scheduling_priority');
   }
@@ -25468,7 +25468,7 @@ export class BatchJobDefinition extends cdktn.TerraformResource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -25500,7 +25500,7 @@ export class BatchJobDefinition extends cdktn.TerraformResource {
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }

@@ -157,7 +157,7 @@ export class CloudfrontConnectionGroupTimeoutsOutputReference extends cdktn.Comp
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -173,7 +173,7 @@ export class CloudfrontConnectionGroupTimeoutsOutputReference extends cdktn.Comp
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -189,7 +189,7 @@ export class CloudfrontConnectionGroupTimeoutsOutputReference extends cdktn.Comp
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -269,7 +269,7 @@ export class CloudfrontConnectionGroup extends cdktn.TerraformResource {
   // ==========
 
   // anycast_ip_list_id - computed: false, optional: true, required: false
-  private _anycastIpListId?: string;
+  private _anycastIpListId?: string; 
   public get anycastIpListId() {
     return this.getStringAttribute('anycast_ip_list_id');
   }
@@ -290,7 +290,7 @@ export class CloudfrontConnectionGroup extends cdktn.TerraformResource {
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -316,7 +316,7 @@ export class CloudfrontConnectionGroup extends cdktn.TerraformResource {
   }
 
   // ipv6_enabled - computed: true, optional: true, required: false
-  private _ipv6Enabled?: boolean | cdktn.IResolvable;
+  private _ipv6Enabled?: boolean | cdktn.IResolvable; 
   public get ipv6Enabled() {
     return this.getBooleanAttribute('ipv6_enabled');
   }
@@ -342,7 +342,7 @@ export class CloudfrontConnectionGroup extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -365,7 +365,7 @@ export class CloudfrontConnectionGroup extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -387,7 +387,7 @@ export class CloudfrontConnectionGroup extends cdktn.TerraformResource {
   }
 
   // wait_for_deployment - computed: true, optional: true, required: false
-  private _waitForDeployment?: boolean | cdktn.IResolvable;
+  private _waitForDeployment?: boolean | cdktn.IResolvable; 
   public get waitForDeployment() {
     return this.getBooleanAttribute('wait_for_deployment');
   }

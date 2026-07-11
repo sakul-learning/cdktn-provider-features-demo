@@ -152,7 +152,7 @@ export class OpensearchserviceApplicationAppConfigsOutputReference extends cdktn
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -168,7 +168,7 @@ export class OpensearchserviceApplicationAppConfigsOutputReference extends cdktn
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -305,7 +305,7 @@ export class OpensearchserviceApplicationDataSourcesOutputReference extends cdkt
   }
 
   // data_source_arn - computed: true, optional: true, required: false
-  private _dataSourceArn?: string;
+  private _dataSourceArn?: string; 
   public get dataSourceArn() {
     return this.getStringAttribute('data_source_arn');
   }
@@ -321,7 +321,7 @@ export class OpensearchserviceApplicationDataSourcesOutputReference extends cdkt
   }
 
   // data_source_description - computed: true, optional: true, required: false
-  private _dataSourceDescription?: string;
+  private _dataSourceDescription?: string; 
   public get dataSourceDescription() {
     return this.getStringAttribute('data_source_description');
   }
@@ -475,7 +475,7 @@ export class OpensearchserviceApplicationIamIdentityCenterOptionsOutputReference
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -491,7 +491,7 @@ export class OpensearchserviceApplicationIamIdentityCenterOptionsOutputReference
   }
 
   // iam_identity_center_instance_arn - computed: true, optional: true, required: false
-  private _iamIdentityCenterInstanceArn?: string;
+  private _iamIdentityCenterInstanceArn?: string; 
   public get iamIdentityCenterInstanceArn() {
     return this.getStringAttribute('iam_identity_center_instance_arn');
   }
@@ -507,7 +507,7 @@ export class OpensearchserviceApplicationIamIdentityCenterOptionsOutputReference
   }
 
   // iam_role_for_identity_center_application_arn - computed: true, optional: true, required: false
-  private _iamRoleForIdentityCenterApplicationArn?: string;
+  private _iamRoleForIdentityCenterApplicationArn?: string; 
   public get iamRoleForIdentityCenterApplicationArn() {
     return this.getStringAttribute('iam_role_for_identity_center_application_arn');
   }
@@ -624,7 +624,7 @@ export class OpensearchserviceApplicationTagsOutputReference extends cdktn.Compl
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -640,7 +640,7 @@ export class OpensearchserviceApplicationTagsOutputReference extends cdktn.Compl
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -782,7 +782,7 @@ export class OpensearchserviceApplication extends cdktn.TerraformResource {
   }
 
   // endpoint - computed: true, optional: true, required: false
-  private _endpoint?: string;
+  private _endpoint?: string; 
   public get endpoint() {
     return this.getStringAttribute('endpoint');
   }
@@ -819,7 +819,7 @@ export class OpensearchserviceApplication extends cdktn.TerraformResource {
   }
 
   // kms_key_arn - computed: true, optional: true, required: false
-  private _kmsKeyArn?: string;
+  private _kmsKeyArn?: string; 
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -835,7 +835,7 @@ export class OpensearchserviceApplication extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }

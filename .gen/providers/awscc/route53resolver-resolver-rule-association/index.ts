@@ -93,7 +93,7 @@ export class Route53ResolverResolverRuleAssociation extends cdktn.TerraformResou
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -114,7 +114,7 @@ export class Route53ResolverResolverRuleAssociation extends cdktn.TerraformResou
   }
 
   // resolver_rule_id - computed: false, optional: false, required: true
-  private _resolverRuleId?: string;
+  private _resolverRuleId?: string; 
   public get resolverRuleId() {
     return this.getStringAttribute('resolver_rule_id');
   }
@@ -127,7 +127,7 @@ export class Route53ResolverResolverRuleAssociation extends cdktn.TerraformResou
   }
 
   // vpc_id - computed: false, optional: false, required: true
-  private _vpcId?: string;
+  private _vpcId?: string; 
   public get vpcId() {
     return this.getStringAttribute('vpc_id');
   }

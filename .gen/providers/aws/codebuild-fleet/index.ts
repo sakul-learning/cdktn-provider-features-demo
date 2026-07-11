@@ -290,7 +290,7 @@ export class CodebuildFleetComputeConfigurationOutputReference extends cdktn.Com
   }
 
   // disk - computed: true, optional: true, required: false
-  private _disk?: number;
+  private _disk?: number; 
   public get disk() {
     return this.getNumberAttribute('disk');
   }
@@ -306,7 +306,7 @@ export class CodebuildFleetComputeConfigurationOutputReference extends cdktn.Com
   }
 
   // instance_type - computed: true, optional: true, required: false
-  private _instanceType?: string;
+  private _instanceType?: string; 
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -322,7 +322,7 @@ export class CodebuildFleetComputeConfigurationOutputReference extends cdktn.Com
   }
 
   // machine_type - computed: true, optional: true, required: false
-  private _machineType?: string;
+  private _machineType?: string; 
   public get machineType() {
     return this.getStringAttribute('machine_type');
   }
@@ -338,7 +338,7 @@ export class CodebuildFleetComputeConfigurationOutputReference extends cdktn.Com
   }
 
   // memory - computed: true, optional: true, required: false
-  private _memory?: number;
+  private _memory?: number; 
   public get memory() {
     return this.getNumberAttribute('memory');
   }
@@ -354,7 +354,7 @@ export class CodebuildFleetComputeConfigurationOutputReference extends cdktn.Com
   }
 
   // vcpu - computed: true, optional: true, required: false
-  private _vcpu?: number;
+  private _vcpu?: number; 
   public get vcpu() {
     return this.getNumberAttribute('vcpu');
   }
@@ -467,7 +467,7 @@ export class CodebuildFleetScalingConfigurationTargetTrackingScalingConfigsOutpu
   }
 
   // metric_type - computed: false, optional: true, required: false
-  private _metricType?: string;
+  private _metricType?: string; 
   public get metricType() {
     return this.getStringAttribute('metric_type');
   }
@@ -483,7 +483,7 @@ export class CodebuildFleetScalingConfigurationTargetTrackingScalingConfigsOutpu
   }
 
   // target_value - computed: false, optional: true, required: false
-  private _targetValue?: number;
+  private _targetValue?: number; 
   public get targetValue() {
     return this.getNumberAttribute('target_value');
   }
@@ -628,7 +628,7 @@ export class CodebuildFleetScalingConfigurationOutputReference extends cdktn.Com
   }
 
   // max_capacity - computed: false, optional: true, required: false
-  private _maxCapacity?: number;
+  private _maxCapacity?: number; 
   public get maxCapacity() {
     return this.getNumberAttribute('max_capacity');
   }
@@ -644,7 +644,7 @@ export class CodebuildFleetScalingConfigurationOutputReference extends cdktn.Com
   }
 
   // scaling_type - computed: false, optional: true, required: false
-  private _scalingType?: string;
+  private _scalingType?: string; 
   public get scalingType() {
     return this.getStringAttribute('scaling_type');
   }
@@ -790,7 +790,7 @@ export class CodebuildFleetVpcConfigOutputReference extends cdktn.ComplexObject 
   }
 
   // security_group_ids - computed: false, optional: false, required: true
-  private _securityGroupIds?: string[];
+  private _securityGroupIds?: string[]; 
   public get securityGroupIds() {
     return cdktn.Fn.tolist(this.getListAttribute('security_group_ids'));
   }
@@ -803,7 +803,7 @@ export class CodebuildFleetVpcConfigOutputReference extends cdktn.ComplexObject 
   }
 
   // subnets - computed: false, optional: false, required: true
-  private _subnets?: string[];
+  private _subnets?: string[]; 
   public get subnets() {
     return cdktn.Fn.tolist(this.getListAttribute('subnets'));
   }
@@ -816,7 +816,7 @@ export class CodebuildFleetVpcConfigOutputReference extends cdktn.ComplexObject 
   }
 
   // vpc_id - computed: false, optional: false, required: true
-  private _vpcId?: string;
+  private _vpcId?: string; 
   public get vpcId() {
     return this.getStringAttribute('vpc_id');
   }
@@ -924,7 +924,7 @@ export class CodebuildFleet extends cdktn.TerraformResource {
   }
 
   // base_capacity - computed: false, optional: false, required: true
-  private _baseCapacity?: number;
+  private _baseCapacity?: number; 
   public get baseCapacity() {
     return this.getNumberAttribute('base_capacity');
   }
@@ -937,7 +937,7 @@ export class CodebuildFleet extends cdktn.TerraformResource {
   }
 
   // compute_type - computed: false, optional: false, required: true
-  private _computeType?: string;
+  private _computeType?: string; 
   public get computeType() {
     return this.getStringAttribute('compute_type');
   }
@@ -955,7 +955,7 @@ export class CodebuildFleet extends cdktn.TerraformResource {
   }
 
   // environment_type - computed: false, optional: false, required: true
-  private _environmentType?: string;
+  private _environmentType?: string; 
   public get environmentType() {
     return this.getStringAttribute('environment_type');
   }
@@ -968,7 +968,7 @@ export class CodebuildFleet extends cdktn.TerraformResource {
   }
 
   // fleet_service_role - computed: false, optional: true, required: false
-  private _fleetServiceRole?: string;
+  private _fleetServiceRole?: string; 
   public get fleetServiceRole() {
     return this.getStringAttribute('fleet_service_role');
   }
@@ -989,7 +989,7 @@ export class CodebuildFleet extends cdktn.TerraformResource {
   }
 
   // image_id - computed: false, optional: true, required: false
-  private _imageId?: string;
+  private _imageId?: string; 
   public get imageId() {
     return this.getStringAttribute('image_id');
   }
@@ -1010,7 +1010,7 @@ export class CodebuildFleet extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1023,7 +1023,7 @@ export class CodebuildFleet extends cdktn.TerraformResource {
   }
 
   // overflow_behavior - computed: true, optional: true, required: false
-  private _overflowBehavior?: string;
+  private _overflowBehavior?: string; 
   public get overflowBehavior() {
     return this.getStringAttribute('overflow_behavior');
   }
@@ -1039,7 +1039,7 @@ export class CodebuildFleet extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1061,7 +1061,7 @@ export class CodebuildFleet extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -1077,7 +1077,7 @@ export class CodebuildFleet extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

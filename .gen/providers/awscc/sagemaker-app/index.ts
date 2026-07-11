@@ -188,7 +188,7 @@ export class SagemakerAppResourceSpecOutputReference extends cdktn.ComplexObject
   }
 
   // instance_type - computed: true, optional: true, required: false
-  private _instanceType?: string;
+  private _instanceType?: string; 
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -204,7 +204,7 @@ export class SagemakerAppResourceSpecOutputReference extends cdktn.ComplexObject
   }
 
   // lifecycle_config_arn - computed: true, optional: true, required: false
-  private _lifecycleConfigArn?: string;
+  private _lifecycleConfigArn?: string; 
   public get lifecycleConfigArn() {
     return this.getStringAttribute('lifecycle_config_arn');
   }
@@ -220,7 +220,7 @@ export class SagemakerAppResourceSpecOutputReference extends cdktn.ComplexObject
   }
 
   // sage_maker_image_arn - computed: true, optional: true, required: false
-  private _sageMakerImageArn?: string;
+  private _sageMakerImageArn?: string; 
   public get sageMakerImageArn() {
     return this.getStringAttribute('sage_maker_image_arn');
   }
@@ -236,7 +236,7 @@ export class SagemakerAppResourceSpecOutputReference extends cdktn.ComplexObject
   }
 
   // sage_maker_image_version_arn - computed: true, optional: true, required: false
-  private _sageMakerImageVersionArn?: string;
+  private _sageMakerImageVersionArn?: string; 
   public get sageMakerImageVersionArn() {
     return this.getStringAttribute('sage_maker_image_version_arn');
   }
@@ -349,7 +349,7 @@ export class SagemakerAppTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -365,7 +365,7 @@ export class SagemakerAppTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -470,7 +470,7 @@ export class SagemakerApp extends cdktn.TerraformResource {
   }
 
   // app_name - computed: false, optional: false, required: true
-  private _appName?: string;
+  private _appName?: string; 
   public get appName() {
     return this.getStringAttribute('app_name');
   }
@@ -483,7 +483,7 @@ export class SagemakerApp extends cdktn.TerraformResource {
   }
 
   // app_type - computed: false, optional: false, required: true
-  private _appType?: string;
+  private _appType?: string; 
   public get appType() {
     return this.getStringAttribute('app_type');
   }
@@ -501,7 +501,7 @@ export class SagemakerApp extends cdktn.TerraformResource {
   }
 
   // domain_id - computed: false, optional: false, required: true
-  private _domainId?: string;
+  private _domainId?: string; 
   public get domainId() {
     return this.getStringAttribute('domain_id');
   }
@@ -519,7 +519,7 @@ export class SagemakerApp extends cdktn.TerraformResource {
   }
 
   // recovery_mode - computed: true, optional: true, required: false
-  private _recoveryMode?: boolean | cdktn.IResolvable;
+  private _recoveryMode?: boolean | cdktn.IResolvable; 
   public get recoveryMode() {
     return this.getBooleanAttribute('recovery_mode');
   }
@@ -567,7 +567,7 @@ export class SagemakerApp extends cdktn.TerraformResource {
   }
 
   // user_profile_name - computed: false, optional: false, required: true
-  private _userProfileName?: string;
+  private _userProfileName?: string; 
   public get userProfileName() {
     return this.getStringAttribute('user_profile_name');
   }

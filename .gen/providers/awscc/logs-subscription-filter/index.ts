@@ -130,7 +130,7 @@ export class LogsSubscriptionFilter extends cdktn.TerraformResource {
   // ==========
 
   // apply_on_transformed_logs - computed: true, optional: true, required: false
-  private _applyOnTransformedLogs?: boolean | cdktn.IResolvable;
+  private _applyOnTransformedLogs?: boolean | cdktn.IResolvable; 
   public get applyOnTransformedLogs() {
     return this.getBooleanAttribute('apply_on_transformed_logs');
   }
@@ -146,7 +146,7 @@ export class LogsSubscriptionFilter extends cdktn.TerraformResource {
   }
 
   // destination_arn - computed: false, optional: false, required: true
-  private _destinationArn?: string;
+  private _destinationArn?: string; 
   public get destinationArn() {
     return this.getStringAttribute('destination_arn');
   }
@@ -159,7 +159,7 @@ export class LogsSubscriptionFilter extends cdktn.TerraformResource {
   }
 
   // distribution - computed: true, optional: true, required: false
-  private _distribution?: string;
+  private _distribution?: string; 
   public get distribution() {
     return this.getStringAttribute('distribution');
   }
@@ -175,7 +175,7 @@ export class LogsSubscriptionFilter extends cdktn.TerraformResource {
   }
 
   // emit_system_fields - computed: true, optional: true, required: false
-  private _emitSystemFields?: string[];
+  private _emitSystemFields?: string[]; 
   public get emitSystemFields() {
     return this.getListAttribute('emit_system_fields');
   }
@@ -191,7 +191,7 @@ export class LogsSubscriptionFilter extends cdktn.TerraformResource {
   }
 
   // field_selection_criteria - computed: true, optional: true, required: false
-  private _fieldSelectionCriteria?: string;
+  private _fieldSelectionCriteria?: string; 
   public get fieldSelectionCriteria() {
     return this.getStringAttribute('field_selection_criteria');
   }
@@ -207,7 +207,7 @@ export class LogsSubscriptionFilter extends cdktn.TerraformResource {
   }
 
   // filter_name - computed: true, optional: true, required: false
-  private _filterName?: string;
+  private _filterName?: string; 
   public get filterName() {
     return this.getStringAttribute('filter_name');
   }
@@ -223,7 +223,7 @@ export class LogsSubscriptionFilter extends cdktn.TerraformResource {
   }
 
   // filter_pattern - computed: false, optional: false, required: true
-  private _filterPattern?: string;
+  private _filterPattern?: string; 
   public get filterPattern() {
     return this.getStringAttribute('filter_pattern');
   }
@@ -241,7 +241,7 @@ export class LogsSubscriptionFilter extends cdktn.TerraformResource {
   }
 
   // log_group_name - computed: false, optional: false, required: true
-  private _logGroupName?: string;
+  private _logGroupName?: string; 
   public get logGroupName() {
     return this.getStringAttribute('log_group_name');
   }
@@ -254,7 +254,7 @@ export class LogsSubscriptionFilter extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }

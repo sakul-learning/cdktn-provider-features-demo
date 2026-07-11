@@ -14,7 +14,7 @@ export interface CloudwatchCompositeAlarmConfig extends cdktn.TerraformMetaArgum
   */
   readonly actionsEnabled?: boolean | cdktn.IResolvable;
   /**
-  * Actions will be suppressed if the suppressor alarm is in the ALARM state. ActionsSuppressor can be an AlarmName or an Amazon Resource Name (ARN) from an existing alarm.
+  * Actions will be suppressed if the suppressor alarm is in the ALARM state. ActionsSuppressor can be an AlarmName or an Amazon Resource Name (ARN) from an existing alarm. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudwatch_composite_alarm#actions_suppressor CloudwatchCompositeAlarm#actions_suppressor}
   */
@@ -176,7 +176,7 @@ export class CloudwatchCompositeAlarmTagsOutputReference extends cdktn.ComplexOb
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -192,7 +192,7 @@ export class CloudwatchCompositeAlarmTagsOutputReference extends cdktn.ComplexOb
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -296,7 +296,7 @@ export class CloudwatchCompositeAlarm extends cdktn.TerraformResource {
   // ==========
 
   // actions_enabled - computed: true, optional: true, required: false
-  private _actionsEnabled?: boolean | cdktn.IResolvable;
+  private _actionsEnabled?: boolean | cdktn.IResolvable; 
   public get actionsEnabled() {
     return this.getBooleanAttribute('actions_enabled');
   }
@@ -312,7 +312,7 @@ export class CloudwatchCompositeAlarm extends cdktn.TerraformResource {
   }
 
   // actions_suppressor - computed: true, optional: true, required: false
-  private _actionsSuppressor?: string;
+  private _actionsSuppressor?: string; 
   public get actionsSuppressor() {
     return this.getStringAttribute('actions_suppressor');
   }
@@ -328,7 +328,7 @@ export class CloudwatchCompositeAlarm extends cdktn.TerraformResource {
   }
 
   // actions_suppressor_extension_period - computed: true, optional: true, required: false
-  private _actionsSuppressorExtensionPeriod?: number;
+  private _actionsSuppressorExtensionPeriod?: number; 
   public get actionsSuppressorExtensionPeriod() {
     return this.getNumberAttribute('actions_suppressor_extension_period');
   }
@@ -344,7 +344,7 @@ export class CloudwatchCompositeAlarm extends cdktn.TerraformResource {
   }
 
   // actions_suppressor_wait_period - computed: true, optional: true, required: false
-  private _actionsSuppressorWaitPeriod?: number;
+  private _actionsSuppressorWaitPeriod?: number; 
   public get actionsSuppressorWaitPeriod() {
     return this.getNumberAttribute('actions_suppressor_wait_period');
   }
@@ -360,7 +360,7 @@ export class CloudwatchCompositeAlarm extends cdktn.TerraformResource {
   }
 
   // alarm_actions - computed: true, optional: true, required: false
-  private _alarmActions?: string[];
+  private _alarmActions?: string[]; 
   public get alarmActions() {
     return this.getListAttribute('alarm_actions');
   }
@@ -376,7 +376,7 @@ export class CloudwatchCompositeAlarm extends cdktn.TerraformResource {
   }
 
   // alarm_description - computed: true, optional: true, required: false
-  private _alarmDescription?: string;
+  private _alarmDescription?: string; 
   public get alarmDescription() {
     return this.getStringAttribute('alarm_description');
   }
@@ -392,7 +392,7 @@ export class CloudwatchCompositeAlarm extends cdktn.TerraformResource {
   }
 
   // alarm_name - computed: true, optional: true, required: false
-  private _alarmName?: string;
+  private _alarmName?: string; 
   public get alarmName() {
     return this.getStringAttribute('alarm_name');
   }
@@ -408,7 +408,7 @@ export class CloudwatchCompositeAlarm extends cdktn.TerraformResource {
   }
 
   // alarm_rule - computed: false, optional: false, required: true
-  private _alarmRule?: string;
+  private _alarmRule?: string; 
   public get alarmRule() {
     return this.getStringAttribute('alarm_rule');
   }
@@ -431,7 +431,7 @@ export class CloudwatchCompositeAlarm extends cdktn.TerraformResource {
   }
 
   // insufficient_data_actions - computed: true, optional: true, required: false
-  private _insufficientDataActions?: string[];
+  private _insufficientDataActions?: string[]; 
   public get insufficientDataActions() {
     return this.getListAttribute('insufficient_data_actions');
   }
@@ -447,7 +447,7 @@ export class CloudwatchCompositeAlarm extends cdktn.TerraformResource {
   }
 
   // ok_actions - computed: true, optional: true, required: false
-  private _okActions?: string[];
+  private _okActions?: string[]; 
   public get okActions() {
     return this.getListAttribute('ok_actions');
   }

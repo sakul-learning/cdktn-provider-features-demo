@@ -190,7 +190,7 @@ export class Ec2Ec2FleetLaunchTemplateConfigsLaunchTemplateSpecificationOutputRe
   }
 
   // launch_template_id - computed: true, optional: true, required: false
-  private _launchTemplateId?: string;
+  private _launchTemplateId?: string; 
   public get launchTemplateId() {
     return this.getStringAttribute('launch_template_id');
   }
@@ -206,7 +206,7 @@ export class Ec2Ec2FleetLaunchTemplateConfigsLaunchTemplateSpecificationOutputRe
   }
 
   // launch_template_name - computed: true, optional: true, required: false
-  private _launchTemplateName?: string;
+  private _launchTemplateName?: string; 
   public get launchTemplateName() {
     return this.getStringAttribute('launch_template_name');
   }
@@ -222,7 +222,7 @@ export class Ec2Ec2FleetLaunchTemplateConfigsLaunchTemplateSpecificationOutputRe
   }
 
   // launch_template_specification_user_data - computed: true, optional: true, required: false
-  private _launchTemplateSpecificationUserData?: string;
+  private _launchTemplateSpecificationUserData?: string; 
   public get launchTemplateSpecificationUserData() {
     return this.getStringAttribute('launch_template_specification_user_data');
   }
@@ -238,7 +238,7 @@ export class Ec2Ec2FleetLaunchTemplateConfigsLaunchTemplateSpecificationOutputRe
   }
 
   // version - computed: true, optional: true, required: false
-  private _version?: string;
+  private _version?: string; 
   public get version() {
     return this.getStringAttribute('version');
   }
@@ -434,7 +434,7 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappingsEbsOutp
   }
 
   // delete_on_termination - computed: true, optional: true, required: false
-  private _deleteOnTermination?: boolean | cdktn.IResolvable;
+  private _deleteOnTermination?: boolean | cdktn.IResolvable; 
   public get deleteOnTermination() {
     return this.getBooleanAttribute('delete_on_termination');
   }
@@ -450,7 +450,7 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappingsEbsOutp
   }
 
   // encrypted - computed: true, optional: true, required: false
-  private _encrypted?: boolean | cdktn.IResolvable;
+  private _encrypted?: boolean | cdktn.IResolvable; 
   public get encrypted() {
     return this.getBooleanAttribute('encrypted');
   }
@@ -466,7 +466,7 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappingsEbsOutp
   }
 
   // iops - computed: true, optional: true, required: false
-  private _iops?: number;
+  private _iops?: number; 
   public get iops() {
     return this.getNumberAttribute('iops');
   }
@@ -482,7 +482,7 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappingsEbsOutp
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -498,7 +498,7 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappingsEbsOutp
   }
 
   // snapshot_id - computed: true, optional: true, required: false
-  private _snapshotId?: string;
+  private _snapshotId?: string; 
   public get snapshotId() {
     return this.getStringAttribute('snapshot_id');
   }
@@ -514,7 +514,7 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappingsEbsOutp
   }
 
   // volume_size - computed: true, optional: true, required: false
-  private _volumeSize?: number;
+  private _volumeSize?: number; 
   public get volumeSize() {
     return this.getNumberAttribute('volume_size');
   }
@@ -530,7 +530,7 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappingsEbsOutp
   }
 
   // volume_type - computed: true, optional: true, required: false
-  private _volumeType?: string;
+  private _volumeType?: string; 
   public get volumeType() {
     return this.getStringAttribute('volume_type');
   }
@@ -677,7 +677,7 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappingsOutputR
   }
 
   // device_name - computed: true, optional: true, required: false
-  private _deviceName?: string;
+  private _deviceName?: string; 
   public get deviceName() {
     return this.getStringAttribute('device_name');
   }
@@ -709,7 +709,7 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappingsOutputR
   }
 
   // no_device - computed: true, optional: true, required: false
-  private _noDevice?: string;
+  private _noDevice?: string; 
   public get noDevice() {
     return this.getStringAttribute('no_device');
   }
@@ -725,7 +725,7 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappingsOutputR
   }
 
   // virtual_name - computed: true, optional: true, required: false
-  private _virtualName?: string;
+  private _virtualName?: string; 
   public get virtualName() {
     return this.getStringAttribute('virtual_name');
   }
@@ -856,7 +856,7 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesIamInstanceProfileOutputRe
   }
 
   // arn - computed: true, optional: true, required: false
-  private _arn?: string;
+  private _arn?: string; 
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -872,7 +872,7 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesIamInstanceProfileOutputRe
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -983,7 +983,7 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsAccele
   }
 
   // max - computed: true, optional: true, required: false
-  private _max?: number;
+  private _max?: number; 
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -999,7 +999,7 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsAccele
   }
 
   // min - computed: true, optional: true, required: false
-  private _min?: number;
+  private _min?: number; 
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -1110,7 +1110,7 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsAccele
   }
 
   // max - computed: true, optional: true, required: false
-  private _max?: number;
+  private _max?: number; 
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -1126,7 +1126,7 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsAccele
   }
 
   // min - computed: true, optional: true, required: false
-  private _min?: number;
+  private _min?: number; 
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -1237,7 +1237,7 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsBaseli
   }
 
   // max - computed: true, optional: true, required: false
-  private _max?: number;
+  private _max?: number; 
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -1253,7 +1253,7 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsBaseli
   }
 
   // min - computed: true, optional: true, required: false
-  private _min?: number;
+  private _min?: number; 
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -1349,7 +1349,7 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsBaseli
   }
 
   // instance_family - computed: true, optional: true, required: false
-  private _instanceFamily?: string;
+  private _instanceFamily?: string; 
   public get instanceFamily() {
     return this.getStringAttribute('instance_family');
   }
@@ -1668,7 +1668,7 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsMemory
   }
 
   // max - computed: true, optional: true, required: false
-  private _max?: number;
+  private _max?: number; 
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -1684,7 +1684,7 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsMemory
   }
 
   // min - computed: true, optional: true, required: false
-  private _min?: number;
+  private _min?: number; 
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -1795,7 +1795,7 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsMemory
   }
 
   // max - computed: true, optional: true, required: false
-  private _max?: number;
+  private _max?: number; 
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -1811,7 +1811,7 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsMemory
   }
 
   // min - computed: true, optional: true, required: false
-  private _min?: number;
+  private _min?: number; 
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -1922,7 +1922,7 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsNetwor
   }
 
   // max - computed: true, optional: true, required: false
-  private _max?: number;
+  private _max?: number; 
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -1938,7 +1938,7 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsNetwor
   }
 
   // min - computed: true, optional: true, required: false
-  private _min?: number;
+  private _min?: number; 
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -2049,7 +2049,7 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsNetwor
   }
 
   // max - computed: true, optional: true, required: false
-  private _max?: number;
+  private _max?: number; 
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -2065,7 +2065,7 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsNetwor
   }
 
   // min - computed: true, optional: true, required: false
-  private _min?: number;
+  private _min?: number; 
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -2176,7 +2176,7 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsTotalL
   }
 
   // max - computed: true, optional: true, required: false
-  private _max?: number;
+  private _max?: number; 
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -2192,7 +2192,7 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsTotalL
   }
 
   // min - computed: true, optional: true, required: false
-  private _min?: number;
+  private _min?: number; 
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -2303,7 +2303,7 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsVCpuCo
   }
 
   // max - computed: true, optional: true, required: false
-  private _max?: number;
+  private _max?: number; 
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -2319,7 +2319,7 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsVCpuCo
   }
 
   // min - computed: true, optional: true, required: false
-  private _min?: number;
+  private _min?: number; 
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -2854,7 +2854,7 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsOutput
   }
 
   // accelerator_manufacturers - computed: true, optional: true, required: false
-  private _acceleratorManufacturers?: string[];
+  private _acceleratorManufacturers?: string[]; 
   public get acceleratorManufacturers() {
     return this.getListAttribute('accelerator_manufacturers');
   }
@@ -2870,7 +2870,7 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsOutput
   }
 
   // accelerator_names - computed: true, optional: true, required: false
-  private _acceleratorNames?: string[];
+  private _acceleratorNames?: string[]; 
   public get acceleratorNames() {
     return this.getListAttribute('accelerator_names');
   }
@@ -2902,7 +2902,7 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsOutput
   }
 
   // accelerator_types - computed: true, optional: true, required: false
-  private _acceleratorTypes?: string[];
+  private _acceleratorTypes?: string[]; 
   public get acceleratorTypes() {
     return this.getListAttribute('accelerator_types');
   }
@@ -2918,7 +2918,7 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsOutput
   }
 
   // allowed_instance_types - computed: true, optional: true, required: false
-  private _allowedInstanceTypes?: string[];
+  private _allowedInstanceTypes?: string[]; 
   public get allowedInstanceTypes() {
     return this.getListAttribute('allowed_instance_types');
   }
@@ -2934,7 +2934,7 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsOutput
   }
 
   // bare_metal - computed: true, optional: true, required: false
-  private _bareMetal?: string;
+  private _bareMetal?: string; 
   public get bareMetal() {
     return this.getStringAttribute('bare_metal');
   }
@@ -2982,7 +2982,7 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsOutput
   }
 
   // burstable_performance - computed: true, optional: true, required: false
-  private _burstablePerformance?: string;
+  private _burstablePerformance?: string; 
   public get burstablePerformance() {
     return this.getStringAttribute('burstable_performance');
   }
@@ -2998,7 +2998,7 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsOutput
   }
 
   // cpu_manufacturers - computed: true, optional: true, required: false
-  private _cpuManufacturers?: string[];
+  private _cpuManufacturers?: string[]; 
   public get cpuManufacturers() {
     return this.getListAttribute('cpu_manufacturers');
   }
@@ -3014,7 +3014,7 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsOutput
   }
 
   // excluded_instance_types - computed: true, optional: true, required: false
-  private _excludedInstanceTypes?: string[];
+  private _excludedInstanceTypes?: string[]; 
   public get excludedInstanceTypes() {
     return this.getListAttribute('excluded_instance_types');
   }
@@ -3030,7 +3030,7 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsOutput
   }
 
   // instance_generations - computed: true, optional: true, required: false
-  private _instanceGenerations?: string[];
+  private _instanceGenerations?: string[]; 
   public get instanceGenerations() {
     return this.getListAttribute('instance_generations');
   }
@@ -3046,7 +3046,7 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsOutput
   }
 
   // local_storage - computed: true, optional: true, required: false
-  private _localStorage?: string;
+  private _localStorage?: string; 
   public get localStorage() {
     return this.getStringAttribute('local_storage');
   }
@@ -3062,7 +3062,7 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsOutput
   }
 
   // local_storage_types - computed: true, optional: true, required: false
-  private _localStorageTypes?: string[];
+  private _localStorageTypes?: string[]; 
   public get localStorageTypes() {
     return this.getListAttribute('local_storage_types');
   }
@@ -3078,7 +3078,7 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsOutput
   }
 
   // max_spot_price_as_percentage_of_optimal_on_demand_price - computed: true, optional: true, required: false
-  private _maxSpotPriceAsPercentageOfOptimalOnDemandPrice?: number;
+  private _maxSpotPriceAsPercentageOfOptimalOnDemandPrice?: number; 
   public get maxSpotPriceAsPercentageOfOptimalOnDemandPrice() {
     return this.getNumberAttribute('max_spot_price_as_percentage_of_optimal_on_demand_price');
   }
@@ -3158,7 +3158,7 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsOutput
   }
 
   // on_demand_max_price_percentage_over_lowest_price - computed: true, optional: true, required: false
-  private _onDemandMaxPricePercentageOverLowestPrice?: number;
+  private _onDemandMaxPricePercentageOverLowestPrice?: number; 
   public get onDemandMaxPricePercentageOverLowestPrice() {
     return this.getNumberAttribute('on_demand_max_price_percentage_over_lowest_price');
   }
@@ -3174,7 +3174,7 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsOutput
   }
 
   // require_encryption_in_transit - computed: true, optional: true, required: false
-  private _requireEncryptionInTransit?: boolean | cdktn.IResolvable;
+  private _requireEncryptionInTransit?: boolean | cdktn.IResolvable; 
   public get requireEncryptionInTransit() {
     return this.getBooleanAttribute('require_encryption_in_transit');
   }
@@ -3190,7 +3190,7 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsOutput
   }
 
   // require_hibernate_support - computed: true, optional: true, required: false
-  private _requireHibernateSupport?: boolean | cdktn.IResolvable;
+  private _requireHibernateSupport?: boolean | cdktn.IResolvable; 
   public get requireHibernateSupport() {
     return this.getBooleanAttribute('require_hibernate_support');
   }
@@ -3206,7 +3206,7 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsOutput
   }
 
   // spot_max_price_percentage_over_lowest_price - computed: true, optional: true, required: false
-  private _spotMaxPricePercentageOverLowestPrice?: number;
+  private _spotMaxPricePercentageOverLowestPrice?: number; 
   public get spotMaxPricePercentageOverLowestPrice() {
     return this.getNumberAttribute('spot_max_price_percentage_over_lowest_price');
   }
@@ -3366,7 +3366,7 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesMetadataOptionsOutputRefer
   }
 
   // http_endpoint - computed: true, optional: true, required: false
-  private _httpEndpoint?: string;
+  private _httpEndpoint?: string; 
   public get httpEndpoint() {
     return this.getStringAttribute('http_endpoint');
   }
@@ -3382,7 +3382,7 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesMetadataOptionsOutputRefer
   }
 
   // http_put_response_hop_limit - computed: true, optional: true, required: false
-  private _httpPutResponseHopLimit?: number;
+  private _httpPutResponseHopLimit?: number; 
   public get httpPutResponseHopLimit() {
     return this.getNumberAttribute('http_put_response_hop_limit');
   }
@@ -3398,7 +3398,7 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesMetadataOptionsOutputRefer
   }
 
   // http_tokens - computed: true, optional: true, required: false
-  private _httpTokens?: string;
+  private _httpTokens?: string; 
   public get httpTokens() {
     return this.getStringAttribute('http_tokens');
   }
@@ -3494,7 +3494,7 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesNetworkInterfacesIpv6Addre
   }
 
   // ipv_6_address - computed: true, optional: true, required: false
-  private _ipv6Address?: string;
+  private _ipv6Address?: string; 
   public get ipv6Address() {
     return this.getStringAttribute('ipv_6_address');
   }
@@ -3627,7 +3627,7 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesNetworkInterfacesPrivateIp
   }
 
   // primary - computed: true, optional: true, required: false
-  private _primary?: boolean | cdktn.IResolvable;
+  private _primary?: boolean | cdktn.IResolvable; 
   public get primary() {
     return this.getBooleanAttribute('primary');
   }
@@ -3643,7 +3643,7 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesNetworkInterfacesPrivateIp
   }
 
   // private_ip_address - computed: true, optional: true, required: false
-  private _privateIpAddress?: string;
+  private _privateIpAddress?: string; 
   public get privateIpAddress() {
     return this.getStringAttribute('private_ip_address');
   }
@@ -3980,7 +3980,7 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesNetworkInterfacesOutputRef
   }
 
   // associate_public_ip_address - computed: true, optional: true, required: false
-  private _associatePublicIpAddress?: boolean | cdktn.IResolvable;
+  private _associatePublicIpAddress?: boolean | cdktn.IResolvable; 
   public get associatePublicIpAddress() {
     return this.getBooleanAttribute('associate_public_ip_address');
   }
@@ -3996,7 +3996,7 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesNetworkInterfacesOutputRef
   }
 
   // delete_on_termination - computed: true, optional: true, required: false
-  private _deleteOnTermination?: boolean | cdktn.IResolvable;
+  private _deleteOnTermination?: boolean | cdktn.IResolvable; 
   public get deleteOnTermination() {
     return this.getBooleanAttribute('delete_on_termination');
   }
@@ -4012,7 +4012,7 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesNetworkInterfacesOutputRef
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -4028,7 +4028,7 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesNetworkInterfacesOutputRef
   }
 
   // device_index - computed: true, optional: true, required: false
-  private _deviceIndex?: number;
+  private _deviceIndex?: number; 
   public get deviceIndex() {
     return this.getNumberAttribute('device_index');
   }
@@ -4044,7 +4044,7 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesNetworkInterfacesOutputRef
   }
 
   // groups - computed: true, optional: true, required: false
-  private _groups?: string[];
+  private _groups?: string[]; 
   public get groups() {
     return this.getListAttribute('groups');
   }
@@ -4060,7 +4060,7 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesNetworkInterfacesOutputRef
   }
 
   // interface_type - computed: true, optional: true, required: false
-  private _interfaceType?: string;
+  private _interfaceType?: string; 
   public get interfaceType() {
     return this.getStringAttribute('interface_type');
   }
@@ -4076,7 +4076,7 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesNetworkInterfacesOutputRef
   }
 
   // ipv_6_address_count - computed: true, optional: true, required: false
-  private _ipv6AddressCount?: number;
+  private _ipv6AddressCount?: number; 
   public get ipv6AddressCount() {
     return this.getNumberAttribute('ipv_6_address_count');
   }
@@ -4108,7 +4108,7 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesNetworkInterfacesOutputRef
   }
 
   // network_card_index - computed: true, optional: true, required: false
-  private _networkCardIndex?: number;
+  private _networkCardIndex?: number; 
   public get networkCardIndex() {
     return this.getNumberAttribute('network_card_index');
   }
@@ -4124,7 +4124,7 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesNetworkInterfacesOutputRef
   }
 
   // network_interface_id - computed: true, optional: true, required: false
-  private _networkInterfaceId?: string;
+  private _networkInterfaceId?: string; 
   public get networkInterfaceId() {
     return this.getStringAttribute('network_interface_id');
   }
@@ -4140,7 +4140,7 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesNetworkInterfacesOutputRef
   }
 
   // private_ip_address - computed: true, optional: true, required: false
-  private _privateIpAddress?: string;
+  private _privateIpAddress?: string; 
   public get privateIpAddress() {
     return this.getStringAttribute('private_ip_address');
   }
@@ -4172,7 +4172,7 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesNetworkInterfacesOutputRef
   }
 
   // secondary_private_ip_address_count - computed: true, optional: true, required: false
-  private _secondaryPrivateIpAddressCount?: number;
+  private _secondaryPrivateIpAddressCount?: number; 
   public get secondaryPrivateIpAddressCount() {
     return this.getNumberAttribute('secondary_private_ip_address_count');
   }
@@ -4188,7 +4188,7 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesNetworkInterfacesOutputRef
   }
 
   // subnet_id - computed: true, optional: true, required: false
-  private _subnetId?: string;
+  private _subnetId?: string; 
   public get subnetId() {
     return this.getStringAttribute('subnet_id');
   }
@@ -4421,7 +4421,7 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesPlacementOutputReference e
   }
 
   // affinity - computed: true, optional: true, required: false
-  private _affinity?: string;
+  private _affinity?: string; 
   public get affinity() {
     return this.getStringAttribute('affinity');
   }
@@ -4437,7 +4437,7 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesPlacementOutputReference e
   }
 
   // availability_zone - computed: true, optional: true, required: false
-  private _availabilityZone?: string;
+  private _availabilityZone?: string; 
   public get availabilityZone() {
     return this.getStringAttribute('availability_zone');
   }
@@ -4453,7 +4453,7 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesPlacementOutputReference e
   }
 
   // group_name - computed: true, optional: true, required: false
-  private _groupName?: string;
+  private _groupName?: string; 
   public get groupName() {
     return this.getStringAttribute('group_name');
   }
@@ -4469,7 +4469,7 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesPlacementOutputReference e
   }
 
   // host_id - computed: true, optional: true, required: false
-  private _hostId?: string;
+  private _hostId?: string; 
   public get hostId() {
     return this.getStringAttribute('host_id');
   }
@@ -4485,7 +4485,7 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesPlacementOutputReference e
   }
 
   // host_resource_group_arn - computed: true, optional: true, required: false
-  private _hostResourceGroupArn?: string;
+  private _hostResourceGroupArn?: string; 
   public get hostResourceGroupArn() {
     return this.getStringAttribute('host_resource_group_arn');
   }
@@ -4501,7 +4501,7 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesPlacementOutputReference e
   }
 
   // partition_number - computed: true, optional: true, required: false
-  private _partitionNumber?: number;
+  private _partitionNumber?: number; 
   public get partitionNumber() {
     return this.getNumberAttribute('partition_number');
   }
@@ -4517,7 +4517,7 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesPlacementOutputReference e
   }
 
   // spread_domain - computed: true, optional: true, required: false
-  private _spreadDomain?: string;
+  private _spreadDomain?: string; 
   public get spreadDomain() {
     return this.getStringAttribute('spread_domain');
   }
@@ -4533,7 +4533,7 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesPlacementOutputReference e
   }
 
   // tenancy - computed: true, optional: true, required: false
-  private _tenancy?: string;
+  private _tenancy?: string; 
   public get tenancy() {
     return this.getStringAttribute('tenancy');
   }
@@ -4850,7 +4850,7 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesOutputReference extends cd
   }
 
   // availability_zone - computed: true, optional: true, required: false
-  private _availabilityZone?: string;
+  private _availabilityZone?: string; 
   public get availabilityZone() {
     return this.getStringAttribute('availability_zone');
   }
@@ -4866,7 +4866,7 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesOutputReference extends cd
   }
 
   // availability_zone_id - computed: true, optional: true, required: false
-  private _availabilityZoneId?: string;
+  private _availabilityZoneId?: string; 
   public get availabilityZoneId() {
     return this.getStringAttribute('availability_zone_id');
   }
@@ -4930,7 +4930,7 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesOutputReference extends cd
   }
 
   // instance_type - computed: true, optional: true, required: false
-  private _instanceType?: string;
+  private _instanceType?: string; 
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -4946,7 +4946,7 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesOutputReference extends cd
   }
 
   // key_name - computed: true, optional: true, required: false
-  private _keyName?: string;
+  private _keyName?: string; 
   public get keyName() {
     return this.getStringAttribute('key_name');
   }
@@ -4962,7 +4962,7 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesOutputReference extends cd
   }
 
   // max_price - computed: true, optional: true, required: false
-  private _maxPrice?: string;
+  private _maxPrice?: string; 
   public get maxPrice() {
     return this.getStringAttribute('max_price');
   }
@@ -5026,7 +5026,7 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesOutputReference extends cd
   }
 
   // priority - computed: true, optional: true, required: false
-  private _priority?: number;
+  private _priority?: number; 
   public get priority() {
     return this.getNumberAttribute('priority');
   }
@@ -5042,7 +5042,7 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesOutputReference extends cd
   }
 
   // subnet_id - computed: true, optional: true, required: false
-  private _subnetId?: string;
+  private _subnetId?: string; 
   public get subnetId() {
     return this.getStringAttribute('subnet_id');
   }
@@ -5058,7 +5058,7 @@ export class Ec2Ec2FleetLaunchTemplateConfigsOverridesOutputReference extends cd
   }
 
   // weighted_capacity - computed: true, optional: true, required: false
-  private _weightedCapacity?: number;
+  private _weightedCapacity?: number; 
   public get weightedCapacity() {
     return this.getNumberAttribute('weighted_capacity');
   }
@@ -5321,7 +5321,7 @@ export class Ec2Ec2FleetOnDemandOptionsCapacityReservationOptionsOutputReference
   }
 
   // usage_strategy - computed: true, optional: true, required: false
-  private _usageStrategy?: string;
+  private _usageStrategy?: string; 
   public get usageStrategy() {
     return this.getStringAttribute('usage_strategy');
   }
@@ -5500,7 +5500,7 @@ export class Ec2Ec2FleetOnDemandOptionsOutputReference extends cdktn.ComplexObje
   }
 
   // allocation_strategy - computed: true, optional: true, required: false
-  private _allocationStrategy?: string;
+  private _allocationStrategy?: string; 
   public get allocationStrategy() {
     return this.getStringAttribute('allocation_strategy');
   }
@@ -5532,7 +5532,7 @@ export class Ec2Ec2FleetOnDemandOptionsOutputReference extends cdktn.ComplexObje
   }
 
   // max_total_price - computed: true, optional: true, required: false
-  private _maxTotalPrice?: string;
+  private _maxTotalPrice?: string; 
   public get maxTotalPrice() {
     return this.getStringAttribute('max_total_price');
   }
@@ -5548,7 +5548,7 @@ export class Ec2Ec2FleetOnDemandOptionsOutputReference extends cdktn.ComplexObje
   }
 
   // min_target_capacity - computed: true, optional: true, required: false
-  private _minTargetCapacity?: number;
+  private _minTargetCapacity?: number; 
   public get minTargetCapacity() {
     return this.getNumberAttribute('min_target_capacity');
   }
@@ -5564,7 +5564,7 @@ export class Ec2Ec2FleetOnDemandOptionsOutputReference extends cdktn.ComplexObje
   }
 
   // single_availability_zone - computed: true, optional: true, required: false
-  private _singleAvailabilityZone?: boolean | cdktn.IResolvable;
+  private _singleAvailabilityZone?: boolean | cdktn.IResolvable; 
   public get singleAvailabilityZone() {
     return this.getBooleanAttribute('single_availability_zone');
   }
@@ -5580,7 +5580,7 @@ export class Ec2Ec2FleetOnDemandOptionsOutputReference extends cdktn.ComplexObje
   }
 
   // single_instance_type - computed: true, optional: true, required: false
-  private _singleInstanceType?: boolean | cdktn.IResolvable;
+  private _singleInstanceType?: boolean | cdktn.IResolvable; 
   public get singleInstanceType() {
     return this.getBooleanAttribute('single_instance_type');
   }
@@ -5674,7 +5674,7 @@ export class Ec2Ec2FleetReservedCapacityOptionsOutputReference extends cdktn.Com
   }
 
   // reservation_types - computed: true, optional: true, required: false
-  private _reservationTypes?: string[];
+  private _reservationTypes?: string[]; 
   public get reservationTypes() {
     return this.getListAttribute('reservation_types');
   }
@@ -5785,7 +5785,7 @@ export class Ec2Ec2FleetSpotOptionsMaintenanceStrategiesCapacityRebalanceOutputR
   }
 
   // replacement_strategy - computed: true, optional: true, required: false
-  private _replacementStrategy?: string;
+  private _replacementStrategy?: string; 
   public get replacementStrategy() {
     return this.getStringAttribute('replacement_strategy');
   }
@@ -5801,7 +5801,7 @@ export class Ec2Ec2FleetSpotOptionsMaintenanceStrategiesCapacityRebalanceOutputR
   }
 
   // termination_delay - computed: true, optional: true, required: false
-  private _terminationDelay?: number;
+  private _terminationDelay?: number; 
   public get terminationDelay() {
     return this.getNumberAttribute('termination_delay');
   }
@@ -6108,7 +6108,7 @@ export class Ec2Ec2FleetSpotOptionsOutputReference extends cdktn.ComplexObject {
   }
 
   // allocation_strategy - computed: true, optional: true, required: false
-  private _allocationStrategy?: string;
+  private _allocationStrategy?: string; 
   public get allocationStrategy() {
     return this.getStringAttribute('allocation_strategy');
   }
@@ -6124,7 +6124,7 @@ export class Ec2Ec2FleetSpotOptionsOutputReference extends cdktn.ComplexObject {
   }
 
   // instance_interruption_behavior - computed: true, optional: true, required: false
-  private _instanceInterruptionBehavior?: string;
+  private _instanceInterruptionBehavior?: string; 
   public get instanceInterruptionBehavior() {
     return this.getStringAttribute('instance_interruption_behavior');
   }
@@ -6140,7 +6140,7 @@ export class Ec2Ec2FleetSpotOptionsOutputReference extends cdktn.ComplexObject {
   }
 
   // instance_pools_to_use_count - computed: true, optional: true, required: false
-  private _instancePoolsToUseCount?: number;
+  private _instancePoolsToUseCount?: number; 
   public get instancePoolsToUseCount() {
     return this.getNumberAttribute('instance_pools_to_use_count');
   }
@@ -6172,7 +6172,7 @@ export class Ec2Ec2FleetSpotOptionsOutputReference extends cdktn.ComplexObject {
   }
 
   // max_total_price - computed: true, optional: true, required: false
-  private _maxTotalPrice?: string;
+  private _maxTotalPrice?: string; 
   public get maxTotalPrice() {
     return this.getStringAttribute('max_total_price');
   }
@@ -6188,7 +6188,7 @@ export class Ec2Ec2FleetSpotOptionsOutputReference extends cdktn.ComplexObject {
   }
 
   // min_target_capacity - computed: true, optional: true, required: false
-  private _minTargetCapacity?: number;
+  private _minTargetCapacity?: number; 
   public get minTargetCapacity() {
     return this.getNumberAttribute('min_target_capacity');
   }
@@ -6204,7 +6204,7 @@ export class Ec2Ec2FleetSpotOptionsOutputReference extends cdktn.ComplexObject {
   }
 
   // single_availability_zone - computed: true, optional: true, required: false
-  private _singleAvailabilityZone?: boolean | cdktn.IResolvable;
+  private _singleAvailabilityZone?: boolean | cdktn.IResolvable; 
   public get singleAvailabilityZone() {
     return this.getBooleanAttribute('single_availability_zone');
   }
@@ -6220,7 +6220,7 @@ export class Ec2Ec2FleetSpotOptionsOutputReference extends cdktn.ComplexObject {
   }
 
   // single_instance_type - computed: true, optional: true, required: false
-  private _singleInstanceType?: boolean | cdktn.IResolvable;
+  private _singleInstanceType?: boolean | cdktn.IResolvable; 
   public get singleInstanceType() {
     return this.getBooleanAttribute('single_instance_type');
   }
@@ -6333,7 +6333,7 @@ export class Ec2Ec2FleetTagSpecificationsTagsOutputReference extends cdktn.Compl
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -6349,7 +6349,7 @@ export class Ec2Ec2FleetTagSpecificationsTagsOutputReference extends cdktn.Compl
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -6482,7 +6482,7 @@ export class Ec2Ec2FleetTagSpecificationsOutputReference extends cdktn.ComplexOb
   }
 
   // resource_type - computed: true, optional: true, required: false
-  private _resourceType?: string;
+  private _resourceType?: string; 
   public get resourceType() {
     return this.getStringAttribute('resource_type');
   }
@@ -6680,7 +6680,7 @@ export class Ec2Ec2FleetTargetCapacitySpecificationOutputReference extends cdktn
   }
 
   // default_target_capacity_type - computed: true, optional: true, required: false
-  private _defaultTargetCapacityType?: string;
+  private _defaultTargetCapacityType?: string; 
   public get defaultTargetCapacityType() {
     return this.getStringAttribute('default_target_capacity_type');
   }
@@ -6696,7 +6696,7 @@ export class Ec2Ec2FleetTargetCapacitySpecificationOutputReference extends cdktn
   }
 
   // on_demand_target_capacity - computed: true, optional: true, required: false
-  private _onDemandTargetCapacity?: number;
+  private _onDemandTargetCapacity?: number; 
   public get onDemandTargetCapacity() {
     return this.getNumberAttribute('on_demand_target_capacity');
   }
@@ -6712,7 +6712,7 @@ export class Ec2Ec2FleetTargetCapacitySpecificationOutputReference extends cdktn
   }
 
   // spot_target_capacity - computed: true, optional: true, required: false
-  private _spotTargetCapacity?: number;
+  private _spotTargetCapacity?: number; 
   public get spotTargetCapacity() {
     return this.getNumberAttribute('spot_target_capacity');
   }
@@ -6728,7 +6728,7 @@ export class Ec2Ec2FleetTargetCapacitySpecificationOutputReference extends cdktn
   }
 
   // target_capacity_unit_type - computed: true, optional: true, required: false
-  private _targetCapacityUnitType?: string;
+  private _targetCapacityUnitType?: string; 
   public get targetCapacityUnitType() {
     return this.getStringAttribute('target_capacity_unit_type');
   }
@@ -6744,7 +6744,7 @@ export class Ec2Ec2FleetTargetCapacitySpecificationOutputReference extends cdktn
   }
 
   // total_target_capacity - computed: false, optional: false, required: true
-  private _totalTargetCapacity?: number;
+  private _totalTargetCapacity?: number; 
   public get totalTargetCapacity() {
     return this.getNumberAttribute('total_target_capacity');
   }
@@ -6827,7 +6827,7 @@ export class Ec2Ec2Fleet extends cdktn.TerraformResource {
   // ==========
 
   // context - computed: true, optional: true, required: false
-  private _context?: string;
+  private _context?: string; 
   public get context() {
     return this.getStringAttribute('context');
   }
@@ -6843,7 +6843,7 @@ export class Ec2Ec2Fleet extends cdktn.TerraformResource {
   }
 
   // excess_capacity_termination_policy - computed: true, optional: true, required: false
-  private _excessCapacityTerminationPolicy?: string;
+  private _excessCapacityTerminationPolicy?: string; 
   public get excessCapacityTerminationPolicy() {
     return this.getStringAttribute('excess_capacity_termination_policy');
   }
@@ -6898,7 +6898,7 @@ export class Ec2Ec2Fleet extends cdktn.TerraformResource {
   }
 
   // replace_unhealthy_instances - computed: true, optional: true, required: false
-  private _replaceUnhealthyInstances?: boolean | cdktn.IResolvable;
+  private _replaceUnhealthyInstances?: boolean | cdktn.IResolvable; 
   public get replaceUnhealthyInstances() {
     return this.getBooleanAttribute('replace_unhealthy_instances');
   }
@@ -6975,7 +6975,7 @@ export class Ec2Ec2Fleet extends cdktn.TerraformResource {
   }
 
   // terminate_instances_with_expiration - computed: true, optional: true, required: false
-  private _terminateInstancesWithExpiration?: boolean | cdktn.IResolvable;
+  private _terminateInstancesWithExpiration?: boolean | cdktn.IResolvable; 
   public get terminateInstancesWithExpiration() {
     return this.getBooleanAttribute('terminate_instances_with_expiration');
   }
@@ -6991,7 +6991,7 @@ export class Ec2Ec2Fleet extends cdktn.TerraformResource {
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -7007,7 +7007,7 @@ export class Ec2Ec2Fleet extends cdktn.TerraformResource {
   }
 
   // valid_from - computed: true, optional: true, required: false
-  private _validFrom?: string;
+  private _validFrom?: string; 
   public get validFrom() {
     return this.getStringAttribute('valid_from');
   }
@@ -7023,7 +7023,7 @@ export class Ec2Ec2Fleet extends cdktn.TerraformResource {
   }
 
   // valid_until - computed: true, optional: true, required: false
-  private _validUntil?: string;
+  private _validUntil?: string; 
   public get validUntil() {
     return this.getStringAttribute('valid_until');
   }

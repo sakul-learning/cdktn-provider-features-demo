@@ -140,7 +140,7 @@ export class IvsPlaybackRestrictionPolicyTagsOutputReference extends cdktn.Compl
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -156,7 +156,7 @@ export class IvsPlaybackRestrictionPolicyTagsOutputReference extends cdktn.Compl
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -254,7 +254,7 @@ export class IvsPlaybackRestrictionPolicy extends cdktn.TerraformResource {
   // ==========
 
   // allowed_countries - computed: true, optional: true, required: false
-  private _allowedCountries?: string[];
+  private _allowedCountries?: string[]; 
   public get allowedCountries() {
     return cdktn.Fn.tolist(this.getListAttribute('allowed_countries'));
   }
@@ -270,7 +270,7 @@ export class IvsPlaybackRestrictionPolicy extends cdktn.TerraformResource {
   }
 
   // allowed_origins - computed: true, optional: true, required: false
-  private _allowedOrigins?: string[];
+  private _allowedOrigins?: string[]; 
   public get allowedOrigins() {
     return this.getListAttribute('allowed_origins');
   }
@@ -291,7 +291,7 @@ export class IvsPlaybackRestrictionPolicy extends cdktn.TerraformResource {
   }
 
   // enable_strict_origin_enforcement - computed: true, optional: true, required: false
-  private _enableStrictOriginEnforcement?: boolean | cdktn.IResolvable;
+  private _enableStrictOriginEnforcement?: boolean | cdktn.IResolvable; 
   public get enableStrictOriginEnforcement() {
     return this.getBooleanAttribute('enable_strict_origin_enforcement');
   }
@@ -312,7 +312,7 @@ export class IvsPlaybackRestrictionPolicy extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }

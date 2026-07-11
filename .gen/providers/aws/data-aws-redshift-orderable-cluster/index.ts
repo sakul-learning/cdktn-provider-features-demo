@@ -106,7 +106,7 @@ export class DataAwsRedshiftOrderableCluster extends cdktn.TerraformDataSource {
   }
 
   // cluster_type - computed: true, optional: true, required: false
-  private _clusterType?: string;
+  private _clusterType?: string; 
   public get clusterType() {
     return this.getStringAttribute('cluster_type');
   }
@@ -122,7 +122,7 @@ export class DataAwsRedshiftOrderableCluster extends cdktn.TerraformDataSource {
   }
 
   // cluster_version - computed: true, optional: true, required: false
-  private _clusterVersion?: string;
+  private _clusterVersion?: string; 
   public get clusterVersion() {
     return this.getStringAttribute('cluster_version');
   }
@@ -138,7 +138,7 @@ export class DataAwsRedshiftOrderableCluster extends cdktn.TerraformDataSource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -154,7 +154,7 @@ export class DataAwsRedshiftOrderableCluster extends cdktn.TerraformDataSource {
   }
 
   // node_type - computed: true, optional: true, required: false
-  private _nodeType?: string;
+  private _nodeType?: string; 
   public get nodeType() {
     return this.getStringAttribute('node_type');
   }
@@ -170,7 +170,7 @@ export class DataAwsRedshiftOrderableCluster extends cdktn.TerraformDataSource {
   }
 
   // preferred_node_types - computed: false, optional: true, required: false
-  private _preferredNodeTypes?: string[];
+  private _preferredNodeTypes?: string[]; 
   public get preferredNodeTypes() {
     return this.getListAttribute('preferred_node_types');
   }
@@ -186,7 +186,7 @@ export class DataAwsRedshiftOrderableCluster extends cdktn.TerraformDataSource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

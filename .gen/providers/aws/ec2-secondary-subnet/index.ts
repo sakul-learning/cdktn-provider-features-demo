@@ -244,7 +244,7 @@ export class Ec2SecondarySubnetTimeoutsOutputReference extends cdktn.ComplexObje
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -260,7 +260,7 @@ export class Ec2SecondarySubnetTimeoutsOutputReference extends cdktn.ComplexObje
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -276,7 +276,7 @@ export class Ec2SecondarySubnetTimeoutsOutputReference extends cdktn.ComplexObje
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -361,7 +361,7 @@ export class Ec2SecondarySubnet extends cdktn.TerraformResource {
   }
 
   // availability_zone - computed: true, optional: true, required: false
-  private _availabilityZone?: string;
+  private _availabilityZone?: string; 
   public get availabilityZone() {
     return this.getStringAttribute('availability_zone');
   }
@@ -377,7 +377,7 @@ export class Ec2SecondarySubnet extends cdktn.TerraformResource {
   }
 
   // availability_zone_id - computed: true, optional: true, required: false
-  private _availabilityZoneId?: string;
+  private _availabilityZoneId?: string; 
   public get availabilityZoneId() {
     return this.getStringAttribute('availability_zone_id');
   }
@@ -398,7 +398,7 @@ export class Ec2SecondarySubnet extends cdktn.TerraformResource {
   }
 
   // ipv4_cidr_block - computed: false, optional: false, required: true
-  private _ipv4CidrBlock?: string;
+  private _ipv4CidrBlock?: string; 
   public get ipv4CidrBlock() {
     return this.getStringAttribute('ipv4_cidr_block');
   }
@@ -422,7 +422,7 @@ export class Ec2SecondarySubnet extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -438,7 +438,7 @@ export class Ec2SecondarySubnet extends cdktn.TerraformResource {
   }
 
   // secondary_network_id - computed: false, optional: false, required: true
-  private _secondaryNetworkId?: string;
+  private _secondaryNetworkId?: string; 
   public get secondaryNetworkId() {
     return this.getStringAttribute('secondary_network_id');
   }
@@ -466,7 +466,7 @@ export class Ec2SecondarySubnet extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

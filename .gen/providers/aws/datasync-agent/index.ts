@@ -142,7 +142,7 @@ export class DatasyncAgentTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -227,7 +227,7 @@ export class DatasyncAgent extends cdktn.TerraformResource {
   // ==========
 
   // activation_key - computed: true, optional: true, required: false
-  private _activationKey?: string;
+  private _activationKey?: string; 
   public get activationKey() {
     return this.getStringAttribute('activation_key');
   }
@@ -248,7 +248,7 @@ export class DatasyncAgent extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -264,7 +264,7 @@ export class DatasyncAgent extends cdktn.TerraformResource {
   }
 
   // ip_address - computed: true, optional: true, required: false
-  private _ipAddress?: string;
+  private _ipAddress?: string; 
   public get ipAddress() {
     return this.getStringAttribute('ip_address');
   }
@@ -280,7 +280,7 @@ export class DatasyncAgent extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -296,7 +296,7 @@ export class DatasyncAgent extends cdktn.TerraformResource {
   }
 
   // private_link_endpoint - computed: true, optional: true, required: false
-  private _privateLinkEndpoint?: string;
+  private _privateLinkEndpoint?: string; 
   public get privateLinkEndpoint() {
     return this.getStringAttribute('private_link_endpoint');
   }
@@ -312,7 +312,7 @@ export class DatasyncAgent extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -328,7 +328,7 @@ export class DatasyncAgent extends cdktn.TerraformResource {
   }
 
   // security_group_arns - computed: false, optional: true, required: false
-  private _securityGroupArns?: string[];
+  private _securityGroupArns?: string[]; 
   public get securityGroupArns() {
     return cdktn.Fn.tolist(this.getListAttribute('security_group_arns'));
   }
@@ -344,7 +344,7 @@ export class DatasyncAgent extends cdktn.TerraformResource {
   }
 
   // subnet_arns - computed: false, optional: true, required: false
-  private _subnetArns?: string[];
+  private _subnetArns?: string[]; 
   public get subnetArns() {
     return cdktn.Fn.tolist(this.getListAttribute('subnet_arns'));
   }
@@ -360,7 +360,7 @@ export class DatasyncAgent extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -376,7 +376,7 @@ export class DatasyncAgent extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -392,7 +392,7 @@ export class DatasyncAgent extends cdktn.TerraformResource {
   }
 
   // vpc_endpoint_id - computed: false, optional: true, required: false
-  private _vpcEndpointId?: string;
+  private _vpcEndpointId?: string; 
   public get vpcEndpointId() {
     return this.getStringAttribute('vpc_endpoint_id');
   }

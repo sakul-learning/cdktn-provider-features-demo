@@ -88,7 +88,7 @@ export class WorkspaceswebUserAccessLoggingSettings extends cdktn.TerraformResou
   }
 
   // kinesis_stream_arn - computed: false, optional: false, required: true
-  private _kinesisStreamArn?: string;
+  private _kinesisStreamArn?: string; 
   public get kinesisStreamArn() {
     return this.getStringAttribute('kinesis_stream_arn');
   }
@@ -101,7 +101,7 @@ export class WorkspaceswebUserAccessLoggingSettings extends cdktn.TerraformResou
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -117,7 +117,7 @@ export class WorkspaceswebUserAccessLoggingSettings extends cdktn.TerraformResou
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

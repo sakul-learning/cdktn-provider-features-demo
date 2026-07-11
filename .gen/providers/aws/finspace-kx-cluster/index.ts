@@ -283,7 +283,7 @@ export class FinspaceKxClusterAutoScalingConfigurationOutputReference extends cd
   }
 
   // auto_scaling_metric - computed: false, optional: false, required: true
-  private _autoScalingMetric?: string;
+  private _autoScalingMetric?: string; 
   public get autoScalingMetric() {
     return this.getStringAttribute('auto_scaling_metric');
   }
@@ -296,7 +296,7 @@ export class FinspaceKxClusterAutoScalingConfigurationOutputReference extends cd
   }
 
   // max_node_count - computed: false, optional: false, required: true
-  private _maxNodeCount?: number;
+  private _maxNodeCount?: number; 
   public get maxNodeCount() {
     return this.getNumberAttribute('max_node_count');
   }
@@ -309,7 +309,7 @@ export class FinspaceKxClusterAutoScalingConfigurationOutputReference extends cd
   }
 
   // metric_target - computed: false, optional: false, required: true
-  private _metricTarget?: number;
+  private _metricTarget?: number; 
   public get metricTarget() {
     return this.getNumberAttribute('metric_target');
   }
@@ -322,7 +322,7 @@ export class FinspaceKxClusterAutoScalingConfigurationOutputReference extends cd
   }
 
   // min_node_count - computed: false, optional: false, required: true
-  private _minNodeCount?: number;
+  private _minNodeCount?: number; 
   public get minNodeCount() {
     return this.getNumberAttribute('min_node_count');
   }
@@ -335,7 +335,7 @@ export class FinspaceKxClusterAutoScalingConfigurationOutputReference extends cd
   }
 
   // scale_in_cooldown_seconds - computed: false, optional: false, required: true
-  private _scaleInCooldownSeconds?: number;
+  private _scaleInCooldownSeconds?: number; 
   public get scaleInCooldownSeconds() {
     return this.getNumberAttribute('scale_in_cooldown_seconds');
   }
@@ -348,7 +348,7 @@ export class FinspaceKxClusterAutoScalingConfigurationOutputReference extends cd
   }
 
   // scale_out_cooldown_seconds - computed: false, optional: false, required: true
-  private _scaleOutCooldownSeconds?: number;
+  private _scaleOutCooldownSeconds?: number; 
   public get scaleOutCooldownSeconds() {
     return this.getNumberAttribute('scale_out_cooldown_seconds');
   }
@@ -458,7 +458,7 @@ export class FinspaceKxClusterCacheStorageConfigurationsOutputReference extends 
   }
 
   // size - computed: false, optional: false, required: true
-  private _size?: number;
+  private _size?: number; 
   public get size() {
     return this.getNumberAttribute('size');
   }
@@ -471,7 +471,7 @@ export class FinspaceKxClusterCacheStorageConfigurationsOutputReference extends 
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -589,7 +589,7 @@ export class FinspaceKxClusterCapacityConfigurationOutputReference extends cdktn
   }
 
   // node_count - computed: false, optional: false, required: true
-  private _nodeCount?: number;
+  private _nodeCount?: number; 
   public get nodeCount() {
     return this.getNumberAttribute('node_count');
   }
@@ -602,7 +602,7 @@ export class FinspaceKxClusterCapacityConfigurationOutputReference extends cdktn
   }
 
   // node_type - computed: false, optional: false, required: true
-  private _nodeType?: string;
+  private _nodeType?: string; 
   public get nodeType() {
     return this.getStringAttribute('node_type');
   }
@@ -717,7 +717,7 @@ export class FinspaceKxClusterCodeOutputReference extends cdktn.ComplexObject {
   }
 
   // s3_bucket - computed: false, optional: false, required: true
-  private _s3Bucket?: string;
+  private _s3Bucket?: string; 
   public get s3Bucket() {
     return this.getStringAttribute('s3_bucket');
   }
@@ -730,7 +730,7 @@ export class FinspaceKxClusterCodeOutputReference extends cdktn.ComplexObject {
   }
 
   // s3_key - computed: false, optional: false, required: true
-  private _s3Key?: string;
+  private _s3Key?: string; 
   public get s3Key() {
     return this.getStringAttribute('s3_key');
   }
@@ -743,7 +743,7 @@ export class FinspaceKxClusterCodeOutputReference extends cdktn.ComplexObject {
   }
 
   // s3_object_version - computed: false, optional: true, required: false
-  private _s3ObjectVersion?: string;
+  private _s3ObjectVersion?: string; 
   public get s3ObjectVersion() {
     return this.getStringAttribute('s3_object_version');
   }
@@ -856,7 +856,7 @@ export class FinspaceKxClusterDatabaseCacheConfigurationsOutputReference extends
   }
 
   // cache_type - computed: false, optional: false, required: true
-  private _cacheType?: string;
+  private _cacheType?: string; 
   public get cacheType() {
     return this.getStringAttribute('cache_type');
   }
@@ -869,7 +869,7 @@ export class FinspaceKxClusterDatabaseCacheConfigurationsOutputReference extends
   }
 
   // db_paths - computed: false, optional: true, required: false
-  private _dbPaths?: string[];
+  private _dbPaths?: string[]; 
   public get dbPaths() {
     return cdktn.Fn.tolist(this.getListAttribute('db_paths'));
   }
@@ -1038,7 +1038,7 @@ export class FinspaceKxClusterDatabaseOutputReference extends cdktn.ComplexObjec
   }
 
   // changeset_id - computed: false, optional: true, required: false
-  private _changesetId?: string;
+  private _changesetId?: string; 
   public get changesetId() {
     return this.getStringAttribute('changeset_id');
   }
@@ -1054,7 +1054,7 @@ export class FinspaceKxClusterDatabaseOutputReference extends cdktn.ComplexObjec
   }
 
   // database_name - computed: false, optional: false, required: true
-  private _databaseName?: string;
+  private _databaseName?: string; 
   public get databaseName() {
     return this.getStringAttribute('database_name');
   }
@@ -1067,7 +1067,7 @@ export class FinspaceKxClusterDatabaseOutputReference extends cdktn.ComplexObjec
   }
 
   // dataview_name - computed: false, optional: true, required: false
-  private _dataviewName?: string;
+  private _dataviewName?: string; 
   public get dataviewName() {
     return this.getStringAttribute('dataview_name');
   }
@@ -1221,7 +1221,7 @@ export class FinspaceKxClusterSavedownStorageConfigurationOutputReference extend
   }
 
   // size - computed: false, optional: true, required: false
-  private _size?: number;
+  private _size?: number; 
   public get size() {
     return this.getNumberAttribute('size');
   }
@@ -1237,7 +1237,7 @@ export class FinspaceKxClusterSavedownStorageConfigurationOutputReference extend
   }
 
   // type - computed: false, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -1253,7 +1253,7 @@ export class FinspaceKxClusterSavedownStorageConfigurationOutputReference extend
   }
 
   // volume_name - computed: false, optional: true, required: false
-  private _volumeName?: string;
+  private _volumeName?: string; 
   public get volumeName() {
     return this.getStringAttribute('volume_name');
   }
@@ -1405,7 +1405,7 @@ export class FinspaceKxClusterScalingGroupConfigurationOutputReference extends c
   }
 
   // cpu - computed: false, optional: true, required: false
-  private _cpu?: number;
+  private _cpu?: number; 
   public get cpu() {
     return this.getNumberAttribute('cpu');
   }
@@ -1421,7 +1421,7 @@ export class FinspaceKxClusterScalingGroupConfigurationOutputReference extends c
   }
 
   // memory_limit - computed: false, optional: true, required: false
-  private _memoryLimit?: number;
+  private _memoryLimit?: number; 
   public get memoryLimit() {
     return this.getNumberAttribute('memory_limit');
   }
@@ -1437,7 +1437,7 @@ export class FinspaceKxClusterScalingGroupConfigurationOutputReference extends c
   }
 
   // memory_reservation - computed: false, optional: false, required: true
-  private _memoryReservation?: number;
+  private _memoryReservation?: number; 
   public get memoryReservation() {
     return this.getNumberAttribute('memory_reservation');
   }
@@ -1450,7 +1450,7 @@ export class FinspaceKxClusterScalingGroupConfigurationOutputReference extends c
   }
 
   // node_count - computed: false, optional: false, required: true
-  private _nodeCount?: number;
+  private _nodeCount?: number; 
   public get nodeCount() {
     return this.getNumberAttribute('node_count');
   }
@@ -1463,7 +1463,7 @@ export class FinspaceKxClusterScalingGroupConfigurationOutputReference extends c
   }
 
   // scaling_group_name - computed: false, optional: false, required: true
-  private _scalingGroupName?: string;
+  private _scalingGroupName?: string; 
   public get scalingGroupName() {
     return this.getStringAttribute('scaling_group_name');
   }
@@ -1556,7 +1556,7 @@ export class FinspaceKxClusterTickerplantLogConfigurationOutputReference extends
   }
 
   // tickerplant_log_volumes - computed: false, optional: false, required: true
-  private _tickerplantLogVolumes?: string[];
+  private _tickerplantLogVolumes?: string[]; 
   public get tickerplantLogVolumes() {
     return cdktn.Fn.tolist(this.getListAttribute('tickerplant_log_volumes'));
   }
@@ -1701,7 +1701,7 @@ export class FinspaceKxClusterTimeoutsOutputReference extends cdktn.ComplexObjec
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -1717,7 +1717,7 @@ export class FinspaceKxClusterTimeoutsOutputReference extends cdktn.ComplexObjec
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -1733,7 +1733,7 @@ export class FinspaceKxClusterTimeoutsOutputReference extends cdktn.ComplexObjec
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -1868,7 +1868,7 @@ export class FinspaceKxClusterVpcConfigurationOutputReference extends cdktn.Comp
   }
 
   // ip_address_type - computed: false, optional: false, required: true
-  private _ipAddressType?: string;
+  private _ipAddressType?: string; 
   public get ipAddressType() {
     return this.getStringAttribute('ip_address_type');
   }
@@ -1881,7 +1881,7 @@ export class FinspaceKxClusterVpcConfigurationOutputReference extends cdktn.Comp
   }
 
   // security_group_ids - computed: false, optional: false, required: true
-  private _securityGroupIds?: string[];
+  private _securityGroupIds?: string[]; 
   public get securityGroupIds() {
     return cdktn.Fn.tolist(this.getListAttribute('security_group_ids'));
   }
@@ -1894,7 +1894,7 @@ export class FinspaceKxClusterVpcConfigurationOutputReference extends cdktn.Comp
   }
 
   // subnet_ids - computed: false, optional: false, required: true
-  private _subnetIds?: string[];
+  private _subnetIds?: string[]; 
   public get subnetIds() {
     return cdktn.Fn.tolist(this.getListAttribute('subnet_ids'));
   }
@@ -1907,7 +1907,7 @@ export class FinspaceKxClusterVpcConfigurationOutputReference extends cdktn.Comp
   }
 
   // vpc_id - computed: false, optional: false, required: true
-  private _vpcId?: string;
+  private _vpcId?: string; 
   public get vpcId() {
     return this.getStringAttribute('vpc_id');
   }
@@ -2006,7 +2006,7 @@ export class FinspaceKxCluster extends cdktn.TerraformResource {
   }
 
   // availability_zone_id - computed: false, optional: true, required: false
-  private _availabilityZoneId?: string;
+  private _availabilityZoneId?: string; 
   public get availabilityZoneId() {
     return this.getStringAttribute('availability_zone_id');
   }
@@ -2022,7 +2022,7 @@ export class FinspaceKxCluster extends cdktn.TerraformResource {
   }
 
   // az_mode - computed: false, optional: false, required: true
-  private _azMode?: string;
+  private _azMode?: string; 
   public get azMode() {
     return this.getStringAttribute('az_mode');
   }
@@ -2035,7 +2035,7 @@ export class FinspaceKxCluster extends cdktn.TerraformResource {
   }
 
   // command_line_arguments - computed: false, optional: true, required: false
-  private _commandLineArguments?: { [key: string]: string };
+  private _commandLineArguments?: { [key: string]: string }; 
   public get commandLineArguments() {
     return this.getStringMapAttribute('command_line_arguments');
   }
@@ -2056,7 +2056,7 @@ export class FinspaceKxCluster extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -2072,7 +2072,7 @@ export class FinspaceKxCluster extends cdktn.TerraformResource {
   }
 
   // environment_id - computed: false, optional: false, required: true
-  private _environmentId?: string;
+  private _environmentId?: string; 
   public get environmentId() {
     return this.getStringAttribute('environment_id');
   }
@@ -2085,7 +2085,7 @@ export class FinspaceKxCluster extends cdktn.TerraformResource {
   }
 
   // execution_role - computed: false, optional: true, required: false
-  private _executionRole?: string;
+  private _executionRole?: string; 
   public get executionRole() {
     return this.getStringAttribute('execution_role');
   }
@@ -2101,7 +2101,7 @@ export class FinspaceKxCluster extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -2117,7 +2117,7 @@ export class FinspaceKxCluster extends cdktn.TerraformResource {
   }
 
   // initialization_script - computed: false, optional: true, required: false
-  private _initializationScript?: string;
+  private _initializationScript?: string; 
   public get initializationScript() {
     return this.getStringAttribute('initialization_script');
   }
@@ -2138,7 +2138,7 @@ export class FinspaceKxCluster extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2151,7 +2151,7 @@ export class FinspaceKxCluster extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -2167,7 +2167,7 @@ export class FinspaceKxCluster extends cdktn.TerraformResource {
   }
 
   // release_label - computed: false, optional: false, required: true
-  private _releaseLabel?: string;
+  private _releaseLabel?: string; 
   public get releaseLabel() {
     return this.getStringAttribute('release_label');
   }
@@ -2190,7 +2190,7 @@ export class FinspaceKxCluster extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -2206,7 +2206,7 @@ export class FinspaceKxCluster extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -2222,7 +2222,7 @@ export class FinspaceKxCluster extends cdktn.TerraformResource {
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }

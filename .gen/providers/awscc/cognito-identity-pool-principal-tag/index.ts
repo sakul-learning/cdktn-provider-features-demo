@@ -91,7 +91,7 @@ export class CognitoIdentityPoolPrincipalTag extends cdktn.TerraformResource {
   }
 
   // identity_pool_id - computed: false, optional: false, required: true
-  private _identityPoolId?: string;
+  private _identityPoolId?: string; 
   public get identityPoolId() {
     return this.getStringAttribute('identity_pool_id');
   }
@@ -104,7 +104,7 @@ export class CognitoIdentityPoolPrincipalTag extends cdktn.TerraformResource {
   }
 
   // identity_provider_name - computed: false, optional: false, required: true
-  private _identityProviderName?: string;
+  private _identityProviderName?: string; 
   public get identityProviderName() {
     return this.getStringAttribute('identity_provider_name');
   }
@@ -117,7 +117,7 @@ export class CognitoIdentityPoolPrincipalTag extends cdktn.TerraformResource {
   }
 
   // principal_tags - computed: true, optional: true, required: false
-  private _principalTags?: string;
+  private _principalTags?: string; 
   public get principalTags() {
     return this.getStringAttribute('principal_tags');
   }
@@ -133,7 +133,7 @@ export class CognitoIdentityPoolPrincipalTag extends cdktn.TerraformResource {
   }
 
   // use_defaults - computed: true, optional: true, required: false
-  private _useDefaults?: boolean | cdktn.IResolvable;
+  private _useDefaults?: boolean | cdktn.IResolvable; 
   public get useDefaults() {
     return this.getBooleanAttribute('use_defaults');
   }

@@ -262,7 +262,7 @@ export class RumAppMonitorAppMonitorConfigurationOutputReference extends cdktn.C
   }
 
   // allow_cookies - computed: false, optional: true, required: false
-  private _allowCookies?: boolean | cdktn.IResolvable;
+  private _allowCookies?: boolean | cdktn.IResolvable; 
   public get allowCookies() {
     return this.getBooleanAttribute('allow_cookies');
   }
@@ -278,7 +278,7 @@ export class RumAppMonitorAppMonitorConfigurationOutputReference extends cdktn.C
   }
 
   // enable_xray - computed: false, optional: true, required: false
-  private _enableXray?: boolean | cdktn.IResolvable;
+  private _enableXray?: boolean | cdktn.IResolvable; 
   public get enableXray() {
     return this.getBooleanAttribute('enable_xray');
   }
@@ -294,7 +294,7 @@ export class RumAppMonitorAppMonitorConfigurationOutputReference extends cdktn.C
   }
 
   // excluded_pages - computed: false, optional: true, required: false
-  private _excludedPages?: string[];
+  private _excludedPages?: string[]; 
   public get excludedPages() {
     return cdktn.Fn.tolist(this.getListAttribute('excluded_pages'));
   }
@@ -310,7 +310,7 @@ export class RumAppMonitorAppMonitorConfigurationOutputReference extends cdktn.C
   }
 
   // favorite_pages - computed: false, optional: true, required: false
-  private _favoritePages?: string[];
+  private _favoritePages?: string[]; 
   public get favoritePages() {
     return cdktn.Fn.tolist(this.getListAttribute('favorite_pages'));
   }
@@ -326,7 +326,7 @@ export class RumAppMonitorAppMonitorConfigurationOutputReference extends cdktn.C
   }
 
   // guest_role_arn - computed: false, optional: true, required: false
-  private _guestRoleArn?: string;
+  private _guestRoleArn?: string; 
   public get guestRoleArn() {
     return this.getStringAttribute('guest_role_arn');
   }
@@ -342,7 +342,7 @@ export class RumAppMonitorAppMonitorConfigurationOutputReference extends cdktn.C
   }
 
   // identity_pool_id - computed: false, optional: true, required: false
-  private _identityPoolId?: string;
+  private _identityPoolId?: string; 
   public get identityPoolId() {
     return this.getStringAttribute('identity_pool_id');
   }
@@ -358,7 +358,7 @@ export class RumAppMonitorAppMonitorConfigurationOutputReference extends cdktn.C
   }
 
   // included_pages - computed: false, optional: true, required: false
-  private _includedPages?: string[];
+  private _includedPages?: string[]; 
   public get includedPages() {
     return cdktn.Fn.tolist(this.getListAttribute('included_pages'));
   }
@@ -374,7 +374,7 @@ export class RumAppMonitorAppMonitorConfigurationOutputReference extends cdktn.C
   }
 
   // session_sample_rate - computed: false, optional: true, required: false
-  private _sessionSampleRate?: number;
+  private _sessionSampleRate?: number; 
   public get sessionSampleRate() {
     return this.getNumberAttribute('session_sample_rate');
   }
@@ -390,7 +390,7 @@ export class RumAppMonitorAppMonitorConfigurationOutputReference extends cdktn.C
   }
 
   // telemetries - computed: false, optional: true, required: false
-  private _telemetries?: string[];
+  private _telemetries?: string[]; 
   public get telemetries() {
     return cdktn.Fn.tolist(this.getListAttribute('telemetries'));
   }
@@ -474,7 +474,7 @@ export class RumAppMonitorCustomEventsOutputReference extends cdktn.ComplexObjec
   }
 
   // status - computed: false, optional: true, required: false
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -567,7 +567,7 @@ export class RumAppMonitor extends cdktn.TerraformResource {
   }
 
   // cw_log_enabled - computed: false, optional: true, required: false
-  private _cwLogEnabled?: boolean | cdktn.IResolvable;
+  private _cwLogEnabled?: boolean | cdktn.IResolvable; 
   public get cwLogEnabled() {
     return this.getBooleanAttribute('cw_log_enabled');
   }
@@ -588,7 +588,7 @@ export class RumAppMonitor extends cdktn.TerraformResource {
   }
 
   // domain - computed: false, optional: true, required: false
-  private _domain?: string;
+  private _domain?: string; 
   public get domain() {
     return this.getStringAttribute('domain');
   }
@@ -604,7 +604,7 @@ export class RumAppMonitor extends cdktn.TerraformResource {
   }
 
   // domain_list - computed: false, optional: true, required: false
-  private _domainList?: string[];
+  private _domainList?: string[]; 
   public get domainList() {
     return this.getListAttribute('domain_list');
   }
@@ -620,7 +620,7 @@ export class RumAppMonitor extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -636,7 +636,7 @@ export class RumAppMonitor extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -649,7 +649,7 @@ export class RumAppMonitor extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -665,7 +665,7 @@ export class RumAppMonitor extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -681,7 +681,7 @@ export class RumAppMonitor extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

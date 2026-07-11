@@ -126,7 +126,7 @@ export class AppstreamEntitlementAttributesOutputReference extends cdktn.Complex
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -139,7 +139,7 @@ export class AppstreamEntitlementAttributesOutputReference extends cdktn.Complex
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -234,7 +234,7 @@ export class AppstreamEntitlement extends cdktn.TerraformResource {
   // ==========
 
   // app_visibility - computed: false, optional: false, required: true
-  private _appVisibility?: string;
+  private _appVisibility?: string; 
   public get appVisibility() {
     return this.getStringAttribute('app_visibility');
   }
@@ -265,7 +265,7 @@ export class AppstreamEntitlement extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -291,7 +291,7 @@ export class AppstreamEntitlement extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -304,7 +304,7 @@ export class AppstreamEntitlement extends cdktn.TerraformResource {
   }
 
   // stack_name - computed: false, optional: false, required: true
-  private _stackName?: string;
+  private _stackName?: string; 
   public get stackName() {
     return this.getStringAttribute('stack_name');
   }

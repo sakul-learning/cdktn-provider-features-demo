@@ -24,7 +24,7 @@ export interface EcsClusterConfig extends cdktn.TerraformMetaArguments {
   readonly clusterName?: string;
   /**
   * The settings to use when creating a cluster. This parameter is used to turn on CloudWatch Container Insights with enhanced observability or CloudWatch Container Insights for a cluster.
-  *  Container Insights with enhanced observability provides all the Container Insights metrics, plus additional task and container metrics. This version supports enhanced observability for Amazon ECS clusters using the Amazon EC2 and Fargate launch types. After you configure Container Insights with enhanced observability on Amazon ECS, Container Insights auto-collects detailed infrastructure telemetry from the cluster level down to the container level in your environment and displays these critical performance data in curated dashboards removing the heavy lifting in observability set-up.
+  *  Container Insights with enhanced observability provides all the Container Insights metrics, plus additional task and container metrics. This version supports enhanced observability for Amazon ECS clusters using the Amazon EC2 and Fargate launch types. After you configure Container Insights with enhanced observability on Amazon ECS, Container Insights auto-collects detailed infrastructure telemetry from the cluster level down to the container level in your environment and displays these critical performance data in curated dashboards removing the heavy lifting in observability set-up. 
   *  For more information, see [Monitor Amazon ECS containers using Container Insights with enhanced observability](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/cloudwatch-container-insights.html) in the *Amazon Elastic Container Service Developer Guide*.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_cluster#cluster_settings EcsCluster#cluster_settings}
@@ -72,7 +72,7 @@ export interface EcsClusterClusterSettings {
   */
   readonly name?: string;
   /**
-  * The value to set for the cluster setting. The supported values are ``enhanced``, ``enabled``, and ``disabled``.
+  * The value to set for the cluster setting. The supported values are ``enhanced``, ``enabled``, and ``disabled``. 
   *  To use Container Insights with enhanced observability, set the ``containerInsights`` account setting to ``enhanced``.
   *  To use Container Insights, set the ``containerInsights`` account setting to ``enabled``.
   *  If a cluster value is specified, it will override the ``containerInsights`` value set with [PutAccountSetting](https://docs.aws.amazon.com/AmazonECS/latest/APIReference/API_PutAccountSetting.html) or [PutAccountSettingDefault](https://docs.aws.amazon.com/AmazonECS/latest/APIReference/API_PutAccountSettingDefault.html).
@@ -169,7 +169,7 @@ export class EcsClusterClusterSettingsOutputReference extends cdktn.ComplexObjec
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -185,7 +185,7 @@ export class EcsClusterClusterSettingsOutputReference extends cdktn.ComplexObjec
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -379,7 +379,7 @@ export class EcsClusterConfigurationExecuteCommandConfigurationLogConfigurationO
   }
 
   // cloudwatch_encryption_enabled - computed: true, optional: true, required: false
-  private _cloudwatchEncryptionEnabled?: boolean | cdktn.IResolvable;
+  private _cloudwatchEncryptionEnabled?: boolean | cdktn.IResolvable; 
   public get cloudwatchEncryptionEnabled() {
     return this.getBooleanAttribute('cloudwatch_encryption_enabled');
   }
@@ -395,7 +395,7 @@ export class EcsClusterConfigurationExecuteCommandConfigurationLogConfigurationO
   }
 
   // cloudwatch_log_group_name - computed: true, optional: true, required: false
-  private _cloudwatchLogGroupName?: string;
+  private _cloudwatchLogGroupName?: string; 
   public get cloudwatchLogGroupName() {
     return this.getStringAttribute('cloudwatch_log_group_name');
   }
@@ -411,7 +411,7 @@ export class EcsClusterConfigurationExecuteCommandConfigurationLogConfigurationO
   }
 
   // s3_bucket_name - computed: true, optional: true, required: false
-  private _s3BucketName?: string;
+  private _s3BucketName?: string; 
   public get s3BucketName() {
     return this.getStringAttribute('s3_bucket_name');
   }
@@ -427,7 +427,7 @@ export class EcsClusterConfigurationExecuteCommandConfigurationLogConfigurationO
   }
 
   // s3_encryption_enabled - computed: true, optional: true, required: false
-  private _s3EncryptionEnabled?: boolean | cdktn.IResolvable;
+  private _s3EncryptionEnabled?: boolean | cdktn.IResolvable; 
   public get s3EncryptionEnabled() {
     return this.getBooleanAttribute('s3_encryption_enabled');
   }
@@ -443,7 +443,7 @@ export class EcsClusterConfigurationExecuteCommandConfigurationLogConfigurationO
   }
 
   // s3_key_prefix - computed: true, optional: true, required: false
-  private _s3KeyPrefix?: string;
+  private _s3KeyPrefix?: string; 
   public get s3KeyPrefix() {
     return this.getStringAttribute('s3_key_prefix');
   }
@@ -580,7 +580,7 @@ export class EcsClusterConfigurationExecuteCommandConfigurationOutputReference e
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -612,7 +612,7 @@ export class EcsClusterConfigurationExecuteCommandConfigurationOutputReference e
   }
 
   // logging - computed: true, optional: true, required: false
-  private _logging?: string;
+  private _logging?: string; 
   public get logging() {
     return this.getStringAttribute('logging');
   }
@@ -731,7 +731,7 @@ export class EcsClusterConfigurationManagedStorageConfigurationOutputReference e
   }
 
   // fargate_ephemeral_storage_kms_key_id - computed: true, optional: true, required: false
-  private _fargateEphemeralStorageKmsKeyId?: string;
+  private _fargateEphemeralStorageKmsKeyId?: string; 
   public get fargateEphemeralStorageKmsKeyId() {
     return this.getStringAttribute('fargate_ephemeral_storage_kms_key_id');
   }
@@ -747,7 +747,7 @@ export class EcsClusterConfigurationManagedStorageConfigurationOutputReference e
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -920,11 +920,11 @@ export interface EcsClusterDefaultCapacityProviderStrategy {
   *   +  The valid range is 0 to 1,000
   *   +  At least one capacity provider must have a weight greater than zero
   *   +  Capacity providers with weight of ``0`` cannot place tasks
-  *
+  *   
   *  Task distribution logic:
   *   1.  Base satisfaction: The minimum number of tasks specified by the base value are placed on that capacity provider
   *   1.  Weight distribution: After base requirements are met, additional tasks are distributed according to weight ratios
-  *
+  *   
   *  Examples:
   *  Equal Distribution: Two capacity providers both with weight ``1`` will split tasks evenly after base requirements are met.
   *  Weighted Distribution: If capacityProviderA has weight ``1`` and capacityProviderB has weight ``4``, then for every 1 task on A, 4 tasks will run on B.
@@ -1034,7 +1034,7 @@ export class EcsClusterDefaultCapacityProviderStrategyOutputReference extends cd
   }
 
   // base - computed: true, optional: true, required: false
-  private _base?: number;
+  private _base?: number; 
   public get base() {
     return this.getNumberAttribute('base');
   }
@@ -1050,7 +1050,7 @@ export class EcsClusterDefaultCapacityProviderStrategyOutputReference extends cd
   }
 
   // capacity_provider - computed: true, optional: true, required: false
-  private _capacityProvider?: string;
+  private _capacityProvider?: string; 
   public get capacityProvider() {
     return this.getStringAttribute('capacity_provider');
   }
@@ -1066,7 +1066,7 @@ export class EcsClusterDefaultCapacityProviderStrategyOutputReference extends cd
   }
 
   // weight - computed: true, optional: true, required: false
-  private _weight?: number;
+  private _weight?: number; 
   public get weight() {
     return this.getNumberAttribute('weight');
   }
@@ -1186,7 +1186,7 @@ export class EcsClusterServiceConnectDefaultsOutputReference extends cdktn.Compl
   }
 
   // namespace - computed: true, optional: true, required: false
-  private _namespace?: string;
+  private _namespace?: string; 
   public get namespace() {
     return this.getStringAttribute('namespace');
   }
@@ -1303,7 +1303,7 @@ export class EcsClusterTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1319,7 +1319,7 @@ export class EcsClusterTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1424,7 +1424,7 @@ export class EcsCluster extends cdktn.TerraformResource {
   }
 
   // capacity_providers - computed: true, optional: true, required: false
-  private _capacityProviders?: string[];
+  private _capacityProviders?: string[]; 
   public get capacityProviders() {
     return this.getListAttribute('capacity_providers');
   }
@@ -1440,7 +1440,7 @@ export class EcsCluster extends cdktn.TerraformResource {
   }
 
   // cluster_name - computed: true, optional: true, required: false
-  private _clusterName?: string;
+  private _clusterName?: string; 
   public get clusterName() {
     return this.getStringAttribute('cluster_name');
   }

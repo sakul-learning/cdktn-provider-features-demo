@@ -144,7 +144,7 @@ export class BatchJobQueueComputeEnvironmentOrderOutputReference extends cdktn.C
   }
 
   // compute_environment - computed: true, optional: true, required: false
-  private _computeEnvironment?: string;
+  private _computeEnvironment?: string; 
   public get computeEnvironment() {
     return this.getStringAttribute('compute_environment');
   }
@@ -160,7 +160,7 @@ export class BatchJobQueueComputeEnvironmentOrderOutputReference extends cdktn.C
   }
 
   // order - computed: true, optional: true, required: false
-  private _order?: number;
+  private _order?: number; 
   public get order() {
     return this.getNumberAttribute('order');
   }
@@ -327,7 +327,7 @@ export class BatchJobQueueJobStateTimeLimitActionsOutputReference extends cdktn.
   }
 
   // action - computed: true, optional: true, required: false
-  private _action?: string;
+  private _action?: string; 
   public get action() {
     return this.getStringAttribute('action');
   }
@@ -343,7 +343,7 @@ export class BatchJobQueueJobStateTimeLimitActionsOutputReference extends cdktn.
   }
 
   // max_time_seconds - computed: true, optional: true, required: false
-  private _maxTimeSeconds?: number;
+  private _maxTimeSeconds?: number; 
   public get maxTimeSeconds() {
     return this.getNumberAttribute('max_time_seconds');
   }
@@ -359,7 +359,7 @@ export class BatchJobQueueJobStateTimeLimitActionsOutputReference extends cdktn.
   }
 
   // reason - computed: true, optional: true, required: false
-  private _reason?: string;
+  private _reason?: string; 
   public get reason() {
     return this.getStringAttribute('reason');
   }
@@ -375,7 +375,7 @@ export class BatchJobQueueJobStateTimeLimitActionsOutputReference extends cdktn.
   }
 
   // state - computed: true, optional: true, required: false
-  private _state?: string;
+  private _state?: string; 
   public get state() {
     return this.getStringAttribute('state');
   }
@@ -508,7 +508,7 @@ export class BatchJobQueueServiceEnvironmentOrderOutputReference extends cdktn.C
   }
 
   // order - computed: true, optional: true, required: false
-  private _order?: number;
+  private _order?: number; 
   public get order() {
     return this.getNumberAttribute('order');
   }
@@ -524,7 +524,7 @@ export class BatchJobQueueServiceEnvironmentOrderOutputReference extends cdktn.C
   }
 
   // service_environment - computed: true, optional: true, required: false
-  private _serviceEnvironment?: string;
+  private _serviceEnvironment?: string; 
   public get serviceEnvironment() {
     return this.getStringAttribute('service_environment');
   }
@@ -652,7 +652,7 @@ export class BatchJobQueue extends cdktn.TerraformResource {
   }
 
   // job_queue_name - computed: true, optional: true, required: false
-  private _jobQueueName?: string;
+  private _jobQueueName?: string; 
   public get jobQueueName() {
     return this.getStringAttribute('job_queue_name');
   }
@@ -668,7 +668,7 @@ export class BatchJobQueue extends cdktn.TerraformResource {
   }
 
   // job_queue_type - computed: true, optional: true, required: false
-  private _jobQueueType?: string;
+  private _jobQueueType?: string; 
   public get jobQueueType() {
     return this.getStringAttribute('job_queue_type');
   }
@@ -700,7 +700,7 @@ export class BatchJobQueue extends cdktn.TerraformResource {
   }
 
   // priority - computed: false, optional: false, required: true
-  private _priority?: number;
+  private _priority?: number; 
   public get priority() {
     return this.getNumberAttribute('priority');
   }
@@ -713,7 +713,7 @@ export class BatchJobQueue extends cdktn.TerraformResource {
   }
 
   // scheduling_policy_arn - computed: true, optional: true, required: false
-  private _schedulingPolicyArn?: string;
+  private _schedulingPolicyArn?: string; 
   public get schedulingPolicyArn() {
     return this.getStringAttribute('scheduling_policy_arn');
   }
@@ -745,7 +745,7 @@ export class BatchJobQueue extends cdktn.TerraformResource {
   }
 
   // state - computed: true, optional: true, required: false
-  private _state?: string;
+  private _state?: string; 
   public get state() {
     return this.getStringAttribute('state');
   }
@@ -761,7 +761,7 @@ export class BatchJobQueue extends cdktn.TerraformResource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

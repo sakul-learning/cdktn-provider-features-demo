@@ -154,7 +154,7 @@ export class ElasticacheUserAuthenticationModeOutputReference extends cdktn.Comp
   }
 
   // passwords - computed: true, optional: true, required: false
-  private _passwords?: string[];
+  private _passwords?: string[]; 
   public get passwords() {
     return this.getListAttribute('passwords');
   }
@@ -170,7 +170,7 @@ export class ElasticacheUserAuthenticationModeOutputReference extends cdktn.Comp
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -287,7 +287,7 @@ export class ElasticacheUserTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -303,7 +303,7 @@ export class ElasticacheUserTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -404,7 +404,7 @@ export class ElasticacheUser extends cdktn.TerraformResource {
   // ==========
 
   // access_string - computed: true, optional: true, required: false
-  private _accessString?: string;
+  private _accessString?: string; 
   public get accessString() {
     return this.getStringAttribute('access_string');
   }
@@ -441,7 +441,7 @@ export class ElasticacheUser extends cdktn.TerraformResource {
   }
 
   // engine - computed: false, optional: false, required: true
-  private _engine?: string;
+  private _engine?: string; 
   public get engine() {
     return this.getStringAttribute('engine');
   }
@@ -459,7 +459,7 @@ export class ElasticacheUser extends cdktn.TerraformResource {
   }
 
   // no_password_required - computed: true, optional: true, required: false
-  private _noPasswordRequired?: boolean | cdktn.IResolvable;
+  private _noPasswordRequired?: boolean | cdktn.IResolvable; 
   public get noPasswordRequired() {
     return this.getBooleanAttribute('no_password_required');
   }
@@ -475,7 +475,7 @@ export class ElasticacheUser extends cdktn.TerraformResource {
   }
 
   // passwords - computed: true, optional: true, required: false
-  private _passwords?: string[];
+  private _passwords?: string[]; 
   public get passwords() {
     return this.getListAttribute('passwords');
   }
@@ -512,7 +512,7 @@ export class ElasticacheUser extends cdktn.TerraformResource {
   }
 
   // user_id - computed: false, optional: false, required: true
-  private _userId?: string;
+  private _userId?: string; 
   public get userId() {
     return this.getStringAttribute('user_id');
   }
@@ -525,7 +525,7 @@ export class ElasticacheUser extends cdktn.TerraformResource {
   }
 
   // user_name - computed: false, optional: false, required: true
-  private _userName?: string;
+  private _userName?: string; 
   public get userName() {
     return this.getStringAttribute('user_name');
   }

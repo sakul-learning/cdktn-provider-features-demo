@@ -378,7 +378,7 @@ export class DatazoneUserProfileTimeoutsOutputReference extends cdktn.ComplexObj
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -394,7 +394,7 @@ export class DatazoneUserProfileTimeoutsOutputReference extends cdktn.ComplexObj
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -479,7 +479,7 @@ export class DatazoneUserProfile extends cdktn.TerraformResource {
   }
 
   // domain_identifier - computed: false, optional: false, required: true
-  private _domainIdentifier?: string;
+  private _domainIdentifier?: string; 
   public get domainIdentifier() {
     return this.getStringAttribute('domain_identifier');
   }
@@ -497,7 +497,7 @@ export class DatazoneUserProfile extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -513,7 +513,7 @@ export class DatazoneUserProfile extends cdktn.TerraformResource {
   }
 
   // status - computed: true, optional: true, required: false
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -534,7 +534,7 @@ export class DatazoneUserProfile extends cdktn.TerraformResource {
   }
 
   // user_identifier - computed: false, optional: false, required: true
-  private _userIdentifier?: string;
+  private _userIdentifier?: string; 
   public get userIdentifier() {
     return this.getStringAttribute('user_identifier');
   }
@@ -547,7 +547,7 @@ export class DatazoneUserProfile extends cdktn.TerraformResource {
   }
 
   // user_type - computed: true, optional: true, required: false
-  private _userType?: string;
+  private _userType?: string; 
   public get userType() {
     return this.getStringAttribute('user_type');
   }

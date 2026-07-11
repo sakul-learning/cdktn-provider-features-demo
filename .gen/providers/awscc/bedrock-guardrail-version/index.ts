@@ -80,7 +80,7 @@ export class BedrockGuardrailVersion extends cdktn.TerraformResource {
   // ==========
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -106,7 +106,7 @@ export class BedrockGuardrailVersion extends cdktn.TerraformResource {
   }
 
   // guardrail_identifier - computed: false, optional: false, required: true
-  private _guardrailIdentifier?: string;
+  private _guardrailIdentifier?: string; 
   public get guardrailIdentifier() {
     return this.getStringAttribute('guardrail_identifier');
   }

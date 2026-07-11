@@ -185,7 +185,7 @@ export class IvsChannelMultitrackInputConfigurationOutputReference extends cdktn
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -201,7 +201,7 @@ export class IvsChannelMultitrackInputConfigurationOutputReference extends cdktn
   }
 
   // maximum_resolution - computed: true, optional: true, required: false
-  private _maximumResolution?: string;
+  private _maximumResolution?: string; 
   public get maximumResolution() {
     return this.getStringAttribute('maximum_resolution');
   }
@@ -217,7 +217,7 @@ export class IvsChannelMultitrackInputConfigurationOutputReference extends cdktn
   }
 
   // policy - computed: true, optional: true, required: false
-  private _policy?: string;
+  private _policy?: string; 
   public get policy() {
     return this.getStringAttribute('policy');
   }
@@ -334,7 +334,7 @@ export class IvsChannelTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -350,7 +350,7 @@ export class IvsChannelTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -458,7 +458,7 @@ export class IvsChannel extends cdktn.TerraformResource {
   }
 
   // authorized - computed: true, optional: true, required: false
-  private _authorized?: boolean | cdktn.IResolvable;
+  private _authorized?: boolean | cdktn.IResolvable; 
   public get authorized() {
     return this.getBooleanAttribute('authorized');
   }
@@ -474,7 +474,7 @@ export class IvsChannel extends cdktn.TerraformResource {
   }
 
   // container_format - computed: true, optional: true, required: false
-  private _containerFormat?: string;
+  private _containerFormat?: string; 
   public get containerFormat() {
     return this.getStringAttribute('container_format');
   }
@@ -500,7 +500,7 @@ export class IvsChannel extends cdktn.TerraformResource {
   }
 
   // insecure_ingest - computed: true, optional: true, required: false
-  private _insecureIngest?: boolean | cdktn.IResolvable;
+  private _insecureIngest?: boolean | cdktn.IResolvable; 
   public get insecureIngest() {
     return this.getBooleanAttribute('insecure_ingest');
   }
@@ -516,7 +516,7 @@ export class IvsChannel extends cdktn.TerraformResource {
   }
 
   // latency_mode - computed: true, optional: true, required: false
-  private _latencyMode?: string;
+  private _latencyMode?: string; 
   public get latencyMode() {
     return this.getStringAttribute('latency_mode');
   }
@@ -548,7 +548,7 @@ export class IvsChannel extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -569,7 +569,7 @@ export class IvsChannel extends cdktn.TerraformResource {
   }
 
   // preset - computed: true, optional: true, required: false
-  private _preset?: string;
+  private _preset?: string; 
   public get preset() {
     return this.getStringAttribute('preset');
   }
@@ -585,7 +585,7 @@ export class IvsChannel extends cdktn.TerraformResource {
   }
 
   // recording_configuration_arn - computed: true, optional: true, required: false
-  private _recordingConfigurationArn?: string;
+  private _recordingConfigurationArn?: string; 
   public get recordingConfigurationArn() {
     return this.getStringAttribute('recording_configuration_arn');
   }
@@ -617,7 +617,7 @@ export class IvsChannel extends cdktn.TerraformResource {
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }

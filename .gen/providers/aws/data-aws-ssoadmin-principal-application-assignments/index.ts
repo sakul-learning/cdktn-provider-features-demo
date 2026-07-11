@@ -196,7 +196,7 @@ export class DataAwsSsoadminPrincipalApplicationAssignments extends cdktn.Terraf
   }
 
   // instance_arn - computed: false, optional: false, required: true
-  private _instanceArn?: string;
+  private _instanceArn?: string; 
   public get instanceArn() {
     return this.getStringAttribute('instance_arn');
   }
@@ -209,7 +209,7 @@ export class DataAwsSsoadminPrincipalApplicationAssignments extends cdktn.Terraf
   }
 
   // principal_id - computed: false, optional: false, required: true
-  private _principalId?: string;
+  private _principalId?: string; 
   public get principalId() {
     return this.getStringAttribute('principal_id');
   }
@@ -222,7 +222,7 @@ export class DataAwsSsoadminPrincipalApplicationAssignments extends cdktn.Terraf
   }
 
   // principal_type - computed: false, optional: false, required: true
-  private _principalType?: string;
+  private _principalType?: string; 
   public get principalType() {
     return this.getStringAttribute('principal_type');
   }
@@ -235,7 +235,7 @@ export class DataAwsSsoadminPrincipalApplicationAssignments extends cdktn.Terraf
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

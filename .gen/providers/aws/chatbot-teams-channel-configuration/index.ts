@@ -187,7 +187,7 @@ export class ChatbotTeamsChannelConfigurationTimeoutsOutputReference extends cdk
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -203,7 +203,7 @@ export class ChatbotTeamsChannelConfigurationTimeoutsOutputReference extends cdk
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -219,7 +219,7 @@ export class ChatbotTeamsChannelConfigurationTimeoutsOutputReference extends cdk
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -306,7 +306,7 @@ export class ChatbotTeamsChannelConfiguration extends cdktn.TerraformResource {
   // ==========
 
   // channel_id - computed: false, optional: false, required: true
-  private _channelId?: string;
+  private _channelId?: string; 
   public get channelId() {
     return this.getStringAttribute('channel_id');
   }
@@ -319,7 +319,7 @@ export class ChatbotTeamsChannelConfiguration extends cdktn.TerraformResource {
   }
 
   // channel_name - computed: true, optional: true, required: false
-  private _channelName?: string;
+  private _channelName?: string; 
   public get channelName() {
     return this.getStringAttribute('channel_name');
   }
@@ -340,7 +340,7 @@ export class ChatbotTeamsChannelConfiguration extends cdktn.TerraformResource {
   }
 
   // configuration_name - computed: false, optional: false, required: true
-  private _configurationName?: string;
+  private _configurationName?: string; 
   public get configurationName() {
     return this.getStringAttribute('configuration_name');
   }
@@ -353,7 +353,7 @@ export class ChatbotTeamsChannelConfiguration extends cdktn.TerraformResource {
   }
 
   // guardrail_policy_arns - computed: true, optional: true, required: false
-  private _guardrailPolicyArns?: string[];
+  private _guardrailPolicyArns?: string[]; 
   public get guardrailPolicyArns() {
     return this.getListAttribute('guardrail_policy_arns');
   }
@@ -369,7 +369,7 @@ export class ChatbotTeamsChannelConfiguration extends cdktn.TerraformResource {
   }
 
   // iam_role_arn - computed: false, optional: false, required: true
-  private _iamRoleArn?: string;
+  private _iamRoleArn?: string; 
   public get iamRoleArn() {
     return this.getStringAttribute('iam_role_arn');
   }
@@ -382,7 +382,7 @@ export class ChatbotTeamsChannelConfiguration extends cdktn.TerraformResource {
   }
 
   // logging_level - computed: true, optional: true, required: false
-  private _loggingLevel?: string;
+  private _loggingLevel?: string; 
   public get loggingLevel() {
     return this.getStringAttribute('logging_level');
   }
@@ -398,7 +398,7 @@ export class ChatbotTeamsChannelConfiguration extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -414,7 +414,7 @@ export class ChatbotTeamsChannelConfiguration extends cdktn.TerraformResource {
   }
 
   // sns_topic_arns - computed: true, optional: true, required: false
-  private _snsTopicArns?: string[];
+  private _snsTopicArns?: string[]; 
   public get snsTopicArns() {
     return cdktn.Fn.tolist(this.getListAttribute('sns_topic_arns'));
   }
@@ -430,7 +430,7 @@ export class ChatbotTeamsChannelConfiguration extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -452,7 +452,7 @@ export class ChatbotTeamsChannelConfiguration extends cdktn.TerraformResource {
   }
 
   // team_id - computed: false, optional: false, required: true
-  private _teamId?: string;
+  private _teamId?: string; 
   public get teamId() {
     return this.getStringAttribute('team_id');
   }
@@ -465,7 +465,7 @@ export class ChatbotTeamsChannelConfiguration extends cdktn.TerraformResource {
   }
 
   // team_name - computed: true, optional: true, required: false
-  private _teamName?: string;
+  private _teamName?: string; 
   public get teamName() {
     return this.getStringAttribute('team_name');
   }
@@ -481,7 +481,7 @@ export class ChatbotTeamsChannelConfiguration extends cdktn.TerraformResource {
   }
 
   // tenant_id - computed: false, optional: false, required: true
-  private _tenantId?: string;
+  private _tenantId?: string; 
   public get tenantId() {
     return this.getStringAttribute('tenant_id');
   }
@@ -494,7 +494,7 @@ export class ChatbotTeamsChannelConfiguration extends cdktn.TerraformResource {
   }
 
   // user_authorization_required - computed: true, optional: true, required: false
-  private _userAuthorizationRequired?: boolean | cdktn.IResolvable;
+  private _userAuthorizationRequired?: boolean | cdktn.IResolvable; 
   public get userAuthorizationRequired() {
     return this.getBooleanAttribute('user_authorization_required');
   }

@@ -106,7 +106,7 @@ export class Sesv2DedicatedIpPool extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -122,7 +122,7 @@ export class Sesv2DedicatedIpPool extends cdktn.TerraformResource {
   }
 
   // pool_name - computed: false, optional: false, required: true
-  private _poolName?: string;
+  private _poolName?: string; 
   public get poolName() {
     return this.getStringAttribute('pool_name');
   }
@@ -135,7 +135,7 @@ export class Sesv2DedicatedIpPool extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -151,7 +151,7 @@ export class Sesv2DedicatedIpPool extends cdktn.TerraformResource {
   }
 
   // scaling_mode - computed: true, optional: true, required: false
-  private _scalingMode?: string;
+  private _scalingMode?: string; 
   public get scalingMode() {
     return this.getStringAttribute('scaling_mode');
   }
@@ -167,7 +167,7 @@ export class Sesv2DedicatedIpPool extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -183,7 +183,7 @@ export class Sesv2DedicatedIpPool extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

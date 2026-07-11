@@ -139,7 +139,7 @@ export class Ec2ClientVpnRouteTimeoutsOutputReference extends cdktn.ComplexObjec
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -155,7 +155,7 @@ export class Ec2ClientVpnRouteTimeoutsOutputReference extends cdktn.ComplexObjec
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -235,7 +235,7 @@ export class Ec2ClientVpnRoute extends cdktn.TerraformResource {
   // ==========
 
   // client_vpn_endpoint_id - computed: false, optional: false, required: true
-  private _clientVpnEndpointId?: string;
+  private _clientVpnEndpointId?: string; 
   public get clientVpnEndpointId() {
     return this.getStringAttribute('client_vpn_endpoint_id');
   }
@@ -248,7 +248,7 @@ export class Ec2ClientVpnRoute extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -264,7 +264,7 @@ export class Ec2ClientVpnRoute extends cdktn.TerraformResource {
   }
 
   // destination_cidr_block - computed: false, optional: false, required: true
-  private _destinationCidrBlock?: string;
+  private _destinationCidrBlock?: string; 
   public get destinationCidrBlock() {
     return this.getStringAttribute('destination_cidr_block');
   }
@@ -277,7 +277,7 @@ export class Ec2ClientVpnRoute extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -298,7 +298,7 @@ export class Ec2ClientVpnRoute extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -314,7 +314,7 @@ export class Ec2ClientVpnRoute extends cdktn.TerraformResource {
   }
 
   // target_vpc_subnet_id - computed: false, optional: false, required: true
-  private _targetVpcSubnetId?: string;
+  private _targetVpcSubnetId?: string; 
   public get targetVpcSubnetId() {
     return this.getStringAttribute('target_vpc_subnet_id');
   }

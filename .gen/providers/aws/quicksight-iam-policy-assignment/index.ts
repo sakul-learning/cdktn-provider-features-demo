@@ -138,7 +138,7 @@ export class QuicksightIamPolicyAssignmentIdentitiesOutputReference extends cdkt
   }
 
   // group - computed: false, optional: true, required: false
-  private _group?: string[];
+  private _group?: string[]; 
   public get group() {
     return cdktn.Fn.tolist(this.getListAttribute('group'));
   }
@@ -154,7 +154,7 @@ export class QuicksightIamPolicyAssignmentIdentitiesOutputReference extends cdkt
   }
 
   // user - computed: false, optional: true, required: false
-  private _user?: string[];
+  private _user?: string[]; 
   public get user() {
     return cdktn.Fn.tolist(this.getListAttribute('user'));
   }
@@ -259,7 +259,7 @@ export class QuicksightIamPolicyAssignment extends cdktn.TerraformResource {
   }
 
   // assignment_name - computed: false, optional: false, required: true
-  private _assignmentName?: string;
+  private _assignmentName?: string; 
   public get assignmentName() {
     return this.getStringAttribute('assignment_name');
   }
@@ -272,7 +272,7 @@ export class QuicksightIamPolicyAssignment extends cdktn.TerraformResource {
   }
 
   // assignment_status - computed: false, optional: false, required: true
-  private _assignmentStatus?: string;
+  private _assignmentStatus?: string; 
   public get assignmentStatus() {
     return this.getStringAttribute('assignment_status');
   }
@@ -285,7 +285,7 @@ export class QuicksightIamPolicyAssignment extends cdktn.TerraformResource {
   }
 
   // aws_account_id - computed: true, optional: true, required: false
-  private _awsAccountId?: string;
+  private _awsAccountId?: string; 
   public get awsAccountId() {
     return this.getStringAttribute('aws_account_id');
   }
@@ -306,7 +306,7 @@ export class QuicksightIamPolicyAssignment extends cdktn.TerraformResource {
   }
 
   // namespace - computed: true, optional: true, required: false
-  private _namespace?: string;
+  private _namespace?: string; 
   public get namespace() {
     return this.getStringAttribute('namespace');
   }
@@ -322,7 +322,7 @@ export class QuicksightIamPolicyAssignment extends cdktn.TerraformResource {
   }
 
   // policy_arn - computed: false, optional: true, required: false
-  private _policyArn?: string;
+  private _policyArn?: string; 
   public get policyArn() {
     return this.getStringAttribute('policy_arn');
   }
@@ -338,7 +338,7 @@ export class QuicksightIamPolicyAssignment extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

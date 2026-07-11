@@ -145,7 +145,7 @@ export class CustomerprofilesCalculatedAttributeDefinitionAttributeDetailsAttrib
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -290,7 +290,7 @@ export class CustomerprofilesCalculatedAttributeDefinitionAttributeDetailsOutput
   }
 
   // expression - computed: false, optional: false, required: true
-  private _expression?: string;
+  private _expression?: string; 
   public get expression() {
     return this.getStringAttribute('expression');
   }
@@ -402,7 +402,7 @@ export class CustomerprofilesCalculatedAttributeDefinitionConditionsRangeValueRa
   }
 
   // end - computed: true, optional: true, required: false
-  private _end?: number;
+  private _end?: number; 
   public get end() {
     return this.getNumberAttribute('end');
   }
@@ -418,7 +418,7 @@ export class CustomerprofilesCalculatedAttributeDefinitionConditionsRangeValueRa
   }
 
   // start - computed: true, optional: true, required: false
-  private _start?: number;
+  private _start?: number; 
   public get start() {
     return this.getNumberAttribute('start');
   }
@@ -590,7 +590,7 @@ export class CustomerprofilesCalculatedAttributeDefinitionConditionsRangeOutputR
   }
 
   // timestamp_format - computed: true, optional: true, required: false
-  private _timestampFormat?: string;
+  private _timestampFormat?: string; 
   public get timestampFormat() {
     return this.getStringAttribute('timestamp_format');
   }
@@ -606,7 +606,7 @@ export class CustomerprofilesCalculatedAttributeDefinitionConditionsRangeOutputR
   }
 
   // timestamp_source - computed: true, optional: true, required: false
-  private _timestampSource?: string;
+  private _timestampSource?: string; 
   public get timestampSource() {
     return this.getStringAttribute('timestamp_source');
   }
@@ -622,7 +622,7 @@ export class CustomerprofilesCalculatedAttributeDefinitionConditionsRangeOutputR
   }
 
   // unit - computed: true, optional: true, required: false
-  private _unit?: string;
+  private _unit?: string; 
   public get unit() {
     return this.getStringAttribute('unit');
   }
@@ -638,7 +638,7 @@ export class CustomerprofilesCalculatedAttributeDefinitionConditionsRangeOutputR
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: number;
+  private _value?: number; 
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -769,7 +769,7 @@ export class CustomerprofilesCalculatedAttributeDefinitionConditionsThresholdOut
   }
 
   // operator - computed: true, optional: true, required: false
-  private _operator?: string;
+  private _operator?: string; 
   public get operator() {
     return this.getStringAttribute('operator');
   }
@@ -785,7 +785,7 @@ export class CustomerprofilesCalculatedAttributeDefinitionConditionsThresholdOut
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -919,7 +919,7 @@ export class CustomerprofilesCalculatedAttributeDefinitionConditionsOutputRefere
   }
 
   // object_count - computed: true, optional: true, required: false
-  private _objectCount?: number;
+  private _objectCount?: number; 
   public get objectCount() {
     return this.getNumberAttribute('object_count');
   }
@@ -1127,7 +1127,7 @@ export class CustomerprofilesCalculatedAttributeDefinitionTagsOutputReference ex
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1143,7 +1143,7 @@ export class CustomerprofilesCalculatedAttributeDefinitionTagsOutputReference ex
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1258,7 +1258,7 @@ export class CustomerprofilesCalculatedAttributeDefinition extends cdktn.Terrafo
   }
 
   // calculated_attribute_name - computed: false, optional: false, required: true
-  private _calculatedAttributeName?: string;
+  private _calculatedAttributeName?: string; 
   public get calculatedAttributeName() {
     return this.getStringAttribute('calculated_attribute_name');
   }
@@ -1292,7 +1292,7 @@ export class CustomerprofilesCalculatedAttributeDefinition extends cdktn.Terrafo
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1308,7 +1308,7 @@ export class CustomerprofilesCalculatedAttributeDefinition extends cdktn.Terrafo
   }
 
   // display_name - computed: true, optional: true, required: false
-  private _displayName?: string;
+  private _displayName?: string; 
   public get displayName() {
     return this.getStringAttribute('display_name');
   }
@@ -1324,7 +1324,7 @@ export class CustomerprofilesCalculatedAttributeDefinition extends cdktn.Terrafo
   }
 
   // domain_name - computed: false, optional: false, required: true
-  private _domainName?: string;
+  private _domainName?: string; 
   public get domainName() {
     return this.getStringAttribute('domain_name');
   }
@@ -1353,7 +1353,7 @@ export class CustomerprofilesCalculatedAttributeDefinition extends cdktn.Terrafo
   }
 
   // statistic - computed: false, optional: false, required: true
-  private _statistic?: string;
+  private _statistic?: string; 
   public get statistic() {
     return this.getStringAttribute('statistic');
   }
@@ -1387,7 +1387,7 @@ export class CustomerprofilesCalculatedAttributeDefinition extends cdktn.Terrafo
   }
 
   // use_historical_data - computed: true, optional: true, required: false
-  private _useHistoricalData?: boolean | cdktn.IResolvable;
+  private _useHistoricalData?: boolean | cdktn.IResolvable; 
   public get useHistoricalData() {
     return this.getBooleanAttribute('use_historical_data');
   }

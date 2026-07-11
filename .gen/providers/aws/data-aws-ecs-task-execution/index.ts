@@ -218,7 +218,7 @@ export class DataAwsEcsTaskExecutionCapacityProviderStrategyOutputReference exte
   }
 
   // base - computed: false, optional: true, required: false
-  private _base?: number;
+  private _base?: number; 
   public get base() {
     return this.getNumberAttribute('base');
   }
@@ -234,7 +234,7 @@ export class DataAwsEcsTaskExecutionCapacityProviderStrategyOutputReference exte
   }
 
   // capacity_provider - computed: false, optional: false, required: true
-  private _capacityProvider?: string;
+  private _capacityProvider?: string; 
   public get capacityProvider() {
     return this.getStringAttribute('capacity_provider');
   }
@@ -247,7 +247,7 @@ export class DataAwsEcsTaskExecutionCapacityProviderStrategyOutputReference exte
   }
 
   // weight - computed: false, optional: true, required: false
-  private _weight?: number;
+  private _weight?: number; 
   public get weight() {
     return this.getNumberAttribute('weight');
   }
@@ -385,7 +385,7 @@ export class DataAwsEcsTaskExecutionNetworkConfigurationOutputReference extends 
   }
 
   // assign_public_ip - computed: false, optional: true, required: false
-  private _assignPublicIp?: boolean | cdktn.IResolvable;
+  private _assignPublicIp?: boolean | cdktn.IResolvable; 
   public get assignPublicIp() {
     return this.getBooleanAttribute('assign_public_ip');
   }
@@ -401,7 +401,7 @@ export class DataAwsEcsTaskExecutionNetworkConfigurationOutputReference extends 
   }
 
   // security_groups - computed: false, optional: true, required: false
-  private _securityGroups?: string[];
+  private _securityGroups?: string[]; 
   public get securityGroups() {
     return cdktn.Fn.tolist(this.getListAttribute('security_groups'));
   }
@@ -417,7 +417,7 @@ export class DataAwsEcsTaskExecutionNetworkConfigurationOutputReference extends 
   }
 
   // subnets - computed: false, optional: false, required: true
-  private _subnets?: string[];
+  private _subnets?: string[]; 
   public get subnets() {
     return cdktn.Fn.tolist(this.getListAttribute('subnets'));
   }
@@ -527,7 +527,7 @@ export class DataAwsEcsTaskExecutionOverridesContainerOverridesEnvironmentOutput
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -540,7 +540,7 @@ export class DataAwsEcsTaskExecutionOverridesContainerOverridesEnvironmentOutput
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -670,7 +670,7 @@ export class DataAwsEcsTaskExecutionOverridesContainerOverridesResourceRequireme
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -683,7 +683,7 @@ export class DataAwsEcsTaskExecutionOverridesContainerOverridesResourceRequireme
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -902,7 +902,7 @@ export class DataAwsEcsTaskExecutionOverridesContainerOverridesOutputReference e
   }
 
   // command - computed: false, optional: true, required: false
-  private _command?: string[];
+  private _command?: string[]; 
   public get command() {
     return this.getListAttribute('command');
   }
@@ -918,7 +918,7 @@ export class DataAwsEcsTaskExecutionOverridesContainerOverridesOutputReference e
   }
 
   // cpu - computed: false, optional: true, required: false
-  private _cpu?: number;
+  private _cpu?: number; 
   public get cpu() {
     return this.getNumberAttribute('cpu');
   }
@@ -934,7 +934,7 @@ export class DataAwsEcsTaskExecutionOverridesContainerOverridesOutputReference e
   }
 
   // memory - computed: false, optional: true, required: false
-  private _memory?: number;
+  private _memory?: number; 
   public get memory() {
     return this.getNumberAttribute('memory');
   }
@@ -950,7 +950,7 @@ export class DataAwsEcsTaskExecutionOverridesContainerOverridesOutputReference e
   }
 
   // memory_reservation - computed: false, optional: true, required: false
-  private _memoryReservation?: number;
+  private _memoryReservation?: number; 
   public get memoryReservation() {
     return this.getNumberAttribute('memory_reservation');
   }
@@ -966,7 +966,7 @@ export class DataAwsEcsTaskExecutionOverridesContainerOverridesOutputReference e
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1169,7 +1169,7 @@ export class DataAwsEcsTaskExecutionOverridesOutputReference extends cdktn.Compl
   }
 
   // cpu - computed: false, optional: true, required: false
-  private _cpu?: string;
+  private _cpu?: string; 
   public get cpu() {
     return this.getStringAttribute('cpu');
   }
@@ -1185,7 +1185,7 @@ export class DataAwsEcsTaskExecutionOverridesOutputReference extends cdktn.Compl
   }
 
   // execution_role_arn - computed: false, optional: true, required: false
-  private _executionRoleArn?: string;
+  private _executionRoleArn?: string; 
   public get executionRoleArn() {
     return this.getStringAttribute('execution_role_arn');
   }
@@ -1201,7 +1201,7 @@ export class DataAwsEcsTaskExecutionOverridesOutputReference extends cdktn.Compl
   }
 
   // memory - computed: false, optional: true, required: false
-  private _memory?: string;
+  private _memory?: string; 
   public get memory() {
     return this.getStringAttribute('memory');
   }
@@ -1217,7 +1217,7 @@ export class DataAwsEcsTaskExecutionOverridesOutputReference extends cdktn.Compl
   }
 
   // task_role_arn - computed: false, optional: true, required: false
-  private _taskRoleArn?: string;
+  private _taskRoleArn?: string; 
   public get taskRoleArn() {
     return this.getStringAttribute('task_role_arn');
   }
@@ -1346,7 +1346,7 @@ export class DataAwsEcsTaskExecutionPlacementConstraintsOutputReference extends 
   }
 
   // expression - computed: false, optional: true, required: false
-  private _expression?: string;
+  private _expression?: string; 
   public get expression() {
     return this.getStringAttribute('expression');
   }
@@ -1362,7 +1362,7 @@ export class DataAwsEcsTaskExecutionPlacementConstraintsOutputReference extends 
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -1492,7 +1492,7 @@ export class DataAwsEcsTaskExecutionPlacementStrategyOutputReference extends cdk
   }
 
   // field - computed: false, optional: true, required: false
-  private _field?: string;
+  private _field?: string; 
   public get field() {
     return this.getStringAttribute('field');
   }
@@ -1508,7 +1508,7 @@ export class DataAwsEcsTaskExecutionPlacementStrategyOutputReference extends cdk
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -1618,7 +1618,7 @@ export class DataAwsEcsTaskExecution extends cdktn.TerraformDataSource {
   // ==========
 
   // client_token - computed: false, optional: true, required: false
-  private _clientToken?: string;
+  private _clientToken?: string; 
   public get clientToken() {
     return this.getStringAttribute('client_token');
   }
@@ -1634,7 +1634,7 @@ export class DataAwsEcsTaskExecution extends cdktn.TerraformDataSource {
   }
 
   // cluster - computed: false, optional: false, required: true
-  private _cluster?: string;
+  private _cluster?: string; 
   public get cluster() {
     return this.getStringAttribute('cluster');
   }
@@ -1647,7 +1647,7 @@ export class DataAwsEcsTaskExecution extends cdktn.TerraformDataSource {
   }
 
   // desired_count - computed: false, optional: true, required: false
-  private _desiredCount?: number;
+  private _desiredCount?: number; 
   public get desiredCount() {
     return this.getNumberAttribute('desired_count');
   }
@@ -1663,7 +1663,7 @@ export class DataAwsEcsTaskExecution extends cdktn.TerraformDataSource {
   }
 
   // enable_ecs_managed_tags - computed: false, optional: true, required: false
-  private _enableEcsManagedTags?: boolean | cdktn.IResolvable;
+  private _enableEcsManagedTags?: boolean | cdktn.IResolvable; 
   public get enableEcsManagedTags() {
     return this.getBooleanAttribute('enable_ecs_managed_tags');
   }
@@ -1679,7 +1679,7 @@ export class DataAwsEcsTaskExecution extends cdktn.TerraformDataSource {
   }
 
   // enable_execute_command - computed: false, optional: true, required: false
-  private _enableExecuteCommand?: boolean | cdktn.IResolvable;
+  private _enableExecuteCommand?: boolean | cdktn.IResolvable; 
   public get enableExecuteCommand() {
     return this.getBooleanAttribute('enable_execute_command');
   }
@@ -1695,7 +1695,7 @@ export class DataAwsEcsTaskExecution extends cdktn.TerraformDataSource {
   }
 
   // group - computed: false, optional: true, required: false
-  private _group?: string;
+  private _group?: string; 
   public get group() {
     return this.getStringAttribute('group');
   }
@@ -1711,7 +1711,7 @@ export class DataAwsEcsTaskExecution extends cdktn.TerraformDataSource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -1727,7 +1727,7 @@ export class DataAwsEcsTaskExecution extends cdktn.TerraformDataSource {
   }
 
   // launch_type - computed: false, optional: true, required: false
-  private _launchType?: string;
+  private _launchType?: string; 
   public get launchType() {
     return this.getStringAttribute('launch_type');
   }
@@ -1743,7 +1743,7 @@ export class DataAwsEcsTaskExecution extends cdktn.TerraformDataSource {
   }
 
   // platform_version - computed: false, optional: true, required: false
-  private _platformVersion?: string;
+  private _platformVersion?: string; 
   public get platformVersion() {
     return this.getStringAttribute('platform_version');
   }
@@ -1759,7 +1759,7 @@ export class DataAwsEcsTaskExecution extends cdktn.TerraformDataSource {
   }
 
   // propagate_tags - computed: false, optional: true, required: false
-  private _propagateTags?: string;
+  private _propagateTags?: string; 
   public get propagateTags() {
     return this.getStringAttribute('propagate_tags');
   }
@@ -1775,7 +1775,7 @@ export class DataAwsEcsTaskExecution extends cdktn.TerraformDataSource {
   }
 
   // reference_id - computed: false, optional: true, required: false
-  private _referenceId?: string;
+  private _referenceId?: string; 
   public get referenceId() {
     return this.getStringAttribute('reference_id');
   }
@@ -1791,7 +1791,7 @@ export class DataAwsEcsTaskExecution extends cdktn.TerraformDataSource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1807,7 +1807,7 @@ export class DataAwsEcsTaskExecution extends cdktn.TerraformDataSource {
   }
 
   // started_by - computed: false, optional: true, required: false
-  private _startedBy?: string;
+  private _startedBy?: string; 
   public get startedBy() {
     return this.getStringAttribute('started_by');
   }
@@ -1823,7 +1823,7 @@ export class DataAwsEcsTaskExecution extends cdktn.TerraformDataSource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -1844,7 +1844,7 @@ export class DataAwsEcsTaskExecution extends cdktn.TerraformDataSource {
   }
 
   // task_definition - computed: false, optional: false, required: true
-  private _taskDefinition?: string;
+  private _taskDefinition?: string; 
   public get taskDefinition() {
     return this.getStringAttribute('task_definition');
   }

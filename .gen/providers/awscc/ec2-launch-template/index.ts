@@ -52,7 +52,7 @@ export interface Ec2LaunchTemplateLaunchTemplateDataBlockDeviceMappingsEbs {
   *   +   ``gp3``: 3,000 - 16,000 IOPS
   *   +   ``io1``: 100 - 64,000 IOPS
   *   +   ``io2``: 100 - 256,000 IOPS
-  *
+  *   
   *  For ``io2`` volumes, you can achieve up to 256,000 IOPS on [instances built on the Nitro System](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instance-types.html#ec2-nitro-instances). On other instances, you can achieve performance up to 32,000 IOPS.
   *  This parameter is supported for ``io1``, ``io2``, and ``gp3`` volumes only.
   *
@@ -260,7 +260,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataBlockDeviceMappingsEbsOutputRefe
   }
 
   // delete_on_termination - computed: true, optional: true, required: false
-  private _deleteOnTermination?: boolean | cdktn.IResolvable;
+  private _deleteOnTermination?: boolean | cdktn.IResolvable; 
   public get deleteOnTermination() {
     return this.getBooleanAttribute('delete_on_termination');
   }
@@ -276,7 +276,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataBlockDeviceMappingsEbsOutputRefe
   }
 
   // encrypted - computed: true, optional: true, required: false
-  private _encrypted?: boolean | cdktn.IResolvable;
+  private _encrypted?: boolean | cdktn.IResolvable; 
   public get encrypted() {
     return this.getBooleanAttribute('encrypted');
   }
@@ -292,7 +292,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataBlockDeviceMappingsEbsOutputRefe
   }
 
   // iops - computed: true, optional: true, required: false
-  private _iops?: number;
+  private _iops?: number; 
   public get iops() {
     return this.getNumberAttribute('iops');
   }
@@ -308,7 +308,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataBlockDeviceMappingsEbsOutputRefe
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -324,7 +324,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataBlockDeviceMappingsEbsOutputRefe
   }
 
   // snapshot_id - computed: true, optional: true, required: false
-  private _snapshotId?: string;
+  private _snapshotId?: string; 
   public get snapshotId() {
     return this.getStringAttribute('snapshot_id');
   }
@@ -340,7 +340,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataBlockDeviceMappingsEbsOutputRefe
   }
 
   // throughput - computed: true, optional: true, required: false
-  private _throughput?: number;
+  private _throughput?: number; 
   public get throughput() {
     return this.getNumberAttribute('throughput');
   }
@@ -356,7 +356,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataBlockDeviceMappingsEbsOutputRefe
   }
 
   // volume_size - computed: true, optional: true, required: false
-  private _volumeSize?: number;
+  private _volumeSize?: number; 
   public get volumeSize() {
     return this.getNumberAttribute('volume_size');
   }
@@ -372,7 +372,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataBlockDeviceMappingsEbsOutputRefe
   }
 
   // volume_type - computed: true, optional: true, required: false
-  private _volumeType?: string;
+  private _volumeType?: string; 
   public get volumeType() {
     return this.getStringAttribute('volume_type');
   }
@@ -527,7 +527,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataBlockDeviceMappingsOutputReferen
   }
 
   // device_name - computed: true, optional: true, required: false
-  private _deviceName?: string;
+  private _deviceName?: string; 
   public get deviceName() {
     return this.getStringAttribute('device_name');
   }
@@ -559,7 +559,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataBlockDeviceMappingsOutputReferen
   }
 
   // no_device - computed: true, optional: true, required: false
-  private _noDevice?: string;
+  private _noDevice?: string; 
   public get noDevice() {
     return this.getStringAttribute('no_device');
   }
@@ -575,7 +575,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataBlockDeviceMappingsOutputReferen
   }
 
   // virtual_name - computed: true, optional: true, required: false
-  private _virtualName?: string;
+  private _virtualName?: string; 
   public get virtualName() {
     return this.getStringAttribute('virtual_name');
   }
@@ -710,7 +710,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataCapacityReservationSpecification
   }
 
   // capacity_reservation_id - computed: true, optional: true, required: false
-  private _capacityReservationId?: string;
+  private _capacityReservationId?: string; 
   public get capacityReservationId() {
     return this.getStringAttribute('capacity_reservation_id');
   }
@@ -726,7 +726,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataCapacityReservationSpecification
   }
 
   // capacity_reservation_resource_group_arn - computed: true, optional: true, required: false
-  private _capacityReservationResourceGroupArn?: string;
+  private _capacityReservationResourceGroupArn?: string; 
   public get capacityReservationResourceGroupArn() {
     return this.getStringAttribute('capacity_reservation_resource_group_arn');
   }
@@ -843,7 +843,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataCapacityReservationSpecification
   }
 
   // capacity_reservation_preference - computed: true, optional: true, required: false
-  private _capacityReservationPreference?: string;
+  private _capacityReservationPreference?: string; 
   public get capacityReservationPreference() {
     return this.getStringAttribute('capacity_reservation_preference');
   }
@@ -993,7 +993,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataCpuOptionsOutputReference extend
   }
 
   // amd_sev_snp - computed: true, optional: true, required: false
-  private _amdSevSnp?: string;
+  private _amdSevSnp?: string; 
   public get amdSevSnp() {
     return this.getStringAttribute('amd_sev_snp');
   }
@@ -1009,7 +1009,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataCpuOptionsOutputReference extend
   }
 
   // core_count - computed: true, optional: true, required: false
-  private _coreCount?: number;
+  private _coreCount?: number; 
   public get coreCount() {
     return this.getNumberAttribute('core_count');
   }
@@ -1025,7 +1025,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataCpuOptionsOutputReference extend
   }
 
   // threads_per_core - computed: true, optional: true, required: false
-  private _threadsPerCore?: number;
+  private _threadsPerCore?: number; 
   public get threadsPerCore() {
     return this.getNumberAttribute('threads_per_core');
   }
@@ -1122,7 +1122,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataCreditSpecificationOutputReferen
   }
 
   // cpu_credits - computed: true, optional: true, required: false
-  private _cpuCredits?: string;
+  private _cpuCredits?: string; 
   public get cpuCredits() {
     return this.getStringAttribute('cpu_credits');
   }
@@ -1220,7 +1220,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataElasticGpuSpecificationsOutputRe
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -1257,7 +1257,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataElasticGpuSpecificationsList ext
 }
 export interface Ec2LaunchTemplateLaunchTemplateDataElasticInferenceAccelerators {
   /**
-  * The number of elastic inference accelerators to attach to the instance.
+  * The number of elastic inference accelerators to attach to the instance. 
   *  Default: 1
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_launch_template#count Ec2LaunchTemplate#count}
@@ -1358,7 +1358,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataElasticInferenceAcceleratorsOutp
   }
 
   // count - computed: true, optional: true, required: false
-  private _count?: number;
+  private _count?: number; 
   public get count() {
     return this.getNumberAttribute('count');
   }
@@ -1374,7 +1374,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataElasticInferenceAcceleratorsOutp
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -1490,7 +1490,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataEnclaveOptionsOutputReference ex
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -1587,7 +1587,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataHibernationOptionsOutputReferenc
   }
 
   // configured - computed: true, optional: true, required: false
-  private _configured?: boolean | cdktn.IResolvable;
+  private _configured?: boolean | cdktn.IResolvable; 
   public get configured() {
     return this.getBooleanAttribute('configured');
   }
@@ -1702,7 +1702,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataIamInstanceProfileOutputReferenc
   }
 
   // arn - computed: true, optional: true, required: false
-  private _arn?: string;
+  private _arn?: string; 
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -1718,7 +1718,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataIamInstanceProfileOutputReferenc
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1764,7 +1764,7 @@ export interface Ec2LaunchTemplateLaunchTemplateDataInstanceMarketOptionsSpotOpt
   * The end date of the request, in UTC format (*YYYY-MM-DD*T*HH:MM:SS*Z). Supported only for persistent requests.
   *   +  For a persistent request, the request remains active until the ``ValidUntil`` date and time is reached. Otherwise, the request remains active until you cancel it.
   *   +  For a one-time request, ``ValidUntil`` is not supported. The request remains active until all instances launch or you cancel the request.
-  *
+  *   
   *  Default: 7 days from the current date
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_launch_template#valid_until Ec2LaunchTemplate#valid_until}
@@ -1896,7 +1896,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataInstanceMarketOptionsSpotOptions
   }
 
   // block_duration_minutes - computed: true, optional: true, required: false
-  private _blockDurationMinutes?: number;
+  private _blockDurationMinutes?: number; 
   public get blockDurationMinutes() {
     return this.getNumberAttribute('block_duration_minutes');
   }
@@ -1912,7 +1912,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataInstanceMarketOptionsSpotOptions
   }
 
   // instance_interruption_behavior - computed: true, optional: true, required: false
-  private _instanceInterruptionBehavior?: string;
+  private _instanceInterruptionBehavior?: string; 
   public get instanceInterruptionBehavior() {
     return this.getStringAttribute('instance_interruption_behavior');
   }
@@ -1928,7 +1928,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataInstanceMarketOptionsSpotOptions
   }
 
   // max_price - computed: true, optional: true, required: false
-  private _maxPrice?: string;
+  private _maxPrice?: string; 
   public get maxPrice() {
     return this.getStringAttribute('max_price');
   }
@@ -1944,7 +1944,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataInstanceMarketOptionsSpotOptions
   }
 
   // spot_instance_type - computed: true, optional: true, required: false
-  private _spotInstanceType?: string;
+  private _spotInstanceType?: string; 
   public get spotInstanceType() {
     return this.getStringAttribute('spot_instance_type');
   }
@@ -1960,7 +1960,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataInstanceMarketOptionsSpotOptions
   }
 
   // valid_until - computed: true, optional: true, required: false
-  private _validUntil?: string;
+  private _validUntil?: string; 
   public get validUntil() {
     return this.getStringAttribute('valid_until');
   }
@@ -2075,7 +2075,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataInstanceMarketOptionsOutputRefer
   }
 
   // market_type - computed: true, optional: true, required: false
-  private _marketType?: string;
+  private _marketType?: string; 
   public get marketType() {
     return this.getStringAttribute('market_type');
   }
@@ -2206,7 +2206,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataInstanceRequirementsAcceleratorC
   }
 
   // max - computed: true, optional: true, required: false
-  private _max?: number;
+  private _max?: number; 
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -2222,7 +2222,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataInstanceRequirementsAcceleratorC
   }
 
   // min - computed: true, optional: true, required: false
-  private _min?: number;
+  private _min?: number; 
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -2337,7 +2337,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataInstanceRequirementsAcceleratorT
   }
 
   // max - computed: true, optional: true, required: false
-  private _max?: number;
+  private _max?: number; 
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -2353,7 +2353,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataInstanceRequirementsAcceleratorT
   }
 
   // min - computed: true, optional: true, required: false
-  private _min?: number;
+  private _min?: number; 
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -2468,7 +2468,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataInstanceRequirementsBaselineEbsB
   }
 
   // max - computed: true, optional: true, required: false
-  private _max?: number;
+  private _max?: number; 
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -2484,7 +2484,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataInstanceRequirementsBaselineEbsB
   }
 
   // min - computed: true, optional: true, required: false
-  private _min?: number;
+  private _min?: number; 
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -2582,7 +2582,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataInstanceRequirementsBaselinePerf
   }
 
   // instance_family - computed: true, optional: true, required: false
-  private _instanceFamily?: string;
+  private _instanceFamily?: string; 
   public get instanceFamily() {
     return this.getStringAttribute('instance_family');
   }
@@ -2907,7 +2907,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataInstanceRequirementsMemoryGiBPer
   }
 
   // max - computed: true, optional: true, required: false
-  private _max?: number;
+  private _max?: number; 
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -2923,7 +2923,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataInstanceRequirementsMemoryGiBPer
   }
 
   // min - computed: true, optional: true, required: false
-  private _min?: number;
+  private _min?: number; 
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -3038,7 +3038,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataInstanceRequirementsMemoryMiBOut
   }
 
   // max - computed: true, optional: true, required: false
-  private _max?: number;
+  private _max?: number; 
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -3054,7 +3054,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataInstanceRequirementsMemoryMiBOut
   }
 
   // min - computed: true, optional: true, required: false
-  private _min?: number;
+  private _min?: number; 
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -3169,7 +3169,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataInstanceRequirementsNetworkBandw
   }
 
   // max - computed: true, optional: true, required: false
-  private _max?: number;
+  private _max?: number; 
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -3185,7 +3185,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataInstanceRequirementsNetworkBandw
   }
 
   // min - computed: true, optional: true, required: false
-  private _min?: number;
+  private _min?: number; 
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -3300,7 +3300,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataInstanceRequirementsNetworkInter
   }
 
   // max - computed: true, optional: true, required: false
-  private _max?: number;
+  private _max?: number; 
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -3316,7 +3316,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataInstanceRequirementsNetworkInter
   }
 
   // min - computed: true, optional: true, required: false
-  private _min?: number;
+  private _min?: number; 
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -3431,7 +3431,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataInstanceRequirementsTotalLocalSt
   }
 
   // max - computed: true, optional: true, required: false
-  private _max?: number;
+  private _max?: number; 
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -3447,7 +3447,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataInstanceRequirementsTotalLocalSt
   }
 
   // min - computed: true, optional: true, required: false
-  private _min?: number;
+  private _min?: number; 
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -3562,7 +3562,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataInstanceRequirementsVCpuCountOut
   }
 
   // max - computed: true, optional: true, required: false
-  private _max?: number;
+  private _max?: number; 
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -3578,7 +3578,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataInstanceRequirementsVCpuCountOut
   }
 
   // min - computed: true, optional: true, required: false
-  private _min?: number;
+  private _min?: number; 
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -3609,7 +3609,7 @@ export interface Ec2LaunchTemplateLaunchTemplateDataInstanceRequirements {
   *   +  For instance types with Habana devices, specify ``habana``.
   *   +  For instance types with NVIDIA devices, specify ``nvidia``.
   *   +  For instance types with Xilinx devices, specify ``xilinx``.
-  *
+  *   
   *  Default: Any manufacturer
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_launch_template#accelerator_manufacturers Ec2LaunchTemplate#accelerator_manufacturers}
@@ -3629,7 +3629,7 @@ export interface Ec2LaunchTemplateLaunchTemplateDataInstanceRequirements {
   *   +  For instance types with NVIDIA T4G GPUs, specify ``t4g``.
   *   +  For instance types with Xilinx VU9P FPGAs, specify ``vu9p``.
   *   +  For instance types with NVIDIA V100 GPUs, specify ``v100``.
-  *
+  *   
   *  Default: Any accelerator
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_launch_template#accelerator_names Ec2LaunchTemplate#accelerator_names}
@@ -3647,7 +3647,7 @@ export interface Ec2LaunchTemplateLaunchTemplateDataInstanceRequirements {
   *   +  For instance types with GPU accelerators, specify ``gpu``.
   *   +  For instance types with FPGA accelerators, specify ``fpga``.
   *   +  For instance types with inference accelerators, specify ``inference``.
-  *
+  *   
   *  Default: Any accelerator type
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_launch_template#accelerator_types Ec2LaunchTemplate#accelerator_types}
@@ -3668,7 +3668,7 @@ export interface Ec2LaunchTemplateLaunchTemplateDataInstanceRequirements {
   *   +  To include bare metal instance types, specify ``included``.
   *   +  To require only bare metal instance types, specify ``required``.
   *   +  To exclude bare metal instance types, specify ``excluded``.
-  *
+  *   
   *  Default: ``excluded``
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_launch_template#bare_metal Ec2LaunchTemplate#bare_metal}
@@ -3690,7 +3690,7 @@ export interface Ec2LaunchTemplateLaunchTemplateDataInstanceRequirements {
   *   +  To include burstable performance instance types, specify ``included``.
   *   +  To require only burstable performance instance types, specify ``required``.
   *   +  To exclude burstable performance instance types, specify ``excluded``.
-  *
+  *   
   *  Default: ``excluded``
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_launch_template#burstable_performance Ec2LaunchTemplate#burstable_performance}
@@ -3701,7 +3701,7 @@ export interface Ec2LaunchTemplateLaunchTemplateDataInstanceRequirements {
   *   +  For instance types with Intel CPUs, specify ``intel``.
   *   +  For instance types with AMD CPUs, specify ``amd``.
   *   +  For instance types with AWS CPUs, specify ``amazon-web-services``.
-  *
+  *   
   *   Don't confuse the CPU manufacturer with the CPU architecture. Instances will be launched with a compatible CPU architecture based on the Amazon Machine Image (AMI) that you specify in your launch template.
   *   Default: Any manufacturer
   *
@@ -3732,7 +3732,7 @@ export interface Ec2LaunchTemplateLaunchTemplateDataInstanceRequirements {
   *   +  To include instance types with instance store volumes, specify ``included``.
   *   +  To require only instance types with instance store volumes, specify ``required``.
   *   +  To exclude instance types with instance store volumes, specify ``excluded``.
-  *
+  *   
   *  Default: ``included``
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_launch_template#local_storage Ec2LaunchTemplate#local_storage}
@@ -3742,7 +3742,7 @@ export interface Ec2LaunchTemplateLaunchTemplateDataInstanceRequirements {
   * The type of local storage that is required.
   *   +  For instance types with hard disk drive (HDD) storage, specify ``hdd``.
   *   +  For instance types with solid state drive (SSD) storage, specify ``ssd``.
-  *
+  *   
   *  Default: ``hdd`` and ``ssd``
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_launch_template#local_storage_types Ec2LaunchTemplate#local_storage_types}
@@ -4229,7 +4229,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataInstanceRequirementsOutputRefere
   }
 
   // accelerator_manufacturers - computed: true, optional: true, required: false
-  private _acceleratorManufacturers?: string[];
+  private _acceleratorManufacturers?: string[]; 
   public get acceleratorManufacturers() {
     return this.getListAttribute('accelerator_manufacturers');
   }
@@ -4245,7 +4245,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataInstanceRequirementsOutputRefere
   }
 
   // accelerator_names - computed: true, optional: true, required: false
-  private _acceleratorNames?: string[];
+  private _acceleratorNames?: string[]; 
   public get acceleratorNames() {
     return this.getListAttribute('accelerator_names');
   }
@@ -4277,7 +4277,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataInstanceRequirementsOutputRefere
   }
 
   // accelerator_types - computed: true, optional: true, required: false
-  private _acceleratorTypes?: string[];
+  private _acceleratorTypes?: string[]; 
   public get acceleratorTypes() {
     return this.getListAttribute('accelerator_types');
   }
@@ -4293,7 +4293,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataInstanceRequirementsOutputRefere
   }
 
   // allowed_instance_types - computed: true, optional: true, required: false
-  private _allowedInstanceTypes?: string[];
+  private _allowedInstanceTypes?: string[]; 
   public get allowedInstanceTypes() {
     return this.getListAttribute('allowed_instance_types');
   }
@@ -4309,7 +4309,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataInstanceRequirementsOutputRefere
   }
 
   // bare_metal - computed: true, optional: true, required: false
-  private _bareMetal?: string;
+  private _bareMetal?: string; 
   public get bareMetal() {
     return this.getStringAttribute('bare_metal');
   }
@@ -4357,7 +4357,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataInstanceRequirementsOutputRefere
   }
 
   // burstable_performance - computed: true, optional: true, required: false
-  private _burstablePerformance?: string;
+  private _burstablePerformance?: string; 
   public get burstablePerformance() {
     return this.getStringAttribute('burstable_performance');
   }
@@ -4373,7 +4373,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataInstanceRequirementsOutputRefere
   }
 
   // cpu_manufacturers - computed: true, optional: true, required: false
-  private _cpuManufacturers?: string[];
+  private _cpuManufacturers?: string[]; 
   public get cpuManufacturers() {
     return this.getListAttribute('cpu_manufacturers');
   }
@@ -4389,7 +4389,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataInstanceRequirementsOutputRefere
   }
 
   // excluded_instance_types - computed: true, optional: true, required: false
-  private _excludedInstanceTypes?: string[];
+  private _excludedInstanceTypes?: string[]; 
   public get excludedInstanceTypes() {
     return this.getListAttribute('excluded_instance_types');
   }
@@ -4405,7 +4405,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataInstanceRequirementsOutputRefere
   }
 
   // instance_generations - computed: true, optional: true, required: false
-  private _instanceGenerations?: string[];
+  private _instanceGenerations?: string[]; 
   public get instanceGenerations() {
     return this.getListAttribute('instance_generations');
   }
@@ -4421,7 +4421,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataInstanceRequirementsOutputRefere
   }
 
   // local_storage - computed: true, optional: true, required: false
-  private _localStorage?: string;
+  private _localStorage?: string; 
   public get localStorage() {
     return this.getStringAttribute('local_storage');
   }
@@ -4437,7 +4437,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataInstanceRequirementsOutputRefere
   }
 
   // local_storage_types - computed: true, optional: true, required: false
-  private _localStorageTypes?: string[];
+  private _localStorageTypes?: string[]; 
   public get localStorageTypes() {
     return this.getListAttribute('local_storage_types');
   }
@@ -4453,7 +4453,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataInstanceRequirementsOutputRefere
   }
 
   // max_spot_price_as_percentage_of_optimal_on_demand_price - computed: true, optional: true, required: false
-  private _maxSpotPriceAsPercentageOfOptimalOnDemandPrice?: number;
+  private _maxSpotPriceAsPercentageOfOptimalOnDemandPrice?: number; 
   public get maxSpotPriceAsPercentageOfOptimalOnDemandPrice() {
     return this.getNumberAttribute('max_spot_price_as_percentage_of_optimal_on_demand_price');
   }
@@ -4533,7 +4533,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataInstanceRequirementsOutputRefere
   }
 
   // on_demand_max_price_percentage_over_lowest_price - computed: true, optional: true, required: false
-  private _onDemandMaxPricePercentageOverLowestPrice?: number;
+  private _onDemandMaxPricePercentageOverLowestPrice?: number; 
   public get onDemandMaxPricePercentageOverLowestPrice() {
     return this.getNumberAttribute('on_demand_max_price_percentage_over_lowest_price');
   }
@@ -4549,7 +4549,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataInstanceRequirementsOutputRefere
   }
 
   // require_hibernate_support - computed: true, optional: true, required: false
-  private _requireHibernateSupport?: boolean | cdktn.IResolvable;
+  private _requireHibernateSupport?: boolean | cdktn.IResolvable; 
   public get requireHibernateSupport() {
     return this.getBooleanAttribute('require_hibernate_support');
   }
@@ -4565,7 +4565,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataInstanceRequirementsOutputRefere
   }
 
   // spot_max_price_percentage_over_lowest_price - computed: true, optional: true, required: false
-  private _spotMaxPricePercentageOverLowestPrice?: number;
+  private _spotMaxPricePercentageOverLowestPrice?: number; 
   public get spotMaxPricePercentageOverLowestPrice() {
     return this.getNumberAttribute('spot_max_price_percentage_over_lowest_price');
   }
@@ -4695,7 +4695,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataLicenseSpecificationsOutputRefer
   }
 
   // license_configuration_arn - computed: true, optional: true, required: false
-  private _licenseConfigurationArn?: string;
+  private _licenseConfigurationArn?: string; 
   public get licenseConfigurationArn() {
     return this.getStringAttribute('license_configuration_arn');
   }
@@ -4811,7 +4811,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataMaintenanceOptionsOutputReferenc
   }
 
   // auto_recovery - computed: true, optional: true, required: false
-  private _autoRecovery?: string;
+  private _autoRecovery?: string; 
   public get autoRecovery() {
     return this.getStringAttribute('auto_recovery');
   }
@@ -4843,7 +4843,7 @@ export interface Ec2LaunchTemplateLaunchTemplateDataMetadataOptions {
   readonly httpProtocolIpv6?: string;
   /**
   * The desired HTTP PUT response hop limit for instance metadata requests. The larger the number, the further instance metadata requests can travel.
-  *  Default: ``1``
+  *  Default: ``1`` 
   *  Possible values: Integers from 1 to 64
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_launch_template#http_put_response_hop_limit Ec2LaunchTemplate#http_put_response_hop_limit}
@@ -4853,7 +4853,7 @@ export interface Ec2LaunchTemplateLaunchTemplateDataMetadataOptions {
   * Indicates whether IMDSv2 is required.
   *   +   ``optional`` - IMDSv2 is optional. You can choose whether to send a session token in your instance metadata retrieval requests. If you retrieve IAM role credentials without a session token, you receive the IMDSv1 role credentials. If you retrieve IAM role credentials using a valid session token, you receive the IMDSv2 role credentials.
   *   +   ``required`` - IMDSv2 is required. You must send a session token in your instance metadata retrieval requests. With this option, retrieving the IAM role credentials always returns IMDSv2 credentials; IMDSv1 credentials are not available.
-  *
+  *   
   *  Default: If the value of ``ImdsSupport`` for the Amazon Machine Image (AMI) for your instance is ``v2.0``, the default is ``required``.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_launch_template#http_tokens Ec2LaunchTemplate#http_tokens}
@@ -4992,7 +4992,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataMetadataOptionsOutputReference e
   }
 
   // http_endpoint - computed: true, optional: true, required: false
-  private _httpEndpoint?: string;
+  private _httpEndpoint?: string; 
   public get httpEndpoint() {
     return this.getStringAttribute('http_endpoint');
   }
@@ -5008,7 +5008,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataMetadataOptionsOutputReference e
   }
 
   // http_protocol_ipv_6 - computed: true, optional: true, required: false
-  private _httpProtocolIpv6?: string;
+  private _httpProtocolIpv6?: string; 
   public get httpProtocolIpv6() {
     return this.getStringAttribute('http_protocol_ipv_6');
   }
@@ -5024,7 +5024,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataMetadataOptionsOutputReference e
   }
 
   // http_put_response_hop_limit - computed: true, optional: true, required: false
-  private _httpPutResponseHopLimit?: number;
+  private _httpPutResponseHopLimit?: number; 
   public get httpPutResponseHopLimit() {
     return this.getNumberAttribute('http_put_response_hop_limit');
   }
@@ -5040,7 +5040,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataMetadataOptionsOutputReference e
   }
 
   // http_tokens - computed: true, optional: true, required: false
-  private _httpTokens?: string;
+  private _httpTokens?: string; 
   public get httpTokens() {
     return this.getStringAttribute('http_tokens');
   }
@@ -5056,7 +5056,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataMetadataOptionsOutputReference e
   }
 
   // instance_metadata_tags - computed: true, optional: true, required: false
-  private _instanceMetadataTags?: string;
+  private _instanceMetadataTags?: string; 
   public get instanceMetadataTags() {
     return this.getStringAttribute('instance_metadata_tags');
   }
@@ -5152,7 +5152,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataMonitoringOutputReference extend
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -5286,7 +5286,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataNetworkInterfacesConnectionTrack
   }
 
   // tcp_established_timeout - computed: true, optional: true, required: false
-  private _tcpEstablishedTimeout?: number;
+  private _tcpEstablishedTimeout?: number; 
   public get tcpEstablishedTimeout() {
     return this.getNumberAttribute('tcp_established_timeout');
   }
@@ -5302,7 +5302,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataNetworkInterfacesConnectionTrack
   }
 
   // udp_stream_timeout - computed: true, optional: true, required: false
-  private _udpStreamTimeout?: number;
+  private _udpStreamTimeout?: number; 
   public get udpStreamTimeout() {
     return this.getNumberAttribute('udp_stream_timeout');
   }
@@ -5318,7 +5318,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataNetworkInterfacesConnectionTrack
   }
 
   // udp_timeout - computed: true, optional: true, required: false
-  private _udpTimeout?: number;
+  private _udpTimeout?: number; 
   public get udpTimeout() {
     return this.getNumberAttribute('udp_timeout');
   }
@@ -5414,7 +5414,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataNetworkInterfacesEnaSrdSpecifica
   }
 
   // ena_srd_udp_enabled - computed: true, optional: true, required: false
-  private _enaSrdUdpEnabled?: boolean | cdktn.IResolvable;
+  private _enaSrdUdpEnabled?: boolean | cdktn.IResolvable; 
   public get enaSrdUdpEnabled() {
     return this.getBooleanAttribute('ena_srd_udp_enabled');
   }
@@ -5529,7 +5529,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataNetworkInterfacesEnaSrdSpecifica
   }
 
   // ena_srd_enabled - computed: true, optional: true, required: false
-  private _enaSrdEnabled?: boolean | cdktn.IResolvable;
+  private _enaSrdEnabled?: boolean | cdktn.IResolvable; 
   public get enaSrdEnabled() {
     return this.getBooleanAttribute('ena_srd_enabled');
   }
@@ -5643,7 +5643,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataNetworkInterfacesIpv4PrefixesOut
   }
 
   // ipv_4_prefix - computed: true, optional: true, required: false
-  private _ipv4Prefix?: string;
+  private _ipv4Prefix?: string; 
   public get ipv4Prefix() {
     return this.getStringAttribute('ipv_4_prefix');
   }
@@ -5761,7 +5761,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataNetworkInterfacesIpv6AddressesOu
   }
 
   // ipv_6_address - computed: true, optional: true, required: false
-  private _ipv6Address?: string;
+  private _ipv6Address?: string; 
   public get ipv6Address() {
     return this.getStringAttribute('ipv_6_address');
   }
@@ -5879,7 +5879,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataNetworkInterfacesIpv6PrefixesOut
   }
 
   // ipv_6_prefix - computed: true, optional: true, required: false
-  private _ipv6Prefix?: string;
+  private _ipv6Prefix?: string; 
   public get ipv6Prefix() {
     return this.getStringAttribute('ipv_6_prefix');
   }
@@ -6016,7 +6016,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataNetworkInterfacesPrivateIpAddres
   }
 
   // primary - computed: true, optional: true, required: false
-  private _primary?: boolean | cdktn.IResolvable;
+  private _primary?: boolean | cdktn.IResolvable; 
   public get primary() {
     return this.getBooleanAttribute('primary');
   }
@@ -6032,7 +6032,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataNetworkInterfacesPrivateIpAddres
   }
 
   // private_ip_address - computed: true, optional: true, required: false
-  private _privateIpAddress?: string;
+  private _privateIpAddress?: string; 
   public get privateIpAddress() {
     return this.getStringAttribute('private_ip_address');
   }
@@ -6553,7 +6553,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataNetworkInterfacesOutputReference
   }
 
   // associate_carrier_ip_address - computed: true, optional: true, required: false
-  private _associateCarrierIpAddress?: boolean | cdktn.IResolvable;
+  private _associateCarrierIpAddress?: boolean | cdktn.IResolvable; 
   public get associateCarrierIpAddress() {
     return this.getBooleanAttribute('associate_carrier_ip_address');
   }
@@ -6569,7 +6569,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataNetworkInterfacesOutputReference
   }
 
   // associate_public_ip_address - computed: true, optional: true, required: false
-  private _associatePublicIpAddress?: boolean | cdktn.IResolvable;
+  private _associatePublicIpAddress?: boolean | cdktn.IResolvable; 
   public get associatePublicIpAddress() {
     return this.getBooleanAttribute('associate_public_ip_address');
   }
@@ -6601,7 +6601,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataNetworkInterfacesOutputReference
   }
 
   // delete_on_termination - computed: true, optional: true, required: false
-  private _deleteOnTermination?: boolean | cdktn.IResolvable;
+  private _deleteOnTermination?: boolean | cdktn.IResolvable; 
   public get deleteOnTermination() {
     return this.getBooleanAttribute('delete_on_termination');
   }
@@ -6617,7 +6617,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataNetworkInterfacesOutputReference
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -6633,7 +6633,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataNetworkInterfacesOutputReference
   }
 
   // device_index - computed: true, optional: true, required: false
-  private _deviceIndex?: number;
+  private _deviceIndex?: number; 
   public get deviceIndex() {
     return this.getNumberAttribute('device_index');
   }
@@ -6665,7 +6665,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataNetworkInterfacesOutputReference
   }
 
   // groups - computed: true, optional: true, required: false
-  private _groups?: string[];
+  private _groups?: string[]; 
   public get groups() {
     return this.getListAttribute('groups');
   }
@@ -6681,7 +6681,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataNetworkInterfacesOutputReference
   }
 
   // interface_type - computed: true, optional: true, required: false
-  private _interfaceType?: string;
+  private _interfaceType?: string; 
   public get interfaceType() {
     return this.getStringAttribute('interface_type');
   }
@@ -6697,7 +6697,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataNetworkInterfacesOutputReference
   }
 
   // ipv_4_prefix_count - computed: true, optional: true, required: false
-  private _ipv4PrefixCount?: number;
+  private _ipv4PrefixCount?: number; 
   public get ipv4PrefixCount() {
     return this.getNumberAttribute('ipv_4_prefix_count');
   }
@@ -6729,7 +6729,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataNetworkInterfacesOutputReference
   }
 
   // ipv_6_address_count - computed: true, optional: true, required: false
-  private _ipv6AddressCount?: number;
+  private _ipv6AddressCount?: number; 
   public get ipv6AddressCount() {
     return this.getNumberAttribute('ipv_6_address_count');
   }
@@ -6761,7 +6761,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataNetworkInterfacesOutputReference
   }
 
   // ipv_6_prefix_count - computed: true, optional: true, required: false
-  private _ipv6PrefixCount?: number;
+  private _ipv6PrefixCount?: number; 
   public get ipv6PrefixCount() {
     return this.getNumberAttribute('ipv_6_prefix_count');
   }
@@ -6793,7 +6793,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataNetworkInterfacesOutputReference
   }
 
   // network_card_index - computed: true, optional: true, required: false
-  private _networkCardIndex?: number;
+  private _networkCardIndex?: number; 
   public get networkCardIndex() {
     return this.getNumberAttribute('network_card_index');
   }
@@ -6809,7 +6809,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataNetworkInterfacesOutputReference
   }
 
   // network_interface_id - computed: true, optional: true, required: false
-  private _networkInterfaceId?: string;
+  private _networkInterfaceId?: string; 
   public get networkInterfaceId() {
     return this.getStringAttribute('network_interface_id');
   }
@@ -6825,7 +6825,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataNetworkInterfacesOutputReference
   }
 
   // primary_ipv_6 - computed: true, optional: true, required: false
-  private _primaryIpv6?: boolean | cdktn.IResolvable;
+  private _primaryIpv6?: boolean | cdktn.IResolvable; 
   public get primaryIpv6() {
     return this.getBooleanAttribute('primary_ipv_6');
   }
@@ -6841,7 +6841,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataNetworkInterfacesOutputReference
   }
 
   // private_ip_address - computed: true, optional: true, required: false
-  private _privateIpAddress?: string;
+  private _privateIpAddress?: string; 
   public get privateIpAddress() {
     return this.getStringAttribute('private_ip_address');
   }
@@ -6873,7 +6873,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataNetworkInterfacesOutputReference
   }
 
   // secondary_private_ip_address_count - computed: true, optional: true, required: false
-  private _secondaryPrivateIpAddressCount?: number;
+  private _secondaryPrivateIpAddressCount?: number; 
   public get secondaryPrivateIpAddressCount() {
     return this.getNumberAttribute('secondary_private_ip_address_count');
   }
@@ -6889,7 +6889,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataNetworkInterfacesOutputReference
   }
 
   // subnet_id - computed: true, optional: true, required: false
-  private _subnetId?: string;
+  private _subnetId?: string; 
   public get subnetId() {
     return this.getStringAttribute('subnet_id');
   }
@@ -7157,7 +7157,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataPlacementOutputReference extends
   }
 
   // affinity - computed: true, optional: true, required: false
-  private _affinity?: string;
+  private _affinity?: string; 
   public get affinity() {
     return this.getStringAttribute('affinity');
   }
@@ -7173,7 +7173,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataPlacementOutputReference extends
   }
 
   // availability_zone - computed: true, optional: true, required: false
-  private _availabilityZone?: string;
+  private _availabilityZone?: string; 
   public get availabilityZone() {
     return this.getStringAttribute('availability_zone');
   }
@@ -7189,7 +7189,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataPlacementOutputReference extends
   }
 
   // group_id - computed: true, optional: true, required: false
-  private _groupId?: string;
+  private _groupId?: string; 
   public get groupId() {
     return this.getStringAttribute('group_id');
   }
@@ -7205,7 +7205,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataPlacementOutputReference extends
   }
 
   // group_name - computed: true, optional: true, required: false
-  private _groupName?: string;
+  private _groupName?: string; 
   public get groupName() {
     return this.getStringAttribute('group_name');
   }
@@ -7221,7 +7221,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataPlacementOutputReference extends
   }
 
   // host_id - computed: true, optional: true, required: false
-  private _hostId?: string;
+  private _hostId?: string; 
   public get hostId() {
     return this.getStringAttribute('host_id');
   }
@@ -7237,7 +7237,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataPlacementOutputReference extends
   }
 
   // host_resource_group_arn - computed: true, optional: true, required: false
-  private _hostResourceGroupArn?: string;
+  private _hostResourceGroupArn?: string; 
   public get hostResourceGroupArn() {
     return this.getStringAttribute('host_resource_group_arn');
   }
@@ -7253,7 +7253,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataPlacementOutputReference extends
   }
 
   // partition_number - computed: true, optional: true, required: false
-  private _partitionNumber?: number;
+  private _partitionNumber?: number; 
   public get partitionNumber() {
     return this.getNumberAttribute('partition_number');
   }
@@ -7269,7 +7269,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataPlacementOutputReference extends
   }
 
   // spread_domain - computed: true, optional: true, required: false
-  private _spreadDomain?: string;
+  private _spreadDomain?: string; 
   public get spreadDomain() {
     return this.getStringAttribute('spread_domain');
   }
@@ -7285,7 +7285,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataPlacementOutputReference extends
   }
 
   // tenancy - computed: true, optional: true, required: false
-  private _tenancy?: string;
+  private _tenancy?: string; 
   public get tenancy() {
     return this.getStringAttribute('tenancy');
   }
@@ -7419,7 +7419,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataPrivateDnsNameOptionsOutputRefer
   }
 
   // enable_resource_name_dns_a_record - computed: true, optional: true, required: false
-  private _enableResourceNameDnsARecord?: boolean | cdktn.IResolvable;
+  private _enableResourceNameDnsARecord?: boolean | cdktn.IResolvable; 
   public get enableResourceNameDnsARecord() {
     return this.getBooleanAttribute('enable_resource_name_dns_a_record');
   }
@@ -7435,7 +7435,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataPrivateDnsNameOptionsOutputRefer
   }
 
   // enable_resource_name_dns_aaaa_record - computed: true, optional: true, required: false
-  private _enableResourceNameDnsAaaaRecord?: boolean | cdktn.IResolvable;
+  private _enableResourceNameDnsAaaaRecord?: boolean | cdktn.IResolvable; 
   public get enableResourceNameDnsAaaaRecord() {
     return this.getBooleanAttribute('enable_resource_name_dns_aaaa_record');
   }
@@ -7451,7 +7451,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataPrivateDnsNameOptionsOutputRefer
   }
 
   // hostname_type - computed: true, optional: true, required: false
-  private _hostnameType?: string;
+  private _hostnameType?: string; 
   public get hostnameType() {
     return this.getStringAttribute('hostname_type');
   }
@@ -7568,7 +7568,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataTagSpecificationsTagsOutputRefer
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -7584,7 +7584,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataTagSpecificationsTagsOutputRefer
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -7722,7 +7722,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataTagSpecificationsOutputReference
   }
 
   // resource_type - computed: true, optional: true, required: false
-  private _resourceType?: string;
+  private _resourceType?: string; 
   public get resourceType() {
     return this.getStringAttribute('resource_type');
   }
@@ -7853,11 +7853,11 @@ export interface Ec2LaunchTemplateLaunchTemplateData {
   /**
   * The ID of the AMI. Alternatively, you can specify a Systems Manager parameter, which will resolve to an AMI ID on launch.
   *  Valid formats:
-  *   +   ``ami-0ac394d6a3example``
-  *   +   ``resolve:ssm:parameter-name``
-  *   +   ``resolve:ssm:parameter-name:version-number``
-  *   +   ``resolve:ssm:parameter-name:label``
-  *
+  *   +   ``ami-0ac394d6a3example`` 
+  *   +   ``resolve:ssm:parameter-name`` 
+  *   +   ``resolve:ssm:parameter-name:version-number`` 
+  *   +   ``resolve:ssm:parameter-name:label`` 
+  *   
   *  For more information, see [Use a Systems Manager parameter to find an AMI](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/finding-an-ami.html#using-systems-manager-parameter-to-find-AMI) in the *Amazon Elastic Compute Cloud User Guide*.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_launch_template#image_id Ec2LaunchTemplate#image_id}
@@ -7883,7 +7883,7 @@ export interface Ec2LaunchTemplateLaunchTemplateData {
   *  To limit the list of instance types from which Amazon EC2 can identify matching instance types, you can use one of the following parameters, but not both in the same request:
   *   +   ``AllowedInstanceTypes`` - The instance types to include in the list. All other instance types are ignored, even if they match your specified attributes.
   *   +   ``ExcludedInstanceTypes`` - The instance types to exclude from the list, even if they match your specified attributes.
-  *
+  *   
   *   If you specify ``InstanceRequirements``, you can't specify ``InstanceType``.
   *  Attribute-based instance type selection is only supported when using Auto Scaling groups, EC2 Fleet, and Spot Fleet to launch instances. If you plan to use the launch template in the [launch instance wizard](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-launch-instance-wizard.html), or with the [RunInstances](https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_RunInstances.html) API or [AWS::EC2::Instance](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec2-instance.html) AWS CloudFormation resource, you can't specify ``InstanceRequirements``.
   *   For more information, see [Attribute-based instance type selection for EC2 Fleet](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-fleet-attribute-based-instance-type-selection.html), [Attribute-based instance type selection for Spot Fleet](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/spot-fleet-attribute-based-instance-type-selection.html), and [Spot placement score](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/spot-placement-score.html) in the *Amazon EC2 User Guide*.
@@ -8518,7 +8518,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataOutputReference extends cdktn.Co
   }
 
   // disable_api_stop - computed: true, optional: true, required: false
-  private _disableApiStop?: boolean | cdktn.IResolvable;
+  private _disableApiStop?: boolean | cdktn.IResolvable; 
   public get disableApiStop() {
     return this.getBooleanAttribute('disable_api_stop');
   }
@@ -8534,7 +8534,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataOutputReference extends cdktn.Co
   }
 
   // disable_api_termination - computed: true, optional: true, required: false
-  private _disableApiTermination?: boolean | cdktn.IResolvable;
+  private _disableApiTermination?: boolean | cdktn.IResolvable; 
   public get disableApiTermination() {
     return this.getBooleanAttribute('disable_api_termination');
   }
@@ -8550,7 +8550,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataOutputReference extends cdktn.Co
   }
 
   // ebs_optimized - computed: true, optional: true, required: false
-  private _ebsOptimized?: boolean | cdktn.IResolvable;
+  private _ebsOptimized?: boolean | cdktn.IResolvable; 
   public get ebsOptimized() {
     return this.getBooleanAttribute('ebs_optimized');
   }
@@ -8646,7 +8646,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataOutputReference extends cdktn.Co
   }
 
   // image_id - computed: true, optional: true, required: false
-  private _imageId?: string;
+  private _imageId?: string; 
   public get imageId() {
     return this.getStringAttribute('image_id');
   }
@@ -8662,7 +8662,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataOutputReference extends cdktn.Co
   }
 
   // instance_initiated_shutdown_behavior - computed: true, optional: true, required: false
-  private _instanceInitiatedShutdownBehavior?: string;
+  private _instanceInitiatedShutdownBehavior?: string; 
   public get instanceInitiatedShutdownBehavior() {
     return this.getStringAttribute('instance_initiated_shutdown_behavior');
   }
@@ -8710,7 +8710,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataOutputReference extends cdktn.Co
   }
 
   // instance_type - computed: true, optional: true, required: false
-  private _instanceType?: string;
+  private _instanceType?: string; 
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -8726,7 +8726,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataOutputReference extends cdktn.Co
   }
 
   // kernel_id - computed: true, optional: true, required: false
-  private _kernelId?: string;
+  private _kernelId?: string; 
   public get kernelId() {
     return this.getStringAttribute('kernel_id');
   }
@@ -8742,7 +8742,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataOutputReference extends cdktn.Co
   }
 
   // key_name - computed: true, optional: true, required: false
-  private _keyName?: string;
+  private _keyName?: string; 
   public get keyName() {
     return this.getStringAttribute('key_name');
   }
@@ -8870,7 +8870,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataOutputReference extends cdktn.Co
   }
 
   // ram_disk_id - computed: true, optional: true, required: false
-  private _ramDiskId?: string;
+  private _ramDiskId?: string; 
   public get ramDiskId() {
     return this.getStringAttribute('ram_disk_id');
   }
@@ -8886,7 +8886,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataOutputReference extends cdktn.Co
   }
 
   // security_group_ids - computed: true, optional: true, required: false
-  private _securityGroupIds?: string[];
+  private _securityGroupIds?: string[]; 
   public get securityGroupIds() {
     return this.getListAttribute('security_group_ids');
   }
@@ -8902,7 +8902,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataOutputReference extends cdktn.Co
   }
 
   // security_groups - computed: true, optional: true, required: false
-  private _securityGroups?: string[];
+  private _securityGroups?: string[]; 
   public get securityGroups() {
     return this.getListAttribute('security_groups');
   }
@@ -8934,7 +8934,7 @@ export class Ec2LaunchTemplateLaunchTemplateDataOutputReference extends cdktn.Co
   }
 
   // user_data - computed: true, optional: true, required: false
-  private _userData?: string;
+  private _userData?: string; 
   public get userData() {
     return this.getStringAttribute('user_data');
   }
@@ -9051,7 +9051,7 @@ export class Ec2LaunchTemplateTagSpecificationsTagsOutputReference extends cdktn
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -9067,7 +9067,7 @@ export class Ec2LaunchTemplateTagSpecificationsTagsOutputReference extends cdktn
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -9204,7 +9204,7 @@ export class Ec2LaunchTemplateTagSpecificationsOutputReference extends cdktn.Com
   }
 
   // resource_type - computed: true, optional: true, required: false
-  private _resourceType?: string;
+  private _resourceType?: string; 
   public get resourceType() {
     return this.getStringAttribute('resource_type');
   }
@@ -9350,7 +9350,7 @@ export class Ec2LaunchTemplate extends cdktn.TerraformResource {
   }
 
   // launch_template_name - computed: true, optional: true, required: false
-  private _launchTemplateName?: string;
+  private _launchTemplateName?: string; 
   public get launchTemplateName() {
     return this.getStringAttribute('launch_template_name');
   }
@@ -9382,7 +9382,7 @@ export class Ec2LaunchTemplate extends cdktn.TerraformResource {
   }
 
   // version_description - computed: true, optional: true, required: false
-  private _versionDescription?: string;
+  private _versionDescription?: string; 
   public get versionDescription() {
     return this.getStringAttribute('version_description');
   }

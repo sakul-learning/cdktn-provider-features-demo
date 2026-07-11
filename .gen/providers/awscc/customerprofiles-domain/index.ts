@@ -136,7 +136,7 @@ export class CustomerprofilesDomainTagsOutputReference extends cdktn.ComplexObje
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -152,7 +152,7 @@ export class CustomerprofilesDomainTagsOutputReference extends cdktn.ComplexObje
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -255,7 +255,7 @@ export class CustomerprofilesDomain extends cdktn.TerraformResource {
   }
 
   // dead_letter_queue_url - computed: true, optional: true, required: false
-  private _deadLetterQueueUrl?: string;
+  private _deadLetterQueueUrl?: string; 
   public get deadLetterQueueUrl() {
     return this.getStringAttribute('dead_letter_queue_url');
   }
@@ -271,7 +271,7 @@ export class CustomerprofilesDomain extends cdktn.TerraformResource {
   }
 
   // default_encryption_key - computed: true, optional: true, required: false
-  private _defaultEncryptionKey?: string;
+  private _defaultEncryptionKey?: string; 
   public get defaultEncryptionKey() {
     return this.getStringAttribute('default_encryption_key');
   }
@@ -287,7 +287,7 @@ export class CustomerprofilesDomain extends cdktn.TerraformResource {
   }
 
   // default_expiration_days - computed: true, optional: true, required: false
-  private _defaultExpirationDays?: number;
+  private _defaultExpirationDays?: number; 
   public get defaultExpirationDays() {
     return this.getNumberAttribute('default_expiration_days');
   }
@@ -303,7 +303,7 @@ export class CustomerprofilesDomain extends cdktn.TerraformResource {
   }
 
   // domain_name - computed: false, optional: false, required: true
-  private _domainName?: string;
+  private _domainName?: string; 
   public get domainName() {
     return this.getStringAttribute('domain_name');
   }

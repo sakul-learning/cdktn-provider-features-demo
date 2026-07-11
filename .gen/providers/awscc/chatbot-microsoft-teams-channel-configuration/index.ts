@@ -178,7 +178,7 @@ export class ChatbotMicrosoftTeamsChannelConfigurationTagsOutputReference extend
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -194,7 +194,7 @@ export class ChatbotMicrosoftTeamsChannelConfigurationTagsOutputReference extend
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -304,7 +304,7 @@ export class ChatbotMicrosoftTeamsChannelConfiguration extends cdktn.TerraformRe
   }
 
   // configuration_name - computed: false, optional: false, required: true
-  private _configurationName?: string;
+  private _configurationName?: string; 
   public get configurationName() {
     return this.getStringAttribute('configuration_name');
   }
@@ -317,7 +317,7 @@ export class ChatbotMicrosoftTeamsChannelConfiguration extends cdktn.TerraformRe
   }
 
   // customization_resource_arns - computed: true, optional: true, required: false
-  private _customizationResourceArns?: string[];
+  private _customizationResourceArns?: string[]; 
   public get customizationResourceArns() {
     return this.getListAttribute('customization_resource_arns');
   }
@@ -333,7 +333,7 @@ export class ChatbotMicrosoftTeamsChannelConfiguration extends cdktn.TerraformRe
   }
 
   // guardrail_policies - computed: true, optional: true, required: false
-  private _guardrailPolicies?: string[];
+  private _guardrailPolicies?: string[]; 
   public get guardrailPolicies() {
     return this.getListAttribute('guardrail_policies');
   }
@@ -349,7 +349,7 @@ export class ChatbotMicrosoftTeamsChannelConfiguration extends cdktn.TerraformRe
   }
 
   // iam_role_arn - computed: false, optional: false, required: true
-  private _iamRoleArn?: string;
+  private _iamRoleArn?: string; 
   public get iamRoleArn() {
     return this.getStringAttribute('iam_role_arn');
   }
@@ -367,7 +367,7 @@ export class ChatbotMicrosoftTeamsChannelConfiguration extends cdktn.TerraformRe
   }
 
   // logging_level - computed: true, optional: true, required: false
-  private _loggingLevel?: string;
+  private _loggingLevel?: string; 
   public get loggingLevel() {
     return this.getStringAttribute('logging_level');
   }
@@ -383,7 +383,7 @@ export class ChatbotMicrosoftTeamsChannelConfiguration extends cdktn.TerraformRe
   }
 
   // sns_topic_arns - computed: true, optional: true, required: false
-  private _snsTopicArns?: string[];
+  private _snsTopicArns?: string[]; 
   public get snsTopicArns() {
     return this.getListAttribute('sns_topic_arns');
   }
@@ -415,7 +415,7 @@ export class ChatbotMicrosoftTeamsChannelConfiguration extends cdktn.TerraformRe
   }
 
   // team_id - computed: false, optional: false, required: true
-  private _teamId?: string;
+  private _teamId?: string; 
   public get teamId() {
     return this.getStringAttribute('team_id');
   }
@@ -428,7 +428,7 @@ export class ChatbotMicrosoftTeamsChannelConfiguration extends cdktn.TerraformRe
   }
 
   // teams_channel_id - computed: false, optional: false, required: true
-  private _teamsChannelId?: string;
+  private _teamsChannelId?: string; 
   public get teamsChannelId() {
     return this.getStringAttribute('teams_channel_id');
   }
@@ -441,7 +441,7 @@ export class ChatbotMicrosoftTeamsChannelConfiguration extends cdktn.TerraformRe
   }
 
   // teams_channel_name - computed: true, optional: true, required: false
-  private _teamsChannelName?: string;
+  private _teamsChannelName?: string; 
   public get teamsChannelName() {
     return this.getStringAttribute('teams_channel_name');
   }
@@ -457,7 +457,7 @@ export class ChatbotMicrosoftTeamsChannelConfiguration extends cdktn.TerraformRe
   }
 
   // teams_tenant_id - computed: false, optional: false, required: true
-  private _teamsTenantId?: string;
+  private _teamsTenantId?: string; 
   public get teamsTenantId() {
     return this.getStringAttribute('teams_tenant_id');
   }
@@ -470,7 +470,7 @@ export class ChatbotMicrosoftTeamsChannelConfiguration extends cdktn.TerraformRe
   }
 
   // user_role_required - computed: true, optional: true, required: false
-  private _userRoleRequired?: boolean | cdktn.IResolvable;
+  private _userRoleRequired?: boolean | cdktn.IResolvable; 
   public get userRoleRequired() {
     return this.getBooleanAttribute('user_role_required');
   }

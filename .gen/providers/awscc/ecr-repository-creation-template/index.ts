@@ -72,7 +72,7 @@ export interface EcrRepositoryCreationTemplateEncryptionConfiguration {
   /**
   * The encryption type to use.
   *  If you use the ``KMS`` encryption type, the contents of the repository will be encrypted using server-side encryption with KMSlong key stored in KMS. When you use KMS to encrypt your data, you can either use the default AWS managed KMS key for Amazon ECR, or specify your own KMS key, which you already created.
-  *  If you use the ``KMS_DSSE`` encryption type, the contents of the repository will be encrypted with two layers of encryption using server-side encryption with the KMS Management Service key stored in KMS. Similar to the ``KMS`` encryption type, you can either use the default AWS managed KMS key for Amazon ECR, or specify your own KMS key, which you've already created.
+  *  If you use the ``KMS_DSSE`` encryption type, the contents of the repository will be encrypted with two layers of encryption using server-side encryption with the KMS Management Service key stored in KMS. Similar to the ``KMS`` encryption type, you can either use the default AWS managed KMS key for Amazon ECR, or specify your own KMS key, which you've already created. 
   *  If you use the ``AES256`` encryption type, Amazon ECR uses server-side encryption with Amazon S3-managed encryption keys which encrypts the images in the repository using an AES256 encryption algorithm.
   *  For more information, see [Amazon ECR encryption at rest](https://docs.aws.amazon.com/AmazonECR/latest/userguide/encryption-at-rest.html) in the *Amazon Elastic Container Registry User Guide*.
   *
@@ -172,7 +172,7 @@ export class EcrRepositoryCreationTemplateEncryptionConfigurationOutputReference
   }
 
   // encryption_type - computed: true, optional: true, required: false
-  private _encryptionType?: string;
+  private _encryptionType?: string; 
   public get encryptionType() {
     return this.getStringAttribute('encryption_type');
   }
@@ -188,7 +188,7 @@ export class EcrRepositoryCreationTemplateEncryptionConfigurationOutputReference
   }
 
   // kms_key - computed: true, optional: true, required: false
-  private _kmsKey?: string;
+  private _kmsKey?: string; 
   public get kmsKey() {
     return this.getStringAttribute('kms_key');
   }
@@ -301,7 +301,7 @@ export class EcrRepositoryCreationTemplateImageTagMutabilityExclusionFiltersOutp
   }
 
   // image_tag_mutability_exclusion_filter_type - computed: true, optional: true, required: false
-  private _imageTagMutabilityExclusionFilterType?: string;
+  private _imageTagMutabilityExclusionFilterType?: string; 
   public get imageTagMutabilityExclusionFilterType() {
     return this.getStringAttribute('image_tag_mutability_exclusion_filter_type');
   }
@@ -317,7 +317,7 @@ export class EcrRepositoryCreationTemplateImageTagMutabilityExclusionFiltersOutp
   }
 
   // image_tag_mutability_exclusion_filter_value - computed: true, optional: true, required: false
-  private _imageTagMutabilityExclusionFilterValue?: string;
+  private _imageTagMutabilityExclusionFilterValue?: string; 
   public get imageTagMutabilityExclusionFilterValue() {
     return this.getStringAttribute('image_tag_mutability_exclusion_filter_value');
   }
@@ -454,7 +454,7 @@ export class EcrRepositoryCreationTemplateResourceTagsOutputReference extends cd
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -470,7 +470,7 @@ export class EcrRepositoryCreationTemplateResourceTagsOutputReference extends cd
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -573,7 +573,7 @@ export class EcrRepositoryCreationTemplate extends cdktn.TerraformResource {
   // ==========
 
   // applied_for - computed: false, optional: false, required: true
-  private _appliedFor?: string[];
+  private _appliedFor?: string[]; 
   public get appliedFor() {
     return cdktn.Fn.tolist(this.getListAttribute('applied_for'));
   }
@@ -591,7 +591,7 @@ export class EcrRepositoryCreationTemplate extends cdktn.TerraformResource {
   }
 
   // custom_role_arn - computed: true, optional: true, required: false
-  private _customRoleArn?: string;
+  private _customRoleArn?: string; 
   public get customRoleArn() {
     return this.getStringAttribute('custom_role_arn');
   }
@@ -607,7 +607,7 @@ export class EcrRepositoryCreationTemplate extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -644,7 +644,7 @@ export class EcrRepositoryCreationTemplate extends cdktn.TerraformResource {
   }
 
   // image_tag_mutability - computed: true, optional: true, required: false
-  private _imageTagMutability?: string;
+  private _imageTagMutability?: string; 
   public get imageTagMutability() {
     return this.getStringAttribute('image_tag_mutability');
   }
@@ -676,7 +676,7 @@ export class EcrRepositoryCreationTemplate extends cdktn.TerraformResource {
   }
 
   // lifecycle_policy - computed: true, optional: true, required: false
-  private _lifecyclePolicy?: string;
+  private _lifecyclePolicy?: string; 
   public get lifecyclePolicy() {
     return this.getStringAttribute('lifecycle_policy');
   }
@@ -692,7 +692,7 @@ export class EcrRepositoryCreationTemplate extends cdktn.TerraformResource {
   }
 
   // prefix - computed: false, optional: false, required: true
-  private _prefix?: string;
+  private _prefix?: string; 
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -705,7 +705,7 @@ export class EcrRepositoryCreationTemplate extends cdktn.TerraformResource {
   }
 
   // repository_policy - computed: true, optional: true, required: false
-  private _repositoryPolicy?: string;
+  private _repositoryPolicy?: string; 
   public get repositoryPolicy() {
     return this.getStringAttribute('repository_policy');
   }

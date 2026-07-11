@@ -96,7 +96,7 @@ export class DataAwsSagemakerPrebuiltEcrImage extends cdktn.TerraformDataSource 
   // ==========
 
   // dns_suffix - computed: false, optional: true, required: false
-  private _dnsSuffix?: string;
+  private _dnsSuffix?: string; 
   public get dnsSuffix() {
     return this.getStringAttribute('dns_suffix');
   }
@@ -112,7 +112,7 @@ export class DataAwsSagemakerPrebuiltEcrImage extends cdktn.TerraformDataSource 
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -128,7 +128,7 @@ export class DataAwsSagemakerPrebuiltEcrImage extends cdktn.TerraformDataSource 
   }
 
   // image_tag - computed: false, optional: true, required: false
-  private _imageTag?: string;
+  private _imageTag?: string; 
   public get imageTag() {
     return this.getStringAttribute('image_tag');
   }
@@ -144,7 +144,7 @@ export class DataAwsSagemakerPrebuiltEcrImage extends cdktn.TerraformDataSource 
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -170,7 +170,7 @@ export class DataAwsSagemakerPrebuiltEcrImage extends cdktn.TerraformDataSource 
   }
 
   // repository_name - computed: false, optional: false, required: true
-  private _repositoryName?: string;
+  private _repositoryName?: string; 
   public get repositoryName() {
     return this.getStringAttribute('repository_name');
   }

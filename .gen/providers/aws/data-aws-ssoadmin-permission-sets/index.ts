@@ -88,7 +88,7 @@ export class DataAwsSsoadminPermissionSets extends cdktn.TerraformDataSource {
   }
 
   // instance_arn - computed: false, optional: false, required: true
-  private _instanceArn?: string;
+  private _instanceArn?: string; 
   public get instanceArn() {
     return this.getStringAttribute('instance_arn');
   }
@@ -101,7 +101,7 @@ export class DataAwsSsoadminPermissionSets extends cdktn.TerraformDataSource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

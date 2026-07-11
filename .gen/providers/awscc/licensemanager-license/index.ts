@@ -164,7 +164,7 @@ export class LicensemanagerLicenseConsumptionConfigurationBorrowConfigurationOut
   }
 
   // allow_early_check_in - computed: true, optional: true, required: false
-  private _allowEarlyCheckIn?: boolean | cdktn.IResolvable;
+  private _allowEarlyCheckIn?: boolean | cdktn.IResolvable; 
   public get allowEarlyCheckIn() {
     return this.getBooleanAttribute('allow_early_check_in');
   }
@@ -180,7 +180,7 @@ export class LicensemanagerLicenseConsumptionConfigurationBorrowConfigurationOut
   }
 
   // max_time_to_live_in_minutes - computed: true, optional: true, required: false
-  private _maxTimeToLiveInMinutes?: number;
+  private _maxTimeToLiveInMinutes?: number; 
   public get maxTimeToLiveInMinutes() {
     return this.getNumberAttribute('max_time_to_live_in_minutes');
   }
@@ -274,7 +274,7 @@ export class LicensemanagerLicenseConsumptionConfigurationProvisionalConfigurati
   }
 
   // max_time_to_live_in_minutes - computed: true, optional: true, required: false
-  private _maxTimeToLiveInMinutes?: number;
+  private _maxTimeToLiveInMinutes?: number; 
   public get maxTimeToLiveInMinutes() {
     return this.getNumberAttribute('max_time_to_live_in_minutes');
   }
@@ -434,7 +434,7 @@ export class LicensemanagerLicenseConsumptionConfigurationOutputReference extend
   }
 
   // renew_type - computed: true, optional: true, required: false
-  private _renewType?: string;
+  private _renewType?: string; 
   public get renewType() {
     return this.getStringAttribute('renew_type');
   }
@@ -615,7 +615,7 @@ export class LicensemanagerLicenseEntitlementsOutputReference extends cdktn.Comp
   }
 
   // allow_check_in - computed: true, optional: true, required: false
-  private _allowCheckIn?: boolean | cdktn.IResolvable;
+  private _allowCheckIn?: boolean | cdktn.IResolvable; 
   public get allowCheckIn() {
     return this.getBooleanAttribute('allow_check_in');
   }
@@ -631,7 +631,7 @@ export class LicensemanagerLicenseEntitlementsOutputReference extends cdktn.Comp
   }
 
   // max_count - computed: true, optional: true, required: false
-  private _maxCount?: number;
+  private _maxCount?: number; 
   public get maxCount() {
     return this.getNumberAttribute('max_count');
   }
@@ -647,7 +647,7 @@ export class LicensemanagerLicenseEntitlementsOutputReference extends cdktn.Comp
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -660,7 +660,7 @@ export class LicensemanagerLicenseEntitlementsOutputReference extends cdktn.Comp
   }
 
   // overage - computed: true, optional: true, required: false
-  private _overage?: boolean | cdktn.IResolvable;
+  private _overage?: boolean | cdktn.IResolvable; 
   public get overage() {
     return this.getBooleanAttribute('overage');
   }
@@ -676,7 +676,7 @@ export class LicensemanagerLicenseEntitlementsOutputReference extends cdktn.Comp
   }
 
   // unit - computed: false, optional: false, required: true
-  private _unit?: string;
+  private _unit?: string; 
   public get unit() {
     return this.getStringAttribute('unit');
   }
@@ -689,7 +689,7 @@ export class LicensemanagerLicenseEntitlementsOutputReference extends cdktn.Comp
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -820,7 +820,7 @@ export class LicensemanagerLicenseIssuerOutputReference extends cdktn.ComplexObj
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -833,7 +833,7 @@ export class LicensemanagerLicenseIssuerOutputReference extends cdktn.ComplexObj
   }
 
   // sign_key - computed: true, optional: true, required: false
-  private _signKey?: string;
+  private _signKey?: string; 
   public get signKey() {
     return this.getStringAttribute('sign_key');
   }
@@ -946,7 +946,7 @@ export class LicensemanagerLicenseLicenseMetadataOutputReference extends cdktn.C
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -962,7 +962,7 @@ export class LicensemanagerLicenseLicenseMetadataOutputReference extends cdktn.C
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1099,7 +1099,7 @@ export class LicensemanagerLicenseTagsOutputReference extends cdktn.ComplexObjec
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1115,7 +1115,7 @@ export class LicensemanagerLicenseTagsOutputReference extends cdktn.ComplexObjec
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1250,7 +1250,7 @@ export class LicensemanagerLicenseValidityOutputReference extends cdktn.ComplexO
   }
 
   // begin - computed: false, optional: false, required: true
-  private _begin?: string;
+  private _begin?: string; 
   public get begin() {
     return this.getStringAttribute('begin');
   }
@@ -1263,7 +1263,7 @@ export class LicensemanagerLicenseValidityOutputReference extends cdktn.ComplexO
   }
 
   // end - computed: false, optional: false, required: true
-  private _end?: string;
+  private _end?: string; 
   public get end() {
     return this.getStringAttribute('end');
   }
@@ -1345,7 +1345,7 @@ export class LicensemanagerLicense extends cdktn.TerraformResource {
   // ==========
 
   // beneficiary - computed: false, optional: false, required: true
-  private _beneficiary?: string;
+  private _beneficiary?: string; 
   public get beneficiary() {
     return this.getStringAttribute('beneficiary');
   }
@@ -1384,7 +1384,7 @@ export class LicensemanagerLicense extends cdktn.TerraformResource {
   }
 
   // home_region - computed: false, optional: false, required: true
-  private _homeRegion?: string;
+  private _homeRegion?: string; 
   public get homeRegion() {
     return this.getStringAttribute('home_region');
   }
@@ -1436,7 +1436,7 @@ export class LicensemanagerLicense extends cdktn.TerraformResource {
   }
 
   // license_name - computed: false, optional: false, required: true
-  private _licenseName?: string;
+  private _licenseName?: string; 
   public get licenseName() {
     return this.getStringAttribute('license_name');
   }
@@ -1449,7 +1449,7 @@ export class LicensemanagerLicense extends cdktn.TerraformResource {
   }
 
   // product_name - computed: false, optional: false, required: true
-  private _productName?: string;
+  private _productName?: string; 
   public get productName() {
     return this.getStringAttribute('product_name');
   }
@@ -1462,7 +1462,7 @@ export class LicensemanagerLicense extends cdktn.TerraformResource {
   }
 
   // product_sku - computed: false, optional: false, required: true
-  private _productSku?: string;
+  private _productSku?: string; 
   public get productSku() {
     return this.getStringAttribute('product_sku');
   }
@@ -1475,7 +1475,7 @@ export class LicensemanagerLicense extends cdktn.TerraformResource {
   }
 
   // status - computed: true, optional: true, required: false
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }

@@ -76,7 +76,7 @@ export class IamUserPolicyAttachmentsExclusive extends cdktn.TerraformResource {
   // ==========
 
   // policy_arns - computed: false, optional: false, required: true
-  private _policyArns?: string[];
+  private _policyArns?: string[]; 
   public get policyArns() {
     return cdktn.Fn.tolist(this.getListAttribute('policy_arns'));
   }
@@ -89,7 +89,7 @@ export class IamUserPolicyAttachmentsExclusive extends cdktn.TerraformResource {
   }
 
   // user_name - computed: false, optional: false, required: true
-  private _userName?: string;
+  private _userName?: string; 
   public get userName() {
     return this.getStringAttribute('user_name');
   }

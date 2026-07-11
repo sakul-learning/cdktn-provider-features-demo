@@ -141,7 +141,7 @@ export class BedrockagentcoreBrowserCustomBrowserSigningOutputReference extends 
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -237,7 +237,7 @@ export class BedrockagentcoreBrowserCustomCertificatesCertificateLocationOutputR
   }
 
   // secret_arn - computed: true, optional: true, required: false
-  private _secretArn?: string;
+  private _secretArn?: string; 
   public get secretArn() {
     return this.getStringAttribute('secret_arn');
   }
@@ -466,7 +466,7 @@ export class BedrockagentcoreBrowserCustomEnterprisePoliciesLocationOutputRefere
   }
 
   // bucket - computed: true, optional: true, required: false
-  private _bucket?: string;
+  private _bucket?: string; 
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -482,7 +482,7 @@ export class BedrockagentcoreBrowserCustomEnterprisePoliciesLocationOutputRefere
   }
 
   // prefix - computed: true, optional: true, required: false
-  private _prefix?: string;
+  private _prefix?: string; 
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -615,7 +615,7 @@ export class BedrockagentcoreBrowserCustomEnterprisePoliciesOutputReference exte
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -750,7 +750,7 @@ export class BedrockagentcoreBrowserCustomNetworkConfigurationVpcConfigOutputRef
   }
 
   // security_groups - computed: true, optional: true, required: false
-  private _securityGroups?: string[];
+  private _securityGroups?: string[]; 
   public get securityGroups() {
     return this.getListAttribute('security_groups');
   }
@@ -766,7 +766,7 @@ export class BedrockagentcoreBrowserCustomNetworkConfigurationVpcConfigOutputRef
   }
 
   // subnets - computed: true, optional: true, required: false
-  private _subnets?: string[];
+  private _subnets?: string[]; 
   public get subnets() {
     return this.getListAttribute('subnets');
   }
@@ -881,7 +881,7 @@ export class BedrockagentcoreBrowserCustomNetworkConfigurationOutputReference ex
   }
 
   // network_mode - computed: true, optional: true, required: false
-  private _networkMode?: string;
+  private _networkMode?: string; 
   public get networkMode() {
     return this.getStringAttribute('network_mode');
   }
@@ -1008,7 +1008,7 @@ export class BedrockagentcoreBrowserCustomRecordingConfigS3LocationOutputReferen
   }
 
   // bucket - computed: true, optional: true, required: false
-  private _bucket?: string;
+  private _bucket?: string; 
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -1024,7 +1024,7 @@ export class BedrockagentcoreBrowserCustomRecordingConfigS3LocationOutputReferen
   }
 
   // prefix - computed: true, optional: true, required: false
-  private _prefix?: string;
+  private _prefix?: string; 
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -1137,7 +1137,7 @@ export class BedrockagentcoreBrowserCustomRecordingConfigOutputReference extends
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -1282,7 +1282,7 @@ export class BedrockagentcoreBrowserCustom extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1314,7 +1314,7 @@ export class BedrockagentcoreBrowserCustom extends cdktn.TerraformResource {
   }
 
   // execution_role_arn - computed: true, optional: true, required: false
-  private _executionRoleArn?: string;
+  private _executionRoleArn?: string; 
   public get executionRoleArn() {
     return this.getStringAttribute('execution_role_arn');
   }
@@ -1345,7 +1345,7 @@ export class BedrockagentcoreBrowserCustom extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1392,7 +1392,7 @@ export class BedrockagentcoreBrowserCustom extends cdktn.TerraformResource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

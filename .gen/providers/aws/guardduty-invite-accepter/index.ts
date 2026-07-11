@@ -114,7 +114,7 @@ export class GuarddutyInviteAccepterTimeoutsOutputReference extends cdktn.Comple
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -192,7 +192,7 @@ export class GuarddutyInviteAccepter extends cdktn.TerraformResource {
   // ==========
 
   // detector_id - computed: false, optional: false, required: true
-  private _detectorId?: string;
+  private _detectorId?: string; 
   public get detectorId() {
     return this.getStringAttribute('detector_id');
   }
@@ -205,7 +205,7 @@ export class GuarddutyInviteAccepter extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -221,7 +221,7 @@ export class GuarddutyInviteAccepter extends cdktn.TerraformResource {
   }
 
   // master_account_id - computed: false, optional: false, required: true
-  private _masterAccountId?: string;
+  private _masterAccountId?: string; 
   public get masterAccountId() {
     return this.getStringAttribute('master_account_id');
   }
@@ -234,7 +234,7 @@ export class GuarddutyInviteAccepter extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

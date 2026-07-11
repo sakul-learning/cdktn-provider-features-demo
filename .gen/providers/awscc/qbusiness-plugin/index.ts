@@ -136,7 +136,7 @@ export class QbusinessPluginAuthConfigurationBasicAuthConfigurationOutputReferen
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -152,7 +152,7 @@ export class QbusinessPluginAuthConfigurationBasicAuthConfigurationOutputReferen
   }
 
   // secret_arn - computed: true, optional: true, required: false
-  private _secretArn?: string;
+  private _secretArn?: string; 
   public get secretArn() {
     return this.getStringAttribute('secret_arn');
   }
@@ -297,7 +297,7 @@ export class QbusinessPluginAuthConfigurationOAuth2ClientCredentialConfiguration
   }
 
   // authorization_url - computed: true, optional: true, required: false
-  private _authorizationUrl?: string;
+  private _authorizationUrl?: string; 
   public get authorizationUrl() {
     return this.getStringAttribute('authorization_url');
   }
@@ -313,7 +313,7 @@ export class QbusinessPluginAuthConfigurationOAuth2ClientCredentialConfiguration
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -329,7 +329,7 @@ export class QbusinessPluginAuthConfigurationOAuth2ClientCredentialConfiguration
   }
 
   // secret_arn - computed: true, optional: true, required: false
-  private _secretArn?: string;
+  private _secretArn?: string; 
   public get secretArn() {
     return this.getStringAttribute('secret_arn');
   }
@@ -345,7 +345,7 @@ export class QbusinessPluginAuthConfigurationOAuth2ClientCredentialConfiguration
   }
 
   // token_url - computed: true, optional: true, required: false
-  private _tokenUrl?: string;
+  private _tokenUrl?: string; 
   public get tokenUrl() {
     return this.getStringAttribute('token_url');
   }
@@ -489,7 +489,7 @@ export class QbusinessPluginAuthConfigurationOutputReference extends cdktn.Compl
   }
 
   // no_auth_configuration - computed: true, optional: true, required: false
-  private _noAuthConfiguration?: string;
+  private _noAuthConfiguration?: string; 
   public get noAuthConfiguration() {
     return this.getStringAttribute('no_auth_configuration');
   }
@@ -616,7 +616,7 @@ export class QbusinessPluginCustomPluginConfigurationApiSchemaS3OutputReference 
   }
 
   // bucket - computed: true, optional: true, required: false
-  private _bucket?: string;
+  private _bucket?: string; 
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -632,7 +632,7 @@ export class QbusinessPluginCustomPluginConfigurationApiSchemaS3OutputReference 
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -743,7 +743,7 @@ export class QbusinessPluginCustomPluginConfigurationApiSchemaOutputReference ex
   }
 
   // payload - computed: true, optional: true, required: false
-  private _payload?: string;
+  private _payload?: string; 
   public get payload() {
     return this.getStringAttribute('payload');
   }
@@ -903,7 +903,7 @@ export class QbusinessPluginCustomPluginConfigurationOutputReference extends cdk
   }
 
   // api_schema_type - computed: true, optional: true, required: false
-  private _apiSchemaType?: string;
+  private _apiSchemaType?: string; 
   public get apiSchemaType() {
     return this.getStringAttribute('api_schema_type');
   }
@@ -919,7 +919,7 @@ export class QbusinessPluginCustomPluginConfigurationOutputReference extends cdk
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1032,7 +1032,7 @@ export class QbusinessPluginTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1048,7 +1048,7 @@ export class QbusinessPluginTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1149,7 +1149,7 @@ export class QbusinessPlugin extends cdktn.TerraformResource {
   // ==========
 
   // application_id - computed: true, optional: true, required: false
-  private _applicationId?: string;
+  private _applicationId?: string; 
   public get applicationId() {
     return this.getStringAttribute('application_id');
   }
@@ -1204,7 +1204,7 @@ export class QbusinessPlugin extends cdktn.TerraformResource {
   }
 
   // display_name - computed: false, optional: false, required: true
-  private _displayName?: string;
+  private _displayName?: string; 
   public get displayName() {
     return this.getStringAttribute('display_name');
   }
@@ -1232,7 +1232,7 @@ export class QbusinessPlugin extends cdktn.TerraformResource {
   }
 
   // server_url - computed: true, optional: true, required: false
-  private _serverUrl?: string;
+  private _serverUrl?: string; 
   public get serverUrl() {
     return this.getStringAttribute('server_url');
   }
@@ -1248,7 +1248,7 @@ export class QbusinessPlugin extends cdktn.TerraformResource {
   }
 
   // state - computed: true, optional: true, required: false
-  private _state?: string;
+  private _state?: string; 
   public get state() {
     return this.getStringAttribute('state');
   }
@@ -1280,7 +1280,7 @@ export class QbusinessPlugin extends cdktn.TerraformResource {
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }

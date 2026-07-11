@@ -175,7 +175,7 @@ export class RolesanywhereTrustAnchorNotificationSettingsOutputReference extends
   }
 
   // channel - computed: true, optional: true, required: false
-  private _channel?: string;
+  private _channel?: string; 
   public get channel() {
     return this.getStringAttribute('channel');
   }
@@ -196,7 +196,7 @@ export class RolesanywhereTrustAnchorNotificationSettingsOutputReference extends
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -212,7 +212,7 @@ export class RolesanywhereTrustAnchorNotificationSettingsOutputReference extends
   }
 
   // event - computed: true, optional: true, required: false
-  private _event?: string;
+  private _event?: string; 
   public get event() {
     return this.getStringAttribute('event');
   }
@@ -228,7 +228,7 @@ export class RolesanywhereTrustAnchorNotificationSettingsOutputReference extends
   }
 
   // threshold - computed: true, optional: true, required: false
-  private _threshold?: number;
+  private _threshold?: number; 
   public get threshold() {
     return this.getNumberAttribute('threshold');
   }
@@ -349,7 +349,7 @@ export class RolesanywhereTrustAnchorSourceSourceDataOutputReference extends cdk
   }
 
   // acm_pca_arn - computed: false, optional: true, required: false
-  private _acmPcaArn?: string;
+  private _acmPcaArn?: string; 
   public get acmPcaArn() {
     return this.getStringAttribute('acm_pca_arn');
   }
@@ -365,7 +365,7 @@ export class RolesanywhereTrustAnchorSourceSourceDataOutputReference extends cdk
   }
 
   // x509_certificate_data - computed: false, optional: true, required: false
-  private _x509CertificateData?: string;
+  private _x509CertificateData?: string; 
   public get x509CertificateData() {
     return this.getStringAttribute('x509_certificate_data');
   }
@@ -468,7 +468,7 @@ export class RolesanywhereTrustAnchorSourceOutputReference extends cdktn.Complex
   }
 
   // source_type - computed: false, optional: false, required: true
-  private _sourceType?: string;
+  private _sourceType?: string; 
   public get sourceType() {
     return this.getStringAttribute('source_type');
   }
@@ -563,7 +563,7 @@ export class RolesanywhereTrustAnchor extends cdktn.TerraformResource {
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -579,7 +579,7 @@ export class RolesanywhereTrustAnchor extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -595,7 +595,7 @@ export class RolesanywhereTrustAnchor extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -608,7 +608,7 @@ export class RolesanywhereTrustAnchor extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -624,7 +624,7 @@ export class RolesanywhereTrustAnchor extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

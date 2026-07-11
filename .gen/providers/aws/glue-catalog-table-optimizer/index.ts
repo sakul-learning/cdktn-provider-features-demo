@@ -151,7 +151,7 @@ export class GlueCatalogTableOptimizerConfigurationOrphanFileDeletionConfigurati
   }
 
   // location - computed: false, optional: true, required: false
-  private _location?: string;
+  private _location?: string; 
   public get location() {
     return this.getStringAttribute('location');
   }
@@ -167,7 +167,7 @@ export class GlueCatalogTableOptimizerConfigurationOrphanFileDeletionConfigurati
   }
 
   // orphan_file_retention_period_in_days - computed: false, optional: true, required: false
-  private _orphanFileRetentionPeriodInDays?: number;
+  private _orphanFileRetentionPeriodInDays?: number; 
   public get orphanFileRetentionPeriodInDays() {
     return this.getNumberAttribute('orphan_file_retention_period_in_days');
   }
@@ -183,7 +183,7 @@ export class GlueCatalogTableOptimizerConfigurationOrphanFileDeletionConfigurati
   }
 
   // run_rate_in_hours - computed: true, optional: true, required: false
-  private _runRateInHours?: number;
+  private _runRateInHours?: number; 
   public get runRateInHours() {
     return this.getNumberAttribute('run_rate_in_hours');
   }
@@ -468,7 +468,7 @@ export class GlueCatalogTableOptimizerConfigurationRetentionConfigurationIceberg
   }
 
   // clean_expired_files - computed: false, optional: true, required: false
-  private _cleanExpiredFiles?: boolean | cdktn.IResolvable;
+  private _cleanExpiredFiles?: boolean | cdktn.IResolvable; 
   public get cleanExpiredFiles() {
     return this.getBooleanAttribute('clean_expired_files');
   }
@@ -484,7 +484,7 @@ export class GlueCatalogTableOptimizerConfigurationRetentionConfigurationIceberg
   }
 
   // number_of_snapshots_to_retain - computed: false, optional: true, required: false
-  private _numberOfSnapshotsToRetain?: number;
+  private _numberOfSnapshotsToRetain?: number; 
   public get numberOfSnapshotsToRetain() {
     return this.getNumberAttribute('number_of_snapshots_to_retain');
   }
@@ -500,7 +500,7 @@ export class GlueCatalogTableOptimizerConfigurationRetentionConfigurationIceberg
   }
 
   // run_rate_in_hours - computed: true, optional: true, required: false
-  private _runRateInHours?: number;
+  private _runRateInHours?: number; 
   public get runRateInHours() {
     return this.getNumberAttribute('run_rate_in_hours');
   }
@@ -516,7 +516,7 @@ export class GlueCatalogTableOptimizerConfigurationRetentionConfigurationIceberg
   }
 
   // snapshot_retention_period_in_days - computed: false, optional: true, required: false
-  private _snapshotRetentionPeriodInDays?: number;
+  private _snapshotRetentionPeriodInDays?: number; 
   public get snapshotRetentionPeriodInDays() {
     return this.getNumberAttribute('snapshot_retention_period_in_days');
   }
@@ -805,7 +805,7 @@ export class GlueCatalogTableOptimizerConfigurationOutputReference extends cdktn
   }
 
   // enabled - computed: false, optional: false, required: true
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -818,7 +818,7 @@ export class GlueCatalogTableOptimizerConfigurationOutputReference extends cdktn
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -946,7 +946,7 @@ export class GlueCatalogTableOptimizer extends cdktn.TerraformResource {
   // ==========
 
   // catalog_id - computed: false, optional: false, required: true
-  private _catalogId?: string;
+  private _catalogId?: string; 
   public get catalogId() {
     return this.getStringAttribute('catalog_id');
   }
@@ -959,7 +959,7 @@ export class GlueCatalogTableOptimizer extends cdktn.TerraformResource {
   }
 
   // database_name - computed: false, optional: false, required: true
-  private _databaseName?: string;
+  private _databaseName?: string; 
   public get databaseName() {
     return this.getStringAttribute('database_name');
   }
@@ -972,7 +972,7 @@ export class GlueCatalogTableOptimizer extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -988,7 +988,7 @@ export class GlueCatalogTableOptimizer extends cdktn.TerraformResource {
   }
 
   // table_name - computed: false, optional: false, required: true
-  private _tableName?: string;
+  private _tableName?: string; 
   public get tableName() {
     return this.getStringAttribute('table_name');
   }
@@ -1001,7 +1001,7 @@ export class GlueCatalogTableOptimizer extends cdktn.TerraformResource {
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }

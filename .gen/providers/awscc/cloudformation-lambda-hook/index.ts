@@ -156,7 +156,7 @@ export class CloudformationLambdaHookStackFiltersStackNamesOutputReference exten
   }
 
   // exclude - computed: true, optional: true, required: false
-  private _exclude?: string[];
+  private _exclude?: string[]; 
   public get exclude() {
     return cdktn.Fn.tolist(this.getListAttribute('exclude'));
   }
@@ -172,7 +172,7 @@ export class CloudformationLambdaHookStackFiltersStackNamesOutputReference exten
   }
 
   // include - computed: true, optional: true, required: false
-  private _include?: string[];
+  private _include?: string[]; 
   public get include() {
     return cdktn.Fn.tolist(this.getListAttribute('include'));
   }
@@ -287,7 +287,7 @@ export class CloudformationLambdaHookStackFiltersStackRolesOutputReference exten
   }
 
   // exclude - computed: true, optional: true, required: false
-  private _exclude?: string[];
+  private _exclude?: string[]; 
   public get exclude() {
     return cdktn.Fn.tolist(this.getListAttribute('exclude'));
   }
@@ -303,7 +303,7 @@ export class CloudformationLambdaHookStackFiltersStackRolesOutputReference exten
   }
 
   // include - computed: true, optional: true, required: false
-  private _include?: string[];
+  private _include?: string[]; 
   public get include() {
     return cdktn.Fn.tolist(this.getListAttribute('include'));
   }
@@ -437,7 +437,7 @@ export class CloudformationLambdaHookStackFiltersOutputReference extends cdktn.C
   }
 
   // filtering_criteria - computed: true, optional: true, required: false
-  private _filteringCriteria?: string;
+  private _filteringCriteria?: string; 
   public get filteringCriteria() {
     return this.getStringAttribute('filtering_criteria');
   }
@@ -605,7 +605,7 @@ export class CloudformationLambdaHookTargetFiltersTargetsOutputReference extends
   }
 
   // action - computed: true, optional: true, required: false
-  private _action?: string;
+  private _action?: string; 
   public get action() {
     return this.getStringAttribute('action');
   }
@@ -621,7 +621,7 @@ export class CloudformationLambdaHookTargetFiltersTargetsOutputReference extends
   }
 
   // invocation_point - computed: true, optional: true, required: false
-  private _invocationPoint?: string;
+  private _invocationPoint?: string; 
   public get invocationPoint() {
     return this.getStringAttribute('invocation_point');
   }
@@ -637,7 +637,7 @@ export class CloudformationLambdaHookTargetFiltersTargetsOutputReference extends
   }
 
   // target_name - computed: true, optional: true, required: false
-  private _targetName?: string;
+  private _targetName?: string; 
   public get targetName() {
     return this.getStringAttribute('target_name');
   }
@@ -810,7 +810,7 @@ export class CloudformationLambdaHookTargetFiltersOutputReference extends cdktn.
   }
 
   // actions - computed: true, optional: true, required: false
-  private _actions?: string[];
+  private _actions?: string[]; 
   public get actions() {
     return cdktn.Fn.tolist(this.getListAttribute('actions'));
   }
@@ -826,7 +826,7 @@ export class CloudformationLambdaHookTargetFiltersOutputReference extends cdktn.
   }
 
   // invocation_points - computed: true, optional: true, required: false
-  private _invocationPoints?: string[];
+  private _invocationPoints?: string[]; 
   public get invocationPoints() {
     return cdktn.Fn.tolist(this.getListAttribute('invocation_points'));
   }
@@ -842,7 +842,7 @@ export class CloudformationLambdaHookTargetFiltersOutputReference extends cdktn.
   }
 
   // target_names - computed: true, optional: true, required: false
-  private _targetNames?: string[];
+  private _targetNames?: string[]; 
   public get targetNames() {
     return cdktn.Fn.tolist(this.getListAttribute('target_names'));
   }
@@ -939,7 +939,7 @@ export class CloudformationLambdaHook extends cdktn.TerraformResource {
   // ==========
 
   // alias - computed: false, optional: false, required: true
-  private _alias?: string;
+  private _alias?: string; 
   public get alias() {
     return this.getStringAttribute('alias');
   }
@@ -952,7 +952,7 @@ export class CloudformationLambdaHook extends cdktn.TerraformResource {
   }
 
   // execution_role - computed: false, optional: false, required: true
-  private _executionRole?: string;
+  private _executionRole?: string; 
   public get executionRole() {
     return this.getStringAttribute('execution_role');
   }
@@ -965,7 +965,7 @@ export class CloudformationLambdaHook extends cdktn.TerraformResource {
   }
 
   // failure_mode - computed: false, optional: false, required: true
-  private _failureMode?: string;
+  private _failureMode?: string; 
   public get failureMode() {
     return this.getStringAttribute('failure_mode');
   }
@@ -983,7 +983,7 @@ export class CloudformationLambdaHook extends cdktn.TerraformResource {
   }
 
   // hook_status - computed: true, optional: true, required: false
-  private _hookStatus?: string;
+  private _hookStatus?: string; 
   public get hookStatus() {
     return this.getStringAttribute('hook_status');
   }
@@ -1004,7 +1004,7 @@ export class CloudformationLambdaHook extends cdktn.TerraformResource {
   }
 
   // lambda_function - computed: false, optional: false, required: true
-  private _lambdaFunction?: string;
+  private _lambdaFunction?: string; 
   public get lambdaFunction() {
     return this.getStringAttribute('lambda_function');
   }
@@ -1049,7 +1049,7 @@ export class CloudformationLambdaHook extends cdktn.TerraformResource {
   }
 
   // target_operations - computed: false, optional: false, required: true
-  private _targetOperations?: string[];
+  private _targetOperations?: string[]; 
   public get targetOperations() {
     return this.getListAttribute('target_operations');
   }

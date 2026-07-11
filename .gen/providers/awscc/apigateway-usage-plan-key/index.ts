@@ -90,7 +90,7 @@ export class ApigatewayUsagePlanKey extends cdktn.TerraformResource {
   }
 
   // key_id - computed: false, optional: false, required: true
-  private _keyId?: string;
+  private _keyId?: string; 
   public get keyId() {
     return this.getStringAttribute('key_id');
   }
@@ -103,7 +103,7 @@ export class ApigatewayUsagePlanKey extends cdktn.TerraformResource {
   }
 
   // key_type - computed: false, optional: false, required: true
-  private _keyType?: string;
+  private _keyType?: string; 
   public get keyType() {
     return this.getStringAttribute('key_type');
   }
@@ -116,7 +116,7 @@ export class ApigatewayUsagePlanKey extends cdktn.TerraformResource {
   }
 
   // usage_plan_id - computed: false, optional: false, required: true
-  private _usagePlanId?: string;
+  private _usagePlanId?: string; 
   public get usagePlanId() {
     return this.getStringAttribute('usage_plan_id');
   }

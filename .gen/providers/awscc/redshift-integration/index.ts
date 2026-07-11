@@ -46,13 +46,13 @@ export interface RedshiftIntegrationConfig extends cdktn.TerraformMetaArguments 
 }
 export interface RedshiftIntegrationTags {
   /**
-  * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
+  * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_integration#key RedshiftIntegration#key}
   */
   readonly key?: string;
   /**
-  * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
+  * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_integration#value RedshiftIntegration#value}
   */
@@ -146,7 +146,7 @@ export class RedshiftIntegrationTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -162,7 +162,7 @@ export class RedshiftIntegrationTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -261,7 +261,7 @@ export class RedshiftIntegration extends cdktn.TerraformResource {
   // ==========
 
   // additional_encryption_context - computed: true, optional: true, required: false
-  private _additionalEncryptionContext?: { [key: string]: string };
+  private _additionalEncryptionContext?: { [key: string]: string }; 
   public get additionalEncryptionContext() {
     return this.getStringMapAttribute('additional_encryption_context');
   }
@@ -292,7 +292,7 @@ export class RedshiftIntegration extends cdktn.TerraformResource {
   }
 
   // integration_name - computed: true, optional: true, required: false
-  private _integrationName?: string;
+  private _integrationName?: string; 
   public get integrationName() {
     return this.getStringAttribute('integration_name');
   }
@@ -308,7 +308,7 @@ export class RedshiftIntegration extends cdktn.TerraformResource {
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -324,7 +324,7 @@ export class RedshiftIntegration extends cdktn.TerraformResource {
   }
 
   // source_arn - computed: false, optional: false, required: true
-  private _sourceArn?: string;
+  private _sourceArn?: string; 
   public get sourceArn() {
     return this.getStringAttribute('source_arn');
   }
@@ -353,7 +353,7 @@ export class RedshiftIntegration extends cdktn.TerraformResource {
   }
 
   // target_arn - computed: false, optional: false, required: true
-  private _targetArn?: string;
+  private _targetArn?: string; 
   public get targetArn() {
     return this.getStringAttribute('target_arn');
   }

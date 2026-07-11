@@ -186,7 +186,7 @@ export class SagemakerPartnerAppApplicationConfigOutputReference extends cdktn.C
   }
 
   // admin_users - computed: true, optional: true, required: false
-  private _adminUsers?: string[];
+  private _adminUsers?: string[]; 
   public get adminUsers() {
     return cdktn.Fn.tolist(this.getListAttribute('admin_users'));
   }
@@ -202,7 +202,7 @@ export class SagemakerPartnerAppApplicationConfigOutputReference extends cdktn.C
   }
 
   // arguments - computed: true, optional: true, required: false
-  private _arguments?: { [key: string]: string };
+  private _arguments?: { [key: string]: string }; 
   public get arguments() {
     return this.getStringMapAttribute('arguments');
   }
@@ -298,7 +298,7 @@ export class SagemakerPartnerAppMaintenanceConfigOutputReference extends cdktn.C
   }
 
   // maintenance_window_start - computed: true, optional: true, required: false
-  private _maintenanceWindowStart?: string;
+  private _maintenanceWindowStart?: string; 
   public get maintenanceWindowStart() {
     return this.getStringAttribute('maintenance_window_start');
   }
@@ -411,7 +411,7 @@ export class SagemakerPartnerAppTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -427,7 +427,7 @@ export class SagemakerPartnerAppTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -533,7 +533,7 @@ export class SagemakerPartnerApp extends cdktn.TerraformResource {
   // ==========
 
   // app_version - computed: true, optional: true, required: false
-  private _appVersion?: string;
+  private _appVersion?: string; 
   public get appVersion() {
     return this.getStringAttribute('app_version');
   }
@@ -570,7 +570,7 @@ export class SagemakerPartnerApp extends cdktn.TerraformResource {
   }
 
   // auth_type - computed: false, optional: false, required: true
-  private _authType?: string;
+  private _authType?: string; 
   public get authType() {
     return this.getStringAttribute('auth_type');
   }
@@ -588,7 +588,7 @@ export class SagemakerPartnerApp extends cdktn.TerraformResource {
   }
 
   // client_token - computed: true, optional: true, required: false
-  private _clientToken?: string;
+  private _clientToken?: string; 
   public get clientToken() {
     return this.getStringAttribute('client_token');
   }
@@ -609,7 +609,7 @@ export class SagemakerPartnerApp extends cdktn.TerraformResource {
   }
 
   // enable_auto_minor_version_upgrade - computed: true, optional: true, required: false
-  private _enableAutoMinorVersionUpgrade?: boolean | cdktn.IResolvable;
+  private _enableAutoMinorVersionUpgrade?: boolean | cdktn.IResolvable; 
   public get enableAutoMinorVersionUpgrade() {
     return this.getBooleanAttribute('enable_auto_minor_version_upgrade');
   }
@@ -625,7 +625,7 @@ export class SagemakerPartnerApp extends cdktn.TerraformResource {
   }
 
   // enable_iam_session_based_identity - computed: true, optional: true, required: false
-  private _enableIamSessionBasedIdentity?: boolean | cdktn.IResolvable;
+  private _enableIamSessionBasedIdentity?: boolean | cdktn.IResolvable; 
   public get enableIamSessionBasedIdentity() {
     return this.getBooleanAttribute('enable_iam_session_based_identity');
   }
@@ -641,7 +641,7 @@ export class SagemakerPartnerApp extends cdktn.TerraformResource {
   }
 
   // execution_role_arn - computed: false, optional: false, required: true
-  private _executionRoleArn?: string;
+  private _executionRoleArn?: string; 
   public get executionRoleArn() {
     return this.getStringAttribute('execution_role_arn');
   }
@@ -659,7 +659,7 @@ export class SagemakerPartnerApp extends cdktn.TerraformResource {
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -691,7 +691,7 @@ export class SagemakerPartnerApp extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -720,7 +720,7 @@ export class SagemakerPartnerApp extends cdktn.TerraformResource {
   }
 
   // tier - computed: false, optional: false, required: true
-  private _tier?: string;
+  private _tier?: string; 
   public get tier() {
     return this.getStringAttribute('tier');
   }
@@ -733,7 +733,7 @@ export class SagemakerPartnerApp extends cdktn.TerraformResource {
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }

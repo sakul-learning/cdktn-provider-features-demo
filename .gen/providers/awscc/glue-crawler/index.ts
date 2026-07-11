@@ -192,7 +192,7 @@ export class GlueCrawlerLakeFormationConfigurationOutputReference extends cdktn.
   }
 
   // account_id - computed: true, optional: true, required: false
-  private _accountId?: string;
+  private _accountId?: string; 
   public get accountId() {
     return this.getStringAttribute('account_id');
   }
@@ -208,7 +208,7 @@ export class GlueCrawlerLakeFormationConfigurationOutputReference extends cdktn.
   }
 
   // use_lake_formation_credentials - computed: true, optional: true, required: false
-  private _useLakeFormationCredentials?: boolean | cdktn.IResolvable;
+  private _useLakeFormationCredentials?: boolean | cdktn.IResolvable; 
   public get useLakeFormationCredentials() {
     return this.getBooleanAttribute('use_lake_formation_credentials');
   }
@@ -304,7 +304,7 @@ export class GlueCrawlerRecrawlPolicyOutputReference extends cdktn.ComplexObject
   }
 
   // recrawl_behavior - computed: true, optional: true, required: false
-  private _recrawlBehavior?: string;
+  private _recrawlBehavior?: string; 
   public get recrawlBehavior() {
     return this.getStringAttribute('recrawl_behavior');
   }
@@ -400,7 +400,7 @@ export class GlueCrawlerScheduleOutputReference extends cdktn.ComplexObject {
   }
 
   // schedule_expression - computed: true, optional: true, required: false
-  private _scheduleExpression?: string;
+  private _scheduleExpression?: string; 
   public get scheduleExpression() {
     return this.getStringAttribute('schedule_expression');
   }
@@ -515,7 +515,7 @@ export class GlueCrawlerSchemaChangePolicyOutputReference extends cdktn.ComplexO
   }
 
   // delete_behavior - computed: true, optional: true, required: false
-  private _deleteBehavior?: string;
+  private _deleteBehavior?: string; 
   public get deleteBehavior() {
     return this.getStringAttribute('delete_behavior');
   }
@@ -531,7 +531,7 @@ export class GlueCrawlerSchemaChangePolicyOutputReference extends cdktn.ComplexO
   }
 
   // update_behavior - computed: true, optional: true, required: false
-  private _updateBehavior?: string;
+  private _updateBehavior?: string; 
   public get updateBehavior() {
     return this.getStringAttribute('update_behavior');
   }
@@ -705,7 +705,7 @@ export class GlueCrawlerTargetsCatalogTargetsOutputReference extends cdktn.Compl
   }
 
   // connection_name - computed: true, optional: true, required: false
-  private _connectionName?: string;
+  private _connectionName?: string; 
   public get connectionName() {
     return this.getStringAttribute('connection_name');
   }
@@ -721,7 +721,7 @@ export class GlueCrawlerTargetsCatalogTargetsOutputReference extends cdktn.Compl
   }
 
   // database_name - computed: true, optional: true, required: false
-  private _databaseName?: string;
+  private _databaseName?: string; 
   public get databaseName() {
     return this.getStringAttribute('database_name');
   }
@@ -737,7 +737,7 @@ export class GlueCrawlerTargetsCatalogTargetsOutputReference extends cdktn.Compl
   }
 
   // dlq_event_queue_arn - computed: true, optional: true, required: false
-  private _dlqEventQueueArn?: string;
+  private _dlqEventQueueArn?: string; 
   public get dlqEventQueueArn() {
     return this.getStringAttribute('dlq_event_queue_arn');
   }
@@ -753,7 +753,7 @@ export class GlueCrawlerTargetsCatalogTargetsOutputReference extends cdktn.Compl
   }
 
   // event_queue_arn - computed: true, optional: true, required: false
-  private _eventQueueArn?: string;
+  private _eventQueueArn?: string; 
   public get eventQueueArn() {
     return this.getStringAttribute('event_queue_arn');
   }
@@ -769,7 +769,7 @@ export class GlueCrawlerTargetsCatalogTargetsOutputReference extends cdktn.Compl
   }
 
   // tables - computed: true, optional: true, required: false
-  private _tables?: string[];
+  private _tables?: string[]; 
   public get tables() {
     return this.getListAttribute('tables');
   }
@@ -942,7 +942,7 @@ export class GlueCrawlerTargetsDeltaTargetsOutputReference extends cdktn.Complex
   }
 
   // connection_name - computed: true, optional: true, required: false
-  private _connectionName?: string;
+  private _connectionName?: string; 
   public get connectionName() {
     return this.getStringAttribute('connection_name');
   }
@@ -958,7 +958,7 @@ export class GlueCrawlerTargetsDeltaTargetsOutputReference extends cdktn.Complex
   }
 
   // create_native_delta_table - computed: true, optional: true, required: false
-  private _createNativeDeltaTable?: boolean | cdktn.IResolvable;
+  private _createNativeDeltaTable?: boolean | cdktn.IResolvable; 
   public get createNativeDeltaTable() {
     return this.getBooleanAttribute('create_native_delta_table');
   }
@@ -974,7 +974,7 @@ export class GlueCrawlerTargetsDeltaTargetsOutputReference extends cdktn.Complex
   }
 
   // delta_tables - computed: true, optional: true, required: false
-  private _deltaTables?: string[];
+  private _deltaTables?: string[]; 
   public get deltaTables() {
     return this.getListAttribute('delta_tables');
   }
@@ -990,7 +990,7 @@ export class GlueCrawlerTargetsDeltaTargetsOutputReference extends cdktn.Complex
   }
 
   // write_manifest - computed: true, optional: true, required: false
-  private _writeManifest?: boolean | cdktn.IResolvable;
+  private _writeManifest?: boolean | cdktn.IResolvable; 
   public get writeManifest() {
     return this.getBooleanAttribute('write_manifest');
   }
@@ -1040,7 +1040,7 @@ export interface GlueCrawlerTargetsDynamoDbTargets {
   readonly scanAll?: boolean | cdktn.IResolvable;
   /**
   * The percentage of the configured read capacity units to use by the AWS Glue crawler. Read capacity units is a term defined by DynamoDB, and is a numeric value that acts as rate limiter for the number of reads that can be performed on that table per second.
-  *
+  * 
   * The valid values are null or a value between 0.1 to 1.5. A null value is used when user does not provide a value, and defaults to 0.5 of the configured Read Capacity Unit (for provisioned tables), or 0.25 of the max configured Read Capacity Unit (for tables using on-demand mode).
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_crawler#scan_rate GlueCrawler#scan_rate}
@@ -1148,7 +1148,7 @@ export class GlueCrawlerTargetsDynamoDbTargetsOutputReference extends cdktn.Comp
   }
 
   // path - computed: true, optional: true, required: false
-  private _path?: string;
+  private _path?: string; 
   public get path() {
     return this.getStringAttribute('path');
   }
@@ -1164,7 +1164,7 @@ export class GlueCrawlerTargetsDynamoDbTargetsOutputReference extends cdktn.Comp
   }
 
   // scan_all - computed: true, optional: true, required: false
-  private _scanAll?: boolean | cdktn.IResolvable;
+  private _scanAll?: boolean | cdktn.IResolvable; 
   public get scanAll() {
     return this.getBooleanAttribute('scan_all');
   }
@@ -1180,7 +1180,7 @@ export class GlueCrawlerTargetsDynamoDbTargetsOutputReference extends cdktn.Comp
   }
 
   // scan_rate - computed: true, optional: true, required: false
-  private _scanRate?: number;
+  private _scanRate?: number; 
   public get scanRate() {
     return this.getNumberAttribute('scan_rate');
   }
@@ -1355,7 +1355,7 @@ export class GlueCrawlerTargetsHudiTargetsOutputReference extends cdktn.ComplexO
   }
 
   // connection_name - computed: true, optional: true, required: false
-  private _connectionName?: string;
+  private _connectionName?: string; 
   public get connectionName() {
     return this.getStringAttribute('connection_name');
   }
@@ -1371,7 +1371,7 @@ export class GlueCrawlerTargetsHudiTargetsOutputReference extends cdktn.ComplexO
   }
 
   // exclusions - computed: true, optional: true, required: false
-  private _exclusions?: string[];
+  private _exclusions?: string[]; 
   public get exclusions() {
     return this.getListAttribute('exclusions');
   }
@@ -1387,7 +1387,7 @@ export class GlueCrawlerTargetsHudiTargetsOutputReference extends cdktn.ComplexO
   }
 
   // maximum_traversal_depth - computed: true, optional: true, required: false
-  private _maximumTraversalDepth?: number;
+  private _maximumTraversalDepth?: number; 
   public get maximumTraversalDepth() {
     return this.getNumberAttribute('maximum_traversal_depth');
   }
@@ -1403,7 +1403,7 @@ export class GlueCrawlerTargetsHudiTargetsOutputReference extends cdktn.ComplexO
   }
 
   // paths - computed: true, optional: true, required: false
-  private _paths?: string[];
+  private _paths?: string[]; 
   public get paths() {
     return this.getListAttribute('paths');
   }
@@ -1578,7 +1578,7 @@ export class GlueCrawlerTargetsIcebergTargetsOutputReference extends cdktn.Compl
   }
 
   // connection_name - computed: true, optional: true, required: false
-  private _connectionName?: string;
+  private _connectionName?: string; 
   public get connectionName() {
     return this.getStringAttribute('connection_name');
   }
@@ -1594,7 +1594,7 @@ export class GlueCrawlerTargetsIcebergTargetsOutputReference extends cdktn.Compl
   }
 
   // exclusions - computed: true, optional: true, required: false
-  private _exclusions?: string[];
+  private _exclusions?: string[]; 
   public get exclusions() {
     return this.getListAttribute('exclusions');
   }
@@ -1610,7 +1610,7 @@ export class GlueCrawlerTargetsIcebergTargetsOutputReference extends cdktn.Compl
   }
 
   // maximum_traversal_depth - computed: true, optional: true, required: false
-  private _maximumTraversalDepth?: number;
+  private _maximumTraversalDepth?: number; 
   public get maximumTraversalDepth() {
     return this.getNumberAttribute('maximum_traversal_depth');
   }
@@ -1626,7 +1626,7 @@ export class GlueCrawlerTargetsIcebergTargetsOutputReference extends cdktn.Compl
   }
 
   // paths - computed: true, optional: true, required: false
-  private _paths?: string[];
+  private _paths?: string[]; 
   public get paths() {
     return this.getListAttribute('paths');
   }
@@ -1670,7 +1670,7 @@ export interface GlueCrawlerTargetsJdbcTargets {
   readonly connectionName?: string;
   /**
   * Specify a value of RAWTYPES or COMMENTS to enable additional metadata in table responses. RAWTYPES provides the native-level datatype. COMMENTS provides comments associated with a column or table in the database.
-  *
+  * 
   * If you do not need additional metadata, keep the field empty.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_crawler#enable_additional_metadata GlueCrawler#enable_additional_metadata}
@@ -1803,7 +1803,7 @@ export class GlueCrawlerTargetsJdbcTargetsOutputReference extends cdktn.ComplexO
   }
 
   // connection_name - computed: true, optional: true, required: false
-  private _connectionName?: string;
+  private _connectionName?: string; 
   public get connectionName() {
     return this.getStringAttribute('connection_name');
   }
@@ -1819,7 +1819,7 @@ export class GlueCrawlerTargetsJdbcTargetsOutputReference extends cdktn.ComplexO
   }
 
   // enable_additional_metadata - computed: true, optional: true, required: false
-  private _enableAdditionalMetadata?: string[];
+  private _enableAdditionalMetadata?: string[]; 
   public get enableAdditionalMetadata() {
     return this.getListAttribute('enable_additional_metadata');
   }
@@ -1835,7 +1835,7 @@ export class GlueCrawlerTargetsJdbcTargetsOutputReference extends cdktn.ComplexO
   }
 
   // exclusions - computed: true, optional: true, required: false
-  private _exclusions?: string[];
+  private _exclusions?: string[]; 
   public get exclusions() {
     return this.getListAttribute('exclusions');
   }
@@ -1851,7 +1851,7 @@ export class GlueCrawlerTargetsJdbcTargetsOutputReference extends cdktn.ComplexO
   }
 
   // path - computed: true, optional: true, required: false
-  private _path?: string;
+  private _path?: string; 
   public get path() {
     return this.getStringAttribute('path');
   }
@@ -1988,7 +1988,7 @@ export class GlueCrawlerTargetsMongoDbTargetsOutputReference extends cdktn.Compl
   }
 
   // connection_name - computed: true, optional: true, required: false
-  private _connectionName?: string;
+  private _connectionName?: string; 
   public get connectionName() {
     return this.getStringAttribute('connection_name');
   }
@@ -2004,7 +2004,7 @@ export class GlueCrawlerTargetsMongoDbTargetsOutputReference extends cdktn.Compl
   }
 
   // path - computed: true, optional: true, required: false
-  private _path?: string;
+  private _path?: string; 
   public get path() {
     return this.getStringAttribute('path');
   }
@@ -2217,7 +2217,7 @@ export class GlueCrawlerTargetsS3TargetsOutputReference extends cdktn.ComplexObj
   }
 
   // connection_name - computed: true, optional: true, required: false
-  private _connectionName?: string;
+  private _connectionName?: string; 
   public get connectionName() {
     return this.getStringAttribute('connection_name');
   }
@@ -2233,7 +2233,7 @@ export class GlueCrawlerTargetsS3TargetsOutputReference extends cdktn.ComplexObj
   }
 
   // dlq_event_queue_arn - computed: true, optional: true, required: false
-  private _dlqEventQueueArn?: string;
+  private _dlqEventQueueArn?: string; 
   public get dlqEventQueueArn() {
     return this.getStringAttribute('dlq_event_queue_arn');
   }
@@ -2249,7 +2249,7 @@ export class GlueCrawlerTargetsS3TargetsOutputReference extends cdktn.ComplexObj
   }
 
   // event_queue_arn - computed: true, optional: true, required: false
-  private _eventQueueArn?: string;
+  private _eventQueueArn?: string; 
   public get eventQueueArn() {
     return this.getStringAttribute('event_queue_arn');
   }
@@ -2265,7 +2265,7 @@ export class GlueCrawlerTargetsS3TargetsOutputReference extends cdktn.ComplexObj
   }
 
   // exclusions - computed: true, optional: true, required: false
-  private _exclusions?: string[];
+  private _exclusions?: string[]; 
   public get exclusions() {
     return this.getListAttribute('exclusions');
   }
@@ -2281,7 +2281,7 @@ export class GlueCrawlerTargetsS3TargetsOutputReference extends cdktn.ComplexObj
   }
 
   // path - computed: true, optional: true, required: false
-  private _path?: string;
+  private _path?: string; 
   public get path() {
     return this.getStringAttribute('path');
   }
@@ -2297,7 +2297,7 @@ export class GlueCrawlerTargetsS3TargetsOutputReference extends cdktn.ComplexObj
   }
 
   // sample_size - computed: true, optional: true, required: false
-  private _sampleSize?: number;
+  private _sampleSize?: number; 
   public get sampleSize() {
     return this.getNumberAttribute('sample_size');
   }
@@ -2745,7 +2745,7 @@ export class GlueCrawler extends cdktn.TerraformResource {
   // ==========
 
   // classifiers - computed: true, optional: true, required: false
-  private _classifiers?: string[];
+  private _classifiers?: string[]; 
   public get classifiers() {
     return this.getListAttribute('classifiers');
   }
@@ -2761,7 +2761,7 @@ export class GlueCrawler extends cdktn.TerraformResource {
   }
 
   // configuration - computed: true, optional: true, required: false
-  private _configuration?: string;
+  private _configuration?: string; 
   public get configuration() {
     return this.getStringAttribute('configuration');
   }
@@ -2777,7 +2777,7 @@ export class GlueCrawler extends cdktn.TerraformResource {
   }
 
   // crawler_security_configuration - computed: true, optional: true, required: false
-  private _crawlerSecurityConfiguration?: string;
+  private _crawlerSecurityConfiguration?: string; 
   public get crawlerSecurityConfiguration() {
     return this.getStringAttribute('crawler_security_configuration');
   }
@@ -2793,7 +2793,7 @@ export class GlueCrawler extends cdktn.TerraformResource {
   }
 
   // database_name - computed: true, optional: true, required: false
-  private _databaseName?: string;
+  private _databaseName?: string; 
   public get databaseName() {
     return this.getStringAttribute('database_name');
   }
@@ -2809,7 +2809,7 @@ export class GlueCrawler extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -2846,7 +2846,7 @@ export class GlueCrawler extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2878,7 +2878,7 @@ export class GlueCrawler extends cdktn.TerraformResource {
   }
 
   // role - computed: false, optional: false, required: true
-  private _role?: string;
+  private _role?: string; 
   public get role() {
     return this.getStringAttribute('role');
   }
@@ -2923,7 +2923,7 @@ export class GlueCrawler extends cdktn.TerraformResource {
   }
 
   // table_prefix - computed: true, optional: true, required: false
-  private _tablePrefix?: string;
+  private _tablePrefix?: string; 
   public get tablePrefix() {
     return this.getStringAttribute('table_prefix');
   }
@@ -2939,7 +2939,7 @@ export class GlueCrawler extends cdktn.TerraformResource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: string;
+  private _tags?: string; 
   public get tags() {
     return this.getStringAttribute('tags');
   }

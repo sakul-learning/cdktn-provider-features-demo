@@ -134,7 +134,7 @@ export class Ec2VpcBlockPublicAccessExclusionTagsOutputReference extends cdktn.C
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -150,7 +150,7 @@ export class Ec2VpcBlockPublicAccessExclusionTagsOutputReference extends cdktn.C
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -257,7 +257,7 @@ export class Ec2VpcBlockPublicAccessExclusion extends cdktn.TerraformResource {
   }
 
   // internet_gateway_exclusion_mode - computed: false, optional: false, required: true
-  private _internetGatewayExclusionMode?: string;
+  private _internetGatewayExclusionMode?: string; 
   public get internetGatewayExclusionMode() {
     return this.getStringAttribute('internet_gateway_exclusion_mode');
   }
@@ -270,7 +270,7 @@ export class Ec2VpcBlockPublicAccessExclusion extends cdktn.TerraformResource {
   }
 
   // subnet_id - computed: true, optional: true, required: false
-  private _subnetId?: string;
+  private _subnetId?: string; 
   public get subnetId() {
     return this.getStringAttribute('subnet_id');
   }
@@ -302,7 +302,7 @@ export class Ec2VpcBlockPublicAccessExclusion extends cdktn.TerraformResource {
   }
 
   // vpc_id - computed: true, optional: true, required: false
-  private _vpcId?: string;
+  private _vpcId?: string; 
   public get vpcId() {
     return this.getStringAttribute('vpc_id');
   }

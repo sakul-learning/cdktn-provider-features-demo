@@ -85,7 +85,7 @@ export class Ec2GatewayRouteTableAssociation extends cdktn.TerraformResource {
   }
 
   // gateway_id - computed: false, optional: false, required: true
-  private _gatewayId?: string;
+  private _gatewayId?: string; 
   public get gatewayId() {
     return this.getStringAttribute('gateway_id');
   }
@@ -103,7 +103,7 @@ export class Ec2GatewayRouteTableAssociation extends cdktn.TerraformResource {
   }
 
   // route_table_id - computed: false, optional: false, required: true
-  private _routeTableId?: string;
+  private _routeTableId?: string; 
   public get routeTableId() {
     return this.getStringAttribute('route_table_id');
   }

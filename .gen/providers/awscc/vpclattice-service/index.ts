@@ -203,7 +203,7 @@ export class VpclatticeServiceTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -219,7 +219,7 @@ export class VpclatticeServiceTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -324,7 +324,7 @@ export class VpclatticeService extends cdktn.TerraformResource {
   }
 
   // auth_type - computed: true, optional: true, required: false
-  private _authType?: string;
+  private _authType?: string; 
   public get authType() {
     return this.getStringAttribute('auth_type');
   }
@@ -340,7 +340,7 @@ export class VpclatticeService extends cdktn.TerraformResource {
   }
 
   // certificate_arn - computed: true, optional: true, required: false
-  private _certificateArn?: string;
+  private _certificateArn?: string; 
   public get certificateArn() {
     return this.getStringAttribute('certificate_arn');
   }
@@ -361,7 +361,7 @@ export class VpclatticeService extends cdktn.TerraformResource {
   }
 
   // custom_domain_name - computed: true, optional: true, required: false
-  private _customDomainName?: string;
+  private _customDomainName?: string; 
   public get customDomainName() {
     return this.getStringAttribute('custom_domain_name');
   }
@@ -398,7 +398,7 @@ export class VpclatticeService extends cdktn.TerraformResource {
   }
 
   // idle_timeout_seconds - computed: true, optional: true, required: false
-  private _idleTimeoutSeconds?: number;
+  private _idleTimeoutSeconds?: number; 
   public get idleTimeoutSeconds() {
     return this.getNumberAttribute('idle_timeout_seconds');
   }
@@ -419,7 +419,7 @@ export class VpclatticeService extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }

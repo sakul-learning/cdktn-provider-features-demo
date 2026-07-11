@@ -8,7 +8,7 @@ import * as cdktn from 'cdktn';
 
 export interface CeAnomalySubscriptionConfig extends cdktn.TerraformMetaArguments {
   /**
-  * The frequency at which anomaly reports are sent over email.
+  * The frequency at which anomaly reports are sent over email. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ce_anomaly_subscription#frequency CeAnomalySubscription#frequency}
   */
@@ -38,7 +38,7 @@ export interface CeAnomalySubscriptionConfig extends cdktn.TerraformMetaArgument
   */
   readonly subscriptionName: string;
   /**
-  * The dollar value that triggers a notification if the threshold is exceeded.
+  * The dollar value that triggers a notification if the threshold is exceeded. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ce_anomaly_subscription#threshold CeAnomalySubscription#threshold}
   */
@@ -152,7 +152,7 @@ export class CeAnomalySubscriptionResourceTagsOutputReference extends cdktn.Comp
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -168,7 +168,7 @@ export class CeAnomalySubscriptionResourceTagsOutputReference extends cdktn.Comp
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -318,7 +318,7 @@ export class CeAnomalySubscriptionSubscribersOutputReference extends cdktn.Compl
   }
 
   // address - computed: false, optional: false, required: true
-  private _address?: string;
+  private _address?: string; 
   public get address() {
     return this.getStringAttribute('address');
   }
@@ -331,7 +331,7 @@ export class CeAnomalySubscriptionSubscribersOutputReference extends cdktn.Compl
   }
 
   // status - computed: true, optional: true, required: false
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -347,7 +347,7 @@ export class CeAnomalySubscriptionSubscribersOutputReference extends cdktn.Compl
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -449,7 +449,7 @@ export class CeAnomalySubscription extends cdktn.TerraformResource {
   }
 
   // frequency - computed: false, optional: false, required: true
-  private _frequency?: string;
+  private _frequency?: string; 
   public get frequency() {
     return this.getStringAttribute('frequency');
   }
@@ -467,7 +467,7 @@ export class CeAnomalySubscription extends cdktn.TerraformResource {
   }
 
   // monitor_arn_list - computed: false, optional: false, required: true
-  private _monitorArnList?: string[];
+  private _monitorArnList?: string[]; 
   public get monitorArnList() {
     return this.getListAttribute('monitor_arn_list');
   }
@@ -514,7 +514,7 @@ export class CeAnomalySubscription extends cdktn.TerraformResource {
   }
 
   // subscription_name - computed: false, optional: false, required: true
-  private _subscriptionName?: string;
+  private _subscriptionName?: string; 
   public get subscriptionName() {
     return this.getStringAttribute('subscription_name');
   }
@@ -527,7 +527,7 @@ export class CeAnomalySubscription extends cdktn.TerraformResource {
   }
 
   // threshold - computed: true, optional: true, required: false
-  private _threshold?: number;
+  private _threshold?: number; 
   public get threshold() {
     return this.getNumberAttribute('threshold');
   }
@@ -543,7 +543,7 @@ export class CeAnomalySubscription extends cdktn.TerraformResource {
   }
 
   // threshold_expression - computed: true, optional: true, required: false
-  private _thresholdExpression?: string;
+  private _thresholdExpression?: string; 
   public get thresholdExpression() {
     return this.getStringAttribute('threshold_expression');
   }

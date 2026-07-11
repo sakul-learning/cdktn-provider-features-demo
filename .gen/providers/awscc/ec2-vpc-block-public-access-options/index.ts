@@ -88,7 +88,7 @@ export class Ec2VpcBlockPublicAccessOptions extends cdktn.TerraformResource {
   }
 
   // internet_gateway_block_mode - computed: false, optional: false, required: true
-  private _internetGatewayBlockMode?: string;
+  private _internetGatewayBlockMode?: string; 
   public get internetGatewayBlockMode() {
     return this.getStringAttribute('internet_gateway_block_mode');
   }

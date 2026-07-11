@@ -101,7 +101,7 @@ export class PinpointSmsChannel extends cdktn.TerraformResource {
   // ==========
 
   // application_id - computed: false, optional: false, required: true
-  private _applicationId?: string;
+  private _applicationId?: string; 
   public get applicationId() {
     return this.getStringAttribute('application_id');
   }
@@ -114,7 +114,7 @@ export class PinpointSmsChannel extends cdktn.TerraformResource {
   }
 
   // enabled - computed: false, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -130,7 +130,7 @@ export class PinpointSmsChannel extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -151,7 +151,7 @@ export class PinpointSmsChannel extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -167,7 +167,7 @@ export class PinpointSmsChannel extends cdktn.TerraformResource {
   }
 
   // sender_id - computed: false, optional: true, required: false
-  private _senderId?: string;
+  private _senderId?: string; 
   public get senderId() {
     return this.getStringAttribute('sender_id');
   }
@@ -183,7 +183,7 @@ export class PinpointSmsChannel extends cdktn.TerraformResource {
   }
 
   // short_code - computed: false, optional: true, required: false
-  private _shortCode?: string;
+  private _shortCode?: string; 
   public get shortCode() {
     return this.getStringAttribute('short_code');
   }

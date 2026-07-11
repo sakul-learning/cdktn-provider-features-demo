@@ -140,7 +140,7 @@ export class Ec2CapacityManagerDataExportTagsOutputReference extends cdktn.Compl
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -156,7 +156,7 @@ export class Ec2CapacityManagerDataExportTagsOutputReference extends cdktn.Compl
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -264,7 +264,7 @@ export class Ec2CapacityManagerDataExport extends cdktn.TerraformResource {
   }
 
   // output_format - computed: false, optional: false, required: true
-  private _outputFormat?: string;
+  private _outputFormat?: string; 
   public get outputFormat() {
     return this.getStringAttribute('output_format');
   }
@@ -277,7 +277,7 @@ export class Ec2CapacityManagerDataExport extends cdktn.TerraformResource {
   }
 
   // s3_bucket_name - computed: false, optional: false, required: true
-  private _s3BucketName?: string;
+  private _s3BucketName?: string; 
   public get s3BucketName() {
     return this.getStringAttribute('s3_bucket_name');
   }
@@ -290,7 +290,7 @@ export class Ec2CapacityManagerDataExport extends cdktn.TerraformResource {
   }
 
   // s3_bucket_prefix - computed: true, optional: true, required: false
-  private _s3BucketPrefix?: string;
+  private _s3BucketPrefix?: string; 
   public get s3BucketPrefix() {
     return this.getStringAttribute('s3_bucket_prefix');
   }
@@ -306,7 +306,7 @@ export class Ec2CapacityManagerDataExport extends cdktn.TerraformResource {
   }
 
   // schedule - computed: false, optional: false, required: true
-  private _schedule?: string;
+  private _schedule?: string; 
   public get schedule() {
     return this.getStringAttribute('schedule');
   }

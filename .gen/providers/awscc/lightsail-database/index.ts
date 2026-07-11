@@ -314,7 +314,7 @@ export class LightsailDatabaseRelationalDatabaseParametersOutputReference extend
   }
 
   // allowed_values - computed: true, optional: true, required: false
-  private _allowedValues?: string;
+  private _allowedValues?: string; 
   public get allowedValues() {
     return this.getStringAttribute('allowed_values');
   }
@@ -330,7 +330,7 @@ export class LightsailDatabaseRelationalDatabaseParametersOutputReference extend
   }
 
   // apply_method - computed: true, optional: true, required: false
-  private _applyMethod?: string;
+  private _applyMethod?: string; 
   public get applyMethod() {
     return this.getStringAttribute('apply_method');
   }
@@ -346,7 +346,7 @@ export class LightsailDatabaseRelationalDatabaseParametersOutputReference extend
   }
 
   // apply_type - computed: true, optional: true, required: false
-  private _applyType?: string;
+  private _applyType?: string; 
   public get applyType() {
     return this.getStringAttribute('apply_type');
   }
@@ -362,7 +362,7 @@ export class LightsailDatabaseRelationalDatabaseParametersOutputReference extend
   }
 
   // data_type - computed: true, optional: true, required: false
-  private _dataType?: string;
+  private _dataType?: string; 
   public get dataType() {
     return this.getStringAttribute('data_type');
   }
@@ -378,7 +378,7 @@ export class LightsailDatabaseRelationalDatabaseParametersOutputReference extend
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -394,7 +394,7 @@ export class LightsailDatabaseRelationalDatabaseParametersOutputReference extend
   }
 
   // is_modifiable - computed: true, optional: true, required: false
-  private _isModifiable?: boolean | cdktn.IResolvable;
+  private _isModifiable?: boolean | cdktn.IResolvable; 
   public get isModifiable() {
     return this.getBooleanAttribute('is_modifiable');
   }
@@ -410,7 +410,7 @@ export class LightsailDatabaseRelationalDatabaseParametersOutputReference extend
   }
 
   // parameter_name - computed: true, optional: true, required: false
-  private _parameterName?: string;
+  private _parameterName?: string; 
   public get parameterName() {
     return this.getStringAttribute('parameter_name');
   }
@@ -426,7 +426,7 @@ export class LightsailDatabaseRelationalDatabaseParametersOutputReference extend
   }
 
   // parameter_value - computed: true, optional: true, required: false
-  private _parameterValue?: string;
+  private _parameterValue?: string; 
   public get parameterValue() {
     return this.getStringAttribute('parameter_value');
   }
@@ -563,7 +563,7 @@ export class LightsailDatabaseTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -579,7 +579,7 @@ export class LightsailDatabaseTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -687,7 +687,7 @@ export class LightsailDatabase extends cdktn.TerraformResource {
   // ==========
 
   // availability_zone - computed: true, optional: true, required: false
-  private _availabilityZone?: string;
+  private _availabilityZone?: string; 
   public get availabilityZone() {
     return this.getStringAttribute('availability_zone');
   }
@@ -703,7 +703,7 @@ export class LightsailDatabase extends cdktn.TerraformResource {
   }
 
   // backup_retention - computed: true, optional: true, required: false
-  private _backupRetention?: boolean | cdktn.IResolvable;
+  private _backupRetention?: boolean | cdktn.IResolvable; 
   public get backupRetention() {
     return this.getBooleanAttribute('backup_retention');
   }
@@ -719,7 +719,7 @@ export class LightsailDatabase extends cdktn.TerraformResource {
   }
 
   // ca_certificate_identifier - computed: true, optional: true, required: false
-  private _caCertificateIdentifier?: string;
+  private _caCertificateIdentifier?: string; 
   public get caCertificateIdentifier() {
     return this.getStringAttribute('ca_certificate_identifier');
   }
@@ -745,7 +745,7 @@ export class LightsailDatabase extends cdktn.TerraformResource {
   }
 
   // master_database_name - computed: false, optional: false, required: true
-  private _masterDatabaseName?: string;
+  private _masterDatabaseName?: string; 
   public get masterDatabaseName() {
     return this.getStringAttribute('master_database_name');
   }
@@ -758,7 +758,7 @@ export class LightsailDatabase extends cdktn.TerraformResource {
   }
 
   // master_user_password - computed: true, optional: true, required: false
-  private _masterUserPassword?: string;
+  private _masterUserPassword?: string; 
   public get masterUserPassword() {
     return this.getStringAttribute('master_user_password');
   }
@@ -774,7 +774,7 @@ export class LightsailDatabase extends cdktn.TerraformResource {
   }
 
   // master_username - computed: false, optional: false, required: true
-  private _masterUsername?: string;
+  private _masterUsername?: string; 
   public get masterUsername() {
     return this.getStringAttribute('master_username');
   }
@@ -787,7 +787,7 @@ export class LightsailDatabase extends cdktn.TerraformResource {
   }
 
   // preferred_backup_window - computed: true, optional: true, required: false
-  private _preferredBackupWindow?: string;
+  private _preferredBackupWindow?: string; 
   public get preferredBackupWindow() {
     return this.getStringAttribute('preferred_backup_window');
   }
@@ -803,7 +803,7 @@ export class LightsailDatabase extends cdktn.TerraformResource {
   }
 
   // preferred_maintenance_window - computed: true, optional: true, required: false
-  private _preferredMaintenanceWindow?: string;
+  private _preferredMaintenanceWindow?: string; 
   public get preferredMaintenanceWindow() {
     return this.getStringAttribute('preferred_maintenance_window');
   }
@@ -819,7 +819,7 @@ export class LightsailDatabase extends cdktn.TerraformResource {
   }
 
   // publicly_accessible - computed: true, optional: true, required: false
-  private _publiclyAccessible?: boolean | cdktn.IResolvable;
+  private _publiclyAccessible?: boolean | cdktn.IResolvable; 
   public get publiclyAccessible() {
     return this.getBooleanAttribute('publicly_accessible');
   }
@@ -835,7 +835,7 @@ export class LightsailDatabase extends cdktn.TerraformResource {
   }
 
   // relational_database_blueprint_id - computed: false, optional: false, required: true
-  private _relationalDatabaseBlueprintId?: string;
+  private _relationalDatabaseBlueprintId?: string; 
   public get relationalDatabaseBlueprintId() {
     return this.getStringAttribute('relational_database_blueprint_id');
   }
@@ -848,7 +848,7 @@ export class LightsailDatabase extends cdktn.TerraformResource {
   }
 
   // relational_database_bundle_id - computed: false, optional: false, required: true
-  private _relationalDatabaseBundleId?: string;
+  private _relationalDatabaseBundleId?: string; 
   public get relationalDatabaseBundleId() {
     return this.getStringAttribute('relational_database_bundle_id');
   }
@@ -861,7 +861,7 @@ export class LightsailDatabase extends cdktn.TerraformResource {
   }
 
   // relational_database_name - computed: false, optional: false, required: true
-  private _relationalDatabaseName?: string;
+  private _relationalDatabaseName?: string; 
   public get relationalDatabaseName() {
     return this.getStringAttribute('relational_database_name');
   }
@@ -890,7 +890,7 @@ export class LightsailDatabase extends cdktn.TerraformResource {
   }
 
   // rotate_master_user_password - computed: true, optional: true, required: false
-  private _rotateMasterUserPassword?: boolean | cdktn.IResolvable;
+  private _rotateMasterUserPassword?: boolean | cdktn.IResolvable; 
   public get rotateMasterUserPassword() {
     return this.getBooleanAttribute('rotate_master_user_password');
   }

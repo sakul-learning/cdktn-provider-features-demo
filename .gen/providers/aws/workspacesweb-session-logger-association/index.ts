@@ -83,7 +83,7 @@ export class WorkspaceswebSessionLoggerAssociation extends cdktn.TerraformResour
   // ==========
 
   // portal_arn - computed: false, optional: false, required: true
-  private _portalArn?: string;
+  private _portalArn?: string; 
   public get portalArn() {
     return this.getStringAttribute('portal_arn');
   }
@@ -96,7 +96,7 @@ export class WorkspaceswebSessionLoggerAssociation extends cdktn.TerraformResour
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -112,7 +112,7 @@ export class WorkspaceswebSessionLoggerAssociation extends cdktn.TerraformResour
   }
 
   // session_logger_arn - computed: false, optional: false, required: true
-  private _sessionLoggerArn?: string;
+  private _sessionLoggerArn?: string; 
   public get sessionLoggerArn() {
     return this.getStringAttribute('session_logger_arn');
   }

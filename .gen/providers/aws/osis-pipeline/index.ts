@@ -149,7 +149,7 @@ export class OsisPipelineBufferOptionsOutputReference extends cdktn.ComplexObjec
   }
 
   // persistent_buffer_enabled - computed: false, optional: false, required: true
-  private _persistentBufferEnabled?: boolean | cdktn.IResolvable;
+  private _persistentBufferEnabled?: boolean | cdktn.IResolvable; 
   public get persistentBufferEnabled() {
     return this.getBooleanAttribute('persistent_buffer_enabled');
   }
@@ -262,7 +262,7 @@ export class OsisPipelineEncryptionAtRestOptionsOutputReference extends cdktn.Co
   }
 
   // kms_key_arn - computed: false, optional: false, required: true
-  private _kmsKeyArn?: string;
+  private _kmsKeyArn?: string; 
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -375,7 +375,7 @@ export class OsisPipelineLogPublishingOptionsCloudwatchLogDestinationOutputRefer
   }
 
   // log_group - computed: false, optional: false, required: true
-  private _logGroup?: string;
+  private _logGroup?: string; 
   public get logGroup() {
     return this.getStringAttribute('log_group');
   }
@@ -507,7 +507,7 @@ export class OsisPipelineLogPublishingOptionsOutputReference extends cdktn.Compl
   }
 
   // is_logging_enabled - computed: false, optional: true, required: false
-  private _isLoggingEnabled?: boolean | cdktn.IResolvable;
+  private _isLoggingEnabled?: boolean | cdktn.IResolvable; 
   public get isLoggingEnabled() {
     return this.getBooleanAttribute('is_logging_enabled');
   }
@@ -677,7 +677,7 @@ export class OsisPipelineTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -693,7 +693,7 @@ export class OsisPipelineTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -709,7 +709,7 @@ export class OsisPipelineTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -839,7 +839,7 @@ export class OsisPipelineVpcOptionsOutputReference extends cdktn.ComplexObject {
   }
 
   // security_group_ids - computed: false, optional: true, required: false
-  private _securityGroupIds?: string[];
+  private _securityGroupIds?: string[]; 
   public get securityGroupIds() {
     return cdktn.Fn.tolist(this.getListAttribute('security_group_ids'));
   }
@@ -855,7 +855,7 @@ export class OsisPipelineVpcOptionsOutputReference extends cdktn.ComplexObject {
   }
 
   // subnet_ids - computed: false, optional: false, required: true
-  private _subnetIds?: string[];
+  private _subnetIds?: string[]; 
   public get subnetIds() {
     return cdktn.Fn.tolist(this.getListAttribute('subnet_ids'));
   }
@@ -868,7 +868,7 @@ export class OsisPipelineVpcOptionsOutputReference extends cdktn.ComplexObject {
   }
 
   // vpc_endpoint_management - computed: false, optional: true, required: false
-  private _vpcEndpointManagement?: string;
+  private _vpcEndpointManagement?: string; 
   public get vpcEndpointManagement() {
     return this.getStringAttribute('vpc_endpoint_management');
   }
@@ -983,7 +983,7 @@ export class OsisPipeline extends cdktn.TerraformResource {
   }
 
   // max_units - computed: false, optional: false, required: true
-  private _maxUnits?: number;
+  private _maxUnits?: number; 
   public get maxUnits() {
     return this.getNumberAttribute('max_units');
   }
@@ -996,7 +996,7 @@ export class OsisPipeline extends cdktn.TerraformResource {
   }
 
   // min_units - computed: false, optional: false, required: true
-  private _minUnits?: number;
+  private _minUnits?: number; 
   public get minUnits() {
     return this.getNumberAttribute('min_units');
   }
@@ -1014,7 +1014,7 @@ export class OsisPipeline extends cdktn.TerraformResource {
   }
 
   // pipeline_configuration_body - computed: false, optional: false, required: true
-  private _pipelineConfigurationBody?: string;
+  private _pipelineConfigurationBody?: string; 
   public get pipelineConfigurationBody() {
     return this.getStringAttribute('pipeline_configuration_body');
   }
@@ -1027,7 +1027,7 @@ export class OsisPipeline extends cdktn.TerraformResource {
   }
 
   // pipeline_name - computed: false, optional: false, required: true
-  private _pipelineName?: string;
+  private _pipelineName?: string; 
   public get pipelineName() {
     return this.getStringAttribute('pipeline_name');
   }
@@ -1040,7 +1040,7 @@ export class OsisPipeline extends cdktn.TerraformResource {
   }
 
   // pipeline_role_arn - computed: true, optional: true, required: false
-  private _pipelineRoleArn?: string;
+  private _pipelineRoleArn?: string; 
   public get pipelineRoleArn() {
     return this.getStringAttribute('pipeline_role_arn');
   }
@@ -1056,7 +1056,7 @@ export class OsisPipeline extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1072,7 +1072,7 @@ export class OsisPipeline extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

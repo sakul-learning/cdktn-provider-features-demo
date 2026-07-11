@@ -144,7 +144,7 @@ export class S3OutpostsEndpointFailedReasonOutputReference extends cdktn.Complex
   }
 
   // error_code - computed: true, optional: true, required: false
-  private _errorCode?: string;
+  private _errorCode?: string; 
   public get errorCode() {
     return this.getStringAttribute('error_code');
   }
@@ -160,7 +160,7 @@ export class S3OutpostsEndpointFailedReasonOutputReference extends cdktn.Complex
   }
 
   // message - computed: true, optional: true, required: false
-  private _message?: string;
+  private _message?: string; 
   public get message() {
     return this.getStringAttribute('message');
   }
@@ -314,7 +314,7 @@ export class S3OutpostsEndpoint extends cdktn.TerraformResource {
   // ==========
 
   // access_type - computed: true, optional: true, required: false
-  private _accessType?: string;
+  private _accessType?: string; 
   public get accessType() {
     return this.getStringAttribute('access_type');
   }
@@ -345,7 +345,7 @@ export class S3OutpostsEndpoint extends cdktn.TerraformResource {
   }
 
   // customer_owned_ipv_4_pool - computed: true, optional: true, required: false
-  private _customerOwnedIpv4Pool?: string;
+  private _customerOwnedIpv4Pool?: string; 
   public get customerOwnedIpv4Pool() {
     return this.getStringAttribute('customer_owned_ipv_4_pool');
   }
@@ -393,7 +393,7 @@ export class S3OutpostsEndpoint extends cdktn.TerraformResource {
   }
 
   // outpost_id - computed: false, optional: false, required: true
-  private _outpostId?: string;
+  private _outpostId?: string; 
   public get outpostId() {
     return this.getStringAttribute('outpost_id');
   }
@@ -406,7 +406,7 @@ export class S3OutpostsEndpoint extends cdktn.TerraformResource {
   }
 
   // security_group_id - computed: false, optional: false, required: true
-  private _securityGroupId?: string;
+  private _securityGroupId?: string; 
   public get securityGroupId() {
     return this.getStringAttribute('security_group_id');
   }
@@ -424,7 +424,7 @@ export class S3OutpostsEndpoint extends cdktn.TerraformResource {
   }
 
   // subnet_id - computed: false, optional: false, required: true
-  private _subnetId?: string;
+  private _subnetId?: string; 
   public get subnetId() {
     return this.getStringAttribute('subnet_id');
   }

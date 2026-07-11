@@ -193,7 +193,7 @@ export class DataAwsRdsGlobalCluster extends cdktn.TerraformDataSource {
   }
 
   // identifier - computed: false, optional: false, required: true
-  private _identifier?: string;
+  private _identifier?: string; 
   public get identifier() {
     return this.getStringAttribute('identifier');
   }
@@ -212,7 +212,7 @@ export class DataAwsRdsGlobalCluster extends cdktn.TerraformDataSource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

@@ -114,7 +114,7 @@ export class SesConfigurationSetDeliveryOptionsOutputReference extends cdktn.Com
   }
 
   // tls_policy - computed: false, optional: true, required: false
-  private _tlsPolicy?: string;
+  private _tlsPolicy?: string; 
   public get tlsPolicy() {
     return this.getStringAttribute('tls_policy');
   }
@@ -198,7 +198,7 @@ export class SesConfigurationSetTrackingOptionsOutputReference extends cdktn.Com
   }
 
   // custom_redirect_domain - computed: false, optional: true, required: false
-  private _customRedirectDomain?: string;
+  private _customRedirectDomain?: string; 
   public get customRedirectDomain() {
     return this.getStringAttribute('custom_redirect_domain');
   }
@@ -283,7 +283,7 @@ export class SesConfigurationSet extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -304,7 +304,7 @@ export class SesConfigurationSet extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -317,7 +317,7 @@ export class SesConfigurationSet extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -333,7 +333,7 @@ export class SesConfigurationSet extends cdktn.TerraformResource {
   }
 
   // reputation_metrics_enabled - computed: false, optional: true, required: false
-  private _reputationMetricsEnabled?: boolean | cdktn.IResolvable;
+  private _reputationMetricsEnabled?: boolean | cdktn.IResolvable; 
   public get reputationMetricsEnabled() {
     return this.getBooleanAttribute('reputation_metrics_enabled');
   }
@@ -349,7 +349,7 @@ export class SesConfigurationSet extends cdktn.TerraformResource {
   }
 
   // sending_enabled - computed: false, optional: true, required: false
-  private _sendingEnabled?: boolean | cdktn.IResolvable;
+  private _sendingEnabled?: boolean | cdktn.IResolvable; 
   public get sendingEnabled() {
     return this.getBooleanAttribute('sending_enabled');
   }

@@ -185,7 +185,7 @@ export class Route53RecoverycontrolconfigCluster extends cdktn.TerraformResource
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -201,7 +201,7 @@ export class Route53RecoverycontrolconfigCluster extends cdktn.TerraformResource
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -214,7 +214,7 @@ export class Route53RecoverycontrolconfigCluster extends cdktn.TerraformResource
   }
 
   // network_type - computed: true, optional: true, required: false
-  private _networkType?: string;
+  private _networkType?: string; 
   public get networkType() {
     return this.getStringAttribute('network_type');
   }
@@ -235,7 +235,7 @@ export class Route53RecoverycontrolconfigCluster extends cdktn.TerraformResource
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -251,7 +251,7 @@ export class Route53RecoverycontrolconfigCluster extends cdktn.TerraformResource
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

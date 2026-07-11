@@ -130,7 +130,7 @@ export class IotfleetwiseModelManifestTagsOutputReference extends cdktn.ComplexO
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -146,7 +146,7 @@ export class IotfleetwiseModelManifestTagsOutputReference extends cdktn.ComplexO
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -255,7 +255,7 @@ export class IotfleetwiseModelManifest extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -281,7 +281,7 @@ export class IotfleetwiseModelManifest extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -294,7 +294,7 @@ export class IotfleetwiseModelManifest extends cdktn.TerraformResource {
   }
 
   // nodes - computed: true, optional: true, required: false
-  private _nodes?: string[];
+  private _nodes?: string[]; 
   public get nodes() {
     return cdktn.Fn.tolist(this.getListAttribute('nodes'));
   }
@@ -310,7 +310,7 @@ export class IotfleetwiseModelManifest extends cdktn.TerraformResource {
   }
 
   // signal_catalog_arn - computed: false, optional: false, required: true
-  private _signalCatalogArn?: string;
+  private _signalCatalogArn?: string; 
   public get signalCatalogArn() {
     return this.getStringAttribute('signal_catalog_arn');
   }
@@ -323,7 +323,7 @@ export class IotfleetwiseModelManifest extends cdktn.TerraformResource {
   }
 
   // status - computed: true, optional: true, required: false
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }

@@ -220,7 +220,7 @@ export class ElasticbeanstalkEnvironmentOptionSettingsOutputReference extends cd
   }
 
   // namespace - computed: true, optional: true, required: false
-  private _namespace?: string;
+  private _namespace?: string; 
   public get namespace() {
     return this.getStringAttribute('namespace');
   }
@@ -236,7 +236,7 @@ export class ElasticbeanstalkEnvironmentOptionSettingsOutputReference extends cd
   }
 
   // option_name - computed: true, optional: true, required: false
-  private _optionName?: string;
+  private _optionName?: string; 
   public get optionName() {
     return this.getStringAttribute('option_name');
   }
@@ -252,7 +252,7 @@ export class ElasticbeanstalkEnvironmentOptionSettingsOutputReference extends cd
   }
 
   // resource_name - computed: true, optional: true, required: false
-  private _resourceName?: string;
+  private _resourceName?: string; 
   public get resourceName() {
     return this.getStringAttribute('resource_name');
   }
@@ -268,7 +268,7 @@ export class ElasticbeanstalkEnvironmentOptionSettingsOutputReference extends cd
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -405,7 +405,7 @@ export class ElasticbeanstalkEnvironmentTagsOutputReference extends cdktn.Comple
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -421,7 +421,7 @@ export class ElasticbeanstalkEnvironmentTagsOutputReference extends cdktn.Comple
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -575,7 +575,7 @@ export class ElasticbeanstalkEnvironmentTierOutputReference extends cdktn.Comple
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -591,7 +591,7 @@ export class ElasticbeanstalkEnvironmentTierOutputReference extends cdktn.Comple
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -607,7 +607,7 @@ export class ElasticbeanstalkEnvironmentTierOutputReference extends cdktn.Comple
   }
 
   // version - computed: true, optional: true, required: false
-  private _version?: string;
+  private _version?: string; 
   public get version() {
     return this.getStringAttribute('version');
   }
@@ -692,7 +692,7 @@ export class ElasticbeanstalkEnvironment extends cdktn.TerraformResource {
   // ==========
 
   // application_name - computed: false, optional: false, required: true
-  private _applicationName?: string;
+  private _applicationName?: string; 
   public get applicationName() {
     return this.getStringAttribute('application_name');
   }
@@ -705,7 +705,7 @@ export class ElasticbeanstalkEnvironment extends cdktn.TerraformResource {
   }
 
   // cname_prefix - computed: true, optional: true, required: false
-  private _cnamePrefix?: string;
+  private _cnamePrefix?: string; 
   public get cnamePrefix() {
     return this.getStringAttribute('cname_prefix');
   }
@@ -721,7 +721,7 @@ export class ElasticbeanstalkEnvironment extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -742,7 +742,7 @@ export class ElasticbeanstalkEnvironment extends cdktn.TerraformResource {
   }
 
   // environment_name - computed: true, optional: true, required: false
-  private _environmentName?: string;
+  private _environmentName?: string; 
   public get environmentName() {
     return this.getStringAttribute('environment_name');
   }
@@ -763,7 +763,7 @@ export class ElasticbeanstalkEnvironment extends cdktn.TerraformResource {
   }
 
   // operations_role - computed: true, optional: true, required: false
-  private _operationsRole?: string;
+  private _operationsRole?: string; 
   public get operationsRole() {
     return this.getStringAttribute('operations_role');
   }
@@ -795,7 +795,7 @@ export class ElasticbeanstalkEnvironment extends cdktn.TerraformResource {
   }
 
   // platform_arn - computed: true, optional: true, required: false
-  private _platformArn?: string;
+  private _platformArn?: string; 
   public get platformArn() {
     return this.getStringAttribute('platform_arn');
   }
@@ -811,7 +811,7 @@ export class ElasticbeanstalkEnvironment extends cdktn.TerraformResource {
   }
 
   // solution_stack_name - computed: true, optional: true, required: false
-  private _solutionStackName?: string;
+  private _solutionStackName?: string; 
   public get solutionStackName() {
     return this.getStringAttribute('solution_stack_name');
   }
@@ -843,7 +843,7 @@ export class ElasticbeanstalkEnvironment extends cdktn.TerraformResource {
   }
 
   // template_name - computed: true, optional: true, required: false
-  private _templateName?: string;
+  private _templateName?: string; 
   public get templateName() {
     return this.getStringAttribute('template_name');
   }
@@ -875,7 +875,7 @@ export class ElasticbeanstalkEnvironment extends cdktn.TerraformResource {
   }
 
   // version_label - computed: true, optional: true, required: false
-  private _versionLabel?: string;
+  private _versionLabel?: string; 
   public get versionLabel() {
     return this.getStringAttribute('version_label');
   }

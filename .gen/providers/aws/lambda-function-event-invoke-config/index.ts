@@ -112,7 +112,7 @@ export class LambdaFunctionEventInvokeConfigDestinationConfigOnFailureOutputRefe
   }
 
   // destination - computed: false, optional: false, required: true
-  private _destination?: string;
+  private _destination?: string; 
   public get destination() {
     return this.getStringAttribute('destination');
   }
@@ -193,7 +193,7 @@ export class LambdaFunctionEventInvokeConfigDestinationConfigOnSuccessOutputRefe
   }
 
   // destination - computed: false, optional: false, required: true
-  private _destination?: string;
+  private _destination?: string; 
   public get destination() {
     return this.getStringAttribute('destination');
   }
@@ -391,7 +391,7 @@ export class LambdaFunctionEventInvokeConfig extends cdktn.TerraformResource {
   // ==========
 
   // function_name - computed: false, optional: false, required: true
-  private _functionName?: string;
+  private _functionName?: string; 
   public get functionName() {
     return this.getStringAttribute('function_name');
   }
@@ -404,7 +404,7 @@ export class LambdaFunctionEventInvokeConfig extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -420,7 +420,7 @@ export class LambdaFunctionEventInvokeConfig extends cdktn.TerraformResource {
   }
 
   // maximum_event_age_in_seconds - computed: false, optional: true, required: false
-  private _maximumEventAgeInSeconds?: number;
+  private _maximumEventAgeInSeconds?: number; 
   public get maximumEventAgeInSeconds() {
     return this.getNumberAttribute('maximum_event_age_in_seconds');
   }
@@ -436,7 +436,7 @@ export class LambdaFunctionEventInvokeConfig extends cdktn.TerraformResource {
   }
 
   // maximum_retry_attempts - computed: false, optional: true, required: false
-  private _maximumRetryAttempts?: number;
+  private _maximumRetryAttempts?: number; 
   public get maximumRetryAttempts() {
     return this.getNumberAttribute('maximum_retry_attempts');
   }
@@ -452,7 +452,7 @@ export class LambdaFunctionEventInvokeConfig extends cdktn.TerraformResource {
   }
 
   // qualifier - computed: false, optional: true, required: false
-  private _qualifier?: string;
+  private _qualifier?: string; 
   public get qualifier() {
     return this.getStringAttribute('qualifier');
   }
@@ -468,7 +468,7 @@ export class LambdaFunctionEventInvokeConfig extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

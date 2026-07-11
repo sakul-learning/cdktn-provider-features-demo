@@ -135,7 +135,7 @@ export class RedshiftScheduledActionTargetActionPauseClusterOutputReference exte
   }
 
   // cluster_identifier - computed: true, optional: true, required: false
-  private _clusterIdentifier?: string;
+  private _clusterIdentifier?: string; 
   public get clusterIdentifier() {
     return this.getStringAttribute('cluster_identifier');
   }
@@ -297,7 +297,7 @@ export class RedshiftScheduledActionTargetActionResizeClusterOutputReference ext
   }
 
   // classic - computed: true, optional: true, required: false
-  private _classic?: boolean | cdktn.IResolvable;
+  private _classic?: boolean | cdktn.IResolvable; 
   public get classic() {
     return this.getBooleanAttribute('classic');
   }
@@ -313,7 +313,7 @@ export class RedshiftScheduledActionTargetActionResizeClusterOutputReference ext
   }
 
   // cluster_identifier - computed: true, optional: true, required: false
-  private _clusterIdentifier?: string;
+  private _clusterIdentifier?: string; 
   public get clusterIdentifier() {
     return this.getStringAttribute('cluster_identifier');
   }
@@ -329,7 +329,7 @@ export class RedshiftScheduledActionTargetActionResizeClusterOutputReference ext
   }
 
   // cluster_type - computed: true, optional: true, required: false
-  private _clusterType?: string;
+  private _clusterType?: string; 
   public get clusterType() {
     return this.getStringAttribute('cluster_type');
   }
@@ -345,7 +345,7 @@ export class RedshiftScheduledActionTargetActionResizeClusterOutputReference ext
   }
 
   // node_type - computed: true, optional: true, required: false
-  private _nodeType?: string;
+  private _nodeType?: string; 
   public get nodeType() {
     return this.getStringAttribute('node_type');
   }
@@ -361,7 +361,7 @@ export class RedshiftScheduledActionTargetActionResizeClusterOutputReference ext
   }
 
   // number_of_nodes - computed: true, optional: true, required: false
-  private _numberOfNodes?: number;
+  private _numberOfNodes?: number; 
   public get numberOfNodes() {
     return this.getNumberAttribute('number_of_nodes');
   }
@@ -455,7 +455,7 @@ export class RedshiftScheduledActionTargetActionResumeClusterOutputReference ext
   }
 
   // cluster_identifier - computed: true, optional: true, required: false
-  private _clusterIdentifier?: string;
+  private _clusterIdentifier?: string; 
   public get clusterIdentifier() {
     return this.getStringAttribute('cluster_identifier');
   }
@@ -702,7 +702,7 @@ export class RedshiftScheduledAction extends cdktn.TerraformResource {
   // ==========
 
   // enable - computed: true, optional: true, required: false
-  private _enable?: boolean | cdktn.IResolvable;
+  private _enable?: boolean | cdktn.IResolvable; 
   public get enable() {
     return this.getBooleanAttribute('enable');
   }
@@ -718,7 +718,7 @@ export class RedshiftScheduledAction extends cdktn.TerraformResource {
   }
 
   // end_time - computed: true, optional: true, required: false
-  private _endTime?: string;
+  private _endTime?: string; 
   public get endTime() {
     return this.getStringAttribute('end_time');
   }
@@ -734,7 +734,7 @@ export class RedshiftScheduledAction extends cdktn.TerraformResource {
   }
 
   // iam_role - computed: true, optional: true, required: false
-  private _iamRole?: string;
+  private _iamRole?: string; 
   public get iamRole() {
     return this.getStringAttribute('iam_role');
   }
@@ -760,7 +760,7 @@ export class RedshiftScheduledAction extends cdktn.TerraformResource {
   }
 
   // schedule - computed: true, optional: true, required: false
-  private _schedule?: string;
+  private _schedule?: string; 
   public get schedule() {
     return this.getStringAttribute('schedule');
   }
@@ -776,7 +776,7 @@ export class RedshiftScheduledAction extends cdktn.TerraformResource {
   }
 
   // scheduled_action_description - computed: true, optional: true, required: false
-  private _scheduledActionDescription?: string;
+  private _scheduledActionDescription?: string; 
   public get scheduledActionDescription() {
     return this.getStringAttribute('scheduled_action_description');
   }
@@ -792,7 +792,7 @@ export class RedshiftScheduledAction extends cdktn.TerraformResource {
   }
 
   // scheduled_action_name - computed: false, optional: false, required: true
-  private _scheduledActionName?: string;
+  private _scheduledActionName?: string; 
   public get scheduledActionName() {
     return this.getStringAttribute('scheduled_action_name');
   }
@@ -805,7 +805,7 @@ export class RedshiftScheduledAction extends cdktn.TerraformResource {
   }
 
   // start_time - computed: true, optional: true, required: false
-  private _startTime?: string;
+  private _startTime?: string; 
   public get startTime() {
     return this.getStringAttribute('start_time');
   }

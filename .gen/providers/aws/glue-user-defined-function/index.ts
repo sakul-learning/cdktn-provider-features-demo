@@ -149,7 +149,7 @@ export class GlueUserDefinedFunctionResourceUrisOutputReference extends cdktn.Co
   }
 
   // resource_type - computed: false, optional: false, required: true
-  private _resourceType?: string;
+  private _resourceType?: string; 
   public get resourceType() {
     return this.getStringAttribute('resource_type');
   }
@@ -162,7 +162,7 @@ export class GlueUserDefinedFunctionResourceUrisOutputReference extends cdktn.Co
   }
 
   // uri - computed: false, optional: false, required: true
-  private _uri?: string;
+  private _uri?: string; 
   public get uri() {
     return this.getStringAttribute('uri');
   }
@@ -266,7 +266,7 @@ export class GlueUserDefinedFunction extends cdktn.TerraformResource {
   }
 
   // catalog_id - computed: false, optional: true, required: false
-  private _catalogId?: string;
+  private _catalogId?: string; 
   public get catalogId() {
     return this.getStringAttribute('catalog_id');
   }
@@ -282,7 +282,7 @@ export class GlueUserDefinedFunction extends cdktn.TerraformResource {
   }
 
   // class_name - computed: false, optional: false, required: true
-  private _className?: string;
+  private _className?: string; 
   public get className() {
     return this.getStringAttribute('class_name');
   }
@@ -300,7 +300,7 @@ export class GlueUserDefinedFunction extends cdktn.TerraformResource {
   }
 
   // database_name - computed: false, optional: false, required: true
-  private _databaseName?: string;
+  private _databaseName?: string; 
   public get databaseName() {
     return this.getStringAttribute('database_name');
   }
@@ -313,7 +313,7 @@ export class GlueUserDefinedFunction extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -329,7 +329,7 @@ export class GlueUserDefinedFunction extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -342,7 +342,7 @@ export class GlueUserDefinedFunction extends cdktn.TerraformResource {
   }
 
   // owner_name - computed: false, optional: false, required: true
-  private _ownerName?: string;
+  private _ownerName?: string; 
   public get ownerName() {
     return this.getStringAttribute('owner_name');
   }
@@ -355,7 +355,7 @@ export class GlueUserDefinedFunction extends cdktn.TerraformResource {
   }
 
   // owner_type - computed: false, optional: false, required: true
-  private _ownerType?: string;
+  private _ownerType?: string; 
   public get ownerType() {
     return this.getStringAttribute('owner_type');
   }
@@ -368,7 +368,7 @@ export class GlueUserDefinedFunction extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

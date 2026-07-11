@@ -147,7 +147,7 @@ export class VolumeAttachmentTimeoutsOutputReference extends cdktn.ComplexObject
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -163,7 +163,7 @@ export class VolumeAttachmentTimeoutsOutputReference extends cdktn.ComplexObject
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -245,7 +245,7 @@ export class VolumeAttachment extends cdktn.TerraformResource {
   // ==========
 
   // device_name - computed: false, optional: false, required: true
-  private _deviceName?: string;
+  private _deviceName?: string; 
   public get deviceName() {
     return this.getStringAttribute('device_name');
   }
@@ -258,7 +258,7 @@ export class VolumeAttachment extends cdktn.TerraformResource {
   }
 
   // force_detach - computed: false, optional: true, required: false
-  private _forceDetach?: boolean | cdktn.IResolvable;
+  private _forceDetach?: boolean | cdktn.IResolvable; 
   public get forceDetach() {
     return this.getBooleanAttribute('force_detach');
   }
@@ -274,7 +274,7 @@ export class VolumeAttachment extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -290,7 +290,7 @@ export class VolumeAttachment extends cdktn.TerraformResource {
   }
 
   // instance_id - computed: false, optional: false, required: true
-  private _instanceId?: string;
+  private _instanceId?: string; 
   public get instanceId() {
     return this.getStringAttribute('instance_id');
   }
@@ -303,7 +303,7 @@ export class VolumeAttachment extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -319,7 +319,7 @@ export class VolumeAttachment extends cdktn.TerraformResource {
   }
 
   // skip_destroy - computed: false, optional: true, required: false
-  private _skipDestroy?: boolean | cdktn.IResolvable;
+  private _skipDestroy?: boolean | cdktn.IResolvable; 
   public get skipDestroy() {
     return this.getBooleanAttribute('skip_destroy');
   }
@@ -335,7 +335,7 @@ export class VolumeAttachment extends cdktn.TerraformResource {
   }
 
   // stop_instance_before_detaching - computed: false, optional: true, required: false
-  private _stopInstanceBeforeDetaching?: boolean | cdktn.IResolvable;
+  private _stopInstanceBeforeDetaching?: boolean | cdktn.IResolvable; 
   public get stopInstanceBeforeDetaching() {
     return this.getBooleanAttribute('stop_instance_before_detaching');
   }
@@ -351,7 +351,7 @@ export class VolumeAttachment extends cdktn.TerraformResource {
   }
 
   // volume_id - computed: false, optional: false, required: true
-  private _volumeId?: string;
+  private _volumeId?: string; 
   public get volumeId() {
     return this.getStringAttribute('volume_id');
   }

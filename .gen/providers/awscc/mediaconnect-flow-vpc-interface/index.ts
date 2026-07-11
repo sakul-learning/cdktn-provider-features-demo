@@ -142,7 +142,7 @@ export class MediaconnectFlowVpcInterfaceTagsOutputReference extends cdktn.Compl
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -158,7 +158,7 @@ export class MediaconnectFlowVpcInterfaceTagsOutputReference extends cdktn.Compl
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -257,7 +257,7 @@ export class MediaconnectFlowVpcInterface extends cdktn.TerraformResource {
   // ==========
 
   // flow_arn - computed: false, optional: false, required: true
-  private _flowArn?: string;
+  private _flowArn?: string; 
   public get flowArn() {
     return this.getStringAttribute('flow_arn');
   }
@@ -275,7 +275,7 @@ export class MediaconnectFlowVpcInterface extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -293,7 +293,7 @@ export class MediaconnectFlowVpcInterface extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -306,7 +306,7 @@ export class MediaconnectFlowVpcInterface extends cdktn.TerraformResource {
   }
 
   // security_group_ids - computed: false, optional: false, required: true
-  private _securityGroupIds?: string[];
+  private _securityGroupIds?: string[]; 
   public get securityGroupIds() {
     return this.getListAttribute('security_group_ids');
   }
@@ -319,7 +319,7 @@ export class MediaconnectFlowVpcInterface extends cdktn.TerraformResource {
   }
 
   // subnet_id - computed: false, optional: false, required: true
-  private _subnetId?: string;
+  private _subnetId?: string; 
   public get subnetId() {
     return this.getStringAttribute('subnet_id');
   }

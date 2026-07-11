@@ -86,7 +86,7 @@ export class DataAwsPrometheusWorkspaces extends cdktn.TerraformDataSource {
   // ==========
 
   // alias_prefix - computed: false, optional: true, required: false
-  private _aliasPrefix?: string;
+  private _aliasPrefix?: string; 
   public get aliasPrefix() {
     return this.getStringAttribute('alias_prefix');
   }
@@ -112,7 +112,7 @@ export class DataAwsPrometheusWorkspaces extends cdktn.TerraformDataSource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -128,7 +128,7 @@ export class DataAwsPrometheusWorkspaces extends cdktn.TerraformDataSource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

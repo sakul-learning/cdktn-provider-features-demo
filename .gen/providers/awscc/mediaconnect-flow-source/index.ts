@@ -355,7 +355,7 @@ export class MediaconnectFlowSourceDecryptionAOutputReference extends cdktn.Comp
   }
 
   // algorithm - computed: true, optional: true, required: false
-  private _algorithm?: string;
+  private _algorithm?: string; 
   public get algorithm() {
     return this.getStringAttribute('algorithm');
   }
@@ -371,7 +371,7 @@ export class MediaconnectFlowSourceDecryptionAOutputReference extends cdktn.Comp
   }
 
   // constant_initialization_vector - computed: true, optional: true, required: false
-  private _constantInitializationVector?: string;
+  private _constantInitializationVector?: string; 
   public get constantInitializationVector() {
     return this.getStringAttribute('constant_initialization_vector');
   }
@@ -387,7 +387,7 @@ export class MediaconnectFlowSourceDecryptionAOutputReference extends cdktn.Comp
   }
 
   // device_id - computed: true, optional: true, required: false
-  private _deviceId?: string;
+  private _deviceId?: string; 
   public get deviceId() {
     return this.getStringAttribute('device_id');
   }
@@ -403,7 +403,7 @@ export class MediaconnectFlowSourceDecryptionAOutputReference extends cdktn.Comp
   }
 
   // key_type - computed: true, optional: true, required: false
-  private _keyType?: string;
+  private _keyType?: string; 
   public get keyType() {
     return this.getStringAttribute('key_type');
   }
@@ -419,7 +419,7 @@ export class MediaconnectFlowSourceDecryptionAOutputReference extends cdktn.Comp
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -435,7 +435,7 @@ export class MediaconnectFlowSourceDecryptionAOutputReference extends cdktn.Comp
   }
 
   // resource_id - computed: true, optional: true, required: false
-  private _resourceId?: string;
+  private _resourceId?: string; 
   public get resourceId() {
     return this.getStringAttribute('resource_id');
   }
@@ -451,7 +451,7 @@ export class MediaconnectFlowSourceDecryptionAOutputReference extends cdktn.Comp
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -467,7 +467,7 @@ export class MediaconnectFlowSourceDecryptionAOutputReference extends cdktn.Comp
   }
 
   // secret_arn - computed: true, optional: true, required: false
-  private _secretArn?: string;
+  private _secretArn?: string; 
   public get secretArn() {
     return this.getStringAttribute('secret_arn');
   }
@@ -483,7 +483,7 @@ export class MediaconnectFlowSourceDecryptionAOutputReference extends cdktn.Comp
   }
 
   // url - computed: true, optional: true, required: false
-  private _url?: string;
+  private _url?: string; 
   public get url() {
     return this.getStringAttribute('url');
   }
@@ -579,7 +579,7 @@ export class MediaconnectFlowSourceGatewayBridgeSourceVpcInterfaceAttachmentAOut
   }
 
   // vpc_interface_name - computed: true, optional: true, required: false
-  private _vpcInterfaceName?: string;
+  private _vpcInterfaceName?: string; 
   public get vpcInterfaceName() {
     return this.getStringAttribute('vpc_interface_name');
   }
@@ -694,7 +694,7 @@ export class MediaconnectFlowSourceGatewayBridgeSourceAOutputReference extends c
   }
 
   // bridge_arn - computed: true, optional: true, required: false
-  private _bridgeArn?: string;
+  private _bridgeArn?: string; 
   public get bridgeArn() {
     return this.getStringAttribute('bridge_arn');
   }
@@ -823,7 +823,7 @@ export class MediaconnectFlowSourceTagsOutputReference extends cdktn.ComplexObje
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -839,7 +839,7 @@ export class MediaconnectFlowSourceTagsOutputReference extends cdktn.ComplexObje
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -967,7 +967,7 @@ export class MediaconnectFlowSourceA extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: false, required: true
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -980,7 +980,7 @@ export class MediaconnectFlowSourceA extends cdktn.TerraformResource {
   }
 
   // entitlement_arn - computed: true, optional: true, required: false
-  private _entitlementArn?: string;
+  private _entitlementArn?: string; 
   public get entitlementArn() {
     return this.getStringAttribute('entitlement_arn');
   }
@@ -996,7 +996,7 @@ export class MediaconnectFlowSourceA extends cdktn.TerraformResource {
   }
 
   // flow_arn - computed: false, optional: false, required: true
-  private _flowArn?: string;
+  private _flowArn?: string; 
   public get flowArn() {
     return this.getStringAttribute('flow_arn');
   }
@@ -1035,7 +1035,7 @@ export class MediaconnectFlowSourceA extends cdktn.TerraformResource {
   }
 
   // ingest_port - computed: true, optional: true, required: false
-  private _ingestPort?: number;
+  private _ingestPort?: number; 
   public get ingestPort() {
     return this.getNumberAttribute('ingest_port');
   }
@@ -1051,7 +1051,7 @@ export class MediaconnectFlowSourceA extends cdktn.TerraformResource {
   }
 
   // max_bitrate - computed: true, optional: true, required: false
-  private _maxBitrate?: number;
+  private _maxBitrate?: number; 
   public get maxBitrate() {
     return this.getNumberAttribute('max_bitrate');
   }
@@ -1067,7 +1067,7 @@ export class MediaconnectFlowSourceA extends cdktn.TerraformResource {
   }
 
   // max_latency - computed: true, optional: true, required: false
-  private _maxLatency?: number;
+  private _maxLatency?: number; 
   public get maxLatency() {
     return this.getNumberAttribute('max_latency');
   }
@@ -1083,7 +1083,7 @@ export class MediaconnectFlowSourceA extends cdktn.TerraformResource {
   }
 
   // min_latency - computed: true, optional: true, required: false
-  private _minLatency?: number;
+  private _minLatency?: number; 
   public get minLatency() {
     return this.getNumberAttribute('min_latency');
   }
@@ -1099,7 +1099,7 @@ export class MediaconnectFlowSourceA extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1112,7 +1112,7 @@ export class MediaconnectFlowSourceA extends cdktn.TerraformResource {
   }
 
   // protocol - computed: true, optional: true, required: false
-  private _protocol?: string;
+  private _protocol?: string; 
   public get protocol() {
     return this.getStringAttribute('protocol');
   }
@@ -1128,7 +1128,7 @@ export class MediaconnectFlowSourceA extends cdktn.TerraformResource {
   }
 
   // sender_control_port - computed: true, optional: true, required: false
-  private _senderControlPort?: number;
+  private _senderControlPort?: number; 
   public get senderControlPort() {
     return this.getNumberAttribute('sender_control_port');
   }
@@ -1144,7 +1144,7 @@ export class MediaconnectFlowSourceA extends cdktn.TerraformResource {
   }
 
   // sender_ip_address - computed: true, optional: true, required: false
-  private _senderIpAddress?: string;
+  private _senderIpAddress?: string; 
   public get senderIpAddress() {
     return this.getStringAttribute('sender_ip_address');
   }
@@ -1170,7 +1170,7 @@ export class MediaconnectFlowSourceA extends cdktn.TerraformResource {
   }
 
   // source_listener_address - computed: true, optional: true, required: false
-  private _sourceListenerAddress?: string;
+  private _sourceListenerAddress?: string; 
   public get sourceListenerAddress() {
     return this.getStringAttribute('source_listener_address');
   }
@@ -1186,7 +1186,7 @@ export class MediaconnectFlowSourceA extends cdktn.TerraformResource {
   }
 
   // source_listener_port - computed: true, optional: true, required: false
-  private _sourceListenerPort?: number;
+  private _sourceListenerPort?: number; 
   public get sourceListenerPort() {
     return this.getNumberAttribute('source_listener_port');
   }
@@ -1202,7 +1202,7 @@ export class MediaconnectFlowSourceA extends cdktn.TerraformResource {
   }
 
   // stream_id - computed: true, optional: true, required: false
-  private _streamId?: string;
+  private _streamId?: string; 
   public get streamId() {
     return this.getStringAttribute('stream_id');
   }
@@ -1234,7 +1234,7 @@ export class MediaconnectFlowSourceA extends cdktn.TerraformResource {
   }
 
   // vpc_interface_name - computed: true, optional: true, required: false
-  private _vpcInterfaceName?: string;
+  private _vpcInterfaceName?: string; 
   public get vpcInterfaceName() {
     return this.getStringAttribute('vpc_interface_name');
   }
@@ -1250,7 +1250,7 @@ export class MediaconnectFlowSourceA extends cdktn.TerraformResource {
   }
 
   // whitelist_cidr - computed: true, optional: true, required: false
-  private _whitelistCidr?: string;
+  private _whitelistCidr?: string; 
   public get whitelistCidr() {
     return this.getStringAttribute('whitelist_cidr');
   }

@@ -89,7 +89,7 @@ export class CloudfrontKeyGroup extends cdktn.TerraformResource {
   // ==========
 
   // comment - computed: false, optional: true, required: false
-  private _comment?: string;
+  private _comment?: string; 
   public get comment() {
     return this.getStringAttribute('comment');
   }
@@ -110,7 +110,7 @@ export class CloudfrontKeyGroup extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -126,7 +126,7 @@ export class CloudfrontKeyGroup extends cdktn.TerraformResource {
   }
 
   // items - computed: false, optional: false, required: true
-  private _items?: string[];
+  private _items?: string[]; 
   public get items() {
     return cdktn.Fn.tolist(this.getListAttribute('items'));
   }
@@ -139,7 +139,7 @@ export class CloudfrontKeyGroup extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }

@@ -101,7 +101,7 @@ export class DataAwsSsmParametersByPath extends cdktn.TerraformDataSource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -122,7 +122,7 @@ export class DataAwsSsmParametersByPath extends cdktn.TerraformDataSource {
   }
 
   // path - computed: false, optional: false, required: true
-  private _path?: string;
+  private _path?: string; 
   public get path() {
     return this.getStringAttribute('path');
   }
@@ -135,7 +135,7 @@ export class DataAwsSsmParametersByPath extends cdktn.TerraformDataSource {
   }
 
   // recursive - computed: false, optional: true, required: false
-  private _recursive?: boolean | cdktn.IResolvable;
+  private _recursive?: boolean | cdktn.IResolvable; 
   public get recursive() {
     return this.getBooleanAttribute('recursive');
   }
@@ -151,7 +151,7 @@ export class DataAwsSsmParametersByPath extends cdktn.TerraformDataSource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -177,7 +177,7 @@ export class DataAwsSsmParametersByPath extends cdktn.TerraformDataSource {
   }
 
   // with_decryption - computed: false, optional: true, required: false
-  private _withDecryption?: boolean | cdktn.IResolvable;
+  private _withDecryption?: boolean | cdktn.IResolvable; 
   public get withDecryption() {
     return this.getBooleanAttribute('with_decryption');
   }

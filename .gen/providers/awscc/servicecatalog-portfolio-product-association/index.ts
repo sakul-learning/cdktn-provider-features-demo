@@ -94,7 +94,7 @@ export class ServicecatalogPortfolioProductAssociation extends cdktn.TerraformRe
   // ==========
 
   // accept_language - computed: true, optional: true, required: false
-  private _acceptLanguage?: string;
+  private _acceptLanguage?: string; 
   public get acceptLanguage() {
     return this.getStringAttribute('accept_language');
   }
@@ -115,7 +115,7 @@ export class ServicecatalogPortfolioProductAssociation extends cdktn.TerraformRe
   }
 
   // portfolio_id - computed: true, optional: true, required: false
-  private _portfolioId?: string;
+  private _portfolioId?: string; 
   public get portfolioId() {
     return this.getStringAttribute('portfolio_id');
   }
@@ -131,7 +131,7 @@ export class ServicecatalogPortfolioProductAssociation extends cdktn.TerraformRe
   }
 
   // product_id - computed: true, optional: true, required: false
-  private _productId?: string;
+  private _productId?: string; 
   public get productId() {
     return this.getStringAttribute('product_id');
   }
@@ -147,7 +147,7 @@ export class ServicecatalogPortfolioProductAssociation extends cdktn.TerraformRe
   }
 
   // source_portfolio_id - computed: true, optional: true, required: false
-  private _sourcePortfolioId?: string;
+  private _sourcePortfolioId?: string; 
   public get sourcePortfolioId() {
     return this.getStringAttribute('source_portfolio_id');
   }

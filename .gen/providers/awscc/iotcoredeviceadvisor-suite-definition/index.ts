@@ -116,7 +116,7 @@ export class IotcoredeviceadvisorSuiteDefinitionSuiteDefinitionConfigurationDevi
   }
 
   // certificate_arn - computed: true, optional: true, required: false
-  private _certificateArn?: string;
+  private _certificateArn?: string; 
   public get certificateArn() {
     return this.getStringAttribute('certificate_arn');
   }
@@ -132,7 +132,7 @@ export class IotcoredeviceadvisorSuiteDefinitionSuiteDefinitionConfigurationDevi
   }
 
   // thing_arn - computed: true, optional: true, required: false
-  private _thingArn?: string;
+  private _thingArn?: string; 
   public get thingArn() {
     return this.getStringAttribute('thing_arn');
   }
@@ -324,7 +324,7 @@ export class IotcoredeviceadvisorSuiteDefinitionSuiteDefinitionConfigurationOutp
   }
 
   // device_permission_role_arn - computed: false, optional: false, required: true
-  private _devicePermissionRoleArn?: string;
+  private _devicePermissionRoleArn?: string; 
   public get devicePermissionRoleArn() {
     return this.getStringAttribute('device_permission_role_arn');
   }
@@ -353,7 +353,7 @@ export class IotcoredeviceadvisorSuiteDefinitionSuiteDefinitionConfigurationOutp
   }
 
   // intended_for_qualification - computed: true, optional: true, required: false
-  private _intendedForQualification?: boolean | cdktn.IResolvable;
+  private _intendedForQualification?: boolean | cdktn.IResolvable; 
   public get intendedForQualification() {
     return this.getBooleanAttribute('intended_for_qualification');
   }
@@ -369,7 +369,7 @@ export class IotcoredeviceadvisorSuiteDefinitionSuiteDefinitionConfigurationOutp
   }
 
   // root_group - computed: false, optional: false, required: true
-  private _rootGroup?: string;
+  private _rootGroup?: string; 
   public get rootGroup() {
     return this.getStringAttribute('root_group');
   }
@@ -382,7 +382,7 @@ export class IotcoredeviceadvisorSuiteDefinitionSuiteDefinitionConfigurationOutp
   }
 
   // suite_definition_name - computed: true, optional: true, required: false
-  private _suiteDefinitionName?: string;
+  private _suiteDefinitionName?: string; 
   public get suiteDefinitionName() {
     return this.getStringAttribute('suite_definition_name');
   }
@@ -499,7 +499,7 @@ export class IotcoredeviceadvisorSuiteDefinitionTagsOutputReference extends cdkt
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -515,7 +515,7 @@ export class IotcoredeviceadvisorSuiteDefinitionTagsOutputReference extends cdkt
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }

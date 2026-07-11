@@ -143,7 +143,7 @@ export class DatasyncLocationFsxWindowsCmkSecretConfigOutputReference extends cd
   }
 
   // kms_key_arn - computed: true, optional: true, required: false
-  private _kmsKeyArn?: string;
+  private _kmsKeyArn?: string; 
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -263,7 +263,7 @@ export class DatasyncLocationFsxWindowsCustomSecretConfigOutputReference extends
   }
 
   // secret_access_role_arn - computed: true, optional: true, required: false
-  private _secretAccessRoleArn?: string;
+  private _secretAccessRoleArn?: string; 
   public get secretAccessRoleArn() {
     return this.getStringAttribute('secret_access_role_arn');
   }
@@ -279,7 +279,7 @@ export class DatasyncLocationFsxWindowsCustomSecretConfigOutputReference extends
   }
 
   // secret_arn - computed: true, optional: true, required: false
-  private _secretArn?: string;
+  private _secretArn?: string; 
   public get secretArn() {
     return this.getStringAttribute('secret_arn');
   }
@@ -450,7 +450,7 @@ export class DatasyncLocationFsxWindowsTagsOutputReference extends cdktn.Complex
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -466,7 +466,7 @@ export class DatasyncLocationFsxWindowsTagsOutputReference extends cdktn.Complex
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -600,7 +600,7 @@ export class DatasyncLocationFsxWindows extends cdktn.TerraformResource {
   }
 
   // domain - computed: true, optional: true, required: false
-  private _domain?: string;
+  private _domain?: string; 
   public get domain() {
     return this.getStringAttribute('domain');
   }
@@ -616,7 +616,7 @@ export class DatasyncLocationFsxWindows extends cdktn.TerraformResource {
   }
 
   // fsx_filesystem_arn - computed: true, optional: true, required: false
-  private _fsxFilesystemArn?: string;
+  private _fsxFilesystemArn?: string; 
   public get fsxFilesystemArn() {
     return this.getStringAttribute('fsx_filesystem_arn');
   }
@@ -653,7 +653,7 @@ export class DatasyncLocationFsxWindows extends cdktn.TerraformResource {
   }
 
   // password - computed: true, optional: true, required: false
-  private _password?: string;
+  private _password?: string; 
   public get password() {
     return this.getStringAttribute('password');
   }
@@ -669,7 +669,7 @@ export class DatasyncLocationFsxWindows extends cdktn.TerraformResource {
   }
 
   // security_group_arns - computed: false, optional: false, required: true
-  private _securityGroupArns?: string[];
+  private _securityGroupArns?: string[]; 
   public get securityGroupArns() {
     return this.getListAttribute('security_group_arns');
   }
@@ -682,7 +682,7 @@ export class DatasyncLocationFsxWindows extends cdktn.TerraformResource {
   }
 
   // subdirectory - computed: true, optional: true, required: false
-  private _subdirectory?: string;
+  private _subdirectory?: string; 
   public get subdirectory() {
     return this.getStringAttribute('subdirectory');
   }
@@ -714,7 +714,7 @@ export class DatasyncLocationFsxWindows extends cdktn.TerraformResource {
   }
 
   // user - computed: false, optional: false, required: true
-  private _user?: string;
+  private _user?: string; 
   public get user() {
     return this.getStringAttribute('user');
   }

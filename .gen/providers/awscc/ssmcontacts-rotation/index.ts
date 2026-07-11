@@ -144,7 +144,7 @@ export class SsmcontactsRotationRecurrenceMonthlySettingsOutputReference extends
   }
 
   // day_of_month - computed: true, optional: true, required: false
-  private _dayOfMonth?: number;
+  private _dayOfMonth?: number; 
   public get dayOfMonth() {
     return this.getNumberAttribute('day_of_month');
   }
@@ -160,7 +160,7 @@ export class SsmcontactsRotationRecurrenceMonthlySettingsOutputReference extends
   }
 
   // hand_off_time - computed: true, optional: true, required: false
-  private _handOffTime?: string;
+  private _handOffTime?: string; 
   public get handOffTime() {
     return this.getStringAttribute('hand_off_time');
   }
@@ -297,7 +297,7 @@ export class SsmcontactsRotationRecurrenceShiftCoveragesCoverageTimesOutputRefer
   }
 
   // end_time - computed: true, optional: true, required: false
-  private _endTime?: string;
+  private _endTime?: string; 
   public get endTime() {
     return this.getStringAttribute('end_time');
   }
@@ -313,7 +313,7 @@ export class SsmcontactsRotationRecurrenceShiftCoveragesCoverageTimesOutputRefer
   }
 
   // start_time - computed: true, optional: true, required: false
-  private _startTime?: string;
+  private _startTime?: string; 
   public get startTime() {
     return this.getStringAttribute('start_time');
   }
@@ -356,7 +356,7 @@ export interface SsmcontactsRotationRecurrenceShiftCoverages {
   */
   readonly coverageTimes?: SsmcontactsRotationRecurrenceShiftCoveragesCoverageTimes[] | cdktn.IResolvable;
   /**
-  * The day of the week when weekly recurring on-call shift rotations begin.
+  * The day of the week when weekly recurring on-call shift rotations begin. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ssmcontacts_rotation#day_of_week SsmcontactsRotation#day_of_week}
   */
@@ -466,7 +466,7 @@ export class SsmcontactsRotationRecurrenceShiftCoveragesOutputReference extends 
   }
 
   // day_of_week - computed: true, optional: true, required: false
-  private _dayOfWeek?: string;
+  private _dayOfWeek?: string; 
   public get dayOfWeek() {
     return this.getStringAttribute('day_of_week');
   }
@@ -503,7 +503,7 @@ export class SsmcontactsRotationRecurrenceShiftCoveragesList extends cdktn.Compl
 }
 export interface SsmcontactsRotationRecurrenceWeeklySettings {
   /**
-  * The day of the week when weekly recurring on-call shift rotations begin.
+  * The day of the week when weekly recurring on-call shift rotations begin. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ssmcontacts_rotation#day_of_week SsmcontactsRotation#day_of_week}
   */
@@ -603,7 +603,7 @@ export class SsmcontactsRotationRecurrenceWeeklySettingsOutputReference extends 
   }
 
   // day_of_week - computed: true, optional: true, required: false
-  private _dayOfWeek?: string;
+  private _dayOfWeek?: string; 
   public get dayOfWeek() {
     return this.getStringAttribute('day_of_week');
   }
@@ -619,7 +619,7 @@ export class SsmcontactsRotationRecurrenceWeeklySettingsOutputReference extends 
   }
 
   // hand_off_time - computed: true, optional: true, required: false
-  private _handOffTime?: string;
+  private _handOffTime?: string; 
   public get handOffTime() {
     return this.getStringAttribute('hand_off_time');
   }
@@ -830,7 +830,7 @@ export class SsmcontactsRotationRecurrenceOutputReference extends cdktn.ComplexO
   }
 
   // daily_settings - computed: true, optional: true, required: false
-  private _dailySettings?: string[];
+  private _dailySettings?: string[]; 
   public get dailySettings() {
     return this.getListAttribute('daily_settings');
   }
@@ -862,7 +862,7 @@ export class SsmcontactsRotationRecurrenceOutputReference extends cdktn.ComplexO
   }
 
   // number_of_on_calls - computed: true, optional: true, required: false
-  private _numberOfOnCalls?: number;
+  private _numberOfOnCalls?: number; 
   public get numberOfOnCalls() {
     return this.getNumberAttribute('number_of_on_calls');
   }
@@ -878,7 +878,7 @@ export class SsmcontactsRotationRecurrenceOutputReference extends cdktn.ComplexO
   }
 
   // recurrence_multiplier - computed: true, optional: true, required: false
-  private _recurrenceMultiplier?: number;
+  private _recurrenceMultiplier?: number; 
   public get recurrenceMultiplier() {
     return this.getNumberAttribute('recurrence_multiplier');
   }
@@ -1027,7 +1027,7 @@ export class SsmcontactsRotationTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1043,7 +1043,7 @@ export class SsmcontactsRotationTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1147,7 +1147,7 @@ export class SsmcontactsRotation extends cdktn.TerraformResource {
   }
 
   // contact_ids - computed: false, optional: false, required: true
-  private _contactIds?: string[];
+  private _contactIds?: string[]; 
   public get contactIds() {
     return this.getListAttribute('contact_ids');
   }
@@ -1165,7 +1165,7 @@ export class SsmcontactsRotation extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1191,7 +1191,7 @@ export class SsmcontactsRotation extends cdktn.TerraformResource {
   }
 
   // start_time - computed: false, optional: false, required: true
-  private _startTime?: string;
+  private _startTime?: string; 
   public get startTime() {
     return this.getStringAttribute('start_time');
   }
@@ -1220,7 +1220,7 @@ export class SsmcontactsRotation extends cdktn.TerraformResource {
   }
 
   // time_zone_id - computed: false, optional: false, required: true
-  private _timeZoneId?: string;
+  private _timeZoneId?: string; 
   public get timeZoneId() {
     return this.getStringAttribute('time_zone_id');
   }

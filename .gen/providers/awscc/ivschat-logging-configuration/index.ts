@@ -107,7 +107,7 @@ export class IvschatLoggingConfigurationDestinationConfigurationCloudwatchLogsOu
   }
 
   // log_group_name - computed: true, optional: true, required: false
-  private _logGroupName?: string;
+  private _logGroupName?: string; 
   public get logGroupName() {
     return this.getStringAttribute('log_group_name');
   }
@@ -203,7 +203,7 @@ export class IvschatLoggingConfigurationDestinationConfigurationFirehoseOutputRe
   }
 
   // delivery_stream_name - computed: true, optional: true, required: false
-  private _deliveryStreamName?: string;
+  private _deliveryStreamName?: string; 
   public get deliveryStreamName() {
     return this.getStringAttribute('delivery_stream_name');
   }
@@ -299,7 +299,7 @@ export class IvschatLoggingConfigurationDestinationConfigurationS3OutputReferenc
   }
 
   // bucket_name - computed: true, optional: true, required: false
-  private _bucketName?: string;
+  private _bucketName?: string; 
   public get bucketName() {
     return this.getStringAttribute('bucket_name');
   }
@@ -582,7 +582,7 @@ export class IvschatLoggingConfigurationTagsOutputReference extends cdktn.Comple
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -598,7 +598,7 @@ export class IvschatLoggingConfigurationTagsOutputReference extends cdktn.Comple
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -722,7 +722,7 @@ export class IvschatLoggingConfiguration extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }

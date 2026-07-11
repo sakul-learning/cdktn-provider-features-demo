@@ -160,7 +160,7 @@ export class CloudcontrolapiResourceTimeoutsOutputReference extends cdktn.Comple
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -176,7 +176,7 @@ export class CloudcontrolapiResourceTimeoutsOutputReference extends cdktn.Comple
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -192,7 +192,7 @@ export class CloudcontrolapiResourceTimeoutsOutputReference extends cdktn.Comple
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -273,7 +273,7 @@ export class CloudcontrolapiResource extends cdktn.TerraformResource {
   // ==========
 
   // desired_state - computed: false, optional: false, required: true
-  private _desiredState?: string;
+  private _desiredState?: string; 
   public get desiredState() {
     return this.getStringAttribute('desired_state');
   }
@@ -286,7 +286,7 @@ export class CloudcontrolapiResource extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -307,7 +307,7 @@ export class CloudcontrolapiResource extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -323,7 +323,7 @@ export class CloudcontrolapiResource extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -339,7 +339,7 @@ export class CloudcontrolapiResource extends cdktn.TerraformResource {
   }
 
   // schema - computed: true, optional: true, required: false
-  private _schema?: string;
+  private _schema?: string; 
   public get schema() {
     return this.getStringAttribute('schema');
   }
@@ -355,7 +355,7 @@ export class CloudcontrolapiResource extends cdktn.TerraformResource {
   }
 
   // type_name - computed: false, optional: false, required: true
-  private _typeName?: string;
+  private _typeName?: string; 
   public get typeName() {
     return this.getStringAttribute('type_name');
   }
@@ -368,7 +368,7 @@ export class CloudcontrolapiResource extends cdktn.TerraformResource {
   }
 
   // type_version_id - computed: false, optional: true, required: false
-  private _typeVersionId?: string;
+  private _typeVersionId?: string; 
   public get typeVersionId() {
     return this.getStringAttribute('type_version_id');
   }

@@ -161,7 +161,7 @@ export class SecretsmanagerSecretReplicaOutputReference extends cdktn.ComplexObj
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -182,7 +182,7 @@ export class SecretsmanagerSecretReplicaOutputReference extends cdktn.ComplexObj
   }
 
   // region - computed: false, optional: false, required: true
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -299,7 +299,7 @@ export class SecretsmanagerSecret extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -315,7 +315,7 @@ export class SecretsmanagerSecret extends cdktn.TerraformResource {
   }
 
   // force_overwrite_replica_secret - computed: false, optional: true, required: false
-  private _forceOverwriteReplicaSecret?: boolean | cdktn.IResolvable;
+  private _forceOverwriteReplicaSecret?: boolean | cdktn.IResolvable; 
   public get forceOverwriteReplicaSecret() {
     return this.getBooleanAttribute('force_overwrite_replica_secret');
   }
@@ -331,7 +331,7 @@ export class SecretsmanagerSecret extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -347,7 +347,7 @@ export class SecretsmanagerSecret extends cdktn.TerraformResource {
   }
 
   // kms_key_id - computed: false, optional: true, required: false
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -363,7 +363,7 @@ export class SecretsmanagerSecret extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -379,7 +379,7 @@ export class SecretsmanagerSecret extends cdktn.TerraformResource {
   }
 
   // name_prefix - computed: true, optional: true, required: false
-  private _namePrefix?: string;
+  private _namePrefix?: string; 
   public get namePrefix() {
     return this.getStringAttribute('name_prefix');
   }
@@ -395,7 +395,7 @@ export class SecretsmanagerSecret extends cdktn.TerraformResource {
   }
 
   // policy - computed: true, optional: true, required: false
-  private _policy?: string;
+  private _policy?: string; 
   public get policy() {
     return this.getStringAttribute('policy');
   }
@@ -411,7 +411,7 @@ export class SecretsmanagerSecret extends cdktn.TerraformResource {
   }
 
   // recovery_window_in_days - computed: false, optional: true, required: false
-  private _recoveryWindowInDays?: number;
+  private _recoveryWindowInDays?: number; 
   public get recoveryWindowInDays() {
     return this.getNumberAttribute('recovery_window_in_days');
   }
@@ -427,7 +427,7 @@ export class SecretsmanagerSecret extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -443,7 +443,7 @@ export class SecretsmanagerSecret extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -459,7 +459,7 @@ export class SecretsmanagerSecret extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

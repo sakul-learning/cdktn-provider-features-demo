@@ -96,7 +96,7 @@ export class DataAwsEksAddonVersion extends cdktn.TerraformDataSource {
   // ==========
 
   // addon_name - computed: false, optional: false, required: true
-  private _addonName?: string;
+  private _addonName?: string; 
   public get addonName() {
     return this.getStringAttribute('addon_name');
   }
@@ -109,7 +109,7 @@ export class DataAwsEksAddonVersion extends cdktn.TerraformDataSource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -125,7 +125,7 @@ export class DataAwsEksAddonVersion extends cdktn.TerraformDataSource {
   }
 
   // kubernetes_version - computed: false, optional: false, required: true
-  private _kubernetesVersion?: string;
+  private _kubernetesVersion?: string; 
   public get kubernetesVersion() {
     return this.getStringAttribute('kubernetes_version');
   }
@@ -138,7 +138,7 @@ export class DataAwsEksAddonVersion extends cdktn.TerraformDataSource {
   }
 
   // most_recent - computed: false, optional: true, required: false
-  private _mostRecent?: boolean | cdktn.IResolvable;
+  private _mostRecent?: boolean | cdktn.IResolvable; 
   public get mostRecent() {
     return this.getBooleanAttribute('most_recent');
   }
@@ -154,7 +154,7 @@ export class DataAwsEksAddonVersion extends cdktn.TerraformDataSource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

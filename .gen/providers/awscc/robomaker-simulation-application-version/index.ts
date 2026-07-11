@@ -78,7 +78,7 @@ export class RobomakerSimulationApplicationVersion extends cdktn.TerraformResour
   // ==========
 
   // application - computed: false, optional: false, required: true
-  private _application?: string;
+  private _application?: string; 
   public get application() {
     return this.getStringAttribute('application');
   }
@@ -101,7 +101,7 @@ export class RobomakerSimulationApplicationVersion extends cdktn.TerraformResour
   }
 
   // current_revision_id - computed: true, optional: true, required: false
-  private _currentRevisionId?: string;
+  private _currentRevisionId?: string; 
   public get currentRevisionId() {
     return this.getStringAttribute('current_revision_id');
   }

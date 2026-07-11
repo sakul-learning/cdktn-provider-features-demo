@@ -216,7 +216,7 @@ export class TimestreamInfluxDbInstanceLogDeliveryConfigurationS3ConfigurationOu
   }
 
   // bucket_name - computed: true, optional: true, required: false
-  private _bucketName?: string;
+  private _bucketName?: string; 
   public get bucketName() {
     return this.getStringAttribute('bucket_name');
   }
@@ -232,7 +232,7 @@ export class TimestreamInfluxDbInstanceLogDeliveryConfigurationS3ConfigurationOu
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -443,7 +443,7 @@ export class TimestreamInfluxDbInstanceMaintenanceScheduleOutputReference extend
   }
 
   // preferred_maintenance_window - computed: true, optional: true, required: false
-  private _preferredMaintenanceWindow?: string;
+  private _preferredMaintenanceWindow?: string; 
   public get preferredMaintenanceWindow() {
     return this.getStringAttribute('preferred_maintenance_window');
   }
@@ -459,7 +459,7 @@ export class TimestreamInfluxDbInstanceMaintenanceScheduleOutputReference extend
   }
 
   // timezone - computed: true, optional: true, required: false
-  private _timezone?: string;
+  private _timezone?: string; 
   public get timezone() {
     return this.getStringAttribute('timezone');
   }
@@ -476,13 +476,13 @@ export class TimestreamInfluxDbInstanceMaintenanceScheduleOutputReference extend
 }
 export interface TimestreamInfluxDbInstanceTags {
   /**
-  * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
+  * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/timestream_influx_db_instance#key TimestreamInfluxDbInstance#key}
   */
   readonly key?: string;
   /**
-  * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
+  * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/timestream_influx_db_instance#value TimestreamInfluxDbInstance#value}
   */
@@ -576,7 +576,7 @@ export class TimestreamInfluxDbInstanceTagsOutputReference extends cdktn.Complex
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -592,7 +592,7 @@ export class TimestreamInfluxDbInstanceTagsOutputReference extends cdktn.Complex
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -703,7 +703,7 @@ export class TimestreamInfluxDbInstance extends cdktn.TerraformResource {
   // ==========
 
   // allocated_storage - computed: true, optional: true, required: false
-  private _allocatedStorage?: number;
+  private _allocatedStorage?: number; 
   public get allocatedStorage() {
     return this.getNumberAttribute('allocated_storage');
   }
@@ -729,7 +729,7 @@ export class TimestreamInfluxDbInstance extends cdktn.TerraformResource {
   }
 
   // bucket - computed: true, optional: true, required: false
-  private _bucket?: string;
+  private _bucket?: string; 
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -745,7 +745,7 @@ export class TimestreamInfluxDbInstance extends cdktn.TerraformResource {
   }
 
   // db_instance_type - computed: true, optional: true, required: false
-  private _dbInstanceType?: string;
+  private _dbInstanceType?: string; 
   public get dbInstanceType() {
     return this.getStringAttribute('db_instance_type');
   }
@@ -761,7 +761,7 @@ export class TimestreamInfluxDbInstance extends cdktn.TerraformResource {
   }
 
   // db_parameter_group_identifier - computed: true, optional: true, required: false
-  private _dbParameterGroupIdentifier?: string;
+  private _dbParameterGroupIdentifier?: string; 
   public get dbParameterGroupIdentifier() {
     return this.getStringAttribute('db_parameter_group_identifier');
   }
@@ -777,7 +777,7 @@ export class TimestreamInfluxDbInstance extends cdktn.TerraformResource {
   }
 
   // db_storage_type - computed: true, optional: true, required: false
-  private _dbStorageType?: string;
+  private _dbStorageType?: string; 
   public get dbStorageType() {
     return this.getStringAttribute('db_storage_type');
   }
@@ -793,7 +793,7 @@ export class TimestreamInfluxDbInstance extends cdktn.TerraformResource {
   }
 
   // deployment_type - computed: true, optional: true, required: false
-  private _deploymentType?: string;
+  private _deploymentType?: string; 
   public get deploymentType() {
     return this.getStringAttribute('deployment_type');
   }
@@ -861,7 +861,7 @@ export class TimestreamInfluxDbInstance extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -877,7 +877,7 @@ export class TimestreamInfluxDbInstance extends cdktn.TerraformResource {
   }
 
   // network_type - computed: true, optional: true, required: false
-  private _networkType?: string;
+  private _networkType?: string; 
   public get networkType() {
     return this.getStringAttribute('network_type');
   }
@@ -898,7 +898,7 @@ export class TimestreamInfluxDbInstance extends cdktn.TerraformResource {
   }
 
   // organization - computed: true, optional: true, required: false
-  private _organization?: string;
+  private _organization?: string; 
   public get organization() {
     return this.getStringAttribute('organization');
   }
@@ -914,7 +914,7 @@ export class TimestreamInfluxDbInstance extends cdktn.TerraformResource {
   }
 
   // password - computed: true, optional: true, required: false
-  private _password?: string;
+  private _password?: string; 
   public get password() {
     return this.getStringAttribute('password');
   }
@@ -930,7 +930,7 @@ export class TimestreamInfluxDbInstance extends cdktn.TerraformResource {
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -946,7 +946,7 @@ export class TimestreamInfluxDbInstance extends cdktn.TerraformResource {
   }
 
   // publicly_accessible - computed: true, optional: true, required: false
-  private _publiclyAccessible?: boolean | cdktn.IResolvable;
+  private _publiclyAccessible?: boolean | cdktn.IResolvable; 
   public get publiclyAccessible() {
     return this.getBooleanAttribute('publicly_accessible');
   }
@@ -988,7 +988,7 @@ export class TimestreamInfluxDbInstance extends cdktn.TerraformResource {
   }
 
   // username - computed: true, optional: true, required: false
-  private _username?: string;
+  private _username?: string; 
   public get username() {
     return this.getStringAttribute('username');
   }
@@ -1004,7 +1004,7 @@ export class TimestreamInfluxDbInstance extends cdktn.TerraformResource {
   }
 
   // vpc_security_group_ids - computed: true, optional: true, required: false
-  private _vpcSecurityGroupIds?: string[];
+  private _vpcSecurityGroupIds?: string[]; 
   public get vpcSecurityGroupIds() {
     return this.getListAttribute('vpc_security_group_ids');
   }
@@ -1020,7 +1020,7 @@ export class TimestreamInfluxDbInstance extends cdktn.TerraformResource {
   }
 
   // vpc_subnet_ids - computed: true, optional: true, required: false
-  private _vpcSubnetIds?: string[];
+  private _vpcSubnetIds?: string[]; 
   public get vpcSubnetIds() {
     return this.getListAttribute('vpc_subnet_ids');
   }

@@ -152,7 +152,7 @@ export class Ec2InstanceStateTimeoutsOutputReference extends cdktn.ComplexObject
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -168,7 +168,7 @@ export class Ec2InstanceStateTimeoutsOutputReference extends cdktn.ComplexObject
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -184,7 +184,7 @@ export class Ec2InstanceStateTimeoutsOutputReference extends cdktn.ComplexObject
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -263,7 +263,7 @@ export class Ec2InstanceState extends cdktn.TerraformResource {
   // ==========
 
   // force - computed: false, optional: true, required: false
-  private _force?: boolean | cdktn.IResolvable;
+  private _force?: boolean | cdktn.IResolvable; 
   public get force() {
     return this.getBooleanAttribute('force');
   }
@@ -279,7 +279,7 @@ export class Ec2InstanceState extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -295,7 +295,7 @@ export class Ec2InstanceState extends cdktn.TerraformResource {
   }
 
   // instance_id - computed: false, optional: false, required: true
-  private _instanceId?: string;
+  private _instanceId?: string; 
   public get instanceId() {
     return this.getStringAttribute('instance_id');
   }
@@ -308,7 +308,7 @@ export class Ec2InstanceState extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -324,7 +324,7 @@ export class Ec2InstanceState extends cdktn.TerraformResource {
   }
 
   // state - computed: false, optional: false, required: true
-  private _state?: string;
+  private _state?: string; 
   public get state() {
     return this.getStringAttribute('state');
   }

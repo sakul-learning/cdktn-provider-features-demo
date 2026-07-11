@@ -261,7 +261,7 @@ export class LambdaEventSourceMappingAmazonManagedKafkaEventSourceConfigSchemaRe
   }
 
   // type - computed: false, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -277,7 +277,7 @@ export class LambdaEventSourceMappingAmazonManagedKafkaEventSourceConfigSchemaRe
   }
 
   // uri - computed: false, optional: true, required: false
-  private _uri?: string;
+  private _uri?: string; 
   public get uri() {
     return this.getStringAttribute('uri');
   }
@@ -393,7 +393,7 @@ export class LambdaEventSourceMappingAmazonManagedKafkaEventSourceConfigSchemaRe
   }
 
   // attribute - computed: false, optional: true, required: false
-  private _attribute?: string;
+  private _attribute?: string; 
   public get attribute() {
     return this.getStringAttribute('attribute');
   }
@@ -552,7 +552,7 @@ export class LambdaEventSourceMappingAmazonManagedKafkaEventSourceConfigSchemaRe
   }
 
   // event_record_format - computed: false, optional: true, required: false
-  private _eventRecordFormat?: string;
+  private _eventRecordFormat?: string; 
   public get eventRecordFormat() {
     return this.getStringAttribute('event_record_format');
   }
@@ -568,7 +568,7 @@ export class LambdaEventSourceMappingAmazonManagedKafkaEventSourceConfigSchemaRe
   }
 
   // schema_registry_uri - computed: false, optional: true, required: false
-  private _schemaRegistryUri?: string;
+  private _schemaRegistryUri?: string; 
   public get schemaRegistryUri() {
     return this.getStringAttribute('schema_registry_uri');
   }
@@ -703,7 +703,7 @@ export class LambdaEventSourceMappingAmazonManagedKafkaEventSourceConfigOutputRe
   }
 
   // consumer_group_id - computed: true, optional: true, required: false
-  private _consumerGroupId?: string;
+  private _consumerGroupId?: string; 
   public get consumerGroupId() {
     return this.getStringAttribute('consumer_group_id');
   }
@@ -803,7 +803,7 @@ export class LambdaEventSourceMappingDestinationConfigOnFailureOutputReference e
   }
 
   // destination_arn - computed: false, optional: false, required: true
-  private _destinationArn?: string;
+  private _destinationArn?: string; 
   public get destinationArn() {
     return this.getStringAttribute('destination_arn');
   }
@@ -1004,7 +1004,7 @@ export class LambdaEventSourceMappingDocumentDbEventSourceConfigOutputReference 
   }
 
   // collection_name - computed: false, optional: true, required: false
-  private _collectionName?: string;
+  private _collectionName?: string; 
   public get collectionName() {
     return this.getStringAttribute('collection_name');
   }
@@ -1020,7 +1020,7 @@ export class LambdaEventSourceMappingDocumentDbEventSourceConfigOutputReference 
   }
 
   // database_name - computed: false, optional: false, required: true
-  private _databaseName?: string;
+  private _databaseName?: string; 
   public get databaseName() {
     return this.getStringAttribute('database_name');
   }
@@ -1033,7 +1033,7 @@ export class LambdaEventSourceMappingDocumentDbEventSourceConfigOutputReference 
   }
 
   // full_document - computed: false, optional: true, required: false
-  private _fullDocument?: string;
+  private _fullDocument?: string; 
   public get fullDocument() {
     return this.getStringAttribute('full_document');
   }
@@ -1129,7 +1129,7 @@ export class LambdaEventSourceMappingFilterCriteriaFilterOutputReference extends
   }
 
   // pattern - computed: false, optional: true, required: false
-  private _pattern?: string;
+  private _pattern?: string; 
   public get pattern() {
     return this.getStringAttribute('pattern');
   }
@@ -1319,7 +1319,7 @@ export class LambdaEventSourceMappingMetricsConfigOutputReference extends cdktn.
   }
 
   // metrics - computed: false, optional: false, required: true
-  private _metrics?: string[];
+  private _metrics?: string[]; 
   public get metrics() {
     return cdktn.Fn.tolist(this.getListAttribute('metrics'));
   }
@@ -1434,7 +1434,7 @@ export class LambdaEventSourceMappingProvisionedPollerConfigOutputReference exte
   }
 
   // maximum_pollers - computed: true, optional: true, required: false
-  private _maximumPollers?: number;
+  private _maximumPollers?: number; 
   public get maximumPollers() {
     return this.getNumberAttribute('maximum_pollers');
   }
@@ -1450,7 +1450,7 @@ export class LambdaEventSourceMappingProvisionedPollerConfigOutputReference exte
   }
 
   // minimum_pollers - computed: true, optional: true, required: false
-  private _minimumPollers?: number;
+  private _minimumPollers?: number; 
   public get minimumPollers() {
     return this.getNumberAttribute('minimum_pollers');
   }
@@ -1466,7 +1466,7 @@ export class LambdaEventSourceMappingProvisionedPollerConfigOutputReference exte
   }
 
   // poller_group_name - computed: true, optional: true, required: false
-  private _pollerGroupName?: string;
+  private _pollerGroupName?: string; 
   public get pollerGroupName() {
     return this.getStringAttribute('poller_group_name');
   }
@@ -1550,7 +1550,7 @@ export class LambdaEventSourceMappingScalingConfigOutputReference extends cdktn.
   }
 
   // maximum_concurrency - computed: false, optional: true, required: false
-  private _maximumConcurrency?: number;
+  private _maximumConcurrency?: number; 
   public get maximumConcurrency() {
     return this.getNumberAttribute('maximum_concurrency');
   }
@@ -1634,7 +1634,7 @@ export class LambdaEventSourceMappingSelfManagedEventSourceOutputReference exten
   }
 
   // endpoints - computed: false, optional: false, required: true
-  private _endpoints?: { [key: string]: string };
+  private _endpoints?: { [key: string]: string }; 
   public get endpoints() {
     return this.getStringMapAttribute('endpoints');
   }
@@ -1744,7 +1744,7 @@ export class LambdaEventSourceMappingSelfManagedKafkaEventSourceConfigSchemaRegi
   }
 
   // type - computed: false, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -1760,7 +1760,7 @@ export class LambdaEventSourceMappingSelfManagedKafkaEventSourceConfigSchemaRegi
   }
 
   // uri - computed: false, optional: true, required: false
-  private _uri?: string;
+  private _uri?: string; 
   public get uri() {
     return this.getStringAttribute('uri');
   }
@@ -1876,7 +1876,7 @@ export class LambdaEventSourceMappingSelfManagedKafkaEventSourceConfigSchemaRegi
   }
 
   // attribute - computed: false, optional: true, required: false
-  private _attribute?: string;
+  private _attribute?: string; 
   public get attribute() {
     return this.getStringAttribute('attribute');
   }
@@ -2035,7 +2035,7 @@ export class LambdaEventSourceMappingSelfManagedKafkaEventSourceConfigSchemaRegi
   }
 
   // event_record_format - computed: false, optional: true, required: false
-  private _eventRecordFormat?: string;
+  private _eventRecordFormat?: string; 
   public get eventRecordFormat() {
     return this.getStringAttribute('event_record_format');
   }
@@ -2051,7 +2051,7 @@ export class LambdaEventSourceMappingSelfManagedKafkaEventSourceConfigSchemaRegi
   }
 
   // schema_registry_uri - computed: false, optional: true, required: false
-  private _schemaRegistryUri?: string;
+  private _schemaRegistryUri?: string; 
   public get schemaRegistryUri() {
     return this.getStringAttribute('schema_registry_uri');
   }
@@ -2186,7 +2186,7 @@ export class LambdaEventSourceMappingSelfManagedKafkaEventSourceConfigOutputRefe
   }
 
   // consumer_group_id - computed: true, optional: true, required: false
-  private _consumerGroupId?: string;
+  private _consumerGroupId?: string; 
   public get consumerGroupId() {
     return this.getStringAttribute('consumer_group_id');
   }
@@ -2315,7 +2315,7 @@ export class LambdaEventSourceMappingSourceAccessConfigurationOutputReference ex
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -2328,7 +2328,7 @@ export class LambdaEventSourceMappingSourceAccessConfigurationOutputReference ex
   }
 
   // uri - computed: false, optional: false, required: true
-  private _uri?: string;
+  private _uri?: string; 
   public get uri() {
     return this.getStringAttribute('uri');
   }
@@ -2473,7 +2473,7 @@ export class LambdaEventSourceMappingTimeoutsOutputReference extends cdktn.Compl
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -2489,7 +2489,7 @@ export class LambdaEventSourceMappingTimeoutsOutputReference extends cdktn.Compl
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -2505,7 +2505,7 @@ export class LambdaEventSourceMappingTimeoutsOutputReference extends cdktn.Compl
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -2615,7 +2615,7 @@ export class LambdaEventSourceMapping extends cdktn.TerraformResource {
   }
 
   // batch_size - computed: false, optional: true, required: false
-  private _batchSize?: number;
+  private _batchSize?: number; 
   public get batchSize() {
     return this.getNumberAttribute('batch_size');
   }
@@ -2631,7 +2631,7 @@ export class LambdaEventSourceMapping extends cdktn.TerraformResource {
   }
 
   // bisect_batch_on_function_error - computed: false, optional: true, required: false
-  private _bisectBatchOnFunctionError?: boolean | cdktn.IResolvable;
+  private _bisectBatchOnFunctionError?: boolean | cdktn.IResolvable; 
   public get bisectBatchOnFunctionError() {
     return this.getBooleanAttribute('bisect_batch_on_function_error');
   }
@@ -2647,7 +2647,7 @@ export class LambdaEventSourceMapping extends cdktn.TerraformResource {
   }
 
   // enabled - computed: false, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -2663,7 +2663,7 @@ export class LambdaEventSourceMapping extends cdktn.TerraformResource {
   }
 
   // event_source_arn - computed: false, optional: true, required: false
-  private _eventSourceArn?: string;
+  private _eventSourceArn?: string; 
   public get eventSourceArn() {
     return this.getStringAttribute('event_source_arn');
   }
@@ -2684,7 +2684,7 @@ export class LambdaEventSourceMapping extends cdktn.TerraformResource {
   }
 
   // function_name - computed: false, optional: false, required: true
-  private _functionName?: string;
+  private _functionName?: string; 
   public get functionName() {
     return this.getStringAttribute('function_name');
   }
@@ -2697,7 +2697,7 @@ export class LambdaEventSourceMapping extends cdktn.TerraformResource {
   }
 
   // function_response_types - computed: false, optional: true, required: false
-  private _functionResponseTypes?: string[];
+  private _functionResponseTypes?: string[]; 
   public get functionResponseTypes() {
     return cdktn.Fn.tolist(this.getListAttribute('function_response_types'));
   }
@@ -2713,7 +2713,7 @@ export class LambdaEventSourceMapping extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -2729,7 +2729,7 @@ export class LambdaEventSourceMapping extends cdktn.TerraformResource {
   }
 
   // kms_key_arn - computed: false, optional: true, required: false
-  private _kmsKeyArn?: string;
+  private _kmsKeyArn?: string; 
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -2755,7 +2755,7 @@ export class LambdaEventSourceMapping extends cdktn.TerraformResource {
   }
 
   // maximum_batching_window_in_seconds - computed: false, optional: true, required: false
-  private _maximumBatchingWindowInSeconds?: number;
+  private _maximumBatchingWindowInSeconds?: number; 
   public get maximumBatchingWindowInSeconds() {
     return this.getNumberAttribute('maximum_batching_window_in_seconds');
   }
@@ -2771,7 +2771,7 @@ export class LambdaEventSourceMapping extends cdktn.TerraformResource {
   }
 
   // maximum_record_age_in_seconds - computed: true, optional: true, required: false
-  private _maximumRecordAgeInSeconds?: number;
+  private _maximumRecordAgeInSeconds?: number; 
   public get maximumRecordAgeInSeconds() {
     return this.getNumberAttribute('maximum_record_age_in_seconds');
   }
@@ -2787,7 +2787,7 @@ export class LambdaEventSourceMapping extends cdktn.TerraformResource {
   }
 
   // maximum_retry_attempts - computed: true, optional: true, required: false
-  private _maximumRetryAttempts?: number;
+  private _maximumRetryAttempts?: number; 
   public get maximumRetryAttempts() {
     return this.getNumberAttribute('maximum_retry_attempts');
   }
@@ -2803,7 +2803,7 @@ export class LambdaEventSourceMapping extends cdktn.TerraformResource {
   }
 
   // parallelization_factor - computed: true, optional: true, required: false
-  private _parallelizationFactor?: number;
+  private _parallelizationFactor?: number; 
   public get parallelizationFactor() {
     return this.getNumberAttribute('parallelization_factor');
   }
@@ -2819,7 +2819,7 @@ export class LambdaEventSourceMapping extends cdktn.TerraformResource {
   }
 
   // queues - computed: false, optional: true, required: false
-  private _queues?: string[];
+  private _queues?: string[]; 
   public get queues() {
     return this.getListAttribute('queues');
   }
@@ -2835,7 +2835,7 @@ export class LambdaEventSourceMapping extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -2851,7 +2851,7 @@ export class LambdaEventSourceMapping extends cdktn.TerraformResource {
   }
 
   // starting_position - computed: false, optional: true, required: false
-  private _startingPosition?: string;
+  private _startingPosition?: string; 
   public get startingPosition() {
     return this.getStringAttribute('starting_position');
   }
@@ -2867,7 +2867,7 @@ export class LambdaEventSourceMapping extends cdktn.TerraformResource {
   }
 
   // starting_position_timestamp - computed: false, optional: true, required: false
-  private _startingPositionTimestamp?: string;
+  private _startingPositionTimestamp?: string; 
   public get startingPositionTimestamp() {
     return this.getStringAttribute('starting_position_timestamp');
   }
@@ -2893,7 +2893,7 @@ export class LambdaEventSourceMapping extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -2909,7 +2909,7 @@ export class LambdaEventSourceMapping extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -2925,7 +2925,7 @@ export class LambdaEventSourceMapping extends cdktn.TerraformResource {
   }
 
   // topics - computed: false, optional: true, required: false
-  private _topics?: string[];
+  private _topics?: string[]; 
   public get topics() {
     return cdktn.Fn.tolist(this.getListAttribute('topics'));
   }
@@ -2941,7 +2941,7 @@ export class LambdaEventSourceMapping extends cdktn.TerraformResource {
   }
 
   // tumbling_window_in_seconds - computed: false, optional: true, required: false
-  private _tumblingWindowInSeconds?: number;
+  private _tumblingWindowInSeconds?: number; 
   public get tumblingWindowInSeconds() {
     return this.getNumberAttribute('tumbling_window_in_seconds');
   }
@@ -2957,7 +2957,7 @@ export class LambdaEventSourceMapping extends cdktn.TerraformResource {
   }
 
   // use_resource_timeout_for_propagation - computed: false, optional: true, required: false
-  private _useResourceTimeoutForPropagation?: boolean | cdktn.IResolvable;
+  private _useResourceTimeoutForPropagation?: boolean | cdktn.IResolvable; 
   public get useResourceTimeoutForPropagation() {
     return this.getBooleanAttribute('use_resource_timeout_for_propagation');
   }

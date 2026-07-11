@@ -139,7 +139,7 @@ export class ApplicationsignalsServiceLevelObjectiveBurnRateConfigurationsOutput
   }
 
   // look_back_window_minutes - computed: true, optional: true, required: false
-  private _lookBackWindowMinutes?: number;
+  private _lookBackWindowMinutes?: number; 
   public get lookBackWindowMinutes() {
     return this.getNumberAttribute('look_back_window_minutes');
   }
@@ -255,7 +255,7 @@ export class ApplicationsignalsServiceLevelObjectiveExclusionWindowsRecurrenceRu
   }
 
   // expression - computed: true, optional: true, required: false
-  private _expression?: string;
+  private _expression?: string; 
   public get expression() {
     return this.getStringAttribute('expression');
   }
@@ -370,7 +370,7 @@ export class ApplicationsignalsServiceLevelObjectiveExclusionWindowsWindowOutput
   }
 
   // duration - computed: true, optional: true, required: false
-  private _duration?: number;
+  private _duration?: number; 
   public get duration() {
     return this.getNumberAttribute('duration');
   }
@@ -386,7 +386,7 @@ export class ApplicationsignalsServiceLevelObjectiveExclusionWindowsWindowOutput
   }
 
   // duration_unit - computed: true, optional: true, required: false
-  private _durationUnit?: string;
+  private _durationUnit?: string; 
   public get durationUnit() {
     return this.getStringAttribute('duration_unit');
   }
@@ -541,7 +541,7 @@ export class ApplicationsignalsServiceLevelObjectiveExclusionWindowsOutputRefere
   }
 
   // reason - computed: true, optional: true, required: false
-  private _reason?: string;
+  private _reason?: string; 
   public get reason() {
     return this.getStringAttribute('reason');
   }
@@ -573,7 +573,7 @@ export class ApplicationsignalsServiceLevelObjectiveExclusionWindowsOutputRefere
   }
 
   // start_time - computed: true, optional: true, required: false
-  private _startTime?: string;
+  private _startTime?: string; 
   public get startTime() {
     return this.getStringAttribute('start_time');
   }
@@ -744,7 +744,7 @@ export class ApplicationsignalsServiceLevelObjectiveGoalIntervalCalendarInterval
   }
 
   // duration - computed: true, optional: true, required: false
-  private _duration?: number;
+  private _duration?: number; 
   public get duration() {
     return this.getNumberAttribute('duration');
   }
@@ -760,7 +760,7 @@ export class ApplicationsignalsServiceLevelObjectiveGoalIntervalCalendarInterval
   }
 
   // duration_unit - computed: true, optional: true, required: false
-  private _durationUnit?: string;
+  private _durationUnit?: string; 
   public get durationUnit() {
     return this.getStringAttribute('duration_unit');
   }
@@ -776,7 +776,7 @@ export class ApplicationsignalsServiceLevelObjectiveGoalIntervalCalendarInterval
   }
 
   // start_time - computed: true, optional: true, required: false
-  private _startTime?: number;
+  private _startTime?: number; 
   public get startTime() {
     return this.getNumberAttribute('start_time');
   }
@@ -891,7 +891,7 @@ export class ApplicationsignalsServiceLevelObjectiveGoalIntervalRollingIntervalO
   }
 
   // duration - computed: true, optional: true, required: false
-  private _duration?: number;
+  private _duration?: number; 
   public get duration() {
     return this.getNumberAttribute('duration');
   }
@@ -907,7 +907,7 @@ export class ApplicationsignalsServiceLevelObjectiveGoalIntervalRollingIntervalO
   }
 
   // duration_unit - computed: true, optional: true, required: false
-  private _durationUnit?: string;
+  private _durationUnit?: string; 
   public get durationUnit() {
     return this.getStringAttribute('duration_unit');
   }
@@ -1174,7 +1174,7 @@ export class ApplicationsignalsServiceLevelObjectiveGoalOutputReference extends 
   }
 
   // attainment_goal - computed: true, optional: true, required: false
-  private _attainmentGoal?: number;
+  private _attainmentGoal?: number; 
   public get attainmentGoal() {
     return this.getNumberAttribute('attainment_goal');
   }
@@ -1206,7 +1206,7 @@ export class ApplicationsignalsServiceLevelObjectiveGoalOutputReference extends 
   }
 
   // warning_threshold - computed: true, optional: true, required: false
-  private _warningThreshold?: number;
+  private _warningThreshold?: number; 
   public get warningThreshold() {
     return this.getNumberAttribute('warning_threshold');
   }
@@ -1302,7 +1302,7 @@ export class ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedS
   }
 
   // operation_name - computed: true, optional: true, required: false
-  private _operationName?: string;
+  private _operationName?: string; 
   public get operationName() {
     return this.getStringAttribute('operation_name');
   }
@@ -1433,7 +1433,7 @@ export class ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedS
   }
 
   // pattern - computed: true, optional: true, required: false
-  private _pattern?: string;
+  private _pattern?: string; 
   public get pattern() {
     return this.getStringAttribute('pattern');
   }
@@ -1449,7 +1449,7 @@ export class ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedS
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -1691,7 +1691,7 @@ export class ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedS
   }
 
   // dependency_key_attributes - computed: true, optional: true, required: false
-  private _dependencyKeyAttributes?: { [key: string]: string };
+  private _dependencyKeyAttributes?: { [key: string]: string }; 
   public get dependencyKeyAttributes() {
     return this.getStringMapAttribute('dependency_key_attributes');
   }
@@ -1707,7 +1707,7 @@ export class ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedS
   }
 
   // dependency_operation_name - computed: true, optional: true, required: false
-  private _dependencyOperationName?: string;
+  private _dependencyOperationName?: string; 
   public get dependencyOperationName() {
     return this.getStringAttribute('dependency_operation_name');
   }
@@ -1822,7 +1822,7 @@ export class ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedS
   }
 
   // metric_source_attributes - computed: true, optional: true, required: false
-  private _metricSourceAttributes?: { [key: string]: string };
+  private _metricSourceAttributes?: { [key: string]: string }; 
   public get metricSourceAttributes() {
     return this.getStringMapAttribute('metric_source_attributes');
   }
@@ -1838,7 +1838,7 @@ export class ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedS
   }
 
   // metric_source_key_attributes - computed: true, optional: true, required: false
-  private _metricSourceKeyAttributes?: { [key: string]: string };
+  private _metricSourceKeyAttributes?: { [key: string]: string }; 
   public get metricSourceKeyAttributes() {
     return this.getStringMapAttribute('metric_source_key_attributes');
   }
@@ -1955,7 +1955,7 @@ export class ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedS
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1971,7 +1971,7 @@ export class ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedS
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2141,7 +2141,7 @@ export class ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedS
   }
 
   // metric_name - computed: true, optional: true, required: false
-  private _metricName?: string;
+  private _metricName?: string; 
   public get metricName() {
     return this.getStringAttribute('metric_name');
   }
@@ -2157,7 +2157,7 @@ export class ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedS
   }
 
   // namespace - computed: true, optional: true, required: false
-  private _namespace?: string;
+  private _namespace?: string; 
   public get namespace() {
     return this.getStringAttribute('namespace');
   }
@@ -2326,7 +2326,7 @@ export class ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedS
   }
 
   // period - computed: true, optional: true, required: false
-  private _period?: number;
+  private _period?: number; 
   public get period() {
     return this.getNumberAttribute('period');
   }
@@ -2342,7 +2342,7 @@ export class ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedS
   }
 
   // stat - computed: true, optional: true, required: false
-  private _stat?: string;
+  private _stat?: string; 
   public get stat() {
     return this.getStringAttribute('stat');
   }
@@ -2358,7 +2358,7 @@ export class ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedS
   }
 
   // unit - computed: true, optional: true, required: false
-  private _unit?: string;
+  private _unit?: string; 
   public get unit() {
     return this.getStringAttribute('unit');
   }
@@ -2535,7 +2535,7 @@ export class ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedS
   }
 
   // account_id - computed: true, optional: true, required: false
-  private _accountId?: string;
+  private _accountId?: string; 
   public get accountId() {
     return this.getStringAttribute('account_id');
   }
@@ -2551,7 +2551,7 @@ export class ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedS
   }
 
   // expression - computed: true, optional: true, required: false
-  private _expression?: string;
+  private _expression?: string; 
   public get expression() {
     return this.getStringAttribute('expression');
   }
@@ -2567,7 +2567,7 @@ export class ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedS
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -2599,7 +2599,7 @@ export class ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedS
   }
 
   // return_data - computed: true, optional: true, required: false
-  private _returnData?: boolean | cdktn.IResolvable;
+  private _returnData?: boolean | cdktn.IResolvable; 
   public get returnData() {
     return this.getBooleanAttribute('return_data');
   }
@@ -2736,7 +2736,7 @@ export class ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedS
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2752,7 +2752,7 @@ export class ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedS
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2922,7 +2922,7 @@ export class ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedS
   }
 
   // metric_name - computed: true, optional: true, required: false
-  private _metricName?: string;
+  private _metricName?: string; 
   public get metricName() {
     return this.getStringAttribute('metric_name');
   }
@@ -2938,7 +2938,7 @@ export class ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedS
   }
 
   // namespace - computed: true, optional: true, required: false
-  private _namespace?: string;
+  private _namespace?: string; 
   public get namespace() {
     return this.getStringAttribute('namespace');
   }
@@ -3107,7 +3107,7 @@ export class ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedS
   }
 
   // period - computed: true, optional: true, required: false
-  private _period?: number;
+  private _period?: number; 
   public get period() {
     return this.getNumberAttribute('period');
   }
@@ -3123,7 +3123,7 @@ export class ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedS
   }
 
   // stat - computed: true, optional: true, required: false
-  private _stat?: string;
+  private _stat?: string; 
   public get stat() {
     return this.getStringAttribute('stat');
   }
@@ -3139,7 +3139,7 @@ export class ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedS
   }
 
   // unit - computed: true, optional: true, required: false
-  private _unit?: string;
+  private _unit?: string; 
   public get unit() {
     return this.getStringAttribute('unit');
   }
@@ -3316,7 +3316,7 @@ export class ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedS
   }
 
   // account_id - computed: true, optional: true, required: false
-  private _accountId?: string;
+  private _accountId?: string; 
   public get accountId() {
     return this.getStringAttribute('account_id');
   }
@@ -3332,7 +3332,7 @@ export class ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedS
   }
 
   // expression - computed: true, optional: true, required: false
-  private _expression?: string;
+  private _expression?: string; 
   public get expression() {
     return this.getStringAttribute('expression');
   }
@@ -3348,7 +3348,7 @@ export class ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedS
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -3380,7 +3380,7 @@ export class ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedS
   }
 
   // return_data - computed: true, optional: true, required: false
-  private _returnData?: boolean | cdktn.IResolvable;
+  private _returnData?: boolean | cdktn.IResolvable; 
   public get returnData() {
     return this.getBooleanAttribute('return_data');
   }
@@ -3648,7 +3648,7 @@ export class ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedS
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -3664,7 +3664,7 @@ export class ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedS
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -3834,7 +3834,7 @@ export class ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedS
   }
 
   // metric_name - computed: true, optional: true, required: false
-  private _metricName?: string;
+  private _metricName?: string; 
   public get metricName() {
     return this.getStringAttribute('metric_name');
   }
@@ -3850,7 +3850,7 @@ export class ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedS
   }
 
   // namespace - computed: true, optional: true, required: false
-  private _namespace?: string;
+  private _namespace?: string; 
   public get namespace() {
     return this.getStringAttribute('namespace');
   }
@@ -4019,7 +4019,7 @@ export class ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedS
   }
 
   // period - computed: true, optional: true, required: false
-  private _period?: number;
+  private _period?: number; 
   public get period() {
     return this.getNumberAttribute('period');
   }
@@ -4035,7 +4035,7 @@ export class ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedS
   }
 
   // stat - computed: true, optional: true, required: false
-  private _stat?: string;
+  private _stat?: string; 
   public get stat() {
     return this.getStringAttribute('stat');
   }
@@ -4051,7 +4051,7 @@ export class ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedS
   }
 
   // unit - computed: true, optional: true, required: false
-  private _unit?: string;
+  private _unit?: string; 
   public get unit() {
     return this.getStringAttribute('unit');
   }
@@ -4228,7 +4228,7 @@ export class ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedS
   }
 
   // account_id - computed: true, optional: true, required: false
-  private _accountId?: string;
+  private _accountId?: string; 
   public get accountId() {
     return this.getStringAttribute('account_id');
   }
@@ -4244,7 +4244,7 @@ export class ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedS
   }
 
   // expression - computed: true, optional: true, required: false
-  private _expression?: string;
+  private _expression?: string; 
   public get expression() {
     return this.getStringAttribute('expression');
   }
@@ -4260,7 +4260,7 @@ export class ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedS
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -4292,7 +4292,7 @@ export class ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedS
   }
 
   // return_data - computed: true, optional: true, required: false
-  private _returnData?: boolean | cdktn.IResolvable;
+  private _returnData?: boolean | cdktn.IResolvable; 
   public get returnData() {
     return this.getBooleanAttribute('return_data');
   }
@@ -4590,7 +4590,7 @@ export class ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedS
   }
 
   // key_attributes - computed: true, optional: true, required: false
-  private _keyAttributes?: { [key: string]: string };
+  private _keyAttributes?: { [key: string]: string }; 
   public get keyAttributes() {
     return this.getStringMapAttribute('key_attributes');
   }
@@ -4606,7 +4606,7 @@ export class ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedS
   }
 
   // metric_name - computed: true, optional: true, required: false
-  private _metricName?: string;
+  private _metricName?: string; 
   public get metricName() {
     return this.getStringAttribute('metric_name');
   }
@@ -4638,7 +4638,7 @@ export class ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedS
   }
 
   // metric_type - computed: true, optional: true, required: false
-  private _metricType?: string;
+  private _metricType?: string; 
   public get metricType() {
     return this.getStringAttribute('metric_type');
   }
@@ -4670,7 +4670,7 @@ export class ApplicationsignalsServiceLevelObjectiveRequestBasedSliRequestBasedS
   }
 
   // operation_name - computed: true, optional: true, required: false
-  private _operationName?: string;
+  private _operationName?: string; 
   public get operationName() {
     return this.getStringAttribute('operation_name');
   }
@@ -4820,7 +4820,7 @@ export class ApplicationsignalsServiceLevelObjectiveRequestBasedSliOutputReferen
   }
 
   // comparison_operator - computed: true, optional: true, required: false
-  private _comparisonOperator?: string;
+  private _comparisonOperator?: string; 
   public get comparisonOperator() {
     return this.getStringAttribute('comparison_operator');
   }
@@ -4836,7 +4836,7 @@ export class ApplicationsignalsServiceLevelObjectiveRequestBasedSliOutputReferen
   }
 
   // metric_threshold - computed: true, optional: true, required: false
-  private _metricThreshold?: number;
+  private _metricThreshold?: number; 
   public get metricThreshold() {
     return this.getNumberAttribute('metric_threshold');
   }
@@ -4948,7 +4948,7 @@ export class ApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeSliConf
   }
 
   // operation_name - computed: true, optional: true, required: false
-  private _operationName?: string;
+  private _operationName?: string; 
   public get operationName() {
     return this.getStringAttribute('operation_name');
   }
@@ -5079,7 +5079,7 @@ export class ApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeSliConf
   }
 
   // pattern - computed: true, optional: true, required: false
-  private _pattern?: string;
+  private _pattern?: string; 
   public get pattern() {
     return this.getStringAttribute('pattern');
   }
@@ -5095,7 +5095,7 @@ export class ApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeSliConf
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -5337,7 +5337,7 @@ export class ApplicationsignalsServiceLevelObjectiveSliSliMetricDependencyConfig
   }
 
   // dependency_key_attributes - computed: true, optional: true, required: false
-  private _dependencyKeyAttributes?: { [key: string]: string };
+  private _dependencyKeyAttributes?: { [key: string]: string }; 
   public get dependencyKeyAttributes() {
     return this.getStringMapAttribute('dependency_key_attributes');
   }
@@ -5353,7 +5353,7 @@ export class ApplicationsignalsServiceLevelObjectiveSliSliMetricDependencyConfig
   }
 
   // dependency_operation_name - computed: true, optional: true, required: false
-  private _dependencyOperationName?: string;
+  private _dependencyOperationName?: string; 
   public get dependencyOperationName() {
     return this.getStringAttribute('dependency_operation_name');
   }
@@ -5470,7 +5470,7 @@ export class ApplicationsignalsServiceLevelObjectiveSliSliMetricMetricDataQuerie
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -5486,7 +5486,7 @@ export class ApplicationsignalsServiceLevelObjectiveSliSliMetricMetricDataQuerie
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -5656,7 +5656,7 @@ export class ApplicationsignalsServiceLevelObjectiveSliSliMetricMetricDataQuerie
   }
 
   // metric_name - computed: true, optional: true, required: false
-  private _metricName?: string;
+  private _metricName?: string; 
   public get metricName() {
     return this.getStringAttribute('metric_name');
   }
@@ -5672,7 +5672,7 @@ export class ApplicationsignalsServiceLevelObjectiveSliSliMetricMetricDataQuerie
   }
 
   // namespace - computed: true, optional: true, required: false
-  private _namespace?: string;
+  private _namespace?: string; 
   public get namespace() {
     return this.getStringAttribute('namespace');
   }
@@ -5841,7 +5841,7 @@ export class ApplicationsignalsServiceLevelObjectiveSliSliMetricMetricDataQuerie
   }
 
   // period - computed: true, optional: true, required: false
-  private _period?: number;
+  private _period?: number; 
   public get period() {
     return this.getNumberAttribute('period');
   }
@@ -5857,7 +5857,7 @@ export class ApplicationsignalsServiceLevelObjectiveSliSliMetricMetricDataQuerie
   }
 
   // stat - computed: true, optional: true, required: false
-  private _stat?: string;
+  private _stat?: string; 
   public get stat() {
     return this.getStringAttribute('stat');
   }
@@ -5873,7 +5873,7 @@ export class ApplicationsignalsServiceLevelObjectiveSliSliMetricMetricDataQuerie
   }
 
   // unit - computed: true, optional: true, required: false
-  private _unit?: string;
+  private _unit?: string; 
   public get unit() {
     return this.getStringAttribute('unit');
   }
@@ -6050,7 +6050,7 @@ export class ApplicationsignalsServiceLevelObjectiveSliSliMetricMetricDataQuerie
   }
 
   // account_id - computed: true, optional: true, required: false
-  private _accountId?: string;
+  private _accountId?: string; 
   public get accountId() {
     return this.getStringAttribute('account_id');
   }
@@ -6066,7 +6066,7 @@ export class ApplicationsignalsServiceLevelObjectiveSliSliMetricMetricDataQuerie
   }
 
   // expression - computed: true, optional: true, required: false
-  private _expression?: string;
+  private _expression?: string; 
   public get expression() {
     return this.getStringAttribute('expression');
   }
@@ -6082,7 +6082,7 @@ export class ApplicationsignalsServiceLevelObjectiveSliSliMetricMetricDataQuerie
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -6114,7 +6114,7 @@ export class ApplicationsignalsServiceLevelObjectiveSliSliMetricMetricDataQuerie
   }
 
   // return_data - computed: true, optional: true, required: false
-  private _returnData?: boolean | cdktn.IResolvable;
+  private _returnData?: boolean | cdktn.IResolvable; 
   public get returnData() {
     return this.getBooleanAttribute('return_data');
   }
@@ -6249,7 +6249,7 @@ export class ApplicationsignalsServiceLevelObjectiveSliSliMetricMetricSourceOutp
   }
 
   // metric_source_attributes - computed: true, optional: true, required: false
-  private _metricSourceAttributes?: { [key: string]: string };
+  private _metricSourceAttributes?: { [key: string]: string }; 
   public get metricSourceAttributes() {
     return this.getStringMapAttribute('metric_source_attributes');
   }
@@ -6265,7 +6265,7 @@ export class ApplicationsignalsServiceLevelObjectiveSliSliMetricMetricSourceOutp
   }
 
   // metric_source_key_attributes - computed: true, optional: true, required: false
-  private _metricSourceKeyAttributes?: { [key: string]: string };
+  private _metricSourceKeyAttributes?: { [key: string]: string }; 
   public get metricSourceKeyAttributes() {
     return this.getStringMapAttribute('metric_source_key_attributes');
   }
@@ -6562,7 +6562,7 @@ export class ApplicationsignalsServiceLevelObjectiveSliSliMetricOutputReference 
   }
 
   // key_attributes - computed: true, optional: true, required: false
-  private _keyAttributes?: { [key: string]: string };
+  private _keyAttributes?: { [key: string]: string }; 
   public get keyAttributes() {
     return this.getStringMapAttribute('key_attributes');
   }
@@ -6594,7 +6594,7 @@ export class ApplicationsignalsServiceLevelObjectiveSliSliMetricOutputReference 
   }
 
   // metric_name - computed: true, optional: true, required: false
-  private _metricName?: string;
+  private _metricName?: string; 
   public get metricName() {
     return this.getStringAttribute('metric_name');
   }
@@ -6626,7 +6626,7 @@ export class ApplicationsignalsServiceLevelObjectiveSliSliMetricOutputReference 
   }
 
   // metric_type - computed: true, optional: true, required: false
-  private _metricType?: string;
+  private _metricType?: string; 
   public get metricType() {
     return this.getStringAttribute('metric_type');
   }
@@ -6642,7 +6642,7 @@ export class ApplicationsignalsServiceLevelObjectiveSliSliMetricOutputReference 
   }
 
   // operation_name - computed: true, optional: true, required: false
-  private _operationName?: string;
+  private _operationName?: string; 
   public get operationName() {
     return this.getStringAttribute('operation_name');
   }
@@ -6658,7 +6658,7 @@ export class ApplicationsignalsServiceLevelObjectiveSliSliMetricOutputReference 
   }
 
   // period_seconds - computed: true, optional: true, required: false
-  private _periodSeconds?: number;
+  private _periodSeconds?: number; 
   public get periodSeconds() {
     return this.getNumberAttribute('period_seconds');
   }
@@ -6674,7 +6674,7 @@ export class ApplicationsignalsServiceLevelObjectiveSliSliMetricOutputReference 
   }
 
   // statistic - computed: true, optional: true, required: false
-  private _statistic?: string;
+  private _statistic?: string; 
   public get statistic() {
     return this.getStringAttribute('statistic');
   }
@@ -6808,7 +6808,7 @@ export class ApplicationsignalsServiceLevelObjectiveSliOutputReference extends c
   }
 
   // comparison_operator - computed: true, optional: true, required: false
-  private _comparisonOperator?: string;
+  private _comparisonOperator?: string; 
   public get comparisonOperator() {
     return this.getStringAttribute('comparison_operator');
   }
@@ -6824,7 +6824,7 @@ export class ApplicationsignalsServiceLevelObjectiveSliOutputReference extends c
   }
 
   // metric_threshold - computed: true, optional: true, required: false
-  private _metricThreshold?: number;
+  private _metricThreshold?: number; 
   public get metricThreshold() {
     return this.getNumberAttribute('metric_threshold');
   }
@@ -6957,7 +6957,7 @@ export class ApplicationsignalsServiceLevelObjectiveTagsOutputReference extends 
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -6973,7 +6973,7 @@ export class ApplicationsignalsServiceLevelObjectiveTagsOutputReference extends 
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -7100,7 +7100,7 @@ export class ApplicationsignalsServiceLevelObjective extends cdktn.TerraformReso
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -7163,7 +7163,7 @@ export class ApplicationsignalsServiceLevelObjective extends cdktn.TerraformReso
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }

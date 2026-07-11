@@ -182,7 +182,7 @@ export class TimestreamTableMagneticStoreWritePropertiesMagneticStoreRejectedDat
   }
 
   // bucket_name - computed: true, optional: true, required: false
-  private _bucketName?: string;
+  private _bucketName?: string; 
   public get bucketName() {
     return this.getStringAttribute('bucket_name');
   }
@@ -198,7 +198,7 @@ export class TimestreamTableMagneticStoreWritePropertiesMagneticStoreRejectedDat
   }
 
   // encryption_option - computed: true, optional: true, required: false
-  private _encryptionOption?: string;
+  private _encryptionOption?: string; 
   public get encryptionOption() {
     return this.getStringAttribute('encryption_option');
   }
@@ -214,7 +214,7 @@ export class TimestreamTableMagneticStoreWritePropertiesMagneticStoreRejectedDat
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -230,7 +230,7 @@ export class TimestreamTableMagneticStoreWritePropertiesMagneticStoreRejectedDat
   }
 
   // object_key_prefix - computed: true, optional: true, required: false
-  private _objectKeyPrefix?: string;
+  private _objectKeyPrefix?: string; 
   public get objectKeyPrefix() {
     return this.getStringAttribute('object_key_prefix');
   }
@@ -441,7 +441,7 @@ export class TimestreamTableMagneticStoreWritePropertiesOutputReference extends 
   }
 
   // enable_magnetic_store_writes - computed: true, optional: true, required: false
-  private _enableMagneticStoreWrites?: boolean | cdktn.IResolvable;
+  private _enableMagneticStoreWrites?: boolean | cdktn.IResolvable; 
   public get enableMagneticStoreWrites() {
     return this.getBooleanAttribute('enable_magnetic_store_writes');
   }
@@ -572,7 +572,7 @@ export class TimestreamTableRetentionPropertiesOutputReference extends cdktn.Com
   }
 
   // magnetic_store_retention_period_in_days - computed: true, optional: true, required: false
-  private _magneticStoreRetentionPeriodInDays?: string;
+  private _magneticStoreRetentionPeriodInDays?: string; 
   public get magneticStoreRetentionPeriodInDays() {
     return this.getStringAttribute('magnetic_store_retention_period_in_days');
   }
@@ -588,7 +588,7 @@ export class TimestreamTableRetentionPropertiesOutputReference extends cdktn.Com
   }
 
   // memory_store_retention_period_in_hours - computed: true, optional: true, required: false
-  private _memoryStoreRetentionPeriodInHours?: string;
+  private _memoryStoreRetentionPeriodInHours?: string; 
   public get memoryStoreRetentionPeriodInHours() {
     return this.getStringAttribute('memory_store_retention_period_in_hours');
   }
@@ -724,7 +724,7 @@ export class TimestreamTableSchemaCompositePartitionKeyOutputReference extends c
   }
 
   // enforcement_in_record - computed: true, optional: true, required: false
-  private _enforcementInRecord?: string;
+  private _enforcementInRecord?: string; 
   public get enforcementInRecord() {
     return this.getStringAttribute('enforcement_in_record');
   }
@@ -740,7 +740,7 @@ export class TimestreamTableSchemaCompositePartitionKeyOutputReference extends c
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -756,7 +756,7 @@ export class TimestreamTableSchemaCompositePartitionKeyOutputReference extends c
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -985,7 +985,7 @@ export class TimestreamTableTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1001,7 +1001,7 @@ export class TimestreamTableTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1105,7 +1105,7 @@ export class TimestreamTable extends cdktn.TerraformResource {
   }
 
   // database_name - computed: false, optional: false, required: true
-  private _databaseName?: string;
+  private _databaseName?: string; 
   public get databaseName() {
     return this.getStringAttribute('database_name');
   }
@@ -1176,7 +1176,7 @@ export class TimestreamTable extends cdktn.TerraformResource {
   }
 
   // table_name - computed: true, optional: true, required: false
-  private _tableName?: string;
+  private _tableName?: string; 
   public get tableName() {
     return this.getStringAttribute('table_name');
   }

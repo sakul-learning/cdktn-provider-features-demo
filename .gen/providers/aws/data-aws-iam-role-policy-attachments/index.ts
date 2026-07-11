@@ -162,7 +162,7 @@ export class DataAwsIamRolePolicyAttachments extends cdktn.TerraformDataSource {
   }
 
   // path_prefix - computed: false, optional: true, required: false
-  private _pathPrefix?: string;
+  private _pathPrefix?: string; 
   public get pathPrefix() {
     return this.getStringAttribute('path_prefix');
   }
@@ -178,7 +178,7 @@ export class DataAwsIamRolePolicyAttachments extends cdktn.TerraformDataSource {
   }
 
   // role_name - computed: false, optional: false, required: true
-  private _roleName?: string;
+  private _roleName?: string; 
   public get roleName() {
     return this.getStringAttribute('role_name');
   }

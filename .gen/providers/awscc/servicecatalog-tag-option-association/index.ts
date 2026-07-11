@@ -85,7 +85,7 @@ export class ServicecatalogTagOptionAssociation extends cdktn.TerraformResource 
   }
 
   // resource_id - computed: true, optional: true, required: false
-  private _resourceId?: string;
+  private _resourceId?: string; 
   public get resourceId() {
     return this.getStringAttribute('resource_id');
   }
@@ -101,7 +101,7 @@ export class ServicecatalogTagOptionAssociation extends cdktn.TerraformResource 
   }
 
   // tag_option_id - computed: true, optional: true, required: false
-  private _tagOptionId?: string;
+  private _tagOptionId?: string; 
   public get tagOptionId() {
     return this.getStringAttribute('tag_option_id');
   }

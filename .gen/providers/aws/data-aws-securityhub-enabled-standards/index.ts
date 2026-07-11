@@ -255,7 +255,7 @@ export class DataAwsSecurityhubEnabledStandards extends cdktn.TerraformDataSourc
   // ==========
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -271,7 +271,7 @@ export class DataAwsSecurityhubEnabledStandards extends cdktn.TerraformDataSourc
   }
 
   // standards_subscription_arns - computed: false, optional: true, required: false
-  private _standardsSubscriptionArns?: string[];
+  private _standardsSubscriptionArns?: string[]; 
   public get standardsSubscriptionArns() {
     return this.getListAttribute('standards_subscription_arns');
   }

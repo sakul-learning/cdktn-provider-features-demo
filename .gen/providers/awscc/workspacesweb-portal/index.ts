@@ -170,7 +170,7 @@ export class WorkspaceswebPortalTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -186,7 +186,7 @@ export class WorkspaceswebPortalTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -295,7 +295,7 @@ export class WorkspaceswebPortal extends cdktn.TerraformResource {
   // ==========
 
   // additional_encryption_context - computed: true, optional: true, required: false
-  private _additionalEncryptionContext?: { [key: string]: string };
+  private _additionalEncryptionContext?: { [key: string]: string }; 
   public get additionalEncryptionContext() {
     return this.getStringMapAttribute('additional_encryption_context');
   }
@@ -311,7 +311,7 @@ export class WorkspaceswebPortal extends cdktn.TerraformResource {
   }
 
   // authentication_type - computed: true, optional: true, required: false
-  private _authenticationType?: string;
+  private _authenticationType?: string; 
   public get authenticationType() {
     return this.getStringAttribute('authentication_type');
   }
@@ -327,7 +327,7 @@ export class WorkspaceswebPortal extends cdktn.TerraformResource {
   }
 
   // browser_settings_arn - computed: true, optional: true, required: false
-  private _browserSettingsArn?: string;
+  private _browserSettingsArn?: string; 
   public get browserSettingsArn() {
     return this.getStringAttribute('browser_settings_arn');
   }
@@ -353,7 +353,7 @@ export class WorkspaceswebPortal extends cdktn.TerraformResource {
   }
 
   // customer_managed_key - computed: true, optional: true, required: false
-  private _customerManagedKey?: string;
+  private _customerManagedKey?: string; 
   public get customerManagedKey() {
     return this.getStringAttribute('customer_managed_key');
   }
@@ -369,7 +369,7 @@ export class WorkspaceswebPortal extends cdktn.TerraformResource {
   }
 
   // data_protection_settings_arn - computed: true, optional: true, required: false
-  private _dataProtectionSettingsArn?: string;
+  private _dataProtectionSettingsArn?: string; 
   public get dataProtectionSettingsArn() {
     return this.getStringAttribute('data_protection_settings_arn');
   }
@@ -385,7 +385,7 @@ export class WorkspaceswebPortal extends cdktn.TerraformResource {
   }
 
   // display_name - computed: true, optional: true, required: false
-  private _displayName?: string;
+  private _displayName?: string; 
   public get displayName() {
     return this.getStringAttribute('display_name');
   }
@@ -406,7 +406,7 @@ export class WorkspaceswebPortal extends cdktn.TerraformResource {
   }
 
   // instance_type - computed: true, optional: true, required: false
-  private _instanceType?: string;
+  private _instanceType?: string; 
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -422,7 +422,7 @@ export class WorkspaceswebPortal extends cdktn.TerraformResource {
   }
 
   // ip_access_settings_arn - computed: true, optional: true, required: false
-  private _ipAccessSettingsArn?: string;
+  private _ipAccessSettingsArn?: string; 
   public get ipAccessSettingsArn() {
     return this.getStringAttribute('ip_access_settings_arn');
   }
@@ -438,7 +438,7 @@ export class WorkspaceswebPortal extends cdktn.TerraformResource {
   }
 
   // max_concurrent_sessions - computed: true, optional: true, required: false
-  private _maxConcurrentSessions?: number;
+  private _maxConcurrentSessions?: number; 
   public get maxConcurrentSessions() {
     return this.getNumberAttribute('max_concurrent_sessions');
   }
@@ -454,7 +454,7 @@ export class WorkspaceswebPortal extends cdktn.TerraformResource {
   }
 
   // network_settings_arn - computed: true, optional: true, required: false
-  private _networkSettingsArn?: string;
+  private _networkSettingsArn?: string; 
   public get networkSettingsArn() {
     return this.getStringAttribute('network_settings_arn');
   }
@@ -475,7 +475,7 @@ export class WorkspaceswebPortal extends cdktn.TerraformResource {
   }
 
   // portal_custom_domain - computed: true, optional: true, required: false
-  private _portalCustomDomain?: string;
+  private _portalCustomDomain?: string; 
   public get portalCustomDomain() {
     return this.getStringAttribute('portal_custom_domain');
   }
@@ -511,7 +511,7 @@ export class WorkspaceswebPortal extends cdktn.TerraformResource {
   }
 
   // session_logger_arn - computed: true, optional: true, required: false
-  private _sessionLoggerArn?: string;
+  private _sessionLoggerArn?: string; 
   public get sessionLoggerArn() {
     return this.getStringAttribute('session_logger_arn');
   }
@@ -548,7 +548,7 @@ export class WorkspaceswebPortal extends cdktn.TerraformResource {
   }
 
   // trust_store_arn - computed: true, optional: true, required: false
-  private _trustStoreArn?: string;
+  private _trustStoreArn?: string; 
   public get trustStoreArn() {
     return this.getStringAttribute('trust_store_arn');
   }
@@ -564,7 +564,7 @@ export class WorkspaceswebPortal extends cdktn.TerraformResource {
   }
 
   // user_access_logging_settings_arn - computed: true, optional: true, required: false
-  private _userAccessLoggingSettingsArn?: string;
+  private _userAccessLoggingSettingsArn?: string; 
   public get userAccessLoggingSettingsArn() {
     return this.getStringAttribute('user_access_logging_settings_arn');
   }
@@ -580,7 +580,7 @@ export class WorkspaceswebPortal extends cdktn.TerraformResource {
   }
 
   // user_settings_arn - computed: true, optional: true, required: false
-  private _userSettingsArn?: string;
+  private _userSettingsArn?: string; 
   public get userSettingsArn() {
     return this.getStringAttribute('user_settings_arn');
   }

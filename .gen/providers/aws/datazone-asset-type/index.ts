@@ -174,7 +174,7 @@ export class DatazoneAssetTypeFormsInputOutputReference extends cdktn.ComplexObj
   }
 
   // map_block_key - computed: false, optional: false, required: true
-  private _mapBlockKey?: string;
+  private _mapBlockKey?: string; 
   public get mapBlockKey() {
     return this.getStringAttribute('map_block_key');
   }
@@ -187,7 +187,7 @@ export class DatazoneAssetTypeFormsInputOutputReference extends cdktn.ComplexObj
   }
 
   // required - computed: false, optional: true, required: false
-  private _required?: boolean | cdktn.IResolvable;
+  private _required?: boolean | cdktn.IResolvable; 
   public get required() {
     return this.getBooleanAttribute('required');
   }
@@ -203,7 +203,7 @@ export class DatazoneAssetTypeFormsInputOutputReference extends cdktn.ComplexObj
   }
 
   // type_identifier - computed: false, optional: false, required: true
-  private _typeIdentifier?: string;
+  private _typeIdentifier?: string; 
   public get typeIdentifier() {
     return this.getStringAttribute('type_identifier');
   }
@@ -216,7 +216,7 @@ export class DatazoneAssetTypeFormsInputOutputReference extends cdktn.ComplexObj
   }
 
   // type_revision - computed: false, optional: false, required: true
-  private _typeRevision?: string;
+  private _typeRevision?: string; 
   public get typeRevision() {
     return this.getStringAttribute('type_revision');
   }
@@ -329,7 +329,7 @@ export class DatazoneAssetTypeTimeoutsOutputReference extends cdktn.ComplexObjec
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -419,7 +419,7 @@ export class DatazoneAssetType extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -435,7 +435,7 @@ export class DatazoneAssetType extends cdktn.TerraformResource {
   }
 
   // domain_identifier - computed: false, optional: false, required: true
-  private _domainIdentifier?: string;
+  private _domainIdentifier?: string; 
   public get domainIdentifier() {
     return this.getStringAttribute('domain_identifier');
   }
@@ -448,7 +448,7 @@ export class DatazoneAssetType extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -461,7 +461,7 @@ export class DatazoneAssetType extends cdktn.TerraformResource {
   }
 
   // owning_project_identifier - computed: false, optional: false, required: true
-  private _owningProjectIdentifier?: string;
+  private _owningProjectIdentifier?: string; 
   public get owningProjectIdentifier() {
     return this.getStringAttribute('owning_project_identifier');
   }
@@ -474,7 +474,7 @@ export class DatazoneAssetType extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

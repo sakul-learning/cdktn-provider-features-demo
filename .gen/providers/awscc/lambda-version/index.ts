@@ -144,7 +144,7 @@ export class LambdaVersionFunctionScalingConfigOutputReference extends cdktn.Com
   }
 
   // max_execution_environments - computed: true, optional: true, required: false
-  private _maxExecutionEnvironments?: number;
+  private _maxExecutionEnvironments?: number; 
   public get maxExecutionEnvironments() {
     return this.getNumberAttribute('max_execution_environments');
   }
@@ -160,7 +160,7 @@ export class LambdaVersionFunctionScalingConfigOutputReference extends cdktn.Com
   }
 
   // min_execution_environments - computed: true, optional: true, required: false
-  private _minExecutionEnvironments?: number;
+  private _minExecutionEnvironments?: number; 
   public get minExecutionEnvironments() {
     return this.getNumberAttribute('min_execution_environments');
   }
@@ -256,7 +256,7 @@ export class LambdaVersionProvisionedConcurrencyConfigOutputReference extends cd
   }
 
   // provisioned_concurrent_executions - computed: true, optional: true, required: false
-  private _provisionedConcurrentExecutions?: number;
+  private _provisionedConcurrentExecutions?: number; 
   public get provisionedConcurrentExecutions() {
     return this.getNumberAttribute('provisioned_concurrent_executions');
   }
@@ -371,7 +371,7 @@ export class LambdaVersionRuntimePolicyOutputReference extends cdktn.ComplexObje
   }
 
   // runtime_version_arn - computed: true, optional: true, required: false
-  private _runtimeVersionArn?: string;
+  private _runtimeVersionArn?: string; 
   public get runtimeVersionArn() {
     return this.getStringAttribute('runtime_version_arn');
   }
@@ -387,7 +387,7 @@ export class LambdaVersionRuntimePolicyOutputReference extends cdktn.ComplexObje
   }
 
   // update_runtime_on - computed: true, optional: true, required: false
-  private _updateRuntimeOn?: string;
+  private _updateRuntimeOn?: string; 
   public get updateRuntimeOn() {
     return this.getStringAttribute('update_runtime_on');
   }
@@ -466,7 +466,7 @@ export class LambdaVersion extends cdktn.TerraformResource {
   // ==========
 
   // code_sha_256 - computed: true, optional: true, required: false
-  private _codeSha256?: string;
+  private _codeSha256?: string; 
   public get codeSha256() {
     return this.getStringAttribute('code_sha_256');
   }
@@ -482,7 +482,7 @@ export class LambdaVersion extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -503,7 +503,7 @@ export class LambdaVersion extends cdktn.TerraformResource {
   }
 
   // function_name - computed: false, optional: false, required: true
-  private _functionName?: string;
+  private _functionName?: string; 
   public get functionName() {
     return this.getStringAttribute('function_name');
   }

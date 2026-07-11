@@ -167,7 +167,7 @@ export class GameliftScriptStorageLocationOutputReference extends cdktn.ComplexO
   }
 
   // bucket - computed: false, optional: false, required: true
-  private _bucket?: string;
+  private _bucket?: string; 
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -180,7 +180,7 @@ export class GameliftScriptStorageLocationOutputReference extends cdktn.ComplexO
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -193,7 +193,7 @@ export class GameliftScriptStorageLocationOutputReference extends cdktn.ComplexO
   }
 
   // object_version - computed: false, optional: true, required: false
-  private _objectVersion?: string;
+  private _objectVersion?: string; 
   public get objectVersion() {
     return this.getStringAttribute('object_version');
   }
@@ -209,7 +209,7 @@ export class GameliftScriptStorageLocationOutputReference extends cdktn.ComplexO
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -292,7 +292,7 @@ export class GameliftScript extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -308,7 +308,7 @@ export class GameliftScript extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -321,7 +321,7 @@ export class GameliftScript extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -337,7 +337,7 @@ export class GameliftScript extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -353,7 +353,7 @@ export class GameliftScript extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -369,7 +369,7 @@ export class GameliftScript extends cdktn.TerraformResource {
   }
 
   // version - computed: false, optional: true, required: false
-  private _version?: string;
+  private _version?: string; 
   public get version() {
     return this.getStringAttribute('version');
   }
@@ -385,7 +385,7 @@ export class GameliftScript extends cdktn.TerraformResource {
   }
 
   // zip_file - computed: false, optional: true, required: false
-  private _zipFile?: string;
+  private _zipFile?: string; 
   public get zipFile() {
     return this.getStringAttribute('zip_file');
   }

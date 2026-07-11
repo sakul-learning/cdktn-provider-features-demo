@@ -114,7 +114,7 @@ export class DataAwsIamServerCertificate extends cdktn.TerraformDataSource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -130,7 +130,7 @@ export class DataAwsIamServerCertificate extends cdktn.TerraformDataSource {
   }
 
   // latest - computed: false, optional: true, required: false
-  private _latest?: boolean | cdktn.IResolvable;
+  private _latest?: boolean | cdktn.IResolvable; 
   public get latest() {
     return this.getBooleanAttribute('latest');
   }
@@ -146,7 +146,7 @@ export class DataAwsIamServerCertificate extends cdktn.TerraformDataSource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -162,7 +162,7 @@ export class DataAwsIamServerCertificate extends cdktn.TerraformDataSource {
   }
 
   // name_prefix - computed: false, optional: true, required: false
-  private _namePrefix?: string;
+  private _namePrefix?: string; 
   public get namePrefix() {
     return this.getStringAttribute('name_prefix');
   }
@@ -183,7 +183,7 @@ export class DataAwsIamServerCertificate extends cdktn.TerraformDataSource {
   }
 
   // path_prefix - computed: false, optional: true, required: false
-  private _pathPrefix?: string;
+  private _pathPrefix?: string; 
   public get pathPrefix() {
     return this.getStringAttribute('path_prefix');
   }

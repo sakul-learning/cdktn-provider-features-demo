@@ -199,7 +199,7 @@ export class VerifiedaccessEndpointCidrOptionsPortRangeOutputReference extends c
   }
 
   // from_port - computed: false, optional: false, required: true
-  private _fromPort?: number;
+  private _fromPort?: number; 
   public get fromPort() {
     return this.getNumberAttribute('from_port');
   }
@@ -212,7 +212,7 @@ export class VerifiedaccessEndpointCidrOptionsPortRangeOutputReference extends c
   }
 
   // to_port - computed: false, optional: false, required: true
-  private _toPort?: number;
+  private _toPort?: number; 
   public get toPort() {
     return this.getNumberAttribute('to_port');
   }
@@ -366,7 +366,7 @@ export class VerifiedaccessEndpointCidrOptionsOutputReference extends cdktn.Comp
   }
 
   // cidr - computed: false, optional: false, required: true
-  private _cidr?: string;
+  private _cidr?: string; 
   public get cidr() {
     return this.getStringAttribute('cidr');
   }
@@ -379,7 +379,7 @@ export class VerifiedaccessEndpointCidrOptionsOutputReference extends cdktn.Comp
   }
 
   // protocol - computed: false, optional: true, required: false
-  private _protocol?: string;
+  private _protocol?: string; 
   public get protocol() {
     return this.getStringAttribute('protocol');
   }
@@ -395,7 +395,7 @@ export class VerifiedaccessEndpointCidrOptionsOutputReference extends cdktn.Comp
   }
 
   // subnet_ids - computed: false, optional: true, required: false
-  private _subnetIds?: string[];
+  private _subnetIds?: string[]; 
   public get subnetIds() {
     return cdktn.Fn.tolist(this.getListAttribute('subnet_ids'));
   }
@@ -521,7 +521,7 @@ export class VerifiedaccessEndpointLoadBalancerOptionsPortRangeOutputReference e
   }
 
   // from_port - computed: false, optional: false, required: true
-  private _fromPort?: number;
+  private _fromPort?: number; 
   public get fromPort() {
     return this.getNumberAttribute('from_port');
   }
@@ -534,7 +534,7 @@ export class VerifiedaccessEndpointLoadBalancerOptionsPortRangeOutputReference e
   }
 
   // to_port - computed: false, optional: false, required: true
-  private _toPort?: number;
+  private _toPort?: number; 
   public get toPort() {
     return this.getNumberAttribute('to_port');
   }
@@ -705,7 +705,7 @@ export class VerifiedaccessEndpointLoadBalancerOptionsOutputReference extends cd
   }
 
   // load_balancer_arn - computed: false, optional: true, required: false
-  private _loadBalancerArn?: string;
+  private _loadBalancerArn?: string; 
   public get loadBalancerArn() {
     return this.getStringAttribute('load_balancer_arn');
   }
@@ -721,7 +721,7 @@ export class VerifiedaccessEndpointLoadBalancerOptionsOutputReference extends cd
   }
 
   // port - computed: false, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -737,7 +737,7 @@ export class VerifiedaccessEndpointLoadBalancerOptionsOutputReference extends cd
   }
 
   // protocol - computed: false, optional: true, required: false
-  private _protocol?: string;
+  private _protocol?: string; 
   public get protocol() {
     return this.getStringAttribute('protocol');
   }
@@ -753,7 +753,7 @@ export class VerifiedaccessEndpointLoadBalancerOptionsOutputReference extends cd
   }
 
   // subnet_ids - computed: false, optional: true, required: false
-  private _subnetIds?: string[];
+  private _subnetIds?: string[]; 
   public get subnetIds() {
     return cdktn.Fn.tolist(this.getListAttribute('subnet_ids'));
   }
@@ -882,7 +882,7 @@ export class VerifiedaccessEndpointNetworkInterfaceOptionsPortRangeOutputReferen
   }
 
   // from_port - computed: false, optional: false, required: true
-  private _fromPort?: number;
+  private _fromPort?: number; 
   public get fromPort() {
     return this.getNumberAttribute('from_port');
   }
@@ -895,7 +895,7 @@ export class VerifiedaccessEndpointNetworkInterfaceOptionsPortRangeOutputReferen
   }
 
   // to_port - computed: false, optional: false, required: true
-  private _toPort?: number;
+  private _toPort?: number; 
   public get toPort() {
     return this.getNumberAttribute('to_port');
   }
@@ -1049,7 +1049,7 @@ export class VerifiedaccessEndpointNetworkInterfaceOptionsOutputReference extend
   }
 
   // network_interface_id - computed: false, optional: true, required: false
-  private _networkInterfaceId?: string;
+  private _networkInterfaceId?: string; 
   public get networkInterfaceId() {
     return this.getStringAttribute('network_interface_id');
   }
@@ -1065,7 +1065,7 @@ export class VerifiedaccessEndpointNetworkInterfaceOptionsOutputReference extend
   }
 
   // port - computed: false, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -1081,7 +1081,7 @@ export class VerifiedaccessEndpointNetworkInterfaceOptionsOutputReference extend
   }
 
   // protocol - computed: false, optional: true, required: false
-  private _protocol?: string;
+  private _protocol?: string; 
   public get protocol() {
     return this.getStringAttribute('protocol');
   }
@@ -1283,7 +1283,7 @@ export class VerifiedaccessEndpointRdsOptionsOutputReference extends cdktn.Compl
   }
 
   // port - computed: false, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -1299,7 +1299,7 @@ export class VerifiedaccessEndpointRdsOptionsOutputReference extends cdktn.Compl
   }
 
   // protocol - computed: false, optional: true, required: false
-  private _protocol?: string;
+  private _protocol?: string; 
   public get protocol() {
     return this.getStringAttribute('protocol');
   }
@@ -1315,7 +1315,7 @@ export class VerifiedaccessEndpointRdsOptionsOutputReference extends cdktn.Compl
   }
 
   // rds_db_cluster_arn - computed: false, optional: true, required: false
-  private _rdsDbClusterArn?: string;
+  private _rdsDbClusterArn?: string; 
   public get rdsDbClusterArn() {
     return this.getStringAttribute('rds_db_cluster_arn');
   }
@@ -1331,7 +1331,7 @@ export class VerifiedaccessEndpointRdsOptionsOutputReference extends cdktn.Compl
   }
 
   // rds_db_instance_arn - computed: false, optional: true, required: false
-  private _rdsDbInstanceArn?: string;
+  private _rdsDbInstanceArn?: string; 
   public get rdsDbInstanceArn() {
     return this.getStringAttribute('rds_db_instance_arn');
   }
@@ -1347,7 +1347,7 @@ export class VerifiedaccessEndpointRdsOptionsOutputReference extends cdktn.Compl
   }
 
   // rds_db_proxy_arn - computed: false, optional: true, required: false
-  private _rdsDbProxyArn?: string;
+  private _rdsDbProxyArn?: string; 
   public get rdsDbProxyArn() {
     return this.getStringAttribute('rds_db_proxy_arn');
   }
@@ -1363,7 +1363,7 @@ export class VerifiedaccessEndpointRdsOptionsOutputReference extends cdktn.Compl
   }
 
   // rds_endpoint - computed: false, optional: true, required: false
-  private _rdsEndpoint?: string;
+  private _rdsEndpoint?: string; 
   public get rdsEndpoint() {
     return this.getStringAttribute('rds_endpoint');
   }
@@ -1379,7 +1379,7 @@ export class VerifiedaccessEndpointRdsOptionsOutputReference extends cdktn.Compl
   }
 
   // subnet_ids - computed: false, optional: true, required: false
-  private _subnetIds?: string[];
+  private _subnetIds?: string[]; 
   public get subnetIds() {
     return cdktn.Fn.tolist(this.getListAttribute('subnet_ids'));
   }
@@ -1480,7 +1480,7 @@ export class VerifiedaccessEndpointSseSpecificationOutputReference extends cdktn
   }
 
   // customer_managed_key_enabled - computed: false, optional: true, required: false
-  private _customerManagedKeyEnabled?: boolean | cdktn.IResolvable;
+  private _customerManagedKeyEnabled?: boolean | cdktn.IResolvable; 
   public get customerManagedKeyEnabled() {
     return this.getBooleanAttribute('customer_managed_key_enabled');
   }
@@ -1496,7 +1496,7 @@ export class VerifiedaccessEndpointSseSpecificationOutputReference extends cdktn
   }
 
   // kms_key_arn - computed: false, optional: true, required: false
-  private _kmsKeyArn?: string;
+  private _kmsKeyArn?: string; 
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -1624,7 +1624,7 @@ export class VerifiedaccessEndpointTimeoutsOutputReference extends cdktn.Complex
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -1640,7 +1640,7 @@ export class VerifiedaccessEndpointTimeoutsOutputReference extends cdktn.Complex
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -1656,7 +1656,7 @@ export class VerifiedaccessEndpointTimeoutsOutputReference extends cdktn.Complex
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -1748,7 +1748,7 @@ export class VerifiedaccessEndpoint extends cdktn.TerraformResource {
   // ==========
 
   // application_domain - computed: false, optional: true, required: false
-  private _applicationDomain?: string;
+  private _applicationDomain?: string; 
   public get applicationDomain() {
     return this.getStringAttribute('application_domain');
   }
@@ -1764,7 +1764,7 @@ export class VerifiedaccessEndpoint extends cdktn.TerraformResource {
   }
 
   // attachment_type - computed: false, optional: false, required: true
-  private _attachmentType?: string;
+  private _attachmentType?: string; 
   public get attachmentType() {
     return this.getStringAttribute('attachment_type');
   }
@@ -1777,7 +1777,7 @@ export class VerifiedaccessEndpoint extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1798,7 +1798,7 @@ export class VerifiedaccessEndpoint extends cdktn.TerraformResource {
   }
 
   // domain_certificate_arn - computed: false, optional: true, required: false
-  private _domainCertificateArn?: string;
+  private _domainCertificateArn?: string; 
   public get domainCertificateArn() {
     return this.getStringAttribute('domain_certificate_arn');
   }
@@ -1819,7 +1819,7 @@ export class VerifiedaccessEndpoint extends cdktn.TerraformResource {
   }
 
   // endpoint_domain_prefix - computed: false, optional: true, required: false
-  private _endpointDomainPrefix?: string;
+  private _endpointDomainPrefix?: string; 
   public get endpointDomainPrefix() {
     return this.getStringAttribute('endpoint_domain_prefix');
   }
@@ -1835,7 +1835,7 @@ export class VerifiedaccessEndpoint extends cdktn.TerraformResource {
   }
 
   // endpoint_type - computed: false, optional: false, required: true
-  private _endpointType?: string;
+  private _endpointType?: string; 
   public get endpointType() {
     return this.getStringAttribute('endpoint_type');
   }
@@ -1848,7 +1848,7 @@ export class VerifiedaccessEndpoint extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -1864,7 +1864,7 @@ export class VerifiedaccessEndpoint extends cdktn.TerraformResource {
   }
 
   // policy_document - computed: false, optional: true, required: false
-  private _policyDocument?: string;
+  private _policyDocument?: string; 
   public get policyDocument() {
     return this.getStringAttribute('policy_document');
   }
@@ -1880,7 +1880,7 @@ export class VerifiedaccessEndpoint extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1896,7 +1896,7 @@ export class VerifiedaccessEndpoint extends cdktn.TerraformResource {
   }
 
   // security_group_ids - computed: false, optional: true, required: false
-  private _securityGroupIds?: string[];
+  private _securityGroupIds?: string[]; 
   public get securityGroupIds() {
     return cdktn.Fn.tolist(this.getListAttribute('security_group_ids'));
   }
@@ -1912,7 +1912,7 @@ export class VerifiedaccessEndpoint extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -1928,7 +1928,7 @@ export class VerifiedaccessEndpoint extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -1944,7 +1944,7 @@ export class VerifiedaccessEndpoint extends cdktn.TerraformResource {
   }
 
   // verified_access_group_id - computed: false, optional: false, required: true
-  private _verifiedAccessGroupId?: string;
+  private _verifiedAccessGroupId?: string; 
   public get verifiedAccessGroupId() {
     return this.getStringAttribute('verified_access_group_id');
   }

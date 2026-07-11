@@ -331,7 +331,7 @@ export class WorkspaceswebUserSettingsBrandingConfigurationLocalizedStringsOutpu
   }
 
   // browser_tab_title - computed: true, optional: true, required: false
-  private _browserTabTitle?: string;
+  private _browserTabTitle?: string; 
   public get browserTabTitle() {
     return this.getStringAttribute('browser_tab_title');
   }
@@ -347,7 +347,7 @@ export class WorkspaceswebUserSettingsBrandingConfigurationLocalizedStringsOutpu
   }
 
   // contact_button_text - computed: true, optional: true, required: false
-  private _contactButtonText?: string;
+  private _contactButtonText?: string; 
   public get contactButtonText() {
     return this.getStringAttribute('contact_button_text');
   }
@@ -363,7 +363,7 @@ export class WorkspaceswebUserSettingsBrandingConfigurationLocalizedStringsOutpu
   }
 
   // contact_link - computed: true, optional: true, required: false
-  private _contactLink?: string;
+  private _contactLink?: string; 
   public get contactLink() {
     return this.getStringAttribute('contact_link');
   }
@@ -379,7 +379,7 @@ export class WorkspaceswebUserSettingsBrandingConfigurationLocalizedStringsOutpu
   }
 
   // loading_text - computed: true, optional: true, required: false
-  private _loadingText?: string;
+  private _loadingText?: string; 
   public get loadingText() {
     return this.getStringAttribute('loading_text');
   }
@@ -395,7 +395,7 @@ export class WorkspaceswebUserSettingsBrandingConfigurationLocalizedStringsOutpu
   }
 
   // login_button_text - computed: true, optional: true, required: false
-  private _loginButtonText?: string;
+  private _loginButtonText?: string; 
   public get loginButtonText() {
     return this.getStringAttribute('login_button_text');
   }
@@ -411,7 +411,7 @@ export class WorkspaceswebUserSettingsBrandingConfigurationLocalizedStringsOutpu
   }
 
   // login_description - computed: true, optional: true, required: false
-  private _loginDescription?: string;
+  private _loginDescription?: string; 
   public get loginDescription() {
     return this.getStringAttribute('login_description');
   }
@@ -427,7 +427,7 @@ export class WorkspaceswebUserSettingsBrandingConfigurationLocalizedStringsOutpu
   }
 
   // login_title - computed: true, optional: true, required: false
-  private _loginTitle?: string;
+  private _loginTitle?: string; 
   public get loginTitle() {
     return this.getStringAttribute('login_title');
   }
@@ -443,7 +443,7 @@ export class WorkspaceswebUserSettingsBrandingConfigurationLocalizedStringsOutpu
   }
 
   // welcome_text - computed: true, optional: true, required: false
-  private _welcomeText?: string;
+  private _welcomeText?: string; 
   public get welcomeText() {
     return this.getStringAttribute('welcome_text');
   }
@@ -769,7 +769,7 @@ export class WorkspaceswebUserSettingsBrandingConfigurationOutputReference exten
   }
 
   // color_theme - computed: true, optional: true, required: false
-  private _colorTheme?: string;
+  private _colorTheme?: string; 
   public get colorTheme() {
     return this.getStringAttribute('color_theme');
   }
@@ -785,7 +785,7 @@ export class WorkspaceswebUserSettingsBrandingConfigurationOutputReference exten
   }
 
   // favicon - computed: true, optional: true, required: false
-  private _favicon?: string;
+  private _favicon?: string; 
   public get favicon() {
     return this.getStringAttribute('favicon');
   }
@@ -823,7 +823,7 @@ export class WorkspaceswebUserSettingsBrandingConfigurationOutputReference exten
   }
 
   // logo - computed: true, optional: true, required: false
-  private _logo?: string;
+  private _logo?: string; 
   public get logo() {
     return this.getStringAttribute('logo');
   }
@@ -845,7 +845,7 @@ export class WorkspaceswebUserSettingsBrandingConfigurationOutputReference exten
   }
 
   // terms_of_service - computed: true, optional: true, required: false
-  private _termsOfService?: string;
+  private _termsOfService?: string; 
   public get termsOfService() {
     return this.getStringAttribute('terms_of_service');
   }
@@ -861,7 +861,7 @@ export class WorkspaceswebUserSettingsBrandingConfigurationOutputReference exten
   }
 
   // wallpaper - computed: true, optional: true, required: false
-  private _wallpaper?: string;
+  private _wallpaper?: string; 
   public get wallpaper() {
     return this.getStringAttribute('wallpaper');
   }
@@ -997,7 +997,7 @@ export class WorkspaceswebUserSettingsCookieSynchronizationConfigurationAllowlis
   }
 
   // domain - computed: true, optional: true, required: false
-  private _domain?: string;
+  private _domain?: string; 
   public get domain() {
     return this.getStringAttribute('domain');
   }
@@ -1013,7 +1013,7 @@ export class WorkspaceswebUserSettingsCookieSynchronizationConfigurationAllowlis
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1029,7 +1029,7 @@ export class WorkspaceswebUserSettingsCookieSynchronizationConfigurationAllowlis
   }
 
   // path - computed: true, optional: true, required: false
-  private _path?: string;
+  private _path?: string; 
   public get path() {
     return this.getStringAttribute('path');
   }
@@ -1179,7 +1179,7 @@ export class WorkspaceswebUserSettingsCookieSynchronizationConfigurationBlocklis
   }
 
   // domain - computed: true, optional: true, required: false
-  private _domain?: string;
+  private _domain?: string; 
   public get domain() {
     return this.getStringAttribute('domain');
   }
@@ -1195,7 +1195,7 @@ export class WorkspaceswebUserSettingsCookieSynchronizationConfigurationBlocklis
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1211,7 +1211,7 @@ export class WorkspaceswebUserSettingsCookieSynchronizationConfigurationBlocklis
   }
 
   // path - computed: true, optional: true, required: false
-  private _path?: string;
+  private _path?: string; 
   public get path() {
     return this.getStringAttribute('path');
   }
@@ -1471,7 +1471,7 @@ export class WorkspaceswebUserSettingsTagsOutputReference extends cdktn.ComplexO
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1487,7 +1487,7 @@ export class WorkspaceswebUserSettingsTagsOutputReference extends cdktn.ComplexO
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1652,7 +1652,7 @@ export class WorkspaceswebUserSettingsToolbarConfigurationOutputReference extend
   }
 
   // hidden_toolbar_items - computed: true, optional: true, required: false
-  private _hiddenToolbarItems?: string[];
+  private _hiddenToolbarItems?: string[]; 
   public get hiddenToolbarItems() {
     return this.getListAttribute('hidden_toolbar_items');
   }
@@ -1668,7 +1668,7 @@ export class WorkspaceswebUserSettingsToolbarConfigurationOutputReference extend
   }
 
   // max_display_resolution - computed: true, optional: true, required: false
-  private _maxDisplayResolution?: string;
+  private _maxDisplayResolution?: string; 
   public get maxDisplayResolution() {
     return this.getStringAttribute('max_display_resolution');
   }
@@ -1684,7 +1684,7 @@ export class WorkspaceswebUserSettingsToolbarConfigurationOutputReference extend
   }
 
   // toolbar_type - computed: true, optional: true, required: false
-  private _toolbarType?: string;
+  private _toolbarType?: string; 
   public get toolbarType() {
     return this.getStringAttribute('toolbar_type');
   }
@@ -1700,7 +1700,7 @@ export class WorkspaceswebUserSettingsToolbarConfigurationOutputReference extend
   }
 
   // visual_mode - computed: true, optional: true, required: false
-  private _visualMode?: string;
+  private _visualMode?: string; 
   public get visualMode() {
     return this.getStringAttribute('visual_mode');
   }
@@ -1788,7 +1788,7 @@ export class WorkspaceswebUserSettings extends cdktn.TerraformResource {
   // ==========
 
   // additional_encryption_context - computed: true, optional: true, required: false
-  private _additionalEncryptionContext?: { [key: string]: string };
+  private _additionalEncryptionContext?: { [key: string]: string }; 
   public get additionalEncryptionContext() {
     return this.getStringMapAttribute('additional_encryption_context');
   }
@@ -1841,7 +1841,7 @@ export class WorkspaceswebUserSettings extends cdktn.TerraformResource {
   }
 
   // copy_allowed - computed: false, optional: false, required: true
-  private _copyAllowed?: string;
+  private _copyAllowed?: string; 
   public get copyAllowed() {
     return this.getStringAttribute('copy_allowed');
   }
@@ -1854,7 +1854,7 @@ export class WorkspaceswebUserSettings extends cdktn.TerraformResource {
   }
 
   // customer_managed_key - computed: true, optional: true, required: false
-  private _customerManagedKey?: string;
+  private _customerManagedKey?: string; 
   public get customerManagedKey() {
     return this.getStringAttribute('customer_managed_key');
   }
@@ -1870,7 +1870,7 @@ export class WorkspaceswebUserSettings extends cdktn.TerraformResource {
   }
 
   // deep_link_allowed - computed: true, optional: true, required: false
-  private _deepLinkAllowed?: string;
+  private _deepLinkAllowed?: string; 
   public get deepLinkAllowed() {
     return this.getStringAttribute('deep_link_allowed');
   }
@@ -1886,7 +1886,7 @@ export class WorkspaceswebUserSettings extends cdktn.TerraformResource {
   }
 
   // disconnect_timeout_in_minutes - computed: true, optional: true, required: false
-  private _disconnectTimeoutInMinutes?: number;
+  private _disconnectTimeoutInMinutes?: number; 
   public get disconnectTimeoutInMinutes() {
     return this.getNumberAttribute('disconnect_timeout_in_minutes');
   }
@@ -1902,7 +1902,7 @@ export class WorkspaceswebUserSettings extends cdktn.TerraformResource {
   }
 
   // download_allowed - computed: false, optional: false, required: true
-  private _downloadAllowed?: string;
+  private _downloadAllowed?: string; 
   public get downloadAllowed() {
     return this.getStringAttribute('download_allowed');
   }
@@ -1920,7 +1920,7 @@ export class WorkspaceswebUserSettings extends cdktn.TerraformResource {
   }
 
   // idle_disconnect_timeout_in_minutes - computed: true, optional: true, required: false
-  private _idleDisconnectTimeoutInMinutes?: number;
+  private _idleDisconnectTimeoutInMinutes?: number; 
   public get idleDisconnectTimeoutInMinutes() {
     return this.getNumberAttribute('idle_disconnect_timeout_in_minutes');
   }
@@ -1936,7 +1936,7 @@ export class WorkspaceswebUserSettings extends cdktn.TerraformResource {
   }
 
   // paste_allowed - computed: false, optional: false, required: true
-  private _pasteAllowed?: string;
+  private _pasteAllowed?: string; 
   public get pasteAllowed() {
     return this.getStringAttribute('paste_allowed');
   }
@@ -1949,7 +1949,7 @@ export class WorkspaceswebUserSettings extends cdktn.TerraformResource {
   }
 
   // print_allowed - computed: false, optional: false, required: true
-  private _printAllowed?: string;
+  private _printAllowed?: string; 
   public get printAllowed() {
     return this.getStringAttribute('print_allowed');
   }
@@ -1994,7 +1994,7 @@ export class WorkspaceswebUserSettings extends cdktn.TerraformResource {
   }
 
   // upload_allowed - computed: false, optional: false, required: true
-  private _uploadAllowed?: string;
+  private _uploadAllowed?: string; 
   public get uploadAllowed() {
     return this.getStringAttribute('upload_allowed');
   }
@@ -2012,7 +2012,7 @@ export class WorkspaceswebUserSettings extends cdktn.TerraformResource {
   }
 
   // web_authn_allowed - computed: true, optional: true, required: false
-  private _webAuthnAllowed?: string;
+  private _webAuthnAllowed?: string; 
   public get webAuthnAllowed() {
     return this.getStringAttribute('web_authn_allowed');
   }

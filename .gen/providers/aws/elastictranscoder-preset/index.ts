@@ -208,7 +208,7 @@ export class ElastictranscoderPresetAudioOutputReference extends cdktn.ComplexOb
   }
 
   // audio_packing_mode - computed: false, optional: true, required: false
-  private _audioPackingMode?: string;
+  private _audioPackingMode?: string; 
   public get audioPackingMode() {
     return this.getStringAttribute('audio_packing_mode');
   }
@@ -224,7 +224,7 @@ export class ElastictranscoderPresetAudioOutputReference extends cdktn.ComplexOb
   }
 
   // bit_rate - computed: true, optional: true, required: false
-  private _bitRate?: string;
+  private _bitRate?: string; 
   public get bitRate() {
     return this.getStringAttribute('bit_rate');
   }
@@ -240,7 +240,7 @@ export class ElastictranscoderPresetAudioOutputReference extends cdktn.ComplexOb
   }
 
   // channels - computed: false, optional: true, required: false
-  private _channels?: string;
+  private _channels?: string; 
   public get channels() {
     return this.getStringAttribute('channels');
   }
@@ -256,7 +256,7 @@ export class ElastictranscoderPresetAudioOutputReference extends cdktn.ComplexOb
   }
 
   // codec - computed: false, optional: true, required: false
-  private _codec?: string;
+  private _codec?: string; 
   public get codec() {
     return this.getStringAttribute('codec');
   }
@@ -272,7 +272,7 @@ export class ElastictranscoderPresetAudioOutputReference extends cdktn.ComplexOb
   }
 
   // sample_rate - computed: false, optional: true, required: false
-  private _sampleRate?: string;
+  private _sampleRate?: string; 
   public get sampleRate() {
     return this.getStringAttribute('sample_rate');
   }
@@ -407,7 +407,7 @@ export class ElastictranscoderPresetAudioCodecOptionsOutputReference extends cdk
   }
 
   // bit_depth - computed: true, optional: true, required: false
-  private _bitDepth?: string;
+  private _bitDepth?: string; 
   public get bitDepth() {
     return this.getStringAttribute('bit_depth');
   }
@@ -423,7 +423,7 @@ export class ElastictranscoderPresetAudioCodecOptionsOutputReference extends cdk
   }
 
   // bit_order - computed: true, optional: true, required: false
-  private _bitOrder?: string;
+  private _bitOrder?: string; 
   public get bitOrder() {
     return this.getStringAttribute('bit_order');
   }
@@ -439,7 +439,7 @@ export class ElastictranscoderPresetAudioCodecOptionsOutputReference extends cdk
   }
 
   // profile - computed: true, optional: true, required: false
-  private _profile?: string;
+  private _profile?: string; 
   public get profile() {
     return this.getStringAttribute('profile');
   }
@@ -455,7 +455,7 @@ export class ElastictranscoderPresetAudioCodecOptionsOutputReference extends cdk
   }
 
   // signed - computed: true, optional: true, required: false
-  private _signed?: string;
+  private _signed?: string; 
   public get signed() {
     return this.getStringAttribute('signed');
   }
@@ -658,7 +658,7 @@ export class ElastictranscoderPresetThumbnailsOutputReference extends cdktn.Comp
   }
 
   // aspect_ratio - computed: false, optional: true, required: false
-  private _aspectRatio?: string;
+  private _aspectRatio?: string; 
   public get aspectRatio() {
     return this.getStringAttribute('aspect_ratio');
   }
@@ -674,7 +674,7 @@ export class ElastictranscoderPresetThumbnailsOutputReference extends cdktn.Comp
   }
 
   // format - computed: false, optional: true, required: false
-  private _format?: string;
+  private _format?: string; 
   public get format() {
     return this.getStringAttribute('format');
   }
@@ -690,7 +690,7 @@ export class ElastictranscoderPresetThumbnailsOutputReference extends cdktn.Comp
   }
 
   // interval - computed: false, optional: true, required: false
-  private _interval?: string;
+  private _interval?: string; 
   public get interval() {
     return this.getStringAttribute('interval');
   }
@@ -706,7 +706,7 @@ export class ElastictranscoderPresetThumbnailsOutputReference extends cdktn.Comp
   }
 
   // max_height - computed: false, optional: true, required: false
-  private _maxHeight?: string;
+  private _maxHeight?: string; 
   public get maxHeight() {
     return this.getStringAttribute('max_height');
   }
@@ -722,7 +722,7 @@ export class ElastictranscoderPresetThumbnailsOutputReference extends cdktn.Comp
   }
 
   // max_width - computed: false, optional: true, required: false
-  private _maxWidth?: string;
+  private _maxWidth?: string; 
   public get maxWidth() {
     return this.getStringAttribute('max_width');
   }
@@ -738,7 +738,7 @@ export class ElastictranscoderPresetThumbnailsOutputReference extends cdktn.Comp
   }
 
   // padding_policy - computed: false, optional: true, required: false
-  private _paddingPolicy?: string;
+  private _paddingPolicy?: string; 
   public get paddingPolicy() {
     return this.getStringAttribute('padding_policy');
   }
@@ -754,7 +754,7 @@ export class ElastictranscoderPresetThumbnailsOutputReference extends cdktn.Comp
   }
 
   // resolution - computed: false, optional: true, required: false
-  private _resolution?: string;
+  private _resolution?: string; 
   public get resolution() {
     return this.getStringAttribute('resolution');
   }
@@ -770,7 +770,7 @@ export class ElastictranscoderPresetThumbnailsOutputReference extends cdktn.Comp
   }
 
   // sizing_policy - computed: false, optional: true, required: false
-  private _sizingPolicy?: string;
+  private _sizingPolicy?: string; 
   public get sizingPolicy() {
     return this.getStringAttribute('sizing_policy');
   }
@@ -1058,7 +1058,7 @@ export class ElastictranscoderPresetVideoOutputReference extends cdktn.ComplexOb
   }
 
   // aspect_ratio - computed: false, optional: true, required: false
-  private _aspectRatio?: string;
+  private _aspectRatio?: string; 
   public get aspectRatio() {
     return this.getStringAttribute('aspect_ratio');
   }
@@ -1074,7 +1074,7 @@ export class ElastictranscoderPresetVideoOutputReference extends cdktn.ComplexOb
   }
 
   // bit_rate - computed: true, optional: true, required: false
-  private _bitRate?: string;
+  private _bitRate?: string; 
   public get bitRate() {
     return this.getStringAttribute('bit_rate');
   }
@@ -1090,7 +1090,7 @@ export class ElastictranscoderPresetVideoOutputReference extends cdktn.ComplexOb
   }
 
   // codec - computed: false, optional: true, required: false
-  private _codec?: string;
+  private _codec?: string; 
   public get codec() {
     return this.getStringAttribute('codec');
   }
@@ -1106,7 +1106,7 @@ export class ElastictranscoderPresetVideoOutputReference extends cdktn.ComplexOb
   }
 
   // display_aspect_ratio - computed: false, optional: true, required: false
-  private _displayAspectRatio?: string;
+  private _displayAspectRatio?: string; 
   public get displayAspectRatio() {
     return this.getStringAttribute('display_aspect_ratio');
   }
@@ -1122,7 +1122,7 @@ export class ElastictranscoderPresetVideoOutputReference extends cdktn.ComplexOb
   }
 
   // fixed_gop - computed: false, optional: true, required: false
-  private _fixedGop?: string;
+  private _fixedGop?: string; 
   public get fixedGop() {
     return this.getStringAttribute('fixed_gop');
   }
@@ -1138,7 +1138,7 @@ export class ElastictranscoderPresetVideoOutputReference extends cdktn.ComplexOb
   }
 
   // frame_rate - computed: false, optional: true, required: false
-  private _frameRate?: string;
+  private _frameRate?: string; 
   public get frameRate() {
     return this.getStringAttribute('frame_rate');
   }
@@ -1154,7 +1154,7 @@ export class ElastictranscoderPresetVideoOutputReference extends cdktn.ComplexOb
   }
 
   // keyframes_max_dist - computed: false, optional: true, required: false
-  private _keyframesMaxDist?: string;
+  private _keyframesMaxDist?: string; 
   public get keyframesMaxDist() {
     return this.getStringAttribute('keyframes_max_dist');
   }
@@ -1170,7 +1170,7 @@ export class ElastictranscoderPresetVideoOutputReference extends cdktn.ComplexOb
   }
 
   // max_frame_rate - computed: true, optional: true, required: false
-  private _maxFrameRate?: string;
+  private _maxFrameRate?: string; 
   public get maxFrameRate() {
     return this.getStringAttribute('max_frame_rate');
   }
@@ -1186,7 +1186,7 @@ export class ElastictranscoderPresetVideoOutputReference extends cdktn.ComplexOb
   }
 
   // max_height - computed: false, optional: true, required: false
-  private _maxHeight?: string;
+  private _maxHeight?: string; 
   public get maxHeight() {
     return this.getStringAttribute('max_height');
   }
@@ -1202,7 +1202,7 @@ export class ElastictranscoderPresetVideoOutputReference extends cdktn.ComplexOb
   }
 
   // max_width - computed: false, optional: true, required: false
-  private _maxWidth?: string;
+  private _maxWidth?: string; 
   public get maxWidth() {
     return this.getStringAttribute('max_width');
   }
@@ -1218,7 +1218,7 @@ export class ElastictranscoderPresetVideoOutputReference extends cdktn.ComplexOb
   }
 
   // padding_policy - computed: false, optional: true, required: false
-  private _paddingPolicy?: string;
+  private _paddingPolicy?: string; 
   public get paddingPolicy() {
     return this.getStringAttribute('padding_policy');
   }
@@ -1234,7 +1234,7 @@ export class ElastictranscoderPresetVideoOutputReference extends cdktn.ComplexOb
   }
 
   // resolution - computed: false, optional: true, required: false
-  private _resolution?: string;
+  private _resolution?: string; 
   public get resolution() {
     return this.getStringAttribute('resolution');
   }
@@ -1250,7 +1250,7 @@ export class ElastictranscoderPresetVideoOutputReference extends cdktn.ComplexOb
   }
 
   // sizing_policy - computed: false, optional: true, required: false
-  private _sizingPolicy?: string;
+  private _sizingPolicy?: string; 
   public get sizingPolicy() {
     return this.getStringAttribute('sizing_policy');
   }
@@ -1502,7 +1502,7 @@ export class ElastictranscoderPresetVideoWatermarksOutputReference extends cdktn
   }
 
   // horizontal_align - computed: false, optional: true, required: false
-  private _horizontalAlign?: string;
+  private _horizontalAlign?: string; 
   public get horizontalAlign() {
     return this.getStringAttribute('horizontal_align');
   }
@@ -1518,7 +1518,7 @@ export class ElastictranscoderPresetVideoWatermarksOutputReference extends cdktn
   }
 
   // horizontal_offset - computed: false, optional: true, required: false
-  private _horizontalOffset?: string;
+  private _horizontalOffset?: string; 
   public get horizontalOffset() {
     return this.getStringAttribute('horizontal_offset');
   }
@@ -1534,7 +1534,7 @@ export class ElastictranscoderPresetVideoWatermarksOutputReference extends cdktn
   }
 
   // id - computed: false, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -1550,7 +1550,7 @@ export class ElastictranscoderPresetVideoWatermarksOutputReference extends cdktn
   }
 
   // max_height - computed: false, optional: true, required: false
-  private _maxHeight?: string;
+  private _maxHeight?: string; 
   public get maxHeight() {
     return this.getStringAttribute('max_height');
   }
@@ -1566,7 +1566,7 @@ export class ElastictranscoderPresetVideoWatermarksOutputReference extends cdktn
   }
 
   // max_width - computed: false, optional: true, required: false
-  private _maxWidth?: string;
+  private _maxWidth?: string; 
   public get maxWidth() {
     return this.getStringAttribute('max_width');
   }
@@ -1582,7 +1582,7 @@ export class ElastictranscoderPresetVideoWatermarksOutputReference extends cdktn
   }
 
   // opacity - computed: false, optional: true, required: false
-  private _opacity?: string;
+  private _opacity?: string; 
   public get opacity() {
     return this.getStringAttribute('opacity');
   }
@@ -1598,7 +1598,7 @@ export class ElastictranscoderPresetVideoWatermarksOutputReference extends cdktn
   }
 
   // sizing_policy - computed: false, optional: true, required: false
-  private _sizingPolicy?: string;
+  private _sizingPolicy?: string; 
   public get sizingPolicy() {
     return this.getStringAttribute('sizing_policy');
   }
@@ -1614,7 +1614,7 @@ export class ElastictranscoderPresetVideoWatermarksOutputReference extends cdktn
   }
 
   // target - computed: false, optional: true, required: false
-  private _target?: string;
+  private _target?: string; 
   public get target() {
     return this.getStringAttribute('target');
   }
@@ -1630,7 +1630,7 @@ export class ElastictranscoderPresetVideoWatermarksOutputReference extends cdktn
   }
 
   // vertical_align - computed: false, optional: true, required: false
-  private _verticalAlign?: string;
+  private _verticalAlign?: string; 
   public get verticalAlign() {
     return this.getStringAttribute('vertical_align');
   }
@@ -1646,7 +1646,7 @@ export class ElastictranscoderPresetVideoWatermarksOutputReference extends cdktn
   }
 
   // vertical_offset - computed: false, optional: true, required: false
-  private _verticalOffset?: string;
+  private _verticalOffset?: string; 
   public get verticalOffset() {
     return this.getStringAttribute('vertical_offset');
   }
@@ -1756,7 +1756,7 @@ export class ElastictranscoderPreset extends cdktn.TerraformResource {
   }
 
   // container - computed: false, optional: false, required: true
-  private _container?: string;
+  private _container?: string; 
   public get container() {
     return this.getStringAttribute('container');
   }
@@ -1769,7 +1769,7 @@ export class ElastictranscoderPreset extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1785,7 +1785,7 @@ export class ElastictranscoderPreset extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -1801,7 +1801,7 @@ export class ElastictranscoderPreset extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1817,7 +1817,7 @@ export class ElastictranscoderPreset extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1833,7 +1833,7 @@ export class ElastictranscoderPreset extends cdktn.TerraformResource {
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -1849,7 +1849,7 @@ export class ElastictranscoderPreset extends cdktn.TerraformResource {
   }
 
   // video_codec_options - computed: false, optional: true, required: false
-  private _videoCodecOptions?: { [key: string]: string };
+  private _videoCodecOptions?: { [key: string]: string }; 
   public get videoCodecOptions() {
     return this.getStringMapAttribute('video_codec_options');
   }

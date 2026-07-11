@@ -419,7 +419,7 @@ export class DataAwsAppmeshVirtualService extends cdktn.TerraformDataSource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -440,7 +440,7 @@ export class DataAwsAppmeshVirtualService extends cdktn.TerraformDataSource {
   }
 
   // mesh_name - computed: false, optional: false, required: true
-  private _meshName?: string;
+  private _meshName?: string; 
   public get meshName() {
     return this.getStringAttribute('mesh_name');
   }
@@ -453,7 +453,7 @@ export class DataAwsAppmeshVirtualService extends cdktn.TerraformDataSource {
   }
 
   // mesh_owner - computed: true, optional: true, required: false
-  private _meshOwner?: string;
+  private _meshOwner?: string; 
   public get meshOwner() {
     return this.getStringAttribute('mesh_owner');
   }
@@ -469,7 +469,7 @@ export class DataAwsAppmeshVirtualService extends cdktn.TerraformDataSource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -482,7 +482,7 @@ export class DataAwsAppmeshVirtualService extends cdktn.TerraformDataSource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -509,7 +509,7 @@ export class DataAwsAppmeshVirtualService extends cdktn.TerraformDataSource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

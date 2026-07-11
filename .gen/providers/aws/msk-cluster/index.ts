@@ -166,7 +166,7 @@ export class MskClusterBrokerNodeGroupInfoConnectivityInfoPublicAccessOutputRefe
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -267,7 +267,7 @@ export class MskClusterBrokerNodeGroupInfoConnectivityInfoVpcConnectivityClientA
   }
 
   // iam - computed: true, optional: true, required: false
-  private _iam?: boolean | cdktn.IResolvable;
+  private _iam?: boolean | cdktn.IResolvable; 
   public get iam() {
     return this.getBooleanAttribute('iam');
   }
@@ -283,7 +283,7 @@ export class MskClusterBrokerNodeGroupInfoConnectivityInfoVpcConnectivityClientA
   }
 
   // scram - computed: true, optional: true, required: false
-  private _scram?: boolean | cdktn.IResolvable;
+  private _scram?: boolean | cdktn.IResolvable; 
   public get scram() {
     return this.getBooleanAttribute('scram');
   }
@@ -386,7 +386,7 @@ export class MskClusterBrokerNodeGroupInfoConnectivityInfoVpcConnectivityClientA
   }
 
   // tls - computed: true, optional: true, required: false
-  private _tls?: boolean | cdktn.IResolvable;
+  private _tls?: boolean | cdktn.IResolvable; 
   public get tls() {
     return this.getBooleanAttribute('tls');
   }
@@ -610,7 +610,7 @@ export class MskClusterBrokerNodeGroupInfoConnectivityInfoOutputReference extend
   }
 
   // network_type - computed: true, optional: true, required: false
-  private _networkType?: string;
+  private _networkType?: string; 
   public get networkType() {
     return this.getStringAttribute('network_type');
   }
@@ -743,7 +743,7 @@ export class MskClusterBrokerNodeGroupInfoStorageInfoEbsStorageInfoProvisionedTh
   }
 
   // enabled - computed: false, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -759,7 +759,7 @@ export class MskClusterBrokerNodeGroupInfoStorageInfoEbsStorageInfoProvisionedTh
   }
 
   // volume_throughput - computed: false, optional: true, required: false
-  private _volumeThroughput?: number;
+  private _volumeThroughput?: number; 
   public get volumeThroughput() {
     return this.getNumberAttribute('volume_throughput');
   }
@@ -862,7 +862,7 @@ export class MskClusterBrokerNodeGroupInfoStorageInfoEbsStorageInfoOutputReferen
   }
 
   // volume_size - computed: false, optional: true, required: false
-  private _volumeSize?: number;
+  private _volumeSize?: number; 
   public get volumeSize() {
     return this.getNumberAttribute('volume_size');
   }
@@ -1137,7 +1137,7 @@ export class MskClusterBrokerNodeGroupInfoOutputReference extends cdktn.ComplexO
   }
 
   // az_distribution - computed: false, optional: true, required: false
-  private _azDistribution?: string;
+  private _azDistribution?: string; 
   public get azDistribution() {
     return this.getStringAttribute('az_distribution');
   }
@@ -1153,7 +1153,7 @@ export class MskClusterBrokerNodeGroupInfoOutputReference extends cdktn.ComplexO
   }
 
   // client_subnets - computed: false, optional: false, required: true
-  private _clientSubnets?: string[];
+  private _clientSubnets?: string[]; 
   public get clientSubnets() {
     return cdktn.Fn.tolist(this.getListAttribute('client_subnets'));
   }
@@ -1166,7 +1166,7 @@ export class MskClusterBrokerNodeGroupInfoOutputReference extends cdktn.ComplexO
   }
 
   // instance_type - computed: false, optional: false, required: true
-  private _instanceType?: string;
+  private _instanceType?: string; 
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -1179,7 +1179,7 @@ export class MskClusterBrokerNodeGroupInfoOutputReference extends cdktn.ComplexO
   }
 
   // security_groups - computed: false, optional: false, required: true
-  private _securityGroups?: string[];
+  private _securityGroups?: string[]; 
   public get securityGroups() {
     return cdktn.Fn.tolist(this.getListAttribute('security_groups'));
   }
@@ -1309,7 +1309,7 @@ export class MskClusterClientAuthenticationSaslOutputReference extends cdktn.Com
   }
 
   // iam - computed: false, optional: true, required: false
-  private _iam?: boolean | cdktn.IResolvable;
+  private _iam?: boolean | cdktn.IResolvable; 
   public get iam() {
     return this.getBooleanAttribute('iam');
   }
@@ -1325,7 +1325,7 @@ export class MskClusterClientAuthenticationSaslOutputReference extends cdktn.Com
   }
 
   // scram - computed: false, optional: true, required: false
-  private _scram?: boolean | cdktn.IResolvable;
+  private _scram?: boolean | cdktn.IResolvable; 
   public get scram() {
     return this.getBooleanAttribute('scram');
   }
@@ -1409,7 +1409,7 @@ export class MskClusterClientAuthenticationTlsOutputReference extends cdktn.Comp
   }
 
   // certificate_authority_arns - computed: false, optional: true, required: false
-  private _certificateAuthorityArns?: string[];
+  private _certificateAuthorityArns?: string[]; 
   public get certificateAuthorityArns() {
     return cdktn.Fn.tolist(this.getListAttribute('certificate_authority_arns'));
   }
@@ -1531,7 +1531,7 @@ export class MskClusterClientAuthenticationOutputReference extends cdktn.Complex
   }
 
   // unauthenticated - computed: false, optional: true, required: false
-  private _unauthenticated?: boolean | cdktn.IResolvable;
+  private _unauthenticated?: boolean | cdktn.IResolvable; 
   public get unauthenticated() {
     return this.getBooleanAttribute('unauthenticated');
   }
@@ -1664,7 +1664,7 @@ export class MskClusterConfigurationInfoOutputReference extends cdktn.ComplexObj
   }
 
   // arn - computed: false, optional: false, required: true
-  private _arn?: string;
+  private _arn?: string; 
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -1677,7 +1677,7 @@ export class MskClusterConfigurationInfoOutputReference extends cdktn.ComplexObj
   }
 
   // revision - computed: false, optional: false, required: true
-  private _revision?: number;
+  private _revision?: number; 
   public get revision() {
     return this.getNumberAttribute('revision');
   }
@@ -1775,7 +1775,7 @@ export class MskClusterEncryptionInfoEncryptionInTransitOutputReference extends 
   }
 
   // client_broker - computed: false, optional: true, required: false
-  private _clientBroker?: string;
+  private _clientBroker?: string; 
   public get clientBroker() {
     return this.getStringAttribute('client_broker');
   }
@@ -1791,7 +1791,7 @@ export class MskClusterEncryptionInfoEncryptionInTransitOutputReference extends 
   }
 
   // in_cluster - computed: false, optional: true, required: false
-  private _inCluster?: boolean | cdktn.IResolvable;
+  private _inCluster?: boolean | cdktn.IResolvable; 
   public get inCluster() {
     return this.getBooleanAttribute('in_cluster');
   }
@@ -1894,7 +1894,7 @@ export class MskClusterEncryptionInfoOutputReference extends cdktn.ComplexObject
   }
 
   // encryption_at_rest_kms_key_arn - computed: true, optional: true, required: false
-  private _encryptionAtRestKmsKeyArn?: string;
+  private _encryptionAtRestKmsKeyArn?: string; 
   public get encryptionAtRestKmsKeyArn() {
     return this.getStringAttribute('encryption_at_rest_kms_key_arn');
   }
@@ -2011,7 +2011,7 @@ export class MskClusterLoggingInfoBrokerLogsCloudwatchLogsOutputReference extend
   }
 
   // enabled - computed: false, optional: false, required: true
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -2024,7 +2024,7 @@ export class MskClusterLoggingInfoBrokerLogsCloudwatchLogsOutputReference extend
   }
 
   // log_group - computed: false, optional: true, required: false
-  private _logGroup?: string;
+  private _logGroup?: string; 
   public get logGroup() {
     return this.getStringAttribute('log_group');
   }
@@ -2125,7 +2125,7 @@ export class MskClusterLoggingInfoBrokerLogsFirehoseOutputReference extends cdkt
   }
 
   // delivery_stream - computed: false, optional: true, required: false
-  private _deliveryStream?: string;
+  private _deliveryStream?: string; 
   public get deliveryStream() {
     return this.getStringAttribute('delivery_stream');
   }
@@ -2141,7 +2141,7 @@ export class MskClusterLoggingInfoBrokerLogsFirehoseOutputReference extends cdkt
   }
 
   // enabled - computed: false, optional: false, required: true
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -2256,7 +2256,7 @@ export class MskClusterLoggingInfoBrokerLogsS3OutputReference extends cdktn.Comp
   }
 
   // bucket - computed: false, optional: true, required: false
-  private _bucket?: string;
+  private _bucket?: string; 
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -2272,7 +2272,7 @@ export class MskClusterLoggingInfoBrokerLogsS3OutputReference extends cdktn.Comp
   }
 
   // enabled - computed: false, optional: false, required: true
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -2285,7 +2285,7 @@ export class MskClusterLoggingInfoBrokerLogsS3OutputReference extends cdktn.Comp
   }
 
   // prefix - computed: false, optional: true, required: false
-  private _prefix?: string;
+  private _prefix?: string; 
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -2608,7 +2608,7 @@ export class MskClusterOpenMonitoringPrometheusJmxExporterOutputReference extend
   }
 
   // enabled_in_broker - computed: false, optional: false, required: true
-  private _enabledInBroker?: boolean | cdktn.IResolvable;
+  private _enabledInBroker?: boolean | cdktn.IResolvable; 
   public get enabledInBroker() {
     return this.getBooleanAttribute('enabled_in_broker');
   }
@@ -2689,7 +2689,7 @@ export class MskClusterOpenMonitoringPrometheusNodeExporterOutputReference exten
   }
 
   // enabled_in_broker - computed: false, optional: false, required: true
-  private _enabledInBroker?: boolean | cdktn.IResolvable;
+  private _enabledInBroker?: boolean | cdktn.IResolvable; 
   public get enabledInBroker() {
     return this.getBooleanAttribute('enabled_in_broker');
   }
@@ -2974,7 +2974,7 @@ export class MskClusterRebalancingOutputReference extends cdktn.ComplexObject {
   }
 
   // status - computed: false, optional: false, required: true
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -3099,7 +3099,7 @@ export class MskClusterTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -3115,7 +3115,7 @@ export class MskClusterTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -3131,7 +3131,7 @@ export class MskClusterTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -3276,7 +3276,7 @@ export class MskCluster extends cdktn.TerraformResource {
   }
 
   // cluster_name - computed: false, optional: false, required: true
-  private _clusterName?: string;
+  private _clusterName?: string; 
   public get clusterName() {
     return this.getStringAttribute('cluster_name');
   }
@@ -3304,7 +3304,7 @@ export class MskCluster extends cdktn.TerraformResource {
   }
 
   // enhanced_monitoring - computed: false, optional: true, required: false
-  private _enhancedMonitoring?: string;
+  private _enhancedMonitoring?: string; 
   public get enhancedMonitoring() {
     return this.getStringAttribute('enhanced_monitoring');
   }
@@ -3320,7 +3320,7 @@ export class MskCluster extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -3336,7 +3336,7 @@ export class MskCluster extends cdktn.TerraformResource {
   }
 
   // kafka_version - computed: false, optional: false, required: true
-  private _kafkaVersion?: string;
+  private _kafkaVersion?: string; 
   public get kafkaVersion() {
     return this.getStringAttribute('kafka_version');
   }
@@ -3349,7 +3349,7 @@ export class MskCluster extends cdktn.TerraformResource {
   }
 
   // number_of_broker_nodes - computed: false, optional: false, required: true
-  private _numberOfBrokerNodes?: number;
+  private _numberOfBrokerNodes?: number; 
   public get numberOfBrokerNodes() {
     return this.getNumberAttribute('number_of_broker_nodes');
   }
@@ -3362,7 +3362,7 @@ export class MskCluster extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -3378,7 +3378,7 @@ export class MskCluster extends cdktn.TerraformResource {
   }
 
   // storage_mode - computed: true, optional: true, required: false
-  private _storageMode?: string;
+  private _storageMode?: string; 
   public get storageMode() {
     return this.getStringAttribute('storage_mode');
   }
@@ -3394,7 +3394,7 @@ export class MskCluster extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -3410,7 +3410,7 @@ export class MskCluster extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

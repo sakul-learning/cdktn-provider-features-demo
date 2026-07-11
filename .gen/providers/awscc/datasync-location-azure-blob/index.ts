@@ -149,7 +149,7 @@ export class DatasyncLocationAzureBlobAzureBlobSasConfigurationOutputReference e
   }
 
   // azure_blob_sas_token - computed: true, optional: true, required: false
-  private _azureBlobSasToken?: string;
+  private _azureBlobSasToken?: string; 
   public get azureBlobSasToken() {
     return this.getStringAttribute('azure_blob_sas_token');
   }
@@ -245,7 +245,7 @@ export class DatasyncLocationAzureBlobCmkSecretConfigOutputReference extends cdk
   }
 
   // kms_key_arn - computed: true, optional: true, required: false
-  private _kmsKeyArn?: string;
+  private _kmsKeyArn?: string; 
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -365,7 +365,7 @@ export class DatasyncLocationAzureBlobCustomSecretConfigOutputReference extends 
   }
 
   // secret_access_role_arn - computed: true, optional: true, required: false
-  private _secretAccessRoleArn?: string;
+  private _secretAccessRoleArn?: string; 
   public get secretAccessRoleArn() {
     return this.getStringAttribute('secret_access_role_arn');
   }
@@ -381,7 +381,7 @@ export class DatasyncLocationAzureBlobCustomSecretConfigOutputReference extends 
   }
 
   // secret_arn - computed: true, optional: true, required: false
-  private _secretArn?: string;
+  private _secretArn?: string; 
   public get secretArn() {
     return this.getStringAttribute('secret_arn');
   }
@@ -552,7 +552,7 @@ export class DatasyncLocationAzureBlobTagsOutputReference extends cdktn.ComplexO
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -568,7 +568,7 @@ export class DatasyncLocationAzureBlobTagsOutputReference extends cdktn.ComplexO
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -671,7 +671,7 @@ export class DatasyncLocationAzureBlob extends cdktn.TerraformResource {
   // ==========
 
   // agent_arns - computed: true, optional: true, required: false
-  private _agentArns?: string[];
+  private _agentArns?: string[]; 
   public get agentArns() {
     return this.getListAttribute('agent_arns');
   }
@@ -687,7 +687,7 @@ export class DatasyncLocationAzureBlob extends cdktn.TerraformResource {
   }
 
   // azure_access_tier - computed: true, optional: true, required: false
-  private _azureAccessTier?: string;
+  private _azureAccessTier?: string; 
   public get azureAccessTier() {
     return this.getStringAttribute('azure_access_tier');
   }
@@ -703,7 +703,7 @@ export class DatasyncLocationAzureBlob extends cdktn.TerraformResource {
   }
 
   // azure_blob_authentication_type - computed: true, optional: true, required: false
-  private _azureBlobAuthenticationType?: string;
+  private _azureBlobAuthenticationType?: string; 
   public get azureBlobAuthenticationType() {
     return this.getStringAttribute('azure_blob_authentication_type');
   }
@@ -719,7 +719,7 @@ export class DatasyncLocationAzureBlob extends cdktn.TerraformResource {
   }
 
   // azure_blob_container_url - computed: true, optional: true, required: false
-  private _azureBlobContainerUrl?: string;
+  private _azureBlobContainerUrl?: string; 
   public get azureBlobContainerUrl() {
     return this.getStringAttribute('azure_blob_container_url');
   }
@@ -751,7 +751,7 @@ export class DatasyncLocationAzureBlob extends cdktn.TerraformResource {
   }
 
   // azure_blob_type - computed: true, optional: true, required: false
-  private _azureBlobType?: string;
+  private _azureBlobType?: string; 
   public get azureBlobType() {
     return this.getStringAttribute('azure_blob_type');
   }
@@ -820,7 +820,7 @@ export class DatasyncLocationAzureBlob extends cdktn.TerraformResource {
   }
 
   // subdirectory - computed: true, optional: true, required: false
-  private _subdirectory?: string;
+  private _subdirectory?: string; 
   public get subdirectory() {
     return this.getStringAttribute('subdirectory');
   }

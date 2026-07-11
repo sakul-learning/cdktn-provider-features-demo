@@ -126,7 +126,7 @@ export class CloudwatchEventBusDeadLetterConfigOutputReference extends cdktn.Com
   }
 
   // arn - computed: false, optional: true, required: false
-  private _arn?: string;
+  private _arn?: string; 
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -227,7 +227,7 @@ export class CloudwatchEventBusLogConfigOutputReference extends cdktn.ComplexObj
   }
 
   // include_detail - computed: false, optional: true, required: false
-  private _includeDetail?: string;
+  private _includeDetail?: string; 
   public get includeDetail() {
     return this.getStringAttribute('include_detail');
   }
@@ -243,7 +243,7 @@ export class CloudwatchEventBusLogConfigOutputReference extends cdktn.ComplexObj
   }
 
   // level - computed: false, optional: true, required: false
-  private _level?: string;
+  private _level?: string; 
   public get level() {
     return this.getStringAttribute('level');
   }
@@ -331,7 +331,7 @@ export class CloudwatchEventBus extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -347,7 +347,7 @@ export class CloudwatchEventBus extends cdktn.TerraformResource {
   }
 
   // event_source_name - computed: false, optional: true, required: false
-  private _eventSourceName?: string;
+  private _eventSourceName?: string; 
   public get eventSourceName() {
     return this.getStringAttribute('event_source_name');
   }
@@ -363,7 +363,7 @@ export class CloudwatchEventBus extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -379,7 +379,7 @@ export class CloudwatchEventBus extends cdktn.TerraformResource {
   }
 
   // kms_key_identifier - computed: false, optional: true, required: false
-  private _kmsKeyIdentifier?: string;
+  private _kmsKeyIdentifier?: string; 
   public get kmsKeyIdentifier() {
     return this.getStringAttribute('kms_key_identifier');
   }
@@ -395,7 +395,7 @@ export class CloudwatchEventBus extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -408,7 +408,7 @@ export class CloudwatchEventBus extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -424,7 +424,7 @@ export class CloudwatchEventBus extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -440,7 +440,7 @@ export class CloudwatchEventBus extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

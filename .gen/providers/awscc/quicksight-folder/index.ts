@@ -156,7 +156,7 @@ export class QuicksightFolderPermissionsOutputReference extends cdktn.ComplexObj
   }
 
   // actions - computed: true, optional: true, required: false
-  private _actions?: string[];
+  private _actions?: string[]; 
   public get actions() {
     return this.getListAttribute('actions');
   }
@@ -172,7 +172,7 @@ export class QuicksightFolderPermissionsOutputReference extends cdktn.ComplexObj
   }
 
   // principal - computed: true, optional: true, required: false
-  private _principal?: string;
+  private _principal?: string; 
   public get principal() {
     return this.getStringAttribute('principal');
   }
@@ -309,7 +309,7 @@ export class QuicksightFolderTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -325,7 +325,7 @@ export class QuicksightFolderTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -431,7 +431,7 @@ export class QuicksightFolder extends cdktn.TerraformResource {
   }
 
   // aws_account_id - computed: true, optional: true, required: false
-  private _awsAccountId?: string;
+  private _awsAccountId?: string; 
   public get awsAccountId() {
     return this.getStringAttribute('aws_account_id');
   }
@@ -452,7 +452,7 @@ export class QuicksightFolder extends cdktn.TerraformResource {
   }
 
   // folder_id - computed: true, optional: true, required: false
-  private _folderId?: string;
+  private _folderId?: string; 
   public get folderId() {
     return this.getStringAttribute('folder_id');
   }
@@ -468,7 +468,7 @@ export class QuicksightFolder extends cdktn.TerraformResource {
   }
 
   // folder_type - computed: true, optional: true, required: false
-  private _folderType?: string;
+  private _folderType?: string; 
   public get folderType() {
     return this.getStringAttribute('folder_type');
   }
@@ -494,7 +494,7 @@ export class QuicksightFolder extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -510,7 +510,7 @@ export class QuicksightFolder extends cdktn.TerraformResource {
   }
 
   // parent_folder_arn - computed: true, optional: true, required: false
-  private _parentFolderArn?: string;
+  private _parentFolderArn?: string; 
   public get parentFolderArn() {
     return this.getStringAttribute('parent_folder_arn');
   }
@@ -542,7 +542,7 @@ export class QuicksightFolder extends cdktn.TerraformResource {
   }
 
   // sharing_model - computed: true, optional: true, required: false
-  private _sharingModel?: string;
+  private _sharingModel?: string; 
   public get sharingModel() {
     return this.getStringAttribute('sharing_model');
   }

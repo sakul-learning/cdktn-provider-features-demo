@@ -154,7 +154,7 @@ export class AppintegrationsDataIntegrationScheduleConfigOutputReference extends
   }
 
   // first_execution_from - computed: false, optional: false, required: true
-  private _firstExecutionFrom?: string;
+  private _firstExecutionFrom?: string; 
   public get firstExecutionFrom() {
     return this.getStringAttribute('first_execution_from');
   }
@@ -167,7 +167,7 @@ export class AppintegrationsDataIntegrationScheduleConfigOutputReference extends
   }
 
   // object - computed: false, optional: false, required: true
-  private _object?: string;
+  private _object?: string; 
   public get object() {
     return this.getStringAttribute('object');
   }
@@ -180,7 +180,7 @@ export class AppintegrationsDataIntegrationScheduleConfigOutputReference extends
   }
 
   // schedule_expression - computed: false, optional: false, required: true
-  private _scheduleExpression?: string;
+  private _scheduleExpression?: string; 
   public get scheduleExpression() {
     return this.getStringAttribute('schedule_expression');
   }
@@ -264,7 +264,7 @@ export class AppintegrationsDataIntegration extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -280,7 +280,7 @@ export class AppintegrationsDataIntegration extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -296,7 +296,7 @@ export class AppintegrationsDataIntegration extends cdktn.TerraformResource {
   }
 
   // kms_key - computed: false, optional: false, required: true
-  private _kmsKey?: string;
+  private _kmsKey?: string; 
   public get kmsKey() {
     return this.getStringAttribute('kms_key');
   }
@@ -309,7 +309,7 @@ export class AppintegrationsDataIntegration extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -322,7 +322,7 @@ export class AppintegrationsDataIntegration extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -338,7 +338,7 @@ export class AppintegrationsDataIntegration extends cdktn.TerraformResource {
   }
 
   // source_uri - computed: false, optional: false, required: true
-  private _sourceUri?: string;
+  private _sourceUri?: string; 
   public get sourceUri() {
     return this.getStringAttribute('source_uri');
   }
@@ -351,7 +351,7 @@ export class AppintegrationsDataIntegration extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -367,7 +367,7 @@ export class AppintegrationsDataIntegration extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

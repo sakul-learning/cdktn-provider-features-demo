@@ -122,7 +122,7 @@ export class CloudfrontContinuousDeploymentPolicyStagingDistributionDnsNamesOutp
   }
 
   // items - computed: false, optional: true, required: false
-  private _items?: string[];
+  private _items?: string[]; 
   public get items() {
     return cdktn.Fn.tolist(this.getListAttribute('items'));
   }
@@ -138,7 +138,7 @@ export class CloudfrontContinuousDeploymentPolicyStagingDistributionDnsNamesOutp
   }
 
   // quantity - computed: false, optional: false, required: true
-  private _quantity?: number;
+  private _quantity?: number; 
   public get quantity() {
     return this.getNumberAttribute('quantity');
   }
@@ -268,7 +268,7 @@ export class CloudfrontContinuousDeploymentPolicyTrafficConfigSingleHeaderConfig
   }
 
   // header - computed: false, optional: false, required: true
-  private _header?: string;
+  private _header?: string; 
   public get header() {
     return this.getStringAttribute('header');
   }
@@ -281,7 +281,7 @@ export class CloudfrontContinuousDeploymentPolicyTrafficConfigSingleHeaderConfig
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -411,7 +411,7 @@ export class CloudfrontContinuousDeploymentPolicyTrafficConfigSingleWeightConfig
   }
 
   // idle_ttl - computed: false, optional: false, required: true
-  private _idleTtl?: number;
+  private _idleTtl?: number; 
   public get idleTtl() {
     return this.getNumberAttribute('idle_ttl');
   }
@@ -424,7 +424,7 @@ export class CloudfrontContinuousDeploymentPolicyTrafficConfigSingleWeightConfig
   }
 
   // maximum_ttl - computed: false, optional: false, required: true
-  private _maximumTtl?: number;
+  private _maximumTtl?: number; 
   public get maximumTtl() {
     return this.getNumberAttribute('maximum_ttl');
   }
@@ -556,7 +556,7 @@ export class CloudfrontContinuousDeploymentPolicyTrafficConfigSingleWeightConfig
   }
 
   // weight - computed: false, optional: false, required: true
-  private _weight?: number;
+  private _weight?: number; 
   public get weight() {
     return this.getNumberAttribute('weight');
   }
@@ -723,7 +723,7 @@ export class CloudfrontContinuousDeploymentPolicyTrafficConfigOutputReference ex
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -853,7 +853,7 @@ export class CloudfrontContinuousDeploymentPolicy extends cdktn.TerraformResourc
   }
 
   // enabled - computed: false, optional: false, required: true
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }

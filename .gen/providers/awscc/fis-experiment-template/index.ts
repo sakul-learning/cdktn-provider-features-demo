@@ -212,7 +212,7 @@ export class FisExperimentTemplateActionsOutputReference extends cdktn.ComplexOb
   }
 
   // action_id - computed: true, optional: true, required: false
-  private _actionId?: string;
+  private _actionId?: string; 
   public get actionId() {
     return this.getStringAttribute('action_id');
   }
@@ -228,7 +228,7 @@ export class FisExperimentTemplateActionsOutputReference extends cdktn.ComplexOb
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -244,7 +244,7 @@ export class FisExperimentTemplateActionsOutputReference extends cdktn.ComplexOb
   }
 
   // parameters - computed: true, optional: true, required: false
-  private _parameters?: { [key: string]: string };
+  private _parameters?: { [key: string]: string }; 
   public get parameters() {
     return this.getStringMapAttribute('parameters');
   }
@@ -260,7 +260,7 @@ export class FisExperimentTemplateActionsOutputReference extends cdktn.ComplexOb
   }
 
   // start_after - computed: true, optional: true, required: false
-  private _startAfter?: string[];
+  private _startAfter?: string[]; 
   public get startAfter() {
     return this.getListAttribute('start_after');
   }
@@ -276,7 +276,7 @@ export class FisExperimentTemplateActionsOutputReference extends cdktn.ComplexOb
   }
 
   // targets - computed: true, optional: true, required: false
-  private _targets?: { [key: string]: string };
+  private _targets?: { [key: string]: string }; 
   public get targets() {
     return this.getStringMapAttribute('targets');
   }
@@ -410,7 +410,7 @@ export class FisExperimentTemplateExperimentOptionsOutputReference extends cdktn
   }
 
   // account_targeting - computed: true, optional: true, required: false
-  private _accountTargeting?: string;
+  private _accountTargeting?: string; 
   public get accountTargeting() {
     return this.getStringAttribute('account_targeting');
   }
@@ -426,7 +426,7 @@ export class FisExperimentTemplateExperimentOptionsOutputReference extends cdktn
   }
 
   // empty_target_resolution_mode - computed: true, optional: true, required: false
-  private _emptyTargetResolutionMode?: string;
+  private _emptyTargetResolutionMode?: string; 
   public get emptyTargetResolutionMode() {
     return this.getStringAttribute('empty_target_resolution_mode');
   }
@@ -522,7 +522,7 @@ export class FisExperimentTemplateExperimentReportConfigurationDataSourcesCloudw
   }
 
   // dashboard_identifier - computed: true, optional: true, required: false
-  private _dashboardIdentifier?: string;
+  private _dashboardIdentifier?: string; 
   public get dashboardIdentifier() {
     return this.getStringAttribute('dashboard_identifier');
   }
@@ -747,7 +747,7 @@ export class FisExperimentTemplateExperimentReportConfigurationOutputsExperiment
   }
 
   // bucket_name - computed: true, optional: true, required: false
-  private _bucketName?: string;
+  private _bucketName?: string; 
   public get bucketName() {
     return this.getStringAttribute('bucket_name');
   }
@@ -763,7 +763,7 @@ export class FisExperimentTemplateExperimentReportConfigurationOutputsExperiment
   }
 
   // prefix - computed: true, optional: true, required: false
-  private _prefix?: string;
+  private _prefix?: string; 
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -1034,7 +1034,7 @@ export class FisExperimentTemplateExperimentReportConfigurationOutputReference e
   }
 
   // post_experiment_duration - computed: true, optional: true, required: false
-  private _postExperimentDuration?: string;
+  private _postExperimentDuration?: string; 
   public get postExperimentDuration() {
     return this.getStringAttribute('post_experiment_duration');
   }
@@ -1050,7 +1050,7 @@ export class FisExperimentTemplateExperimentReportConfigurationOutputReference e
   }
 
   // pre_experiment_duration - computed: true, optional: true, required: false
-  private _preExperimentDuration?: string;
+  private _preExperimentDuration?: string; 
   public get preExperimentDuration() {
     return this.getStringAttribute('pre_experiment_duration');
   }
@@ -1144,7 +1144,7 @@ export class FisExperimentTemplateLogConfigurationCloudwatchLogsConfigurationOut
   }
 
   // log_group_arn - computed: true, optional: true, required: false
-  private _logGroupArn?: string;
+  private _logGroupArn?: string; 
   public get logGroupArn() {
     return this.getStringAttribute('log_group_arn');
   }
@@ -1255,7 +1255,7 @@ export class FisExperimentTemplateLogConfigurationS3ConfigurationOutputReference
   }
 
   // bucket_name - computed: true, optional: true, required: false
-  private _bucketName?: string;
+  private _bucketName?: string; 
   public get bucketName() {
     return this.getStringAttribute('bucket_name');
   }
@@ -1271,7 +1271,7 @@ export class FisExperimentTemplateLogConfigurationS3ConfigurationOutputReference
   }
 
   // prefix - computed: true, optional: true, required: false
-  private _prefix?: string;
+  private _prefix?: string; 
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -1415,7 +1415,7 @@ export class FisExperimentTemplateLogConfigurationOutputReference extends cdktn.
   }
 
   // log_schema_version - computed: true, optional: true, required: false
-  private _logSchemaVersion?: number;
+  private _logSchemaVersion?: number; 
   public get logSchemaVersion() {
     return this.getNumberAttribute('log_schema_version');
   }
@@ -1544,7 +1544,7 @@ export class FisExperimentTemplateStopConditionsOutputReference extends cdktn.Co
   }
 
   // source - computed: false, optional: false, required: true
-  private _source?: string;
+  private _source?: string; 
   public get source() {
     return this.getStringAttribute('source');
   }
@@ -1557,7 +1557,7 @@ export class FisExperimentTemplateStopConditionsOutputReference extends cdktn.Co
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1694,7 +1694,7 @@ export class FisExperimentTemplateTargetsFiltersOutputReference extends cdktn.Co
   }
 
   // path - computed: true, optional: true, required: false
-  private _path?: string;
+  private _path?: string; 
   public get path() {
     return this.getStringAttribute('path');
   }
@@ -1710,7 +1710,7 @@ export class FisExperimentTemplateTargetsFiltersOutputReference extends cdktn.Co
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -1932,7 +1932,7 @@ export class FisExperimentTemplateTargetsOutputReference extends cdktn.ComplexOb
   }
 
   // parameters - computed: true, optional: true, required: false
-  private _parameters?: { [key: string]: string };
+  private _parameters?: { [key: string]: string }; 
   public get parameters() {
     return this.getStringMapAttribute('parameters');
   }
@@ -1948,7 +1948,7 @@ export class FisExperimentTemplateTargetsOutputReference extends cdktn.ComplexOb
   }
 
   // resource_arns - computed: true, optional: true, required: false
-  private _resourceArns?: string[];
+  private _resourceArns?: string[]; 
   public get resourceArns() {
     return this.getListAttribute('resource_arns');
   }
@@ -1964,7 +1964,7 @@ export class FisExperimentTemplateTargetsOutputReference extends cdktn.ComplexOb
   }
 
   // resource_tags - computed: true, optional: true, required: false
-  private _resourceTags?: { [key: string]: string };
+  private _resourceTags?: { [key: string]: string }; 
   public get resourceTags() {
     return this.getStringMapAttribute('resource_tags');
   }
@@ -1980,7 +1980,7 @@ export class FisExperimentTemplateTargetsOutputReference extends cdktn.ComplexOb
   }
 
   // resource_type - computed: true, optional: true, required: false
-  private _resourceType?: string;
+  private _resourceType?: string; 
   public get resourceType() {
     return this.getStringAttribute('resource_type');
   }
@@ -1996,7 +1996,7 @@ export class FisExperimentTemplateTargetsOutputReference extends cdktn.ComplexOb
   }
 
   // selection_mode - computed: true, optional: true, required: false
-  private _selectionMode?: string;
+  private _selectionMode?: string; 
   public get selectionMode() {
     return this.getStringAttribute('selection_mode');
   }
@@ -2113,7 +2113,7 @@ export class FisExperimentTemplate extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: false, required: true
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -2184,7 +2184,7 @@ export class FisExperimentTemplate extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -2210,7 +2210,7 @@ export class FisExperimentTemplate extends cdktn.TerraformResource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

@@ -86,7 +86,7 @@ export class WisdomAiGuardrailVersion extends cdktn.TerraformResource {
   }
 
   // ai_guardrail_id - computed: false, optional: false, required: true
-  private _aiGuardrailId?: string;
+  private _aiGuardrailId?: string; 
   public get aiGuardrailId() {
     return this.getStringAttribute('ai_guardrail_id');
   }
@@ -109,7 +109,7 @@ export class WisdomAiGuardrailVersion extends cdktn.TerraformResource {
   }
 
   // assistant_id - computed: false, optional: false, required: true
-  private _assistantId?: string;
+  private _assistantId?: string; 
   public get assistantId() {
     return this.getStringAttribute('assistant_id');
   }
@@ -127,7 +127,7 @@ export class WisdomAiGuardrailVersion extends cdktn.TerraformResource {
   }
 
   // modified_time_seconds - computed: true, optional: true, required: false
-  private _modifiedTimeSeconds?: number;
+  private _modifiedTimeSeconds?: number; 
   public get modifiedTimeSeconds() {
     return this.getNumberAttribute('modified_time_seconds');
   }

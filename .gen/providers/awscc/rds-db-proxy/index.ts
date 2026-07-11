@@ -88,7 +88,7 @@ export interface RdsDbProxyConfig extends cdktn.TerraformMetaArguments {
 }
 export interface RdsDbProxyAuth {
   /**
-  * The type of authentication that the proxy uses for connections from the proxy to the underlying database.
+  * The type of authentication that the proxy uses for connections from the proxy to the underlying database. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rds_db_proxy#auth_scheme RdsDbProxy#auth_scheme}
   */
@@ -100,7 +100,7 @@ export interface RdsDbProxyAuth {
   */
   readonly clientPasswordAuthType?: string;
   /**
-  * A user-specified description about the authentication used by a proxy to log in as a specific database user.
+  * A user-specified description about the authentication used by a proxy to log in as a specific database user. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rds_db_proxy#description RdsDbProxy#description}
   */
@@ -112,7 +112,7 @@ export interface RdsDbProxyAuth {
   */
   readonly iamAuth?: string;
   /**
-  * The Amazon Resource Name (ARN) representing the secret that the proxy uses to authenticate to the RDS DB instance or Aurora DB cluster. These secrets are stored within Amazon Secrets Manager.
+  * The Amazon Resource Name (ARN) representing the secret that the proxy uses to authenticate to the RDS DB instance or Aurora DB cluster. These secrets are stored within Amazon Secrets Manager. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rds_db_proxy#secret_arn RdsDbProxy#secret_arn}
   */
@@ -245,7 +245,7 @@ export class RdsDbProxyAuthOutputReference extends cdktn.ComplexObject {
   }
 
   // auth_scheme - computed: true, optional: true, required: false
-  private _authScheme?: string;
+  private _authScheme?: string; 
   public get authScheme() {
     return this.getStringAttribute('auth_scheme');
   }
@@ -261,7 +261,7 @@ export class RdsDbProxyAuthOutputReference extends cdktn.ComplexObject {
   }
 
   // client_password_auth_type - computed: true, optional: true, required: false
-  private _clientPasswordAuthType?: string;
+  private _clientPasswordAuthType?: string; 
   public get clientPasswordAuthType() {
     return this.getStringAttribute('client_password_auth_type');
   }
@@ -277,7 +277,7 @@ export class RdsDbProxyAuthOutputReference extends cdktn.ComplexObject {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -293,7 +293,7 @@ export class RdsDbProxyAuthOutputReference extends cdktn.ComplexObject {
   }
 
   // iam_auth - computed: true, optional: true, required: false
-  private _iamAuth?: string;
+  private _iamAuth?: string; 
   public get iamAuth() {
     return this.getStringAttribute('iam_auth');
   }
@@ -309,7 +309,7 @@ export class RdsDbProxyAuthOutputReference extends cdktn.ComplexObject {
   }
 
   // secret_arn - computed: true, optional: true, required: false
-  private _secretArn?: string;
+  private _secretArn?: string; 
   public get secretArn() {
     return this.getStringAttribute('secret_arn');
   }
@@ -442,7 +442,7 @@ export class RdsDbProxyTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -458,7 +458,7 @@ export class RdsDbProxyTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -585,7 +585,7 @@ export class RdsDbProxy extends cdktn.TerraformResource {
   }
 
   // db_proxy_name - computed: false, optional: false, required: true
-  private _dbProxyName?: string;
+  private _dbProxyName?: string; 
   public get dbProxyName() {
     return this.getStringAttribute('db_proxy_name');
   }
@@ -598,7 +598,7 @@ export class RdsDbProxy extends cdktn.TerraformResource {
   }
 
   // debug_logging - computed: true, optional: true, required: false
-  private _debugLogging?: boolean | cdktn.IResolvable;
+  private _debugLogging?: boolean | cdktn.IResolvable; 
   public get debugLogging() {
     return this.getBooleanAttribute('debug_logging');
   }
@@ -614,7 +614,7 @@ export class RdsDbProxy extends cdktn.TerraformResource {
   }
 
   // default_auth_scheme - computed: true, optional: true, required: false
-  private _defaultAuthScheme?: string;
+  private _defaultAuthScheme?: string; 
   public get defaultAuthScheme() {
     return this.getStringAttribute('default_auth_scheme');
   }
@@ -635,7 +635,7 @@ export class RdsDbProxy extends cdktn.TerraformResource {
   }
 
   // endpoint_network_type - computed: true, optional: true, required: false
-  private _endpointNetworkType?: string;
+  private _endpointNetworkType?: string; 
   public get endpointNetworkType() {
     return this.getStringAttribute('endpoint_network_type');
   }
@@ -651,7 +651,7 @@ export class RdsDbProxy extends cdktn.TerraformResource {
   }
 
   // engine_family - computed: false, optional: false, required: true
-  private _engineFamily?: string;
+  private _engineFamily?: string; 
   public get engineFamily() {
     return this.getStringAttribute('engine_family');
   }
@@ -669,7 +669,7 @@ export class RdsDbProxy extends cdktn.TerraformResource {
   }
 
   // idle_client_timeout - computed: true, optional: true, required: false
-  private _idleClientTimeout?: number;
+  private _idleClientTimeout?: number; 
   public get idleClientTimeout() {
     return this.getNumberAttribute('idle_client_timeout');
   }
@@ -685,7 +685,7 @@ export class RdsDbProxy extends cdktn.TerraformResource {
   }
 
   // require_tls - computed: true, optional: true, required: false
-  private _requireTls?: boolean | cdktn.IResolvable;
+  private _requireTls?: boolean | cdktn.IResolvable; 
   public get requireTls() {
     return this.getBooleanAttribute('require_tls');
   }
@@ -701,7 +701,7 @@ export class RdsDbProxy extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -730,7 +730,7 @@ export class RdsDbProxy extends cdktn.TerraformResource {
   }
 
   // target_connection_network_type - computed: true, optional: true, required: false
-  private _targetConnectionNetworkType?: string;
+  private _targetConnectionNetworkType?: string; 
   public get targetConnectionNetworkType() {
     return this.getStringAttribute('target_connection_network_type');
   }
@@ -751,7 +751,7 @@ export class RdsDbProxy extends cdktn.TerraformResource {
   }
 
   // vpc_security_group_ids - computed: true, optional: true, required: false
-  private _vpcSecurityGroupIds?: string[];
+  private _vpcSecurityGroupIds?: string[]; 
   public get vpcSecurityGroupIds() {
     return this.getListAttribute('vpc_security_group_ids');
   }
@@ -767,7 +767,7 @@ export class RdsDbProxy extends cdktn.TerraformResource {
   }
 
   // vpc_subnet_ids - computed: false, optional: false, required: true
-  private _vpcSubnetIds?: string[];
+  private _vpcSubnetIds?: string[]; 
   public get vpcSubnetIds() {
     return this.getListAttribute('vpc_subnet_ids');
   }

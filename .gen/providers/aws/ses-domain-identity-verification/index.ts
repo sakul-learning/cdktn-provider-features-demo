@@ -110,7 +110,7 @@ export class SesDomainIdentityVerificationTimeoutsOutputReference extends cdktn.
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -192,7 +192,7 @@ export class SesDomainIdentityVerification extends cdktn.TerraformResource {
   }
 
   // domain - computed: false, optional: false, required: true
-  private _domain?: string;
+  private _domain?: string; 
   public get domain() {
     return this.getStringAttribute('domain');
   }
@@ -205,7 +205,7 @@ export class SesDomainIdentityVerification extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -221,7 +221,7 @@ export class SesDomainIdentityVerification extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

@@ -101,7 +101,7 @@ export class DataAwsLambdaInvocation extends cdktn.TerraformDataSource {
   // ==========
 
   // function_name - computed: false, optional: false, required: true
-  private _functionName?: string;
+  private _functionName?: string; 
   public get functionName() {
     return this.getStringAttribute('function_name');
   }
@@ -114,7 +114,7 @@ export class DataAwsLambdaInvocation extends cdktn.TerraformDataSource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -130,7 +130,7 @@ export class DataAwsLambdaInvocation extends cdktn.TerraformDataSource {
   }
 
   // input - computed: false, optional: false, required: true
-  private _input?: string;
+  private _input?: string; 
   public get input() {
     return this.getStringAttribute('input');
   }
@@ -143,7 +143,7 @@ export class DataAwsLambdaInvocation extends cdktn.TerraformDataSource {
   }
 
   // qualifier - computed: false, optional: true, required: false
-  private _qualifier?: string;
+  private _qualifier?: string; 
   public get qualifier() {
     return this.getStringAttribute('qualifier');
   }
@@ -159,7 +159,7 @@ export class DataAwsLambdaInvocation extends cdktn.TerraformDataSource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -180,7 +180,7 @@ export class DataAwsLambdaInvocation extends cdktn.TerraformDataSource {
   }
 
   // tenant_id - computed: false, optional: true, required: false
-  private _tenantId?: string;
+  private _tenantId?: string; 
   public get tenantId() {
     return this.getStringAttribute('tenant_id');
   }

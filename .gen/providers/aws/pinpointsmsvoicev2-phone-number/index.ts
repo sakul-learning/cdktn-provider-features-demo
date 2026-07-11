@@ -191,7 +191,7 @@ export class Pinpointsmsvoicev2PhoneNumberTimeoutsOutputReference extends cdktn.
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -207,7 +207,7 @@ export class Pinpointsmsvoicev2PhoneNumberTimeoutsOutputReference extends cdktn.
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -223,7 +223,7 @@ export class Pinpointsmsvoicev2PhoneNumberTimeoutsOutputReference extends cdktn.
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -316,7 +316,7 @@ export class Pinpointsmsvoicev2PhoneNumber extends cdktn.TerraformResource {
   }
 
   // deletion_protection_enabled - computed: true, optional: true, required: false
-  private _deletionProtectionEnabled?: boolean | cdktn.IResolvable;
+  private _deletionProtectionEnabled?: boolean | cdktn.IResolvable; 
   public get deletionProtectionEnabled() {
     return this.getBooleanAttribute('deletion_protection_enabled');
   }
@@ -332,7 +332,7 @@ export class Pinpointsmsvoicev2PhoneNumber extends cdktn.TerraformResource {
   }
 
   // force_disassociate - computed: false, optional: true, required: false
-  private _forceDisassociate?: boolean | cdktn.IResolvable;
+  private _forceDisassociate?: boolean | cdktn.IResolvable; 
   public get forceDisassociate() {
     return this.getBooleanAttribute('force_disassociate');
   }
@@ -353,7 +353,7 @@ export class Pinpointsmsvoicev2PhoneNumber extends cdktn.TerraformResource {
   }
 
   // iso_country_code - computed: false, optional: false, required: true
-  private _isoCountryCode?: string;
+  private _isoCountryCode?: string; 
   public get isoCountryCode() {
     return this.getStringAttribute('iso_country_code');
   }
@@ -366,7 +366,7 @@ export class Pinpointsmsvoicev2PhoneNumber extends cdktn.TerraformResource {
   }
 
   // message_type - computed: false, optional: false, required: true
-  private _messageType?: string;
+  private _messageType?: string; 
   public get messageType() {
     return this.getStringAttribute('message_type');
   }
@@ -384,7 +384,7 @@ export class Pinpointsmsvoicev2PhoneNumber extends cdktn.TerraformResource {
   }
 
   // number_capabilities - computed: false, optional: false, required: true
-  private _numberCapabilities?: string[];
+  private _numberCapabilities?: string[]; 
   public get numberCapabilities() {
     return cdktn.Fn.tolist(this.getListAttribute('number_capabilities'));
   }
@@ -397,7 +397,7 @@ export class Pinpointsmsvoicev2PhoneNumber extends cdktn.TerraformResource {
   }
 
   // number_type - computed: false, optional: false, required: true
-  private _numberType?: string;
+  private _numberType?: string; 
   public get numberType() {
     return this.getStringAttribute('number_type');
   }
@@ -410,7 +410,7 @@ export class Pinpointsmsvoicev2PhoneNumber extends cdktn.TerraformResource {
   }
 
   // opt_out_list_name - computed: true, optional: true, required: false
-  private _optOutListName?: string;
+  private _optOutListName?: string; 
   public get optOutListName() {
     return this.getStringAttribute('opt_out_list_name');
   }
@@ -431,7 +431,7 @@ export class Pinpointsmsvoicev2PhoneNumber extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -447,7 +447,7 @@ export class Pinpointsmsvoicev2PhoneNumber extends cdktn.TerraformResource {
   }
 
   // registration_id - computed: false, optional: true, required: false
-  private _registrationId?: string;
+  private _registrationId?: string; 
   public get registrationId() {
     return this.getStringAttribute('registration_id');
   }
@@ -463,7 +463,7 @@ export class Pinpointsmsvoicev2PhoneNumber extends cdktn.TerraformResource {
   }
 
   // self_managed_opt_outs_enabled - computed: true, optional: true, required: false
-  private _selfManagedOptOutsEnabled?: boolean | cdktn.IResolvable;
+  private _selfManagedOptOutsEnabled?: boolean | cdktn.IResolvable; 
   public get selfManagedOptOutsEnabled() {
     return this.getBooleanAttribute('self_managed_opt_outs_enabled');
   }
@@ -479,7 +479,7 @@ export class Pinpointsmsvoicev2PhoneNumber extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -501,7 +501,7 @@ export class Pinpointsmsvoicev2PhoneNumber extends cdktn.TerraformResource {
   }
 
   // two_way_channel_arn - computed: true, optional: true, required: false
-  private _twoWayChannelArn?: string;
+  private _twoWayChannelArn?: string; 
   public get twoWayChannelArn() {
     return this.getStringAttribute('two_way_channel_arn');
   }
@@ -517,7 +517,7 @@ export class Pinpointsmsvoicev2PhoneNumber extends cdktn.TerraformResource {
   }
 
   // two_way_channel_enabled - computed: true, optional: true, required: false
-  private _twoWayChannelEnabled?: boolean | cdktn.IResolvable;
+  private _twoWayChannelEnabled?: boolean | cdktn.IResolvable; 
   public get twoWayChannelEnabled() {
     return this.getBooleanAttribute('two_way_channel_enabled');
   }
@@ -533,7 +533,7 @@ export class Pinpointsmsvoicev2PhoneNumber extends cdktn.TerraformResource {
   }
 
   // two_way_channel_role - computed: true, optional: true, required: false
-  private _twoWayChannelRole?: string;
+  private _twoWayChannelRole?: string; 
   public get twoWayChannelRole() {
     return this.getStringAttribute('two_way_channel_role');
   }

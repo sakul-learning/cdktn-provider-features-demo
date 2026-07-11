@@ -151,7 +151,7 @@ export class DataAwsEc2LocalGatewayRouteTableFilterOutputReference extends cdktn
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -164,7 +164,7 @@ export class DataAwsEc2LocalGatewayRouteTableFilterOutputReference extends cdktn
   }
 
   // values - computed: false, optional: false, required: true
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -275,7 +275,7 @@ export class DataAwsEc2LocalGatewayRouteTableTimeoutsOutputReference extends cdk
   }
 
   // read - computed: false, optional: true, required: false
-  private _read?: string;
+  private _read?: string; 
   public get read() {
     return this.getStringAttribute('read');
   }
@@ -357,7 +357,7 @@ export class DataAwsEc2LocalGatewayRouteTable extends cdktn.TerraformDataSource 
   // ==========
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -373,7 +373,7 @@ export class DataAwsEc2LocalGatewayRouteTable extends cdktn.TerraformDataSource 
   }
 
   // local_gateway_id - computed: true, optional: true, required: false
-  private _localGatewayId?: string;
+  private _localGatewayId?: string; 
   public get localGatewayId() {
     return this.getStringAttribute('local_gateway_id');
   }
@@ -389,7 +389,7 @@ export class DataAwsEc2LocalGatewayRouteTable extends cdktn.TerraformDataSource 
   }
 
   // local_gateway_route_table_id - computed: true, optional: true, required: false
-  private _localGatewayRouteTableId?: string;
+  private _localGatewayRouteTableId?: string; 
   public get localGatewayRouteTableId() {
     return this.getStringAttribute('local_gateway_route_table_id');
   }
@@ -405,7 +405,7 @@ export class DataAwsEc2LocalGatewayRouteTable extends cdktn.TerraformDataSource 
   }
 
   // outpost_arn - computed: true, optional: true, required: false
-  private _outpostArn?: string;
+  private _outpostArn?: string; 
   public get outpostArn() {
     return this.getStringAttribute('outpost_arn');
   }
@@ -421,7 +421,7 @@ export class DataAwsEc2LocalGatewayRouteTable extends cdktn.TerraformDataSource 
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -437,7 +437,7 @@ export class DataAwsEc2LocalGatewayRouteTable extends cdktn.TerraformDataSource 
   }
 
   // state - computed: true, optional: true, required: false
-  private _state?: string;
+  private _state?: string; 
   public get state() {
     return this.getStringAttribute('state');
   }
@@ -453,7 +453,7 @@ export class DataAwsEc2LocalGatewayRouteTable extends cdktn.TerraformDataSource 
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

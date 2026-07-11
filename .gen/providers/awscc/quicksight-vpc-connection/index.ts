@@ -241,7 +241,7 @@ export class QuicksightVpcConnectionTagsOutputReference extends cdktn.ComplexObj
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -257,7 +257,7 @@ export class QuicksightVpcConnectionTagsOutputReference extends cdktn.ComplexObj
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -364,7 +364,7 @@ export class QuicksightVpcConnection extends cdktn.TerraformResource {
   }
 
   // availability_status - computed: true, optional: true, required: false
-  private _availabilityStatus?: string;
+  private _availabilityStatus?: string; 
   public get availabilityStatus() {
     return this.getStringAttribute('availability_status');
   }
@@ -380,7 +380,7 @@ export class QuicksightVpcConnection extends cdktn.TerraformResource {
   }
 
   // aws_account_id - computed: true, optional: true, required: false
-  private _awsAccountId?: string;
+  private _awsAccountId?: string; 
   public get awsAccountId() {
     return this.getStringAttribute('aws_account_id');
   }
@@ -401,7 +401,7 @@ export class QuicksightVpcConnection extends cdktn.TerraformResource {
   }
 
   // dns_resolvers - computed: true, optional: true, required: false
-  private _dnsResolvers?: string[];
+  private _dnsResolvers?: string[]; 
   public get dnsResolvers() {
     return this.getListAttribute('dns_resolvers');
   }
@@ -427,7 +427,7 @@ export class QuicksightVpcConnection extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -449,7 +449,7 @@ export class QuicksightVpcConnection extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -465,7 +465,7 @@ export class QuicksightVpcConnection extends cdktn.TerraformResource {
   }
 
   // security_group_ids - computed: true, optional: true, required: false
-  private _securityGroupIds?: string[];
+  private _securityGroupIds?: string[]; 
   public get securityGroupIds() {
     return this.getListAttribute('security_group_ids');
   }
@@ -486,7 +486,7 @@ export class QuicksightVpcConnection extends cdktn.TerraformResource {
   }
 
   // subnet_ids - computed: true, optional: true, required: false
-  private _subnetIds?: string[];
+  private _subnetIds?: string[]; 
   public get subnetIds() {
     return this.getListAttribute('subnet_ids');
   }
@@ -518,7 +518,7 @@ export class QuicksightVpcConnection extends cdktn.TerraformResource {
   }
 
   // vpc_connection_id - computed: true, optional: true, required: false
-  private _vpcConnectionId?: string;
+  private _vpcConnectionId?: string; 
   public get vpcConnectionId() {
     return this.getStringAttribute('vpc_connection_id');
   }

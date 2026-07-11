@@ -91,7 +91,7 @@ export class DataAwsServicecatalogappregistryAttributeGroup extends cdktn.Terraf
   // ==========
 
   // arn - computed: true, optional: true, required: false
-  private _arn?: string;
+  private _arn?: string; 
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -117,7 +117,7 @@ export class DataAwsServicecatalogappregistryAttributeGroup extends cdktn.Terraf
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -133,7 +133,7 @@ export class DataAwsServicecatalogappregistryAttributeGroup extends cdktn.Terraf
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -149,7 +149,7 @@ export class DataAwsServicecatalogappregistryAttributeGroup extends cdktn.Terraf
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

@@ -168,7 +168,7 @@ export class IotsitewisePortalAlarmsOutputReference extends cdktn.ComplexObject 
   }
 
   // alarm_role_arn - computed: true, optional: true, required: false
-  private _alarmRoleArn?: string;
+  private _alarmRoleArn?: string; 
   public get alarmRoleArn() {
     return this.getStringAttribute('alarm_role_arn');
   }
@@ -184,7 +184,7 @@ export class IotsitewisePortalAlarmsOutputReference extends cdktn.ComplexObject 
   }
 
   // notification_lambda_arn - computed: true, optional: true, required: false
-  private _notificationLambdaArn?: string;
+  private _notificationLambdaArn?: string; 
   public get notificationLambdaArn() {
     return this.getStringAttribute('notification_lambda_arn');
   }
@@ -281,7 +281,7 @@ export class IotsitewisePortalPortalTypeConfigurationOutputReference extends cdk
   }
 
   // portal_tools - computed: true, optional: true, required: false
-  private _portalTools?: string[];
+  private _portalTools?: string[]; 
   public get portalTools() {
     return this.getListAttribute('portal_tools');
   }
@@ -413,7 +413,7 @@ export class IotsitewisePortalTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -429,7 +429,7 @@ export class IotsitewisePortalTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -553,7 +553,7 @@ export class IotsitewisePortal extends cdktn.TerraformResource {
   }
 
   // notification_sender_email - computed: true, optional: true, required: false
-  private _notificationSenderEmail?: string;
+  private _notificationSenderEmail?: string; 
   public get notificationSenderEmail() {
     return this.getStringAttribute('notification_sender_email');
   }
@@ -574,7 +574,7 @@ export class IotsitewisePortal extends cdktn.TerraformResource {
   }
 
   // portal_auth_mode - computed: true, optional: true, required: false
-  private _portalAuthMode?: string;
+  private _portalAuthMode?: string; 
   public get portalAuthMode() {
     return this.getStringAttribute('portal_auth_mode');
   }
@@ -595,7 +595,7 @@ export class IotsitewisePortal extends cdktn.TerraformResource {
   }
 
   // portal_contact_email - computed: false, optional: false, required: true
-  private _portalContactEmail?: string;
+  private _portalContactEmail?: string; 
   public get portalContactEmail() {
     return this.getStringAttribute('portal_contact_email');
   }
@@ -608,7 +608,7 @@ export class IotsitewisePortal extends cdktn.TerraformResource {
   }
 
   // portal_description - computed: true, optional: true, required: false
-  private _portalDescription?: string;
+  private _portalDescription?: string; 
   public get portalDescription() {
     return this.getStringAttribute('portal_description');
   }
@@ -629,7 +629,7 @@ export class IotsitewisePortal extends cdktn.TerraformResource {
   }
 
   // portal_name - computed: false, optional: false, required: true
-  private _portalName?: string;
+  private _portalName?: string; 
   public get portalName() {
     return this.getStringAttribute('portal_name');
   }
@@ -647,7 +647,7 @@ export class IotsitewisePortal extends cdktn.TerraformResource {
   }
 
   // portal_type - computed: true, optional: true, required: false
-  private _portalType?: string;
+  private _portalType?: string; 
   public get portalType() {
     return this.getStringAttribute('portal_type');
   }
@@ -679,7 +679,7 @@ export class IotsitewisePortal extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }

@@ -126,7 +126,7 @@ export class WorkspaceswebBrowserSettingsTagsOutputReference extends cdktn.Compl
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -142,7 +142,7 @@ export class WorkspaceswebBrowserSettingsTagsOutputReference extends cdktn.Compl
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -290,7 +290,7 @@ export class WorkspaceswebBrowserSettingsWebContentFilteringPolicyOutputReferenc
   }
 
   // allowed_urls - computed: true, optional: true, required: false
-  private _allowedUrls?: string[];
+  private _allowedUrls?: string[]; 
   public get allowedUrls() {
     return this.getListAttribute('allowed_urls');
   }
@@ -306,7 +306,7 @@ export class WorkspaceswebBrowserSettingsWebContentFilteringPolicyOutputReferenc
   }
 
   // blocked_categories - computed: true, optional: true, required: false
-  private _blockedCategories?: string[];
+  private _blockedCategories?: string[]; 
   public get blockedCategories() {
     return this.getListAttribute('blocked_categories');
   }
@@ -322,7 +322,7 @@ export class WorkspaceswebBrowserSettingsWebContentFilteringPolicyOutputReferenc
   }
 
   // blocked_urls - computed: true, optional: true, required: false
-  private _blockedUrls?: string[];
+  private _blockedUrls?: string[]; 
   public get blockedUrls() {
     return this.getListAttribute('blocked_urls');
   }
@@ -400,7 +400,7 @@ export class WorkspaceswebBrowserSettings extends cdktn.TerraformResource {
   // ==========
 
   // additional_encryption_context - computed: true, optional: true, required: false
-  private _additionalEncryptionContext?: { [key: string]: string };
+  private _additionalEncryptionContext?: { [key: string]: string }; 
   public get additionalEncryptionContext() {
     return this.getStringMapAttribute('additional_encryption_context');
   }
@@ -421,7 +421,7 @@ export class WorkspaceswebBrowserSettings extends cdktn.TerraformResource {
   }
 
   // browser_policy - computed: true, optional: true, required: false
-  private _browserPolicy?: string;
+  private _browserPolicy?: string; 
   public get browserPolicy() {
     return this.getStringAttribute('browser_policy');
   }
@@ -442,7 +442,7 @@ export class WorkspaceswebBrowserSettings extends cdktn.TerraformResource {
   }
 
   // customer_managed_key - computed: true, optional: true, required: false
-  private _customerManagedKey?: string;
+  private _customerManagedKey?: string; 
   public get customerManagedKey() {
     return this.getStringAttribute('customer_managed_key');
   }

@@ -115,7 +115,7 @@ export class ObservabilityadminTelemetryPipelineConfigurationOutputReference ext
   }
 
   // body - computed: false, optional: false, required: true
-  private _body?: string;
+  private _body?: string; 
   public get body() {
     return this.getStringAttribute('body');
   }
@@ -266,7 +266,7 @@ export class ObservabilityadminTelemetryPipelineTimeoutsOutputReference extends 
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -282,7 +282,7 @@ export class ObservabilityadminTelemetryPipelineTimeoutsOutputReference extends 
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -298,7 +298,7 @@ export class ObservabilityadminTelemetryPipelineTimeoutsOutputReference extends 
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -381,7 +381,7 @@ export class ObservabilityadminTelemetryPipeline extends cdktn.TerraformResource
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -394,7 +394,7 @@ export class ObservabilityadminTelemetryPipeline extends cdktn.TerraformResource
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -410,7 +410,7 @@ export class ObservabilityadminTelemetryPipeline extends cdktn.TerraformResource
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

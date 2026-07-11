@@ -67,7 +67,7 @@ export class EphemeralAwsSsmParameter extends cdktn.TerraformEphemeralResource {
   // ==========
 
   // arn - computed: false, optional: false, required: true
-  private _arn?: string;
+  private _arn?: string; 
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -85,7 +85,7 @@ export class EphemeralAwsSsmParameter extends cdktn.TerraformEphemeralResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -116,7 +116,7 @@ export class EphemeralAwsSsmParameter extends cdktn.TerraformEphemeralResource {
   }
 
   // with_decryption - computed: true, optional: true, required: false
-  private _withDecryption?: boolean | cdktn.IResolvable;
+  private _withDecryption?: boolean | cdktn.IResolvable; 
   public get withDecryption() {
     return this.getBooleanAttribute('with_decryption');
   }

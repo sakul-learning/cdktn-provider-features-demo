@@ -172,7 +172,7 @@ export class DynamodbTableExportIncrementalExportSpecificationOutputReference ex
   }
 
   // export_from_time - computed: true, optional: true, required: false
-  private _exportFromTime?: string;
+  private _exportFromTime?: string; 
   public get exportFromTime() {
     return this.getStringAttribute('export_from_time');
   }
@@ -188,7 +188,7 @@ export class DynamodbTableExportIncrementalExportSpecificationOutputReference ex
   }
 
   // export_to_time - computed: true, optional: true, required: false
-  private _exportToTime?: string;
+  private _exportToTime?: string; 
   public get exportToTime() {
     return this.getStringAttribute('export_to_time');
   }
@@ -204,7 +204,7 @@ export class DynamodbTableExportIncrementalExportSpecificationOutputReference ex
   }
 
   // export_view_type - computed: true, optional: true, required: false
-  private _exportViewType?: string;
+  private _exportViewType?: string; 
   public get exportViewType() {
     return this.getStringAttribute('export_view_type');
   }
@@ -315,7 +315,7 @@ export class DynamodbTableExportTimeoutsOutputReference extends cdktn.ComplexObj
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -331,7 +331,7 @@ export class DynamodbTableExportTimeoutsOutputReference extends cdktn.ComplexObj
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -432,7 +432,7 @@ export class DynamodbTableExport extends cdktn.TerraformResource {
   }
 
   // export_format - computed: false, optional: true, required: false
-  private _exportFormat?: string;
+  private _exportFormat?: string; 
   public get exportFormat() {
     return this.getStringAttribute('export_format');
   }
@@ -453,7 +453,7 @@ export class DynamodbTableExport extends cdktn.TerraformResource {
   }
 
   // export_time - computed: true, optional: true, required: false
-  private _exportTime?: string;
+  private _exportTime?: string; 
   public get exportTime() {
     return this.getStringAttribute('export_time');
   }
@@ -469,7 +469,7 @@ export class DynamodbTableExport extends cdktn.TerraformResource {
   }
 
   // export_type - computed: true, optional: true, required: false
-  private _exportType?: string;
+  private _exportType?: string; 
   public get exportType() {
     return this.getStringAttribute('export_type');
   }
@@ -485,7 +485,7 @@ export class DynamodbTableExport extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -511,7 +511,7 @@ export class DynamodbTableExport extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -527,7 +527,7 @@ export class DynamodbTableExport extends cdktn.TerraformResource {
   }
 
   // s3_bucket - computed: false, optional: false, required: true
-  private _s3Bucket?: string;
+  private _s3Bucket?: string; 
   public get s3Bucket() {
     return this.getStringAttribute('s3_bucket');
   }
@@ -540,7 +540,7 @@ export class DynamodbTableExport extends cdktn.TerraformResource {
   }
 
   // s3_bucket_owner - computed: true, optional: true, required: false
-  private _s3BucketOwner?: string;
+  private _s3BucketOwner?: string; 
   public get s3BucketOwner() {
     return this.getStringAttribute('s3_bucket_owner');
   }
@@ -556,7 +556,7 @@ export class DynamodbTableExport extends cdktn.TerraformResource {
   }
 
   // s3_prefix - computed: true, optional: true, required: false
-  private _s3Prefix?: string;
+  private _s3Prefix?: string; 
   public get s3Prefix() {
     return this.getStringAttribute('s3_prefix');
   }
@@ -572,7 +572,7 @@ export class DynamodbTableExport extends cdktn.TerraformResource {
   }
 
   // s3_sse_algorithm - computed: true, optional: true, required: false
-  private _s3SseAlgorithm?: string;
+  private _s3SseAlgorithm?: string; 
   public get s3SseAlgorithm() {
     return this.getStringAttribute('s3_sse_algorithm');
   }
@@ -588,7 +588,7 @@ export class DynamodbTableExport extends cdktn.TerraformResource {
   }
 
   // s3_sse_kms_key_id - computed: false, optional: true, required: false
-  private _s3SseKmsKeyId?: string;
+  private _s3SseKmsKeyId?: string; 
   public get s3SseKmsKeyId() {
     return this.getStringAttribute('s3_sse_kms_key_id');
   }
@@ -609,7 +609,7 @@ export class DynamodbTableExport extends cdktn.TerraformResource {
   }
 
   // table_arn - computed: false, optional: false, required: true
-  private _tableArn?: string;
+  private _tableArn?: string; 
   public get tableArn() {
     return this.getStringAttribute('table_arn');
   }

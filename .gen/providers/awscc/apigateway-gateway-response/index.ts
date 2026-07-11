@@ -101,7 +101,7 @@ export class ApigatewayGatewayResponse extends cdktn.TerraformResource {
   }
 
   // response_parameters - computed: true, optional: true, required: false
-  private _responseParameters?: { [key: string]: string };
+  private _responseParameters?: { [key: string]: string }; 
   public get responseParameters() {
     return this.getStringMapAttribute('response_parameters');
   }
@@ -117,7 +117,7 @@ export class ApigatewayGatewayResponse extends cdktn.TerraformResource {
   }
 
   // response_templates - computed: true, optional: true, required: false
-  private _responseTemplates?: { [key: string]: string };
+  private _responseTemplates?: { [key: string]: string }; 
   public get responseTemplates() {
     return this.getStringMapAttribute('response_templates');
   }
@@ -133,7 +133,7 @@ export class ApigatewayGatewayResponse extends cdktn.TerraformResource {
   }
 
   // response_type - computed: false, optional: false, required: true
-  private _responseType?: string;
+  private _responseType?: string; 
   public get responseType() {
     return this.getStringAttribute('response_type');
   }
@@ -146,7 +146,7 @@ export class ApigatewayGatewayResponse extends cdktn.TerraformResource {
   }
 
   // rest_api_id - computed: false, optional: false, required: true
-  private _restApiId?: string;
+  private _restApiId?: string; 
   public get restApiId() {
     return this.getStringAttribute('rest_api_id');
   }
@@ -159,7 +159,7 @@ export class ApigatewayGatewayResponse extends cdktn.TerraformResource {
   }
 
   // status_code - computed: true, optional: true, required: false
-  private _statusCode?: string;
+  private _statusCode?: string; 
   public get statusCode() {
     return this.getStringAttribute('status_code');
   }

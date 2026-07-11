@@ -98,7 +98,7 @@ export class RedshiftNamespaceRegistration extends cdktn.TerraformResource {
   // ==========
 
   // consumer_identifier - computed: false, optional: false, required: true
-  private _consumerIdentifier?: string;
+  private _consumerIdentifier?: string; 
   public get consumerIdentifier() {
     return this.getStringAttribute('consumer_identifier');
   }
@@ -111,7 +111,7 @@ export class RedshiftNamespaceRegistration extends cdktn.TerraformResource {
   }
 
   // namespace_type - computed: false, optional: false, required: true
-  private _namespaceType?: string;
+  private _namespaceType?: string; 
   public get namespaceType() {
     return this.getStringAttribute('namespace_type');
   }
@@ -124,7 +124,7 @@ export class RedshiftNamespaceRegistration extends cdktn.TerraformResource {
   }
 
   // provisioned_cluster_identifier - computed: false, optional: true, required: false
-  private _provisionedClusterIdentifier?: string;
+  private _provisionedClusterIdentifier?: string; 
   public get provisionedClusterIdentifier() {
     return this.getStringAttribute('provisioned_cluster_identifier');
   }
@@ -140,7 +140,7 @@ export class RedshiftNamespaceRegistration extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -156,7 +156,7 @@ export class RedshiftNamespaceRegistration extends cdktn.TerraformResource {
   }
 
   // serverless_namespace_identifier - computed: false, optional: true, required: false
-  private _serverlessNamespaceIdentifier?: string;
+  private _serverlessNamespaceIdentifier?: string; 
   public get serverlessNamespaceIdentifier() {
     return this.getStringAttribute('serverless_namespace_identifier');
   }
@@ -172,7 +172,7 @@ export class RedshiftNamespaceRegistration extends cdktn.TerraformResource {
   }
 
   // serverless_workgroup_identifier - computed: false, optional: true, required: false
-  private _serverlessWorkgroupIdentifier?: string;
+  private _serverlessWorkgroupIdentifier?: string; 
   public get serverlessWorkgroupIdentifier() {
     return this.getStringAttribute('serverless_workgroup_identifier');
   }

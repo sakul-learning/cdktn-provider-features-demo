@@ -116,7 +116,7 @@ export class LambdaInvocation extends cdktn.TerraformResource {
   // ==========
 
   // function_name - computed: false, optional: false, required: true
-  private _functionName?: string;
+  private _functionName?: string; 
   public get functionName() {
     return this.getStringAttribute('function_name');
   }
@@ -129,7 +129,7 @@ export class LambdaInvocation extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -145,7 +145,7 @@ export class LambdaInvocation extends cdktn.TerraformResource {
   }
 
   // input - computed: false, optional: false, required: true
-  private _input?: string;
+  private _input?: string; 
   public get input() {
     return this.getStringAttribute('input');
   }
@@ -158,7 +158,7 @@ export class LambdaInvocation extends cdktn.TerraformResource {
   }
 
   // lifecycle_scope - computed: false, optional: true, required: false
-  private _lifecycleScope?: string;
+  private _lifecycleScope?: string; 
   public get lifecycleScope() {
     return this.getStringAttribute('lifecycle_scope');
   }
@@ -174,7 +174,7 @@ export class LambdaInvocation extends cdktn.TerraformResource {
   }
 
   // qualifier - computed: false, optional: true, required: false
-  private _qualifier?: string;
+  private _qualifier?: string; 
   public get qualifier() {
     return this.getStringAttribute('qualifier');
   }
@@ -190,7 +190,7 @@ export class LambdaInvocation extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -211,7 +211,7 @@ export class LambdaInvocation extends cdktn.TerraformResource {
   }
 
   // tenant_id - computed: false, optional: true, required: false
-  private _tenantId?: string;
+  private _tenantId?: string; 
   public get tenantId() {
     return this.getStringAttribute('tenant_id');
   }
@@ -227,7 +227,7 @@ export class LambdaInvocation extends cdktn.TerraformResource {
   }
 
   // terraform_key - computed: false, optional: true, required: false
-  private _terraformKey?: string;
+  private _terraformKey?: string; 
   public get terraformKey() {
     return this.getStringAttribute('terraform_key');
   }
@@ -243,7 +243,7 @@ export class LambdaInvocation extends cdktn.TerraformResource {
   }
 
   // triggers - computed: false, optional: true, required: false
-  private _triggers?: { [key: string]: string };
+  private _triggers?: { [key: string]: string }; 
   public get triggers() {
     return this.getStringMapAttribute('triggers');
   }

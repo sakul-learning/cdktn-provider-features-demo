@@ -115,7 +115,7 @@ export class VpclatticeRuleActionFixedResponseOutputReference extends cdktn.Comp
   }
 
   // status_code - computed: true, optional: true, required: false
-  private _statusCode?: number;
+  private _statusCode?: number; 
   public get statusCode() {
     return this.getNumberAttribute('status_code');
   }
@@ -228,7 +228,7 @@ export class VpclatticeRuleActionForwardTargetGroupsOutputReference extends cdkt
   }
 
   // target_group_identifier - computed: true, optional: true, required: false
-  private _targetGroupIdentifier?: string;
+  private _targetGroupIdentifier?: string; 
   public get targetGroupIdentifier() {
     return this.getStringAttribute('target_group_identifier');
   }
@@ -244,7 +244,7 @@ export class VpclatticeRuleActionForwardTargetGroupsOutputReference extends cdkt
   }
 
   // weight - computed: true, optional: true, required: false
-  private _weight?: number;
+  private _weight?: number; 
   public get weight() {
     return this.getNumberAttribute('weight');
   }
@@ -613,7 +613,7 @@ export class VpclatticeRuleMatchHttpMatchHeaderMatchesMatchOutputReference exten
   }
 
   // contains - computed: true, optional: true, required: false
-  private _contains?: string;
+  private _contains?: string; 
   public get contains() {
     return this.getStringAttribute('contains');
   }
@@ -629,7 +629,7 @@ export class VpclatticeRuleMatchHttpMatchHeaderMatchesMatchOutputReference exten
   }
 
   // exact - computed: true, optional: true, required: false
-  private _exact?: string;
+  private _exact?: string; 
   public get exact() {
     return this.getStringAttribute('exact');
   }
@@ -645,7 +645,7 @@ export class VpclatticeRuleMatchHttpMatchHeaderMatchesMatchOutputReference exten
   }
 
   // prefix - computed: true, optional: true, required: false
-  private _prefix?: string;
+  private _prefix?: string; 
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -775,7 +775,7 @@ export class VpclatticeRuleMatchHttpMatchHeaderMatchesOutputReference extends cd
   }
 
   // case_sensitive - computed: true, optional: true, required: false
-  private _caseSensitive?: boolean | cdktn.IResolvable;
+  private _caseSensitive?: boolean | cdktn.IResolvable; 
   public get caseSensitive() {
     return this.getBooleanAttribute('case_sensitive');
   }
@@ -807,7 +807,7 @@ export class VpclatticeRuleMatchHttpMatchHeaderMatchesOutputReference extends cd
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -938,7 +938,7 @@ export class VpclatticeRuleMatchHttpMatchPathMatchMatchOutputReference extends c
   }
 
   // exact - computed: true, optional: true, required: false
-  private _exact?: string;
+  private _exact?: string; 
   public get exact() {
     return this.getStringAttribute('exact');
   }
@@ -954,7 +954,7 @@ export class VpclatticeRuleMatchHttpMatchPathMatchMatchOutputReference extends c
   }
 
   // prefix - computed: true, optional: true, required: false
-  private _prefix?: string;
+  private _prefix?: string; 
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -1065,7 +1065,7 @@ export class VpclatticeRuleMatchHttpMatchPathMatchOutputReference extends cdktn.
   }
 
   // case_sensitive - computed: true, optional: true, required: false
-  private _caseSensitive?: boolean | cdktn.IResolvable;
+  private _caseSensitive?: boolean | cdktn.IResolvable; 
   public get caseSensitive() {
     return this.getBooleanAttribute('case_sensitive');
   }
@@ -1225,7 +1225,7 @@ export class VpclatticeRuleMatchHttpMatchOutputReference extends cdktn.ComplexOb
   }
 
   // method - computed: true, optional: true, required: false
-  private _method?: string;
+  private _method?: string; 
   public get method() {
     return this.getStringAttribute('method');
   }
@@ -1445,7 +1445,7 @@ export class VpclatticeRuleTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1461,7 +1461,7 @@ export class VpclatticeRuleTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1584,7 +1584,7 @@ export class VpclatticeRule extends cdktn.TerraformResource {
   }
 
   // listener_identifier - computed: true, optional: true, required: false
-  private _listenerIdentifier?: string;
+  private _listenerIdentifier?: string; 
   public get listenerIdentifier() {
     return this.getStringAttribute('listener_identifier');
   }
@@ -1613,7 +1613,7 @@ export class VpclatticeRule extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1629,7 +1629,7 @@ export class VpclatticeRule extends cdktn.TerraformResource {
   }
 
   // priority - computed: false, optional: false, required: true
-  private _priority?: number;
+  private _priority?: number; 
   public get priority() {
     return this.getNumberAttribute('priority');
   }
@@ -1647,7 +1647,7 @@ export class VpclatticeRule extends cdktn.TerraformResource {
   }
 
   // service_identifier - computed: true, optional: true, required: false
-  private _serviceIdentifier?: string;
+  private _serviceIdentifier?: string; 
   public get serviceIdentifier() {
     return this.getStringAttribute('service_identifier');
   }

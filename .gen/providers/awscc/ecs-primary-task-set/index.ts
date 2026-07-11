@@ -87,7 +87,7 @@ export class EcsPrimaryTaskSet extends cdktn.TerraformResource {
   // ==========
 
   // cluster - computed: false, optional: false, required: true
-  private _cluster?: string;
+  private _cluster?: string; 
   public get cluster() {
     return this.getStringAttribute('cluster');
   }
@@ -105,7 +105,7 @@ export class EcsPrimaryTaskSet extends cdktn.TerraformResource {
   }
 
   // service - computed: false, optional: false, required: true
-  private _service?: string;
+  private _service?: string; 
   public get service() {
     return this.getStringAttribute('service');
   }
@@ -118,7 +118,7 @@ export class EcsPrimaryTaskSet extends cdktn.TerraformResource {
   }
 
   // task_set_id - computed: false, optional: false, required: true
-  private _taskSetId?: string;
+  private _taskSetId?: string; 
   public get taskSetId() {
     return this.getStringAttribute('task_set_id');
   }

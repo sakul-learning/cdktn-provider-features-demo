@@ -179,7 +179,7 @@ export class DataAwsOdbCloudExadataInfrastructures extends cdktn.TerraformDataSo
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

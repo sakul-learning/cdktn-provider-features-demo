@@ -104,7 +104,7 @@ export class ServicecatalogOrganizationsAccessTimeoutsOutputReference extends cd
   }
 
   // read - computed: false, optional: true, required: false
-  private _read?: string;
+  private _read?: string; 
   public get read() {
     return this.getStringAttribute('read');
   }
@@ -180,7 +180,7 @@ export class ServicecatalogOrganizationsAccess extends cdktn.TerraformResource {
   // ==========
 
   // enabled - computed: false, optional: false, required: true
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -193,7 +193,7 @@ export class ServicecatalogOrganizationsAccess extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }

@@ -225,8 +225,8 @@ export interface Ec2InstanceConfig extends cdktn.TerraformMetaArguments {
   readonly ssmAssociations?: Ec2InstanceSsmAssociations[] | cdktn.IResolvable;
   /**
   * [EC2-VPC] The ID of the subnet to launch the instance into.
-  *
-  *
+  * 
+  * 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_instance#subnet_id Ec2Instance#subnet_id}
   */
@@ -451,7 +451,7 @@ export class Ec2InstanceBlockDeviceMappingsEbsOutputReference extends cdktn.Comp
   }
 
   // delete_on_termination - computed: true, optional: true, required: false
-  private _deleteOnTermination?: boolean | cdktn.IResolvable;
+  private _deleteOnTermination?: boolean | cdktn.IResolvable; 
   public get deleteOnTermination() {
     return this.getBooleanAttribute('delete_on_termination');
   }
@@ -467,7 +467,7 @@ export class Ec2InstanceBlockDeviceMappingsEbsOutputReference extends cdktn.Comp
   }
 
   // encrypted - computed: true, optional: true, required: false
-  private _encrypted?: boolean | cdktn.IResolvable;
+  private _encrypted?: boolean | cdktn.IResolvable; 
   public get encrypted() {
     return this.getBooleanAttribute('encrypted');
   }
@@ -483,7 +483,7 @@ export class Ec2InstanceBlockDeviceMappingsEbsOutputReference extends cdktn.Comp
   }
 
   // iops - computed: true, optional: true, required: false
-  private _iops?: number;
+  private _iops?: number; 
   public get iops() {
     return this.getNumberAttribute('iops');
   }
@@ -499,7 +499,7 @@ export class Ec2InstanceBlockDeviceMappingsEbsOutputReference extends cdktn.Comp
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -515,7 +515,7 @@ export class Ec2InstanceBlockDeviceMappingsEbsOutputReference extends cdktn.Comp
   }
 
   // snapshot_id - computed: true, optional: true, required: false
-  private _snapshotId?: string;
+  private _snapshotId?: string; 
   public get snapshotId() {
     return this.getStringAttribute('snapshot_id');
   }
@@ -531,7 +531,7 @@ export class Ec2InstanceBlockDeviceMappingsEbsOutputReference extends cdktn.Comp
   }
 
   // volume_size - computed: true, optional: true, required: false
-  private _volumeSize?: number;
+  private _volumeSize?: number; 
   public get volumeSize() {
     return this.getNumberAttribute('volume_size');
   }
@@ -547,7 +547,7 @@ export class Ec2InstanceBlockDeviceMappingsEbsOutputReference extends cdktn.Comp
   }
 
   // volume_type - computed: true, optional: true, required: false
-  private _volumeType?: string;
+  private _volumeType?: string; 
   public get volumeType() {
     return this.getStringAttribute('volume_type');
   }
@@ -698,7 +698,7 @@ export class Ec2InstanceBlockDeviceMappingsOutputReference extends cdktn.Complex
   }
 
   // device_name - computed: true, optional: true, required: false
-  private _deviceName?: string;
+  private _deviceName?: string; 
   public get deviceName() {
     return this.getStringAttribute('device_name');
   }
@@ -730,7 +730,7 @@ export class Ec2InstanceBlockDeviceMappingsOutputReference extends cdktn.Complex
   }
 
   // no_device - computed: true, optional: true, required: false
-  private _noDevice?: string;
+  private _noDevice?: string; 
   public get noDevice() {
     return this.getStringAttribute('no_device');
   }
@@ -746,7 +746,7 @@ export class Ec2InstanceBlockDeviceMappingsOutputReference extends cdktn.Complex
   }
 
   // virtual_name - computed: true, optional: true, required: false
-  private _virtualName?: string;
+  private _virtualName?: string; 
   public get virtualName() {
     return this.getStringAttribute('virtual_name');
   }
@@ -877,7 +877,7 @@ export class Ec2InstanceCpuOptionsOutputReference extends cdktn.ComplexObject {
   }
 
   // core_count - computed: true, optional: true, required: false
-  private _coreCount?: number;
+  private _coreCount?: number; 
   public get coreCount() {
     return this.getNumberAttribute('core_count');
   }
@@ -893,7 +893,7 @@ export class Ec2InstanceCpuOptionsOutputReference extends cdktn.ComplexObject {
   }
 
   // threads_per_core - computed: true, optional: true, required: false
-  private _threadsPerCore?: number;
+  private _threadsPerCore?: number; 
   public get threadsPerCore() {
     return this.getNumberAttribute('threads_per_core');
   }
@@ -987,7 +987,7 @@ export class Ec2InstanceCreditSpecificationOutputReference extends cdktn.Complex
   }
 
   // cpu_credits - computed: true, optional: true, required: false
-  private _cpuCredits?: string;
+  private _cpuCredits?: string; 
   public get cpuCredits() {
     return this.getStringAttribute('cpu_credits');
   }
@@ -1085,7 +1085,7 @@ export class Ec2InstanceElasticGpuSpecificationsOutputReference extends cdktn.Co
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -1222,7 +1222,7 @@ export class Ec2InstanceElasticInferenceAcceleratorsOutputReference extends cdkt
   }
 
   // count - computed: true, optional: true, required: false
-  private _count?: number;
+  private _count?: number; 
   public get count() {
     return this.getNumberAttribute('count');
   }
@@ -1238,7 +1238,7 @@ export class Ec2InstanceElasticInferenceAcceleratorsOutputReference extends cdkt
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -1354,7 +1354,7 @@ export class Ec2InstanceEnclaveOptionsOutputReference extends cdktn.ComplexObjec
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -1450,7 +1450,7 @@ export class Ec2InstanceHibernationOptionsOutputReference extends cdktn.ComplexO
   }
 
   // configured - computed: true, optional: true, required: false
-  private _configured?: boolean | cdktn.IResolvable;
+  private _configured?: boolean | cdktn.IResolvable; 
   public get configured() {
     return this.getBooleanAttribute('configured');
   }
@@ -1548,7 +1548,7 @@ export class Ec2InstanceIpv6AddressesOutputReference extends cdktn.ComplexObject
   }
 
   // ipv_6_address - computed: true, optional: true, required: false
-  private _ipv6Address?: string;
+  private _ipv6Address?: string; 
   public get ipv6Address() {
     return this.getStringAttribute('ipv_6_address');
   }
@@ -1702,7 +1702,7 @@ export class Ec2InstanceLaunchTemplateOutputReference extends cdktn.ComplexObjec
   }
 
   // launch_template_id - computed: true, optional: true, required: false
-  private _launchTemplateId?: string;
+  private _launchTemplateId?: string; 
   public get launchTemplateId() {
     return this.getStringAttribute('launch_template_id');
   }
@@ -1718,7 +1718,7 @@ export class Ec2InstanceLaunchTemplateOutputReference extends cdktn.ComplexObjec
   }
 
   // launch_template_name - computed: true, optional: true, required: false
-  private _launchTemplateName?: string;
+  private _launchTemplateName?: string; 
   public get launchTemplateName() {
     return this.getStringAttribute('launch_template_name');
   }
@@ -1734,7 +1734,7 @@ export class Ec2InstanceLaunchTemplateOutputReference extends cdktn.ComplexObjec
   }
 
   // version - computed: true, optional: true, required: false
-  private _version?: string;
+  private _version?: string; 
   public get version() {
     return this.getStringAttribute('version');
   }
@@ -1832,7 +1832,7 @@ export class Ec2InstanceLicenseSpecificationsOutputReference extends cdktn.Compl
   }
 
   // license_configuration_arn - computed: true, optional: true, required: false
-  private _licenseConfigurationArn?: string;
+  private _licenseConfigurationArn?: string; 
   public get licenseConfigurationArn() {
     return this.getStringAttribute('license_configuration_arn');
   }
@@ -2024,7 +2024,7 @@ export class Ec2InstanceMetadataOptionsOutputReference extends cdktn.ComplexObje
   }
 
   // http_endpoint - computed: true, optional: true, required: false
-  private _httpEndpoint?: string;
+  private _httpEndpoint?: string; 
   public get httpEndpoint() {
     return this.getStringAttribute('http_endpoint');
   }
@@ -2040,7 +2040,7 @@ export class Ec2InstanceMetadataOptionsOutputReference extends cdktn.ComplexObje
   }
 
   // http_protocol_ipv_6 - computed: true, optional: true, required: false
-  private _httpProtocolIpv6?: string;
+  private _httpProtocolIpv6?: string; 
   public get httpProtocolIpv6() {
     return this.getStringAttribute('http_protocol_ipv_6');
   }
@@ -2056,7 +2056,7 @@ export class Ec2InstanceMetadataOptionsOutputReference extends cdktn.ComplexObje
   }
 
   // http_put_response_hop_limit - computed: true, optional: true, required: false
-  private _httpPutResponseHopLimit?: number;
+  private _httpPutResponseHopLimit?: number; 
   public get httpPutResponseHopLimit() {
     return this.getNumberAttribute('http_put_response_hop_limit');
   }
@@ -2072,7 +2072,7 @@ export class Ec2InstanceMetadataOptionsOutputReference extends cdktn.ComplexObje
   }
 
   // http_tokens - computed: true, optional: true, required: false
-  private _httpTokens?: string;
+  private _httpTokens?: string; 
   public get httpTokens() {
     return this.getStringAttribute('http_tokens');
   }
@@ -2088,7 +2088,7 @@ export class Ec2InstanceMetadataOptionsOutputReference extends cdktn.ComplexObje
   }
 
   // instance_metadata_tags - computed: true, optional: true, required: false
-  private _instanceMetadataTags?: string;
+  private _instanceMetadataTags?: string; 
   public get instanceMetadataTags() {
     return this.getStringAttribute('instance_metadata_tags');
   }
@@ -2184,7 +2184,7 @@ export class Ec2InstanceNetworkInterfacesEnaSrdSpecificationEnaSrdUdpSpecificati
   }
 
   // ena_srd_udp_enabled - computed: true, optional: true, required: false
-  private _enaSrdUdpEnabled?: boolean | cdktn.IResolvable;
+  private _enaSrdUdpEnabled?: boolean | cdktn.IResolvable; 
   public get enaSrdUdpEnabled() {
     return this.getBooleanAttribute('ena_srd_udp_enabled');
   }
@@ -2299,7 +2299,7 @@ export class Ec2InstanceNetworkInterfacesEnaSrdSpecificationOutputReference exte
   }
 
   // ena_srd_enabled - computed: true, optional: true, required: false
-  private _enaSrdEnabled?: boolean | cdktn.IResolvable;
+  private _enaSrdEnabled?: boolean | cdktn.IResolvable; 
   public get enaSrdEnabled() {
     return this.getBooleanAttribute('ena_srd_enabled');
   }
@@ -2413,7 +2413,7 @@ export class Ec2InstanceNetworkInterfacesIpv6AddressesOutputReference extends cd
   }
 
   // ipv_6_address - computed: true, optional: true, required: false
-  private _ipv6Address?: string;
+  private _ipv6Address?: string; 
   public get ipv6Address() {
     return this.getStringAttribute('ipv_6_address');
   }
@@ -2550,7 +2550,7 @@ export class Ec2InstanceNetworkInterfacesPrivateIpAddressesOutputReference exten
   }
 
   // primary - computed: true, optional: true, required: false
-  private _primary?: boolean | cdktn.IResolvable;
+  private _primary?: boolean | cdktn.IResolvable; 
   public get primary() {
     return this.getBooleanAttribute('primary');
   }
@@ -2566,7 +2566,7 @@ export class Ec2InstanceNetworkInterfacesPrivateIpAddressesOutputReference exten
   }
 
   // private_ip_address - computed: true, optional: true, required: false
-  private _privateIpAddress?: string;
+  private _privateIpAddress?: string; 
   public get privateIpAddress() {
     return this.getStringAttribute('private_ip_address');
   }
@@ -2931,7 +2931,7 @@ export class Ec2InstanceNetworkInterfacesOutputReference extends cdktn.ComplexOb
   }
 
   // associate_carrier_ip_address - computed: true, optional: true, required: false
-  private _associateCarrierIpAddress?: boolean | cdktn.IResolvable;
+  private _associateCarrierIpAddress?: boolean | cdktn.IResolvable; 
   public get associateCarrierIpAddress() {
     return this.getBooleanAttribute('associate_carrier_ip_address');
   }
@@ -2947,7 +2947,7 @@ export class Ec2InstanceNetworkInterfacesOutputReference extends cdktn.ComplexOb
   }
 
   // associate_public_ip_address - computed: true, optional: true, required: false
-  private _associatePublicIpAddress?: boolean | cdktn.IResolvable;
+  private _associatePublicIpAddress?: boolean | cdktn.IResolvable; 
   public get associatePublicIpAddress() {
     return this.getBooleanAttribute('associate_public_ip_address');
   }
@@ -2963,7 +2963,7 @@ export class Ec2InstanceNetworkInterfacesOutputReference extends cdktn.ComplexOb
   }
 
   // delete_on_termination - computed: true, optional: true, required: false
-  private _deleteOnTermination?: boolean | cdktn.IResolvable;
+  private _deleteOnTermination?: boolean | cdktn.IResolvable; 
   public get deleteOnTermination() {
     return this.getBooleanAttribute('delete_on_termination');
   }
@@ -2979,7 +2979,7 @@ export class Ec2InstanceNetworkInterfacesOutputReference extends cdktn.ComplexOb
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -2995,7 +2995,7 @@ export class Ec2InstanceNetworkInterfacesOutputReference extends cdktn.ComplexOb
   }
 
   // device_index - computed: true, optional: true, required: false
-  private _deviceIndex?: string;
+  private _deviceIndex?: string; 
   public get deviceIndex() {
     return this.getStringAttribute('device_index');
   }
@@ -3027,7 +3027,7 @@ export class Ec2InstanceNetworkInterfacesOutputReference extends cdktn.ComplexOb
   }
 
   // group_set - computed: true, optional: true, required: false
-  private _groupSet?: string[];
+  private _groupSet?: string[]; 
   public get groupSet() {
     return this.getListAttribute('group_set');
   }
@@ -3043,7 +3043,7 @@ export class Ec2InstanceNetworkInterfacesOutputReference extends cdktn.ComplexOb
   }
 
   // ipv_6_address_count - computed: true, optional: true, required: false
-  private _ipv6AddressCount?: number;
+  private _ipv6AddressCount?: number; 
   public get ipv6AddressCount() {
     return this.getNumberAttribute('ipv_6_address_count');
   }
@@ -3075,7 +3075,7 @@ export class Ec2InstanceNetworkInterfacesOutputReference extends cdktn.ComplexOb
   }
 
   // network_interface_id - computed: true, optional: true, required: false
-  private _networkInterfaceId?: string;
+  private _networkInterfaceId?: string; 
   public get networkInterfaceId() {
     return this.getStringAttribute('network_interface_id');
   }
@@ -3091,7 +3091,7 @@ export class Ec2InstanceNetworkInterfacesOutputReference extends cdktn.ComplexOb
   }
 
   // private_ip_address - computed: true, optional: true, required: false
-  private _privateIpAddress?: string;
+  private _privateIpAddress?: string; 
   public get privateIpAddress() {
     return this.getStringAttribute('private_ip_address');
   }
@@ -3123,7 +3123,7 @@ export class Ec2InstanceNetworkInterfacesOutputReference extends cdktn.ComplexOb
   }
 
   // secondary_private_ip_address_count - computed: true, optional: true, required: false
-  private _secondaryPrivateIpAddressCount?: number;
+  private _secondaryPrivateIpAddressCount?: number; 
   public get secondaryPrivateIpAddressCount() {
     return this.getNumberAttribute('secondary_private_ip_address_count');
   }
@@ -3139,7 +3139,7 @@ export class Ec2InstanceNetworkInterfacesOutputReference extends cdktn.ComplexOb
   }
 
   // subnet_id - computed: true, optional: true, required: false
-  private _subnetId?: string;
+  private _subnetId?: string; 
   public get subnetId() {
     return this.getStringAttribute('subnet_id');
   }
@@ -3293,7 +3293,7 @@ export class Ec2InstancePrivateDnsNameOptionsOutputReference extends cdktn.Compl
   }
 
   // enable_resource_name_dns_a_record - computed: true, optional: true, required: false
-  private _enableResourceNameDnsARecord?: boolean | cdktn.IResolvable;
+  private _enableResourceNameDnsARecord?: boolean | cdktn.IResolvable; 
   public get enableResourceNameDnsARecord() {
     return this.getBooleanAttribute('enable_resource_name_dns_a_record');
   }
@@ -3309,7 +3309,7 @@ export class Ec2InstancePrivateDnsNameOptionsOutputReference extends cdktn.Compl
   }
 
   // enable_resource_name_dns_aaaa_record - computed: true, optional: true, required: false
-  private _enableResourceNameDnsAaaaRecord?: boolean | cdktn.IResolvable;
+  private _enableResourceNameDnsAaaaRecord?: boolean | cdktn.IResolvable; 
   public get enableResourceNameDnsAaaaRecord() {
     return this.getBooleanAttribute('enable_resource_name_dns_aaaa_record');
   }
@@ -3325,7 +3325,7 @@ export class Ec2InstancePrivateDnsNameOptionsOutputReference extends cdktn.Compl
   }
 
   // hostname_type - computed: true, optional: true, required: false
-  private _hostnameType?: string;
+  private _hostnameType?: string; 
   public get hostnameType() {
     return this.getStringAttribute('hostname_type');
   }
@@ -3442,7 +3442,7 @@ export class Ec2InstanceSsmAssociationsAssociationParametersOutputReference exte
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -3458,7 +3458,7 @@ export class Ec2InstanceSsmAssociationsAssociationParametersOutputReference exte
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string[];
+  private _value?: string[]; 
   public get value() {
     return this.getListAttribute('value');
   }
@@ -3611,7 +3611,7 @@ export class Ec2InstanceSsmAssociationsOutputReference extends cdktn.ComplexObje
   }
 
   // document_name - computed: true, optional: true, required: false
-  private _documentName?: string;
+  private _documentName?: string; 
   public get documentName() {
     return this.getStringAttribute('document_name');
   }
@@ -3803,7 +3803,7 @@ export class Ec2InstanceTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -3819,7 +3819,7 @@ export class Ec2InstanceTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -3956,7 +3956,7 @@ export class Ec2InstanceVolumesOutputReference extends cdktn.ComplexObject {
   }
 
   // device - computed: true, optional: true, required: false
-  private _device?: string;
+  private _device?: string; 
   public get device() {
     return this.getStringAttribute('device');
   }
@@ -3972,7 +3972,7 @@ export class Ec2InstanceVolumesOutputReference extends cdktn.ComplexObject {
   }
 
   // volume_id - computed: true, optional: true, required: false
-  private _volumeId?: string;
+  private _volumeId?: string; 
   public get volumeId() {
     return this.getStringAttribute('volume_id');
   }
@@ -4106,7 +4106,7 @@ export class Ec2Instance extends cdktn.TerraformResource {
   // ==========
 
   // additional_info - computed: true, optional: true, required: false
-  private _additionalInfo?: string;
+  private _additionalInfo?: string; 
   public get additionalInfo() {
     return this.getStringAttribute('additional_info');
   }
@@ -4122,7 +4122,7 @@ export class Ec2Instance extends cdktn.TerraformResource {
   }
 
   // affinity - computed: true, optional: true, required: false
-  private _affinity?: string;
+  private _affinity?: string; 
   public get affinity() {
     return this.getStringAttribute('affinity');
   }
@@ -4138,7 +4138,7 @@ export class Ec2Instance extends cdktn.TerraformResource {
   }
 
   // availability_zone - computed: true, optional: true, required: false
-  private _availabilityZone?: string;
+  private _availabilityZone?: string; 
   public get availabilityZone() {
     return this.getStringAttribute('availability_zone');
   }
@@ -4202,7 +4202,7 @@ export class Ec2Instance extends cdktn.TerraformResource {
   }
 
   // disable_api_termination - computed: true, optional: true, required: false
-  private _disableApiTermination?: boolean | cdktn.IResolvable;
+  private _disableApiTermination?: boolean | cdktn.IResolvable; 
   public get disableApiTermination() {
     return this.getBooleanAttribute('disable_api_termination');
   }
@@ -4218,7 +4218,7 @@ export class Ec2Instance extends cdktn.TerraformResource {
   }
 
   // ebs_optimized - computed: true, optional: true, required: false
-  private _ebsOptimized?: boolean | cdktn.IResolvable;
+  private _ebsOptimized?: boolean | cdktn.IResolvable; 
   public get ebsOptimized() {
     return this.getBooleanAttribute('ebs_optimized');
   }
@@ -4298,7 +4298,7 @@ export class Ec2Instance extends cdktn.TerraformResource {
   }
 
   // host_id - computed: true, optional: true, required: false
-  private _hostId?: string;
+  private _hostId?: string; 
   public get hostId() {
     return this.getStringAttribute('host_id');
   }
@@ -4314,7 +4314,7 @@ export class Ec2Instance extends cdktn.TerraformResource {
   }
 
   // host_resource_group_arn - computed: true, optional: true, required: false
-  private _hostResourceGroupArn?: string;
+  private _hostResourceGroupArn?: string; 
   public get hostResourceGroupArn() {
     return this.getStringAttribute('host_resource_group_arn');
   }
@@ -4330,7 +4330,7 @@ export class Ec2Instance extends cdktn.TerraformResource {
   }
 
   // iam_instance_profile - computed: true, optional: true, required: false
-  private _iamInstanceProfile?: string;
+  private _iamInstanceProfile?: string; 
   public get iamInstanceProfile() {
     return this.getStringAttribute('iam_instance_profile');
   }
@@ -4351,7 +4351,7 @@ export class Ec2Instance extends cdktn.TerraformResource {
   }
 
   // image_id - computed: true, optional: true, required: false
-  private _imageId?: string;
+  private _imageId?: string; 
   public get imageId() {
     return this.getStringAttribute('image_id');
   }
@@ -4372,7 +4372,7 @@ export class Ec2Instance extends cdktn.TerraformResource {
   }
 
   // instance_initiated_shutdown_behavior - computed: true, optional: true, required: false
-  private _instanceInitiatedShutdownBehavior?: string;
+  private _instanceInitiatedShutdownBehavior?: string; 
   public get instanceInitiatedShutdownBehavior() {
     return this.getStringAttribute('instance_initiated_shutdown_behavior');
   }
@@ -4388,7 +4388,7 @@ export class Ec2Instance extends cdktn.TerraformResource {
   }
 
   // instance_type - computed: true, optional: true, required: false
-  private _instanceType?: string;
+  private _instanceType?: string; 
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -4404,7 +4404,7 @@ export class Ec2Instance extends cdktn.TerraformResource {
   }
 
   // ipv_6_address_count - computed: true, optional: true, required: false
-  private _ipv6AddressCount?: number;
+  private _ipv6AddressCount?: number; 
   public get ipv6AddressCount() {
     return this.getNumberAttribute('ipv_6_address_count');
   }
@@ -4436,7 +4436,7 @@ export class Ec2Instance extends cdktn.TerraformResource {
   }
 
   // kernel_id - computed: true, optional: true, required: false
-  private _kernelId?: string;
+  private _kernelId?: string; 
   public get kernelId() {
     return this.getStringAttribute('kernel_id');
   }
@@ -4452,7 +4452,7 @@ export class Ec2Instance extends cdktn.TerraformResource {
   }
 
   // key_name - computed: true, optional: true, required: false
-  private _keyName?: string;
+  private _keyName?: string; 
   public get keyName() {
     return this.getStringAttribute('key_name');
   }
@@ -4516,7 +4516,7 @@ export class Ec2Instance extends cdktn.TerraformResource {
   }
 
   // monitoring - computed: true, optional: true, required: false
-  private _monitoring?: boolean | cdktn.IResolvable;
+  private _monitoring?: boolean | cdktn.IResolvable; 
   public get monitoring() {
     return this.getBooleanAttribute('monitoring');
   }
@@ -4548,7 +4548,7 @@ export class Ec2Instance extends cdktn.TerraformResource {
   }
 
   // placement_group_name - computed: true, optional: true, required: false
-  private _placementGroupName?: string;
+  private _placementGroupName?: string; 
   public get placementGroupName() {
     return this.getStringAttribute('placement_group_name');
   }
@@ -4590,7 +4590,7 @@ export class Ec2Instance extends cdktn.TerraformResource {
   }
 
   // private_ip_address - computed: true, optional: true, required: false
-  private _privateIpAddress?: string;
+  private _privateIpAddress?: string; 
   public get privateIpAddress() {
     return this.getStringAttribute('private_ip_address');
   }
@@ -4606,7 +4606,7 @@ export class Ec2Instance extends cdktn.TerraformResource {
   }
 
   // propagate_tags_to_volume_on_creation - computed: true, optional: true, required: false
-  private _propagateTagsToVolumeOnCreation?: boolean | cdktn.IResolvable;
+  private _propagateTagsToVolumeOnCreation?: boolean | cdktn.IResolvable; 
   public get propagateTagsToVolumeOnCreation() {
     return this.getBooleanAttribute('propagate_tags_to_volume_on_creation');
   }
@@ -4632,7 +4632,7 @@ export class Ec2Instance extends cdktn.TerraformResource {
   }
 
   // ramdisk_id - computed: true, optional: true, required: false
-  private _ramdiskId?: string;
+  private _ramdiskId?: string; 
   public get ramdiskId() {
     return this.getStringAttribute('ramdisk_id');
   }
@@ -4648,7 +4648,7 @@ export class Ec2Instance extends cdktn.TerraformResource {
   }
 
   // security_group_ids - computed: true, optional: true, required: false
-  private _securityGroupIds?: string[];
+  private _securityGroupIds?: string[]; 
   public get securityGroupIds() {
     return this.getListAttribute('security_group_ids');
   }
@@ -4664,7 +4664,7 @@ export class Ec2Instance extends cdktn.TerraformResource {
   }
 
   // security_groups - computed: true, optional: true, required: false
-  private _securityGroups?: string[];
+  private _securityGroups?: string[]; 
   public get securityGroups() {
     return this.getListAttribute('security_groups');
   }
@@ -4680,7 +4680,7 @@ export class Ec2Instance extends cdktn.TerraformResource {
   }
 
   // source_dest_check - computed: true, optional: true, required: false
-  private _sourceDestCheck?: boolean | cdktn.IResolvable;
+  private _sourceDestCheck?: boolean | cdktn.IResolvable; 
   public get sourceDestCheck() {
     return this.getBooleanAttribute('source_dest_check');
   }
@@ -4718,7 +4718,7 @@ export class Ec2Instance extends cdktn.TerraformResource {
   }
 
   // subnet_id - computed: true, optional: true, required: false
-  private _subnetId?: string;
+  private _subnetId?: string; 
   public get subnetId() {
     return this.getStringAttribute('subnet_id');
   }
@@ -4750,7 +4750,7 @@ export class Ec2Instance extends cdktn.TerraformResource {
   }
 
   // tenancy - computed: true, optional: true, required: false
-  private _tenancy?: string;
+  private _tenancy?: string; 
   public get tenancy() {
     return this.getStringAttribute('tenancy');
   }
@@ -4766,7 +4766,7 @@ export class Ec2Instance extends cdktn.TerraformResource {
   }
 
   // user_data - computed: true, optional: true, required: false
-  private _userData?: string;
+  private _userData?: string; 
   public get userData() {
     return this.getStringAttribute('user_data');
   }

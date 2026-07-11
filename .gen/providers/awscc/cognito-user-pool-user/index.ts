@@ -138,7 +138,7 @@ export class CognitoUserPoolUserUserAttributesOutputReference extends cdktn.Comp
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -154,7 +154,7 @@ export class CognitoUserPoolUserUserAttributesOutputReference extends cdktn.Comp
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -287,7 +287,7 @@ export class CognitoUserPoolUserValidationDataOutputReference extends cdktn.Comp
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -303,7 +303,7 @@ export class CognitoUserPoolUserValidationDataOutputReference extends cdktn.Comp
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -404,7 +404,7 @@ export class CognitoUserPoolUser extends cdktn.TerraformResource {
   // ==========
 
   // client_metadata - computed: true, optional: true, required: false
-  private _clientMetadata?: { [key: string]: string };
+  private _clientMetadata?: { [key: string]: string }; 
   public get clientMetadata() {
     return this.getStringMapAttribute('client_metadata');
   }
@@ -420,7 +420,7 @@ export class CognitoUserPoolUser extends cdktn.TerraformResource {
   }
 
   // desired_delivery_mediums - computed: true, optional: true, required: false
-  private _desiredDeliveryMediums?: string[];
+  private _desiredDeliveryMediums?: string[]; 
   public get desiredDeliveryMediums() {
     return this.getListAttribute('desired_delivery_mediums');
   }
@@ -436,7 +436,7 @@ export class CognitoUserPoolUser extends cdktn.TerraformResource {
   }
 
   // force_alias_creation - computed: true, optional: true, required: false
-  private _forceAliasCreation?: boolean | cdktn.IResolvable;
+  private _forceAliasCreation?: boolean | cdktn.IResolvable; 
   public get forceAliasCreation() {
     return this.getBooleanAttribute('force_alias_creation');
   }
@@ -457,7 +457,7 @@ export class CognitoUserPoolUser extends cdktn.TerraformResource {
   }
 
   // message_action - computed: true, optional: true, required: false
-  private _messageAction?: string;
+  private _messageAction?: string; 
   public get messageAction() {
     return this.getStringAttribute('message_action');
   }
@@ -489,7 +489,7 @@ export class CognitoUserPoolUser extends cdktn.TerraformResource {
   }
 
   // user_pool_id - computed: false, optional: false, required: true
-  private _userPoolId?: string;
+  private _userPoolId?: string; 
   public get userPoolId() {
     return this.getStringAttribute('user_pool_id');
   }
@@ -502,7 +502,7 @@ export class CognitoUserPoolUser extends cdktn.TerraformResource {
   }
 
   // username - computed: true, optional: true, required: false
-  private _username?: string;
+  private _username?: string; 
   public get username() {
     return this.getStringAttribute('username');
   }

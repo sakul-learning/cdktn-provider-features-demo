@@ -150,7 +150,7 @@ export class AppstreamAppBlockBuilderAccessEndpointsOutputReference extends cdkt
   }
 
   // endpoint_type - computed: true, optional: true, required: false
-  private _endpointType?: string;
+  private _endpointType?: string; 
   public get endpointType() {
     return this.getStringAttribute('endpoint_type');
   }
@@ -166,7 +166,7 @@ export class AppstreamAppBlockBuilderAccessEndpointsOutputReference extends cdkt
   }
 
   // vpce_id - computed: true, optional: true, required: false
-  private _vpceId?: string;
+  private _vpceId?: string; 
   public get vpceId() {
     return this.getStringAttribute('vpce_id');
   }
@@ -299,7 +299,7 @@ export class AppstreamAppBlockBuilderTagsOutputReference extends cdktn.ComplexOb
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -315,7 +315,7 @@ export class AppstreamAppBlockBuilderTagsOutputReference extends cdktn.ComplexOb
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -446,7 +446,7 @@ export class AppstreamAppBlockBuilderVpcConfigOutputReference extends cdktn.Comp
   }
 
   // security_group_ids - computed: true, optional: true, required: false
-  private _securityGroupIds?: string[];
+  private _securityGroupIds?: string[]; 
   public get securityGroupIds() {
     return this.getListAttribute('security_group_ids');
   }
@@ -462,7 +462,7 @@ export class AppstreamAppBlockBuilderVpcConfigOutputReference extends cdktn.Comp
   }
 
   // subnet_ids - computed: true, optional: true, required: false
-  private _subnetIds?: string[];
+  private _subnetIds?: string[]; 
   public get subnetIds() {
     return this.getListAttribute('subnet_ids');
   }
@@ -562,7 +562,7 @@ export class AppstreamAppBlockBuilder extends cdktn.TerraformResource {
   }
 
   // app_block_arns - computed: true, optional: true, required: false
-  private _appBlockArns?: string[];
+  private _appBlockArns?: string[]; 
   public get appBlockArns() {
     return cdktn.Fn.tolist(this.getListAttribute('app_block_arns'));
   }
@@ -588,7 +588,7 @@ export class AppstreamAppBlockBuilder extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -604,7 +604,7 @@ export class AppstreamAppBlockBuilder extends cdktn.TerraformResource {
   }
 
   // display_name - computed: true, optional: true, required: false
-  private _displayName?: string;
+  private _displayName?: string; 
   public get displayName() {
     return this.getStringAttribute('display_name');
   }
@@ -620,7 +620,7 @@ export class AppstreamAppBlockBuilder extends cdktn.TerraformResource {
   }
 
   // enable_default_internet_access - computed: true, optional: true, required: false
-  private _enableDefaultInternetAccess?: boolean | cdktn.IResolvable;
+  private _enableDefaultInternetAccess?: boolean | cdktn.IResolvable; 
   public get enableDefaultInternetAccess() {
     return this.getBooleanAttribute('enable_default_internet_access');
   }
@@ -636,7 +636,7 @@ export class AppstreamAppBlockBuilder extends cdktn.TerraformResource {
   }
 
   // iam_role_arn - computed: true, optional: true, required: false
-  private _iamRoleArn?: string;
+  private _iamRoleArn?: string; 
   public get iamRoleArn() {
     return this.getStringAttribute('iam_role_arn');
   }
@@ -657,7 +657,7 @@ export class AppstreamAppBlockBuilder extends cdktn.TerraformResource {
   }
 
   // instance_type - computed: false, optional: false, required: true
-  private _instanceType?: string;
+  private _instanceType?: string; 
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -670,7 +670,7 @@ export class AppstreamAppBlockBuilder extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -683,7 +683,7 @@ export class AppstreamAppBlockBuilder extends cdktn.TerraformResource {
   }
 
   // platform - computed: false, optional: false, required: true
-  private _platform?: string;
+  private _platform?: string; 
   public get platform() {
     return this.getStringAttribute('platform');
   }

@@ -225,7 +225,7 @@ export class ElbAccessLogsOutputReference extends cdktn.ComplexObject {
   }
 
   // bucket - computed: false, optional: false, required: true
-  private _bucket?: string;
+  private _bucket?: string; 
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -238,7 +238,7 @@ export class ElbAccessLogsOutputReference extends cdktn.ComplexObject {
   }
 
   // bucket_prefix - computed: false, optional: true, required: false
-  private _bucketPrefix?: string;
+  private _bucketPrefix?: string; 
   public get bucketPrefix() {
     return this.getStringAttribute('bucket_prefix');
   }
@@ -254,7 +254,7 @@ export class ElbAccessLogsOutputReference extends cdktn.ComplexObject {
   }
 
   // enabled - computed: false, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -270,7 +270,7 @@ export class ElbAccessLogsOutputReference extends cdktn.ComplexObject {
   }
 
   // interval - computed: false, optional: true, required: false
-  private _interval?: number;
+  private _interval?: number; 
   public get interval() {
     return this.getNumberAttribute('interval');
   }
@@ -422,7 +422,7 @@ export class ElbHealthCheckOutputReference extends cdktn.ComplexObject {
   }
 
   // healthy_threshold - computed: false, optional: false, required: true
-  private _healthyThreshold?: number;
+  private _healthyThreshold?: number; 
   public get healthyThreshold() {
     return this.getNumberAttribute('healthy_threshold');
   }
@@ -435,7 +435,7 @@ export class ElbHealthCheckOutputReference extends cdktn.ComplexObject {
   }
 
   // interval - computed: false, optional: false, required: true
-  private _interval?: number;
+  private _interval?: number; 
   public get interval() {
     return this.getNumberAttribute('interval');
   }
@@ -448,7 +448,7 @@ export class ElbHealthCheckOutputReference extends cdktn.ComplexObject {
   }
 
   // target - computed: false, optional: false, required: true
-  private _target?: string;
+  private _target?: string; 
   public get target() {
     return this.getStringAttribute('target');
   }
@@ -461,7 +461,7 @@ export class ElbHealthCheckOutputReference extends cdktn.ComplexObject {
   }
 
   // timeout - computed: false, optional: false, required: true
-  private _timeout?: number;
+  private _timeout?: number; 
   public get timeout() {
     return this.getNumberAttribute('timeout');
   }
@@ -474,7 +474,7 @@ export class ElbHealthCheckOutputReference extends cdktn.ComplexObject {
   }
 
   // unhealthy_threshold - computed: false, optional: false, required: true
-  private _unhealthyThreshold?: number;
+  private _unhealthyThreshold?: number; 
   public get unhealthyThreshold() {
     return this.getNumberAttribute('unhealthy_threshold');
   }
@@ -635,7 +635,7 @@ export class ElbListenerOutputReference extends cdktn.ComplexObject {
   }
 
   // instance_port - computed: false, optional: false, required: true
-  private _instancePort?: number;
+  private _instancePort?: number; 
   public get instancePort() {
     return this.getNumberAttribute('instance_port');
   }
@@ -648,7 +648,7 @@ export class ElbListenerOutputReference extends cdktn.ComplexObject {
   }
 
   // instance_protocol - computed: false, optional: false, required: true
-  private _instanceProtocol?: string;
+  private _instanceProtocol?: string; 
   public get instanceProtocol() {
     return this.getStringAttribute('instance_protocol');
   }
@@ -661,7 +661,7 @@ export class ElbListenerOutputReference extends cdktn.ComplexObject {
   }
 
   // lb_port - computed: false, optional: false, required: true
-  private _lbPort?: number;
+  private _lbPort?: number; 
   public get lbPort() {
     return this.getNumberAttribute('lb_port');
   }
@@ -674,7 +674,7 @@ export class ElbListenerOutputReference extends cdktn.ComplexObject {
   }
 
   // lb_protocol - computed: false, optional: false, required: true
-  private _lbProtocol?: string;
+  private _lbProtocol?: string; 
   public get lbProtocol() {
     return this.getStringAttribute('lb_protocol');
   }
@@ -687,7 +687,7 @@ export class ElbListenerOutputReference extends cdktn.ComplexObject {
   }
 
   // ssl_certificate_id - computed: false, optional: true, required: false
-  private _sslCertificateId?: string;
+  private _sslCertificateId?: string; 
   public get sslCertificateId() {
     return this.getStringAttribute('ssl_certificate_id');
   }
@@ -818,7 +818,7 @@ export class ElbTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -834,7 +834,7 @@ export class ElbTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -933,7 +933,7 @@ export class Elb extends cdktn.TerraformResource {
   }
 
   // availability_zones - computed: true, optional: true, required: false
-  private _availabilityZones?: string[];
+  private _availabilityZones?: string[]; 
   public get availabilityZones() {
     return cdktn.Fn.tolist(this.getListAttribute('availability_zones'));
   }
@@ -949,7 +949,7 @@ export class Elb extends cdktn.TerraformResource {
   }
 
   // connection_draining - computed: false, optional: true, required: false
-  private _connectionDraining?: boolean | cdktn.IResolvable;
+  private _connectionDraining?: boolean | cdktn.IResolvable; 
   public get connectionDraining() {
     return this.getBooleanAttribute('connection_draining');
   }
@@ -965,7 +965,7 @@ export class Elb extends cdktn.TerraformResource {
   }
 
   // connection_draining_timeout - computed: false, optional: true, required: false
-  private _connectionDrainingTimeout?: number;
+  private _connectionDrainingTimeout?: number; 
   public get connectionDrainingTimeout() {
     return this.getNumberAttribute('connection_draining_timeout');
   }
@@ -981,7 +981,7 @@ export class Elb extends cdktn.TerraformResource {
   }
 
   // cross_zone_load_balancing - computed: false, optional: true, required: false
-  private _crossZoneLoadBalancing?: boolean | cdktn.IResolvable;
+  private _crossZoneLoadBalancing?: boolean | cdktn.IResolvable; 
   public get crossZoneLoadBalancing() {
     return this.getBooleanAttribute('cross_zone_load_balancing');
   }
@@ -997,7 +997,7 @@ export class Elb extends cdktn.TerraformResource {
   }
 
   // desync_mitigation_mode - computed: false, optional: true, required: false
-  private _desyncMitigationMode?: string;
+  private _desyncMitigationMode?: string; 
   public get desyncMitigationMode() {
     return this.getStringAttribute('desync_mitigation_mode');
   }
@@ -1018,7 +1018,7 @@ export class Elb extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -1034,7 +1034,7 @@ export class Elb extends cdktn.TerraformResource {
   }
 
   // idle_timeout - computed: false, optional: true, required: false
-  private _idleTimeout?: number;
+  private _idleTimeout?: number; 
   public get idleTimeout() {
     return this.getNumberAttribute('idle_timeout');
   }
@@ -1050,7 +1050,7 @@ export class Elb extends cdktn.TerraformResource {
   }
 
   // instances - computed: true, optional: true, required: false
-  private _instances?: string[];
+  private _instances?: string[]; 
   public get instances() {
     return cdktn.Fn.tolist(this.getListAttribute('instances'));
   }
@@ -1066,7 +1066,7 @@ export class Elb extends cdktn.TerraformResource {
   }
 
   // internal - computed: true, optional: true, required: false
-  private _internal?: boolean | cdktn.IResolvable;
+  private _internal?: boolean | cdktn.IResolvable; 
   public get internal() {
     return this.getBooleanAttribute('internal');
   }
@@ -1082,7 +1082,7 @@ export class Elb extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1098,7 +1098,7 @@ export class Elb extends cdktn.TerraformResource {
   }
 
   // name_prefix - computed: true, optional: true, required: false
-  private _namePrefix?: string;
+  private _namePrefix?: string; 
   public get namePrefix() {
     return this.getStringAttribute('name_prefix');
   }
@@ -1114,7 +1114,7 @@ export class Elb extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1130,7 +1130,7 @@ export class Elb extends cdktn.TerraformResource {
   }
 
   // security_groups - computed: true, optional: true, required: false
-  private _securityGroups?: string[];
+  private _securityGroups?: string[]; 
   public get securityGroups() {
     return cdktn.Fn.tolist(this.getListAttribute('security_groups'));
   }
@@ -1146,7 +1146,7 @@ export class Elb extends cdktn.TerraformResource {
   }
 
   // source_security_group - computed: true, optional: true, required: false
-  private _sourceSecurityGroup?: string;
+  private _sourceSecurityGroup?: string; 
   public get sourceSecurityGroup() {
     return this.getStringAttribute('source_security_group');
   }
@@ -1167,7 +1167,7 @@ export class Elb extends cdktn.TerraformResource {
   }
 
   // subnets - computed: true, optional: true, required: false
-  private _subnets?: string[];
+  private _subnets?: string[]; 
   public get subnets() {
     return cdktn.Fn.tolist(this.getListAttribute('subnets'));
   }
@@ -1183,7 +1183,7 @@ export class Elb extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -1199,7 +1199,7 @@ export class Elb extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

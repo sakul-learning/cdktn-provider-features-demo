@@ -167,7 +167,7 @@ export class QuicksightTemplatePermissionsOutputReference extends cdktn.ComplexO
   }
 
   // actions - computed: false, optional: false, required: true
-  private _actions?: string[];
+  private _actions?: string[]; 
   public get actions() {
     return cdktn.Fn.tolist(this.getListAttribute('actions'));
   }
@@ -180,7 +180,7 @@ export class QuicksightTemplatePermissionsOutputReference extends cdktn.ComplexO
   }
 
   // principal - computed: false, optional: false, required: true
-  private _principal?: string;
+  private _principal?: string; 
   public get principal() {
     return this.getStringAttribute('principal');
   }
@@ -310,7 +310,7 @@ export class QuicksightTemplateSourceEntitySourceAnalysisDataSetReferencesOutput
   }
 
   // data_set_arn - computed: false, optional: false, required: true
-  private _dataSetArn?: string;
+  private _dataSetArn?: string; 
   public get dataSetArn() {
     return this.getStringAttribute('data_set_arn');
   }
@@ -323,7 +323,7 @@ export class QuicksightTemplateSourceEntitySourceAnalysisDataSetReferencesOutput
   }
 
   // data_set_placeholder - computed: false, optional: false, required: true
-  private _dataSetPlaceholder?: string;
+  private _dataSetPlaceholder?: string; 
   public get dataSetPlaceholder() {
     return this.getStringAttribute('data_set_placeholder');
   }
@@ -443,7 +443,7 @@ export class QuicksightTemplateSourceEntitySourceAnalysisOutputReference extends
   }
 
   // arn - computed: false, optional: false, required: true
-  private _arn?: string;
+  private _arn?: string; 
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -537,7 +537,7 @@ export class QuicksightTemplateSourceEntitySourceTemplateOutputReference extends
   }
 
   // arn - computed: false, optional: false, required: true
-  private _arn?: string;
+  private _arn?: string; 
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -783,7 +783,7 @@ export class QuicksightTemplateTimeoutsOutputReference extends cdktn.ComplexObje
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -799,7 +799,7 @@ export class QuicksightTemplateTimeoutsOutputReference extends cdktn.ComplexObje
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -815,7 +815,7 @@ export class QuicksightTemplateTimeoutsOutputReference extends cdktn.ComplexObje
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -905,7 +905,7 @@ export class QuicksightTemplate extends cdktn.TerraformResource {
   }
 
   // aws_account_id - computed: true, optional: true, required: false
-  private _awsAccountId?: string;
+  private _awsAccountId?: string; 
   public get awsAccountId() {
     return this.getStringAttribute('aws_account_id');
   }
@@ -926,7 +926,7 @@ export class QuicksightTemplate extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -947,7 +947,7 @@ export class QuicksightTemplate extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -960,7 +960,7 @@ export class QuicksightTemplate extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -986,7 +986,7 @@ export class QuicksightTemplate extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -1002,7 +1002,7 @@ export class QuicksightTemplate extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -1018,7 +1018,7 @@ export class QuicksightTemplate extends cdktn.TerraformResource {
   }
 
   // template_id - computed: false, optional: false, required: true
-  private _templateId?: string;
+  private _templateId?: string; 
   public get templateId() {
     return this.getStringAttribute('template_id');
   }
@@ -1031,7 +1031,7 @@ export class QuicksightTemplate extends cdktn.TerraformResource {
   }
 
   // version_description - computed: false, optional: false, required: true
-  private _versionDescription?: string;
+  private _versionDescription?: string; 
   public get versionDescription() {
     return this.getStringAttribute('version_description');
   }
@@ -1049,7 +1049,7 @@ export class QuicksightTemplate extends cdktn.TerraformResource {
   }
 
   // definition - computed: false, optional: true, required: false
-  private _definition?: any;
+  private _definition?: any; 
   public get definition() {
     return this.interpolationForAttribute('definition');
   }

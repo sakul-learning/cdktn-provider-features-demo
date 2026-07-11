@@ -166,7 +166,7 @@ export class MskconnectConnectorCapacityAutoscalingScaleInPolicyOutputReference 
   }
 
   // cpu_utilization_percentage - computed: true, optional: true, required: false
-  private _cpuUtilizationPercentage?: number;
+  private _cpuUtilizationPercentage?: number; 
   public get cpuUtilizationPercentage() {
     return this.getNumberAttribute('cpu_utilization_percentage');
   }
@@ -250,7 +250,7 @@ export class MskconnectConnectorCapacityAutoscalingScaleOutPolicyOutputReference
   }
 
   // cpu_utilization_percentage - computed: true, optional: true, required: false
-  private _cpuUtilizationPercentage?: number;
+  private _cpuUtilizationPercentage?: number; 
   public get cpuUtilizationPercentage() {
     return this.getNumberAttribute('cpu_utilization_percentage');
   }
@@ -406,7 +406,7 @@ export class MskconnectConnectorCapacityAutoscalingOutputReference extends cdktn
   }
 
   // max_worker_count - computed: false, optional: false, required: true
-  private _maxWorkerCount?: number;
+  private _maxWorkerCount?: number; 
   public get maxWorkerCount() {
     return this.getNumberAttribute('max_worker_count');
   }
@@ -419,7 +419,7 @@ export class MskconnectConnectorCapacityAutoscalingOutputReference extends cdktn
   }
 
   // mcu_count - computed: false, optional: true, required: false
-  private _mcuCount?: number;
+  private _mcuCount?: number; 
   public get mcuCount() {
     return this.getNumberAttribute('mcu_count');
   }
@@ -435,7 +435,7 @@ export class MskconnectConnectorCapacityAutoscalingOutputReference extends cdktn
   }
 
   // min_worker_count - computed: false, optional: false, required: true
-  private _minWorkerCount?: number;
+  private _minWorkerCount?: number; 
   public get minWorkerCount() {
     return this.getNumberAttribute('min_worker_count');
   }
@@ -565,7 +565,7 @@ export class MskconnectConnectorCapacityProvisionedCapacityOutputReference exten
   }
 
   // mcu_count - computed: false, optional: true, required: false
-  private _mcuCount?: number;
+  private _mcuCount?: number; 
   public get mcuCount() {
     return this.getNumberAttribute('mcu_count');
   }
@@ -581,7 +581,7 @@ export class MskconnectConnectorCapacityProvisionedCapacityOutputReference exten
   }
 
   // worker_count - computed: false, optional: false, required: true
-  private _workerCount?: number;
+  private _workerCount?: number; 
   public get workerCount() {
     return this.getNumberAttribute('worker_count');
   }
@@ -800,7 +800,7 @@ export class MskconnectConnectorKafkaClusterApacheKafkaClusterVpcOutputReference
   }
 
   // security_groups - computed: false, optional: false, required: true
-  private _securityGroups?: string[];
+  private _securityGroups?: string[]; 
   public get securityGroups() {
     return cdktn.Fn.tolist(this.getListAttribute('security_groups'));
   }
@@ -813,7 +813,7 @@ export class MskconnectConnectorKafkaClusterApacheKafkaClusterVpcOutputReference
   }
 
   // subnets - computed: false, optional: false, required: true
-  private _subnets?: string[];
+  private _subnets?: string[]; 
   public get subnets() {
     return cdktn.Fn.tolist(this.getListAttribute('subnets'));
   }
@@ -913,7 +913,7 @@ export class MskconnectConnectorKafkaClusterApacheKafkaClusterOutputReference ex
   }
 
   // bootstrap_servers - computed: false, optional: false, required: true
-  private _bootstrapServers?: string;
+  private _bootstrapServers?: string; 
   public get bootstrapServers() {
     return this.getStringAttribute('bootstrap_servers');
   }
@@ -1090,7 +1090,7 @@ export class MskconnectConnectorKafkaClusterClientAuthenticationOutputReference 
   }
 
   // authentication_type - computed: false, optional: true, required: false
-  private _authenticationType?: string;
+  private _authenticationType?: string; 
   public get authenticationType() {
     return this.getStringAttribute('authentication_type');
   }
@@ -1174,7 +1174,7 @@ export class MskconnectConnectorKafkaClusterEncryptionInTransitOutputReference e
   }
 
   // encryption_type - computed: false, optional: true, required: false
-  private _encryptionType?: string;
+  private _encryptionType?: string; 
   public get encryptionType() {
     return this.getStringAttribute('encryption_type');
   }
@@ -1275,7 +1275,7 @@ export class MskconnectConnectorLogDeliveryWorkerLogDeliveryCloudwatchLogsOutput
   }
 
   // enabled - computed: false, optional: false, required: true
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -1288,7 +1288,7 @@ export class MskconnectConnectorLogDeliveryWorkerLogDeliveryCloudwatchLogsOutput
   }
 
   // log_group - computed: false, optional: true, required: false
-  private _logGroup?: string;
+  private _logGroup?: string; 
   public get logGroup() {
     return this.getStringAttribute('log_group');
   }
@@ -1389,7 +1389,7 @@ export class MskconnectConnectorLogDeliveryWorkerLogDeliveryFirehoseOutputRefere
   }
 
   // delivery_stream - computed: false, optional: true, required: false
-  private _deliveryStream?: string;
+  private _deliveryStream?: string; 
   public get deliveryStream() {
     return this.getStringAttribute('delivery_stream');
   }
@@ -1405,7 +1405,7 @@ export class MskconnectConnectorLogDeliveryWorkerLogDeliveryFirehoseOutputRefere
   }
 
   // enabled - computed: false, optional: false, required: true
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -1520,7 +1520,7 @@ export class MskconnectConnectorLogDeliveryWorkerLogDeliveryS3OutputReference ex
   }
 
   // bucket - computed: false, optional: true, required: false
-  private _bucket?: string;
+  private _bucket?: string; 
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -1536,7 +1536,7 @@ export class MskconnectConnectorLogDeliveryWorkerLogDeliveryS3OutputReference ex
   }
 
   // enabled - computed: false, optional: false, required: true
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -1549,7 +1549,7 @@ export class MskconnectConnectorLogDeliveryWorkerLogDeliveryS3OutputReference ex
   }
 
   // prefix - computed: false, optional: true, required: false
-  private _prefix?: string;
+  private _prefix?: string; 
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -1889,7 +1889,7 @@ export class MskconnectConnectorPluginCustomPluginOutputReference extends cdktn.
   }
 
   // arn - computed: false, optional: false, required: true
-  private _arn?: string;
+  private _arn?: string; 
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -1902,7 +1902,7 @@ export class MskconnectConnectorPluginCustomPluginOutputReference extends cdktn.
   }
 
   // revision - computed: false, optional: false, required: true
-  private _revision?: number;
+  private _revision?: number; 
   public get revision() {
     return this.getNumberAttribute('revision');
   }
@@ -2142,7 +2142,7 @@ export class MskconnectConnectorTimeoutsOutputReference extends cdktn.ComplexObj
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -2158,7 +2158,7 @@ export class MskconnectConnectorTimeoutsOutputReference extends cdktn.ComplexObj
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -2174,7 +2174,7 @@ export class MskconnectConnectorTimeoutsOutputReference extends cdktn.ComplexObj
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -2275,7 +2275,7 @@ export class MskconnectConnectorWorkerConfigurationOutputReference extends cdktn
   }
 
   // arn - computed: false, optional: false, required: true
-  private _arn?: string;
+  private _arn?: string; 
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -2288,7 +2288,7 @@ export class MskconnectConnectorWorkerConfigurationOutputReference extends cdktn
   }
 
   // revision - computed: false, optional: false, required: true
-  private _revision?: number;
+  private _revision?: number; 
   public get revision() {
     return this.getNumberAttribute('revision');
   }
@@ -2380,7 +2380,7 @@ export class MskconnectConnector extends cdktn.TerraformResource {
   }
 
   // connector_configuration - computed: false, optional: false, required: true
-  private _connectorConfiguration?: { [key: string]: string };
+  private _connectorConfiguration?: { [key: string]: string }; 
   public get connectorConfiguration() {
     return this.getStringMapAttribute('connector_configuration');
   }
@@ -2393,7 +2393,7 @@ export class MskconnectConnector extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -2409,7 +2409,7 @@ export class MskconnectConnector extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -2425,7 +2425,7 @@ export class MskconnectConnector extends cdktn.TerraformResource {
   }
 
   // kafkaconnect_version - computed: false, optional: false, required: true
-  private _kafkaconnectVersion?: string;
+  private _kafkaconnectVersion?: string; 
   public get kafkaconnectVersion() {
     return this.getStringAttribute('kafkaconnect_version');
   }
@@ -2438,7 +2438,7 @@ export class MskconnectConnector extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2451,7 +2451,7 @@ export class MskconnectConnector extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -2467,7 +2467,7 @@ export class MskconnectConnector extends cdktn.TerraformResource {
   }
 
   // service_execution_role_arn - computed: false, optional: false, required: true
-  private _serviceExecutionRoleArn?: string;
+  private _serviceExecutionRoleArn?: string; 
   public get serviceExecutionRoleArn() {
     return this.getStringAttribute('service_execution_role_arn');
   }
@@ -2480,7 +2480,7 @@ export class MskconnectConnector extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -2496,7 +2496,7 @@ export class MskconnectConnector extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

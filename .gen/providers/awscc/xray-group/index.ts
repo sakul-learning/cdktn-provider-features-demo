@@ -130,7 +130,7 @@ export class XrayGroupInsightsConfigurationOutputReference extends cdktn.Complex
   }
 
   // insights_enabled - computed: true, optional: true, required: false
-  private _insightsEnabled?: boolean | cdktn.IResolvable;
+  private _insightsEnabled?: boolean | cdktn.IResolvable; 
   public get insightsEnabled() {
     return this.getBooleanAttribute('insights_enabled');
   }
@@ -146,7 +146,7 @@ export class XrayGroupInsightsConfigurationOutputReference extends cdktn.Complex
   }
 
   // notifications_enabled - computed: true, optional: true, required: false
-  private _notificationsEnabled?: boolean | cdktn.IResolvable;
+  private _notificationsEnabled?: boolean | cdktn.IResolvable; 
   public get notificationsEnabled() {
     return this.getBooleanAttribute('notifications_enabled');
   }
@@ -263,7 +263,7 @@ export class XrayGroupTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -279,7 +279,7 @@ export class XrayGroupTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -376,7 +376,7 @@ export class XrayGroup extends cdktn.TerraformResource {
   // ==========
 
   // filter_expression - computed: true, optional: true, required: false
-  private _filterExpression?: string;
+  private _filterExpression?: string; 
   public get filterExpression() {
     return this.getStringAttribute('filter_expression');
   }
@@ -397,7 +397,7 @@ export class XrayGroup extends cdktn.TerraformResource {
   }
 
   // group_name - computed: false, optional: false, required: true
-  private _groupName?: string;
+  private _groupName?: string; 
   public get groupName() {
     return this.getStringAttribute('group_name');
   }

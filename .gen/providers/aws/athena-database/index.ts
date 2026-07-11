@@ -130,7 +130,7 @@ export class AthenaDatabaseAclConfigurationOutputReference extends cdktn.Complex
   }
 
   // s3_acl_option - computed: false, optional: false, required: true
-  private _s3AclOption?: string;
+  private _s3AclOption?: string; 
   public get s3AclOption() {
     return this.getStringAttribute('s3_acl_option');
   }
@@ -228,7 +228,7 @@ export class AthenaDatabaseEncryptionConfigurationOutputReference extends cdktn.
   }
 
   // encryption_option - computed: false, optional: false, required: true
-  private _encryptionOption?: string;
+  private _encryptionOption?: string; 
   public get encryptionOption() {
     return this.getStringAttribute('encryption_option');
   }
@@ -241,7 +241,7 @@ export class AthenaDatabaseEncryptionConfigurationOutputReference extends cdktn.
   }
 
   // kms_key - computed: false, optional: true, required: false
-  private _kmsKey?: string;
+  private _kmsKey?: string; 
   public get kmsKey() {
     return this.getStringAttribute('kms_key');
   }
@@ -325,7 +325,7 @@ export class AthenaDatabase extends cdktn.TerraformResource {
   // ==========
 
   // bucket - computed: false, optional: true, required: false
-  private _bucket?: string;
+  private _bucket?: string; 
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -341,7 +341,7 @@ export class AthenaDatabase extends cdktn.TerraformResource {
   }
 
   // comment - computed: false, optional: true, required: false
-  private _comment?: string;
+  private _comment?: string; 
   public get comment() {
     return this.getStringAttribute('comment');
   }
@@ -357,7 +357,7 @@ export class AthenaDatabase extends cdktn.TerraformResource {
   }
 
   // expected_bucket_owner - computed: false, optional: true, required: false
-  private _expectedBucketOwner?: string;
+  private _expectedBucketOwner?: string; 
   public get expectedBucketOwner() {
     return this.getStringAttribute('expected_bucket_owner');
   }
@@ -373,7 +373,7 @@ export class AthenaDatabase extends cdktn.TerraformResource {
   }
 
   // force_destroy - computed: false, optional: true, required: false
-  private _forceDestroy?: boolean | cdktn.IResolvable;
+  private _forceDestroy?: boolean | cdktn.IResolvable; 
   public get forceDestroy() {
     return this.getBooleanAttribute('force_destroy');
   }
@@ -389,7 +389,7 @@ export class AthenaDatabase extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -405,7 +405,7 @@ export class AthenaDatabase extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -418,7 +418,7 @@ export class AthenaDatabase extends cdktn.TerraformResource {
   }
 
   // properties - computed: false, optional: true, required: false
-  private _properties?: { [key: string]: string };
+  private _properties?: { [key: string]: string }; 
   public get properties() {
     return this.getStringMapAttribute('properties');
   }
@@ -434,7 +434,7 @@ export class AthenaDatabase extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -450,7 +450,7 @@ export class AthenaDatabase extends cdktn.TerraformResource {
   }
 
   // workgroup - computed: false, optional: true, required: false
-  private _workgroup?: string;
+  private _workgroup?: string; 
   public get workgroup() {
     return this.getStringAttribute('workgroup');
   }

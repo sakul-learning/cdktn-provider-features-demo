@@ -86,7 +86,7 @@ export class NotificationsNotificationConfiguration extends cdktn.TerraformResou
   // ==========
 
   // aggregation_duration - computed: true, optional: true, required: false
-  private _aggregationDuration?: string;
+  private _aggregationDuration?: string; 
   public get aggregationDuration() {
     return this.getStringAttribute('aggregation_duration');
   }
@@ -107,7 +107,7 @@ export class NotificationsNotificationConfiguration extends cdktn.TerraformResou
   }
 
   // description - computed: false, optional: false, required: true
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -120,7 +120,7 @@ export class NotificationsNotificationConfiguration extends cdktn.TerraformResou
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -133,7 +133,7 @@ export class NotificationsNotificationConfiguration extends cdktn.TerraformResou
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

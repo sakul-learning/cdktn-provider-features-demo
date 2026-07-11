@@ -136,7 +136,7 @@ export class BackupLogicallyAirGappedBackupVaultNotificationsOutputReference ext
   }
 
   // backup_vault_events - computed: true, optional: true, required: false
-  private _backupVaultEvents?: string[];
+  private _backupVaultEvents?: string[]; 
   public get backupVaultEvents() {
     return this.getListAttribute('backup_vault_events');
   }
@@ -152,7 +152,7 @@ export class BackupLogicallyAirGappedBackupVaultNotificationsOutputReference ext
   }
 
   // sns_topic_arn - computed: true, optional: true, required: false
-  private _snsTopicArn?: string;
+  private _snsTopicArn?: string; 
   public get snsTopicArn() {
     return this.getStringAttribute('sns_topic_arn');
   }
@@ -233,7 +233,7 @@ export class BackupLogicallyAirGappedBackupVault extends cdktn.TerraformResource
   // ==========
 
   // access_policy - computed: true, optional: true, required: false
-  private _accessPolicy?: string;
+  private _accessPolicy?: string; 
   public get accessPolicy() {
     return this.getStringAttribute('access_policy');
   }
@@ -254,7 +254,7 @@ export class BackupLogicallyAirGappedBackupVault extends cdktn.TerraformResource
   }
 
   // backup_vault_name - computed: false, optional: false, required: true
-  private _backupVaultName?: string;
+  private _backupVaultName?: string; 
   public get backupVaultName() {
     return this.getStringAttribute('backup_vault_name');
   }
@@ -267,7 +267,7 @@ export class BackupLogicallyAirGappedBackupVault extends cdktn.TerraformResource
   }
 
   // backup_vault_tags - computed: true, optional: true, required: false
-  private _backupVaultTags?: { [key: string]: string };
+  private _backupVaultTags?: { [key: string]: string }; 
   public get backupVaultTags() {
     return this.getStringMapAttribute('backup_vault_tags');
   }
@@ -283,7 +283,7 @@ export class BackupLogicallyAirGappedBackupVault extends cdktn.TerraformResource
   }
 
   // encryption_key_arn - computed: true, optional: true, required: false
-  private _encryptionKeyArn?: string;
+  private _encryptionKeyArn?: string; 
   public get encryptionKeyArn() {
     return this.getStringAttribute('encryption_key_arn');
   }
@@ -304,7 +304,7 @@ export class BackupLogicallyAirGappedBackupVault extends cdktn.TerraformResource
   }
 
   // max_retention_days - computed: false, optional: false, required: true
-  private _maxRetentionDays?: number;
+  private _maxRetentionDays?: number; 
   public get maxRetentionDays() {
     return this.getNumberAttribute('max_retention_days');
   }
@@ -317,7 +317,7 @@ export class BackupLogicallyAirGappedBackupVault extends cdktn.TerraformResource
   }
 
   // min_retention_days - computed: false, optional: false, required: true
-  private _minRetentionDays?: number;
+  private _minRetentionDays?: number; 
   public get minRetentionDays() {
     return this.getNumberAttribute('min_retention_days');
   }
@@ -330,7 +330,7 @@ export class BackupLogicallyAirGappedBackupVault extends cdktn.TerraformResource
   }
 
   // mpa_approval_team_arn - computed: true, optional: true, required: false
-  private _mpaApprovalTeamArn?: string;
+  private _mpaApprovalTeamArn?: string; 
   public get mpaApprovalTeamArn() {
     return this.getStringAttribute('mpa_approval_team_arn');
   }

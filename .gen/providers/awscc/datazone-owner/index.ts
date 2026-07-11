@@ -113,7 +113,7 @@ export class DatazoneOwnerOwnerGroupOutputReference extends cdktn.ComplexObject 
   }
 
   // group_identifier - computed: true, optional: true, required: false
-  private _groupIdentifier?: string;
+  private _groupIdentifier?: string; 
   public get groupIdentifier() {
     return this.getStringAttribute('group_identifier');
   }
@@ -209,7 +209,7 @@ export class DatazoneOwnerOwnerUserOutputReference extends cdktn.ComplexObject {
   }
 
   // user_identifier - computed: true, optional: true, required: false
-  private _userIdentifier?: string;
+  private _userIdentifier?: string; 
   public get userIdentifier() {
     return this.getStringAttribute('user_identifier');
   }
@@ -417,7 +417,7 @@ export class DatazoneOwner extends cdktn.TerraformResource {
   // ==========
 
   // domain_identifier - computed: false, optional: false, required: true
-  private _domainIdentifier?: string;
+  private _domainIdentifier?: string; 
   public get domainIdentifier() {
     return this.getStringAttribute('domain_identifier');
   }
@@ -430,7 +430,7 @@ export class DatazoneOwner extends cdktn.TerraformResource {
   }
 
   // entity_identifier - computed: false, optional: false, required: true
-  private _entityIdentifier?: string;
+  private _entityIdentifier?: string; 
   public get entityIdentifier() {
     return this.getStringAttribute('entity_identifier');
   }
@@ -443,7 +443,7 @@ export class DatazoneOwner extends cdktn.TerraformResource {
   }
 
   // entity_type - computed: false, optional: false, required: true
-  private _entityType?: string;
+  private _entityType?: string; 
   public get entityType() {
     return this.getStringAttribute('entity_type');
   }

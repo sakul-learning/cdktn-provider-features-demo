@@ -148,7 +148,7 @@ export class OpensearchApplicationAppConfigOutputReference extends cdktn.Complex
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -164,7 +164,7 @@ export class OpensearchApplicationAppConfigOutputReference extends cdktn.Complex
   }
 
   // value - computed: false, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -297,7 +297,7 @@ export class OpensearchApplicationDataSourceOutputReference extends cdktn.Comple
   }
 
   // data_source_arn - computed: false, optional: true, required: false
-  private _dataSourceArn?: string;
+  private _dataSourceArn?: string; 
   public get dataSourceArn() {
     return this.getStringAttribute('data_source_arn');
   }
@@ -313,7 +313,7 @@ export class OpensearchApplicationDataSourceOutputReference extends cdktn.Comple
   }
 
   // data_source_description - computed: false, optional: true, required: false
-  private _dataSourceDescription?: string;
+  private _dataSourceDescription?: string; 
   public get dataSourceDescription() {
     return this.getStringAttribute('data_source_description');
   }
@@ -463,7 +463,7 @@ export class OpensearchApplicationIamIdentityCenterOptionsOutputReference extend
   }
 
   // enabled - computed: false, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -484,7 +484,7 @@ export class OpensearchApplicationIamIdentityCenterOptionsOutputReference extend
   }
 
   // iam_identity_center_instance_arn - computed: false, optional: true, required: false
-  private _iamIdentityCenterInstanceArn?: string;
+  private _iamIdentityCenterInstanceArn?: string; 
   public get iamIdentityCenterInstanceArn() {
     return this.getStringAttribute('iam_identity_center_instance_arn');
   }
@@ -500,7 +500,7 @@ export class OpensearchApplicationIamIdentityCenterOptionsOutputReference extend
   }
 
   // iam_role_for_identity_center_application_arn - computed: false, optional: true, required: false
-  private _iamRoleForIdentityCenterApplicationArn?: string;
+  private _iamRoleForIdentityCenterApplicationArn?: string; 
   public get iamRoleForIdentityCenterApplicationArn() {
     return this.getStringAttribute('iam_role_for_identity_center_application_arn');
   }
@@ -654,7 +654,7 @@ export class OpensearchApplicationTimeoutsOutputReference extends cdktn.ComplexO
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -670,7 +670,7 @@ export class OpensearchApplicationTimeoutsOutputReference extends cdktn.ComplexO
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -686,7 +686,7 @@ export class OpensearchApplicationTimeoutsOutputReference extends cdktn.ComplexO
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -782,7 +782,7 @@ export class OpensearchApplication extends cdktn.TerraformResource {
   }
 
   // kms_key_arn - computed: false, optional: true, required: false
-  private _kmsKeyArn?: string;
+  private _kmsKeyArn?: string; 
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -798,7 +798,7 @@ export class OpensearchApplication extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -811,7 +811,7 @@ export class OpensearchApplication extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -827,7 +827,7 @@ export class OpensearchApplication extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

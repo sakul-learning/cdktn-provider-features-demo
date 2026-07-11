@@ -111,7 +111,7 @@ export class PrometheusQueryLoggingConfigurationDestinationCloudwatchLogsOutputR
   }
 
   // log_group_arn - computed: false, optional: false, required: true
-  private _logGroupArn?: string;
+  private _logGroupArn?: string; 
   public get logGroupArn() {
     return this.getStringAttribute('log_group_arn');
   }
@@ -224,7 +224,7 @@ export class PrometheusQueryLoggingConfigurationDestinationFiltersOutputReferenc
   }
 
   // qsp_threshold - computed: false, optional: false, required: true
-  private _qspThreshold?: number;
+  private _qspThreshold?: number; 
   public get qspThreshold() {
     return this.getNumberAttribute('qsp_threshold');
   }
@@ -528,7 +528,7 @@ export class PrometheusQueryLoggingConfigurationTimeoutsOutputReference extends 
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -544,7 +544,7 @@ export class PrometheusQueryLoggingConfigurationTimeoutsOutputReference extends 
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -560,7 +560,7 @@ export class PrometheusQueryLoggingConfigurationTimeoutsOutputReference extends 
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -637,7 +637,7 @@ export class PrometheusQueryLoggingConfiguration extends cdktn.TerraformResource
   // ==========
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -653,7 +653,7 @@ export class PrometheusQueryLoggingConfiguration extends cdktn.TerraformResource
   }
 
   // workspace_id - computed: false, optional: false, required: true
-  private _workspaceId?: string;
+  private _workspaceId?: string; 
   public get workspaceId() {
     return this.getStringAttribute('workspace_id');
   }

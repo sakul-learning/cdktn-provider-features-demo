@@ -113,7 +113,7 @@ export class DirectoryServiceTrust extends cdktn.TerraformResource {
   // ==========
 
   // conditional_forwarder_ip_addrs - computed: false, optional: true, required: false
-  private _conditionalForwarderIpAddrs?: string[];
+  private _conditionalForwarderIpAddrs?: string[]; 
   public get conditionalForwarderIpAddrs() {
     return cdktn.Fn.tolist(this.getListAttribute('conditional_forwarder_ip_addrs'));
   }
@@ -134,7 +134,7 @@ export class DirectoryServiceTrust extends cdktn.TerraformResource {
   }
 
   // delete_associated_conditional_forwarder - computed: true, optional: true, required: false
-  private _deleteAssociatedConditionalForwarder?: boolean | cdktn.IResolvable;
+  private _deleteAssociatedConditionalForwarder?: boolean | cdktn.IResolvable; 
   public get deleteAssociatedConditionalForwarder() {
     return this.getBooleanAttribute('delete_associated_conditional_forwarder');
   }
@@ -150,7 +150,7 @@ export class DirectoryServiceTrust extends cdktn.TerraformResource {
   }
 
   // directory_id - computed: false, optional: false, required: true
-  private _directoryId?: string;
+  private _directoryId?: string; 
   public get directoryId() {
     return this.getStringAttribute('directory_id');
   }
@@ -173,7 +173,7 @@ export class DirectoryServiceTrust extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -189,7 +189,7 @@ export class DirectoryServiceTrust extends cdktn.TerraformResource {
   }
 
   // remote_domain_name - computed: false, optional: false, required: true
-  private _remoteDomainName?: string;
+  private _remoteDomainName?: string; 
   public get remoteDomainName() {
     return this.getStringAttribute('remote_domain_name');
   }
@@ -202,7 +202,7 @@ export class DirectoryServiceTrust extends cdktn.TerraformResource {
   }
 
   // selective_auth - computed: true, optional: true, required: false
-  private _selectiveAuth?: string;
+  private _selectiveAuth?: string; 
   public get selectiveAuth() {
     return this.getStringAttribute('selective_auth');
   }
@@ -223,7 +223,7 @@ export class DirectoryServiceTrust extends cdktn.TerraformResource {
   }
 
   // trust_direction - computed: false, optional: false, required: true
-  private _trustDirection?: string;
+  private _trustDirection?: string; 
   public get trustDirection() {
     return this.getStringAttribute('trust_direction');
   }
@@ -236,7 +236,7 @@ export class DirectoryServiceTrust extends cdktn.TerraformResource {
   }
 
   // trust_password - computed: false, optional: false, required: true
-  private _trustPassword?: string;
+  private _trustPassword?: string; 
   public get trustPassword() {
     return this.getStringAttribute('trust_password');
   }
@@ -259,7 +259,7 @@ export class DirectoryServiceTrust extends cdktn.TerraformResource {
   }
 
   // trust_type - computed: true, optional: true, required: false
-  private _trustType?: string;
+  private _trustType?: string; 
   public get trustType() {
     return this.getStringAttribute('trust_type');
   }

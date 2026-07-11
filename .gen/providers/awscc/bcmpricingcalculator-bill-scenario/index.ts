@@ -195,7 +195,7 @@ export class BcmpricingcalculatorBillScenarioTagsOutputReference extends cdktn.C
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -211,7 +211,7 @@ export class BcmpricingcalculatorBillScenarioTagsOutputReference extends cdktn.C
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -325,7 +325,7 @@ export class BcmpricingcalculatorBillScenario extends cdktn.TerraformResource {
   }
 
   // cost_category_group_sharing_preference_arn - computed: true, optional: true, required: false
-  private _costCategoryGroupSharingPreferenceArn?: string;
+  private _costCategoryGroupSharingPreferenceArn?: string; 
   public get costCategoryGroupSharingPreferenceArn() {
     return this.getStringAttribute('cost_category_group_sharing_preference_arn');
   }
@@ -346,7 +346,7 @@ export class BcmpricingcalculatorBillScenario extends cdktn.TerraformResource {
   }
 
   // expires_at - computed: true, optional: true, required: false
-  private _expiresAt?: string;
+  private _expiresAt?: string; 
   public get expiresAt() {
     return this.getStringAttribute('expires_at');
   }
@@ -367,7 +367,7 @@ export class BcmpricingcalculatorBillScenario extends cdktn.TerraformResource {
   }
 
   // group_sharing_preference - computed: true, optional: true, required: false
-  private _groupSharingPreference?: string;
+  private _groupSharingPreference?: string; 
   public get groupSharingPreference() {
     return this.getStringAttribute('group_sharing_preference');
   }
@@ -388,7 +388,7 @@ export class BcmpricingcalculatorBillScenario extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }

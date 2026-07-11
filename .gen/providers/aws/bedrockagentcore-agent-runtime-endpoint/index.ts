@@ -159,7 +159,7 @@ export class BedrockagentcoreAgentRuntimeEndpointTimeoutsOutputReference extends
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -175,7 +175,7 @@ export class BedrockagentcoreAgentRuntimeEndpointTimeoutsOutputReference extends
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -191,7 +191,7 @@ export class BedrockagentcoreAgentRuntimeEndpointTimeoutsOutputReference extends
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -281,7 +281,7 @@ export class BedrockagentcoreAgentRuntimeEndpoint extends cdktn.TerraformResourc
   }
 
   // agent_runtime_id - computed: false, optional: false, required: true
-  private _agentRuntimeId?: string;
+  private _agentRuntimeId?: string; 
   public get agentRuntimeId() {
     return this.getStringAttribute('agent_runtime_id');
   }
@@ -294,7 +294,7 @@ export class BedrockagentcoreAgentRuntimeEndpoint extends cdktn.TerraformResourc
   }
 
   // agent_runtime_version - computed: true, optional: true, required: false
-  private _agentRuntimeVersion?: string;
+  private _agentRuntimeVersion?: string; 
   public get agentRuntimeVersion() {
     return this.getStringAttribute('agent_runtime_version');
   }
@@ -310,7 +310,7 @@ export class BedrockagentcoreAgentRuntimeEndpoint extends cdktn.TerraformResourc
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -326,7 +326,7 @@ export class BedrockagentcoreAgentRuntimeEndpoint extends cdktn.TerraformResourc
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -339,7 +339,7 @@ export class BedrockagentcoreAgentRuntimeEndpoint extends cdktn.TerraformResourc
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -355,7 +355,7 @@ export class BedrockagentcoreAgentRuntimeEndpoint extends cdktn.TerraformResourc
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

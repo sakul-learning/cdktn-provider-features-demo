@@ -152,7 +152,7 @@ export class VpclatticeAuthPolicyTimeoutsOutputReference extends cdktn.ComplexOb
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -168,7 +168,7 @@ export class VpclatticeAuthPolicyTimeoutsOutputReference extends cdktn.ComplexOb
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -184,7 +184,7 @@ export class VpclatticeAuthPolicyTimeoutsOutputReference extends cdktn.ComplexOb
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -263,7 +263,7 @@ export class VpclatticeAuthPolicy extends cdktn.TerraformResource {
   // ==========
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -279,7 +279,7 @@ export class VpclatticeAuthPolicy extends cdktn.TerraformResource {
   }
 
   // policy - computed: false, optional: false, required: true
-  private _policy?: string;
+  private _policy?: string; 
   public get policy() {
     return this.getStringAttribute('policy');
   }
@@ -292,7 +292,7 @@ export class VpclatticeAuthPolicy extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -308,7 +308,7 @@ export class VpclatticeAuthPolicy extends cdktn.TerraformResource {
   }
 
   // resource_identifier - computed: false, optional: false, required: true
-  private _resourceIdentifier?: string;
+  private _resourceIdentifier?: string; 
   public get resourceIdentifier() {
     return this.getStringAttribute('resource_identifier');
   }
@@ -321,7 +321,7 @@ export class VpclatticeAuthPolicy extends cdktn.TerraformResource {
   }
 
   // state - computed: false, optional: true, required: false
-  private _state?: string;
+  private _state?: string; 
   public get state() {
     return this.getStringAttribute('state');
   }

@@ -227,7 +227,7 @@ export class Ec2CapacityReservationFleetInstanceTypeSpecificationsOutputReferenc
   }
 
   // availability_zone - computed: true, optional: true, required: false
-  private _availabilityZone?: string;
+  private _availabilityZone?: string; 
   public get availabilityZone() {
     return this.getStringAttribute('availability_zone');
   }
@@ -243,7 +243,7 @@ export class Ec2CapacityReservationFleetInstanceTypeSpecificationsOutputReferenc
   }
 
   // availability_zone_id - computed: true, optional: true, required: false
-  private _availabilityZoneId?: string;
+  private _availabilityZoneId?: string; 
   public get availabilityZoneId() {
     return this.getStringAttribute('availability_zone_id');
   }
@@ -259,7 +259,7 @@ export class Ec2CapacityReservationFleetInstanceTypeSpecificationsOutputReferenc
   }
 
   // ebs_optimized - computed: true, optional: true, required: false
-  private _ebsOptimized?: boolean | cdktn.IResolvable;
+  private _ebsOptimized?: boolean | cdktn.IResolvable; 
   public get ebsOptimized() {
     return this.getBooleanAttribute('ebs_optimized');
   }
@@ -275,7 +275,7 @@ export class Ec2CapacityReservationFleetInstanceTypeSpecificationsOutputReferenc
   }
 
   // instance_platform - computed: true, optional: true, required: false
-  private _instancePlatform?: string;
+  private _instancePlatform?: string; 
   public get instancePlatform() {
     return this.getStringAttribute('instance_platform');
   }
@@ -291,7 +291,7 @@ export class Ec2CapacityReservationFleetInstanceTypeSpecificationsOutputReferenc
   }
 
   // instance_type - computed: true, optional: true, required: false
-  private _instanceType?: string;
+  private _instanceType?: string; 
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -307,7 +307,7 @@ export class Ec2CapacityReservationFleetInstanceTypeSpecificationsOutputReferenc
   }
 
   // priority - computed: true, optional: true, required: false
-  private _priority?: number;
+  private _priority?: number; 
   public get priority() {
     return this.getNumberAttribute('priority');
   }
@@ -323,7 +323,7 @@ export class Ec2CapacityReservationFleetInstanceTypeSpecificationsOutputReferenc
   }
 
   // weight - computed: true, optional: true, required: false
-  private _weight?: number;
+  private _weight?: number; 
   public get weight() {
     return this.getNumberAttribute('weight');
   }
@@ -456,7 +456,7 @@ export class Ec2CapacityReservationFleetTagSpecificationsTagsOutputReference ext
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -472,7 +472,7 @@ export class Ec2CapacityReservationFleetTagSpecificationsTagsOutputReference ext
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -605,7 +605,7 @@ export class Ec2CapacityReservationFleetTagSpecificationsOutputReference extends
   }
 
   // resource_type - computed: true, optional: true, required: false
-  private _resourceType?: string;
+  private _resourceType?: string; 
   public get resourceType() {
     return this.getStringAttribute('resource_type');
   }
@@ -723,7 +723,7 @@ export class Ec2CapacityReservationFleet extends cdktn.TerraformResource {
   // ==========
 
   // allocation_strategy - computed: true, optional: true, required: false
-  private _allocationStrategy?: string;
+  private _allocationStrategy?: string; 
   public get allocationStrategy() {
     return this.getStringAttribute('allocation_strategy');
   }
@@ -744,7 +744,7 @@ export class Ec2CapacityReservationFleet extends cdktn.TerraformResource {
   }
 
   // end_date - computed: true, optional: true, required: false
-  private _endDate?: string;
+  private _endDate?: string; 
   public get endDate() {
     return this.getStringAttribute('end_date');
   }
@@ -765,7 +765,7 @@ export class Ec2CapacityReservationFleet extends cdktn.TerraformResource {
   }
 
   // instance_match_criteria - computed: true, optional: true, required: false
-  private _instanceMatchCriteria?: string;
+  private _instanceMatchCriteria?: string; 
   public get instanceMatchCriteria() {
     return this.getStringAttribute('instance_match_criteria');
   }
@@ -797,7 +797,7 @@ export class Ec2CapacityReservationFleet extends cdktn.TerraformResource {
   }
 
   // no_remove_end_date - computed: true, optional: true, required: false
-  private _noRemoveEndDate?: boolean | cdktn.IResolvable;
+  private _noRemoveEndDate?: boolean | cdktn.IResolvable; 
   public get noRemoveEndDate() {
     return this.getBooleanAttribute('no_remove_end_date');
   }
@@ -813,7 +813,7 @@ export class Ec2CapacityReservationFleet extends cdktn.TerraformResource {
   }
 
   // remove_end_date - computed: true, optional: true, required: false
-  private _removeEndDate?: boolean | cdktn.IResolvable;
+  private _removeEndDate?: boolean | cdktn.IResolvable; 
   public get removeEndDate() {
     return this.getBooleanAttribute('remove_end_date');
   }
@@ -845,7 +845,7 @@ export class Ec2CapacityReservationFleet extends cdktn.TerraformResource {
   }
 
   // tenancy - computed: true, optional: true, required: false
-  private _tenancy?: string;
+  private _tenancy?: string; 
   public get tenancy() {
     return this.getStringAttribute('tenancy');
   }
@@ -861,7 +861,7 @@ export class Ec2CapacityReservationFleet extends cdktn.TerraformResource {
   }
 
   // total_target_capacity - computed: true, optional: true, required: false
-  private _totalTargetCapacity?: number;
+  private _totalTargetCapacity?: number; 
   public get totalTargetCapacity() {
     return this.getNumberAttribute('total_target_capacity');
   }

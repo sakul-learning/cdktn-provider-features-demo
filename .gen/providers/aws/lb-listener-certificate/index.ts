@@ -91,7 +91,7 @@ export class LbListenerCertificate extends cdktn.TerraformResource {
   // ==========
 
   // certificate_arn - computed: false, optional: false, required: true
-  private _certificateArn?: string;
+  private _certificateArn?: string; 
   public get certificateArn() {
     return this.getStringAttribute('certificate_arn');
   }
@@ -104,7 +104,7 @@ export class LbListenerCertificate extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -120,7 +120,7 @@ export class LbListenerCertificate extends cdktn.TerraformResource {
   }
 
   // listener_arn - computed: false, optional: false, required: true
-  private _listenerArn?: string;
+  private _listenerArn?: string; 
   public get listenerArn() {
     return this.getStringAttribute('listener_arn');
   }
@@ -133,7 +133,7 @@ export class LbListenerCertificate extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

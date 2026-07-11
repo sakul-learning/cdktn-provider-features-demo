@@ -173,7 +173,7 @@ export class FsxFileCacheDataRepositoryAssociationNfsOutputReference extends cdk
   }
 
   // dns_ips - computed: false, optional: true, required: false
-  private _dnsIps?: string[];
+  private _dnsIps?: string[]; 
   public get dnsIps() {
     return cdktn.Fn.tolist(this.getListAttribute('dns_ips'));
   }
@@ -189,7 +189,7 @@ export class FsxFileCacheDataRepositoryAssociationNfsOutputReference extends cdk
   }
 
   // version - computed: false, optional: false, required: true
-  private _version?: string;
+  private _version?: string; 
   public get version() {
     return this.getStringAttribute('version');
   }
@@ -377,7 +377,7 @@ export class FsxFileCacheDataRepositoryAssociationOutputReference extends cdktn.
   }
 
   // data_repository_path - computed: false, optional: false, required: true
-  private _dataRepositoryPath?: string;
+  private _dataRepositoryPath?: string; 
   public get dataRepositoryPath() {
     return this.getStringAttribute('data_repository_path');
   }
@@ -390,7 +390,7 @@ export class FsxFileCacheDataRepositoryAssociationOutputReference extends cdktn.
   }
 
   // data_repository_subdirectories - computed: false, optional: true, required: false
-  private _dataRepositorySubdirectories?: string[];
+  private _dataRepositorySubdirectories?: string[]; 
   public get dataRepositorySubdirectories() {
     return cdktn.Fn.tolist(this.getListAttribute('data_repository_subdirectories'));
   }
@@ -411,7 +411,7 @@ export class FsxFileCacheDataRepositoryAssociationOutputReference extends cdktn.
   }
 
   // file_cache_path - computed: false, optional: false, required: true
-  private _fileCachePath?: string;
+  private _fileCachePath?: string; 
   public get fileCachePath() {
     return this.getStringAttribute('file_cache_path');
   }
@@ -444,7 +444,7 @@ export class FsxFileCacheDataRepositoryAssociationOutputReference extends cdktn.
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -656,7 +656,7 @@ export class FsxFileCacheLustreConfigurationMetadataConfigurationOutputReference
   }
 
   // storage_capacity - computed: false, optional: false, required: true
-  private _storageCapacity?: number;
+  private _storageCapacity?: number; 
   public get storageCapacity() {
     return this.getNumberAttribute('storage_capacity');
   }
@@ -822,7 +822,7 @@ export class FsxFileCacheLustreConfigurationOutputReference extends cdktn.Comple
   }
 
   // deployment_type - computed: false, optional: false, required: true
-  private _deploymentType?: string;
+  private _deploymentType?: string; 
   public get deploymentType() {
     return this.getStringAttribute('deployment_type');
   }
@@ -846,7 +846,7 @@ export class FsxFileCacheLustreConfigurationOutputReference extends cdktn.Comple
   }
 
   // per_unit_storage_throughput - computed: false, optional: false, required: true
-  private _perUnitStorageThroughput?: number;
+  private _perUnitStorageThroughput?: number; 
   public get perUnitStorageThroughput() {
     return this.getNumberAttribute('per_unit_storage_throughput');
   }
@@ -859,7 +859,7 @@ export class FsxFileCacheLustreConfigurationOutputReference extends cdktn.Comple
   }
 
   // weekly_maintenance_start_time - computed: false, optional: true, required: false
-  private _weeklyMaintenanceStartTime?: string;
+  private _weeklyMaintenanceStartTime?: string; 
   public get weeklyMaintenanceStartTime() {
     return this.getStringAttribute('weekly_maintenance_start_time');
   }
@@ -1020,7 +1020,7 @@ export class FsxFileCacheTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -1036,7 +1036,7 @@ export class FsxFileCacheTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -1052,7 +1052,7 @@ export class FsxFileCacheTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -1144,7 +1144,7 @@ export class FsxFileCache extends cdktn.TerraformResource {
   }
 
   // copy_tags_to_data_repository_associations - computed: false, optional: true, required: false
-  private _copyTagsToDataRepositoryAssociations?: boolean | cdktn.IResolvable;
+  private _copyTagsToDataRepositoryAssociations?: boolean | cdktn.IResolvable; 
   public get copyTagsToDataRepositoryAssociations() {
     return this.getBooleanAttribute('copy_tags_to_data_repository_associations');
   }
@@ -1175,7 +1175,7 @@ export class FsxFileCache extends cdktn.TerraformResource {
   }
 
   // file_cache_type - computed: false, optional: false, required: true
-  private _fileCacheType?: string;
+  private _fileCacheType?: string; 
   public get fileCacheType() {
     return this.getStringAttribute('file_cache_type');
   }
@@ -1188,7 +1188,7 @@ export class FsxFileCache extends cdktn.TerraformResource {
   }
 
   // file_cache_type_version - computed: false, optional: false, required: true
-  private _fileCacheTypeVersion?: string;
+  private _fileCacheTypeVersion?: string; 
   public get fileCacheTypeVersion() {
     return this.getStringAttribute('file_cache_type_version');
   }
@@ -1201,7 +1201,7 @@ export class FsxFileCache extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -1217,7 +1217,7 @@ export class FsxFileCache extends cdktn.TerraformResource {
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -1243,7 +1243,7 @@ export class FsxFileCache extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1259,7 +1259,7 @@ export class FsxFileCache extends cdktn.TerraformResource {
   }
 
   // security_group_ids - computed: false, optional: true, required: false
-  private _securityGroupIds?: string[];
+  private _securityGroupIds?: string[]; 
   public get securityGroupIds() {
     return cdktn.Fn.tolist(this.getListAttribute('security_group_ids'));
   }
@@ -1275,7 +1275,7 @@ export class FsxFileCache extends cdktn.TerraformResource {
   }
 
   // storage_capacity - computed: false, optional: false, required: true
-  private _storageCapacity?: number;
+  private _storageCapacity?: number; 
   public get storageCapacity() {
     return this.getNumberAttribute('storage_capacity');
   }
@@ -1288,7 +1288,7 @@ export class FsxFileCache extends cdktn.TerraformResource {
   }
 
   // subnet_ids - computed: false, optional: false, required: true
-  private _subnetIds?: string[];
+  private _subnetIds?: string[]; 
   public get subnetIds() {
     return this.getListAttribute('subnet_ids');
   }
@@ -1301,7 +1301,7 @@ export class FsxFileCache extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -1317,7 +1317,7 @@ export class FsxFileCache extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

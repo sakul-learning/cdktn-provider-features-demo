@@ -86,7 +86,7 @@ export class EventschemasRegistryPolicy extends cdktn.TerraformResource {
   }
 
   // policy - computed: false, optional: false, required: true
-  private _policy?: string;
+  private _policy?: string; 
   public get policy() {
     return this.getStringAttribute('policy');
   }
@@ -99,7 +99,7 @@ export class EventschemasRegistryPolicy extends cdktn.TerraformResource {
   }
 
   // registry_name - computed: false, optional: false, required: true
-  private _registryName?: string;
+  private _registryName?: string; 
   public get registryName() {
     return this.getStringAttribute('registry_name');
   }
@@ -117,7 +117,7 @@ export class EventschemasRegistryPolicy extends cdktn.TerraformResource {
   }
 
   // revision_id - computed: true, optional: true, required: false
-  private _revisionId?: string;
+  private _revisionId?: string; 
   public get revisionId() {
     return this.getStringAttribute('revision_id');
   }

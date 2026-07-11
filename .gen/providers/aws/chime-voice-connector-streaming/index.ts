@@ -129,7 +129,7 @@ export class ChimeVoiceConnectorStreamingMediaInsightsConfigurationOutputReferen
   }
 
   // configuration_arn - computed: false, optional: true, required: false
-  private _configurationArn?: string;
+  private _configurationArn?: string; 
   public get configurationArn() {
     return this.getStringAttribute('configuration_arn');
   }
@@ -145,7 +145,7 @@ export class ChimeVoiceConnectorStreamingMediaInsightsConfigurationOutputReferen
   }
 
   // disabled - computed: false, optional: true, required: false
-  private _disabled?: boolean | cdktn.IResolvable;
+  private _disabled?: boolean | cdktn.IResolvable; 
   public get disabled() {
     return this.getBooleanAttribute('disabled');
   }
@@ -225,7 +225,7 @@ export class ChimeVoiceConnectorStreaming extends cdktn.TerraformResource {
   // ==========
 
   // data_retention - computed: false, optional: false, required: true
-  private _dataRetention?: number;
+  private _dataRetention?: number; 
   public get dataRetention() {
     return this.getNumberAttribute('data_retention');
   }
@@ -238,7 +238,7 @@ export class ChimeVoiceConnectorStreaming extends cdktn.TerraformResource {
   }
 
   // disabled - computed: false, optional: true, required: false
-  private _disabled?: boolean | cdktn.IResolvable;
+  private _disabled?: boolean | cdktn.IResolvable; 
   public get disabled() {
     return this.getBooleanAttribute('disabled');
   }
@@ -254,7 +254,7 @@ export class ChimeVoiceConnectorStreaming extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -270,7 +270,7 @@ export class ChimeVoiceConnectorStreaming extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -286,7 +286,7 @@ export class ChimeVoiceConnectorStreaming extends cdktn.TerraformResource {
   }
 
   // streaming_notification_targets - computed: false, optional: true, required: false
-  private _streamingNotificationTargets?: string[];
+  private _streamingNotificationTargets?: string[]; 
   public get streamingNotificationTargets() {
     return cdktn.Fn.tolist(this.getListAttribute('streaming_notification_targets'));
   }
@@ -302,7 +302,7 @@ export class ChimeVoiceConnectorStreaming extends cdktn.TerraformResource {
   }
 
   // voice_connector_id - computed: false, optional: false, required: true
-  private _voiceConnectorId?: string;
+  private _voiceConnectorId?: string; 
   public get voiceConnectorId() {
     return this.getStringAttribute('voice_connector_id');
   }

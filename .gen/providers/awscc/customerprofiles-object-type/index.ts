@@ -205,7 +205,7 @@ export class CustomerprofilesObjectTypeFieldsObjectTypeFieldOutputReference exte
   }
 
   // content_type - computed: true, optional: true, required: false
-  private _contentType?: string;
+  private _contentType?: string; 
   public get contentType() {
     return this.getStringAttribute('content_type');
   }
@@ -221,7 +221,7 @@ export class CustomerprofilesObjectTypeFieldsObjectTypeFieldOutputReference exte
   }
 
   // source - computed: true, optional: true, required: false
-  private _source?: string;
+  private _source?: string; 
   public get source() {
     return this.getStringAttribute('source');
   }
@@ -237,7 +237,7 @@ export class CustomerprofilesObjectTypeFieldsObjectTypeFieldOutputReference exte
   }
 
   // target - computed: true, optional: true, required: false
-  private _target?: string;
+  private _target?: string; 
   public get target() {
     return this.getStringAttribute('target');
   }
@@ -352,7 +352,7 @@ export class CustomerprofilesObjectTypeFieldsOutputReference extends cdktn.Compl
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -405,7 +405,7 @@ export class CustomerprofilesObjectTypeFieldsList extends cdktn.ComplexList {
 }
 export interface CustomerprofilesObjectTypeKeysObjectTypeKeyListStruct {
   /**
-  * The reference for the key name of the fields map.
+  * The reference for the key name of the fields map. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_object_type#field_names CustomerprofilesObjectType#field_names}
   */
@@ -505,7 +505,7 @@ export class CustomerprofilesObjectTypeKeysObjectTypeKeyListStructOutputReferenc
   }
 
   // field_names - computed: true, optional: true, required: false
-  private _fieldNames?: string[];
+  private _fieldNames?: string[]; 
   public get fieldNames() {
     return this.getListAttribute('field_names');
   }
@@ -521,7 +521,7 @@ export class CustomerprofilesObjectTypeKeysObjectTypeKeyListStructOutputReferenc
   }
 
   // standard_identifiers - computed: true, optional: true, required: false
-  private _standardIdentifiers?: string[];
+  private _standardIdentifiers?: string[]; 
   public get standardIdentifiers() {
     return this.getListAttribute('standard_identifiers');
   }
@@ -654,7 +654,7 @@ export class CustomerprofilesObjectTypeKeysOutputReference extends cdktn.Complex
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -803,7 +803,7 @@ export class CustomerprofilesObjectTypeTagsOutputReference extends cdktn.Complex
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -819,7 +819,7 @@ export class CustomerprofilesObjectTypeTagsOutputReference extends cdktn.Complex
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -925,7 +925,7 @@ export class CustomerprofilesObjectType extends cdktn.TerraformResource {
   // ==========
 
   // allow_profile_creation - computed: true, optional: true, required: false
-  private _allowProfileCreation?: boolean | cdktn.IResolvable;
+  private _allowProfileCreation?: boolean | cdktn.IResolvable; 
   public get allowProfileCreation() {
     return this.getBooleanAttribute('allow_profile_creation');
   }
@@ -946,7 +946,7 @@ export class CustomerprofilesObjectType extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: false, required: true
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -959,7 +959,7 @@ export class CustomerprofilesObjectType extends cdktn.TerraformResource {
   }
 
   // domain_name - computed: false, optional: false, required: true
-  private _domainName?: string;
+  private _domainName?: string; 
   public get domainName() {
     return this.getStringAttribute('domain_name');
   }
@@ -972,7 +972,7 @@ export class CustomerprofilesObjectType extends cdktn.TerraformResource {
   }
 
   // encryption_key - computed: true, optional: true, required: false
-  private _encryptionKey?: string;
+  private _encryptionKey?: string; 
   public get encryptionKey() {
     return this.getStringAttribute('encryption_key');
   }
@@ -988,7 +988,7 @@ export class CustomerprofilesObjectType extends cdktn.TerraformResource {
   }
 
   // expiration_days - computed: true, optional: true, required: false
-  private _expirationDays?: number;
+  private _expirationDays?: number; 
   public get expirationDays() {
     return this.getNumberAttribute('expiration_days');
   }
@@ -1051,7 +1051,7 @@ export class CustomerprofilesObjectType extends cdktn.TerraformResource {
   }
 
   // max_profile_object_count - computed: true, optional: true, required: false
-  private _maxProfileObjectCount?: number;
+  private _maxProfileObjectCount?: number; 
   public get maxProfileObjectCount() {
     return this.getNumberAttribute('max_profile_object_count');
   }
@@ -1067,7 +1067,7 @@ export class CustomerprofilesObjectType extends cdktn.TerraformResource {
   }
 
   // object_type_name - computed: false, optional: false, required: true
-  private _objectTypeName?: string;
+  private _objectTypeName?: string; 
   public get objectTypeName() {
     return this.getStringAttribute('object_type_name');
   }
@@ -1080,7 +1080,7 @@ export class CustomerprofilesObjectType extends cdktn.TerraformResource {
   }
 
   // source_last_updated_timestamp_format - computed: true, optional: true, required: false
-  private _sourceLastUpdatedTimestampFormat?: string;
+  private _sourceLastUpdatedTimestampFormat?: string; 
   public get sourceLastUpdatedTimestampFormat() {
     return this.getStringAttribute('source_last_updated_timestamp_format');
   }
@@ -1096,7 +1096,7 @@ export class CustomerprofilesObjectType extends cdktn.TerraformResource {
   }
 
   // source_priority - computed: true, optional: true, required: false
-  private _sourcePriority?: number;
+  private _sourcePriority?: number; 
   public get sourcePriority() {
     return this.getNumberAttribute('source_priority');
   }
@@ -1128,7 +1128,7 @@ export class CustomerprofilesObjectType extends cdktn.TerraformResource {
   }
 
   // template_id - computed: true, optional: true, required: false
-  private _templateId?: string;
+  private _templateId?: string; 
   public get templateId() {
     return this.getStringAttribute('template_id');
   }

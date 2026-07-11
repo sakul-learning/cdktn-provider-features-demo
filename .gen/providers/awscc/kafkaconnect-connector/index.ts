@@ -173,7 +173,7 @@ export class KafkaconnectConnectorCapacityAutoScalingScaleInPolicyOutputReferenc
   }
 
   // cpu_utilization_percentage - computed: true, optional: true, required: false
-  private _cpuUtilizationPercentage?: number;
+  private _cpuUtilizationPercentage?: number; 
   public get cpuUtilizationPercentage() {
     return this.getNumberAttribute('cpu_utilization_percentage');
   }
@@ -269,7 +269,7 @@ export class KafkaconnectConnectorCapacityAutoScalingScaleOutPolicyOutputReferen
   }
 
   // cpu_utilization_percentage - computed: true, optional: true, required: false
-  private _cpuUtilizationPercentage?: number;
+  private _cpuUtilizationPercentage?: number; 
   public get cpuUtilizationPercentage() {
     return this.getNumberAttribute('cpu_utilization_percentage');
   }
@@ -460,7 +460,7 @@ export class KafkaconnectConnectorCapacityAutoScalingOutputReference extends cdk
   }
 
   // max_autoscaling_task_count - computed: true, optional: true, required: false
-  private _maxAutoscalingTaskCount?: number;
+  private _maxAutoscalingTaskCount?: number; 
   public get maxAutoscalingTaskCount() {
     return this.getNumberAttribute('max_autoscaling_task_count');
   }
@@ -476,7 +476,7 @@ export class KafkaconnectConnectorCapacityAutoScalingOutputReference extends cdk
   }
 
   // max_worker_count - computed: true, optional: true, required: false
-  private _maxWorkerCount?: number;
+  private _maxWorkerCount?: number; 
   public get maxWorkerCount() {
     return this.getNumberAttribute('max_worker_count');
   }
@@ -492,7 +492,7 @@ export class KafkaconnectConnectorCapacityAutoScalingOutputReference extends cdk
   }
 
   // mcu_count - computed: true, optional: true, required: false
-  private _mcuCount?: number;
+  private _mcuCount?: number; 
   public get mcuCount() {
     return this.getNumberAttribute('mcu_count');
   }
@@ -508,7 +508,7 @@ export class KafkaconnectConnectorCapacityAutoScalingOutputReference extends cdk
   }
 
   // min_worker_count - computed: true, optional: true, required: false
-  private _minWorkerCount?: number;
+  private _minWorkerCount?: number; 
   public get minWorkerCount() {
     return this.getNumberAttribute('min_worker_count');
   }
@@ -655,7 +655,7 @@ export class KafkaconnectConnectorCapacityProvisionedCapacityOutputReference ext
   }
 
   // mcu_count - computed: true, optional: true, required: false
-  private _mcuCount?: number;
+  private _mcuCount?: number; 
   public get mcuCount() {
     return this.getNumberAttribute('mcu_count');
   }
@@ -671,7 +671,7 @@ export class KafkaconnectConnectorCapacityProvisionedCapacityOutputReference ext
   }
 
   // worker_count - computed: true, optional: true, required: false
-  private _workerCount?: number;
+  private _workerCount?: number; 
   public get workerCount() {
     return this.getNumberAttribute('worker_count');
   }
@@ -917,7 +917,7 @@ export class KafkaconnectConnectorKafkaClusterApacheKafkaClusterVpcOutputReferen
   }
 
   // security_groups - computed: false, optional: false, required: true
-  private _securityGroups?: string[];
+  private _securityGroups?: string[]; 
   public get securityGroups() {
     return cdktn.Fn.tolist(this.getListAttribute('security_groups'));
   }
@@ -930,7 +930,7 @@ export class KafkaconnectConnectorKafkaClusterApacheKafkaClusterVpcOutputReferen
   }
 
   // subnets - computed: false, optional: false, required: true
-  private _subnets?: string[];
+  private _subnets?: string[]; 
   public get subnets() {
     return cdktn.Fn.tolist(this.getListAttribute('subnets'));
   }
@@ -1042,7 +1042,7 @@ export class KafkaconnectConnectorKafkaClusterApacheKafkaClusterOutputReference 
   }
 
   // bootstrap_servers - computed: false, optional: false, required: true
-  private _bootstrapServers?: string;
+  private _bootstrapServers?: string; 
   public get bootstrapServers() {
     return this.getStringAttribute('bootstrap_servers');
   }
@@ -1241,7 +1241,7 @@ export class KafkaconnectConnectorKafkaClusterClientAuthenticationOutputReferenc
   }
 
   // authentication_type - computed: false, optional: false, required: true
-  private _authenticationType?: string;
+  private _authenticationType?: string; 
   public get authenticationType() {
     return this.getStringAttribute('authentication_type');
   }
@@ -1334,7 +1334,7 @@ export class KafkaconnectConnectorKafkaClusterEncryptionInTransitOutputReference
   }
 
   // encryption_type - computed: false, optional: false, required: true
-  private _encryptionType?: string;
+  private _encryptionType?: string; 
   public get encryptionType() {
     return this.getStringAttribute('encryption_type');
   }
@@ -1446,7 +1446,7 @@ export class KafkaconnectConnectorLogDeliveryWorkerLogDeliveryCloudwatchLogsOutp
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -1462,7 +1462,7 @@ export class KafkaconnectConnectorLogDeliveryWorkerLogDeliveryCloudwatchLogsOutp
   }
 
   // log_group - computed: true, optional: true, required: false
-  private _logGroup?: string;
+  private _logGroup?: string; 
   public get logGroup() {
     return this.getStringAttribute('log_group');
   }
@@ -1577,7 +1577,7 @@ export class KafkaconnectConnectorLogDeliveryWorkerLogDeliveryFirehoseOutputRefe
   }
 
   // delivery_stream - computed: true, optional: true, required: false
-  private _deliveryStream?: string;
+  private _deliveryStream?: string; 
   public get deliveryStream() {
     return this.getStringAttribute('delivery_stream');
   }
@@ -1593,7 +1593,7 @@ export class KafkaconnectConnectorLogDeliveryWorkerLogDeliveryFirehoseOutputRefe
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -1727,7 +1727,7 @@ export class KafkaconnectConnectorLogDeliveryWorkerLogDeliveryS3OutputReference 
   }
 
   // bucket - computed: true, optional: true, required: false
-  private _bucket?: string;
+  private _bucket?: string; 
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -1743,7 +1743,7 @@ export class KafkaconnectConnectorLogDeliveryWorkerLogDeliveryS3OutputReference 
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -1759,7 +1759,7 @@ export class KafkaconnectConnectorLogDeliveryWorkerLogDeliveryS3OutputReference 
   }
 
   // prefix - computed: true, optional: true, required: false
-  private _prefix?: string;
+  private _prefix?: string; 
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -2136,7 +2136,7 @@ export class KafkaconnectConnectorPluginsCustomPluginOutputReference extends cdk
   }
 
   // custom_plugin_arn - computed: false, optional: false, required: true
-  private _customPluginArn?: string;
+  private _customPluginArn?: string; 
   public get customPluginArn() {
     return this.getStringAttribute('custom_plugin_arn');
   }
@@ -2149,7 +2149,7 @@ export class KafkaconnectConnectorPluginsCustomPluginOutputReference extends cdk
   }
 
   // revision - computed: false, optional: false, required: true
-  private _revision?: number;
+  private _revision?: number; 
   public get revision() {
     return this.getNumberAttribute('revision');
   }
@@ -2374,7 +2374,7 @@ export class KafkaconnectConnectorTagsOutputReference extends cdktn.ComplexObjec
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -2390,7 +2390,7 @@ export class KafkaconnectConnectorTagsOutputReference extends cdktn.ComplexObjec
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2525,7 +2525,7 @@ export class KafkaconnectConnectorWorkerConfigurationOutputReference extends cdk
   }
 
   // revision - computed: true, optional: true, required: false
-  private _revision?: number;
+  private _revision?: number; 
   public get revision() {
     return this.getNumberAttribute('revision');
   }
@@ -2541,7 +2541,7 @@ export class KafkaconnectConnectorWorkerConfigurationOutputReference extends cdk
   }
 
   // worker_configuration_arn - computed: true, optional: true, required: false
-  private _workerConfigurationArn?: string;
+  private _workerConfigurationArn?: string; 
   public get workerConfigurationArn() {
     return this.getStringAttribute('worker_configuration_arn');
   }
@@ -2646,7 +2646,7 @@ export class KafkaconnectConnector extends cdktn.TerraformResource {
   }
 
   // connector_configuration - computed: false, optional: false, required: true
-  private _connectorConfiguration?: { [key: string]: string };
+  private _connectorConfiguration?: { [key: string]: string }; 
   public get connectorConfiguration() {
     return this.getStringMapAttribute('connector_configuration');
   }
@@ -2659,7 +2659,7 @@ export class KafkaconnectConnector extends cdktn.TerraformResource {
   }
 
   // connector_description - computed: true, optional: true, required: false
-  private _connectorDescription?: string;
+  private _connectorDescription?: string; 
   public get connectorDescription() {
     return this.getStringAttribute('connector_description');
   }
@@ -2675,7 +2675,7 @@ export class KafkaconnectConnector extends cdktn.TerraformResource {
   }
 
   // connector_name - computed: false, optional: false, required: true
-  private _connectorName?: string;
+  private _connectorName?: string; 
   public get connectorName() {
     return this.getStringAttribute('connector_name');
   }
@@ -2732,7 +2732,7 @@ export class KafkaconnectConnector extends cdktn.TerraformResource {
   }
 
   // kafka_connect_version - computed: false, optional: false, required: true
-  private _kafkaConnectVersion?: string;
+  private _kafkaConnectVersion?: string; 
   public get kafkaConnectVersion() {
     return this.getStringAttribute('kafka_connect_version');
   }
@@ -2761,7 +2761,7 @@ export class KafkaconnectConnector extends cdktn.TerraformResource {
   }
 
   // network_type - computed: true, optional: true, required: false
-  private _networkType?: string;
+  private _networkType?: string; 
   public get networkType() {
     return this.getStringAttribute('network_type');
   }
@@ -2790,7 +2790,7 @@ export class KafkaconnectConnector extends cdktn.TerraformResource {
   }
 
   // service_execution_role_arn - computed: false, optional: false, required: true
-  private _serviceExecutionRoleArn?: string;
+  private _serviceExecutionRoleArn?: string; 
   public get serviceExecutionRoleArn() {
     return this.getStringAttribute('service_execution_role_arn');
   }

@@ -101,7 +101,7 @@ export class DataAwsDxLocation extends cdktn.TerraformDataSource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -117,7 +117,7 @@ export class DataAwsDxLocation extends cdktn.TerraformDataSource {
   }
 
   // location_code - computed: false, optional: false, required: true
-  private _locationCode?: string;
+  private _locationCode?: string; 
   public get locationCode() {
     return this.getStringAttribute('location_code');
   }
@@ -135,7 +135,7 @@ export class DataAwsDxLocation extends cdktn.TerraformDataSource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

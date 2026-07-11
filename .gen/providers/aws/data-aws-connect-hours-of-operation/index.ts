@@ -364,7 +364,7 @@ export class DataAwsConnectHoursOfOperation extends cdktn.TerraformDataSource {
   }
 
   // hours_of_operation_id - computed: true, optional: true, required: false
-  private _hoursOfOperationId?: string;
+  private _hoursOfOperationId?: string; 
   public get hoursOfOperationId() {
     return this.getStringAttribute('hours_of_operation_id');
   }
@@ -380,7 +380,7 @@ export class DataAwsConnectHoursOfOperation extends cdktn.TerraformDataSource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -396,7 +396,7 @@ export class DataAwsConnectHoursOfOperation extends cdktn.TerraformDataSource {
   }
 
   // instance_id - computed: false, optional: false, required: true
-  private _instanceId?: string;
+  private _instanceId?: string; 
   public get instanceId() {
     return this.getStringAttribute('instance_id');
   }
@@ -409,7 +409,7 @@ export class DataAwsConnectHoursOfOperation extends cdktn.TerraformDataSource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -425,7 +425,7 @@ export class DataAwsConnectHoursOfOperation extends cdktn.TerraformDataSource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -441,7 +441,7 @@ export class DataAwsConnectHoursOfOperation extends cdktn.TerraformDataSource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

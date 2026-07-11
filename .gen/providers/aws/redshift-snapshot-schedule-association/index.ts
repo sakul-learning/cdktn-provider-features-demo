@@ -91,7 +91,7 @@ export class RedshiftSnapshotScheduleAssociation extends cdktn.TerraformResource
   // ==========
 
   // cluster_identifier - computed: false, optional: false, required: true
-  private _clusterIdentifier?: string;
+  private _clusterIdentifier?: string; 
   public get clusterIdentifier() {
     return this.getStringAttribute('cluster_identifier');
   }
@@ -104,7 +104,7 @@ export class RedshiftSnapshotScheduleAssociation extends cdktn.TerraformResource
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -120,7 +120,7 @@ export class RedshiftSnapshotScheduleAssociation extends cdktn.TerraformResource
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -136,7 +136,7 @@ export class RedshiftSnapshotScheduleAssociation extends cdktn.TerraformResource
   }
 
   // schedule_identifier - computed: false, optional: false, required: true
-  private _scheduleIdentifier?: string;
+  private _scheduleIdentifier?: string; 
   public get scheduleIdentifier() {
     return this.getStringAttribute('schedule_identifier');
   }

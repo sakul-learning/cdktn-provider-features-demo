@@ -46,7 +46,7 @@ export interface IamUserConfig extends cdktn.TerraformMetaArguments {
   readonly permissionsBoundary?: string;
   /**
   * Adds or updates an inline policy document that is embedded in the specified IAM user. To view AWS::IAM::User snippets, see [Declaring an User Resource](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/quickref-iam.html#scenario-iam-user).
-  *   The name of each policy for a role, user, or group must be unique. If you don't choose unique names, updates to the IAM identity will fail.
+  *   The name of each policy for a role, user, or group must be unique. If you don't choose unique names, updates to the IAM identity will fail. 
   *   For information about limits on the number of inline policies that you can embed in a user, see [Limitations on Entities](https://docs.aws.amazon.com/IAM/latest/UserGuide/LimitationsOnEntities.html) in the *User Guide*.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iam_user#policies IamUser#policies}
@@ -170,7 +170,7 @@ export class IamUserLoginProfileOutputReference extends cdktn.ComplexObject {
   }
 
   // password - computed: true, optional: true, required: false
-  private _password?: string;
+  private _password?: string; 
   public get password() {
     return this.getStringAttribute('password');
   }
@@ -186,7 +186,7 @@ export class IamUserLoginProfileOutputReference extends cdktn.ComplexObject {
   }
 
   // password_reset_required - computed: true, optional: true, required: false
-  private _passwordResetRequired?: boolean | cdktn.IResolvable;
+  private _passwordResetRequired?: boolean | cdktn.IResolvable; 
   public get passwordResetRequired() {
     return this.getBooleanAttribute('password_reset_required');
   }
@@ -303,7 +303,7 @@ export class IamUserPoliciesOutputReference extends cdktn.ComplexObject {
   }
 
   // policy_document - computed: true, optional: true, required: false
-  private _policyDocument?: string;
+  private _policyDocument?: string; 
   public get policyDocument() {
     return this.getStringAttribute('policy_document');
   }
@@ -319,7 +319,7 @@ export class IamUserPoliciesOutputReference extends cdktn.ComplexObject {
   }
 
   // policy_name - computed: true, optional: true, required: false
-  private _policyName?: string;
+  private _policyName?: string; 
   public get policyName() {
     return this.getStringAttribute('policy_name');
   }
@@ -456,7 +456,7 @@ export class IamUserTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -472,7 +472,7 @@ export class IamUserTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -578,7 +578,7 @@ export class IamUser extends cdktn.TerraformResource {
   }
 
   // groups - computed: true, optional: true, required: false
-  private _groups?: string[];
+  private _groups?: string[]; 
   public get groups() {
     return this.getListAttribute('groups');
   }
@@ -615,7 +615,7 @@ export class IamUser extends cdktn.TerraformResource {
   }
 
   // managed_policy_arns - computed: true, optional: true, required: false
-  private _managedPolicyArns?: string[];
+  private _managedPolicyArns?: string[]; 
   public get managedPolicyArns() {
     return cdktn.Fn.tolist(this.getListAttribute('managed_policy_arns'));
   }
@@ -631,7 +631,7 @@ export class IamUser extends cdktn.TerraformResource {
   }
 
   // path - computed: true, optional: true, required: false
-  private _path?: string;
+  private _path?: string; 
   public get path() {
     return this.getStringAttribute('path');
   }
@@ -647,7 +647,7 @@ export class IamUser extends cdktn.TerraformResource {
   }
 
   // permissions_boundary - computed: true, optional: true, required: false
-  private _permissionsBoundary?: string;
+  private _permissionsBoundary?: string; 
   public get permissionsBoundary() {
     return this.getStringAttribute('permissions_boundary');
   }
@@ -695,7 +695,7 @@ export class IamUser extends cdktn.TerraformResource {
   }
 
   // user_name - computed: true, optional: true, required: false
-  private _userName?: string;
+  private _userName?: string; 
   public get userName() {
     return this.getStringAttribute('user_name');
   }

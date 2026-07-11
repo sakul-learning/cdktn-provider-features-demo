@@ -91,7 +91,7 @@ export class LightsailLbCertificateAttachment extends cdktn.TerraformResource {
   // ==========
 
   // certificate_name - computed: false, optional: false, required: true
-  private _certificateName?: string;
+  private _certificateName?: string; 
   public get certificateName() {
     return this.getStringAttribute('certificate_name');
   }
@@ -104,7 +104,7 @@ export class LightsailLbCertificateAttachment extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -120,7 +120,7 @@ export class LightsailLbCertificateAttachment extends cdktn.TerraformResource {
   }
 
   // lb_name - computed: false, optional: false, required: true
-  private _lbName?: string;
+  private _lbName?: string; 
   public get lbName() {
     return this.getStringAttribute('lb_name');
   }
@@ -133,7 +133,7 @@ export class LightsailLbCertificateAttachment extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

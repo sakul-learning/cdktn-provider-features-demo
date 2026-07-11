@@ -87,7 +87,7 @@ export class PersonalizeSchema extends cdktn.TerraformResource {
   // ==========
 
   // domain - computed: true, optional: true, required: false
-  private _domain?: string;
+  private _domain?: string; 
   public get domain() {
     return this.getStringAttribute('domain');
   }
@@ -108,7 +108,7 @@ export class PersonalizeSchema extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -121,7 +121,7 @@ export class PersonalizeSchema extends cdktn.TerraformResource {
   }
 
   // schema - computed: false, optional: false, required: true
-  private _schema?: string;
+  private _schema?: string; 
   public get schema() {
     return this.getStringAttribute('schema');
   }

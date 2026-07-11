@@ -96,7 +96,7 @@ export class PinpointEventStream extends cdktn.TerraformResource {
   // ==========
 
   // application_id - computed: false, optional: false, required: true
-  private _applicationId?: string;
+  private _applicationId?: string; 
   public get applicationId() {
     return this.getStringAttribute('application_id');
   }
@@ -109,7 +109,7 @@ export class PinpointEventStream extends cdktn.TerraformResource {
   }
 
   // destination_stream_arn - computed: false, optional: false, required: true
-  private _destinationStreamArn?: string;
+  private _destinationStreamArn?: string; 
   public get destinationStreamArn() {
     return this.getStringAttribute('destination_stream_arn');
   }
@@ -122,7 +122,7 @@ export class PinpointEventStream extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -138,7 +138,7 @@ export class PinpointEventStream extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -154,7 +154,7 @@ export class PinpointEventStream extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }

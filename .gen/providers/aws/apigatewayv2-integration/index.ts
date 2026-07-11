@@ -195,7 +195,7 @@ export class Apigatewayv2IntegrationResponseParametersOutputReference extends cd
   }
 
   // mappings - computed: false, optional: false, required: true
-  private _mappings?: { [key: string]: string };
+  private _mappings?: { [key: string]: string }; 
   public get mappings() {
     return this.getStringMapAttribute('mappings');
   }
@@ -208,7 +208,7 @@ export class Apigatewayv2IntegrationResponseParametersOutputReference extends cd
   }
 
   // status_code - computed: false, optional: false, required: true
-  private _statusCode?: string;
+  private _statusCode?: string; 
   public get statusCode() {
     return this.getStringAttribute('status_code');
   }
@@ -309,7 +309,7 @@ export class Apigatewayv2IntegrationTlsConfigOutputReference extends cdktn.Compl
   }
 
   // server_name_to_verify - computed: false, optional: true, required: false
-  private _serverNameToVerify?: string;
+  private _serverNameToVerify?: string; 
   public get serverNameToVerify() {
     return this.getStringAttribute('server_name_to_verify');
   }
@@ -402,7 +402,7 @@ export class Apigatewayv2Integration extends cdktn.TerraformResource {
   // ==========
 
   // api_id - computed: false, optional: false, required: true
-  private _apiId?: string;
+  private _apiId?: string; 
   public get apiId() {
     return this.getStringAttribute('api_id');
   }
@@ -415,7 +415,7 @@ export class Apigatewayv2Integration extends cdktn.TerraformResource {
   }
 
   // connection_id - computed: false, optional: true, required: false
-  private _connectionId?: string;
+  private _connectionId?: string; 
   public get connectionId() {
     return this.getStringAttribute('connection_id');
   }
@@ -431,7 +431,7 @@ export class Apigatewayv2Integration extends cdktn.TerraformResource {
   }
 
   // connection_type - computed: false, optional: true, required: false
-  private _connectionType?: string;
+  private _connectionType?: string; 
   public get connectionType() {
     return this.getStringAttribute('connection_type');
   }
@@ -447,7 +447,7 @@ export class Apigatewayv2Integration extends cdktn.TerraformResource {
   }
 
   // content_handling_strategy - computed: false, optional: true, required: false
-  private _contentHandlingStrategy?: string;
+  private _contentHandlingStrategy?: string; 
   public get contentHandlingStrategy() {
     return this.getStringAttribute('content_handling_strategy');
   }
@@ -463,7 +463,7 @@ export class Apigatewayv2Integration extends cdktn.TerraformResource {
   }
 
   // credentials_arn - computed: false, optional: true, required: false
-  private _credentialsArn?: string;
+  private _credentialsArn?: string; 
   public get credentialsArn() {
     return this.getStringAttribute('credentials_arn');
   }
@@ -479,7 +479,7 @@ export class Apigatewayv2Integration extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -495,7 +495,7 @@ export class Apigatewayv2Integration extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -511,7 +511,7 @@ export class Apigatewayv2Integration extends cdktn.TerraformResource {
   }
 
   // integration_method - computed: false, optional: true, required: false
-  private _integrationMethod?: string;
+  private _integrationMethod?: string; 
   public get integrationMethod() {
     return this.getStringAttribute('integration_method');
   }
@@ -532,7 +532,7 @@ export class Apigatewayv2Integration extends cdktn.TerraformResource {
   }
 
   // integration_subtype - computed: false, optional: true, required: false
-  private _integrationSubtype?: string;
+  private _integrationSubtype?: string; 
   public get integrationSubtype() {
     return this.getStringAttribute('integration_subtype');
   }
@@ -548,7 +548,7 @@ export class Apigatewayv2Integration extends cdktn.TerraformResource {
   }
 
   // integration_type - computed: false, optional: false, required: true
-  private _integrationType?: string;
+  private _integrationType?: string; 
   public get integrationType() {
     return this.getStringAttribute('integration_type');
   }
@@ -561,7 +561,7 @@ export class Apigatewayv2Integration extends cdktn.TerraformResource {
   }
 
   // integration_uri - computed: false, optional: true, required: false
-  private _integrationUri?: string;
+  private _integrationUri?: string; 
   public get integrationUri() {
     return this.getStringAttribute('integration_uri');
   }
@@ -577,7 +577,7 @@ export class Apigatewayv2Integration extends cdktn.TerraformResource {
   }
 
   // passthrough_behavior - computed: false, optional: true, required: false
-  private _passthroughBehavior?: string;
+  private _passthroughBehavior?: string; 
   public get passthroughBehavior() {
     return this.getStringAttribute('passthrough_behavior');
   }
@@ -593,7 +593,7 @@ export class Apigatewayv2Integration extends cdktn.TerraformResource {
   }
 
   // payload_format_version - computed: false, optional: true, required: false
-  private _payloadFormatVersion?: string;
+  private _payloadFormatVersion?: string; 
   public get payloadFormatVersion() {
     return this.getStringAttribute('payload_format_version');
   }
@@ -609,7 +609,7 @@ export class Apigatewayv2Integration extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -625,7 +625,7 @@ export class Apigatewayv2Integration extends cdktn.TerraformResource {
   }
 
   // request_parameters - computed: false, optional: true, required: false
-  private _requestParameters?: { [key: string]: string };
+  private _requestParameters?: { [key: string]: string }; 
   public get requestParameters() {
     return this.getStringMapAttribute('request_parameters');
   }
@@ -641,7 +641,7 @@ export class Apigatewayv2Integration extends cdktn.TerraformResource {
   }
 
   // request_templates - computed: false, optional: true, required: false
-  private _requestTemplates?: { [key: string]: string };
+  private _requestTemplates?: { [key: string]: string }; 
   public get requestTemplates() {
     return this.getStringMapAttribute('request_templates');
   }
@@ -657,7 +657,7 @@ export class Apigatewayv2Integration extends cdktn.TerraformResource {
   }
 
   // template_selection_expression - computed: false, optional: true, required: false
-  private _templateSelectionExpression?: string;
+  private _templateSelectionExpression?: string; 
   public get templateSelectionExpression() {
     return this.getStringAttribute('template_selection_expression');
   }
@@ -673,7 +673,7 @@ export class Apigatewayv2Integration extends cdktn.TerraformResource {
   }
 
   // timeout_milliseconds - computed: true, optional: true, required: false
-  private _timeoutMilliseconds?: number;
+  private _timeoutMilliseconds?: number; 
   public get timeoutMilliseconds() {
     return this.getNumberAttribute('timeout_milliseconds');
   }

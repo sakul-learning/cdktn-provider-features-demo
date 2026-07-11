@@ -140,7 +140,7 @@ export class OrganizationsAccountTagsOutputReference extends cdktn.ComplexObject
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -156,7 +156,7 @@ export class OrganizationsAccountTagsOutputReference extends cdktn.ComplexObject
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -259,7 +259,7 @@ export class OrganizationsAccount extends cdktn.TerraformResource {
   }
 
   // account_name - computed: false, optional: false, required: true
-  private _accountName?: string;
+  private _accountName?: string; 
   public get accountName() {
     return this.getStringAttribute('account_name');
   }
@@ -277,7 +277,7 @@ export class OrganizationsAccount extends cdktn.TerraformResource {
   }
 
   // email - computed: false, optional: false, required: true
-  private _email?: string;
+  private _email?: string; 
   public get email() {
     return this.getStringAttribute('email');
   }
@@ -305,7 +305,7 @@ export class OrganizationsAccount extends cdktn.TerraformResource {
   }
 
   // parent_ids - computed: true, optional: true, required: false
-  private _parentIds?: string[];
+  private _parentIds?: string[]; 
   public get parentIds() {
     return cdktn.Fn.tolist(this.getListAttribute('parent_ids'));
   }
@@ -326,7 +326,7 @@ export class OrganizationsAccount extends cdktn.TerraformResource {
   }
 
   // role_name - computed: true, optional: true, required: false
-  private _roleName?: string;
+  private _roleName?: string; 
   public get roleName() {
     return this.getStringAttribute('role_name');
   }

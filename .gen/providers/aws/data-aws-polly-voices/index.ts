@@ -211,7 +211,7 @@ export class DataAwsPollyVoices extends cdktn.TerraformDataSource {
   // ==========
 
   // engine - computed: false, optional: true, required: false
-  private _engine?: string;
+  private _engine?: string; 
   public get engine() {
     return this.getStringAttribute('engine');
   }
@@ -232,7 +232,7 @@ export class DataAwsPollyVoices extends cdktn.TerraformDataSource {
   }
 
   // include_additional_language_codes - computed: false, optional: true, required: false
-  private _includeAdditionalLanguageCodes?: boolean | cdktn.IResolvable;
+  private _includeAdditionalLanguageCodes?: boolean | cdktn.IResolvable; 
   public get includeAdditionalLanguageCodes() {
     return this.getBooleanAttribute('include_additional_language_codes');
   }
@@ -248,7 +248,7 @@ export class DataAwsPollyVoices extends cdktn.TerraformDataSource {
   }
 
   // language_code - computed: false, optional: true, required: false
-  private _languageCode?: string;
+  private _languageCode?: string; 
   public get languageCode() {
     return this.getStringAttribute('language_code');
   }
@@ -264,7 +264,7 @@ export class DataAwsPollyVoices extends cdktn.TerraformDataSource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

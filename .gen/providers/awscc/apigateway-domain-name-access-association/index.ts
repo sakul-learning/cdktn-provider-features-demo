@@ -130,7 +130,7 @@ export class ApigatewayDomainNameAccessAssociationTagsOutputReference extends cd
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -146,7 +146,7 @@ export class ApigatewayDomainNameAccessAssociationTagsOutputReference extends cd
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -243,7 +243,7 @@ export class ApigatewayDomainNameAccessAssociation extends cdktn.TerraformResour
   // ==========
 
   // access_association_source - computed: false, optional: false, required: true
-  private _accessAssociationSource?: string;
+  private _accessAssociationSource?: string; 
   public get accessAssociationSource() {
     return this.getStringAttribute('access_association_source');
   }
@@ -256,7 +256,7 @@ export class ApigatewayDomainNameAccessAssociation extends cdktn.TerraformResour
   }
 
   // access_association_source_type - computed: false, optional: false, required: true
-  private _accessAssociationSourceType?: string;
+  private _accessAssociationSourceType?: string; 
   public get accessAssociationSourceType() {
     return this.getStringAttribute('access_association_source_type');
   }
@@ -274,7 +274,7 @@ export class ApigatewayDomainNameAccessAssociation extends cdktn.TerraformResour
   }
 
   // domain_name_arn - computed: false, optional: false, required: true
-  private _domainNameArn?: string;
+  private _domainNameArn?: string; 
   public get domainNameArn() {
     return this.getStringAttribute('domain_name_arn');
   }

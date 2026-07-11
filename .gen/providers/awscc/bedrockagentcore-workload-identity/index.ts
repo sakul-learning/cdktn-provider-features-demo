@@ -124,7 +124,7 @@ export class BedrockagentcoreWorkloadIdentityTagsOutputReference extends cdktn.C
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -140,7 +140,7 @@ export class BedrockagentcoreWorkloadIdentityTagsOutputReference extends cdktn.C
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -236,7 +236,7 @@ export class BedrockagentcoreWorkloadIdentity extends cdktn.TerraformResource {
   // ==========
 
   // allowed_resource_oauth_2_return_urls - computed: true, optional: true, required: false
-  private _allowedResourceOauth2ReturnUrls?: string[];
+  private _allowedResourceOauth2ReturnUrls?: string[]; 
   public get allowedResourceOauth2ReturnUrls() {
     return this.getListAttribute('allowed_resource_oauth_2_return_urls');
   }
@@ -267,7 +267,7 @@ export class BedrockagentcoreWorkloadIdentity extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }

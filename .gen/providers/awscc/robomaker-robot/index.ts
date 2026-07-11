@@ -101,7 +101,7 @@ export class RobomakerRobot extends cdktn.TerraformResource {
   // ==========
 
   // architecture - computed: false, optional: false, required: true
-  private _architecture?: string;
+  private _architecture?: string; 
   public get architecture() {
     return this.getStringAttribute('architecture');
   }
@@ -119,7 +119,7 @@ export class RobomakerRobot extends cdktn.TerraformResource {
   }
 
   // fleet - computed: true, optional: true, required: false
-  private _fleet?: string;
+  private _fleet?: string; 
   public get fleet() {
     return this.getStringAttribute('fleet');
   }
@@ -135,7 +135,7 @@ export class RobomakerRobot extends cdktn.TerraformResource {
   }
 
   // greengrass_group_id - computed: false, optional: false, required: true
-  private _greengrassGroupId?: string;
+  private _greengrassGroupId?: string; 
   public get greengrassGroupId() {
     return this.getStringAttribute('greengrass_group_id');
   }
@@ -153,7 +153,7 @@ export class RobomakerRobot extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -169,7 +169,7 @@ export class RobomakerRobot extends cdktn.TerraformResource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

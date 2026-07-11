@@ -133,7 +133,7 @@ export class AutoscalingTrafficSourceAttachmentTimeoutsOutputReference extends c
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -149,7 +149,7 @@ export class AutoscalingTrafficSourceAttachmentTimeoutsOutputReference extends c
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -250,7 +250,7 @@ export class AutoscalingTrafficSourceAttachmentTrafficSourceOutputReference exte
   }
 
   // identifier - computed: false, optional: false, required: true
-  private _identifier?: string;
+  private _identifier?: string; 
   public get identifier() {
     return this.getStringAttribute('identifier');
   }
@@ -263,7 +263,7 @@ export class AutoscalingTrafficSourceAttachmentTrafficSourceOutputReference exte
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -338,7 +338,7 @@ export class AutoscalingTrafficSourceAttachment extends cdktn.TerraformResource 
   // ==========
 
   // autoscaling_group_name - computed: false, optional: false, required: true
-  private _autoscalingGroupName?: string;
+  private _autoscalingGroupName?: string; 
   public get autoscalingGroupName() {
     return this.getStringAttribute('autoscaling_group_name');
   }
@@ -351,7 +351,7 @@ export class AutoscalingTrafficSourceAttachment extends cdktn.TerraformResource 
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -367,7 +367,7 @@ export class AutoscalingTrafficSourceAttachment extends cdktn.TerraformResource 
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

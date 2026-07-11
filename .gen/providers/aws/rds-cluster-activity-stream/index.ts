@@ -101,7 +101,7 @@ export class RdsClusterActivityStream extends cdktn.TerraformResource {
   // ==========
 
   // engine_native_audit_fields_included - computed: false, optional: true, required: false
-  private _engineNativeAuditFieldsIncluded?: boolean | cdktn.IResolvable;
+  private _engineNativeAuditFieldsIncluded?: boolean | cdktn.IResolvable; 
   public get engineNativeAuditFieldsIncluded() {
     return this.getBooleanAttribute('engine_native_audit_fields_included');
   }
@@ -117,7 +117,7 @@ export class RdsClusterActivityStream extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -138,7 +138,7 @@ export class RdsClusterActivityStream extends cdktn.TerraformResource {
   }
 
   // kms_key_id - computed: false, optional: false, required: true
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -151,7 +151,7 @@ export class RdsClusterActivityStream extends cdktn.TerraformResource {
   }
 
   // mode - computed: false, optional: false, required: true
-  private _mode?: string;
+  private _mode?: string; 
   public get mode() {
     return this.getStringAttribute('mode');
   }
@@ -164,7 +164,7 @@ export class RdsClusterActivityStream extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -180,7 +180,7 @@ export class RdsClusterActivityStream extends cdktn.TerraformResource {
   }
 
   // resource_arn - computed: false, optional: false, required: true
-  private _resourceArn?: string;
+  private _resourceArn?: string; 
   public get resourceArn() {
     return this.getStringAttribute('resource_arn');
   }

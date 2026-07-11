@@ -105,7 +105,7 @@ export class Ec2AllowedImagesSettingsImageCriterionCreationDateConditionOutputRe
   }
 
   // maximum_days_since_created - computed: false, optional: true, required: false
-  private _maximumDaysSinceCreated?: number;
+  private _maximumDaysSinceCreated?: number; 
   public get maximumDaysSinceCreated() {
     return this.getNumberAttribute('maximum_days_since_created');
   }
@@ -221,7 +221,7 @@ export class Ec2AllowedImagesSettingsImageCriterionDeprecationTimeConditionOutpu
   }
 
   // maximum_days_since_deprecated - computed: false, optional: true, required: false
-  private _maximumDaysSinceDeprecated?: number;
+  private _maximumDaysSinceDeprecated?: number; 
   public get maximumDaysSinceDeprecated() {
     return this.getNumberAttribute('maximum_days_since_deprecated');
   }
@@ -409,7 +409,7 @@ export class Ec2AllowedImagesSettingsImageCriterionOutputReference extends cdktn
   }
 
   // image_names - computed: false, optional: true, required: false
-  private _imageNames?: string[];
+  private _imageNames?: string[]; 
   public get imageNames() {
     return cdktn.Fn.tolist(this.getListAttribute('image_names'));
   }
@@ -425,7 +425,7 @@ export class Ec2AllowedImagesSettingsImageCriterionOutputReference extends cdktn
   }
 
   // image_providers - computed: false, optional: true, required: false
-  private _imageProviders?: string[];
+  private _imageProviders?: string[]; 
   public get imageProviders() {
     return cdktn.Fn.tolist(this.getListAttribute('image_providers'));
   }
@@ -441,7 +441,7 @@ export class Ec2AllowedImagesSettingsImageCriterionOutputReference extends cdktn
   }
 
   // marketplace_product_codes - computed: false, optional: true, required: false
-  private _marketplaceProductCodes?: string[];
+  private _marketplaceProductCodes?: string[]; 
   public get marketplaceProductCodes() {
     return cdktn.Fn.tolist(this.getListAttribute('marketplace_product_codes'));
   }
@@ -569,7 +569,7 @@ export class Ec2AllowedImagesSettings extends cdktn.TerraformResource {
   // ==========
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -585,7 +585,7 @@ export class Ec2AllowedImagesSettings extends cdktn.TerraformResource {
   }
 
   // state - computed: false, optional: false, required: true
-  private _state?: string;
+  private _state?: string; 
   public get state() {
     return this.getStringAttribute('state');
   }

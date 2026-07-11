@@ -165,7 +165,7 @@ export class SystemsmanagersapApplicationComponentsInfoOutputReference extends c
   }
 
   // component_type - computed: true, optional: true, required: false
-  private _componentType?: string;
+  private _componentType?: string; 
   public get componentType() {
     return this.getStringAttribute('component_type');
   }
@@ -181,7 +181,7 @@ export class SystemsmanagersapApplicationComponentsInfoOutputReference extends c
   }
 
   // ec_2_instance_id - computed: true, optional: true, required: false
-  private _ec2InstanceId?: string;
+  private _ec2InstanceId?: string; 
   public get ec2InstanceId() {
     return this.getStringAttribute('ec_2_instance_id');
   }
@@ -197,7 +197,7 @@ export class SystemsmanagersapApplicationComponentsInfoOutputReference extends c
   }
 
   // sid - computed: true, optional: true, required: false
-  private _sid?: string;
+  private _sid?: string; 
   public get sid() {
     return this.getStringAttribute('sid');
   }
@@ -347,7 +347,7 @@ export class SystemsmanagersapApplicationCredentialsOutputReference extends cdkt
   }
 
   // credential_type - computed: true, optional: true, required: false
-  private _credentialType?: string;
+  private _credentialType?: string; 
   public get credentialType() {
     return this.getStringAttribute('credential_type');
   }
@@ -363,7 +363,7 @@ export class SystemsmanagersapApplicationCredentialsOutputReference extends cdkt
   }
 
   // database_name - computed: true, optional: true, required: false
-  private _databaseName?: string;
+  private _databaseName?: string; 
   public get databaseName() {
     return this.getStringAttribute('database_name');
   }
@@ -379,7 +379,7 @@ export class SystemsmanagersapApplicationCredentialsOutputReference extends cdkt
   }
 
   // secret_id - computed: true, optional: true, required: false
-  private _secretId?: string;
+  private _secretId?: string; 
   public get secretId() {
     return this.getStringAttribute('secret_id');
   }
@@ -416,13 +416,13 @@ export class SystemsmanagersapApplicationCredentialsList extends cdktn.ComplexLi
 }
 export interface SystemsmanagersapApplicationTags {
   /**
-  * The key name of the tag. You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
+  * The key name of the tag. You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/systemsmanagersap_application#key SystemsmanagersapApplication#key}
   */
   readonly key?: string;
   /**
-  * The value for the tag. You can specify a value that is 1 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
+  * The value for the tag. You can specify a value that is 1 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/systemsmanagersap_application#value SystemsmanagersapApplication#value}
   */
@@ -516,7 +516,7 @@ export class SystemsmanagersapApplicationTagsOutputReference extends cdktn.Compl
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -532,7 +532,7 @@ export class SystemsmanagersapApplicationTagsOutputReference extends cdktn.Compl
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -634,7 +634,7 @@ export class SystemsmanagersapApplication extends cdktn.TerraformResource {
   // ==========
 
   // application_id - computed: false, optional: false, required: true
-  private _applicationId?: string;
+  private _applicationId?: string; 
   public get applicationId() {
     return this.getStringAttribute('application_id');
   }
@@ -647,7 +647,7 @@ export class SystemsmanagersapApplication extends cdktn.TerraformResource {
   }
 
   // application_type - computed: false, optional: false, required: true
-  private _applicationType?: string;
+  private _applicationType?: string; 
   public get applicationType() {
     return this.getStringAttribute('application_type');
   }
@@ -697,7 +697,7 @@ export class SystemsmanagersapApplication extends cdktn.TerraformResource {
   }
 
   // database_arn - computed: true, optional: true, required: false
-  private _databaseArn?: string;
+  private _databaseArn?: string; 
   public get databaseArn() {
     return this.getStringAttribute('database_arn');
   }
@@ -718,7 +718,7 @@ export class SystemsmanagersapApplication extends cdktn.TerraformResource {
   }
 
   // instances - computed: true, optional: true, required: false
-  private _instances?: string[];
+  private _instances?: string[]; 
   public get instances() {
     return this.getListAttribute('instances');
   }
@@ -734,7 +734,7 @@ export class SystemsmanagersapApplication extends cdktn.TerraformResource {
   }
 
   // sap_instance_number - computed: true, optional: true, required: false
-  private _sapInstanceNumber?: string;
+  private _sapInstanceNumber?: string; 
   public get sapInstanceNumber() {
     return this.getStringAttribute('sap_instance_number');
   }
@@ -750,7 +750,7 @@ export class SystemsmanagersapApplication extends cdktn.TerraformResource {
   }
 
   // sid - computed: true, optional: true, required: false
-  private _sid?: string;
+  private _sid?: string; 
   public get sid() {
     return this.getStringAttribute('sid');
   }

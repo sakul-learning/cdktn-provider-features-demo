@@ -143,7 +143,7 @@ export class CloudfrontDistributionTenantCustomizationsCertificateOutputReferenc
   }
 
   // arn - computed: true, optional: true, required: false
-  private _arn?: string;
+  private _arn?: string; 
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -261,7 +261,7 @@ export class CloudfrontDistributionTenantCustomizationsGeoRestrictionsOutputRefe
   }
 
   // locations - computed: true, optional: true, required: false
-  private _locations?: string[];
+  private _locations?: string[]; 
   public get locations() {
     return this.getListAttribute('locations');
   }
@@ -277,7 +277,7 @@ export class CloudfrontDistributionTenantCustomizationsGeoRestrictionsOutputRefe
   }
 
   // restriction_type - computed: true, optional: true, required: false
-  private _restrictionType?: string;
+  private _restrictionType?: string; 
   public get restrictionType() {
     return this.getStringAttribute('restriction_type');
   }
@@ -392,7 +392,7 @@ export class CloudfrontDistributionTenantCustomizationsWebAclOutputReference ext
   }
 
   // action - computed: true, optional: true, required: false
-  private _action?: string;
+  private _action?: string; 
   public get action() {
     return this.getStringAttribute('action');
   }
@@ -408,7 +408,7 @@ export class CloudfrontDistributionTenantCustomizationsWebAclOutputReference ext
   }
 
   // arn - computed: true, optional: true, required: false
-  private _arn?: string;
+  private _arn?: string; 
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -790,7 +790,7 @@ export class CloudfrontDistributionTenantManagedCertificateRequestOutputReferenc
   }
 
   // certificate_transparency_logging_preference - computed: true, optional: true, required: false
-  private _certificateTransparencyLoggingPreference?: string;
+  private _certificateTransparencyLoggingPreference?: string; 
   public get certificateTransparencyLoggingPreference() {
     return this.getStringAttribute('certificate_transparency_logging_preference');
   }
@@ -806,7 +806,7 @@ export class CloudfrontDistributionTenantManagedCertificateRequestOutputReferenc
   }
 
   // primary_domain_name - computed: true, optional: true, required: false
-  private _primaryDomainName?: string;
+  private _primaryDomainName?: string; 
   public get primaryDomainName() {
     return this.getStringAttribute('primary_domain_name');
   }
@@ -822,7 +822,7 @@ export class CloudfrontDistributionTenantManagedCertificateRequestOutputReferenc
   }
 
   // validation_token_host - computed: true, optional: true, required: false
-  private _validationTokenHost?: string;
+  private _validationTokenHost?: string; 
   public get validationTokenHost() {
     return this.getStringAttribute('validation_token_host');
   }
@@ -939,7 +939,7 @@ export class CloudfrontDistributionTenantParametersOutputReference extends cdktn
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -955,7 +955,7 @@ export class CloudfrontDistributionTenantParametersOutputReference extends cdktn
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1094,7 +1094,7 @@ export class CloudfrontDistributionTenantTagsOutputReference extends cdktn.Compl
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1110,7 +1110,7 @@ export class CloudfrontDistributionTenantTagsOutputReference extends cdktn.Compl
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1217,7 +1217,7 @@ export class CloudfrontDistributionTenant extends cdktn.TerraformResource {
   }
 
   // connection_group_id - computed: true, optional: true, required: false
-  private _connectionGroupId?: string;
+  private _connectionGroupId?: string; 
   public get connectionGroupId() {
     return this.getStringAttribute('connection_group_id');
   }
@@ -1254,7 +1254,7 @@ export class CloudfrontDistributionTenant extends cdktn.TerraformResource {
   }
 
   // distribution_id - computed: false, optional: false, required: true
-  private _distributionId?: string;
+  private _distributionId?: string; 
   public get distributionId() {
     return this.getStringAttribute('distribution_id');
   }
@@ -1278,7 +1278,7 @@ export class CloudfrontDistributionTenant extends cdktn.TerraformResource {
   }
 
   // domains - computed: false, optional: false, required: true
-  private _domains?: string[];
+  private _domains?: string[]; 
   public get domains() {
     return this.getListAttribute('domains');
   }
@@ -1296,7 +1296,7 @@ export class CloudfrontDistributionTenant extends cdktn.TerraformResource {
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -1338,7 +1338,7 @@ export class CloudfrontDistributionTenant extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }

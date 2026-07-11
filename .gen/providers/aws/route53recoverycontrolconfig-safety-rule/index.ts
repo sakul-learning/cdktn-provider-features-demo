@@ -156,7 +156,7 @@ export class Route53RecoverycontrolconfigSafetyRuleRuleConfigOutputReference ext
   }
 
   // inverted - computed: false, optional: false, required: true
-  private _inverted?: boolean | cdktn.IResolvable;
+  private _inverted?: boolean | cdktn.IResolvable; 
   public get inverted() {
     return this.getBooleanAttribute('inverted');
   }
@@ -169,7 +169,7 @@ export class Route53RecoverycontrolconfigSafetyRuleRuleConfigOutputReference ext
   }
 
   // threshold - computed: false, optional: false, required: true
-  private _threshold?: number;
+  private _threshold?: number; 
   public get threshold() {
     return this.getNumberAttribute('threshold');
   }
@@ -182,7 +182,7 @@ export class Route53RecoverycontrolconfigSafetyRuleRuleConfigOutputReference ext
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -267,7 +267,7 @@ export class Route53RecoverycontrolconfigSafetyRule extends cdktn.TerraformResou
   }
 
   // asserted_controls - computed: false, optional: true, required: false
-  private _assertedControls?: string[];
+  private _assertedControls?: string[]; 
   public get assertedControls() {
     return this.getListAttribute('asserted_controls');
   }
@@ -283,7 +283,7 @@ export class Route53RecoverycontrolconfigSafetyRule extends cdktn.TerraformResou
   }
 
   // control_panel_arn - computed: false, optional: false, required: true
-  private _controlPanelArn?: string;
+  private _controlPanelArn?: string; 
   public get controlPanelArn() {
     return this.getStringAttribute('control_panel_arn');
   }
@@ -296,7 +296,7 @@ export class Route53RecoverycontrolconfigSafetyRule extends cdktn.TerraformResou
   }
 
   // gating_controls - computed: false, optional: true, required: false
-  private _gatingControls?: string[];
+  private _gatingControls?: string[]; 
   public get gatingControls() {
     return this.getListAttribute('gating_controls');
   }
@@ -312,7 +312,7 @@ export class Route53RecoverycontrolconfigSafetyRule extends cdktn.TerraformResou
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -328,7 +328,7 @@ export class Route53RecoverycontrolconfigSafetyRule extends cdktn.TerraformResou
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -346,7 +346,7 @@ export class Route53RecoverycontrolconfigSafetyRule extends cdktn.TerraformResou
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -362,7 +362,7 @@ export class Route53RecoverycontrolconfigSafetyRule extends cdktn.TerraformResou
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -378,7 +378,7 @@ export class Route53RecoverycontrolconfigSafetyRule extends cdktn.TerraformResou
   }
 
   // target_controls - computed: false, optional: true, required: false
-  private _targetControls?: string[];
+  private _targetControls?: string[]; 
   public get targetControls() {
     return this.getListAttribute('target_controls');
   }
@@ -394,7 +394,7 @@ export class Route53RecoverycontrolconfigSafetyRule extends cdktn.TerraformResou
   }
 
   // wait_period_ms - computed: false, optional: false, required: true
-  private _waitPeriodMs?: number;
+  private _waitPeriodMs?: number; 
   public get waitPeriodMs() {
     return this.getNumberAttribute('wait_period_ms');
   }

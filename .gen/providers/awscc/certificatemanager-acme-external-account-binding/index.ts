@@ -132,7 +132,7 @@ export class CertificatemanagerAcmeExternalAccountBindingExpirationOutputReferen
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -148,7 +148,7 @@ export class CertificatemanagerAcmeExternalAccountBindingExpirationOutputReferen
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: number;
+  private _value?: number; 
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -265,7 +265,7 @@ export class CertificatemanagerAcmeExternalAccountBindingTagsOutputReference ext
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -281,7 +281,7 @@ export class CertificatemanagerAcmeExternalAccountBindingTagsOutputReference ext
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -378,7 +378,7 @@ export class CertificatemanagerAcmeExternalAccountBinding extends cdktn.Terrafor
   // ==========
 
   // acme_endpoint_arn - computed: false, optional: false, required: true
-  private _acmeEndpointArn?: string;
+  private _acmeEndpointArn?: string; 
   public get acmeEndpointArn() {
     return this.getStringAttribute('acme_endpoint_arn');
   }
@@ -417,7 +417,7 @@ export class CertificatemanagerAcmeExternalAccountBinding extends cdktn.Terrafor
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }

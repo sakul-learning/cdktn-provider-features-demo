@@ -185,7 +185,7 @@ export class ConnectUserAfterContactWorkConfigsAfterContactWorkConfigOutputRefer
   }
 
   // after_contact_work_time_limit - computed: true, optional: true, required: false
-  private _afterContactWorkTimeLimit?: number;
+  private _afterContactWorkTimeLimit?: number; 
   public get afterContactWorkTimeLimit() {
     return this.getNumberAttribute('after_contact_work_time_limit');
   }
@@ -281,7 +281,7 @@ export class ConnectUserAfterContactWorkConfigsAgentFirstCallbackAfterContactWor
   }
 
   // after_contact_work_time_limit - computed: true, optional: true, required: false
-  private _afterContactWorkTimeLimit?: number;
+  private _afterContactWorkTimeLimit?: number; 
   public get afterContactWorkTimeLimit() {
     return this.getNumberAttribute('after_contact_work_time_limit');
   }
@@ -449,7 +449,7 @@ export class ConnectUserAfterContactWorkConfigsOutputReference extends cdktn.Com
   }
 
   // channel - computed: true, optional: true, required: false
-  private _channel?: string;
+  private _channel?: string; 
   public get channel() {
     return this.getStringAttribute('channel');
   }
@@ -605,7 +605,7 @@ export class ConnectUserAutoAcceptConfigsOutputReference extends cdktn.ComplexOb
   }
 
   // agent_first_callback_auto_accept - computed: true, optional: true, required: false
-  private _agentFirstCallbackAutoAccept?: boolean | cdktn.IResolvable;
+  private _agentFirstCallbackAutoAccept?: boolean | cdktn.IResolvable; 
   public get agentFirstCallbackAutoAccept() {
     return this.getBooleanAttribute('agent_first_callback_auto_accept');
   }
@@ -621,7 +621,7 @@ export class ConnectUserAutoAcceptConfigsOutputReference extends cdktn.ComplexOb
   }
 
   // auto_accept - computed: true, optional: true, required: false
-  private _autoAccept?: boolean | cdktn.IResolvable;
+  private _autoAccept?: boolean | cdktn.IResolvable; 
   public get autoAccept() {
     return this.getBooleanAttribute('auto_accept');
   }
@@ -637,7 +637,7 @@ export class ConnectUserAutoAcceptConfigsOutputReference extends cdktn.ComplexOb
   }
 
   // channel - computed: true, optional: true, required: false
-  private _channel?: string;
+  private _channel?: string; 
   public get channel() {
     return this.getStringAttribute('channel');
   }
@@ -829,7 +829,7 @@ export class ConnectUserIdentityInfoOutputReference extends cdktn.ComplexObject 
   }
 
   // email - computed: true, optional: true, required: false
-  private _email?: string;
+  private _email?: string; 
   public get email() {
     return this.getStringAttribute('email');
   }
@@ -845,7 +845,7 @@ export class ConnectUserIdentityInfoOutputReference extends cdktn.ComplexObject 
   }
 
   // first_name - computed: true, optional: true, required: false
-  private _firstName?: string;
+  private _firstName?: string; 
   public get firstName() {
     return this.getStringAttribute('first_name');
   }
@@ -861,7 +861,7 @@ export class ConnectUserIdentityInfoOutputReference extends cdktn.ComplexObject 
   }
 
   // last_name - computed: true, optional: true, required: false
-  private _lastName?: string;
+  private _lastName?: string; 
   public get lastName() {
     return this.getStringAttribute('last_name');
   }
@@ -877,7 +877,7 @@ export class ConnectUserIdentityInfoOutputReference extends cdktn.ComplexObject 
   }
 
   // mobile - computed: true, optional: true, required: false
-  private _mobile?: string;
+  private _mobile?: string; 
   public get mobile() {
     return this.getStringAttribute('mobile');
   }
@@ -893,7 +893,7 @@ export class ConnectUserIdentityInfoOutputReference extends cdktn.ComplexObject 
   }
 
   // secondary_email - computed: true, optional: true, required: false
-  private _secondaryEmail?: string;
+  private _secondaryEmail?: string; 
   public get secondaryEmail() {
     return this.getStringAttribute('secondary_email');
   }
@@ -1010,7 +1010,7 @@ export class ConnectUserPersistentConnectionConfigsOutputReference extends cdktn
   }
 
   // channel - computed: true, optional: true, required: false
-  private _channel?: string;
+  private _channel?: string; 
   public get channel() {
     return this.getStringAttribute('channel');
   }
@@ -1026,7 +1026,7 @@ export class ConnectUserPersistentConnectionConfigsOutputReference extends cdktn
   }
 
   // persistent_connection - computed: true, optional: true, required: false
-  private _persistentConnection?: boolean | cdktn.IResolvable;
+  private _persistentConnection?: boolean | cdktn.IResolvable; 
   public get persistentConnection() {
     return this.getBooleanAttribute('persistent_connection');
   }
@@ -1218,7 +1218,7 @@ export class ConnectUserPhoneConfigOutputReference extends cdktn.ComplexObject {
   }
 
   // after_contact_work_time_limit - computed: true, optional: true, required: false
-  private _afterContactWorkTimeLimit?: number;
+  private _afterContactWorkTimeLimit?: number; 
   public get afterContactWorkTimeLimit() {
     return this.getNumberAttribute('after_contact_work_time_limit');
   }
@@ -1234,7 +1234,7 @@ export class ConnectUserPhoneConfigOutputReference extends cdktn.ComplexObject {
   }
 
   // auto_accept - computed: true, optional: true, required: false
-  private _autoAccept?: boolean | cdktn.IResolvable;
+  private _autoAccept?: boolean | cdktn.IResolvable; 
   public get autoAccept() {
     return this.getBooleanAttribute('auto_accept');
   }
@@ -1250,7 +1250,7 @@ export class ConnectUserPhoneConfigOutputReference extends cdktn.ComplexObject {
   }
 
   // desk_phone_number - computed: true, optional: true, required: false
-  private _deskPhoneNumber?: string;
+  private _deskPhoneNumber?: string; 
   public get deskPhoneNumber() {
     return this.getStringAttribute('desk_phone_number');
   }
@@ -1266,7 +1266,7 @@ export class ConnectUserPhoneConfigOutputReference extends cdktn.ComplexObject {
   }
 
   // persistent_connection - computed: true, optional: true, required: false
-  private _persistentConnection?: boolean | cdktn.IResolvable;
+  private _persistentConnection?: boolean | cdktn.IResolvable; 
   public get persistentConnection() {
     return this.getBooleanAttribute('persistent_connection');
   }
@@ -1282,7 +1282,7 @@ export class ConnectUserPhoneConfigOutputReference extends cdktn.ComplexObject {
   }
 
   // phone_type - computed: true, optional: true, required: false
-  private _phoneType?: string;
+  private _phoneType?: string; 
   public get phoneType() {
     return this.getStringAttribute('phone_type');
   }
@@ -1418,7 +1418,7 @@ export class ConnectUserPhoneNumberConfigsOutputReference extends cdktn.ComplexO
   }
 
   // channel - computed: true, optional: true, required: false
-  private _channel?: string;
+  private _channel?: string; 
   public get channel() {
     return this.getStringAttribute('channel');
   }
@@ -1434,7 +1434,7 @@ export class ConnectUserPhoneNumberConfigsOutputReference extends cdktn.ComplexO
   }
 
   // phone_number - computed: true, optional: true, required: false
-  private _phoneNumber?: string;
+  private _phoneNumber?: string; 
   public get phoneNumber() {
     return this.getStringAttribute('phone_number');
   }
@@ -1450,7 +1450,7 @@ export class ConnectUserPhoneNumberConfigsOutputReference extends cdktn.ComplexO
   }
 
   // phone_type - computed: true, optional: true, required: false
-  private _phoneType?: string;
+  private _phoneType?: string; 
   public get phoneType() {
     return this.getStringAttribute('phone_type');
   }
@@ -1487,13 +1487,13 @@ export class ConnectUserPhoneNumberConfigsList extends cdktn.ComplexList {
 }
 export interface ConnectUserTags {
   /**
-  * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
+  * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_user#key ConnectUser#key}
   */
   readonly key?: string;
   /**
-  * The value for the tag. You can specify a value that is maximum of 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
+  * The value for the tag. You can specify a value that is maximum of 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_user#value ConnectUser#value}
   */
@@ -1587,7 +1587,7 @@ export class ConnectUserTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1603,7 +1603,7 @@ export class ConnectUserTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1759,7 +1759,7 @@ export class ConnectUserUserProficienciesOutputReference extends cdktn.ComplexOb
   }
 
   // attribute_name - computed: true, optional: true, required: false
-  private _attributeName?: string;
+  private _attributeName?: string; 
   public get attributeName() {
     return this.getStringAttribute('attribute_name');
   }
@@ -1775,7 +1775,7 @@ export class ConnectUserUserProficienciesOutputReference extends cdktn.ComplexOb
   }
 
   // attribute_value - computed: true, optional: true, required: false
-  private _attributeValue?: string;
+  private _attributeValue?: string; 
   public get attributeValue() {
     return this.getStringAttribute('attribute_value');
   }
@@ -1791,7 +1791,7 @@ export class ConnectUserUserProficienciesOutputReference extends cdktn.ComplexOb
   }
 
   // level - computed: true, optional: true, required: false
-  private _level?: number;
+  private _level?: number; 
   public get level() {
     return this.getNumberAttribute('level');
   }
@@ -1928,7 +1928,7 @@ export class ConnectUserVoiceEnhancementConfigsOutputReference extends cdktn.Com
   }
 
   // channel - computed: true, optional: true, required: false
-  private _channel?: string;
+  private _channel?: string; 
   public get channel() {
     return this.getStringAttribute('channel');
   }
@@ -1944,7 +1944,7 @@ export class ConnectUserVoiceEnhancementConfigsOutputReference extends cdktn.Com
   }
 
   // voice_enhancement_mode - computed: true, optional: true, required: false
-  private _voiceEnhancementMode?: string;
+  private _voiceEnhancementMode?: string; 
   public get voiceEnhancementMode() {
     return this.getStringAttribute('voice_enhancement_mode');
   }
@@ -2085,7 +2085,7 @@ export class ConnectUser extends cdktn.TerraformResource {
   }
 
   // directory_user_id - computed: true, optional: true, required: false
-  private _directoryUserId?: string;
+  private _directoryUserId?: string; 
   public get directoryUserId() {
     return this.getStringAttribute('directory_user_id');
   }
@@ -2101,7 +2101,7 @@ export class ConnectUser extends cdktn.TerraformResource {
   }
 
   // hierarchy_group_arn - computed: true, optional: true, required: false
-  private _hierarchyGroupArn?: string;
+  private _hierarchyGroupArn?: string; 
   public get hierarchyGroupArn() {
     return this.getStringAttribute('hierarchy_group_arn');
   }
@@ -2138,7 +2138,7 @@ export class ConnectUser extends cdktn.TerraformResource {
   }
 
   // instance_arn - computed: false, optional: false, required: true
-  private _instanceArn?: string;
+  private _instanceArn?: string; 
   public get instanceArn() {
     return this.getStringAttribute('instance_arn');
   }
@@ -2151,7 +2151,7 @@ export class ConnectUser extends cdktn.TerraformResource {
   }
 
   // password - computed: true, optional: true, required: false
-  private _password?: string;
+  private _password?: string; 
   public get password() {
     return this.getStringAttribute('password');
   }
@@ -2215,7 +2215,7 @@ export class ConnectUser extends cdktn.TerraformResource {
   }
 
   // routing_profile_arn - computed: false, optional: false, required: true
-  private _routingProfileArn?: string;
+  private _routingProfileArn?: string; 
   public get routingProfileArn() {
     return this.getStringAttribute('routing_profile_arn');
   }
@@ -2228,7 +2228,7 @@ export class ConnectUser extends cdktn.TerraformResource {
   }
 
   // security_profile_arns - computed: false, optional: false, required: true
-  private _securityProfileArns?: string[];
+  private _securityProfileArns?: string[]; 
   public get securityProfileArns() {
     return cdktn.Fn.tolist(this.getListAttribute('security_profile_arns'));
   }
@@ -2278,7 +2278,7 @@ export class ConnectUser extends cdktn.TerraformResource {
   }
 
   // username - computed: false, optional: false, required: true
-  private _username?: string;
+  private _username?: string; 
   public get username() {
     return this.getStringAttribute('username');
   }

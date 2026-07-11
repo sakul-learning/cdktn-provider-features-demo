@@ -98,7 +98,7 @@ export class RedshiftDataShareConsumerAssociation extends cdktn.TerraformResourc
   // ==========
 
   // allow_writes - computed: false, optional: true, required: false
-  private _allowWrites?: boolean | cdktn.IResolvable;
+  private _allowWrites?: boolean | cdktn.IResolvable; 
   public get allowWrites() {
     return this.getBooleanAttribute('allow_writes');
   }
@@ -114,7 +114,7 @@ export class RedshiftDataShareConsumerAssociation extends cdktn.TerraformResourc
   }
 
   // associate_entire_account - computed: false, optional: true, required: false
-  private _associateEntireAccount?: boolean | cdktn.IResolvable;
+  private _associateEntireAccount?: boolean | cdktn.IResolvable; 
   public get associateEntireAccount() {
     return this.getBooleanAttribute('associate_entire_account');
   }
@@ -130,7 +130,7 @@ export class RedshiftDataShareConsumerAssociation extends cdktn.TerraformResourc
   }
 
   // consumer_arn - computed: false, optional: true, required: false
-  private _consumerArn?: string;
+  private _consumerArn?: string; 
   public get consumerArn() {
     return this.getStringAttribute('consumer_arn');
   }
@@ -146,7 +146,7 @@ export class RedshiftDataShareConsumerAssociation extends cdktn.TerraformResourc
   }
 
   // consumer_region - computed: false, optional: true, required: false
-  private _consumerRegion?: string;
+  private _consumerRegion?: string; 
   public get consumerRegion() {
     return this.getStringAttribute('consumer_region');
   }
@@ -162,7 +162,7 @@ export class RedshiftDataShareConsumerAssociation extends cdktn.TerraformResourc
   }
 
   // data_share_arn - computed: false, optional: false, required: true
-  private _dataShareArn?: string;
+  private _dataShareArn?: string; 
   public get dataShareArn() {
     return this.getStringAttribute('data_share_arn');
   }
@@ -190,7 +190,7 @@ export class RedshiftDataShareConsumerAssociation extends cdktn.TerraformResourc
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

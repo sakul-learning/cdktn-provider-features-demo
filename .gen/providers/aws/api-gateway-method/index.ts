@@ -136,7 +136,7 @@ export class ApiGatewayMethod extends cdktn.TerraformResource {
   // ==========
 
   // api_key_required - computed: false, optional: true, required: false
-  private _apiKeyRequired?: boolean | cdktn.IResolvable;
+  private _apiKeyRequired?: boolean | cdktn.IResolvable; 
   public get apiKeyRequired() {
     return this.getBooleanAttribute('api_key_required');
   }
@@ -152,7 +152,7 @@ export class ApiGatewayMethod extends cdktn.TerraformResource {
   }
 
   // authorization - computed: false, optional: false, required: true
-  private _authorization?: string;
+  private _authorization?: string; 
   public get authorization() {
     return this.getStringAttribute('authorization');
   }
@@ -165,7 +165,7 @@ export class ApiGatewayMethod extends cdktn.TerraformResource {
   }
 
   // authorization_scopes - computed: false, optional: true, required: false
-  private _authorizationScopes?: string[];
+  private _authorizationScopes?: string[]; 
   public get authorizationScopes() {
     return cdktn.Fn.tolist(this.getListAttribute('authorization_scopes'));
   }
@@ -181,7 +181,7 @@ export class ApiGatewayMethod extends cdktn.TerraformResource {
   }
 
   // authorizer_id - computed: false, optional: true, required: false
-  private _authorizerId?: string;
+  private _authorizerId?: string; 
   public get authorizerId() {
     return this.getStringAttribute('authorizer_id');
   }
@@ -197,7 +197,7 @@ export class ApiGatewayMethod extends cdktn.TerraformResource {
   }
 
   // http_method - computed: false, optional: false, required: true
-  private _httpMethod?: string;
+  private _httpMethod?: string; 
   public get httpMethod() {
     return this.getStringAttribute('http_method');
   }
@@ -210,7 +210,7 @@ export class ApiGatewayMethod extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -226,7 +226,7 @@ export class ApiGatewayMethod extends cdktn.TerraformResource {
   }
 
   // operation_name - computed: false, optional: true, required: false
-  private _operationName?: string;
+  private _operationName?: string; 
   public get operationName() {
     return this.getStringAttribute('operation_name');
   }
@@ -242,7 +242,7 @@ export class ApiGatewayMethod extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -258,7 +258,7 @@ export class ApiGatewayMethod extends cdktn.TerraformResource {
   }
 
   // request_models - computed: false, optional: true, required: false
-  private _requestModels?: { [key: string]: string };
+  private _requestModels?: { [key: string]: string }; 
   public get requestModels() {
     return this.getStringMapAttribute('request_models');
   }
@@ -274,7 +274,7 @@ export class ApiGatewayMethod extends cdktn.TerraformResource {
   }
 
   // request_parameters - computed: false, optional: true, required: false
-  private _requestParameters?: { [key: string]: (boolean | cdktn.IResolvable) };
+  private _requestParameters?: { [key: string]: (boolean | cdktn.IResolvable) }; 
   public get requestParameters() {
     return this.getBooleanMapAttribute('request_parameters');
   }
@@ -290,7 +290,7 @@ export class ApiGatewayMethod extends cdktn.TerraformResource {
   }
 
   // request_validator_id - computed: false, optional: true, required: false
-  private _requestValidatorId?: string;
+  private _requestValidatorId?: string; 
   public get requestValidatorId() {
     return this.getStringAttribute('request_validator_id');
   }
@@ -306,7 +306,7 @@ export class ApiGatewayMethod extends cdktn.TerraformResource {
   }
 
   // resource_id - computed: false, optional: false, required: true
-  private _resourceId?: string;
+  private _resourceId?: string; 
   public get resourceId() {
     return this.getStringAttribute('resource_id');
   }
@@ -319,7 +319,7 @@ export class ApiGatewayMethod extends cdktn.TerraformResource {
   }
 
   // rest_api_id - computed: false, optional: false, required: true
-  private _restApiId?: string;
+  private _restApiId?: string; 
   public get restApiId() {
     return this.getStringAttribute('rest_api_id');
   }

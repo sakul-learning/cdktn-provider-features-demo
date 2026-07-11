@@ -76,7 +76,7 @@ export class NotificationsChannelAssociation extends cdktn.TerraformResource {
   // ==========
 
   // arn - computed: false, optional: false, required: true
-  private _arn?: string;
+  private _arn?: string; 
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -89,7 +89,7 @@ export class NotificationsChannelAssociation extends cdktn.TerraformResource {
   }
 
   // notification_configuration_arn - computed: false, optional: false, required: true
-  private _notificationConfigurationArn?: string;
+  private _notificationConfigurationArn?: string; 
   public get notificationConfigurationArn() {
     return this.getStringAttribute('notification_configuration_arn');
   }

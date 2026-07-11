@@ -104,7 +104,7 @@ export class GuarddutyOrganizationConfigurationDatasourcesKubernetesAuditLogsOut
   }
 
   // enable - computed: false, optional: false, required: true
-  private _enable?: boolean | cdktn.IResolvable;
+  private _enable?: boolean | cdktn.IResolvable; 
   public get enable() {
     return this.getBooleanAttribute('enable');
   }
@@ -268,7 +268,7 @@ export class GuarddutyOrganizationConfigurationDatasourcesMalwareProtectionScanE
   }
 
   // auto_enable - computed: false, optional: false, required: true
-  private _autoEnable?: boolean | cdktn.IResolvable;
+  private _autoEnable?: boolean | cdktn.IResolvable; 
   public get autoEnable() {
     return this.getBooleanAttribute('auto_enable');
   }
@@ -515,7 +515,7 @@ export class GuarddutyOrganizationConfigurationDatasourcesS3LogsOutputReference 
   }
 
   // auto_enable - computed: false, optional: false, required: true
-  private _autoEnable?: boolean | cdktn.IResolvable;
+  private _autoEnable?: boolean | cdktn.IResolvable; 
   public get autoEnable() {
     return this.getBooleanAttribute('auto_enable');
   }
@@ -746,7 +746,7 @@ export class GuarddutyOrganizationConfiguration extends cdktn.TerraformResource 
   // ==========
 
   // auto_enable_organization_members - computed: false, optional: false, required: true
-  private _autoEnableOrganizationMembers?: string;
+  private _autoEnableOrganizationMembers?: string; 
   public get autoEnableOrganizationMembers() {
     return this.getStringAttribute('auto_enable_organization_members');
   }
@@ -759,7 +759,7 @@ export class GuarddutyOrganizationConfiguration extends cdktn.TerraformResource 
   }
 
   // detector_id - computed: false, optional: false, required: true
-  private _detectorId?: string;
+  private _detectorId?: string; 
   public get detectorId() {
     return this.getStringAttribute('detector_id');
   }
@@ -772,7 +772,7 @@ export class GuarddutyOrganizationConfiguration extends cdktn.TerraformResource 
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -788,7 +788,7 @@ export class GuarddutyOrganizationConfiguration extends cdktn.TerraformResource 
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

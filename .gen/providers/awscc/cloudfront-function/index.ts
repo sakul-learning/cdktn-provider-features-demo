@@ -127,7 +127,7 @@ export class CloudfrontFunctionFunctionConfigKeyValueStoreAssociationsOutputRefe
   }
 
   // key_value_store_arn - computed: true, optional: true, required: false
-  private _keyValueStoreArn?: string;
+  private _keyValueStoreArn?: string; 
   public get keyValueStoreArn() {
     return this.getStringAttribute('key_value_store_arn');
   }
@@ -281,7 +281,7 @@ export class CloudfrontFunctionFunctionConfigOutputReference extends cdktn.Compl
   }
 
   // comment - computed: false, optional: false, required: true
-  private _comment?: string;
+  private _comment?: string; 
   public get comment() {
     return this.getStringAttribute('comment');
   }
@@ -310,7 +310,7 @@ export class CloudfrontFunctionFunctionConfigOutputReference extends cdktn.Compl
   }
 
   // runtime - computed: false, optional: false, required: true
-  private _runtime?: string;
+  private _runtime?: string; 
   public get runtime() {
     return this.getStringAttribute('runtime');
   }
@@ -490,7 +490,7 @@ export class CloudfrontFunctionTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -506,7 +506,7 @@ export class CloudfrontFunctionTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -605,7 +605,7 @@ export class CloudfrontFunction extends cdktn.TerraformResource {
   // ==========
 
   // auto_publish - computed: true, optional: true, required: false
-  private _autoPublish?: boolean | cdktn.IResolvable;
+  private _autoPublish?: boolean | cdktn.IResolvable; 
   public get autoPublish() {
     return this.getBooleanAttribute('auto_publish');
   }
@@ -626,7 +626,7 @@ export class CloudfrontFunction extends cdktn.TerraformResource {
   }
 
   // function_code - computed: false, optional: false, required: true
-  private _functionCode?: string;
+  private _functionCode?: string; 
   public get functionCode() {
     return this.getStringAttribute('function_code');
   }
@@ -673,7 +673,7 @@ export class CloudfrontFunction extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }

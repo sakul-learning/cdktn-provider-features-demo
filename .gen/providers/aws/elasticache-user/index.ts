@@ -164,7 +164,7 @@ export class ElasticacheUserAuthenticationModeOutputReference extends cdktn.Comp
   }
 
   // passwords - computed: false, optional: true, required: false
-  private _passwords?: string[];
+  private _passwords?: string[]; 
   public get passwords() {
     return cdktn.Fn.tolist(this.getListAttribute('passwords'));
   }
@@ -180,7 +180,7 @@ export class ElasticacheUserAuthenticationModeOutputReference extends cdktn.Comp
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -322,7 +322,7 @@ export class ElasticacheUserTimeoutsOutputReference extends cdktn.ComplexObject 
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -338,7 +338,7 @@ export class ElasticacheUserTimeoutsOutputReference extends cdktn.ComplexObject 
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -354,7 +354,7 @@ export class ElasticacheUserTimeoutsOutputReference extends cdktn.ComplexObject 
   }
 
   // read - computed: false, optional: true, required: false
-  private _read?: string;
+  private _read?: string; 
   public get read() {
     return this.getStringAttribute('read');
   }
@@ -370,7 +370,7 @@ export class ElasticacheUserTimeoutsOutputReference extends cdktn.ComplexObject 
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -458,7 +458,7 @@ export class ElasticacheUser extends cdktn.TerraformResource {
   // ==========
 
   // access_string - computed: false, optional: false, required: true
-  private _accessString?: string;
+  private _accessString?: string; 
   public get accessString() {
     return this.getStringAttribute('access_string');
   }
@@ -476,7 +476,7 @@ export class ElasticacheUser extends cdktn.TerraformResource {
   }
 
   // engine - computed: false, optional: false, required: true
-  private _engine?: string;
+  private _engine?: string; 
   public get engine() {
     return this.getStringAttribute('engine');
   }
@@ -489,7 +489,7 @@ export class ElasticacheUser extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -505,7 +505,7 @@ export class ElasticacheUser extends cdktn.TerraformResource {
   }
 
   // no_password_required - computed: false, optional: true, required: false
-  private _noPasswordRequired?: boolean | cdktn.IResolvable;
+  private _noPasswordRequired?: boolean | cdktn.IResolvable; 
   public get noPasswordRequired() {
     return this.getBooleanAttribute('no_password_required');
   }
@@ -521,7 +521,7 @@ export class ElasticacheUser extends cdktn.TerraformResource {
   }
 
   // passwords - computed: false, optional: true, required: false
-  private _passwords?: string[];
+  private _passwords?: string[]; 
   public get passwords() {
     return cdktn.Fn.tolist(this.getListAttribute('passwords'));
   }
@@ -537,7 +537,7 @@ export class ElasticacheUser extends cdktn.TerraformResource {
   }
 
   // passwords_wo - computed: false, optional: true, required: false
-  private _passwordsWo?: string;
+  private _passwordsWo?: string; 
   /**
   * @deprecated Write-only: the provider never returns this value; reading it always yields null by protocol contract. The getter remains for compatibility and will be removed in a future prebuilt-provider major.
   */
@@ -557,7 +557,7 @@ export class ElasticacheUser extends cdktn.TerraformResource {
   }
 
   // passwords_wo_version - computed: false, optional: true, required: false
-  private _passwordsWoVersion?: number;
+  private _passwordsWoVersion?: number; 
   public get passwordsWoVersion() {
     return this.getNumberAttribute('passwords_wo_version');
   }
@@ -573,7 +573,7 @@ export class ElasticacheUser extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -589,7 +589,7 @@ export class ElasticacheUser extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -605,7 +605,7 @@ export class ElasticacheUser extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -621,7 +621,7 @@ export class ElasticacheUser extends cdktn.TerraformResource {
   }
 
   // user_id - computed: false, optional: false, required: true
-  private _userId?: string;
+  private _userId?: string; 
   public get userId() {
     return this.getStringAttribute('user_id');
   }
@@ -634,7 +634,7 @@ export class ElasticacheUser extends cdktn.TerraformResource {
   }
 
   // user_name - computed: false, optional: false, required: true
-  private _userName?: string;
+  private _userName?: string; 
   public get userName() {
     return this.getStringAttribute('user_name');
   }

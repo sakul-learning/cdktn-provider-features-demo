@@ -13,7 +13,7 @@ export interface RdsDbParameterGroupConfig extends cdktn.TerraformMetaArguments 
   *   +  Must be 1 to 255 letters, numbers, or hyphens.
   *   +  First character must be a letter
   *   +  Can't end with a hyphen or contain two consecutive hyphens
-  *
+  *   
   *  If you don't specify a value for ``DBParameterGroupName`` property, a name is automatically created for the DB parameter group.
   *   This value is stored as a lowercase string.
   *
@@ -29,24 +29,24 @@ export interface RdsDbParameterGroupConfig extends cdktn.TerraformMetaArguments 
   /**
   * The DB parameter group family name. A DB parameter group can be associated with one and only one DB parameter group family, and can be applied only to a DB instance running a database engine and engine version compatible with that DB parameter group family.
   *  To list all of the available parameter group families for a DB engine, use the following command:
-  *   ``aws rds describe-db-engine-versions --query "DBEngineVersions[].DBParameterGroupFamily" --engine <engine>``
+  *   ``aws rds describe-db-engine-versions --query "DBEngineVersions[].DBParameterGroupFamily" --engine <engine>`` 
   *  For example, to list all of the available parameter group families for the MySQL DB engine, use the following command:
-  *   ``aws rds describe-db-engine-versions --query "DBEngineVersions[].DBParameterGroupFamily" --engine mysql``
+  *   ``aws rds describe-db-engine-versions --query "DBEngineVersions[].DBParameterGroupFamily" --engine mysql`` 
   *   The output contains duplicates.
   *   The following are the valid DB engine values:
-  *   +   ``aurora-mysql``
-  *   +   ``aurora-postgresql``
-  *   +   ``db2-ae``
-  *   +   ``db2-se``
-  *   +   ``mysql``
-  *   +   ``oracle-ee``
-  *   +   ``oracle-ee-cdb``
-  *   +   ``oracle-se2``
-  *   +   ``oracle-se2-cdb``
-  *   +   ``postgres``
-  *   +   ``sqlserver-ee``
-  *   +   ``sqlserver-se``
-  *   +   ``sqlserver-ex``
+  *   +   ``aurora-mysql`` 
+  *   +   ``aurora-postgresql`` 
+  *   +   ``db2-ae`` 
+  *   +   ``db2-se`` 
+  *   +   ``mysql`` 
+  *   +   ``oracle-ee`` 
+  *   +   ``oracle-ee-cdb`` 
+  *   +   ``oracle-se2`` 
+  *   +   ``oracle-se2-cdb`` 
+  *   +   ``postgres`` 
+  *   +   ``sqlserver-ee`` 
+  *   +   ``sqlserver-se`` 
+  *   +   ``sqlserver-ex`` 
   *   +   ``sqlserver-web``
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rds_db_parameter_group#family RdsDbParameterGroup#family}
@@ -169,7 +169,7 @@ export class RdsDbParameterGroupTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -185,7 +185,7 @@ export class RdsDbParameterGroupTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -283,7 +283,7 @@ export class RdsDbParameterGroup extends cdktn.TerraformResource {
   // ==========
 
   // db_parameter_group_name - computed: true, optional: true, required: false
-  private _dbParameterGroupName?: string;
+  private _dbParameterGroupName?: string; 
   public get dbParameterGroupName() {
     return this.getStringAttribute('db_parameter_group_name');
   }
@@ -299,7 +299,7 @@ export class RdsDbParameterGroup extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: false, required: true
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -312,7 +312,7 @@ export class RdsDbParameterGroup extends cdktn.TerraformResource {
   }
 
   // family - computed: false, optional: false, required: true
-  private _family?: string;
+  private _family?: string; 
   public get family() {
     return this.getStringAttribute('family');
   }
@@ -330,7 +330,7 @@ export class RdsDbParameterGroup extends cdktn.TerraformResource {
   }
 
   // parameters - computed: true, optional: true, required: false
-  private _parameters?: string;
+  private _parameters?: string; 
   public get parameters() {
     return this.getStringAttribute('parameters');
   }

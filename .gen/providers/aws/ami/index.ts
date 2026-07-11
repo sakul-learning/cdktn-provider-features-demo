@@ -324,7 +324,7 @@ export class AmiEbsBlockDeviceOutputReference extends cdktn.ComplexObject {
   }
 
   // delete_on_termination - computed: false, optional: true, required: false
-  private _deleteOnTermination?: boolean | cdktn.IResolvable;
+  private _deleteOnTermination?: boolean | cdktn.IResolvable; 
   public get deleteOnTermination() {
     return this.getBooleanAttribute('delete_on_termination');
   }
@@ -340,7 +340,7 @@ export class AmiEbsBlockDeviceOutputReference extends cdktn.ComplexObject {
   }
 
   // device_name - computed: false, optional: false, required: true
-  private _deviceName?: string;
+  private _deviceName?: string; 
   public get deviceName() {
     return this.getStringAttribute('device_name');
   }
@@ -353,7 +353,7 @@ export class AmiEbsBlockDeviceOutputReference extends cdktn.ComplexObject {
   }
 
   // encrypted - computed: false, optional: true, required: false
-  private _encrypted?: boolean | cdktn.IResolvable;
+  private _encrypted?: boolean | cdktn.IResolvable; 
   public get encrypted() {
     return this.getBooleanAttribute('encrypted');
   }
@@ -369,7 +369,7 @@ export class AmiEbsBlockDeviceOutputReference extends cdktn.ComplexObject {
   }
 
   // iops - computed: false, optional: true, required: false
-  private _iops?: number;
+  private _iops?: number; 
   public get iops() {
     return this.getNumberAttribute('iops');
   }
@@ -385,7 +385,7 @@ export class AmiEbsBlockDeviceOutputReference extends cdktn.ComplexObject {
   }
 
   // outpost_arn - computed: false, optional: true, required: false
-  private _outpostArn?: string;
+  private _outpostArn?: string; 
   public get outpostArn() {
     return this.getStringAttribute('outpost_arn');
   }
@@ -401,7 +401,7 @@ export class AmiEbsBlockDeviceOutputReference extends cdktn.ComplexObject {
   }
 
   // snapshot_id - computed: false, optional: true, required: false
-  private _snapshotId?: string;
+  private _snapshotId?: string; 
   public get snapshotId() {
     return this.getStringAttribute('snapshot_id');
   }
@@ -417,7 +417,7 @@ export class AmiEbsBlockDeviceOutputReference extends cdktn.ComplexObject {
   }
 
   // throughput - computed: true, optional: true, required: false
-  private _throughput?: number;
+  private _throughput?: number; 
   public get throughput() {
     return this.getNumberAttribute('throughput');
   }
@@ -433,7 +433,7 @@ export class AmiEbsBlockDeviceOutputReference extends cdktn.ComplexObject {
   }
 
   // volume_size - computed: true, optional: true, required: false
-  private _volumeSize?: number;
+  private _volumeSize?: number; 
   public get volumeSize() {
     return this.getNumberAttribute('volume_size');
   }
@@ -449,7 +449,7 @@ export class AmiEbsBlockDeviceOutputReference extends cdktn.ComplexObject {
   }
 
   // volume_type - computed: false, optional: true, required: false
-  private _volumeType?: string;
+  private _volumeType?: string; 
   public get volumeType() {
     return this.getStringAttribute('volume_type');
   }
@@ -582,7 +582,7 @@ export class AmiEphemeralBlockDeviceOutputReference extends cdktn.ComplexObject 
   }
 
   // device_name - computed: false, optional: false, required: true
-  private _deviceName?: string;
+  private _deviceName?: string; 
   public get deviceName() {
     return this.getStringAttribute('device_name');
   }
@@ -595,7 +595,7 @@ export class AmiEphemeralBlockDeviceOutputReference extends cdktn.ComplexObject 
   }
 
   // virtual_name - computed: false, optional: false, required: true
-  private _virtualName?: string;
+  private _virtualName?: string; 
   public get virtualName() {
     return this.getStringAttribute('virtual_name');
   }
@@ -740,7 +740,7 @@ export class AmiTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -756,7 +756,7 @@ export class AmiTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -772,7 +772,7 @@ export class AmiTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -867,7 +867,7 @@ export class Ami extends cdktn.TerraformResource {
   // ==========
 
   // architecture - computed: false, optional: true, required: false
-  private _architecture?: string;
+  private _architecture?: string; 
   public get architecture() {
     return this.getStringAttribute('architecture');
   }
@@ -888,7 +888,7 @@ export class Ami extends cdktn.TerraformResource {
   }
 
   // boot_mode - computed: false, optional: true, required: false
-  private _bootMode?: string;
+  private _bootMode?: string; 
   public get bootMode() {
     return this.getStringAttribute('boot_mode');
   }
@@ -904,7 +904,7 @@ export class Ami extends cdktn.TerraformResource {
   }
 
   // deprecation_time - computed: false, optional: true, required: false
-  private _deprecationTime?: string;
+  private _deprecationTime?: string; 
   public get deprecationTime() {
     return this.getStringAttribute('deprecation_time');
   }
@@ -920,7 +920,7 @@ export class Ami extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -936,7 +936,7 @@ export class Ami extends cdktn.TerraformResource {
   }
 
   // ena_support - computed: false, optional: true, required: false
-  private _enaSupport?: boolean | cdktn.IResolvable;
+  private _enaSupport?: boolean | cdktn.IResolvable; 
   public get enaSupport() {
     return this.getBooleanAttribute('ena_support');
   }
@@ -957,7 +957,7 @@ export class Ami extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -973,7 +973,7 @@ export class Ami extends cdktn.TerraformResource {
   }
 
   // image_location - computed: true, optional: true, required: false
-  private _imageLocation?: string;
+  private _imageLocation?: string; 
   public get imageLocation() {
     return this.getStringAttribute('image_location');
   }
@@ -999,7 +999,7 @@ export class Ami extends cdktn.TerraformResource {
   }
 
   // imds_support - computed: false, optional: true, required: false
-  private _imdsSupport?: string;
+  private _imdsSupport?: string; 
   public get imdsSupport() {
     return this.getStringAttribute('imds_support');
   }
@@ -1015,7 +1015,7 @@ export class Ami extends cdktn.TerraformResource {
   }
 
   // kernel_id - computed: false, optional: true, required: false
-  private _kernelId?: string;
+  private _kernelId?: string; 
   public get kernelId() {
     return this.getStringAttribute('kernel_id');
   }
@@ -1041,7 +1041,7 @@ export class Ami extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1074,7 +1074,7 @@ export class Ami extends cdktn.TerraformResource {
   }
 
   // ramdisk_id - computed: false, optional: true, required: false
-  private _ramdiskId?: string;
+  private _ramdiskId?: string; 
   public get ramdiskId() {
     return this.getStringAttribute('ramdisk_id');
   }
@@ -1090,7 +1090,7 @@ export class Ami extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1106,7 +1106,7 @@ export class Ami extends cdktn.TerraformResource {
   }
 
   // root_device_name - computed: false, optional: true, required: false
-  private _rootDeviceName?: string;
+  private _rootDeviceName?: string; 
   public get rootDeviceName() {
     return this.getStringAttribute('root_device_name');
   }
@@ -1127,7 +1127,7 @@ export class Ami extends cdktn.TerraformResource {
   }
 
   // sriov_net_support - computed: false, optional: true, required: false
-  private _sriovNetSupport?: string;
+  private _sriovNetSupport?: string; 
   public get sriovNetSupport() {
     return this.getStringAttribute('sriov_net_support');
   }
@@ -1143,7 +1143,7 @@ export class Ami extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -1159,7 +1159,7 @@ export class Ami extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -1175,7 +1175,7 @@ export class Ami extends cdktn.TerraformResource {
   }
 
   // tpm_support - computed: false, optional: true, required: false
-  private _tpmSupport?: string;
+  private _tpmSupport?: string; 
   public get tpmSupport() {
     return this.getStringAttribute('tpm_support');
   }
@@ -1191,7 +1191,7 @@ export class Ami extends cdktn.TerraformResource {
   }
 
   // uefi_data - computed: false, optional: true, required: false
-  private _uefiData?: string;
+  private _uefiData?: string; 
   public get uefiData() {
     return this.getStringAttribute('uefi_data');
   }
@@ -1212,7 +1212,7 @@ export class Ami extends cdktn.TerraformResource {
   }
 
   // virtualization_type - computed: false, optional: true, required: false
-  private _virtualizationType?: string;
+  private _virtualizationType?: string; 
   public get virtualizationType() {
     return this.getStringAttribute('virtualization_type');
   }

@@ -144,7 +144,7 @@ export class ProtonEnvironmentTemplateTagsOutputReference extends cdktn.ComplexO
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -160,7 +160,7 @@ export class ProtonEnvironmentTemplateTagsOutputReference extends cdktn.ComplexO
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -264,7 +264,7 @@ export class ProtonEnvironmentTemplate extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -280,7 +280,7 @@ export class ProtonEnvironmentTemplate extends cdktn.TerraformResource {
   }
 
   // display_name - computed: true, optional: true, required: false
-  private _displayName?: string;
+  private _displayName?: string; 
   public get displayName() {
     return this.getStringAttribute('display_name');
   }
@@ -296,7 +296,7 @@ export class ProtonEnvironmentTemplate extends cdktn.TerraformResource {
   }
 
   // encryption_key - computed: true, optional: true, required: false
-  private _encryptionKey?: string;
+  private _encryptionKey?: string; 
   public get encryptionKey() {
     return this.getStringAttribute('encryption_key');
   }
@@ -317,7 +317,7 @@ export class ProtonEnvironmentTemplate extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -333,7 +333,7 @@ export class ProtonEnvironmentTemplate extends cdktn.TerraformResource {
   }
 
   // provisioning - computed: true, optional: true, required: false
-  private _provisioning?: string;
+  private _provisioning?: string; 
   public get provisioning() {
     return this.getStringAttribute('provisioning');
   }

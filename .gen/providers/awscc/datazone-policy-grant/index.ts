@@ -111,7 +111,7 @@ export class DatazonePolicyGrantDetailAddToProjectMemberPoolOutputReference exte
   }
 
   // include_child_domain_units - computed: true, optional: true, required: false
-  private _includeChildDomainUnits?: boolean | cdktn.IResolvable;
+  private _includeChildDomainUnits?: boolean | cdktn.IResolvable; 
   public get includeChildDomainUnits() {
     return this.getBooleanAttribute('include_child_domain_units');
   }
@@ -205,7 +205,7 @@ export class DatazonePolicyGrantDetailCreateAssetTypeOutputReference extends cdk
   }
 
   // include_child_domain_units - computed: true, optional: true, required: false
-  private _includeChildDomainUnits?: boolean | cdktn.IResolvable;
+  private _includeChildDomainUnits?: boolean | cdktn.IResolvable; 
   public get includeChildDomainUnits() {
     return this.getBooleanAttribute('include_child_domain_units');
   }
@@ -299,7 +299,7 @@ export class DatazonePolicyGrantDetailCreateDomainUnitOutputReference extends cd
   }
 
   // include_child_domain_units - computed: true, optional: true, required: false
-  private _includeChildDomainUnits?: boolean | cdktn.IResolvable;
+  private _includeChildDomainUnits?: boolean | cdktn.IResolvable; 
   public get includeChildDomainUnits() {
     return this.getBooleanAttribute('include_child_domain_units');
   }
@@ -393,7 +393,7 @@ export class DatazonePolicyGrantDetailCreateEnvironmentProfileOutputReference ex
   }
 
   // domain_unit_id - computed: true, optional: true, required: false
-  private _domainUnitId?: string;
+  private _domainUnitId?: string; 
   public get domainUnitId() {
     return this.getStringAttribute('domain_unit_id');
   }
@@ -487,7 +487,7 @@ export class DatazonePolicyGrantDetailCreateFormTypeOutputReference extends cdkt
   }
 
   // include_child_domain_units - computed: true, optional: true, required: false
-  private _includeChildDomainUnits?: boolean | cdktn.IResolvable;
+  private _includeChildDomainUnits?: boolean | cdktn.IResolvable; 
   public get includeChildDomainUnits() {
     return this.getBooleanAttribute('include_child_domain_units');
   }
@@ -581,7 +581,7 @@ export class DatazonePolicyGrantDetailCreateGlossaryOutputReference extends cdkt
   }
 
   // include_child_domain_units - computed: true, optional: true, required: false
-  private _includeChildDomainUnits?: boolean | cdktn.IResolvable;
+  private _includeChildDomainUnits?: boolean | cdktn.IResolvable; 
   public get includeChildDomainUnits() {
     return this.getBooleanAttribute('include_child_domain_units');
   }
@@ -675,7 +675,7 @@ export class DatazonePolicyGrantDetailCreateProjectOutputReference extends cdktn
   }
 
   // include_child_domain_units - computed: true, optional: true, required: false
-  private _includeChildDomainUnits?: boolean | cdktn.IResolvable;
+  private _includeChildDomainUnits?: boolean | cdktn.IResolvable; 
   public get includeChildDomainUnits() {
     return this.getBooleanAttribute('include_child_domain_units');
   }
@@ -786,7 +786,7 @@ export class DatazonePolicyGrantDetailCreateProjectFromProjectProfileOutputRefer
   }
 
   // include_child_domain_units - computed: true, optional: true, required: false
-  private _includeChildDomainUnits?: boolean | cdktn.IResolvable;
+  private _includeChildDomainUnits?: boolean | cdktn.IResolvable; 
   public get includeChildDomainUnits() {
     return this.getBooleanAttribute('include_child_domain_units');
   }
@@ -802,7 +802,7 @@ export class DatazonePolicyGrantDetailCreateProjectFromProjectProfileOutputRefer
   }
 
   // project_profiles - computed: true, optional: true, required: false
-  private _projectProfiles?: string[];
+  private _projectProfiles?: string[]; 
   public get projectProfiles() {
     return this.getListAttribute('project_profiles');
   }
@@ -896,7 +896,7 @@ export class DatazonePolicyGrantDetailOverrideDomainUnitOwnersOutputReference ex
   }
 
   // include_child_domain_units - computed: true, optional: true, required: false
-  private _includeChildDomainUnits?: boolean | cdktn.IResolvable;
+  private _includeChildDomainUnits?: boolean | cdktn.IResolvable; 
   public get includeChildDomainUnits() {
     return this.getBooleanAttribute('include_child_domain_units');
   }
@@ -990,7 +990,7 @@ export class DatazonePolicyGrantDetailOverrideProjectOwnersOutputReference exten
   }
 
   // include_child_domain_units - computed: true, optional: true, required: false
-  private _includeChildDomainUnits?: boolean | cdktn.IResolvable;
+  private _includeChildDomainUnits?: boolean | cdktn.IResolvable; 
   public get includeChildDomainUnits() {
     return this.getBooleanAttribute('include_child_domain_units');
   }
@@ -1336,7 +1336,7 @@ export class DatazonePolicyGrantDetailOutputReference extends cdktn.ComplexObjec
   }
 
   // create_environment - computed: true, optional: true, required: false
-  private _createEnvironment?: string;
+  private _createEnvironment?: string; 
   public get createEnvironment() {
     return this.getStringAttribute('create_environment');
   }
@@ -1352,7 +1352,7 @@ export class DatazonePolicyGrantDetailOutputReference extends cdktn.ComplexObjec
   }
 
   // create_environment_from_blueprint - computed: true, optional: true, required: false
-  private _createEnvironmentFromBlueprint?: string;
+  private _createEnvironmentFromBlueprint?: string; 
   public get createEnvironmentFromBlueprint() {
     return this.getStringAttribute('create_environment_from_blueprint');
   }
@@ -1448,7 +1448,7 @@ export class DatazonePolicyGrantDetailOutputReference extends cdktn.ComplexObjec
   }
 
   // delegate_create_environment_profile - computed: true, optional: true, required: false
-  private _delegateCreateEnvironmentProfile?: string;
+  private _delegateCreateEnvironmentProfile?: string; 
   public get delegateCreateEnvironmentProfile() {
     return this.getStringAttribute('delegate_create_environment_profile');
   }
@@ -1574,7 +1574,7 @@ export class DatazonePolicyGrantPrincipalDomainUnitDomainUnitGrantFilterOutputRe
   }
 
   // all_domain_units_grant_filter - computed: true, optional: true, required: false
-  private _allDomainUnitsGrantFilter?: string;
+  private _allDomainUnitsGrantFilter?: string; 
   public get allDomainUnitsGrantFilter() {
     return this.getStringAttribute('all_domain_units_grant_filter');
   }
@@ -1702,7 +1702,7 @@ export class DatazonePolicyGrantPrincipalDomainUnitOutputReference extends cdktn
   }
 
   // domain_unit_designation - computed: true, optional: true, required: false
-  private _domainUnitDesignation?: string;
+  private _domainUnitDesignation?: string; 
   public get domainUnitDesignation() {
     return this.getStringAttribute('domain_unit_designation');
   }
@@ -1734,7 +1734,7 @@ export class DatazonePolicyGrantPrincipalDomainUnitOutputReference extends cdktn
   }
 
   // domain_unit_identifier - computed: true, optional: true, required: false
-  private _domainUnitIdentifier?: string;
+  private _domainUnitIdentifier?: string; 
   public get domainUnitIdentifier() {
     return this.getStringAttribute('domain_unit_identifier');
   }
@@ -1828,7 +1828,7 @@ export class DatazonePolicyGrantPrincipalGroupOutputReference extends cdktn.Comp
   }
 
   // group_identifier - computed: true, optional: true, required: false
-  private _groupIdentifier?: string;
+  private _groupIdentifier?: string; 
   public get groupIdentifier() {
     return this.getStringAttribute('group_identifier');
   }
@@ -1939,7 +1939,7 @@ export class DatazonePolicyGrantPrincipalProjectProjectGrantFilterDomainUnitFilt
   }
 
   // domain_unit - computed: true, optional: true, required: false
-  private _domainUnit?: string;
+  private _domainUnit?: string; 
   public get domainUnit() {
     return this.getStringAttribute('domain_unit');
   }
@@ -1955,7 +1955,7 @@ export class DatazonePolicyGrantPrincipalProjectProjectGrantFilterDomainUnitFilt
   }
 
   // include_child_domain_units - computed: true, optional: true, required: false
-  private _includeChildDomainUnits?: boolean | cdktn.IResolvable;
+  private _includeChildDomainUnits?: boolean | cdktn.IResolvable; 
   public get includeChildDomainUnits() {
     return this.getBooleanAttribute('include_child_domain_units');
   }
@@ -2177,7 +2177,7 @@ export class DatazonePolicyGrantPrincipalProjectOutputReference extends cdktn.Co
   }
 
   // project_designation - computed: true, optional: true, required: false
-  private _projectDesignation?: string;
+  private _projectDesignation?: string; 
   public get projectDesignation() {
     return this.getStringAttribute('project_designation');
   }
@@ -2209,7 +2209,7 @@ export class DatazonePolicyGrantPrincipalProjectOutputReference extends cdktn.Co
   }
 
   // project_identifier - computed: true, optional: true, required: false
-  private _projectIdentifier?: string;
+  private _projectIdentifier?: string; 
   public get projectIdentifier() {
     return this.getStringAttribute('project_identifier');
   }
@@ -2320,7 +2320,7 @@ export class DatazonePolicyGrantPrincipalUserOutputReference extends cdktn.Compl
   }
 
   // all_users_grant_filter - computed: true, optional: true, required: false
-  private _allUsersGrantFilter?: string;
+  private _allUsersGrantFilter?: string; 
   public get allUsersGrantFilter() {
     return this.getStringAttribute('all_users_grant_filter');
   }
@@ -2336,7 +2336,7 @@ export class DatazonePolicyGrantPrincipalUserOutputReference extends cdktn.Compl
   }
 
   // user_identifier - computed: true, optional: true, required: false
-  private _userIdentifier?: string;
+  private _userIdentifier?: string; 
   public get userIdentifier() {
     return this.getStringAttribute('user_identifier');
   }
@@ -2634,7 +2634,7 @@ export class DatazonePolicyGrant extends cdktn.TerraformResource {
   }
 
   // domain_identifier - computed: false, optional: false, required: true
-  private _domainIdentifier?: string;
+  private _domainIdentifier?: string; 
   public get domainIdentifier() {
     return this.getStringAttribute('domain_identifier');
   }
@@ -2647,7 +2647,7 @@ export class DatazonePolicyGrant extends cdktn.TerraformResource {
   }
 
   // entity_identifier - computed: false, optional: false, required: true
-  private _entityIdentifier?: string;
+  private _entityIdentifier?: string; 
   public get entityIdentifier() {
     return this.getStringAttribute('entity_identifier');
   }
@@ -2660,7 +2660,7 @@ export class DatazonePolicyGrant extends cdktn.TerraformResource {
   }
 
   // entity_type - computed: false, optional: false, required: true
-  private _entityType?: string;
+  private _entityType?: string; 
   public get entityType() {
     return this.getStringAttribute('entity_type');
   }
@@ -2683,7 +2683,7 @@ export class DatazonePolicyGrant extends cdktn.TerraformResource {
   }
 
   // policy_type - computed: false, optional: false, required: true
-  private _policyType?: string;
+  private _policyType?: string; 
   public get policyType() {
     return this.getStringAttribute('policy_type');
   }

@@ -50,10 +50,10 @@ export interface NeptuneDbClusterConfig extends cdktn.TerraformMetaArguments {
   */
   readonly dbInstanceParameterGroupName?: string;
   /**
-  * The port number on which the DB instances in the DB cluster accept connections.
-  *
-  * If not specified, the default port used is `8182`.
-  *
+  * The port number on which the DB instances in the DB cluster accept connections. 
+  * 
+  * If not specified, the default port used is `8182`. 
+  * 
   * Note: `Port` property will soon be deprecated from this resource. Please update existing templates to rename it with new property `DBPort` having same functionalities.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/neptune_db_cluster#db_port NeptuneDbCluster#db_port}
@@ -121,9 +121,9 @@ export interface NeptuneDbClusterConfig extends cdktn.TerraformMetaArguments {
   readonly preferredMaintenanceWindow?: string;
   /**
   * Creates a new DB cluster from a DB snapshot or DB cluster snapshot.
-  *
+  * 
   * If a DB snapshot is specified, the target DB cluster is created from the source DB snapshot with a default configuration and default security group.
-  *
+  * 
   * If a DB cluster snapshot is specified, the target DB cluster is created from the source DB cluster restore point with the same configuration as the original source DB cluster, except that the new DB cluster is created with the default security group.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/neptune_db_cluster#restore_to_time NeptuneDbCluster#restore_to_time}
@@ -131,9 +131,9 @@ export interface NeptuneDbClusterConfig extends cdktn.TerraformMetaArguments {
   readonly restoreToTime?: string;
   /**
   * Creates a new DB cluster from a DB snapshot or DB cluster snapshot.
-  *
+  * 
   * If a DB snapshot is specified, the target DB cluster is created from the source DB snapshot with a default configuration and default security group.
-  *
+  * 
   * If a DB cluster snapshot is specified, the target DB cluster is created from the source DB cluster restore point with the same configuration as the original source DB cluster, except that the new DB cluster is created with the default security group.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/neptune_db_cluster#restore_type NeptuneDbCluster#restore_type}
@@ -147,9 +147,9 @@ export interface NeptuneDbClusterConfig extends cdktn.TerraformMetaArguments {
   readonly serverlessScalingConfiguration?: NeptuneDbClusterServerlessScalingConfiguration;
   /**
   * Specifies the identifier for a DB cluster snapshot. Must match the identifier of an existing snapshot.
-  *
+  * 
   * After you restore a DB cluster using a SnapshotIdentifier, you must specify the same SnapshotIdentifier for any future updates to the DB cluster. When you specify this property for an update, the DB cluster is not restored from the snapshot again, and the data in the database is not changed.
-  *
+  * 
   * However, if you don't specify the SnapshotIdentifier, an empty DB cluster is created, and the original DB cluster is deleted. If you specify a property that is different from the previous snapshot restore property, the DB cluster is restored from the snapshot specified by the SnapshotIdentifier, and the original DB cluster is deleted.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/neptune_db_cluster#snapshot_identifier NeptuneDbCluster#snapshot_identifier}
@@ -157,9 +157,9 @@ export interface NeptuneDbClusterConfig extends cdktn.TerraformMetaArguments {
   readonly snapshotIdentifier?: string;
   /**
   * Creates a new DB cluster from a DB snapshot or DB cluster snapshot.
-  *
+  * 
   * If a DB snapshot is specified, the target DB cluster is created from the source DB snapshot with a default configuration and default security group.
-  *
+  * 
   * If a DB cluster snapshot is specified, the target DB cluster is created from the source DB cluster restore point with the same configuration as the original source DB cluster, except that the new DB cluster is created with the default security group.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/neptune_db_cluster#source_db_cluster_identifier NeptuneDbCluster#source_db_cluster_identifier}
@@ -167,13 +167,13 @@ export interface NeptuneDbClusterConfig extends cdktn.TerraformMetaArguments {
   readonly sourceDbClusterIdentifier?: string;
   /**
   * Indicates whether the DB cluster is encrypted.
-  *
+  * 
   * If you specify the KmsKeyId property, then you must enable encryption and set this property to true.
-  *
+  * 
   * If you enable the StorageEncrypted property but don't specify KmsKeyId property, then the default KMS key is used. If you specify KmsKeyId property, then that KMS Key is used to encrypt the database instances in the DB cluster.
-  *
+  * 
   * If you specify the SourceDBClusterIdentifier property and don't specify this property or disable it. The value is inherited from the source DB cluster, and if the DB cluster is encrypted, the KmsKeyId property from the source cluster is used.
-  *
+  * 
   * If you specify the DBSnapshotIdentifier and don't specify this property or disable it. The value is inherited from the snapshot, and the specified KmsKeyId property from the snapshot is used.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/neptune_db_cluster#storage_encrypted NeptuneDbCluster#storage_encrypted}
@@ -187,9 +187,9 @@ export interface NeptuneDbClusterConfig extends cdktn.TerraformMetaArguments {
   readonly tags?: NeptuneDbClusterTags[] | cdktn.IResolvable;
   /**
   * Creates a new DB cluster from a DB snapshot or DB cluster snapshot.
-  *
+  * 
   * If a DB snapshot is specified, the target DB cluster is created from the source DB snapshot with a default configuration and default security group.
-  *
+  * 
   * If a DB cluster snapshot is specified, the target DB cluster is created from the source DB cluster restore point with the same configuration as the original source DB cluster, except that the new DB cluster is created with the default security group.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/neptune_db_cluster#use_latest_restorable_time NeptuneDbCluster#use_latest_restorable_time}
@@ -304,7 +304,7 @@ export class NeptuneDbClusterAssociatedRolesOutputReference extends cdktn.Comple
   }
 
   // feature_name - computed: true, optional: true, required: false
-  private _featureName?: string;
+  private _featureName?: string; 
   public get featureName() {
     return this.getStringAttribute('feature_name');
   }
@@ -320,7 +320,7 @@ export class NeptuneDbClusterAssociatedRolesOutputReference extends cdktn.Comple
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -455,7 +455,7 @@ export class NeptuneDbClusterServerlessScalingConfigurationOutputReference exten
   }
 
   // max_capacity - computed: true, optional: true, required: false
-  private _maxCapacity?: number;
+  private _maxCapacity?: number; 
   public get maxCapacity() {
     return this.getNumberAttribute('max_capacity');
   }
@@ -471,7 +471,7 @@ export class NeptuneDbClusterServerlessScalingConfigurationOutputReference exten
   }
 
   // min_capacity - computed: true, optional: true, required: false
-  private _minCapacity?: number;
+  private _minCapacity?: number; 
   public get minCapacity() {
     return this.getNumberAttribute('min_capacity');
   }
@@ -488,13 +488,13 @@ export class NeptuneDbClusterServerlessScalingConfigurationOutputReference exten
 }
 export interface NeptuneDbClusterTags {
   /**
-  * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
+  * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/neptune_db_cluster#key NeptuneDbCluster#key}
   */
   readonly key?: string;
   /**
-  * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
+  * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/neptune_db_cluster#value NeptuneDbCluster#value}
   */
@@ -588,7 +588,7 @@ export class NeptuneDbClusterTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -604,7 +604,7 @@ export class NeptuneDbClusterTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -740,7 +740,7 @@ export class NeptuneDbCluster extends cdktn.TerraformResource {
   }
 
   // availability_zones - computed: true, optional: true, required: false
-  private _availabilityZones?: string[];
+  private _availabilityZones?: string[]; 
   public get availabilityZones() {
     return this.getListAttribute('availability_zones');
   }
@@ -756,7 +756,7 @@ export class NeptuneDbCluster extends cdktn.TerraformResource {
   }
 
   // backup_retention_period - computed: true, optional: true, required: false
-  private _backupRetentionPeriod?: number;
+  private _backupRetentionPeriod?: number; 
   public get backupRetentionPeriod() {
     return this.getNumberAttribute('backup_retention_period');
   }
@@ -777,7 +777,7 @@ export class NeptuneDbCluster extends cdktn.TerraformResource {
   }
 
   // copy_tags_to_snapshot - computed: true, optional: true, required: false
-  private _copyTagsToSnapshot?: boolean | cdktn.IResolvable;
+  private _copyTagsToSnapshot?: boolean | cdktn.IResolvable; 
   public get copyTagsToSnapshot() {
     return this.getBooleanAttribute('copy_tags_to_snapshot');
   }
@@ -793,7 +793,7 @@ export class NeptuneDbCluster extends cdktn.TerraformResource {
   }
 
   // db_cluster_identifier - computed: true, optional: true, required: false
-  private _dbClusterIdentifier?: string;
+  private _dbClusterIdentifier?: string; 
   public get dbClusterIdentifier() {
     return this.getStringAttribute('db_cluster_identifier');
   }
@@ -809,7 +809,7 @@ export class NeptuneDbCluster extends cdktn.TerraformResource {
   }
 
   // db_cluster_parameter_group_name - computed: true, optional: true, required: false
-  private _dbClusterParameterGroupName?: string;
+  private _dbClusterParameterGroupName?: string; 
   public get dbClusterParameterGroupName() {
     return this.getStringAttribute('db_cluster_parameter_group_name');
   }
@@ -825,7 +825,7 @@ export class NeptuneDbCluster extends cdktn.TerraformResource {
   }
 
   // db_instance_parameter_group_name - computed: true, optional: true, required: false
-  private _dbInstanceParameterGroupName?: string;
+  private _dbInstanceParameterGroupName?: string; 
   public get dbInstanceParameterGroupName() {
     return this.getStringAttribute('db_instance_parameter_group_name');
   }
@@ -841,7 +841,7 @@ export class NeptuneDbCluster extends cdktn.TerraformResource {
   }
 
   // db_port - computed: true, optional: true, required: false
-  private _dbPort?: number;
+  private _dbPort?: number; 
   public get dbPort() {
     return this.getNumberAttribute('db_port');
   }
@@ -857,7 +857,7 @@ export class NeptuneDbCluster extends cdktn.TerraformResource {
   }
 
   // db_subnet_group_name - computed: true, optional: true, required: false
-  private _dbSubnetGroupName?: string;
+  private _dbSubnetGroupName?: string; 
   public get dbSubnetGroupName() {
     return this.getStringAttribute('db_subnet_group_name');
   }
@@ -873,7 +873,7 @@ export class NeptuneDbCluster extends cdktn.TerraformResource {
   }
 
   // deletion_protection - computed: true, optional: true, required: false
-  private _deletionProtection?: boolean | cdktn.IResolvable;
+  private _deletionProtection?: boolean | cdktn.IResolvable; 
   public get deletionProtection() {
     return this.getBooleanAttribute('deletion_protection');
   }
@@ -889,7 +889,7 @@ export class NeptuneDbCluster extends cdktn.TerraformResource {
   }
 
   // enable_cloudwatch_logs_exports - computed: true, optional: true, required: false
-  private _enableCloudwatchLogsExports?: string[];
+  private _enableCloudwatchLogsExports?: string[]; 
   public get enableCloudwatchLogsExports() {
     return this.getListAttribute('enable_cloudwatch_logs_exports');
   }
@@ -910,7 +910,7 @@ export class NeptuneDbCluster extends cdktn.TerraformResource {
   }
 
   // engine_version - computed: true, optional: true, required: false
-  private _engineVersion?: string;
+  private _engineVersion?: string; 
   public get engineVersion() {
     return this.getStringAttribute('engine_version');
   }
@@ -926,7 +926,7 @@ export class NeptuneDbCluster extends cdktn.TerraformResource {
   }
 
   // global_cluster_identifier - computed: true, optional: true, required: false
-  private _globalClusterIdentifier?: string;
+  private _globalClusterIdentifier?: string; 
   public get globalClusterIdentifier() {
     return this.getStringAttribute('global_cluster_identifier');
   }
@@ -942,7 +942,7 @@ export class NeptuneDbCluster extends cdktn.TerraformResource {
   }
 
   // iam_auth_enabled - computed: true, optional: true, required: false
-  private _iamAuthEnabled?: boolean | cdktn.IResolvable;
+  private _iamAuthEnabled?: boolean | cdktn.IResolvable; 
   public get iamAuthEnabled() {
     return this.getBooleanAttribute('iam_auth_enabled');
   }
@@ -963,7 +963,7 @@ export class NeptuneDbCluster extends cdktn.TerraformResource {
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -979,7 +979,7 @@ export class NeptuneDbCluster extends cdktn.TerraformResource {
   }
 
   // network_type - computed: true, optional: true, required: false
-  private _networkType?: string;
+  private _networkType?: string; 
   public get networkType() {
     return this.getStringAttribute('network_type');
   }
@@ -1000,7 +1000,7 @@ export class NeptuneDbCluster extends cdktn.TerraformResource {
   }
 
   // preferred_backup_window - computed: true, optional: true, required: false
-  private _preferredBackupWindow?: string;
+  private _preferredBackupWindow?: string; 
   public get preferredBackupWindow() {
     return this.getStringAttribute('preferred_backup_window');
   }
@@ -1016,7 +1016,7 @@ export class NeptuneDbCluster extends cdktn.TerraformResource {
   }
 
   // preferred_maintenance_window - computed: true, optional: true, required: false
-  private _preferredMaintenanceWindow?: string;
+  private _preferredMaintenanceWindow?: string; 
   public get preferredMaintenanceWindow() {
     return this.getStringAttribute('preferred_maintenance_window');
   }
@@ -1037,7 +1037,7 @@ export class NeptuneDbCluster extends cdktn.TerraformResource {
   }
 
   // restore_to_time - computed: true, optional: true, required: false
-  private _restoreToTime?: string;
+  private _restoreToTime?: string; 
   public get restoreToTime() {
     return this.getStringAttribute('restore_to_time');
   }
@@ -1053,7 +1053,7 @@ export class NeptuneDbCluster extends cdktn.TerraformResource {
   }
 
   // restore_type - computed: true, optional: true, required: false
-  private _restoreType?: string;
+  private _restoreType?: string; 
   public get restoreType() {
     return this.getStringAttribute('restore_type');
   }
@@ -1085,7 +1085,7 @@ export class NeptuneDbCluster extends cdktn.TerraformResource {
   }
 
   // snapshot_identifier - computed: true, optional: true, required: false
-  private _snapshotIdentifier?: string;
+  private _snapshotIdentifier?: string; 
   public get snapshotIdentifier() {
     return this.getStringAttribute('snapshot_identifier');
   }
@@ -1101,7 +1101,7 @@ export class NeptuneDbCluster extends cdktn.TerraformResource {
   }
 
   // source_db_cluster_identifier - computed: true, optional: true, required: false
-  private _sourceDbClusterIdentifier?: string;
+  private _sourceDbClusterIdentifier?: string; 
   public get sourceDbClusterIdentifier() {
     return this.getStringAttribute('source_db_cluster_identifier');
   }
@@ -1117,7 +1117,7 @@ export class NeptuneDbCluster extends cdktn.TerraformResource {
   }
 
   // storage_encrypted - computed: true, optional: true, required: false
-  private _storageEncrypted?: boolean | cdktn.IResolvable;
+  private _storageEncrypted?: boolean | cdktn.IResolvable; 
   public get storageEncrypted() {
     return this.getBooleanAttribute('storage_encrypted');
   }
@@ -1149,7 +1149,7 @@ export class NeptuneDbCluster extends cdktn.TerraformResource {
   }
 
   // use_latest_restorable_time - computed: true, optional: true, required: false
-  private _useLatestRestorableTime?: boolean | cdktn.IResolvable;
+  private _useLatestRestorableTime?: boolean | cdktn.IResolvable; 
   public get useLatestRestorableTime() {
     return this.getBooleanAttribute('use_latest_restorable_time');
   }
@@ -1165,7 +1165,7 @@ export class NeptuneDbCluster extends cdktn.TerraformResource {
   }
 
   // vpc_security_group_ids - computed: true, optional: true, required: false
-  private _vpcSecurityGroupIds?: string[];
+  private _vpcSecurityGroupIds?: string[]; 
   public get vpcSecurityGroupIds() {
     return this.getListAttribute('vpc_security_group_ids');
   }

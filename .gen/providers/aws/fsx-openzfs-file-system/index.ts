@@ -215,7 +215,7 @@ export class FsxOpenzfsFileSystemDiskIopsConfigurationOutputReference extends cd
   }
 
   // iops - computed: true, optional: true, required: false
-  private _iops?: number;
+  private _iops?: number; 
   public get iops() {
     return this.getNumberAttribute('iops');
   }
@@ -231,7 +231,7 @@ export class FsxOpenzfsFileSystemDiskIopsConfigurationOutputReference extends cd
   }
 
   // mode - computed: false, optional: true, required: false
-  private _mode?: string;
+  private _mode?: string; 
   public get mode() {
     return this.getStringAttribute('mode');
   }
@@ -332,7 +332,7 @@ export class FsxOpenzfsFileSystemReadCacheConfigurationOutputReference extends c
   }
 
   // size - computed: true, optional: true, required: false
-  private _size?: number;
+  private _size?: number; 
   public get size() {
     return this.getNumberAttribute('size');
   }
@@ -348,7 +348,7 @@ export class FsxOpenzfsFileSystemReadCacheConfigurationOutputReference extends c
   }
 
   // sizing_mode - computed: false, optional: true, required: false
-  private _sizingMode?: string;
+  private _sizingMode?: string; 
   public get sizingMode() {
     return this.getStringAttribute('sizing_mode');
   }
@@ -461,7 +461,7 @@ export class FsxOpenzfsFileSystemRootVolumeConfigurationNfsExportsClientConfigur
   }
 
   // clients - computed: false, optional: false, required: true
-  private _clients?: string;
+  private _clients?: string; 
   public get clients() {
     return this.getStringAttribute('clients');
   }
@@ -474,7 +474,7 @@ export class FsxOpenzfsFileSystemRootVolumeConfigurationNfsExportsClientConfigur
   }
 
   // options - computed: false, optional: false, required: true
-  private _options?: string[];
+  private _options?: string[]; 
   public get options() {
     return this.getListAttribute('options');
   }
@@ -707,7 +707,7 @@ export class FsxOpenzfsFileSystemRootVolumeConfigurationUserAndGroupQuotasOutput
   }
 
   // id - computed: false, optional: false, required: true
-  private _id?: number;
+  private _id?: number; 
   public get id() {
     return this.getNumberAttribute('id');
   }
@@ -720,7 +720,7 @@ export class FsxOpenzfsFileSystemRootVolumeConfigurationUserAndGroupQuotasOutput
   }
 
   // storage_capacity_quota_gib - computed: false, optional: false, required: true
-  private _storageCapacityQuotaGib?: number;
+  private _storageCapacityQuotaGib?: number; 
   public get storageCapacityQuotaGib() {
     return this.getNumberAttribute('storage_capacity_quota_gib');
   }
@@ -733,7 +733,7 @@ export class FsxOpenzfsFileSystemRootVolumeConfigurationUserAndGroupQuotasOutput
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -923,7 +923,7 @@ export class FsxOpenzfsFileSystemRootVolumeConfigurationOutputReference extends 
   }
 
   // copy_tags_to_snapshots - computed: false, optional: true, required: false
-  private _copyTagsToSnapshots?: boolean | cdktn.IResolvable;
+  private _copyTagsToSnapshots?: boolean | cdktn.IResolvable; 
   public get copyTagsToSnapshots() {
     return this.getBooleanAttribute('copy_tags_to_snapshots');
   }
@@ -939,7 +939,7 @@ export class FsxOpenzfsFileSystemRootVolumeConfigurationOutputReference extends 
   }
 
   // data_compression_type - computed: false, optional: true, required: false
-  private _dataCompressionType?: string;
+  private _dataCompressionType?: string; 
   public get dataCompressionType() {
     return this.getStringAttribute('data_compression_type');
   }
@@ -955,7 +955,7 @@ export class FsxOpenzfsFileSystemRootVolumeConfigurationOutputReference extends 
   }
 
   // read_only - computed: true, optional: true, required: false
-  private _readOnly?: boolean | cdktn.IResolvable;
+  private _readOnly?: boolean | cdktn.IResolvable; 
   public get readOnly() {
     return this.getBooleanAttribute('read_only');
   }
@@ -971,7 +971,7 @@ export class FsxOpenzfsFileSystemRootVolumeConfigurationOutputReference extends 
   }
 
   // record_size_kib - computed: false, optional: true, required: false
-  private _recordSizeKib?: number;
+  private _recordSizeKib?: number; 
   public get recordSizeKib() {
     return this.getNumberAttribute('record_size_kib');
   }
@@ -1131,7 +1131,7 @@ export class FsxOpenzfsFileSystemTimeoutsOutputReference extends cdktn.ComplexOb
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -1147,7 +1147,7 @@ export class FsxOpenzfsFileSystemTimeoutsOutputReference extends cdktn.ComplexOb
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -1163,7 +1163,7 @@ export class FsxOpenzfsFileSystemTimeoutsOutputReference extends cdktn.ComplexOb
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -1268,7 +1268,7 @@ export class FsxOpenzfsFileSystem extends cdktn.TerraformResource {
   }
 
   // automatic_backup_retention_days - computed: false, optional: true, required: false
-  private _automaticBackupRetentionDays?: number;
+  private _automaticBackupRetentionDays?: number; 
   public get automaticBackupRetentionDays() {
     return this.getNumberAttribute('automatic_backup_retention_days');
   }
@@ -1284,7 +1284,7 @@ export class FsxOpenzfsFileSystem extends cdktn.TerraformResource {
   }
 
   // backup_id - computed: false, optional: true, required: false
-  private _backupId?: string;
+  private _backupId?: string; 
   public get backupId() {
     return this.getStringAttribute('backup_id');
   }
@@ -1300,7 +1300,7 @@ export class FsxOpenzfsFileSystem extends cdktn.TerraformResource {
   }
 
   // copy_tags_to_backups - computed: false, optional: true, required: false
-  private _copyTagsToBackups?: boolean | cdktn.IResolvable;
+  private _copyTagsToBackups?: boolean | cdktn.IResolvable; 
   public get copyTagsToBackups() {
     return this.getBooleanAttribute('copy_tags_to_backups');
   }
@@ -1316,7 +1316,7 @@ export class FsxOpenzfsFileSystem extends cdktn.TerraformResource {
   }
 
   // copy_tags_to_volumes - computed: false, optional: true, required: false
-  private _copyTagsToVolumes?: boolean | cdktn.IResolvable;
+  private _copyTagsToVolumes?: boolean | cdktn.IResolvable; 
   public get copyTagsToVolumes() {
     return this.getBooleanAttribute('copy_tags_to_volumes');
   }
@@ -1332,7 +1332,7 @@ export class FsxOpenzfsFileSystem extends cdktn.TerraformResource {
   }
 
   // daily_automatic_backup_start_time - computed: true, optional: true, required: false
-  private _dailyAutomaticBackupStartTime?: string;
+  private _dailyAutomaticBackupStartTime?: string; 
   public get dailyAutomaticBackupStartTime() {
     return this.getStringAttribute('daily_automatic_backup_start_time');
   }
@@ -1348,7 +1348,7 @@ export class FsxOpenzfsFileSystem extends cdktn.TerraformResource {
   }
 
   // delete_options - computed: false, optional: true, required: false
-  private _deleteOptions?: string[];
+  private _deleteOptions?: string[]; 
   public get deleteOptions() {
     return cdktn.Fn.tolist(this.getListAttribute('delete_options'));
   }
@@ -1364,7 +1364,7 @@ export class FsxOpenzfsFileSystem extends cdktn.TerraformResource {
   }
 
   // deployment_type - computed: false, optional: false, required: true
-  private _deploymentType?: string;
+  private _deploymentType?: string; 
   public get deploymentType() {
     return this.getStringAttribute('deployment_type');
   }
@@ -1387,7 +1387,7 @@ export class FsxOpenzfsFileSystem extends cdktn.TerraformResource {
   }
 
   // endpoint_ip_address_range - computed: true, optional: true, required: false
-  private _endpointIpAddressRange?: string;
+  private _endpointIpAddressRange?: string; 
   public get endpointIpAddressRange() {
     return this.getStringAttribute('endpoint_ip_address_range');
   }
@@ -1403,7 +1403,7 @@ export class FsxOpenzfsFileSystem extends cdktn.TerraformResource {
   }
 
   // final_backup_tags - computed: false, optional: true, required: false
-  private _finalBackupTags?: { [key: string]: string };
+  private _finalBackupTags?: { [key: string]: string }; 
   public get finalBackupTags() {
     return this.getStringMapAttribute('final_backup_tags');
   }
@@ -1419,7 +1419,7 @@ export class FsxOpenzfsFileSystem extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -1435,7 +1435,7 @@ export class FsxOpenzfsFileSystem extends cdktn.TerraformResource {
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -1461,7 +1461,7 @@ export class FsxOpenzfsFileSystem extends cdktn.TerraformResource {
   }
 
   // preferred_subnet_id - computed: false, optional: true, required: false
-  private _preferredSubnetId?: string;
+  private _preferredSubnetId?: string; 
   public get preferredSubnetId() {
     return this.getStringAttribute('preferred_subnet_id');
   }
@@ -1477,7 +1477,7 @@ export class FsxOpenzfsFileSystem extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1498,7 +1498,7 @@ export class FsxOpenzfsFileSystem extends cdktn.TerraformResource {
   }
 
   // route_table_ids - computed: true, optional: true, required: false
-  private _routeTableIds?: string[];
+  private _routeTableIds?: string[]; 
   public get routeTableIds() {
     return cdktn.Fn.tolist(this.getListAttribute('route_table_ids'));
   }
@@ -1514,7 +1514,7 @@ export class FsxOpenzfsFileSystem extends cdktn.TerraformResource {
   }
 
   // security_group_ids - computed: false, optional: true, required: false
-  private _securityGroupIds?: string[];
+  private _securityGroupIds?: string[]; 
   public get securityGroupIds() {
     return cdktn.Fn.tolist(this.getListAttribute('security_group_ids'));
   }
@@ -1530,7 +1530,7 @@ export class FsxOpenzfsFileSystem extends cdktn.TerraformResource {
   }
 
   // skip_final_backup - computed: false, optional: true, required: false
-  private _skipFinalBackup?: boolean | cdktn.IResolvable;
+  private _skipFinalBackup?: boolean | cdktn.IResolvable; 
   public get skipFinalBackup() {
     return this.getBooleanAttribute('skip_final_backup');
   }
@@ -1546,7 +1546,7 @@ export class FsxOpenzfsFileSystem extends cdktn.TerraformResource {
   }
 
   // storage_capacity - computed: false, optional: true, required: false
-  private _storageCapacity?: number;
+  private _storageCapacity?: number; 
   public get storageCapacity() {
     return this.getNumberAttribute('storage_capacity');
   }
@@ -1562,7 +1562,7 @@ export class FsxOpenzfsFileSystem extends cdktn.TerraformResource {
   }
 
   // storage_type - computed: false, optional: true, required: false
-  private _storageType?: string;
+  private _storageType?: string; 
   public get storageType() {
     return this.getStringAttribute('storage_type');
   }
@@ -1578,7 +1578,7 @@ export class FsxOpenzfsFileSystem extends cdktn.TerraformResource {
   }
 
   // subnet_ids - computed: false, optional: false, required: true
-  private _subnetIds?: string[];
+  private _subnetIds?: string[]; 
   public get subnetIds() {
     return this.getListAttribute('subnet_ids');
   }
@@ -1591,7 +1591,7 @@ export class FsxOpenzfsFileSystem extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -1607,7 +1607,7 @@ export class FsxOpenzfsFileSystem extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -1623,7 +1623,7 @@ export class FsxOpenzfsFileSystem extends cdktn.TerraformResource {
   }
 
   // throughput_capacity - computed: false, optional: false, required: true
-  private _throughputCapacity?: number;
+  private _throughputCapacity?: number; 
   public get throughputCapacity() {
     return this.getNumberAttribute('throughput_capacity');
   }
@@ -1641,7 +1641,7 @@ export class FsxOpenzfsFileSystem extends cdktn.TerraformResource {
   }
 
   // weekly_maintenance_start_time - computed: true, optional: true, required: false
-  private _weeklyMaintenanceStartTime?: string;
+  private _weeklyMaintenanceStartTime?: string; 
   public get weeklyMaintenanceStartTime() {
     return this.getStringAttribute('weekly_maintenance_start_time');
   }

@@ -101,7 +101,7 @@ export class MskTopic extends cdktn.TerraformResource {
   // ==========
 
   // cluster_arn - computed: false, optional: false, required: true
-  private _clusterArn?: string;
+  private _clusterArn?: string; 
   public get clusterArn() {
     return this.getStringAttribute('cluster_arn');
   }
@@ -114,7 +114,7 @@ export class MskTopic extends cdktn.TerraformResource {
   }
 
   // configs - computed: true, optional: true, required: false
-  private _configs?: string;
+  private _configs?: string; 
   public get configs() {
     return this.getStringAttribute('configs');
   }
@@ -135,7 +135,7 @@ export class MskTopic extends cdktn.TerraformResource {
   }
 
   // partition_count - computed: false, optional: false, required: true
-  private _partitionCount?: number;
+  private _partitionCount?: number; 
   public get partitionCount() {
     return this.getNumberAttribute('partition_count');
   }
@@ -148,7 +148,7 @@ export class MskTopic extends cdktn.TerraformResource {
   }
 
   // replication_factor - computed: false, optional: false, required: true
-  private _replicationFactor?: number;
+  private _replicationFactor?: number; 
   public get replicationFactor() {
     return this.getNumberAttribute('replication_factor');
   }
@@ -166,7 +166,7 @@ export class MskTopic extends cdktn.TerraformResource {
   }
 
   // topic_name - computed: false, optional: false, required: true
-  private _topicName?: string;
+  private _topicName?: string; 
   public get topicName() {
     return this.getStringAttribute('topic_name');
   }

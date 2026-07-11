@@ -125,7 +125,7 @@ export class AppsyncSourceApiAssociationSourceApiAssociationConfigOutputReferenc
   }
 
   // merge_type - computed: true, optional: true, required: false
-  private _mergeType?: string;
+  private _mergeType?: string; 
   public get mergeType() {
     return this.getStringAttribute('merge_type');
   }
@@ -279,7 +279,7 @@ export class AppsyncSourceApiAssociationTimeoutsOutputReference extends cdktn.Co
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -295,7 +295,7 @@ export class AppsyncSourceApiAssociationTimeoutsOutputReference extends cdktn.Co
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -311,7 +311,7 @@ export class AppsyncSourceApiAssociationTimeoutsOutputReference extends cdktn.Co
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -402,7 +402,7 @@ export class AppsyncSourceApiAssociation extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -423,7 +423,7 @@ export class AppsyncSourceApiAssociation extends cdktn.TerraformResource {
   }
 
   // merged_api_arn - computed: true, optional: true, required: false
-  private _mergedApiArn?: string;
+  private _mergedApiArn?: string; 
   public get mergedApiArn() {
     return this.getStringAttribute('merged_api_arn');
   }
@@ -439,7 +439,7 @@ export class AppsyncSourceApiAssociation extends cdktn.TerraformResource {
   }
 
   // merged_api_id - computed: true, optional: true, required: false
-  private _mergedApiId?: string;
+  private _mergedApiId?: string; 
   public get mergedApiId() {
     return this.getStringAttribute('merged_api_id');
   }
@@ -455,7 +455,7 @@ export class AppsyncSourceApiAssociation extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -471,7 +471,7 @@ export class AppsyncSourceApiAssociation extends cdktn.TerraformResource {
   }
 
   // source_api_arn - computed: true, optional: true, required: false
-  private _sourceApiArn?: string;
+  private _sourceApiArn?: string; 
   public get sourceApiArn() {
     return this.getStringAttribute('source_api_arn');
   }
@@ -503,7 +503,7 @@ export class AppsyncSourceApiAssociation extends cdktn.TerraformResource {
   }
 
   // source_api_id - computed: true, optional: true, required: false
-  private _sourceApiId?: string;
+  private _sourceApiId?: string; 
   public get sourceApiId() {
     return this.getStringAttribute('source_api_id');
   }

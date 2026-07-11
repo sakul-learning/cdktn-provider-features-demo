@@ -109,7 +109,7 @@ export class SesMultiRegionEndpointDetailsRouteDetailsOutputReference extends cd
   }
 
   // region - computed: false, optional: false, required: true
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -336,7 +336,7 @@ export class SesMultiRegionEndpointTagsOutputReference extends cdktn.ComplexObje
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -352,7 +352,7 @@ export class SesMultiRegionEndpointTagsOutputReference extends cdktn.ComplexObje
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -461,7 +461,7 @@ export class SesMultiRegionEndpoint extends cdktn.TerraformResource {
   }
 
   // endpoint_name - computed: false, optional: false, required: true
-  private _endpointName?: string;
+  private _endpointName?: string; 
   public get endpointName() {
     return this.getStringAttribute('endpoint_name');
   }

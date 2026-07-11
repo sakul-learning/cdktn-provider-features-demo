@@ -135,7 +135,7 @@ export class Ec2TransitGatewayMulticastDomainAssociationTimeoutsOutputReference 
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -151,7 +151,7 @@ export class Ec2TransitGatewayMulticastDomainAssociationTimeoutsOutputReference 
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -230,7 +230,7 @@ export class Ec2TransitGatewayMulticastDomainAssociation extends cdktn.Terraform
   // ==========
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -246,7 +246,7 @@ export class Ec2TransitGatewayMulticastDomainAssociation extends cdktn.Terraform
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -262,7 +262,7 @@ export class Ec2TransitGatewayMulticastDomainAssociation extends cdktn.Terraform
   }
 
   // subnet_id - computed: false, optional: false, required: true
-  private _subnetId?: string;
+  private _subnetId?: string; 
   public get subnetId() {
     return this.getStringAttribute('subnet_id');
   }
@@ -275,7 +275,7 @@ export class Ec2TransitGatewayMulticastDomainAssociation extends cdktn.Terraform
   }
 
   // transit_gateway_attachment_id - computed: false, optional: false, required: true
-  private _transitGatewayAttachmentId?: string;
+  private _transitGatewayAttachmentId?: string; 
   public get transitGatewayAttachmentId() {
     return this.getStringAttribute('transit_gateway_attachment_id');
   }
@@ -288,7 +288,7 @@ export class Ec2TransitGatewayMulticastDomainAssociation extends cdktn.Terraform
   }
 
   // transit_gateway_multicast_domain_id - computed: false, optional: false, required: true
-  private _transitGatewayMulticastDomainId?: string;
+  private _transitGatewayMulticastDomainId?: string; 
   public get transitGatewayMulticastDomainId() {
     return this.getStringAttribute('transit_gateway_multicast_domain_id');
   }

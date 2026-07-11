@@ -331,7 +331,7 @@ export class ElasticacheReplicationGroupLogDeliveryConfigurationOutputReference 
   }
 
   // destination - computed: false, optional: false, required: true
-  private _destination?: string;
+  private _destination?: string; 
   public get destination() {
     return this.getStringAttribute('destination');
   }
@@ -344,7 +344,7 @@ export class ElasticacheReplicationGroupLogDeliveryConfigurationOutputReference 
   }
 
   // destination_type - computed: false, optional: false, required: true
-  private _destinationType?: string;
+  private _destinationType?: string; 
   public get destinationType() {
     return this.getStringAttribute('destination_type');
   }
@@ -357,7 +357,7 @@ export class ElasticacheReplicationGroupLogDeliveryConfigurationOutputReference 
   }
 
   // log_format - computed: false, optional: false, required: true
-  private _logFormat?: string;
+  private _logFormat?: string; 
   public get logFormat() {
     return this.getStringAttribute('log_format');
   }
@@ -370,7 +370,7 @@ export class ElasticacheReplicationGroupLogDeliveryConfigurationOutputReference 
   }
 
   // log_type - computed: false, optional: false, required: true
-  private _logType?: string;
+  private _logType?: string; 
   public get logType() {
     return this.getStringAttribute('log_type');
   }
@@ -585,7 +585,7 @@ export class ElasticacheReplicationGroupNodeGroupConfigurationOutputReference ex
   }
 
   // node_group_id - computed: false, optional: true, required: false
-  private _nodeGroupId?: string;
+  private _nodeGroupId?: string; 
   public get nodeGroupId() {
     return this.getStringAttribute('node_group_id');
   }
@@ -601,7 +601,7 @@ export class ElasticacheReplicationGroupNodeGroupConfigurationOutputReference ex
   }
 
   // primary_availability_zone - computed: true, optional: true, required: false
-  private _primaryAvailabilityZone?: string;
+  private _primaryAvailabilityZone?: string; 
   public get primaryAvailabilityZone() {
     return this.getStringAttribute('primary_availability_zone');
   }
@@ -617,7 +617,7 @@ export class ElasticacheReplicationGroupNodeGroupConfigurationOutputReference ex
   }
 
   // primary_outpost_arn - computed: true, optional: true, required: false
-  private _primaryOutpostArn?: string;
+  private _primaryOutpostArn?: string; 
   public get primaryOutpostArn() {
     return this.getStringAttribute('primary_outpost_arn');
   }
@@ -633,7 +633,7 @@ export class ElasticacheReplicationGroupNodeGroupConfigurationOutputReference ex
   }
 
   // replica_availability_zones - computed: true, optional: true, required: false
-  private _replicaAvailabilityZones?: string[];
+  private _replicaAvailabilityZones?: string[]; 
   public get replicaAvailabilityZones() {
     return this.getListAttribute('replica_availability_zones');
   }
@@ -649,7 +649,7 @@ export class ElasticacheReplicationGroupNodeGroupConfigurationOutputReference ex
   }
 
   // replica_count - computed: false, optional: true, required: false
-  private _replicaCount?: number;
+  private _replicaCount?: number; 
   public get replicaCount() {
     return this.getNumberAttribute('replica_count');
   }
@@ -665,7 +665,7 @@ export class ElasticacheReplicationGroupNodeGroupConfigurationOutputReference ex
   }
 
   // replica_outpost_arns - computed: true, optional: true, required: false
-  private _replicaOutpostArns?: string[];
+  private _replicaOutpostArns?: string[]; 
   public get replicaOutpostArns() {
     return this.getListAttribute('replica_outpost_arns');
   }
@@ -681,7 +681,7 @@ export class ElasticacheReplicationGroupNodeGroupConfigurationOutputReference ex
   }
 
   // slots - computed: false, optional: true, required: false
-  private _slots?: string;
+  private _slots?: string; 
   public get slots() {
     return this.getStringAttribute('slots');
   }
@@ -829,7 +829,7 @@ export class ElasticacheReplicationGroupTimeoutsOutputReference extends cdktn.Co
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -845,7 +845,7 @@ export class ElasticacheReplicationGroupTimeoutsOutputReference extends cdktn.Co
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -861,7 +861,7 @@ export class ElasticacheReplicationGroupTimeoutsOutputReference extends cdktn.Co
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -979,7 +979,7 @@ export class ElasticacheReplicationGroup extends cdktn.TerraformResource {
   // ==========
 
   // apply_immediately - computed: true, optional: true, required: false
-  private _applyImmediately?: boolean | cdktn.IResolvable;
+  private _applyImmediately?: boolean | cdktn.IResolvable; 
   public get applyImmediately() {
     return this.getBooleanAttribute('apply_immediately');
   }
@@ -1000,7 +1000,7 @@ export class ElasticacheReplicationGroup extends cdktn.TerraformResource {
   }
 
   // at_rest_encryption_enabled - computed: true, optional: true, required: false
-  private _atRestEncryptionEnabled?: string;
+  private _atRestEncryptionEnabled?: string; 
   public get atRestEncryptionEnabled() {
     return this.getStringAttribute('at_rest_encryption_enabled');
   }
@@ -1016,7 +1016,7 @@ export class ElasticacheReplicationGroup extends cdktn.TerraformResource {
   }
 
   // auth_token - computed: false, optional: true, required: false
-  private _authToken?: string;
+  private _authToken?: string; 
   public get authToken() {
     return this.getStringAttribute('auth_token');
   }
@@ -1032,7 +1032,7 @@ export class ElasticacheReplicationGroup extends cdktn.TerraformResource {
   }
 
   // auth_token_update_strategy - computed: false, optional: true, required: false
-  private _authTokenUpdateStrategy?: string;
+  private _authTokenUpdateStrategy?: string; 
   public get authTokenUpdateStrategy() {
     return this.getStringAttribute('auth_token_update_strategy');
   }
@@ -1048,7 +1048,7 @@ export class ElasticacheReplicationGroup extends cdktn.TerraformResource {
   }
 
   // auto_minor_version_upgrade - computed: true, optional: true, required: false
-  private _autoMinorVersionUpgrade?: string;
+  private _autoMinorVersionUpgrade?: string; 
   public get autoMinorVersionUpgrade() {
     return this.getStringAttribute('auto_minor_version_upgrade');
   }
@@ -1064,7 +1064,7 @@ export class ElasticacheReplicationGroup extends cdktn.TerraformResource {
   }
 
   // automatic_failover_enabled - computed: false, optional: true, required: false
-  private _automaticFailoverEnabled?: boolean | cdktn.IResolvable;
+  private _automaticFailoverEnabled?: boolean | cdktn.IResolvable; 
   public get automaticFailoverEnabled() {
     return this.getBooleanAttribute('automatic_failover_enabled');
   }
@@ -1085,7 +1085,7 @@ export class ElasticacheReplicationGroup extends cdktn.TerraformResource {
   }
 
   // cluster_mode - computed: true, optional: true, required: false
-  private _clusterMode?: string;
+  private _clusterMode?: string; 
   public get clusterMode() {
     return this.getStringAttribute('cluster_mode');
   }
@@ -1106,7 +1106,7 @@ export class ElasticacheReplicationGroup extends cdktn.TerraformResource {
   }
 
   // data_tiering_enabled - computed: true, optional: true, required: false
-  private _dataTieringEnabled?: boolean | cdktn.IResolvable;
+  private _dataTieringEnabled?: boolean | cdktn.IResolvable; 
   public get dataTieringEnabled() {
     return this.getBooleanAttribute('data_tiering_enabled');
   }
@@ -1122,7 +1122,7 @@ export class ElasticacheReplicationGroup extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: false, required: true
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1135,7 +1135,7 @@ export class ElasticacheReplicationGroup extends cdktn.TerraformResource {
   }
 
   // durability - computed: true, optional: true, required: false
-  private _durability?: string;
+  private _durability?: string; 
   public get durability() {
     return this.getStringAttribute('durability');
   }
@@ -1151,7 +1151,7 @@ export class ElasticacheReplicationGroup extends cdktn.TerraformResource {
   }
 
   // engine - computed: true, optional: true, required: false
-  private _engine?: string;
+  private _engine?: string; 
   public get engine() {
     return this.getStringAttribute('engine');
   }
@@ -1167,7 +1167,7 @@ export class ElasticacheReplicationGroup extends cdktn.TerraformResource {
   }
 
   // engine_version - computed: true, optional: true, required: false
-  private _engineVersion?: string;
+  private _engineVersion?: string; 
   public get engineVersion() {
     return this.getStringAttribute('engine_version');
   }
@@ -1188,7 +1188,7 @@ export class ElasticacheReplicationGroup extends cdktn.TerraformResource {
   }
 
   // final_snapshot_identifier - computed: false, optional: true, required: false
-  private _finalSnapshotIdentifier?: string;
+  private _finalSnapshotIdentifier?: string; 
   public get finalSnapshotIdentifier() {
     return this.getStringAttribute('final_snapshot_identifier');
   }
@@ -1204,7 +1204,7 @@ export class ElasticacheReplicationGroup extends cdktn.TerraformResource {
   }
 
   // global_replication_group_id - computed: true, optional: true, required: false
-  private _globalReplicationGroupId?: string;
+  private _globalReplicationGroupId?: string; 
   public get globalReplicationGroupId() {
     return this.getStringAttribute('global_replication_group_id');
   }
@@ -1220,7 +1220,7 @@ export class ElasticacheReplicationGroup extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -1236,7 +1236,7 @@ export class ElasticacheReplicationGroup extends cdktn.TerraformResource {
   }
 
   // ip_discovery - computed: true, optional: true, required: false
-  private _ipDiscovery?: string;
+  private _ipDiscovery?: string; 
   public get ipDiscovery() {
     return this.getStringAttribute('ip_discovery');
   }
@@ -1252,7 +1252,7 @@ export class ElasticacheReplicationGroup extends cdktn.TerraformResource {
   }
 
   // kms_key_id - computed: false, optional: true, required: false
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -1268,7 +1268,7 @@ export class ElasticacheReplicationGroup extends cdktn.TerraformResource {
   }
 
   // maintenance_window - computed: true, optional: true, required: false
-  private _maintenanceWindow?: string;
+  private _maintenanceWindow?: string; 
   public get maintenanceWindow() {
     return this.getStringAttribute('maintenance_window');
   }
@@ -1289,7 +1289,7 @@ export class ElasticacheReplicationGroup extends cdktn.TerraformResource {
   }
 
   // multi_az_enabled - computed: false, optional: true, required: false
-  private _multiAzEnabled?: boolean | cdktn.IResolvable;
+  private _multiAzEnabled?: boolean | cdktn.IResolvable; 
   public get multiAzEnabled() {
     return this.getBooleanAttribute('multi_az_enabled');
   }
@@ -1305,7 +1305,7 @@ export class ElasticacheReplicationGroup extends cdktn.TerraformResource {
   }
 
   // network_type - computed: true, optional: true, required: false
-  private _networkType?: string;
+  private _networkType?: string; 
   public get networkType() {
     return this.getStringAttribute('network_type');
   }
@@ -1321,7 +1321,7 @@ export class ElasticacheReplicationGroup extends cdktn.TerraformResource {
   }
 
   // node_type - computed: true, optional: true, required: false
-  private _nodeType?: string;
+  private _nodeType?: string; 
   public get nodeType() {
     return this.getStringAttribute('node_type');
   }
@@ -1337,7 +1337,7 @@ export class ElasticacheReplicationGroup extends cdktn.TerraformResource {
   }
 
   // notification_topic_arn - computed: false, optional: true, required: false
-  private _notificationTopicArn?: string;
+  private _notificationTopicArn?: string; 
   public get notificationTopicArn() {
     return this.getStringAttribute('notification_topic_arn');
   }
@@ -1353,7 +1353,7 @@ export class ElasticacheReplicationGroup extends cdktn.TerraformResource {
   }
 
   // num_cache_clusters - computed: true, optional: true, required: false
-  private _numCacheClusters?: number;
+  private _numCacheClusters?: number; 
   public get numCacheClusters() {
     return this.getNumberAttribute('num_cache_clusters');
   }
@@ -1369,7 +1369,7 @@ export class ElasticacheReplicationGroup extends cdktn.TerraformResource {
   }
 
   // num_node_groups - computed: true, optional: true, required: false
-  private _numNodeGroups?: number;
+  private _numNodeGroups?: number; 
   public get numNodeGroups() {
     return this.getNumberAttribute('num_node_groups');
   }
@@ -1385,7 +1385,7 @@ export class ElasticacheReplicationGroup extends cdktn.TerraformResource {
   }
 
   // parameter_group_name - computed: true, optional: true, required: false
-  private _parameterGroupName?: string;
+  private _parameterGroupName?: string; 
   public get parameterGroupName() {
     return this.getStringAttribute('parameter_group_name');
   }
@@ -1401,7 +1401,7 @@ export class ElasticacheReplicationGroup extends cdktn.TerraformResource {
   }
 
   // port - computed: false, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -1417,7 +1417,7 @@ export class ElasticacheReplicationGroup extends cdktn.TerraformResource {
   }
 
   // preferred_cache_cluster_azs - computed: false, optional: true, required: false
-  private _preferredCacheClusterAzs?: string[];
+  private _preferredCacheClusterAzs?: string[]; 
   public get preferredCacheClusterAzs() {
     return this.getListAttribute('preferred_cache_cluster_azs');
   }
@@ -1443,7 +1443,7 @@ export class ElasticacheReplicationGroup extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1459,7 +1459,7 @@ export class ElasticacheReplicationGroup extends cdktn.TerraformResource {
   }
 
   // replicas_per_node_group - computed: true, optional: true, required: false
-  private _replicasPerNodeGroup?: number;
+  private _replicasPerNodeGroup?: number; 
   public get replicasPerNodeGroup() {
     return this.getNumberAttribute('replicas_per_node_group');
   }
@@ -1475,7 +1475,7 @@ export class ElasticacheReplicationGroup extends cdktn.TerraformResource {
   }
 
   // replication_group_id - computed: false, optional: false, required: true
-  private _replicationGroupId?: string;
+  private _replicationGroupId?: string; 
   public get replicationGroupId() {
     return this.getStringAttribute('replication_group_id');
   }
@@ -1488,7 +1488,7 @@ export class ElasticacheReplicationGroup extends cdktn.TerraformResource {
   }
 
   // security_group_ids - computed: true, optional: true, required: false
-  private _securityGroupIds?: string[];
+  private _securityGroupIds?: string[]; 
   public get securityGroupIds() {
     return cdktn.Fn.tolist(this.getListAttribute('security_group_ids'));
   }
@@ -1504,7 +1504,7 @@ export class ElasticacheReplicationGroup extends cdktn.TerraformResource {
   }
 
   // security_group_names - computed: true, optional: true, required: false
-  private _securityGroupNames?: string[];
+  private _securityGroupNames?: string[]; 
   public get securityGroupNames() {
     return cdktn.Fn.tolist(this.getListAttribute('security_group_names'));
   }
@@ -1520,7 +1520,7 @@ export class ElasticacheReplicationGroup extends cdktn.TerraformResource {
   }
 
   // snapshot_arns - computed: false, optional: true, required: false
-  private _snapshotArns?: string[];
+  private _snapshotArns?: string[]; 
   public get snapshotArns() {
     return cdktn.Fn.tolist(this.getListAttribute('snapshot_arns'));
   }
@@ -1536,7 +1536,7 @@ export class ElasticacheReplicationGroup extends cdktn.TerraformResource {
   }
 
   // snapshot_name - computed: false, optional: true, required: false
-  private _snapshotName?: string;
+  private _snapshotName?: string; 
   public get snapshotName() {
     return this.getStringAttribute('snapshot_name');
   }
@@ -1552,7 +1552,7 @@ export class ElasticacheReplicationGroup extends cdktn.TerraformResource {
   }
 
   // snapshot_retention_limit - computed: false, optional: true, required: false
-  private _snapshotRetentionLimit?: number;
+  private _snapshotRetentionLimit?: number; 
   public get snapshotRetentionLimit() {
     return this.getNumberAttribute('snapshot_retention_limit');
   }
@@ -1568,7 +1568,7 @@ export class ElasticacheReplicationGroup extends cdktn.TerraformResource {
   }
 
   // snapshot_window - computed: true, optional: true, required: false
-  private _snapshotWindow?: string;
+  private _snapshotWindow?: string; 
   public get snapshotWindow() {
     return this.getStringAttribute('snapshot_window');
   }
@@ -1584,7 +1584,7 @@ export class ElasticacheReplicationGroup extends cdktn.TerraformResource {
   }
 
   // subnet_group_name - computed: true, optional: true, required: false
-  private _subnetGroupName?: string;
+  private _subnetGroupName?: string; 
   public get subnetGroupName() {
     return this.getStringAttribute('subnet_group_name');
   }
@@ -1600,7 +1600,7 @@ export class ElasticacheReplicationGroup extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -1616,7 +1616,7 @@ export class ElasticacheReplicationGroup extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -1632,7 +1632,7 @@ export class ElasticacheReplicationGroup extends cdktn.TerraformResource {
   }
 
   // transit_encryption_enabled - computed: true, optional: true, required: false
-  private _transitEncryptionEnabled?: boolean | cdktn.IResolvable;
+  private _transitEncryptionEnabled?: boolean | cdktn.IResolvable; 
   public get transitEncryptionEnabled() {
     return this.getBooleanAttribute('transit_encryption_enabled');
   }
@@ -1648,7 +1648,7 @@ export class ElasticacheReplicationGroup extends cdktn.TerraformResource {
   }
 
   // transit_encryption_mode - computed: true, optional: true, required: false
-  private _transitEncryptionMode?: string;
+  private _transitEncryptionMode?: string; 
   public get transitEncryptionMode() {
     return this.getStringAttribute('transit_encryption_mode');
   }
@@ -1664,7 +1664,7 @@ export class ElasticacheReplicationGroup extends cdktn.TerraformResource {
   }
 
   // user_group_ids - computed: false, optional: true, required: false
-  private _userGroupIds?: string[];
+  private _userGroupIds?: string[]; 
   public get userGroupIds() {
     return cdktn.Fn.tolist(this.getListAttribute('user_group_ids'));
   }

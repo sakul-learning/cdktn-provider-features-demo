@@ -94,7 +94,7 @@ export class ResourcegroupsTagSyncTask extends cdktn.TerraformResource {
   // ==========
 
   // group - computed: false, optional: false, required: true
-  private _group?: string;
+  private _group?: string; 
   public get group() {
     return this.getStringAttribute('group');
   }
@@ -122,7 +122,7 @@ export class ResourcegroupsTagSyncTask extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -140,7 +140,7 @@ export class ResourcegroupsTagSyncTask extends cdktn.TerraformResource {
   }
 
   // tag_key - computed: false, optional: false, required: true
-  private _tagKey?: string;
+  private _tagKey?: string; 
   public get tagKey() {
     return this.getStringAttribute('tag_key');
   }
@@ -153,7 +153,7 @@ export class ResourcegroupsTagSyncTask extends cdktn.TerraformResource {
   }
 
   // tag_value - computed: false, optional: false, required: true
-  private _tagValue?: string;
+  private _tagValue?: string; 
   public get tagValue() {
     return this.getStringAttribute('tag_value');
   }

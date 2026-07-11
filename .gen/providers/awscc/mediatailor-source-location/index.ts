@@ -161,7 +161,7 @@ export class MediatailorSourceLocationAccessConfigurationSecretsManagerAccessTok
   }
 
   // header_name - computed: true, optional: true, required: false
-  private _headerName?: string;
+  private _headerName?: string; 
   public get headerName() {
     return this.getStringAttribute('header_name');
   }
@@ -177,7 +177,7 @@ export class MediatailorSourceLocationAccessConfigurationSecretsManagerAccessTok
   }
 
   // secret_arn - computed: true, optional: true, required: false
-  private _secretArn?: string;
+  private _secretArn?: string; 
   public get secretArn() {
     return this.getStringAttribute('secret_arn');
   }
@@ -193,7 +193,7 @@ export class MediatailorSourceLocationAccessConfigurationSecretsManagerAccessTok
   }
 
   // secret_string_key - computed: true, optional: true, required: false
-  private _secretStringKey?: string;
+  private _secretStringKey?: string; 
   public get secretStringKey() {
     return this.getStringAttribute('secret_string_key');
   }
@@ -306,7 +306,7 @@ export class MediatailorSourceLocationAccessConfigurationOutputReference extends
   }
 
   // access_type - computed: true, optional: true, required: false
-  private _accessType?: string;
+  private _accessType?: string; 
   public get accessType() {
     return this.getStringAttribute('access_type');
   }
@@ -418,7 +418,7 @@ export class MediatailorSourceLocationDefaultSegmentDeliveryConfigurationOutputR
   }
 
   // base_url - computed: true, optional: true, required: false
-  private _baseUrl?: string;
+  private _baseUrl?: string; 
   public get baseUrl() {
     return this.getStringAttribute('base_url');
   }
@@ -514,7 +514,7 @@ export class MediatailorSourceLocationHttpConfigurationOutputReference extends c
   }
 
   // base_url - computed: false, optional: false, required: true
-  private _baseUrl?: string;
+  private _baseUrl?: string; 
   public get baseUrl() {
     return this.getStringAttribute('base_url');
   }
@@ -628,7 +628,7 @@ export class MediatailorSourceLocationSegmentDeliveryConfigurationsOutputReferen
   }
 
   // base_url - computed: true, optional: true, required: false
-  private _baseUrl?: string;
+  private _baseUrl?: string; 
   public get baseUrl() {
     return this.getStringAttribute('base_url');
   }
@@ -644,7 +644,7 @@ export class MediatailorSourceLocationSegmentDeliveryConfigurationsOutputReferen
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -777,7 +777,7 @@ export class MediatailorSourceLocationTagsOutputReference extends cdktn.ComplexO
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -793,7 +793,7 @@ export class MediatailorSourceLocationTagsOutputReference extends cdktn.ComplexO
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -963,7 +963,7 @@ export class MediatailorSourceLocation extends cdktn.TerraformResource {
   }
 
   // source_location_name - computed: false, optional: false, required: true
-  private _sourceLocationName?: string;
+  private _sourceLocationName?: string; 
   public get sourceLocationName() {
     return this.getStringAttribute('source_location_name');
   }

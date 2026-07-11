@@ -113,7 +113,7 @@ export class S3OutpostsBucketLifecycleConfigurationRulesAbortIncompleteMultipart
   }
 
   // days_after_initiation - computed: true, optional: true, required: false
-  private _daysAfterInitiation?: number;
+  private _daysAfterInitiation?: number; 
   public get daysAfterInitiation() {
     return this.getNumberAttribute('days_after_initiation');
   }
@@ -226,7 +226,7 @@ export class S3OutpostsBucketLifecycleConfigurationRulesFilterAndOperatorTagsOut
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -242,7 +242,7 @@ export class S3OutpostsBucketLifecycleConfigurationRulesFilterAndOperatorTagsOut
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -377,7 +377,7 @@ export class S3OutpostsBucketLifecycleConfigurationRulesFilterAndOperatorOutputR
   }
 
   // prefix - computed: true, optional: true, required: false
-  private _prefix?: string;
+  private _prefix?: string; 
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -504,7 +504,7 @@ export class S3OutpostsBucketLifecycleConfigurationRulesFilterTagOutputReference
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -520,7 +520,7 @@ export class S3OutpostsBucketLifecycleConfigurationRulesFilterTagOutputReference
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -670,7 +670,7 @@ export class S3OutpostsBucketLifecycleConfigurationRulesFilterOutputReference ex
   }
 
   // prefix - computed: true, optional: true, required: false
-  private _prefix?: string;
+  private _prefix?: string; 
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -896,7 +896,7 @@ export class S3OutpostsBucketLifecycleConfigurationRulesOutputReference extends 
   }
 
   // expiration_date - computed: true, optional: true, required: false
-  private _expirationDate?: string;
+  private _expirationDate?: string; 
   public get expirationDate() {
     return this.getStringAttribute('expiration_date');
   }
@@ -912,7 +912,7 @@ export class S3OutpostsBucketLifecycleConfigurationRulesOutputReference extends 
   }
 
   // expiration_in_days - computed: true, optional: true, required: false
-  private _expirationInDays?: number;
+  private _expirationInDays?: number; 
   public get expirationInDays() {
     return this.getNumberAttribute('expiration_in_days');
   }
@@ -944,7 +944,7 @@ export class S3OutpostsBucketLifecycleConfigurationRulesOutputReference extends 
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -960,7 +960,7 @@ export class S3OutpostsBucketLifecycleConfigurationRulesOutputReference extends 
   }
 
   // status - computed: true, optional: true, required: false
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -1189,7 +1189,7 @@ export class S3OutpostsBucketTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1205,7 +1205,7 @@ export class S3OutpostsBucketTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1307,7 +1307,7 @@ export class S3OutpostsBucket extends cdktn.TerraformResource {
   }
 
   // bucket_name - computed: false, optional: false, required: true
-  private _bucketName?: string;
+  private _bucketName?: string; 
   public get bucketName() {
     return this.getStringAttribute('bucket_name');
   }
@@ -1341,7 +1341,7 @@ export class S3OutpostsBucket extends cdktn.TerraformResource {
   }
 
   // outpost_id - computed: false, optional: false, required: true
-  private _outpostId?: string;
+  private _outpostId?: string; 
   public get outpostId() {
     return this.getStringAttribute('outpost_id');
   }

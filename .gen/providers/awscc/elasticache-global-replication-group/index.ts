@@ -50,7 +50,7 @@ export interface ElasticacheGlobalReplicationGroupConfig extends cdktn.Terraform
   */
   readonly globalReplicationGroupDescription?: string;
   /**
-  * The suffix name of a Global Datastore. Amazon ElastiCache automatically applies a prefix to the Global Datastore ID when it is created. Each AWS Region has its own prefix.
+  * The suffix name of a Global Datastore. Amazon ElastiCache automatically applies a prefix to the Global Datastore ID when it is created. Each AWS Region has its own prefix. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_global_replication_group#global_replication_group_id_suffix ElasticacheGlobalReplicationGroup#global_replication_group_id_suffix}
   */
@@ -62,7 +62,7 @@ export interface ElasticacheGlobalReplicationGroupConfig extends cdktn.Terraform
   */
   readonly members: ElasticacheGlobalReplicationGroupMembers[] | cdktn.IResolvable;
   /**
-  * Describes the replication group IDs, the AWS regions where they are stored and the shard configuration for each that comprise the Global Datastore
+  * Describes the replication group IDs, the AWS regions where they are stored and the shard configuration for each that comprise the Global Datastore 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_global_replication_group#regional_configurations ElasticacheGlobalReplicationGroup#regional_configurations}
   */
@@ -189,7 +189,7 @@ export class ElasticacheGlobalReplicationGroupMembersOutputReference extends cdk
   }
 
   // replication_group_id - computed: true, optional: true, required: false
-  private _replicationGroupId?: string;
+  private _replicationGroupId?: string; 
   public get replicationGroupId() {
     return this.getStringAttribute('replication_group_id');
   }
@@ -205,7 +205,7 @@ export class ElasticacheGlobalReplicationGroupMembersOutputReference extends cdk
   }
 
   // replication_group_region - computed: true, optional: true, required: false
-  private _replicationGroupRegion?: string;
+  private _replicationGroupRegion?: string; 
   public get replicationGroupRegion() {
     return this.getStringAttribute('replication_group_region');
   }
@@ -221,7 +221,7 @@ export class ElasticacheGlobalReplicationGroupMembersOutputReference extends cdk
   }
 
   // role - computed: true, optional: true, required: false
-  private _role?: string;
+  private _role?: string; 
   public get role() {
     return this.getStringAttribute('role');
   }
@@ -358,7 +358,7 @@ export class ElasticacheGlobalReplicationGroupRegionalConfigurationsReshardingCo
   }
 
   // node_group_id - computed: true, optional: true, required: false
-  private _nodeGroupId?: string;
+  private _nodeGroupId?: string; 
   public get nodeGroupId() {
     return this.getStringAttribute('node_group_id');
   }
@@ -374,7 +374,7 @@ export class ElasticacheGlobalReplicationGroupRegionalConfigurationsReshardingCo
   }
 
   // preferred_availability_zones - computed: true, optional: true, required: false
-  private _preferredAvailabilityZones?: string[];
+  private _preferredAvailabilityZones?: string[]; 
   public get preferredAvailabilityZones() {
     return this.getListAttribute('preferred_availability_zones');
   }
@@ -423,7 +423,7 @@ export interface ElasticacheGlobalReplicationGroupRegionalConfigurations {
   */
   readonly replicationGroupRegion?: string;
   /**
-  * A list of PreferredAvailabilityZones objects that specifies the configuration of a node group in the resharded cluster.
+  * A list of PreferredAvailabilityZones objects that specifies the configuration of a node group in the resharded cluster. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_global_replication_group#resharding_configurations ElasticacheGlobalReplicationGroup#resharding_configurations}
   */
@@ -530,7 +530,7 @@ export class ElasticacheGlobalReplicationGroupRegionalConfigurationsOutputRefere
   }
 
   // replication_group_id - computed: true, optional: true, required: false
-  private _replicationGroupId?: string;
+  private _replicationGroupId?: string; 
   public get replicationGroupId() {
     return this.getStringAttribute('replication_group_id');
   }
@@ -546,7 +546,7 @@ export class ElasticacheGlobalReplicationGroupRegionalConfigurationsOutputRefere
   }
 
   // replication_group_region - computed: true, optional: true, required: false
-  private _replicationGroupRegion?: string;
+  private _replicationGroupRegion?: string; 
   public get replicationGroupRegion() {
     return this.getStringAttribute('replication_group_region');
   }
@@ -665,7 +665,7 @@ export class ElasticacheGlobalReplicationGroup extends cdktn.TerraformResource {
   // ==========
 
   // automatic_failover_enabled - computed: true, optional: true, required: false
-  private _automaticFailoverEnabled?: boolean | cdktn.IResolvable;
+  private _automaticFailoverEnabled?: boolean | cdktn.IResolvable; 
   public get automaticFailoverEnabled() {
     return this.getBooleanAttribute('automatic_failover_enabled');
   }
@@ -681,7 +681,7 @@ export class ElasticacheGlobalReplicationGroup extends cdktn.TerraformResource {
   }
 
   // cache_node_type - computed: true, optional: true, required: false
-  private _cacheNodeType?: string;
+  private _cacheNodeType?: string; 
   public get cacheNodeType() {
     return this.getStringAttribute('cache_node_type');
   }
@@ -697,7 +697,7 @@ export class ElasticacheGlobalReplicationGroup extends cdktn.TerraformResource {
   }
 
   // cache_parameter_group_name - computed: true, optional: true, required: false
-  private _cacheParameterGroupName?: string;
+  private _cacheParameterGroupName?: string; 
   public get cacheParameterGroupName() {
     return this.getStringAttribute('cache_parameter_group_name');
   }
@@ -713,7 +713,7 @@ export class ElasticacheGlobalReplicationGroup extends cdktn.TerraformResource {
   }
 
   // engine - computed: true, optional: true, required: false
-  private _engine?: string;
+  private _engine?: string; 
   public get engine() {
     return this.getStringAttribute('engine');
   }
@@ -729,7 +729,7 @@ export class ElasticacheGlobalReplicationGroup extends cdktn.TerraformResource {
   }
 
   // engine_version - computed: true, optional: true, required: false
-  private _engineVersion?: string;
+  private _engineVersion?: string; 
   public get engineVersion() {
     return this.getStringAttribute('engine_version');
   }
@@ -745,7 +745,7 @@ export class ElasticacheGlobalReplicationGroup extends cdktn.TerraformResource {
   }
 
   // global_node_group_count - computed: true, optional: true, required: false
-  private _globalNodeGroupCount?: number;
+  private _globalNodeGroupCount?: number; 
   public get globalNodeGroupCount() {
     return this.getNumberAttribute('global_node_group_count');
   }
@@ -761,7 +761,7 @@ export class ElasticacheGlobalReplicationGroup extends cdktn.TerraformResource {
   }
 
   // global_replication_group_description - computed: true, optional: true, required: false
-  private _globalReplicationGroupDescription?: string;
+  private _globalReplicationGroupDescription?: string; 
   public get globalReplicationGroupDescription() {
     return this.getStringAttribute('global_replication_group_description');
   }
@@ -782,7 +782,7 @@ export class ElasticacheGlobalReplicationGroup extends cdktn.TerraformResource {
   }
 
   // global_replication_group_id_suffix - computed: true, optional: true, required: false
-  private _globalReplicationGroupIdSuffix?: string;
+  private _globalReplicationGroupIdSuffix?: string; 
   public get globalReplicationGroupIdSuffix() {
     return this.getStringAttribute('global_replication_group_id_suffix');
   }

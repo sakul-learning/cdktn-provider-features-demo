@@ -215,7 +215,7 @@ export class SsmAssociationOutputLocationS3LocationOutputReference extends cdktn
   }
 
   // output_s3_bucket_name - computed: true, optional: true, required: false
-  private _outputS3BucketName?: string;
+  private _outputS3BucketName?: string; 
   public get outputS3BucketName() {
     return this.getStringAttribute('output_s3_bucket_name');
   }
@@ -231,7 +231,7 @@ export class SsmAssociationOutputLocationS3LocationOutputReference extends cdktn
   }
 
   // output_s3_key_prefix - computed: true, optional: true, required: false
-  private _outputS3KeyPrefix?: string;
+  private _outputS3KeyPrefix?: string; 
   public get outputS3KeyPrefix() {
     return this.getStringAttribute('output_s3_key_prefix');
   }
@@ -247,7 +247,7 @@ export class SsmAssociationOutputLocationS3LocationOutputReference extends cdktn
   }
 
   // output_s3_region - computed: true, optional: true, required: false
-  private _outputS3Region?: string;
+  private _outputS3Region?: string; 
   public get outputS3Region() {
     return this.getStringAttribute('output_s3_region');
   }
@@ -458,7 +458,7 @@ export class SsmAssociationTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -474,7 +474,7 @@ export class SsmAssociationTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -607,7 +607,7 @@ export class SsmAssociationTargetsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -623,7 +623,7 @@ export class SsmAssociationTargetsOutputReference extends cdktn.ComplexObject {
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -735,7 +735,7 @@ export class SsmAssociation extends cdktn.TerraformResource {
   // ==========
 
   // apply_only_at_cron_interval - computed: true, optional: true, required: false
-  private _applyOnlyAtCronInterval?: boolean | cdktn.IResolvable;
+  private _applyOnlyAtCronInterval?: boolean | cdktn.IResolvable; 
   public get applyOnlyAtCronInterval() {
     return this.getBooleanAttribute('apply_only_at_cron_interval');
   }
@@ -751,7 +751,7 @@ export class SsmAssociation extends cdktn.TerraformResource {
   }
 
   // association_dispatch_assume_role - computed: true, optional: true, required: false
-  private _associationDispatchAssumeRole?: string;
+  private _associationDispatchAssumeRole?: string; 
   public get associationDispatchAssumeRole() {
     return this.getStringAttribute('association_dispatch_assume_role');
   }
@@ -772,7 +772,7 @@ export class SsmAssociation extends cdktn.TerraformResource {
   }
 
   // association_name - computed: true, optional: true, required: false
-  private _associationName?: string;
+  private _associationName?: string; 
   public get associationName() {
     return this.getStringAttribute('association_name');
   }
@@ -788,7 +788,7 @@ export class SsmAssociation extends cdktn.TerraformResource {
   }
 
   // automation_target_parameter_name - computed: true, optional: true, required: false
-  private _automationTargetParameterName?: string;
+  private _automationTargetParameterName?: string; 
   public get automationTargetParameterName() {
     return this.getStringAttribute('automation_target_parameter_name');
   }
@@ -804,7 +804,7 @@ export class SsmAssociation extends cdktn.TerraformResource {
   }
 
   // calendar_names - computed: true, optional: true, required: false
-  private _calendarNames?: string[];
+  private _calendarNames?: string[]; 
   public get calendarNames() {
     return this.getListAttribute('calendar_names');
   }
@@ -820,7 +820,7 @@ export class SsmAssociation extends cdktn.TerraformResource {
   }
 
   // compliance_severity - computed: true, optional: true, required: false
-  private _complianceSeverity?: string;
+  private _complianceSeverity?: string; 
   public get complianceSeverity() {
     return this.getStringAttribute('compliance_severity');
   }
@@ -836,7 +836,7 @@ export class SsmAssociation extends cdktn.TerraformResource {
   }
 
   // document_version - computed: true, optional: true, required: false
-  private _documentVersion?: string;
+  private _documentVersion?: string; 
   public get documentVersion() {
     return this.getStringAttribute('document_version');
   }
@@ -857,7 +857,7 @@ export class SsmAssociation extends cdktn.TerraformResource {
   }
 
   // instance_id - computed: true, optional: true, required: false
-  private _instanceId?: string;
+  private _instanceId?: string; 
   public get instanceId() {
     return this.getStringAttribute('instance_id');
   }
@@ -873,7 +873,7 @@ export class SsmAssociation extends cdktn.TerraformResource {
   }
 
   // max_concurrency - computed: true, optional: true, required: false
-  private _maxConcurrency?: string;
+  private _maxConcurrency?: string; 
   public get maxConcurrency() {
     return this.getStringAttribute('max_concurrency');
   }
@@ -889,7 +889,7 @@ export class SsmAssociation extends cdktn.TerraformResource {
   }
 
   // max_errors - computed: true, optional: true, required: false
-  private _maxErrors?: string;
+  private _maxErrors?: string; 
   public get maxErrors() {
     return this.getStringAttribute('max_errors');
   }
@@ -905,7 +905,7 @@ export class SsmAssociation extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -934,7 +934,7 @@ export class SsmAssociation extends cdktn.TerraformResource {
   }
 
   // parameters - computed: true, optional: true, required: false
-  private _parameters?: { [key: string]: string[] } | cdktn.IResolvable;
+  private _parameters?: { [key: string]: string[] } | cdktn.IResolvable; 
   public get parameters() {
     return this.interpolationForAttribute('parameters');
   }
@@ -950,7 +950,7 @@ export class SsmAssociation extends cdktn.TerraformResource {
   }
 
   // schedule_expression - computed: true, optional: true, required: false
-  private _scheduleExpression?: string;
+  private _scheduleExpression?: string; 
   public get scheduleExpression() {
     return this.getStringAttribute('schedule_expression');
   }
@@ -966,7 +966,7 @@ export class SsmAssociation extends cdktn.TerraformResource {
   }
 
   // schedule_offset - computed: true, optional: true, required: false
-  private _scheduleOffset?: number;
+  private _scheduleOffset?: number; 
   public get scheduleOffset() {
     return this.getNumberAttribute('schedule_offset');
   }
@@ -982,7 +982,7 @@ export class SsmAssociation extends cdktn.TerraformResource {
   }
 
   // sync_compliance - computed: true, optional: true, required: false
-  private _syncCompliance?: string;
+  private _syncCompliance?: string; 
   public get syncCompliance() {
     return this.getStringAttribute('sync_compliance');
   }
@@ -1030,7 +1030,7 @@ export class SsmAssociation extends cdktn.TerraformResource {
   }
 
   // wait_for_success_timeout_seconds - computed: true, optional: true, required: false
-  private _waitForSuccessTimeoutSeconds?: number;
+  private _waitForSuccessTimeoutSeconds?: number; 
   public get waitForSuccessTimeoutSeconds() {
     return this.getNumberAttribute('wait_for_success_timeout_seconds');
   }

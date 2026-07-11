@@ -278,7 +278,7 @@ export class IotThingGroupPropertiesAttributePayloadOutputReference extends cdkt
   }
 
   // attributes - computed: false, optional: true, required: false
-  private _attributes?: { [key: string]: string };
+  private _attributes?: { [key: string]: string }; 
   public get attributes() {
     return this.getStringMapAttribute('attributes');
   }
@@ -381,7 +381,7 @@ export class IotThingGroupPropertiesOutputReference extends cdktn.ComplexObject 
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -482,7 +482,7 @@ export class IotThingGroup extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -504,7 +504,7 @@ export class IotThingGroup extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -517,7 +517,7 @@ export class IotThingGroup extends cdktn.TerraformResource {
   }
 
   // parent_group_name - computed: false, optional: true, required: false
-  private _parentGroupName?: string;
+  private _parentGroupName?: string; 
   public get parentGroupName() {
     return this.getStringAttribute('parent_group_name');
   }
@@ -533,7 +533,7 @@ export class IotThingGroup extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -549,7 +549,7 @@ export class IotThingGroup extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -565,7 +565,7 @@ export class IotThingGroup extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

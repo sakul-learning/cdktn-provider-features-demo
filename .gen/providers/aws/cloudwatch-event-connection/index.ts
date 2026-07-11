@@ -135,7 +135,7 @@ export class CloudwatchEventConnectionAuthParametersApiKeyOutputReference extend
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -148,7 +148,7 @@ export class CloudwatchEventConnectionAuthParametersApiKeyOutputReference extend
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -246,7 +246,7 @@ export class CloudwatchEventConnectionAuthParametersBasicOutputReference extends
   }
 
   // password - computed: false, optional: false, required: true
-  private _password?: string;
+  private _password?: string; 
   public get password() {
     return this.getStringAttribute('password');
   }
@@ -259,7 +259,7 @@ export class CloudwatchEventConnectionAuthParametersBasicOutputReference extends
   }
 
   // username - computed: false, optional: false, required: true
-  private _username?: string;
+  private _username?: string; 
   public get username() {
     return this.getStringAttribute('username');
   }
@@ -345,7 +345,7 @@ export class CloudwatchEventConnectionAuthParametersConnectivityParametersResour
   }
 
   // resource_configuration_arn - computed: false, optional: false, required: true
-  private _resourceConfigurationArn?: string;
+  private _resourceConfigurationArn?: string; 
   public get resourceConfigurationArn() {
     return this.getStringAttribute('resource_configuration_arn');
   }
@@ -555,7 +555,7 @@ export class CloudwatchEventConnectionAuthParametersInvocationHttpParametersBody
   }
 
   // is_value_secret - computed: false, optional: true, required: false
-  private _isValueSecret?: boolean | cdktn.IResolvable;
+  private _isValueSecret?: boolean | cdktn.IResolvable; 
   public get isValueSecret() {
     return this.getBooleanAttribute('is_value_secret');
   }
@@ -571,7 +571,7 @@ export class CloudwatchEventConnectionAuthParametersInvocationHttpParametersBody
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -587,7 +587,7 @@ export class CloudwatchEventConnectionAuthParametersInvocationHttpParametersBody
   }
 
   // value - computed: false, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -737,7 +737,7 @@ export class CloudwatchEventConnectionAuthParametersInvocationHttpParametersHead
   }
 
   // is_value_secret - computed: false, optional: true, required: false
-  private _isValueSecret?: boolean | cdktn.IResolvable;
+  private _isValueSecret?: boolean | cdktn.IResolvable; 
   public get isValueSecret() {
     return this.getBooleanAttribute('is_value_secret');
   }
@@ -753,7 +753,7 @@ export class CloudwatchEventConnectionAuthParametersInvocationHttpParametersHead
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -769,7 +769,7 @@ export class CloudwatchEventConnectionAuthParametersInvocationHttpParametersHead
   }
 
   // value - computed: false, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -919,7 +919,7 @@ export class CloudwatchEventConnectionAuthParametersInvocationHttpParametersQuer
   }
 
   // is_value_secret - computed: false, optional: true, required: false
-  private _isValueSecret?: boolean | cdktn.IResolvable;
+  private _isValueSecret?: boolean | cdktn.IResolvable; 
   public get isValueSecret() {
     return this.getBooleanAttribute('is_value_secret');
   }
@@ -935,7 +935,7 @@ export class CloudwatchEventConnectionAuthParametersInvocationHttpParametersQuer
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -951,7 +951,7 @@ export class CloudwatchEventConnectionAuthParametersInvocationHttpParametersQuer
   }
 
   // value - computed: false, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1228,7 +1228,7 @@ export class CloudwatchEventConnectionAuthParametersOauthClientParametersOutputR
   }
 
   // client_id - computed: false, optional: false, required: true
-  private _clientId?: string;
+  private _clientId?: string; 
   public get clientId() {
     return this.getStringAttribute('client_id');
   }
@@ -1241,7 +1241,7 @@ export class CloudwatchEventConnectionAuthParametersOauthClientParametersOutputR
   }
 
   // client_secret - computed: false, optional: false, required: true
-  private _clientSecret?: string;
+  private _clientSecret?: string; 
   public get clientSecret() {
     return this.getStringAttribute('client_secret');
   }
@@ -1368,7 +1368,7 @@ export class CloudwatchEventConnectionAuthParametersOauthOauthHttpParametersBody
   }
 
   // is_value_secret - computed: false, optional: true, required: false
-  private _isValueSecret?: boolean | cdktn.IResolvable;
+  private _isValueSecret?: boolean | cdktn.IResolvable; 
   public get isValueSecret() {
     return this.getBooleanAttribute('is_value_secret');
   }
@@ -1384,7 +1384,7 @@ export class CloudwatchEventConnectionAuthParametersOauthOauthHttpParametersBody
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1400,7 +1400,7 @@ export class CloudwatchEventConnectionAuthParametersOauthOauthHttpParametersBody
   }
 
   // value - computed: false, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1550,7 +1550,7 @@ export class CloudwatchEventConnectionAuthParametersOauthOauthHttpParametersHead
   }
 
   // is_value_secret - computed: false, optional: true, required: false
-  private _isValueSecret?: boolean | cdktn.IResolvable;
+  private _isValueSecret?: boolean | cdktn.IResolvable; 
   public get isValueSecret() {
     return this.getBooleanAttribute('is_value_secret');
   }
@@ -1566,7 +1566,7 @@ export class CloudwatchEventConnectionAuthParametersOauthOauthHttpParametersHead
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1582,7 +1582,7 @@ export class CloudwatchEventConnectionAuthParametersOauthOauthHttpParametersHead
   }
 
   // value - computed: false, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1732,7 +1732,7 @@ export class CloudwatchEventConnectionAuthParametersOauthOauthHttpParametersQuer
   }
 
   // is_value_secret - computed: false, optional: true, required: false
-  private _isValueSecret?: boolean | cdktn.IResolvable;
+  private _isValueSecret?: boolean | cdktn.IResolvable; 
   public get isValueSecret() {
     return this.getBooleanAttribute('is_value_secret');
   }
@@ -1748,7 +1748,7 @@ export class CloudwatchEventConnectionAuthParametersOauthOauthHttpParametersQuer
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1764,7 +1764,7 @@ export class CloudwatchEventConnectionAuthParametersOauthOauthHttpParametersQuer
   }
 
   // value - computed: false, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2079,7 +2079,7 @@ export class CloudwatchEventConnectionAuthParametersOauthOutputReference extends
   }
 
   // authorization_endpoint - computed: false, optional: false, required: true
-  private _authorizationEndpoint?: string;
+  private _authorizationEndpoint?: string; 
   public get authorizationEndpoint() {
     return this.getStringAttribute('authorization_endpoint');
   }
@@ -2092,7 +2092,7 @@ export class CloudwatchEventConnectionAuthParametersOauthOutputReference extends
   }
 
   // http_method - computed: false, optional: false, required: true
-  private _httpMethod?: string;
+  private _httpMethod?: string; 
   public get httpMethod() {
     return this.getStringAttribute('http_method');
   }
@@ -2433,7 +2433,7 @@ export class CloudwatchEventConnectionInvocationConnectivityParametersResourcePa
   }
 
   // resource_configuration_arn - computed: false, optional: false, required: true
-  private _resourceConfigurationArn?: string;
+  private _resourceConfigurationArn?: string; 
   public get resourceConfigurationArn() {
     return this.getStringAttribute('resource_configuration_arn');
   }
@@ -2599,7 +2599,7 @@ export class CloudwatchEventConnection extends cdktn.TerraformResource {
   }
 
   // authorization_type - computed: false, optional: false, required: true
-  private _authorizationType?: string;
+  private _authorizationType?: string; 
   public get authorizationType() {
     return this.getStringAttribute('authorization_type');
   }
@@ -2612,7 +2612,7 @@ export class CloudwatchEventConnection extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -2628,7 +2628,7 @@ export class CloudwatchEventConnection extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -2644,7 +2644,7 @@ export class CloudwatchEventConnection extends cdktn.TerraformResource {
   }
 
   // kms_key_identifier - computed: false, optional: true, required: false
-  private _kmsKeyIdentifier?: string;
+  private _kmsKeyIdentifier?: string; 
   public get kmsKeyIdentifier() {
     return this.getStringAttribute('kms_key_identifier');
   }
@@ -2660,7 +2660,7 @@ export class CloudwatchEventConnection extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2673,7 +2673,7 @@ export class CloudwatchEventConnection extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

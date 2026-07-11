@@ -9,17 +9,17 @@ import * as cdktn from 'cdktn';
 export interface RdsOptionGroupConfig extends cdktn.TerraformMetaArguments {
   /**
   * Specifies the name of the engine that this option group should be associated with.
-  *  Valid Values:
-  *   +   ``mariadb``
-  *   +   ``mysql``
-  *   +   ``oracle-ee``
-  *   +   ``oracle-ee-cdb``
-  *   +   ``oracle-se2``
-  *   +   ``oracle-se2-cdb``
-  *   +   ``postgres``
-  *   +   ``sqlserver-ee``
-  *   +   ``sqlserver-se``
-  *   +   ``sqlserver-ex``
+  *  Valid Values: 
+  *   +   ``mariadb`` 
+  *   +   ``mysql`` 
+  *   +   ``oracle-ee`` 
+  *   +   ``oracle-ee-cdb`` 
+  *   +   ``oracle-se2`` 
+  *   +   ``oracle-se2-cdb`` 
+  *   +   ``postgres`` 
+  *   +   ``sqlserver-ee`` 
+  *   +   ``sqlserver-se`` 
+  *   +   ``sqlserver-ex`` 
   *   +   ``sqlserver-web``
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rds_option_group#engine_name RdsOptionGroup#engine_name}
@@ -49,7 +49,7 @@ export interface RdsOptionGroupConfig extends cdktn.TerraformMetaArguments {
   *   +  Must be 1 to 255 letters, numbers, or hyphens
   *   +  First character must be a letter
   *   +  Can't end with a hyphen or contain two consecutive hyphens
-  *
+  *   
   *  Example: ``myoptiongroup``
   *  If you don't specify a value for ``OptionGroupName`` property, a name is automatically created for the option group.
   *   This value is stored as a lowercase string.
@@ -166,7 +166,7 @@ export class RdsOptionGroupOptionConfigurationsOptionSettingsOutputReference ext
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -182,7 +182,7 @@ export class RdsOptionGroupOptionConfigurationsOptionSettingsOutputReference ext
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -395,7 +395,7 @@ export class RdsOptionGroupOptionConfigurationsOutputReference extends cdktn.Com
   }
 
   // db_security_group_memberships - computed: true, optional: true, required: false
-  private _dbSecurityGroupMemberships?: string[];
+  private _dbSecurityGroupMemberships?: string[]; 
   public get dbSecurityGroupMemberships() {
     return cdktn.Fn.tolist(this.getListAttribute('db_security_group_memberships'));
   }
@@ -411,7 +411,7 @@ export class RdsOptionGroupOptionConfigurationsOutputReference extends cdktn.Com
   }
 
   // option_name - computed: true, optional: true, required: false
-  private _optionName?: string;
+  private _optionName?: string; 
   public get optionName() {
     return this.getStringAttribute('option_name');
   }
@@ -443,7 +443,7 @@ export class RdsOptionGroupOptionConfigurationsOutputReference extends cdktn.Com
   }
 
   // option_version - computed: true, optional: true, required: false
-  private _optionVersion?: string;
+  private _optionVersion?: string; 
   public get optionVersion() {
     return this.getStringAttribute('option_version');
   }
@@ -459,7 +459,7 @@ export class RdsOptionGroupOptionConfigurationsOutputReference extends cdktn.Com
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -475,7 +475,7 @@ export class RdsOptionGroupOptionConfigurationsOutputReference extends cdktn.Com
   }
 
   // vpc_security_group_memberships - computed: true, optional: true, required: false
-  private _vpcSecurityGroupMemberships?: string[];
+  private _vpcSecurityGroupMemberships?: string[]; 
   public get vpcSecurityGroupMemberships() {
     return cdktn.Fn.tolist(this.getListAttribute('vpc_security_group_memberships'));
   }
@@ -612,7 +612,7 @@ export class RdsOptionGroupTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -628,7 +628,7 @@ export class RdsOptionGroupTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -727,7 +727,7 @@ export class RdsOptionGroup extends cdktn.TerraformResource {
   // ==========
 
   // engine_name - computed: false, optional: false, required: true
-  private _engineName?: string;
+  private _engineName?: string; 
   public get engineName() {
     return this.getStringAttribute('engine_name');
   }
@@ -745,7 +745,7 @@ export class RdsOptionGroup extends cdktn.TerraformResource {
   }
 
   // major_engine_version - computed: false, optional: false, required: true
-  private _majorEngineVersion?: string;
+  private _majorEngineVersion?: string; 
   public get majorEngineVersion() {
     return this.getStringAttribute('major_engine_version');
   }
@@ -774,7 +774,7 @@ export class RdsOptionGroup extends cdktn.TerraformResource {
   }
 
   // option_group_description - computed: false, optional: false, required: true
-  private _optionGroupDescription?: string;
+  private _optionGroupDescription?: string; 
   public get optionGroupDescription() {
     return this.getStringAttribute('option_group_description');
   }
@@ -787,7 +787,7 @@ export class RdsOptionGroup extends cdktn.TerraformResource {
   }
 
   // option_group_name - computed: true, optional: true, required: false
-  private _optionGroupName?: string;
+  private _optionGroupName?: string; 
   public get optionGroupName() {
     return this.getStringAttribute('option_group_name');
   }

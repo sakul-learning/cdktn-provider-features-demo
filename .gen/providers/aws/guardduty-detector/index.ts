@@ -112,7 +112,7 @@ export class GuarddutyDetectorDatasourcesKubernetesAuditLogsOutputReference exte
   }
 
   // enable - computed: false, optional: false, required: true
-  private _enable?: boolean | cdktn.IResolvable;
+  private _enable?: boolean | cdktn.IResolvable; 
   public get enable() {
     return this.getBooleanAttribute('enable');
   }
@@ -276,7 +276,7 @@ export class GuarddutyDetectorDatasourcesMalwareProtectionScanEc2InstanceWithFin
   }
 
   // enable - computed: false, optional: false, required: true
-  private _enable?: boolean | cdktn.IResolvable;
+  private _enable?: boolean | cdktn.IResolvable; 
   public get enable() {
     return this.getBooleanAttribute('enable');
   }
@@ -523,7 +523,7 @@ export class GuarddutyDetectorDatasourcesS3LogsOutputReference extends cdktn.Com
   }
 
   // enable - computed: false, optional: false, required: true
-  private _enable?: boolean | cdktn.IResolvable;
+  private _enable?: boolean | cdktn.IResolvable; 
   public get enable() {
     return this.getBooleanAttribute('enable');
   }
@@ -766,7 +766,7 @@ export class GuarddutyDetector extends cdktn.TerraformResource {
   }
 
   // enable - computed: false, optional: true, required: false
-  private _enable?: boolean | cdktn.IResolvable;
+  private _enable?: boolean | cdktn.IResolvable; 
   public get enable() {
     return this.getBooleanAttribute('enable');
   }
@@ -782,7 +782,7 @@ export class GuarddutyDetector extends cdktn.TerraformResource {
   }
 
   // finding_publishing_frequency - computed: true, optional: true, required: false
-  private _findingPublishingFrequency?: string;
+  private _findingPublishingFrequency?: string; 
   public get findingPublishingFrequency() {
     return this.getStringAttribute('finding_publishing_frequency');
   }
@@ -798,7 +798,7 @@ export class GuarddutyDetector extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -814,7 +814,7 @@ export class GuarddutyDetector extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -830,7 +830,7 @@ export class GuarddutyDetector extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -846,7 +846,7 @@ export class GuarddutyDetector extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

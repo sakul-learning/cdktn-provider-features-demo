@@ -516,7 +516,7 @@ export class DataAwsDatapipelinePipelineDefinition extends cdktn.TerraformDataSo
   // ==========
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -538,7 +538,7 @@ export class DataAwsDatapipelinePipelineDefinition extends cdktn.TerraformDataSo
   }
 
   // pipeline_id - computed: false, optional: false, required: true
-  private _pipelineId?: string;
+  private _pipelineId?: string; 
   public get pipelineId() {
     return this.getStringAttribute('pipeline_id');
   }
@@ -557,7 +557,7 @@ export class DataAwsDatapipelinePipelineDefinition extends cdktn.TerraformDataSo
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

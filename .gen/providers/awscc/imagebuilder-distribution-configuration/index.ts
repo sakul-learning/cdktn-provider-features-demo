@@ -170,7 +170,7 @@ export class ImagebuilderDistributionConfigurationDistributionsAmiDistributionCo
   }
 
   // organization_arns - computed: true, optional: true, required: false
-  private _organizationArns?: string[];
+  private _organizationArns?: string[]; 
   public get organizationArns() {
     return this.getListAttribute('organization_arns');
   }
@@ -186,7 +186,7 @@ export class ImagebuilderDistributionConfigurationDistributionsAmiDistributionCo
   }
 
   // organizational_unit_arns - computed: true, optional: true, required: false
-  private _organizationalUnitArns?: string[];
+  private _organizationalUnitArns?: string[]; 
   public get organizationalUnitArns() {
     return this.getListAttribute('organizational_unit_arns');
   }
@@ -202,7 +202,7 @@ export class ImagebuilderDistributionConfigurationDistributionsAmiDistributionCo
   }
 
   // user_groups - computed: true, optional: true, required: false
-  private _userGroups?: string[];
+  private _userGroups?: string[]; 
   public get userGroups() {
     return this.getListAttribute('user_groups');
   }
@@ -218,7 +218,7 @@ export class ImagebuilderDistributionConfigurationDistributionsAmiDistributionCo
   }
 
   // user_ids - computed: true, optional: true, required: false
-  private _userIds?: string[];
+  private _userIds?: string[]; 
   public get userIds() {
     return this.getListAttribute('user_ids');
   }
@@ -409,7 +409,7 @@ export class ImagebuilderDistributionConfigurationDistributionsAmiDistributionCo
   }
 
   // ami_tags - computed: true, optional: true, required: false
-  private _amiTags?: { [key: string]: string };
+  private _amiTags?: { [key: string]: string }; 
   public get amiTags() {
     return this.getStringMapAttribute('ami_tags');
   }
@@ -425,7 +425,7 @@ export class ImagebuilderDistributionConfigurationDistributionsAmiDistributionCo
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -441,7 +441,7 @@ export class ImagebuilderDistributionConfigurationDistributionsAmiDistributionCo
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -473,7 +473,7 @@ export class ImagebuilderDistributionConfigurationDistributionsAmiDistributionCo
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -489,7 +489,7 @@ export class ImagebuilderDistributionConfigurationDistributionsAmiDistributionCo
   }
 
   // target_account_ids - computed: true, optional: true, required: false
-  private _targetAccountIds?: string[];
+  private _targetAccountIds?: string[]; 
   public get targetAccountIds() {
     return this.getListAttribute('target_account_ids');
   }
@@ -604,7 +604,7 @@ export class ImagebuilderDistributionConfigurationDistributionsContainerDistribu
   }
 
   // repository_name - computed: true, optional: true, required: false
-  private _repositoryName?: string;
+  private _repositoryName?: string; 
   public get repositoryName() {
     return this.getStringAttribute('repository_name');
   }
@@ -620,7 +620,7 @@ export class ImagebuilderDistributionConfigurationDistributionsContainerDistribu
   }
 
   // service - computed: true, optional: true, required: false
-  private _service?: string;
+  private _service?: string; 
   public get service() {
     return this.getStringAttribute('service');
   }
@@ -754,7 +754,7 @@ export class ImagebuilderDistributionConfigurationDistributionsContainerDistribu
   }
 
   // container_tags - computed: true, optional: true, required: false
-  private _containerTags?: string[];
+  private _containerTags?: string[]; 
   public get containerTags() {
     return this.getListAttribute('container_tags');
   }
@@ -770,7 +770,7 @@ export class ImagebuilderDistributionConfigurationDistributionsContainerDistribu
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -920,7 +920,7 @@ export class ImagebuilderDistributionConfigurationDistributionsFastLaunchConfigu
   }
 
   // launch_template_id - computed: true, optional: true, required: false
-  private _launchTemplateId?: string;
+  private _launchTemplateId?: string; 
   public get launchTemplateId() {
     return this.getStringAttribute('launch_template_id');
   }
@@ -936,7 +936,7 @@ export class ImagebuilderDistributionConfigurationDistributionsFastLaunchConfigu
   }
 
   // launch_template_name - computed: true, optional: true, required: false
-  private _launchTemplateName?: string;
+  private _launchTemplateName?: string; 
   public get launchTemplateName() {
     return this.getStringAttribute('launch_template_name');
   }
@@ -952,7 +952,7 @@ export class ImagebuilderDistributionConfigurationDistributionsFastLaunchConfigu
   }
 
   // launch_template_version - computed: true, optional: true, required: false
-  private _launchTemplateVersion?: string;
+  private _launchTemplateVersion?: string; 
   public get launchTemplateVersion() {
     return this.getStringAttribute('launch_template_version');
   }
@@ -1048,7 +1048,7 @@ export class ImagebuilderDistributionConfigurationDistributionsFastLaunchConfigu
   }
 
   // target_resource_count - computed: true, optional: true, required: false
-  private _targetResourceCount?: number;
+  private _targetResourceCount?: number; 
   public get targetResourceCount() {
     return this.getNumberAttribute('target_resource_count');
   }
@@ -1222,7 +1222,7 @@ export class ImagebuilderDistributionConfigurationDistributionsFastLaunchConfigu
   }
 
   // account_id - computed: true, optional: true, required: false
-  private _accountId?: string;
+  private _accountId?: string; 
   public get accountId() {
     return this.getStringAttribute('account_id');
   }
@@ -1238,7 +1238,7 @@ export class ImagebuilderDistributionConfigurationDistributionsFastLaunchConfigu
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -1270,7 +1270,7 @@ export class ImagebuilderDistributionConfigurationDistributionsFastLaunchConfigu
   }
 
   // max_parallel_launches - computed: true, optional: true, required: false
-  private _maxParallelLaunches?: number;
+  private _maxParallelLaunches?: number; 
   public get maxParallelLaunches() {
     return this.getNumberAttribute('max_parallel_launches');
   }
@@ -1442,7 +1442,7 @@ export class ImagebuilderDistributionConfigurationDistributionsLaunchTemplateCon
   }
 
   // account_id - computed: true, optional: true, required: false
-  private _accountId?: string;
+  private _accountId?: string; 
   public get accountId() {
     return this.getStringAttribute('account_id');
   }
@@ -1458,7 +1458,7 @@ export class ImagebuilderDistributionConfigurationDistributionsLaunchTemplateCon
   }
 
   // launch_template_id - computed: true, optional: true, required: false
-  private _launchTemplateId?: string;
+  private _launchTemplateId?: string; 
   public get launchTemplateId() {
     return this.getStringAttribute('launch_template_id');
   }
@@ -1474,7 +1474,7 @@ export class ImagebuilderDistributionConfigurationDistributionsLaunchTemplateCon
   }
 
   // set_default_version - computed: true, optional: true, required: false
-  private _setDefaultVersion?: boolean | cdktn.IResolvable;
+  private _setDefaultVersion?: boolean | cdktn.IResolvable; 
   public get setDefaultVersion() {
     return this.getBooleanAttribute('set_default_version');
   }
@@ -1630,7 +1630,7 @@ export class ImagebuilderDistributionConfigurationDistributionsSsmParameterConfi
   }
 
   // ami_account_id - computed: true, optional: true, required: false
-  private _amiAccountId?: string;
+  private _amiAccountId?: string; 
   public get amiAccountId() {
     return this.getStringAttribute('ami_account_id');
   }
@@ -1646,7 +1646,7 @@ export class ImagebuilderDistributionConfigurationDistributionsSsmParameterConfi
   }
 
   // data_type - computed: true, optional: true, required: false
-  private _dataType?: string;
+  private _dataType?: string; 
   public get dataType() {
     return this.getStringAttribute('data_type');
   }
@@ -1662,7 +1662,7 @@ export class ImagebuilderDistributionConfigurationDistributionsSsmParameterConfi
   }
 
   // parameter_name - computed: true, optional: true, required: false
-  private _parameterName?: string;
+  private _parameterName?: string; 
   public get parameterName() {
     return this.getStringAttribute('parameter_name');
   }
@@ -1958,7 +1958,7 @@ export class ImagebuilderDistributionConfigurationDistributionsOutputReference e
   }
 
   // license_configuration_arns - computed: true, optional: true, required: false
-  private _licenseConfigurationArns?: string[];
+  private _licenseConfigurationArns?: string[]; 
   public get licenseConfigurationArns() {
     return this.getListAttribute('license_configuration_arns');
   }
@@ -1974,7 +1974,7 @@ export class ImagebuilderDistributionConfigurationDistributionsOutputReference e
   }
 
   // region - computed: false, optional: false, required: true
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -2089,7 +2089,7 @@ export class ImagebuilderDistributionConfiguration extends cdktn.TerraformResour
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -2123,7 +2123,7 @@ export class ImagebuilderDistributionConfiguration extends cdktn.TerraformResour
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2136,7 +2136,7 @@ export class ImagebuilderDistributionConfiguration extends cdktn.TerraformResour
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

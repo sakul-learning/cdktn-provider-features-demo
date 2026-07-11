@@ -116,7 +116,7 @@ export class PinpointEmailChannel extends cdktn.TerraformResource {
   // ==========
 
   // application_id - computed: false, optional: false, required: true
-  private _applicationId?: string;
+  private _applicationId?: string; 
   public get applicationId() {
     return this.getStringAttribute('application_id');
   }
@@ -129,7 +129,7 @@ export class PinpointEmailChannel extends cdktn.TerraformResource {
   }
 
   // configuration_set - computed: false, optional: true, required: false
-  private _configurationSet?: string;
+  private _configurationSet?: string; 
   public get configurationSet() {
     return this.getStringAttribute('configuration_set');
   }
@@ -145,7 +145,7 @@ export class PinpointEmailChannel extends cdktn.TerraformResource {
   }
 
   // enabled - computed: false, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -161,7 +161,7 @@ export class PinpointEmailChannel extends cdktn.TerraformResource {
   }
 
   // from_address - computed: false, optional: false, required: true
-  private _fromAddress?: string;
+  private _fromAddress?: string; 
   public get fromAddress() {
     return this.getStringAttribute('from_address');
   }
@@ -174,7 +174,7 @@ export class PinpointEmailChannel extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -190,7 +190,7 @@ export class PinpointEmailChannel extends cdktn.TerraformResource {
   }
 
   // identity - computed: false, optional: false, required: true
-  private _identity?: string;
+  private _identity?: string; 
   public get identity() {
     return this.getStringAttribute('identity');
   }
@@ -208,7 +208,7 @@ export class PinpointEmailChannel extends cdktn.TerraformResource {
   }
 
   // orchestration_sending_role_arn - computed: false, optional: true, required: false
-  private _orchestrationSendingRoleArn?: string;
+  private _orchestrationSendingRoleArn?: string; 
   public get orchestrationSendingRoleArn() {
     return this.getStringAttribute('orchestration_sending_role_arn');
   }
@@ -224,7 +224,7 @@ export class PinpointEmailChannel extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -240,7 +240,7 @@ export class PinpointEmailChannel extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }

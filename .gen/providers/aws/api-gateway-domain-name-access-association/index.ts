@@ -93,7 +93,7 @@ export class ApiGatewayDomainNameAccessAssociation extends cdktn.TerraformResour
   // ==========
 
   // access_association_source - computed: false, optional: false, required: true
-  private _accessAssociationSource?: string;
+  private _accessAssociationSource?: string; 
   public get accessAssociationSource() {
     return this.getStringAttribute('access_association_source');
   }
@@ -106,7 +106,7 @@ export class ApiGatewayDomainNameAccessAssociation extends cdktn.TerraformResour
   }
 
   // access_association_source_type - computed: false, optional: false, required: true
-  private _accessAssociationSourceType?: string;
+  private _accessAssociationSourceType?: string; 
   public get accessAssociationSourceType() {
     return this.getStringAttribute('access_association_source_type');
   }
@@ -124,7 +124,7 @@ export class ApiGatewayDomainNameAccessAssociation extends cdktn.TerraformResour
   }
 
   // domain_name_arn - computed: false, optional: false, required: true
-  private _domainNameArn?: string;
+  private _domainNameArn?: string; 
   public get domainNameArn() {
     return this.getStringAttribute('domain_name_arn');
   }
@@ -142,7 +142,7 @@ export class ApiGatewayDomainNameAccessAssociation extends cdktn.TerraformResour
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -158,7 +158,7 @@ export class ApiGatewayDomainNameAccessAssociation extends cdktn.TerraformResour
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

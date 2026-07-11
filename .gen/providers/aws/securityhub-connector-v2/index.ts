@@ -222,7 +222,7 @@ export class SecurityhubConnectorV2ConnectorProviderJiraCloudOutputReference ext
   }
 
   // project_key - computed: false, optional: false, required: true
-  private _projectKey?: string;
+  private _projectKey?: string; 
   public get projectKey() {
     return this.getStringAttribute('project_key');
   }
@@ -357,7 +357,7 @@ export class SecurityhubConnectorV2ConnectorProviderServiceNowOutputReference ex
   }
 
   // instance_name - computed: false, optional: false, required: true
-  private _instanceName?: string;
+  private _instanceName?: string; 
   public get instanceName() {
     return this.getStringAttribute('instance_name');
   }
@@ -370,7 +370,7 @@ export class SecurityhubConnectorV2ConnectorProviderServiceNowOutputReference ex
   }
 
   // secret_arn - computed: false, optional: false, required: true
-  private _secretArn?: string;
+  private _secretArn?: string; 
   public get secretArn() {
     return this.getStringAttribute('secret_arn');
   }
@@ -629,7 +629,7 @@ export class SecurityhubConnectorV2 extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -651,7 +651,7 @@ export class SecurityhubConnectorV2 extends cdktn.TerraformResource {
   }
 
   // kms_key_arn - computed: false, optional: true, required: false
-  private _kmsKeyArn?: string;
+  private _kmsKeyArn?: string; 
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -667,7 +667,7 @@ export class SecurityhubConnectorV2 extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -680,7 +680,7 @@ export class SecurityhubConnectorV2 extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -696,7 +696,7 @@ export class SecurityhubConnectorV2 extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

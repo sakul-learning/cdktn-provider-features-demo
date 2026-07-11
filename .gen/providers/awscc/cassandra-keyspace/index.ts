@@ -124,7 +124,7 @@ export class CassandraKeyspaceReplicationSpecificationOutputReference extends cd
   }
 
   // region_list - computed: true, optional: true, required: false
-  private _regionList?: string[];
+  private _regionList?: string[]; 
   public get regionList() {
     return cdktn.Fn.tolist(this.getListAttribute('region_list'));
   }
@@ -140,7 +140,7 @@ export class CassandraKeyspaceReplicationSpecificationOutputReference extends cd
   }
 
   // replication_strategy - computed: true, optional: true, required: false
-  private _replicationStrategy?: string;
+  private _replicationStrategy?: string; 
   public get replicationStrategy() {
     return this.getStringAttribute('replication_strategy');
   }
@@ -253,7 +253,7 @@ export class CassandraKeyspaceTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -269,7 +269,7 @@ export class CassandraKeyspaceTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -366,7 +366,7 @@ export class CassandraKeyspace extends cdktn.TerraformResource {
   // ==========
 
   // client_side_timestamps_enabled - computed: true, optional: true, required: false
-  private _clientSideTimestampsEnabled?: boolean | cdktn.IResolvable;
+  private _clientSideTimestampsEnabled?: boolean | cdktn.IResolvable; 
   public get clientSideTimestampsEnabled() {
     return this.getBooleanAttribute('client_side_timestamps_enabled');
   }
@@ -387,7 +387,7 @@ export class CassandraKeyspace extends cdktn.TerraformResource {
   }
 
   // keyspace_name - computed: true, optional: true, required: false
-  private _keyspaceName?: string;
+  private _keyspaceName?: string; 
   public get keyspaceName() {
     return this.getStringAttribute('keyspace_name');
   }

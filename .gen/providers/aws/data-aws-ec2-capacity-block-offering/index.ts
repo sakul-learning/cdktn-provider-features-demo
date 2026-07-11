@@ -108,7 +108,7 @@ export class DataAwsEc2CapacityBlockOffering extends cdktn.TerraformDataSource {
   }
 
   // capacity_duration_hours - computed: false, optional: false, required: true
-  private _capacityDurationHours?: number;
+  private _capacityDurationHours?: number; 
   public get capacityDurationHours() {
     return this.getNumberAttribute('capacity_duration_hours');
   }
@@ -126,7 +126,7 @@ export class DataAwsEc2CapacityBlockOffering extends cdktn.TerraformDataSource {
   }
 
   // end_date_range - computed: true, optional: true, required: false
-  private _endDateRange?: string;
+  private _endDateRange?: string; 
   public get endDateRange() {
     return this.getStringAttribute('end_date_range');
   }
@@ -142,7 +142,7 @@ export class DataAwsEc2CapacityBlockOffering extends cdktn.TerraformDataSource {
   }
 
   // instance_count - computed: false, optional: false, required: true
-  private _instanceCount?: number;
+  private _instanceCount?: number; 
   public get instanceCount() {
     return this.getNumberAttribute('instance_count');
   }
@@ -155,7 +155,7 @@ export class DataAwsEc2CapacityBlockOffering extends cdktn.TerraformDataSource {
   }
 
   // instance_type - computed: false, optional: false, required: true
-  private _instanceType?: string;
+  private _instanceType?: string; 
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -168,7 +168,7 @@ export class DataAwsEc2CapacityBlockOffering extends cdktn.TerraformDataSource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -184,7 +184,7 @@ export class DataAwsEc2CapacityBlockOffering extends cdktn.TerraformDataSource {
   }
 
   // start_date_range - computed: true, optional: true, required: false
-  private _startDateRange?: string;
+  private _startDateRange?: string; 
   public get startDateRange() {
     return this.getStringAttribute('start_date_range');
   }

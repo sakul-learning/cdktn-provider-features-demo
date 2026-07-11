@@ -171,7 +171,7 @@ export class ComprehendDocumentClassifierInputDataConfigAugmentedManifestsOutput
   }
 
   // attribute_names - computed: true, optional: true, required: false
-  private _attributeNames?: string[];
+  private _attributeNames?: string[]; 
   public get attributeNames() {
     return cdktn.Fn.tolist(this.getListAttribute('attribute_names'));
   }
@@ -187,7 +187,7 @@ export class ComprehendDocumentClassifierInputDataConfigAugmentedManifestsOutput
   }
 
   // s3_uri - computed: true, optional: true, required: false
-  private _s3Uri?: string;
+  private _s3Uri?: string; 
   public get s3Uri() {
     return this.getStringAttribute('s3_uri');
   }
@@ -203,7 +203,7 @@ export class ComprehendDocumentClassifierInputDataConfigAugmentedManifestsOutput
   }
 
   // split - computed: true, optional: true, required: false
-  private _split?: string;
+  private _split?: string; 
   public get split() {
     return this.getStringAttribute('split');
   }
@@ -351,7 +351,7 @@ export class ComprehendDocumentClassifierInputDataConfigDocumentReaderConfigOutp
   }
 
   // document_read_action - computed: true, optional: true, required: false
-  private _documentReadAction?: string;
+  private _documentReadAction?: string; 
   public get documentReadAction() {
     return this.getStringAttribute('document_read_action');
   }
@@ -367,7 +367,7 @@ export class ComprehendDocumentClassifierInputDataConfigDocumentReaderConfigOutp
   }
 
   // document_read_mode - computed: true, optional: true, required: false
-  private _documentReadMode?: string;
+  private _documentReadMode?: string; 
   public get documentReadMode() {
     return this.getStringAttribute('document_read_mode');
   }
@@ -383,7 +383,7 @@ export class ComprehendDocumentClassifierInputDataConfigDocumentReaderConfigOutp
   }
 
   // feature_types - computed: true, optional: true, required: false
-  private _featureTypes?: string[];
+  private _featureTypes?: string[]; 
   public get featureTypes() {
     return cdktn.Fn.tolist(this.getListAttribute('feature_types'));
   }
@@ -494,7 +494,7 @@ export class ComprehendDocumentClassifierInputDataConfigDocumentsOutputReference
   }
 
   // s3_uri - computed: true, optional: true, required: false
-  private _s3Uri?: string;
+  private _s3Uri?: string; 
   public get s3Uri() {
     return this.getStringAttribute('s3_uri');
   }
@@ -510,7 +510,7 @@ export class ComprehendDocumentClassifierInputDataConfigDocumentsOutputReference
   }
 
   // test_s3_uri - computed: true, optional: true, required: false
-  private _testS3Uri?: string;
+  private _testS3Uri?: string; 
   public get testS3Uri() {
     return this.getStringAttribute('test_s3_uri');
   }
@@ -739,7 +739,7 @@ export class ComprehendDocumentClassifierInputDataConfigOutputReference extends 
   }
 
   // data_format - computed: true, optional: true, required: false
-  private _dataFormat?: string;
+  private _dataFormat?: string; 
   public get dataFormat() {
     return this.getStringAttribute('data_format');
   }
@@ -771,7 +771,7 @@ export class ComprehendDocumentClassifierInputDataConfigOutputReference extends 
   }
 
   // document_type - computed: true, optional: true, required: false
-  private _documentType?: string;
+  private _documentType?: string; 
   public get documentType() {
     return this.getStringAttribute('document_type');
   }
@@ -803,7 +803,7 @@ export class ComprehendDocumentClassifierInputDataConfigOutputReference extends 
   }
 
   // label_delimiter - computed: true, optional: true, required: false
-  private _labelDelimiter?: string;
+  private _labelDelimiter?: string; 
   public get labelDelimiter() {
     return this.getStringAttribute('label_delimiter');
   }
@@ -819,7 +819,7 @@ export class ComprehendDocumentClassifierInputDataConfigOutputReference extends 
   }
 
   // s3_uri - computed: true, optional: true, required: false
-  private _s3Uri?: string;
+  private _s3Uri?: string; 
   public get s3Uri() {
     return this.getStringAttribute('s3_uri');
   }
@@ -835,7 +835,7 @@ export class ComprehendDocumentClassifierInputDataConfigOutputReference extends 
   }
 
   // test_s3_uri - computed: true, optional: true, required: false
-  private _testS3Uri?: string;
+  private _testS3Uri?: string; 
   public get testS3Uri() {
     return this.getStringAttribute('test_s3_uri');
   }
@@ -946,7 +946,7 @@ export class ComprehendDocumentClassifierOutputDataConfigOutputReference extends
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -962,7 +962,7 @@ export class ComprehendDocumentClassifierOutputDataConfigOutputReference extends
   }
 
   // s3_uri - computed: true, optional: true, required: false
-  private _s3Uri?: string;
+  private _s3Uri?: string; 
   public get s3Uri() {
     return this.getStringAttribute('s3_uri');
   }
@@ -1075,7 +1075,7 @@ export class ComprehendDocumentClassifierTagsOutputReference extends cdktn.Compl
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1091,7 +1091,7 @@ export class ComprehendDocumentClassifierTagsOutputReference extends cdktn.Compl
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1222,7 +1222,7 @@ export class ComprehendDocumentClassifierVpcConfigOutputReference extends cdktn.
   }
 
   // security_group_ids - computed: true, optional: true, required: false
-  private _securityGroupIds?: string[];
+  private _securityGroupIds?: string[]; 
   public get securityGroupIds() {
     return cdktn.Fn.tolist(this.getListAttribute('security_group_ids'));
   }
@@ -1238,7 +1238,7 @@ export class ComprehendDocumentClassifierVpcConfigOutputReference extends cdktn.
   }
 
   // subnets - computed: true, optional: true, required: false
-  private _subnets?: string[];
+  private _subnets?: string[]; 
   public get subnets() {
     return cdktn.Fn.tolist(this.getListAttribute('subnets'));
   }
@@ -1328,7 +1328,7 @@ export class ComprehendDocumentClassifier extends cdktn.TerraformResource {
   }
 
   // data_access_role_arn - computed: false, optional: false, required: true
-  private _dataAccessRoleArn?: string;
+  private _dataAccessRoleArn?: string; 
   public get dataAccessRoleArn() {
     return this.getStringAttribute('data_access_role_arn');
   }
@@ -1341,7 +1341,7 @@ export class ComprehendDocumentClassifier extends cdktn.TerraformResource {
   }
 
   // document_classifier_name - computed: false, optional: false, required: true
-  private _documentClassifierName?: string;
+  private _documentClassifierName?: string; 
   public get documentClassifierName() {
     return this.getStringAttribute('document_classifier_name');
   }
@@ -1372,7 +1372,7 @@ export class ComprehendDocumentClassifier extends cdktn.TerraformResource {
   }
 
   // language_code - computed: false, optional: false, required: true
-  private _languageCode?: string;
+  private _languageCode?: string; 
   public get languageCode() {
     return this.getStringAttribute('language_code');
   }
@@ -1385,7 +1385,7 @@ export class ComprehendDocumentClassifier extends cdktn.TerraformResource {
   }
 
   // mode - computed: true, optional: true, required: false
-  private _mode?: string;
+  private _mode?: string; 
   public get mode() {
     return this.getStringAttribute('mode');
   }
@@ -1401,7 +1401,7 @@ export class ComprehendDocumentClassifier extends cdktn.TerraformResource {
   }
 
   // model_kms_key_id - computed: true, optional: true, required: false
-  private _modelKmsKeyId?: string;
+  private _modelKmsKeyId?: string; 
   public get modelKmsKeyId() {
     return this.getStringAttribute('model_kms_key_id');
   }
@@ -1417,7 +1417,7 @@ export class ComprehendDocumentClassifier extends cdktn.TerraformResource {
   }
 
   // model_policy - computed: true, optional: true, required: false
-  private _modelPolicy?: string;
+  private _modelPolicy?: string; 
   public get modelPolicy() {
     return this.getStringAttribute('model_policy');
   }
@@ -1465,7 +1465,7 @@ export class ComprehendDocumentClassifier extends cdktn.TerraformResource {
   }
 
   // version_name - computed: true, optional: true, required: false
-  private _versionName?: string;
+  private _versionName?: string; 
   public get versionName() {
     return this.getStringAttribute('version_name');
   }
@@ -1481,7 +1481,7 @@ export class ComprehendDocumentClassifier extends cdktn.TerraformResource {
   }
 
   // volume_kms_key_id - computed: true, optional: true, required: false
-  private _volumeKmsKeyId?: string;
+  private _volumeKmsKeyId?: string; 
   public get volumeKmsKeyId() {
     return this.getStringAttribute('volume_kms_key_id');
   }

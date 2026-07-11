@@ -132,7 +132,7 @@ export class SsoadminManagedPolicyAttachmentsExclusiveTimeoutsOutputReference ex
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -148,7 +148,7 @@ export class SsoadminManagedPolicyAttachmentsExclusiveTimeoutsOutputReference ex
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -226,7 +226,7 @@ export class SsoadminManagedPolicyAttachmentsExclusive extends cdktn.TerraformRe
   // ==========
 
   // instance_arn - computed: false, optional: false, required: true
-  private _instanceArn?: string;
+  private _instanceArn?: string; 
   public get instanceArn() {
     return this.getStringAttribute('instance_arn');
   }
@@ -239,7 +239,7 @@ export class SsoadminManagedPolicyAttachmentsExclusive extends cdktn.TerraformRe
   }
 
   // managed_policy_arns - computed: false, optional: false, required: true
-  private _managedPolicyArns?: string[];
+  private _managedPolicyArns?: string[]; 
   public get managedPolicyArns() {
     return cdktn.Fn.tolist(this.getListAttribute('managed_policy_arns'));
   }
@@ -252,7 +252,7 @@ export class SsoadminManagedPolicyAttachmentsExclusive extends cdktn.TerraformRe
   }
 
   // permission_set_arn - computed: false, optional: false, required: true
-  private _permissionSetArn?: string;
+  private _permissionSetArn?: string; 
   public get permissionSetArn() {
     return this.getStringAttribute('permission_set_arn');
   }
@@ -265,7 +265,7 @@ export class SsoadminManagedPolicyAttachmentsExclusive extends cdktn.TerraformRe
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

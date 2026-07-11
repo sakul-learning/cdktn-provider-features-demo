@@ -94,7 +94,7 @@ export class AcmpcaPermission extends cdktn.TerraformResource {
   // ==========
 
   // actions - computed: false, optional: false, required: true
-  private _actions?: string[];
+  private _actions?: string[]; 
   public get actions() {
     return this.getListAttribute('actions');
   }
@@ -107,7 +107,7 @@ export class AcmpcaPermission extends cdktn.TerraformResource {
   }
 
   // certificate_authority_arn - computed: false, optional: false, required: true
-  private _certificateAuthorityArn?: string;
+  private _certificateAuthorityArn?: string; 
   public get certificateAuthorityArn() {
     return this.getStringAttribute('certificate_authority_arn');
   }
@@ -125,7 +125,7 @@ export class AcmpcaPermission extends cdktn.TerraformResource {
   }
 
   // principal - computed: false, optional: false, required: true
-  private _principal?: string;
+  private _principal?: string; 
   public get principal() {
     return this.getStringAttribute('principal');
   }
@@ -138,7 +138,7 @@ export class AcmpcaPermission extends cdktn.TerraformResource {
   }
 
   // source_account - computed: true, optional: true, required: false
-  private _sourceAccount?: string;
+  private _sourceAccount?: string; 
   public get sourceAccount() {
     return this.getStringAttribute('source_account');
   }

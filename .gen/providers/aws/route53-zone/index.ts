@@ -168,7 +168,7 @@ export class Route53ZoneTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -184,7 +184,7 @@ export class Route53ZoneTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -200,7 +200,7 @@ export class Route53ZoneTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -313,7 +313,7 @@ export class Route53ZoneVpcOutputReference extends cdktn.ComplexObject {
   }
 
   // vpc_id - computed: false, optional: false, required: true
-  private _vpcId?: string;
+  private _vpcId?: string; 
   public get vpcId() {
     return this.getStringAttribute('vpc_id');
   }
@@ -326,7 +326,7 @@ export class Route53ZoneVpcOutputReference extends cdktn.ComplexObject {
   }
 
   // vpc_region - computed: true, optional: true, required: false
-  private _vpcRegion?: string;
+  private _vpcRegion?: string; 
   public get vpcRegion() {
     return this.getStringAttribute('vpc_region');
   }
@@ -434,7 +434,7 @@ export class Route53Zone extends cdktn.TerraformResource {
   }
 
   // comment - computed: false, optional: true, required: false
-  private _comment?: string;
+  private _comment?: string; 
   public get comment() {
     return this.getStringAttribute('comment');
   }
@@ -450,7 +450,7 @@ export class Route53Zone extends cdktn.TerraformResource {
   }
 
   // delegation_set_id - computed: false, optional: true, required: false
-  private _delegationSetId?: string;
+  private _delegationSetId?: string; 
   public get delegationSetId() {
     return this.getStringAttribute('delegation_set_id');
   }
@@ -466,7 +466,7 @@ export class Route53Zone extends cdktn.TerraformResource {
   }
 
   // enable_accelerated_recovery - computed: true, optional: true, required: false
-  private _enableAcceleratedRecovery?: boolean | cdktn.IResolvable;
+  private _enableAcceleratedRecovery?: boolean | cdktn.IResolvable; 
   public get enableAcceleratedRecovery() {
     return this.getBooleanAttribute('enable_accelerated_recovery');
   }
@@ -482,7 +482,7 @@ export class Route53Zone extends cdktn.TerraformResource {
   }
 
   // force_destroy - computed: false, optional: true, required: false
-  private _forceDestroy?: boolean | cdktn.IResolvable;
+  private _forceDestroy?: boolean | cdktn.IResolvable; 
   public get forceDestroy() {
     return this.getBooleanAttribute('force_destroy');
   }
@@ -498,7 +498,7 @@ export class Route53Zone extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -514,7 +514,7 @@ export class Route53Zone extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -537,7 +537,7 @@ export class Route53Zone extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -553,7 +553,7 @@ export class Route53Zone extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

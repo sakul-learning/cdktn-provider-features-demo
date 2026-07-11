@@ -167,7 +167,7 @@ export class IotSoftwarePackageVersionArtifactS3LocationOutputReference extends 
   }
 
   // bucket - computed: true, optional: true, required: false
-  private _bucket?: string;
+  private _bucket?: string; 
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -183,7 +183,7 @@ export class IotSoftwarePackageVersionArtifactS3LocationOutputReference extends 
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -199,7 +199,7 @@ export class IotSoftwarePackageVersionArtifactS3LocationOutputReference extends 
   }
 
   // version - computed: true, optional: true, required: false
-  private _version?: string;
+  private _version?: string; 
   public get version() {
     return this.getStringAttribute('version');
   }
@@ -429,7 +429,7 @@ export class IotSoftwarePackageVersionSbomS3LocationOutputReference extends cdkt
   }
 
   // bucket - computed: true, optional: true, required: false
-  private _bucket?: string;
+  private _bucket?: string; 
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -445,7 +445,7 @@ export class IotSoftwarePackageVersionSbomS3LocationOutputReference extends cdkt
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -461,7 +461,7 @@ export class IotSoftwarePackageVersionSbomS3LocationOutputReference extends cdkt
   }
 
   // version - computed: true, optional: true, required: false
-  private _version?: string;
+  private _version?: string; 
   public get version() {
     return this.getStringAttribute('version');
   }
@@ -574,13 +574,13 @@ export class IotSoftwarePackageVersionSbomOutputReference extends cdktn.ComplexO
 }
 export interface IotSoftwarePackageVersionTags {
   /**
-  * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
+  * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_software_package_version#key IotSoftwarePackageVersion#key}
   */
   readonly key?: string;
   /**
-  * The value for the tag. You can specify a value that is 1 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
+  * The value for the tag. You can specify a value that is 1 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_software_package_version#value IotSoftwarePackageVersion#value}
   */
@@ -674,7 +674,7 @@ export class IotSoftwarePackageVersionTagsOutputReference extends cdktn.ComplexO
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -690,7 +690,7 @@ export class IotSoftwarePackageVersionTagsOutputReference extends cdktn.ComplexO
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -807,7 +807,7 @@ export class IotSoftwarePackageVersion extends cdktn.TerraformResource {
   }
 
   // attributes - computed: true, optional: true, required: false
-  private _attributes?: { [key: string]: string };
+  private _attributes?: { [key: string]: string }; 
   public get attributes() {
     return this.getStringMapAttribute('attributes');
   }
@@ -823,7 +823,7 @@ export class IotSoftwarePackageVersion extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -849,7 +849,7 @@ export class IotSoftwarePackageVersion extends cdktn.TerraformResource {
   }
 
   // package_name - computed: false, optional: false, required: true
-  private _packageName?: string;
+  private _packageName?: string; 
   public get packageName() {
     return this.getStringAttribute('package_name');
   }
@@ -867,7 +867,7 @@ export class IotSoftwarePackageVersion extends cdktn.TerraformResource {
   }
 
   // recipe - computed: true, optional: true, required: false
-  private _recipe?: string;
+  private _recipe?: string; 
   public get recipe() {
     return this.getStringAttribute('recipe');
   }
@@ -925,7 +925,7 @@ export class IotSoftwarePackageVersion extends cdktn.TerraformResource {
   }
 
   // version_name - computed: true, optional: true, required: false
-  private _versionName?: string;
+  private _versionName?: string; 
   public get versionName() {
     return this.getStringAttribute('version_name');
   }

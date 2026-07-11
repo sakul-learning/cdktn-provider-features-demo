@@ -124,19 +124,19 @@ export interface AutoscalingLaunchConfigurationConfig extends cdktn.TerraformMet
 }
 export interface AutoscalingLaunchConfigurationBlockDeviceMappingsEbs {
   /**
-  * Indicates whether the volume is deleted on instance termination.
+  * Indicates whether the volume is deleted on instance termination. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_launch_configuration#delete_on_termination AutoscalingLaunchConfiguration#delete_on_termination}
   */
   readonly deleteOnTermination?: boolean | cdktn.IResolvable;
   /**
-  * Specifies whether the volume should be encrypted.
+  * Specifies whether the volume should be encrypted. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_launch_configuration#encrypted AutoscalingLaunchConfiguration#encrypted}
   */
   readonly encrypted?: boolean | cdktn.IResolvable;
   /**
-  * The number of input/output (I/O) operations per second (IOPS) to provision for the volume.
+  * The number of input/output (I/O) operations per second (IOPS) to provision for the volume. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_launch_configuration#iops AutoscalingLaunchConfiguration#iops}
   */
@@ -317,7 +317,7 @@ export class AutoscalingLaunchConfigurationBlockDeviceMappingsEbsOutputReference
   }
 
   // delete_on_termination - computed: true, optional: true, required: false
-  private _deleteOnTermination?: boolean | cdktn.IResolvable;
+  private _deleteOnTermination?: boolean | cdktn.IResolvable; 
   public get deleteOnTermination() {
     return this.getBooleanAttribute('delete_on_termination');
   }
@@ -333,7 +333,7 @@ export class AutoscalingLaunchConfigurationBlockDeviceMappingsEbsOutputReference
   }
 
   // encrypted - computed: true, optional: true, required: false
-  private _encrypted?: boolean | cdktn.IResolvable;
+  private _encrypted?: boolean | cdktn.IResolvable; 
   public get encrypted() {
     return this.getBooleanAttribute('encrypted');
   }
@@ -349,7 +349,7 @@ export class AutoscalingLaunchConfigurationBlockDeviceMappingsEbsOutputReference
   }
 
   // iops - computed: true, optional: true, required: false
-  private _iops?: number;
+  private _iops?: number; 
   public get iops() {
     return this.getNumberAttribute('iops');
   }
@@ -365,7 +365,7 @@ export class AutoscalingLaunchConfigurationBlockDeviceMappingsEbsOutputReference
   }
 
   // snapshot_id - computed: true, optional: true, required: false
-  private _snapshotId?: string;
+  private _snapshotId?: string; 
   public get snapshotId() {
     return this.getStringAttribute('snapshot_id');
   }
@@ -381,7 +381,7 @@ export class AutoscalingLaunchConfigurationBlockDeviceMappingsEbsOutputReference
   }
 
   // throughput - computed: true, optional: true, required: false
-  private _throughput?: number;
+  private _throughput?: number; 
   public get throughput() {
     return this.getNumberAttribute('throughput');
   }
@@ -397,7 +397,7 @@ export class AutoscalingLaunchConfigurationBlockDeviceMappingsEbsOutputReference
   }
 
   // volume_size - computed: true, optional: true, required: false
-  private _volumeSize?: number;
+  private _volumeSize?: number; 
   public get volumeSize() {
     return this.getNumberAttribute('volume_size');
   }
@@ -413,7 +413,7 @@ export class AutoscalingLaunchConfigurationBlockDeviceMappingsEbsOutputReference
   }
 
   // volume_type - computed: true, optional: true, required: false
-  private _volumeType?: string;
+  private _volumeType?: string; 
   public get volumeType() {
     return this.getStringAttribute('volume_type');
   }
@@ -430,7 +430,7 @@ export class AutoscalingLaunchConfigurationBlockDeviceMappingsEbsOutputReference
 }
 export interface AutoscalingLaunchConfigurationBlockDeviceMappings {
   /**
-  * The device name exposed to the EC2 instance (for example, /dev/sdh or xvdh).
+  * The device name exposed to the EC2 instance (for example, /dev/sdh or xvdh). 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_launch_configuration#device_name AutoscalingLaunchConfiguration#device_name}
   */
@@ -568,7 +568,7 @@ export class AutoscalingLaunchConfigurationBlockDeviceMappingsOutputReference ex
   }
 
   // device_name - computed: true, optional: true, required: false
-  private _deviceName?: string;
+  private _deviceName?: string; 
   public get deviceName() {
     return this.getStringAttribute('device_name');
   }
@@ -600,7 +600,7 @@ export class AutoscalingLaunchConfigurationBlockDeviceMappingsOutputReference ex
   }
 
   // no_device - computed: true, optional: true, required: false
-  private _noDevice?: boolean | cdktn.IResolvable;
+  private _noDevice?: boolean | cdktn.IResolvable; 
   public get noDevice() {
     return this.getBooleanAttribute('no_device');
   }
@@ -616,7 +616,7 @@ export class AutoscalingLaunchConfigurationBlockDeviceMappingsOutputReference ex
   }
 
   // virtual_name - computed: true, optional: true, required: false
-  private _virtualName?: string;
+  private _virtualName?: string; 
   public get virtualName() {
     return this.getStringAttribute('virtual_name');
   }
@@ -770,7 +770,7 @@ export class AutoscalingLaunchConfigurationMetadataOptionsOutputReference extend
   }
 
   // http_endpoint - computed: true, optional: true, required: false
-  private _httpEndpoint?: string;
+  private _httpEndpoint?: string; 
   public get httpEndpoint() {
     return this.getStringAttribute('http_endpoint');
   }
@@ -786,7 +786,7 @@ export class AutoscalingLaunchConfigurationMetadataOptionsOutputReference extend
   }
 
   // http_put_response_hop_limit - computed: true, optional: true, required: false
-  private _httpPutResponseHopLimit?: number;
+  private _httpPutResponseHopLimit?: number; 
   public get httpPutResponseHopLimit() {
     return this.getNumberAttribute('http_put_response_hop_limit');
   }
@@ -802,7 +802,7 @@ export class AutoscalingLaunchConfigurationMetadataOptionsOutputReference extend
   }
 
   // http_tokens - computed: true, optional: true, required: false
-  private _httpTokens?: string;
+  private _httpTokens?: string; 
   public get httpTokens() {
     return this.getStringAttribute('http_tokens');
   }
@@ -894,7 +894,7 @@ export class AutoscalingLaunchConfiguration extends cdktn.TerraformResource {
   // ==========
 
   // associate_public_ip_address - computed: true, optional: true, required: false
-  private _associatePublicIpAddress?: boolean | cdktn.IResolvable;
+  private _associatePublicIpAddress?: boolean | cdktn.IResolvable; 
   public get associatePublicIpAddress() {
     return this.getBooleanAttribute('associate_public_ip_address');
   }
@@ -926,7 +926,7 @@ export class AutoscalingLaunchConfiguration extends cdktn.TerraformResource {
   }
 
   // classic_link_vpc_id - computed: true, optional: true, required: false
-  private _classicLinkVpcId?: string;
+  private _classicLinkVpcId?: string; 
   public get classicLinkVpcId() {
     return this.getStringAttribute('classic_link_vpc_id');
   }
@@ -942,7 +942,7 @@ export class AutoscalingLaunchConfiguration extends cdktn.TerraformResource {
   }
 
   // classic_link_vpc_security_groups - computed: true, optional: true, required: false
-  private _classicLinkVpcSecurityGroups?: string[];
+  private _classicLinkVpcSecurityGroups?: string[]; 
   public get classicLinkVpcSecurityGroups() {
     return this.getListAttribute('classic_link_vpc_security_groups');
   }
@@ -958,7 +958,7 @@ export class AutoscalingLaunchConfiguration extends cdktn.TerraformResource {
   }
 
   // ebs_optimized - computed: true, optional: true, required: false
-  private _ebsOptimized?: boolean | cdktn.IResolvable;
+  private _ebsOptimized?: boolean | cdktn.IResolvable; 
   public get ebsOptimized() {
     return this.getBooleanAttribute('ebs_optimized');
   }
@@ -974,7 +974,7 @@ export class AutoscalingLaunchConfiguration extends cdktn.TerraformResource {
   }
 
   // iam_instance_profile - computed: true, optional: true, required: false
-  private _iamInstanceProfile?: string;
+  private _iamInstanceProfile?: string; 
   public get iamInstanceProfile() {
     return this.getStringAttribute('iam_instance_profile');
   }
@@ -995,7 +995,7 @@ export class AutoscalingLaunchConfiguration extends cdktn.TerraformResource {
   }
 
   // image_id - computed: false, optional: false, required: true
-  private _imageId?: string;
+  private _imageId?: string; 
   public get imageId() {
     return this.getStringAttribute('image_id');
   }
@@ -1008,7 +1008,7 @@ export class AutoscalingLaunchConfiguration extends cdktn.TerraformResource {
   }
 
   // instance_id - computed: true, optional: true, required: false
-  private _instanceId?: string;
+  private _instanceId?: string; 
   public get instanceId() {
     return this.getStringAttribute('instance_id');
   }
@@ -1024,7 +1024,7 @@ export class AutoscalingLaunchConfiguration extends cdktn.TerraformResource {
   }
 
   // instance_monitoring - computed: true, optional: true, required: false
-  private _instanceMonitoring?: boolean | cdktn.IResolvable;
+  private _instanceMonitoring?: boolean | cdktn.IResolvable; 
   public get instanceMonitoring() {
     return this.getBooleanAttribute('instance_monitoring');
   }
@@ -1040,7 +1040,7 @@ export class AutoscalingLaunchConfiguration extends cdktn.TerraformResource {
   }
 
   // instance_type - computed: false, optional: false, required: true
-  private _instanceType?: string;
+  private _instanceType?: string; 
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -1053,7 +1053,7 @@ export class AutoscalingLaunchConfiguration extends cdktn.TerraformResource {
   }
 
   // kernel_id - computed: true, optional: true, required: false
-  private _kernelId?: string;
+  private _kernelId?: string; 
   public get kernelId() {
     return this.getStringAttribute('kernel_id');
   }
@@ -1069,7 +1069,7 @@ export class AutoscalingLaunchConfiguration extends cdktn.TerraformResource {
   }
 
   // key_name - computed: true, optional: true, required: false
-  private _keyName?: string;
+  private _keyName?: string; 
   public get keyName() {
     return this.getStringAttribute('key_name');
   }
@@ -1085,7 +1085,7 @@ export class AutoscalingLaunchConfiguration extends cdktn.TerraformResource {
   }
 
   // launch_configuration_name - computed: true, optional: true, required: false
-  private _launchConfigurationName?: string;
+  private _launchConfigurationName?: string; 
   public get launchConfigurationName() {
     return this.getStringAttribute('launch_configuration_name');
   }
@@ -1117,7 +1117,7 @@ export class AutoscalingLaunchConfiguration extends cdktn.TerraformResource {
   }
 
   // placement_tenancy - computed: true, optional: true, required: false
-  private _placementTenancy?: string;
+  private _placementTenancy?: string; 
   public get placementTenancy() {
     return this.getStringAttribute('placement_tenancy');
   }
@@ -1133,7 +1133,7 @@ export class AutoscalingLaunchConfiguration extends cdktn.TerraformResource {
   }
 
   // ram_disk_id - computed: true, optional: true, required: false
-  private _ramDiskId?: string;
+  private _ramDiskId?: string; 
   public get ramDiskId() {
     return this.getStringAttribute('ram_disk_id');
   }
@@ -1149,7 +1149,7 @@ export class AutoscalingLaunchConfiguration extends cdktn.TerraformResource {
   }
 
   // security_groups - computed: true, optional: true, required: false
-  private _securityGroups?: string[];
+  private _securityGroups?: string[]; 
   public get securityGroups() {
     return this.getListAttribute('security_groups');
   }
@@ -1165,7 +1165,7 @@ export class AutoscalingLaunchConfiguration extends cdktn.TerraformResource {
   }
 
   // spot_price - computed: true, optional: true, required: false
-  private _spotPrice?: string;
+  private _spotPrice?: string; 
   public get spotPrice() {
     return this.getStringAttribute('spot_price');
   }
@@ -1181,7 +1181,7 @@ export class AutoscalingLaunchConfiguration extends cdktn.TerraformResource {
   }
 
   // user_data - computed: true, optional: true, required: false
-  private _userData?: string;
+  private _userData?: string; 
   public get userData() {
     return this.getStringAttribute('user_data');
   }

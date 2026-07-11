@@ -104,7 +104,7 @@ export class IamOpenidConnectProvider extends cdktn.TerraformResource {
   }
 
   // client_id_list - computed: false, optional: false, required: true
-  private _clientIdList?: string[];
+  private _clientIdList?: string[]; 
   public get clientIdList() {
     return cdktn.Fn.tolist(this.getListAttribute('client_id_list'));
   }
@@ -117,7 +117,7 @@ export class IamOpenidConnectProvider extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -133,7 +133,7 @@ export class IamOpenidConnectProvider extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -149,7 +149,7 @@ export class IamOpenidConnectProvider extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -165,7 +165,7 @@ export class IamOpenidConnectProvider extends cdktn.TerraformResource {
   }
 
   // thumbprint_list - computed: true, optional: true, required: false
-  private _thumbprintList?: string[];
+  private _thumbprintList?: string[]; 
   public get thumbprintList() {
     return this.getListAttribute('thumbprint_list');
   }
@@ -181,7 +181,7 @@ export class IamOpenidConnectProvider extends cdktn.TerraformResource {
   }
 
   // url - computed: false, optional: false, required: true
-  private _url?: string;
+  private _url?: string; 
   public get url() {
     return this.getStringAttribute('url');
   }

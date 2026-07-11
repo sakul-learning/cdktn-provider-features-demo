@@ -256,7 +256,7 @@ export class ElasticacheGlobalReplicationGroupTimeoutsOutputReference extends cd
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -272,7 +272,7 @@ export class ElasticacheGlobalReplicationGroupTimeoutsOutputReference extends cd
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -288,7 +288,7 @@ export class ElasticacheGlobalReplicationGroupTimeoutsOutputReference extends cd
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -388,7 +388,7 @@ export class ElasticacheGlobalReplicationGroup extends cdktn.TerraformResource {
   }
 
   // automatic_failover_enabled - computed: true, optional: true, required: false
-  private _automaticFailoverEnabled?: boolean | cdktn.IResolvable;
+  private _automaticFailoverEnabled?: boolean | cdktn.IResolvable; 
   public get automaticFailoverEnabled() {
     return this.getBooleanAttribute('automatic_failover_enabled');
   }
@@ -404,7 +404,7 @@ export class ElasticacheGlobalReplicationGroup extends cdktn.TerraformResource {
   }
 
   // cache_node_type - computed: true, optional: true, required: false
-  private _cacheNodeType?: string;
+  private _cacheNodeType?: string; 
   public get cacheNodeType() {
     return this.getStringAttribute('cache_node_type');
   }
@@ -425,7 +425,7 @@ export class ElasticacheGlobalReplicationGroup extends cdktn.TerraformResource {
   }
 
   // engine - computed: true, optional: true, required: false
-  private _engine?: string;
+  private _engine?: string; 
   public get engine() {
     return this.getStringAttribute('engine');
   }
@@ -441,7 +441,7 @@ export class ElasticacheGlobalReplicationGroup extends cdktn.TerraformResource {
   }
 
   // engine_version - computed: true, optional: true, required: false
-  private _engineVersion?: string;
+  private _engineVersion?: string; 
   public get engineVersion() {
     return this.getStringAttribute('engine_version');
   }
@@ -468,7 +468,7 @@ export class ElasticacheGlobalReplicationGroup extends cdktn.TerraformResource {
   }
 
   // global_replication_group_description - computed: false, optional: true, required: false
-  private _globalReplicationGroupDescription?: string;
+  private _globalReplicationGroupDescription?: string; 
   public get globalReplicationGroupDescription() {
     return this.getStringAttribute('global_replication_group_description');
   }
@@ -489,7 +489,7 @@ export class ElasticacheGlobalReplicationGroup extends cdktn.TerraformResource {
   }
 
   // global_replication_group_id_suffix - computed: false, optional: false, required: true
-  private _globalReplicationGroupIdSuffix?: string;
+  private _globalReplicationGroupIdSuffix?: string; 
   public get globalReplicationGroupIdSuffix() {
     return this.getStringAttribute('global_replication_group_id_suffix');
   }
@@ -502,7 +502,7 @@ export class ElasticacheGlobalReplicationGroup extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -518,7 +518,7 @@ export class ElasticacheGlobalReplicationGroup extends cdktn.TerraformResource {
   }
 
   // num_node_groups - computed: true, optional: true, required: false
-  private _numNodeGroups?: number;
+  private _numNodeGroups?: number; 
   public get numNodeGroups() {
     return this.getNumberAttribute('num_node_groups');
   }
@@ -534,7 +534,7 @@ export class ElasticacheGlobalReplicationGroup extends cdktn.TerraformResource {
   }
 
   // parameter_group_name - computed: false, optional: true, required: false
-  private _parameterGroupName?: string;
+  private _parameterGroupName?: string; 
   public get parameterGroupName() {
     return this.getStringAttribute('parameter_group_name');
   }
@@ -550,7 +550,7 @@ export class ElasticacheGlobalReplicationGroup extends cdktn.TerraformResource {
   }
 
   // primary_replication_group_id - computed: false, optional: false, required: true
-  private _primaryReplicationGroupId?: string;
+  private _primaryReplicationGroupId?: string; 
   public get primaryReplicationGroupId() {
     return this.getStringAttribute('primary_replication_group_id');
   }
@@ -563,7 +563,7 @@ export class ElasticacheGlobalReplicationGroup extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

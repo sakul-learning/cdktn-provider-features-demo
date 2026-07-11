@@ -1,8 +1,8 @@
 // generated from terraform resource schema
 
-import { SecurityhubInsightFilters,
-securityhubInsightFiltersToTerraform,
-securityhubInsightFiltersToHclTerraform,
+import { SecurityhubInsightFilters, 
+securityhubInsightFiltersToTerraform, 
+securityhubInsightFiltersToHclTerraform, 
 SecurityhubInsightFiltersOutputReference} from './index-structs/index.js';
 export * from './index-structs/index.js';
 import { Construct } from 'constructs';
@@ -104,7 +104,7 @@ export class SecurityhubInsight extends cdktn.TerraformResource {
   }
 
   // group_by_attribute - computed: false, optional: false, required: true
-  private _groupByAttribute?: string;
+  private _groupByAttribute?: string; 
   public get groupByAttribute() {
     return this.getStringAttribute('group_by_attribute');
   }
@@ -117,7 +117,7 @@ export class SecurityhubInsight extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -133,7 +133,7 @@ export class SecurityhubInsight extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -146,7 +146,7 @@ export class SecurityhubInsight extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

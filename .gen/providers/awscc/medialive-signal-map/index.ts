@@ -729,7 +729,7 @@ export class MedialiveSignalMap extends cdktn.TerraformResource {
   }
 
   // cloudwatch_alarm_template_group_identifiers - computed: true, optional: true, required: false
-  private _cloudwatchAlarmTemplateGroupIdentifiers?: string[];
+  private _cloudwatchAlarmTemplateGroupIdentifiers?: string[]; 
   public get cloudwatchAlarmTemplateGroupIdentifiers() {
     return this.getListAttribute('cloudwatch_alarm_template_group_identifiers');
   }
@@ -755,7 +755,7 @@ export class MedialiveSignalMap extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -771,7 +771,7 @@ export class MedialiveSignalMap extends cdktn.TerraformResource {
   }
 
   // discovery_entry_point_arn - computed: false, optional: false, required: true
-  private _discoveryEntryPointArn?: string;
+  private _discoveryEntryPointArn?: string; 
   public get discoveryEntryPointArn() {
     return this.getStringAttribute('discovery_entry_point_arn');
   }
@@ -789,7 +789,7 @@ export class MedialiveSignalMap extends cdktn.TerraformResource {
   }
 
   // event_bridge_rule_template_group_identifiers - computed: true, optional: true, required: false
-  private _eventBridgeRuleTemplateGroupIdentifiers?: string[];
+  private _eventBridgeRuleTemplateGroupIdentifiers?: string[]; 
   public get eventBridgeRuleTemplateGroupIdentifiers() {
     return this.getListAttribute('event_bridge_rule_template_group_identifiers');
   }
@@ -816,7 +816,7 @@ export class MedialiveSignalMap extends cdktn.TerraformResource {
   }
 
   // force_rediscovery - computed: true, optional: true, required: false
-  private _forceRediscovery?: boolean | cdktn.IResolvable;
+  private _forceRediscovery?: boolean | cdktn.IResolvable; 
   public get forceRediscovery() {
     return this.getBooleanAttribute('force_rediscovery');
   }
@@ -875,7 +875,7 @@ export class MedialiveSignalMap extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -898,7 +898,7 @@ export class MedialiveSignalMap extends cdktn.TerraformResource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

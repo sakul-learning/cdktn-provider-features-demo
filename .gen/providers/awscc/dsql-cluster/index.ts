@@ -198,7 +198,7 @@ export class DsqlClusterMultiRegionPropertiesOutputReference extends cdktn.Compl
   }
 
   // clusters - computed: true, optional: true, required: false
-  private _clusters?: string[];
+  private _clusters?: string[]; 
   public get clusters() {
     return cdktn.Fn.tolist(this.getListAttribute('clusters'));
   }
@@ -214,7 +214,7 @@ export class DsqlClusterMultiRegionPropertiesOutputReference extends cdktn.Compl
   }
 
   // witness_region - computed: true, optional: true, required: false
-  private _witnessRegion?: string;
+  private _witnessRegion?: string; 
   public get witnessRegion() {
     return this.getStringAttribute('witness_region');
   }
@@ -331,7 +331,7 @@ export class DsqlClusterTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -347,7 +347,7 @@ export class DsqlClusterTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -450,7 +450,7 @@ export class DsqlCluster extends cdktn.TerraformResource {
   }
 
   // deletion_protection_enabled - computed: true, optional: true, required: false
-  private _deletionProtectionEnabled?: boolean | cdktn.IResolvable;
+  private _deletionProtectionEnabled?: boolean | cdktn.IResolvable; 
   public get deletionProtectionEnabled() {
     return this.getBooleanAttribute('deletion_protection_enabled');
   }
@@ -487,7 +487,7 @@ export class DsqlCluster extends cdktn.TerraformResource {
   }
 
   // kms_encryption_key - computed: true, optional: true, required: false
-  private _kmsEncryptionKey?: string;
+  private _kmsEncryptionKey?: string; 
   public get kmsEncryptionKey() {
     return this.getStringAttribute('kms_encryption_key');
   }
@@ -519,7 +519,7 @@ export class DsqlCluster extends cdktn.TerraformResource {
   }
 
   // policy_document - computed: true, optional: true, required: false
-  private _policyDocument?: string;
+  private _policyDocument?: string; 
   public get policyDocument() {
     return this.getStringAttribute('policy_document');
   }

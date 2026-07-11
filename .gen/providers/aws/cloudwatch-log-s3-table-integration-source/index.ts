@@ -128,7 +128,7 @@ export class CloudwatchLogS3TableIntegrationSourceDataSourceOutputReference exte
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -141,7 +141,7 @@ export class CloudwatchLogS3TableIntegrationSourceDataSourceOutputReference exte
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -254,7 +254,7 @@ export class CloudwatchLogS3TableIntegrationSourceTimeoutsOutputReference extend
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -336,7 +336,7 @@ export class CloudwatchLogS3TableIntegrationSource extends cdktn.TerraformResour
   }
 
   // integration_arn - computed: false, optional: false, required: true
-  private _integrationArn?: string;
+  private _integrationArn?: string; 
   public get integrationArn() {
     return this.getStringAttribute('integration_arn');
   }
@@ -349,7 +349,7 @@ export class CloudwatchLogS3TableIntegrationSource extends cdktn.TerraformResour
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

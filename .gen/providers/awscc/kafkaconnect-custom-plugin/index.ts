@@ -216,7 +216,7 @@ export class KafkaconnectCustomPluginLocationS3LocationOutputReference extends c
   }
 
   // bucket_arn - computed: false, optional: false, required: true
-  private _bucketArn?: string;
+  private _bucketArn?: string; 
   public get bucketArn() {
     return this.getStringAttribute('bucket_arn');
   }
@@ -229,7 +229,7 @@ export class KafkaconnectCustomPluginLocationS3LocationOutputReference extends c
   }
 
   // file_key - computed: false, optional: false, required: true
-  private _fileKey?: string;
+  private _fileKey?: string; 
   public get fileKey() {
     return this.getStringAttribute('file_key');
   }
@@ -242,7 +242,7 @@ export class KafkaconnectCustomPluginLocationS3LocationOutputReference extends c
   }
 
   // object_version - computed: true, optional: true, required: false
-  private _objectVersion?: string;
+  private _objectVersion?: string; 
   public get objectVersion() {
     return this.getStringAttribute('object_version');
   }
@@ -452,7 +452,7 @@ export class KafkaconnectCustomPluginTagsOutputReference extends cdktn.ComplexOb
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -468,7 +468,7 @@ export class KafkaconnectCustomPluginTagsOutputReference extends cdktn.ComplexOb
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -566,7 +566,7 @@ export class KafkaconnectCustomPlugin extends cdktn.TerraformResource {
   // ==========
 
   // content_type - computed: false, optional: false, required: true
-  private _contentType?: string;
+  private _contentType?: string; 
   public get contentType() {
     return this.getStringAttribute('content_type');
   }
@@ -584,7 +584,7 @@ export class KafkaconnectCustomPlugin extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -624,7 +624,7 @@ export class KafkaconnectCustomPlugin extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }

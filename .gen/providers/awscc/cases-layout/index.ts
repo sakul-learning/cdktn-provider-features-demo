@@ -118,7 +118,7 @@ export class CasesLayoutContentBasicMoreInfoSectionsFieldGroupFieldsOutputRefere
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -269,7 +269,7 @@ export class CasesLayoutContentBasicMoreInfoSectionsFieldGroupOutputReference ex
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -584,7 +584,7 @@ export class CasesLayoutContentBasicTopPanelSectionsFieldGroupFieldsOutputRefere
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -735,7 +735,7 @@ export class CasesLayoutContentBasicTopPanelSectionsFieldGroupOutputReference ex
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1293,7 +1293,7 @@ export class CasesLayoutTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1309,7 +1309,7 @@ export class CasesLayoutTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1424,7 +1424,7 @@ export class CasesLayout extends cdktn.TerraformResource {
   }
 
   // domain_id - computed: true, optional: true, required: false
-  private _domainId?: string;
+  private _domainId?: string; 
   public get domainId() {
     return this.getStringAttribute('domain_id');
   }
@@ -1460,7 +1460,7 @@ export class CasesLayout extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }

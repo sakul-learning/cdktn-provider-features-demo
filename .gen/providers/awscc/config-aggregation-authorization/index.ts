@@ -28,13 +28,13 @@ export interface ConfigAggregationAuthorizationConfig extends cdktn.TerraformMet
 }
 export interface ConfigAggregationAuthorizationTags {
   /**
-  * The key name of the tag. You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
+  * The key name of the tag. You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/config_aggregation_authorization#key ConfigAggregationAuthorization#key}
   */
   readonly key?: string;
   /**
-  * The value for the tag. You can specify a value that is 1 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
+  * The value for the tag. You can specify a value that is 1 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/config_aggregation_authorization#value ConfigAggregationAuthorization#value}
   */
@@ -128,7 +128,7 @@ export class ConfigAggregationAuthorizationTagsOutputReference extends cdktn.Com
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -144,7 +144,7 @@ export class ConfigAggregationAuthorizationTagsOutputReference extends cdktn.Com
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -245,7 +245,7 @@ export class ConfigAggregationAuthorization extends cdktn.TerraformResource {
   }
 
   // authorized_account_id - computed: false, optional: false, required: true
-  private _authorizedAccountId?: string;
+  private _authorizedAccountId?: string; 
   public get authorizedAccountId() {
     return this.getStringAttribute('authorized_account_id');
   }
@@ -258,7 +258,7 @@ export class ConfigAggregationAuthorization extends cdktn.TerraformResource {
   }
 
   // authorized_aws_region - computed: false, optional: false, required: true
-  private _authorizedAwsRegion?: string;
+  private _authorizedAwsRegion?: string; 
   public get authorizedAwsRegion() {
     return this.getStringAttribute('authorized_aws_region');
   }

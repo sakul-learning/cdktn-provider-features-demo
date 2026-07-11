@@ -88,7 +88,7 @@ export class VpcSecurityGroupRulesExclusive extends cdktn.TerraformResource {
   // ==========
 
   // egress_rule_ids - computed: false, optional: false, required: true
-  private _egressRuleIds?: string[];
+  private _egressRuleIds?: string[]; 
   public get egressRuleIds() {
     return cdktn.Fn.tolist(this.getListAttribute('egress_rule_ids'));
   }
@@ -101,7 +101,7 @@ export class VpcSecurityGroupRulesExclusive extends cdktn.TerraformResource {
   }
 
   // ingress_rule_ids - computed: false, optional: false, required: true
-  private _ingressRuleIds?: string[];
+  private _ingressRuleIds?: string[]; 
   public get ingressRuleIds() {
     return cdktn.Fn.tolist(this.getListAttribute('ingress_rule_ids'));
   }
@@ -114,7 +114,7 @@ export class VpcSecurityGroupRulesExclusive extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -130,7 +130,7 @@ export class VpcSecurityGroupRulesExclusive extends cdktn.TerraformResource {
   }
 
   // security_group_id - computed: false, optional: false, required: true
-  private _securityGroupId?: string;
+  private _securityGroupId?: string; 
   public get securityGroupId() {
     return this.getStringAttribute('security_group_id');
   }

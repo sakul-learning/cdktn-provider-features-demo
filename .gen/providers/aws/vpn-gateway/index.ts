@@ -106,7 +106,7 @@ export class VpnGateway extends cdktn.TerraformResource {
   // ==========
 
   // amazon_side_asn - computed: true, optional: true, required: false
-  private _amazonSideAsn?: string;
+  private _amazonSideAsn?: string; 
   public get amazonSideAsn() {
     return this.getStringAttribute('amazon_side_asn');
   }
@@ -127,7 +127,7 @@ export class VpnGateway extends cdktn.TerraformResource {
   }
 
   // availability_zone - computed: false, optional: true, required: false
-  private _availabilityZone?: string;
+  private _availabilityZone?: string; 
   public get availabilityZone() {
     return this.getStringAttribute('availability_zone');
   }
@@ -143,7 +143,7 @@ export class VpnGateway extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -159,7 +159,7 @@ export class VpnGateway extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -175,7 +175,7 @@ export class VpnGateway extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -191,7 +191,7 @@ export class VpnGateway extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -207,7 +207,7 @@ export class VpnGateway extends cdktn.TerraformResource {
   }
 
   // vpc_id - computed: true, optional: true, required: false
-  private _vpcId?: string;
+  private _vpcId?: string; 
   public get vpcId() {
     return this.getStringAttribute('vpc_id');
   }

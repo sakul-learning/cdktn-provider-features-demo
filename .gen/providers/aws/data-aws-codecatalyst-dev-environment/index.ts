@@ -364,7 +364,7 @@ export class DataAwsCodecatalystDevEnvironment extends cdktn.TerraformDataSource
   // ==========
 
   // alias - computed: false, optional: true, required: false
-  private _alias?: string;
+  private _alias?: string; 
   public get alias() {
     return this.getStringAttribute('alias');
   }
@@ -380,7 +380,7 @@ export class DataAwsCodecatalystDevEnvironment extends cdktn.TerraformDataSource
   }
 
   // creator_id - computed: false, optional: true, required: false
-  private _creatorId?: string;
+  private _creatorId?: string; 
   public get creatorId() {
     return this.getStringAttribute('creator_id');
   }
@@ -396,7 +396,7 @@ export class DataAwsCodecatalystDevEnvironment extends cdktn.TerraformDataSource
   }
 
   // env_id - computed: false, optional: false, required: true
-  private _envId?: string;
+  private _envId?: string; 
   public get envId() {
     return this.getStringAttribute('env_id');
   }
@@ -409,7 +409,7 @@ export class DataAwsCodecatalystDevEnvironment extends cdktn.TerraformDataSource
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -452,7 +452,7 @@ export class DataAwsCodecatalystDevEnvironment extends cdktn.TerraformDataSource
   }
 
   // project_name - computed: false, optional: false, required: true
-  private _projectName?: string;
+  private _projectName?: string; 
   public get projectName() {
     return this.getStringAttribute('project_name');
   }
@@ -465,7 +465,7 @@ export class DataAwsCodecatalystDevEnvironment extends cdktn.TerraformDataSource
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -481,7 +481,7 @@ export class DataAwsCodecatalystDevEnvironment extends cdktn.TerraformDataSource
   }
 
   // space_name - computed: false, optional: false, required: true
-  private _spaceName?: string;
+  private _spaceName?: string; 
   public get spaceName() {
     return this.getStringAttribute('space_name');
   }
@@ -504,7 +504,7 @@ export class DataAwsCodecatalystDevEnvironment extends cdktn.TerraformDataSource
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

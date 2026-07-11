@@ -129,7 +129,7 @@ export class ChimeVoiceConnectorTerminationCredentialsCredentialsOutputReference
   }
 
   // password - computed: false, optional: false, required: true
-  private _password?: string;
+  private _password?: string; 
   public get password() {
     return this.getStringAttribute('password');
   }
@@ -142,7 +142,7 @@ export class ChimeVoiceConnectorTerminationCredentialsCredentialsOutputReference
   }
 
   // username - computed: false, optional: false, required: true
-  private _username?: string;
+  private _username?: string; 
   public get username() {
     return this.getStringAttribute('username');
   }
@@ -236,7 +236,7 @@ export class ChimeVoiceConnectorTerminationCredentials extends cdktn.TerraformRe
   // ==========
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -252,7 +252,7 @@ export class ChimeVoiceConnectorTerminationCredentials extends cdktn.TerraformRe
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -268,7 +268,7 @@ export class ChimeVoiceConnectorTerminationCredentials extends cdktn.TerraformRe
   }
 
   // voice_connector_id - computed: false, optional: false, required: true
-  private _voiceConnectorId?: string;
+  private _voiceConnectorId?: string; 
   public get voiceConnectorId() {
     return this.getStringAttribute('voice_connector_id');
   }

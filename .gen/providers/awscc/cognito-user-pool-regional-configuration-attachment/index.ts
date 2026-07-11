@@ -181,7 +181,7 @@ export class CognitoUserPoolRegionalConfigurationAttachmentEmailConfigurationOut
   }
 
   // configuration_set - computed: true, optional: true, required: false
-  private _configurationSet?: string;
+  private _configurationSet?: string; 
   public get configurationSet() {
     return this.getStringAttribute('configuration_set');
   }
@@ -197,7 +197,7 @@ export class CognitoUserPoolRegionalConfigurationAttachmentEmailConfigurationOut
   }
 
   // email_sending_account - computed: true, optional: true, required: false
-  private _emailSendingAccount?: string;
+  private _emailSendingAccount?: string; 
   public get emailSendingAccount() {
     return this.getStringAttribute('email_sending_account');
   }
@@ -213,7 +213,7 @@ export class CognitoUserPoolRegionalConfigurationAttachmentEmailConfigurationOut
   }
 
   // from - computed: true, optional: true, required: false
-  private _from?: string;
+  private _from?: string; 
   public get from() {
     return this.getStringAttribute('from');
   }
@@ -229,7 +229,7 @@ export class CognitoUserPoolRegionalConfigurationAttachmentEmailConfigurationOut
   }
 
   // reply_to_email_address - computed: true, optional: true, required: false
-  private _replyToEmailAddress?: string;
+  private _replyToEmailAddress?: string; 
   public get replyToEmailAddress() {
     return this.getStringAttribute('reply_to_email_address');
   }
@@ -245,7 +245,7 @@ export class CognitoUserPoolRegionalConfigurationAttachmentEmailConfigurationOut
   }
 
   // source_arn - computed: true, optional: true, required: false
-  private _sourceArn?: string;
+  private _sourceArn?: string; 
   public get sourceArn() {
     return this.getStringAttribute('source_arn');
   }
@@ -356,7 +356,7 @@ export class CognitoUserPoolRegionalConfigurationAttachmentLambdaConfigCustomEma
   }
 
   // lambda_arn - computed: true, optional: true, required: false
-  private _lambdaArn?: string;
+  private _lambdaArn?: string; 
   public get lambdaArn() {
     return this.getStringAttribute('lambda_arn');
   }
@@ -372,7 +372,7 @@ export class CognitoUserPoolRegionalConfigurationAttachmentLambdaConfigCustomEma
   }
 
   // lambda_version - computed: true, optional: true, required: false
-  private _lambdaVersion?: string;
+  private _lambdaVersion?: string; 
   public get lambdaVersion() {
     return this.getStringAttribute('lambda_version');
   }
@@ -483,7 +483,7 @@ export class CognitoUserPoolRegionalConfigurationAttachmentLambdaConfigCustomSms
   }
 
   // lambda_arn - computed: true, optional: true, required: false
-  private _lambdaArn?: string;
+  private _lambdaArn?: string; 
   public get lambdaArn() {
     return this.getStringAttribute('lambda_arn');
   }
@@ -499,7 +499,7 @@ export class CognitoUserPoolRegionalConfigurationAttachmentLambdaConfigCustomSms
   }
 
   // lambda_version - computed: true, optional: true, required: false
-  private _lambdaVersion?: string;
+  private _lambdaVersion?: string; 
   public get lambdaVersion() {
     return this.getStringAttribute('lambda_version');
   }
@@ -610,7 +610,7 @@ export class CognitoUserPoolRegionalConfigurationAttachmentLambdaConfigInboundFe
   }
 
   // lambda_arn - computed: true, optional: true, required: false
-  private _lambdaArn?: string;
+  private _lambdaArn?: string; 
   public get lambdaArn() {
     return this.getStringAttribute('lambda_arn');
   }
@@ -626,7 +626,7 @@ export class CognitoUserPoolRegionalConfigurationAttachmentLambdaConfigInboundFe
   }
 
   // lambda_version - computed: true, optional: true, required: false
-  private _lambdaVersion?: string;
+  private _lambdaVersion?: string; 
   public get lambdaVersion() {
     return this.getStringAttribute('lambda_version');
   }
@@ -737,7 +737,7 @@ export class CognitoUserPoolRegionalConfigurationAttachmentLambdaConfigPreTokenG
   }
 
   // lambda_arn - computed: true, optional: true, required: false
-  private _lambdaArn?: string;
+  private _lambdaArn?: string; 
   public get lambdaArn() {
     return this.getStringAttribute('lambda_arn');
   }
@@ -753,7 +753,7 @@ export class CognitoUserPoolRegionalConfigurationAttachmentLambdaConfigPreTokenG
   }
 
   // lambda_version - computed: true, optional: true, required: false
-  private _lambdaVersion?: string;
+  private _lambdaVersion?: string; 
   public get lambdaVersion() {
     return this.getStringAttribute('lambda_version');
   }
@@ -1085,7 +1085,7 @@ export class CognitoUserPoolRegionalConfigurationAttachmentLambdaConfigOutputRef
   }
 
   // create_auth_challenge - computed: true, optional: true, required: false
-  private _createAuthChallenge?: string;
+  private _createAuthChallenge?: string; 
   public get createAuthChallenge() {
     return this.getStringAttribute('create_auth_challenge');
   }
@@ -1117,7 +1117,7 @@ export class CognitoUserPoolRegionalConfigurationAttachmentLambdaConfigOutputRef
   }
 
   // custom_message - computed: true, optional: true, required: false
-  private _customMessage?: string;
+  private _customMessage?: string; 
   public get customMessage() {
     return this.getStringAttribute('custom_message');
   }
@@ -1149,7 +1149,7 @@ export class CognitoUserPoolRegionalConfigurationAttachmentLambdaConfigOutputRef
   }
 
   // define_auth_challenge - computed: true, optional: true, required: false
-  private _defineAuthChallenge?: string;
+  private _defineAuthChallenge?: string; 
   public get defineAuthChallenge() {
     return this.getStringAttribute('define_auth_challenge');
   }
@@ -1181,7 +1181,7 @@ export class CognitoUserPoolRegionalConfigurationAttachmentLambdaConfigOutputRef
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -1197,7 +1197,7 @@ export class CognitoUserPoolRegionalConfigurationAttachmentLambdaConfigOutputRef
   }
 
   // post_authentication - computed: true, optional: true, required: false
-  private _postAuthentication?: string;
+  private _postAuthentication?: string; 
   public get postAuthentication() {
     return this.getStringAttribute('post_authentication');
   }
@@ -1213,7 +1213,7 @@ export class CognitoUserPoolRegionalConfigurationAttachmentLambdaConfigOutputRef
   }
 
   // post_confirmation - computed: true, optional: true, required: false
-  private _postConfirmation?: string;
+  private _postConfirmation?: string; 
   public get postConfirmation() {
     return this.getStringAttribute('post_confirmation');
   }
@@ -1229,7 +1229,7 @@ export class CognitoUserPoolRegionalConfigurationAttachmentLambdaConfigOutputRef
   }
 
   // pre_authentication - computed: true, optional: true, required: false
-  private _preAuthentication?: string;
+  private _preAuthentication?: string; 
   public get preAuthentication() {
     return this.getStringAttribute('pre_authentication');
   }
@@ -1245,7 +1245,7 @@ export class CognitoUserPoolRegionalConfigurationAttachmentLambdaConfigOutputRef
   }
 
   // pre_sign_up - computed: true, optional: true, required: false
-  private _preSignUp?: string;
+  private _preSignUp?: string; 
   public get preSignUp() {
     return this.getStringAttribute('pre_sign_up');
   }
@@ -1261,7 +1261,7 @@ export class CognitoUserPoolRegionalConfigurationAttachmentLambdaConfigOutputRef
   }
 
   // pre_token_generation - computed: true, optional: true, required: false
-  private _preTokenGeneration?: string;
+  private _preTokenGeneration?: string; 
   public get preTokenGeneration() {
     return this.getStringAttribute('pre_token_generation');
   }
@@ -1293,7 +1293,7 @@ export class CognitoUserPoolRegionalConfigurationAttachmentLambdaConfigOutputRef
   }
 
   // user_migration - computed: true, optional: true, required: false
-  private _userMigration?: string;
+  private _userMigration?: string; 
   public get userMigration() {
     return this.getStringAttribute('user_migration');
   }
@@ -1309,7 +1309,7 @@ export class CognitoUserPoolRegionalConfigurationAttachmentLambdaConfigOutputRef
   }
 
   // verify_auth_challenge_response - computed: true, optional: true, required: false
-  private _verifyAuthChallengeResponse?: string;
+  private _verifyAuthChallengeResponse?: string; 
   public get verifyAuthChallengeResponse() {
     return this.getStringAttribute('verify_auth_challenge_response');
   }
@@ -1437,7 +1437,7 @@ export class CognitoUserPoolRegionalConfigurationAttachmentSmsConfigurationOutpu
   }
 
   // external_id - computed: true, optional: true, required: false
-  private _externalId?: string;
+  private _externalId?: string; 
   public get externalId() {
     return this.getStringAttribute('external_id');
   }
@@ -1453,7 +1453,7 @@ export class CognitoUserPoolRegionalConfigurationAttachmentSmsConfigurationOutpu
   }
 
   // sns_caller_arn - computed: true, optional: true, required: false
-  private _snsCallerArn?: string;
+  private _snsCallerArn?: string; 
   public get snsCallerArn() {
     return this.getStringAttribute('sns_caller_arn');
   }
@@ -1469,7 +1469,7 @@ export class CognitoUserPoolRegionalConfigurationAttachmentSmsConfigurationOutpu
   }
 
   // sns_region - computed: true, optional: true, required: false
-  private _snsRegion?: string;
+  private _snsRegion?: string; 
   public get snsRegion() {
     return this.getStringAttribute('sns_region');
   }
@@ -1601,7 +1601,7 @@ export class CognitoUserPoolRegionalConfigurationAttachment extends cdktn.Terraf
   }
 
   // status - computed: true, optional: true, required: false
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -1617,7 +1617,7 @@ export class CognitoUserPoolRegionalConfigurationAttachment extends cdktn.Terraf
   }
 
   // user_pool_id - computed: false, optional: false, required: true
-  private _userPoolId?: string;
+  private _userPoolId?: string; 
   public get userPoolId() {
     return this.getStringAttribute('user_pool_id');
   }
@@ -1630,7 +1630,7 @@ export class CognitoUserPoolRegionalConfigurationAttachment extends cdktn.Terraf
   }
 
   // user_pool_tags - computed: true, optional: true, required: false
-  private _userPoolTags?: { [key: string]: string };
+  private _userPoolTags?: { [key: string]: string }; 
   public get userPoolTags() {
     return this.getStringMapAttribute('user_pool_tags');
   }

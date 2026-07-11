@@ -134,7 +134,7 @@ export class ForecastDatasetGroupTagsOutputReference extends cdktn.ComplexObject
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -150,7 +150,7 @@ export class ForecastDatasetGroupTagsOutputReference extends cdktn.ComplexObject
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -247,7 +247,7 @@ export class ForecastDatasetGroup extends cdktn.TerraformResource {
   // ==========
 
   // dataset_arns - computed: true, optional: true, required: false
-  private _datasetArns?: string[];
+  private _datasetArns?: string[]; 
   public get datasetArns() {
     return this.getListAttribute('dataset_arns');
   }
@@ -268,7 +268,7 @@ export class ForecastDatasetGroup extends cdktn.TerraformResource {
   }
 
   // dataset_group_name - computed: false, optional: false, required: true
-  private _datasetGroupName?: string;
+  private _datasetGroupName?: string; 
   public get datasetGroupName() {
     return this.getStringAttribute('dataset_group_name');
   }
@@ -281,7 +281,7 @@ export class ForecastDatasetGroup extends cdktn.TerraformResource {
   }
 
   // domain - computed: false, optional: false, required: true
-  private _domain?: string;
+  private _domain?: string; 
   public get domain() {
     return this.getStringAttribute('domain');
   }

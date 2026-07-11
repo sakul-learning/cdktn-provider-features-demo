@@ -126,7 +126,7 @@ export class VpclatticeTargetGroupAttachmentTargetOutputReference extends cdktn.
   }
 
   // id - computed: false, optional: false, required: true
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -139,7 +139,7 @@ export class VpclatticeTargetGroupAttachmentTargetOutputReference extends cdktn.
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -250,7 +250,7 @@ export class VpclatticeTargetGroupAttachmentTimeoutsOutputReference extends cdkt
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -266,7 +266,7 @@ export class VpclatticeTargetGroupAttachmentTimeoutsOutputReference extends cdkt
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -344,7 +344,7 @@ export class VpclatticeTargetGroupAttachment extends cdktn.TerraformResource {
   // ==========
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -360,7 +360,7 @@ export class VpclatticeTargetGroupAttachment extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -376,7 +376,7 @@ export class VpclatticeTargetGroupAttachment extends cdktn.TerraformResource {
   }
 
   // target_group_identifier - computed: false, optional: false, required: true
-  private _targetGroupIdentifier?: string;
+  private _targetGroupIdentifier?: string; 
   public get targetGroupIdentifier() {
     return this.getStringAttribute('target_group_identifier');
   }

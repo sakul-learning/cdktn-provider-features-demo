@@ -123,7 +123,7 @@ export class PrometheusWorkspaceConfigurationLimitsPerLabelSetLimitsOutputRefere
   }
 
   // max_series - computed: false, optional: false, required: true
-  private _maxSeries?: number;
+  private _maxSeries?: number; 
   public get maxSeries() {
     return this.getNumberAttribute('max_series');
   }
@@ -255,7 +255,7 @@ export class PrometheusWorkspaceConfigurationLimitsPerLabelSetOutputReference ex
   }
 
   // label_set - computed: false, optional: false, required: true
-  private _labelSet?: { [key: string]: string };
+  private _labelSet?: { [key: string]: string }; 
   public get labelSet() {
     return this.getStringMapAttribute('label_set');
   }
@@ -403,7 +403,7 @@ export class PrometheusWorkspaceConfigurationTimeoutsOutputReference extends cdk
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -419,7 +419,7 @@ export class PrometheusWorkspaceConfigurationTimeoutsOutputReference extends cdk
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -499,7 +499,7 @@ export class PrometheusWorkspaceConfiguration extends cdktn.TerraformResource {
   // ==========
 
   // out_of_order_time_window_in_seconds - computed: true, optional: true, required: false
-  private _outOfOrderTimeWindowInSeconds?: number;
+  private _outOfOrderTimeWindowInSeconds?: number; 
   public get outOfOrderTimeWindowInSeconds() {
     return this.getNumberAttribute('out_of_order_time_window_in_seconds');
   }
@@ -515,7 +515,7 @@ export class PrometheusWorkspaceConfiguration extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -531,7 +531,7 @@ export class PrometheusWorkspaceConfiguration extends cdktn.TerraformResource {
   }
 
   // retention_period_in_days - computed: true, optional: true, required: false
-  private _retentionPeriodInDays?: number;
+  private _retentionPeriodInDays?: number; 
   public get retentionPeriodInDays() {
     return this.getNumberAttribute('retention_period_in_days');
   }
@@ -547,7 +547,7 @@ export class PrometheusWorkspaceConfiguration extends cdktn.TerraformResource {
   }
 
   // rule_query_offset_in_seconds - computed: true, optional: true, required: false
-  private _ruleQueryOffsetInSeconds?: number;
+  private _ruleQueryOffsetInSeconds?: number; 
   public get ruleQueryOffsetInSeconds() {
     return this.getNumberAttribute('rule_query_offset_in_seconds');
   }
@@ -563,7 +563,7 @@ export class PrometheusWorkspaceConfiguration extends cdktn.TerraformResource {
   }
 
   // workspace_id - computed: false, optional: false, required: true
-  private _workspaceId?: string;
+  private _workspaceId?: string; 
   public get workspaceId() {
     return this.getStringAttribute('workspace_id');
   }

@@ -131,7 +131,7 @@ export class InternetGatewayAttachmentTimeoutsOutputReference extends cdktn.Comp
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -147,7 +147,7 @@ export class InternetGatewayAttachmentTimeoutsOutputReference extends cdktn.Comp
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -225,7 +225,7 @@ export class InternetGatewayAttachment extends cdktn.TerraformResource {
   // ==========
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -241,7 +241,7 @@ export class InternetGatewayAttachment extends cdktn.TerraformResource {
   }
 
   // internet_gateway_id - computed: false, optional: false, required: true
-  private _internetGatewayId?: string;
+  private _internetGatewayId?: string; 
   public get internetGatewayId() {
     return this.getStringAttribute('internet_gateway_id');
   }
@@ -254,7 +254,7 @@ export class InternetGatewayAttachment extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -270,7 +270,7 @@ export class InternetGatewayAttachment extends cdktn.TerraformResource {
   }
 
   // vpc_id - computed: false, optional: false, required: true
-  private _vpcId?: string;
+  private _vpcId?: string; 
   public get vpcId() {
     return this.getStringAttribute('vpc_id');
   }

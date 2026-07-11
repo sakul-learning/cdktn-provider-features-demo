@@ -109,7 +109,7 @@ export class SesTenantResourceAssociationsOutputReference extends cdktn.ComplexO
   }
 
   // resource_arn - computed: true, optional: true, required: false
-  private _resourceArn?: string;
+  private _resourceArn?: string; 
   public get resourceArn() {
     return this.getStringAttribute('resource_arn');
   }
@@ -246,7 +246,7 @@ export class SesTenantTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -262,7 +262,7 @@ export class SesTenantTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -400,7 +400,7 @@ export class SesTenant extends cdktn.TerraformResource {
   }
 
   // tenant_name - computed: false, optional: false, required: true
-  private _tenantName?: string;
+  private _tenantName?: string; 
   public get tenantName() {
     return this.getStringAttribute('tenant_name');
   }

@@ -102,7 +102,7 @@ export interface LambdaFunctionConfig extends cdktn.TerraformMetaArguments {
   *   +  The function's [Lambda SnapStart](https://docs.aws.amazon.com/lambda/latest/dg/snapstart-security.html) snapshots.
   *   +  When used with ``SourceKMSKeyArn``, the unzipped version of the .zip deployment package that's used for function invocations. For more information, see [Specifying a customer managed key for Lambda](https://docs.aws.amazon.com/lambda/latest/dg/encrypt-zip-package.html#enable-zip-custom-encryption).
   *   +  The optimized version of the container image that's used for function invocations. Note that this is not the same key that's used to protect your container image in the Amazon Elastic Container Registry (Amazon ECR). For more information, see [Function lifecycle](https://docs.aws.amazon.com/lambda/latest/dg/images-create.html#images-lifecycle).
-  *
+  *   
   *  If you don't provide a customer managed key, Lambda uses an [owned key](https://docs.aws.amazon.com/kms/latest/developerguide/concepts.html#aws-owned-cmk) or an [](https://docs.aws.amazon.com/kms/latest/developerguide/concepts.html#aws-managed-cmk).
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_function#kms_key_arn LambdaFunction#kms_key_arn}
@@ -327,7 +327,7 @@ export class LambdaFunctionCapacityProviderConfigLambdaManagedInstancesCapacityP
   }
 
   // capacity_provider_arn - computed: true, optional: true, required: false
-  private _capacityProviderArn?: string;
+  private _capacityProviderArn?: string; 
   public get capacityProviderArn() {
     return this.getStringAttribute('capacity_provider_arn');
   }
@@ -343,7 +343,7 @@ export class LambdaFunctionCapacityProviderConfigLambdaManagedInstancesCapacityP
   }
 
   // execution_environment_memory_gi_b_per_v_cpu - computed: true, optional: true, required: false
-  private _executionEnvironmentMemoryGiBPerVCpu?: number;
+  private _executionEnvironmentMemoryGiBPerVCpu?: number; 
   public get executionEnvironmentMemoryGiBPerVCpu() {
     return this.getNumberAttribute('execution_environment_memory_gi_b_per_v_cpu');
   }
@@ -359,7 +359,7 @@ export class LambdaFunctionCapacityProviderConfigLambdaManagedInstancesCapacityP
   }
 
   // per_execution_environment_max_concurrency - computed: true, optional: true, required: false
-  private _perExecutionEnvironmentMaxConcurrency?: number;
+  private _perExecutionEnvironmentMaxConcurrency?: number; 
   public get perExecutionEnvironmentMaxConcurrency() {
     return this.getNumberAttribute('per_execution_environment_max_concurrency');
   }
@@ -667,7 +667,7 @@ export class LambdaFunctionCodeOutputReference extends cdktn.ComplexObject {
   }
 
   // image_uri - computed: true, optional: true, required: false
-  private _imageUri?: string;
+  private _imageUri?: string; 
   public get imageUri() {
     return this.getStringAttribute('image_uri');
   }
@@ -683,7 +683,7 @@ export class LambdaFunctionCodeOutputReference extends cdktn.ComplexObject {
   }
 
   // s3_bucket - computed: true, optional: true, required: false
-  private _s3Bucket?: string;
+  private _s3Bucket?: string; 
   public get s3Bucket() {
     return this.getStringAttribute('s3_bucket');
   }
@@ -699,7 +699,7 @@ export class LambdaFunctionCodeOutputReference extends cdktn.ComplexObject {
   }
 
   // s3_key - computed: true, optional: true, required: false
-  private _s3Key?: string;
+  private _s3Key?: string; 
   public get s3Key() {
     return this.getStringAttribute('s3_key');
   }
@@ -715,7 +715,7 @@ export class LambdaFunctionCodeOutputReference extends cdktn.ComplexObject {
   }
 
   // s3_object_storage_mode - computed: true, optional: true, required: false
-  private _s3ObjectStorageMode?: string;
+  private _s3ObjectStorageMode?: string; 
   public get s3ObjectStorageMode() {
     return this.getStringAttribute('s3_object_storage_mode');
   }
@@ -731,7 +731,7 @@ export class LambdaFunctionCodeOutputReference extends cdktn.ComplexObject {
   }
 
   // s3_object_version - computed: true, optional: true, required: false
-  private _s3ObjectVersion?: string;
+  private _s3ObjectVersion?: string; 
   public get s3ObjectVersion() {
     return this.getStringAttribute('s3_object_version');
   }
@@ -747,7 +747,7 @@ export class LambdaFunctionCodeOutputReference extends cdktn.ComplexObject {
   }
 
   // source_kms_key_arn - computed: true, optional: true, required: false
-  private _sourceKmsKeyArn?: string;
+  private _sourceKmsKeyArn?: string; 
   public get sourceKmsKeyArn() {
     return this.getStringAttribute('source_kms_key_arn');
   }
@@ -763,7 +763,7 @@ export class LambdaFunctionCodeOutputReference extends cdktn.ComplexObject {
   }
 
   // zip_file - computed: true, optional: true, required: false
-  private _zipFile?: string;
+  private _zipFile?: string; 
   public get zipFile() {
     return this.getStringAttribute('zip_file');
   }
@@ -859,7 +859,7 @@ export class LambdaFunctionDeadLetterConfigOutputReference extends cdktn.Complex
   }
 
   // target_arn - computed: true, optional: true, required: false
-  private _targetArn?: string;
+  private _targetArn?: string; 
   public get targetArn() {
     return this.getStringAttribute('target_arn');
   }
@@ -974,7 +974,7 @@ export class LambdaFunctionDurableConfigOutputReference extends cdktn.ComplexObj
   }
 
   // execution_timeout - computed: true, optional: true, required: false
-  private _executionTimeout?: number;
+  private _executionTimeout?: number; 
   public get executionTimeout() {
     return this.getNumberAttribute('execution_timeout');
   }
@@ -990,7 +990,7 @@ export class LambdaFunctionDurableConfigOutputReference extends cdktn.ComplexObj
   }
 
   // retention_period_in_days - computed: true, optional: true, required: false
-  private _retentionPeriodInDays?: number;
+  private _retentionPeriodInDays?: number; 
   public get retentionPeriodInDays() {
     return this.getNumberAttribute('retention_period_in_days');
   }
@@ -1087,7 +1087,7 @@ export class LambdaFunctionEnvironmentOutputReference extends cdktn.ComplexObjec
   }
 
   // variables - computed: true, optional: true, required: false
-  private _variables?: { [key: string]: string };
+  private _variables?: { [key: string]: string }; 
   public get variables() {
     return this.getStringMapAttribute('variables');
   }
@@ -1183,7 +1183,7 @@ export class LambdaFunctionEphemeralStorageOutputReference extends cdktn.Complex
   }
 
   // size - computed: true, optional: true, required: false
-  private _size?: number;
+  private _size?: number; 
   public get size() {
     return this.getNumberAttribute('size');
   }
@@ -1300,7 +1300,7 @@ export class LambdaFunctionFileSystemConfigsOutputReference extends cdktn.Comple
   }
 
   // arn - computed: true, optional: true, required: false
-  private _arn?: string;
+  private _arn?: string; 
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -1316,7 +1316,7 @@ export class LambdaFunctionFileSystemConfigsOutputReference extends cdktn.Comple
   }
 
   // local_mount_path - computed: true, optional: true, required: false
-  private _localMountPath?: string;
+  private _localMountPath?: string; 
   public get localMountPath() {
     return this.getStringAttribute('local_mount_path');
   }
@@ -1451,7 +1451,7 @@ export class LambdaFunctionFunctionScalingConfigOutputReference extends cdktn.Co
   }
 
   // max_execution_environments - computed: true, optional: true, required: false
-  private _maxExecutionEnvironments?: number;
+  private _maxExecutionEnvironments?: number; 
   public get maxExecutionEnvironments() {
     return this.getNumberAttribute('max_execution_environments');
   }
@@ -1467,7 +1467,7 @@ export class LambdaFunctionFunctionScalingConfigOutputReference extends cdktn.Co
   }
 
   // min_execution_environments - computed: true, optional: true, required: false
-  private _minExecutionEnvironments?: number;
+  private _minExecutionEnvironments?: number; 
   public get minExecutionEnvironments() {
     return this.getNumberAttribute('min_execution_environments');
   }
@@ -1601,7 +1601,7 @@ export class LambdaFunctionImageConfigOutputReference extends cdktn.ComplexObjec
   }
 
   // command - computed: true, optional: true, required: false
-  private _command?: string[];
+  private _command?: string[]; 
   public get command() {
     return this.getListAttribute('command');
   }
@@ -1617,7 +1617,7 @@ export class LambdaFunctionImageConfigOutputReference extends cdktn.ComplexObjec
   }
 
   // entry_point - computed: true, optional: true, required: false
-  private _entryPoint?: string[];
+  private _entryPoint?: string[]; 
   public get entryPoint() {
     return this.getListAttribute('entry_point');
   }
@@ -1633,7 +1633,7 @@ export class LambdaFunctionImageConfigOutputReference extends cdktn.ComplexObjec
   }
 
   // working_directory - computed: true, optional: true, required: false
-  private _workingDirectory?: string;
+  private _workingDirectory?: string; 
   public get workingDirectory() {
     return this.getStringAttribute('working_directory');
   }
@@ -1786,7 +1786,7 @@ export class LambdaFunctionLoggingConfigOutputReference extends cdktn.ComplexObj
   }
 
   // application_log_level - computed: true, optional: true, required: false
-  private _applicationLogLevel?: string;
+  private _applicationLogLevel?: string; 
   public get applicationLogLevel() {
     return this.getStringAttribute('application_log_level');
   }
@@ -1802,7 +1802,7 @@ export class LambdaFunctionLoggingConfigOutputReference extends cdktn.ComplexObj
   }
 
   // log_format - computed: true, optional: true, required: false
-  private _logFormat?: string;
+  private _logFormat?: string; 
   public get logFormat() {
     return this.getStringAttribute('log_format');
   }
@@ -1818,7 +1818,7 @@ export class LambdaFunctionLoggingConfigOutputReference extends cdktn.ComplexObj
   }
 
   // log_group - computed: true, optional: true, required: false
-  private _logGroup?: string;
+  private _logGroup?: string; 
   public get logGroup() {
     return this.getStringAttribute('log_group');
   }
@@ -1834,7 +1834,7 @@ export class LambdaFunctionLoggingConfigOutputReference extends cdktn.ComplexObj
   }
 
   // system_log_level - computed: true, optional: true, required: false
-  private _systemLogLevel?: string;
+  private _systemLogLevel?: string; 
   public get systemLogLevel() {
     return this.getStringAttribute('system_log_level');
   }
@@ -1862,7 +1862,7 @@ export interface LambdaFunctionRuntimeManagementConfig {
   *   +  *Auto (default)* - Automatically update to the most recent and secure runtime version using a [Two-phase runtime version rollout](https://docs.aws.amazon.com/lambda/latest/dg/runtimes-update.html#runtime-management-two-phase). This is the best choice for most customers to ensure they always benefit from runtime updates.
   *   +  *FunctionUpdate* - LAM updates the runtime of you function to the most recent and secure runtime version when you update your function. This approach synchronizes runtime updates with function deployments, giving you control over when runtime updates are applied and allowing you to detect and mitigate rare runtime update incompatibilities early. When using this setting, you need to regularly update your functions to keep their runtime up-to-date.
   *   +  *Manual* - You specify a runtime version in your function configuration. The function will use this runtime version indefinitely. In the rare case where a new runtime version is incompatible with an existing function, this allows you to roll back your function to an earlier runtime version. For more information, see [Roll back a runtime version](https://docs.aws.amazon.com/lambda/latest/dg/runtimes-update.html#runtime-management-rollback).
-  *
+  *   
   *  *Valid Values*: ``Auto`` | ``FunctionUpdate`` | ``Manual``
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_function#update_runtime_on LambdaFunction#update_runtime_on}
@@ -1955,7 +1955,7 @@ export class LambdaFunctionRuntimeManagementConfigOutputReference extends cdktn.
   }
 
   // runtime_version_arn - computed: true, optional: true, required: false
-  private _runtimeVersionArn?: string;
+  private _runtimeVersionArn?: string; 
   public get runtimeVersionArn() {
     return this.getStringAttribute('runtime_version_arn');
   }
@@ -1971,7 +1971,7 @@ export class LambdaFunctionRuntimeManagementConfigOutputReference extends cdktn.
   }
 
   // update_runtime_on - computed: true, optional: true, required: false
-  private _updateRuntimeOn?: string;
+  private _updateRuntimeOn?: string; 
   public get updateRuntimeOn() {
     return this.getStringAttribute('update_runtime_on');
   }
@@ -2067,7 +2067,7 @@ export class LambdaFunctionSnapStartOutputReference extends cdktn.ComplexObject 
   }
 
   // apply_on - computed: true, optional: true, required: false
-  private _applyOn?: string;
+  private _applyOn?: string; 
   public get applyOn() {
     return this.getStringAttribute('apply_on');
   }
@@ -2243,7 +2243,7 @@ export class LambdaFunctionTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -2259,7 +2259,7 @@ export class LambdaFunctionTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2375,7 +2375,7 @@ export class LambdaFunctionTenancyConfigOutputReference extends cdktn.ComplexObj
   }
 
   // tenant_isolation_mode - computed: true, optional: true, required: false
-  private _tenantIsolationMode?: string;
+  private _tenantIsolationMode?: string; 
   public get tenantIsolationMode() {
     return this.getStringAttribute('tenant_isolation_mode');
   }
@@ -2471,7 +2471,7 @@ export class LambdaFunctionTracingConfigOutputReference extends cdktn.ComplexObj
   }
 
   // mode - computed: true, optional: true, required: false
-  private _mode?: string;
+  private _mode?: string; 
   public get mode() {
     return this.getStringAttribute('mode');
   }
@@ -2605,7 +2605,7 @@ export class LambdaFunctionVpcConfigOutputReference extends cdktn.ComplexObject 
   }
 
   // ipv_6_allowed_for_dual_stack - computed: true, optional: true, required: false
-  private _ipv6AllowedForDualStack?: boolean | cdktn.IResolvable;
+  private _ipv6AllowedForDualStack?: boolean | cdktn.IResolvable; 
   public get ipv6AllowedForDualStack() {
     return this.getBooleanAttribute('ipv_6_allowed_for_dual_stack');
   }
@@ -2621,7 +2621,7 @@ export class LambdaFunctionVpcConfigOutputReference extends cdktn.ComplexObject 
   }
 
   // security_group_ids - computed: true, optional: true, required: false
-  private _securityGroupIds?: string[];
+  private _securityGroupIds?: string[]; 
   public get securityGroupIds() {
     return this.getListAttribute('security_group_ids');
   }
@@ -2637,7 +2637,7 @@ export class LambdaFunctionVpcConfigOutputReference extends cdktn.ComplexObject 
   }
 
   // subnet_ids - computed: true, optional: true, required: false
-  private _subnetIds?: string[];
+  private _subnetIds?: string[]; 
   public get subnetIds() {
     return this.getListAttribute('subnet_ids');
   }
@@ -2741,7 +2741,7 @@ export class LambdaFunction extends cdktn.TerraformResource {
   // ==========
 
   // architectures - computed: true, optional: true, required: false
-  private _architectures?: string[];
+  private _architectures?: string[]; 
   public get architectures() {
     return this.getListAttribute('architectures');
   }
@@ -2791,7 +2791,7 @@ export class LambdaFunction extends cdktn.TerraformResource {
   }
 
   // code_signing_config_arn - computed: true, optional: true, required: false
-  private _codeSigningConfigArn?: string;
+  private _codeSigningConfigArn?: string; 
   public get codeSigningConfigArn() {
     return this.getStringAttribute('code_signing_config_arn');
   }
@@ -2823,7 +2823,7 @@ export class LambdaFunction extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -2903,7 +2903,7 @@ export class LambdaFunction extends cdktn.TerraformResource {
   }
 
   // function_name - computed: true, optional: true, required: false
-  private _functionName?: string;
+  private _functionName?: string; 
   public get functionName() {
     return this.getStringAttribute('function_name');
   }
@@ -2935,7 +2935,7 @@ export class LambdaFunction extends cdktn.TerraformResource {
   }
 
   // handler - computed: true, optional: true, required: false
-  private _handler?: string;
+  private _handler?: string; 
   public get handler() {
     return this.getStringAttribute('handler');
   }
@@ -2972,7 +2972,7 @@ export class LambdaFunction extends cdktn.TerraformResource {
   }
 
   // kms_key_arn - computed: true, optional: true, required: false
-  private _kmsKeyArn?: string;
+  private _kmsKeyArn?: string; 
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -2988,7 +2988,7 @@ export class LambdaFunction extends cdktn.TerraformResource {
   }
 
   // layers - computed: true, optional: true, required: false
-  private _layers?: string[];
+  private _layers?: string[]; 
   public get layers() {
     return this.getListAttribute('layers');
   }
@@ -3020,7 +3020,7 @@ export class LambdaFunction extends cdktn.TerraformResource {
   }
 
   // memory_size - computed: true, optional: true, required: false
-  private _memorySize?: number;
+  private _memorySize?: number; 
   public get memorySize() {
     return this.getNumberAttribute('memory_size');
   }
@@ -3036,7 +3036,7 @@ export class LambdaFunction extends cdktn.TerraformResource {
   }
 
   // package_type - computed: true, optional: true, required: false
-  private _packageType?: string;
+  private _packageType?: string; 
   public get packageType() {
     return this.getStringAttribute('package_type');
   }
@@ -3052,7 +3052,7 @@ export class LambdaFunction extends cdktn.TerraformResource {
   }
 
   // publish_to_latest_published - computed: true, optional: true, required: false
-  private _publishToLatestPublished?: boolean | cdktn.IResolvable;
+  private _publishToLatestPublished?: boolean | cdktn.IResolvable; 
   public get publishToLatestPublished() {
     return this.getBooleanAttribute('publish_to_latest_published');
   }
@@ -3068,7 +3068,7 @@ export class LambdaFunction extends cdktn.TerraformResource {
   }
 
   // recursive_loop - computed: true, optional: true, required: false
-  private _recursiveLoop?: string;
+  private _recursiveLoop?: string; 
   public get recursiveLoop() {
     return this.getStringAttribute('recursive_loop');
   }
@@ -3084,7 +3084,7 @@ export class LambdaFunction extends cdktn.TerraformResource {
   }
 
   // reserved_concurrent_executions - computed: true, optional: true, required: false
-  private _reservedConcurrentExecutions?: number;
+  private _reservedConcurrentExecutions?: number; 
   public get reservedConcurrentExecutions() {
     return this.getNumberAttribute('reserved_concurrent_executions');
   }
@@ -3100,7 +3100,7 @@ export class LambdaFunction extends cdktn.TerraformResource {
   }
 
   // role - computed: false, optional: false, required: true
-  private _role?: string;
+  private _role?: string; 
   public get role() {
     return this.getStringAttribute('role');
   }
@@ -3113,7 +3113,7 @@ export class LambdaFunction extends cdktn.TerraformResource {
   }
 
   // runtime - computed: true, optional: true, required: false
-  private _runtime?: string;
+  private _runtime?: string; 
   public get runtime() {
     return this.getStringAttribute('runtime');
   }
@@ -3199,7 +3199,7 @@ export class LambdaFunction extends cdktn.TerraformResource {
   }
 
   // timeout - computed: true, optional: true, required: false
-  private _timeout?: number;
+  private _timeout?: number; 
   public get timeout() {
     return this.getNumberAttribute('timeout');
   }

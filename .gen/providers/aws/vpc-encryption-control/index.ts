@@ -752,7 +752,7 @@ export class VpcEncryptionControlTimeoutsOutputReference extends cdktn.ComplexOb
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -768,7 +768,7 @@ export class VpcEncryptionControlTimeoutsOutputReference extends cdktn.ComplexOb
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -784,7 +784,7 @@ export class VpcEncryptionControlTimeoutsOutputReference extends cdktn.ComplexOb
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -870,7 +870,7 @@ export class VpcEncryptionControl extends cdktn.TerraformResource {
   // ==========
 
   // egress_only_internet_gateway_exclusion - computed: true, optional: true, required: false
-  private _egressOnlyInternetGatewayExclusion?: string;
+  private _egressOnlyInternetGatewayExclusion?: string; 
   public get egressOnlyInternetGatewayExclusion() {
     return this.getStringAttribute('egress_only_internet_gateway_exclusion');
   }
@@ -886,7 +886,7 @@ export class VpcEncryptionControl extends cdktn.TerraformResource {
   }
 
   // elastic_file_system_exclusion - computed: true, optional: true, required: false
-  private _elasticFileSystemExclusion?: string;
+  private _elasticFileSystemExclusion?: string; 
   public get elasticFileSystemExclusion() {
     return this.getStringAttribute('elastic_file_system_exclusion');
   }
@@ -907,7 +907,7 @@ export class VpcEncryptionControl extends cdktn.TerraformResource {
   }
 
   // internet_gateway_exclusion - computed: true, optional: true, required: false
-  private _internetGatewayExclusion?: string;
+  private _internetGatewayExclusion?: string; 
   public get internetGatewayExclusion() {
     return this.getStringAttribute('internet_gateway_exclusion');
   }
@@ -923,7 +923,7 @@ export class VpcEncryptionControl extends cdktn.TerraformResource {
   }
 
   // lambda_exclusion - computed: true, optional: true, required: false
-  private _lambdaExclusion?: string;
+  private _lambdaExclusion?: string; 
   public get lambdaExclusion() {
     return this.getStringAttribute('lambda_exclusion');
   }
@@ -939,7 +939,7 @@ export class VpcEncryptionControl extends cdktn.TerraformResource {
   }
 
   // mode - computed: false, optional: false, required: true
-  private _mode?: string;
+  private _mode?: string; 
   public get mode() {
     return this.getStringAttribute('mode');
   }
@@ -952,7 +952,7 @@ export class VpcEncryptionControl extends cdktn.TerraformResource {
   }
 
   // nat_gateway_exclusion - computed: true, optional: true, required: false
-  private _natGatewayExclusion?: string;
+  private _natGatewayExclusion?: string; 
   public get natGatewayExclusion() {
     return this.getStringAttribute('nat_gateway_exclusion');
   }
@@ -968,7 +968,7 @@ export class VpcEncryptionControl extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1000,7 +1000,7 @@ export class VpcEncryptionControl extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -1022,7 +1022,7 @@ export class VpcEncryptionControl extends cdktn.TerraformResource {
   }
 
   // virtual_private_gateway_exclusion - computed: true, optional: true, required: false
-  private _virtualPrivateGatewayExclusion?: string;
+  private _virtualPrivateGatewayExclusion?: string; 
   public get virtualPrivateGatewayExclusion() {
     return this.getStringAttribute('virtual_private_gateway_exclusion');
   }
@@ -1038,7 +1038,7 @@ export class VpcEncryptionControl extends cdktn.TerraformResource {
   }
 
   // vpc_id - computed: false, optional: false, required: true
-  private _vpcId?: string;
+  private _vpcId?: string; 
   public get vpcId() {
     return this.getStringAttribute('vpc_id');
   }
@@ -1051,7 +1051,7 @@ export class VpcEncryptionControl extends cdktn.TerraformResource {
   }
 
   // vpc_lattice_exclusion - computed: true, optional: true, required: false
-  private _vpcLatticeExclusion?: string;
+  private _vpcLatticeExclusion?: string; 
   public get vpcLatticeExclusion() {
     return this.getStringAttribute('vpc_lattice_exclusion');
   }
@@ -1067,7 +1067,7 @@ export class VpcEncryptionControl extends cdktn.TerraformResource {
   }
 
   // vpc_peering_exclusion - computed: true, optional: true, required: false
-  private _vpcPeeringExclusion?: string;
+  private _vpcPeeringExclusion?: string; 
   public get vpcPeeringExclusion() {
     return this.getStringAttribute('vpc_peering_exclusion');
   }

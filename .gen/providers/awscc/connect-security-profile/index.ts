@@ -180,7 +180,7 @@ export class ConnectSecurityProfileAllowedAccessControlTagsOutputReference exten
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -196,7 +196,7 @@ export class ConnectSecurityProfileAllowedAccessControlTagsOutputReference exten
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -333,7 +333,7 @@ export class ConnectSecurityProfileAllowedFlowModulesOutputReference extends cdk
   }
 
   // flow_module_id - computed: true, optional: true, required: false
-  private _flowModuleId?: string;
+  private _flowModuleId?: string; 
   public get flowModuleId() {
     return this.getStringAttribute('flow_module_id');
   }
@@ -349,7 +349,7 @@ export class ConnectSecurityProfileAllowedFlowModulesOutputReference extends cdk
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -505,7 +505,7 @@ export class ConnectSecurityProfileApplicationsOutputReference extends cdktn.Com
   }
 
   // application_permissions - computed: true, optional: true, required: false
-  private _applicationPermissions?: string[];
+  private _applicationPermissions?: string[]; 
   public get applicationPermissions() {
     return cdktn.Fn.tolist(this.getListAttribute('application_permissions'));
   }
@@ -521,7 +521,7 @@ export class ConnectSecurityProfileApplicationsOutputReference extends cdktn.Com
   }
 
   // namespace - computed: true, optional: true, required: false
-  private _namespace?: string;
+  private _namespace?: string; 
   public get namespace() {
     return this.getStringAttribute('namespace');
   }
@@ -537,7 +537,7 @@ export class ConnectSecurityProfileApplicationsOutputReference extends cdktn.Com
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -693,7 +693,7 @@ export class ConnectSecurityProfileGranularAccessControlConfigurationDataTableAc
   }
 
   // access_type - computed: true, optional: true, required: false
-  private _accessType?: string;
+  private _accessType?: string; 
   public get accessType() {
     return this.getStringAttribute('access_type');
   }
@@ -709,7 +709,7 @@ export class ConnectSecurityProfileGranularAccessControlConfigurationDataTableAc
   }
 
   // attribute_name - computed: true, optional: true, required: false
-  private _attributeName?: string;
+  private _attributeName?: string; 
   public get attributeName() {
     return this.getStringAttribute('attribute_name');
   }
@@ -725,7 +725,7 @@ export class ConnectSecurityProfileGranularAccessControlConfigurationDataTableAc
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -1150,7 +1150,7 @@ export class ConnectSecurityProfileTagsOutputReference extends cdktn.ComplexObje
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1166,7 +1166,7 @@ export class ConnectSecurityProfileTagsOutputReference extends cdktn.ComplexObje
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1271,7 +1271,7 @@ export class ConnectSecurityProfile extends cdktn.TerraformResource {
   // ==========
 
   // allowed_access_control_hierarchy_group_id - computed: true, optional: true, required: false
-  private _allowedAccessControlHierarchyGroupId?: string;
+  private _allowedAccessControlHierarchyGroupId?: string; 
   public get allowedAccessControlHierarchyGroupId() {
     return this.getStringAttribute('allowed_access_control_hierarchy_group_id');
   }
@@ -1335,7 +1335,7 @@ export class ConnectSecurityProfile extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1367,7 +1367,7 @@ export class ConnectSecurityProfile extends cdktn.TerraformResource {
   }
 
   // hierarchy_restricted_resources - computed: true, optional: true, required: false
-  private _hierarchyRestrictedResources?: string[];
+  private _hierarchyRestrictedResources?: string[]; 
   public get hierarchyRestrictedResources() {
     return cdktn.Fn.tolist(this.getListAttribute('hierarchy_restricted_resources'));
   }
@@ -1388,7 +1388,7 @@ export class ConnectSecurityProfile extends cdktn.TerraformResource {
   }
 
   // instance_arn - computed: false, optional: false, required: true
-  private _instanceArn?: string;
+  private _instanceArn?: string; 
   public get instanceArn() {
     return this.getStringAttribute('instance_arn');
   }
@@ -1411,7 +1411,7 @@ export class ConnectSecurityProfile extends cdktn.TerraformResource {
   }
 
   // permissions - computed: true, optional: true, required: false
-  private _permissions?: string[];
+  private _permissions?: string[]; 
   public get permissions() {
     return cdktn.Fn.tolist(this.getListAttribute('permissions'));
   }
@@ -1432,7 +1432,7 @@ export class ConnectSecurityProfile extends cdktn.TerraformResource {
   }
 
   // security_profile_name - computed: false, optional: false, required: true
-  private _securityProfileName?: string;
+  private _securityProfileName?: string; 
   public get securityProfileName() {
     return this.getStringAttribute('security_profile_name');
   }
@@ -1445,7 +1445,7 @@ export class ConnectSecurityProfile extends cdktn.TerraformResource {
   }
 
   // tag_restricted_resources - computed: true, optional: true, required: false
-  private _tagRestrictedResources?: string[];
+  private _tagRestrictedResources?: string[]; 
   public get tagRestrictedResources() {
     return cdktn.Fn.tolist(this.getListAttribute('tag_restricted_resources'));
   }

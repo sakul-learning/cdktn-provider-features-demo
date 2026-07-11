@@ -38,7 +38,7 @@ export interface QuicksightAnalysisConfig extends cdktn.TerraformMetaArguments {
   *             analysis. You can use the <code>Permissions</code> structure to grant permissions by
   *             providing a list of AWS Identity and Access Management (IAM) action information for each
   *             principal listed by Amazon Resource Name (ARN). </p>
-  *
+  * 
   *         <p>To specify no permissions, omit <code>Permissions</code>.</p>
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_analysis#permissions QuicksightAnalysis#permissions}
@@ -164,7 +164,7 @@ export class QuicksightAnalysisErrorsOutputReference extends cdktn.ComplexObject
   }
 
   // message - computed: true, optional: true, required: false
-  private _message?: string;
+  private _message?: string; 
   public get message() {
     return this.getStringAttribute('message');
   }
@@ -180,7 +180,7 @@ export class QuicksightAnalysisErrorsOutputReference extends cdktn.ComplexObject
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -317,7 +317,7 @@ export class QuicksightAnalysisParametersDateTimeParametersOutputReference exten
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -333,7 +333,7 @@ export class QuicksightAnalysisParametersDateTimeParametersOutputReference exten
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -470,7 +470,7 @@ export class QuicksightAnalysisParametersDecimalParametersOutputReference extend
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -486,7 +486,7 @@ export class QuicksightAnalysisParametersDecimalParametersOutputReference extend
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: number[];
+  private _values?: number[]; 
   public get values() {
     return this.getNumberListAttribute('values');
   }
@@ -623,7 +623,7 @@ export class QuicksightAnalysisParametersIntegerParametersOutputReference extend
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -639,7 +639,7 @@ export class QuicksightAnalysisParametersIntegerParametersOutputReference extend
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: number[];
+  private _values?: number[]; 
   public get values() {
     return this.getNumberListAttribute('values');
   }
@@ -776,7 +776,7 @@ export class QuicksightAnalysisParametersStringParametersOutputReference extends
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -792,7 +792,7 @@ export class QuicksightAnalysisParametersStringParametersOutputReference extends
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -1144,7 +1144,7 @@ export class QuicksightAnalysisPermissionsOutputReference extends cdktn.ComplexO
   }
 
   // actions - computed: true, optional: true, required: false
-  private _actions?: string[];
+  private _actions?: string[]; 
   public get actions() {
     return this.getListAttribute('actions');
   }
@@ -1160,7 +1160,7 @@ export class QuicksightAnalysisPermissionsOutputReference extends cdktn.ComplexO
   }
 
   // principal - computed: true, optional: true, required: false
-  private _principal?: string;
+  private _principal?: string; 
   public get principal() {
     return this.getStringAttribute('principal');
   }
@@ -1377,7 +1377,7 @@ export class QuicksightAnalysisSourceEntitySourceTemplateDataSetReferencesOutput
   }
 
   // data_set_arn - computed: true, optional: true, required: false
-  private _dataSetArn?: string;
+  private _dataSetArn?: string; 
   public get dataSetArn() {
     return this.getStringAttribute('data_set_arn');
   }
@@ -1393,7 +1393,7 @@ export class QuicksightAnalysisSourceEntitySourceTemplateDataSetReferencesOutput
   }
 
   // data_set_placeholder - computed: true, optional: true, required: false
-  private _dataSetPlaceholder?: string;
+  private _dataSetPlaceholder?: string; 
   public get dataSetPlaceholder() {
     return this.getStringAttribute('data_set_placeholder');
   }
@@ -1528,7 +1528,7 @@ export class QuicksightAnalysisSourceEntitySourceTemplateOutputReference extends
   }
 
   // arn - computed: true, optional: true, required: false
-  private _arn?: string;
+  private _arn?: string; 
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -1757,7 +1757,7 @@ export class QuicksightAnalysisTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1773,7 +1773,7 @@ export class QuicksightAnalysisTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1875,7 +1875,7 @@ export class QuicksightAnalysis extends cdktn.TerraformResource {
   // ==========
 
   // analysis_id - computed: false, optional: false, required: true
-  private _analysisId?: string;
+  private _analysisId?: string; 
   public get analysisId() {
     return this.getStringAttribute('analysis_id');
   }
@@ -1893,7 +1893,7 @@ export class QuicksightAnalysis extends cdktn.TerraformResource {
   }
 
   // aws_account_id - computed: false, optional: false, required: true
-  private _awsAccountId?: string;
+  private _awsAccountId?: string; 
   public get awsAccountId() {
     return this.getStringAttribute('aws_account_id');
   }
@@ -1942,7 +1942,7 @@ export class QuicksightAnalysis extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2030,7 +2030,7 @@ export class QuicksightAnalysis extends cdktn.TerraformResource {
   }
 
   // theme_arn - computed: true, optional: true, required: false
-  private _themeArn?: string;
+  private _themeArn?: string; 
   public get themeArn() {
     return this.getStringAttribute('theme_arn');
   }

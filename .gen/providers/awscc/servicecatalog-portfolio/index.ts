@@ -126,7 +126,7 @@ export class ServicecatalogPortfolioTagsOutputReference extends cdktn.ComplexObj
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -142,7 +142,7 @@ export class ServicecatalogPortfolioTagsOutputReference extends cdktn.ComplexObj
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -240,7 +240,7 @@ export class ServicecatalogPortfolio extends cdktn.TerraformResource {
   // ==========
 
   // accept_language - computed: true, optional: true, required: false
-  private _acceptLanguage?: string;
+  private _acceptLanguage?: string; 
   public get acceptLanguage() {
     return this.getStringAttribute('accept_language');
   }
@@ -256,7 +256,7 @@ export class ServicecatalogPortfolio extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -272,7 +272,7 @@ export class ServicecatalogPortfolio extends cdktn.TerraformResource {
   }
 
   // display_name - computed: false, optional: false, required: true
-  private _displayName?: string;
+  private _displayName?: string; 
   public get displayName() {
     return this.getStringAttribute('display_name');
   }
@@ -300,7 +300,7 @@ export class ServicecatalogPortfolio extends cdktn.TerraformResource {
   }
 
   // provider_name - computed: false, optional: false, required: true
-  private _providerName?: string;
+  private _providerName?: string; 
   public get providerName() {
     return this.getStringAttribute('provider_name');
   }

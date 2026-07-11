@@ -80,7 +80,7 @@ export class ServicecatalogappregistryAttributeGroupAssociation extends cdktn.Te
   // ==========
 
   // application - computed: false, optional: false, required: true
-  private _application?: string;
+  private _application?: string; 
   public get application() {
     return this.getStringAttribute('application');
   }
@@ -98,7 +98,7 @@ export class ServicecatalogappregistryAttributeGroupAssociation extends cdktn.Te
   }
 
   // attribute_group - computed: false, optional: false, required: true
-  private _attributeGroup?: string;
+  private _attributeGroup?: string; 
   public get attributeGroup() {
     return this.getStringAttribute('attribute_group');
   }

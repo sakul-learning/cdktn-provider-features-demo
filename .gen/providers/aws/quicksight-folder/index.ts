@@ -159,7 +159,7 @@ export class QuicksightFolderPermissionsOutputReference extends cdktn.ComplexObj
   }
 
   // actions - computed: false, optional: false, required: true
-  private _actions?: string[];
+  private _actions?: string[]; 
   public get actions() {
     return cdktn.Fn.tolist(this.getListAttribute('actions'));
   }
@@ -172,7 +172,7 @@ export class QuicksightFolderPermissionsOutputReference extends cdktn.ComplexObj
   }
 
   // principal - computed: false, optional: false, required: true
-  private _principal?: string;
+  private _principal?: string; 
   public get principal() {
     return this.getStringAttribute('principal');
   }
@@ -334,7 +334,7 @@ export class QuicksightFolderTimeoutsOutputReference extends cdktn.ComplexObject
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -350,7 +350,7 @@ export class QuicksightFolderTimeoutsOutputReference extends cdktn.ComplexObject
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -366,7 +366,7 @@ export class QuicksightFolderTimeoutsOutputReference extends cdktn.ComplexObject
   }
 
   // read - computed: false, optional: true, required: false
-  private _read?: string;
+  private _read?: string; 
   public get read() {
     return this.getStringAttribute('read');
   }
@@ -382,7 +382,7 @@ export class QuicksightFolderTimeoutsOutputReference extends cdktn.ComplexObject
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -471,7 +471,7 @@ export class QuicksightFolder extends cdktn.TerraformResource {
   }
 
   // aws_account_id - computed: true, optional: true, required: false
-  private _awsAccountId?: string;
+  private _awsAccountId?: string; 
   public get awsAccountId() {
     return this.getStringAttribute('aws_account_id');
   }
@@ -492,7 +492,7 @@ export class QuicksightFolder extends cdktn.TerraformResource {
   }
 
   // folder_id - computed: false, optional: false, required: true
-  private _folderId?: string;
+  private _folderId?: string; 
   public get folderId() {
     return this.getStringAttribute('folder_id');
   }
@@ -510,7 +510,7 @@ export class QuicksightFolder extends cdktn.TerraformResource {
   }
 
   // folder_type - computed: false, optional: true, required: false
-  private _folderType?: string;
+  private _folderType?: string; 
   public get folderType() {
     return this.getStringAttribute('folder_type');
   }
@@ -526,7 +526,7 @@ export class QuicksightFolder extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -547,7 +547,7 @@ export class QuicksightFolder extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -563,7 +563,7 @@ export class QuicksightFolder extends cdktn.TerraformResource {
   }
 
   // parent_folder_arn - computed: false, optional: true, required: false
-  private _parentFolderArn?: string;
+  private _parentFolderArn?: string; 
   public get parentFolderArn() {
     return this.getStringAttribute('parent_folder_arn');
   }
@@ -579,7 +579,7 @@ export class QuicksightFolder extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -595,7 +595,7 @@ export class QuicksightFolder extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -611,7 +611,7 @@ export class QuicksightFolder extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

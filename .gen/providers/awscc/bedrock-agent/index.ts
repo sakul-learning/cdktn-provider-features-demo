@@ -228,7 +228,7 @@ export class BedrockAgentActionGroupsActionGroupExecutorOutputReference extends 
   }
 
   // custom_control - computed: true, optional: true, required: false
-  private _customControl?: string;
+  private _customControl?: string; 
   public get customControl() {
     return this.getStringAttribute('custom_control');
   }
@@ -244,7 +244,7 @@ export class BedrockAgentActionGroupsActionGroupExecutorOutputReference extends 
   }
 
   // lambda - computed: true, optional: true, required: false
-  private _lambda?: string;
+  private _lambda?: string; 
   public get lambda() {
     return this.getStringAttribute('lambda');
   }
@@ -359,7 +359,7 @@ export class BedrockAgentActionGroupsApiSchemaS3OutputReference extends cdktn.Co
   }
 
   // s3_bucket_name - computed: true, optional: true, required: false
-  private _s3BucketName?: string;
+  private _s3BucketName?: string; 
   public get s3BucketName() {
     return this.getStringAttribute('s3_bucket_name');
   }
@@ -375,7 +375,7 @@ export class BedrockAgentActionGroupsApiSchemaS3OutputReference extends cdktn.Co
   }
 
   // s3_object_key - computed: true, optional: true, required: false
-  private _s3ObjectKey?: string;
+  private _s3ObjectKey?: string; 
   public get s3ObjectKey() {
     return this.getStringAttribute('s3_object_key');
   }
@@ -490,7 +490,7 @@ export class BedrockAgentActionGroupsApiSchemaOutputReference extends cdktn.Comp
   }
 
   // payload - computed: true, optional: true, required: false
-  private _payload?: string;
+  private _payload?: string; 
   public get payload() {
     return this.getStringAttribute('payload');
   }
@@ -641,7 +641,7 @@ export class BedrockAgentActionGroupsFunctionSchemaFunctionsParametersOutputRefe
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -657,7 +657,7 @@ export class BedrockAgentActionGroupsFunctionSchemaFunctionsParametersOutputRefe
   }
 
   // required - computed: true, optional: true, required: false
-  private _required?: boolean | cdktn.IResolvable;
+  private _required?: boolean | cdktn.IResolvable; 
   public get required() {
     return this.getBooleanAttribute('required');
   }
@@ -673,7 +673,7 @@ export class BedrockAgentActionGroupsFunctionSchemaFunctionsParametersOutputRefe
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -847,7 +847,7 @@ export class BedrockAgentActionGroupsFunctionSchemaFunctionsOutputReference exte
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -863,7 +863,7 @@ export class BedrockAgentActionGroupsFunctionSchemaFunctionsOutputReference exte
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -895,7 +895,7 @@ export class BedrockAgentActionGroupsFunctionSchemaFunctionsOutputReference exte
   }
 
   // require_confirmation - computed: true, optional: true, required: false
-  private _requireConfirmation?: string;
+  private _requireConfirmation?: string; 
   public get requireConfirmation() {
     return this.getStringAttribute('require_confirmation');
   }
@@ -1258,7 +1258,7 @@ export class BedrockAgentActionGroupsOutputReference extends cdktn.ComplexObject
   }
 
   // action_group_name - computed: true, optional: true, required: false
-  private _actionGroupName?: string;
+  private _actionGroupName?: string; 
   public get actionGroupName() {
     return this.getStringAttribute('action_group_name');
   }
@@ -1274,7 +1274,7 @@ export class BedrockAgentActionGroupsOutputReference extends cdktn.ComplexObject
   }
 
   // action_group_state - computed: true, optional: true, required: false
-  private _actionGroupState?: string;
+  private _actionGroupState?: string; 
   public get actionGroupState() {
     return this.getStringAttribute('action_group_state');
   }
@@ -1306,7 +1306,7 @@ export class BedrockAgentActionGroupsOutputReference extends cdktn.ComplexObject
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1338,7 +1338,7 @@ export class BedrockAgentActionGroupsOutputReference extends cdktn.ComplexObject
   }
 
   // parent_action_group_signature - computed: true, optional: true, required: false
-  private _parentActionGroupSignature?: string;
+  private _parentActionGroupSignature?: string; 
   public get parentActionGroupSignature() {
     return this.getStringAttribute('parent_action_group_signature');
   }
@@ -1354,7 +1354,7 @@ export class BedrockAgentActionGroupsOutputReference extends cdktn.ComplexObject
   }
 
   // skip_resource_in_use_check_on_delete - computed: true, optional: true, required: false
-  private _skipResourceInUseCheckOnDelete?: boolean | cdktn.IResolvable;
+  private _skipResourceInUseCheckOnDelete?: boolean | cdktn.IResolvable; 
   public get skipResourceInUseCheckOnDelete() {
     return this.getBooleanAttribute('skip_resource_in_use_check_on_delete');
   }
@@ -1470,7 +1470,7 @@ export class BedrockAgentAgentCollaboratorsAgentDescriptorOutputReference extend
   }
 
   // alias_arn - computed: true, optional: true, required: false
-  private _aliasArn?: string;
+  private _aliasArn?: string; 
   public get aliasArn() {
     return this.getStringAttribute('alias_arn');
   }
@@ -1641,7 +1641,7 @@ export class BedrockAgentAgentCollaboratorsOutputReference extends cdktn.Complex
   }
 
   // collaboration_instruction - computed: true, optional: true, required: false
-  private _collaborationInstruction?: string;
+  private _collaborationInstruction?: string; 
   public get collaborationInstruction() {
     return this.getStringAttribute('collaboration_instruction');
   }
@@ -1657,7 +1657,7 @@ export class BedrockAgentAgentCollaboratorsOutputReference extends cdktn.Complex
   }
 
   // collaborator_name - computed: true, optional: true, required: false
-  private _collaboratorName?: string;
+  private _collaboratorName?: string; 
   public get collaboratorName() {
     return this.getStringAttribute('collaborator_name');
   }
@@ -1673,7 +1673,7 @@ export class BedrockAgentAgentCollaboratorsOutputReference extends cdktn.Complex
   }
 
   // relay_conversation_history - computed: true, optional: true, required: false
-  private _relayConversationHistory?: string;
+  private _relayConversationHistory?: string; 
   public get relayConversationHistory() {
     return this.getStringAttribute('relay_conversation_history');
   }
@@ -1789,7 +1789,7 @@ export class BedrockAgentCustomOrchestrationExecutorOutputReference extends cdkt
   }
 
   // lambda - computed: true, optional: true, required: false
-  private _lambda?: string;
+  private _lambda?: string; 
   public get lambda() {
     return this.getStringAttribute('lambda');
   }
@@ -2000,7 +2000,7 @@ export class BedrockAgentGuardrailConfigurationOutputReference extends cdktn.Com
   }
 
   // guardrail_identifier - computed: true, optional: true, required: false
-  private _guardrailIdentifier?: string;
+  private _guardrailIdentifier?: string; 
   public get guardrailIdentifier() {
     return this.getStringAttribute('guardrail_identifier');
   }
@@ -2016,7 +2016,7 @@ export class BedrockAgentGuardrailConfigurationOutputReference extends cdktn.Com
   }
 
   // guardrail_version - computed: true, optional: true, required: false
-  private _guardrailVersion?: string;
+  private _guardrailVersion?: string; 
   public get guardrailVersion() {
     return this.getStringAttribute('guardrail_version');
   }
@@ -2152,7 +2152,7 @@ export class BedrockAgentKnowledgeBasesOutputReference extends cdktn.ComplexObje
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -2168,7 +2168,7 @@ export class BedrockAgentKnowledgeBasesOutputReference extends cdktn.ComplexObje
   }
 
   // knowledge_base_id - computed: true, optional: true, required: false
-  private _knowledgeBaseId?: string;
+  private _knowledgeBaseId?: string; 
   public get knowledgeBaseId() {
     return this.getStringAttribute('knowledge_base_id');
   }
@@ -2184,7 +2184,7 @@ export class BedrockAgentKnowledgeBasesOutputReference extends cdktn.ComplexObje
   }
 
   // knowledge_base_state - computed: true, optional: true, required: false
-  private _knowledgeBaseState?: string;
+  private _knowledgeBaseState?: string; 
   public get knowledgeBaseState() {
     return this.getStringAttribute('knowledge_base_state');
   }
@@ -2300,7 +2300,7 @@ export class BedrockAgentMemoryConfigurationSessionSummaryConfigurationOutputRef
   }
 
   // max_recent_sessions - computed: true, optional: true, required: false
-  private _maxRecentSessions?: number;
+  private _maxRecentSessions?: number; 
   public get maxRecentSessions() {
     return this.getNumberAttribute('max_recent_sessions');
   }
@@ -2434,7 +2434,7 @@ export class BedrockAgentMemoryConfigurationOutputReference extends cdktn.Comple
   }
 
   // enabled_memory_types - computed: true, optional: true, required: false
-  private _enabledMemoryTypes?: string[];
+  private _enabledMemoryTypes?: string[]; 
   public get enabledMemoryTypes() {
     return this.getListAttribute('enabled_memory_types');
   }
@@ -2466,7 +2466,7 @@ export class BedrockAgentMemoryConfigurationOutputReference extends cdktn.Comple
   }
 
   // storage_days - computed: true, optional: true, required: false
-  private _storageDays?: number;
+  private _storageDays?: number; 
   public get storageDays() {
     return this.getNumberAttribute('storage_days');
   }
@@ -2638,7 +2638,7 @@ export class BedrockAgentPromptOverrideConfigurationPromptConfigurationsInferenc
   }
 
   // maximum_length - computed: true, optional: true, required: false
-  private _maximumLength?: number;
+  private _maximumLength?: number; 
   public get maximumLength() {
     return this.getNumberAttribute('maximum_length');
   }
@@ -2654,7 +2654,7 @@ export class BedrockAgentPromptOverrideConfigurationPromptConfigurationsInferenc
   }
 
   // stop_sequences - computed: true, optional: true, required: false
-  private _stopSequences?: string[];
+  private _stopSequences?: string[]; 
   public get stopSequences() {
     return this.getListAttribute('stop_sequences');
   }
@@ -2670,7 +2670,7 @@ export class BedrockAgentPromptOverrideConfigurationPromptConfigurationsInferenc
   }
 
   // temperature - computed: true, optional: true, required: false
-  private _temperature?: number;
+  private _temperature?: number; 
   public get temperature() {
     return this.getNumberAttribute('temperature');
   }
@@ -2686,7 +2686,7 @@ export class BedrockAgentPromptOverrideConfigurationPromptConfigurationsInferenc
   }
 
   // top_k - computed: true, optional: true, required: false
-  private _topK?: number;
+  private _topK?: number; 
   public get topK() {
     return this.getNumberAttribute('top_k');
   }
@@ -2702,7 +2702,7 @@ export class BedrockAgentPromptOverrideConfigurationPromptConfigurationsInferenc
   }
 
   // top_p - computed: true, optional: true, required: false
-  private _topP?: number;
+  private _topP?: number; 
   public get topP() {
     return this.getNumberAttribute('top_p');
   }
@@ -2933,7 +2933,7 @@ export class BedrockAgentPromptOverrideConfigurationPromptConfigurationsOutputRe
   }
 
   // additional_model_request_fields - computed: true, optional: true, required: false
-  private _additionalModelRequestFields?: string;
+  private _additionalModelRequestFields?: string; 
   public get additionalModelRequestFields() {
     return this.getStringAttribute('additional_model_request_fields');
   }
@@ -2949,7 +2949,7 @@ export class BedrockAgentPromptOverrideConfigurationPromptConfigurationsOutputRe
   }
 
   // base_prompt_template - computed: true, optional: true, required: false
-  private _basePromptTemplate?: string;
+  private _basePromptTemplate?: string; 
   public get basePromptTemplate() {
     return this.getStringAttribute('base_prompt_template');
   }
@@ -2965,7 +2965,7 @@ export class BedrockAgentPromptOverrideConfigurationPromptConfigurationsOutputRe
   }
 
   // foundation_model - computed: true, optional: true, required: false
-  private _foundationModel?: string;
+  private _foundationModel?: string; 
   public get foundationModel() {
     return this.getStringAttribute('foundation_model');
   }
@@ -2997,7 +2997,7 @@ export class BedrockAgentPromptOverrideConfigurationPromptConfigurationsOutputRe
   }
 
   // parser_mode - computed: true, optional: true, required: false
-  private _parserMode?: string;
+  private _parserMode?: string; 
   public get parserMode() {
     return this.getStringAttribute('parser_mode');
   }
@@ -3013,7 +3013,7 @@ export class BedrockAgentPromptOverrideConfigurationPromptConfigurationsOutputRe
   }
 
   // prompt_creation_mode - computed: true, optional: true, required: false
-  private _promptCreationMode?: string;
+  private _promptCreationMode?: string; 
   public get promptCreationMode() {
     return this.getStringAttribute('prompt_creation_mode');
   }
@@ -3029,7 +3029,7 @@ export class BedrockAgentPromptOverrideConfigurationPromptConfigurationsOutputRe
   }
 
   // prompt_state - computed: true, optional: true, required: false
-  private _promptState?: string;
+  private _promptState?: string; 
   public get promptState() {
     return this.getStringAttribute('prompt_state');
   }
@@ -3045,7 +3045,7 @@ export class BedrockAgentPromptOverrideConfigurationPromptConfigurationsOutputRe
   }
 
   // prompt_type - computed: true, optional: true, required: false
-  private _promptType?: string;
+  private _promptType?: string; 
   public get promptType() {
     return this.getStringAttribute('prompt_type');
   }
@@ -3180,7 +3180,7 @@ export class BedrockAgentPromptOverrideConfigurationOutputReference extends cdkt
   }
 
   // override_lambda - computed: true, optional: true, required: false
-  private _overrideLambda?: string;
+  private _overrideLambda?: string; 
   public get overrideLambda() {
     return this.getStringAttribute('override_lambda');
   }
@@ -3310,7 +3310,7 @@ export class BedrockAgent extends cdktn.TerraformResource {
   }
 
   // agent_collaboration - computed: true, optional: true, required: false
-  private _agentCollaboration?: string;
+  private _agentCollaboration?: string; 
   public get agentCollaboration() {
     return this.getStringAttribute('agent_collaboration');
   }
@@ -3347,7 +3347,7 @@ export class BedrockAgent extends cdktn.TerraformResource {
   }
 
   // agent_name - computed: false, optional: false, required: true
-  private _agentName?: string;
+  private _agentName?: string; 
   public get agentName() {
     return this.getStringAttribute('agent_name');
   }
@@ -3360,7 +3360,7 @@ export class BedrockAgent extends cdktn.TerraformResource {
   }
 
   // agent_resource_role_arn - computed: true, optional: true, required: false
-  private _agentResourceRoleArn?: string;
+  private _agentResourceRoleArn?: string; 
   public get agentResourceRoleArn() {
     return this.getStringAttribute('agent_resource_role_arn');
   }
@@ -3386,7 +3386,7 @@ export class BedrockAgent extends cdktn.TerraformResource {
   }
 
   // auto_prepare - computed: true, optional: true, required: false
-  private _autoPrepare?: boolean | cdktn.IResolvable;
+  private _autoPrepare?: boolean | cdktn.IResolvable; 
   public get autoPrepare() {
     return this.getBooleanAttribute('auto_prepare');
   }
@@ -3423,7 +3423,7 @@ export class BedrockAgent extends cdktn.TerraformResource {
   }
 
   // customer_encryption_key_arn - computed: true, optional: true, required: false
-  private _customerEncryptionKeyArn?: string;
+  private _customerEncryptionKeyArn?: string; 
   public get customerEncryptionKeyArn() {
     return this.getStringAttribute('customer_encryption_key_arn');
   }
@@ -3439,7 +3439,7 @@ export class BedrockAgent extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -3460,7 +3460,7 @@ export class BedrockAgent extends cdktn.TerraformResource {
   }
 
   // foundation_model - computed: true, optional: true, required: false
-  private _foundationModel?: string;
+  private _foundationModel?: string; 
   public get foundationModel() {
     return this.getStringAttribute('foundation_model');
   }
@@ -3497,7 +3497,7 @@ export class BedrockAgent extends cdktn.TerraformResource {
   }
 
   // idle_session_ttl_in_seconds - computed: true, optional: true, required: false
-  private _idleSessionTtlInSeconds?: number;
+  private _idleSessionTtlInSeconds?: number; 
   public get idleSessionTtlInSeconds() {
     return this.getNumberAttribute('idle_session_ttl_in_seconds');
   }
@@ -3513,7 +3513,7 @@ export class BedrockAgent extends cdktn.TerraformResource {
   }
 
   // instruction - computed: true, optional: true, required: false
-  private _instruction?: string;
+  private _instruction?: string; 
   public get instruction() {
     return this.getStringAttribute('instruction');
   }
@@ -3561,7 +3561,7 @@ export class BedrockAgent extends cdktn.TerraformResource {
   }
 
   // orchestration_type - computed: true, optional: true, required: false
-  private _orchestrationType?: string;
+  private _orchestrationType?: string; 
   public get orchestrationType() {
     return this.getStringAttribute('orchestration_type');
   }
@@ -3603,7 +3603,7 @@ export class BedrockAgent extends cdktn.TerraformResource {
   }
 
   // skip_resource_in_use_check_on_delete - computed: true, optional: true, required: false
-  private _skipResourceInUseCheckOnDelete?: boolean | cdktn.IResolvable;
+  private _skipResourceInUseCheckOnDelete?: boolean | cdktn.IResolvable; 
   public get skipResourceInUseCheckOnDelete() {
     return this.getBooleanAttribute('skip_resource_in_use_check_on_delete');
   }
@@ -3619,7 +3619,7 @@ export class BedrockAgent extends cdktn.TerraformResource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -3635,7 +3635,7 @@ export class BedrockAgent extends cdktn.TerraformResource {
   }
 
   // test_alias_tags - computed: true, optional: true, required: false
-  private _testAliasTags?: { [key: string]: string };
+  private _testAliasTags?: { [key: string]: string }; 
   public get testAliasTags() {
     return this.getStringMapAttribute('test_alias_tags');
   }

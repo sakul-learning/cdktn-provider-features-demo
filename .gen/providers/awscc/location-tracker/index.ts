@@ -150,7 +150,7 @@ export class LocationTrackerTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -166,7 +166,7 @@ export class LocationTrackerTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -278,7 +278,7 @@ export class LocationTracker extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -294,7 +294,7 @@ export class LocationTracker extends cdktn.TerraformResource {
   }
 
   // event_bridge_enabled - computed: true, optional: true, required: false
-  private _eventBridgeEnabled?: boolean | cdktn.IResolvable;
+  private _eventBridgeEnabled?: boolean | cdktn.IResolvable; 
   public get eventBridgeEnabled() {
     return this.getBooleanAttribute('event_bridge_enabled');
   }
@@ -315,7 +315,7 @@ export class LocationTracker extends cdktn.TerraformResource {
   }
 
   // kms_key_enable_geospatial_queries - computed: true, optional: true, required: false
-  private _kmsKeyEnableGeospatialQueries?: boolean | cdktn.IResolvable;
+  private _kmsKeyEnableGeospatialQueries?: boolean | cdktn.IResolvable; 
   public get kmsKeyEnableGeospatialQueries() {
     return this.getBooleanAttribute('kms_key_enable_geospatial_queries');
   }
@@ -331,7 +331,7 @@ export class LocationTracker extends cdktn.TerraformResource {
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -347,7 +347,7 @@ export class LocationTracker extends cdktn.TerraformResource {
   }
 
   // position_filtering - computed: true, optional: true, required: false
-  private _positionFiltering?: string;
+  private _positionFiltering?: string; 
   public get positionFiltering() {
     return this.getStringAttribute('position_filtering');
   }
@@ -363,7 +363,7 @@ export class LocationTracker extends cdktn.TerraformResource {
   }
 
   // pricing_plan - computed: true, optional: true, required: false
-  private _pricingPlan?: string;
+  private _pricingPlan?: string; 
   public get pricingPlan() {
     return this.getStringAttribute('pricing_plan');
   }
@@ -379,7 +379,7 @@ export class LocationTracker extends cdktn.TerraformResource {
   }
 
   // pricing_plan_data_source - computed: true, optional: true, required: false
-  private _pricingPlanDataSource?: string;
+  private _pricingPlanDataSource?: string; 
   public get pricingPlanDataSource() {
     return this.getStringAttribute('pricing_plan_data_source');
   }
@@ -416,7 +416,7 @@ export class LocationTracker extends cdktn.TerraformResource {
   }
 
   // tracker_name - computed: false, optional: false, required: true
-  private _trackerName?: string;
+  private _trackerName?: string; 
   public get trackerName() {
     return this.getStringAttribute('tracker_name');
   }

@@ -87,7 +87,7 @@ export class LakeformationTag extends cdktn.TerraformResource {
   // ==========
 
   // catalog_id - computed: true, optional: true, required: false
-  private _catalogId?: string;
+  private _catalogId?: string; 
   public get catalogId() {
     return this.getStringAttribute('catalog_id');
   }
@@ -108,7 +108,7 @@ export class LakeformationTag extends cdktn.TerraformResource {
   }
 
   // tag_key - computed: false, optional: false, required: true
-  private _tagKey?: string;
+  private _tagKey?: string; 
   public get tagKey() {
     return this.getStringAttribute('tag_key');
   }
@@ -121,7 +121,7 @@ export class LakeformationTag extends cdktn.TerraformResource {
   }
 
   // tag_values - computed: false, optional: false, required: true
-  private _tagValues?: string[];
+  private _tagValues?: string[]; 
   public get tagValues() {
     return this.getListAttribute('tag_values');
   }

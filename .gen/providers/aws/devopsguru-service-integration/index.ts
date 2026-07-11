@@ -147,7 +147,7 @@ export class DevopsguruServiceIntegrationKmsServerSideEncryptionOutputReference 
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -163,7 +163,7 @@ export class DevopsguruServiceIntegrationKmsServerSideEncryptionOutputReference 
   }
 
   // opt_in_status - computed: true, optional: true, required: false
-  private _optInStatus?: string;
+  private _optInStatus?: string; 
   public get optInStatus() {
     return this.getStringAttribute('opt_in_status');
   }
@@ -179,7 +179,7 @@ export class DevopsguruServiceIntegrationKmsServerSideEncryptionOutputReference 
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -295,7 +295,7 @@ export class DevopsguruServiceIntegrationLogsAnomalyDetectionOutputReference ext
   }
 
   // opt_in_status - computed: true, optional: true, required: false
-  private _optInStatus?: string;
+  private _optInStatus?: string; 
   public get optInStatus() {
     return this.getStringAttribute('opt_in_status');
   }
@@ -411,7 +411,7 @@ export class DevopsguruServiceIntegrationOpsCenterOutputReference extends cdktn.
   }
 
   // opt_in_status - computed: true, optional: true, required: false
-  private _optInStatus?: string;
+  private _optInStatus?: string; 
   public get optInStatus() {
     return this.getStringAttribute('opt_in_status');
   }
@@ -513,7 +513,7 @@ export class DevopsguruServiceIntegration extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

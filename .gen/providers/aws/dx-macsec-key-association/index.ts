@@ -101,7 +101,7 @@ export class DxMacsecKeyAssociation extends cdktn.TerraformResource {
   // ==========
 
   // cak - computed: false, optional: true, required: false
-  private _cak?: string;
+  private _cak?: string; 
   public get cak() {
     return this.getStringAttribute('cak');
   }
@@ -117,7 +117,7 @@ export class DxMacsecKeyAssociation extends cdktn.TerraformResource {
   }
 
   // ckn - computed: true, optional: true, required: false
-  private _ckn?: string;
+  private _ckn?: string; 
   public get ckn() {
     return this.getStringAttribute('ckn');
   }
@@ -133,7 +133,7 @@ export class DxMacsecKeyAssociation extends cdktn.TerraformResource {
   }
 
   // connection_id - computed: false, optional: false, required: true
-  private _connectionId?: string;
+  private _connectionId?: string; 
   public get connectionId() {
     return this.getStringAttribute('connection_id');
   }
@@ -146,7 +146,7 @@ export class DxMacsecKeyAssociation extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -162,7 +162,7 @@ export class DxMacsecKeyAssociation extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -178,7 +178,7 @@ export class DxMacsecKeyAssociation extends cdktn.TerraformResource {
   }
 
   // secret_arn - computed: true, optional: true, required: false
-  private _secretArn?: string;
+  private _secretArn?: string; 
   public get secretArn() {
     return this.getStringAttribute('secret_arn');
   }

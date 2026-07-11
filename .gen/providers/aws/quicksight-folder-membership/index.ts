@@ -93,7 +93,7 @@ export class QuicksightFolderMembership extends cdktn.TerraformResource {
   // ==========
 
   // aws_account_id - computed: true, optional: true, required: false
-  private _awsAccountId?: string;
+  private _awsAccountId?: string; 
   public get awsAccountId() {
     return this.getStringAttribute('aws_account_id');
   }
@@ -109,7 +109,7 @@ export class QuicksightFolderMembership extends cdktn.TerraformResource {
   }
 
   // folder_id - computed: false, optional: false, required: true
-  private _folderId?: string;
+  private _folderId?: string; 
   public get folderId() {
     return this.getStringAttribute('folder_id');
   }
@@ -127,7 +127,7 @@ export class QuicksightFolderMembership extends cdktn.TerraformResource {
   }
 
   // member_id - computed: false, optional: false, required: true
-  private _memberId?: string;
+  private _memberId?: string; 
   public get memberId() {
     return this.getStringAttribute('member_id');
   }
@@ -140,7 +140,7 @@ export class QuicksightFolderMembership extends cdktn.TerraformResource {
   }
 
   // member_type - computed: false, optional: false, required: true
-  private _memberType?: string;
+  private _memberType?: string; 
   public get memberType() {
     return this.getStringAttribute('member_type');
   }
@@ -153,7 +153,7 @@ export class QuicksightFolderMembership extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

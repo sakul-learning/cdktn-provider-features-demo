@@ -123,7 +123,7 @@ export class ConnectInstanceStorageConfigKinesisFirehoseConfigOutputReference ex
   }
 
   // firehose_arn - computed: true, optional: true, required: false
-  private _firehoseArn?: string;
+  private _firehoseArn?: string; 
   public get firehoseArn() {
     return this.getStringAttribute('firehose_arn');
   }
@@ -219,7 +219,7 @@ export class ConnectInstanceStorageConfigKinesisStreamConfigOutputReference exte
   }
 
   // stream_arn - computed: true, optional: true, required: false
-  private _streamArn?: string;
+  private _streamArn?: string; 
   public get streamArn() {
     return this.getStringAttribute('stream_arn');
   }
@@ -334,7 +334,7 @@ export class ConnectInstanceStorageConfigKinesisVideoStreamConfigEncryptionConfi
   }
 
   // encryption_type - computed: true, optional: true, required: false
-  private _encryptionType?: string;
+  private _encryptionType?: string; 
   public get encryptionType() {
     return this.getStringAttribute('encryption_type');
   }
@@ -350,7 +350,7 @@ export class ConnectInstanceStorageConfigKinesisVideoStreamConfigEncryptionConfi
   }
 
   // key_id - computed: true, optional: true, required: false
-  private _keyId?: string;
+  private _keyId?: string; 
   public get keyId() {
     return this.getStringAttribute('key_id');
   }
@@ -498,7 +498,7 @@ export class ConnectInstanceStorageConfigKinesisVideoStreamConfigOutputReference
   }
 
   // prefix - computed: true, optional: true, required: false
-  private _prefix?: string;
+  private _prefix?: string; 
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -514,7 +514,7 @@ export class ConnectInstanceStorageConfigKinesisVideoStreamConfigOutputReference
   }
 
   // retention_period_hours - computed: true, optional: true, required: false
-  private _retentionPeriodHours?: number;
+  private _retentionPeriodHours?: number; 
   public get retentionPeriodHours() {
     return this.getNumberAttribute('retention_period_hours');
   }
@@ -629,7 +629,7 @@ export class ConnectInstanceStorageConfigS3ConfigEncryptionConfigOutputReference
   }
 
   // encryption_type - computed: true, optional: true, required: false
-  private _encryptionType?: string;
+  private _encryptionType?: string; 
   public get encryptionType() {
     return this.getStringAttribute('encryption_type');
   }
@@ -645,7 +645,7 @@ export class ConnectInstanceStorageConfigS3ConfigEncryptionConfigOutputReference
   }
 
   // key_id - computed: true, optional: true, required: false
-  private _keyId?: string;
+  private _keyId?: string; 
   public get keyId() {
     return this.getStringAttribute('key_id');
   }
@@ -777,7 +777,7 @@ export class ConnectInstanceStorageConfigS3ConfigOutputReference extends cdktn.C
   }
 
   // bucket_name - computed: true, optional: true, required: false
-  private _bucketName?: string;
+  private _bucketName?: string; 
   public get bucketName() {
     return this.getStringAttribute('bucket_name');
   }
@@ -793,7 +793,7 @@ export class ConnectInstanceStorageConfigS3ConfigOutputReference extends cdktn.C
   }
 
   // bucket_prefix - computed: true, optional: true, required: false
-  private _bucketPrefix?: string;
+  private _bucketPrefix?: string; 
   public get bucketPrefix() {
     return this.getStringAttribute('bucket_prefix');
   }
@@ -899,7 +899,7 @@ export class ConnectInstanceStorageConfig extends cdktn.TerraformResource {
   }
 
   // instance_arn - computed: false, optional: false, required: true
-  private _instanceArn?: string;
+  private _instanceArn?: string; 
   public get instanceArn() {
     return this.getStringAttribute('instance_arn');
   }
@@ -960,7 +960,7 @@ export class ConnectInstanceStorageConfig extends cdktn.TerraformResource {
   }
 
   // resource_type - computed: false, optional: false, required: true
-  private _resourceType?: string;
+  private _resourceType?: string; 
   public get resourceType() {
     return this.getStringAttribute('resource_type');
   }
@@ -989,7 +989,7 @@ export class ConnectInstanceStorageConfig extends cdktn.TerraformResource {
   }
 
   // storage_type - computed: false, optional: false, required: true
-  private _storageType?: string;
+  private _storageType?: string; 
   public get storageType() {
     return this.getStringAttribute('storage_type');
   }

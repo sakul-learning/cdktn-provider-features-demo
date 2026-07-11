@@ -160,7 +160,7 @@ export class Ec2HostTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -176,7 +176,7 @@ export class Ec2HostTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -278,7 +278,7 @@ export class Ec2Host extends cdktn.TerraformResource {
   // ==========
 
   // asset_id - computed: true, optional: true, required: false
-  private _assetId?: string;
+  private _assetId?: string; 
   public get assetId() {
     return this.getStringAttribute('asset_id');
   }
@@ -294,7 +294,7 @@ export class Ec2Host extends cdktn.TerraformResource {
   }
 
   // auto_placement - computed: true, optional: true, required: false
-  private _autoPlacement?: string;
+  private _autoPlacement?: string; 
   public get autoPlacement() {
     return this.getStringAttribute('auto_placement');
   }
@@ -310,7 +310,7 @@ export class Ec2Host extends cdktn.TerraformResource {
   }
 
   // availability_zone - computed: false, optional: false, required: true
-  private _availabilityZone?: string;
+  private _availabilityZone?: string; 
   public get availabilityZone() {
     return this.getStringAttribute('availability_zone');
   }
@@ -328,7 +328,7 @@ export class Ec2Host extends cdktn.TerraformResource {
   }
 
   // host_maintenance - computed: true, optional: true, required: false
-  private _hostMaintenance?: string;
+  private _hostMaintenance?: string; 
   public get hostMaintenance() {
     return this.getStringAttribute('host_maintenance');
   }
@@ -344,7 +344,7 @@ export class Ec2Host extends cdktn.TerraformResource {
   }
 
   // host_recovery - computed: true, optional: true, required: false
-  private _hostRecovery?: string;
+  private _hostRecovery?: string; 
   public get hostRecovery() {
     return this.getStringAttribute('host_recovery');
   }
@@ -365,7 +365,7 @@ export class Ec2Host extends cdktn.TerraformResource {
   }
 
   // instance_family - computed: true, optional: true, required: false
-  private _instanceFamily?: string;
+  private _instanceFamily?: string; 
   public get instanceFamily() {
     return this.getStringAttribute('instance_family');
   }
@@ -381,7 +381,7 @@ export class Ec2Host extends cdktn.TerraformResource {
   }
 
   // instance_type - computed: true, optional: true, required: false
-  private _instanceType?: string;
+  private _instanceType?: string; 
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -397,7 +397,7 @@ export class Ec2Host extends cdktn.TerraformResource {
   }
 
   // outpost_arn - computed: true, optional: true, required: false
-  private _outpostArn?: string;
+  private _outpostArn?: string; 
   public get outpostArn() {
     return this.getStringAttribute('outpost_arn');
   }

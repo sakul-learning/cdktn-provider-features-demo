@@ -131,7 +131,7 @@ export class QbusinessWebExperienceBrowserExtensionConfigurationOutputReference 
   }
 
   // enabled_browser_extensions - computed: true, optional: true, required: false
-  private _enabledBrowserExtensions?: string[];
+  private _enabledBrowserExtensions?: string[]; 
   public get enabledBrowserExtensions() {
     return cdktn.Fn.tolist(this.getListAttribute('enabled_browser_extensions'));
   }
@@ -276,7 +276,7 @@ export class QbusinessWebExperienceCustomizationConfigurationOutputReference ext
   }
 
   // custom_css_url - computed: true, optional: true, required: false
-  private _customCssUrl?: string;
+  private _customCssUrl?: string; 
   public get customCssUrl() {
     return this.getStringAttribute('custom_css_url');
   }
@@ -292,7 +292,7 @@ export class QbusinessWebExperienceCustomizationConfigurationOutputReference ext
   }
 
   // favicon_url - computed: true, optional: true, required: false
-  private _faviconUrl?: string;
+  private _faviconUrl?: string; 
   public get faviconUrl() {
     return this.getStringAttribute('favicon_url');
   }
@@ -308,7 +308,7 @@ export class QbusinessWebExperienceCustomizationConfigurationOutputReference ext
   }
 
   // font_url - computed: true, optional: true, required: false
-  private _fontUrl?: string;
+  private _fontUrl?: string; 
   public get fontUrl() {
     return this.getStringAttribute('font_url');
   }
@@ -324,7 +324,7 @@ export class QbusinessWebExperienceCustomizationConfigurationOutputReference ext
   }
 
   // logo_url - computed: true, optional: true, required: false
-  private _logoUrl?: string;
+  private _logoUrl?: string; 
   public get logoUrl() {
     return this.getStringAttribute('logo_url');
   }
@@ -435,7 +435,7 @@ export class QbusinessWebExperienceIdentityProviderConfigurationOpenIdConnectCon
   }
 
   // secrets_arn - computed: true, optional: true, required: false
-  private _secretsArn?: string;
+  private _secretsArn?: string; 
   public get secretsArn() {
     return this.getStringAttribute('secrets_arn');
   }
@@ -451,7 +451,7 @@ export class QbusinessWebExperienceIdentityProviderConfigurationOpenIdConnectCon
   }
 
   // secrets_role - computed: true, optional: true, required: false
-  private _secretsRole?: string;
+  private _secretsRole?: string; 
   public get secretsRole() {
     return this.getStringAttribute('secrets_role');
   }
@@ -545,7 +545,7 @@ export class QbusinessWebExperienceIdentityProviderConfigurationSamlConfiguratio
   }
 
   // authentication_url - computed: true, optional: true, required: false
-  private _authenticationUrl?: string;
+  private _authenticationUrl?: string; 
   public get authenticationUrl() {
     return this.getStringAttribute('authentication_url');
   }
@@ -785,7 +785,7 @@ export class QbusinessWebExperienceTagsOutputReference extends cdktn.ComplexObje
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -801,7 +801,7 @@ export class QbusinessWebExperienceTagsOutputReference extends cdktn.ComplexObje
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -905,7 +905,7 @@ export class QbusinessWebExperience extends cdktn.TerraformResource {
   // ==========
 
   // application_id - computed: false, optional: false, required: true
-  private _applicationId?: string;
+  private _applicationId?: string; 
   public get applicationId() {
     return this.getStringAttribute('application_id');
   }
@@ -981,7 +981,7 @@ export class QbusinessWebExperience extends cdktn.TerraformResource {
   }
 
   // origins - computed: true, optional: true, required: false
-  private _origins?: string[];
+  private _origins?: string[]; 
   public get origins() {
     return this.getListAttribute('origins');
   }
@@ -997,7 +997,7 @@ export class QbusinessWebExperience extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -1013,7 +1013,7 @@ export class QbusinessWebExperience extends cdktn.TerraformResource {
   }
 
   // sample_prompts_control_mode - computed: true, optional: true, required: false
-  private _samplePromptsControlMode?: string;
+  private _samplePromptsControlMode?: string; 
   public get samplePromptsControlMode() {
     return this.getStringAttribute('sample_prompts_control_mode');
   }
@@ -1034,7 +1034,7 @@ export class QbusinessWebExperience extends cdktn.TerraformResource {
   }
 
   // subtitle - computed: true, optional: true, required: false
-  private _subtitle?: string;
+  private _subtitle?: string; 
   public get subtitle() {
     return this.getStringAttribute('subtitle');
   }
@@ -1066,7 +1066,7 @@ export class QbusinessWebExperience extends cdktn.TerraformResource {
   }
 
   // title - computed: true, optional: true, required: false
-  private _title?: string;
+  private _title?: string; 
   public get title() {
     return this.getStringAttribute('title');
   }
@@ -1097,7 +1097,7 @@ export class QbusinessWebExperience extends cdktn.TerraformResource {
   }
 
   // welcome_message - computed: true, optional: true, required: false
-  private _welcomeMessage?: string;
+  private _welcomeMessage?: string; 
   public get welcomeMessage() {
     return this.getStringAttribute('welcome_message');
   }

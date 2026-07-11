@@ -132,7 +132,7 @@ export class IotsitewiseDatasetDatasetSourceSourceDetailKendraOutputReference ex
   }
 
   // knowledge_base_arn - computed: true, optional: true, required: false
-  private _knowledgeBaseArn?: string;
+  private _knowledgeBaseArn?: string; 
   public get knowledgeBaseArn() {
     return this.getStringAttribute('knowledge_base_arn');
   }
@@ -148,7 +148,7 @@ export class IotsitewiseDatasetDatasetSourceSourceDetailKendraOutputReference ex
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -394,7 +394,7 @@ export class IotsitewiseDatasetDatasetSourceOutputReference extends cdktn.Comple
   }
 
   // source_format - computed: false, optional: false, required: true
-  private _sourceFormat?: string;
+  private _sourceFormat?: string; 
   public get sourceFormat() {
     return this.getStringAttribute('source_format');
   }
@@ -407,7 +407,7 @@ export class IotsitewiseDatasetDatasetSourceOutputReference extends cdktn.Comple
   }
 
   // source_type - computed: false, optional: false, required: true
-  private _sourceType?: string;
+  private _sourceType?: string; 
   public get sourceType() {
     return this.getStringAttribute('source_type');
   }
@@ -517,7 +517,7 @@ export class IotsitewiseDatasetTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -533,7 +533,7 @@ export class IotsitewiseDatasetTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -635,7 +635,7 @@ export class IotsitewiseDataset extends cdktn.TerraformResource {
   }
 
   // dataset_description - computed: true, optional: true, required: false
-  private _datasetDescription?: string;
+  private _datasetDescription?: string; 
   public get datasetDescription() {
     return this.getStringAttribute('dataset_description');
   }
@@ -656,7 +656,7 @@ export class IotsitewiseDataset extends cdktn.TerraformResource {
   }
 
   // dataset_name - computed: false, optional: false, required: true
-  private _datasetName?: string;
+  private _datasetName?: string; 
   public get datasetName() {
     return this.getStringAttribute('dataset_name');
   }

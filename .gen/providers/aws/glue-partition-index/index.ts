@@ -131,7 +131,7 @@ export class GluePartitionIndexPartitionIndexOutputReference extends cdktn.Compl
   }
 
   // index_name - computed: false, optional: true, required: false
-  private _indexName?: string;
+  private _indexName?: string; 
   public get indexName() {
     return this.getStringAttribute('index_name');
   }
@@ -152,7 +152,7 @@ export class GluePartitionIndexPartitionIndexOutputReference extends cdktn.Compl
   }
 
   // keys - computed: false, optional: true, required: false
-  private _keys?: string[];
+  private _keys?: string[]; 
   public get keys() {
     return this.getListAttribute('keys');
   }
@@ -263,7 +263,7 @@ export class GluePartitionIndexTimeoutsOutputReference extends cdktn.ComplexObje
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -279,7 +279,7 @@ export class GluePartitionIndexTimeoutsOutputReference extends cdktn.ComplexObje
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -359,7 +359,7 @@ export class GluePartitionIndex extends cdktn.TerraformResource {
   // ==========
 
   // catalog_id - computed: true, optional: true, required: false
-  private _catalogId?: string;
+  private _catalogId?: string; 
   public get catalogId() {
     return this.getStringAttribute('catalog_id');
   }
@@ -375,7 +375,7 @@ export class GluePartitionIndex extends cdktn.TerraformResource {
   }
 
   // database_name - computed: false, optional: false, required: true
-  private _databaseName?: string;
+  private _databaseName?: string; 
   public get databaseName() {
     return this.getStringAttribute('database_name');
   }
@@ -388,7 +388,7 @@ export class GluePartitionIndex extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -404,7 +404,7 @@ export class GluePartitionIndex extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -420,7 +420,7 @@ export class GluePartitionIndex extends cdktn.TerraformResource {
   }
 
   // table_name - computed: false, optional: false, required: true
-  private _tableName?: string;
+  private _tableName?: string; 
   public get tableName() {
     return this.getStringAttribute('table_name');
   }

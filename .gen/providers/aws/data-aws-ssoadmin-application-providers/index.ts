@@ -255,7 +255,7 @@ export class DataAwsSsoadminApplicationProviders extends cdktn.TerraformDataSour
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

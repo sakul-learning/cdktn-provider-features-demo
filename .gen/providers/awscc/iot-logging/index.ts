@@ -153,7 +153,7 @@ export class IotLoggingEventConfigurationsOutputReference extends cdktn.ComplexO
   }
 
   // event_type - computed: true, optional: true, required: false
-  private _eventType?: string;
+  private _eventType?: string; 
   public get eventType() {
     return this.getStringAttribute('event_type');
   }
@@ -169,7 +169,7 @@ export class IotLoggingEventConfigurationsOutputReference extends cdktn.ComplexO
   }
 
   // log_destination - computed: true, optional: true, required: false
-  private _logDestination?: string;
+  private _logDestination?: string; 
   public get logDestination() {
     return this.getStringAttribute('log_destination');
   }
@@ -185,7 +185,7 @@ export class IotLoggingEventConfigurationsOutputReference extends cdktn.ComplexO
   }
 
   // log_level - computed: true, optional: true, required: false
-  private _logLevel?: string;
+  private _logLevel?: string; 
   public get logLevel() {
     return this.getStringAttribute('log_level');
   }
@@ -282,7 +282,7 @@ export class IotLogging extends cdktn.TerraformResource {
   // ==========
 
   // account_id - computed: false, optional: false, required: true
-  private _accountId?: string;
+  private _accountId?: string; 
   public get accountId() {
     return this.getStringAttribute('account_id');
   }
@@ -295,7 +295,7 @@ export class IotLogging extends cdktn.TerraformResource {
   }
 
   // default_log_level - computed: false, optional: false, required: true
-  private _defaultLogLevel?: string;
+  private _defaultLogLevel?: string; 
   public get defaultLogLevel() {
     return this.getStringAttribute('default_log_level');
   }
@@ -329,7 +329,7 @@ export class IotLogging extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }

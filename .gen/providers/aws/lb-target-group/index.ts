@@ -336,7 +336,7 @@ export class LbTargetGroupHealthCheckOutputReference extends cdktn.ComplexObject
   }
 
   // enabled - computed: false, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -352,7 +352,7 @@ export class LbTargetGroupHealthCheckOutputReference extends cdktn.ComplexObject
   }
 
   // healthy_threshold - computed: false, optional: true, required: false
-  private _healthyThreshold?: number;
+  private _healthyThreshold?: number; 
   public get healthyThreshold() {
     return this.getNumberAttribute('healthy_threshold');
   }
@@ -368,7 +368,7 @@ export class LbTargetGroupHealthCheckOutputReference extends cdktn.ComplexObject
   }
 
   // interval - computed: false, optional: true, required: false
-  private _interval?: number;
+  private _interval?: number; 
   public get interval() {
     return this.getNumberAttribute('interval');
   }
@@ -384,7 +384,7 @@ export class LbTargetGroupHealthCheckOutputReference extends cdktn.ComplexObject
   }
 
   // matcher - computed: true, optional: true, required: false
-  private _matcher?: string;
+  private _matcher?: string; 
   public get matcher() {
     return this.getStringAttribute('matcher');
   }
@@ -400,7 +400,7 @@ export class LbTargetGroupHealthCheckOutputReference extends cdktn.ComplexObject
   }
 
   // path - computed: true, optional: true, required: false
-  private _path?: string;
+  private _path?: string; 
   public get path() {
     return this.getStringAttribute('path');
   }
@@ -416,7 +416,7 @@ export class LbTargetGroupHealthCheckOutputReference extends cdktn.ComplexObject
   }
 
   // port - computed: false, optional: true, required: false
-  private _port?: string;
+  private _port?: string; 
   public get port() {
     return this.getStringAttribute('port');
   }
@@ -432,7 +432,7 @@ export class LbTargetGroupHealthCheckOutputReference extends cdktn.ComplexObject
   }
 
   // protocol - computed: false, optional: true, required: false
-  private _protocol?: string;
+  private _protocol?: string; 
   public get protocol() {
     return this.getStringAttribute('protocol');
   }
@@ -448,7 +448,7 @@ export class LbTargetGroupHealthCheckOutputReference extends cdktn.ComplexObject
   }
 
   // timeout - computed: true, optional: true, required: false
-  private _timeout?: number;
+  private _timeout?: number; 
   public get timeout() {
     return this.getNumberAttribute('timeout');
   }
@@ -464,7 +464,7 @@ export class LbTargetGroupHealthCheckOutputReference extends cdktn.ComplexObject
   }
 
   // unhealthy_threshold - computed: false, optional: true, required: false
-  private _unhealthyThreshold?: number;
+  private _unhealthyThreshold?: number; 
   public get unhealthyThreshold() {
     return this.getNumberAttribute('unhealthy_threshold');
   }
@@ -599,7 +599,7 @@ export class LbTargetGroupStickinessOutputReference extends cdktn.ComplexObject 
   }
 
   // cookie_duration - computed: false, optional: true, required: false
-  private _cookieDuration?: number;
+  private _cookieDuration?: number; 
   public get cookieDuration() {
     return this.getNumberAttribute('cookie_duration');
   }
@@ -615,7 +615,7 @@ export class LbTargetGroupStickinessOutputReference extends cdktn.ComplexObject 
   }
 
   // cookie_name - computed: false, optional: true, required: false
-  private _cookieName?: string;
+  private _cookieName?: string; 
   public get cookieName() {
     return this.getStringAttribute('cookie_name');
   }
@@ -631,7 +631,7 @@ export class LbTargetGroupStickinessOutputReference extends cdktn.ComplexObject 
   }
 
   // enabled - computed: false, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -647,7 +647,7 @@ export class LbTargetGroupStickinessOutputReference extends cdktn.ComplexObject 
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -757,7 +757,7 @@ export class LbTargetGroupTargetFailoverOutputReference extends cdktn.ComplexObj
   }
 
   // on_deregistration - computed: false, optional: false, required: true
-  private _onDeregistration?: string;
+  private _onDeregistration?: string; 
   public get onDeregistration() {
     return this.getStringAttribute('on_deregistration');
   }
@@ -770,7 +770,7 @@ export class LbTargetGroupTargetFailoverOutputReference extends cdktn.ComplexObj
   }
 
   // on_unhealthy - computed: false, optional: false, required: true
-  private _onUnhealthy?: string;
+  private _onUnhealthy?: string; 
   public get onUnhealthy() {
     return this.getStringAttribute('on_unhealthy');
   }
@@ -888,7 +888,7 @@ export class LbTargetGroupTargetGroupHealthDnsFailoverOutputReference extends cd
   }
 
   // minimum_healthy_targets_count - computed: false, optional: true, required: false
-  private _minimumHealthyTargetsCount?: string;
+  private _minimumHealthyTargetsCount?: string; 
   public get minimumHealthyTargetsCount() {
     return this.getStringAttribute('minimum_healthy_targets_count');
   }
@@ -904,7 +904,7 @@ export class LbTargetGroupTargetGroupHealthDnsFailoverOutputReference extends cd
   }
 
   // minimum_healthy_targets_percentage - computed: false, optional: true, required: false
-  private _minimumHealthyTargetsPercentage?: string;
+  private _minimumHealthyTargetsPercentage?: string; 
   public get minimumHealthyTargetsPercentage() {
     return this.getStringAttribute('minimum_healthy_targets_percentage');
   }
@@ -1005,7 +1005,7 @@ export class LbTargetGroupTargetGroupHealthUnhealthyStateRoutingOutputReference 
   }
 
   // minimum_healthy_targets_count - computed: false, optional: true, required: false
-  private _minimumHealthyTargetsCount?: number;
+  private _minimumHealthyTargetsCount?: number; 
   public get minimumHealthyTargetsCount() {
     return this.getNumberAttribute('minimum_healthy_targets_count');
   }
@@ -1021,7 +1021,7 @@ export class LbTargetGroupTargetGroupHealthUnhealthyStateRoutingOutputReference 
   }
 
   // minimum_healthy_targets_percentage - computed: false, optional: true, required: false
-  private _minimumHealthyTargetsPercentage?: string;
+  private _minimumHealthyTargetsPercentage?: string; 
   public get minimumHealthyTargetsPercentage() {
     return this.getStringAttribute('minimum_healthy_targets_percentage');
   }
@@ -1255,7 +1255,7 @@ export class LbTargetGroupTargetHealthStateOutputReference extends cdktn.Complex
   }
 
   // enable_unhealthy_connection_termination - computed: false, optional: false, required: true
-  private _enableUnhealthyConnectionTermination?: boolean | cdktn.IResolvable;
+  private _enableUnhealthyConnectionTermination?: boolean | cdktn.IResolvable; 
   public get enableUnhealthyConnectionTermination() {
     return this.getBooleanAttribute('enable_unhealthy_connection_termination');
   }
@@ -1268,7 +1268,7 @@ export class LbTargetGroupTargetHealthStateOutputReference extends cdktn.Complex
   }
 
   // unhealthy_draining_interval - computed: false, optional: true, required: false
-  private _unhealthyDrainingInterval?: number;
+  private _unhealthyDrainingInterval?: number; 
   public get unhealthyDrainingInterval() {
     return this.getNumberAttribute('unhealthy_draining_interval');
   }
@@ -1398,7 +1398,7 @@ export class LbTargetGroup extends cdktn.TerraformResource {
   }
 
   // connection_termination - computed: true, optional: true, required: false
-  private _connectionTermination?: boolean | cdktn.IResolvable;
+  private _connectionTermination?: boolean | cdktn.IResolvable; 
   public get connectionTermination() {
     return this.getBooleanAttribute('connection_termination');
   }
@@ -1414,7 +1414,7 @@ export class LbTargetGroup extends cdktn.TerraformResource {
   }
 
   // deregistration_delay - computed: false, optional: true, required: false
-  private _deregistrationDelay?: string;
+  private _deregistrationDelay?: string; 
   public get deregistrationDelay() {
     return this.getStringAttribute('deregistration_delay');
   }
@@ -1430,7 +1430,7 @@ export class LbTargetGroup extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -1446,7 +1446,7 @@ export class LbTargetGroup extends cdktn.TerraformResource {
   }
 
   // ip_address_type - computed: true, optional: true, required: false
-  private _ipAddressType?: string;
+  private _ipAddressType?: string; 
   public get ipAddressType() {
     return this.getStringAttribute('ip_address_type');
   }
@@ -1462,7 +1462,7 @@ export class LbTargetGroup extends cdktn.TerraformResource {
   }
 
   // lambda_multi_value_headers_enabled - computed: false, optional: true, required: false
-  private _lambdaMultiValueHeadersEnabled?: boolean | cdktn.IResolvable;
+  private _lambdaMultiValueHeadersEnabled?: boolean | cdktn.IResolvable; 
   public get lambdaMultiValueHeadersEnabled() {
     return this.getBooleanAttribute('lambda_multi_value_headers_enabled');
   }
@@ -1483,7 +1483,7 @@ export class LbTargetGroup extends cdktn.TerraformResource {
   }
 
   // load_balancing_algorithm_type - computed: true, optional: true, required: false
-  private _loadBalancingAlgorithmType?: string;
+  private _loadBalancingAlgorithmType?: string; 
   public get loadBalancingAlgorithmType() {
     return this.getStringAttribute('load_balancing_algorithm_type');
   }
@@ -1499,7 +1499,7 @@ export class LbTargetGroup extends cdktn.TerraformResource {
   }
 
   // load_balancing_anomaly_mitigation - computed: true, optional: true, required: false
-  private _loadBalancingAnomalyMitigation?: string;
+  private _loadBalancingAnomalyMitigation?: string; 
   public get loadBalancingAnomalyMitigation() {
     return this.getStringAttribute('load_balancing_anomaly_mitigation');
   }
@@ -1515,7 +1515,7 @@ export class LbTargetGroup extends cdktn.TerraformResource {
   }
 
   // load_balancing_cross_zone_enabled - computed: true, optional: true, required: false
-  private _loadBalancingCrossZoneEnabled?: string;
+  private _loadBalancingCrossZoneEnabled?: string; 
   public get loadBalancingCrossZoneEnabled() {
     return this.getStringAttribute('load_balancing_cross_zone_enabled');
   }
@@ -1531,7 +1531,7 @@ export class LbTargetGroup extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1547,7 +1547,7 @@ export class LbTargetGroup extends cdktn.TerraformResource {
   }
 
   // name_prefix - computed: true, optional: true, required: false
-  private _namePrefix?: string;
+  private _namePrefix?: string; 
   public get namePrefix() {
     return this.getStringAttribute('name_prefix');
   }
@@ -1563,7 +1563,7 @@ export class LbTargetGroup extends cdktn.TerraformResource {
   }
 
   // port - computed: false, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -1579,7 +1579,7 @@ export class LbTargetGroup extends cdktn.TerraformResource {
   }
 
   // preserve_client_ip - computed: true, optional: true, required: false
-  private _preserveClientIp?: string;
+  private _preserveClientIp?: string; 
   public get preserveClientIp() {
     return this.getStringAttribute('preserve_client_ip');
   }
@@ -1595,7 +1595,7 @@ export class LbTargetGroup extends cdktn.TerraformResource {
   }
 
   // protocol - computed: false, optional: true, required: false
-  private _protocol?: string;
+  private _protocol?: string; 
   public get protocol() {
     return this.getStringAttribute('protocol');
   }
@@ -1611,7 +1611,7 @@ export class LbTargetGroup extends cdktn.TerraformResource {
   }
 
   // protocol_version - computed: true, optional: true, required: false
-  private _protocolVersion?: string;
+  private _protocolVersion?: string; 
   public get protocolVersion() {
     return this.getStringAttribute('protocol_version');
   }
@@ -1627,7 +1627,7 @@ export class LbTargetGroup extends cdktn.TerraformResource {
   }
 
   // proxy_protocol_v2 - computed: false, optional: true, required: false
-  private _proxyProtocolV2?: boolean | cdktn.IResolvable;
+  private _proxyProtocolV2?: boolean | cdktn.IResolvable; 
   public get proxyProtocolV2() {
     return this.getBooleanAttribute('proxy_protocol_v2');
   }
@@ -1643,7 +1643,7 @@ export class LbTargetGroup extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1659,7 +1659,7 @@ export class LbTargetGroup extends cdktn.TerraformResource {
   }
 
   // slow_start - computed: false, optional: true, required: false
-  private _slowStart?: number;
+  private _slowStart?: number; 
   public get slowStart() {
     return this.getNumberAttribute('slow_start');
   }
@@ -1675,7 +1675,7 @@ export class LbTargetGroup extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -1691,7 +1691,7 @@ export class LbTargetGroup extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -1707,7 +1707,7 @@ export class LbTargetGroup extends cdktn.TerraformResource {
   }
 
   // target_control_port - computed: false, optional: true, required: false
-  private _targetControlPort?: number;
+  private _targetControlPort?: number; 
   public get targetControlPort() {
     return this.getNumberAttribute('target_control_port');
   }
@@ -1723,7 +1723,7 @@ export class LbTargetGroup extends cdktn.TerraformResource {
   }
 
   // target_type - computed: false, optional: true, required: false
-  private _targetType?: string;
+  private _targetType?: string; 
   public get targetType() {
     return this.getStringAttribute('target_type');
   }
@@ -1739,7 +1739,7 @@ export class LbTargetGroup extends cdktn.TerraformResource {
   }
 
   // vpc_id - computed: false, optional: true, required: false
-  private _vpcId?: string;
+  private _vpcId?: string; 
   public get vpcId() {
     return this.getStringAttribute('vpc_id');
   }

@@ -160,7 +160,7 @@ export class OpensearchserverlessCollectionEncryptionConfigOutputReference exten
   }
 
   // aws_owned_key - computed: true, optional: true, required: false
-  private _awsOwnedKey?: boolean | cdktn.IResolvable;
+  private _awsOwnedKey?: boolean | cdktn.IResolvable; 
   public get awsOwnedKey() {
     return this.getBooleanAttribute('aws_owned_key');
   }
@@ -176,7 +176,7 @@ export class OpensearchserverlessCollectionEncryptionConfigOutputReference exten
   }
 
   // kms_key_arn - computed: true, optional: true, required: false
-  private _kmsKeyArn?: string;
+  private _kmsKeyArn?: string; 
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -292,7 +292,7 @@ export class OpensearchserverlessCollectionVectorOptionsOutputReference extends 
   }
 
   // serverless_vector_acceleration - computed: true, optional: true, required: false
-  private _serverlessVectorAcceleration?: string;
+  private _serverlessVectorAcceleration?: string; 
   public get serverlessVectorAcceleration() {
     return this.getStringAttribute('serverless_vector_acceleration');
   }
@@ -427,7 +427,7 @@ export class OpensearchserverlessCollectionTimeoutsOutputReference extends cdktn
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -443,7 +443,7 @@ export class OpensearchserverlessCollectionTimeoutsOutputReference extends cdktn
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -536,7 +536,7 @@ export class OpensearchserverlessCollection extends cdktn.TerraformResource {
   }
 
   // collection_group_name - computed: false, optional: true, required: false
-  private _collectionGroupName?: string;
+  private _collectionGroupName?: string; 
   public get collectionGroupName() {
     return this.getStringAttribute('collection_group_name');
   }
@@ -557,7 +557,7 @@ export class OpensearchserverlessCollection extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -599,7 +599,7 @@ export class OpensearchserverlessCollection extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -612,7 +612,7 @@ export class OpensearchserverlessCollection extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -628,7 +628,7 @@ export class OpensearchserverlessCollection extends cdktn.TerraformResource {
   }
 
   // standby_replicas - computed: true, optional: true, required: false
-  private _standbyReplicas?: string;
+  private _standbyReplicas?: string; 
   public get standbyReplicas() {
     return this.getStringAttribute('standby_replicas');
   }
@@ -644,7 +644,7 @@ export class OpensearchserverlessCollection extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -666,7 +666,7 @@ export class OpensearchserverlessCollection extends cdktn.TerraformResource {
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }

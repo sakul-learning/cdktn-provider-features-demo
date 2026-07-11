@@ -126,7 +126,7 @@ export class ConnectRoutingProfileMediaConcurrenciesCrossChannelBehaviorOutputRe
   }
 
   // behavior_type - computed: false, optional: false, required: true
-  private _behaviorType?: string;
+  private _behaviorType?: string; 
   public get behaviorType() {
     return this.getStringAttribute('behavior_type');
   }
@@ -255,7 +255,7 @@ export class ConnectRoutingProfileMediaConcurrenciesOutputReference extends cdkt
   }
 
   // channel - computed: false, optional: false, required: true
-  private _channel?: string;
+  private _channel?: string; 
   public get channel() {
     return this.getStringAttribute('channel');
   }
@@ -268,7 +268,7 @@ export class ConnectRoutingProfileMediaConcurrenciesOutputReference extends cdkt
   }
 
   // concurrency - computed: false, optional: false, required: true
-  private _concurrency?: number;
+  private _concurrency?: number; 
   public get concurrency() {
     return this.getNumberAttribute('concurrency');
   }
@@ -448,7 +448,7 @@ export class ConnectRoutingProfileQueueConfigsOutputReference extends cdktn.Comp
   }
 
   // channel - computed: false, optional: false, required: true
-  private _channel?: string;
+  private _channel?: string; 
   public get channel() {
     return this.getStringAttribute('channel');
   }
@@ -461,7 +461,7 @@ export class ConnectRoutingProfileQueueConfigsOutputReference extends cdktn.Comp
   }
 
   // delay - computed: false, optional: false, required: true
-  private _delay?: number;
+  private _delay?: number; 
   public get delay() {
     return this.getNumberAttribute('delay');
   }
@@ -474,7 +474,7 @@ export class ConnectRoutingProfileQueueConfigsOutputReference extends cdktn.Comp
   }
 
   // priority - computed: false, optional: false, required: true
-  private _priority?: number;
+  private _priority?: number; 
   public get priority() {
     return this.getNumberAttribute('priority');
   }
@@ -492,7 +492,7 @@ export class ConnectRoutingProfileQueueConfigsOutputReference extends cdktn.Comp
   }
 
   // queue_id - computed: false, optional: false, required: true
-  private _queueId?: string;
+  private _queueId?: string; 
   public get queueId() {
     return this.getStringAttribute('queue_id');
   }
@@ -602,7 +602,7 @@ export class ConnectRoutingProfile extends cdktn.TerraformResource {
   }
 
   // default_outbound_queue_id - computed: false, optional: false, required: true
-  private _defaultOutboundQueueId?: string;
+  private _defaultOutboundQueueId?: string; 
   public get defaultOutboundQueueId() {
     return this.getStringAttribute('default_outbound_queue_id');
   }
@@ -615,7 +615,7 @@ export class ConnectRoutingProfile extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: false, required: true
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -628,7 +628,7 @@ export class ConnectRoutingProfile extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -644,7 +644,7 @@ export class ConnectRoutingProfile extends cdktn.TerraformResource {
   }
 
   // instance_id - computed: false, optional: false, required: true
-  private _instanceId?: string;
+  private _instanceId?: string; 
   public get instanceId() {
     return this.getStringAttribute('instance_id');
   }
@@ -657,7 +657,7 @@ export class ConnectRoutingProfile extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -670,7 +670,7 @@ export class ConnectRoutingProfile extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -691,7 +691,7 @@ export class ConnectRoutingProfile extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -707,7 +707,7 @@ export class ConnectRoutingProfile extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

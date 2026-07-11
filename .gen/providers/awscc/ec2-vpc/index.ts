@@ -31,7 +31,7 @@ export interface Ec2VpcConfig extends cdktn.TerraformMetaArguments {
   * The allowed tenancy of instances launched into the VPC.
   *   +  ``default``: An instance launched into the VPC runs on shared hardware by default, unless you explicitly specify a different tenancy during instance launch.
   *   +  ``dedicated``: An instance launched into the VPC runs on dedicated hardware by default, unless you explicitly specify a tenancy of ``host`` during instance launch. You cannot specify a tenancy of ``default`` during instance launch.
-  *
+  *   
   *  Updating ``InstanceTenancy`` requires no replacement only if you are updating its value from ``dedicated`` to ``default``. Updating ``InstanceTenancy`` from ``default`` to ``dedicated`` requires replacement.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_vpc#instance_tenancy Ec2Vpc#instance_tenancy}
@@ -159,7 +159,7 @@ export class Ec2VpcTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -175,7 +175,7 @@ export class Ec2VpcTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -275,7 +275,7 @@ export class Ec2Vpc extends cdktn.TerraformResource {
   // ==========
 
   // cidr_block - computed: true, optional: true, required: false
-  private _cidrBlock?: string;
+  private _cidrBlock?: string; 
   public get cidrBlock() {
     return this.getStringAttribute('cidr_block');
   }
@@ -306,7 +306,7 @@ export class Ec2Vpc extends cdktn.TerraformResource {
   }
 
   // enable_dns_hostnames - computed: true, optional: true, required: false
-  private _enableDnsHostnames?: boolean | cdktn.IResolvable;
+  private _enableDnsHostnames?: boolean | cdktn.IResolvable; 
   public get enableDnsHostnames() {
     return this.getBooleanAttribute('enable_dns_hostnames');
   }
@@ -322,7 +322,7 @@ export class Ec2Vpc extends cdktn.TerraformResource {
   }
 
   // enable_dns_support - computed: true, optional: true, required: false
-  private _enableDnsSupport?: boolean | cdktn.IResolvable;
+  private _enableDnsSupport?: boolean | cdktn.IResolvable; 
   public get enableDnsSupport() {
     return this.getBooleanAttribute('enable_dns_support');
   }
@@ -343,7 +343,7 @@ export class Ec2Vpc extends cdktn.TerraformResource {
   }
 
   // instance_tenancy - computed: true, optional: true, required: false
-  private _instanceTenancy?: string;
+  private _instanceTenancy?: string; 
   public get instanceTenancy() {
     return this.getStringAttribute('instance_tenancy');
   }
@@ -359,7 +359,7 @@ export class Ec2Vpc extends cdktn.TerraformResource {
   }
 
   // ipv_4_ipam_pool_id - computed: true, optional: true, required: false
-  private _ipv4IpamPoolId?: string;
+  private _ipv4IpamPoolId?: string; 
   public get ipv4IpamPoolId() {
     return this.getStringAttribute('ipv_4_ipam_pool_id');
   }
@@ -375,7 +375,7 @@ export class Ec2Vpc extends cdktn.TerraformResource {
   }
 
   // ipv_4_netmask_length - computed: true, optional: true, required: false
-  private _ipv4NetmaskLength?: number;
+  private _ipv4NetmaskLength?: number; 
   public get ipv4NetmaskLength() {
     return this.getNumberAttribute('ipv_4_netmask_length');
   }

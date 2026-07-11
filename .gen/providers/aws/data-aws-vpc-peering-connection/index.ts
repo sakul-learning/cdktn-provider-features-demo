@@ -457,7 +457,7 @@ export class DataAwsVpcPeeringConnectionFilterOutputReference extends cdktn.Comp
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -470,7 +470,7 @@ export class DataAwsVpcPeeringConnectionFilterOutputReference extends cdktn.Comp
   }
 
   // values - computed: false, optional: false, required: true
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -581,7 +581,7 @@ export class DataAwsVpcPeeringConnectionTimeoutsOutputReference extends cdktn.Co
   }
 
   // read - computed: false, optional: true, required: false
-  private _read?: string;
+  private _read?: string; 
   public get read() {
     return this.getStringAttribute('read');
   }
@@ -671,7 +671,7 @@ export class DataAwsVpcPeeringConnection extends cdktn.TerraformDataSource {
   }
 
   // cidr_block - computed: true, optional: true, required: false
-  private _cidrBlock?: string;
+  private _cidrBlock?: string; 
   public get cidrBlock() {
     return this.getStringAttribute('cidr_block');
   }
@@ -693,7 +693,7 @@ export class DataAwsVpcPeeringConnection extends cdktn.TerraformDataSource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -715,7 +715,7 @@ export class DataAwsVpcPeeringConnection extends cdktn.TerraformDataSource {
   }
 
   // owner_id - computed: true, optional: true, required: false
-  private _ownerId?: string;
+  private _ownerId?: string; 
   public get ownerId() {
     return this.getStringAttribute('owner_id');
   }
@@ -731,7 +731,7 @@ export class DataAwsVpcPeeringConnection extends cdktn.TerraformDataSource {
   }
 
   // peer_cidr_block - computed: true, optional: true, required: false
-  private _peerCidrBlock?: string;
+  private _peerCidrBlock?: string; 
   public get peerCidrBlock() {
     return this.getStringAttribute('peer_cidr_block');
   }
@@ -759,7 +759,7 @@ export class DataAwsVpcPeeringConnection extends cdktn.TerraformDataSource {
   }
 
   // peer_owner_id - computed: true, optional: true, required: false
-  private _peerOwnerId?: string;
+  private _peerOwnerId?: string; 
   public get peerOwnerId() {
     return this.getStringAttribute('peer_owner_id');
   }
@@ -780,7 +780,7 @@ export class DataAwsVpcPeeringConnection extends cdktn.TerraformDataSource {
   }
 
   // peer_vpc_id - computed: true, optional: true, required: false
-  private _peerVpcId?: string;
+  private _peerVpcId?: string; 
   public get peerVpcId() {
     return this.getStringAttribute('peer_vpc_id');
   }
@@ -812,7 +812,7 @@ export class DataAwsVpcPeeringConnection extends cdktn.TerraformDataSource {
   }
 
   // status - computed: true, optional: true, required: false
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -828,7 +828,7 @@ export class DataAwsVpcPeeringConnection extends cdktn.TerraformDataSource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -844,7 +844,7 @@ export class DataAwsVpcPeeringConnection extends cdktn.TerraformDataSource {
   }
 
   // vpc_id - computed: true, optional: true, required: false
-  private _vpcId?: string;
+  private _vpcId?: string; 
   public get vpcId() {
     return this.getStringAttribute('vpc_id');
   }

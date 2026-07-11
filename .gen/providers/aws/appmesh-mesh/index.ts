@@ -108,7 +108,7 @@ export class AppmeshMeshSpecEgressFilterOutputReference extends cdktn.ComplexObj
   }
 
   // type - computed: false, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -192,7 +192,7 @@ export class AppmeshMeshSpecServiceDiscoveryOutputReference extends cdktn.Comple
   }
 
   // ip_preference - computed: false, optional: true, required: false
-  private _ipPreference?: string;
+  private _ipPreference?: string; 
   public get ipPreference() {
     return this.getStringAttribute('ip_preference');
   }
@@ -402,7 +402,7 @@ export class AppmeshMesh extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -428,7 +428,7 @@ export class AppmeshMesh extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -441,7 +441,7 @@ export class AppmeshMesh extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -462,7 +462,7 @@ export class AppmeshMesh extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -478,7 +478,7 @@ export class AppmeshMesh extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

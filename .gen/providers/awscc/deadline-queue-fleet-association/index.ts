@@ -81,7 +81,7 @@ export class DeadlineQueueFleetAssociation extends cdktn.TerraformResource {
   // ==========
 
   // farm_id - computed: false, optional: false, required: true
-  private _farmId?: string;
+  private _farmId?: string; 
   public get farmId() {
     return this.getStringAttribute('farm_id');
   }
@@ -94,7 +94,7 @@ export class DeadlineQueueFleetAssociation extends cdktn.TerraformResource {
   }
 
   // fleet_id - computed: false, optional: false, required: true
-  private _fleetId?: string;
+  private _fleetId?: string; 
   public get fleetId() {
     return this.getStringAttribute('fleet_id');
   }
@@ -112,7 +112,7 @@ export class DeadlineQueueFleetAssociation extends cdktn.TerraformResource {
   }
 
   // queue_id - computed: false, optional: false, required: true
-  private _queueId?: string;
+  private _queueId?: string; 
   public get queueId() {
     return this.getStringAttribute('queue_id');
   }

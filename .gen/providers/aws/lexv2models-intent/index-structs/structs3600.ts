@@ -92,7 +92,7 @@ export class Lexv2ModelsIntentInitialResponseSettingInitialResponseMessageGroupV
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -222,7 +222,7 @@ export class Lexv2ModelsIntentInitialResponseSettingInitialResponseMessageGroupV
   }
 
   // text - computed: false, optional: false, required: true
-  private _text?: string;
+  private _text?: string; 
   public get text() {
     return this.getStringAttribute('text');
   }
@@ -235,7 +235,7 @@ export class Lexv2ModelsIntentInitialResponseSettingInitialResponseMessageGroupV
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -401,7 +401,7 @@ export class Lexv2ModelsIntentInitialResponseSettingInitialResponseMessageGroupV
   }
 
   // image_url - computed: false, optional: true, required: false
-  private _imageUrl?: string;
+  private _imageUrl?: string; 
   public get imageUrl() {
     return this.getStringAttribute('image_url');
   }
@@ -417,7 +417,7 @@ export class Lexv2ModelsIntentInitialResponseSettingInitialResponseMessageGroupV
   }
 
   // subtitle - computed: false, optional: true, required: false
-  private _subtitle?: string;
+  private _subtitle?: string; 
   public get subtitle() {
     return this.getStringAttribute('subtitle');
   }
@@ -433,7 +433,7 @@ export class Lexv2ModelsIntentInitialResponseSettingInitialResponseMessageGroupV
   }
 
   // title - computed: false, optional: false, required: true
-  private _title?: string;
+  private _title?: string; 
   public get title() {
     return this.getStringAttribute('title');
   }
@@ -562,7 +562,7 @@ export class Lexv2ModelsIntentInitialResponseSettingInitialResponseMessageGroupV
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -675,7 +675,7 @@ export class Lexv2ModelsIntentInitialResponseSettingInitialResponseMessageGroupV
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1183,7 +1183,7 @@ export class Lexv2ModelsIntentInitialResponseSettingInitialResponseOutputReferen
   }
 
   // allow_interrupt - computed: false, optional: true, required: false
-  private _allowInterrupt?: boolean | cdktn.IResolvable;
+  private _allowInterrupt?: boolean | cdktn.IResolvable; 
   public get allowInterrupt() {
     return this.getBooleanAttribute('allow_interrupt');
   }
@@ -1349,7 +1349,7 @@ export class Lexv2ModelsIntentInitialResponseSettingNextStepDialogActionOutputRe
   }
 
   // slot_to_elicit - computed: false, optional: true, required: false
-  private _slotToElicit?: string;
+  private _slotToElicit?: string; 
   public get slotToElicit() {
     return this.getStringAttribute('slot_to_elicit');
   }
@@ -1365,7 +1365,7 @@ export class Lexv2ModelsIntentInitialResponseSettingNextStepDialogActionOutputRe
   }
 
   // suppress_next_message - computed: false, optional: true, required: false
-  private _suppressNextMessage?: boolean | cdktn.IResolvable;
+  private _suppressNextMessage?: boolean | cdktn.IResolvable; 
   public get suppressNextMessage() {
     return this.getBooleanAttribute('suppress_next_message');
   }
@@ -1381,7 +1381,7 @@ export class Lexv2ModelsIntentInitialResponseSettingNextStepDialogActionOutputRe
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -1494,7 +1494,7 @@ export class Lexv2ModelsIntentInitialResponseSettingNextStepIntentSlotValueOutpu
   }
 
   // interpreted_value - computed: false, optional: true, required: false
-  private _interpretedValue?: string;
+  private _interpretedValue?: string; 
   public get interpretedValue() {
     return this.getStringAttribute('interpreted_value');
   }
@@ -1646,7 +1646,7 @@ export class Lexv2ModelsIntentInitialResponseSettingNextStepIntentSlotOutputRefe
   }
 
   // map_block_key - computed: false, optional: false, required: true
-  private _mapBlockKey?: string;
+  private _mapBlockKey?: string; 
   public get mapBlockKey() {
     return this.getStringAttribute('map_block_key');
   }
@@ -1659,7 +1659,7 @@ export class Lexv2ModelsIntentInitialResponseSettingNextStepIntentSlotOutputRefe
   }
 
   // shape - computed: false, optional: true, required: false
-  private _shape?: string;
+  private _shape?: string; 
   public get shape() {
     return this.getStringAttribute('shape');
   }
@@ -1810,7 +1810,7 @@ export class Lexv2ModelsIntentInitialResponseSettingNextStepIntentOutputReferenc
   }
 
   // name - computed: false, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1980,7 +1980,7 @@ export class Lexv2ModelsIntentInitialResponseSettingNextStepOutputReference exte
   }
 
   // session_attributes - computed: false, optional: true, required: false
-  private _sessionAttributes?: { [key: string]: string };
+  private _sessionAttributes?: { [key: string]: string }; 
   public get sessionAttributes() {
     return this.getStringMapAttribute('session_attributes');
   }
@@ -2351,7 +2351,7 @@ export class Lexv2ModelsIntentInputContextOutputReference extends cdktn.ComplexO
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2498,7 +2498,7 @@ export class Lexv2ModelsIntentKendraConfigurationOutputReference extends cdktn.C
   }
 
   // kendra_index - computed: false, optional: false, required: true
-  private _kendraIndex?: string;
+  private _kendraIndex?: string; 
   public get kendraIndex() {
     return this.getStringAttribute('kendra_index');
   }
@@ -2511,7 +2511,7 @@ export class Lexv2ModelsIntentKendraConfigurationOutputReference extends cdktn.C
   }
 
   // query_filter_string - computed: false, optional: true, required: false
-  private _queryFilterString?: string;
+  private _queryFilterString?: string; 
   public get queryFilterString() {
     return this.getStringAttribute('query_filter_string');
   }
@@ -2527,7 +2527,7 @@ export class Lexv2ModelsIntentKendraConfigurationOutputReference extends cdktn.C
   }
 
   // query_filter_string_enabled - computed: false, optional: true, required: false
-  private _queryFilterStringEnabled?: boolean | cdktn.IResolvable;
+  private _queryFilterStringEnabled?: boolean | cdktn.IResolvable; 
   public get queryFilterStringEnabled() {
     return this.getBooleanAttribute('query_filter_string_enabled');
   }
@@ -2677,7 +2677,7 @@ export class Lexv2ModelsIntentOutputContextOutputReference extends cdktn.Complex
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2690,7 +2690,7 @@ export class Lexv2ModelsIntentOutputContextOutputReference extends cdktn.Complex
   }
 
   // time_to_live_in_seconds - computed: false, optional: false, required: true
-  private _timeToLiveInSeconds?: number;
+  private _timeToLiveInSeconds?: number; 
   public get timeToLiveInSeconds() {
     return this.getNumberAttribute('time_to_live_in_seconds');
   }
@@ -2703,7 +2703,7 @@ export class Lexv2ModelsIntentOutputContextOutputReference extends cdktn.Complex
   }
 
   // turns_to_live - computed: false, optional: false, required: true
-  private _turnsToLive?: number;
+  private _turnsToLive?: number; 
   public get turnsToLive() {
     return this.getNumberAttribute('turns_to_live');
   }
@@ -2833,7 +2833,7 @@ export class Lexv2ModelsIntentQnaIntentConfigurationBedrockModelConfigurationGua
   }
 
   // identifier - computed: false, optional: false, required: true
-  private _identifier?: string;
+  private _identifier?: string; 
   public get identifier() {
     return this.getStringAttribute('identifier');
   }
@@ -2846,7 +2846,7 @@ export class Lexv2ModelsIntentQnaIntentConfigurationBedrockModelConfigurationGua
   }
 
   // version - computed: false, optional: false, required: true
-  private _version?: string;
+  private _version?: string; 
   public get version() {
     return this.getStringAttribute('version');
   }
@@ -3012,7 +3012,7 @@ export class Lexv2ModelsIntentQnaIntentConfigurationBedrockModelConfigurationOut
   }
 
   // custom_prompt - computed: false, optional: true, required: false
-  private _customPrompt?: string;
+  private _customPrompt?: string; 
   public get customPrompt() {
     return this.getStringAttribute('custom_prompt');
   }
@@ -3028,7 +3028,7 @@ export class Lexv2ModelsIntentQnaIntentConfigurationBedrockModelConfigurationOut
   }
 
   // model_arn - computed: false, optional: false, required: true
-  private _modelArn?: string;
+  private _modelArn?: string; 
   public get modelArn() {
     return this.getStringAttribute('model_arn');
   }
@@ -3041,7 +3041,7 @@ export class Lexv2ModelsIntentQnaIntentConfigurationBedrockModelConfigurationOut
   }
 
   // trace_status - computed: false, optional: true, required: false
-  private _traceStatus?: string;
+  private _traceStatus?: string; 
   public get traceStatus() {
     return this.getStringAttribute('trace_status');
   }
@@ -3173,7 +3173,7 @@ export class Lexv2ModelsIntentQnaIntentConfigurationDataSourceConfigurationBedro
   }
 
   // answer_field - computed: false, optional: true, required: false
-  private _answerField?: string;
+  private _answerField?: string; 
   public get answerField() {
     return this.getStringAttribute('answer_field');
   }
@@ -3325,7 +3325,7 @@ export class Lexv2ModelsIntentQnaIntentConfigurationDataSourceConfigurationBedro
   }
 
   // bedrock_knowledge_base_arn - computed: false, optional: false, required: true
-  private _bedrockKnowledgeBaseArn?: string;
+  private _bedrockKnowledgeBaseArn?: string; 
   public get bedrockKnowledgeBaseArn() {
     return this.getStringAttribute('bedrock_knowledge_base_arn');
   }
@@ -3338,7 +3338,7 @@ export class Lexv2ModelsIntentQnaIntentConfigurationDataSourceConfigurationBedro
   }
 
   // exact_response - computed: true, optional: true, required: false
-  private _exactResponse?: boolean | cdktn.IResolvable;
+  private _exactResponse?: boolean | cdktn.IResolvable; 
   public get exactResponse() {
     return this.getBooleanAttribute('exact_response');
   }
@@ -3521,7 +3521,7 @@ export class Lexv2ModelsIntentQnaIntentConfigurationDataSourceConfigurationKendr
   }
 
   // exact_response - computed: true, optional: true, required: false
-  private _exactResponse?: boolean | cdktn.IResolvable;
+  private _exactResponse?: boolean | cdktn.IResolvable; 
   public get exactResponse() {
     return this.getBooleanAttribute('exact_response');
   }
@@ -3537,7 +3537,7 @@ export class Lexv2ModelsIntentQnaIntentConfigurationDataSourceConfigurationKendr
   }
 
   // kendra_index - computed: false, optional: false, required: true
-  private _kendraIndex?: string;
+  private _kendraIndex?: string; 
   public get kendraIndex() {
     return this.getStringAttribute('kendra_index');
   }
@@ -3550,7 +3550,7 @@ export class Lexv2ModelsIntentQnaIntentConfigurationDataSourceConfigurationKendr
   }
 
   // query_filter_string - computed: false, optional: true, required: false
-  private _queryFilterString?: string;
+  private _queryFilterString?: string; 
   public get queryFilterString() {
     return this.getStringAttribute('query_filter_string');
   }
@@ -3566,7 +3566,7 @@ export class Lexv2ModelsIntentQnaIntentConfigurationDataSourceConfigurationKendr
   }
 
   // query_filter_string_enabled - computed: false, optional: true, required: false
-  private _queryFilterStringEnabled?: boolean | cdktn.IResolvable;
+  private _queryFilterStringEnabled?: boolean | cdktn.IResolvable; 
   public get queryFilterStringEnabled() {
     return this.getBooleanAttribute('query_filter_string_enabled');
   }
@@ -3699,7 +3699,7 @@ export class Lexv2ModelsIntentQnaIntentConfigurationDataSourceConfigurationOpens
   }
 
   // answer_field - computed: false, optional: false, required: true
-  private _answerField?: string;
+  private _answerField?: string; 
   public get answerField() {
     return this.getStringAttribute('answer_field');
   }
@@ -3712,7 +3712,7 @@ export class Lexv2ModelsIntentQnaIntentConfigurationDataSourceConfigurationOpens
   }
 
   // question_field - computed: false, optional: false, required: true
-  private _questionField?: string;
+  private _questionField?: string; 
   public get questionField() {
     return this.getStringAttribute('question_field');
   }
@@ -3895,7 +3895,7 @@ export class Lexv2ModelsIntentQnaIntentConfigurationDataSourceConfigurationOpens
   }
 
   // domain_endpoint - computed: false, optional: false, required: true
-  private _domainEndpoint?: string;
+  private _domainEndpoint?: string; 
   public get domainEndpoint() {
     return this.getStringAttribute('domain_endpoint');
   }
@@ -3908,7 +3908,7 @@ export class Lexv2ModelsIntentQnaIntentConfigurationDataSourceConfigurationOpens
   }
 
   // exact_response - computed: true, optional: true, required: false
-  private _exactResponse?: boolean | cdktn.IResolvable;
+  private _exactResponse?: boolean | cdktn.IResolvable; 
   public get exactResponse() {
     return this.getBooleanAttribute('exact_response');
   }
@@ -3924,7 +3924,7 @@ export class Lexv2ModelsIntentQnaIntentConfigurationDataSourceConfigurationOpens
   }
 
   // include_fields - computed: false, optional: true, required: false
-  private _includeFields?: string[];
+  private _includeFields?: string[]; 
   public get includeFields() {
     return this.getListAttribute('include_fields');
   }
@@ -3940,7 +3940,7 @@ export class Lexv2ModelsIntentQnaIntentConfigurationDataSourceConfigurationOpens
   }
 
   // index_name - computed: false, optional: false, required: true
-  private _indexName?: string;
+  private _indexName?: string; 
   public get indexName() {
     return this.getStringAttribute('index_name');
   }
@@ -4410,7 +4410,7 @@ export class Lexv2ModelsIntentSampleUtteranceOutputReference extends cdktn.Compl
   }
 
   // utterance - computed: false, optional: false, required: true
-  private _utterance?: string;
+  private _utterance?: string; 
   public get utterance() {
     return this.getStringAttribute('utterance');
   }
@@ -4540,7 +4540,7 @@ export class Lexv2ModelsIntentSlotPriorityOutputReference extends cdktn.ComplexO
   }
 
   // priority - computed: false, optional: false, required: true
-  private _priority?: number;
+  private _priority?: number; 
   public get priority() {
     return this.getNumberAttribute('priority');
   }
@@ -4553,7 +4553,7 @@ export class Lexv2ModelsIntentSlotPriorityOutputReference extends cdktn.ComplexO
   }
 
   // slot_id - computed: false, optional: false, required: true
-  private _slotId?: string;
+  private _slotId?: string; 
   public get slotId() {
     return this.getStringAttribute('slot_id');
   }
@@ -4704,7 +4704,7 @@ export class Lexv2ModelsIntentTimeoutsOutputReference extends cdktn.ComplexObjec
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -4720,7 +4720,7 @@ export class Lexv2ModelsIntentTimeoutsOutputReference extends cdktn.ComplexObjec
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -4736,7 +4736,7 @@ export class Lexv2ModelsIntentTimeoutsOutputReference extends cdktn.ComplexObjec
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }

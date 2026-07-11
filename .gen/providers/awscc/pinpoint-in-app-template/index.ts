@@ -145,7 +145,7 @@ export class PinpointInAppTemplateContentBodyConfigOutputReference extends cdktn
   }
 
   // alignment - computed: true, optional: true, required: false
-  private _alignment?: string;
+  private _alignment?: string; 
   public get alignment() {
     return this.getStringAttribute('alignment');
   }
@@ -161,7 +161,7 @@ export class PinpointInAppTemplateContentBodyConfigOutputReference extends cdktn
   }
 
   // body - computed: true, optional: true, required: false
-  private _body?: string;
+  private _body?: string; 
   public get body() {
     return this.getStringAttribute('body');
   }
@@ -177,7 +177,7 @@ export class PinpointInAppTemplateContentBodyConfigOutputReference extends cdktn
   }
 
   // text_color - computed: true, optional: true, required: false
-  private _textColor?: string;
+  private _textColor?: string; 
   public get textColor() {
     return this.getStringAttribute('text_color');
   }
@@ -305,7 +305,7 @@ export class PinpointInAppTemplateContentHeaderConfigOutputReference extends cdk
   }
 
   // alignment - computed: true, optional: true, required: false
-  private _alignment?: string;
+  private _alignment?: string; 
   public get alignment() {
     return this.getStringAttribute('alignment');
   }
@@ -321,7 +321,7 @@ export class PinpointInAppTemplateContentHeaderConfigOutputReference extends cdk
   }
 
   // header - computed: true, optional: true, required: false
-  private _header?: string;
+  private _header?: string; 
   public get header() {
     return this.getStringAttribute('header');
   }
@@ -337,7 +337,7 @@ export class PinpointInAppTemplateContentHeaderConfigOutputReference extends cdk
   }
 
   // text_color - computed: true, optional: true, required: false
-  private _textColor?: string;
+  private _textColor?: string; 
   public get textColor() {
     return this.getStringAttribute('text_color');
   }
@@ -448,7 +448,7 @@ export class PinpointInAppTemplateContentPrimaryBtnAndroidOutputReference extend
   }
 
   // button_action - computed: true, optional: true, required: false
-  private _buttonAction?: string;
+  private _buttonAction?: string; 
   public get buttonAction() {
     return this.getStringAttribute('button_action');
   }
@@ -464,7 +464,7 @@ export class PinpointInAppTemplateContentPrimaryBtnAndroidOutputReference extend
   }
 
   // link - computed: true, optional: true, required: false
-  private _link?: string;
+  private _link?: string; 
   public get link() {
     return this.getStringAttribute('link');
   }
@@ -643,7 +643,7 @@ export class PinpointInAppTemplateContentPrimaryBtnDefaultConfigOutputReference 
   }
 
   // background_color - computed: true, optional: true, required: false
-  private _backgroundColor?: string;
+  private _backgroundColor?: string; 
   public get backgroundColor() {
     return this.getStringAttribute('background_color');
   }
@@ -659,7 +659,7 @@ export class PinpointInAppTemplateContentPrimaryBtnDefaultConfigOutputReference 
   }
 
   // border_radius - computed: true, optional: true, required: false
-  private _borderRadius?: number;
+  private _borderRadius?: number; 
   public get borderRadius() {
     return this.getNumberAttribute('border_radius');
   }
@@ -675,7 +675,7 @@ export class PinpointInAppTemplateContentPrimaryBtnDefaultConfigOutputReference 
   }
 
   // button_action - computed: true, optional: true, required: false
-  private _buttonAction?: string;
+  private _buttonAction?: string; 
   public get buttonAction() {
     return this.getStringAttribute('button_action');
   }
@@ -691,7 +691,7 @@ export class PinpointInAppTemplateContentPrimaryBtnDefaultConfigOutputReference 
   }
 
   // link - computed: true, optional: true, required: false
-  private _link?: string;
+  private _link?: string; 
   public get link() {
     return this.getStringAttribute('link');
   }
@@ -707,7 +707,7 @@ export class PinpointInAppTemplateContentPrimaryBtnDefaultConfigOutputReference 
   }
 
   // text - computed: true, optional: true, required: false
-  private _text?: string;
+  private _text?: string; 
   public get text() {
     return this.getStringAttribute('text');
   }
@@ -723,7 +723,7 @@ export class PinpointInAppTemplateContentPrimaryBtnDefaultConfigOutputReference 
   }
 
   // text_color - computed: true, optional: true, required: false
-  private _textColor?: string;
+  private _textColor?: string; 
   public get textColor() {
     return this.getStringAttribute('text_color');
   }
@@ -834,7 +834,7 @@ export class PinpointInAppTemplateContentPrimaryBtnIosOutputReference extends cd
   }
 
   // button_action - computed: true, optional: true, required: false
-  private _buttonAction?: string;
+  private _buttonAction?: string; 
   public get buttonAction() {
     return this.getStringAttribute('button_action');
   }
@@ -850,7 +850,7 @@ export class PinpointInAppTemplateContentPrimaryBtnIosOutputReference extends cd
   }
 
   // link - computed: true, optional: true, required: false
-  private _link?: string;
+  private _link?: string; 
   public get link() {
     return this.getStringAttribute('link');
   }
@@ -961,7 +961,7 @@ export class PinpointInAppTemplateContentPrimaryBtnWebOutputReference extends cd
   }
 
   // button_action - computed: true, optional: true, required: false
-  private _buttonAction?: string;
+  private _buttonAction?: string; 
   public get buttonAction() {
     return this.getStringAttribute('button_action');
   }
@@ -977,7 +977,7 @@ export class PinpointInAppTemplateContentPrimaryBtnWebOutputReference extends cd
   }
 
   // link - computed: true, optional: true, required: false
-  private _link?: string;
+  private _link?: string; 
   public get link() {
     return this.getStringAttribute('link');
   }
@@ -1281,7 +1281,7 @@ export class PinpointInAppTemplateContentSecondaryBtnAndroidOutputReference exte
   }
 
   // button_action - computed: true, optional: true, required: false
-  private _buttonAction?: string;
+  private _buttonAction?: string; 
   public get buttonAction() {
     return this.getStringAttribute('button_action');
   }
@@ -1297,7 +1297,7 @@ export class PinpointInAppTemplateContentSecondaryBtnAndroidOutputReference exte
   }
 
   // link - computed: true, optional: true, required: false
-  private _link?: string;
+  private _link?: string; 
   public get link() {
     return this.getStringAttribute('link');
   }
@@ -1476,7 +1476,7 @@ export class PinpointInAppTemplateContentSecondaryBtnDefaultConfigOutputReferenc
   }
 
   // background_color - computed: true, optional: true, required: false
-  private _backgroundColor?: string;
+  private _backgroundColor?: string; 
   public get backgroundColor() {
     return this.getStringAttribute('background_color');
   }
@@ -1492,7 +1492,7 @@ export class PinpointInAppTemplateContentSecondaryBtnDefaultConfigOutputReferenc
   }
 
   // border_radius - computed: true, optional: true, required: false
-  private _borderRadius?: number;
+  private _borderRadius?: number; 
   public get borderRadius() {
     return this.getNumberAttribute('border_radius');
   }
@@ -1508,7 +1508,7 @@ export class PinpointInAppTemplateContentSecondaryBtnDefaultConfigOutputReferenc
   }
 
   // button_action - computed: true, optional: true, required: false
-  private _buttonAction?: string;
+  private _buttonAction?: string; 
   public get buttonAction() {
     return this.getStringAttribute('button_action');
   }
@@ -1524,7 +1524,7 @@ export class PinpointInAppTemplateContentSecondaryBtnDefaultConfigOutputReferenc
   }
 
   // link - computed: true, optional: true, required: false
-  private _link?: string;
+  private _link?: string; 
   public get link() {
     return this.getStringAttribute('link');
   }
@@ -1540,7 +1540,7 @@ export class PinpointInAppTemplateContentSecondaryBtnDefaultConfigOutputReferenc
   }
 
   // text - computed: true, optional: true, required: false
-  private _text?: string;
+  private _text?: string; 
   public get text() {
     return this.getStringAttribute('text');
   }
@@ -1556,7 +1556,7 @@ export class PinpointInAppTemplateContentSecondaryBtnDefaultConfigOutputReferenc
   }
 
   // text_color - computed: true, optional: true, required: false
-  private _textColor?: string;
+  private _textColor?: string; 
   public get textColor() {
     return this.getStringAttribute('text_color');
   }
@@ -1667,7 +1667,7 @@ export class PinpointInAppTemplateContentSecondaryBtnIosOutputReference extends 
   }
 
   // button_action - computed: true, optional: true, required: false
-  private _buttonAction?: string;
+  private _buttonAction?: string; 
   public get buttonAction() {
     return this.getStringAttribute('button_action');
   }
@@ -1683,7 +1683,7 @@ export class PinpointInAppTemplateContentSecondaryBtnIosOutputReference extends 
   }
 
   // link - computed: true, optional: true, required: false
-  private _link?: string;
+  private _link?: string; 
   public get link() {
     return this.getStringAttribute('link');
   }
@@ -1794,7 +1794,7 @@ export class PinpointInAppTemplateContentSecondaryBtnWebOutputReference extends 
   }
 
   // button_action - computed: true, optional: true, required: false
-  private _buttonAction?: string;
+  private _buttonAction?: string; 
   public get buttonAction() {
     return this.getStringAttribute('button_action');
   }
@@ -1810,7 +1810,7 @@ export class PinpointInAppTemplateContentSecondaryBtnWebOutputReference extends 
   }
 
   // link - computed: true, optional: true, required: false
-  private _link?: string;
+  private _link?: string; 
   public get link() {
     return this.getStringAttribute('link');
   }
@@ -2184,7 +2184,7 @@ export class PinpointInAppTemplateContentOutputReference extends cdktn.ComplexOb
   }
 
   // background_color - computed: true, optional: true, required: false
-  private _backgroundColor?: string;
+  private _backgroundColor?: string; 
   public get backgroundColor() {
     return this.getStringAttribute('background_color');
   }
@@ -2232,7 +2232,7 @@ export class PinpointInAppTemplateContentOutputReference extends cdktn.ComplexOb
   }
 
   // image_url - computed: true, optional: true, required: false
-  private _imageUrl?: string;
+  private _imageUrl?: string; 
   public get imageUrl() {
     return this.getStringAttribute('image_url');
   }
@@ -2384,7 +2384,7 @@ export class PinpointInAppTemplate extends cdktn.TerraformResource {
   }
 
   // custom_config - computed: true, optional: true, required: false
-  private _customConfig?: string;
+  private _customConfig?: string; 
   public get customConfig() {
     return this.getStringAttribute('custom_config');
   }
@@ -2405,7 +2405,7 @@ export class PinpointInAppTemplate extends cdktn.TerraformResource {
   }
 
   // layout - computed: true, optional: true, required: false
-  private _layout?: string;
+  private _layout?: string; 
   public get layout() {
     return this.getStringAttribute('layout');
   }
@@ -2421,7 +2421,7 @@ export class PinpointInAppTemplate extends cdktn.TerraformResource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: string;
+  private _tags?: string; 
   public get tags() {
     return this.getStringAttribute('tags');
   }
@@ -2437,7 +2437,7 @@ export class PinpointInAppTemplate extends cdktn.TerraformResource {
   }
 
   // template_description - computed: true, optional: true, required: false
-  private _templateDescription?: string;
+  private _templateDescription?: string; 
   public get templateDescription() {
     return this.getStringAttribute('template_description');
   }
@@ -2453,7 +2453,7 @@ export class PinpointInAppTemplate extends cdktn.TerraformResource {
   }
 
   // template_name - computed: false, optional: false, required: true
-  private _templateName?: string;
+  private _templateName?: string; 
   public get templateName() {
     return this.getStringAttribute('template_name');
   }

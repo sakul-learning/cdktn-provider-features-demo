@@ -81,7 +81,7 @@ export class PcaconnectorscepChallenge extends cdktn.TerraformResource {
   }
 
   // connector_arn - computed: false, optional: false, required: true
-  private _connectorArn?: string;
+  private _connectorArn?: string; 
   public get connectorArn() {
     return this.getStringAttribute('connector_arn');
   }
@@ -99,7 +99,7 @@ export class PcaconnectorscepChallenge extends cdktn.TerraformResource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

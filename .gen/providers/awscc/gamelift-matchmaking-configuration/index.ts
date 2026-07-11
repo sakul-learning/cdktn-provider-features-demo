@@ -212,7 +212,7 @@ export class GameliftMatchmakingConfigurationGamePropertiesOutputReference exten
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -228,7 +228,7 @@ export class GameliftMatchmakingConfigurationGamePropertiesOutputReference exten
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -365,7 +365,7 @@ export class GameliftMatchmakingConfigurationTagsOutputReference extends cdktn.C
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -381,7 +381,7 @@ export class GameliftMatchmakingConfigurationTagsOutputReference extends cdktn.C
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -491,7 +491,7 @@ export class GameliftMatchmakingConfiguration extends cdktn.TerraformResource {
   // ==========
 
   // acceptance_required - computed: false, optional: false, required: true
-  private _acceptanceRequired?: boolean | cdktn.IResolvable;
+  private _acceptanceRequired?: boolean | cdktn.IResolvable; 
   public get acceptanceRequired() {
     return this.getBooleanAttribute('acceptance_required');
   }
@@ -504,7 +504,7 @@ export class GameliftMatchmakingConfiguration extends cdktn.TerraformResource {
   }
 
   // acceptance_timeout_seconds - computed: true, optional: true, required: false
-  private _acceptanceTimeoutSeconds?: number;
+  private _acceptanceTimeoutSeconds?: number; 
   public get acceptanceTimeoutSeconds() {
     return this.getNumberAttribute('acceptance_timeout_seconds');
   }
@@ -520,7 +520,7 @@ export class GameliftMatchmakingConfiguration extends cdktn.TerraformResource {
   }
 
   // additional_player_count - computed: true, optional: true, required: false
-  private _additionalPlayerCount?: number;
+  private _additionalPlayerCount?: number; 
   public get additionalPlayerCount() {
     return this.getNumberAttribute('additional_player_count');
   }
@@ -541,7 +541,7 @@ export class GameliftMatchmakingConfiguration extends cdktn.TerraformResource {
   }
 
   // backfill_mode - computed: true, optional: true, required: false
-  private _backfillMode?: string;
+  private _backfillMode?: string; 
   public get backfillMode() {
     return this.getStringAttribute('backfill_mode');
   }
@@ -557,7 +557,7 @@ export class GameliftMatchmakingConfiguration extends cdktn.TerraformResource {
   }
 
   // creation_time - computed: true, optional: true, required: false
-  private _creationTime?: string;
+  private _creationTime?: string; 
   public get creationTime() {
     return this.getStringAttribute('creation_time');
   }
@@ -573,7 +573,7 @@ export class GameliftMatchmakingConfiguration extends cdktn.TerraformResource {
   }
 
   // custom_event_data - computed: true, optional: true, required: false
-  private _customEventData?: string;
+  private _customEventData?: string; 
   public get customEventData() {
     return this.getStringAttribute('custom_event_data');
   }
@@ -589,7 +589,7 @@ export class GameliftMatchmakingConfiguration extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -605,7 +605,7 @@ export class GameliftMatchmakingConfiguration extends cdktn.TerraformResource {
   }
 
   // flex_match_mode - computed: true, optional: true, required: false
-  private _flexMatchMode?: string;
+  private _flexMatchMode?: string; 
   public get flexMatchMode() {
     return this.getStringAttribute('flex_match_mode');
   }
@@ -637,7 +637,7 @@ export class GameliftMatchmakingConfiguration extends cdktn.TerraformResource {
   }
 
   // game_session_data - computed: true, optional: true, required: false
-  private _gameSessionData?: string;
+  private _gameSessionData?: string; 
   public get gameSessionData() {
     return this.getStringAttribute('game_session_data');
   }
@@ -653,7 +653,7 @@ export class GameliftMatchmakingConfiguration extends cdktn.TerraformResource {
   }
 
   // game_session_queue_arns - computed: true, optional: true, required: false
-  private _gameSessionQueueArns?: string[];
+  private _gameSessionQueueArns?: string[]; 
   public get gameSessionQueueArns() {
     return this.getListAttribute('game_session_queue_arns');
   }
@@ -674,7 +674,7 @@ export class GameliftMatchmakingConfiguration extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -687,7 +687,7 @@ export class GameliftMatchmakingConfiguration extends cdktn.TerraformResource {
   }
 
   // notification_target - computed: true, optional: true, required: false
-  private _notificationTarget?: string;
+  private _notificationTarget?: string; 
   public get notificationTarget() {
     return this.getStringAttribute('notification_target');
   }
@@ -703,7 +703,7 @@ export class GameliftMatchmakingConfiguration extends cdktn.TerraformResource {
   }
 
   // request_timeout_seconds - computed: false, optional: false, required: true
-  private _requestTimeoutSeconds?: number;
+  private _requestTimeoutSeconds?: number; 
   public get requestTimeoutSeconds() {
     return this.getNumberAttribute('request_timeout_seconds');
   }
@@ -716,7 +716,7 @@ export class GameliftMatchmakingConfiguration extends cdktn.TerraformResource {
   }
 
   // rule_set_arn - computed: true, optional: true, required: false
-  private _ruleSetArn?: string;
+  private _ruleSetArn?: string; 
   public get ruleSetArn() {
     return this.getStringAttribute('rule_set_arn');
   }
@@ -732,7 +732,7 @@ export class GameliftMatchmakingConfiguration extends cdktn.TerraformResource {
   }
 
   // rule_set_name - computed: false, optional: false, required: true
-  private _ruleSetName?: string;
+  private _ruleSetName?: string; 
   public get ruleSetName() {
     return this.getStringAttribute('rule_set_name');
   }

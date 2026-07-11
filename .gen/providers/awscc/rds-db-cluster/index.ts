@@ -31,7 +31,7 @@ export interface RdsDbClusterConfig extends cdktn.TerraformMetaArguments {
   */
   readonly autoMinorVersionUpgrade?: boolean | cdktn.IResolvable;
   /**
-  * A list of Availability Zones (AZs) where instances in the DB cluster can be created. For information on AWS Regions and Availability Zones, see [Choosing the Regions and Availability Zones](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/Concepts.RegionsAndAvailabilityZones.html) in the *Amazon Aurora User Guide*.
+  * A list of Availability Zones (AZs) where instances in the DB cluster can be created. For information on AWS Regions and Availability Zones, see [Choosing the Regions and Availability Zones](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/Concepts.RegionsAndAvailabilityZones.html) in the *Amazon Aurora User Guide*. 
   *  Valid for: Aurora DB clusters only
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rds_db_cluster#availability_zones RdsDbCluster#availability_zones}
@@ -52,7 +52,7 @@ export interface RdsDbClusterConfig extends cdktn.TerraformMetaArguments {
   *  Default: 1
   *  Constraints:
   *   +  Must be a value from 1 to 35
-  *
+  *   
   *  Valid for: Aurora DB clusters and Multi-AZ DB clusters
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rds_db_cluster#backup_retention_period RdsDbCluster#backup_retention_period}
@@ -81,7 +81,7 @@ export interface RdsDbClusterConfig extends cdktn.TerraformMetaArguments {
   */
   readonly databaseInsightsMode?: string;
   /**
-  * The name of your database. If you don't provide a name, then Amazon RDS won't create a database in this DB cluster. For naming constraints, see [Naming Constraints](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/CHAP_Limits.html#RDS_Limits.Constraints) in the *Amazon Aurora User Guide*.
+  * The name of your database. If you don't provide a name, then Amazon RDS won't create a database in this DB cluster. For naming constraints, see [Naming Constraints](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/CHAP_Limits.html#RDS_Limits.Constraints) in the *Amazon Aurora User Guide*. 
   *  Valid for: Aurora DB clusters and Multi-AZ DB clusters
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rds_db_cluster#database_name RdsDbCluster#database_name}
@@ -93,7 +93,7 @@ export interface RdsDbClusterConfig extends cdktn.TerraformMetaArguments {
   *   +  Must contain from 1 to 63 letters, numbers, or hyphens.
   *   +  First character must be a letter.
   *   +  Can't end with a hyphen or contain two consecutive hyphens.
-  *
+  *   
   *  Example: ``my-cluster1``
   *  Valid for: Aurora DB clusters and Multi-AZ DB clusters
   *
@@ -114,7 +114,7 @@ export interface RdsDbClusterConfig extends cdktn.TerraformMetaArguments {
   *   If you apply a parameter group to an existing DB cluster, then its DB instances might need to reboot. This can result in an outage while the DB instances are rebooting.
   *  If you apply a change to parameter group associated with a stopped DB cluster, then the update stack waits until the DB cluster is started.
   *   To list all of the available DB cluster parameter group names, use the following command:
-  *   ``aws rds describe-db-cluster-parameter-groups --query "DBClusterParameterGroups[].DBClusterParameterGroupName" --output text``
+  *   ``aws rds describe-db-cluster-parameter-groups --query "DBClusterParameterGroups[].DBClusterParameterGroupName" --output text`` 
   *  Valid for: Aurora DB clusters and Multi-AZ DB clusters
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rds_db_cluster#db_cluster_parameter_group_name RdsDbCluster#db_cluster_parameter_group_name}
@@ -133,7 +133,7 @@ export interface RdsDbClusterConfig extends cdktn.TerraformMetaArguments {
   */
   readonly dbInstanceParameterGroupName?: string;
   /**
-  * A DB subnet group that you want to associate with this DB cluster.
+  * A DB subnet group that you want to associate with this DB cluster. 
   *  If you are restoring a DB cluster to a point in time with ``RestoreType`` set to ``copy-on-write``, and don't specify a DB subnet group name, then the DB cluster is restored with a default DB subnet group.
   *  Valid for: Aurora DB clusters and Multi-AZ DB clusters
   *
@@ -177,9 +177,9 @@ export interface RdsDbClusterConfig extends cdktn.TerraformMetaArguments {
   readonly domainIamRoleName?: string;
   /**
   * The list of log types that need to be enabled for exporting to CloudWatch Logs. The values in the list depend on the DB engine being used. For more information, see [Publishing Database Logs to Amazon CloudWatch Logs](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/USER_LogAccess.html#USER_LogAccess.Procedural.UploadtoCloudWatch) in the *Amazon Aurora User Guide*.
-  *   *Aurora MySQL*
+  *   *Aurora MySQL* 
   *  Valid values: ``audit``, ``error``, ``general``, ``slowquery``
-  *   *Aurora PostgreSQL*
+  *   *Aurora PostgreSQL* 
   *  Valid values: ``postgresql``
   *  Valid for: Aurora DB clusters and Multi-AZ DB clusters
   *
@@ -221,11 +221,11 @@ export interface RdsDbClusterConfig extends cdktn.TerraformMetaArguments {
   /**
   * The name of the database engine to be used for this DB cluster.
   *  Valid Values:
-  *   +   ``aurora-mysql``
-  *   +   ``aurora-postgresql``
-  *   +   ``mysql``
-  *   +   ``postgres``
-  *
+  *   +   ``aurora-mysql`` 
+  *   +   ``aurora-postgresql`` 
+  *   +   ``mysql`` 
+  *   +   ``postgres`` 
+  *   
   *  Valid for: Aurora DB clusters and Multi-AZ DB clusters
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rds_db_cluster#engine RdsDbCluster#engine}
@@ -237,7 +237,7 @@ export interface RdsDbClusterConfig extends cdktn.TerraformMetaArguments {
   *   You can use this setting to enroll your DB cluster into Amazon RDS Extended Support. With RDS Extended Support, you can run the selected major engine version on your DB cluster past the end of standard support for that engine version. For more information, see the following sections:
   *   +  Amazon Aurora - [Amazon RDS Extended Support with Amazon Aurora](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/extended-support.html) in the *Amazon Aurora User Guide*
   *   +  Amazon RDS - [Amazon RDS Extended Support with Amazon RDS](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/extended-support.html) in the *Amazon RDS User Guide*
-  *
+  *   
   *  Valid for Cluster Type: Aurora DB clusters and Multi-AZ DB clusters
   *  Valid Values: ``open-source-rds-extended-support | open-source-rds-extended-support-disabled``
   *  Default: ``open-source-rds-extended-support``
@@ -249,9 +249,9 @@ export interface RdsDbClusterConfig extends cdktn.TerraformMetaArguments {
   * The DB engine mode of the DB cluster, either ``provisioned`` or ``serverless``.
   *  The ``serverless`` engine mode only applies for Aurora Serverless v1 DB clusters. Aurora Serverless v2 DB clusters use the ``provisioned`` engine mode.
   *  For information about limitations and requirements for Serverless DB clusters, see the following sections in the *Amazon Aurora User Guide*:
-  *   +   [Limitations of Aurora Serverless v1](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/aurora-serverless.html#aurora-serverless.limitations)
-  *   +   [Requirements for Aurora Serverless v2](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/aurora-serverless-v2.requirements.html)
-  *
+  *   +   [Limitations of Aurora Serverless v1](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/aurora-serverless.html#aurora-serverless.limitations) 
+  *   +   [Requirements for Aurora Serverless v2](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/aurora-serverless-v2.requirements.html) 
+  *   
   *  Valid for Cluster Type: Aurora DB clusters only
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rds_db_cluster#engine_mode RdsDbCluster#engine_mode}
@@ -261,21 +261,21 @@ export interface RdsDbClusterConfig extends cdktn.TerraformMetaArguments {
   * The version number of the database engine to use.
   *   Don't use this property if your DB cluster is a member of a global database cluster. Instead, specify the ``EngineVersion`` property on the [AWS::RDS::GlobalCluster](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rds-globalcluster.html) resource. Major version upgrades aren't supported for individual members of a global cluster. Use ``ModifyGlobalCluster`` to upgrade all members of the global cluster.
   *   To list all of the available engine versions for Aurora MySQL version 2 (5.7-compatible) and version 3 (8.0-compatible), use the following command:
-  *   ``aws rds describe-db-engine-versions --engine aurora-mysql --query "DBEngineVersions[].EngineVersion"``
+  *   ``aws rds describe-db-engine-versions --engine aurora-mysql --query "DBEngineVersions[].EngineVersion"`` 
   *  You can supply either ``5.7`` or ``8.0`` to use the default engine version for Aurora MySQL version 2 or version 3, respectively.
   *  To list all of the available engine versions for Aurora PostgreSQL, use the following command:
-  *   ``aws rds describe-db-engine-versions --engine aurora-postgresql --query "DBEngineVersions[].EngineVersion"``
+  *   ``aws rds describe-db-engine-versions --engine aurora-postgresql --query "DBEngineVersions[].EngineVersion"`` 
   *  To list all of the available engine versions for RDS for MySQL, use the following command:
-  *   ``aws rds describe-db-engine-versions --engine mysql --query "DBEngineVersions[].EngineVersion"``
+  *   ``aws rds describe-db-engine-versions --engine mysql --query "DBEngineVersions[].EngineVersion"`` 
   *  To list all of the available engine versions for RDS for PostgreSQL, use the following command:
-  *   ``aws rds describe-db-engine-versions --engine postgres --query "DBEngineVersions[].EngineVersion"``
-  *   *Aurora MySQL*
+  *   ``aws rds describe-db-engine-versions --engine postgres --query "DBEngineVersions[].EngineVersion"`` 
+  *   *Aurora MySQL* 
   *  For information, see [Database engine updates for Amazon Aurora MySQL](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/AuroraMySQL.Updates.html) in the *Amazon Aurora User Guide*.
-  *   *Aurora PostgreSQL*
+  *   *Aurora PostgreSQL* 
   *  For information, see [Amazon Aurora PostgreSQL releases and engine versions](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/AuroraPostgreSQL.Updates.20180305.html) in the *Amazon Aurora User Guide*.
-  *   *MySQL*
+  *   *MySQL* 
   *  For information, see [Amazon RDS for MySQL](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_MySQL.html#MySQL.Concepts.VersionMgmt) in the *Amazon RDS User Guide*.
-  *   *PostgreSQL*
+  *   *PostgreSQL* 
   *  For information, see [Amazon RDS for PostgreSQL](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_PostgreSQL.html#PostgreSQL.Concepts) in the *Amazon RDS User Guide*.
   *  Valid for: Aurora DB clusters and Multi-AZ DB clusters
   *
@@ -283,8 +283,8 @@ export interface RdsDbClusterConfig extends cdktn.TerraformMetaArguments {
   */
   readonly engineVersion?: string;
   /**
-  * If you are configuring an Aurora global database cluster and want your Aurora DB cluster to be a secondary member in the global database cluster, specify the global cluster ID of the global database cluster. To define the primary database cluster of the global cluster, use the [AWS::RDS::GlobalCluster](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rds-globalcluster.html) resource.
-  *   If you aren't configuring a global database cluster, don't specify this property.
+  * If you are configuring an Aurora global database cluster and want your Aurora DB cluster to be a secondary member in the global database cluster, specify the global cluster ID of the global database cluster. To define the primary database cluster of the global cluster, use the [AWS::RDS::GlobalCluster](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rds-globalcluster.html) resource. 
+  *   If you aren't configuring a global database cluster, don't specify this property. 
   *   To remove the DB cluster from a global database cluster, specify an empty value for the ``GlobalClusterIdentifier`` property.
   *   For information about Aurora global databases, see [Working with Amazon Aurora Global Databases](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/aurora-global-database.html) in the *Amazon Aurora User Guide*.
   *  Valid for: Aurora DB clusters only
@@ -327,7 +327,7 @@ export interface RdsDbClusterConfig extends cdktn.TerraformMetaArguments {
   *  You can specify one of the following values:
   *   +  ``password`` - Use standard database authentication with a password.
   *   +  ``iam-db-auth`` - Use IAM database authentication for the master user.
-  *
+  *   
   *  Valid for Cluster Type: Aurora DB clusters and Multi-AZ DB clusters
   *  This option is only valid for RDS for MySQL, RDS for MariaDB, RDS for PostgreSQL, Aurora MySQL, and Aurora PostgreSQL engines.
   *
@@ -379,9 +379,9 @@ export interface RdsDbClusterConfig extends cdktn.TerraformMetaArguments {
   /**
   * The network type of the DB cluster.
   *  Valid values:
-  *   +   ``IPV4``
-  *   +   ``DUAL``
-  *
+  *   +   ``IPV4`` 
+  *   +   ``DUAL`` 
+  *   
   *  The network type is determined by the ``DBSubnetGroup`` specified for the DB cluster. A ``DBSubnetGroup`` can support only the IPv4 protocol or the IPv4 and IPv6 protocols (``DUAL``).
   *  For more information, see [Working with a DB instance in a VPC](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/USER_VPC.WorkingWithRDSInstanceinaVPC.html) in the *Amazon Aurora User Guide.*
   *  Valid for: Aurora DB clusters only
@@ -410,10 +410,10 @@ export interface RdsDbClusterConfig extends cdktn.TerraformMetaArguments {
   * The number of days to retain Performance Insights data. When creating a DB cluster without enabling Performance Insights, you can't specify the parameter ``PerformanceInsightsRetentionPeriod``.
   *  Valid for Cluster Type: Aurora DB clusters and Multi-AZ DB clusters
   *  Valid Values:
-  *   +   ``7``
+  *   +   ``7`` 
   *   +  *month* * 31, where *month* is a number of months from 1-23. Examples: ``93`` (3 months * 31), ``341`` (11 months * 31), ``589`` (19 months * 31)
-  *   +   ``731``
-  *
+  *   +   ``731`` 
+  *   
   *  Default: ``7`` days
   *  If you specify a retention period that isn't valid, such as ``94``, Amazon RDS issues an error.
   *
@@ -425,7 +425,7 @@ export interface RdsDbClusterConfig extends cdktn.TerraformMetaArguments {
   *  Default:
   *   +  RDS for MySQL and Aurora MySQL - ``3306``
   *   +  RDS for PostgreSQL and Aurora PostgreSQL - ``5432``
-  *
+  *   
   *   The ``No interruption`` on update behavior only applies to DB clusters. If you are updating a DB instance, see [Port](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-rds-database-instance.html#cfn-rds-dbinstance-port) for the AWS::RDS::DBInstance resource.
   *   Valid for: Aurora DB clusters and Multi-AZ DB clusters
   *
@@ -439,7 +439,7 @@ export interface RdsDbClusterConfig extends cdktn.TerraformMetaArguments {
   *   +  Must be in Universal Coordinated Time (UTC).
   *   +  Must not conflict with the preferred maintenance window.
   *   +  Must be at least 30 minutes.
-  *
+  *   
   *  Valid for: Aurora DB clusters and Multi-AZ DB clusters
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rds_db_cluster#preferred_backup_window RdsDbCluster#preferred_backup_window}
@@ -484,7 +484,7 @@ export interface RdsDbClusterConfig extends cdktn.TerraformMetaArguments {
   *   +  Must be specified if ``UseLatestRestorableTime`` parameter isn't provided
   *   +  Can't be specified if the ``UseLatestRestorableTime`` parameter is enabled
   *   +  Can't be specified if the ``RestoreType`` parameter is ``copy-on-write``
-  *
+  *   
   *  This property must be used with ``SourceDBClusterIdentifier`` property. The resulting cluster will have the identifier that matches the value of the ``DBclusterIdentifier`` property.
   *  Example: ``2015-03-07T23:45:00Z``
   *  Valid for: Aurora DB clusters and Multi-AZ DB clusters
@@ -496,7 +496,7 @@ export interface RdsDbClusterConfig extends cdktn.TerraformMetaArguments {
   * The type of restore to be performed. You can specify one of the following values:
   *   +  ``full-copy`` - The new DB cluster is restored as a full copy of the source DB cluster.
   *   +  ``copy-on-write`` - The new DB cluster is restored as a clone of the source DB cluster.
-  *
+  *   
   *  If you don't specify a ``RestoreType`` value, then the new DB cluster is restored as a full copy of the source DB cluster.
   *  Valid for: Aurora DB clusters and Multi-AZ DB clusters
   *
@@ -512,7 +512,7 @@ export interface RdsDbClusterConfig extends cdktn.TerraformMetaArguments {
   */
   readonly scalingConfiguration?: RdsDbClusterScalingConfiguration;
   /**
-  * The scaling configuration of an Aurora Serverless V2 DB cluster.
+  * The scaling configuration of an Aurora Serverless V2 DB cluster. 
   *  This property is only supported for Aurora Serverless v2. For Aurora Serverless v1, Use the ``ScalingConfiguration`` property.
   *  Valid for: Aurora Serverless v2 DB clusters only
   *
@@ -524,19 +524,19 @@ export interface RdsDbClusterConfig extends cdktn.TerraformMetaArguments {
   *  You can use either the name or the Amazon Resource Name (ARN) to specify a DB cluster snapshot. However, you can use only the ARN to specify a DB snapshot.
   *  After you restore a DB cluster with a ``SnapshotIdentifier`` property, you must specify the same ``SnapshotIdentifier`` property for any future updates to the DB cluster. When you specify this property for an update, the DB cluster is not restored from the snapshot again, and the data in the database is not changed. However, if you don't specify the ``SnapshotIdentifier`` property, an empty DB cluster is created, and the original DB cluster is deleted. If you specify a property that is different from the previous snapshot restore property, a new DB cluster is restored from the specified ``SnapshotIdentifier`` property, and the original DB cluster is deleted.
   *  If you specify the ``SnapshotIdentifier`` property to restore a DB cluster (as opposed to specifying it for DB cluster updates), then don't specify the following properties:
-  *   +   ``GlobalClusterIdentifier``
-  *   +   ``MasterUsername``
-  *   +   ``MasterUserPassword``
-  *   +   ``ReplicationSourceIdentifier``
-  *   +   ``RestoreType``
-  *   +   ``SourceDBClusterIdentifier``
-  *   +   ``SourceRegion``
+  *   +   ``GlobalClusterIdentifier`` 
+  *   +   ``MasterUsername`` 
+  *   +   ``MasterUserPassword`` 
+  *   +   ``ReplicationSourceIdentifier`` 
+  *   +   ``RestoreType`` 
+  *   +   ``SourceDBClusterIdentifier`` 
+  *   +   ``SourceRegion`` 
   *   +  ``StorageEncrypted`` (for an encrypted snapshot)
-  *   +   ``UseLatestRestorableTime``
-  *
+  *   +   ``UseLatestRestorableTime`` 
+  *   
   *  Constraints:
   *   +  Must match the identifier of an existing Snapshot.
-  *
+  *   
   *  Valid for: Aurora DB clusters and Multi-AZ DB clusters
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rds_db_cluster#snapshot_identifier RdsDbCluster#snapshot_identifier}
@@ -547,7 +547,7 @@ export interface RdsDbClusterConfig extends cdktn.TerraformMetaArguments {
   *  Constraints:
   *   +  Must match the identifier of an existing DBCluster.
   *   +  Cannot be specified if ``SourceDbClusterResourceId`` is specified. You must specify either ``SourceDBClusterIdentifier`` or ``SourceDbClusterResourceId``, but not both.
-  *
+  *   
   *  Valid for: Aurora DB clusters and Multi-AZ DB clusters
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rds_db_cluster#source_db_cluster_identifier RdsDbCluster#source_db_cluster_identifier}
@@ -560,7 +560,7 @@ export interface RdsDbClusterConfig extends cdktn.TerraformMetaArguments {
   */
   readonly sourceDbClusterResourceId?: string;
   /**
-  * The AWS Region which contains the source DB cluster when replicating a DB cluster. For example, ``us-east-1``.
+  * The AWS Region which contains the source DB cluster when replicating a DB cluster. For example, ``us-east-1``. 
   *  Valid for: Aurora DB clusters only
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rds_db_cluster#source_region RdsDbCluster#source_region}
@@ -587,11 +587,11 @@ export interface RdsDbClusterConfig extends cdktn.TerraformMetaArguments {
   *  Valid Values:
   *   +  Aurora DB clusters - ``aurora | aurora-iopt1``
   *   +  Multi-AZ DB clusters - ``io1 | io2 | gp3``
-  *
+  *   
   *  Default:
   *   +  Aurora DB clusters - ``aurora``
   *   +  Multi-AZ DB clusters - ``io1``
-  *
+  *   
   *   When you create an Aurora DB cluster with the storage type set to ``aurora-iopt1``, the storage type is returned in the response. The storage type isn't returned when you set it to ``aurora``.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rds_db_cluster#storage_type RdsDbCluster#storage_type}
@@ -605,7 +605,7 @@ export interface RdsDbClusterConfig extends cdktn.TerraformMetaArguments {
   */
   readonly tags?: RdsDbClusterTags[] | cdktn.IResolvable;
   /**
-  * A value that indicates whether to restore the DB cluster to the latest restorable backup time. By default, the DB cluster is not restored to the latest restorable backup time.
+  * A value that indicates whether to restore the DB cluster to the latest restorable backup time. By default, the DB cluster is not restored to the latest restorable backup time. 
   *  Valid for: Aurora DB clusters and Multi-AZ DB clusters
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rds_db_cluster#use_latest_restorable_time RdsDbCluster#use_latest_restorable_time}
@@ -722,7 +722,7 @@ export class RdsDbClusterAssociatedRolesOutputReference extends cdktn.ComplexObj
   }
 
   // feature_name - computed: true, optional: true, required: false
-  private _featureName?: string;
+  private _featureName?: string; 
   public get featureName() {
     return this.getStringAttribute('feature_name');
   }
@@ -738,7 +738,7 @@ export class RdsDbClusterAssociatedRolesOutputReference extends cdktn.ComplexObj
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -913,7 +913,7 @@ export class RdsDbClusterMasterUserSecretOutputReference extends cdktn.ComplexOb
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -1176,7 +1176,7 @@ export class RdsDbClusterScalingConfigurationOutputReference extends cdktn.Compl
   }
 
   // auto_pause - computed: true, optional: true, required: false
-  private _autoPause?: boolean | cdktn.IResolvable;
+  private _autoPause?: boolean | cdktn.IResolvable; 
   public get autoPause() {
     return this.getBooleanAttribute('auto_pause');
   }
@@ -1192,7 +1192,7 @@ export class RdsDbClusterScalingConfigurationOutputReference extends cdktn.Compl
   }
 
   // max_capacity - computed: true, optional: true, required: false
-  private _maxCapacity?: number;
+  private _maxCapacity?: number; 
   public get maxCapacity() {
     return this.getNumberAttribute('max_capacity');
   }
@@ -1208,7 +1208,7 @@ export class RdsDbClusterScalingConfigurationOutputReference extends cdktn.Compl
   }
 
   // min_capacity - computed: true, optional: true, required: false
-  private _minCapacity?: number;
+  private _minCapacity?: number; 
   public get minCapacity() {
     return this.getNumberAttribute('min_capacity');
   }
@@ -1224,7 +1224,7 @@ export class RdsDbClusterScalingConfigurationOutputReference extends cdktn.Compl
   }
 
   // seconds_before_timeout - computed: true, optional: true, required: false
-  private _secondsBeforeTimeout?: number;
+  private _secondsBeforeTimeout?: number; 
   public get secondsBeforeTimeout() {
     return this.getNumberAttribute('seconds_before_timeout');
   }
@@ -1240,7 +1240,7 @@ export class RdsDbClusterScalingConfigurationOutputReference extends cdktn.Compl
   }
 
   // seconds_until_auto_pause - computed: true, optional: true, required: false
-  private _secondsUntilAutoPause?: number;
+  private _secondsUntilAutoPause?: number; 
   public get secondsUntilAutoPause() {
     return this.getNumberAttribute('seconds_until_auto_pause');
   }
@@ -1256,7 +1256,7 @@ export class RdsDbClusterScalingConfigurationOutputReference extends cdktn.Compl
   }
 
   // timeout_action - computed: true, optional: true, required: false
-  private _timeoutAction?: string;
+  private _timeoutAction?: string; 
   public get timeoutAction() {
     return this.getStringAttribute('timeout_action');
   }
@@ -1287,7 +1287,7 @@ export interface RdsDbClusterServerlessV2ScalingConfiguration {
   */
   readonly minCapacity?: number;
   /**
-  * Specifies the number of seconds an Aurora Serverless v2 DB instance must be idle before Aurora attempts to automatically pause it.
+  * Specifies the number of seconds an Aurora Serverless v2 DB instance must be idle before Aurora attempts to automatically pause it. 
   *  Specify a value between 300 seconds (five minutes) and 86,400 seconds (one day). The default is 300 seconds.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rds_db_cluster#seconds_until_auto_pause RdsDbCluster#seconds_until_auto_pause}
@@ -1393,7 +1393,7 @@ export class RdsDbClusterServerlessV2ScalingConfigurationOutputReference extends
   }
 
   // max_capacity - computed: true, optional: true, required: false
-  private _maxCapacity?: number;
+  private _maxCapacity?: number; 
   public get maxCapacity() {
     return this.getNumberAttribute('max_capacity');
   }
@@ -1409,7 +1409,7 @@ export class RdsDbClusterServerlessV2ScalingConfigurationOutputReference extends
   }
 
   // min_capacity - computed: true, optional: true, required: false
-  private _minCapacity?: number;
+  private _minCapacity?: number; 
   public get minCapacity() {
     return this.getNumberAttribute('min_capacity');
   }
@@ -1425,7 +1425,7 @@ export class RdsDbClusterServerlessV2ScalingConfigurationOutputReference extends
   }
 
   // seconds_until_auto_pause - computed: true, optional: true, required: false
-  private _secondsUntilAutoPause?: number;
+  private _secondsUntilAutoPause?: number; 
   public get secondsUntilAutoPause() {
     return this.getNumberAttribute('seconds_until_auto_pause');
   }
@@ -1542,7 +1542,7 @@ export class RdsDbClusterTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1558,7 +1558,7 @@ export class RdsDbClusterTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1712,7 +1712,7 @@ export class RdsDbCluster extends cdktn.TerraformResource {
   // ==========
 
   // allocated_storage - computed: true, optional: true, required: false
-  private _allocatedStorage?: number;
+  private _allocatedStorage?: number; 
   public get allocatedStorage() {
     return this.getNumberAttribute('allocated_storage');
   }
@@ -1744,7 +1744,7 @@ export class RdsDbCluster extends cdktn.TerraformResource {
   }
 
   // auto_minor_version_upgrade - computed: true, optional: true, required: false
-  private _autoMinorVersionUpgrade?: boolean | cdktn.IResolvable;
+  private _autoMinorVersionUpgrade?: boolean | cdktn.IResolvable; 
   public get autoMinorVersionUpgrade() {
     return this.getBooleanAttribute('auto_minor_version_upgrade');
   }
@@ -1760,7 +1760,7 @@ export class RdsDbCluster extends cdktn.TerraformResource {
   }
 
   // availability_zones - computed: true, optional: true, required: false
-  private _availabilityZones?: string[];
+  private _availabilityZones?: string[]; 
   public get availabilityZones() {
     return this.getListAttribute('availability_zones');
   }
@@ -1776,7 +1776,7 @@ export class RdsDbCluster extends cdktn.TerraformResource {
   }
 
   // backtrack_window - computed: true, optional: true, required: false
-  private _backtrackWindow?: number;
+  private _backtrackWindow?: number; 
   public get backtrackWindow() {
     return this.getNumberAttribute('backtrack_window');
   }
@@ -1792,7 +1792,7 @@ export class RdsDbCluster extends cdktn.TerraformResource {
   }
 
   // backup_retention_period - computed: true, optional: true, required: false
-  private _backupRetentionPeriod?: number;
+  private _backupRetentionPeriod?: number; 
   public get backupRetentionPeriod() {
     return this.getNumberAttribute('backup_retention_period');
   }
@@ -1808,7 +1808,7 @@ export class RdsDbCluster extends cdktn.TerraformResource {
   }
 
   // cluster_scalability_type - computed: true, optional: true, required: false
-  private _clusterScalabilityType?: string;
+  private _clusterScalabilityType?: string; 
   public get clusterScalabilityType() {
     return this.getStringAttribute('cluster_scalability_type');
   }
@@ -1824,7 +1824,7 @@ export class RdsDbCluster extends cdktn.TerraformResource {
   }
 
   // copy_tags_to_snapshot - computed: true, optional: true, required: false
-  private _copyTagsToSnapshot?: boolean | cdktn.IResolvable;
+  private _copyTagsToSnapshot?: boolean | cdktn.IResolvable; 
   public get copyTagsToSnapshot() {
     return this.getBooleanAttribute('copy_tags_to_snapshot');
   }
@@ -1840,7 +1840,7 @@ export class RdsDbCluster extends cdktn.TerraformResource {
   }
 
   // database_insights_mode - computed: true, optional: true, required: false
-  private _databaseInsightsMode?: string;
+  private _databaseInsightsMode?: string; 
   public get databaseInsightsMode() {
     return this.getStringAttribute('database_insights_mode');
   }
@@ -1856,7 +1856,7 @@ export class RdsDbCluster extends cdktn.TerraformResource {
   }
 
   // database_name - computed: true, optional: true, required: false
-  private _databaseName?: string;
+  private _databaseName?: string; 
   public get databaseName() {
     return this.getStringAttribute('database_name');
   }
@@ -1877,7 +1877,7 @@ export class RdsDbCluster extends cdktn.TerraformResource {
   }
 
   // db_cluster_identifier - computed: true, optional: true, required: false
-  private _dbClusterIdentifier?: string;
+  private _dbClusterIdentifier?: string; 
   public get dbClusterIdentifier() {
     return this.getStringAttribute('db_cluster_identifier');
   }
@@ -1893,7 +1893,7 @@ export class RdsDbCluster extends cdktn.TerraformResource {
   }
 
   // db_cluster_instance_class - computed: true, optional: true, required: false
-  private _dbClusterInstanceClass?: string;
+  private _dbClusterInstanceClass?: string; 
   public get dbClusterInstanceClass() {
     return this.getStringAttribute('db_cluster_instance_class');
   }
@@ -1909,7 +1909,7 @@ export class RdsDbCluster extends cdktn.TerraformResource {
   }
 
   // db_cluster_parameter_group_name - computed: true, optional: true, required: false
-  private _dbClusterParameterGroupName?: string;
+  private _dbClusterParameterGroupName?: string; 
   public get dbClusterParameterGroupName() {
     return this.getStringAttribute('db_cluster_parameter_group_name');
   }
@@ -1930,7 +1930,7 @@ export class RdsDbCluster extends cdktn.TerraformResource {
   }
 
   // db_instance_parameter_group_name - computed: true, optional: true, required: false
-  private _dbInstanceParameterGroupName?: string;
+  private _dbInstanceParameterGroupName?: string; 
   public get dbInstanceParameterGroupName() {
     return this.getStringAttribute('db_instance_parameter_group_name');
   }
@@ -1946,7 +1946,7 @@ export class RdsDbCluster extends cdktn.TerraformResource {
   }
 
   // db_subnet_group_name - computed: true, optional: true, required: false
-  private _dbSubnetGroupName?: string;
+  private _dbSubnetGroupName?: string; 
   public get dbSubnetGroupName() {
     return this.getStringAttribute('db_subnet_group_name');
   }
@@ -1962,7 +1962,7 @@ export class RdsDbCluster extends cdktn.TerraformResource {
   }
 
   // db_system_id - computed: true, optional: true, required: false
-  private _dbSystemId?: string;
+  private _dbSystemId?: string; 
   public get dbSystemId() {
     return this.getStringAttribute('db_system_id');
   }
@@ -1978,7 +1978,7 @@ export class RdsDbCluster extends cdktn.TerraformResource {
   }
 
   // delete_automated_backups - computed: true, optional: true, required: false
-  private _deleteAutomatedBackups?: boolean | cdktn.IResolvable;
+  private _deleteAutomatedBackups?: boolean | cdktn.IResolvable; 
   public get deleteAutomatedBackups() {
     return this.getBooleanAttribute('delete_automated_backups');
   }
@@ -1994,7 +1994,7 @@ export class RdsDbCluster extends cdktn.TerraformResource {
   }
 
   // deletion_protection - computed: true, optional: true, required: false
-  private _deletionProtection?: boolean | cdktn.IResolvable;
+  private _deletionProtection?: boolean | cdktn.IResolvable; 
   public get deletionProtection() {
     return this.getBooleanAttribute('deletion_protection');
   }
@@ -2010,7 +2010,7 @@ export class RdsDbCluster extends cdktn.TerraformResource {
   }
 
   // domain - computed: true, optional: true, required: false
-  private _domain?: string;
+  private _domain?: string; 
   public get domain() {
     return this.getStringAttribute('domain');
   }
@@ -2026,7 +2026,7 @@ export class RdsDbCluster extends cdktn.TerraformResource {
   }
 
   // domain_iam_role_name - computed: true, optional: true, required: false
-  private _domainIamRoleName?: string;
+  private _domainIamRoleName?: string; 
   public get domainIamRoleName() {
     return this.getStringAttribute('domain_iam_role_name');
   }
@@ -2042,7 +2042,7 @@ export class RdsDbCluster extends cdktn.TerraformResource {
   }
 
   // enable_cloudwatch_logs_exports - computed: true, optional: true, required: false
-  private _enableCloudwatchLogsExports?: string[];
+  private _enableCloudwatchLogsExports?: string[]; 
   public get enableCloudwatchLogsExports() {
     return this.getListAttribute('enable_cloudwatch_logs_exports');
   }
@@ -2058,7 +2058,7 @@ export class RdsDbCluster extends cdktn.TerraformResource {
   }
 
   // enable_global_write_forwarding - computed: true, optional: true, required: false
-  private _enableGlobalWriteForwarding?: boolean | cdktn.IResolvable;
+  private _enableGlobalWriteForwarding?: boolean | cdktn.IResolvable; 
   public get enableGlobalWriteForwarding() {
     return this.getBooleanAttribute('enable_global_write_forwarding');
   }
@@ -2074,7 +2074,7 @@ export class RdsDbCluster extends cdktn.TerraformResource {
   }
 
   // enable_http_endpoint - computed: true, optional: true, required: false
-  private _enableHttpEndpoint?: boolean | cdktn.IResolvable;
+  private _enableHttpEndpoint?: boolean | cdktn.IResolvable; 
   public get enableHttpEndpoint() {
     return this.getBooleanAttribute('enable_http_endpoint');
   }
@@ -2090,7 +2090,7 @@ export class RdsDbCluster extends cdktn.TerraformResource {
   }
 
   // enable_iam_database_authentication - computed: true, optional: true, required: false
-  private _enableIamDatabaseAuthentication?: boolean | cdktn.IResolvable;
+  private _enableIamDatabaseAuthentication?: boolean | cdktn.IResolvable; 
   public get enableIamDatabaseAuthentication() {
     return this.getBooleanAttribute('enable_iam_database_authentication');
   }
@@ -2106,7 +2106,7 @@ export class RdsDbCluster extends cdktn.TerraformResource {
   }
 
   // enable_local_write_forwarding - computed: true, optional: true, required: false
-  private _enableLocalWriteForwarding?: boolean | cdktn.IResolvable;
+  private _enableLocalWriteForwarding?: boolean | cdktn.IResolvable; 
   public get enableLocalWriteForwarding() {
     return this.getBooleanAttribute('enable_local_write_forwarding');
   }
@@ -2128,7 +2128,7 @@ export class RdsDbCluster extends cdktn.TerraformResource {
   }
 
   // engine - computed: true, optional: true, required: false
-  private _engine?: string;
+  private _engine?: string; 
   public get engine() {
     return this.getStringAttribute('engine');
   }
@@ -2144,7 +2144,7 @@ export class RdsDbCluster extends cdktn.TerraformResource {
   }
 
   // engine_lifecycle_support - computed: true, optional: true, required: false
-  private _engineLifecycleSupport?: string;
+  private _engineLifecycleSupport?: string; 
   public get engineLifecycleSupport() {
     return this.getStringAttribute('engine_lifecycle_support');
   }
@@ -2160,7 +2160,7 @@ export class RdsDbCluster extends cdktn.TerraformResource {
   }
 
   // engine_mode - computed: true, optional: true, required: false
-  private _engineMode?: string;
+  private _engineMode?: string; 
   public get engineMode() {
     return this.getStringAttribute('engine_mode');
   }
@@ -2176,7 +2176,7 @@ export class RdsDbCluster extends cdktn.TerraformResource {
   }
 
   // engine_version - computed: true, optional: true, required: false
-  private _engineVersion?: string;
+  private _engineVersion?: string; 
   public get engineVersion() {
     return this.getStringAttribute('engine_version');
   }
@@ -2192,7 +2192,7 @@ export class RdsDbCluster extends cdktn.TerraformResource {
   }
 
   // global_cluster_identifier - computed: true, optional: true, required: false
-  private _globalClusterIdentifier?: string;
+  private _globalClusterIdentifier?: string; 
   public get globalClusterIdentifier() {
     return this.getStringAttribute('global_cluster_identifier');
   }
@@ -2213,7 +2213,7 @@ export class RdsDbCluster extends cdktn.TerraformResource {
   }
 
   // iops - computed: true, optional: true, required: false
-  private _iops?: number;
+  private _iops?: number; 
   public get iops() {
     return this.getNumberAttribute('iops');
   }
@@ -2229,7 +2229,7 @@ export class RdsDbCluster extends cdktn.TerraformResource {
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -2245,7 +2245,7 @@ export class RdsDbCluster extends cdktn.TerraformResource {
   }
 
   // manage_master_user_password - computed: true, optional: true, required: false
-  private _manageMasterUserPassword?: boolean | cdktn.IResolvable;
+  private _manageMasterUserPassword?: boolean | cdktn.IResolvable; 
   public get manageMasterUserPassword() {
     return this.getBooleanAttribute('manage_master_user_password');
   }
@@ -2261,7 +2261,7 @@ export class RdsDbCluster extends cdktn.TerraformResource {
   }
 
   // master_user_authentication_type - computed: true, optional: true, required: false
-  private _masterUserAuthenticationType?: string;
+  private _masterUserAuthenticationType?: string; 
   public get masterUserAuthenticationType() {
     return this.getStringAttribute('master_user_authentication_type');
   }
@@ -2277,7 +2277,7 @@ export class RdsDbCluster extends cdktn.TerraformResource {
   }
 
   // master_user_password - computed: true, optional: true, required: false
-  private _masterUserPassword?: string;
+  private _masterUserPassword?: string; 
   public get masterUserPassword() {
     return this.getStringAttribute('master_user_password');
   }
@@ -2309,7 +2309,7 @@ export class RdsDbCluster extends cdktn.TerraformResource {
   }
 
   // master_username - computed: true, optional: true, required: false
-  private _masterUsername?: string;
+  private _masterUsername?: string; 
   public get masterUsername() {
     return this.getStringAttribute('master_username');
   }
@@ -2325,7 +2325,7 @@ export class RdsDbCluster extends cdktn.TerraformResource {
   }
 
   // monitoring_interval - computed: true, optional: true, required: false
-  private _monitoringInterval?: number;
+  private _monitoringInterval?: number; 
   public get monitoringInterval() {
     return this.getNumberAttribute('monitoring_interval');
   }
@@ -2341,7 +2341,7 @@ export class RdsDbCluster extends cdktn.TerraformResource {
   }
 
   // monitoring_role_arn - computed: true, optional: true, required: false
-  private _monitoringRoleArn?: string;
+  private _monitoringRoleArn?: string; 
   public get monitoringRoleArn() {
     return this.getStringAttribute('monitoring_role_arn');
   }
@@ -2357,7 +2357,7 @@ export class RdsDbCluster extends cdktn.TerraformResource {
   }
 
   // network_type - computed: true, optional: true, required: false
-  private _networkType?: string;
+  private _networkType?: string; 
   public get networkType() {
     return this.getStringAttribute('network_type');
   }
@@ -2373,7 +2373,7 @@ export class RdsDbCluster extends cdktn.TerraformResource {
   }
 
   // performance_insights_enabled - computed: true, optional: true, required: false
-  private _performanceInsightsEnabled?: boolean | cdktn.IResolvable;
+  private _performanceInsightsEnabled?: boolean | cdktn.IResolvable; 
   public get performanceInsightsEnabled() {
     return this.getBooleanAttribute('performance_insights_enabled');
   }
@@ -2389,7 +2389,7 @@ export class RdsDbCluster extends cdktn.TerraformResource {
   }
 
   // performance_insights_kms_key_id - computed: true, optional: true, required: false
-  private _performanceInsightsKmsKeyId?: string;
+  private _performanceInsightsKmsKeyId?: string; 
   public get performanceInsightsKmsKeyId() {
     return this.getStringAttribute('performance_insights_kms_key_id');
   }
@@ -2405,7 +2405,7 @@ export class RdsDbCluster extends cdktn.TerraformResource {
   }
 
   // performance_insights_retention_period - computed: true, optional: true, required: false
-  private _performanceInsightsRetentionPeriod?: number;
+  private _performanceInsightsRetentionPeriod?: number; 
   public get performanceInsightsRetentionPeriod() {
     return this.getNumberAttribute('performance_insights_retention_period');
   }
@@ -2421,7 +2421,7 @@ export class RdsDbCluster extends cdktn.TerraformResource {
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -2437,7 +2437,7 @@ export class RdsDbCluster extends cdktn.TerraformResource {
   }
 
   // preferred_backup_window - computed: true, optional: true, required: false
-  private _preferredBackupWindow?: string;
+  private _preferredBackupWindow?: string; 
   public get preferredBackupWindow() {
     return this.getStringAttribute('preferred_backup_window');
   }
@@ -2453,7 +2453,7 @@ export class RdsDbCluster extends cdktn.TerraformResource {
   }
 
   // preferred_maintenance_window - computed: true, optional: true, required: false
-  private _preferredMaintenanceWindow?: string;
+  private _preferredMaintenanceWindow?: string; 
   public get preferredMaintenanceWindow() {
     return this.getStringAttribute('preferred_maintenance_window');
   }
@@ -2469,7 +2469,7 @@ export class RdsDbCluster extends cdktn.TerraformResource {
   }
 
   // publicly_accessible - computed: true, optional: true, required: false
-  private _publiclyAccessible?: boolean | cdktn.IResolvable;
+  private _publiclyAccessible?: boolean | cdktn.IResolvable; 
   public get publiclyAccessible() {
     return this.getBooleanAttribute('publicly_accessible');
   }
@@ -2491,7 +2491,7 @@ export class RdsDbCluster extends cdktn.TerraformResource {
   }
 
   // replication_source_identifier - computed: true, optional: true, required: false
-  private _replicationSourceIdentifier?: string;
+  private _replicationSourceIdentifier?: string; 
   public get replicationSourceIdentifier() {
     return this.getStringAttribute('replication_source_identifier');
   }
@@ -2507,7 +2507,7 @@ export class RdsDbCluster extends cdktn.TerraformResource {
   }
 
   // restore_to_time - computed: true, optional: true, required: false
-  private _restoreToTime?: string;
+  private _restoreToTime?: string; 
   public get restoreToTime() {
     return this.getStringAttribute('restore_to_time');
   }
@@ -2523,7 +2523,7 @@ export class RdsDbCluster extends cdktn.TerraformResource {
   }
 
   // restore_type - computed: true, optional: true, required: false
-  private _restoreType?: string;
+  private _restoreType?: string; 
   public get restoreType() {
     return this.getStringAttribute('restore_type');
   }
@@ -2571,7 +2571,7 @@ export class RdsDbCluster extends cdktn.TerraformResource {
   }
 
   // snapshot_identifier - computed: true, optional: true, required: false
-  private _snapshotIdentifier?: string;
+  private _snapshotIdentifier?: string; 
   public get snapshotIdentifier() {
     return this.getStringAttribute('snapshot_identifier');
   }
@@ -2587,7 +2587,7 @@ export class RdsDbCluster extends cdktn.TerraformResource {
   }
 
   // source_db_cluster_identifier - computed: true, optional: true, required: false
-  private _sourceDbClusterIdentifier?: string;
+  private _sourceDbClusterIdentifier?: string; 
   public get sourceDbClusterIdentifier() {
     return this.getStringAttribute('source_db_cluster_identifier');
   }
@@ -2603,7 +2603,7 @@ export class RdsDbCluster extends cdktn.TerraformResource {
   }
 
   // source_db_cluster_resource_id - computed: true, optional: true, required: false
-  private _sourceDbClusterResourceId?: string;
+  private _sourceDbClusterResourceId?: string; 
   public get sourceDbClusterResourceId() {
     return this.getStringAttribute('source_db_cluster_resource_id');
   }
@@ -2619,7 +2619,7 @@ export class RdsDbCluster extends cdktn.TerraformResource {
   }
 
   // source_region - computed: true, optional: true, required: false
-  private _sourceRegion?: string;
+  private _sourceRegion?: string; 
   public get sourceRegion() {
     return this.getStringAttribute('source_region');
   }
@@ -2635,7 +2635,7 @@ export class RdsDbCluster extends cdktn.TerraformResource {
   }
 
   // storage_encrypted - computed: true, optional: true, required: false
-  private _storageEncrypted?: boolean | cdktn.IResolvable;
+  private _storageEncrypted?: boolean | cdktn.IResolvable; 
   public get storageEncrypted() {
     return this.getBooleanAttribute('storage_encrypted');
   }
@@ -2661,7 +2661,7 @@ export class RdsDbCluster extends cdktn.TerraformResource {
   }
 
   // storage_type - computed: true, optional: true, required: false
-  private _storageType?: string;
+  private _storageType?: string; 
   public get storageType() {
     return this.getStringAttribute('storage_type');
   }
@@ -2693,7 +2693,7 @@ export class RdsDbCluster extends cdktn.TerraformResource {
   }
 
   // use_latest_restorable_time - computed: true, optional: true, required: false
-  private _useLatestRestorableTime?: boolean | cdktn.IResolvable;
+  private _useLatestRestorableTime?: boolean | cdktn.IResolvable; 
   public get useLatestRestorableTime() {
     return this.getBooleanAttribute('use_latest_restorable_time');
   }
@@ -2709,7 +2709,7 @@ export class RdsDbCluster extends cdktn.TerraformResource {
   }
 
   // vpc_security_group_ids - computed: true, optional: true, required: false
-  private _vpcSecurityGroupIds?: string[];
+  private _vpcSecurityGroupIds?: string[]; 
   public get vpcSecurityGroupIds() {
     return this.getListAttribute('vpc_security_group_ids');
   }

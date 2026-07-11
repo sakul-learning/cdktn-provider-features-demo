@@ -33,7 +33,7 @@ export interface CloudformationPublicTypeVersionConfig extends cdktn.TerraformMe
   readonly type?: string;
   /**
   * The name of the type being registered.
-  *
+  * 
   * We recommend that type names adhere to the following pattern: company_or_organization::service::type.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_public_type_version#type_name CloudformationPublicTypeVersion#type_name}
@@ -103,7 +103,7 @@ export class CloudformationPublicTypeVersion extends cdktn.TerraformResource {
   // ==========
 
   // arn - computed: true, optional: true, required: false
-  private _arn?: string;
+  private _arn?: string; 
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -124,7 +124,7 @@ export class CloudformationPublicTypeVersion extends cdktn.TerraformResource {
   }
 
   // log_delivery_bucket - computed: true, optional: true, required: false
-  private _logDeliveryBucket?: string;
+  private _logDeliveryBucket?: string; 
   public get logDeliveryBucket() {
     return this.getStringAttribute('log_delivery_bucket');
   }
@@ -145,7 +145,7 @@ export class CloudformationPublicTypeVersion extends cdktn.TerraformResource {
   }
 
   // public_version_number - computed: true, optional: true, required: false
-  private _publicVersionNumber?: string;
+  private _publicVersionNumber?: string; 
   public get publicVersionNumber() {
     return this.getStringAttribute('public_version_number');
   }
@@ -166,7 +166,7 @@ export class CloudformationPublicTypeVersion extends cdktn.TerraformResource {
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -182,7 +182,7 @@ export class CloudformationPublicTypeVersion extends cdktn.TerraformResource {
   }
 
   // type_name - computed: true, optional: true, required: false
-  private _typeName?: string;
+  private _typeName?: string; 
   public get typeName() {
     return this.getStringAttribute('type_name');
   }

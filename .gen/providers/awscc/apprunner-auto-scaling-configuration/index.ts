@@ -136,7 +136,7 @@ export class ApprunnerAutoScalingConfigurationTagsOutputReference extends cdktn.
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -152,7 +152,7 @@ export class ApprunnerAutoScalingConfigurationTagsOutputReference extends cdktn.
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -255,7 +255,7 @@ export class ApprunnerAutoScalingConfiguration extends cdktn.TerraformResource {
   }
 
   // auto_scaling_configuration_name - computed: true, optional: true, required: false
-  private _autoScalingConfigurationName?: string;
+  private _autoScalingConfigurationName?: string; 
   public get autoScalingConfigurationName() {
     return this.getStringAttribute('auto_scaling_configuration_name');
   }
@@ -286,7 +286,7 @@ export class ApprunnerAutoScalingConfiguration extends cdktn.TerraformResource {
   }
 
   // max_concurrency - computed: true, optional: true, required: false
-  private _maxConcurrency?: number;
+  private _maxConcurrency?: number; 
   public get maxConcurrency() {
     return this.getNumberAttribute('max_concurrency');
   }
@@ -302,7 +302,7 @@ export class ApprunnerAutoScalingConfiguration extends cdktn.TerraformResource {
   }
 
   // max_size - computed: true, optional: true, required: false
-  private _maxSize?: number;
+  private _maxSize?: number; 
   public get maxSize() {
     return this.getNumberAttribute('max_size');
   }
@@ -318,7 +318,7 @@ export class ApprunnerAutoScalingConfiguration extends cdktn.TerraformResource {
   }
 
   // min_size - computed: true, optional: true, required: false
-  private _minSize?: number;
+  private _minSize?: number; 
   public get minSize() {
     return this.getNumberAttribute('min_size');
   }

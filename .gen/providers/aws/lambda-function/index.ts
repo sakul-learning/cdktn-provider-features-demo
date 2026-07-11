@@ -318,7 +318,7 @@ export class LambdaFunctionCapacityProviderConfigLambdaManagedInstancesCapacityP
   }
 
   // capacity_provider_arn - computed: false, optional: false, required: true
-  private _capacityProviderArn?: string;
+  private _capacityProviderArn?: string; 
   public get capacityProviderArn() {
     return this.getStringAttribute('capacity_provider_arn');
   }
@@ -331,7 +331,7 @@ export class LambdaFunctionCapacityProviderConfigLambdaManagedInstancesCapacityP
   }
 
   // execution_environment_memory_gib_per_vcpu - computed: true, optional: true, required: false
-  private _executionEnvironmentMemoryGibPerVcpu?: number;
+  private _executionEnvironmentMemoryGibPerVcpu?: number; 
   public get executionEnvironmentMemoryGibPerVcpu() {
     return this.getNumberAttribute('execution_environment_memory_gib_per_vcpu');
   }
@@ -347,7 +347,7 @@ export class LambdaFunctionCapacityProviderConfigLambdaManagedInstancesCapacityP
   }
 
   // per_execution_environment_max_concurrency - computed: true, optional: true, required: false
-  private _perExecutionEnvironmentMaxConcurrency?: number;
+  private _perExecutionEnvironmentMaxConcurrency?: number; 
   public get perExecutionEnvironmentMaxConcurrency() {
     return this.getNumberAttribute('per_execution_environment_max_concurrency');
   }
@@ -514,7 +514,7 @@ export class LambdaFunctionDeadLetterConfigOutputReference extends cdktn.Complex
   }
 
   // target_arn - computed: false, optional: false, required: true
-  private _targetArn?: string;
+  private _targetArn?: string; 
   public get targetArn() {
     return this.getStringAttribute('target_arn');
   }
@@ -612,7 +612,7 @@ export class LambdaFunctionDurableConfigOutputReference extends cdktn.ComplexObj
   }
 
   // execution_timeout - computed: false, optional: false, required: true
-  private _executionTimeout?: number;
+  private _executionTimeout?: number; 
   public get executionTimeout() {
     return this.getNumberAttribute('execution_timeout');
   }
@@ -625,7 +625,7 @@ export class LambdaFunctionDurableConfigOutputReference extends cdktn.ComplexObj
   }
 
   // retention_period - computed: false, optional: true, required: false
-  private _retentionPeriod?: number;
+  private _retentionPeriod?: number; 
   public get retentionPeriod() {
     return this.getNumberAttribute('retention_period');
   }
@@ -709,7 +709,7 @@ export class LambdaFunctionEnvironmentOutputReference extends cdktn.ComplexObjec
   }
 
   // variables - computed: false, optional: true, required: false
-  private _variables?: { [key: string]: string };
+  private _variables?: { [key: string]: string }; 
   public get variables() {
     return this.getStringMapAttribute('variables');
   }
@@ -793,7 +793,7 @@ export class LambdaFunctionEphemeralStorageOutputReference extends cdktn.Complex
   }
 
   // size - computed: true, optional: true, required: false
-  private _size?: number;
+  private _size?: number; 
   public get size() {
     return this.getNumberAttribute('size');
   }
@@ -894,7 +894,7 @@ export class LambdaFunctionFileSystemConfigOutputReference extends cdktn.Complex
   }
 
   // arn - computed: false, optional: false, required: true
-  private _arn?: string;
+  private _arn?: string; 
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -907,7 +907,7 @@ export class LambdaFunctionFileSystemConfigOutputReference extends cdktn.Complex
   }
 
   // local_mount_path - computed: false, optional: false, required: true
-  private _localMountPath?: string;
+  private _localMountPath?: string; 
   public get localMountPath() {
     return this.getStringAttribute('local_mount_path');
   }
@@ -1022,7 +1022,7 @@ export class LambdaFunctionImageConfigOutputReference extends cdktn.ComplexObjec
   }
 
   // command - computed: false, optional: true, required: false
-  private _command?: string[];
+  private _command?: string[]; 
   public get command() {
     return this.getListAttribute('command');
   }
@@ -1038,7 +1038,7 @@ export class LambdaFunctionImageConfigOutputReference extends cdktn.ComplexObjec
   }
 
   // entry_point - computed: false, optional: true, required: false
-  private _entryPoint?: string[];
+  private _entryPoint?: string[]; 
   public get entryPoint() {
     return this.getListAttribute('entry_point');
   }
@@ -1054,7 +1054,7 @@ export class LambdaFunctionImageConfigOutputReference extends cdktn.ComplexObjec
   }
 
   // working_directory - computed: false, optional: true, required: false
-  private _workingDirectory?: string;
+  private _workingDirectory?: string; 
   public get workingDirectory() {
     return this.getStringAttribute('working_directory');
   }
@@ -1189,7 +1189,7 @@ export class LambdaFunctionLoggingConfigOutputReference extends cdktn.ComplexObj
   }
 
   // application_log_level - computed: false, optional: true, required: false
-  private _applicationLogLevel?: string;
+  private _applicationLogLevel?: string; 
   public get applicationLogLevel() {
     return this.getStringAttribute('application_log_level');
   }
@@ -1205,7 +1205,7 @@ export class LambdaFunctionLoggingConfigOutputReference extends cdktn.ComplexObj
   }
 
   // log_format - computed: false, optional: false, required: true
-  private _logFormat?: string;
+  private _logFormat?: string; 
   public get logFormat() {
     return this.getStringAttribute('log_format');
   }
@@ -1218,7 +1218,7 @@ export class LambdaFunctionLoggingConfigOutputReference extends cdktn.ComplexObj
   }
 
   // log_group - computed: true, optional: true, required: false
-  private _logGroup?: string;
+  private _logGroup?: string; 
   public get logGroup() {
     return this.getStringAttribute('log_group');
   }
@@ -1234,7 +1234,7 @@ export class LambdaFunctionLoggingConfigOutputReference extends cdktn.ComplexObj
   }
 
   // system_log_level - computed: false, optional: true, required: false
-  private _systemLogLevel?: string;
+  private _systemLogLevel?: string; 
   public get systemLogLevel() {
     return this.getStringAttribute('system_log_level');
   }
@@ -1318,7 +1318,7 @@ export class LambdaFunctionSnapStartOutputReference extends cdktn.ComplexObject 
   }
 
   // apply_on - computed: false, optional: false, required: true
-  private _applyOn?: string;
+  private _applyOn?: string; 
   public get applyOn() {
     return this.getStringAttribute('apply_on');
   }
@@ -1404,7 +1404,7 @@ export class LambdaFunctionTenancyConfigOutputReference extends cdktn.ComplexObj
   }
 
   // tenant_isolation_mode - computed: false, optional: false, required: true
-  private _tenantIsolationMode?: string;
+  private _tenantIsolationMode?: string; 
   public get tenantIsolationMode() {
     return this.getStringAttribute('tenant_isolation_mode');
   }
@@ -1529,7 +1529,7 @@ export class LambdaFunctionTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -1545,7 +1545,7 @@ export class LambdaFunctionTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -1561,7 +1561,7 @@ export class LambdaFunctionTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -1645,7 +1645,7 @@ export class LambdaFunctionTracingConfigOutputReference extends cdktn.ComplexObj
   }
 
   // mode - computed: false, optional: false, required: true
-  private _mode?: string;
+  private _mode?: string; 
   public get mode() {
     return this.getStringAttribute('mode');
   }
@@ -1760,7 +1760,7 @@ export class LambdaFunctionVpcConfigOutputReference extends cdktn.ComplexObject 
   }
 
   // ipv6_allowed_for_dual_stack - computed: false, optional: true, required: false
-  private _ipv6AllowedForDualStack?: boolean | cdktn.IResolvable;
+  private _ipv6AllowedForDualStack?: boolean | cdktn.IResolvable; 
   public get ipv6AllowedForDualStack() {
     return this.getBooleanAttribute('ipv6_allowed_for_dual_stack');
   }
@@ -1776,7 +1776,7 @@ export class LambdaFunctionVpcConfigOutputReference extends cdktn.ComplexObject 
   }
 
   // security_group_ids - computed: false, optional: false, required: true
-  private _securityGroupIds?: string[];
+  private _securityGroupIds?: string[]; 
   public get securityGroupIds() {
     return cdktn.Fn.tolist(this.getListAttribute('security_group_ids'));
   }
@@ -1789,7 +1789,7 @@ export class LambdaFunctionVpcConfigOutputReference extends cdktn.ComplexObject 
   }
 
   // subnet_ids - computed: false, optional: false, required: true
-  private _subnetIds?: string[];
+  private _subnetIds?: string[]; 
   public get subnetIds() {
     return cdktn.Fn.tolist(this.getListAttribute('subnet_ids'));
   }
@@ -1908,7 +1908,7 @@ export class LambdaFunction extends cdktn.TerraformResource {
   // ==========
 
   // architectures - computed: true, optional: true, required: false
-  private _architectures?: string[];
+  private _architectures?: string[]; 
   public get architectures() {
     return this.getListAttribute('architectures');
   }
@@ -1929,7 +1929,7 @@ export class LambdaFunction extends cdktn.TerraformResource {
   }
 
   // code_sha256 - computed: true, optional: true, required: false
-  private _codeSha256?: string;
+  private _codeSha256?: string; 
   public get codeSha256() {
     return this.getStringAttribute('code_sha256');
   }
@@ -1945,7 +1945,7 @@ export class LambdaFunction extends cdktn.TerraformResource {
   }
 
   // code_signing_config_arn - computed: false, optional: true, required: false
-  private _codeSigningConfigArn?: string;
+  private _codeSigningConfigArn?: string; 
   public get codeSigningConfigArn() {
     return this.getStringAttribute('code_signing_config_arn');
   }
@@ -1961,7 +1961,7 @@ export class LambdaFunction extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1977,7 +1977,7 @@ export class LambdaFunction extends cdktn.TerraformResource {
   }
 
   // filename - computed: false, optional: true, required: false
-  private _filename?: string;
+  private _filename?: string; 
   public get filename() {
     return this.getStringAttribute('filename');
   }
@@ -1993,7 +1993,7 @@ export class LambdaFunction extends cdktn.TerraformResource {
   }
 
   // function_name - computed: false, optional: false, required: true
-  private _functionName?: string;
+  private _functionName?: string; 
   public get functionName() {
     return this.getStringAttribute('function_name');
   }
@@ -2006,7 +2006,7 @@ export class LambdaFunction extends cdktn.TerraformResource {
   }
 
   // handler - computed: false, optional: true, required: false
-  private _handler?: string;
+  private _handler?: string; 
   public get handler() {
     return this.getStringAttribute('handler');
   }
@@ -2022,7 +2022,7 @@ export class LambdaFunction extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -2038,7 +2038,7 @@ export class LambdaFunction extends cdktn.TerraformResource {
   }
 
   // image_uri - computed: false, optional: true, required: false
-  private _imageUri?: string;
+  private _imageUri?: string; 
   public get imageUri() {
     return this.getStringAttribute('image_uri');
   }
@@ -2059,7 +2059,7 @@ export class LambdaFunction extends cdktn.TerraformResource {
   }
 
   // kms_key_arn - computed: false, optional: true, required: false
-  private _kmsKeyArn?: string;
+  private _kmsKeyArn?: string; 
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -2080,7 +2080,7 @@ export class LambdaFunction extends cdktn.TerraformResource {
   }
 
   // layers - computed: false, optional: true, required: false
-  private _layers?: string[];
+  private _layers?: string[]; 
   public get layers() {
     return this.getListAttribute('layers');
   }
@@ -2096,7 +2096,7 @@ export class LambdaFunction extends cdktn.TerraformResource {
   }
 
   // memory_size - computed: false, optional: true, required: false
-  private _memorySize?: number;
+  private _memorySize?: number; 
   public get memorySize() {
     return this.getNumberAttribute('memory_size');
   }
@@ -2112,7 +2112,7 @@ export class LambdaFunction extends cdktn.TerraformResource {
   }
 
   // package_type - computed: false, optional: true, required: false
-  private _packageType?: string;
+  private _packageType?: string; 
   public get packageType() {
     return this.getStringAttribute('package_type');
   }
@@ -2128,7 +2128,7 @@ export class LambdaFunction extends cdktn.TerraformResource {
   }
 
   // publish - computed: false, optional: true, required: false
-  private _publish?: boolean | cdktn.IResolvable;
+  private _publish?: boolean | cdktn.IResolvable; 
   public get publish() {
     return this.getBooleanAttribute('publish');
   }
@@ -2144,7 +2144,7 @@ export class LambdaFunction extends cdktn.TerraformResource {
   }
 
   // publish_to - computed: false, optional: true, required: false
-  private _publishTo?: string;
+  private _publishTo?: string; 
   public get publishTo() {
     return this.getStringAttribute('publish_to');
   }
@@ -2170,7 +2170,7 @@ export class LambdaFunction extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -2186,7 +2186,7 @@ export class LambdaFunction extends cdktn.TerraformResource {
   }
 
   // replace_security_groups_on_destroy - computed: false, optional: true, required: false
-  private _replaceSecurityGroupsOnDestroy?: boolean | cdktn.IResolvable;
+  private _replaceSecurityGroupsOnDestroy?: boolean | cdktn.IResolvable; 
   public get replaceSecurityGroupsOnDestroy() {
     return this.getBooleanAttribute('replace_security_groups_on_destroy');
   }
@@ -2202,7 +2202,7 @@ export class LambdaFunction extends cdktn.TerraformResource {
   }
 
   // replacement_security_group_ids - computed: false, optional: true, required: false
-  private _replacementSecurityGroupIds?: string[];
+  private _replacementSecurityGroupIds?: string[]; 
   public get replacementSecurityGroupIds() {
     return cdktn.Fn.tolist(this.getListAttribute('replacement_security_group_ids'));
   }
@@ -2218,7 +2218,7 @@ export class LambdaFunction extends cdktn.TerraformResource {
   }
 
   // reserved_concurrent_executions - computed: false, optional: true, required: false
-  private _reservedConcurrentExecutions?: number;
+  private _reservedConcurrentExecutions?: number; 
   public get reservedConcurrentExecutions() {
     return this.getNumberAttribute('reserved_concurrent_executions');
   }
@@ -2239,7 +2239,7 @@ export class LambdaFunction extends cdktn.TerraformResource {
   }
 
   // role - computed: false, optional: false, required: true
-  private _role?: string;
+  private _role?: string; 
   public get role() {
     return this.getStringAttribute('role');
   }
@@ -2252,7 +2252,7 @@ export class LambdaFunction extends cdktn.TerraformResource {
   }
 
   // runtime - computed: false, optional: true, required: false
-  private _runtime?: string;
+  private _runtime?: string; 
   public get runtime() {
     return this.getStringAttribute('runtime');
   }
@@ -2268,7 +2268,7 @@ export class LambdaFunction extends cdktn.TerraformResource {
   }
 
   // s3_bucket - computed: false, optional: true, required: false
-  private _s3Bucket?: string;
+  private _s3Bucket?: string; 
   public get s3Bucket() {
     return this.getStringAttribute('s3_bucket');
   }
@@ -2284,7 +2284,7 @@ export class LambdaFunction extends cdktn.TerraformResource {
   }
 
   // s3_key - computed: false, optional: true, required: false
-  private _s3Key?: string;
+  private _s3Key?: string; 
   public get s3Key() {
     return this.getStringAttribute('s3_key');
   }
@@ -2300,7 +2300,7 @@ export class LambdaFunction extends cdktn.TerraformResource {
   }
 
   // s3_object_version - computed: false, optional: true, required: false
-  private _s3ObjectVersion?: string;
+  private _s3ObjectVersion?: string; 
   public get s3ObjectVersion() {
     return this.getStringAttribute('s3_object_version');
   }
@@ -2326,7 +2326,7 @@ export class LambdaFunction extends cdktn.TerraformResource {
   }
 
   // skip_destroy - computed: false, optional: true, required: false
-  private _skipDestroy?: boolean | cdktn.IResolvable;
+  private _skipDestroy?: boolean | cdktn.IResolvable; 
   public get skipDestroy() {
     return this.getBooleanAttribute('skip_destroy');
   }
@@ -2342,7 +2342,7 @@ export class LambdaFunction extends cdktn.TerraformResource {
   }
 
   // source_code_hash - computed: true, optional: true, required: false
-  private _sourceCodeHash?: string;
+  private _sourceCodeHash?: string; 
   public get sourceCodeHash() {
     return this.getStringAttribute('source_code_hash');
   }
@@ -2363,7 +2363,7 @@ export class LambdaFunction extends cdktn.TerraformResource {
   }
 
   // source_kms_key_arn - computed: false, optional: true, required: false
-  private _sourceKmsKeyArn?: string;
+  private _sourceKmsKeyArn?: string; 
   public get sourceKmsKeyArn() {
     return this.getStringAttribute('source_kms_key_arn');
   }
@@ -2379,7 +2379,7 @@ export class LambdaFunction extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -2395,7 +2395,7 @@ export class LambdaFunction extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -2411,7 +2411,7 @@ export class LambdaFunction extends cdktn.TerraformResource {
   }
 
   // timeout - computed: false, optional: true, required: false
-  private _timeout?: number;
+  private _timeout?: number; 
   public get timeout() {
     return this.getNumberAttribute('timeout');
   }
@@ -2427,7 +2427,7 @@ export class LambdaFunction extends cdktn.TerraformResource {
   }
 
   // use_resource_timeout_for_propagation - computed: false, optional: true, required: false
-  private _useResourceTimeoutForPropagation?: boolean | cdktn.IResolvable;
+  private _useResourceTimeoutForPropagation?: boolean | cdktn.IResolvable; 
   public get useResourceTimeoutForPropagation() {
     return this.getBooleanAttribute('use_resource_timeout_for_propagation');
   }

@@ -137,7 +137,7 @@ export class SagemakerDeviceFleetOutputConfigOutputReference extends cdktn.Compl
   }
 
   // kms_key_id - computed: false, optional: true, required: false
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -153,7 +153,7 @@ export class SagemakerDeviceFleetOutputConfigOutputReference extends cdktn.Compl
   }
 
   // s3_output_location - computed: false, optional: false, required: true
-  private _s3OutputLocation?: string;
+  private _s3OutputLocation?: string; 
   public get s3OutputLocation() {
     return this.getStringAttribute('s3_output_location');
   }
@@ -237,7 +237,7 @@ export class SagemakerDeviceFleet extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -253,7 +253,7 @@ export class SagemakerDeviceFleet extends cdktn.TerraformResource {
   }
 
   // device_fleet_name - computed: false, optional: false, required: true
-  private _deviceFleetName?: string;
+  private _deviceFleetName?: string; 
   public get deviceFleetName() {
     return this.getStringAttribute('device_fleet_name');
   }
@@ -266,7 +266,7 @@ export class SagemakerDeviceFleet extends cdktn.TerraformResource {
   }
 
   // enable_iot_role_alias - computed: false, optional: true, required: false
-  private _enableIotRoleAlias?: boolean | cdktn.IResolvable;
+  private _enableIotRoleAlias?: boolean | cdktn.IResolvable; 
   public get enableIotRoleAlias() {
     return this.getBooleanAttribute('enable_iot_role_alias');
   }
@@ -282,7 +282,7 @@ export class SagemakerDeviceFleet extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -303,7 +303,7 @@ export class SagemakerDeviceFleet extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -319,7 +319,7 @@ export class SagemakerDeviceFleet extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -332,7 +332,7 @@ export class SagemakerDeviceFleet extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -348,7 +348,7 @@ export class SagemakerDeviceFleet extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

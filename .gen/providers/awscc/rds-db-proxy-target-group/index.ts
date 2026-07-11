@@ -189,7 +189,7 @@ export class RdsDbProxyTargetGroupConnectionPoolConfigurationInfoOutputReference
   }
 
   // connection_borrow_timeout - computed: true, optional: true, required: false
-  private _connectionBorrowTimeout?: number;
+  private _connectionBorrowTimeout?: number; 
   public get connectionBorrowTimeout() {
     return this.getNumberAttribute('connection_borrow_timeout');
   }
@@ -205,7 +205,7 @@ export class RdsDbProxyTargetGroupConnectionPoolConfigurationInfoOutputReference
   }
 
   // init_query - computed: true, optional: true, required: false
-  private _initQuery?: string;
+  private _initQuery?: string; 
   public get initQuery() {
     return this.getStringAttribute('init_query');
   }
@@ -221,7 +221,7 @@ export class RdsDbProxyTargetGroupConnectionPoolConfigurationInfoOutputReference
   }
 
   // max_connections_percent - computed: true, optional: true, required: false
-  private _maxConnectionsPercent?: number;
+  private _maxConnectionsPercent?: number; 
   public get maxConnectionsPercent() {
     return this.getNumberAttribute('max_connections_percent');
   }
@@ -237,7 +237,7 @@ export class RdsDbProxyTargetGroupConnectionPoolConfigurationInfoOutputReference
   }
 
   // max_idle_connections_percent - computed: true, optional: true, required: false
-  private _maxIdleConnectionsPercent?: number;
+  private _maxIdleConnectionsPercent?: number; 
   public get maxIdleConnectionsPercent() {
     return this.getNumberAttribute('max_idle_connections_percent');
   }
@@ -253,7 +253,7 @@ export class RdsDbProxyTargetGroupConnectionPoolConfigurationInfoOutputReference
   }
 
   // session_pinning_filters - computed: true, optional: true, required: false
-  private _sessionPinningFilters?: string[];
+  private _sessionPinningFilters?: string[]; 
   public get sessionPinningFilters() {
     return this.getListAttribute('session_pinning_filters');
   }
@@ -347,7 +347,7 @@ export class RdsDbProxyTargetGroup extends cdktn.TerraformResource {
   }
 
   // db_cluster_identifiers - computed: true, optional: true, required: false
-  private _dbClusterIdentifiers?: string[];
+  private _dbClusterIdentifiers?: string[]; 
   public get dbClusterIdentifiers() {
     return this.getListAttribute('db_cluster_identifiers');
   }
@@ -363,7 +363,7 @@ export class RdsDbProxyTargetGroup extends cdktn.TerraformResource {
   }
 
   // db_instance_identifiers - computed: true, optional: true, required: false
-  private _dbInstanceIdentifiers?: string[];
+  private _dbInstanceIdentifiers?: string[]; 
   public get dbInstanceIdentifiers() {
     return this.getListAttribute('db_instance_identifiers');
   }
@@ -379,7 +379,7 @@ export class RdsDbProxyTargetGroup extends cdktn.TerraformResource {
   }
 
   // db_proxy_name - computed: false, optional: false, required: true
-  private _dbProxyName?: string;
+  private _dbProxyName?: string; 
   public get dbProxyName() {
     return this.getStringAttribute('db_proxy_name');
   }
@@ -402,7 +402,7 @@ export class RdsDbProxyTargetGroup extends cdktn.TerraformResource {
   }
 
   // target_group_name - computed: false, optional: false, required: true
-  private _targetGroupName?: string;
+  private _targetGroupName?: string; 
   public get targetGroupName() {
     return this.getStringAttribute('target_group_name');
   }

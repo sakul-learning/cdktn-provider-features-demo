@@ -193,7 +193,7 @@ export class AmplifyAppAutoBranchCreationConfigBasicAuthConfigOutputReference ex
   }
 
   // enable_basic_auth - computed: true, optional: true, required: false
-  private _enableBasicAuth?: boolean | cdktn.IResolvable;
+  private _enableBasicAuth?: boolean | cdktn.IResolvable; 
   public get enableBasicAuth() {
     return this.getBooleanAttribute('enable_basic_auth');
   }
@@ -209,7 +209,7 @@ export class AmplifyAppAutoBranchCreationConfigBasicAuthConfigOutputReference ex
   }
 
   // password - computed: true, optional: true, required: false
-  private _password?: string;
+  private _password?: string; 
   public get password() {
     return this.getStringAttribute('password');
   }
@@ -225,7 +225,7 @@ export class AmplifyAppAutoBranchCreationConfigBasicAuthConfigOutputReference ex
   }
 
   // username - computed: true, optional: true, required: false
-  private _username?: string;
+  private _username?: string; 
   public get username() {
     return this.getStringAttribute('username');
   }
@@ -338,7 +338,7 @@ export class AmplifyAppAutoBranchCreationConfigEnvironmentVariablesOutputReferen
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -354,7 +354,7 @@ export class AmplifyAppAutoBranchCreationConfigEnvironmentVariablesOutputReferen
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -638,7 +638,7 @@ export class AmplifyAppAutoBranchCreationConfigOutputReference extends cdktn.Com
   }
 
   // auto_branch_creation_patterns - computed: true, optional: true, required: false
-  private _autoBranchCreationPatterns?: string[];
+  private _autoBranchCreationPatterns?: string[]; 
   public get autoBranchCreationPatterns() {
     return this.getListAttribute('auto_branch_creation_patterns');
   }
@@ -670,7 +670,7 @@ export class AmplifyAppAutoBranchCreationConfigOutputReference extends cdktn.Com
   }
 
   // build_spec - computed: true, optional: true, required: false
-  private _buildSpec?: string;
+  private _buildSpec?: string; 
   public get buildSpec() {
     return this.getStringAttribute('build_spec');
   }
@@ -686,7 +686,7 @@ export class AmplifyAppAutoBranchCreationConfigOutputReference extends cdktn.Com
   }
 
   // enable_auto_branch_creation - computed: true, optional: true, required: false
-  private _enableAutoBranchCreation?: boolean | cdktn.IResolvable;
+  private _enableAutoBranchCreation?: boolean | cdktn.IResolvable; 
   public get enableAutoBranchCreation() {
     return this.getBooleanAttribute('enable_auto_branch_creation');
   }
@@ -702,7 +702,7 @@ export class AmplifyAppAutoBranchCreationConfigOutputReference extends cdktn.Com
   }
 
   // enable_auto_build - computed: true, optional: true, required: false
-  private _enableAutoBuild?: boolean | cdktn.IResolvable;
+  private _enableAutoBuild?: boolean | cdktn.IResolvable; 
   public get enableAutoBuild() {
     return this.getBooleanAttribute('enable_auto_build');
   }
@@ -718,7 +718,7 @@ export class AmplifyAppAutoBranchCreationConfigOutputReference extends cdktn.Com
   }
 
   // enable_performance_mode - computed: true, optional: true, required: false
-  private _enablePerformanceMode?: boolean | cdktn.IResolvable;
+  private _enablePerformanceMode?: boolean | cdktn.IResolvable; 
   public get enablePerformanceMode() {
     return this.getBooleanAttribute('enable_performance_mode');
   }
@@ -734,7 +734,7 @@ export class AmplifyAppAutoBranchCreationConfigOutputReference extends cdktn.Com
   }
 
   // enable_pull_request_preview - computed: true, optional: true, required: false
-  private _enablePullRequestPreview?: boolean | cdktn.IResolvable;
+  private _enablePullRequestPreview?: boolean | cdktn.IResolvable; 
   public get enablePullRequestPreview() {
     return this.getBooleanAttribute('enable_pull_request_preview');
   }
@@ -766,7 +766,7 @@ export class AmplifyAppAutoBranchCreationConfigOutputReference extends cdktn.Com
   }
 
   // framework - computed: true, optional: true, required: false
-  private _framework?: string;
+  private _framework?: string; 
   public get framework() {
     return this.getStringAttribute('framework');
   }
@@ -782,7 +782,7 @@ export class AmplifyAppAutoBranchCreationConfigOutputReference extends cdktn.Com
   }
 
   // pull_request_environment_name - computed: true, optional: true, required: false
-  private _pullRequestEnvironmentName?: string;
+  private _pullRequestEnvironmentName?: string; 
   public get pullRequestEnvironmentName() {
     return this.getStringAttribute('pull_request_environment_name');
   }
@@ -798,7 +798,7 @@ export class AmplifyAppAutoBranchCreationConfigOutputReference extends cdktn.Com
   }
 
   // stage - computed: true, optional: true, required: false
-  private _stage?: string;
+  private _stage?: string; 
   public get stage() {
     return this.getStringAttribute('stage');
   }
@@ -926,7 +926,7 @@ export class AmplifyAppBasicAuthConfigOutputReference extends cdktn.ComplexObjec
   }
 
   // enable_basic_auth - computed: true, optional: true, required: false
-  private _enableBasicAuth?: boolean | cdktn.IResolvable;
+  private _enableBasicAuth?: boolean | cdktn.IResolvable; 
   public get enableBasicAuth() {
     return this.getBooleanAttribute('enable_basic_auth');
   }
@@ -942,7 +942,7 @@ export class AmplifyAppBasicAuthConfigOutputReference extends cdktn.ComplexObjec
   }
 
   // password - computed: true, optional: true, required: false
-  private _password?: string;
+  private _password?: string; 
   public get password() {
     return this.getStringAttribute('password');
   }
@@ -958,7 +958,7 @@ export class AmplifyAppBasicAuthConfigOutputReference extends cdktn.ComplexObjec
   }
 
   // username - computed: true, optional: true, required: false
-  private _username?: string;
+  private _username?: string; 
   public get username() {
     return this.getStringAttribute('username');
   }
@@ -1052,7 +1052,7 @@ export class AmplifyAppCacheConfigOutputReference extends cdktn.ComplexObject {
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -1199,7 +1199,7 @@ export class AmplifyAppCustomRulesOutputReference extends cdktn.ComplexObject {
   }
 
   // condition - computed: true, optional: true, required: false
-  private _condition?: string;
+  private _condition?: string; 
   public get condition() {
     return this.getStringAttribute('condition');
   }
@@ -1215,7 +1215,7 @@ export class AmplifyAppCustomRulesOutputReference extends cdktn.ComplexObject {
   }
 
   // source - computed: true, optional: true, required: false
-  private _source?: string;
+  private _source?: string; 
   public get source() {
     return this.getStringAttribute('source');
   }
@@ -1231,7 +1231,7 @@ export class AmplifyAppCustomRulesOutputReference extends cdktn.ComplexObject {
   }
 
   // status - computed: true, optional: true, required: false
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -1247,7 +1247,7 @@ export class AmplifyAppCustomRulesOutputReference extends cdktn.ComplexObject {
   }
 
   // target - computed: true, optional: true, required: false
-  private _target?: string;
+  private _target?: string; 
   public get target() {
     return this.getStringAttribute('target');
   }
@@ -1380,7 +1380,7 @@ export class AmplifyAppEnvironmentVariablesOutputReference extends cdktn.Complex
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1396,7 +1396,7 @@ export class AmplifyAppEnvironmentVariablesOutputReference extends cdktn.Complex
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1510,7 +1510,7 @@ export class AmplifyAppJobConfigOutputReference extends cdktn.ComplexObject {
   }
 
   // build_compute_type - computed: true, optional: true, required: false
-  private _buildComputeType?: string;
+  private _buildComputeType?: string; 
   public get buildComputeType() {
     return this.getStringAttribute('build_compute_type');
   }
@@ -1623,7 +1623,7 @@ export class AmplifyAppTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1639,7 +1639,7 @@ export class AmplifyAppTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1750,7 +1750,7 @@ export class AmplifyApp extends cdktn.TerraformResource {
   // ==========
 
   // access_token - computed: true, optional: true, required: false
-  private _accessToken?: string;
+  private _accessToken?: string; 
   public get accessToken() {
     return this.getStringAttribute('access_token');
   }
@@ -1813,7 +1813,7 @@ export class AmplifyApp extends cdktn.TerraformResource {
   }
 
   // build_spec - computed: true, optional: true, required: false
-  private _buildSpec?: string;
+  private _buildSpec?: string; 
   public get buildSpec() {
     return this.getStringAttribute('build_spec');
   }
@@ -1845,7 +1845,7 @@ export class AmplifyApp extends cdktn.TerraformResource {
   }
 
   // compute_role_arn - computed: true, optional: true, required: false
-  private _computeRoleArn?: string;
+  private _computeRoleArn?: string; 
   public get computeRoleArn() {
     return this.getStringAttribute('compute_role_arn');
   }
@@ -1861,7 +1861,7 @@ export class AmplifyApp extends cdktn.TerraformResource {
   }
 
   // custom_headers - computed: true, optional: true, required: false
-  private _customHeaders?: string;
+  private _customHeaders?: string; 
   public get customHeaders() {
     return this.getStringAttribute('custom_headers');
   }
@@ -1898,7 +1898,7 @@ export class AmplifyApp extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1914,7 +1914,7 @@ export class AmplifyApp extends cdktn.TerraformResource {
   }
 
   // enable_branch_auto_deletion - computed: true, optional: true, required: false
-  private _enableBranchAutoDeletion?: boolean | cdktn.IResolvable;
+  private _enableBranchAutoDeletion?: boolean | cdktn.IResolvable; 
   public get enableBranchAutoDeletion() {
     return this.getBooleanAttribute('enable_branch_auto_deletion');
   }
@@ -1946,7 +1946,7 @@ export class AmplifyApp extends cdktn.TerraformResource {
   }
 
   // iam_service_role - computed: true, optional: true, required: false
-  private _iamServiceRole?: string;
+  private _iamServiceRole?: string; 
   public get iamServiceRole() {
     return this.getStringAttribute('iam_service_role');
   }
@@ -1983,7 +1983,7 @@ export class AmplifyApp extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1996,7 +1996,7 @@ export class AmplifyApp extends cdktn.TerraformResource {
   }
 
   // oauth_token - computed: true, optional: true, required: false
-  private _oauthToken?: string;
+  private _oauthToken?: string; 
   public get oauthToken() {
     return this.getStringAttribute('oauth_token');
   }
@@ -2012,7 +2012,7 @@ export class AmplifyApp extends cdktn.TerraformResource {
   }
 
   // platform - computed: true, optional: true, required: false
-  private _platform?: string;
+  private _platform?: string; 
   public get platform() {
     return this.getStringAttribute('platform');
   }
@@ -2028,7 +2028,7 @@ export class AmplifyApp extends cdktn.TerraformResource {
   }
 
   // repository - computed: true, optional: true, required: false
-  private _repository?: string;
+  private _repository?: string; 
   public get repository() {
     return this.getStringAttribute('repository');
   }

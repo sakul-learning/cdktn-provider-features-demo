@@ -122,7 +122,7 @@ export class EmrWalWorkspaceTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -138,7 +138,7 @@ export class EmrWalWorkspaceTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -254,7 +254,7 @@ export class EmrWalWorkspace extends cdktn.TerraformResource {
   }
 
   // wal_workspace_name - computed: true, optional: true, required: false
-  private _walWorkspaceName?: string;
+  private _walWorkspaceName?: string; 
   public get walWorkspaceName() {
     return this.getStringAttribute('wal_workspace_name');
   }

@@ -136,7 +136,7 @@ export class NimblestudioLaunchProfileStreamConfigurationSessionBackupOutputRefe
   }
 
   // max_backups_to_retain - computed: true, optional: true, required: false
-  private _maxBackupsToRetain?: number;
+  private _maxBackupsToRetain?: number; 
   public get maxBackupsToRetain() {
     return this.getNumberAttribute('max_backups_to_retain');
   }
@@ -152,7 +152,7 @@ export class NimblestudioLaunchProfileStreamConfigurationSessionBackupOutputRefe
   }
 
   // mode - computed: true, optional: true, required: false
-  private _mode?: string;
+  private _mode?: string; 
   public get mode() {
     return this.getStringAttribute('mode');
   }
@@ -263,7 +263,7 @@ export class NimblestudioLaunchProfileStreamConfigurationSessionStorageRootOutpu
   }
 
   // linux - computed: true, optional: true, required: false
-  private _linux?: string;
+  private _linux?: string; 
   public get linux() {
     return this.getStringAttribute('linux');
   }
@@ -279,7 +279,7 @@ export class NimblestudioLaunchProfileStreamConfigurationSessionStorageRootOutpu
   }
 
   // windows - computed: true, optional: true, required: false
-  private _windows?: string;
+  private _windows?: string; 
   public get windows() {
     return this.getStringAttribute('windows');
   }
@@ -390,7 +390,7 @@ export class NimblestudioLaunchProfileStreamConfigurationSessionStorageOutputRef
   }
 
   // mode - computed: true, optional: true, required: false
-  private _mode?: string[];
+  private _mode?: string[]; 
   public get mode() {
     return this.getListAttribute('mode');
   }
@@ -534,7 +534,7 @@ export class NimblestudioLaunchProfileStreamConfigurationVolumeConfigurationOutp
   }
 
   // iops - computed: true, optional: true, required: false
-  private _iops?: number;
+  private _iops?: number; 
   public get iops() {
     return this.getNumberAttribute('iops');
   }
@@ -550,7 +550,7 @@ export class NimblestudioLaunchProfileStreamConfigurationVolumeConfigurationOutp
   }
 
   // size - computed: true, optional: true, required: false
-  private _size?: number;
+  private _size?: number; 
   public get size() {
     return this.getNumberAttribute('size');
   }
@@ -566,7 +566,7 @@ export class NimblestudioLaunchProfileStreamConfigurationVolumeConfigurationOutp
   }
 
   // throughput - computed: true, optional: true, required: false
-  private _throughput?: number;
+  private _throughput?: number; 
   public get throughput() {
     return this.getNumberAttribute('throughput');
   }
@@ -813,7 +813,7 @@ export class NimblestudioLaunchProfileStreamConfigurationOutputReference extends
   }
 
   // automatic_termination_mode - computed: true, optional: true, required: false
-  private _automaticTerminationMode?: string;
+  private _automaticTerminationMode?: string; 
   public get automaticTerminationMode() {
     return this.getStringAttribute('automatic_termination_mode');
   }
@@ -829,7 +829,7 @@ export class NimblestudioLaunchProfileStreamConfigurationOutputReference extends
   }
 
   // clipboard_mode - computed: false, optional: false, required: true
-  private _clipboardMode?: string;
+  private _clipboardMode?: string; 
   public get clipboardMode() {
     return this.getStringAttribute('clipboard_mode');
   }
@@ -842,7 +842,7 @@ export class NimblestudioLaunchProfileStreamConfigurationOutputReference extends
   }
 
   // ec_2_instance_types - computed: false, optional: false, required: true
-  private _ec2InstanceTypes?: string[];
+  private _ec2InstanceTypes?: string[]; 
   public get ec2InstanceTypes() {
     return this.getListAttribute('ec_2_instance_types');
   }
@@ -855,7 +855,7 @@ export class NimblestudioLaunchProfileStreamConfigurationOutputReference extends
   }
 
   // max_session_length_in_minutes - computed: true, optional: true, required: false
-  private _maxSessionLengthInMinutes?: number;
+  private _maxSessionLengthInMinutes?: number; 
   public get maxSessionLengthInMinutes() {
     return this.getNumberAttribute('max_session_length_in_minutes');
   }
@@ -871,7 +871,7 @@ export class NimblestudioLaunchProfileStreamConfigurationOutputReference extends
   }
 
   // max_stopped_session_length_in_minutes - computed: true, optional: true, required: false
-  private _maxStoppedSessionLengthInMinutes?: number;
+  private _maxStoppedSessionLengthInMinutes?: number; 
   public get maxStoppedSessionLengthInMinutes() {
     return this.getNumberAttribute('max_stopped_session_length_in_minutes');
   }
@@ -903,7 +903,7 @@ export class NimblestudioLaunchProfileStreamConfigurationOutputReference extends
   }
 
   // session_persistence_mode - computed: true, optional: true, required: false
-  private _sessionPersistenceMode?: string;
+  private _sessionPersistenceMode?: string; 
   public get sessionPersistenceMode() {
     return this.getStringAttribute('session_persistence_mode');
   }
@@ -935,7 +935,7 @@ export class NimblestudioLaunchProfileStreamConfigurationOutputReference extends
   }
 
   // streaming_image_ids - computed: false, optional: false, required: true
-  private _streamingImageIds?: string[];
+  private _streamingImageIds?: string[]; 
   public get streamingImageIds() {
     return this.getListAttribute('streaming_image_ids');
   }
@@ -1029,7 +1029,7 @@ export class NimblestudioLaunchProfile extends cdktn.TerraformResource {
   // ==========
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1045,7 +1045,7 @@ export class NimblestudioLaunchProfile extends cdktn.TerraformResource {
   }
 
   // ec_2_subnet_ids - computed: false, optional: false, required: true
-  private _ec2SubnetIds?: string[];
+  private _ec2SubnetIds?: string[]; 
   public get ec2SubnetIds() {
     return this.getListAttribute('ec_2_subnet_ids');
   }
@@ -1068,7 +1068,7 @@ export class NimblestudioLaunchProfile extends cdktn.TerraformResource {
   }
 
   // launch_profile_protocol_versions - computed: false, optional: false, required: true
-  private _launchProfileProtocolVersions?: string[];
+  private _launchProfileProtocolVersions?: string[]; 
   public get launchProfileProtocolVersions() {
     return this.getListAttribute('launch_profile_protocol_versions');
   }
@@ -1081,7 +1081,7 @@ export class NimblestudioLaunchProfile extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1107,7 +1107,7 @@ export class NimblestudioLaunchProfile extends cdktn.TerraformResource {
   }
 
   // studio_component_ids - computed: false, optional: false, required: true
-  private _studioComponentIds?: string[];
+  private _studioComponentIds?: string[]; 
   public get studioComponentIds() {
     return this.getListAttribute('studio_component_ids');
   }
@@ -1120,7 +1120,7 @@ export class NimblestudioLaunchProfile extends cdktn.TerraformResource {
   }
 
   // studio_id - computed: false, optional: false, required: true
-  private _studioId?: string;
+  private _studioId?: string; 
   public get studioId() {
     return this.getStringAttribute('studio_id');
   }
@@ -1133,7 +1133,7 @@ export class NimblestudioLaunchProfile extends cdktn.TerraformResource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

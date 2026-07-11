@@ -150,7 +150,7 @@ export class PersonalizeSolutionSolutionConfigAutoMlConfigOutputReference extend
   }
 
   // metric_name - computed: true, optional: true, required: false
-  private _metricName?: string;
+  private _metricName?: string; 
   public get metricName() {
     return this.getStringAttribute('metric_name');
   }
@@ -166,7 +166,7 @@ export class PersonalizeSolutionSolutionConfigAutoMlConfigOutputReference extend
   }
 
   // recipe_list - computed: true, optional: true, required: false
-  private _recipeList?: string[];
+  private _recipeList?: string[]; 
   public get recipeList() {
     return this.getListAttribute('recipe_list');
   }
@@ -283,7 +283,7 @@ export class PersonalizeSolutionSolutionConfigHpoConfigAlgorithmHyperParameterRa
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -299,7 +299,7 @@ export class PersonalizeSolutionSolutionConfigHpoConfigAlgorithmHyperParameterRa
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -455,7 +455,7 @@ export class PersonalizeSolutionSolutionConfigHpoConfigAlgorithmHyperParameterRa
   }
 
   // max_value - computed: true, optional: true, required: false
-  private _maxValue?: number;
+  private _maxValue?: number; 
   public get maxValue() {
     return this.getNumberAttribute('max_value');
   }
@@ -471,7 +471,7 @@ export class PersonalizeSolutionSolutionConfigHpoConfigAlgorithmHyperParameterRa
   }
 
   // min_value - computed: true, optional: true, required: false
-  private _minValue?: number;
+  private _minValue?: number; 
   public get minValue() {
     return this.getNumberAttribute('min_value');
   }
@@ -487,7 +487,7 @@ export class PersonalizeSolutionSolutionConfigHpoConfigAlgorithmHyperParameterRa
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -643,7 +643,7 @@ export class PersonalizeSolutionSolutionConfigHpoConfigAlgorithmHyperParameterRa
   }
 
   // max_value - computed: true, optional: true, required: false
-  private _maxValue?: number;
+  private _maxValue?: number; 
   public get maxValue() {
     return this.getNumberAttribute('max_value');
   }
@@ -659,7 +659,7 @@ export class PersonalizeSolutionSolutionConfigHpoConfigAlgorithmHyperParameterRa
   }
 
   // min_value - computed: true, optional: true, required: false
-  private _minValue?: number;
+  private _minValue?: number; 
   public get minValue() {
     return this.getNumberAttribute('min_value');
   }
@@ -675,7 +675,7 @@ export class PersonalizeSolutionSolutionConfigHpoConfigAlgorithmHyperParameterRa
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -995,7 +995,7 @@ export class PersonalizeSolutionSolutionConfigHpoConfigHpoObjectiveOutputReferen
   }
 
   // metric_name - computed: true, optional: true, required: false
-  private _metricName?: string;
+  private _metricName?: string; 
   public get metricName() {
     return this.getStringAttribute('metric_name');
   }
@@ -1011,7 +1011,7 @@ export class PersonalizeSolutionSolutionConfigHpoConfigHpoObjectiveOutputReferen
   }
 
   // metric_regex - computed: true, optional: true, required: false
-  private _metricRegex?: string;
+  private _metricRegex?: string; 
   public get metricRegex() {
     return this.getStringAttribute('metric_regex');
   }
@@ -1027,7 +1027,7 @@ export class PersonalizeSolutionSolutionConfigHpoConfigHpoObjectiveOutputReferen
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -1142,7 +1142,7 @@ export class PersonalizeSolutionSolutionConfigHpoConfigHpoResourceConfigOutputRe
   }
 
   // max_number_of_training_jobs - computed: true, optional: true, required: false
-  private _maxNumberOfTrainingJobs?: string;
+  private _maxNumberOfTrainingJobs?: string; 
   public get maxNumberOfTrainingJobs() {
     return this.getStringAttribute('max_number_of_training_jobs');
   }
@@ -1158,7 +1158,7 @@ export class PersonalizeSolutionSolutionConfigHpoConfigHpoResourceConfigOutputRe
   }
 
   // max_parallel_training_jobs - computed: true, optional: true, required: false
-  private _maxParallelTrainingJobs?: string;
+  private _maxParallelTrainingJobs?: string; 
   public get maxParallelTrainingJobs() {
     return this.getStringAttribute('max_parallel_training_jobs');
   }
@@ -1496,7 +1496,7 @@ export class PersonalizeSolutionSolutionConfigOutputReference extends cdktn.Comp
   }
 
   // algorithm_hyper_parameters - computed: true, optional: true, required: false
-  private _algorithmHyperParameters?: { [key: string]: string };
+  private _algorithmHyperParameters?: { [key: string]: string }; 
   public get algorithmHyperParameters() {
     return this.getStringMapAttribute('algorithm_hyper_parameters');
   }
@@ -1528,7 +1528,7 @@ export class PersonalizeSolutionSolutionConfigOutputReference extends cdktn.Comp
   }
 
   // event_value_threshold - computed: true, optional: true, required: false
-  private _eventValueThreshold?: string;
+  private _eventValueThreshold?: string; 
   public get eventValueThreshold() {
     return this.getStringAttribute('event_value_threshold');
   }
@@ -1544,7 +1544,7 @@ export class PersonalizeSolutionSolutionConfigOutputReference extends cdktn.Comp
   }
 
   // feature_transformation_parameters - computed: true, optional: true, required: false
-  private _featureTransformationParameters?: { [key: string]: string };
+  private _featureTransformationParameters?: { [key: string]: string }; 
   public get featureTransformationParameters() {
     return this.getStringMapAttribute('feature_transformation_parameters');
   }
@@ -1640,7 +1640,7 @@ export class PersonalizeSolution extends cdktn.TerraformResource {
   // ==========
 
   // dataset_group_arn - computed: false, optional: false, required: true
-  private _datasetGroupArn?: string;
+  private _datasetGroupArn?: string; 
   public get datasetGroupArn() {
     return this.getStringAttribute('dataset_group_arn');
   }
@@ -1653,7 +1653,7 @@ export class PersonalizeSolution extends cdktn.TerraformResource {
   }
 
   // event_type - computed: true, optional: true, required: false
-  private _eventType?: string;
+  private _eventType?: string; 
   public get eventType() {
     return this.getStringAttribute('event_type');
   }
@@ -1674,7 +1674,7 @@ export class PersonalizeSolution extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1687,7 +1687,7 @@ export class PersonalizeSolution extends cdktn.TerraformResource {
   }
 
   // perform_auto_ml - computed: true, optional: true, required: false
-  private _performAutoMl?: boolean | cdktn.IResolvable;
+  private _performAutoMl?: boolean | cdktn.IResolvable; 
   public get performAutoMl() {
     return this.getBooleanAttribute('perform_auto_ml');
   }
@@ -1703,7 +1703,7 @@ export class PersonalizeSolution extends cdktn.TerraformResource {
   }
 
   // perform_hpo - computed: true, optional: true, required: false
-  private _performHpo?: boolean | cdktn.IResolvable;
+  private _performHpo?: boolean | cdktn.IResolvable; 
   public get performHpo() {
     return this.getBooleanAttribute('perform_hpo');
   }
@@ -1719,7 +1719,7 @@ export class PersonalizeSolution extends cdktn.TerraformResource {
   }
 
   // recipe_arn - computed: true, optional: true, required: false
-  private _recipeArn?: string;
+  private _recipeArn?: string; 
   public get recipeArn() {
     return this.getStringAttribute('recipe_arn');
   }

@@ -125,7 +125,7 @@ export class RefactorspacesServiceLambdaEndpointOutputReference extends cdktn.Co
   }
 
   // arn - computed: true, optional: true, required: false
-  private _arn?: string;
+  private _arn?: string; 
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -242,7 +242,7 @@ export class RefactorspacesServiceTagsOutputReference extends cdktn.ComplexObjec
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -258,7 +258,7 @@ export class RefactorspacesServiceTagsOutputReference extends cdktn.ComplexObjec
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -389,7 +389,7 @@ export class RefactorspacesServiceUrlEndpointOutputReference extends cdktn.Compl
   }
 
   // health_url - computed: true, optional: true, required: false
-  private _healthUrl?: string;
+  private _healthUrl?: string; 
   public get healthUrl() {
     return this.getStringAttribute('health_url');
   }
@@ -405,7 +405,7 @@ export class RefactorspacesServiceUrlEndpointOutputReference extends cdktn.Compl
   }
 
   // url - computed: true, optional: true, required: false
-  private _url?: string;
+  private _url?: string; 
   public get url() {
     return this.getStringAttribute('url');
   }
@@ -487,7 +487,7 @@ export class RefactorspacesService extends cdktn.TerraformResource {
   // ==========
 
   // application_identifier - computed: false, optional: false, required: true
-  private _applicationIdentifier?: string;
+  private _applicationIdentifier?: string; 
   public get applicationIdentifier() {
     return this.getStringAttribute('application_identifier');
   }
@@ -505,7 +505,7 @@ export class RefactorspacesService extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -521,7 +521,7 @@ export class RefactorspacesService extends cdktn.TerraformResource {
   }
 
   // endpoint_type - computed: false, optional: false, required: true
-  private _endpointType?: string;
+  private _endpointType?: string; 
   public get endpointType() {
     return this.getStringAttribute('endpoint_type');
   }
@@ -534,7 +534,7 @@ export class RefactorspacesService extends cdktn.TerraformResource {
   }
 
   // environment_identifier - computed: false, optional: false, required: true
-  private _environmentIdentifier?: string;
+  private _environmentIdentifier?: string; 
   public get environmentIdentifier() {
     return this.getStringAttribute('environment_identifier');
   }
@@ -568,7 +568,7 @@ export class RefactorspacesService extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -618,7 +618,7 @@ export class RefactorspacesService extends cdktn.TerraformResource {
   }
 
   // vpc_id - computed: true, optional: true, required: false
-  private _vpcId?: string;
+  private _vpcId?: string; 
   public get vpcId() {
     return this.getStringAttribute('vpc_id');
   }

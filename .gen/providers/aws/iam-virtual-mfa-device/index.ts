@@ -109,7 +109,7 @@ export class IamVirtualMfaDevice extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -125,7 +125,7 @@ export class IamVirtualMfaDevice extends cdktn.TerraformResource {
   }
 
   // path - computed: false, optional: true, required: false
-  private _path?: string;
+  private _path?: string; 
   public get path() {
     return this.getStringAttribute('path');
   }
@@ -151,7 +151,7 @@ export class IamVirtualMfaDevice extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -167,7 +167,7 @@ export class IamVirtualMfaDevice extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -188,7 +188,7 @@ export class IamVirtualMfaDevice extends cdktn.TerraformResource {
   }
 
   // virtual_mfa_device_name - computed: false, optional: false, required: true
-  private _virtualMfaDeviceName?: string;
+  private _virtualMfaDeviceName?: string; 
   public get virtualMfaDeviceName() {
     return this.getStringAttribute('virtual_mfa_device_name');
   }

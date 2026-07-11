@@ -158,7 +158,7 @@ export class SsoPermissionSetCustomerManagedPolicyReferencesOutputReference exte
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -174,7 +174,7 @@ export class SsoPermissionSetCustomerManagedPolicyReferencesOutputReference exte
   }
 
   // path - computed: true, optional: true, required: false
-  private _path?: string;
+  private _path?: string; 
   public get path() {
     return this.getStringAttribute('path');
   }
@@ -305,7 +305,7 @@ export class SsoPermissionSetPermissionsBoundaryCustomerManagedPolicyReferenceOu
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -321,7 +321,7 @@ export class SsoPermissionSetPermissionsBoundaryCustomerManagedPolicyReferenceOu
   }
 
   // path - computed: true, optional: true, required: false
-  private _path?: string;
+  private _path?: string; 
   public get path() {
     return this.getStringAttribute('path');
   }
@@ -450,7 +450,7 @@ export class SsoPermissionSetPermissionsBoundaryOutputReference extends cdktn.Co
   }
 
   // managed_policy_arn - computed: true, optional: true, required: false
-  private _managedPolicyArn?: string;
+  private _managedPolicyArn?: string; 
   public get managedPolicyArn() {
     return this.getStringAttribute('managed_policy_arn');
   }
@@ -563,7 +563,7 @@ export class SsoPermissionSetTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -579,7 +579,7 @@ export class SsoPermissionSetTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -698,7 +698,7 @@ export class SsoPermissionSet extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -719,7 +719,7 @@ export class SsoPermissionSet extends cdktn.TerraformResource {
   }
 
   // inline_policy - computed: true, optional: true, required: false
-  private _inlinePolicy?: string;
+  private _inlinePolicy?: string; 
   public get inlinePolicy() {
     return this.getStringAttribute('inline_policy');
   }
@@ -735,7 +735,7 @@ export class SsoPermissionSet extends cdktn.TerraformResource {
   }
 
   // instance_arn - computed: false, optional: false, required: true
-  private _instanceArn?: string;
+  private _instanceArn?: string; 
   public get instanceArn() {
     return this.getStringAttribute('instance_arn');
   }
@@ -748,7 +748,7 @@ export class SsoPermissionSet extends cdktn.TerraformResource {
   }
 
   // managed_policies - computed: true, optional: true, required: false
-  private _managedPolicies?: string[];
+  private _managedPolicies?: string[]; 
   public get managedPolicies() {
     return this.getListAttribute('managed_policies');
   }
@@ -764,7 +764,7 @@ export class SsoPermissionSet extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -798,7 +798,7 @@ export class SsoPermissionSet extends cdktn.TerraformResource {
   }
 
   // relay_state_type - computed: true, optional: true, required: false
-  private _relayStateType?: string;
+  private _relayStateType?: string; 
   public get relayStateType() {
     return this.getStringAttribute('relay_state_type');
   }
@@ -814,7 +814,7 @@ export class SsoPermissionSet extends cdktn.TerraformResource {
   }
 
   // session_duration - computed: true, optional: true, required: false
-  private _sessionDuration?: string;
+  private _sessionDuration?: string; 
   public get sessionDuration() {
     return this.getStringAttribute('session_duration');
   }

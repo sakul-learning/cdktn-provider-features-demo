@@ -134,7 +134,7 @@ export class FsxDataRepositoryAssociationS3AutoExportPolicyOutputReference exten
   }
 
   // events - computed: true, optional: true, required: false
-  private _events?: string[];
+  private _events?: string[]; 
   public get events() {
     return this.getListAttribute('events');
   }
@@ -218,7 +218,7 @@ export class FsxDataRepositoryAssociationS3AutoImportPolicyOutputReference exten
   }
 
   // events - computed: true, optional: true, required: false
-  private _events?: string[];
+  private _events?: string[]; 
   public get events() {
     return this.getListAttribute('events');
   }
@@ -467,7 +467,7 @@ export class FsxDataRepositoryAssociationTimeoutsOutputReference extends cdktn.C
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -483,7 +483,7 @@ export class FsxDataRepositoryAssociationTimeoutsOutputReference extends cdktn.C
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -499,7 +499,7 @@ export class FsxDataRepositoryAssociationTimeoutsOutputReference extends cdktn.C
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -594,7 +594,7 @@ export class FsxDataRepositoryAssociation extends cdktn.TerraformResource {
   }
 
   // batch_import_meta_data_on_create - computed: false, optional: true, required: false
-  private _batchImportMetaDataOnCreate?: boolean | cdktn.IResolvable;
+  private _batchImportMetaDataOnCreate?: boolean | cdktn.IResolvable; 
   public get batchImportMetaDataOnCreate() {
     return this.getBooleanAttribute('batch_import_meta_data_on_create');
   }
@@ -610,7 +610,7 @@ export class FsxDataRepositoryAssociation extends cdktn.TerraformResource {
   }
 
   // data_repository_path - computed: false, optional: false, required: true
-  private _dataRepositoryPath?: string;
+  private _dataRepositoryPath?: string; 
   public get dataRepositoryPath() {
     return this.getStringAttribute('data_repository_path');
   }
@@ -623,7 +623,7 @@ export class FsxDataRepositoryAssociation extends cdktn.TerraformResource {
   }
 
   // delete_data_in_filesystem - computed: false, optional: true, required: false
-  private _deleteDataInFilesystem?: boolean | cdktn.IResolvable;
+  private _deleteDataInFilesystem?: boolean | cdktn.IResolvable; 
   public get deleteDataInFilesystem() {
     return this.getBooleanAttribute('delete_data_in_filesystem');
   }
@@ -639,7 +639,7 @@ export class FsxDataRepositoryAssociation extends cdktn.TerraformResource {
   }
 
   // file_system_id - computed: false, optional: false, required: true
-  private _fileSystemId?: string;
+  private _fileSystemId?: string; 
   public get fileSystemId() {
     return this.getStringAttribute('file_system_id');
   }
@@ -652,7 +652,7 @@ export class FsxDataRepositoryAssociation extends cdktn.TerraformResource {
   }
 
   // file_system_path - computed: false, optional: false, required: true
-  private _fileSystemPath?: string;
+  private _fileSystemPath?: string; 
   public get fileSystemPath() {
     return this.getStringAttribute('file_system_path');
   }
@@ -665,7 +665,7 @@ export class FsxDataRepositoryAssociation extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -681,7 +681,7 @@ export class FsxDataRepositoryAssociation extends cdktn.TerraformResource {
   }
 
   // imported_file_chunk_size - computed: true, optional: true, required: false
-  private _importedFileChunkSize?: number;
+  private _importedFileChunkSize?: number; 
   public get importedFileChunkSize() {
     return this.getNumberAttribute('imported_file_chunk_size');
   }
@@ -697,7 +697,7 @@ export class FsxDataRepositoryAssociation extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -713,7 +713,7 @@ export class FsxDataRepositoryAssociation extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -729,7 +729,7 @@ export class FsxDataRepositoryAssociation extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

@@ -217,7 +217,7 @@ export class S3BucketMetadataConfigurationMetadataConfigurationInventoryTableCon
   }
 
   // kms_key_arn - computed: false, optional: true, required: false
-  private _kmsKeyArn?: string;
+  private _kmsKeyArn?: string; 
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -233,7 +233,7 @@ export class S3BucketMetadataConfigurationMetadataConfigurationInventoryTableCon
   }
 
   // sse_algorithm - computed: false, optional: false, required: true
-  private _sseAlgorithm?: string;
+  private _sseAlgorithm?: string; 
   public get sseAlgorithm() {
     return this.getStringAttribute('sse_algorithm');
   }
@@ -365,7 +365,7 @@ export class S3BucketMetadataConfigurationMetadataConfigurationInventoryTableCon
   }
 
   // configuration_state - computed: false, optional: false, required: true
-  private _configurationState?: string;
+  private _configurationState?: string; 
   public get configurationState() {
     return this.getStringAttribute('configuration_state');
   }
@@ -521,7 +521,7 @@ export class S3BucketMetadataConfigurationMetadataConfigurationJournalTableConfi
   }
 
   // kms_key_arn - computed: false, optional: true, required: false
-  private _kmsKeyArn?: string;
+  private _kmsKeyArn?: string; 
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -537,7 +537,7 @@ export class S3BucketMetadataConfigurationMetadataConfigurationJournalTableConfi
   }
 
   // sse_algorithm - computed: false, optional: false, required: true
-  private _sseAlgorithm?: string;
+  private _sseAlgorithm?: string; 
   public get sseAlgorithm() {
     return this.getStringAttribute('sse_algorithm');
   }
@@ -667,7 +667,7 @@ export class S3BucketMetadataConfigurationMetadataConfigurationJournalTableConfi
   }
 
   // days - computed: false, optional: true, required: false
-  private _days?: number;
+  private _days?: number; 
   public get days() {
     return this.getNumberAttribute('days');
   }
@@ -683,7 +683,7 @@ export class S3BucketMetadataConfigurationMetadataConfigurationJournalTableConfi
   }
 
   // expiration - computed: false, optional: false, required: true
-  private _expiration?: string;
+  private _expiration?: string; 
   public get expiration() {
     return this.getStringAttribute('expiration');
   }
@@ -1118,7 +1118,7 @@ export class S3BucketMetadataConfigurationTimeoutsOutputReference extends cdktn.
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -1196,7 +1196,7 @@ export class S3BucketMetadataConfiguration extends cdktn.TerraformResource {
   // ==========
 
   // bucket - computed: false, optional: false, required: true
-  private _bucket?: string;
+  private _bucket?: string; 
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -1209,7 +1209,7 @@ export class S3BucketMetadataConfiguration extends cdktn.TerraformResource {
   }
 
   // expected_bucket_owner - computed: false, optional: true, required: false
-  private _expectedBucketOwner?: string;
+  private _expectedBucketOwner?: string; 
   public get expectedBucketOwner() {
     return this.getStringAttribute('expected_bucket_owner');
   }
@@ -1225,7 +1225,7 @@ export class S3BucketMetadataConfiguration extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

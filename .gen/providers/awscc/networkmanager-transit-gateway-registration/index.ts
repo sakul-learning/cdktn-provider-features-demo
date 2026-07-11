@@ -80,7 +80,7 @@ export class NetworkmanagerTransitGatewayRegistration extends cdktn.TerraformRes
   // ==========
 
   // global_network_id - computed: false, optional: false, required: true
-  private _globalNetworkId?: string;
+  private _globalNetworkId?: string; 
   public get globalNetworkId() {
     return this.getStringAttribute('global_network_id');
   }
@@ -98,7 +98,7 @@ export class NetworkmanagerTransitGatewayRegistration extends cdktn.TerraformRes
   }
 
   // transit_gateway_arn - computed: false, optional: false, required: true
-  private _transitGatewayArn?: string;
+  private _transitGatewayArn?: string; 
   public get transitGatewayArn() {
     return this.getStringAttribute('transit_gateway_arn');
   }

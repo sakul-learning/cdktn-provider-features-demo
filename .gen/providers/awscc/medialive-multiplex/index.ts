@@ -119,7 +119,7 @@ export class MedialiveMultiplexDestinationsMultiplexMediaConnectOutputDestinatio
   }
 
   // entitlement_arn - computed: true, optional: true, required: false
-  private _entitlementArn?: string;
+  private _entitlementArn?: string; 
   public get entitlementArn() {
     return this.getStringAttribute('entitlement_arn');
   }
@@ -390,7 +390,7 @@ export class MedialiveMultiplexMultiplexSettingsOutputReference extends cdktn.Co
   }
 
   // maximum_video_buffer_delay_milliseconds - computed: true, optional: true, required: false
-  private _maximumVideoBufferDelayMilliseconds?: number;
+  private _maximumVideoBufferDelayMilliseconds?: number; 
   public get maximumVideoBufferDelayMilliseconds() {
     return this.getNumberAttribute('maximum_video_buffer_delay_milliseconds');
   }
@@ -406,7 +406,7 @@ export class MedialiveMultiplexMultiplexSettingsOutputReference extends cdktn.Co
   }
 
   // transport_stream_bitrate - computed: false, optional: false, required: true
-  private _transportStreamBitrate?: number;
+  private _transportStreamBitrate?: number; 
   public get transportStreamBitrate() {
     return this.getNumberAttribute('transport_stream_bitrate');
   }
@@ -419,7 +419,7 @@ export class MedialiveMultiplexMultiplexSettingsOutputReference extends cdktn.Co
   }
 
   // transport_stream_id - computed: false, optional: false, required: true
-  private _transportStreamId?: number;
+  private _transportStreamId?: number; 
   public get transportStreamId() {
     return this.getNumberAttribute('transport_stream_id');
   }
@@ -432,7 +432,7 @@ export class MedialiveMultiplexMultiplexSettingsOutputReference extends cdktn.Co
   }
 
   // transport_stream_reserved_bitrate - computed: true, optional: true, required: false
-  private _transportStreamReservedBitrate?: number;
+  private _transportStreamReservedBitrate?: number; 
   public get transportStreamReservedBitrate() {
     return this.getNumberAttribute('transport_stream_reserved_bitrate');
   }
@@ -545,7 +545,7 @@ export class MedialiveMultiplexTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -561,7 +561,7 @@ export class MedialiveMultiplexTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -664,7 +664,7 @@ export class MedialiveMultiplex extends cdktn.TerraformResource {
   }
 
   // availability_zones - computed: false, optional: false, required: true
-  private _availabilityZones?: string[];
+  private _availabilityZones?: string[]; 
   public get availabilityZones() {
     return this.getListAttribute('availability_zones');
   }
@@ -716,7 +716,7 @@ export class MedialiveMultiplex extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }

@@ -80,7 +80,7 @@ export class Ec2EnclaveCertificateIamRoleAssociation extends cdktn.TerraformReso
   // ==========
 
   // certificate_arn - computed: false, optional: false, required: true
-  private _certificateArn?: string;
+  private _certificateArn?: string; 
   public get certificateArn() {
     return this.getStringAttribute('certificate_arn');
   }
@@ -113,7 +113,7 @@ export class Ec2EnclaveCertificateIamRoleAssociation extends cdktn.TerraformReso
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }

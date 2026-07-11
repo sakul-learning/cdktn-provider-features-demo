@@ -175,7 +175,7 @@ export class ChatbotSlackChannelConfigurationTimeoutsOutputReference extends cdk
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -191,7 +191,7 @@ export class ChatbotSlackChannelConfigurationTimeoutsOutputReference extends cdk
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -207,7 +207,7 @@ export class ChatbotSlackChannelConfigurationTimeoutsOutputReference extends cdk
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -296,7 +296,7 @@ export class ChatbotSlackChannelConfiguration extends cdktn.TerraformResource {
   }
 
   // configuration_name - computed: false, optional: false, required: true
-  private _configurationName?: string;
+  private _configurationName?: string; 
   public get configurationName() {
     return this.getStringAttribute('configuration_name');
   }
@@ -309,7 +309,7 @@ export class ChatbotSlackChannelConfiguration extends cdktn.TerraformResource {
   }
 
   // guardrail_policy_arns - computed: true, optional: true, required: false
-  private _guardrailPolicyArns?: string[];
+  private _guardrailPolicyArns?: string[]; 
   public get guardrailPolicyArns() {
     return this.getListAttribute('guardrail_policy_arns');
   }
@@ -325,7 +325,7 @@ export class ChatbotSlackChannelConfiguration extends cdktn.TerraformResource {
   }
 
   // iam_role_arn - computed: false, optional: false, required: true
-  private _iamRoleArn?: string;
+  private _iamRoleArn?: string; 
   public get iamRoleArn() {
     return this.getStringAttribute('iam_role_arn');
   }
@@ -338,7 +338,7 @@ export class ChatbotSlackChannelConfiguration extends cdktn.TerraformResource {
   }
 
   // logging_level - computed: true, optional: true, required: false
-  private _loggingLevel?: string;
+  private _loggingLevel?: string; 
   public get loggingLevel() {
     return this.getStringAttribute('logging_level');
   }
@@ -354,7 +354,7 @@ export class ChatbotSlackChannelConfiguration extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -370,7 +370,7 @@ export class ChatbotSlackChannelConfiguration extends cdktn.TerraformResource {
   }
 
   // slack_channel_id - computed: false, optional: false, required: true
-  private _slackChannelId?: string;
+  private _slackChannelId?: string; 
   public get slackChannelId() {
     return this.getStringAttribute('slack_channel_id');
   }
@@ -388,7 +388,7 @@ export class ChatbotSlackChannelConfiguration extends cdktn.TerraformResource {
   }
 
   // slack_team_id - computed: false, optional: false, required: true
-  private _slackTeamId?: string;
+  private _slackTeamId?: string; 
   public get slackTeamId() {
     return this.getStringAttribute('slack_team_id');
   }
@@ -406,7 +406,7 @@ export class ChatbotSlackChannelConfiguration extends cdktn.TerraformResource {
   }
 
   // sns_topic_arns - computed: true, optional: true, required: false
-  private _snsTopicArns?: string[];
+  private _snsTopicArns?: string[]; 
   public get snsTopicArns() {
     return cdktn.Fn.tolist(this.getListAttribute('sns_topic_arns'));
   }
@@ -422,7 +422,7 @@ export class ChatbotSlackChannelConfiguration extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -444,7 +444,7 @@ export class ChatbotSlackChannelConfiguration extends cdktn.TerraformResource {
   }
 
   // user_authorization_required - computed: true, optional: true, required: false
-  private _userAuthorizationRequired?: boolean | cdktn.IResolvable;
+  private _userAuthorizationRequired?: boolean | cdktn.IResolvable; 
   public get userAuthorizationRequired() {
     return this.getBooleanAttribute('user_authorization_required');
   }

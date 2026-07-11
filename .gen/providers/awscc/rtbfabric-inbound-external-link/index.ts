@@ -158,7 +158,7 @@ export class RtbfabricInboundExternalLinkLinkAttributesResponderErrorMaskingOutp
   }
 
   // action - computed: true, optional: true, required: false
-  private _action?: string;
+  private _action?: string; 
   public get action() {
     return this.getStringAttribute('action');
   }
@@ -174,7 +174,7 @@ export class RtbfabricInboundExternalLinkLinkAttributesResponderErrorMaskingOutp
   }
 
   // http_code - computed: true, optional: true, required: false
-  private _httpCode?: string;
+  private _httpCode?: string; 
   public get httpCode() {
     return this.getStringAttribute('http_code');
   }
@@ -190,7 +190,7 @@ export class RtbfabricInboundExternalLinkLinkAttributesResponderErrorMaskingOutp
   }
 
   // logging_types - computed: true, optional: true, required: false
-  private _loggingTypes?: string[];
+  private _loggingTypes?: string[]; 
   public get loggingTypes() {
     return cdktn.Fn.tolist(this.getListAttribute('logging_types'));
   }
@@ -206,7 +206,7 @@ export class RtbfabricInboundExternalLinkLinkAttributesResponderErrorMaskingOutp
   }
 
   // response_logging_percentage - computed: true, optional: true, required: false
-  private _responseLoggingPercentage?: number;
+  private _responseLoggingPercentage?: number; 
   public get responseLoggingPercentage() {
     return this.getNumberAttribute('response_logging_percentage');
   }
@@ -337,7 +337,7 @@ export class RtbfabricInboundExternalLinkLinkAttributesOutputReference extends c
   }
 
   // customer_provided_id - computed: true, optional: true, required: false
-  private _customerProvidedId?: string;
+  private _customerProvidedId?: string; 
   public get customerProvidedId() {
     return this.getStringAttribute('customer_provided_id');
   }
@@ -464,7 +464,7 @@ export class RtbfabricInboundExternalLinkLinkLogSettingsApplicationLogsLinkAppli
   }
 
   // error_log - computed: false, optional: false, required: true
-  private _errorLog?: number;
+  private _errorLog?: number; 
   public get errorLog() {
     return this.getNumberAttribute('error_log');
   }
@@ -477,7 +477,7 @@ export class RtbfabricInboundExternalLinkLinkLogSettingsApplicationLogsLinkAppli
   }
 
   // filter_log - computed: false, optional: false, required: true
-  private _filterLog?: number;
+  private _filterLog?: number; 
   public get filterLog() {
     return this.getNumberAttribute('filter_log');
   }
@@ -673,13 +673,13 @@ export class RtbfabricInboundExternalLinkLinkLogSettingsOutputReference extends 
 }
 export interface RtbfabricInboundExternalLinkTags {
   /**
-  * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
+  * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_inbound_external_link#key RtbfabricInboundExternalLink#key}
   */
   readonly key?: string;
   /**
-  * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
+  * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_inbound_external_link#value RtbfabricInboundExternalLink#value}
   */
@@ -773,7 +773,7 @@ export class RtbfabricInboundExternalLinkTagsOutputReference extends cdktn.Compl
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -789,7 +789,7 @@ export class RtbfabricInboundExternalLinkTagsOutputReference extends cdktn.Compl
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -901,7 +901,7 @@ export class RtbfabricInboundExternalLink extends cdktn.TerraformResource {
   }
 
   // gateway_id - computed: false, optional: false, required: true
-  private _gatewayId?: string;
+  private _gatewayId?: string; 
   public get gatewayId() {
     return this.getStringAttribute('gateway_id');
   }

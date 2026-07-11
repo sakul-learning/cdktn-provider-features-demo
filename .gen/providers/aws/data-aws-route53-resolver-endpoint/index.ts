@@ -129,7 +129,7 @@ export class DataAwsRoute53ResolverEndpointFilterOutputReference extends cdktn.C
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -142,7 +142,7 @@ export class DataAwsRoute53ResolverEndpointFilterOutputReference extends cdktn.C
   }
 
   // values - computed: false, optional: false, required: true
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -246,7 +246,7 @@ export class DataAwsRoute53ResolverEndpoint extends cdktn.TerraformDataSource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -277,7 +277,7 @@ export class DataAwsRoute53ResolverEndpoint extends cdktn.TerraformDataSource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -293,7 +293,7 @@ export class DataAwsRoute53ResolverEndpoint extends cdktn.TerraformDataSource {
   }
 
   // resolver_endpoint_id - computed: false, optional: true, required: false
-  private _resolverEndpointId?: string;
+  private _resolverEndpointId?: string; 
   public get resolverEndpointId() {
     return this.getStringAttribute('resolver_endpoint_id');
   }

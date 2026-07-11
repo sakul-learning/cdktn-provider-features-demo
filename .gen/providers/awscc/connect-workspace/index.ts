@@ -168,7 +168,7 @@ export class ConnectWorkspaceMediaOutputReference extends cdktn.ComplexObject {
   }
 
   // source - computed: true, optional: true, required: false
-  private _source?: string;
+  private _source?: string; 
   public get source() {
     return this.getStringAttribute('source');
   }
@@ -184,7 +184,7 @@ export class ConnectWorkspaceMediaOutputReference extends cdktn.ComplexObject {
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -359,7 +359,7 @@ export class ConnectWorkspacePagesOutputReference extends cdktn.ComplexObject {
   }
 
   // input_data - computed: true, optional: true, required: false
-  private _inputData?: string;
+  private _inputData?: string; 
   public get inputData() {
     return this.getStringAttribute('input_data');
   }
@@ -375,7 +375,7 @@ export class ConnectWorkspacePagesOutputReference extends cdktn.ComplexObject {
   }
 
   // page - computed: true, optional: true, required: false
-  private _page?: string;
+  private _page?: string; 
   public get page() {
     return this.getStringAttribute('page');
   }
@@ -391,7 +391,7 @@ export class ConnectWorkspacePagesOutputReference extends cdktn.ComplexObject {
   }
 
   // resource_arn - computed: true, optional: true, required: false
-  private _resourceArn?: string;
+  private _resourceArn?: string; 
   public get resourceArn() {
     return this.getStringAttribute('resource_arn');
   }
@@ -407,7 +407,7 @@ export class ConnectWorkspacePagesOutputReference extends cdktn.ComplexObject {
   }
 
   // slug - computed: true, optional: true, required: false
-  private _slug?: string;
+  private _slug?: string; 
   public get slug() {
     return this.getStringAttribute('slug');
   }
@@ -544,7 +544,7 @@ export class ConnectWorkspaceTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -560,7 +560,7 @@ export class ConnectWorkspaceTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -708,7 +708,7 @@ export class ConnectWorkspaceThemeDarkPaletteCanvasOutputReference extends cdktn
   }
 
   // active_background - computed: true, optional: true, required: false
-  private _activeBackground?: string;
+  private _activeBackground?: string; 
   public get activeBackground() {
     return this.getStringAttribute('active_background');
   }
@@ -724,7 +724,7 @@ export class ConnectWorkspaceThemeDarkPaletteCanvasOutputReference extends cdktn
   }
 
   // container_background - computed: true, optional: true, required: false
-  private _containerBackground?: string;
+  private _containerBackground?: string; 
   public get containerBackground() {
     return this.getStringAttribute('container_background');
   }
@@ -740,7 +740,7 @@ export class ConnectWorkspaceThemeDarkPaletteCanvasOutputReference extends cdktn
   }
 
   // page_background - computed: true, optional: true, required: false
-  private _pageBackground?: string;
+  private _pageBackground?: string; 
   public get pageBackground() {
     return this.getStringAttribute('page_background');
   }
@@ -885,7 +885,7 @@ export class ConnectWorkspaceThemeDarkPaletteHeaderOutputReference extends cdktn
   }
 
   // background - computed: true, optional: true, required: false
-  private _background?: string;
+  private _background?: string; 
   public get background() {
     return this.getStringAttribute('background');
   }
@@ -901,7 +901,7 @@ export class ConnectWorkspaceThemeDarkPaletteHeaderOutputReference extends cdktn
   }
 
   // invert_actions_colors - computed: true, optional: true, required: false
-  private _invertActionsColors?: boolean | cdktn.IResolvable;
+  private _invertActionsColors?: boolean | cdktn.IResolvable; 
   public get invertActionsColors() {
     return this.getBooleanAttribute('invert_actions_colors');
   }
@@ -917,7 +917,7 @@ export class ConnectWorkspaceThemeDarkPaletteHeaderOutputReference extends cdktn
   }
 
   // text - computed: true, optional: true, required: false
-  private _text?: string;
+  private _text?: string; 
   public get text() {
     return this.getStringAttribute('text');
   }
@@ -933,7 +933,7 @@ export class ConnectWorkspaceThemeDarkPaletteHeaderOutputReference extends cdktn
   }
 
   // text_hover - computed: true, optional: true, required: false
-  private _textHover?: string;
+  private _textHover?: string; 
   public get textHover() {
     return this.getStringAttribute('text_hover');
   }
@@ -1129,7 +1129,7 @@ export class ConnectWorkspaceThemeDarkPaletteNavigationOutputReference extends c
   }
 
   // background - computed: true, optional: true, required: false
-  private _background?: string;
+  private _background?: string; 
   public get background() {
     return this.getStringAttribute('background');
   }
@@ -1145,7 +1145,7 @@ export class ConnectWorkspaceThemeDarkPaletteNavigationOutputReference extends c
   }
 
   // invert_actions_colors - computed: true, optional: true, required: false
-  private _invertActionsColors?: boolean | cdktn.IResolvable;
+  private _invertActionsColors?: boolean | cdktn.IResolvable; 
   public get invertActionsColors() {
     return this.getBooleanAttribute('invert_actions_colors');
   }
@@ -1161,7 +1161,7 @@ export class ConnectWorkspaceThemeDarkPaletteNavigationOutputReference extends c
   }
 
   // text - computed: true, optional: true, required: false
-  private _text?: string;
+  private _text?: string; 
   public get text() {
     return this.getStringAttribute('text');
   }
@@ -1177,7 +1177,7 @@ export class ConnectWorkspaceThemeDarkPaletteNavigationOutputReference extends c
   }
 
   // text_active - computed: true, optional: true, required: false
-  private _textActive?: string;
+  private _textActive?: string; 
   public get textActive() {
     return this.getStringAttribute('text_active');
   }
@@ -1193,7 +1193,7 @@ export class ConnectWorkspaceThemeDarkPaletteNavigationOutputReference extends c
   }
 
   // text_background_active - computed: true, optional: true, required: false
-  private _textBackgroundActive?: string;
+  private _textBackgroundActive?: string; 
   public get textBackgroundActive() {
     return this.getStringAttribute('text_background_active');
   }
@@ -1209,7 +1209,7 @@ export class ConnectWorkspaceThemeDarkPaletteNavigationOutputReference extends c
   }
 
   // text_background_hover - computed: true, optional: true, required: false
-  private _textBackgroundHover?: string;
+  private _textBackgroundHover?: string; 
   public get textBackgroundHover() {
     return this.getStringAttribute('text_background_hover');
   }
@@ -1225,7 +1225,7 @@ export class ConnectWorkspaceThemeDarkPaletteNavigationOutputReference extends c
   }
 
   // text_hover - computed: true, optional: true, required: false
-  private _textHover?: string;
+  private _textHover?: string; 
   public get textHover() {
     return this.getStringAttribute('text_hover');
   }
@@ -1353,7 +1353,7 @@ export class ConnectWorkspaceThemeDarkPalettePrimaryOutputReference extends cdkt
   }
 
   // active - computed: true, optional: true, required: false
-  private _active?: string;
+  private _active?: string; 
   public get active() {
     return this.getStringAttribute('active');
   }
@@ -1369,7 +1369,7 @@ export class ConnectWorkspaceThemeDarkPalettePrimaryOutputReference extends cdkt
   }
 
   // contrast_text - computed: true, optional: true, required: false
-  private _contrastText?: string;
+  private _contrastText?: string; 
   public get contrastText() {
     return this.getStringAttribute('contrast_text');
   }
@@ -1385,7 +1385,7 @@ export class ConnectWorkspaceThemeDarkPalettePrimaryOutputReference extends cdkt
   }
 
   // default - computed: true, optional: true, required: false
-  private _default?: string;
+  private _default?: string; 
   public get default() {
     return this.getStringAttribute('default');
   }
@@ -1672,7 +1672,7 @@ export class ConnectWorkspaceThemeDarkTypographyFontFamilyOutputReference extend
   }
 
   // default - computed: true, optional: true, required: false
-  private _default?: string;
+  private _default?: string; 
   public get default() {
     return this.getStringAttribute('default');
   }
@@ -2021,7 +2021,7 @@ export class ConnectWorkspaceThemeLightPaletteCanvasOutputReference extends cdkt
   }
 
   // active_background - computed: true, optional: true, required: false
-  private _activeBackground?: string;
+  private _activeBackground?: string; 
   public get activeBackground() {
     return this.getStringAttribute('active_background');
   }
@@ -2037,7 +2037,7 @@ export class ConnectWorkspaceThemeLightPaletteCanvasOutputReference extends cdkt
   }
 
   // container_background - computed: true, optional: true, required: false
-  private _containerBackground?: string;
+  private _containerBackground?: string; 
   public get containerBackground() {
     return this.getStringAttribute('container_background');
   }
@@ -2053,7 +2053,7 @@ export class ConnectWorkspaceThemeLightPaletteCanvasOutputReference extends cdkt
   }
 
   // page_background - computed: true, optional: true, required: false
-  private _pageBackground?: string;
+  private _pageBackground?: string; 
   public get pageBackground() {
     return this.getStringAttribute('page_background');
   }
@@ -2198,7 +2198,7 @@ export class ConnectWorkspaceThemeLightPaletteHeaderOutputReference extends cdkt
   }
 
   // background - computed: true, optional: true, required: false
-  private _background?: string;
+  private _background?: string; 
   public get background() {
     return this.getStringAttribute('background');
   }
@@ -2214,7 +2214,7 @@ export class ConnectWorkspaceThemeLightPaletteHeaderOutputReference extends cdkt
   }
 
   // invert_actions_colors - computed: true, optional: true, required: false
-  private _invertActionsColors?: boolean | cdktn.IResolvable;
+  private _invertActionsColors?: boolean | cdktn.IResolvable; 
   public get invertActionsColors() {
     return this.getBooleanAttribute('invert_actions_colors');
   }
@@ -2230,7 +2230,7 @@ export class ConnectWorkspaceThemeLightPaletteHeaderOutputReference extends cdkt
   }
 
   // text - computed: true, optional: true, required: false
-  private _text?: string;
+  private _text?: string; 
   public get text() {
     return this.getStringAttribute('text');
   }
@@ -2246,7 +2246,7 @@ export class ConnectWorkspaceThemeLightPaletteHeaderOutputReference extends cdkt
   }
 
   // text_hover - computed: true, optional: true, required: false
-  private _textHover?: string;
+  private _textHover?: string; 
   public get textHover() {
     return this.getStringAttribute('text_hover');
   }
@@ -2442,7 +2442,7 @@ export class ConnectWorkspaceThemeLightPaletteNavigationOutputReference extends 
   }
 
   // background - computed: true, optional: true, required: false
-  private _background?: string;
+  private _background?: string; 
   public get background() {
     return this.getStringAttribute('background');
   }
@@ -2458,7 +2458,7 @@ export class ConnectWorkspaceThemeLightPaletteNavigationOutputReference extends 
   }
 
   // invert_actions_colors - computed: true, optional: true, required: false
-  private _invertActionsColors?: boolean | cdktn.IResolvable;
+  private _invertActionsColors?: boolean | cdktn.IResolvable; 
   public get invertActionsColors() {
     return this.getBooleanAttribute('invert_actions_colors');
   }
@@ -2474,7 +2474,7 @@ export class ConnectWorkspaceThemeLightPaletteNavigationOutputReference extends 
   }
 
   // text - computed: true, optional: true, required: false
-  private _text?: string;
+  private _text?: string; 
   public get text() {
     return this.getStringAttribute('text');
   }
@@ -2490,7 +2490,7 @@ export class ConnectWorkspaceThemeLightPaletteNavigationOutputReference extends 
   }
 
   // text_active - computed: true, optional: true, required: false
-  private _textActive?: string;
+  private _textActive?: string; 
   public get textActive() {
     return this.getStringAttribute('text_active');
   }
@@ -2506,7 +2506,7 @@ export class ConnectWorkspaceThemeLightPaletteNavigationOutputReference extends 
   }
 
   // text_background_active - computed: true, optional: true, required: false
-  private _textBackgroundActive?: string;
+  private _textBackgroundActive?: string; 
   public get textBackgroundActive() {
     return this.getStringAttribute('text_background_active');
   }
@@ -2522,7 +2522,7 @@ export class ConnectWorkspaceThemeLightPaletteNavigationOutputReference extends 
   }
 
   // text_background_hover - computed: true, optional: true, required: false
-  private _textBackgroundHover?: string;
+  private _textBackgroundHover?: string; 
   public get textBackgroundHover() {
     return this.getStringAttribute('text_background_hover');
   }
@@ -2538,7 +2538,7 @@ export class ConnectWorkspaceThemeLightPaletteNavigationOutputReference extends 
   }
 
   // text_hover - computed: true, optional: true, required: false
-  private _textHover?: string;
+  private _textHover?: string; 
   public get textHover() {
     return this.getStringAttribute('text_hover');
   }
@@ -2666,7 +2666,7 @@ export class ConnectWorkspaceThemeLightPalettePrimaryOutputReference extends cdk
   }
 
   // active - computed: true, optional: true, required: false
-  private _active?: string;
+  private _active?: string; 
   public get active() {
     return this.getStringAttribute('active');
   }
@@ -2682,7 +2682,7 @@ export class ConnectWorkspaceThemeLightPalettePrimaryOutputReference extends cdk
   }
 
   // contrast_text - computed: true, optional: true, required: false
-  private _contrastText?: string;
+  private _contrastText?: string; 
   public get contrastText() {
     return this.getStringAttribute('contrast_text');
   }
@@ -2698,7 +2698,7 @@ export class ConnectWorkspaceThemeLightPalettePrimaryOutputReference extends cdk
   }
 
   // default - computed: true, optional: true, required: false
-  private _default?: string;
+  private _default?: string; 
   public get default() {
     return this.getStringAttribute('default');
   }
@@ -2985,7 +2985,7 @@ export class ConnectWorkspaceThemeLightTypographyFontFamilyOutputReference exten
   }
 
   // default - computed: true, optional: true, required: false
-  private _default?: string;
+  private _default?: string; 
   public get default() {
     return this.getStringAttribute('default');
   }
@@ -3421,7 +3421,7 @@ export class ConnectWorkspace extends cdktn.TerraformResource {
   }
 
   // associations - computed: true, optional: true, required: false
-  private _associations?: string[];
+  private _associations?: string[]; 
   public get associations() {
     return this.getListAttribute('associations');
   }
@@ -3437,7 +3437,7 @@ export class ConnectWorkspace extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -3458,7 +3458,7 @@ export class ConnectWorkspace extends cdktn.TerraformResource {
   }
 
   // instance_arn - computed: false, optional: false, required: true
-  private _instanceArn?: string;
+  private _instanceArn?: string; 
   public get instanceArn() {
     return this.getStringAttribute('instance_arn');
   }
@@ -3487,7 +3487,7 @@ export class ConnectWorkspace extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -3548,7 +3548,7 @@ export class ConnectWorkspace extends cdktn.TerraformResource {
   }
 
   // title - computed: true, optional: true, required: false
-  private _title?: string;
+  private _title?: string; 
   public get title() {
     return this.getStringAttribute('title');
   }
@@ -3564,7 +3564,7 @@ export class ConnectWorkspace extends cdktn.TerraformResource {
   }
 
   // visibility - computed: true, optional: true, required: false
-  private _visibility?: string;
+  private _visibility?: string; 
   public get visibility() {
     return this.getStringAttribute('visibility');
   }

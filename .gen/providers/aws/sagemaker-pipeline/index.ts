@@ -130,7 +130,7 @@ export class SagemakerPipelineParallelismConfigurationOutputReference extends cd
   }
 
   // max_parallel_execution_steps - computed: false, optional: false, required: true
-  private _maxParallelExecutionSteps?: number;
+  private _maxParallelExecutionSteps?: number; 
   public get maxParallelExecutionSteps() {
     return this.getNumberAttribute('max_parallel_execution_steps');
   }
@@ -245,7 +245,7 @@ export class SagemakerPipelinePipelineDefinitionS3LocationOutputReference extend
   }
 
   // bucket - computed: false, optional: false, required: true
-  private _bucket?: string;
+  private _bucket?: string; 
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -258,7 +258,7 @@ export class SagemakerPipelinePipelineDefinitionS3LocationOutputReference extend
   }
 
   // object_key - computed: false, optional: false, required: true
-  private _objectKey?: string;
+  private _objectKey?: string; 
   public get objectKey() {
     return this.getStringAttribute('object_key');
   }
@@ -271,7 +271,7 @@ export class SagemakerPipelinePipelineDefinitionS3LocationOutputReference extend
   }
 
   // version_id - computed: false, optional: true, required: false
-  private _versionId?: string;
+  private _versionId?: string; 
   public get versionId() {
     return this.getStringAttribute('version_id');
   }
@@ -360,7 +360,7 @@ export class SagemakerPipeline extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -376,7 +376,7 @@ export class SagemakerPipeline extends cdktn.TerraformResource {
   }
 
   // pipeline_definition - computed: false, optional: true, required: false
-  private _pipelineDefinition?: string;
+  private _pipelineDefinition?: string; 
   public get pipelineDefinition() {
     return this.getStringAttribute('pipeline_definition');
   }
@@ -392,7 +392,7 @@ export class SagemakerPipeline extends cdktn.TerraformResource {
   }
 
   // pipeline_description - computed: false, optional: true, required: false
-  private _pipelineDescription?: string;
+  private _pipelineDescription?: string; 
   public get pipelineDescription() {
     return this.getStringAttribute('pipeline_description');
   }
@@ -408,7 +408,7 @@ export class SagemakerPipeline extends cdktn.TerraformResource {
   }
 
   // pipeline_display_name - computed: false, optional: false, required: true
-  private _pipelineDisplayName?: string;
+  private _pipelineDisplayName?: string; 
   public get pipelineDisplayName() {
     return this.getStringAttribute('pipeline_display_name');
   }
@@ -421,7 +421,7 @@ export class SagemakerPipeline extends cdktn.TerraformResource {
   }
 
   // pipeline_name - computed: false, optional: false, required: true
-  private _pipelineName?: string;
+  private _pipelineName?: string; 
   public get pipelineName() {
     return this.getStringAttribute('pipeline_name');
   }
@@ -434,7 +434,7 @@ export class SagemakerPipeline extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -450,7 +450,7 @@ export class SagemakerPipeline extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -466,7 +466,7 @@ export class SagemakerPipeline extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -482,7 +482,7 @@ export class SagemakerPipeline extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

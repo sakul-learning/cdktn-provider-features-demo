@@ -98,7 +98,7 @@ export class QuicksightIngestion extends cdktn.TerraformResource {
   }
 
   // aws_account_id - computed: true, optional: true, required: false
-  private _awsAccountId?: string;
+  private _awsAccountId?: string; 
   public get awsAccountId() {
     return this.getStringAttribute('aws_account_id');
   }
@@ -114,7 +114,7 @@ export class QuicksightIngestion extends cdktn.TerraformResource {
   }
 
   // data_set_id - computed: false, optional: false, required: true
-  private _dataSetId?: string;
+  private _dataSetId?: string; 
   public get dataSetId() {
     return this.getStringAttribute('data_set_id');
   }
@@ -132,7 +132,7 @@ export class QuicksightIngestion extends cdktn.TerraformResource {
   }
 
   // ingestion_id - computed: false, optional: false, required: true
-  private _ingestionId?: string;
+  private _ingestionId?: string; 
   public get ingestionId() {
     return this.getStringAttribute('ingestion_id');
   }
@@ -150,7 +150,7 @@ export class QuicksightIngestion extends cdktn.TerraformResource {
   }
 
   // ingestion_type - computed: false, optional: false, required: true
-  private _ingestionType?: string;
+  private _ingestionType?: string; 
   public get ingestionType() {
     return this.getStringAttribute('ingestion_type');
   }
@@ -163,7 +163,7 @@ export class QuicksightIngestion extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

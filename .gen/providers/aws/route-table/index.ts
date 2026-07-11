@@ -349,7 +349,7 @@ export class RouteTableRouteOutputReference extends cdktn.ComplexObject {
   }
 
   // carrier_gateway_id - computed: true, optional: true, required: false
-  private _carrierGatewayId?: string;
+  private _carrierGatewayId?: string; 
   public get carrierGatewayId() {
     return this.getStringAttribute('carrier_gateway_id');
   }
@@ -365,7 +365,7 @@ export class RouteTableRouteOutputReference extends cdktn.ComplexObject {
   }
 
   // cidr_block - computed: true, optional: true, required: false
-  private _cidrBlock?: string;
+  private _cidrBlock?: string; 
   public get cidrBlock() {
     return this.getStringAttribute('cidr_block');
   }
@@ -381,7 +381,7 @@ export class RouteTableRouteOutputReference extends cdktn.ComplexObject {
   }
 
   // core_network_arn - computed: true, optional: true, required: false
-  private _coreNetworkArn?: string;
+  private _coreNetworkArn?: string; 
   public get coreNetworkArn() {
     return this.getStringAttribute('core_network_arn');
   }
@@ -397,7 +397,7 @@ export class RouteTableRouteOutputReference extends cdktn.ComplexObject {
   }
 
   // destination_prefix_list_id - computed: true, optional: true, required: false
-  private _destinationPrefixListId?: string;
+  private _destinationPrefixListId?: string; 
   public get destinationPrefixListId() {
     return this.getStringAttribute('destination_prefix_list_id');
   }
@@ -413,7 +413,7 @@ export class RouteTableRouteOutputReference extends cdktn.ComplexObject {
   }
 
   // egress_only_gateway_id - computed: true, optional: true, required: false
-  private _egressOnlyGatewayId?: string;
+  private _egressOnlyGatewayId?: string; 
   public get egressOnlyGatewayId() {
     return this.getStringAttribute('egress_only_gateway_id');
   }
@@ -429,7 +429,7 @@ export class RouteTableRouteOutputReference extends cdktn.ComplexObject {
   }
 
   // gateway_id - computed: true, optional: true, required: false
-  private _gatewayId?: string;
+  private _gatewayId?: string; 
   public get gatewayId() {
     return this.getStringAttribute('gateway_id');
   }
@@ -445,7 +445,7 @@ export class RouteTableRouteOutputReference extends cdktn.ComplexObject {
   }
 
   // ipv6_cidr_block - computed: true, optional: true, required: false
-  private _ipv6CidrBlock?: string;
+  private _ipv6CidrBlock?: string; 
   public get ipv6CidrBlock() {
     return this.getStringAttribute('ipv6_cidr_block');
   }
@@ -461,7 +461,7 @@ export class RouteTableRouteOutputReference extends cdktn.ComplexObject {
   }
 
   // local_gateway_id - computed: true, optional: true, required: false
-  private _localGatewayId?: string;
+  private _localGatewayId?: string; 
   public get localGatewayId() {
     return this.getStringAttribute('local_gateway_id');
   }
@@ -477,7 +477,7 @@ export class RouteTableRouteOutputReference extends cdktn.ComplexObject {
   }
 
   // nat_gateway_id - computed: true, optional: true, required: false
-  private _natGatewayId?: string;
+  private _natGatewayId?: string; 
   public get natGatewayId() {
     return this.getStringAttribute('nat_gateway_id');
   }
@@ -493,7 +493,7 @@ export class RouteTableRouteOutputReference extends cdktn.ComplexObject {
   }
 
   // network_interface_id - computed: true, optional: true, required: false
-  private _networkInterfaceId?: string;
+  private _networkInterfaceId?: string; 
   public get networkInterfaceId() {
     return this.getStringAttribute('network_interface_id');
   }
@@ -509,7 +509,7 @@ export class RouteTableRouteOutputReference extends cdktn.ComplexObject {
   }
 
   // odb_network_arn - computed: true, optional: true, required: false
-  private _odbNetworkArn?: string;
+  private _odbNetworkArn?: string; 
   public get odbNetworkArn() {
     return this.getStringAttribute('odb_network_arn');
   }
@@ -525,7 +525,7 @@ export class RouteTableRouteOutputReference extends cdktn.ComplexObject {
   }
 
   // transit_gateway_id - computed: true, optional: true, required: false
-  private _transitGatewayId?: string;
+  private _transitGatewayId?: string; 
   public get transitGatewayId() {
     return this.getStringAttribute('transit_gateway_id');
   }
@@ -541,7 +541,7 @@ export class RouteTableRouteOutputReference extends cdktn.ComplexObject {
   }
 
   // vpc_endpoint_id - computed: true, optional: true, required: false
-  private _vpcEndpointId?: string;
+  private _vpcEndpointId?: string; 
   public get vpcEndpointId() {
     return this.getStringAttribute('vpc_endpoint_id');
   }
@@ -557,7 +557,7 @@ export class RouteTableRouteOutputReference extends cdktn.ComplexObject {
   }
 
   // vpc_peering_connection_id - computed: true, optional: true, required: false
-  private _vpcPeeringConnectionId?: string;
+  private _vpcPeeringConnectionId?: string; 
   public get vpcPeeringConnectionId() {
     return this.getStringAttribute('vpc_peering_connection_id');
   }
@@ -705,7 +705,7 @@ export class RouteTableTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -721,7 +721,7 @@ export class RouteTableTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -737,7 +737,7 @@ export class RouteTableTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -823,7 +823,7 @@ export class RouteTable extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -844,7 +844,7 @@ export class RouteTable extends cdktn.TerraformResource {
   }
 
   // propagating_vgws - computed: true, optional: true, required: false
-  private _propagatingVgws?: string[];
+  private _propagatingVgws?: string[]; 
   public get propagatingVgws() {
     return cdktn.Fn.tolist(this.getListAttribute('propagating_vgws'));
   }
@@ -860,7 +860,7 @@ export class RouteTable extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -892,7 +892,7 @@ export class RouteTable extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -908,7 +908,7 @@ export class RouteTable extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -924,7 +924,7 @@ export class RouteTable extends cdktn.TerraformResource {
   }
 
   // vpc_id - computed: false, optional: false, required: true
-  private _vpcId?: string;
+  private _vpcId?: string; 
   public get vpcId() {
     return this.getStringAttribute('vpc_id');
   }

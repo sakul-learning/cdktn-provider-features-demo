@@ -146,7 +146,7 @@ export class CodegurureviewerRepositoryAssociationTagsOutputReference extends cd
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -162,7 +162,7 @@ export class CodegurureviewerRepositoryAssociationTagsOutputReference extends cd
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -266,7 +266,7 @@ export class CodegurureviewerRepositoryAssociation extends cdktn.TerraformResour
   }
 
   // bucket_name - computed: true, optional: true, required: false
-  private _bucketName?: string;
+  private _bucketName?: string; 
   public get bucketName() {
     return this.getStringAttribute('bucket_name');
   }
@@ -282,7 +282,7 @@ export class CodegurureviewerRepositoryAssociation extends cdktn.TerraformResour
   }
 
   // connection_arn - computed: true, optional: true, required: false
-  private _connectionArn?: string;
+  private _connectionArn?: string; 
   public get connectionArn() {
     return this.getStringAttribute('connection_arn');
   }
@@ -303,7 +303,7 @@ export class CodegurureviewerRepositoryAssociation extends cdktn.TerraformResour
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -316,7 +316,7 @@ export class CodegurureviewerRepositoryAssociation extends cdktn.TerraformResour
   }
 
   // owner - computed: true, optional: true, required: false
-  private _owner?: string;
+  private _owner?: string; 
   public get owner() {
     return this.getStringAttribute('owner');
   }
@@ -348,7 +348,7 @@ export class CodegurureviewerRepositoryAssociation extends cdktn.TerraformResour
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }

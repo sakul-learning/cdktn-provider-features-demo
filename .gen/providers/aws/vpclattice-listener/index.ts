@@ -130,7 +130,7 @@ export class VpclatticeListenerDefaultActionFixedResponseOutputReference extends
   }
 
   // status_code - computed: false, optional: false, required: true
-  private _statusCode?: number;
+  private _statusCode?: number; 
   public get statusCode() {
     return this.getNumberAttribute('status_code');
   }
@@ -240,7 +240,7 @@ export class VpclatticeListenerDefaultActionForwardTargetGroupsOutputReference e
   }
 
   // target_group_identifier - computed: false, optional: true, required: false
-  private _targetGroupIdentifier?: string;
+  private _targetGroupIdentifier?: string; 
   public get targetGroupIdentifier() {
     return this.getStringAttribute('target_group_identifier');
   }
@@ -256,7 +256,7 @@ export class VpclatticeListenerDefaultActionForwardTargetGroupsOutputReference e
   }
 
   // weight - computed: false, optional: true, required: false
-  private _weight?: number;
+  private _weight?: number; 
   public get weight() {
     return this.getNumberAttribute('weight');
   }
@@ -643,7 +643,7 @@ export class VpclatticeListenerTimeoutsOutputReference extends cdktn.ComplexObje
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -659,7 +659,7 @@ export class VpclatticeListenerTimeoutsOutputReference extends cdktn.ComplexObje
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -675,7 +675,7 @@ export class VpclatticeListenerTimeoutsOutputReference extends cdktn.ComplexObje
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -769,7 +769,7 @@ export class VpclatticeListener extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -795,7 +795,7 @@ export class VpclatticeListener extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -808,7 +808,7 @@ export class VpclatticeListener extends cdktn.TerraformResource {
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -824,7 +824,7 @@ export class VpclatticeListener extends cdktn.TerraformResource {
   }
 
   // protocol - computed: false, optional: false, required: true
-  private _protocol?: string;
+  private _protocol?: string; 
   public get protocol() {
     return this.getStringAttribute('protocol');
   }
@@ -837,7 +837,7 @@ export class VpclatticeListener extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -853,7 +853,7 @@ export class VpclatticeListener extends cdktn.TerraformResource {
   }
 
   // service_arn - computed: true, optional: true, required: false
-  private _serviceArn?: string;
+  private _serviceArn?: string; 
   public get serviceArn() {
     return this.getStringAttribute('service_arn');
   }
@@ -869,7 +869,7 @@ export class VpclatticeListener extends cdktn.TerraformResource {
   }
 
   // service_identifier - computed: true, optional: true, required: false
-  private _serviceIdentifier?: string;
+  private _serviceIdentifier?: string; 
   public get serviceIdentifier() {
     return this.getStringAttribute('service_identifier');
   }
@@ -885,7 +885,7 @@ export class VpclatticeListener extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -901,7 +901,7 @@ export class VpclatticeListener extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

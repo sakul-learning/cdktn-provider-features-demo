@@ -144,7 +144,7 @@ export class ForecastDatasetEncryptionConfigOutputReference extends cdktn.Comple
   }
 
   // kms_key_arn - computed: true, optional: true, required: false
-  private _kmsKeyArn?: string;
+  private _kmsKeyArn?: string; 
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -160,7 +160,7 @@ export class ForecastDatasetEncryptionConfigOutputReference extends cdktn.Comple
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -277,7 +277,7 @@ export class ForecastDatasetSchemaAttributesOutputReference extends cdktn.Comple
   }
 
   // attribute_name - computed: true, optional: true, required: false
-  private _attributeName?: string;
+  private _attributeName?: string; 
   public get attributeName() {
     return this.getStringAttribute('attribute_name');
   }
@@ -293,7 +293,7 @@ export class ForecastDatasetSchemaAttributesOutputReference extends cdktn.Comple
   }
 
   // attribute_type - computed: true, optional: true, required: false
-  private _attributeType?: string;
+  private _attributeType?: string; 
   public get attributeType() {
     return this.getStringAttribute('attribute_type');
   }
@@ -524,7 +524,7 @@ export class ForecastDatasetTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -540,7 +540,7 @@ export class ForecastDatasetTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -645,7 +645,7 @@ export class ForecastDataset extends cdktn.TerraformResource {
   }
 
   // data_frequency - computed: true, optional: true, required: false
-  private _dataFrequency?: string;
+  private _dataFrequency?: string; 
   public get dataFrequency() {
     return this.getStringAttribute('data_frequency');
   }
@@ -661,7 +661,7 @@ export class ForecastDataset extends cdktn.TerraformResource {
   }
 
   // dataset_name - computed: false, optional: false, required: true
-  private _datasetName?: string;
+  private _datasetName?: string; 
   public get datasetName() {
     return this.getStringAttribute('dataset_name');
   }
@@ -674,7 +674,7 @@ export class ForecastDataset extends cdktn.TerraformResource {
   }
 
   // dataset_type - computed: false, optional: false, required: true
-  private _datasetType?: string;
+  private _datasetType?: string; 
   public get datasetType() {
     return this.getStringAttribute('dataset_type');
   }
@@ -687,7 +687,7 @@ export class ForecastDataset extends cdktn.TerraformResource {
   }
 
   // domain - computed: false, optional: false, required: true
-  private _domain?: string;
+  private _domain?: string; 
   public get domain() {
     return this.getStringAttribute('domain');
   }

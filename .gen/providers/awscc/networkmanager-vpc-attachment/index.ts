@@ -194,7 +194,7 @@ export class NetworkmanagerVpcAttachmentOptionsOutputReference extends cdktn.Com
   }
 
   // appliance_mode_support - computed: true, optional: true, required: false
-  private _applianceModeSupport?: boolean | cdktn.IResolvable;
+  private _applianceModeSupport?: boolean | cdktn.IResolvable; 
   public get applianceModeSupport() {
     return this.getBooleanAttribute('appliance_mode_support');
   }
@@ -210,7 +210,7 @@ export class NetworkmanagerVpcAttachmentOptionsOutputReference extends cdktn.Com
   }
 
   // dns_support - computed: true, optional: true, required: false
-  private _dnsSupport?: boolean | cdktn.IResolvable;
+  private _dnsSupport?: boolean | cdktn.IResolvable; 
   public get dnsSupport() {
     return this.getBooleanAttribute('dns_support');
   }
@@ -226,7 +226,7 @@ export class NetworkmanagerVpcAttachmentOptionsOutputReference extends cdktn.Com
   }
 
   // ipv_6_support - computed: true, optional: true, required: false
-  private _ipv6Support?: boolean | cdktn.IResolvable;
+  private _ipv6Support?: boolean | cdktn.IResolvable; 
   public get ipv6Support() {
     return this.getBooleanAttribute('ipv_6_support');
   }
@@ -242,7 +242,7 @@ export class NetworkmanagerVpcAttachmentOptionsOutputReference extends cdktn.Com
   }
 
   // security_group_referencing_support - computed: true, optional: true, required: false
-  private _securityGroupReferencingSupport?: boolean | cdktn.IResolvable;
+  private _securityGroupReferencingSupport?: boolean | cdktn.IResolvable; 
   public get securityGroupReferencingSupport() {
     return this.getBooleanAttribute('security_group_referencing_support');
   }
@@ -359,7 +359,7 @@ export class NetworkmanagerVpcAttachmentProposedNetworkFunctionGroupChangeTagsOu
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -375,7 +375,7 @@ export class NetworkmanagerVpcAttachmentProposedNetworkFunctionGroupChangeTagsOu
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -529,7 +529,7 @@ export class NetworkmanagerVpcAttachmentProposedNetworkFunctionGroupChangeOutput
   }
 
   // attachment_policy_rule_number - computed: true, optional: true, required: false
-  private _attachmentPolicyRuleNumber?: number;
+  private _attachmentPolicyRuleNumber?: number; 
   public get attachmentPolicyRuleNumber() {
     return this.getNumberAttribute('attachment_policy_rule_number');
   }
@@ -545,7 +545,7 @@ export class NetworkmanagerVpcAttachmentProposedNetworkFunctionGroupChangeOutput
   }
 
   // network_function_group_name - computed: true, optional: true, required: false
-  private _networkFunctionGroupName?: string;
+  private _networkFunctionGroupName?: string; 
   public get networkFunctionGroupName() {
     return this.getStringAttribute('network_function_group_name');
   }
@@ -678,7 +678,7 @@ export class NetworkmanagerVpcAttachmentProposedSegmentChangeTagsOutputReference
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -694,7 +694,7 @@ export class NetworkmanagerVpcAttachmentProposedSegmentChangeTagsOutputReference
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -848,7 +848,7 @@ export class NetworkmanagerVpcAttachmentProposedSegmentChangeOutputReference ext
   }
 
   // attachment_policy_rule_number - computed: true, optional: true, required: false
-  private _attachmentPolicyRuleNumber?: number;
+  private _attachmentPolicyRuleNumber?: number; 
   public get attachmentPolicyRuleNumber() {
     return this.getNumberAttribute('attachment_policy_rule_number');
   }
@@ -864,7 +864,7 @@ export class NetworkmanagerVpcAttachmentProposedSegmentChangeOutputReference ext
   }
 
   // segment_name - computed: true, optional: true, required: false
-  private _segmentName?: string;
+  private _segmentName?: string; 
   public get segmentName() {
     return this.getStringAttribute('segment_name');
   }
@@ -997,7 +997,7 @@ export class NetworkmanagerVpcAttachmentTagsOutputReference extends cdktn.Comple
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1013,7 +1013,7 @@ export class NetworkmanagerVpcAttachmentTagsOutputReference extends cdktn.Comple
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1134,7 +1134,7 @@ export class NetworkmanagerVpcAttachment extends cdktn.TerraformResource {
   }
 
   // core_network_id - computed: false, optional: false, required: true
-  private _coreNetworkId?: string;
+  private _coreNetworkId?: string; 
   public get coreNetworkId() {
     return this.getStringAttribute('core_network_id');
   }
@@ -1230,7 +1230,7 @@ export class NetworkmanagerVpcAttachment extends cdktn.TerraformResource {
   }
 
   // routing_policy_label - computed: true, optional: true, required: false
-  private _routingPolicyLabel?: string;
+  private _routingPolicyLabel?: string; 
   public get routingPolicyLabel() {
     return this.getStringAttribute('routing_policy_label');
   }
@@ -1256,7 +1256,7 @@ export class NetworkmanagerVpcAttachment extends cdktn.TerraformResource {
   }
 
   // subnet_arns - computed: false, optional: false, required: true
-  private _subnetArns?: string[];
+  private _subnetArns?: string[]; 
   public get subnetArns() {
     return this.getListAttribute('subnet_arns');
   }
@@ -1290,7 +1290,7 @@ export class NetworkmanagerVpcAttachment extends cdktn.TerraformResource {
   }
 
   // vpc_arn - computed: false, optional: false, required: true
-  private _vpcArn?: string;
+  private _vpcArn?: string; 
   public get vpcArn() {
     return this.getStringAttribute('vpc_arn');
   }

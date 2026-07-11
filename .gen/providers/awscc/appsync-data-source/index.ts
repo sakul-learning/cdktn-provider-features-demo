@@ -204,7 +204,7 @@ export class AppsyncDataSourceDynamoDbConfigDeltaSyncConfigOutputReference exten
   }
 
   // base_table_ttl - computed: true, optional: true, required: false
-  private _baseTableTtl?: string;
+  private _baseTableTtl?: string; 
   public get baseTableTtl() {
     return this.getStringAttribute('base_table_ttl');
   }
@@ -220,7 +220,7 @@ export class AppsyncDataSourceDynamoDbConfigDeltaSyncConfigOutputReference exten
   }
 
   // delta_sync_table_name - computed: true, optional: true, required: false
-  private _deltaSyncTableName?: string;
+  private _deltaSyncTableName?: string; 
   public get deltaSyncTableName() {
     return this.getStringAttribute('delta_sync_table_name');
   }
@@ -236,7 +236,7 @@ export class AppsyncDataSourceDynamoDbConfigDeltaSyncConfigOutputReference exten
   }
 
   // delta_sync_table_ttl - computed: true, optional: true, required: false
-  private _deltaSyncTableTtl?: string;
+  private _deltaSyncTableTtl?: string; 
   public get deltaSyncTableTtl() {
     return this.getStringAttribute('delta_sync_table_ttl');
   }
@@ -408,7 +408,7 @@ export class AppsyncDataSourceDynamoDbConfigOutputReference extends cdktn.Comple
   }
 
   // aws_region - computed: true, optional: true, required: false
-  private _awsRegion?: string;
+  private _awsRegion?: string; 
   public get awsRegion() {
     return this.getStringAttribute('aws_region');
   }
@@ -440,7 +440,7 @@ export class AppsyncDataSourceDynamoDbConfigOutputReference extends cdktn.Comple
   }
 
   // table_name - computed: true, optional: true, required: false
-  private _tableName?: string;
+  private _tableName?: string; 
   public get tableName() {
     return this.getStringAttribute('table_name');
   }
@@ -456,7 +456,7 @@ export class AppsyncDataSourceDynamoDbConfigOutputReference extends cdktn.Comple
   }
 
   // use_caller_credentials - computed: true, optional: true, required: false
-  private _useCallerCredentials?: boolean | cdktn.IResolvable;
+  private _useCallerCredentials?: boolean | cdktn.IResolvable; 
   public get useCallerCredentials() {
     return this.getBooleanAttribute('use_caller_credentials');
   }
@@ -472,7 +472,7 @@ export class AppsyncDataSourceDynamoDbConfigOutputReference extends cdktn.Comple
   }
 
   // versioned - computed: true, optional: true, required: false
-  private _versioned?: boolean | cdktn.IResolvable;
+  private _versioned?: boolean | cdktn.IResolvable; 
   public get versioned() {
     return this.getBooleanAttribute('versioned');
   }
@@ -587,7 +587,7 @@ export class AppsyncDataSourceElasticsearchConfigOutputReference extends cdktn.C
   }
 
   // aws_region - computed: true, optional: true, required: false
-  private _awsRegion?: string;
+  private _awsRegion?: string; 
   public get awsRegion() {
     return this.getStringAttribute('aws_region');
   }
@@ -603,7 +603,7 @@ export class AppsyncDataSourceElasticsearchConfigOutputReference extends cdktn.C
   }
 
   // endpoint - computed: true, optional: true, required: false
-  private _endpoint?: string;
+  private _endpoint?: string; 
   public get endpoint() {
     return this.getStringAttribute('endpoint');
   }
@@ -699,7 +699,7 @@ export class AppsyncDataSourceEventBridgeConfigOutputReference extends cdktn.Com
   }
 
   // event_bus_arn - computed: true, optional: true, required: false
-  private _eventBusArn?: string;
+  private _eventBusArn?: string; 
   public get eventBusArn() {
     return this.getStringAttribute('event_bus_arn');
   }
@@ -814,7 +814,7 @@ export class AppsyncDataSourceHttpConfigAuthorizationConfigAwsIamConfigOutputRef
   }
 
   // signing_region - computed: true, optional: true, required: false
-  private _signingRegion?: string;
+  private _signingRegion?: string; 
   public get signingRegion() {
     return this.getStringAttribute('signing_region');
   }
@@ -830,7 +830,7 @@ export class AppsyncDataSourceHttpConfigAuthorizationConfigAwsIamConfigOutputRef
   }
 
   // signing_service_name - computed: true, optional: true, required: false
-  private _signingServiceName?: string;
+  private _signingServiceName?: string; 
   public get signingServiceName() {
     return this.getStringAttribute('signing_service_name');
   }
@@ -945,7 +945,7 @@ export class AppsyncDataSourceHttpConfigAuthorizationConfigOutputReference exten
   }
 
   // authorization_type - computed: true, optional: true, required: false
-  private _authorizationType?: string;
+  private _authorizationType?: string; 
   public get authorizationType() {
     return this.getStringAttribute('authorization_type');
   }
@@ -1092,7 +1092,7 @@ export class AppsyncDataSourceHttpConfigOutputReference extends cdktn.ComplexObj
   }
 
   // endpoint - computed: true, optional: true, required: false
-  private _endpoint?: string;
+  private _endpoint?: string; 
   public get endpoint() {
     return this.getStringAttribute('endpoint');
   }
@@ -1188,7 +1188,7 @@ export class AppsyncDataSourceLambdaConfigOutputReference extends cdktn.ComplexO
   }
 
   // lambda_function_arn - computed: true, optional: true, required: false
-  private _lambdaFunctionArn?: string;
+  private _lambdaFunctionArn?: string; 
   public get lambdaFunctionArn() {
     return this.getStringAttribute('lambda_function_arn');
   }
@@ -1303,7 +1303,7 @@ export class AppsyncDataSourceOpenSearchServiceConfigOutputReference extends cdk
   }
 
   // aws_region - computed: true, optional: true, required: false
-  private _awsRegion?: string;
+  private _awsRegion?: string; 
   public get awsRegion() {
     return this.getStringAttribute('aws_region');
   }
@@ -1319,7 +1319,7 @@ export class AppsyncDataSourceOpenSearchServiceConfigOutputReference extends cdk
   }
 
   // endpoint - computed: true, optional: true, required: false
-  private _endpoint?: string;
+  private _endpoint?: string; 
   public get endpoint() {
     return this.getStringAttribute('endpoint');
   }
@@ -1491,7 +1491,7 @@ export class AppsyncDataSourceRelationalDatabaseConfigRdsHttpEndpointConfigOutpu
   }
 
   // aws_region - computed: true, optional: true, required: false
-  private _awsRegion?: string;
+  private _awsRegion?: string; 
   public get awsRegion() {
     return this.getStringAttribute('aws_region');
   }
@@ -1507,7 +1507,7 @@ export class AppsyncDataSourceRelationalDatabaseConfigRdsHttpEndpointConfigOutpu
   }
 
   // aws_secret_store_arn - computed: true, optional: true, required: false
-  private _awsSecretStoreArn?: string;
+  private _awsSecretStoreArn?: string; 
   public get awsSecretStoreArn() {
     return this.getStringAttribute('aws_secret_store_arn');
   }
@@ -1523,7 +1523,7 @@ export class AppsyncDataSourceRelationalDatabaseConfigRdsHttpEndpointConfigOutpu
   }
 
   // database_name - computed: true, optional: true, required: false
-  private _databaseName?: string;
+  private _databaseName?: string; 
   public get databaseName() {
     return this.getStringAttribute('database_name');
   }
@@ -1539,7 +1539,7 @@ export class AppsyncDataSourceRelationalDatabaseConfigRdsHttpEndpointConfigOutpu
   }
 
   // db_cluster_identifier - computed: true, optional: true, required: false
-  private _dbClusterIdentifier?: string;
+  private _dbClusterIdentifier?: string; 
   public get dbClusterIdentifier() {
     return this.getStringAttribute('db_cluster_identifier');
   }
@@ -1555,7 +1555,7 @@ export class AppsyncDataSourceRelationalDatabaseConfigRdsHttpEndpointConfigOutpu
   }
 
   // schema - computed: true, optional: true, required: false
-  private _schema?: string;
+  private _schema?: string; 
   public get schema() {
     return this.getStringAttribute('schema');
   }
@@ -1686,7 +1686,7 @@ export class AppsyncDataSourceRelationalDatabaseConfigOutputReference extends cd
   }
 
   // relational_database_source_type - computed: true, optional: true, required: false
-  private _relationalDatabaseSourceType?: string;
+  private _relationalDatabaseSourceType?: string; 
   public get relationalDatabaseSourceType() {
     return this.getStringAttribute('relational_database_source_type');
   }
@@ -1772,7 +1772,7 @@ export class AppsyncDataSource extends cdktn.TerraformResource {
   // ==========
 
   // api_id - computed: false, optional: false, required: true
-  private _apiId?: string;
+  private _apiId?: string; 
   public get apiId() {
     return this.getStringAttribute('api_id');
   }
@@ -1790,7 +1790,7 @@ export class AppsyncDataSource extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1891,7 +1891,7 @@ export class AppsyncDataSource extends cdktn.TerraformResource {
   }
 
   // metrics_config - computed: true, optional: true, required: false
-  private _metricsConfig?: string;
+  private _metricsConfig?: string; 
   public get metricsConfig() {
     return this.getStringAttribute('metrics_config');
   }
@@ -1907,7 +1907,7 @@ export class AppsyncDataSource extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1952,7 +1952,7 @@ export class AppsyncDataSource extends cdktn.TerraformResource {
   }
 
   // service_role_arn - computed: true, optional: true, required: false
-  private _serviceRoleArn?: string;
+  private _serviceRoleArn?: string; 
   public get serviceRoleArn() {
     return this.getStringAttribute('service_role_arn');
   }
@@ -1968,7 +1968,7 @@ export class AppsyncDataSource extends cdktn.TerraformResource {
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }

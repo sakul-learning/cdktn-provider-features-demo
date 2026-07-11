@@ -289,7 +289,7 @@ export class MediaconnectFlowEntitlementEncryptionOutputReference extends cdktn.
   }
 
   // algorithm - computed: true, optional: true, required: false
-  private _algorithm?: string;
+  private _algorithm?: string; 
   public get algorithm() {
     return this.getStringAttribute('algorithm');
   }
@@ -305,7 +305,7 @@ export class MediaconnectFlowEntitlementEncryptionOutputReference extends cdktn.
   }
 
   // constant_initialization_vector - computed: true, optional: true, required: false
-  private _constantInitializationVector?: string;
+  private _constantInitializationVector?: string; 
   public get constantInitializationVector() {
     return this.getStringAttribute('constant_initialization_vector');
   }
@@ -321,7 +321,7 @@ export class MediaconnectFlowEntitlementEncryptionOutputReference extends cdktn.
   }
 
   // device_id - computed: true, optional: true, required: false
-  private _deviceId?: string;
+  private _deviceId?: string; 
   public get deviceId() {
     return this.getStringAttribute('device_id');
   }
@@ -337,7 +337,7 @@ export class MediaconnectFlowEntitlementEncryptionOutputReference extends cdktn.
   }
 
   // key_type - computed: true, optional: true, required: false
-  private _keyType?: string;
+  private _keyType?: string; 
   public get keyType() {
     return this.getStringAttribute('key_type');
   }
@@ -353,7 +353,7 @@ export class MediaconnectFlowEntitlementEncryptionOutputReference extends cdktn.
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -369,7 +369,7 @@ export class MediaconnectFlowEntitlementEncryptionOutputReference extends cdktn.
   }
 
   // resource_id - computed: true, optional: true, required: false
-  private _resourceId?: string;
+  private _resourceId?: string; 
   public get resourceId() {
     return this.getStringAttribute('resource_id');
   }
@@ -385,7 +385,7 @@ export class MediaconnectFlowEntitlementEncryptionOutputReference extends cdktn.
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -401,7 +401,7 @@ export class MediaconnectFlowEntitlementEncryptionOutputReference extends cdktn.
   }
 
   // secret_arn - computed: true, optional: true, required: false
-  private _secretArn?: string;
+  private _secretArn?: string; 
   public get secretArn() {
     return this.getStringAttribute('secret_arn');
   }
@@ -417,7 +417,7 @@ export class MediaconnectFlowEntitlementEncryptionOutputReference extends cdktn.
   }
 
   // url - computed: true, optional: true, required: false
-  private _url?: string;
+  private _url?: string; 
   public get url() {
     return this.getStringAttribute('url');
   }
@@ -530,7 +530,7 @@ export class MediaconnectFlowEntitlementTagsOutputReference extends cdktn.Comple
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -546,7 +546,7 @@ export class MediaconnectFlowEntitlementTagsOutputReference extends cdktn.Comple
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -647,7 +647,7 @@ export class MediaconnectFlowEntitlement extends cdktn.TerraformResource {
   // ==========
 
   // data_transfer_subscriber_fee_percent - computed: true, optional: true, required: false
-  private _dataTransferSubscriberFeePercent?: number;
+  private _dataTransferSubscriberFeePercent?: number; 
   public get dataTransferSubscriberFeePercent() {
     return this.getNumberAttribute('data_transfer_subscriber_fee_percent');
   }
@@ -663,7 +663,7 @@ export class MediaconnectFlowEntitlement extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: false, required: true
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -697,7 +697,7 @@ export class MediaconnectFlowEntitlement extends cdktn.TerraformResource {
   }
 
   // entitlement_status - computed: true, optional: true, required: false
-  private _entitlementStatus?: string;
+  private _entitlementStatus?: string; 
   public get entitlementStatus() {
     return this.getStringAttribute('entitlement_status');
   }
@@ -713,7 +713,7 @@ export class MediaconnectFlowEntitlement extends cdktn.TerraformResource {
   }
 
   // flow_arn - computed: false, optional: false, required: true
-  private _flowArn?: string;
+  private _flowArn?: string; 
   public get flowArn() {
     return this.getStringAttribute('flow_arn');
   }
@@ -731,7 +731,7 @@ export class MediaconnectFlowEntitlement extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -744,7 +744,7 @@ export class MediaconnectFlowEntitlement extends cdktn.TerraformResource {
   }
 
   // subscribers - computed: false, optional: false, required: true
-  private _subscribers?: string[];
+  private _subscribers?: string[]; 
   public get subscribers() {
     return this.getListAttribute('subscribers');
   }

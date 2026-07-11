@@ -282,7 +282,7 @@ export class BedrockAgentAliasRoutingConfigurationOutputReference extends cdktn.
   }
 
   // agent_version - computed: true, optional: true, required: false
-  private _agentVersion?: string;
+  private _agentVersion?: string; 
   public get agentVersion() {
     return this.getStringAttribute('agent_version');
   }
@@ -396,7 +396,7 @@ export class BedrockAgentAlias extends cdktn.TerraformResource {
   }
 
   // agent_alias_name - computed: false, optional: false, required: true
-  private _agentAliasName?: string;
+  private _agentAliasName?: string; 
   public get agentAliasName() {
     return this.getStringAttribute('agent_alias_name');
   }
@@ -414,7 +414,7 @@ export class BedrockAgentAlias extends cdktn.TerraformResource {
   }
 
   // agent_id - computed: false, optional: false, required: true
-  private _agentId?: string;
+  private _agentId?: string; 
   public get agentId() {
     return this.getStringAttribute('agent_id');
   }
@@ -432,7 +432,7 @@ export class BedrockAgentAlias extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -469,7 +469,7 @@ export class BedrockAgentAlias extends cdktn.TerraformResource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

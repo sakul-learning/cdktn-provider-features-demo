@@ -152,7 +152,7 @@ export class Route53ResolverResolverRuleTagsOutputReference extends cdktn.Comple
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -168,7 +168,7 @@ export class Route53ResolverResolverRuleTagsOutputReference extends cdktn.Comple
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -205,25 +205,25 @@ export class Route53ResolverResolverRuleTagsList extends cdktn.ComplexList {
 }
 export interface Route53ResolverResolverRuleTargetIps {
   /**
-  * One IP address that you want to forward DNS queries to. You can specify only IPv4 addresses.
+  * One IP address that you want to forward DNS queries to. You can specify only IPv4 addresses. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53resolver_resolver_rule#ip Route53ResolverResolverRule#ip}
   */
   readonly ip?: string;
   /**
-  * One IPv6 address that you want to forward DNS queries to. You can specify only IPv6 addresses.
+  * One IPv6 address that you want to forward DNS queries to. You can specify only IPv6 addresses. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53resolver_resolver_rule#ipv_6 Route53ResolverResolverRule#ipv_6}
   */
   readonly ipv6?: string;
   /**
-  * The port at Ip that you want to forward DNS queries to.
+  * The port at Ip that you want to forward DNS queries to. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53resolver_resolver_rule#port Route53ResolverResolverRule#port}
   */
   readonly port?: string;
   /**
-  * The protocol that you want to use to forward DNS queries.
+  * The protocol that you want to use to forward DNS queries. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53resolver_resolver_rule#protocol Route53ResolverResolverRule#protocol}
   */
@@ -362,7 +362,7 @@ export class Route53ResolverResolverRuleTargetIpsOutputReference extends cdktn.C
   }
 
   // ip - computed: true, optional: true, required: false
-  private _ip?: string;
+  private _ip?: string; 
   public get ip() {
     return this.getStringAttribute('ip');
   }
@@ -378,7 +378,7 @@ export class Route53ResolverResolverRuleTargetIpsOutputReference extends cdktn.C
   }
 
   // ipv_6 - computed: true, optional: true, required: false
-  private _ipv6?: string;
+  private _ipv6?: string; 
   public get ipv6() {
     return this.getStringAttribute('ipv_6');
   }
@@ -394,7 +394,7 @@ export class Route53ResolverResolverRuleTargetIpsOutputReference extends cdktn.C
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: string;
+  private _port?: string; 
   public get port() {
     return this.getStringAttribute('port');
   }
@@ -410,7 +410,7 @@ export class Route53ResolverResolverRuleTargetIpsOutputReference extends cdktn.C
   }
 
   // protocol - computed: true, optional: true, required: false
-  private _protocol?: string;
+  private _protocol?: string; 
   public get protocol() {
     return this.getStringAttribute('protocol');
   }
@@ -426,7 +426,7 @@ export class Route53ResolverResolverRuleTargetIpsOutputReference extends cdktn.C
   }
 
   // server_name_indication - computed: true, optional: true, required: false
-  private _serverNameIndication?: string;
+  private _serverNameIndication?: string; 
   public get serverNameIndication() {
     return this.getStringAttribute('server_name_indication');
   }
@@ -531,7 +531,7 @@ export class Route53ResolverResolverRule extends cdktn.TerraformResource {
   }
 
   // delegation_record - computed: true, optional: true, required: false
-  private _delegationRecord?: string;
+  private _delegationRecord?: string; 
   public get delegationRecord() {
     return this.getStringAttribute('delegation_record');
   }
@@ -547,7 +547,7 @@ export class Route53ResolverResolverRule extends cdktn.TerraformResource {
   }
 
   // domain_name - computed: true, optional: true, required: false
-  private _domainName?: string;
+  private _domainName?: string; 
   public get domainName() {
     return this.getStringAttribute('domain_name');
   }
@@ -568,7 +568,7 @@ export class Route53ResolverResolverRule extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -584,7 +584,7 @@ export class Route53ResolverResolverRule extends cdktn.TerraformResource {
   }
 
   // resolver_endpoint_id - computed: true, optional: true, required: false
-  private _resolverEndpointId?: string;
+  private _resolverEndpointId?: string; 
   public get resolverEndpointId() {
     return this.getStringAttribute('resolver_endpoint_id');
   }
@@ -605,7 +605,7 @@ export class Route53ResolverResolverRule extends cdktn.TerraformResource {
   }
 
   // rule_type - computed: false, optional: false, required: true
-  private _ruleType?: string;
+  private _ruleType?: string; 
   public get ruleType() {
     return this.getStringAttribute('rule_type');
   }

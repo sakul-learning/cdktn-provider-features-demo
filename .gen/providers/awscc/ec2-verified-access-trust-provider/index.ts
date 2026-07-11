@@ -168,7 +168,7 @@ export class Ec2VerifiedAccessTrustProviderDeviceOptionsOutputReference extends 
   }
 
   // public_signing_key_url - computed: true, optional: true, required: false
-  private _publicSigningKeyUrl?: string;
+  private _publicSigningKeyUrl?: string; 
   public get publicSigningKeyUrl() {
     return this.getStringAttribute('public_signing_key_url');
   }
@@ -184,7 +184,7 @@ export class Ec2VerifiedAccessTrustProviderDeviceOptionsOutputReference extends 
   }
 
   // tenant_id - computed: true, optional: true, required: false
-  private _tenantId?: string;
+  private _tenantId?: string; 
   public get tenantId() {
     return this.getStringAttribute('tenant_id');
   }
@@ -413,7 +413,7 @@ export class Ec2VerifiedAccessTrustProviderNativeApplicationOidcOptionsOutputRef
   }
 
   // authorization_endpoint - computed: true, optional: true, required: false
-  private _authorizationEndpoint?: string;
+  private _authorizationEndpoint?: string; 
   public get authorizationEndpoint() {
     return this.getStringAttribute('authorization_endpoint');
   }
@@ -429,7 +429,7 @@ export class Ec2VerifiedAccessTrustProviderNativeApplicationOidcOptionsOutputRef
   }
 
   // client_id - computed: true, optional: true, required: false
-  private _clientId?: string;
+  private _clientId?: string; 
   public get clientId() {
     return this.getStringAttribute('client_id');
   }
@@ -445,7 +445,7 @@ export class Ec2VerifiedAccessTrustProviderNativeApplicationOidcOptionsOutputRef
   }
 
   // client_secret - computed: true, optional: true, required: false
-  private _clientSecret?: string;
+  private _clientSecret?: string; 
   public get clientSecret() {
     return this.getStringAttribute('client_secret');
   }
@@ -461,7 +461,7 @@ export class Ec2VerifiedAccessTrustProviderNativeApplicationOidcOptionsOutputRef
   }
 
   // issuer - computed: true, optional: true, required: false
-  private _issuer?: string;
+  private _issuer?: string; 
   public get issuer() {
     return this.getStringAttribute('issuer');
   }
@@ -477,7 +477,7 @@ export class Ec2VerifiedAccessTrustProviderNativeApplicationOidcOptionsOutputRef
   }
 
   // public_signing_key_endpoint - computed: true, optional: true, required: false
-  private _publicSigningKeyEndpoint?: string;
+  private _publicSigningKeyEndpoint?: string; 
   public get publicSigningKeyEndpoint() {
     return this.getStringAttribute('public_signing_key_endpoint');
   }
@@ -493,7 +493,7 @@ export class Ec2VerifiedAccessTrustProviderNativeApplicationOidcOptionsOutputRef
   }
 
   // scope - computed: true, optional: true, required: false
-  private _scope?: string;
+  private _scope?: string; 
   public get scope() {
     return this.getStringAttribute('scope');
   }
@@ -509,7 +509,7 @@ export class Ec2VerifiedAccessTrustProviderNativeApplicationOidcOptionsOutputRef
   }
 
   // token_endpoint - computed: true, optional: true, required: false
-  private _tokenEndpoint?: string;
+  private _tokenEndpoint?: string; 
   public get tokenEndpoint() {
     return this.getStringAttribute('token_endpoint');
   }
@@ -525,7 +525,7 @@ export class Ec2VerifiedAccessTrustProviderNativeApplicationOidcOptionsOutputRef
   }
 
   // user_info_endpoint - computed: true, optional: true, required: false
-  private _userInfoEndpoint?: string;
+  private _userInfoEndpoint?: string; 
   public get userInfoEndpoint() {
     return this.getStringAttribute('user_info_endpoint');
   }
@@ -735,7 +735,7 @@ export class Ec2VerifiedAccessTrustProviderOidcOptionsOutputReference extends cd
   }
 
   // authorization_endpoint - computed: true, optional: true, required: false
-  private _authorizationEndpoint?: string;
+  private _authorizationEndpoint?: string; 
   public get authorizationEndpoint() {
     return this.getStringAttribute('authorization_endpoint');
   }
@@ -751,7 +751,7 @@ export class Ec2VerifiedAccessTrustProviderOidcOptionsOutputReference extends cd
   }
 
   // client_id - computed: true, optional: true, required: false
-  private _clientId?: string;
+  private _clientId?: string; 
   public get clientId() {
     return this.getStringAttribute('client_id');
   }
@@ -767,7 +767,7 @@ export class Ec2VerifiedAccessTrustProviderOidcOptionsOutputReference extends cd
   }
 
   // client_secret - computed: true, optional: true, required: false
-  private _clientSecret?: string;
+  private _clientSecret?: string; 
   public get clientSecret() {
     return this.getStringAttribute('client_secret');
   }
@@ -783,7 +783,7 @@ export class Ec2VerifiedAccessTrustProviderOidcOptionsOutputReference extends cd
   }
 
   // issuer - computed: true, optional: true, required: false
-  private _issuer?: string;
+  private _issuer?: string; 
   public get issuer() {
     return this.getStringAttribute('issuer');
   }
@@ -799,7 +799,7 @@ export class Ec2VerifiedAccessTrustProviderOidcOptionsOutputReference extends cd
   }
 
   // scope - computed: true, optional: true, required: false
-  private _scope?: string;
+  private _scope?: string; 
   public get scope() {
     return this.getStringAttribute('scope');
   }
@@ -815,7 +815,7 @@ export class Ec2VerifiedAccessTrustProviderOidcOptionsOutputReference extends cd
   }
 
   // token_endpoint - computed: true, optional: true, required: false
-  private _tokenEndpoint?: string;
+  private _tokenEndpoint?: string; 
   public get tokenEndpoint() {
     return this.getStringAttribute('token_endpoint');
   }
@@ -831,7 +831,7 @@ export class Ec2VerifiedAccessTrustProviderOidcOptionsOutputReference extends cd
   }
 
   // user_info_endpoint - computed: true, optional: true, required: false
-  private _userInfoEndpoint?: string;
+  private _userInfoEndpoint?: string; 
   public get userInfoEndpoint() {
     return this.getStringAttribute('user_info_endpoint');
   }
@@ -946,7 +946,7 @@ export class Ec2VerifiedAccessTrustProviderSseSpecificationOutputReference exten
   }
 
   // customer_managed_key_enabled - computed: true, optional: true, required: false
-  private _customerManagedKeyEnabled?: boolean | cdktn.IResolvable;
+  private _customerManagedKeyEnabled?: boolean | cdktn.IResolvable; 
   public get customerManagedKeyEnabled() {
     return this.getBooleanAttribute('customer_managed_key_enabled');
   }
@@ -962,7 +962,7 @@ export class Ec2VerifiedAccessTrustProviderSseSpecificationOutputReference exten
   }
 
   // kms_key_arn - computed: true, optional: true, required: false
-  private _kmsKeyArn?: string;
+  private _kmsKeyArn?: string; 
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -1079,7 +1079,7 @@ export class Ec2VerifiedAccessTrustProviderTagsOutputReference extends cdktn.Com
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1095,7 +1095,7 @@ export class Ec2VerifiedAccessTrustProviderTagsOutputReference extends cdktn.Com
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1203,7 +1203,7 @@ export class Ec2VerifiedAccessTrustProvider extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1235,7 +1235,7 @@ export class Ec2VerifiedAccessTrustProvider extends cdktn.TerraformResource {
   }
 
   // device_trust_provider_type - computed: true, optional: true, required: false
-  private _deviceTrustProviderType?: string;
+  private _deviceTrustProviderType?: string; 
   public get deviceTrustProviderType() {
     return this.getStringAttribute('device_trust_provider_type');
   }
@@ -1293,7 +1293,7 @@ export class Ec2VerifiedAccessTrustProvider extends cdktn.TerraformResource {
   }
 
   // policy_reference_name - computed: false, optional: false, required: true
-  private _policyReferenceName?: string;
+  private _policyReferenceName?: string; 
   public get policyReferenceName() {
     return this.getStringAttribute('policy_reference_name');
   }
@@ -1338,7 +1338,7 @@ export class Ec2VerifiedAccessTrustProvider extends cdktn.TerraformResource {
   }
 
   // trust_provider_type - computed: false, optional: false, required: true
-  private _trustProviderType?: string;
+  private _trustProviderType?: string; 
   public get trustProviderType() {
     return this.getStringAttribute('trust_provider_type');
   }
@@ -1351,7 +1351,7 @@ export class Ec2VerifiedAccessTrustProvider extends cdktn.TerraformResource {
   }
 
   // user_trust_provider_type - computed: true, optional: true, required: false
-  private _userTrustProviderType?: string;
+  private _userTrustProviderType?: string; 
   public get userTrustProviderType() {
     return this.getStringAttribute('user_trust_provider_type');
   }

@@ -118,7 +118,7 @@ export class NotificationsNotificationHubTimeoutsOutputReference extends cdktn.C
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -134,7 +134,7 @@ export class NotificationsNotificationHubTimeoutsOutputReference extends cdktn.C
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -209,7 +209,7 @@ export class NotificationsNotificationHub extends cdktn.TerraformResource {
   // ==========
 
   // notification_hub_region - computed: false, optional: false, required: true
-  private _notificationHubRegion?: string;
+  private _notificationHubRegion?: string; 
   public get notificationHubRegion() {
     return this.getStringAttribute('notification_hub_region');
   }

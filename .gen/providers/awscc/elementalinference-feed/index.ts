@@ -99,7 +99,7 @@ export class ElementalinferenceFeedOutputsOutputConfigClippingOutputReference ex
   }
 
   // callback_metadata - computed: true, optional: true, required: false
-  private _callbackMetadata?: string;
+  private _callbackMetadata?: string; 
   public get callbackMetadata() {
     return this.getStringAttribute('callback_metadata');
   }
@@ -210,7 +210,7 @@ export class ElementalinferenceFeedOutputsOutputConfigSubtitlingAspectRatioOutpu
   }
 
   // height - computed: true, optional: true, required: false
-  private _height?: number;
+  private _height?: number; 
   public get height() {
     return this.getNumberAttribute('height');
   }
@@ -226,7 +226,7 @@ export class ElementalinferenceFeedOutputsOutputConfigSubtitlingAspectRatioOutpu
   }
 
   // width - computed: true, optional: true, required: false
-  private _width?: number;
+  private _width?: number; 
   public get width() {
     return this.getNumberAttribute('width');
   }
@@ -387,7 +387,7 @@ export class ElementalinferenceFeedOutputsOutputConfigSubtitlingOutputReference 
   }
 
   // dictionary - computed: true, optional: true, required: false
-  private _dictionary?: string;
+  private _dictionary?: string; 
   public get dictionary() {
     return this.getStringAttribute('dictionary');
   }
@@ -403,7 +403,7 @@ export class ElementalinferenceFeedOutputsOutputConfigSubtitlingOutputReference 
   }
 
   // language - computed: true, optional: true, required: false
-  private _language?: string;
+  private _language?: string; 
   public get language() {
     return this.getStringAttribute('language');
   }
@@ -419,7 +419,7 @@ export class ElementalinferenceFeedOutputsOutputConfigSubtitlingOutputReference 
   }
 
   // profanity_filter - computed: true, optional: true, required: false
-  private _profanityFilter?: string;
+  private _profanityFilter?: string; 
   public get profanityFilter() {
     return this.getStringAttribute('profanity_filter');
   }
@@ -563,7 +563,7 @@ export class ElementalinferenceFeedOutputsOutputConfigOutputReference extends cd
   }
 
   // cropping - computed: true, optional: true, required: false
-  private _cropping?: string;
+  private _cropping?: string; 
   public get cropping() {
     return this.getStringAttribute('cropping');
   }
@@ -726,7 +726,7 @@ export class ElementalinferenceFeedOutputsOutputReference extends cdktn.ComplexO
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -742,7 +742,7 @@ export class ElementalinferenceFeedOutputsOutputReference extends cdktn.ComplexO
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -768,7 +768,7 @@ export class ElementalinferenceFeedOutputsOutputReference extends cdktn.ComplexO
   }
 
   // status - computed: false, optional: false, required: true
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -881,7 +881,7 @@ export class ElementalinferenceFeed extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -907,7 +907,7 @@ export class ElementalinferenceFeed extends cdktn.TerraformResource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

@@ -119,7 +119,7 @@ export class WisdomKnowledgeBaseRenderingConfigurationOutputReference extends cd
   }
 
   // template_uri - computed: true, optional: true, required: false
-  private _templateUri?: string;
+  private _templateUri?: string; 
   public get templateUri() {
     return this.getStringAttribute('template_uri');
   }
@@ -213,7 +213,7 @@ export class WisdomKnowledgeBaseServerSideEncryptionConfigurationOutputReference
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -324,7 +324,7 @@ export class WisdomKnowledgeBaseSourceConfigurationAppIntegrationsOutputReferenc
   }
 
   // app_integration_arn - computed: true, optional: true, required: false
-  private _appIntegrationArn?: string;
+  private _appIntegrationArn?: string; 
   public get appIntegrationArn() {
     return this.getStringAttribute('app_integration_arn');
   }
@@ -340,7 +340,7 @@ export class WisdomKnowledgeBaseSourceConfigurationAppIntegrationsOutputReferenc
   }
 
   // object_fields - computed: true, optional: true, required: false
-  private _objectFields?: string[];
+  private _objectFields?: string[]; 
   public get objectFields() {
     return this.getListAttribute('object_fields');
   }
@@ -434,7 +434,7 @@ export class WisdomKnowledgeBaseSourceConfigurationManagedSourceConfigurationWeb
   }
 
   // rate_limit - computed: true, optional: true, required: false
-  private _rateLimit?: number;
+  private _rateLimit?: number; 
   public get rateLimit() {
     return this.getNumberAttribute('rate_limit');
   }
@@ -530,7 +530,7 @@ export class WisdomKnowledgeBaseSourceConfigurationManagedSourceConfigurationWeb
   }
 
   // url - computed: true, optional: true, required: false
-  private _url?: string;
+  private _url?: string; 
   public get url() {
     return this.getStringAttribute('url');
   }
@@ -822,7 +822,7 @@ export class WisdomKnowledgeBaseSourceConfigurationManagedSourceConfigurationWeb
   }
 
   // exclusion_filters - computed: true, optional: true, required: false
-  private _exclusionFilters?: string[];
+  private _exclusionFilters?: string[]; 
   public get exclusionFilters() {
     return this.getListAttribute('exclusion_filters');
   }
@@ -838,7 +838,7 @@ export class WisdomKnowledgeBaseSourceConfigurationManagedSourceConfigurationWeb
   }
 
   // inclusion_filters - computed: true, optional: true, required: false
-  private _inclusionFilters?: string[];
+  private _inclusionFilters?: string[]; 
   public get inclusionFilters() {
     return this.getListAttribute('inclusion_filters');
   }
@@ -854,7 +854,7 @@ export class WisdomKnowledgeBaseSourceConfigurationManagedSourceConfigurationWeb
   }
 
   // scope - computed: true, optional: true, required: false
-  private _scope?: string;
+  private _scope?: string; 
   public get scope() {
     return this.getStringAttribute('scope');
   }
@@ -1204,7 +1204,7 @@ export class WisdomKnowledgeBaseTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1220,7 +1220,7 @@ export class WisdomKnowledgeBaseTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1351,7 +1351,7 @@ export class WisdomKnowledgeBaseVectorIngestionConfigurationChunkingConfiguratio
   }
 
   // max_tokens - computed: true, optional: true, required: false
-  private _maxTokens?: number;
+  private _maxTokens?: number; 
   public get maxTokens() {
     return this.getNumberAttribute('max_tokens');
   }
@@ -1367,7 +1367,7 @@ export class WisdomKnowledgeBaseVectorIngestionConfigurationChunkingConfiguratio
   }
 
   // overlap_percentage - computed: true, optional: true, required: false
-  private _overlapPercentage?: number;
+  private _overlapPercentage?: number; 
   public get overlapPercentage() {
     return this.getNumberAttribute('overlap_percentage');
   }
@@ -1463,7 +1463,7 @@ export class WisdomKnowledgeBaseVectorIngestionConfigurationChunkingConfiguratio
   }
 
   // max_tokens - computed: true, optional: true, required: false
-  private _maxTokens?: number;
+  private _maxTokens?: number; 
   public get maxTokens() {
     return this.getNumberAttribute('max_tokens');
   }
@@ -1610,7 +1610,7 @@ export class WisdomKnowledgeBaseVectorIngestionConfigurationChunkingConfiguratio
   }
 
   // overlap_tokens - computed: true, optional: true, required: false
-  private _overlapTokens?: number;
+  private _overlapTokens?: number; 
   public get overlapTokens() {
     return this.getNumberAttribute('overlap_tokens');
   }
@@ -1738,7 +1738,7 @@ export class WisdomKnowledgeBaseVectorIngestionConfigurationChunkingConfiguratio
   }
 
   // breakpoint_percentile_threshold - computed: true, optional: true, required: false
-  private _breakpointPercentileThreshold?: number;
+  private _breakpointPercentileThreshold?: number; 
   public get breakpointPercentileThreshold() {
     return this.getNumberAttribute('breakpoint_percentile_threshold');
   }
@@ -1754,7 +1754,7 @@ export class WisdomKnowledgeBaseVectorIngestionConfigurationChunkingConfiguratio
   }
 
   // buffer_size - computed: true, optional: true, required: false
-  private _bufferSize?: number;
+  private _bufferSize?: number; 
   public get bufferSize() {
     return this.getNumberAttribute('buffer_size');
   }
@@ -1770,7 +1770,7 @@ export class WisdomKnowledgeBaseVectorIngestionConfigurationChunkingConfiguratio
   }
 
   // max_tokens - computed: true, optional: true, required: false
-  private _maxTokens?: number;
+  private _maxTokens?: number; 
   public get maxTokens() {
     return this.getNumberAttribute('max_tokens');
   }
@@ -1915,7 +1915,7 @@ export class WisdomKnowledgeBaseVectorIngestionConfigurationChunkingConfiguratio
   }
 
   // chunking_strategy - computed: true, optional: true, required: false
-  private _chunkingStrategy?: string;
+  private _chunkingStrategy?: string; 
   public get chunkingStrategy() {
     return this.getStringAttribute('chunking_strategy');
   }
@@ -2057,7 +2057,7 @@ export class WisdomKnowledgeBaseVectorIngestionConfigurationParsingConfiguration
   }
 
   // parsing_prompt_text - computed: true, optional: true, required: false
-  private _parsingPromptText?: string;
+  private _parsingPromptText?: string; 
   public get parsingPromptText() {
     return this.getStringAttribute('parsing_prompt_text');
   }
@@ -2168,7 +2168,7 @@ export class WisdomKnowledgeBaseVectorIngestionConfigurationParsingConfiguration
   }
 
   // model_arn - computed: true, optional: true, required: false
-  private _modelArn?: string;
+  private _modelArn?: string; 
   public get modelArn() {
     return this.getStringAttribute('model_arn');
   }
@@ -2311,7 +2311,7 @@ export class WisdomKnowledgeBaseVectorIngestionConfigurationParsingConfiguration
   }
 
   // parsing_strategy - computed: true, optional: true, required: false
-  private _parsingStrategy?: string;
+  private _parsingStrategy?: string; 
   public get parsingStrategy() {
     return this.getStringAttribute('parsing_strategy');
   }
@@ -2519,7 +2519,7 @@ export class WisdomKnowledgeBase extends cdktn.TerraformResource {
   // ==========
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -2550,7 +2550,7 @@ export class WisdomKnowledgeBase extends cdktn.TerraformResource {
   }
 
   // knowledge_base_type - computed: false, optional: false, required: true
-  private _knowledgeBaseType?: string;
+  private _knowledgeBaseType?: string; 
   public get knowledgeBaseType() {
     return this.getStringAttribute('knowledge_base_type');
   }
@@ -2563,7 +2563,7 @@ export class WisdomKnowledgeBase extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }

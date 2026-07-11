@@ -123,7 +123,7 @@ export class BedrockagentcoreRegistryApprovalConfigurationOutputReference extend
   }
 
   // auto_approval - computed: true, optional: true, required: false
-  private _autoApproval?: boolean | cdktn.IResolvable;
+  private _autoApproval?: boolean | cdktn.IResolvable; 
   public get autoApproval() {
     return this.getBooleanAttribute('auto_approval');
   }
@@ -256,7 +256,7 @@ export class BedrockagentcoreRegistryAuthorizerConfigurationCustomJwtAuthorizerC
   }
 
   // match_value_string - computed: false, optional: true, required: false
-  private _matchValueString?: string;
+  private _matchValueString?: string; 
   public get matchValueString() {
     return this.getStringAttribute('match_value_string');
   }
@@ -272,7 +272,7 @@ export class BedrockagentcoreRegistryAuthorizerConfigurationCustomJwtAuthorizerC
   }
 
   // match_value_string_list - computed: false, optional: true, required: false
-  private _matchValueStringList?: string[];
+  private _matchValueStringList?: string[]; 
   public get matchValueStringList() {
     return cdktn.Fn.tolist(this.getListAttribute('match_value_string_list'));
   }
@@ -407,7 +407,7 @@ export class BedrockagentcoreRegistryAuthorizerConfigurationCustomJwtAuthorizerC
   }
 
   // claim_match_operator - computed: false, optional: false, required: true
-  private _claimMatchOperator?: string;
+  private _claimMatchOperator?: string; 
   public get claimMatchOperator() {
     return this.getStringAttribute('claim_match_operator');
   }
@@ -572,7 +572,7 @@ export class BedrockagentcoreRegistryAuthorizerConfigurationCustomJwtAuthorizerC
   }
 
   // inbound_token_claim_name - computed: false, optional: false, required: true
-  private _inboundTokenClaimName?: string;
+  private _inboundTokenClaimName?: string; 
   public get inboundTokenClaimName() {
     return this.getStringAttribute('inbound_token_claim_name');
   }
@@ -585,7 +585,7 @@ export class BedrockagentcoreRegistryAuthorizerConfigurationCustomJwtAuthorizerC
   }
 
   // inbound_token_claim_value_type - computed: false, optional: false, required: true
-  private _inboundTokenClaimValueType?: string;
+  private _inboundTokenClaimValueType?: string; 
   public get inboundTokenClaimValueType() {
     return this.getStringAttribute('inbound_token_claim_value_type');
   }
@@ -784,7 +784,7 @@ export class BedrockagentcoreRegistryAuthorizerConfigurationCustomJwtAuthorizerO
   }
 
   // allowed_audience - computed: false, optional: true, required: false
-  private _allowedAudience?: string[];
+  private _allowedAudience?: string[]; 
   public get allowedAudience() {
     return cdktn.Fn.tolist(this.getListAttribute('allowed_audience'));
   }
@@ -800,7 +800,7 @@ export class BedrockagentcoreRegistryAuthorizerConfigurationCustomJwtAuthorizerO
   }
 
   // allowed_clients - computed: false, optional: true, required: false
-  private _allowedClients?: string[];
+  private _allowedClients?: string[]; 
   public get allowedClients() {
     return cdktn.Fn.tolist(this.getListAttribute('allowed_clients'));
   }
@@ -816,7 +816,7 @@ export class BedrockagentcoreRegistryAuthorizerConfigurationCustomJwtAuthorizerO
   }
 
   // allowed_scopes - computed: false, optional: true, required: false
-  private _allowedScopes?: string[];
+  private _allowedScopes?: string[]; 
   public get allowedScopes() {
     return cdktn.Fn.tolist(this.getListAttribute('allowed_scopes'));
   }
@@ -832,7 +832,7 @@ export class BedrockagentcoreRegistryAuthorizerConfigurationCustomJwtAuthorizerO
   }
 
   // discovery_url - computed: false, optional: false, required: true
-  private _discoveryUrl?: string;
+  private _discoveryUrl?: string; 
   public get discoveryUrl() {
     return this.getStringAttribute('discovery_url');
   }
@@ -1117,7 +1117,7 @@ export class BedrockagentcoreRegistryTimeoutsOutputReference extends cdktn.Compl
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -1133,7 +1133,7 @@ export class BedrockagentcoreRegistryTimeoutsOutputReference extends cdktn.Compl
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -1149,7 +1149,7 @@ export class BedrockagentcoreRegistryTimeoutsOutputReference extends cdktn.Compl
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -1245,7 +1245,7 @@ export class BedrockagentcoreRegistry extends cdktn.TerraformResource {
   }
 
   // authorizer_type - computed: true, optional: true, required: false
-  private _authorizerType?: string;
+  private _authorizerType?: string; 
   public get authorizerType() {
     return this.getStringAttribute('authorizer_type');
   }
@@ -1261,7 +1261,7 @@ export class BedrockagentcoreRegistry extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1277,7 +1277,7 @@ export class BedrockagentcoreRegistry extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1290,7 +1290,7 @@ export class BedrockagentcoreRegistry extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

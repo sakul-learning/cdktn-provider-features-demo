@@ -101,7 +101,7 @@ export class RedshiftEndpointAuthorization extends cdktn.TerraformResource {
   // ==========
 
   // account - computed: false, optional: false, required: true
-  private _account?: string;
+  private _account?: string; 
   public get account() {
     return this.getStringAttribute('account');
   }
@@ -119,7 +119,7 @@ export class RedshiftEndpointAuthorization extends cdktn.TerraformResource {
   }
 
   // cluster_identifier - computed: false, optional: false, required: true
-  private _clusterIdentifier?: string;
+  private _clusterIdentifier?: string; 
   public get clusterIdentifier() {
     return this.getStringAttribute('cluster_identifier');
   }
@@ -137,7 +137,7 @@ export class RedshiftEndpointAuthorization extends cdktn.TerraformResource {
   }
 
   // force_delete - computed: false, optional: true, required: false
-  private _forceDelete?: boolean | cdktn.IResolvable;
+  private _forceDelete?: boolean | cdktn.IResolvable; 
   public get forceDelete() {
     return this.getBooleanAttribute('force_delete');
   }
@@ -163,7 +163,7 @@ export class RedshiftEndpointAuthorization extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -179,7 +179,7 @@ export class RedshiftEndpointAuthorization extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -195,7 +195,7 @@ export class RedshiftEndpointAuthorization extends cdktn.TerraformResource {
   }
 
   // vpc_ids - computed: false, optional: true, required: false
-  private _vpcIds?: string[];
+  private _vpcIds?: string[]; 
   public get vpcIds() {
     return cdktn.Fn.tolist(this.getListAttribute('vpc_ids'));
   }

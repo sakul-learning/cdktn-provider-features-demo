@@ -137,7 +137,7 @@ export class NotificationsOrganizationsAccessTimeoutsOutputReference extends cdk
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -153,7 +153,7 @@ export class NotificationsOrganizationsAccessTimeoutsOutputReference extends cdk
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -169,7 +169,7 @@ export class NotificationsOrganizationsAccessTimeoutsOutputReference extends cdk
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -244,7 +244,7 @@ export class NotificationsOrganizationsAccess extends cdktn.TerraformResource {
   // ==========
 
   // enabled - computed: false, optional: false, required: true
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }

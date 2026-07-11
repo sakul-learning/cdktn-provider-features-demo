@@ -134,7 +134,7 @@ export class BraketSpendingLimitTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -150,7 +150,7 @@ export class BraketSpendingLimitTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -285,7 +285,7 @@ export class BraketSpendingLimitTimePeriodOutputReference extends cdktn.ComplexO
   }
 
   // end_at - computed: true, optional: true, required: false
-  private _endAt?: string;
+  private _endAt?: string; 
   public get endAt() {
     return this.getStringAttribute('end_at');
   }
@@ -301,7 +301,7 @@ export class BraketSpendingLimitTimePeriodOutputReference extends cdktn.ComplexO
   }
 
   // start_at - computed: true, optional: true, required: false
-  private _startAt?: string;
+  private _startAt?: string; 
   public get startAt() {
     return this.getStringAttribute('start_at');
   }
@@ -383,7 +383,7 @@ export class BraketSpendingLimit extends cdktn.TerraformResource {
   }
 
   // device_arn - computed: false, optional: false, required: true
-  private _deviceArn?: string;
+  private _deviceArn?: string; 
   public get deviceArn() {
     return this.getStringAttribute('device_arn');
   }
@@ -406,7 +406,7 @@ export class BraketSpendingLimit extends cdktn.TerraformResource {
   }
 
   // spending_limit - computed: false, optional: false, required: true
-  private _spendingLimit?: string;
+  private _spendingLimit?: string; 
   public get spendingLimit() {
     return this.getStringAttribute('spending_limit');
   }

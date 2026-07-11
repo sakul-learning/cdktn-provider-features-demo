@@ -91,7 +91,7 @@ export class ServicecatalogLaunchNotificationConstraint extends cdktn.TerraformR
   // ==========
 
   // accept_language - computed: true, optional: true, required: false
-  private _acceptLanguage?: string;
+  private _acceptLanguage?: string; 
   public get acceptLanguage() {
     return this.getStringAttribute('accept_language');
   }
@@ -107,7 +107,7 @@ export class ServicecatalogLaunchNotificationConstraint extends cdktn.TerraformR
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -133,7 +133,7 @@ export class ServicecatalogLaunchNotificationConstraint extends cdktn.TerraformR
   }
 
   // notification_arns - computed: false, optional: false, required: true
-  private _notificationArns?: string[];
+  private _notificationArns?: string[]; 
   public get notificationArns() {
     return this.getListAttribute('notification_arns');
   }
@@ -146,7 +146,7 @@ export class ServicecatalogLaunchNotificationConstraint extends cdktn.TerraformR
   }
 
   // portfolio_id - computed: false, optional: false, required: true
-  private _portfolioId?: string;
+  private _portfolioId?: string; 
   public get portfolioId() {
     return this.getStringAttribute('portfolio_id');
   }
@@ -159,7 +159,7 @@ export class ServicecatalogLaunchNotificationConstraint extends cdktn.TerraformR
   }
 
   // product_id - computed: false, optional: false, required: true
-  private _productId?: string;
+  private _productId?: string; 
   public get productId() {
     return this.getStringAttribute('product_id');
   }

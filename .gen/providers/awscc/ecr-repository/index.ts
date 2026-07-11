@@ -69,7 +69,7 @@ export interface EcrRepositoryEncryptionConfiguration {
   /**
   * The encryption type to use.
   *  If you use the ``KMS`` encryption type, the contents of the repository will be encrypted using server-side encryption with KMSlong key stored in KMS. When you use KMS to encrypt your data, you can either use the default AWS managed KMS key for Amazon ECR, or specify your own KMS key, which you already created.
-  *  If you use the ``KMS_DSSE`` encryption type, the contents of the repository will be encrypted with two layers of encryption using server-side encryption with the KMS Management Service key stored in KMS. Similar to the ``KMS`` encryption type, you can either use the default AWS managed KMS key for Amazon ECR, or specify your own KMS key, which you've already created.
+  *  If you use the ``KMS_DSSE`` encryption type, the contents of the repository will be encrypted with two layers of encryption using server-side encryption with the KMS Management Service key stored in KMS. Similar to the ``KMS`` encryption type, you can either use the default AWS managed KMS key for Amazon ECR, or specify your own KMS key, which you've already created. 
   *  If you use the ``AES256`` encryption type, Amazon ECR uses server-side encryption with Amazon S3-managed encryption keys which encrypts the images in the repository using an AES256 encryption algorithm.
   *  For more information, see [Amazon ECR encryption at rest](https://docs.aws.amazon.com/AmazonECR/latest/userguide/encryption-at-rest.html) in the *Amazon Elastic Container Registry User Guide*.
   *
@@ -169,7 +169,7 @@ export class EcrRepositoryEncryptionConfigurationOutputReference extends cdktn.C
   }
 
   // encryption_type - computed: true, optional: true, required: false
-  private _encryptionType?: string;
+  private _encryptionType?: string; 
   public get encryptionType() {
     return this.getStringAttribute('encryption_type');
   }
@@ -185,7 +185,7 @@ export class EcrRepositoryEncryptionConfigurationOutputReference extends cdktn.C
   }
 
   // kms_key - computed: true, optional: true, required: false
-  private _kmsKey?: string;
+  private _kmsKey?: string; 
   public get kmsKey() {
     return this.getStringAttribute('kms_key');
   }
@@ -281,7 +281,7 @@ export class EcrRepositoryImageScanningConfigurationOutputReference extends cdkt
   }
 
   // scan_on_push - computed: true, optional: true, required: false
-  private _scanOnPush?: boolean | cdktn.IResolvable;
+  private _scanOnPush?: boolean | cdktn.IResolvable; 
   public get scanOnPush() {
     return this.getBooleanAttribute('scan_on_push');
   }
@@ -398,7 +398,7 @@ export class EcrRepositoryImageTagMutabilityExclusionFiltersOutputReference exte
   }
 
   // image_tag_mutability_exclusion_filter_type - computed: true, optional: true, required: false
-  private _imageTagMutabilityExclusionFilterType?: string;
+  private _imageTagMutabilityExclusionFilterType?: string; 
   public get imageTagMutabilityExclusionFilterType() {
     return this.getStringAttribute('image_tag_mutability_exclusion_filter_type');
   }
@@ -414,7 +414,7 @@ export class EcrRepositoryImageTagMutabilityExclusionFiltersOutputReference exte
   }
 
   // image_tag_mutability_exclusion_filter_value - computed: true, optional: true, required: false
-  private _imageTagMutabilityExclusionFilterValue?: string;
+  private _imageTagMutabilityExclusionFilterValue?: string; 
   public get imageTagMutabilityExclusionFilterValue() {
     return this.getStringAttribute('image_tag_mutability_exclusion_filter_value');
   }
@@ -549,7 +549,7 @@ export class EcrRepositoryLifecyclePolicyOutputReference extends cdktn.ComplexOb
   }
 
   // lifecycle_policy_text - computed: true, optional: true, required: false
-  private _lifecyclePolicyText?: string;
+  private _lifecyclePolicyText?: string; 
   public get lifecyclePolicyText() {
     return this.getStringAttribute('lifecycle_policy_text');
   }
@@ -565,7 +565,7 @@ export class EcrRepositoryLifecyclePolicyOutputReference extends cdktn.ComplexOb
   }
 
   // registry_id - computed: true, optional: true, required: false
-  private _registryId?: string;
+  private _registryId?: string; 
   public get registryId() {
     return this.getStringAttribute('registry_id');
   }
@@ -682,7 +682,7 @@ export class EcrRepositoryTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -698,7 +698,7 @@ export class EcrRepositoryTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -805,7 +805,7 @@ export class EcrRepository extends cdktn.TerraformResource {
   }
 
   // empty_on_delete - computed: true, optional: true, required: false
-  private _emptyOnDelete?: boolean | cdktn.IResolvable;
+  private _emptyOnDelete?: boolean | cdktn.IResolvable; 
   public get emptyOnDelete() {
     return this.getBooleanAttribute('empty_on_delete');
   }
@@ -858,7 +858,7 @@ export class EcrRepository extends cdktn.TerraformResource {
   }
 
   // image_tag_mutability - computed: true, optional: true, required: false
-  private _imageTagMutability?: string;
+  private _imageTagMutability?: string; 
   public get imageTagMutability() {
     return this.getStringAttribute('image_tag_mutability');
   }
@@ -906,7 +906,7 @@ export class EcrRepository extends cdktn.TerraformResource {
   }
 
   // repository_name - computed: true, optional: true, required: false
-  private _repositoryName?: string;
+  private _repositoryName?: string; 
   public get repositoryName() {
     return this.getStringAttribute('repository_name');
   }
@@ -922,7 +922,7 @@ export class EcrRepository extends cdktn.TerraformResource {
   }
 
   // repository_policy_text - computed: true, optional: true, required: false
-  private _repositoryPolicyText?: string;
+  private _repositoryPolicyText?: string; 
   public get repositoryPolicyText() {
     return this.getStringAttribute('repository_policy_text');
   }

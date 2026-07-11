@@ -56,7 +56,7 @@ export interface EfsFileSystemConfig extends cdktn.TerraformMetaArguments {
   *   +  ARN - An Amazon Resource Name (ARN) for the key, for example ``arn:aws:kms:us-west-2:111122223333:key/1234abcd-12ab-34cd-56ef-1234567890ab``.
   *   +  Key alias - A previously created display name for a key, for example ``alias/projectKey1``.
   *   +  Key alias ARN - An ARN for a key alias, for example ``arn:aws:kms:us-west-2:444455556666:alias/projectKey1``.
-  *
+  *   
   *  If ``KmsKeyId`` is specified, the ``Encrypted`` parameter must be set to true.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/efs_file_system#kms_key_id EfsFileSystem#kms_key_id}
@@ -67,7 +67,7 @@ export interface EfsFileSystemConfig extends cdktn.TerraformMetaArguments {
   *   +  When to move files in the file system from primary storage to IA storage.
   *   +  When to move files in the file system from primary storage or IA storage to Archive storage.
   *   +  When to move files that are in IA or Archive storage to primary storage.
-  *
+  *   
   *   EFS requires that each ``LifecyclePolicy`` object have only a single transition. This means that in a request body, ``LifecyclePolicies`` needs to be structured as an array of ``LifecyclePolicy`` objects, one object for each transition, ``TransitionToIA``, ``TransitionToArchive````TransitionToPrimaryStorageClass``. See the example requests in the following section for more information.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/efs_file_system#lifecycle_policies EfsFileSystem#lifecycle_policies}
@@ -94,7 +94,7 @@ export interface EfsFileSystemConfig extends cdktn.TerraformMetaArguments {
   */
   readonly replicationConfiguration?: EfsFileSystemReplicationConfiguration;
   /**
-  * Specifies the throughput mode for the file system. The mode can be ``bursting``, ``provisioned``, or ``elastic``. If you set ``ThroughputMode`` to ``provisioned``, you must also set a value for ``ProvisionedThroughputInMibps``. After you create the file system, you can decrease your file system's Provisioned throughput or change between the throughput modes, with certain time restrictions. For more information, see [Specifying throughput with provisioned mode](https://docs.aws.amazon.com/efs/latest/ug/performance.html#provisioned-throughput) in the *Amazon EFS User Guide*.
+  * Specifies the throughput mode for the file system. The mode can be ``bursting``, ``provisioned``, or ``elastic``. If you set ``ThroughputMode`` to ``provisioned``, you must also set a value for ``ProvisionedThroughputInMibps``. After you create the file system, you can decrease your file system's Provisioned throughput or change between the throughput modes, with certain time restrictions. For more information, see [Specifying throughput with provisioned mode](https://docs.aws.amazon.com/efs/latest/ug/performance.html#provisioned-throughput) in the *Amazon EFS User Guide*. 
   *  Default is ``bursting``.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/efs_file_system#throughput_mode EfsFileSystem#throughput_mode}
@@ -104,7 +104,7 @@ export interface EfsFileSystemConfig extends cdktn.TerraformMetaArguments {
 export interface EfsFileSystemBackupPolicy {
   /**
   * Set the backup policy status for the file system.
-  *   +  *ENABLED* - Turns automatic backups on for the file system.
+  *   +  *ENABLED* - Turns automatic backups on for the file system. 
   *   +  *DISABLED* - Turns automatic backups off for the file system.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/efs_file_system#status EfsFileSystem#status}
@@ -184,7 +184,7 @@ export class EfsFileSystemBackupPolicyOutputReference extends cdktn.ComplexObjec
   }
 
   // status - computed: true, optional: true, required: false
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -202,10 +202,10 @@ export class EfsFileSystemBackupPolicyOutputReference extends cdktn.ComplexObjec
 export interface EfsFileSystemFileSystemProtection {
   /**
   * The status of the file system's replication overwrite protection.
-  *   +  ``ENABLED`` ? The file system cannot be used as the destination file system in a replication configuration. The file system is writeable. Replication overwrite protection is ``ENABLED`` by default.
+  *   +  ``ENABLED`` ? The file system cannot be used as the destination file system in a replication configuration. The file system is writeable. Replication overwrite protection is ``ENABLED`` by default. 
   *   +  ``DISABLED`` ? The file system can be used as the destination file system in a replication configuration. The file system is read-only and can only be modified by EFS replication.
   *   +  ``REPLICATING`` ? The file system is being used as the destination file system in a replication configuration. The file system is read-only and is modified only by EFS replication.
-  *
+  *   
   *  If the replication configuration is deleted, the file system's replication overwrite protection is re-enabled, the file system becomes writeable.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/efs_file_system#replication_overwrite_protection EfsFileSystem#replication_overwrite_protection}
@@ -285,7 +285,7 @@ export class EfsFileSystemFileSystemProtectionOutputReference extends cdktn.Comp
   }
 
   // replication_overwrite_protection - computed: true, optional: true, required: false
-  private _replicationOverwriteProtection?: string;
+  private _replicationOverwriteProtection?: string; 
   public get replicationOverwriteProtection() {
     return this.getStringAttribute('replication_overwrite_protection');
   }
@@ -402,7 +402,7 @@ export class EfsFileSystemFileSystemTagsOutputReference extends cdktn.ComplexObj
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -418,7 +418,7 @@ export class EfsFileSystemFileSystemTagsOutputReference extends cdktn.ComplexObj
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -574,7 +574,7 @@ export class EfsFileSystemLifecyclePoliciesOutputReference extends cdktn.Complex
   }
 
   // transition_to_archive - computed: true, optional: true, required: false
-  private _transitionToArchive?: string;
+  private _transitionToArchive?: string; 
   public get transitionToArchive() {
     return this.getStringAttribute('transition_to_archive');
   }
@@ -590,7 +590,7 @@ export class EfsFileSystemLifecyclePoliciesOutputReference extends cdktn.Complex
   }
 
   // transition_to_ia - computed: true, optional: true, required: false
-  private _transitionToIa?: string;
+  private _transitionToIa?: string; 
   public get transitionToIa() {
     return this.getStringAttribute('transition_to_ia');
   }
@@ -606,7 +606,7 @@ export class EfsFileSystemLifecyclePoliciesOutputReference extends cdktn.Complex
   }
 
   // transition_to_primary_storage_class - computed: true, optional: true, required: false
-  private _transitionToPrimaryStorageClass?: string;
+  private _transitionToPrimaryStorageClass?: string; 
   public get transitionToPrimaryStorageClass() {
     return this.getStringAttribute('transition_to_primary_storage_class');
   }
@@ -643,7 +643,7 @@ export class EfsFileSystemLifecyclePoliciesList extends cdktn.ComplexList {
 }
 export interface EfsFileSystemReplicationConfigurationDestinations {
   /**
-  * For One Zone file systems, the replication configuration must specify the Availability Zone in which the destination file system is located.
+  * For One Zone file systems, the replication configuration must specify the Availability Zone in which the destination file system is located. 
   *  Use the format ``us-east-1a`` to specify the Availability Zone. For more information about One Zone file systems, see [EFS file system types](https://docs.aws.amazon.com/efs/latest/ug/storage-classes.html) in the *Amazon EFS User Guide*.
   *   One Zone file system type is not available in all Availability Zones in AWS-Regions where Amazon EFS is available.
   *
@@ -841,7 +841,7 @@ export class EfsFileSystemReplicationConfigurationDestinationsOutputReference ex
   }
 
   // availability_zone_name - computed: true, optional: true, required: false
-  private _availabilityZoneName?: string;
+  private _availabilityZoneName?: string; 
   public get availabilityZoneName() {
     return this.getStringAttribute('availability_zone_name');
   }
@@ -857,7 +857,7 @@ export class EfsFileSystemReplicationConfigurationDestinationsOutputReference ex
   }
 
   // file_system_id - computed: true, optional: true, required: false
-  private _fileSystemId?: string;
+  private _fileSystemId?: string; 
   public get fileSystemId() {
     return this.getStringAttribute('file_system_id');
   }
@@ -873,7 +873,7 @@ export class EfsFileSystemReplicationConfigurationDestinationsOutputReference ex
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -889,7 +889,7 @@ export class EfsFileSystemReplicationConfigurationDestinationsOutputReference ex
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -905,7 +905,7 @@ export class EfsFileSystemReplicationConfigurationDestinationsOutputReference ex
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -921,7 +921,7 @@ export class EfsFileSystemReplicationConfigurationDestinationsOutputReference ex
   }
 
   // status - computed: true, optional: true, required: false
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -937,7 +937,7 @@ export class EfsFileSystemReplicationConfigurationDestinationsOutputReference ex
   }
 
   // status_message - computed: true, optional: true, required: false
-  private _statusMessage?: string;
+  private _statusMessage?: string; 
   public get statusMessage() {
     return this.getStringAttribute('status_message');
   }
@@ -1144,7 +1144,7 @@ export class EfsFileSystem extends cdktn.TerraformResource {
   }
 
   // availability_zone_name - computed: true, optional: true, required: false
-  private _availabilityZoneName?: string;
+  private _availabilityZoneName?: string; 
   public get availabilityZoneName() {
     return this.getStringAttribute('availability_zone_name');
   }
@@ -1176,7 +1176,7 @@ export class EfsFileSystem extends cdktn.TerraformResource {
   }
 
   // bypass_policy_lockout_safety_check - computed: true, optional: true, required: false
-  private _bypassPolicyLockoutSafetyCheck?: boolean | cdktn.IResolvable;
+  private _bypassPolicyLockoutSafetyCheck?: boolean | cdktn.IResolvable; 
   public get bypassPolicyLockoutSafetyCheck() {
     return this.getBooleanAttribute('bypass_policy_lockout_safety_check');
   }
@@ -1192,7 +1192,7 @@ export class EfsFileSystem extends cdktn.TerraformResource {
   }
 
   // encrypted - computed: true, optional: true, required: false
-  private _encrypted?: boolean | cdktn.IResolvable;
+  private _encrypted?: boolean | cdktn.IResolvable; 
   public get encrypted() {
     return this.getBooleanAttribute('encrypted');
   }
@@ -1213,7 +1213,7 @@ export class EfsFileSystem extends cdktn.TerraformResource {
   }
 
   // file_system_policy - computed: true, optional: true, required: false
-  private _fileSystemPolicy?: string;
+  private _fileSystemPolicy?: string; 
   public get fileSystemPolicy() {
     return this.getStringAttribute('file_system_policy');
   }
@@ -1266,7 +1266,7 @@ export class EfsFileSystem extends cdktn.TerraformResource {
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -1298,7 +1298,7 @@ export class EfsFileSystem extends cdktn.TerraformResource {
   }
 
   // performance_mode - computed: true, optional: true, required: false
-  private _performanceMode?: string;
+  private _performanceMode?: string; 
   public get performanceMode() {
     return this.getStringAttribute('performance_mode');
   }
@@ -1314,7 +1314,7 @@ export class EfsFileSystem extends cdktn.TerraformResource {
   }
 
   // provisioned_throughput_in_mibps - computed: true, optional: true, required: false
-  private _provisionedThroughputInMibps?: number;
+  private _provisionedThroughputInMibps?: number; 
   public get provisionedThroughputInMibps() {
     return this.getNumberAttribute('provisioned_throughput_in_mibps');
   }
@@ -1346,7 +1346,7 @@ export class EfsFileSystem extends cdktn.TerraformResource {
   }
 
   // throughput_mode - computed: true, optional: true, required: false
-  private _throughputMode?: string;
+  private _throughputMode?: string; 
   public get throughputMode() {
     return this.getStringAttribute('throughput_mode');
   }

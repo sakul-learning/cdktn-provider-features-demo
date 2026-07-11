@@ -94,7 +94,7 @@ export class Ec2LocalGatewayRoute extends cdktn.TerraformResource {
   // ==========
 
   // destination_cidr_block - computed: true, optional: true, required: false
-  private _destinationCidrBlock?: string;
+  private _destinationCidrBlock?: string; 
   public get destinationCidrBlock() {
     return this.getStringAttribute('destination_cidr_block');
   }
@@ -115,7 +115,7 @@ export class Ec2LocalGatewayRoute extends cdktn.TerraformResource {
   }
 
   // local_gateway_route_table_id - computed: true, optional: true, required: false
-  private _localGatewayRouteTableId?: string;
+  private _localGatewayRouteTableId?: string; 
   public get localGatewayRouteTableId() {
     return this.getStringAttribute('local_gateway_route_table_id');
   }
@@ -131,7 +131,7 @@ export class Ec2LocalGatewayRoute extends cdktn.TerraformResource {
   }
 
   // local_gateway_virtual_interface_group_id - computed: true, optional: true, required: false
-  private _localGatewayVirtualInterfaceGroupId?: string;
+  private _localGatewayVirtualInterfaceGroupId?: string; 
   public get localGatewayVirtualInterfaceGroupId() {
     return this.getStringAttribute('local_gateway_virtual_interface_group_id');
   }
@@ -147,7 +147,7 @@ export class Ec2LocalGatewayRoute extends cdktn.TerraformResource {
   }
 
   // network_interface_id - computed: true, optional: true, required: false
-  private _networkInterfaceId?: string;
+  private _networkInterfaceId?: string; 
   public get networkInterfaceId() {
     return this.getStringAttribute('network_interface_id');
   }

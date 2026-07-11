@@ -25,7 +25,7 @@ export interface LambdaPermissionConfig extends cdktn.TerraformMetaArguments {
   *  +  *Function name* ? ``my-function`` (name-only), ``my-function:v1`` (with alias).
   *   +  *Function ARN* ? ``arn:aws:lambda:us-west-2:123456789012:function:my-function``.
   *   +  *Partial ARN* ? ``123456789012:function:my-function``.
-  *
+  *   
   *  You can append a version number or alias to any of the formats. The length constraint applies only to the full ARN. If you specify only the function name, it is limited to 64 characters in length.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_permission#function_name LambdaPermission#function_name}
@@ -136,7 +136,7 @@ export class LambdaPermission extends cdktn.TerraformResource {
   // ==========
 
   // action - computed: false, optional: false, required: true
-  private _action?: string;
+  private _action?: string; 
   public get action() {
     return this.getStringAttribute('action');
   }
@@ -149,7 +149,7 @@ export class LambdaPermission extends cdktn.TerraformResource {
   }
 
   // event_source_token - computed: true, optional: true, required: false
-  private _eventSourceToken?: string;
+  private _eventSourceToken?: string; 
   public get eventSourceToken() {
     return this.getStringAttribute('event_source_token');
   }
@@ -165,7 +165,7 @@ export class LambdaPermission extends cdktn.TerraformResource {
   }
 
   // function_name - computed: false, optional: false, required: true
-  private _functionName?: string;
+  private _functionName?: string; 
   public get functionName() {
     return this.getStringAttribute('function_name');
   }
@@ -178,7 +178,7 @@ export class LambdaPermission extends cdktn.TerraformResource {
   }
 
   // function_url_auth_type - computed: true, optional: true, required: false
-  private _functionUrlAuthType?: string;
+  private _functionUrlAuthType?: string; 
   public get functionUrlAuthType() {
     return this.getStringAttribute('function_url_auth_type');
   }
@@ -199,7 +199,7 @@ export class LambdaPermission extends cdktn.TerraformResource {
   }
 
   // invoked_via_function_url - computed: true, optional: true, required: false
-  private _invokedViaFunctionUrl?: boolean | cdktn.IResolvable;
+  private _invokedViaFunctionUrl?: boolean | cdktn.IResolvable; 
   public get invokedViaFunctionUrl() {
     return this.getBooleanAttribute('invoked_via_function_url');
   }
@@ -220,7 +220,7 @@ export class LambdaPermission extends cdktn.TerraformResource {
   }
 
   // principal - computed: false, optional: false, required: true
-  private _principal?: string;
+  private _principal?: string; 
   public get principal() {
     return this.getStringAttribute('principal');
   }
@@ -233,7 +233,7 @@ export class LambdaPermission extends cdktn.TerraformResource {
   }
 
   // principal_org_id - computed: true, optional: true, required: false
-  private _principalOrgId?: string;
+  private _principalOrgId?: string; 
   public get principalOrgId() {
     return this.getStringAttribute('principal_org_id');
   }
@@ -249,7 +249,7 @@ export class LambdaPermission extends cdktn.TerraformResource {
   }
 
   // source_account - computed: true, optional: true, required: false
-  private _sourceAccount?: string;
+  private _sourceAccount?: string; 
   public get sourceAccount() {
     return this.getStringAttribute('source_account');
   }
@@ -265,7 +265,7 @@ export class LambdaPermission extends cdktn.TerraformResource {
   }
 
   // source_arn - computed: true, optional: true, required: false
-  private _sourceArn?: string;
+  private _sourceArn?: string; 
   public get sourceArn() {
     return this.getStringAttribute('source_arn');
   }

@@ -231,7 +231,7 @@ export class TransferAgreementCustomDirectoriesOutputReference extends cdktn.Com
   }
 
   // failed_files_directory - computed: true, optional: true, required: false
-  private _failedFilesDirectory?: string;
+  private _failedFilesDirectory?: string; 
   public get failedFilesDirectory() {
     return this.getStringAttribute('failed_files_directory');
   }
@@ -247,7 +247,7 @@ export class TransferAgreementCustomDirectoriesOutputReference extends cdktn.Com
   }
 
   // mdn_files_directory - computed: true, optional: true, required: false
-  private _mdnFilesDirectory?: string;
+  private _mdnFilesDirectory?: string; 
   public get mdnFilesDirectory() {
     return this.getStringAttribute('mdn_files_directory');
   }
@@ -263,7 +263,7 @@ export class TransferAgreementCustomDirectoriesOutputReference extends cdktn.Com
   }
 
   // payload_files_directory - computed: true, optional: true, required: false
-  private _payloadFilesDirectory?: string;
+  private _payloadFilesDirectory?: string; 
   public get payloadFilesDirectory() {
     return this.getStringAttribute('payload_files_directory');
   }
@@ -279,7 +279,7 @@ export class TransferAgreementCustomDirectoriesOutputReference extends cdktn.Com
   }
 
   // status_files_directory - computed: true, optional: true, required: false
-  private _statusFilesDirectory?: string;
+  private _statusFilesDirectory?: string; 
   public get statusFilesDirectory() {
     return this.getStringAttribute('status_files_directory');
   }
@@ -295,7 +295,7 @@ export class TransferAgreementCustomDirectoriesOutputReference extends cdktn.Com
   }
 
   // temporary_files_directory - computed: true, optional: true, required: false
-  private _temporaryFilesDirectory?: string;
+  private _temporaryFilesDirectory?: string; 
   public get temporaryFilesDirectory() {
     return this.getStringAttribute('temporary_files_directory');
   }
@@ -412,7 +412,7 @@ export class TransferAgreementTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -428,7 +428,7 @@ export class TransferAgreementTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -532,7 +532,7 @@ export class TransferAgreement extends cdktn.TerraformResource {
   // ==========
 
   // access_role - computed: false, optional: false, required: true
-  private _accessRole?: string;
+  private _accessRole?: string; 
   public get accessRole() {
     return this.getStringAttribute('access_role');
   }
@@ -555,7 +555,7 @@ export class TransferAgreement extends cdktn.TerraformResource {
   }
 
   // base_directory - computed: true, optional: true, required: false
-  private _baseDirectory?: string;
+  private _baseDirectory?: string; 
   public get baseDirectory() {
     return this.getStringAttribute('base_directory');
   }
@@ -587,7 +587,7 @@ export class TransferAgreement extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -603,7 +603,7 @@ export class TransferAgreement extends cdktn.TerraformResource {
   }
 
   // enforce_message_signing - computed: true, optional: true, required: false
-  private _enforceMessageSigning?: string;
+  private _enforceMessageSigning?: string; 
   public get enforceMessageSigning() {
     return this.getStringAttribute('enforce_message_signing');
   }
@@ -624,7 +624,7 @@ export class TransferAgreement extends cdktn.TerraformResource {
   }
 
   // local_profile_id - computed: false, optional: false, required: true
-  private _localProfileId?: string;
+  private _localProfileId?: string; 
   public get localProfileId() {
     return this.getStringAttribute('local_profile_id');
   }
@@ -637,7 +637,7 @@ export class TransferAgreement extends cdktn.TerraformResource {
   }
 
   // partner_profile_id - computed: false, optional: false, required: true
-  private _partnerProfileId?: string;
+  private _partnerProfileId?: string; 
   public get partnerProfileId() {
     return this.getStringAttribute('partner_profile_id');
   }
@@ -650,7 +650,7 @@ export class TransferAgreement extends cdktn.TerraformResource {
   }
 
   // preserve_filename - computed: true, optional: true, required: false
-  private _preserveFilename?: string;
+  private _preserveFilename?: string; 
   public get preserveFilename() {
     return this.getStringAttribute('preserve_filename');
   }
@@ -666,7 +666,7 @@ export class TransferAgreement extends cdktn.TerraformResource {
   }
 
   // server_id - computed: false, optional: false, required: true
-  private _serverId?: string;
+  private _serverId?: string; 
   public get serverId() {
     return this.getStringAttribute('server_id');
   }
@@ -679,7 +679,7 @@ export class TransferAgreement extends cdktn.TerraformResource {
   }
 
   // status - computed: true, optional: true, required: false
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }

@@ -139,7 +139,7 @@ export class Route53RecordsExclusiveResourceRecordSetAliasTargetOutputReference 
   }
 
   // dns_name - computed: false, optional: false, required: true
-  private _dnsName?: string;
+  private _dnsName?: string; 
   public get dnsName() {
     return this.getStringAttribute('dns_name');
   }
@@ -152,7 +152,7 @@ export class Route53RecordsExclusiveResourceRecordSetAliasTargetOutputReference 
   }
 
   // evaluate_target_health - computed: false, optional: false, required: true
-  private _evaluateTargetHealth?: boolean | cdktn.IResolvable;
+  private _evaluateTargetHealth?: boolean | cdktn.IResolvable; 
   public get evaluateTargetHealth() {
     return this.getBooleanAttribute('evaluate_target_health');
   }
@@ -165,7 +165,7 @@ export class Route53RecordsExclusiveResourceRecordSetAliasTargetOutputReference 
   }
 
   // hosted_zone_id - computed: false, optional: false, required: true
-  private _hostedZoneId?: string;
+  private _hostedZoneId?: string; 
   public get hostedZoneId() {
     return this.getStringAttribute('hosted_zone_id');
   }
@@ -295,7 +295,7 @@ export class Route53RecordsExclusiveResourceRecordSetCidrRoutingConfigOutputRefe
   }
 
   // collection_id - computed: false, optional: false, required: true
-  private _collectionId?: string;
+  private _collectionId?: string; 
   public get collectionId() {
     return this.getStringAttribute('collection_id');
   }
@@ -308,7 +308,7 @@ export class Route53RecordsExclusiveResourceRecordSetCidrRoutingConfigOutputRefe
   }
 
   // location_name - computed: false, optional: false, required: true
-  private _locationName?: string;
+  private _locationName?: string; 
   public get locationName() {
     return this.getStringAttribute('location_name');
   }
@@ -455,7 +455,7 @@ export class Route53RecordsExclusiveResourceRecordSetGeolocationOutputReference 
   }
 
   // continent_code - computed: false, optional: true, required: false
-  private _continentCode?: string;
+  private _continentCode?: string; 
   public get continentCode() {
     return this.getStringAttribute('continent_code');
   }
@@ -471,7 +471,7 @@ export class Route53RecordsExclusiveResourceRecordSetGeolocationOutputReference 
   }
 
   // country_code - computed: false, optional: true, required: false
-  private _countryCode?: string;
+  private _countryCode?: string; 
   public get countryCode() {
     return this.getStringAttribute('country_code');
   }
@@ -487,7 +487,7 @@ export class Route53RecordsExclusiveResourceRecordSetGeolocationOutputReference 
   }
 
   // subdivision_code - computed: false, optional: true, required: false
-  private _subdivisionCode?: string;
+  private _subdivisionCode?: string; 
   public get subdivisionCode() {
     return this.getStringAttribute('subdivision_code');
   }
@@ -620,7 +620,7 @@ export class Route53RecordsExclusiveResourceRecordSetGeoproximityLocationCoordin
   }
 
   // latitude - computed: false, optional: false, required: true
-  private _latitude?: string;
+  private _latitude?: string; 
   public get latitude() {
     return this.getStringAttribute('latitude');
   }
@@ -633,7 +633,7 @@ export class Route53RecordsExclusiveResourceRecordSetGeoproximityLocationCoordin
   }
 
   // longitude - computed: false, optional: false, required: true
-  private _longitude?: string;
+  private _longitude?: string; 
   public get longitude() {
     return this.getStringAttribute('longitude');
   }
@@ -799,7 +799,7 @@ export class Route53RecordsExclusiveResourceRecordSetGeoproximityLocationOutputR
   }
 
   // aws_region - computed: false, optional: true, required: false
-  private _awsRegion?: string;
+  private _awsRegion?: string; 
   public get awsRegion() {
     return this.getStringAttribute('aws_region');
   }
@@ -815,7 +815,7 @@ export class Route53RecordsExclusiveResourceRecordSetGeoproximityLocationOutputR
   }
 
   // bias - computed: false, optional: true, required: false
-  private _bias?: number;
+  private _bias?: number; 
   public get bias() {
     return this.getNumberAttribute('bias');
   }
@@ -831,7 +831,7 @@ export class Route53RecordsExclusiveResourceRecordSetGeoproximityLocationOutputR
   }
 
   // local_zone_group - computed: false, optional: true, required: false
-  private _localZoneGroup?: string;
+  private _localZoneGroup?: string; 
   public get localZoneGroup() {
     return this.getStringAttribute('local_zone_group');
   }
@@ -963,7 +963,7 @@ export class Route53RecordsExclusiveResourceRecordSetResourceRecordsOutputRefere
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1324,7 +1324,7 @@ export class Route53RecordsExclusiveResourceRecordSetOutputReference extends cdk
   }
 
   // failover - computed: false, optional: true, required: false
-  private _failover?: string;
+  private _failover?: string; 
   public get failover() {
     return this.getStringAttribute('failover');
   }
@@ -1340,7 +1340,7 @@ export class Route53RecordsExclusiveResourceRecordSetOutputReference extends cdk
   }
 
   // health_check_id - computed: false, optional: true, required: false
-  private _healthCheckId?: string;
+  private _healthCheckId?: string; 
   public get healthCheckId() {
     return this.getStringAttribute('health_check_id');
   }
@@ -1356,7 +1356,7 @@ export class Route53RecordsExclusiveResourceRecordSetOutputReference extends cdk
   }
 
   // multi_value_answer - computed: false, optional: true, required: false
-  private _multiValueAnswer?: boolean | cdktn.IResolvable;
+  private _multiValueAnswer?: boolean | cdktn.IResolvable; 
   public get multiValueAnswer() {
     return this.getBooleanAttribute('multi_value_answer');
   }
@@ -1372,7 +1372,7 @@ export class Route53RecordsExclusiveResourceRecordSetOutputReference extends cdk
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1385,7 +1385,7 @@ export class Route53RecordsExclusiveResourceRecordSetOutputReference extends cdk
   }
 
   // region - computed: false, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1401,7 +1401,7 @@ export class Route53RecordsExclusiveResourceRecordSetOutputReference extends cdk
   }
 
   // set_identifier - computed: false, optional: true, required: false
-  private _setIdentifier?: string;
+  private _setIdentifier?: string; 
   public get setIdentifier() {
     return this.getStringAttribute('set_identifier');
   }
@@ -1417,7 +1417,7 @@ export class Route53RecordsExclusiveResourceRecordSetOutputReference extends cdk
   }
 
   // traffic_policy_instance_id - computed: false, optional: true, required: false
-  private _trafficPolicyInstanceId?: string;
+  private _trafficPolicyInstanceId?: string; 
   public get trafficPolicyInstanceId() {
     return this.getStringAttribute('traffic_policy_instance_id');
   }
@@ -1433,7 +1433,7 @@ export class Route53RecordsExclusiveResourceRecordSetOutputReference extends cdk
   }
 
   // ttl - computed: false, optional: true, required: false
-  private _ttl?: number;
+  private _ttl?: number; 
   public get ttl() {
     return this.getNumberAttribute('ttl');
   }
@@ -1449,7 +1449,7 @@ export class Route53RecordsExclusiveResourceRecordSetOutputReference extends cdk
   }
 
   // type - computed: false, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -1465,7 +1465,7 @@ export class Route53RecordsExclusiveResourceRecordSetOutputReference extends cdk
   }
 
   // weight - computed: false, optional: true, required: false
-  private _weight?: number;
+  private _weight?: number; 
   public get weight() {
     return this.getNumberAttribute('weight');
   }
@@ -1680,7 +1680,7 @@ export class Route53RecordsExclusiveTimeoutsOutputReference extends cdktn.Comple
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -1696,7 +1696,7 @@ export class Route53RecordsExclusiveTimeoutsOutputReference extends cdktn.Comple
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -1772,7 +1772,7 @@ export class Route53RecordsExclusive extends cdktn.TerraformResource {
   // ==========
 
   // zone_id - computed: false, optional: false, required: true
-  private _zoneId?: string;
+  private _zoneId?: string; 
   public get zoneId() {
     return this.getStringAttribute('zone_id');
   }

@@ -134,7 +134,7 @@ export class GuarddutyMemberDetectorFeatureAdditionalConfigurationOutputReferenc
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -147,7 +147,7 @@ export class GuarddutyMemberDetectorFeatureAdditionalConfigurationOutputReferenc
   }
 
   // status - computed: false, optional: false, required: true
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -243,7 +243,7 @@ export class GuarddutyMemberDetectorFeature extends cdktn.TerraformResource {
   // ==========
 
   // account_id - computed: false, optional: false, required: true
-  private _accountId?: string;
+  private _accountId?: string; 
   public get accountId() {
     return this.getStringAttribute('account_id');
   }
@@ -256,7 +256,7 @@ export class GuarddutyMemberDetectorFeature extends cdktn.TerraformResource {
   }
 
   // detector_id - computed: false, optional: false, required: true
-  private _detectorId?: string;
+  private _detectorId?: string; 
   public get detectorId() {
     return this.getStringAttribute('detector_id');
   }
@@ -269,7 +269,7 @@ export class GuarddutyMemberDetectorFeature extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -282,7 +282,7 @@ export class GuarddutyMemberDetectorFeature extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -298,7 +298,7 @@ export class GuarddutyMemberDetectorFeature extends cdktn.TerraformResource {
   }
 
   // status - computed: false, optional: false, required: true
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }

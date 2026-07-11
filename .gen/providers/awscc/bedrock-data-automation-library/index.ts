@@ -132,7 +132,7 @@ export class BedrockDataAutomationLibraryEncryptionConfigurationOutputReference 
   }
 
   // kms_encryption_context - computed: true, optional: true, required: false
-  private _kmsEncryptionContext?: { [key: string]: string };
+  private _kmsEncryptionContext?: { [key: string]: string }; 
   public get kmsEncryptionContext() {
     return this.getStringMapAttribute('kms_encryption_context');
   }
@@ -148,7 +148,7 @@ export class BedrockDataAutomationLibraryEncryptionConfigurationOutputReference 
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -345,7 +345,7 @@ export class BedrockDataAutomationLibraryTagsOutputReference extends cdktn.Compl
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -361,7 +361,7 @@ export class BedrockDataAutomationLibraryTagsOutputReference extends cdktn.Compl
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -495,7 +495,7 @@ export class BedrockDataAutomationLibrary extends cdktn.TerraformResource {
   }
 
   // library_description - computed: true, optional: true, required: false
-  private _libraryDescription?: string;
+  private _libraryDescription?: string; 
   public get libraryDescription() {
     return this.getStringAttribute('library_description');
   }
@@ -511,7 +511,7 @@ export class BedrockDataAutomationLibrary extends cdktn.TerraformResource {
   }
 
   // library_name - computed: false, optional: false, required: true
-  private _libraryName?: string;
+  private _libraryName?: string; 
   public get libraryName() {
     return this.getStringAttribute('library_name');
   }

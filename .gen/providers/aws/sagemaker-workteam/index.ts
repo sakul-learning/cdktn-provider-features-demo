@@ -162,7 +162,7 @@ export class SagemakerWorkteamMemberDefinitionCognitoMemberDefinitionOutputRefer
   }
 
   // client_id - computed: false, optional: false, required: true
-  private _clientId?: string;
+  private _clientId?: string; 
   public get clientId() {
     return this.getStringAttribute('client_id');
   }
@@ -175,7 +175,7 @@ export class SagemakerWorkteamMemberDefinitionCognitoMemberDefinitionOutputRefer
   }
 
   // user_group - computed: false, optional: false, required: true
-  private _userGroup?: string;
+  private _userGroup?: string; 
   public get userGroup() {
     return this.getStringAttribute('user_group');
   }
@@ -188,7 +188,7 @@ export class SagemakerWorkteamMemberDefinitionCognitoMemberDefinitionOutputRefer
   }
 
   // user_pool - computed: false, optional: false, required: true
-  private _userPool?: string;
+  private _userPool?: string; 
   public get userPool() {
     return this.getStringAttribute('user_pool');
   }
@@ -269,7 +269,7 @@ export class SagemakerWorkteamMemberDefinitionOidcMemberDefinitionOutputReferenc
   }
 
   // groups - computed: false, optional: false, required: true
-  private _groups?: string[];
+  private _groups?: string[]; 
   public get groups() {
     return cdktn.Fn.tolist(this.getListAttribute('groups'));
   }
@@ -503,7 +503,7 @@ export class SagemakerWorkteamNotificationConfigurationOutputReference extends c
   }
 
   // notification_topic_arn - computed: false, optional: true, required: false
-  private _notificationTopicArn?: string;
+  private _notificationTopicArn?: string; 
   public get notificationTopicArn() {
     return this.getStringAttribute('notification_topic_arn');
   }
@@ -604,7 +604,7 @@ export class SagemakerWorkteamWorkerAccessConfigurationS3PresignIamPolicyConstra
   }
 
   // source_ip - computed: true, optional: true, required: false
-  private _sourceIp?: string;
+  private _sourceIp?: string; 
   public get sourceIp() {
     return this.getStringAttribute('source_ip');
   }
@@ -620,7 +620,7 @@ export class SagemakerWorkteamWorkerAccessConfigurationS3PresignIamPolicyConstra
   }
 
   // vpc_source_ip - computed: true, optional: true, required: false
-  private _vpcSourceIp?: string;
+  private _vpcSourceIp?: string; 
   public get vpcSourceIp() {
     return this.getStringAttribute('vpc_source_ip');
   }
@@ -880,7 +880,7 @@ export class SagemakerWorkteam extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: false, required: true
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -893,7 +893,7 @@ export class SagemakerWorkteam extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -909,7 +909,7 @@ export class SagemakerWorkteam extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -930,7 +930,7 @@ export class SagemakerWorkteam extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -946,7 +946,7 @@ export class SagemakerWorkteam extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -962,7 +962,7 @@ export class SagemakerWorkteam extends cdktn.TerraformResource {
   }
 
   // workforce_name - computed: false, optional: true, required: false
-  private _workforceName?: string;
+  private _workforceName?: string; 
   public get workforceName() {
     return this.getStringAttribute('workforce_name');
   }
@@ -978,7 +978,7 @@ export class SagemakerWorkteam extends cdktn.TerraformResource {
   }
 
   // workteam_name - computed: false, optional: false, required: true
-  private _workteamName?: string;
+  private _workteamName?: string; 
   public get workteamName() {
     return this.getStringAttribute('workteam_name');
   }

@@ -76,7 +76,7 @@ export class MskBatchScramSecret extends cdktn.TerraformResource {
   // ==========
 
   // cluster_arn - computed: false, optional: false, required: true
-  private _clusterArn?: string;
+  private _clusterArn?: string; 
   public get clusterArn() {
     return this.getStringAttribute('cluster_arn');
   }
@@ -94,7 +94,7 @@ export class MskBatchScramSecret extends cdktn.TerraformResource {
   }
 
   // secret_arn_list - computed: true, optional: true, required: false
-  private _secretArnList?: string[];
+  private _secretArnList?: string[]; 
   public get secretArnList() {
     return this.getListAttribute('secret_arn_list');
   }

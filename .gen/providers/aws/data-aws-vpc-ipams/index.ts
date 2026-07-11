@@ -353,7 +353,7 @@ export class DataAwsVpcIpamsFilterOutputReference extends cdktn.ComplexObject {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -366,7 +366,7 @@ export class DataAwsVpcIpamsFilterOutputReference extends cdktn.ComplexObject {
   }
 
   // values - computed: false, optional: false, required: true
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -459,7 +459,7 @@ export class DataAwsVpcIpams extends cdktn.TerraformDataSource {
   // ==========
 
   // ipam_ids - computed: false, optional: true, required: false
-  private _ipamIds?: string[];
+  private _ipamIds?: string[]; 
   public get ipamIds() {
     return this.getListAttribute('ipam_ids');
   }
@@ -481,7 +481,7 @@ export class DataAwsVpcIpams extends cdktn.TerraformDataSource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

@@ -108,7 +108,7 @@ export class SsmcontactsContactChannelDeliveryAddressOutputReference extends cdk
   }
 
   // simple_address - computed: false, optional: false, required: true
-  private _simpleAddress?: string;
+  private _simpleAddress?: string; 
   public get simpleAddress() {
     return this.getStringAttribute('simple_address');
   }
@@ -194,7 +194,7 @@ export class SsmcontactsContactChannel extends cdktn.TerraformResource {
   }
 
   // contact_id - computed: false, optional: false, required: true
-  private _contactId?: string;
+  private _contactId?: string; 
   public get contactId() {
     return this.getStringAttribute('contact_id');
   }
@@ -207,7 +207,7 @@ export class SsmcontactsContactChannel extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -223,7 +223,7 @@ export class SsmcontactsContactChannel extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -236,7 +236,7 @@ export class SsmcontactsContactChannel extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -252,7 +252,7 @@ export class SsmcontactsContactChannel extends cdktn.TerraformResource {
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }

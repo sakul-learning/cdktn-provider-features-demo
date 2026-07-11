@@ -128,7 +128,7 @@ export class ObservabilityadminTelemetryEvaluationForOrganizationTimeoutsOutputR
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -144,7 +144,7 @@ export class ObservabilityadminTelemetryEvaluationForOrganizationTimeoutsOutputR
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -221,7 +221,7 @@ export class ObservabilityadminTelemetryEvaluationForOrganization extends cdktn.
   // ==========
 
   // all_regions - computed: false, optional: true, required: false
-  private _allRegions?: boolean | cdktn.IResolvable;
+  private _allRegions?: boolean | cdktn.IResolvable; 
   public get allRegions() {
     return this.getBooleanAttribute('all_regions');
   }
@@ -252,7 +252,7 @@ export class ObservabilityadminTelemetryEvaluationForOrganization extends cdktn.
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -268,7 +268,7 @@ export class ObservabilityadminTelemetryEvaluationForOrganization extends cdktn.
   }
 
   // regions - computed: false, optional: true, required: false
-  private _regions?: string[];
+  private _regions?: string[]; 
   public get regions() {
     return cdktn.Fn.tolist(this.getListAttribute('regions'));
   }

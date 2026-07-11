@@ -134,7 +134,7 @@ export class SagemakerModelContainerAdditionalModelDataSourceS3DataSourceModelAc
   }
 
   // accept_eula - computed: false, optional: false, required: true
-  private _acceptEula?: boolean | cdktn.IResolvable;
+  private _acceptEula?: boolean | cdktn.IResolvable; 
   public get acceptEula() {
     return this.getBooleanAttribute('accept_eula');
   }
@@ -280,7 +280,7 @@ export class SagemakerModelContainerAdditionalModelDataSourceS3DataSourceOutputR
   }
 
   // compression_type - computed: false, optional: false, required: true
-  private _compressionType?: string;
+  private _compressionType?: string; 
   public get compressionType() {
     return this.getStringAttribute('compression_type');
   }
@@ -293,7 +293,7 @@ export class SagemakerModelContainerAdditionalModelDataSourceS3DataSourceOutputR
   }
 
   // s3_data_type - computed: false, optional: false, required: true
-  private _s3DataType?: string;
+  private _s3DataType?: string; 
   public get s3DataType() {
     return this.getStringAttribute('s3_data_type');
   }
@@ -306,7 +306,7 @@ export class SagemakerModelContainerAdditionalModelDataSourceS3DataSourceOutputR
   }
 
   // s3_uri - computed: false, optional: false, required: true
-  private _s3Uri?: string;
+  private _s3Uri?: string; 
   public get s3Uri() {
     return this.getStringAttribute('s3_uri');
   }
@@ -454,7 +454,7 @@ export class SagemakerModelContainerAdditionalModelDataSourceOutputReference ext
   }
 
   // channel_name - computed: false, optional: false, required: true
-  private _channelName?: string;
+  private _channelName?: string; 
   public get channelName() {
     return this.getStringAttribute('channel_name');
   }
@@ -568,7 +568,7 @@ export class SagemakerModelContainerImageConfigRepositoryAuthConfigOutputReferen
   }
 
   // repository_credentials_provider_arn - computed: false, optional: false, required: true
-  private _repositoryCredentialsProviderArn?: string;
+  private _repositoryCredentialsProviderArn?: string; 
   public get repositoryCredentialsProviderArn() {
     return this.getStringAttribute('repository_credentials_provider_arn');
   }
@@ -668,7 +668,7 @@ export class SagemakerModelContainerImageConfigOutputReference extends cdktn.Com
   }
 
   // repository_access_mode - computed: false, optional: false, required: true
-  private _repositoryAccessMode?: string;
+  private _repositoryAccessMode?: string; 
   public get repositoryAccessMode() {
     return this.getStringAttribute('repository_access_mode');
   }
@@ -765,7 +765,7 @@ export class SagemakerModelContainerModelDataSourceS3DataSourceModelAccessConfig
   }
 
   // accept_eula - computed: false, optional: false, required: true
-  private _acceptEula?: boolean | cdktn.IResolvable;
+  private _acceptEula?: boolean | cdktn.IResolvable; 
   public get acceptEula() {
     return this.getBooleanAttribute('accept_eula');
   }
@@ -911,7 +911,7 @@ export class SagemakerModelContainerModelDataSourceS3DataSourceOutputReference e
   }
 
   // compression_type - computed: false, optional: false, required: true
-  private _compressionType?: string;
+  private _compressionType?: string; 
   public get compressionType() {
     return this.getStringAttribute('compression_type');
   }
@@ -924,7 +924,7 @@ export class SagemakerModelContainerModelDataSourceS3DataSourceOutputReference e
   }
 
   // s3_data_type - computed: false, optional: false, required: true
-  private _s3DataType?: string;
+  private _s3DataType?: string; 
   public get s3DataType() {
     return this.getStringAttribute('s3_data_type');
   }
@@ -937,7 +937,7 @@ export class SagemakerModelContainerModelDataSourceS3DataSourceOutputReference e
   }
 
   // s3_uri - computed: false, optional: false, required: true
-  private _s3Uri?: string;
+  private _s3Uri?: string; 
   public get s3Uri() {
     return this.getStringAttribute('s3_uri');
   }
@@ -1137,7 +1137,7 @@ export class SagemakerModelContainerMultiModelConfigOutputReference extends cdkt
   }
 
   // model_cache_setting - computed: false, optional: true, required: false
-  private _modelCacheSetting?: string;
+  private _modelCacheSetting?: string; 
   public get modelCacheSetting() {
     return this.getStringAttribute('model_cache_setting');
   }
@@ -1411,7 +1411,7 @@ export class SagemakerModelContainerOutputReference extends cdktn.ComplexObject 
   }
 
   // container_hostname - computed: false, optional: true, required: false
-  private _containerHostname?: string;
+  private _containerHostname?: string; 
   public get containerHostname() {
     return this.getStringAttribute('container_hostname');
   }
@@ -1427,7 +1427,7 @@ export class SagemakerModelContainerOutputReference extends cdktn.ComplexObject 
   }
 
   // environment - computed: false, optional: true, required: false
-  private _environment?: { [key: string]: string };
+  private _environment?: { [key: string]: string }; 
   public get environment() {
     return this.getStringMapAttribute('environment');
   }
@@ -1443,7 +1443,7 @@ export class SagemakerModelContainerOutputReference extends cdktn.ComplexObject 
   }
 
   // image - computed: false, optional: true, required: false
-  private _image?: string;
+  private _image?: string; 
   public get image() {
     return this.getStringAttribute('image');
   }
@@ -1459,7 +1459,7 @@ export class SagemakerModelContainerOutputReference extends cdktn.ComplexObject 
   }
 
   // inference_specification_name - computed: false, optional: true, required: false
-  private _inferenceSpecificationName?: string;
+  private _inferenceSpecificationName?: string; 
   public get inferenceSpecificationName() {
     return this.getStringAttribute('inference_specification_name');
   }
@@ -1475,7 +1475,7 @@ export class SagemakerModelContainerOutputReference extends cdktn.ComplexObject 
   }
 
   // mode - computed: false, optional: true, required: false
-  private _mode?: string;
+  private _mode?: string; 
   public get mode() {
     return this.getStringAttribute('mode');
   }
@@ -1491,7 +1491,7 @@ export class SagemakerModelContainerOutputReference extends cdktn.ComplexObject 
   }
 
   // model_data_url - computed: false, optional: true, required: false
-  private _modelDataUrl?: string;
+  private _modelDataUrl?: string; 
   public get modelDataUrl() {
     return this.getStringAttribute('model_data_url');
   }
@@ -1507,7 +1507,7 @@ export class SagemakerModelContainerOutputReference extends cdktn.ComplexObject 
   }
 
   // model_package_name - computed: false, optional: true, required: false
-  private _modelPackageName?: string;
+  private _modelPackageName?: string; 
   public get modelPackageName() {
     return this.getStringAttribute('model_package_name');
   }
@@ -1675,7 +1675,7 @@ export class SagemakerModelInferenceExecutionConfigOutputReference extends cdktn
   }
 
   // mode - computed: false, optional: false, required: true
-  private _mode?: string;
+  private _mode?: string; 
   public get mode() {
     return this.getStringAttribute('mode');
   }
@@ -1756,7 +1756,7 @@ export class SagemakerModelPrimaryContainerAdditionalModelDataSourceS3DataSource
   }
 
   // accept_eula - computed: false, optional: false, required: true
-  private _acceptEula?: boolean | cdktn.IResolvable;
+  private _acceptEula?: boolean | cdktn.IResolvable; 
   public get acceptEula() {
     return this.getBooleanAttribute('accept_eula');
   }
@@ -1902,7 +1902,7 @@ export class SagemakerModelPrimaryContainerAdditionalModelDataSourceS3DataSource
   }
 
   // compression_type - computed: false, optional: false, required: true
-  private _compressionType?: string;
+  private _compressionType?: string; 
   public get compressionType() {
     return this.getStringAttribute('compression_type');
   }
@@ -1915,7 +1915,7 @@ export class SagemakerModelPrimaryContainerAdditionalModelDataSourceS3DataSource
   }
 
   // s3_data_type - computed: false, optional: false, required: true
-  private _s3DataType?: string;
+  private _s3DataType?: string; 
   public get s3DataType() {
     return this.getStringAttribute('s3_data_type');
   }
@@ -1928,7 +1928,7 @@ export class SagemakerModelPrimaryContainerAdditionalModelDataSourceS3DataSource
   }
 
   // s3_uri - computed: false, optional: false, required: true
-  private _s3Uri?: string;
+  private _s3Uri?: string; 
   public get s3Uri() {
     return this.getStringAttribute('s3_uri');
   }
@@ -2076,7 +2076,7 @@ export class SagemakerModelPrimaryContainerAdditionalModelDataSourceOutputRefere
   }
 
   // channel_name - computed: false, optional: false, required: true
-  private _channelName?: string;
+  private _channelName?: string; 
   public get channelName() {
     return this.getStringAttribute('channel_name');
   }
@@ -2190,7 +2190,7 @@ export class SagemakerModelPrimaryContainerImageConfigRepositoryAuthConfigOutput
   }
 
   // repository_credentials_provider_arn - computed: false, optional: false, required: true
-  private _repositoryCredentialsProviderArn?: string;
+  private _repositoryCredentialsProviderArn?: string; 
   public get repositoryCredentialsProviderArn() {
     return this.getStringAttribute('repository_credentials_provider_arn');
   }
@@ -2290,7 +2290,7 @@ export class SagemakerModelPrimaryContainerImageConfigOutputReference extends cd
   }
 
   // repository_access_mode - computed: false, optional: false, required: true
-  private _repositoryAccessMode?: string;
+  private _repositoryAccessMode?: string; 
   public get repositoryAccessMode() {
     return this.getStringAttribute('repository_access_mode');
   }
@@ -2387,7 +2387,7 @@ export class SagemakerModelPrimaryContainerModelDataSourceS3DataSourceModelAcces
   }
 
   // accept_eula - computed: false, optional: false, required: true
-  private _acceptEula?: boolean | cdktn.IResolvable;
+  private _acceptEula?: boolean | cdktn.IResolvable; 
   public get acceptEula() {
     return this.getBooleanAttribute('accept_eula');
   }
@@ -2533,7 +2533,7 @@ export class SagemakerModelPrimaryContainerModelDataSourceS3DataSourceOutputRefe
   }
 
   // compression_type - computed: false, optional: false, required: true
-  private _compressionType?: string;
+  private _compressionType?: string; 
   public get compressionType() {
     return this.getStringAttribute('compression_type');
   }
@@ -2546,7 +2546,7 @@ export class SagemakerModelPrimaryContainerModelDataSourceS3DataSourceOutputRefe
   }
 
   // s3_data_type - computed: false, optional: false, required: true
-  private _s3DataType?: string;
+  private _s3DataType?: string; 
   public get s3DataType() {
     return this.getStringAttribute('s3_data_type');
   }
@@ -2559,7 +2559,7 @@ export class SagemakerModelPrimaryContainerModelDataSourceS3DataSourceOutputRefe
   }
 
   // s3_uri - computed: false, optional: false, required: true
-  private _s3Uri?: string;
+  private _s3Uri?: string; 
   public get s3Uri() {
     return this.getStringAttribute('s3_uri');
   }
@@ -2759,7 +2759,7 @@ export class SagemakerModelPrimaryContainerMultiModelConfigOutputReference exten
   }
 
   // model_cache_setting - computed: false, optional: true, required: false
-  private _modelCacheSetting?: string;
+  private _modelCacheSetting?: string; 
   public get modelCacheSetting() {
     return this.getStringAttribute('model_cache_setting');
   }
@@ -3021,7 +3021,7 @@ export class SagemakerModelPrimaryContainerOutputReference extends cdktn.Complex
   }
 
   // container_hostname - computed: false, optional: true, required: false
-  private _containerHostname?: string;
+  private _containerHostname?: string; 
   public get containerHostname() {
     return this.getStringAttribute('container_hostname');
   }
@@ -3037,7 +3037,7 @@ export class SagemakerModelPrimaryContainerOutputReference extends cdktn.Complex
   }
 
   // environment - computed: false, optional: true, required: false
-  private _environment?: { [key: string]: string };
+  private _environment?: { [key: string]: string }; 
   public get environment() {
     return this.getStringMapAttribute('environment');
   }
@@ -3053,7 +3053,7 @@ export class SagemakerModelPrimaryContainerOutputReference extends cdktn.Complex
   }
 
   // image - computed: false, optional: true, required: false
-  private _image?: string;
+  private _image?: string; 
   public get image() {
     return this.getStringAttribute('image');
   }
@@ -3069,7 +3069,7 @@ export class SagemakerModelPrimaryContainerOutputReference extends cdktn.Complex
   }
 
   // inference_specification_name - computed: false, optional: true, required: false
-  private _inferenceSpecificationName?: string;
+  private _inferenceSpecificationName?: string; 
   public get inferenceSpecificationName() {
     return this.getStringAttribute('inference_specification_name');
   }
@@ -3085,7 +3085,7 @@ export class SagemakerModelPrimaryContainerOutputReference extends cdktn.Complex
   }
 
   // mode - computed: false, optional: true, required: false
-  private _mode?: string;
+  private _mode?: string; 
   public get mode() {
     return this.getStringAttribute('mode');
   }
@@ -3101,7 +3101,7 @@ export class SagemakerModelPrimaryContainerOutputReference extends cdktn.Complex
   }
 
   // model_data_url - computed: false, optional: true, required: false
-  private _modelDataUrl?: string;
+  private _modelDataUrl?: string; 
   public get modelDataUrl() {
     return this.getStringAttribute('model_data_url');
   }
@@ -3117,7 +3117,7 @@ export class SagemakerModelPrimaryContainerOutputReference extends cdktn.Complex
   }
 
   // model_package_name - computed: false, optional: true, required: false
-  private _modelPackageName?: string;
+  private _modelPackageName?: string; 
   public get modelPackageName() {
     return this.getStringAttribute('model_package_name');
   }
@@ -3282,7 +3282,7 @@ export class SagemakerModelVpcConfigOutputReference extends cdktn.ComplexObject 
   }
 
   // security_group_ids - computed: false, optional: false, required: true
-  private _securityGroupIds?: string[];
+  private _securityGroupIds?: string[]; 
   public get securityGroupIds() {
     return cdktn.Fn.tolist(this.getListAttribute('security_group_ids'));
   }
@@ -3295,7 +3295,7 @@ export class SagemakerModelVpcConfigOutputReference extends cdktn.ComplexObject 
   }
 
   // subnets - computed: false, optional: false, required: true
-  private _subnets?: string[];
+  private _subnets?: string[]; 
   public get subnets() {
     return cdktn.Fn.tolist(this.getListAttribute('subnets'));
   }
@@ -3381,7 +3381,7 @@ export class SagemakerModel extends cdktn.TerraformResource {
   }
 
   // enable_network_isolation - computed: false, optional: true, required: false
-  private _enableNetworkIsolation?: boolean | cdktn.IResolvable;
+  private _enableNetworkIsolation?: boolean | cdktn.IResolvable; 
   public get enableNetworkIsolation() {
     return this.getBooleanAttribute('enable_network_isolation');
   }
@@ -3397,7 +3397,7 @@ export class SagemakerModel extends cdktn.TerraformResource {
   }
 
   // execution_role_arn - computed: false, optional: false, required: true
-  private _executionRoleArn?: string;
+  private _executionRoleArn?: string; 
   public get executionRoleArn() {
     return this.getStringAttribute('execution_role_arn');
   }
@@ -3410,7 +3410,7 @@ export class SagemakerModel extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -3426,7 +3426,7 @@ export class SagemakerModel extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -3442,7 +3442,7 @@ export class SagemakerModel extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -3458,7 +3458,7 @@ export class SagemakerModel extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -3474,7 +3474,7 @@ export class SagemakerModel extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

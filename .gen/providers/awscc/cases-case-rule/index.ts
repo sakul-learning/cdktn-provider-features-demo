@@ -119,7 +119,7 @@ export class CasesCaseRuleRuleHiddenConditionsEqualToOperandOneOutputReference e
   }
 
   // field_id - computed: true, optional: true, required: false
-  private _fieldId?: string;
+  private _fieldId?: string; 
   public get fieldId() {
     return this.getStringAttribute('field_id');
   }
@@ -272,7 +272,7 @@ export class CasesCaseRuleRuleHiddenConditionsEqualToOperandTwoOutputReference e
   }
 
   // boolean_value - computed: true, optional: true, required: false
-  private _booleanValue?: boolean | cdktn.IResolvable;
+  private _booleanValue?: boolean | cdktn.IResolvable; 
   public get booleanValue() {
     return this.getBooleanAttribute('boolean_value');
   }
@@ -288,7 +288,7 @@ export class CasesCaseRuleRuleHiddenConditionsEqualToOperandTwoOutputReference e
   }
 
   // double_value - computed: true, optional: true, required: false
-  private _doubleValue?: number;
+  private _doubleValue?: number; 
   public get doubleValue() {
     return this.getNumberAttribute('double_value');
   }
@@ -304,7 +304,7 @@ export class CasesCaseRuleRuleHiddenConditionsEqualToOperandTwoOutputReference e
   }
 
   // empty_value - computed: true, optional: true, required: false
-  private _emptyValue?: string;
+  private _emptyValue?: string; 
   public get emptyValue() {
     return this.getStringAttribute('empty_value');
   }
@@ -320,7 +320,7 @@ export class CasesCaseRuleRuleHiddenConditionsEqualToOperandTwoOutputReference e
   }
 
   // string_value - computed: true, optional: true, required: false
-  private _stringValue?: string;
+  private _stringValue?: string; 
   public get stringValue() {
     return this.getStringAttribute('string_value');
   }
@@ -486,7 +486,7 @@ export class CasesCaseRuleRuleHiddenConditionsEqualToOutputReference extends cdk
   }
 
   // result - computed: true, optional: true, required: false
-  private _result?: boolean | cdktn.IResolvable;
+  private _result?: boolean | cdktn.IResolvable; 
   public get result() {
     return this.getBooleanAttribute('result');
   }
@@ -582,7 +582,7 @@ export class CasesCaseRuleRuleHiddenConditionsNotEqualToOperandOneOutputReferenc
   }
 
   // field_id - computed: true, optional: true, required: false
-  private _fieldId?: string;
+  private _fieldId?: string; 
   public get fieldId() {
     return this.getStringAttribute('field_id');
   }
@@ -735,7 +735,7 @@ export class CasesCaseRuleRuleHiddenConditionsNotEqualToOperandTwoOutputReferenc
   }
 
   // boolean_value - computed: true, optional: true, required: false
-  private _booleanValue?: boolean | cdktn.IResolvable;
+  private _booleanValue?: boolean | cdktn.IResolvable; 
   public get booleanValue() {
     return this.getBooleanAttribute('boolean_value');
   }
@@ -751,7 +751,7 @@ export class CasesCaseRuleRuleHiddenConditionsNotEqualToOperandTwoOutputReferenc
   }
 
   // double_value - computed: true, optional: true, required: false
-  private _doubleValue?: number;
+  private _doubleValue?: number; 
   public get doubleValue() {
     return this.getNumberAttribute('double_value');
   }
@@ -767,7 +767,7 @@ export class CasesCaseRuleRuleHiddenConditionsNotEqualToOperandTwoOutputReferenc
   }
 
   // empty_value - computed: true, optional: true, required: false
-  private _emptyValue?: string;
+  private _emptyValue?: string; 
   public get emptyValue() {
     return this.getStringAttribute('empty_value');
   }
@@ -783,7 +783,7 @@ export class CasesCaseRuleRuleHiddenConditionsNotEqualToOperandTwoOutputReferenc
   }
 
   // string_value - computed: true, optional: true, required: false
-  private _stringValue?: string;
+  private _stringValue?: string; 
   public get stringValue() {
     return this.getStringAttribute('string_value');
   }
@@ -949,7 +949,7 @@ export class CasesCaseRuleRuleHiddenConditionsNotEqualToOutputReference extends 
   }
 
   // result - computed: true, optional: true, required: false
-  private _result?: boolean | cdktn.IResolvable;
+  private _result?: boolean | cdktn.IResolvable; 
   public get result() {
     return this.getBooleanAttribute('result');
   }
@@ -1233,7 +1233,7 @@ export class CasesCaseRuleRuleHiddenOutputReference extends cdktn.ComplexObject 
   }
 
   // default_value - computed: true, optional: true, required: false
-  private _defaultValue?: boolean | cdktn.IResolvable;
+  private _defaultValue?: boolean | cdktn.IResolvable; 
   public get defaultValue() {
     return this.getBooleanAttribute('default_value');
   }
@@ -1329,7 +1329,7 @@ export class CasesCaseRuleRuleRequiredConditionsEqualToOperandOneOutputReference
   }
 
   // field_id - computed: true, optional: true, required: false
-  private _fieldId?: string;
+  private _fieldId?: string; 
   public get fieldId() {
     return this.getStringAttribute('field_id');
   }
@@ -1482,7 +1482,7 @@ export class CasesCaseRuleRuleRequiredConditionsEqualToOperandTwoOutputReference
   }
 
   // boolean_value - computed: true, optional: true, required: false
-  private _booleanValue?: boolean | cdktn.IResolvable;
+  private _booleanValue?: boolean | cdktn.IResolvable; 
   public get booleanValue() {
     return this.getBooleanAttribute('boolean_value');
   }
@@ -1498,7 +1498,7 @@ export class CasesCaseRuleRuleRequiredConditionsEqualToOperandTwoOutputReference
   }
 
   // double_value - computed: true, optional: true, required: false
-  private _doubleValue?: number;
+  private _doubleValue?: number; 
   public get doubleValue() {
     return this.getNumberAttribute('double_value');
   }
@@ -1514,7 +1514,7 @@ export class CasesCaseRuleRuleRequiredConditionsEqualToOperandTwoOutputReference
   }
 
   // empty_value - computed: true, optional: true, required: false
-  private _emptyValue?: string;
+  private _emptyValue?: string; 
   public get emptyValue() {
     return this.getStringAttribute('empty_value');
   }
@@ -1530,7 +1530,7 @@ export class CasesCaseRuleRuleRequiredConditionsEqualToOperandTwoOutputReference
   }
 
   // string_value - computed: true, optional: true, required: false
-  private _stringValue?: string;
+  private _stringValue?: string; 
   public get stringValue() {
     return this.getStringAttribute('string_value');
   }
@@ -1696,7 +1696,7 @@ export class CasesCaseRuleRuleRequiredConditionsEqualToOutputReference extends c
   }
 
   // result - computed: true, optional: true, required: false
-  private _result?: boolean | cdktn.IResolvable;
+  private _result?: boolean | cdktn.IResolvable; 
   public get result() {
     return this.getBooleanAttribute('result');
   }
@@ -1792,7 +1792,7 @@ export class CasesCaseRuleRuleRequiredConditionsNotEqualToOperandOneOutputRefere
   }
 
   // field_id - computed: true, optional: true, required: false
-  private _fieldId?: string;
+  private _fieldId?: string; 
   public get fieldId() {
     return this.getStringAttribute('field_id');
   }
@@ -1945,7 +1945,7 @@ export class CasesCaseRuleRuleRequiredConditionsNotEqualToOperandTwoOutputRefere
   }
 
   // boolean_value - computed: true, optional: true, required: false
-  private _booleanValue?: boolean | cdktn.IResolvable;
+  private _booleanValue?: boolean | cdktn.IResolvable; 
   public get booleanValue() {
     return this.getBooleanAttribute('boolean_value');
   }
@@ -1961,7 +1961,7 @@ export class CasesCaseRuleRuleRequiredConditionsNotEqualToOperandTwoOutputRefere
   }
 
   // double_value - computed: true, optional: true, required: false
-  private _doubleValue?: number;
+  private _doubleValue?: number; 
   public get doubleValue() {
     return this.getNumberAttribute('double_value');
   }
@@ -1977,7 +1977,7 @@ export class CasesCaseRuleRuleRequiredConditionsNotEqualToOperandTwoOutputRefere
   }
 
   // empty_value - computed: true, optional: true, required: false
-  private _emptyValue?: string;
+  private _emptyValue?: string; 
   public get emptyValue() {
     return this.getStringAttribute('empty_value');
   }
@@ -1993,7 +1993,7 @@ export class CasesCaseRuleRuleRequiredConditionsNotEqualToOperandTwoOutputRefere
   }
 
   // string_value - computed: true, optional: true, required: false
-  private _stringValue?: string;
+  private _stringValue?: string; 
   public get stringValue() {
     return this.getStringAttribute('string_value');
   }
@@ -2159,7 +2159,7 @@ export class CasesCaseRuleRuleRequiredConditionsNotEqualToOutputReference extend
   }
 
   // result - computed: true, optional: true, required: false
-  private _result?: boolean | cdktn.IResolvable;
+  private _result?: boolean | cdktn.IResolvable; 
   public get result() {
     return this.getBooleanAttribute('result');
   }
@@ -2443,7 +2443,7 @@ export class CasesCaseRuleRuleRequiredOutputReference extends cdktn.ComplexObjec
   }
 
   // default_value - computed: true, optional: true, required: false
-  private _defaultValue?: boolean | cdktn.IResolvable;
+  private _defaultValue?: boolean | cdktn.IResolvable; 
   public get defaultValue() {
     return this.getBooleanAttribute('default_value');
   }
@@ -2691,7 +2691,7 @@ export class CasesCaseRuleTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -2707,7 +2707,7 @@ export class CasesCaseRuleTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2820,7 +2820,7 @@ export class CasesCaseRule extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -2836,7 +2836,7 @@ export class CasesCaseRule extends cdktn.TerraformResource {
   }
 
   // domain_id - computed: true, optional: true, required: false
-  private _domainId?: string;
+  private _domainId?: string; 
   public get domainId() {
     return this.getStringAttribute('domain_id');
   }
@@ -2862,7 +2862,7 @@ export class CasesCaseRule extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }

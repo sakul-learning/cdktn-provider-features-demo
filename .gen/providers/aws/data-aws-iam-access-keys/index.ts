@@ -170,7 +170,7 @@ export class DataAwsIamAccessKeys extends cdktn.TerraformDataSource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -186,7 +186,7 @@ export class DataAwsIamAccessKeys extends cdktn.TerraformDataSource {
   }
 
   // user - computed: false, optional: false, required: true
-  private _user?: string;
+  private _user?: string; 
   public get user() {
     return this.getStringAttribute('user');
   }

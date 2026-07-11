@@ -97,7 +97,7 @@ export class SecurityhubInsightFiltersAwsAccountIdOutputReference extends cdktn.
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string;
+  private _comparison?: string; 
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -110,7 +110,7 @@ export class SecurityhubInsightFiltersAwsAccountIdOutputReference extends cdktn.
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -240,7 +240,7 @@ export class SecurityhubInsightFiltersAwsAccountNameOutputReference extends cdkt
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string;
+  private _comparison?: string; 
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -253,7 +253,7 @@ export class SecurityhubInsightFiltersAwsAccountNameOutputReference extends cdkt
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -383,7 +383,7 @@ export class SecurityhubInsightFiltersCompanyNameOutputReference extends cdktn.C
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string;
+  private _comparison?: string; 
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -396,7 +396,7 @@ export class SecurityhubInsightFiltersCompanyNameOutputReference extends cdktn.C
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -526,7 +526,7 @@ export class SecurityhubInsightFiltersComplianceAssociatedStandardsIdOutputRefer
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string;
+  private _comparison?: string; 
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -539,7 +539,7 @@ export class SecurityhubInsightFiltersComplianceAssociatedStandardsIdOutputRefer
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -669,7 +669,7 @@ export class SecurityhubInsightFiltersComplianceSecurityControlIdOutputReference
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string;
+  private _comparison?: string; 
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -682,7 +682,7 @@ export class SecurityhubInsightFiltersComplianceSecurityControlIdOutputReference
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -812,7 +812,7 @@ export class SecurityhubInsightFiltersComplianceSecurityControlParametersNameOut
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string;
+  private _comparison?: string; 
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -825,7 +825,7 @@ export class SecurityhubInsightFiltersComplianceSecurityControlParametersNameOut
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -955,7 +955,7 @@ export class SecurityhubInsightFiltersComplianceSecurityControlParametersValueOu
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string;
+  private _comparison?: string; 
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -968,7 +968,7 @@ export class SecurityhubInsightFiltersComplianceSecurityControlParametersValueOu
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1098,7 +1098,7 @@ export class SecurityhubInsightFiltersComplianceStatusOutputReference extends cd
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string;
+  private _comparison?: string; 
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -1111,7 +1111,7 @@ export class SecurityhubInsightFiltersComplianceStatusOutputReference extends cd
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1258,7 +1258,7 @@ export class SecurityhubInsightFiltersConfidenceOutputReference extends cdktn.Co
   }
 
   // eq - computed: false, optional: true, required: false
-  private _eq?: string;
+  private _eq?: string; 
   public get eq() {
     return this.getStringAttribute('eq');
   }
@@ -1274,7 +1274,7 @@ export class SecurityhubInsightFiltersConfidenceOutputReference extends cdktn.Co
   }
 
   // gte - computed: false, optional: true, required: false
-  private _gte?: string;
+  private _gte?: string; 
   public get gte() {
     return this.getStringAttribute('gte');
   }
@@ -1290,7 +1290,7 @@ export class SecurityhubInsightFiltersConfidenceOutputReference extends cdktn.Co
   }
 
   // lte - computed: false, optional: true, required: false
-  private _lte?: string;
+  private _lte?: string; 
   public get lte() {
     return this.getStringAttribute('lte');
   }
@@ -1411,7 +1411,7 @@ export class SecurityhubInsightFiltersCreatedAtDateRangeOutputReference extends 
   }
 
   // unit - computed: false, optional: false, required: true
-  private _unit?: string;
+  private _unit?: string; 
   public get unit() {
     return this.getStringAttribute('unit');
   }
@@ -1424,7 +1424,7 @@ export class SecurityhubInsightFiltersCreatedAtDateRangeOutputReference extends 
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: number;
+  private _value?: number; 
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -1553,7 +1553,7 @@ export class SecurityhubInsightFiltersCreatedAtOutputReference extends cdktn.Com
   }
 
   // end - computed: false, optional: true, required: false
-  private _end?: string;
+  private _end?: string; 
   public get end() {
     return this.getStringAttribute('end');
   }
@@ -1569,7 +1569,7 @@ export class SecurityhubInsightFiltersCreatedAtOutputReference extends cdktn.Com
   }
 
   // start - computed: false, optional: true, required: false
-  private _start?: string;
+  private _start?: string; 
   public get start() {
     return this.getStringAttribute('start');
   }
@@ -1735,7 +1735,7 @@ export class SecurityhubInsightFiltersCriticalityOutputReference extends cdktn.C
   }
 
   // eq - computed: false, optional: true, required: false
-  private _eq?: string;
+  private _eq?: string; 
   public get eq() {
     return this.getStringAttribute('eq');
   }
@@ -1751,7 +1751,7 @@ export class SecurityhubInsightFiltersCriticalityOutputReference extends cdktn.C
   }
 
   // gte - computed: false, optional: true, required: false
-  private _gte?: string;
+  private _gte?: string; 
   public get gte() {
     return this.getStringAttribute('gte');
   }
@@ -1767,7 +1767,7 @@ export class SecurityhubInsightFiltersCriticalityOutputReference extends cdktn.C
   }
 
   // lte - computed: false, optional: true, required: false
-  private _lte?: string;
+  private _lte?: string; 
   public get lte() {
     return this.getStringAttribute('lte');
   }
@@ -1900,7 +1900,7 @@ export class SecurityhubInsightFiltersDescriptionOutputReference extends cdktn.C
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string;
+  private _comparison?: string; 
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -1913,7 +1913,7 @@ export class SecurityhubInsightFiltersDescriptionOutputReference extends cdktn.C
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2060,7 +2060,7 @@ export class SecurityhubInsightFiltersFindingProviderFieldsConfidenceOutputRefer
   }
 
   // eq - computed: false, optional: true, required: false
-  private _eq?: string;
+  private _eq?: string; 
   public get eq() {
     return this.getStringAttribute('eq');
   }
@@ -2076,7 +2076,7 @@ export class SecurityhubInsightFiltersFindingProviderFieldsConfidenceOutputRefer
   }
 
   // gte - computed: false, optional: true, required: false
-  private _gte?: string;
+  private _gte?: string; 
   public get gte() {
     return this.getStringAttribute('gte');
   }
@@ -2092,7 +2092,7 @@ export class SecurityhubInsightFiltersFindingProviderFieldsConfidenceOutputRefer
   }
 
   // lte - computed: false, optional: true, required: false
-  private _lte?: string;
+  private _lte?: string; 
   public get lte() {
     return this.getStringAttribute('lte');
   }
@@ -2242,7 +2242,7 @@ export class SecurityhubInsightFiltersFindingProviderFieldsCriticalityOutputRefe
   }
 
   // eq - computed: false, optional: true, required: false
-  private _eq?: string;
+  private _eq?: string; 
   public get eq() {
     return this.getStringAttribute('eq');
   }
@@ -2258,7 +2258,7 @@ export class SecurityhubInsightFiltersFindingProviderFieldsCriticalityOutputRefe
   }
 
   // gte - computed: false, optional: true, required: false
-  private _gte?: string;
+  private _gte?: string; 
   public get gte() {
     return this.getStringAttribute('gte');
   }
@@ -2274,7 +2274,7 @@ export class SecurityhubInsightFiltersFindingProviderFieldsCriticalityOutputRefe
   }
 
   // lte - computed: false, optional: true, required: false
-  private _lte?: string;
+  private _lte?: string; 
   public get lte() {
     return this.getStringAttribute('lte');
   }
@@ -2407,7 +2407,7 @@ export class SecurityhubInsightFiltersFindingProviderFieldsRelatedFindingsIdOutp
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string;
+  private _comparison?: string; 
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -2420,7 +2420,7 @@ export class SecurityhubInsightFiltersFindingProviderFieldsRelatedFindingsIdOutp
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2550,7 +2550,7 @@ export class SecurityhubInsightFiltersFindingProviderFieldsRelatedFindingsProduc
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string;
+  private _comparison?: string; 
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -2563,7 +2563,7 @@ export class SecurityhubInsightFiltersFindingProviderFieldsRelatedFindingsProduc
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2693,7 +2693,7 @@ export class SecurityhubInsightFiltersFindingProviderFieldsSeverityLabelOutputRe
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string;
+  private _comparison?: string; 
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -2706,7 +2706,7 @@ export class SecurityhubInsightFiltersFindingProviderFieldsSeverityLabelOutputRe
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2836,7 +2836,7 @@ export class SecurityhubInsightFiltersFindingProviderFieldsSeverityOriginalOutpu
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string;
+  private _comparison?: string; 
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -2849,7 +2849,7 @@ export class SecurityhubInsightFiltersFindingProviderFieldsSeverityOriginalOutpu
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2979,7 +2979,7 @@ export class SecurityhubInsightFiltersFindingProviderFieldsTypesOutputReference 
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string;
+  private _comparison?: string; 
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -2992,7 +2992,7 @@ export class SecurityhubInsightFiltersFindingProviderFieldsTypesOutputReference 
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -3110,7 +3110,7 @@ export class SecurityhubInsightFiltersFirstObservedAtDateRangeOutputReference ex
   }
 
   // unit - computed: false, optional: false, required: true
-  private _unit?: string;
+  private _unit?: string; 
   public get unit() {
     return this.getStringAttribute('unit');
   }
@@ -3123,7 +3123,7 @@ export class SecurityhubInsightFiltersFirstObservedAtDateRangeOutputReference ex
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: number;
+  private _value?: number; 
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -3252,7 +3252,7 @@ export class SecurityhubInsightFiltersFirstObservedAtOutputReference extends cdk
   }
 
   // end - computed: false, optional: true, required: false
-  private _end?: string;
+  private _end?: string; 
   public get end() {
     return this.getStringAttribute('end');
   }
@@ -3268,7 +3268,7 @@ export class SecurityhubInsightFiltersFirstObservedAtOutputReference extends cdk
   }
 
   // start - computed: false, optional: true, required: false
-  private _start?: string;
+  private _start?: string; 
   public get start() {
     return this.getStringAttribute('start');
   }
@@ -3417,7 +3417,7 @@ export class SecurityhubInsightFiltersGeneratorIdOutputReference extends cdktn.C
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string;
+  private _comparison?: string; 
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -3430,7 +3430,7 @@ export class SecurityhubInsightFiltersGeneratorIdOutputReference extends cdktn.C
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -3560,7 +3560,7 @@ export class SecurityhubInsightFiltersIdOutputReference extends cdktn.ComplexObj
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string;
+  private _comparison?: string; 
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -3573,7 +3573,7 @@ export class SecurityhubInsightFiltersIdOutputReference extends cdktn.ComplexObj
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -3686,7 +3686,7 @@ export class SecurityhubInsightFiltersKeywordOutputReference extends cdktn.Compl
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -3804,7 +3804,7 @@ export class SecurityhubInsightFiltersLastObservedAtDateRangeOutputReference ext
   }
 
   // unit - computed: false, optional: false, required: true
-  private _unit?: string;
+  private _unit?: string; 
   public get unit() {
     return this.getStringAttribute('unit');
   }
@@ -3817,7 +3817,7 @@ export class SecurityhubInsightFiltersLastObservedAtDateRangeOutputReference ext
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: number;
+  private _value?: number; 
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -3946,7 +3946,7 @@ export class SecurityhubInsightFiltersLastObservedAtOutputReference extends cdkt
   }
 
   // end - computed: false, optional: true, required: false
-  private _end?: string;
+  private _end?: string; 
   public get end() {
     return this.getStringAttribute('end');
   }
@@ -3962,7 +3962,7 @@ export class SecurityhubInsightFiltersLastObservedAtOutputReference extends cdkt
   }
 
   // start - computed: false, optional: true, required: false
-  private _start?: string;
+  private _start?: string; 
   public get start() {
     return this.getStringAttribute('start');
   }
@@ -4111,7 +4111,7 @@ export class SecurityhubInsightFiltersMalwareNameOutputReference extends cdktn.C
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string;
+  private _comparison?: string; 
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -4124,7 +4124,7 @@ export class SecurityhubInsightFiltersMalwareNameOutputReference extends cdktn.C
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -4254,7 +4254,7 @@ export class SecurityhubInsightFiltersMalwarePathOutputReference extends cdktn.C
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string;
+  private _comparison?: string; 
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -4267,7 +4267,7 @@ export class SecurityhubInsightFiltersMalwarePathOutputReference extends cdktn.C
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -4397,7 +4397,7 @@ export class SecurityhubInsightFiltersMalwareStateOutputReference extends cdktn.
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string;
+  private _comparison?: string; 
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -4410,7 +4410,7 @@ export class SecurityhubInsightFiltersMalwareStateOutputReference extends cdktn.
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -4540,7 +4540,7 @@ export class SecurityhubInsightFiltersMalwareTypeOutputReference extends cdktn.C
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string;
+  private _comparison?: string; 
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -4553,7 +4553,7 @@ export class SecurityhubInsightFiltersMalwareTypeOutputReference extends cdktn.C
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -4683,7 +4683,7 @@ export class SecurityhubInsightFiltersNetworkDestinationDomainOutputReference ex
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string;
+  private _comparison?: string; 
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -4696,7 +4696,7 @@ export class SecurityhubInsightFiltersNetworkDestinationDomainOutputReference ex
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -4809,7 +4809,7 @@ export class SecurityhubInsightFiltersNetworkDestinationIpv4OutputReference exte
   }
 
   // cidr - computed: false, optional: false, required: true
-  private _cidr?: string;
+  private _cidr?: string; 
   public get cidr() {
     return this.getStringAttribute('cidr');
   }
@@ -4922,7 +4922,7 @@ export class SecurityhubInsightFiltersNetworkDestinationIpv6OutputReference exte
   }
 
   // cidr - computed: false, optional: false, required: true
-  private _cidr?: string;
+  private _cidr?: string; 
   public get cidr() {
     return this.getStringAttribute('cidr');
   }
@@ -5069,7 +5069,7 @@ export class SecurityhubInsightFiltersNetworkDestinationPortOutputReference exte
   }
 
   // eq - computed: false, optional: true, required: false
-  private _eq?: string;
+  private _eq?: string; 
   public get eq() {
     return this.getStringAttribute('eq');
   }
@@ -5085,7 +5085,7 @@ export class SecurityhubInsightFiltersNetworkDestinationPortOutputReference exte
   }
 
   // gte - computed: false, optional: true, required: false
-  private _gte?: string;
+  private _gte?: string; 
   public get gte() {
     return this.getStringAttribute('gte');
   }
@@ -5101,7 +5101,7 @@ export class SecurityhubInsightFiltersNetworkDestinationPortOutputReference exte
   }
 
   // lte - computed: false, optional: true, required: false
-  private _lte?: string;
+  private _lte?: string; 
   public get lte() {
     return this.getStringAttribute('lte');
   }
@@ -5234,7 +5234,7 @@ export class SecurityhubInsightFiltersNetworkDirectionOutputReference extends cd
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string;
+  private _comparison?: string; 
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -5247,7 +5247,7 @@ export class SecurityhubInsightFiltersNetworkDirectionOutputReference extends cd
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -5377,7 +5377,7 @@ export class SecurityhubInsightFiltersNetworkProtocolOutputReference extends cdk
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string;
+  private _comparison?: string; 
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -5390,7 +5390,7 @@ export class SecurityhubInsightFiltersNetworkProtocolOutputReference extends cdk
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -5520,7 +5520,7 @@ export class SecurityhubInsightFiltersNetworkSourceDomainOutputReference extends
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string;
+  private _comparison?: string; 
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -5533,7 +5533,7 @@ export class SecurityhubInsightFiltersNetworkSourceDomainOutputReference extends
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -5646,7 +5646,7 @@ export class SecurityhubInsightFiltersNetworkSourceIpv4OutputReference extends c
   }
 
   // cidr - computed: false, optional: false, required: true
-  private _cidr?: string;
+  private _cidr?: string; 
   public get cidr() {
     return this.getStringAttribute('cidr');
   }
@@ -5759,7 +5759,7 @@ export class SecurityhubInsightFiltersNetworkSourceIpv6OutputReference extends c
   }
 
   // cidr - computed: false, optional: false, required: true
-  private _cidr?: string;
+  private _cidr?: string; 
   public get cidr() {
     return this.getStringAttribute('cidr');
   }
@@ -5889,7 +5889,7 @@ export class SecurityhubInsightFiltersNetworkSourceMacOutputReference extends cd
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string;
+  private _comparison?: string; 
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -5902,7 +5902,7 @@ export class SecurityhubInsightFiltersNetworkSourceMacOutputReference extends cd
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -6049,7 +6049,7 @@ export class SecurityhubInsightFiltersNetworkSourcePortOutputReference extends c
   }
 
   // eq - computed: false, optional: true, required: false
-  private _eq?: string;
+  private _eq?: string; 
   public get eq() {
     return this.getStringAttribute('eq');
   }
@@ -6065,7 +6065,7 @@ export class SecurityhubInsightFiltersNetworkSourcePortOutputReference extends c
   }
 
   // gte - computed: false, optional: true, required: false
-  private _gte?: string;
+  private _gte?: string; 
   public get gte() {
     return this.getStringAttribute('gte');
   }
@@ -6081,7 +6081,7 @@ export class SecurityhubInsightFiltersNetworkSourcePortOutputReference extends c
   }
 
   // lte - computed: false, optional: true, required: false
-  private _lte?: string;
+  private _lte?: string; 
   public get lte() {
     return this.getStringAttribute('lte');
   }
@@ -6214,7 +6214,7 @@ export class SecurityhubInsightFiltersNoteTextOutputReference extends cdktn.Comp
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string;
+  private _comparison?: string; 
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -6227,7 +6227,7 @@ export class SecurityhubInsightFiltersNoteTextOutputReference extends cdktn.Comp
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -6345,7 +6345,7 @@ export class SecurityhubInsightFiltersNoteUpdatedAtDateRangeOutputReference exte
   }
 
   // unit - computed: false, optional: false, required: true
-  private _unit?: string;
+  private _unit?: string; 
   public get unit() {
     return this.getStringAttribute('unit');
   }
@@ -6358,7 +6358,7 @@ export class SecurityhubInsightFiltersNoteUpdatedAtDateRangeOutputReference exte
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: number;
+  private _value?: number; 
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -6487,7 +6487,7 @@ export class SecurityhubInsightFiltersNoteUpdatedAtOutputReference extends cdktn
   }
 
   // end - computed: false, optional: true, required: false
-  private _end?: string;
+  private _end?: string; 
   public get end() {
     return this.getStringAttribute('end');
   }
@@ -6503,7 +6503,7 @@ export class SecurityhubInsightFiltersNoteUpdatedAtOutputReference extends cdktn
   }
 
   // start - computed: false, optional: true, required: false
-  private _start?: string;
+  private _start?: string; 
   public get start() {
     return this.getStringAttribute('start');
   }
@@ -6652,7 +6652,7 @@ export class SecurityhubInsightFiltersNoteUpdatedByOutputReference extends cdktn
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string;
+  private _comparison?: string; 
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -6665,7 +6665,7 @@ export class SecurityhubInsightFiltersNoteUpdatedByOutputReference extends cdktn
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -6783,7 +6783,7 @@ export class SecurityhubInsightFiltersProcessLaunchedAtDateRangeOutputReference 
   }
 
   // unit - computed: false, optional: false, required: true
-  private _unit?: string;
+  private _unit?: string; 
   public get unit() {
     return this.getStringAttribute('unit');
   }
@@ -6796,7 +6796,7 @@ export class SecurityhubInsightFiltersProcessLaunchedAtDateRangeOutputReference 
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: number;
+  private _value?: number; 
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -6925,7 +6925,7 @@ export class SecurityhubInsightFiltersProcessLaunchedAtOutputReference extends c
   }
 
   // end - computed: false, optional: true, required: false
-  private _end?: string;
+  private _end?: string; 
   public get end() {
     return this.getStringAttribute('end');
   }
@@ -6941,7 +6941,7 @@ export class SecurityhubInsightFiltersProcessLaunchedAtOutputReference extends c
   }
 
   // start - computed: false, optional: true, required: false
-  private _start?: string;
+  private _start?: string; 
   public get start() {
     return this.getStringAttribute('start');
   }
@@ -7090,7 +7090,7 @@ export class SecurityhubInsightFiltersProcessNameOutputReference extends cdktn.C
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string;
+  private _comparison?: string; 
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -7103,7 +7103,7 @@ export class SecurityhubInsightFiltersProcessNameOutputReference extends cdktn.C
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -7250,7 +7250,7 @@ export class SecurityhubInsightFiltersProcessParentPidOutputReference extends cd
   }
 
   // eq - computed: false, optional: true, required: false
-  private _eq?: string;
+  private _eq?: string; 
   public get eq() {
     return this.getStringAttribute('eq');
   }
@@ -7266,7 +7266,7 @@ export class SecurityhubInsightFiltersProcessParentPidOutputReference extends cd
   }
 
   // gte - computed: false, optional: true, required: false
-  private _gte?: string;
+  private _gte?: string; 
   public get gte() {
     return this.getStringAttribute('gte');
   }
@@ -7282,7 +7282,7 @@ export class SecurityhubInsightFiltersProcessParentPidOutputReference extends cd
   }
 
   // lte - computed: false, optional: true, required: false
-  private _lte?: string;
+  private _lte?: string; 
   public get lte() {
     return this.getStringAttribute('lte');
   }
@@ -7415,7 +7415,7 @@ export class SecurityhubInsightFiltersProcessPathOutputReference extends cdktn.C
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string;
+  private _comparison?: string; 
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -7428,7 +7428,7 @@ export class SecurityhubInsightFiltersProcessPathOutputReference extends cdktn.C
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -7575,7 +7575,7 @@ export class SecurityhubInsightFiltersProcessPidOutputReference extends cdktn.Co
   }
 
   // eq - computed: false, optional: true, required: false
-  private _eq?: string;
+  private _eq?: string; 
   public get eq() {
     return this.getStringAttribute('eq');
   }
@@ -7591,7 +7591,7 @@ export class SecurityhubInsightFiltersProcessPidOutputReference extends cdktn.Co
   }
 
   // gte - computed: false, optional: true, required: false
-  private _gte?: string;
+  private _gte?: string; 
   public get gte() {
     return this.getStringAttribute('gte');
   }
@@ -7607,7 +7607,7 @@ export class SecurityhubInsightFiltersProcessPidOutputReference extends cdktn.Co
   }
 
   // lte - computed: false, optional: true, required: false
-  private _lte?: string;
+  private _lte?: string; 
   public get lte() {
     return this.getStringAttribute('lte');
   }
@@ -7728,7 +7728,7 @@ export class SecurityhubInsightFiltersProcessTerminatedAtDateRangeOutputReferenc
   }
 
   // unit - computed: false, optional: false, required: true
-  private _unit?: string;
+  private _unit?: string; 
   public get unit() {
     return this.getStringAttribute('unit');
   }
@@ -7741,7 +7741,7 @@ export class SecurityhubInsightFiltersProcessTerminatedAtDateRangeOutputReferenc
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: number;
+  private _value?: number; 
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -7870,7 +7870,7 @@ export class SecurityhubInsightFiltersProcessTerminatedAtOutputReference extends
   }
 
   // end - computed: false, optional: true, required: false
-  private _end?: string;
+  private _end?: string; 
   public get end() {
     return this.getStringAttribute('end');
   }
@@ -7886,7 +7886,7 @@ export class SecurityhubInsightFiltersProcessTerminatedAtOutputReference extends
   }
 
   // start - computed: false, optional: true, required: false
-  private _start?: string;
+  private _start?: string; 
   public get start() {
     return this.getStringAttribute('start');
   }
@@ -8035,7 +8035,7 @@ export class SecurityhubInsightFiltersProductArnOutputReference extends cdktn.Co
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string;
+  private _comparison?: string; 
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -8048,7 +8048,7 @@ export class SecurityhubInsightFiltersProductArnOutputReference extends cdktn.Co
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -8195,7 +8195,7 @@ export class SecurityhubInsightFiltersProductFieldsOutputReference extends cdktn
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string;
+  private _comparison?: string; 
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -8208,7 +8208,7 @@ export class SecurityhubInsightFiltersProductFieldsOutputReference extends cdktn
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -8221,7 +8221,7 @@ export class SecurityhubInsightFiltersProductFieldsOutputReference extends cdktn
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -8351,7 +8351,7 @@ export class SecurityhubInsightFiltersProductNameOutputReference extends cdktn.C
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string;
+  private _comparison?: string; 
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -8364,7 +8364,7 @@ export class SecurityhubInsightFiltersProductNameOutputReference extends cdktn.C
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -8494,7 +8494,7 @@ export class SecurityhubInsightFiltersRecommendationTextOutputReference extends 
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string;
+  private _comparison?: string; 
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -8507,7 +8507,7 @@ export class SecurityhubInsightFiltersRecommendationTextOutputReference extends 
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -8637,7 +8637,7 @@ export class SecurityhubInsightFiltersRecordStateOutputReference extends cdktn.C
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string;
+  private _comparison?: string; 
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -8650,7 +8650,7 @@ export class SecurityhubInsightFiltersRecordStateOutputReference extends cdktn.C
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -8780,7 +8780,7 @@ export class SecurityhubInsightFiltersRelatedFindingsIdOutputReference extends c
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string;
+  private _comparison?: string; 
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -8793,7 +8793,7 @@ export class SecurityhubInsightFiltersRelatedFindingsIdOutputReference extends c
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -8923,7 +8923,7 @@ export class SecurityhubInsightFiltersRelatedFindingsProductArnOutputReference e
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string;
+  private _comparison?: string; 
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -8936,7 +8936,7 @@ export class SecurityhubInsightFiltersRelatedFindingsProductArnOutputReference e
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -9066,7 +9066,7 @@ export class SecurityhubInsightFiltersResourceAwsEc2InstanceIamInstanceProfileAr
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string;
+  private _comparison?: string; 
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -9079,7 +9079,7 @@ export class SecurityhubInsightFiltersResourceAwsEc2InstanceIamInstanceProfileAr
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -9209,7 +9209,7 @@ export class SecurityhubInsightFiltersResourceAwsEc2InstanceImageIdOutputReferen
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string;
+  private _comparison?: string; 
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -9222,7 +9222,7 @@ export class SecurityhubInsightFiltersResourceAwsEc2InstanceImageIdOutputReferen
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -9335,7 +9335,7 @@ export class SecurityhubInsightFiltersResourceAwsEc2InstanceIpv4AddressesOutputR
   }
 
   // cidr - computed: false, optional: false, required: true
-  private _cidr?: string;
+  private _cidr?: string; 
   public get cidr() {
     return this.getStringAttribute('cidr');
   }
@@ -9448,7 +9448,7 @@ export class SecurityhubInsightFiltersResourceAwsEc2InstanceIpv6AddressesOutputR
   }
 
   // cidr - computed: false, optional: false, required: true
-  private _cidr?: string;
+  private _cidr?: string; 
   public get cidr() {
     return this.getStringAttribute('cidr');
   }
@@ -9578,7 +9578,7 @@ export class SecurityhubInsightFiltersResourceAwsEc2InstanceKeyNameOutputReferen
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string;
+  private _comparison?: string; 
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -9591,7 +9591,7 @@ export class SecurityhubInsightFiltersResourceAwsEc2InstanceKeyNameOutputReferen
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -9709,7 +9709,7 @@ export class SecurityhubInsightFiltersResourceAwsEc2InstanceLaunchedAtDateRangeO
   }
 
   // unit - computed: false, optional: false, required: true
-  private _unit?: string;
+  private _unit?: string; 
   public get unit() {
     return this.getStringAttribute('unit');
   }
@@ -9722,7 +9722,7 @@ export class SecurityhubInsightFiltersResourceAwsEc2InstanceLaunchedAtDateRangeO
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: number;
+  private _value?: number; 
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -9851,7 +9851,7 @@ export class SecurityhubInsightFiltersResourceAwsEc2InstanceLaunchedAtOutputRefe
   }
 
   // end - computed: false, optional: true, required: false
-  private _end?: string;
+  private _end?: string; 
   public get end() {
     return this.getStringAttribute('end');
   }
@@ -9867,7 +9867,7 @@ export class SecurityhubInsightFiltersResourceAwsEc2InstanceLaunchedAtOutputRefe
   }
 
   // start - computed: false, optional: true, required: false
-  private _start?: string;
+  private _start?: string; 
   public get start() {
     return this.getStringAttribute('start');
   }
@@ -10016,7 +10016,7 @@ export class SecurityhubInsightFiltersResourceAwsEc2InstanceSubnetIdOutputRefere
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string;
+  private _comparison?: string; 
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -10029,7 +10029,7 @@ export class SecurityhubInsightFiltersResourceAwsEc2InstanceSubnetIdOutputRefere
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -10159,7 +10159,7 @@ export class SecurityhubInsightFiltersResourceAwsEc2InstanceTypeOutputReference 
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string;
+  private _comparison?: string; 
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -10172,7 +10172,7 @@ export class SecurityhubInsightFiltersResourceAwsEc2InstanceTypeOutputReference 
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -10302,7 +10302,7 @@ export class SecurityhubInsightFiltersResourceAwsEc2InstanceVpcIdOutputReference
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string;
+  private _comparison?: string; 
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -10315,7 +10315,7 @@ export class SecurityhubInsightFiltersResourceAwsEc2InstanceVpcIdOutputReference
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -10433,7 +10433,7 @@ export class SecurityhubInsightFiltersResourceAwsIamAccessKeyCreatedAtDateRangeO
   }
 
   // unit - computed: false, optional: false, required: true
-  private _unit?: string;
+  private _unit?: string; 
   public get unit() {
     return this.getStringAttribute('unit');
   }
@@ -10446,7 +10446,7 @@ export class SecurityhubInsightFiltersResourceAwsIamAccessKeyCreatedAtDateRangeO
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: number;
+  private _value?: number; 
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -10575,7 +10575,7 @@ export class SecurityhubInsightFiltersResourceAwsIamAccessKeyCreatedAtOutputRefe
   }
 
   // end - computed: false, optional: true, required: false
-  private _end?: string;
+  private _end?: string; 
   public get end() {
     return this.getStringAttribute('end');
   }
@@ -10591,7 +10591,7 @@ export class SecurityhubInsightFiltersResourceAwsIamAccessKeyCreatedAtOutputRefe
   }
 
   // start - computed: false, optional: true, required: false
-  private _start?: string;
+  private _start?: string; 
   public get start() {
     return this.getStringAttribute('start');
   }
@@ -10740,7 +10740,7 @@ export class SecurityhubInsightFiltersResourceAwsIamAccessKeyStatusOutputReferen
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string;
+  private _comparison?: string; 
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -10753,7 +10753,7 @@ export class SecurityhubInsightFiltersResourceAwsIamAccessKeyStatusOutputReferen
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -10883,7 +10883,7 @@ export class SecurityhubInsightFiltersResourceAwsIamAccessKeyUserNameOutputRefer
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string;
+  private _comparison?: string; 
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -10896,7 +10896,7 @@ export class SecurityhubInsightFiltersResourceAwsIamAccessKeyUserNameOutputRefer
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -11026,7 +11026,7 @@ export class SecurityhubInsightFiltersResourceAwsS3BucketOwnerIdOutputReference 
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string;
+  private _comparison?: string; 
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -11039,7 +11039,7 @@ export class SecurityhubInsightFiltersResourceAwsS3BucketOwnerIdOutputReference 
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -11169,7 +11169,7 @@ export class SecurityhubInsightFiltersResourceAwsS3BucketOwnerNameOutputReferenc
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string;
+  private _comparison?: string; 
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -11182,7 +11182,7 @@ export class SecurityhubInsightFiltersResourceAwsS3BucketOwnerNameOutputReferenc
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -11312,7 +11312,7 @@ export class SecurityhubInsightFiltersResourceContainerImageIdOutputReference ex
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string;
+  private _comparison?: string; 
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -11325,7 +11325,7 @@ export class SecurityhubInsightFiltersResourceContainerImageIdOutputReference ex
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -11455,7 +11455,7 @@ export class SecurityhubInsightFiltersResourceContainerImageNameOutputReference 
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string;
+  private _comparison?: string; 
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -11468,7 +11468,7 @@ export class SecurityhubInsightFiltersResourceContainerImageNameOutputReference 
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -11586,7 +11586,7 @@ export class SecurityhubInsightFiltersResourceContainerLaunchedAtDateRangeOutput
   }
 
   // unit - computed: false, optional: false, required: true
-  private _unit?: string;
+  private _unit?: string; 
   public get unit() {
     return this.getStringAttribute('unit');
   }
@@ -11599,7 +11599,7 @@ export class SecurityhubInsightFiltersResourceContainerLaunchedAtDateRangeOutput
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: number;
+  private _value?: number; 
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -11728,7 +11728,7 @@ export class SecurityhubInsightFiltersResourceContainerLaunchedAtOutputReference
   }
 
   // end - computed: false, optional: true, required: false
-  private _end?: string;
+  private _end?: string; 
   public get end() {
     return this.getStringAttribute('end');
   }
@@ -11744,7 +11744,7 @@ export class SecurityhubInsightFiltersResourceContainerLaunchedAtOutputReference
   }
 
   // start - computed: false, optional: true, required: false
-  private _start?: string;
+  private _start?: string; 
   public get start() {
     return this.getStringAttribute('start');
   }
@@ -11893,7 +11893,7 @@ export class SecurityhubInsightFiltersResourceContainerNameOutputReference exten
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string;
+  private _comparison?: string; 
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -11906,7 +11906,7 @@ export class SecurityhubInsightFiltersResourceContainerNameOutputReference exten
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -12053,7 +12053,7 @@ export class SecurityhubInsightFiltersResourceDetailsOtherOutputReference extend
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string;
+  private _comparison?: string; 
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -12066,7 +12066,7 @@ export class SecurityhubInsightFiltersResourceDetailsOtherOutputReference extend
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -12079,7 +12079,7 @@ export class SecurityhubInsightFiltersResourceDetailsOtherOutputReference extend
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -12209,7 +12209,7 @@ export class SecurityhubInsightFiltersResourceIdOutputReference extends cdktn.Co
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string;
+  private _comparison?: string; 
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -12222,7 +12222,7 @@ export class SecurityhubInsightFiltersResourceIdOutputReference extends cdktn.Co
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -12352,7 +12352,7 @@ export class SecurityhubInsightFiltersResourcePartitionOutputReference extends c
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string;
+  private _comparison?: string; 
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -12365,7 +12365,7 @@ export class SecurityhubInsightFiltersResourcePartitionOutputReference extends c
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -12495,7 +12495,7 @@ export class SecurityhubInsightFiltersResourceRegionOutputReference extends cdkt
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string;
+  private _comparison?: string; 
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -12508,7 +12508,7 @@ export class SecurityhubInsightFiltersResourceRegionOutputReference extends cdkt
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -12655,7 +12655,7 @@ export class SecurityhubInsightFiltersResourceTagsOutputReference extends cdktn.
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string;
+  private _comparison?: string; 
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -12668,7 +12668,7 @@ export class SecurityhubInsightFiltersResourceTagsOutputReference extends cdktn.
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -12681,7 +12681,7 @@ export class SecurityhubInsightFiltersResourceTagsOutputReference extends cdktn.
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -12811,7 +12811,7 @@ export class SecurityhubInsightFiltersResourceTypeOutputReference extends cdktn.
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string;
+  private _comparison?: string; 
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -12824,7 +12824,7 @@ export class SecurityhubInsightFiltersResourceTypeOutputReference extends cdktn.
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -12954,7 +12954,7 @@ export class SecurityhubInsightFiltersSeverityLabelOutputReference extends cdktn
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string;
+  private _comparison?: string; 
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -12967,7 +12967,7 @@ export class SecurityhubInsightFiltersSeverityLabelOutputReference extends cdktn
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -13097,7 +13097,7 @@ export class SecurityhubInsightFiltersSourceUrlOutputReference extends cdktn.Com
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string;
+  private _comparison?: string; 
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -13110,7 +13110,7 @@ export class SecurityhubInsightFiltersSourceUrlOutputReference extends cdktn.Com
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -13240,7 +13240,7 @@ export class SecurityhubInsightFiltersThreatIntelIndicatorCategoryOutputReferenc
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string;
+  private _comparison?: string; 
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -13253,7 +13253,7 @@ export class SecurityhubInsightFiltersThreatIntelIndicatorCategoryOutputReferenc
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -13371,7 +13371,7 @@ export class SecurityhubInsightFiltersThreatIntelIndicatorLastObservedAtDateRang
   }
 
   // unit - computed: false, optional: false, required: true
-  private _unit?: string;
+  private _unit?: string; 
   public get unit() {
     return this.getStringAttribute('unit');
   }
@@ -13384,7 +13384,7 @@ export class SecurityhubInsightFiltersThreatIntelIndicatorLastObservedAtDateRang
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: number;
+  private _value?: number; 
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -13513,7 +13513,7 @@ export class SecurityhubInsightFiltersThreatIntelIndicatorLastObservedAtOutputRe
   }
 
   // end - computed: false, optional: true, required: false
-  private _end?: string;
+  private _end?: string; 
   public get end() {
     return this.getStringAttribute('end');
   }
@@ -13529,7 +13529,7 @@ export class SecurityhubInsightFiltersThreatIntelIndicatorLastObservedAtOutputRe
   }
 
   // start - computed: false, optional: true, required: false
-  private _start?: string;
+  private _start?: string; 
   public get start() {
     return this.getStringAttribute('start');
   }
@@ -13678,7 +13678,7 @@ export class SecurityhubInsightFiltersThreatIntelIndicatorSourceOutputReference 
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string;
+  private _comparison?: string; 
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -13691,7 +13691,7 @@ export class SecurityhubInsightFiltersThreatIntelIndicatorSourceOutputReference 
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -13821,7 +13821,7 @@ export class SecurityhubInsightFiltersThreatIntelIndicatorSourceUrlOutputReferen
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string;
+  private _comparison?: string; 
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -13834,7 +13834,7 @@ export class SecurityhubInsightFiltersThreatIntelIndicatorSourceUrlOutputReferen
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -13964,7 +13964,7 @@ export class SecurityhubInsightFiltersThreatIntelIndicatorTypeOutputReference ex
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string;
+  private _comparison?: string; 
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -13977,7 +13977,7 @@ export class SecurityhubInsightFiltersThreatIntelIndicatorTypeOutputReference ex
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -14107,7 +14107,7 @@ export class SecurityhubInsightFiltersThreatIntelIndicatorValueOutputReference e
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string;
+  private _comparison?: string; 
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -14120,7 +14120,7 @@ export class SecurityhubInsightFiltersThreatIntelIndicatorValueOutputReference e
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -14250,7 +14250,7 @@ export class SecurityhubInsightFiltersTitleOutputReference extends cdktn.Complex
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string;
+  private _comparison?: string; 
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -14263,7 +14263,7 @@ export class SecurityhubInsightFiltersTitleOutputReference extends cdktn.Complex
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -14393,7 +14393,7 @@ export class SecurityhubInsightFiltersTypeOutputReference extends cdktn.ComplexO
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string;
+  private _comparison?: string; 
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -14406,7 +14406,7 @@ export class SecurityhubInsightFiltersTypeOutputReference extends cdktn.ComplexO
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -14524,7 +14524,7 @@ export class SecurityhubInsightFiltersUpdatedAtDateRangeOutputReference extends 
   }
 
   // unit - computed: false, optional: false, required: true
-  private _unit?: string;
+  private _unit?: string; 
   public get unit() {
     return this.getStringAttribute('unit');
   }
@@ -14537,7 +14537,7 @@ export class SecurityhubInsightFiltersUpdatedAtDateRangeOutputReference extends 
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: number;
+  private _value?: number; 
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -14666,7 +14666,7 @@ export class SecurityhubInsightFiltersUpdatedAtOutputReference extends cdktn.Com
   }
 
   // end - computed: false, optional: true, required: false
-  private _end?: string;
+  private _end?: string; 
   public get end() {
     return this.getStringAttribute('end');
   }
@@ -14682,7 +14682,7 @@ export class SecurityhubInsightFiltersUpdatedAtOutputReference extends cdktn.Com
   }
 
   // start - computed: false, optional: true, required: false
-  private _start?: string;
+  private _start?: string; 
   public get start() {
     return this.getStringAttribute('start');
   }
@@ -14848,7 +14848,7 @@ export class SecurityhubInsightFiltersUserDefinedValuesOutputReference extends c
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string;
+  private _comparison?: string; 
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -14861,7 +14861,7 @@ export class SecurityhubInsightFiltersUserDefinedValuesOutputReference extends c
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -14874,7 +14874,7 @@ export class SecurityhubInsightFiltersUserDefinedValuesOutputReference extends c
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }

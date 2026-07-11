@@ -468,7 +468,7 @@ export class DataAwsSsmPatchBaseline extends cdktn.TerraformDataSource {
   }
 
   // default_baseline - computed: false, optional: true, required: false
-  private _defaultBaseline?: boolean | cdktn.IResolvable;
+  private _defaultBaseline?: boolean | cdktn.IResolvable; 
   public get defaultBaseline() {
     return this.getBooleanAttribute('default_baseline');
   }
@@ -495,7 +495,7 @@ export class DataAwsSsmPatchBaseline extends cdktn.TerraformDataSource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -521,7 +521,7 @@ export class DataAwsSsmPatchBaseline extends cdktn.TerraformDataSource {
   }
 
   // name_prefix - computed: false, optional: true, required: false
-  private _namePrefix?: string;
+  private _namePrefix?: string; 
   public get namePrefix() {
     return this.getStringAttribute('name_prefix');
   }
@@ -537,7 +537,7 @@ export class DataAwsSsmPatchBaseline extends cdktn.TerraformDataSource {
   }
 
   // operating_system - computed: false, optional: true, required: false
-  private _operatingSystem?: string;
+  private _operatingSystem?: string; 
   public get operatingSystem() {
     return this.getStringAttribute('operating_system');
   }
@@ -553,7 +553,7 @@ export class DataAwsSsmPatchBaseline extends cdktn.TerraformDataSource {
   }
 
   // owner - computed: false, optional: false, required: true
-  private _owner?: string;
+  private _owner?: string; 
   public get owner() {
     return this.getStringAttribute('owner');
   }
@@ -566,7 +566,7 @@ export class DataAwsSsmPatchBaseline extends cdktn.TerraformDataSource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

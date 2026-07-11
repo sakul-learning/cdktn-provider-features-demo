@@ -121,7 +121,7 @@ export class DataAwsSecretsmanagerRandomPassword extends cdktn.TerraformDataSour
   // ==========
 
   // exclude_characters - computed: false, optional: true, required: false
-  private _excludeCharacters?: string;
+  private _excludeCharacters?: string; 
   public get excludeCharacters() {
     return this.getStringAttribute('exclude_characters');
   }
@@ -137,7 +137,7 @@ export class DataAwsSecretsmanagerRandomPassword extends cdktn.TerraformDataSour
   }
 
   // exclude_lowercase - computed: false, optional: true, required: false
-  private _excludeLowercase?: boolean | cdktn.IResolvable;
+  private _excludeLowercase?: boolean | cdktn.IResolvable; 
   public get excludeLowercase() {
     return this.getBooleanAttribute('exclude_lowercase');
   }
@@ -153,7 +153,7 @@ export class DataAwsSecretsmanagerRandomPassword extends cdktn.TerraformDataSour
   }
 
   // exclude_numbers - computed: false, optional: true, required: false
-  private _excludeNumbers?: boolean | cdktn.IResolvable;
+  private _excludeNumbers?: boolean | cdktn.IResolvable; 
   public get excludeNumbers() {
     return this.getBooleanAttribute('exclude_numbers');
   }
@@ -169,7 +169,7 @@ export class DataAwsSecretsmanagerRandomPassword extends cdktn.TerraformDataSour
   }
 
   // exclude_punctuation - computed: false, optional: true, required: false
-  private _excludePunctuation?: boolean | cdktn.IResolvable;
+  private _excludePunctuation?: boolean | cdktn.IResolvable; 
   public get excludePunctuation() {
     return this.getBooleanAttribute('exclude_punctuation');
   }
@@ -185,7 +185,7 @@ export class DataAwsSecretsmanagerRandomPassword extends cdktn.TerraformDataSour
   }
 
   // exclude_uppercase - computed: false, optional: true, required: false
-  private _excludeUppercase?: boolean | cdktn.IResolvable;
+  private _excludeUppercase?: boolean | cdktn.IResolvable; 
   public get excludeUppercase() {
     return this.getBooleanAttribute('exclude_uppercase');
   }
@@ -201,7 +201,7 @@ export class DataAwsSecretsmanagerRandomPassword extends cdktn.TerraformDataSour
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -217,7 +217,7 @@ export class DataAwsSecretsmanagerRandomPassword extends cdktn.TerraformDataSour
   }
 
   // include_space - computed: false, optional: true, required: false
-  private _includeSpace?: boolean | cdktn.IResolvable;
+  private _includeSpace?: boolean | cdktn.IResolvable; 
   public get includeSpace() {
     return this.getBooleanAttribute('include_space');
   }
@@ -233,7 +233,7 @@ export class DataAwsSecretsmanagerRandomPassword extends cdktn.TerraformDataSour
   }
 
   // password_length - computed: false, optional: true, required: false
-  private _passwordLength?: number;
+  private _passwordLength?: number; 
   public get passwordLength() {
     return this.getNumberAttribute('password_length');
   }
@@ -254,7 +254,7 @@ export class DataAwsSecretsmanagerRandomPassword extends cdktn.TerraformDataSour
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -270,7 +270,7 @@ export class DataAwsSecretsmanagerRandomPassword extends cdktn.TerraformDataSour
   }
 
   // require_each_included_type - computed: false, optional: true, required: false
-  private _requireEachIncludedType?: boolean | cdktn.IResolvable;
+  private _requireEachIncludedType?: boolean | cdktn.IResolvable; 
   public get requireEachIncludedType() {
     return this.getBooleanAttribute('require_each_included_type');
   }

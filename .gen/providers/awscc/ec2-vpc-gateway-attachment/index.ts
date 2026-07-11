@@ -97,7 +97,7 @@ export class Ec2VpcGatewayAttachment extends cdktn.TerraformResource {
   }
 
   // internet_gateway_id - computed: true, optional: true, required: false
-  private _internetGatewayId?: string;
+  private _internetGatewayId?: string; 
   public get internetGatewayId() {
     return this.getStringAttribute('internet_gateway_id');
   }
@@ -113,7 +113,7 @@ export class Ec2VpcGatewayAttachment extends cdktn.TerraformResource {
   }
 
   // vpc_id - computed: false, optional: false, required: true
-  private _vpcId?: string;
+  private _vpcId?: string; 
   public get vpcId() {
     return this.getStringAttribute('vpc_id');
   }
@@ -126,7 +126,7 @@ export class Ec2VpcGatewayAttachment extends cdktn.TerraformResource {
   }
 
   // vpn_gateway_id - computed: true, optional: true, required: false
-  private _vpnGatewayId?: string;
+  private _vpnGatewayId?: string; 
   public get vpnGatewayId() {
     return this.getStringAttribute('vpn_gateway_id');
   }

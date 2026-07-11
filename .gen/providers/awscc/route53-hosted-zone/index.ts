@@ -41,7 +41,7 @@ export interface Route53HostedZoneConfig extends cdktn.TerraformMetaArguments {
   *   +  Domain or subdomain that was requested
   *   +  DNS record type, such as A or AAAA
   *   +  DNS response code, such as ``NoError`` or ``ServFail``
-  *
+  *   
   *   + Log Group and Resource Policy Before you create a query logging configuration, perform the following operations. If you create a query logging configuration using the Route 53 console, Route 53 performs these operations automatically. Create a CloudWatch Logs log group, and make note of the ARN, which you specify when you create a query logging configuration. Note the following: You must create the log group in the us-east-1 region. You must use the same to create the log group and the hosted zone that you want to configure query logging for. When you create log groups for query logging, we recommend that you use a consistent prefix, for example: /aws/route53/hosted zone name In the next step, you'll create a resource policy, which controls access to one or more log groups and the associated resources, such as Route 53 hosted zones. There's a limit on the number of resource policies that you can create, so we recommend that you use a consistent prefix so you can use the same resource policy for all the log groups that you create for query logging. Create a CloudWatch Logs resource policy, and give it the permissions that Route 53 needs to create log streams and to send query logs to log streams. You must create the CloudWatch Logs resource policy in the us-east-1 region. For the value of Resource, specify the ARN for the log group that you created in the previous step. To use the same resource policy for all the CloudWatch Logs log groups that you created for query logging configurations, replace the hosted zone name with *, for example: arn:aws:logs:us-east-1:123412341234:log-group:/aws/route53/* To avoid the confused deputy problem, a security issue where an entity without a permission for an action can coerce a more-privileged entity to perform it, you can optionally limit the permissions that a service has to a resource in a resource-based policy by supplying the following values: For aws:SourceArn, supply the hosted zone ARN used in creating the query logging configuration. For example, aws:SourceArn: arn:aws:route53:::hostedzone/hosted zone ID. For aws:SourceAccount, supply the account ID for the account that creates the query logging configuration. For example, aws:SourceAccount:111111111111. For more information, see The confused deputy problem in the IAM User Guide. You can't use the CloudWatch console to create or edit a resource policy. You must use the CloudWatch API, one of the SDKs, or the . + Log Streams and Edge Locations When Route 53 finishes creating the configuration for DNS query logging, it does the following: Creates a log stream for an edge location the first time that the edge location responds to DNS queries for the specified hosted zone. That log stream is used to log all queries that Route 53 responds to for that edge location. Begins to send query logs to the applicable log stream. The name of each log stream is in the following format: hosted zone ID/edge location code The edge location code is a three-letter code and an arbitrarily assigned number, for example, DFW3. The three-letter code typically corresponds with the International Air Transport Association airport code for an airport near the edge location. (These abbreviations might change in the future.) For a list of edge locations, see "The Route 53 Global Network" on the Route 53 Product Details page. + Queries That Are Logged Query logs contain only the queries that DNS resolvers forward to Route 53. If a DNS resolver has already cached the response to a query (such as the IP address for a load balancer for example.com), the resolver will continue to return the cached response. It doesn't forward another query to Route 53 until the TTL for the corresponding resource record set expires. Depending on how many DNS queries are submitted for a resource record set, and depending on the TTL for that resource record set, query logs might contain information about only one query out of every several thousand queries that are submitted to DNS. For more information about how DNS works, see Routing Internet Traffic to Your Website or Web Application in the Amazon Route 53 Developer Guide. + Log File Format For a list of the values in each query log and the format of each value, see Logging DNS Queries in the Amazon Route 53 Developer Guide. + Pricing For information about charges for query logs, see Amazon CloudWatch Pricing. + How to Stop Logging If you want Route 53 to stop sending query logs to CloudWatch Logs, delete the query logging configuration. For more information, see DeleteQueryLoggingConfig.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53_hosted_zone#query_logging_config Route53HostedZone#query_logging_config}
@@ -136,7 +136,7 @@ export class Route53HostedZoneHostedZoneConfigOutputReference extends cdktn.Comp
   }
 
   // comment - computed: true, optional: true, required: false
-  private _comment?: string;
+  private _comment?: string; 
   public get comment() {
     return this.getStringAttribute('comment');
   }
@@ -230,7 +230,7 @@ export class Route53HostedZoneHostedZoneFeaturesOutputReference extends cdktn.Co
   }
 
   // enable_accelerated_recovery - computed: true, optional: true, required: false
-  private _enableAcceleratedRecovery?: boolean | cdktn.IResolvable;
+  private _enableAcceleratedRecovery?: boolean | cdktn.IResolvable; 
   public get enableAcceleratedRecovery() {
     return this.getBooleanAttribute('enable_accelerated_recovery');
   }
@@ -353,7 +353,7 @@ export class Route53HostedZoneHostedZoneTagsOutputReference extends cdktn.Comple
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -369,7 +369,7 @@ export class Route53HostedZoneHostedZoneTagsOutputReference extends cdktn.Comple
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -485,7 +485,7 @@ export class Route53HostedZoneQueryLoggingConfigOutputReference extends cdktn.Co
   }
 
   // cloudwatch_logs_log_group_arn - computed: true, optional: true, required: false
-  private _cloudwatchLogsLogGroupArn?: string;
+  private _cloudwatchLogsLogGroupArn?: string; 
   public get cloudwatchLogsLogGroupArn() {
     return this.getStringAttribute('cloudwatch_logs_log_group_arn');
   }
@@ -604,7 +604,7 @@ export class Route53HostedZoneVpCsOutputReference extends cdktn.ComplexObject {
   }
 
   // vpc_id - computed: true, optional: true, required: false
-  private _vpcId?: string;
+  private _vpcId?: string; 
   public get vpcId() {
     return this.getStringAttribute('vpc_id');
   }
@@ -620,7 +620,7 @@ export class Route53HostedZoneVpCsOutputReference extends cdktn.ComplexObject {
   }
 
   // vpc_region - computed: true, optional: true, required: false
-  private _vpcRegion?: string;
+  private _vpcRegion?: string; 
   public get vpcRegion() {
     return this.getStringAttribute('vpc_region');
   }
@@ -777,7 +777,7 @@ export class Route53HostedZone extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }

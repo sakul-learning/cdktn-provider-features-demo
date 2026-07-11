@@ -175,7 +175,7 @@ export class GrafanaWorkspaceSamlConfigurationTimeoutsOutputReference extends cd
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -191,7 +191,7 @@ export class GrafanaWorkspaceSamlConfigurationTimeoutsOutputReference extends cd
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -280,7 +280,7 @@ export class GrafanaWorkspaceSamlConfiguration extends cdktn.TerraformResource {
   // ==========
 
   // admin_role_values - computed: false, optional: true, required: false
-  private _adminRoleValues?: string[];
+  private _adminRoleValues?: string[]; 
   public get adminRoleValues() {
     return this.getListAttribute('admin_role_values');
   }
@@ -296,7 +296,7 @@ export class GrafanaWorkspaceSamlConfiguration extends cdktn.TerraformResource {
   }
 
   // allowed_organizations - computed: false, optional: true, required: false
-  private _allowedOrganizations?: string[];
+  private _allowedOrganizations?: string[]; 
   public get allowedOrganizations() {
     return this.getListAttribute('allowed_organizations');
   }
@@ -312,7 +312,7 @@ export class GrafanaWorkspaceSamlConfiguration extends cdktn.TerraformResource {
   }
 
   // editor_role_values - computed: false, optional: false, required: true
-  private _editorRoleValues?: string[];
+  private _editorRoleValues?: string[]; 
   public get editorRoleValues() {
     return this.getListAttribute('editor_role_values');
   }
@@ -325,7 +325,7 @@ export class GrafanaWorkspaceSamlConfiguration extends cdktn.TerraformResource {
   }
 
   // email_assertion - computed: true, optional: true, required: false
-  private _emailAssertion?: string;
+  private _emailAssertion?: string; 
   public get emailAssertion() {
     return this.getStringAttribute('email_assertion');
   }
@@ -341,7 +341,7 @@ export class GrafanaWorkspaceSamlConfiguration extends cdktn.TerraformResource {
   }
 
   // groups_assertion - computed: false, optional: true, required: false
-  private _groupsAssertion?: string;
+  private _groupsAssertion?: string; 
   public get groupsAssertion() {
     return this.getStringAttribute('groups_assertion');
   }
@@ -357,7 +357,7 @@ export class GrafanaWorkspaceSamlConfiguration extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -373,7 +373,7 @@ export class GrafanaWorkspaceSamlConfiguration extends cdktn.TerraformResource {
   }
 
   // idp_metadata_url - computed: false, optional: true, required: false
-  private _idpMetadataUrl?: string;
+  private _idpMetadataUrl?: string; 
   public get idpMetadataUrl() {
     return this.getStringAttribute('idp_metadata_url');
   }
@@ -389,7 +389,7 @@ export class GrafanaWorkspaceSamlConfiguration extends cdktn.TerraformResource {
   }
 
   // idp_metadata_xml - computed: false, optional: true, required: false
-  private _idpMetadataXml?: string;
+  private _idpMetadataXml?: string; 
   public get idpMetadataXml() {
     return this.getStringAttribute('idp_metadata_xml');
   }
@@ -405,7 +405,7 @@ export class GrafanaWorkspaceSamlConfiguration extends cdktn.TerraformResource {
   }
 
   // login_assertion - computed: true, optional: true, required: false
-  private _loginAssertion?: string;
+  private _loginAssertion?: string; 
   public get loginAssertion() {
     return this.getStringAttribute('login_assertion');
   }
@@ -421,7 +421,7 @@ export class GrafanaWorkspaceSamlConfiguration extends cdktn.TerraformResource {
   }
 
   // login_validity_duration - computed: true, optional: true, required: false
-  private _loginValidityDuration?: number;
+  private _loginValidityDuration?: number; 
   public get loginValidityDuration() {
     return this.getNumberAttribute('login_validity_duration');
   }
@@ -437,7 +437,7 @@ export class GrafanaWorkspaceSamlConfiguration extends cdktn.TerraformResource {
   }
 
   // name_assertion - computed: true, optional: true, required: false
-  private _nameAssertion?: string;
+  private _nameAssertion?: string; 
   public get nameAssertion() {
     return this.getStringAttribute('name_assertion');
   }
@@ -453,7 +453,7 @@ export class GrafanaWorkspaceSamlConfiguration extends cdktn.TerraformResource {
   }
 
   // org_assertion - computed: false, optional: true, required: false
-  private _orgAssertion?: string;
+  private _orgAssertion?: string; 
   public get orgAssertion() {
     return this.getStringAttribute('org_assertion');
   }
@@ -469,7 +469,7 @@ export class GrafanaWorkspaceSamlConfiguration extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -485,7 +485,7 @@ export class GrafanaWorkspaceSamlConfiguration extends cdktn.TerraformResource {
   }
 
   // role_assertion - computed: false, optional: true, required: false
-  private _roleAssertion?: string;
+  private _roleAssertion?: string; 
   public get roleAssertion() {
     return this.getStringAttribute('role_assertion');
   }
@@ -506,7 +506,7 @@ export class GrafanaWorkspaceSamlConfiguration extends cdktn.TerraformResource {
   }
 
   // workspace_id - computed: false, optional: false, required: true
-  private _workspaceId?: string;
+  private _workspaceId?: string; 
   public get workspaceId() {
     return this.getStringAttribute('workspace_id');
   }

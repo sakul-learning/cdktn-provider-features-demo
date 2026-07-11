@@ -91,7 +91,7 @@ export class Ec2TransitGatewayRouteTablePropagation extends cdktn.TerraformResou
   // ==========
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -107,7 +107,7 @@ export class Ec2TransitGatewayRouteTablePropagation extends cdktn.TerraformResou
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -133,7 +133,7 @@ export class Ec2TransitGatewayRouteTablePropagation extends cdktn.TerraformResou
   }
 
   // transit_gateway_attachment_id - computed: false, optional: false, required: true
-  private _transitGatewayAttachmentId?: string;
+  private _transitGatewayAttachmentId?: string; 
   public get transitGatewayAttachmentId() {
     return this.getStringAttribute('transit_gateway_attachment_id');
   }
@@ -146,7 +146,7 @@ export class Ec2TransitGatewayRouteTablePropagation extends cdktn.TerraformResou
   }
 
   // transit_gateway_route_table_id - computed: false, optional: false, required: true
-  private _transitGatewayRouteTableId?: string;
+  private _transitGatewayRouteTableId?: string; 
   public get transitGatewayRouteTableId() {
     return this.getStringAttribute('transit_gateway_route_table_id');
   }

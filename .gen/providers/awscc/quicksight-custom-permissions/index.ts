@@ -3928,7 +3928,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // access_apps_native_data_store - computed: true, optional: true, required: false
-  private _accessAppsNativeDataStore?: string;
+  private _accessAppsNativeDataStore?: string; 
   public get accessAppsNativeDataStore() {
     return this.getStringAttribute('access_apps_native_data_store');
   }
@@ -3944,7 +3944,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // action - computed: true, optional: true, required: false
-  private _action?: string;
+  private _action?: string; 
   public get action() {
     return this.getStringAttribute('action');
   }
@@ -3960,7 +3960,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // add_or_run_anomaly_detection_for_analyses - computed: true, optional: true, required: false
-  private _addOrRunAnomalyDetectionForAnalyses?: string;
+  private _addOrRunAnomalyDetectionForAnalyses?: string; 
   public get addOrRunAnomalyDetectionForAnalyses() {
     return this.getStringAttribute('add_or_run_anomaly_detection_for_analyses');
   }
@@ -3976,7 +3976,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // amazon_bedrock_ars_action - computed: true, optional: true, required: false
-  private _amazonBedrockArsAction?: string;
+  private _amazonBedrockArsAction?: string; 
   public get amazonBedrockArsAction() {
     return this.getStringAttribute('amazon_bedrock_ars_action');
   }
@@ -3992,7 +3992,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // amazon_bedrock_fs_action - computed: true, optional: true, required: false
-  private _amazonBedrockFsAction?: string;
+  private _amazonBedrockFsAction?: string; 
   public get amazonBedrockFsAction() {
     return this.getStringAttribute('amazon_bedrock_fs_action');
   }
@@ -4008,7 +4008,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // amazon_bedrock_krs_action - computed: true, optional: true, required: false
-  private _amazonBedrockKrsAction?: string;
+  private _amazonBedrockKrsAction?: string; 
   public get amazonBedrockKrsAction() {
     return this.getStringAttribute('amazon_bedrock_krs_action');
   }
@@ -4024,7 +4024,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // amazon_s_three_action - computed: true, optional: true, required: false
-  private _amazonSThreeAction?: string;
+  private _amazonSThreeAction?: string; 
   public get amazonSThreeAction() {
     return this.getStringAttribute('amazon_s_three_action');
   }
@@ -4040,7 +4040,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // analysis - computed: true, optional: true, required: false
-  private _analysis?: string;
+  private _analysis?: string; 
   public get analysis() {
     return this.getStringAttribute('analysis');
   }
@@ -4056,7 +4056,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // approve_flow_share_requests - computed: true, optional: true, required: false
-  private _approveFlowShareRequests?: string;
+  private _approveFlowShareRequests?: string; 
   public get approveFlowShareRequests() {
     return this.getStringAttribute('approve_flow_share_requests');
   }
@@ -4072,7 +4072,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // apps - computed: true, optional: true, required: false
-  private _apps?: string;
+  private _apps?: string; 
   public get apps() {
     return this.getStringAttribute('apps');
   }
@@ -4088,7 +4088,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // asana_action - computed: true, optional: true, required: false
-  private _asanaAction?: string;
+  private _asanaAction?: string; 
   public get asanaAction() {
     return this.getStringAttribute('asana_action');
   }
@@ -4104,7 +4104,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // automate - computed: true, optional: true, required: false
-  private _automate?: string;
+  private _automate?: string; 
   public get automate() {
     return this.getStringAttribute('automate');
   }
@@ -4120,7 +4120,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // bamboo_hr_action - computed: true, optional: true, required: false
-  private _bambooHrAction?: string;
+  private _bambooHrAction?: string; 
   public get bambooHrAction() {
     return this.getStringAttribute('bamboo_hr_action');
   }
@@ -4136,7 +4136,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // box_agent_action - computed: true, optional: true, required: false
-  private _boxAgentAction?: string;
+  private _boxAgentAction?: string; 
   public get boxAgentAction() {
     return this.getStringAttribute('box_agent_action');
   }
@@ -4152,7 +4152,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // build_calculated_field_with_q - computed: true, optional: true, required: false
-  private _buildCalculatedFieldWithQ?: string;
+  private _buildCalculatedFieldWithQ?: string; 
   public get buildCalculatedFieldWithQ() {
     return this.getStringAttribute('build_calculated_field_with_q');
   }
@@ -4168,7 +4168,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // canva_agent_action - computed: true, optional: true, required: false
-  private _canvaAgentAction?: string;
+  private _canvaAgentAction?: string; 
   public get canvaAgentAction() {
     return this.getStringAttribute('canva_agent_action');
   }
@@ -4184,7 +4184,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // chat_agent - computed: true, optional: true, required: false
-  private _chatAgent?: string;
+  private _chatAgent?: string; 
   public get chatAgent() {
     return this.getStringAttribute('chat_agent');
   }
@@ -4200,7 +4200,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // comprehend_action - computed: true, optional: true, required: false
-  private _comprehendAction?: string;
+  private _comprehendAction?: string; 
   public get comprehendAction() {
     return this.getStringAttribute('comprehend_action');
   }
@@ -4216,7 +4216,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // comprehend_medical_action - computed: true, optional: true, required: false
-  private _comprehendMedicalAction?: string;
+  private _comprehendMedicalAction?: string; 
   public get comprehendMedicalAction() {
     return this.getStringAttribute('comprehend_medical_action');
   }
@@ -4232,7 +4232,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // confluence_action - computed: true, optional: true, required: false
-  private _confluenceAction?: string;
+  private _confluenceAction?: string; 
   public get confluenceAction() {
     return this.getStringAttribute('confluence_action');
   }
@@ -4248,7 +4248,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // create_and_update_amazon_bedrock_ars_action - computed: true, optional: true, required: false
-  private _createAndUpdateAmazonBedrockArsAction?: string;
+  private _createAndUpdateAmazonBedrockArsAction?: string; 
   public get createAndUpdateAmazonBedrockArsAction() {
     return this.getStringAttribute('create_and_update_amazon_bedrock_ars_action');
   }
@@ -4264,7 +4264,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // create_and_update_amazon_bedrock_fs_action - computed: true, optional: true, required: false
-  private _createAndUpdateAmazonBedrockFsAction?: string;
+  private _createAndUpdateAmazonBedrockFsAction?: string; 
   public get createAndUpdateAmazonBedrockFsAction() {
     return this.getStringAttribute('create_and_update_amazon_bedrock_fs_action');
   }
@@ -4280,7 +4280,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // create_and_update_amazon_bedrock_krs_action - computed: true, optional: true, required: false
-  private _createAndUpdateAmazonBedrockKrsAction?: string;
+  private _createAndUpdateAmazonBedrockKrsAction?: string; 
   public get createAndUpdateAmazonBedrockKrsAction() {
     return this.getStringAttribute('create_and_update_amazon_bedrock_krs_action');
   }
@@ -4296,7 +4296,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // create_and_update_amazon_s_three_action - computed: true, optional: true, required: false
-  private _createAndUpdateAmazonSThreeAction?: string;
+  private _createAndUpdateAmazonSThreeAction?: string; 
   public get createAndUpdateAmazonSThreeAction() {
     return this.getStringAttribute('create_and_update_amazon_s_three_action');
   }
@@ -4312,7 +4312,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // create_and_update_apps - computed: true, optional: true, required: false
-  private _createAndUpdateApps?: string;
+  private _createAndUpdateApps?: string; 
   public get createAndUpdateApps() {
     return this.getStringAttribute('create_and_update_apps');
   }
@@ -4328,7 +4328,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // create_and_update_asana_action - computed: true, optional: true, required: false
-  private _createAndUpdateAsanaAction?: string;
+  private _createAndUpdateAsanaAction?: string; 
   public get createAndUpdateAsanaAction() {
     return this.getStringAttribute('create_and_update_asana_action');
   }
@@ -4344,7 +4344,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // create_and_update_bamboo_hr_action - computed: true, optional: true, required: false
-  private _createAndUpdateBambooHrAction?: string;
+  private _createAndUpdateBambooHrAction?: string; 
   public get createAndUpdateBambooHrAction() {
     return this.getStringAttribute('create_and_update_bamboo_hr_action');
   }
@@ -4360,7 +4360,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // create_and_update_box_agent_action - computed: true, optional: true, required: false
-  private _createAndUpdateBoxAgentAction?: string;
+  private _createAndUpdateBoxAgentAction?: string; 
   public get createAndUpdateBoxAgentAction() {
     return this.getStringAttribute('create_and_update_box_agent_action');
   }
@@ -4376,7 +4376,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // create_and_update_canva_agent_action - computed: true, optional: true, required: false
-  private _createAndUpdateCanvaAgentAction?: string;
+  private _createAndUpdateCanvaAgentAction?: string; 
   public get createAndUpdateCanvaAgentAction() {
     return this.getStringAttribute('create_and_update_canva_agent_action');
   }
@@ -4392,7 +4392,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // create_and_update_comprehend_action - computed: true, optional: true, required: false
-  private _createAndUpdateComprehendAction?: string;
+  private _createAndUpdateComprehendAction?: string; 
   public get createAndUpdateComprehendAction() {
     return this.getStringAttribute('create_and_update_comprehend_action');
   }
@@ -4408,7 +4408,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // create_and_update_comprehend_medical_action - computed: true, optional: true, required: false
-  private _createAndUpdateComprehendMedicalAction?: string;
+  private _createAndUpdateComprehendMedicalAction?: string; 
   public get createAndUpdateComprehendMedicalAction() {
     return this.getStringAttribute('create_and_update_comprehend_medical_action');
   }
@@ -4424,7 +4424,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // create_and_update_confluence_action - computed: true, optional: true, required: false
-  private _createAndUpdateConfluenceAction?: string;
+  private _createAndUpdateConfluenceAction?: string; 
   public get createAndUpdateConfluenceAction() {
     return this.getStringAttribute('create_and_update_confluence_action');
   }
@@ -4440,7 +4440,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // create_and_update_dashboard_email_reports - computed: true, optional: true, required: false
-  private _createAndUpdateDashboardEmailReports?: string;
+  private _createAndUpdateDashboardEmailReports?: string; 
   public get createAndUpdateDashboardEmailReports() {
     return this.getStringAttribute('create_and_update_dashboard_email_reports');
   }
@@ -4456,7 +4456,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // create_and_update_data_sources - computed: true, optional: true, required: false
-  private _createAndUpdateDataSources?: string;
+  private _createAndUpdateDataSources?: string; 
   public get createAndUpdateDataSources() {
     return this.getStringAttribute('create_and_update_data_sources');
   }
@@ -4472,7 +4472,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // create_and_update_datasets - computed: true, optional: true, required: false
-  private _createAndUpdateDatasets?: string;
+  private _createAndUpdateDatasets?: string; 
   public get createAndUpdateDatasets() {
     return this.getStringAttribute('create_and_update_datasets');
   }
@@ -4488,7 +4488,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // create_and_update_fact_set_action - computed: true, optional: true, required: false
-  private _createAndUpdateFactSetAction?: string;
+  private _createAndUpdateFactSetAction?: string; 
   public get createAndUpdateFactSetAction() {
     return this.getStringAttribute('create_and_update_fact_set_action');
   }
@@ -4504,7 +4504,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // create_and_update_generic_http_action - computed: true, optional: true, required: false
-  private _createAndUpdateGenericHttpAction?: string;
+  private _createAndUpdateGenericHttpAction?: string; 
   public get createAndUpdateGenericHttpAction() {
     return this.getStringAttribute('create_and_update_generic_http_action');
   }
@@ -4520,7 +4520,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // create_and_update_github_action - computed: true, optional: true, required: false
-  private _createAndUpdateGithubAction?: string;
+  private _createAndUpdateGithubAction?: string; 
   public get createAndUpdateGithubAction() {
     return this.getStringAttribute('create_and_update_github_action');
   }
@@ -4536,7 +4536,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // create_and_update_google_calendar_action - computed: true, optional: true, required: false
-  private _createAndUpdateGoogleCalendarAction?: string;
+  private _createAndUpdateGoogleCalendarAction?: string; 
   public get createAndUpdateGoogleCalendarAction() {
     return this.getStringAttribute('create_and_update_google_calendar_action');
   }
@@ -4552,7 +4552,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // create_and_update_hubspot_action - computed: true, optional: true, required: false
-  private _createAndUpdateHubspotAction?: string;
+  private _createAndUpdateHubspotAction?: string; 
   public get createAndUpdateHubspotAction() {
     return this.getStringAttribute('create_and_update_hubspot_action');
   }
@@ -4568,7 +4568,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // create_and_update_hugging_face_action - computed: true, optional: true, required: false
-  private _createAndUpdateHuggingFaceAction?: string;
+  private _createAndUpdateHuggingFaceAction?: string; 
   public get createAndUpdateHuggingFaceAction() {
     return this.getStringAttribute('create_and_update_hugging_face_action');
   }
@@ -4584,7 +4584,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // create_and_update_intercom_action - computed: true, optional: true, required: false
-  private _createAndUpdateIntercomAction?: string;
+  private _createAndUpdateIntercomAction?: string; 
   public get createAndUpdateIntercomAction() {
     return this.getStringAttribute('create_and_update_intercom_action');
   }
@@ -4600,7 +4600,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // create_and_update_jira_action - computed: true, optional: true, required: false
-  private _createAndUpdateJiraAction?: string;
+  private _createAndUpdateJiraAction?: string; 
   public get createAndUpdateJiraAction() {
     return this.getStringAttribute('create_and_update_jira_action');
   }
@@ -4616,7 +4616,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // create_and_update_knowledge_bases - computed: true, optional: true, required: false
-  private _createAndUpdateKnowledgeBases?: string;
+  private _createAndUpdateKnowledgeBases?: string; 
   public get createAndUpdateKnowledgeBases() {
     return this.getStringAttribute('create_and_update_knowledge_bases');
   }
@@ -4632,7 +4632,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // create_and_update_linear_action - computed: true, optional: true, required: false
-  private _createAndUpdateLinearAction?: string;
+  private _createAndUpdateLinearAction?: string; 
   public get createAndUpdateLinearAction() {
     return this.getStringAttribute('create_and_update_linear_action');
   }
@@ -4648,7 +4648,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // create_and_update_mcp_action - computed: true, optional: true, required: false
-  private _createAndUpdateMcpAction?: string;
+  private _createAndUpdateMcpAction?: string; 
   public get createAndUpdateMcpAction() {
     return this.getStringAttribute('create_and_update_mcp_action');
   }
@@ -4664,7 +4664,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // create_and_update_monday_action - computed: true, optional: true, required: false
-  private _createAndUpdateMondayAction?: string;
+  private _createAndUpdateMondayAction?: string; 
   public get createAndUpdateMondayAction() {
     return this.getStringAttribute('create_and_update_monday_action');
   }
@@ -4680,7 +4680,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // create_and_update_ms_exchange_action - computed: true, optional: true, required: false
-  private _createAndUpdateMsExchangeAction?: string;
+  private _createAndUpdateMsExchangeAction?: string; 
   public get createAndUpdateMsExchangeAction() {
     return this.getStringAttribute('create_and_update_ms_exchange_action');
   }
@@ -4696,7 +4696,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // create_and_update_ms_teams_action - computed: true, optional: true, required: false
-  private _createAndUpdateMsTeamsAction?: string;
+  private _createAndUpdateMsTeamsAction?: string; 
   public get createAndUpdateMsTeamsAction() {
     return this.getStringAttribute('create_and_update_ms_teams_action');
   }
@@ -4712,7 +4712,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // create_and_update_new_relic_action - computed: true, optional: true, required: false
-  private _createAndUpdateNewRelicAction?: string;
+  private _createAndUpdateNewRelicAction?: string; 
   public get createAndUpdateNewRelicAction() {
     return this.getStringAttribute('create_and_update_new_relic_action');
   }
@@ -4728,7 +4728,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // create_and_update_notion_action - computed: true, optional: true, required: false
-  private _createAndUpdateNotionAction?: string;
+  private _createAndUpdateNotionAction?: string; 
   public get createAndUpdateNotionAction() {
     return this.getStringAttribute('create_and_update_notion_action');
   }
@@ -4744,7 +4744,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // create_and_update_one_drive_action - computed: true, optional: true, required: false
-  private _createAndUpdateOneDriveAction?: string;
+  private _createAndUpdateOneDriveAction?: string; 
   public get createAndUpdateOneDriveAction() {
     return this.getStringAttribute('create_and_update_one_drive_action');
   }
@@ -4760,7 +4760,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // create_and_update_open_api_action - computed: true, optional: true, required: false
-  private _createAndUpdateOpenApiAction?: string;
+  private _createAndUpdateOpenApiAction?: string; 
   public get createAndUpdateOpenApiAction() {
     return this.getStringAttribute('create_and_update_open_api_action');
   }
@@ -4776,7 +4776,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // create_and_update_pager_duty_action - computed: true, optional: true, required: false
-  private _createAndUpdatePagerDutyAction?: string;
+  private _createAndUpdatePagerDutyAction?: string; 
   public get createAndUpdatePagerDutyAction() {
     return this.getStringAttribute('create_and_update_pager_duty_action');
   }
@@ -4792,7 +4792,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // create_and_update_salesforce_action - computed: true, optional: true, required: false
-  private _createAndUpdateSalesforceAction?: string;
+  private _createAndUpdateSalesforceAction?: string; 
   public get createAndUpdateSalesforceAction() {
     return this.getStringAttribute('create_and_update_salesforce_action');
   }
@@ -4808,7 +4808,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // create_and_update_sand_p_global_energy_action - computed: true, optional: true, required: false
-  private _createAndUpdateSandPGlobalEnergyAction?: string;
+  private _createAndUpdateSandPGlobalEnergyAction?: string; 
   public get createAndUpdateSandPGlobalEnergyAction() {
     return this.getStringAttribute('create_and_update_sand_p_global_energy_action');
   }
@@ -4824,7 +4824,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // create_and_update_sand_pgmi_action - computed: true, optional: true, required: false
-  private _createAndUpdateSandPgmiAction?: string;
+  private _createAndUpdateSandPgmiAction?: string; 
   public get createAndUpdateSandPgmiAction() {
     return this.getStringAttribute('create_and_update_sand_pgmi_action');
   }
@@ -4840,7 +4840,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // create_and_update_sap_bill_of_material_action - computed: true, optional: true, required: false
-  private _createAndUpdateSapBillOfMaterialAction?: string;
+  private _createAndUpdateSapBillOfMaterialAction?: string; 
   public get createAndUpdateSapBillOfMaterialAction() {
     return this.getStringAttribute('create_and_update_sap_bill_of_material_action');
   }
@@ -4856,7 +4856,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // create_and_update_sap_business_partner_action - computed: true, optional: true, required: false
-  private _createAndUpdateSapBusinessPartnerAction?: string;
+  private _createAndUpdateSapBusinessPartnerAction?: string; 
   public get createAndUpdateSapBusinessPartnerAction() {
     return this.getStringAttribute('create_and_update_sap_business_partner_action');
   }
@@ -4872,7 +4872,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // create_and_update_sap_material_stock_action - computed: true, optional: true, required: false
-  private _createAndUpdateSapMaterialStockAction?: string;
+  private _createAndUpdateSapMaterialStockAction?: string; 
   public get createAndUpdateSapMaterialStockAction() {
     return this.getStringAttribute('create_and_update_sap_material_stock_action');
   }
@@ -4888,7 +4888,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // create_and_update_sap_physical_inventory_action - computed: true, optional: true, required: false
-  private _createAndUpdateSapPhysicalInventoryAction?: string;
+  private _createAndUpdateSapPhysicalInventoryAction?: string; 
   public get createAndUpdateSapPhysicalInventoryAction() {
     return this.getStringAttribute('create_and_update_sap_physical_inventory_action');
   }
@@ -4904,7 +4904,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // create_and_update_sap_product_master_data_action - computed: true, optional: true, required: false
-  private _createAndUpdateSapProductMasterDataAction?: string;
+  private _createAndUpdateSapProductMasterDataAction?: string; 
   public get createAndUpdateSapProductMasterDataAction() {
     return this.getStringAttribute('create_and_update_sap_product_master_data_action');
   }
@@ -4920,7 +4920,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // create_and_update_service_now_action - computed: true, optional: true, required: false
-  private _createAndUpdateServiceNowAction?: string;
+  private _createAndUpdateServiceNowAction?: string; 
   public get createAndUpdateServiceNowAction() {
     return this.getStringAttribute('create_and_update_service_now_action');
   }
@@ -4936,7 +4936,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // create_and_update_share_point_action - computed: true, optional: true, required: false
-  private _createAndUpdateSharePointAction?: string;
+  private _createAndUpdateSharePointAction?: string; 
   public get createAndUpdateSharePointAction() {
     return this.getStringAttribute('create_and_update_share_point_action');
   }
@@ -4952,7 +4952,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // create_and_update_slack_action - computed: true, optional: true, required: false
-  private _createAndUpdateSlackAction?: string;
+  private _createAndUpdateSlackAction?: string; 
   public get createAndUpdateSlackAction() {
     return this.getStringAttribute('create_and_update_slack_action');
   }
@@ -4968,7 +4968,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // create_and_update_smartsheet_action - computed: true, optional: true, required: false
-  private _createAndUpdateSmartsheetAction?: string;
+  private _createAndUpdateSmartsheetAction?: string; 
   public get createAndUpdateSmartsheetAction() {
     return this.getStringAttribute('create_and_update_smartsheet_action');
   }
@@ -4984,7 +4984,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // create_and_update_textract_action - computed: true, optional: true, required: false
-  private _createAndUpdateTextractAction?: string;
+  private _createAndUpdateTextractAction?: string; 
   public get createAndUpdateTextractAction() {
     return this.getStringAttribute('create_and_update_textract_action');
   }
@@ -5000,7 +5000,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // create_and_update_themes - computed: true, optional: true, required: false
-  private _createAndUpdateThemes?: string;
+  private _createAndUpdateThemes?: string; 
   public get createAndUpdateThemes() {
     return this.getStringAttribute('create_and_update_themes');
   }
@@ -5016,7 +5016,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // create_and_update_threshold_alerts - computed: true, optional: true, required: false
-  private _createAndUpdateThresholdAlerts?: string;
+  private _createAndUpdateThresholdAlerts?: string; 
   public get createAndUpdateThresholdAlerts() {
     return this.getStringAttribute('create_and_update_threshold_alerts');
   }
@@ -5032,7 +5032,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // create_and_update_zendesk_action - computed: true, optional: true, required: false
-  private _createAndUpdateZendeskAction?: string;
+  private _createAndUpdateZendeskAction?: string; 
   public get createAndUpdateZendeskAction() {
     return this.getStringAttribute('create_and_update_zendesk_action');
   }
@@ -5048,7 +5048,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // create_chat_agents - computed: true, optional: true, required: false
-  private _createChatAgents?: string;
+  private _createChatAgents?: string; 
   public get createChatAgents() {
     return this.getStringAttribute('create_chat_agents');
   }
@@ -5064,7 +5064,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // create_dashboard_executive_summary_with_q - computed: true, optional: true, required: false
-  private _createDashboardExecutiveSummaryWithQ?: string;
+  private _createDashboardExecutiveSummaryWithQ?: string; 
   public get createDashboardExecutiveSummaryWithQ() {
     return this.getStringAttribute('create_dashboard_executive_summary_with_q');
   }
@@ -5080,7 +5080,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // create_shared_folders - computed: true, optional: true, required: false
-  private _createSharedFolders?: string;
+  private _createSharedFolders?: string; 
   public get createSharedFolders() {
     return this.getStringAttribute('create_shared_folders');
   }
@@ -5096,7 +5096,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // create_spaces - computed: true, optional: true, required: false
-  private _createSpaces?: string;
+  private _createSpaces?: string; 
   public get createSpaces() {
     return this.getStringAttribute('create_spaces');
   }
@@ -5112,7 +5112,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // create_spice_dataset - computed: true, optional: true, required: false
-  private _createSpiceDataset?: string;
+  private _createSpiceDataset?: string; 
   public get createSpiceDataset() {
     return this.getStringAttribute('create_spice_dataset');
   }
@@ -5128,7 +5128,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // dashboard - computed: true, optional: true, required: false
-  private _dashboard?: string;
+  private _dashboard?: string; 
   public get dashboard() {
     return this.getStringAttribute('dashboard');
   }
@@ -5144,7 +5144,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // edit_visual_with_q - computed: true, optional: true, required: false
-  private _editVisualWithQ?: string;
+  private _editVisualWithQ?: string; 
   public get editVisualWithQ() {
     return this.getStringAttribute('edit_visual_with_q');
   }
@@ -5160,7 +5160,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // export_to_csv - computed: true, optional: true, required: false
-  private _exportToCsv?: string;
+  private _exportToCsv?: string; 
   public get exportToCsv() {
     return this.getStringAttribute('export_to_csv');
   }
@@ -5176,7 +5176,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // export_to_csv_in_scheduled_reports - computed: true, optional: true, required: false
-  private _exportToCsvInScheduledReports?: string;
+  private _exportToCsvInScheduledReports?: string; 
   public get exportToCsvInScheduledReports() {
     return this.getStringAttribute('export_to_csv_in_scheduled_reports');
   }
@@ -5192,7 +5192,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // export_to_excel - computed: true, optional: true, required: false
-  private _exportToExcel?: string;
+  private _exportToExcel?: string; 
   public get exportToExcel() {
     return this.getStringAttribute('export_to_excel');
   }
@@ -5208,7 +5208,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // export_to_excel_in_scheduled_reports - computed: true, optional: true, required: false
-  private _exportToExcelInScheduledReports?: string;
+  private _exportToExcelInScheduledReports?: string; 
   public get exportToExcelInScheduledReports() {
     return this.getStringAttribute('export_to_excel_in_scheduled_reports');
   }
@@ -5224,7 +5224,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // export_to_pdf - computed: true, optional: true, required: false
-  private _exportToPdf?: string;
+  private _exportToPdf?: string; 
   public get exportToPdf() {
     return this.getStringAttribute('export_to_pdf');
   }
@@ -5240,7 +5240,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // export_to_pdf_in_scheduled_reports - computed: true, optional: true, required: false
-  private _exportToPdfInScheduledReports?: string;
+  private _exportToPdfInScheduledReports?: string; 
   public get exportToPdfInScheduledReports() {
     return this.getStringAttribute('export_to_pdf_in_scheduled_reports');
   }
@@ -5256,7 +5256,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // extension - computed: true, optional: true, required: false
-  private _extension?: string;
+  private _extension?: string; 
   public get extension() {
     return this.getStringAttribute('extension');
   }
@@ -5272,7 +5272,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // fact_set_action - computed: true, optional: true, required: false
-  private _factSetAction?: string;
+  private _factSetAction?: string; 
   public get factSetAction() {
     return this.getStringAttribute('fact_set_action');
   }
@@ -5288,7 +5288,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // flow - computed: true, optional: true, required: false
-  private _flow?: string;
+  private _flow?: string; 
   public get flow() {
     return this.getStringAttribute('flow');
   }
@@ -5304,7 +5304,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // generic_http_action - computed: true, optional: true, required: false
-  private _genericHttpAction?: string;
+  private _genericHttpAction?: string; 
   public get genericHttpAction() {
     return this.getStringAttribute('generic_http_action');
   }
@@ -5320,7 +5320,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // github_action - computed: true, optional: true, required: false
-  private _githubAction?: string;
+  private _githubAction?: string; 
   public get githubAction() {
     return this.getStringAttribute('github_action');
   }
@@ -5336,7 +5336,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // google_calendar_action - computed: true, optional: true, required: false
-  private _googleCalendarAction?: string;
+  private _googleCalendarAction?: string; 
   public get googleCalendarAction() {
     return this.getStringAttribute('google_calendar_action');
   }
@@ -5352,7 +5352,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // hubspot_action - computed: true, optional: true, required: false
-  private _hubspotAction?: string;
+  private _hubspotAction?: string; 
   public get hubspotAction() {
     return this.getStringAttribute('hubspot_action');
   }
@@ -5368,7 +5368,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // hugging_face_action - computed: true, optional: true, required: false
-  private _huggingFaceAction?: string;
+  private _huggingFaceAction?: string; 
   public get huggingFaceAction() {
     return this.getStringAttribute('hugging_face_action');
   }
@@ -5384,7 +5384,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // include_content_in_scheduled_reports_email - computed: true, optional: true, required: false
-  private _includeContentInScheduledReportsEmail?: string;
+  private _includeContentInScheduledReportsEmail?: string; 
   public get includeContentInScheduledReportsEmail() {
     return this.getStringAttribute('include_content_in_scheduled_reports_email');
   }
@@ -5400,7 +5400,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // intercom_action - computed: true, optional: true, required: false
-  private _intercomAction?: string;
+  private _intercomAction?: string; 
   public get intercomAction() {
     return this.getStringAttribute('intercom_action');
   }
@@ -5416,7 +5416,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // invoke_apps_ai_inference - computed: true, optional: true, required: false
-  private _invokeAppsAiInference?: string;
+  private _invokeAppsAiInference?: string; 
   public get invokeAppsAiInference() {
     return this.getStringAttribute('invoke_apps_ai_inference');
   }
@@ -5432,7 +5432,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // jira_action - computed: true, optional: true, required: false
-  private _jiraAction?: string;
+  private _jiraAction?: string; 
   public get jiraAction() {
     return this.getStringAttribute('jira_action');
   }
@@ -5448,7 +5448,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // knowledge_base - computed: true, optional: true, required: false
-  private _knowledgeBase?: string;
+  private _knowledgeBase?: string; 
   public get knowledgeBase() {
     return this.getStringAttribute('knowledge_base');
   }
@@ -5464,7 +5464,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // linear_action - computed: true, optional: true, required: false
-  private _linearAction?: string;
+  private _linearAction?: string; 
   public get linearAction() {
     return this.getStringAttribute('linear_action');
   }
@@ -5480,7 +5480,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // manage_shared_folders - computed: true, optional: true, required: false
-  private _manageSharedFolders?: string;
+  private _manageSharedFolders?: string; 
   public get manageSharedFolders() {
     return this.getStringAttribute('manage_shared_folders');
   }
@@ -5496,7 +5496,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // mcp_action - computed: true, optional: true, required: false
-  private _mcpAction?: string;
+  private _mcpAction?: string; 
   public get mcpAction() {
     return this.getStringAttribute('mcp_action');
   }
@@ -5512,7 +5512,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // monday_action - computed: true, optional: true, required: false
-  private _mondayAction?: string;
+  private _mondayAction?: string; 
   public get mondayAction() {
     return this.getStringAttribute('monday_action');
   }
@@ -5528,7 +5528,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // ms_exchange_action - computed: true, optional: true, required: false
-  private _msExchangeAction?: string;
+  private _msExchangeAction?: string; 
   public get msExchangeAction() {
     return this.getStringAttribute('ms_exchange_action');
   }
@@ -5544,7 +5544,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // ms_teams_action - computed: true, optional: true, required: false
-  private _msTeamsAction?: string;
+  private _msTeamsAction?: string; 
   public get msTeamsAction() {
     return this.getStringAttribute('ms_teams_action');
   }
@@ -5560,7 +5560,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // new_relic_action - computed: true, optional: true, required: false
-  private _newRelicAction?: string;
+  private _newRelicAction?: string; 
   public get newRelicAction() {
     return this.getStringAttribute('new_relic_action');
   }
@@ -5576,7 +5576,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // notion_action - computed: true, optional: true, required: false
-  private _notionAction?: string;
+  private _notionAction?: string; 
   public get notionAction() {
     return this.getStringAttribute('notion_action');
   }
@@ -5592,7 +5592,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // one_drive_action - computed: true, optional: true, required: false
-  private _oneDriveAction?: string;
+  private _oneDriveAction?: string; 
   public get oneDriveAction() {
     return this.getStringAttribute('one_drive_action');
   }
@@ -5608,7 +5608,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // open_api_action - computed: true, optional: true, required: false
-  private _openApiAction?: string;
+  private _openApiAction?: string; 
   public get openApiAction() {
     return this.getStringAttribute('open_api_action');
   }
@@ -5624,7 +5624,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // pager_duty_action - computed: true, optional: true, required: false
-  private _pagerDutyAction?: string;
+  private _pagerDutyAction?: string; 
   public get pagerDutyAction() {
     return this.getStringAttribute('pager_duty_action');
   }
@@ -5640,7 +5640,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // perform_flow_ui_task - computed: true, optional: true, required: false
-  private _performFlowUiTask?: string;
+  private _performFlowUiTask?: string; 
   public get performFlowUiTask() {
     return this.getStringAttribute('perform_flow_ui_task');
   }
@@ -5656,7 +5656,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // print_reports - computed: true, optional: true, required: false
-  private _printReports?: string;
+  private _printReports?: string; 
   public get printReports() {
     return this.getStringAttribute('print_reports');
   }
@@ -5672,7 +5672,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // publish_without_approval - computed: true, optional: true, required: false
-  private _publishWithoutApproval?: string;
+  private _publishWithoutApproval?: string; 
   public get publishWithoutApproval() {
     return this.getStringAttribute('publish_without_approval');
   }
@@ -5688,7 +5688,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // rename_shared_folders - computed: true, optional: true, required: false
-  private _renameSharedFolders?: string;
+  private _renameSharedFolders?: string; 
   public get renameSharedFolders() {
     return this.getStringAttribute('rename_shared_folders');
   }
@@ -5704,7 +5704,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // research - computed: true, optional: true, required: false
-  private _research?: string;
+  private _research?: string; 
   public get research() {
     return this.getStringAttribute('research');
   }
@@ -5720,7 +5720,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // salesforce_action - computed: true, optional: true, required: false
-  private _salesforceAction?: string;
+  private _salesforceAction?: string; 
   public get salesforceAction() {
     return this.getStringAttribute('salesforce_action');
   }
@@ -5736,7 +5736,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // sand_p_global_energy_action - computed: true, optional: true, required: false
-  private _sandPGlobalEnergyAction?: string;
+  private _sandPGlobalEnergyAction?: string; 
   public get sandPGlobalEnergyAction() {
     return this.getStringAttribute('sand_p_global_energy_action');
   }
@@ -5752,7 +5752,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // sand_pgmi_action - computed: true, optional: true, required: false
-  private _sandPgmiAction?: string;
+  private _sandPgmiAction?: string; 
   public get sandPgmiAction() {
     return this.getStringAttribute('sand_pgmi_action');
   }
@@ -5768,7 +5768,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // sap_bill_of_material_action - computed: true, optional: true, required: false
-  private _sapBillOfMaterialAction?: string;
+  private _sapBillOfMaterialAction?: string; 
   public get sapBillOfMaterialAction() {
     return this.getStringAttribute('sap_bill_of_material_action');
   }
@@ -5784,7 +5784,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // sap_business_partner_action - computed: true, optional: true, required: false
-  private _sapBusinessPartnerAction?: string;
+  private _sapBusinessPartnerAction?: string; 
   public get sapBusinessPartnerAction() {
     return this.getStringAttribute('sap_business_partner_action');
   }
@@ -5800,7 +5800,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // sap_material_stock_action - computed: true, optional: true, required: false
-  private _sapMaterialStockAction?: string;
+  private _sapMaterialStockAction?: string; 
   public get sapMaterialStockAction() {
     return this.getStringAttribute('sap_material_stock_action');
   }
@@ -5816,7 +5816,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // sap_physical_inventory_action - computed: true, optional: true, required: false
-  private _sapPhysicalInventoryAction?: string;
+  private _sapPhysicalInventoryAction?: string; 
   public get sapPhysicalInventoryAction() {
     return this.getStringAttribute('sap_physical_inventory_action');
   }
@@ -5832,7 +5832,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // sap_product_master_data_action - computed: true, optional: true, required: false
-  private _sapProductMasterDataAction?: string;
+  private _sapProductMasterDataAction?: string; 
   public get sapProductMasterDataAction() {
     return this.getStringAttribute('sap_product_master_data_action');
   }
@@ -5848,7 +5848,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // service_now_action - computed: true, optional: true, required: false
-  private _serviceNowAction?: string;
+  private _serviceNowAction?: string; 
   public get serviceNowAction() {
     return this.getStringAttribute('service_now_action');
   }
@@ -5864,7 +5864,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // share_amazon_bedrock_ars_action - computed: true, optional: true, required: false
-  private _shareAmazonBedrockArsAction?: string;
+  private _shareAmazonBedrockArsAction?: string; 
   public get shareAmazonBedrockArsAction() {
     return this.getStringAttribute('share_amazon_bedrock_ars_action');
   }
@@ -5880,7 +5880,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // share_amazon_bedrock_fs_action - computed: true, optional: true, required: false
-  private _shareAmazonBedrockFsAction?: string;
+  private _shareAmazonBedrockFsAction?: string; 
   public get shareAmazonBedrockFsAction() {
     return this.getStringAttribute('share_amazon_bedrock_fs_action');
   }
@@ -5896,7 +5896,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // share_amazon_bedrock_krs_action - computed: true, optional: true, required: false
-  private _shareAmazonBedrockKrsAction?: string;
+  private _shareAmazonBedrockKrsAction?: string; 
   public get shareAmazonBedrockKrsAction() {
     return this.getStringAttribute('share_amazon_bedrock_krs_action');
   }
@@ -5912,7 +5912,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // share_amazon_s_three_action - computed: true, optional: true, required: false
-  private _shareAmazonSThreeAction?: string;
+  private _shareAmazonSThreeAction?: string; 
   public get shareAmazonSThreeAction() {
     return this.getStringAttribute('share_amazon_s_three_action');
   }
@@ -5928,7 +5928,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // share_analyses - computed: true, optional: true, required: false
-  private _shareAnalyses?: string;
+  private _shareAnalyses?: string; 
   public get shareAnalyses() {
     return this.getStringAttribute('share_analyses');
   }
@@ -5944,7 +5944,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // share_apps - computed: true, optional: true, required: false
-  private _shareApps?: string;
+  private _shareApps?: string; 
   public get shareApps() {
     return this.getStringAttribute('share_apps');
   }
@@ -5960,7 +5960,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // share_asana_action - computed: true, optional: true, required: false
-  private _shareAsanaAction?: string;
+  private _shareAsanaAction?: string; 
   public get shareAsanaAction() {
     return this.getStringAttribute('share_asana_action');
   }
@@ -5976,7 +5976,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // share_bamboo_hr_action - computed: true, optional: true, required: false
-  private _shareBambooHrAction?: string;
+  private _shareBambooHrAction?: string; 
   public get shareBambooHrAction() {
     return this.getStringAttribute('share_bamboo_hr_action');
   }
@@ -5992,7 +5992,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // share_box_agent_action - computed: true, optional: true, required: false
-  private _shareBoxAgentAction?: string;
+  private _shareBoxAgentAction?: string; 
   public get shareBoxAgentAction() {
     return this.getStringAttribute('share_box_agent_action');
   }
@@ -6008,7 +6008,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // share_canva_agent_action - computed: true, optional: true, required: false
-  private _shareCanvaAgentAction?: string;
+  private _shareCanvaAgentAction?: string; 
   public get shareCanvaAgentAction() {
     return this.getStringAttribute('share_canva_agent_action');
   }
@@ -6024,7 +6024,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // share_chat_agents - computed: true, optional: true, required: false
-  private _shareChatAgents?: string;
+  private _shareChatAgents?: string; 
   public get shareChatAgents() {
     return this.getStringAttribute('share_chat_agents');
   }
@@ -6040,7 +6040,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // share_comprehend_action - computed: true, optional: true, required: false
-  private _shareComprehendAction?: string;
+  private _shareComprehendAction?: string; 
   public get shareComprehendAction() {
     return this.getStringAttribute('share_comprehend_action');
   }
@@ -6056,7 +6056,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // share_comprehend_medical_action - computed: true, optional: true, required: false
-  private _shareComprehendMedicalAction?: string;
+  private _shareComprehendMedicalAction?: string; 
   public get shareComprehendMedicalAction() {
     return this.getStringAttribute('share_comprehend_medical_action');
   }
@@ -6072,7 +6072,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // share_confluence_action - computed: true, optional: true, required: false
-  private _shareConfluenceAction?: string;
+  private _shareConfluenceAction?: string; 
   public get shareConfluenceAction() {
     return this.getStringAttribute('share_confluence_action');
   }
@@ -6088,7 +6088,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // share_dashboards - computed: true, optional: true, required: false
-  private _shareDashboards?: string;
+  private _shareDashboards?: string; 
   public get shareDashboards() {
     return this.getStringAttribute('share_dashboards');
   }
@@ -6104,7 +6104,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // share_data_sources - computed: true, optional: true, required: false
-  private _shareDataSources?: string;
+  private _shareDataSources?: string; 
   public get shareDataSources() {
     return this.getStringAttribute('share_data_sources');
   }
@@ -6120,7 +6120,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // share_datasets - computed: true, optional: true, required: false
-  private _shareDatasets?: string;
+  private _shareDatasets?: string; 
   public get shareDatasets() {
     return this.getStringAttribute('share_datasets');
   }
@@ -6136,7 +6136,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // share_fact_set_action - computed: true, optional: true, required: false
-  private _shareFactSetAction?: string;
+  private _shareFactSetAction?: string; 
   public get shareFactSetAction() {
     return this.getStringAttribute('share_fact_set_action');
   }
@@ -6152,7 +6152,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // share_generic_http_action - computed: true, optional: true, required: false
-  private _shareGenericHttpAction?: string;
+  private _shareGenericHttpAction?: string; 
   public get shareGenericHttpAction() {
     return this.getStringAttribute('share_generic_http_action');
   }
@@ -6168,7 +6168,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // share_github_action - computed: true, optional: true, required: false
-  private _shareGithubAction?: string;
+  private _shareGithubAction?: string; 
   public get shareGithubAction() {
     return this.getStringAttribute('share_github_action');
   }
@@ -6184,7 +6184,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // share_google_calendar_action - computed: true, optional: true, required: false
-  private _shareGoogleCalendarAction?: string;
+  private _shareGoogleCalendarAction?: string; 
   public get shareGoogleCalendarAction() {
     return this.getStringAttribute('share_google_calendar_action');
   }
@@ -6200,7 +6200,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // share_hubspot_action - computed: true, optional: true, required: false
-  private _shareHubspotAction?: string;
+  private _shareHubspotAction?: string; 
   public get shareHubspotAction() {
     return this.getStringAttribute('share_hubspot_action');
   }
@@ -6216,7 +6216,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // share_hugging_face_action - computed: true, optional: true, required: false
-  private _shareHuggingFaceAction?: string;
+  private _shareHuggingFaceAction?: string; 
   public get shareHuggingFaceAction() {
     return this.getStringAttribute('share_hugging_face_action');
   }
@@ -6232,7 +6232,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // share_intercom_action - computed: true, optional: true, required: false
-  private _shareIntercomAction?: string;
+  private _shareIntercomAction?: string; 
   public get shareIntercomAction() {
     return this.getStringAttribute('share_intercom_action');
   }
@@ -6248,7 +6248,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // share_jira_action - computed: true, optional: true, required: false
-  private _shareJiraAction?: string;
+  private _shareJiraAction?: string; 
   public get shareJiraAction() {
     return this.getStringAttribute('share_jira_action');
   }
@@ -6264,7 +6264,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // share_knowledge_bases - computed: true, optional: true, required: false
-  private _shareKnowledgeBases?: string;
+  private _shareKnowledgeBases?: string; 
   public get shareKnowledgeBases() {
     return this.getStringAttribute('share_knowledge_bases');
   }
@@ -6280,7 +6280,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // share_linear_action - computed: true, optional: true, required: false
-  private _shareLinearAction?: string;
+  private _shareLinearAction?: string; 
   public get shareLinearAction() {
     return this.getStringAttribute('share_linear_action');
   }
@@ -6296,7 +6296,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // share_mcp_action - computed: true, optional: true, required: false
-  private _shareMcpAction?: string;
+  private _shareMcpAction?: string; 
   public get shareMcpAction() {
     return this.getStringAttribute('share_mcp_action');
   }
@@ -6312,7 +6312,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // share_monday_action - computed: true, optional: true, required: false
-  private _shareMondayAction?: string;
+  private _shareMondayAction?: string; 
   public get shareMondayAction() {
     return this.getStringAttribute('share_monday_action');
   }
@@ -6328,7 +6328,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // share_ms_exchange_action - computed: true, optional: true, required: false
-  private _shareMsExchangeAction?: string;
+  private _shareMsExchangeAction?: string; 
   public get shareMsExchangeAction() {
     return this.getStringAttribute('share_ms_exchange_action');
   }
@@ -6344,7 +6344,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // share_ms_teams_action - computed: true, optional: true, required: false
-  private _shareMsTeamsAction?: string;
+  private _shareMsTeamsAction?: string; 
   public get shareMsTeamsAction() {
     return this.getStringAttribute('share_ms_teams_action');
   }
@@ -6360,7 +6360,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // share_new_relic_action - computed: true, optional: true, required: false
-  private _shareNewRelicAction?: string;
+  private _shareNewRelicAction?: string; 
   public get shareNewRelicAction() {
     return this.getStringAttribute('share_new_relic_action');
   }
@@ -6376,7 +6376,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // share_notion_action - computed: true, optional: true, required: false
-  private _shareNotionAction?: string;
+  private _shareNotionAction?: string; 
   public get shareNotionAction() {
     return this.getStringAttribute('share_notion_action');
   }
@@ -6392,7 +6392,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // share_one_drive_action - computed: true, optional: true, required: false
-  private _shareOneDriveAction?: string;
+  private _shareOneDriveAction?: string; 
   public get shareOneDriveAction() {
     return this.getStringAttribute('share_one_drive_action');
   }
@@ -6408,7 +6408,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // share_open_api_action - computed: true, optional: true, required: false
-  private _shareOpenApiAction?: string;
+  private _shareOpenApiAction?: string; 
   public get shareOpenApiAction() {
     return this.getStringAttribute('share_open_api_action');
   }
@@ -6424,7 +6424,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // share_pager_duty_action - computed: true, optional: true, required: false
-  private _sharePagerDutyAction?: string;
+  private _sharePagerDutyAction?: string; 
   public get sharePagerDutyAction() {
     return this.getStringAttribute('share_pager_duty_action');
   }
@@ -6440,7 +6440,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // share_point_action - computed: true, optional: true, required: false
-  private _sharePointAction?: string;
+  private _sharePointAction?: string; 
   public get sharePointAction() {
     return this.getStringAttribute('share_point_action');
   }
@@ -6456,7 +6456,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // share_salesforce_action - computed: true, optional: true, required: false
-  private _shareSalesforceAction?: string;
+  private _shareSalesforceAction?: string; 
   public get shareSalesforceAction() {
     return this.getStringAttribute('share_salesforce_action');
   }
@@ -6472,7 +6472,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // share_sand_p_global_energy_action - computed: true, optional: true, required: false
-  private _shareSandPGlobalEnergyAction?: string;
+  private _shareSandPGlobalEnergyAction?: string; 
   public get shareSandPGlobalEnergyAction() {
     return this.getStringAttribute('share_sand_p_global_energy_action');
   }
@@ -6488,7 +6488,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // share_sand_pgmi_action - computed: true, optional: true, required: false
-  private _shareSandPgmiAction?: string;
+  private _shareSandPgmiAction?: string; 
   public get shareSandPgmiAction() {
     return this.getStringAttribute('share_sand_pgmi_action');
   }
@@ -6504,7 +6504,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // share_sap_bill_of_material_action - computed: true, optional: true, required: false
-  private _shareSapBillOfMaterialAction?: string;
+  private _shareSapBillOfMaterialAction?: string; 
   public get shareSapBillOfMaterialAction() {
     return this.getStringAttribute('share_sap_bill_of_material_action');
   }
@@ -6520,7 +6520,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // share_sap_business_partner_action - computed: true, optional: true, required: false
-  private _shareSapBusinessPartnerAction?: string;
+  private _shareSapBusinessPartnerAction?: string; 
   public get shareSapBusinessPartnerAction() {
     return this.getStringAttribute('share_sap_business_partner_action');
   }
@@ -6536,7 +6536,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // share_sap_material_stock_action - computed: true, optional: true, required: false
-  private _shareSapMaterialStockAction?: string;
+  private _shareSapMaterialStockAction?: string; 
   public get shareSapMaterialStockAction() {
     return this.getStringAttribute('share_sap_material_stock_action');
   }
@@ -6552,7 +6552,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // share_sap_physical_inventory_action - computed: true, optional: true, required: false
-  private _shareSapPhysicalInventoryAction?: string;
+  private _shareSapPhysicalInventoryAction?: string; 
   public get shareSapPhysicalInventoryAction() {
     return this.getStringAttribute('share_sap_physical_inventory_action');
   }
@@ -6568,7 +6568,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // share_sap_product_master_data_action - computed: true, optional: true, required: false
-  private _shareSapProductMasterDataAction?: string;
+  private _shareSapProductMasterDataAction?: string; 
   public get shareSapProductMasterDataAction() {
     return this.getStringAttribute('share_sap_product_master_data_action');
   }
@@ -6584,7 +6584,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // share_service_now_action - computed: true, optional: true, required: false
-  private _shareServiceNowAction?: string;
+  private _shareServiceNowAction?: string; 
   public get shareServiceNowAction() {
     return this.getStringAttribute('share_service_now_action');
   }
@@ -6600,7 +6600,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // share_share_point_action - computed: true, optional: true, required: false
-  private _shareSharePointAction?: string;
+  private _shareSharePointAction?: string; 
   public get shareSharePointAction() {
     return this.getStringAttribute('share_share_point_action');
   }
@@ -6616,7 +6616,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // share_slack_action - computed: true, optional: true, required: false
-  private _shareSlackAction?: string;
+  private _shareSlackAction?: string; 
   public get shareSlackAction() {
     return this.getStringAttribute('share_slack_action');
   }
@@ -6632,7 +6632,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // share_smartsheet_action - computed: true, optional: true, required: false
-  private _shareSmartsheetAction?: string;
+  private _shareSmartsheetAction?: string; 
   public get shareSmartsheetAction() {
     return this.getStringAttribute('share_smartsheet_action');
   }
@@ -6648,7 +6648,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // share_spaces - computed: true, optional: true, required: false
-  private _shareSpaces?: string;
+  private _shareSpaces?: string; 
   public get shareSpaces() {
     return this.getStringAttribute('share_spaces');
   }
@@ -6664,7 +6664,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // share_textract_action - computed: true, optional: true, required: false
-  private _shareTextractAction?: string;
+  private _shareTextractAction?: string; 
   public get shareTextractAction() {
     return this.getStringAttribute('share_textract_action');
   }
@@ -6680,7 +6680,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // share_zendesk_action - computed: true, optional: true, required: false
-  private _shareZendeskAction?: string;
+  private _shareZendeskAction?: string; 
   public get shareZendeskAction() {
     return this.getStringAttribute('share_zendesk_action');
   }
@@ -6696,7 +6696,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // slack_action - computed: true, optional: true, required: false
-  private _slackAction?: string;
+  private _slackAction?: string; 
   public get slackAction() {
     return this.getStringAttribute('slack_action');
   }
@@ -6712,7 +6712,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // smartsheet_action - computed: true, optional: true, required: false
-  private _smartsheetAction?: string;
+  private _smartsheetAction?: string; 
   public get smartsheetAction() {
     return this.getStringAttribute('smartsheet_action');
   }
@@ -6728,7 +6728,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // space - computed: true, optional: true, required: false
-  private _space?: string;
+  private _space?: string; 
   public get space() {
     return this.getStringAttribute('space');
   }
@@ -6744,7 +6744,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // subscribe_dashboard_email_reports - computed: true, optional: true, required: false
-  private _subscribeDashboardEmailReports?: string;
+  private _subscribeDashboardEmailReports?: string; 
   public get subscribeDashboardEmailReports() {
     return this.getStringAttribute('subscribe_dashboard_email_reports');
   }
@@ -6760,7 +6760,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // textract_action - computed: true, optional: true, required: false
-  private _textractAction?: string;
+  private _textractAction?: string; 
   public get textractAction() {
     return this.getStringAttribute('textract_action');
   }
@@ -6776,7 +6776,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // topic - computed: true, optional: true, required: false
-  private _topic?: string;
+  private _topic?: string; 
   public get topic() {
     return this.getStringAttribute('topic');
   }
@@ -6792,7 +6792,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // use_agent_web_search - computed: true, optional: true, required: false
-  private _useAgentWebSearch?: string;
+  private _useAgentWebSearch?: string; 
   public get useAgentWebSearch() {
     return this.getStringAttribute('use_agent_web_search');
   }
@@ -6808,7 +6808,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // use_amazon_bedrock_ars_action - computed: true, optional: true, required: false
-  private _useAmazonBedrockArsAction?: string;
+  private _useAmazonBedrockArsAction?: string; 
   public get useAmazonBedrockArsAction() {
     return this.getStringAttribute('use_amazon_bedrock_ars_action');
   }
@@ -6824,7 +6824,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // use_amazon_bedrock_fs_action - computed: true, optional: true, required: false
-  private _useAmazonBedrockFsAction?: string;
+  private _useAmazonBedrockFsAction?: string; 
   public get useAmazonBedrockFsAction() {
     return this.getStringAttribute('use_amazon_bedrock_fs_action');
   }
@@ -6840,7 +6840,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // use_amazon_bedrock_krs_action - computed: true, optional: true, required: false
-  private _useAmazonBedrockKrsAction?: string;
+  private _useAmazonBedrockKrsAction?: string; 
   public get useAmazonBedrockKrsAction() {
     return this.getStringAttribute('use_amazon_bedrock_krs_action');
   }
@@ -6856,7 +6856,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // use_amazon_s_three_action - computed: true, optional: true, required: false
-  private _useAmazonSThreeAction?: string;
+  private _useAmazonSThreeAction?: string; 
   public get useAmazonSThreeAction() {
     return this.getStringAttribute('use_amazon_s_three_action');
   }
@@ -6872,7 +6872,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // use_asana_action - computed: true, optional: true, required: false
-  private _useAsanaAction?: string;
+  private _useAsanaAction?: string; 
   public get useAsanaAction() {
     return this.getStringAttribute('use_asana_action');
   }
@@ -6888,7 +6888,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // use_bamboo_hr_action - computed: true, optional: true, required: false
-  private _useBambooHrAction?: string;
+  private _useBambooHrAction?: string; 
   public get useBambooHrAction() {
     return this.getStringAttribute('use_bamboo_hr_action');
   }
@@ -6904,7 +6904,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // use_bedrock_models - computed: true, optional: true, required: false
-  private _useBedrockModels?: string;
+  private _useBedrockModels?: string; 
   public get useBedrockModels() {
     return this.getStringAttribute('use_bedrock_models');
   }
@@ -6920,7 +6920,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // use_box_agent_action - computed: true, optional: true, required: false
-  private _useBoxAgentAction?: string;
+  private _useBoxAgentAction?: string; 
   public get useBoxAgentAction() {
     return this.getStringAttribute('use_box_agent_action');
   }
@@ -6936,7 +6936,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // use_canva_agent_action - computed: true, optional: true, required: false
-  private _useCanvaAgentAction?: string;
+  private _useCanvaAgentAction?: string; 
   public get useCanvaAgentAction() {
     return this.getStringAttribute('use_canva_agent_action');
   }
@@ -6952,7 +6952,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // use_comprehend_action - computed: true, optional: true, required: false
-  private _useComprehendAction?: string;
+  private _useComprehendAction?: string; 
   public get useComprehendAction() {
     return this.getStringAttribute('use_comprehend_action');
   }
@@ -6968,7 +6968,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // use_comprehend_medical_action - computed: true, optional: true, required: false
-  private _useComprehendMedicalAction?: string;
+  private _useComprehendMedicalAction?: string; 
   public get useComprehendMedicalAction() {
     return this.getStringAttribute('use_comprehend_medical_action');
   }
@@ -6984,7 +6984,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // use_confluence_action - computed: true, optional: true, required: false
-  private _useConfluenceAction?: string;
+  private _useConfluenceAction?: string; 
   public get useConfluenceAction() {
     return this.getStringAttribute('use_confluence_action');
   }
@@ -7000,7 +7000,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // use_fact_set_action - computed: true, optional: true, required: false
-  private _useFactSetAction?: string;
+  private _useFactSetAction?: string; 
   public get useFactSetAction() {
     return this.getStringAttribute('use_fact_set_action');
   }
@@ -7016,7 +7016,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // use_generic_http_action - computed: true, optional: true, required: false
-  private _useGenericHttpAction?: string;
+  private _useGenericHttpAction?: string; 
   public get useGenericHttpAction() {
     return this.getStringAttribute('use_generic_http_action');
   }
@@ -7032,7 +7032,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // use_github_action - computed: true, optional: true, required: false
-  private _useGithubAction?: string;
+  private _useGithubAction?: string; 
   public get useGithubAction() {
     return this.getStringAttribute('use_github_action');
   }
@@ -7048,7 +7048,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // use_google_calendar_action - computed: true, optional: true, required: false
-  private _useGoogleCalendarAction?: string;
+  private _useGoogleCalendarAction?: string; 
   public get useGoogleCalendarAction() {
     return this.getStringAttribute('use_google_calendar_action');
   }
@@ -7064,7 +7064,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // use_hubspot_action - computed: true, optional: true, required: false
-  private _useHubspotAction?: string;
+  private _useHubspotAction?: string; 
   public get useHubspotAction() {
     return this.getStringAttribute('use_hubspot_action');
   }
@@ -7080,7 +7080,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // use_hugging_face_action - computed: true, optional: true, required: false
-  private _useHuggingFaceAction?: string;
+  private _useHuggingFaceAction?: string; 
   public get useHuggingFaceAction() {
     return this.getStringAttribute('use_hugging_face_action');
   }
@@ -7096,7 +7096,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // use_intercom_action - computed: true, optional: true, required: false
-  private _useIntercomAction?: string;
+  private _useIntercomAction?: string; 
   public get useIntercomAction() {
     return this.getStringAttribute('use_intercom_action');
   }
@@ -7112,7 +7112,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // use_jira_action - computed: true, optional: true, required: false
-  private _useJiraAction?: string;
+  private _useJiraAction?: string; 
   public get useJiraAction() {
     return this.getStringAttribute('use_jira_action');
   }
@@ -7128,7 +7128,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // use_linear_action - computed: true, optional: true, required: false
-  private _useLinearAction?: string;
+  private _useLinearAction?: string; 
   public get useLinearAction() {
     return this.getStringAttribute('use_linear_action');
   }
@@ -7144,7 +7144,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // use_mcp_action - computed: true, optional: true, required: false
-  private _useMcpAction?: string;
+  private _useMcpAction?: string; 
   public get useMcpAction() {
     return this.getStringAttribute('use_mcp_action');
   }
@@ -7160,7 +7160,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // use_monday_action - computed: true, optional: true, required: false
-  private _useMondayAction?: string;
+  private _useMondayAction?: string; 
   public get useMondayAction() {
     return this.getStringAttribute('use_monday_action');
   }
@@ -7176,7 +7176,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // use_ms_exchange_action - computed: true, optional: true, required: false
-  private _useMsExchangeAction?: string;
+  private _useMsExchangeAction?: string; 
   public get useMsExchangeAction() {
     return this.getStringAttribute('use_ms_exchange_action');
   }
@@ -7192,7 +7192,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // use_ms_teams_action - computed: true, optional: true, required: false
-  private _useMsTeamsAction?: string;
+  private _useMsTeamsAction?: string; 
   public get useMsTeamsAction() {
     return this.getStringAttribute('use_ms_teams_action');
   }
@@ -7208,7 +7208,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // use_new_relic_action - computed: true, optional: true, required: false
-  private _useNewRelicAction?: string;
+  private _useNewRelicAction?: string; 
   public get useNewRelicAction() {
     return this.getStringAttribute('use_new_relic_action');
   }
@@ -7224,7 +7224,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // use_notion_action - computed: true, optional: true, required: false
-  private _useNotionAction?: string;
+  private _useNotionAction?: string; 
   public get useNotionAction() {
     return this.getStringAttribute('use_notion_action');
   }
@@ -7240,7 +7240,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // use_one_drive_action - computed: true, optional: true, required: false
-  private _useOneDriveAction?: string;
+  private _useOneDriveAction?: string; 
   public get useOneDriveAction() {
     return this.getStringAttribute('use_one_drive_action');
   }
@@ -7256,7 +7256,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // use_open_api_action - computed: true, optional: true, required: false
-  private _useOpenApiAction?: string;
+  private _useOpenApiAction?: string; 
   public get useOpenApiAction() {
     return this.getStringAttribute('use_open_api_action');
   }
@@ -7272,7 +7272,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // use_pager_duty_action - computed: true, optional: true, required: false
-  private _usePagerDutyAction?: string;
+  private _usePagerDutyAction?: string; 
   public get usePagerDutyAction() {
     return this.getStringAttribute('use_pager_duty_action');
   }
@@ -7288,7 +7288,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // use_salesforce_action - computed: true, optional: true, required: false
-  private _useSalesforceAction?: string;
+  private _useSalesforceAction?: string; 
   public get useSalesforceAction() {
     return this.getStringAttribute('use_salesforce_action');
   }
@@ -7304,7 +7304,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // use_sand_p_global_energy_action - computed: true, optional: true, required: false
-  private _useSandPGlobalEnergyAction?: string;
+  private _useSandPGlobalEnergyAction?: string; 
   public get useSandPGlobalEnergyAction() {
     return this.getStringAttribute('use_sand_p_global_energy_action');
   }
@@ -7320,7 +7320,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // use_sand_pgmi_action - computed: true, optional: true, required: false
-  private _useSandPgmiAction?: string;
+  private _useSandPgmiAction?: string; 
   public get useSandPgmiAction() {
     return this.getStringAttribute('use_sand_pgmi_action');
   }
@@ -7336,7 +7336,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // use_sap_bill_of_material_action - computed: true, optional: true, required: false
-  private _useSapBillOfMaterialAction?: string;
+  private _useSapBillOfMaterialAction?: string; 
   public get useSapBillOfMaterialAction() {
     return this.getStringAttribute('use_sap_bill_of_material_action');
   }
@@ -7352,7 +7352,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // use_sap_business_partner_action - computed: true, optional: true, required: false
-  private _useSapBusinessPartnerAction?: string;
+  private _useSapBusinessPartnerAction?: string; 
   public get useSapBusinessPartnerAction() {
     return this.getStringAttribute('use_sap_business_partner_action');
   }
@@ -7368,7 +7368,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // use_sap_material_stock_action - computed: true, optional: true, required: false
-  private _useSapMaterialStockAction?: string;
+  private _useSapMaterialStockAction?: string; 
   public get useSapMaterialStockAction() {
     return this.getStringAttribute('use_sap_material_stock_action');
   }
@@ -7384,7 +7384,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // use_sap_physical_inventory_action - computed: true, optional: true, required: false
-  private _useSapPhysicalInventoryAction?: string;
+  private _useSapPhysicalInventoryAction?: string; 
   public get useSapPhysicalInventoryAction() {
     return this.getStringAttribute('use_sap_physical_inventory_action');
   }
@@ -7400,7 +7400,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // use_sap_product_master_data_action - computed: true, optional: true, required: false
-  private _useSapProductMasterDataAction?: string;
+  private _useSapProductMasterDataAction?: string; 
   public get useSapProductMasterDataAction() {
     return this.getStringAttribute('use_sap_product_master_data_action');
   }
@@ -7416,7 +7416,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // use_service_now_action - computed: true, optional: true, required: false
-  private _useServiceNowAction?: string;
+  private _useServiceNowAction?: string; 
   public get useServiceNowAction() {
     return this.getStringAttribute('use_service_now_action');
   }
@@ -7432,7 +7432,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // use_share_point_action - computed: true, optional: true, required: false
-  private _useSharePointAction?: string;
+  private _useSharePointAction?: string; 
   public get useSharePointAction() {
     return this.getStringAttribute('use_share_point_action');
   }
@@ -7448,7 +7448,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // use_slack_action - computed: true, optional: true, required: false
-  private _useSlackAction?: string;
+  private _useSlackAction?: string; 
   public get useSlackAction() {
     return this.getStringAttribute('use_slack_action');
   }
@@ -7464,7 +7464,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // use_smartsheet_action - computed: true, optional: true, required: false
-  private _useSmartsheetAction?: string;
+  private _useSmartsheetAction?: string; 
   public get useSmartsheetAction() {
     return this.getStringAttribute('use_smartsheet_action');
   }
@@ -7480,7 +7480,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // use_textract_action - computed: true, optional: true, required: false
-  private _useTextractAction?: string;
+  private _useTextractAction?: string; 
   public get useTextractAction() {
     return this.getStringAttribute('use_textract_action');
   }
@@ -7496,7 +7496,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // use_zendesk_action - computed: true, optional: true, required: false
-  private _useZendeskAction?: string;
+  private _useZendeskAction?: string; 
   public get useZendeskAction() {
     return this.getStringAttribute('use_zendesk_action');
   }
@@ -7512,7 +7512,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // view_account_spice_capacity - computed: true, optional: true, required: false
-  private _viewAccountSpiceCapacity?: string;
+  private _viewAccountSpiceCapacity?: string; 
   public get viewAccountSpiceCapacity() {
     return this.getStringAttribute('view_account_spice_capacity');
   }
@@ -7528,7 +7528,7 @@ export class QuicksightCustomPermissionsCapabilitiesOutputReference extends cdkt
   }
 
   // zendesk_action - computed: true, optional: true, required: false
-  private _zendeskAction?: string;
+  private _zendeskAction?: string; 
   public get zendeskAction() {
     return this.getStringAttribute('zendesk_action');
   }
@@ -7645,7 +7645,7 @@ export class QuicksightCustomPermissionsTagsOutputReference extends cdktn.Comple
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -7661,7 +7661,7 @@ export class QuicksightCustomPermissionsTagsOutputReference extends cdktn.Comple
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -7763,7 +7763,7 @@ export class QuicksightCustomPermissions extends cdktn.TerraformResource {
   }
 
   // aws_account_id - computed: false, optional: false, required: true
-  private _awsAccountId?: string;
+  private _awsAccountId?: string; 
   public get awsAccountId() {
     return this.getStringAttribute('aws_account_id');
   }
@@ -7792,7 +7792,7 @@ export class QuicksightCustomPermissions extends cdktn.TerraformResource {
   }
 
   // custom_permissions_name - computed: false, optional: false, required: true
-  private _customPermissionsName?: string;
+  private _customPermissionsName?: string; 
   public get customPermissionsName() {
     return this.getStringAttribute('custom_permissions_name');
   }

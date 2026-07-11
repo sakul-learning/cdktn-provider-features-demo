@@ -131,7 +131,7 @@ export class Kinesisanalyticsv2ApplicationSnapshotTimeoutsOutputReference extend
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -147,7 +147,7 @@ export class Kinesisanalyticsv2ApplicationSnapshotTimeoutsOutputReference extend
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -225,7 +225,7 @@ export class Kinesisanalyticsv2ApplicationSnapshot extends cdktn.TerraformResour
   // ==========
 
   // application_name - computed: false, optional: false, required: true
-  private _applicationName?: string;
+  private _applicationName?: string; 
   public get applicationName() {
     return this.getStringAttribute('application_name');
   }
@@ -243,7 +243,7 @@ export class Kinesisanalyticsv2ApplicationSnapshot extends cdktn.TerraformResour
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -259,7 +259,7 @@ export class Kinesisanalyticsv2ApplicationSnapshot extends cdktn.TerraformResour
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -280,7 +280,7 @@ export class Kinesisanalyticsv2ApplicationSnapshot extends cdktn.TerraformResour
   }
 
   // snapshot_name - computed: false, optional: false, required: true
-  private _snapshotName?: string;
+  private _snapshotName?: string; 
   public get snapshotName() {
     return this.getStringAttribute('snapshot_name');
   }

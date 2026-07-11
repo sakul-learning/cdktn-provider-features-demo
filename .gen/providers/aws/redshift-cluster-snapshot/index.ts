@@ -111,7 +111,7 @@ export class RedshiftClusterSnapshot extends cdktn.TerraformResource {
   }
 
   // cluster_identifier - computed: false, optional: false, required: true
-  private _clusterIdentifier?: string;
+  private _clusterIdentifier?: string; 
   public get clusterIdentifier() {
     return this.getStringAttribute('cluster_identifier');
   }
@@ -124,7 +124,7 @@ export class RedshiftClusterSnapshot extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -145,7 +145,7 @@ export class RedshiftClusterSnapshot extends cdktn.TerraformResource {
   }
 
   // manual_snapshot_retention_period - computed: false, optional: true, required: false
-  private _manualSnapshotRetentionPeriod?: number;
+  private _manualSnapshotRetentionPeriod?: number; 
   public get manualSnapshotRetentionPeriod() {
     return this.getNumberAttribute('manual_snapshot_retention_period');
   }
@@ -166,7 +166,7 @@ export class RedshiftClusterSnapshot extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -182,7 +182,7 @@ export class RedshiftClusterSnapshot extends cdktn.TerraformResource {
   }
 
   // snapshot_identifier - computed: false, optional: false, required: true
-  private _snapshotIdentifier?: string;
+  private _snapshotIdentifier?: string; 
   public get snapshotIdentifier() {
     return this.getStringAttribute('snapshot_identifier');
   }
@@ -195,7 +195,7 @@ export class RedshiftClusterSnapshot extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -211,7 +211,7 @@ export class RedshiftClusterSnapshot extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

@@ -217,7 +217,7 @@ export class CloudwatchLogAlarmScheduledQueryConfigurationScheduleConfigurationO
   }
 
   // end_time_offset - computed: true, optional: true, required: false
-  private _endTimeOffset?: number;
+  private _endTimeOffset?: number; 
   public get endTimeOffset() {
     return this.getNumberAttribute('end_time_offset');
   }
@@ -233,7 +233,7 @@ export class CloudwatchLogAlarmScheduledQueryConfigurationScheduleConfigurationO
   }
 
   // schedule_expression - computed: false, optional: false, required: true
-  private _scheduleExpression?: string;
+  private _scheduleExpression?: string; 
   public get scheduleExpression() {
     return this.getStringAttribute('schedule_expression');
   }
@@ -246,7 +246,7 @@ export class CloudwatchLogAlarmScheduledQueryConfigurationScheduleConfigurationO
   }
 
   // start_time_offset - computed: true, optional: true, required: false
-  private _startTimeOffset?: number;
+  private _startTimeOffset?: number; 
   public get startTimeOffset() {
     return this.getNumberAttribute('start_time_offset');
   }
@@ -418,7 +418,7 @@ export class CloudwatchLogAlarmScheduledQueryConfigurationOutputReference extend
   }
 
   // aggregation_expression - computed: false, optional: false, required: true
-  private _aggregationExpression?: string;
+  private _aggregationExpression?: string; 
   public get aggregationExpression() {
     return this.getStringAttribute('aggregation_expression');
   }
@@ -431,7 +431,7 @@ export class CloudwatchLogAlarmScheduledQueryConfigurationOutputReference extend
   }
 
   // log_group_identifiers - computed: false, optional: false, required: true
-  private _logGroupIdentifiers?: string[];
+  private _logGroupIdentifiers?: string[]; 
   public get logGroupIdentifiers() {
     return this.getListAttribute('log_group_identifiers');
   }
@@ -444,7 +444,7 @@ export class CloudwatchLogAlarmScheduledQueryConfigurationOutputReference extend
   }
 
   // query_string - computed: false, optional: false, required: true
-  private _queryString?: string;
+  private _queryString?: string; 
   public get queryString() {
     return this.getStringAttribute('query_string');
   }
@@ -470,7 +470,7 @@ export class CloudwatchLogAlarmScheduledQueryConfigurationOutputReference extend
   }
 
   // scheduled_query_role_arn - computed: false, optional: false, required: true
-  private _scheduledQueryRoleArn?: string;
+  private _scheduledQueryRoleArn?: string; 
   public get scheduledQueryRoleArn() {
     return this.getStringAttribute('scheduled_query_role_arn');
   }
@@ -584,7 +584,7 @@ export class CloudwatchLogAlarmTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -600,7 +600,7 @@ export class CloudwatchLogAlarmTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -708,7 +708,7 @@ export class CloudwatchLogAlarm extends cdktn.TerraformResource {
   // ==========
 
   // action_log_line_count - computed: true, optional: true, required: false
-  private _actionLogLineCount?: number;
+  private _actionLogLineCount?: number; 
   public get actionLogLineCount() {
     return this.getNumberAttribute('action_log_line_count');
   }
@@ -724,7 +724,7 @@ export class CloudwatchLogAlarm extends cdktn.TerraformResource {
   }
 
   // action_log_line_role_arn - computed: true, optional: true, required: false
-  private _actionLogLineRoleArn?: string;
+  private _actionLogLineRoleArn?: string; 
   public get actionLogLineRoleArn() {
     return this.getStringAttribute('action_log_line_role_arn');
   }
@@ -740,7 +740,7 @@ export class CloudwatchLogAlarm extends cdktn.TerraformResource {
   }
 
   // actions_enabled - computed: true, optional: true, required: false
-  private _actionsEnabled?: boolean | cdktn.IResolvable;
+  private _actionsEnabled?: boolean | cdktn.IResolvable; 
   public get actionsEnabled() {
     return this.getBooleanAttribute('actions_enabled');
   }
@@ -756,7 +756,7 @@ export class CloudwatchLogAlarm extends cdktn.TerraformResource {
   }
 
   // alarm_actions - computed: true, optional: true, required: false
-  private _alarmActions?: string[];
+  private _alarmActions?: string[]; 
   public get alarmActions() {
     return this.getListAttribute('alarm_actions');
   }
@@ -772,7 +772,7 @@ export class CloudwatchLogAlarm extends cdktn.TerraformResource {
   }
 
   // alarm_description - computed: true, optional: true, required: false
-  private _alarmDescription?: string;
+  private _alarmDescription?: string; 
   public get alarmDescription() {
     return this.getStringAttribute('alarm_description');
   }
@@ -788,7 +788,7 @@ export class CloudwatchLogAlarm extends cdktn.TerraformResource {
   }
 
   // alarm_name - computed: true, optional: true, required: false
-  private _alarmName?: string;
+  private _alarmName?: string; 
   public get alarmName() {
     return this.getStringAttribute('alarm_name');
   }
@@ -809,7 +809,7 @@ export class CloudwatchLogAlarm extends cdktn.TerraformResource {
   }
 
   // comparison_operator - computed: false, optional: false, required: true
-  private _comparisonOperator?: string;
+  private _comparisonOperator?: string; 
   public get comparisonOperator() {
     return this.getStringAttribute('comparison_operator');
   }
@@ -827,7 +827,7 @@ export class CloudwatchLogAlarm extends cdktn.TerraformResource {
   }
 
   // insufficient_data_actions - computed: true, optional: true, required: false
-  private _insufficientDataActions?: string[];
+  private _insufficientDataActions?: string[]; 
   public get insufficientDataActions() {
     return this.getListAttribute('insufficient_data_actions');
   }
@@ -843,7 +843,7 @@ export class CloudwatchLogAlarm extends cdktn.TerraformResource {
   }
 
   // ok_actions - computed: true, optional: true, required: false
-  private _okActions?: string[];
+  private _okActions?: string[]; 
   public get okActions() {
     return this.getListAttribute('ok_actions');
   }
@@ -859,7 +859,7 @@ export class CloudwatchLogAlarm extends cdktn.TerraformResource {
   }
 
   // query_results_to_alarm - computed: false, optional: false, required: true
-  private _queryResultsToAlarm?: number;
+  private _queryResultsToAlarm?: number; 
   public get queryResultsToAlarm() {
     return this.getNumberAttribute('query_results_to_alarm');
   }
@@ -872,7 +872,7 @@ export class CloudwatchLogAlarm extends cdktn.TerraformResource {
   }
 
   // query_results_to_evaluate - computed: false, optional: false, required: true
-  private _queryResultsToEvaluate?: number;
+  private _queryResultsToEvaluate?: number; 
   public get queryResultsToEvaluate() {
     return this.getNumberAttribute('query_results_to_evaluate');
   }
@@ -914,7 +914,7 @@ export class CloudwatchLogAlarm extends cdktn.TerraformResource {
   }
 
   // threshold - computed: false, optional: false, required: true
-  private _threshold?: number;
+  private _threshold?: number; 
   public get threshold() {
     return this.getNumberAttribute('threshold');
   }
@@ -927,7 +927,7 @@ export class CloudwatchLogAlarm extends cdktn.TerraformResource {
   }
 
   // treat_missing_data - computed: true, optional: true, required: false
-  private _treatMissingData?: string;
+  private _treatMissingData?: string; 
   public get treatMissingData() {
     return this.getStringAttribute('treat_missing_data');
   }

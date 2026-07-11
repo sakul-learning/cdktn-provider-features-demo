@@ -141,7 +141,7 @@ export class DataAwsFsxOpenzfsSnapshotFilterOutputReference extends cdktn.Comple
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -154,7 +154,7 @@ export class DataAwsFsxOpenzfsSnapshotFilterOutputReference extends cdktn.Comple
   }
 
   // values - computed: false, optional: false, required: true
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -261,7 +261,7 @@ export class DataAwsFsxOpenzfsSnapshot extends cdktn.TerraformDataSource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -277,7 +277,7 @@ export class DataAwsFsxOpenzfsSnapshot extends cdktn.TerraformDataSource {
   }
 
   // most_recent - computed: false, optional: true, required: false
-  private _mostRecent?: boolean | cdktn.IResolvable;
+  private _mostRecent?: boolean | cdktn.IResolvable; 
   public get mostRecent() {
     return this.getBooleanAttribute('most_recent');
   }
@@ -293,7 +293,7 @@ export class DataAwsFsxOpenzfsSnapshot extends cdktn.TerraformDataSource {
   }
 
   // name - computed: false, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -309,7 +309,7 @@ export class DataAwsFsxOpenzfsSnapshot extends cdktn.TerraformDataSource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -330,7 +330,7 @@ export class DataAwsFsxOpenzfsSnapshot extends cdktn.TerraformDataSource {
   }
 
   // snapshot_ids - computed: false, optional: true, required: false
-  private _snapshotIds?: string[];
+  private _snapshotIds?: string[]; 
   public get snapshotIds() {
     return this.getListAttribute('snapshot_ids');
   }
@@ -346,7 +346,7 @@ export class DataAwsFsxOpenzfsSnapshot extends cdktn.TerraformDataSource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

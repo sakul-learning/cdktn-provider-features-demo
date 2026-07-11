@@ -140,7 +140,7 @@ export class MedialiveClusterNetworkSettingsInterfaceMappingsOutputReference ext
   }
 
   // logical_interface_name - computed: true, optional: true, required: false
-  private _logicalInterfaceName?: string;
+  private _logicalInterfaceName?: string; 
   public get logicalInterfaceName() {
     return this.getStringAttribute('logical_interface_name');
   }
@@ -156,7 +156,7 @@ export class MedialiveClusterNetworkSettingsInterfaceMappingsOutputReference ext
   }
 
   // network_id - computed: true, optional: true, required: false
-  private _networkId?: string;
+  private _networkId?: string; 
   public get networkId() {
     return this.getStringAttribute('network_id');
   }
@@ -291,7 +291,7 @@ export class MedialiveClusterNetworkSettingsOutputReference extends cdktn.Comple
   }
 
   // default_route - computed: true, optional: true, required: false
-  private _defaultRoute?: string;
+  private _defaultRoute?: string; 
   public get defaultRoute() {
     return this.getStringAttribute('default_route');
   }
@@ -420,7 +420,7 @@ export class MedialiveClusterTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -436,7 +436,7 @@ export class MedialiveClusterTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -549,7 +549,7 @@ export class MedialiveCluster extends cdktn.TerraformResource {
   }
 
   // cluster_type - computed: true, optional: true, required: false
-  private _clusterType?: string;
+  private _clusterType?: string; 
   public get clusterType() {
     return this.getStringAttribute('cluster_type');
   }
@@ -570,7 +570,7 @@ export class MedialiveCluster extends cdktn.TerraformResource {
   }
 
   // instance_role_arn - computed: true, optional: true, required: false
-  private _instanceRoleArn?: string;
+  private _instanceRoleArn?: string; 
   public get instanceRoleArn() {
     return this.getStringAttribute('instance_role_arn');
   }
@@ -586,7 +586,7 @@ export class MedialiveCluster extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }

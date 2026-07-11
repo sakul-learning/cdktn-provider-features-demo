@@ -142,7 +142,7 @@ export class EmrStepHadoopJarStepStepPropertiesOutputReference extends cdktn.Com
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -158,7 +158,7 @@ export class EmrStepHadoopJarStepStepPropertiesOutputReference extends cdktn.Com
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -323,7 +323,7 @@ export class EmrStepHadoopJarStepOutputReference extends cdktn.ComplexObject {
   }
 
   // args - computed: true, optional: true, required: false
-  private _args?: string[];
+  private _args?: string[]; 
   public get args() {
     return this.getListAttribute('args');
   }
@@ -339,7 +339,7 @@ export class EmrStepHadoopJarStepOutputReference extends cdktn.ComplexObject {
   }
 
   // jar - computed: false, optional: false, required: true
-  private _jar?: string;
+  private _jar?: string; 
   public get jar() {
     return this.getStringAttribute('jar');
   }
@@ -352,7 +352,7 @@ export class EmrStepHadoopJarStepOutputReference extends cdktn.ComplexObject {
   }
 
   // main_class - computed: true, optional: true, required: false
-  private _mainClass?: string;
+  private _mainClass?: string; 
   public get mainClass() {
     return this.getStringAttribute('main_class');
   }
@@ -447,7 +447,7 @@ export class EmrStep extends cdktn.TerraformResource {
   // ==========
 
   // action_on_failure - computed: false, optional: false, required: true
-  private _actionOnFailure?: string;
+  private _actionOnFailure?: string; 
   public get actionOnFailure() {
     return this.getStringAttribute('action_on_failure');
   }
@@ -460,7 +460,7 @@ export class EmrStep extends cdktn.TerraformResource {
   }
 
   // encryption_key_arn - computed: true, optional: true, required: false
-  private _encryptionKeyArn?: string;
+  private _encryptionKeyArn?: string; 
   public get encryptionKeyArn() {
     return this.getStringAttribute('encryption_key_arn');
   }
@@ -494,7 +494,7 @@ export class EmrStep extends cdktn.TerraformResource {
   }
 
   // job_flow_id - computed: false, optional: false, required: true
-  private _jobFlowId?: string;
+  private _jobFlowId?: string; 
   public get jobFlowId() {
     return this.getStringAttribute('job_flow_id');
   }
@@ -507,7 +507,7 @@ export class EmrStep extends cdktn.TerraformResource {
   }
 
   // log_uri - computed: true, optional: true, required: false
-  private _logUri?: string;
+  private _logUri?: string; 
   public get logUri() {
     return this.getStringAttribute('log_uri');
   }
@@ -523,7 +523,7 @@ export class EmrStep extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }

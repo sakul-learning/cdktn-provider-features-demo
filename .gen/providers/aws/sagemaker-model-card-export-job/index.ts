@@ -194,7 +194,7 @@ export class SagemakerModelCardExportJobOutputConfigOutputReference extends cdkt
   }
 
   // s3_output_path - computed: false, optional: false, required: true
-  private _s3OutputPath?: string;
+  private _s3OutputPath?: string; 
   public get s3OutputPath() {
     return this.getStringAttribute('s3_output_path');
   }
@@ -307,7 +307,7 @@ export class SagemakerModelCardExportJobTimeoutsOutputReference extends cdktn.Co
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -397,7 +397,7 @@ export class SagemakerModelCardExportJob extends cdktn.TerraformResource {
   }
 
   // model_card_export_job_name - computed: false, optional: false, required: true
-  private _modelCardExportJobName?: string;
+  private _modelCardExportJobName?: string; 
   public get modelCardExportJobName() {
     return this.getStringAttribute('model_card_export_job_name');
   }
@@ -410,7 +410,7 @@ export class SagemakerModelCardExportJob extends cdktn.TerraformResource {
   }
 
   // model_card_name - computed: false, optional: false, required: true
-  private _modelCardName?: string;
+  private _modelCardName?: string; 
   public get modelCardName() {
     return this.getStringAttribute('model_card_name');
   }
@@ -423,7 +423,7 @@ export class SagemakerModelCardExportJob extends cdktn.TerraformResource {
   }
 
   // model_card_version - computed: true, optional: true, required: false
-  private _modelCardVersion?: number;
+  private _modelCardVersion?: number; 
   public get modelCardVersion() {
     return this.getNumberAttribute('model_card_version');
   }
@@ -439,7 +439,7 @@ export class SagemakerModelCardExportJob extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

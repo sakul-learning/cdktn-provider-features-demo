@@ -93,7 +93,7 @@ export class RamResourceShareAssociationsExclusive extends cdktn.TerraformResour
   // ==========
 
   // principals - computed: false, optional: true, required: false
-  private _principals?: string[];
+  private _principals?: string[]; 
   public get principals() {
     return cdktn.Fn.tolist(this.getListAttribute('principals'));
   }
@@ -109,7 +109,7 @@ export class RamResourceShareAssociationsExclusive extends cdktn.TerraformResour
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -125,7 +125,7 @@ export class RamResourceShareAssociationsExclusive extends cdktn.TerraformResour
   }
 
   // resource_arns - computed: false, optional: true, required: false
-  private _resourceArns?: string[];
+  private _resourceArns?: string[]; 
   public get resourceArns() {
     return cdktn.Fn.tolist(this.getListAttribute('resource_arns'));
   }
@@ -141,7 +141,7 @@ export class RamResourceShareAssociationsExclusive extends cdktn.TerraformResour
   }
 
   // resource_share_arn - computed: false, optional: false, required: true
-  private _resourceShareArn?: string;
+  private _resourceShareArn?: string; 
   public get resourceShareArn() {
     return this.getStringAttribute('resource_share_arn');
   }
@@ -154,7 +154,7 @@ export class RamResourceShareAssociationsExclusive extends cdktn.TerraformResour
   }
 
   // sources - computed: false, optional: true, required: false
-  private _sources?: string[];
+  private _sources?: string[]; 
   public get sources() {
     return cdktn.Fn.tolist(this.getListAttribute('sources'));
   }

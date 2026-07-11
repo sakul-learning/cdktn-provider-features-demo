@@ -143,7 +143,7 @@ export class CloudfrontVpcOriginTimeoutsOutputReference extends cdktn.ComplexObj
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -159,7 +159,7 @@ export class CloudfrontVpcOriginTimeoutsOutputReference extends cdktn.ComplexObj
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -175,7 +175,7 @@ export class CloudfrontVpcOriginTimeoutsOutputReference extends cdktn.ComplexObj
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -288,7 +288,7 @@ export class CloudfrontVpcOriginVpcOriginEndpointConfigOriginSslProtocolsOutputR
   }
 
   // items - computed: false, optional: false, required: true
-  private _items?: string[];
+  private _items?: string[]; 
   public get items() {
     return cdktn.Fn.tolist(this.getListAttribute('items'));
   }
@@ -301,7 +301,7 @@ export class CloudfrontVpcOriginVpcOriginEndpointConfigOriginSslProtocolsOutputR
   }
 
   // quantity - computed: false, optional: false, required: true
-  private _quantity?: number;
+  private _quantity?: number; 
   public get quantity() {
     return this.getNumberAttribute('quantity');
   }
@@ -501,7 +501,7 @@ export class CloudfrontVpcOriginVpcOriginEndpointConfigOutputReference extends c
   }
 
   // arn - computed: false, optional: false, required: true
-  private _arn?: string;
+  private _arn?: string; 
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -514,7 +514,7 @@ export class CloudfrontVpcOriginVpcOriginEndpointConfigOutputReference extends c
   }
 
   // http_port - computed: false, optional: false, required: true
-  private _httpPort?: number;
+  private _httpPort?: number; 
   public get httpPort() {
     return this.getNumberAttribute('http_port');
   }
@@ -527,7 +527,7 @@ export class CloudfrontVpcOriginVpcOriginEndpointConfigOutputReference extends c
   }
 
   // https_port - computed: false, optional: false, required: true
-  private _httpsPort?: number;
+  private _httpsPort?: number; 
   public get httpsPort() {
     return this.getNumberAttribute('https_port');
   }
@@ -540,7 +540,7 @@ export class CloudfrontVpcOriginVpcOriginEndpointConfigOutputReference extends c
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -553,7 +553,7 @@ export class CloudfrontVpcOriginVpcOriginEndpointConfigOutputReference extends c
   }
 
   // origin_protocol_policy - computed: false, optional: false, required: true
-  private _originProtocolPolicy?: string;
+  private _originProtocolPolicy?: string; 
   public get originProtocolPolicy() {
     return this.getStringAttribute('origin_protocol_policy');
   }
@@ -677,7 +677,7 @@ export class CloudfrontVpcOrigin extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

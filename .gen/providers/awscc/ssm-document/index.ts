@@ -189,7 +189,7 @@ export class SsmDocumentAttachmentsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -205,7 +205,7 @@ export class SsmDocumentAttachmentsOutputReference extends cdktn.ComplexObject {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -221,7 +221,7 @@ export class SsmDocumentAttachmentsOutputReference extends cdktn.ComplexObject {
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -358,7 +358,7 @@ export class SsmDocumentRequiresOutputReference extends cdktn.ComplexObject {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -374,7 +374,7 @@ export class SsmDocumentRequiresOutputReference extends cdktn.ComplexObject {
   }
 
   // version - computed: true, optional: true, required: false
-  private _version?: string;
+  private _version?: string; 
   public get version() {
     return this.getStringAttribute('version');
   }
@@ -511,7 +511,7 @@ export class SsmDocumentTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -527,7 +527,7 @@ export class SsmDocumentTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -646,7 +646,7 @@ export class SsmDocument extends cdktn.TerraformResource {
   }
 
   // content - computed: false, optional: false, required: true
-  private _content?: string;
+  private _content?: string; 
   public get content() {
     return this.getStringAttribute('content');
   }
@@ -659,7 +659,7 @@ export class SsmDocument extends cdktn.TerraformResource {
   }
 
   // document_format - computed: true, optional: true, required: false
-  private _documentFormat?: string;
+  private _documentFormat?: string; 
   public get documentFormat() {
     return this.getStringAttribute('document_format');
   }
@@ -675,7 +675,7 @@ export class SsmDocument extends cdktn.TerraformResource {
   }
 
   // document_type - computed: true, optional: true, required: false
-  private _documentType?: string;
+  private _documentType?: string; 
   public get documentType() {
     return this.getStringAttribute('document_type');
   }
@@ -696,7 +696,7 @@ export class SsmDocument extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -744,7 +744,7 @@ export class SsmDocument extends cdktn.TerraformResource {
   }
 
   // target_type - computed: true, optional: true, required: false
-  private _targetType?: string;
+  private _targetType?: string; 
   public get targetType() {
     return this.getStringAttribute('target_type');
   }
@@ -760,7 +760,7 @@ export class SsmDocument extends cdktn.TerraformResource {
   }
 
   // update_method - computed: true, optional: true, required: false
-  private _updateMethod?: string;
+  private _updateMethod?: string; 
   public get updateMethod() {
     return this.getStringAttribute('update_method');
   }
@@ -776,7 +776,7 @@ export class SsmDocument extends cdktn.TerraformResource {
   }
 
   // version_name - computed: true, optional: true, required: false
-  private _versionName?: string;
+  private _versionName?: string; 
   public get versionName() {
     return this.getStringAttribute('version_name');
   }

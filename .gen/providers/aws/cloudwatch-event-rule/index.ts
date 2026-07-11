@@ -146,7 +146,7 @@ export class CloudwatchEventRule extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -162,7 +162,7 @@ export class CloudwatchEventRule extends cdktn.TerraformResource {
   }
 
   // event_bus_name - computed: false, optional: true, required: false
-  private _eventBusName?: string;
+  private _eventBusName?: string; 
   public get eventBusName() {
     return this.getStringAttribute('event_bus_name');
   }
@@ -178,7 +178,7 @@ export class CloudwatchEventRule extends cdktn.TerraformResource {
   }
 
   // event_pattern - computed: false, optional: true, required: false
-  private _eventPattern?: string;
+  private _eventPattern?: string; 
   public get eventPattern() {
     return this.getStringAttribute('event_pattern');
   }
@@ -194,7 +194,7 @@ export class CloudwatchEventRule extends cdktn.TerraformResource {
   }
 
   // force_destroy - computed: false, optional: true, required: false
-  private _forceDestroy?: boolean | cdktn.IResolvable;
+  private _forceDestroy?: boolean | cdktn.IResolvable; 
   public get forceDestroy() {
     return this.getBooleanAttribute('force_destroy');
   }
@@ -210,7 +210,7 @@ export class CloudwatchEventRule extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -226,7 +226,7 @@ export class CloudwatchEventRule extends cdktn.TerraformResource {
   }
 
   // is_enabled - computed: false, optional: true, required: false
-  private _isEnabled?: boolean | cdktn.IResolvable;
+  private _isEnabled?: boolean | cdktn.IResolvable; 
   public get isEnabled() {
     return this.getBooleanAttribute('is_enabled');
   }
@@ -242,7 +242,7 @@ export class CloudwatchEventRule extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -258,7 +258,7 @@ export class CloudwatchEventRule extends cdktn.TerraformResource {
   }
 
   // name_prefix - computed: true, optional: true, required: false
-  private _namePrefix?: string;
+  private _namePrefix?: string; 
   public get namePrefix() {
     return this.getStringAttribute('name_prefix');
   }
@@ -274,7 +274,7 @@ export class CloudwatchEventRule extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -290,7 +290,7 @@ export class CloudwatchEventRule extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -306,7 +306,7 @@ export class CloudwatchEventRule extends cdktn.TerraformResource {
   }
 
   // schedule_expression - computed: false, optional: true, required: false
-  private _scheduleExpression?: string;
+  private _scheduleExpression?: string; 
   public get scheduleExpression() {
     return this.getStringAttribute('schedule_expression');
   }
@@ -322,7 +322,7 @@ export class CloudwatchEventRule extends cdktn.TerraformResource {
   }
 
   // state - computed: false, optional: true, required: false
-  private _state?: string;
+  private _state?: string; 
   public get state() {
     return this.getStringAttribute('state');
   }
@@ -338,7 +338,7 @@ export class CloudwatchEventRule extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -354,7 +354,7 @@ export class CloudwatchEventRule extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

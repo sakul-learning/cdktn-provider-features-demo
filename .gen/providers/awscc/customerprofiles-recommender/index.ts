@@ -411,7 +411,7 @@ export class CustomerprofilesRecommenderRecommenderConfigEventsConfigEventParame
   }
 
   // event_type - computed: true, optional: true, required: false
-  private _eventType?: string;
+  private _eventType?: string; 
   public get eventType() {
     return this.getStringAttribute('event_type');
   }
@@ -427,7 +427,7 @@ export class CustomerprofilesRecommenderRecommenderConfigEventsConfigEventParame
   }
 
   // event_value_threshold - computed: true, optional: true, required: false
-  private _eventValueThreshold?: number;
+  private _eventValueThreshold?: number; 
   public get eventValueThreshold() {
     return this.getNumberAttribute('event_value_threshold');
   }
@@ -752,7 +752,7 @@ export class CustomerprofilesRecommenderTagsOutputReference extends cdktn.Comple
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -768,7 +768,7 @@ export class CustomerprofilesRecommenderTagsOutputReference extends cdktn.Comple
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1032,7 +1032,7 @@ export class CustomerprofilesRecommender extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1048,7 +1048,7 @@ export class CustomerprofilesRecommender extends cdktn.TerraformResource {
   }
 
   // domain_name - computed: false, optional: false, required: true
-  private _domainName?: string;
+  private _domainName?: string; 
   public get domainName() {
     return this.getStringAttribute('domain_name');
   }
@@ -1103,7 +1103,7 @@ export class CustomerprofilesRecommender extends cdktn.TerraformResource {
   }
 
   // recommender_name - computed: false, optional: false, required: true
-  private _recommenderName?: string;
+  private _recommenderName?: string; 
   public get recommenderName() {
     return this.getStringAttribute('recommender_name');
   }
@@ -1116,7 +1116,7 @@ export class CustomerprofilesRecommender extends cdktn.TerraformResource {
   }
 
   // recommender_recipe_name - computed: false, optional: false, required: true
-  private _recommenderRecipeName?: string;
+  private _recommenderRecipeName?: string; 
   public get recommenderRecipeName() {
     return this.getStringAttribute('recommender_recipe_name');
   }

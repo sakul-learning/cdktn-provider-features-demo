@@ -106,7 +106,7 @@ export class NetworkInterfaceAttachmentA extends cdktn.TerraformResource {
   }
 
   // device_index - computed: false, optional: false, required: true
-  private _deviceIndex?: number;
+  private _deviceIndex?: number; 
   public get deviceIndex() {
     return this.getNumberAttribute('device_index');
   }
@@ -119,7 +119,7 @@ export class NetworkInterfaceAttachmentA extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -135,7 +135,7 @@ export class NetworkInterfaceAttachmentA extends cdktn.TerraformResource {
   }
 
   // instance_id - computed: false, optional: false, required: true
-  private _instanceId?: string;
+  private _instanceId?: string; 
   public get instanceId() {
     return this.getStringAttribute('instance_id');
   }
@@ -148,7 +148,7 @@ export class NetworkInterfaceAttachmentA extends cdktn.TerraformResource {
   }
 
   // network_card_index - computed: true, optional: true, required: false
-  private _networkCardIndex?: number;
+  private _networkCardIndex?: number; 
   public get networkCardIndex() {
     return this.getNumberAttribute('network_card_index');
   }
@@ -164,7 +164,7 @@ export class NetworkInterfaceAttachmentA extends cdktn.TerraformResource {
   }
 
   // network_interface_id - computed: false, optional: false, required: true
-  private _networkInterfaceId?: string;
+  private _networkInterfaceId?: string; 
   public get networkInterfaceId() {
     return this.getStringAttribute('network_interface_id');
   }
@@ -177,7 +177,7 @@ export class NetworkInterfaceAttachmentA extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

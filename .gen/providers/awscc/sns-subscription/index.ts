@@ -14,7 +14,7 @@ export interface SnsSubscriptionConfig extends cdktn.TerraformMetaArguments {
   */
   readonly deliveryPolicy?: string;
   /**
-  * The subscription's endpoint. The endpoint value depends on the protocol that you specify.
+  * The subscription's endpoint. The endpoint value depends on the protocol that you specify. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sns_subscription#endpoint SnsSubscription#endpoint}
   */
@@ -148,7 +148,7 @@ export class SnsSubscription extends cdktn.TerraformResource {
   }
 
   // delivery_policy - computed: true, optional: true, required: false
-  private _deliveryPolicy?: string;
+  private _deliveryPolicy?: string; 
   public get deliveryPolicy() {
     return this.getStringAttribute('delivery_policy');
   }
@@ -164,7 +164,7 @@ export class SnsSubscription extends cdktn.TerraformResource {
   }
 
   // endpoint - computed: true, optional: true, required: false
-  private _endpoint?: string;
+  private _endpoint?: string; 
   public get endpoint() {
     return this.getStringAttribute('endpoint');
   }
@@ -180,7 +180,7 @@ export class SnsSubscription extends cdktn.TerraformResource {
   }
 
   // filter_policy - computed: true, optional: true, required: false
-  private _filterPolicy?: string;
+  private _filterPolicy?: string; 
   public get filterPolicy() {
     return this.getStringAttribute('filter_policy');
   }
@@ -196,7 +196,7 @@ export class SnsSubscription extends cdktn.TerraformResource {
   }
 
   // filter_policy_scope - computed: true, optional: true, required: false
-  private _filterPolicyScope?: string;
+  private _filterPolicyScope?: string; 
   public get filterPolicyScope() {
     return this.getStringAttribute('filter_policy_scope');
   }
@@ -217,7 +217,7 @@ export class SnsSubscription extends cdktn.TerraformResource {
   }
 
   // protocol - computed: false, optional: false, required: true
-  private _protocol?: string;
+  private _protocol?: string; 
   public get protocol() {
     return this.getStringAttribute('protocol');
   }
@@ -230,7 +230,7 @@ export class SnsSubscription extends cdktn.TerraformResource {
   }
 
   // raw_message_delivery - computed: true, optional: true, required: false
-  private _rawMessageDelivery?: boolean | cdktn.IResolvable;
+  private _rawMessageDelivery?: boolean | cdktn.IResolvable; 
   public get rawMessageDelivery() {
     return this.getBooleanAttribute('raw_message_delivery');
   }
@@ -246,7 +246,7 @@ export class SnsSubscription extends cdktn.TerraformResource {
   }
 
   // redrive_policy - computed: true, optional: true, required: false
-  private _redrivePolicy?: string;
+  private _redrivePolicy?: string; 
   public get redrivePolicy() {
     return this.getStringAttribute('redrive_policy');
   }
@@ -262,7 +262,7 @@ export class SnsSubscription extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -278,7 +278,7 @@ export class SnsSubscription extends cdktn.TerraformResource {
   }
 
   // replay_policy - computed: true, optional: true, required: false
-  private _replayPolicy?: string;
+  private _replayPolicy?: string; 
   public get replayPolicy() {
     return this.getStringAttribute('replay_policy');
   }
@@ -294,7 +294,7 @@ export class SnsSubscription extends cdktn.TerraformResource {
   }
 
   // subscription_role_arn - computed: true, optional: true, required: false
-  private _subscriptionRoleArn?: string;
+  private _subscriptionRoleArn?: string; 
   public get subscriptionRoleArn() {
     return this.getStringAttribute('subscription_role_arn');
   }
@@ -310,7 +310,7 @@ export class SnsSubscription extends cdktn.TerraformResource {
   }
 
   // topic_arn - computed: false, optional: false, required: true
-  private _topicArn?: string;
+  private _topicArn?: string; 
   public get topicArn() {
     return this.getStringAttribute('topic_arn');
   }

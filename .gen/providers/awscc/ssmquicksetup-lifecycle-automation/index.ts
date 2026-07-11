@@ -97,7 +97,7 @@ export class SsmquicksetupLifecycleAutomation extends cdktn.TerraformResource {
   }
 
   // automation_document - computed: false, optional: false, required: true
-  private _automationDocument?: string;
+  private _automationDocument?: string; 
   public get automationDocument() {
     return this.getStringAttribute('automation_document');
   }
@@ -110,7 +110,7 @@ export class SsmquicksetupLifecycleAutomation extends cdktn.TerraformResource {
   }
 
   // automation_parameters - computed: false, optional: false, required: true
-  private _automationParameters?: { [key: string]: string[] } | cdktn.IResolvable;
+  private _automationParameters?: { [key: string]: string[] } | cdktn.IResolvable; 
   public get automationParameters() {
     return this.interpolationForAttribute('automation_parameters');
   }
@@ -128,7 +128,7 @@ export class SsmquicksetupLifecycleAutomation extends cdktn.TerraformResource {
   }
 
   // resource_key - computed: false, optional: false, required: true
-  private _resourceKey?: string;
+  private _resourceKey?: string; 
   public get resourceKey() {
     return this.getStringAttribute('resource_key');
   }
@@ -141,7 +141,7 @@ export class SsmquicksetupLifecycleAutomation extends cdktn.TerraformResource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

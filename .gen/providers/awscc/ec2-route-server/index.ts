@@ -140,7 +140,7 @@ export class Ec2RouteServerTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -156,7 +156,7 @@ export class Ec2RouteServerTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -254,7 +254,7 @@ export class Ec2RouteServer extends cdktn.TerraformResource {
   // ==========
 
   // amazon_side_asn - computed: false, optional: false, required: true
-  private _amazonSideAsn?: number;
+  private _amazonSideAsn?: number; 
   public get amazonSideAsn() {
     return this.getNumberAttribute('amazon_side_asn');
   }
@@ -277,7 +277,7 @@ export class Ec2RouteServer extends cdktn.TerraformResource {
   }
 
   // persist_routes - computed: true, optional: true, required: false
-  private _persistRoutes?: string;
+  private _persistRoutes?: string; 
   public get persistRoutes() {
     return this.getStringAttribute('persist_routes');
   }
@@ -293,7 +293,7 @@ export class Ec2RouteServer extends cdktn.TerraformResource {
   }
 
   // persist_routes_duration - computed: true, optional: true, required: false
-  private _persistRoutesDuration?: number;
+  private _persistRoutesDuration?: number; 
   public get persistRoutesDuration() {
     return this.getNumberAttribute('persist_routes_duration');
   }
@@ -314,7 +314,7 @@ export class Ec2RouteServer extends cdktn.TerraformResource {
   }
 
   // sns_notifications_enabled - computed: true, optional: true, required: false
-  private _snsNotificationsEnabled?: boolean | cdktn.IResolvable;
+  private _snsNotificationsEnabled?: boolean | cdktn.IResolvable; 
   public get snsNotificationsEnabled() {
     return this.getBooleanAttribute('sns_notifications_enabled');
   }

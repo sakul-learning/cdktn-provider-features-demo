@@ -1,24 +1,24 @@
 // generated from terraform resource schema
 
-import { Lexv2ModelsSlotMultipleValuesSetting,
-lexv2ModelsSlotMultipleValuesSettingToTerraform,
-lexv2ModelsSlotMultipleValuesSettingToHclTerraform,
-Lexv2ModelsSlotMultipleValuesSettingList,
-Lexv2ModelsSlotObfuscationSetting,
-lexv2ModelsSlotObfuscationSettingToTerraform,
-lexv2ModelsSlotObfuscationSettingToHclTerraform,
-Lexv2ModelsSlotObfuscationSettingList,
-Lexv2ModelsSlotSubSlotSetting,
-lexv2ModelsSlotSubSlotSettingToTerraform,
-lexv2ModelsSlotSubSlotSettingToHclTerraform,
-Lexv2ModelsSlotSubSlotSettingList,
-Lexv2ModelsSlotTimeouts,
-lexv2ModelsSlotTimeoutsToTerraform,
-lexv2ModelsSlotTimeoutsToHclTerraform,
-Lexv2ModelsSlotTimeoutsOutputReference,
-Lexv2ModelsSlotValueElicitationSetting,
-lexv2ModelsSlotValueElicitationSettingToTerraform,
-lexv2ModelsSlotValueElicitationSettingToHclTerraform,
+import { Lexv2ModelsSlotMultipleValuesSetting, 
+lexv2ModelsSlotMultipleValuesSettingToTerraform, 
+lexv2ModelsSlotMultipleValuesSettingToHclTerraform, 
+Lexv2ModelsSlotMultipleValuesSettingList, 
+Lexv2ModelsSlotObfuscationSetting, 
+lexv2ModelsSlotObfuscationSettingToTerraform, 
+lexv2ModelsSlotObfuscationSettingToHclTerraform, 
+Lexv2ModelsSlotObfuscationSettingList, 
+Lexv2ModelsSlotSubSlotSetting, 
+lexv2ModelsSlotSubSlotSettingToTerraform, 
+lexv2ModelsSlotSubSlotSettingToHclTerraform, 
+Lexv2ModelsSlotSubSlotSettingList, 
+Lexv2ModelsSlotTimeouts, 
+lexv2ModelsSlotTimeoutsToTerraform, 
+lexv2ModelsSlotTimeoutsToHclTerraform, 
+Lexv2ModelsSlotTimeoutsOutputReference, 
+Lexv2ModelsSlotValueElicitationSetting, 
+lexv2ModelsSlotValueElicitationSettingToTerraform, 
+lexv2ModelsSlotValueElicitationSettingToHclTerraform, 
 Lexv2ModelsSlotValueElicitationSettingList} from './index-structs/index.js';
 export * from './index-structs/index.js';
 import { Construct } from 'constructs';
@@ -160,7 +160,7 @@ export class Lexv2ModelsSlot extends cdktn.TerraformResource {
   // ==========
 
   // bot_id - computed: false, optional: false, required: true
-  private _botId?: string;
+  private _botId?: string; 
   public get botId() {
     return this.getStringAttribute('bot_id');
   }
@@ -173,7 +173,7 @@ export class Lexv2ModelsSlot extends cdktn.TerraformResource {
   }
 
   // bot_version - computed: false, optional: false, required: true
-  private _botVersion?: string;
+  private _botVersion?: string; 
   public get botVersion() {
     return this.getStringAttribute('bot_version');
   }
@@ -186,7 +186,7 @@ export class Lexv2ModelsSlot extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -207,7 +207,7 @@ export class Lexv2ModelsSlot extends cdktn.TerraformResource {
   }
 
   // intent_id - computed: false, optional: false, required: true
-  private _intentId?: string;
+  private _intentId?: string; 
   public get intentId() {
     return this.getStringAttribute('intent_id');
   }
@@ -220,7 +220,7 @@ export class Lexv2ModelsSlot extends cdktn.TerraformResource {
   }
 
   // locale_id - computed: false, optional: false, required: true
-  private _localeId?: string;
+  private _localeId?: string; 
   public get localeId() {
     return this.getStringAttribute('locale_id');
   }
@@ -233,7 +233,7 @@ export class Lexv2ModelsSlot extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -246,7 +246,7 @@ export class Lexv2ModelsSlot extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -267,7 +267,7 @@ export class Lexv2ModelsSlot extends cdktn.TerraformResource {
   }
 
   // slot_type_id - computed: true, optional: true, required: false
-  private _slotTypeId?: string;
+  private _slotTypeId?: string; 
   public get slotTypeId() {
     return this.getStringAttribute('slot_type_id');
   }

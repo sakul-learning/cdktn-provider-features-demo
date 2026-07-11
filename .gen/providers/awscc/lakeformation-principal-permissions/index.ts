@@ -119,7 +119,7 @@ export class LakeformationPrincipalPermissionsPrincipalOutputReference extends c
   }
 
   // data_lake_principal_identifier - computed: true, optional: true, required: false
-  private _dataLakePrincipalIdentifier?: string;
+  private _dataLakePrincipalIdentifier?: string; 
   public get dataLakePrincipalIdentifier() {
     return this.getStringAttribute('data_lake_principal_identifier');
   }
@@ -272,7 +272,7 @@ export class LakeformationPrincipalPermissionsResourceDataCellsFilterOutputRefer
   }
 
   // database_name - computed: true, optional: true, required: false
-  private _databaseName?: string;
+  private _databaseName?: string; 
   public get databaseName() {
     return this.getStringAttribute('database_name');
   }
@@ -288,7 +288,7 @@ export class LakeformationPrincipalPermissionsResourceDataCellsFilterOutputRefer
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -304,7 +304,7 @@ export class LakeformationPrincipalPermissionsResourceDataCellsFilterOutputRefer
   }
 
   // table_catalog_id - computed: true, optional: true, required: false
-  private _tableCatalogId?: string;
+  private _tableCatalogId?: string; 
   public get tableCatalogId() {
     return this.getStringAttribute('table_catalog_id');
   }
@@ -320,7 +320,7 @@ export class LakeformationPrincipalPermissionsResourceDataCellsFilterOutputRefer
   }
 
   // table_name - computed: true, optional: true, required: false
-  private _tableName?: string;
+  private _tableName?: string; 
   public get tableName() {
     return this.getStringAttribute('table_name');
   }
@@ -435,7 +435,7 @@ export class LakeformationPrincipalPermissionsResourceDataLocationOutputReferenc
   }
 
   // catalog_id - computed: true, optional: true, required: false
-  private _catalogId?: string;
+  private _catalogId?: string; 
   public get catalogId() {
     return this.getStringAttribute('catalog_id');
   }
@@ -451,7 +451,7 @@ export class LakeformationPrincipalPermissionsResourceDataLocationOutputReferenc
   }
 
   // resource_arn - computed: true, optional: true, required: false
-  private _resourceArn?: string;
+  private _resourceArn?: string; 
   public get resourceArn() {
     return this.getStringAttribute('resource_arn');
   }
@@ -566,7 +566,7 @@ export class LakeformationPrincipalPermissionsResourceDatabaseOutputReference ex
   }
 
   // catalog_id - computed: true, optional: true, required: false
-  private _catalogId?: string;
+  private _catalogId?: string; 
   public get catalogId() {
     return this.getStringAttribute('catalog_id');
   }
@@ -582,7 +582,7 @@ export class LakeformationPrincipalPermissionsResourceDatabaseOutputReference ex
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -716,7 +716,7 @@ export class LakeformationPrincipalPermissionsResourceLfTagOutputReference exten
   }
 
   // catalog_id - computed: true, optional: true, required: false
-  private _catalogId?: string;
+  private _catalogId?: string; 
   public get catalogId() {
     return this.getStringAttribute('catalog_id');
   }
@@ -732,7 +732,7 @@ export class LakeformationPrincipalPermissionsResourceLfTagOutputReference exten
   }
 
   // tag_key - computed: true, optional: true, required: false
-  private _tagKey?: string;
+  private _tagKey?: string; 
   public get tagKey() {
     return this.getStringAttribute('tag_key');
   }
@@ -748,7 +748,7 @@ export class LakeformationPrincipalPermissionsResourceLfTagOutputReference exten
   }
 
   // tag_values - computed: true, optional: true, required: false
-  private _tagValues?: string[];
+  private _tagValues?: string[]; 
   public get tagValues() {
     return this.getListAttribute('tag_values');
   }
@@ -865,7 +865,7 @@ export class LakeformationPrincipalPermissionsResourceLfTagPolicyExpressionOutpu
   }
 
   // tag_key - computed: true, optional: true, required: false
-  private _tagKey?: string;
+  private _tagKey?: string; 
   public get tagKey() {
     return this.getStringAttribute('tag_key');
   }
@@ -881,7 +881,7 @@ export class LakeformationPrincipalPermissionsResourceLfTagPolicyExpressionOutpu
   }
 
   // tag_values - computed: true, optional: true, required: false
-  private _tagValues?: string[];
+  private _tagValues?: string[]; 
   public get tagValues() {
     return this.getListAttribute('tag_values');
   }
@@ -1035,7 +1035,7 @@ export class LakeformationPrincipalPermissionsResourceLfTagPolicyOutputReference
   }
 
   // catalog_id - computed: true, optional: true, required: false
-  private _catalogId?: string;
+  private _catalogId?: string; 
   public get catalogId() {
     return this.getStringAttribute('catalog_id');
   }
@@ -1067,7 +1067,7 @@ export class LakeformationPrincipalPermissionsResourceLfTagPolicyOutputReference
   }
 
   // resource_type - computed: true, optional: true, required: false
-  private _resourceType?: string;
+  private _resourceType?: string; 
   public get resourceType() {
     return this.getStringAttribute('resource_type');
   }
@@ -1221,7 +1221,7 @@ export class LakeformationPrincipalPermissionsResourceTableOutputReference exten
   }
 
   // catalog_id - computed: true, optional: true, required: false
-  private _catalogId?: string;
+  private _catalogId?: string; 
   public get catalogId() {
     return this.getStringAttribute('catalog_id');
   }
@@ -1237,7 +1237,7 @@ export class LakeformationPrincipalPermissionsResourceTableOutputReference exten
   }
 
   // database_name - computed: true, optional: true, required: false
-  private _databaseName?: string;
+  private _databaseName?: string; 
   public get databaseName() {
     return this.getStringAttribute('database_name');
   }
@@ -1253,7 +1253,7 @@ export class LakeformationPrincipalPermissionsResourceTableOutputReference exten
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1269,7 +1269,7 @@ export class LakeformationPrincipalPermissionsResourceTableOutputReference exten
   }
 
   // table_wildcard - computed: true, optional: true, required: false
-  private _tableWildcard?: string;
+  private _tableWildcard?: string; 
   public get tableWildcard() {
     return this.getStringAttribute('table_wildcard');
   }
@@ -1365,7 +1365,7 @@ export class LakeformationPrincipalPermissionsResourceTableWithColumnsColumnWild
   }
 
   // excluded_column_names - computed: true, optional: true, required: false
-  private _excludedColumnNames?: string[];
+  private _excludedColumnNames?: string[]; 
   public get excludedColumnNames() {
     return this.getListAttribute('excluded_column_names');
   }
@@ -1537,7 +1537,7 @@ export class LakeformationPrincipalPermissionsResourceTableWithColumnsOutputRefe
   }
 
   // catalog_id - computed: true, optional: true, required: false
-  private _catalogId?: string;
+  private _catalogId?: string; 
   public get catalogId() {
     return this.getStringAttribute('catalog_id');
   }
@@ -1553,7 +1553,7 @@ export class LakeformationPrincipalPermissionsResourceTableWithColumnsOutputRefe
   }
 
   // column_names - computed: true, optional: true, required: false
-  private _columnNames?: string[];
+  private _columnNames?: string[]; 
   public get columnNames() {
     return this.getListAttribute('column_names');
   }
@@ -1585,7 +1585,7 @@ export class LakeformationPrincipalPermissionsResourceTableWithColumnsOutputRefe
   }
 
   // database_name - computed: true, optional: true, required: false
-  private _databaseName?: string;
+  private _databaseName?: string; 
   public get databaseName() {
     return this.getStringAttribute('database_name');
   }
@@ -1601,7 +1601,7 @@ export class LakeformationPrincipalPermissionsResourceTableWithColumnsOutputRefe
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1830,7 +1830,7 @@ export class LakeformationPrincipalPermissionsResourceOutputReference extends cd
   }
 
   // catalog - computed: true, optional: true, required: false
-  private _catalog?: string;
+  private _catalog?: string; 
   public get catalog() {
     return this.getStringAttribute('catalog');
   }
@@ -2020,7 +2020,7 @@ export class LakeformationPrincipalPermissions extends cdktn.TerraformResource {
   // ==========
 
   // catalog - computed: true, optional: true, required: false
-  private _catalog?: string;
+  private _catalog?: string; 
   public get catalog() {
     return this.getStringAttribute('catalog');
   }
@@ -2041,7 +2041,7 @@ export class LakeformationPrincipalPermissions extends cdktn.TerraformResource {
   }
 
   // permissions - computed: false, optional: false, required: true
-  private _permissions?: string[];
+  private _permissions?: string[]; 
   public get permissions() {
     return this.getListAttribute('permissions');
   }
@@ -2054,7 +2054,7 @@ export class LakeformationPrincipalPermissions extends cdktn.TerraformResource {
   }
 
   // permissions_with_grant_option - computed: false, optional: false, required: true
-  private _permissionsWithGrantOption?: string[];
+  private _permissionsWithGrantOption?: string[]; 
   public get permissionsWithGrantOption() {
     return this.getListAttribute('permissions_with_grant_option');
   }

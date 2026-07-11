@@ -144,7 +144,7 @@ export class ConfigRemediationConfigurationExecutionControlsSsmControlsOutputRef
   }
 
   // concurrent_execution_rate_percentage - computed: true, optional: true, required: false
-  private _concurrentExecutionRatePercentage?: number;
+  private _concurrentExecutionRatePercentage?: number; 
   public get concurrentExecutionRatePercentage() {
     return this.getNumberAttribute('concurrent_execution_rate_percentage');
   }
@@ -160,7 +160,7 @@ export class ConfigRemediationConfigurationExecutionControlsSsmControlsOutputRef
   }
 
   // error_percentage - computed: true, optional: true, required: false
-  private _errorPercentage?: number;
+  private _errorPercentage?: number; 
   public get errorPercentage() {
     return this.getNumberAttribute('error_percentage');
   }
@@ -337,7 +337,7 @@ export class ConfigRemediationConfiguration extends cdktn.TerraformResource {
   // ==========
 
   // automatic - computed: true, optional: true, required: false
-  private _automatic?: boolean | cdktn.IResolvable;
+  private _automatic?: boolean | cdktn.IResolvable; 
   public get automatic() {
     return this.getBooleanAttribute('automatic');
   }
@@ -353,7 +353,7 @@ export class ConfigRemediationConfiguration extends cdktn.TerraformResource {
   }
 
   // config_rule_name - computed: false, optional: false, required: true
-  private _configRuleName?: string;
+  private _configRuleName?: string; 
   public get configRuleName() {
     return this.getStringAttribute('config_rule_name');
   }
@@ -387,7 +387,7 @@ export class ConfigRemediationConfiguration extends cdktn.TerraformResource {
   }
 
   // maximum_automatic_attempts - computed: true, optional: true, required: false
-  private _maximumAutomaticAttempts?: number;
+  private _maximumAutomaticAttempts?: number; 
   public get maximumAutomaticAttempts() {
     return this.getNumberAttribute('maximum_automatic_attempts');
   }
@@ -403,7 +403,7 @@ export class ConfigRemediationConfiguration extends cdktn.TerraformResource {
   }
 
   // parameters - computed: true, optional: true, required: false
-  private _parameters?: string;
+  private _parameters?: string; 
   public get parameters() {
     return this.getStringAttribute('parameters');
   }
@@ -419,7 +419,7 @@ export class ConfigRemediationConfiguration extends cdktn.TerraformResource {
   }
 
   // resource_type - computed: true, optional: true, required: false
-  private _resourceType?: string;
+  private _resourceType?: string; 
   public get resourceType() {
     return this.getStringAttribute('resource_type');
   }
@@ -435,7 +435,7 @@ export class ConfigRemediationConfiguration extends cdktn.TerraformResource {
   }
 
   // retry_attempt_seconds - computed: true, optional: true, required: false
-  private _retryAttemptSeconds?: number;
+  private _retryAttemptSeconds?: number; 
   public get retryAttemptSeconds() {
     return this.getNumberAttribute('retry_attempt_seconds');
   }
@@ -451,7 +451,7 @@ export class ConfigRemediationConfiguration extends cdktn.TerraformResource {
   }
 
   // target_id - computed: false, optional: false, required: true
-  private _targetId?: string;
+  private _targetId?: string; 
   public get targetId() {
     return this.getStringAttribute('target_id');
   }
@@ -464,7 +464,7 @@ export class ConfigRemediationConfiguration extends cdktn.TerraformResource {
   }
 
   // target_type - computed: false, optional: false, required: true
-  private _targetType?: string;
+  private _targetType?: string; 
   public get targetType() {
     return this.getStringAttribute('target_type');
   }
@@ -477,7 +477,7 @@ export class ConfigRemediationConfiguration extends cdktn.TerraformResource {
   }
 
   // target_version - computed: true, optional: true, required: false
-  private _targetVersion?: string;
+  private _targetVersion?: string; 
   public get targetVersion() {
     return this.getStringAttribute('target_version');
   }

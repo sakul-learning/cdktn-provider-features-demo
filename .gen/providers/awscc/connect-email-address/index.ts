@@ -127,7 +127,7 @@ export class ConnectEmailAddressAliasConfigurationsOutputReference extends cdktn
   }
 
   // email_address_arn - computed: true, optional: true, required: false
-  private _emailAddressArn?: string;
+  private _emailAddressArn?: string; 
   public get emailAddressArn() {
     return this.getStringAttribute('email_address_arn');
   }
@@ -264,7 +264,7 @@ export class ConnectEmailAddressTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -280,7 +280,7 @@ export class ConnectEmailAddressTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -395,7 +395,7 @@ export class ConnectEmailAddress extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -411,7 +411,7 @@ export class ConnectEmailAddress extends cdktn.TerraformResource {
   }
 
   // display_name - computed: true, optional: true, required: false
-  private _displayName?: string;
+  private _displayName?: string; 
   public get displayName() {
     return this.getStringAttribute('display_name');
   }
@@ -427,7 +427,7 @@ export class ConnectEmailAddress extends cdktn.TerraformResource {
   }
 
   // email_address - computed: false, optional: false, required: true
-  private _emailAddress?: string;
+  private _emailAddress?: string; 
   public get emailAddress() {
     return this.getStringAttribute('email_address');
   }
@@ -450,7 +450,7 @@ export class ConnectEmailAddress extends cdktn.TerraformResource {
   }
 
   // instance_arn - computed: false, optional: false, required: true
-  private _instanceArn?: string;
+  private _instanceArn?: string; 
   public get instanceArn() {
     return this.getStringAttribute('instance_arn');
   }

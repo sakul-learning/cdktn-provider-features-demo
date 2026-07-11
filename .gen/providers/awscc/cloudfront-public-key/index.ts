@@ -152,7 +152,7 @@ export class CloudfrontPublicKeyPublicKeyConfigOutputReference extends cdktn.Com
   }
 
   // caller_reference - computed: false, optional: false, required: true
-  private _callerReference?: string;
+  private _callerReference?: string; 
   public get callerReference() {
     return this.getStringAttribute('caller_reference');
   }
@@ -165,7 +165,7 @@ export class CloudfrontPublicKeyPublicKeyConfigOutputReference extends cdktn.Com
   }
 
   // comment - computed: true, optional: true, required: false
-  private _comment?: string;
+  private _comment?: string; 
   public get comment() {
     return this.getStringAttribute('comment');
   }
@@ -181,7 +181,7 @@ export class CloudfrontPublicKeyPublicKeyConfigOutputReference extends cdktn.Com
   }
 
   // encoded_key - computed: false, optional: false, required: true
-  private _encodedKey?: string;
+  private _encodedKey?: string; 
   public get encodedKey() {
     return this.getStringAttribute('encoded_key');
   }
@@ -194,7 +194,7 @@ export class CloudfrontPublicKeyPublicKeyConfigOutputReference extends cdktn.Com
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }

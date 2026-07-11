@@ -87,7 +87,7 @@ export class ServicecatalogappregistryAttributeGroupAssociation extends cdktn.Te
   // ==========
 
   // application_id - computed: false, optional: false, required: true
-  private _applicationId?: string;
+  private _applicationId?: string; 
   public get applicationId() {
     return this.getStringAttribute('application_id');
   }
@@ -100,7 +100,7 @@ export class ServicecatalogappregistryAttributeGroupAssociation extends cdktn.Te
   }
 
   // attribute_group_id - computed: false, optional: false, required: true
-  private _attributeGroupId?: string;
+  private _attributeGroupId?: string; 
   public get attributeGroupId() {
     return this.getStringAttribute('attribute_group_id');
   }
@@ -113,7 +113,7 @@ export class ServicecatalogappregistryAttributeGroupAssociation extends cdktn.Te
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

@@ -119,7 +119,7 @@ export class S3BucketLifecycleConfigurationRuleAbortIncompleteMultipartUploadOut
   }
 
   // days_after_initiation - computed: false, optional: true, required: false
-  private _daysAfterInitiation?: number;
+  private _daysAfterInitiation?: number; 
   public get daysAfterInitiation() {
     return this.getNumberAttribute('days_after_initiation');
   }
@@ -269,7 +269,7 @@ export class S3BucketLifecycleConfigurationRuleExpirationOutputReference extends
   }
 
   // date - computed: false, optional: true, required: false
-  private _date?: string;
+  private _date?: string; 
   public get date() {
     return this.getStringAttribute('date');
   }
@@ -285,7 +285,7 @@ export class S3BucketLifecycleConfigurationRuleExpirationOutputReference extends
   }
 
   // days - computed: true, optional: true, required: false
-  private _days?: number;
+  private _days?: number; 
   public get days() {
     return this.getNumberAttribute('days');
   }
@@ -301,7 +301,7 @@ export class S3BucketLifecycleConfigurationRuleExpirationOutputReference extends
   }
 
   // expired_object_delete_marker - computed: true, optional: true, required: false
-  private _expiredObjectDeleteMarker?: boolean | cdktn.IResolvable;
+  private _expiredObjectDeleteMarker?: boolean | cdktn.IResolvable; 
   public get expiredObjectDeleteMarker() {
     return this.getBooleanAttribute('expired_object_delete_marker');
   }
@@ -468,7 +468,7 @@ export class S3BucketLifecycleConfigurationRuleFilterAndOutputReference extends 
   }
 
   // object_size_greater_than - computed: true, optional: true, required: false
-  private _objectSizeGreaterThan?: number;
+  private _objectSizeGreaterThan?: number; 
   public get objectSizeGreaterThan() {
     return this.getNumberAttribute('object_size_greater_than');
   }
@@ -484,7 +484,7 @@ export class S3BucketLifecycleConfigurationRuleFilterAndOutputReference extends 
   }
 
   // object_size_less_than - computed: true, optional: true, required: false
-  private _objectSizeLessThan?: number;
+  private _objectSizeLessThan?: number; 
   public get objectSizeLessThan() {
     return this.getNumberAttribute('object_size_less_than');
   }
@@ -500,7 +500,7 @@ export class S3BucketLifecycleConfigurationRuleFilterAndOutputReference extends 
   }
 
   // prefix - computed: true, optional: true, required: false
-  private _prefix?: string;
+  private _prefix?: string; 
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -516,7 +516,7 @@ export class S3BucketLifecycleConfigurationRuleFilterAndOutputReference extends 
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -649,7 +649,7 @@ export class S3BucketLifecycleConfigurationRuleFilterTagOutputReference extends 
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -662,7 +662,7 @@ export class S3BucketLifecycleConfigurationRuleFilterTagOutputReference extends 
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -847,7 +847,7 @@ export class S3BucketLifecycleConfigurationRuleFilterOutputReference extends cdk
   }
 
   // object_size_greater_than - computed: true, optional: true, required: false
-  private _objectSizeGreaterThan?: number;
+  private _objectSizeGreaterThan?: number; 
   public get objectSizeGreaterThan() {
     return this.getNumberAttribute('object_size_greater_than');
   }
@@ -863,7 +863,7 @@ export class S3BucketLifecycleConfigurationRuleFilterOutputReference extends cdk
   }
 
   // object_size_less_than - computed: true, optional: true, required: false
-  private _objectSizeLessThan?: number;
+  private _objectSizeLessThan?: number; 
   public get objectSizeLessThan() {
     return this.getNumberAttribute('object_size_less_than');
   }
@@ -879,7 +879,7 @@ export class S3BucketLifecycleConfigurationRuleFilterOutputReference extends cdk
   }
 
   // prefix - computed: true, optional: true, required: false
-  private _prefix?: string;
+  private _prefix?: string; 
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -1044,7 +1044,7 @@ export class S3BucketLifecycleConfigurationRuleNoncurrentVersionExpirationOutput
   }
 
   // newer_noncurrent_versions - computed: false, optional: true, required: false
-  private _newerNoncurrentVersions?: number;
+  private _newerNoncurrentVersions?: number; 
   public get newerNoncurrentVersions() {
     return this.getNumberAttribute('newer_noncurrent_versions');
   }
@@ -1060,7 +1060,7 @@ export class S3BucketLifecycleConfigurationRuleNoncurrentVersionExpirationOutput
   }
 
   // noncurrent_days - computed: false, optional: false, required: true
-  private _noncurrentDays?: number;
+  private _noncurrentDays?: number; 
   public get noncurrentDays() {
     return this.getNumberAttribute('noncurrent_days');
   }
@@ -1207,7 +1207,7 @@ export class S3BucketLifecycleConfigurationRuleNoncurrentVersionTransitionOutput
   }
 
   // newer_noncurrent_versions - computed: false, optional: true, required: false
-  private _newerNoncurrentVersions?: number;
+  private _newerNoncurrentVersions?: number; 
   public get newerNoncurrentVersions() {
     return this.getNumberAttribute('newer_noncurrent_versions');
   }
@@ -1223,7 +1223,7 @@ export class S3BucketLifecycleConfigurationRuleNoncurrentVersionTransitionOutput
   }
 
   // noncurrent_days - computed: false, optional: false, required: true
-  private _noncurrentDays?: number;
+  private _noncurrentDays?: number; 
   public get noncurrentDays() {
     return this.getNumberAttribute('noncurrent_days');
   }
@@ -1236,7 +1236,7 @@ export class S3BucketLifecycleConfigurationRuleNoncurrentVersionTransitionOutput
   }
 
   // storage_class - computed: false, optional: false, required: true
-  private _storageClass?: string;
+  private _storageClass?: string; 
   public get storageClass() {
     return this.getStringAttribute('storage_class');
   }
@@ -1383,7 +1383,7 @@ export class S3BucketLifecycleConfigurationRuleTransitionOutputReference extends
   }
 
   // date - computed: false, optional: true, required: false
-  private _date?: string;
+  private _date?: string; 
   public get date() {
     return this.getStringAttribute('date');
   }
@@ -1399,7 +1399,7 @@ export class S3BucketLifecycleConfigurationRuleTransitionOutputReference extends
   }
 
   // days - computed: true, optional: true, required: false
-  private _days?: number;
+  private _days?: number; 
   public get days() {
     return this.getNumberAttribute('days');
   }
@@ -1415,7 +1415,7 @@ export class S3BucketLifecycleConfigurationRuleTransitionOutputReference extends
   }
 
   // storage_class - computed: false, optional: false, required: true
-  private _storageClass?: string;
+  private _storageClass?: string; 
   public get storageClass() {
     return this.getStringAttribute('storage_class');
   }
@@ -1679,7 +1679,7 @@ export class S3BucketLifecycleConfigurationRuleOutputReference extends cdktn.Com
   }
 
   // id - computed: false, optional: false, required: true
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -1692,7 +1692,7 @@ export class S3BucketLifecycleConfigurationRuleOutputReference extends cdktn.Com
   }
 
   // prefix - computed: true, optional: true, required: false
-  private _prefix?: string;
+  private _prefix?: string; 
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -1708,7 +1708,7 @@ export class S3BucketLifecycleConfigurationRuleOutputReference extends cdktn.Com
   }
 
   // status - computed: false, optional: false, required: true
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -1936,7 +1936,7 @@ export class S3BucketLifecycleConfigurationTimeoutsOutputReference extends cdktn
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -1952,7 +1952,7 @@ export class S3BucketLifecycleConfigurationTimeoutsOutputReference extends cdktn
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -2031,7 +2031,7 @@ export class S3BucketLifecycleConfiguration extends cdktn.TerraformResource {
   // ==========
 
   // bucket - computed: false, optional: false, required: true
-  private _bucket?: string;
+  private _bucket?: string; 
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -2044,7 +2044,7 @@ export class S3BucketLifecycleConfiguration extends cdktn.TerraformResource {
   }
 
   // expected_bucket_owner - computed: true, optional: true, required: false
-  private _expectedBucketOwner?: string;
+  private _expectedBucketOwner?: string; 
   public get expectedBucketOwner() {
     return this.getStringAttribute('expected_bucket_owner');
   }
@@ -2065,7 +2065,7 @@ export class S3BucketLifecycleConfiguration extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -2081,7 +2081,7 @@ export class S3BucketLifecycleConfiguration extends cdktn.TerraformResource {
   }
 
   // transition_default_minimum_object_size - computed: true, optional: true, required: false
-  private _transitionDefaultMinimumObjectSize?: string;
+  private _transitionDefaultMinimumObjectSize?: string; 
   public get transitionDefaultMinimumObjectSize() {
     return this.getStringAttribute('transition_default_minimum_object_size');
   }

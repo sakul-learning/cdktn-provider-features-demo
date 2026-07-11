@@ -94,7 +94,7 @@ export class Ec2TransitGatewayRoute extends cdktn.TerraformResource {
   // ==========
 
   // blackhole - computed: true, optional: true, required: false
-  private _blackhole?: boolean | cdktn.IResolvable;
+  private _blackhole?: boolean | cdktn.IResolvable; 
   public get blackhole() {
     return this.getBooleanAttribute('blackhole');
   }
@@ -110,7 +110,7 @@ export class Ec2TransitGatewayRoute extends cdktn.TerraformResource {
   }
 
   // destination_cidr_block - computed: false, optional: false, required: true
-  private _destinationCidrBlock?: string;
+  private _destinationCidrBlock?: string; 
   public get destinationCidrBlock() {
     return this.getStringAttribute('destination_cidr_block');
   }
@@ -128,7 +128,7 @@ export class Ec2TransitGatewayRoute extends cdktn.TerraformResource {
   }
 
   // transit_gateway_attachment_id - computed: true, optional: true, required: false
-  private _transitGatewayAttachmentId?: string;
+  private _transitGatewayAttachmentId?: string; 
   public get transitGatewayAttachmentId() {
     return this.getStringAttribute('transit_gateway_attachment_id');
   }
@@ -144,7 +144,7 @@ export class Ec2TransitGatewayRoute extends cdktn.TerraformResource {
   }
 
   // transit_gateway_route_table_id - computed: false, optional: false, required: true
-  private _transitGatewayRouteTableId?: string;
+  private _transitGatewayRouteTableId?: string; 
   public get transitGatewayRouteTableId() {
     return this.getStringAttribute('transit_gateway_route_table_id');
   }

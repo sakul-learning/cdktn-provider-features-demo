@@ -8,7 +8,7 @@ import * as cdktn from 'cdktn';
 
 export interface ElasticbeanstalkConfigurationTemplateConfig extends cdktn.TerraformMetaArguments {
   /**
-  * The name of the Elastic Beanstalk application to associate with this configuration template.
+  * The name of the Elastic Beanstalk application to associate with this configuration template. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticbeanstalk_configuration_template#application_name ElasticbeanstalkConfigurationTemplate#application_name}
   */
@@ -20,41 +20,41 @@ export interface ElasticbeanstalkConfigurationTemplateConfig extends cdktn.Terra
   */
   readonly description?: string;
   /**
-  * The ID of an environment whose settings you want to use to create the configuration template. You must specify EnvironmentId if you don't specify PlatformArn, SolutionStackName, or SourceConfiguration.
+  * The ID of an environment whose settings you want to use to create the configuration template. You must specify EnvironmentId if you don't specify PlatformArn, SolutionStackName, or SourceConfiguration. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticbeanstalk_configuration_template#environment_id ElasticbeanstalkConfigurationTemplate#environment_id}
   */
   readonly environmentId?: string;
   /**
-  * Option values for the Elastic Beanstalk configuration, such as the instance type. If specified, these values override the values obtained from the solution stack or the source configuration template. For a complete list of Elastic Beanstalk configuration options, see [Option Values](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/command-options.html) in the AWS Elastic Beanstalk Developer Guide.
+  * Option values for the Elastic Beanstalk configuration, such as the instance type. If specified, these values override the values obtained from the solution stack or the source configuration template. For a complete list of Elastic Beanstalk configuration options, see [Option Values](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/command-options.html) in the AWS Elastic Beanstalk Developer Guide. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticbeanstalk_configuration_template#option_settings ElasticbeanstalkConfigurationTemplate#option_settings}
   */
   readonly optionSettings?: ElasticbeanstalkConfigurationTemplateOptionSettings[] | cdktn.IResolvable;
   /**
-  * The Amazon Resource Name (ARN) of the custom platform. For more information, see [Custom Platforms](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/custom-platforms.html) in the AWS Elastic Beanstalk Developer Guide.
+  * The Amazon Resource Name (ARN) of the custom platform. For more information, see [Custom Platforms](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/custom-platforms.html) in the AWS Elastic Beanstalk Developer Guide. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticbeanstalk_configuration_template#platform_arn ElasticbeanstalkConfigurationTemplate#platform_arn}
   */
   readonly platformArn?: string;
   /**
   * The name of an Elastic Beanstalk solution stack (platform version) that this configuration uses. For example, 64bit Amazon Linux 2013.09 running Tomcat 7 Java 7. A solution stack specifies the operating system, runtime, and application server for a configuration template. It also determines the set of configuration options as well as the possible and default values. For more information, see [Supported Platforms](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/concepts.platforms.html) in the AWS Elastic Beanstalk Developer Guide.
-  *
+  * 
   *  You must specify SolutionStackName if you don't specify PlatformArn, EnvironmentId, or SourceConfiguration.
-  *
-  *  Use the ListAvailableSolutionStacks API to obtain a list of available solution stacks.
+  * 
+  *  Use the ListAvailableSolutionStacks API to obtain a list of available solution stacks. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticbeanstalk_configuration_template#solution_stack_name ElasticbeanstalkConfigurationTemplate#solution_stack_name}
   */
   readonly solutionStackName?: string;
   /**
   * An Elastic Beanstalk configuration template to base this one on. If specified, Elastic Beanstalk uses the configuration values from the specified configuration template to create a new configuration.
-  *
+  * 
   * Values specified in OptionSettings override any values obtained from the SourceConfiguration.
-  *
+  * 
   * You must specify SourceConfiguration if you don't specify PlatformArn, EnvironmentId, or SolutionStackName.
-  *
-  * Constraint: If both solution stack name and source configuration are specified, the solution stack of the source configuration template must match the specified solution stack name.
+  * 
+  * Constraint: If both solution stack name and source configuration are specified, the solution stack of the source configuration template must match the specified solution stack name. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticbeanstalk_configuration_template#source_configuration ElasticbeanstalkConfigurationTemplate#source_configuration}
   */
@@ -74,7 +74,7 @@ export interface ElasticbeanstalkConfigurationTemplateOptionSettings {
   */
   readonly optionName?: string;
   /**
-  * A unique resource name for the option setting. Use it for a time–based scaling configuration option.
+  * A unique resource name for the option setting. Use it for a time–based scaling configuration option. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticbeanstalk_configuration_template#resource_name ElasticbeanstalkConfigurationTemplate#resource_name}
   */
@@ -200,7 +200,7 @@ export class ElasticbeanstalkConfigurationTemplateOptionSettingsOutputReference 
   }
 
   // namespace - computed: true, optional: true, required: false
-  private _namespace?: string;
+  private _namespace?: string; 
   public get namespace() {
     return this.getStringAttribute('namespace');
   }
@@ -216,7 +216,7 @@ export class ElasticbeanstalkConfigurationTemplateOptionSettingsOutputReference 
   }
 
   // option_name - computed: true, optional: true, required: false
-  private _optionName?: string;
+  private _optionName?: string; 
   public get optionName() {
     return this.getStringAttribute('option_name');
   }
@@ -232,7 +232,7 @@ export class ElasticbeanstalkConfigurationTemplateOptionSettingsOutputReference 
   }
 
   // resource_name - computed: true, optional: true, required: false
-  private _resourceName?: string;
+  private _resourceName?: string; 
   public get resourceName() {
     return this.getStringAttribute('resource_name');
   }
@@ -248,7 +248,7 @@ export class ElasticbeanstalkConfigurationTemplateOptionSettingsOutputReference 
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -383,7 +383,7 @@ export class ElasticbeanstalkConfigurationTemplateSourceConfigurationOutputRefer
   }
 
   // application_name - computed: true, optional: true, required: false
-  private _applicationName?: string;
+  private _applicationName?: string; 
   public get applicationName() {
     return this.getStringAttribute('application_name');
   }
@@ -399,7 +399,7 @@ export class ElasticbeanstalkConfigurationTemplateSourceConfigurationOutputRefer
   }
 
   // template_name - computed: true, optional: true, required: false
-  private _templateName?: string;
+  private _templateName?: string; 
   public get templateName() {
     return this.getStringAttribute('template_name');
   }
@@ -479,7 +479,7 @@ export class ElasticbeanstalkConfigurationTemplate extends cdktn.TerraformResour
   // ==========
 
   // application_name - computed: false, optional: false, required: true
-  private _applicationName?: string;
+  private _applicationName?: string; 
   public get applicationName() {
     return this.getStringAttribute('application_name');
   }
@@ -492,7 +492,7 @@ export class ElasticbeanstalkConfigurationTemplate extends cdktn.TerraformResour
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -508,7 +508,7 @@ export class ElasticbeanstalkConfigurationTemplate extends cdktn.TerraformResour
   }
 
   // environment_id - computed: true, optional: true, required: false
-  private _environmentId?: string;
+  private _environmentId?: string; 
   public get environmentId() {
     return this.getStringAttribute('environment_id');
   }
@@ -545,7 +545,7 @@ export class ElasticbeanstalkConfigurationTemplate extends cdktn.TerraformResour
   }
 
   // platform_arn - computed: true, optional: true, required: false
-  private _platformArn?: string;
+  private _platformArn?: string; 
   public get platformArn() {
     return this.getStringAttribute('platform_arn');
   }
@@ -561,7 +561,7 @@ export class ElasticbeanstalkConfigurationTemplate extends cdktn.TerraformResour
   }
 
   // solution_stack_name - computed: true, optional: true, required: false
-  private _solutionStackName?: string;
+  private _solutionStackName?: string; 
   public get solutionStackName() {
     return this.getStringAttribute('solution_stack_name');
   }

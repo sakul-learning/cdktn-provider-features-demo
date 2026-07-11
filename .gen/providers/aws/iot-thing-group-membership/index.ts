@@ -96,7 +96,7 @@ export class IotThingGroupMembership extends cdktn.TerraformResource {
   // ==========
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -112,7 +112,7 @@ export class IotThingGroupMembership extends cdktn.TerraformResource {
   }
 
   // override_dynamic_group - computed: false, optional: true, required: false
-  private _overrideDynamicGroup?: boolean | cdktn.IResolvable;
+  private _overrideDynamicGroup?: boolean | cdktn.IResolvable; 
   public get overrideDynamicGroup() {
     return this.getBooleanAttribute('override_dynamic_group');
   }
@@ -128,7 +128,7 @@ export class IotThingGroupMembership extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -144,7 +144,7 @@ export class IotThingGroupMembership extends cdktn.TerraformResource {
   }
 
   // thing_group_name - computed: false, optional: false, required: true
-  private _thingGroupName?: string;
+  private _thingGroupName?: string; 
   public get thingGroupName() {
     return this.getStringAttribute('thing_group_name');
   }
@@ -157,7 +157,7 @@ export class IotThingGroupMembership extends cdktn.TerraformResource {
   }
 
   // thing_name - computed: false, optional: false, required: true
-  private _thingName?: string;
+  private _thingName?: string; 
   public get thingName() {
     return this.getStringAttribute('thing_name');
   }

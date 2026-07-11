@@ -153,7 +153,7 @@ export class GameliftGameSessionQueuePlayerLatencyPolicyOutputReference extends 
   }
 
   // maximum_individual_player_latency_milliseconds - computed: false, optional: false, required: true
-  private _maximumIndividualPlayerLatencyMilliseconds?: number;
+  private _maximumIndividualPlayerLatencyMilliseconds?: number; 
   public get maximumIndividualPlayerLatencyMilliseconds() {
     return this.getNumberAttribute('maximum_individual_player_latency_milliseconds');
   }
@@ -166,7 +166,7 @@ export class GameliftGameSessionQueuePlayerLatencyPolicyOutputReference extends 
   }
 
   // policy_duration_seconds - computed: false, optional: true, required: false
-  private _policyDurationSeconds?: number;
+  private _policyDurationSeconds?: number; 
   public get policyDurationSeconds() {
     return this.getNumberAttribute('policy_duration_seconds');
   }
@@ -274,7 +274,7 @@ export class GameliftGameSessionQueue extends cdktn.TerraformResource {
   }
 
   // custom_event_data - computed: false, optional: true, required: false
-  private _customEventData?: string;
+  private _customEventData?: string; 
   public get customEventData() {
     return this.getStringAttribute('custom_event_data');
   }
@@ -290,7 +290,7 @@ export class GameliftGameSessionQueue extends cdktn.TerraformResource {
   }
 
   // destinations - computed: false, optional: true, required: false
-  private _destinations?: string[];
+  private _destinations?: string[]; 
   public get destinations() {
     return this.getListAttribute('destinations');
   }
@@ -306,7 +306,7 @@ export class GameliftGameSessionQueue extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -322,7 +322,7 @@ export class GameliftGameSessionQueue extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -335,7 +335,7 @@ export class GameliftGameSessionQueue extends cdktn.TerraformResource {
   }
 
   // notification_target - computed: false, optional: true, required: false
-  private _notificationTarget?: string;
+  private _notificationTarget?: string; 
   public get notificationTarget() {
     return this.getStringAttribute('notification_target');
   }
@@ -351,7 +351,7 @@ export class GameliftGameSessionQueue extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -367,7 +367,7 @@ export class GameliftGameSessionQueue extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -383,7 +383,7 @@ export class GameliftGameSessionQueue extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -399,7 +399,7 @@ export class GameliftGameSessionQueue extends cdktn.TerraformResource {
   }
 
   // timeout_in_seconds - computed: false, optional: true, required: false
-  private _timeoutInSeconds?: number;
+  private _timeoutInSeconds?: number; 
   public get timeoutInSeconds() {
     return this.getNumberAttribute('timeout_in_seconds');
   }

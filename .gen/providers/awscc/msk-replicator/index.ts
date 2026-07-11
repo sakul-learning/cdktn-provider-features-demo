@@ -131,7 +131,7 @@ export class MskReplicatorKafkaClustersAmazonMskClusterOutputReference extends c
   }
 
   // msk_cluster_arn - computed: true, optional: true, required: false
-  private _mskClusterArn?: string;
+  private _mskClusterArn?: string; 
   public get mskClusterArn() {
     return this.getStringAttribute('msk_cluster_arn');
   }
@@ -246,7 +246,7 @@ export class MskReplicatorKafkaClustersApacheKafkaClusterOutputReference extends
   }
 
   // apache_kafka_cluster_id - computed: true, optional: true, required: false
-  private _apacheKafkaClusterId?: string;
+  private _apacheKafkaClusterId?: string; 
   public get apacheKafkaClusterId() {
     return this.getStringAttribute('apache_kafka_cluster_id');
   }
@@ -262,7 +262,7 @@ export class MskReplicatorKafkaClustersApacheKafkaClusterOutputReference extends
   }
 
   // bootstrap_broker_string - computed: true, optional: true, required: false
-  private _bootstrapBrokerString?: string;
+  private _bootstrapBrokerString?: string; 
   public get bootstrapBrokerString() {
     return this.getStringAttribute('bootstrap_broker_string');
   }
@@ -358,7 +358,7 @@ export class MskReplicatorKafkaClustersClientAuthenticationMtlsOutputReference e
   }
 
   // secret_arn - computed: true, optional: true, required: false
-  private _secretArn?: string;
+  private _secretArn?: string; 
   public get secretArn() {
     return this.getStringAttribute('secret_arn');
   }
@@ -473,7 +473,7 @@ export class MskReplicatorKafkaClustersClientAuthenticationSaslScramOutputRefere
   }
 
   // mechanism - computed: true, optional: true, required: false
-  private _mechanism?: string;
+  private _mechanism?: string; 
   public get mechanism() {
     return this.getStringAttribute('mechanism');
   }
@@ -489,7 +489,7 @@ export class MskReplicatorKafkaClustersClientAuthenticationSaslScramOutputRefere
   }
 
   // secret_arn - computed: true, optional: true, required: false
-  private _secretArn?: string;
+  private _secretArn?: string; 
   public get secretArn() {
     return this.getStringAttribute('secret_arn');
   }
@@ -735,7 +735,7 @@ export class MskReplicatorKafkaClustersEncryptionInTransitOutputReference extend
   }
 
   // encryption_type - computed: true, optional: true, required: false
-  private _encryptionType?: string;
+  private _encryptionType?: string; 
   public get encryptionType() {
     return this.getStringAttribute('encryption_type');
   }
@@ -751,7 +751,7 @@ export class MskReplicatorKafkaClustersEncryptionInTransitOutputReference extend
   }
 
   // root_ca_certificate - computed: true, optional: true, required: false
-  private _rootCaCertificate?: string;
+  private _rootCaCertificate?: string; 
   public get rootCaCertificate() {
     return this.getStringAttribute('root_ca_certificate');
   }
@@ -866,7 +866,7 @@ export class MskReplicatorKafkaClustersVpcConfigOutputReference extends cdktn.Co
   }
 
   // security_group_ids - computed: true, optional: true, required: false
-  private _securityGroupIds?: string[];
+  private _securityGroupIds?: string[]; 
   public get securityGroupIds() {
     return cdktn.Fn.tolist(this.getListAttribute('security_group_ids'));
   }
@@ -882,7 +882,7 @@ export class MskReplicatorKafkaClustersVpcConfigOutputReference extends cdktn.Co
   }
 
   // subnet_ids - computed: true, optional: true, required: false
-  private _subnetIds?: string[];
+  private _subnetIds?: string[]; 
   public get subnetIds() {
     return cdktn.Fn.tolist(this.getListAttribute('subnet_ids'));
   }
@@ -1255,7 +1255,7 @@ export class MskReplicatorLogDeliveryReplicatorLogDeliveryCloudwatchLogsOutputRe
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -1271,7 +1271,7 @@ export class MskReplicatorLogDeliveryReplicatorLogDeliveryCloudwatchLogsOutputRe
   }
 
   // log_group - computed: true, optional: true, required: false
-  private _logGroup?: string;
+  private _logGroup?: string; 
   public get logGroup() {
     return this.getStringAttribute('log_group');
   }
@@ -1386,7 +1386,7 @@ export class MskReplicatorLogDeliveryReplicatorLogDeliveryFirehoseOutputReferenc
   }
 
   // delivery_stream - computed: true, optional: true, required: false
-  private _deliveryStream?: string;
+  private _deliveryStream?: string; 
   public get deliveryStream() {
     return this.getStringAttribute('delivery_stream');
   }
@@ -1402,7 +1402,7 @@ export class MskReplicatorLogDeliveryReplicatorLogDeliveryFirehoseOutputReferenc
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -1536,7 +1536,7 @@ export class MskReplicatorLogDeliveryReplicatorLogDeliveryS3OutputReference exte
   }
 
   // bucket - computed: true, optional: true, required: false
-  private _bucket?: string;
+  private _bucket?: string; 
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -1552,7 +1552,7 @@ export class MskReplicatorLogDeliveryReplicatorLogDeliveryS3OutputReference exte
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -1568,7 +1568,7 @@ export class MskReplicatorLogDeliveryReplicatorLogDeliveryS3OutputReference exte
   }
 
   // prefix - computed: true, optional: true, required: false
-  private _prefix?: string;
+  private _prefix?: string; 
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -2002,7 +2002,7 @@ export class MskReplicatorReplicationInfoListConsumerGroupReplicationOutputRefer
   }
 
   // consumer_group_offset_sync_mode - computed: true, optional: true, required: false
-  private _consumerGroupOffsetSyncMode?: string;
+  private _consumerGroupOffsetSyncMode?: string; 
   public get consumerGroupOffsetSyncMode() {
     return this.getStringAttribute('consumer_group_offset_sync_mode');
   }
@@ -2018,7 +2018,7 @@ export class MskReplicatorReplicationInfoListConsumerGroupReplicationOutputRefer
   }
 
   // consumer_groups_to_exclude - computed: true, optional: true, required: false
-  private _consumerGroupsToExclude?: string[];
+  private _consumerGroupsToExclude?: string[]; 
   public get consumerGroupsToExclude() {
     return cdktn.Fn.tolist(this.getListAttribute('consumer_groups_to_exclude'));
   }
@@ -2034,7 +2034,7 @@ export class MskReplicatorReplicationInfoListConsumerGroupReplicationOutputRefer
   }
 
   // consumer_groups_to_replicate - computed: false, optional: false, required: true
-  private _consumerGroupsToReplicate?: string[];
+  private _consumerGroupsToReplicate?: string[]; 
   public get consumerGroupsToReplicate() {
     return cdktn.Fn.tolist(this.getListAttribute('consumer_groups_to_replicate'));
   }
@@ -2047,7 +2047,7 @@ export class MskReplicatorReplicationInfoListConsumerGroupReplicationOutputRefer
   }
 
   // detect_and_copy_new_consumer_groups - computed: true, optional: true, required: false
-  private _detectAndCopyNewConsumerGroups?: boolean | cdktn.IResolvable;
+  private _detectAndCopyNewConsumerGroups?: boolean | cdktn.IResolvable; 
   public get detectAndCopyNewConsumerGroups() {
     return this.getBooleanAttribute('detect_and_copy_new_consumer_groups');
   }
@@ -2063,7 +2063,7 @@ export class MskReplicatorReplicationInfoListConsumerGroupReplicationOutputRefer
   }
 
   // synchronise_consumer_group_offsets - computed: true, optional: true, required: false
-  private _synchroniseConsumerGroupOffsets?: boolean | cdktn.IResolvable;
+  private _synchroniseConsumerGroupOffsets?: boolean | cdktn.IResolvable; 
   public get synchroniseConsumerGroupOffsets() {
     return this.getBooleanAttribute('synchronise_consumer_group_offsets');
   }
@@ -2159,7 +2159,7 @@ export class MskReplicatorReplicationInfoListTopicReplicationStartingPositionOut
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -2255,7 +2255,7 @@ export class MskReplicatorReplicationInfoListTopicReplicationTopicNameConfigurat
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -2465,7 +2465,7 @@ export class MskReplicatorReplicationInfoListTopicReplicationOutputReference ext
   }
 
   // copy_access_control_lists_for_topics - computed: true, optional: true, required: false
-  private _copyAccessControlListsForTopics?: boolean | cdktn.IResolvable;
+  private _copyAccessControlListsForTopics?: boolean | cdktn.IResolvable; 
   public get copyAccessControlListsForTopics() {
     return this.getBooleanAttribute('copy_access_control_lists_for_topics');
   }
@@ -2481,7 +2481,7 @@ export class MskReplicatorReplicationInfoListTopicReplicationOutputReference ext
   }
 
   // copy_topic_configurations - computed: true, optional: true, required: false
-  private _copyTopicConfigurations?: boolean | cdktn.IResolvable;
+  private _copyTopicConfigurations?: boolean | cdktn.IResolvable; 
   public get copyTopicConfigurations() {
     return this.getBooleanAttribute('copy_topic_configurations');
   }
@@ -2497,7 +2497,7 @@ export class MskReplicatorReplicationInfoListTopicReplicationOutputReference ext
   }
 
   // detect_and_copy_new_topics - computed: true, optional: true, required: false
-  private _detectAndCopyNewTopics?: boolean | cdktn.IResolvable;
+  private _detectAndCopyNewTopics?: boolean | cdktn.IResolvable; 
   public get detectAndCopyNewTopics() {
     return this.getBooleanAttribute('detect_and_copy_new_topics');
   }
@@ -2545,7 +2545,7 @@ export class MskReplicatorReplicationInfoListTopicReplicationOutputReference ext
   }
 
   // topics_to_exclude - computed: true, optional: true, required: false
-  private _topicsToExclude?: string[];
+  private _topicsToExclude?: string[]; 
   public get topicsToExclude() {
     return cdktn.Fn.tolist(this.getListAttribute('topics_to_exclude'));
   }
@@ -2561,7 +2561,7 @@ export class MskReplicatorReplicationInfoListTopicReplicationOutputReference ext
   }
 
   // topics_to_replicate - computed: false, optional: false, required: true
-  private _topicsToReplicate?: string[];
+  private _topicsToReplicate?: string[]; 
   public get topicsToReplicate() {
     return cdktn.Fn.tolist(this.getListAttribute('topics_to_replicate'));
   }
@@ -2783,7 +2783,7 @@ export class MskReplicatorReplicationInfoListStructOutputReference extends cdktn
   }
 
   // source_kafka_cluster_arn - computed: true, optional: true, required: false
-  private _sourceKafkaClusterArn?: string;
+  private _sourceKafkaClusterArn?: string; 
   public get sourceKafkaClusterArn() {
     return this.getStringAttribute('source_kafka_cluster_arn');
   }
@@ -2799,7 +2799,7 @@ export class MskReplicatorReplicationInfoListStructOutputReference extends cdktn
   }
 
   // source_kafka_cluster_id - computed: true, optional: true, required: false
-  private _sourceKafkaClusterId?: string;
+  private _sourceKafkaClusterId?: string; 
   public get sourceKafkaClusterId() {
     return this.getStringAttribute('source_kafka_cluster_id');
   }
@@ -2815,7 +2815,7 @@ export class MskReplicatorReplicationInfoListStructOutputReference extends cdktn
   }
 
   // target_compression_type - computed: false, optional: false, required: true
-  private _targetCompressionType?: string;
+  private _targetCompressionType?: string; 
   public get targetCompressionType() {
     return this.getStringAttribute('target_compression_type');
   }
@@ -2828,7 +2828,7 @@ export class MskReplicatorReplicationInfoListStructOutputReference extends cdktn
   }
 
   // target_kafka_cluster_arn - computed: true, optional: true, required: false
-  private _targetKafkaClusterArn?: string;
+  private _targetKafkaClusterArn?: string; 
   public get targetKafkaClusterArn() {
     return this.getStringAttribute('target_kafka_cluster_arn');
   }
@@ -2844,7 +2844,7 @@ export class MskReplicatorReplicationInfoListStructOutputReference extends cdktn
   }
 
   // target_kafka_cluster_id - computed: true, optional: true, required: false
-  private _targetKafkaClusterId?: string;
+  private _targetKafkaClusterId?: string; 
   public get targetKafkaClusterId() {
     return this.getStringAttribute('target_kafka_cluster_id');
   }
@@ -2990,7 +2990,7 @@ export class MskReplicatorTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -3006,7 +3006,7 @@ export class MskReplicatorTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -3111,7 +3111,7 @@ export class MskReplicator extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -3179,7 +3179,7 @@ export class MskReplicator extends cdktn.TerraformResource {
   }
 
   // replicator_name - computed: false, optional: false, required: true
-  private _replicatorName?: string;
+  private _replicatorName?: string; 
   public get replicatorName() {
     return this.getStringAttribute('replicator_name');
   }
@@ -3192,7 +3192,7 @@ export class MskReplicator extends cdktn.TerraformResource {
   }
 
   // service_execution_role_arn - computed: false, optional: false, required: true
-  private _serviceExecutionRoleArn?: string;
+  private _serviceExecutionRoleArn?: string; 
   public get serviceExecutionRoleArn() {
     return this.getStringAttribute('service_execution_role_arn');
   }

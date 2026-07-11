@@ -94,7 +94,7 @@ export class NeptunegraphPrivateGraphEndpoint extends cdktn.TerraformResource {
   // ==========
 
   // graph_identifier - computed: false, optional: false, required: true
-  private _graphIdentifier?: string;
+  private _graphIdentifier?: string; 
   public get graphIdentifier() {
     return this.getStringAttribute('graph_identifier');
   }
@@ -117,7 +117,7 @@ export class NeptunegraphPrivateGraphEndpoint extends cdktn.TerraformResource {
   }
 
   // security_group_ids - computed: true, optional: true, required: false
-  private _securityGroupIds?: string[];
+  private _securityGroupIds?: string[]; 
   public get securityGroupIds() {
     return this.getListAttribute('security_group_ids');
   }
@@ -133,7 +133,7 @@ export class NeptunegraphPrivateGraphEndpoint extends cdktn.TerraformResource {
   }
 
   // subnet_ids - computed: true, optional: true, required: false
-  private _subnetIds?: string[];
+  private _subnetIds?: string[]; 
   public get subnetIds() {
     return this.getListAttribute('subnet_ids');
   }
@@ -154,7 +154,7 @@ export class NeptunegraphPrivateGraphEndpoint extends cdktn.TerraformResource {
   }
 
   // vpc_id - computed: false, optional: false, required: true
-  private _vpcId?: string;
+  private _vpcId?: string; 
   public get vpcId() {
     return this.getStringAttribute('vpc_id');
   }

@@ -152,7 +152,7 @@ export class MacieCustomDataIdentifierTagsOutputReference extends cdktn.ComplexO
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -168,7 +168,7 @@ export class MacieCustomDataIdentifierTagsOutputReference extends cdktn.ComplexO
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -278,7 +278,7 @@ export class MacieCustomDataIdentifier extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -299,7 +299,7 @@ export class MacieCustomDataIdentifier extends cdktn.TerraformResource {
   }
 
   // ignore_words - computed: true, optional: true, required: false
-  private _ignoreWords?: string[];
+  private _ignoreWords?: string[]; 
   public get ignoreWords() {
     return this.getListAttribute('ignore_words');
   }
@@ -315,7 +315,7 @@ export class MacieCustomDataIdentifier extends cdktn.TerraformResource {
   }
 
   // keywords - computed: true, optional: true, required: false
-  private _keywords?: string[];
+  private _keywords?: string[]; 
   public get keywords() {
     return this.getListAttribute('keywords');
   }
@@ -331,7 +331,7 @@ export class MacieCustomDataIdentifier extends cdktn.TerraformResource {
   }
 
   // maximum_match_distance - computed: true, optional: true, required: false
-  private _maximumMatchDistance?: number;
+  private _maximumMatchDistance?: number; 
   public get maximumMatchDistance() {
     return this.getNumberAttribute('maximum_match_distance');
   }
@@ -347,7 +347,7 @@ export class MacieCustomDataIdentifier extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -360,7 +360,7 @@ export class MacieCustomDataIdentifier extends cdktn.TerraformResource {
   }
 
   // regex - computed: false, optional: false, required: true
-  private _regex?: string;
+  private _regex?: string; 
   public get regex() {
     return this.getStringAttribute('regex');
   }

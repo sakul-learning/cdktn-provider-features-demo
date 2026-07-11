@@ -111,7 +111,7 @@ export class VpclatticeListenerDefaultActionFixedResponseOutputReference extends
   }
 
   // status_code - computed: true, optional: true, required: false
-  private _statusCode?: number;
+  private _statusCode?: number; 
   public get statusCode() {
     return this.getNumberAttribute('status_code');
   }
@@ -224,7 +224,7 @@ export class VpclatticeListenerDefaultActionForwardTargetGroupsOutputReference e
   }
 
   // target_group_identifier - computed: true, optional: true, required: false
-  private _targetGroupIdentifier?: string;
+  private _targetGroupIdentifier?: string; 
   public get targetGroupIdentifier() {
     return this.getStringAttribute('target_group_identifier');
   }
@@ -240,7 +240,7 @@ export class VpclatticeListenerDefaultActionForwardTargetGroupsOutputReference e
   }
 
   // weight - computed: true, optional: true, required: false
-  private _weight?: number;
+  private _weight?: number; 
   public get weight() {
     return this.getNumberAttribute('weight');
   }
@@ -594,7 +594,7 @@ export class VpclatticeListenerTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -610,7 +610,7 @@ export class VpclatticeListenerTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -737,7 +737,7 @@ export class VpclatticeListener extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -753,7 +753,7 @@ export class VpclatticeListener extends cdktn.TerraformResource {
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -769,7 +769,7 @@ export class VpclatticeListener extends cdktn.TerraformResource {
   }
 
   // protocol - computed: false, optional: false, required: true
-  private _protocol?: string;
+  private _protocol?: string; 
   public get protocol() {
     return this.getStringAttribute('protocol');
   }
@@ -792,7 +792,7 @@ export class VpclatticeListener extends cdktn.TerraformResource {
   }
 
   // service_identifier - computed: true, optional: true, required: false
-  private _serviceIdentifier?: string;
+  private _serviceIdentifier?: string; 
   public get serviceIdentifier() {
     return this.getStringAttribute('service_identifier');
   }

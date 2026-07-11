@@ -126,7 +126,7 @@ export class DataAwsDbClusterSnapshot extends cdktn.TerraformDataSource {
   }
 
   // db_cluster_identifier - computed: false, optional: true, required: false
-  private _dbClusterIdentifier?: string;
+  private _dbClusterIdentifier?: string; 
   public get dbClusterIdentifier() {
     return this.getStringAttribute('db_cluster_identifier');
   }
@@ -147,7 +147,7 @@ export class DataAwsDbClusterSnapshot extends cdktn.TerraformDataSource {
   }
 
   // db_cluster_snapshot_identifier - computed: false, optional: true, required: false
-  private _dbClusterSnapshotIdentifier?: string;
+  private _dbClusterSnapshotIdentifier?: string; 
   public get dbClusterSnapshotIdentifier() {
     return this.getStringAttribute('db_cluster_snapshot_identifier');
   }
@@ -173,7 +173,7 @@ export class DataAwsDbClusterSnapshot extends cdktn.TerraformDataSource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -189,7 +189,7 @@ export class DataAwsDbClusterSnapshot extends cdktn.TerraformDataSource {
   }
 
   // include_public - computed: false, optional: true, required: false
-  private _includePublic?: boolean | cdktn.IResolvable;
+  private _includePublic?: boolean | cdktn.IResolvable; 
   public get includePublic() {
     return this.getBooleanAttribute('include_public');
   }
@@ -205,7 +205,7 @@ export class DataAwsDbClusterSnapshot extends cdktn.TerraformDataSource {
   }
 
   // include_shared - computed: false, optional: true, required: false
-  private _includeShared?: boolean | cdktn.IResolvable;
+  private _includeShared?: boolean | cdktn.IResolvable; 
   public get includeShared() {
     return this.getBooleanAttribute('include_shared');
   }
@@ -231,7 +231,7 @@ export class DataAwsDbClusterSnapshot extends cdktn.TerraformDataSource {
   }
 
   // most_recent - computed: false, optional: true, required: false
-  private _mostRecent?: boolean | cdktn.IResolvable;
+  private _mostRecent?: boolean | cdktn.IResolvable; 
   public get mostRecent() {
     return this.getBooleanAttribute('most_recent');
   }
@@ -252,7 +252,7 @@ export class DataAwsDbClusterSnapshot extends cdktn.TerraformDataSource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -273,7 +273,7 @@ export class DataAwsDbClusterSnapshot extends cdktn.TerraformDataSource {
   }
 
   // snapshot_type - computed: false, optional: true, required: false
-  private _snapshotType?: string;
+  private _snapshotType?: string; 
   public get snapshotType() {
     return this.getStringAttribute('snapshot_type');
   }
@@ -304,7 +304,7 @@ export class DataAwsDbClusterSnapshot extends cdktn.TerraformDataSource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

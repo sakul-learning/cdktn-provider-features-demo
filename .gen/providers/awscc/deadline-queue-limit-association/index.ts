@@ -81,7 +81,7 @@ export class DeadlineQueueLimitAssociation extends cdktn.TerraformResource {
   // ==========
 
   // farm_id - computed: false, optional: false, required: true
-  private _farmId?: string;
+  private _farmId?: string; 
   public get farmId() {
     return this.getStringAttribute('farm_id');
   }
@@ -99,7 +99,7 @@ export class DeadlineQueueLimitAssociation extends cdktn.TerraformResource {
   }
 
   // limit_id - computed: false, optional: false, required: true
-  private _limitId?: string;
+  private _limitId?: string; 
   public get limitId() {
     return this.getStringAttribute('limit_id');
   }
@@ -112,7 +112,7 @@ export class DeadlineQueueLimitAssociation extends cdktn.TerraformResource {
   }
 
   // queue_id - computed: false, optional: false, required: true
-  private _queueId?: string;
+  private _queueId?: string; 
   public get queueId() {
     return this.getStringAttribute('queue_id');
   }

@@ -134,7 +134,7 @@ export class IotfleethubApplicationTagsOutputReference extends cdktn.ComplexObje
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -150,7 +150,7 @@ export class IotfleethubApplicationTagsOutputReference extends cdktn.ComplexObje
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -257,7 +257,7 @@ export class IotfleethubApplication extends cdktn.TerraformResource {
   }
 
   // application_description - computed: true, optional: true, required: false
-  private _applicationDescription?: string;
+  private _applicationDescription?: string; 
   public get applicationDescription() {
     return this.getStringAttribute('application_description');
   }
@@ -283,7 +283,7 @@ export class IotfleethubApplication extends cdktn.TerraformResource {
   }
 
   // application_name - computed: false, optional: false, required: true
-  private _applicationName?: string;
+  private _applicationName?: string; 
   public get applicationName() {
     return this.getStringAttribute('application_name');
   }
@@ -316,7 +316,7 @@ export class IotfleethubApplication extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }

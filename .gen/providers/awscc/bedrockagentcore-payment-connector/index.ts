@@ -117,7 +117,7 @@ export class BedrockagentcorePaymentConnectorCredentialProviderConfigurationsCoi
   }
 
   // credential_provider_arn - computed: true, optional: true, required: false
-  private _credentialProviderArn?: string;
+  private _credentialProviderArn?: string; 
   public get credentialProviderArn() {
     return this.getStringAttribute('credential_provider_arn');
   }
@@ -213,7 +213,7 @@ export class BedrockagentcorePaymentConnectorCredentialProviderConfigurationsStr
   }
 
   // credential_provider_arn - computed: true, optional: true, required: false
-  private _credentialProviderArn?: string;
+  private _credentialProviderArn?: string; 
   public get credentialProviderArn() {
     return this.getStringAttribute('credential_provider_arn');
   }
@@ -450,7 +450,7 @@ export class BedrockagentcorePaymentConnector extends cdktn.TerraformResource {
   }
 
   // connector_name - computed: false, optional: false, required: true
-  private _connectorName?: string;
+  private _connectorName?: string; 
   public get connectorName() {
     return this.getStringAttribute('connector_name');
   }
@@ -468,7 +468,7 @@ export class BedrockagentcorePaymentConnector extends cdktn.TerraformResource {
   }
 
   // connector_type - computed: false, optional: false, required: true
-  private _connectorType?: string;
+  private _connectorType?: string; 
   public get connectorType() {
     return this.getStringAttribute('connector_type');
   }
@@ -494,7 +494,7 @@ export class BedrockagentcorePaymentConnector extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -525,7 +525,7 @@ export class BedrockagentcorePaymentConnector extends cdktn.TerraformResource {
   }
 
   // payment_manager_id - computed: false, optional: false, required: true
-  private _paymentManagerId?: string;
+  private _paymentManagerId?: string; 
   public get paymentManagerId() {
     return this.getStringAttribute('payment_manager_id');
   }

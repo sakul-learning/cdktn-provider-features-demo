@@ -194,7 +194,7 @@ export class Route53HealthCheck extends cdktn.TerraformResource {
   }
 
   // child_health_threshold - computed: false, optional: true, required: false
-  private _childHealthThreshold?: number;
+  private _childHealthThreshold?: number; 
   public get childHealthThreshold() {
     return this.getNumberAttribute('child_health_threshold');
   }
@@ -210,7 +210,7 @@ export class Route53HealthCheck extends cdktn.TerraformResource {
   }
 
   // child_healthchecks - computed: false, optional: true, required: false
-  private _childHealthchecks?: string[];
+  private _childHealthchecks?: string[]; 
   public get childHealthchecks() {
     return cdktn.Fn.tolist(this.getListAttribute('child_healthchecks'));
   }
@@ -226,7 +226,7 @@ export class Route53HealthCheck extends cdktn.TerraformResource {
   }
 
   // cloudwatch_alarm_name - computed: false, optional: true, required: false
-  private _cloudwatchAlarmName?: string;
+  private _cloudwatchAlarmName?: string; 
   public get cloudwatchAlarmName() {
     return this.getStringAttribute('cloudwatch_alarm_name');
   }
@@ -242,7 +242,7 @@ export class Route53HealthCheck extends cdktn.TerraformResource {
   }
 
   // cloudwatch_alarm_region - computed: false, optional: true, required: false
-  private _cloudwatchAlarmRegion?: string;
+  private _cloudwatchAlarmRegion?: string; 
   public get cloudwatchAlarmRegion() {
     return this.getStringAttribute('cloudwatch_alarm_region');
   }
@@ -258,7 +258,7 @@ export class Route53HealthCheck extends cdktn.TerraformResource {
   }
 
   // disabled - computed: false, optional: true, required: false
-  private _disabled?: boolean | cdktn.IResolvable;
+  private _disabled?: boolean | cdktn.IResolvable; 
   public get disabled() {
     return this.getBooleanAttribute('disabled');
   }
@@ -274,7 +274,7 @@ export class Route53HealthCheck extends cdktn.TerraformResource {
   }
 
   // enable_sni - computed: true, optional: true, required: false
-  private _enableSni?: boolean | cdktn.IResolvable;
+  private _enableSni?: boolean | cdktn.IResolvable; 
   public get enableSni() {
     return this.getBooleanAttribute('enable_sni');
   }
@@ -290,7 +290,7 @@ export class Route53HealthCheck extends cdktn.TerraformResource {
   }
 
   // failure_threshold - computed: true, optional: true, required: false
-  private _failureThreshold?: number;
+  private _failureThreshold?: number; 
   public get failureThreshold() {
     return this.getNumberAttribute('failure_threshold');
   }
@@ -306,7 +306,7 @@ export class Route53HealthCheck extends cdktn.TerraformResource {
   }
 
   // fqdn - computed: false, optional: true, required: false
-  private _fqdn?: string;
+  private _fqdn?: string; 
   public get fqdn() {
     return this.getStringAttribute('fqdn');
   }
@@ -322,7 +322,7 @@ export class Route53HealthCheck extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -338,7 +338,7 @@ export class Route53HealthCheck extends cdktn.TerraformResource {
   }
 
   // insufficient_data_health_status - computed: false, optional: true, required: false
-  private _insufficientDataHealthStatus?: string;
+  private _insufficientDataHealthStatus?: string; 
   public get insufficientDataHealthStatus() {
     return this.getStringAttribute('insufficient_data_health_status');
   }
@@ -354,7 +354,7 @@ export class Route53HealthCheck extends cdktn.TerraformResource {
   }
 
   // invert_healthcheck - computed: false, optional: true, required: false
-  private _invertHealthcheck?: boolean | cdktn.IResolvable;
+  private _invertHealthcheck?: boolean | cdktn.IResolvable; 
   public get invertHealthcheck() {
     return this.getBooleanAttribute('invert_healthcheck');
   }
@@ -370,7 +370,7 @@ export class Route53HealthCheck extends cdktn.TerraformResource {
   }
 
   // ip_address - computed: false, optional: true, required: false
-  private _ipAddress?: string;
+  private _ipAddress?: string; 
   public get ipAddress() {
     return this.getStringAttribute('ip_address');
   }
@@ -386,7 +386,7 @@ export class Route53HealthCheck extends cdktn.TerraformResource {
   }
 
   // measure_latency - computed: false, optional: true, required: false
-  private _measureLatency?: boolean | cdktn.IResolvable;
+  private _measureLatency?: boolean | cdktn.IResolvable; 
   public get measureLatency() {
     return this.getBooleanAttribute('measure_latency');
   }
@@ -402,7 +402,7 @@ export class Route53HealthCheck extends cdktn.TerraformResource {
   }
 
   // port - computed: false, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -418,7 +418,7 @@ export class Route53HealthCheck extends cdktn.TerraformResource {
   }
 
   // reference_name - computed: false, optional: true, required: false
-  private _referenceName?: string;
+  private _referenceName?: string; 
   public get referenceName() {
     return this.getStringAttribute('reference_name');
   }
@@ -434,7 +434,7 @@ export class Route53HealthCheck extends cdktn.TerraformResource {
   }
 
   // regions - computed: true, optional: true, required: false
-  private _regions?: string[];
+  private _regions?: string[]; 
   public get regions() {
     return cdktn.Fn.tolist(this.getListAttribute('regions'));
   }
@@ -450,7 +450,7 @@ export class Route53HealthCheck extends cdktn.TerraformResource {
   }
 
   // request_interval - computed: false, optional: true, required: false
-  private _requestInterval?: number;
+  private _requestInterval?: number; 
   public get requestInterval() {
     return this.getNumberAttribute('request_interval');
   }
@@ -466,7 +466,7 @@ export class Route53HealthCheck extends cdktn.TerraformResource {
   }
 
   // resource_path - computed: false, optional: true, required: false
-  private _resourcePath?: string;
+  private _resourcePath?: string; 
   public get resourcePath() {
     return this.getStringAttribute('resource_path');
   }
@@ -482,7 +482,7 @@ export class Route53HealthCheck extends cdktn.TerraformResource {
   }
 
   // routing_control_arn - computed: false, optional: true, required: false
-  private _routingControlArn?: string;
+  private _routingControlArn?: string; 
   public get routingControlArn() {
     return this.getStringAttribute('routing_control_arn');
   }
@@ -498,7 +498,7 @@ export class Route53HealthCheck extends cdktn.TerraformResource {
   }
 
   // search_string - computed: false, optional: true, required: false
-  private _searchString?: string;
+  private _searchString?: string; 
   public get searchString() {
     return this.getStringAttribute('search_string');
   }
@@ -514,7 +514,7 @@ export class Route53HealthCheck extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -530,7 +530,7 @@ export class Route53HealthCheck extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -546,7 +546,7 @@ export class Route53HealthCheck extends cdktn.TerraformResource {
   }
 
   // triggers - computed: true, optional: true, required: false
-  private _triggers?: { [key: string]: string };
+  private _triggers?: { [key: string]: string }; 
   public get triggers() {
     return this.getStringMapAttribute('triggers');
   }
@@ -562,7 +562,7 @@ export class Route53HealthCheck extends cdktn.TerraformResource {
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }

@@ -129,7 +129,7 @@ export class EmrBlockPublicAccessConfigurationPermittedPublicSecurityGroupRuleRa
   }
 
   // max_range - computed: false, optional: false, required: true
-  private _maxRange?: number;
+  private _maxRange?: number; 
   public get maxRange() {
     return this.getNumberAttribute('max_range');
   }
@@ -142,7 +142,7 @@ export class EmrBlockPublicAccessConfigurationPermittedPublicSecurityGroupRuleRa
   }
 
   // min_range - computed: false, optional: false, required: true
-  private _minRange?: number;
+  private _minRange?: number; 
   public get minRange() {
     return this.getNumberAttribute('min_range');
   }
@@ -236,7 +236,7 @@ export class EmrBlockPublicAccessConfiguration extends cdktn.TerraformResource {
   // ==========
 
   // block_public_security_group_rules - computed: false, optional: false, required: true
-  private _blockPublicSecurityGroupRules?: boolean | cdktn.IResolvable;
+  private _blockPublicSecurityGroupRules?: boolean | cdktn.IResolvable; 
   public get blockPublicSecurityGroupRules() {
     return this.getBooleanAttribute('block_public_security_group_rules');
   }
@@ -249,7 +249,7 @@ export class EmrBlockPublicAccessConfiguration extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -265,7 +265,7 @@ export class EmrBlockPublicAccessConfiguration extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

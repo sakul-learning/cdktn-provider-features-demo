@@ -152,7 +152,7 @@ export class NetworkmanagerDirectConnectGatewayAttachmentProposedNetworkFunction
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -168,7 +168,7 @@ export class NetworkmanagerDirectConnectGatewayAttachmentProposedNetworkFunction
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -322,7 +322,7 @@ export class NetworkmanagerDirectConnectGatewayAttachmentProposedNetworkFunction
   }
 
   // attachment_policy_rule_number - computed: true, optional: true, required: false
-  private _attachmentPolicyRuleNumber?: number;
+  private _attachmentPolicyRuleNumber?: number; 
   public get attachmentPolicyRuleNumber() {
     return this.getNumberAttribute('attachment_policy_rule_number');
   }
@@ -338,7 +338,7 @@ export class NetworkmanagerDirectConnectGatewayAttachmentProposedNetworkFunction
   }
 
   // network_function_group_name - computed: true, optional: true, required: false
-  private _networkFunctionGroupName?: string;
+  private _networkFunctionGroupName?: string; 
   public get networkFunctionGroupName() {
     return this.getStringAttribute('network_function_group_name');
   }
@@ -471,7 +471,7 @@ export class NetworkmanagerDirectConnectGatewayAttachmentProposedSegmentChangeTa
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -487,7 +487,7 @@ export class NetworkmanagerDirectConnectGatewayAttachmentProposedSegmentChangeTa
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -641,7 +641,7 @@ export class NetworkmanagerDirectConnectGatewayAttachmentProposedSegmentChangeOu
   }
 
   // attachment_policy_rule_number - computed: true, optional: true, required: false
-  private _attachmentPolicyRuleNumber?: number;
+  private _attachmentPolicyRuleNumber?: number; 
   public get attachmentPolicyRuleNumber() {
     return this.getNumberAttribute('attachment_policy_rule_number');
   }
@@ -657,7 +657,7 @@ export class NetworkmanagerDirectConnectGatewayAttachmentProposedSegmentChangeOu
   }
 
   // segment_name - computed: true, optional: true, required: false
-  private _segmentName?: string;
+  private _segmentName?: string; 
   public get segmentName() {
     return this.getStringAttribute('segment_name');
   }
@@ -790,7 +790,7 @@ export class NetworkmanagerDirectConnectGatewayAttachmentTagsOutputReference ext
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -806,7 +806,7 @@ export class NetworkmanagerDirectConnectGatewayAttachmentTagsOutputReference ext
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -926,7 +926,7 @@ export class NetworkmanagerDirectConnectGatewayAttachment extends cdktn.Terrafor
   }
 
   // core_network_id - computed: false, optional: false, required: true
-  private _coreNetworkId?: string;
+  private _coreNetworkId?: string; 
   public get coreNetworkId() {
     return this.getStringAttribute('core_network_id');
   }
@@ -944,7 +944,7 @@ export class NetworkmanagerDirectConnectGatewayAttachment extends cdktn.Terrafor
   }
 
   // direct_connect_gateway_arn - computed: false, optional: false, required: true
-  private _directConnectGatewayArn?: string;
+  private _directConnectGatewayArn?: string; 
   public get directConnectGatewayArn() {
     return this.getStringAttribute('direct_connect_gateway_arn');
   }
@@ -957,7 +957,7 @@ export class NetworkmanagerDirectConnectGatewayAttachment extends cdktn.Terrafor
   }
 
   // edge_locations - computed: false, optional: false, required: true
-  private _edgeLocations?: string[];
+  private _edgeLocations?: string[]; 
   public get edgeLocations() {
     return this.getListAttribute('edge_locations');
   }
@@ -1027,7 +1027,7 @@ export class NetworkmanagerDirectConnectGatewayAttachment extends cdktn.Terrafor
   }
 
   // routing_policy_label - computed: true, optional: true, required: false
-  private _routingPolicyLabel?: string;
+  private _routingPolicyLabel?: string; 
   public get routingPolicyLabel() {
     return this.getStringAttribute('routing_policy_label');
   }

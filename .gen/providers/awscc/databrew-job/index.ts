@@ -231,7 +231,7 @@ export class DatabrewJobDataCatalogOutputsDatabaseOptionsTempDirectoryOutputRefe
   }
 
   // bucket - computed: true, optional: true, required: false
-  private _bucket?: string;
+  private _bucket?: string; 
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -247,7 +247,7 @@ export class DatabrewJobDataCatalogOutputsDatabaseOptionsTempDirectoryOutputRefe
   }
 
   // bucket_owner - computed: true, optional: true, required: false
-  private _bucketOwner?: string;
+  private _bucketOwner?: string; 
   public get bucketOwner() {
     return this.getStringAttribute('bucket_owner');
   }
@@ -263,7 +263,7 @@ export class DatabrewJobDataCatalogOutputsDatabaseOptionsTempDirectoryOutputRefe
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -376,7 +376,7 @@ export class DatabrewJobDataCatalogOutputsDatabaseOptionsOutputReference extends
   }
 
   // table_name - computed: true, optional: true, required: false
-  private _tableName?: string;
+  private _tableName?: string; 
   public get tableName() {
     return this.getStringAttribute('table_name');
   }
@@ -520,7 +520,7 @@ export class DatabrewJobDataCatalogOutputsS3OptionsLocationOutputReference exten
   }
 
   // bucket - computed: true, optional: true, required: false
-  private _bucket?: string;
+  private _bucket?: string; 
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -536,7 +536,7 @@ export class DatabrewJobDataCatalogOutputsS3OptionsLocationOutputReference exten
   }
 
   // bucket_owner - computed: true, optional: true, required: false
-  private _bucketOwner?: string;
+  private _bucketOwner?: string; 
   public get bucketOwner() {
     return this.getStringAttribute('bucket_owner');
   }
@@ -552,7 +552,7 @@ export class DatabrewJobDataCatalogOutputsS3OptionsLocationOutputReference exten
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -829,7 +829,7 @@ export class DatabrewJobDataCatalogOutputsOutputReference extends cdktn.ComplexO
   }
 
   // catalog_id - computed: true, optional: true, required: false
-  private _catalogId?: string;
+  private _catalogId?: string; 
   public get catalogId() {
     return this.getStringAttribute('catalog_id');
   }
@@ -845,7 +845,7 @@ export class DatabrewJobDataCatalogOutputsOutputReference extends cdktn.ComplexO
   }
 
   // database_name - computed: true, optional: true, required: false
-  private _databaseName?: string;
+  private _databaseName?: string; 
   public get databaseName() {
     return this.getStringAttribute('database_name');
   }
@@ -877,7 +877,7 @@ export class DatabrewJobDataCatalogOutputsOutputReference extends cdktn.ComplexO
   }
 
   // overwrite - computed: true, optional: true, required: false
-  private _overwrite?: boolean | cdktn.IResolvable;
+  private _overwrite?: boolean | cdktn.IResolvable; 
   public get overwrite() {
     return this.getBooleanAttribute('overwrite');
   }
@@ -909,7 +909,7 @@ export class DatabrewJobDataCatalogOutputsOutputReference extends cdktn.ComplexO
   }
 
   // table_name - computed: true, optional: true, required: false
-  private _tableName?: string;
+  private _tableName?: string; 
   public get tableName() {
     return this.getStringAttribute('table_name');
   }
@@ -1057,7 +1057,7 @@ export class DatabrewJobDatabaseOutputsDatabaseOptionsTempDirectoryOutputReferen
   }
 
   // bucket - computed: true, optional: true, required: false
-  private _bucket?: string;
+  private _bucket?: string; 
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -1073,7 +1073,7 @@ export class DatabrewJobDatabaseOutputsDatabaseOptionsTempDirectoryOutputReferen
   }
 
   // bucket_owner - computed: true, optional: true, required: false
-  private _bucketOwner?: string;
+  private _bucketOwner?: string; 
   public get bucketOwner() {
     return this.getStringAttribute('bucket_owner');
   }
@@ -1089,7 +1089,7 @@ export class DatabrewJobDatabaseOutputsDatabaseOptionsTempDirectoryOutputReferen
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1202,7 +1202,7 @@ export class DatabrewJobDatabaseOutputsDatabaseOptionsOutputReference extends cd
   }
 
   // table_name - computed: true, optional: true, required: false
-  private _tableName?: string;
+  private _tableName?: string; 
   public get tableName() {
     return this.getStringAttribute('table_name');
   }
@@ -1368,7 +1368,7 @@ export class DatabrewJobDatabaseOutputsOutputReference extends cdktn.ComplexObje
   }
 
   // database_output_mode - computed: true, optional: true, required: false
-  private _databaseOutputMode?: string;
+  private _databaseOutputMode?: string; 
   public get databaseOutputMode() {
     return this.getStringAttribute('database_output_mode');
   }
@@ -1384,7 +1384,7 @@ export class DatabrewJobDatabaseOutputsOutputReference extends cdktn.ComplexObje
   }
 
   // glue_connection_name - computed: true, optional: true, required: false
-  private _glueConnectionName?: string;
+  private _glueConnectionName?: string; 
   public get glueConnectionName() {
     return this.getStringAttribute('glue_connection_name');
   }
@@ -1519,7 +1519,7 @@ export class DatabrewJobJobSampleOutputReference extends cdktn.ComplexObject {
   }
 
   // mode - computed: true, optional: true, required: false
-  private _mode?: string;
+  private _mode?: string; 
   public get mode() {
     return this.getStringAttribute('mode');
   }
@@ -1535,7 +1535,7 @@ export class DatabrewJobJobSampleOutputReference extends cdktn.ComplexObject {
   }
 
   // size - computed: true, optional: true, required: false
-  private _size?: number;
+  private _size?: number; 
   public get size() {
     return this.getNumberAttribute('size');
   }
@@ -1663,7 +1663,7 @@ export class DatabrewJobOutputLocationOutputReference extends cdktn.ComplexObjec
   }
 
   // bucket - computed: true, optional: true, required: false
-  private _bucket?: string;
+  private _bucket?: string; 
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -1679,7 +1679,7 @@ export class DatabrewJobOutputLocationOutputReference extends cdktn.ComplexObjec
   }
 
   // bucket_owner - computed: true, optional: true, required: false
-  private _bucketOwner?: string;
+  private _bucketOwner?: string; 
   public get bucketOwner() {
     return this.getStringAttribute('bucket_owner');
   }
@@ -1695,7 +1695,7 @@ export class DatabrewJobOutputLocationOutputReference extends cdktn.ComplexObjec
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1789,7 +1789,7 @@ export class DatabrewJobOutputsFormatOptionsCsvOutputReference extends cdktn.Com
   }
 
   // delimiter - computed: true, optional: true, required: false
-  private _delimiter?: string;
+  private _delimiter?: string; 
   public get delimiter() {
     return this.getStringAttribute('delimiter');
   }
@@ -2013,7 +2013,7 @@ export class DatabrewJobOutputsLocationOutputReference extends cdktn.ComplexObje
   }
 
   // bucket - computed: true, optional: true, required: false
-  private _bucket?: string;
+  private _bucket?: string; 
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -2029,7 +2029,7 @@ export class DatabrewJobOutputsLocationOutputReference extends cdktn.ComplexObje
   }
 
   // bucket_owner - computed: true, optional: true, required: false
-  private _bucketOwner?: string;
+  private _bucketOwner?: string; 
   public get bucketOwner() {
     return this.getStringAttribute('bucket_owner');
   }
@@ -2045,7 +2045,7 @@ export class DatabrewJobOutputsLocationOutputReference extends cdktn.ComplexObje
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -2247,7 +2247,7 @@ export class DatabrewJobOutputsOutputReference extends cdktn.ComplexObject {
   }
 
   // compression_format - computed: true, optional: true, required: false
-  private _compressionFormat?: string;
+  private _compressionFormat?: string; 
   public get compressionFormat() {
     return this.getStringAttribute('compression_format');
   }
@@ -2263,7 +2263,7 @@ export class DatabrewJobOutputsOutputReference extends cdktn.ComplexObject {
   }
 
   // format - computed: true, optional: true, required: false
-  private _format?: string;
+  private _format?: string; 
   public get format() {
     return this.getStringAttribute('format');
   }
@@ -2311,7 +2311,7 @@ export class DatabrewJobOutputsOutputReference extends cdktn.ComplexObject {
   }
 
   // max_output_files - computed: true, optional: true, required: false
-  private _maxOutputFiles?: number;
+  private _maxOutputFiles?: number; 
   public get maxOutputFiles() {
     return this.getNumberAttribute('max_output_files');
   }
@@ -2327,7 +2327,7 @@ export class DatabrewJobOutputsOutputReference extends cdktn.ComplexObject {
   }
 
   // overwrite - computed: true, optional: true, required: false
-  private _overwrite?: boolean | cdktn.IResolvable;
+  private _overwrite?: boolean | cdktn.IResolvable; 
   public get overwrite() {
     return this.getBooleanAttribute('overwrite');
   }
@@ -2343,7 +2343,7 @@ export class DatabrewJobOutputsOutputReference extends cdktn.ComplexObject {
   }
 
   // partition_columns - computed: true, optional: true, required: false
-  private _partitionColumns?: string[];
+  private _partitionColumns?: string[]; 
   public get partitionColumns() {
     return this.getListAttribute('partition_columns');
   }
@@ -2476,7 +2476,7 @@ export class DatabrewJobProfileConfigurationColumnStatisticsConfigurationsSelect
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2492,7 +2492,7 @@ export class DatabrewJobProfileConfigurationColumnStatisticsConfigurationsSelect
   }
 
   // regex - computed: true, optional: true, required: false
-  private _regex?: string;
+  private _regex?: string; 
   public get regex() {
     return this.getStringAttribute('regex');
   }
@@ -2625,7 +2625,7 @@ export class DatabrewJobProfileConfigurationColumnStatisticsConfigurationsStatis
   }
 
   // parameters - computed: true, optional: true, required: false
-  private _parameters?: { [key: string]: string };
+  private _parameters?: { [key: string]: string }; 
   public get parameters() {
     return this.getStringMapAttribute('parameters');
   }
@@ -2641,7 +2641,7 @@ export class DatabrewJobProfileConfigurationColumnStatisticsConfigurationsStatis
   }
 
   // statistic - computed: true, optional: true, required: false
-  private _statistic?: string;
+  private _statistic?: string; 
   public get statistic() {
     return this.getStringAttribute('statistic');
   }
@@ -2772,7 +2772,7 @@ export class DatabrewJobProfileConfigurationColumnStatisticsConfigurationsStatis
   }
 
   // included_statistics - computed: true, optional: true, required: false
-  private _includedStatistics?: string[];
+  private _includedStatistics?: string[]; 
   public get includedStatistics() {
     return this.getListAttribute('included_statistics');
   }
@@ -3050,7 +3050,7 @@ export class DatabrewJobProfileConfigurationDatasetStatisticsConfigurationOverri
   }
 
   // parameters - computed: true, optional: true, required: false
-  private _parameters?: { [key: string]: string };
+  private _parameters?: { [key: string]: string }; 
   public get parameters() {
     return this.getStringMapAttribute('parameters');
   }
@@ -3066,7 +3066,7 @@ export class DatabrewJobProfileConfigurationDatasetStatisticsConfigurationOverri
   }
 
   // statistic - computed: true, optional: true, required: false
-  private _statistic?: string;
+  private _statistic?: string; 
   public get statistic() {
     return this.getStringAttribute('statistic');
   }
@@ -3197,7 +3197,7 @@ export class DatabrewJobProfileConfigurationDatasetStatisticsConfigurationOutput
   }
 
   // included_statistics - computed: true, optional: true, required: false
-  private _includedStatistics?: string[];
+  private _includedStatistics?: string[]; 
   public get includedStatistics() {
     return this.getListAttribute('included_statistics');
   }
@@ -3307,7 +3307,7 @@ export class DatabrewJobProfileConfigurationEntityDetectorConfigurationAllowedSt
   }
 
   // statistics - computed: true, optional: true, required: false
-  private _statistics?: string[];
+  private _statistics?: string[]; 
   public get statistics() {
     return this.getListAttribute('statistics');
   }
@@ -3434,7 +3434,7 @@ export class DatabrewJobProfileConfigurationEntityDetectorConfigurationOutputRef
   }
 
   // entity_types - computed: true, optional: true, required: false
-  private _entityTypes?: string[];
+  private _entityTypes?: string[]; 
   public get entityTypes() {
     return this.getListAttribute('entity_types');
   }
@@ -3547,7 +3547,7 @@ export class DatabrewJobProfileConfigurationProfileColumnsOutputReference extend
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -3563,7 +3563,7 @@ export class DatabrewJobProfileConfigurationProfileColumnsOutputReference extend
   }
 
   // regex - computed: true, optional: true, required: false
-  private _regex?: string;
+  private _regex?: string; 
   public get regex() {
     return this.getStringAttribute('regex');
   }
@@ -3891,7 +3891,7 @@ export class DatabrewJobRecipeOutputReference extends cdktn.ComplexObject {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -3907,7 +3907,7 @@ export class DatabrewJobRecipeOutputReference extends cdktn.ComplexObject {
   }
 
   // version - computed: true, optional: true, required: false
-  private _version?: string;
+  private _version?: string; 
   public get version() {
     return this.getStringAttribute('version');
   }
@@ -4020,7 +4020,7 @@ export class DatabrewJobTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -4036,7 +4036,7 @@ export class DatabrewJobTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -4171,7 +4171,7 @@ export class DatabrewJobValidationConfigurationsOutputReference extends cdktn.Co
   }
 
   // ruleset_arn - computed: true, optional: true, required: false
-  private _rulesetArn?: string;
+  private _rulesetArn?: string; 
   public get rulesetArn() {
     return this.getStringAttribute('ruleset_arn');
   }
@@ -4187,7 +4187,7 @@ export class DatabrewJobValidationConfigurationsOutputReference extends cdktn.Co
   }
 
   // validation_mode - computed: true, optional: true, required: false
-  private _validationMode?: string;
+  private _validationMode?: string; 
   public get validationMode() {
     return this.getStringAttribute('validation_mode');
   }
@@ -4332,7 +4332,7 @@ export class DatabrewJob extends cdktn.TerraformResource {
   }
 
   // dataset_name - computed: true, optional: true, required: false
-  private _datasetName?: string;
+  private _datasetName?: string; 
   public get datasetName() {
     return this.getStringAttribute('dataset_name');
   }
@@ -4348,7 +4348,7 @@ export class DatabrewJob extends cdktn.TerraformResource {
   }
 
   // encryption_key_arn - computed: true, optional: true, required: false
-  private _encryptionKeyArn?: string;
+  private _encryptionKeyArn?: string; 
   public get encryptionKeyArn() {
     return this.getStringAttribute('encryption_key_arn');
   }
@@ -4364,7 +4364,7 @@ export class DatabrewJob extends cdktn.TerraformResource {
   }
 
   // encryption_mode - computed: true, optional: true, required: false
-  private _encryptionMode?: string;
+  private _encryptionMode?: string; 
   public get encryptionMode() {
     return this.getStringAttribute('encryption_mode');
   }
@@ -4401,7 +4401,7 @@ export class DatabrewJob extends cdktn.TerraformResource {
   }
 
   // log_subscription - computed: true, optional: true, required: false
-  private _logSubscription?: string;
+  private _logSubscription?: string; 
   public get logSubscription() {
     return this.getStringAttribute('log_subscription');
   }
@@ -4417,7 +4417,7 @@ export class DatabrewJob extends cdktn.TerraformResource {
   }
 
   // max_capacity - computed: true, optional: true, required: false
-  private _maxCapacity?: number;
+  private _maxCapacity?: number; 
   public get maxCapacity() {
     return this.getNumberAttribute('max_capacity');
   }
@@ -4433,7 +4433,7 @@ export class DatabrewJob extends cdktn.TerraformResource {
   }
 
   // max_retries - computed: true, optional: true, required: false
-  private _maxRetries?: number;
+  private _maxRetries?: number; 
   public get maxRetries() {
     return this.getNumberAttribute('max_retries');
   }
@@ -4449,7 +4449,7 @@ export class DatabrewJob extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -4510,7 +4510,7 @@ export class DatabrewJob extends cdktn.TerraformResource {
   }
 
   // project_name - computed: true, optional: true, required: false
-  private _projectName?: string;
+  private _projectName?: string; 
   public get projectName() {
     return this.getStringAttribute('project_name');
   }
@@ -4542,7 +4542,7 @@ export class DatabrewJob extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -4571,7 +4571,7 @@ export class DatabrewJob extends cdktn.TerraformResource {
   }
 
   // timeout - computed: true, optional: true, required: false
-  private _timeout?: number;
+  private _timeout?: number; 
   public get timeout() {
     return this.getNumberAttribute('timeout');
   }
@@ -4587,7 +4587,7 @@ export class DatabrewJob extends cdktn.TerraformResource {
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }

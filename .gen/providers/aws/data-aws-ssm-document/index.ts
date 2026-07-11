@@ -106,7 +106,7 @@ export class DataAwsSsmDocument extends cdktn.TerraformDataSource {
   }
 
   // document_format - computed: false, optional: true, required: false
-  private _documentFormat?: string;
+  private _documentFormat?: string; 
   public get documentFormat() {
     return this.getStringAttribute('document_format');
   }
@@ -127,7 +127,7 @@ export class DataAwsSsmDocument extends cdktn.TerraformDataSource {
   }
 
   // document_version - computed: false, optional: true, required: false
-  private _documentVersion?: string;
+  private _documentVersion?: string; 
   public get documentVersion() {
     return this.getStringAttribute('document_version');
   }
@@ -143,7 +143,7 @@ export class DataAwsSsmDocument extends cdktn.TerraformDataSource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -159,7 +159,7 @@ export class DataAwsSsmDocument extends cdktn.TerraformDataSource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -172,7 +172,7 @@ export class DataAwsSsmDocument extends cdktn.TerraformDataSource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

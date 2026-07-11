@@ -116,7 +116,7 @@ export class LocationTracker extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -132,7 +132,7 @@ export class LocationTracker extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -148,7 +148,7 @@ export class LocationTracker extends cdktn.TerraformResource {
   }
 
   // kms_key_id - computed: false, optional: true, required: false
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -164,7 +164,7 @@ export class LocationTracker extends cdktn.TerraformResource {
   }
 
   // position_filtering - computed: false, optional: true, required: false
-  private _positionFiltering?: string;
+  private _positionFiltering?: string; 
   public get positionFiltering() {
     return this.getStringAttribute('position_filtering');
   }
@@ -180,7 +180,7 @@ export class LocationTracker extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -196,7 +196,7 @@ export class LocationTracker extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -212,7 +212,7 @@ export class LocationTracker extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -233,7 +233,7 @@ export class LocationTracker extends cdktn.TerraformResource {
   }
 
   // tracker_name - computed: false, optional: false, required: true
-  private _trackerName?: string;
+  private _trackerName?: string; 
   public get trackerName() {
     return this.getStringAttribute('tracker_name');
   }

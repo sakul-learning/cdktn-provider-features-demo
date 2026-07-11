@@ -137,7 +137,7 @@ export class ConnectContactFlowModuleExternalInvocationConfigurationOutputRefere
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -254,7 +254,7 @@ export class ConnectContactFlowModuleTagsOutputReference extends cdktn.ComplexOb
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -270,7 +270,7 @@ export class ConnectContactFlowModuleTagsOutputReference extends cdktn.ComplexOb
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -376,7 +376,7 @@ export class ConnectContactFlowModule extends cdktn.TerraformResource {
   }
 
   // content - computed: false, optional: false, required: true
-  private _content?: string;
+  private _content?: string; 
   public get content() {
     return this.getStringAttribute('content');
   }
@@ -389,7 +389,7 @@ export class ConnectContactFlowModule extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -426,7 +426,7 @@ export class ConnectContactFlowModule extends cdktn.TerraformResource {
   }
 
   // instance_arn - computed: false, optional: false, required: true
-  private _instanceArn?: string;
+  private _instanceArn?: string; 
   public get instanceArn() {
     return this.getStringAttribute('instance_arn');
   }
@@ -439,7 +439,7 @@ export class ConnectContactFlowModule extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -452,7 +452,7 @@ export class ConnectContactFlowModule extends cdktn.TerraformResource {
   }
 
   // settings - computed: true, optional: true, required: false
-  private _settings?: string;
+  private _settings?: string; 
   public get settings() {
     return this.getStringAttribute('settings');
   }
@@ -468,7 +468,7 @@ export class ConnectContactFlowModule extends cdktn.TerraformResource {
   }
 
   // state - computed: true, optional: true, required: false
-  private _state?: string;
+  private _state?: string; 
   public get state() {
     return this.getStringAttribute('state');
   }

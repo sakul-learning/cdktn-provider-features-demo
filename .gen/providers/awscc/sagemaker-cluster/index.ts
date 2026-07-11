@@ -174,7 +174,7 @@ export class SagemakerClusterAutoScalingOutputReference extends cdktn.ComplexObj
   }
 
   // auto_scaler_type - computed: true, optional: true, required: false
-  private _autoScalerType?: string;
+  private _autoScalerType?: string; 
   public get autoScalerType() {
     return this.getStringAttribute('auto_scaler_type');
   }
@@ -190,7 +190,7 @@ export class SagemakerClusterAutoScalingOutputReference extends cdktn.ComplexObj
   }
 
   // mode - computed: true, optional: true, required: false
-  private _mode?: string;
+  private _mode?: string; 
   public get mode() {
     return this.getStringAttribute('mode');
   }
@@ -305,7 +305,7 @@ export class SagemakerClusterInstanceGroupsCapacityRequirementsOutputReference e
   }
 
   // on_demand - computed: true, optional: true, required: false
-  private _onDemand?: string;
+  private _onDemand?: string; 
   public get onDemand() {
     return this.getStringAttribute('on_demand');
   }
@@ -321,7 +321,7 @@ export class SagemakerClusterInstanceGroupsCapacityRequirementsOutputReference e
   }
 
   // spot - computed: true, optional: true, required: false
-  private _spot?: string;
+  private _spot?: string; 
   public get spot() {
     return this.getStringAttribute('spot');
   }
@@ -451,7 +451,7 @@ export class SagemakerClusterInstanceGroupsInstanceStorageConfigsEbsVolumeConfig
   }
 
   // root_volume - computed: true, optional: true, required: false
-  private _rootVolume?: boolean | cdktn.IResolvable;
+  private _rootVolume?: boolean | cdktn.IResolvable; 
   public get rootVolume() {
     return this.getBooleanAttribute('root_volume');
   }
@@ -467,7 +467,7 @@ export class SagemakerClusterInstanceGroupsInstanceStorageConfigsEbsVolumeConfig
   }
 
   // volume_kms_key_id - computed: true, optional: true, required: false
-  private _volumeKmsKeyId?: string;
+  private _volumeKmsKeyId?: string; 
   public get volumeKmsKeyId() {
     return this.getStringAttribute('volume_kms_key_id');
   }
@@ -483,7 +483,7 @@ export class SagemakerClusterInstanceGroupsInstanceStorageConfigsEbsVolumeConfig
   }
 
   // volume_size_in_gb - computed: true, optional: true, required: false
-  private _volumeSizeInGb?: number;
+  private _volumeSizeInGb?: number; 
   public get volumeSizeInGb() {
     return this.getNumberAttribute('volume_size_in_gb');
   }
@@ -737,7 +737,7 @@ export class SagemakerClusterInstanceGroupsKubernetesConfigTaintsOutputReference
   }
 
   // effect - computed: true, optional: true, required: false
-  private _effect?: string;
+  private _effect?: string; 
   public get effect() {
     return this.getStringAttribute('effect');
   }
@@ -753,7 +753,7 @@ export class SagemakerClusterInstanceGroupsKubernetesConfigTaintsOutputReference
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -769,7 +769,7 @@ export class SagemakerClusterInstanceGroupsKubernetesConfigTaintsOutputReference
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -904,7 +904,7 @@ export class SagemakerClusterInstanceGroupsKubernetesConfigOutputReference exten
   }
 
   // labels - computed: true, optional: true, required: false
-  private _labels?: { [key: string]: string };
+  private _labels?: { [key: string]: string }; 
   public get labels() {
     return this.getStringMapAttribute('labels');
   }
@@ -1035,7 +1035,7 @@ export class SagemakerClusterInstanceGroupsLifeCycleConfigOutputReference extend
   }
 
   // on_create - computed: true, optional: true, required: false
-  private _onCreate?: string;
+  private _onCreate?: string; 
   public get onCreate() {
     return this.getStringAttribute('on_create');
   }
@@ -1051,7 +1051,7 @@ export class SagemakerClusterInstanceGroupsLifeCycleConfigOutputReference extend
   }
 
   // source_s3_uri - computed: true, optional: true, required: false
-  private _sourceS3Uri?: string;
+  private _sourceS3Uri?: string; 
   public get sourceS3Uri() {
     return this.getStringAttribute('source_s3_uri');
   }
@@ -1166,7 +1166,7 @@ export class SagemakerClusterInstanceGroupsOverrideVpcConfigOutputReference exte
   }
 
   // security_group_ids - computed: true, optional: true, required: false
-  private _securityGroupIds?: string[];
+  private _securityGroupIds?: string[]; 
   public get securityGroupIds() {
     return this.getListAttribute('security_group_ids');
   }
@@ -1182,7 +1182,7 @@ export class SagemakerClusterInstanceGroupsOverrideVpcConfigOutputReference exte
   }
 
   // subnets - computed: true, optional: true, required: false
-  private _subnets?: string[];
+  private _subnets?: string[]; 
   public get subnets() {
     return this.getListAttribute('subnets');
   }
@@ -1280,7 +1280,7 @@ export class SagemakerClusterInstanceGroupsScheduledUpdateConfigDeploymentConfig
   }
 
   // alarm_name - computed: true, optional: true, required: false
-  private _alarmName?: string;
+  private _alarmName?: string; 
   public get alarmName() {
     return this.getStringAttribute('alarm_name');
   }
@@ -1415,7 +1415,7 @@ export class SagemakerClusterInstanceGroupsScheduledUpdateConfigDeploymentConfig
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -1431,7 +1431,7 @@ export class SagemakerClusterInstanceGroupsScheduledUpdateConfigDeploymentConfig
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: number;
+  private _value?: number; 
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -1546,7 +1546,7 @@ export class SagemakerClusterInstanceGroupsScheduledUpdateConfigDeploymentConfig
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -1562,7 +1562,7 @@ export class SagemakerClusterInstanceGroupsScheduledUpdateConfigDeploymentConfig
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: number;
+  private _value?: number; 
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -1859,7 +1859,7 @@ export class SagemakerClusterInstanceGroupsScheduledUpdateConfigDeploymentConfig
   }
 
   // wait_interval_in_seconds - computed: true, optional: true, required: false
-  private _waitIntervalInSeconds?: number;
+  private _waitIntervalInSeconds?: number; 
   public get waitIntervalInSeconds() {
     return this.getNumberAttribute('wait_interval_in_seconds');
   }
@@ -1990,7 +1990,7 @@ export class SagemakerClusterInstanceGroupsScheduledUpdateConfigOutputReference 
   }
 
   // schedule_expression - computed: true, optional: true, required: false
-  private _scheduleExpression?: string;
+  private _scheduleExpression?: string; 
   public get scheduleExpression() {
     return this.getStringAttribute('schedule_expression');
   }
@@ -2389,7 +2389,7 @@ export class SagemakerClusterInstanceGroupsOutputReference extends cdktn.Complex
   }
 
   // current_count - computed: true, optional: true, required: false
-  private _currentCount?: number;
+  private _currentCount?: number; 
   public get currentCount() {
     return this.getNumberAttribute('current_count');
   }
@@ -2405,7 +2405,7 @@ export class SagemakerClusterInstanceGroupsOutputReference extends cdktn.Complex
   }
 
   // execution_role - computed: true, optional: true, required: false
-  private _executionRole?: string;
+  private _executionRole?: string; 
   public get executionRole() {
     return this.getStringAttribute('execution_role');
   }
@@ -2421,7 +2421,7 @@ export class SagemakerClusterInstanceGroupsOutputReference extends cdktn.Complex
   }
 
   // image_id - computed: true, optional: true, required: false
-  private _imageId?: string;
+  private _imageId?: string; 
   public get imageId() {
     return this.getStringAttribute('image_id');
   }
@@ -2437,7 +2437,7 @@ export class SagemakerClusterInstanceGroupsOutputReference extends cdktn.Complex
   }
 
   // instance_count - computed: true, optional: true, required: false
-  private _instanceCount?: number;
+  private _instanceCount?: number; 
   public get instanceCount() {
     return this.getNumberAttribute('instance_count');
   }
@@ -2453,7 +2453,7 @@ export class SagemakerClusterInstanceGroupsOutputReference extends cdktn.Complex
   }
 
   // instance_group_name - computed: true, optional: true, required: false
-  private _instanceGroupName?: string;
+  private _instanceGroupName?: string; 
   public get instanceGroupName() {
     return this.getStringAttribute('instance_group_name');
   }
@@ -2485,7 +2485,7 @@ export class SagemakerClusterInstanceGroupsOutputReference extends cdktn.Complex
   }
 
   // instance_type - computed: true, optional: true, required: false
-  private _instanceType?: string;
+  private _instanceType?: string; 
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -2533,7 +2533,7 @@ export class SagemakerClusterInstanceGroupsOutputReference extends cdktn.Complex
   }
 
   // min_instance_count - computed: true, optional: true, required: false
-  private _minInstanceCount?: number;
+  private _minInstanceCount?: number; 
   public get minInstanceCount() {
     return this.getNumberAttribute('min_instance_count');
   }
@@ -2549,7 +2549,7 @@ export class SagemakerClusterInstanceGroupsOutputReference extends cdktn.Complex
   }
 
   // on_start_deep_health_checks - computed: true, optional: true, required: false
-  private _onStartDeepHealthChecks?: string[];
+  private _onStartDeepHealthChecks?: string[]; 
   public get onStartDeepHealthChecks() {
     return this.getListAttribute('on_start_deep_health_checks');
   }
@@ -2597,7 +2597,7 @@ export class SagemakerClusterInstanceGroupsOutputReference extends cdktn.Complex
   }
 
   // threads_per_core - computed: true, optional: true, required: false
-  private _threadsPerCore?: number;
+  private _threadsPerCore?: number; 
   public get threadsPerCore() {
     return this.getNumberAttribute('threads_per_core');
   }
@@ -2613,7 +2613,7 @@ export class SagemakerClusterInstanceGroupsOutputReference extends cdktn.Complex
   }
 
   // training_plan_arn - computed: true, optional: true, required: false
-  private _trainingPlanArn?: string;
+  private _trainingPlanArn?: string; 
   public get trainingPlanArn() {
     return this.getStringAttribute('training_plan_arn');
   }
@@ -2729,7 +2729,7 @@ export class SagemakerClusterOrchestratorEksOutputReference extends cdktn.Comple
   }
 
   // cluster_arn - computed: true, optional: true, required: false
-  private _clusterArn?: string;
+  private _clusterArn?: string; 
   public get clusterArn() {
     return this.getStringAttribute('cluster_arn');
   }
@@ -2940,7 +2940,7 @@ export class SagemakerClusterRestrictedInstanceGroupsEnvironmentConfigFsxLustreC
   }
 
   // per_unit_storage_throughput - computed: true, optional: true, required: false
-  private _perUnitStorageThroughput?: number;
+  private _perUnitStorageThroughput?: number; 
   public get perUnitStorageThroughput() {
     return this.getNumberAttribute('per_unit_storage_throughput');
   }
@@ -2956,7 +2956,7 @@ export class SagemakerClusterRestrictedInstanceGroupsEnvironmentConfigFsxLustreC
   }
 
   // size_in_gi_b - computed: true, optional: true, required: false
-  private _sizeInGiB?: number;
+  private _sizeInGiB?: number; 
   public get sizeInGiB() {
     return this.getNumberAttribute('size_in_gi_b');
   }
@@ -3182,7 +3182,7 @@ export class SagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigsEbsVo
   }
 
   // root_volume - computed: true, optional: true, required: false
-  private _rootVolume?: boolean | cdktn.IResolvable;
+  private _rootVolume?: boolean | cdktn.IResolvable; 
   public get rootVolume() {
     return this.getBooleanAttribute('root_volume');
   }
@@ -3198,7 +3198,7 @@ export class SagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigsEbsVo
   }
 
   // volume_kms_key_id - computed: true, optional: true, required: false
-  private _volumeKmsKeyId?: string;
+  private _volumeKmsKeyId?: string; 
   public get volumeKmsKeyId() {
     return this.getStringAttribute('volume_kms_key_id');
   }
@@ -3214,7 +3214,7 @@ export class SagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigsEbsVo
   }
 
   // volume_size_in_gb - computed: true, optional: true, required: false
-  private _volumeSizeInGb?: number;
+  private _volumeSizeInGb?: number; 
   public get volumeSizeInGb() {
     return this.getNumberAttribute('volume_size_in_gb');
   }
@@ -3447,7 +3447,7 @@ export class SagemakerClusterRestrictedInstanceGroupsOverrideVpcConfigOutputRefe
   }
 
   // security_group_ids - computed: true, optional: true, required: false
-  private _securityGroupIds?: string[];
+  private _securityGroupIds?: string[]; 
   public get securityGroupIds() {
     return this.getListAttribute('security_group_ids');
   }
@@ -3463,7 +3463,7 @@ export class SagemakerClusterRestrictedInstanceGroupsOverrideVpcConfigOutputRefe
   }
 
   // subnets - computed: true, optional: true, required: false
-  private _subnets?: string[];
+  private _subnets?: string[]; 
   public get subnets() {
     return this.getListAttribute('subnets');
   }
@@ -3751,7 +3751,7 @@ export class SagemakerClusterRestrictedInstanceGroupsOutputReference extends cdk
   }
 
   // current_count - computed: true, optional: true, required: false
-  private _currentCount?: number;
+  private _currentCount?: number; 
   public get currentCount() {
     return this.getNumberAttribute('current_count');
   }
@@ -3783,7 +3783,7 @@ export class SagemakerClusterRestrictedInstanceGroupsOutputReference extends cdk
   }
 
   // execution_role - computed: true, optional: true, required: false
-  private _executionRole?: string;
+  private _executionRole?: string; 
   public get executionRole() {
     return this.getStringAttribute('execution_role');
   }
@@ -3799,7 +3799,7 @@ export class SagemakerClusterRestrictedInstanceGroupsOutputReference extends cdk
   }
 
   // instance_count - computed: true, optional: true, required: false
-  private _instanceCount?: number;
+  private _instanceCount?: number; 
   public get instanceCount() {
     return this.getNumberAttribute('instance_count');
   }
@@ -3815,7 +3815,7 @@ export class SagemakerClusterRestrictedInstanceGroupsOutputReference extends cdk
   }
 
   // instance_group_name - computed: true, optional: true, required: false
-  private _instanceGroupName?: string;
+  private _instanceGroupName?: string; 
   public get instanceGroupName() {
     return this.getStringAttribute('instance_group_name');
   }
@@ -3847,7 +3847,7 @@ export class SagemakerClusterRestrictedInstanceGroupsOutputReference extends cdk
   }
 
   // instance_type - computed: true, optional: true, required: false
-  private _instanceType?: string;
+  private _instanceType?: string; 
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -3863,7 +3863,7 @@ export class SagemakerClusterRestrictedInstanceGroupsOutputReference extends cdk
   }
 
   // on_start_deep_health_checks - computed: true, optional: true, required: false
-  private _onStartDeepHealthChecks?: string[];
+  private _onStartDeepHealthChecks?: string[]; 
   public get onStartDeepHealthChecks() {
     return this.getListAttribute('on_start_deep_health_checks');
   }
@@ -3895,7 +3895,7 @@ export class SagemakerClusterRestrictedInstanceGroupsOutputReference extends cdk
   }
 
   // threads_per_core - computed: true, optional: true, required: false
-  private _threadsPerCore?: number;
+  private _threadsPerCore?: number; 
   public get threadsPerCore() {
     return this.getNumberAttribute('threads_per_core');
   }
@@ -3911,7 +3911,7 @@ export class SagemakerClusterRestrictedInstanceGroupsOutputReference extends cdk
   }
 
   // training_plan_arn - computed: true, optional: true, required: false
-  private _trainingPlanArn?: string;
+  private _trainingPlanArn?: string; 
   public get trainingPlanArn() {
     return this.getStringAttribute('training_plan_arn');
   }
@@ -4048,7 +4048,7 @@ export class SagemakerClusterTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -4064,7 +4064,7 @@ export class SagemakerClusterTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -4199,7 +4199,7 @@ export class SagemakerClusterTieredStorageConfigOutputReference extends cdktn.Co
   }
 
   // instance_memory_allocation_percentage - computed: true, optional: true, required: false
-  private _instanceMemoryAllocationPercentage?: number;
+  private _instanceMemoryAllocationPercentage?: number; 
   public get instanceMemoryAllocationPercentage() {
     return this.getNumberAttribute('instance_memory_allocation_percentage');
   }
@@ -4215,7 +4215,7 @@ export class SagemakerClusterTieredStorageConfigOutputReference extends cdktn.Co
   }
 
   // mode - computed: true, optional: true, required: false
-  private _mode?: string;
+  private _mode?: string; 
   public get mode() {
     return this.getStringAttribute('mode');
   }
@@ -4330,7 +4330,7 @@ export class SagemakerClusterVpcConfigOutputReference extends cdktn.ComplexObjec
   }
 
   // security_group_ids - computed: true, optional: true, required: false
-  private _securityGroupIds?: string[];
+  private _securityGroupIds?: string[]; 
   public get securityGroupIds() {
     return this.getListAttribute('security_group_ids');
   }
@@ -4346,7 +4346,7 @@ export class SagemakerClusterVpcConfigOutputReference extends cdktn.ComplexObjec
   }
 
   // subnets - computed: true, optional: true, required: false
-  private _subnets?: string[];
+  private _subnets?: string[]; 
   public get subnets() {
     return this.getListAttribute('subnets');
   }
@@ -4451,7 +4451,7 @@ export class SagemakerCluster extends cdktn.TerraformResource {
   }
 
   // cluster_name - computed: true, optional: true, required: false
-  private _clusterName?: string;
+  private _clusterName?: string; 
   public get clusterName() {
     return this.getStringAttribute('cluster_name');
   }
@@ -4467,7 +4467,7 @@ export class SagemakerCluster extends cdktn.TerraformResource {
   }
 
   // cluster_role - computed: true, optional: true, required: false
-  private _clusterRole?: string;
+  private _clusterRole?: string; 
   public get clusterRole() {
     return this.getStringAttribute('cluster_role');
   }
@@ -4519,7 +4519,7 @@ export class SagemakerCluster extends cdktn.TerraformResource {
   }
 
   // node_provisioning_mode - computed: true, optional: true, required: false
-  private _nodeProvisioningMode?: string;
+  private _nodeProvisioningMode?: string; 
   public get nodeProvisioningMode() {
     return this.getStringAttribute('node_provisioning_mode');
   }
@@ -4535,7 +4535,7 @@ export class SagemakerCluster extends cdktn.TerraformResource {
   }
 
   // node_recovery - computed: true, optional: true, required: false
-  private _nodeRecovery?: string;
+  private _nodeRecovery?: string; 
   public get nodeRecovery() {
     return this.getStringAttribute('node_recovery');
   }

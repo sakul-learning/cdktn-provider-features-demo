@@ -81,7 +81,7 @@ export class CognitoUserPoolUserToGroupAttachment extends cdktn.TerraformResourc
   // ==========
 
   // group_name - computed: false, optional: false, required: true
-  private _groupName?: string;
+  private _groupName?: string; 
   public get groupName() {
     return this.getStringAttribute('group_name');
   }
@@ -99,7 +99,7 @@ export class CognitoUserPoolUserToGroupAttachment extends cdktn.TerraformResourc
   }
 
   // user_pool_id - computed: false, optional: false, required: true
-  private _userPoolId?: string;
+  private _userPoolId?: string; 
   public get userPoolId() {
     return this.getStringAttribute('user_pool_id');
   }
@@ -112,7 +112,7 @@ export class CognitoUserPoolUserToGroupAttachment extends cdktn.TerraformResourc
   }
 
   // username - computed: false, optional: false, required: true
-  private _username?: string;
+  private _username?: string; 
   public get username() {
     return this.getStringAttribute('username');
   }

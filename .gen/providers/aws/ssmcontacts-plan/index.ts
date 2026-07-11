@@ -117,7 +117,7 @@ export class SsmcontactsPlanStageTargetChannelTargetInfoOutputReference extends 
   }
 
   // contact_channel_id - computed: false, optional: false, required: true
-  private _contactChannelId?: string;
+  private _contactChannelId?: string; 
   public get contactChannelId() {
     return this.getStringAttribute('contact_channel_id');
   }
@@ -130,7 +130,7 @@ export class SsmcontactsPlanStageTargetChannelTargetInfoOutputReference extends 
   }
 
   // retry_interval_in_minutes - computed: false, optional: true, required: false
-  private _retryIntervalInMinutes?: number;
+  private _retryIntervalInMinutes?: number; 
   public get retryIntervalInMinutes() {
     return this.getNumberAttribute('retry_interval_in_minutes');
   }
@@ -231,7 +231,7 @@ export class SsmcontactsPlanStageTargetContactTargetInfoOutputReference extends 
   }
 
   // contact_id - computed: false, optional: true, required: false
-  private _contactId?: string;
+  private _contactId?: string; 
   public get contactId() {
     return this.getStringAttribute('contact_id');
   }
@@ -247,7 +247,7 @@ export class SsmcontactsPlanStageTargetContactTargetInfoOutputReference extends 
   }
 
   // is_essential - computed: false, optional: false, required: true
-  private _isEssential?: boolean | cdktn.IResolvable;
+  private _isEssential?: boolean | cdktn.IResolvable; 
   public get isEssential() {
     return this.getBooleanAttribute('is_essential');
   }
@@ -512,7 +512,7 @@ export class SsmcontactsPlanStageOutputReference extends cdktn.ComplexObject {
   }
 
   // duration_in_minutes - computed: false, optional: false, required: true
-  private _durationInMinutes?: number;
+  private _durationInMinutes?: number; 
   public get durationInMinutes() {
     return this.getNumberAttribute('duration_in_minutes');
   }
@@ -622,7 +622,7 @@ export class SsmcontactsPlan extends cdktn.TerraformResource {
   // ==========
 
   // contact_id - computed: false, optional: false, required: true
-  private _contactId?: string;
+  private _contactId?: string; 
   public get contactId() {
     return this.getStringAttribute('contact_id');
   }
@@ -635,7 +635,7 @@ export class SsmcontactsPlan extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -651,7 +651,7 @@ export class SsmcontactsPlan extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

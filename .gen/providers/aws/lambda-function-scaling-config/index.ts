@@ -140,7 +140,7 @@ export class LambdaFunctionScalingConfigFunctionScalingConfigOutputReference ext
   }
 
   // max_execution_environments - computed: true, optional: true, required: false
-  private _maxExecutionEnvironments?: number;
+  private _maxExecutionEnvironments?: number; 
   public get maxExecutionEnvironments() {
     return this.getNumberAttribute('max_execution_environments');
   }
@@ -156,7 +156,7 @@ export class LambdaFunctionScalingConfigFunctionScalingConfigOutputReference ext
   }
 
   // min_execution_environments - computed: true, optional: true, required: false
-  private _minExecutionEnvironments?: number;
+  private _minExecutionEnvironments?: number; 
   public get minExecutionEnvironments() {
     return this.getNumberAttribute('min_execution_environments');
   }
@@ -310,7 +310,7 @@ export class LambdaFunctionScalingConfigTimeoutsOutputReference extends cdktn.Co
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -326,7 +326,7 @@ export class LambdaFunctionScalingConfigTimeoutsOutputReference extends cdktn.Co
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -342,7 +342,7 @@ export class LambdaFunctionScalingConfigTimeoutsOutputReference extends cdktn.Co
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -425,7 +425,7 @@ export class LambdaFunctionScalingConfig extends cdktn.TerraformResource {
   }
 
   // function_name - computed: false, optional: false, required: true
-  private _functionName?: string;
+  private _functionName?: string; 
   public get functionName() {
     return this.getStringAttribute('function_name');
   }
@@ -443,7 +443,7 @@ export class LambdaFunctionScalingConfig extends cdktn.TerraformResource {
   }
 
   // qualifier - computed: false, optional: false, required: true
-  private _qualifier?: string;
+  private _qualifier?: string; 
   public get qualifier() {
     return this.getStringAttribute('qualifier');
   }
@@ -456,7 +456,7 @@ export class LambdaFunctionScalingConfig extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

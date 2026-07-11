@@ -169,7 +169,7 @@ export class M2EnvironmentHighAvailabilityConfigOutputReference extends cdktn.Co
   }
 
   // desired_capacity - computed: true, optional: true, required: false
-  private _desiredCapacity?: number;
+  private _desiredCapacity?: number; 
   public get desiredCapacity() {
     return this.getNumberAttribute('desired_capacity');
   }
@@ -284,7 +284,7 @@ export class M2EnvironmentStorageConfigurationsEfsOutputReference extends cdktn.
   }
 
   // file_system_id - computed: true, optional: true, required: false
-  private _fileSystemId?: string;
+  private _fileSystemId?: string; 
   public get fileSystemId() {
     return this.getStringAttribute('file_system_id');
   }
@@ -300,7 +300,7 @@ export class M2EnvironmentStorageConfigurationsEfsOutputReference extends cdktn.
   }
 
   // mount_point - computed: true, optional: true, required: false
-  private _mountPoint?: string;
+  private _mountPoint?: string; 
   public get mountPoint() {
     return this.getStringAttribute('mount_point');
   }
@@ -415,7 +415,7 @@ export class M2EnvironmentStorageConfigurationsFsxOutputReference extends cdktn.
   }
 
   // file_system_id - computed: true, optional: true, required: false
-  private _fileSystemId?: string;
+  private _fileSystemId?: string; 
   public get fileSystemId() {
     return this.getStringAttribute('file_system_id');
   }
@@ -431,7 +431,7 @@ export class M2EnvironmentStorageConfigurationsFsxOutputReference extends cdktn.
   }
 
   // mount_point - computed: true, optional: true, required: false
-  private _mountPoint?: string;
+  private _mountPoint?: string; 
   public get mountPoint() {
     return this.getStringAttribute('mount_point');
   }
@@ -671,7 +671,7 @@ export class M2Environment extends cdktn.TerraformResource {
   // ==========
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -687,7 +687,7 @@ export class M2Environment extends cdktn.TerraformResource {
   }
 
   // engine_type - computed: false, optional: false, required: true
-  private _engineType?: string;
+  private _engineType?: string; 
   public get engineType() {
     return this.getStringAttribute('engine_type');
   }
@@ -700,7 +700,7 @@ export class M2Environment extends cdktn.TerraformResource {
   }
 
   // engine_version - computed: true, optional: true, required: false
-  private _engineVersion?: string;
+  private _engineVersion?: string; 
   public get engineVersion() {
     return this.getStringAttribute('engine_version');
   }
@@ -747,7 +747,7 @@ export class M2Environment extends cdktn.TerraformResource {
   }
 
   // instance_type - computed: false, optional: false, required: true
-  private _instanceType?: string;
+  private _instanceType?: string; 
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -760,7 +760,7 @@ export class M2Environment extends cdktn.TerraformResource {
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -776,7 +776,7 @@ export class M2Environment extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -789,7 +789,7 @@ export class M2Environment extends cdktn.TerraformResource {
   }
 
   // network_type - computed: true, optional: true, required: false
-  private _networkType?: string;
+  private _networkType?: string; 
   public get networkType() {
     return this.getStringAttribute('network_type');
   }
@@ -805,7 +805,7 @@ export class M2Environment extends cdktn.TerraformResource {
   }
 
   // preferred_maintenance_window - computed: true, optional: true, required: false
-  private _preferredMaintenanceWindow?: string;
+  private _preferredMaintenanceWindow?: string; 
   public get preferredMaintenanceWindow() {
     return this.getStringAttribute('preferred_maintenance_window');
   }
@@ -821,7 +821,7 @@ export class M2Environment extends cdktn.TerraformResource {
   }
 
   // publicly_accessible - computed: true, optional: true, required: false
-  private _publiclyAccessible?: boolean | cdktn.IResolvable;
+  private _publiclyAccessible?: boolean | cdktn.IResolvable; 
   public get publiclyAccessible() {
     return this.getBooleanAttribute('publicly_accessible');
   }
@@ -837,7 +837,7 @@ export class M2Environment extends cdktn.TerraformResource {
   }
 
   // security_group_ids - computed: true, optional: true, required: false
-  private _securityGroupIds?: string[];
+  private _securityGroupIds?: string[]; 
   public get securityGroupIds() {
     return this.getListAttribute('security_group_ids');
   }
@@ -869,7 +869,7 @@ export class M2Environment extends cdktn.TerraformResource {
   }
 
   // subnet_ids - computed: true, optional: true, required: false
-  private _subnetIds?: string[];
+  private _subnetIds?: string[]; 
   public get subnetIds() {
     return this.getListAttribute('subnet_ids');
   }
@@ -885,7 +885,7 @@ export class M2Environment extends cdktn.TerraformResource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

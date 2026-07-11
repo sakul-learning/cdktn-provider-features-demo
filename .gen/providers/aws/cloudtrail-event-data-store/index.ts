@@ -256,7 +256,7 @@ export class CloudtrailEventDataStoreAdvancedEventSelectorFieldSelectorOutputRef
   }
 
   // ends_with - computed: true, optional: true, required: false
-  private _endsWith?: string[];
+  private _endsWith?: string[]; 
   public get endsWith() {
     return this.getListAttribute('ends_with');
   }
@@ -272,7 +272,7 @@ export class CloudtrailEventDataStoreAdvancedEventSelectorFieldSelectorOutputRef
   }
 
   // equals - computed: true, optional: true, required: false
-  private _equals?: string[];
+  private _equals?: string[]; 
   public get equalTo() {
     return this.getListAttribute('equals');
   }
@@ -288,7 +288,7 @@ export class CloudtrailEventDataStoreAdvancedEventSelectorFieldSelectorOutputRef
   }
 
   // field - computed: true, optional: true, required: false
-  private _field?: string;
+  private _field?: string; 
   public get field() {
     return this.getStringAttribute('field');
   }
@@ -304,7 +304,7 @@ export class CloudtrailEventDataStoreAdvancedEventSelectorFieldSelectorOutputRef
   }
 
   // not_ends_with - computed: true, optional: true, required: false
-  private _notEndsWith?: string[];
+  private _notEndsWith?: string[]; 
   public get notEndsWith() {
     return this.getListAttribute('not_ends_with');
   }
@@ -320,7 +320,7 @@ export class CloudtrailEventDataStoreAdvancedEventSelectorFieldSelectorOutputRef
   }
 
   // not_equals - computed: true, optional: true, required: false
-  private _notEquals?: string[];
+  private _notEquals?: string[]; 
   public get notEquals() {
     return this.getListAttribute('not_equals');
   }
@@ -336,7 +336,7 @@ export class CloudtrailEventDataStoreAdvancedEventSelectorFieldSelectorOutputRef
   }
 
   // not_starts_with - computed: true, optional: true, required: false
-  private _notStartsWith?: string[];
+  private _notStartsWith?: string[]; 
   public get notStartsWith() {
     return this.getListAttribute('not_starts_with');
   }
@@ -352,7 +352,7 @@ export class CloudtrailEventDataStoreAdvancedEventSelectorFieldSelectorOutputRef
   }
 
   // starts_with - computed: true, optional: true, required: false
-  private _startsWith?: string[];
+  private _startsWith?: string[]; 
   public get startsWith() {
     return this.getListAttribute('starts_with');
   }
@@ -487,7 +487,7 @@ export class CloudtrailEventDataStoreAdvancedEventSelectorOutputReference extend
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -651,7 +651,7 @@ export class CloudtrailEventDataStoreTimeoutsOutputReference extends cdktn.Compl
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -667,7 +667,7 @@ export class CloudtrailEventDataStoreTimeoutsOutputReference extends cdktn.Compl
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -683,7 +683,7 @@ export class CloudtrailEventDataStoreTimeoutsOutputReference extends cdktn.Compl
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -775,7 +775,7 @@ export class CloudtrailEventDataStore extends cdktn.TerraformResource {
   }
 
   // billing_mode - computed: false, optional: true, required: false
-  private _billingMode?: string;
+  private _billingMode?: string; 
   public get billingMode() {
     return this.getStringAttribute('billing_mode');
   }
@@ -791,7 +791,7 @@ export class CloudtrailEventDataStore extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -807,7 +807,7 @@ export class CloudtrailEventDataStore extends cdktn.TerraformResource {
   }
 
   // kms_key_id - computed: false, optional: true, required: false
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -823,7 +823,7 @@ export class CloudtrailEventDataStore extends cdktn.TerraformResource {
   }
 
   // multi_region_enabled - computed: false, optional: true, required: false
-  private _multiRegionEnabled?: boolean | cdktn.IResolvable;
+  private _multiRegionEnabled?: boolean | cdktn.IResolvable; 
   public get multiRegionEnabled() {
     return this.getBooleanAttribute('multi_region_enabled');
   }
@@ -839,7 +839,7 @@ export class CloudtrailEventDataStore extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -852,7 +852,7 @@ export class CloudtrailEventDataStore extends cdktn.TerraformResource {
   }
 
   // organization_enabled - computed: false, optional: true, required: false
-  private _organizationEnabled?: boolean | cdktn.IResolvable;
+  private _organizationEnabled?: boolean | cdktn.IResolvable; 
   public get organizationEnabled() {
     return this.getBooleanAttribute('organization_enabled');
   }
@@ -868,7 +868,7 @@ export class CloudtrailEventDataStore extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -884,7 +884,7 @@ export class CloudtrailEventDataStore extends cdktn.TerraformResource {
   }
 
   // retention_period - computed: false, optional: true, required: false
-  private _retentionPeriod?: number;
+  private _retentionPeriod?: number; 
   public get retentionPeriod() {
     return this.getNumberAttribute('retention_period');
   }
@@ -900,7 +900,7 @@ export class CloudtrailEventDataStore extends cdktn.TerraformResource {
   }
 
   // suspend - computed: false, optional: true, required: false
-  private _suspend?: string;
+  private _suspend?: string; 
   public get suspend() {
     return this.getStringAttribute('suspend');
   }
@@ -916,7 +916,7 @@ export class CloudtrailEventDataStore extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -932,7 +932,7 @@ export class CloudtrailEventDataStore extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -948,7 +948,7 @@ export class CloudtrailEventDataStore extends cdktn.TerraformResource {
   }
 
   // termination_protection_enabled - computed: false, optional: true, required: false
-  private _terminationProtectionEnabled?: boolean | cdktn.IResolvable;
+  private _terminationProtectionEnabled?: boolean | cdktn.IResolvable; 
   public get terminationProtectionEnabled() {
     return this.getBooleanAttribute('termination_protection_enabled');
   }

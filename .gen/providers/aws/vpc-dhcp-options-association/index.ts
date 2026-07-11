@@ -91,7 +91,7 @@ export class VpcDhcpOptionsAssociation extends cdktn.TerraformResource {
   // ==========
 
   // dhcp_options_id - computed: false, optional: false, required: true
-  private _dhcpOptionsId?: string;
+  private _dhcpOptionsId?: string; 
   public get dhcpOptionsId() {
     return this.getStringAttribute('dhcp_options_id');
   }
@@ -104,7 +104,7 @@ export class VpcDhcpOptionsAssociation extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -120,7 +120,7 @@ export class VpcDhcpOptionsAssociation extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -136,7 +136,7 @@ export class VpcDhcpOptionsAssociation extends cdktn.TerraformResource {
   }
 
   // vpc_id - computed: false, optional: false, required: true
-  private _vpcId?: string;
+  private _vpcId?: string; 
   public get vpcId() {
     return this.getStringAttribute('vpc_id');
   }

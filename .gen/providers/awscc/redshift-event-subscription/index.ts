@@ -158,7 +158,7 @@ export class RedshiftEventSubscriptionTagsOutputReference extends cdktn.ComplexO
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -174,7 +174,7 @@ export class RedshiftEventSubscriptionTagsOutputReference extends cdktn.ComplexO
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -285,7 +285,7 @@ export class RedshiftEventSubscription extends cdktn.TerraformResource {
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -301,7 +301,7 @@ export class RedshiftEventSubscription extends cdktn.TerraformResource {
   }
 
   // event_categories - computed: true, optional: true, required: false
-  private _eventCategories?: string[];
+  private _eventCategories?: string[]; 
   public get eventCategories() {
     return cdktn.Fn.tolist(this.getListAttribute('event_categories'));
   }
@@ -327,7 +327,7 @@ export class RedshiftEventSubscription extends cdktn.TerraformResource {
   }
 
   // severity - computed: true, optional: true, required: false
-  private _severity?: string;
+  private _severity?: string; 
   public get severity() {
     return this.getStringAttribute('severity');
   }
@@ -343,7 +343,7 @@ export class RedshiftEventSubscription extends cdktn.TerraformResource {
   }
 
   // sns_topic_arn - computed: true, optional: true, required: false
-  private _snsTopicArn?: string;
+  private _snsTopicArn?: string; 
   public get snsTopicArn() {
     return this.getStringAttribute('sns_topic_arn');
   }
@@ -359,7 +359,7 @@ export class RedshiftEventSubscription extends cdktn.TerraformResource {
   }
 
   // source_ids - computed: true, optional: true, required: false
-  private _sourceIds?: string[];
+  private _sourceIds?: string[]; 
   public get sourceIds() {
     return this.getListAttribute('source_ids');
   }
@@ -380,7 +380,7 @@ export class RedshiftEventSubscription extends cdktn.TerraformResource {
   }
 
   // source_type - computed: true, optional: true, required: false
-  private _sourceType?: string;
+  private _sourceType?: string; 
   public get sourceType() {
     return this.getStringAttribute('source_type');
   }
@@ -406,7 +406,7 @@ export class RedshiftEventSubscription extends cdktn.TerraformResource {
   }
 
   // subscription_name - computed: false, optional: false, required: true
-  private _subscriptionName?: string;
+  private _subscriptionName?: string; 
   public get subscriptionName() {
     return this.getStringAttribute('subscription_name');
   }

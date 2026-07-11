@@ -250,7 +250,7 @@ export class DataAwsCloudwatchContributorManagedInsightRules extends cdktn.Terra
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -266,7 +266,7 @@ export class DataAwsCloudwatchContributorManagedInsightRules extends cdktn.Terra
   }
 
   // resource_arn - computed: false, optional: false, required: true
-  private _resourceArn?: string;
+  private _resourceArn?: string; 
   public get resourceArn() {
     return this.getStringAttribute('resource_arn');
   }

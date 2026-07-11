@@ -140,7 +140,7 @@ export class EksIdentityProviderConfigOidcRequiredClaimsOutputReference extends 
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -156,7 +156,7 @@ export class EksIdentityProviderConfigOidcRequiredClaimsOutputReference extends 
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -384,7 +384,7 @@ export class EksIdentityProviderConfigOidcOutputReference extends cdktn.ComplexO
   }
 
   // client_id - computed: true, optional: true, required: false
-  private _clientId?: string;
+  private _clientId?: string; 
   public get clientId() {
     return this.getStringAttribute('client_id');
   }
@@ -400,7 +400,7 @@ export class EksIdentityProviderConfigOidcOutputReference extends cdktn.ComplexO
   }
 
   // groups_claim - computed: true, optional: true, required: false
-  private _groupsClaim?: string;
+  private _groupsClaim?: string; 
   public get groupsClaim() {
     return this.getStringAttribute('groups_claim');
   }
@@ -416,7 +416,7 @@ export class EksIdentityProviderConfigOidcOutputReference extends cdktn.ComplexO
   }
 
   // groups_prefix - computed: true, optional: true, required: false
-  private _groupsPrefix?: string;
+  private _groupsPrefix?: string; 
   public get groupsPrefix() {
     return this.getStringAttribute('groups_prefix');
   }
@@ -432,7 +432,7 @@ export class EksIdentityProviderConfigOidcOutputReference extends cdktn.ComplexO
   }
 
   // issuer_url - computed: true, optional: true, required: false
-  private _issuerUrl?: string;
+  private _issuerUrl?: string; 
   public get issuerUrl() {
     return this.getStringAttribute('issuer_url');
   }
@@ -464,7 +464,7 @@ export class EksIdentityProviderConfigOidcOutputReference extends cdktn.ComplexO
   }
 
   // username_claim - computed: true, optional: true, required: false
-  private _usernameClaim?: string;
+  private _usernameClaim?: string; 
   public get usernameClaim() {
     return this.getStringAttribute('username_claim');
   }
@@ -480,7 +480,7 @@ export class EksIdentityProviderConfigOidcOutputReference extends cdktn.ComplexO
   }
 
   // username_prefix - computed: true, optional: true, required: false
-  private _usernamePrefix?: string;
+  private _usernamePrefix?: string; 
   public get usernamePrefix() {
     return this.getStringAttribute('username_prefix');
   }
@@ -597,7 +597,7 @@ export class EksIdentityProviderConfigTagsOutputReference extends cdktn.ComplexO
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -613,7 +613,7 @@ export class EksIdentityProviderConfigTagsOutputReference extends cdktn.ComplexO
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -711,7 +711,7 @@ export class EksIdentityProviderConfig extends cdktn.TerraformResource {
   // ==========
 
   // cluster_name - computed: false, optional: false, required: true
-  private _clusterName?: string;
+  private _clusterName?: string; 
   public get clusterName() {
     return this.getStringAttribute('cluster_name');
   }
@@ -734,7 +734,7 @@ export class EksIdentityProviderConfig extends cdktn.TerraformResource {
   }
 
   // identity_provider_config_name - computed: true, optional: true, required: false
-  private _identityProviderConfigName?: string;
+  private _identityProviderConfigName?: string; 
   public get identityProviderConfigName() {
     return this.getStringAttribute('identity_provider_config_name');
   }
@@ -782,7 +782,7 @@ export class EksIdentityProviderConfig extends cdktn.TerraformResource {
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }

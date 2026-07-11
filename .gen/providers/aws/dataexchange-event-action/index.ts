@@ -124,7 +124,7 @@ export class DataexchangeEventActionActionExportRevisionToS3EncryptionOutputRefe
   }
 
   // kms_key_arn - computed: false, optional: true, required: false
-  private _kmsKeyArn?: string;
+  private _kmsKeyArn?: string; 
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -140,7 +140,7 @@ export class DataexchangeEventActionActionExportRevisionToS3EncryptionOutputRefe
   }
 
   // type - computed: false, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -273,7 +273,7 @@ export class DataexchangeEventActionActionExportRevisionToS3RevisionDestinationO
   }
 
   // bucket - computed: false, optional: false, required: true
-  private _bucket?: string;
+  private _bucket?: string; 
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -286,7 +286,7 @@ export class DataexchangeEventActionActionExportRevisionToS3RevisionDestinationO
   }
 
   // key_pattern - computed: true, optional: true, required: false
-  private _keyPattern?: string;
+  private _keyPattern?: string; 
   public get keyPattern() {
     return this.getStringAttribute('key_pattern');
   }
@@ -673,7 +673,7 @@ export class DataexchangeEventActionEventRevisionPublishedOutputReference extend
   }
 
   // data_set_id - computed: false, optional: false, required: true
-  private _dataSetId?: string;
+  private _dataSetId?: string; 
   public get dataSetId() {
     return this.getStringAttribute('data_set_id');
   }
@@ -899,7 +899,7 @@ export class DataexchangeEventAction extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

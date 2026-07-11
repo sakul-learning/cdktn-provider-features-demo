@@ -99,7 +99,7 @@ export class SecurityhubHub extends cdktn.TerraformResource {
   }
 
   // auto_enable_controls - computed: true, optional: true, required: false
-  private _autoEnableControls?: boolean | cdktn.IResolvable;
+  private _autoEnableControls?: boolean | cdktn.IResolvable; 
   public get autoEnableControls() {
     return this.getBooleanAttribute('auto_enable_controls');
   }
@@ -115,7 +115,7 @@ export class SecurityhubHub extends cdktn.TerraformResource {
   }
 
   // control_finding_generator - computed: true, optional: true, required: false
-  private _controlFindingGenerator?: string;
+  private _controlFindingGenerator?: string; 
   public get controlFindingGenerator() {
     return this.getStringAttribute('control_finding_generator');
   }
@@ -131,7 +131,7 @@ export class SecurityhubHub extends cdktn.TerraformResource {
   }
 
   // enable_default_standards - computed: true, optional: true, required: false
-  private _enableDefaultStandards?: boolean | cdktn.IResolvable;
+  private _enableDefaultStandards?: boolean | cdktn.IResolvable; 
   public get enableDefaultStandards() {
     return this.getBooleanAttribute('enable_default_standards');
   }
@@ -157,7 +157,7 @@ export class SecurityhubHub extends cdktn.TerraformResource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

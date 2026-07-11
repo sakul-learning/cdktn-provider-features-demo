@@ -118,7 +118,7 @@ export class SesTemplateTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -134,7 +134,7 @@ export class SesTemplateTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -307,7 +307,7 @@ export class SesTemplateTemplateOutputReference extends cdktn.ComplexObject {
   }
 
   // html_part - computed: true, optional: true, required: false
-  private _htmlPart?: string;
+  private _htmlPart?: string; 
   public get htmlPart() {
     return this.getStringAttribute('html_part');
   }
@@ -323,7 +323,7 @@ export class SesTemplateTemplateOutputReference extends cdktn.ComplexObject {
   }
 
   // subject_part - computed: true, optional: true, required: false
-  private _subjectPart?: string;
+  private _subjectPart?: string; 
   public get subjectPart() {
     return this.getStringAttribute('subject_part');
   }
@@ -339,7 +339,7 @@ export class SesTemplateTemplateOutputReference extends cdktn.ComplexObject {
   }
 
   // template_name - computed: true, optional: true, required: false
-  private _templateName?: string;
+  private _templateName?: string; 
   public get templateName() {
     return this.getStringAttribute('template_name');
   }
@@ -355,7 +355,7 @@ export class SesTemplateTemplateOutputReference extends cdktn.ComplexObject {
   }
 
   // text_part - computed: true, optional: true, required: false
-  private _textPart?: string;
+  private _textPart?: string; 
   public get textPart() {
     return this.getStringAttribute('text_part');
   }

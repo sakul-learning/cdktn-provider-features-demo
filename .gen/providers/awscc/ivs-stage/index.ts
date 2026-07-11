@@ -107,7 +107,7 @@ export class IvsStageAutoParticipantRecordingConfigurationHlsConfigurationPartic
   }
 
   // target_segment_duration_seconds - computed: true, optional: true, required: false
-  private _targetSegmentDurationSeconds?: number;
+  private _targetSegmentDurationSeconds?: number; 
   public get targetSegmentDurationSeconds() {
     return this.getNumberAttribute('target_segment_duration_seconds');
   }
@@ -337,7 +337,7 @@ export class IvsStageAutoParticipantRecordingConfigurationThumbnailConfiguration
   }
 
   // recording_mode - computed: true, optional: true, required: false
-  private _recordingMode?: string;
+  private _recordingMode?: string; 
   public get recordingMode() {
     return this.getStringAttribute('recording_mode');
   }
@@ -353,7 +353,7 @@ export class IvsStageAutoParticipantRecordingConfigurationThumbnailConfiguration
   }
 
   // storage - computed: true, optional: true, required: false
-  private _storage?: string[];
+  private _storage?: string[]; 
   public get storage() {
     return cdktn.Fn.tolist(this.getListAttribute('storage'));
   }
@@ -369,7 +369,7 @@ export class IvsStageAutoParticipantRecordingConfigurationThumbnailConfiguration
   }
 
   // target_interval_seconds - computed: true, optional: true, required: false
-  private _targetIntervalSeconds?: number;
+  private _targetIntervalSeconds?: number; 
   public get targetIntervalSeconds() {
     return this.getNumberAttribute('target_interval_seconds');
   }
@@ -653,7 +653,7 @@ export class IvsStageAutoParticipantRecordingConfigurationOutputReference extend
   }
 
   // media_types - computed: true, optional: true, required: false
-  private _mediaTypes?: string[];
+  private _mediaTypes?: string[]; 
   public get mediaTypes() {
     return cdktn.Fn.tolist(this.getListAttribute('media_types'));
   }
@@ -669,7 +669,7 @@ export class IvsStageAutoParticipantRecordingConfigurationOutputReference extend
   }
 
   // recording_reconnect_window_seconds - computed: true, optional: true, required: false
-  private _recordingReconnectWindowSeconds?: number;
+  private _recordingReconnectWindowSeconds?: number; 
   public get recordingReconnectWindowSeconds() {
     return this.getNumberAttribute('recording_reconnect_window_seconds');
   }
@@ -685,7 +685,7 @@ export class IvsStageAutoParticipantRecordingConfigurationOutputReference extend
   }
 
   // storage_configuration_arn - computed: true, optional: true, required: false
-  private _storageConfigurationArn?: string;
+  private _storageConfigurationArn?: string; 
   public get storageConfigurationArn() {
     return this.getStringAttribute('storage_configuration_arn');
   }
@@ -818,7 +818,7 @@ export class IvsStageTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -834,7 +834,7 @@ export class IvsStageTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -961,7 +961,7 @@ export class IvsStage extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }

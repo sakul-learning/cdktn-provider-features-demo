@@ -160,7 +160,7 @@ export class KinesisAnalyticsApplicationCloudwatchLoggingOptionsOutputReference 
   }
 
   // log_stream_arn - computed: false, optional: false, required: true
-  private _logStreamArn?: string;
+  private _logStreamArn?: string; 
   public get logStreamArn() {
     return this.getStringAttribute('log_stream_arn');
   }
@@ -173,7 +173,7 @@ export class KinesisAnalyticsApplicationCloudwatchLoggingOptionsOutputReference 
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -271,7 +271,7 @@ export class KinesisAnalyticsApplicationInputsKinesisFirehoseOutputReference ext
   }
 
   // resource_arn - computed: false, optional: false, required: true
-  private _resourceArn?: string;
+  private _resourceArn?: string; 
   public get resourceArn() {
     return this.getStringAttribute('resource_arn');
   }
@@ -284,7 +284,7 @@ export class KinesisAnalyticsApplicationInputsKinesisFirehoseOutputReference ext
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -382,7 +382,7 @@ export class KinesisAnalyticsApplicationInputsKinesisStreamOutputReference exten
   }
 
   // resource_arn - computed: false, optional: false, required: true
-  private _resourceArn?: string;
+  private _resourceArn?: string; 
   public get resourceArn() {
     return this.getStringAttribute('resource_arn');
   }
@@ -395,7 +395,7 @@ export class KinesisAnalyticsApplicationInputsKinesisStreamOutputReference exten
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -476,7 +476,7 @@ export class KinesisAnalyticsApplicationInputsParallelismOutputReference extends
   }
 
   // count - computed: true, optional: true, required: false
-  private _count?: number;
+  private _count?: number; 
   public get count() {
     return this.getNumberAttribute('count');
   }
@@ -577,7 +577,7 @@ export class KinesisAnalyticsApplicationInputsProcessingConfigurationLambdaOutpu
   }
 
   // resource_arn - computed: false, optional: false, required: true
-  private _resourceArn?: string;
+  private _resourceArn?: string; 
   public get resourceArn() {
     return this.getStringAttribute('resource_arn');
   }
@@ -590,7 +590,7 @@ export class KinesisAnalyticsApplicationInputsProcessingConfigurationLambdaOutpu
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -800,7 +800,7 @@ export class KinesisAnalyticsApplicationInputsSchemaRecordColumnsOutputReference
   }
 
   // mapping - computed: false, optional: true, required: false
-  private _mapping?: string;
+  private _mapping?: string; 
   public get mapping() {
     return this.getStringAttribute('mapping');
   }
@@ -816,7 +816,7 @@ export class KinesisAnalyticsApplicationInputsSchemaRecordColumnsOutputReference
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -829,7 +829,7 @@ export class KinesisAnalyticsApplicationInputsSchemaRecordColumnsOutputReference
   }
 
   // sql_type - computed: false, optional: false, required: true
-  private _sqlType?: string;
+  private _sqlType?: string; 
   public get sqlType() {
     return this.getStringAttribute('sql_type');
   }
@@ -947,7 +947,7 @@ export class KinesisAnalyticsApplicationInputsSchemaRecordFormatMappingParameter
   }
 
   // record_column_delimiter - computed: false, optional: false, required: true
-  private _recordColumnDelimiter?: string;
+  private _recordColumnDelimiter?: string; 
   public get recordColumnDelimiter() {
     return this.getStringAttribute('record_column_delimiter');
   }
@@ -960,7 +960,7 @@ export class KinesisAnalyticsApplicationInputsSchemaRecordFormatMappingParameter
   }
 
   // record_row_delimiter - computed: false, optional: false, required: true
-  private _recordRowDelimiter?: string;
+  private _recordRowDelimiter?: string; 
   public get recordRowDelimiter() {
     return this.getStringAttribute('record_row_delimiter');
   }
@@ -1041,7 +1041,7 @@ export class KinesisAnalyticsApplicationInputsSchemaRecordFormatMappingParameter
   }
 
   // record_row_path - computed: false, optional: false, required: true
-  private _recordRowPath?: string;
+  private _recordRowPath?: string; 
   public get recordRowPath() {
     return this.getStringAttribute('record_row_path');
   }
@@ -1372,7 +1372,7 @@ export class KinesisAnalyticsApplicationInputsSchemaOutputReference extends cdkt
   }
 
   // record_encoding - computed: false, optional: true, required: false
-  private _recordEncoding?: string;
+  private _recordEncoding?: string; 
   public get recordEncoding() {
     return this.getStringAttribute('record_encoding');
   }
@@ -1494,7 +1494,7 @@ export class KinesisAnalyticsApplicationInputsStartingPositionConfigurationOutpu
   }
 
   // starting_position - computed: true, optional: true, required: false
-  private _startingPosition?: string;
+  private _startingPosition?: string; 
   public get startingPosition() {
     return this.getStringAttribute('starting_position');
   }
@@ -1717,7 +1717,7 @@ export class KinesisAnalyticsApplicationInputsOutputReference extends cdktn.Comp
   }
 
   // name_prefix - computed: false, optional: false, required: true
-  private _namePrefix?: string;
+  private _namePrefix?: string; 
   public get namePrefix() {
     return this.getStringAttribute('name_prefix');
   }
@@ -1913,7 +1913,7 @@ export class KinesisAnalyticsApplicationOutputsKinesisFirehoseOutputReference ex
   }
 
   // resource_arn - computed: false, optional: false, required: true
-  private _resourceArn?: string;
+  private _resourceArn?: string; 
   public get resourceArn() {
     return this.getStringAttribute('resource_arn');
   }
@@ -1926,7 +1926,7 @@ export class KinesisAnalyticsApplicationOutputsKinesisFirehoseOutputReference ex
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -2024,7 +2024,7 @@ export class KinesisAnalyticsApplicationOutputsKinesisStreamOutputReference exte
   }
 
   // resource_arn - computed: false, optional: false, required: true
-  private _resourceArn?: string;
+  private _resourceArn?: string; 
   public get resourceArn() {
     return this.getStringAttribute('resource_arn');
   }
@@ -2037,7 +2037,7 @@ export class KinesisAnalyticsApplicationOutputsKinesisStreamOutputReference exte
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -2135,7 +2135,7 @@ export class KinesisAnalyticsApplicationOutputsLambdaOutputReference extends cdk
   }
 
   // resource_arn - computed: false, optional: false, required: true
-  private _resourceArn?: string;
+  private _resourceArn?: string; 
   public get resourceArn() {
     return this.getStringAttribute('resource_arn');
   }
@@ -2148,7 +2148,7 @@ export class KinesisAnalyticsApplicationOutputsLambdaOutputReference extends cdk
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -2229,7 +2229,7 @@ export class KinesisAnalyticsApplicationOutputsSchemaOutputReference extends cdk
   }
 
   // record_format_type - computed: false, optional: false, required: true
-  private _recordFormatType?: string;
+  private _recordFormatType?: string; 
   public get recordFormatType() {
     return this.getStringAttribute('record_format_type');
   }
@@ -2403,7 +2403,7 @@ export class KinesisAnalyticsApplicationOutputsOutputReference extends cdktn.Com
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2599,7 +2599,7 @@ export class KinesisAnalyticsApplicationReferenceDataSourcesS3OutputReference ex
   }
 
   // bucket_arn - computed: false, optional: false, required: true
-  private _bucketArn?: string;
+  private _bucketArn?: string; 
   public get bucketArn() {
     return this.getStringAttribute('bucket_arn');
   }
@@ -2612,7 +2612,7 @@ export class KinesisAnalyticsApplicationReferenceDataSourcesS3OutputReference ex
   }
 
   // file_key - computed: false, optional: false, required: true
-  private _fileKey?: string;
+  private _fileKey?: string; 
   public get fileKey() {
     return this.getStringAttribute('file_key');
   }
@@ -2625,7 +2625,7 @@ export class KinesisAnalyticsApplicationReferenceDataSourcesS3OutputReference ex
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -2752,7 +2752,7 @@ export class KinesisAnalyticsApplicationReferenceDataSourcesSchemaRecordColumnsO
   }
 
   // mapping - computed: false, optional: true, required: false
-  private _mapping?: string;
+  private _mapping?: string; 
   public get mapping() {
     return this.getStringAttribute('mapping');
   }
@@ -2768,7 +2768,7 @@ export class KinesisAnalyticsApplicationReferenceDataSourcesSchemaRecordColumnsO
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2781,7 +2781,7 @@ export class KinesisAnalyticsApplicationReferenceDataSourcesSchemaRecordColumnsO
   }
 
   // sql_type - computed: false, optional: false, required: true
-  private _sqlType?: string;
+  private _sqlType?: string; 
   public get sqlType() {
     return this.getStringAttribute('sql_type');
   }
@@ -2899,7 +2899,7 @@ export class KinesisAnalyticsApplicationReferenceDataSourcesSchemaRecordFormatMa
   }
 
   // record_column_delimiter - computed: false, optional: false, required: true
-  private _recordColumnDelimiter?: string;
+  private _recordColumnDelimiter?: string; 
   public get recordColumnDelimiter() {
     return this.getStringAttribute('record_column_delimiter');
   }
@@ -2912,7 +2912,7 @@ export class KinesisAnalyticsApplicationReferenceDataSourcesSchemaRecordFormatMa
   }
 
   // record_row_delimiter - computed: false, optional: false, required: true
-  private _recordRowDelimiter?: string;
+  private _recordRowDelimiter?: string; 
   public get recordRowDelimiter() {
     return this.getStringAttribute('record_row_delimiter');
   }
@@ -2993,7 +2993,7 @@ export class KinesisAnalyticsApplicationReferenceDataSourcesSchemaRecordFormatMa
   }
 
   // record_row_path - computed: false, optional: false, required: true
-  private _recordRowPath?: string;
+  private _recordRowPath?: string; 
   public get recordRowPath() {
     return this.getStringAttribute('record_row_path');
   }
@@ -3324,7 +3324,7 @@ export class KinesisAnalyticsApplicationReferenceDataSourcesSchemaOutputReferenc
   }
 
   // record_encoding - computed: false, optional: true, required: false
-  private _recordEncoding?: string;
+  private _recordEncoding?: string; 
   public get recordEncoding() {
     return this.getStringAttribute('record_encoding');
   }
@@ -3477,7 +3477,7 @@ export class KinesisAnalyticsApplicationReferenceDataSourcesOutputReference exte
   }
 
   // table_name - computed: false, optional: false, required: true
-  private _tableName?: string;
+  private _tableName?: string; 
   public get tableName() {
     return this.getStringAttribute('table_name');
   }
@@ -3590,7 +3590,7 @@ export class KinesisAnalyticsApplication extends cdktn.TerraformResource {
   }
 
   // code - computed: false, optional: true, required: false
-  private _code?: string;
+  private _code?: string; 
   public get code() {
     return this.getStringAttribute('code');
   }
@@ -3611,7 +3611,7 @@ export class KinesisAnalyticsApplication extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -3627,7 +3627,7 @@ export class KinesisAnalyticsApplication extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -3648,7 +3648,7 @@ export class KinesisAnalyticsApplication extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -3661,7 +3661,7 @@ export class KinesisAnalyticsApplication extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -3677,7 +3677,7 @@ export class KinesisAnalyticsApplication extends cdktn.TerraformResource {
   }
 
   // start_application - computed: false, optional: true, required: false
-  private _startApplication?: boolean | cdktn.IResolvable;
+  private _startApplication?: boolean | cdktn.IResolvable; 
   public get startApplication() {
     return this.getBooleanAttribute('start_application');
   }
@@ -3698,7 +3698,7 @@ export class KinesisAnalyticsApplication extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -3714,7 +3714,7 @@ export class KinesisAnalyticsApplication extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

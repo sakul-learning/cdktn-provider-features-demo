@@ -111,7 +111,7 @@ export class LakeformationResource extends cdktn.TerraformResource {
   // ==========
 
   // arn - computed: false, optional: false, required: true
-  private _arn?: string;
+  private _arn?: string; 
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -124,7 +124,7 @@ export class LakeformationResource extends cdktn.TerraformResource {
   }
 
   // hybrid_access_enabled - computed: true, optional: true, required: false
-  private _hybridAccessEnabled?: boolean | cdktn.IResolvable;
+  private _hybridAccessEnabled?: boolean | cdktn.IResolvable; 
   public get hybridAccessEnabled() {
     return this.getBooleanAttribute('hybrid_access_enabled');
   }
@@ -140,7 +140,7 @@ export class LakeformationResource extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -161,7 +161,7 @@ export class LakeformationResource extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -177,7 +177,7 @@ export class LakeformationResource extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -193,7 +193,7 @@ export class LakeformationResource extends cdktn.TerraformResource {
   }
 
   // use_service_linked_role - computed: false, optional: true, required: false
-  private _useServiceLinkedRole?: boolean | cdktn.IResolvable;
+  private _useServiceLinkedRole?: boolean | cdktn.IResolvable; 
   public get useServiceLinkedRole() {
     return this.getBooleanAttribute('use_service_linked_role');
   }
@@ -209,7 +209,7 @@ export class LakeformationResource extends cdktn.TerraformResource {
   }
 
   // with_federation - computed: true, optional: true, required: false
-  private _withFederation?: boolean | cdktn.IResolvable;
+  private _withFederation?: boolean | cdktn.IResolvable; 
   public get withFederation() {
     return this.getBooleanAttribute('with_federation');
   }
@@ -225,7 +225,7 @@ export class LakeformationResource extends cdktn.TerraformResource {
   }
 
   // with_privileged_access - computed: true, optional: true, required: false
-  private _withPrivilegedAccess?: boolean | cdktn.IResolvable;
+  private _withPrivilegedAccess?: boolean | cdktn.IResolvable; 
   public get withPrivilegedAccess() {
     return this.getBooleanAttribute('with_privileged_access');
   }

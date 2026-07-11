@@ -137,7 +137,7 @@ export class BatchSchedulingPolicyFairSharePolicyShareDistributionOutputReferenc
   }
 
   // share_identifier - computed: false, optional: false, required: true
-  private _shareIdentifier?: string;
+  private _shareIdentifier?: string; 
   public get shareIdentifier() {
     return this.getStringAttribute('share_identifier');
   }
@@ -150,7 +150,7 @@ export class BatchSchedulingPolicyFairSharePolicyShareDistributionOutputReferenc
   }
 
   // weight_factor - computed: false, optional: true, required: false
-  private _weightFactor?: number;
+  private _weightFactor?: number; 
   public get weightFactor() {
     return this.getNumberAttribute('weight_factor');
   }
@@ -290,7 +290,7 @@ export class BatchSchedulingPolicyFairSharePolicyOutputReference extends cdktn.C
   }
 
   // compute_reservation - computed: false, optional: true, required: false
-  private _computeReservation?: number;
+  private _computeReservation?: number; 
   public get computeReservation() {
     return this.getNumberAttribute('compute_reservation');
   }
@@ -306,7 +306,7 @@ export class BatchSchedulingPolicyFairSharePolicyOutputReference extends cdktn.C
   }
 
   // share_decay_seconds - computed: false, optional: true, required: false
-  private _shareDecaySeconds?: number;
+  private _shareDecaySeconds?: number; 
   public get shareDecaySeconds() {
     return this.getNumberAttribute('share_decay_seconds');
   }
@@ -406,7 +406,7 @@ export class BatchSchedulingPolicy extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -422,7 +422,7 @@ export class BatchSchedulingPolicy extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -435,7 +435,7 @@ export class BatchSchedulingPolicy extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -451,7 +451,7 @@ export class BatchSchedulingPolicy extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -467,7 +467,7 @@ export class BatchSchedulingPolicy extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

@@ -109,7 +109,7 @@ export class S3TablesTableReplicationRuleDestinationOutputReference extends cdkt
   }
 
   // destination_table_bucket_arn - computed: false, optional: false, required: true
-  private _destinationTableBucketArn?: string;
+  private _destinationTableBucketArn?: string; 
   public get destinationTableBucketArn() {
     return this.getStringAttribute('destination_table_bucket_arn');
   }
@@ -321,7 +321,7 @@ export class S3TablesTableReplication extends cdktn.TerraformResource {
   // ==========
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -337,7 +337,7 @@ export class S3TablesTableReplication extends cdktn.TerraformResource {
   }
 
   // role - computed: false, optional: false, required: true
-  private _role?: string;
+  private _role?: string; 
   public get role() {
     return this.getStringAttribute('role');
   }
@@ -350,7 +350,7 @@ export class S3TablesTableReplication extends cdktn.TerraformResource {
   }
 
   // table_arn - computed: false, optional: false, required: true
-  private _tableArn?: string;
+  private _tableArn?: string; 
   public get tableArn() {
     return this.getStringAttribute('table_arn');
   }

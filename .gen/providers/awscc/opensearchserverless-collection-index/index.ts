@@ -87,7 +87,7 @@ export class OpensearchserverlessCollectionIndex extends cdktn.TerraformResource
   // ==========
 
   // collection_index_id - computed: false, optional: false, required: true
-  private _collectionIndexId?: string;
+  private _collectionIndexId?: string; 
   public get collectionIndexId() {
     return this.getStringAttribute('collection_index_id');
   }
@@ -105,7 +105,7 @@ export class OpensearchserverlessCollectionIndex extends cdktn.TerraformResource
   }
 
   // index_name - computed: false, optional: false, required: true
-  private _indexName?: string;
+  private _indexName?: string; 
   public get indexName() {
     return this.getStringAttribute('index_name');
   }
@@ -118,7 +118,7 @@ export class OpensearchserverlessCollectionIndex extends cdktn.TerraformResource
   }
 
   // index_schema - computed: true, optional: true, required: false
-  private _indexSchema?: string;
+  private _indexSchema?: string; 
   public get indexSchema() {
     return this.getStringAttribute('index_schema');
   }

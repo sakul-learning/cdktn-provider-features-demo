@@ -91,7 +91,7 @@ export class DeadlineQueueEnvironment extends cdktn.TerraformResource {
   // ==========
 
   // farm_id - computed: false, optional: false, required: true
-  private _farmId?: string;
+  private _farmId?: string; 
   public get farmId() {
     return this.getStringAttribute('farm_id');
   }
@@ -114,7 +114,7 @@ export class DeadlineQueueEnvironment extends cdktn.TerraformResource {
   }
 
   // priority - computed: false, optional: false, required: true
-  private _priority?: number;
+  private _priority?: number; 
   public get priority() {
     return this.getNumberAttribute('priority');
   }
@@ -132,7 +132,7 @@ export class DeadlineQueueEnvironment extends cdktn.TerraformResource {
   }
 
   // queue_id - computed: false, optional: false, required: true
-  private _queueId?: string;
+  private _queueId?: string; 
   public get queueId() {
     return this.getStringAttribute('queue_id');
   }
@@ -145,7 +145,7 @@ export class DeadlineQueueEnvironment extends cdktn.TerraformResource {
   }
 
   // template - computed: false, optional: false, required: true
-  private _template?: string;
+  private _template?: string; 
   public get template() {
     return this.getStringAttribute('template');
   }
@@ -158,7 +158,7 @@ export class DeadlineQueueEnvironment extends cdktn.TerraformResource {
   }
 
   // template_type - computed: false, optional: false, required: true
-  private _templateType?: string;
+  private _templateType?: string; 
   public get templateType() {
     return this.getStringAttribute('template_type');
   }

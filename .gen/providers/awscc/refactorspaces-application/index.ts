@@ -130,7 +130,7 @@ export class RefactorspacesApplicationApiGatewayProxyOutputReference extends cdk
   }
 
   // endpoint_type - computed: true, optional: true, required: false
-  private _endpointType?: string;
+  private _endpointType?: string; 
   public get endpointType() {
     return this.getStringAttribute('endpoint_type');
   }
@@ -146,7 +146,7 @@ export class RefactorspacesApplicationApiGatewayProxyOutputReference extends cdk
   }
 
   // stage_name - computed: true, optional: true, required: false
-  private _stageName?: string;
+  private _stageName?: string; 
   public get stageName() {
     return this.getStringAttribute('stage_name');
   }
@@ -263,7 +263,7 @@ export class RefactorspacesApplicationTagsOutputReference extends cdktn.ComplexO
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -279,7 +279,7 @@ export class RefactorspacesApplicationTagsOutputReference extends cdktn.ComplexO
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -409,7 +409,7 @@ export class RefactorspacesApplication extends cdktn.TerraformResource {
   }
 
   // environment_identifier - computed: false, optional: false, required: true
-  private _environmentIdentifier?: string;
+  private _environmentIdentifier?: string; 
   public get environmentIdentifier() {
     return this.getStringAttribute('environment_identifier');
   }
@@ -427,7 +427,7 @@ export class RefactorspacesApplication extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -450,7 +450,7 @@ export class RefactorspacesApplication extends cdktn.TerraformResource {
   }
 
   // proxy_type - computed: false, optional: false, required: true
-  private _proxyType?: string;
+  private _proxyType?: string; 
   public get proxyType() {
     return this.getStringAttribute('proxy_type');
   }
@@ -489,7 +489,7 @@ export class RefactorspacesApplication extends cdktn.TerraformResource {
   }
 
   // vpc_id - computed: false, optional: false, required: true
-  private _vpcId?: string;
+  private _vpcId?: string; 
   public get vpcId() {
     return this.getStringAttribute('vpc_id');
   }

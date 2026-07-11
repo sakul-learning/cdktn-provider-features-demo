@@ -94,7 +94,7 @@ export class Route53TrafficPolicy extends cdktn.TerraformResource {
   }
 
   // comment - computed: false, optional: true, required: false
-  private _comment?: string;
+  private _comment?: string; 
   public get comment() {
     return this.getStringAttribute('comment');
   }
@@ -110,7 +110,7 @@ export class Route53TrafficPolicy extends cdktn.TerraformResource {
   }
 
   // document - computed: false, optional: false, required: true
-  private _document?: string;
+  private _document?: string; 
   public get document() {
     return this.getStringAttribute('document');
   }
@@ -123,7 +123,7 @@ export class Route53TrafficPolicy extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -139,7 +139,7 @@ export class Route53TrafficPolicy extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }

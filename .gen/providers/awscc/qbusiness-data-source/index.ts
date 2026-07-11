@@ -182,7 +182,7 @@ export class QbusinessDataSourceDocumentEnrichmentConfigurationInlineConfigurati
   }
 
   // date_value - computed: true, optional: true, required: false
-  private _dateValue?: string;
+  private _dateValue?: string; 
   public get dateValue() {
     return this.getStringAttribute('date_value');
   }
@@ -198,7 +198,7 @@ export class QbusinessDataSourceDocumentEnrichmentConfigurationInlineConfigurati
   }
 
   // long_value - computed: true, optional: true, required: false
-  private _longValue?: number;
+  private _longValue?: number; 
   public get longValue() {
     return this.getNumberAttribute('long_value');
   }
@@ -214,7 +214,7 @@ export class QbusinessDataSourceDocumentEnrichmentConfigurationInlineConfigurati
   }
 
   // string_list_value - computed: true, optional: true, required: false
-  private _stringListValue?: string[];
+  private _stringListValue?: string[]; 
   public get stringListValue() {
     return this.getListAttribute('string_list_value');
   }
@@ -230,7 +230,7 @@ export class QbusinessDataSourceDocumentEnrichmentConfigurationInlineConfigurati
   }
 
   // string_value - computed: true, optional: true, required: false
-  private _stringValue?: string;
+  private _stringValue?: string; 
   public get stringValue() {
     return this.getStringAttribute('string_value');
   }
@@ -358,7 +358,7 @@ export class QbusinessDataSourceDocumentEnrichmentConfigurationInlineConfigurati
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -374,7 +374,7 @@ export class QbusinessDataSourceDocumentEnrichmentConfigurationInlineConfigurati
   }
 
   // operator - computed: true, optional: true, required: false
-  private _operator?: string;
+  private _operator?: string; 
   public get operator() {
     return this.getStringAttribute('operator');
   }
@@ -535,7 +535,7 @@ export class QbusinessDataSourceDocumentEnrichmentConfigurationInlineConfigurati
   }
 
   // date_value - computed: true, optional: true, required: false
-  private _dateValue?: string;
+  private _dateValue?: string; 
   public get dateValue() {
     return this.getStringAttribute('date_value');
   }
@@ -551,7 +551,7 @@ export class QbusinessDataSourceDocumentEnrichmentConfigurationInlineConfigurati
   }
 
   // long_value - computed: true, optional: true, required: false
-  private _longValue?: number;
+  private _longValue?: number; 
   public get longValue() {
     return this.getNumberAttribute('long_value');
   }
@@ -567,7 +567,7 @@ export class QbusinessDataSourceDocumentEnrichmentConfigurationInlineConfigurati
   }
 
   // string_list_value - computed: true, optional: true, required: false
-  private _stringListValue?: string[];
+  private _stringListValue?: string[]; 
   public get stringListValue() {
     return this.getListAttribute('string_list_value');
   }
@@ -583,7 +583,7 @@ export class QbusinessDataSourceDocumentEnrichmentConfigurationInlineConfigurati
   }
 
   // string_value - computed: true, optional: true, required: false
-  private _stringValue?: string;
+  private _stringValue?: string; 
   public get stringValue() {
     return this.getStringAttribute('string_value');
   }
@@ -711,7 +711,7 @@ export class QbusinessDataSourceDocumentEnrichmentConfigurationInlineConfigurati
   }
 
   // attribute_value_operator - computed: true, optional: true, required: false
-  private _attributeValueOperator?: string;
+  private _attributeValueOperator?: string; 
   public get attributeValueOperator() {
     return this.getStringAttribute('attribute_value_operator');
   }
@@ -727,7 +727,7 @@ export class QbusinessDataSourceDocumentEnrichmentConfigurationInlineConfigurati
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -889,7 +889,7 @@ export class QbusinessDataSourceDocumentEnrichmentConfigurationInlineConfigurati
   }
 
   // document_content_operator - computed: true, optional: true, required: false
-  private _documentContentOperator?: string;
+  private _documentContentOperator?: string; 
   public get documentContentOperator() {
     return this.getStringAttribute('document_content_operator');
   }
@@ -1070,7 +1070,7 @@ export class QbusinessDataSourceDocumentEnrichmentConfigurationPostExtractionHoo
   }
 
   // date_value - computed: true, optional: true, required: false
-  private _dateValue?: string;
+  private _dateValue?: string; 
   public get dateValue() {
     return this.getStringAttribute('date_value');
   }
@@ -1086,7 +1086,7 @@ export class QbusinessDataSourceDocumentEnrichmentConfigurationPostExtractionHoo
   }
 
   // long_value - computed: true, optional: true, required: false
-  private _longValue?: number;
+  private _longValue?: number; 
   public get longValue() {
     return this.getNumberAttribute('long_value');
   }
@@ -1102,7 +1102,7 @@ export class QbusinessDataSourceDocumentEnrichmentConfigurationPostExtractionHoo
   }
 
   // string_list_value - computed: true, optional: true, required: false
-  private _stringListValue?: string[];
+  private _stringListValue?: string[]; 
   public get stringListValue() {
     return this.getListAttribute('string_list_value');
   }
@@ -1118,7 +1118,7 @@ export class QbusinessDataSourceDocumentEnrichmentConfigurationPostExtractionHoo
   }
 
   // string_value - computed: true, optional: true, required: false
-  private _stringValue?: string;
+  private _stringValue?: string; 
   public get stringValue() {
     return this.getStringAttribute('string_value');
   }
@@ -1246,7 +1246,7 @@ export class QbusinessDataSourceDocumentEnrichmentConfigurationPostExtractionHoo
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1262,7 +1262,7 @@ export class QbusinessDataSourceDocumentEnrichmentConfigurationPostExtractionHoo
   }
 
   // operator - computed: true, optional: true, required: false
-  private _operator?: string;
+  private _operator?: string; 
   public get operator() {
     return this.getStringAttribute('operator');
   }
@@ -1439,7 +1439,7 @@ export class QbusinessDataSourceDocumentEnrichmentConfigurationPostExtractionHoo
   }
 
   // lambda_arn - computed: true, optional: true, required: false
-  private _lambdaArn?: string;
+  private _lambdaArn?: string; 
   public get lambdaArn() {
     return this.getStringAttribute('lambda_arn');
   }
@@ -1455,7 +1455,7 @@ export class QbusinessDataSourceDocumentEnrichmentConfigurationPostExtractionHoo
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -1471,7 +1471,7 @@ export class QbusinessDataSourceDocumentEnrichmentConfigurationPostExtractionHoo
   }
 
   // s3_bucket_name - computed: true, optional: true, required: false
-  private _s3BucketName?: string;
+  private _s3BucketName?: string; 
   public get s3BucketName() {
     return this.getStringAttribute('s3_bucket_name');
   }
@@ -1616,7 +1616,7 @@ export class QbusinessDataSourceDocumentEnrichmentConfigurationPreExtractionHook
   }
 
   // date_value - computed: true, optional: true, required: false
-  private _dateValue?: string;
+  private _dateValue?: string; 
   public get dateValue() {
     return this.getStringAttribute('date_value');
   }
@@ -1632,7 +1632,7 @@ export class QbusinessDataSourceDocumentEnrichmentConfigurationPreExtractionHook
   }
 
   // long_value - computed: true, optional: true, required: false
-  private _longValue?: number;
+  private _longValue?: number; 
   public get longValue() {
     return this.getNumberAttribute('long_value');
   }
@@ -1648,7 +1648,7 @@ export class QbusinessDataSourceDocumentEnrichmentConfigurationPreExtractionHook
   }
 
   // string_list_value - computed: true, optional: true, required: false
-  private _stringListValue?: string[];
+  private _stringListValue?: string[]; 
   public get stringListValue() {
     return this.getListAttribute('string_list_value');
   }
@@ -1664,7 +1664,7 @@ export class QbusinessDataSourceDocumentEnrichmentConfigurationPreExtractionHook
   }
 
   // string_value - computed: true, optional: true, required: false
-  private _stringValue?: string;
+  private _stringValue?: string; 
   public get stringValue() {
     return this.getStringAttribute('string_value');
   }
@@ -1792,7 +1792,7 @@ export class QbusinessDataSourceDocumentEnrichmentConfigurationPreExtractionHook
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1808,7 +1808,7 @@ export class QbusinessDataSourceDocumentEnrichmentConfigurationPreExtractionHook
   }
 
   // operator - computed: true, optional: true, required: false
-  private _operator?: string;
+  private _operator?: string; 
   public get operator() {
     return this.getStringAttribute('operator');
   }
@@ -1985,7 +1985,7 @@ export class QbusinessDataSourceDocumentEnrichmentConfigurationPreExtractionHook
   }
 
   // lambda_arn - computed: true, optional: true, required: false
-  private _lambdaArn?: string;
+  private _lambdaArn?: string; 
   public get lambdaArn() {
     return this.getStringAttribute('lambda_arn');
   }
@@ -2001,7 +2001,7 @@ export class QbusinessDataSourceDocumentEnrichmentConfigurationPreExtractionHook
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -2017,7 +2017,7 @@ export class QbusinessDataSourceDocumentEnrichmentConfigurationPreExtractionHook
   }
 
   // s3_bucket_name - computed: true, optional: true, required: false
-  private _s3BucketName?: string;
+  private _s3BucketName?: string; 
   public get s3BucketName() {
     return this.getStringAttribute('s3_bucket_name');
   }
@@ -2271,7 +2271,7 @@ export class QbusinessDataSourceMediaExtractionConfigurationAudioExtractionConfi
   }
 
   // audio_extraction_status - computed: true, optional: true, required: false
-  private _audioExtractionStatus?: string;
+  private _audioExtractionStatus?: string; 
   public get audioExtractionStatus() {
     return this.getStringAttribute('audio_extraction_status');
   }
@@ -2365,7 +2365,7 @@ export class QbusinessDataSourceMediaExtractionConfigurationImageExtractionConfi
   }
 
   // image_extraction_status - computed: true, optional: true, required: false
-  private _imageExtractionStatus?: string;
+  private _imageExtractionStatus?: string; 
   public get imageExtractionStatus() {
     return this.getStringAttribute('image_extraction_status');
   }
@@ -2459,7 +2459,7 @@ export class QbusinessDataSourceMediaExtractionConfigurationVideoExtractionConfi
   }
 
   // video_extraction_status - computed: true, optional: true, required: false
-  private _videoExtractionStatus?: string;
+  private _videoExtractionStatus?: string; 
   public get videoExtractionStatus() {
     return this.getStringAttribute('video_extraction_status');
   }
@@ -2732,7 +2732,7 @@ export class QbusinessDataSourceTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -2748,7 +2748,7 @@ export class QbusinessDataSourceTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2879,7 +2879,7 @@ export class QbusinessDataSourceVpcConfigurationOutputReference extends cdktn.Co
   }
 
   // security_group_ids - computed: true, optional: true, required: false
-  private _securityGroupIds?: string[];
+  private _securityGroupIds?: string[]; 
   public get securityGroupIds() {
     return this.getListAttribute('security_group_ids');
   }
@@ -2895,7 +2895,7 @@ export class QbusinessDataSourceVpcConfigurationOutputReference extends cdktn.Co
   }
 
   // subnet_ids - computed: true, optional: true, required: false
-  private _subnetIds?: string[];
+  private _subnetIds?: string[]; 
   public get subnetIds() {
     return this.getListAttribute('subnet_ids');
   }
@@ -2979,7 +2979,7 @@ export class QbusinessDataSource extends cdktn.TerraformResource {
   // ==========
 
   // application_id - computed: false, optional: false, required: true
-  private _applicationId?: string;
+  private _applicationId?: string; 
   public get applicationId() {
     return this.getStringAttribute('application_id');
   }
@@ -2992,7 +2992,7 @@ export class QbusinessDataSource extends cdktn.TerraformResource {
   }
 
   // configuration - computed: false, optional: false, required: true
-  private _configuration?: string;
+  private _configuration?: string; 
   public get configuration() {
     return this.getStringAttribute('configuration');
   }
@@ -3020,7 +3020,7 @@ export class QbusinessDataSource extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -3036,7 +3036,7 @@ export class QbusinessDataSource extends cdktn.TerraformResource {
   }
 
   // display_name - computed: false, optional: false, required: true
-  private _displayName?: string;
+  private _displayName?: string; 
   public get displayName() {
     return this.getStringAttribute('display_name');
   }
@@ -3070,7 +3070,7 @@ export class QbusinessDataSource extends cdktn.TerraformResource {
   }
 
   // index_id - computed: false, optional: false, required: true
-  private _indexId?: string;
+  private _indexId?: string; 
   public get indexId() {
     return this.getStringAttribute('index_id');
   }
@@ -3099,7 +3099,7 @@ export class QbusinessDataSource extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -3120,7 +3120,7 @@ export class QbusinessDataSource extends cdktn.TerraformResource {
   }
 
   // sync_schedule - computed: true, optional: true, required: false
-  private _syncSchedule?: string;
+  private _syncSchedule?: string; 
   public get syncSchedule() {
     return this.getStringAttribute('sync_schedule');
   }

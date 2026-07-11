@@ -167,7 +167,7 @@ export class EvidentlyLaunchExecutionStatusOutputReference extends cdktn.Complex
   }
 
   // desired_state - computed: true, optional: true, required: false
-  private _desiredState?: string;
+  private _desiredState?: string; 
   public get desiredState() {
     return this.getStringAttribute('desired_state');
   }
@@ -183,7 +183,7 @@ export class EvidentlyLaunchExecutionStatusOutputReference extends cdktn.Complex
   }
 
   // reason - computed: true, optional: true, required: false
-  private _reason?: string;
+  private _reason?: string; 
   public get reason() {
     return this.getStringAttribute('reason');
   }
@@ -199,7 +199,7 @@ export class EvidentlyLaunchExecutionStatusOutputReference extends cdktn.Complex
   }
 
   // status - computed: true, optional: true, required: false
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -346,7 +346,7 @@ export class EvidentlyLaunchGroupsOutputReference extends cdktn.ComplexObject {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -362,7 +362,7 @@ export class EvidentlyLaunchGroupsOutputReference extends cdktn.ComplexObject {
   }
 
   // feature - computed: false, optional: false, required: true
-  private _feature?: string;
+  private _feature?: string; 
   public get feature() {
     return this.getStringAttribute('feature');
   }
@@ -375,7 +375,7 @@ export class EvidentlyLaunchGroupsOutputReference extends cdktn.ComplexObject {
   }
 
   // group_name - computed: false, optional: false, required: true
-  private _groupName?: string;
+  private _groupName?: string; 
   public get groupName() {
     return this.getStringAttribute('group_name');
   }
@@ -388,7 +388,7 @@ export class EvidentlyLaunchGroupsOutputReference extends cdktn.ComplexObject {
   }
 
   // variation - computed: false, optional: false, required: true
-  private _variation?: string;
+  private _variation?: string; 
   public get variation() {
     return this.getStringAttribute('variation');
   }
@@ -575,7 +575,7 @@ export class EvidentlyLaunchMetricMonitorsOutputReference extends cdktn.ComplexO
   }
 
   // entity_id_key - computed: true, optional: true, required: false
-  private _entityIdKey?: string;
+  private _entityIdKey?: string; 
   public get entityIdKey() {
     return this.getStringAttribute('entity_id_key');
   }
@@ -591,7 +591,7 @@ export class EvidentlyLaunchMetricMonitorsOutputReference extends cdktn.ComplexO
   }
 
   // event_pattern - computed: true, optional: true, required: false
-  private _eventPattern?: string;
+  private _eventPattern?: string; 
   public get eventPattern() {
     return this.getStringAttribute('event_pattern');
   }
@@ -607,7 +607,7 @@ export class EvidentlyLaunchMetricMonitorsOutputReference extends cdktn.ComplexO
   }
 
   // metric_name - computed: true, optional: true, required: false
-  private _metricName?: string;
+  private _metricName?: string; 
   public get metricName() {
     return this.getStringAttribute('metric_name');
   }
@@ -623,7 +623,7 @@ export class EvidentlyLaunchMetricMonitorsOutputReference extends cdktn.ComplexO
   }
 
   // unit_label - computed: true, optional: true, required: false
-  private _unitLabel?: string;
+  private _unitLabel?: string; 
   public get unitLabel() {
     return this.getStringAttribute('unit_label');
   }
@@ -639,7 +639,7 @@ export class EvidentlyLaunchMetricMonitorsOutputReference extends cdktn.ComplexO
   }
 
   // value_key - computed: true, optional: true, required: false
-  private _valueKey?: string;
+  private _valueKey?: string; 
   public get valueKey() {
     return this.getStringAttribute('value_key');
   }
@@ -772,7 +772,7 @@ export class EvidentlyLaunchScheduledSplitsConfigGroupWeightsOutputReference ext
   }
 
   // group_name - computed: false, optional: false, required: true
-  private _groupName?: string;
+  private _groupName?: string; 
   public get groupName() {
     return this.getStringAttribute('group_name');
   }
@@ -785,7 +785,7 @@ export class EvidentlyLaunchScheduledSplitsConfigGroupWeightsOutputReference ext
   }
 
   // split_weight - computed: false, optional: false, required: true
-  private _splitWeight?: number;
+  private _splitWeight?: number; 
   public get splitWeight() {
     return this.getNumberAttribute('split_weight');
   }
@@ -915,7 +915,7 @@ export class EvidentlyLaunchScheduledSplitsConfigSegmentOverridesWeightsOutputRe
   }
 
   // group_name - computed: true, optional: true, required: false
-  private _groupName?: string;
+  private _groupName?: string; 
   public get groupName() {
     return this.getStringAttribute('group_name');
   }
@@ -931,7 +931,7 @@ export class EvidentlyLaunchScheduledSplitsConfigSegmentOverridesWeightsOutputRe
   }
 
   // split_weight - computed: true, optional: true, required: false
-  private _splitWeight?: number;
+  private _splitWeight?: number; 
   public get splitWeight() {
     return this.getNumberAttribute('split_weight');
   }
@@ -1081,7 +1081,7 @@ export class EvidentlyLaunchScheduledSplitsConfigSegmentOverridesOutputReference
   }
 
   // evaluation_order - computed: true, optional: true, required: false
-  private _evaluationOrder?: number;
+  private _evaluationOrder?: number; 
   public get evaluationOrder() {
     return this.getNumberAttribute('evaluation_order');
   }
@@ -1097,7 +1097,7 @@ export class EvidentlyLaunchScheduledSplitsConfigSegmentOverridesOutputReference
   }
 
   // segment - computed: true, optional: true, required: false
-  private _segment?: string;
+  private _segment?: string; 
   public get segment() {
     return this.getStringAttribute('segment');
   }
@@ -1292,7 +1292,7 @@ export class EvidentlyLaunchScheduledSplitsConfigOutputReference extends cdktn.C
   }
 
   // start_time - computed: false, optional: false, required: true
-  private _startTime?: string;
+  private _startTime?: string; 
   public get startTime() {
     return this.getStringAttribute('start_time');
   }
@@ -1426,7 +1426,7 @@ export class EvidentlyLaunchTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1442,7 +1442,7 @@ export class EvidentlyLaunchTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1549,7 +1549,7 @@ export class EvidentlyLaunch extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1615,7 +1615,7 @@ export class EvidentlyLaunch extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1628,7 +1628,7 @@ export class EvidentlyLaunch extends cdktn.TerraformResource {
   }
 
   // project - computed: false, optional: false, required: true
-  private _project?: string;
+  private _project?: string; 
   public get project() {
     return this.getStringAttribute('project');
   }
@@ -1641,7 +1641,7 @@ export class EvidentlyLaunch extends cdktn.TerraformResource {
   }
 
   // randomization_salt - computed: true, optional: true, required: false
-  private _randomizationSalt?: string;
+  private _randomizationSalt?: string; 
   public get randomizationSalt() {
     return this.getStringAttribute('randomization_salt');
   }

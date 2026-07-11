@@ -181,7 +181,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationApplicationCod
   }
 
   // bucket_arn - computed: true, optional: true, required: false
-  private _bucketArn?: string;
+  private _bucketArn?: string; 
   public get bucketArn() {
     return this.getStringAttribute('bucket_arn');
   }
@@ -197,7 +197,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationApplicationCod
   }
 
   // file_key - computed: true, optional: true, required: false
-  private _fileKey?: string;
+  private _fileKey?: string; 
   public get fileKey() {
     return this.getStringAttribute('file_key');
   }
@@ -213,7 +213,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationApplicationCod
   }
 
   // object_version - computed: true, optional: true, required: false
-  private _objectVersion?: string;
+  private _objectVersion?: string; 
   public get objectVersion() {
     return this.getStringAttribute('object_version');
   }
@@ -363,7 +363,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationApplicationCod
   }
 
   // text_content - computed: true, optional: true, required: false
-  private _textContent?: string;
+  private _textContent?: string; 
   public get textContent() {
     return this.getStringAttribute('text_content');
   }
@@ -379,7 +379,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationApplicationCod
   }
 
   // zip_file_content - computed: true, optional: true, required: false
-  private _zipFileContent?: string;
+  private _zipFileContent?: string; 
   public get zipFileContent() {
     return this.getStringAttribute('zip_file_content');
   }
@@ -510,7 +510,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationApplicationCod
   }
 
   // code_content_type - computed: true, optional: true, required: false
-  private _codeContentType?: string;
+  private _codeContentType?: string; 
   public get codeContentType() {
     return this.getStringAttribute('code_content_type');
   }
@@ -625,7 +625,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationApplicationEnc
   }
 
   // key_id - computed: true, optional: true, required: false
-  private _keyId?: string;
+  private _keyId?: string; 
   public get keyId() {
     return this.getStringAttribute('key_id');
   }
@@ -641,7 +641,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationApplicationEnc
   }
 
   // key_type - computed: true, optional: true, required: false
-  private _keyType?: string;
+  private _keyType?: string; 
   public get keyType() {
     return this.getStringAttribute('key_type');
   }
@@ -737,7 +737,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationApplicationSna
   }
 
   // snapshots_enabled - computed: true, optional: true, required: false
-  private _snapshotsEnabled?: boolean | cdktn.IResolvable;
+  private _snapshotsEnabled?: boolean | cdktn.IResolvable; 
   public get snapshotsEnabled() {
     return this.getBooleanAttribute('snapshots_enabled');
   }
@@ -833,7 +833,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationApplicationSys
   }
 
   // rollback_enabled - computed: true, optional: true, required: false
-  private _rollbackEnabled?: boolean | cdktn.IResolvable;
+  private _rollbackEnabled?: boolean | cdktn.IResolvable; 
   public get rollbackEnabled() {
     return this.getBooleanAttribute('rollback_enabled');
   }
@@ -950,7 +950,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationEnvironmentPro
   }
 
   // property_group_id - computed: true, optional: true, required: false
-  private _propertyGroupId?: string;
+  private _propertyGroupId?: string; 
   public get propertyGroupId() {
     return this.getStringAttribute('property_group_id');
   }
@@ -966,7 +966,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationEnvironmentPro
   }
 
   // property_map - computed: true, optional: true, required: false
-  private _propertyMap?: { [key: string]: string };
+  private _propertyMap?: { [key: string]: string }; 
   public get propertyMap() {
     return this.getStringMapAttribute('property_map');
   }
@@ -1235,7 +1235,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationFlinkApplicati
   }
 
   // checkpoint_interval - computed: true, optional: true, required: false
-  private _checkpointInterval?: number;
+  private _checkpointInterval?: number; 
   public get checkpointInterval() {
     return this.getNumberAttribute('checkpoint_interval');
   }
@@ -1251,7 +1251,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationFlinkApplicati
   }
 
   // checkpointing_enabled - computed: true, optional: true, required: false
-  private _checkpointingEnabled?: boolean | cdktn.IResolvable;
+  private _checkpointingEnabled?: boolean | cdktn.IResolvable; 
   public get checkpointingEnabled() {
     return this.getBooleanAttribute('checkpointing_enabled');
   }
@@ -1267,7 +1267,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationFlinkApplicati
   }
 
   // configuration_type - computed: true, optional: true, required: false
-  private _configurationType?: string;
+  private _configurationType?: string; 
   public get configurationType() {
     return this.getStringAttribute('configuration_type');
   }
@@ -1283,7 +1283,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationFlinkApplicati
   }
 
   // min_pause_between_checkpoints - computed: true, optional: true, required: false
-  private _minPauseBetweenCheckpoints?: number;
+  private _minPauseBetweenCheckpoints?: number; 
   public get minPauseBetweenCheckpoints() {
     return this.getNumberAttribute('min_pause_between_checkpoints');
   }
@@ -1417,7 +1417,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationFlinkApplicati
   }
 
   // configuration_type - computed: true, optional: true, required: false
-  private _configurationType?: string;
+  private _configurationType?: string; 
   public get configurationType() {
     return this.getStringAttribute('configuration_type');
   }
@@ -1433,7 +1433,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationFlinkApplicati
   }
 
   // log_level - computed: true, optional: true, required: false
-  private _logLevel?: string;
+  private _logLevel?: string; 
   public get logLevel() {
     return this.getStringAttribute('log_level');
   }
@@ -1449,7 +1449,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationFlinkApplicati
   }
 
   // metrics_level - computed: true, optional: true, required: false
-  private _metricsLevel?: string;
+  private _metricsLevel?: string; 
   public get metricsLevel() {
     return this.getStringAttribute('metrics_level');
   }
@@ -1602,7 +1602,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationFlinkApplicati
   }
 
   // auto_scaling_enabled - computed: true, optional: true, required: false
-  private _autoScalingEnabled?: boolean | cdktn.IResolvable;
+  private _autoScalingEnabled?: boolean | cdktn.IResolvable; 
   public get autoScalingEnabled() {
     return this.getBooleanAttribute('auto_scaling_enabled');
   }
@@ -1618,7 +1618,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationFlinkApplicati
   }
 
   // configuration_type - computed: true, optional: true, required: false
-  private _configurationType?: string;
+  private _configurationType?: string; 
   public get configurationType() {
     return this.getStringAttribute('configuration_type');
   }
@@ -1634,7 +1634,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationFlinkApplicati
   }
 
   // parallelism - computed: true, optional: true, required: false
-  private _parallelism?: number;
+  private _parallelism?: number; 
   public get parallelism() {
     return this.getNumberAttribute('parallelism');
   }
@@ -1650,7 +1650,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationFlinkApplicati
   }
 
   // parallelism_per_kpu - computed: true, optional: true, required: false
-  private _parallelismPerKpu?: number;
+  private _parallelismPerKpu?: number; 
   public get parallelismPerKpu() {
     return this.getNumberAttribute('parallelism_per_kpu');
   }
@@ -1912,7 +1912,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationSqlApplication
   }
 
   // count - computed: true, optional: true, required: false
-  private _count?: number;
+  private _count?: number; 
   public get count() {
     return this.getNumberAttribute('count');
   }
@@ -2008,7 +2008,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationSqlApplication
   }
 
   // resource_arn - computed: true, optional: true, required: false
-  private _resourceArn?: string;
+  private _resourceArn?: string; 
   public get resourceArn() {
     return this.getStringAttribute('resource_arn');
   }
@@ -2240,7 +2240,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationSqlApplication
   }
 
   // mapping - computed: true, optional: true, required: false
-  private _mapping?: string;
+  private _mapping?: string; 
   public get mapping() {
     return this.getStringAttribute('mapping');
   }
@@ -2256,7 +2256,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationSqlApplication
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2272,7 +2272,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationSqlApplication
   }
 
   // sql_type - computed: true, optional: true, required: false
-  private _sqlType?: string;
+  private _sqlType?: string; 
   public get sqlType() {
     return this.getStringAttribute('sql_type');
   }
@@ -2407,7 +2407,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationSqlApplication
   }
 
   // record_column_delimiter - computed: true, optional: true, required: false
-  private _recordColumnDelimiter?: string;
+  private _recordColumnDelimiter?: string; 
   public get recordColumnDelimiter() {
     return this.getStringAttribute('record_column_delimiter');
   }
@@ -2423,7 +2423,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationSqlApplication
   }
 
   // record_row_delimiter - computed: true, optional: true, required: false
-  private _recordRowDelimiter?: string;
+  private _recordRowDelimiter?: string; 
   public get recordRowDelimiter() {
     return this.getStringAttribute('record_row_delimiter');
   }
@@ -2519,7 +2519,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationSqlApplication
   }
 
   // record_row_path - computed: true, optional: true, required: false
-  private _recordRowPath?: string;
+  private _recordRowPath?: string; 
   public get recordRowPath() {
     return this.getStringAttribute('record_row_path');
   }
@@ -2781,7 +2781,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationSqlApplication
   }
 
   // record_format_type - computed: true, optional: true, required: false
-  private _recordFormatType?: string;
+  private _recordFormatType?: string; 
   public get recordFormatType() {
     return this.getStringAttribute('record_format_type');
   }
@@ -2931,7 +2931,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationSqlApplication
   }
 
   // record_encoding - computed: true, optional: true, required: false
-  private _recordEncoding?: string;
+  private _recordEncoding?: string; 
   public get recordEncoding() {
     return this.getStringAttribute('record_encoding');
   }
@@ -3043,7 +3043,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationSqlApplication
   }
 
   // resource_arn - computed: true, optional: true, required: false
-  private _resourceArn?: string;
+  private _resourceArn?: string; 
   public get resourceArn() {
     return this.getStringAttribute('resource_arn');
   }
@@ -3139,7 +3139,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationSqlApplication
   }
 
   // resource_arn - computed: true, optional: true, required: false
-  private _resourceArn?: string;
+  private _resourceArn?: string; 
   public get resourceArn() {
     return this.getStringAttribute('resource_arn');
   }
@@ -3412,7 +3412,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationSqlApplication
   }
 
   // name_prefix - computed: true, optional: true, required: false
-  private _namePrefix?: string;
+  private _namePrefix?: string; 
   public get namePrefix() {
     return this.getStringAttribute('name_prefix');
   }
@@ -3645,7 +3645,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationVpcConfigurati
   }
 
   // security_group_ids - computed: true, optional: true, required: false
-  private _securityGroupIds?: string[];
+  private _securityGroupIds?: string[]; 
   public get securityGroupIds() {
     return this.getListAttribute('security_group_ids');
   }
@@ -3661,7 +3661,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationVpcConfigurati
   }
 
   // subnet_ids - computed: true, optional: true, required: false
-  private _subnetIds?: string[];
+  private _subnetIds?: string[]; 
   public get subnetIds() {
     return this.getListAttribute('subnet_ids');
   }
@@ -3777,7 +3777,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationZeppelinApplic
   }
 
   // database_arn - computed: true, optional: true, required: false
-  private _databaseArn?: string;
+  private _databaseArn?: string; 
   public get databaseArn() {
     return this.getStringAttribute('database_arn');
   }
@@ -4007,7 +4007,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationZeppelinApplic
   }
 
   // artifact_id - computed: true, optional: true, required: false
-  private _artifactId?: string;
+  private _artifactId?: string; 
   public get artifactId() {
     return this.getStringAttribute('artifact_id');
   }
@@ -4023,7 +4023,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationZeppelinApplic
   }
 
   // group_id - computed: true, optional: true, required: false
-  private _groupId?: string;
+  private _groupId?: string; 
   public get groupId() {
     return this.getStringAttribute('group_id');
   }
@@ -4039,7 +4039,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationZeppelinApplic
   }
 
   // version - computed: true, optional: true, required: false
-  private _version?: string;
+  private _version?: string; 
   public get version() {
     return this.getStringAttribute('version');
   }
@@ -4173,7 +4173,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationZeppelinApplic
   }
 
   // bucket_arn - computed: true, optional: true, required: false
-  private _bucketArn?: string;
+  private _bucketArn?: string; 
   public get bucketArn() {
     return this.getStringAttribute('bucket_arn');
   }
@@ -4189,7 +4189,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationZeppelinApplic
   }
 
   // file_key - computed: true, optional: true, required: false
-  private _fileKey?: string;
+  private _fileKey?: string; 
   public get fileKey() {
     return this.getStringAttribute('file_key');
   }
@@ -4205,7 +4205,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationZeppelinApplic
   }
 
   // object_version - computed: true, optional: true, required: false
-  private _objectVersion?: string;
+  private _objectVersion?: string; 
   public get objectVersion() {
     return this.getStringAttribute('object_version');
   }
@@ -4341,7 +4341,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationZeppelinApplic
   }
 
   // artifact_type - computed: true, optional: true, required: false
-  private _artifactType?: string;
+  private _artifactType?: string; 
   public get artifactType() {
     return this.getStringAttribute('artifact_type');
   }
@@ -4508,7 +4508,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationZeppelinApplic
   }
 
   // base_path - computed: true, optional: true, required: false
-  private _basePath?: string;
+  private _basePath?: string; 
   public get basePath() {
     return this.getStringAttribute('base_path');
   }
@@ -4524,7 +4524,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationZeppelinApplic
   }
 
   // bucket_arn - computed: true, optional: true, required: false
-  private _bucketArn?: string;
+  private _bucketArn?: string; 
   public get bucketArn() {
     return this.getStringAttribute('bucket_arn');
   }
@@ -4716,7 +4716,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationZeppelinApplic
   }
 
   // log_level - computed: true, optional: true, required: false
-  private _logLevel?: string;
+  private _logLevel?: string; 
   public get logLevel() {
     return this.getStringAttribute('log_level');
   }
@@ -5389,7 +5389,7 @@ export class Kinesisanalyticsv2ApplicationApplicationMaintenanceConfigurationOut
   }
 
   // application_maintenance_window_start_time - computed: true, optional: true, required: false
-  private _applicationMaintenanceWindowStartTime?: string;
+  private _applicationMaintenanceWindowStartTime?: string; 
   public get applicationMaintenanceWindowStartTime() {
     return this.getStringAttribute('application_maintenance_window_start_time');
   }
@@ -5504,7 +5504,7 @@ export class Kinesisanalyticsv2ApplicationRunConfigurationApplicationRestoreConf
   }
 
   // application_restore_type - computed: true, optional: true, required: false
-  private _applicationRestoreType?: string;
+  private _applicationRestoreType?: string; 
   public get applicationRestoreType() {
     return this.getStringAttribute('application_restore_type');
   }
@@ -5520,7 +5520,7 @@ export class Kinesisanalyticsv2ApplicationRunConfigurationApplicationRestoreConf
   }
 
   // snapshot_name - computed: true, optional: true, required: false
-  private _snapshotName?: string;
+  private _snapshotName?: string; 
   public get snapshotName() {
     return this.getStringAttribute('snapshot_name');
   }
@@ -5616,7 +5616,7 @@ export class Kinesisanalyticsv2ApplicationRunConfigurationFlinkRunConfigurationO
   }
 
   // allow_non_restored_state - computed: true, optional: true, required: false
-  private _allowNonRestoredState?: boolean | cdktn.IResolvable;
+  private _allowNonRestoredState?: boolean | cdktn.IResolvable; 
   public get allowNonRestoredState() {
     return this.getBooleanAttribute('allow_non_restored_state');
   }
@@ -5864,7 +5864,7 @@ export class Kinesisanalyticsv2ApplicationTagsOutputReference extends cdktn.Comp
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -5880,7 +5880,7 @@ export class Kinesisanalyticsv2ApplicationTagsOutputReference extends cdktn.Comp
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -5998,7 +5998,7 @@ export class Kinesisanalyticsv2Application extends cdktn.TerraformResource {
   }
 
   // application_description - computed: true, optional: true, required: false
-  private _applicationDescription?: string;
+  private _applicationDescription?: string; 
   public get applicationDescription() {
     return this.getStringAttribute('application_description');
   }
@@ -6030,7 +6030,7 @@ export class Kinesisanalyticsv2Application extends cdktn.TerraformResource {
   }
 
   // application_mode - computed: true, optional: true, required: false
-  private _applicationMode?: string;
+  private _applicationMode?: string; 
   public get applicationMode() {
     return this.getStringAttribute('application_mode');
   }
@@ -6046,7 +6046,7 @@ export class Kinesisanalyticsv2Application extends cdktn.TerraformResource {
   }
 
   // application_name - computed: true, optional: true, required: false
-  private _applicationName?: string;
+  private _applicationName?: string; 
   public get applicationName() {
     return this.getStringAttribute('application_name');
   }
@@ -6083,7 +6083,7 @@ export class Kinesisanalyticsv2Application extends cdktn.TerraformResource {
   }
 
   // runtime_environment - computed: false, optional: false, required: true
-  private _runtimeEnvironment?: string;
+  private _runtimeEnvironment?: string; 
   public get runtimeEnvironment() {
     return this.getStringAttribute('runtime_environment');
   }
@@ -6096,7 +6096,7 @@ export class Kinesisanalyticsv2Application extends cdktn.TerraformResource {
   }
 
   // service_execution_role - computed: false, optional: false, required: true
-  private _serviceExecutionRole?: string;
+  private _serviceExecutionRole?: string; 
   public get serviceExecutionRole() {
     return this.getStringAttribute('service_execution_role');
   }

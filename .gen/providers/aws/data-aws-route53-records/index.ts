@@ -617,7 +617,7 @@ export class DataAwsRoute53Records extends cdktn.TerraformDataSource {
   // ==========
 
   // name_regex - computed: false, optional: true, required: false
-  private _nameRegex?: string;
+  private _nameRegex?: string; 
   public get nameRegex() {
     return this.getStringAttribute('name_regex');
   }
@@ -639,7 +639,7 @@ export class DataAwsRoute53Records extends cdktn.TerraformDataSource {
   }
 
   // zone_id - computed: false, optional: false, required: true
-  private _zoneId?: string;
+  private _zoneId?: string; 
   public get zoneId() {
     return this.getStringAttribute('zone_id');
   }

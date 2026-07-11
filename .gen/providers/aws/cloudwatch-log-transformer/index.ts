@@ -139,7 +139,7 @@ export class CloudwatchLogTransformerTransformerConfigAddKeysEntryOutputReferenc
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -152,7 +152,7 @@ export class CloudwatchLogTransformerTransformerConfigAddKeysEntryOutputReferenc
   }
 
   // overwrite_if_exists - computed: true, optional: true, required: false
-  private _overwriteIfExists?: boolean | cdktn.IResolvable;
+  private _overwriteIfExists?: boolean | cdktn.IResolvable; 
   public get overwriteIfExists() {
     return this.getBooleanAttribute('overwrite_if_exists');
   }
@@ -168,7 +168,7 @@ export class CloudwatchLogTransformerTransformerConfigAddKeysEntryOutputReferenc
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -433,7 +433,7 @@ export class CloudwatchLogTransformerTransformerConfigCopyValueEntryOutputRefere
   }
 
   // overwrite_if_exists - computed: true, optional: true, required: false
-  private _overwriteIfExists?: boolean | cdktn.IResolvable;
+  private _overwriteIfExists?: boolean | cdktn.IResolvable; 
   public get overwriteIfExists() {
     return this.getBooleanAttribute('overwrite_if_exists');
   }
@@ -449,7 +449,7 @@ export class CloudwatchLogTransformerTransformerConfigCopyValueEntryOutputRefere
   }
 
   // source - computed: false, optional: false, required: true
-  private _source?: string;
+  private _source?: string; 
   public get source() {
     return this.getStringAttribute('source');
   }
@@ -462,7 +462,7 @@ export class CloudwatchLogTransformerTransformerConfigCopyValueEntryOutputRefere
   }
 
   // target - computed: false, optional: false, required: true
-  private _target?: string;
+  private _target?: string; 
   public get target() {
     return this.getStringAttribute('target');
   }
@@ -744,7 +744,7 @@ export class CloudwatchLogTransformerTransformerConfigCsvOutputReference extends
   }
 
   // columns - computed: true, optional: true, required: false
-  private _columns?: string[];
+  private _columns?: string[]; 
   public get columns() {
     return this.getListAttribute('columns');
   }
@@ -760,7 +760,7 @@ export class CloudwatchLogTransformerTransformerConfigCsvOutputReference extends
   }
 
   // delimiter - computed: true, optional: true, required: false
-  private _delimiter?: string;
+  private _delimiter?: string; 
   public get delimiter() {
     return this.getStringAttribute('delimiter');
   }
@@ -776,7 +776,7 @@ export class CloudwatchLogTransformerTransformerConfigCsvOutputReference extends
   }
 
   // quote_character - computed: true, optional: true, required: false
-  private _quoteCharacter?: string;
+  private _quoteCharacter?: string; 
   public get quoteCharacter() {
     return this.getStringAttribute('quote_character');
   }
@@ -792,7 +792,7 @@ export class CloudwatchLogTransformerTransformerConfigCsvOutputReference extends
   }
 
   // source - computed: true, optional: true, required: false
-  private _source?: string;
+  private _source?: string; 
   public get source() {
     return this.getStringAttribute('source');
   }
@@ -1010,7 +1010,7 @@ export class CloudwatchLogTransformerTransformerConfigDateTimeConverterOutputRef
   }
 
   // locale - computed: true, optional: true, required: false
-  private _locale?: string;
+  private _locale?: string; 
   public get locale() {
     return this.getStringAttribute('locale');
   }
@@ -1026,7 +1026,7 @@ export class CloudwatchLogTransformerTransformerConfigDateTimeConverterOutputRef
   }
 
   // match_patterns - computed: false, optional: false, required: true
-  private _matchPatterns?: string[];
+  private _matchPatterns?: string[]; 
   public get matchPatterns() {
     return this.getListAttribute('match_patterns');
   }
@@ -1039,7 +1039,7 @@ export class CloudwatchLogTransformerTransformerConfigDateTimeConverterOutputRef
   }
 
   // source - computed: false, optional: false, required: true
-  private _source?: string;
+  private _source?: string; 
   public get source() {
     return this.getStringAttribute('source');
   }
@@ -1052,7 +1052,7 @@ export class CloudwatchLogTransformerTransformerConfigDateTimeConverterOutputRef
   }
 
   // source_timezone - computed: true, optional: true, required: false
-  private _sourceTimezone?: string;
+  private _sourceTimezone?: string; 
   public get sourceTimezone() {
     return this.getStringAttribute('source_timezone');
   }
@@ -1068,7 +1068,7 @@ export class CloudwatchLogTransformerTransformerConfigDateTimeConverterOutputRef
   }
 
   // target - computed: false, optional: false, required: true
-  private _target?: string;
+  private _target?: string; 
   public get target() {
     return this.getStringAttribute('target');
   }
@@ -1081,7 +1081,7 @@ export class CloudwatchLogTransformerTransformerConfigDateTimeConverterOutputRef
   }
 
   // target_format - computed: true, optional: true, required: false
-  private _targetFormat?: string;
+  private _targetFormat?: string; 
   public get targetFormat() {
     return this.getStringAttribute('target_format');
   }
@@ -1097,7 +1097,7 @@ export class CloudwatchLogTransformerTransformerConfigDateTimeConverterOutputRef
   }
 
   // target_timezone - computed: true, optional: true, required: false
-  private _targetTimezone?: string;
+  private _targetTimezone?: string; 
   public get targetTimezone() {
     return this.getStringAttribute('target_timezone');
   }
@@ -1213,7 +1213,7 @@ export class CloudwatchLogTransformerTransformerConfigDeleteKeysOutputReference 
   }
 
   // with_keys - computed: false, optional: false, required: true
-  private _withKeys?: string[];
+  private _withKeys?: string[]; 
   public get withKeys() {
     return this.getListAttribute('with_keys');
   }
@@ -1343,7 +1343,7 @@ export class CloudwatchLogTransformerTransformerConfigGrokOutputReference extend
   }
 
   // match - computed: false, optional: false, required: true
-  private _match?: string;
+  private _match?: string; 
   public get match() {
     return this.getStringAttribute('match');
   }
@@ -1356,7 +1356,7 @@ export class CloudwatchLogTransformerTransformerConfigGrokOutputReference extend
   }
 
   // source - computed: true, optional: true, required: false
-  private _source?: string;
+  private _source?: string; 
   public get source() {
     return this.getStringAttribute('source');
   }
@@ -1557,7 +1557,7 @@ export class CloudwatchLogTransformerTransformerConfigListToMapOutputReference e
   }
 
   // flatten - computed: true, optional: true, required: false
-  private _flatten?: boolean | cdktn.IResolvable;
+  private _flatten?: boolean | cdktn.IResolvable; 
   public get flatten() {
     return this.getBooleanAttribute('flatten');
   }
@@ -1573,7 +1573,7 @@ export class CloudwatchLogTransformerTransformerConfigListToMapOutputReference e
   }
 
   // flattened_element - computed: true, optional: true, required: false
-  private _flattenedElement?: string;
+  private _flattenedElement?: string; 
   public get flattenedElement() {
     return this.getStringAttribute('flattened_element');
   }
@@ -1589,7 +1589,7 @@ export class CloudwatchLogTransformerTransformerConfigListToMapOutputReference e
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1602,7 +1602,7 @@ export class CloudwatchLogTransformerTransformerConfigListToMapOutputReference e
   }
 
   // source - computed: false, optional: false, required: true
-  private _source?: string;
+  private _source?: string; 
   public get source() {
     return this.getStringAttribute('source');
   }
@@ -1615,7 +1615,7 @@ export class CloudwatchLogTransformerTransformerConfigListToMapOutputReference e
   }
 
   // target - computed: true, optional: true, required: false
-  private _target?: string;
+  private _target?: string; 
   public get target() {
     return this.getStringAttribute('target');
   }
@@ -1631,7 +1631,7 @@ export class CloudwatchLogTransformerTransformerConfigListToMapOutputReference e
   }
 
   // value_key - computed: true, optional: true, required: false
-  private _valueKey?: string;
+  private _valueKey?: string; 
   public get valueKey() {
     return this.getStringAttribute('value_key');
   }
@@ -1747,7 +1747,7 @@ export class CloudwatchLogTransformerTransformerConfigLowerCaseStringOutputRefer
   }
 
   // with_keys - computed: false, optional: false, required: true
-  private _withKeys?: string[];
+  private _withKeys?: string[]; 
   public get withKeys() {
     return this.getListAttribute('with_keys');
   }
@@ -1894,7 +1894,7 @@ export class CloudwatchLogTransformerTransformerConfigMoveKeysEntryOutputReferen
   }
 
   // overwrite_if_exists - computed: true, optional: true, required: false
-  private _overwriteIfExists?: boolean | cdktn.IResolvable;
+  private _overwriteIfExists?: boolean | cdktn.IResolvable; 
   public get overwriteIfExists() {
     return this.getBooleanAttribute('overwrite_if_exists');
   }
@@ -1910,7 +1910,7 @@ export class CloudwatchLogTransformerTransformerConfigMoveKeysEntryOutputReferen
   }
 
   // source - computed: false, optional: false, required: true
-  private _source?: string;
+  private _source?: string; 
   public get source() {
     return this.getStringAttribute('source');
   }
@@ -1923,7 +1923,7 @@ export class CloudwatchLogTransformerTransformerConfigMoveKeysEntryOutputReferen
   }
 
   // target - computed: false, optional: false, required: true
-  private _target?: string;
+  private _target?: string; 
   public get target() {
     return this.getStringAttribute('target');
   }
@@ -2154,7 +2154,7 @@ export class CloudwatchLogTransformerTransformerConfigParseCloudfrontOutputRefer
   }
 
   // source - computed: true, optional: true, required: false
-  private _source?: string;
+  private _source?: string; 
   public get source() {
     return this.getStringAttribute('source');
   }
@@ -2287,7 +2287,7 @@ export class CloudwatchLogTransformerTransformerConfigParseJsonOutputReference e
   }
 
   // destination - computed: true, optional: true, required: false
-  private _destination?: string;
+  private _destination?: string; 
   public get destination() {
     return this.getStringAttribute('destination');
   }
@@ -2303,7 +2303,7 @@ export class CloudwatchLogTransformerTransformerConfigParseJsonOutputReference e
   }
 
   // source - computed: true, optional: true, required: false
-  private _source?: string;
+  private _source?: string; 
   public get source() {
     return this.getStringAttribute('source');
   }
@@ -2521,7 +2521,7 @@ export class CloudwatchLogTransformerTransformerConfigParseKeyValueOutputReferen
   }
 
   // destination - computed: true, optional: true, required: false
-  private _destination?: string;
+  private _destination?: string; 
   public get destination() {
     return this.getStringAttribute('destination');
   }
@@ -2537,7 +2537,7 @@ export class CloudwatchLogTransformerTransformerConfigParseKeyValueOutputReferen
   }
 
   // field_delimiter - computed: true, optional: true, required: false
-  private _fieldDelimiter?: string;
+  private _fieldDelimiter?: string; 
   public get fieldDelimiter() {
     return this.getStringAttribute('field_delimiter');
   }
@@ -2553,7 +2553,7 @@ export class CloudwatchLogTransformerTransformerConfigParseKeyValueOutputReferen
   }
 
   // key_prefix - computed: true, optional: true, required: false
-  private _keyPrefix?: string;
+  private _keyPrefix?: string; 
   public get keyPrefix() {
     return this.getStringAttribute('key_prefix');
   }
@@ -2569,7 +2569,7 @@ export class CloudwatchLogTransformerTransformerConfigParseKeyValueOutputReferen
   }
 
   // key_value_delimiter - computed: true, optional: true, required: false
-  private _keyValueDelimiter?: string;
+  private _keyValueDelimiter?: string; 
   public get keyValueDelimiter() {
     return this.getStringAttribute('key_value_delimiter');
   }
@@ -2585,7 +2585,7 @@ export class CloudwatchLogTransformerTransformerConfigParseKeyValueOutputReferen
   }
 
   // non_match_value - computed: true, optional: true, required: false
-  private _nonMatchValue?: string;
+  private _nonMatchValue?: string; 
   public get nonMatchValue() {
     return this.getStringAttribute('non_match_value');
   }
@@ -2601,7 +2601,7 @@ export class CloudwatchLogTransformerTransformerConfigParseKeyValueOutputReferen
   }
 
   // overwrite_if_exists - computed: true, optional: true, required: false
-  private _overwriteIfExists?: boolean | cdktn.IResolvable;
+  private _overwriteIfExists?: boolean | cdktn.IResolvable; 
   public get overwriteIfExists() {
     return this.getBooleanAttribute('overwrite_if_exists');
   }
@@ -2617,7 +2617,7 @@ export class CloudwatchLogTransformerTransformerConfigParseKeyValueOutputReferen
   }
 
   // source - computed: true, optional: true, required: false
-  private _source?: string;
+  private _source?: string; 
   public get source() {
     return this.getStringAttribute('source');
   }
@@ -2733,7 +2733,7 @@ export class CloudwatchLogTransformerTransformerConfigParsePostgresOutputReferen
   }
 
   // source - computed: true, optional: true, required: false
-  private _source?: string;
+  private _source?: string; 
   public get source() {
     return this.getStringAttribute('source');
   }
@@ -2849,7 +2849,7 @@ export class CloudwatchLogTransformerTransformerConfigParseRoute53OutputReferenc
   }
 
   // source - computed: true, optional: true, required: false
-  private _source?: string;
+  private _source?: string; 
   public get source() {
     return this.getStringAttribute('source');
   }
@@ -2999,7 +2999,7 @@ export class CloudwatchLogTransformerTransformerConfigParseToOcsfOutputReference
   }
 
   // event_source - computed: false, optional: false, required: true
-  private _eventSource?: string;
+  private _eventSource?: string; 
   public get eventSource() {
     return this.getStringAttribute('event_source');
   }
@@ -3012,7 +3012,7 @@ export class CloudwatchLogTransformerTransformerConfigParseToOcsfOutputReference
   }
 
   // ocsf_version - computed: false, optional: false, required: true
-  private _ocsfVersion?: string;
+  private _ocsfVersion?: string; 
   public get ocsfVersion() {
     return this.getStringAttribute('ocsf_version');
   }
@@ -3025,7 +3025,7 @@ export class CloudwatchLogTransformerTransformerConfigParseToOcsfOutputReference
   }
 
   // source - computed: true, optional: true, required: false
-  private _source?: string;
+  private _source?: string; 
   public get source() {
     return this.getStringAttribute('source');
   }
@@ -3141,7 +3141,7 @@ export class CloudwatchLogTransformerTransformerConfigParseVpcOutputReference ex
   }
 
   // source - computed: true, optional: true, required: false
-  private _source?: string;
+  private _source?: string; 
   public get source() {
     return this.getStringAttribute('source');
   }
@@ -3257,7 +3257,7 @@ export class CloudwatchLogTransformerTransformerConfigParseWafOutputReference ex
   }
 
   // source - computed: true, optional: true, required: false
-  private _source?: string;
+  private _source?: string; 
   public get source() {
     return this.getStringAttribute('source');
   }
@@ -3407,7 +3407,7 @@ export class CloudwatchLogTransformerTransformerConfigRenameKeysEntryOutputRefer
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -3420,7 +3420,7 @@ export class CloudwatchLogTransformerTransformerConfigRenameKeysEntryOutputRefer
   }
 
   // overwrite_if_exists - computed: true, optional: true, required: false
-  private _overwriteIfExists?: boolean | cdktn.IResolvable;
+  private _overwriteIfExists?: boolean | cdktn.IResolvable; 
   public get overwriteIfExists() {
     return this.getBooleanAttribute('overwrite_if_exists');
   }
@@ -3436,7 +3436,7 @@ export class CloudwatchLogTransformerTransformerConfigRenameKeysEntryOutputRefer
   }
 
   // rename_to - computed: false, optional: false, required: true
-  private _renameTo?: string;
+  private _renameTo?: string; 
   public get renameTo() {
     return this.getStringAttribute('rename_to');
   }
@@ -3684,7 +3684,7 @@ export class CloudwatchLogTransformerTransformerConfigSplitStringEntryOutputRefe
   }
 
   // delimiter - computed: false, optional: false, required: true
-  private _delimiter?: string;
+  private _delimiter?: string; 
   public get delimiter() {
     return this.getStringAttribute('delimiter');
   }
@@ -3697,7 +3697,7 @@ export class CloudwatchLogTransformerTransformerConfigSplitStringEntryOutputRefe
   }
 
   // source - computed: false, optional: false, required: true
-  private _source?: string;
+  private _source?: string; 
   public get source() {
     return this.getStringAttribute('source');
   }
@@ -3962,7 +3962,7 @@ export class CloudwatchLogTransformerTransformerConfigSubstituteStringEntryOutpu
   }
 
   // from - computed: false, optional: false, required: true
-  private _from?: string;
+  private _from?: string; 
   public get from() {
     return this.getStringAttribute('from');
   }
@@ -3975,7 +3975,7 @@ export class CloudwatchLogTransformerTransformerConfigSubstituteStringEntryOutpu
   }
 
   // source - computed: false, optional: false, required: true
-  private _source?: string;
+  private _source?: string; 
   public get source() {
     return this.getStringAttribute('source');
   }
@@ -3988,7 +3988,7 @@ export class CloudwatchLogTransformerTransformerConfigSubstituteStringEntryOutpu
   }
 
   // to - computed: false, optional: false, required: true
-  private _to?: string;
+  private _to?: string; 
   public get to() {
     return this.getStringAttribute('to');
   }
@@ -4219,7 +4219,7 @@ export class CloudwatchLogTransformerTransformerConfigTrimStringOutputReference 
   }
 
   // with_keys - computed: false, optional: false, required: true
-  private _withKeys?: string[];
+  private _withKeys?: string[]; 
   public get withKeys() {
     return this.getListAttribute('with_keys');
   }
@@ -4349,7 +4349,7 @@ export class CloudwatchLogTransformerTransformerConfigTypeConverterEntryOutputRe
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -4362,7 +4362,7 @@ export class CloudwatchLogTransformerTransformerConfigTypeConverterEntryOutputRe
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -4593,7 +4593,7 @@ export class CloudwatchLogTransformerTransformerConfigUpperCaseStringOutputRefer
   }
 
   // with_keys - computed: false, optional: false, required: true
-  private _withKeys?: string[];
+  private _withKeys?: string[]; 
   public get withKeys() {
     return this.getListAttribute('with_keys');
   }
@@ -5574,7 +5574,7 @@ export class CloudwatchLogTransformer extends cdktn.TerraformResource {
   // ==========
 
   // log_group_arn - computed: false, optional: false, required: true
-  private _logGroupArn?: string;
+  private _logGroupArn?: string; 
   public get logGroupArn() {
     return this.getStringAttribute('log_group_arn');
   }
@@ -5587,7 +5587,7 @@ export class CloudwatchLogTransformer extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

@@ -150,7 +150,7 @@ export class Apigatewayv2Route extends cdktn.TerraformResource {
   // ==========
 
   // api_id - computed: false, optional: false, required: true
-  private _apiId?: string;
+  private _apiId?: string; 
   public get apiId() {
     return this.getStringAttribute('api_id');
   }
@@ -163,7 +163,7 @@ export class Apigatewayv2Route extends cdktn.TerraformResource {
   }
 
   // api_key_required - computed: true, optional: true, required: false
-  private _apiKeyRequired?: boolean | cdktn.IResolvable;
+  private _apiKeyRequired?: boolean | cdktn.IResolvable; 
   public get apiKeyRequired() {
     return this.getBooleanAttribute('api_key_required');
   }
@@ -179,7 +179,7 @@ export class Apigatewayv2Route extends cdktn.TerraformResource {
   }
 
   // authorization_scopes - computed: true, optional: true, required: false
-  private _authorizationScopes?: string[];
+  private _authorizationScopes?: string[]; 
   public get authorizationScopes() {
     return this.getListAttribute('authorization_scopes');
   }
@@ -195,7 +195,7 @@ export class Apigatewayv2Route extends cdktn.TerraformResource {
   }
 
   // authorization_type - computed: true, optional: true, required: false
-  private _authorizationType?: string;
+  private _authorizationType?: string; 
   public get authorizationType() {
     return this.getStringAttribute('authorization_type');
   }
@@ -211,7 +211,7 @@ export class Apigatewayv2Route extends cdktn.TerraformResource {
   }
 
   // authorizer_id - computed: true, optional: true, required: false
-  private _authorizerId?: string;
+  private _authorizerId?: string; 
   public get authorizerId() {
     return this.getStringAttribute('authorizer_id');
   }
@@ -232,7 +232,7 @@ export class Apigatewayv2Route extends cdktn.TerraformResource {
   }
 
   // model_selection_expression - computed: true, optional: true, required: false
-  private _modelSelectionExpression?: string;
+  private _modelSelectionExpression?: string; 
   public get modelSelectionExpression() {
     return this.getStringAttribute('model_selection_expression');
   }
@@ -248,7 +248,7 @@ export class Apigatewayv2Route extends cdktn.TerraformResource {
   }
 
   // operation_name - computed: true, optional: true, required: false
-  private _operationName?: string;
+  private _operationName?: string; 
   public get operationName() {
     return this.getStringAttribute('operation_name');
   }
@@ -264,7 +264,7 @@ export class Apigatewayv2Route extends cdktn.TerraformResource {
   }
 
   // request_models - computed: true, optional: true, required: false
-  private _requestModels?: string;
+  private _requestModels?: string; 
   public get requestModels() {
     return this.getStringAttribute('request_models');
   }
@@ -280,7 +280,7 @@ export class Apigatewayv2Route extends cdktn.TerraformResource {
   }
 
   // request_parameters - computed: true, optional: true, required: false
-  private _requestParameters?: string;
+  private _requestParameters?: string; 
   public get requestParameters() {
     return this.getStringAttribute('request_parameters');
   }
@@ -301,7 +301,7 @@ export class Apigatewayv2Route extends cdktn.TerraformResource {
   }
 
   // route_key - computed: false, optional: false, required: true
-  private _routeKey?: string;
+  private _routeKey?: string; 
   public get routeKey() {
     return this.getStringAttribute('route_key');
   }
@@ -314,7 +314,7 @@ export class Apigatewayv2Route extends cdktn.TerraformResource {
   }
 
   // route_response_selection_expression - computed: true, optional: true, required: false
-  private _routeResponseSelectionExpression?: string;
+  private _routeResponseSelectionExpression?: string; 
   public get routeResponseSelectionExpression() {
     return this.getStringAttribute('route_response_selection_expression');
   }
@@ -330,7 +330,7 @@ export class Apigatewayv2Route extends cdktn.TerraformResource {
   }
 
   // target - computed: true, optional: true, required: false
-  private _target?: string;
+  private _target?: string; 
   public get target() {
     return this.getStringAttribute('target');
   }

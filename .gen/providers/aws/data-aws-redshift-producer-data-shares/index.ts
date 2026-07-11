@@ -179,7 +179,7 @@ export class DataAwsRedshiftProducerDataShares extends cdktn.TerraformDataSource
   }
 
   // producer_arn - computed: false, optional: false, required: true
-  private _producerArn?: string;
+  private _producerArn?: string; 
   public get producerArn() {
     return this.getStringAttribute('producer_arn');
   }
@@ -192,7 +192,7 @@ export class DataAwsRedshiftProducerDataShares extends cdktn.TerraformDataSource
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -208,7 +208,7 @@ export class DataAwsRedshiftProducerDataShares extends cdktn.TerraformDataSource
   }
 
   // status - computed: false, optional: true, required: false
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }

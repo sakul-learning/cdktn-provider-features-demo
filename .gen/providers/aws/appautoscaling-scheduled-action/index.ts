@@ -145,7 +145,7 @@ export class AppautoscalingScheduledActionScalableTargetActionOutputReference ex
   }
 
   // max_capacity - computed: false, optional: true, required: false
-  private _maxCapacity?: string;
+  private _maxCapacity?: string; 
   public get maxCapacity() {
     return this.getStringAttribute('max_capacity');
   }
@@ -161,7 +161,7 @@ export class AppautoscalingScheduledActionScalableTargetActionOutputReference ex
   }
 
   // min_capacity - computed: false, optional: true, required: false
-  private _minCapacity?: string;
+  private _minCapacity?: string; 
   public get minCapacity() {
     return this.getStringAttribute('min_capacity');
   }
@@ -250,7 +250,7 @@ export class AppautoscalingScheduledAction extends cdktn.TerraformResource {
   }
 
   // end_time - computed: false, optional: true, required: false
-  private _endTime?: string;
+  private _endTime?: string; 
   public get endTime() {
     return this.getStringAttribute('end_time');
   }
@@ -266,7 +266,7 @@ export class AppautoscalingScheduledAction extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -282,7 +282,7 @@ export class AppautoscalingScheduledAction extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -295,7 +295,7 @@ export class AppautoscalingScheduledAction extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -311,7 +311,7 @@ export class AppautoscalingScheduledAction extends cdktn.TerraformResource {
   }
 
   // resource_id - computed: false, optional: false, required: true
-  private _resourceId?: string;
+  private _resourceId?: string; 
   public get resourceId() {
     return this.getStringAttribute('resource_id');
   }
@@ -324,7 +324,7 @@ export class AppautoscalingScheduledAction extends cdktn.TerraformResource {
   }
 
   // scalable_dimension - computed: false, optional: false, required: true
-  private _scalableDimension?: string;
+  private _scalableDimension?: string; 
   public get scalableDimension() {
     return this.getStringAttribute('scalable_dimension');
   }
@@ -337,7 +337,7 @@ export class AppautoscalingScheduledAction extends cdktn.TerraformResource {
   }
 
   // schedule - computed: false, optional: false, required: true
-  private _schedule?: string;
+  private _schedule?: string; 
   public get schedule() {
     return this.getStringAttribute('schedule');
   }
@@ -350,7 +350,7 @@ export class AppautoscalingScheduledAction extends cdktn.TerraformResource {
   }
 
   // service_namespace - computed: false, optional: false, required: true
-  private _serviceNamespace?: string;
+  private _serviceNamespace?: string; 
   public get serviceNamespace() {
     return this.getStringAttribute('service_namespace');
   }
@@ -363,7 +363,7 @@ export class AppautoscalingScheduledAction extends cdktn.TerraformResource {
   }
 
   // start_time - computed: false, optional: true, required: false
-  private _startTime?: string;
+  private _startTime?: string; 
   public get startTime() {
     return this.getStringAttribute('start_time');
   }
@@ -379,7 +379,7 @@ export class AppautoscalingScheduledAction extends cdktn.TerraformResource {
   }
 
   // timezone - computed: false, optional: true, required: false
-  private _timezone?: string;
+  private _timezone?: string; 
   public get timezone() {
     return this.getStringAttribute('timezone');
   }

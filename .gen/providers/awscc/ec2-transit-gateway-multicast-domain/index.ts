@@ -145,7 +145,7 @@ export class Ec2TransitGatewayMulticastDomainOptionsOutputReference extends cdkt
   }
 
   // auto_accept_shared_associations - computed: true, optional: true, required: false
-  private _autoAcceptSharedAssociations?: string;
+  private _autoAcceptSharedAssociations?: string; 
   public get autoAcceptSharedAssociations() {
     return this.getStringAttribute('auto_accept_shared_associations');
   }
@@ -161,7 +161,7 @@ export class Ec2TransitGatewayMulticastDomainOptionsOutputReference extends cdkt
   }
 
   // igmpv_2_support - computed: true, optional: true, required: false
-  private _igmpv2Support?: string;
+  private _igmpv2Support?: string; 
   public get igmpv2Support() {
     return this.getStringAttribute('igmpv_2_support');
   }
@@ -177,7 +177,7 @@ export class Ec2TransitGatewayMulticastDomainOptionsOutputReference extends cdkt
   }
 
   // static_sources_support - computed: true, optional: true, required: false
-  private _staticSourcesSupport?: string;
+  private _staticSourcesSupport?: string; 
   public get staticSourcesSupport() {
     return this.getStringAttribute('static_sources_support');
   }
@@ -294,7 +294,7 @@ export class Ec2TransitGatewayMulticastDomainTagsOutputReference extends cdktn.C
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -310,7 +310,7 @@ export class Ec2TransitGatewayMulticastDomainTagsOutputReference extends cdktn.C
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -453,7 +453,7 @@ export class Ec2TransitGatewayMulticastDomain extends cdktn.TerraformResource {
   }
 
   // transit_gateway_id - computed: false, optional: false, required: true
-  private _transitGatewayId?: string;
+  private _transitGatewayId?: string; 
   public get transitGatewayId() {
     return this.getStringAttribute('transit_gateway_id');
   }

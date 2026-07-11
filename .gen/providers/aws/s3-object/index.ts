@@ -200,7 +200,7 @@ export class S3ObjectOverrideProviderDefaultTagsOutputReference extends cdktn.Co
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -388,7 +388,7 @@ export class S3Object extends cdktn.TerraformResource {
   // ==========
 
   // acl - computed: true, optional: true, required: false
-  private _acl?: string;
+  private _acl?: string; 
   public get acl() {
     return this.getStringAttribute('acl');
   }
@@ -409,7 +409,7 @@ export class S3Object extends cdktn.TerraformResource {
   }
 
   // bucket - computed: false, optional: false, required: true
-  private _bucket?: string;
+  private _bucket?: string; 
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -422,7 +422,7 @@ export class S3Object extends cdktn.TerraformResource {
   }
 
   // bucket_key_enabled - computed: true, optional: true, required: false
-  private _bucketKeyEnabled?: boolean | cdktn.IResolvable;
+  private _bucketKeyEnabled?: boolean | cdktn.IResolvable; 
   public get bucketKeyEnabled() {
     return this.getBooleanAttribute('bucket_key_enabled');
   }
@@ -438,7 +438,7 @@ export class S3Object extends cdktn.TerraformResource {
   }
 
   // cache_control - computed: false, optional: true, required: false
-  private _cacheControl?: string;
+  private _cacheControl?: string; 
   public get cacheControl() {
     return this.getStringAttribute('cache_control');
   }
@@ -454,7 +454,7 @@ export class S3Object extends cdktn.TerraformResource {
   }
 
   // checksum_algorithm - computed: false, optional: true, required: false
-  private _checksumAlgorithm?: string;
+  private _checksumAlgorithm?: string; 
   public get checksumAlgorithm() {
     return this.getStringAttribute('checksum_algorithm');
   }
@@ -495,7 +495,7 @@ export class S3Object extends cdktn.TerraformResource {
   }
 
   // content - computed: false, optional: true, required: false
-  private _content?: string;
+  private _content?: string; 
   public get content() {
     return this.getStringAttribute('content');
   }
@@ -511,7 +511,7 @@ export class S3Object extends cdktn.TerraformResource {
   }
 
   // content_base64 - computed: false, optional: true, required: false
-  private _contentBase64?: string;
+  private _contentBase64?: string; 
   public get contentBase64() {
     return this.getStringAttribute('content_base64');
   }
@@ -527,7 +527,7 @@ export class S3Object extends cdktn.TerraformResource {
   }
 
   // content_disposition - computed: false, optional: true, required: false
-  private _contentDisposition?: string;
+  private _contentDisposition?: string; 
   public get contentDisposition() {
     return this.getStringAttribute('content_disposition');
   }
@@ -543,7 +543,7 @@ export class S3Object extends cdktn.TerraformResource {
   }
 
   // content_encoding - computed: false, optional: true, required: false
-  private _contentEncoding?: string;
+  private _contentEncoding?: string; 
   public get contentEncoding() {
     return this.getStringAttribute('content_encoding');
   }
@@ -559,7 +559,7 @@ export class S3Object extends cdktn.TerraformResource {
   }
 
   // content_language - computed: false, optional: true, required: false
-  private _contentLanguage?: string;
+  private _contentLanguage?: string; 
   public get contentLanguage() {
     return this.getStringAttribute('content_language');
   }
@@ -575,7 +575,7 @@ export class S3Object extends cdktn.TerraformResource {
   }
 
   // content_type - computed: true, optional: true, required: false
-  private _contentType?: string;
+  private _contentType?: string; 
   public get contentType() {
     return this.getStringAttribute('content_type');
   }
@@ -591,7 +591,7 @@ export class S3Object extends cdktn.TerraformResource {
   }
 
   // etag - computed: true, optional: true, required: false
-  private _etag?: string;
+  private _etag?: string; 
   public get etag() {
     return this.getStringAttribute('etag');
   }
@@ -607,7 +607,7 @@ export class S3Object extends cdktn.TerraformResource {
   }
 
   // force_destroy - computed: false, optional: true, required: false
-  private _forceDestroy?: boolean | cdktn.IResolvable;
+  private _forceDestroy?: boolean | cdktn.IResolvable; 
   public get forceDestroy() {
     return this.getBooleanAttribute('force_destroy');
   }
@@ -623,7 +623,7 @@ export class S3Object extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -639,7 +639,7 @@ export class S3Object extends cdktn.TerraformResource {
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -652,7 +652,7 @@ export class S3Object extends cdktn.TerraformResource {
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -668,7 +668,7 @@ export class S3Object extends cdktn.TerraformResource {
   }
 
   // metadata - computed: false, optional: true, required: false
-  private _metadata?: { [key: string]: string };
+  private _metadata?: { [key: string]: string }; 
   public get metadata() {
     return this.getStringMapAttribute('metadata');
   }
@@ -684,7 +684,7 @@ export class S3Object extends cdktn.TerraformResource {
   }
 
   // object_lock_legal_hold_status - computed: false, optional: true, required: false
-  private _objectLockLegalHoldStatus?: string;
+  private _objectLockLegalHoldStatus?: string; 
   public get objectLockLegalHoldStatus() {
     return this.getStringAttribute('object_lock_legal_hold_status');
   }
@@ -700,7 +700,7 @@ export class S3Object extends cdktn.TerraformResource {
   }
 
   // object_lock_mode - computed: false, optional: true, required: false
-  private _objectLockMode?: string;
+  private _objectLockMode?: string; 
   public get objectLockMode() {
     return this.getStringAttribute('object_lock_mode');
   }
@@ -716,7 +716,7 @@ export class S3Object extends cdktn.TerraformResource {
   }
 
   // object_lock_retain_until_date - computed: false, optional: true, required: false
-  private _objectLockRetainUntilDate?: string;
+  private _objectLockRetainUntilDate?: string; 
   public get objectLockRetainUntilDate() {
     return this.getStringAttribute('object_lock_retain_until_date');
   }
@@ -732,7 +732,7 @@ export class S3Object extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -748,7 +748,7 @@ export class S3Object extends cdktn.TerraformResource {
   }
 
   // server_side_encryption - computed: true, optional: true, required: false
-  private _serverSideEncryption?: string;
+  private _serverSideEncryption?: string; 
   public get serverSideEncryption() {
     return this.getStringAttribute('server_side_encryption');
   }
@@ -764,7 +764,7 @@ export class S3Object extends cdktn.TerraformResource {
   }
 
   // source - computed: false, optional: true, required: false
-  private _source?: string;
+  private _source?: string; 
   public get source() {
     return this.getStringAttribute('source');
   }
@@ -780,7 +780,7 @@ export class S3Object extends cdktn.TerraformResource {
   }
 
   // source_hash - computed: false, optional: true, required: false
-  private _sourceHash?: string;
+  private _sourceHash?: string; 
   public get sourceHash() {
     return this.getStringAttribute('source_hash');
   }
@@ -796,7 +796,7 @@ export class S3Object extends cdktn.TerraformResource {
   }
 
   // storage_class - computed: true, optional: true, required: false
-  private _storageClass?: string;
+  private _storageClass?: string; 
   public get storageClass() {
     return this.getStringAttribute('storage_class');
   }
@@ -812,7 +812,7 @@ export class S3Object extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -828,7 +828,7 @@ export class S3Object extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -849,7 +849,7 @@ export class S3Object extends cdktn.TerraformResource {
   }
 
   // website_redirect - computed: false, optional: true, required: false
-  private _websiteRedirect?: string;
+  private _websiteRedirect?: string; 
   public get websiteRedirect() {
     return this.getStringAttribute('website_redirect');
   }

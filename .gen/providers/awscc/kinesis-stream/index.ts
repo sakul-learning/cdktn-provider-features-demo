@@ -64,7 +64,7 @@ export interface KinesisStreamConfig extends cdktn.TerraformMetaArguments {
 }
 export interface KinesisStreamStreamEncryption {
   /**
-  * The encryption type to use. The only valid value is KMS.
+  * The encryption type to use. The only valid value is KMS. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kinesis_stream#encryption_type KinesisStream#encryption_type}
   */
@@ -162,7 +162,7 @@ export class KinesisStreamStreamEncryptionOutputReference extends cdktn.ComplexO
   }
 
   // encryption_type - computed: true, optional: true, required: false
-  private _encryptionType?: string;
+  private _encryptionType?: string; 
   public get encryptionType() {
     return this.getStringAttribute('encryption_type');
   }
@@ -178,7 +178,7 @@ export class KinesisStreamStreamEncryptionOutputReference extends cdktn.ComplexO
   }
 
   // key_id - computed: true, optional: true, required: false
-  private _keyId?: string;
+  private _keyId?: string; 
   public get keyId() {
     return this.getStringAttribute('key_id');
   }
@@ -274,7 +274,7 @@ export class KinesisStreamStreamModeDetailsOutputReference extends cdktn.Complex
   }
 
   // stream_mode - computed: true, optional: true, required: false
-  private _streamMode?: string;
+  private _streamMode?: string; 
   public get streamMode() {
     return this.getStringAttribute('stream_mode');
   }
@@ -391,7 +391,7 @@ export class KinesisStreamTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -407,7 +407,7 @@ export class KinesisStreamTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -573,7 +573,7 @@ export class KinesisStream extends cdktn.TerraformResource {
   }
 
   // desired_shard_level_metrics - computed: true, optional: true, required: false
-  private _desiredShardLevelMetrics?: string[];
+  private _desiredShardLevelMetrics?: string[]; 
   public get desiredShardLevelMetrics() {
     return cdktn.Fn.tolist(this.getListAttribute('desired_shard_level_metrics'));
   }
@@ -594,7 +594,7 @@ export class KinesisStream extends cdktn.TerraformResource {
   }
 
   // max_record_size_in_ki_b - computed: true, optional: true, required: false
-  private _maxRecordSizeInKiB?: number;
+  private _maxRecordSizeInKiB?: number; 
   public get maxRecordSizeInKiB() {
     return this.getNumberAttribute('max_record_size_in_ki_b');
   }
@@ -610,7 +610,7 @@ export class KinesisStream extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -626,7 +626,7 @@ export class KinesisStream extends cdktn.TerraformResource {
   }
 
   // retention_period_hours - computed: true, optional: true, required: false
-  private _retentionPeriodHours?: number;
+  private _retentionPeriodHours?: number; 
   public get retentionPeriodHours() {
     return this.getNumberAttribute('retention_period_hours');
   }
@@ -642,7 +642,7 @@ export class KinesisStream extends cdktn.TerraformResource {
   }
 
   // shard_count - computed: true, optional: true, required: false
-  private _shardCount?: number;
+  private _shardCount?: number; 
   public get shardCount() {
     return this.getNumberAttribute('shard_count');
   }
@@ -706,7 +706,7 @@ export class KinesisStream extends cdktn.TerraformResource {
   }
 
   // warm_throughput_mi_bps - computed: true, optional: true, required: false
-  private _warmThroughputMiBps?: number;
+  private _warmThroughputMiBps?: number; 
   public get warmThroughputMiBps() {
     return this.getNumberAttribute('warm_throughput_mi_bps');
   }

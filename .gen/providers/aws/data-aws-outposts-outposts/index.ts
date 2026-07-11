@@ -106,7 +106,7 @@ export class DataAwsOutpostsOutposts extends cdktn.TerraformDataSource {
   }
 
   // availability_zone - computed: true, optional: true, required: false
-  private _availabilityZone?: string;
+  private _availabilityZone?: string; 
   public get availabilityZone() {
     return this.getStringAttribute('availability_zone');
   }
@@ -122,7 +122,7 @@ export class DataAwsOutpostsOutposts extends cdktn.TerraformDataSource {
   }
 
   // availability_zone_id - computed: true, optional: true, required: false
-  private _availabilityZoneId?: string;
+  private _availabilityZoneId?: string; 
   public get availabilityZoneId() {
     return this.getStringAttribute('availability_zone_id');
   }
@@ -138,7 +138,7 @@ export class DataAwsOutpostsOutposts extends cdktn.TerraformDataSource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -159,7 +159,7 @@ export class DataAwsOutpostsOutposts extends cdktn.TerraformDataSource {
   }
 
   // owner_id - computed: true, optional: true, required: false
-  private _ownerId?: string;
+  private _ownerId?: string; 
   public get ownerId() {
     return this.getStringAttribute('owner_id');
   }
@@ -175,7 +175,7 @@ export class DataAwsOutpostsOutposts extends cdktn.TerraformDataSource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -191,7 +191,7 @@ export class DataAwsOutpostsOutposts extends cdktn.TerraformDataSource {
   }
 
   // site_id - computed: true, optional: true, required: false
-  private _siteId?: string;
+  private _siteId?: string; 
   public get siteId() {
     return this.getStringAttribute('site_id');
   }

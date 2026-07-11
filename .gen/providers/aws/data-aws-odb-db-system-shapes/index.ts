@@ -260,7 +260,7 @@ export class DataAwsOdbDbSystemShapes extends cdktn.TerraformDataSource {
   // ==========
 
   // availability_zone_id - computed: false, optional: true, required: false
-  private _availabilityZoneId?: string;
+  private _availabilityZoneId?: string; 
   public get availabilityZoneId() {
     return this.getStringAttribute('availability_zone_id');
   }
@@ -282,7 +282,7 @@ export class DataAwsOdbDbSystemShapes extends cdktn.TerraformDataSource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

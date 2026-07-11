@@ -139,7 +139,7 @@ export class S3MultiRegionAccessPointPolicy extends cdktn.TerraformResource {
   }
 
   // mrap_name - computed: false, optional: false, required: true
-  private _mrapName?: string;
+  private _mrapName?: string; 
   public get mrapName() {
     return this.getStringAttribute('mrap_name');
   }
@@ -152,7 +152,7 @@ export class S3MultiRegionAccessPointPolicy extends cdktn.TerraformResource {
   }
 
   // policy - computed: false, optional: false, required: true
-  private _policy?: string;
+  private _policy?: string; 
   public get policy() {
     return this.getStringAttribute('policy');
   }

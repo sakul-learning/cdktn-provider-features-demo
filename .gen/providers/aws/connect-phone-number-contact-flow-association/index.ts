@@ -88,7 +88,7 @@ export class ConnectPhoneNumberContactFlowAssociation extends cdktn.TerraformRes
   // ==========
 
   // contact_flow_id - computed: false, optional: false, required: true
-  private _contactFlowId?: string;
+  private _contactFlowId?: string; 
   public get contactFlowId() {
     return this.getStringAttribute('contact_flow_id');
   }
@@ -101,7 +101,7 @@ export class ConnectPhoneNumberContactFlowAssociation extends cdktn.TerraformRes
   }
 
   // instance_id - computed: false, optional: false, required: true
-  private _instanceId?: string;
+  private _instanceId?: string; 
   public get instanceId() {
     return this.getStringAttribute('instance_id');
   }
@@ -114,7 +114,7 @@ export class ConnectPhoneNumberContactFlowAssociation extends cdktn.TerraformRes
   }
 
   // phone_number_id - computed: false, optional: false, required: true
-  private _phoneNumberId?: string;
+  private _phoneNumberId?: string; 
   public get phoneNumberId() {
     return this.getStringAttribute('phone_number_id');
   }
@@ -127,7 +127,7 @@ export class ConnectPhoneNumberContactFlowAssociation extends cdktn.TerraformRes
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

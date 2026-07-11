@@ -94,7 +94,7 @@ export class DirectconnectDirectConnectGatewayAssociation extends cdktn.Terrafor
   // ==========
 
   // accept_direct_connect_gateway_association_proposal_role_arn - computed: true, optional: true, required: false
-  private _acceptDirectConnectGatewayAssociationProposalRoleArn?: string;
+  private _acceptDirectConnectGatewayAssociationProposalRoleArn?: string; 
   public get acceptDirectConnectGatewayAssociationProposalRoleArn() {
     return this.getStringAttribute('accept_direct_connect_gateway_association_proposal_role_arn');
   }
@@ -110,7 +110,7 @@ export class DirectconnectDirectConnectGatewayAssociation extends cdktn.Terrafor
   }
 
   // allowed_prefixes_to_direct_connect_gateway - computed: true, optional: true, required: false
-  private _allowedPrefixesToDirectConnectGateway?: string[];
+  private _allowedPrefixesToDirectConnectGateway?: string[]; 
   public get allowedPrefixesToDirectConnectGateway() {
     return cdktn.Fn.tolist(this.getListAttribute('allowed_prefixes_to_direct_connect_gateway'));
   }
@@ -126,7 +126,7 @@ export class DirectconnectDirectConnectGatewayAssociation extends cdktn.Terrafor
   }
 
   // associated_gateway_id - computed: false, optional: false, required: true
-  private _associatedGatewayId?: string;
+  private _associatedGatewayId?: string; 
   public get associatedGatewayId() {
     return this.getStringAttribute('associated_gateway_id');
   }
@@ -144,7 +144,7 @@ export class DirectconnectDirectConnectGatewayAssociation extends cdktn.Terrafor
   }
 
   // direct_connect_gateway_id - computed: false, optional: false, required: true
-  private _directConnectGatewayId?: string;
+  private _directConnectGatewayId?: string; 
   public get directConnectGatewayId() {
     return this.getStringAttribute('direct_connect_gateway_id');
   }

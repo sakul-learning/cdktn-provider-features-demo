@@ -96,7 +96,7 @@ export class ElementalinferenceDictionary extends cdktn.TerraformResource {
   }
 
   // entries - computed: true, optional: true, required: false
-  private _entries?: string;
+  private _entries?: string; 
   public get entries() {
     return this.getStringAttribute('entries');
   }
@@ -117,7 +117,7 @@ export class ElementalinferenceDictionary extends cdktn.TerraformResource {
   }
 
   // language - computed: false, optional: false, required: true
-  private _language?: string;
+  private _language?: string; 
   public get language() {
     return this.getStringAttribute('language');
   }
@@ -130,7 +130,7 @@ export class ElementalinferenceDictionary extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -143,7 +143,7 @@ export class ElementalinferenceDictionary extends cdktn.TerraformResource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

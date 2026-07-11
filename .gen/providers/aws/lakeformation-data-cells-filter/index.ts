@@ -107,7 +107,7 @@ export class LakeformationDataCellsFilterTableDataColumnWildcardOutputReference 
   }
 
   // excluded_column_names - computed: false, optional: true, required: false
-  private _excludedColumnNames?: string[];
+  private _excludedColumnNames?: string[]; 
   public get excludedColumnNames() {
     return cdktn.Fn.tolist(this.getListAttribute('excluded_column_names'));
   }
@@ -323,7 +323,7 @@ export class LakeformationDataCellsFilterTableDataRowFilterOutputReference exten
   }
 
   // filter_expression - computed: true, optional: true, required: false
-  private _filterExpression?: string;
+  private _filterExpression?: string; 
   public get filterExpression() {
     return this.getStringAttribute('filter_expression');
   }
@@ -578,7 +578,7 @@ export class LakeformationDataCellsFilterTableDataOutputReference extends cdktn.
   }
 
   // column_names - computed: true, optional: true, required: false
-  private _columnNames?: string[];
+  private _columnNames?: string[]; 
   public get columnNames() {
     return cdktn.Fn.tolist(this.getListAttribute('column_names'));
   }
@@ -594,7 +594,7 @@ export class LakeformationDataCellsFilterTableDataOutputReference extends cdktn.
   }
 
   // database_name - computed: false, optional: false, required: true
-  private _databaseName?: string;
+  private _databaseName?: string; 
   public get databaseName() {
     return this.getStringAttribute('database_name');
   }
@@ -607,7 +607,7 @@ export class LakeformationDataCellsFilterTableDataOutputReference extends cdktn.
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -620,7 +620,7 @@ export class LakeformationDataCellsFilterTableDataOutputReference extends cdktn.
   }
 
   // table_catalog_id - computed: false, optional: false, required: true
-  private _tableCatalogId?: string;
+  private _tableCatalogId?: string; 
   public get tableCatalogId() {
     return this.getStringAttribute('table_catalog_id');
   }
@@ -633,7 +633,7 @@ export class LakeformationDataCellsFilterTableDataOutputReference extends cdktn.
   }
 
   // table_name - computed: false, optional: false, required: true
-  private _tableName?: string;
+  private _tableName?: string; 
   public get tableName() {
     return this.getStringAttribute('table_name');
   }
@@ -646,7 +646,7 @@ export class LakeformationDataCellsFilterTableDataOutputReference extends cdktn.
   }
 
   // version_id - computed: true, optional: true, required: false
-  private _versionId?: string;
+  private _versionId?: string; 
   public get versionId() {
     return this.getStringAttribute('version_id');
   }
@@ -794,7 +794,7 @@ export class LakeformationDataCellsFilterTimeoutsOutputReference extends cdktn.C
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -875,7 +875,7 @@ export class LakeformationDataCellsFilter extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

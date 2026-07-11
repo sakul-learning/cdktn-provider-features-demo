@@ -125,7 +125,7 @@ export class SagemakerHubS3StorageConfigOutputReference extends cdktn.ComplexObj
   }
 
   // s3_output_path - computed: true, optional: true, required: false
-  private _s3OutputPath?: string;
+  private _s3OutputPath?: string; 
   public get s3OutputPath() {
     return this.getStringAttribute('s3_output_path');
   }
@@ -238,7 +238,7 @@ export class SagemakerHubTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -254,7 +254,7 @@ export class SagemakerHubTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -363,7 +363,7 @@ export class SagemakerHub extends cdktn.TerraformResource {
   }
 
   // hub_description - computed: false, optional: false, required: true
-  private _hubDescription?: string;
+  private _hubDescription?: string; 
   public get hubDescription() {
     return this.getStringAttribute('hub_description');
   }
@@ -376,7 +376,7 @@ export class SagemakerHub extends cdktn.TerraformResource {
   }
 
   // hub_display_name - computed: true, optional: true, required: false
-  private _hubDisplayName?: string;
+  private _hubDisplayName?: string; 
   public get hubDisplayName() {
     return this.getStringAttribute('hub_display_name');
   }
@@ -392,7 +392,7 @@ export class SagemakerHub extends cdktn.TerraformResource {
   }
 
   // hub_name - computed: false, optional: false, required: true
-  private _hubName?: string;
+  private _hubName?: string; 
   public get hubName() {
     return this.getStringAttribute('hub_name');
   }
@@ -405,7 +405,7 @@ export class SagemakerHub extends cdktn.TerraformResource {
   }
 
   // hub_search_keywords - computed: true, optional: true, required: false
-  private _hubSearchKeywords?: string[];
+  private _hubSearchKeywords?: string[]; 
   public get hubSearchKeywords() {
     return this.getListAttribute('hub_search_keywords');
   }

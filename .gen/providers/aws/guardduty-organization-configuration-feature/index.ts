@@ -137,7 +137,7 @@ export class GuarddutyOrganizationConfigurationFeatureAdditionalConfigurationOut
   }
 
   // auto_enable - computed: false, optional: false, required: true
-  private _autoEnable?: string;
+  private _autoEnable?: string; 
   public get autoEnable() {
     return this.getStringAttribute('auto_enable');
   }
@@ -150,7 +150,7 @@ export class GuarddutyOrganizationConfigurationFeatureAdditionalConfigurationOut
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -246,7 +246,7 @@ export class GuarddutyOrganizationConfigurationFeature extends cdktn.TerraformRe
   // ==========
 
   // auto_enable - computed: false, optional: false, required: true
-  private _autoEnable?: string;
+  private _autoEnable?: string; 
   public get autoEnable() {
     return this.getStringAttribute('auto_enable');
   }
@@ -259,7 +259,7 @@ export class GuarddutyOrganizationConfigurationFeature extends cdktn.TerraformRe
   }
 
   // detector_id - computed: false, optional: false, required: true
-  private _detectorId?: string;
+  private _detectorId?: string; 
   public get detectorId() {
     return this.getStringAttribute('detector_id');
   }
@@ -272,7 +272,7 @@ export class GuarddutyOrganizationConfigurationFeature extends cdktn.TerraformRe
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -288,7 +288,7 @@ export class GuarddutyOrganizationConfigurationFeature extends cdktn.TerraformRe
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -301,7 +301,7 @@ export class GuarddutyOrganizationConfigurationFeature extends cdktn.TerraformRe
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

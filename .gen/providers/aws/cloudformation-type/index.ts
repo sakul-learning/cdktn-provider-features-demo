@@ -129,7 +129,7 @@ export class CloudformationTypeLoggingConfigOutputReference extends cdktn.Comple
   }
 
   // log_group_name - computed: false, optional: false, required: true
-  private _logGroupName?: string;
+  private _logGroupName?: string; 
   public get logGroupName() {
     return this.getStringAttribute('log_group_name');
   }
@@ -142,7 +142,7 @@ export class CloudformationTypeLoggingConfigOutputReference extends cdktn.Comple
   }
 
   // log_role_arn - computed: false, optional: false, required: true
-  private _logRoleArn?: string;
+  private _logRoleArn?: string; 
   public get logRoleArn() {
     return this.getStringAttribute('log_role_arn');
   }
@@ -244,7 +244,7 @@ export class CloudformationType extends cdktn.TerraformResource {
   }
 
   // execution_role_arn - computed: false, optional: true, required: false
-  private _executionRoleArn?: string;
+  private _executionRoleArn?: string; 
   public get executionRoleArn() {
     return this.getStringAttribute('execution_role_arn');
   }
@@ -260,7 +260,7 @@ export class CloudformationType extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -286,7 +286,7 @@ export class CloudformationType extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -307,7 +307,7 @@ export class CloudformationType extends cdktn.TerraformResource {
   }
 
   // schema_handler_package - computed: false, optional: false, required: true
-  private _schemaHandlerPackage?: string;
+  private _schemaHandlerPackage?: string; 
   public get schemaHandlerPackage() {
     return this.getStringAttribute('schema_handler_package');
   }
@@ -325,7 +325,7 @@ export class CloudformationType extends cdktn.TerraformResource {
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -346,7 +346,7 @@ export class CloudformationType extends cdktn.TerraformResource {
   }
 
   // type_name - computed: false, optional: false, required: true
-  private _typeName?: string;
+  private _typeName?: string; 
   public get typeName() {
     return this.getStringAttribute('type_name');
   }

@@ -143,7 +143,7 @@ export class ConfigConfigurationAggregatorAccountAggregationSourcesOutputReferen
   }
 
   // account_ids - computed: true, optional: true, required: false
-  private _accountIds?: string[];
+  private _accountIds?: string[]; 
   public get accountIds() {
     return this.getListAttribute('account_ids');
   }
@@ -159,7 +159,7 @@ export class ConfigConfigurationAggregatorAccountAggregationSourcesOutputReferen
   }
 
   // all_aws_regions - computed: true, optional: true, required: false
-  private _allAwsRegions?: boolean | cdktn.IResolvable;
+  private _allAwsRegions?: boolean | cdktn.IResolvable; 
   public get allAwsRegions() {
     return this.getBooleanAttribute('all_aws_regions');
   }
@@ -175,7 +175,7 @@ export class ConfigConfigurationAggregatorAccountAggregationSourcesOutputReferen
   }
 
   // aws_regions - computed: true, optional: true, required: false
-  private _awsRegions?: string[];
+  private _awsRegions?: string[]; 
   public get awsRegions() {
     return this.getListAttribute('aws_regions');
   }
@@ -323,7 +323,7 @@ export class ConfigConfigurationAggregatorOrganizationAggregationSourceOutputRef
   }
 
   // all_aws_regions - computed: true, optional: true, required: false
-  private _allAwsRegions?: boolean | cdktn.IResolvable;
+  private _allAwsRegions?: boolean | cdktn.IResolvable; 
   public get allAwsRegions() {
     return this.getBooleanAttribute('all_aws_regions');
   }
@@ -339,7 +339,7 @@ export class ConfigConfigurationAggregatorOrganizationAggregationSourceOutputRef
   }
 
   // aws_regions - computed: true, optional: true, required: false
-  private _awsRegions?: string[];
+  private _awsRegions?: string[]; 
   public get awsRegions() {
     return this.getListAttribute('aws_regions');
   }
@@ -355,7 +355,7 @@ export class ConfigConfigurationAggregatorOrganizationAggregationSourceOutputRef
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -372,13 +372,13 @@ export class ConfigConfigurationAggregatorOrganizationAggregationSourceOutputRef
 }
 export interface ConfigConfigurationAggregatorTags {
   /**
-  * The key name of the tag. You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
+  * The key name of the tag. You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/config_configuration_aggregator#key ConfigConfigurationAggregator#key}
   */
   readonly key?: string;
   /**
-  * The value for the tag. You can specify a value that is 1 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
+  * The value for the tag. You can specify a value that is 1 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/config_configuration_aggregator#value ConfigConfigurationAggregator#value}
   */
@@ -472,7 +472,7 @@ export class ConfigConfigurationAggregatorTagsOutputReference extends cdktn.Comp
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -488,7 +488,7 @@ export class ConfigConfigurationAggregatorTagsOutputReference extends cdktn.Comp
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -606,7 +606,7 @@ export class ConfigConfigurationAggregator extends cdktn.TerraformResource {
   }
 
   // configuration_aggregator_name - computed: true, optional: true, required: false
-  private _configurationAggregatorName?: string;
+  private _configurationAggregatorName?: string; 
   public get configurationAggregatorName() {
     return this.getStringAttribute('configuration_aggregator_name');
   }

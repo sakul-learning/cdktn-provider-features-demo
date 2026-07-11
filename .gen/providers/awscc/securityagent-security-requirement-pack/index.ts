@@ -203,7 +203,7 @@ export class SecurityagentSecurityRequirementPackSecurityRequirementsOutputRefer
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -219,7 +219,7 @@ export class SecurityagentSecurityRequirementPackSecurityRequirementsOutputRefer
   }
 
   // domain - computed: true, optional: true, required: false
-  private _domain?: string;
+  private _domain?: string; 
   public get domain() {
     return this.getStringAttribute('domain');
   }
@@ -235,7 +235,7 @@ export class SecurityagentSecurityRequirementPackSecurityRequirementsOutputRefer
   }
 
   // evaluation - computed: true, optional: true, required: false
-  private _evaluation?: string;
+  private _evaluation?: string; 
   public get evaluation() {
     return this.getStringAttribute('evaluation');
   }
@@ -251,7 +251,7 @@ export class SecurityagentSecurityRequirementPackSecurityRequirementsOutputRefer
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -267,7 +267,7 @@ export class SecurityagentSecurityRequirementPackSecurityRequirementsOutputRefer
   }
 
   // remediation - computed: true, optional: true, required: false
-  private _remediation?: string;
+  private _remediation?: string; 
   public get remediation() {
     return this.getStringAttribute('remediation');
   }
@@ -404,7 +404,7 @@ export class SecurityagentSecurityRequirementPackTagsOutputReference extends cdk
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -420,7 +420,7 @@ export class SecurityagentSecurityRequirementPackTagsOutputReference extends cdk
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -519,7 +519,7 @@ export class SecurityagentSecurityRequirementPack extends cdktn.TerraformResourc
   // ==========
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -540,7 +540,7 @@ export class SecurityagentSecurityRequirementPack extends cdktn.TerraformResourc
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -556,7 +556,7 @@ export class SecurityagentSecurityRequirementPack extends cdktn.TerraformResourc
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -590,7 +590,7 @@ export class SecurityagentSecurityRequirementPack extends cdktn.TerraformResourc
   }
 
   // status - computed: true, optional: true, required: false
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }

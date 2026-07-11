@@ -80,7 +80,7 @@ export class NotificationsManagedNotificationAccountContactAssociation extends c
   // ==========
 
   // contact_identifier - computed: false, optional: false, required: true
-  private _contactIdentifier?: string;
+  private _contactIdentifier?: string; 
   public get contactIdentifier() {
     return this.getStringAttribute('contact_identifier');
   }
@@ -98,7 +98,7 @@ export class NotificationsManagedNotificationAccountContactAssociation extends c
   }
 
   // managed_notification_configuration_arn - computed: false, optional: false, required: true
-  private _managedNotificationConfigurationArn?: string;
+  private _managedNotificationConfigurationArn?: string; 
   public get managedNotificationConfigurationArn() {
     return this.getStringAttribute('managed_notification_configuration_arn');
   }

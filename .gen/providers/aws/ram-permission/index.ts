@@ -117,7 +117,7 @@ export class RamPermissionTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -206,7 +206,7 @@ export class RamPermission extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -219,7 +219,7 @@ export class RamPermission extends cdktn.TerraformResource {
   }
 
   // policy_template - computed: false, optional: false, required: true
-  private _policyTemplate?: string;
+  private _policyTemplate?: string; 
   public get policyTemplate() {
     return this.getStringAttribute('policy_template');
   }
@@ -232,7 +232,7 @@ export class RamPermission extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -248,7 +248,7 @@ export class RamPermission extends cdktn.TerraformResource {
   }
 
   // resource_type - computed: false, optional: false, required: true
-  private _resourceType?: string;
+  private _resourceType?: string; 
   public get resourceType() {
     return this.getStringAttribute('resource_type');
   }
@@ -266,7 +266,7 @@ export class RamPermission extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

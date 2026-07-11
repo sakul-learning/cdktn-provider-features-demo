@@ -143,7 +143,7 @@ export class KendraThesaurusSourceS3PathOutputReference extends cdktn.ComplexObj
   }
 
   // bucket - computed: false, optional: false, required: true
-  private _bucket?: string;
+  private _bucket?: string; 
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -156,7 +156,7 @@ export class KendraThesaurusSourceS3PathOutputReference extends cdktn.ComplexObj
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -281,7 +281,7 @@ export class KendraThesaurusTimeoutsOutputReference extends cdktn.ComplexObject 
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -297,7 +297,7 @@ export class KendraThesaurusTimeoutsOutputReference extends cdktn.ComplexObject 
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -313,7 +313,7 @@ export class KendraThesaurusTimeoutsOutputReference extends cdktn.ComplexObject 
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -401,7 +401,7 @@ export class KendraThesaurus extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -417,7 +417,7 @@ export class KendraThesaurus extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -433,7 +433,7 @@ export class KendraThesaurus extends cdktn.TerraformResource {
   }
 
   // index_id - computed: false, optional: false, required: true
-  private _indexId?: string;
+  private _indexId?: string; 
   public get indexId() {
     return this.getStringAttribute('index_id');
   }
@@ -446,7 +446,7 @@ export class KendraThesaurus extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -459,7 +459,7 @@ export class KendraThesaurus extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -475,7 +475,7 @@ export class KendraThesaurus extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -493,7 +493,7 @@ export class KendraThesaurus extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -509,7 +509,7 @@ export class KendraThesaurus extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

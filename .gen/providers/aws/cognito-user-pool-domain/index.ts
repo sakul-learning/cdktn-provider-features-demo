@@ -106,7 +106,7 @@ export class CognitoUserPoolDomain extends cdktn.TerraformResource {
   }
 
   // certificate_arn - computed: false, optional: true, required: false
-  private _certificateArn?: string;
+  private _certificateArn?: string; 
   public get certificateArn() {
     return this.getStringAttribute('certificate_arn');
   }
@@ -137,7 +137,7 @@ export class CognitoUserPoolDomain extends cdktn.TerraformResource {
   }
 
   // domain - computed: false, optional: false, required: true
-  private _domain?: string;
+  private _domain?: string; 
   public get domain() {
     return this.getStringAttribute('domain');
   }
@@ -150,7 +150,7 @@ export class CognitoUserPoolDomain extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -166,7 +166,7 @@ export class CognitoUserPoolDomain extends cdktn.TerraformResource {
   }
 
   // managed_login_version - computed: true, optional: true, required: false
-  private _managedLoginVersion?: number;
+  private _managedLoginVersion?: number; 
   public get managedLoginVersion() {
     return this.getNumberAttribute('managed_login_version');
   }
@@ -182,7 +182,7 @@ export class CognitoUserPoolDomain extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -203,7 +203,7 @@ export class CognitoUserPoolDomain extends cdktn.TerraformResource {
   }
 
   // user_pool_id - computed: false, optional: false, required: true
-  private _userPoolId?: string;
+  private _userPoolId?: string; 
   public get userPoolId() {
     return this.getStringAttribute('user_pool_id');
   }

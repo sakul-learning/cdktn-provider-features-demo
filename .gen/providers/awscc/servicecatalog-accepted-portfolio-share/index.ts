@@ -80,7 +80,7 @@ export class ServicecatalogAcceptedPortfolioShare extends cdktn.TerraformResourc
   // ==========
 
   // accept_language - computed: true, optional: true, required: false
-  private _acceptLanguage?: string;
+  private _acceptLanguage?: string; 
   public get acceptLanguage() {
     return this.getStringAttribute('accept_language');
   }
@@ -101,7 +101,7 @@ export class ServicecatalogAcceptedPortfolioShare extends cdktn.TerraformResourc
   }
 
   // portfolio_id - computed: false, optional: false, required: true
-  private _portfolioId?: string;
+  private _portfolioId?: string; 
   public get portfolioId() {
     return this.getStringAttribute('portfolio_id');
   }

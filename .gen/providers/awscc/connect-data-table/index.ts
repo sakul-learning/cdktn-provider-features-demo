@@ -106,13 +106,13 @@ export class ConnectDataTableLockVersionOutputReference extends cdktn.ComplexObj
 }
 export interface ConnectDataTableTags {
   /**
-  * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
+  * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_data_table#key ConnectDataTable#key}
   */
   readonly key?: string;
   /**
-  * The value for the tag. You can specify a value that is maximum of 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
+  * The value for the tag. You can specify a value that is maximum of 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_data_table#value ConnectDataTable#value}
   */
@@ -206,7 +206,7 @@ export class ConnectDataTableTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -222,7 +222,7 @@ export class ConnectDataTableTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -332,7 +332,7 @@ export class ConnectDataTable extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -353,7 +353,7 @@ export class ConnectDataTable extends cdktn.TerraformResource {
   }
 
   // instance_arn - computed: true, optional: true, required: false
-  private _instanceArn?: string;
+  private _instanceArn?: string; 
   public get instanceArn() {
     return this.getStringAttribute('instance_arn');
   }
@@ -385,7 +385,7 @@ export class ConnectDataTable extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -401,7 +401,7 @@ export class ConnectDataTable extends cdktn.TerraformResource {
   }
 
   // status - computed: true, optional: true, required: false
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -433,7 +433,7 @@ export class ConnectDataTable extends cdktn.TerraformResource {
   }
 
   // time_zone - computed: true, optional: true, required: false
-  private _timeZone?: string;
+  private _timeZone?: string; 
   public get timeZone() {
     return this.getStringAttribute('time_zone');
   }
@@ -449,7 +449,7 @@ export class ConnectDataTable extends cdktn.TerraformResource {
   }
 
   // value_lock_level - computed: true, optional: true, required: false
-  private _valueLockLevel?: string;
+  private _valueLockLevel?: string; 
   public get valueLockLevel() {
     return this.getStringAttribute('value_lock_level');
   }

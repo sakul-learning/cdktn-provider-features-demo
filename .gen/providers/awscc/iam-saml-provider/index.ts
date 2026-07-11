@@ -144,7 +144,7 @@ export class IamSamlProviderPrivateKeyListStructOutputReference extends cdktn.Co
   }
 
   // key_id - computed: true, optional: true, required: false
-  private _keyId?: string;
+  private _keyId?: string; 
   public get keyId() {
     return this.getStringAttribute('key_id');
   }
@@ -160,7 +160,7 @@ export class IamSamlProviderPrivateKeyListStructOutputReference extends cdktn.Co
   }
 
   // timestamp - computed: true, optional: true, required: false
-  private _timestamp?: string;
+  private _timestamp?: string; 
   public get timestamp() {
     return this.getStringAttribute('timestamp');
   }
@@ -297,7 +297,7 @@ export class IamSamlProviderTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -313,7 +313,7 @@ export class IamSamlProviderTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -413,7 +413,7 @@ export class IamSamlProvider extends cdktn.TerraformResource {
   // ==========
 
   // add_private_key - computed: true, optional: true, required: false
-  private _addPrivateKey?: string;
+  private _addPrivateKey?: string; 
   public get addPrivateKey() {
     return this.getStringAttribute('add_private_key');
   }
@@ -434,7 +434,7 @@ export class IamSamlProvider extends cdktn.TerraformResource {
   }
 
   // assertion_encryption_mode - computed: true, optional: true, required: false
-  private _assertionEncryptionMode?: string;
+  private _assertionEncryptionMode?: string; 
   public get assertionEncryptionMode() {
     return this.getStringAttribute('assertion_encryption_mode');
   }
@@ -455,7 +455,7 @@ export class IamSamlProvider extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -487,7 +487,7 @@ export class IamSamlProvider extends cdktn.TerraformResource {
   }
 
   // remove_private_key - computed: true, optional: true, required: false
-  private _removePrivateKey?: string;
+  private _removePrivateKey?: string; 
   public get removePrivateKey() {
     return this.getStringAttribute('remove_private_key');
   }
@@ -503,7 +503,7 @@ export class IamSamlProvider extends cdktn.TerraformResource {
   }
 
   // saml_metadata_document - computed: true, optional: true, required: false
-  private _samlMetadataDocument?: string;
+  private _samlMetadataDocument?: string; 
   public get samlMetadataDocument() {
     return this.getStringAttribute('saml_metadata_document');
   }

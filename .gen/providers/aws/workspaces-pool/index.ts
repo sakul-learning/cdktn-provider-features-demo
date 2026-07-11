@@ -156,7 +156,7 @@ export class WorkspacesPoolApplicationSettingsOutputReference extends cdktn.Comp
   }
 
   // settings_group - computed: true, optional: true, required: false
-  private _settingsGroup?: string;
+  private _settingsGroup?: string; 
   public get settingsGroup() {
     return this.getStringAttribute('settings_group');
   }
@@ -172,7 +172,7 @@ export class WorkspacesPoolApplicationSettingsOutputReference extends cdktn.Comp
   }
 
   // status - computed: true, optional: true, required: false
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -412,7 +412,7 @@ export class WorkspacesPoolTimeoutSettingsOutputReference extends cdktn.ComplexO
   }
 
   // disconnect_timeout_in_seconds - computed: true, optional: true, required: false
-  private _disconnectTimeoutInSeconds?: number;
+  private _disconnectTimeoutInSeconds?: number; 
   public get disconnectTimeoutInSeconds() {
     return this.getNumberAttribute('disconnect_timeout_in_seconds');
   }
@@ -428,7 +428,7 @@ export class WorkspacesPoolTimeoutSettingsOutputReference extends cdktn.ComplexO
   }
 
   // idle_disconnect_timeout_in_seconds - computed: true, optional: true, required: false
-  private _idleDisconnectTimeoutInSeconds?: number;
+  private _idleDisconnectTimeoutInSeconds?: number; 
   public get idleDisconnectTimeoutInSeconds() {
     return this.getNumberAttribute('idle_disconnect_timeout_in_seconds');
   }
@@ -444,7 +444,7 @@ export class WorkspacesPoolTimeoutSettingsOutputReference extends cdktn.ComplexO
   }
 
   // max_user_duration_in_seconds - computed: true, optional: true, required: false
-  private _maxUserDurationInSeconds?: number;
+  private _maxUserDurationInSeconds?: number; 
   public get maxUserDurationInSeconds() {
     return this.getNumberAttribute('max_user_duration_in_seconds');
   }
@@ -560,7 +560,7 @@ export class WorkspacesPoolCapacityOutputReference extends cdktn.ComplexObject {
   }
 
   // desired_user_sessions - computed: false, optional: false, required: true
-  private _desiredUserSessions?: number;
+  private _desiredUserSessions?: number; 
   public get desiredUserSessions() {
     return this.getNumberAttribute('desired_user_sessions');
   }
@@ -711,7 +711,7 @@ export class WorkspacesPoolTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -727,7 +727,7 @@ export class WorkspacesPoolTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -743,7 +743,7 @@ export class WorkspacesPoolTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -843,7 +843,7 @@ export class WorkspacesPool extends cdktn.TerraformResource {
   }
 
   // bundle_id - computed: false, optional: false, required: true
-  private _bundleId?: string;
+  private _bundleId?: string; 
   public get bundleId() {
     return this.getStringAttribute('bundle_id');
   }
@@ -867,7 +867,7 @@ export class WorkspacesPool extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: false, required: true
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -880,7 +880,7 @@ export class WorkspacesPool extends cdktn.TerraformResource {
   }
 
   // directory_id - computed: false, optional: false, required: true
-  private _directoryId?: string;
+  private _directoryId?: string; 
   public get directoryId() {
     return this.getStringAttribute('directory_id');
   }
@@ -903,7 +903,7 @@ export class WorkspacesPool extends cdktn.TerraformResource {
   }
 
   // pool_name - computed: false, optional: false, required: true
-  private _poolName?: string;
+  private _poolName?: string; 
   public get poolName() {
     return this.getStringAttribute('pool_name');
   }
@@ -916,7 +916,7 @@ export class WorkspacesPool extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -932,7 +932,7 @@ export class WorkspacesPool extends cdktn.TerraformResource {
   }
 
   // running_mode - computed: false, optional: false, required: true
-  private _runningMode?: string;
+  private _runningMode?: string; 
   public get runningMode() {
     return this.getStringAttribute('running_mode');
   }
@@ -955,7 +955,7 @@ export class WorkspacesPool extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

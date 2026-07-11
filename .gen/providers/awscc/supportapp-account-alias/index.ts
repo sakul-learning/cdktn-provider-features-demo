@@ -73,7 +73,7 @@ export class SupportappAccountAlias extends cdktn.TerraformResource {
   // ==========
 
   // account_alias - computed: false, optional: false, required: true
-  private _accountAlias?: string;
+  private _accountAlias?: string; 
   public get accountAlias() {
     return this.getStringAttribute('account_alias');
   }

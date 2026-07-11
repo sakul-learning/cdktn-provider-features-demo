@@ -124,7 +124,7 @@ export class SesMailManagerTrafficPolicyPolicyStatementsConditionsBooleanExpress
   }
 
   // analyzer - computed: true, optional: true, required: false
-  private _analyzer?: string;
+  private _analyzer?: string; 
   public get analyzer() {
     return this.getStringAttribute('analyzer');
   }
@@ -140,7 +140,7 @@ export class SesMailManagerTrafficPolicyPolicyStatementsConditionsBooleanExpress
   }
 
   // result_field - computed: true, optional: true, required: false
-  private _resultField?: string;
+  private _resultField?: string; 
   public get resultField() {
     return this.getStringAttribute('result_field');
   }
@@ -251,7 +251,7 @@ export class SesMailManagerTrafficPolicyPolicyStatementsConditionsBooleanExpress
   }
 
   // address_lists - computed: true, optional: true, required: false
-  private _addressLists?: string[];
+  private _addressLists?: string[]; 
   public get addressLists() {
     return this.getListAttribute('address_lists');
   }
@@ -267,7 +267,7 @@ export class SesMailManagerTrafficPolicyPolicyStatementsConditionsBooleanExpress
   }
 
   // attribute - computed: true, optional: true, required: false
-  private _attribute?: string;
+  private _attribute?: string; 
   public get attribute() {
     return this.getStringAttribute('attribute');
   }
@@ -521,7 +521,7 @@ export class SesMailManagerTrafficPolicyPolicyStatementsConditionsBooleanExpress
   }
 
   // operator - computed: true, optional: true, required: false
-  private _operator?: string;
+  private _operator?: string; 
   public get operator() {
     return this.getStringAttribute('operator');
   }
@@ -615,7 +615,7 @@ export class SesMailManagerTrafficPolicyPolicyStatementsConditionsIpExpressionEv
   }
 
   // attribute - computed: true, optional: true, required: false
-  private _attribute?: string;
+  private _attribute?: string; 
   public get attribute() {
     return this.getStringAttribute('attribute');
   }
@@ -759,7 +759,7 @@ export class SesMailManagerTrafficPolicyPolicyStatementsConditionsIpExpressionOu
   }
 
   // operator - computed: true, optional: true, required: false
-  private _operator?: string;
+  private _operator?: string; 
   public get operator() {
     return this.getStringAttribute('operator');
   }
@@ -775,7 +775,7 @@ export class SesMailManagerTrafficPolicyPolicyStatementsConditionsIpExpressionOu
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -869,7 +869,7 @@ export class SesMailManagerTrafficPolicyPolicyStatementsConditionsIpv6Expression
   }
 
   // attribute - computed: true, optional: true, required: false
-  private _attribute?: string;
+  private _attribute?: string; 
   public get attribute() {
     return this.getStringAttribute('attribute');
   }
@@ -1013,7 +1013,7 @@ export class SesMailManagerTrafficPolicyPolicyStatementsConditionsIpv6Expression
   }
 
   // operator - computed: true, optional: true, required: false
-  private _operator?: string;
+  private _operator?: string; 
   public get operator() {
     return this.getStringAttribute('operator');
   }
@@ -1029,7 +1029,7 @@ export class SesMailManagerTrafficPolicyPolicyStatementsConditionsIpv6Expression
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -1140,7 +1140,7 @@ export class SesMailManagerTrafficPolicyPolicyStatementsConditionsStringExpressi
   }
 
   // analyzer - computed: true, optional: true, required: false
-  private _analyzer?: string;
+  private _analyzer?: string; 
   public get analyzer() {
     return this.getStringAttribute('analyzer');
   }
@@ -1156,7 +1156,7 @@ export class SesMailManagerTrafficPolicyPolicyStatementsConditionsStringExpressi
   }
 
   // result_field - computed: true, optional: true, required: false
-  private _resultField?: string;
+  private _resultField?: string; 
   public get resultField() {
     return this.getStringAttribute('result_field');
   }
@@ -1283,7 +1283,7 @@ export class SesMailManagerTrafficPolicyPolicyStatementsConditionsStringExpressi
   }
 
   // attribute - computed: true, optional: true, required: false
-  private _attribute?: string;
+  private _attribute?: string; 
   public get attribute() {
     return this.getStringAttribute('attribute');
   }
@@ -1427,7 +1427,7 @@ export class SesMailManagerTrafficPolicyPolicyStatementsConditionsStringExpressi
   }
 
   // operator - computed: true, optional: true, required: false
-  private _operator?: string;
+  private _operator?: string; 
   public get operator() {
     return this.getStringAttribute('operator');
   }
@@ -1443,7 +1443,7 @@ export class SesMailManagerTrafficPolicyPolicyStatementsConditionsStringExpressi
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -1537,7 +1537,7 @@ export class SesMailManagerTrafficPolicyPolicyStatementsConditionsTlsExpressionE
   }
 
   // attribute - computed: true, optional: true, required: false
-  private _attribute?: string;
+  private _attribute?: string; 
   public get attribute() {
     return this.getStringAttribute('attribute');
   }
@@ -1681,7 +1681,7 @@ export class SesMailManagerTrafficPolicyPolicyStatementsConditionsTlsExpressionO
   }
 
   // operator - computed: true, optional: true, required: false
-  private _operator?: string;
+  private _operator?: string; 
   public get operator() {
     return this.getStringAttribute('operator');
   }
@@ -1697,7 +1697,7 @@ export class SesMailManagerTrafficPolicyPolicyStatementsConditionsTlsExpressionO
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2058,7 +2058,7 @@ export class SesMailManagerTrafficPolicyPolicyStatementsOutputReference extends 
   }
 
   // action - computed: false, optional: false, required: true
-  private _action?: string;
+  private _action?: string; 
   public get action() {
     return this.getStringAttribute('action');
   }
@@ -2201,7 +2201,7 @@ export class SesMailManagerTrafficPolicyTagsOutputReference extends cdktn.Comple
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -2217,7 +2217,7 @@ export class SesMailManagerTrafficPolicyTagsOutputReference extends cdktn.Comple
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2315,7 +2315,7 @@ export class SesMailManagerTrafficPolicy extends cdktn.TerraformResource {
   // ==========
 
   // default_action - computed: false, optional: false, required: true
-  private _defaultAction?: string;
+  private _defaultAction?: string; 
   public get defaultAction() {
     return this.getStringAttribute('default_action');
   }
@@ -2333,7 +2333,7 @@ export class SesMailManagerTrafficPolicy extends cdktn.TerraformResource {
   }
 
   // max_message_size_bytes - computed: true, optional: true, required: false
-  private _maxMessageSizeBytes?: number;
+  private _maxMessageSizeBytes?: number; 
   public get maxMessageSizeBytes() {
     return this.getNumberAttribute('max_message_size_bytes');
   }
@@ -2388,7 +2388,7 @@ export class SesMailManagerTrafficPolicy extends cdktn.TerraformResource {
   }
 
   // traffic_policy_name - computed: true, optional: true, required: false
-  private _trafficPolicyName?: string;
+  private _trafficPolicyName?: string; 
   public get trafficPolicyName() {
     return this.getStringAttribute('traffic_policy_name');
   }

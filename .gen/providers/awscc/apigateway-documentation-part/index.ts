@@ -170,7 +170,7 @@ export class ApigatewayDocumentationPartLocationOutputReference extends cdktn.Co
   }
 
   // method - computed: true, optional: true, required: false
-  private _method?: string;
+  private _method?: string; 
   public get method() {
     return this.getStringAttribute('method');
   }
@@ -186,7 +186,7 @@ export class ApigatewayDocumentationPartLocationOutputReference extends cdktn.Co
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -202,7 +202,7 @@ export class ApigatewayDocumentationPartLocationOutputReference extends cdktn.Co
   }
 
   // path - computed: true, optional: true, required: false
-  private _path?: string;
+  private _path?: string; 
   public get path() {
     return this.getStringAttribute('path');
   }
@@ -218,7 +218,7 @@ export class ApigatewayDocumentationPartLocationOutputReference extends cdktn.Co
   }
 
   // status_code - computed: true, optional: true, required: false
-  private _statusCode?: string;
+  private _statusCode?: string; 
   public get statusCode() {
     return this.getStringAttribute('status_code');
   }
@@ -234,7 +234,7 @@ export class ApigatewayDocumentationPartLocationOutputReference extends cdktn.Co
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -333,7 +333,7 @@ export class ApigatewayDocumentationPart extends cdktn.TerraformResource {
   }
 
   // properties - computed: false, optional: false, required: true
-  private _properties?: string;
+  private _properties?: string; 
   public get properties() {
     return this.getStringAttribute('properties');
   }
@@ -346,7 +346,7 @@ export class ApigatewayDocumentationPart extends cdktn.TerraformResource {
   }
 
   // rest_api_id - computed: false, optional: false, required: true
-  private _restApiId?: string;
+  private _restApiId?: string; 
   public get restApiId() {
     return this.getStringAttribute('rest_api_id');
   }

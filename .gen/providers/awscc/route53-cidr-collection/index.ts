@@ -122,7 +122,7 @@ export class Route53CidrCollectionLocationsOutputReference extends cdktn.Complex
   }
 
   // cidr_list - computed: true, optional: true, required: false
-  private _cidrList?: string[];
+  private _cidrList?: string[]; 
   public get cidrList() {
     return cdktn.Fn.tolist(this.getListAttribute('cidr_list'));
   }
@@ -138,7 +138,7 @@ export class Route53CidrCollectionLocationsOutputReference extends cdktn.Complex
   }
 
   // location_name - computed: true, optional: true, required: false
-  private _locationName?: string;
+  private _locationName?: string; 
   public get locationName() {
     return this.getStringAttribute('location_name');
   }
@@ -264,7 +264,7 @@ export class Route53CidrCollection extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }

@@ -117,7 +117,7 @@ export class Greengrassv2ComponentVersionLambdaFunctionComponentDependenciesOutp
   }
 
   // dependency_type - computed: true, optional: true, required: false
-  private _dependencyType?: string;
+  private _dependencyType?: string; 
   public get dependencyType() {
     return this.getStringAttribute('dependency_type');
   }
@@ -133,7 +133,7 @@ export class Greengrassv2ComponentVersionLambdaFunctionComponentDependenciesOutp
   }
 
   // version_requirement - computed: true, optional: true, required: false
-  private _versionRequirement?: string;
+  private _versionRequirement?: string; 
   public get versionRequirement() {
     return this.getStringAttribute('version_requirement');
   }
@@ -265,7 +265,7 @@ export class Greengrassv2ComponentVersionLambdaFunctionComponentLambdaParameters
   }
 
   // topic - computed: true, optional: true, required: false
-  private _topic?: string;
+  private _topic?: string; 
   public get topic() {
     return this.getStringAttribute('topic');
   }
@@ -281,7 +281,7 @@ export class Greengrassv2ComponentVersionLambdaFunctionComponentLambdaParameters
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -431,7 +431,7 @@ export class Greengrassv2ComponentVersionLambdaFunctionComponentLambdaParameters
   }
 
   // add_group_owner - computed: true, optional: true, required: false
-  private _addGroupOwner?: boolean | cdktn.IResolvable;
+  private _addGroupOwner?: boolean | cdktn.IResolvable; 
   public get addGroupOwner() {
     return this.getBooleanAttribute('add_group_owner');
   }
@@ -447,7 +447,7 @@ export class Greengrassv2ComponentVersionLambdaFunctionComponentLambdaParameters
   }
 
   // path - computed: true, optional: true, required: false
-  private _path?: string;
+  private _path?: string; 
   public get path() {
     return this.getStringAttribute('path');
   }
@@ -463,7 +463,7 @@ export class Greengrassv2ComponentVersionLambdaFunctionComponentLambdaParameters
   }
 
   // permission - computed: true, optional: true, required: false
-  private _permission?: string;
+  private _permission?: string; 
   public get permission() {
     return this.getStringAttribute('permission');
   }
@@ -630,7 +630,7 @@ export class Greengrassv2ComponentVersionLambdaFunctionComponentLambdaParameters
   }
 
   // add_group_owner - computed: true, optional: true, required: false
-  private _addGroupOwner?: boolean | cdktn.IResolvable;
+  private _addGroupOwner?: boolean | cdktn.IResolvable; 
   public get addGroupOwner() {
     return this.getBooleanAttribute('add_group_owner');
   }
@@ -646,7 +646,7 @@ export class Greengrassv2ComponentVersionLambdaFunctionComponentLambdaParameters
   }
 
   // destination_path - computed: true, optional: true, required: false
-  private _destinationPath?: string;
+  private _destinationPath?: string; 
   public get destinationPath() {
     return this.getStringAttribute('destination_path');
   }
@@ -662,7 +662,7 @@ export class Greengrassv2ComponentVersionLambdaFunctionComponentLambdaParameters
   }
 
   // permission - computed: true, optional: true, required: false
-  private _permission?: string;
+  private _permission?: string; 
   public get permission() {
     return this.getStringAttribute('permission');
   }
@@ -678,7 +678,7 @@ export class Greengrassv2ComponentVersionLambdaFunctionComponentLambdaParameters
   }
 
   // source_path - computed: true, optional: true, required: false
-  private _sourcePath?: string;
+  private _sourcePath?: string; 
   public get sourcePath() {
     return this.getStringAttribute('source_path');
   }
@@ -859,7 +859,7 @@ export class Greengrassv2ComponentVersionLambdaFunctionComponentLambdaParameters
   }
 
   // memory_size_in_kb - computed: true, optional: true, required: false
-  private _memorySizeInKb?: number;
+  private _memorySizeInKb?: number; 
   public get memorySizeInKb() {
     return this.getNumberAttribute('memory_size_in_kb');
   }
@@ -875,7 +875,7 @@ export class Greengrassv2ComponentVersionLambdaFunctionComponentLambdaParameters
   }
 
   // mount_ro_sysfs - computed: true, optional: true, required: false
-  private _mountRoSysfs?: boolean | cdktn.IResolvable;
+  private _mountRoSysfs?: boolean | cdktn.IResolvable; 
   public get mountRoSysfs() {
     return this.getBooleanAttribute('mount_ro_sysfs');
   }
@@ -1018,7 +1018,7 @@ export class Greengrassv2ComponentVersionLambdaFunctionComponentLambdaParameters
   }
 
   // isolation_mode - computed: true, optional: true, required: false
-  private _isolationMode?: string;
+  private _isolationMode?: string; 
   public get isolationMode() {
     return this.getStringAttribute('isolation_mode');
   }
@@ -1282,7 +1282,7 @@ export class Greengrassv2ComponentVersionLambdaFunctionComponentLambdaParameters
   }
 
   // environment_variables - computed: true, optional: true, required: false
-  private _environmentVariables?: { [key: string]: string };
+  private _environmentVariables?: { [key: string]: string }; 
   public get environmentVariables() {
     return this.getStringMapAttribute('environment_variables');
   }
@@ -1314,7 +1314,7 @@ export class Greengrassv2ComponentVersionLambdaFunctionComponentLambdaParameters
   }
 
   // exec_args - computed: true, optional: true, required: false
-  private _execArgs?: string[];
+  private _execArgs?: string[]; 
   public get execArgs() {
     return this.getListAttribute('exec_args');
   }
@@ -1330,7 +1330,7 @@ export class Greengrassv2ComponentVersionLambdaFunctionComponentLambdaParameters
   }
 
   // input_payload_encoding_type - computed: true, optional: true, required: false
-  private _inputPayloadEncodingType?: string;
+  private _inputPayloadEncodingType?: string; 
   public get inputPayloadEncodingType() {
     return this.getStringAttribute('input_payload_encoding_type');
   }
@@ -1362,7 +1362,7 @@ export class Greengrassv2ComponentVersionLambdaFunctionComponentLambdaParameters
   }
 
   // max_idle_time_in_seconds - computed: true, optional: true, required: false
-  private _maxIdleTimeInSeconds?: number;
+  private _maxIdleTimeInSeconds?: number; 
   public get maxIdleTimeInSeconds() {
     return this.getNumberAttribute('max_idle_time_in_seconds');
   }
@@ -1378,7 +1378,7 @@ export class Greengrassv2ComponentVersionLambdaFunctionComponentLambdaParameters
   }
 
   // max_instances_count - computed: true, optional: true, required: false
-  private _maxInstancesCount?: number;
+  private _maxInstancesCount?: number; 
   public get maxInstancesCount() {
     return this.getNumberAttribute('max_instances_count');
   }
@@ -1394,7 +1394,7 @@ export class Greengrassv2ComponentVersionLambdaFunctionComponentLambdaParameters
   }
 
   // max_queue_size - computed: true, optional: true, required: false
-  private _maxQueueSize?: number;
+  private _maxQueueSize?: number; 
   public get maxQueueSize() {
     return this.getNumberAttribute('max_queue_size');
   }
@@ -1410,7 +1410,7 @@ export class Greengrassv2ComponentVersionLambdaFunctionComponentLambdaParameters
   }
 
   // pinned - computed: true, optional: true, required: false
-  private _pinned?: boolean | cdktn.IResolvable;
+  private _pinned?: boolean | cdktn.IResolvable; 
   public get pinned() {
     return this.getBooleanAttribute('pinned');
   }
@@ -1426,7 +1426,7 @@ export class Greengrassv2ComponentVersionLambdaFunctionComponentLambdaParameters
   }
 
   // status_timeout_in_seconds - computed: true, optional: true, required: false
-  private _statusTimeoutInSeconds?: number;
+  private _statusTimeoutInSeconds?: number; 
   public get statusTimeoutInSeconds() {
     return this.getNumberAttribute('status_timeout_in_seconds');
   }
@@ -1442,7 +1442,7 @@ export class Greengrassv2ComponentVersionLambdaFunctionComponentLambdaParameters
   }
 
   // timeout_in_seconds - computed: true, optional: true, required: false
-  private _timeoutInSeconds?: number;
+  private _timeoutInSeconds?: number; 
   public get timeoutInSeconds() {
     return this.getNumberAttribute('timeout_in_seconds');
   }
@@ -1555,7 +1555,7 @@ export class Greengrassv2ComponentVersionLambdaFunctionComponentPlatformsOutputR
   }
 
   // attributes - computed: true, optional: true, required: false
-  private _attributes?: { [key: string]: string };
+  private _attributes?: { [key: string]: string }; 
   public get attributes() {
     return this.getStringMapAttribute('attributes');
   }
@@ -1571,7 +1571,7 @@ export class Greengrassv2ComponentVersionLambdaFunctionComponentPlatformsOutputR
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1802,7 +1802,7 @@ export class Greengrassv2ComponentVersionLambdaFunctionOutputReference extends c
   }
 
   // component_name - computed: true, optional: true, required: false
-  private _componentName?: string;
+  private _componentName?: string; 
   public get componentName() {
     return this.getStringAttribute('component_name');
   }
@@ -1834,7 +1834,7 @@ export class Greengrassv2ComponentVersionLambdaFunctionOutputReference extends c
   }
 
   // component_version - computed: true, optional: true, required: false
-  private _componentVersion?: string;
+  private _componentVersion?: string; 
   public get componentVersion() {
     return this.getStringAttribute('component_version');
   }
@@ -1850,7 +1850,7 @@ export class Greengrassv2ComponentVersionLambdaFunctionOutputReference extends c
   }
 
   // lambda_arn - computed: true, optional: true, required: false
-  private _lambdaArn?: string;
+  private _lambdaArn?: string; 
   public get lambdaArn() {
     return this.getStringAttribute('lambda_arn');
   }
@@ -1946,7 +1946,7 @@ export class Greengrassv2ComponentVersion extends cdktn.TerraformResource {
   }
 
   // inline_recipe - computed: true, optional: true, required: false
-  private _inlineRecipe?: string;
+  private _inlineRecipe?: string; 
   public get inlineRecipe() {
     return this.getStringAttribute('inline_recipe');
   }
@@ -1978,7 +1978,7 @@ export class Greengrassv2ComponentVersion extends cdktn.TerraformResource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

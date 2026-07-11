@@ -216,7 +216,7 @@ export class QuicksightAccountSubscriptionTimeoutsOutputReference extends cdktn.
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -232,7 +232,7 @@ export class QuicksightAccountSubscriptionTimeoutsOutputReference extends cdktn.
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -248,7 +248,7 @@ export class QuicksightAccountSubscriptionTimeoutsOutputReference extends cdktn.
   }
 
   // read - computed: false, optional: true, required: false
-  private _read?: string;
+  private _read?: string; 
   public get read() {
     return this.getStringAttribute('read');
   }
@@ -343,7 +343,7 @@ export class QuicksightAccountSubscription extends cdktn.TerraformResource {
   // ==========
 
   // account_name - computed: false, optional: false, required: true
-  private _accountName?: string;
+  private _accountName?: string; 
   public get accountName() {
     return this.getStringAttribute('account_name');
   }
@@ -361,7 +361,7 @@ export class QuicksightAccountSubscription extends cdktn.TerraformResource {
   }
 
   // active_directory_name - computed: false, optional: true, required: false
-  private _activeDirectoryName?: string;
+  private _activeDirectoryName?: string; 
   public get activeDirectoryName() {
     return this.getStringAttribute('active_directory_name');
   }
@@ -377,7 +377,7 @@ export class QuicksightAccountSubscription extends cdktn.TerraformResource {
   }
 
   // admin_group - computed: false, optional: true, required: false
-  private _adminGroup?: string[];
+  private _adminGroup?: string[]; 
   public get adminGroup() {
     return this.getListAttribute('admin_group');
   }
@@ -393,7 +393,7 @@ export class QuicksightAccountSubscription extends cdktn.TerraformResource {
   }
 
   // admin_pro_group - computed: false, optional: true, required: false
-  private _adminProGroup?: string[];
+  private _adminProGroup?: string[]; 
   public get adminProGroup() {
     return this.getListAttribute('admin_pro_group');
   }
@@ -409,7 +409,7 @@ export class QuicksightAccountSubscription extends cdktn.TerraformResource {
   }
 
   // authentication_method - computed: false, optional: false, required: true
-  private _authenticationMethod?: string;
+  private _authenticationMethod?: string; 
   public get authenticationMethod() {
     return this.getStringAttribute('authentication_method');
   }
@@ -422,7 +422,7 @@ export class QuicksightAccountSubscription extends cdktn.TerraformResource {
   }
 
   // author_group - computed: false, optional: true, required: false
-  private _authorGroup?: string[];
+  private _authorGroup?: string[]; 
   public get authorGroup() {
     return this.getListAttribute('author_group');
   }
@@ -438,7 +438,7 @@ export class QuicksightAccountSubscription extends cdktn.TerraformResource {
   }
 
   // author_pro_group - computed: false, optional: true, required: false
-  private _authorProGroup?: string[];
+  private _authorProGroup?: string[]; 
   public get authorProGroup() {
     return this.getListAttribute('author_pro_group');
   }
@@ -454,7 +454,7 @@ export class QuicksightAccountSubscription extends cdktn.TerraformResource {
   }
 
   // aws_account_id - computed: true, optional: true, required: false
-  private _awsAccountId?: string;
+  private _awsAccountId?: string; 
   public get awsAccountId() {
     return this.getStringAttribute('aws_account_id');
   }
@@ -470,7 +470,7 @@ export class QuicksightAccountSubscription extends cdktn.TerraformResource {
   }
 
   // contact_number - computed: false, optional: true, required: false
-  private _contactNumber?: string;
+  private _contactNumber?: string; 
   public get contactNumber() {
     return this.getStringAttribute('contact_number');
   }
@@ -486,7 +486,7 @@ export class QuicksightAccountSubscription extends cdktn.TerraformResource {
   }
 
   // directory_id - computed: false, optional: true, required: false
-  private _directoryId?: string;
+  private _directoryId?: string; 
   public get directoryId() {
     return this.getStringAttribute('directory_id');
   }
@@ -502,7 +502,7 @@ export class QuicksightAccountSubscription extends cdktn.TerraformResource {
   }
 
   // edition - computed: false, optional: false, required: true
-  private _edition?: string;
+  private _edition?: string; 
   public get edition() {
     return this.getStringAttribute('edition');
   }
@@ -515,7 +515,7 @@ export class QuicksightAccountSubscription extends cdktn.TerraformResource {
   }
 
   // email_address - computed: false, optional: true, required: false
-  private _emailAddress?: string;
+  private _emailAddress?: string; 
   public get emailAddress() {
     return this.getStringAttribute('email_address');
   }
@@ -531,7 +531,7 @@ export class QuicksightAccountSubscription extends cdktn.TerraformResource {
   }
 
   // first_name - computed: false, optional: true, required: false
-  private _firstName?: string;
+  private _firstName?: string; 
   public get firstName() {
     return this.getStringAttribute('first_name');
   }
@@ -547,7 +547,7 @@ export class QuicksightAccountSubscription extends cdktn.TerraformResource {
   }
 
   // iam_identity_center_instance_arn - computed: false, optional: true, required: false
-  private _iamIdentityCenterInstanceArn?: string;
+  private _iamIdentityCenterInstanceArn?: string; 
   public get iamIdentityCenterInstanceArn() {
     return this.getStringAttribute('iam_identity_center_instance_arn');
   }
@@ -563,7 +563,7 @@ export class QuicksightAccountSubscription extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -579,7 +579,7 @@ export class QuicksightAccountSubscription extends cdktn.TerraformResource {
   }
 
   // last_name - computed: false, optional: true, required: false
-  private _lastName?: string;
+  private _lastName?: string; 
   public get lastName() {
     return this.getStringAttribute('last_name');
   }
@@ -595,7 +595,7 @@ export class QuicksightAccountSubscription extends cdktn.TerraformResource {
   }
 
   // notification_email - computed: false, optional: false, required: true
-  private _notificationEmail?: string;
+  private _notificationEmail?: string; 
   public get notificationEmail() {
     return this.getStringAttribute('notification_email');
   }
@@ -608,7 +608,7 @@ export class QuicksightAccountSubscription extends cdktn.TerraformResource {
   }
 
   // reader_group - computed: false, optional: true, required: false
-  private _readerGroup?: string[];
+  private _readerGroup?: string[]; 
   public get readerGroup() {
     return this.getListAttribute('reader_group');
   }
@@ -624,7 +624,7 @@ export class QuicksightAccountSubscription extends cdktn.TerraformResource {
   }
 
   // reader_pro_group - computed: false, optional: true, required: false
-  private _readerProGroup?: string[];
+  private _readerProGroup?: string[]; 
   public get readerProGroup() {
     return this.getListAttribute('reader_pro_group');
   }
@@ -640,7 +640,7 @@ export class QuicksightAccountSubscription extends cdktn.TerraformResource {
   }
 
   // realm - computed: false, optional: true, required: false
-  private _realm?: string;
+  private _realm?: string; 
   public get realm() {
     return this.getStringAttribute('realm');
   }
@@ -656,7 +656,7 @@ export class QuicksightAccountSubscription extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

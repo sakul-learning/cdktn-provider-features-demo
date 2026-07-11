@@ -131,7 +131,7 @@ export class QuicksightOAuthClientApplicationIdentityProviderVpcConnectionProper
   }
 
   // vpc_connection_arn - computed: true, optional: true, required: false
-  private _vpcConnectionArn?: string;
+  private _vpcConnectionArn?: string; 
   public get vpcConnectionArn() {
     return this.getStringAttribute('vpc_connection_arn');
   }
@@ -244,7 +244,7 @@ export class QuicksightOAuthClientApplicationTagsOutputReference extends cdktn.C
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -260,7 +260,7 @@ export class QuicksightOAuthClientApplicationTagsOutputReference extends cdktn.C
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -369,7 +369,7 @@ export class QuicksightOAuthClientApplication extends cdktn.TerraformResource {
   }
 
   // client_id - computed: true, optional: true, required: false
-  private _clientId?: string;
+  private _clientId?: string; 
   public get clientId() {
     return this.getStringAttribute('client_id');
   }
@@ -385,7 +385,7 @@ export class QuicksightOAuthClientApplication extends cdktn.TerraformResource {
   }
 
   // client_secret - computed: true, optional: true, required: false
-  private _clientSecret?: string;
+  private _clientSecret?: string; 
   public get clientSecret() {
     return this.getStringAttribute('client_secret');
   }
@@ -406,7 +406,7 @@ export class QuicksightOAuthClientApplication extends cdktn.TerraformResource {
   }
 
   // data_source_type - computed: true, optional: true, required: false
-  private _dataSourceType?: string;
+  private _dataSourceType?: string; 
   public get dataSourceType() {
     return this.getStringAttribute('data_source_type');
   }
@@ -448,7 +448,7 @@ export class QuicksightOAuthClientApplication extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -461,7 +461,7 @@ export class QuicksightOAuthClientApplication extends cdktn.TerraformResource {
   }
 
   // o_auth_authorization_endpoint_url - computed: true, optional: true, required: false
-  private _oAuthAuthorizationEndpointUrl?: string;
+  private _oAuthAuthorizationEndpointUrl?: string; 
   public get oAuthAuthorizationEndpointUrl() {
     return this.getStringAttribute('o_auth_authorization_endpoint_url');
   }
@@ -477,7 +477,7 @@ export class QuicksightOAuthClientApplication extends cdktn.TerraformResource {
   }
 
   // o_auth_client_application_id - computed: false, optional: false, required: true
-  private _oAuthClientApplicationId?: string;
+  private _oAuthClientApplicationId?: string; 
   public get oAuthClientApplicationId() {
     return this.getStringAttribute('o_auth_client_application_id');
   }
@@ -490,7 +490,7 @@ export class QuicksightOAuthClientApplication extends cdktn.TerraformResource {
   }
 
   // o_auth_client_authentication_type - computed: false, optional: false, required: true
-  private _oAuthClientAuthenticationType?: string;
+  private _oAuthClientAuthenticationType?: string; 
   public get oAuthClientAuthenticationType() {
     return this.getStringAttribute('o_auth_client_authentication_type');
   }
@@ -503,7 +503,7 @@ export class QuicksightOAuthClientApplication extends cdktn.TerraformResource {
   }
 
   // o_auth_scopes - computed: true, optional: true, required: false
-  private _oAuthScopes?: string;
+  private _oAuthScopes?: string; 
   public get oAuthScopes() {
     return this.getStringAttribute('o_auth_scopes');
   }
@@ -519,7 +519,7 @@ export class QuicksightOAuthClientApplication extends cdktn.TerraformResource {
   }
 
   // o_auth_token_endpoint_url - computed: false, optional: false, required: true
-  private _oAuthTokenEndpointUrl?: string;
+  private _oAuthTokenEndpointUrl?: string; 
   public get oAuthTokenEndpointUrl() {
     return this.getStringAttribute('o_auth_token_endpoint_url');
   }

@@ -120,7 +120,7 @@ export class AppmeshGatewayRouteSpecGrpcRouteActionTargetVirtualServiceOutputRef
   }
 
   // virtual_service_name - computed: false, optional: false, required: true
-  private _virtualServiceName?: string;
+  private _virtualServiceName?: string; 
   public get virtualServiceName() {
     return this.getStringAttribute('virtual_service_name');
   }
@@ -220,7 +220,7 @@ export class AppmeshGatewayRouteSpecGrpcRouteActionTargetOutputReference extends
   }
 
   // port - computed: false, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -417,7 +417,7 @@ export class AppmeshGatewayRouteSpecGrpcRouteMatchOutputReference extends cdktn.
   }
 
   // port - computed: false, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -433,7 +433,7 @@ export class AppmeshGatewayRouteSpecGrpcRouteMatchOutputReference extends cdktn.
   }
 
   // service_name - computed: false, optional: false, required: true
-  private _serviceName?: string;
+  private _serviceName?: string; 
   public get serviceName() {
     return this.getStringAttribute('service_name');
   }
@@ -629,7 +629,7 @@ export class AppmeshGatewayRouteSpecHttp2RouteActionRewriteHostnameOutputReferen
   }
 
   // default_target_hostname - computed: false, optional: false, required: true
-  private _defaultTargetHostname?: string;
+  private _defaultTargetHostname?: string; 
   public get defaultTargetHostname() {
     return this.getStringAttribute('default_target_hostname');
   }
@@ -710,7 +710,7 @@ export class AppmeshGatewayRouteSpecHttp2RouteActionRewritePathOutputReference e
   }
 
   // exact - computed: false, optional: false, required: true
-  private _exact?: string;
+  private _exact?: string; 
   public get exact() {
     return this.getStringAttribute('exact');
   }
@@ -808,7 +808,7 @@ export class AppmeshGatewayRouteSpecHttp2RouteActionRewritePrefixOutputReference
   }
 
   // default_prefix - computed: false, optional: true, required: false
-  private _defaultPrefix?: string;
+  private _defaultPrefix?: string; 
   public get defaultPrefix() {
     return this.getStringAttribute('default_prefix');
   }
@@ -824,7 +824,7 @@ export class AppmeshGatewayRouteSpecHttp2RouteActionRewritePrefixOutputReference
   }
 
   // value - computed: false, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1064,7 +1064,7 @@ export class AppmeshGatewayRouteSpecHttp2RouteActionTargetVirtualServiceOutputRe
   }
 
   // virtual_service_name - computed: false, optional: false, required: true
-  private _virtualServiceName?: string;
+  private _virtualServiceName?: string; 
   public get virtualServiceName() {
     return this.getStringAttribute('virtual_service_name');
   }
@@ -1164,7 +1164,7 @@ export class AppmeshGatewayRouteSpecHttp2RouteActionTargetOutputReference extend
   }
 
   // port - computed: false, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -1396,7 +1396,7 @@ export class AppmeshGatewayRouteSpecHttp2RouteMatchHeaderMatchRangeOutputReferen
   }
 
   // end - computed: false, optional: false, required: true
-  private _end?: number;
+  private _end?: number; 
   public get end() {
     return this.getNumberAttribute('end');
   }
@@ -1409,7 +1409,7 @@ export class AppmeshGatewayRouteSpecHttp2RouteMatchHeaderMatchRangeOutputReferen
   }
 
   // start - computed: false, optional: false, required: true
-  private _start?: number;
+  private _start?: number; 
   public get start() {
     return this.getNumberAttribute('start');
   }
@@ -1560,7 +1560,7 @@ export class AppmeshGatewayRouteSpecHttp2RouteMatchHeaderMatchOutputReference ex
   }
 
   // exact - computed: false, optional: true, required: false
-  private _exact?: string;
+  private _exact?: string; 
   public get exact() {
     return this.getStringAttribute('exact');
   }
@@ -1576,7 +1576,7 @@ export class AppmeshGatewayRouteSpecHttp2RouteMatchHeaderMatchOutputReference ex
   }
 
   // prefix - computed: false, optional: true, required: false
-  private _prefix?: string;
+  private _prefix?: string; 
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -1592,7 +1592,7 @@ export class AppmeshGatewayRouteSpecHttp2RouteMatchHeaderMatchOutputReference ex
   }
 
   // regex - computed: false, optional: true, required: false
-  private _regex?: string;
+  private _regex?: string; 
   public get regex() {
     return this.getStringAttribute('regex');
   }
@@ -1608,7 +1608,7 @@ export class AppmeshGatewayRouteSpecHttp2RouteMatchHeaderMatchOutputReference ex
   }
 
   // suffix - computed: false, optional: true, required: false
-  private _suffix?: string;
+  private _suffix?: string; 
   public get suffix() {
     return this.getStringAttribute('suffix');
   }
@@ -1756,7 +1756,7 @@ export class AppmeshGatewayRouteSpecHttp2RouteMatchHeaderOutputReference extends
   }
 
   // invert - computed: false, optional: true, required: false
-  private _invert?: boolean | cdktn.IResolvable;
+  private _invert?: boolean | cdktn.IResolvable; 
   public get invert() {
     return this.getBooleanAttribute('invert');
   }
@@ -1772,7 +1772,7 @@ export class AppmeshGatewayRouteSpecHttp2RouteMatchHeaderOutputReference extends
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1906,7 +1906,7 @@ export class AppmeshGatewayRouteSpecHttp2RouteMatchHostnameOutputReference exten
   }
 
   // exact - computed: false, optional: true, required: false
-  private _exact?: string;
+  private _exact?: string; 
   public get exact() {
     return this.getStringAttribute('exact');
   }
@@ -1922,7 +1922,7 @@ export class AppmeshGatewayRouteSpecHttp2RouteMatchHostnameOutputReference exten
   }
 
   // suffix - computed: false, optional: true, required: false
-  private _suffix?: string;
+  private _suffix?: string; 
   public get suffix() {
     return this.getStringAttribute('suffix');
   }
@@ -2023,7 +2023,7 @@ export class AppmeshGatewayRouteSpecHttp2RouteMatchPathOutputReference extends c
   }
 
   // exact - computed: false, optional: true, required: false
-  private _exact?: string;
+  private _exact?: string; 
   public get exact() {
     return this.getStringAttribute('exact');
   }
@@ -2039,7 +2039,7 @@ export class AppmeshGatewayRouteSpecHttp2RouteMatchPathOutputReference extends c
   }
 
   // regex - computed: false, optional: true, required: false
-  private _regex?: string;
+  private _regex?: string; 
   public get regex() {
     return this.getStringAttribute('regex');
   }
@@ -2123,7 +2123,7 @@ export class AppmeshGatewayRouteSpecHttp2RouteMatchQueryParameterMatchOutputRefe
   }
 
   // exact - computed: false, optional: true, required: false
-  private _exact?: string;
+  private _exact?: string; 
   public get exact() {
     return this.getStringAttribute('exact');
   }
@@ -2238,7 +2238,7 @@ export class AppmeshGatewayRouteSpecHttp2RouteMatchQueryParameterOutputReference
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2448,7 +2448,7 @@ export class AppmeshGatewayRouteSpecHttp2RouteMatchOutputReference extends cdktn
   }
 
   // port - computed: false, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -2464,7 +2464,7 @@ export class AppmeshGatewayRouteSpecHttp2RouteMatchOutputReference extends cdktn
   }
 
   // prefix - computed: false, optional: true, required: false
-  private _prefix?: string;
+  private _prefix?: string; 
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -2727,7 +2727,7 @@ export class AppmeshGatewayRouteSpecHttpRouteActionRewriteHostnameOutputReferenc
   }
 
   // default_target_hostname - computed: false, optional: false, required: true
-  private _defaultTargetHostname?: string;
+  private _defaultTargetHostname?: string; 
   public get defaultTargetHostname() {
     return this.getStringAttribute('default_target_hostname');
   }
@@ -2808,7 +2808,7 @@ export class AppmeshGatewayRouteSpecHttpRouteActionRewritePathOutputReference ex
   }
 
   // exact - computed: false, optional: false, required: true
-  private _exact?: string;
+  private _exact?: string; 
   public get exact() {
     return this.getStringAttribute('exact');
   }
@@ -2906,7 +2906,7 @@ export class AppmeshGatewayRouteSpecHttpRouteActionRewritePrefixOutputReference 
   }
 
   // default_prefix - computed: false, optional: true, required: false
-  private _defaultPrefix?: string;
+  private _defaultPrefix?: string; 
   public get defaultPrefix() {
     return this.getStringAttribute('default_prefix');
   }
@@ -2922,7 +2922,7 @@ export class AppmeshGatewayRouteSpecHttpRouteActionRewritePrefixOutputReference 
   }
 
   // value - computed: false, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -3162,7 +3162,7 @@ export class AppmeshGatewayRouteSpecHttpRouteActionTargetVirtualServiceOutputRef
   }
 
   // virtual_service_name - computed: false, optional: false, required: true
-  private _virtualServiceName?: string;
+  private _virtualServiceName?: string; 
   public get virtualServiceName() {
     return this.getStringAttribute('virtual_service_name');
   }
@@ -3262,7 +3262,7 @@ export class AppmeshGatewayRouteSpecHttpRouteActionTargetOutputReference extends
   }
 
   // port - computed: false, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -3494,7 +3494,7 @@ export class AppmeshGatewayRouteSpecHttpRouteMatchHeaderMatchRangeOutputReferenc
   }
 
   // end - computed: false, optional: false, required: true
-  private _end?: number;
+  private _end?: number; 
   public get end() {
     return this.getNumberAttribute('end');
   }
@@ -3507,7 +3507,7 @@ export class AppmeshGatewayRouteSpecHttpRouteMatchHeaderMatchRangeOutputReferenc
   }
 
   // start - computed: false, optional: false, required: true
-  private _start?: number;
+  private _start?: number; 
   public get start() {
     return this.getNumberAttribute('start');
   }
@@ -3658,7 +3658,7 @@ export class AppmeshGatewayRouteSpecHttpRouteMatchHeaderMatchOutputReference ext
   }
 
   // exact - computed: false, optional: true, required: false
-  private _exact?: string;
+  private _exact?: string; 
   public get exact() {
     return this.getStringAttribute('exact');
   }
@@ -3674,7 +3674,7 @@ export class AppmeshGatewayRouteSpecHttpRouteMatchHeaderMatchOutputReference ext
   }
 
   // prefix - computed: false, optional: true, required: false
-  private _prefix?: string;
+  private _prefix?: string; 
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -3690,7 +3690,7 @@ export class AppmeshGatewayRouteSpecHttpRouteMatchHeaderMatchOutputReference ext
   }
 
   // regex - computed: false, optional: true, required: false
-  private _regex?: string;
+  private _regex?: string; 
   public get regex() {
     return this.getStringAttribute('regex');
   }
@@ -3706,7 +3706,7 @@ export class AppmeshGatewayRouteSpecHttpRouteMatchHeaderMatchOutputReference ext
   }
 
   // suffix - computed: false, optional: true, required: false
-  private _suffix?: string;
+  private _suffix?: string; 
   public get suffix() {
     return this.getStringAttribute('suffix');
   }
@@ -3854,7 +3854,7 @@ export class AppmeshGatewayRouteSpecHttpRouteMatchHeaderOutputReference extends 
   }
 
   // invert - computed: false, optional: true, required: false
-  private _invert?: boolean | cdktn.IResolvable;
+  private _invert?: boolean | cdktn.IResolvable; 
   public get invert() {
     return this.getBooleanAttribute('invert');
   }
@@ -3870,7 +3870,7 @@ export class AppmeshGatewayRouteSpecHttpRouteMatchHeaderOutputReference extends 
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -4004,7 +4004,7 @@ export class AppmeshGatewayRouteSpecHttpRouteMatchHostnameOutputReference extend
   }
 
   // exact - computed: false, optional: true, required: false
-  private _exact?: string;
+  private _exact?: string; 
   public get exact() {
     return this.getStringAttribute('exact');
   }
@@ -4020,7 +4020,7 @@ export class AppmeshGatewayRouteSpecHttpRouteMatchHostnameOutputReference extend
   }
 
   // suffix - computed: false, optional: true, required: false
-  private _suffix?: string;
+  private _suffix?: string; 
   public get suffix() {
     return this.getStringAttribute('suffix');
   }
@@ -4121,7 +4121,7 @@ export class AppmeshGatewayRouteSpecHttpRouteMatchPathOutputReference extends cd
   }
 
   // exact - computed: false, optional: true, required: false
-  private _exact?: string;
+  private _exact?: string; 
   public get exact() {
     return this.getStringAttribute('exact');
   }
@@ -4137,7 +4137,7 @@ export class AppmeshGatewayRouteSpecHttpRouteMatchPathOutputReference extends cd
   }
 
   // regex - computed: false, optional: true, required: false
-  private _regex?: string;
+  private _regex?: string; 
   public get regex() {
     return this.getStringAttribute('regex');
   }
@@ -4221,7 +4221,7 @@ export class AppmeshGatewayRouteSpecHttpRouteMatchQueryParameterMatchOutputRefer
   }
 
   // exact - computed: false, optional: true, required: false
-  private _exact?: string;
+  private _exact?: string; 
   public get exact() {
     return this.getStringAttribute('exact');
   }
@@ -4336,7 +4336,7 @@ export class AppmeshGatewayRouteSpecHttpRouteMatchQueryParameterOutputReference 
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -4546,7 +4546,7 @@ export class AppmeshGatewayRouteSpecHttpRouteMatchOutputReference extends cdktn.
   }
 
   // port - computed: false, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -4562,7 +4562,7 @@ export class AppmeshGatewayRouteSpecHttpRouteMatchOutputReference extends cdktn.
   }
 
   // prefix - computed: false, optional: true, required: false
-  private _prefix?: string;
+  private _prefix?: string; 
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -4882,7 +4882,7 @@ export class AppmeshGatewayRouteSpecOutputReference extends cdktn.ComplexObject 
   }
 
   // priority - computed: false, optional: true, required: false
-  private _priority?: number;
+  private _priority?: number; 
   public get priority() {
     return this.getNumberAttribute('priority');
   }
@@ -5022,7 +5022,7 @@ export class AppmeshGatewayRoute extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -5043,7 +5043,7 @@ export class AppmeshGatewayRoute extends cdktn.TerraformResource {
   }
 
   // mesh_name - computed: false, optional: false, required: true
-  private _meshName?: string;
+  private _meshName?: string; 
   public get meshName() {
     return this.getStringAttribute('mesh_name');
   }
@@ -5056,7 +5056,7 @@ export class AppmeshGatewayRoute extends cdktn.TerraformResource {
   }
 
   // mesh_owner - computed: true, optional: true, required: false
-  private _meshOwner?: string;
+  private _meshOwner?: string; 
   public get meshOwner() {
     return this.getStringAttribute('mesh_owner');
   }
@@ -5072,7 +5072,7 @@ export class AppmeshGatewayRoute extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -5085,7 +5085,7 @@ export class AppmeshGatewayRoute extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -5106,7 +5106,7 @@ export class AppmeshGatewayRoute extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -5122,7 +5122,7 @@ export class AppmeshGatewayRoute extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -5138,7 +5138,7 @@ export class AppmeshGatewayRoute extends cdktn.TerraformResource {
   }
 
   // virtual_gateway_name - computed: false, optional: false, required: true
-  private _virtualGatewayName?: string;
+  private _virtualGatewayName?: string; 
   public get virtualGatewayName() {
     return this.getStringAttribute('virtual_gateway_name');
   }

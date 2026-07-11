@@ -96,7 +96,7 @@ export class SecurityhubFindingAggregator extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -112,7 +112,7 @@ export class SecurityhubFindingAggregator extends cdktn.TerraformResource {
   }
 
   // linking_mode - computed: false, optional: false, required: true
-  private _linkingMode?: string;
+  private _linkingMode?: string; 
   public get linkingMode() {
     return this.getStringAttribute('linking_mode');
   }
@@ -125,7 +125,7 @@ export class SecurityhubFindingAggregator extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -141,7 +141,7 @@ export class SecurityhubFindingAggregator extends cdktn.TerraformResource {
   }
 
   // specified_regions - computed: false, optional: true, required: false
-  private _specifiedRegions?: string[];
+  private _specifiedRegions?: string[]; 
   public get specifiedRegions() {
     return cdktn.Fn.tolist(this.getListAttribute('specified_regions'));
   }

@@ -130,7 +130,7 @@ export class StoragegatewayFileSystemAssociationCacheAttributesOutputReference e
   }
 
   // cache_stale_timeout_in_seconds - computed: false, optional: true, required: false
-  private _cacheStaleTimeoutInSeconds?: number;
+  private _cacheStaleTimeoutInSeconds?: number; 
   public get cacheStaleTimeoutInSeconds() {
     return this.getNumberAttribute('cache_stale_timeout_in_seconds');
   }
@@ -258,7 +258,7 @@ export class StoragegatewayFileSystemAssociationTimeoutsOutputReference extends 
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -274,7 +274,7 @@ export class StoragegatewayFileSystemAssociationTimeoutsOutputReference extends 
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -290,7 +290,7 @@ export class StoragegatewayFileSystemAssociationTimeoutsOutputReference extends 
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -379,7 +379,7 @@ export class StoragegatewayFileSystemAssociation extends cdktn.TerraformResource
   }
 
   // audit_destination_arn - computed: false, optional: true, required: false
-  private _auditDestinationArn?: string;
+  private _auditDestinationArn?: string; 
   public get auditDestinationArn() {
     return this.getStringAttribute('audit_destination_arn');
   }
@@ -395,7 +395,7 @@ export class StoragegatewayFileSystemAssociation extends cdktn.TerraformResource
   }
 
   // gateway_arn - computed: false, optional: false, required: true
-  private _gatewayArn?: string;
+  private _gatewayArn?: string; 
   public get gatewayArn() {
     return this.getStringAttribute('gateway_arn');
   }
@@ -408,7 +408,7 @@ export class StoragegatewayFileSystemAssociation extends cdktn.TerraformResource
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -424,7 +424,7 @@ export class StoragegatewayFileSystemAssociation extends cdktn.TerraformResource
   }
 
   // location_arn - computed: false, optional: false, required: true
-  private _locationArn?: string;
+  private _locationArn?: string; 
   public get locationArn() {
     return this.getStringAttribute('location_arn');
   }
@@ -437,7 +437,7 @@ export class StoragegatewayFileSystemAssociation extends cdktn.TerraformResource
   }
 
   // password - computed: false, optional: false, required: true
-  private _password?: string;
+  private _password?: string; 
   public get password() {
     return this.getStringAttribute('password');
   }
@@ -450,7 +450,7 @@ export class StoragegatewayFileSystemAssociation extends cdktn.TerraformResource
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -466,7 +466,7 @@ export class StoragegatewayFileSystemAssociation extends cdktn.TerraformResource
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -482,7 +482,7 @@ export class StoragegatewayFileSystemAssociation extends cdktn.TerraformResource
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -498,7 +498,7 @@ export class StoragegatewayFileSystemAssociation extends cdktn.TerraformResource
   }
 
   // username - computed: false, optional: false, required: true
-  private _username?: string;
+  private _username?: string; 
   public get username() {
     return this.getStringAttribute('username');
   }

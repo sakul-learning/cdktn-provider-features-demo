@@ -153,7 +153,7 @@ export class CleanroomsMembershipDefaultResultConfigurationOutputConfigurationS3
   }
 
   // bucket - computed: false, optional: false, required: true
-  private _bucket?: string;
+  private _bucket?: string; 
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -166,7 +166,7 @@ export class CleanroomsMembershipDefaultResultConfigurationOutputConfigurationS3
   }
 
   // key_prefix - computed: false, optional: true, required: false
-  private _keyPrefix?: string;
+  private _keyPrefix?: string; 
   public get keyPrefix() {
     return this.getStringAttribute('key_prefix');
   }
@@ -182,7 +182,7 @@ export class CleanroomsMembershipDefaultResultConfigurationOutputConfigurationS3
   }
 
   // result_format - computed: false, optional: false, required: true
-  private _resultFormat?: string;
+  private _resultFormat?: string; 
   public get resultFormat() {
     return this.getStringAttribute('result_format');
   }
@@ -432,7 +432,7 @@ export class CleanroomsMembershipDefaultResultConfigurationOutputReference exten
   }
 
   // role_arn - computed: false, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -564,7 +564,7 @@ export class CleanroomsMembershipPaymentConfigurationQueryComputeOutputReference
   }
 
   // is_responsible - computed: false, optional: false, required: true
-  private _isResponsible?: boolean | cdktn.IResolvable;
+  private _isResponsible?: boolean | cdktn.IResolvable; 
   public get isResponsible() {
     return this.getBooleanAttribute('is_responsible');
   }
@@ -798,7 +798,7 @@ export class CleanroomsMembership extends cdktn.TerraformResource {
   }
 
   // collaboration_id - computed: false, optional: false, required: true
-  private _collaborationId?: string;
+  private _collaborationId?: string; 
   public get collaborationId() {
     return this.getStringAttribute('collaboration_id');
   }
@@ -831,7 +831,7 @@ export class CleanroomsMembership extends cdktn.TerraformResource {
   }
 
   // query_log_status - computed: false, optional: false, required: true
-  private _queryLogStatus?: string;
+  private _queryLogStatus?: string; 
   public get queryLogStatus() {
     return this.getStringAttribute('query_log_status');
   }
@@ -844,7 +844,7 @@ export class CleanroomsMembership extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -865,7 +865,7 @@ export class CleanroomsMembership extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

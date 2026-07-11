@@ -120,7 +120,7 @@ export class ConfigConnectorConnectorConfigurationAzureOutputReference extends c
   }
 
   // client_identifier - computed: true, optional: true, required: false
-  private _clientIdentifier?: string;
+  private _clientIdentifier?: string; 
   public get clientIdentifier() {
     return this.getStringAttribute('client_identifier');
   }
@@ -136,7 +136,7 @@ export class ConfigConnectorConnectorConfigurationAzureOutputReference extends c
   }
 
   // tenant_identifier - computed: true, optional: true, required: false
-  private _tenantIdentifier?: string;
+  private _tenantIdentifier?: string; 
   public get tenantIdentifier() {
     return this.getStringAttribute('tenant_identifier');
   }
@@ -349,7 +349,7 @@ export class ConfigConnectorTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -365,7 +365,7 @@ export class ConfigConnectorTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }

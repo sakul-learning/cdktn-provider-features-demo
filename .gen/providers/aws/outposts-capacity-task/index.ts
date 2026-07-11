@@ -146,7 +146,7 @@ export class OutpostsCapacityTaskInstancePoolOutputReference extends cdktn.Compl
   }
 
   // count - computed: false, optional: false, required: true
-  private _count?: number;
+  private _count?: number; 
   public get count() {
     return this.getNumberAttribute('count');
   }
@@ -159,7 +159,7 @@ export class OutpostsCapacityTaskInstancePoolOutputReference extends cdktn.Compl
   }
 
   // instance_type - computed: false, optional: false, required: true
-  private _instanceType?: string;
+  private _instanceType?: string; 
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -272,7 +272,7 @@ export class OutpostsCapacityTaskInstancesToExcludeOutputReference extends cdktn
   }
 
   // instances - computed: false, optional: false, required: true
-  private _instances?: string[];
+  private _instances?: string[]; 
   public get instances() {
     return cdktn.Fn.tolist(this.getListAttribute('instances'));
   }
@@ -404,7 +404,7 @@ export class OutpostsCapacityTaskTimeoutsOutputReference extends cdktn.ComplexOb
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -420,7 +420,7 @@ export class OutpostsCapacityTaskTimeoutsOutputReference extends cdktn.ComplexOb
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -501,7 +501,7 @@ export class OutpostsCapacityTask extends cdktn.TerraformResource {
   // ==========
 
   // asset_id - computed: true, optional: true, required: false
-  private _assetId?: string;
+  private _assetId?: string; 
   public get assetId() {
     return this.getStringAttribute('asset_id');
   }
@@ -537,7 +537,7 @@ export class OutpostsCapacityTask extends cdktn.TerraformResource {
   }
 
   // order_id - computed: true, optional: true, required: false
-  private _orderId?: string;
+  private _orderId?: string; 
   public get orderId() {
     return this.getStringAttribute('order_id');
   }
@@ -553,7 +553,7 @@ export class OutpostsCapacityTask extends cdktn.TerraformResource {
   }
 
   // outpost_identifier - computed: false, optional: false, required: true
-  private _outpostIdentifier?: string;
+  private _outpostIdentifier?: string; 
   public get outpostIdentifier() {
     return this.getStringAttribute('outpost_identifier');
   }
@@ -566,7 +566,7 @@ export class OutpostsCapacityTask extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -587,7 +587,7 @@ export class OutpostsCapacityTask extends cdktn.TerraformResource {
   }
 
   // task_action_on_blocking_instances - computed: true, optional: true, required: false
-  private _taskActionOnBlockingInstances?: string;
+  private _taskActionOnBlockingInstances?: string; 
   public get taskActionOnBlockingInstances() {
     return this.getStringAttribute('task_action_on_blocking_instances');
   }

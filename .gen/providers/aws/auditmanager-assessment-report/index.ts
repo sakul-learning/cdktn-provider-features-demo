@@ -88,7 +88,7 @@ export class AuditmanagerAssessmentReport extends cdktn.TerraformResource {
   // ==========
 
   // assessment_id - computed: false, optional: false, required: true
-  private _assessmentId?: string;
+  private _assessmentId?: string; 
   public get assessmentId() {
     return this.getStringAttribute('assessment_id');
   }
@@ -106,7 +106,7 @@ export class AuditmanagerAssessmentReport extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -127,7 +127,7 @@ export class AuditmanagerAssessmentReport extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -140,7 +140,7 @@ export class AuditmanagerAssessmentReport extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

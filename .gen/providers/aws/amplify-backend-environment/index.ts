@@ -101,7 +101,7 @@ export class AmplifyBackendEnvironment extends cdktn.TerraformResource {
   // ==========
 
   // app_id - computed: false, optional: false, required: true
-  private _appId?: string;
+  private _appId?: string; 
   public get appId() {
     return this.getStringAttribute('app_id');
   }
@@ -119,7 +119,7 @@ export class AmplifyBackendEnvironment extends cdktn.TerraformResource {
   }
 
   // deployment_artifacts - computed: true, optional: true, required: false
-  private _deploymentArtifacts?: string;
+  private _deploymentArtifacts?: string; 
   public get deploymentArtifacts() {
     return this.getStringAttribute('deployment_artifacts');
   }
@@ -135,7 +135,7 @@ export class AmplifyBackendEnvironment extends cdktn.TerraformResource {
   }
 
   // environment_name - computed: false, optional: false, required: true
-  private _environmentName?: string;
+  private _environmentName?: string; 
   public get environmentName() {
     return this.getStringAttribute('environment_name');
   }
@@ -148,7 +148,7 @@ export class AmplifyBackendEnvironment extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -164,7 +164,7 @@ export class AmplifyBackendEnvironment extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -180,7 +180,7 @@ export class AmplifyBackendEnvironment extends cdktn.TerraformResource {
   }
 
   // stack_name - computed: true, optional: true, required: false
-  private _stackName?: string;
+  private _stackName?: string; 
   public get stackName() {
     return this.getStringAttribute('stack_name');
   }

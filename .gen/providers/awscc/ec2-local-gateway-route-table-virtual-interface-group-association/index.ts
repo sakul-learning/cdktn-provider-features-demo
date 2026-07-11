@@ -124,7 +124,7 @@ export class Ec2LocalGatewayRouteTableVirtualInterfaceGroupAssociationTagsOutput
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -140,7 +140,7 @@ export class Ec2LocalGatewayRouteTableVirtualInterfaceGroupAssociationTagsOutput
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -251,7 +251,7 @@ export class Ec2LocalGatewayRouteTableVirtualInterfaceGroupAssociation extends c
   }
 
   // local_gateway_route_table_id - computed: false, optional: false, required: true
-  private _localGatewayRouteTableId?: string;
+  private _localGatewayRouteTableId?: string; 
   public get localGatewayRouteTableId() {
     return this.getStringAttribute('local_gateway_route_table_id');
   }
@@ -269,7 +269,7 @@ export class Ec2LocalGatewayRouteTableVirtualInterfaceGroupAssociation extends c
   }
 
   // local_gateway_virtual_interface_group_id - computed: false, optional: false, required: true
-  private _localGatewayVirtualInterfaceGroupId?: string;
+  private _localGatewayVirtualInterfaceGroupId?: string; 
   public get localGatewayVirtualInterfaceGroupId() {
     return this.getStringAttribute('local_gateway_virtual_interface_group_id');
   }

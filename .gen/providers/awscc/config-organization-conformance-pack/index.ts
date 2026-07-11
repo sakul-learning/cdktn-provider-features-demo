@@ -148,7 +148,7 @@ export class ConfigOrganizationConformancePackConformancePackInputParametersOutp
   }
 
   // parameter_name - computed: true, optional: true, required: false
-  private _parameterName?: string;
+  private _parameterName?: string; 
   public get parameterName() {
     return this.getStringAttribute('parameter_name');
   }
@@ -164,7 +164,7 @@ export class ConfigOrganizationConformancePackConformancePackInputParametersOutp
   }
 
   // parameter_value - computed: true, optional: true, required: false
-  private _parameterValue?: string;
+  private _parameterValue?: string; 
   public get parameterValue() {
     return this.getStringAttribute('parameter_value');
   }
@@ -280,7 +280,7 @@ export class ConfigOrganizationConformancePack extends cdktn.TerraformResource {
   }
 
   // delivery_s3_bucket - computed: true, optional: true, required: false
-  private _deliveryS3Bucket?: string;
+  private _deliveryS3Bucket?: string; 
   public get deliveryS3Bucket() {
     return this.getStringAttribute('delivery_s3_bucket');
   }
@@ -296,7 +296,7 @@ export class ConfigOrganizationConformancePack extends cdktn.TerraformResource {
   }
 
   // delivery_s3_key_prefix - computed: true, optional: true, required: false
-  private _deliveryS3KeyPrefix?: string;
+  private _deliveryS3KeyPrefix?: string; 
   public get deliveryS3KeyPrefix() {
     return this.getStringAttribute('delivery_s3_key_prefix');
   }
@@ -312,7 +312,7 @@ export class ConfigOrganizationConformancePack extends cdktn.TerraformResource {
   }
 
   // excluded_accounts - computed: true, optional: true, required: false
-  private _excludedAccounts?: string[];
+  private _excludedAccounts?: string[]; 
   public get excludedAccounts() {
     return this.getListAttribute('excluded_accounts');
   }
@@ -333,7 +333,7 @@ export class ConfigOrganizationConformancePack extends cdktn.TerraformResource {
   }
 
   // organization_conformance_pack_name - computed: false, optional: false, required: true
-  private _organizationConformancePackName?: string;
+  private _organizationConformancePackName?: string; 
   public get organizationConformancePackName() {
     return this.getStringAttribute('organization_conformance_pack_name');
   }
@@ -346,7 +346,7 @@ export class ConfigOrganizationConformancePack extends cdktn.TerraformResource {
   }
 
   // template_body - computed: true, optional: true, required: false
-  private _templateBody?: string;
+  private _templateBody?: string; 
   public get templateBody() {
     return this.getStringAttribute('template_body');
   }
@@ -362,7 +362,7 @@ export class ConfigOrganizationConformancePack extends cdktn.TerraformResource {
   }
 
   // template_s3_uri - computed: true, optional: true, required: false
-  private _templateS3Uri?: string;
+  private _templateS3Uri?: string; 
   public get templateS3Uri() {
     return this.getStringAttribute('template_s3_uri');
   }

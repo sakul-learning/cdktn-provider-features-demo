@@ -359,7 +359,7 @@ export class DataAwsResourceexplorer2Search extends cdktn.TerraformDataSource {
   }
 
   // query_string - computed: false, optional: false, required: true
-  private _queryString?: string;
+  private _queryString?: string; 
   public get queryString() {
     return this.getStringAttribute('query_string');
   }
@@ -372,7 +372,7 @@ export class DataAwsResourceexplorer2Search extends cdktn.TerraformDataSource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -400,7 +400,7 @@ export class DataAwsResourceexplorer2Search extends cdktn.TerraformDataSource {
   }
 
   // view_arn - computed: true, optional: true, required: false
-  private _viewArn?: string;
+  private _viewArn?: string; 
   public get viewArn() {
     return this.getStringAttribute('view_arn');
   }

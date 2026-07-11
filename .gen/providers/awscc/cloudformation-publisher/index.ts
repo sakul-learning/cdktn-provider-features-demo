@@ -80,7 +80,7 @@ export class CloudformationPublisher extends cdktn.TerraformResource {
   // ==========
 
   // accept_terms_and_conditions - computed: false, optional: false, required: true
-  private _acceptTermsAndConditions?: boolean | cdktn.IResolvable;
+  private _acceptTermsAndConditions?: boolean | cdktn.IResolvable; 
   public get acceptTermsAndConditions() {
     return this.getBooleanAttribute('accept_terms_and_conditions');
   }
@@ -93,7 +93,7 @@ export class CloudformationPublisher extends cdktn.TerraformResource {
   }
 
   // connection_arn - computed: true, optional: true, required: false
-  private _connectionArn?: string;
+  private _connectionArn?: string; 
   public get connectionArn() {
     return this.getStringAttribute('connection_arn');
   }

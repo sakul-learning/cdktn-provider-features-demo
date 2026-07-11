@@ -90,7 +90,7 @@ export class Ec2IpPoolRouteTableAssociation extends cdktn.TerraformResource {
   }
 
   // public_ipv_4_pool - computed: false, optional: false, required: true
-  private _publicIpv4Pool?: string;
+  private _publicIpv4Pool?: string; 
   public get publicIpv4Pool() {
     return this.getStringAttribute('public_ipv_4_pool');
   }
@@ -103,7 +103,7 @@ export class Ec2IpPoolRouteTableAssociation extends cdktn.TerraformResource {
   }
 
   // route_table_id - computed: false, optional: false, required: true
-  private _routeTableId?: string;
+  private _routeTableId?: string; 
   public get routeTableId() {
     return this.getStringAttribute('route_table_id');
   }

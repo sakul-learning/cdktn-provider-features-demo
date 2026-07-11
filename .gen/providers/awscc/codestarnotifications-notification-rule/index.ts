@@ -146,7 +146,7 @@ export class CodestarnotificationsNotificationRuleTargetsOutputReference extends
   }
 
   // target_address - computed: false, optional: false, required: true
-  private _targetAddress?: string;
+  private _targetAddress?: string; 
   public get targetAddress() {
     return this.getStringAttribute('target_address');
   }
@@ -159,7 +159,7 @@ export class CodestarnotificationsNotificationRuleTargetsOutputReference extends
   }
 
   // target_type - computed: false, optional: false, required: true
-  private _targetType?: string;
+  private _targetType?: string; 
   public get targetType() {
     return this.getStringAttribute('target_type');
   }
@@ -264,7 +264,7 @@ export class CodestarnotificationsNotificationRule extends cdktn.TerraformResour
   }
 
   // created_by - computed: true, optional: true, required: false
-  private _createdBy?: string;
+  private _createdBy?: string; 
   public get createdBy() {
     return this.getStringAttribute('created_by');
   }
@@ -280,7 +280,7 @@ export class CodestarnotificationsNotificationRule extends cdktn.TerraformResour
   }
 
   // detail_type - computed: false, optional: false, required: true
-  private _detailType?: string;
+  private _detailType?: string; 
   public get detailType() {
     return this.getStringAttribute('detail_type');
   }
@@ -293,7 +293,7 @@ export class CodestarnotificationsNotificationRule extends cdktn.TerraformResour
   }
 
   // event_type_id - computed: true, optional: true, required: false
-  private _eventTypeId?: string;
+  private _eventTypeId?: string; 
   public get eventTypeId() {
     return this.getStringAttribute('event_type_id');
   }
@@ -309,7 +309,7 @@ export class CodestarnotificationsNotificationRule extends cdktn.TerraformResour
   }
 
   // event_type_ids - computed: false, optional: false, required: true
-  private _eventTypeIds?: string[];
+  private _eventTypeIds?: string[]; 
   public get eventTypeIds() {
     return this.getListAttribute('event_type_ids');
   }
@@ -327,7 +327,7 @@ export class CodestarnotificationsNotificationRule extends cdktn.TerraformResour
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -340,7 +340,7 @@ export class CodestarnotificationsNotificationRule extends cdktn.TerraformResour
   }
 
   // resource - computed: false, optional: false, required: true
-  private _resource?: string;
+  private _resource?: string; 
   public get resource() {
     return this.getStringAttribute('resource');
   }
@@ -353,7 +353,7 @@ export class CodestarnotificationsNotificationRule extends cdktn.TerraformResour
   }
 
   // status - computed: true, optional: true, required: false
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -369,7 +369,7 @@ export class CodestarnotificationsNotificationRule extends cdktn.TerraformResour
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -385,7 +385,7 @@ export class CodestarnotificationsNotificationRule extends cdktn.TerraformResour
   }
 
   // target_address - computed: true, optional: true, required: false
-  private _targetAddress?: string;
+  private _targetAddress?: string; 
   public get targetAddress() {
     return this.getStringAttribute('target_address');
   }

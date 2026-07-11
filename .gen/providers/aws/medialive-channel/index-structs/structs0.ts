@@ -68,7 +68,7 @@ export class MedialiveChannelCdiInputSpecificationOutputReference extends cdktn.
   }
 
   // resolution - computed: false, optional: false, required: true
-  private _resolution?: string;
+  private _resolution?: string; 
   public get resolution() {
     return this.getStringAttribute('resolution');
   }
@@ -161,7 +161,7 @@ export class MedialiveChannelDestinationsMediaPackageSettingsOutputReference ext
   }
 
   // channel_id - computed: false, optional: false, required: true
-  private _channelId?: string;
+  private _channelId?: string; 
   public get channelId() {
     return this.getStringAttribute('channel_id');
   }
@@ -279,7 +279,7 @@ export class MedialiveChannelDestinationsMultiplexSettingsOutputReference extend
   }
 
   // multiplex_id - computed: false, optional: false, required: true
-  private _multiplexId?: string;
+  private _multiplexId?: string; 
   public get multiplexId() {
     return this.getStringAttribute('multiplex_id');
   }
@@ -292,7 +292,7 @@ export class MedialiveChannelDestinationsMultiplexSettingsOutputReference extend
   }
 
   // program_name - computed: false, optional: false, required: true
-  private _programName?: string;
+  private _programName?: string; 
   public get programName() {
     return this.getStringAttribute('program_name');
   }
@@ -436,7 +436,7 @@ export class MedialiveChannelDestinationsSettingsOutputReference extends cdktn.C
   }
 
   // password_param - computed: false, optional: true, required: false
-  private _passwordParam?: string;
+  private _passwordParam?: string; 
   public get passwordParam() {
     return this.getStringAttribute('password_param');
   }
@@ -452,7 +452,7 @@ export class MedialiveChannelDestinationsSettingsOutputReference extends cdktn.C
   }
 
   // stream_name - computed: false, optional: true, required: false
-  private _streamName?: string;
+  private _streamName?: string; 
   public get streamName() {
     return this.getStringAttribute('stream_name');
   }
@@ -468,7 +468,7 @@ export class MedialiveChannelDestinationsSettingsOutputReference extends cdktn.C
   }
 
   // url - computed: false, optional: true, required: false
-  private _url?: string;
+  private _url?: string; 
   public get url() {
     return this.getStringAttribute('url');
   }
@@ -484,7 +484,7 @@ export class MedialiveChannelDestinationsSettingsOutputReference extends cdktn.C
   }
 
   // username - computed: false, optional: true, required: false
-  private _username?: string;
+  private _username?: string; 
   public get username() {
     return this.getStringAttribute('username');
   }
@@ -660,7 +660,7 @@ export class MedialiveChannelDestinationsOutputReference extends cdktn.ComplexOb
   }
 
   // id - computed: false, optional: false, required: true
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -843,7 +843,7 @@ export class MedialiveChannelEncoderSettingsAudioDescriptionsAudioNormalizationS
   }
 
   // algorithm - computed: true, optional: true, required: false
-  private _algorithm?: string;
+  private _algorithm?: string; 
   public get algorithm() {
     return this.getStringAttribute('algorithm');
   }
@@ -859,7 +859,7 @@ export class MedialiveChannelEncoderSettingsAudioDescriptionsAudioNormalizationS
   }
 
   // algorithm_control - computed: true, optional: true, required: false
-  private _algorithmControl?: string;
+  private _algorithmControl?: string; 
   public get algorithmControl() {
     return this.getStringAttribute('algorithm_control');
   }
@@ -875,7 +875,7 @@ export class MedialiveChannelEncoderSettingsAudioDescriptionsAudioNormalizationS
   }
 
   // target_lkfs - computed: true, optional: true, required: false
-  private _targetLkfs?: number;
+  private _targetLkfs?: number; 
   public get targetLkfs() {
     return this.getNumberAttribute('target_lkfs');
   }
@@ -993,7 +993,7 @@ export class MedialiveChannelEncoderSettingsAudioDescriptionsAudioWatermarkSetti
   }
 
   // cbet_check_digit_string - computed: false, optional: false, required: true
-  private _cbetCheckDigitString?: string;
+  private _cbetCheckDigitString?: string; 
   public get cbetCheckDigitString() {
     return this.getStringAttribute('cbet_check_digit_string');
   }
@@ -1006,7 +1006,7 @@ export class MedialiveChannelEncoderSettingsAudioDescriptionsAudioWatermarkSetti
   }
 
   // cbet_stepaside - computed: false, optional: false, required: true
-  private _cbetStepaside?: string;
+  private _cbetStepaside?: string; 
   public get cbetStepaside() {
     return this.getStringAttribute('cbet_stepaside');
   }
@@ -1019,7 +1019,7 @@ export class MedialiveChannelEncoderSettingsAudioDescriptionsAudioWatermarkSetti
   }
 
   // csid - computed: false, optional: false, required: true
-  private _csid?: string;
+  private _csid?: string; 
   public get csid() {
     return this.getStringAttribute('csid');
   }
@@ -1129,7 +1129,7 @@ export class MedialiveChannelEncoderSettingsAudioDescriptionsAudioWatermarkSetti
   }
 
   // check_digit_string - computed: false, optional: false, required: true
-  private _checkDigitString?: string;
+  private _checkDigitString?: string; 
   public get checkDigitString() {
     return this.getStringAttribute('check_digit_string');
   }
@@ -1142,7 +1142,7 @@ export class MedialiveChannelEncoderSettingsAudioDescriptionsAudioWatermarkSetti
   }
 
   // sid - computed: false, optional: false, required: true
-  private _sid?: number;
+  private _sid?: number; 
   public get sid() {
     return this.getNumberAttribute('sid');
   }
@@ -1281,7 +1281,7 @@ export class MedialiveChannelEncoderSettingsAudioDescriptionsAudioWatermarkSetti
   }
 
   // nielsen_distribution_type - computed: true, optional: true, required: false
-  private _nielsenDistributionType?: string;
+  private _nielsenDistributionType?: string; 
   public get nielsenDistributionType() {
     return this.getStringAttribute('nielsen_distribution_type');
   }
@@ -1619,7 +1619,7 @@ export class MedialiveChannelEncoderSettingsAudioDescriptionsCodecSettingsAacSet
   }
 
   // bitrate - computed: true, optional: true, required: false
-  private _bitrate?: number;
+  private _bitrate?: number; 
   public get bitrate() {
     return this.getNumberAttribute('bitrate');
   }
@@ -1635,7 +1635,7 @@ export class MedialiveChannelEncoderSettingsAudioDescriptionsCodecSettingsAacSet
   }
 
   // coding_mode - computed: true, optional: true, required: false
-  private _codingMode?: string;
+  private _codingMode?: string; 
   public get codingMode() {
     return this.getStringAttribute('coding_mode');
   }
@@ -1651,7 +1651,7 @@ export class MedialiveChannelEncoderSettingsAudioDescriptionsCodecSettingsAacSet
   }
 
   // input_type - computed: true, optional: true, required: false
-  private _inputType?: string;
+  private _inputType?: string; 
   public get inputType() {
     return this.getStringAttribute('input_type');
   }
@@ -1667,7 +1667,7 @@ export class MedialiveChannelEncoderSettingsAudioDescriptionsCodecSettingsAacSet
   }
 
   // profile - computed: true, optional: true, required: false
-  private _profile?: string;
+  private _profile?: string; 
   public get profile() {
     return this.getStringAttribute('profile');
   }
@@ -1683,7 +1683,7 @@ export class MedialiveChannelEncoderSettingsAudioDescriptionsCodecSettingsAacSet
   }
 
   // rate_control_mode - computed: true, optional: true, required: false
-  private _rateControlMode?: string;
+  private _rateControlMode?: string; 
   public get rateControlMode() {
     return this.getStringAttribute('rate_control_mode');
   }
@@ -1699,7 +1699,7 @@ export class MedialiveChannelEncoderSettingsAudioDescriptionsCodecSettingsAacSet
   }
 
   // raw_format - computed: true, optional: true, required: false
-  private _rawFormat?: string;
+  private _rawFormat?: string; 
   public get rawFormat() {
     return this.getStringAttribute('raw_format');
   }
@@ -1715,7 +1715,7 @@ export class MedialiveChannelEncoderSettingsAudioDescriptionsCodecSettingsAacSet
   }
 
   // sample_rate - computed: true, optional: true, required: false
-  private _sampleRate?: number;
+  private _sampleRate?: number; 
   public get sampleRate() {
     return this.getNumberAttribute('sample_rate');
   }
@@ -1731,7 +1731,7 @@ export class MedialiveChannelEncoderSettingsAudioDescriptionsCodecSettingsAacSet
   }
 
   // spec - computed: true, optional: true, required: false
-  private _spec?: string;
+  private _spec?: string; 
   public get spec() {
     return this.getStringAttribute('spec');
   }
@@ -1747,7 +1747,7 @@ export class MedialiveChannelEncoderSettingsAudioDescriptionsCodecSettingsAacSet
   }
 
   // vbr_quality - computed: true, optional: true, required: false
-  private _vbrQuality?: string;
+  private _vbrQuality?: string; 
   public get vbrQuality() {
     return this.getStringAttribute('vbr_quality');
   }
@@ -1933,7 +1933,7 @@ export class MedialiveChannelEncoderSettingsAudioDescriptionsCodecSettingsAc3Set
   }
 
   // bitrate - computed: true, optional: true, required: false
-  private _bitrate?: number;
+  private _bitrate?: number; 
   public get bitrate() {
     return this.getNumberAttribute('bitrate');
   }
@@ -1949,7 +1949,7 @@ export class MedialiveChannelEncoderSettingsAudioDescriptionsCodecSettingsAc3Set
   }
 
   // bitstream_mode - computed: true, optional: true, required: false
-  private _bitstreamMode?: string;
+  private _bitstreamMode?: string; 
   public get bitstreamMode() {
     return this.getStringAttribute('bitstream_mode');
   }
@@ -1965,7 +1965,7 @@ export class MedialiveChannelEncoderSettingsAudioDescriptionsCodecSettingsAc3Set
   }
 
   // coding_mode - computed: true, optional: true, required: false
-  private _codingMode?: string;
+  private _codingMode?: string; 
   public get codingMode() {
     return this.getStringAttribute('coding_mode');
   }
@@ -1981,7 +1981,7 @@ export class MedialiveChannelEncoderSettingsAudioDescriptionsCodecSettingsAc3Set
   }
 
   // dialnorm - computed: true, optional: true, required: false
-  private _dialnorm?: number;
+  private _dialnorm?: number; 
   public get dialnorm() {
     return this.getNumberAttribute('dialnorm');
   }
@@ -1997,7 +1997,7 @@ export class MedialiveChannelEncoderSettingsAudioDescriptionsCodecSettingsAc3Set
   }
 
   // drc_profile - computed: true, optional: true, required: false
-  private _drcProfile?: string;
+  private _drcProfile?: string; 
   public get drcProfile() {
     return this.getStringAttribute('drc_profile');
   }
@@ -2013,7 +2013,7 @@ export class MedialiveChannelEncoderSettingsAudioDescriptionsCodecSettingsAc3Set
   }
 
   // lfe_filter - computed: true, optional: true, required: false
-  private _lfeFilter?: string;
+  private _lfeFilter?: string; 
   public get lfeFilter() {
     return this.getStringAttribute('lfe_filter');
   }
@@ -2029,7 +2029,7 @@ export class MedialiveChannelEncoderSettingsAudioDescriptionsCodecSettingsAc3Set
   }
 
   // metadata_control - computed: true, optional: true, required: false
-  private _metadataControl?: string;
+  private _metadataControl?: string; 
   public get metadataControl() {
     return this.getStringAttribute('metadata_control');
   }
@@ -2215,7 +2215,7 @@ export class MedialiveChannelEncoderSettingsAudioDescriptionsCodecSettingsEac3At
   }
 
   // bitrate - computed: true, optional: true, required: false
-  private _bitrate?: number;
+  private _bitrate?: number; 
   public get bitrate() {
     return this.getNumberAttribute('bitrate');
   }
@@ -2231,7 +2231,7 @@ export class MedialiveChannelEncoderSettingsAudioDescriptionsCodecSettingsEac3At
   }
 
   // coding_mode - computed: true, optional: true, required: false
-  private _codingMode?: string;
+  private _codingMode?: string; 
   public get codingMode() {
     return this.getStringAttribute('coding_mode');
   }
@@ -2247,7 +2247,7 @@ export class MedialiveChannelEncoderSettingsAudioDescriptionsCodecSettingsEac3At
   }
 
   // dialnorm - computed: true, optional: true, required: false
-  private _dialnorm?: number;
+  private _dialnorm?: number; 
   public get dialnorm() {
     return this.getNumberAttribute('dialnorm');
   }
@@ -2263,7 +2263,7 @@ export class MedialiveChannelEncoderSettingsAudioDescriptionsCodecSettingsEac3At
   }
 
   // drc_line - computed: true, optional: true, required: false
-  private _drcLine?: string;
+  private _drcLine?: string; 
   public get drcLine() {
     return this.getStringAttribute('drc_line');
   }
@@ -2279,7 +2279,7 @@ export class MedialiveChannelEncoderSettingsAudioDescriptionsCodecSettingsEac3At
   }
 
   // drc_rf - computed: true, optional: true, required: false
-  private _drcRf?: string;
+  private _drcRf?: string; 
   public get drcRf() {
     return this.getStringAttribute('drc_rf');
   }
@@ -2295,7 +2295,7 @@ export class MedialiveChannelEncoderSettingsAudioDescriptionsCodecSettingsEac3At
   }
 
   // height_trim - computed: true, optional: true, required: false
-  private _heightTrim?: number;
+  private _heightTrim?: number; 
   public get heightTrim() {
     return this.getNumberAttribute('height_trim');
   }
@@ -2311,7 +2311,7 @@ export class MedialiveChannelEncoderSettingsAudioDescriptionsCodecSettingsEac3At
   }
 
   // surround_trim - computed: true, optional: true, required: false
-  private _surroundTrim?: number;
+  private _surroundTrim?: number; 
   public get surroundTrim() {
     return this.getNumberAttribute('surround_trim');
   }
@@ -2718,7 +2718,7 @@ export class MedialiveChannelEncoderSettingsAudioDescriptionsCodecSettingsEac3Se
   }
 
   // attenuation_control - computed: true, optional: true, required: false
-  private _attenuationControl?: string;
+  private _attenuationControl?: string; 
   public get attenuationControl() {
     return this.getStringAttribute('attenuation_control');
   }
@@ -2734,7 +2734,7 @@ export class MedialiveChannelEncoderSettingsAudioDescriptionsCodecSettingsEac3Se
   }
 
   // bitrate - computed: true, optional: true, required: false
-  private _bitrate?: number;
+  private _bitrate?: number; 
   public get bitrate() {
     return this.getNumberAttribute('bitrate');
   }
@@ -2750,7 +2750,7 @@ export class MedialiveChannelEncoderSettingsAudioDescriptionsCodecSettingsEac3Se
   }
 
   // bitstream_mode - computed: true, optional: true, required: false
-  private _bitstreamMode?: string;
+  private _bitstreamMode?: string; 
   public get bitstreamMode() {
     return this.getStringAttribute('bitstream_mode');
   }
@@ -2766,7 +2766,7 @@ export class MedialiveChannelEncoderSettingsAudioDescriptionsCodecSettingsEac3Se
   }
 
   // coding_mode - computed: true, optional: true, required: false
-  private _codingMode?: string;
+  private _codingMode?: string; 
   public get codingMode() {
     return this.getStringAttribute('coding_mode');
   }
@@ -2782,7 +2782,7 @@ export class MedialiveChannelEncoderSettingsAudioDescriptionsCodecSettingsEac3Se
   }
 
   // dc_filter - computed: true, optional: true, required: false
-  private _dcFilter?: string;
+  private _dcFilter?: string; 
   public get dcFilter() {
     return this.getStringAttribute('dc_filter');
   }
@@ -2798,7 +2798,7 @@ export class MedialiveChannelEncoderSettingsAudioDescriptionsCodecSettingsEac3Se
   }
 
   // dialnorm - computed: true, optional: true, required: false
-  private _dialnorm?: number;
+  private _dialnorm?: number; 
   public get dialnorm() {
     return this.getNumberAttribute('dialnorm');
   }
@@ -2814,7 +2814,7 @@ export class MedialiveChannelEncoderSettingsAudioDescriptionsCodecSettingsEac3Se
   }
 
   // drc_line - computed: true, optional: true, required: false
-  private _drcLine?: string;
+  private _drcLine?: string; 
   public get drcLine() {
     return this.getStringAttribute('drc_line');
   }
@@ -2830,7 +2830,7 @@ export class MedialiveChannelEncoderSettingsAudioDescriptionsCodecSettingsEac3Se
   }
 
   // drc_rf - computed: true, optional: true, required: false
-  private _drcRf?: string;
+  private _drcRf?: string; 
   public get drcRf() {
     return this.getStringAttribute('drc_rf');
   }
@@ -2846,7 +2846,7 @@ export class MedialiveChannelEncoderSettingsAudioDescriptionsCodecSettingsEac3Se
   }
 
   // lfe_control - computed: true, optional: true, required: false
-  private _lfeControl?: string;
+  private _lfeControl?: string; 
   public get lfeControl() {
     return this.getStringAttribute('lfe_control');
   }
@@ -2862,7 +2862,7 @@ export class MedialiveChannelEncoderSettingsAudioDescriptionsCodecSettingsEac3Se
   }
 
   // lfe_filter - computed: true, optional: true, required: false
-  private _lfeFilter?: string;
+  private _lfeFilter?: string; 
   public get lfeFilter() {
     return this.getStringAttribute('lfe_filter');
   }
@@ -2878,7 +2878,7 @@ export class MedialiveChannelEncoderSettingsAudioDescriptionsCodecSettingsEac3Se
   }
 
   // lo_ro_center_mix_level - computed: true, optional: true, required: false
-  private _loRoCenterMixLevel?: number;
+  private _loRoCenterMixLevel?: number; 
   public get loRoCenterMixLevel() {
     return this.getNumberAttribute('lo_ro_center_mix_level');
   }
@@ -2894,7 +2894,7 @@ export class MedialiveChannelEncoderSettingsAudioDescriptionsCodecSettingsEac3Se
   }
 
   // lo_ro_surround_mix_level - computed: true, optional: true, required: false
-  private _loRoSurroundMixLevel?: number;
+  private _loRoSurroundMixLevel?: number; 
   public get loRoSurroundMixLevel() {
     return this.getNumberAttribute('lo_ro_surround_mix_level');
   }
@@ -2910,7 +2910,7 @@ export class MedialiveChannelEncoderSettingsAudioDescriptionsCodecSettingsEac3Se
   }
 
   // lt_rt_center_mix_level - computed: true, optional: true, required: false
-  private _ltRtCenterMixLevel?: number;
+  private _ltRtCenterMixLevel?: number; 
   public get ltRtCenterMixLevel() {
     return this.getNumberAttribute('lt_rt_center_mix_level');
   }
@@ -2926,7 +2926,7 @@ export class MedialiveChannelEncoderSettingsAudioDescriptionsCodecSettingsEac3Se
   }
 
   // lt_rt_surround_mix_level - computed: true, optional: true, required: false
-  private _ltRtSurroundMixLevel?: number;
+  private _ltRtSurroundMixLevel?: number; 
   public get ltRtSurroundMixLevel() {
     return this.getNumberAttribute('lt_rt_surround_mix_level');
   }
@@ -2942,7 +2942,7 @@ export class MedialiveChannelEncoderSettingsAudioDescriptionsCodecSettingsEac3Se
   }
 
   // metadata_control - computed: true, optional: true, required: false
-  private _metadataControl?: string;
+  private _metadataControl?: string; 
   public get metadataControl() {
     return this.getStringAttribute('metadata_control');
   }
@@ -2958,7 +2958,7 @@ export class MedialiveChannelEncoderSettingsAudioDescriptionsCodecSettingsEac3Se
   }
 
   // passthrough_control - computed: true, optional: true, required: false
-  private _passthroughControl?: string;
+  private _passthroughControl?: string; 
   public get passthroughControl() {
     return this.getStringAttribute('passthrough_control');
   }
@@ -2974,7 +2974,7 @@ export class MedialiveChannelEncoderSettingsAudioDescriptionsCodecSettingsEac3Se
   }
 
   // phase_control - computed: true, optional: true, required: false
-  private _phaseControl?: string;
+  private _phaseControl?: string; 
   public get phaseControl() {
     return this.getStringAttribute('phase_control');
   }
@@ -2990,7 +2990,7 @@ export class MedialiveChannelEncoderSettingsAudioDescriptionsCodecSettingsEac3Se
   }
 
   // stereo_downmix - computed: true, optional: true, required: false
-  private _stereoDownmix?: string;
+  private _stereoDownmix?: string; 
   public get stereoDownmix() {
     return this.getStringAttribute('stereo_downmix');
   }
@@ -3006,7 +3006,7 @@ export class MedialiveChannelEncoderSettingsAudioDescriptionsCodecSettingsEac3Se
   }
 
   // surround_ex_mode - computed: true, optional: true, required: false
-  private _surroundExMode?: string;
+  private _surroundExMode?: string; 
   public get surroundExMode() {
     return this.getStringAttribute('surround_ex_mode');
   }
@@ -3022,7 +3022,7 @@ export class MedialiveChannelEncoderSettingsAudioDescriptionsCodecSettingsEac3Se
   }
 
   // surround_mode - computed: true, optional: true, required: false
-  private _surroundMode?: string;
+  private _surroundMode?: string; 
   public get surroundMode() {
     return this.getStringAttribute('surround_mode');
   }
@@ -3140,7 +3140,7 @@ export class MedialiveChannelEncoderSettingsAudioDescriptionsCodecSettingsMp2Set
   }
 
   // bitrate - computed: true, optional: true, required: false
-  private _bitrate?: number;
+  private _bitrate?: number; 
   public get bitrate() {
     return this.getNumberAttribute('bitrate');
   }
@@ -3156,7 +3156,7 @@ export class MedialiveChannelEncoderSettingsAudioDescriptionsCodecSettingsMp2Set
   }
 
   // coding_mode - computed: true, optional: true, required: false
-  private _codingMode?: string;
+  private _codingMode?: string; 
   public get codingMode() {
     return this.getStringAttribute('coding_mode');
   }
@@ -3172,7 +3172,7 @@ export class MedialiveChannelEncoderSettingsAudioDescriptionsCodecSettingsMp2Set
   }
 
   // sample_rate - computed: true, optional: true, required: false
-  private _sampleRate?: number;
+  private _sampleRate?: number; 
   public get sampleRate() {
     return this.getNumberAttribute('sample_rate');
   }
@@ -3339,7 +3339,7 @@ export class MedialiveChannelEncoderSettingsAudioDescriptionsCodecSettingsWavSet
   }
 
   // bit_depth - computed: true, optional: true, required: false
-  private _bitDepth?: number;
+  private _bitDepth?: number; 
   public get bitDepth() {
     return this.getNumberAttribute('bit_depth');
   }
@@ -3355,7 +3355,7 @@ export class MedialiveChannelEncoderSettingsAudioDescriptionsCodecSettingsWavSet
   }
 
   // coding_mode - computed: true, optional: true, required: false
-  private _codingMode?: string;
+  private _codingMode?: string; 
   public get codingMode() {
     return this.getStringAttribute('coding_mode');
   }
@@ -3371,7 +3371,7 @@ export class MedialiveChannelEncoderSettingsAudioDescriptionsCodecSettingsWavSet
   }
 
   // sample_rate - computed: true, optional: true, required: false
-  private _sampleRate?: number;
+  private _sampleRate?: number; 
   public get sampleRate() {
     return this.getNumberAttribute('sample_rate');
   }
@@ -3780,7 +3780,7 @@ export class MedialiveChannelEncoderSettingsAudioDescriptionsRemixSettingsChanne
   }
 
   // gain - computed: false, optional: false, required: true
-  private _gain?: number;
+  private _gain?: number; 
   public get gain() {
     return this.getNumberAttribute('gain');
   }
@@ -3793,7 +3793,7 @@ export class MedialiveChannelEncoderSettingsAudioDescriptionsRemixSettingsChanne
   }
 
   // input_channel - computed: false, optional: false, required: true
-  private _inputChannel?: number;
+  private _inputChannel?: number; 
   public get inputChannel() {
     return this.getNumberAttribute('input_channel');
   }
@@ -3925,7 +3925,7 @@ export class MedialiveChannelEncoderSettingsAudioDescriptionsRemixSettingsChanne
   }
 
   // output_channel - computed: false, optional: false, required: true
-  private _outputChannel?: number;
+  private _outputChannel?: number; 
   public get outputChannel() {
     return this.getNumberAttribute('output_channel');
   }
@@ -4075,7 +4075,7 @@ export class MedialiveChannelEncoderSettingsAudioDescriptionsRemixSettingsOutput
   }
 
   // channels_in - computed: true, optional: true, required: false
-  private _channelsIn?: number;
+  private _channelsIn?: number; 
   public get channelsIn() {
     return this.getNumberAttribute('channels_in');
   }
@@ -4091,7 +4091,7 @@ export class MedialiveChannelEncoderSettingsAudioDescriptionsRemixSettingsOutput
   }
 
   // channels_out - computed: true, optional: true, required: false
-  private _channelsOut?: number;
+  private _channelsOut?: number; 
   public get channelsOut() {
     return this.getNumberAttribute('channels_out');
   }
@@ -4378,7 +4378,7 @@ export class MedialiveChannelEncoderSettingsAudioDescriptionsOutputReference ext
   }
 
   // audio_selector_name - computed: false, optional: false, required: true
-  private _audioSelectorName?: string;
+  private _audioSelectorName?: string; 
   public get audioSelectorName() {
     return this.getStringAttribute('audio_selector_name');
   }
@@ -4391,7 +4391,7 @@ export class MedialiveChannelEncoderSettingsAudioDescriptionsOutputReference ext
   }
 
   // audio_type - computed: true, optional: true, required: false
-  private _audioType?: string;
+  private _audioType?: string; 
   public get audioType() {
     return this.getStringAttribute('audio_type');
   }
@@ -4407,7 +4407,7 @@ export class MedialiveChannelEncoderSettingsAudioDescriptionsOutputReference ext
   }
 
   // audio_type_control - computed: true, optional: true, required: false
-  private _audioTypeControl?: string;
+  private _audioTypeControl?: string; 
   public get audioTypeControl() {
     return this.getStringAttribute('audio_type_control');
   }
@@ -4423,7 +4423,7 @@ export class MedialiveChannelEncoderSettingsAudioDescriptionsOutputReference ext
   }
 
   // language_code - computed: true, optional: true, required: false
-  private _languageCode?: string;
+  private _languageCode?: string; 
   public get languageCode() {
     return this.getStringAttribute('language_code');
   }
@@ -4439,7 +4439,7 @@ export class MedialiveChannelEncoderSettingsAudioDescriptionsOutputReference ext
   }
 
   // language_code_control - computed: true, optional: true, required: false
-  private _languageCodeControl?: string;
+  private _languageCodeControl?: string; 
   public get languageCodeControl() {
     return this.getStringAttribute('language_code_control');
   }
@@ -4455,7 +4455,7 @@ export class MedialiveChannelEncoderSettingsAudioDescriptionsOutputReference ext
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -4468,7 +4468,7 @@ export class MedialiveChannelEncoderSettingsAudioDescriptionsOutputReference ext
   }
 
   // stream_name - computed: true, optional: true, required: false
-  private _streamName?: string;
+  private _streamName?: string; 
   public get streamName() {
     return this.getStringAttribute('stream_name');
   }
@@ -4670,7 +4670,7 @@ export class MedialiveChannelEncoderSettingsAvailBlankingAvailBlankingImageOutpu
   }
 
   // password_param - computed: true, optional: true, required: false
-  private _passwordParam?: string;
+  private _passwordParam?: string; 
   public get passwordParam() {
     return this.getStringAttribute('password_param');
   }
@@ -4686,7 +4686,7 @@ export class MedialiveChannelEncoderSettingsAvailBlankingAvailBlankingImageOutpu
   }
 
   // uri - computed: false, optional: false, required: true
-  private _uri?: string;
+  private _uri?: string; 
   public get uri() {
     return this.getStringAttribute('uri');
   }
@@ -4699,7 +4699,7 @@ export class MedialiveChannelEncoderSettingsAvailBlankingAvailBlankingImageOutpu
   }
 
   // username - computed: true, optional: true, required: false
-  private _username?: string;
+  private _username?: string; 
   public get username() {
     return this.getStringAttribute('username');
   }
@@ -4802,7 +4802,7 @@ export class MedialiveChannelEncoderSettingsAvailBlankingOutputReference extends
   }
 
   // state - computed: true, optional: true, required: false
-  private _state?: string;
+  private _state?: string; 
   public get state() {
     return this.getStringAttribute('state');
   }
@@ -4985,7 +4985,7 @@ export class MedialiveChannelEncoderSettingsCaptionDescriptionsDestinationSettin
   }
 
   // password_param - computed: true, optional: true, required: false
-  private _passwordParam?: string;
+  private _passwordParam?: string; 
   public get passwordParam() {
     return this.getStringAttribute('password_param');
   }
@@ -5001,7 +5001,7 @@ export class MedialiveChannelEncoderSettingsCaptionDescriptionsDestinationSettin
   }
 
   // uri - computed: false, optional: false, required: true
-  private _uri?: string;
+  private _uri?: string; 
   public get uri() {
     return this.getStringAttribute('uri');
   }
@@ -5014,7 +5014,7 @@ export class MedialiveChannelEncoderSettingsCaptionDescriptionsDestinationSettin
   }
 
   // username - computed: true, optional: true, required: false
-  private _username?: string;
+  private _username?: string; 
   public get username() {
     return this.getStringAttribute('username');
   }
@@ -5372,7 +5372,7 @@ export class MedialiveChannelEncoderSettingsCaptionDescriptionsDestinationSettin
   }
 
   // alignment - computed: false, optional: true, required: false
-  private _alignment?: string;
+  private _alignment?: string; 
   public get alignment() {
     return this.getStringAttribute('alignment');
   }
@@ -5388,7 +5388,7 @@ export class MedialiveChannelEncoderSettingsCaptionDescriptionsDestinationSettin
   }
 
   // background_color - computed: false, optional: true, required: false
-  private _backgroundColor?: string;
+  private _backgroundColor?: string; 
   public get backgroundColor() {
     return this.getStringAttribute('background_color');
   }
@@ -5404,7 +5404,7 @@ export class MedialiveChannelEncoderSettingsCaptionDescriptionsDestinationSettin
   }
 
   // background_opacity - computed: false, optional: true, required: false
-  private _backgroundOpacity?: number;
+  private _backgroundOpacity?: number; 
   public get backgroundOpacity() {
     return this.getNumberAttribute('background_opacity');
   }
@@ -5420,7 +5420,7 @@ export class MedialiveChannelEncoderSettingsCaptionDescriptionsDestinationSettin
   }
 
   // font_color - computed: false, optional: true, required: false
-  private _fontColor?: string;
+  private _fontColor?: string; 
   public get fontColor() {
     return this.getStringAttribute('font_color');
   }
@@ -5436,7 +5436,7 @@ export class MedialiveChannelEncoderSettingsCaptionDescriptionsDestinationSettin
   }
 
   // font_opacity - computed: false, optional: true, required: false
-  private _fontOpacity?: number;
+  private _fontOpacity?: number; 
   public get fontOpacity() {
     return this.getNumberAttribute('font_opacity');
   }
@@ -5452,7 +5452,7 @@ export class MedialiveChannelEncoderSettingsCaptionDescriptionsDestinationSettin
   }
 
   // font_resolution - computed: false, optional: true, required: false
-  private _fontResolution?: number;
+  private _fontResolution?: number; 
   public get fontResolution() {
     return this.getNumberAttribute('font_resolution');
   }
@@ -5468,7 +5468,7 @@ export class MedialiveChannelEncoderSettingsCaptionDescriptionsDestinationSettin
   }
 
   // font_size - computed: false, optional: true, required: false
-  private _fontSize?: string;
+  private _fontSize?: string; 
   public get fontSize() {
     return this.getStringAttribute('font_size');
   }
@@ -5484,7 +5484,7 @@ export class MedialiveChannelEncoderSettingsCaptionDescriptionsDestinationSettin
   }
 
   // outline_color - computed: false, optional: false, required: true
-  private _outlineColor?: string;
+  private _outlineColor?: string; 
   public get outlineColor() {
     return this.getStringAttribute('outline_color');
   }
@@ -5497,7 +5497,7 @@ export class MedialiveChannelEncoderSettingsCaptionDescriptionsDestinationSettin
   }
 
   // outline_size - computed: false, optional: true, required: false
-  private _outlineSize?: number;
+  private _outlineSize?: number; 
   public get outlineSize() {
     return this.getNumberAttribute('outline_size');
   }
@@ -5513,7 +5513,7 @@ export class MedialiveChannelEncoderSettingsCaptionDescriptionsDestinationSettin
   }
 
   // shadow_color - computed: false, optional: true, required: false
-  private _shadowColor?: string;
+  private _shadowColor?: string; 
   public get shadowColor() {
     return this.getStringAttribute('shadow_color');
   }
@@ -5529,7 +5529,7 @@ export class MedialiveChannelEncoderSettingsCaptionDescriptionsDestinationSettin
   }
 
   // shadow_opacity - computed: false, optional: true, required: false
-  private _shadowOpacity?: number;
+  private _shadowOpacity?: number; 
   public get shadowOpacity() {
     return this.getNumberAttribute('shadow_opacity');
   }
@@ -5545,7 +5545,7 @@ export class MedialiveChannelEncoderSettingsCaptionDescriptionsDestinationSettin
   }
 
   // shadow_x_offset - computed: false, optional: true, required: false
-  private _shadowXOffset?: number;
+  private _shadowXOffset?: number; 
   public get shadowXOffset() {
     return this.getNumberAttribute('shadow_x_offset');
   }
@@ -5561,7 +5561,7 @@ export class MedialiveChannelEncoderSettingsCaptionDescriptionsDestinationSettin
   }
 
   // shadow_y_offset - computed: false, optional: true, required: false
-  private _shadowYOffset?: number;
+  private _shadowYOffset?: number; 
   public get shadowYOffset() {
     return this.getNumberAttribute('shadow_y_offset');
   }
@@ -5577,7 +5577,7 @@ export class MedialiveChannelEncoderSettingsCaptionDescriptionsDestinationSettin
   }
 
   // teletext_grid_control - computed: false, optional: false, required: true
-  private _teletextGridControl?: string;
+  private _teletextGridControl?: string; 
   public get teletextGridControl() {
     return this.getStringAttribute('teletext_grid_control');
   }
@@ -5590,7 +5590,7 @@ export class MedialiveChannelEncoderSettingsCaptionDescriptionsDestinationSettin
   }
 
   // x_position - computed: false, optional: true, required: false
-  private _xPosition?: number;
+  private _xPosition?: number; 
   public get xPosition() {
     return this.getNumberAttribute('x_position');
   }
@@ -5606,7 +5606,7 @@ export class MedialiveChannelEncoderSettingsCaptionDescriptionsDestinationSettin
   }
 
   // y_position - computed: false, optional: true, required: false
-  private _yPosition?: number;
+  private _yPosition?: number; 
   public get yPosition() {
     return this.getNumberAttribute('y_position');
   }
@@ -5740,7 +5740,7 @@ export class MedialiveChannelEncoderSettingsCaptionDescriptionsDestinationSettin
   }
 
   // password_param - computed: true, optional: true, required: false
-  private _passwordParam?: string;
+  private _passwordParam?: string; 
   public get passwordParam() {
     return this.getStringAttribute('password_param');
   }
@@ -5756,7 +5756,7 @@ export class MedialiveChannelEncoderSettingsCaptionDescriptionsDestinationSettin
   }
 
   // uri - computed: false, optional: false, required: true
-  private _uri?: string;
+  private _uri?: string; 
   public get uri() {
     return this.getStringAttribute('uri');
   }
@@ -5769,7 +5769,7 @@ export class MedialiveChannelEncoderSettingsCaptionDescriptionsDestinationSettin
   }
 
   // username - computed: true, optional: true, required: false
-  private _username?: string;
+  private _username?: string; 
   public get username() {
     return this.getStringAttribute('username');
   }
@@ -6127,7 +6127,7 @@ export class MedialiveChannelEncoderSettingsCaptionDescriptionsDestinationSettin
   }
 
   // alignment - computed: false, optional: true, required: false
-  private _alignment?: string;
+  private _alignment?: string; 
   public get alignment() {
     return this.getStringAttribute('alignment');
   }
@@ -6143,7 +6143,7 @@ export class MedialiveChannelEncoderSettingsCaptionDescriptionsDestinationSettin
   }
 
   // background_color - computed: false, optional: true, required: false
-  private _backgroundColor?: string;
+  private _backgroundColor?: string; 
   public get backgroundColor() {
     return this.getStringAttribute('background_color');
   }
@@ -6159,7 +6159,7 @@ export class MedialiveChannelEncoderSettingsCaptionDescriptionsDestinationSettin
   }
 
   // background_opacity - computed: false, optional: true, required: false
-  private _backgroundOpacity?: number;
+  private _backgroundOpacity?: number; 
   public get backgroundOpacity() {
     return this.getNumberAttribute('background_opacity');
   }
@@ -6175,7 +6175,7 @@ export class MedialiveChannelEncoderSettingsCaptionDescriptionsDestinationSettin
   }
 
   // font_color - computed: false, optional: true, required: false
-  private _fontColor?: string;
+  private _fontColor?: string; 
   public get fontColor() {
     return this.getStringAttribute('font_color');
   }
@@ -6191,7 +6191,7 @@ export class MedialiveChannelEncoderSettingsCaptionDescriptionsDestinationSettin
   }
 
   // font_opacity - computed: false, optional: true, required: false
-  private _fontOpacity?: number;
+  private _fontOpacity?: number; 
   public get fontOpacity() {
     return this.getNumberAttribute('font_opacity');
   }
@@ -6207,7 +6207,7 @@ export class MedialiveChannelEncoderSettingsCaptionDescriptionsDestinationSettin
   }
 
   // font_resolution - computed: false, optional: true, required: false
-  private _fontResolution?: number;
+  private _fontResolution?: number; 
   public get fontResolution() {
     return this.getNumberAttribute('font_resolution');
   }
@@ -6223,7 +6223,7 @@ export class MedialiveChannelEncoderSettingsCaptionDescriptionsDestinationSettin
   }
 
   // font_size - computed: true, optional: true, required: false
-  private _fontSize?: string;
+  private _fontSize?: string; 
   public get fontSize() {
     return this.getStringAttribute('font_size');
   }
@@ -6239,7 +6239,7 @@ export class MedialiveChannelEncoderSettingsCaptionDescriptionsDestinationSettin
   }
 
   // outline_color - computed: false, optional: true, required: false
-  private _outlineColor?: string;
+  private _outlineColor?: string; 
   public get outlineColor() {
     return this.getStringAttribute('outline_color');
   }
@@ -6255,7 +6255,7 @@ export class MedialiveChannelEncoderSettingsCaptionDescriptionsDestinationSettin
   }
 
   // outline_size - computed: false, optional: true, required: false
-  private _outlineSize?: number;
+  private _outlineSize?: number; 
   public get outlineSize() {
     return this.getNumberAttribute('outline_size');
   }
@@ -6271,7 +6271,7 @@ export class MedialiveChannelEncoderSettingsCaptionDescriptionsDestinationSettin
   }
 
   // shadow_color - computed: false, optional: true, required: false
-  private _shadowColor?: string;
+  private _shadowColor?: string; 
   public get shadowColor() {
     return this.getStringAttribute('shadow_color');
   }
@@ -6287,7 +6287,7 @@ export class MedialiveChannelEncoderSettingsCaptionDescriptionsDestinationSettin
   }
 
   // shadow_opacity - computed: false, optional: true, required: false
-  private _shadowOpacity?: number;
+  private _shadowOpacity?: number; 
   public get shadowOpacity() {
     return this.getNumberAttribute('shadow_opacity');
   }
@@ -6303,7 +6303,7 @@ export class MedialiveChannelEncoderSettingsCaptionDescriptionsDestinationSettin
   }
 
   // shadow_x_offset - computed: false, optional: true, required: false
-  private _shadowXOffset?: number;
+  private _shadowXOffset?: number; 
   public get shadowXOffset() {
     return this.getNumberAttribute('shadow_x_offset');
   }
@@ -6319,7 +6319,7 @@ export class MedialiveChannelEncoderSettingsCaptionDescriptionsDestinationSettin
   }
 
   // shadow_y_offset - computed: false, optional: true, required: false
-  private _shadowYOffset?: number;
+  private _shadowYOffset?: number; 
   public get shadowYOffset() {
     return this.getNumberAttribute('shadow_y_offset');
   }
@@ -6335,7 +6335,7 @@ export class MedialiveChannelEncoderSettingsCaptionDescriptionsDestinationSettin
   }
 
   // teletext_grid_control - computed: false, optional: true, required: false
-  private _teletextGridControl?: string;
+  private _teletextGridControl?: string; 
   public get teletextGridControl() {
     return this.getStringAttribute('teletext_grid_control');
   }
@@ -6351,7 +6351,7 @@ export class MedialiveChannelEncoderSettingsCaptionDescriptionsDestinationSettin
   }
 
   // x_position - computed: false, optional: true, required: false
-  private _xPosition?: number;
+  private _xPosition?: number; 
   public get xPosition() {
     return this.getNumberAttribute('x_position');
   }
@@ -6367,7 +6367,7 @@ export class MedialiveChannelEncoderSettingsCaptionDescriptionsDestinationSettin
   }
 
   // y_position - computed: false, optional: true, required: false
-  private _yPosition?: number;
+  private _yPosition?: number; 
   public get yPosition() {
     return this.getNumberAttribute('y_position');
   }
@@ -6518,7 +6518,7 @@ export class MedialiveChannelEncoderSettingsCaptionDescriptionsDestinationSettin
   }
 
   // copyright_holder - computed: false, optional: true, required: false
-  private _copyrightHolder?: string;
+  private _copyrightHolder?: string; 
   public get copyrightHolder() {
     return this.getStringAttribute('copyright_holder');
   }
@@ -6534,7 +6534,7 @@ export class MedialiveChannelEncoderSettingsCaptionDescriptionsDestinationSettin
   }
 
   // fill_line_gap - computed: false, optional: true, required: false
-  private _fillLineGap?: string;
+  private _fillLineGap?: string; 
   public get fillLineGap() {
     return this.getStringAttribute('fill_line_gap');
   }
@@ -6550,7 +6550,7 @@ export class MedialiveChannelEncoderSettingsCaptionDescriptionsDestinationSettin
   }
 
   // font_family - computed: false, optional: true, required: false
-  private _fontFamily?: string;
+  private _fontFamily?: string; 
   public get fontFamily() {
     return this.getStringAttribute('font_family');
   }
@@ -6566,7 +6566,7 @@ export class MedialiveChannelEncoderSettingsCaptionDescriptionsDestinationSettin
   }
 
   // style_control - computed: true, optional: true, required: false
-  private _styleControl?: string;
+  private _styleControl?: string; 
   public get styleControl() {
     return this.getStringAttribute('style_control');
   }
@@ -6993,7 +6993,7 @@ export class MedialiveChannelEncoderSettingsCaptionDescriptionsDestinationSettin
   }
 
   // style_control - computed: false, optional: false, required: true
-  private _styleControl?: string;
+  private _styleControl?: string; 
   public get styleControl() {
     return this.getStringAttribute('style_control');
   }
@@ -7074,7 +7074,7 @@ export class MedialiveChannelEncoderSettingsCaptionDescriptionsDestinationSettin
   }
 
   // style_control - computed: false, optional: false, required: true
-  private _styleControl?: string;
+  private _styleControl?: string; 
   public get styleControl() {
     return this.getStringAttribute('style_control');
   }
@@ -7760,7 +7760,7 @@ export class MedialiveChannelEncoderSettingsCaptionDescriptionsOutputReference e
   }
 
   // accessibility - computed: false, optional: true, required: false
-  private _accessibility?: string;
+  private _accessibility?: string; 
   public get accessibility() {
     return this.getStringAttribute('accessibility');
   }
@@ -7776,7 +7776,7 @@ export class MedialiveChannelEncoderSettingsCaptionDescriptionsOutputReference e
   }
 
   // caption_selector_name - computed: false, optional: false, required: true
-  private _captionSelectorName?: string;
+  private _captionSelectorName?: string; 
   public get captionSelectorName() {
     return this.getStringAttribute('caption_selector_name');
   }
@@ -7789,7 +7789,7 @@ export class MedialiveChannelEncoderSettingsCaptionDescriptionsOutputReference e
   }
 
   // language_code - computed: false, optional: true, required: false
-  private _languageCode?: string;
+  private _languageCode?: string; 
   public get languageCode() {
     return this.getStringAttribute('language_code');
   }
@@ -7805,7 +7805,7 @@ export class MedialiveChannelEncoderSettingsCaptionDescriptionsOutputReference e
   }
 
   // language_description - computed: false, optional: true, required: false
-  private _languageDescription?: string;
+  private _languageDescription?: string; 
   public get languageDescription() {
     return this.getStringAttribute('language_description');
   }
@@ -7821,7 +7821,7 @@ export class MedialiveChannelEncoderSettingsCaptionDescriptionsOutputReference e
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -7972,7 +7972,7 @@ export class MedialiveChannelEncoderSettingsGlobalConfigurationInputLossBehavior
   }
 
   // password_param - computed: true, optional: true, required: false
-  private _passwordParam?: string;
+  private _passwordParam?: string; 
   public get passwordParam() {
     return this.getStringAttribute('password_param');
   }
@@ -7988,7 +7988,7 @@ export class MedialiveChannelEncoderSettingsGlobalConfigurationInputLossBehavior
   }
 
   // uri - computed: false, optional: false, required: true
-  private _uri?: string;
+  private _uri?: string; 
   public get uri() {
     return this.getStringAttribute('uri');
   }
@@ -8001,7 +8001,7 @@ export class MedialiveChannelEncoderSettingsGlobalConfigurationInputLossBehavior
   }
 
   // username - computed: true, optional: true, required: false
-  private _username?: string;
+  private _username?: string; 
   public get username() {
     return this.getStringAttribute('username');
   }
@@ -8155,7 +8155,7 @@ export class MedialiveChannelEncoderSettingsGlobalConfigurationInputLossBehavior
   }
 
   // black_frame_msec - computed: false, optional: true, required: false
-  private _blackFrameMsec?: number;
+  private _blackFrameMsec?: number; 
   public get blackFrameMsec() {
     return this.getNumberAttribute('black_frame_msec');
   }
@@ -8171,7 +8171,7 @@ export class MedialiveChannelEncoderSettingsGlobalConfigurationInputLossBehavior
   }
 
   // input_loss_image_color - computed: false, optional: true, required: false
-  private _inputLossImageColor?: string;
+  private _inputLossImageColor?: string; 
   public get inputLossImageColor() {
     return this.getStringAttribute('input_loss_image_color');
   }
@@ -8187,7 +8187,7 @@ export class MedialiveChannelEncoderSettingsGlobalConfigurationInputLossBehavior
   }
 
   // input_loss_image_type - computed: false, optional: true, required: false
-  private _inputLossImageType?: string;
+  private _inputLossImageType?: string; 
   public get inputLossImageType() {
     return this.getStringAttribute('input_loss_image_type');
   }
@@ -8203,7 +8203,7 @@ export class MedialiveChannelEncoderSettingsGlobalConfigurationInputLossBehavior
   }
 
   // repeat_frame_msec - computed: false, optional: true, required: false
-  private _repeatFrameMsec?: number;
+  private _repeatFrameMsec?: number; 
   public get repeatFrameMsec() {
     return this.getNumberAttribute('repeat_frame_msec');
   }
@@ -8390,7 +8390,7 @@ export class MedialiveChannelEncoderSettingsGlobalConfigurationOutputReference e
   }
 
   // initial_audio_gain - computed: false, optional: true, required: false
-  private _initialAudioGain?: number;
+  private _initialAudioGain?: number; 
   public get initialAudioGain() {
     return this.getNumberAttribute('initial_audio_gain');
   }
@@ -8406,7 +8406,7 @@ export class MedialiveChannelEncoderSettingsGlobalConfigurationOutputReference e
   }
 
   // input_end_action - computed: false, optional: true, required: false
-  private _inputEndAction?: string;
+  private _inputEndAction?: string; 
   public get inputEndAction() {
     return this.getStringAttribute('input_end_action');
   }
@@ -8422,7 +8422,7 @@ export class MedialiveChannelEncoderSettingsGlobalConfigurationOutputReference e
   }
 
   // output_locking_mode - computed: false, optional: true, required: false
-  private _outputLockingMode?: string;
+  private _outputLockingMode?: string; 
   public get outputLockingMode() {
     return this.getStringAttribute('output_locking_mode');
   }
@@ -8438,7 +8438,7 @@ export class MedialiveChannelEncoderSettingsGlobalConfigurationOutputReference e
   }
 
   // output_timing_source - computed: false, optional: true, required: false
-  private _outputTimingSource?: string;
+  private _outputTimingSource?: string; 
   public get outputTimingSource() {
     return this.getStringAttribute('output_timing_source');
   }
@@ -8454,7 +8454,7 @@ export class MedialiveChannelEncoderSettingsGlobalConfigurationOutputReference e
   }
 
   // support_low_framerate_inputs - computed: false, optional: true, required: false
-  private _supportLowFramerateInputs?: string;
+  private _supportLowFramerateInputs?: string; 
   public get supportLowFramerateInputs() {
     return this.getStringAttribute('support_low_framerate_inputs');
   }
@@ -8708,7 +8708,7 @@ export class MedialiveChannelEncoderSettingsMotionGraphicsConfigurationOutputRef
   }
 
   // motion_graphics_insertion - computed: false, optional: true, required: false
-  private _motionGraphicsInsertion?: string;
+  private _motionGraphicsInsertion?: string; 
   public get motionGraphicsInsertion() {
     return this.getStringAttribute('motion_graphics_insertion');
   }
@@ -8822,7 +8822,7 @@ export class MedialiveChannelEncoderSettingsNielsenConfigurationOutputReference 
   }
 
   // distributor_id - computed: false, optional: true, required: false
-  private _distributorId?: string;
+  private _distributorId?: string; 
   public get distributorId() {
     return this.getStringAttribute('distributor_id');
   }
@@ -8838,7 +8838,7 @@ export class MedialiveChannelEncoderSettingsNielsenConfigurationOutputReference 
   }
 
   // nielsen_pcm_to_id3_tagging - computed: false, optional: true, required: false
-  private _nielsenPcmToId3Tagging?: string;
+  private _nielsenPcmToId3Tagging?: string; 
   public get nielsenPcmToId3Tagging() {
     return this.getStringAttribute('nielsen_pcm_to_id3_tagging');
   }
@@ -8922,7 +8922,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsArchi
   }
 
   // canned_acl - computed: false, optional: true, required: false
-  private _cannedAcl?: string;
+  private _cannedAcl?: string; 
   public get cannedAcl() {
     return this.getStringAttribute('canned_acl');
   }
@@ -9092,7 +9092,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsArchi
   }
 
   // destination_ref_id - computed: false, optional: false, required: true
-  private _destinationRefId?: string;
+  private _destinationRefId?: string; 
   public get destinationRefId() {
     return this.getStringAttribute('destination_ref_id');
   }
@@ -9223,7 +9223,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsArchi
   }
 
   // rollover_interval - computed: false, optional: true, required: false
-  private _rolloverInterval?: number;
+  private _rolloverInterval?: number; 
   public get rolloverInterval() {
     return this.getNumberAttribute('rollover_interval');
   }
@@ -9356,7 +9356,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsFrame
   }
 
   // destination_ref_id - computed: false, optional: false, required: true
-  private _destinationRefId?: string;
+  private _destinationRefId?: string; 
   public get destinationRefId() {
     return this.getStringAttribute('destination_ref_id');
   }
@@ -9437,7 +9437,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsFrame
   }
 
   // canned_acl - computed: false, optional: true, required: false
-  private _cannedAcl?: string;
+  private _cannedAcl?: string; 
   public get cannedAcl() {
     return this.getStringAttribute('canned_acl');
   }
@@ -9771,7 +9771,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsHlsGr
   }
 
   // caption_channel - computed: false, optional: false, required: true
-  private _captionChannel?: number;
+  private _captionChannel?: number; 
   public get captionChannel() {
     return this.getNumberAttribute('caption_channel');
   }
@@ -9784,7 +9784,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsHlsGr
   }
 
   // language_code - computed: false, optional: false, required: true
-  private _languageCode?: string;
+  private _languageCode?: string; 
   public get languageCode() {
     return this.getStringAttribute('language_code');
   }
@@ -9797,7 +9797,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsHlsGr
   }
 
   // language_description - computed: false, optional: false, required: true
-  private _languageDescription?: string;
+  private _languageDescription?: string; 
   public get languageDescription() {
     return this.getStringAttribute('language_description');
   }
@@ -9898,7 +9898,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsHlsGr
   }
 
   // destination_ref_id - computed: false, optional: false, required: true
-  private _destinationRefId?: string;
+  private _destinationRefId?: string; 
   public get destinationRefId() {
     return this.getStringAttribute('destination_ref_id');
   }
@@ -10081,7 +10081,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsHlsGr
   }
 
   // connection_retry_interval - computed: false, optional: true, required: false
-  private _connectionRetryInterval?: number;
+  private _connectionRetryInterval?: number; 
   public get connectionRetryInterval() {
     return this.getNumberAttribute('connection_retry_interval');
   }
@@ -10097,7 +10097,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsHlsGr
   }
 
   // filecache_duration - computed: false, optional: true, required: false
-  private _filecacheDuration?: number;
+  private _filecacheDuration?: number; 
   public get filecacheDuration() {
     return this.getNumberAttribute('filecache_duration');
   }
@@ -10113,7 +10113,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsHlsGr
   }
 
   // http_transfer_mode - computed: true, optional: true, required: false
-  private _httpTransferMode?: string;
+  private _httpTransferMode?: string; 
   public get httpTransferMode() {
     return this.getStringAttribute('http_transfer_mode');
   }
@@ -10129,7 +10129,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsHlsGr
   }
 
   // num_retries - computed: false, optional: true, required: false
-  private _numRetries?: number;
+  private _numRetries?: number; 
   public get numRetries() {
     return this.getNumberAttribute('num_retries');
   }
@@ -10145,7 +10145,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsHlsGr
   }
 
   // restart_delay - computed: false, optional: true, required: false
-  private _restartDelay?: number;
+  private _restartDelay?: number; 
   public get restartDelay() {
     return this.getNumberAttribute('restart_delay');
   }
@@ -10161,7 +10161,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsHlsGr
   }
 
   // salt - computed: true, optional: true, required: false
-  private _salt?: string;
+  private _salt?: string; 
   public get salt() {
     return this.getStringAttribute('salt');
   }
@@ -10177,7 +10177,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsHlsGr
   }
 
   // token - computed: true, optional: true, required: false
-  private _token?: string;
+  private _token?: string; 
   public get token() {
     return this.getStringAttribute('token');
   }
@@ -10312,7 +10312,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsHlsGr
   }
 
   // connection_retry_interval - computed: false, optional: true, required: false
-  private _connectionRetryInterval?: number;
+  private _connectionRetryInterval?: number; 
   public get connectionRetryInterval() {
     return this.getNumberAttribute('connection_retry_interval');
   }
@@ -10328,7 +10328,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsHlsGr
   }
 
   // filecache_duration - computed: false, optional: true, required: false
-  private _filecacheDuration?: number;
+  private _filecacheDuration?: number; 
   public get filecacheDuration() {
     return this.getNumberAttribute('filecache_duration');
   }
@@ -10344,7 +10344,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsHlsGr
   }
 
   // num_retries - computed: false, optional: true, required: false
-  private _numRetries?: number;
+  private _numRetries?: number; 
   public get numRetries() {
     return this.getNumberAttribute('num_retries');
   }
@@ -10360,7 +10360,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsHlsGr
   }
 
   // restart_delay - computed: false, optional: true, required: false
-  private _restartDelay?: number;
+  private _restartDelay?: number; 
   public get restartDelay() {
     return this.getNumberAttribute('restart_delay');
   }
@@ -10512,7 +10512,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsHlsGr
   }
 
   // connection_retry_interval - computed: false, optional: true, required: false
-  private _connectionRetryInterval?: number;
+  private _connectionRetryInterval?: number; 
   public get connectionRetryInterval() {
     return this.getNumberAttribute('connection_retry_interval');
   }
@@ -10528,7 +10528,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsHlsGr
   }
 
   // filecache_duration - computed: false, optional: true, required: false
-  private _filecacheDuration?: number;
+  private _filecacheDuration?: number; 
   public get filecacheDuration() {
     return this.getNumberAttribute('filecache_duration');
   }
@@ -10544,7 +10544,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsHlsGr
   }
 
   // media_store_storage_class - computed: true, optional: true, required: false
-  private _mediaStoreStorageClass?: string;
+  private _mediaStoreStorageClass?: string; 
   public get mediaStoreStorageClass() {
     return this.getStringAttribute('media_store_storage_class');
   }
@@ -10560,7 +10560,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsHlsGr
   }
 
   // num_retries - computed: false, optional: true, required: false
-  private _numRetries?: number;
+  private _numRetries?: number; 
   public get numRetries() {
     return this.getNumberAttribute('num_retries');
   }
@@ -10576,7 +10576,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsHlsGr
   }
 
   // restart_delay - computed: false, optional: true, required: false
-  private _restartDelay?: number;
+  private _restartDelay?: number; 
   public get restartDelay() {
     return this.getNumberAttribute('restart_delay');
   }
@@ -10660,7 +10660,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsHlsGr
   }
 
   // canned_acl - computed: false, optional: true, required: false
-  private _cannedAcl?: string;
+  private _cannedAcl?: string; 
   public get cannedAcl() {
     return this.getStringAttribute('canned_acl');
   }
@@ -10812,7 +10812,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsHlsGr
   }
 
   // connection_retry_interval - computed: false, optional: true, required: false
-  private _connectionRetryInterval?: number;
+  private _connectionRetryInterval?: number; 
   public get connectionRetryInterval() {
     return this.getNumberAttribute('connection_retry_interval');
   }
@@ -10828,7 +10828,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsHlsGr
   }
 
   // filecache_duration - computed: false, optional: true, required: false
-  private _filecacheDuration?: number;
+  private _filecacheDuration?: number; 
   public get filecacheDuration() {
     return this.getNumberAttribute('filecache_duration');
   }
@@ -10844,7 +10844,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsHlsGr
   }
 
   // http_transfer_mode - computed: true, optional: true, required: false
-  private _httpTransferMode?: string;
+  private _httpTransferMode?: string; 
   public get httpTransferMode() {
     return this.getStringAttribute('http_transfer_mode');
   }
@@ -10860,7 +10860,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsHlsGr
   }
 
   // num_retries - computed: false, optional: true, required: false
-  private _numRetries?: number;
+  private _numRetries?: number; 
   public get numRetries() {
     return this.getNumberAttribute('num_retries');
   }
@@ -10876,7 +10876,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsHlsGr
   }
 
   // restart_delay - computed: false, optional: true, required: false
-  private _restartDelay?: number;
+  private _restartDelay?: number; 
   public get restartDelay() {
     return this.getNumberAttribute('restart_delay');
   }
@@ -11252,7 +11252,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsHlsGr
   }
 
   // password_param - computed: true, optional: true, required: false
-  private _passwordParam?: string;
+  private _passwordParam?: string; 
   public get passwordParam() {
     return this.getStringAttribute('password_param');
   }
@@ -11268,7 +11268,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsHlsGr
   }
 
   // uri - computed: false, optional: false, required: true
-  private _uri?: string;
+  private _uri?: string; 
   public get uri() {
     return this.getStringAttribute('uri');
   }
@@ -11281,7 +11281,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsHlsGr
   }
 
   // username - computed: true, optional: true, required: false
-  private _username?: string;
+  private _username?: string; 
   public get username() {
     return this.getStringAttribute('username');
   }
@@ -11396,7 +11396,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsHlsGr
   }
 
   // static_key_value - computed: false, optional: false, required: true
-  private _staticKeyValue?: string;
+  private _staticKeyValue?: string; 
   public get staticKeyValue() {
     return this.getStringAttribute('static_key_value');
   }
@@ -12304,7 +12304,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsHlsGr
   }
 
   // ad_markers - computed: true, optional: true, required: false
-  private _adMarkers?: string[];
+  private _adMarkers?: string[]; 
   public get adMarkers() {
     return this.getListAttribute('ad_markers');
   }
@@ -12320,7 +12320,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsHlsGr
   }
 
   // base_url_content - computed: true, optional: true, required: false
-  private _baseUrlContent?: string;
+  private _baseUrlContent?: string; 
   public get baseUrlContent() {
     return this.getStringAttribute('base_url_content');
   }
@@ -12336,7 +12336,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsHlsGr
   }
 
   // base_url_content1 - computed: true, optional: true, required: false
-  private _baseUrlContent1?: string;
+  private _baseUrlContent1?: string; 
   public get baseUrlContent1() {
     return this.getStringAttribute('base_url_content1');
   }
@@ -12352,7 +12352,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsHlsGr
   }
 
   // base_url_manifest - computed: true, optional: true, required: false
-  private _baseUrlManifest?: string;
+  private _baseUrlManifest?: string; 
   public get baseUrlManifest() {
     return this.getStringAttribute('base_url_manifest');
   }
@@ -12368,7 +12368,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsHlsGr
   }
 
   // base_url_manifest1 - computed: true, optional: true, required: false
-  private _baseUrlManifest1?: string;
+  private _baseUrlManifest1?: string; 
   public get baseUrlManifest1() {
     return this.getStringAttribute('base_url_manifest1');
   }
@@ -12384,7 +12384,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsHlsGr
   }
 
   // caption_language_setting - computed: true, optional: true, required: false
-  private _captionLanguageSetting?: string;
+  private _captionLanguageSetting?: string; 
   public get captionLanguageSetting() {
     return this.getStringAttribute('caption_language_setting');
   }
@@ -12400,7 +12400,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsHlsGr
   }
 
   // client_cache - computed: true, optional: true, required: false
-  private _clientCache?: string;
+  private _clientCache?: string; 
   public get clientCache() {
     return this.getStringAttribute('client_cache');
   }
@@ -12416,7 +12416,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsHlsGr
   }
 
   // codec_specification - computed: true, optional: true, required: false
-  private _codecSpecification?: string;
+  private _codecSpecification?: string; 
   public get codecSpecification() {
     return this.getStringAttribute('codec_specification');
   }
@@ -12432,7 +12432,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsHlsGr
   }
 
   // constant_iv - computed: true, optional: true, required: false
-  private _constantIv?: string;
+  private _constantIv?: string; 
   public get constantIv() {
     return this.getStringAttribute('constant_iv');
   }
@@ -12448,7 +12448,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsHlsGr
   }
 
   // directory_structure - computed: true, optional: true, required: false
-  private _directoryStructure?: string;
+  private _directoryStructure?: string; 
   public get directoryStructure() {
     return this.getStringAttribute('directory_structure');
   }
@@ -12464,7 +12464,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsHlsGr
   }
 
   // discontinuity_tags - computed: true, optional: true, required: false
-  private _discontinuityTags?: string;
+  private _discontinuityTags?: string; 
   public get discontinuityTags() {
     return this.getStringAttribute('discontinuity_tags');
   }
@@ -12480,7 +12480,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsHlsGr
   }
 
   // encryption_type - computed: true, optional: true, required: false
-  private _encryptionType?: string;
+  private _encryptionType?: string; 
   public get encryptionType() {
     return this.getStringAttribute('encryption_type');
   }
@@ -12496,7 +12496,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsHlsGr
   }
 
   // hls_id3_segment_tagging - computed: true, optional: true, required: false
-  private _hlsId3SegmentTagging?: string;
+  private _hlsId3SegmentTagging?: string; 
   public get hlsId3SegmentTagging() {
     return this.getStringAttribute('hls_id3_segment_tagging');
   }
@@ -12512,7 +12512,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsHlsGr
   }
 
   // iframe_only_playlists - computed: true, optional: true, required: false
-  private _iframeOnlyPlaylists?: string;
+  private _iframeOnlyPlaylists?: string; 
   public get iframeOnlyPlaylists() {
     return this.getStringAttribute('iframe_only_playlists');
   }
@@ -12528,7 +12528,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsHlsGr
   }
 
   // incomplete_segment_behavior - computed: true, optional: true, required: false
-  private _incompleteSegmentBehavior?: string;
+  private _incompleteSegmentBehavior?: string; 
   public get incompleteSegmentBehavior() {
     return this.getStringAttribute('incomplete_segment_behavior');
   }
@@ -12544,7 +12544,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsHlsGr
   }
 
   // index_n_segments - computed: true, optional: true, required: false
-  private _indexNSegments?: number;
+  private _indexNSegments?: number; 
   public get indexNSegments() {
     return this.getNumberAttribute('index_n_segments');
   }
@@ -12560,7 +12560,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsHlsGr
   }
 
   // input_loss_action - computed: true, optional: true, required: false
-  private _inputLossAction?: string;
+  private _inputLossAction?: string; 
   public get inputLossAction() {
     return this.getStringAttribute('input_loss_action');
   }
@@ -12576,7 +12576,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsHlsGr
   }
 
   // iv_in_manifest - computed: true, optional: true, required: false
-  private _ivInManifest?: string;
+  private _ivInManifest?: string; 
   public get ivInManifest() {
     return this.getStringAttribute('iv_in_manifest');
   }
@@ -12592,7 +12592,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsHlsGr
   }
 
   // iv_source - computed: true, optional: true, required: false
-  private _ivSource?: string;
+  private _ivSource?: string; 
   public get ivSource() {
     return this.getStringAttribute('iv_source');
   }
@@ -12608,7 +12608,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsHlsGr
   }
 
   // keep_segments - computed: true, optional: true, required: false
-  private _keepSegments?: number;
+  private _keepSegments?: number; 
   public get keepSegments() {
     return this.getNumberAttribute('keep_segments');
   }
@@ -12624,7 +12624,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsHlsGr
   }
 
   // key_format - computed: true, optional: true, required: false
-  private _keyFormat?: string;
+  private _keyFormat?: string; 
   public get keyFormat() {
     return this.getStringAttribute('key_format');
   }
@@ -12640,7 +12640,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsHlsGr
   }
 
   // key_format_versions - computed: true, optional: true, required: false
-  private _keyFormatVersions?: string;
+  private _keyFormatVersions?: string; 
   public get keyFormatVersions() {
     return this.getStringAttribute('key_format_versions');
   }
@@ -12656,7 +12656,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsHlsGr
   }
 
   // manifest_compression - computed: true, optional: true, required: false
-  private _manifestCompression?: string;
+  private _manifestCompression?: string; 
   public get manifestCompression() {
     return this.getStringAttribute('manifest_compression');
   }
@@ -12672,7 +12672,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsHlsGr
   }
 
   // manifest_duration_format - computed: true, optional: true, required: false
-  private _manifestDurationFormat?: string;
+  private _manifestDurationFormat?: string; 
   public get manifestDurationFormat() {
     return this.getStringAttribute('manifest_duration_format');
   }
@@ -12688,7 +12688,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsHlsGr
   }
 
   // min_segment_length - computed: true, optional: true, required: false
-  private _minSegmentLength?: number;
+  private _minSegmentLength?: number; 
   public get minSegmentLength() {
     return this.getNumberAttribute('min_segment_length');
   }
@@ -12704,7 +12704,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsHlsGr
   }
 
   // mode - computed: true, optional: true, required: false
-  private _mode?: string;
+  private _mode?: string; 
   public get mode() {
     return this.getStringAttribute('mode');
   }
@@ -12720,7 +12720,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsHlsGr
   }
 
   // output_selection - computed: true, optional: true, required: false
-  private _outputSelection?: string;
+  private _outputSelection?: string; 
   public get outputSelection() {
     return this.getStringAttribute('output_selection');
   }
@@ -12736,7 +12736,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsHlsGr
   }
 
   // program_date_time - computed: true, optional: true, required: false
-  private _programDateTime?: string;
+  private _programDateTime?: string; 
   public get programDateTime() {
     return this.getStringAttribute('program_date_time');
   }
@@ -12752,7 +12752,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsHlsGr
   }
 
   // program_date_time_clock - computed: true, optional: true, required: false
-  private _programDateTimeClock?: string;
+  private _programDateTimeClock?: string; 
   public get programDateTimeClock() {
     return this.getStringAttribute('program_date_time_clock');
   }
@@ -12768,7 +12768,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsHlsGr
   }
 
   // program_date_time_period - computed: true, optional: true, required: false
-  private _programDateTimePeriod?: number;
+  private _programDateTimePeriod?: number; 
   public get programDateTimePeriod() {
     return this.getNumberAttribute('program_date_time_period');
   }
@@ -12784,7 +12784,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsHlsGr
   }
 
   // redundant_manifest - computed: true, optional: true, required: false
-  private _redundantManifest?: string;
+  private _redundantManifest?: string; 
   public get redundantManifest() {
     return this.getStringAttribute('redundant_manifest');
   }
@@ -12800,7 +12800,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsHlsGr
   }
 
   // segment_length - computed: true, optional: true, required: false
-  private _segmentLength?: number;
+  private _segmentLength?: number; 
   public get segmentLength() {
     return this.getNumberAttribute('segment_length');
   }
@@ -12816,7 +12816,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsHlsGr
   }
 
   // segments_per_subdirectory - computed: true, optional: true, required: false
-  private _segmentsPerSubdirectory?: number;
+  private _segmentsPerSubdirectory?: number; 
   public get segmentsPerSubdirectory() {
     return this.getNumberAttribute('segments_per_subdirectory');
   }
@@ -12832,7 +12832,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsHlsGr
   }
 
   // stream_inf_resolution - computed: true, optional: true, required: false
-  private _streamInfResolution?: string;
+  private _streamInfResolution?: string; 
   public get streamInfResolution() {
     return this.getStringAttribute('stream_inf_resolution');
   }
@@ -12848,7 +12848,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsHlsGr
   }
 
   // timed_metadata_id3_frame - computed: true, optional: true, required: false
-  private _timedMetadataId3Frame?: string;
+  private _timedMetadataId3Frame?: string; 
   public get timedMetadataId3Frame() {
     return this.getStringAttribute('timed_metadata_id3_frame');
   }
@@ -12864,7 +12864,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsHlsGr
   }
 
   // timed_metadata_id3_period - computed: true, optional: true, required: false
-  private _timedMetadataId3Period?: number;
+  private _timedMetadataId3Period?: number; 
   public get timedMetadataId3Period() {
     return this.getNumberAttribute('timed_metadata_id3_period');
   }
@@ -12880,7 +12880,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsHlsGr
   }
 
   // timestamp_delta_milliseconds - computed: true, optional: true, required: false
-  private _timestampDeltaMilliseconds?: number;
+  private _timestampDeltaMilliseconds?: number; 
   public get timestampDeltaMilliseconds() {
     return this.getNumberAttribute('timestamp_delta_milliseconds');
   }
@@ -12896,7 +12896,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsHlsGr
   }
 
   // ts_file_mode - computed: true, optional: true, required: false
-  private _tsFileMode?: string;
+  private _tsFileMode?: string; 
   public get tsFileMode() {
     return this.getStringAttribute('ts_file_mode');
   }
@@ -13041,7 +13041,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsMedia
   }
 
   // destination_ref_id - computed: false, optional: false, required: true
-  private _destinationRefId?: string;
+  private _destinationRefId?: string; 
   public get destinationRefId() {
     return this.getStringAttribute('destination_ref_id');
   }
@@ -13205,7 +13205,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsMsSmo
   }
 
   // destination_ref_id - computed: false, optional: false, required: true
-  private _destinationRefId?: string;
+  private _destinationRefId?: string; 
   public get destinationRefId() {
     return this.getStringAttribute('destination_ref_id');
   }
@@ -13594,7 +13594,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsMsSmo
   }
 
   // acquisition_point_id - computed: true, optional: true, required: false
-  private _acquisitionPointId?: string;
+  private _acquisitionPointId?: string; 
   public get acquisitionPointId() {
     return this.getStringAttribute('acquisition_point_id');
   }
@@ -13610,7 +13610,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsMsSmo
   }
 
   // audio_only_timecode_control - computed: true, optional: true, required: false
-  private _audioOnlyTimecodeControl?: string;
+  private _audioOnlyTimecodeControl?: string; 
   public get audioOnlyTimecodeControl() {
     return this.getStringAttribute('audio_only_timecode_control');
   }
@@ -13626,7 +13626,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsMsSmo
   }
 
   // certificate_mode - computed: true, optional: true, required: false
-  private _certificateMode?: string;
+  private _certificateMode?: string; 
   public get certificateMode() {
     return this.getStringAttribute('certificate_mode');
   }
@@ -13642,7 +13642,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsMsSmo
   }
 
   // connection_retry_interval - computed: true, optional: true, required: false
-  private _connectionRetryInterval?: number;
+  private _connectionRetryInterval?: number; 
   public get connectionRetryInterval() {
     return this.getNumberAttribute('connection_retry_interval');
   }
@@ -13658,7 +13658,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsMsSmo
   }
 
   // event_id - computed: true, optional: true, required: false
-  private _eventId?: string;
+  private _eventId?: string; 
   public get eventId() {
     return this.getStringAttribute('event_id');
   }
@@ -13674,7 +13674,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsMsSmo
   }
 
   // event_id_mode - computed: true, optional: true, required: false
-  private _eventIdMode?: string;
+  private _eventIdMode?: string; 
   public get eventIdMode() {
     return this.getStringAttribute('event_id_mode');
   }
@@ -13690,7 +13690,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsMsSmo
   }
 
   // event_stop_behavior - computed: true, optional: true, required: false
-  private _eventStopBehavior?: string;
+  private _eventStopBehavior?: string; 
   public get eventStopBehavior() {
     return this.getStringAttribute('event_stop_behavior');
   }
@@ -13706,7 +13706,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsMsSmo
   }
 
   // filecache_duration - computed: false, optional: true, required: false
-  private _filecacheDuration?: number;
+  private _filecacheDuration?: number; 
   public get filecacheDuration() {
     return this.getNumberAttribute('filecache_duration');
   }
@@ -13722,7 +13722,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsMsSmo
   }
 
   // fragment_length - computed: true, optional: true, required: false
-  private _fragmentLength?: number;
+  private _fragmentLength?: number; 
   public get fragmentLength() {
     return this.getNumberAttribute('fragment_length');
   }
@@ -13738,7 +13738,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsMsSmo
   }
 
   // input_loss_action - computed: true, optional: true, required: false
-  private _inputLossAction?: string;
+  private _inputLossAction?: string; 
   public get inputLossAction() {
     return this.getStringAttribute('input_loss_action');
   }
@@ -13754,7 +13754,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsMsSmo
   }
 
   // num_retries - computed: false, optional: true, required: false
-  private _numRetries?: number;
+  private _numRetries?: number; 
   public get numRetries() {
     return this.getNumberAttribute('num_retries');
   }
@@ -13770,7 +13770,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsMsSmo
   }
 
   // restart_delay - computed: false, optional: true, required: false
-  private _restartDelay?: number;
+  private _restartDelay?: number; 
   public get restartDelay() {
     return this.getNumberAttribute('restart_delay');
   }
@@ -13786,7 +13786,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsMsSmo
   }
 
   // segmentation_mode - computed: true, optional: true, required: false
-  private _segmentationMode?: string;
+  private _segmentationMode?: string; 
   public get segmentationMode() {
     return this.getStringAttribute('segmentation_mode');
   }
@@ -13802,7 +13802,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsMsSmo
   }
 
   // send_delay_ms - computed: true, optional: true, required: false
-  private _sendDelayMs?: number;
+  private _sendDelayMs?: number; 
   public get sendDelayMs() {
     return this.getNumberAttribute('send_delay_ms');
   }
@@ -13818,7 +13818,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsMsSmo
   }
 
   // sparse_track_type - computed: true, optional: true, required: false
-  private _sparseTrackType?: string;
+  private _sparseTrackType?: string; 
   public get sparseTrackType() {
     return this.getStringAttribute('sparse_track_type');
   }
@@ -13834,7 +13834,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsMsSmo
   }
 
   // stream_manifest_behavior - computed: true, optional: true, required: false
-  private _streamManifestBehavior?: string;
+  private _streamManifestBehavior?: string; 
   public get streamManifestBehavior() {
     return this.getStringAttribute('stream_manifest_behavior');
   }
@@ -13850,7 +13850,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsMsSmo
   }
 
   // timestamp_offset - computed: true, optional: true, required: false
-  private _timestampOffset?: string;
+  private _timestampOffset?: string; 
   public get timestampOffset() {
     return this.getStringAttribute('timestamp_offset');
   }
@@ -13866,7 +13866,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsMsSmo
   }
 
   // timestamp_offset_mode - computed: true, optional: true, required: false
-  private _timestampOffsetMode?: string;
+  private _timestampOffsetMode?: string; 
   public get timestampOffsetMode() {
     return this.getStringAttribute('timestamp_offset_mode');
   }
@@ -14114,7 +14114,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsRtmpG
   }
 
   // ad_markers - computed: false, optional: true, required: false
-  private _adMarkers?: string[];
+  private _adMarkers?: string[]; 
   public get adMarkers() {
     return this.getListAttribute('ad_markers');
   }
@@ -14130,7 +14130,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsRtmpG
   }
 
   // authentication_scheme - computed: true, optional: true, required: false
-  private _authenticationScheme?: string;
+  private _authenticationScheme?: string; 
   public get authenticationScheme() {
     return this.getStringAttribute('authentication_scheme');
   }
@@ -14146,7 +14146,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsRtmpG
   }
 
   // cache_full_behavior - computed: true, optional: true, required: false
-  private _cacheFullBehavior?: string;
+  private _cacheFullBehavior?: string; 
   public get cacheFullBehavior() {
     return this.getStringAttribute('cache_full_behavior');
   }
@@ -14162,7 +14162,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsRtmpG
   }
 
   // cache_length - computed: true, optional: true, required: false
-  private _cacheLength?: number;
+  private _cacheLength?: number; 
   public get cacheLength() {
     return this.getNumberAttribute('cache_length');
   }
@@ -14178,7 +14178,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsRtmpG
   }
 
   // caption_data - computed: true, optional: true, required: false
-  private _captionData?: string;
+  private _captionData?: string; 
   public get captionData() {
     return this.getStringAttribute('caption_data');
   }
@@ -14194,7 +14194,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsRtmpG
   }
 
   // input_loss_action - computed: true, optional: true, required: false
-  private _inputLossAction?: string;
+  private _inputLossAction?: string; 
   public get inputLossAction() {
     return this.getStringAttribute('input_loss_action');
   }
@@ -14210,7 +14210,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsRtmpG
   }
 
   // restart_delay - computed: false, optional: true, required: false
-  private _restartDelay?: number;
+  private _restartDelay?: number; 
   public get restartDelay() {
     return this.getNumberAttribute('restart_delay');
   }
@@ -14328,7 +14328,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsUdpGr
   }
 
   // input_loss_action - computed: true, optional: true, required: false
-  private _inputLossAction?: string;
+  private _inputLossAction?: string; 
   public get inputLossAction() {
     return this.getStringAttribute('input_loss_action');
   }
@@ -14344,7 +14344,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsUdpGr
   }
 
   // timed_metadata_id3_frame - computed: true, optional: true, required: false
-  private _timedMetadataId3Frame?: string;
+  private _timedMetadataId3Frame?: string; 
   public get timedMetadataId3Frame() {
     return this.getStringAttribute('timed_metadata_id3_frame');
   }
@@ -14360,7 +14360,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsUdpGr
   }
 
   // timed_metadata_id3_period - computed: true, optional: true, required: false
-  private _timedMetadataId3Period?: number;
+  private _timedMetadataId3Period?: number; 
   public get timedMetadataId3Period() {
     return this.getNumberAttribute('timed_metadata_id3_period');
   }
@@ -14809,7 +14809,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsArc
   }
 
   // network_id - computed: false, optional: false, required: true
-  private _networkId?: number;
+  private _networkId?: number; 
   public get networkId() {
     return this.getNumberAttribute('network_id');
   }
@@ -14822,7 +14822,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsArc
   }
 
   // network_name - computed: false, optional: false, required: true
-  private _networkName?: string;
+  private _networkName?: string; 
   public get networkName() {
     return this.getStringAttribute('network_name');
   }
@@ -14835,7 +14835,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsArc
   }
 
   // rep_interval - computed: false, optional: true, required: false
-  private _repInterval?: number;
+  private _repInterval?: number; 
   public get repInterval() {
     return this.getNumberAttribute('rep_interval');
   }
@@ -14970,7 +14970,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsArc
   }
 
   // output_sdt - computed: false, optional: true, required: false
-  private _outputSdt?: string;
+  private _outputSdt?: string; 
   public get outputSdt() {
     return this.getStringAttribute('output_sdt');
   }
@@ -14986,7 +14986,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsArc
   }
 
   // rep_interval - computed: false, optional: true, required: false
-  private _repInterval?: number;
+  private _repInterval?: number; 
   public get repInterval() {
     return this.getNumberAttribute('rep_interval');
   }
@@ -15002,7 +15002,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsArc
   }
 
   // service_name - computed: false, optional: true, required: false
-  private _serviceName?: string;
+  private _serviceName?: string; 
   public get serviceName() {
     return this.getStringAttribute('service_name');
   }
@@ -15018,7 +15018,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsArc
   }
 
   // service_provider_name - computed: false, optional: true, required: false
-  private _serviceProviderName?: string;
+  private _serviceProviderName?: string; 
   public get serviceProviderName() {
     return this.getStringAttribute('service_provider_name');
   }
@@ -15102,7 +15102,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsArc
   }
 
   // rep_interval - computed: false, optional: true, required: false
-  private _repInterval?: number;
+  private _repInterval?: number; 
   public get repInterval() {
     return this.getNumberAttribute('rep_interval');
   }
@@ -15974,7 +15974,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsArc
   }
 
   // absent_input_audio_behavior - computed: true, optional: true, required: false
-  private _absentInputAudioBehavior?: string;
+  private _absentInputAudioBehavior?: string; 
   public get absentInputAudioBehavior() {
     return this.getStringAttribute('absent_input_audio_behavior');
   }
@@ -15990,7 +15990,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsArc
   }
 
   // arib - computed: false, optional: true, required: false
-  private _arib?: string;
+  private _arib?: string; 
   public get arib() {
     return this.getStringAttribute('arib');
   }
@@ -16006,7 +16006,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsArc
   }
 
   // arib_captions_pid - computed: true, optional: true, required: false
-  private _aribCaptionsPid?: string;
+  private _aribCaptionsPid?: string; 
   public get aribCaptionsPid() {
     return this.getStringAttribute('arib_captions_pid');
   }
@@ -16022,7 +16022,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsArc
   }
 
   // arib_captions_pid_control - computed: false, optional: true, required: false
-  private _aribCaptionsPidControl?: string;
+  private _aribCaptionsPidControl?: string; 
   public get aribCaptionsPidControl() {
     return this.getStringAttribute('arib_captions_pid_control');
   }
@@ -16038,7 +16038,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsArc
   }
 
   // audio_buffer_model - computed: false, optional: true, required: false
-  private _audioBufferModel?: string;
+  private _audioBufferModel?: string; 
   public get audioBufferModel() {
     return this.getStringAttribute('audio_buffer_model');
   }
@@ -16054,7 +16054,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsArc
   }
 
   // audio_frames_per_pes - computed: false, optional: true, required: false
-  private _audioFramesPerPes?: number;
+  private _audioFramesPerPes?: number; 
   public get audioFramesPerPes() {
     return this.getNumberAttribute('audio_frames_per_pes');
   }
@@ -16070,7 +16070,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsArc
   }
 
   // audio_pids - computed: true, optional: true, required: false
-  private _audioPids?: string;
+  private _audioPids?: string; 
   public get audioPids() {
     return this.getStringAttribute('audio_pids');
   }
@@ -16086,7 +16086,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsArc
   }
 
   // audio_stream_type - computed: false, optional: true, required: false
-  private _audioStreamType?: string;
+  private _audioStreamType?: string; 
   public get audioStreamType() {
     return this.getStringAttribute('audio_stream_type');
   }
@@ -16102,7 +16102,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsArc
   }
 
   // bitrate - computed: false, optional: true, required: false
-  private _bitrate?: number;
+  private _bitrate?: number; 
   public get bitrate() {
     return this.getNumberAttribute('bitrate');
   }
@@ -16118,7 +16118,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsArc
   }
 
   // buffer_model - computed: false, optional: true, required: false
-  private _bufferModel?: string;
+  private _bufferModel?: string; 
   public get bufferModel() {
     return this.getStringAttribute('buffer_model');
   }
@@ -16134,7 +16134,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsArc
   }
 
   // cc_descriptor - computed: false, optional: true, required: false
-  private _ccDescriptor?: string;
+  private _ccDescriptor?: string; 
   public get ccDescriptor() {
     return this.getStringAttribute('cc_descriptor');
   }
@@ -16150,7 +16150,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsArc
   }
 
   // dvb_sub_pids - computed: true, optional: true, required: false
-  private _dvbSubPids?: string;
+  private _dvbSubPids?: string; 
   public get dvbSubPids() {
     return this.getStringAttribute('dvb_sub_pids');
   }
@@ -16166,7 +16166,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsArc
   }
 
   // dvb_teletext_pid - computed: true, optional: true, required: false
-  private _dvbTeletextPid?: string;
+  private _dvbTeletextPid?: string; 
   public get dvbTeletextPid() {
     return this.getStringAttribute('dvb_teletext_pid');
   }
@@ -16182,7 +16182,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsArc
   }
 
   // ebif - computed: false, optional: true, required: false
-  private _ebif?: string;
+  private _ebif?: string; 
   public get ebif() {
     return this.getStringAttribute('ebif');
   }
@@ -16198,7 +16198,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsArc
   }
 
   // ebp_audio_interval - computed: false, optional: true, required: false
-  private _ebpAudioInterval?: string;
+  private _ebpAudioInterval?: string; 
   public get ebpAudioInterval() {
     return this.getStringAttribute('ebp_audio_interval');
   }
@@ -16214,7 +16214,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsArc
   }
 
   // ebp_lookahead_ms - computed: false, optional: true, required: false
-  private _ebpLookaheadMs?: number;
+  private _ebpLookaheadMs?: number; 
   public get ebpLookaheadMs() {
     return this.getNumberAttribute('ebp_lookahead_ms');
   }
@@ -16230,7 +16230,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsArc
   }
 
   // ebp_placement - computed: false, optional: true, required: false
-  private _ebpPlacement?: string;
+  private _ebpPlacement?: string; 
   public get ebpPlacement() {
     return this.getStringAttribute('ebp_placement');
   }
@@ -16246,7 +16246,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsArc
   }
 
   // ecm_pid - computed: false, optional: true, required: false
-  private _ecmPid?: string;
+  private _ecmPid?: string; 
   public get ecmPid() {
     return this.getStringAttribute('ecm_pid');
   }
@@ -16262,7 +16262,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsArc
   }
 
   // es_rate_in_pes - computed: false, optional: true, required: false
-  private _esRateInPes?: string;
+  private _esRateInPes?: string; 
   public get esRateInPes() {
     return this.getStringAttribute('es_rate_in_pes');
   }
@@ -16278,7 +16278,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsArc
   }
 
   // etv_platform_pid - computed: true, optional: true, required: false
-  private _etvPlatformPid?: string;
+  private _etvPlatformPid?: string; 
   public get etvPlatformPid() {
     return this.getStringAttribute('etv_platform_pid');
   }
@@ -16294,7 +16294,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsArc
   }
 
   // etv_signal_pid - computed: true, optional: true, required: false
-  private _etvSignalPid?: string;
+  private _etvSignalPid?: string; 
   public get etvSignalPid() {
     return this.getStringAttribute('etv_signal_pid');
   }
@@ -16310,7 +16310,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsArc
   }
 
   // fragment_time - computed: false, optional: true, required: false
-  private _fragmentTime?: number;
+  private _fragmentTime?: number; 
   public get fragmentTime() {
     return this.getNumberAttribute('fragment_time');
   }
@@ -16326,7 +16326,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsArc
   }
 
   // klv - computed: false, optional: true, required: false
-  private _klv?: string;
+  private _klv?: string; 
   public get klv() {
     return this.getStringAttribute('klv');
   }
@@ -16342,7 +16342,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsArc
   }
 
   // klv_data_pids - computed: true, optional: true, required: false
-  private _klvDataPids?: string;
+  private _klvDataPids?: string; 
   public get klvDataPids() {
     return this.getStringAttribute('klv_data_pids');
   }
@@ -16358,7 +16358,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsArc
   }
 
   // nielsen_id3_behavior - computed: false, optional: true, required: false
-  private _nielsenId3Behavior?: string;
+  private _nielsenId3Behavior?: string; 
   public get nielsenId3Behavior() {
     return this.getStringAttribute('nielsen_id3_behavior');
   }
@@ -16374,7 +16374,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsArc
   }
 
   // null_packet_bitrate - computed: false, optional: true, required: false
-  private _nullPacketBitrate?: number;
+  private _nullPacketBitrate?: number; 
   public get nullPacketBitrate() {
     return this.getNumberAttribute('null_packet_bitrate');
   }
@@ -16390,7 +16390,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsArc
   }
 
   // pat_interval - computed: false, optional: true, required: false
-  private _patInterval?: number;
+  private _patInterval?: number; 
   public get patInterval() {
     return this.getNumberAttribute('pat_interval');
   }
@@ -16406,7 +16406,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsArc
   }
 
   // pcr_control - computed: false, optional: true, required: false
-  private _pcrControl?: string;
+  private _pcrControl?: string; 
   public get pcrControl() {
     return this.getStringAttribute('pcr_control');
   }
@@ -16422,7 +16422,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsArc
   }
 
   // pcr_period - computed: false, optional: true, required: false
-  private _pcrPeriod?: number;
+  private _pcrPeriod?: number; 
   public get pcrPeriod() {
     return this.getNumberAttribute('pcr_period');
   }
@@ -16438,7 +16438,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsArc
   }
 
   // pcr_pid - computed: false, optional: true, required: false
-  private _pcrPid?: string;
+  private _pcrPid?: string; 
   public get pcrPid() {
     return this.getStringAttribute('pcr_pid');
   }
@@ -16454,7 +16454,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsArc
   }
 
   // pmt_interval - computed: false, optional: true, required: false
-  private _pmtInterval?: number;
+  private _pmtInterval?: number; 
   public get pmtInterval() {
     return this.getNumberAttribute('pmt_interval');
   }
@@ -16470,7 +16470,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsArc
   }
 
   // pmt_pid - computed: true, optional: true, required: false
-  private _pmtPid?: string;
+  private _pmtPid?: string; 
   public get pmtPid() {
     return this.getStringAttribute('pmt_pid');
   }
@@ -16486,7 +16486,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsArc
   }
 
   // program_num - computed: false, optional: true, required: false
-  private _programNum?: number;
+  private _programNum?: number; 
   public get programNum() {
     return this.getNumberAttribute('program_num');
   }
@@ -16502,7 +16502,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsArc
   }
 
   // rate_mode - computed: false, optional: true, required: false
-  private _rateMode?: string;
+  private _rateMode?: string; 
   public get rateMode() {
     return this.getStringAttribute('rate_mode');
   }
@@ -16518,7 +16518,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsArc
   }
 
   // scte27_pids - computed: true, optional: true, required: false
-  private _scte27Pids?: string;
+  private _scte27Pids?: string; 
   public get scte27Pids() {
     return this.getStringAttribute('scte27_pids');
   }
@@ -16534,7 +16534,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsArc
   }
 
   // scte35_control - computed: false, optional: true, required: false
-  private _scte35Control?: string;
+  private _scte35Control?: string; 
   public get scte35Control() {
     return this.getStringAttribute('scte35_control');
   }
@@ -16550,7 +16550,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsArc
   }
 
   // scte35_pid - computed: true, optional: true, required: false
-  private _scte35Pid?: string;
+  private _scte35Pid?: string; 
   public get scte35Pid() {
     return this.getStringAttribute('scte35_pid');
   }
@@ -16566,7 +16566,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsArc
   }
 
   // segmentation_markers - computed: false, optional: true, required: false
-  private _segmentationMarkers?: string;
+  private _segmentationMarkers?: string; 
   public get segmentationMarkers() {
     return this.getStringAttribute('segmentation_markers');
   }
@@ -16582,7 +16582,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsArc
   }
 
   // segmentation_style - computed: false, optional: true, required: false
-  private _segmentationStyle?: string;
+  private _segmentationStyle?: string; 
   public get segmentationStyle() {
     return this.getStringAttribute('segmentation_style');
   }
@@ -16598,7 +16598,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsArc
   }
 
   // segmentation_time - computed: false, optional: true, required: false
-  private _segmentationTime?: number;
+  private _segmentationTime?: number; 
   public get segmentationTime() {
     return this.getNumberAttribute('segmentation_time');
   }
@@ -16614,7 +16614,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsArc
   }
 
   // timed_metadata_behavior - computed: false, optional: true, required: false
-  private _timedMetadataBehavior?: string;
+  private _timedMetadataBehavior?: string; 
   public get timedMetadataBehavior() {
     return this.getStringAttribute('timed_metadata_behavior');
   }
@@ -16630,7 +16630,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsArc
   }
 
   // timed_metadata_pid - computed: true, optional: true, required: false
-  private _timedMetadataPid?: string;
+  private _timedMetadataPid?: string; 
   public get timedMetadataPid() {
     return this.getStringAttribute('timed_metadata_pid');
   }
@@ -16646,7 +16646,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsArc
   }
 
   // transport_stream_id - computed: false, optional: true, required: false
-  private _transportStreamId?: number;
+  private _transportStreamId?: number; 
   public get transportStreamId() {
     return this.getNumberAttribute('transport_stream_id');
   }
@@ -16662,7 +16662,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsArc
   }
 
   // video_pid - computed: true, optional: true, required: false
-  private _videoPid?: string;
+  private _videoPid?: string; 
   public get videoPid() {
     return this.getStringAttribute('video_pid');
   }
@@ -17000,7 +17000,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsArc
   }
 
   // extension - computed: false, optional: true, required: false
-  private _extension?: string;
+  private _extension?: string; 
   public get extension() {
     return this.getStringAttribute('extension');
   }
@@ -17016,7 +17016,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsArc
   }
 
   // name_modifier - computed: false, optional: true, required: false
-  private _nameModifier?: string;
+  private _nameModifier?: string; 
   public get nameModifier() {
     return this.getStringAttribute('name_modifier');
   }
@@ -17116,7 +17116,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsFra
   }
 
   // name_modifier - computed: true, optional: true, required: false
-  private _nameModifier?: string;
+  private _nameModifier?: string; 
   public get nameModifier() {
     return this.getStringAttribute('name_modifier');
   }
@@ -17234,7 +17234,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsHls
   }
 
   // password_param - computed: true, optional: true, required: false
-  private _passwordParam?: string;
+  private _passwordParam?: string; 
   public get passwordParam() {
     return this.getStringAttribute('password_param');
   }
@@ -17250,7 +17250,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsHls
   }
 
   // uri - computed: false, optional: false, required: true
-  private _uri?: string;
+  private _uri?: string; 
   public get uri() {
     return this.getStringAttribute('uri');
   }
@@ -17263,7 +17263,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsHls
   }
 
   // username - computed: true, optional: true, required: false
-  private _username?: string;
+  private _username?: string; 
   public get username() {
     return this.getStringAttribute('username');
   }
@@ -17400,7 +17400,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsHls
   }
 
   // audio_group_id - computed: true, optional: true, required: false
-  private _audioGroupId?: string;
+  private _audioGroupId?: string; 
   public get audioGroupId() {
     return this.getStringAttribute('audio_group_id');
   }
@@ -17416,7 +17416,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsHls
   }
 
   // audio_track_type - computed: true, optional: true, required: false
-  private _audioTrackType?: string;
+  private _audioTrackType?: string; 
   public get audioTrackType() {
     return this.getStringAttribute('audio_track_type');
   }
@@ -17432,7 +17432,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsHls
   }
 
   // segment_type - computed: true, optional: true, required: false
-  private _segmentType?: string;
+  private _segmentType?: string; 
   public get segmentType() {
     return this.getStringAttribute('segment_type');
   }
@@ -17566,7 +17566,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsHls
   }
 
   // audio_rendition_sets - computed: true, optional: true, required: false
-  private _audioRenditionSets?: string;
+  private _audioRenditionSets?: string; 
   public get audioRenditionSets() {
     return this.getStringAttribute('audio_rendition_sets');
   }
@@ -17582,7 +17582,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsHls
   }
 
   // nielsen_id3_behavior - computed: true, optional: true, required: false
-  private _nielsenId3Behavior?: string;
+  private _nielsenId3Behavior?: string; 
   public get nielsenId3Behavior() {
     return this.getStringAttribute('nielsen_id3_behavior');
   }
@@ -17598,7 +17598,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsHls
   }
 
   // timed_metadata_behavior - computed: true, optional: true, required: false
-  private _timedMetadataBehavior?: string;
+  private _timedMetadataBehavior?: string; 
   public get timedMetadataBehavior() {
     return this.getStringAttribute('timed_metadata_behavior');
   }
@@ -18003,7 +18003,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsHls
   }
 
   // audio_frames_per_pes - computed: true, optional: true, required: false
-  private _audioFramesPerPes?: number;
+  private _audioFramesPerPes?: number; 
   public get audioFramesPerPes() {
     return this.getNumberAttribute('audio_frames_per_pes');
   }
@@ -18019,7 +18019,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsHls
   }
 
   // audio_pids - computed: true, optional: true, required: false
-  private _audioPids?: string;
+  private _audioPids?: string; 
   public get audioPids() {
     return this.getStringAttribute('audio_pids');
   }
@@ -18035,7 +18035,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsHls
   }
 
   // ecm_pid - computed: true, optional: true, required: false
-  private _ecmPid?: string;
+  private _ecmPid?: string; 
   public get ecmPid() {
     return this.getStringAttribute('ecm_pid');
   }
@@ -18051,7 +18051,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsHls
   }
 
   // nielsen_id3_behavior - computed: true, optional: true, required: false
-  private _nielsenId3Behavior?: string;
+  private _nielsenId3Behavior?: string; 
   public get nielsenId3Behavior() {
     return this.getStringAttribute('nielsen_id3_behavior');
   }
@@ -18067,7 +18067,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsHls
   }
 
   // pat_interval - computed: true, optional: true, required: false
-  private _patInterval?: number;
+  private _patInterval?: number; 
   public get patInterval() {
     return this.getNumberAttribute('pat_interval');
   }
@@ -18083,7 +18083,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsHls
   }
 
   // pcr_control - computed: true, optional: true, required: false
-  private _pcrControl?: string;
+  private _pcrControl?: string; 
   public get pcrControl() {
     return this.getStringAttribute('pcr_control');
   }
@@ -18099,7 +18099,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsHls
   }
 
   // pcr_period - computed: true, optional: true, required: false
-  private _pcrPeriod?: number;
+  private _pcrPeriod?: number; 
   public get pcrPeriod() {
     return this.getNumberAttribute('pcr_period');
   }
@@ -18115,7 +18115,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsHls
   }
 
   // pcr_pid - computed: true, optional: true, required: false
-  private _pcrPid?: string;
+  private _pcrPid?: string; 
   public get pcrPid() {
     return this.getStringAttribute('pcr_pid');
   }
@@ -18131,7 +18131,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsHls
   }
 
   // pmt_interval - computed: true, optional: true, required: false
-  private _pmtInterval?: number;
+  private _pmtInterval?: number; 
   public get pmtInterval() {
     return this.getNumberAttribute('pmt_interval');
   }
@@ -18147,7 +18147,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsHls
   }
 
   // pmt_pid - computed: true, optional: true, required: false
-  private _pmtPid?: string;
+  private _pmtPid?: string; 
   public get pmtPid() {
     return this.getStringAttribute('pmt_pid');
   }
@@ -18163,7 +18163,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsHls
   }
 
   // program_num - computed: true, optional: true, required: false
-  private _programNum?: number;
+  private _programNum?: number; 
   public get programNum() {
     return this.getNumberAttribute('program_num');
   }
@@ -18179,7 +18179,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsHls
   }
 
   // scte35_behavior - computed: true, optional: true, required: false
-  private _scte35Behavior?: string;
+  private _scte35Behavior?: string; 
   public get scte35Behavior() {
     return this.getStringAttribute('scte35_behavior');
   }
@@ -18195,7 +18195,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsHls
   }
 
   // scte35_pid - computed: true, optional: true, required: false
-  private _scte35Pid?: string;
+  private _scte35Pid?: string; 
   public get scte35Pid() {
     return this.getStringAttribute('scte35_pid');
   }
@@ -18211,7 +18211,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsHls
   }
 
   // timed_metadata_behavior - computed: true, optional: true, required: false
-  private _timedMetadataBehavior?: string;
+  private _timedMetadataBehavior?: string; 
   public get timedMetadataBehavior() {
     return this.getStringAttribute('timed_metadata_behavior');
   }
@@ -18227,7 +18227,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsHls
   }
 
   // timed_metadata_pid - computed: true, optional: true, required: false
-  private _timedMetadataPid?: string;
+  private _timedMetadataPid?: string; 
   public get timedMetadataPid() {
     return this.getStringAttribute('timed_metadata_pid');
   }
@@ -18243,7 +18243,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsHls
   }
 
   // transport_stream_id - computed: true, optional: true, required: false
-  private _transportStreamId?: number;
+  private _transportStreamId?: number; 
   public get transportStreamId() {
     return this.getNumberAttribute('transport_stream_id');
   }
@@ -18259,7 +18259,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsHls
   }
 
   // video_pid - computed: true, optional: true, required: false
-  private _videoPid?: string;
+  private _videoPid?: string; 
   public get videoPid() {
     return this.getStringAttribute('video_pid');
   }
@@ -18362,7 +18362,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsHls
   }
 
   // audio_rendition_sets - computed: true, optional: true, required: false
-  private _audioRenditionSets?: string;
+  private _audioRenditionSets?: string; 
   public get audioRenditionSets() {
     return this.getStringAttribute('audio_rendition_sets');
   }
@@ -18703,7 +18703,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsHls
   }
 
   // h265_packaging_type - computed: true, optional: true, required: false
-  private _h265PackagingType?: string;
+  private _h265PackagingType?: string; 
   public get h265PackagingType() {
     return this.getStringAttribute('h265_packaging_type');
   }
@@ -18719,7 +18719,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsHls
   }
 
   // name_modifier - computed: true, optional: true, required: false
-  private _nameModifier?: string;
+  private _nameModifier?: string; 
   public get nameModifier() {
     return this.getStringAttribute('name_modifier');
   }
@@ -18735,7 +18735,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsHls
   }
 
   // segment_modifier - computed: true, optional: true, required: false
-  private _segmentModifier?: string;
+  private _segmentModifier?: string; 
   public get segmentModifier() {
     return this.getStringAttribute('segment_modifier');
   }
@@ -18898,7 +18898,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsMsS
   }
 
   // h265_packaging_type - computed: true, optional: true, required: false
-  private _h265PackagingType?: string;
+  private _h265PackagingType?: string; 
   public get h265PackagingType() {
     return this.getStringAttribute('h265_packaging_type');
   }
@@ -18914,7 +18914,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsMsS
   }
 
   // name_modifier - computed: true, optional: true, required: false
-  private _nameModifier?: string;
+  private _nameModifier?: string; 
   public get nameModifier() {
     return this.getStringAttribute('name_modifier');
   }
@@ -18998,7 +18998,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsMul
   }
 
   // destination_ref_id - computed: false, optional: false, required: true
-  private _destinationRefId?: string;
+  private _destinationRefId?: string; 
   public get destinationRefId() {
     return this.getStringAttribute('destination_ref_id');
   }
@@ -19162,7 +19162,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsRtm
   }
 
   // destination_ref_id - computed: false, optional: false, required: true
-  private _destinationRefId?: string;
+  private _destinationRefId?: string; 
   public get destinationRefId() {
     return this.getStringAttribute('destination_ref_id');
   }
@@ -19296,7 +19296,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsRtm
   }
 
   // certificate_mode - computed: true, optional: true, required: false
-  private _certificateMode?: string;
+  private _certificateMode?: string; 
   public get certificateMode() {
     return this.getStringAttribute('certificate_mode');
   }
@@ -19312,7 +19312,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsRtm
   }
 
   // connection_retry_interval - computed: true, optional: true, required: false
-  private _connectionRetryInterval?: number;
+  private _connectionRetryInterval?: number; 
   public get connectionRetryInterval() {
     return this.getNumberAttribute('connection_retry_interval');
   }
@@ -19328,7 +19328,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsRtm
   }
 
   // num_retries - computed: true, optional: true, required: false
-  private _numRetries?: number;
+  private _numRetries?: number; 
   public get numRetries() {
     return this.getNumberAttribute('num_retries');
   }
@@ -19459,7 +19459,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsUdp
   }
 
   // network_id - computed: false, optional: false, required: true
-  private _networkId?: number;
+  private _networkId?: number; 
   public get networkId() {
     return this.getNumberAttribute('network_id');
   }
@@ -19472,7 +19472,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsUdp
   }
 
   // network_name - computed: false, optional: false, required: true
-  private _networkName?: string;
+  private _networkName?: string; 
   public get networkName() {
     return this.getStringAttribute('network_name');
   }
@@ -19485,7 +19485,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsUdp
   }
 
   // rep_interval - computed: false, optional: true, required: false
-  private _repInterval?: number;
+  private _repInterval?: number; 
   public get repInterval() {
     return this.getNumberAttribute('rep_interval');
   }
@@ -19620,7 +19620,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsUdp
   }
 
   // output_sdt - computed: false, optional: true, required: false
-  private _outputSdt?: string;
+  private _outputSdt?: string; 
   public get outputSdt() {
     return this.getStringAttribute('output_sdt');
   }
@@ -19636,7 +19636,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsUdp
   }
 
   // rep_interval - computed: false, optional: true, required: false
-  private _repInterval?: number;
+  private _repInterval?: number; 
   public get repInterval() {
     return this.getNumberAttribute('rep_interval');
   }
@@ -19652,7 +19652,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsUdp
   }
 
   // service_name - computed: false, optional: true, required: false
-  private _serviceName?: string;
+  private _serviceName?: string; 
   public get serviceName() {
     return this.getStringAttribute('service_name');
   }
@@ -19668,7 +19668,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsUdp
   }
 
   // service_provider_name - computed: false, optional: true, required: false
-  private _serviceProviderName?: string;
+  private _serviceProviderName?: string; 
   public get serviceProviderName() {
     return this.getStringAttribute('service_provider_name');
   }
@@ -19752,7 +19752,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsUdp
   }
 
   // rep_interval - computed: false, optional: true, required: false
-  private _repInterval?: number;
+  private _repInterval?: number; 
   public get repInterval() {
     return this.getNumberAttribute('rep_interval');
   }
@@ -20624,7 +20624,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsUdp
   }
 
   // absent_input_audio_behavior - computed: true, optional: true, required: false
-  private _absentInputAudioBehavior?: string;
+  private _absentInputAudioBehavior?: string; 
   public get absentInputAudioBehavior() {
     return this.getStringAttribute('absent_input_audio_behavior');
   }
@@ -20640,7 +20640,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsUdp
   }
 
   // arib - computed: false, optional: true, required: false
-  private _arib?: string;
+  private _arib?: string; 
   public get arib() {
     return this.getStringAttribute('arib');
   }
@@ -20656,7 +20656,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsUdp
   }
 
   // arib_captions_pid - computed: true, optional: true, required: false
-  private _aribCaptionsPid?: string;
+  private _aribCaptionsPid?: string; 
   public get aribCaptionsPid() {
     return this.getStringAttribute('arib_captions_pid');
   }
@@ -20672,7 +20672,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsUdp
   }
 
   // arib_captions_pid_control - computed: false, optional: true, required: false
-  private _aribCaptionsPidControl?: string;
+  private _aribCaptionsPidControl?: string; 
   public get aribCaptionsPidControl() {
     return this.getStringAttribute('arib_captions_pid_control');
   }
@@ -20688,7 +20688,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsUdp
   }
 
   // audio_buffer_model - computed: false, optional: true, required: false
-  private _audioBufferModel?: string;
+  private _audioBufferModel?: string; 
   public get audioBufferModel() {
     return this.getStringAttribute('audio_buffer_model');
   }
@@ -20704,7 +20704,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsUdp
   }
 
   // audio_frames_per_pes - computed: false, optional: true, required: false
-  private _audioFramesPerPes?: number;
+  private _audioFramesPerPes?: number; 
   public get audioFramesPerPes() {
     return this.getNumberAttribute('audio_frames_per_pes');
   }
@@ -20720,7 +20720,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsUdp
   }
 
   // audio_pids - computed: true, optional: true, required: false
-  private _audioPids?: string;
+  private _audioPids?: string; 
   public get audioPids() {
     return this.getStringAttribute('audio_pids');
   }
@@ -20736,7 +20736,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsUdp
   }
 
   // audio_stream_type - computed: false, optional: true, required: false
-  private _audioStreamType?: string;
+  private _audioStreamType?: string; 
   public get audioStreamType() {
     return this.getStringAttribute('audio_stream_type');
   }
@@ -20752,7 +20752,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsUdp
   }
 
   // bitrate - computed: false, optional: true, required: false
-  private _bitrate?: number;
+  private _bitrate?: number; 
   public get bitrate() {
     return this.getNumberAttribute('bitrate');
   }
@@ -20768,7 +20768,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsUdp
   }
 
   // buffer_model - computed: false, optional: true, required: false
-  private _bufferModel?: string;
+  private _bufferModel?: string; 
   public get bufferModel() {
     return this.getStringAttribute('buffer_model');
   }
@@ -20784,7 +20784,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsUdp
   }
 
   // cc_descriptor - computed: false, optional: true, required: false
-  private _ccDescriptor?: string;
+  private _ccDescriptor?: string; 
   public get ccDescriptor() {
     return this.getStringAttribute('cc_descriptor');
   }
@@ -20800,7 +20800,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsUdp
   }
 
   // dvb_sub_pids - computed: true, optional: true, required: false
-  private _dvbSubPids?: string;
+  private _dvbSubPids?: string; 
   public get dvbSubPids() {
     return this.getStringAttribute('dvb_sub_pids');
   }
@@ -20816,7 +20816,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsUdp
   }
 
   // dvb_teletext_pid - computed: true, optional: true, required: false
-  private _dvbTeletextPid?: string;
+  private _dvbTeletextPid?: string; 
   public get dvbTeletextPid() {
     return this.getStringAttribute('dvb_teletext_pid');
   }
@@ -20832,7 +20832,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsUdp
   }
 
   // ebif - computed: false, optional: true, required: false
-  private _ebif?: string;
+  private _ebif?: string; 
   public get ebif() {
     return this.getStringAttribute('ebif');
   }
@@ -20848,7 +20848,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsUdp
   }
 
   // ebp_audio_interval - computed: false, optional: true, required: false
-  private _ebpAudioInterval?: string;
+  private _ebpAudioInterval?: string; 
   public get ebpAudioInterval() {
     return this.getStringAttribute('ebp_audio_interval');
   }
@@ -20864,7 +20864,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsUdp
   }
 
   // ebp_lookahead_ms - computed: false, optional: true, required: false
-  private _ebpLookaheadMs?: number;
+  private _ebpLookaheadMs?: number; 
   public get ebpLookaheadMs() {
     return this.getNumberAttribute('ebp_lookahead_ms');
   }
@@ -20880,7 +20880,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsUdp
   }
 
   // ebp_placement - computed: false, optional: true, required: false
-  private _ebpPlacement?: string;
+  private _ebpPlacement?: string; 
   public get ebpPlacement() {
     return this.getStringAttribute('ebp_placement');
   }
@@ -20896,7 +20896,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsUdp
   }
 
   // ecm_pid - computed: false, optional: true, required: false
-  private _ecmPid?: string;
+  private _ecmPid?: string; 
   public get ecmPid() {
     return this.getStringAttribute('ecm_pid');
   }
@@ -20912,7 +20912,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsUdp
   }
 
   // es_rate_in_pes - computed: false, optional: true, required: false
-  private _esRateInPes?: string;
+  private _esRateInPes?: string; 
   public get esRateInPes() {
     return this.getStringAttribute('es_rate_in_pes');
   }
@@ -20928,7 +20928,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsUdp
   }
 
   // etv_platform_pid - computed: true, optional: true, required: false
-  private _etvPlatformPid?: string;
+  private _etvPlatformPid?: string; 
   public get etvPlatformPid() {
     return this.getStringAttribute('etv_platform_pid');
   }
@@ -20944,7 +20944,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsUdp
   }
 
   // etv_signal_pid - computed: true, optional: true, required: false
-  private _etvSignalPid?: string;
+  private _etvSignalPid?: string; 
   public get etvSignalPid() {
     return this.getStringAttribute('etv_signal_pid');
   }
@@ -20960,7 +20960,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsUdp
   }
 
   // fragment_time - computed: false, optional: true, required: false
-  private _fragmentTime?: number;
+  private _fragmentTime?: number; 
   public get fragmentTime() {
     return this.getNumberAttribute('fragment_time');
   }
@@ -20976,7 +20976,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsUdp
   }
 
   // klv - computed: false, optional: true, required: false
-  private _klv?: string;
+  private _klv?: string; 
   public get klv() {
     return this.getStringAttribute('klv');
   }
@@ -20992,7 +20992,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsUdp
   }
 
   // klv_data_pids - computed: true, optional: true, required: false
-  private _klvDataPids?: string;
+  private _klvDataPids?: string; 
   public get klvDataPids() {
     return this.getStringAttribute('klv_data_pids');
   }
@@ -21008,7 +21008,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsUdp
   }
 
   // nielsen_id3_behavior - computed: false, optional: true, required: false
-  private _nielsenId3Behavior?: string;
+  private _nielsenId3Behavior?: string; 
   public get nielsenId3Behavior() {
     return this.getStringAttribute('nielsen_id3_behavior');
   }
@@ -21024,7 +21024,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsUdp
   }
 
   // null_packet_bitrate - computed: false, optional: true, required: false
-  private _nullPacketBitrate?: number;
+  private _nullPacketBitrate?: number; 
   public get nullPacketBitrate() {
     return this.getNumberAttribute('null_packet_bitrate');
   }
@@ -21040,7 +21040,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsUdp
   }
 
   // pat_interval - computed: false, optional: true, required: false
-  private _patInterval?: number;
+  private _patInterval?: number; 
   public get patInterval() {
     return this.getNumberAttribute('pat_interval');
   }
@@ -21056,7 +21056,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsUdp
   }
 
   // pcr_control - computed: false, optional: true, required: false
-  private _pcrControl?: string;
+  private _pcrControl?: string; 
   public get pcrControl() {
     return this.getStringAttribute('pcr_control');
   }
@@ -21072,7 +21072,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsUdp
   }
 
   // pcr_period - computed: false, optional: true, required: false
-  private _pcrPeriod?: number;
+  private _pcrPeriod?: number; 
   public get pcrPeriod() {
     return this.getNumberAttribute('pcr_period');
   }
@@ -21088,7 +21088,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsUdp
   }
 
   // pcr_pid - computed: false, optional: true, required: false
-  private _pcrPid?: string;
+  private _pcrPid?: string; 
   public get pcrPid() {
     return this.getStringAttribute('pcr_pid');
   }
@@ -21104,7 +21104,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsUdp
   }
 
   // pmt_interval - computed: false, optional: true, required: false
-  private _pmtInterval?: number;
+  private _pmtInterval?: number; 
   public get pmtInterval() {
     return this.getNumberAttribute('pmt_interval');
   }
@@ -21120,7 +21120,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsUdp
   }
 
   // pmt_pid - computed: true, optional: true, required: false
-  private _pmtPid?: string;
+  private _pmtPid?: string; 
   public get pmtPid() {
     return this.getStringAttribute('pmt_pid');
   }
@@ -21136,7 +21136,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsUdp
   }
 
   // program_num - computed: false, optional: true, required: false
-  private _programNum?: number;
+  private _programNum?: number; 
   public get programNum() {
     return this.getNumberAttribute('program_num');
   }
@@ -21152,7 +21152,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsUdp
   }
 
   // rate_mode - computed: false, optional: true, required: false
-  private _rateMode?: string;
+  private _rateMode?: string; 
   public get rateMode() {
     return this.getStringAttribute('rate_mode');
   }
@@ -21168,7 +21168,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsUdp
   }
 
   // scte27_pids - computed: true, optional: true, required: false
-  private _scte27Pids?: string;
+  private _scte27Pids?: string; 
   public get scte27Pids() {
     return this.getStringAttribute('scte27_pids');
   }
@@ -21184,7 +21184,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsUdp
   }
 
   // scte35_control - computed: false, optional: true, required: false
-  private _scte35Control?: string;
+  private _scte35Control?: string; 
   public get scte35Control() {
     return this.getStringAttribute('scte35_control');
   }
@@ -21200,7 +21200,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsUdp
   }
 
   // scte35_pid - computed: true, optional: true, required: false
-  private _scte35Pid?: string;
+  private _scte35Pid?: string; 
   public get scte35Pid() {
     return this.getStringAttribute('scte35_pid');
   }
@@ -21216,7 +21216,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsUdp
   }
 
   // segmentation_markers - computed: false, optional: true, required: false
-  private _segmentationMarkers?: string;
+  private _segmentationMarkers?: string; 
   public get segmentationMarkers() {
     return this.getStringAttribute('segmentation_markers');
   }
@@ -21232,7 +21232,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsUdp
   }
 
   // segmentation_style - computed: false, optional: true, required: false
-  private _segmentationStyle?: string;
+  private _segmentationStyle?: string; 
   public get segmentationStyle() {
     return this.getStringAttribute('segmentation_style');
   }
@@ -21248,7 +21248,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsUdp
   }
 
   // segmentation_time - computed: false, optional: true, required: false
-  private _segmentationTime?: number;
+  private _segmentationTime?: number; 
   public get segmentationTime() {
     return this.getNumberAttribute('segmentation_time');
   }
@@ -21264,7 +21264,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsUdp
   }
 
   // timed_metadata_behavior - computed: false, optional: true, required: false
-  private _timedMetadataBehavior?: string;
+  private _timedMetadataBehavior?: string; 
   public get timedMetadataBehavior() {
     return this.getStringAttribute('timed_metadata_behavior');
   }
@@ -21280,7 +21280,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsUdp
   }
 
   // timed_metadata_pid - computed: true, optional: true, required: false
-  private _timedMetadataPid?: string;
+  private _timedMetadataPid?: string; 
   public get timedMetadataPid() {
     return this.getStringAttribute('timed_metadata_pid');
   }
@@ -21296,7 +21296,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsUdp
   }
 
   // transport_stream_id - computed: false, optional: true, required: false
-  private _transportStreamId?: number;
+  private _transportStreamId?: number; 
   public get transportStreamId() {
     return this.getNumberAttribute('transport_stream_id');
   }
@@ -21312,7 +21312,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsUdp
   }
 
   // video_pid - computed: true, optional: true, required: false
-  private _videoPid?: string;
+  private _videoPid?: string; 
   public get videoPid() {
     return this.getStringAttribute('video_pid');
   }
@@ -21530,7 +21530,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsUdp
   }
 
   // destination_ref_id - computed: false, optional: false, required: true
-  private _destinationRefId?: string;
+  private _destinationRefId?: string; 
   public get destinationRefId() {
     return this.getStringAttribute('destination_ref_id');
   }
@@ -21645,7 +21645,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsUdp
   }
 
   // column_depth - computed: true, optional: true, required: false
-  private _columnDepth?: number;
+  private _columnDepth?: number; 
   public get columnDepth() {
     return this.getNumberAttribute('column_depth');
   }
@@ -21661,7 +21661,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsUdp
   }
 
   // include_fec - computed: true, optional: true, required: false
-  private _includeFec?: string;
+  private _includeFec?: string; 
   public get includeFec() {
     return this.getStringAttribute('include_fec');
   }
@@ -21677,7 +21677,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsUdp
   }
 
   // row_length - computed: true, optional: true, required: false
-  private _rowLength?: number;
+  private _rowLength?: number; 
   public get rowLength() {
     return this.getNumberAttribute('row_length');
   }
@@ -21818,7 +21818,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputSettingsUdp
   }
 
   // buffer_msec - computed: true, optional: true, required: false
-  private _bufferMsec?: number;
+  private _bufferMsec?: number; 
   public get bufferMsec() {
     return this.getNumberAttribute('buffer_msec');
   }
@@ -22357,7 +22357,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputReference e
   }
 
   // audio_description_names - computed: false, optional: true, required: false
-  private _audioDescriptionNames?: string[];
+  private _audioDescriptionNames?: string[]; 
   public get audioDescriptionNames() {
     return cdktn.Fn.tolist(this.getListAttribute('audio_description_names'));
   }
@@ -22373,7 +22373,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputReference e
   }
 
   // caption_description_names - computed: true, optional: true, required: false
-  private _captionDescriptionNames?: string[];
+  private _captionDescriptionNames?: string[]; 
   public get captionDescriptionNames() {
     return cdktn.Fn.tolist(this.getListAttribute('caption_description_names'));
   }
@@ -22389,7 +22389,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputReference e
   }
 
   // output_name - computed: false, optional: true, required: false
-  private _outputName?: string;
+  private _outputName?: string; 
   public get outputName() {
     return this.getStringAttribute('output_name');
   }
@@ -22405,7 +22405,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputsOutputReference e
   }
 
   // video_description_name - computed: false, optional: true, required: false
-  private _videoDescriptionName?: string;
+  private _videoDescriptionName?: string; 
   public get videoDescriptionName() {
     return this.getStringAttribute('video_description_name');
   }
@@ -22572,7 +22572,7 @@ export class MedialiveChannelEncoderSettingsOutputGroupsOutputReference extends 
   }
 
   // name - computed: false, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -22719,7 +22719,7 @@ export class MedialiveChannelEncoderSettingsTimecodeConfigOutputReference extend
   }
 
   // source - computed: false, optional: false, required: true
-  private _source?: string;
+  private _source?: string; 
   public get source() {
     return this.getStringAttribute('source');
   }
@@ -22732,7 +22732,7 @@ export class MedialiveChannelEncoderSettingsTimecodeConfigOutputReference extend
   }
 
   // sync_threshold - computed: true, optional: true, required: false
-  private _syncThreshold?: number;
+  private _syncThreshold?: number; 
   public get syncThreshold() {
     return this.getNumberAttribute('sync_threshold');
   }
@@ -22833,7 +22833,7 @@ export class MedialiveChannelEncoderSettingsVideoDescriptionsCodecSettingsFrameC
   }
 
   // capture_interval - computed: true, optional: true, required: false
-  private _captureInterval?: number;
+  private _captureInterval?: number; 
   public get captureInterval() {
     return this.getNumberAttribute('capture_interval');
   }
@@ -22849,7 +22849,7 @@ export class MedialiveChannelEncoderSettingsVideoDescriptionsCodecSettingsFrameC
   }
 
   // capture_interval_units - computed: true, optional: true, required: false
-  private _captureIntervalUnits?: string;
+  private _captureIntervalUnits?: string; 
   public get captureIntervalUnits() {
     return this.getStringAttribute('capture_interval_units');
   }
@@ -22950,7 +22950,7 @@ export class MedialiveChannelEncoderSettingsVideoDescriptionsCodecSettingsH264Se
   }
 
   // post_filter_sharpening - computed: false, optional: true, required: false
-  private _postFilterSharpening?: string;
+  private _postFilterSharpening?: string; 
   public get postFilterSharpening() {
     return this.getStringAttribute('post_filter_sharpening');
   }
@@ -22966,7 +22966,7 @@ export class MedialiveChannelEncoderSettingsVideoDescriptionsCodecSettingsH264Se
   }
 
   // strength - computed: false, optional: true, required: false
-  private _strength?: string;
+  private _strength?: string; 
   public get strength() {
     return this.getStringAttribute('strength');
   }
@@ -23801,7 +23801,7 @@ export class MedialiveChannelEncoderSettingsVideoDescriptionsCodecSettingsH264Se
   }
 
   // adaptive_quantization - computed: true, optional: true, required: false
-  private _adaptiveQuantization?: string;
+  private _adaptiveQuantization?: string; 
   public get adaptiveQuantization() {
     return this.getStringAttribute('adaptive_quantization');
   }
@@ -23817,7 +23817,7 @@ export class MedialiveChannelEncoderSettingsVideoDescriptionsCodecSettingsH264Se
   }
 
   // afd_signaling - computed: true, optional: true, required: false
-  private _afdSignaling?: string;
+  private _afdSignaling?: string; 
   public get afdSignaling() {
     return this.getStringAttribute('afd_signaling');
   }
@@ -23833,7 +23833,7 @@ export class MedialiveChannelEncoderSettingsVideoDescriptionsCodecSettingsH264Se
   }
 
   // bitrate - computed: true, optional: true, required: false
-  private _bitrate?: number;
+  private _bitrate?: number; 
   public get bitrate() {
     return this.getNumberAttribute('bitrate');
   }
@@ -23849,7 +23849,7 @@ export class MedialiveChannelEncoderSettingsVideoDescriptionsCodecSettingsH264Se
   }
 
   // buf_fill_pct - computed: true, optional: true, required: false
-  private _bufFillPct?: number;
+  private _bufFillPct?: number; 
   public get bufFillPct() {
     return this.getNumberAttribute('buf_fill_pct');
   }
@@ -23865,7 +23865,7 @@ export class MedialiveChannelEncoderSettingsVideoDescriptionsCodecSettingsH264Se
   }
 
   // buf_size - computed: true, optional: true, required: false
-  private _bufSize?: number;
+  private _bufSize?: number; 
   public get bufSize() {
     return this.getNumberAttribute('buf_size');
   }
@@ -23881,7 +23881,7 @@ export class MedialiveChannelEncoderSettingsVideoDescriptionsCodecSettingsH264Se
   }
 
   // color_metadata - computed: true, optional: true, required: false
-  private _colorMetadata?: string;
+  private _colorMetadata?: string; 
   public get colorMetadata() {
     return this.getStringAttribute('color_metadata');
   }
@@ -23897,7 +23897,7 @@ export class MedialiveChannelEncoderSettingsVideoDescriptionsCodecSettingsH264Se
   }
 
   // entropy_encoding - computed: true, optional: true, required: false
-  private _entropyEncoding?: string;
+  private _entropyEncoding?: string; 
   public get entropyEncoding() {
     return this.getStringAttribute('entropy_encoding');
   }
@@ -23913,7 +23913,7 @@ export class MedialiveChannelEncoderSettingsVideoDescriptionsCodecSettingsH264Se
   }
 
   // fixed_afd - computed: true, optional: true, required: false
-  private _fixedAfd?: string;
+  private _fixedAfd?: string; 
   public get fixedAfd() {
     return this.getStringAttribute('fixed_afd');
   }
@@ -23929,7 +23929,7 @@ export class MedialiveChannelEncoderSettingsVideoDescriptionsCodecSettingsH264Se
   }
 
   // flicker_aq - computed: true, optional: true, required: false
-  private _flickerAq?: string;
+  private _flickerAq?: string; 
   public get flickerAq() {
     return this.getStringAttribute('flicker_aq');
   }
@@ -23945,7 +23945,7 @@ export class MedialiveChannelEncoderSettingsVideoDescriptionsCodecSettingsH264Se
   }
 
   // force_field_pictures - computed: true, optional: true, required: false
-  private _forceFieldPictures?: string;
+  private _forceFieldPictures?: string; 
   public get forceFieldPictures() {
     return this.getStringAttribute('force_field_pictures');
   }
@@ -23961,7 +23961,7 @@ export class MedialiveChannelEncoderSettingsVideoDescriptionsCodecSettingsH264Se
   }
 
   // framerate_control - computed: true, optional: true, required: false
-  private _framerateControl?: string;
+  private _framerateControl?: string; 
   public get framerateControl() {
     return this.getStringAttribute('framerate_control');
   }
@@ -23977,7 +23977,7 @@ export class MedialiveChannelEncoderSettingsVideoDescriptionsCodecSettingsH264Se
   }
 
   // framerate_denominator - computed: true, optional: true, required: false
-  private _framerateDenominator?: number;
+  private _framerateDenominator?: number; 
   public get framerateDenominator() {
     return this.getNumberAttribute('framerate_denominator');
   }
@@ -23993,7 +23993,7 @@ export class MedialiveChannelEncoderSettingsVideoDescriptionsCodecSettingsH264Se
   }
 
   // framerate_numerator - computed: true, optional: true, required: false
-  private _framerateNumerator?: number;
+  private _framerateNumerator?: number; 
   public get framerateNumerator() {
     return this.getNumberAttribute('framerate_numerator');
   }
@@ -24009,7 +24009,7 @@ export class MedialiveChannelEncoderSettingsVideoDescriptionsCodecSettingsH264Se
   }
 
   // gop_b_reference - computed: true, optional: true, required: false
-  private _gopBReference?: string;
+  private _gopBReference?: string; 
   public get gopBReference() {
     return this.getStringAttribute('gop_b_reference');
   }
@@ -24025,7 +24025,7 @@ export class MedialiveChannelEncoderSettingsVideoDescriptionsCodecSettingsH264Se
   }
 
   // gop_closed_cadence - computed: true, optional: true, required: false
-  private _gopClosedCadence?: number;
+  private _gopClosedCadence?: number; 
   public get gopClosedCadence() {
     return this.getNumberAttribute('gop_closed_cadence');
   }
@@ -24041,7 +24041,7 @@ export class MedialiveChannelEncoderSettingsVideoDescriptionsCodecSettingsH264Se
   }
 
   // gop_num_b_frames - computed: true, optional: true, required: false
-  private _gopNumBFrames?: number;
+  private _gopNumBFrames?: number; 
   public get gopNumBFrames() {
     return this.getNumberAttribute('gop_num_b_frames');
   }
@@ -24057,7 +24057,7 @@ export class MedialiveChannelEncoderSettingsVideoDescriptionsCodecSettingsH264Se
   }
 
   // gop_size - computed: true, optional: true, required: false
-  private _gopSize?: number;
+  private _gopSize?: number; 
   public get gopSize() {
     return this.getNumberAttribute('gop_size');
   }
@@ -24073,7 +24073,7 @@ export class MedialiveChannelEncoderSettingsVideoDescriptionsCodecSettingsH264Se
   }
 
   // gop_size_units - computed: true, optional: true, required: false
-  private _gopSizeUnits?: string;
+  private _gopSizeUnits?: string; 
   public get gopSizeUnits() {
     return this.getStringAttribute('gop_size_units');
   }
@@ -24089,7 +24089,7 @@ export class MedialiveChannelEncoderSettingsVideoDescriptionsCodecSettingsH264Se
   }
 
   // level - computed: true, optional: true, required: false
-  private _level?: string;
+  private _level?: string; 
   public get level() {
     return this.getStringAttribute('level');
   }
@@ -24105,7 +24105,7 @@ export class MedialiveChannelEncoderSettingsVideoDescriptionsCodecSettingsH264Se
   }
 
   // look_ahead_rate_control - computed: true, optional: true, required: false
-  private _lookAheadRateControl?: string;
+  private _lookAheadRateControl?: string; 
   public get lookAheadRateControl() {
     return this.getStringAttribute('look_ahead_rate_control');
   }
@@ -24121,7 +24121,7 @@ export class MedialiveChannelEncoderSettingsVideoDescriptionsCodecSettingsH264Se
   }
 
   // max_bitrate - computed: true, optional: true, required: false
-  private _maxBitrate?: number;
+  private _maxBitrate?: number; 
   public get maxBitrate() {
     return this.getNumberAttribute('max_bitrate');
   }
@@ -24137,7 +24137,7 @@ export class MedialiveChannelEncoderSettingsVideoDescriptionsCodecSettingsH264Se
   }
 
   // min_i_interval - computed: true, optional: true, required: false
-  private _minIInterval?: number;
+  private _minIInterval?: number; 
   public get minIInterval() {
     return this.getNumberAttribute('min_i_interval');
   }
@@ -24153,7 +24153,7 @@ export class MedialiveChannelEncoderSettingsVideoDescriptionsCodecSettingsH264Se
   }
 
   // num_ref_frames - computed: true, optional: true, required: false
-  private _numRefFrames?: number;
+  private _numRefFrames?: number; 
   public get numRefFrames() {
     return this.getNumberAttribute('num_ref_frames');
   }
@@ -24169,7 +24169,7 @@ export class MedialiveChannelEncoderSettingsVideoDescriptionsCodecSettingsH264Se
   }
 
   // par_control - computed: true, optional: true, required: false
-  private _parControl?: string;
+  private _parControl?: string; 
   public get parControl() {
     return this.getStringAttribute('par_control');
   }
@@ -24185,7 +24185,7 @@ export class MedialiveChannelEncoderSettingsVideoDescriptionsCodecSettingsH264Se
   }
 
   // par_denominator - computed: true, optional: true, required: false
-  private _parDenominator?: number;
+  private _parDenominator?: number; 
   public get parDenominator() {
     return this.getNumberAttribute('par_denominator');
   }
@@ -24201,7 +24201,7 @@ export class MedialiveChannelEncoderSettingsVideoDescriptionsCodecSettingsH264Se
   }
 
   // par_numerator - computed: true, optional: true, required: false
-  private _parNumerator?: number;
+  private _parNumerator?: number; 
   public get parNumerator() {
     return this.getNumberAttribute('par_numerator');
   }
@@ -24217,7 +24217,7 @@ export class MedialiveChannelEncoderSettingsVideoDescriptionsCodecSettingsH264Se
   }
 
   // profile - computed: true, optional: true, required: false
-  private _profile?: string;
+  private _profile?: string; 
   public get profile() {
     return this.getStringAttribute('profile');
   }
@@ -24233,7 +24233,7 @@ export class MedialiveChannelEncoderSettingsVideoDescriptionsCodecSettingsH264Se
   }
 
   // quality_level - computed: true, optional: true, required: false
-  private _qualityLevel?: string;
+  private _qualityLevel?: string; 
   public get qualityLevel() {
     return this.getStringAttribute('quality_level');
   }
@@ -24249,7 +24249,7 @@ export class MedialiveChannelEncoderSettingsVideoDescriptionsCodecSettingsH264Se
   }
 
   // qvbr_quality_level - computed: true, optional: true, required: false
-  private _qvbrQualityLevel?: number;
+  private _qvbrQualityLevel?: number; 
   public get qvbrQualityLevel() {
     return this.getNumberAttribute('qvbr_quality_level');
   }
@@ -24265,7 +24265,7 @@ export class MedialiveChannelEncoderSettingsVideoDescriptionsCodecSettingsH264Se
   }
 
   // rate_control_mode - computed: true, optional: true, required: false
-  private _rateControlMode?: string;
+  private _rateControlMode?: string; 
   public get rateControlMode() {
     return this.getStringAttribute('rate_control_mode');
   }
@@ -24281,7 +24281,7 @@ export class MedialiveChannelEncoderSettingsVideoDescriptionsCodecSettingsH264Se
   }
 
   // scan_type - computed: true, optional: true, required: false
-  private _scanType?: string;
+  private _scanType?: string; 
   public get scanType() {
     return this.getStringAttribute('scan_type');
   }
@@ -24297,7 +24297,7 @@ export class MedialiveChannelEncoderSettingsVideoDescriptionsCodecSettingsH264Se
   }
 
   // scene_change_detect - computed: true, optional: true, required: false
-  private _sceneChangeDetect?: string;
+  private _sceneChangeDetect?: string; 
   public get sceneChangeDetect() {
     return this.getStringAttribute('scene_change_detect');
   }
@@ -24313,7 +24313,7 @@ export class MedialiveChannelEncoderSettingsVideoDescriptionsCodecSettingsH264Se
   }
 
   // slices - computed: true, optional: true, required: false
-  private _slices?: number;
+  private _slices?: number; 
   public get slices() {
     return this.getNumberAttribute('slices');
   }
@@ -24329,7 +24329,7 @@ export class MedialiveChannelEncoderSettingsVideoDescriptionsCodecSettingsH264Se
   }
 
   // softness - computed: true, optional: true, required: false
-  private _softness?: number;
+  private _softness?: number; 
   public get softness() {
     return this.getNumberAttribute('softness');
   }
@@ -24345,7 +24345,7 @@ export class MedialiveChannelEncoderSettingsVideoDescriptionsCodecSettingsH264Se
   }
 
   // spatial_aq - computed: true, optional: true, required: false
-  private _spatialAq?: string;
+  private _spatialAq?: string; 
   public get spatialAq() {
     return this.getStringAttribute('spatial_aq');
   }
@@ -24361,7 +24361,7 @@ export class MedialiveChannelEncoderSettingsVideoDescriptionsCodecSettingsH264Se
   }
 
   // subgop_length - computed: true, optional: true, required: false
-  private _subgopLength?: string;
+  private _subgopLength?: string; 
   public get subgopLength() {
     return this.getStringAttribute('subgop_length');
   }
@@ -24377,7 +24377,7 @@ export class MedialiveChannelEncoderSettingsVideoDescriptionsCodecSettingsH264Se
   }
 
   // syntax - computed: true, optional: true, required: false
-  private _syntax?: string;
+  private _syntax?: string; 
   public get syntax() {
     return this.getStringAttribute('syntax');
   }
@@ -24393,7 +24393,7 @@ export class MedialiveChannelEncoderSettingsVideoDescriptionsCodecSettingsH264Se
   }
 
   // temporal_aq - computed: true, optional: true, required: false
-  private _temporalAq?: string;
+  private _temporalAq?: string; 
   public get temporalAq() {
     return this.getStringAttribute('temporal_aq');
   }
@@ -24409,7 +24409,7 @@ export class MedialiveChannelEncoderSettingsVideoDescriptionsCodecSettingsH264Se
   }
 
   // timecode_insertion - computed: true, optional: true, required: false
-  private _timecodeInsertion?: string;
+  private _timecodeInsertion?: string; 
   public get timecodeInsertion() {
     return this.getStringAttribute('timecode_insertion');
   }
@@ -24624,7 +24624,7 @@ export class MedialiveChannelEncoderSettingsVideoDescriptionsCodecSettingsH265Se
   }
 
   // max_cll - computed: false, optional: true, required: false
-  private _maxCll?: number;
+  private _maxCll?: number; 
   public get maxCll() {
     return this.getNumberAttribute('max_cll');
   }
@@ -24640,7 +24640,7 @@ export class MedialiveChannelEncoderSettingsVideoDescriptionsCodecSettingsH265Se
   }
 
   // max_fall - computed: false, optional: true, required: false
-  private _maxFall?: number;
+  private _maxFall?: number; 
   public get maxFall() {
     return this.getNumberAttribute('max_fall');
   }
@@ -25065,7 +25065,7 @@ export class MedialiveChannelEncoderSettingsVideoDescriptionsCodecSettingsH265Se
   }
 
   // post_filter_sharpening - computed: false, optional: true, required: false
-  private _postFilterSharpening?: string;
+  private _postFilterSharpening?: string; 
   public get postFilterSharpening() {
     return this.getStringAttribute('post_filter_sharpening');
   }
@@ -25081,7 +25081,7 @@ export class MedialiveChannelEncoderSettingsVideoDescriptionsCodecSettingsH265Se
   }
 
   // strength - computed: false, optional: true, required: false
-  private _strength?: string;
+  private _strength?: string; 
   public get strength() {
     return this.getStringAttribute('strength');
   }
@@ -25285,7 +25285,7 @@ export class MedialiveChannelEncoderSettingsVideoDescriptionsCodecSettingsH265Se
   }
 
   // prefix - computed: true, optional: true, required: false
-  private _prefix?: string;
+  private _prefix?: string; 
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -25301,7 +25301,7 @@ export class MedialiveChannelEncoderSettingsVideoDescriptionsCodecSettingsH265Se
   }
 
   // timecode_burnin_font_size - computed: true, optional: true, required: false
-  private _timecodeBurninFontSize?: string;
+  private _timecodeBurninFontSize?: string; 
   public get timecodeBurninFontSize() {
     return this.getStringAttribute('timecode_burnin_font_size');
   }
@@ -25317,7 +25317,7 @@ export class MedialiveChannelEncoderSettingsVideoDescriptionsCodecSettingsH265Se
   }
 
   // timecode_burnin_position - computed: true, optional: true, required: false
-  private _timecodeBurninPosition?: string;
+  private _timecodeBurninPosition?: string; 
   public get timecodeBurninPosition() {
     return this.getStringAttribute('timecode_burnin_position');
   }
@@ -26019,7 +26019,7 @@ export class MedialiveChannelEncoderSettingsVideoDescriptionsCodecSettingsH265Se
   }
 
   // adaptive_quantization - computed: true, optional: true, required: false
-  private _adaptiveQuantization?: string;
+  private _adaptiveQuantization?: string; 
   public get adaptiveQuantization() {
     return this.getStringAttribute('adaptive_quantization');
   }
@@ -26035,7 +26035,7 @@ export class MedialiveChannelEncoderSettingsVideoDescriptionsCodecSettingsH265Se
   }
 
   // afd_signaling - computed: true, optional: true, required: false
-  private _afdSignaling?: string;
+  private _afdSignaling?: string; 
   public get afdSignaling() {
     return this.getStringAttribute('afd_signaling');
   }
@@ -26051,7 +26051,7 @@ export class MedialiveChannelEncoderSettingsVideoDescriptionsCodecSettingsH265Se
   }
 
   // alternative_transfer_function - computed: true, optional: true, required: false
-  private _alternativeTransferFunction?: string;
+  private _alternativeTransferFunction?: string; 
   public get alternativeTransferFunction() {
     return this.getStringAttribute('alternative_transfer_function');
   }
@@ -26067,7 +26067,7 @@ export class MedialiveChannelEncoderSettingsVideoDescriptionsCodecSettingsH265Se
   }
 
   // bitrate - computed: false, optional: false, required: true
-  private _bitrate?: number;
+  private _bitrate?: number; 
   public get bitrate() {
     return this.getNumberAttribute('bitrate');
   }
@@ -26080,7 +26080,7 @@ export class MedialiveChannelEncoderSettingsVideoDescriptionsCodecSettingsH265Se
   }
 
   // buf_size - computed: false, optional: true, required: false
-  private _bufSize?: number;
+  private _bufSize?: number; 
   public get bufSize() {
     return this.getNumberAttribute('buf_size');
   }
@@ -26096,7 +26096,7 @@ export class MedialiveChannelEncoderSettingsVideoDescriptionsCodecSettingsH265Se
   }
 
   // color_metadata - computed: true, optional: true, required: false
-  private _colorMetadata?: string;
+  private _colorMetadata?: string; 
   public get colorMetadata() {
     return this.getStringAttribute('color_metadata');
   }
@@ -26112,7 +26112,7 @@ export class MedialiveChannelEncoderSettingsVideoDescriptionsCodecSettingsH265Se
   }
 
   // fixed_afd - computed: true, optional: true, required: false
-  private _fixedAfd?: string;
+  private _fixedAfd?: string; 
   public get fixedAfd() {
     return this.getStringAttribute('fixed_afd');
   }
@@ -26128,7 +26128,7 @@ export class MedialiveChannelEncoderSettingsVideoDescriptionsCodecSettingsH265Se
   }
 
   // flicker_aq - computed: true, optional: true, required: false
-  private _flickerAq?: string;
+  private _flickerAq?: string; 
   public get flickerAq() {
     return this.getStringAttribute('flicker_aq');
   }
@@ -26144,7 +26144,7 @@ export class MedialiveChannelEncoderSettingsVideoDescriptionsCodecSettingsH265Se
   }
 
   // framerate_denominator - computed: false, optional: false, required: true
-  private _framerateDenominator?: number;
+  private _framerateDenominator?: number; 
   public get framerateDenominator() {
     return this.getNumberAttribute('framerate_denominator');
   }
@@ -26157,7 +26157,7 @@ export class MedialiveChannelEncoderSettingsVideoDescriptionsCodecSettingsH265Se
   }
 
   // framerate_numerator - computed: false, optional: false, required: true
-  private _framerateNumerator?: number;
+  private _framerateNumerator?: number; 
   public get framerateNumerator() {
     return this.getNumberAttribute('framerate_numerator');
   }
@@ -26170,7 +26170,7 @@ export class MedialiveChannelEncoderSettingsVideoDescriptionsCodecSettingsH265Se
   }
 
   // gop_closed_cadence - computed: false, optional: true, required: false
-  private _gopClosedCadence?: number;
+  private _gopClosedCadence?: number; 
   public get gopClosedCadence() {
     return this.getNumberAttribute('gop_closed_cadence');
   }
@@ -26186,7 +26186,7 @@ export class MedialiveChannelEncoderSettingsVideoDescriptionsCodecSettingsH265Se
   }
 
   // gop_size - computed: false, optional: true, required: false
-  private _gopSize?: number;
+  private _gopSize?: number; 
   public get gopSize() {
     return this.getNumberAttribute('gop_size');
   }
@@ -26202,7 +26202,7 @@ export class MedialiveChannelEncoderSettingsVideoDescriptionsCodecSettingsH265Se
   }
 
   // gop_size_units - computed: true, optional: true, required: false
-  private _gopSizeUnits?: string;
+  private _gopSizeUnits?: string; 
   public get gopSizeUnits() {
     return this.getStringAttribute('gop_size_units');
   }
@@ -26218,7 +26218,7 @@ export class MedialiveChannelEncoderSettingsVideoDescriptionsCodecSettingsH265Se
   }
 
   // level - computed: true, optional: true, required: false
-  private _level?: string;
+  private _level?: string; 
   public get level() {
     return this.getStringAttribute('level');
   }
@@ -26234,7 +26234,7 @@ export class MedialiveChannelEncoderSettingsVideoDescriptionsCodecSettingsH265Se
   }
 
   // look_ahead_rate_control - computed: true, optional: true, required: false
-  private _lookAheadRateControl?: string;
+  private _lookAheadRateControl?: string; 
   public get lookAheadRateControl() {
     return this.getStringAttribute('look_ahead_rate_control');
   }
@@ -26250,7 +26250,7 @@ export class MedialiveChannelEncoderSettingsVideoDescriptionsCodecSettingsH265Se
   }
 
   // max_bitrate - computed: false, optional: true, required: false
-  private _maxBitrate?: number;
+  private _maxBitrate?: number; 
   public get maxBitrate() {
     return this.getNumberAttribute('max_bitrate');
   }
@@ -26266,7 +26266,7 @@ export class MedialiveChannelEncoderSettingsVideoDescriptionsCodecSettingsH265Se
   }
 
   // min_i_interval - computed: false, optional: true, required: false
-  private _minIInterval?: number;
+  private _minIInterval?: number; 
   public get minIInterval() {
     return this.getNumberAttribute('min_i_interval');
   }
@@ -26282,7 +26282,7 @@ export class MedialiveChannelEncoderSettingsVideoDescriptionsCodecSettingsH265Se
   }
 
   // min_qp - computed: false, optional: true, required: false
-  private _minQp?: number;
+  private _minQp?: number; 
   public get minQp() {
     return this.getNumberAttribute('min_qp');
   }
@@ -26298,7 +26298,7 @@ export class MedialiveChannelEncoderSettingsVideoDescriptionsCodecSettingsH265Se
   }
 
   // mv_over_picture_boundaries - computed: true, optional: true, required: false
-  private _mvOverPictureBoundaries?: string;
+  private _mvOverPictureBoundaries?: string; 
   public get mvOverPictureBoundaries() {
     return this.getStringAttribute('mv_over_picture_boundaries');
   }
@@ -26314,7 +26314,7 @@ export class MedialiveChannelEncoderSettingsVideoDescriptionsCodecSettingsH265Se
   }
 
   // mv_temporal_predictor - computed: true, optional: true, required: false
-  private _mvTemporalPredictor?: string;
+  private _mvTemporalPredictor?: string; 
   public get mvTemporalPredictor() {
     return this.getStringAttribute('mv_temporal_predictor');
   }
@@ -26330,7 +26330,7 @@ export class MedialiveChannelEncoderSettingsVideoDescriptionsCodecSettingsH265Se
   }
 
   // par_denominator - computed: false, optional: true, required: false
-  private _parDenominator?: number;
+  private _parDenominator?: number; 
   public get parDenominator() {
     return this.getNumberAttribute('par_denominator');
   }
@@ -26346,7 +26346,7 @@ export class MedialiveChannelEncoderSettingsVideoDescriptionsCodecSettingsH265Se
   }
 
   // par_numerator - computed: false, optional: true, required: false
-  private _parNumerator?: number;
+  private _parNumerator?: number; 
   public get parNumerator() {
     return this.getNumberAttribute('par_numerator');
   }
@@ -26362,7 +26362,7 @@ export class MedialiveChannelEncoderSettingsVideoDescriptionsCodecSettingsH265Se
   }
 
   // profile - computed: true, optional: true, required: false
-  private _profile?: string;
+  private _profile?: string; 
   public get profile() {
     return this.getStringAttribute('profile');
   }
@@ -26378,7 +26378,7 @@ export class MedialiveChannelEncoderSettingsVideoDescriptionsCodecSettingsH265Se
   }
 
   // qvbr_quality_level - computed: false, optional: true, required: false
-  private _qvbrQualityLevel?: number;
+  private _qvbrQualityLevel?: number; 
   public get qvbrQualityLevel() {
     return this.getNumberAttribute('qvbr_quality_level');
   }
@@ -26394,7 +26394,7 @@ export class MedialiveChannelEncoderSettingsVideoDescriptionsCodecSettingsH265Se
   }
 
   // rate_control_mode - computed: true, optional: true, required: false
-  private _rateControlMode?: string;
+  private _rateControlMode?: string; 
   public get rateControlMode() {
     return this.getStringAttribute('rate_control_mode');
   }
@@ -26410,7 +26410,7 @@ export class MedialiveChannelEncoderSettingsVideoDescriptionsCodecSettingsH265Se
   }
 
   // scan_type - computed: true, optional: true, required: false
-  private _scanType?: string;
+  private _scanType?: string; 
   public get scanType() {
     return this.getStringAttribute('scan_type');
   }
@@ -26426,7 +26426,7 @@ export class MedialiveChannelEncoderSettingsVideoDescriptionsCodecSettingsH265Se
   }
 
   // scene_change_detect - computed: true, optional: true, required: false
-  private _sceneChangeDetect?: string;
+  private _sceneChangeDetect?: string; 
   public get sceneChangeDetect() {
     return this.getStringAttribute('scene_change_detect');
   }
@@ -26442,7 +26442,7 @@ export class MedialiveChannelEncoderSettingsVideoDescriptionsCodecSettingsH265Se
   }
 
   // slices - computed: false, optional: true, required: false
-  private _slices?: number;
+  private _slices?: number; 
   public get slices() {
     return this.getNumberAttribute('slices');
   }
@@ -26458,7 +26458,7 @@ export class MedialiveChannelEncoderSettingsVideoDescriptionsCodecSettingsH265Se
   }
 
   // tier - computed: true, optional: true, required: false
-  private _tier?: string;
+  private _tier?: string; 
   public get tier() {
     return this.getStringAttribute('tier');
   }
@@ -26474,7 +26474,7 @@ export class MedialiveChannelEncoderSettingsVideoDescriptionsCodecSettingsH265Se
   }
 
   // tile_height - computed: false, optional: true, required: false
-  private _tileHeight?: number;
+  private _tileHeight?: number; 
   public get tileHeight() {
     return this.getNumberAttribute('tile_height');
   }
@@ -26490,7 +26490,7 @@ export class MedialiveChannelEncoderSettingsVideoDescriptionsCodecSettingsH265Se
   }
 
   // tile_padding - computed: true, optional: true, required: false
-  private _tilePadding?: string;
+  private _tilePadding?: string; 
   public get tilePadding() {
     return this.getStringAttribute('tile_padding');
   }
@@ -26506,7 +26506,7 @@ export class MedialiveChannelEncoderSettingsVideoDescriptionsCodecSettingsH265Se
   }
 
   // tile_width - computed: false, optional: true, required: false
-  private _tileWidth?: number;
+  private _tileWidth?: number; 
   public get tileWidth() {
     return this.getNumberAttribute('tile_width');
   }
@@ -26522,7 +26522,7 @@ export class MedialiveChannelEncoderSettingsVideoDescriptionsCodecSettingsH265Se
   }
 
   // timecode_insertion - computed: true, optional: true, required: false
-  private _timecodeInsertion?: string;
+  private _timecodeInsertion?: string; 
   public get timecodeInsertion() {
     return this.getStringAttribute('timecode_insertion');
   }
@@ -26538,7 +26538,7 @@ export class MedialiveChannelEncoderSettingsVideoDescriptionsCodecSettingsH265Se
   }
 
   // treeblock_size - computed: true, optional: true, required: false
-  private _treeblockSize?: string;
+  private _treeblockSize?: string; 
   public get treeblockSize() {
     return this.getStringAttribute('treeblock_size');
   }
@@ -26942,7 +26942,7 @@ export class MedialiveChannelEncoderSettingsVideoDescriptionsOutputReference ext
   }
 
   // height - computed: true, optional: true, required: false
-  private _height?: number;
+  private _height?: number; 
   public get height() {
     return this.getNumberAttribute('height');
   }
@@ -26958,7 +26958,7 @@ export class MedialiveChannelEncoderSettingsVideoDescriptionsOutputReference ext
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -26971,7 +26971,7 @@ export class MedialiveChannelEncoderSettingsVideoDescriptionsOutputReference ext
   }
 
   // respond_to_afd - computed: true, optional: true, required: false
-  private _respondToAfd?: string;
+  private _respondToAfd?: string; 
   public get respondToAfd() {
     return this.getStringAttribute('respond_to_afd');
   }
@@ -26987,7 +26987,7 @@ export class MedialiveChannelEncoderSettingsVideoDescriptionsOutputReference ext
   }
 
   // scaling_behavior - computed: true, optional: true, required: false
-  private _scalingBehavior?: string;
+  private _scalingBehavior?: string; 
   public get scalingBehavior() {
     return this.getStringAttribute('scaling_behavior');
   }
@@ -27003,7 +27003,7 @@ export class MedialiveChannelEncoderSettingsVideoDescriptionsOutputReference ext
   }
 
   // sharpness - computed: true, optional: true, required: false
-  private _sharpness?: number;
+  private _sharpness?: number; 
   public get sharpness() {
     return this.getNumberAttribute('sharpness');
   }
@@ -27019,7 +27019,7 @@ export class MedialiveChannelEncoderSettingsVideoDescriptionsOutputReference ext
   }
 
   // width - computed: true, optional: true, required: false
-  private _width?: number;
+  private _width?: number; 
   public get width() {
     return this.getNumberAttribute('width');
   }
@@ -27516,7 +27516,7 @@ export class MedialiveChannelInputAttachmentsAutomaticInputFailoverSettingsFailo
   }
 
   // audio_selector_name - computed: false, optional: false, required: true
-  private _audioSelectorName?: string;
+  private _audioSelectorName?: string; 
   public get audioSelectorName() {
     return this.getStringAttribute('audio_selector_name');
   }
@@ -27529,7 +27529,7 @@ export class MedialiveChannelInputAttachmentsAutomaticInputFailoverSettingsFailo
   }
 
   // audio_silence_threshold_msec - computed: false, optional: true, required: false
-  private _audioSilenceThresholdMsec?: number;
+  private _audioSilenceThresholdMsec?: number; 
   public get audioSilenceThresholdMsec() {
     return this.getNumberAttribute('audio_silence_threshold_msec');
   }

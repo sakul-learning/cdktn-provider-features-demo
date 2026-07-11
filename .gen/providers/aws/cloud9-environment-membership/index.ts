@@ -96,7 +96,7 @@ export class Cloud9EnvironmentMembership extends cdktn.TerraformResource {
   // ==========
 
   // environment_id - computed: false, optional: false, required: true
-  private _environmentId?: string;
+  private _environmentId?: string; 
   public get environmentId() {
     return this.getStringAttribute('environment_id');
   }
@@ -109,7 +109,7 @@ export class Cloud9EnvironmentMembership extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -125,7 +125,7 @@ export class Cloud9EnvironmentMembership extends cdktn.TerraformResource {
   }
 
   // permissions - computed: false, optional: false, required: true
-  private _permissions?: string;
+  private _permissions?: string; 
   public get permissions() {
     return this.getStringAttribute('permissions');
   }
@@ -138,7 +138,7 @@ export class Cloud9EnvironmentMembership extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -154,7 +154,7 @@ export class Cloud9EnvironmentMembership extends cdktn.TerraformResource {
   }
 
   // user_arn - computed: false, optional: false, required: true
-  private _userArn?: string;
+  private _userArn?: string; 
   public get userArn() {
     return this.getStringAttribute('user_arn');
   }

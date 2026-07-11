@@ -299,7 +299,7 @@ export class VpcEndpointDnsOptionsOutputReference extends cdktn.ComplexObject {
   }
 
   // dns_record_ip_type - computed: true, optional: true, required: false
-  private _dnsRecordIpType?: string;
+  private _dnsRecordIpType?: string; 
   public get dnsRecordIpType() {
     return this.getStringAttribute('dns_record_ip_type');
   }
@@ -315,7 +315,7 @@ export class VpcEndpointDnsOptionsOutputReference extends cdktn.ComplexObject {
   }
 
   // private_dns_only_for_inbound_resolver_endpoint - computed: false, optional: true, required: false
-  private _privateDnsOnlyForInboundResolverEndpoint?: boolean | cdktn.IResolvable;
+  private _privateDnsOnlyForInboundResolverEndpoint?: boolean | cdktn.IResolvable; 
   public get privateDnsOnlyForInboundResolverEndpoint() {
     return this.getBooleanAttribute('private_dns_only_for_inbound_resolver_endpoint');
   }
@@ -331,7 +331,7 @@ export class VpcEndpointDnsOptionsOutputReference extends cdktn.ComplexObject {
   }
 
   // private_dns_preference - computed: true, optional: true, required: false
-  private _privateDnsPreference?: string;
+  private _privateDnsPreference?: string; 
   public get privateDnsPreference() {
     return this.getStringAttribute('private_dns_preference');
   }
@@ -347,7 +347,7 @@ export class VpcEndpointDnsOptionsOutputReference extends cdktn.ComplexObject {
   }
 
   // private_dns_specified_domains - computed: true, optional: true, required: false
-  private _privateDnsSpecifiedDomains?: string[];
+  private _privateDnsSpecifiedDomains?: string[]; 
   public get privateDnsSpecifiedDomains() {
     return cdktn.Fn.tolist(this.getListAttribute('private_dns_specified_domains'));
   }
@@ -477,7 +477,7 @@ export class VpcEndpointSubnetConfigurationOutputReference extends cdktn.Complex
   }
 
   // ipv4 - computed: false, optional: true, required: false
-  private _ipv4?: string;
+  private _ipv4?: string; 
   public get ipv4() {
     return this.getStringAttribute('ipv4');
   }
@@ -493,7 +493,7 @@ export class VpcEndpointSubnetConfigurationOutputReference extends cdktn.Complex
   }
 
   // ipv6 - computed: false, optional: true, required: false
-  private _ipv6?: string;
+  private _ipv6?: string; 
   public get ipv6() {
     return this.getStringAttribute('ipv6');
   }
@@ -509,7 +509,7 @@ export class VpcEndpointSubnetConfigurationOutputReference extends cdktn.Complex
   }
 
   // subnet_id - computed: false, optional: true, required: false
-  private _subnetId?: string;
+  private _subnetId?: string; 
   public get subnetId() {
     return this.getStringAttribute('subnet_id');
   }
@@ -657,7 +657,7 @@ export class VpcEndpointTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -673,7 +673,7 @@ export class VpcEndpointTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -689,7 +689,7 @@ export class VpcEndpointTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -787,7 +787,7 @@ export class VpcEndpoint extends cdktn.TerraformResource {
   }
 
   // auto_accept - computed: false, optional: true, required: false
-  private _autoAccept?: boolean | cdktn.IResolvable;
+  private _autoAccept?: boolean | cdktn.IResolvable; 
   public get autoAccept() {
     return this.getBooleanAttribute('auto_accept');
   }
@@ -814,7 +814,7 @@ export class VpcEndpoint extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -830,7 +830,7 @@ export class VpcEndpoint extends cdktn.TerraformResource {
   }
 
   // ip_address_type - computed: true, optional: true, required: false
-  private _ipAddressType?: string;
+  private _ipAddressType?: string; 
   public get ipAddressType() {
     return this.getStringAttribute('ip_address_type');
   }
@@ -856,7 +856,7 @@ export class VpcEndpoint extends cdktn.TerraformResource {
   }
 
   // policy - computed: true, optional: true, required: false
-  private _policy?: string;
+  private _policy?: string; 
   public get policy() {
     return this.getStringAttribute('policy');
   }
@@ -877,7 +877,7 @@ export class VpcEndpoint extends cdktn.TerraformResource {
   }
 
   // private_dns_enabled - computed: true, optional: true, required: false
-  private _privateDnsEnabled?: boolean | cdktn.IResolvable;
+  private _privateDnsEnabled?: boolean | cdktn.IResolvable; 
   public get privateDnsEnabled() {
     return this.getBooleanAttribute('private_dns_enabled');
   }
@@ -893,7 +893,7 @@ export class VpcEndpoint extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -914,7 +914,7 @@ export class VpcEndpoint extends cdktn.TerraformResource {
   }
 
   // resource_configuration_arn - computed: false, optional: true, required: false
-  private _resourceConfigurationArn?: string;
+  private _resourceConfigurationArn?: string; 
   public get resourceConfigurationArn() {
     return this.getStringAttribute('resource_configuration_arn');
   }
@@ -930,7 +930,7 @@ export class VpcEndpoint extends cdktn.TerraformResource {
   }
 
   // route_table_ids - computed: true, optional: true, required: false
-  private _routeTableIds?: string[];
+  private _routeTableIds?: string[]; 
   public get routeTableIds() {
     return cdktn.Fn.tolist(this.getListAttribute('route_table_ids'));
   }
@@ -946,7 +946,7 @@ export class VpcEndpoint extends cdktn.TerraformResource {
   }
 
   // security_group_ids - computed: true, optional: true, required: false
-  private _securityGroupIds?: string[];
+  private _securityGroupIds?: string[]; 
   public get securityGroupIds() {
     return cdktn.Fn.tolist(this.getListAttribute('security_group_ids'));
   }
@@ -962,7 +962,7 @@ export class VpcEndpoint extends cdktn.TerraformResource {
   }
 
   // service_name - computed: false, optional: true, required: false
-  private _serviceName?: string;
+  private _serviceName?: string; 
   public get serviceName() {
     return this.getStringAttribute('service_name');
   }
@@ -978,7 +978,7 @@ export class VpcEndpoint extends cdktn.TerraformResource {
   }
 
   // service_network_arn - computed: false, optional: true, required: false
-  private _serviceNetworkArn?: string;
+  private _serviceNetworkArn?: string; 
   public get serviceNetworkArn() {
     return this.getStringAttribute('service_network_arn');
   }
@@ -994,7 +994,7 @@ export class VpcEndpoint extends cdktn.TerraformResource {
   }
 
   // service_region - computed: true, optional: true, required: false
-  private _serviceRegion?: string;
+  private _serviceRegion?: string; 
   public get serviceRegion() {
     return this.getStringAttribute('service_region');
   }
@@ -1015,7 +1015,7 @@ export class VpcEndpoint extends cdktn.TerraformResource {
   }
 
   // subnet_ids - computed: true, optional: true, required: false
-  private _subnetIds?: string[];
+  private _subnetIds?: string[]; 
   public get subnetIds() {
     return cdktn.Fn.tolist(this.getListAttribute('subnet_ids'));
   }
@@ -1031,7 +1031,7 @@ export class VpcEndpoint extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -1047,7 +1047,7 @@ export class VpcEndpoint extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -1063,7 +1063,7 @@ export class VpcEndpoint extends cdktn.TerraformResource {
   }
 
   // vpc_endpoint_type - computed: false, optional: true, required: false
-  private _vpcEndpointType?: string;
+  private _vpcEndpointType?: string; 
   public get vpcEndpointType() {
     return this.getStringAttribute('vpc_endpoint_type');
   }
@@ -1079,7 +1079,7 @@ export class VpcEndpoint extends cdktn.TerraformResource {
   }
 
   // vpc_id - computed: false, optional: false, required: true
-  private _vpcId?: string;
+  private _vpcId?: string; 
   public get vpcId() {
     return this.getStringAttribute('vpc_id');
   }

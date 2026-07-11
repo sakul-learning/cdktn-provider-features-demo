@@ -165,7 +165,7 @@ export class MedialiveNodeNodeInterfaceMappingsOutputReference extends cdktn.Com
   }
 
   // logical_interface_name - computed: true, optional: true, required: false
-  private _logicalInterfaceName?: string;
+  private _logicalInterfaceName?: string; 
   public get logicalInterfaceName() {
     return this.getStringAttribute('logical_interface_name');
   }
@@ -181,7 +181,7 @@ export class MedialiveNodeNodeInterfaceMappingsOutputReference extends cdktn.Com
   }
 
   // network_interface_mode - computed: true, optional: true, required: false
-  private _networkInterfaceMode?: string;
+  private _networkInterfaceMode?: string; 
   public get networkInterfaceMode() {
     return this.getStringAttribute('network_interface_mode');
   }
@@ -197,7 +197,7 @@ export class MedialiveNodeNodeInterfaceMappingsOutputReference extends cdktn.Com
   }
 
   // physical_interface_name - computed: true, optional: true, required: false
-  private _physicalInterfaceName?: string;
+  private _physicalInterfaceName?: string; 
   public get physicalInterfaceName() {
     return this.getStringAttribute('physical_interface_name');
   }
@@ -353,7 +353,7 @@ export class MedialiveNodeSdiSourceMappingsOutputReference extends cdktn.Complex
   }
 
   // card_number - computed: true, optional: true, required: false
-  private _cardNumber?: number;
+  private _cardNumber?: number; 
   public get cardNumber() {
     return this.getNumberAttribute('card_number');
   }
@@ -369,7 +369,7 @@ export class MedialiveNodeSdiSourceMappingsOutputReference extends cdktn.Complex
   }
 
   // channel_number - computed: true, optional: true, required: false
-  private _channelNumber?: number;
+  private _channelNumber?: number; 
   public get channelNumber() {
     return this.getNumberAttribute('channel_number');
   }
@@ -385,7 +385,7 @@ export class MedialiveNodeSdiSourceMappingsOutputReference extends cdktn.Complex
   }
 
   // sdi_source - computed: true, optional: true, required: false
-  private _sdiSource?: string;
+  private _sdiSource?: string; 
   public get sdiSource() {
     return this.getStringAttribute('sdi_source');
   }
@@ -522,7 +522,7 @@ export class MedialiveNodeTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -538,7 +538,7 @@ export class MedialiveNodeTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -647,7 +647,7 @@ export class MedialiveNode extends cdktn.TerraformResource {
   }
 
   // cluster_id - computed: false, optional: false, required: true
-  private _clusterId?: string;
+  private _clusterId?: string; 
   public get clusterId() {
     return this.getStringAttribute('cluster_id');
   }
@@ -675,7 +675,7 @@ export class MedialiveNode extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -712,7 +712,7 @@ export class MedialiveNode extends cdktn.TerraformResource {
   }
 
   // role - computed: true, optional: true, required: false
-  private _role?: string;
+  private _role?: string; 
   public get role() {
     return this.getStringAttribute('role');
   }

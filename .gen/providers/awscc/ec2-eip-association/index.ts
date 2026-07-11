@@ -100,7 +100,7 @@ export class Ec2EipAssociation extends cdktn.TerraformResource {
   // ==========
 
   // allocation_id - computed: true, optional: true, required: false
-  private _allocationId?: string;
+  private _allocationId?: string; 
   public get allocationId() {
     return this.getStringAttribute('allocation_id');
   }
@@ -116,7 +116,7 @@ export class Ec2EipAssociation extends cdktn.TerraformResource {
   }
 
   // eip - computed: true, optional: true, required: false
-  private _eip?: string;
+  private _eip?: string; 
   public get eip() {
     return this.getStringAttribute('eip');
   }
@@ -142,7 +142,7 @@ export class Ec2EipAssociation extends cdktn.TerraformResource {
   }
 
   // instance_id - computed: true, optional: true, required: false
-  private _instanceId?: string;
+  private _instanceId?: string; 
   public get instanceId() {
     return this.getStringAttribute('instance_id');
   }
@@ -158,7 +158,7 @@ export class Ec2EipAssociation extends cdktn.TerraformResource {
   }
 
   // network_interface_id - computed: true, optional: true, required: false
-  private _networkInterfaceId?: string;
+  private _networkInterfaceId?: string; 
   public get networkInterfaceId() {
     return this.getStringAttribute('network_interface_id');
   }
@@ -174,7 +174,7 @@ export class Ec2EipAssociation extends cdktn.TerraformResource {
   }
 
   // private_ip_address - computed: true, optional: true, required: false
-  private _privateIpAddress?: string;
+  private _privateIpAddress?: string; 
   public get privateIpAddress() {
     return this.getStringAttribute('private_ip_address');
   }

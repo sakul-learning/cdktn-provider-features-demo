@@ -170,7 +170,7 @@ export class MediaconnectRouterInputConfigurationFailoverProtocolConfigurationsR
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -186,7 +186,7 @@ export class MediaconnectRouterInputConfigurationFailoverProtocolConfigurationsR
   }
 
   // recovery_latency_milliseconds - computed: true, optional: true, required: false
-  private _recoveryLatencyMilliseconds?: number;
+  private _recoveryLatencyMilliseconds?: number; 
   public get recoveryLatencyMilliseconds() {
     return this.getNumberAttribute('recovery_latency_milliseconds');
   }
@@ -299,7 +299,7 @@ export class MediaconnectRouterInputConfigurationFailoverProtocolConfigurationsR
   }
 
   // forward_error_correction - computed: true, optional: true, required: false
-  private _forwardErrorCorrection?: string;
+  private _forwardErrorCorrection?: string; 
   public get forwardErrorCorrection() {
     return this.getStringAttribute('forward_error_correction');
   }
@@ -315,7 +315,7 @@ export class MediaconnectRouterInputConfigurationFailoverProtocolConfigurationsR
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -430,7 +430,7 @@ export class MediaconnectRouterInputConfigurationFailoverProtocolConfigurationsS
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -446,7 +446,7 @@ export class MediaconnectRouterInputConfigurationFailoverProtocolConfigurationsS
   }
 
   // secret_arn - computed: true, optional: true, required: false
-  private _secretArn?: string;
+  private _secretArn?: string; 
   public get secretArn() {
     return this.getStringAttribute('secret_arn');
   }
@@ -730,7 +730,7 @@ export class MediaconnectRouterInputConfigurationFailoverProtocolConfigurationsS
   }
 
   // minimum_latency_milliseconds - computed: true, optional: true, required: false
-  private _minimumLatencyMilliseconds?: number;
+  private _minimumLatencyMilliseconds?: number; 
   public get minimumLatencyMilliseconds() {
     return this.getNumberAttribute('minimum_latency_milliseconds');
   }
@@ -746,7 +746,7 @@ export class MediaconnectRouterInputConfigurationFailoverProtocolConfigurationsS
   }
 
   // source_address - computed: true, optional: true, required: false
-  private _sourceAddress?: string;
+  private _sourceAddress?: string; 
   public get sourceAddress() {
     return this.getStringAttribute('source_address');
   }
@@ -762,7 +762,7 @@ export class MediaconnectRouterInputConfigurationFailoverProtocolConfigurationsS
   }
 
   // source_port - computed: true, optional: true, required: false
-  private _sourcePort?: number;
+  private _sourcePort?: number; 
   public get sourcePort() {
     return this.getNumberAttribute('source_port');
   }
@@ -778,7 +778,7 @@ export class MediaconnectRouterInputConfigurationFailoverProtocolConfigurationsS
   }
 
   // stream_id - computed: true, optional: true, required: false
-  private _streamId?: string;
+  private _streamId?: string; 
   public get streamId() {
     return this.getStringAttribute('stream_id');
   }
@@ -893,7 +893,7 @@ export class MediaconnectRouterInputConfigurationFailoverProtocolConfigurationsS
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -909,7 +909,7 @@ export class MediaconnectRouterInputConfigurationFailoverProtocolConfigurationsS
   }
 
   // secret_arn - computed: true, optional: true, required: false
-  private _secretArn?: string;
+  private _secretArn?: string; 
   public get secretArn() {
     return this.getStringAttribute('secret_arn');
   }
@@ -1155,7 +1155,7 @@ export class MediaconnectRouterInputConfigurationFailoverProtocolConfigurationsS
   }
 
   // minimum_latency_milliseconds - computed: true, optional: true, required: false
-  private _minimumLatencyMilliseconds?: number;
+  private _minimumLatencyMilliseconds?: number; 
   public get minimumLatencyMilliseconds() {
     return this.getNumberAttribute('minimum_latency_milliseconds');
   }
@@ -1171,7 +1171,7 @@ export class MediaconnectRouterInputConfigurationFailoverProtocolConfigurationsS
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -1545,7 +1545,7 @@ export class MediaconnectRouterInputConfigurationFailoverOutputReference extends
   }
 
   // network_interface_arn - computed: true, optional: true, required: false
-  private _networkInterfaceArn?: string;
+  private _networkInterfaceArn?: string; 
   public get networkInterfaceArn() {
     return this.getStringAttribute('network_interface_arn');
   }
@@ -1561,7 +1561,7 @@ export class MediaconnectRouterInputConfigurationFailoverOutputReference extends
   }
 
   // primary_source_index - computed: true, optional: true, required: false
-  private _primarySourceIndex?: number;
+  private _primarySourceIndex?: number; 
   public get primarySourceIndex() {
     return this.getNumberAttribute('primary_source_index');
   }
@@ -1593,7 +1593,7 @@ export class MediaconnectRouterInputConfigurationFailoverOutputReference extends
   }
 
   // source_priority_mode - computed: true, optional: true, required: false
-  private _sourcePriorityMode?: string;
+  private _sourcePriorityMode?: string; 
   public get sourcePriorityMode() {
     return this.getStringAttribute('source_priority_mode');
   }
@@ -1708,7 +1708,7 @@ export class MediaconnectRouterInputConfigurationMediaConnectFlowSourceTransitDe
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -1724,7 +1724,7 @@ export class MediaconnectRouterInputConfigurationMediaConnectFlowSourceTransitDe
   }
 
   // secret_arn - computed: true, optional: true, required: false
-  private _secretArn?: string;
+  private _secretArn?: string; 
   public get secretArn() {
     return this.getStringAttribute('secret_arn');
   }
@@ -1839,7 +1839,7 @@ export class MediaconnectRouterInputConfigurationMediaConnectFlowSourceTransitDe
   }
 
   // automatic - computed: true, optional: true, required: false
-  private _automatic?: string;
+  private _automatic?: string; 
   public get automatic() {
     return this.getStringAttribute('automatic');
   }
@@ -1984,7 +1984,7 @@ export class MediaconnectRouterInputConfigurationMediaConnectFlowSourceTransitDe
   }
 
   // encryption_key_type - computed: true, optional: true, required: false
-  private _encryptionKeyType?: string;
+  private _encryptionKeyType?: string; 
   public get encryptionKeyType() {
     return this.getStringAttribute('encryption_key_type');
   }
@@ -2118,7 +2118,7 @@ export class MediaconnectRouterInputConfigurationMediaConnectFlowOutputReference
   }
 
   // flow_arn - computed: true, optional: true, required: false
-  private _flowArn?: string;
+  private _flowArn?: string; 
   public get flowArn() {
     return this.getStringAttribute('flow_arn');
   }
@@ -2134,7 +2134,7 @@ export class MediaconnectRouterInputConfigurationMediaConnectFlowOutputReference
   }
 
   // flow_output_arn - computed: true, optional: true, required: false
-  private _flowOutputArn?: string;
+  private _flowOutputArn?: string; 
   public get flowOutputArn() {
     return this.getStringAttribute('flow_output_arn');
   }
@@ -2265,7 +2265,7 @@ export class MediaconnectRouterInputConfigurationMediaLiveChannelSourceTransitDe
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -2281,7 +2281,7 @@ export class MediaconnectRouterInputConfigurationMediaLiveChannelSourceTransitDe
   }
 
   // secret_arn - computed: true, optional: true, required: false
-  private _secretArn?: string;
+  private _secretArn?: string; 
   public get secretArn() {
     return this.getStringAttribute('secret_arn');
   }
@@ -2396,7 +2396,7 @@ export class MediaconnectRouterInputConfigurationMediaLiveChannelSourceTransitDe
   }
 
   // automatic - computed: true, optional: true, required: false
-  private _automatic?: string;
+  private _automatic?: string; 
   public get automatic() {
     return this.getStringAttribute('automatic');
   }
@@ -2541,7 +2541,7 @@ export class MediaconnectRouterInputConfigurationMediaLiveChannelSourceTransitDe
   }
 
   // encryption_key_type - computed: true, optional: true, required: false
-  private _encryptionKeyType?: string;
+  private _encryptionKeyType?: string; 
   public get encryptionKeyType() {
     return this.getStringAttribute('encryption_key_type');
   }
@@ -2692,7 +2692,7 @@ export class MediaconnectRouterInputConfigurationMediaLiveChannelOutputReference
   }
 
   // media_live_channel_arn - computed: true, optional: true, required: false
-  private _mediaLiveChannelArn?: string;
+  private _mediaLiveChannelArn?: string; 
   public get mediaLiveChannelArn() {
     return this.getStringAttribute('media_live_channel_arn');
   }
@@ -2708,7 +2708,7 @@ export class MediaconnectRouterInputConfigurationMediaLiveChannelOutputReference
   }
 
   // media_live_channel_output_name - computed: true, optional: true, required: false
-  private _mediaLiveChannelOutputName?: string;
+  private _mediaLiveChannelOutputName?: string; 
   public get mediaLiveChannelOutputName() {
     return this.getStringAttribute('media_live_channel_output_name');
   }
@@ -2724,7 +2724,7 @@ export class MediaconnectRouterInputConfigurationMediaLiveChannelOutputReference
   }
 
   // media_live_pipeline_id - computed: true, optional: true, required: false
-  private _mediaLivePipelineId?: string;
+  private _mediaLivePipelineId?: string; 
   public get mediaLivePipelineId() {
     return this.getStringAttribute('media_live_pipeline_id');
   }
@@ -2855,7 +2855,7 @@ export class MediaconnectRouterInputConfigurationMergeProtocolConfigurationsRist
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -2871,7 +2871,7 @@ export class MediaconnectRouterInputConfigurationMergeProtocolConfigurationsRist
   }
 
   // recovery_latency_milliseconds - computed: true, optional: true, required: false
-  private _recoveryLatencyMilliseconds?: number;
+  private _recoveryLatencyMilliseconds?: number; 
   public get recoveryLatencyMilliseconds() {
     return this.getNumberAttribute('recovery_latency_milliseconds');
   }
@@ -2984,7 +2984,7 @@ export class MediaconnectRouterInputConfigurationMergeProtocolConfigurationsRtpO
   }
 
   // forward_error_correction - computed: true, optional: true, required: false
-  private _forwardErrorCorrection?: string;
+  private _forwardErrorCorrection?: string; 
   public get forwardErrorCorrection() {
     return this.getStringAttribute('forward_error_correction');
   }
@@ -3000,7 +3000,7 @@ export class MediaconnectRouterInputConfigurationMergeProtocolConfigurationsRtpO
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -3287,7 +3287,7 @@ export class MediaconnectRouterInputConfigurationMergeOutputReference extends cd
   }
 
   // merge_recovery_window_milliseconds - computed: true, optional: true, required: false
-  private _mergeRecoveryWindowMilliseconds?: number;
+  private _mergeRecoveryWindowMilliseconds?: number; 
   public get mergeRecoveryWindowMilliseconds() {
     return this.getNumberAttribute('merge_recovery_window_milliseconds');
   }
@@ -3303,7 +3303,7 @@ export class MediaconnectRouterInputConfigurationMergeOutputReference extends cd
   }
 
   // network_interface_arn - computed: true, optional: true, required: false
-  private _networkInterfaceArn?: string;
+  private _networkInterfaceArn?: string; 
   public get networkInterfaceArn() {
     return this.getStringAttribute('network_interface_arn');
   }
@@ -3434,7 +3434,7 @@ export class MediaconnectRouterInputConfigurationStandardProtocolConfigurationRi
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -3450,7 +3450,7 @@ export class MediaconnectRouterInputConfigurationStandardProtocolConfigurationRi
   }
 
   // recovery_latency_milliseconds - computed: true, optional: true, required: false
-  private _recoveryLatencyMilliseconds?: number;
+  private _recoveryLatencyMilliseconds?: number; 
   public get recoveryLatencyMilliseconds() {
     return this.getNumberAttribute('recovery_latency_milliseconds');
   }
@@ -3563,7 +3563,7 @@ export class MediaconnectRouterInputConfigurationStandardProtocolConfigurationRt
   }
 
   // forward_error_correction - computed: true, optional: true, required: false
-  private _forwardErrorCorrection?: string;
+  private _forwardErrorCorrection?: string; 
   public get forwardErrorCorrection() {
     return this.getStringAttribute('forward_error_correction');
   }
@@ -3579,7 +3579,7 @@ export class MediaconnectRouterInputConfigurationStandardProtocolConfigurationRt
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -3694,7 +3694,7 @@ export class MediaconnectRouterInputConfigurationStandardProtocolConfigurationSr
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -3710,7 +3710,7 @@ export class MediaconnectRouterInputConfigurationStandardProtocolConfigurationSr
   }
 
   // secret_arn - computed: true, optional: true, required: false
-  private _secretArn?: string;
+  private _secretArn?: string; 
   public get secretArn() {
     return this.getStringAttribute('secret_arn');
   }
@@ -3994,7 +3994,7 @@ export class MediaconnectRouterInputConfigurationStandardProtocolConfigurationSr
   }
 
   // minimum_latency_milliseconds - computed: true, optional: true, required: false
-  private _minimumLatencyMilliseconds?: number;
+  private _minimumLatencyMilliseconds?: number; 
   public get minimumLatencyMilliseconds() {
     return this.getNumberAttribute('minimum_latency_milliseconds');
   }
@@ -4010,7 +4010,7 @@ export class MediaconnectRouterInputConfigurationStandardProtocolConfigurationSr
   }
 
   // source_address - computed: true, optional: true, required: false
-  private _sourceAddress?: string;
+  private _sourceAddress?: string; 
   public get sourceAddress() {
     return this.getStringAttribute('source_address');
   }
@@ -4026,7 +4026,7 @@ export class MediaconnectRouterInputConfigurationStandardProtocolConfigurationSr
   }
 
   // source_port - computed: true, optional: true, required: false
-  private _sourcePort?: number;
+  private _sourcePort?: number; 
   public get sourcePort() {
     return this.getNumberAttribute('source_port');
   }
@@ -4042,7 +4042,7 @@ export class MediaconnectRouterInputConfigurationStandardProtocolConfigurationSr
   }
 
   // stream_id - computed: true, optional: true, required: false
-  private _streamId?: string;
+  private _streamId?: string; 
   public get streamId() {
     return this.getStringAttribute('stream_id');
   }
@@ -4157,7 +4157,7 @@ export class MediaconnectRouterInputConfigurationStandardProtocolConfigurationSr
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -4173,7 +4173,7 @@ export class MediaconnectRouterInputConfigurationStandardProtocolConfigurationSr
   }
 
   // secret_arn - computed: true, optional: true, required: false
-  private _secretArn?: string;
+  private _secretArn?: string; 
   public get secretArn() {
     return this.getStringAttribute('secret_arn');
   }
@@ -4419,7 +4419,7 @@ export class MediaconnectRouterInputConfigurationStandardProtocolConfigurationSr
   }
 
   // minimum_latency_milliseconds - computed: true, optional: true, required: false
-  private _minimumLatencyMilliseconds?: number;
+  private _minimumLatencyMilliseconds?: number; 
   public get minimumLatencyMilliseconds() {
     return this.getNumberAttribute('minimum_latency_milliseconds');
   }
@@ -4435,7 +4435,7 @@ export class MediaconnectRouterInputConfigurationStandardProtocolConfigurationSr
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -4768,7 +4768,7 @@ export class MediaconnectRouterInputConfigurationStandardOutputReference extends
   }
 
   // network_interface_arn - computed: true, optional: true, required: false
-  private _networkInterfaceArn?: string;
+  private _networkInterfaceArn?: string; 
   public get networkInterfaceArn() {
     return this.getStringAttribute('network_interface_arn');
   }
@@ -4784,7 +4784,7 @@ export class MediaconnectRouterInputConfigurationStandardOutputReference extends
   }
 
   // protocol - computed: true, optional: true, required: false
-  private _protocol?: string;
+  private _protocol?: string; 
   public get protocol() {
     return this.getStringAttribute('protocol');
   }
@@ -5149,7 +5149,7 @@ export class MediaconnectRouterInputContentQualityAnalysisConfigurationContentLe
   }
 
   // state - computed: true, optional: true, required: false
-  private _state?: string;
+  private _state?: string; 
   public get state() {
     return this.getStringAttribute('state');
   }
@@ -5165,7 +5165,7 @@ export class MediaconnectRouterInputContentQualityAnalysisConfigurationContentLe
   }
 
   // threshold_seconds - computed: true, optional: true, required: false
-  private _thresholdSeconds?: number;
+  private _thresholdSeconds?: number; 
   public get thresholdSeconds() {
     return this.getNumberAttribute('threshold_seconds');
   }
@@ -5278,7 +5278,7 @@ export class MediaconnectRouterInputContentQualityAnalysisConfigurationContentLe
   }
 
   // state - computed: true, optional: true, required: false
-  private _state?: string;
+  private _state?: string; 
   public get state() {
     return this.getStringAttribute('state');
   }
@@ -5294,7 +5294,7 @@ export class MediaconnectRouterInputContentQualityAnalysisConfigurationContentLe
   }
 
   // threshold_seconds - computed: true, optional: true, required: false
-  private _thresholdSeconds?: number;
+  private _thresholdSeconds?: number; 
   public get thresholdSeconds() {
     return this.getNumberAttribute('threshold_seconds');
   }
@@ -5407,7 +5407,7 @@ export class MediaconnectRouterInputContentQualityAnalysisConfigurationContentLe
   }
 
   // state - computed: true, optional: true, required: false
-  private _state?: string;
+  private _state?: string; 
   public get state() {
     return this.getStringAttribute('state');
   }
@@ -5423,7 +5423,7 @@ export class MediaconnectRouterInputContentQualityAnalysisConfigurationContentLe
   }
 
   // threshold_seconds - computed: true, optional: true, required: false
-  private _thresholdSeconds?: number;
+  private _thresholdSeconds?: number; 
   public get thresholdSeconds() {
     return this.getNumberAttribute('threshold_seconds');
   }
@@ -5798,7 +5798,7 @@ export class MediaconnectRouterInputMaintenanceConfigurationPreferredDayTimeOutp
   }
 
   // day - computed: true, optional: true, required: false
-  private _day?: string;
+  private _day?: string; 
   public get day() {
     return this.getStringAttribute('day');
   }
@@ -5814,7 +5814,7 @@ export class MediaconnectRouterInputMaintenanceConfigurationPreferredDayTimeOutp
   }
 
   // time - computed: true, optional: true, required: false
-  private _time?: string;
+  private _time?: string; 
   public get time() {
     return this.getStringAttribute('time');
   }
@@ -5929,7 +5929,7 @@ export class MediaconnectRouterInputMaintenanceConfigurationOutputReference exte
   }
 
   // default - computed: true, optional: true, required: false
-  private _default?: string;
+  private _default?: string; 
   public get default() {
     return this.getStringAttribute('default');
   }
@@ -6058,7 +6058,7 @@ export class MediaconnectRouterInputTagsOutputReference extends cdktn.ComplexObj
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -6074,7 +6074,7 @@ export class MediaconnectRouterInputTagsOutputReference extends cdktn.ComplexObj
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -6209,7 +6209,7 @@ export class MediaconnectRouterInputTransitEncryptionEncryptionKeyConfigurationS
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -6225,7 +6225,7 @@ export class MediaconnectRouterInputTransitEncryptionEncryptionKeyConfigurationS
   }
 
   // secret_arn - computed: true, optional: true, required: false
-  private _secretArn?: string;
+  private _secretArn?: string; 
   public get secretArn() {
     return this.getStringAttribute('secret_arn');
   }
@@ -6340,7 +6340,7 @@ export class MediaconnectRouterInputTransitEncryptionEncryptionKeyConfigurationO
   }
 
   // automatic - computed: true, optional: true, required: false
-  private _automatic?: string;
+  private _automatic?: string; 
   public get automatic() {
     return this.getStringAttribute('automatic');
   }
@@ -6485,7 +6485,7 @@ export class MediaconnectRouterInputTransitEncryptionOutputReference extends cdk
   }
 
   // encryption_key_type - computed: true, optional: true, required: false
-  private _encryptionKeyType?: string;
+  private _encryptionKeyType?: string; 
   public get encryptionKeyType() {
     return this.getStringAttribute('encryption_key_type');
   }
@@ -6574,7 +6574,7 @@ export class MediaconnectRouterInput extends cdktn.TerraformResource {
   }
 
   // availability_zone - computed: true, optional: true, required: false
-  private _availabilityZone?: string;
+  private _availabilityZone?: string; 
   public get availabilityZone() {
     return this.getStringAttribute('availability_zone');
   }
@@ -6665,7 +6665,7 @@ export class MediaconnectRouterInput extends cdktn.TerraformResource {
   }
 
   // maximum_bitrate - computed: false, optional: false, required: true
-  private _maximumBitrate?: number;
+  private _maximumBitrate?: number; 
   public get maximumBitrate() {
     return this.getNumberAttribute('maximum_bitrate');
   }
@@ -6678,7 +6678,7 @@ export class MediaconnectRouterInput extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -6691,7 +6691,7 @@ export class MediaconnectRouterInput extends cdktn.TerraformResource {
   }
 
   // region_name - computed: true, optional: true, required: false
-  private _regionName?: string;
+  private _regionName?: string; 
   public get regionName() {
     return this.getStringAttribute('region_name');
   }
@@ -6717,7 +6717,7 @@ export class MediaconnectRouterInput extends cdktn.TerraformResource {
   }
 
   // routing_scope - computed: false, optional: false, required: true
-  private _routingScope?: string;
+  private _routingScope?: string; 
   public get routingScope() {
     return this.getStringAttribute('routing_scope');
   }
@@ -6751,7 +6751,7 @@ export class MediaconnectRouterInput extends cdktn.TerraformResource {
   }
 
   // tier - computed: false, optional: false, required: true
-  private _tier?: string;
+  private _tier?: string; 
   public get tier() {
     return this.getStringAttribute('tier');
   }

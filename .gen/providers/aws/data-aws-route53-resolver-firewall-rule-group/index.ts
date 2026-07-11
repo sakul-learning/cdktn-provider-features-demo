@@ -101,7 +101,7 @@ export class DataAwsRoute53ResolverFirewallRuleGroup extends cdktn.TerraformData
   }
 
   // firewall_rule_group_id - computed: false, optional: false, required: true
-  private _firewallRuleGroupId?: string;
+  private _firewallRuleGroupId?: string; 
   public get firewallRuleGroupId() {
     return this.getStringAttribute('firewall_rule_group_id');
   }
@@ -114,7 +114,7 @@ export class DataAwsRoute53ResolverFirewallRuleGroup extends cdktn.TerraformData
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -145,7 +145,7 @@ export class DataAwsRoute53ResolverFirewallRuleGroup extends cdktn.TerraformData
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

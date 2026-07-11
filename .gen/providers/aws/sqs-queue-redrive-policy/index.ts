@@ -91,7 +91,7 @@ export class SqsQueueRedrivePolicy extends cdktn.TerraformResource {
   // ==========
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -107,7 +107,7 @@ export class SqsQueueRedrivePolicy extends cdktn.TerraformResource {
   }
 
   // queue_url - computed: false, optional: false, required: true
-  private _queueUrl?: string;
+  private _queueUrl?: string; 
   public get queueUrl() {
     return this.getStringAttribute('queue_url');
   }
@@ -120,7 +120,7 @@ export class SqsQueueRedrivePolicy extends cdktn.TerraformResource {
   }
 
   // redrive_policy - computed: false, optional: false, required: true
-  private _redrivePolicy?: string;
+  private _redrivePolicy?: string; 
   public get redrivePolicy() {
     return this.getStringAttribute('redrive_policy');
   }
@@ -133,7 +133,7 @@ export class SqsQueueRedrivePolicy extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

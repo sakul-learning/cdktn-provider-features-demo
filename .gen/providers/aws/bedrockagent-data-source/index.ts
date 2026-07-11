@@ -169,7 +169,7 @@ export class BedrockagentDataSourceDataSourceConfigurationConfluenceConfiguratio
   }
 
   // exclusion_filters - computed: false, optional: true, required: false
-  private _exclusionFilters?: string[];
+  private _exclusionFilters?: string[]; 
   public get exclusionFilters() {
     return cdktn.Fn.tolist(this.getListAttribute('exclusion_filters'));
   }
@@ -185,7 +185,7 @@ export class BedrockagentDataSourceDataSourceConfigurationConfluenceConfiguratio
   }
 
   // inclusion_filters - computed: false, optional: true, required: false
-  private _inclusionFilters?: string[];
+  private _inclusionFilters?: string[]; 
   public get inclusionFilters() {
     return cdktn.Fn.tolist(this.getListAttribute('inclusion_filters'));
   }
@@ -201,7 +201,7 @@ export class BedrockagentDataSourceDataSourceConfigurationConfluenceConfiguratio
   }
 
   // object_type - computed: false, optional: false, required: true
-  private _objectType?: string;
+  private _objectType?: string; 
   public get objectType() {
     return this.getStringAttribute('object_type');
   }
@@ -451,7 +451,7 @@ export class BedrockagentDataSourceDataSourceConfigurationConfluenceConfiguratio
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -749,7 +749,7 @@ export class BedrockagentDataSourceDataSourceConfigurationConfluenceConfiguratio
   }
 
   // auth_type - computed: false, optional: false, required: true
-  private _authType?: string;
+  private _authType?: string; 
   public get authType() {
     return this.getStringAttribute('auth_type');
   }
@@ -762,7 +762,7 @@ export class BedrockagentDataSourceDataSourceConfigurationConfluenceConfiguratio
   }
 
   // credentials_secret_arn - computed: false, optional: false, required: true
-  private _credentialsSecretArn?: string;
+  private _credentialsSecretArn?: string; 
   public get credentialsSecretArn() {
     return this.getStringAttribute('credentials_secret_arn');
   }
@@ -775,7 +775,7 @@ export class BedrockagentDataSourceDataSourceConfigurationConfluenceConfiguratio
   }
 
   // host_type - computed: false, optional: false, required: true
-  private _hostType?: string;
+  private _hostType?: string; 
   public get hostType() {
     return this.getStringAttribute('host_type');
   }
@@ -788,7 +788,7 @@ export class BedrockagentDataSourceDataSourceConfigurationConfluenceConfiguratio
   }
 
   // host_url - computed: false, optional: false, required: true
-  private _hostUrl?: string;
+  private _hostUrl?: string; 
   public get hostUrl() {
     return this.getStringAttribute('host_url');
   }
@@ -1088,7 +1088,7 @@ export class BedrockagentDataSourceDataSourceConfigurationS3ConfigurationOutputR
   }
 
   // bucket_arn - computed: false, optional: false, required: true
-  private _bucketArn?: string;
+  private _bucketArn?: string; 
   public get bucketArn() {
     return this.getStringAttribute('bucket_arn');
   }
@@ -1101,7 +1101,7 @@ export class BedrockagentDataSourceDataSourceConfigurationS3ConfigurationOutputR
   }
 
   // bucket_owner_account_id - computed: false, optional: true, required: false
-  private _bucketOwnerAccountId?: string;
+  private _bucketOwnerAccountId?: string; 
   public get bucketOwnerAccountId() {
     return this.getStringAttribute('bucket_owner_account_id');
   }
@@ -1117,7 +1117,7 @@ export class BedrockagentDataSourceDataSourceConfigurationS3ConfigurationOutputR
   }
 
   // inclusion_prefixes - computed: false, optional: true, required: false
-  private _inclusionPrefixes?: string[];
+  private _inclusionPrefixes?: string[]; 
   public get inclusionPrefixes() {
     return cdktn.Fn.tolist(this.getListAttribute('inclusion_prefixes'));
   }
@@ -1267,7 +1267,7 @@ export class BedrockagentDataSourceDataSourceConfigurationSalesforceConfiguratio
   }
 
   // exclusion_filters - computed: false, optional: true, required: false
-  private _exclusionFilters?: string[];
+  private _exclusionFilters?: string[]; 
   public get exclusionFilters() {
     return cdktn.Fn.tolist(this.getListAttribute('exclusion_filters'));
   }
@@ -1283,7 +1283,7 @@ export class BedrockagentDataSourceDataSourceConfigurationSalesforceConfiguratio
   }
 
   // inclusion_filters - computed: false, optional: true, required: false
-  private _inclusionFilters?: string[];
+  private _inclusionFilters?: string[]; 
   public get inclusionFilters() {
     return cdktn.Fn.tolist(this.getListAttribute('inclusion_filters'));
   }
@@ -1299,7 +1299,7 @@ export class BedrockagentDataSourceDataSourceConfigurationSalesforceConfiguratio
   }
 
   // object_type - computed: false, optional: false, required: true
-  private _objectType?: string;
+  private _objectType?: string; 
   public get objectType() {
     return this.getStringAttribute('object_type');
   }
@@ -1549,7 +1549,7 @@ export class BedrockagentDataSourceDataSourceConfigurationSalesforceConfiguratio
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -1830,7 +1830,7 @@ export class BedrockagentDataSourceDataSourceConfigurationSalesforceConfiguratio
   }
 
   // auth_type - computed: false, optional: false, required: true
-  private _authType?: string;
+  private _authType?: string; 
   public get authType() {
     return this.getStringAttribute('auth_type');
   }
@@ -1843,7 +1843,7 @@ export class BedrockagentDataSourceDataSourceConfigurationSalesforceConfiguratio
   }
 
   // credentials_secret_arn - computed: false, optional: false, required: true
-  private _credentialsSecretArn?: string;
+  private _credentialsSecretArn?: string; 
   public get credentialsSecretArn() {
     return this.getStringAttribute('credentials_secret_arn');
   }
@@ -1856,7 +1856,7 @@ export class BedrockagentDataSourceDataSourceConfigurationSalesforceConfiguratio
   }
 
   // host_url - computed: false, optional: false, required: true
-  private _hostUrl?: string;
+  private _hostUrl?: string; 
   public get hostUrl() {
     return this.getStringAttribute('host_url');
   }
@@ -2156,7 +2156,7 @@ export class BedrockagentDataSourceDataSourceConfigurationSharePointConfiguratio
   }
 
   // exclusion_filters - computed: false, optional: true, required: false
-  private _exclusionFilters?: string[];
+  private _exclusionFilters?: string[]; 
   public get exclusionFilters() {
     return cdktn.Fn.tolist(this.getListAttribute('exclusion_filters'));
   }
@@ -2172,7 +2172,7 @@ export class BedrockagentDataSourceDataSourceConfigurationSharePointConfiguratio
   }
 
   // inclusion_filters - computed: false, optional: true, required: false
-  private _inclusionFilters?: string[];
+  private _inclusionFilters?: string[]; 
   public get inclusionFilters() {
     return cdktn.Fn.tolist(this.getListAttribute('inclusion_filters'));
   }
@@ -2188,7 +2188,7 @@ export class BedrockagentDataSourceDataSourceConfigurationSharePointConfiguratio
   }
 
   // object_type - computed: false, optional: false, required: true
-  private _objectType?: string;
+  private _objectType?: string; 
   public get objectType() {
     return this.getStringAttribute('object_type');
   }
@@ -2438,7 +2438,7 @@ export class BedrockagentDataSourceDataSourceConfigurationSharePointConfiguratio
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -2770,7 +2770,7 @@ export class BedrockagentDataSourceDataSourceConfigurationSharePointConfiguratio
   }
 
   // auth_type - computed: false, optional: false, required: true
-  private _authType?: string;
+  private _authType?: string; 
   public get authType() {
     return this.getStringAttribute('auth_type');
   }
@@ -2783,7 +2783,7 @@ export class BedrockagentDataSourceDataSourceConfigurationSharePointConfiguratio
   }
 
   // credentials_secret_arn - computed: false, optional: false, required: true
-  private _credentialsSecretArn?: string;
+  private _credentialsSecretArn?: string; 
   public get credentialsSecretArn() {
     return this.getStringAttribute('credentials_secret_arn');
   }
@@ -2796,7 +2796,7 @@ export class BedrockagentDataSourceDataSourceConfigurationSharePointConfiguratio
   }
 
   // domain - computed: false, optional: false, required: true
-  private _domain?: string;
+  private _domain?: string; 
   public get domain() {
     return this.getStringAttribute('domain');
   }
@@ -2809,7 +2809,7 @@ export class BedrockagentDataSourceDataSourceConfigurationSharePointConfiguratio
   }
 
   // host_type - computed: false, optional: false, required: true
-  private _hostType?: string;
+  private _hostType?: string; 
   public get hostType() {
     return this.getStringAttribute('host_type');
   }
@@ -2822,7 +2822,7 @@ export class BedrockagentDataSourceDataSourceConfigurationSharePointConfiguratio
   }
 
   // site_urls - computed: false, optional: false, required: true
-  private _siteUrls?: string[];
+  private _siteUrls?: string[]; 
   public get siteUrls() {
     return cdktn.Fn.tolist(this.getListAttribute('site_urls'));
   }
@@ -2835,7 +2835,7 @@ export class BedrockagentDataSourceDataSourceConfigurationSharePointConfiguratio
   }
 
   // tenant_id - computed: false, optional: true, required: false
-  private _tenantId?: string;
+  private _tenantId?: string; 
   public get tenantId() {
     return this.getStringAttribute('tenant_id');
   }
@@ -3121,7 +3121,7 @@ export class BedrockagentDataSourceDataSourceConfigurationWebConfigurationCrawle
   }
 
   // max_pages - computed: false, optional: true, required: false
-  private _maxPages?: number;
+  private _maxPages?: number; 
   public get maxPages() {
     return this.getNumberAttribute('max_pages');
   }
@@ -3137,7 +3137,7 @@ export class BedrockagentDataSourceDataSourceConfigurationWebConfigurationCrawle
   }
 
   // rate_limit - computed: false, optional: true, required: false
-  private _rateLimit?: number;
+  private _rateLimit?: number; 
   public get rateLimit() {
     return this.getNumberAttribute('rate_limit');
   }
@@ -3323,7 +3323,7 @@ export class BedrockagentDataSourceDataSourceConfigurationWebConfigurationCrawle
   }
 
   // exclusion_filters - computed: false, optional: true, required: false
-  private _exclusionFilters?: string[];
+  private _exclusionFilters?: string[]; 
   public get exclusionFilters() {
     return cdktn.Fn.tolist(this.getListAttribute('exclusion_filters'));
   }
@@ -3339,7 +3339,7 @@ export class BedrockagentDataSourceDataSourceConfigurationWebConfigurationCrawle
   }
 
   // inclusion_filters - computed: false, optional: true, required: false
-  private _inclusionFilters?: string[];
+  private _inclusionFilters?: string[]; 
   public get inclusionFilters() {
     return cdktn.Fn.tolist(this.getListAttribute('inclusion_filters'));
   }
@@ -3355,7 +3355,7 @@ export class BedrockagentDataSourceDataSourceConfigurationWebConfigurationCrawle
   }
 
   // scope - computed: false, optional: true, required: false
-  private _scope?: string;
+  private _scope?: string; 
   public get scope() {
     return this.getStringAttribute('scope');
   }
@@ -3371,7 +3371,7 @@ export class BedrockagentDataSourceDataSourceConfigurationWebConfigurationCrawle
   }
 
   // user_agent - computed: false, optional: true, required: false
-  private _userAgent?: string;
+  private _userAgent?: string; 
   public get userAgent() {
     return this.getStringAttribute('user_agent');
   }
@@ -3503,7 +3503,7 @@ export class BedrockagentDataSourceDataSourceConfigurationWebConfigurationSource
   }
 
   // url - computed: false, optional: true, required: false
-  private _url?: string;
+  private _url?: string; 
   public get url() {
     return this.getStringAttribute('url');
   }
@@ -4103,7 +4103,7 @@ export class BedrockagentDataSourceDataSourceConfigurationOutputReference extend
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -4296,7 +4296,7 @@ export class BedrockagentDataSourceServerSideEncryptionConfigurationOutputRefere
   }
 
   // kms_key_arn - computed: false, optional: true, required: false
-  private _kmsKeyArn?: string;
+  private _kmsKeyArn?: string; 
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -4431,7 +4431,7 @@ export class BedrockagentDataSourceTimeoutsOutputReference extends cdktn.Complex
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -4447,7 +4447,7 @@ export class BedrockagentDataSourceTimeoutsOutputReference extends cdktn.Complex
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -4560,7 +4560,7 @@ export class BedrockagentDataSourceVectorIngestionConfigurationChunkingConfigura
   }
 
   // max_tokens - computed: false, optional: false, required: true
-  private _maxTokens?: number;
+  private _maxTokens?: number; 
   public get maxTokens() {
     return this.getNumberAttribute('max_tokens');
   }
@@ -4573,7 +4573,7 @@ export class BedrockagentDataSourceVectorIngestionConfigurationChunkingConfigura
   }
 
   // overlap_percentage - computed: false, optional: false, required: true
-  private _overlapPercentage?: number;
+  private _overlapPercentage?: number; 
   public get overlapPercentage() {
     return this.getNumberAttribute('overlap_percentage');
   }
@@ -4686,7 +4686,7 @@ export class BedrockagentDataSourceVectorIngestionConfigurationChunkingConfigura
   }
 
   // max_tokens - computed: false, optional: false, required: true
-  private _maxTokens?: number;
+  private _maxTokens?: number; 
   public get maxTokens() {
     return this.getNumberAttribute('max_tokens');
   }
@@ -4818,7 +4818,7 @@ export class BedrockagentDataSourceVectorIngestionConfigurationChunkingConfigura
   }
 
   // overlap_tokens - computed: false, optional: false, required: true
-  private _overlapTokens?: number;
+  private _overlapTokens?: number; 
   public get overlapTokens() {
     return this.getNumberAttribute('overlap_tokens');
   }
@@ -4981,7 +4981,7 @@ export class BedrockagentDataSourceVectorIngestionConfigurationChunkingConfigura
   }
 
   // breakpoint_percentile_threshold - computed: false, optional: false, required: true
-  private _breakpointPercentileThreshold?: number;
+  private _breakpointPercentileThreshold?: number; 
   public get breakpointPercentileThreshold() {
     return this.getNumberAttribute('breakpoint_percentile_threshold');
   }
@@ -4994,7 +4994,7 @@ export class BedrockagentDataSourceVectorIngestionConfigurationChunkingConfigura
   }
 
   // buffer_size - computed: false, optional: false, required: true
-  private _bufferSize?: number;
+  private _bufferSize?: number; 
   public get bufferSize() {
     return this.getNumberAttribute('buffer_size');
   }
@@ -5007,7 +5007,7 @@ export class BedrockagentDataSourceVectorIngestionConfigurationChunkingConfigura
   }
 
   // max_token - computed: false, optional: false, required: true
-  private _maxToken?: number;
+  private _maxToken?: number; 
   public get maxToken() {
     return this.getNumberAttribute('max_token');
   }
@@ -5177,7 +5177,7 @@ export class BedrockagentDataSourceVectorIngestionConfigurationChunkingConfigura
   }
 
   // chunking_strategy - computed: false, optional: false, required: true
-  private _chunkingStrategy?: string;
+  private _chunkingStrategy?: string; 
   public get chunkingStrategy() {
     return this.getStringAttribute('chunking_strategy');
   }
@@ -5338,7 +5338,7 @@ export class BedrockagentDataSourceVectorIngestionConfigurationCustomTransformat
   }
 
   // uri - computed: false, optional: false, required: true
-  private _uri?: string;
+  private _uri?: string; 
   public get uri() {
     return this.getStringAttribute('uri');
   }
@@ -5569,7 +5569,7 @@ export class BedrockagentDataSourceVectorIngestionConfigurationCustomTransformat
   }
 
   // lambda_arn - computed: false, optional: false, required: true
-  private _lambdaArn?: string;
+  private _lambdaArn?: string; 
   public get lambdaArn() {
     return this.getStringAttribute('lambda_arn');
   }
@@ -5819,7 +5819,7 @@ export class BedrockagentDataSourceVectorIngestionConfigurationCustomTransformat
   }
 
   // step_to_apply - computed: false, optional: false, required: true
-  private _stepToApply?: string;
+  private _stepToApply?: string; 
   public get stepToApply() {
     return this.getStringAttribute('step_to_apply');
   }
@@ -6101,7 +6101,7 @@ export class BedrockagentDataSourceVectorIngestionConfigurationParsingConfigurat
   }
 
   // parsing_modality - computed: false, optional: true, required: false
-  private _parsingModality?: string;
+  private _parsingModality?: string; 
   public get parsingModality() {
     return this.getStringAttribute('parsing_modality');
   }
@@ -6217,7 +6217,7 @@ export class BedrockagentDataSourceVectorIngestionConfigurationParsingConfigurat
   }
 
   // parsing_prompt_string - computed: false, optional: false, required: true
-  private _parsingPromptString?: string;
+  private _parsingPromptString?: string; 
   public get parsingPromptString() {
     return this.getStringAttribute('parsing_prompt_string');
   }
@@ -6366,7 +6366,7 @@ export class BedrockagentDataSourceVectorIngestionConfigurationParsingConfigurat
   }
 
   // model_arn - computed: false, optional: false, required: true
-  private _modelArn?: string;
+  private _modelArn?: string; 
   public get modelArn() {
     return this.getStringAttribute('model_arn');
   }
@@ -6379,7 +6379,7 @@ export class BedrockagentDataSourceVectorIngestionConfigurationParsingConfigurat
   }
 
   // parsing_modality - computed: false, optional: true, required: false
-  private _parsingModality?: string;
+  private _parsingModality?: string; 
   public get parsingModality() {
     return this.getStringAttribute('parsing_modality');
   }
@@ -6549,7 +6549,7 @@ export class BedrockagentDataSourceVectorIngestionConfigurationParsingConfigurat
   }
 
   // parsing_strategy - computed: false, optional: false, required: true
-  private _parsingStrategy?: string;
+  private _parsingStrategy?: string; 
   public get parsingStrategy() {
     return this.getStringAttribute('parsing_strategy');
   }
@@ -6868,7 +6868,7 @@ export class BedrockagentDataSource extends cdktn.TerraformResource {
   // ==========
 
   // data_deletion_policy - computed: true, optional: true, required: false
-  private _dataDeletionPolicy?: string;
+  private _dataDeletionPolicy?: string; 
   public get dataDeletionPolicy() {
     return this.getStringAttribute('data_deletion_policy');
   }
@@ -6889,7 +6889,7 @@ export class BedrockagentDataSource extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -6910,7 +6910,7 @@ export class BedrockagentDataSource extends cdktn.TerraformResource {
   }
 
   // knowledge_base_id - computed: false, optional: false, required: true
-  private _knowledgeBaseId?: string;
+  private _knowledgeBaseId?: string; 
   public get knowledgeBaseId() {
     return this.getStringAttribute('knowledge_base_id');
   }
@@ -6923,7 +6923,7 @@ export class BedrockagentDataSource extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -6936,7 +6936,7 @@ export class BedrockagentDataSource extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

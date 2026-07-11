@@ -154,7 +154,7 @@ export class NetworkmanagerSiteToSiteVpnAttachmentTimeoutsOutputReference extend
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -170,7 +170,7 @@ export class NetworkmanagerSiteToSiteVpnAttachmentTimeoutsOutputReference extend
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -186,7 +186,7 @@ export class NetworkmanagerSiteToSiteVpnAttachmentTimeoutsOutputReference extend
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -286,7 +286,7 @@ export class NetworkmanagerSiteToSiteVpnAttachment extends cdktn.TerraformResour
   }
 
   // core_network_id - computed: false, optional: false, required: true
-  private _coreNetworkId?: string;
+  private _coreNetworkId?: string; 
   public get coreNetworkId() {
     return this.getStringAttribute('core_network_id');
   }
@@ -304,7 +304,7 @@ export class NetworkmanagerSiteToSiteVpnAttachment extends cdktn.TerraformResour
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -330,7 +330,7 @@ export class NetworkmanagerSiteToSiteVpnAttachment extends cdktn.TerraformResour
   }
 
   // routing_policy_label - computed: false, optional: true, required: false
-  private _routingPolicyLabel?: string;
+  private _routingPolicyLabel?: string; 
   public get routingPolicyLabel() {
     return this.getStringAttribute('routing_policy_label');
   }
@@ -356,7 +356,7 @@ export class NetworkmanagerSiteToSiteVpnAttachment extends cdktn.TerraformResour
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -372,7 +372,7 @@ export class NetworkmanagerSiteToSiteVpnAttachment extends cdktn.TerraformResour
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -388,7 +388,7 @@ export class NetworkmanagerSiteToSiteVpnAttachment extends cdktn.TerraformResour
   }
 
   // vpn_connection_arn - computed: false, optional: false, required: true
-  private _vpnConnectionArn?: string;
+  private _vpnConnectionArn?: string; 
   public get vpnConnectionArn() {
     return this.getStringAttribute('vpn_connection_arn');
   }

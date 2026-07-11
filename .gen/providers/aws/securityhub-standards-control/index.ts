@@ -101,7 +101,7 @@ export class SecurityhubStandardsControl extends cdktn.TerraformResource {
   }
 
   // control_status - computed: false, optional: false, required: true
-  private _controlStatus?: string;
+  private _controlStatus?: string; 
   public get controlStatus() {
     return this.getStringAttribute('control_status');
   }
@@ -124,7 +124,7 @@ export class SecurityhubStandardsControl extends cdktn.TerraformResource {
   }
 
   // disabled_reason - computed: true, optional: true, required: false
-  private _disabledReason?: string;
+  private _disabledReason?: string; 
   public get disabledReason() {
     return this.getStringAttribute('disabled_reason');
   }
@@ -140,7 +140,7 @@ export class SecurityhubStandardsControl extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -156,7 +156,7 @@ export class SecurityhubStandardsControl extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -187,7 +187,7 @@ export class SecurityhubStandardsControl extends cdktn.TerraformResource {
   }
 
   // standards_control_arn - computed: false, optional: false, required: true
-  private _standardsControlArn?: string;
+  private _standardsControlArn?: string; 
   public get standardsControlArn() {
     return this.getStringAttribute('standards_control_arn');
   }

@@ -146,7 +146,7 @@ export class SnsPlatformApplication extends cdktn.TerraformResource {
   // ==========
 
   // apple_platform_bundle_id - computed: false, optional: true, required: false
-  private _applePlatformBundleId?: string;
+  private _applePlatformBundleId?: string; 
   public get applePlatformBundleId() {
     return this.getStringAttribute('apple_platform_bundle_id');
   }
@@ -162,7 +162,7 @@ export class SnsPlatformApplication extends cdktn.TerraformResource {
   }
 
   // apple_platform_team_id - computed: false, optional: true, required: false
-  private _applePlatformTeamId?: string;
+  private _applePlatformTeamId?: string; 
   public get applePlatformTeamId() {
     return this.getStringAttribute('apple_platform_team_id');
   }
@@ -183,7 +183,7 @@ export class SnsPlatformApplication extends cdktn.TerraformResource {
   }
 
   // event_delivery_failure_topic_arn - computed: false, optional: true, required: false
-  private _eventDeliveryFailureTopicArn?: string;
+  private _eventDeliveryFailureTopicArn?: string; 
   public get eventDeliveryFailureTopicArn() {
     return this.getStringAttribute('event_delivery_failure_topic_arn');
   }
@@ -199,7 +199,7 @@ export class SnsPlatformApplication extends cdktn.TerraformResource {
   }
 
   // event_endpoint_created_topic_arn - computed: false, optional: true, required: false
-  private _eventEndpointCreatedTopicArn?: string;
+  private _eventEndpointCreatedTopicArn?: string; 
   public get eventEndpointCreatedTopicArn() {
     return this.getStringAttribute('event_endpoint_created_topic_arn');
   }
@@ -215,7 +215,7 @@ export class SnsPlatformApplication extends cdktn.TerraformResource {
   }
 
   // event_endpoint_deleted_topic_arn - computed: false, optional: true, required: false
-  private _eventEndpointDeletedTopicArn?: string;
+  private _eventEndpointDeletedTopicArn?: string; 
   public get eventEndpointDeletedTopicArn() {
     return this.getStringAttribute('event_endpoint_deleted_topic_arn');
   }
@@ -231,7 +231,7 @@ export class SnsPlatformApplication extends cdktn.TerraformResource {
   }
 
   // event_endpoint_updated_topic_arn - computed: false, optional: true, required: false
-  private _eventEndpointUpdatedTopicArn?: string;
+  private _eventEndpointUpdatedTopicArn?: string; 
   public get eventEndpointUpdatedTopicArn() {
     return this.getStringAttribute('event_endpoint_updated_topic_arn');
   }
@@ -247,7 +247,7 @@ export class SnsPlatformApplication extends cdktn.TerraformResource {
   }
 
   // failure_feedback_role_arn - computed: false, optional: true, required: false
-  private _failureFeedbackRoleArn?: string;
+  private _failureFeedbackRoleArn?: string; 
   public get failureFeedbackRoleArn() {
     return this.getStringAttribute('failure_feedback_role_arn');
   }
@@ -263,7 +263,7 @@ export class SnsPlatformApplication extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -279,7 +279,7 @@ export class SnsPlatformApplication extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -292,7 +292,7 @@ export class SnsPlatformApplication extends cdktn.TerraformResource {
   }
 
   // platform - computed: false, optional: false, required: true
-  private _platform?: string;
+  private _platform?: string; 
   public get platform() {
     return this.getStringAttribute('platform');
   }
@@ -305,7 +305,7 @@ export class SnsPlatformApplication extends cdktn.TerraformResource {
   }
 
   // platform_credential - computed: false, optional: false, required: true
-  private _platformCredential?: string;
+  private _platformCredential?: string; 
   public get platformCredential() {
     return this.getStringAttribute('platform_credential');
   }
@@ -318,7 +318,7 @@ export class SnsPlatformApplication extends cdktn.TerraformResource {
   }
 
   // platform_principal - computed: false, optional: true, required: false
-  private _platformPrincipal?: string;
+  private _platformPrincipal?: string; 
   public get platformPrincipal() {
     return this.getStringAttribute('platform_principal');
   }
@@ -334,7 +334,7 @@ export class SnsPlatformApplication extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -350,7 +350,7 @@ export class SnsPlatformApplication extends cdktn.TerraformResource {
   }
 
   // success_feedback_role_arn - computed: false, optional: true, required: false
-  private _successFeedbackRoleArn?: string;
+  private _successFeedbackRoleArn?: string; 
   public get successFeedbackRoleArn() {
     return this.getStringAttribute('success_feedback_role_arn');
   }
@@ -366,7 +366,7 @@ export class SnsPlatformApplication extends cdktn.TerraformResource {
   }
 
   // success_feedback_sample_rate - computed: false, optional: true, required: false
-  private _successFeedbackSampleRate?: string;
+  private _successFeedbackSampleRate?: string; 
   public get successFeedbackSampleRate() {
     return this.getStringAttribute('success_feedback_sample_rate');
   }

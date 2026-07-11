@@ -148,7 +148,7 @@ export class ApigatewayDomainNameEndpointConfigurationOutputReference extends cd
   }
 
   // ip_address_type - computed: true, optional: true, required: false
-  private _ipAddressType?: string;
+  private _ipAddressType?: string; 
   public get ipAddressType() {
     return this.getStringAttribute('ip_address_type');
   }
@@ -164,7 +164,7 @@ export class ApigatewayDomainNameEndpointConfigurationOutputReference extends cd
   }
 
   // types - computed: true, optional: true, required: false
-  private _types?: string[];
+  private _types?: string[]; 
   public get types() {
     return this.getListAttribute('types');
   }
@@ -275,7 +275,7 @@ export class ApigatewayDomainNameMutualTlsAuthenticationOutputReference extends 
   }
 
   // truststore_uri - computed: true, optional: true, required: false
-  private _truststoreUri?: string;
+  private _truststoreUri?: string; 
   public get truststoreUri() {
     return this.getStringAttribute('truststore_uri');
   }
@@ -291,7 +291,7 @@ export class ApigatewayDomainNameMutualTlsAuthenticationOutputReference extends 
   }
 
   // truststore_version - computed: true, optional: true, required: false
-  private _truststoreVersion?: string;
+  private _truststoreVersion?: string; 
   public get truststoreVersion() {
     return this.getStringAttribute('truststore_version');
   }
@@ -408,7 +408,7 @@ export class ApigatewayDomainNameTagsOutputReference extends cdktn.ComplexObject
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -424,7 +424,7 @@ export class ApigatewayDomainNameTagsOutputReference extends cdktn.ComplexObject
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -527,7 +527,7 @@ export class ApigatewayDomainName extends cdktn.TerraformResource {
   // ==========
 
   // certificate_arn - computed: true, optional: true, required: false
-  private _certificateArn?: string;
+  private _certificateArn?: string; 
   public get certificateArn() {
     return this.getStringAttribute('certificate_arn');
   }
@@ -553,7 +553,7 @@ export class ApigatewayDomainName extends cdktn.TerraformResource {
   }
 
   // domain_name - computed: true, optional: true, required: false
-  private _domainName?: string;
+  private _domainName?: string; 
   public get domainName() {
     return this.getStringAttribute('domain_name');
   }
@@ -574,7 +574,7 @@ export class ApigatewayDomainName extends cdktn.TerraformResource {
   }
 
   // endpoint_access_mode - computed: true, optional: true, required: false
-  private _endpointAccessMode?: string;
+  private _endpointAccessMode?: string; 
   public get endpointAccessMode() {
     return this.getStringAttribute('endpoint_access_mode');
   }
@@ -627,7 +627,7 @@ export class ApigatewayDomainName extends cdktn.TerraformResource {
   }
 
   // ownership_verification_certificate_arn - computed: true, optional: true, required: false
-  private _ownershipVerificationCertificateArn?: string;
+  private _ownershipVerificationCertificateArn?: string; 
   public get ownershipVerificationCertificateArn() {
     return this.getStringAttribute('ownership_verification_certificate_arn');
   }
@@ -643,7 +643,7 @@ export class ApigatewayDomainName extends cdktn.TerraformResource {
   }
 
   // regional_certificate_arn - computed: true, optional: true, required: false
-  private _regionalCertificateArn?: string;
+  private _regionalCertificateArn?: string; 
   public get regionalCertificateArn() {
     return this.getStringAttribute('regional_certificate_arn');
   }
@@ -669,7 +669,7 @@ export class ApigatewayDomainName extends cdktn.TerraformResource {
   }
 
   // routing_mode - computed: true, optional: true, required: false
-  private _routingMode?: string;
+  private _routingMode?: string; 
   public get routingMode() {
     return this.getStringAttribute('routing_mode');
   }
@@ -685,7 +685,7 @@ export class ApigatewayDomainName extends cdktn.TerraformResource {
   }
 
   // security_policy - computed: true, optional: true, required: false
-  private _securityPolicy?: string;
+  private _securityPolicy?: string; 
   public get securityPolicy() {
     return this.getStringAttribute('security_policy');
   }

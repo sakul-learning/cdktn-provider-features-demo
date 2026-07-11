@@ -147,7 +147,7 @@ export class NetworkfirewallFirewallAvailabilityZoneMappingsOutputReference exte
   }
 
   // availability_zone - computed: true, optional: true, required: false
-  private _availabilityZone?: string;
+  private _availabilityZone?: string; 
   public get availabilityZone() {
     return this.getStringAttribute('availability_zone');
   }
@@ -284,7 +284,7 @@ export class NetworkfirewallFirewallSubnetMappingsOutputReference extends cdktn.
   }
 
   // ip_address_type - computed: true, optional: true, required: false
-  private _ipAddressType?: string;
+  private _ipAddressType?: string; 
   public get ipAddressType() {
     return this.getStringAttribute('ip_address_type');
   }
@@ -300,7 +300,7 @@ export class NetworkfirewallFirewallSubnetMappingsOutputReference extends cdktn.
   }
 
   // subnet_id - computed: true, optional: true, required: false
-  private _subnetId?: string;
+  private _subnetId?: string; 
   public get subnetId() {
     return this.getStringAttribute('subnet_id');
   }
@@ -433,7 +433,7 @@ export class NetworkfirewallFirewallTagsOutputReference extends cdktn.ComplexObj
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -449,7 +449,7 @@ export class NetworkfirewallFirewallTagsOutputReference extends cdktn.ComplexObj
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -555,7 +555,7 @@ export class NetworkfirewallFirewall extends cdktn.TerraformResource {
   // ==========
 
   // availability_zone_change_protection - computed: true, optional: true, required: false
-  private _availabilityZoneChangeProtection?: boolean | cdktn.IResolvable;
+  private _availabilityZoneChangeProtection?: boolean | cdktn.IResolvable; 
   public get availabilityZoneChangeProtection() {
     return this.getBooleanAttribute('availability_zone_change_protection');
   }
@@ -587,7 +587,7 @@ export class NetworkfirewallFirewall extends cdktn.TerraformResource {
   }
 
   // delete_protection - computed: true, optional: true, required: false
-  private _deleteProtection?: boolean | cdktn.IResolvable;
+  private _deleteProtection?: boolean | cdktn.IResolvable; 
   public get deleteProtection() {
     return this.getBooleanAttribute('delete_protection');
   }
@@ -603,7 +603,7 @@ export class NetworkfirewallFirewall extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -619,7 +619,7 @@ export class NetworkfirewallFirewall extends cdktn.TerraformResource {
   }
 
   // enabled_analysis_types - computed: true, optional: true, required: false
-  private _enabledAnalysisTypes?: string[];
+  private _enabledAnalysisTypes?: string[]; 
   public get enabledAnalysisTypes() {
     return this.getListAttribute('enabled_analysis_types');
   }
@@ -650,7 +650,7 @@ export class NetworkfirewallFirewall extends cdktn.TerraformResource {
   }
 
   // firewall_name - computed: false, optional: false, required: true
-  private _firewallName?: string;
+  private _firewallName?: string; 
   public get firewallName() {
     return this.getStringAttribute('firewall_name');
   }
@@ -663,7 +663,7 @@ export class NetworkfirewallFirewall extends cdktn.TerraformResource {
   }
 
   // firewall_policy_arn - computed: false, optional: false, required: true
-  private _firewallPolicyArn?: string;
+  private _firewallPolicyArn?: string; 
   public get firewallPolicyArn() {
     return this.getStringAttribute('firewall_policy_arn');
   }
@@ -676,7 +676,7 @@ export class NetworkfirewallFirewall extends cdktn.TerraformResource {
   }
 
   // firewall_policy_change_protection - computed: true, optional: true, required: false
-  private _firewallPolicyChangeProtection?: boolean | cdktn.IResolvable;
+  private _firewallPolicyChangeProtection?: boolean | cdktn.IResolvable; 
   public get firewallPolicyChangeProtection() {
     return this.getBooleanAttribute('firewall_policy_change_protection');
   }
@@ -697,7 +697,7 @@ export class NetworkfirewallFirewall extends cdktn.TerraformResource {
   }
 
   // subnet_change_protection - computed: true, optional: true, required: false
-  private _subnetChangeProtection?: boolean | cdktn.IResolvable;
+  private _subnetChangeProtection?: boolean | cdktn.IResolvable; 
   public get subnetChangeProtection() {
     return this.getBooleanAttribute('subnet_change_protection');
   }
@@ -750,7 +750,7 @@ export class NetworkfirewallFirewall extends cdktn.TerraformResource {
   }
 
   // transit_gateway_id - computed: true, optional: true, required: false
-  private _transitGatewayId?: string;
+  private _transitGatewayId?: string; 
   public get transitGatewayId() {
     return this.getStringAttribute('transit_gateway_id');
   }
@@ -766,7 +766,7 @@ export class NetworkfirewallFirewall extends cdktn.TerraformResource {
   }
 
   // vpc_id - computed: true, optional: true, required: false
-  private _vpcId?: string;
+  private _vpcId?: string; 
   public get vpcId() {
     return this.getStringAttribute('vpc_id');
   }

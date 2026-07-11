@@ -275,7 +275,7 @@ export class DataAwsBedrockInferenceProfiles extends cdktn.TerraformDataSource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -291,7 +291,7 @@ export class DataAwsBedrockInferenceProfiles extends cdktn.TerraformDataSource {
   }
 
   // type - computed: false, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }

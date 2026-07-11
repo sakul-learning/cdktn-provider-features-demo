@@ -136,7 +136,7 @@ export class VpcRouteServerPeerBgpOptionsOutputReference extends cdktn.ComplexOb
   }
 
   // peer_asn - computed: false, optional: false, required: true
-  private _peerAsn?: number;
+  private _peerAsn?: number; 
   public get peerAsn() {
     return this.getNumberAttribute('peer_asn');
   }
@@ -149,7 +149,7 @@ export class VpcRouteServerPeerBgpOptionsOutputReference extends cdktn.ComplexOb
   }
 
   // peer_liveness_detection - computed: true, optional: true, required: false
-  private _peerLivenessDetection?: string;
+  private _peerLivenessDetection?: string; 
   public get peerLivenessDetection() {
     return this.getStringAttribute('peer_liveness_detection');
   }
@@ -284,7 +284,7 @@ export class VpcRouteServerPeerTimeoutsOutputReference extends cdktn.ComplexObje
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -300,7 +300,7 @@ export class VpcRouteServerPeerTimeoutsOutputReference extends cdktn.ComplexObje
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -394,7 +394,7 @@ export class VpcRouteServerPeer extends cdktn.TerraformResource {
   }
 
   // peer_address - computed: false, optional: false, required: true
-  private _peerAddress?: string;
+  private _peerAddress?: string; 
   public get peerAddress() {
     return this.getStringAttribute('peer_address');
   }
@@ -407,7 +407,7 @@ export class VpcRouteServerPeer extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -423,7 +423,7 @@ export class VpcRouteServerPeer extends cdktn.TerraformResource {
   }
 
   // route_server_endpoint_id - computed: false, optional: false, required: true
-  private _routeServerEndpointId?: string;
+  private _routeServerEndpointId?: string; 
   public get routeServerEndpointId() {
     return this.getStringAttribute('route_server_endpoint_id');
   }
@@ -451,7 +451,7 @@ export class VpcRouteServerPeer extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

@@ -151,7 +151,7 @@ export interface GameliftFleetConfig extends cdktn.TerraformMetaArguments {
   readonly resourceCreationLimitPolicy?: GameliftFleetResourceCreationLimitPolicy;
   /**
   * Instructions for launching server processes on each instance in the fleet. Server processes run either a custom game build executable or a Realtime script. The runtime configuration defines the server executables or launch script file, launch parameters, and the number of processes to run concurrently on each instance. When creating a fleet, the runtime configuration must have at least one server process configuration; otherwise the request fails with an invalid request exception.
-  *
+  * 
   * This parameter is required unless the parameters ServerLaunchPath and ServerLaunchParameters are defined. Runtime configuration has replaced these parameters, but fleets that use them will continue to work.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/gamelift_fleet#runtime_configuration GameliftFleet#runtime_configuration}
@@ -165,7 +165,7 @@ export interface GameliftFleetConfig extends cdktn.TerraformMetaArguments {
   readonly scalingPolicies?: GameliftFleetScalingPolicies[] | cdktn.IResolvable;
   /**
   * A unique identifier for a Realtime script to be deployed on a new Realtime Servers fleet. The script must have been successfully uploaded to Amazon GameLift. This fleet setting cannot be changed once the fleet is created.
-  *
+  * 
   * Note: It is not currently possible to use the !Ref command to reference a script created with a CloudFormation template for the fleet property ScriptId. Instead, use Fn::GetAtt Script.Arn or Fn::GetAtt Script.Id to retrieve either of these properties as input for ScriptId. Alternatively, enter a ScriptId string manually.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/gamelift_fleet#script_id GameliftFleet#script_id}
@@ -271,7 +271,7 @@ export class GameliftFleetAnywhereConfigurationOutputReference extends cdktn.Com
   }
 
   // cost - computed: true, optional: true, required: false
-  private _cost?: string;
+  private _cost?: string; 
   public get cost() {
     return this.getStringAttribute('cost');
   }
@@ -365,7 +365,7 @@ export class GameliftFleetCertificateConfigurationOutputReference extends cdktn.
   }
 
   // certificate_type - computed: true, optional: true, required: false
-  private _certificateType?: string;
+  private _certificateType?: string; 
   public get certificateType() {
     return this.getStringAttribute('certificate_type');
   }
@@ -520,7 +520,7 @@ export class GameliftFleetEc2InboundPermissionsOutputReference extends cdktn.Com
   }
 
   // from_port - computed: true, optional: true, required: false
-  private _fromPort?: number;
+  private _fromPort?: number; 
   public get fromPort() {
     return this.getNumberAttribute('from_port');
   }
@@ -536,7 +536,7 @@ export class GameliftFleetEc2InboundPermissionsOutputReference extends cdktn.Com
   }
 
   // ip_range - computed: true, optional: true, required: false
-  private _ipRange?: string;
+  private _ipRange?: string; 
   public get ipRange() {
     return this.getStringAttribute('ip_range');
   }
@@ -552,7 +552,7 @@ export class GameliftFleetEc2InboundPermissionsOutputReference extends cdktn.Com
   }
 
   // protocol - computed: true, optional: true, required: false
-  private _protocol?: string;
+  private _protocol?: string; 
   public get protocol() {
     return this.getStringAttribute('protocol');
   }
@@ -568,7 +568,7 @@ export class GameliftFleetEc2InboundPermissionsOutputReference extends cdktn.Com
   }
 
   // to_port - computed: true, optional: true, required: false
-  private _toPort?: number;
+  private _toPort?: number; 
   public get toPort() {
     return this.getNumberAttribute('to_port');
   }
@@ -703,7 +703,7 @@ export class GameliftFleetLocationsLocationCapacityManagedCapacityConfigurationO
   }
 
   // scale_in_after_inactivity_minutes - computed: true, optional: true, required: false
-  private _scaleInAfterInactivityMinutes?: number;
+  private _scaleInAfterInactivityMinutes?: number; 
   public get scaleInAfterInactivityMinutes() {
     return this.getNumberAttribute('scale_in_after_inactivity_minutes');
   }
@@ -719,7 +719,7 @@ export class GameliftFleetLocationsLocationCapacityManagedCapacityConfigurationO
   }
 
   // zero_capacity_strategy - computed: true, optional: true, required: false
-  private _zeroCapacityStrategy?: string;
+  private _zeroCapacityStrategy?: string; 
   public get zeroCapacityStrategy() {
     return this.getStringAttribute('zero_capacity_strategy');
   }
@@ -872,7 +872,7 @@ export class GameliftFleetLocationsLocationCapacityOutputReference extends cdktn
   }
 
   // desired_ec2_instances - computed: true, optional: true, required: false
-  private _desiredEc2Instances?: number;
+  private _desiredEc2Instances?: number; 
   public get desiredEc2Instances() {
     return this.getNumberAttribute('desired_ec2_instances');
   }
@@ -904,7 +904,7 @@ export class GameliftFleetLocationsLocationCapacityOutputReference extends cdktn
   }
 
   // max_size - computed: true, optional: true, required: false
-  private _maxSize?: number;
+  private _maxSize?: number; 
   public get maxSize() {
     return this.getNumberAttribute('max_size');
   }
@@ -920,7 +920,7 @@ export class GameliftFleetLocationsLocationCapacityOutputReference extends cdktn
   }
 
   // min_size - computed: true, optional: true, required: false
-  private _minSize?: number;
+  private _minSize?: number; 
   public get minSize() {
     return this.getNumberAttribute('min_size');
   }
@@ -1054,7 +1054,7 @@ export class GameliftFleetLocationsOutputReference extends cdktn.ComplexObject {
   }
 
   // location - computed: true, optional: true, required: false
-  private _location?: string;
+  private _location?: string; 
   public get location() {
     return this.getStringAttribute('location');
   }
@@ -1086,7 +1086,7 @@ export class GameliftFleetLocationsOutputReference extends cdktn.ComplexObject {
   }
 
   // player_gateway_status - computed: true, optional: true, required: false
-  private _playerGatewayStatus?: string;
+  private _playerGatewayStatus?: string; 
   public get playerGatewayStatus() {
     return this.getStringAttribute('player_gateway_status');
   }
@@ -1202,7 +1202,7 @@ export class GameliftFleetPlayerGatewayConfigurationOutputReference extends cdkt
   }
 
   // game_server_ip_protocol_supported - computed: true, optional: true, required: false
-  private _gameServerIpProtocolSupported?: string;
+  private _gameServerIpProtocolSupported?: string; 
   public get gameServerIpProtocolSupported() {
     return this.getStringAttribute('game_server_ip_protocol_supported');
   }
@@ -1317,7 +1317,7 @@ export class GameliftFleetResourceCreationLimitPolicyOutputReference extends cdk
   }
 
   // new_game_sessions_per_creator - computed: true, optional: true, required: false
-  private _newGameSessionsPerCreator?: number;
+  private _newGameSessionsPerCreator?: number; 
   public get newGameSessionsPerCreator() {
     return this.getNumberAttribute('new_game_sessions_per_creator');
   }
@@ -1333,7 +1333,7 @@ export class GameliftFleetResourceCreationLimitPolicyOutputReference extends cdk
   }
 
   // policy_period_in_minutes - computed: true, optional: true, required: false
-  private _policyPeriodInMinutes?: number;
+  private _policyPeriodInMinutes?: number; 
   public get policyPeriodInMinutes() {
     return this.getNumberAttribute('policy_period_in_minutes');
   }
@@ -1357,9 +1357,9 @@ export interface GameliftFleetRuntimeConfigurationServerProcesses {
   readonly concurrentExecutions?: number;
   /**
   * The location of the server executable in a custom game build or the name of the Realtime script file that contains the Init() function. Game builds and Realtime scripts are installed on instances at the root:
-  *
+  * 
   * Windows (for custom game builds only): C:\game. Example: "C:\game\MyGame\server.exe"
-  *
+  * 
   * Linux: /local/game. Examples: "/local/game/MyGame/server.exe" or "/local/game/MyRealtimeScript.js"
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/gamelift_fleet#launch_path GameliftFleet#launch_path}
@@ -1473,7 +1473,7 @@ export class GameliftFleetRuntimeConfigurationServerProcessesOutputReference ext
   }
 
   // concurrent_executions - computed: true, optional: true, required: false
-  private _concurrentExecutions?: number;
+  private _concurrentExecutions?: number; 
   public get concurrentExecutions() {
     return this.getNumberAttribute('concurrent_executions');
   }
@@ -1489,7 +1489,7 @@ export class GameliftFleetRuntimeConfigurationServerProcessesOutputReference ext
   }
 
   // launch_path - computed: true, optional: true, required: false
-  private _launchPath?: string;
+  private _launchPath?: string; 
   public get launchPath() {
     return this.getStringAttribute('launch_path');
   }
@@ -1505,7 +1505,7 @@ export class GameliftFleetRuntimeConfigurationServerProcessesOutputReference ext
   }
 
   // parameters - computed: true, optional: true, required: false
-  private _parameters?: string;
+  private _parameters?: string; 
   public get parameters() {
     return this.getStringAttribute('parameters');
   }
@@ -1659,7 +1659,7 @@ export class GameliftFleetRuntimeConfigurationOutputReference extends cdktn.Comp
   }
 
   // game_session_activation_timeout_seconds - computed: true, optional: true, required: false
-  private _gameSessionActivationTimeoutSeconds?: number;
+  private _gameSessionActivationTimeoutSeconds?: number; 
   public get gameSessionActivationTimeoutSeconds() {
     return this.getNumberAttribute('game_session_activation_timeout_seconds');
   }
@@ -1675,7 +1675,7 @@ export class GameliftFleetRuntimeConfigurationOutputReference extends cdktn.Comp
   }
 
   // max_concurrent_game_session_activations - computed: true, optional: true, required: false
-  private _maxConcurrentGameSessionActivations?: number;
+  private _maxConcurrentGameSessionActivations?: number; 
   public get maxConcurrentGameSessionActivations() {
     return this.getNumberAttribute('max_concurrent_game_session_activations');
   }
@@ -1787,7 +1787,7 @@ export class GameliftFleetScalingPoliciesTargetConfigurationOutputReference exte
   }
 
   // target_value - computed: true, optional: true, required: false
-  private _targetValue?: number;
+  private _targetValue?: number; 
   public get targetValue() {
     return this.getNumberAttribute('target_value');
   }
@@ -2092,7 +2092,7 @@ export class GameliftFleetScalingPoliciesOutputReference extends cdktn.ComplexOb
   }
 
   // comparison_operator - computed: true, optional: true, required: false
-  private _comparisonOperator?: string;
+  private _comparisonOperator?: string; 
   public get comparisonOperator() {
     return this.getStringAttribute('comparison_operator');
   }
@@ -2108,7 +2108,7 @@ export class GameliftFleetScalingPoliciesOutputReference extends cdktn.ComplexOb
   }
 
   // evaluation_periods - computed: true, optional: true, required: false
-  private _evaluationPeriods?: number;
+  private _evaluationPeriods?: number; 
   public get evaluationPeriods() {
     return this.getNumberAttribute('evaluation_periods');
   }
@@ -2124,7 +2124,7 @@ export class GameliftFleetScalingPoliciesOutputReference extends cdktn.ComplexOb
   }
 
   // location - computed: true, optional: true, required: false
-  private _location?: string;
+  private _location?: string; 
   public get location() {
     return this.getStringAttribute('location');
   }
@@ -2140,7 +2140,7 @@ export class GameliftFleetScalingPoliciesOutputReference extends cdktn.ComplexOb
   }
 
   // metric_name - computed: true, optional: true, required: false
-  private _metricName?: string;
+  private _metricName?: string; 
   public get metricName() {
     return this.getStringAttribute('metric_name');
   }
@@ -2156,7 +2156,7 @@ export class GameliftFleetScalingPoliciesOutputReference extends cdktn.ComplexOb
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2172,7 +2172,7 @@ export class GameliftFleetScalingPoliciesOutputReference extends cdktn.ComplexOb
   }
 
   // policy_type - computed: true, optional: true, required: false
-  private _policyType?: string;
+  private _policyType?: string; 
   public get policyType() {
     return this.getStringAttribute('policy_type');
   }
@@ -2188,7 +2188,7 @@ export class GameliftFleetScalingPoliciesOutputReference extends cdktn.ComplexOb
   }
 
   // scaling_adjustment - computed: true, optional: true, required: false
-  private _scalingAdjustment?: number;
+  private _scalingAdjustment?: number; 
   public get scalingAdjustment() {
     return this.getNumberAttribute('scaling_adjustment');
   }
@@ -2204,7 +2204,7 @@ export class GameliftFleetScalingPoliciesOutputReference extends cdktn.ComplexOb
   }
 
   // scaling_adjustment_type - computed: true, optional: true, required: false
-  private _scalingAdjustmentType?: string;
+  private _scalingAdjustmentType?: string; 
   public get scalingAdjustmentType() {
     return this.getStringAttribute('scaling_adjustment_type');
   }
@@ -2220,7 +2220,7 @@ export class GameliftFleetScalingPoliciesOutputReference extends cdktn.ComplexOb
   }
 
   // status - computed: true, optional: true, required: false
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -2252,7 +2252,7 @@ export class GameliftFleetScalingPoliciesOutputReference extends cdktn.ComplexOb
   }
 
   // threshold - computed: true, optional: true, required: false
-  private _threshold?: number;
+  private _threshold?: number; 
   public get threshold() {
     return this.getNumberAttribute('threshold');
   }
@@ -2268,7 +2268,7 @@ export class GameliftFleetScalingPoliciesOutputReference extends cdktn.ComplexOb
   }
 
   // update_status - computed: true, optional: true, required: false
-  private _updateStatus?: string;
+  private _updateStatus?: string; 
   public get updateStatus() {
     return this.getStringAttribute('update_status');
   }
@@ -2405,7 +2405,7 @@ export class GameliftFleetTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -2421,7 +2421,7 @@ export class GameliftFleetTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2560,7 +2560,7 @@ export class GameliftFleet extends cdktn.TerraformResource {
   }
 
   // apply_capacity - computed: true, optional: true, required: false
-  private _applyCapacity?: string;
+  private _applyCapacity?: string; 
   public get applyCapacity() {
     return this.getStringAttribute('apply_capacity');
   }
@@ -2576,7 +2576,7 @@ export class GameliftFleet extends cdktn.TerraformResource {
   }
 
   // build_id - computed: true, optional: true, required: false
-  private _buildId?: string;
+  private _buildId?: string; 
   public get buildId() {
     return this.getStringAttribute('build_id');
   }
@@ -2608,7 +2608,7 @@ export class GameliftFleet extends cdktn.TerraformResource {
   }
 
   // compute_type - computed: true, optional: true, required: false
-  private _computeType?: string;
+  private _computeType?: string; 
   public get computeType() {
     return this.getStringAttribute('compute_type');
   }
@@ -2624,7 +2624,7 @@ export class GameliftFleet extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -2640,7 +2640,7 @@ export class GameliftFleet extends cdktn.TerraformResource {
   }
 
   // desired_ec2_instances - computed: true, optional: true, required: false
-  private _desiredEc2Instances?: number;
+  private _desiredEc2Instances?: number; 
   public get desiredEc2Instances() {
     return this.getNumberAttribute('desired_ec2_instances');
   }
@@ -2672,7 +2672,7 @@ export class GameliftFleet extends cdktn.TerraformResource {
   }
 
   // ec2_instance_type - computed: true, optional: true, required: false
-  private _ec2InstanceType?: string;
+  private _ec2InstanceType?: string; 
   public get ec2InstanceType() {
     return this.getStringAttribute('ec2_instance_type');
   }
@@ -2698,7 +2698,7 @@ export class GameliftFleet extends cdktn.TerraformResource {
   }
 
   // fleet_type - computed: true, optional: true, required: false
-  private _fleetType?: string;
+  private _fleetType?: string; 
   public get fleetType() {
     return this.getStringAttribute('fleet_type');
   }
@@ -2719,7 +2719,7 @@ export class GameliftFleet extends cdktn.TerraformResource {
   }
 
   // instance_role_arn - computed: true, optional: true, required: false
-  private _instanceRoleArn?: string;
+  private _instanceRoleArn?: string; 
   public get instanceRoleArn() {
     return this.getStringAttribute('instance_role_arn');
   }
@@ -2735,7 +2735,7 @@ export class GameliftFleet extends cdktn.TerraformResource {
   }
 
   // instance_role_credentials_provider - computed: true, optional: true, required: false
-  private _instanceRoleCredentialsProvider?: string;
+  private _instanceRoleCredentialsProvider?: string; 
   public get instanceRoleCredentialsProvider() {
     return this.getStringAttribute('instance_role_credentials_provider');
   }
@@ -2767,7 +2767,7 @@ export class GameliftFleet extends cdktn.TerraformResource {
   }
 
   // log_paths - computed: true, optional: true, required: false
-  private _logPaths?: string[];
+  private _logPaths?: string[]; 
   public get logPaths() {
     return this.getListAttribute('log_paths');
   }
@@ -2783,7 +2783,7 @@ export class GameliftFleet extends cdktn.TerraformResource {
   }
 
   // max_size - computed: true, optional: true, required: false
-  private _maxSize?: number;
+  private _maxSize?: number; 
   public get maxSize() {
     return this.getNumberAttribute('max_size');
   }
@@ -2799,7 +2799,7 @@ export class GameliftFleet extends cdktn.TerraformResource {
   }
 
   // metric_groups - computed: true, optional: true, required: false
-  private _metricGroups?: string[];
+  private _metricGroups?: string[]; 
   public get metricGroups() {
     return this.getListAttribute('metric_groups');
   }
@@ -2815,7 +2815,7 @@ export class GameliftFleet extends cdktn.TerraformResource {
   }
 
   // min_size - computed: true, optional: true, required: false
-  private _minSize?: number;
+  private _minSize?: number; 
   public get minSize() {
     return this.getNumberAttribute('min_size');
   }
@@ -2831,7 +2831,7 @@ export class GameliftFleet extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2844,7 +2844,7 @@ export class GameliftFleet extends cdktn.TerraformResource {
   }
 
   // new_game_session_protection_policy - computed: true, optional: true, required: false
-  private _newGameSessionProtectionPolicy?: string;
+  private _newGameSessionProtectionPolicy?: string; 
   public get newGameSessionProtectionPolicy() {
     return this.getStringAttribute('new_game_session_protection_policy');
   }
@@ -2860,7 +2860,7 @@ export class GameliftFleet extends cdktn.TerraformResource {
   }
 
   // peer_vpc_aws_account_id - computed: true, optional: true, required: false
-  private _peerVpcAwsAccountId?: string;
+  private _peerVpcAwsAccountId?: string; 
   public get peerVpcAwsAccountId() {
     return this.getStringAttribute('peer_vpc_aws_account_id');
   }
@@ -2876,7 +2876,7 @@ export class GameliftFleet extends cdktn.TerraformResource {
   }
 
   // peer_vpc_id - computed: true, optional: true, required: false
-  private _peerVpcId?: string;
+  private _peerVpcId?: string; 
   public get peerVpcId() {
     return this.getStringAttribute('peer_vpc_id');
   }
@@ -2908,7 +2908,7 @@ export class GameliftFleet extends cdktn.TerraformResource {
   }
 
   // player_gateway_mode - computed: true, optional: true, required: false
-  private _playerGatewayMode?: string;
+  private _playerGatewayMode?: string; 
   public get playerGatewayMode() {
     return this.getStringAttribute('player_gateway_mode');
   }
@@ -2972,7 +2972,7 @@ export class GameliftFleet extends cdktn.TerraformResource {
   }
 
   // script_id - computed: true, optional: true, required: false
-  private _scriptId?: string;
+  private _scriptId?: string; 
   public get scriptId() {
     return this.getStringAttribute('script_id');
   }
@@ -2988,7 +2988,7 @@ export class GameliftFleet extends cdktn.TerraformResource {
   }
 
   // server_launch_parameters - computed: true, optional: true, required: false
-  private _serverLaunchParameters?: string;
+  private _serverLaunchParameters?: string; 
   public get serverLaunchParameters() {
     return this.getStringAttribute('server_launch_parameters');
   }
@@ -3004,7 +3004,7 @@ export class GameliftFleet extends cdktn.TerraformResource {
   }
 
   // server_launch_path - computed: true, optional: true, required: false
-  private _serverLaunchPath?: string;
+  private _serverLaunchPath?: string; 
   public get serverLaunchPath() {
     return this.getStringAttribute('server_launch_path');
   }

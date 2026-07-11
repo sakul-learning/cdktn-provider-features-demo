@@ -138,7 +138,7 @@ export class ChimeAppInstanceBotConfigurationLexInvokedByOutputReference extends
   }
 
   // standard_messages - computed: true, optional: true, required: false
-  private _standardMessages?: string;
+  private _standardMessages?: string; 
   public get standardMessages() {
     return this.getStringAttribute('standard_messages');
   }
@@ -154,7 +154,7 @@ export class ChimeAppInstanceBotConfigurationLexInvokedByOutputReference extends
   }
 
   // targeted_messages - computed: true, optional: true, required: false
-  private _targetedMessages?: string;
+  private _targetedMessages?: string; 
   public get targetedMessages() {
     return this.getStringAttribute('targeted_messages');
   }
@@ -342,7 +342,7 @@ export class ChimeAppInstanceBotConfigurationLexOutputReference extends cdktn.Co
   }
 
   // lex_bot_alias_arn - computed: false, optional: false, required: true
-  private _lexBotAliasArn?: string;
+  private _lexBotAliasArn?: string; 
   public get lexBotAliasArn() {
     return this.getStringAttribute('lex_bot_alias_arn');
   }
@@ -355,7 +355,7 @@ export class ChimeAppInstanceBotConfigurationLexOutputReference extends cdktn.Co
   }
 
   // locale_id - computed: false, optional: false, required: true
-  private _localeId?: string;
+  private _localeId?: string; 
   public get localeId() {
     return this.getStringAttribute('locale_id');
   }
@@ -368,7 +368,7 @@ export class ChimeAppInstanceBotConfigurationLexOutputReference extends cdktn.Co
   }
 
   // responds_to - computed: true, optional: true, required: false
-  private _respondsTo?: string;
+  private _respondsTo?: string; 
   public get respondsTo() {
     return this.getStringAttribute('responds_to');
   }
@@ -384,7 +384,7 @@ export class ChimeAppInstanceBotConfigurationLexOutputReference extends cdktn.Co
   }
 
   // welcome_intent - computed: true, optional: true, required: false
-  private _welcomeIntent?: string;
+  private _welcomeIntent?: string; 
   public get welcomeIntent() {
     return this.getStringAttribute('welcome_intent');
   }
@@ -594,7 +594,7 @@ export class ChimeAppInstanceBotTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -610,7 +610,7 @@ export class ChimeAppInstanceBotTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -708,7 +708,7 @@ export class ChimeAppInstanceBot extends cdktn.TerraformResource {
   // ==========
 
   // app_instance_arn - computed: false, optional: false, required: true
-  private _appInstanceArn?: string;
+  private _appInstanceArn?: string; 
   public get appInstanceArn() {
     return this.getStringAttribute('app_instance_arn');
   }
@@ -754,7 +754,7 @@ export class ChimeAppInstanceBot extends cdktn.TerraformResource {
   }
 
   // metadata - computed: true, optional: true, required: false
-  private _metadata?: string;
+  private _metadata?: string; 
   public get metadata() {
     return this.getStringAttribute('metadata');
   }
@@ -770,7 +770,7 @@ export class ChimeAppInstanceBot extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }

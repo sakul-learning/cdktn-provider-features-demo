@@ -161,7 +161,7 @@ export class LightsailInstanceAddOnsAutoSnapshotAddOnRequestOutputReference exte
   }
 
   // snapshot_time_of_day - computed: true, optional: true, required: false
-  private _snapshotTimeOfDay?: string;
+  private _snapshotTimeOfDay?: string; 
   public get snapshotTimeOfDay() {
     return this.getStringAttribute('snapshot_time_of_day');
   }
@@ -297,7 +297,7 @@ export class LightsailInstanceAddOnsOutputReference extends cdktn.ComplexObject 
   }
 
   // add_on_type - computed: true, optional: true, required: false
-  private _addOnType?: string;
+  private _addOnType?: string; 
   public get addOnType() {
     return this.getStringAttribute('add_on_type');
   }
@@ -329,7 +329,7 @@ export class LightsailInstanceAddOnsOutputReference extends cdktn.ComplexObject 
   }
 
   // status - computed: true, optional: true, required: false
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -561,7 +561,7 @@ export class LightsailInstanceHardwareDisksOutputReference extends cdktn.Complex
   }
 
   // attached_to - computed: true, optional: true, required: false
-  private _attachedTo?: string;
+  private _attachedTo?: string; 
   public get attachedTo() {
     return this.getStringAttribute('attached_to');
   }
@@ -577,7 +577,7 @@ export class LightsailInstanceHardwareDisksOutputReference extends cdktn.Complex
   }
 
   // attachment_state - computed: true, optional: true, required: false
-  private _attachmentState?: string;
+  private _attachmentState?: string; 
   public get attachmentState() {
     return this.getStringAttribute('attachment_state');
   }
@@ -593,7 +593,7 @@ export class LightsailInstanceHardwareDisksOutputReference extends cdktn.Complex
   }
 
   // disk_name - computed: true, optional: true, required: false
-  private _diskName?: string;
+  private _diskName?: string; 
   public get diskName() {
     return this.getStringAttribute('disk_name');
   }
@@ -609,7 +609,7 @@ export class LightsailInstanceHardwareDisksOutputReference extends cdktn.Complex
   }
 
   // iops - computed: true, optional: true, required: false
-  private _iops?: number;
+  private _iops?: number; 
   public get iops() {
     return this.getNumberAttribute('iops');
   }
@@ -625,7 +625,7 @@ export class LightsailInstanceHardwareDisksOutputReference extends cdktn.Complex
   }
 
   // is_system_disk - computed: true, optional: true, required: false
-  private _isSystemDisk?: boolean | cdktn.IResolvable;
+  private _isSystemDisk?: boolean | cdktn.IResolvable; 
   public get isSystemDisk() {
     return this.getBooleanAttribute('is_system_disk');
   }
@@ -641,7 +641,7 @@ export class LightsailInstanceHardwareDisksOutputReference extends cdktn.Complex
   }
 
   // path - computed: true, optional: true, required: false
-  private _path?: string;
+  private _path?: string; 
   public get path() {
     return this.getStringAttribute('path');
   }
@@ -657,7 +657,7 @@ export class LightsailInstanceHardwareDisksOutputReference extends cdktn.Complex
   }
 
   // size_in_gb - computed: true, optional: true, required: false
-  private _sizeInGb?: string;
+  private _sizeInGb?: string; 
   public get sizeInGb() {
     return this.getStringAttribute('size_in_gb');
   }
@@ -1185,7 +1185,7 @@ export class LightsailInstanceNetworkingPortsOutputReference extends cdktn.Compl
   }
 
   // access_direction - computed: true, optional: true, required: false
-  private _accessDirection?: string;
+  private _accessDirection?: string; 
   public get accessDirection() {
     return this.getStringAttribute('access_direction');
   }
@@ -1201,7 +1201,7 @@ export class LightsailInstanceNetworkingPortsOutputReference extends cdktn.Compl
   }
 
   // access_from - computed: true, optional: true, required: false
-  private _accessFrom?: string;
+  private _accessFrom?: string; 
   public get accessFrom() {
     return this.getStringAttribute('access_from');
   }
@@ -1217,7 +1217,7 @@ export class LightsailInstanceNetworkingPortsOutputReference extends cdktn.Compl
   }
 
   // access_type - computed: true, optional: true, required: false
-  private _accessType?: string;
+  private _accessType?: string; 
   public get accessType() {
     return this.getStringAttribute('access_type');
   }
@@ -1233,7 +1233,7 @@ export class LightsailInstanceNetworkingPortsOutputReference extends cdktn.Compl
   }
 
   // cidr_list_aliases - computed: true, optional: true, required: false
-  private _cidrListAliases?: string[];
+  private _cidrListAliases?: string[]; 
   public get cidrListAliases() {
     return this.getListAttribute('cidr_list_aliases');
   }
@@ -1249,7 +1249,7 @@ export class LightsailInstanceNetworkingPortsOutputReference extends cdktn.Compl
   }
 
   // cidrs - computed: true, optional: true, required: false
-  private _cidrs?: string[];
+  private _cidrs?: string[]; 
   public get cidrs() {
     return this.getListAttribute('cidrs');
   }
@@ -1265,7 +1265,7 @@ export class LightsailInstanceNetworkingPortsOutputReference extends cdktn.Compl
   }
 
   // common_name - computed: true, optional: true, required: false
-  private _commonName?: string;
+  private _commonName?: string; 
   public get commonName() {
     return this.getStringAttribute('common_name');
   }
@@ -1281,7 +1281,7 @@ export class LightsailInstanceNetworkingPortsOutputReference extends cdktn.Compl
   }
 
   // from_port - computed: true, optional: true, required: false
-  private _fromPort?: number;
+  private _fromPort?: number; 
   public get fromPort() {
     return this.getNumberAttribute('from_port');
   }
@@ -1297,7 +1297,7 @@ export class LightsailInstanceNetworkingPortsOutputReference extends cdktn.Compl
   }
 
   // ipv_6_cidrs - computed: true, optional: true, required: false
-  private _ipv6Cidrs?: string[];
+  private _ipv6Cidrs?: string[]; 
   public get ipv6Cidrs() {
     return this.getListAttribute('ipv_6_cidrs');
   }
@@ -1313,7 +1313,7 @@ export class LightsailInstanceNetworkingPortsOutputReference extends cdktn.Compl
   }
 
   // protocol - computed: true, optional: true, required: false
-  private _protocol?: string;
+  private _protocol?: string; 
   public get protocol() {
     return this.getStringAttribute('protocol');
   }
@@ -1329,7 +1329,7 @@ export class LightsailInstanceNetworkingPortsOutputReference extends cdktn.Compl
   }
 
   // to_port - computed: true, optional: true, required: false
-  private _toPort?: number;
+  private _toPort?: number; 
   public get toPort() {
     return this.getNumberAttribute('to_port');
   }
@@ -1666,7 +1666,7 @@ export class LightsailInstanceTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1682,7 +1682,7 @@ export class LightsailInstanceTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1803,7 +1803,7 @@ export class LightsailInstance extends cdktn.TerraformResource {
   }
 
   // availability_zone - computed: true, optional: true, required: false
-  private _availabilityZone?: string;
+  private _availabilityZone?: string; 
   public get availabilityZone() {
     return this.getStringAttribute('availability_zone');
   }
@@ -1819,7 +1819,7 @@ export class LightsailInstance extends cdktn.TerraformResource {
   }
 
   // blueprint_id - computed: false, optional: false, required: true
-  private _blueprintId?: string;
+  private _blueprintId?: string; 
   public get blueprintId() {
     return this.getStringAttribute('blueprint_id');
   }
@@ -1832,7 +1832,7 @@ export class LightsailInstance extends cdktn.TerraformResource {
   }
 
   // bundle_id - computed: false, optional: false, required: true
-  private _bundleId?: string;
+  private _bundleId?: string; 
   public get bundleId() {
     return this.getStringAttribute('bundle_id');
   }
@@ -1871,7 +1871,7 @@ export class LightsailInstance extends cdktn.TerraformResource {
   }
 
   // instance_name - computed: false, optional: false, required: true
-  private _instanceName?: string;
+  private _instanceName?: string; 
   public get instanceName() {
     return this.getStringAttribute('instance_name');
   }
@@ -1894,7 +1894,7 @@ export class LightsailInstance extends cdktn.TerraformResource {
   }
 
   // key_pair_name - computed: true, optional: true, required: false
-  private _keyPairName?: string;
+  private _keyPairName?: string; 
   public get keyPairName() {
     return this.getStringAttribute('key_pair_name');
   }
@@ -1999,7 +1999,7 @@ export class LightsailInstance extends cdktn.TerraformResource {
   }
 
   // user_data - computed: true, optional: true, required: false
-  private _userData?: string;
+  private _userData?: string; 
   public get userData() {
     return this.getStringAttribute('user_data');
   }

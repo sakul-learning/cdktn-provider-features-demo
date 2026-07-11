@@ -136,7 +136,7 @@ export class BedrockagentcorePaymentManagerAuthorizerConfigurationCustomJwtAutho
   }
 
   // match_value_string - computed: true, optional: true, required: false
-  private _matchValueString?: string;
+  private _matchValueString?: string; 
   public get matchValueString() {
     return this.getStringAttribute('match_value_string');
   }
@@ -152,7 +152,7 @@ export class BedrockagentcorePaymentManagerAuthorizerConfigurationCustomJwtAutho
   }
 
   // match_value_string_list - computed: true, optional: true, required: false
-  private _matchValueStringList?: string[];
+  private _matchValueStringList?: string[]; 
   public get matchValueStringList() {
     return this.getListAttribute('match_value_string_list');
   }
@@ -263,7 +263,7 @@ export class BedrockagentcorePaymentManagerAuthorizerConfigurationCustomJwtAutho
   }
 
   // claim_match_operator - computed: true, optional: true, required: false
-  private _claimMatchOperator?: string;
+  private _claimMatchOperator?: string; 
   public get claimMatchOperator() {
     return this.getStringAttribute('claim_match_operator');
   }
@@ -425,7 +425,7 @@ export class BedrockagentcorePaymentManagerAuthorizerConfigurationCustomJwtAutho
   }
 
   // inbound_token_claim_name - computed: true, optional: true, required: false
-  private _inboundTokenClaimName?: string;
+  private _inboundTokenClaimName?: string; 
   public get inboundTokenClaimName() {
     return this.getStringAttribute('inbound_token_claim_name');
   }
@@ -441,7 +441,7 @@ export class BedrockagentcorePaymentManagerAuthorizerConfigurationCustomJwtAutho
   }
 
   // inbound_token_claim_value_type - computed: true, optional: true, required: false
-  private _inboundTokenClaimValueType?: string;
+  private _inboundTokenClaimValueType?: string; 
   public get inboundTokenClaimValueType() {
     return this.getStringAttribute('inbound_token_claim_value_type');
   }
@@ -623,7 +623,7 @@ export class BedrockagentcorePaymentManagerAuthorizerConfigurationCustomJwtAutho
   }
 
   // allowed_audience - computed: true, optional: true, required: false
-  private _allowedAudience?: string[];
+  private _allowedAudience?: string[]; 
   public get allowedAudience() {
     return this.getListAttribute('allowed_audience');
   }
@@ -639,7 +639,7 @@ export class BedrockagentcorePaymentManagerAuthorizerConfigurationCustomJwtAutho
   }
 
   // allowed_clients - computed: true, optional: true, required: false
-  private _allowedClients?: string[];
+  private _allowedClients?: string[]; 
   public get allowedClients() {
     return this.getListAttribute('allowed_clients');
   }
@@ -655,7 +655,7 @@ export class BedrockagentcorePaymentManagerAuthorizerConfigurationCustomJwtAutho
   }
 
   // allowed_scopes - computed: true, optional: true, required: false
-  private _allowedScopes?: string[];
+  private _allowedScopes?: string[]; 
   public get allowedScopes() {
     return this.getListAttribute('allowed_scopes');
   }
@@ -687,7 +687,7 @@ export class BedrockagentcorePaymentManagerAuthorizerConfigurationCustomJwtAutho
   }
 
   // discovery_url - computed: true, optional: true, required: false
-  private _discoveryUrl?: string;
+  private _discoveryUrl?: string; 
   public get discoveryUrl() {
     return this.getStringAttribute('discovery_url');
   }
@@ -894,7 +894,7 @@ export class BedrockagentcorePaymentManagerTagsOutputReference extends cdktn.Com
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -910,7 +910,7 @@ export class BedrockagentcorePaymentManagerTagsOutputReference extends cdktn.Com
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1079,7 +1079,7 @@ export class BedrockagentcorePaymentManager extends cdktn.TerraformResource {
   }
 
   // authorizer_type - computed: false, optional: false, required: true
-  private _authorizerType?: string;
+  private _authorizerType?: string; 
   public get authorizerType() {
     return this.getStringAttribute('authorizer_type');
   }
@@ -1097,7 +1097,7 @@ export class BedrockagentcorePaymentManager extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1123,7 +1123,7 @@ export class BedrockagentcorePaymentManager extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1146,7 +1146,7 @@ export class BedrockagentcorePaymentManager extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }

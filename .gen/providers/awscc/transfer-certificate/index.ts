@@ -158,7 +158,7 @@ export class TransferCertificateTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -174,7 +174,7 @@ export class TransferCertificateTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -275,7 +275,7 @@ export class TransferCertificate extends cdktn.TerraformResource {
   // ==========
 
   // active_date - computed: true, optional: true, required: false
-  private _activeDate?: string;
+  private _activeDate?: string; 
   public get activeDate() {
     return this.getStringAttribute('active_date');
   }
@@ -296,7 +296,7 @@ export class TransferCertificate extends cdktn.TerraformResource {
   }
 
   // certificate - computed: false, optional: false, required: true
-  private _certificate?: string;
+  private _certificate?: string; 
   public get certificate() {
     return this.getStringAttribute('certificate');
   }
@@ -309,7 +309,7 @@ export class TransferCertificate extends cdktn.TerraformResource {
   }
 
   // certificate_chain - computed: true, optional: true, required: false
-  private _certificateChain?: string;
+  private _certificateChain?: string; 
   public get certificateChain() {
     return this.getStringAttribute('certificate_chain');
   }
@@ -330,7 +330,7 @@ export class TransferCertificate extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -351,7 +351,7 @@ export class TransferCertificate extends cdktn.TerraformResource {
   }
 
   // inactive_date - computed: true, optional: true, required: false
-  private _inactiveDate?: string;
+  private _inactiveDate?: string; 
   public get inactiveDate() {
     return this.getStringAttribute('inactive_date');
   }
@@ -377,7 +377,7 @@ export class TransferCertificate extends cdktn.TerraformResource {
   }
 
   // private_key - computed: true, optional: true, required: false
-  private _privateKey?: string;
+  private _privateKey?: string; 
   public get privateKey() {
     return this.getStringAttribute('private_key');
   }
@@ -424,7 +424,7 @@ export class TransferCertificate extends cdktn.TerraformResource {
   }
 
   // usage - computed: false, optional: false, required: true
-  private _usage?: string;
+  private _usage?: string; 
   public get usage() {
     return this.getStringAttribute('usage');
   }

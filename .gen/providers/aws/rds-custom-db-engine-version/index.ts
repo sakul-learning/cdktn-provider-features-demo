@@ -192,7 +192,7 @@ export class RdsCustomDbEngineVersionTimeoutsOutputReference extends cdktn.Compl
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -208,7 +208,7 @@ export class RdsCustomDbEngineVersionTimeoutsOutputReference extends cdktn.Compl
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -224,7 +224,7 @@ export class RdsCustomDbEngineVersionTimeoutsOutputReference extends cdktn.Compl
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -323,7 +323,7 @@ export class RdsCustomDbEngineVersion extends cdktn.TerraformResource {
   }
 
   // database_installation_files_s3_bucket_name - computed: false, optional: true, required: false
-  private _databaseInstallationFilesS3BucketName?: string;
+  private _databaseInstallationFilesS3BucketName?: string; 
   public get databaseInstallationFilesS3BucketName() {
     return this.getStringAttribute('database_installation_files_s3_bucket_name');
   }
@@ -339,7 +339,7 @@ export class RdsCustomDbEngineVersion extends cdktn.TerraformResource {
   }
 
   // database_installation_files_s3_prefix - computed: false, optional: true, required: false
-  private _databaseInstallationFilesS3Prefix?: string;
+  private _databaseInstallationFilesS3Prefix?: string; 
   public get databaseInstallationFilesS3Prefix() {
     return this.getStringAttribute('database_installation_files_s3_prefix');
   }
@@ -360,7 +360,7 @@ export class RdsCustomDbEngineVersion extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -376,7 +376,7 @@ export class RdsCustomDbEngineVersion extends cdktn.TerraformResource {
   }
 
   // engine - computed: false, optional: false, required: true
-  private _engine?: string;
+  private _engine?: string; 
   public get engine() {
     return this.getStringAttribute('engine');
   }
@@ -389,7 +389,7 @@ export class RdsCustomDbEngineVersion extends cdktn.TerraformResource {
   }
 
   // engine_version - computed: false, optional: false, required: true
-  private _engineVersion?: string;
+  private _engineVersion?: string; 
   public get engineVersion() {
     return this.getStringAttribute('engine_version');
   }
@@ -402,7 +402,7 @@ export class RdsCustomDbEngineVersion extends cdktn.TerraformResource {
   }
 
   // filename - computed: false, optional: true, required: false
-  private _filename?: string;
+  private _filename?: string; 
   public get filename() {
     return this.getStringAttribute('filename');
   }
@@ -418,7 +418,7 @@ export class RdsCustomDbEngineVersion extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -439,7 +439,7 @@ export class RdsCustomDbEngineVersion extends cdktn.TerraformResource {
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -460,7 +460,7 @@ export class RdsCustomDbEngineVersion extends cdktn.TerraformResource {
   }
 
   // manifest - computed: false, optional: true, required: false
-  private _manifest?: string;
+  private _manifest?: string; 
   public get manifest() {
     return this.getStringAttribute('manifest');
   }
@@ -481,7 +481,7 @@ export class RdsCustomDbEngineVersion extends cdktn.TerraformResource {
   }
 
   // manifest_hash - computed: false, optional: true, required: false
-  private _manifestHash?: string;
+  private _manifestHash?: string; 
   public get manifestHash() {
     return this.getStringAttribute('manifest_hash');
   }
@@ -497,7 +497,7 @@ export class RdsCustomDbEngineVersion extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -513,7 +513,7 @@ export class RdsCustomDbEngineVersion extends cdktn.TerraformResource {
   }
 
   // source_image_id - computed: false, optional: true, required: false
-  private _sourceImageId?: string;
+  private _sourceImageId?: string; 
   public get sourceImageId() {
     return this.getStringAttribute('source_image_id');
   }
@@ -529,7 +529,7 @@ export class RdsCustomDbEngineVersion extends cdktn.TerraformResource {
   }
 
   // status - computed: true, optional: true, required: false
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -545,7 +545,7 @@ export class RdsCustomDbEngineVersion extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -561,7 +561,7 @@ export class RdsCustomDbEngineVersion extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

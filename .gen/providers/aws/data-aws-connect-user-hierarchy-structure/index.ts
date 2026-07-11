@@ -617,7 +617,7 @@ export class DataAwsConnectUserHierarchyStructure extends cdktn.TerraformDataSou
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -633,7 +633,7 @@ export class DataAwsConnectUserHierarchyStructure extends cdktn.TerraformDataSou
   }
 
   // instance_id - computed: false, optional: false, required: true
-  private _instanceId?: string;
+  private _instanceId?: string; 
   public get instanceId() {
     return this.getStringAttribute('instance_id');
   }
@@ -646,7 +646,7 @@ export class DataAwsConnectUserHierarchyStructure extends cdktn.TerraformDataSou
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

@@ -118,7 +118,7 @@ export class EksPodIdentityAssociation extends cdktn.TerraformResource {
   }
 
   // cluster_name - computed: false, optional: false, required: true
-  private _clusterName?: string;
+  private _clusterName?: string; 
   public get clusterName() {
     return this.getStringAttribute('cluster_name');
   }
@@ -131,7 +131,7 @@ export class EksPodIdentityAssociation extends cdktn.TerraformResource {
   }
 
   // disable_session_tags - computed: true, optional: true, required: false
-  private _disableSessionTags?: boolean | cdktn.IResolvable;
+  private _disableSessionTags?: boolean | cdktn.IResolvable; 
   public get disableSessionTags() {
     return this.getBooleanAttribute('disable_session_tags');
   }
@@ -157,7 +157,7 @@ export class EksPodIdentityAssociation extends cdktn.TerraformResource {
   }
 
   // namespace - computed: false, optional: false, required: true
-  private _namespace?: string;
+  private _namespace?: string; 
   public get namespace() {
     return this.getStringAttribute('namespace');
   }
@@ -170,7 +170,7 @@ export class EksPodIdentityAssociation extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -186,7 +186,7 @@ export class EksPodIdentityAssociation extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -199,7 +199,7 @@ export class EksPodIdentityAssociation extends cdktn.TerraformResource {
   }
 
   // service_account - computed: false, optional: false, required: true
-  private _serviceAccount?: string;
+  private _serviceAccount?: string; 
   public get serviceAccount() {
     return this.getStringAttribute('service_account');
   }
@@ -212,7 +212,7 @@ export class EksPodIdentityAssociation extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -234,7 +234,7 @@ export class EksPodIdentityAssociation extends cdktn.TerraformResource {
   }
 
   // target_role_arn - computed: false, optional: true, required: false
-  private _targetRoleArn?: string;
+  private _targetRoleArn?: string; 
   public get targetRoleArn() {
     return this.getStringAttribute('target_role_arn');
   }

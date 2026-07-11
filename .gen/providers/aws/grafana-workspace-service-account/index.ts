@@ -88,7 +88,7 @@ export class GrafanaWorkspaceServiceAccount extends cdktn.TerraformResource {
   // ==========
 
   // grafana_role - computed: false, optional: false, required: true
-  private _grafanaRole?: string;
+  private _grafanaRole?: string; 
   public get grafanaRole() {
     return this.getStringAttribute('grafana_role');
   }
@@ -106,7 +106,7 @@ export class GrafanaWorkspaceServiceAccount extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -119,7 +119,7 @@ export class GrafanaWorkspaceServiceAccount extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -140,7 +140,7 @@ export class GrafanaWorkspaceServiceAccount extends cdktn.TerraformResource {
   }
 
   // workspace_id - computed: false, optional: false, required: true
-  private _workspaceId?: string;
+  private _workspaceId?: string; 
   public get workspaceId() {
     return this.getStringAttribute('workspace_id');
   }

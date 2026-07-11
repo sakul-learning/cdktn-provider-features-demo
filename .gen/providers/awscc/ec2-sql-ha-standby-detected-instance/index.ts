@@ -90,7 +90,7 @@ export class Ec2SqlHaStandbyDetectedInstance extends cdktn.TerraformResource {
   }
 
   // instance_id - computed: false, optional: false, required: true
-  private _instanceId?: string;
+  private _instanceId?: string; 
   public get instanceId() {
     return this.getStringAttribute('instance_id');
   }
@@ -108,7 +108,7 @@ export class Ec2SqlHaStandbyDetectedInstance extends cdktn.TerraformResource {
   }
 
   // sql_server_credentials - computed: true, optional: true, required: false
-  private _sqlServerCredentials?: string;
+  private _sqlServerCredentials?: string; 
   public get sqlServerCredentials() {
     return this.getStringAttribute('sql_server_credentials');
   }

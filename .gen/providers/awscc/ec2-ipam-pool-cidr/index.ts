@@ -87,7 +87,7 @@ export class Ec2IpamPoolCidr extends cdktn.TerraformResource {
   // ==========
 
   // cidr - computed: true, optional: true, required: false
-  private _cidr?: string;
+  private _cidr?: string; 
   public get cidr() {
     return this.getStringAttribute('cidr');
   }
@@ -113,7 +113,7 @@ export class Ec2IpamPoolCidr extends cdktn.TerraformResource {
   }
 
   // ipam_pool_id - computed: false, optional: false, required: true
-  private _ipamPoolId?: string;
+  private _ipamPoolId?: string; 
   public get ipamPoolId() {
     return this.getStringAttribute('ipam_pool_id');
   }
@@ -126,7 +126,7 @@ export class Ec2IpamPoolCidr extends cdktn.TerraformResource {
   }
 
   // netmask_length - computed: true, optional: true, required: false
-  private _netmaskLength?: number;
+  private _netmaskLength?: number; 
   public get netmaskLength() {
     return this.getNumberAttribute('netmask_length');
   }

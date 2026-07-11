@@ -180,7 +180,7 @@ export class ConfigOrganizationManagedRuleTimeoutsOutputReference extends cdktn.
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -196,7 +196,7 @@ export class ConfigOrganizationManagedRuleTimeoutsOutputReference extends cdktn.
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -212,7 +212,7 @@ export class ConfigOrganizationManagedRuleTimeoutsOutputReference extends cdktn.
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -303,7 +303,7 @@ export class ConfigOrganizationManagedRule extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -319,7 +319,7 @@ export class ConfigOrganizationManagedRule extends cdktn.TerraformResource {
   }
 
   // excluded_accounts - computed: false, optional: true, required: false
-  private _excludedAccounts?: string[];
+  private _excludedAccounts?: string[]; 
   public get excludedAccounts() {
     return cdktn.Fn.tolist(this.getListAttribute('excluded_accounts'));
   }
@@ -335,7 +335,7 @@ export class ConfigOrganizationManagedRule extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -351,7 +351,7 @@ export class ConfigOrganizationManagedRule extends cdktn.TerraformResource {
   }
 
   // input_parameters - computed: false, optional: true, required: false
-  private _inputParameters?: string;
+  private _inputParameters?: string; 
   public get inputParameters() {
     return this.getStringAttribute('input_parameters');
   }
@@ -367,7 +367,7 @@ export class ConfigOrganizationManagedRule extends cdktn.TerraformResource {
   }
 
   // maximum_execution_frequency - computed: false, optional: true, required: false
-  private _maximumExecutionFrequency?: string;
+  private _maximumExecutionFrequency?: string; 
   public get maximumExecutionFrequency() {
     return this.getStringAttribute('maximum_execution_frequency');
   }
@@ -383,7 +383,7 @@ export class ConfigOrganizationManagedRule extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -396,7 +396,7 @@ export class ConfigOrganizationManagedRule extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -412,7 +412,7 @@ export class ConfigOrganizationManagedRule extends cdktn.TerraformResource {
   }
 
   // resource_id_scope - computed: false, optional: true, required: false
-  private _resourceIdScope?: string;
+  private _resourceIdScope?: string; 
   public get resourceIdScope() {
     return this.getStringAttribute('resource_id_scope');
   }
@@ -428,7 +428,7 @@ export class ConfigOrganizationManagedRule extends cdktn.TerraformResource {
   }
 
   // resource_types_scope - computed: false, optional: true, required: false
-  private _resourceTypesScope?: string[];
+  private _resourceTypesScope?: string[]; 
   public get resourceTypesScope() {
     return cdktn.Fn.tolist(this.getListAttribute('resource_types_scope'));
   }
@@ -444,7 +444,7 @@ export class ConfigOrganizationManagedRule extends cdktn.TerraformResource {
   }
 
   // rule_identifier - computed: false, optional: false, required: true
-  private _ruleIdentifier?: string;
+  private _ruleIdentifier?: string; 
   public get ruleIdentifier() {
     return this.getStringAttribute('rule_identifier');
   }
@@ -457,7 +457,7 @@ export class ConfigOrganizationManagedRule extends cdktn.TerraformResource {
   }
 
   // tag_key_scope - computed: false, optional: true, required: false
-  private _tagKeyScope?: string;
+  private _tagKeyScope?: string; 
   public get tagKeyScope() {
     return this.getStringAttribute('tag_key_scope');
   }
@@ -473,7 +473,7 @@ export class ConfigOrganizationManagedRule extends cdktn.TerraformResource {
   }
 
   // tag_value_scope - computed: false, optional: true, required: false
-  private _tagValueScope?: string;
+  private _tagValueScope?: string; 
   public get tagValueScope() {
     return this.getStringAttribute('tag_value_scope');
   }

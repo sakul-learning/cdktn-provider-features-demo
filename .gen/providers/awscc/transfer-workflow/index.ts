@@ -132,7 +132,7 @@ export class TransferWorkflowOnExceptionStepsCopyStepDetailsDestinationFileLocat
   }
 
   // bucket - computed: true, optional: true, required: false
-  private _bucket?: string;
+  private _bucket?: string; 
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -148,7 +148,7 @@ export class TransferWorkflowOnExceptionStepsCopyStepDetailsDestinationFileLocat
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -413,7 +413,7 @@ export class TransferWorkflowOnExceptionStepsCopyStepDetailsOutputReference exte
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -429,7 +429,7 @@ export class TransferWorkflowOnExceptionStepsCopyStepDetailsOutputReference exte
   }
 
   // overwrite_existing - computed: true, optional: true, required: false
-  private _overwriteExisting?: string;
+  private _overwriteExisting?: string; 
   public get overwriteExisting() {
     return this.getStringAttribute('overwrite_existing');
   }
@@ -445,7 +445,7 @@ export class TransferWorkflowOnExceptionStepsCopyStepDetailsOutputReference exte
   }
 
   // source_file_location - computed: true, optional: true, required: false
-  private _sourceFileLocation?: string;
+  private _sourceFileLocation?: string; 
   public get sourceFileLocation() {
     return this.getStringAttribute('source_file_location');
   }
@@ -598,7 +598,7 @@ export class TransferWorkflowOnExceptionStepsCustomStepDetailsOutputReference ex
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -614,7 +614,7 @@ export class TransferWorkflowOnExceptionStepsCustomStepDetailsOutputReference ex
   }
 
   // source_file_location - computed: true, optional: true, required: false
-  private _sourceFileLocation?: string;
+  private _sourceFileLocation?: string; 
   public get sourceFileLocation() {
     return this.getStringAttribute('source_file_location');
   }
@@ -630,7 +630,7 @@ export class TransferWorkflowOnExceptionStepsCustomStepDetailsOutputReference ex
   }
 
   // target - computed: true, optional: true, required: false
-  private _target?: string;
+  private _target?: string; 
   public get target() {
     return this.getStringAttribute('target');
   }
@@ -646,7 +646,7 @@ export class TransferWorkflowOnExceptionStepsCustomStepDetailsOutputReference ex
   }
 
   // timeout_seconds - computed: true, optional: true, required: false
-  private _timeoutSeconds?: number;
+  private _timeoutSeconds?: number; 
   public get timeoutSeconds() {
     return this.getNumberAttribute('timeout_seconds');
   }
@@ -761,7 +761,7 @@ export class TransferWorkflowOnExceptionStepsDecryptStepDetailsDestinationFileLo
   }
 
   // file_system_id - computed: true, optional: true, required: false
-  private _fileSystemId?: string;
+  private _fileSystemId?: string; 
   public get fileSystemId() {
     return this.getStringAttribute('file_system_id');
   }
@@ -777,7 +777,7 @@ export class TransferWorkflowOnExceptionStepsDecryptStepDetailsDestinationFileLo
   }
 
   // path - computed: true, optional: true, required: false
-  private _path?: string;
+  private _path?: string; 
   public get path() {
     return this.getStringAttribute('path');
   }
@@ -892,7 +892,7 @@ export class TransferWorkflowOnExceptionStepsDecryptStepDetailsDestinationFileLo
   }
 
   // bucket - computed: true, optional: true, required: false
-  private _bucket?: string;
+  private _bucket?: string; 
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -908,7 +908,7 @@ export class TransferWorkflowOnExceptionStepsDecryptStepDetailsDestinationFileLo
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1227,7 +1227,7 @@ export class TransferWorkflowOnExceptionStepsDecryptStepDetailsOutputReference e
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1243,7 +1243,7 @@ export class TransferWorkflowOnExceptionStepsDecryptStepDetailsOutputReference e
   }
 
   // overwrite_existing - computed: true, optional: true, required: false
-  private _overwriteExisting?: string;
+  private _overwriteExisting?: string; 
   public get overwriteExisting() {
     return this.getStringAttribute('overwrite_existing');
   }
@@ -1259,7 +1259,7 @@ export class TransferWorkflowOnExceptionStepsDecryptStepDetailsOutputReference e
   }
 
   // source_file_location - computed: true, optional: true, required: false
-  private _sourceFileLocation?: string;
+  private _sourceFileLocation?: string; 
   public get sourceFileLocation() {
     return this.getStringAttribute('source_file_location');
   }
@@ -1275,7 +1275,7 @@ export class TransferWorkflowOnExceptionStepsDecryptStepDetailsOutputReference e
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -1390,7 +1390,7 @@ export class TransferWorkflowOnExceptionStepsDeleteStepDetailsOutputReference ex
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1406,7 +1406,7 @@ export class TransferWorkflowOnExceptionStepsDeleteStepDetailsOutputReference ex
   }
 
   // source_file_location - computed: true, optional: true, required: false
-  private _sourceFileLocation?: string;
+  private _sourceFileLocation?: string; 
   public get sourceFileLocation() {
     return this.getStringAttribute('source_file_location');
   }
@@ -1523,7 +1523,7 @@ export class TransferWorkflowOnExceptionStepsTagStepDetailsTagsOutputReference e
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1539,7 +1539,7 @@ export class TransferWorkflowOnExceptionStepsTagStepDetailsTagsOutputReference e
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1693,7 +1693,7 @@ export class TransferWorkflowOnExceptionStepsTagStepDetailsOutputReference exten
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1709,7 +1709,7 @@ export class TransferWorkflowOnExceptionStepsTagStepDetailsOutputReference exten
   }
 
   // source_file_location - computed: true, optional: true, required: false
-  private _sourceFileLocation?: string;
+  private _sourceFileLocation?: string; 
   public get sourceFileLocation() {
     return this.getStringAttribute('source_file_location');
   }
@@ -1996,7 +1996,7 @@ export class TransferWorkflowOnExceptionStepsOutputReference extends cdktn.Compl
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -2131,7 +2131,7 @@ export class TransferWorkflowStepsCopyStepDetailsDestinationFileLocationS3FileLo
   }
 
   // bucket - computed: true, optional: true, required: false
-  private _bucket?: string;
+  private _bucket?: string; 
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -2147,7 +2147,7 @@ export class TransferWorkflowStepsCopyStepDetailsDestinationFileLocationS3FileLo
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -2412,7 +2412,7 @@ export class TransferWorkflowStepsCopyStepDetailsOutputReference extends cdktn.C
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2428,7 +2428,7 @@ export class TransferWorkflowStepsCopyStepDetailsOutputReference extends cdktn.C
   }
 
   // overwrite_existing - computed: true, optional: true, required: false
-  private _overwriteExisting?: string;
+  private _overwriteExisting?: string; 
   public get overwriteExisting() {
     return this.getStringAttribute('overwrite_existing');
   }
@@ -2444,7 +2444,7 @@ export class TransferWorkflowStepsCopyStepDetailsOutputReference extends cdktn.C
   }
 
   // source_file_location - computed: true, optional: true, required: false
-  private _sourceFileLocation?: string;
+  private _sourceFileLocation?: string; 
   public get sourceFileLocation() {
     return this.getStringAttribute('source_file_location');
   }
@@ -2597,7 +2597,7 @@ export class TransferWorkflowStepsCustomStepDetailsOutputReference extends cdktn
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2613,7 +2613,7 @@ export class TransferWorkflowStepsCustomStepDetailsOutputReference extends cdktn
   }
 
   // source_file_location - computed: true, optional: true, required: false
-  private _sourceFileLocation?: string;
+  private _sourceFileLocation?: string; 
   public get sourceFileLocation() {
     return this.getStringAttribute('source_file_location');
   }
@@ -2629,7 +2629,7 @@ export class TransferWorkflowStepsCustomStepDetailsOutputReference extends cdktn
   }
 
   // target - computed: true, optional: true, required: false
-  private _target?: string;
+  private _target?: string; 
   public get target() {
     return this.getStringAttribute('target');
   }
@@ -2645,7 +2645,7 @@ export class TransferWorkflowStepsCustomStepDetailsOutputReference extends cdktn
   }
 
   // timeout_seconds - computed: true, optional: true, required: false
-  private _timeoutSeconds?: number;
+  private _timeoutSeconds?: number; 
   public get timeoutSeconds() {
     return this.getNumberAttribute('timeout_seconds');
   }
@@ -2760,7 +2760,7 @@ export class TransferWorkflowStepsDecryptStepDetailsDestinationFileLocationEfsFi
   }
 
   // file_system_id - computed: true, optional: true, required: false
-  private _fileSystemId?: string;
+  private _fileSystemId?: string; 
   public get fileSystemId() {
     return this.getStringAttribute('file_system_id');
   }
@@ -2776,7 +2776,7 @@ export class TransferWorkflowStepsDecryptStepDetailsDestinationFileLocationEfsFi
   }
 
   // path - computed: true, optional: true, required: false
-  private _path?: string;
+  private _path?: string; 
   public get path() {
     return this.getStringAttribute('path');
   }
@@ -2891,7 +2891,7 @@ export class TransferWorkflowStepsDecryptStepDetailsDestinationFileLocationS3Fil
   }
 
   // bucket - computed: true, optional: true, required: false
-  private _bucket?: string;
+  private _bucket?: string; 
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -2907,7 +2907,7 @@ export class TransferWorkflowStepsDecryptStepDetailsDestinationFileLocationS3Fil
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -3226,7 +3226,7 @@ export class TransferWorkflowStepsDecryptStepDetailsOutputReference extends cdkt
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -3242,7 +3242,7 @@ export class TransferWorkflowStepsDecryptStepDetailsOutputReference extends cdkt
   }
 
   // overwrite_existing - computed: true, optional: true, required: false
-  private _overwriteExisting?: string;
+  private _overwriteExisting?: string; 
   public get overwriteExisting() {
     return this.getStringAttribute('overwrite_existing');
   }
@@ -3258,7 +3258,7 @@ export class TransferWorkflowStepsDecryptStepDetailsOutputReference extends cdkt
   }
 
   // source_file_location - computed: true, optional: true, required: false
-  private _sourceFileLocation?: string;
+  private _sourceFileLocation?: string; 
   public get sourceFileLocation() {
     return this.getStringAttribute('source_file_location');
   }
@@ -3274,7 +3274,7 @@ export class TransferWorkflowStepsDecryptStepDetailsOutputReference extends cdkt
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -3389,7 +3389,7 @@ export class TransferWorkflowStepsDeleteStepDetailsOutputReference extends cdktn
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -3405,7 +3405,7 @@ export class TransferWorkflowStepsDeleteStepDetailsOutputReference extends cdktn
   }
 
   // source_file_location - computed: true, optional: true, required: false
-  private _sourceFileLocation?: string;
+  private _sourceFileLocation?: string; 
   public get sourceFileLocation() {
     return this.getStringAttribute('source_file_location');
   }
@@ -3522,7 +3522,7 @@ export class TransferWorkflowStepsTagStepDetailsTagsOutputReference extends cdkt
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -3538,7 +3538,7 @@ export class TransferWorkflowStepsTagStepDetailsTagsOutputReference extends cdkt
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -3692,7 +3692,7 @@ export class TransferWorkflowStepsTagStepDetailsOutputReference extends cdktn.Co
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -3708,7 +3708,7 @@ export class TransferWorkflowStepsTagStepDetailsOutputReference extends cdktn.Co
   }
 
   // source_file_location - computed: true, optional: true, required: false
-  private _sourceFileLocation?: string;
+  private _sourceFileLocation?: string; 
   public get sourceFileLocation() {
     return this.getStringAttribute('source_file_location');
   }
@@ -3995,7 +3995,7 @@ export class TransferWorkflowStepsOutputReference extends cdktn.ComplexObject {
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -4132,7 +4132,7 @@ export class TransferWorkflowTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -4148,7 +4148,7 @@ export class TransferWorkflowTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -4250,7 +4250,7 @@ export class TransferWorkflow extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }

@@ -128,7 +128,7 @@ export class NetworkmanagerTransitGatewayPeeringTagsOutputReference extends cdkt
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -144,7 +144,7 @@ export class NetworkmanagerTransitGatewayPeeringTagsOutputReference extends cdkt
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -245,7 +245,7 @@ export class NetworkmanagerTransitGatewayPeering extends cdktn.TerraformResource
   }
 
   // core_network_id - computed: false, optional: false, required: true
-  private _coreNetworkId?: string;
+  private _coreNetworkId?: string; 
   public get coreNetworkId() {
     return this.getStringAttribute('core_network_id');
   }
@@ -319,7 +319,7 @@ export class NetworkmanagerTransitGatewayPeering extends cdktn.TerraformResource
   }
 
   // transit_gateway_arn - computed: false, optional: false, required: true
-  private _transitGatewayArn?: string;
+  private _transitGatewayArn?: string; 
   public get transitGatewayArn() {
     return this.getStringAttribute('transit_gateway_arn');
   }

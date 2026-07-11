@@ -26,7 +26,7 @@ export interface CloudwatchAlarmConfig extends cdktn.TerraformMetaArguments {
   */
   readonly alarmDescription?: string;
   /**
-  * The name of the alarm. If you don't specify a name, CFN generates a unique physical ID and uses that ID for the alarm name.
+  * The name of the alarm. If you don't specify a name, CFN generates a unique physical ID and uses that ID for the alarm name. 
   *   If you specify a name, you cannot perform updates that require replacement of this resource. You can perform updates that require no or some interruption. If you must replace the resource, specify a new name.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudwatch_alarm#alarm_name CloudwatchAlarm#alarm_name}
@@ -268,7 +268,7 @@ export class CloudwatchAlarmDimensionsOutputReference extends cdktn.ComplexObjec
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -284,7 +284,7 @@ export class CloudwatchAlarmDimensionsOutputReference extends cdktn.ComplexObjec
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -438,7 +438,7 @@ export class CloudwatchAlarmEvaluationCriteriaPromQlCriteriaOutputReference exte
   }
 
   // pending_period - computed: true, optional: true, required: false
-  private _pendingPeriod?: number;
+  private _pendingPeriod?: number; 
   public get pendingPeriod() {
     return this.getNumberAttribute('pending_period');
   }
@@ -454,7 +454,7 @@ export class CloudwatchAlarmEvaluationCriteriaPromQlCriteriaOutputReference exte
   }
 
   // query - computed: true, optional: true, required: false
-  private _query?: string;
+  private _query?: string; 
   public get query() {
     return this.getStringAttribute('query');
   }
@@ -470,7 +470,7 @@ export class CloudwatchAlarmEvaluationCriteriaPromQlCriteriaOutputReference exte
   }
 
   // recovery_period - computed: true, optional: true, required: false
-  private _recoveryPeriod?: number;
+  private _recoveryPeriod?: number; 
   public get recoveryPeriod() {
     return this.getNumberAttribute('recovery_period');
   }
@@ -683,7 +683,7 @@ export class CloudwatchAlarmMetricsMetricStatMetricDimensionsOutputReference ext
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -699,7 +699,7 @@ export class CloudwatchAlarmMetricsMetricStatMetricDimensionsOutputReference ext
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -869,7 +869,7 @@ export class CloudwatchAlarmMetricsMetricStatMetricOutputReference extends cdktn
   }
 
   // metric_name - computed: true, optional: true, required: false
-  private _metricName?: string;
+  private _metricName?: string; 
   public get metricName() {
     return this.getStringAttribute('metric_name');
   }
@@ -885,7 +885,7 @@ export class CloudwatchAlarmMetricsMetricStatMetricOutputReference extends cdktn
   }
 
   // namespace - computed: true, optional: true, required: false
-  private _namespace?: string;
+  private _namespace?: string; 
   public get namespace() {
     return this.getStringAttribute('namespace');
   }
@@ -924,7 +924,7 @@ export interface CloudwatchAlarmMetricsMetricStat {
   */
   readonly stat?: string;
   /**
-  * The unit to use for the returned data points.
+  * The unit to use for the returned data points. 
   *  Valid values are: Seconds, Microseconds, Milliseconds, Bytes, Kilobytes, Megabytes, Gigabytes, Terabytes, Bits, Kilobits, Megabits, Gigabits, Terabits, Percent, Count, Bytes/Second, Kilobytes/Second, Megabytes/Second, Gigabytes/Second, Terabytes/Second, Bits/Second, Kilobits/Second, Megabits/Second, Gigabits/Second, Terabits/Second, Count/Second, or None.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudwatch_alarm#unit CloudwatchAlarm#unit}
@@ -1059,7 +1059,7 @@ export class CloudwatchAlarmMetricsMetricStatOutputReference extends cdktn.Compl
   }
 
   // period - computed: true, optional: true, required: false
-  private _period?: number;
+  private _period?: number; 
   public get period() {
     return this.getNumberAttribute('period');
   }
@@ -1075,7 +1075,7 @@ export class CloudwatchAlarmMetricsMetricStatOutputReference extends cdktn.Compl
   }
 
   // stat - computed: true, optional: true, required: false
-  private _stat?: string;
+  private _stat?: string; 
   public get stat() {
     return this.getStringAttribute('stat');
   }
@@ -1091,7 +1091,7 @@ export class CloudwatchAlarmMetricsMetricStatOutputReference extends cdktn.Compl
   }
 
   // unit - computed: true, optional: true, required: false
-  private _unit?: string;
+  private _unit?: string; 
   public get unit() {
     return this.getStringAttribute('unit');
   }
@@ -1310,7 +1310,7 @@ export class CloudwatchAlarmMetricsOutputReference extends cdktn.ComplexObject {
   }
 
   // account_id - computed: true, optional: true, required: false
-  private _accountId?: string;
+  private _accountId?: string; 
   public get accountId() {
     return this.getStringAttribute('account_id');
   }
@@ -1326,7 +1326,7 @@ export class CloudwatchAlarmMetricsOutputReference extends cdktn.ComplexObject {
   }
 
   // expression - computed: true, optional: true, required: false
-  private _expression?: string;
+  private _expression?: string; 
   public get expression() {
     return this.getStringAttribute('expression');
   }
@@ -1342,7 +1342,7 @@ export class CloudwatchAlarmMetricsOutputReference extends cdktn.ComplexObject {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -1358,7 +1358,7 @@ export class CloudwatchAlarmMetricsOutputReference extends cdktn.ComplexObject {
   }
 
   // label - computed: true, optional: true, required: false
-  private _label?: string;
+  private _label?: string; 
   public get label() {
     return this.getStringAttribute('label');
   }
@@ -1390,7 +1390,7 @@ export class CloudwatchAlarmMetricsOutputReference extends cdktn.ComplexObject {
   }
 
   // period - computed: true, optional: true, required: false
-  private _period?: number;
+  private _period?: number; 
   public get period() {
     return this.getNumberAttribute('period');
   }
@@ -1406,7 +1406,7 @@ export class CloudwatchAlarmMetricsOutputReference extends cdktn.ComplexObject {
   }
 
   // return_data - computed: true, optional: true, required: false
-  private _returnData?: boolean | cdktn.IResolvable;
+  private _returnData?: boolean | cdktn.IResolvable; 
   public get returnData() {
     return this.getBooleanAttribute('return_data');
   }
@@ -1543,7 +1543,7 @@ export class CloudwatchAlarmTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1559,7 +1559,7 @@ export class CloudwatchAlarmTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1676,7 +1676,7 @@ export class CloudwatchAlarm extends cdktn.TerraformResource {
   // ==========
 
   // actions_enabled - computed: true, optional: true, required: false
-  private _actionsEnabled?: boolean | cdktn.IResolvable;
+  private _actionsEnabled?: boolean | cdktn.IResolvable; 
   public get actionsEnabled() {
     return this.getBooleanAttribute('actions_enabled');
   }
@@ -1692,7 +1692,7 @@ export class CloudwatchAlarm extends cdktn.TerraformResource {
   }
 
   // alarm_actions - computed: true, optional: true, required: false
-  private _alarmActions?: string[];
+  private _alarmActions?: string[]; 
   public get alarmActions() {
     return this.getListAttribute('alarm_actions');
   }
@@ -1708,7 +1708,7 @@ export class CloudwatchAlarm extends cdktn.TerraformResource {
   }
 
   // alarm_description - computed: true, optional: true, required: false
-  private _alarmDescription?: string;
+  private _alarmDescription?: string; 
   public get alarmDescription() {
     return this.getStringAttribute('alarm_description');
   }
@@ -1724,7 +1724,7 @@ export class CloudwatchAlarm extends cdktn.TerraformResource {
   }
 
   // alarm_name - computed: true, optional: true, required: false
-  private _alarmName?: string;
+  private _alarmName?: string; 
   public get alarmName() {
     return this.getStringAttribute('alarm_name');
   }
@@ -1745,7 +1745,7 @@ export class CloudwatchAlarm extends cdktn.TerraformResource {
   }
 
   // comparison_operator - computed: true, optional: true, required: false
-  private _comparisonOperator?: string;
+  private _comparisonOperator?: string; 
   public get comparisonOperator() {
     return this.getStringAttribute('comparison_operator');
   }
@@ -1761,7 +1761,7 @@ export class CloudwatchAlarm extends cdktn.TerraformResource {
   }
 
   // datapoints_to_alarm - computed: true, optional: true, required: false
-  private _datapointsToAlarm?: number;
+  private _datapointsToAlarm?: number; 
   public get datapointsToAlarm() {
     return this.getNumberAttribute('datapoints_to_alarm');
   }
@@ -1793,7 +1793,7 @@ export class CloudwatchAlarm extends cdktn.TerraformResource {
   }
 
   // evaluate_low_sample_count_percentile - computed: true, optional: true, required: false
-  private _evaluateLowSampleCountPercentile?: string;
+  private _evaluateLowSampleCountPercentile?: string; 
   public get evaluateLowSampleCountPercentile() {
     return this.getStringAttribute('evaluate_low_sample_count_percentile');
   }
@@ -1825,7 +1825,7 @@ export class CloudwatchAlarm extends cdktn.TerraformResource {
   }
 
   // evaluation_interval - computed: true, optional: true, required: false
-  private _evaluationInterval?: number;
+  private _evaluationInterval?: number; 
   public get evaluationInterval() {
     return this.getNumberAttribute('evaluation_interval');
   }
@@ -1841,7 +1841,7 @@ export class CloudwatchAlarm extends cdktn.TerraformResource {
   }
 
   // evaluation_periods - computed: true, optional: true, required: false
-  private _evaluationPeriods?: number;
+  private _evaluationPeriods?: number; 
   public get evaluationPeriods() {
     return this.getNumberAttribute('evaluation_periods');
   }
@@ -1857,7 +1857,7 @@ export class CloudwatchAlarm extends cdktn.TerraformResource {
   }
 
   // extended_statistic - computed: true, optional: true, required: false
-  private _extendedStatistic?: string;
+  private _extendedStatistic?: string; 
   public get extendedStatistic() {
     return this.getStringAttribute('extended_statistic');
   }
@@ -1878,7 +1878,7 @@ export class CloudwatchAlarm extends cdktn.TerraformResource {
   }
 
   // insufficient_data_actions - computed: true, optional: true, required: false
-  private _insufficientDataActions?: string[];
+  private _insufficientDataActions?: string[]; 
   public get insufficientDataActions() {
     return this.getListAttribute('insufficient_data_actions');
   }
@@ -1894,7 +1894,7 @@ export class CloudwatchAlarm extends cdktn.TerraformResource {
   }
 
   // metric_name - computed: true, optional: true, required: false
-  private _metricName?: string;
+  private _metricName?: string; 
   public get metricName() {
     return this.getStringAttribute('metric_name');
   }
@@ -1926,7 +1926,7 @@ export class CloudwatchAlarm extends cdktn.TerraformResource {
   }
 
   // namespace - computed: true, optional: true, required: false
-  private _namespace?: string;
+  private _namespace?: string; 
   public get namespace() {
     return this.getStringAttribute('namespace');
   }
@@ -1942,7 +1942,7 @@ export class CloudwatchAlarm extends cdktn.TerraformResource {
   }
 
   // ok_actions - computed: true, optional: true, required: false
-  private _okActions?: string[];
+  private _okActions?: string[]; 
   public get okActions() {
     return this.getListAttribute('ok_actions');
   }
@@ -1958,7 +1958,7 @@ export class CloudwatchAlarm extends cdktn.TerraformResource {
   }
 
   // period - computed: true, optional: true, required: false
-  private _period?: number;
+  private _period?: number; 
   public get period() {
     return this.getNumberAttribute('period');
   }
@@ -1974,7 +1974,7 @@ export class CloudwatchAlarm extends cdktn.TerraformResource {
   }
 
   // statistic - computed: true, optional: true, required: false
-  private _statistic?: string;
+  private _statistic?: string; 
   public get statistic() {
     return this.getStringAttribute('statistic');
   }
@@ -2006,7 +2006,7 @@ export class CloudwatchAlarm extends cdktn.TerraformResource {
   }
 
   // threshold - computed: true, optional: true, required: false
-  private _threshold?: number;
+  private _threshold?: number; 
   public get threshold() {
     return this.getNumberAttribute('threshold');
   }
@@ -2022,7 +2022,7 @@ export class CloudwatchAlarm extends cdktn.TerraformResource {
   }
 
   // threshold_metric_id - computed: true, optional: true, required: false
-  private _thresholdMetricId?: string;
+  private _thresholdMetricId?: string; 
   public get thresholdMetricId() {
     return this.getStringAttribute('threshold_metric_id');
   }
@@ -2038,7 +2038,7 @@ export class CloudwatchAlarm extends cdktn.TerraformResource {
   }
 
   // treat_missing_data - computed: true, optional: true, required: false
-  private _treatMissingData?: string;
+  private _treatMissingData?: string; 
   public get treatMissingData() {
     return this.getStringAttribute('treat_missing_data');
   }
@@ -2054,7 +2054,7 @@ export class CloudwatchAlarm extends cdktn.TerraformResource {
   }
 
   // unit - computed: true, optional: true, required: false
-  private _unit?: string;
+  private _unit?: string; 
   public get unit() {
     return this.getStringAttribute('unit');
   }

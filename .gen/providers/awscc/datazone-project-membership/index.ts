@@ -120,7 +120,7 @@ export class DatazoneProjectMembershipMemberOutputReference extends cdktn.Comple
   }
 
   // group_identifier - computed: true, optional: true, required: false
-  private _groupIdentifier?: string;
+  private _groupIdentifier?: string; 
   public get groupIdentifier() {
     return this.getStringAttribute('group_identifier');
   }
@@ -136,7 +136,7 @@ export class DatazoneProjectMembershipMemberOutputReference extends cdktn.Comple
   }
 
   // user_identifier - computed: true, optional: true, required: false
-  private _userIdentifier?: string;
+  private _userIdentifier?: string; 
   public get userIdentifier() {
     return this.getStringAttribute('user_identifier');
   }
@@ -213,7 +213,7 @@ export class DatazoneProjectMembership extends cdktn.TerraformResource {
   // ==========
 
   // designation - computed: false, optional: false, required: true
-  private _designation?: string;
+  private _designation?: string; 
   public get designation() {
     return this.getStringAttribute('designation');
   }
@@ -226,7 +226,7 @@ export class DatazoneProjectMembership extends cdktn.TerraformResource {
   }
 
   // domain_identifier - computed: false, optional: false, required: true
-  private _domainIdentifier?: string;
+  private _domainIdentifier?: string; 
   public get domainIdentifier() {
     return this.getStringAttribute('domain_identifier');
   }
@@ -267,7 +267,7 @@ export class DatazoneProjectMembership extends cdktn.TerraformResource {
   }
 
   // project_identifier - computed: false, optional: false, required: true
-  private _projectIdentifier?: string;
+  private _projectIdentifier?: string; 
   public get projectIdentifier() {
     return this.getStringAttribute('project_identifier');
   }

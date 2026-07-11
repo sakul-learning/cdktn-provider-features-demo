@@ -140,7 +140,7 @@ export class FrauddetectorListTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -156,7 +156,7 @@ export class FrauddetectorListTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -264,7 +264,7 @@ export class FrauddetectorList extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -280,7 +280,7 @@ export class FrauddetectorList extends cdktn.TerraformResource {
   }
 
   // elements - computed: true, optional: true, required: false
-  private _elements?: string[];
+  private _elements?: string[]; 
   public get elements() {
     return this.getListAttribute('elements');
   }
@@ -306,7 +306,7 @@ export class FrauddetectorList extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -335,7 +335,7 @@ export class FrauddetectorList extends cdktn.TerraformResource {
   }
 
   // variable_type - computed: true, optional: true, required: false
-  private _variableType?: string;
+  private _variableType?: string; 
   public get variableType() {
     return this.getStringAttribute('variable_type');
   }

@@ -132,7 +132,7 @@ export class BedrockGuardrailVersionTimeoutsOutputReference extends cdktn.Comple
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -148,7 +148,7 @@ export class BedrockGuardrailVersionTimeoutsOutputReference extends cdktn.Comple
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -226,7 +226,7 @@ export class BedrockGuardrailVersion extends cdktn.TerraformResource {
   // ==========
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -242,7 +242,7 @@ export class BedrockGuardrailVersion extends cdktn.TerraformResource {
   }
 
   // guardrail_arn - computed: false, optional: false, required: true
-  private _guardrailArn?: string;
+  private _guardrailArn?: string; 
   public get guardrailArn() {
     return this.getStringAttribute('guardrail_arn');
   }
@@ -255,7 +255,7 @@ export class BedrockGuardrailVersion extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -271,7 +271,7 @@ export class BedrockGuardrailVersion extends cdktn.TerraformResource {
   }
 
   // skip_destroy - computed: false, optional: true, required: false
-  private _skipDestroy?: boolean | cdktn.IResolvable;
+  private _skipDestroy?: boolean | cdktn.IResolvable; 
   public get skipDestroy() {
     return this.getBooleanAttribute('skip_destroy');
   }

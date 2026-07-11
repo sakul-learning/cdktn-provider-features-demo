@@ -137,7 +137,7 @@ export class DataAwsRoute53ResolverQueryLogConfigFilterOutputReference extends c
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -150,7 +150,7 @@ export class DataAwsRoute53ResolverQueryLogConfigFilterOutputReference extends c
   }
 
   // values - computed: false, optional: false, required: true
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -256,7 +256,7 @@ export class DataAwsRoute53ResolverQueryLogConfig extends cdktn.TerraformDataSou
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -272,7 +272,7 @@ export class DataAwsRoute53ResolverQueryLogConfig extends cdktn.TerraformDataSou
   }
 
   // name - computed: false, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -293,7 +293,7 @@ export class DataAwsRoute53ResolverQueryLogConfig extends cdktn.TerraformDataSou
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -309,7 +309,7 @@ export class DataAwsRoute53ResolverQueryLogConfig extends cdktn.TerraformDataSou
   }
 
   // resolver_query_log_config_id - computed: false, optional: true, required: false
-  private _resolverQueryLogConfigId?: string;
+  private _resolverQueryLogConfigId?: string; 
   public get resolverQueryLogConfigId() {
     return this.getStringAttribute('resolver_query_log_config_id');
   }
@@ -330,7 +330,7 @@ export class DataAwsRoute53ResolverQueryLogConfig extends cdktn.TerraformDataSou
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

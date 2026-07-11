@@ -106,7 +106,7 @@ export class PinpointGcmChannel extends cdktn.TerraformResource {
   // ==========
 
   // api_key - computed: false, optional: true, required: false
-  private _apiKey?: string;
+  private _apiKey?: string; 
   public get apiKey() {
     return this.getStringAttribute('api_key');
   }
@@ -122,7 +122,7 @@ export class PinpointGcmChannel extends cdktn.TerraformResource {
   }
 
   // application_id - computed: false, optional: false, required: true
-  private _applicationId?: string;
+  private _applicationId?: string; 
   public get applicationId() {
     return this.getStringAttribute('application_id');
   }
@@ -135,7 +135,7 @@ export class PinpointGcmChannel extends cdktn.TerraformResource {
   }
 
   // default_authentication_method - computed: false, optional: true, required: false
-  private _defaultAuthenticationMethod?: string;
+  private _defaultAuthenticationMethod?: string; 
   public get defaultAuthenticationMethod() {
     return this.getStringAttribute('default_authentication_method');
   }
@@ -151,7 +151,7 @@ export class PinpointGcmChannel extends cdktn.TerraformResource {
   }
 
   // enabled - computed: false, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -167,7 +167,7 @@ export class PinpointGcmChannel extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -183,7 +183,7 @@ export class PinpointGcmChannel extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -199,7 +199,7 @@ export class PinpointGcmChannel extends cdktn.TerraformResource {
   }
 
   // service_json - computed: false, optional: true, required: false
-  private _serviceJson?: string;
+  private _serviceJson?: string; 
   public get serviceJson() {
     return this.getStringAttribute('service_json');
   }

@@ -113,7 +113,7 @@ export class Wafv2LoggingConfigurationLoggingFilterFiltersConditionsActionCondit
   }
 
   // action - computed: true, optional: true, required: false
-  private _action?: string;
+  private _action?: string; 
   public get action() {
     return this.getStringAttribute('action');
   }
@@ -130,7 +130,7 @@ export class Wafv2LoggingConfigurationLoggingFilterFiltersConditionsActionCondit
 }
 export interface Wafv2LoggingConfigurationLoggingFilterFiltersConditionsLabelNameCondition {
   /**
-  * The label name that a log record must contain in order to meet the condition. This must be a fully qualified label name. Fully qualified labels have a prefix, optional namespaces, and label name. The prefix identifies the rule group or web ACL context of the rule that added the label.
+  * The label name that a log record must contain in order to meet the condition. This must be a fully qualified label name. Fully qualified labels have a prefix, optional namespaces, and label name. The prefix identifies the rule group or web ACL context of the rule that added the label. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wafv2_logging_configuration#label_name Wafv2LoggingConfiguration#label_name}
   */
@@ -209,7 +209,7 @@ export class Wafv2LoggingConfigurationLoggingFilterFiltersConditionsLabelNameCon
   }
 
   // label_name - computed: true, optional: true, required: false
-  private _labelName?: string;
+  private _labelName?: string; 
   public get labelName() {
     return this.getStringAttribute('label_name');
   }
@@ -379,7 +379,7 @@ export class Wafv2LoggingConfigurationLoggingFilterFiltersConditionsList extends
 }
 export interface Wafv2LoggingConfigurationLoggingFilterFilters {
   /**
-  * How to handle logs that satisfy the filter's conditions and requirement.
+  * How to handle logs that satisfy the filter's conditions and requirement. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wafv2_logging_configuration#behavior Wafv2LoggingConfiguration#behavior}
   */
@@ -498,7 +498,7 @@ export class Wafv2LoggingConfigurationLoggingFilterFiltersOutputReference extend
   }
 
   // behavior - computed: true, optional: true, required: false
-  private _behavior?: string;
+  private _behavior?: string; 
   public get behavior() {
     return this.getStringAttribute('behavior');
   }
@@ -530,7 +530,7 @@ export class Wafv2LoggingConfigurationLoggingFilterFiltersOutputReference extend
   }
 
   // requirement - computed: true, optional: true, required: false
-  private _requirement?: string;
+  private _requirement?: string; 
   public get requirement() {
     return this.getStringAttribute('requirement');
   }
@@ -665,7 +665,7 @@ export class Wafv2LoggingConfigurationLoggingFilterOutputReference extends cdktn
   }
 
   // default_behavior - computed: true, optional: true, required: false
-  private _defaultBehavior?: string;
+  private _defaultBehavior?: string; 
   public get defaultBehavior() {
     return this.getStringAttribute('default_behavior');
   }
@@ -777,7 +777,7 @@ export class Wafv2LoggingConfigurationRedactedFieldsSingleHeaderOutputReference 
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -794,13 +794,13 @@ export class Wafv2LoggingConfigurationRedactedFieldsSingleHeaderOutputReference 
 }
 export interface Wafv2LoggingConfigurationRedactedFields {
   /**
-  * Inspect the HTTP method. The method indicates the type of operation that the request is asking the origin to perform.
+  * Inspect the HTTP method. The method indicates the type of operation that the request is asking the origin to perform. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wafv2_logging_configuration#method Wafv2LoggingConfiguration#method}
   */
   readonly method?: string;
   /**
-  * Inspect the query string. This is the part of a URL that appears after a ? character, if any.
+  * Inspect the query string. This is the part of a URL that appears after a ? character, if any. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wafv2_logging_configuration#query_string Wafv2LoggingConfiguration#query_string}
   */
@@ -812,7 +812,7 @@ export interface Wafv2LoggingConfigurationRedactedFields {
   */
   readonly singleHeader?: Wafv2LoggingConfigurationRedactedFieldsSingleHeader;
   /**
-  * Inspect the request URI path. This is the part of a web request that identifies a resource, for example, /images/daily-ad.jpg.
+  * Inspect the request URI path. This is the part of a web request that identifies a resource, for example, /images/daily-ad.jpg. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wafv2_logging_configuration#uri_path Wafv2LoggingConfiguration#uri_path}
   */
@@ -932,7 +932,7 @@ export class Wafv2LoggingConfigurationRedactedFieldsOutputReference extends cdkt
   }
 
   // method - computed: true, optional: true, required: false
-  private _method?: string;
+  private _method?: string; 
   public get method() {
     return this.getStringAttribute('method');
   }
@@ -948,7 +948,7 @@ export class Wafv2LoggingConfigurationRedactedFieldsOutputReference extends cdkt
   }
 
   // query_string - computed: true, optional: true, required: false
-  private _queryString?: string;
+  private _queryString?: string; 
   public get queryString() {
     return this.getStringAttribute('query_string');
   }
@@ -980,7 +980,7 @@ export class Wafv2LoggingConfigurationRedactedFieldsOutputReference extends cdkt
   }
 
   // uri_path - computed: true, optional: true, required: false
-  private _uriPath?: string;
+  private _uriPath?: string; 
   public get uriPath() {
     return this.getStringAttribute('uri_path');
   }
@@ -1082,7 +1082,7 @@ export class Wafv2LoggingConfiguration extends cdktn.TerraformResource {
   }
 
   // log_destination_configs - computed: false, optional: false, required: true
-  private _logDestinationConfigs?: string[];
+  private _logDestinationConfigs?: string[]; 
   public get logDestinationConfigs() {
     return this.getListAttribute('log_destination_configs');
   }
@@ -1132,7 +1132,7 @@ export class Wafv2LoggingConfiguration extends cdktn.TerraformResource {
   }
 
   // resource_arn - computed: false, optional: false, required: true
-  private _resourceArn?: string;
+  private _resourceArn?: string; 
   public get resourceArn() {
     return this.getStringAttribute('resource_arn');
   }

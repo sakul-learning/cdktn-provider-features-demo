@@ -86,7 +86,7 @@ export class DetectiveInvitationAccepter extends cdktn.TerraformResource {
   // ==========
 
   // graph_arn - computed: false, optional: false, required: true
-  private _graphArn?: string;
+  private _graphArn?: string; 
   public get graphArn() {
     return this.getStringAttribute('graph_arn');
   }
@@ -99,7 +99,7 @@ export class DetectiveInvitationAccepter extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -115,7 +115,7 @@ export class DetectiveInvitationAccepter extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

@@ -99,7 +99,7 @@ export class Resiliencehubv2UserJourney extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -120,7 +120,7 @@ export class Resiliencehubv2UserJourney extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -133,7 +133,7 @@ export class Resiliencehubv2UserJourney extends cdktn.TerraformResource {
   }
 
   // policy_arn - computed: true, optional: true, required: false
-  private _policyArn?: string;
+  private _policyArn?: string; 
   public get policyArn() {
     return this.getStringAttribute('policy_arn');
   }
@@ -149,7 +149,7 @@ export class Resiliencehubv2UserJourney extends cdktn.TerraformResource {
   }
 
   // system_identifier - computed: false, optional: false, required: true
-  private _systemIdentifier?: string;
+  private _systemIdentifier?: string; 
   public get systemIdentifier() {
     return this.getStringAttribute('system_identifier');
   }

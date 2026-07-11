@@ -110,7 +110,7 @@ export class CloudfrontContinuousDeploymentPolicyContinuousDeploymentPolicyConfi
   }
 
   // header - computed: true, optional: true, required: false
-  private _header?: string;
+  private _header?: string; 
   public get header() {
     return this.getStringAttribute('header');
   }
@@ -126,7 +126,7 @@ export class CloudfrontContinuousDeploymentPolicyContinuousDeploymentPolicyConfi
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -241,7 +241,7 @@ export class CloudfrontContinuousDeploymentPolicyContinuousDeploymentPolicyConfi
   }
 
   // idle_ttl - computed: true, optional: true, required: false
-  private _idleTtl?: number;
+  private _idleTtl?: number; 
   public get idleTtl() {
     return this.getNumberAttribute('idle_ttl');
   }
@@ -257,7 +257,7 @@ export class CloudfrontContinuousDeploymentPolicyContinuousDeploymentPolicyConfi
   }
 
   // maximum_ttl - computed: true, optional: true, required: false
-  private _maximumTtl?: number;
+  private _maximumTtl?: number; 
   public get maximumTtl() {
     return this.getNumberAttribute('maximum_ttl');
   }
@@ -386,7 +386,7 @@ export class CloudfrontContinuousDeploymentPolicyContinuousDeploymentPolicyConfi
   }
 
   // weight - computed: true, optional: true, required: false
-  private _weight?: number;
+  private _weight?: number; 
   public get weight() {
     return this.getNumberAttribute('weight');
   }
@@ -501,7 +501,7 @@ export class CloudfrontContinuousDeploymentPolicyContinuousDeploymentPolicyConfi
   }
 
   // header - computed: true, optional: true, required: false
-  private _header?: string;
+  private _header?: string; 
   public get header() {
     return this.getStringAttribute('header');
   }
@@ -517,7 +517,7 @@ export class CloudfrontContinuousDeploymentPolicyContinuousDeploymentPolicyConfi
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -632,7 +632,7 @@ export class CloudfrontContinuousDeploymentPolicyContinuousDeploymentPolicyConfi
   }
 
   // idle_ttl - computed: true, optional: true, required: false
-  private _idleTtl?: number;
+  private _idleTtl?: number; 
   public get idleTtl() {
     return this.getNumberAttribute('idle_ttl');
   }
@@ -648,7 +648,7 @@ export class CloudfrontContinuousDeploymentPolicyContinuousDeploymentPolicyConfi
   }
 
   // maximum_ttl - computed: true, optional: true, required: false
-  private _maximumTtl?: number;
+  private _maximumTtl?: number; 
   public get maximumTtl() {
     return this.getNumberAttribute('maximum_ttl');
   }
@@ -779,7 +779,7 @@ export class CloudfrontContinuousDeploymentPolicyContinuousDeploymentPolicyConfi
   }
 
   // weight - computed: true, optional: true, required: false
-  private _weight?: number;
+  private _weight?: number; 
   public get weight() {
     return this.getNumberAttribute('weight');
   }
@@ -945,7 +945,7 @@ export class CloudfrontContinuousDeploymentPolicyContinuousDeploymentPolicyConfi
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -1136,7 +1136,7 @@ export class CloudfrontContinuousDeploymentPolicyContinuousDeploymentPolicyConfi
   }
 
   // enabled - computed: false, optional: false, required: true
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -1181,7 +1181,7 @@ export class CloudfrontContinuousDeploymentPolicyContinuousDeploymentPolicyConfi
   }
 
   // staging_distribution_dns_names - computed: false, optional: false, required: true
-  private _stagingDistributionDnsNames?: string[];
+  private _stagingDistributionDnsNames?: string[]; 
   public get stagingDistributionDnsNames() {
     return this.getListAttribute('staging_distribution_dns_names');
   }
@@ -1210,7 +1210,7 @@ export class CloudfrontContinuousDeploymentPolicyContinuousDeploymentPolicyConfi
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }

@@ -129,7 +129,7 @@ export class IotwirelessPartnerAccountSidewalkOutputReference extends cdktn.Comp
   }
 
   // app_server_private_key - computed: true, optional: true, required: false
-  private _appServerPrivateKey?: string;
+  private _appServerPrivateKey?: string; 
   public get appServerPrivateKey() {
     return this.getStringAttribute('app_server_private_key');
   }
@@ -257,7 +257,7 @@ export class IotwirelessPartnerAccountSidewalkResponseOutputReference extends cd
   }
 
   // amazon_id - computed: true, optional: true, required: false
-  private _amazonId?: string;
+  private _amazonId?: string; 
   public get amazonId() {
     return this.getStringAttribute('amazon_id');
   }
@@ -273,7 +273,7 @@ export class IotwirelessPartnerAccountSidewalkResponseOutputReference extends cd
   }
 
   // arn - computed: true, optional: true, required: false
-  private _arn?: string;
+  private _arn?: string; 
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -289,7 +289,7 @@ export class IotwirelessPartnerAccountSidewalkResponseOutputReference extends cd
   }
 
   // fingerprint - computed: true, optional: true, required: false
-  private _fingerprint?: string;
+  private _fingerprint?: string; 
   public get fingerprint() {
     return this.getStringAttribute('fingerprint');
   }
@@ -383,7 +383,7 @@ export class IotwirelessPartnerAccountSidewalkUpdateOutputReference extends cdkt
   }
 
   // app_server_private_key - computed: true, optional: true, required: false
-  private _appServerPrivateKey?: string;
+  private _appServerPrivateKey?: string; 
   public get appServerPrivateKey() {
     return this.getStringAttribute('app_server_private_key');
   }
@@ -496,7 +496,7 @@ export class IotwirelessPartnerAccountTagsOutputReference extends cdktn.ComplexO
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -512,7 +512,7 @@ export class IotwirelessPartnerAccountTagsOutputReference extends cdktn.ComplexO
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -612,7 +612,7 @@ export class IotwirelessPartnerAccount extends cdktn.TerraformResource {
   // ==========
 
   // account_linked - computed: true, optional: true, required: false
-  private _accountLinked?: boolean | cdktn.IResolvable;
+  private _accountLinked?: boolean | cdktn.IResolvable; 
   public get accountLinked() {
     return this.getBooleanAttribute('account_linked');
   }
@@ -643,7 +643,7 @@ export class IotwirelessPartnerAccount extends cdktn.TerraformResource {
   }
 
   // partner_account_id - computed: true, optional: true, required: false
-  private _partnerAccountId?: string;
+  private _partnerAccountId?: string; 
   public get partnerAccountId() {
     return this.getStringAttribute('partner_account_id');
   }
@@ -659,7 +659,7 @@ export class IotwirelessPartnerAccount extends cdktn.TerraformResource {
   }
 
   // partner_type - computed: true, optional: true, required: false
-  private _partnerType?: string;
+  private _partnerType?: string; 
   public get partnerType() {
     return this.getStringAttribute('partner_type');
   }

@@ -96,7 +96,7 @@ export class SsmServiceSetting extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -112,7 +112,7 @@ export class SsmServiceSetting extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -128,7 +128,7 @@ export class SsmServiceSetting extends cdktn.TerraformResource {
   }
 
   // setting_id - computed: false, optional: false, required: true
-  private _settingId?: string;
+  private _settingId?: string; 
   public get settingId() {
     return this.getStringAttribute('setting_id');
   }
@@ -141,7 +141,7 @@ export class SsmServiceSetting extends cdktn.TerraformResource {
   }
 
   // setting_value - computed: false, optional: false, required: true
-  private _settingValue?: string;
+  private _settingValue?: string; 
   public get settingValue() {
     return this.getStringAttribute('setting_value');
   }

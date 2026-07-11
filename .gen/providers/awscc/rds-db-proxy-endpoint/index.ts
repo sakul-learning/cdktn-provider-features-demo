@@ -148,7 +148,7 @@ export class RdsDbProxyEndpointTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -164,7 +164,7 @@ export class RdsDbProxyEndpointTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -269,7 +269,7 @@ export class RdsDbProxyEndpoint extends cdktn.TerraformResource {
   }
 
   // db_proxy_endpoint_name - computed: false, optional: false, required: true
-  private _dbProxyEndpointName?: string;
+  private _dbProxyEndpointName?: string; 
   public get dbProxyEndpointName() {
     return this.getStringAttribute('db_proxy_endpoint_name');
   }
@@ -282,7 +282,7 @@ export class RdsDbProxyEndpoint extends cdktn.TerraformResource {
   }
 
   // db_proxy_name - computed: false, optional: false, required: true
-  private _dbProxyName?: string;
+  private _dbProxyName?: string; 
   public get dbProxyName() {
     return this.getStringAttribute('db_proxy_name');
   }
@@ -300,7 +300,7 @@ export class RdsDbProxyEndpoint extends cdktn.TerraformResource {
   }
 
   // endpoint_network_type - computed: true, optional: true, required: false
-  private _endpointNetworkType?: string;
+  private _endpointNetworkType?: string; 
   public get endpointNetworkType() {
     return this.getStringAttribute('endpoint_network_type');
   }
@@ -342,7 +342,7 @@ export class RdsDbProxyEndpoint extends cdktn.TerraformResource {
   }
 
   // target_role - computed: true, optional: true, required: false
-  private _targetRole?: string;
+  private _targetRole?: string; 
   public get targetRole() {
     return this.getStringAttribute('target_role');
   }
@@ -363,7 +363,7 @@ export class RdsDbProxyEndpoint extends cdktn.TerraformResource {
   }
 
   // vpc_security_group_ids - computed: true, optional: true, required: false
-  private _vpcSecurityGroupIds?: string[];
+  private _vpcSecurityGroupIds?: string[]; 
   public get vpcSecurityGroupIds() {
     return this.getListAttribute('vpc_security_group_ids');
   }
@@ -379,7 +379,7 @@ export class RdsDbProxyEndpoint extends cdktn.TerraformResource {
   }
 
   // vpc_subnet_ids - computed: false, optional: false, required: true
-  private _vpcSubnetIds?: string[];
+  private _vpcSubnetIds?: string[]; 
   public get vpcSubnetIds() {
     return this.getListAttribute('vpc_subnet_ids');
   }

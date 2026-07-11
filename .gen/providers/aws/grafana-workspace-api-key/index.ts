@@ -101,7 +101,7 @@ export class GrafanaWorkspaceApiKey extends cdktn.TerraformResource {
   // ==========
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -122,7 +122,7 @@ export class GrafanaWorkspaceApiKey extends cdktn.TerraformResource {
   }
 
   // key_name - computed: false, optional: false, required: true
-  private _keyName?: string;
+  private _keyName?: string; 
   public get keyName() {
     return this.getStringAttribute('key_name');
   }
@@ -135,7 +135,7 @@ export class GrafanaWorkspaceApiKey extends cdktn.TerraformResource {
   }
 
   // key_role - computed: false, optional: false, required: true
-  private _keyRole?: string;
+  private _keyRole?: string; 
   public get keyRole() {
     return this.getStringAttribute('key_role');
   }
@@ -148,7 +148,7 @@ export class GrafanaWorkspaceApiKey extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -164,7 +164,7 @@ export class GrafanaWorkspaceApiKey extends cdktn.TerraformResource {
   }
 
   // seconds_to_live - computed: false, optional: false, required: true
-  private _secondsToLive?: number;
+  private _secondsToLive?: number; 
   public get secondsToLive() {
     return this.getNumberAttribute('seconds_to_live');
   }
@@ -177,7 +177,7 @@ export class GrafanaWorkspaceApiKey extends cdktn.TerraformResource {
   }
 
   // workspace_id - computed: false, optional: false, required: true
-  private _workspaceId?: string;
+  private _workspaceId?: string; 
   public get workspaceId() {
     return this.getStringAttribute('workspace_id');
   }

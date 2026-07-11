@@ -187,7 +187,7 @@ export class LightsailDiskSnapshotTagsOutputReference extends cdktn.ComplexObjec
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -203,7 +203,7 @@ export class LightsailDiskSnapshotTagsOutputReference extends cdktn.ComplexObjec
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -304,7 +304,7 @@ export class LightsailDiskSnapshot extends cdktn.TerraformResource {
   }
 
   // disk_name - computed: false, optional: false, required: true
-  private _diskName?: string;
+  private _diskName?: string; 
   public get diskName() {
     return this.getStringAttribute('disk_name');
   }
@@ -322,7 +322,7 @@ export class LightsailDiskSnapshot extends cdktn.TerraformResource {
   }
 
   // disk_snapshot_name - computed: false, optional: false, required: true
-  private _diskSnapshotName?: string;
+  private _diskSnapshotName?: string; 
   public get diskSnapshotName() {
     return this.getStringAttribute('disk_snapshot_name');
   }

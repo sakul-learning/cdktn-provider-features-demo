@@ -73,7 +73,7 @@ export class Route53Dnssec extends cdktn.TerraformResource {
   // ==========
 
   // hosted_zone_id - computed: false, optional: false, required: true
-  private _hostedZoneId?: string;
+  private _hostedZoneId?: string; 
   public get hostedZoneId() {
     return this.getStringAttribute('hosted_zone_id');
   }

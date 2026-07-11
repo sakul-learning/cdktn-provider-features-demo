@@ -137,7 +137,7 @@ export class PanoramaApplicationInstanceManifestOverridesPayloadOutputReference 
   }
 
   // payload_data - computed: true, optional: true, required: false
-  private _payloadData?: string;
+  private _payloadData?: string; 
   public get payloadData() {
     return this.getStringAttribute('payload_data');
   }
@@ -233,7 +233,7 @@ export class PanoramaApplicationInstanceManifestPayloadOutputReference extends c
   }
 
   // payload_data - computed: true, optional: true, required: false
-  private _payloadData?: string;
+  private _payloadData?: string; 
   public get payloadData() {
     return this.getStringAttribute('payload_data');
   }
@@ -346,7 +346,7 @@ export class PanoramaApplicationInstanceTagsOutputReference extends cdktn.Comple
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -362,7 +362,7 @@ export class PanoramaApplicationInstanceTagsOutputReference extends cdktn.Comple
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -468,7 +468,7 @@ export class PanoramaApplicationInstance extends cdktn.TerraformResource {
   }
 
   // application_instance_id_to_replace - computed: true, optional: true, required: false
-  private _applicationInstanceIdToReplace?: string;
+  private _applicationInstanceIdToReplace?: string; 
   public get applicationInstanceIdToReplace() {
     return this.getStringAttribute('application_instance_id_to_replace');
   }
@@ -494,7 +494,7 @@ export class PanoramaApplicationInstance extends cdktn.TerraformResource {
   }
 
   // default_runtime_context_device - computed: false, optional: false, required: true
-  private _defaultRuntimeContextDevice?: string;
+  private _defaultRuntimeContextDevice?: string; 
   public get defaultRuntimeContextDevice() {
     return this.getStringAttribute('default_runtime_context_device');
   }
@@ -512,7 +512,7 @@ export class PanoramaApplicationInstance extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -572,7 +572,7 @@ export class PanoramaApplicationInstance extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -588,7 +588,7 @@ export class PanoramaApplicationInstance extends cdktn.TerraformResource {
   }
 
   // runtime_role_arn - computed: true, optional: true, required: false
-  private _runtimeRoleArn?: string;
+  private _runtimeRoleArn?: string; 
   public get runtimeRoleArn() {
     return this.getStringAttribute('runtime_role_arn');
   }

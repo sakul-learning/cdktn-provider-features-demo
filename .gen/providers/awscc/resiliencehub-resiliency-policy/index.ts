@@ -140,7 +140,7 @@ export class ResiliencehubResiliencyPolicyPolicyAzOutputReference extends cdktn.
   }
 
   // rpo_in_secs - computed: false, optional: false, required: true
-  private _rpoInSecs?: number;
+  private _rpoInSecs?: number; 
   public get rpoInSecs() {
     return this.getNumberAttribute('rpo_in_secs');
   }
@@ -153,7 +153,7 @@ export class ResiliencehubResiliencyPolicyPolicyAzOutputReference extends cdktn.
   }
 
   // rto_in_secs - computed: false, optional: false, required: true
-  private _rtoInSecs?: number;
+  private _rtoInSecs?: number; 
   public get rtoInSecs() {
     return this.getNumberAttribute('rto_in_secs');
   }
@@ -265,7 +265,7 @@ export class ResiliencehubResiliencyPolicyPolicyHardwareOutputReference extends 
   }
 
   // rpo_in_secs - computed: false, optional: false, required: true
-  private _rpoInSecs?: number;
+  private _rpoInSecs?: number; 
   public get rpoInSecs() {
     return this.getNumberAttribute('rpo_in_secs');
   }
@@ -278,7 +278,7 @@ export class ResiliencehubResiliencyPolicyPolicyHardwareOutputReference extends 
   }
 
   // rto_in_secs - computed: false, optional: false, required: true
-  private _rtoInSecs?: number;
+  private _rtoInSecs?: number; 
   public get rtoInSecs() {
     return this.getNumberAttribute('rto_in_secs');
   }
@@ -390,7 +390,7 @@ export class ResiliencehubResiliencyPolicyPolicyRegionOutputReference extends cd
   }
 
   // rpo_in_secs - computed: true, optional: true, required: false
-  private _rpoInSecs?: number;
+  private _rpoInSecs?: number; 
   public get rpoInSecs() {
     return this.getNumberAttribute('rpo_in_secs');
   }
@@ -406,7 +406,7 @@ export class ResiliencehubResiliencyPolicyPolicyRegionOutputReference extends cd
   }
 
   // rto_in_secs - computed: true, optional: true, required: false
-  private _rtoInSecs?: number;
+  private _rtoInSecs?: number; 
   public get rtoInSecs() {
     return this.getNumberAttribute('rto_in_secs');
   }
@@ -521,7 +521,7 @@ export class ResiliencehubResiliencyPolicyPolicySoftwareOutputReference extends 
   }
 
   // rpo_in_secs - computed: false, optional: false, required: true
-  private _rpoInSecs?: number;
+  private _rpoInSecs?: number; 
   public get rpoInSecs() {
     return this.getNumberAttribute('rpo_in_secs');
   }
@@ -534,7 +534,7 @@ export class ResiliencehubResiliencyPolicyPolicySoftwareOutputReference extends 
   }
 
   // rto_in_secs - computed: false, optional: false, required: true
-  private _rtoInSecs?: number;
+  private _rtoInSecs?: number; 
   public get rtoInSecs() {
     return this.getNumberAttribute('rto_in_secs');
   }
@@ -802,7 +802,7 @@ export class ResiliencehubResiliencyPolicy extends cdktn.TerraformResource {
   // ==========
 
   // data_location_constraint - computed: true, optional: true, required: false
-  private _dataLocationConstraint?: string;
+  private _dataLocationConstraint?: string; 
   public get dataLocationConstraint() {
     return this.getStringAttribute('data_location_constraint');
   }
@@ -841,7 +841,7 @@ export class ResiliencehubResiliencyPolicy extends cdktn.TerraformResource {
   }
 
   // policy_description - computed: true, optional: true, required: false
-  private _policyDescription?: string;
+  private _policyDescription?: string; 
   public get policyDescription() {
     return this.getStringAttribute('policy_description');
   }
@@ -857,7 +857,7 @@ export class ResiliencehubResiliencyPolicy extends cdktn.TerraformResource {
   }
 
   // policy_name - computed: false, optional: false, required: true
-  private _policyName?: string;
+  private _policyName?: string; 
   public get policyName() {
     return this.getStringAttribute('policy_name');
   }
@@ -870,7 +870,7 @@ export class ResiliencehubResiliencyPolicy extends cdktn.TerraformResource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -886,7 +886,7 @@ export class ResiliencehubResiliencyPolicy extends cdktn.TerraformResource {
   }
 
   // tier - computed: false, optional: false, required: true
-  private _tier?: string;
+  private _tier?: string; 
   public get tier() {
     return this.getStringAttribute('tier');
   }

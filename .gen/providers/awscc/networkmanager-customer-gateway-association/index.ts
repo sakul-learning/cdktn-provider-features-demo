@@ -94,7 +94,7 @@ export class NetworkmanagerCustomerGatewayAssociation extends cdktn.TerraformRes
   // ==========
 
   // customer_gateway_arn - computed: false, optional: false, required: true
-  private _customerGatewayArn?: string;
+  private _customerGatewayArn?: string; 
   public get customerGatewayArn() {
     return this.getStringAttribute('customer_gateway_arn');
   }
@@ -107,7 +107,7 @@ export class NetworkmanagerCustomerGatewayAssociation extends cdktn.TerraformRes
   }
 
   // device_id - computed: false, optional: false, required: true
-  private _deviceId?: string;
+  private _deviceId?: string; 
   public get deviceId() {
     return this.getStringAttribute('device_id');
   }
@@ -120,7 +120,7 @@ export class NetworkmanagerCustomerGatewayAssociation extends cdktn.TerraformRes
   }
 
   // global_network_id - computed: false, optional: false, required: true
-  private _globalNetworkId?: string;
+  private _globalNetworkId?: string; 
   public get globalNetworkId() {
     return this.getStringAttribute('global_network_id');
   }
@@ -138,7 +138,7 @@ export class NetworkmanagerCustomerGatewayAssociation extends cdktn.TerraformRes
   }
 
   // link_id - computed: true, optional: true, required: false
-  private _linkId?: string;
+  private _linkId?: string; 
   public get linkId() {
     return this.getStringAttribute('link_id');
   }

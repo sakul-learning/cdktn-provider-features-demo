@@ -91,7 +91,7 @@ export class DeadlineMeteredProduct extends cdktn.TerraformResource {
   }
 
   // license_endpoint_id - computed: true, optional: true, required: false
-  private _licenseEndpointId?: string;
+  private _licenseEndpointId?: string; 
   public get licenseEndpointId() {
     return this.getStringAttribute('license_endpoint_id');
   }
@@ -112,7 +112,7 @@ export class DeadlineMeteredProduct extends cdktn.TerraformResource {
   }
 
   // product_id - computed: true, optional: true, required: false
-  private _productId?: string;
+  private _productId?: string; 
   public get productId() {
     return this.getStringAttribute('product_id');
   }

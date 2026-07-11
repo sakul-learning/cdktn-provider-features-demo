@@ -80,7 +80,7 @@ export class ConnectContactFlowModuleVersion extends cdktn.TerraformResource {
   // ==========
 
   // contact_flow_module_id - computed: false, optional: false, required: true
-  private _contactFlowModuleId?: string;
+  private _contactFlowModuleId?: string; 
   public get contactFlowModuleId() {
     return this.getStringAttribute('contact_flow_module_id');
   }
@@ -98,7 +98,7 @@ export class ConnectContactFlowModuleVersion extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }

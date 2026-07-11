@@ -74,7 +74,7 @@ export class DataAwsDefaultTags extends cdktn.TerraformDataSource {
   // ==========
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }

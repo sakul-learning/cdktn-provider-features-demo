@@ -206,7 +206,7 @@ export class Ec2VerifiedAccessEndpointCidrOptionsPortRangesOutputReference exten
   }
 
   // from_port - computed: true, optional: true, required: false
-  private _fromPort?: number;
+  private _fromPort?: number; 
   public get fromPort() {
     return this.getNumberAttribute('from_port');
   }
@@ -222,7 +222,7 @@ export class Ec2VerifiedAccessEndpointCidrOptionsPortRangesOutputReference exten
   }
 
   // to_port - computed: true, optional: true, required: false
-  private _toPort?: number;
+  private _toPort?: number; 
   public get toPort() {
     return this.getNumberAttribute('to_port');
   }
@@ -395,7 +395,7 @@ export class Ec2VerifiedAccessEndpointCidrOptionsOutputReference extends cdktn.C
   }
 
   // cidr - computed: true, optional: true, required: false
-  private _cidr?: string;
+  private _cidr?: string; 
   public get cidr() {
     return this.getStringAttribute('cidr');
   }
@@ -427,7 +427,7 @@ export class Ec2VerifiedAccessEndpointCidrOptionsOutputReference extends cdktn.C
   }
 
   // protocol - computed: true, optional: true, required: false
-  private _protocol?: string;
+  private _protocol?: string; 
   public get protocol() {
     return this.getStringAttribute('protocol');
   }
@@ -443,7 +443,7 @@ export class Ec2VerifiedAccessEndpointCidrOptionsOutputReference extends cdktn.C
   }
 
   // subnet_ids - computed: true, optional: true, required: false
-  private _subnetIds?: string[];
+  private _subnetIds?: string[]; 
   public get subnetIds() {
     return cdktn.Fn.tolist(this.getListAttribute('subnet_ids'));
   }
@@ -560,7 +560,7 @@ export class Ec2VerifiedAccessEndpointLoadBalancerOptionsPortRangesOutputReferen
   }
 
   // from_port - computed: true, optional: true, required: false
-  private _fromPort?: number;
+  private _fromPort?: number; 
   public get fromPort() {
     return this.getNumberAttribute('from_port');
   }
@@ -576,7 +576,7 @@ export class Ec2VerifiedAccessEndpointLoadBalancerOptionsPortRangesOutputReferen
   }
 
   // to_port - computed: true, optional: true, required: false
-  private _toPort?: number;
+  private _toPort?: number; 
   public get toPort() {
     return this.getNumberAttribute('to_port');
   }
@@ -768,7 +768,7 @@ export class Ec2VerifiedAccessEndpointLoadBalancerOptionsOutputReference extends
   }
 
   // load_balancer_arn - computed: true, optional: true, required: false
-  private _loadBalancerArn?: string;
+  private _loadBalancerArn?: string; 
   public get loadBalancerArn() {
     return this.getStringAttribute('load_balancer_arn');
   }
@@ -784,7 +784,7 @@ export class Ec2VerifiedAccessEndpointLoadBalancerOptionsOutputReference extends
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -816,7 +816,7 @@ export class Ec2VerifiedAccessEndpointLoadBalancerOptionsOutputReference extends
   }
 
   // protocol - computed: true, optional: true, required: false
-  private _protocol?: string;
+  private _protocol?: string; 
   public get protocol() {
     return this.getStringAttribute('protocol');
   }
@@ -832,7 +832,7 @@ export class Ec2VerifiedAccessEndpointLoadBalancerOptionsOutputReference extends
   }
 
   // subnet_ids - computed: true, optional: true, required: false
-  private _subnetIds?: string[];
+  private _subnetIds?: string[]; 
   public get subnetIds() {
     return cdktn.Fn.tolist(this.getListAttribute('subnet_ids'));
   }
@@ -949,7 +949,7 @@ export class Ec2VerifiedAccessEndpointNetworkInterfaceOptionsPortRangesOutputRef
   }
 
   // from_port - computed: true, optional: true, required: false
-  private _fromPort?: number;
+  private _fromPort?: number; 
   public get fromPort() {
     return this.getNumberAttribute('from_port');
   }
@@ -965,7 +965,7 @@ export class Ec2VerifiedAccessEndpointNetworkInterfaceOptionsPortRangesOutputRef
   }
 
   // to_port - computed: true, optional: true, required: false
-  private _toPort?: number;
+  private _toPort?: number; 
   public get toPort() {
     return this.getNumberAttribute('to_port');
   }
@@ -1138,7 +1138,7 @@ export class Ec2VerifiedAccessEndpointNetworkInterfaceOptionsOutputReference ext
   }
 
   // network_interface_id - computed: true, optional: true, required: false
-  private _networkInterfaceId?: string;
+  private _networkInterfaceId?: string; 
   public get networkInterfaceId() {
     return this.getStringAttribute('network_interface_id');
   }
@@ -1154,7 +1154,7 @@ export class Ec2VerifiedAccessEndpointNetworkInterfaceOptionsOutputReference ext
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -1186,7 +1186,7 @@ export class Ec2VerifiedAccessEndpointNetworkInterfaceOptionsOutputReference ext
   }
 
   // protocol - computed: true, optional: true, required: false
-  private _protocol?: string;
+  private _protocol?: string; 
   public get protocol() {
     return this.getStringAttribute('protocol');
   }
@@ -1396,7 +1396,7 @@ export class Ec2VerifiedAccessEndpointRdsOptionsOutputReference extends cdktn.Co
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -1412,7 +1412,7 @@ export class Ec2VerifiedAccessEndpointRdsOptionsOutputReference extends cdktn.Co
   }
 
   // protocol - computed: true, optional: true, required: false
-  private _protocol?: string;
+  private _protocol?: string; 
   public get protocol() {
     return this.getStringAttribute('protocol');
   }
@@ -1428,7 +1428,7 @@ export class Ec2VerifiedAccessEndpointRdsOptionsOutputReference extends cdktn.Co
   }
 
   // rds_db_cluster_arn - computed: true, optional: true, required: false
-  private _rdsDbClusterArn?: string;
+  private _rdsDbClusterArn?: string; 
   public get rdsDbClusterArn() {
     return this.getStringAttribute('rds_db_cluster_arn');
   }
@@ -1444,7 +1444,7 @@ export class Ec2VerifiedAccessEndpointRdsOptionsOutputReference extends cdktn.Co
   }
 
   // rds_db_instance_arn - computed: true, optional: true, required: false
-  private _rdsDbInstanceArn?: string;
+  private _rdsDbInstanceArn?: string; 
   public get rdsDbInstanceArn() {
     return this.getStringAttribute('rds_db_instance_arn');
   }
@@ -1460,7 +1460,7 @@ export class Ec2VerifiedAccessEndpointRdsOptionsOutputReference extends cdktn.Co
   }
 
   // rds_db_proxy_arn - computed: true, optional: true, required: false
-  private _rdsDbProxyArn?: string;
+  private _rdsDbProxyArn?: string; 
   public get rdsDbProxyArn() {
     return this.getStringAttribute('rds_db_proxy_arn');
   }
@@ -1476,7 +1476,7 @@ export class Ec2VerifiedAccessEndpointRdsOptionsOutputReference extends cdktn.Co
   }
 
   // rds_endpoint - computed: true, optional: true, required: false
-  private _rdsEndpoint?: string;
+  private _rdsEndpoint?: string; 
   public get rdsEndpoint() {
     return this.getStringAttribute('rds_endpoint');
   }
@@ -1492,7 +1492,7 @@ export class Ec2VerifiedAccessEndpointRdsOptionsOutputReference extends cdktn.Co
   }
 
   // subnet_ids - computed: true, optional: true, required: false
-  private _subnetIds?: string[];
+  private _subnetIds?: string[]; 
   public get subnetIds() {
     return cdktn.Fn.tolist(this.getListAttribute('subnet_ids'));
   }
@@ -1607,7 +1607,7 @@ export class Ec2VerifiedAccessEndpointSseSpecificationOutputReference extends cd
   }
 
   // customer_managed_key_enabled - computed: true, optional: true, required: false
-  private _customerManagedKeyEnabled?: boolean | cdktn.IResolvable;
+  private _customerManagedKeyEnabled?: boolean | cdktn.IResolvable; 
   public get customerManagedKeyEnabled() {
     return this.getBooleanAttribute('customer_managed_key_enabled');
   }
@@ -1623,7 +1623,7 @@ export class Ec2VerifiedAccessEndpointSseSpecificationOutputReference extends cd
   }
 
   // kms_key_arn - computed: true, optional: true, required: false
-  private _kmsKeyArn?: string;
+  private _kmsKeyArn?: string; 
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -1740,7 +1740,7 @@ export class Ec2VerifiedAccessEndpointTagsOutputReference extends cdktn.ComplexO
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1756,7 +1756,7 @@ export class Ec2VerifiedAccessEndpointTagsOutputReference extends cdktn.ComplexO
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1865,7 +1865,7 @@ export class Ec2VerifiedAccessEndpoint extends cdktn.TerraformResource {
   // ==========
 
   // application_domain - computed: true, optional: true, required: false
-  private _applicationDomain?: string;
+  private _applicationDomain?: string; 
   public get applicationDomain() {
     return this.getStringAttribute('application_domain');
   }
@@ -1881,7 +1881,7 @@ export class Ec2VerifiedAccessEndpoint extends cdktn.TerraformResource {
   }
 
   // attachment_type - computed: false, optional: false, required: true
-  private _attachmentType?: string;
+  private _attachmentType?: string; 
   public get attachmentType() {
     return this.getStringAttribute('attachment_type');
   }
@@ -1915,7 +1915,7 @@ export class Ec2VerifiedAccessEndpoint extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1936,7 +1936,7 @@ export class Ec2VerifiedAccessEndpoint extends cdktn.TerraformResource {
   }
 
   // domain_certificate_arn - computed: true, optional: true, required: false
-  private _domainCertificateArn?: string;
+  private _domainCertificateArn?: string; 
   public get domainCertificateArn() {
     return this.getStringAttribute('domain_certificate_arn');
   }
@@ -1957,7 +1957,7 @@ export class Ec2VerifiedAccessEndpoint extends cdktn.TerraformResource {
   }
 
   // endpoint_domain_prefix - computed: true, optional: true, required: false
-  private _endpointDomainPrefix?: string;
+  private _endpointDomainPrefix?: string; 
   public get endpointDomainPrefix() {
     return this.getStringAttribute('endpoint_domain_prefix');
   }
@@ -1973,7 +1973,7 @@ export class Ec2VerifiedAccessEndpoint extends cdktn.TerraformResource {
   }
 
   // endpoint_type - computed: false, optional: false, required: true
-  private _endpointType?: string;
+  private _endpointType?: string; 
   public get endpointType() {
     return this.getStringAttribute('endpoint_type');
   }
@@ -2028,7 +2028,7 @@ export class Ec2VerifiedAccessEndpoint extends cdktn.TerraformResource {
   }
 
   // policy_document - computed: true, optional: true, required: false
-  private _policyDocument?: string;
+  private _policyDocument?: string; 
   public get policyDocument() {
     return this.getStringAttribute('policy_document');
   }
@@ -2044,7 +2044,7 @@ export class Ec2VerifiedAccessEndpoint extends cdktn.TerraformResource {
   }
 
   // policy_enabled - computed: true, optional: true, required: false
-  private _policyEnabled?: boolean | cdktn.IResolvable;
+  private _policyEnabled?: boolean | cdktn.IResolvable; 
   public get policyEnabled() {
     return this.getBooleanAttribute('policy_enabled');
   }
@@ -2076,7 +2076,7 @@ export class Ec2VerifiedAccessEndpoint extends cdktn.TerraformResource {
   }
 
   // security_group_ids - computed: true, optional: true, required: false
-  private _securityGroupIds?: string[];
+  private _securityGroupIds?: string[]; 
   public get securityGroupIds() {
     return cdktn.Fn.tolist(this.getListAttribute('security_group_ids'));
   }
@@ -2134,7 +2134,7 @@ export class Ec2VerifiedAccessEndpoint extends cdktn.TerraformResource {
   }
 
   // verified_access_group_id - computed: false, optional: false, required: true
-  private _verifiedAccessGroupId?: string;
+  private _verifiedAccessGroupId?: string; 
   public get verifiedAccessGroupId() {
     return this.getStringAttribute('verified_access_group_id');
   }

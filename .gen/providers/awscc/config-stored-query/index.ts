@@ -28,13 +28,13 @@ export interface ConfigStoredQueryConfig extends cdktn.TerraformMetaArguments {
 }
 export interface ConfigStoredQueryTags {
   /**
-  * The key name of the tag. You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
+  * The key name of the tag. You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/config_stored_query#key ConfigStoredQuery#key}
   */
   readonly key?: string;
   /**
-  * The value for the tag. You can specify a value that is 0 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
+  * The value for the tag. You can specify a value that is 0 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/config_stored_query#value ConfigStoredQuery#value}
   */
@@ -128,7 +128,7 @@ export class ConfigStoredQueryTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -144,7 +144,7 @@ export class ConfigStoredQueryTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -251,7 +251,7 @@ export class ConfigStoredQuery extends cdktn.TerraformResource {
   }
 
   // query_description - computed: true, optional: true, required: false
-  private _queryDescription?: string;
+  private _queryDescription?: string; 
   public get queryDescription() {
     return this.getStringAttribute('query_description');
   }
@@ -267,7 +267,7 @@ export class ConfigStoredQuery extends cdktn.TerraformResource {
   }
 
   // query_expression - computed: false, optional: false, required: true
-  private _queryExpression?: string;
+  private _queryExpression?: string; 
   public get queryExpression() {
     return this.getStringAttribute('query_expression');
   }
@@ -285,7 +285,7 @@ export class ConfigStoredQuery extends cdktn.TerraformResource {
   }
 
   // query_name - computed: false, optional: false, required: true
-  private _queryName?: string;
+  private _queryName?: string; 
   public get queryName() {
     return this.getStringAttribute('query_name');
   }

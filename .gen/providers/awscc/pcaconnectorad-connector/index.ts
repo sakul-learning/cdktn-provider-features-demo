@@ -120,7 +120,7 @@ export class PcaconnectoradConnectorVpcInformationOutputReference extends cdktn.
   }
 
   // ip_address_type - computed: true, optional: true, required: false
-  private _ipAddressType?: string;
+  private _ipAddressType?: string; 
   public get ipAddressType() {
     return this.getStringAttribute('ip_address_type');
   }
@@ -136,7 +136,7 @@ export class PcaconnectoradConnectorVpcInformationOutputReference extends cdktn.
   }
 
   // security_group_ids - computed: false, optional: false, required: true
-  private _securityGroupIds?: string[];
+  private _securityGroupIds?: string[]; 
   public get securityGroupIds() {
     return this.getListAttribute('security_group_ids');
   }
@@ -210,7 +210,7 @@ export class PcaconnectoradConnector extends cdktn.TerraformResource {
   // ==========
 
   // certificate_authority_arn - computed: false, optional: false, required: true
-  private _certificateAuthorityArn?: string;
+  private _certificateAuthorityArn?: string; 
   public get certificateAuthorityArn() {
     return this.getStringAttribute('certificate_authority_arn');
   }
@@ -228,7 +228,7 @@ export class PcaconnectoradConnector extends cdktn.TerraformResource {
   }
 
   // directory_id - computed: false, optional: false, required: true
-  private _directoryId?: string;
+  private _directoryId?: string; 
   public get directoryId() {
     return this.getStringAttribute('directory_id');
   }
@@ -246,7 +246,7 @@ export class PcaconnectoradConnector extends cdktn.TerraformResource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

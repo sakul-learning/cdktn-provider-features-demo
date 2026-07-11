@@ -155,7 +155,7 @@ export class NetworkmanagerDeviceAwsLocationOutputReference extends cdktn.Comple
   }
 
   // subnet_arn - computed: false, optional: true, required: false
-  private _subnetArn?: string;
+  private _subnetArn?: string; 
   public get subnetArn() {
     return this.getStringAttribute('subnet_arn');
   }
@@ -171,7 +171,7 @@ export class NetworkmanagerDeviceAwsLocationOutputReference extends cdktn.Comple
   }
 
   // zone - computed: false, optional: true, required: false
-  private _zone?: string;
+  private _zone?: string; 
   public get zone() {
     return this.getStringAttribute('zone');
   }
@@ -289,7 +289,7 @@ export class NetworkmanagerDeviceLocationOutputReference extends cdktn.ComplexOb
   }
 
   // address - computed: false, optional: true, required: false
-  private _address?: string;
+  private _address?: string; 
   public get address() {
     return this.getStringAttribute('address');
   }
@@ -305,7 +305,7 @@ export class NetworkmanagerDeviceLocationOutputReference extends cdktn.ComplexOb
   }
 
   // latitude - computed: false, optional: true, required: false
-  private _latitude?: string;
+  private _latitude?: string; 
   public get latitude() {
     return this.getStringAttribute('latitude');
   }
@@ -321,7 +321,7 @@ export class NetworkmanagerDeviceLocationOutputReference extends cdktn.ComplexOb
   }
 
   // longitude - computed: false, optional: true, required: false
-  private _longitude?: string;
+  private _longitude?: string; 
   public get longitude() {
     return this.getStringAttribute('longitude');
   }
@@ -449,7 +449,7 @@ export class NetworkmanagerDeviceTimeoutsOutputReference extends cdktn.ComplexOb
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -465,7 +465,7 @@ export class NetworkmanagerDeviceTimeoutsOutputReference extends cdktn.ComplexOb
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -481,7 +481,7 @@ export class NetworkmanagerDeviceTimeoutsOutputReference extends cdktn.ComplexOb
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -572,7 +572,7 @@ export class NetworkmanagerDevice extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -588,7 +588,7 @@ export class NetworkmanagerDevice extends cdktn.TerraformResource {
   }
 
   // global_network_id - computed: false, optional: false, required: true
-  private _globalNetworkId?: string;
+  private _globalNetworkId?: string; 
   public get globalNetworkId() {
     return this.getStringAttribute('global_network_id');
   }
@@ -601,7 +601,7 @@ export class NetworkmanagerDevice extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -617,7 +617,7 @@ export class NetworkmanagerDevice extends cdktn.TerraformResource {
   }
 
   // model - computed: false, optional: true, required: false
-  private _model?: string;
+  private _model?: string; 
   public get model() {
     return this.getStringAttribute('model');
   }
@@ -633,7 +633,7 @@ export class NetworkmanagerDevice extends cdktn.TerraformResource {
   }
 
   // serial_number - computed: false, optional: true, required: false
-  private _serialNumber?: string;
+  private _serialNumber?: string; 
   public get serialNumber() {
     return this.getStringAttribute('serial_number');
   }
@@ -649,7 +649,7 @@ export class NetworkmanagerDevice extends cdktn.TerraformResource {
   }
 
   // site_id - computed: false, optional: true, required: false
-  private _siteId?: string;
+  private _siteId?: string; 
   public get siteId() {
     return this.getStringAttribute('site_id');
   }
@@ -665,7 +665,7 @@ export class NetworkmanagerDevice extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -681,7 +681,7 @@ export class NetworkmanagerDevice extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -697,7 +697,7 @@ export class NetworkmanagerDevice extends cdktn.TerraformResource {
   }
 
   // type - computed: false, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -713,7 +713,7 @@ export class NetworkmanagerDevice extends cdktn.TerraformResource {
   }
 
   // vendor - computed: false, optional: true, required: false
-  private _vendor?: string;
+  private _vendor?: string; 
   public get vendor() {
     return this.getStringAttribute('vendor');
   }

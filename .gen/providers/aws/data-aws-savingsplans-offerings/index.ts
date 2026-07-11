@@ -358,7 +358,7 @@ export class DataAwsSavingsplansOfferingsFilterOutputReference extends cdktn.Com
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -371,7 +371,7 @@ export class DataAwsSavingsplansOfferingsFilterOutputReference extends cdktn.Com
   }
 
   // values - computed: false, optional: false, required: true
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -472,7 +472,7 @@ export class DataAwsSavingsplansOfferings extends cdktn.TerraformDataSource {
   // ==========
 
   // currencies - computed: false, optional: true, required: false
-  private _currencies?: string[];
+  private _currencies?: string[]; 
   public get currencies() {
     return cdktn.Fn.tolist(this.getListAttribute('currencies'));
   }
@@ -488,7 +488,7 @@ export class DataAwsSavingsplansOfferings extends cdktn.TerraformDataSource {
   }
 
   // descriptions - computed: false, optional: true, required: false
-  private _descriptions?: string[];
+  private _descriptions?: string[]; 
   public get descriptions() {
     return cdktn.Fn.tolist(this.getListAttribute('descriptions'));
   }
@@ -504,7 +504,7 @@ export class DataAwsSavingsplansOfferings extends cdktn.TerraformDataSource {
   }
 
   // durations - computed: false, optional: true, required: false
-  private _durations?: number[];
+  private _durations?: number[]; 
   public get durations() {
     return cdktn.Token.asNumberList(cdktn.Fn.tolist(this.getNumberListAttribute('durations')));
   }
@@ -520,7 +520,7 @@ export class DataAwsSavingsplansOfferings extends cdktn.TerraformDataSource {
   }
 
   // offering_ids - computed: false, optional: true, required: false
-  private _offeringIds?: string[];
+  private _offeringIds?: string[]; 
   public get offeringIds() {
     return cdktn.Fn.tolist(this.getListAttribute('offering_ids'));
   }
@@ -542,7 +542,7 @@ export class DataAwsSavingsplansOfferings extends cdktn.TerraformDataSource {
   }
 
   // operations - computed: false, optional: true, required: false
-  private _operations?: string[];
+  private _operations?: string[]; 
   public get operations() {
     return cdktn.Fn.tolist(this.getListAttribute('operations'));
   }
@@ -558,7 +558,7 @@ export class DataAwsSavingsplansOfferings extends cdktn.TerraformDataSource {
   }
 
   // payment_options - computed: false, optional: true, required: false
-  private _paymentOptions?: string[];
+  private _paymentOptions?: string[]; 
   public get paymentOptions() {
     return cdktn.Fn.tolist(this.getListAttribute('payment_options'));
   }
@@ -574,7 +574,7 @@ export class DataAwsSavingsplansOfferings extends cdktn.TerraformDataSource {
   }
 
   // plan_types - computed: false, optional: true, required: false
-  private _planTypes?: string[];
+  private _planTypes?: string[]; 
   public get planTypes() {
     return cdktn.Fn.tolist(this.getListAttribute('plan_types'));
   }
@@ -590,7 +590,7 @@ export class DataAwsSavingsplansOfferings extends cdktn.TerraformDataSource {
   }
 
   // product_type - computed: false, optional: true, required: false
-  private _productType?: string;
+  private _productType?: string; 
   public get productType() {
     return this.getStringAttribute('product_type');
   }
@@ -606,7 +606,7 @@ export class DataAwsSavingsplansOfferings extends cdktn.TerraformDataSource {
   }
 
   // service_codes - computed: false, optional: true, required: false
-  private _serviceCodes?: string[];
+  private _serviceCodes?: string[]; 
   public get serviceCodes() {
     return cdktn.Fn.tolist(this.getListAttribute('service_codes'));
   }
@@ -622,7 +622,7 @@ export class DataAwsSavingsplansOfferings extends cdktn.TerraformDataSource {
   }
 
   // usage_types - computed: false, optional: true, required: false
-  private _usageTypes?: string[];
+  private _usageTypes?: string[]; 
   public get usageTypes() {
     return cdktn.Fn.tolist(this.getListAttribute('usage_types'));
   }

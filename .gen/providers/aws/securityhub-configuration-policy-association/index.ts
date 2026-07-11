@@ -135,7 +135,7 @@ export class SecurityhubConfigurationPolicyAssociationTimeoutsOutputReference ex
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -151,7 +151,7 @@ export class SecurityhubConfigurationPolicyAssociationTimeoutsOutputReference ex
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -229,7 +229,7 @@ export class SecurityhubConfigurationPolicyAssociation extends cdktn.TerraformRe
   // ==========
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -245,7 +245,7 @@ export class SecurityhubConfigurationPolicyAssociation extends cdktn.TerraformRe
   }
 
   // policy_id - computed: false, optional: false, required: true
-  private _policyId?: string;
+  private _policyId?: string; 
   public get policyId() {
     return this.getStringAttribute('policy_id');
   }
@@ -258,7 +258,7 @@ export class SecurityhubConfigurationPolicyAssociation extends cdktn.TerraformRe
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -274,7 +274,7 @@ export class SecurityhubConfigurationPolicyAssociation extends cdktn.TerraformRe
   }
 
   // target_id - computed: false, optional: false, required: true
-  private _targetId?: string;
+  private _targetId?: string; 
   public get targetId() {
     return this.getStringAttribute('target_id');
   }

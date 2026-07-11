@@ -146,7 +146,7 @@ export class OrganizationsPolicyTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -162,7 +162,7 @@ export class OrganizationsPolicyTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -271,7 +271,7 @@ export class OrganizationsPolicy extends cdktn.TerraformResource {
   }
 
   // content - computed: false, optional: false, required: true
-  private _content?: string;
+  private _content?: string; 
   public get content() {
     return this.getStringAttribute('content');
   }
@@ -284,7 +284,7 @@ export class OrganizationsPolicy extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -305,7 +305,7 @@ export class OrganizationsPolicy extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -339,7 +339,7 @@ export class OrganizationsPolicy extends cdktn.TerraformResource {
   }
 
   // target_ids - computed: true, optional: true, required: false
-  private _targetIds?: string[];
+  private _targetIds?: string[]; 
   public get targetIds() {
     return cdktn.Fn.tolist(this.getListAttribute('target_ids'));
   }
@@ -355,7 +355,7 @@ export class OrganizationsPolicy extends cdktn.TerraformResource {
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }

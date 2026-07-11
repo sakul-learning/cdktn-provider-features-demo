@@ -138,7 +138,7 @@ export class IotAuthorizerTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -154,7 +154,7 @@ export class IotAuthorizerTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -260,7 +260,7 @@ export class IotAuthorizer extends cdktn.TerraformResource {
   }
 
   // authorizer_function_arn - computed: false, optional: false, required: true
-  private _authorizerFunctionArn?: string;
+  private _authorizerFunctionArn?: string; 
   public get authorizerFunctionArn() {
     return this.getStringAttribute('authorizer_function_arn');
   }
@@ -273,7 +273,7 @@ export class IotAuthorizer extends cdktn.TerraformResource {
   }
 
   // authorizer_name - computed: true, optional: true, required: false
-  private _authorizerName?: string;
+  private _authorizerName?: string; 
   public get authorizerName() {
     return this.getStringAttribute('authorizer_name');
   }
@@ -289,7 +289,7 @@ export class IotAuthorizer extends cdktn.TerraformResource {
   }
 
   // enable_caching_for_http - computed: true, optional: true, required: false
-  private _enableCachingForHttp?: boolean | cdktn.IResolvable;
+  private _enableCachingForHttp?: boolean | cdktn.IResolvable; 
   public get enableCachingForHttp() {
     return this.getBooleanAttribute('enable_caching_for_http');
   }
@@ -310,7 +310,7 @@ export class IotAuthorizer extends cdktn.TerraformResource {
   }
 
   // signing_disabled - computed: true, optional: true, required: false
-  private _signingDisabled?: boolean | cdktn.IResolvable;
+  private _signingDisabled?: boolean | cdktn.IResolvable; 
   public get signingDisabled() {
     return this.getBooleanAttribute('signing_disabled');
   }
@@ -326,7 +326,7 @@ export class IotAuthorizer extends cdktn.TerraformResource {
   }
 
   // status - computed: true, optional: true, required: false
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -358,7 +358,7 @@ export class IotAuthorizer extends cdktn.TerraformResource {
   }
 
   // token_key_name - computed: true, optional: true, required: false
-  private _tokenKeyName?: string;
+  private _tokenKeyName?: string; 
   public get tokenKeyName() {
     return this.getStringAttribute('token_key_name');
   }
@@ -374,7 +374,7 @@ export class IotAuthorizer extends cdktn.TerraformResource {
   }
 
   // token_signing_public_keys - computed: true, optional: true, required: false
-  private _tokenSigningPublicKeys?: { [key: string]: string };
+  private _tokenSigningPublicKeys?: { [key: string]: string }; 
   public get tokenSigningPublicKeys() {
     return this.getStringMapAttribute('token_signing_public_keys');
   }

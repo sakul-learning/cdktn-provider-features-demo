@@ -171,7 +171,7 @@ export class NetworkmanagerVpcAttachmentOptionsOutputReference extends cdktn.Com
   }
 
   // appliance_mode_support - computed: true, optional: true, required: false
-  private _applianceModeSupport?: boolean | cdktn.IResolvable;
+  private _applianceModeSupport?: boolean | cdktn.IResolvable; 
   public get applianceModeSupport() {
     return this.getBooleanAttribute('appliance_mode_support');
   }
@@ -187,7 +187,7 @@ export class NetworkmanagerVpcAttachmentOptionsOutputReference extends cdktn.Com
   }
 
   // dns_support - computed: true, optional: true, required: false
-  private _dnsSupport?: boolean | cdktn.IResolvable;
+  private _dnsSupport?: boolean | cdktn.IResolvable; 
   public get dnsSupport() {
     return this.getBooleanAttribute('dns_support');
   }
@@ -203,7 +203,7 @@ export class NetworkmanagerVpcAttachmentOptionsOutputReference extends cdktn.Com
   }
 
   // ipv6_support - computed: true, optional: true, required: false
-  private _ipv6Support?: boolean | cdktn.IResolvable;
+  private _ipv6Support?: boolean | cdktn.IResolvable; 
   public get ipv6Support() {
     return this.getBooleanAttribute('ipv6_support');
   }
@@ -219,7 +219,7 @@ export class NetworkmanagerVpcAttachmentOptionsOutputReference extends cdktn.Com
   }
 
   // security_group_referencing_support - computed: true, optional: true, required: false
-  private _securityGroupReferencingSupport?: boolean | cdktn.IResolvable;
+  private _securityGroupReferencingSupport?: boolean | cdktn.IResolvable; 
   public get securityGroupReferencingSupport() {
     return this.getBooleanAttribute('security_group_referencing_support');
   }
@@ -347,7 +347,7 @@ export class NetworkmanagerVpcAttachmentTimeoutsOutputReference extends cdktn.Co
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -363,7 +363,7 @@ export class NetworkmanagerVpcAttachmentTimeoutsOutputReference extends cdktn.Co
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -379,7 +379,7 @@ export class NetworkmanagerVpcAttachmentTimeoutsOutputReference extends cdktn.Co
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -481,7 +481,7 @@ export class NetworkmanagerVpcAttachment extends cdktn.TerraformResource {
   }
 
   // core_network_id - computed: false, optional: false, required: true
-  private _coreNetworkId?: string;
+  private _coreNetworkId?: string; 
   public get coreNetworkId() {
     return this.getStringAttribute('core_network_id');
   }
@@ -499,7 +499,7 @@ export class NetworkmanagerVpcAttachment extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -525,7 +525,7 @@ export class NetworkmanagerVpcAttachment extends cdktn.TerraformResource {
   }
 
   // routing_policy_label - computed: false, optional: true, required: false
-  private _routingPolicyLabel?: string;
+  private _routingPolicyLabel?: string; 
   public get routingPolicyLabel() {
     return this.getStringAttribute('routing_policy_label');
   }
@@ -551,7 +551,7 @@ export class NetworkmanagerVpcAttachment extends cdktn.TerraformResource {
   }
 
   // subnet_arns - computed: false, optional: false, required: true
-  private _subnetArns?: string[];
+  private _subnetArns?: string[]; 
   public get subnetArns() {
     return cdktn.Fn.tolist(this.getListAttribute('subnet_arns'));
   }
@@ -564,7 +564,7 @@ export class NetworkmanagerVpcAttachment extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -580,7 +580,7 @@ export class NetworkmanagerVpcAttachment extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -596,7 +596,7 @@ export class NetworkmanagerVpcAttachment extends cdktn.TerraformResource {
   }
 
   // vpc_arn - computed: false, optional: false, required: true
-  private _vpcArn?: string;
+  private _vpcArn?: string; 
   public get vpcArn() {
     return this.getStringAttribute('vpc_arn');
   }

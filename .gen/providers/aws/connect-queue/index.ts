@@ -166,7 +166,7 @@ export class ConnectQueueOutboundCallerConfigOutputReference extends cdktn.Compl
   }
 
   // outbound_caller_id_name - computed: false, optional: true, required: false
-  private _outboundCallerIdName?: string;
+  private _outboundCallerIdName?: string; 
   public get outboundCallerIdName() {
     return this.getStringAttribute('outbound_caller_id_name');
   }
@@ -182,7 +182,7 @@ export class ConnectQueueOutboundCallerConfigOutputReference extends cdktn.Compl
   }
 
   // outbound_caller_id_number_id - computed: false, optional: true, required: false
-  private _outboundCallerIdNumberId?: string;
+  private _outboundCallerIdNumberId?: string; 
   public get outboundCallerIdNumberId() {
     return this.getStringAttribute('outbound_caller_id_number_id');
   }
@@ -198,7 +198,7 @@ export class ConnectQueueOutboundCallerConfigOutputReference extends cdktn.Compl
   }
 
   // outbound_flow_id - computed: false, optional: true, required: false
-  private _outboundFlowId?: string;
+  private _outboundFlowId?: string; 
   public get outboundFlowId() {
     return this.getStringAttribute('outbound_flow_id');
   }
@@ -288,7 +288,7 @@ export class ConnectQueue extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -304,7 +304,7 @@ export class ConnectQueue extends cdktn.TerraformResource {
   }
 
   // hours_of_operation_id - computed: false, optional: false, required: true
-  private _hoursOfOperationId?: string;
+  private _hoursOfOperationId?: string; 
   public get hoursOfOperationId() {
     return this.getStringAttribute('hours_of_operation_id');
   }
@@ -317,7 +317,7 @@ export class ConnectQueue extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -333,7 +333,7 @@ export class ConnectQueue extends cdktn.TerraformResource {
   }
 
   // instance_id - computed: false, optional: false, required: true
-  private _instanceId?: string;
+  private _instanceId?: string; 
   public get instanceId() {
     return this.getStringAttribute('instance_id');
   }
@@ -346,7 +346,7 @@ export class ConnectQueue extends cdktn.TerraformResource {
   }
 
   // max_contacts - computed: false, optional: true, required: false
-  private _maxContacts?: number;
+  private _maxContacts?: number; 
   public get maxContacts() {
     return this.getNumberAttribute('max_contacts');
   }
@@ -362,7 +362,7 @@ export class ConnectQueue extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -380,7 +380,7 @@ export class ConnectQueue extends cdktn.TerraformResource {
   }
 
   // quick_connect_ids - computed: false, optional: true, required: false
-  private _quickConnectIds?: string[];
+  private _quickConnectIds?: string[]; 
   public get quickConnectIds() {
     return cdktn.Fn.tolist(this.getListAttribute('quick_connect_ids'));
   }
@@ -396,7 +396,7 @@ export class ConnectQueue extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -412,7 +412,7 @@ export class ConnectQueue extends cdktn.TerraformResource {
   }
 
   // status - computed: true, optional: true, required: false
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -428,7 +428,7 @@ export class ConnectQueue extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -444,7 +444,7 @@ export class ConnectQueue extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

@@ -136,7 +136,7 @@ export class ComprehendFlywheelDataSecurityConfigVpcConfigOutputReference extend
   }
 
   // security_group_ids - computed: true, optional: true, required: false
-  private _securityGroupIds?: string[];
+  private _securityGroupIds?: string[]; 
   public get securityGroupIds() {
     return cdktn.Fn.tolist(this.getListAttribute('security_group_ids'));
   }
@@ -152,7 +152,7 @@ export class ComprehendFlywheelDataSecurityConfigVpcConfigOutputReference extend
   }
 
   // subnets - computed: true, optional: true, required: false
-  private _subnets?: string[];
+  private _subnets?: string[]; 
   public get subnets() {
     return cdktn.Fn.tolist(this.getListAttribute('subnets'));
   }
@@ -297,7 +297,7 @@ export class ComprehendFlywheelDataSecurityConfigOutputReference extends cdktn.C
   }
 
   // data_lake_kms_key_id - computed: true, optional: true, required: false
-  private _dataLakeKmsKeyId?: string;
+  private _dataLakeKmsKeyId?: string; 
   public get dataLakeKmsKeyId() {
     return this.getStringAttribute('data_lake_kms_key_id');
   }
@@ -313,7 +313,7 @@ export class ComprehendFlywheelDataSecurityConfigOutputReference extends cdktn.C
   }
 
   // model_kms_key_id - computed: true, optional: true, required: false
-  private _modelKmsKeyId?: string;
+  private _modelKmsKeyId?: string; 
   public get modelKmsKeyId() {
     return this.getStringAttribute('model_kms_key_id');
   }
@@ -329,7 +329,7 @@ export class ComprehendFlywheelDataSecurityConfigOutputReference extends cdktn.C
   }
 
   // volume_kms_key_id - computed: true, optional: true, required: false
-  private _volumeKmsKeyId?: string;
+  private _volumeKmsKeyId?: string; 
   public get volumeKmsKeyId() {
     return this.getStringAttribute('volume_kms_key_id');
   }
@@ -458,7 +458,7 @@ export class ComprehendFlywheelTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -474,7 +474,7 @@ export class ComprehendFlywheelTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -605,7 +605,7 @@ export class ComprehendFlywheelTaskConfigDocumentClassificationConfigOutputRefer
   }
 
   // labels - computed: true, optional: true, required: false
-  private _labels?: string[];
+  private _labels?: string[]; 
   public get labels() {
     return cdktn.Fn.tolist(this.getListAttribute('labels'));
   }
@@ -621,7 +621,7 @@ export class ComprehendFlywheelTaskConfigDocumentClassificationConfigOutputRefer
   }
 
   // mode - computed: true, optional: true, required: false
-  private _mode?: string;
+  private _mode?: string; 
   public get mode() {
     return this.getStringAttribute('mode');
   }
@@ -717,7 +717,7 @@ export class ComprehendFlywheelTaskConfigEntityRecognitionConfigEntityTypesOutpu
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -991,7 +991,7 @@ export class ComprehendFlywheelTaskConfigOutputReference extends cdktn.ComplexOb
   }
 
   // language_code - computed: true, optional: true, required: false
-  private _languageCode?: string;
+  private _languageCode?: string; 
   public get languageCode() {
     return this.getStringAttribute('language_code');
   }
@@ -1072,7 +1072,7 @@ export class ComprehendFlywheel extends cdktn.TerraformResource {
   // ==========
 
   // active_model_arn - computed: true, optional: true, required: false
-  private _activeModelArn?: string;
+  private _activeModelArn?: string; 
   public get activeModelArn() {
     return this.getStringAttribute('active_model_arn');
   }
@@ -1093,7 +1093,7 @@ export class ComprehendFlywheel extends cdktn.TerraformResource {
   }
 
   // data_access_role_arn - computed: false, optional: false, required: true
-  private _dataAccessRoleArn?: string;
+  private _dataAccessRoleArn?: string; 
   public get dataAccessRoleArn() {
     return this.getStringAttribute('data_access_role_arn');
   }
@@ -1106,7 +1106,7 @@ export class ComprehendFlywheel extends cdktn.TerraformResource {
   }
 
   // data_lake_s3_uri - computed: false, optional: false, required: true
-  private _dataLakeS3Uri?: string;
+  private _dataLakeS3Uri?: string; 
   public get dataLakeS3Uri() {
     return this.getStringAttribute('data_lake_s3_uri');
   }
@@ -1135,7 +1135,7 @@ export class ComprehendFlywheel extends cdktn.TerraformResource {
   }
 
   // flywheel_name - computed: false, optional: false, required: true
-  private _flywheelName?: string;
+  private _flywheelName?: string; 
   public get flywheelName() {
     return this.getStringAttribute('flywheel_name');
   }
@@ -1153,7 +1153,7 @@ export class ComprehendFlywheel extends cdktn.TerraformResource {
   }
 
   // model_type - computed: true, optional: true, required: false
-  private _modelType?: string;
+  private _modelType?: string; 
   public get modelType() {
     return this.getStringAttribute('model_type');
   }

@@ -176,7 +176,7 @@ export class Ec2TransitGatewayVpcAttachmentOptionsOutputReference extends cdktn.
   }
 
   // appliance_mode_support - computed: true, optional: true, required: false
-  private _applianceModeSupport?: string;
+  private _applianceModeSupport?: string; 
   public get applianceModeSupport() {
     return this.getStringAttribute('appliance_mode_support');
   }
@@ -192,7 +192,7 @@ export class Ec2TransitGatewayVpcAttachmentOptionsOutputReference extends cdktn.
   }
 
   // dns_support - computed: true, optional: true, required: false
-  private _dnsSupport?: string;
+  private _dnsSupport?: string; 
   public get dnsSupport() {
     return this.getStringAttribute('dns_support');
   }
@@ -208,7 +208,7 @@ export class Ec2TransitGatewayVpcAttachmentOptionsOutputReference extends cdktn.
   }
 
   // ipv_6_support - computed: true, optional: true, required: false
-  private _ipv6Support?: string;
+  private _ipv6Support?: string; 
   public get ipv6Support() {
     return this.getStringAttribute('ipv_6_support');
   }
@@ -224,7 +224,7 @@ export class Ec2TransitGatewayVpcAttachmentOptionsOutputReference extends cdktn.
   }
 
   // security_group_referencing_support - computed: true, optional: true, required: false
-  private _securityGroupReferencingSupport?: string;
+  private _securityGroupReferencingSupport?: string; 
   public get securityGroupReferencingSupport() {
     return this.getStringAttribute('security_group_referencing_support');
   }
@@ -337,7 +337,7 @@ export class Ec2TransitGatewayVpcAttachmentTagsOutputReference extends cdktn.Com
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -353,7 +353,7 @@ export class Ec2TransitGatewayVpcAttachmentTagsOutputReference extends cdktn.Com
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -453,7 +453,7 @@ export class Ec2TransitGatewayVpcAttachment extends cdktn.TerraformResource {
   // ==========
 
   // add_subnet_ids - computed: true, optional: true, required: false
-  private _addSubnetIds?: string[];
+  private _addSubnetIds?: string[]; 
   public get addSubnetIds() {
     return this.getListAttribute('add_subnet_ids');
   }
@@ -490,7 +490,7 @@ export class Ec2TransitGatewayVpcAttachment extends cdktn.TerraformResource {
   }
 
   // remove_subnet_ids - computed: true, optional: true, required: false
-  private _removeSubnetIds?: string[];
+  private _removeSubnetIds?: string[]; 
   public get removeSubnetIds() {
     return this.getListAttribute('remove_subnet_ids');
   }
@@ -506,7 +506,7 @@ export class Ec2TransitGatewayVpcAttachment extends cdktn.TerraformResource {
   }
 
   // subnet_ids - computed: false, optional: false, required: true
-  private _subnetIds?: string[];
+  private _subnetIds?: string[]; 
   public get subnetIds() {
     return this.getListAttribute('subnet_ids');
   }
@@ -535,7 +535,7 @@ export class Ec2TransitGatewayVpcAttachment extends cdktn.TerraformResource {
   }
 
   // transit_gateway_id - computed: false, optional: false, required: true
-  private _transitGatewayId?: string;
+  private _transitGatewayId?: string; 
   public get transitGatewayId() {
     return this.getStringAttribute('transit_gateway_id');
   }
@@ -553,7 +553,7 @@ export class Ec2TransitGatewayVpcAttachment extends cdktn.TerraformResource {
   }
 
   // vpc_id - computed: false, optional: false, required: true
-  private _vpcId?: string;
+  private _vpcId?: string; 
   public get vpcId() {
     return this.getStringAttribute('vpc_id');
   }

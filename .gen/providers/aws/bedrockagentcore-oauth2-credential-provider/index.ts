@@ -239,7 +239,7 @@ export class BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigCustomO
   }
 
   // authorization_endpoint - computed: false, optional: false, required: true
-  private _authorizationEndpoint?: string;
+  private _authorizationEndpoint?: string; 
   public get authorizationEndpoint() {
     return this.getStringAttribute('authorization_endpoint');
   }
@@ -252,7 +252,7 @@ export class BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigCustomO
   }
 
   // issuer - computed: false, optional: false, required: true
-  private _issuer?: string;
+  private _issuer?: string; 
   public get issuer() {
     return this.getStringAttribute('issuer');
   }
@@ -265,7 +265,7 @@ export class BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigCustomO
   }
 
   // response_types - computed: false, optional: true, required: false
-  private _responseTypes?: string[];
+  private _responseTypes?: string[]; 
   public get responseTypes() {
     return cdktn.Fn.tolist(this.getListAttribute('response_types'));
   }
@@ -281,7 +281,7 @@ export class BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigCustomO
   }
 
   // token_endpoint - computed: false, optional: false, required: true
-  private _tokenEndpoint?: string;
+  private _tokenEndpoint?: string; 
   public get tokenEndpoint() {
     return this.getStringAttribute('token_endpoint');
   }
@@ -413,7 +413,7 @@ export class BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigCustomO
   }
 
   // discovery_url - computed: false, optional: true, required: false
-  private _discoveryUrl?: string;
+  private _discoveryUrl?: string; 
   public get discoveryUrl() {
     return this.getStringAttribute('discovery_url');
   }
@@ -632,7 +632,7 @@ export class BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigCustomO
   }
 
   // client_credentials_wo_version - computed: false, optional: true, required: false
-  private _clientCredentialsWoVersion?: number;
+  private _clientCredentialsWoVersion?: number; 
   public get clientCredentialsWoVersion() {
     return this.getNumberAttribute('client_credentials_wo_version');
   }
@@ -648,7 +648,7 @@ export class BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigCustomO
   }
 
   // client_id - computed: false, optional: true, required: false
-  private _clientId?: string;
+  private _clientId?: string; 
   public get clientId() {
     return this.getStringAttribute('client_id');
   }
@@ -664,7 +664,7 @@ export class BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigCustomO
   }
 
   // client_id_wo - computed: false, optional: true, required: false
-  private _clientIdWo?: string;
+  private _clientIdWo?: string; 
   /**
   * @deprecated Write-only: the provider never returns this value; reading it always yields null by protocol contract. The getter remains for compatibility and will be removed in a future prebuilt-provider major.
   */
@@ -683,7 +683,7 @@ export class BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigCustomO
   }
 
   // client_secret - computed: false, optional: true, required: false
-  private _clientSecret?: string;
+  private _clientSecret?: string; 
   public get clientSecret() {
     return this.getStringAttribute('client_secret');
   }
@@ -699,7 +699,7 @@ export class BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigCustomO
   }
 
   // client_secret_wo - computed: false, optional: true, required: false
-  private _clientSecretWo?: string;
+  private _clientSecretWo?: string; 
   /**
   * @deprecated Write-only: the provider never returns this value; reading it always yields null by protocol contract. The getter remains for compatibility and will be removed in a future prebuilt-provider major.
   */
@@ -1073,7 +1073,7 @@ export class BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigGithubO
   }
 
   // client_credentials_wo_version - computed: false, optional: true, required: false
-  private _clientCredentialsWoVersion?: number;
+  private _clientCredentialsWoVersion?: number; 
   public get clientCredentialsWoVersion() {
     return this.getNumberAttribute('client_credentials_wo_version');
   }
@@ -1089,7 +1089,7 @@ export class BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigGithubO
   }
 
   // client_id - computed: false, optional: true, required: false
-  private _clientId?: string;
+  private _clientId?: string; 
   public get clientId() {
     return this.getStringAttribute('client_id');
   }
@@ -1105,7 +1105,7 @@ export class BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigGithubO
   }
 
   // client_id_wo - computed: false, optional: true, required: false
-  private _clientIdWo?: string;
+  private _clientIdWo?: string; 
   /**
   * @deprecated Write-only: the provider never returns this value; reading it always yields null by protocol contract. The getter remains for compatibility and will be removed in a future prebuilt-provider major.
   */
@@ -1124,7 +1124,7 @@ export class BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigGithubO
   }
 
   // client_secret - computed: false, optional: true, required: false
-  private _clientSecret?: string;
+  private _clientSecret?: string; 
   public get clientSecret() {
     return this.getStringAttribute('client_secret');
   }
@@ -1140,7 +1140,7 @@ export class BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigGithubO
   }
 
   // client_secret_wo - computed: false, optional: true, required: false
-  private _clientSecretWo?: string;
+  private _clientSecretWo?: string; 
   /**
   * @deprecated Write-only: the provider never returns this value; reading it always yields null by protocol contract. The getter remains for compatibility and will be removed in a future prebuilt-provider major.
   */
@@ -1504,7 +1504,7 @@ export class BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigGoogleO
   }
 
   // client_credentials_wo_version - computed: false, optional: true, required: false
-  private _clientCredentialsWoVersion?: number;
+  private _clientCredentialsWoVersion?: number; 
   public get clientCredentialsWoVersion() {
     return this.getNumberAttribute('client_credentials_wo_version');
   }
@@ -1520,7 +1520,7 @@ export class BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigGoogleO
   }
 
   // client_id - computed: false, optional: true, required: false
-  private _clientId?: string;
+  private _clientId?: string; 
   public get clientId() {
     return this.getStringAttribute('client_id');
   }
@@ -1536,7 +1536,7 @@ export class BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigGoogleO
   }
 
   // client_id_wo - computed: false, optional: true, required: false
-  private _clientIdWo?: string;
+  private _clientIdWo?: string; 
   /**
   * @deprecated Write-only: the provider never returns this value; reading it always yields null by protocol contract. The getter remains for compatibility and will be removed in a future prebuilt-provider major.
   */
@@ -1555,7 +1555,7 @@ export class BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigGoogleO
   }
 
   // client_secret - computed: false, optional: true, required: false
-  private _clientSecret?: string;
+  private _clientSecret?: string; 
   public get clientSecret() {
     return this.getStringAttribute('client_secret');
   }
@@ -1571,7 +1571,7 @@ export class BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigGoogleO
   }
 
   // client_secret_wo - computed: false, optional: true, required: false
-  private _clientSecretWo?: string;
+  private _clientSecretWo?: string; 
   /**
   * @deprecated Write-only: the provider never returns this value; reading it always yields null by protocol contract. The getter remains for compatibility and will be removed in a future prebuilt-provider major.
   */
@@ -1935,7 +1935,7 @@ export class BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigMicroso
   }
 
   // client_credentials_wo_version - computed: false, optional: true, required: false
-  private _clientCredentialsWoVersion?: number;
+  private _clientCredentialsWoVersion?: number; 
   public get clientCredentialsWoVersion() {
     return this.getNumberAttribute('client_credentials_wo_version');
   }
@@ -1951,7 +1951,7 @@ export class BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigMicroso
   }
 
   // client_id - computed: false, optional: true, required: false
-  private _clientId?: string;
+  private _clientId?: string; 
   public get clientId() {
     return this.getStringAttribute('client_id');
   }
@@ -1967,7 +1967,7 @@ export class BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigMicroso
   }
 
   // client_id_wo - computed: false, optional: true, required: false
-  private _clientIdWo?: string;
+  private _clientIdWo?: string; 
   /**
   * @deprecated Write-only: the provider never returns this value; reading it always yields null by protocol contract. The getter remains for compatibility and will be removed in a future prebuilt-provider major.
   */
@@ -1986,7 +1986,7 @@ export class BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigMicroso
   }
 
   // client_secret - computed: false, optional: true, required: false
-  private _clientSecret?: string;
+  private _clientSecret?: string; 
   public get clientSecret() {
     return this.getStringAttribute('client_secret');
   }
@@ -2002,7 +2002,7 @@ export class BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigMicroso
   }
 
   // client_secret_wo - computed: false, optional: true, required: false
-  private _clientSecretWo?: string;
+  private _clientSecretWo?: string; 
   /**
   * @deprecated Write-only: the provider never returns this value; reading it always yields null by protocol contract. The getter remains for compatibility and will be removed in a future prebuilt-provider major.
   */
@@ -2366,7 +2366,7 @@ export class BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigSalesfo
   }
 
   // client_credentials_wo_version - computed: false, optional: true, required: false
-  private _clientCredentialsWoVersion?: number;
+  private _clientCredentialsWoVersion?: number; 
   public get clientCredentialsWoVersion() {
     return this.getNumberAttribute('client_credentials_wo_version');
   }
@@ -2382,7 +2382,7 @@ export class BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigSalesfo
   }
 
   // client_id - computed: false, optional: true, required: false
-  private _clientId?: string;
+  private _clientId?: string; 
   public get clientId() {
     return this.getStringAttribute('client_id');
   }
@@ -2398,7 +2398,7 @@ export class BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigSalesfo
   }
 
   // client_id_wo - computed: false, optional: true, required: false
-  private _clientIdWo?: string;
+  private _clientIdWo?: string; 
   /**
   * @deprecated Write-only: the provider never returns this value; reading it always yields null by protocol contract. The getter remains for compatibility and will be removed in a future prebuilt-provider major.
   */
@@ -2417,7 +2417,7 @@ export class BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigSalesfo
   }
 
   // client_secret - computed: false, optional: true, required: false
-  private _clientSecret?: string;
+  private _clientSecret?: string; 
   public get clientSecret() {
     return this.getStringAttribute('client_secret');
   }
@@ -2433,7 +2433,7 @@ export class BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigSalesfo
   }
 
   // client_secret_wo - computed: false, optional: true, required: false
-  private _clientSecretWo?: string;
+  private _clientSecretWo?: string; 
   /**
   * @deprecated Write-only: the provider never returns this value; reading it always yields null by protocol contract. The getter remains for compatibility and will be removed in a future prebuilt-provider major.
   */
@@ -2797,7 +2797,7 @@ export class BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigSlackOa
   }
 
   // client_credentials_wo_version - computed: false, optional: true, required: false
-  private _clientCredentialsWoVersion?: number;
+  private _clientCredentialsWoVersion?: number; 
   public get clientCredentialsWoVersion() {
     return this.getNumberAttribute('client_credentials_wo_version');
   }
@@ -2813,7 +2813,7 @@ export class BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigSlackOa
   }
 
   // client_id - computed: false, optional: true, required: false
-  private _clientId?: string;
+  private _clientId?: string; 
   public get clientId() {
     return this.getStringAttribute('client_id');
   }
@@ -2829,7 +2829,7 @@ export class BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigSlackOa
   }
 
   // client_id_wo - computed: false, optional: true, required: false
-  private _clientIdWo?: string;
+  private _clientIdWo?: string; 
   /**
   * @deprecated Write-only: the provider never returns this value; reading it always yields null by protocol contract. The getter remains for compatibility and will be removed in a future prebuilt-provider major.
   */
@@ -2848,7 +2848,7 @@ export class BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigSlackOa
   }
 
   // client_secret - computed: false, optional: true, required: false
-  private _clientSecret?: string;
+  private _clientSecret?: string; 
   public get clientSecret() {
     return this.getStringAttribute('client_secret');
   }
@@ -2864,7 +2864,7 @@ export class BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigSlackOa
   }
 
   // client_secret_wo - computed: false, optional: true, required: false
-  private _clientSecretWo?: string;
+  private _clientSecretWo?: string; 
   /**
   * @deprecated Write-only: the provider never returns this value; reading it always yields null by protocol contract. The getter remains for compatibility and will be removed in a future prebuilt-provider major.
   */
@@ -3275,7 +3275,7 @@ export class BedrockagentcoreOauth2CredentialProvider extends cdktn.TerraformRes
   }
 
   // credential_provider_vendor - computed: false, optional: false, required: true
-  private _credentialProviderVendor?: string;
+  private _credentialProviderVendor?: string; 
   public get credentialProviderVendor() {
     return this.getStringAttribute('credential_provider_vendor');
   }
@@ -3288,7 +3288,7 @@ export class BedrockagentcoreOauth2CredentialProvider extends cdktn.TerraformRes
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -3301,7 +3301,7 @@ export class BedrockagentcoreOauth2CredentialProvider extends cdktn.TerraformRes
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -3317,7 +3317,7 @@ export class BedrockagentcoreOauth2CredentialProvider extends cdktn.TerraformRes
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

@@ -14,8 +14,8 @@ export interface Route53RecoveryreadinessResourceSetConfig extends cdktn.Terrafo
   */
   readonly resourceSetName?: string;
   /**
-  * The resource type of the resources in the resource set. Enter one of the following values for resource type:
-  *
+  * The resource type of the resources in the resource set. Enter one of the following values for resource type: 
+  * 
   * AWS: :AutoScaling: :AutoScalingGroup, AWS: :CloudWatch: :Alarm, AWS: :EC2: :CustomerGateway, AWS: :DynamoDB: :Table, AWS: :EC2: :Volume, AWS: :ElasticLoadBalancing: :LoadBalancer, AWS: :ElasticLoadBalancingV2: :LoadBalancer, AWS: :MSK: :Cluster, AWS: :RDS: :DBCluster, AWS: :Route53: :HealthCheck, AWS: :SQS: :Queue, AWS: :SNS: :Topic, AWS: :SNS: :Subscription, AWS: :EC2: :VPC, AWS: :EC2: :VPNConnection, AWS: :EC2: :VPNGateway, AWS::Route53RecoveryReadiness::DNSTargetResource
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53recoveryreadiness_resource_set#resource_set_type Route53RecoveryreadinessResourceSet#resource_set_type}
@@ -115,7 +115,7 @@ export class Route53RecoveryreadinessResourceSetResourcesDnsTargetResourceTarget
   }
 
   // arn - computed: true, optional: true, required: false
-  private _arn?: string;
+  private _arn?: string; 
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -230,7 +230,7 @@ export class Route53RecoveryreadinessResourceSetResourcesDnsTargetResourceTarget
   }
 
   // domain_name - computed: true, optional: true, required: false
-  private _domainName?: string;
+  private _domainName?: string; 
   public get domainName() {
     return this.getStringAttribute('domain_name');
   }
@@ -246,7 +246,7 @@ export class Route53RecoveryreadinessResourceSetResourcesDnsTargetResourceTarget
   }
 
   // record_set_id - computed: true, optional: true, required: false
-  private _recordSetId?: string;
+  private _recordSetId?: string; 
   public get recordSetId() {
     return this.getStringAttribute('record_set_id');
   }
@@ -549,7 +549,7 @@ export class Route53RecoveryreadinessResourceSetResourcesDnsTargetResourceOutput
   }
 
   // domain_name - computed: true, optional: true, required: false
-  private _domainName?: string;
+  private _domainName?: string; 
   public get domainName() {
     return this.getStringAttribute('domain_name');
   }
@@ -565,7 +565,7 @@ export class Route53RecoveryreadinessResourceSetResourcesDnsTargetResourceOutput
   }
 
   // hosted_zone_arn - computed: true, optional: true, required: false
-  private _hostedZoneArn?: string;
+  private _hostedZoneArn?: string; 
   public get hostedZoneArn() {
     return this.getStringAttribute('hosted_zone_arn');
   }
@@ -581,7 +581,7 @@ export class Route53RecoveryreadinessResourceSetResourcesDnsTargetResourceOutput
   }
 
   // record_set_id - computed: true, optional: true, required: false
-  private _recordSetId?: string;
+  private _recordSetId?: string; 
   public get recordSetId() {
     return this.getStringAttribute('record_set_id');
   }
@@ -597,7 +597,7 @@ export class Route53RecoveryreadinessResourceSetResourcesDnsTargetResourceOutput
   }
 
   // record_type - computed: true, optional: true, required: false
-  private _recordType?: string;
+  private _recordType?: string; 
   public get recordType() {
     return this.getStringAttribute('record_type');
   }
@@ -768,7 +768,7 @@ export class Route53RecoveryreadinessResourceSetResourcesOutputReference extends
   }
 
   // component_id - computed: true, optional: true, required: false
-  private _componentId?: string;
+  private _componentId?: string; 
   public get componentId() {
     return this.getStringAttribute('component_id');
   }
@@ -800,7 +800,7 @@ export class Route53RecoveryreadinessResourceSetResourcesOutputReference extends
   }
 
   // readiness_scopes - computed: true, optional: true, required: false
-  private _readinessScopes?: string[];
+  private _readinessScopes?: string[]; 
   public get readinessScopes() {
     return this.getListAttribute('readiness_scopes');
   }
@@ -816,7 +816,7 @@ export class Route53RecoveryreadinessResourceSetResourcesOutputReference extends
   }
 
   // resource_arn - computed: true, optional: true, required: false
-  private _resourceArn?: string;
+  private _resourceArn?: string; 
   public get resourceArn() {
     return this.getStringAttribute('resource_arn');
   }
@@ -949,7 +949,7 @@ export class Route53RecoveryreadinessResourceSetTagsOutputReference extends cdkt
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -965,7 +965,7 @@ export class Route53RecoveryreadinessResourceSetTagsOutputReference extends cdkt
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1072,7 +1072,7 @@ export class Route53RecoveryreadinessResourceSet extends cdktn.TerraformResource
   }
 
   // resource_set_name - computed: true, optional: true, required: false
-  private _resourceSetName?: string;
+  private _resourceSetName?: string; 
   public get resourceSetName() {
     return this.getStringAttribute('resource_set_name');
   }
@@ -1088,7 +1088,7 @@ export class Route53RecoveryreadinessResourceSet extends cdktn.TerraformResource
   }
 
   // resource_set_type - computed: false, optional: false, required: true
-  private _resourceSetType?: string;
+  private _resourceSetType?: string; 
   public get resourceSetType() {
     return this.getStringAttribute('resource_set_type');
   }

@@ -126,7 +126,7 @@ export class IamVirtualMfaDeviceTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -142,7 +142,7 @@ export class IamVirtualMfaDeviceTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -244,7 +244,7 @@ export class IamVirtualMfaDevice extends cdktn.TerraformResource {
   }
 
   // path - computed: true, optional: true, required: false
-  private _path?: string;
+  private _path?: string; 
   public get path() {
     return this.getStringAttribute('path');
   }
@@ -281,7 +281,7 @@ export class IamVirtualMfaDevice extends cdktn.TerraformResource {
   }
 
   // users - computed: false, optional: false, required: true
-  private _users?: string[];
+  private _users?: string[]; 
   public get users() {
     return this.getListAttribute('users');
   }
@@ -294,7 +294,7 @@ export class IamVirtualMfaDevice extends cdktn.TerraformResource {
   }
 
   // virtual_mfa_device_name - computed: true, optional: true, required: false
-  private _virtualMfaDeviceName?: string;
+  private _virtualMfaDeviceName?: string; 
   public get virtualMfaDeviceName() {
     return this.getStringAttribute('virtual_mfa_device_name');
   }

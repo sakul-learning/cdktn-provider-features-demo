@@ -785,7 +785,7 @@ export class DataAwsLicensemanagerReceivedLicense extends cdktn.TerraformDataSou
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -807,7 +807,7 @@ export class DataAwsLicensemanagerReceivedLicense extends cdktn.TerraformDataSou
   }
 
   // license_arn - computed: false, optional: false, required: true
-  private _licenseArn?: string;
+  private _licenseArn?: string; 
   public get licenseArn() {
     return this.getStringAttribute('license_arn');
   }
@@ -847,7 +847,7 @@ export class DataAwsLicensemanagerReceivedLicense extends cdktn.TerraformDataSou
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

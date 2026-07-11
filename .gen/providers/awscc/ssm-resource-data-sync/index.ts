@@ -191,7 +191,7 @@ export class SsmResourceDataSyncS3DestinationOutputReference extends cdktn.Compl
   }
 
   // bucket_name - computed: true, optional: true, required: false
-  private _bucketName?: string;
+  private _bucketName?: string; 
   public get bucketName() {
     return this.getStringAttribute('bucket_name');
   }
@@ -207,7 +207,7 @@ export class SsmResourceDataSyncS3DestinationOutputReference extends cdktn.Compl
   }
 
   // bucket_prefix - computed: true, optional: true, required: false
-  private _bucketPrefix?: string;
+  private _bucketPrefix?: string; 
   public get bucketPrefix() {
     return this.getStringAttribute('bucket_prefix');
   }
@@ -223,7 +223,7 @@ export class SsmResourceDataSyncS3DestinationOutputReference extends cdktn.Compl
   }
 
   // bucket_region - computed: true, optional: true, required: false
-  private _bucketRegion?: string;
+  private _bucketRegion?: string; 
   public get bucketRegion() {
     return this.getStringAttribute('bucket_region');
   }
@@ -239,7 +239,7 @@ export class SsmResourceDataSyncS3DestinationOutputReference extends cdktn.Compl
   }
 
   // kms_key_arn - computed: true, optional: true, required: false
-  private _kmsKeyArn?: string;
+  private _kmsKeyArn?: string; 
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -255,7 +255,7 @@ export class SsmResourceDataSyncS3DestinationOutputReference extends cdktn.Compl
   }
 
   // sync_format - computed: true, optional: true, required: false
-  private _syncFormat?: string;
+  private _syncFormat?: string; 
   public get syncFormat() {
     return this.getStringAttribute('sync_format');
   }
@@ -366,7 +366,7 @@ export class SsmResourceDataSyncSyncSourceAwsOrganizationsSourceOutputReference 
   }
 
   // organization_source_type - computed: true, optional: true, required: false
-  private _organizationSourceType?: string;
+  private _organizationSourceType?: string; 
   public get organizationSourceType() {
     return this.getStringAttribute('organization_source_type');
   }
@@ -382,7 +382,7 @@ export class SsmResourceDataSyncSyncSourceAwsOrganizationsSourceOutputReference 
   }
 
   // organizational_units - computed: true, optional: true, required: false
-  private _organizationalUnits?: string[];
+  private _organizationalUnits?: string[]; 
   public get organizationalUnits() {
     return this.getListAttribute('organizational_units');
   }
@@ -543,7 +543,7 @@ export class SsmResourceDataSyncSyncSourceOutputReference extends cdktn.ComplexO
   }
 
   // include_future_regions - computed: true, optional: true, required: false
-  private _includeFutureRegions?: boolean | cdktn.IResolvable;
+  private _includeFutureRegions?: boolean | cdktn.IResolvable; 
   public get includeFutureRegions() {
     return this.getBooleanAttribute('include_future_regions');
   }
@@ -559,7 +559,7 @@ export class SsmResourceDataSyncSyncSourceOutputReference extends cdktn.ComplexO
   }
 
   // source_regions - computed: true, optional: true, required: false
-  private _sourceRegions?: string[];
+  private _sourceRegions?: string[]; 
   public get sourceRegions() {
     return this.getListAttribute('source_regions');
   }
@@ -575,7 +575,7 @@ export class SsmResourceDataSyncSyncSourceOutputReference extends cdktn.ComplexO
   }
 
   // source_type - computed: true, optional: true, required: false
-  private _sourceType?: string;
+  private _sourceType?: string; 
   public get sourceType() {
     return this.getStringAttribute('source_type');
   }
@@ -657,7 +657,7 @@ export class SsmResourceDataSync extends cdktn.TerraformResource {
   // ==========
 
   // bucket_name - computed: true, optional: true, required: false
-  private _bucketName?: string;
+  private _bucketName?: string; 
   public get bucketName() {
     return this.getStringAttribute('bucket_name');
   }
@@ -673,7 +673,7 @@ export class SsmResourceDataSync extends cdktn.TerraformResource {
   }
 
   // bucket_prefix - computed: true, optional: true, required: false
-  private _bucketPrefix?: string;
+  private _bucketPrefix?: string; 
   public get bucketPrefix() {
     return this.getStringAttribute('bucket_prefix');
   }
@@ -689,7 +689,7 @@ export class SsmResourceDataSync extends cdktn.TerraformResource {
   }
 
   // bucket_region - computed: true, optional: true, required: false
-  private _bucketRegion?: string;
+  private _bucketRegion?: string; 
   public get bucketRegion() {
     return this.getStringAttribute('bucket_region');
   }
@@ -710,7 +710,7 @@ export class SsmResourceDataSync extends cdktn.TerraformResource {
   }
 
   // kms_key_arn - computed: true, optional: true, required: false
-  private _kmsKeyArn?: string;
+  private _kmsKeyArn?: string; 
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -742,7 +742,7 @@ export class SsmResourceDataSync extends cdktn.TerraformResource {
   }
 
   // sync_format - computed: true, optional: true, required: false
-  private _syncFormat?: string;
+  private _syncFormat?: string; 
   public get syncFormat() {
     return this.getStringAttribute('sync_format');
   }
@@ -758,7 +758,7 @@ export class SsmResourceDataSync extends cdktn.TerraformResource {
   }
 
   // sync_name - computed: false, optional: false, required: true
-  private _syncName?: string;
+  private _syncName?: string; 
   public get syncName() {
     return this.getStringAttribute('sync_name');
   }
@@ -787,7 +787,7 @@ export class SsmResourceDataSync extends cdktn.TerraformResource {
   }
 
   // sync_type - computed: true, optional: true, required: false
-  private _syncType?: string;
+  private _syncType?: string; 
   public get syncType() {
     return this.getStringAttribute('sync_type');
   }

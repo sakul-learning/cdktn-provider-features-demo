@@ -131,7 +131,7 @@ export class PrometheusScraperDestinationAmpOutputReference extends cdktn.Comple
   }
 
   // workspace_arn - computed: false, optional: false, required: true
-  private _workspaceArn?: string;
+  private _workspaceArn?: string; 
   public get workspaceArn() {
     return this.getStringAttribute('workspace_arn');
   }
@@ -379,7 +379,7 @@ export class PrometheusScraperRoleConfigurationOutputReference extends cdktn.Com
   }
 
   // source_role_arn - computed: false, optional: true, required: false
-  private _sourceRoleArn?: string;
+  private _sourceRoleArn?: string; 
   public get sourceRoleArn() {
     return this.getStringAttribute('source_role_arn');
   }
@@ -395,7 +395,7 @@ export class PrometheusScraperRoleConfigurationOutputReference extends cdktn.Com
   }
 
   // target_role_arn - computed: false, optional: true, required: false
-  private _targetRoleArn?: string;
+  private _targetRoleArn?: string; 
   public get targetRoleArn() {
     return this.getStringAttribute('target_role_arn');
   }
@@ -545,7 +545,7 @@ export class PrometheusScraperSourceEksOutputReference extends cdktn.ComplexObje
   }
 
   // cluster_arn - computed: false, optional: false, required: true
-  private _clusterArn?: string;
+  private _clusterArn?: string; 
   public get clusterArn() {
     return this.getStringAttribute('cluster_arn');
   }
@@ -558,7 +558,7 @@ export class PrometheusScraperSourceEksOutputReference extends cdktn.ComplexObje
   }
 
   // security_group_ids - computed: true, optional: true, required: false
-  private _securityGroupIds?: string[];
+  private _securityGroupIds?: string[]; 
   public get securityGroupIds() {
     return cdktn.Fn.tolist(this.getListAttribute('security_group_ids'));
   }
@@ -574,7 +574,7 @@ export class PrometheusScraperSourceEksOutputReference extends cdktn.ComplexObje
   }
 
   // subnet_ids - computed: false, optional: false, required: true
-  private _subnetIds?: string[];
+  private _subnetIds?: string[]; 
   public get subnetIds() {
     return cdktn.Fn.tolist(this.getListAttribute('subnet_ids'));
   }
@@ -704,7 +704,7 @@ export class PrometheusScraperSourceVpcOutputReference extends cdktn.ComplexObje
   }
 
   // security_group_ids - computed: false, optional: false, required: true
-  private _securityGroupIds?: string[];
+  private _securityGroupIds?: string[]; 
   public get securityGroupIds() {
     return cdktn.Fn.tolist(this.getListAttribute('security_group_ids'));
   }
@@ -717,7 +717,7 @@ export class PrometheusScraperSourceVpcOutputReference extends cdktn.ComplexObje
   }
 
   // subnet_ids - computed: false, optional: false, required: true
-  private _subnetIds?: string[];
+  private _subnetIds?: string[]; 
   public get subnetIds() {
     return cdktn.Fn.tolist(this.getListAttribute('subnet_ids'));
   }
@@ -1021,7 +1021,7 @@ export class PrometheusScraperTimeoutsOutputReference extends cdktn.ComplexObjec
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -1037,7 +1037,7 @@ export class PrometheusScraperTimeoutsOutputReference extends cdktn.ComplexObjec
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -1053,7 +1053,7 @@ export class PrometheusScraperTimeoutsOutputReference extends cdktn.ComplexObjec
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -1134,7 +1134,7 @@ export class PrometheusScraper extends cdktn.TerraformResource {
   // ==========
 
   // alias - computed: false, optional: true, required: false
-  private _alias?: string;
+  private _alias?: string; 
   public get alias() {
     return this.getStringAttribute('alias');
   }
@@ -1160,7 +1160,7 @@ export class PrometheusScraper extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1181,7 +1181,7 @@ export class PrometheusScraper extends cdktn.TerraformResource {
   }
 
   // scrape_configuration - computed: false, optional: false, required: true
-  private _scrapeConfiguration?: string;
+  private _scrapeConfiguration?: string; 
   public get scrapeConfiguration() {
     return this.getStringAttribute('scrape_configuration');
   }
@@ -1194,7 +1194,7 @@ export class PrometheusScraper extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

@@ -109,7 +109,7 @@ export class Ec2SubnetCidrBlock extends cdktn.TerraformResource {
   }
 
   // ipv_6_cidr_block - computed: true, optional: true, required: false
-  private _ipv6CidrBlock?: string;
+  private _ipv6CidrBlock?: string; 
   public get ipv6CidrBlock() {
     return this.getStringAttribute('ipv_6_cidr_block');
   }
@@ -125,7 +125,7 @@ export class Ec2SubnetCidrBlock extends cdktn.TerraformResource {
   }
 
   // ipv_6_ipam_pool_id - computed: true, optional: true, required: false
-  private _ipv6IpamPoolId?: string;
+  private _ipv6IpamPoolId?: string; 
   public get ipv6IpamPoolId() {
     return this.getStringAttribute('ipv_6_ipam_pool_id');
   }
@@ -141,7 +141,7 @@ export class Ec2SubnetCidrBlock extends cdktn.TerraformResource {
   }
 
   // ipv_6_netmask_length - computed: true, optional: true, required: false
-  private _ipv6NetmaskLength?: number;
+  private _ipv6NetmaskLength?: number; 
   public get ipv6NetmaskLength() {
     return this.getNumberAttribute('ipv_6_netmask_length');
   }
@@ -162,7 +162,7 @@ export class Ec2SubnetCidrBlock extends cdktn.TerraformResource {
   }
 
   // subnet_id - computed: false, optional: false, required: true
-  private _subnetId?: string;
+  private _subnetId?: string; 
   public get subnetId() {
     return this.getStringAttribute('subnet_id');
   }

@@ -192,7 +192,7 @@ export class FinspaceKxDataviewSegmentConfigurationsOutputReference extends cdkt
   }
 
   // db_paths - computed: false, optional: false, required: true
-  private _dbPaths?: string[];
+  private _dbPaths?: string[]; 
   public get dbPaths() {
     return this.getListAttribute('db_paths');
   }
@@ -205,7 +205,7 @@ export class FinspaceKxDataviewSegmentConfigurationsOutputReference extends cdkt
   }
 
   // on_demand - computed: false, optional: true, required: false
-  private _onDemand?: boolean | cdktn.IResolvable;
+  private _onDemand?: boolean | cdktn.IResolvable; 
   public get onDemand() {
     return this.getBooleanAttribute('on_demand');
   }
@@ -221,7 +221,7 @@ export class FinspaceKxDataviewSegmentConfigurationsOutputReference extends cdkt
   }
 
   // volume_name - computed: false, optional: false, required: true
-  private _volumeName?: string;
+  private _volumeName?: string; 
   public get volumeName() {
     return this.getStringAttribute('volume_name');
   }
@@ -366,7 +366,7 @@ export class FinspaceKxDataviewTimeoutsOutputReference extends cdktn.ComplexObje
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -382,7 +382,7 @@ export class FinspaceKxDataviewTimeoutsOutputReference extends cdktn.ComplexObje
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -398,7 +398,7 @@ export class FinspaceKxDataviewTimeoutsOutputReference extends cdktn.ComplexObje
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -491,7 +491,7 @@ export class FinspaceKxDataview extends cdktn.TerraformResource {
   }
 
   // auto_update - computed: false, optional: false, required: true
-  private _autoUpdate?: boolean | cdktn.IResolvable;
+  private _autoUpdate?: boolean | cdktn.IResolvable; 
   public get autoUpdate() {
     return this.getBooleanAttribute('auto_update');
   }
@@ -504,7 +504,7 @@ export class FinspaceKxDataview extends cdktn.TerraformResource {
   }
 
   // availability_zone_id - computed: false, optional: true, required: false
-  private _availabilityZoneId?: string;
+  private _availabilityZoneId?: string; 
   public get availabilityZoneId() {
     return this.getStringAttribute('availability_zone_id');
   }
@@ -520,7 +520,7 @@ export class FinspaceKxDataview extends cdktn.TerraformResource {
   }
 
   // az_mode - computed: false, optional: false, required: true
-  private _azMode?: string;
+  private _azMode?: string; 
   public get azMode() {
     return this.getStringAttribute('az_mode');
   }
@@ -533,7 +533,7 @@ export class FinspaceKxDataview extends cdktn.TerraformResource {
   }
 
   // changeset_id - computed: false, optional: true, required: false
-  private _changesetId?: string;
+  private _changesetId?: string; 
   public get changesetId() {
     return this.getStringAttribute('changeset_id');
   }
@@ -554,7 +554,7 @@ export class FinspaceKxDataview extends cdktn.TerraformResource {
   }
 
   // database_name - computed: false, optional: false, required: true
-  private _databaseName?: string;
+  private _databaseName?: string; 
   public get databaseName() {
     return this.getStringAttribute('database_name');
   }
@@ -567,7 +567,7 @@ export class FinspaceKxDataview extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -583,7 +583,7 @@ export class FinspaceKxDataview extends cdktn.TerraformResource {
   }
 
   // environment_id - computed: false, optional: false, required: true
-  private _environmentId?: string;
+  private _environmentId?: string; 
   public get environmentId() {
     return this.getStringAttribute('environment_id');
   }
@@ -596,7 +596,7 @@ export class FinspaceKxDataview extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -617,7 +617,7 @@ export class FinspaceKxDataview extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -630,7 +630,7 @@ export class FinspaceKxDataview extends cdktn.TerraformResource {
   }
 
   // read_write - computed: false, optional: true, required: false
-  private _readWrite?: boolean | cdktn.IResolvable;
+  private _readWrite?: boolean | cdktn.IResolvable; 
   public get readWrite() {
     return this.getBooleanAttribute('read_write');
   }
@@ -646,7 +646,7 @@ export class FinspaceKxDataview extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -667,7 +667,7 @@ export class FinspaceKxDataview extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -683,7 +683,7 @@ export class FinspaceKxDataview extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

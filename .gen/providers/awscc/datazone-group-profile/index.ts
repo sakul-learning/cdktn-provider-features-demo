@@ -106,7 +106,7 @@ export class DatazoneGroupProfile extends cdktn.TerraformResource {
   }
 
   // domain_identifier - computed: false, optional: false, required: true
-  private _domainIdentifier?: string;
+  private _domainIdentifier?: string; 
   public get domainIdentifier() {
     return this.getStringAttribute('domain_identifier');
   }
@@ -119,7 +119,7 @@ export class DatazoneGroupProfile extends cdktn.TerraformResource {
   }
 
   // group_identifier - computed: true, optional: true, required: false
-  private _groupIdentifier?: string;
+  private _groupIdentifier?: string; 
   public get groupIdentifier() {
     return this.getStringAttribute('group_identifier');
   }
@@ -145,7 +145,7 @@ export class DatazoneGroupProfile extends cdktn.TerraformResource {
   }
 
   // group_type - computed: true, optional: true, required: false
-  private _groupType?: string;
+  private _groupType?: string; 
   public get groupType() {
     return this.getStringAttribute('group_type');
   }
@@ -166,7 +166,7 @@ export class DatazoneGroupProfile extends cdktn.TerraformResource {
   }
 
   // role_principal_arn - computed: true, optional: true, required: false
-  private _rolePrincipalArn?: string;
+  private _rolePrincipalArn?: string; 
   public get rolePrincipalArn() {
     return this.getStringAttribute('role_principal_arn');
   }
@@ -187,7 +187,7 @@ export class DatazoneGroupProfile extends cdktn.TerraformResource {
   }
 
   // status - computed: true, optional: true, required: false
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }

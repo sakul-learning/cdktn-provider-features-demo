@@ -179,7 +179,7 @@ export class NotificationsEventRule extends cdktn.TerraformResource {
   }
 
   // event_pattern - computed: true, optional: true, required: false
-  private _eventPattern?: string;
+  private _eventPattern?: string; 
   public get eventPattern() {
     return this.getStringAttribute('event_pattern');
   }
@@ -195,7 +195,7 @@ export class NotificationsEventRule extends cdktn.TerraformResource {
   }
 
   // event_type - computed: false, optional: false, required: true
-  private _eventType?: string;
+  private _eventType?: string; 
   public get eventType() {
     return this.getStringAttribute('event_type');
   }
@@ -218,7 +218,7 @@ export class NotificationsEventRule extends cdktn.TerraformResource {
   }
 
   // notification_configuration_arn - computed: false, optional: false, required: true
-  private _notificationConfigurationArn?: string;
+  private _notificationConfigurationArn?: string; 
   public get notificationConfigurationArn() {
     return this.getStringAttribute('notification_configuration_arn');
   }
@@ -231,7 +231,7 @@ export class NotificationsEventRule extends cdktn.TerraformResource {
   }
 
   // regions - computed: false, optional: false, required: true
-  private _regions?: string[];
+  private _regions?: string[]; 
   public get regions() {
     return this.getListAttribute('regions');
   }
@@ -244,7 +244,7 @@ export class NotificationsEventRule extends cdktn.TerraformResource {
   }
 
   // source - computed: false, optional: false, required: true
-  private _source?: string;
+  private _source?: string; 
   public get source() {
     return this.getStringAttribute('source');
   }

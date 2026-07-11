@@ -147,7 +147,7 @@ export class EmrcontainersJobTemplateJobTemplateDataConfigurationOverridesApplic
   }
 
   // classification - computed: false, optional: true, required: false
-  private _classification?: string;
+  private _classification?: string; 
   public get classification() {
     return this.getStringAttribute('classification');
   }
@@ -163,7 +163,7 @@ export class EmrcontainersJobTemplateJobTemplateDataConfigurationOverridesApplic
   }
 
   // properties - computed: false, optional: true, required: false
-  private _properties?: { [key: string]: string };
+  private _properties?: { [key: string]: string }; 
   public get properties() {
     return this.getStringMapAttribute('properties');
   }
@@ -315,7 +315,7 @@ export class EmrcontainersJobTemplateJobTemplateDataConfigurationOverridesApplic
   }
 
   // classification - computed: false, optional: false, required: true
-  private _classification?: string;
+  private _classification?: string; 
   public get classification() {
     return this.getStringAttribute('classification');
   }
@@ -328,7 +328,7 @@ export class EmrcontainersJobTemplateJobTemplateDataConfigurationOverridesApplic
   }
 
   // properties - computed: false, optional: true, required: false
-  private _properties?: { [key: string]: string };
+  private _properties?: { [key: string]: string }; 
   public get properties() {
     return this.getStringMapAttribute('properties');
   }
@@ -465,7 +465,7 @@ export class EmrcontainersJobTemplateJobTemplateDataConfigurationOverridesMonito
   }
 
   // log_group_name - computed: false, optional: false, required: true
-  private _logGroupName?: string;
+  private _logGroupName?: string; 
   public get logGroupName() {
     return this.getStringAttribute('log_group_name');
   }
@@ -478,7 +478,7 @@ export class EmrcontainersJobTemplateJobTemplateDataConfigurationOverridesMonito
   }
 
   // log_stream_name_prefix - computed: false, optional: true, required: false
-  private _logStreamNamePrefix?: string;
+  private _logStreamNamePrefix?: string; 
   public get logStreamNamePrefix() {
     return this.getStringAttribute('log_stream_name_prefix');
   }
@@ -562,7 +562,7 @@ export class EmrcontainersJobTemplateJobTemplateDataConfigurationOverridesMonito
   }
 
   // log_uri - computed: false, optional: false, required: true
-  private _logUri?: string;
+  private _logUri?: string; 
   public get logUri() {
     return this.getStringAttribute('log_uri');
   }
@@ -681,7 +681,7 @@ export class EmrcontainersJobTemplateJobTemplateDataConfigurationOverridesMonito
   }
 
   // persistent_app_ui - computed: true, optional: true, required: false
-  private _persistentAppUi?: string;
+  private _persistentAppUi?: string; 
   public get persistentAppUi() {
     return this.getStringAttribute('persistent_app_ui');
   }
@@ -935,7 +935,7 @@ export class EmrcontainersJobTemplateJobTemplateDataJobDriverSparkSqlJobDriverOu
   }
 
   // entry_point - computed: false, optional: true, required: false
-  private _entryPoint?: string;
+  private _entryPoint?: string; 
   public get entryPoint() {
     return this.getStringAttribute('entry_point');
   }
@@ -951,7 +951,7 @@ export class EmrcontainersJobTemplateJobTemplateDataJobDriverSparkSqlJobDriverOu
   }
 
   // spark_sql_parameters - computed: false, optional: true, required: false
-  private _sparkSqlParameters?: string;
+  private _sparkSqlParameters?: string; 
   public get sparkSqlParameters() {
     return this.getStringAttribute('spark_sql_parameters');
   }
@@ -1069,7 +1069,7 @@ export class EmrcontainersJobTemplateJobTemplateDataJobDriverSparkSubmitJobDrive
   }
 
   // entry_point - computed: false, optional: false, required: true
-  private _entryPoint?: string;
+  private _entryPoint?: string; 
   public get entryPoint() {
     return this.getStringAttribute('entry_point');
   }
@@ -1082,7 +1082,7 @@ export class EmrcontainersJobTemplateJobTemplateDataJobDriverSparkSubmitJobDrive
   }
 
   // entry_point_arguments - computed: false, optional: true, required: false
-  private _entryPointArguments?: string[];
+  private _entryPointArguments?: string[]; 
   public get entryPointArguments() {
     return cdktn.Fn.tolist(this.getListAttribute('entry_point_arguments'));
   }
@@ -1098,7 +1098,7 @@ export class EmrcontainersJobTemplateJobTemplateDataJobDriverSparkSubmitJobDrive
   }
 
   // spark_submit_parameters - computed: false, optional: true, required: false
-  private _sparkSubmitParameters?: string;
+  private _sparkSubmitParameters?: string; 
   public get sparkSubmitParameters() {
     return this.getStringAttribute('spark_submit_parameters');
   }
@@ -1375,7 +1375,7 @@ export class EmrcontainersJobTemplateJobTemplateDataOutputReference extends cdkt
   }
 
   // execution_role_arn - computed: false, optional: false, required: true
-  private _executionRoleArn?: string;
+  private _executionRoleArn?: string; 
   public get executionRoleArn() {
     return this.getStringAttribute('execution_role_arn');
   }
@@ -1388,7 +1388,7 @@ export class EmrcontainersJobTemplateJobTemplateDataOutputReference extends cdkt
   }
 
   // job_tags - computed: false, optional: true, required: false
-  private _jobTags?: { [key: string]: string };
+  private _jobTags?: { [key: string]: string }; 
   public get jobTags() {
     return this.getStringMapAttribute('job_tags');
   }
@@ -1404,7 +1404,7 @@ export class EmrcontainersJobTemplateJobTemplateDataOutputReference extends cdkt
   }
 
   // release_label - computed: false, optional: false, required: true
-  private _releaseLabel?: string;
+  private _releaseLabel?: string; 
   public get releaseLabel() {
     return this.getStringAttribute('release_label');
   }
@@ -1524,7 +1524,7 @@ export class EmrcontainersJobTemplateTimeoutsOutputReference extends cdktn.Compl
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -1610,7 +1610,7 @@ export class EmrcontainersJobTemplate extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -1626,7 +1626,7 @@ export class EmrcontainersJobTemplate extends cdktn.TerraformResource {
   }
 
   // kms_key_arn - computed: false, optional: true, required: false
-  private _kmsKeyArn?: string;
+  private _kmsKeyArn?: string; 
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -1642,7 +1642,7 @@ export class EmrcontainersJobTemplate extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1655,7 +1655,7 @@ export class EmrcontainersJobTemplate extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1671,7 +1671,7 @@ export class EmrcontainersJobTemplate extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -1687,7 +1687,7 @@ export class EmrcontainersJobTemplate extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

@@ -107,7 +107,7 @@ export class Ec2TransitGatewayConnectOptionsOutputReference extends cdktn.Comple
   }
 
   // protocol - computed: true, optional: true, required: false
-  private _protocol?: string;
+  private _protocol?: string; 
   public get protocol() {
     return this.getStringAttribute('protocol');
   }
@@ -224,7 +224,7 @@ export class Ec2TransitGatewayConnectTagsOutputReference extends cdktn.ComplexOb
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -240,7 +240,7 @@ export class Ec2TransitGatewayConnectTagsOutputReference extends cdktn.ComplexOb
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -390,7 +390,7 @@ export class Ec2TransitGatewayConnect extends cdktn.TerraformResource {
   }
 
   // transport_transit_gateway_attachment_id - computed: false, optional: false, required: true
-  private _transportTransitGatewayAttachmentId?: string;
+  private _transportTransitGatewayAttachmentId?: string; 
   public get transportTransitGatewayAttachmentId() {
     return this.getStringAttribute('transport_transit_gateway_attachment_id');
   }

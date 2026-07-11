@@ -114,7 +114,7 @@ export class Wafv2WebAclAssociationTimeoutsOutputReference extends cdktn.Complex
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -192,7 +192,7 @@ export class Wafv2WebAclAssociation extends cdktn.TerraformResource {
   // ==========
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -208,7 +208,7 @@ export class Wafv2WebAclAssociation extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -224,7 +224,7 @@ export class Wafv2WebAclAssociation extends cdktn.TerraformResource {
   }
 
   // resource_arn - computed: false, optional: false, required: true
-  private _resourceArn?: string;
+  private _resourceArn?: string; 
   public get resourceArn() {
     return this.getStringAttribute('resource_arn');
   }
@@ -237,7 +237,7 @@ export class Wafv2WebAclAssociation extends cdktn.TerraformResource {
   }
 
   // web_acl_arn - computed: false, optional: false, required: true
-  private _webAclArn?: string;
+  private _webAclArn?: string; 
   public get webAclArn() {
     return this.getStringAttribute('web_acl_arn');
   }

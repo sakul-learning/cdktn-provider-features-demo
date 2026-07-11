@@ -92,7 +92,7 @@ export class GlueSchemaVersionMetadata extends cdktn.TerraformResource {
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -105,7 +105,7 @@ export class GlueSchemaVersionMetadata extends cdktn.TerraformResource {
   }
 
   // schema_version_id - computed: false, optional: false, required: true
-  private _schemaVersionId?: string;
+  private _schemaVersionId?: string; 
   public get schemaVersionId() {
     return this.getStringAttribute('schema_version_id');
   }
@@ -118,7 +118,7 @@ export class GlueSchemaVersionMetadata extends cdktn.TerraformResource {
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }

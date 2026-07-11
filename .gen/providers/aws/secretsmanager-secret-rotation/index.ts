@@ -142,7 +142,7 @@ export class SecretsmanagerSecretRotationRotationRulesOutputReference extends cd
   }
 
   // automatically_after_days - computed: false, optional: true, required: false
-  private _automaticallyAfterDays?: number;
+  private _automaticallyAfterDays?: number; 
   public get automaticallyAfterDays() {
     return this.getNumberAttribute('automatically_after_days');
   }
@@ -158,7 +158,7 @@ export class SecretsmanagerSecretRotationRotationRulesOutputReference extends cd
   }
 
   // duration - computed: false, optional: true, required: false
-  private _duration?: string;
+  private _duration?: string; 
   public get duration() {
     return this.getStringAttribute('duration');
   }
@@ -174,7 +174,7 @@ export class SecretsmanagerSecretRotationRotationRulesOutputReference extends cd
   }
 
   // schedule_expression - computed: false, optional: true, required: false
-  private _scheduleExpression?: string;
+  private _scheduleExpression?: string; 
   public get scheduleExpression() {
     return this.getStringAttribute('schedule_expression');
   }
@@ -253,7 +253,7 @@ export class SecretsmanagerSecretRotation extends cdktn.TerraformResource {
   // ==========
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -269,7 +269,7 @@ export class SecretsmanagerSecretRotation extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -285,7 +285,7 @@ export class SecretsmanagerSecretRotation extends cdktn.TerraformResource {
   }
 
   // rotate_immediately - computed: false, optional: true, required: false
-  private _rotateImmediately?: boolean | cdktn.IResolvable;
+  private _rotateImmediately?: boolean | cdktn.IResolvable; 
   public get rotateImmediately() {
     return this.getBooleanAttribute('rotate_immediately');
   }
@@ -306,7 +306,7 @@ export class SecretsmanagerSecretRotation extends cdktn.TerraformResource {
   }
 
   // rotation_lambda_arn - computed: false, optional: true, required: false
-  private _rotationLambdaArn?: string;
+  private _rotationLambdaArn?: string; 
   public get rotationLambdaArn() {
     return this.getStringAttribute('rotation_lambda_arn');
   }
@@ -322,7 +322,7 @@ export class SecretsmanagerSecretRotation extends cdktn.TerraformResource {
   }
 
   // secret_id - computed: false, optional: false, required: true
-  private _secretId?: string;
+  private _secretId?: string; 
   public get secretId() {
     return this.getStringAttribute('secret_id');
   }

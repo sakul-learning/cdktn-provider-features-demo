@@ -91,7 +91,7 @@ export class DataAwsShieldProtection extends cdktn.TerraformDataSource {
   }
 
   // protection_id - computed: true, optional: true, required: false
-  private _protectionId?: string;
+  private _protectionId?: string; 
   public get protectionId() {
     return this.getStringAttribute('protection_id');
   }
@@ -107,7 +107,7 @@ export class DataAwsShieldProtection extends cdktn.TerraformDataSource {
   }
 
   // resource_arn - computed: true, optional: true, required: false
-  private _resourceArn?: string;
+  private _resourceArn?: string; 
   public get resourceArn() {
     return this.getStringAttribute('resource_arn');
   }

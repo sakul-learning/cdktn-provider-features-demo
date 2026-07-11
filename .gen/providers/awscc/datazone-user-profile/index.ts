@@ -301,7 +301,7 @@ export class DatazoneUserProfile extends cdktn.TerraformResource {
   }
 
   // domain_identifier - computed: false, optional: false, required: true
-  private _domainIdentifier?: string;
+  private _domainIdentifier?: string; 
   public get domainIdentifier() {
     return this.getStringAttribute('domain_identifier');
   }
@@ -319,7 +319,7 @@ export class DatazoneUserProfile extends cdktn.TerraformResource {
   }
 
   // session_name - computed: true, optional: true, required: false
-  private _sessionName?: string;
+  private _sessionName?: string; 
   public get sessionName() {
     return this.getStringAttribute('session_name');
   }
@@ -335,7 +335,7 @@ export class DatazoneUserProfile extends cdktn.TerraformResource {
   }
 
   // status - computed: true, optional: true, required: false
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -356,7 +356,7 @@ export class DatazoneUserProfile extends cdktn.TerraformResource {
   }
 
   // user_identifier - computed: false, optional: false, required: true
-  private _userIdentifier?: string;
+  private _userIdentifier?: string; 
   public get userIdentifier() {
     return this.getStringAttribute('user_identifier');
   }
@@ -374,7 +374,7 @@ export class DatazoneUserProfile extends cdktn.TerraformResource {
   }
 
   // user_type - computed: true, optional: true, required: false
-  private _userType?: string;
+  private _userType?: string; 
   public get userType() {
     return this.getStringAttribute('user_type');
   }

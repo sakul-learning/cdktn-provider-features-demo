@@ -132,7 +132,7 @@ export class RtbfabricLinkRoutingRuleConditionsQueryStringEqualsOutputReference 
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -148,7 +148,7 @@ export class RtbfabricLinkRoutingRuleConditionsQueryStringEqualsOutputReference 
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -339,7 +339,7 @@ export class RtbfabricLinkRoutingRuleConditionsOutputReference extends cdktn.Com
   }
 
   // host_header - computed: true, optional: true, required: false
-  private _hostHeader?: string;
+  private _hostHeader?: string; 
   public get hostHeader() {
     return this.getStringAttribute('host_header');
   }
@@ -355,7 +355,7 @@ export class RtbfabricLinkRoutingRuleConditionsOutputReference extends cdktn.Com
   }
 
   // host_header_wildcard - computed: true, optional: true, required: false
-  private _hostHeaderWildcard?: string;
+  private _hostHeaderWildcard?: string; 
   public get hostHeaderWildcard() {
     return this.getStringAttribute('host_header_wildcard');
   }
@@ -371,7 +371,7 @@ export class RtbfabricLinkRoutingRuleConditionsOutputReference extends cdktn.Com
   }
 
   // path_exact - computed: true, optional: true, required: false
-  private _pathExact?: string;
+  private _pathExact?: string; 
   public get pathExact() {
     return this.getStringAttribute('path_exact');
   }
@@ -387,7 +387,7 @@ export class RtbfabricLinkRoutingRuleConditionsOutputReference extends cdktn.Com
   }
 
   // path_prefix - computed: true, optional: true, required: false
-  private _pathPrefix?: string;
+  private _pathPrefix?: string; 
   public get pathPrefix() {
     return this.getStringAttribute('path_prefix');
   }
@@ -419,7 +419,7 @@ export class RtbfabricLinkRoutingRuleConditionsOutputReference extends cdktn.Com
   }
 
   // query_string_exists - computed: true, optional: true, required: false
-  private _queryStringExists?: string;
+  private _queryStringExists?: string; 
   public get queryStringExists() {
     return this.getStringAttribute('query_string_exists');
   }
@@ -536,7 +536,7 @@ export class RtbfabricLinkRoutingRuleTagsOutputReference extends cdktn.ComplexOb
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -552,7 +552,7 @@ export class RtbfabricLinkRoutingRuleTagsOutputReference extends cdktn.ComplexOb
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -673,7 +673,7 @@ export class RtbfabricLinkRoutingRule extends cdktn.TerraformResource {
   }
 
   // gateway_id - computed: false, optional: false, required: true
-  private _gatewayId?: string;
+  private _gatewayId?: string; 
   public get gatewayId() {
     return this.getStringAttribute('gateway_id');
   }
@@ -691,7 +691,7 @@ export class RtbfabricLinkRoutingRule extends cdktn.TerraformResource {
   }
 
   // link_id - computed: false, optional: false, required: true
-  private _linkId?: string;
+  private _linkId?: string; 
   public get linkId() {
     return this.getStringAttribute('link_id');
   }
@@ -704,7 +704,7 @@ export class RtbfabricLinkRoutingRule extends cdktn.TerraformResource {
   }
 
   // priority - computed: false, optional: false, required: true
-  private _priority?: number;
+  private _priority?: number; 
   public get priority() {
     return this.getNumberAttribute('priority');
   }

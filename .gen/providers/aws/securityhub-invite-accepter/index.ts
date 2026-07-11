@@ -86,7 +86,7 @@ export class SecurityhubInviteAccepter extends cdktn.TerraformResource {
   // ==========
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -107,7 +107,7 @@ export class SecurityhubInviteAccepter extends cdktn.TerraformResource {
   }
 
   // master_id - computed: false, optional: false, required: true
-  private _masterId?: string;
+  private _masterId?: string; 
   public get masterId() {
     return this.getStringAttribute('master_id');
   }
@@ -120,7 +120,7 @@ export class SecurityhubInviteAccepter extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

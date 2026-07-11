@@ -167,7 +167,7 @@ export class RdsIntegrationTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -183,7 +183,7 @@ export class RdsIntegrationTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -199,7 +199,7 @@ export class RdsIntegrationTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -281,7 +281,7 @@ export class RdsIntegration extends cdktn.TerraformResource {
   // ==========
 
   // additional_encryption_context - computed: false, optional: true, required: false
-  private _additionalEncryptionContext?: { [key: string]: string };
+  private _additionalEncryptionContext?: { [key: string]: string }; 
   public get additionalEncryptionContext() {
     return this.getStringMapAttribute('additional_encryption_context');
   }
@@ -302,7 +302,7 @@ export class RdsIntegration extends cdktn.TerraformResource {
   }
 
   // data_filter - computed: true, optional: true, required: false
-  private _dataFilter?: string;
+  private _dataFilter?: string; 
   public get dataFilter() {
     return this.getStringAttribute('data_filter');
   }
@@ -328,7 +328,7 @@ export class RdsIntegration extends cdktn.TerraformResource {
   }
 
   // integration_name - computed: false, optional: false, required: true
-  private _integrationName?: string;
+  private _integrationName?: string; 
   public get integrationName() {
     return this.getStringAttribute('integration_name');
   }
@@ -341,7 +341,7 @@ export class RdsIntegration extends cdktn.TerraformResource {
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -357,7 +357,7 @@ export class RdsIntegration extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -373,7 +373,7 @@ export class RdsIntegration extends cdktn.TerraformResource {
   }
 
   // source_arn - computed: false, optional: false, required: true
-  private _sourceArn?: string;
+  private _sourceArn?: string; 
   public get sourceArn() {
     return this.getStringAttribute('source_arn');
   }
@@ -386,7 +386,7 @@ export class RdsIntegration extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -408,7 +408,7 @@ export class RdsIntegration extends cdktn.TerraformResource {
   }
 
   // target_arn - computed: false, optional: false, required: true
-  private _targetArn?: string;
+  private _targetArn?: string; 
   public get targetArn() {
     return this.getStringAttribute('target_arn');
   }

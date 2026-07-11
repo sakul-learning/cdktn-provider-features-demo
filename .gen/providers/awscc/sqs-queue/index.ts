@@ -48,9 +48,9 @@ export interface SqsQueueConfig extends cdktn.TerraformMetaArguments {
   readonly kmsDataKeyReusePeriodSeconds?: number;
   /**
   * The ID of an AWS Key Management Service (KMS) for SQS, or a custom KMS. To use the AWS managed KMS for SQS, specify a (default) alias ARN, alias name (e.g. ``alias/aws/sqs``), key ARN, or key ID. For more information, see the following:
-  *   +   [Encryption at rest](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-server-side-encryption.html) in the *Developer Guide*
-  *   +   [CreateQueue](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/APIReference/API_CreateQueue.html) in the *API Reference*
-  *   +   [Request Parameters](https://docs.aws.amazon.com/kms/latest/APIReference/API_DescribeKey.html#API_DescribeKey_RequestParameters) in the *Key Management Service API Reference*
+  *   +   [Encryption at rest](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-server-side-encryption.html) in the *Developer Guide* 
+  *   +   [CreateQueue](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/APIReference/API_CreateQueue.html) in the *API Reference* 
+  *   +   [Request Parameters](https://docs.aws.amazon.com/kms/latest/APIReference/API_DescribeKey.html#API_DescribeKey_RequestParameters) in the *Key Management Service API Reference* 
   *   +   The Key Management Service (KMS) section of the [Best Practices](https://docs.aws.amazon.com/https://d0.awsstatic.com/whitepapers/aws-kms-best-practices.pdf) whitepaper
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sqs_queue#kms_master_key_id SqsQueue#kms_master_key_id}
@@ -70,7 +70,7 @@ export interface SqsQueueConfig extends cdktn.TerraformMetaArguments {
   readonly messageRetentionPeriod?: number;
   /**
   * A name for the queue. To create a FIFO queue, the name of your FIFO queue must end with the ``.fifo`` suffix. For more information, see [FIFO queues](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/FIFO-queues.html) in the *Developer Guide*.
-  *  If you don't specify a name, CFN generates a unique physical ID and uses that ID for the queue name. For more information, see [Name type](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-name.html) in the *User Guide*.
+  *  If you don't specify a name, CFN generates a unique physical ID and uses that ID for the queue name. For more information, see [Name type](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-name.html) in the *User Guide*. 
   *   If you specify a name, you can't perform updates that require replacement of this resource. You can perform updates that require no or some interruption. If you must replace the resource, specify a new name.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sqs_queue#queue_name SqsQueue#queue_name}
@@ -88,7 +88,7 @@ export interface SqsQueueConfig extends cdktn.TerraformMetaArguments {
   *   +  ``allowAll``: (Default) Any source queues in this AWS account in the same Region can specify this queue as the dead-letter queue.
   *   +  ``denyAll``: No source queues can specify this queue as the dead-letter queue.
   *   +  ``byQueue``: Only queues specified by the ``sourceQueueArns`` parameter can specify this queue as the dead-letter queue.
-  *
+  *   
   *   +  ``sourceQueueArns``: The Amazon Resource Names (ARN)s of the source queues that can specify this queue as the dead-letter queue and redrive messages. You can specify this parameter only when the ``redrivePermission`` parameter is set to ``byQueue``. You can specify up to 10 source queue ARNs. To allow more than 10 source queues to specify dead-letter queues, set the ``redrivePermission`` parameter to ``allowAll``.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sqs_queue#redrive_allow_policy SqsQueue#redrive_allow_policy}
@@ -98,12 +98,12 @@ export interface SqsQueueConfig extends cdktn.TerraformMetaArguments {
   * The string that includes the parameters for the dead-letter queue functionality of the source queue as a JSON object. The parameters are as follows:
   *   +  ``deadLetterTargetArn``: The Amazon Resource Name (ARN) of the dead-letter queue to which SQS moves messages after the value of ``maxReceiveCount`` is exceeded.
   *   +  ``maxReceiveCount``: The number of times a message is delivered to the source queue before being moved to the dead-letter queue. When the ``ReceiveCount`` for a message exceeds the ``maxReceiveCount`` for a queue, SQS moves the message to the dead-letter-queue.
-  *
+  *   
   *   The dead-letter queue of a FIFO queue must also be a FIFO queue. Similarly, the dead-letter queue of a standard queue must also be a standard queue.
-  *    *JSON*
-  *   ``{ "deadLetterTargetArn" : String, "maxReceiveCount" : Integer }``
-  *   *YAML*
-  *   ``deadLetterTargetArn : String``
+  *    *JSON* 
+  *   ``{ "deadLetterTargetArn" : String, "maxReceiveCount" : Integer }`` 
+  *   *YAML* 
+  *   ``deadLetterTargetArn : String`` 
   *   ``maxReceiveCount : Integer``
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sqs_queue#redrive_policy SqsQueue#redrive_policy}
@@ -232,7 +232,7 @@ export class SqsQueueTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -248,7 +248,7 @@ export class SqsQueueTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -362,7 +362,7 @@ export class SqsQueue extends cdktn.TerraformResource {
   }
 
   // content_based_deduplication - computed: true, optional: true, required: false
-  private _contentBasedDeduplication?: boolean | cdktn.IResolvable;
+  private _contentBasedDeduplication?: boolean | cdktn.IResolvable; 
   public get contentBasedDeduplication() {
     return this.getBooleanAttribute('content_based_deduplication');
   }
@@ -378,7 +378,7 @@ export class SqsQueue extends cdktn.TerraformResource {
   }
 
   // deduplication_scope - computed: true, optional: true, required: false
-  private _deduplicationScope?: string;
+  private _deduplicationScope?: string; 
   public get deduplicationScope() {
     return this.getStringAttribute('deduplication_scope');
   }
@@ -394,7 +394,7 @@ export class SqsQueue extends cdktn.TerraformResource {
   }
 
   // delay_seconds - computed: true, optional: true, required: false
-  private _delaySeconds?: number;
+  private _delaySeconds?: number; 
   public get delaySeconds() {
     return this.getNumberAttribute('delay_seconds');
   }
@@ -410,7 +410,7 @@ export class SqsQueue extends cdktn.TerraformResource {
   }
 
   // fifo_queue - computed: true, optional: true, required: false
-  private _fifoQueue?: boolean | cdktn.IResolvable;
+  private _fifoQueue?: boolean | cdktn.IResolvable; 
   public get fifoQueue() {
     return this.getBooleanAttribute('fifo_queue');
   }
@@ -426,7 +426,7 @@ export class SqsQueue extends cdktn.TerraformResource {
   }
 
   // fifo_throughput_limit - computed: true, optional: true, required: false
-  private _fifoThroughputLimit?: string;
+  private _fifoThroughputLimit?: string; 
   public get fifoThroughputLimit() {
     return this.getStringAttribute('fifo_throughput_limit');
   }
@@ -447,7 +447,7 @@ export class SqsQueue extends cdktn.TerraformResource {
   }
 
   // kms_data_key_reuse_period_seconds - computed: true, optional: true, required: false
-  private _kmsDataKeyReusePeriodSeconds?: number;
+  private _kmsDataKeyReusePeriodSeconds?: number; 
   public get kmsDataKeyReusePeriodSeconds() {
     return this.getNumberAttribute('kms_data_key_reuse_period_seconds');
   }
@@ -463,7 +463,7 @@ export class SqsQueue extends cdktn.TerraformResource {
   }
 
   // kms_master_key_id - computed: true, optional: true, required: false
-  private _kmsMasterKeyId?: string;
+  private _kmsMasterKeyId?: string; 
   public get kmsMasterKeyId() {
     return this.getStringAttribute('kms_master_key_id');
   }
@@ -479,7 +479,7 @@ export class SqsQueue extends cdktn.TerraformResource {
   }
 
   // maximum_message_size - computed: true, optional: true, required: false
-  private _maximumMessageSize?: number;
+  private _maximumMessageSize?: number; 
   public get maximumMessageSize() {
     return this.getNumberAttribute('maximum_message_size');
   }
@@ -495,7 +495,7 @@ export class SqsQueue extends cdktn.TerraformResource {
   }
 
   // message_retention_period - computed: true, optional: true, required: false
-  private _messageRetentionPeriod?: number;
+  private _messageRetentionPeriod?: number; 
   public get messageRetentionPeriod() {
     return this.getNumberAttribute('message_retention_period');
   }
@@ -511,7 +511,7 @@ export class SqsQueue extends cdktn.TerraformResource {
   }
 
   // queue_name - computed: true, optional: true, required: false
-  private _queueName?: string;
+  private _queueName?: string; 
   public get queueName() {
     return this.getStringAttribute('queue_name');
   }
@@ -532,7 +532,7 @@ export class SqsQueue extends cdktn.TerraformResource {
   }
 
   // receive_message_wait_time_seconds - computed: true, optional: true, required: false
-  private _receiveMessageWaitTimeSeconds?: number;
+  private _receiveMessageWaitTimeSeconds?: number; 
   public get receiveMessageWaitTimeSeconds() {
     return this.getNumberAttribute('receive_message_wait_time_seconds');
   }
@@ -548,7 +548,7 @@ export class SqsQueue extends cdktn.TerraformResource {
   }
 
   // redrive_allow_policy - computed: true, optional: true, required: false
-  private _redriveAllowPolicy?: string;
+  private _redriveAllowPolicy?: string; 
   public get redriveAllowPolicy() {
     return this.getStringAttribute('redrive_allow_policy');
   }
@@ -564,7 +564,7 @@ export class SqsQueue extends cdktn.TerraformResource {
   }
 
   // redrive_policy - computed: true, optional: true, required: false
-  private _redrivePolicy?: string;
+  private _redrivePolicy?: string; 
   public get redrivePolicy() {
     return this.getStringAttribute('redrive_policy');
   }
@@ -580,7 +580,7 @@ export class SqsQueue extends cdktn.TerraformResource {
   }
 
   // sqs_managed_sse_enabled - computed: true, optional: true, required: false
-  private _sqsManagedSseEnabled?: boolean | cdktn.IResolvable;
+  private _sqsManagedSseEnabled?: boolean | cdktn.IResolvable; 
   public get sqsManagedSseEnabled() {
     return this.getBooleanAttribute('sqs_managed_sse_enabled');
   }
@@ -612,7 +612,7 @@ export class SqsQueue extends cdktn.TerraformResource {
   }
 
   // visibility_timeout - computed: true, optional: true, required: false
-  private _visibilityTimeout?: number;
+  private _visibilityTimeout?: number; 
   public get visibilityTimeout() {
     return this.getNumberAttribute('visibility_timeout');
   }

@@ -196,7 +196,7 @@ export class CloudformationStackSetAutoDeploymentOutputReference extends cdktn.C
   }
 
   // depends_on_stack_sets - computed: false, optional: true, required: false
-  private _dependsOnStackSets?: string[];
+  private _dependsOnStackSets?: string[]; 
   public get dependsOnStackSets() {
     return this.getListAttribute('depends_on_stack_sets');
   }
@@ -212,7 +212,7 @@ export class CloudformationStackSetAutoDeploymentOutputReference extends cdktn.C
   }
 
   // enabled - computed: false, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -228,7 +228,7 @@ export class CloudformationStackSetAutoDeploymentOutputReference extends cdktn.C
   }
 
   // retain_stacks_on_account_removal - computed: false, optional: true, required: false
-  private _retainStacksOnAccountRemoval?: boolean | cdktn.IResolvable;
+  private _retainStacksOnAccountRemoval?: boolean | cdktn.IResolvable; 
   public get retainStacksOnAccountRemoval() {
     return this.getBooleanAttribute('retain_stacks_on_account_removal');
   }
@@ -312,7 +312,7 @@ export class CloudformationStackSetManagedExecutionOutputReference extends cdktn
   }
 
   // active - computed: false, optional: true, required: false
-  private _active?: boolean | cdktn.IResolvable;
+  private _active?: boolean | cdktn.IResolvable; 
   public get active() {
     return this.getBooleanAttribute('active');
   }
@@ -481,7 +481,7 @@ export class CloudformationStackSetOperationPreferencesOutputReference extends c
   }
 
   // failure_tolerance_count - computed: false, optional: true, required: false
-  private _failureToleranceCount?: number;
+  private _failureToleranceCount?: number; 
   public get failureToleranceCount() {
     return this.getNumberAttribute('failure_tolerance_count');
   }
@@ -497,7 +497,7 @@ export class CloudformationStackSetOperationPreferencesOutputReference extends c
   }
 
   // failure_tolerance_percentage - computed: false, optional: true, required: false
-  private _failureTolerancePercentage?: number;
+  private _failureTolerancePercentage?: number; 
   public get failureTolerancePercentage() {
     return this.getNumberAttribute('failure_tolerance_percentage');
   }
@@ -513,7 +513,7 @@ export class CloudformationStackSetOperationPreferencesOutputReference extends c
   }
 
   // max_concurrent_count - computed: false, optional: true, required: false
-  private _maxConcurrentCount?: number;
+  private _maxConcurrentCount?: number; 
   public get maxConcurrentCount() {
     return this.getNumberAttribute('max_concurrent_count');
   }
@@ -529,7 +529,7 @@ export class CloudformationStackSetOperationPreferencesOutputReference extends c
   }
 
   // max_concurrent_percentage - computed: false, optional: true, required: false
-  private _maxConcurrentPercentage?: number;
+  private _maxConcurrentPercentage?: number; 
   public get maxConcurrentPercentage() {
     return this.getNumberAttribute('max_concurrent_percentage');
   }
@@ -545,7 +545,7 @@ export class CloudformationStackSetOperationPreferencesOutputReference extends c
   }
 
   // region_concurrency_type - computed: false, optional: true, required: false
-  private _regionConcurrencyType?: string;
+  private _regionConcurrencyType?: string; 
   public get regionConcurrencyType() {
     return this.getStringAttribute('region_concurrency_type');
   }
@@ -561,7 +561,7 @@ export class CloudformationStackSetOperationPreferencesOutputReference extends c
   }
 
   // region_order - computed: false, optional: true, required: false
-  private _regionOrder?: string[];
+  private _regionOrder?: string[]; 
   public get regionOrder() {
     return this.getListAttribute('region_order');
   }
@@ -655,7 +655,7 @@ export class CloudformationStackSetTimeoutsOutputReference extends cdktn.Complex
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -746,7 +746,7 @@ export class CloudformationStackSet extends cdktn.TerraformResource {
   // ==========
 
   // administration_role_arn - computed: false, optional: true, required: false
-  private _administrationRoleArn?: string;
+  private _administrationRoleArn?: string; 
   public get administrationRoleArn() {
     return this.getStringAttribute('administration_role_arn');
   }
@@ -767,7 +767,7 @@ export class CloudformationStackSet extends cdktn.TerraformResource {
   }
 
   // call_as - computed: false, optional: true, required: false
-  private _callAs?: string;
+  private _callAs?: string; 
   public get callAs() {
     return this.getStringAttribute('call_as');
   }
@@ -783,7 +783,7 @@ export class CloudformationStackSet extends cdktn.TerraformResource {
   }
 
   // capabilities - computed: false, optional: true, required: false
-  private _capabilities?: string[];
+  private _capabilities?: string[]; 
   public get capabilities() {
     return cdktn.Fn.tolist(this.getListAttribute('capabilities'));
   }
@@ -799,7 +799,7 @@ export class CloudformationStackSet extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -815,7 +815,7 @@ export class CloudformationStackSet extends cdktn.TerraformResource {
   }
 
   // execution_role_name - computed: true, optional: true, required: false
-  private _executionRoleName?: string;
+  private _executionRoleName?: string; 
   public get executionRoleName() {
     return this.getStringAttribute('execution_role_name');
   }
@@ -831,7 +831,7 @@ export class CloudformationStackSet extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -847,7 +847,7 @@ export class CloudformationStackSet extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -860,7 +860,7 @@ export class CloudformationStackSet extends cdktn.TerraformResource {
   }
 
   // parameters - computed: false, optional: true, required: false
-  private _parameters?: { [key: string]: string };
+  private _parameters?: { [key: string]: string }; 
   public get parameters() {
     return this.getStringMapAttribute('parameters');
   }
@@ -876,7 +876,7 @@ export class CloudformationStackSet extends cdktn.TerraformResource {
   }
 
   // permission_model - computed: false, optional: true, required: false
-  private _permissionModel?: string;
+  private _permissionModel?: string; 
   public get permissionModel() {
     return this.getStringAttribute('permission_model');
   }
@@ -892,7 +892,7 @@ export class CloudformationStackSet extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -913,7 +913,7 @@ export class CloudformationStackSet extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -929,7 +929,7 @@ export class CloudformationStackSet extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -945,7 +945,7 @@ export class CloudformationStackSet extends cdktn.TerraformResource {
   }
 
   // template_body - computed: true, optional: true, required: false
-  private _templateBody?: string;
+  private _templateBody?: string; 
   public get templateBody() {
     return this.getStringAttribute('template_body');
   }
@@ -961,7 +961,7 @@ export class CloudformationStackSet extends cdktn.TerraformResource {
   }
 
   // template_url - computed: false, optional: true, required: false
-  private _templateUrl?: string;
+  private _templateUrl?: string; 
   public get templateUrl() {
     return this.getStringAttribute('template_url');
   }

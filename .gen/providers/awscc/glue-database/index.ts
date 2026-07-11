@@ -107,7 +107,7 @@ export class GlueDatabaseDatabaseInputCreateTableDefaultPermissionsPrincipalOutp
   }
 
   // data_lake_principal_identifier - computed: true, optional: true, required: false
-  private _dataLakePrincipalIdentifier?: string;
+  private _dataLakePrincipalIdentifier?: string; 
   public get dataLakePrincipalIdentifier() {
     return this.getStringAttribute('data_lake_principal_identifier');
   }
@@ -224,7 +224,7 @@ export class GlueDatabaseDatabaseInputCreateTableDefaultPermissionsOutputReferen
   }
 
   // permissions - computed: true, optional: true, required: false
-  private _permissions?: string[];
+  private _permissions?: string[]; 
   public get permissions() {
     return this.getListAttribute('permissions');
   }
@@ -375,7 +375,7 @@ export class GlueDatabaseDatabaseInputFederatedDatabaseOutputReference extends c
   }
 
   // connection_name - computed: true, optional: true, required: false
-  private _connectionName?: string;
+  private _connectionName?: string; 
   public get connectionName() {
     return this.getStringAttribute('connection_name');
   }
@@ -391,7 +391,7 @@ export class GlueDatabaseDatabaseInputFederatedDatabaseOutputReference extends c
   }
 
   // identifier - computed: true, optional: true, required: false
-  private _identifier?: string;
+  private _identifier?: string; 
   public get identifier() {
     return this.getStringAttribute('identifier');
   }
@@ -525,7 +525,7 @@ export class GlueDatabaseDatabaseInputTargetDatabaseOutputReference extends cdkt
   }
 
   // catalog_id - computed: true, optional: true, required: false
-  private _catalogId?: string;
+  private _catalogId?: string; 
   public get catalogId() {
     return this.getStringAttribute('catalog_id');
   }
@@ -541,7 +541,7 @@ export class GlueDatabaseDatabaseInputTargetDatabaseOutputReference extends cdkt
   }
 
   // database_name - computed: true, optional: true, required: false
-  private _databaseName?: string;
+  private _databaseName?: string; 
   public get databaseName() {
     return this.getStringAttribute('database_name');
   }
@@ -557,7 +557,7 @@ export class GlueDatabaseDatabaseInputTargetDatabaseOutputReference extends cdkt
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -783,7 +783,7 @@ export class GlueDatabaseDatabaseInputOutputReference extends cdktn.ComplexObjec
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -815,7 +815,7 @@ export class GlueDatabaseDatabaseInputOutputReference extends cdktn.ComplexObjec
   }
 
   // location_uri - computed: true, optional: true, required: false
-  private _locationUri?: string;
+  private _locationUri?: string; 
   public get locationUri() {
     return this.getStringAttribute('location_uri');
   }
@@ -831,7 +831,7 @@ export class GlueDatabaseDatabaseInputOutputReference extends cdktn.ComplexObjec
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -847,7 +847,7 @@ export class GlueDatabaseDatabaseInputOutputReference extends cdktn.ComplexObjec
   }
 
   // parameters - computed: true, optional: true, required: false
-  private _parameters?: string;
+  private _parameters?: string; 
   public get parameters() {
     return this.getStringAttribute('parameters');
   }
@@ -939,7 +939,7 @@ export class GlueDatabase extends cdktn.TerraformResource {
   // ==========
 
   // catalog_id - computed: false, optional: false, required: true
-  private _catalogId?: string;
+  private _catalogId?: string; 
   public get catalogId() {
     return this.getStringAttribute('catalog_id');
   }
@@ -965,7 +965,7 @@ export class GlueDatabase extends cdktn.TerraformResource {
   }
 
   // database_name - computed: true, optional: true, required: false
-  private _databaseName?: string;
+  private _databaseName?: string; 
   public get databaseName() {
     return this.getStringAttribute('database_name');
   }

@@ -110,7 +110,7 @@ export class InspectorResourceGroupResourceGroupTagsOutputReference extends cdkt
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -123,7 +123,7 @@ export class InspectorResourceGroupResourceGroupTagsOutputReference extends cdkt
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }

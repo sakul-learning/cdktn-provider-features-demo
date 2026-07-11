@@ -111,7 +111,7 @@ export class DataAwsDmsReplicationInstance extends cdktn.TerraformDataSource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -152,7 +152,7 @@ export class DataAwsDmsReplicationInstance extends cdktn.TerraformDataSource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -178,7 +178,7 @@ export class DataAwsDmsReplicationInstance extends cdktn.TerraformDataSource {
   }
 
   // replication_instance_id - computed: false, optional: false, required: true
-  private _replicationInstanceId?: string;
+  private _replicationInstanceId?: string; 
   public get replicationInstanceId() {
     return this.getStringAttribute('replication_instance_id');
   }
@@ -206,7 +206,7 @@ export class DataAwsDmsReplicationInstance extends cdktn.TerraformDataSource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

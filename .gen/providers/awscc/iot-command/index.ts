@@ -273,7 +273,7 @@ export class IotCommandMandatoryParametersDefaultValueOutputReference extends cd
   }
 
   // b - computed: true, optional: true, required: false
-  private _b?: boolean | cdktn.IResolvable;
+  private _b?: boolean | cdktn.IResolvable; 
   public get b() {
     return this.getBooleanAttribute('b');
   }
@@ -289,7 +289,7 @@ export class IotCommandMandatoryParametersDefaultValueOutputReference extends cd
   }
 
   // bin - computed: true, optional: true, required: false
-  private _bin?: string;
+  private _bin?: string; 
   public get bin() {
     return this.getStringAttribute('bin');
   }
@@ -305,7 +305,7 @@ export class IotCommandMandatoryParametersDefaultValueOutputReference extends cd
   }
 
   // d - computed: true, optional: true, required: false
-  private _d?: number;
+  private _d?: number; 
   public get d() {
     return this.getNumberAttribute('d');
   }
@@ -321,7 +321,7 @@ export class IotCommandMandatoryParametersDefaultValueOutputReference extends cd
   }
 
   // i - computed: true, optional: true, required: false
-  private _i?: number;
+  private _i?: number; 
   public get i() {
     return this.getNumberAttribute('i');
   }
@@ -337,7 +337,7 @@ export class IotCommandMandatoryParametersDefaultValueOutputReference extends cd
   }
 
   // l - computed: true, optional: true, required: false
-  private _l?: string;
+  private _l?: string; 
   public get l() {
     return this.getStringAttribute('l');
   }
@@ -353,7 +353,7 @@ export class IotCommandMandatoryParametersDefaultValueOutputReference extends cd
   }
 
   // s - computed: true, optional: true, required: false
-  private _s?: string;
+  private _s?: string; 
   public get s() {
     return this.getStringAttribute('s');
   }
@@ -369,7 +369,7 @@ export class IotCommandMandatoryParametersDefaultValueOutputReference extends cd
   }
 
   // ul - computed: true, optional: true, required: false
-  private _ul?: string;
+  private _ul?: string; 
   public get ul() {
     return this.getStringAttribute('ul');
   }
@@ -565,7 +565,7 @@ export class IotCommandMandatoryParametersValueOutputReference extends cdktn.Com
   }
 
   // b - computed: true, optional: true, required: false
-  private _b?: boolean | cdktn.IResolvable;
+  private _b?: boolean | cdktn.IResolvable; 
   public get b() {
     return this.getBooleanAttribute('b');
   }
@@ -581,7 +581,7 @@ export class IotCommandMandatoryParametersValueOutputReference extends cdktn.Com
   }
 
   // bin - computed: true, optional: true, required: false
-  private _bin?: string;
+  private _bin?: string; 
   public get bin() {
     return this.getStringAttribute('bin');
   }
@@ -597,7 +597,7 @@ export class IotCommandMandatoryParametersValueOutputReference extends cdktn.Com
   }
 
   // d - computed: true, optional: true, required: false
-  private _d?: number;
+  private _d?: number; 
   public get d() {
     return this.getNumberAttribute('d');
   }
@@ -613,7 +613,7 @@ export class IotCommandMandatoryParametersValueOutputReference extends cdktn.Com
   }
 
   // i - computed: true, optional: true, required: false
-  private _i?: number;
+  private _i?: number; 
   public get i() {
     return this.getNumberAttribute('i');
   }
@@ -629,7 +629,7 @@ export class IotCommandMandatoryParametersValueOutputReference extends cdktn.Com
   }
 
   // l - computed: true, optional: true, required: false
-  private _l?: string;
+  private _l?: string; 
   public get l() {
     return this.getStringAttribute('l');
   }
@@ -645,7 +645,7 @@ export class IotCommandMandatoryParametersValueOutputReference extends cdktn.Com
   }
 
   // s - computed: true, optional: true, required: false
-  private _s?: string;
+  private _s?: string; 
   public get s() {
     return this.getStringAttribute('s');
   }
@@ -661,7 +661,7 @@ export class IotCommandMandatoryParametersValueOutputReference extends cdktn.Com
   }
 
   // ul - computed: true, optional: true, required: false
-  private _ul?: string;
+  private _ul?: string; 
   public get ul() {
     return this.getStringAttribute('ul');
   }
@@ -772,7 +772,7 @@ export class IotCommandMandatoryParametersValueConditionsOperandNumberRangeOutpu
   }
 
   // max - computed: true, optional: true, required: false
-  private _max?: string;
+  private _max?: string; 
   public get max() {
     return this.getStringAttribute('max');
   }
@@ -788,7 +788,7 @@ export class IotCommandMandatoryParametersValueConditionsOperandNumberRangeOutpu
   }
 
   // min - computed: true, optional: true, required: false
-  private _min?: string;
+  private _min?: string; 
   public get min() {
     return this.getStringAttribute('min');
   }
@@ -950,7 +950,7 @@ export class IotCommandMandatoryParametersValueConditionsOperandOutputReference 
   }
 
   // number - computed: true, optional: true, required: false
-  private _number?: string;
+  private _number?: string; 
   public get number() {
     return this.getStringAttribute('number');
   }
@@ -982,7 +982,7 @@ export class IotCommandMandatoryParametersValueConditionsOperandOutputReference 
   }
 
   // numbers - computed: true, optional: true, required: false
-  private _numbers?: string[];
+  private _numbers?: string[]; 
   public get numbers() {
     return this.getListAttribute('numbers');
   }
@@ -998,7 +998,7 @@ export class IotCommandMandatoryParametersValueConditionsOperandOutputReference 
   }
 
   // string - computed: true, optional: true, required: false
-  private _string?: string;
+  private _string?: string; 
   public get string() {
     return this.getStringAttribute('string');
   }
@@ -1014,7 +1014,7 @@ export class IotCommandMandatoryParametersValueConditionsOperandOutputReference 
   }
 
   // strings - computed: true, optional: true, required: false
-  private _strings?: string[];
+  private _strings?: string[]; 
   public get strings() {
     return this.getListAttribute('strings');
   }
@@ -1127,7 +1127,7 @@ export class IotCommandMandatoryParametersValueConditionsOutputReference extends
   }
 
   // comparison_operator - computed: true, optional: true, required: false
-  private _comparisonOperator?: string;
+  private _comparisonOperator?: string; 
   public get comparisonOperator() {
     return this.getStringAttribute('comparison_operator');
   }
@@ -1360,7 +1360,7 @@ export class IotCommandMandatoryParametersOutputReference extends cdktn.ComplexO
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1376,7 +1376,7 @@ export class IotCommandMandatoryParametersOutputReference extends cdktn.ComplexO
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1392,7 +1392,7 @@ export class IotCommandMandatoryParametersOutputReference extends cdktn.ComplexO
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -1555,7 +1555,7 @@ export class IotCommandPayloadOutputReference extends cdktn.ComplexObject {
   }
 
   // content - computed: true, optional: true, required: false
-  private _content?: string;
+  private _content?: string; 
   public get content() {
     return this.getStringAttribute('content');
   }
@@ -1571,7 +1571,7 @@ export class IotCommandPayloadOutputReference extends cdktn.ComplexObject {
   }
 
   // content_type - computed: true, optional: true, required: false
-  private _contentType?: string;
+  private _contentType?: string; 
   public get contentType() {
     return this.getStringAttribute('content_type');
   }
@@ -1665,7 +1665,7 @@ export class IotCommandPreprocessorAwsJsonSubstitutionOutputReference extends cd
   }
 
   // output_format - computed: true, optional: true, required: false
-  private _outputFormat?: string;
+  private _outputFormat?: string; 
   public get outputFormat() {
     return this.getStringAttribute('output_format');
   }
@@ -1876,7 +1876,7 @@ export class IotCommandTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1892,7 +1892,7 @@ export class IotCommandTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2004,7 +2004,7 @@ export class IotCommand extends cdktn.TerraformResource {
   }
 
   // command_id - computed: false, optional: false, required: true
-  private _commandId?: string;
+  private _commandId?: string; 
   public get commandId() {
     return this.getStringAttribute('command_id');
   }
@@ -2017,7 +2017,7 @@ export class IotCommand extends cdktn.TerraformResource {
   }
 
   // created_at - computed: true, optional: true, required: false
-  private _createdAt?: string;
+  private _createdAt?: string; 
   public get createdAt() {
     return this.getStringAttribute('created_at');
   }
@@ -2033,7 +2033,7 @@ export class IotCommand extends cdktn.TerraformResource {
   }
 
   // deprecated - computed: true, optional: true, required: false
-  private _deprecated?: boolean | cdktn.IResolvable;
+  private _deprecated?: boolean | cdktn.IResolvable; 
   public get deprecated() {
     return this.getBooleanAttribute('deprecated');
   }
@@ -2049,7 +2049,7 @@ export class IotCommand extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -2065,7 +2065,7 @@ export class IotCommand extends cdktn.TerraformResource {
   }
 
   // display_name - computed: true, optional: true, required: false
-  private _displayName?: string;
+  private _displayName?: string; 
   public get displayName() {
     return this.getStringAttribute('display_name');
   }
@@ -2086,7 +2086,7 @@ export class IotCommand extends cdktn.TerraformResource {
   }
 
   // last_updated_at - computed: true, optional: true, required: false
-  private _lastUpdatedAt?: string;
+  private _lastUpdatedAt?: string; 
   public get lastUpdatedAt() {
     return this.getStringAttribute('last_updated_at');
   }
@@ -2118,7 +2118,7 @@ export class IotCommand extends cdktn.TerraformResource {
   }
 
   // namespace - computed: true, optional: true, required: false
-  private _namespace?: string;
+  private _namespace?: string; 
   public get namespace() {
     return this.getStringAttribute('namespace');
   }
@@ -2150,7 +2150,7 @@ export class IotCommand extends cdktn.TerraformResource {
   }
 
   // payload_template - computed: true, optional: true, required: false
-  private _payloadTemplate?: string;
+  private _payloadTemplate?: string; 
   public get payloadTemplate() {
     return this.getStringAttribute('payload_template');
   }
@@ -2166,7 +2166,7 @@ export class IotCommand extends cdktn.TerraformResource {
   }
 
   // pending_deletion - computed: true, optional: true, required: false
-  private _pendingDeletion?: boolean | cdktn.IResolvable;
+  private _pendingDeletion?: boolean | cdktn.IResolvable; 
   public get pendingDeletion() {
     return this.getBooleanAttribute('pending_deletion');
   }
@@ -2198,7 +2198,7 @@ export class IotCommand extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }

@@ -128,7 +128,7 @@ export class NatGatewayEipAssociationTimeoutsOutputReference extends cdktn.Compl
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -144,7 +144,7 @@ export class NatGatewayEipAssociationTimeoutsOutputReference extends cdktn.Compl
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -221,7 +221,7 @@ export class NatGatewayEipAssociation extends cdktn.TerraformResource {
   // ==========
 
   // allocation_id - computed: false, optional: false, required: true
-  private _allocationId?: string;
+  private _allocationId?: string; 
   public get allocationId() {
     return this.getStringAttribute('allocation_id');
   }
@@ -239,7 +239,7 @@ export class NatGatewayEipAssociation extends cdktn.TerraformResource {
   }
 
   // nat_gateway_id - computed: false, optional: false, required: true
-  private _natGatewayId?: string;
+  private _natGatewayId?: string; 
   public get natGatewayId() {
     return this.getStringAttribute('nat_gateway_id');
   }
@@ -252,7 +252,7 @@ export class NatGatewayEipAssociation extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

@@ -15,9 +15,9 @@ export interface NeptunegraphGraphConfig extends cdktn.TerraformMetaArguments {
   readonly deletionProtection?: boolean | cdktn.IResolvable;
   /**
   * The graph name. For example: my-graph-1.
-  * 								The name must contain from 1 to 63 letters, numbers, or hyphens,
+  * 								The name must contain from 1 to 63 letters, numbers, or hyphens, 
   * 								and its first character must be a letter. It cannot end with a hyphen or contain two consecutive hyphens.
-  * 								If you don't specify a graph name, a unique graph name is generated for you using the prefix graph-for,
+  * 								If you don't specify a graph name, a unique graph name is generated for you using the prefix graph-for, 
   * 								followed by a combination of Stack Name and a UUID.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/neptunegraph_graph#graph_name NeptunegraphGraph#graph_name}
@@ -42,11 +42,11 @@ export interface NeptunegraphGraphConfig extends cdktn.TerraformMetaArguments {
   */
   readonly provisionedMemory: number;
   /**
-  * Specifies whether or not the graph can be reachable over the internet.
+  * Specifies whether or not the graph can be reachable over the internet. 
   * 								All access to graphs is IAM authenticated.
-  * 								When the graph is publicly available, its domain name system (DNS) endpoint resolves to
-  * 								the public IP address from the internet. When the graph isn't publicly available, you need
-  * 								to create a PrivateGraphEndpoint in a given VPC to ensure the DNS name resolves to a private
+  * 								When the graph is publicly available, its domain name system (DNS) endpoint resolves to 
+  * 								the public IP address from the internet. When the graph isn't publicly available, you need 
+  * 								to create a PrivateGraphEndpoint in a given VPC to ensure the DNS name resolves to a private 
   * 								IP address that is reachable from the VPC.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/neptunegraph_graph#public_connectivity NeptunegraphGraph#public_connectivity}
@@ -200,7 +200,7 @@ export class NeptunegraphGraphTimeoutsOutputReference extends cdktn.ComplexObjec
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -216,7 +216,7 @@ export class NeptunegraphGraphTimeoutsOutputReference extends cdktn.ComplexObjec
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -232,7 +232,7 @@ export class NeptunegraphGraphTimeoutsOutputReference extends cdktn.ComplexObjec
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -330,7 +330,7 @@ export class NeptunegraphGraphVectorSearchConfigurationOutputReference extends c
   }
 
   // vector_search_dimension - computed: false, optional: true, required: false
-  private _vectorSearchDimension?: number;
+  private _vectorSearchDimension?: number; 
   public get vectorSearchDimension() {
     return this.getNumberAttribute('vector_search_dimension');
   }
@@ -439,7 +439,7 @@ export class NeptunegraphGraph extends cdktn.TerraformResource {
   }
 
   // deletion_protection - computed: true, optional: true, required: false
-  private _deletionProtection?: boolean | cdktn.IResolvable;
+  private _deletionProtection?: boolean | cdktn.IResolvable; 
   public get deletionProtection() {
     return this.getBooleanAttribute('deletion_protection');
   }
@@ -460,7 +460,7 @@ export class NeptunegraphGraph extends cdktn.TerraformResource {
   }
 
   // graph_name - computed: true, optional: true, required: false
-  private _graphName?: string;
+  private _graphName?: string; 
   public get graphName() {
     return this.getStringAttribute('graph_name');
   }
@@ -476,7 +476,7 @@ export class NeptunegraphGraph extends cdktn.TerraformResource {
   }
 
   // graph_name_prefix - computed: false, optional: true, required: false
-  private _graphNamePrefix?: string;
+  private _graphNamePrefix?: string; 
   public get graphNamePrefix() {
     return this.getStringAttribute('graph_name_prefix');
   }
@@ -497,7 +497,7 @@ export class NeptunegraphGraph extends cdktn.TerraformResource {
   }
 
   // kms_key_identifier - computed: true, optional: true, required: false
-  private _kmsKeyIdentifier?: string;
+  private _kmsKeyIdentifier?: string; 
   public get kmsKeyIdentifier() {
     return this.getStringAttribute('kms_key_identifier');
   }
@@ -513,7 +513,7 @@ export class NeptunegraphGraph extends cdktn.TerraformResource {
   }
 
   // provisioned_memory - computed: false, optional: false, required: true
-  private _provisionedMemory?: number;
+  private _provisionedMemory?: number; 
   public get provisionedMemory() {
     return this.getNumberAttribute('provisioned_memory');
   }
@@ -526,7 +526,7 @@ export class NeptunegraphGraph extends cdktn.TerraformResource {
   }
 
   // public_connectivity - computed: true, optional: true, required: false
-  private _publicConnectivity?: boolean | cdktn.IResolvable;
+  private _publicConnectivity?: boolean | cdktn.IResolvable; 
   public get publicConnectivity() {
     return this.getBooleanAttribute('public_connectivity');
   }
@@ -542,7 +542,7 @@ export class NeptunegraphGraph extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -558,7 +558,7 @@ export class NeptunegraphGraph extends cdktn.TerraformResource {
   }
 
   // replica_count - computed: true, optional: true, required: false
-  private _replicaCount?: number;
+  private _replicaCount?: number; 
   public get replicaCount() {
     return this.getNumberAttribute('replica_count');
   }
@@ -574,7 +574,7 @@ export class NeptunegraphGraph extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

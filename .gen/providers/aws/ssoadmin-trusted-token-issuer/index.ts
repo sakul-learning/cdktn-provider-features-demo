@@ -172,7 +172,7 @@ export class SsoadminTrustedTokenIssuerTrustedTokenIssuerConfigurationOidcJwtCon
   }
 
   // claim_attribute_path - computed: false, optional: false, required: true
-  private _claimAttributePath?: string;
+  private _claimAttributePath?: string; 
   public get claimAttributePath() {
     return this.getStringAttribute('claim_attribute_path');
   }
@@ -185,7 +185,7 @@ export class SsoadminTrustedTokenIssuerTrustedTokenIssuerConfigurationOidcJwtCon
   }
 
   // identity_store_attribute_path - computed: false, optional: false, required: true
-  private _identityStoreAttributePath?: string;
+  private _identityStoreAttributePath?: string; 
   public get identityStoreAttributePath() {
     return this.getStringAttribute('identity_store_attribute_path');
   }
@@ -198,7 +198,7 @@ export class SsoadminTrustedTokenIssuerTrustedTokenIssuerConfigurationOidcJwtCon
   }
 
   // issuer_url - computed: false, optional: false, required: true
-  private _issuerUrl?: string;
+  private _issuerUrl?: string; 
   public get issuerUrl() {
     return this.getStringAttribute('issuer_url');
   }
@@ -211,7 +211,7 @@ export class SsoadminTrustedTokenIssuerTrustedTokenIssuerConfigurationOidcJwtCon
   }
 
   // jwks_retrieval_option - computed: false, optional: false, required: true
-  private _jwksRetrievalOption?: string;
+  private _jwksRetrievalOption?: string; 
   public get jwksRetrievalOption() {
     return this.getStringAttribute('jwks_retrieval_option');
   }
@@ -431,7 +431,7 @@ export class SsoadminTrustedTokenIssuer extends cdktn.TerraformResource {
   }
 
   // client_token - computed: false, optional: true, required: false
-  private _clientToken?: string;
+  private _clientToken?: string; 
   public get clientToken() {
     return this.getStringAttribute('client_token');
   }
@@ -452,7 +452,7 @@ export class SsoadminTrustedTokenIssuer extends cdktn.TerraformResource {
   }
 
   // instance_arn - computed: false, optional: false, required: true
-  private _instanceArn?: string;
+  private _instanceArn?: string; 
   public get instanceArn() {
     return this.getStringAttribute('instance_arn');
   }
@@ -465,7 +465,7 @@ export class SsoadminTrustedTokenIssuer extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -478,7 +478,7 @@ export class SsoadminTrustedTokenIssuer extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -494,7 +494,7 @@ export class SsoadminTrustedTokenIssuer extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -516,7 +516,7 @@ export class SsoadminTrustedTokenIssuer extends cdktn.TerraformResource {
   }
 
   // trusted_token_issuer_type - computed: false, optional: false, required: true
-  private _trustedTokenIssuerType?: string;
+  private _trustedTokenIssuerType?: string; 
   public get trustedTokenIssuerType() {
     return this.getStringAttribute('trusted_token_issuer_type');
   }

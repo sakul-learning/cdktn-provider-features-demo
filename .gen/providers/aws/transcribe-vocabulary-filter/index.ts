@@ -121,7 +121,7 @@ export class TranscribeVocabularyFilter extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -137,7 +137,7 @@ export class TranscribeVocabularyFilter extends cdktn.TerraformResource {
   }
 
   // language_code - computed: false, optional: false, required: true
-  private _languageCode?: string;
+  private _languageCode?: string; 
   public get languageCode() {
     return this.getStringAttribute('language_code');
   }
@@ -150,7 +150,7 @@ export class TranscribeVocabularyFilter extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -166,7 +166,7 @@ export class TranscribeVocabularyFilter extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -182,7 +182,7 @@ export class TranscribeVocabularyFilter extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -198,7 +198,7 @@ export class TranscribeVocabularyFilter extends cdktn.TerraformResource {
   }
 
   // vocabulary_filter_file_uri - computed: false, optional: true, required: false
-  private _vocabularyFilterFileUri?: string;
+  private _vocabularyFilterFileUri?: string; 
   public get vocabularyFilterFileUri() {
     return this.getStringAttribute('vocabulary_filter_file_uri');
   }
@@ -214,7 +214,7 @@ export class TranscribeVocabularyFilter extends cdktn.TerraformResource {
   }
 
   // vocabulary_filter_name - computed: false, optional: false, required: true
-  private _vocabularyFilterName?: string;
+  private _vocabularyFilterName?: string; 
   public get vocabularyFilterName() {
     return this.getStringAttribute('vocabulary_filter_name');
   }
@@ -227,7 +227,7 @@ export class TranscribeVocabularyFilter extends cdktn.TerraformResource {
   }
 
   // words - computed: false, optional: true, required: false
-  private _words?: string[];
+  private _words?: string[]; 
   public get words() {
     return this.getListAttribute('words');
   }

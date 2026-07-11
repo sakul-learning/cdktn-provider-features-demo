@@ -91,7 +91,7 @@ export class DataAwsCognitoUserPoolSigningCertificate extends cdktn.TerraformDat
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -107,7 +107,7 @@ export class DataAwsCognitoUserPoolSigningCertificate extends cdktn.TerraformDat
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -123,7 +123,7 @@ export class DataAwsCognitoUserPoolSigningCertificate extends cdktn.TerraformDat
   }
 
   // user_pool_id - computed: false, optional: false, required: true
-  private _userPoolId?: string;
+  private _userPoolId?: string; 
   public get userPoolId() {
     return this.getStringAttribute('user_pool_id');
   }

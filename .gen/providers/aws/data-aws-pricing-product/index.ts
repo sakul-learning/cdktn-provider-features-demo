@@ -123,7 +123,7 @@ export class DataAwsPricingProductFiltersOutputReference extends cdktn.ComplexOb
   }
 
   // field - computed: false, optional: false, required: true
-  private _field?: string;
+  private _field?: string; 
   public get field() {
     return this.getStringAttribute('field');
   }
@@ -136,7 +136,7 @@ export class DataAwsPricingProductFiltersOutputReference extends cdktn.ComplexOb
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -229,7 +229,7 @@ export class DataAwsPricingProduct extends cdktn.TerraformDataSource {
   // ==========
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -250,7 +250,7 @@ export class DataAwsPricingProduct extends cdktn.TerraformDataSource {
   }
 
   // service_code - computed: false, optional: false, required: true
-  private _serviceCode?: string;
+  private _serviceCode?: string; 
   public get serviceCode() {
     return this.getStringAttribute('service_code');
   }

@@ -148,7 +148,7 @@ export class AmazonmqConfigurationTagsOutputReference extends cdktn.ComplexObjec
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -164,7 +164,7 @@ export class AmazonmqConfigurationTagsOutputReference extends cdktn.ComplexObjec
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -269,7 +269,7 @@ export class AmazonmqConfiguration extends cdktn.TerraformResource {
   }
 
   // authentication_strategy - computed: true, optional: true, required: false
-  private _authenticationStrategy?: string;
+  private _authenticationStrategy?: string; 
   public get authenticationStrategy() {
     return this.getStringAttribute('authentication_strategy');
   }
@@ -290,7 +290,7 @@ export class AmazonmqConfiguration extends cdktn.TerraformResource {
   }
 
   // data - computed: true, optional: true, required: false
-  private _data?: string;
+  private _data?: string; 
   public get data() {
     return this.getStringAttribute('data');
   }
@@ -306,7 +306,7 @@ export class AmazonmqConfiguration extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -322,7 +322,7 @@ export class AmazonmqConfiguration extends cdktn.TerraformResource {
   }
 
   // engine_type - computed: false, optional: false, required: true
-  private _engineType?: string;
+  private _engineType?: string; 
   public get engineType() {
     return this.getStringAttribute('engine_type');
   }
@@ -335,7 +335,7 @@ export class AmazonmqConfiguration extends cdktn.TerraformResource {
   }
 
   // engine_version - computed: true, optional: true, required: false
-  private _engineVersion?: string;
+  private _engineVersion?: string; 
   public get engineVersion() {
     return this.getStringAttribute('engine_version');
   }
@@ -356,7 +356,7 @@ export class AmazonmqConfiguration extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }

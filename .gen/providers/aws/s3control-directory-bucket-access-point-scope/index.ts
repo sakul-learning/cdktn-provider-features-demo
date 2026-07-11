@@ -126,7 +126,7 @@ export class S3ControlDirectoryBucketAccessPointScopeScopeOutputReference extend
   }
 
   // permissions - computed: false, optional: true, required: false
-  private _permissions?: string[];
+  private _permissions?: string[]; 
   public get permissions() {
     return this.getListAttribute('permissions');
   }
@@ -142,7 +142,7 @@ export class S3ControlDirectoryBucketAccessPointScopeScopeOutputReference extend
   }
 
   // prefixes - computed: false, optional: true, required: false
-  private _prefixes?: string[];
+  private _prefixes?: string[]; 
   public get prefixes() {
     return this.getListAttribute('prefixes');
   }
@@ -239,7 +239,7 @@ export class S3ControlDirectoryBucketAccessPointScope extends cdktn.TerraformRes
   // ==========
 
   // account_id - computed: false, optional: false, required: true
-  private _accountId?: string;
+  private _accountId?: string; 
   public get accountId() {
     return this.getStringAttribute('account_id');
   }
@@ -252,7 +252,7 @@ export class S3ControlDirectoryBucketAccessPointScope extends cdktn.TerraformRes
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -265,7 +265,7 @@ export class S3ControlDirectoryBucketAccessPointScope extends cdktn.TerraformRes
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

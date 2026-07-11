@@ -195,7 +195,7 @@ export class QuicksightDataSetColumnGroupsGeoSpatialColumnGroupOutputReference e
   }
 
   // columns - computed: true, optional: true, required: false
-  private _columns?: string[];
+  private _columns?: string[]; 
   public get columns() {
     return this.getListAttribute('columns');
   }
@@ -211,7 +211,7 @@ export class QuicksightDataSetColumnGroupsGeoSpatialColumnGroupOutputReference e
   }
 
   // country_code - computed: true, optional: true, required: false
-  private _countryCode?: string;
+  private _countryCode?: string; 
   public get countryCode() {
     return this.getStringAttribute('country_code');
   }
@@ -227,7 +227,7 @@ export class QuicksightDataSetColumnGroupsGeoSpatialColumnGroupOutputReference e
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -458,7 +458,7 @@ export class QuicksightDataSetColumnLevelPermissionRulesOutputReference extends 
   }
 
   // column_names - computed: true, optional: true, required: false
-  private _columnNames?: string[];
+  private _columnNames?: string[]; 
   public get columnNames() {
     return this.getListAttribute('column_names');
   }
@@ -474,7 +474,7 @@ export class QuicksightDataSetColumnLevelPermissionRulesOutputReference extends 
   }
 
   // principals - computed: true, optional: true, required: false
-  private _principals?: string[];
+  private _principals?: string[]; 
   public get principals() {
     return this.getListAttribute('principals');
   }
@@ -605,7 +605,7 @@ export class QuicksightDataSetDataSetUsageConfigurationOutputReference extends c
   }
 
   // disable_use_as_direct_query_source - computed: true, optional: true, required: false
-  private _disableUseAsDirectQuerySource?: boolean | cdktn.IResolvable;
+  private _disableUseAsDirectQuerySource?: boolean | cdktn.IResolvable; 
   public get disableUseAsDirectQuerySource() {
     return this.getBooleanAttribute('disable_use_as_direct_query_source');
   }
@@ -621,7 +621,7 @@ export class QuicksightDataSetDataSetUsageConfigurationOutputReference extends c
   }
 
   // disable_use_as_imported_source - computed: true, optional: true, required: false
-  private _disableUseAsImportedSource?: boolean | cdktn.IResolvable;
+  private _disableUseAsImportedSource?: boolean | cdktn.IResolvable; 
   public get disableUseAsImportedSource() {
     return this.getBooleanAttribute('disable_use_as_imported_source');
   }
@@ -733,7 +733,7 @@ export class QuicksightDataSetFieldFoldersOutputReference extends cdktn.ComplexO
   }
 
   // columns - computed: true, optional: true, required: false
-  private _columns?: string[];
+  private _columns?: string[]; 
   public get columns() {
     return this.getListAttribute('columns');
   }
@@ -749,7 +749,7 @@ export class QuicksightDataSetFieldFoldersOutputReference extends cdktn.ComplexO
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -885,7 +885,7 @@ export class QuicksightDataSetIngestionWaitPolicyOutputReference extends cdktn.C
   }
 
   // ingestion_wait_time_in_hours - computed: true, optional: true, required: false
-  private _ingestionWaitTimeInHours?: number;
+  private _ingestionWaitTimeInHours?: number; 
   public get ingestionWaitTimeInHours() {
     return this.getNumberAttribute('ingestion_wait_time_in_hours');
   }
@@ -901,7 +901,7 @@ export class QuicksightDataSetIngestionWaitPolicyOutputReference extends cdktn.C
   }
 
   // wait_for_spice_ingestion - computed: true, optional: true, required: false
-  private _waitForSpiceIngestion?: boolean | cdktn.IResolvable;
+  private _waitForSpiceIngestion?: boolean | cdktn.IResolvable; 
   public get waitForSpiceIngestion() {
     return this.getBooleanAttribute('wait_for_spice_ingestion');
   }
@@ -1034,7 +1034,7 @@ export class QuicksightDataSetLogicalTableMapDataTransformsCastColumnTypeOperati
   }
 
   // column_name - computed: true, optional: true, required: false
-  private _columnName?: string;
+  private _columnName?: string; 
   public get columnName() {
     return this.getStringAttribute('column_name');
   }
@@ -1050,7 +1050,7 @@ export class QuicksightDataSetLogicalTableMapDataTransformsCastColumnTypeOperati
   }
 
   // format - computed: true, optional: true, required: false
-  private _format?: string;
+  private _format?: string; 
   public get format() {
     return this.getStringAttribute('format');
   }
@@ -1066,7 +1066,7 @@ export class QuicksightDataSetLogicalTableMapDataTransformsCastColumnTypeOperati
   }
 
   // new_column_type - computed: true, optional: true, required: false
-  private _newColumnType?: string;
+  private _newColumnType?: string; 
   public get newColumnType() {
     return this.getStringAttribute('new_column_type');
   }
@@ -1204,7 +1204,7 @@ export class QuicksightDataSetLogicalTableMapDataTransformsCreateColumnsOperatio
   }
 
   // column_id - computed: true, optional: true, required: false
-  private _columnId?: string;
+  private _columnId?: string; 
   public get columnId() {
     return this.getStringAttribute('column_id');
   }
@@ -1220,7 +1220,7 @@ export class QuicksightDataSetLogicalTableMapDataTransformsCreateColumnsOperatio
   }
 
   // column_name - computed: true, optional: true, required: false
-  private _columnName?: string;
+  private _columnName?: string; 
   public get columnName() {
     return this.getStringAttribute('column_name');
   }
@@ -1236,7 +1236,7 @@ export class QuicksightDataSetLogicalTableMapDataTransformsCreateColumnsOperatio
   }
 
   // expression - computed: true, optional: true, required: false
-  private _expression?: string;
+  private _expression?: string; 
   public get expression() {
     return this.getStringAttribute('expression');
   }
@@ -1449,7 +1449,7 @@ export class QuicksightDataSetLogicalTableMapDataTransformsFilterOperationOutput
   }
 
   // condition_expression - computed: true, optional: true, required: false
-  private _conditionExpression?: string;
+  private _conditionExpression?: string; 
   public get conditionExpression() {
     return this.getStringAttribute('condition_expression');
   }
@@ -1545,7 +1545,7 @@ export class QuicksightDataSetLogicalTableMapDataTransformsProjectOperationOutpu
   }
 
   // projected_columns - computed: true, optional: true, required: false
-  private _projectedColumns?: string[];
+  private _projectedColumns?: string[]; 
   public get projectedColumns() {
     return this.getListAttribute('projected_columns');
   }
@@ -1660,7 +1660,7 @@ export class QuicksightDataSetLogicalTableMapDataTransformsRenameColumnOperation
   }
 
   // column_name - computed: true, optional: true, required: false
-  private _columnName?: string;
+  private _columnName?: string; 
   public get columnName() {
     return this.getStringAttribute('column_name');
   }
@@ -1676,7 +1676,7 @@ export class QuicksightDataSetLogicalTableMapDataTransformsRenameColumnOperation
   }
 
   // new_column_name - computed: true, optional: true, required: false
-  private _newColumnName?: string;
+  private _newColumnName?: string; 
   public get newColumnName() {
     return this.getStringAttribute('new_column_name');
   }
@@ -1772,7 +1772,7 @@ export class QuicksightDataSetLogicalTableMapDataTransformsTagColumnOperationTag
   }
 
   // text - computed: true, optional: true, required: false
-  private _text?: string;
+  private _text?: string; 
   public get text() {
     return this.getStringAttribute('text');
   }
@@ -1903,7 +1903,7 @@ export class QuicksightDataSetLogicalTableMapDataTransformsTagColumnOperationTag
   }
 
   // column_geographic_role - computed: true, optional: true, required: false
-  private _columnGeographicRole?: string;
+  private _columnGeographicRole?: string; 
   public get columnGeographicRole() {
     return this.getStringAttribute('column_geographic_role');
   }
@@ -2041,7 +2041,7 @@ export class QuicksightDataSetLogicalTableMapDataTransformsTagColumnOperationOut
   }
 
   // column_name - computed: true, optional: true, required: false
-  private _columnName?: string;
+  private _columnName?: string; 
   public get columnName() {
     return this.getStringAttribute('column_name');
   }
@@ -2446,7 +2446,7 @@ export class QuicksightDataSetLogicalTableMapSourceJoinInstructionLeftJoinKeyPro
   }
 
   // unique_key - computed: true, optional: true, required: false
-  private _uniqueKey?: boolean | cdktn.IResolvable;
+  private _uniqueKey?: boolean | cdktn.IResolvable; 
   public get uniqueKey() {
     return this.getBooleanAttribute('unique_key');
   }
@@ -2540,7 +2540,7 @@ export class QuicksightDataSetLogicalTableMapSourceJoinInstructionRightJoinKeyPr
   }
 
   // unique_key - computed: true, optional: true, required: false
-  private _uniqueKey?: boolean | cdktn.IResolvable;
+  private _uniqueKey?: boolean | cdktn.IResolvable; 
   public get uniqueKey() {
     return this.getBooleanAttribute('unique_key');
   }
@@ -2741,7 +2741,7 @@ export class QuicksightDataSetLogicalTableMapSourceJoinInstructionOutputReferenc
   }
 
   // left_operand - computed: true, optional: true, required: false
-  private _leftOperand?: string;
+  private _leftOperand?: string; 
   public get leftOperand() {
     return this.getStringAttribute('left_operand');
   }
@@ -2757,7 +2757,7 @@ export class QuicksightDataSetLogicalTableMapSourceJoinInstructionOutputReferenc
   }
 
   // on_clause - computed: true, optional: true, required: false
-  private _onClause?: string;
+  private _onClause?: string; 
   public get onClause() {
     return this.getStringAttribute('on_clause');
   }
@@ -2789,7 +2789,7 @@ export class QuicksightDataSetLogicalTableMapSourceJoinInstructionOutputReferenc
   }
 
   // right_operand - computed: true, optional: true, required: false
-  private _rightOperand?: string;
+  private _rightOperand?: string; 
   public get rightOperand() {
     return this.getStringAttribute('right_operand');
   }
@@ -2805,7 +2805,7 @@ export class QuicksightDataSetLogicalTableMapSourceJoinInstructionOutputReferenc
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -2939,7 +2939,7 @@ export class QuicksightDataSetLogicalTableMapSourceOutputReference extends cdktn
   }
 
   // data_set_arn - computed: true, optional: true, required: false
-  private _dataSetArn?: string;
+  private _dataSetArn?: string; 
   public get dataSetArn() {
     return this.getStringAttribute('data_set_arn');
   }
@@ -2971,7 +2971,7 @@ export class QuicksightDataSetLogicalTableMapSourceOutputReference extends cdktn
   }
 
   // physical_table_id - computed: true, optional: true, required: false
-  private _physicalTableId?: string;
+  private _physicalTableId?: string; 
   public get physicalTableId() {
     return this.getStringAttribute('physical_table_id');
   }
@@ -3107,7 +3107,7 @@ export class QuicksightDataSetLogicalTableMapOutputReference extends cdktn.Compl
   }
 
   // alias - computed: true, optional: true, required: false
-  private _alias?: string;
+  private _alias?: string; 
   public get alias() {
     return this.getStringAttribute('alias');
   }
@@ -3374,7 +3374,7 @@ export class QuicksightDataSetPermissionsOutputReference extends cdktn.ComplexOb
   }
 
   // actions - computed: true, optional: true, required: false
-  private _actions?: string[];
+  private _actions?: string[]; 
   public get actions() {
     return this.getListAttribute('actions');
   }
@@ -3390,7 +3390,7 @@ export class QuicksightDataSetPermissionsOutputReference extends cdktn.ComplexOb
   }
 
   // principal - computed: true, optional: true, required: false
-  private _principal?: string;
+  private _principal?: string; 
   public get principal() {
     return this.getStringAttribute('principal');
   }
@@ -3525,7 +3525,7 @@ export class QuicksightDataSetPhysicalTableMapCustomSqlColumnsOutputReference ex
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -3541,7 +3541,7 @@ export class QuicksightDataSetPhysicalTableMapCustomSqlColumnsOutputReference ex
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -3730,7 +3730,7 @@ export class QuicksightDataSetPhysicalTableMapCustomSqlOutputReference extends c
   }
 
   // data_source_arn - computed: true, optional: true, required: false
-  private _dataSourceArn?: string;
+  private _dataSourceArn?: string; 
   public get dataSourceArn() {
     return this.getStringAttribute('data_source_arn');
   }
@@ -3746,7 +3746,7 @@ export class QuicksightDataSetPhysicalTableMapCustomSqlOutputReference extends c
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -3762,7 +3762,7 @@ export class QuicksightDataSetPhysicalTableMapCustomSqlOutputReference extends c
   }
 
   // sql_query - computed: true, optional: true, required: false
-  private _sqlQuery?: string;
+  private _sqlQuery?: string; 
   public get sqlQuery() {
     return this.getStringAttribute('sql_query');
   }
@@ -3877,7 +3877,7 @@ export class QuicksightDataSetPhysicalTableMapRelationalTableInputColumnsOutputR
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -3893,7 +3893,7 @@ export class QuicksightDataSetPhysicalTableMapRelationalTableInputColumnsOutputR
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -4085,7 +4085,7 @@ export class QuicksightDataSetPhysicalTableMapRelationalTableOutputReference ext
   }
 
   // catalog - computed: true, optional: true, required: false
-  private _catalog?: string;
+  private _catalog?: string; 
   public get catalog() {
     return this.getStringAttribute('catalog');
   }
@@ -4101,7 +4101,7 @@ export class QuicksightDataSetPhysicalTableMapRelationalTableOutputReference ext
   }
 
   // data_source_arn - computed: true, optional: true, required: false
-  private _dataSourceArn?: string;
+  private _dataSourceArn?: string; 
   public get dataSourceArn() {
     return this.getStringAttribute('data_source_arn');
   }
@@ -4133,7 +4133,7 @@ export class QuicksightDataSetPhysicalTableMapRelationalTableOutputReference ext
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -4149,7 +4149,7 @@ export class QuicksightDataSetPhysicalTableMapRelationalTableOutputReference ext
   }
 
   // schema - computed: true, optional: true, required: false
-  private _schema?: string;
+  private _schema?: string; 
   public get schema() {
     return this.getStringAttribute('schema');
   }
@@ -4264,7 +4264,7 @@ export class QuicksightDataSetPhysicalTableMapS3SourceInputColumnsOutputReferenc
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -4280,7 +4280,7 @@ export class QuicksightDataSetPhysicalTableMapS3SourceInputColumnsOutputReferenc
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -4468,7 +4468,7 @@ export class QuicksightDataSetPhysicalTableMapS3SourceUploadSettingsOutputRefere
   }
 
   // contains_header - computed: true, optional: true, required: false
-  private _containsHeader?: boolean | cdktn.IResolvable;
+  private _containsHeader?: boolean | cdktn.IResolvable; 
   public get containsHeader() {
     return this.getBooleanAttribute('contains_header');
   }
@@ -4484,7 +4484,7 @@ export class QuicksightDataSetPhysicalTableMapS3SourceUploadSettingsOutputRefere
   }
 
   // delimiter - computed: true, optional: true, required: false
-  private _delimiter?: string;
+  private _delimiter?: string; 
   public get delimiter() {
     return this.getStringAttribute('delimiter');
   }
@@ -4500,7 +4500,7 @@ export class QuicksightDataSetPhysicalTableMapS3SourceUploadSettingsOutputRefere
   }
 
   // format - computed: true, optional: true, required: false
-  private _format?: string;
+  private _format?: string; 
   public get format() {
     return this.getStringAttribute('format');
   }
@@ -4516,7 +4516,7 @@ export class QuicksightDataSetPhysicalTableMapS3SourceUploadSettingsOutputRefere
   }
 
   // start_from_row - computed: true, optional: true, required: false
-  private _startFromRow?: number;
+  private _startFromRow?: number; 
   public get startFromRow() {
     return this.getNumberAttribute('start_from_row');
   }
@@ -4532,7 +4532,7 @@ export class QuicksightDataSetPhysicalTableMapS3SourceUploadSettingsOutputRefere
   }
 
   // text_qualifier - computed: true, optional: true, required: false
-  private _textQualifier?: string;
+  private _textQualifier?: string; 
   public get textQualifier() {
     return this.getStringAttribute('text_qualifier');
   }
@@ -4666,7 +4666,7 @@ export class QuicksightDataSetPhysicalTableMapS3SourceOutputReference extends cd
   }
 
   // data_source_arn - computed: true, optional: true, required: false
-  private _dataSourceArn?: string;
+  private _dataSourceArn?: string; 
   public get dataSourceArn() {
     return this.getStringAttribute('data_source_arn');
   }
@@ -5033,7 +5033,7 @@ export class QuicksightDataSetRowLevelPermissionDataSetOutputReference extends c
   }
 
   // arn - computed: true, optional: true, required: false
-  private _arn?: string;
+  private _arn?: string; 
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -5049,7 +5049,7 @@ export class QuicksightDataSetRowLevelPermissionDataSetOutputReference extends c
   }
 
   // format_version - computed: true, optional: true, required: false
-  private _formatVersion?: string;
+  private _formatVersion?: string; 
   public get formatVersion() {
     return this.getStringAttribute('format_version');
   }
@@ -5065,7 +5065,7 @@ export class QuicksightDataSetRowLevelPermissionDataSetOutputReference extends c
   }
 
   // namespace - computed: true, optional: true, required: false
-  private _namespace?: string;
+  private _namespace?: string; 
   public get namespace() {
     return this.getStringAttribute('namespace');
   }
@@ -5081,7 +5081,7 @@ export class QuicksightDataSetRowLevelPermissionDataSetOutputReference extends c
   }
 
   // permission_policy - computed: true, optional: true, required: false
-  private _permissionPolicy?: string;
+  private _permissionPolicy?: string; 
   public get permissionPolicy() {
     return this.getStringAttribute('permission_policy');
   }
@@ -5198,7 +5198,7 @@ export class QuicksightDataSetTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -5214,7 +5214,7 @@ export class QuicksightDataSetTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -5326,7 +5326,7 @@ export class QuicksightDataSet extends cdktn.TerraformResource {
   }
 
   // aws_account_id - computed: true, optional: true, required: false
-  private _awsAccountId?: string;
+  private _awsAccountId?: string; 
   public get awsAccountId() {
     return this.getStringAttribute('aws_account_id');
   }
@@ -5384,7 +5384,7 @@ export class QuicksightDataSet extends cdktn.TerraformResource {
   }
 
   // data_set_id - computed: true, optional: true, required: false
-  private _dataSetId?: string;
+  private _dataSetId?: string; 
   public get dataSetId() {
     return this.getStringAttribute('data_set_id');
   }
@@ -5437,7 +5437,7 @@ export class QuicksightDataSet extends cdktn.TerraformResource {
   }
 
   // import_mode - computed: true, optional: true, required: false
-  private _importMode?: string;
+  private _importMode?: string; 
   public get importMode() {
     return this.getStringAttribute('import_mode');
   }
@@ -5490,7 +5490,7 @@ export class QuicksightDataSet extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }

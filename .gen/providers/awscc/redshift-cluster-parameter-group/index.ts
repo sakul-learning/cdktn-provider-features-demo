@@ -140,7 +140,7 @@ export class RedshiftClusterParameterGroupParametersOutputReference extends cdkt
   }
 
   // parameter_name - computed: true, optional: true, required: false
-  private _parameterName?: string;
+  private _parameterName?: string; 
   public get parameterName() {
     return this.getStringAttribute('parameter_name');
   }
@@ -156,7 +156,7 @@ export class RedshiftClusterParameterGroupParametersOutputReference extends cdkt
   }
 
   // parameter_value - computed: true, optional: true, required: false
-  private _parameterValue?: string;
+  private _parameterValue?: string; 
   public get parameterValue() {
     return this.getStringAttribute('parameter_value');
   }
@@ -293,7 +293,7 @@ export class RedshiftClusterParameterGroupTagsOutputReference extends cdktn.Comp
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -309,7 +309,7 @@ export class RedshiftClusterParameterGroupTagsOutputReference extends cdktn.Comp
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -407,7 +407,7 @@ export class RedshiftClusterParameterGroup extends cdktn.TerraformResource {
   // ==========
 
   // description - computed: false, optional: false, required: true
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -425,7 +425,7 @@ export class RedshiftClusterParameterGroup extends cdktn.TerraformResource {
   }
 
   // parameter_group_family - computed: false, optional: false, required: true
-  private _parameterGroupFamily?: string;
+  private _parameterGroupFamily?: string; 
   public get parameterGroupFamily() {
     return this.getStringAttribute('parameter_group_family');
   }
@@ -438,7 +438,7 @@ export class RedshiftClusterParameterGroup extends cdktn.TerraformResource {
   }
 
   // parameter_group_name - computed: true, optional: true, required: false
-  private _parameterGroupName?: string;
+  private _parameterGroupName?: string; 
   public get parameterGroupName() {
     return this.getStringAttribute('parameter_group_name');
   }

@@ -124,7 +124,7 @@ export class S3StorageLensGroupFilterAndMatchAnyTagOutputReference extends cdktn
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -140,7 +140,7 @@ export class S3StorageLensGroupFilterAndMatchAnyTagOutputReference extends cdktn
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -275,7 +275,7 @@ export class S3StorageLensGroupFilterAndMatchObjectAgeOutputReference extends cd
   }
 
   // days_greater_than - computed: true, optional: true, required: false
-  private _daysGreaterThan?: number;
+  private _daysGreaterThan?: number; 
   public get daysGreaterThan() {
     return this.getNumberAttribute('days_greater_than');
   }
@@ -291,7 +291,7 @@ export class S3StorageLensGroupFilterAndMatchObjectAgeOutputReference extends cd
   }
 
   // days_less_than - computed: true, optional: true, required: false
-  private _daysLessThan?: number;
+  private _daysLessThan?: number; 
   public get daysLessThan() {
     return this.getNumberAttribute('days_less_than');
   }
@@ -406,7 +406,7 @@ export class S3StorageLensGroupFilterAndMatchObjectSizeOutputReference extends c
   }
 
   // bytes_greater_than - computed: true, optional: true, required: false
-  private _bytesGreaterThan?: number;
+  private _bytesGreaterThan?: number; 
   public get bytesGreaterThan() {
     return this.getNumberAttribute('bytes_greater_than');
   }
@@ -422,7 +422,7 @@ export class S3StorageLensGroupFilterAndMatchObjectSizeOutputReference extends c
   }
 
   // bytes_less_than - computed: true, optional: true, required: false
-  private _bytesLessThan?: number;
+  private _bytesLessThan?: number; 
   public get bytesLessThan() {
     return this.getNumberAttribute('bytes_less_than');
   }
@@ -594,7 +594,7 @@ export class S3StorageLensGroupFilterAndOutputReference extends cdktn.ComplexObj
   }
 
   // match_any_prefix - computed: true, optional: true, required: false
-  private _matchAnyPrefix?: string[];
+  private _matchAnyPrefix?: string[]; 
   public get matchAnyPrefix() {
     return cdktn.Fn.tolist(this.getListAttribute('match_any_prefix'));
   }
@@ -610,7 +610,7 @@ export class S3StorageLensGroupFilterAndOutputReference extends cdktn.ComplexObj
   }
 
   // match_any_suffix - computed: true, optional: true, required: false
-  private _matchAnySuffix?: string[];
+  private _matchAnySuffix?: string[]; 
   public get matchAnySuffix() {
     return cdktn.Fn.tolist(this.getListAttribute('match_any_suffix'));
   }
@@ -771,7 +771,7 @@ export class S3StorageLensGroupFilterMatchAnyTagOutputReference extends cdktn.Co
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -787,7 +787,7 @@ export class S3StorageLensGroupFilterMatchAnyTagOutputReference extends cdktn.Co
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -922,7 +922,7 @@ export class S3StorageLensGroupFilterMatchObjectAgeOutputReference extends cdktn
   }
 
   // days_greater_than - computed: true, optional: true, required: false
-  private _daysGreaterThan?: number;
+  private _daysGreaterThan?: number; 
   public get daysGreaterThan() {
     return this.getNumberAttribute('days_greater_than');
   }
@@ -938,7 +938,7 @@ export class S3StorageLensGroupFilterMatchObjectAgeOutputReference extends cdktn
   }
 
   // days_less_than - computed: true, optional: true, required: false
-  private _daysLessThan?: number;
+  private _daysLessThan?: number; 
   public get daysLessThan() {
     return this.getNumberAttribute('days_less_than');
   }
@@ -1053,7 +1053,7 @@ export class S3StorageLensGroupFilterMatchObjectSizeOutputReference extends cdkt
   }
 
   // bytes_greater_than - computed: true, optional: true, required: false
-  private _bytesGreaterThan?: number;
+  private _bytesGreaterThan?: number; 
   public get bytesGreaterThan() {
     return this.getNumberAttribute('bytes_greater_than');
   }
@@ -1069,7 +1069,7 @@ export class S3StorageLensGroupFilterMatchObjectSizeOutputReference extends cdkt
   }
 
   // bytes_less_than - computed: true, optional: true, required: false
-  private _bytesLessThan?: number;
+  private _bytesLessThan?: number; 
   public get bytesLessThan() {
     return this.getNumberAttribute('bytes_less_than');
   }
@@ -1182,7 +1182,7 @@ export class S3StorageLensGroupFilterOrMatchAnyTagOutputReference extends cdktn.
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1198,7 +1198,7 @@ export class S3StorageLensGroupFilterOrMatchAnyTagOutputReference extends cdktn.
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1333,7 +1333,7 @@ export class S3StorageLensGroupFilterOrMatchObjectAgeOutputReference extends cdk
   }
 
   // days_greater_than - computed: true, optional: true, required: false
-  private _daysGreaterThan?: number;
+  private _daysGreaterThan?: number; 
   public get daysGreaterThan() {
     return this.getNumberAttribute('days_greater_than');
   }
@@ -1349,7 +1349,7 @@ export class S3StorageLensGroupFilterOrMatchObjectAgeOutputReference extends cdk
   }
 
   // days_less_than - computed: true, optional: true, required: false
-  private _daysLessThan?: number;
+  private _daysLessThan?: number; 
   public get daysLessThan() {
     return this.getNumberAttribute('days_less_than');
   }
@@ -1464,7 +1464,7 @@ export class S3StorageLensGroupFilterOrMatchObjectSizeOutputReference extends cd
   }
 
   // bytes_greater_than - computed: true, optional: true, required: false
-  private _bytesGreaterThan?: number;
+  private _bytesGreaterThan?: number; 
   public get bytesGreaterThan() {
     return this.getNumberAttribute('bytes_greater_than');
   }
@@ -1480,7 +1480,7 @@ export class S3StorageLensGroupFilterOrMatchObjectSizeOutputReference extends cd
   }
 
   // bytes_less_than - computed: true, optional: true, required: false
-  private _bytesLessThan?: number;
+  private _bytesLessThan?: number; 
   public get bytesLessThan() {
     return this.getNumberAttribute('bytes_less_than');
   }
@@ -1652,7 +1652,7 @@ export class S3StorageLensGroupFilterOrOutputReference extends cdktn.ComplexObje
   }
 
   // match_any_prefix - computed: true, optional: true, required: false
-  private _matchAnyPrefix?: string[];
+  private _matchAnyPrefix?: string[]; 
   public get matchAnyPrefix() {
     return cdktn.Fn.tolist(this.getListAttribute('match_any_prefix'));
   }
@@ -1668,7 +1668,7 @@ export class S3StorageLensGroupFilterOrOutputReference extends cdktn.ComplexObje
   }
 
   // match_any_suffix - computed: true, optional: true, required: false
-  private _matchAnySuffix?: string[];
+  private _matchAnySuffix?: string[]; 
   public get matchAnySuffix() {
     return cdktn.Fn.tolist(this.getListAttribute('match_any_suffix'));
   }
@@ -1942,7 +1942,7 @@ export class S3StorageLensGroupFilterOutputReference extends cdktn.ComplexObject
   }
 
   // match_any_prefix - computed: true, optional: true, required: false
-  private _matchAnyPrefix?: string[];
+  private _matchAnyPrefix?: string[]; 
   public get matchAnyPrefix() {
     return cdktn.Fn.tolist(this.getListAttribute('match_any_prefix'));
   }
@@ -1958,7 +1958,7 @@ export class S3StorageLensGroupFilterOutputReference extends cdktn.ComplexObject
   }
 
   // match_any_suffix - computed: true, optional: true, required: false
-  private _matchAnySuffix?: string[];
+  private _matchAnySuffix?: string[]; 
   public get matchAnySuffix() {
     return cdktn.Fn.tolist(this.getListAttribute('match_any_suffix'));
   }
@@ -2135,7 +2135,7 @@ export class S3StorageLensGroupTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -2151,7 +2151,7 @@ export class S3StorageLensGroupTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2265,7 +2265,7 @@ export class S3StorageLensGroup extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }

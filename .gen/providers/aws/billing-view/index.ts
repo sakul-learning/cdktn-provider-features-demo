@@ -134,7 +134,7 @@ export class BillingViewDataFilterExpressionDimensionsOutputReference extends cd
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -147,7 +147,7 @@ export class BillingViewDataFilterExpressionDimensionsOutputReference extends cd
   }
 
   // values - computed: false, optional: false, required: true
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -277,7 +277,7 @@ export class BillingViewDataFilterExpressionTagsOutputReference extends cdktn.Co
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -290,7 +290,7 @@ export class BillingViewDataFilterExpressionTagsOutputReference extends cdktn.Co
   }
 
   // values - computed: false, optional: false, required: true
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -420,7 +420,7 @@ export class BillingViewDataFilterExpressionTimeRangeOutputReference extends cdk
   }
 
   // begin_date_inclusive - computed: false, optional: false, required: true
-  private _beginDateInclusive?: string;
+  private _beginDateInclusive?: string; 
   public get beginDateInclusive() {
     return this.getStringAttribute('begin_date_inclusive');
   }
@@ -433,7 +433,7 @@ export class BillingViewDataFilterExpressionTimeRangeOutputReference extends cdk
   }
 
   // end_date_inclusive - computed: false, optional: false, required: true
-  private _endDateInclusive?: string;
+  private _endDateInclusive?: string; 
   public get endDateInclusive() {
     return this.getStringAttribute('end_date_inclusive');
   }
@@ -772,7 +772,7 @@ export class BillingViewTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -788,7 +788,7 @@ export class BillingViewTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -804,7 +804,7 @@ export class BillingViewTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -903,7 +903,7 @@ export class BillingView extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -919,7 +919,7 @@ export class BillingView extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -947,7 +947,7 @@ export class BillingView extends cdktn.TerraformResource {
   }
 
   // source_views - computed: false, optional: true, required: false
-  private _sourceViews?: string[];
+  private _sourceViews?: string[]; 
   public get sourceViews() {
     return this.getListAttribute('source_views');
   }
@@ -963,7 +963,7 @@ export class BillingView extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

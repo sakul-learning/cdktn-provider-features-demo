@@ -111,7 +111,7 @@ export class S3BucketPublicAccessBlock extends cdktn.TerraformResource {
   // ==========
 
   // block_public_acls - computed: false, optional: true, required: false
-  private _blockPublicAcls?: boolean | cdktn.IResolvable;
+  private _blockPublicAcls?: boolean | cdktn.IResolvable; 
   public get blockPublicAcls() {
     return this.getBooleanAttribute('block_public_acls');
   }
@@ -127,7 +127,7 @@ export class S3BucketPublicAccessBlock extends cdktn.TerraformResource {
   }
 
   // block_public_policy - computed: false, optional: true, required: false
-  private _blockPublicPolicy?: boolean | cdktn.IResolvable;
+  private _blockPublicPolicy?: boolean | cdktn.IResolvable; 
   public get blockPublicPolicy() {
     return this.getBooleanAttribute('block_public_policy');
   }
@@ -143,7 +143,7 @@ export class S3BucketPublicAccessBlock extends cdktn.TerraformResource {
   }
 
   // bucket - computed: false, optional: false, required: true
-  private _bucket?: string;
+  private _bucket?: string; 
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -156,7 +156,7 @@ export class S3BucketPublicAccessBlock extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -172,7 +172,7 @@ export class S3BucketPublicAccessBlock extends cdktn.TerraformResource {
   }
 
   // ignore_public_acls - computed: false, optional: true, required: false
-  private _ignorePublicAcls?: boolean | cdktn.IResolvable;
+  private _ignorePublicAcls?: boolean | cdktn.IResolvable; 
   public get ignorePublicAcls() {
     return this.getBooleanAttribute('ignore_public_acls');
   }
@@ -188,7 +188,7 @@ export class S3BucketPublicAccessBlock extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -204,7 +204,7 @@ export class S3BucketPublicAccessBlock extends cdktn.TerraformResource {
   }
 
   // restrict_public_buckets - computed: false, optional: true, required: false
-  private _restrictPublicBuckets?: boolean | cdktn.IResolvable;
+  private _restrictPublicBuckets?: boolean | cdktn.IResolvable; 
   public get restrictPublicBuckets() {
     return this.getBooleanAttribute('restrict_public_buckets');
   }
@@ -220,7 +220,7 @@ export class S3BucketPublicAccessBlock extends cdktn.TerraformResource {
   }
 
   // skip_destroy - computed: false, optional: true, required: false
-  private _skipDestroy?: boolean | cdktn.IResolvable;
+  private _skipDestroy?: boolean | cdktn.IResolvable; 
   public get skipDestroy() {
     return this.getBooleanAttribute('skip_destroy');
   }

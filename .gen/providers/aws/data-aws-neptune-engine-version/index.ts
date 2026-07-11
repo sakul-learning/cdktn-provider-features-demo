@@ -136,7 +136,7 @@ export class DataAwsNeptuneEngineVersion extends cdktn.TerraformDataSource {
   }
 
   // default_only - computed: false, optional: true, required: false
-  private _defaultOnly?: boolean | cdktn.IResolvable;
+  private _defaultOnly?: boolean | cdktn.IResolvable; 
   public get defaultOnly() {
     return this.getBooleanAttribute('default_only');
   }
@@ -152,7 +152,7 @@ export class DataAwsNeptuneEngineVersion extends cdktn.TerraformDataSource {
   }
 
   // engine - computed: false, optional: true, required: false
-  private _engine?: string;
+  private _engine?: string; 
   public get engine() {
     return this.getStringAttribute('engine');
   }
@@ -178,7 +178,7 @@ export class DataAwsNeptuneEngineVersion extends cdktn.TerraformDataSource {
   }
 
   // has_major_target - computed: false, optional: true, required: false
-  private _hasMajorTarget?: boolean | cdktn.IResolvable;
+  private _hasMajorTarget?: boolean | cdktn.IResolvable; 
   public get hasMajorTarget() {
     return this.getBooleanAttribute('has_major_target');
   }
@@ -194,7 +194,7 @@ export class DataAwsNeptuneEngineVersion extends cdktn.TerraformDataSource {
   }
 
   // has_minor_target - computed: false, optional: true, required: false
-  private _hasMinorTarget?: boolean | cdktn.IResolvable;
+  private _hasMinorTarget?: boolean | cdktn.IResolvable; 
   public get hasMinorTarget() {
     return this.getBooleanAttribute('has_minor_target');
   }
@@ -210,7 +210,7 @@ export class DataAwsNeptuneEngineVersion extends cdktn.TerraformDataSource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -226,7 +226,7 @@ export class DataAwsNeptuneEngineVersion extends cdktn.TerraformDataSource {
   }
 
   // latest - computed: false, optional: true, required: false
-  private _latest?: boolean | cdktn.IResolvable;
+  private _latest?: boolean | cdktn.IResolvable; 
   public get latest() {
     return this.getBooleanAttribute('latest');
   }
@@ -242,7 +242,7 @@ export class DataAwsNeptuneEngineVersion extends cdktn.TerraformDataSource {
   }
 
   // parameter_group_family - computed: true, optional: true, required: false
-  private _parameterGroupFamily?: string;
+  private _parameterGroupFamily?: string; 
   public get parameterGroupFamily() {
     return this.getStringAttribute('parameter_group_family');
   }
@@ -258,7 +258,7 @@ export class DataAwsNeptuneEngineVersion extends cdktn.TerraformDataSource {
   }
 
   // preferred_major_targets - computed: false, optional: true, required: false
-  private _preferredMajorTargets?: string[];
+  private _preferredMajorTargets?: string[]; 
   public get preferredMajorTargets() {
     return this.getListAttribute('preferred_major_targets');
   }
@@ -274,7 +274,7 @@ export class DataAwsNeptuneEngineVersion extends cdktn.TerraformDataSource {
   }
 
   // preferred_upgrade_targets - computed: false, optional: true, required: false
-  private _preferredUpgradeTargets?: string[];
+  private _preferredUpgradeTargets?: string[]; 
   public get preferredUpgradeTargets() {
     return this.getListAttribute('preferred_upgrade_targets');
   }
@@ -290,7 +290,7 @@ export class DataAwsNeptuneEngineVersion extends cdktn.TerraformDataSource {
   }
 
   // preferred_versions - computed: false, optional: true, required: false
-  private _preferredVersions?: string[];
+  private _preferredVersions?: string[]; 
   public get preferredVersions() {
     return this.getListAttribute('preferred_versions');
   }
@@ -306,7 +306,7 @@ export class DataAwsNeptuneEngineVersion extends cdktn.TerraformDataSource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -362,7 +362,7 @@ export class DataAwsNeptuneEngineVersion extends cdktn.TerraformDataSource {
   }
 
   // version - computed: true, optional: true, required: false
-  private _version?: string;
+  private _version?: string; 
   public get version() {
     return this.getStringAttribute('version');
   }

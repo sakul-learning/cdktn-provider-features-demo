@@ -156,7 +156,7 @@ export class DataAwsAccountRegions extends cdktn.TerraformDataSource {
   // ==========
 
   // account_id - computed: true, optional: true, required: false
-  private _accountId?: string;
+  private _accountId?: string; 
   public get accountId() {
     return this.getStringAttribute('account_id');
   }
@@ -172,7 +172,7 @@ export class DataAwsAccountRegions extends cdktn.TerraformDataSource {
   }
 
   // region_opt_status_contains - computed: true, optional: true, required: false
-  private _regionOptStatusContains?: string[];
+  private _regionOptStatusContains?: string[]; 
   public get regionOptStatusContains() {
     return this.getListAttribute('region_opt_status_contains');
   }

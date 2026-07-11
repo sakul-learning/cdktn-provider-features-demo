@@ -167,7 +167,7 @@ export class MedialiveCloudwatchAlarmTemplate extends cdktn.TerraformResource {
   }
 
   // comparison_operator - computed: false, optional: false, required: true
-  private _comparisonOperator?: string;
+  private _comparisonOperator?: string; 
   public get comparisonOperator() {
     return this.getStringAttribute('comparison_operator');
   }
@@ -185,7 +185,7 @@ export class MedialiveCloudwatchAlarmTemplate extends cdktn.TerraformResource {
   }
 
   // datapoints_to_alarm - computed: true, optional: true, required: false
-  private _datapointsToAlarm?: number;
+  private _datapointsToAlarm?: number; 
   public get datapointsToAlarm() {
     return this.getNumberAttribute('datapoints_to_alarm');
   }
@@ -201,7 +201,7 @@ export class MedialiveCloudwatchAlarmTemplate extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -217,7 +217,7 @@ export class MedialiveCloudwatchAlarmTemplate extends cdktn.TerraformResource {
   }
 
   // evaluation_periods - computed: true, optional: true, required: false
-  private _evaluationPeriods?: number;
+  private _evaluationPeriods?: number; 
   public get evaluationPeriods() {
     return this.getNumberAttribute('evaluation_periods');
   }
@@ -238,7 +238,7 @@ export class MedialiveCloudwatchAlarmTemplate extends cdktn.TerraformResource {
   }
 
   // group_identifier - computed: true, optional: true, required: false
-  private _groupIdentifier?: string;
+  private _groupIdentifier?: string; 
   public get groupIdentifier() {
     return this.getStringAttribute('group_identifier');
   }
@@ -264,7 +264,7 @@ export class MedialiveCloudwatchAlarmTemplate extends cdktn.TerraformResource {
   }
 
   // metric_name - computed: false, optional: false, required: true
-  private _metricName?: string;
+  private _metricName?: string; 
   public get metricName() {
     return this.getStringAttribute('metric_name');
   }
@@ -282,7 +282,7 @@ export class MedialiveCloudwatchAlarmTemplate extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -295,7 +295,7 @@ export class MedialiveCloudwatchAlarmTemplate extends cdktn.TerraformResource {
   }
 
   // period - computed: true, optional: true, required: false
-  private _period?: number;
+  private _period?: number; 
   public get period() {
     return this.getNumberAttribute('period');
   }
@@ -311,7 +311,7 @@ export class MedialiveCloudwatchAlarmTemplate extends cdktn.TerraformResource {
   }
 
   // statistic - computed: false, optional: false, required: true
-  private _statistic?: string;
+  private _statistic?: string; 
   public get statistic() {
     return this.getStringAttribute('statistic');
   }
@@ -324,7 +324,7 @@ export class MedialiveCloudwatchAlarmTemplate extends cdktn.TerraformResource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -340,7 +340,7 @@ export class MedialiveCloudwatchAlarmTemplate extends cdktn.TerraformResource {
   }
 
   // target_resource_type - computed: false, optional: false, required: true
-  private _targetResourceType?: string;
+  private _targetResourceType?: string; 
   public get targetResourceType() {
     return this.getStringAttribute('target_resource_type');
   }
@@ -353,7 +353,7 @@ export class MedialiveCloudwatchAlarmTemplate extends cdktn.TerraformResource {
   }
 
   // threshold - computed: true, optional: true, required: false
-  private _threshold?: number;
+  private _threshold?: number; 
   public get threshold() {
     return this.getNumberAttribute('threshold');
   }
@@ -369,7 +369,7 @@ export class MedialiveCloudwatchAlarmTemplate extends cdktn.TerraformResource {
   }
 
   // treat_missing_data - computed: false, optional: false, required: true
-  private _treatMissingData?: string;
+  private _treatMissingData?: string; 
   public get treatMissingData() {
     return this.getStringAttribute('treat_missing_data');
   }

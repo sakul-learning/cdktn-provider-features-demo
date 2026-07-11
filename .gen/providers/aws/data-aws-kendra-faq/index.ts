@@ -196,7 +196,7 @@ export class DataAwsKendraFaq extends cdktn.TerraformDataSource {
   }
 
   // faq_id - computed: false, optional: false, required: true
-  private _faqId?: string;
+  private _faqId?: string; 
   public get faqId() {
     return this.getStringAttribute('faq_id');
   }
@@ -214,7 +214,7 @@ export class DataAwsKendraFaq extends cdktn.TerraformDataSource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -230,7 +230,7 @@ export class DataAwsKendraFaq extends cdktn.TerraformDataSource {
   }
 
   // index_id - computed: false, optional: false, required: true
-  private _indexId?: string;
+  private _indexId?: string; 
   public get indexId() {
     return this.getStringAttribute('index_id');
   }
@@ -253,7 +253,7 @@ export class DataAwsKendraFaq extends cdktn.TerraformDataSource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -285,7 +285,7 @@ export class DataAwsKendraFaq extends cdktn.TerraformDataSource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

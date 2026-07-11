@@ -163,7 +163,7 @@ export class RedshiftdataStatementParametersOutputReference extends cdktn.Comple
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -176,7 +176,7 @@ export class RedshiftdataStatementParametersOutputReference extends cdktn.Comple
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -287,7 +287,7 @@ export class RedshiftdataStatementTimeoutsOutputReference extends cdktn.ComplexO
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -372,7 +372,7 @@ export class RedshiftdataStatement extends cdktn.TerraformResource {
   // ==========
 
   // cluster_identifier - computed: false, optional: true, required: false
-  private _clusterIdentifier?: string;
+  private _clusterIdentifier?: string; 
   public get clusterIdentifier() {
     return this.getStringAttribute('cluster_identifier');
   }
@@ -388,7 +388,7 @@ export class RedshiftdataStatement extends cdktn.TerraformResource {
   }
 
   // database - computed: false, optional: false, required: true
-  private _database?: string;
+  private _database?: string; 
   public get database() {
     return this.getStringAttribute('database');
   }
@@ -401,7 +401,7 @@ export class RedshiftdataStatement extends cdktn.TerraformResource {
   }
 
   // db_user - computed: false, optional: true, required: false
-  private _dbUser?: string;
+  private _dbUser?: string; 
   public get dbUser() {
     return this.getStringAttribute('db_user');
   }
@@ -417,7 +417,7 @@ export class RedshiftdataStatement extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -433,7 +433,7 @@ export class RedshiftdataStatement extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -449,7 +449,7 @@ export class RedshiftdataStatement extends cdktn.TerraformResource {
   }
 
   // secret_arn - computed: false, optional: true, required: false
-  private _secretArn?: string;
+  private _secretArn?: string; 
   public get secretArn() {
     return this.getStringAttribute('secret_arn');
   }
@@ -465,7 +465,7 @@ export class RedshiftdataStatement extends cdktn.TerraformResource {
   }
 
   // sql - computed: false, optional: false, required: true
-  private _sql?: string;
+  private _sql?: string; 
   public get sql() {
     return this.getStringAttribute('sql');
   }
@@ -478,7 +478,7 @@ export class RedshiftdataStatement extends cdktn.TerraformResource {
   }
 
   // statement_name - computed: false, optional: true, required: false
-  private _statementName?: string;
+  private _statementName?: string; 
   public get statementName() {
     return this.getStringAttribute('statement_name');
   }
@@ -494,7 +494,7 @@ export class RedshiftdataStatement extends cdktn.TerraformResource {
   }
 
   // with_event - computed: false, optional: true, required: false
-  private _withEvent?: boolean | cdktn.IResolvable;
+  private _withEvent?: boolean | cdktn.IResolvable; 
   public get withEvent() {
     return this.getBooleanAttribute('with_event');
   }
@@ -510,7 +510,7 @@ export class RedshiftdataStatement extends cdktn.TerraformResource {
   }
 
   // workgroup_name - computed: false, optional: true, required: false
-  private _workgroupName?: string;
+  private _workgroupName?: string; 
   public get workgroupName() {
     return this.getStringAttribute('workgroup_name');
   }

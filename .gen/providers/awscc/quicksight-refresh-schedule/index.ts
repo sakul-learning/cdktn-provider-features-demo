@@ -118,7 +118,7 @@ export class QuicksightRefreshScheduleScheduleScheduleFrequencyRefreshOnDayOutpu
   }
 
   // day_of_month - computed: true, optional: true, required: false
-  private _dayOfMonth?: string;
+  private _dayOfMonth?: string; 
   public get dayOfMonth() {
     return this.getStringAttribute('day_of_month');
   }
@@ -134,7 +134,7 @@ export class QuicksightRefreshScheduleScheduleScheduleFrequencyRefreshOnDayOutpu
   }
 
   // day_of_week - computed: true, optional: true, required: false
-  private _dayOfWeek?: string;
+  private _dayOfWeek?: string; 
   public get dayOfWeek() {
     return this.getStringAttribute('day_of_week');
   }
@@ -285,7 +285,7 @@ export class QuicksightRefreshScheduleScheduleScheduleFrequencyOutputReference e
   }
 
   // interval - computed: true, optional: true, required: false
-  private _interval?: string;
+  private _interval?: string; 
   public get interval() {
     return this.getStringAttribute('interval');
   }
@@ -317,7 +317,7 @@ export class QuicksightRefreshScheduleScheduleScheduleFrequencyOutputReference e
   }
 
   // time_of_the_day - computed: true, optional: true, required: false
-  private _timeOfTheDay?: string;
+  private _timeOfTheDay?: string; 
   public get timeOfTheDay() {
     return this.getStringAttribute('time_of_the_day');
   }
@@ -333,7 +333,7 @@ export class QuicksightRefreshScheduleScheduleScheduleFrequencyOutputReference e
   }
 
   // time_zone - computed: true, optional: true, required: false
-  private _timeZone?: string;
+  private _timeZone?: string; 
   public get timeZone() {
     return this.getStringAttribute('time_zone');
   }
@@ -484,7 +484,7 @@ export class QuicksightRefreshScheduleScheduleOutputReference extends cdktn.Comp
   }
 
   // refresh_type - computed: true, optional: true, required: false
-  private _refreshType?: string;
+  private _refreshType?: string; 
   public get refreshType() {
     return this.getStringAttribute('refresh_type');
   }
@@ -516,7 +516,7 @@ export class QuicksightRefreshScheduleScheduleOutputReference extends cdktn.Comp
   }
 
   // schedule_id - computed: true, optional: true, required: false
-  private _scheduleId?: string;
+  private _scheduleId?: string; 
   public get scheduleId() {
     return this.getStringAttribute('schedule_id');
   }
@@ -532,7 +532,7 @@ export class QuicksightRefreshScheduleScheduleOutputReference extends cdktn.Comp
   }
 
   // start_after_date_time - computed: true, optional: true, required: false
-  private _startAfterDateTime?: string;
+  private _startAfterDateTime?: string; 
   public get startAfterDateTime() {
     return this.getStringAttribute('start_after_date_time');
   }
@@ -613,7 +613,7 @@ export class QuicksightRefreshSchedule extends cdktn.TerraformResource {
   }
 
   // aws_account_id - computed: true, optional: true, required: false
-  private _awsAccountId?: string;
+  private _awsAccountId?: string; 
   public get awsAccountId() {
     return this.getStringAttribute('aws_account_id');
   }
@@ -629,7 +629,7 @@ export class QuicksightRefreshSchedule extends cdktn.TerraformResource {
   }
 
   // data_set_id - computed: true, optional: true, required: false
-  private _dataSetId?: string;
+  private _dataSetId?: string; 
   public get dataSetId() {
     return this.getStringAttribute('data_set_id');
   }

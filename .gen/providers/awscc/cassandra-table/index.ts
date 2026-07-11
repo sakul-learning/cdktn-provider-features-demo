@@ -224,7 +224,7 @@ export class CassandraTableAutoScalingSpecificationsReadCapacityAutoScalingScali
   }
 
   // disable_scale_in - computed: true, optional: true, required: false
-  private _disableScaleIn?: boolean | cdktn.IResolvable;
+  private _disableScaleIn?: boolean | cdktn.IResolvable; 
   public get disableScaleIn() {
     return this.getBooleanAttribute('disable_scale_in');
   }
@@ -240,7 +240,7 @@ export class CassandraTableAutoScalingSpecificationsReadCapacityAutoScalingScali
   }
 
   // scale_in_cooldown - computed: true, optional: true, required: false
-  private _scaleInCooldown?: number;
+  private _scaleInCooldown?: number; 
   public get scaleInCooldown() {
     return this.getNumberAttribute('scale_in_cooldown');
   }
@@ -256,7 +256,7 @@ export class CassandraTableAutoScalingSpecificationsReadCapacityAutoScalingScali
   }
 
   // scale_out_cooldown - computed: true, optional: true, required: false
-  private _scaleOutCooldown?: number;
+  private _scaleOutCooldown?: number; 
   public get scaleOutCooldown() {
     return this.getNumberAttribute('scale_out_cooldown');
   }
@@ -272,7 +272,7 @@ export class CassandraTableAutoScalingSpecificationsReadCapacityAutoScalingScali
   }
 
   // target_value - computed: true, optional: true, required: false
-  private _targetValue?: number;
+  private _targetValue?: number; 
   public get targetValue() {
     return this.getNumberAttribute('target_value');
   }
@@ -515,7 +515,7 @@ export class CassandraTableAutoScalingSpecificationsReadCapacityAutoScalingOutpu
   }
 
   // auto_scaling_disabled - computed: true, optional: true, required: false
-  private _autoScalingDisabled?: boolean | cdktn.IResolvable;
+  private _autoScalingDisabled?: boolean | cdktn.IResolvable; 
   public get autoScalingDisabled() {
     return this.getBooleanAttribute('auto_scaling_disabled');
   }
@@ -531,7 +531,7 @@ export class CassandraTableAutoScalingSpecificationsReadCapacityAutoScalingOutpu
   }
 
   // maximum_units - computed: true, optional: true, required: false
-  private _maximumUnits?: number;
+  private _maximumUnits?: number; 
   public get maximumUnits() {
     return this.getNumberAttribute('maximum_units');
   }
@@ -547,7 +547,7 @@ export class CassandraTableAutoScalingSpecificationsReadCapacityAutoScalingOutpu
   }
 
   // minimum_units - computed: true, optional: true, required: false
-  private _minimumUnits?: number;
+  private _minimumUnits?: number; 
   public get minimumUnits() {
     return this.getNumberAttribute('minimum_units');
   }
@@ -708,7 +708,7 @@ export class CassandraTableAutoScalingSpecificationsWriteCapacityAutoScalingScal
   }
 
   // disable_scale_in - computed: true, optional: true, required: false
-  private _disableScaleIn?: boolean | cdktn.IResolvable;
+  private _disableScaleIn?: boolean | cdktn.IResolvable; 
   public get disableScaleIn() {
     return this.getBooleanAttribute('disable_scale_in');
   }
@@ -724,7 +724,7 @@ export class CassandraTableAutoScalingSpecificationsWriteCapacityAutoScalingScal
   }
 
   // scale_in_cooldown - computed: true, optional: true, required: false
-  private _scaleInCooldown?: number;
+  private _scaleInCooldown?: number; 
   public get scaleInCooldown() {
     return this.getNumberAttribute('scale_in_cooldown');
   }
@@ -740,7 +740,7 @@ export class CassandraTableAutoScalingSpecificationsWriteCapacityAutoScalingScal
   }
 
   // scale_out_cooldown - computed: true, optional: true, required: false
-  private _scaleOutCooldown?: number;
+  private _scaleOutCooldown?: number; 
   public get scaleOutCooldown() {
     return this.getNumberAttribute('scale_out_cooldown');
   }
@@ -756,7 +756,7 @@ export class CassandraTableAutoScalingSpecificationsWriteCapacityAutoScalingScal
   }
 
   // target_value - computed: true, optional: true, required: false
-  private _targetValue?: number;
+  private _targetValue?: number; 
   public get targetValue() {
     return this.getNumberAttribute('target_value');
   }
@@ -999,7 +999,7 @@ export class CassandraTableAutoScalingSpecificationsWriteCapacityAutoScalingOutp
   }
 
   // auto_scaling_disabled - computed: true, optional: true, required: false
-  private _autoScalingDisabled?: boolean | cdktn.IResolvable;
+  private _autoScalingDisabled?: boolean | cdktn.IResolvable; 
   public get autoScalingDisabled() {
     return this.getBooleanAttribute('auto_scaling_disabled');
   }
@@ -1015,7 +1015,7 @@ export class CassandraTableAutoScalingSpecificationsWriteCapacityAutoScalingOutp
   }
 
   // maximum_units - computed: true, optional: true, required: false
-  private _maximumUnits?: number;
+  private _maximumUnits?: number; 
   public get maximumUnits() {
     return this.getNumberAttribute('maximum_units');
   }
@@ -1031,7 +1031,7 @@ export class CassandraTableAutoScalingSpecificationsWriteCapacityAutoScalingOutp
   }
 
   // minimum_units - computed: true, optional: true, required: false
-  private _minimumUnits?: number;
+  private _minimumUnits?: number; 
   public get minimumUnits() {
     return this.getNumberAttribute('minimum_units');
   }
@@ -1289,7 +1289,7 @@ export class CassandraTableBillingModeProvisionedThroughputOutputReference exten
   }
 
   // read_capacity_units - computed: true, optional: true, required: false
-  private _readCapacityUnits?: number;
+  private _readCapacityUnits?: number; 
   public get readCapacityUnits() {
     return this.getNumberAttribute('read_capacity_units');
   }
@@ -1305,7 +1305,7 @@ export class CassandraTableBillingModeProvisionedThroughputOutputReference exten
   }
 
   // write_capacity_units - computed: true, optional: true, required: false
-  private _writeCapacityUnits?: number;
+  private _writeCapacityUnits?: number; 
   public get writeCapacityUnits() {
     return this.getNumberAttribute('write_capacity_units');
   }
@@ -1420,7 +1420,7 @@ export class CassandraTableBillingModeOutputReference extends cdktn.ComplexObjec
   }
 
   // mode - computed: true, optional: true, required: false
-  private _mode?: string;
+  private _mode?: string; 
   public get mode() {
     return this.getStringAttribute('mode');
   }
@@ -1549,7 +1549,7 @@ export class CassandraTableCdcSpecificationTagsOutputReference extends cdktn.Com
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1565,7 +1565,7 @@ export class CassandraTableCdcSpecificationTagsOutputReference extends cdktn.Com
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1719,7 +1719,7 @@ export class CassandraTableCdcSpecificationOutputReference extends cdktn.Complex
   }
 
   // status - computed: true, optional: true, required: false
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -1751,7 +1751,7 @@ export class CassandraTableCdcSpecificationOutputReference extends cdktn.Complex
   }
 
   // view_type - computed: true, optional: true, required: false
-  private _viewType?: string;
+  private _viewType?: string; 
   public get viewType() {
     return this.getStringAttribute('view_type');
   }
@@ -1862,7 +1862,7 @@ export class CassandraTableClusteringKeyColumnsColumnOutputReference extends cdk
   }
 
   // column_name - computed: true, optional: true, required: false
-  private _columnName?: string;
+  private _columnName?: string; 
   public get columnName() {
     return this.getStringAttribute('column_name');
   }
@@ -1878,7 +1878,7 @@ export class CassandraTableClusteringKeyColumnsColumnOutputReference extends cdk
   }
 
   // column_type - computed: true, optional: true, required: false
-  private _columnType?: string;
+  private _columnType?: string; 
   public get columnType() {
     return this.getStringAttribute('column_type');
   }
@@ -2007,7 +2007,7 @@ export class CassandraTableClusteringKeyColumnsOutputReference extends cdktn.Com
   }
 
   // order_by - computed: true, optional: true, required: false
-  private _orderBy?: string;
+  private _orderBy?: string; 
   public get orderBy() {
     return this.getStringAttribute('order_by');
   }
@@ -2050,7 +2050,7 @@ export interface CassandraTableEncryptionSpecification {
   */
   readonly encryptionType?: string;
   /**
-  * The AWS KMS customer master key (CMK) that should be used for the AWS KMS encryption. To specify a CMK, use its key ID, Amazon Resource Name (ARN), alias name, or alias ARN.
+  * The AWS KMS customer master key (CMK) that should be used for the AWS KMS encryption. To specify a CMK, use its key ID, Amazon Resource Name (ARN), alias name, or alias ARN. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cassandra_table#kms_key_identifier CassandraTable#kms_key_identifier}
   */
@@ -2142,7 +2142,7 @@ export class CassandraTableEncryptionSpecificationOutputReference extends cdktn.
   }
 
   // encryption_type - computed: true, optional: true, required: false
-  private _encryptionType?: string;
+  private _encryptionType?: string; 
   public get encryptionType() {
     return this.getStringAttribute('encryption_type');
   }
@@ -2158,7 +2158,7 @@ export class CassandraTableEncryptionSpecificationOutputReference extends cdktn.
   }
 
   // kms_key_identifier - computed: true, optional: true, required: false
-  private _kmsKeyIdentifier?: string;
+  private _kmsKeyIdentifier?: string; 
   public get kmsKeyIdentifier() {
     return this.getStringAttribute('kms_key_identifier');
   }
@@ -2271,7 +2271,7 @@ export class CassandraTablePartitionKeyColumnsOutputReference extends cdktn.Comp
   }
 
   // column_name - computed: false, optional: false, required: true
-  private _columnName?: string;
+  private _columnName?: string; 
   public get columnName() {
     return this.getStringAttribute('column_name');
   }
@@ -2284,7 +2284,7 @@ export class CassandraTablePartitionKeyColumnsOutputReference extends cdktn.Comp
   }
 
   // column_type - computed: false, optional: false, required: true
-  private _columnType?: string;
+  private _columnType?: string; 
   public get columnType() {
     return this.getStringAttribute('column_type');
   }
@@ -2414,7 +2414,7 @@ export class CassandraTableRegularColumnsOutputReference extends cdktn.ComplexOb
   }
 
   // column_name - computed: true, optional: true, required: false
-  private _columnName?: string;
+  private _columnName?: string; 
   public get columnName() {
     return this.getStringAttribute('column_name');
   }
@@ -2430,7 +2430,7 @@ export class CassandraTableRegularColumnsOutputReference extends cdktn.ComplexOb
   }
 
   // column_type - computed: true, optional: true, required: false
-  private _columnType?: string;
+  private _columnType?: string; 
   public get columnType() {
     return this.getStringAttribute('column_type');
   }
@@ -2595,7 +2595,7 @@ export class CassandraTableReplicaSpecificationsReadCapacityAutoScalingScalingPo
   }
 
   // disable_scale_in - computed: true, optional: true, required: false
-  private _disableScaleIn?: boolean | cdktn.IResolvable;
+  private _disableScaleIn?: boolean | cdktn.IResolvable; 
   public get disableScaleIn() {
     return this.getBooleanAttribute('disable_scale_in');
   }
@@ -2611,7 +2611,7 @@ export class CassandraTableReplicaSpecificationsReadCapacityAutoScalingScalingPo
   }
 
   // scale_in_cooldown - computed: true, optional: true, required: false
-  private _scaleInCooldown?: number;
+  private _scaleInCooldown?: number; 
   public get scaleInCooldown() {
     return this.getNumberAttribute('scale_in_cooldown');
   }
@@ -2627,7 +2627,7 @@ export class CassandraTableReplicaSpecificationsReadCapacityAutoScalingScalingPo
   }
 
   // scale_out_cooldown - computed: true, optional: true, required: false
-  private _scaleOutCooldown?: number;
+  private _scaleOutCooldown?: number; 
   public get scaleOutCooldown() {
     return this.getNumberAttribute('scale_out_cooldown');
   }
@@ -2643,7 +2643,7 @@ export class CassandraTableReplicaSpecificationsReadCapacityAutoScalingScalingPo
   }
 
   // target_value - computed: true, optional: true, required: false
-  private _targetValue?: number;
+  private _targetValue?: number; 
   public get targetValue() {
     return this.getNumberAttribute('target_value');
   }
@@ -2886,7 +2886,7 @@ export class CassandraTableReplicaSpecificationsReadCapacityAutoScalingOutputRef
   }
 
   // auto_scaling_disabled - computed: true, optional: true, required: false
-  private _autoScalingDisabled?: boolean | cdktn.IResolvable;
+  private _autoScalingDisabled?: boolean | cdktn.IResolvable; 
   public get autoScalingDisabled() {
     return this.getBooleanAttribute('auto_scaling_disabled');
   }
@@ -2902,7 +2902,7 @@ export class CassandraTableReplicaSpecificationsReadCapacityAutoScalingOutputRef
   }
 
   // maximum_units - computed: true, optional: true, required: false
-  private _maximumUnits?: number;
+  private _maximumUnits?: number; 
   public get maximumUnits() {
     return this.getNumberAttribute('maximum_units');
   }
@@ -2918,7 +2918,7 @@ export class CassandraTableReplicaSpecificationsReadCapacityAutoScalingOutputRef
   }
 
   // minimum_units - computed: true, optional: true, required: false
-  private _minimumUnits?: number;
+  private _minimumUnits?: number; 
   public get minimumUnits() {
     return this.getNumberAttribute('minimum_units');
   }
@@ -3082,7 +3082,7 @@ export class CassandraTableReplicaSpecificationsOutputReference extends cdktn.Co
   }
 
   // read_capacity_units - computed: true, optional: true, required: false
-  private _readCapacityUnits?: number;
+  private _readCapacityUnits?: number; 
   public get readCapacityUnits() {
     return this.getNumberAttribute('read_capacity_units');
   }
@@ -3098,7 +3098,7 @@ export class CassandraTableReplicaSpecificationsOutputReference extends cdktn.Co
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -3231,7 +3231,7 @@ export class CassandraTableTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -3247,7 +3247,7 @@ export class CassandraTableTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -3378,7 +3378,7 @@ export class CassandraTableWarmThroughputOutputReference extends cdktn.ComplexOb
   }
 
   // read_units_per_second - computed: true, optional: true, required: false
-  private _readUnitsPerSecond?: number;
+  private _readUnitsPerSecond?: number; 
   public get readUnitsPerSecond() {
     return this.getNumberAttribute('read_units_per_second');
   }
@@ -3394,7 +3394,7 @@ export class CassandraTableWarmThroughputOutputReference extends cdktn.ComplexOb
   }
 
   // write_units_per_second - computed: true, optional: true, required: false
-  private _writeUnitsPerSecond?: number;
+  private _writeUnitsPerSecond?: number; 
   public get writeUnitsPerSecond() {
     return this.getNumberAttribute('write_units_per_second');
   }
@@ -3530,7 +3530,7 @@ export class CassandraTable extends cdktn.TerraformResource {
   }
 
   // client_side_timestamps_enabled - computed: true, optional: true, required: false
-  private _clientSideTimestampsEnabled?: boolean | cdktn.IResolvable;
+  private _clientSideTimestampsEnabled?: boolean | cdktn.IResolvable; 
   public get clientSideTimestampsEnabled() {
     return this.getBooleanAttribute('client_side_timestamps_enabled');
   }
@@ -3562,7 +3562,7 @@ export class CassandraTable extends cdktn.TerraformResource {
   }
 
   // default_time_to_live - computed: true, optional: true, required: false
-  private _defaultTimeToLive?: number;
+  private _defaultTimeToLive?: number; 
   public get defaultTimeToLive() {
     return this.getNumberAttribute('default_time_to_live');
   }
@@ -3599,7 +3599,7 @@ export class CassandraTable extends cdktn.TerraformResource {
   }
 
   // keyspace_name - computed: false, optional: false, required: true
-  private _keyspaceName?: string;
+  private _keyspaceName?: string; 
   public get keyspaceName() {
     return this.getStringAttribute('keyspace_name');
   }
@@ -3625,7 +3625,7 @@ export class CassandraTable extends cdktn.TerraformResource {
   }
 
   // point_in_time_recovery_enabled - computed: true, optional: true, required: false
-  private _pointInTimeRecoveryEnabled?: boolean | cdktn.IResolvable;
+  private _pointInTimeRecoveryEnabled?: boolean | cdktn.IResolvable; 
   public get pointInTimeRecoveryEnabled() {
     return this.getBooleanAttribute('point_in_time_recovery_enabled');
   }
@@ -3673,7 +3673,7 @@ export class CassandraTable extends cdktn.TerraformResource {
   }
 
   // table_name - computed: true, optional: true, required: false
-  private _tableName?: string;
+  private _tableName?: string; 
   public get tableName() {
     return this.getStringAttribute('table_name');
   }

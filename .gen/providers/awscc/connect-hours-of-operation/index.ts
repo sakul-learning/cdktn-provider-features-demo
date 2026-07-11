@@ -167,7 +167,7 @@ export class ConnectHoursOfOperationChildHoursOfOperationsOutputReference extend
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -183,7 +183,7 @@ export class ConnectHoursOfOperationChildHoursOfOperationsOutputReference extend
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -318,7 +318,7 @@ export class ConnectHoursOfOperationConfigEndTimeOutputReference extends cdktn.C
   }
 
   // hours - computed: false, optional: false, required: true
-  private _hours?: number;
+  private _hours?: number; 
   public get hours() {
     return this.getNumberAttribute('hours');
   }
@@ -331,7 +331,7 @@ export class ConnectHoursOfOperationConfigEndTimeOutputReference extends cdktn.C
   }
 
   // minutes - computed: false, optional: false, required: true
-  private _minutes?: number;
+  private _minutes?: number; 
   public get minutes() {
     return this.getNumberAttribute('minutes');
   }
@@ -443,7 +443,7 @@ export class ConnectHoursOfOperationConfigStartTimeOutputReference extends cdktn
   }
 
   // hours - computed: false, optional: false, required: true
-  private _hours?: number;
+  private _hours?: number; 
   public get hours() {
     return this.getNumberAttribute('hours');
   }
@@ -456,7 +456,7 @@ export class ConnectHoursOfOperationConfigStartTimeOutputReference extends cdktn
   }
 
   // minutes - computed: false, optional: false, required: true
-  private _minutes?: number;
+  private _minutes?: number; 
   public get minutes() {
     return this.getNumberAttribute('minutes');
   }
@@ -589,7 +589,7 @@ export class ConnectHoursOfOperationConfigAOutputReference extends cdktn.Complex
   }
 
   // day - computed: false, optional: false, required: true
-  private _day?: string;
+  private _day?: string; 
   public get day() {
     return this.getStringAttribute('day');
   }
@@ -747,7 +747,7 @@ export class ConnectHoursOfOperationHoursOfOperationOverridesOverrideConfigEndTi
   }
 
   // hours - computed: true, optional: true, required: false
-  private _hours?: number;
+  private _hours?: number; 
   public get hours() {
     return this.getNumberAttribute('hours');
   }
@@ -763,7 +763,7 @@ export class ConnectHoursOfOperationHoursOfOperationOverridesOverrideConfigEndTi
   }
 
   // minutes - computed: true, optional: true, required: false
-  private _minutes?: number;
+  private _minutes?: number; 
   public get minutes() {
     return this.getNumberAttribute('minutes');
   }
@@ -878,7 +878,7 @@ export class ConnectHoursOfOperationHoursOfOperationOverridesOverrideConfigStart
   }
 
   // hours - computed: true, optional: true, required: false
-  private _hours?: number;
+  private _hours?: number; 
   public get hours() {
     return this.getNumberAttribute('hours');
   }
@@ -894,7 +894,7 @@ export class ConnectHoursOfOperationHoursOfOperationOverridesOverrideConfigStart
   }
 
   // minutes - computed: true, optional: true, required: false
-  private _minutes?: number;
+  private _minutes?: number; 
   public get minutes() {
     return this.getNumberAttribute('minutes');
   }
@@ -1030,7 +1030,7 @@ export class ConnectHoursOfOperationHoursOfOperationOverridesOverrideConfigOutpu
   }
 
   // day - computed: true, optional: true, required: false
-  private _day?: string;
+  private _day?: string; 
   public get day() {
     return this.getStringAttribute('day');
   }
@@ -1250,7 +1250,7 @@ export class ConnectHoursOfOperationHoursOfOperationOverridesRecurrenceConfigRec
   }
 
   // by_month - computed: true, optional: true, required: false
-  private _byMonth?: number[];
+  private _byMonth?: number[]; 
   public get byMonth() {
     return this.getNumberListAttribute('by_month');
   }
@@ -1266,7 +1266,7 @@ export class ConnectHoursOfOperationHoursOfOperationOverridesRecurrenceConfigRec
   }
 
   // by_month_day - computed: true, optional: true, required: false
-  private _byMonthDay?: number[];
+  private _byMonthDay?: number[]; 
   public get byMonthDay() {
     return this.getNumberListAttribute('by_month_day');
   }
@@ -1282,7 +1282,7 @@ export class ConnectHoursOfOperationHoursOfOperationOverridesRecurrenceConfigRec
   }
 
   // by_weekday_occurrence - computed: true, optional: true, required: false
-  private _byWeekdayOccurrence?: number[];
+  private _byWeekdayOccurrence?: number[]; 
   public get byWeekdayOccurrence() {
     return this.getNumberListAttribute('by_weekday_occurrence');
   }
@@ -1298,7 +1298,7 @@ export class ConnectHoursOfOperationHoursOfOperationOverridesRecurrenceConfigRec
   }
 
   // frequency - computed: true, optional: true, required: false
-  private _frequency?: string;
+  private _frequency?: string; 
   public get frequency() {
     return this.getStringAttribute('frequency');
   }
@@ -1314,7 +1314,7 @@ export class ConnectHoursOfOperationHoursOfOperationOverridesRecurrenceConfigRec
   }
 
   // interval - computed: true, optional: true, required: false
-  private _interval?: number;
+  private _interval?: number; 
   public get interval() {
     return this.getNumberAttribute('interval');
   }
@@ -1641,7 +1641,7 @@ export class ConnectHoursOfOperationHoursOfOperationOverridesOutputReference ext
   }
 
   // effective_from - computed: true, optional: true, required: false
-  private _effectiveFrom?: string;
+  private _effectiveFrom?: string; 
   public get effectiveFrom() {
     return this.getStringAttribute('effective_from');
   }
@@ -1657,7 +1657,7 @@ export class ConnectHoursOfOperationHoursOfOperationOverridesOutputReference ext
   }
 
   // effective_till - computed: true, optional: true, required: false
-  private _effectiveTill?: string;
+  private _effectiveTill?: string; 
   public get effectiveTill() {
     return this.getStringAttribute('effective_till');
   }
@@ -1673,7 +1673,7 @@ export class ConnectHoursOfOperationHoursOfOperationOverridesOutputReference ext
   }
 
   // hours_of_operation_override_id - computed: true, optional: true, required: false
-  private _hoursOfOperationOverrideId?: string;
+  private _hoursOfOperationOverrideId?: string; 
   public get hoursOfOperationOverrideId() {
     return this.getStringAttribute('hours_of_operation_override_id');
   }
@@ -1705,7 +1705,7 @@ export class ConnectHoursOfOperationHoursOfOperationOverridesOutputReference ext
   }
 
   // override_description - computed: true, optional: true, required: false
-  private _overrideDescription?: string;
+  private _overrideDescription?: string; 
   public get overrideDescription() {
     return this.getStringAttribute('override_description');
   }
@@ -1721,7 +1721,7 @@ export class ConnectHoursOfOperationHoursOfOperationOverridesOutputReference ext
   }
 
   // override_name - computed: true, optional: true, required: false
-  private _overrideName?: string;
+  private _overrideName?: string; 
   public get overrideName() {
     return this.getStringAttribute('override_name');
   }
@@ -1737,7 +1737,7 @@ export class ConnectHoursOfOperationHoursOfOperationOverridesOutputReference ext
   }
 
   // override_type - computed: true, optional: true, required: false
-  private _overrideType?: string;
+  private _overrideType?: string; 
   public get overrideType() {
     return this.getStringAttribute('override_type');
   }
@@ -1893,7 +1893,7 @@ export class ConnectHoursOfOperationParentHoursOfOperationsOutputReference exten
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -1909,7 +1909,7 @@ export class ConnectHoursOfOperationParentHoursOfOperationsOutputReference exten
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1946,13 +1946,13 @@ export class ConnectHoursOfOperationParentHoursOfOperationsList extends cdktn.Co
 }
 export interface ConnectHoursOfOperationTags {
   /**
-  * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
+  * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_hours_of_operation#key ConnectHoursOfOperation#key}
   */
   readonly key?: string;
   /**
-  * The value for the tag. You can specify a value that is maximum of 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
+  * The value for the tag. You can specify a value that is maximum of 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_hours_of_operation#value ConnectHoursOfOperation#value}
   */
@@ -2046,7 +2046,7 @@ export class ConnectHoursOfOperationTagsOutputReference extends cdktn.ComplexObj
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -2062,7 +2062,7 @@ export class ConnectHoursOfOperationTagsOutputReference extends cdktn.ComplexObj
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2193,7 +2193,7 @@ export class ConnectHoursOfOperation extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -2235,7 +2235,7 @@ export class ConnectHoursOfOperation extends cdktn.TerraformResource {
   }
 
   // instance_arn - computed: false, optional: false, required: true
-  private _instanceArn?: string;
+  private _instanceArn?: string; 
   public get instanceArn() {
     return this.getStringAttribute('instance_arn');
   }
@@ -2248,7 +2248,7 @@ export class ConnectHoursOfOperation extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2293,7 +2293,7 @@ export class ConnectHoursOfOperation extends cdktn.TerraformResource {
   }
 
   // time_zone - computed: false, optional: false, required: true
-  private _timeZone?: string;
+  private _timeZone?: string; 
   public get timeZone() {
     return this.getStringAttribute('time_zone');
   }

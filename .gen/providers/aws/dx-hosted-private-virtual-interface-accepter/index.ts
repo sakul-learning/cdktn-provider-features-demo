@@ -143,7 +143,7 @@ export class DxHostedPrivateVirtualInterfaceAccepterTimeoutsOutputReference exte
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -159,7 +159,7 @@ export class DxHostedPrivateVirtualInterfaceAccepterTimeoutsOutputReference exte
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -245,7 +245,7 @@ export class DxHostedPrivateVirtualInterfaceAccepter extends cdktn.TerraformReso
   }
 
   // dx_gateway_id - computed: false, optional: true, required: false
-  private _dxGatewayId?: string;
+  private _dxGatewayId?: string; 
   public get dxGatewayId() {
     return this.getStringAttribute('dx_gateway_id');
   }
@@ -261,7 +261,7 @@ export class DxHostedPrivateVirtualInterfaceAccepter extends cdktn.TerraformReso
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -277,7 +277,7 @@ export class DxHostedPrivateVirtualInterfaceAccepter extends cdktn.TerraformReso
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -293,7 +293,7 @@ export class DxHostedPrivateVirtualInterfaceAccepter extends cdktn.TerraformReso
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -309,7 +309,7 @@ export class DxHostedPrivateVirtualInterfaceAccepter extends cdktn.TerraformReso
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -325,7 +325,7 @@ export class DxHostedPrivateVirtualInterfaceAccepter extends cdktn.TerraformReso
   }
 
   // virtual_interface_id - computed: false, optional: false, required: true
-  private _virtualInterfaceId?: string;
+  private _virtualInterfaceId?: string; 
   public get virtualInterfaceId() {
     return this.getStringAttribute('virtual_interface_id');
   }
@@ -338,7 +338,7 @@ export class DxHostedPrivateVirtualInterfaceAccepter extends cdktn.TerraformReso
   }
 
   // vpn_gateway_id - computed: false, optional: true, required: false
-  private _vpnGatewayId?: string;
+  private _vpnGatewayId?: string; 
   public get vpnGatewayId() {
     return this.getStringAttribute('vpn_gateway_id');
   }

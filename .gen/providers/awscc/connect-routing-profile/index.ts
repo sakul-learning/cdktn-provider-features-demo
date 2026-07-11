@@ -162,7 +162,7 @@ export class ConnectRoutingProfileManualAssignmentQueueConfigsQueueReferenceOutp
   }
 
   // channel - computed: true, optional: true, required: false
-  private _channel?: string;
+  private _channel?: string; 
   public get channel() {
     return this.getStringAttribute('channel');
   }
@@ -178,7 +178,7 @@ export class ConnectRoutingProfileManualAssignmentQueueConfigsQueueReferenceOutp
   }
 
   // queue_arn - computed: true, optional: true, required: false
-  private _queueArn?: string;
+  private _queueArn?: string; 
   public get queueArn() {
     return this.getStringAttribute('queue_arn');
   }
@@ -392,7 +392,7 @@ export class ConnectRoutingProfileMediaConcurrenciesCrossChannelBehaviorOutputRe
   }
 
   // behavior_type - computed: true, optional: true, required: false
-  private _behaviorType?: string;
+  private _behaviorType?: string; 
   public get behaviorType() {
     return this.getStringAttribute('behavior_type');
   }
@@ -528,7 +528,7 @@ export class ConnectRoutingProfileMediaConcurrenciesOutputReference extends cdkt
   }
 
   // channel - computed: false, optional: false, required: true
-  private _channel?: string;
+  private _channel?: string; 
   public get channel() {
     return this.getStringAttribute('channel');
   }
@@ -541,7 +541,7 @@ export class ConnectRoutingProfileMediaConcurrenciesOutputReference extends cdkt
   }
 
   // concurrency - computed: false, optional: false, required: true
-  private _concurrency?: number;
+  private _concurrency?: number; 
   public get concurrency() {
     return this.getNumberAttribute('concurrency');
   }
@@ -689,7 +689,7 @@ export class ConnectRoutingProfileQueueConfigsQueueReferenceOutputReference exte
   }
 
   // channel - computed: true, optional: true, required: false
-  private _channel?: string;
+  private _channel?: string; 
   public get channel() {
     return this.getStringAttribute('channel');
   }
@@ -705,7 +705,7 @@ export class ConnectRoutingProfileQueueConfigsQueueReferenceOutputReference exte
   }
 
   // queue_arn - computed: true, optional: true, required: false
-  private _queueArn?: string;
+  private _queueArn?: string; 
   public get queueArn() {
     return this.getStringAttribute('queue_arn');
   }
@@ -841,7 +841,7 @@ export class ConnectRoutingProfileQueueConfigsOutputReference extends cdktn.Comp
   }
 
   // delay - computed: true, optional: true, required: false
-  private _delay?: number;
+  private _delay?: number; 
   public get delay() {
     return this.getNumberAttribute('delay');
   }
@@ -857,7 +857,7 @@ export class ConnectRoutingProfileQueueConfigsOutputReference extends cdktn.Comp
   }
 
   // priority - computed: true, optional: true, required: false
-  private _priority?: number;
+  private _priority?: number; 
   public get priority() {
     return this.getNumberAttribute('priority');
   }
@@ -1010,7 +1010,7 @@ export class ConnectRoutingProfileTagsOutputReference extends cdktn.ComplexObjec
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1026,7 +1026,7 @@ export class ConnectRoutingProfileTagsOutputReference extends cdktn.ComplexObjec
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1128,7 +1128,7 @@ export class ConnectRoutingProfile extends cdktn.TerraformResource {
   // ==========
 
   // agent_availability_timer - computed: true, optional: true, required: false
-  private _agentAvailabilityTimer?: string;
+  private _agentAvailabilityTimer?: string; 
   public get agentAvailabilityTimer() {
     return this.getStringAttribute('agent_availability_timer');
   }
@@ -1144,7 +1144,7 @@ export class ConnectRoutingProfile extends cdktn.TerraformResource {
   }
 
   // default_outbound_queue_arn - computed: false, optional: false, required: true
-  private _defaultOutboundQueueArn?: string;
+  private _defaultOutboundQueueArn?: string; 
   public get defaultOutboundQueueArn() {
     return this.getStringAttribute('default_outbound_queue_arn');
   }
@@ -1157,7 +1157,7 @@ export class ConnectRoutingProfile extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: false, required: true
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1175,7 +1175,7 @@ export class ConnectRoutingProfile extends cdktn.TerraformResource {
   }
 
   // instance_arn - computed: false, optional: false, required: true
-  private _instanceArn?: string;
+  private _instanceArn?: string; 
   public get instanceArn() {
     return this.getStringAttribute('instance_arn');
   }
@@ -1217,7 +1217,7 @@ export class ConnectRoutingProfile extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }

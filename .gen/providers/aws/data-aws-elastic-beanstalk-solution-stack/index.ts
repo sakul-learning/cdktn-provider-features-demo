@@ -91,7 +91,7 @@ export class DataAwsElasticBeanstalkSolutionStack extends cdktn.TerraformDataSou
   // ==========
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -107,7 +107,7 @@ export class DataAwsElasticBeanstalkSolutionStack extends cdktn.TerraformDataSou
   }
 
   // most_recent - computed: false, optional: true, required: false
-  private _mostRecent?: boolean | cdktn.IResolvable;
+  private _mostRecent?: boolean | cdktn.IResolvable; 
   public get mostRecent() {
     return this.getBooleanAttribute('most_recent');
   }
@@ -128,7 +128,7 @@ export class DataAwsElasticBeanstalkSolutionStack extends cdktn.TerraformDataSou
   }
 
   // name_regex - computed: false, optional: false, required: true
-  private _nameRegex?: string;
+  private _nameRegex?: string; 
   public get nameRegex() {
     return this.getStringAttribute('name_regex');
   }
@@ -141,7 +141,7 @@ export class DataAwsElasticBeanstalkSolutionStack extends cdktn.TerraformDataSou
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

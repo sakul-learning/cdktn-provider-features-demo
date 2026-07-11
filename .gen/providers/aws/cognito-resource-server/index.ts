@@ -137,7 +137,7 @@ export class CognitoResourceServerScopeOutputReference extends cdktn.ComplexObje
   }
 
   // scope_description - computed: false, optional: false, required: true
-  private _scopeDescription?: string;
+  private _scopeDescription?: string; 
   public get scopeDescription() {
     return this.getStringAttribute('scope_description');
   }
@@ -150,7 +150,7 @@ export class CognitoResourceServerScopeOutputReference extends cdktn.ComplexObje
   }
 
   // scope_name - computed: false, optional: false, required: true
-  private _scopeName?: string;
+  private _scopeName?: string; 
   public get scopeName() {
     return this.getStringAttribute('scope_name');
   }
@@ -246,7 +246,7 @@ export class CognitoResourceServer extends cdktn.TerraformResource {
   // ==========
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -262,7 +262,7 @@ export class CognitoResourceServer extends cdktn.TerraformResource {
   }
 
   // identifier - computed: false, optional: false, required: true
-  private _identifier?: string;
+  private _identifier?: string; 
   public get identifier() {
     return this.getStringAttribute('identifier');
   }
@@ -275,7 +275,7 @@ export class CognitoResourceServer extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -288,7 +288,7 @@ export class CognitoResourceServer extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -309,7 +309,7 @@ export class CognitoResourceServer extends cdktn.TerraformResource {
   }
 
   // user_pool_id - computed: false, optional: false, required: true
-  private _userPoolId?: string;
+  private _userPoolId?: string; 
   public get userPoolId() {
     return this.getStringAttribute('user_pool_id');
   }

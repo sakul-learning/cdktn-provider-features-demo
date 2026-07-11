@@ -126,7 +126,7 @@ export class InspectorAssessmentTemplateUserAttributesForFindingsOutputReference
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -142,7 +142,7 @@ export class InspectorAssessmentTemplateUserAttributesForFindingsOutputReference
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -245,7 +245,7 @@ export class InspectorAssessmentTemplate extends cdktn.TerraformResource {
   }
 
   // assessment_target_arn - computed: false, optional: false, required: true
-  private _assessmentTargetArn?: string;
+  private _assessmentTargetArn?: string; 
   public get assessmentTargetArn() {
     return this.getStringAttribute('assessment_target_arn');
   }
@@ -258,7 +258,7 @@ export class InspectorAssessmentTemplate extends cdktn.TerraformResource {
   }
 
   // assessment_template_name - computed: true, optional: true, required: false
-  private _assessmentTemplateName?: string;
+  private _assessmentTemplateName?: string; 
   public get assessmentTemplateName() {
     return this.getStringAttribute('assessment_template_name');
   }
@@ -274,7 +274,7 @@ export class InspectorAssessmentTemplate extends cdktn.TerraformResource {
   }
 
   // duration_in_seconds - computed: false, optional: false, required: true
-  private _durationInSeconds?: number;
+  private _durationInSeconds?: number; 
   public get durationInSeconds() {
     return this.getNumberAttribute('duration_in_seconds');
   }
@@ -292,7 +292,7 @@ export class InspectorAssessmentTemplate extends cdktn.TerraformResource {
   }
 
   // rules_package_arns - computed: false, optional: false, required: true
-  private _rulesPackageArns?: string[];
+  private _rulesPackageArns?: string[]; 
   public get rulesPackageArns() {
     return this.getListAttribute('rules_package_arns');
   }

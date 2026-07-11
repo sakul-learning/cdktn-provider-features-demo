@@ -171,7 +171,7 @@ export class ConnectInstanceTimeoutsOutputReference extends cdktn.ComplexObject 
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -187,7 +187,7 @@ export class ConnectInstanceTimeoutsOutputReference extends cdktn.ComplexObject 
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -280,7 +280,7 @@ export class ConnectInstance extends cdktn.TerraformResource {
   }
 
   // auto_resolve_best_voices_enabled - computed: false, optional: true, required: false
-  private _autoResolveBestVoicesEnabled?: boolean | cdktn.IResolvable;
+  private _autoResolveBestVoicesEnabled?: boolean | cdktn.IResolvable; 
   public get autoResolveBestVoicesEnabled() {
     return this.getBooleanAttribute('auto_resolve_best_voices_enabled');
   }
@@ -296,7 +296,7 @@ export class ConnectInstance extends cdktn.TerraformResource {
   }
 
   // contact_flow_logs_enabled - computed: false, optional: true, required: false
-  private _contactFlowLogsEnabled?: boolean | cdktn.IResolvable;
+  private _contactFlowLogsEnabled?: boolean | cdktn.IResolvable; 
   public get contactFlowLogsEnabled() {
     return this.getBooleanAttribute('contact_flow_logs_enabled');
   }
@@ -312,7 +312,7 @@ export class ConnectInstance extends cdktn.TerraformResource {
   }
 
   // contact_lens_enabled - computed: false, optional: true, required: false
-  private _contactLensEnabled?: boolean | cdktn.IResolvable;
+  private _contactLensEnabled?: boolean | cdktn.IResolvable; 
   public get contactLensEnabled() {
     return this.getBooleanAttribute('contact_lens_enabled');
   }
@@ -333,7 +333,7 @@ export class ConnectInstance extends cdktn.TerraformResource {
   }
 
   // directory_id - computed: false, optional: true, required: false
-  private _directoryId?: string;
+  private _directoryId?: string; 
   public get directoryId() {
     return this.getStringAttribute('directory_id');
   }
@@ -349,7 +349,7 @@ export class ConnectInstance extends cdktn.TerraformResource {
   }
 
   // early_media_enabled - computed: false, optional: true, required: false
-  private _earlyMediaEnabled?: boolean | cdktn.IResolvable;
+  private _earlyMediaEnabled?: boolean | cdktn.IResolvable; 
   public get earlyMediaEnabled() {
     return this.getBooleanAttribute('early_media_enabled');
   }
@@ -365,7 +365,7 @@ export class ConnectInstance extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -381,7 +381,7 @@ export class ConnectInstance extends cdktn.TerraformResource {
   }
 
   // identity_management_type - computed: false, optional: false, required: true
-  private _identityManagementType?: string;
+  private _identityManagementType?: string; 
   public get identityManagementType() {
     return this.getStringAttribute('identity_management_type');
   }
@@ -394,7 +394,7 @@ export class ConnectInstance extends cdktn.TerraformResource {
   }
 
   // inbound_calls_enabled - computed: false, optional: false, required: true
-  private _inboundCallsEnabled?: boolean | cdktn.IResolvable;
+  private _inboundCallsEnabled?: boolean | cdktn.IResolvable; 
   public get inboundCallsEnabled() {
     return this.getBooleanAttribute('inbound_calls_enabled');
   }
@@ -407,7 +407,7 @@ export class ConnectInstance extends cdktn.TerraformResource {
   }
 
   // instance_alias - computed: false, optional: true, required: false
-  private _instanceAlias?: string;
+  private _instanceAlias?: string; 
   public get instanceAlias() {
     return this.getStringAttribute('instance_alias');
   }
@@ -423,7 +423,7 @@ export class ConnectInstance extends cdktn.TerraformResource {
   }
 
   // multi_party_conference_enabled - computed: false, optional: true, required: false
-  private _multiPartyConferenceEnabled?: boolean | cdktn.IResolvable;
+  private _multiPartyConferenceEnabled?: boolean | cdktn.IResolvable; 
   public get multiPartyConferenceEnabled() {
     return this.getBooleanAttribute('multi_party_conference_enabled');
   }
@@ -439,7 +439,7 @@ export class ConnectInstance extends cdktn.TerraformResource {
   }
 
   // outbound_calls_enabled - computed: false, optional: false, required: true
-  private _outboundCallsEnabled?: boolean | cdktn.IResolvable;
+  private _outboundCallsEnabled?: boolean | cdktn.IResolvable; 
   public get outboundCallsEnabled() {
     return this.getBooleanAttribute('outbound_calls_enabled');
   }
@@ -452,7 +452,7 @@ export class ConnectInstance extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -478,7 +478,7 @@ export class ConnectInstance extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -494,7 +494,7 @@ export class ConnectInstance extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

@@ -114,7 +114,7 @@ export class DataAwsServicecatalogConstraintTimeoutsOutputReference extends cdkt
   }
 
   // read - computed: false, optional: true, required: false
-  private _read?: string;
+  private _read?: string; 
   public get read() {
     return this.getStringAttribute('read');
   }
@@ -192,7 +192,7 @@ export class DataAwsServicecatalogConstraint extends cdktn.TerraformDataSource {
   // ==========
 
   // accept_language - computed: false, optional: true, required: false
-  private _acceptLanguage?: string;
+  private _acceptLanguage?: string; 
   public get acceptLanguage() {
     return this.getStringAttribute('accept_language');
   }
@@ -208,7 +208,7 @@ export class DataAwsServicecatalogConstraint extends cdktn.TerraformDataSource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -224,7 +224,7 @@ export class DataAwsServicecatalogConstraint extends cdktn.TerraformDataSource {
   }
 
   // id - computed: false, optional: false, required: true
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -257,7 +257,7 @@ export class DataAwsServicecatalogConstraint extends cdktn.TerraformDataSource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

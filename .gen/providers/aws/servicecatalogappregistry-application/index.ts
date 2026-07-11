@@ -99,7 +99,7 @@ export class ServicecatalogappregistryApplication extends cdktn.TerraformResourc
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -120,7 +120,7 @@ export class ServicecatalogappregistryApplication extends cdktn.TerraformResourc
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -133,7 +133,7 @@ export class ServicecatalogappregistryApplication extends cdktn.TerraformResourc
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -149,7 +149,7 @@ export class ServicecatalogappregistryApplication extends cdktn.TerraformResourc
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

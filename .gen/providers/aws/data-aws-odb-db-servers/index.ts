@@ -341,7 +341,7 @@ export class DataAwsOdbDbServers extends cdktn.TerraformDataSource {
   // ==========
 
   // cloud_exadata_infrastructure_id - computed: false, optional: false, required: true
-  private _cloudExadataInfrastructureId?: string;
+  private _cloudExadataInfrastructureId?: string; 
   public get cloudExadataInfrastructureId() {
     return this.getStringAttribute('cloud_exadata_infrastructure_id');
   }
@@ -360,7 +360,7 @@ export class DataAwsOdbDbServers extends cdktn.TerraformDataSource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

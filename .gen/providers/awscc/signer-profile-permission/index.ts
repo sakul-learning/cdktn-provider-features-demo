@@ -91,7 +91,7 @@ export class SignerProfilePermission extends cdktn.TerraformResource {
   // ==========
 
   // action - computed: false, optional: false, required: true
-  private _action?: string;
+  private _action?: string; 
   public get action() {
     return this.getStringAttribute('action');
   }
@@ -109,7 +109,7 @@ export class SignerProfilePermission extends cdktn.TerraformResource {
   }
 
   // principal - computed: false, optional: false, required: true
-  private _principal?: string;
+  private _principal?: string; 
   public get principal() {
     return this.getStringAttribute('principal');
   }
@@ -122,7 +122,7 @@ export class SignerProfilePermission extends cdktn.TerraformResource {
   }
 
   // profile_name - computed: false, optional: false, required: true
-  private _profileName?: string;
+  private _profileName?: string; 
   public get profileName() {
     return this.getStringAttribute('profile_name');
   }
@@ -135,7 +135,7 @@ export class SignerProfilePermission extends cdktn.TerraformResource {
   }
 
   // profile_version - computed: true, optional: true, required: false
-  private _profileVersion?: string;
+  private _profileVersion?: string; 
   public get profileVersion() {
     return this.getStringAttribute('profile_version');
   }
@@ -151,7 +151,7 @@ export class SignerProfilePermission extends cdktn.TerraformResource {
   }
 
   // statement_id - computed: false, optional: false, required: true
-  private _statementId?: string;
+  private _statementId?: string; 
   public get statementId() {
     return this.getStringAttribute('statement_id');
   }

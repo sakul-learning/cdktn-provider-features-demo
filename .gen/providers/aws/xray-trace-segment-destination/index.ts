@@ -124,7 +124,7 @@ export class XrayTraceSegmentDestinationTimeoutsOutputReference extends cdktn.Co
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -140,7 +140,7 @@ export class XrayTraceSegmentDestinationTimeoutsOutputReference extends cdktn.Co
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -216,7 +216,7 @@ export class XrayTraceSegmentDestination extends cdktn.TerraformResource {
   // ==========
 
   // destination - computed: false, optional: false, required: true
-  private _destination?: string;
+  private _destination?: string; 
   public get destination() {
     return this.getStringAttribute('destination');
   }
@@ -234,7 +234,7 @@ export class XrayTraceSegmentDestination extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

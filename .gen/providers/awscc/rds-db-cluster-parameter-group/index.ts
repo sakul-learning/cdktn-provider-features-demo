@@ -11,7 +11,7 @@ export interface RdsDbClusterParameterGroupConfig extends cdktn.TerraformMetaArg
   * The name of the DB cluster parameter group.
   *  Constraints:
   *   +  Must not match the name of an existing DB cluster parameter group.
-  *
+  *   
   *   This value is stored as a lowercase string.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rds_db_cluster_parameter_group#db_cluster_parameter_group_name RdsDbClusterParameterGroup#db_cluster_parameter_group_name}
@@ -25,23 +25,23 @@ export interface RdsDbClusterParameterGroupConfig extends cdktn.TerraformMetaArg
   readonly description: string;
   /**
   * The DB cluster parameter group family name. A DB cluster parameter group can be associated with one and only one DB cluster parameter group family, and can be applied only to a DB cluster running a database engine and engine version compatible with that DB cluster parameter group family.
-  *   *Aurora MySQL*
+  *   *Aurora MySQL* 
   *  Example: ``aurora-mysql5.7``, ``aurora-mysql8.0``
-  *   *Aurora PostgreSQL*
+  *   *Aurora PostgreSQL* 
   *  Example: ``aurora-postgresql14``
-  *   *RDS for MySQL*
+  *   *RDS for MySQL* 
   *  Example: ``mysql8.0``
-  *   *RDS for PostgreSQL*
+  *   *RDS for PostgreSQL* 
   *  Example: ``postgres13``
   *  To list all of the available parameter group families for a DB engine, use the following command:
-  *   ``aws rds describe-db-engine-versions --query "DBEngineVersions[].DBParameterGroupFamily" --engine <engine>``
+  *   ``aws rds describe-db-engine-versions --query "DBEngineVersions[].DBParameterGroupFamily" --engine <engine>`` 
   *  For example, to list all of the available parameter group families for the Aurora PostgreSQL DB engine, use the following command:
-  *   ``aws rds describe-db-engine-versions --query "DBEngineVersions[].DBParameterGroupFamily" --engine aurora-postgresql``
+  *   ``aws rds describe-db-engine-versions --query "DBEngineVersions[].DBParameterGroupFamily" --engine aurora-postgresql`` 
   *   The output contains duplicates.
   *   The following are the valid DB engine values:
-  *   +   ``aurora-mysql``
-  *   +   ``aurora-postgresql``
-  *   +   ``mysql``
+  *   +   ``aurora-mysql`` 
+  *   +   ``aurora-postgresql`` 
+  *   +   ``mysql`` 
   *   +   ``postgres``
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rds_db_cluster_parameter_group#family RdsDbClusterParameterGroup#family}
@@ -162,7 +162,7 @@ export class RdsDbClusterParameterGroupTagsOutputReference extends cdktn.Complex
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -178,7 +178,7 @@ export class RdsDbClusterParameterGroupTagsOutputReference extends cdktn.Complex
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -276,7 +276,7 @@ export class RdsDbClusterParameterGroup extends cdktn.TerraformResource {
   // ==========
 
   // db_cluster_parameter_group_name - computed: true, optional: true, required: false
-  private _dbClusterParameterGroupName?: string;
+  private _dbClusterParameterGroupName?: string; 
   public get dbClusterParameterGroupName() {
     return this.getStringAttribute('db_cluster_parameter_group_name');
   }
@@ -292,7 +292,7 @@ export class RdsDbClusterParameterGroup extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: false, required: true
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -305,7 +305,7 @@ export class RdsDbClusterParameterGroup extends cdktn.TerraformResource {
   }
 
   // family - computed: false, optional: false, required: true
-  private _family?: string;
+  private _family?: string; 
   public get family() {
     return this.getStringAttribute('family');
   }
@@ -323,7 +323,7 @@ export class RdsDbClusterParameterGroup extends cdktn.TerraformResource {
   }
 
   // parameters - computed: false, optional: false, required: true
-  private _parameters?: string;
+  private _parameters?: string; 
   public get parameters() {
     return this.getStringAttribute('parameters');
   }

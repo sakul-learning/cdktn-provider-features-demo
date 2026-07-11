@@ -145,7 +145,7 @@ export class Ec2ManagedPrefixListEntryOutputReference extends cdktn.ComplexObjec
   }
 
   // cidr - computed: false, optional: false, required: true
-  private _cidr?: string;
+  private _cidr?: string; 
   public get cidr() {
     return this.getStringAttribute('cidr');
   }
@@ -158,7 +158,7 @@ export class Ec2ManagedPrefixListEntryOutputReference extends cdktn.ComplexObjec
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -259,7 +259,7 @@ export class Ec2ManagedPrefixList extends cdktn.TerraformResource {
   // ==========
 
   // address_family - computed: false, optional: false, required: true
-  private _addressFamily?: string;
+  private _addressFamily?: string; 
   public get addressFamily() {
     return this.getStringAttribute('address_family');
   }
@@ -277,7 +277,7 @@ export class Ec2ManagedPrefixList extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -293,7 +293,7 @@ export class Ec2ManagedPrefixList extends cdktn.TerraformResource {
   }
 
   // max_entries - computed: false, optional: false, required: true
-  private _maxEntries?: number;
+  private _maxEntries?: number; 
   public get maxEntries() {
     return this.getNumberAttribute('max_entries');
   }
@@ -306,7 +306,7 @@ export class Ec2ManagedPrefixList extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -324,7 +324,7 @@ export class Ec2ManagedPrefixList extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -340,7 +340,7 @@ export class Ec2ManagedPrefixList extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -356,7 +356,7 @@ export class Ec2ManagedPrefixList extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

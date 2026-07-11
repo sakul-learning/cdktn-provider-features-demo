@@ -163,7 +163,7 @@ export class S3FilesAccessPointPosixUserOutputReference extends cdktn.ComplexObj
   }
 
   // gid - computed: false, optional: false, required: true
-  private _gid?: number;
+  private _gid?: number; 
   public get gid() {
     return this.getNumberAttribute('gid');
   }
@@ -176,7 +176,7 @@ export class S3FilesAccessPointPosixUserOutputReference extends cdktn.ComplexObj
   }
 
   // secondary_gids - computed: false, optional: true, required: false
-  private _secondaryGids?: number[];
+  private _secondaryGids?: number[]; 
   public get secondaryGids() {
     return cdktn.Token.asNumberList(cdktn.Fn.tolist(this.getNumberListAttribute('secondary_gids')));
   }
@@ -192,7 +192,7 @@ export class S3FilesAccessPointPosixUserOutputReference extends cdktn.ComplexObj
   }
 
   // uid - computed: false, optional: false, required: true
-  private _uid?: number;
+  private _uid?: number; 
   public get uid() {
     return this.getNumberAttribute('uid');
   }
@@ -345,7 +345,7 @@ export class S3FilesAccessPointRootDirectoryCreationPermissionsOutputReference e
   }
 
   // owner_gid - computed: false, optional: false, required: true
-  private _ownerGid?: number;
+  private _ownerGid?: number; 
   public get ownerGid() {
     return this.getNumberAttribute('owner_gid');
   }
@@ -358,7 +358,7 @@ export class S3FilesAccessPointRootDirectoryCreationPermissionsOutputReference e
   }
 
   // owner_uid - computed: false, optional: false, required: true
-  private _ownerUid?: number;
+  private _ownerUid?: number; 
   public get ownerUid() {
     return this.getNumberAttribute('owner_uid');
   }
@@ -371,7 +371,7 @@ export class S3FilesAccessPointRootDirectoryCreationPermissionsOutputReference e
   }
 
   // permissions - computed: false, optional: false, required: true
-  private _permissions?: string;
+  private _permissions?: string; 
   public get permissions() {
     return this.getStringAttribute('permissions');
   }
@@ -505,7 +505,7 @@ export class S3FilesAccessPointRootDirectoryOutputReference extends cdktn.Comple
   }
 
   // path - computed: false, optional: true, required: false
-  private _path?: string;
+  private _path?: string; 
   public get path() {
     return this.getStringAttribute('path');
   }
@@ -656,7 +656,7 @@ export class S3FilesAccessPointTimeoutsOutputReference extends cdktn.ComplexObje
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -672,7 +672,7 @@ export class S3FilesAccessPointTimeoutsOutputReference extends cdktn.ComplexObje
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -756,7 +756,7 @@ export class S3FilesAccessPoint extends cdktn.TerraformResource {
   }
 
   // file_system_id - computed: false, optional: false, required: true
-  private _fileSystemId?: string;
+  private _fileSystemId?: string; 
   public get fileSystemId() {
     return this.getStringAttribute('file_system_id');
   }
@@ -784,7 +784,7 @@ export class S3FilesAccessPoint extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -805,7 +805,7 @@ export class S3FilesAccessPoint extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

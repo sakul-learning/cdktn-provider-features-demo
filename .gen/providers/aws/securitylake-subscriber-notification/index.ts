@@ -173,7 +173,7 @@ export class SecuritylakeSubscriberNotificationConfigurationHttpsNotificationCon
   }
 
   // authorization_api_key_name - computed: false, optional: true, required: false
-  private _authorizationApiKeyName?: string;
+  private _authorizationApiKeyName?: string; 
   public get authorizationApiKeyName() {
     return this.getStringAttribute('authorization_api_key_name');
   }
@@ -189,7 +189,7 @@ export class SecuritylakeSubscriberNotificationConfigurationHttpsNotificationCon
   }
 
   // authorization_api_key_value - computed: false, optional: true, required: false
-  private _authorizationApiKeyValue?: string;
+  private _authorizationApiKeyValue?: string; 
   public get authorizationApiKeyValue() {
     return this.getStringAttribute('authorization_api_key_value');
   }
@@ -205,7 +205,7 @@ export class SecuritylakeSubscriberNotificationConfigurationHttpsNotificationCon
   }
 
   // endpoint - computed: false, optional: false, required: true
-  private _endpoint?: string;
+  private _endpoint?: string; 
   public get endpoint() {
     return this.getStringAttribute('endpoint');
   }
@@ -218,7 +218,7 @@ export class SecuritylakeSubscriberNotificationConfigurationHttpsNotificationCon
   }
 
   // http_method - computed: false, optional: true, required: false
-  private _httpMethod?: string;
+  private _httpMethod?: string; 
   public get httpMethod() {
     return this.getStringAttribute('http_method');
   }
@@ -234,7 +234,7 @@ export class SecuritylakeSubscriberNotificationConfigurationHttpsNotificationCon
   }
 
   // target_role_arn - computed: false, optional: false, required: true
-  private _targetRoleArn?: string;
+  private _targetRoleArn?: string; 
   public get targetRoleArn() {
     return this.getStringAttribute('target_role_arn');
   }
@@ -571,7 +571,7 @@ export class SecuritylakeSubscriberNotification extends cdktn.TerraformResource 
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -592,7 +592,7 @@ export class SecuritylakeSubscriberNotification extends cdktn.TerraformResource 
   }
 
   // subscriber_id - computed: false, optional: false, required: true
-  private _subscriberId?: string;
+  private _subscriberId?: string; 
   public get subscriberId() {
     return this.getStringAttribute('subscriber_id');
   }

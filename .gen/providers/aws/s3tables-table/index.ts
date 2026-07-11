@@ -144,7 +144,7 @@ export class S3TablesTableEncryptionConfigurationOutputReference extends cdktn.C
   }
 
   // kms_key_arn - computed: true, optional: true, required: false
-  private _kmsKeyArn?: string;
+  private _kmsKeyArn?: string; 
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -160,7 +160,7 @@ export class S3TablesTableEncryptionConfigurationOutputReference extends cdktn.C
   }
 
   // sse_algorithm - computed: true, optional: true, required: false
-  private _sseAlgorithm?: string;
+  private _sseAlgorithm?: string; 
   public get sseAlgorithm() {
     return this.getStringAttribute('sse_algorithm');
   }
@@ -254,7 +254,7 @@ export class S3TablesTableMaintenanceConfigurationIcebergCompactionSettingsOutpu
   }
 
   // target_file_size_mb - computed: true, optional: true, required: false
-  private _targetFileSizeMb?: number;
+  private _targetFileSizeMb?: number; 
   public get targetFileSizeMb() {
     return this.getNumberAttribute('target_file_size_mb');
   }
@@ -381,7 +381,7 @@ export class S3TablesTableMaintenanceConfigurationIcebergCompactionOutputReferen
   }
 
   // status - computed: true, optional: true, required: false
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -492,7 +492,7 @@ export class S3TablesTableMaintenanceConfigurationIcebergSnapshotManagementSetti
   }
 
   // max_snapshot_age_hours - computed: true, optional: true, required: false
-  private _maxSnapshotAgeHours?: number;
+  private _maxSnapshotAgeHours?: number; 
   public get maxSnapshotAgeHours() {
     return this.getNumberAttribute('max_snapshot_age_hours');
   }
@@ -508,7 +508,7 @@ export class S3TablesTableMaintenanceConfigurationIcebergSnapshotManagementSetti
   }
 
   // min_snapshots_to_keep - computed: true, optional: true, required: false
-  private _minSnapshotsToKeep?: number;
+  private _minSnapshotsToKeep?: number; 
   public get minSnapshotsToKeep() {
     return this.getNumberAttribute('min_snapshots_to_keep');
   }
@@ -635,7 +635,7 @@ export class S3TablesTableMaintenanceConfigurationIcebergSnapshotManagementOutpu
   }
 
   // status - computed: true, optional: true, required: false
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -898,7 +898,7 @@ export class S3TablesTableMetadataIcebergSchemaFieldOutputReference extends cdkt
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -911,7 +911,7 @@ export class S3TablesTableMetadataIcebergSchemaFieldOutputReference extends cdkt
   }
 
   // required - computed: true, optional: true, required: false
-  private _required?: boolean | cdktn.IResolvable;
+  private _required?: boolean | cdktn.IResolvable; 
   public get required() {
     return this.getBooleanAttribute('required');
   }
@@ -927,7 +927,7 @@ export class S3TablesTableMetadataIcebergSchemaFieldOutputReference extends cdkt
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -1411,7 +1411,7 @@ export class S3TablesTable extends cdktn.TerraformResource {
   }
 
   // format - computed: false, optional: false, required: true
-  private _format?: string;
+  private _format?: string; 
   public get format() {
     return this.getStringAttribute('format');
   }
@@ -1455,7 +1455,7 @@ export class S3TablesTable extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1468,7 +1468,7 @@ export class S3TablesTable extends cdktn.TerraformResource {
   }
 
   // namespace - computed: false, optional: false, required: true
-  private _namespace?: string;
+  private _namespace?: string; 
   public get namespace() {
     return this.getStringAttribute('namespace');
   }
@@ -1486,7 +1486,7 @@ export class S3TablesTable extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1502,7 +1502,7 @@ export class S3TablesTable extends cdktn.TerraformResource {
   }
 
   // table_bucket_arn - computed: false, optional: false, required: true
-  private _tableBucketArn?: string;
+  private _tableBucketArn?: string; 
   public get tableBucketArn() {
     return this.getStringAttribute('table_bucket_arn');
   }
@@ -1515,7 +1515,7 @@ export class S3TablesTable extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

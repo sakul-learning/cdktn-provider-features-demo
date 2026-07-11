@@ -94,14 +94,14 @@ export interface Ec2NatGatewayAvailabilityZoneAddresses {
   */
   readonly allocationIds?: string[];
   /**
-  * For regional NAT gateways only: The Availability Zone where this specific NAT gateway configuration will be active. Each AZ in a regional NAT gateway has its own configuration to handle outbound NAT traffic from that AZ.
+  * For regional NAT gateways only: The Availability Zone where this specific NAT gateway configuration will be active. Each AZ in a regional NAT gateway has its own configuration to handle outbound NAT traffic from that AZ. 
   *  A regional NAT gateway is a single NAT Gateway that works across multiple availability zones (AZs) in your VPC, providing redundancy, scalability and availability across all the AZs in a Region.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_nat_gateway#availability_zone Ec2NatGateway#availability_zone}
   */
   readonly availabilityZone?: string;
   /**
-  * For regional NAT gateways only: The ID of the Availability Zone where this specific NAT gateway configuration will be active. Each AZ in a regional NAT gateway has its own configuration to handle outbound NAT traffic from that AZ. Use this instead of AvailabilityZone for consistent identification of AZs across AWS Regions.
+  * For regional NAT gateways only: The ID of the Availability Zone where this specific NAT gateway configuration will be active. Each AZ in a regional NAT gateway has its own configuration to handle outbound NAT traffic from that AZ. Use this instead of AvailabilityZone for consistent identification of AZs across AWS Regions. 
   *  A regional NAT gateway is a single NAT Gateway that works across multiple availability zones (AZs) in your VPC, providing redundancy, scalability and availability across all the AZs in a Region.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_nat_gateway#availability_zone_id Ec2NatGateway#availability_zone_id}
@@ -209,7 +209,7 @@ export class Ec2NatGatewayAvailabilityZoneAddressesOutputReference extends cdktn
   }
 
   // allocation_ids - computed: true, optional: true, required: false
-  private _allocationIds?: string[];
+  private _allocationIds?: string[]; 
   public get allocationIds() {
     return cdktn.Fn.tolist(this.getListAttribute('allocation_ids'));
   }
@@ -225,7 +225,7 @@ export class Ec2NatGatewayAvailabilityZoneAddressesOutputReference extends cdktn
   }
 
   // availability_zone - computed: true, optional: true, required: false
-  private _availabilityZone?: string;
+  private _availabilityZone?: string; 
   public get availabilityZone() {
     return this.getStringAttribute('availability_zone');
   }
@@ -241,7 +241,7 @@ export class Ec2NatGatewayAvailabilityZoneAddressesOutputReference extends cdktn
   }
 
   // availability_zone_id - computed: true, optional: true, required: false
-  private _availabilityZoneId?: string;
+  private _availabilityZoneId?: string; 
   public get availabilityZoneId() {
     return this.getStringAttribute('availability_zone_id');
   }
@@ -378,7 +378,7 @@ export class Ec2NatGatewayTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -394,7 +394,7 @@ export class Ec2NatGatewayTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -499,7 +499,7 @@ export class Ec2NatGateway extends cdktn.TerraformResource {
   // ==========
 
   // allocation_id - computed: true, optional: true, required: false
-  private _allocationId?: string;
+  private _allocationId?: string; 
   public get allocationId() {
     return this.getStringAttribute('allocation_id');
   }
@@ -525,7 +525,7 @@ export class Ec2NatGateway extends cdktn.TerraformResource {
   }
 
   // availability_mode - computed: true, optional: true, required: false
-  private _availabilityMode?: string;
+  private _availabilityMode?: string; 
   public get availabilityMode() {
     return this.getStringAttribute('availability_mode');
   }
@@ -557,7 +557,7 @@ export class Ec2NatGateway extends cdktn.TerraformResource {
   }
 
   // connectivity_type - computed: true, optional: true, required: false
-  private _connectivityType?: string;
+  private _connectivityType?: string; 
   public get connectivityType() {
     return this.getStringAttribute('connectivity_type');
   }
@@ -583,7 +583,7 @@ export class Ec2NatGateway extends cdktn.TerraformResource {
   }
 
   // max_drain_duration_seconds - computed: true, optional: true, required: false
-  private _maxDrainDurationSeconds?: number;
+  private _maxDrainDurationSeconds?: number; 
   public get maxDrainDurationSeconds() {
     return this.getNumberAttribute('max_drain_duration_seconds');
   }
@@ -604,7 +604,7 @@ export class Ec2NatGateway extends cdktn.TerraformResource {
   }
 
   // private_ip_address - computed: true, optional: true, required: false
-  private _privateIpAddress?: string;
+  private _privateIpAddress?: string; 
   public get privateIpAddress() {
     return this.getStringAttribute('private_ip_address');
   }
@@ -625,7 +625,7 @@ export class Ec2NatGateway extends cdktn.TerraformResource {
   }
 
   // secondary_allocation_ids - computed: true, optional: true, required: false
-  private _secondaryAllocationIds?: string[];
+  private _secondaryAllocationIds?: string[]; 
   public get secondaryAllocationIds() {
     return this.getListAttribute('secondary_allocation_ids');
   }
@@ -641,7 +641,7 @@ export class Ec2NatGateway extends cdktn.TerraformResource {
   }
 
   // secondary_private_ip_address_count - computed: true, optional: true, required: false
-  private _secondaryPrivateIpAddressCount?: number;
+  private _secondaryPrivateIpAddressCount?: number; 
   public get secondaryPrivateIpAddressCount() {
     return this.getNumberAttribute('secondary_private_ip_address_count');
   }
@@ -657,7 +657,7 @@ export class Ec2NatGateway extends cdktn.TerraformResource {
   }
 
   // secondary_private_ip_addresses - computed: true, optional: true, required: false
-  private _secondaryPrivateIpAddresses?: string[];
+  private _secondaryPrivateIpAddresses?: string[]; 
   public get secondaryPrivateIpAddresses() {
     return this.getListAttribute('secondary_private_ip_addresses');
   }
@@ -673,7 +673,7 @@ export class Ec2NatGateway extends cdktn.TerraformResource {
   }
 
   // subnet_id - computed: true, optional: true, required: false
-  private _subnetId?: string;
+  private _subnetId?: string; 
   public get subnetId() {
     return this.getStringAttribute('subnet_id');
   }
@@ -705,7 +705,7 @@ export class Ec2NatGateway extends cdktn.TerraformResource {
   }
 
   // vpc_id - computed: true, optional: true, required: false
-  private _vpcId?: string;
+  private _vpcId?: string; 
   public get vpcId() {
     return this.getStringAttribute('vpc_id');
   }

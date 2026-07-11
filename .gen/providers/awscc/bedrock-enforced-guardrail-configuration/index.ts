@@ -132,7 +132,7 @@ export class BedrockEnforcedGuardrailConfigurationModelEnforcementOutputReferenc
   }
 
   // excluded_models - computed: true, optional: true, required: false
-  private _excludedModels?: string[];
+  private _excludedModels?: string[]; 
   public get excludedModels() {
     return this.getListAttribute('excluded_models');
   }
@@ -148,7 +148,7 @@ export class BedrockEnforcedGuardrailConfigurationModelEnforcementOutputReferenc
   }
 
   // included_models - computed: true, optional: true, required: false
-  private _includedModels?: string[];
+  private _includedModels?: string[]; 
   public get includedModels() {
     return this.getListAttribute('included_models');
   }
@@ -263,7 +263,7 @@ export class BedrockEnforcedGuardrailConfigurationSelectiveContentGuardingOutput
   }
 
   // messages - computed: true, optional: true, required: false
-  private _messages?: string;
+  private _messages?: string; 
   public get messages() {
     return this.getStringAttribute('messages');
   }
@@ -279,7 +279,7 @@ export class BedrockEnforcedGuardrailConfigurationSelectiveContentGuardingOutput
   }
 
   // system - computed: true, optional: true, required: false
-  private _system?: string;
+  private _system?: string; 
   public get systemAttribute() {
     return this.getStringAttribute('system');
   }
@@ -381,7 +381,7 @@ export class BedrockEnforcedGuardrailConfiguration extends cdktn.TerraformResour
   }
 
   // guardrail_identifier - computed: false, optional: false, required: true
-  private _guardrailIdentifier?: string;
+  private _guardrailIdentifier?: string; 
   public get guardrailIdentifier() {
     return this.getStringAttribute('guardrail_identifier');
   }
@@ -394,7 +394,7 @@ export class BedrockEnforcedGuardrailConfiguration extends cdktn.TerraformResour
   }
 
   // guardrail_version - computed: false, optional: false, required: true
-  private _guardrailVersion?: string;
+  private _guardrailVersion?: string; 
   public get guardrailVersion() {
     return this.getStringAttribute('guardrail_version');
   }

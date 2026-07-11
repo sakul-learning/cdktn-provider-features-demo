@@ -154,7 +154,7 @@ export class SagemakerAppImageConfigCodeEditorAppImageConfigContainerConfigOutpu
   }
 
   // container_arguments - computed: false, optional: true, required: false
-  private _containerArguments?: string[];
+  private _containerArguments?: string[]; 
   public get containerArguments() {
     return this.getListAttribute('container_arguments');
   }
@@ -170,7 +170,7 @@ export class SagemakerAppImageConfigCodeEditorAppImageConfigContainerConfigOutpu
   }
 
   // container_entrypoint - computed: false, optional: true, required: false
-  private _containerEntrypoint?: string[];
+  private _containerEntrypoint?: string[]; 
   public get containerEntrypoint() {
     return this.getListAttribute('container_entrypoint');
   }
@@ -186,7 +186,7 @@ export class SagemakerAppImageConfigCodeEditorAppImageConfigContainerConfigOutpu
   }
 
   // container_environment_variables - computed: false, optional: true, required: false
-  private _containerEnvironmentVariables?: { [key: string]: string };
+  private _containerEnvironmentVariables?: { [key: string]: string }; 
   public get containerEnvironmentVariables() {
     return this.getStringMapAttribute('container_environment_variables');
   }
@@ -304,7 +304,7 @@ export class SagemakerAppImageConfigCodeEditorAppImageConfigFileSystemConfigOutp
   }
 
   // default_gid - computed: false, optional: true, required: false
-  private _defaultGid?: number;
+  private _defaultGid?: number; 
   public get defaultGid() {
     return this.getNumberAttribute('default_gid');
   }
@@ -320,7 +320,7 @@ export class SagemakerAppImageConfigCodeEditorAppImageConfigFileSystemConfigOutp
   }
 
   // default_uid - computed: false, optional: true, required: false
-  private _defaultUid?: number;
+  private _defaultUid?: number; 
   public get defaultUid() {
     return this.getNumberAttribute('default_uid');
   }
@@ -336,7 +336,7 @@ export class SagemakerAppImageConfigCodeEditorAppImageConfigFileSystemConfigOutp
   }
 
   // mount_path - computed: false, optional: true, required: false
-  private _mountPath?: string;
+  private _mountPath?: string; 
   public get mountPath() {
     return this.getStringAttribute('mount_path');
   }
@@ -575,7 +575,7 @@ export class SagemakerAppImageConfigJupyterLabImageConfigContainerConfigOutputRe
   }
 
   // container_arguments - computed: false, optional: true, required: false
-  private _containerArguments?: string[];
+  private _containerArguments?: string[]; 
   public get containerArguments() {
     return this.getListAttribute('container_arguments');
   }
@@ -591,7 +591,7 @@ export class SagemakerAppImageConfigJupyterLabImageConfigContainerConfigOutputRe
   }
 
   // container_entrypoint - computed: false, optional: true, required: false
-  private _containerEntrypoint?: string[];
+  private _containerEntrypoint?: string[]; 
   public get containerEntrypoint() {
     return this.getListAttribute('container_entrypoint');
   }
@@ -607,7 +607,7 @@ export class SagemakerAppImageConfigJupyterLabImageConfigContainerConfigOutputRe
   }
 
   // container_environment_variables - computed: false, optional: true, required: false
-  private _containerEnvironmentVariables?: { [key: string]: string };
+  private _containerEnvironmentVariables?: { [key: string]: string }; 
   public get containerEnvironmentVariables() {
     return this.getStringMapAttribute('container_environment_variables');
   }
@@ -725,7 +725,7 @@ export class SagemakerAppImageConfigJupyterLabImageConfigFileSystemConfigOutputR
   }
 
   // default_gid - computed: false, optional: true, required: false
-  private _defaultGid?: number;
+  private _defaultGid?: number; 
   public get defaultGid() {
     return this.getNumberAttribute('default_gid');
   }
@@ -741,7 +741,7 @@ export class SagemakerAppImageConfigJupyterLabImageConfigFileSystemConfigOutputR
   }
 
   // default_uid - computed: false, optional: true, required: false
-  private _defaultUid?: number;
+  private _defaultUid?: number; 
   public get defaultUid() {
     return this.getNumberAttribute('default_uid');
   }
@@ -757,7 +757,7 @@ export class SagemakerAppImageConfigJupyterLabImageConfigFileSystemConfigOutputR
   }
 
   // mount_path - computed: false, optional: true, required: false
-  private _mountPath?: string;
+  private _mountPath?: string; 
   public get mountPath() {
     return this.getStringAttribute('mount_path');
   }
@@ -996,7 +996,7 @@ export class SagemakerAppImageConfigKernelGatewayImageConfigFileSystemConfigOutp
   }
 
   // default_gid - computed: false, optional: true, required: false
-  private _defaultGid?: number;
+  private _defaultGid?: number; 
   public get defaultGid() {
     return this.getNumberAttribute('default_gid');
   }
@@ -1012,7 +1012,7 @@ export class SagemakerAppImageConfigKernelGatewayImageConfigFileSystemConfigOutp
   }
 
   // default_uid - computed: false, optional: true, required: false
-  private _defaultUid?: number;
+  private _defaultUid?: number; 
   public get defaultUid() {
     return this.getNumberAttribute('default_uid');
   }
@@ -1028,7 +1028,7 @@ export class SagemakerAppImageConfigKernelGatewayImageConfigFileSystemConfigOutp
   }
 
   // mount_path - computed: false, optional: true, required: false
-  private _mountPath?: string;
+  private _mountPath?: string; 
   public get mountPath() {
     return this.getStringAttribute('mount_path');
   }
@@ -1141,7 +1141,7 @@ export class SagemakerAppImageConfigKernelGatewayImageConfigKernelSpecOutputRefe
   }
 
   // display_name - computed: false, optional: true, required: false
-  private _displayName?: string;
+  private _displayName?: string; 
   public get displayName() {
     return this.getStringAttribute('display_name');
   }
@@ -1157,7 +1157,7 @@ export class SagemakerAppImageConfigKernelGatewayImageConfigKernelSpecOutputRefe
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1373,7 +1373,7 @@ export class SagemakerAppImageConfig extends cdktn.TerraformResource {
   // ==========
 
   // app_image_config_name - computed: false, optional: false, required: true
-  private _appImageConfigName?: string;
+  private _appImageConfigName?: string; 
   public get appImageConfigName() {
     return this.getStringAttribute('app_image_config_name');
   }
@@ -1391,7 +1391,7 @@ export class SagemakerAppImageConfig extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -1407,7 +1407,7 @@ export class SagemakerAppImageConfig extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1423,7 +1423,7 @@ export class SagemakerAppImageConfig extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -1439,7 +1439,7 @@ export class SagemakerAppImageConfig extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

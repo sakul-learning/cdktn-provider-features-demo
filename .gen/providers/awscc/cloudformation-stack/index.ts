@@ -256,7 +256,7 @@ export class CloudformationStackTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -272,7 +272,7 @@ export class CloudformationStackTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -380,7 +380,7 @@ export class CloudformationStack extends cdktn.TerraformResource {
   // ==========
 
   // capabilities - computed: true, optional: true, required: false
-  private _capabilities?: string[];
+  private _capabilities?: string[]; 
   public get capabilities() {
     return this.getListAttribute('capabilities');
   }
@@ -406,7 +406,7 @@ export class CloudformationStack extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -422,7 +422,7 @@ export class CloudformationStack extends cdktn.TerraformResource {
   }
 
   // disable_rollback - computed: true, optional: true, required: false
-  private _disableRollback?: boolean | cdktn.IResolvable;
+  private _disableRollback?: boolean | cdktn.IResolvable; 
   public get disableRollback() {
     return this.getBooleanAttribute('disable_rollback');
   }
@@ -438,7 +438,7 @@ export class CloudformationStack extends cdktn.TerraformResource {
   }
 
   // enable_termination_protection - computed: true, optional: true, required: false
-  private _enableTerminationProtection?: boolean | cdktn.IResolvable;
+  private _enableTerminationProtection?: boolean | cdktn.IResolvable; 
   public get enableTerminationProtection() {
     return this.getBooleanAttribute('enable_termination_protection');
   }
@@ -464,7 +464,7 @@ export class CloudformationStack extends cdktn.TerraformResource {
   }
 
   // notification_ar_ns - computed: true, optional: true, required: false
-  private _notificationArNs?: string[];
+  private _notificationArNs?: string[]; 
   public get notificationArNs() {
     return this.getListAttribute('notification_ar_ns');
   }
@@ -486,7 +486,7 @@ export class CloudformationStack extends cdktn.TerraformResource {
   }
 
   // parameters - computed: true, optional: true, required: false
-  private _parameters?: { [key: string]: string };
+  private _parameters?: { [key: string]: string }; 
   public get parameters() {
     return this.getStringMapAttribute('parameters');
   }
@@ -507,7 +507,7 @@ export class CloudformationStack extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -533,7 +533,7 @@ export class CloudformationStack extends cdktn.TerraformResource {
   }
 
   // stack_name - computed: false, optional: false, required: true
-  private _stackName?: string;
+  private _stackName?: string; 
   public get stackName() {
     return this.getStringAttribute('stack_name');
   }
@@ -546,7 +546,7 @@ export class CloudformationStack extends cdktn.TerraformResource {
   }
 
   // stack_policy_body - computed: true, optional: true, required: false
-  private _stackPolicyBody?: string;
+  private _stackPolicyBody?: string; 
   public get stackPolicyBody() {
     return this.getStringAttribute('stack_policy_body');
   }
@@ -562,7 +562,7 @@ export class CloudformationStack extends cdktn.TerraformResource {
   }
 
   // stack_policy_url - computed: true, optional: true, required: false
-  private _stackPolicyUrl?: string;
+  private _stackPolicyUrl?: string; 
   public get stackPolicyUrl() {
     return this.getStringAttribute('stack_policy_url');
   }
@@ -583,7 +583,7 @@ export class CloudformationStack extends cdktn.TerraformResource {
   }
 
   // stack_status_reason - computed: true, optional: true, required: false
-  private _stackStatusReason?: string;
+  private _stackStatusReason?: string; 
   public get stackStatusReason() {
     return this.getStringAttribute('stack_status_reason');
   }
@@ -615,7 +615,7 @@ export class CloudformationStack extends cdktn.TerraformResource {
   }
 
   // template_body - computed: true, optional: true, required: false
-  private _templateBody?: string;
+  private _templateBody?: string; 
   public get templateBody() {
     return this.getStringAttribute('template_body');
   }
@@ -631,7 +631,7 @@ export class CloudformationStack extends cdktn.TerraformResource {
   }
 
   // template_url - computed: true, optional: true, required: false
-  private _templateUrl?: string;
+  private _templateUrl?: string; 
   public get templateUrl() {
     return this.getStringAttribute('template_url');
   }
@@ -647,7 +647,7 @@ export class CloudformationStack extends cdktn.TerraformResource {
   }
 
   // timeout_in_minutes - computed: true, optional: true, required: false
-  private _timeoutInMinutes?: number;
+  private _timeoutInMinutes?: number; 
   public get timeoutInMinutes() {
     return this.getNumberAttribute('timeout_in_minutes');
   }

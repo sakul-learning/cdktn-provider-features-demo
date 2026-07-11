@@ -78,7 +78,7 @@ export class ObservabilityadminTelemetryEnrichment extends cdktn.TerraformResour
   }
 
   // scope - computed: false, optional: false, required: true
-  private _scope?: string;
+  private _scope?: string; 
   public get scope() {
     return this.getStringAttribute('scope');
   }

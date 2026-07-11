@@ -132,7 +132,7 @@ export class LightsailContainerServicePrivateRegistryAccessEcrImagePullerRoleOut
   }
 
   // is_active - computed: false, optional: true, required: false
-  private _isActive?: boolean | cdktn.IResolvable;
+  private _isActive?: boolean | cdktn.IResolvable; 
   public get isActive() {
     return this.getBooleanAttribute('is_active');
   }
@@ -336,7 +336,7 @@ export class LightsailContainerServicePublicDomainNamesCertificateOutputReferenc
   }
 
   // certificate_name - computed: false, optional: false, required: true
-  private _certificateName?: string;
+  private _certificateName?: string; 
   public get certificateName() {
     return this.getStringAttribute('certificate_name');
   }
@@ -349,7 +349,7 @@ export class LightsailContainerServicePublicDomainNamesCertificateOutputReferenc
   }
 
   // domain_names - computed: false, optional: false, required: true
-  private _domainNames?: string[];
+  private _domainNames?: string[]; 
   public get domainNames() {
     return this.getListAttribute('domain_names');
   }
@@ -577,7 +577,7 @@ export class LightsailContainerServiceTimeoutsOutputReference extends cdktn.Comp
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -593,7 +593,7 @@ export class LightsailContainerServiceTimeoutsOutputReference extends cdktn.Comp
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -609,7 +609,7 @@ export class LightsailContainerServiceTimeoutsOutputReference extends cdktn.Comp
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -708,7 +708,7 @@ export class LightsailContainerService extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -724,7 +724,7 @@ export class LightsailContainerService extends cdktn.TerraformResource {
   }
 
   // is_disabled - computed: false, optional: true, required: false
-  private _isDisabled?: boolean | cdktn.IResolvable;
+  private _isDisabled?: boolean | cdktn.IResolvable; 
   public get isDisabled() {
     return this.getBooleanAttribute('is_disabled');
   }
@@ -740,7 +740,7 @@ export class LightsailContainerService extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -753,7 +753,7 @@ export class LightsailContainerService extends cdktn.TerraformResource {
   }
 
   // power - computed: false, optional: false, required: true
-  private _power?: string;
+  private _power?: string; 
   public get power() {
     return this.getStringAttribute('power');
   }
@@ -781,7 +781,7 @@ export class LightsailContainerService extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -802,7 +802,7 @@ export class LightsailContainerService extends cdktn.TerraformResource {
   }
 
   // scale - computed: false, optional: false, required: true
-  private _scale?: number;
+  private _scale?: number; 
   public get scale() {
     return this.getNumberAttribute('scale');
   }
@@ -820,7 +820,7 @@ export class LightsailContainerService extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -836,7 +836,7 @@ export class LightsailContainerService extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

@@ -82,7 +82,7 @@ export class EphemeralAwsSecretsmanagerSecretVersion extends cdktn.TerraformEphe
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -103,7 +103,7 @@ export class EphemeralAwsSecretsmanagerSecretVersion extends cdktn.TerraformEphe
   }
 
   // secret_id - computed: false, optional: false, required: true
-  private _secretId?: string;
+  private _secretId?: string; 
   public get secretId() {
     return this.getStringAttribute('secret_id');
   }
@@ -121,7 +121,7 @@ export class EphemeralAwsSecretsmanagerSecretVersion extends cdktn.TerraformEphe
   }
 
   // version_id - computed: true, optional: true, required: false
-  private _versionId?: string;
+  private _versionId?: string; 
   public get versionId() {
     return this.getStringAttribute('version_id');
   }
@@ -137,7 +137,7 @@ export class EphemeralAwsSecretsmanagerSecretVersion extends cdktn.TerraformEphe
   }
 
   // version_stage - computed: true, optional: true, required: false
-  private _versionStage?: string;
+  private _versionStage?: string; 
   public get versionStage() {
     return this.getStringAttribute('version_stage');
   }

@@ -52,13 +52,13 @@ export interface CodeartifactRepositoryConfig extends cdktn.TerraformMetaArgumen
 }
 export interface CodeartifactRepositoryTags {
   /**
-  * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
+  * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codeartifact_repository#key CodeartifactRepository#key}
   */
   readonly key?: string;
   /**
-  * The value for the tag. You can specify a value that is 1 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
+  * The value for the tag. You can specify a value that is 1 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codeartifact_repository#value CodeartifactRepository#value}
   */
@@ -152,7 +152,7 @@ export class CodeartifactRepositoryTagsOutputReference extends cdktn.ComplexObje
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -168,7 +168,7 @@ export class CodeartifactRepositoryTagsOutputReference extends cdktn.ComplexObje
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -273,7 +273,7 @@ export class CodeartifactRepository extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -289,7 +289,7 @@ export class CodeartifactRepository extends cdktn.TerraformResource {
   }
 
   // domain_name - computed: false, optional: false, required: true
-  private _domainName?: string;
+  private _domainName?: string; 
   public get domainName() {
     return this.getStringAttribute('domain_name');
   }
@@ -307,7 +307,7 @@ export class CodeartifactRepository extends cdktn.TerraformResource {
   }
 
   // external_connections - computed: true, optional: true, required: false
-  private _externalConnections?: string[];
+  private _externalConnections?: string[]; 
   public get externalConnections() {
     return this.getListAttribute('external_connections');
   }
@@ -333,7 +333,7 @@ export class CodeartifactRepository extends cdktn.TerraformResource {
   }
 
   // permissions_policy_document - computed: true, optional: true, required: false
-  private _permissionsPolicyDocument?: string;
+  private _permissionsPolicyDocument?: string; 
   public get permissionsPolicyDocument() {
     return this.getStringAttribute('permissions_policy_document');
   }
@@ -349,7 +349,7 @@ export class CodeartifactRepository extends cdktn.TerraformResource {
   }
 
   // repository_name - computed: false, optional: false, required: true
-  private _repositoryName?: string;
+  private _repositoryName?: string; 
   public get repositoryName() {
     return this.getStringAttribute('repository_name');
   }
@@ -378,7 +378,7 @@ export class CodeartifactRepository extends cdktn.TerraformResource {
   }
 
   // upstreams - computed: true, optional: true, required: false
-  private _upstreams?: string[];
+  private _upstreams?: string[]; 
   public get upstreams() {
     return this.getListAttribute('upstreams');
   }

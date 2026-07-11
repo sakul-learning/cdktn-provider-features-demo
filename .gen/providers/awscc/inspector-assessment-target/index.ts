@@ -81,7 +81,7 @@ export class InspectorAssessmentTarget extends cdktn.TerraformResource {
   }
 
   // assessment_target_name - computed: true, optional: true, required: false
-  private _assessmentTargetName?: string;
+  private _assessmentTargetName?: string; 
   public get assessmentTargetName() {
     return this.getStringAttribute('assessment_target_name');
   }
@@ -102,7 +102,7 @@ export class InspectorAssessmentTarget extends cdktn.TerraformResource {
   }
 
   // resource_group_arn - computed: true, optional: true, required: false
-  private _resourceGroupArn?: string;
+  private _resourceGroupArn?: string; 
   public get resourceGroupArn() {
     return this.getStringAttribute('resource_group_arn');
   }

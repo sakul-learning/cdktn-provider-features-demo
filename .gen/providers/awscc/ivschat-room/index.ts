@@ -144,7 +144,7 @@ export class IvschatRoomMessageReviewHandlerOutputReference extends cdktn.Comple
   }
 
   // fallback_result - computed: true, optional: true, required: false
-  private _fallbackResult?: string;
+  private _fallbackResult?: string; 
   public get fallbackResult() {
     return this.getStringAttribute('fallback_result');
   }
@@ -160,7 +160,7 @@ export class IvschatRoomMessageReviewHandlerOutputReference extends cdktn.Comple
   }
 
   // uri - computed: true, optional: true, required: false
-  private _uri?: string;
+  private _uri?: string; 
   public get uri() {
     return this.getStringAttribute('uri');
   }
@@ -277,7 +277,7 @@ export class IvschatRoomTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -293,7 +293,7 @@ export class IvschatRoomTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -402,7 +402,7 @@ export class IvschatRoom extends cdktn.TerraformResource {
   }
 
   // logging_configuration_identifiers - computed: true, optional: true, required: false
-  private _loggingConfigurationIdentifiers?: string[];
+  private _loggingConfigurationIdentifiers?: string[]; 
   public get loggingConfigurationIdentifiers() {
     return cdktn.Fn.tolist(this.getListAttribute('logging_configuration_identifiers'));
   }
@@ -418,7 +418,7 @@ export class IvschatRoom extends cdktn.TerraformResource {
   }
 
   // maximum_message_length - computed: true, optional: true, required: false
-  private _maximumMessageLength?: number;
+  private _maximumMessageLength?: number; 
   public get maximumMessageLength() {
     return this.getNumberAttribute('maximum_message_length');
   }
@@ -434,7 +434,7 @@ export class IvschatRoom extends cdktn.TerraformResource {
   }
 
   // maximum_message_rate_per_second - computed: true, optional: true, required: false
-  private _maximumMessageRatePerSecond?: number;
+  private _maximumMessageRatePerSecond?: number; 
   public get maximumMessageRatePerSecond() {
     return this.getNumberAttribute('maximum_message_rate_per_second');
   }
@@ -466,7 +466,7 @@ export class IvschatRoom extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }

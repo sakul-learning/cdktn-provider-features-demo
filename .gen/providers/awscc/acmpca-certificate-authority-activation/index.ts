@@ -94,7 +94,7 @@ export class AcmpcaCertificateAuthorityActivation extends cdktn.TerraformResourc
   // ==========
 
   // certificate - computed: false, optional: false, required: true
-  private _certificate?: string;
+  private _certificate?: string; 
   public get certificate() {
     return this.getStringAttribute('certificate');
   }
@@ -107,7 +107,7 @@ export class AcmpcaCertificateAuthorityActivation extends cdktn.TerraformResourc
   }
 
   // certificate_authority_arn - computed: false, optional: false, required: true
-  private _certificateAuthorityArn?: string;
+  private _certificateAuthorityArn?: string; 
   public get certificateAuthorityArn() {
     return this.getStringAttribute('certificate_authority_arn');
   }
@@ -120,7 +120,7 @@ export class AcmpcaCertificateAuthorityActivation extends cdktn.TerraformResourc
   }
 
   // certificate_chain - computed: true, optional: true, required: false
-  private _certificateChain?: string;
+  private _certificateChain?: string; 
   public get certificateChain() {
     return this.getStringAttribute('certificate_chain');
   }
@@ -146,7 +146,7 @@ export class AcmpcaCertificateAuthorityActivation extends cdktn.TerraformResourc
   }
 
   // status - computed: true, optional: true, required: false
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }

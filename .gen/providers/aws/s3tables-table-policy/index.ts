@@ -93,7 +93,7 @@ export class S3TablesTablePolicy extends cdktn.TerraformResource {
   // ==========
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -106,7 +106,7 @@ export class S3TablesTablePolicy extends cdktn.TerraformResource {
   }
 
   // namespace - computed: false, optional: false, required: true
-  private _namespace?: string;
+  private _namespace?: string; 
   public get namespace() {
     return this.getStringAttribute('namespace');
   }
@@ -119,7 +119,7 @@ export class S3TablesTablePolicy extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -135,7 +135,7 @@ export class S3TablesTablePolicy extends cdktn.TerraformResource {
   }
 
   // resource_policy - computed: false, optional: false, required: true
-  private _resourcePolicy?: string;
+  private _resourcePolicy?: string; 
   public get resourcePolicy() {
     return this.getStringAttribute('resource_policy');
   }
@@ -148,7 +148,7 @@ export class S3TablesTablePolicy extends cdktn.TerraformResource {
   }
 
   // table_bucket_arn - computed: false, optional: false, required: true
-  private _tableBucketArn?: string;
+  private _tableBucketArn?: string; 
   public get tableBucketArn() {
     return this.getStringAttribute('table_bucket_arn');
   }

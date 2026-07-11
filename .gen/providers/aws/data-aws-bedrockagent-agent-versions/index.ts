@@ -324,7 +324,7 @@ export class DataAwsBedrockagentAgentVersions extends cdktn.TerraformDataSource 
   // ==========
 
   // agent_id - computed: false, optional: false, required: true
-  private _agentId?: string;
+  private _agentId?: string; 
   public get agentId() {
     return this.getStringAttribute('agent_id');
   }
@@ -337,7 +337,7 @@ export class DataAwsBedrockagentAgentVersions extends cdktn.TerraformDataSource 
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

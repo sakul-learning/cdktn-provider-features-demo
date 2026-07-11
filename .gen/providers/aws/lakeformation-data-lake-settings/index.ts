@@ -167,7 +167,7 @@ export class LakeformationDataLakeSettingsCreateDatabaseDefaultPermissionsOutput
   }
 
   // permissions - computed: true, optional: true, required: false
-  private _permissions?: string[];
+  private _permissions?: string[]; 
   public get permissions() {
     return cdktn.Fn.tolist(this.getListAttribute('permissions'));
   }
@@ -183,7 +183,7 @@ export class LakeformationDataLakeSettingsCreateDatabaseDefaultPermissionsOutput
   }
 
   // principal - computed: true, optional: true, required: false
-  private _principal?: string;
+  private _principal?: string; 
   public get principal() {
     return this.getStringAttribute('principal');
   }
@@ -316,7 +316,7 @@ export class LakeformationDataLakeSettingsCreateTableDefaultPermissionsOutputRef
   }
 
   // permissions - computed: true, optional: true, required: false
-  private _permissions?: string[];
+  private _permissions?: string[]; 
   public get permissions() {
     return cdktn.Fn.tolist(this.getListAttribute('permissions'));
   }
@@ -332,7 +332,7 @@ export class LakeformationDataLakeSettingsCreateTableDefaultPermissionsOutputRef
   }
 
   // principal - computed: true, optional: true, required: false
-  private _principal?: string;
+  private _principal?: string; 
   public get principal() {
     return this.getStringAttribute('principal');
   }
@@ -438,7 +438,7 @@ export class LakeformationDataLakeSettings extends cdktn.TerraformResource {
   // ==========
 
   // admins - computed: true, optional: true, required: false
-  private _admins?: string[];
+  private _admins?: string[]; 
   public get admins() {
     return cdktn.Fn.tolist(this.getListAttribute('admins'));
   }
@@ -454,7 +454,7 @@ export class LakeformationDataLakeSettings extends cdktn.TerraformResource {
   }
 
   // allow_external_data_filtering - computed: false, optional: true, required: false
-  private _allowExternalDataFiltering?: boolean | cdktn.IResolvable;
+  private _allowExternalDataFiltering?: boolean | cdktn.IResolvable; 
   public get allowExternalDataFiltering() {
     return this.getBooleanAttribute('allow_external_data_filtering');
   }
@@ -470,7 +470,7 @@ export class LakeformationDataLakeSettings extends cdktn.TerraformResource {
   }
 
   // allow_full_table_external_data_access - computed: false, optional: true, required: false
-  private _allowFullTableExternalDataAccess?: boolean | cdktn.IResolvable;
+  private _allowFullTableExternalDataAccess?: boolean | cdktn.IResolvable; 
   public get allowFullTableExternalDataAccess() {
     return this.getBooleanAttribute('allow_full_table_external_data_access');
   }
@@ -486,7 +486,7 @@ export class LakeformationDataLakeSettings extends cdktn.TerraformResource {
   }
 
   // authorized_session_tag_value_list - computed: true, optional: true, required: false
-  private _authorizedSessionTagValueList?: string[];
+  private _authorizedSessionTagValueList?: string[]; 
   public get authorizedSessionTagValueList() {
     return this.getListAttribute('authorized_session_tag_value_list');
   }
@@ -502,7 +502,7 @@ export class LakeformationDataLakeSettings extends cdktn.TerraformResource {
   }
 
   // catalog_id - computed: false, optional: true, required: false
-  private _catalogId?: string;
+  private _catalogId?: string; 
   public get catalogId() {
     return this.getStringAttribute('catalog_id');
   }
@@ -518,7 +518,7 @@ export class LakeformationDataLakeSettings extends cdktn.TerraformResource {
   }
 
   // external_data_filtering_allow_list - computed: true, optional: true, required: false
-  private _externalDataFilteringAllowList?: string[];
+  private _externalDataFilteringAllowList?: string[]; 
   public get externalDataFilteringAllowList() {
     return cdktn.Fn.tolist(this.getListAttribute('external_data_filtering_allow_list'));
   }
@@ -534,7 +534,7 @@ export class LakeformationDataLakeSettings extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -550,7 +550,7 @@ export class LakeformationDataLakeSettings extends cdktn.TerraformResource {
   }
 
   // parameters - computed: true, optional: true, required: false
-  private _parameters?: { [key: string]: string };
+  private _parameters?: { [key: string]: string }; 
   public get parameters() {
     return this.getStringMapAttribute('parameters');
   }
@@ -566,7 +566,7 @@ export class LakeformationDataLakeSettings extends cdktn.TerraformResource {
   }
 
   // read_only_admins - computed: true, optional: true, required: false
-  private _readOnlyAdmins?: string[];
+  private _readOnlyAdmins?: string[]; 
   public get readOnlyAdmins() {
     return cdktn.Fn.tolist(this.getListAttribute('read_only_admins'));
   }
@@ -582,7 +582,7 @@ export class LakeformationDataLakeSettings extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -598,7 +598,7 @@ export class LakeformationDataLakeSettings extends cdktn.TerraformResource {
   }
 
   // trusted_resource_owners - computed: true, optional: true, required: false
-  private _trustedResourceOwners?: string[];
+  private _trustedResourceOwners?: string[]; 
   public get trustedResourceOwners() {
     return this.getListAttribute('trusted_resource_owners');
   }

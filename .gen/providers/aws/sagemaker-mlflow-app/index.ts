@@ -171,7 +171,7 @@ export class SagemakerMlflowAppTimeoutsOutputReference extends cdktn.ComplexObje
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -187,7 +187,7 @@ export class SagemakerMlflowAppTimeoutsOutputReference extends cdktn.ComplexObje
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -203,7 +203,7 @@ export class SagemakerMlflowAppTimeoutsOutputReference extends cdktn.ComplexObje
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -286,7 +286,7 @@ export class SagemakerMlflowApp extends cdktn.TerraformResource {
   // ==========
 
   // account_default_status - computed: false, optional: true, required: false
-  private _accountDefaultStatus?: string;
+  private _accountDefaultStatus?: string; 
   public get accountDefaultStatus() {
     return this.getStringAttribute('account_default_status');
   }
@@ -307,7 +307,7 @@ export class SagemakerMlflowApp extends cdktn.TerraformResource {
   }
 
   // artifact_store_uri - computed: false, optional: false, required: true
-  private _artifactStoreUri?: string;
+  private _artifactStoreUri?: string; 
   public get artifactStoreUri() {
     return this.getStringAttribute('artifact_store_uri');
   }
@@ -320,7 +320,7 @@ export class SagemakerMlflowApp extends cdktn.TerraformResource {
   }
 
   // default_domain_id_list - computed: false, optional: true, required: false
-  private _defaultDomainIdList?: string[];
+  private _defaultDomainIdList?: string[]; 
   public get defaultDomainIdList() {
     return cdktn.Fn.tolist(this.getListAttribute('default_domain_id_list'));
   }
@@ -336,7 +336,7 @@ export class SagemakerMlflowApp extends cdktn.TerraformResource {
   }
 
   // model_registration_mode - computed: true, optional: true, required: false
-  private _modelRegistrationMode?: string;
+  private _modelRegistrationMode?: string; 
   public get modelRegistrationMode() {
     return this.getStringAttribute('model_registration_mode');
   }
@@ -352,7 +352,7 @@ export class SagemakerMlflowApp extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -365,7 +365,7 @@ export class SagemakerMlflowApp extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -381,7 +381,7 @@ export class SagemakerMlflowApp extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -394,7 +394,7 @@ export class SagemakerMlflowApp extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -416,7 +416,7 @@ export class SagemakerMlflowApp extends cdktn.TerraformResource {
   }
 
   // weekly_maintenance_window_start - computed: true, optional: true, required: false
-  private _weeklyMaintenanceWindowStart?: string;
+  private _weeklyMaintenanceWindowStart?: string; 
   public get weeklyMaintenanceWindowStart() {
     return this.getStringAttribute('weekly_maintenance_window_start');
   }

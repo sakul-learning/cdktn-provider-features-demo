@@ -50,7 +50,7 @@ export interface DatazoneConnectionConfig extends cdktn.TerraformMetaArguments {
   */
   readonly name: string;
   /**
-  * The identifier of the project in which the connection should be created. If
+  * The identifier of the project in which the connection should be created. If 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_connection#project_identifier DatazoneConnection#project_identifier}
   */
@@ -196,7 +196,7 @@ export class DatazoneConnectionAwsLocationOutputReference extends cdktn.ComplexO
   }
 
   // access_role - computed: true, optional: true, required: false
-  private _accessRole?: string;
+  private _accessRole?: string; 
   public get accessRole() {
     return this.getStringAttribute('access_role');
   }
@@ -212,7 +212,7 @@ export class DatazoneConnectionAwsLocationOutputReference extends cdktn.ComplexO
   }
 
   // aws_account_id - computed: true, optional: true, required: false
-  private _awsAccountId?: string;
+  private _awsAccountId?: string; 
   public get awsAccountId() {
     return this.getStringAttribute('aws_account_id');
   }
@@ -228,7 +228,7 @@ export class DatazoneConnectionAwsLocationOutputReference extends cdktn.ComplexO
   }
 
   // aws_region - computed: true, optional: true, required: false
-  private _awsRegion?: string;
+  private _awsRegion?: string; 
   public get awsRegion() {
     return this.getStringAttribute('aws_region');
   }
@@ -244,7 +244,7 @@ export class DatazoneConnectionAwsLocationOutputReference extends cdktn.ComplexO
   }
 
   // iam_connection_id - computed: true, optional: true, required: false
-  private _iamConnectionId?: string;
+  private _iamConnectionId?: string; 
   public get iamConnectionId() {
     return this.getStringAttribute('iam_connection_id');
   }
@@ -361,7 +361,7 @@ export class DatazoneConnectionConfigurationsOutputReference extends cdktn.Compl
   }
 
   // classification - computed: true, optional: true, required: false
-  private _classification?: string;
+  private _classification?: string; 
   public get classification() {
     return this.getStringAttribute('classification');
   }
@@ -377,7 +377,7 @@ export class DatazoneConnectionConfigurationsOutputReference extends cdktn.Compl
   }
 
   // properties - computed: true, optional: true, required: false
-  private _properties?: { [key: string]: string };
+  private _properties?: { [key: string]: string }; 
   public get properties() {
     return this.getStringMapAttribute('properties');
   }
@@ -529,7 +529,7 @@ export class DatazoneConnectionPropsAmazonQPropertiesOutputReference extends cdk
   }
 
   // auth_mode - computed: true, optional: true, required: false
-  private _authMode?: string;
+  private _authMode?: string; 
   public get authMode() {
     return this.getStringAttribute('auth_mode');
   }
@@ -545,7 +545,7 @@ export class DatazoneConnectionPropsAmazonQPropertiesOutputReference extends cdk
   }
 
   // is_enabled - computed: true, optional: true, required: false
-  private _isEnabled?: boolean | cdktn.IResolvable;
+  private _isEnabled?: boolean | cdktn.IResolvable; 
   public get isEnabled() {
     return this.getBooleanAttribute('is_enabled');
   }
@@ -561,7 +561,7 @@ export class DatazoneConnectionPropsAmazonQPropertiesOutputReference extends cdk
   }
 
   // profile_arn - computed: true, optional: true, required: false
-  private _profileArn?: string;
+  private _profileArn?: string; 
   public get profileArn() {
     return this.getStringAttribute('profile_arn');
   }
@@ -655,7 +655,7 @@ export class DatazoneConnectionPropsAthenaPropertiesOutputReference extends cdkt
   }
 
   // workgroup_name - computed: true, optional: true, required: false
-  private _workgroupName?: string;
+  private _workgroupName?: string; 
   public get workgroupName() {
     return this.getStringAttribute('workgroup_name');
   }
@@ -766,7 +766,7 @@ export class DatazoneConnectionPropsGluePropertiesGlueConnectionInputAuthenticat
   }
 
   // password - computed: true, optional: true, required: false
-  private _password?: string;
+  private _password?: string; 
   public get password() {
     return this.getStringAttribute('password');
   }
@@ -782,7 +782,7 @@ export class DatazoneConnectionPropsGluePropertiesGlueConnectionInputAuthenticat
   }
 
   // user_name - computed: true, optional: true, required: false
-  private _userName?: string;
+  private _userName?: string; 
   public get userName() {
     return this.getStringAttribute('user_name');
   }
@@ -893,7 +893,7 @@ export class DatazoneConnectionPropsGluePropertiesGlueConnectionInputAuthenticat
   }
 
   // authorization_code - computed: true, optional: true, required: false
-  private _authorizationCode?: string;
+  private _authorizationCode?: string; 
   public get authorizationCode() {
     return this.getStringAttribute('authorization_code');
   }
@@ -909,7 +909,7 @@ export class DatazoneConnectionPropsGluePropertiesGlueConnectionInputAuthenticat
   }
 
   // redirect_uri - computed: true, optional: true, required: false
-  private _redirectUri?: string;
+  private _redirectUri?: string; 
   public get redirectUri() {
     return this.getStringAttribute('redirect_uri');
   }
@@ -1020,7 +1020,7 @@ export class DatazoneConnectionPropsGluePropertiesGlueConnectionInputAuthenticat
   }
 
   // aws_managed_client_application_reference - computed: true, optional: true, required: false
-  private _awsManagedClientApplicationReference?: string;
+  private _awsManagedClientApplicationReference?: string; 
   public get awsManagedClientApplicationReference() {
     return this.getStringAttribute('aws_managed_client_application_reference');
   }
@@ -1036,7 +1036,7 @@ export class DatazoneConnectionPropsGluePropertiesGlueConnectionInputAuthenticat
   }
 
   // user_managed_client_application_client_id - computed: true, optional: true, required: false
-  private _userManagedClientApplicationClientId?: string;
+  private _userManagedClientApplicationClientId?: string; 
   public get userManagedClientApplicationClientId() {
     return this.getStringAttribute('user_managed_client_application_client_id');
   }
@@ -1181,7 +1181,7 @@ export class DatazoneConnectionPropsGluePropertiesGlueConnectionInputAuthenticat
   }
 
   // access_token - computed: true, optional: true, required: false
-  private _accessToken?: string;
+  private _accessToken?: string; 
   public get accessToken() {
     return this.getStringAttribute('access_token');
   }
@@ -1197,7 +1197,7 @@ export class DatazoneConnectionPropsGluePropertiesGlueConnectionInputAuthenticat
   }
 
   // jwt_token - computed: true, optional: true, required: false
-  private _jwtToken?: string;
+  private _jwtToken?: string; 
   public get jwtToken() {
     return this.getStringAttribute('jwt_token');
   }
@@ -1213,7 +1213,7 @@ export class DatazoneConnectionPropsGluePropertiesGlueConnectionInputAuthenticat
   }
 
   // refresh_token - computed: true, optional: true, required: false
-  private _refreshToken?: string;
+  private _refreshToken?: string; 
   public get refreshToken() {
     return this.getStringAttribute('refresh_token');
   }
@@ -1229,7 +1229,7 @@ export class DatazoneConnectionPropsGluePropertiesGlueConnectionInputAuthenticat
   }
 
   // user_managed_client_application_client_secret - computed: true, optional: true, required: false
-  private _userManagedClientApplicationClientSecret?: string;
+  private _userManagedClientApplicationClientSecret?: string; 
   public get userManagedClientApplicationClientSecret() {
     return this.getStringAttribute('user_managed_client_application_client_secret');
   }
@@ -1466,7 +1466,7 @@ export class DatazoneConnectionPropsGluePropertiesGlueConnectionInputAuthenticat
   }
 
   // o_auth_2_grant_type - computed: true, optional: true, required: false
-  private _oAuth2GrantType?: string;
+  private _oAuth2GrantType?: string; 
   public get oAuth2GrantType() {
     return this.getStringAttribute('o_auth_2_grant_type');
   }
@@ -1482,7 +1482,7 @@ export class DatazoneConnectionPropsGluePropertiesGlueConnectionInputAuthenticat
   }
 
   // token_url - computed: true, optional: true, required: false
-  private _tokenUrl?: string;
+  private _tokenUrl?: string; 
   public get tokenUrl() {
     return this.getStringAttribute('token_url');
   }
@@ -1498,7 +1498,7 @@ export class DatazoneConnectionPropsGluePropertiesGlueConnectionInputAuthenticat
   }
 
   // token_url_parameters_map - computed: true, optional: true, required: false
-  private _tokenUrlParametersMap?: { [key: string]: string };
+  private _tokenUrlParametersMap?: { [key: string]: string }; 
   public get tokenUrlParametersMap() {
     return this.getStringMapAttribute('token_url_parameters_map');
   }
@@ -1685,7 +1685,7 @@ export class DatazoneConnectionPropsGluePropertiesGlueConnectionInputAuthenticat
   }
 
   // authentication_type - computed: true, optional: true, required: false
-  private _authenticationType?: string;
+  private _authenticationType?: string; 
   public get authenticationType() {
     return this.getStringAttribute('authentication_type');
   }
@@ -1717,7 +1717,7 @@ export class DatazoneConnectionPropsGluePropertiesGlueConnectionInputAuthenticat
   }
 
   // custom_authentication_credentials - computed: true, optional: true, required: false
-  private _customAuthenticationCredentials?: { [key: string]: string };
+  private _customAuthenticationCredentials?: { [key: string]: string }; 
   public get customAuthenticationCredentials() {
     return this.getStringMapAttribute('custom_authentication_credentials');
   }
@@ -1733,7 +1733,7 @@ export class DatazoneConnectionPropsGluePropertiesGlueConnectionInputAuthenticat
   }
 
   // kms_key_arn - computed: true, optional: true, required: false
-  private _kmsKeyArn?: string;
+  private _kmsKeyArn?: string; 
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -1765,7 +1765,7 @@ export class DatazoneConnectionPropsGluePropertiesGlueConnectionInputAuthenticat
   }
 
   // secret_arn - computed: true, optional: true, required: false
-  private _secretArn?: string;
+  private _secretArn?: string; 
   public get secretArn() {
     return this.getStringAttribute('secret_arn');
   }
@@ -1910,7 +1910,7 @@ export class DatazoneConnectionPropsGluePropertiesGlueConnectionInputPhysicalCon
   }
 
   // availability_zone - computed: true, optional: true, required: false
-  private _availabilityZone?: string;
+  private _availabilityZone?: string; 
   public get availabilityZone() {
     return this.getStringAttribute('availability_zone');
   }
@@ -1926,7 +1926,7 @@ export class DatazoneConnectionPropsGluePropertiesGlueConnectionInputPhysicalCon
   }
 
   // security_group_id_list - computed: true, optional: true, required: false
-  private _securityGroupIdList?: string[];
+  private _securityGroupIdList?: string[]; 
   public get securityGroupIdList() {
     return this.getListAttribute('security_group_id_list');
   }
@@ -1942,7 +1942,7 @@ export class DatazoneConnectionPropsGluePropertiesGlueConnectionInputPhysicalCon
   }
 
   // subnet_id - computed: true, optional: true, required: false
-  private _subnetId?: string;
+  private _subnetId?: string; 
   public get subnetId() {
     return this.getStringAttribute('subnet_id');
   }
@@ -1958,7 +1958,7 @@ export class DatazoneConnectionPropsGluePropertiesGlueConnectionInputPhysicalCon
   }
 
   // subnet_id_list - computed: true, optional: true, required: false
-  private _subnetIdList?: string[];
+  private _subnetIdList?: string[]; 
   public get subnetIdList() {
     return this.getListAttribute('subnet_id_list');
   }
@@ -2253,7 +2253,7 @@ export class DatazoneConnectionPropsGluePropertiesGlueConnectionInputOutputRefer
   }
 
   // athena_properties - computed: true, optional: true, required: false
-  private _athenaProperties?: { [key: string]: string };
+  private _athenaProperties?: { [key: string]: string }; 
   public get athenaProperties() {
     return this.getStringMapAttribute('athena_properties');
   }
@@ -2285,7 +2285,7 @@ export class DatazoneConnectionPropsGluePropertiesGlueConnectionInputOutputRefer
   }
 
   // connection_properties - computed: true, optional: true, required: false
-  private _connectionProperties?: { [key: string]: string };
+  private _connectionProperties?: { [key: string]: string }; 
   public get connectionProperties() {
     return this.getStringMapAttribute('connection_properties');
   }
@@ -2301,7 +2301,7 @@ export class DatazoneConnectionPropsGluePropertiesGlueConnectionInputOutputRefer
   }
 
   // connection_type - computed: true, optional: true, required: false
-  private _connectionType?: string;
+  private _connectionType?: string; 
   public get connectionType() {
     return this.getStringAttribute('connection_type');
   }
@@ -2317,7 +2317,7 @@ export class DatazoneConnectionPropsGluePropertiesGlueConnectionInputOutputRefer
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -2333,7 +2333,7 @@ export class DatazoneConnectionPropsGluePropertiesGlueConnectionInputOutputRefer
   }
 
   // match_criteria - computed: true, optional: true, required: false
-  private _matchCriteria?: string;
+  private _matchCriteria?: string; 
   public get matchCriteria() {
     return this.getStringAttribute('match_criteria');
   }
@@ -2349,7 +2349,7 @@ export class DatazoneConnectionPropsGluePropertiesGlueConnectionInputOutputRefer
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2381,7 +2381,7 @@ export class DatazoneConnectionPropsGluePropertiesGlueConnectionInputOutputRefer
   }
 
   // python_properties - computed: true, optional: true, required: false
-  private _pythonProperties?: { [key: string]: string };
+  private _pythonProperties?: { [key: string]: string }; 
   public get pythonProperties() {
     return this.getStringMapAttribute('python_properties');
   }
@@ -2397,7 +2397,7 @@ export class DatazoneConnectionPropsGluePropertiesGlueConnectionInputOutputRefer
   }
 
   // spark_properties - computed: true, optional: true, required: false
-  private _sparkProperties?: { [key: string]: string };
+  private _sparkProperties?: { [key: string]: string }; 
   public get sparkProperties() {
     return this.getStringMapAttribute('spark_properties');
   }
@@ -2413,7 +2413,7 @@ export class DatazoneConnectionPropsGluePropertiesGlueConnectionInputOutputRefer
   }
 
   // validate_credentials - computed: true, optional: true, required: false
-  private _validateCredentials?: boolean | cdktn.IResolvable;
+  private _validateCredentials?: boolean | cdktn.IResolvable; 
   public get validateCredentials() {
     return this.getBooleanAttribute('validate_credentials');
   }
@@ -2429,7 +2429,7 @@ export class DatazoneConnectionPropsGluePropertiesGlueConnectionInputOutputRefer
   }
 
   // validate_for_compute_environments - computed: true, optional: true, required: false
-  private _validateForComputeEnvironments?: string[];
+  private _validateForComputeEnvironments?: string[]; 
   public get validateForComputeEnvironments() {
     return this.getListAttribute('validate_for_compute_environments');
   }
@@ -2619,7 +2619,7 @@ export class DatazoneConnectionPropsHyperPodPropertiesOutputReference extends cd
   }
 
   // cluster_name - computed: true, optional: true, required: false
-  private _clusterName?: string;
+  private _clusterName?: string; 
   public get clusterName() {
     return this.getStringAttribute('cluster_name');
   }
@@ -2713,7 +2713,7 @@ export class DatazoneConnectionPropsIamPropertiesOutputReference extends cdktn.C
   }
 
   // glue_lineage_sync_enabled - computed: true, optional: true, required: false
-  private _glueLineageSyncEnabled?: boolean | cdktn.IResolvable;
+  private _glueLineageSyncEnabled?: boolean | cdktn.IResolvable; 
   public get glueLineageSyncEnabled() {
     return this.getBooleanAttribute('glue_lineage_sync_enabled');
   }
@@ -2809,7 +2809,7 @@ export class DatazoneConnectionPropsLakehousePropertiesOutputReference extends c
   }
 
   // glue_lineage_sync_enabled - computed: true, optional: true, required: false
-  private _glueLineageSyncEnabled?: boolean | cdktn.IResolvable;
+  private _glueLineageSyncEnabled?: boolean | cdktn.IResolvable; 
   public get glueLineageSyncEnabled() {
     return this.getBooleanAttribute('glue_lineage_sync_enabled');
   }
@@ -2905,7 +2905,7 @@ export class DatazoneConnectionPropsMlflowPropertiesOutputReference extends cdkt
   }
 
   // tracking_server_arn - computed: true, optional: true, required: false
-  private _trackingServerArn?: string;
+  private _trackingServerArn?: string; 
   public get trackingServerArn() {
     return this.getStringAttribute('tracking_server_arn');
   }
@@ -3016,7 +3016,7 @@ export class DatazoneConnectionPropsRedshiftPropertiesCredentialsUsernamePasswor
   }
 
   // password - computed: true, optional: true, required: false
-  private _password?: string;
+  private _password?: string; 
   public get password() {
     return this.getStringAttribute('password');
   }
@@ -3032,7 +3032,7 @@ export class DatazoneConnectionPropsRedshiftPropertiesCredentialsUsernamePasswor
   }
 
   // username - computed: true, optional: true, required: false
-  private _username?: string;
+  private _username?: string; 
   public get username() {
     return this.getStringAttribute('username');
   }
@@ -3145,7 +3145,7 @@ export class DatazoneConnectionPropsRedshiftPropertiesCredentialsOutputReference
   }
 
   // secret_arn - computed: true, optional: true, required: false
-  private _secretArn?: string;
+  private _secretArn?: string; 
   public get secretArn() {
     return this.getStringAttribute('secret_arn');
   }
@@ -3255,7 +3255,7 @@ export class DatazoneConnectionPropsRedshiftPropertiesLineageSyncScheduleOutputR
   }
 
   // schedule - computed: true, optional: true, required: false
-  private _schedule?: string;
+  private _schedule?: string; 
   public get schedule() {
     return this.getStringAttribute('schedule');
   }
@@ -3368,7 +3368,7 @@ export class DatazoneConnectionPropsRedshiftPropertiesLineageSyncOutputReference
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -3495,7 +3495,7 @@ export class DatazoneConnectionPropsRedshiftPropertiesStorageOutputReference ext
   }
 
   // cluster_name - computed: true, optional: true, required: false
-  private _clusterName?: string;
+  private _clusterName?: string; 
   public get clusterName() {
     return this.getStringAttribute('cluster_name');
   }
@@ -3511,7 +3511,7 @@ export class DatazoneConnectionPropsRedshiftPropertiesStorageOutputReference ext
   }
 
   // workgroup_name - computed: true, optional: true, required: false
-  private _workgroupName?: string;
+  private _workgroupName?: string; 
   public get workgroupName() {
     return this.getStringAttribute('workgroup_name');
   }
@@ -3708,7 +3708,7 @@ export class DatazoneConnectionPropsRedshiftPropertiesOutputReference extends cd
   }
 
   // database_name - computed: true, optional: true, required: false
-  private _databaseName?: string;
+  private _databaseName?: string; 
   public get databaseName() {
     return this.getStringAttribute('database_name');
   }
@@ -3724,7 +3724,7 @@ export class DatazoneConnectionPropsRedshiftPropertiesOutputReference extends cd
   }
 
   // host - computed: true, optional: true, required: false
-  private _host?: string;
+  private _host?: string; 
   public get host() {
     return this.getStringAttribute('host');
   }
@@ -3756,7 +3756,7 @@ export class DatazoneConnectionPropsRedshiftPropertiesOutputReference extends cd
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -3906,7 +3906,7 @@ export class DatazoneConnectionPropsS3PropertiesOutputReference extends cdktn.Co
   }
 
   // register_s3_access_grant_location - computed: true, optional: true, required: false
-  private _registerS3AccessGrantLocation?: boolean | cdktn.IResolvable;
+  private _registerS3AccessGrantLocation?: boolean | cdktn.IResolvable; 
   public get registerS3AccessGrantLocation() {
     return this.getBooleanAttribute('register_s3_access_grant_location');
   }
@@ -3922,7 +3922,7 @@ export class DatazoneConnectionPropsS3PropertiesOutputReference extends cdktn.Co
   }
 
   // s3_access_grant_location_id - computed: true, optional: true, required: false
-  private _s3AccessGrantLocationId?: string;
+  private _s3AccessGrantLocationId?: string; 
   public get s3AccessGrantLocationId() {
     return this.getStringAttribute('s3_access_grant_location_id');
   }
@@ -3938,7 +3938,7 @@ export class DatazoneConnectionPropsS3PropertiesOutputReference extends cdktn.Co
   }
 
   // s3_uri - computed: true, optional: true, required: false
-  private _s3Uri?: string;
+  private _s3Uri?: string; 
   public get s3Uri() {
     return this.getStringAttribute('s3_uri');
   }
@@ -4151,7 +4151,7 @@ export class DatazoneConnectionPropsSparkEmrPropertiesOutputReference extends cd
   }
 
   // compute_arn - computed: true, optional: true, required: false
-  private _computeArn?: string;
+  private _computeArn?: string; 
   public get computeArn() {
     return this.getStringAttribute('compute_arn');
   }
@@ -4167,7 +4167,7 @@ export class DatazoneConnectionPropsSparkEmrPropertiesOutputReference extends cd
   }
 
   // instance_profile_arn - computed: true, optional: true, required: false
-  private _instanceProfileArn?: string;
+  private _instanceProfileArn?: string; 
   public get instanceProfileArn() {
     return this.getStringAttribute('instance_profile_arn');
   }
@@ -4183,7 +4183,7 @@ export class DatazoneConnectionPropsSparkEmrPropertiesOutputReference extends cd
   }
 
   // java_virtual_env - computed: true, optional: true, required: false
-  private _javaVirtualEnv?: string;
+  private _javaVirtualEnv?: string; 
   public get javaVirtualEnv() {
     return this.getStringAttribute('java_virtual_env');
   }
@@ -4199,7 +4199,7 @@ export class DatazoneConnectionPropsSparkEmrPropertiesOutputReference extends cd
   }
 
   // log_uri - computed: true, optional: true, required: false
-  private _logUri?: string;
+  private _logUri?: string; 
   public get logUri() {
     return this.getStringAttribute('log_uri');
   }
@@ -4215,7 +4215,7 @@ export class DatazoneConnectionPropsSparkEmrPropertiesOutputReference extends cd
   }
 
   // managed_endpoint_arn - computed: true, optional: true, required: false
-  private _managedEndpointArn?: string;
+  private _managedEndpointArn?: string; 
   public get managedEndpointArn() {
     return this.getStringAttribute('managed_endpoint_arn');
   }
@@ -4231,7 +4231,7 @@ export class DatazoneConnectionPropsSparkEmrPropertiesOutputReference extends cd
   }
 
   // python_virtual_env - computed: true, optional: true, required: false
-  private _pythonVirtualEnv?: string;
+  private _pythonVirtualEnv?: string; 
   public get pythonVirtualEnv() {
     return this.getStringAttribute('python_virtual_env');
   }
@@ -4247,7 +4247,7 @@ export class DatazoneConnectionPropsSparkEmrPropertiesOutputReference extends cd
   }
 
   // runtime_role - computed: true, optional: true, required: false
-  private _runtimeRole?: string;
+  private _runtimeRole?: string; 
   public get runtimeRole() {
     return this.getStringAttribute('runtime_role');
   }
@@ -4263,7 +4263,7 @@ export class DatazoneConnectionPropsSparkEmrPropertiesOutputReference extends cd
   }
 
   // trusted_certificates_s3_uri - computed: true, optional: true, required: false
-  private _trustedCertificatesS3Uri?: string;
+  private _trustedCertificatesS3Uri?: string; 
   public get trustedCertificatesS3Uri() {
     return this.getStringAttribute('trusted_certificates_s3_uri');
   }
@@ -4357,7 +4357,7 @@ export class DatazoneConnectionPropsSparkGluePropertiesAdditionalArgsOutputRefer
   }
 
   // connection - computed: true, optional: true, required: false
-  private _connection?: string;
+  private _connection?: string; 
   public get connection() {
     return this.getStringAttribute('connection');
   }
@@ -4588,7 +4588,7 @@ export class DatazoneConnectionPropsSparkGluePropertiesOutputReference extends c
   }
 
   // glue_connection_name - computed: true, optional: true, required: false
-  private _glueConnectionName?: string;
+  private _glueConnectionName?: string; 
   public get glueConnectionName() {
     return this.getStringAttribute('glue_connection_name');
   }
@@ -4604,7 +4604,7 @@ export class DatazoneConnectionPropsSparkGluePropertiesOutputReference extends c
   }
 
   // glue_version - computed: true, optional: true, required: false
-  private _glueVersion?: string;
+  private _glueVersion?: string; 
   public get glueVersion() {
     return this.getStringAttribute('glue_version');
   }
@@ -4620,7 +4620,7 @@ export class DatazoneConnectionPropsSparkGluePropertiesOutputReference extends c
   }
 
   // idle_timeout - computed: true, optional: true, required: false
-  private _idleTimeout?: number;
+  private _idleTimeout?: number; 
   public get idleTimeout() {
     return this.getNumberAttribute('idle_timeout');
   }
@@ -4636,7 +4636,7 @@ export class DatazoneConnectionPropsSparkGluePropertiesOutputReference extends c
   }
 
   // java_virtual_env - computed: true, optional: true, required: false
-  private _javaVirtualEnv?: string;
+  private _javaVirtualEnv?: string; 
   public get javaVirtualEnv() {
     return this.getStringAttribute('java_virtual_env');
   }
@@ -4652,7 +4652,7 @@ export class DatazoneConnectionPropsSparkGluePropertiesOutputReference extends c
   }
 
   // number_of_workers - computed: true, optional: true, required: false
-  private _numberOfWorkers?: number;
+  private _numberOfWorkers?: number; 
   public get numberOfWorkers() {
     return this.getNumberAttribute('number_of_workers');
   }
@@ -4668,7 +4668,7 @@ export class DatazoneConnectionPropsSparkGluePropertiesOutputReference extends c
   }
 
   // python_virtual_env - computed: true, optional: true, required: false
-  private _pythonVirtualEnv?: string;
+  private _pythonVirtualEnv?: string; 
   public get pythonVirtualEnv() {
     return this.getStringAttribute('python_virtual_env');
   }
@@ -4684,7 +4684,7 @@ export class DatazoneConnectionPropsSparkGluePropertiesOutputReference extends c
   }
 
   // worker_type - computed: true, optional: true, required: false
-  private _workerType?: string;
+  private _workerType?: string; 
   public get workerType() {
     return this.getStringAttribute('worker_type');
   }
@@ -4780,7 +4780,7 @@ export class DatazoneConnectionPropsWorkflowsMwaaPropertiesOutputReference exten
   }
 
   // mwaa_environment_name - computed: true, optional: true, required: false
-  private _mwaaEnvironmentName?: string;
+  private _mwaaEnvironmentName?: string; 
   public get mwaaEnvironmentName() {
     return this.getStringAttribute('mwaa_environment_name');
   }
@@ -5296,7 +5296,7 @@ export class DatazoneConnectionPropsOutputReference extends cdktn.ComplexObject 
   }
 
   // workflows_serverless_properties - computed: true, optional: true, required: false
-  private _workflowsServerlessProperties?: string;
+  private _workflowsServerlessProperties?: string; 
   public get workflowsServerlessProperties() {
     return this.getStringAttribute('workflows_serverless_properties');
   }
@@ -5416,7 +5416,7 @@ export class DatazoneConnection extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -5437,7 +5437,7 @@ export class DatazoneConnection extends cdktn.TerraformResource {
   }
 
   // domain_identifier - computed: false, optional: false, required: true
-  private _domainIdentifier?: string;
+  private _domainIdentifier?: string; 
   public get domainIdentifier() {
     return this.getStringAttribute('domain_identifier');
   }
@@ -5455,7 +5455,7 @@ export class DatazoneConnection extends cdktn.TerraformResource {
   }
 
   // enable_trusted_identity_propagation - computed: true, optional: true, required: false
-  private _enableTrustedIdentityPropagation?: boolean | cdktn.IResolvable;
+  private _enableTrustedIdentityPropagation?: boolean | cdktn.IResolvable; 
   public get enableTrustedIdentityPropagation() {
     return this.getBooleanAttribute('enable_trusted_identity_propagation');
   }
@@ -5476,7 +5476,7 @@ export class DatazoneConnection extends cdktn.TerraformResource {
   }
 
   // environment_identifier - computed: true, optional: true, required: false
-  private _environmentIdentifier?: string;
+  private _environmentIdentifier?: string; 
   public get environmentIdentifier() {
     return this.getStringAttribute('environment_identifier');
   }
@@ -5502,7 +5502,7 @@ export class DatazoneConnection extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -5520,7 +5520,7 @@ export class DatazoneConnection extends cdktn.TerraformResource {
   }
 
   // project_identifier - computed: true, optional: true, required: false
-  private _projectIdentifier?: string;
+  private _projectIdentifier?: string; 
   public get projectIdentifier() {
     return this.getStringAttribute('project_identifier');
   }
@@ -5552,7 +5552,7 @@ export class DatazoneConnection extends cdktn.TerraformResource {
   }
 
   // scope - computed: true, optional: true, required: false
-  private _scope?: string;
+  private _scope?: string; 
   public get scope() {
     return this.getStringAttribute('scope');
   }

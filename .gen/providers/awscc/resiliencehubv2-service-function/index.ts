@@ -99,7 +99,7 @@ export class Resiliencehubv2ServiceFunction extends cdktn.TerraformResource {
   }
 
   // criticality - computed: false, optional: false, required: true
-  private _criticality?: string;
+  private _criticality?: string; 
   public get criticality() {
     return this.getStringAttribute('criticality');
   }
@@ -112,7 +112,7 @@ export class Resiliencehubv2ServiceFunction extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -133,7 +133,7 @@ export class Resiliencehubv2ServiceFunction extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -151,7 +151,7 @@ export class Resiliencehubv2ServiceFunction extends cdktn.TerraformResource {
   }
 
   // service_arn - computed: false, optional: false, required: true
-  private _serviceArn?: string;
+  private _serviceArn?: string; 
   public get serviceArn() {
     return this.getStringAttribute('service_arn');
   }

@@ -139,7 +139,7 @@ export class ComputeoptimizerRecommendationPreferencesExternalMetricsPreferenceO
   }
 
   // source - computed: false, optional: false, required: true
-  private _source?: string;
+  private _source?: string; 
   public get source() {
     return this.getStringAttribute('source');
   }
@@ -286,7 +286,7 @@ export class ComputeoptimizerRecommendationPreferencesPreferredResourceOutputRef
   }
 
   // exclude_list - computed: false, optional: true, required: false
-  private _excludeList?: string[];
+  private _excludeList?: string[]; 
   public get excludeList() {
     return cdktn.Fn.tolist(this.getListAttribute('exclude_list'));
   }
@@ -302,7 +302,7 @@ export class ComputeoptimizerRecommendationPreferencesPreferredResourceOutputRef
   }
 
   // include_list - computed: false, optional: true, required: false
-  private _includeList?: string[];
+  private _includeList?: string[]; 
   public get includeList() {
     return cdktn.Fn.tolist(this.getListAttribute('include_list'));
   }
@@ -318,7 +318,7 @@ export class ComputeoptimizerRecommendationPreferencesPreferredResourceOutputRef
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -448,7 +448,7 @@ export class ComputeoptimizerRecommendationPreferencesScopeOutputReference exten
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -461,7 +461,7 @@ export class ComputeoptimizerRecommendationPreferencesScopeOutputReference exten
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -591,7 +591,7 @@ export class ComputeoptimizerRecommendationPreferencesUtilizationPreferenceMetri
   }
 
   // headroom - computed: false, optional: false, required: true
-  private _headroom?: string;
+  private _headroom?: string; 
   public get headroom() {
     return this.getStringAttribute('headroom');
   }
@@ -604,7 +604,7 @@ export class ComputeoptimizerRecommendationPreferencesUtilizationPreferenceMetri
   }
 
   // threshold - computed: false, optional: true, required: false
-  private _threshold?: string;
+  private _threshold?: string; 
   public get threshold() {
     return this.getStringAttribute('threshold');
   }
@@ -739,7 +739,7 @@ export class ComputeoptimizerRecommendationPreferencesUtilizationPreferenceOutpu
   }
 
   // metric_name - computed: false, optional: false, required: true
-  private _metricName?: string;
+  private _metricName?: string; 
   public get metricName() {
     return this.getStringAttribute('metric_name');
   }
@@ -855,7 +855,7 @@ export class ComputeoptimizerRecommendationPreferences extends cdktn.TerraformRe
   // ==========
 
   // enhanced_infrastructure_metrics - computed: false, optional: true, required: false
-  private _enhancedInfrastructureMetrics?: string;
+  private _enhancedInfrastructureMetrics?: string; 
   public get enhancedInfrastructureMetrics() {
     return this.getStringAttribute('enhanced_infrastructure_metrics');
   }
@@ -876,7 +876,7 @@ export class ComputeoptimizerRecommendationPreferences extends cdktn.TerraformRe
   }
 
   // inferred_workload_types - computed: false, optional: true, required: false
-  private _inferredWorkloadTypes?: string;
+  private _inferredWorkloadTypes?: string; 
   public get inferredWorkloadTypes() {
     return this.getStringAttribute('inferred_workload_types');
   }
@@ -892,7 +892,7 @@ export class ComputeoptimizerRecommendationPreferences extends cdktn.TerraformRe
   }
 
   // look_back_period - computed: true, optional: true, required: false
-  private _lookBackPeriod?: string;
+  private _lookBackPeriod?: string; 
   public get lookBackPeriod() {
     return this.getStringAttribute('look_back_period');
   }
@@ -908,7 +908,7 @@ export class ComputeoptimizerRecommendationPreferences extends cdktn.TerraformRe
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -924,7 +924,7 @@ export class ComputeoptimizerRecommendationPreferences extends cdktn.TerraformRe
   }
 
   // resource_type - computed: false, optional: false, required: true
-  private _resourceType?: string;
+  private _resourceType?: string; 
   public get resourceType() {
     return this.getStringAttribute('resource_type');
   }
@@ -937,7 +937,7 @@ export class ComputeoptimizerRecommendationPreferences extends cdktn.TerraformRe
   }
 
   // savings_estimation_mode - computed: false, optional: true, required: false
-  private _savingsEstimationMode?: string;
+  private _savingsEstimationMode?: string; 
   public get savingsEstimationMode() {
     return this.getStringAttribute('savings_estimation_mode');
   }

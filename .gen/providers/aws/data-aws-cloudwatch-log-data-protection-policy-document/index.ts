@@ -137,7 +137,7 @@ export class DataAwsCloudwatchLogDataProtectionPolicyDocumentConfigurationCustom
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -150,7 +150,7 @@ export class DataAwsCloudwatchLogDataProtectionPolicyDocumentConfigurationCustom
   }
 
   // regex - computed: false, optional: false, required: true
-  private _regex?: string;
+  private _regex?: string; 
   public get regex() {
     return this.getStringAttribute('regex');
   }
@@ -337,7 +337,7 @@ export class DataAwsCloudwatchLogDataProtectionPolicyDocumentStatementOperationA
   }
 
   // log_group - computed: false, optional: false, required: true
-  private _logGroup?: string;
+  private _logGroup?: string; 
   public get logGroup() {
     return this.getStringAttribute('log_group');
   }
@@ -418,7 +418,7 @@ export class DataAwsCloudwatchLogDataProtectionPolicyDocumentStatementOperationA
   }
 
   // delivery_stream - computed: false, optional: false, required: true
-  private _deliveryStream?: string;
+  private _deliveryStream?: string; 
   public get deliveryStream() {
     return this.getStringAttribute('delivery_stream');
   }
@@ -499,7 +499,7 @@ export class DataAwsCloudwatchLogDataProtectionPolicyDocumentStatementOperationA
   }
 
   // bucket - computed: false, optional: false, required: true
-  private _bucket?: string;
+  private _bucket?: string; 
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -1120,7 +1120,7 @@ export class DataAwsCloudwatchLogDataProtectionPolicyDocumentStatementOutputRefe
   }
 
   // data_identifiers - computed: false, optional: false, required: true
-  private _dataIdentifiers?: string[];
+  private _dataIdentifiers?: string[]; 
   public get dataIdentifiers() {
     return cdktn.Fn.tolist(this.getListAttribute('data_identifiers'));
   }
@@ -1133,7 +1133,7 @@ export class DataAwsCloudwatchLogDataProtectionPolicyDocumentStatementOutputRefe
   }
 
   // sid - computed: false, optional: true, required: false
-  private _sid?: string;
+  private _sid?: string; 
   public get sid() {
     return this.getStringAttribute('sid');
   }
@@ -1245,7 +1245,7 @@ export class DataAwsCloudwatchLogDataProtectionPolicyDocument extends cdktn.Terr
   // ==========
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1261,7 +1261,7 @@ export class DataAwsCloudwatchLogDataProtectionPolicyDocument extends cdktn.Terr
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -1282,7 +1282,7 @@ export class DataAwsCloudwatchLogDataProtectionPolicyDocument extends cdktn.Terr
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1295,7 +1295,7 @@ export class DataAwsCloudwatchLogDataProtectionPolicyDocument extends cdktn.Terr
   }
 
   // version - computed: false, optional: true, required: false
-  private _version?: string;
+  private _version?: string; 
   public get version() {
     return this.getStringAttribute('version');
   }

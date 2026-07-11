@@ -107,7 +107,7 @@ export class CognitoUserPoolDomainCustomDomainConfigOutputReference extends cdkt
   }
 
   // certificate_arn - computed: true, optional: true, required: false
-  private _certificateArn?: string;
+  private _certificateArn?: string; 
   public get certificateArn() {
     return this.getStringAttribute('certificate_arn');
   }
@@ -218,7 +218,7 @@ export class CognitoUserPoolDomainRoutingFailoverOutputReference extends cdktn.C
   }
 
   // primary_route_53_health_check_id - computed: true, optional: true, required: false
-  private _primaryRoute53HealthCheckId?: string;
+  private _primaryRoute53HealthCheckId?: string; 
   public get primaryRoute53HealthCheckId() {
     return this.getStringAttribute('primary_route_53_health_check_id');
   }
@@ -234,7 +234,7 @@ export class CognitoUserPoolDomainRoutingFailoverOutputReference extends cdktn.C
   }
 
   // secondary_region - computed: true, optional: true, required: false
-  private _secondaryRegion?: string;
+  private _secondaryRegion?: string; 
   public get secondaryRegion() {
     return this.getStringAttribute('secondary_region');
   }
@@ -427,7 +427,7 @@ export class CognitoUserPoolDomain extends cdktn.TerraformResource {
   }
 
   // domain - computed: false, optional: false, required: true
-  private _domain?: string;
+  private _domain?: string; 
   public get domain() {
     return this.getStringAttribute('domain');
   }
@@ -445,7 +445,7 @@ export class CognitoUserPoolDomain extends cdktn.TerraformResource {
   }
 
   // managed_login_version - computed: true, optional: true, required: false
-  private _managedLoginVersion?: number;
+  private _managedLoginVersion?: number; 
   public get managedLoginVersion() {
     return this.getNumberAttribute('managed_login_version');
   }
@@ -477,7 +477,7 @@ export class CognitoUserPoolDomain extends cdktn.TerraformResource {
   }
 
   // user_pool_id - computed: false, optional: false, required: true
-  private _userPoolId?: string;
+  private _userPoolId?: string; 
   public get userPoolId() {
     return this.getStringAttribute('user_pool_id');
   }

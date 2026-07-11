@@ -157,7 +157,7 @@ export class S3ControlMultiRegionAccessPointDetailsPublicAccessBlockOutputRefere
   }
 
   // block_public_acls - computed: false, optional: true, required: false
-  private _blockPublicAcls?: boolean | cdktn.IResolvable;
+  private _blockPublicAcls?: boolean | cdktn.IResolvable; 
   public get blockPublicAcls() {
     return this.getBooleanAttribute('block_public_acls');
   }
@@ -173,7 +173,7 @@ export class S3ControlMultiRegionAccessPointDetailsPublicAccessBlockOutputRefere
   }
 
   // block_public_policy - computed: false, optional: true, required: false
-  private _blockPublicPolicy?: boolean | cdktn.IResolvable;
+  private _blockPublicPolicy?: boolean | cdktn.IResolvable; 
   public get blockPublicPolicy() {
     return this.getBooleanAttribute('block_public_policy');
   }
@@ -189,7 +189,7 @@ export class S3ControlMultiRegionAccessPointDetailsPublicAccessBlockOutputRefere
   }
 
   // ignore_public_acls - computed: false, optional: true, required: false
-  private _ignorePublicAcls?: boolean | cdktn.IResolvable;
+  private _ignorePublicAcls?: boolean | cdktn.IResolvable; 
   public get ignorePublicAcls() {
     return this.getBooleanAttribute('ignore_public_acls');
   }
@@ -205,7 +205,7 @@ export class S3ControlMultiRegionAccessPointDetailsPublicAccessBlockOutputRefere
   }
 
   // restrict_public_buckets - computed: false, optional: true, required: false
-  private _restrictPublicBuckets?: boolean | cdktn.IResolvable;
+  private _restrictPublicBuckets?: boolean | cdktn.IResolvable; 
   public get restrictPublicBuckets() {
     return this.getBooleanAttribute('restrict_public_buckets');
   }
@@ -318,7 +318,7 @@ export class S3ControlMultiRegionAccessPointDetailsRegionOutputReference extends
   }
 
   // bucket - computed: false, optional: false, required: true
-  private _bucket?: string;
+  private _bucket?: string; 
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -331,7 +331,7 @@ export class S3ControlMultiRegionAccessPointDetailsRegionOutputReference extends
   }
 
   // bucket_account_id - computed: true, optional: true, required: false
-  private _bucketAccountId?: string;
+  private _bucketAccountId?: string; 
   public get bucketAccountId() {
     return this.getStringAttribute('bucket_account_id');
   }
@@ -478,7 +478,7 @@ export class S3ControlMultiRegionAccessPointDetailsOutputReference extends cdktn
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -615,7 +615,7 @@ export class S3ControlMultiRegionAccessPointTimeoutsOutputReference extends cdkt
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -631,7 +631,7 @@ export class S3ControlMultiRegionAccessPointTimeoutsOutputReference extends cdkt
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -709,7 +709,7 @@ export class S3ControlMultiRegionAccessPoint extends cdktn.TerraformResource {
   // ==========
 
   // account_id - computed: true, optional: true, required: false
-  private _accountId?: string;
+  private _accountId?: string; 
   public get accountId() {
     return this.getStringAttribute('account_id');
   }
@@ -740,7 +740,7 @@ export class S3ControlMultiRegionAccessPoint extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -761,7 +761,7 @@ export class S3ControlMultiRegionAccessPoint extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

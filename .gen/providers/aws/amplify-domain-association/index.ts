@@ -140,7 +140,7 @@ export class AmplifyDomainAssociationCertificateSettingsOutputReference extends 
   }
 
   // custom_certificate_arn - computed: false, optional: true, required: false
-  private _customCertificateArn?: string;
+  private _customCertificateArn?: string; 
   public get customCertificateArn() {
     return this.getStringAttribute('custom_certificate_arn');
   }
@@ -156,7 +156,7 @@ export class AmplifyDomainAssociationCertificateSettingsOutputReference extends 
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -266,7 +266,7 @@ export class AmplifyDomainAssociationSubDomainOutputReference extends cdktn.Comp
   }
 
   // branch_name - computed: false, optional: false, required: true
-  private _branchName?: string;
+  private _branchName?: string; 
   public get branchName() {
     return this.getStringAttribute('branch_name');
   }
@@ -284,7 +284,7 @@ export class AmplifyDomainAssociationSubDomainOutputReference extends cdktn.Comp
   }
 
   // prefix - computed: false, optional: false, required: true
-  private _prefix?: string;
+  private _prefix?: string; 
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -387,7 +387,7 @@ export class AmplifyDomainAssociation extends cdktn.TerraformResource {
   // ==========
 
   // app_id - computed: false, optional: false, required: true
-  private _appId?: string;
+  private _appId?: string; 
   public get appId() {
     return this.getStringAttribute('app_id');
   }
@@ -410,7 +410,7 @@ export class AmplifyDomainAssociation extends cdktn.TerraformResource {
   }
 
   // domain_name - computed: false, optional: false, required: true
-  private _domainName?: string;
+  private _domainName?: string; 
   public get domainName() {
     return this.getStringAttribute('domain_name');
   }
@@ -423,7 +423,7 @@ export class AmplifyDomainAssociation extends cdktn.TerraformResource {
   }
 
   // enable_auto_sub_domain - computed: false, optional: true, required: false
-  private _enableAutoSubDomain?: boolean | cdktn.IResolvable;
+  private _enableAutoSubDomain?: boolean | cdktn.IResolvable; 
   public get enableAutoSubDomain() {
     return this.getBooleanAttribute('enable_auto_sub_domain');
   }
@@ -439,7 +439,7 @@ export class AmplifyDomainAssociation extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -455,7 +455,7 @@ export class AmplifyDomainAssociation extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -471,7 +471,7 @@ export class AmplifyDomainAssociation extends cdktn.TerraformResource {
   }
 
   // wait_for_verification - computed: false, optional: true, required: false
-  private _waitForVerification?: boolean | cdktn.IResolvable;
+  private _waitForVerification?: boolean | cdktn.IResolvable; 
   public get waitForVerification() {
     return this.getBooleanAttribute('wait_for_verification');
   }

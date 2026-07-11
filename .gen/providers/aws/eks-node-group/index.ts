@@ -385,7 +385,7 @@ export class EksNodeGroupLaunchTemplateOutputReference extends cdktn.ComplexObje
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -401,7 +401,7 @@ export class EksNodeGroupLaunchTemplateOutputReference extends cdktn.ComplexObje
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -417,7 +417,7 @@ export class EksNodeGroupLaunchTemplateOutputReference extends cdktn.ComplexObje
   }
 
   // version - computed: false, optional: false, required: true
-  private _version?: string;
+  private _version?: string; 
   public get version() {
     return this.getStringAttribute('version');
   }
@@ -561,7 +561,7 @@ export class EksNodeGroupNodeRepairConfigNodeRepairConfigOverridesOutputReferenc
   }
 
   // min_repair_wait_time_mins - computed: false, optional: false, required: true
-  private _minRepairWaitTimeMins?: number;
+  private _minRepairWaitTimeMins?: number; 
   public get minRepairWaitTimeMins() {
     return this.getNumberAttribute('min_repair_wait_time_mins');
   }
@@ -574,7 +574,7 @@ export class EksNodeGroupNodeRepairConfigNodeRepairConfigOverridesOutputReferenc
   }
 
   // node_monitoring_condition - computed: false, optional: false, required: true
-  private _nodeMonitoringCondition?: string;
+  private _nodeMonitoringCondition?: string; 
   public get nodeMonitoringCondition() {
     return this.getStringAttribute('node_monitoring_condition');
   }
@@ -587,7 +587,7 @@ export class EksNodeGroupNodeRepairConfigNodeRepairConfigOverridesOutputReferenc
   }
 
   // node_unhealthy_reason - computed: false, optional: false, required: true
-  private _nodeUnhealthyReason?: string;
+  private _nodeUnhealthyReason?: string; 
   public get nodeUnhealthyReason() {
     return this.getStringAttribute('node_unhealthy_reason');
   }
@@ -600,7 +600,7 @@ export class EksNodeGroupNodeRepairConfigNodeRepairConfigOverridesOutputReferenc
   }
 
   // repair_action - computed: false, optional: false, required: true
-  private _repairAction?: string;
+  private _repairAction?: string; 
   public get repairAction() {
     return this.getStringAttribute('repair_action');
   }
@@ -788,7 +788,7 @@ export class EksNodeGroupNodeRepairConfigOutputReference extends cdktn.ComplexOb
   }
 
   // enabled - computed: false, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -804,7 +804,7 @@ export class EksNodeGroupNodeRepairConfigOutputReference extends cdktn.ComplexOb
   }
 
   // max_parallel_nodes_repaired_count - computed: false, optional: true, required: false
-  private _maxParallelNodesRepairedCount?: number;
+  private _maxParallelNodesRepairedCount?: number; 
   public get maxParallelNodesRepairedCount() {
     return this.getNumberAttribute('max_parallel_nodes_repaired_count');
   }
@@ -820,7 +820,7 @@ export class EksNodeGroupNodeRepairConfigOutputReference extends cdktn.ComplexOb
   }
 
   // max_parallel_nodes_repaired_percentage - computed: false, optional: true, required: false
-  private _maxParallelNodesRepairedPercentage?: number;
+  private _maxParallelNodesRepairedPercentage?: number; 
   public get maxParallelNodesRepairedPercentage() {
     return this.getNumberAttribute('max_parallel_nodes_repaired_percentage');
   }
@@ -836,7 +836,7 @@ export class EksNodeGroupNodeRepairConfigOutputReference extends cdktn.ComplexOb
   }
 
   // max_unhealthy_node_threshold_count - computed: false, optional: true, required: false
-  private _maxUnhealthyNodeThresholdCount?: number;
+  private _maxUnhealthyNodeThresholdCount?: number; 
   public get maxUnhealthyNodeThresholdCount() {
     return this.getNumberAttribute('max_unhealthy_node_threshold_count');
   }
@@ -852,7 +852,7 @@ export class EksNodeGroupNodeRepairConfigOutputReference extends cdktn.ComplexOb
   }
 
   // max_unhealthy_node_threshold_percentage - computed: false, optional: true, required: false
-  private _maxUnhealthyNodeThresholdPercentage?: number;
+  private _maxUnhealthyNodeThresholdPercentage?: number; 
   public get maxUnhealthyNodeThresholdPercentage() {
     return this.getNumberAttribute('max_unhealthy_node_threshold_percentage');
   }
@@ -969,7 +969,7 @@ export class EksNodeGroupRemoteAccessOutputReference extends cdktn.ComplexObject
   }
 
   // ec2_ssh_key - computed: false, optional: true, required: false
-  private _ec2SshKey?: string;
+  private _ec2SshKey?: string; 
   public get ec2SshKey() {
     return this.getStringAttribute('ec2_ssh_key');
   }
@@ -985,7 +985,7 @@ export class EksNodeGroupRemoteAccessOutputReference extends cdktn.ComplexObject
   }
 
   // source_security_group_ids - computed: false, optional: true, required: false
-  private _sourceSecurityGroupIds?: string[];
+  private _sourceSecurityGroupIds?: string[]; 
   public get sourceSecurityGroupIds() {
     return cdktn.Fn.tolist(this.getListAttribute('source_security_group_ids'));
   }
@@ -1103,7 +1103,7 @@ export class EksNodeGroupScalingConfigOutputReference extends cdktn.ComplexObjec
   }
 
   // desired_size - computed: false, optional: false, required: true
-  private _desiredSize?: number;
+  private _desiredSize?: number; 
   public get desiredSize() {
     return this.getNumberAttribute('desired_size');
   }
@@ -1116,7 +1116,7 @@ export class EksNodeGroupScalingConfigOutputReference extends cdktn.ComplexObjec
   }
 
   // max_size - computed: false, optional: false, required: true
-  private _maxSize?: number;
+  private _maxSize?: number; 
   public get maxSize() {
     return this.getNumberAttribute('max_size');
   }
@@ -1129,7 +1129,7 @@ export class EksNodeGroupScalingConfigOutputReference extends cdktn.ComplexObjec
   }
 
   // min_size - computed: false, optional: false, required: true
-  private _minSize?: number;
+  private _minSize?: number; 
   public get minSize() {
     return this.getNumberAttribute('min_size');
   }
@@ -1256,7 +1256,7 @@ export class EksNodeGroupTaintOutputReference extends cdktn.ComplexObject {
   }
 
   // effect - computed: false, optional: false, required: true
-  private _effect?: string;
+  private _effect?: string; 
   public get effect() {
     return this.getStringAttribute('effect');
   }
@@ -1269,7 +1269,7 @@ export class EksNodeGroupTaintOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1282,7 +1282,7 @@ export class EksNodeGroupTaintOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: false, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1430,7 +1430,7 @@ export class EksNodeGroupTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -1446,7 +1446,7 @@ export class EksNodeGroupTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -1462,7 +1462,7 @@ export class EksNodeGroupTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -1580,7 +1580,7 @@ export class EksNodeGroupUpdateConfigOutputReference extends cdktn.ComplexObject
   }
 
   // max_unavailable - computed: false, optional: true, required: false
-  private _maxUnavailable?: number;
+  private _maxUnavailable?: number; 
   public get maxUnavailable() {
     return this.getNumberAttribute('max_unavailable');
   }
@@ -1596,7 +1596,7 @@ export class EksNodeGroupUpdateConfigOutputReference extends cdktn.ComplexObject
   }
 
   // max_unavailable_percentage - computed: false, optional: true, required: false
-  private _maxUnavailablePercentage?: number;
+  private _maxUnavailablePercentage?: number; 
   public get maxUnavailablePercentage() {
     return this.getNumberAttribute('max_unavailable_percentage');
   }
@@ -1612,7 +1612,7 @@ export class EksNodeGroupUpdateConfigOutputReference extends cdktn.ComplexObject
   }
 
   // update_strategy - computed: false, optional: true, required: false
-  private _updateStrategy?: string;
+  private _updateStrategy?: string; 
   public get updateStrategy() {
     return this.getStringAttribute('update_strategy');
   }
@@ -1709,7 +1709,7 @@ export class EksNodeGroup extends cdktn.TerraformResource {
   // ==========
 
   // ami_type - computed: true, optional: true, required: false
-  private _amiType?: string;
+  private _amiType?: string; 
   public get amiType() {
     return this.getStringAttribute('ami_type');
   }
@@ -1730,7 +1730,7 @@ export class EksNodeGroup extends cdktn.TerraformResource {
   }
 
   // capacity_type - computed: true, optional: true, required: false
-  private _capacityType?: string;
+  private _capacityType?: string; 
   public get capacityType() {
     return this.getStringAttribute('capacity_type');
   }
@@ -1746,7 +1746,7 @@ export class EksNodeGroup extends cdktn.TerraformResource {
   }
 
   // cluster_name - computed: false, optional: false, required: true
-  private _clusterName?: string;
+  private _clusterName?: string; 
   public get clusterName() {
     return this.getStringAttribute('cluster_name');
   }
@@ -1759,7 +1759,7 @@ export class EksNodeGroup extends cdktn.TerraformResource {
   }
 
   // disk_size - computed: true, optional: true, required: false
-  private _diskSize?: number;
+  private _diskSize?: number; 
   public get diskSize() {
     return this.getNumberAttribute('disk_size');
   }
@@ -1775,7 +1775,7 @@ export class EksNodeGroup extends cdktn.TerraformResource {
   }
 
   // force_update_version - computed: false, optional: true, required: false
-  private _forceUpdateVersion?: boolean | cdktn.IResolvable;
+  private _forceUpdateVersion?: boolean | cdktn.IResolvable; 
   public get forceUpdateVersion() {
     return this.getBooleanAttribute('force_update_version');
   }
@@ -1791,7 +1791,7 @@ export class EksNodeGroup extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -1807,7 +1807,7 @@ export class EksNodeGroup extends cdktn.TerraformResource {
   }
 
   // instance_types - computed: true, optional: true, required: false
-  private _instanceTypes?: string[];
+  private _instanceTypes?: string[]; 
   public get instanceTypes() {
     return this.getListAttribute('instance_types');
   }
@@ -1823,7 +1823,7 @@ export class EksNodeGroup extends cdktn.TerraformResource {
   }
 
   // labels - computed: false, optional: true, required: false
-  private _labels?: { [key: string]: string };
+  private _labels?: { [key: string]: string }; 
   public get labels() {
     return this.getStringMapAttribute('labels');
   }
@@ -1839,7 +1839,7 @@ export class EksNodeGroup extends cdktn.TerraformResource {
   }
 
   // node_group_name - computed: true, optional: true, required: false
-  private _nodeGroupName?: string;
+  private _nodeGroupName?: string; 
   public get nodeGroupName() {
     return this.getStringAttribute('node_group_name');
   }
@@ -1855,7 +1855,7 @@ export class EksNodeGroup extends cdktn.TerraformResource {
   }
 
   // node_group_name_prefix - computed: true, optional: true, required: false
-  private _nodeGroupNamePrefix?: string;
+  private _nodeGroupNamePrefix?: string; 
   public get nodeGroupNamePrefix() {
     return this.getStringAttribute('node_group_name_prefix');
   }
@@ -1871,7 +1871,7 @@ export class EksNodeGroup extends cdktn.TerraformResource {
   }
 
   // node_role_arn - computed: false, optional: false, required: true
-  private _nodeRoleArn?: string;
+  private _nodeRoleArn?: string; 
   public get nodeRoleArn() {
     return this.getStringAttribute('node_role_arn');
   }
@@ -1884,7 +1884,7 @@ export class EksNodeGroup extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1900,7 +1900,7 @@ export class EksNodeGroup extends cdktn.TerraformResource {
   }
 
   // release_version - computed: true, optional: true, required: false
-  private _releaseVersion?: string;
+  private _releaseVersion?: string; 
   public get releaseVersion() {
     return this.getStringAttribute('release_version');
   }
@@ -1927,7 +1927,7 @@ export class EksNodeGroup extends cdktn.TerraformResource {
   }
 
   // subnet_ids - computed: false, optional: false, required: true
-  private _subnetIds?: string[];
+  private _subnetIds?: string[]; 
   public get subnetIds() {
     return cdktn.Fn.tolist(this.getListAttribute('subnet_ids'));
   }
@@ -1940,7 +1940,7 @@ export class EksNodeGroup extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -1956,7 +1956,7 @@ export class EksNodeGroup extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -1972,7 +1972,7 @@ export class EksNodeGroup extends cdktn.TerraformResource {
   }
 
   // version - computed: true, optional: true, required: false
-  private _version?: string;
+  private _version?: string; 
   public get version() {
     return this.getStringAttribute('version');
   }

@@ -320,7 +320,7 @@ export class NetworkfirewallTlsInspectionConfigurationEncryptionConfigurationOut
   }
 
   // key_id - computed: true, optional: true, required: false
-  private _keyId?: string;
+  private _keyId?: string; 
   public get keyId() {
     return this.getStringAttribute('key_id');
   }
@@ -336,7 +336,7 @@ export class NetworkfirewallTlsInspectionConfigurationEncryptionConfigurationOut
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -490,7 +490,7 @@ export class NetworkfirewallTlsInspectionConfigurationTimeoutsOutputReference ex
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -506,7 +506,7 @@ export class NetworkfirewallTlsInspectionConfigurationTimeoutsOutputReference ex
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -522,7 +522,7 @@ export class NetworkfirewallTlsInspectionConfigurationTimeoutsOutputReference ex
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -635,7 +635,7 @@ export class NetworkfirewallTlsInspectionConfigurationTlsInspectionConfiguration
   }
 
   // revoked_status_action - computed: false, optional: true, required: false
-  private _revokedStatusAction?: string;
+  private _revokedStatusAction?: string; 
   public get revokedStatusAction() {
     return this.getStringAttribute('revoked_status_action');
   }
@@ -651,7 +651,7 @@ export class NetworkfirewallTlsInspectionConfigurationTlsInspectionConfiguration
   }
 
   // unknown_status_action - computed: false, optional: true, required: false
-  private _unknownStatusAction?: string;
+  private _unknownStatusAction?: string; 
   public get unknownStatusAction() {
     return this.getStringAttribute('unknown_status_action');
   }
@@ -767,7 +767,7 @@ export class NetworkfirewallTlsInspectionConfigurationTlsInspectionConfiguration
   }
 
   // address_definition - computed: false, optional: false, required: true
-  private _addressDefinition?: string;
+  private _addressDefinition?: string; 
   public get addressDefinition() {
     return this.getStringAttribute('address_definition');
   }
@@ -897,7 +897,7 @@ export class NetworkfirewallTlsInspectionConfigurationTlsInspectionConfiguration
   }
 
   // from_port - computed: false, optional: false, required: true
-  private _fromPort?: number;
+  private _fromPort?: number; 
   public get fromPort() {
     return this.getNumberAttribute('from_port');
   }
@@ -910,7 +910,7 @@ export class NetworkfirewallTlsInspectionConfigurationTlsInspectionConfiguration
   }
 
   // to_port - computed: false, optional: false, required: true
-  private _toPort?: number;
+  private _toPort?: number; 
   public get toPort() {
     return this.getNumberAttribute('to_port');
   }
@@ -1023,7 +1023,7 @@ export class NetworkfirewallTlsInspectionConfigurationTlsInspectionConfiguration
   }
 
   // address_definition - computed: false, optional: false, required: true
-  private _addressDefinition?: string;
+  private _addressDefinition?: string; 
   public get addressDefinition() {
     return this.getStringAttribute('address_definition');
   }
@@ -1153,7 +1153,7 @@ export class NetworkfirewallTlsInspectionConfigurationTlsInspectionConfiguration
   }
 
   // from_port - computed: false, optional: false, required: true
-  private _fromPort?: number;
+  private _fromPort?: number; 
   public get fromPort() {
     return this.getNumberAttribute('from_port');
   }
@@ -1166,7 +1166,7 @@ export class NetworkfirewallTlsInspectionConfigurationTlsInspectionConfiguration
   }
 
   // to_port - computed: false, optional: false, required: true
-  private _toPort?: number;
+  private _toPort?: number; 
   public get toPort() {
     return this.getNumberAttribute('to_port');
   }
@@ -1355,7 +1355,7 @@ export class NetworkfirewallTlsInspectionConfigurationTlsInspectionConfiguration
   }
 
   // protocols - computed: false, optional: false, required: true
-  private _protocols?: number[];
+  private _protocols?: number[]; 
   public get protocols() {
     return cdktn.Token.asNumberList(cdktn.Fn.tolist(this.getNumberListAttribute('protocols')));
   }
@@ -1532,7 +1532,7 @@ export class NetworkfirewallTlsInspectionConfigurationTlsInspectionConfiguration
   }
 
   // resource_arn - computed: false, optional: true, required: false
-  private _resourceArn?: string;
+  private _resourceArn?: string; 
   public get resourceArn() {
     return this.getStringAttribute('resource_arn');
   }
@@ -1705,7 +1705,7 @@ export class NetworkfirewallTlsInspectionConfigurationTlsInspectionConfiguration
   }
 
   // certificate_authority_arn - computed: false, optional: true, required: false
-  private _certificateAuthorityArn?: string;
+  private _certificateAuthorityArn?: string; 
   public get certificateAuthorityArn() {
     return this.getStringAttribute('certificate_authority_arn');
   }
@@ -1988,7 +1988,7 @@ export class NetworkfirewallTlsInspectionConfiguration extends cdktn.TerraformRe
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -2025,7 +2025,7 @@ export class NetworkfirewallTlsInspectionConfiguration extends cdktn.TerraformRe
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2043,7 +2043,7 @@ export class NetworkfirewallTlsInspectionConfiguration extends cdktn.TerraformRe
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -2059,7 +2059,7 @@ export class NetworkfirewallTlsInspectionConfiguration extends cdktn.TerraformRe
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

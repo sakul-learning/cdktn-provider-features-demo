@@ -27,7 +27,7 @@ export interface LogsLogGroupConfig extends cdktn.TerraformMetaArguments {
   * Specifies the log group class for this log group. There are two classes:
   *   +  The ``Standard`` log class supports all CWL features.
   *   +  The ``Infrequent Access`` log class supports a subset of CWL features and incurs lower costs.
-  *
+  *   
   *  For details about the features supported by each class, see [Log classes](https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/CloudWatch_Logs_Log_Classes.html)
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/logs_log_group#log_group_class LogsLogGroup#log_group_class}
@@ -152,7 +152,7 @@ export class LogsLogGroupTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -168,7 +168,7 @@ export class LogsLogGroupTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -272,7 +272,7 @@ export class LogsLogGroup extends cdktn.TerraformResource {
   }
 
   // data_protection_policy - computed: true, optional: true, required: false
-  private _dataProtectionPolicy?: string;
+  private _dataProtectionPolicy?: string; 
   public get dataProtectionPolicy() {
     return this.getStringAttribute('data_protection_policy');
   }
@@ -293,7 +293,7 @@ export class LogsLogGroup extends cdktn.TerraformResource {
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -309,7 +309,7 @@ export class LogsLogGroup extends cdktn.TerraformResource {
   }
 
   // log_group_class - computed: true, optional: true, required: false
-  private _logGroupClass?: string;
+  private _logGroupClass?: string; 
   public get logGroupClass() {
     return this.getStringAttribute('log_group_class');
   }
@@ -325,7 +325,7 @@ export class LogsLogGroup extends cdktn.TerraformResource {
   }
 
   // log_group_name - computed: true, optional: true, required: false
-  private _logGroupName?: string;
+  private _logGroupName?: string; 
   public get logGroupName() {
     return this.getStringAttribute('log_group_name');
   }
@@ -341,7 +341,7 @@ export class LogsLogGroup extends cdktn.TerraformResource {
   }
 
   // retention_in_days - computed: true, optional: true, required: false
-  private _retentionInDays?: number;
+  private _retentionInDays?: number; 
   public get retentionInDays() {
     return this.getNumberAttribute('retention_in_days');
   }

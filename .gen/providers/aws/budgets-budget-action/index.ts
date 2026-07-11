@@ -157,7 +157,7 @@ export class BudgetsBudgetActionActionThresholdOutputReference extends cdktn.Com
   }
 
   // action_threshold_type - computed: false, optional: false, required: true
-  private _actionThresholdType?: string;
+  private _actionThresholdType?: string; 
   public get actionThresholdType() {
     return this.getStringAttribute('action_threshold_type');
   }
@@ -170,7 +170,7 @@ export class BudgetsBudgetActionActionThresholdOutputReference extends cdktn.Com
   }
 
   // action_threshold_value - computed: false, optional: false, required: true
-  private _actionThresholdValue?: number;
+  private _actionThresholdValue?: number; 
   public get actionThresholdValue() {
     return this.getNumberAttribute('action_threshold_value');
   }
@@ -302,7 +302,7 @@ export class BudgetsBudgetActionDefinitionIamActionDefinitionOutputReference ext
   }
 
   // groups - computed: false, optional: true, required: false
-  private _groups?: string[];
+  private _groups?: string[]; 
   public get groups() {
     return cdktn.Fn.tolist(this.getListAttribute('groups'));
   }
@@ -318,7 +318,7 @@ export class BudgetsBudgetActionDefinitionIamActionDefinitionOutputReference ext
   }
 
   // policy_arn - computed: false, optional: false, required: true
-  private _policyArn?: string;
+  private _policyArn?: string; 
   public get policyArn() {
     return this.getStringAttribute('policy_arn');
   }
@@ -331,7 +331,7 @@ export class BudgetsBudgetActionDefinitionIamActionDefinitionOutputReference ext
   }
 
   // roles - computed: false, optional: true, required: false
-  private _roles?: string[];
+  private _roles?: string[]; 
   public get roles() {
     return cdktn.Fn.tolist(this.getListAttribute('roles'));
   }
@@ -347,7 +347,7 @@ export class BudgetsBudgetActionDefinitionIamActionDefinitionOutputReference ext
   }
 
   // users - computed: false, optional: true, required: false
-  private _users?: string[];
+  private _users?: string[]; 
   public get users() {
     return cdktn.Fn.tolist(this.getListAttribute('users'));
   }
@@ -448,7 +448,7 @@ export class BudgetsBudgetActionDefinitionScpActionDefinitionOutputReference ext
   }
 
   // policy_id - computed: false, optional: false, required: true
-  private _policyId?: string;
+  private _policyId?: string; 
   public get policyId() {
     return this.getStringAttribute('policy_id');
   }
@@ -461,7 +461,7 @@ export class BudgetsBudgetActionDefinitionScpActionDefinitionOutputReference ext
   }
 
   // target_ids - computed: false, optional: false, required: true
-  private _targetIds?: string[];
+  private _targetIds?: string[]; 
   public get targetIds() {
     return cdktn.Fn.tolist(this.getListAttribute('target_ids'));
   }
@@ -576,7 +576,7 @@ export class BudgetsBudgetActionDefinitionSsmActionDefinitionOutputReference ext
   }
 
   // action_sub_type - computed: false, optional: false, required: true
-  private _actionSubType?: string;
+  private _actionSubType?: string; 
   public get actionSubType() {
     return this.getStringAttribute('action_sub_type');
   }
@@ -589,7 +589,7 @@ export class BudgetsBudgetActionDefinitionSsmActionDefinitionOutputReference ext
   }
 
   // instance_ids - computed: false, optional: false, required: true
-  private _instanceIds?: string[];
+  private _instanceIds?: string[]; 
   public get instanceIds() {
     return cdktn.Fn.tolist(this.getListAttribute('instance_ids'));
   }
@@ -602,7 +602,7 @@ export class BudgetsBudgetActionDefinitionSsmActionDefinitionOutputReference ext
   }
 
   // region - computed: false, optional: false, required: true
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -868,7 +868,7 @@ export class BudgetsBudgetActionSubscriberOutputReference extends cdktn.ComplexO
   }
 
   // address - computed: false, optional: false, required: true
-  private _address?: string;
+  private _address?: string; 
   public get address() {
     return this.getStringAttribute('address');
   }
@@ -881,7 +881,7 @@ export class BudgetsBudgetActionSubscriberOutputReference extends cdktn.ComplexO
   }
 
   // subscription_type - computed: false, optional: false, required: true
-  private _subscriptionType?: string;
+  private _subscriptionType?: string; 
   public get subscriptionType() {
     return this.getStringAttribute('subscription_type');
   }
@@ -1026,7 +1026,7 @@ export class BudgetsBudgetActionTimeoutsOutputReference extends cdktn.ComplexObj
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -1042,7 +1042,7 @@ export class BudgetsBudgetActionTimeoutsOutputReference extends cdktn.ComplexObj
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -1058,7 +1058,7 @@ export class BudgetsBudgetActionTimeoutsOutputReference extends cdktn.ComplexObj
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -1144,7 +1144,7 @@ export class BudgetsBudgetAction extends cdktn.TerraformResource {
   // ==========
 
   // account_id - computed: true, optional: true, required: false
-  private _accountId?: string;
+  private _accountId?: string; 
   public get accountId() {
     return this.getStringAttribute('account_id');
   }
@@ -1165,7 +1165,7 @@ export class BudgetsBudgetAction extends cdktn.TerraformResource {
   }
 
   // action_type - computed: false, optional: false, required: true
-  private _actionType?: string;
+  private _actionType?: string; 
   public get actionType() {
     return this.getStringAttribute('action_type');
   }
@@ -1178,7 +1178,7 @@ export class BudgetsBudgetAction extends cdktn.TerraformResource {
   }
 
   // approval_model - computed: false, optional: false, required: true
-  private _approvalModel?: string;
+  private _approvalModel?: string; 
   public get approvalModel() {
     return this.getStringAttribute('approval_model');
   }
@@ -1196,7 +1196,7 @@ export class BudgetsBudgetAction extends cdktn.TerraformResource {
   }
 
   // budget_name - computed: false, optional: false, required: true
-  private _budgetName?: string;
+  private _budgetName?: string; 
   public get budgetName() {
     return this.getStringAttribute('budget_name');
   }
@@ -1209,7 +1209,7 @@ export class BudgetsBudgetAction extends cdktn.TerraformResource {
   }
 
   // execution_role_arn - computed: false, optional: false, required: true
-  private _executionRoleArn?: string;
+  private _executionRoleArn?: string; 
   public get executionRoleArn() {
     return this.getStringAttribute('execution_role_arn');
   }
@@ -1222,7 +1222,7 @@ export class BudgetsBudgetAction extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -1238,7 +1238,7 @@ export class BudgetsBudgetAction extends cdktn.TerraformResource {
   }
 
   // notification_type - computed: false, optional: false, required: true
-  private _notificationType?: string;
+  private _notificationType?: string; 
   public get notificationType() {
     return this.getStringAttribute('notification_type');
   }
@@ -1256,7 +1256,7 @@ export class BudgetsBudgetAction extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -1272,7 +1272,7 @@ export class BudgetsBudgetAction extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

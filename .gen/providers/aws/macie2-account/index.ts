@@ -96,7 +96,7 @@ export class Macie2Account extends cdktn.TerraformResource {
   }
 
   // finding_publishing_frequency - computed: true, optional: true, required: false
-  private _findingPublishingFrequency?: string;
+  private _findingPublishingFrequency?: string; 
   public get findingPublishingFrequency() {
     return this.getStringAttribute('finding_publishing_frequency');
   }
@@ -112,7 +112,7 @@ export class Macie2Account extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -128,7 +128,7 @@ export class Macie2Account extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -149,7 +149,7 @@ export class Macie2Account extends cdktn.TerraformResource {
   }
 
   // status - computed: true, optional: true, required: false
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }

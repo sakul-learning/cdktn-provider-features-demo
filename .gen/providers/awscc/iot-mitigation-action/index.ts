@@ -130,7 +130,7 @@ export class IotMitigationActionActionParamsAddThingsToThingGroupParamsOutputRef
   }
 
   // override_dynamic_groups - computed: true, optional: true, required: false
-  private _overrideDynamicGroups?: boolean | cdktn.IResolvable;
+  private _overrideDynamicGroups?: boolean | cdktn.IResolvable; 
   public get overrideDynamicGroups() {
     return this.getBooleanAttribute('override_dynamic_groups');
   }
@@ -146,7 +146,7 @@ export class IotMitigationActionActionParamsAddThingsToThingGroupParamsOutputRef
   }
 
   // thing_group_names - computed: true, optional: true, required: false
-  private _thingGroupNames?: string[];
+  private _thingGroupNames?: string[]; 
   public get thingGroupNames() {
     return cdktn.Fn.tolist(this.getListAttribute('thing_group_names'));
   }
@@ -261,7 +261,7 @@ export class IotMitigationActionActionParamsEnableIoTLoggingParamsOutputReferenc
   }
 
   // log_level - computed: true, optional: true, required: false
-  private _logLevel?: string;
+  private _logLevel?: string; 
   public get logLevel() {
     return this.getStringAttribute('log_level');
   }
@@ -277,7 +277,7 @@ export class IotMitigationActionActionParamsEnableIoTLoggingParamsOutputReferenc
   }
 
   // role_arn_for_logging - computed: true, optional: true, required: false
-  private _roleArnForLogging?: string;
+  private _roleArnForLogging?: string; 
   public get roleArnForLogging() {
     return this.getStringAttribute('role_arn_for_logging');
   }
@@ -373,7 +373,7 @@ export class IotMitigationActionActionParamsPublishFindingToSnsParamsOutputRefer
   }
 
   // topic_arn - computed: true, optional: true, required: false
-  private _topicArn?: string;
+  private _topicArn?: string; 
   public get topicArn() {
     return this.getStringAttribute('topic_arn');
   }
@@ -467,7 +467,7 @@ export class IotMitigationActionActionParamsReplaceDefaultPolicyVersionParamsOut
   }
 
   // template_name - computed: true, optional: true, required: false
-  private _templateName?: string;
+  private _templateName?: string; 
   public get templateName() {
     return this.getStringAttribute('template_name');
   }
@@ -561,7 +561,7 @@ export class IotMitigationActionActionParamsUpdateCaCertificateParamsOutputRefer
   }
 
   // action - computed: true, optional: true, required: false
-  private _action?: string;
+  private _action?: string; 
   public get action() {
     return this.getStringAttribute('action');
   }
@@ -655,7 +655,7 @@ export class IotMitigationActionActionParamsUpdateDeviceCertificateParamsOutputR
   }
 
   // action - computed: true, optional: true, required: false
-  private _action?: string;
+  private _action?: string; 
   public get action() {
     return this.getStringAttribute('action');
   }
@@ -1043,7 +1043,7 @@ export class IotMitigationActionTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1059,7 +1059,7 @@ export class IotMitigationActionTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1156,7 +1156,7 @@ export class IotMitigationAction extends cdktn.TerraformResource {
   // ==========
 
   // action_name - computed: true, optional: true, required: false
-  private _actionName?: string;
+  private _actionName?: string; 
   public get actionName() {
     return this.getStringAttribute('action_name');
   }
@@ -1200,7 +1200,7 @@ export class IotMitigationAction extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }

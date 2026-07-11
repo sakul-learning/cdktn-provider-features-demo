@@ -135,7 +135,7 @@ export class DataAwsEc2InstanceTypeOfferingsFilterOutputReference extends cdktn.
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -148,7 +148,7 @@ export class DataAwsEc2InstanceTypeOfferingsFilterOutputReference extends cdktn.
   }
 
   // values - computed: false, optional: false, required: true
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -259,7 +259,7 @@ export class DataAwsEc2InstanceTypeOfferingsTimeoutsOutputReference extends cdkt
   }
 
   // read - computed: false, optional: true, required: false
-  private _read?: string;
+  private _read?: string; 
   public get read() {
     return this.getStringAttribute('read');
   }
@@ -337,7 +337,7 @@ export class DataAwsEc2InstanceTypeOfferings extends cdktn.TerraformDataSource {
   // ==========
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -358,7 +358,7 @@ export class DataAwsEc2InstanceTypeOfferings extends cdktn.TerraformDataSource {
   }
 
   // location_type - computed: false, optional: true, required: false
-  private _locationType?: string;
+  private _locationType?: string; 
   public get locationType() {
     return this.getStringAttribute('location_type');
   }
@@ -384,7 +384,7 @@ export class DataAwsEc2InstanceTypeOfferings extends cdktn.TerraformDataSource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

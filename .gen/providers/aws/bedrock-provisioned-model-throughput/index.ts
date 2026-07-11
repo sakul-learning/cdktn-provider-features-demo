@@ -121,7 +121,7 @@ export class BedrockProvisionedModelThroughputTimeoutsOutputReference extends cd
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -201,7 +201,7 @@ export class BedrockProvisionedModelThroughput extends cdktn.TerraformResource {
   // ==========
 
   // commitment_duration - computed: false, optional: true, required: false
-  private _commitmentDuration?: string;
+  private _commitmentDuration?: string; 
   public get commitmentDuration() {
     return this.getStringAttribute('commitment_duration');
   }
@@ -222,7 +222,7 @@ export class BedrockProvisionedModelThroughput extends cdktn.TerraformResource {
   }
 
   // model_arn - computed: false, optional: false, required: true
-  private _modelArn?: string;
+  private _modelArn?: string; 
   public get modelArn() {
     return this.getStringAttribute('model_arn');
   }
@@ -235,7 +235,7 @@ export class BedrockProvisionedModelThroughput extends cdktn.TerraformResource {
   }
 
   // model_units - computed: false, optional: false, required: true
-  private _modelUnits?: number;
+  private _modelUnits?: number; 
   public get modelUnits() {
     return this.getNumberAttribute('model_units');
   }
@@ -253,7 +253,7 @@ export class BedrockProvisionedModelThroughput extends cdktn.TerraformResource {
   }
 
   // provisioned_model_name - computed: false, optional: false, required: true
-  private _provisionedModelName?: string;
+  private _provisionedModelName?: string; 
   public get provisionedModelName() {
     return this.getStringAttribute('provisioned_model_name');
   }
@@ -266,7 +266,7 @@ export class BedrockProvisionedModelThroughput extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -282,7 +282,7 @@ export class BedrockProvisionedModelThroughput extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

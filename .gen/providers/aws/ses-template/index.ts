@@ -106,7 +106,7 @@ export class SesTemplate extends cdktn.TerraformResource {
   }
 
   // html - computed: false, optional: true, required: false
-  private _html?: string;
+  private _html?: string; 
   public get html() {
     return this.getStringAttribute('html');
   }
@@ -122,7 +122,7 @@ export class SesTemplate extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -138,7 +138,7 @@ export class SesTemplate extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -151,7 +151,7 @@ export class SesTemplate extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -167,7 +167,7 @@ export class SesTemplate extends cdktn.TerraformResource {
   }
 
   // subject - computed: false, optional: true, required: false
-  private _subject?: string;
+  private _subject?: string; 
   public get subject() {
     return this.getStringAttribute('subject');
   }
@@ -183,7 +183,7 @@ export class SesTemplate extends cdktn.TerraformResource {
   }
 
   // text - computed: false, optional: true, required: false
-  private _text?: string;
+  private _text?: string; 
   public get text() {
     return this.getStringAttribute('text');
   }

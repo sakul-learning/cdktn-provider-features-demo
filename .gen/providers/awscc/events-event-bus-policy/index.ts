@@ -163,7 +163,7 @@ export class EventsEventBusPolicyConditionOutputReference extends cdktn.ComplexO
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -179,7 +179,7 @@ export class EventsEventBusPolicyConditionOutputReference extends cdktn.ComplexO
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -195,7 +195,7 @@ export class EventsEventBusPolicyConditionOutputReference extends cdktn.ComplexO
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -274,7 +274,7 @@ export class EventsEventBusPolicy extends cdktn.TerraformResource {
   // ==========
 
   // action - computed: true, optional: true, required: false
-  private _action?: string;
+  private _action?: string; 
   public get action() {
     return this.getStringAttribute('action');
   }
@@ -306,7 +306,7 @@ export class EventsEventBusPolicy extends cdktn.TerraformResource {
   }
 
   // event_bus_name - computed: true, optional: true, required: false
-  private _eventBusName?: string;
+  private _eventBusName?: string; 
   public get eventBusName() {
     return this.getStringAttribute('event_bus_name');
   }
@@ -327,7 +327,7 @@ export class EventsEventBusPolicy extends cdktn.TerraformResource {
   }
 
   // principal - computed: true, optional: true, required: false
-  private _principal?: string;
+  private _principal?: string; 
   public get principal() {
     return this.getStringAttribute('principal');
   }
@@ -343,7 +343,7 @@ export class EventsEventBusPolicy extends cdktn.TerraformResource {
   }
 
   // statement - computed: true, optional: true, required: false
-  private _statement?: string;
+  private _statement?: string; 
   public get statement() {
     return this.getStringAttribute('statement');
   }
@@ -359,7 +359,7 @@ export class EventsEventBusPolicy extends cdktn.TerraformResource {
   }
 
   // statement_id - computed: false, optional: false, required: true
-  private _statementId?: string;
+  private _statementId?: string; 
   public get statementId() {
     return this.getStringAttribute('statement_id');
   }

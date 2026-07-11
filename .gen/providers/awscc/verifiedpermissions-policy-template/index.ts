@@ -86,7 +86,7 @@ export class VerifiedpermissionsPolicyTemplate extends cdktn.TerraformResource {
   // ==========
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -107,7 +107,7 @@ export class VerifiedpermissionsPolicyTemplate extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -123,7 +123,7 @@ export class VerifiedpermissionsPolicyTemplate extends cdktn.TerraformResource {
   }
 
   // policy_store_id - computed: false, optional: false, required: true
-  private _policyStoreId?: string;
+  private _policyStoreId?: string; 
   public get policyStoreId() {
     return this.getStringAttribute('policy_store_id');
   }
@@ -141,7 +141,7 @@ export class VerifiedpermissionsPolicyTemplate extends cdktn.TerraformResource {
   }
 
   // statement - computed: false, optional: false, required: true
-  private _statement?: string;
+  private _statement?: string; 
   public get statement() {
     return this.getStringAttribute('statement');
   }

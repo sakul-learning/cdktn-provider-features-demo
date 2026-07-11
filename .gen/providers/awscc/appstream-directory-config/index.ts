@@ -120,7 +120,7 @@ export class AppstreamDirectoryConfigCertificateBasedAuthPropertiesOutputReferen
   }
 
   // certificate_authority_arn - computed: true, optional: true, required: false
-  private _certificateAuthorityArn?: string;
+  private _certificateAuthorityArn?: string; 
   public get certificateAuthorityArn() {
     return this.getStringAttribute('certificate_authority_arn');
   }
@@ -136,7 +136,7 @@ export class AppstreamDirectoryConfigCertificateBasedAuthPropertiesOutputReferen
   }
 
   // status - computed: true, optional: true, required: false
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -247,7 +247,7 @@ export class AppstreamDirectoryConfigServiceAccountCredentialsOutputReference ex
   }
 
   // account_name - computed: false, optional: false, required: true
-  private _accountName?: string;
+  private _accountName?: string; 
   public get accountName() {
     return this.getStringAttribute('account_name');
   }
@@ -260,7 +260,7 @@ export class AppstreamDirectoryConfigServiceAccountCredentialsOutputReference ex
   }
 
   // account_password - computed: false, optional: false, required: true
-  private _accountPassword?: string;
+  private _accountPassword?: string; 
   public get accountPassword() {
     return this.getStringAttribute('account_password');
   }
@@ -350,7 +350,7 @@ export class AppstreamDirectoryConfig extends cdktn.TerraformResource {
   }
 
   // directory_name - computed: false, optional: false, required: true
-  private _directoryName?: string;
+  private _directoryName?: string; 
   public get directoryName() {
     return this.getStringAttribute('directory_name');
   }
@@ -368,7 +368,7 @@ export class AppstreamDirectoryConfig extends cdktn.TerraformResource {
   }
 
   // organizational_unit_distinguished_names - computed: false, optional: false, required: true
-  private _organizationalUnitDistinguishedNames?: string[];
+  private _organizationalUnitDistinguishedNames?: string[]; 
   public get organizationalUnitDistinguishedNames() {
     return this.getListAttribute('organizational_unit_distinguished_names');
   }

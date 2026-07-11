@@ -108,7 +108,7 @@ export class EcrPullThroughCacheRule extends cdktn.TerraformResource {
   // ==========
 
   // credential_arn - computed: true, optional: true, required: false
-  private _credentialArn?: string;
+  private _credentialArn?: string; 
   public get credentialArn() {
     return this.getStringAttribute('credential_arn');
   }
@@ -124,7 +124,7 @@ export class EcrPullThroughCacheRule extends cdktn.TerraformResource {
   }
 
   // custom_role_arn - computed: true, optional: true, required: false
-  private _customRoleArn?: string;
+  private _customRoleArn?: string; 
   public get customRoleArn() {
     return this.getStringAttribute('custom_role_arn');
   }
@@ -140,7 +140,7 @@ export class EcrPullThroughCacheRule extends cdktn.TerraformResource {
   }
 
   // ecr_repository_prefix - computed: true, optional: true, required: false
-  private _ecrRepositoryPrefix?: string;
+  private _ecrRepositoryPrefix?: string; 
   public get ecrRepositoryPrefix() {
     return this.getStringAttribute('ecr_repository_prefix');
   }
@@ -161,7 +161,7 @@ export class EcrPullThroughCacheRule extends cdktn.TerraformResource {
   }
 
   // upstream_registry - computed: true, optional: true, required: false
-  private _upstreamRegistry?: string;
+  private _upstreamRegistry?: string; 
   public get upstreamRegistry() {
     return this.getStringAttribute('upstream_registry');
   }
@@ -177,7 +177,7 @@ export class EcrPullThroughCacheRule extends cdktn.TerraformResource {
   }
 
   // upstream_registry_url - computed: true, optional: true, required: false
-  private _upstreamRegistryUrl?: string;
+  private _upstreamRegistryUrl?: string; 
   public get upstreamRegistryUrl() {
     return this.getStringAttribute('upstream_registry_url');
   }
@@ -193,7 +193,7 @@ export class EcrPullThroughCacheRule extends cdktn.TerraformResource {
   }
 
   // upstream_repository_prefix - computed: true, optional: true, required: false
-  private _upstreamRepositoryPrefix?: string;
+  private _upstreamRepositoryPrefix?: string; 
   public get upstreamRepositoryPrefix() {
     return this.getStringAttribute('upstream_repository_prefix');
   }

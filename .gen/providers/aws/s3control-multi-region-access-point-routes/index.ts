@@ -143,7 +143,7 @@ export class S3ControlMultiRegionAccessPointRoutesRouteOutputReference extends c
   }
 
   // bucket - computed: false, optional: false, required: true
-  private _bucket?: string;
+  private _bucket?: string; 
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -156,7 +156,7 @@ export class S3ControlMultiRegionAccessPointRoutesRouteOutputReference extends c
   }
 
   // region - computed: false, optional: false, required: true
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -169,7 +169,7 @@ export class S3ControlMultiRegionAccessPointRoutesRouteOutputReference extends c
   }
 
   // traffic_dial_percentage - computed: false, optional: false, required: true
-  private _trafficDialPercentage?: number;
+  private _trafficDialPercentage?: number; 
   public get trafficDialPercentage() {
     return this.getNumberAttribute('traffic_dial_percentage');
   }
@@ -263,7 +263,7 @@ export class S3ControlMultiRegionAccessPointRoutes extends cdktn.TerraformResour
   // ==========
 
   // account_id - computed: true, optional: true, required: false
-  private _accountId?: string;
+  private _accountId?: string; 
   public get accountId() {
     return this.getStringAttribute('account_id');
   }
@@ -279,7 +279,7 @@ export class S3ControlMultiRegionAccessPointRoutes extends cdktn.TerraformResour
   }
 
   // mrap - computed: false, optional: false, required: true
-  private _mrap?: string;
+  private _mrap?: string; 
   public get mrap() {
     return this.getStringAttribute('mrap');
   }
@@ -292,7 +292,7 @@ export class S3ControlMultiRegionAccessPointRoutes extends cdktn.TerraformResour
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

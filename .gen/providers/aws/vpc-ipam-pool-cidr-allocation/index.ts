@@ -116,7 +116,7 @@ export class VpcIpamPoolCidrAllocation extends cdktn.TerraformResource {
   // ==========
 
   // cidr - computed: true, optional: true, required: false
-  private _cidr?: string;
+  private _cidr?: string; 
   public get cidr() {
     return this.getStringAttribute('cidr');
   }
@@ -132,7 +132,7 @@ export class VpcIpamPoolCidrAllocation extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -148,7 +148,7 @@ export class VpcIpamPoolCidrAllocation extends cdktn.TerraformResource {
   }
 
   // disallowed_cidrs - computed: false, optional: true, required: false
-  private _disallowedCidrs?: string[];
+  private _disallowedCidrs?: string[]; 
   public get disallowedCidrs() {
     return cdktn.Fn.tolist(this.getListAttribute('disallowed_cidrs'));
   }
@@ -164,7 +164,7 @@ export class VpcIpamPoolCidrAllocation extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -185,7 +185,7 @@ export class VpcIpamPoolCidrAllocation extends cdktn.TerraformResource {
   }
 
   // ipam_pool_id - computed: false, optional: false, required: true
-  private _ipamPoolId?: string;
+  private _ipamPoolId?: string; 
   public get ipamPoolId() {
     return this.getStringAttribute('ipam_pool_id');
   }
@@ -198,7 +198,7 @@ export class VpcIpamPoolCidrAllocation extends cdktn.TerraformResource {
   }
 
   // netmask_length - computed: true, optional: true, required: false
-  private _netmaskLength?: number;
+  private _netmaskLength?: number; 
   public get netmaskLength() {
     return this.getNumberAttribute('netmask_length');
   }
@@ -214,7 +214,7 @@ export class VpcIpamPoolCidrAllocation extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -245,7 +245,7 @@ export class VpcIpamPoolCidrAllocation extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -261,7 +261,7 @@ export class VpcIpamPoolCidrAllocation extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

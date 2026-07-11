@@ -154,7 +154,7 @@ export class ProtonEnvironmentAccountConnectionTagsOutputReference extends cdktn
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -170,7 +170,7 @@ export class ProtonEnvironmentAccountConnectionTagsOutputReference extends cdktn
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -275,7 +275,7 @@ export class ProtonEnvironmentAccountConnection extends cdktn.TerraformResource 
   }
 
   // codebuild_role_arn - computed: true, optional: true, required: false
-  private _codebuildRoleArn?: string;
+  private _codebuildRoleArn?: string; 
   public get codebuildRoleArn() {
     return this.getStringAttribute('codebuild_role_arn');
   }
@@ -291,7 +291,7 @@ export class ProtonEnvironmentAccountConnection extends cdktn.TerraformResource 
   }
 
   // component_role_arn - computed: true, optional: true, required: false
-  private _componentRoleArn?: string;
+  private _componentRoleArn?: string; 
   public get componentRoleArn() {
     return this.getStringAttribute('component_role_arn');
   }
@@ -312,7 +312,7 @@ export class ProtonEnvironmentAccountConnection extends cdktn.TerraformResource 
   }
 
   // environment_account_id - computed: true, optional: true, required: false
-  private _environmentAccountId?: string;
+  private _environmentAccountId?: string; 
   public get environmentAccountId() {
     return this.getStringAttribute('environment_account_id');
   }
@@ -328,7 +328,7 @@ export class ProtonEnvironmentAccountConnection extends cdktn.TerraformResource 
   }
 
   // environment_name - computed: true, optional: true, required: false
-  private _environmentName?: string;
+  private _environmentName?: string; 
   public get environmentName() {
     return this.getStringAttribute('environment_name');
   }
@@ -349,7 +349,7 @@ export class ProtonEnvironmentAccountConnection extends cdktn.TerraformResource 
   }
 
   // management_account_id - computed: true, optional: true, required: false
-  private _managementAccountId?: string;
+  private _managementAccountId?: string; 
   public get managementAccountId() {
     return this.getStringAttribute('management_account_id');
   }
@@ -365,7 +365,7 @@ export class ProtonEnvironmentAccountConnection extends cdktn.TerraformResource 
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }

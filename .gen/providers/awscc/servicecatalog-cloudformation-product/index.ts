@@ -186,7 +186,7 @@ export class ServicecatalogCloudformationProductProvisioningArtifactParametersIn
   }
 
   // import_from_physical_id - computed: true, optional: true, required: false
-  private _importFromPhysicalId?: string;
+  private _importFromPhysicalId?: string; 
   public get importFromPhysicalId() {
     return this.getStringAttribute('import_from_physical_id');
   }
@@ -202,7 +202,7 @@ export class ServicecatalogCloudformationProductProvisioningArtifactParametersIn
   }
 
   // load_template_from_url - computed: true, optional: true, required: false
-  private _loadTemplateFromUrl?: string;
+  private _loadTemplateFromUrl?: string; 
   public get loadTemplateFromUrl() {
     return this.getStringAttribute('load_template_from_url');
   }
@@ -232,9 +232,9 @@ export interface ServicecatalogCloudformationProductProvisioningArtifactParamete
   readonly disableTemplateValidation?: boolean | cdktn.IResolvable;
   /**
   * Specify the template source with one of the following options, but not both. Keys accepted: [ LoadTemplateFromURL, ImportFromPhysicalId ] The URL of the AWS CloudFormation template in Amazon S3 in JSON format. Specify the URL in JSON format as follows:
-  *
+  * 
   * "LoadTemplateFromURL": "https://s3.amazonaws.com/cf-templates-ozkq9d3hgiq2-us-east-1/..."
-  *
+  * 
   * ImportFromPhysicalId: The physical id of the resource that contains the template. Currently only supports AWS CloudFormation stack arn. Specify the physical id in JSON format as follows: ImportFromPhysicalId: "arn:aws:cloudformation:[us-east-1]:[accountId]:stack/[StackName]/[resourceId]
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/servicecatalog_cloudformation_product#info ServicecatalogCloudformationProduct#info}
@@ -380,7 +380,7 @@ export class ServicecatalogCloudformationProductProvisioningArtifactParametersOu
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -396,7 +396,7 @@ export class ServicecatalogCloudformationProductProvisioningArtifactParametersOu
   }
 
   // disable_template_validation - computed: true, optional: true, required: false
-  private _disableTemplateValidation?: boolean | cdktn.IResolvable;
+  private _disableTemplateValidation?: boolean | cdktn.IResolvable; 
   public get disableTemplateValidation() {
     return this.getBooleanAttribute('disable_template_validation');
   }
@@ -428,7 +428,7 @@ export class ServicecatalogCloudformationProductProvisioningArtifactParametersOu
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -444,7 +444,7 @@ export class ServicecatalogCloudformationProductProvisioningArtifactParametersOu
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -494,8 +494,8 @@ export interface ServicecatalogCloudformationProductSourceConnectionConnectionPa
   readonly branch?: string;
   /**
   * The CodeStar ARN, which is the connection between AWS Service Catalog and the external repository.
-  *
-  *
+  * 
+  * 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/servicecatalog_cloudformation_product#connection_arn ServicecatalogCloudformationProduct#connection_arn}
   */
@@ -619,7 +619,7 @@ export class ServicecatalogCloudformationProductSourceConnectionConnectionParame
   }
 
   // artifact_path - computed: true, optional: true, required: false
-  private _artifactPath?: string;
+  private _artifactPath?: string; 
   public get artifactPath() {
     return this.getStringAttribute('artifact_path');
   }
@@ -635,7 +635,7 @@ export class ServicecatalogCloudformationProductSourceConnectionConnectionParame
   }
 
   // branch - computed: true, optional: true, required: false
-  private _branch?: string;
+  private _branch?: string; 
   public get branch() {
     return this.getStringAttribute('branch');
   }
@@ -651,7 +651,7 @@ export class ServicecatalogCloudformationProductSourceConnectionConnectionParame
   }
 
   // connection_arn - computed: true, optional: true, required: false
-  private _connectionArn?: string;
+  private _connectionArn?: string; 
   public get connectionArn() {
     return this.getStringAttribute('connection_arn');
   }
@@ -667,7 +667,7 @@ export class ServicecatalogCloudformationProductSourceConnectionConnectionParame
   }
 
   // repository - computed: true, optional: true, required: false
-  private _repository?: string;
+  private _repository?: string; 
   public get repository() {
     return this.getStringAttribute('repository');
   }
@@ -892,7 +892,7 @@ export class ServicecatalogCloudformationProductSourceConnectionOutputReference 
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -1009,7 +1009,7 @@ export class ServicecatalogCloudformationProductTagsOutputReference extends cdkt
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1025,7 +1025,7 @@ export class ServicecatalogCloudformationProductTagsOutputReference extends cdkt
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1131,7 +1131,7 @@ export class ServicecatalogCloudformationProduct extends cdktn.TerraformResource
   // ==========
 
   // accept_language - computed: true, optional: true, required: false
-  private _acceptLanguage?: string;
+  private _acceptLanguage?: string; 
   public get acceptLanguage() {
     return this.getStringAttribute('accept_language');
   }
@@ -1152,7 +1152,7 @@ export class ServicecatalogCloudformationProduct extends cdktn.TerraformResource
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1168,7 +1168,7 @@ export class ServicecatalogCloudformationProduct extends cdktn.TerraformResource
   }
 
   // distributor - computed: true, optional: true, required: false
-  private _distributor?: string;
+  private _distributor?: string; 
   public get distributor() {
     return this.getStringAttribute('distributor');
   }
@@ -1189,7 +1189,7 @@ export class ServicecatalogCloudformationProduct extends cdktn.TerraformResource
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1202,7 +1202,7 @@ export class ServicecatalogCloudformationProduct extends cdktn.TerraformResource
   }
 
   // owner - computed: false, optional: false, required: true
-  private _owner?: string;
+  private _owner?: string; 
   public get owner() {
     return this.getStringAttribute('owner');
   }
@@ -1220,7 +1220,7 @@ export class ServicecatalogCloudformationProduct extends cdktn.TerraformResource
   }
 
   // product_type - computed: true, optional: true, required: false
-  private _productType?: string;
+  private _productType?: string; 
   public get productType() {
     return this.getStringAttribute('product_type');
   }
@@ -1262,7 +1262,7 @@ export class ServicecatalogCloudformationProduct extends cdktn.TerraformResource
   }
 
   // replace_provisioning_artifacts - computed: true, optional: true, required: false
-  private _replaceProvisioningArtifacts?: boolean | cdktn.IResolvable;
+  private _replaceProvisioningArtifacts?: boolean | cdktn.IResolvable; 
   public get replaceProvisioningArtifacts() {
     return this.getBooleanAttribute('replace_provisioning_artifacts');
   }
@@ -1294,7 +1294,7 @@ export class ServicecatalogCloudformationProduct extends cdktn.TerraformResource
   }
 
   // support_description - computed: true, optional: true, required: false
-  private _supportDescription?: string;
+  private _supportDescription?: string; 
   public get supportDescription() {
     return this.getStringAttribute('support_description');
   }
@@ -1310,7 +1310,7 @@ export class ServicecatalogCloudformationProduct extends cdktn.TerraformResource
   }
 
   // support_email - computed: true, optional: true, required: false
-  private _supportEmail?: string;
+  private _supportEmail?: string; 
   public get supportEmail() {
     return this.getStringAttribute('support_email');
   }
@@ -1326,7 +1326,7 @@ export class ServicecatalogCloudformationProduct extends cdktn.TerraformResource
   }
 
   // support_url - computed: true, optional: true, required: false
-  private _supportUrl?: string;
+  private _supportUrl?: string; 
   public get supportUrl() {
     return this.getStringAttribute('support_url');
   }

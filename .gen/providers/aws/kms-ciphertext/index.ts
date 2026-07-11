@@ -112,7 +112,7 @@ export class KmsCiphertext extends cdktn.TerraformResource {
   }
 
   // context - computed: false, optional: true, required: false
-  private _context?: { [key: string]: string };
+  private _context?: { [key: string]: string }; 
   public get context() {
     return this.getStringMapAttribute('context');
   }
@@ -128,7 +128,7 @@ export class KmsCiphertext extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -144,7 +144,7 @@ export class KmsCiphertext extends cdktn.TerraformResource {
   }
 
   // key_id - computed: false, optional: false, required: true
-  private _keyId?: string;
+  private _keyId?: string; 
   public get keyId() {
     return this.getStringAttribute('key_id');
   }
@@ -157,7 +157,7 @@ export class KmsCiphertext extends cdktn.TerraformResource {
   }
 
   // plaintext - computed: false, optional: true, required: false
-  private _plaintext?: string;
+  private _plaintext?: string; 
   public get plaintext() {
     return this.getStringAttribute('plaintext');
   }
@@ -173,7 +173,7 @@ export class KmsCiphertext extends cdktn.TerraformResource {
   }
 
   // plaintext_wo - computed: false, optional: true, required: false
-  private _plaintextWo?: string;
+  private _plaintextWo?: string; 
   /**
   * @deprecated Write-only: the provider never returns this value; reading it always yields null by protocol contract. The getter remains for compatibility and will be removed in a future prebuilt-provider major.
   */
@@ -193,7 +193,7 @@ export class KmsCiphertext extends cdktn.TerraformResource {
   }
 
   // plaintext_wo_version - computed: false, optional: true, required: false
-  private _plaintextWoVersion?: string;
+  private _plaintextWoVersion?: string; 
   public get plaintextWoVersion() {
     return this.getStringAttribute('plaintext_wo_version');
   }
@@ -209,7 +209,7 @@ export class KmsCiphertext extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

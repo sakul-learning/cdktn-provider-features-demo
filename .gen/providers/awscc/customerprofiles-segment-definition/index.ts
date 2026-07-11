@@ -175,7 +175,7 @@ export class CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsCalcu
   }
 
   // end - computed: true, optional: true, required: false
-  private _end?: number;
+  private _end?: number; 
   public get end() {
     return this.getNumberAttribute('end');
   }
@@ -191,7 +191,7 @@ export class CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsCalcu
   }
 
   // start - computed: true, optional: true, required: false
-  private _start?: number;
+  private _start?: number; 
   public get start() {
     return this.getNumberAttribute('start');
   }
@@ -207,7 +207,7 @@ export class CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsCalcu
   }
 
   // unit - computed: true, optional: true, required: false
-  private _unit?: string;
+  private _unit?: string; 
   public get unit() {
     return this.getStringAttribute('unit');
   }
@@ -452,7 +452,7 @@ export class CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsCalcu
   }
 
   // dimension_type - computed: true, optional: true, required: false
-  private _dimensionType?: string;
+  private _dimensionType?: string; 
   public get dimensionType() {
     return this.getStringAttribute('dimension_type');
   }
@@ -468,7 +468,7 @@ export class CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsCalcu
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -600,7 +600,7 @@ export class CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfi
   }
 
   // dimension_type - computed: true, optional: true, required: false
-  private _dimensionType?: string;
+  private _dimensionType?: string; 
   public get dimensionType() {
     return this.getStringAttribute('dimension_type');
   }
@@ -616,7 +616,7 @@ export class CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfi
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -729,7 +729,7 @@ export class CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfi
   }
 
   // dimension_type - computed: true, optional: true, required: false
-  private _dimensionType?: string;
+  private _dimensionType?: string; 
   public get dimensionType() {
     return this.getStringAttribute('dimension_type');
   }
@@ -745,7 +745,7 @@ export class CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfi
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -858,7 +858,7 @@ export class CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfi
   }
 
   // dimension_type - computed: true, optional: true, required: false
-  private _dimensionType?: string;
+  private _dimensionType?: string; 
   public get dimensionType() {
     return this.getStringAttribute('dimension_type');
   }
@@ -874,7 +874,7 @@ export class CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfi
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -987,7 +987,7 @@ export class CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfi
   }
 
   // dimension_type - computed: true, optional: true, required: false
-  private _dimensionType?: string;
+  private _dimensionType?: string; 
   public get dimensionType() {
     return this.getStringAttribute('dimension_type');
   }
@@ -1003,7 +1003,7 @@ export class CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfi
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -1116,7 +1116,7 @@ export class CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfi
   }
 
   // dimension_type - computed: true, optional: true, required: false
-  private _dimensionType?: string;
+  private _dimensionType?: string; 
   public get dimensionType() {
     return this.getStringAttribute('dimension_type');
   }
@@ -1132,7 +1132,7 @@ export class CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfi
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -1245,7 +1245,7 @@ export class CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfi
   }
 
   // dimension_type - computed: true, optional: true, required: false
-  private _dimensionType?: string;
+  private _dimensionType?: string; 
   public get dimensionType() {
     return this.getStringAttribute('dimension_type');
   }
@@ -1261,7 +1261,7 @@ export class CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfi
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -1374,7 +1374,7 @@ export class CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfi
   }
 
   // dimension_type - computed: true, optional: true, required: false
-  private _dimensionType?: string;
+  private _dimensionType?: string; 
   public get dimensionType() {
     return this.getStringAttribute('dimension_type');
   }
@@ -1390,7 +1390,7 @@ export class CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfi
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -1503,7 +1503,7 @@ export class CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfi
   }
 
   // dimension_type - computed: true, optional: true, required: false
-  private _dimensionType?: string;
+  private _dimensionType?: string; 
   public get dimensionType() {
     return this.getStringAttribute('dimension_type');
   }
@@ -1519,7 +1519,7 @@ export class CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfi
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -1904,7 +1904,7 @@ export class CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfi
   }
 
   // dimension_type - computed: true, optional: true, required: false
-  private _dimensionType?: string;
+  private _dimensionType?: string; 
   public get dimensionType() {
     return this.getStringAttribute('dimension_type');
   }
@@ -1920,7 +1920,7 @@ export class CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfi
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -2052,7 +2052,7 @@ export class CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfi
   }
 
   // dimension_type - computed: true, optional: true, required: false
-  private _dimensionType?: string;
+  private _dimensionType?: string; 
   public get dimensionType() {
     return this.getStringAttribute('dimension_type');
   }
@@ -2068,7 +2068,7 @@ export class CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfi
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -2181,7 +2181,7 @@ export class CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfi
   }
 
   // dimension_type - computed: true, optional: true, required: false
-  private _dimensionType?: string;
+  private _dimensionType?: string; 
   public get dimensionType() {
     return this.getStringAttribute('dimension_type');
   }
@@ -2197,7 +2197,7 @@ export class CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfi
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -2310,7 +2310,7 @@ export class CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfi
   }
 
   // dimension_type - computed: true, optional: true, required: false
-  private _dimensionType?: string;
+  private _dimensionType?: string; 
   public get dimensionType() {
     return this.getStringAttribute('dimension_type');
   }
@@ -2326,7 +2326,7 @@ export class CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfi
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -2439,7 +2439,7 @@ export class CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfi
   }
 
   // dimension_type - computed: true, optional: true, required: false
-  private _dimensionType?: string;
+  private _dimensionType?: string; 
   public get dimensionType() {
     return this.getStringAttribute('dimension_type');
   }
@@ -2455,7 +2455,7 @@ export class CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfi
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -2568,7 +2568,7 @@ export class CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfi
   }
 
   // dimension_type - computed: true, optional: true, required: false
-  private _dimensionType?: string;
+  private _dimensionType?: string; 
   public get dimensionType() {
     return this.getStringAttribute('dimension_type');
   }
@@ -2584,7 +2584,7 @@ export class CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfi
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -2697,7 +2697,7 @@ export class CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfi
   }
 
   // dimension_type - computed: true, optional: true, required: false
-  private _dimensionType?: string;
+  private _dimensionType?: string; 
   public get dimensionType() {
     return this.getStringAttribute('dimension_type');
   }
@@ -2713,7 +2713,7 @@ export class CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfi
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -3097,7 +3097,7 @@ export class CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfi
   }
 
   // dimension_type - computed: true, optional: true, required: false
-  private _dimensionType?: string;
+  private _dimensionType?: string; 
   public get dimensionType() {
     return this.getStringAttribute('dimension_type');
   }
@@ -3113,7 +3113,7 @@ export class CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfi
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -3226,7 +3226,7 @@ export class CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfi
   }
 
   // dimension_type - computed: true, optional: true, required: false
-  private _dimensionType?: string;
+  private _dimensionType?: string; 
   public get dimensionType() {
     return this.getStringAttribute('dimension_type');
   }
@@ -3242,7 +3242,7 @@ export class CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfi
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -3355,7 +3355,7 @@ export class CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfi
   }
 
   // dimension_type - computed: true, optional: true, required: false
-  private _dimensionType?: string;
+  private _dimensionType?: string; 
   public get dimensionType() {
     return this.getStringAttribute('dimension_type');
   }
@@ -3371,7 +3371,7 @@ export class CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfi
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -3484,7 +3484,7 @@ export class CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfi
   }
 
   // dimension_type - computed: true, optional: true, required: false
-  private _dimensionType?: string;
+  private _dimensionType?: string; 
   public get dimensionType() {
     return this.getStringAttribute('dimension_type');
   }
@@ -3500,7 +3500,7 @@ export class CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfi
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -3613,7 +3613,7 @@ export class CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfi
   }
 
   // dimension_type - computed: true, optional: true, required: false
-  private _dimensionType?: string;
+  private _dimensionType?: string; 
   public get dimensionType() {
     return this.getStringAttribute('dimension_type');
   }
@@ -3629,7 +3629,7 @@ export class CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfi
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -3742,7 +3742,7 @@ export class CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfi
   }
 
   // dimension_type - computed: true, optional: true, required: false
-  private _dimensionType?: string;
+  private _dimensionType?: string; 
   public get dimensionType() {
     return this.getStringAttribute('dimension_type');
   }
@@ -3758,7 +3758,7 @@ export class CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfi
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -3871,7 +3871,7 @@ export class CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfi
   }
 
   // dimension_type - computed: true, optional: true, required: false
-  private _dimensionType?: string;
+  private _dimensionType?: string; 
   public get dimensionType() {
     return this.getStringAttribute('dimension_type');
   }
@@ -3887,7 +3887,7 @@ export class CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfi
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -4000,7 +4000,7 @@ export class CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfi
   }
 
   // dimension_type - computed: true, optional: true, required: false
-  private _dimensionType?: string;
+  private _dimensionType?: string; 
   public get dimensionType() {
     return this.getStringAttribute('dimension_type');
   }
@@ -4016,7 +4016,7 @@ export class CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfi
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -4129,7 +4129,7 @@ export class CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfi
   }
 
   // dimension_type - computed: true, optional: true, required: false
-  private _dimensionType?: string;
+  private _dimensionType?: string; 
   public get dimensionType() {
     return this.getStringAttribute('dimension_type');
   }
@@ -4145,7 +4145,7 @@ export class CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfi
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -4258,7 +4258,7 @@ export class CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfi
   }
 
   // dimension_type - computed: true, optional: true, required: false
-  private _dimensionType?: string;
+  private _dimensionType?: string; 
   public get dimensionType() {
     return this.getStringAttribute('dimension_type');
   }
@@ -4274,7 +4274,7 @@ export class CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfi
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -4387,7 +4387,7 @@ export class CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfi
   }
 
   // dimension_type - computed: true, optional: true, required: false
-  private _dimensionType?: string;
+  private _dimensionType?: string; 
   public get dimensionType() {
     return this.getStringAttribute('dimension_type');
   }
@@ -4403,7 +4403,7 @@ export class CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfi
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -4516,7 +4516,7 @@ export class CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfi
   }
 
   // dimension_type - computed: true, optional: true, required: false
-  private _dimensionType?: string;
+  private _dimensionType?: string; 
   public get dimensionType() {
     return this.getStringAttribute('dimension_type');
   }
@@ -4532,7 +4532,7 @@ export class CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfi
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -4645,7 +4645,7 @@ export class CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfi
   }
 
   // dimension_type - computed: true, optional: true, required: false
-  private _dimensionType?: string;
+  private _dimensionType?: string; 
   public get dimensionType() {
     return this.getStringAttribute('dimension_type');
   }
@@ -4661,7 +4661,7 @@ export class CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfi
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -4774,7 +4774,7 @@ export class CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfi
   }
 
   // dimension_type - computed: true, optional: true, required: false
-  private _dimensionType?: string;
+  private _dimensionType?: string; 
   public get dimensionType() {
     return this.getStringAttribute('dimension_type');
   }
@@ -4790,7 +4790,7 @@ export class CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfi
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -4903,7 +4903,7 @@ export class CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfi
   }
 
   // dimension_type - computed: true, optional: true, required: false
-  private _dimensionType?: string;
+  private _dimensionType?: string; 
   public get dimensionType() {
     return this.getStringAttribute('dimension_type');
   }
@@ -4919,7 +4919,7 @@ export class CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfi
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -5303,7 +5303,7 @@ export class CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfi
   }
 
   // dimension_type - computed: true, optional: true, required: false
-  private _dimensionType?: string;
+  private _dimensionType?: string; 
   public get dimensionType() {
     return this.getStringAttribute('dimension_type');
   }
@@ -5319,7 +5319,7 @@ export class CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfi
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -5432,7 +5432,7 @@ export class CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfi
   }
 
   // dimension_type - computed: true, optional: true, required: false
-  private _dimensionType?: string;
+  private _dimensionType?: string; 
   public get dimensionType() {
     return this.getStringAttribute('dimension_type');
   }
@@ -5448,7 +5448,7 @@ export class CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfi
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -5561,7 +5561,7 @@ export class CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfi
   }
 
   // dimension_type - computed: true, optional: true, required: false
-  private _dimensionType?: string;
+  private _dimensionType?: string; 
   public get dimensionType() {
     return this.getStringAttribute('dimension_type');
   }
@@ -5577,7 +5577,7 @@ export class CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfi
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -5690,7 +5690,7 @@ export class CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfi
   }
 
   // dimension_type - computed: true, optional: true, required: false
-  private _dimensionType?: string;
+  private _dimensionType?: string; 
   public get dimensionType() {
     return this.getStringAttribute('dimension_type');
   }
@@ -5706,7 +5706,7 @@ export class CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfi
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -5819,7 +5819,7 @@ export class CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfi
   }
 
   // dimension_type - computed: true, optional: true, required: false
-  private _dimensionType?: string;
+  private _dimensionType?: string; 
   public get dimensionType() {
     return this.getStringAttribute('dimension_type');
   }
@@ -5835,7 +5835,7 @@ export class CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfi
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -5948,7 +5948,7 @@ export class CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfi
   }
 
   // dimension_type - computed: true, optional: true, required: false
-  private _dimensionType?: string;
+  private _dimensionType?: string; 
   public get dimensionType() {
     return this.getStringAttribute('dimension_type');
   }
@@ -5964,7 +5964,7 @@ export class CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfi
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -6077,7 +6077,7 @@ export class CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfi
   }
 
   // dimension_type - computed: true, optional: true, required: false
-  private _dimensionType?: string;
+  private _dimensionType?: string; 
   public get dimensionType() {
     return this.getStringAttribute('dimension_type');
   }
@@ -6093,7 +6093,7 @@ export class CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfi
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -6206,7 +6206,7 @@ export class CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfi
   }
 
   // dimension_type - computed: true, optional: true, required: false
-  private _dimensionType?: string;
+  private _dimensionType?: string; 
   public get dimensionType() {
     return this.getStringAttribute('dimension_type');
   }
@@ -6222,7 +6222,7 @@ export class CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfi
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -6335,7 +6335,7 @@ export class CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfi
   }
 
   // dimension_type - computed: true, optional: true, required: false
-  private _dimensionType?: string;
+  private _dimensionType?: string; 
   public get dimensionType() {
     return this.getStringAttribute('dimension_type');
   }
@@ -6351,7 +6351,7 @@ export class CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfi
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -6464,7 +6464,7 @@ export class CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfi
   }
 
   // dimension_type - computed: true, optional: true, required: false
-  private _dimensionType?: string;
+  private _dimensionType?: string; 
   public get dimensionType() {
     return this.getStringAttribute('dimension_type');
   }
@@ -6480,7 +6480,7 @@ export class CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfi
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -6593,7 +6593,7 @@ export class CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfi
   }
 
   // dimension_type - computed: true, optional: true, required: false
-  private _dimensionType?: string;
+  private _dimensionType?: string; 
   public get dimensionType() {
     return this.getStringAttribute('dimension_type');
   }
@@ -6609,7 +6609,7 @@ export class CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfi
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -6722,7 +6722,7 @@ export class CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfi
   }
 
   // dimension_type - computed: true, optional: true, required: false
-  private _dimensionType?: string;
+  private _dimensionType?: string; 
   public get dimensionType() {
     return this.getStringAttribute('dimension_type');
   }
@@ -6738,7 +6738,7 @@ export class CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfi
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -8089,7 +8089,7 @@ export class CustomerprofilesSegmentDefinitionSegmentGroupsGroupsSourceSegmentsO
   }
 
   // segment_definition_name - computed: true, optional: true, required: false
-  private _segmentDefinitionName?: string;
+  private _segmentDefinitionName?: string; 
   public get segmentDefinitionName() {
     return this.getStringAttribute('segment_definition_name');
   }
@@ -8292,7 +8292,7 @@ export class CustomerprofilesSegmentDefinitionSegmentGroupsGroupsOutputReference
   }
 
   // source_type - computed: true, optional: true, required: false
-  private _sourceType?: string;
+  private _sourceType?: string; 
   public get sourceType() {
     return this.getStringAttribute('source_type');
   }
@@ -8308,7 +8308,7 @@ export class CustomerprofilesSegmentDefinitionSegmentGroupsGroupsOutputReference
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -8457,7 +8457,7 @@ export class CustomerprofilesSegmentDefinitionSegmentGroupsOutputReference exten
   }
 
   // include - computed: true, optional: true, required: false
-  private _include?: string;
+  private _include?: string; 
   public get include() {
     return this.getStringAttribute('include');
   }
@@ -8612,7 +8612,7 @@ export class CustomerprofilesSegmentDefinitionSegmentSortAttributesOutputReferen
   }
 
   // data_type - computed: true, optional: true, required: false
-  private _dataType?: string;
+  private _dataType?: string; 
   public get dataType() {
     return this.getStringAttribute('data_type');
   }
@@ -8628,7 +8628,7 @@ export class CustomerprofilesSegmentDefinitionSegmentSortAttributesOutputReferen
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -8644,7 +8644,7 @@ export class CustomerprofilesSegmentDefinitionSegmentSortAttributesOutputReferen
   }
 
   // order - computed: true, optional: true, required: false
-  private _order?: string;
+  private _order?: string; 
   public get order() {
     return this.getStringAttribute('order');
   }
@@ -8660,7 +8660,7 @@ export class CustomerprofilesSegmentDefinitionSegmentSortAttributesOutputReferen
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -8893,7 +8893,7 @@ export class CustomerprofilesSegmentDefinitionTagsOutputReference extends cdktn.
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -8909,7 +8909,7 @@ export class CustomerprofilesSegmentDefinitionTagsOutputReference extends cdktn.
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -9015,7 +9015,7 @@ export class CustomerprofilesSegmentDefinition extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -9031,7 +9031,7 @@ export class CustomerprofilesSegmentDefinition extends cdktn.TerraformResource {
   }
 
   // display_name - computed: false, optional: false, required: true
-  private _displayName?: string;
+  private _displayName?: string; 
   public get displayName() {
     return this.getStringAttribute('display_name');
   }
@@ -9044,7 +9044,7 @@ export class CustomerprofilesSegmentDefinition extends cdktn.TerraformResource {
   }
 
   // domain_name - computed: false, optional: false, required: true
-  private _domainName?: string;
+  private _domainName?: string; 
   public get domainName() {
     return this.getStringAttribute('domain_name');
   }
@@ -9067,7 +9067,7 @@ export class CustomerprofilesSegmentDefinition extends cdktn.TerraformResource {
   }
 
   // segment_definition_name - computed: false, optional: false, required: true
-  private _segmentDefinitionName?: string;
+  private _segmentDefinitionName?: string; 
   public get segmentDefinitionName() {
     return this.getStringAttribute('segment_definition_name');
   }
@@ -9112,7 +9112,7 @@ export class CustomerprofilesSegmentDefinition extends cdktn.TerraformResource {
   }
 
   // segment_sql_query - computed: true, optional: true, required: false
-  private _segmentSqlQuery?: string;
+  private _segmentSqlQuery?: string; 
   public get segmentSqlQuery() {
     return this.getStringAttribute('segment_sql_query');
   }

@@ -147,7 +147,7 @@ export class NetworkfirewallRuleGroupEncryptionConfigurationOutputReference exte
   }
 
   // key_id - computed: false, optional: true, required: false
-  private _keyId?: string;
+  private _keyId?: string; 
   public get keyId() {
     return this.getStringAttribute('key_id');
   }
@@ -163,7 +163,7 @@ export class NetworkfirewallRuleGroupEncryptionConfigurationOutputReference exte
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -256,7 +256,7 @@ export class NetworkfirewallRuleGroupRuleGroupReferenceSetsIpSetReferencesIpSetR
   }
 
   // reference_arn - computed: false, optional: false, required: true
-  private _referenceArn?: string;
+  private _referenceArn?: string; 
   public get referenceArn() {
     return this.getStringAttribute('reference_arn');
   }
@@ -388,7 +388,7 @@ export class NetworkfirewallRuleGroupRuleGroupReferenceSetsIpSetReferencesOutput
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -588,7 +588,7 @@ export class NetworkfirewallRuleGroupRuleGroupRuleVariablesIpSetsIpSetOutputRefe
   }
 
   // definition - computed: false, optional: false, required: true
-  private _definition?: string[];
+  private _definition?: string[]; 
   public get definition() {
     return cdktn.Fn.tolist(this.getListAttribute('definition'));
   }
@@ -700,7 +700,7 @@ export class NetworkfirewallRuleGroupRuleGroupRuleVariablesIpSetsOutputReference
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -814,7 +814,7 @@ export class NetworkfirewallRuleGroupRuleGroupRuleVariablesPortSetsPortSetOutput
   }
 
   // definition - computed: false, optional: false, required: true
-  private _definition?: string[];
+  private _definition?: string[]; 
   public get definition() {
     return cdktn.Fn.tolist(this.getListAttribute('definition'));
   }
@@ -926,7 +926,7 @@ export class NetworkfirewallRuleGroupRuleGroupRuleVariablesPortSetsOutputReferen
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1195,7 +1195,7 @@ export class NetworkfirewallRuleGroupRuleGroupRulesSourceRulesSourceListStructOu
   }
 
   // generated_rules_type - computed: false, optional: false, required: true
-  private _generatedRulesType?: string;
+  private _generatedRulesType?: string; 
   public get generatedRulesType() {
     return this.getStringAttribute('generated_rules_type');
   }
@@ -1208,7 +1208,7 @@ export class NetworkfirewallRuleGroupRuleGroupRulesSourceRulesSourceListStructOu
   }
 
   // target_types - computed: false, optional: false, required: true
-  private _targetTypes?: string[];
+  private _targetTypes?: string[]; 
   public get targetTypes() {
     return cdktn.Fn.tolist(this.getListAttribute('target_types'));
   }
@@ -1221,7 +1221,7 @@ export class NetworkfirewallRuleGroupRuleGroupRulesSourceRulesSourceListStructOu
   }
 
   // targets - computed: false, optional: false, required: true
-  private _targets?: string[];
+  private _targets?: string[]; 
   public get targets() {
     return cdktn.Fn.tolist(this.getListAttribute('targets'));
   }
@@ -1387,7 +1387,7 @@ export class NetworkfirewallRuleGroupRuleGroupRulesSourceStatefulRuleHeaderOutpu
   }
 
   // destination - computed: false, optional: false, required: true
-  private _destination?: string;
+  private _destination?: string; 
   public get destination() {
     return this.getStringAttribute('destination');
   }
@@ -1400,7 +1400,7 @@ export class NetworkfirewallRuleGroupRuleGroupRulesSourceStatefulRuleHeaderOutpu
   }
 
   // destination_port - computed: false, optional: false, required: true
-  private _destinationPort?: string;
+  private _destinationPort?: string; 
   public get destinationPort() {
     return this.getStringAttribute('destination_port');
   }
@@ -1413,7 +1413,7 @@ export class NetworkfirewallRuleGroupRuleGroupRulesSourceStatefulRuleHeaderOutpu
   }
 
   // direction - computed: false, optional: false, required: true
-  private _direction?: string;
+  private _direction?: string; 
   public get direction() {
     return this.getStringAttribute('direction');
   }
@@ -1426,7 +1426,7 @@ export class NetworkfirewallRuleGroupRuleGroupRulesSourceStatefulRuleHeaderOutpu
   }
 
   // protocol - computed: false, optional: false, required: true
-  private _protocol?: string;
+  private _protocol?: string; 
   public get protocol() {
     return this.getStringAttribute('protocol');
   }
@@ -1439,7 +1439,7 @@ export class NetworkfirewallRuleGroupRuleGroupRulesSourceStatefulRuleHeaderOutpu
   }
 
   // source - computed: false, optional: false, required: true
-  private _source?: string;
+  private _source?: string; 
   public get source() {
     return this.getStringAttribute('source');
   }
@@ -1452,7 +1452,7 @@ export class NetworkfirewallRuleGroupRuleGroupRulesSourceStatefulRuleHeaderOutpu
   }
 
   // source_port - computed: false, optional: false, required: true
-  private _sourcePort?: string;
+  private _sourcePort?: string; 
   public get sourcePort() {
     return this.getStringAttribute('source_port');
   }
@@ -1562,7 +1562,7 @@ export class NetworkfirewallRuleGroupRuleGroupRulesSourceStatefulRuleRuleOptionO
   }
 
   // keyword - computed: false, optional: false, required: true
-  private _keyword?: string;
+  private _keyword?: string; 
   public get keyword() {
     return this.getStringAttribute('keyword');
   }
@@ -1575,7 +1575,7 @@ export class NetworkfirewallRuleGroupRuleGroupRulesSourceStatefulRuleRuleOptionO
   }
 
   // settings - computed: false, optional: true, required: false
-  private _settings?: string[];
+  private _settings?: string[]; 
   public get settings() {
     return cdktn.Fn.tolist(this.getListAttribute('settings'));
   }
@@ -1729,7 +1729,7 @@ export class NetworkfirewallRuleGroupRuleGroupRulesSourceStatefulRuleOutputRefer
   }
 
   // action - computed: false, optional: false, required: true
-  private _action?: string;
+  private _action?: string; 
   public get action() {
     return this.getStringAttribute('action');
   }
@@ -1868,7 +1868,7 @@ export class NetworkfirewallRuleGroupRuleGroupRulesSourceStatelessRulesAndCustom
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2166,7 +2166,7 @@ export class NetworkfirewallRuleGroupRuleGroupRulesSourceStatelessRulesAndCustom
   }
 
   // action_name - computed: false, optional: false, required: true
-  private _actionName?: string;
+  private _actionName?: string; 
   public get actionName() {
     return this.getStringAttribute('action_name');
   }
@@ -2292,7 +2292,7 @@ export class NetworkfirewallRuleGroupRuleGroupRulesSourceStatelessRulesAndCustom
   }
 
   // address_definition - computed: false, optional: false, required: true
-  private _addressDefinition?: string;
+  private _addressDefinition?: string; 
   public get addressDefinition() {
     return this.getStringAttribute('address_definition');
   }
@@ -2422,7 +2422,7 @@ export class NetworkfirewallRuleGroupRuleGroupRulesSourceStatelessRulesAndCustom
   }
 
   // from_port - computed: false, optional: false, required: true
-  private _fromPort?: number;
+  private _fromPort?: number; 
   public get fromPort() {
     return this.getNumberAttribute('from_port');
   }
@@ -2435,7 +2435,7 @@ export class NetworkfirewallRuleGroupRuleGroupRulesSourceStatelessRulesAndCustom
   }
 
   // to_port - computed: false, optional: true, required: false
-  private _toPort?: number;
+  private _toPort?: number; 
   public get toPort() {
     return this.getNumberAttribute('to_port');
   }
@@ -2551,7 +2551,7 @@ export class NetworkfirewallRuleGroupRuleGroupRulesSourceStatelessRulesAndCustom
   }
 
   // address_definition - computed: false, optional: false, required: true
-  private _addressDefinition?: string;
+  private _addressDefinition?: string; 
   public get addressDefinition() {
     return this.getStringAttribute('address_definition');
   }
@@ -2681,7 +2681,7 @@ export class NetworkfirewallRuleGroupRuleGroupRulesSourceStatelessRulesAndCustom
   }
 
   // from_port - computed: false, optional: false, required: true
-  private _fromPort?: number;
+  private _fromPort?: number; 
   public get fromPort() {
     return this.getNumberAttribute('from_port');
   }
@@ -2694,7 +2694,7 @@ export class NetworkfirewallRuleGroupRuleGroupRulesSourceStatelessRulesAndCustom
   }
 
   // to_port - computed: false, optional: true, required: false
-  private _toPort?: number;
+  private _toPort?: number; 
   public get toPort() {
     return this.getNumberAttribute('to_port');
   }
@@ -2827,7 +2827,7 @@ export class NetworkfirewallRuleGroupRuleGroupRulesSourceStatelessRulesAndCustom
   }
 
   // flags - computed: false, optional: false, required: true
-  private _flags?: string[];
+  private _flags?: string[]; 
   public get flags() {
     return cdktn.Fn.tolist(this.getListAttribute('flags'));
   }
@@ -2840,7 +2840,7 @@ export class NetworkfirewallRuleGroupRuleGroupRulesSourceStatelessRulesAndCustom
   }
 
   // masks - computed: false, optional: true, required: false
-  private _masks?: string[];
+  private _masks?: string[]; 
   public get masks() {
     return cdktn.Fn.tolist(this.getListAttribute('masks'));
   }
@@ -3039,7 +3039,7 @@ export class NetworkfirewallRuleGroupRuleGroupRulesSourceStatelessRulesAndCustom
   }
 
   // protocols - computed: false, optional: true, required: false
-  private _protocols?: number[];
+  private _protocols?: number[]; 
   public get protocols() {
     return cdktn.Token.asNumberList(cdktn.Fn.tolist(this.getNumberListAttribute('protocols')));
   }
@@ -3222,7 +3222,7 @@ export class NetworkfirewallRuleGroupRuleGroupRulesSourceStatelessRulesAndCustom
   }
 
   // actions - computed: false, optional: false, required: true
-  private _actions?: string[];
+  private _actions?: string[]; 
   public get actions() {
     return cdktn.Fn.tolist(this.getListAttribute('actions'));
   }
@@ -3347,7 +3347,7 @@ export class NetworkfirewallRuleGroupRuleGroupRulesSourceStatelessRulesAndCustom
   }
 
   // priority - computed: false, optional: false, required: true
-  private _priority?: number;
+  private _priority?: number; 
   public get priority() {
     return this.getNumberAttribute('priority');
   }
@@ -3636,7 +3636,7 @@ export class NetworkfirewallRuleGroupRuleGroupRulesSourceOutputReference extends
   }
 
   // rules_string - computed: false, optional: true, required: false
-  private _rulesString?: string;
+  private _rulesString?: string; 
   public get rulesString() {
     return this.getStringAttribute('rules_string');
   }
@@ -3768,7 +3768,7 @@ export class NetworkfirewallRuleGroupRuleGroupStatefulRuleOptionsOutputReference
   }
 
   // rule_order - computed: false, optional: false, required: true
-  private _ruleOrder?: string;
+  private _ruleOrder?: string; 
   public get ruleOrder() {
     return this.getStringAttribute('rule_order');
   }
@@ -4042,7 +4042,7 @@ export class NetworkfirewallRuleGroup extends cdktn.TerraformResource {
   }
 
   // capacity - computed: false, optional: false, required: true
-  private _capacity?: number;
+  private _capacity?: number; 
   public get capacity() {
     return this.getNumberAttribute('capacity');
   }
@@ -4055,7 +4055,7 @@ export class NetworkfirewallRuleGroup extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -4071,7 +4071,7 @@ export class NetworkfirewallRuleGroup extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -4087,7 +4087,7 @@ export class NetworkfirewallRuleGroup extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -4100,7 +4100,7 @@ export class NetworkfirewallRuleGroup extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -4116,7 +4116,7 @@ export class NetworkfirewallRuleGroup extends cdktn.TerraformResource {
   }
 
   // rules - computed: false, optional: true, required: false
-  private _rules?: string;
+  private _rules?: string; 
   public get rules() {
     return this.getStringAttribute('rules');
   }
@@ -4132,7 +4132,7 @@ export class NetworkfirewallRuleGroup extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -4148,7 +4148,7 @@ export class NetworkfirewallRuleGroup extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -4164,7 +4164,7 @@ export class NetworkfirewallRuleGroup extends cdktn.TerraformResource {
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }

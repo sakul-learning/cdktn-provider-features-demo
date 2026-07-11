@@ -80,7 +80,7 @@ export class Ec2VpnConnectionRoute extends cdktn.TerraformResource {
   // ==========
 
   // destination_cidr_block - computed: false, optional: false, required: true
-  private _destinationCidrBlock?: string;
+  private _destinationCidrBlock?: string; 
   public get destinationCidrBlock() {
     return this.getStringAttribute('destination_cidr_block');
   }
@@ -98,7 +98,7 @@ export class Ec2VpnConnectionRoute extends cdktn.TerraformResource {
   }
 
   // vpn_connection_id - computed: false, optional: false, required: true
-  private _vpnConnectionId?: string;
+  private _vpnConnectionId?: string; 
   public get vpnConnectionId() {
     return this.getStringAttribute('vpn_connection_id');
   }

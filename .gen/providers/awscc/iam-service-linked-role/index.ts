@@ -87,7 +87,7 @@ export class IamServiceLinkedRole extends cdktn.TerraformResource {
   // ==========
 
   // aws_service_name - computed: true, optional: true, required: false
-  private _awsServiceName?: string;
+  private _awsServiceName?: string; 
   public get awsServiceName() {
     return this.getStringAttribute('aws_service_name');
   }
@@ -103,7 +103,7 @@ export class IamServiceLinkedRole extends cdktn.TerraformResource {
   }
 
   // custom_suffix - computed: true, optional: true, required: false
-  private _customSuffix?: string;
+  private _customSuffix?: string; 
   public get customSuffix() {
     return this.getStringAttribute('custom_suffix');
   }
@@ -119,7 +119,7 @@ export class IamServiceLinkedRole extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }

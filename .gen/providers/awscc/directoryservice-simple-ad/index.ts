@@ -162,7 +162,7 @@ export class DirectoryserviceSimpleAdTagsOutputReference extends cdktn.ComplexOb
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -178,7 +178,7 @@ export class DirectoryserviceSimpleAdTagsOutputReference extends cdktn.ComplexOb
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -313,7 +313,7 @@ export class DirectoryserviceSimpleAdVpcSettingsOutputReference extends cdktn.Co
   }
 
   // subnet_ids - computed: false, optional: false, required: true
-  private _subnetIds?: string[];
+  private _subnetIds?: string[]; 
   public get subnetIds() {
     return cdktn.Fn.tolist(this.getListAttribute('subnet_ids'));
   }
@@ -326,7 +326,7 @@ export class DirectoryserviceSimpleAdVpcSettingsOutputReference extends cdktn.Co
   }
 
   // vpc_id - computed: false, optional: false, required: true
-  private _vpcId?: string;
+  private _vpcId?: string; 
   public get vpcId() {
     return this.getStringAttribute('vpc_id');
   }
@@ -410,7 +410,7 @@ export class DirectoryserviceSimpleAd extends cdktn.TerraformResource {
   }
 
   // create_alias - computed: true, optional: true, required: false
-  private _createAlias?: boolean | cdktn.IResolvable;
+  private _createAlias?: boolean | cdktn.IResolvable; 
   public get createAlias() {
     return this.getBooleanAttribute('create_alias');
   }
@@ -426,7 +426,7 @@ export class DirectoryserviceSimpleAd extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -452,7 +452,7 @@ export class DirectoryserviceSimpleAd extends cdktn.TerraformResource {
   }
 
   // enable_sso - computed: true, optional: true, required: false
-  private _enableSso?: boolean | cdktn.IResolvable;
+  private _enableSso?: boolean | cdktn.IResolvable; 
   public get enableSso() {
     return this.getBooleanAttribute('enable_sso');
   }
@@ -473,7 +473,7 @@ export class DirectoryserviceSimpleAd extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -486,7 +486,7 @@ export class DirectoryserviceSimpleAd extends cdktn.TerraformResource {
   }
 
   // password - computed: true, optional: true, required: false
-  private _password?: string;
+  private _password?: string; 
   public get password() {
     return this.getStringAttribute('password');
   }
@@ -502,7 +502,7 @@ export class DirectoryserviceSimpleAd extends cdktn.TerraformResource {
   }
 
   // short_name - computed: true, optional: true, required: false
-  private _shortName?: string;
+  private _shortName?: string; 
   public get shortName() {
     return this.getStringAttribute('short_name');
   }
@@ -518,7 +518,7 @@ export class DirectoryserviceSimpleAd extends cdktn.TerraformResource {
   }
 
   // size - computed: false, optional: false, required: true
-  private _size?: string;
+  private _size?: string; 
   public get size() {
     return this.getStringAttribute('size');
   }

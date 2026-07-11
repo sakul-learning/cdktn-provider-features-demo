@@ -191,7 +191,7 @@ export class StepfunctionsStateMachineAliasDeploymentPreferenceOutputReference e
   }
 
   // alarms - computed: true, optional: true, required: false
-  private _alarms?: string[];
+  private _alarms?: string[]; 
   public get alarms() {
     return cdktn.Fn.tolist(this.getListAttribute('alarms'));
   }
@@ -207,7 +207,7 @@ export class StepfunctionsStateMachineAliasDeploymentPreferenceOutputReference e
   }
 
   // interval - computed: true, optional: true, required: false
-  private _interval?: number;
+  private _interval?: number; 
   public get interval() {
     return this.getNumberAttribute('interval');
   }
@@ -223,7 +223,7 @@ export class StepfunctionsStateMachineAliasDeploymentPreferenceOutputReference e
   }
 
   // percentage - computed: true, optional: true, required: false
-  private _percentage?: number;
+  private _percentage?: number; 
   public get percentage() {
     return this.getNumberAttribute('percentage');
   }
@@ -239,7 +239,7 @@ export class StepfunctionsStateMachineAliasDeploymentPreferenceOutputReference e
   }
 
   // state_machine_version_arn - computed: true, optional: true, required: false
-  private _stateMachineVersionArn?: string;
+  private _stateMachineVersionArn?: string; 
   public get stateMachineVersionArn() {
     return this.getStringAttribute('state_machine_version_arn');
   }
@@ -255,7 +255,7 @@ export class StepfunctionsStateMachineAliasDeploymentPreferenceOutputReference e
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -372,7 +372,7 @@ export class StepfunctionsStateMachineAliasRoutingConfigurationOutputReference e
   }
 
   // state_machine_version_arn - computed: true, optional: true, required: false
-  private _stateMachineVersionArn?: string;
+  private _stateMachineVersionArn?: string; 
   public get stateMachineVersionArn() {
     return this.getStringAttribute('state_machine_version_arn');
   }
@@ -388,7 +388,7 @@ export class StepfunctionsStateMachineAliasRoutingConfigurationOutputReference e
   }
 
   // weight - computed: true, optional: true, required: false
-  private _weight?: number;
+  private _weight?: number; 
   public get weight() {
     return this.getNumberAttribute('weight');
   }
@@ -507,7 +507,7 @@ export class StepfunctionsStateMachineAlias extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -528,7 +528,7 @@ export class StepfunctionsStateMachineAlias extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -560,7 +560,7 @@ export class StepfunctionsStateMachineAlias extends cdktn.TerraformResource {
   }
 
   // state_machine_arn - computed: true, optional: true, required: false
-  private _stateMachineArn?: string;
+  private _stateMachineArn?: string; 
   public get stateMachineArn() {
     return this.getStringAttribute('state_machine_arn');
   }

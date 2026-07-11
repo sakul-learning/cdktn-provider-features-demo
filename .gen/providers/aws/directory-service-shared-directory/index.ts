@@ -134,7 +134,7 @@ export class DirectoryServiceSharedDirectoryTargetOutputReference extends cdktn.
   }
 
   // id - computed: false, optional: false, required: true
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -147,7 +147,7 @@ export class DirectoryServiceSharedDirectoryTargetOutputReference extends cdktn.
   }
 
   // type - computed: false, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -241,7 +241,7 @@ export class DirectoryServiceSharedDirectoryTimeoutsOutputReference extends cdkt
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -321,7 +321,7 @@ export class DirectoryServiceSharedDirectory extends cdktn.TerraformResource {
   // ==========
 
   // directory_id - computed: false, optional: false, required: true
-  private _directoryId?: string;
+  private _directoryId?: string; 
   public get directoryId() {
     return this.getStringAttribute('directory_id');
   }
@@ -334,7 +334,7 @@ export class DirectoryServiceSharedDirectory extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -350,7 +350,7 @@ export class DirectoryServiceSharedDirectory extends cdktn.TerraformResource {
   }
 
   // method - computed: false, optional: true, required: false
-  private _method?: string;
+  private _method?: string; 
   public get method() {
     return this.getStringAttribute('method');
   }
@@ -366,7 +366,7 @@ export class DirectoryServiceSharedDirectory extends cdktn.TerraformResource {
   }
 
   // notes - computed: false, optional: true, required: false
-  private _notes?: string;
+  private _notes?: string; 
   public get notes() {
     return this.getStringAttribute('notes');
   }
@@ -382,7 +382,7 @@ export class DirectoryServiceSharedDirectory extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

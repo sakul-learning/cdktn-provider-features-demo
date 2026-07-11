@@ -204,7 +204,7 @@ export class LexIntentConclusionStatementMessageOutputReference extends cdktn.Co
   }
 
   // content - computed: false, optional: false, required: true
-  private _content?: string;
+  private _content?: string; 
   public get content() {
     return this.getStringAttribute('content');
   }
@@ -217,7 +217,7 @@ export class LexIntentConclusionStatementMessageOutputReference extends cdktn.Co
   }
 
   // content_type - computed: false, optional: false, required: true
-  private _contentType?: string;
+  private _contentType?: string; 
   public get contentType() {
     return this.getStringAttribute('content_type');
   }
@@ -230,7 +230,7 @@ export class LexIntentConclusionStatementMessageOutputReference extends cdktn.Co
   }
 
   // group_number - computed: false, optional: true, required: false
-  private _groupNumber?: number;
+  private _groupNumber?: number; 
   public get groupNumber() {
     return this.getNumberAttribute('group_number');
   }
@@ -353,7 +353,7 @@ export class LexIntentConclusionStatementOutputReference extends cdktn.ComplexOb
   }
 
   // response_card - computed: false, optional: true, required: false
-  private _responseCard?: string;
+  private _responseCard?: string; 
   public get responseCard() {
     return this.getStringAttribute('response_card');
   }
@@ -496,7 +496,7 @@ export class LexIntentConfirmationPromptMessageOutputReference extends cdktn.Com
   }
 
   // content - computed: false, optional: false, required: true
-  private _content?: string;
+  private _content?: string; 
   public get content() {
     return this.getStringAttribute('content');
   }
@@ -509,7 +509,7 @@ export class LexIntentConfirmationPromptMessageOutputReference extends cdktn.Com
   }
 
   // content_type - computed: false, optional: false, required: true
-  private _contentType?: string;
+  private _contentType?: string; 
   public get contentType() {
     return this.getStringAttribute('content_type');
   }
@@ -522,7 +522,7 @@ export class LexIntentConfirmationPromptMessageOutputReference extends cdktn.Com
   }
 
   // group_number - computed: false, optional: true, required: false
-  private _groupNumber?: number;
+  private _groupNumber?: number; 
   public get groupNumber() {
     return this.getNumberAttribute('group_number');
   }
@@ -662,7 +662,7 @@ export class LexIntentConfirmationPromptOutputReference extends cdktn.ComplexObj
   }
 
   // max_attempts - computed: false, optional: false, required: true
-  private _maxAttempts?: number;
+  private _maxAttempts?: number; 
   public get maxAttempts() {
     return this.getNumberAttribute('max_attempts');
   }
@@ -675,7 +675,7 @@ export class LexIntentConfirmationPromptOutputReference extends cdktn.ComplexObj
   }
 
   // response_card - computed: false, optional: true, required: false
-  private _responseCard?: string;
+  private _responseCard?: string; 
   public get responseCard() {
     return this.getStringAttribute('response_card');
   }
@@ -789,7 +789,7 @@ export class LexIntentDialogCodeHookOutputReference extends cdktn.ComplexObject 
   }
 
   // message_version - computed: false, optional: false, required: true
-  private _messageVersion?: string;
+  private _messageVersion?: string; 
   public get messageVersion() {
     return this.getStringAttribute('message_version');
   }
@@ -802,7 +802,7 @@ export class LexIntentDialogCodeHookOutputReference extends cdktn.ComplexObject 
   }
 
   // uri - computed: false, optional: false, required: true
-  private _uri?: string;
+  private _uri?: string; 
   public get uri() {
     return this.getStringAttribute('uri');
   }
@@ -929,7 +929,7 @@ export class LexIntentFollowUpPromptPromptMessageOutputReference extends cdktn.C
   }
 
   // content - computed: false, optional: false, required: true
-  private _content?: string;
+  private _content?: string; 
   public get content() {
     return this.getStringAttribute('content');
   }
@@ -942,7 +942,7 @@ export class LexIntentFollowUpPromptPromptMessageOutputReference extends cdktn.C
   }
 
   // content_type - computed: false, optional: false, required: true
-  private _contentType?: string;
+  private _contentType?: string; 
   public get contentType() {
     return this.getStringAttribute('content_type');
   }
@@ -955,7 +955,7 @@ export class LexIntentFollowUpPromptPromptMessageOutputReference extends cdktn.C
   }
 
   // group_number - computed: false, optional: true, required: false
-  private _groupNumber?: number;
+  private _groupNumber?: number; 
   public get groupNumber() {
     return this.getNumberAttribute('group_number');
   }
@@ -1095,7 +1095,7 @@ export class LexIntentFollowUpPromptPromptOutputReference extends cdktn.ComplexO
   }
 
   // max_attempts - computed: false, optional: false, required: true
-  private _maxAttempts?: number;
+  private _maxAttempts?: number; 
   public get maxAttempts() {
     return this.getNumberAttribute('max_attempts');
   }
@@ -1108,7 +1108,7 @@ export class LexIntentFollowUpPromptPromptOutputReference extends cdktn.ComplexO
   }
 
   // response_card - computed: false, optional: true, required: false
-  private _responseCard?: string;
+  private _responseCard?: string; 
   public get responseCard() {
     return this.getStringAttribute('response_card');
   }
@@ -1251,7 +1251,7 @@ export class LexIntentFollowUpPromptRejectionStatementMessageOutputReference ext
   }
 
   // content - computed: false, optional: false, required: true
-  private _content?: string;
+  private _content?: string; 
   public get content() {
     return this.getStringAttribute('content');
   }
@@ -1264,7 +1264,7 @@ export class LexIntentFollowUpPromptRejectionStatementMessageOutputReference ext
   }
 
   // content_type - computed: false, optional: false, required: true
-  private _contentType?: string;
+  private _contentType?: string; 
   public get contentType() {
     return this.getStringAttribute('content_type');
   }
@@ -1277,7 +1277,7 @@ export class LexIntentFollowUpPromptRejectionStatementMessageOutputReference ext
   }
 
   // group_number - computed: false, optional: true, required: false
-  private _groupNumber?: number;
+  private _groupNumber?: number; 
   public get groupNumber() {
     return this.getNumberAttribute('group_number');
   }
@@ -1400,7 +1400,7 @@ export class LexIntentFollowUpPromptRejectionStatementOutputReference extends cd
   }
 
   // response_card - computed: false, optional: true, required: false
-  private _responseCard?: string;
+  private _responseCard?: string; 
   public get responseCard() {
     return this.getStringAttribute('response_card');
   }
@@ -1629,7 +1629,7 @@ export class LexIntentFulfillmentActivityCodeHookOutputReference extends cdktn.C
   }
 
   // message_version - computed: false, optional: false, required: true
-  private _messageVersion?: string;
+  private _messageVersion?: string; 
   public get messageVersion() {
     return this.getStringAttribute('message_version');
   }
@@ -1642,7 +1642,7 @@ export class LexIntentFulfillmentActivityCodeHookOutputReference extends cdktn.C
   }
 
   // uri - computed: false, optional: false, required: true
-  private _uri?: string;
+  private _uri?: string; 
   public get uri() {
     return this.getStringAttribute('uri');
   }
@@ -1742,7 +1742,7 @@ export class LexIntentFulfillmentActivityOutputReference extends cdktn.ComplexOb
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -1885,7 +1885,7 @@ export class LexIntentRejectionStatementMessageOutputReference extends cdktn.Com
   }
 
   // content - computed: false, optional: false, required: true
-  private _content?: string;
+  private _content?: string; 
   public get content() {
     return this.getStringAttribute('content');
   }
@@ -1898,7 +1898,7 @@ export class LexIntentRejectionStatementMessageOutputReference extends cdktn.Com
   }
 
   // content_type - computed: false, optional: false, required: true
-  private _contentType?: string;
+  private _contentType?: string; 
   public get contentType() {
     return this.getStringAttribute('content_type');
   }
@@ -1911,7 +1911,7 @@ export class LexIntentRejectionStatementMessageOutputReference extends cdktn.Com
   }
 
   // group_number - computed: false, optional: true, required: false
-  private _groupNumber?: number;
+  private _groupNumber?: number; 
   public get groupNumber() {
     return this.getNumberAttribute('group_number');
   }
@@ -2034,7 +2034,7 @@ export class LexIntentRejectionStatementOutputReference extends cdktn.ComplexObj
   }
 
   // response_card - computed: false, optional: true, required: false
-  private _responseCard?: string;
+  private _responseCard?: string; 
   public get responseCard() {
     return this.getStringAttribute('response_card');
   }
@@ -2177,7 +2177,7 @@ export class LexIntentSlotValueElicitationPromptMessageOutputReference extends c
   }
 
   // content - computed: false, optional: false, required: true
-  private _content?: string;
+  private _content?: string; 
   public get content() {
     return this.getStringAttribute('content');
   }
@@ -2190,7 +2190,7 @@ export class LexIntentSlotValueElicitationPromptMessageOutputReference extends c
   }
 
   // content_type - computed: false, optional: false, required: true
-  private _contentType?: string;
+  private _contentType?: string; 
   public get contentType() {
     return this.getStringAttribute('content_type');
   }
@@ -2203,7 +2203,7 @@ export class LexIntentSlotValueElicitationPromptMessageOutputReference extends c
   }
 
   // group_number - computed: false, optional: true, required: false
-  private _groupNumber?: number;
+  private _groupNumber?: number; 
   public get groupNumber() {
     return this.getNumberAttribute('group_number');
   }
@@ -2343,7 +2343,7 @@ export class LexIntentSlotValueElicitationPromptOutputReference extends cdktn.Co
   }
 
   // max_attempts - computed: false, optional: false, required: true
-  private _maxAttempts?: number;
+  private _maxAttempts?: number; 
   public get maxAttempts() {
     return this.getNumberAttribute('max_attempts');
   }
@@ -2356,7 +2356,7 @@ export class LexIntentSlotValueElicitationPromptOutputReference extends cdktn.Co
   }
 
   // response_card - computed: false, optional: true, required: false
-  private _responseCard?: string;
+  private _responseCard?: string; 
   public get responseCard() {
     return this.getStringAttribute('response_card');
   }
@@ -2603,7 +2603,7 @@ export class LexIntentSlotOutputReference extends cdktn.ComplexObject {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -2619,7 +2619,7 @@ export class LexIntentSlotOutputReference extends cdktn.ComplexObject {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2632,7 +2632,7 @@ export class LexIntentSlotOutputReference extends cdktn.ComplexObject {
   }
 
   // priority - computed: false, optional: true, required: false
-  private _priority?: number;
+  private _priority?: number; 
   public get priority() {
     return this.getNumberAttribute('priority');
   }
@@ -2648,7 +2648,7 @@ export class LexIntentSlotOutputReference extends cdktn.ComplexObject {
   }
 
   // response_card - computed: false, optional: true, required: false
-  private _responseCard?: string;
+  private _responseCard?: string; 
   public get responseCard() {
     return this.getStringAttribute('response_card');
   }
@@ -2664,7 +2664,7 @@ export class LexIntentSlotOutputReference extends cdktn.ComplexObject {
   }
 
   // sample_utterances - computed: false, optional: true, required: false
-  private _sampleUtterances?: string[];
+  private _sampleUtterances?: string[]; 
   public get sampleUtterances() {
     return this.getListAttribute('sample_utterances');
   }
@@ -2680,7 +2680,7 @@ export class LexIntentSlotOutputReference extends cdktn.ComplexObject {
   }
 
   // slot_constraint - computed: false, optional: false, required: true
-  private _slotConstraint?: string;
+  private _slotConstraint?: string; 
   public get slotConstraint() {
     return this.getStringAttribute('slot_constraint');
   }
@@ -2693,7 +2693,7 @@ export class LexIntentSlotOutputReference extends cdktn.ComplexObject {
   }
 
   // slot_type - computed: false, optional: false, required: true
-  private _slotType?: string;
+  private _slotType?: string; 
   public get slotType() {
     return this.getStringAttribute('slot_type');
   }
@@ -2706,7 +2706,7 @@ export class LexIntentSlotOutputReference extends cdktn.ComplexObject {
   }
 
   // slot_type_version - computed: false, optional: true, required: false
-  private _slotTypeVersion?: string;
+  private _slotTypeVersion?: string; 
   public get slotTypeVersion() {
     return this.getStringAttribute('slot_type_version');
   }
@@ -2870,7 +2870,7 @@ export class LexIntentTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -2886,7 +2886,7 @@ export class LexIntentTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -2902,7 +2902,7 @@ export class LexIntentTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -3000,7 +3000,7 @@ export class LexIntent extends cdktn.TerraformResource {
   }
 
   // create_version - computed: false, optional: true, required: false
-  private _createVersion?: boolean | cdktn.IResolvable;
+  private _createVersion?: boolean | cdktn.IResolvable; 
   public get createVersion() {
     return this.getBooleanAttribute('create_version');
   }
@@ -3021,7 +3021,7 @@ export class LexIntent extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -3037,7 +3037,7 @@ export class LexIntent extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -3058,7 +3058,7 @@ export class LexIntent extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -3071,7 +3071,7 @@ export class LexIntent extends cdktn.TerraformResource {
   }
 
   // parent_intent_signature - computed: false, optional: true, required: false
-  private _parentIntentSignature?: string;
+  private _parentIntentSignature?: string; 
   public get parentIntentSignature() {
     return this.getStringAttribute('parent_intent_signature');
   }
@@ -3087,7 +3087,7 @@ export class LexIntent extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -3103,7 +3103,7 @@ export class LexIntent extends cdktn.TerraformResource {
   }
 
   // sample_utterances - computed: false, optional: true, required: false
-  private _sampleUtterances?: string[];
+  private _sampleUtterances?: string[]; 
   public get sampleUtterances() {
     return cdktn.Fn.tolist(this.getListAttribute('sample_utterances'));
   }

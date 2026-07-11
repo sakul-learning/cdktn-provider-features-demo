@@ -290,7 +290,7 @@ export class DataAwsS3ControlAccessPoints extends cdktn.TerraformDataSource {
   }
 
   // account_id - computed: false, optional: true, required: false
-  private _accountId?: string;
+  private _accountId?: string; 
   public get accountId() {
     return this.getStringAttribute('account_id');
   }
@@ -306,7 +306,7 @@ export class DataAwsS3ControlAccessPoints extends cdktn.TerraformDataSource {
   }
 
   // bucket - computed: false, optional: true, required: false
-  private _bucket?: string;
+  private _bucket?: string; 
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -322,7 +322,7 @@ export class DataAwsS3ControlAccessPoints extends cdktn.TerraformDataSource {
   }
 
   // data_source_id - computed: false, optional: true, required: false
-  private _dataSourceId?: string;
+  private _dataSourceId?: string; 
   public get dataSourceId() {
     return this.getStringAttribute('data_source_id');
   }
@@ -338,7 +338,7 @@ export class DataAwsS3ControlAccessPoints extends cdktn.TerraformDataSource {
   }
 
   // data_source_type - computed: false, optional: true, required: false
-  private _dataSourceType?: string;
+  private _dataSourceType?: string; 
   public get dataSourceType() {
     return this.getStringAttribute('data_source_type');
   }
@@ -354,7 +354,7 @@ export class DataAwsS3ControlAccessPoints extends cdktn.TerraformDataSource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

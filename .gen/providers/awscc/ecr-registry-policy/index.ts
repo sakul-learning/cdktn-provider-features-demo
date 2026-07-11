@@ -78,7 +78,7 @@ export class EcrRegistryPolicy extends cdktn.TerraformResource {
   }
 
   // policy_text - computed: false, optional: false, required: true
-  private _policyText?: string;
+  private _policyText?: string; 
   public get policyText() {
     return this.getStringAttribute('policy_text');
   }

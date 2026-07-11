@@ -198,7 +198,7 @@ export class PipesPipeEnrichmentParametersHttpParametersOutputReference extends 
   }
 
   // header_parameters - computed: false, optional: true, required: false
-  private _headerParameters?: { [key: string]: string };
+  private _headerParameters?: { [key: string]: string }; 
   public get headerParameters() {
     return this.getStringMapAttribute('header_parameters');
   }
@@ -214,7 +214,7 @@ export class PipesPipeEnrichmentParametersHttpParametersOutputReference extends 
   }
 
   // path_parameter_values - computed: false, optional: true, required: false
-  private _pathParameterValues?: string[];
+  private _pathParameterValues?: string[]; 
   public get pathParameterValues() {
     return this.getListAttribute('path_parameter_values');
   }
@@ -230,7 +230,7 @@ export class PipesPipeEnrichmentParametersHttpParametersOutputReference extends 
   }
 
   // query_string_parameters - computed: false, optional: true, required: false
-  private _queryStringParameters?: { [key: string]: string };
+  private _queryStringParameters?: { [key: string]: string }; 
   public get queryStringParameters() {
     return this.getStringMapAttribute('query_string_parameters');
   }
@@ -333,7 +333,7 @@ export class PipesPipeEnrichmentParametersOutputReference extends cdktn.ComplexO
   }
 
   // input_template - computed: false, optional: true, required: false
-  private _inputTemplate?: string;
+  private _inputTemplate?: string; 
   public get inputTemplate() {
     return this.getStringAttribute('input_template');
   }
@@ -433,7 +433,7 @@ export class PipesPipeLogConfigurationCloudwatchLogsLogDestinationOutputReferenc
   }
 
   // log_group_arn - computed: false, optional: false, required: true
-  private _logGroupArn?: string;
+  private _logGroupArn?: string; 
   public get logGroupArn() {
     return this.getStringAttribute('log_group_arn');
   }
@@ -514,7 +514,7 @@ export class PipesPipeLogConfigurationFirehoseLogDestinationOutputReference exte
   }
 
   // delivery_stream_arn - computed: false, optional: false, required: true
-  private _deliveryStreamArn?: string;
+  private _deliveryStreamArn?: string; 
   public get deliveryStreamArn() {
     return this.getStringAttribute('delivery_stream_arn');
   }
@@ -646,7 +646,7 @@ export class PipesPipeLogConfigurationS3LogDestinationOutputReference extends cd
   }
 
   // bucket_name - computed: false, optional: false, required: true
-  private _bucketName?: string;
+  private _bucketName?: string; 
   public get bucketName() {
     return this.getStringAttribute('bucket_name');
   }
@@ -659,7 +659,7 @@ export class PipesPipeLogConfigurationS3LogDestinationOutputReference extends cd
   }
 
   // bucket_owner - computed: false, optional: false, required: true
-  private _bucketOwner?: string;
+  private _bucketOwner?: string; 
   public get bucketOwner() {
     return this.getStringAttribute('bucket_owner');
   }
@@ -672,7 +672,7 @@ export class PipesPipeLogConfigurationS3LogDestinationOutputReference extends cd
   }
 
   // output_format - computed: false, optional: true, required: false
-  private _outputFormat?: string;
+  private _outputFormat?: string; 
   public get outputFormat() {
     return this.getStringAttribute('output_format');
   }
@@ -688,7 +688,7 @@ export class PipesPipeLogConfigurationS3LogDestinationOutputReference extends cd
   }
 
   // prefix - computed: false, optional: true, required: false
-  private _prefix?: string;
+  private _prefix?: string; 
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -846,7 +846,7 @@ export class PipesPipeLogConfigurationOutputReference extends cdktn.ComplexObjec
   }
 
   // include_execution_data - computed: false, optional: true, required: false
-  private _includeExecutionData?: string[];
+  private _includeExecutionData?: string[]; 
   public get includeExecutionData() {
     return cdktn.Fn.tolist(this.getListAttribute('include_execution_data'));
   }
@@ -862,7 +862,7 @@ export class PipesPipeLogConfigurationOutputReference extends cdktn.ComplexObjec
   }
 
   // level - computed: false, optional: false, required: true
-  private _level?: string;
+  private _level?: string; 
   public get level() {
     return this.getStringAttribute('level');
   }
@@ -991,7 +991,7 @@ export class PipesPipeSourceParametersActivemqBrokerParametersCredentialsOutputR
   }
 
   // basic_auth - computed: false, optional: false, required: true
-  private _basicAuth?: string;
+  private _basicAuth?: string; 
   public get basicAuth() {
     return this.getStringAttribute('basic_auth');
   }
@@ -1125,7 +1125,7 @@ export class PipesPipeSourceParametersActivemqBrokerParametersOutputReference ex
   }
 
   // batch_size - computed: true, optional: true, required: false
-  private _batchSize?: number;
+  private _batchSize?: number; 
   public get batchSize() {
     return this.getNumberAttribute('batch_size');
   }
@@ -1141,7 +1141,7 @@ export class PipesPipeSourceParametersActivemqBrokerParametersOutputReference ex
   }
 
   // maximum_batching_window_in_seconds - computed: true, optional: true, required: false
-  private _maximumBatchingWindowInSeconds?: number;
+  private _maximumBatchingWindowInSeconds?: number; 
   public get maximumBatchingWindowInSeconds() {
     return this.getNumberAttribute('maximum_batching_window_in_seconds');
   }
@@ -1157,7 +1157,7 @@ export class PipesPipeSourceParametersActivemqBrokerParametersOutputReference ex
   }
 
   // queue_name - computed: false, optional: false, required: true
-  private _queueName?: string;
+  private _queueName?: string; 
   public get queueName() {
     return this.getStringAttribute('queue_name');
   }
@@ -1251,7 +1251,7 @@ export class PipesPipeSourceParametersDynamodbStreamParametersDeadLetterConfigOu
   }
 
   // arn - computed: false, optional: true, required: false
-  private _arn?: string;
+  private _arn?: string; 
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -1456,7 +1456,7 @@ export class PipesPipeSourceParametersDynamodbStreamParametersOutputReference ex
   }
 
   // batch_size - computed: true, optional: true, required: false
-  private _batchSize?: number;
+  private _batchSize?: number; 
   public get batchSize() {
     return this.getNumberAttribute('batch_size');
   }
@@ -1472,7 +1472,7 @@ export class PipesPipeSourceParametersDynamodbStreamParametersOutputReference ex
   }
 
   // maximum_batching_window_in_seconds - computed: true, optional: true, required: false
-  private _maximumBatchingWindowInSeconds?: number;
+  private _maximumBatchingWindowInSeconds?: number; 
   public get maximumBatchingWindowInSeconds() {
     return this.getNumberAttribute('maximum_batching_window_in_seconds');
   }
@@ -1488,7 +1488,7 @@ export class PipesPipeSourceParametersDynamodbStreamParametersOutputReference ex
   }
 
   // maximum_record_age_in_seconds - computed: true, optional: true, required: false
-  private _maximumRecordAgeInSeconds?: number;
+  private _maximumRecordAgeInSeconds?: number; 
   public get maximumRecordAgeInSeconds() {
     return this.getNumberAttribute('maximum_record_age_in_seconds');
   }
@@ -1504,7 +1504,7 @@ export class PipesPipeSourceParametersDynamodbStreamParametersOutputReference ex
   }
 
   // maximum_retry_attempts - computed: false, optional: true, required: false
-  private _maximumRetryAttempts?: number;
+  private _maximumRetryAttempts?: number; 
   public get maximumRetryAttempts() {
     return this.getNumberAttribute('maximum_retry_attempts');
   }
@@ -1520,7 +1520,7 @@ export class PipesPipeSourceParametersDynamodbStreamParametersOutputReference ex
   }
 
   // on_partial_batch_item_failure - computed: false, optional: true, required: false
-  private _onPartialBatchItemFailure?: string;
+  private _onPartialBatchItemFailure?: string; 
   public get onPartialBatchItemFailure() {
     return this.getStringAttribute('on_partial_batch_item_failure');
   }
@@ -1536,7 +1536,7 @@ export class PipesPipeSourceParametersDynamodbStreamParametersOutputReference ex
   }
 
   // parallelization_factor - computed: true, optional: true, required: false
-  private _parallelizationFactor?: number;
+  private _parallelizationFactor?: number; 
   public get parallelizationFactor() {
     return this.getNumberAttribute('parallelization_factor');
   }
@@ -1552,7 +1552,7 @@ export class PipesPipeSourceParametersDynamodbStreamParametersOutputReference ex
   }
 
   // starting_position - computed: false, optional: false, required: true
-  private _startingPosition?: string;
+  private _startingPosition?: string; 
   public get startingPosition() {
     return this.getStringAttribute('starting_position');
   }
@@ -1661,7 +1661,7 @@ export class PipesPipeSourceParametersFilterCriteriaFilterOutputReference extend
   }
 
   // pattern - computed: false, optional: false, required: true
-  private _pattern?: string;
+  private _pattern?: string; 
   public get pattern() {
     return this.getStringAttribute('pattern');
   }
@@ -1848,7 +1848,7 @@ export class PipesPipeSourceParametersKinesisStreamParametersDeadLetterConfigOut
   }
 
   // arn - computed: false, optional: true, required: false
-  private _arn?: string;
+  private _arn?: string; 
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -2070,7 +2070,7 @@ export class PipesPipeSourceParametersKinesisStreamParametersOutputReference ext
   }
 
   // batch_size - computed: true, optional: true, required: false
-  private _batchSize?: number;
+  private _batchSize?: number; 
   public get batchSize() {
     return this.getNumberAttribute('batch_size');
   }
@@ -2086,7 +2086,7 @@ export class PipesPipeSourceParametersKinesisStreamParametersOutputReference ext
   }
 
   // maximum_batching_window_in_seconds - computed: true, optional: true, required: false
-  private _maximumBatchingWindowInSeconds?: number;
+  private _maximumBatchingWindowInSeconds?: number; 
   public get maximumBatchingWindowInSeconds() {
     return this.getNumberAttribute('maximum_batching_window_in_seconds');
   }
@@ -2102,7 +2102,7 @@ export class PipesPipeSourceParametersKinesisStreamParametersOutputReference ext
   }
 
   // maximum_record_age_in_seconds - computed: true, optional: true, required: false
-  private _maximumRecordAgeInSeconds?: number;
+  private _maximumRecordAgeInSeconds?: number; 
   public get maximumRecordAgeInSeconds() {
     return this.getNumberAttribute('maximum_record_age_in_seconds');
   }
@@ -2118,7 +2118,7 @@ export class PipesPipeSourceParametersKinesisStreamParametersOutputReference ext
   }
 
   // maximum_retry_attempts - computed: false, optional: true, required: false
-  private _maximumRetryAttempts?: number;
+  private _maximumRetryAttempts?: number; 
   public get maximumRetryAttempts() {
     return this.getNumberAttribute('maximum_retry_attempts');
   }
@@ -2134,7 +2134,7 @@ export class PipesPipeSourceParametersKinesisStreamParametersOutputReference ext
   }
 
   // on_partial_batch_item_failure - computed: false, optional: true, required: false
-  private _onPartialBatchItemFailure?: string;
+  private _onPartialBatchItemFailure?: string; 
   public get onPartialBatchItemFailure() {
     return this.getStringAttribute('on_partial_batch_item_failure');
   }
@@ -2150,7 +2150,7 @@ export class PipesPipeSourceParametersKinesisStreamParametersOutputReference ext
   }
 
   // parallelization_factor - computed: true, optional: true, required: false
-  private _parallelizationFactor?: number;
+  private _parallelizationFactor?: number; 
   public get parallelizationFactor() {
     return this.getNumberAttribute('parallelization_factor');
   }
@@ -2166,7 +2166,7 @@ export class PipesPipeSourceParametersKinesisStreamParametersOutputReference ext
   }
 
   // starting_position - computed: false, optional: false, required: true
-  private _startingPosition?: string;
+  private _startingPosition?: string; 
   public get startingPosition() {
     return this.getStringAttribute('starting_position');
   }
@@ -2179,7 +2179,7 @@ export class PipesPipeSourceParametersKinesisStreamParametersOutputReference ext
   }
 
   // starting_position_timestamp - computed: false, optional: true, required: false
-  private _startingPositionTimestamp?: string;
+  private _startingPositionTimestamp?: string; 
   public get startingPositionTimestamp() {
     return this.getStringAttribute('starting_position_timestamp');
   }
@@ -2296,7 +2296,7 @@ export class PipesPipeSourceParametersManagedStreamingKafkaParametersCredentials
   }
 
   // client_certificate_tls_auth - computed: false, optional: true, required: false
-  private _clientCertificateTlsAuth?: string;
+  private _clientCertificateTlsAuth?: string; 
   public get clientCertificateTlsAuth() {
     return this.getStringAttribute('client_certificate_tls_auth');
   }
@@ -2312,7 +2312,7 @@ export class PipesPipeSourceParametersManagedStreamingKafkaParametersCredentials
   }
 
   // sasl_scram_512_auth - computed: false, optional: true, required: false
-  private _saslScram512Auth?: string;
+  private _saslScram512Auth?: string; 
   public get saslScram512Auth() {
     return this.getStringAttribute('sasl_scram_512_auth');
   }
@@ -2483,7 +2483,7 @@ export class PipesPipeSourceParametersManagedStreamingKafkaParametersOutputRefer
   }
 
   // batch_size - computed: true, optional: true, required: false
-  private _batchSize?: number;
+  private _batchSize?: number; 
   public get batchSize() {
     return this.getNumberAttribute('batch_size');
   }
@@ -2499,7 +2499,7 @@ export class PipesPipeSourceParametersManagedStreamingKafkaParametersOutputRefer
   }
 
   // consumer_group_id - computed: false, optional: true, required: false
-  private _consumerGroupId?: string;
+  private _consumerGroupId?: string; 
   public get consumerGroupId() {
     return this.getStringAttribute('consumer_group_id');
   }
@@ -2515,7 +2515,7 @@ export class PipesPipeSourceParametersManagedStreamingKafkaParametersOutputRefer
   }
 
   // maximum_batching_window_in_seconds - computed: true, optional: true, required: false
-  private _maximumBatchingWindowInSeconds?: number;
+  private _maximumBatchingWindowInSeconds?: number; 
   public get maximumBatchingWindowInSeconds() {
     return this.getNumberAttribute('maximum_batching_window_in_seconds');
   }
@@ -2531,7 +2531,7 @@ export class PipesPipeSourceParametersManagedStreamingKafkaParametersOutputRefer
   }
 
   // starting_position - computed: false, optional: true, required: false
-  private _startingPosition?: string;
+  private _startingPosition?: string; 
   public get startingPosition() {
     return this.getStringAttribute('starting_position');
   }
@@ -2547,7 +2547,7 @@ export class PipesPipeSourceParametersManagedStreamingKafkaParametersOutputRefer
   }
 
   // topic_name - computed: false, optional: false, required: true
-  private _topicName?: string;
+  private _topicName?: string; 
   public get topicName() {
     return this.getStringAttribute('topic_name');
   }
@@ -2644,7 +2644,7 @@ export class PipesPipeSourceParametersRabbitmqBrokerParametersCredentialsOutputR
   }
 
   // basic_auth - computed: false, optional: false, required: true
-  private _basicAuth?: string;
+  private _basicAuth?: string; 
   public get basicAuth() {
     return this.getStringAttribute('basic_auth');
   }
@@ -2795,7 +2795,7 @@ export class PipesPipeSourceParametersRabbitmqBrokerParametersOutputReference ex
   }
 
   // batch_size - computed: true, optional: true, required: false
-  private _batchSize?: number;
+  private _batchSize?: number; 
   public get batchSize() {
     return this.getNumberAttribute('batch_size');
   }
@@ -2811,7 +2811,7 @@ export class PipesPipeSourceParametersRabbitmqBrokerParametersOutputReference ex
   }
 
   // maximum_batching_window_in_seconds - computed: true, optional: true, required: false
-  private _maximumBatchingWindowInSeconds?: number;
+  private _maximumBatchingWindowInSeconds?: number; 
   public get maximumBatchingWindowInSeconds() {
     return this.getNumberAttribute('maximum_batching_window_in_seconds');
   }
@@ -2827,7 +2827,7 @@ export class PipesPipeSourceParametersRabbitmqBrokerParametersOutputReference ex
   }
 
   // queue_name - computed: false, optional: false, required: true
-  private _queueName?: string;
+  private _queueName?: string; 
   public get queueName() {
     return this.getStringAttribute('queue_name');
   }
@@ -2840,7 +2840,7 @@ export class PipesPipeSourceParametersRabbitmqBrokerParametersOutputReference ex
   }
 
   // virtual_host - computed: false, optional: true, required: false
-  private _virtualHost?: string;
+  private _virtualHost?: string; 
   public get virtualHost() {
     return this.getStringAttribute('virtual_host');
   }
@@ -2988,7 +2988,7 @@ export class PipesPipeSourceParametersSelfManagedKafkaParametersCredentialsOutpu
   }
 
   // basic_auth - computed: false, optional: true, required: false
-  private _basicAuth?: string;
+  private _basicAuth?: string; 
   public get basicAuth() {
     return this.getStringAttribute('basic_auth');
   }
@@ -3004,7 +3004,7 @@ export class PipesPipeSourceParametersSelfManagedKafkaParametersCredentialsOutpu
   }
 
   // client_certificate_tls_auth - computed: false, optional: true, required: false
-  private _clientCertificateTlsAuth?: string;
+  private _clientCertificateTlsAuth?: string; 
   public get clientCertificateTlsAuth() {
     return this.getStringAttribute('client_certificate_tls_auth');
   }
@@ -3020,7 +3020,7 @@ export class PipesPipeSourceParametersSelfManagedKafkaParametersCredentialsOutpu
   }
 
   // sasl_scram_256_auth - computed: false, optional: true, required: false
-  private _saslScram256Auth?: string;
+  private _saslScram256Auth?: string; 
   public get saslScram256Auth() {
     return this.getStringAttribute('sasl_scram_256_auth');
   }
@@ -3036,7 +3036,7 @@ export class PipesPipeSourceParametersSelfManagedKafkaParametersCredentialsOutpu
   }
 
   // sasl_scram_512_auth - computed: false, optional: true, required: false
-  private _saslScram512Auth?: string;
+  private _saslScram512Auth?: string; 
   public get saslScram512Auth() {
     return this.getStringAttribute('sasl_scram_512_auth');
   }
@@ -3137,7 +3137,7 @@ export class PipesPipeSourceParametersSelfManagedKafkaParametersVpcOutputReferen
   }
 
   // security_groups - computed: false, optional: true, required: false
-  private _securityGroups?: string[];
+  private _securityGroups?: string[]; 
   public get securityGroups() {
     return cdktn.Fn.tolist(this.getListAttribute('security_groups'));
   }
@@ -3153,7 +3153,7 @@ export class PipesPipeSourceParametersSelfManagedKafkaParametersVpcOutputReferen
   }
 
   // subnets - computed: false, optional: true, required: false
-  private _subnets?: string[];
+  private _subnets?: string[]; 
   public get subnets() {
     return cdktn.Fn.tolist(this.getListAttribute('subnets'));
   }
@@ -3377,7 +3377,7 @@ export class PipesPipeSourceParametersSelfManagedKafkaParametersOutputReference 
   }
 
   // additional_bootstrap_servers - computed: false, optional: true, required: false
-  private _additionalBootstrapServers?: string[];
+  private _additionalBootstrapServers?: string[]; 
   public get additionalBootstrapServers() {
     return cdktn.Fn.tolist(this.getListAttribute('additional_bootstrap_servers'));
   }
@@ -3393,7 +3393,7 @@ export class PipesPipeSourceParametersSelfManagedKafkaParametersOutputReference 
   }
 
   // batch_size - computed: true, optional: true, required: false
-  private _batchSize?: number;
+  private _batchSize?: number; 
   public get batchSize() {
     return this.getNumberAttribute('batch_size');
   }
@@ -3409,7 +3409,7 @@ export class PipesPipeSourceParametersSelfManagedKafkaParametersOutputReference 
   }
 
   // consumer_group_id - computed: false, optional: true, required: false
-  private _consumerGroupId?: string;
+  private _consumerGroupId?: string; 
   public get consumerGroupId() {
     return this.getStringAttribute('consumer_group_id');
   }
@@ -3425,7 +3425,7 @@ export class PipesPipeSourceParametersSelfManagedKafkaParametersOutputReference 
   }
 
   // maximum_batching_window_in_seconds - computed: true, optional: true, required: false
-  private _maximumBatchingWindowInSeconds?: number;
+  private _maximumBatchingWindowInSeconds?: number; 
   public get maximumBatchingWindowInSeconds() {
     return this.getNumberAttribute('maximum_batching_window_in_seconds');
   }
@@ -3441,7 +3441,7 @@ export class PipesPipeSourceParametersSelfManagedKafkaParametersOutputReference 
   }
 
   // server_root_ca_certificate - computed: false, optional: true, required: false
-  private _serverRootCaCertificate?: string;
+  private _serverRootCaCertificate?: string; 
   public get serverRootCaCertificate() {
     return this.getStringAttribute('server_root_ca_certificate');
   }
@@ -3457,7 +3457,7 @@ export class PipesPipeSourceParametersSelfManagedKafkaParametersOutputReference 
   }
 
   // starting_position - computed: false, optional: true, required: false
-  private _startingPosition?: string;
+  private _startingPosition?: string; 
   public get startingPosition() {
     return this.getStringAttribute('starting_position');
   }
@@ -3473,7 +3473,7 @@ export class PipesPipeSourceParametersSelfManagedKafkaParametersOutputReference 
   }
 
   // topic_name - computed: false, optional: false, required: true
-  private _topicName?: string;
+  private _topicName?: string; 
   public get topicName() {
     return this.getStringAttribute('topic_name');
   }
@@ -3603,7 +3603,7 @@ export class PipesPipeSourceParametersSqsQueueParametersOutputReference extends 
   }
 
   // batch_size - computed: true, optional: true, required: false
-  private _batchSize?: number;
+  private _batchSize?: number; 
   public get batchSize() {
     return this.getNumberAttribute('batch_size');
   }
@@ -3619,7 +3619,7 @@ export class PipesPipeSourceParametersSqsQueueParametersOutputReference extends 
   }
 
   // maximum_batching_window_in_seconds - computed: true, optional: true, required: false
-  private _maximumBatchingWindowInSeconds?: number;
+  private _maximumBatchingWindowInSeconds?: number; 
   public get maximumBatchingWindowInSeconds() {
     return this.getNumberAttribute('maximum_batching_window_in_seconds');
   }
@@ -4034,7 +4034,7 @@ export class PipesPipeTargetParametersBatchJobParametersArrayPropertiesOutputRef
   }
 
   // size - computed: false, optional: true, required: false
-  private _size?: number;
+  private _size?: number; 
   public get size() {
     return this.getNumberAttribute('size');
   }
@@ -4147,7 +4147,7 @@ export class PipesPipeTargetParametersBatchJobParametersContainerOverridesEnviro
   }
 
   // name - computed: false, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -4163,7 +4163,7 @@ export class PipesPipeTargetParametersBatchJobParametersContainerOverridesEnviro
   }
 
   // value - computed: false, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -4296,7 +4296,7 @@ export class PipesPipeTargetParametersBatchJobParametersContainerOverridesResour
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -4309,7 +4309,7 @@ export class PipesPipeTargetParametersBatchJobParametersContainerOverridesResour
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -4465,7 +4465,7 @@ export class PipesPipeTargetParametersBatchJobParametersContainerOverridesOutput
   }
 
   // command - computed: false, optional: true, required: false
-  private _command?: string[];
+  private _command?: string[]; 
   public get command() {
     return this.getListAttribute('command');
   }
@@ -4481,7 +4481,7 @@ export class PipesPipeTargetParametersBatchJobParametersContainerOverridesOutput
   }
 
   // instance_type - computed: false, optional: true, required: false
-  private _instanceType?: string;
+  private _instanceType?: string; 
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -4626,7 +4626,7 @@ export class PipesPipeTargetParametersBatchJobParametersDependsOnOutputReference
   }
 
   // job_id - computed: false, optional: true, required: false
-  private _jobId?: string;
+  private _jobId?: string; 
   public get jobId() {
     return this.getStringAttribute('job_id');
   }
@@ -4642,7 +4642,7 @@ export class PipesPipeTargetParametersBatchJobParametersDependsOnOutputReference
   }
 
   // type - computed: false, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -4746,7 +4746,7 @@ export class PipesPipeTargetParametersBatchJobParametersRetryStrategyOutputRefer
   }
 
   // attempts - computed: false, optional: true, required: false
-  private _attempts?: number;
+  private _attempts?: number; 
   public get attempts() {
     return this.getNumberAttribute('attempts');
   }
@@ -4940,7 +4940,7 @@ export class PipesPipeTargetParametersBatchJobParametersOutputReference extends 
   }
 
   // job_definition - computed: false, optional: false, required: true
-  private _jobDefinition?: string;
+  private _jobDefinition?: string; 
   public get jobDefinition() {
     return this.getStringAttribute('job_definition');
   }
@@ -4953,7 +4953,7 @@ export class PipesPipeTargetParametersBatchJobParametersOutputReference extends 
   }
 
   // job_name - computed: false, optional: false, required: true
-  private _jobName?: string;
+  private _jobName?: string; 
   public get jobName() {
     return this.getStringAttribute('job_name');
   }
@@ -4966,7 +4966,7 @@ export class PipesPipeTargetParametersBatchJobParametersOutputReference extends 
   }
 
   // parameters - computed: false, optional: true, required: false
-  private _parameters?: { [key: string]: string };
+  private _parameters?: { [key: string]: string }; 
   public get parameters() {
     return this.getStringMapAttribute('parameters');
   }
@@ -5131,7 +5131,7 @@ export class PipesPipeTargetParametersCloudwatchLogsParametersOutputReference ex
   }
 
   // log_stream_name - computed: false, optional: true, required: false
-  private _logStreamName?: string;
+  private _logStreamName?: string; 
   public get logStreamName() {
     return this.getStringAttribute('log_stream_name');
   }
@@ -5147,7 +5147,7 @@ export class PipesPipeTargetParametersCloudwatchLogsParametersOutputReference ex
   }
 
   // timestamp - computed: false, optional: true, required: false
-  private _timestamp?: string;
+  private _timestamp?: string; 
   public get timestamp() {
     return this.getStringAttribute('timestamp');
   }
@@ -5277,7 +5277,7 @@ export class PipesPipeTargetParametersEcsTaskParametersCapacityProviderStrategyO
   }
 
   // base - computed: false, optional: true, required: false
-  private _base?: number;
+  private _base?: number; 
   public get base() {
     return this.getNumberAttribute('base');
   }
@@ -5293,7 +5293,7 @@ export class PipesPipeTargetParametersEcsTaskParametersCapacityProviderStrategyO
   }
 
   // capacity_provider - computed: false, optional: false, required: true
-  private _capacityProvider?: string;
+  private _capacityProvider?: string; 
   public get capacityProvider() {
     return this.getStringAttribute('capacity_provider');
   }
@@ -5306,7 +5306,7 @@ export class PipesPipeTargetParametersEcsTaskParametersCapacityProviderStrategyO
   }
 
   // weight - computed: false, optional: true, required: false
-  private _weight?: number;
+  private _weight?: number; 
   public get weight() {
     return this.getNumberAttribute('weight');
   }
@@ -5444,7 +5444,7 @@ export class PipesPipeTargetParametersEcsTaskParametersNetworkConfigurationAwsVp
   }
 
   // assign_public_ip - computed: false, optional: true, required: false
-  private _assignPublicIp?: string;
+  private _assignPublicIp?: string; 
   public get assignPublicIp() {
     return this.getStringAttribute('assign_public_ip');
   }
@@ -5460,7 +5460,7 @@ export class PipesPipeTargetParametersEcsTaskParametersNetworkConfigurationAwsVp
   }
 
   // security_groups - computed: false, optional: true, required: false
-  private _securityGroups?: string[];
+  private _securityGroups?: string[]; 
   public get securityGroups() {
     return cdktn.Fn.tolist(this.getListAttribute('security_groups'));
   }
@@ -5476,7 +5476,7 @@ export class PipesPipeTargetParametersEcsTaskParametersNetworkConfigurationAwsVp
   }
 
   // subnets - computed: false, optional: true, required: false
-  private _subnets?: string[];
+  private _subnets?: string[]; 
   public get subnets() {
     return cdktn.Fn.tolist(this.getListAttribute('subnets'));
   }
@@ -5675,7 +5675,7 @@ export class PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrid
   }
 
   // name - computed: false, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -5691,7 +5691,7 @@ export class PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrid
   }
 
   // value - computed: false, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -5824,7 +5824,7 @@ export class PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrid
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -5837,7 +5837,7 @@ export class PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrid
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -5967,7 +5967,7 @@ export class PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrid
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -5980,7 +5980,7 @@ export class PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrid
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -6218,7 +6218,7 @@ export class PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrid
   }
 
   // command - computed: false, optional: true, required: false
-  private _command?: string[];
+  private _command?: string[]; 
   public get command() {
     return this.getListAttribute('command');
   }
@@ -6234,7 +6234,7 @@ export class PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrid
   }
 
   // cpu - computed: false, optional: true, required: false
-  private _cpu?: number;
+  private _cpu?: number; 
   public get cpu() {
     return this.getNumberAttribute('cpu');
   }
@@ -6250,7 +6250,7 @@ export class PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrid
   }
 
   // memory - computed: false, optional: true, required: false
-  private _memory?: number;
+  private _memory?: number; 
   public get memory() {
     return this.getNumberAttribute('memory');
   }
@@ -6266,7 +6266,7 @@ export class PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrid
   }
 
   // memory_reservation - computed: false, optional: true, required: false
-  private _memoryReservation?: number;
+  private _memoryReservation?: number; 
   public get memoryReservation() {
     return this.getNumberAttribute('memory_reservation');
   }
@@ -6282,7 +6282,7 @@ export class PipesPipeTargetParametersEcsTaskParametersOverridesContainerOverrid
   }
 
   // name - computed: false, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -6434,7 +6434,7 @@ export class PipesPipeTargetParametersEcsTaskParametersOverridesEphemeralStorage
   }
 
   // size_in_gib - computed: false, optional: false, required: true
-  private _sizeInGib?: number;
+  private _sizeInGib?: number; 
   public get sizeInGib() {
     return this.getNumberAttribute('size_in_gib');
   }
@@ -6544,7 +6544,7 @@ export class PipesPipeTargetParametersEcsTaskParametersOverridesInferenceAcceler
   }
 
   // device_name - computed: false, optional: true, required: false
-  private _deviceName?: string;
+  private _deviceName?: string; 
   public get deviceName() {
     return this.getStringAttribute('device_name');
   }
@@ -6560,7 +6560,7 @@ export class PipesPipeTargetParametersEcsTaskParametersOverridesInferenceAcceler
   }
 
   // device_type - computed: false, optional: true, required: false
-  private _deviceType?: string;
+  private _deviceType?: string; 
   public get deviceType() {
     return this.getStringAttribute('device_type');
   }
@@ -6772,7 +6772,7 @@ export class PipesPipeTargetParametersEcsTaskParametersOverridesOutputReference 
   }
 
   // cpu - computed: false, optional: true, required: false
-  private _cpu?: string;
+  private _cpu?: string; 
   public get cpu() {
     return this.getStringAttribute('cpu');
   }
@@ -6788,7 +6788,7 @@ export class PipesPipeTargetParametersEcsTaskParametersOverridesOutputReference 
   }
 
   // execution_role_arn - computed: false, optional: true, required: false
-  private _executionRoleArn?: string;
+  private _executionRoleArn?: string; 
   public get executionRoleArn() {
     return this.getStringAttribute('execution_role_arn');
   }
@@ -6804,7 +6804,7 @@ export class PipesPipeTargetParametersEcsTaskParametersOverridesOutputReference 
   }
 
   // memory - computed: false, optional: true, required: false
-  private _memory?: string;
+  private _memory?: string; 
   public get memory() {
     return this.getStringAttribute('memory');
   }
@@ -6820,7 +6820,7 @@ export class PipesPipeTargetParametersEcsTaskParametersOverridesOutputReference 
   }
 
   // task_role_arn - computed: false, optional: true, required: false
-  private _taskRoleArn?: string;
+  private _taskRoleArn?: string; 
   public get taskRoleArn() {
     return this.getStringAttribute('task_role_arn');
   }
@@ -6981,7 +6981,7 @@ export class PipesPipeTargetParametersEcsTaskParametersPlacementConstraintOutput
   }
 
   // expression - computed: false, optional: true, required: false
-  private _expression?: string;
+  private _expression?: string; 
   public get expression() {
     return this.getStringAttribute('expression');
   }
@@ -6997,7 +6997,7 @@ export class PipesPipeTargetParametersEcsTaskParametersPlacementConstraintOutput
   }
 
   // type - computed: false, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -7130,7 +7130,7 @@ export class PipesPipeTargetParametersEcsTaskParametersPlacementStrategyOutputRe
   }
 
   // field - computed: false, optional: true, required: false
-  private _field?: string;
+  private _field?: string; 
   public get field() {
     return this.getStringAttribute('field');
   }
@@ -7146,7 +7146,7 @@ export class PipesPipeTargetParametersEcsTaskParametersPlacementStrategyOutputRe
   }
 
   // type - computed: false, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -7498,7 +7498,7 @@ export class PipesPipeTargetParametersEcsTaskParametersOutputReference extends c
   }
 
   // enable_ecs_managed_tags - computed: false, optional: true, required: false
-  private _enableEcsManagedTags?: boolean | cdktn.IResolvable;
+  private _enableEcsManagedTags?: boolean | cdktn.IResolvable; 
   public get enableEcsManagedTags() {
     return this.getBooleanAttribute('enable_ecs_managed_tags');
   }
@@ -7514,7 +7514,7 @@ export class PipesPipeTargetParametersEcsTaskParametersOutputReference extends c
   }
 
   // enable_execute_command - computed: false, optional: true, required: false
-  private _enableExecuteCommand?: boolean | cdktn.IResolvable;
+  private _enableExecuteCommand?: boolean | cdktn.IResolvable; 
   public get enableExecuteCommand() {
     return this.getBooleanAttribute('enable_execute_command');
   }
@@ -7530,7 +7530,7 @@ export class PipesPipeTargetParametersEcsTaskParametersOutputReference extends c
   }
 
   // group - computed: false, optional: true, required: false
-  private _group?: string;
+  private _group?: string; 
   public get group() {
     return this.getStringAttribute('group');
   }
@@ -7546,7 +7546,7 @@ export class PipesPipeTargetParametersEcsTaskParametersOutputReference extends c
   }
 
   // launch_type - computed: false, optional: true, required: false
-  private _launchType?: string;
+  private _launchType?: string; 
   public get launchType() {
     return this.getStringAttribute('launch_type');
   }
@@ -7562,7 +7562,7 @@ export class PipesPipeTargetParametersEcsTaskParametersOutputReference extends c
   }
 
   // platform_version - computed: false, optional: true, required: false
-  private _platformVersion?: string;
+  private _platformVersion?: string; 
   public get platformVersion() {
     return this.getStringAttribute('platform_version');
   }
@@ -7578,7 +7578,7 @@ export class PipesPipeTargetParametersEcsTaskParametersOutputReference extends c
   }
 
   // propagate_tags - computed: false, optional: true, required: false
-  private _propagateTags?: string;
+  private _propagateTags?: string; 
   public get propagateTags() {
     return this.getStringAttribute('propagate_tags');
   }
@@ -7594,7 +7594,7 @@ export class PipesPipeTargetParametersEcsTaskParametersOutputReference extends c
   }
 
   // reference_id - computed: false, optional: true, required: false
-  private _referenceId?: string;
+  private _referenceId?: string; 
   public get referenceId() {
     return this.getStringAttribute('reference_id');
   }
@@ -7610,7 +7610,7 @@ export class PipesPipeTargetParametersEcsTaskParametersOutputReference extends c
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -7626,7 +7626,7 @@ export class PipesPipeTargetParametersEcsTaskParametersOutputReference extends c
   }
 
   // task_count - computed: false, optional: true, required: false
-  private _taskCount?: number;
+  private _taskCount?: number; 
   public get taskCount() {
     return this.getNumberAttribute('task_count');
   }
@@ -7642,7 +7642,7 @@ export class PipesPipeTargetParametersEcsTaskParametersOutputReference extends c
   }
 
   // task_definition_arn - computed: false, optional: false, required: true
-  private _taskDefinitionArn?: string;
+  private _taskDefinitionArn?: string; 
   public get taskDefinitionArn() {
     return this.getStringAttribute('task_definition_arn');
   }
@@ -7871,7 +7871,7 @@ export class PipesPipeTargetParametersEventbridgeEventBusParametersOutputReferen
   }
 
   // detail_type - computed: false, optional: true, required: false
-  private _detailType?: string;
+  private _detailType?: string; 
   public get detailType() {
     return this.getStringAttribute('detail_type');
   }
@@ -7887,7 +7887,7 @@ export class PipesPipeTargetParametersEventbridgeEventBusParametersOutputReferen
   }
 
   // endpoint_id - computed: false, optional: true, required: false
-  private _endpointId?: string;
+  private _endpointId?: string; 
   public get endpointId() {
     return this.getStringAttribute('endpoint_id');
   }
@@ -7903,7 +7903,7 @@ export class PipesPipeTargetParametersEventbridgeEventBusParametersOutputReferen
   }
 
   // resources - computed: false, optional: true, required: false
-  private _resources?: string[];
+  private _resources?: string[]; 
   public get resources() {
     return cdktn.Fn.tolist(this.getListAttribute('resources'));
   }
@@ -7919,7 +7919,7 @@ export class PipesPipeTargetParametersEventbridgeEventBusParametersOutputReferen
   }
 
   // source - computed: false, optional: true, required: false
-  private _source?: string;
+  private _source?: string; 
   public get source() {
     return this.getStringAttribute('source');
   }
@@ -7935,7 +7935,7 @@ export class PipesPipeTargetParametersEventbridgeEventBusParametersOutputReferen
   }
 
   // time - computed: false, optional: true, required: false
-  private _time?: string;
+  private _time?: string; 
   public get time() {
     return this.getStringAttribute('time');
   }
@@ -8053,7 +8053,7 @@ export class PipesPipeTargetParametersHttpParametersOutputReference extends cdkt
   }
 
   // header_parameters - computed: false, optional: true, required: false
-  private _headerParameters?: { [key: string]: string };
+  private _headerParameters?: { [key: string]: string }; 
   public get headerParameters() {
     return this.getStringMapAttribute('header_parameters');
   }
@@ -8069,7 +8069,7 @@ export class PipesPipeTargetParametersHttpParametersOutputReference extends cdkt
   }
 
   // path_parameter_values - computed: false, optional: true, required: false
-  private _pathParameterValues?: string[];
+  private _pathParameterValues?: string[]; 
   public get pathParameterValues() {
     return this.getListAttribute('path_parameter_values');
   }
@@ -8085,7 +8085,7 @@ export class PipesPipeTargetParametersHttpParametersOutputReference extends cdkt
   }
 
   // query_string_parameters - computed: false, optional: true, required: false
-  private _queryStringParameters?: { [key: string]: string };
+  private _queryStringParameters?: { [key: string]: string }; 
   public get queryStringParameters() {
     return this.getStringMapAttribute('query_string_parameters');
   }
@@ -8169,7 +8169,7 @@ export class PipesPipeTargetParametersKinesisStreamParametersOutputReference ext
   }
 
   // partition_key - computed: false, optional: false, required: true
-  private _partitionKey?: string;
+  private _partitionKey?: string; 
   public get partitionKey() {
     return this.getStringAttribute('partition_key');
   }
@@ -8250,7 +8250,7 @@ export class PipesPipeTargetParametersLambdaFunctionParametersOutputReference ex
   }
 
   // invocation_type - computed: false, optional: false, required: true
-  private _invocationType?: string;
+  private _invocationType?: string; 
   public get invocationType() {
     return this.getStringAttribute('invocation_type');
   }
@@ -8416,7 +8416,7 @@ export class PipesPipeTargetParametersRedshiftDataParametersOutputReference exte
   }
 
   // database - computed: false, optional: false, required: true
-  private _database?: string;
+  private _database?: string; 
   public get database() {
     return this.getStringAttribute('database');
   }
@@ -8429,7 +8429,7 @@ export class PipesPipeTargetParametersRedshiftDataParametersOutputReference exte
   }
 
   // db_user - computed: false, optional: true, required: false
-  private _dbUser?: string;
+  private _dbUser?: string; 
   public get dbUser() {
     return this.getStringAttribute('db_user');
   }
@@ -8445,7 +8445,7 @@ export class PipesPipeTargetParametersRedshiftDataParametersOutputReference exte
   }
 
   // secret_manager_arn - computed: false, optional: true, required: false
-  private _secretManagerArn?: string;
+  private _secretManagerArn?: string; 
   public get secretManagerArn() {
     return this.getStringAttribute('secret_manager_arn');
   }
@@ -8461,7 +8461,7 @@ export class PipesPipeTargetParametersRedshiftDataParametersOutputReference exte
   }
 
   // sqls - computed: false, optional: false, required: true
-  private _sqls?: string[];
+  private _sqls?: string[]; 
   public get sqls() {
     return cdktn.Fn.tolist(this.getListAttribute('sqls'));
   }
@@ -8474,7 +8474,7 @@ export class PipesPipeTargetParametersRedshiftDataParametersOutputReference exte
   }
 
   // statement_name - computed: false, optional: true, required: false
-  private _statementName?: string;
+  private _statementName?: string; 
   public get statementName() {
     return this.getStringAttribute('statement_name');
   }
@@ -8490,7 +8490,7 @@ export class PipesPipeTargetParametersRedshiftDataParametersOutputReference exte
   }
 
   // with_event - computed: false, optional: true, required: false
-  private _withEvent?: boolean | cdktn.IResolvable;
+  private _withEvent?: boolean | cdktn.IResolvable; 
   public get withEvent() {
     return this.getBooleanAttribute('with_event');
   }
@@ -8603,7 +8603,7 @@ export class PipesPipeTargetParametersSagemakerPipelineParametersPipelineParamet
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -8616,7 +8616,7 @@ export class PipesPipeTargetParametersSagemakerPipelineParametersPipelineParamet
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -8820,7 +8820,7 @@ export class PipesPipeTargetParametersSqsQueueParametersOutputReference extends 
   }
 
   // message_deduplication_id - computed: false, optional: true, required: false
-  private _messageDeduplicationId?: string;
+  private _messageDeduplicationId?: string; 
   public get messageDeduplicationId() {
     return this.getStringAttribute('message_deduplication_id');
   }
@@ -8836,7 +8836,7 @@ export class PipesPipeTargetParametersSqsQueueParametersOutputReference extends 
   }
 
   // message_group_id - computed: false, optional: true, required: false
-  private _messageGroupId?: string;
+  private _messageGroupId?: string; 
   public get messageGroupId() {
     return this.getStringAttribute('message_group_id');
   }
@@ -8920,7 +8920,7 @@ export class PipesPipeTargetParametersStepFunctionStateMachineParametersOutputRe
   }
 
   // invocation_type - computed: false, optional: false, required: true
-  private _invocationType?: string;
+  private _invocationType?: string; 
   public get invocationType() {
     return this.getStringAttribute('invocation_type');
   }
@@ -9210,7 +9210,7 @@ export class PipesPipeTargetParametersOutputReference extends cdktn.ComplexObjec
   }
 
   // input_template - computed: false, optional: true, required: false
-  private _inputTemplate?: string;
+  private _inputTemplate?: string; 
   public get inputTemplate() {
     return this.getStringAttribute('input_template');
   }
@@ -9514,7 +9514,7 @@ export class PipesPipeTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -9530,7 +9530,7 @@ export class PipesPipeTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -9546,7 +9546,7 @@ export class PipesPipeTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -9642,7 +9642,7 @@ export class PipesPipe extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -9658,7 +9658,7 @@ export class PipesPipe extends cdktn.TerraformResource {
   }
 
   // desired_state - computed: false, optional: true, required: false
-  private _desiredState?: string;
+  private _desiredState?: string; 
   public get desiredState() {
     return this.getStringAttribute('desired_state');
   }
@@ -9674,7 +9674,7 @@ export class PipesPipe extends cdktn.TerraformResource {
   }
 
   // enrichment - computed: false, optional: true, required: false
-  private _enrichment?: string;
+  private _enrichment?: string; 
   public get enrichment() {
     return this.getStringAttribute('enrichment');
   }
@@ -9690,7 +9690,7 @@ export class PipesPipe extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -9706,7 +9706,7 @@ export class PipesPipe extends cdktn.TerraformResource {
   }
 
   // kms_key_identifier - computed: false, optional: true, required: false
-  private _kmsKeyIdentifier?: string;
+  private _kmsKeyIdentifier?: string; 
   public get kmsKeyIdentifier() {
     return this.getStringAttribute('kms_key_identifier');
   }
@@ -9722,7 +9722,7 @@ export class PipesPipe extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -9738,7 +9738,7 @@ export class PipesPipe extends cdktn.TerraformResource {
   }
 
   // name_prefix - computed: true, optional: true, required: false
-  private _namePrefix?: string;
+  private _namePrefix?: string; 
   public get namePrefix() {
     return this.getStringAttribute('name_prefix');
   }
@@ -9754,7 +9754,7 @@ export class PipesPipe extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -9770,7 +9770,7 @@ export class PipesPipe extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -9783,7 +9783,7 @@ export class PipesPipe extends cdktn.TerraformResource {
   }
 
   // source - computed: false, optional: false, required: true
-  private _source?: string;
+  private _source?: string; 
   public get source() {
     return this.getStringAttribute('source');
   }
@@ -9796,7 +9796,7 @@ export class PipesPipe extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -9812,7 +9812,7 @@ export class PipesPipe extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -9828,7 +9828,7 @@ export class PipesPipe extends cdktn.TerraformResource {
   }
 
   // target - computed: false, optional: false, required: true
-  private _target?: string;
+  private _target?: string; 
   public get target() {
     return this.getStringAttribute('target');
   }

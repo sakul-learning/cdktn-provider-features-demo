@@ -135,7 +135,7 @@ export class AppsyncChannelNamespaceHandlerConfigsOnPublishIntegrationLambdaConf
   }
 
   // invoke_type - computed: true, optional: true, required: false
-  private _invokeType?: string;
+  private _invokeType?: string; 
   public get invokeType() {
     return this.getStringAttribute('invoke_type');
   }
@@ -248,7 +248,7 @@ export class AppsyncChannelNamespaceHandlerConfigsOnPublishIntegrationOutputRefe
   }
 
   // data_source_name - computed: true, optional: true, required: false
-  private _dataSourceName?: string;
+  private _dataSourceName?: string; 
   public get dataSourceName() {
     return this.getStringAttribute('data_source_name');
   }
@@ -377,7 +377,7 @@ export class AppsyncChannelNamespaceHandlerConfigsOnPublishOutputReference exten
   }
 
   // behavior - computed: true, optional: true, required: false
-  private _behavior?: string;
+  private _behavior?: string; 
   public get behavior() {
     return this.getStringAttribute('behavior');
   }
@@ -489,7 +489,7 @@ export class AppsyncChannelNamespaceHandlerConfigsOnSubscribeIntegrationLambdaCo
   }
 
   // invoke_type - computed: true, optional: true, required: false
-  private _invokeType?: string;
+  private _invokeType?: string; 
   public get invokeType() {
     return this.getStringAttribute('invoke_type');
   }
@@ -602,7 +602,7 @@ export class AppsyncChannelNamespaceHandlerConfigsOnSubscribeIntegrationOutputRe
   }
 
   // data_source_name - computed: true, optional: true, required: false
-  private _dataSourceName?: string;
+  private _dataSourceName?: string; 
   public get dataSourceName() {
     return this.getStringAttribute('data_source_name');
   }
@@ -731,7 +731,7 @@ export class AppsyncChannelNamespaceHandlerConfigsOnSubscribeOutputReference ext
   }
 
   // behavior - computed: true, optional: true, required: false
-  private _behavior?: string;
+  private _behavior?: string; 
   public get behavior() {
     return this.getStringAttribute('behavior');
   }
@@ -972,7 +972,7 @@ export class AppsyncChannelNamespacePublishAuthModesOutputReference extends cdkt
   }
 
   // auth_type - computed: true, optional: true, required: false
-  private _authType?: string;
+  private _authType?: string; 
   public get authType() {
     return this.getStringAttribute('auth_type');
   }
@@ -1090,7 +1090,7 @@ export class AppsyncChannelNamespaceSubscribeAuthModesOutputReference extends cd
   }
 
   // auth_type - computed: true, optional: true, required: false
-  private _authType?: string;
+  private _authType?: string; 
   public get authType() {
     return this.getStringAttribute('auth_type');
   }
@@ -1227,7 +1227,7 @@ export class AppsyncChannelNamespaceTagsOutputReference extends cdktn.ComplexObj
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1243,7 +1243,7 @@ export class AppsyncChannelNamespaceTagsOutputReference extends cdktn.ComplexObj
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1344,7 +1344,7 @@ export class AppsyncChannelNamespace extends cdktn.TerraformResource {
   // ==========
 
   // api_id - computed: false, optional: false, required: true
-  private _apiId?: string;
+  private _apiId?: string; 
   public get apiId() {
     return this.getStringAttribute('api_id');
   }
@@ -1362,7 +1362,7 @@ export class AppsyncChannelNamespace extends cdktn.TerraformResource {
   }
 
   // code_handlers - computed: true, optional: true, required: false
-  private _codeHandlers?: string;
+  private _codeHandlers?: string; 
   public get codeHandlers() {
     return this.getStringAttribute('code_handlers');
   }
@@ -1378,7 +1378,7 @@ export class AppsyncChannelNamespace extends cdktn.TerraformResource {
   }
 
   // code_s3_location - computed: true, optional: true, required: false
-  private _codeS3Location?: string;
+  private _codeS3Location?: string; 
   public get codeS3Location() {
     return this.getStringAttribute('code_s3_location');
   }
@@ -1415,7 +1415,7 @@ export class AppsyncChannelNamespace extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }

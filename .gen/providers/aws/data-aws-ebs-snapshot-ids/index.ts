@@ -139,7 +139,7 @@ export class DataAwsEbsSnapshotIdsFilterOutputReference extends cdktn.ComplexObj
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -152,7 +152,7 @@ export class DataAwsEbsSnapshotIdsFilterOutputReference extends cdktn.ComplexObj
   }
 
   // values - computed: false, optional: false, required: true
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -263,7 +263,7 @@ export class DataAwsEbsSnapshotIdsTimeoutsOutputReference extends cdktn.ComplexO
   }
 
   // read - computed: false, optional: true, required: false
-  private _read?: string;
+  private _read?: string; 
   public get read() {
     return this.getStringAttribute('read');
   }
@@ -342,7 +342,7 @@ export class DataAwsEbsSnapshotIds extends cdktn.TerraformDataSource {
   // ==========
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -363,7 +363,7 @@ export class DataAwsEbsSnapshotIds extends cdktn.TerraformDataSource {
   }
 
   // owners - computed: false, optional: true, required: false
-  private _owners?: string[];
+  private _owners?: string[]; 
   public get owners() {
     return this.getListAttribute('owners');
   }
@@ -379,7 +379,7 @@ export class DataAwsEbsSnapshotIds extends cdktn.TerraformDataSource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -395,7 +395,7 @@ export class DataAwsEbsSnapshotIds extends cdktn.TerraformDataSource {
   }
 
   // restorable_by_user_ids - computed: false, optional: true, required: false
-  private _restorableByUserIds?: string[];
+  private _restorableByUserIds?: string[]; 
   public get restorableByUserIds() {
     return this.getListAttribute('restorable_by_user_ids');
   }

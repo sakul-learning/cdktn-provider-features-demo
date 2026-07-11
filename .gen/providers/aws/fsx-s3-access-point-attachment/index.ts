@@ -155,7 +155,7 @@ export class FsxS3AccessPointAttachmentOpenzfsConfigurationFileSystemIdentityPos
   }
 
   // gid - computed: false, optional: false, required: true
-  private _gid?: number;
+  private _gid?: number; 
   public get gid() {
     return this.getNumberAttribute('gid');
   }
@@ -168,7 +168,7 @@ export class FsxS3AccessPointAttachmentOpenzfsConfigurationFileSystemIdentityPos
   }
 
   // secondary_gids - computed: false, optional: true, required: false
-  private _secondaryGids?: number[];
+  private _secondaryGids?: number[]; 
   public get secondaryGids() {
     return this.getNumberListAttribute('secondary_gids');
   }
@@ -184,7 +184,7 @@ export class FsxS3AccessPointAttachmentOpenzfsConfigurationFileSystemIdentityPos
   }
 
   // uid - computed: false, optional: false, required: true
-  private _uid?: number;
+  private _uid?: number; 
   public get uid() {
     return this.getNumberAttribute('uid');
   }
@@ -316,7 +316,7 @@ export class FsxS3AccessPointAttachmentOpenzfsConfigurationFileSystemIdentityOut
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -464,7 +464,7 @@ export class FsxS3AccessPointAttachmentOpenzfsConfigurationOutputReference exten
   }
 
   // volume_id - computed: false, optional: false, required: true
-  private _volumeId?: string;
+  private _volumeId?: string; 
   public get volumeId() {
     return this.getStringAttribute('volume_id');
   }
@@ -593,7 +593,7 @@ export class FsxS3AccessPointAttachmentS3AccessPointVpcConfigurationOutputRefere
   }
 
   // vpc_id - computed: false, optional: true, required: false
-  private _vpcId?: string;
+  private _vpcId?: string; 
   public get vpcId() {
     return this.getStringAttribute('vpc_id');
   }
@@ -728,7 +728,7 @@ export class FsxS3AccessPointAttachmentS3AccessPointOutputReference extends cdkt
   }
 
   // policy - computed: false, optional: true, required: false
-  private _policy?: string;
+  private _policy?: string; 
   public get policy() {
     return this.getStringAttribute('policy');
   }
@@ -879,7 +879,7 @@ export class FsxS3AccessPointAttachmentTimeoutsOutputReference extends cdktn.Com
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -895,7 +895,7 @@ export class FsxS3AccessPointAttachmentTimeoutsOutputReference extends cdktn.Com
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -974,7 +974,7 @@ export class FsxS3AccessPointAttachment extends cdktn.TerraformResource {
   // ==========
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -987,7 +987,7 @@ export class FsxS3AccessPointAttachment extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1013,7 +1013,7 @@ export class FsxS3AccessPointAttachment extends cdktn.TerraformResource {
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }

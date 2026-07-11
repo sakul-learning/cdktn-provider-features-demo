@@ -104,7 +104,7 @@ export class BatchConsumableResource extends cdktn.TerraformResource {
   }
 
   // consumable_resource_name - computed: true, optional: true, required: false
-  private _consumableResourceName?: string;
+  private _consumableResourceName?: string; 
   public get consumableResourceName() {
     return this.getStringAttribute('consumable_resource_name');
   }
@@ -135,7 +135,7 @@ export class BatchConsumableResource extends cdktn.TerraformResource {
   }
 
   // resource_type - computed: false, optional: false, required: true
-  private _resourceType?: string;
+  private _resourceType?: string; 
   public get resourceType() {
     return this.getStringAttribute('resource_type');
   }
@@ -148,7 +148,7 @@ export class BatchConsumableResource extends cdktn.TerraformResource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -164,7 +164,7 @@ export class BatchConsumableResource extends cdktn.TerraformResource {
   }
 
   // total_quantity - computed: false, optional: false, required: true
-  private _totalQuantity?: number;
+  private _totalQuantity?: number; 
   public get totalQuantity() {
     return this.getNumberAttribute('total_quantity');
   }

@@ -142,7 +142,7 @@ export class CeCostCategoryTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -158,7 +158,7 @@ export class CeCostCategoryTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -262,7 +262,7 @@ export class CeCostCategory extends cdktn.TerraformResource {
   }
 
   // default_value - computed: true, optional: true, required: false
-  private _defaultValue?: string;
+  private _defaultValue?: string; 
   public get defaultValue() {
     return this.getStringAttribute('default_value');
   }
@@ -288,7 +288,7 @@ export class CeCostCategory extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -301,7 +301,7 @@ export class CeCostCategory extends cdktn.TerraformResource {
   }
 
   // rule_version - computed: false, optional: false, required: true
-  private _ruleVersion?: string;
+  private _ruleVersion?: string; 
   public get ruleVersion() {
     return this.getStringAttribute('rule_version');
   }
@@ -314,7 +314,7 @@ export class CeCostCategory extends cdktn.TerraformResource {
   }
 
   // rules - computed: false, optional: false, required: true
-  private _rules?: string;
+  private _rules?: string; 
   public get rules() {
     return this.getStringAttribute('rules');
   }
@@ -327,7 +327,7 @@ export class CeCostCategory extends cdktn.TerraformResource {
   }
 
   // split_charge_rules - computed: true, optional: true, required: false
-  private _splitChargeRules?: string;
+  private _splitChargeRules?: string; 
   public get splitChargeRules() {
     return this.getStringAttribute('split_charge_rules');
   }

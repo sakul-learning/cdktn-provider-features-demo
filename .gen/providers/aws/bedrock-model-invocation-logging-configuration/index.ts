@@ -118,7 +118,7 @@ export class BedrockModelInvocationLoggingConfigurationLoggingConfigCloudwatchCo
   }
 
   // bucket_name - computed: false, optional: false, required: true
-  private _bucketName?: string;
+  private _bucketName?: string; 
   public get bucketName() {
     return this.getStringAttribute('bucket_name');
   }
@@ -131,7 +131,7 @@ export class BedrockModelInvocationLoggingConfigurationLoggingConfigCloudwatchCo
   }
 
   // key_prefix - computed: false, optional: true, required: false
-  private _keyPrefix?: string;
+  private _keyPrefix?: string; 
   public get keyPrefix() {
     return this.getStringAttribute('key_prefix');
   }
@@ -283,7 +283,7 @@ export class BedrockModelInvocationLoggingConfigurationLoggingConfigCloudwatchCo
   }
 
   // log_group_name - computed: false, optional: false, required: true
-  private _logGroupName?: string;
+  private _logGroupName?: string; 
   public get logGroupName() {
     return this.getStringAttribute('log_group_name');
   }
@@ -296,7 +296,7 @@ export class BedrockModelInvocationLoggingConfigurationLoggingConfigCloudwatchCo
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -442,7 +442,7 @@ export class BedrockModelInvocationLoggingConfigurationLoggingConfigS3ConfigOutp
   }
 
   // bucket_name - computed: false, optional: false, required: true
-  private _bucketName?: string;
+  private _bucketName?: string; 
   public get bucketName() {
     return this.getStringAttribute('bucket_name');
   }
@@ -455,7 +455,7 @@ export class BedrockModelInvocationLoggingConfigurationLoggingConfigS3ConfigOutp
   }
 
   // key_prefix - computed: false, optional: true, required: false
-  private _keyPrefix?: string;
+  private _keyPrefix?: string; 
   public get keyPrefix() {
     return this.getStringAttribute('key_prefix');
   }
@@ -660,7 +660,7 @@ export class BedrockModelInvocationLoggingConfigurationLoggingConfigOutputRefere
   }
 
   // embedding_data_delivery_enabled - computed: true, optional: true, required: false
-  private _embeddingDataDeliveryEnabled?: boolean | cdktn.IResolvable;
+  private _embeddingDataDeliveryEnabled?: boolean | cdktn.IResolvable; 
   public get embeddingDataDeliveryEnabled() {
     return this.getBooleanAttribute('embedding_data_delivery_enabled');
   }
@@ -676,7 +676,7 @@ export class BedrockModelInvocationLoggingConfigurationLoggingConfigOutputRefere
   }
 
   // image_data_delivery_enabled - computed: true, optional: true, required: false
-  private _imageDataDeliveryEnabled?: boolean | cdktn.IResolvable;
+  private _imageDataDeliveryEnabled?: boolean | cdktn.IResolvable; 
   public get imageDataDeliveryEnabled() {
     return this.getBooleanAttribute('image_data_delivery_enabled');
   }
@@ -692,7 +692,7 @@ export class BedrockModelInvocationLoggingConfigurationLoggingConfigOutputRefere
   }
 
   // text_data_delivery_enabled - computed: true, optional: true, required: false
-  private _textDataDeliveryEnabled?: boolean | cdktn.IResolvable;
+  private _textDataDeliveryEnabled?: boolean | cdktn.IResolvable; 
   public get textDataDeliveryEnabled() {
     return this.getBooleanAttribute('text_data_delivery_enabled');
   }
@@ -708,7 +708,7 @@ export class BedrockModelInvocationLoggingConfigurationLoggingConfigOutputRefere
   }
 
   // video_data_delivery_enabled - computed: true, optional: true, required: false
-  private _videoDataDeliveryEnabled?: boolean | cdktn.IResolvable;
+  private _videoDataDeliveryEnabled?: boolean | cdktn.IResolvable; 
   public get videoDataDeliveryEnabled() {
     return this.getBooleanAttribute('video_data_delivery_enabled');
   }
@@ -840,7 +840,7 @@ export class BedrockModelInvocationLoggingConfiguration extends cdktn.TerraformR
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

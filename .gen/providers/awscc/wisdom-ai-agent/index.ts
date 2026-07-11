@@ -130,7 +130,7 @@ export class WisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationA
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -146,7 +146,7 @@ export class WisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationA
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -279,7 +279,7 @@ export class WisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationA
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -295,7 +295,7 @@ export class WisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationA
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -426,7 +426,7 @@ export class WisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationA
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -442,7 +442,7 @@ export class WisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationA
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -702,7 +702,7 @@ export class WisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationA
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -718,7 +718,7 @@ export class WisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationA
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1022,7 +1022,7 @@ export class WisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationA
   }
 
   // max_results - computed: true, optional: true, required: false
-  private _maxResults?: number;
+  private _maxResults?: number; 
   public get maxResults() {
     return this.getNumberAttribute('max_results');
   }
@@ -1038,7 +1038,7 @@ export class WisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationA
   }
 
   // override_knowledge_base_search_type - computed: true, optional: true, required: false
-  private _overrideKnowledgeBaseSearchType?: string;
+  private _overrideKnowledgeBaseSearchType?: string; 
   public get overrideKnowledgeBaseSearchType() {
     return this.getStringAttribute('override_knowledge_base_search_type');
   }
@@ -1278,7 +1278,7 @@ export class WisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationA
   }
 
   // association_id - computed: true, optional: true, required: false
-  private _associationId?: string;
+  private _associationId?: string; 
   public get associationId() {
     return this.getStringAttribute('association_id');
   }
@@ -1294,7 +1294,7 @@ export class WisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationA
   }
 
   // association_type - computed: true, optional: true, required: false
-  private _associationType?: string;
+  private _associationType?: string; 
   public get associationType() {
     return this.getStringAttribute('association_type');
   }
@@ -1493,7 +1493,7 @@ export class WisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationO
   }
 
   // answer_generation_ai_guardrail_id - computed: true, optional: true, required: false
-  private _answerGenerationAiGuardrailId?: string;
+  private _answerGenerationAiGuardrailId?: string; 
   public get answerGenerationAiGuardrailId() {
     return this.getStringAttribute('answer_generation_ai_guardrail_id');
   }
@@ -1509,7 +1509,7 @@ export class WisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationO
   }
 
   // answer_generation_ai_prompt_id - computed: true, optional: true, required: false
-  private _answerGenerationAiPromptId?: string;
+  private _answerGenerationAiPromptId?: string; 
   public get answerGenerationAiPromptId() {
     return this.getStringAttribute('answer_generation_ai_prompt_id');
   }
@@ -1541,7 +1541,7 @@ export class WisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationO
   }
 
   // intent_labeling_generation_ai_prompt_id - computed: true, optional: true, required: false
-  private _intentLabelingGenerationAiPromptId?: string;
+  private _intentLabelingGenerationAiPromptId?: string; 
   public get intentLabelingGenerationAiPromptId() {
     return this.getStringAttribute('intent_labeling_generation_ai_prompt_id');
   }
@@ -1557,7 +1557,7 @@ export class WisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationO
   }
 
   // locale - computed: true, optional: true, required: false
-  private _locale?: string;
+  private _locale?: string; 
   public get locale() {
     return this.getStringAttribute('locale');
   }
@@ -1573,7 +1573,7 @@ export class WisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationO
   }
 
   // query_reformulation_ai_prompt_id - computed: true, optional: true, required: false
-  private _queryReformulationAiPromptId?: string;
+  private _queryReformulationAiPromptId?: string; 
   public get queryReformulationAiPromptId() {
     return this.getStringAttribute('query_reformulation_ai_prompt_id');
   }
@@ -1701,7 +1701,7 @@ export class WisdomAiAgentConfigurationCaseSummarizationAiAgentConfigurationOutp
   }
 
   // case_summarization_ai_guardrail_id - computed: true, optional: true, required: false
-  private _caseSummarizationAiGuardrailId?: string;
+  private _caseSummarizationAiGuardrailId?: string; 
   public get caseSummarizationAiGuardrailId() {
     return this.getStringAttribute('case_summarization_ai_guardrail_id');
   }
@@ -1717,7 +1717,7 @@ export class WisdomAiAgentConfigurationCaseSummarizationAiAgentConfigurationOutp
   }
 
   // case_summarization_ai_prompt_id - computed: true, optional: true, required: false
-  private _caseSummarizationAiPromptId?: string;
+  private _caseSummarizationAiPromptId?: string; 
   public get caseSummarizationAiPromptId() {
     return this.getStringAttribute('case_summarization_ai_prompt_id');
   }
@@ -1733,7 +1733,7 @@ export class WisdomAiAgentConfigurationCaseSummarizationAiAgentConfigurationOutp
   }
 
   // locale - computed: true, optional: true, required: false
-  private _locale?: string;
+  private _locale?: string; 
   public get locale() {
     return this.getStringAttribute('locale');
   }
@@ -1846,7 +1846,7 @@ export class WisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfiguration
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1862,7 +1862,7 @@ export class WisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfiguration
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1995,7 +1995,7 @@ export class WisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfiguration
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -2011,7 +2011,7 @@ export class WisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfiguration
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2142,7 +2142,7 @@ export class WisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfiguration
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -2158,7 +2158,7 @@ export class WisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfiguration
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2418,7 +2418,7 @@ export class WisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfiguration
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -2434,7 +2434,7 @@ export class WisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfiguration
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2738,7 +2738,7 @@ export class WisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfiguration
   }
 
   // max_results - computed: true, optional: true, required: false
-  private _maxResults?: number;
+  private _maxResults?: number; 
   public get maxResults() {
     return this.getNumberAttribute('max_results');
   }
@@ -2754,7 +2754,7 @@ export class WisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfiguration
   }
 
   // override_knowledge_base_search_type - computed: true, optional: true, required: false
-  private _overrideKnowledgeBaseSearchType?: string;
+  private _overrideKnowledgeBaseSearchType?: string; 
   public get overrideKnowledgeBaseSearchType() {
     return this.getStringAttribute('override_knowledge_base_search_type');
   }
@@ -2994,7 +2994,7 @@ export class WisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfiguration
   }
 
   // association_id - computed: true, optional: true, required: false
-  private _associationId?: string;
+  private _associationId?: string; 
   public get associationId() {
     return this.getStringAttribute('association_id');
   }
@@ -3010,7 +3010,7 @@ export class WisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfiguration
   }
 
   // association_type - computed: true, optional: true, required: false
-  private _associationType?: string;
+  private _associationType?: string; 
   public get associationType() {
     return this.getStringAttribute('association_type');
   }
@@ -3191,7 +3191,7 @@ export class WisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfiguration
   }
 
   // email_generative_answer_ai_prompt_id - computed: true, optional: true, required: false
-  private _emailGenerativeAnswerAiPromptId?: string;
+  private _emailGenerativeAnswerAiPromptId?: string; 
   public get emailGenerativeAnswerAiPromptId() {
     return this.getStringAttribute('email_generative_answer_ai_prompt_id');
   }
@@ -3207,7 +3207,7 @@ export class WisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfiguration
   }
 
   // email_query_reformulation_ai_prompt_id - computed: true, optional: true, required: false
-  private _emailQueryReformulationAiPromptId?: string;
+  private _emailQueryReformulationAiPromptId?: string; 
   public get emailQueryReformulationAiPromptId() {
     return this.getStringAttribute('email_query_reformulation_ai_prompt_id');
   }
@@ -3223,7 +3223,7 @@ export class WisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfiguration
   }
 
   // locale - computed: true, optional: true, required: false
-  private _locale?: string;
+  private _locale?: string; 
   public get locale() {
     return this.getStringAttribute('locale');
   }
@@ -3334,7 +3334,7 @@ export class WisdomAiAgentConfigurationEmailOverviewAiAgentConfigurationOutputRe
   }
 
   // email_overview_ai_prompt_id - computed: true, optional: true, required: false
-  private _emailOverviewAiPromptId?: string;
+  private _emailOverviewAiPromptId?: string; 
   public get emailOverviewAiPromptId() {
     return this.getStringAttribute('email_overview_ai_prompt_id');
   }
@@ -3350,7 +3350,7 @@ export class WisdomAiAgentConfigurationEmailOverviewAiAgentConfigurationOutputRe
   }
 
   // locale - computed: true, optional: true, required: false
-  private _locale?: string;
+  private _locale?: string; 
   public get locale() {
     return this.getStringAttribute('locale');
   }
@@ -3463,7 +3463,7 @@ export class WisdomAiAgentConfigurationEmailResponseAiAgentConfigurationAssociat
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -3479,7 +3479,7 @@ export class WisdomAiAgentConfigurationEmailResponseAiAgentConfigurationAssociat
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -3612,7 +3612,7 @@ export class WisdomAiAgentConfigurationEmailResponseAiAgentConfigurationAssociat
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -3628,7 +3628,7 @@ export class WisdomAiAgentConfigurationEmailResponseAiAgentConfigurationAssociat
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -3759,7 +3759,7 @@ export class WisdomAiAgentConfigurationEmailResponseAiAgentConfigurationAssociat
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -3775,7 +3775,7 @@ export class WisdomAiAgentConfigurationEmailResponseAiAgentConfigurationAssociat
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -4035,7 +4035,7 @@ export class WisdomAiAgentConfigurationEmailResponseAiAgentConfigurationAssociat
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -4051,7 +4051,7 @@ export class WisdomAiAgentConfigurationEmailResponseAiAgentConfigurationAssociat
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -4355,7 +4355,7 @@ export class WisdomAiAgentConfigurationEmailResponseAiAgentConfigurationAssociat
   }
 
   // max_results - computed: true, optional: true, required: false
-  private _maxResults?: number;
+  private _maxResults?: number; 
   public get maxResults() {
     return this.getNumberAttribute('max_results');
   }
@@ -4371,7 +4371,7 @@ export class WisdomAiAgentConfigurationEmailResponseAiAgentConfigurationAssociat
   }
 
   // override_knowledge_base_search_type - computed: true, optional: true, required: false
-  private _overrideKnowledgeBaseSearchType?: string;
+  private _overrideKnowledgeBaseSearchType?: string; 
   public get overrideKnowledgeBaseSearchType() {
     return this.getStringAttribute('override_knowledge_base_search_type');
   }
@@ -4611,7 +4611,7 @@ export class WisdomAiAgentConfigurationEmailResponseAiAgentConfigurationAssociat
   }
 
   // association_id - computed: true, optional: true, required: false
-  private _associationId?: string;
+  private _associationId?: string; 
   public get associationId() {
     return this.getStringAttribute('association_id');
   }
@@ -4627,7 +4627,7 @@ export class WisdomAiAgentConfigurationEmailResponseAiAgentConfigurationAssociat
   }
 
   // association_type - computed: true, optional: true, required: false
-  private _associationType?: string;
+  private _associationType?: string; 
   public get associationType() {
     return this.getStringAttribute('association_type');
   }
@@ -4808,7 +4808,7 @@ export class WisdomAiAgentConfigurationEmailResponseAiAgentConfigurationOutputRe
   }
 
   // email_query_reformulation_ai_prompt_id - computed: true, optional: true, required: false
-  private _emailQueryReformulationAiPromptId?: string;
+  private _emailQueryReformulationAiPromptId?: string; 
   public get emailQueryReformulationAiPromptId() {
     return this.getStringAttribute('email_query_reformulation_ai_prompt_id');
   }
@@ -4824,7 +4824,7 @@ export class WisdomAiAgentConfigurationEmailResponseAiAgentConfigurationOutputRe
   }
 
   // email_response_ai_prompt_id - computed: true, optional: true, required: false
-  private _emailResponseAiPromptId?: string;
+  private _emailResponseAiPromptId?: string; 
   public get emailResponseAiPromptId() {
     return this.getStringAttribute('email_response_ai_prompt_id');
   }
@@ -4840,7 +4840,7 @@ export class WisdomAiAgentConfigurationEmailResponseAiAgentConfigurationOutputRe
   }
 
   // locale - computed: true, optional: true, required: false
-  private _locale?: string;
+  private _locale?: string; 
   public get locale() {
     return this.getStringAttribute('locale');
   }
@@ -4953,7 +4953,7 @@ export class WisdomAiAgentConfigurationManualSearchAiAgentConfigurationAssociati
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -4969,7 +4969,7 @@ export class WisdomAiAgentConfigurationManualSearchAiAgentConfigurationAssociati
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -5102,7 +5102,7 @@ export class WisdomAiAgentConfigurationManualSearchAiAgentConfigurationAssociati
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -5118,7 +5118,7 @@ export class WisdomAiAgentConfigurationManualSearchAiAgentConfigurationAssociati
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -5249,7 +5249,7 @@ export class WisdomAiAgentConfigurationManualSearchAiAgentConfigurationAssociati
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -5265,7 +5265,7 @@ export class WisdomAiAgentConfigurationManualSearchAiAgentConfigurationAssociati
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -5525,7 +5525,7 @@ export class WisdomAiAgentConfigurationManualSearchAiAgentConfigurationAssociati
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -5541,7 +5541,7 @@ export class WisdomAiAgentConfigurationManualSearchAiAgentConfigurationAssociati
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -5845,7 +5845,7 @@ export class WisdomAiAgentConfigurationManualSearchAiAgentConfigurationAssociati
   }
 
   // max_results - computed: true, optional: true, required: false
-  private _maxResults?: number;
+  private _maxResults?: number; 
   public get maxResults() {
     return this.getNumberAttribute('max_results');
   }
@@ -5861,7 +5861,7 @@ export class WisdomAiAgentConfigurationManualSearchAiAgentConfigurationAssociati
   }
 
   // override_knowledge_base_search_type - computed: true, optional: true, required: false
-  private _overrideKnowledgeBaseSearchType?: string;
+  private _overrideKnowledgeBaseSearchType?: string; 
   public get overrideKnowledgeBaseSearchType() {
     return this.getStringAttribute('override_knowledge_base_search_type');
   }
@@ -6101,7 +6101,7 @@ export class WisdomAiAgentConfigurationManualSearchAiAgentConfigurationAssociati
   }
 
   // association_id - computed: true, optional: true, required: false
-  private _associationId?: string;
+  private _associationId?: string; 
   public get associationId() {
     return this.getStringAttribute('association_id');
   }
@@ -6117,7 +6117,7 @@ export class WisdomAiAgentConfigurationManualSearchAiAgentConfigurationAssociati
   }
 
   // association_type - computed: true, optional: true, required: false
-  private _associationType?: string;
+  private _associationType?: string; 
   public get associationType() {
     return this.getStringAttribute('association_type');
   }
@@ -6282,7 +6282,7 @@ export class WisdomAiAgentConfigurationManualSearchAiAgentConfigurationOutputRef
   }
 
   // answer_generation_ai_guardrail_id - computed: true, optional: true, required: false
-  private _answerGenerationAiGuardrailId?: string;
+  private _answerGenerationAiGuardrailId?: string; 
   public get answerGenerationAiGuardrailId() {
     return this.getStringAttribute('answer_generation_ai_guardrail_id');
   }
@@ -6298,7 +6298,7 @@ export class WisdomAiAgentConfigurationManualSearchAiAgentConfigurationOutputRef
   }
 
   // answer_generation_ai_prompt_id - computed: true, optional: true, required: false
-  private _answerGenerationAiPromptId?: string;
+  private _answerGenerationAiPromptId?: string; 
   public get answerGenerationAiPromptId() {
     return this.getStringAttribute('answer_generation_ai_prompt_id');
   }
@@ -6330,7 +6330,7 @@ export class WisdomAiAgentConfigurationManualSearchAiAgentConfigurationOutputRef
   }
 
   // locale - computed: true, optional: true, required: false
-  private _locale?: string;
+  private _locale?: string; 
   public get locale() {
     return this.getStringAttribute('locale');
   }
@@ -6458,7 +6458,7 @@ export class WisdomAiAgentConfigurationNoteTakingAiAgentConfigurationOutputRefer
   }
 
   // locale - computed: true, optional: true, required: false
-  private _locale?: string;
+  private _locale?: string; 
   public get locale() {
     return this.getStringAttribute('locale');
   }
@@ -6474,7 +6474,7 @@ export class WisdomAiAgentConfigurationNoteTakingAiAgentConfigurationOutputRefer
   }
 
   // note_taking_ai_guardrail_id - computed: true, optional: true, required: false
-  private _noteTakingAiGuardrailId?: string;
+  private _noteTakingAiGuardrailId?: string; 
   public get noteTakingAiGuardrailId() {
     return this.getStringAttribute('note_taking_ai_guardrail_id');
   }
@@ -6490,7 +6490,7 @@ export class WisdomAiAgentConfigurationNoteTakingAiAgentConfigurationOutputRefer
   }
 
   // note_taking_ai_prompt_id - computed: true, optional: true, required: false
-  private _noteTakingAiPromptId?: string;
+  private _noteTakingAiPromptId?: string; 
   public get noteTakingAiPromptId() {
     return this.getStringAttribute('note_taking_ai_prompt_id');
   }
@@ -6601,7 +6601,7 @@ export class WisdomAiAgentConfigurationOrchestrationAiAgentConfigurationToolConf
   }
 
   // examples - computed: true, optional: true, required: false
-  private _examples?: string[];
+  private _examples?: string[]; 
   public get examples() {
     return this.getListAttribute('examples');
   }
@@ -6617,7 +6617,7 @@ export class WisdomAiAgentConfigurationOrchestrationAiAgentConfigurationToolConf
   }
 
   // instruction - computed: true, optional: true, required: false
-  private _instruction?: string;
+  private _instruction?: string; 
   public get instruction() {
     return this.getStringAttribute('instruction');
   }
@@ -6728,7 +6728,7 @@ export class WisdomAiAgentConfigurationOrchestrationAiAgentConfigurationToolConf
   }
 
   // output_variable_name_override - computed: true, optional: true, required: false
-  private _outputVariableNameOverride?: string;
+  private _outputVariableNameOverride?: string; 
   public get outputVariableNameOverride() {
     return this.getStringAttribute('output_variable_name_override');
   }
@@ -6744,7 +6744,7 @@ export class WisdomAiAgentConfigurationOrchestrationAiAgentConfigurationToolConf
   }
 
   // session_data_namespace - computed: true, optional: true, required: false
-  private _sessionDataNamespace?: string;
+  private _sessionDataNamespace?: string; 
   public get sessionDataNamespace() {
     return this.getStringAttribute('session_data_namespace');
   }
@@ -6857,7 +6857,7 @@ export class WisdomAiAgentConfigurationOrchestrationAiAgentConfigurationToolConf
   }
 
   // json_path - computed: true, optional: true, required: false
-  private _jsonPath?: string;
+  private _jsonPath?: string; 
   public get jsonPath() {
     return this.getStringAttribute('json_path');
   }
@@ -7004,7 +7004,7 @@ export class WisdomAiAgentConfigurationOrchestrationAiAgentConfigurationToolConf
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -7020,7 +7020,7 @@ export class WisdomAiAgentConfigurationOrchestrationAiAgentConfigurationToolConf
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -7227,7 +7227,7 @@ export class WisdomAiAgentConfigurationOrchestrationAiAgentConfigurationToolConf
   }
 
   // json_path - computed: true, optional: true, required: false
-  private _jsonPath?: string;
+  private _jsonPath?: string; 
   public get jsonPath() {
     return this.getStringAttribute('json_path');
   }
@@ -7357,7 +7357,7 @@ export class WisdomAiAgentConfigurationOrchestrationAiAgentConfigurationToolConf
   }
 
   // is_user_confirmation_required - computed: true, optional: true, required: false
-  private _isUserConfirmationRequired?: boolean | cdktn.IResolvable;
+  private _isUserConfirmationRequired?: boolean | cdktn.IResolvable; 
   public get isUserConfirmationRequired() {
     return this.getBooleanAttribute('is_user_confirmation_required');
   }
@@ -7640,7 +7640,7 @@ export class WisdomAiAgentConfigurationOrchestrationAiAgentConfigurationToolConf
   }
 
   // annotations - computed: true, optional: true, required: false
-  private _annotations?: string;
+  private _annotations?: string; 
   public get annotations() {
     return this.getStringAttribute('annotations');
   }
@@ -7656,7 +7656,7 @@ export class WisdomAiAgentConfigurationOrchestrationAiAgentConfigurationToolConf
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -7672,7 +7672,7 @@ export class WisdomAiAgentConfigurationOrchestrationAiAgentConfigurationToolConf
   }
 
   // input_schema - computed: true, optional: true, required: false
-  private _inputSchema?: string;
+  private _inputSchema?: string; 
   public get inputSchema() {
     return this.getStringAttribute('input_schema');
   }
@@ -7720,7 +7720,7 @@ export class WisdomAiAgentConfigurationOrchestrationAiAgentConfigurationToolConf
   }
 
   // output_schema - computed: true, optional: true, required: false
-  private _outputSchema?: string;
+  private _outputSchema?: string; 
   public get outputSchema() {
     return this.getStringAttribute('output_schema');
   }
@@ -7752,7 +7752,7 @@ export class WisdomAiAgentConfigurationOrchestrationAiAgentConfigurationToolConf
   }
 
   // title - computed: true, optional: true, required: false
-  private _title?: string;
+  private _title?: string; 
   public get title() {
     return this.getStringAttribute('title');
   }
@@ -7768,7 +7768,7 @@ export class WisdomAiAgentConfigurationOrchestrationAiAgentConfigurationToolConf
   }
 
   // tool_id - computed: true, optional: true, required: false
-  private _toolId?: string;
+  private _toolId?: string; 
   public get toolId() {
     return this.getStringAttribute('tool_id');
   }
@@ -7784,7 +7784,7 @@ export class WisdomAiAgentConfigurationOrchestrationAiAgentConfigurationToolConf
   }
 
   // tool_name - computed: true, optional: true, required: false
-  private _toolName?: string;
+  private _toolName?: string; 
   public get toolName() {
     return this.getStringAttribute('tool_name');
   }
@@ -7800,7 +7800,7 @@ export class WisdomAiAgentConfigurationOrchestrationAiAgentConfigurationToolConf
   }
 
   // tool_type - computed: true, optional: true, required: false
-  private _toolType?: string;
+  private _toolType?: string; 
   public get toolType() {
     return this.getStringAttribute('tool_type');
   }
@@ -7998,7 +7998,7 @@ export class WisdomAiAgentConfigurationOrchestrationAiAgentConfigurationOutputRe
   }
 
   // connect_instance_arn - computed: true, optional: true, required: false
-  private _connectInstanceArn?: string;
+  private _connectInstanceArn?: string; 
   public get connectInstanceArn() {
     return this.getStringAttribute('connect_instance_arn');
   }
@@ -8014,7 +8014,7 @@ export class WisdomAiAgentConfigurationOrchestrationAiAgentConfigurationOutputRe
   }
 
   // locale - computed: true, optional: true, required: false
-  private _locale?: string;
+  private _locale?: string; 
   public get locale() {
     return this.getStringAttribute('locale');
   }
@@ -8030,7 +8030,7 @@ export class WisdomAiAgentConfigurationOrchestrationAiAgentConfigurationOutputRe
   }
 
   // orchestration_ai_guardrail_id - computed: true, optional: true, required: false
-  private _orchestrationAiGuardrailId?: string;
+  private _orchestrationAiGuardrailId?: string; 
   public get orchestrationAiGuardrailId() {
     return this.getStringAttribute('orchestration_ai_guardrail_id');
   }
@@ -8046,7 +8046,7 @@ export class WisdomAiAgentConfigurationOrchestrationAiAgentConfigurationOutputRe
   }
 
   // orchestration_ai_prompt_id - computed: true, optional: true, required: false
-  private _orchestrationAiPromptId?: string;
+  private _orchestrationAiPromptId?: string; 
   public get orchestrationAiPromptId() {
     return this.getStringAttribute('orchestration_ai_prompt_id');
   }
@@ -8175,7 +8175,7 @@ export class WisdomAiAgentConfigurationSelfServiceAiAgentConfigurationAssociatio
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -8191,7 +8191,7 @@ export class WisdomAiAgentConfigurationSelfServiceAiAgentConfigurationAssociatio
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -8324,7 +8324,7 @@ export class WisdomAiAgentConfigurationSelfServiceAiAgentConfigurationAssociatio
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -8340,7 +8340,7 @@ export class WisdomAiAgentConfigurationSelfServiceAiAgentConfigurationAssociatio
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -8471,7 +8471,7 @@ export class WisdomAiAgentConfigurationSelfServiceAiAgentConfigurationAssociatio
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -8487,7 +8487,7 @@ export class WisdomAiAgentConfigurationSelfServiceAiAgentConfigurationAssociatio
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -8747,7 +8747,7 @@ export class WisdomAiAgentConfigurationSelfServiceAiAgentConfigurationAssociatio
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -8763,7 +8763,7 @@ export class WisdomAiAgentConfigurationSelfServiceAiAgentConfigurationAssociatio
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -9067,7 +9067,7 @@ export class WisdomAiAgentConfigurationSelfServiceAiAgentConfigurationAssociatio
   }
 
   // max_results - computed: true, optional: true, required: false
-  private _maxResults?: number;
+  private _maxResults?: number; 
   public get maxResults() {
     return this.getNumberAttribute('max_results');
   }
@@ -9083,7 +9083,7 @@ export class WisdomAiAgentConfigurationSelfServiceAiAgentConfigurationAssociatio
   }
 
   // override_knowledge_base_search_type - computed: true, optional: true, required: false
-  private _overrideKnowledgeBaseSearchType?: string;
+  private _overrideKnowledgeBaseSearchType?: string; 
   public get overrideKnowledgeBaseSearchType() {
     return this.getStringAttribute('override_knowledge_base_search_type');
   }
@@ -9323,7 +9323,7 @@ export class WisdomAiAgentConfigurationSelfServiceAiAgentConfigurationAssociatio
   }
 
   // association_id - computed: true, optional: true, required: false
-  private _associationId?: string;
+  private _associationId?: string; 
   public get associationId() {
     return this.getStringAttribute('association_id');
   }
@@ -9339,7 +9339,7 @@ export class WisdomAiAgentConfigurationSelfServiceAiAgentConfigurationAssociatio
   }
 
   // association_type - computed: true, optional: true, required: false
-  private _associationType?: string;
+  private _associationType?: string; 
   public get associationType() {
     return this.getStringAttribute('association_type');
   }
@@ -9520,7 +9520,7 @@ export class WisdomAiAgentConfigurationSelfServiceAiAgentConfigurationOutputRefe
   }
 
   // self_service_ai_guardrail_id - computed: true, optional: true, required: false
-  private _selfServiceAiGuardrailId?: string;
+  private _selfServiceAiGuardrailId?: string; 
   public get selfServiceAiGuardrailId() {
     return this.getStringAttribute('self_service_ai_guardrail_id');
   }
@@ -9536,7 +9536,7 @@ export class WisdomAiAgentConfigurationSelfServiceAiAgentConfigurationOutputRefe
   }
 
   // self_service_answer_generation_ai_prompt_id - computed: true, optional: true, required: false
-  private _selfServiceAnswerGenerationAiPromptId?: string;
+  private _selfServiceAnswerGenerationAiPromptId?: string; 
   public get selfServiceAnswerGenerationAiPromptId() {
     return this.getStringAttribute('self_service_answer_generation_ai_prompt_id');
   }
@@ -9552,7 +9552,7 @@ export class WisdomAiAgentConfigurationSelfServiceAiAgentConfigurationOutputRefe
   }
 
   // self_service_pre_processing_ai_prompt_id - computed: true, optional: true, required: false
-  private _selfServicePreProcessingAiPromptId?: string;
+  private _selfServicePreProcessingAiPromptId?: string; 
   public get selfServicePreProcessingAiPromptId() {
     return this.getStringAttribute('self_service_pre_processing_ai_prompt_id');
   }
@@ -10004,7 +10004,7 @@ export class WisdomAiAgent extends cdktn.TerraformResource {
   }
 
   // assistant_id - computed: false, optional: false, required: true
-  private _assistantId?: string;
+  private _assistantId?: string; 
   public get assistantId() {
     return this.getStringAttribute('assistant_id');
   }
@@ -10030,7 +10030,7 @@ export class WisdomAiAgent extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -10056,7 +10056,7 @@ export class WisdomAiAgent extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -10072,7 +10072,7 @@ export class WisdomAiAgent extends cdktn.TerraformResource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -10088,7 +10088,7 @@ export class WisdomAiAgent extends cdktn.TerraformResource {
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }

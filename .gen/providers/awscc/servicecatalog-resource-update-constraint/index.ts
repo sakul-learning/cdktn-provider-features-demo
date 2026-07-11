@@ -101,7 +101,7 @@ export class ServicecatalogResourceUpdateConstraint extends cdktn.TerraformResou
   // ==========
 
   // accept_language - computed: true, optional: true, required: false
-  private _acceptLanguage?: string;
+  private _acceptLanguage?: string; 
   public get acceptLanguage() {
     return this.getStringAttribute('accept_language');
   }
@@ -117,7 +117,7 @@ export class ServicecatalogResourceUpdateConstraint extends cdktn.TerraformResou
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -138,7 +138,7 @@ export class ServicecatalogResourceUpdateConstraint extends cdktn.TerraformResou
   }
 
   // portfolio_id - computed: false, optional: false, required: true
-  private _portfolioId?: string;
+  private _portfolioId?: string; 
   public get portfolioId() {
     return this.getStringAttribute('portfolio_id');
   }
@@ -151,7 +151,7 @@ export class ServicecatalogResourceUpdateConstraint extends cdktn.TerraformResou
   }
 
   // product_id - computed: false, optional: false, required: true
-  private _productId?: string;
+  private _productId?: string; 
   public get productId() {
     return this.getStringAttribute('product_id');
   }
@@ -169,7 +169,7 @@ export class ServicecatalogResourceUpdateConstraint extends cdktn.TerraformResou
   }
 
   // tag_update_on_provisioned_product - computed: false, optional: false, required: true
-  private _tagUpdateOnProvisionedProduct?: string;
+  private _tagUpdateOnProvisionedProduct?: string; 
   public get tagUpdateOnProvisionedProduct() {
     return this.getStringAttribute('tag_update_on_provisioned_product');
   }

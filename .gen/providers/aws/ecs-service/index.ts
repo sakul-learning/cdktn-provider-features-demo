@@ -296,7 +296,7 @@ export class EcsServiceAlarmsOutputReference extends cdktn.ComplexObject {
   }
 
   // alarm_names - computed: false, optional: false, required: true
-  private _alarmNames?: string[];
+  private _alarmNames?: string[]; 
   public get alarmNames() {
     return cdktn.Fn.tolist(this.getListAttribute('alarm_names'));
   }
@@ -309,7 +309,7 @@ export class EcsServiceAlarmsOutputReference extends cdktn.ComplexObject {
   }
 
   // enable - computed: false, optional: false, required: true
-  private _enable?: boolean | cdktn.IResolvable;
+  private _enable?: boolean | cdktn.IResolvable; 
   public get enable() {
     return this.getBooleanAttribute('enable');
   }
@@ -322,7 +322,7 @@ export class EcsServiceAlarmsOutputReference extends cdktn.ComplexObject {
   }
 
   // rollback - computed: false, optional: false, required: true
-  private _rollback?: boolean | cdktn.IResolvable;
+  private _rollback?: boolean | cdktn.IResolvable; 
   public get rollback() {
     return this.getBooleanAttribute('rollback');
   }
@@ -449,7 +449,7 @@ export class EcsServiceCapacityProviderStrategyOutputReference extends cdktn.Com
   }
 
   // base - computed: false, optional: true, required: false
-  private _base?: number;
+  private _base?: number; 
   public get base() {
     return this.getNumberAttribute('base');
   }
@@ -465,7 +465,7 @@ export class EcsServiceCapacityProviderStrategyOutputReference extends cdktn.Com
   }
 
   // capacity_provider - computed: false, optional: false, required: true
-  private _capacityProvider?: string;
+  private _capacityProvider?: string; 
   public get capacityProvider() {
     return this.getStringAttribute('capacity_provider');
   }
@@ -478,7 +478,7 @@ export class EcsServiceCapacityProviderStrategyOutputReference extends cdktn.Com
   }
 
   // weight - computed: false, optional: true, required: false
-  private _weight?: number;
+  private _weight?: number; 
   public get weight() {
     return this.getNumberAttribute('weight');
   }
@@ -599,7 +599,7 @@ export class EcsServiceDeploymentCircuitBreakerOutputReference extends cdktn.Com
   }
 
   // enable - computed: false, optional: false, required: true
-  private _enable?: boolean | cdktn.IResolvable;
+  private _enable?: boolean | cdktn.IResolvable; 
   public get enable() {
     return this.getBooleanAttribute('enable');
   }
@@ -612,7 +612,7 @@ export class EcsServiceDeploymentCircuitBreakerOutputReference extends cdktn.Com
   }
 
   // rollback - computed: false, optional: false, required: true
-  private _rollback?: boolean | cdktn.IResolvable;
+  private _rollback?: boolean | cdktn.IResolvable; 
   public get rollback() {
     return this.getBooleanAttribute('rollback');
   }
@@ -710,7 +710,7 @@ export class EcsServiceDeploymentConfigurationCanaryConfigurationOutputReference
   }
 
   // canary_bake_time_in_minutes - computed: true, optional: true, required: false
-  private _canaryBakeTimeInMinutes?: string;
+  private _canaryBakeTimeInMinutes?: string; 
   public get canaryBakeTimeInMinutes() {
     return this.getStringAttribute('canary_bake_time_in_minutes');
   }
@@ -726,7 +726,7 @@ export class EcsServiceDeploymentConfigurationCanaryConfigurationOutputReference
   }
 
   // canary_percent - computed: true, optional: true, required: false
-  private _canaryPercent?: number;
+  private _canaryPercent?: number; 
   public get canaryPercent() {
     return this.getNumberAttribute('canary_percent');
   }
@@ -873,7 +873,7 @@ export class EcsServiceDeploymentConfigurationLifecycleHookOutputReference exten
   }
 
   // hook_details - computed: false, optional: true, required: false
-  private _hookDetails?: string;
+  private _hookDetails?: string; 
   public get hookDetails() {
     return this.getStringAttribute('hook_details');
   }
@@ -889,7 +889,7 @@ export class EcsServiceDeploymentConfigurationLifecycleHookOutputReference exten
   }
 
   // hook_target_arn - computed: false, optional: false, required: true
-  private _hookTargetArn?: string;
+  private _hookTargetArn?: string; 
   public get hookTargetArn() {
     return this.getStringAttribute('hook_target_arn');
   }
@@ -902,7 +902,7 @@ export class EcsServiceDeploymentConfigurationLifecycleHookOutputReference exten
   }
 
   // lifecycle_stages - computed: false, optional: false, required: true
-  private _lifecycleStages?: string[];
+  private _lifecycleStages?: string[]; 
   public get lifecycleStages() {
     return this.getListAttribute('lifecycle_stages');
   }
@@ -915,7 +915,7 @@ export class EcsServiceDeploymentConfigurationLifecycleHookOutputReference exten
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -1033,7 +1033,7 @@ export class EcsServiceDeploymentConfigurationLinearConfigurationOutputReference
   }
 
   // step_bake_time_in_minutes - computed: true, optional: true, required: false
-  private _stepBakeTimeInMinutes?: string;
+  private _stepBakeTimeInMinutes?: string; 
   public get stepBakeTimeInMinutes() {
     return this.getStringAttribute('step_bake_time_in_minutes');
   }
@@ -1049,7 +1049,7 @@ export class EcsServiceDeploymentConfigurationLinearConfigurationOutputReference
   }
 
   // step_percent - computed: true, optional: true, required: false
-  private _stepPercent?: number;
+  private _stepPercent?: number; 
   public get stepPercent() {
     return this.getNumberAttribute('step_percent');
   }
@@ -1207,7 +1207,7 @@ export class EcsServiceDeploymentConfigurationOutputReference extends cdktn.Comp
   }
 
   // bake_time_in_minutes - computed: true, optional: true, required: false
-  private _bakeTimeInMinutes?: string;
+  private _bakeTimeInMinutes?: string; 
   public get bakeTimeInMinutes() {
     return this.getStringAttribute('bake_time_in_minutes');
   }
@@ -1223,7 +1223,7 @@ export class EcsServiceDeploymentConfigurationOutputReference extends cdktn.Comp
   }
 
   // strategy - computed: true, optional: true, required: false
-  private _strategy?: string;
+  private _strategy?: string; 
   public get strategy() {
     return this.getStringAttribute('strategy');
   }
@@ -1355,7 +1355,7 @@ export class EcsServiceDeploymentControllerOutputReference extends cdktn.Complex
   }
 
   // type - computed: false, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -1490,7 +1490,7 @@ export class EcsServiceLoadBalancerAdvancedConfigurationOutputReference extends 
   }
 
   // alternate_target_group_arn - computed: false, optional: false, required: true
-  private _alternateTargetGroupArn?: string;
+  private _alternateTargetGroupArn?: string; 
   public get alternateTargetGroupArn() {
     return this.getStringAttribute('alternate_target_group_arn');
   }
@@ -1503,7 +1503,7 @@ export class EcsServiceLoadBalancerAdvancedConfigurationOutputReference extends 
   }
 
   // production_listener_rule - computed: false, optional: false, required: true
-  private _productionListenerRule?: string;
+  private _productionListenerRule?: string; 
   public get productionListenerRule() {
     return this.getStringAttribute('production_listener_rule');
   }
@@ -1516,7 +1516,7 @@ export class EcsServiceLoadBalancerAdvancedConfigurationOutputReference extends 
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -1529,7 +1529,7 @@ export class EcsServiceLoadBalancerAdvancedConfigurationOutputReference extends 
   }
 
   // test_listener_rule - computed: false, optional: true, required: false
-  private _testListenerRule?: string;
+  private _testListenerRule?: string; 
   public get testListenerRule() {
     return this.getStringAttribute('test_listener_rule');
   }
@@ -1695,7 +1695,7 @@ export class EcsServiceLoadBalancerOutputReference extends cdktn.ComplexObject {
   }
 
   // container_name - computed: false, optional: false, required: true
-  private _containerName?: string;
+  private _containerName?: string; 
   public get containerName() {
     return this.getStringAttribute('container_name');
   }
@@ -1708,7 +1708,7 @@ export class EcsServiceLoadBalancerOutputReference extends cdktn.ComplexObject {
   }
 
   // container_port - computed: false, optional: false, required: true
-  private _containerPort?: number;
+  private _containerPort?: number; 
   public get containerPort() {
     return this.getNumberAttribute('container_port');
   }
@@ -1721,7 +1721,7 @@ export class EcsServiceLoadBalancerOutputReference extends cdktn.ComplexObject {
   }
 
   // elb_name - computed: false, optional: true, required: false
-  private _elbName?: string;
+  private _elbName?: string; 
   public get elbName() {
     return this.getStringAttribute('elb_name');
   }
@@ -1737,7 +1737,7 @@ export class EcsServiceLoadBalancerOutputReference extends cdktn.ComplexObject {
   }
 
   // target_group_arn - computed: false, optional: true, required: false
-  private _targetGroupArn?: string;
+  private _targetGroupArn?: string; 
   public get targetGroupArn() {
     return this.getStringAttribute('target_group_arn');
   }
@@ -1891,7 +1891,7 @@ export class EcsServiceNetworkConfigurationOutputReference extends cdktn.Complex
   }
 
   // assign_public_ip - computed: false, optional: true, required: false
-  private _assignPublicIp?: boolean | cdktn.IResolvable;
+  private _assignPublicIp?: boolean | cdktn.IResolvable; 
   public get assignPublicIp() {
     return this.getBooleanAttribute('assign_public_ip');
   }
@@ -1907,7 +1907,7 @@ export class EcsServiceNetworkConfigurationOutputReference extends cdktn.Complex
   }
 
   // security_groups - computed: false, optional: true, required: false
-  private _securityGroups?: string[];
+  private _securityGroups?: string[]; 
   public get securityGroups() {
     return cdktn.Fn.tolist(this.getListAttribute('security_groups'));
   }
@@ -1923,7 +1923,7 @@ export class EcsServiceNetworkConfigurationOutputReference extends cdktn.Complex
   }
 
   // subnets - computed: false, optional: false, required: true
-  private _subnets?: string[];
+  private _subnets?: string[]; 
   public get subnets() {
     return cdktn.Fn.tolist(this.getListAttribute('subnets'));
   }
@@ -2033,7 +2033,7 @@ export class EcsServiceOrderedPlacementStrategyOutputReference extends cdktn.Com
   }
 
   // field - computed: false, optional: true, required: false
-  private _field?: string;
+  private _field?: string; 
   public get field() {
     return this.getStringAttribute('field');
   }
@@ -2049,7 +2049,7 @@ export class EcsServiceOrderedPlacementStrategyOutputReference extends cdktn.Com
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -2179,7 +2179,7 @@ export class EcsServicePlacementConstraintsOutputReference extends cdktn.Complex
   }
 
   // expression - computed: false, optional: true, required: false
-  private _expression?: string;
+  private _expression?: string; 
   public get expression() {
     return this.getStringAttribute('expression');
   }
@@ -2195,7 +2195,7 @@ export class EcsServicePlacementConstraintsOutputReference extends cdktn.Complex
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -2313,7 +2313,7 @@ export class EcsServiceServiceConnectConfigurationAccessLogConfigurationOutputRe
   }
 
   // format - computed: false, optional: false, required: true
-  private _format?: string;
+  private _format?: string; 
   public get format() {
     return this.getStringAttribute('format');
   }
@@ -2326,7 +2326,7 @@ export class EcsServiceServiceConnectConfigurationAccessLogConfigurationOutputRe
   }
 
   // include_query_parameters - computed: true, optional: true, required: false
-  private _includeQueryParameters?: string;
+  private _includeQueryParameters?: string; 
   public get includeQueryParameters() {
     return this.getStringAttribute('include_query_parameters');
   }
@@ -2439,7 +2439,7 @@ export class EcsServiceServiceConnectConfigurationLogConfigurationSecretOptionOu
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2452,7 +2452,7 @@ export class EcsServiceServiceConnectConfigurationLogConfigurationSecretOptionOu
   }
 
   // value_from - computed: false, optional: false, required: true
-  private _valueFrom?: string;
+  private _valueFrom?: string; 
   public get valueFrom() {
     return this.getStringAttribute('value_from');
   }
@@ -2589,7 +2589,7 @@ export class EcsServiceServiceConnectConfigurationLogConfigurationOutputReferenc
   }
 
   // log_driver - computed: false, optional: false, required: true
-  private _logDriver?: string;
+  private _logDriver?: string; 
   public get logDriver() {
     return this.getStringAttribute('log_driver');
   }
@@ -2602,7 +2602,7 @@ export class EcsServiceServiceConnectConfigurationLogConfigurationOutputReferenc
   }
 
   // options - computed: true, optional: true, required: false
-  private _options?: { [key: string]: string };
+  private _options?: { [key: string]: string }; 
   public get options() {
     return this.getStringMapAttribute('options');
   }
@@ -2702,7 +2702,7 @@ export class EcsServiceServiceConnectConfigurationServiceClientAliasTestTrafficR
   }
 
   // exact - computed: false, optional: false, required: true
-  private _exact?: string;
+  private _exact?: string; 
   public get exact() {
     return this.getStringAttribute('exact');
   }
@@ -2802,7 +2802,7 @@ export class EcsServiceServiceConnectConfigurationServiceClientAliasTestTrafficR
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -3050,7 +3050,7 @@ export class EcsServiceServiceConnectConfigurationServiceClientAliasOutputRefere
   }
 
   // dns_name - computed: true, optional: true, required: false
-  private _dnsName?: string;
+  private _dnsName?: string; 
   public get dnsName() {
     return this.getStringAttribute('dns_name');
   }
@@ -3066,7 +3066,7 @@ export class EcsServiceServiceConnectConfigurationServiceClientAliasOutputRefere
   }
 
   // port - computed: false, optional: false, required: true
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -3180,7 +3180,7 @@ export class EcsServiceServiceConnectConfigurationServiceTimeoutOutputReference 
   }
 
   // idle_timeout_seconds - computed: false, optional: true, required: false
-  private _idleTimeoutSeconds?: number;
+  private _idleTimeoutSeconds?: number; 
   public get idleTimeoutSeconds() {
     return this.getNumberAttribute('idle_timeout_seconds');
   }
@@ -3196,7 +3196,7 @@ export class EcsServiceServiceConnectConfigurationServiceTimeoutOutputReference 
   }
 
   // per_request_timeout_seconds - computed: false, optional: true, required: false
-  private _perRequestTimeoutSeconds?: number;
+  private _perRequestTimeoutSeconds?: number; 
   public get perRequestTimeoutSeconds() {
     return this.getNumberAttribute('per_request_timeout_seconds');
   }
@@ -3280,7 +3280,7 @@ export class EcsServiceServiceConnectConfigurationServiceTlsIssuerCertAuthorityO
   }
 
   // aws_pca_authority_arn - computed: false, optional: false, required: true
-  private _awsPcaAuthorityArn?: string;
+  private _awsPcaAuthorityArn?: string; 
   public get awsPcaAuthorityArn() {
     return this.getStringAttribute('aws_pca_authority_arn');
   }
@@ -3397,7 +3397,7 @@ export class EcsServiceServiceConnectConfigurationServiceTlsOutputReference exte
   }
 
   // kms_key - computed: false, optional: true, required: false
-  private _kmsKey?: string;
+  private _kmsKey?: string; 
   public get kmsKey() {
     return this.getStringAttribute('kms_key');
   }
@@ -3413,7 +3413,7 @@ export class EcsServiceServiceConnectConfigurationServiceTlsOutputReference exte
   }
 
   // role_arn - computed: false, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -3613,7 +3613,7 @@ export class EcsServiceServiceConnectConfigurationServiceOutputReference extends
   }
 
   // discovery_name - computed: true, optional: true, required: false
-  private _discoveryName?: string;
+  private _discoveryName?: string; 
   public get discoveryName() {
     return this.getStringAttribute('discovery_name');
   }
@@ -3629,7 +3629,7 @@ export class EcsServiceServiceConnectConfigurationServiceOutputReference extends
   }
 
   // ingress_port_override - computed: false, optional: true, required: false
-  private _ingressPortOverride?: number;
+  private _ingressPortOverride?: number; 
   public get ingressPortOverride() {
     return this.getNumberAttribute('ingress_port_override');
   }
@@ -3645,7 +3645,7 @@ export class EcsServiceServiceConnectConfigurationServiceOutputReference extends
   }
 
   // port_name - computed: false, optional: false, required: true
-  private _portName?: string;
+  private _portName?: string; 
   public get portName() {
     return this.getStringAttribute('port_name');
   }
@@ -3868,7 +3868,7 @@ export class EcsServiceServiceConnectConfigurationOutputReference extends cdktn.
   }
 
   // enabled - computed: false, optional: false, required: true
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -3881,7 +3881,7 @@ export class EcsServiceServiceConnectConfigurationOutputReference extends cdktn.
   }
 
   // namespace - computed: true, optional: true, required: false
-  private _namespace?: string;
+  private _namespace?: string; 
   public get namespace() {
     return this.getStringAttribute('namespace');
   }
@@ -4064,7 +4064,7 @@ export class EcsServiceServiceRegistriesOutputReference extends cdktn.ComplexObj
   }
 
   // container_name - computed: false, optional: true, required: false
-  private _containerName?: string;
+  private _containerName?: string; 
   public get containerName() {
     return this.getStringAttribute('container_name');
   }
@@ -4080,7 +4080,7 @@ export class EcsServiceServiceRegistriesOutputReference extends cdktn.ComplexObj
   }
 
   // container_port - computed: false, optional: true, required: false
-  private _containerPort?: number;
+  private _containerPort?: number; 
   public get containerPort() {
     return this.getNumberAttribute('container_port');
   }
@@ -4096,7 +4096,7 @@ export class EcsServiceServiceRegistriesOutputReference extends cdktn.ComplexObj
   }
 
   // port - computed: false, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -4112,7 +4112,7 @@ export class EcsServiceServiceRegistriesOutputReference extends cdktn.ComplexObj
   }
 
   // registry_arn - computed: false, optional: false, required: true
-  private _registryArn?: string;
+  private _registryArn?: string; 
   public get registryArn() {
     return this.getStringAttribute('registry_arn');
   }
@@ -4237,7 +4237,7 @@ export class EcsServiceTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -4253,7 +4253,7 @@ export class EcsServiceTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -4269,7 +4269,7 @@ export class EcsServiceTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -4399,7 +4399,7 @@ export class EcsServiceVolumeConfigurationManagedEbsVolumeTagSpecificationsOutpu
   }
 
   // propagate_tags - computed: false, optional: true, required: false
-  private _propagateTags?: string;
+  private _propagateTags?: string; 
   public get propagateTags() {
     return this.getStringAttribute('propagate_tags');
   }
@@ -4415,7 +4415,7 @@ export class EcsServiceVolumeConfigurationManagedEbsVolumeTagSpecificationsOutpu
   }
 
   // resource_type - computed: false, optional: false, required: true
-  private _resourceType?: string;
+  private _resourceType?: string; 
   public get resourceType() {
     return this.getStringAttribute('resource_type');
   }
@@ -4428,7 +4428,7 @@ export class EcsServiceVolumeConfigurationManagedEbsVolumeTagSpecificationsOutpu
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -4704,7 +4704,7 @@ export class EcsServiceVolumeConfigurationManagedEbsVolumeOutputReference extend
   }
 
   // encrypted - computed: false, optional: true, required: false
-  private _encrypted?: boolean | cdktn.IResolvable;
+  private _encrypted?: boolean | cdktn.IResolvable; 
   public get encrypted() {
     return this.getBooleanAttribute('encrypted');
   }
@@ -4720,7 +4720,7 @@ export class EcsServiceVolumeConfigurationManagedEbsVolumeOutputReference extend
   }
 
   // file_system_type - computed: false, optional: true, required: false
-  private _fileSystemType?: string;
+  private _fileSystemType?: string; 
   public get fileSystemType() {
     return this.getStringAttribute('file_system_type');
   }
@@ -4736,7 +4736,7 @@ export class EcsServiceVolumeConfigurationManagedEbsVolumeOutputReference extend
   }
 
   // iops - computed: false, optional: true, required: false
-  private _iops?: number;
+  private _iops?: number; 
   public get iops() {
     return this.getNumberAttribute('iops');
   }
@@ -4752,7 +4752,7 @@ export class EcsServiceVolumeConfigurationManagedEbsVolumeOutputReference extend
   }
 
   // kms_key_id - computed: false, optional: true, required: false
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -4768,7 +4768,7 @@ export class EcsServiceVolumeConfigurationManagedEbsVolumeOutputReference extend
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -4781,7 +4781,7 @@ export class EcsServiceVolumeConfigurationManagedEbsVolumeOutputReference extend
   }
 
   // size_in_gb - computed: false, optional: true, required: false
-  private _sizeInGb?: number;
+  private _sizeInGb?: number; 
   public get sizeInGb() {
     return this.getNumberAttribute('size_in_gb');
   }
@@ -4797,7 +4797,7 @@ export class EcsServiceVolumeConfigurationManagedEbsVolumeOutputReference extend
   }
 
   // snapshot_id - computed: false, optional: true, required: false
-  private _snapshotId?: string;
+  private _snapshotId?: string; 
   public get snapshotId() {
     return this.getStringAttribute('snapshot_id');
   }
@@ -4813,7 +4813,7 @@ export class EcsServiceVolumeConfigurationManagedEbsVolumeOutputReference extend
   }
 
   // throughput - computed: false, optional: true, required: false
-  private _throughput?: number;
+  private _throughput?: number; 
   public get throughput() {
     return this.getNumberAttribute('throughput');
   }
@@ -4829,7 +4829,7 @@ export class EcsServiceVolumeConfigurationManagedEbsVolumeOutputReference extend
   }
 
   // volume_initialization_rate - computed: false, optional: true, required: false
-  private _volumeInitializationRate?: number;
+  private _volumeInitializationRate?: number; 
   public get volumeInitializationRate() {
     return this.getNumberAttribute('volume_initialization_rate');
   }
@@ -4845,7 +4845,7 @@ export class EcsServiceVolumeConfigurationManagedEbsVolumeOutputReference extend
   }
 
   // volume_type - computed: false, optional: true, required: false
-  private _volumeType?: string;
+  private _volumeType?: string; 
   public get volumeType() {
     return this.getStringAttribute('volume_type');
   }
@@ -4964,7 +4964,7 @@ export class EcsServiceVolumeConfigurationOutputReference extends cdktn.ComplexO
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -5104,7 +5104,7 @@ export class EcsServiceVpcLatticeConfigurationsOutputReference extends cdktn.Com
   }
 
   // port_name - computed: false, optional: false, required: true
-  private _portName?: string;
+  private _portName?: string; 
   public get portName() {
     return this.getStringAttribute('port_name');
   }
@@ -5117,7 +5117,7 @@ export class EcsServiceVpcLatticeConfigurationsOutputReference extends cdktn.Com
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -5130,7 +5130,7 @@ export class EcsServiceVpcLatticeConfigurationsOutputReference extends cdktn.Com
   }
 
   // target_group_arn - computed: false, optional: false, required: true
-  private _targetGroupArn?: string;
+  private _targetGroupArn?: string; 
   public get targetGroupArn() {
     return this.getStringAttribute('target_group_arn');
   }
@@ -5263,7 +5263,7 @@ export class EcsService extends cdktn.TerraformResource {
   }
 
   // availability_zone_rebalancing - computed: true, optional: true, required: false
-  private _availabilityZoneRebalancing?: string;
+  private _availabilityZoneRebalancing?: string; 
   public get availabilityZoneRebalancing() {
     return this.getStringAttribute('availability_zone_rebalancing');
   }
@@ -5279,7 +5279,7 @@ export class EcsService extends cdktn.TerraformResource {
   }
 
   // cluster - computed: true, optional: true, required: false
-  private _cluster?: string;
+  private _cluster?: string; 
   public get cluster() {
     return this.getStringAttribute('cluster');
   }
@@ -5295,7 +5295,7 @@ export class EcsService extends cdktn.TerraformResource {
   }
 
   // deployment_maximum_percent - computed: false, optional: true, required: false
-  private _deploymentMaximumPercent?: number;
+  private _deploymentMaximumPercent?: number; 
   public get deploymentMaximumPercent() {
     return this.getNumberAttribute('deployment_maximum_percent');
   }
@@ -5311,7 +5311,7 @@ export class EcsService extends cdktn.TerraformResource {
   }
 
   // deployment_minimum_healthy_percent - computed: false, optional: true, required: false
-  private _deploymentMinimumHealthyPercent?: number;
+  private _deploymentMinimumHealthyPercent?: number; 
   public get deploymentMinimumHealthyPercent() {
     return this.getNumberAttribute('deployment_minimum_healthy_percent');
   }
@@ -5327,7 +5327,7 @@ export class EcsService extends cdktn.TerraformResource {
   }
 
   // desired_count - computed: false, optional: true, required: false
-  private _desiredCount?: number;
+  private _desiredCount?: number; 
   public get desiredCount() {
     return this.getNumberAttribute('desired_count');
   }
@@ -5343,7 +5343,7 @@ export class EcsService extends cdktn.TerraformResource {
   }
 
   // enable_ecs_managed_tags - computed: false, optional: true, required: false
-  private _enableEcsManagedTags?: boolean | cdktn.IResolvable;
+  private _enableEcsManagedTags?: boolean | cdktn.IResolvable; 
   public get enableEcsManagedTags() {
     return this.getBooleanAttribute('enable_ecs_managed_tags');
   }
@@ -5359,7 +5359,7 @@ export class EcsService extends cdktn.TerraformResource {
   }
 
   // enable_execute_command - computed: false, optional: true, required: false
-  private _enableExecuteCommand?: boolean | cdktn.IResolvable;
+  private _enableExecuteCommand?: boolean | cdktn.IResolvable; 
   public get enableExecuteCommand() {
     return this.getBooleanAttribute('enable_execute_command');
   }
@@ -5375,7 +5375,7 @@ export class EcsService extends cdktn.TerraformResource {
   }
 
   // force_delete - computed: false, optional: true, required: false
-  private _forceDelete?: boolean | cdktn.IResolvable;
+  private _forceDelete?: boolean | cdktn.IResolvable; 
   public get forceDelete() {
     return this.getBooleanAttribute('force_delete');
   }
@@ -5391,7 +5391,7 @@ export class EcsService extends cdktn.TerraformResource {
   }
 
   // force_new_deployment - computed: false, optional: true, required: false
-  private _forceNewDeployment?: boolean | cdktn.IResolvable;
+  private _forceNewDeployment?: boolean | cdktn.IResolvable; 
   public get forceNewDeployment() {
     return this.getBooleanAttribute('force_new_deployment');
   }
@@ -5407,7 +5407,7 @@ export class EcsService extends cdktn.TerraformResource {
   }
 
   // health_check_grace_period_seconds - computed: false, optional: true, required: false
-  private _healthCheckGracePeriodSeconds?: number;
+  private _healthCheckGracePeriodSeconds?: number; 
   public get healthCheckGracePeriodSeconds() {
     return this.getNumberAttribute('health_check_grace_period_seconds');
   }
@@ -5423,7 +5423,7 @@ export class EcsService extends cdktn.TerraformResource {
   }
 
   // iam_role - computed: true, optional: true, required: false
-  private _iamRole?: string;
+  private _iamRole?: string; 
   public get iamRole() {
     return this.getStringAttribute('iam_role');
   }
@@ -5439,7 +5439,7 @@ export class EcsService extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -5455,7 +5455,7 @@ export class EcsService extends cdktn.TerraformResource {
   }
 
   // launch_type - computed: true, optional: true, required: false
-  private _launchType?: string;
+  private _launchType?: string; 
   public get launchType() {
     return this.getStringAttribute('launch_type');
   }
@@ -5471,7 +5471,7 @@ export class EcsService extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -5484,7 +5484,7 @@ export class EcsService extends cdktn.TerraformResource {
   }
 
   // platform_version - computed: true, optional: true, required: false
-  private _platformVersion?: string;
+  private _platformVersion?: string; 
   public get platformVersion() {
     return this.getStringAttribute('platform_version');
   }
@@ -5500,7 +5500,7 @@ export class EcsService extends cdktn.TerraformResource {
   }
 
   // propagate_tags - computed: false, optional: true, required: false
-  private _propagateTags?: string;
+  private _propagateTags?: string; 
   public get propagateTags() {
     return this.getStringAttribute('propagate_tags');
   }
@@ -5516,7 +5516,7 @@ export class EcsService extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -5532,7 +5532,7 @@ export class EcsService extends cdktn.TerraformResource {
   }
 
   // scheduling_strategy - computed: false, optional: true, required: false
-  private _schedulingStrategy?: string;
+  private _schedulingStrategy?: string; 
   public get schedulingStrategy() {
     return this.getStringAttribute('scheduling_strategy');
   }
@@ -5548,7 +5548,7 @@ export class EcsService extends cdktn.TerraformResource {
   }
 
   // sigint_rollback - computed: false, optional: true, required: false
-  private _sigintRollback?: boolean | cdktn.IResolvable;
+  private _sigintRollback?: boolean | cdktn.IResolvable; 
   public get sigintRollback() {
     return this.getBooleanAttribute('sigint_rollback');
   }
@@ -5564,7 +5564,7 @@ export class EcsService extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -5580,7 +5580,7 @@ export class EcsService extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -5596,7 +5596,7 @@ export class EcsService extends cdktn.TerraformResource {
   }
 
   // task_definition - computed: false, optional: true, required: false
-  private _taskDefinition?: string;
+  private _taskDefinition?: string; 
   public get taskDefinition() {
     return this.getStringAttribute('task_definition');
   }
@@ -5612,7 +5612,7 @@ export class EcsService extends cdktn.TerraformResource {
   }
 
   // triggers - computed: true, optional: true, required: false
-  private _triggers?: { [key: string]: string };
+  private _triggers?: { [key: string]: string }; 
   public get triggers() {
     return this.getStringMapAttribute('triggers');
   }
@@ -5628,7 +5628,7 @@ export class EcsService extends cdktn.TerraformResource {
   }
 
   // wait_for_steady_state - computed: false, optional: true, required: false
-  private _waitForSteadyState?: boolean | cdktn.IResolvable;
+  private _waitForSteadyState?: boolean | cdktn.IResolvable; 
   public get waitForSteadyState() {
     return this.getBooleanAttribute('wait_for_steady_state');
   }

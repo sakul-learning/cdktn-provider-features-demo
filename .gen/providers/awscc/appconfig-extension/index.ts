@@ -177,7 +177,7 @@ export class AppconfigExtensionActionsOutputReference extends cdktn.ComplexObjec
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -193,7 +193,7 @@ export class AppconfigExtensionActionsOutputReference extends cdktn.ComplexObjec
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -209,7 +209,7 @@ export class AppconfigExtensionActionsOutputReference extends cdktn.ComplexObjec
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -225,7 +225,7 @@ export class AppconfigExtensionActionsOutputReference extends cdktn.ComplexObjec
   }
 
   // uri - computed: true, optional: true, required: false
-  private _uri?: string;
+  private _uri?: string; 
   public get uri() {
     return this.getStringAttribute('uri');
   }
@@ -375,7 +375,7 @@ export class AppconfigExtensionParametersOutputReference extends cdktn.ComplexOb
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -391,7 +391,7 @@ export class AppconfigExtensionParametersOutputReference extends cdktn.ComplexOb
   }
 
   // dynamic - computed: true, optional: true, required: false
-  private _dynamic?: boolean | cdktn.IResolvable;
+  private _dynamic?: boolean | cdktn.IResolvable; 
   public get dynamic() {
     return this.getBooleanAttribute('dynamic');
   }
@@ -407,7 +407,7 @@ export class AppconfigExtensionParametersOutputReference extends cdktn.ComplexOb
   }
 
   // required - computed: true, optional: true, required: false
-  private _required?: boolean | cdktn.IResolvable;
+  private _required?: boolean | cdktn.IResolvable; 
   public get required() {
     return this.getBooleanAttribute('required');
   }
@@ -543,7 +543,7 @@ export class AppconfigExtensionTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -559,7 +559,7 @@ export class AppconfigExtensionTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -676,7 +676,7 @@ export class AppconfigExtension extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -702,7 +702,7 @@ export class AppconfigExtension extends cdktn.TerraformResource {
   }
 
   // latest_version_number - computed: true, optional: true, required: false
-  private _latestVersionNumber?: number;
+  private _latestVersionNumber?: number; 
   public get latestVersionNumber() {
     return this.getNumberAttribute('latest_version_number');
   }
@@ -718,7 +718,7 @@ export class AppconfigExtension extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }

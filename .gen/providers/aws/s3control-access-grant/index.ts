@@ -127,7 +127,7 @@ export class S3ControlAccessGrantAccessGrantsLocationConfigurationOutputReferenc
   }
 
   // s3_sub_prefix - computed: false, optional: true, required: false
-  private _s3SubPrefix?: string;
+  private _s3SubPrefix?: string; 
   public get s3SubPrefix() {
     return this.getStringAttribute('s3_sub_prefix');
   }
@@ -260,7 +260,7 @@ export class S3ControlAccessGrantGranteeOutputReference extends cdktn.ComplexObj
   }
 
   // grantee_identifier - computed: false, optional: false, required: true
-  private _granteeIdentifier?: string;
+  private _granteeIdentifier?: string; 
   public get granteeIdentifier() {
     return this.getStringAttribute('grantee_identifier');
   }
@@ -273,7 +273,7 @@ export class S3ControlAccessGrantGranteeOutputReference extends cdktn.ComplexObj
   }
 
   // grantee_type - computed: false, optional: false, required: true
-  private _granteeType?: string;
+  private _granteeType?: string; 
   public get granteeType() {
     return this.getStringAttribute('grantee_type');
   }
@@ -381,7 +381,7 @@ export class S3ControlAccessGrant extends cdktn.TerraformResource {
   }
 
   // access_grants_location_id - computed: false, optional: false, required: true
-  private _accessGrantsLocationId?: string;
+  private _accessGrantsLocationId?: string; 
   public get accessGrantsLocationId() {
     return this.getStringAttribute('access_grants_location_id');
   }
@@ -394,7 +394,7 @@ export class S3ControlAccessGrant extends cdktn.TerraformResource {
   }
 
   // account_id - computed: true, optional: true, required: false
-  private _accountId?: string;
+  private _accountId?: string; 
   public get accountId() {
     return this.getStringAttribute('account_id');
   }
@@ -420,7 +420,7 @@ export class S3ControlAccessGrant extends cdktn.TerraformResource {
   }
 
   // permission - computed: false, optional: false, required: true
-  private _permission?: string;
+  private _permission?: string; 
   public get permission() {
     return this.getStringAttribute('permission');
   }
@@ -433,7 +433,7 @@ export class S3ControlAccessGrant extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -449,7 +449,7 @@ export class S3ControlAccessGrant extends cdktn.TerraformResource {
   }
 
   // s3_prefix_type - computed: false, optional: true, required: false
-  private _s3PrefixType?: string;
+  private _s3PrefixType?: string; 
   public get s3PrefixType() {
     return this.getStringAttribute('s3_prefix_type');
   }
@@ -465,7 +465,7 @@ export class S3ControlAccessGrant extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

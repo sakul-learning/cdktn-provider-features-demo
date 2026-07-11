@@ -236,7 +236,7 @@ export class DataAwsVpcFilterOutputReference extends cdktn.ComplexObject {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -249,7 +249,7 @@ export class DataAwsVpcFilterOutputReference extends cdktn.ComplexObject {
   }
 
   // values - computed: false, optional: false, required: true
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -360,7 +360,7 @@ export class DataAwsVpcTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // read - computed: false, optional: true, required: false
-  private _read?: string;
+  private _read?: string; 
   public get read() {
     return this.getStringAttribute('read');
   }
@@ -447,7 +447,7 @@ export class DataAwsVpc extends cdktn.TerraformDataSource {
   }
 
   // cidr_block - computed: true, optional: true, required: false
-  private _cidrBlock?: string;
+  private _cidrBlock?: string; 
   public get cidrBlock() {
     return this.getStringAttribute('cidr_block');
   }
@@ -469,7 +469,7 @@ export class DataAwsVpc extends cdktn.TerraformDataSource {
   }
 
   // default - computed: true, optional: true, required: false
-  private _default?: boolean | cdktn.IResolvable;
+  private _default?: boolean | cdktn.IResolvable; 
   public get default() {
     return this.getBooleanAttribute('default');
   }
@@ -485,7 +485,7 @@ export class DataAwsVpc extends cdktn.TerraformDataSource {
   }
 
   // dhcp_options_id - computed: true, optional: true, required: false
-  private _dhcpOptionsId?: string;
+  private _dhcpOptionsId?: string; 
   public get dhcpOptionsId() {
     return this.getStringAttribute('dhcp_options_id');
   }
@@ -516,7 +516,7 @@ export class DataAwsVpc extends cdktn.TerraformDataSource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -557,7 +557,7 @@ export class DataAwsVpc extends cdktn.TerraformDataSource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -573,7 +573,7 @@ export class DataAwsVpc extends cdktn.TerraformDataSource {
   }
 
   // state - computed: true, optional: true, required: false
-  private _state?: string;
+  private _state?: string; 
   public get state() {
     return this.getStringAttribute('state');
   }
@@ -589,7 +589,7 @@ export class DataAwsVpc extends cdktn.TerraformDataSource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

@@ -677,7 +677,7 @@ export class DataAwsConnectInstanceStorageConfig extends cdktn.TerraformDataSour
   // ==========
 
   // association_id - computed: false, optional: false, required: true
-  private _associationId?: string;
+  private _associationId?: string; 
   public get associationId() {
     return this.getStringAttribute('association_id');
   }
@@ -690,7 +690,7 @@ export class DataAwsConnectInstanceStorageConfig extends cdktn.TerraformDataSour
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -706,7 +706,7 @@ export class DataAwsConnectInstanceStorageConfig extends cdktn.TerraformDataSour
   }
 
   // instance_id - computed: false, optional: false, required: true
-  private _instanceId?: string;
+  private _instanceId?: string; 
   public get instanceId() {
     return this.getStringAttribute('instance_id');
   }
@@ -719,7 +719,7 @@ export class DataAwsConnectInstanceStorageConfig extends cdktn.TerraformDataSour
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -735,7 +735,7 @@ export class DataAwsConnectInstanceStorageConfig extends cdktn.TerraformDataSour
   }
 
   // resource_type - computed: false, optional: false, required: true
-  private _resourceType?: string;
+  private _resourceType?: string; 
   public get resourceType() {
     return this.getStringAttribute('resource_type');
   }

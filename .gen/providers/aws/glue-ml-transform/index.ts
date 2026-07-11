@@ -289,7 +289,7 @@ export class GlueMlTransformInputRecordTablesOutputReference extends cdktn.Compl
   }
 
   // catalog_id - computed: false, optional: true, required: false
-  private _catalogId?: string;
+  private _catalogId?: string; 
   public get catalogId() {
     return this.getStringAttribute('catalog_id');
   }
@@ -305,7 +305,7 @@ export class GlueMlTransformInputRecordTablesOutputReference extends cdktn.Compl
   }
 
   // connection_name - computed: false, optional: true, required: false
-  private _connectionName?: string;
+  private _connectionName?: string; 
   public get connectionName() {
     return this.getStringAttribute('connection_name');
   }
@@ -321,7 +321,7 @@ export class GlueMlTransformInputRecordTablesOutputReference extends cdktn.Compl
   }
 
   // database_name - computed: false, optional: false, required: true
-  private _databaseName?: string;
+  private _databaseName?: string; 
   public get databaseName() {
     return this.getStringAttribute('database_name');
   }
@@ -334,7 +334,7 @@ export class GlueMlTransformInputRecordTablesOutputReference extends cdktn.Compl
   }
 
   // table_name - computed: false, optional: false, required: true
-  private _tableName?: string;
+  private _tableName?: string; 
   public get tableName() {
     return this.getStringAttribute('table_name');
   }
@@ -486,7 +486,7 @@ export class GlueMlTransformParametersFindMatchesParametersOutputReference exten
   }
 
   // accuracy_cost_trade_off - computed: false, optional: true, required: false
-  private _accuracyCostTradeOff?: number;
+  private _accuracyCostTradeOff?: number; 
   public get accuracyCostTradeOff() {
     return this.getNumberAttribute('accuracy_cost_trade_off');
   }
@@ -502,7 +502,7 @@ export class GlueMlTransformParametersFindMatchesParametersOutputReference exten
   }
 
   // enforce_provided_labels - computed: false, optional: true, required: false
-  private _enforceProvidedLabels?: boolean | cdktn.IResolvable;
+  private _enforceProvidedLabels?: boolean | cdktn.IResolvable; 
   public get enforceProvidedLabels() {
     return this.getBooleanAttribute('enforce_provided_labels');
   }
@@ -518,7 +518,7 @@ export class GlueMlTransformParametersFindMatchesParametersOutputReference exten
   }
 
   // precision_recall_trade_off - computed: false, optional: true, required: false
-  private _precisionRecallTradeOff?: number;
+  private _precisionRecallTradeOff?: number; 
   public get precisionRecallTradeOff() {
     return this.getNumberAttribute('precision_recall_trade_off');
   }
@@ -534,7 +534,7 @@ export class GlueMlTransformParametersFindMatchesParametersOutputReference exten
   }
 
   // primary_key_column_name - computed: false, optional: true, required: false
-  private _primaryKeyColumnName?: string;
+  private _primaryKeyColumnName?: string; 
   public get primaryKeyColumnName() {
     return this.getStringAttribute('primary_key_column_name');
   }
@@ -637,7 +637,7 @@ export class GlueMlTransformParametersOutputReference extends cdktn.ComplexObjec
   }
 
   // transform_type - computed: false, optional: false, required: true
-  private _transformType?: string;
+  private _transformType?: string; 
   public get transformType() {
     return this.getStringAttribute('transform_type');
   }
@@ -740,7 +740,7 @@ export class GlueMlTransform extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -756,7 +756,7 @@ export class GlueMlTransform extends cdktn.TerraformResource {
   }
 
   // glue_version - computed: true, optional: true, required: false
-  private _glueVersion?: string;
+  private _glueVersion?: string; 
   public get glueVersion() {
     return this.getStringAttribute('glue_version');
   }
@@ -772,7 +772,7 @@ export class GlueMlTransform extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -793,7 +793,7 @@ export class GlueMlTransform extends cdktn.TerraformResource {
   }
 
   // max_capacity - computed: true, optional: true, required: false
-  private _maxCapacity?: number;
+  private _maxCapacity?: number; 
   public get maxCapacity() {
     return this.getNumberAttribute('max_capacity');
   }
@@ -809,7 +809,7 @@ export class GlueMlTransform extends cdktn.TerraformResource {
   }
 
   // max_retries - computed: false, optional: true, required: false
-  private _maxRetries?: number;
+  private _maxRetries?: number; 
   public get maxRetries() {
     return this.getNumberAttribute('max_retries');
   }
@@ -825,7 +825,7 @@ export class GlueMlTransform extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -838,7 +838,7 @@ export class GlueMlTransform extends cdktn.TerraformResource {
   }
 
   // number_of_workers - computed: false, optional: true, required: false
-  private _numberOfWorkers?: number;
+  private _numberOfWorkers?: number; 
   public get numberOfWorkers() {
     return this.getNumberAttribute('number_of_workers');
   }
@@ -854,7 +854,7 @@ export class GlueMlTransform extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -870,7 +870,7 @@ export class GlueMlTransform extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -889,7 +889,7 @@ export class GlueMlTransform extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -905,7 +905,7 @@ export class GlueMlTransform extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -921,7 +921,7 @@ export class GlueMlTransform extends cdktn.TerraformResource {
   }
 
   // timeout - computed: false, optional: true, required: false
-  private _timeout?: number;
+  private _timeout?: number; 
   public get timeout() {
     return this.getNumberAttribute('timeout');
   }
@@ -937,7 +937,7 @@ export class GlueMlTransform extends cdktn.TerraformResource {
   }
 
   // worker_type - computed: false, optional: true, required: false
-  private _workerType?: string;
+  private _workerType?: string; 
   public get workerType() {
     return this.getStringAttribute('worker_type');
   }

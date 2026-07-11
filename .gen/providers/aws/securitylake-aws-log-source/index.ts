@@ -152,7 +152,7 @@ export class SecuritylakeAwsLogSourceSourceOutputReference extends cdktn.Complex
   }
 
   // accounts - computed: true, optional: true, required: false
-  private _accounts?: string[];
+  private _accounts?: string[]; 
   public get accounts() {
     return cdktn.Fn.tolist(this.getListAttribute('accounts'));
   }
@@ -168,7 +168,7 @@ export class SecuritylakeAwsLogSourceSourceOutputReference extends cdktn.Complex
   }
 
   // regions - computed: false, optional: false, required: true
-  private _regions?: string[];
+  private _regions?: string[]; 
   public get regions() {
     return cdktn.Fn.tolist(this.getListAttribute('regions'));
   }
@@ -181,7 +181,7 @@ export class SecuritylakeAwsLogSourceSourceOutputReference extends cdktn.Complex
   }
 
   // source_name - computed: false, optional: false, required: true
-  private _sourceName?: string;
+  private _sourceName?: string; 
   public get sourceName() {
     return this.getStringAttribute('source_name');
   }
@@ -194,7 +194,7 @@ export class SecuritylakeAwsLogSourceSourceOutputReference extends cdktn.Complex
   }
 
   // source_version - computed: true, optional: true, required: false
-  private _sourceVersion?: string;
+  private _sourceVersion?: string; 
   public get sourceVersion() {
     return this.getStringAttribute('source_version');
   }
@@ -294,7 +294,7 @@ export class SecuritylakeAwsLogSource extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

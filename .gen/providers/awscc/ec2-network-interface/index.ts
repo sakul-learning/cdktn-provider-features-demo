@@ -72,7 +72,7 @@ export interface Ec2NetworkInterfaceConfig extends cdktn.TerraformMetaArguments 
   */
   readonly ipv6Prefixes?: Ec2NetworkInterfaceIpv6Prefixes[] | cdktn.IResolvable;
   /**
-  * Assigns a single private IP address to the network interface, which is used as the primary private IP address. If you want to specify multiple private IP address, use the PrivateIpAddresses property.
+  * Assigns a single private IP address to the network interface, which is used as the primary private IP address. If you want to specify multiple private IP address, use the PrivateIpAddresses property. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_network_interface#private_ip_address Ec2NetworkInterface#private_ip_address}
   */
@@ -227,7 +227,7 @@ export class Ec2NetworkInterfaceConnectionTrackingSpecificationOutputReference e
   }
 
   // tcp_established_timeout - computed: true, optional: true, required: false
-  private _tcpEstablishedTimeout?: number;
+  private _tcpEstablishedTimeout?: number; 
   public get tcpEstablishedTimeout() {
     return this.getNumberAttribute('tcp_established_timeout');
   }
@@ -243,7 +243,7 @@ export class Ec2NetworkInterfaceConnectionTrackingSpecificationOutputReference e
   }
 
   // udp_stream_timeout - computed: true, optional: true, required: false
-  private _udpStreamTimeout?: number;
+  private _udpStreamTimeout?: number; 
   public get udpStreamTimeout() {
     return this.getNumberAttribute('udp_stream_timeout');
   }
@@ -259,7 +259,7 @@ export class Ec2NetworkInterfaceConnectionTrackingSpecificationOutputReference e
   }
 
   // udp_timeout - computed: true, optional: true, required: false
-  private _udpTimeout?: number;
+  private _udpTimeout?: number; 
   public get udpTimeout() {
     return this.getNumberAttribute('udp_timeout');
   }
@@ -355,7 +355,7 @@ export class Ec2NetworkInterfaceIpv4PrefixesOutputReference extends cdktn.Comple
   }
 
   // ipv_4_prefix - computed: true, optional: true, required: false
-  private _ipv4Prefix?: string;
+  private _ipv4Prefix?: string; 
   public get ipv4Prefix() {
     return this.getStringAttribute('ipv_4_prefix');
   }
@@ -471,7 +471,7 @@ export class Ec2NetworkInterfaceIpv6AddressesOutputReference extends cdktn.Compl
   }
 
   // ipv_6_address - computed: true, optional: true, required: false
-  private _ipv6Address?: string;
+  private _ipv6Address?: string; 
   public get ipv6Address() {
     return this.getStringAttribute('ipv_6_address');
   }
@@ -587,7 +587,7 @@ export class Ec2NetworkInterfaceIpv6PrefixesOutputReference extends cdktn.Comple
   }
 
   // ipv_6_prefix - computed: true, optional: true, required: false
-  private _ipv6Prefix?: string;
+  private _ipv6Prefix?: string; 
   public get ipv6Prefix() {
     return this.getStringAttribute('ipv_6_prefix');
   }
@@ -720,7 +720,7 @@ export class Ec2NetworkInterfacePrivateIpAddressesOutputReference extends cdktn.
   }
 
   // primary - computed: true, optional: true, required: false
-  private _primary?: boolean | cdktn.IResolvable;
+  private _primary?: boolean | cdktn.IResolvable; 
   public get primary() {
     return this.getBooleanAttribute('primary');
   }
@@ -736,7 +736,7 @@ export class Ec2NetworkInterfacePrivateIpAddressesOutputReference extends cdktn.
   }
 
   // private_ip_address - computed: true, optional: true, required: false
-  private _privateIpAddress?: string;
+  private _privateIpAddress?: string; 
   public get privateIpAddress() {
     return this.getStringAttribute('private_ip_address');
   }
@@ -938,7 +938,7 @@ export class Ec2NetworkInterfaceTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -954,7 +954,7 @@ export class Ec2NetworkInterfaceTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1081,7 +1081,7 @@ export class Ec2NetworkInterface extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1097,7 +1097,7 @@ export class Ec2NetworkInterface extends cdktn.TerraformResource {
   }
 
   // enable_primary_ipv_6 - computed: true, optional: true, required: false
-  private _enablePrimaryIpv6?: boolean | cdktn.IResolvable;
+  private _enablePrimaryIpv6?: boolean | cdktn.IResolvable; 
   public get enablePrimaryIpv6() {
     return this.getBooleanAttribute('enable_primary_ipv_6');
   }
@@ -1113,7 +1113,7 @@ export class Ec2NetworkInterface extends cdktn.TerraformResource {
   }
 
   // group_set - computed: true, optional: true, required: false
-  private _groupSet?: string[];
+  private _groupSet?: string[]; 
   public get groupSet() {
     return this.getListAttribute('group_set');
   }
@@ -1134,7 +1134,7 @@ export class Ec2NetworkInterface extends cdktn.TerraformResource {
   }
 
   // interface_type - computed: true, optional: true, required: false
-  private _interfaceType?: string;
+  private _interfaceType?: string; 
   public get interfaceType() {
     return this.getStringAttribute('interface_type');
   }
@@ -1150,7 +1150,7 @@ export class Ec2NetworkInterface extends cdktn.TerraformResource {
   }
 
   // ipv_4_prefix_count - computed: true, optional: true, required: false
-  private _ipv4PrefixCount?: number;
+  private _ipv4PrefixCount?: number; 
   public get ipv4PrefixCount() {
     return this.getNumberAttribute('ipv_4_prefix_count');
   }
@@ -1182,7 +1182,7 @@ export class Ec2NetworkInterface extends cdktn.TerraformResource {
   }
 
   // ipv_6_address_count - computed: true, optional: true, required: false
-  private _ipv6AddressCount?: number;
+  private _ipv6AddressCount?: number; 
   public get ipv6AddressCount() {
     return this.getNumberAttribute('ipv_6_address_count');
   }
@@ -1214,7 +1214,7 @@ export class Ec2NetworkInterface extends cdktn.TerraformResource {
   }
 
   // ipv_6_prefix_count - computed: true, optional: true, required: false
-  private _ipv6PrefixCount?: number;
+  private _ipv6PrefixCount?: number; 
   public get ipv6PrefixCount() {
     return this.getNumberAttribute('ipv_6_prefix_count');
   }
@@ -1261,7 +1261,7 @@ export class Ec2NetworkInterface extends cdktn.TerraformResource {
   }
 
   // private_ip_address - computed: true, optional: true, required: false
-  private _privateIpAddress?: string;
+  private _privateIpAddress?: string; 
   public get privateIpAddress() {
     return this.getStringAttribute('private_ip_address');
   }
@@ -1293,7 +1293,7 @@ export class Ec2NetworkInterface extends cdktn.TerraformResource {
   }
 
   // public_ip_dns_hostname_type_specification - computed: true, optional: true, required: false
-  private _publicIpDnsHostnameTypeSpecification?: string;
+  private _publicIpDnsHostnameTypeSpecification?: string; 
   public get publicIpDnsHostnameTypeSpecification() {
     return this.getStringAttribute('public_ip_dns_hostname_type_specification');
   }
@@ -1315,7 +1315,7 @@ export class Ec2NetworkInterface extends cdktn.TerraformResource {
   }
 
   // secondary_private_ip_address_count - computed: true, optional: true, required: false
-  private _secondaryPrivateIpAddressCount?: number;
+  private _secondaryPrivateIpAddressCount?: number; 
   public get secondaryPrivateIpAddressCount() {
     return this.getNumberAttribute('secondary_private_ip_address_count');
   }
@@ -1336,7 +1336,7 @@ export class Ec2NetworkInterface extends cdktn.TerraformResource {
   }
 
   // source_dest_check - computed: true, optional: true, required: false
-  private _sourceDestCheck?: boolean | cdktn.IResolvable;
+  private _sourceDestCheck?: boolean | cdktn.IResolvable; 
   public get sourceDestCheck() {
     return this.getBooleanAttribute('source_dest_check');
   }
@@ -1352,7 +1352,7 @@ export class Ec2NetworkInterface extends cdktn.TerraformResource {
   }
 
   // subnet_id - computed: false, optional: false, required: true
-  private _subnetId?: string;
+  private _subnetId?: string; 
   public get subnetId() {
     return this.getStringAttribute('subnet_id');
   }

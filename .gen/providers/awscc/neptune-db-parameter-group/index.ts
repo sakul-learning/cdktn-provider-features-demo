@@ -27,9 +27,9 @@ export interface NeptuneDbParameterGroupConfig extends cdktn.TerraformMetaArgume
   readonly name?: string;
   /**
   * The parameters to set for this DB parameter group.
-  *
+  * 
   * The parameters are expressed as a JSON object consisting of key-value pairs.
-  *
+  * 
   * Changes to dynamic parameters are applied immediately. During an update, if you have static parameters (whether they were changed or not), it triggers AWS CloudFormation to reboot the associated DB instance without failover.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/neptune_db_parameter_group#parameters NeptuneDbParameterGroup#parameters}
@@ -144,7 +144,7 @@ export class NeptuneDbParameterGroupTagsOutputReference extends cdktn.ComplexObj
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -160,7 +160,7 @@ export class NeptuneDbParameterGroupTagsOutputReference extends cdktn.ComplexObj
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -258,7 +258,7 @@ export class NeptuneDbParameterGroup extends cdktn.TerraformResource {
   // ==========
 
   // description - computed: false, optional: false, required: true
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -271,7 +271,7 @@ export class NeptuneDbParameterGroup extends cdktn.TerraformResource {
   }
 
   // family - computed: false, optional: false, required: true
-  private _family?: string;
+  private _family?: string; 
   public get family() {
     return this.getStringAttribute('family');
   }
@@ -289,7 +289,7 @@ export class NeptuneDbParameterGroup extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -305,7 +305,7 @@ export class NeptuneDbParameterGroup extends cdktn.TerraformResource {
   }
 
   // parameters - computed: false, optional: false, required: true
-  private _parameters?: string;
+  private _parameters?: string; 
   public get parameters() {
     return this.getStringAttribute('parameters');
   }

@@ -142,7 +142,7 @@ export class SavingsplansSavingsPlanTimeoutsOutputReference extends cdktn.Comple
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -158,7 +158,7 @@ export class SavingsplansSavingsPlanTimeoutsOutputReference extends cdktn.Comple
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -237,7 +237,7 @@ export class SavingsplansSavingsPlan extends cdktn.TerraformResource {
   // ==========
 
   // commitment - computed: false, optional: false, required: true
-  private _commitment?: string;
+  private _commitment?: string; 
   public get commitment() {
     return this.getStringAttribute('commitment');
   }
@@ -285,7 +285,7 @@ export class SavingsplansSavingsPlan extends cdktn.TerraformResource {
   }
 
   // purchase_time - computed: false, optional: true, required: false
-  private _purchaseTime?: string;
+  private _purchaseTime?: string; 
   public get purchaseTime() {
     return this.getStringAttribute('purchase_time');
   }
@@ -326,7 +326,7 @@ export class SavingsplansSavingsPlan extends cdktn.TerraformResource {
   }
 
   // savings_plan_offering_id - computed: false, optional: false, required: true
-  private _savingsPlanOfferingId?: string;
+  private _savingsPlanOfferingId?: string; 
   public get savingsPlanOfferingId() {
     return this.getStringAttribute('savings_plan_offering_id');
   }
@@ -354,7 +354,7 @@ export class SavingsplansSavingsPlan extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -381,7 +381,7 @@ export class SavingsplansSavingsPlan extends cdktn.TerraformResource {
   }
 
   // upfront_payment_amount - computed: false, optional: true, required: false
-  private _upfrontPaymentAmount?: string;
+  private _upfrontPaymentAmount?: string; 
   public get upfrontPaymentAmount() {
     return this.getStringAttribute('upfront_payment_amount');
   }

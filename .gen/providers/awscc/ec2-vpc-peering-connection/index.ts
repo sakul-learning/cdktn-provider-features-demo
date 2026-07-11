@@ -150,7 +150,7 @@ export class Ec2VpcPeeringConnectionTagsOutputReference extends cdktn.ComplexObj
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -166,7 +166,7 @@ export class Ec2VpcPeeringConnectionTagsOutputReference extends cdktn.ComplexObj
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -266,7 +266,7 @@ export class Ec2VpcPeeringConnection extends cdktn.TerraformResource {
   // ==========
 
   // assume_role_region - computed: true, optional: true, required: false
-  private _assumeRoleRegion?: string;
+  private _assumeRoleRegion?: string; 
   public get assumeRoleRegion() {
     return this.getStringAttribute('assume_role_region');
   }
@@ -287,7 +287,7 @@ export class Ec2VpcPeeringConnection extends cdktn.TerraformResource {
   }
 
   // peer_owner_id - computed: true, optional: true, required: false
-  private _peerOwnerId?: string;
+  private _peerOwnerId?: string; 
   public get peerOwnerId() {
     return this.getStringAttribute('peer_owner_id');
   }
@@ -303,7 +303,7 @@ export class Ec2VpcPeeringConnection extends cdktn.TerraformResource {
   }
 
   // peer_region - computed: true, optional: true, required: false
-  private _peerRegion?: string;
+  private _peerRegion?: string; 
   public get peerRegion() {
     return this.getStringAttribute('peer_region');
   }
@@ -319,7 +319,7 @@ export class Ec2VpcPeeringConnection extends cdktn.TerraformResource {
   }
 
   // peer_role_arn - computed: true, optional: true, required: false
-  private _peerRoleArn?: string;
+  private _peerRoleArn?: string; 
   public get peerRoleArn() {
     return this.getStringAttribute('peer_role_arn');
   }
@@ -335,7 +335,7 @@ export class Ec2VpcPeeringConnection extends cdktn.TerraformResource {
   }
 
   // peer_vpc_id - computed: false, optional: false, required: true
-  private _peerVpcId?: string;
+  private _peerVpcId?: string; 
   public get peerVpcId() {
     return this.getStringAttribute('peer_vpc_id');
   }
@@ -364,7 +364,7 @@ export class Ec2VpcPeeringConnection extends cdktn.TerraformResource {
   }
 
   // vpc_id - computed: false, optional: false, required: true
-  private _vpcId?: string;
+  private _vpcId?: string; 
   public get vpcId() {
     return this.getStringAttribute('vpc_id');
   }

@@ -133,7 +133,7 @@ export class CustomResource extends cdktn.TerraformResource {
   }
 
   // logical_resource_id - computed: true, optional: true, required: false
-  private _logicalResourceId?: string;
+  private _logicalResourceId?: string; 
   public get logicalResourceId() {
     return this.getStringAttribute('logical_resource_id');
   }
@@ -154,7 +154,7 @@ export class CustomResource extends cdktn.TerraformResource {
   }
 
   // resource_properties - computed: false, optional: true, required: false
-  private _resourceProperties?: { [key: string]: any };
+  private _resourceProperties?: { [key: string]: any }; 
   public get resourceProperties() {
     return this.getAnyMapAttribute('resource_properties');
   }
@@ -170,7 +170,7 @@ export class CustomResource extends cdktn.TerraformResource {
   }
 
   // resource_type - computed: true, optional: true, required: false
-  private _resourceType?: string;
+  private _resourceType?: string; 
   public get resourceType() {
     return this.getStringAttribute('resource_type');
   }
@@ -186,7 +186,7 @@ export class CustomResource extends cdktn.TerraformResource {
   }
 
   // response_bucket - computed: false, optional: true, required: false
-  private _responseBucket?: string;
+  private _responseBucket?: string; 
   public get responseBucket() {
     return this.getStringAttribute('response_bucket');
   }
@@ -202,7 +202,7 @@ export class CustomResource extends cdktn.TerraformResource {
   }
 
   // response_key_prefix - computed: false, optional: true, required: false
-  private _responseKeyPrefix?: string;
+  private _responseKeyPrefix?: string; 
   public get responseKeyPrefix() {
     return this.getStringAttribute('response_key_prefix');
   }
@@ -218,7 +218,7 @@ export class CustomResource extends cdktn.TerraformResource {
   }
 
   // service_timeout - computed: true, optional: true, required: false
-  private _serviceTimeout?: number;
+  private _serviceTimeout?: number; 
   public get serviceTimeout() {
     return this.getNumberAttribute('service_timeout');
   }
@@ -234,7 +234,7 @@ export class CustomResource extends cdktn.TerraformResource {
   }
 
   // service_token - computed: false, optional: false, required: true
-  private _serviceToken?: string;
+  private _serviceToken?: string; 
   public get serviceToken() {
     return this.getStringAttribute('service_token');
   }
@@ -247,7 +247,7 @@ export class CustomResource extends cdktn.TerraformResource {
   }
 
   // stack_id - computed: true, optional: true, required: false
-  private _stackId?: string;
+  private _stackId?: string; 
   public get stackId() {
     return this.getStringAttribute('stack_id');
   }

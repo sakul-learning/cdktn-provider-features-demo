@@ -177,7 +177,7 @@ export class IamRolePoliciesOutputReference extends cdktn.ComplexObject {
   }
 
   // policy_document - computed: true, optional: true, required: false
-  private _policyDocument?: string;
+  private _policyDocument?: string; 
   public get policyDocument() {
     return this.getStringAttribute('policy_document');
   }
@@ -193,7 +193,7 @@ export class IamRolePoliciesOutputReference extends cdktn.ComplexObject {
   }
 
   // policy_name - computed: true, optional: true, required: false
-  private _policyName?: string;
+  private _policyName?: string; 
   public get policyName() {
     return this.getStringAttribute('policy_name');
   }
@@ -330,7 +330,7 @@ export class IamRoleTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -346,7 +346,7 @@ export class IamRoleTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -453,7 +453,7 @@ export class IamRole extends cdktn.TerraformResource {
   }
 
   // assume_role_policy_document - computed: false, optional: false, required: true
-  private _assumeRolePolicyDocument?: string;
+  private _assumeRolePolicyDocument?: string; 
   public get assumeRolePolicyDocument() {
     return this.getStringAttribute('assume_role_policy_document');
   }
@@ -466,7 +466,7 @@ export class IamRole extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -487,7 +487,7 @@ export class IamRole extends cdktn.TerraformResource {
   }
 
   // managed_policy_arns - computed: true, optional: true, required: false
-  private _managedPolicyArns?: string[];
+  private _managedPolicyArns?: string[]; 
   public get managedPolicyArns() {
     return cdktn.Fn.tolist(this.getListAttribute('managed_policy_arns'));
   }
@@ -503,7 +503,7 @@ export class IamRole extends cdktn.TerraformResource {
   }
 
   // max_session_duration - computed: true, optional: true, required: false
-  private _maxSessionDuration?: number;
+  private _maxSessionDuration?: number; 
   public get maxSessionDuration() {
     return this.getNumberAttribute('max_session_duration');
   }
@@ -519,7 +519,7 @@ export class IamRole extends cdktn.TerraformResource {
   }
 
   // path - computed: true, optional: true, required: false
-  private _path?: string;
+  private _path?: string; 
   public get path() {
     return this.getStringAttribute('path');
   }
@@ -535,7 +535,7 @@ export class IamRole extends cdktn.TerraformResource {
   }
 
   // permissions_boundary - computed: true, optional: true, required: false
-  private _permissionsBoundary?: string;
+  private _permissionsBoundary?: string; 
   public get permissionsBoundary() {
     return this.getStringAttribute('permissions_boundary');
   }
@@ -572,7 +572,7 @@ export class IamRole extends cdktn.TerraformResource {
   }
 
   // role_name - computed: true, optional: true, required: false
-  private _roleName?: string;
+  private _roleName?: string; 
   public get roleName() {
     return this.getStringAttribute('role_name');
   }

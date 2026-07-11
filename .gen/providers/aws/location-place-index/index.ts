@@ -116,7 +116,7 @@ export class LocationPlaceIndexDataSourceConfigurationOutputReference extends cd
   }
 
   // intended_use - computed: false, optional: true, required: false
-  private _intendedUse?: string;
+  private _intendedUse?: string; 
   public get intendedUse() {
     return this.getStringAttribute('intended_use');
   }
@@ -202,7 +202,7 @@ export class LocationPlaceIndex extends cdktn.TerraformResource {
   }
 
   // data_source - computed: false, optional: false, required: true
-  private _dataSource?: string;
+  private _dataSource?: string; 
   public get dataSource() {
     return this.getStringAttribute('data_source');
   }
@@ -215,7 +215,7 @@ export class LocationPlaceIndex extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -231,7 +231,7 @@ export class LocationPlaceIndex extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -252,7 +252,7 @@ export class LocationPlaceIndex extends cdktn.TerraformResource {
   }
 
   // index_name - computed: false, optional: false, required: true
-  private _indexName?: string;
+  private _indexName?: string; 
   public get indexName() {
     return this.getStringAttribute('index_name');
   }
@@ -265,7 +265,7 @@ export class LocationPlaceIndex extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -281,7 +281,7 @@ export class LocationPlaceIndex extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -297,7 +297,7 @@ export class LocationPlaceIndex extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

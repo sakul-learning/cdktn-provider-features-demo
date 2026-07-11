@@ -76,7 +76,7 @@ export class IamGroupPoliciesExclusive extends cdktn.TerraformResource {
   // ==========
 
   // group_name - computed: false, optional: false, required: true
-  private _groupName?: string;
+  private _groupName?: string; 
   public get groupName() {
     return this.getStringAttribute('group_name');
   }
@@ -89,7 +89,7 @@ export class IamGroupPoliciesExclusive extends cdktn.TerraformResource {
   }
 
   // policy_names - computed: false, optional: false, required: true
-  private _policyNames?: string[];
+  private _policyNames?: string[]; 
   public get policyNames() {
     return cdktn.Fn.tolist(this.getListAttribute('policy_names'));
   }

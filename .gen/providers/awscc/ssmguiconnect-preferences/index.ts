@@ -116,7 +116,7 @@ export class SsmguiconnectPreferencesConnectionRecordingPreferencesRecordingDest
   }
 
   // bucket_name - computed: true, optional: true, required: false
-  private _bucketName?: string;
+  private _bucketName?: string; 
   public get bucketName() {
     return this.getStringAttribute('bucket_name');
   }
@@ -132,7 +132,7 @@ export class SsmguiconnectPreferencesConnectionRecordingPreferencesRecordingDest
   }
 
   // bucket_owner - computed: true, optional: true, required: false
-  private _bucketOwner?: string;
+  private _bucketOwner?: string; 
   public get bucketOwner() {
     return this.getStringAttribute('bucket_owner');
   }
@@ -363,7 +363,7 @@ export class SsmguiconnectPreferencesConnectionRecordingPreferencesOutputReferen
   }
 
   // kms_key_arn - computed: true, optional: true, required: false
-  private _kmsKeyArn?: string;
+  private _kmsKeyArn?: string; 
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }

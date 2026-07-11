@@ -170,7 +170,7 @@ export class DataAwsOrganizationsOrganizationalUnits extends cdktn.TerraformData
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -186,7 +186,7 @@ export class DataAwsOrganizationsOrganizationalUnits extends cdktn.TerraformData
   }
 
   // parent_id - computed: false, optional: false, required: true
-  private _parentId?: string;
+  private _parentId?: string; 
   public get parentId() {
     return this.getStringAttribute('parent_id');
   }

@@ -137,7 +137,7 @@ export class SecurityhubAutomationRuleV2ActionExternalIntegrationConfigurationOu
   }
 
   // connector_arn - computed: false, optional: false, required: true
-  private _connectorArn?: string;
+  private _connectorArn?: string; 
   public get connectorArn() {
     return this.getStringAttribute('connector_arn');
   }
@@ -290,7 +290,7 @@ export class SecurityhubAutomationRuleV2ActionFindingFieldsUpdateOutputReference
   }
 
   // comment - computed: false, optional: true, required: false
-  private _comment?: string;
+  private _comment?: string; 
   public get comment() {
     return this.getStringAttribute('comment');
   }
@@ -306,7 +306,7 @@ export class SecurityhubAutomationRuleV2ActionFindingFieldsUpdateOutputReference
   }
 
   // severity_id - computed: false, optional: true, required: false
-  private _severityId?: number;
+  private _severityId?: number; 
   public get severityId() {
     return this.getNumberAttribute('severity_id');
   }
@@ -322,7 +322,7 @@ export class SecurityhubAutomationRuleV2ActionFindingFieldsUpdateOutputReference
   }
 
   // status_id - computed: false, optional: true, required: false
-  private _statusId?: number;
+  private _statusId?: number; 
   public get statusId() {
     return this.getNumberAttribute('status_id');
   }
@@ -478,7 +478,7 @@ export class SecurityhubAutomationRuleV2ActionOutputReference extends cdktn.Comp
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -625,7 +625,7 @@ export class SecurityhubAutomationRuleV2CriteriaOutputReference extends cdktn.Co
   }
 
   // ocsf_finding_criteria_json - computed: false, optional: false, required: true
-  private _ocsfFindingCriteriaJson?: string;
+  private _ocsfFindingCriteriaJson?: string; 
   public get ocsfFindingCriteriaJson() {
     return this.getStringAttribute('ocsf_finding_criteria_json');
   }
@@ -728,7 +728,7 @@ export class SecurityhubAutomationRuleV2 extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: false, required: true
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -741,7 +741,7 @@ export class SecurityhubAutomationRuleV2 extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -762,7 +762,7 @@ export class SecurityhubAutomationRuleV2 extends cdktn.TerraformResource {
   }
 
   // rule_name - computed: false, optional: false, required: true
-  private _ruleName?: string;
+  private _ruleName?: string; 
   public get ruleName() {
     return this.getStringAttribute('rule_name');
   }
@@ -775,7 +775,7 @@ export class SecurityhubAutomationRuleV2 extends cdktn.TerraformResource {
   }
 
   // rule_order - computed: false, optional: false, required: true
-  private _ruleOrder?: number;
+  private _ruleOrder?: number; 
   public get ruleOrder() {
     return this.getNumberAttribute('rule_order');
   }
@@ -788,7 +788,7 @@ export class SecurityhubAutomationRuleV2 extends cdktn.TerraformResource {
   }
 
   // rule_status - computed: true, optional: true, required: false
-  private _ruleStatus?: string;
+  private _ruleStatus?: string; 
   public get ruleStatus() {
     return this.getStringAttribute('rule_status');
   }
@@ -804,7 +804,7 @@ export class SecurityhubAutomationRuleV2 extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

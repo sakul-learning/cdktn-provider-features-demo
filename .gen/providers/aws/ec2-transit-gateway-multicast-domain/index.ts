@@ -147,7 +147,7 @@ export class Ec2TransitGatewayMulticastDomainTimeoutsOutputReference extends cdk
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -163,7 +163,7 @@ export class Ec2TransitGatewayMulticastDomainTimeoutsOutputReference extends cdk
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -250,7 +250,7 @@ export class Ec2TransitGatewayMulticastDomain extends cdktn.TerraformResource {
   }
 
   // auto_accept_shared_associations - computed: false, optional: true, required: false
-  private _autoAcceptSharedAssociations?: string;
+  private _autoAcceptSharedAssociations?: string; 
   public get autoAcceptSharedAssociations() {
     return this.getStringAttribute('auto_accept_shared_associations');
   }
@@ -266,7 +266,7 @@ export class Ec2TransitGatewayMulticastDomain extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -282,7 +282,7 @@ export class Ec2TransitGatewayMulticastDomain extends cdktn.TerraformResource {
   }
 
   // igmpv2_support - computed: false, optional: true, required: false
-  private _igmpv2Support?: string;
+  private _igmpv2Support?: string; 
   public get igmpv2Support() {
     return this.getStringAttribute('igmpv2_support');
   }
@@ -303,7 +303,7 @@ export class Ec2TransitGatewayMulticastDomain extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -319,7 +319,7 @@ export class Ec2TransitGatewayMulticastDomain extends cdktn.TerraformResource {
   }
 
   // static_sources_support - computed: false, optional: true, required: false
-  private _staticSourcesSupport?: string;
+  private _staticSourcesSupport?: string; 
   public get staticSourcesSupport() {
     return this.getStringAttribute('static_sources_support');
   }
@@ -335,7 +335,7 @@ export class Ec2TransitGatewayMulticastDomain extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -351,7 +351,7 @@ export class Ec2TransitGatewayMulticastDomain extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -367,7 +367,7 @@ export class Ec2TransitGatewayMulticastDomain extends cdktn.TerraformResource {
   }
 
   // transit_gateway_id - computed: false, optional: false, required: true
-  private _transitGatewayId?: string;
+  private _transitGatewayId?: string; 
   public get transitGatewayId() {
     return this.getStringAttribute('transit_gateway_id');
   }

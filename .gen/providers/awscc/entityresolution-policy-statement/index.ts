@@ -100,7 +100,7 @@ export class EntityresolutionPolicyStatement extends cdktn.TerraformResource {
   // ==========
 
   // action - computed: true, optional: true, required: false
-  private _action?: string[];
+  private _action?: string[]; 
   public get action() {
     return this.getListAttribute('action');
   }
@@ -116,7 +116,7 @@ export class EntityresolutionPolicyStatement extends cdktn.TerraformResource {
   }
 
   // arn - computed: false, optional: false, required: true
-  private _arn?: string;
+  private _arn?: string; 
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -129,7 +129,7 @@ export class EntityresolutionPolicyStatement extends cdktn.TerraformResource {
   }
 
   // condition - computed: true, optional: true, required: false
-  private _condition?: string;
+  private _condition?: string; 
   public get condition() {
     return this.getStringAttribute('condition');
   }
@@ -145,7 +145,7 @@ export class EntityresolutionPolicyStatement extends cdktn.TerraformResource {
   }
 
   // effect - computed: true, optional: true, required: false
-  private _effect?: string;
+  private _effect?: string; 
   public get effect() {
     return this.getStringAttribute('effect');
   }
@@ -166,7 +166,7 @@ export class EntityresolutionPolicyStatement extends cdktn.TerraformResource {
   }
 
   // principal - computed: true, optional: true, required: false
-  private _principal?: string[];
+  private _principal?: string[]; 
   public get principal() {
     return this.getListAttribute('principal');
   }
@@ -182,7 +182,7 @@ export class EntityresolutionPolicyStatement extends cdktn.TerraformResource {
   }
 
   // statement_id - computed: false, optional: false, required: true
-  private _statementId?: string;
+  private _statementId?: string; 
   public get statementId() {
     return this.getStringAttribute('statement_id');
   }

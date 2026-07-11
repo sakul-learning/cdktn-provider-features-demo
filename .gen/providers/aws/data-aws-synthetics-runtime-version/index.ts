@@ -103,7 +103,7 @@ export class DataAwsSyntheticsRuntimeVersion extends cdktn.TerraformDataSource {
   }
 
   // latest - computed: false, optional: true, required: false
-  private _latest?: boolean | cdktn.IResolvable;
+  private _latest?: boolean | cdktn.IResolvable; 
   public get latest() {
     return this.getBooleanAttribute('latest');
   }
@@ -119,7 +119,7 @@ export class DataAwsSyntheticsRuntimeVersion extends cdktn.TerraformDataSource {
   }
 
   // prefix - computed: false, optional: false, required: true
-  private _prefix?: string;
+  private _prefix?: string; 
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -132,7 +132,7 @@ export class DataAwsSyntheticsRuntimeVersion extends cdktn.TerraformDataSource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -153,7 +153,7 @@ export class DataAwsSyntheticsRuntimeVersion extends cdktn.TerraformDataSource {
   }
 
   // version - computed: false, optional: true, required: false
-  private _version?: string;
+  private _version?: string; 
   public get version() {
     return this.getStringAttribute('version');
   }

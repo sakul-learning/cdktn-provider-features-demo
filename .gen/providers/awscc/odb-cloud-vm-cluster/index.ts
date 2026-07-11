@@ -259,7 +259,7 @@ export class OdbCloudVmClusterDataCollectionOptionsOutputReference extends cdktn
   }
 
   // is_diagnostics_events_enabled - computed: true, optional: true, required: false
-  private _isDiagnosticsEventsEnabled?: boolean | cdktn.IResolvable;
+  private _isDiagnosticsEventsEnabled?: boolean | cdktn.IResolvable; 
   public get isDiagnosticsEventsEnabled() {
     return this.getBooleanAttribute('is_diagnostics_events_enabled');
   }
@@ -275,7 +275,7 @@ export class OdbCloudVmClusterDataCollectionOptionsOutputReference extends cdktn
   }
 
   // is_health_monitoring_enabled - computed: true, optional: true, required: false
-  private _isHealthMonitoringEnabled?: boolean | cdktn.IResolvable;
+  private _isHealthMonitoringEnabled?: boolean | cdktn.IResolvable; 
   public get isHealthMonitoringEnabled() {
     return this.getBooleanAttribute('is_health_monitoring_enabled');
   }
@@ -291,7 +291,7 @@ export class OdbCloudVmClusterDataCollectionOptionsOutputReference extends cdktn
   }
 
   // is_incident_logs_enabled - computed: true, optional: true, required: false
-  private _isIncidentLogsEnabled?: boolean | cdktn.IResolvable;
+  private _isIncidentLogsEnabled?: boolean | cdktn.IResolvable; 
   public get isIncidentLogsEnabled() {
     return this.getBooleanAttribute('is_incident_logs_enabled');
   }
@@ -408,7 +408,7 @@ export class OdbCloudVmClusterDbNodesTagsOutputReference extends cdktn.ComplexOb
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -424,7 +424,7 @@ export class OdbCloudVmClusterDbNodesTagsOutputReference extends cdktn.ComplexOb
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -825,7 +825,7 @@ export class OdbCloudVmClusterDbNodesOutputReference extends cdktn.ComplexObject
   }
 
   // backup_ip_id - computed: true, optional: true, required: false
-  private _backupIpId?: string;
+  private _backupIpId?: string; 
   public get backupIpId() {
     return this.getStringAttribute('backup_ip_id');
   }
@@ -841,7 +841,7 @@ export class OdbCloudVmClusterDbNodesOutputReference extends cdktn.ComplexObject
   }
 
   // backup_vnic_2_id - computed: true, optional: true, required: false
-  private _backupVnic2Id?: string;
+  private _backupVnic2Id?: string; 
   public get backupVnic2Id() {
     return this.getStringAttribute('backup_vnic_2_id');
   }
@@ -857,7 +857,7 @@ export class OdbCloudVmClusterDbNodesOutputReference extends cdktn.ComplexObject
   }
 
   // cpu_core_count - computed: true, optional: true, required: false
-  private _cpuCoreCount?: number;
+  private _cpuCoreCount?: number; 
   public get cpuCoreCount() {
     return this.getNumberAttribute('cpu_core_count');
   }
@@ -873,7 +873,7 @@ export class OdbCloudVmClusterDbNodesOutputReference extends cdktn.ComplexObject
   }
 
   // db_node_arn - computed: true, optional: true, required: false
-  private _dbNodeArn?: string;
+  private _dbNodeArn?: string; 
   public get dbNodeArn() {
     return this.getStringAttribute('db_node_arn');
   }
@@ -889,7 +889,7 @@ export class OdbCloudVmClusterDbNodesOutputReference extends cdktn.ComplexObject
   }
 
   // db_node_id - computed: true, optional: true, required: false
-  private _dbNodeId?: string;
+  private _dbNodeId?: string; 
   public get dbNodeId() {
     return this.getStringAttribute('db_node_id');
   }
@@ -905,7 +905,7 @@ export class OdbCloudVmClusterDbNodesOutputReference extends cdktn.ComplexObject
   }
 
   // db_node_storage_size_in_g_bs - computed: true, optional: true, required: false
-  private _dbNodeStorageSizeInGBs?: number;
+  private _dbNodeStorageSizeInGBs?: number; 
   public get dbNodeStorageSizeInGBs() {
     return this.getNumberAttribute('db_node_storage_size_in_g_bs');
   }
@@ -921,7 +921,7 @@ export class OdbCloudVmClusterDbNodesOutputReference extends cdktn.ComplexObject
   }
 
   // db_server_id - computed: true, optional: true, required: false
-  private _dbServerId?: string;
+  private _dbServerId?: string; 
   public get dbServerId() {
     return this.getStringAttribute('db_server_id');
   }
@@ -937,7 +937,7 @@ export class OdbCloudVmClusterDbNodesOutputReference extends cdktn.ComplexObject
   }
 
   // db_system_id - computed: true, optional: true, required: false
-  private _dbSystemId?: string;
+  private _dbSystemId?: string; 
   public get dbSystemId() {
     return this.getStringAttribute('db_system_id');
   }
@@ -953,7 +953,7 @@ export class OdbCloudVmClusterDbNodesOutputReference extends cdktn.ComplexObject
   }
 
   // host_ip_id - computed: true, optional: true, required: false
-  private _hostIpId?: string;
+  private _hostIpId?: string; 
   public get hostIpId() {
     return this.getStringAttribute('host_ip_id');
   }
@@ -969,7 +969,7 @@ export class OdbCloudVmClusterDbNodesOutputReference extends cdktn.ComplexObject
   }
 
   // hostname - computed: true, optional: true, required: false
-  private _hostname?: string;
+  private _hostname?: string; 
   public get hostname() {
     return this.getStringAttribute('hostname');
   }
@@ -985,7 +985,7 @@ export class OdbCloudVmClusterDbNodesOutputReference extends cdktn.ComplexObject
   }
 
   // memory_size_in_g_bs - computed: true, optional: true, required: false
-  private _memorySizeInGBs?: number;
+  private _memorySizeInGBs?: number; 
   public get memorySizeInGBs() {
     return this.getNumberAttribute('memory_size_in_g_bs');
   }
@@ -1001,7 +1001,7 @@ export class OdbCloudVmClusterDbNodesOutputReference extends cdktn.ComplexObject
   }
 
   // ocid - computed: true, optional: true, required: false
-  private _ocid?: string;
+  private _ocid?: string; 
   public get ocid() {
     return this.getStringAttribute('ocid');
   }
@@ -1017,7 +1017,7 @@ export class OdbCloudVmClusterDbNodesOutputReference extends cdktn.ComplexObject
   }
 
   // status - computed: true, optional: true, required: false
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -1049,7 +1049,7 @@ export class OdbCloudVmClusterDbNodesOutputReference extends cdktn.ComplexObject
   }
 
   // vnic_2_id - computed: true, optional: true, required: false
-  private _vnic2Id?: string;
+  private _vnic2Id?: string; 
   public get vnic2Id() {
     return this.getStringAttribute('vnic_2_id');
   }
@@ -1065,7 +1065,7 @@ export class OdbCloudVmClusterDbNodesOutputReference extends cdktn.ComplexObject
   }
 
   // vnic_id - computed: true, optional: true, required: false
-  private _vnicId?: string;
+  private _vnicId?: string; 
   public get vnicId() {
     return this.getStringAttribute('vnic_id');
   }
@@ -1221,7 +1221,7 @@ export class OdbCloudVmClusterIamRolesOutputReference extends cdktn.ComplexObjec
   }
 
   // aws_integration - computed: true, optional: true, required: false
-  private _awsIntegration?: string;
+  private _awsIntegration?: string; 
   public get awsIntegration() {
     return this.getStringAttribute('aws_integration');
   }
@@ -1237,7 +1237,7 @@ export class OdbCloudVmClusterIamRolesOutputReference extends cdktn.ComplexObjec
   }
 
   // iam_role_arn - computed: true, optional: true, required: false
-  private _iamRoleArn?: string;
+  private _iamRoleArn?: string; 
   public get iamRoleArn() {
     return this.getStringAttribute('iam_role_arn');
   }
@@ -1253,7 +1253,7 @@ export class OdbCloudVmClusterIamRolesOutputReference extends cdktn.ComplexObjec
   }
 
   // status - computed: true, optional: true, required: false
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -1390,7 +1390,7 @@ export class OdbCloudVmClusterTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1406,7 +1406,7 @@ export class OdbCloudVmClusterTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1521,7 +1521,7 @@ export class OdbCloudVmCluster extends cdktn.TerraformResource {
   // ==========
 
   // cloud_exadata_infrastructure_id - computed: true, optional: true, required: false
-  private _cloudExadataInfrastructureId?: string;
+  private _cloudExadataInfrastructureId?: string; 
   public get cloudExadataInfrastructureId() {
     return this.getStringAttribute('cloud_exadata_infrastructure_id');
   }
@@ -1547,7 +1547,7 @@ export class OdbCloudVmCluster extends cdktn.TerraformResource {
   }
 
   // cluster_name - computed: true, optional: true, required: false
-  private _clusterName?: string;
+  private _clusterName?: string; 
   public get clusterName() {
     return this.getStringAttribute('cluster_name');
   }
@@ -1568,7 +1568,7 @@ export class OdbCloudVmCluster extends cdktn.TerraformResource {
   }
 
   // cpu_core_count - computed: true, optional: true, required: false
-  private _cpuCoreCount?: number;
+  private _cpuCoreCount?: number; 
   public get cpuCoreCount() {
     return this.getNumberAttribute('cpu_core_count');
   }
@@ -1600,7 +1600,7 @@ export class OdbCloudVmCluster extends cdktn.TerraformResource {
   }
 
   // data_storage_size_in_t_bs - computed: true, optional: true, required: false
-  private _dataStorageSizeInTBs?: number;
+  private _dataStorageSizeInTBs?: number; 
   public get dataStorageSizeInTBs() {
     return this.getNumberAttribute('data_storage_size_in_t_bs');
   }
@@ -1616,7 +1616,7 @@ export class OdbCloudVmCluster extends cdktn.TerraformResource {
   }
 
   // db_node_storage_size_in_g_bs - computed: true, optional: true, required: false
-  private _dbNodeStorageSizeInGBs?: number;
+  private _dbNodeStorageSizeInGBs?: number; 
   public get dbNodeStorageSizeInGBs() {
     return this.getNumberAttribute('db_node_storage_size_in_g_bs');
   }
@@ -1648,7 +1648,7 @@ export class OdbCloudVmCluster extends cdktn.TerraformResource {
   }
 
   // db_servers - computed: true, optional: true, required: false
-  private _dbServers?: string[];
+  private _dbServers?: string[]; 
   public get dbServers() {
     return this.getListAttribute('db_servers');
   }
@@ -1669,7 +1669,7 @@ export class OdbCloudVmCluster extends cdktn.TerraformResource {
   }
 
   // display_name - computed: true, optional: true, required: false
-  private _displayName?: string;
+  private _displayName?: string; 
   public get displayName() {
     return this.getStringAttribute('display_name');
   }
@@ -1690,7 +1690,7 @@ export class OdbCloudVmCluster extends cdktn.TerraformResource {
   }
 
   // gi_version - computed: true, optional: true, required: false
-  private _giVersion?: string;
+  private _giVersion?: string; 
   public get giVersion() {
     return this.getStringAttribute('gi_version');
   }
@@ -1706,7 +1706,7 @@ export class OdbCloudVmCluster extends cdktn.TerraformResource {
   }
 
   // hostname - computed: true, optional: true, required: false
-  private _hostname?: string;
+  private _hostname?: string; 
   public get hostname() {
     return this.getStringAttribute('hostname');
   }
@@ -1743,7 +1743,7 @@ export class OdbCloudVmCluster extends cdktn.TerraformResource {
   }
 
   // is_local_backup_enabled - computed: true, optional: true, required: false
-  private _isLocalBackupEnabled?: boolean | cdktn.IResolvable;
+  private _isLocalBackupEnabled?: boolean | cdktn.IResolvable; 
   public get isLocalBackupEnabled() {
     return this.getBooleanAttribute('is_local_backup_enabled');
   }
@@ -1759,7 +1759,7 @@ export class OdbCloudVmCluster extends cdktn.TerraformResource {
   }
 
   // is_sparse_diskgroup_enabled - computed: true, optional: true, required: false
-  private _isSparseDiskgroupEnabled?: boolean | cdktn.IResolvable;
+  private _isSparseDiskgroupEnabled?: boolean | cdktn.IResolvable; 
   public get isSparseDiskgroupEnabled() {
     return this.getBooleanAttribute('is_sparse_diskgroup_enabled');
   }
@@ -1775,7 +1775,7 @@ export class OdbCloudVmCluster extends cdktn.TerraformResource {
   }
 
   // license_model - computed: true, optional: true, required: false
-  private _licenseModel?: string;
+  private _licenseModel?: string; 
   public get licenseModel() {
     return this.getStringAttribute('license_model');
   }
@@ -1796,7 +1796,7 @@ export class OdbCloudVmCluster extends cdktn.TerraformResource {
   }
 
   // memory_size_in_g_bs - computed: true, optional: true, required: false
-  private _memorySizeInGBs?: number;
+  private _memorySizeInGBs?: number; 
   public get memorySizeInGBs() {
     return this.getNumberAttribute('memory_size_in_g_bs');
   }
@@ -1832,7 +1832,7 @@ export class OdbCloudVmCluster extends cdktn.TerraformResource {
   }
 
   // odb_network_id - computed: true, optional: true, required: false
-  private _odbNetworkId?: string;
+  private _odbNetworkId?: string; 
   public get odbNetworkId() {
     return this.getStringAttribute('odb_network_id');
   }
@@ -1858,7 +1858,7 @@ export class OdbCloudVmCluster extends cdktn.TerraformResource {
   }
 
   // scan_listener_port_tcp - computed: true, optional: true, required: false
-  private _scanListenerPortTcp?: number;
+  private _scanListenerPortTcp?: number; 
   public get scanListenerPortTcp() {
     return this.getNumberAttribute('scan_listener_port_tcp');
   }
@@ -1879,7 +1879,7 @@ export class OdbCloudVmCluster extends cdktn.TerraformResource {
   }
 
   // ssh_public_keys - computed: true, optional: true, required: false
-  private _sshPublicKeys?: string[];
+  private _sshPublicKeys?: string[]; 
   public get sshPublicKeys() {
     return this.getListAttribute('ssh_public_keys');
   }
@@ -1900,7 +1900,7 @@ export class OdbCloudVmCluster extends cdktn.TerraformResource {
   }
 
   // system_version - computed: true, optional: true, required: false
-  private _systemVersion?: string;
+  private _systemVersion?: string; 
   public get systemVersion() {
     return this.getStringAttribute('system_version');
   }
@@ -1932,7 +1932,7 @@ export class OdbCloudVmCluster extends cdktn.TerraformResource {
   }
 
   // time_zone - computed: true, optional: true, required: false
-  private _timeZone?: string;
+  private _timeZone?: string; 
   public get timeZone() {
     return this.getStringAttribute('time_zone');
   }

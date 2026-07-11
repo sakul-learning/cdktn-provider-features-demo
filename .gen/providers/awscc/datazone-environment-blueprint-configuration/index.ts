@@ -142,7 +142,7 @@ export class DatazoneEnvironmentBlueprintConfigurationProvisioningConfigurations
   }
 
   // location_registration_exclude_s3_locations - computed: true, optional: true, required: false
-  private _locationRegistrationExcludeS3Locations?: string[];
+  private _locationRegistrationExcludeS3Locations?: string[]; 
   public get locationRegistrationExcludeS3Locations() {
     return this.getListAttribute('location_registration_exclude_s3_locations');
   }
@@ -158,7 +158,7 @@ export class DatazoneEnvironmentBlueprintConfigurationProvisioningConfigurations
   }
 
   // location_registration_role - computed: true, optional: true, required: false
-  private _locationRegistrationRole?: string;
+  private _locationRegistrationRole?: string; 
   public get locationRegistrationRole() {
     return this.getStringAttribute('location_registration_role');
   }
@@ -387,7 +387,7 @@ export class DatazoneEnvironmentBlueprintConfigurationRegionalParametersOutputRe
   }
 
   // parameters - computed: true, optional: true, required: false
-  private _parameters?: { [key: string]: string };
+  private _parameters?: { [key: string]: string }; 
   public get parameters() {
     return this.getStringMapAttribute('parameters');
   }
@@ -403,7 +403,7 @@ export class DatazoneEnvironmentBlueprintConfigurationRegionalParametersOutputRe
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -515,7 +515,7 @@ export class DatazoneEnvironmentBlueprintConfiguration extends cdktn.TerraformRe
   }
 
   // domain_identifier - computed: false, optional: false, required: true
-  private _domainIdentifier?: string;
+  private _domainIdentifier?: string; 
   public get domainIdentifier() {
     return this.getStringAttribute('domain_identifier');
   }
@@ -528,7 +528,7 @@ export class DatazoneEnvironmentBlueprintConfiguration extends cdktn.TerraformRe
   }
 
   // enabled_regions - computed: false, optional: false, required: true
-  private _enabledRegions?: string[];
+  private _enabledRegions?: string[]; 
   public get enabledRegions() {
     return this.getListAttribute('enabled_regions');
   }
@@ -546,7 +546,7 @@ export class DatazoneEnvironmentBlueprintConfiguration extends cdktn.TerraformRe
   }
 
   // environment_blueprint_identifier - computed: false, optional: false, required: true
-  private _environmentBlueprintIdentifier?: string;
+  private _environmentBlueprintIdentifier?: string; 
   public get environmentBlueprintIdentifier() {
     return this.getStringAttribute('environment_blueprint_identifier');
   }
@@ -559,7 +559,7 @@ export class DatazoneEnvironmentBlueprintConfiguration extends cdktn.TerraformRe
   }
 
   // environment_role_permission_boundary - computed: true, optional: true, required: false
-  private _environmentRolePermissionBoundary?: string;
+  private _environmentRolePermissionBoundary?: string; 
   public get environmentRolePermissionBoundary() {
     return this.getStringAttribute('environment_role_permission_boundary');
   }
@@ -575,7 +575,7 @@ export class DatazoneEnvironmentBlueprintConfiguration extends cdktn.TerraformRe
   }
 
   // global_parameters - computed: true, optional: true, required: false
-  private _globalParameters?: { [key: string]: string };
+  private _globalParameters?: { [key: string]: string }; 
   public get globalParameters() {
     return this.getStringMapAttribute('global_parameters');
   }
@@ -596,7 +596,7 @@ export class DatazoneEnvironmentBlueprintConfiguration extends cdktn.TerraformRe
   }
 
   // manage_access_role_arn - computed: true, optional: true, required: false
-  private _manageAccessRoleArn?: string;
+  private _manageAccessRoleArn?: string; 
   public get manageAccessRoleArn() {
     return this.getStringAttribute('manage_access_role_arn');
   }
@@ -628,7 +628,7 @@ export class DatazoneEnvironmentBlueprintConfiguration extends cdktn.TerraformRe
   }
 
   // provisioning_role_arn - computed: true, optional: true, required: false
-  private _provisioningRoleArn?: string;
+  private _provisioningRoleArn?: string; 
   public get provisioningRoleArn() {
     return this.getStringAttribute('provisioning_role_arn');
   }

@@ -111,7 +111,7 @@ export class NetworkflowmonitorScopeTargetTargetIdentifierTargetIdOutputReferenc
   }
 
   // account_id - computed: false, optional: false, required: true
-  private _accountId?: string;
+  private _accountId?: string; 
   public get accountId() {
     return this.getStringAttribute('account_id');
   }
@@ -243,7 +243,7 @@ export class NetworkflowmonitorScopeTargetTargetIdentifierOutputReference extend
   }
 
   // target_type - computed: false, optional: false, required: true
-  private _targetType?: string;
+  private _targetType?: string; 
   public get targetType() {
     return this.getStringAttribute('target_type');
   }
@@ -391,7 +391,7 @@ export class NetworkflowmonitorScopeTargetOutputReference extends cdktn.ComplexO
   }
 
   // region - computed: false, optional: false, required: true
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -558,7 +558,7 @@ export class NetworkflowmonitorScopeTimeoutsOutputReference extends cdktn.Comple
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -574,7 +574,7 @@ export class NetworkflowmonitorScopeTimeoutsOutputReference extends cdktn.Comple
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -590,7 +590,7 @@ export class NetworkflowmonitorScopeTimeoutsOutputReference extends cdktn.Comple
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -667,7 +667,7 @@ export class NetworkflowmonitorScope extends cdktn.TerraformResource {
   // ==========
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -693,7 +693,7 @@ export class NetworkflowmonitorScope extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

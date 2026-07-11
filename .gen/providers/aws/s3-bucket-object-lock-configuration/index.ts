@@ -146,7 +146,7 @@ export class S3BucketObjectLockConfigurationRuleDefaultRetentionAOutputReference
   }
 
   // days - computed: false, optional: true, required: false
-  private _days?: number;
+  private _days?: number; 
   public get days() {
     return this.getNumberAttribute('days');
   }
@@ -162,7 +162,7 @@ export class S3BucketObjectLockConfigurationRuleDefaultRetentionAOutputReference
   }
 
   // mode - computed: false, optional: true, required: false
-  private _mode?: string;
+  private _mode?: string; 
   public get mode() {
     return this.getStringAttribute('mode');
   }
@@ -178,7 +178,7 @@ export class S3BucketObjectLockConfigurationRuleDefaultRetentionAOutputReference
   }
 
   // years - computed: false, optional: true, required: false
-  private _years?: number;
+  private _years?: number; 
   public get years() {
     return this.getNumberAttribute('years');
   }
@@ -341,7 +341,7 @@ export class S3BucketObjectLockConfigurationA extends cdktn.TerraformResource {
   // ==========
 
   // bucket - computed: false, optional: false, required: true
-  private _bucket?: string;
+  private _bucket?: string; 
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -354,7 +354,7 @@ export class S3BucketObjectLockConfigurationA extends cdktn.TerraformResource {
   }
 
   // expected_bucket_owner - computed: false, optional: true, required: false
-  private _expectedBucketOwner?: string;
+  private _expectedBucketOwner?: string; 
   public get expectedBucketOwner() {
     return this.getStringAttribute('expected_bucket_owner');
   }
@@ -370,7 +370,7 @@ export class S3BucketObjectLockConfigurationA extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -386,7 +386,7 @@ export class S3BucketObjectLockConfigurationA extends cdktn.TerraformResource {
   }
 
   // object_lock_enabled - computed: false, optional: true, required: false
-  private _objectLockEnabled?: string;
+  private _objectLockEnabled?: string; 
   public get objectLockEnabled() {
     return this.getStringAttribute('object_lock_enabled');
   }
@@ -402,7 +402,7 @@ export class S3BucketObjectLockConfigurationA extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -418,7 +418,7 @@ export class S3BucketObjectLockConfigurationA extends cdktn.TerraformResource {
   }
 
   // token - computed: false, optional: true, required: false
-  private _token?: string;
+  private _token?: string; 
   public get token() {
     return this.getStringAttribute('token');
   }

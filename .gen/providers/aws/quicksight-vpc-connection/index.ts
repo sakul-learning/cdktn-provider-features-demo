@@ -171,7 +171,7 @@ export class QuicksightVpcConnectionTimeoutsOutputReference extends cdktn.Comple
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -187,7 +187,7 @@ export class QuicksightVpcConnectionTimeoutsOutputReference extends cdktn.Comple
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -203,7 +203,7 @@ export class QuicksightVpcConnectionTimeoutsOutputReference extends cdktn.Comple
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -296,7 +296,7 @@ export class QuicksightVpcConnection extends cdktn.TerraformResource {
   }
 
   // aws_account_id - computed: true, optional: true, required: false
-  private _awsAccountId?: string;
+  private _awsAccountId?: string; 
   public get awsAccountId() {
     return this.getStringAttribute('aws_account_id');
   }
@@ -312,7 +312,7 @@ export class QuicksightVpcConnection extends cdktn.TerraformResource {
   }
 
   // dns_resolvers - computed: false, optional: true, required: false
-  private _dnsResolvers?: string[];
+  private _dnsResolvers?: string[]; 
   public get dnsResolvers() {
     return cdktn.Fn.tolist(this.getListAttribute('dns_resolvers'));
   }
@@ -333,7 +333,7 @@ export class QuicksightVpcConnection extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -346,7 +346,7 @@ export class QuicksightVpcConnection extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -362,7 +362,7 @@ export class QuicksightVpcConnection extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -375,7 +375,7 @@ export class QuicksightVpcConnection extends cdktn.TerraformResource {
   }
 
   // security_group_ids - computed: false, optional: false, required: true
-  private _securityGroupIds?: string[];
+  private _securityGroupIds?: string[]; 
   public get securityGroupIds() {
     return cdktn.Fn.tolist(this.getListAttribute('security_group_ids'));
   }
@@ -388,7 +388,7 @@ export class QuicksightVpcConnection extends cdktn.TerraformResource {
   }
 
   // subnet_ids - computed: false, optional: false, required: true
-  private _subnetIds?: string[];
+  private _subnetIds?: string[]; 
   public get subnetIds() {
     return cdktn.Fn.tolist(this.getListAttribute('subnet_ids'));
   }
@@ -401,7 +401,7 @@ export class QuicksightVpcConnection extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -423,7 +423,7 @@ export class QuicksightVpcConnection extends cdktn.TerraformResource {
   }
 
   // vpc_connection_id - computed: false, optional: false, required: true
-  private _vpcConnectionId?: string;
+  private _vpcConnectionId?: string; 
   public get vpcConnectionId() {
     return this.getStringAttribute('vpc_connection_id');
   }

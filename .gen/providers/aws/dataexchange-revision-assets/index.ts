@@ -127,7 +127,7 @@ export class DataexchangeRevisionAssetsAssetCreateS3DataAccessFromS3BucketAssetS
   }
 
   // kms_key_arn - computed: false, optional: false, required: true
-  private _kmsKeyArn?: string;
+  private _kmsKeyArn?: string; 
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -293,7 +293,7 @@ export class DataexchangeRevisionAssetsAssetCreateS3DataAccessFromS3BucketAssetS
   }
 
   // bucket - computed: false, optional: false, required: true
-  private _bucket?: string;
+  private _bucket?: string; 
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -306,7 +306,7 @@ export class DataexchangeRevisionAssetsAssetCreateS3DataAccessFromS3BucketAssetS
   }
 
   // key_prefixes - computed: false, optional: true, required: false
-  private _keyPrefixes?: string[];
+  private _keyPrefixes?: string[]; 
   public get keyPrefixes() {
     return cdktn.Fn.tolist(this.getListAttribute('key_prefixes'));
   }
@@ -322,7 +322,7 @@ export class DataexchangeRevisionAssetsAssetCreateS3DataAccessFromS3BucketAssetS
   }
 
   // keys - computed: false, optional: true, required: false
-  private _keys?: string[];
+  private _keys?: string[]; 
   public get keys() {
     return cdktn.Fn.tolist(this.getListAttribute('keys'));
   }
@@ -599,7 +599,7 @@ export class DataexchangeRevisionAssetsAssetImportAssetsFromS3AssetSourceOutputR
   }
 
   // bucket - computed: false, optional: false, required: true
-  private _bucket?: string;
+  private _bucket?: string; 
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -612,7 +612,7 @@ export class DataexchangeRevisionAssetsAssetImportAssetsFromS3AssetSourceOutputR
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -843,7 +843,7 @@ export class DataexchangeRevisionAssetsAssetImportAssetsFromSignedUrlOutputRefer
   }
 
   // filename - computed: false, optional: false, required: true
-  private _filename?: string;
+  private _filename?: string; 
   public get filename() {
     return this.getStringAttribute('filename');
   }
@@ -1169,7 +1169,7 @@ export class DataexchangeRevisionAssetsTimeoutsOutputReference extends cdktn.Com
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -1255,7 +1255,7 @@ export class DataexchangeRevisionAssets extends cdktn.TerraformResource {
   }
 
   // comment - computed: false, optional: true, required: false
-  private _comment?: string;
+  private _comment?: string; 
   public get comment() {
     return this.getStringAttribute('comment');
   }
@@ -1276,7 +1276,7 @@ export class DataexchangeRevisionAssets extends cdktn.TerraformResource {
   }
 
   // data_set_id - computed: false, optional: false, required: true
-  private _dataSetId?: string;
+  private _dataSetId?: string; 
   public get dataSetId() {
     return this.getStringAttribute('data_set_id');
   }
@@ -1289,7 +1289,7 @@ export class DataexchangeRevisionAssets extends cdktn.TerraformResource {
   }
 
   // finalized - computed: true, optional: true, required: false
-  private _finalized?: boolean | cdktn.IResolvable;
+  private _finalized?: boolean | cdktn.IResolvable; 
   public get finalized() {
     return this.getBooleanAttribute('finalized');
   }
@@ -1305,7 +1305,7 @@ export class DataexchangeRevisionAssets extends cdktn.TerraformResource {
   }
 
   // force_destroy - computed: false, optional: true, required: false
-  private _forceDestroy?: boolean | cdktn.IResolvable;
+  private _forceDestroy?: boolean | cdktn.IResolvable; 
   public get forceDestroy() {
     return this.getBooleanAttribute('force_destroy');
   }
@@ -1326,7 +1326,7 @@ export class DataexchangeRevisionAssets extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1342,7 +1342,7 @@ export class DataexchangeRevisionAssets extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

@@ -143,7 +143,7 @@ export class SagemakerImageVersion extends cdktn.TerraformResource {
   // ==========
 
   // alias - computed: true, optional: true, required: false
-  private _alias?: string;
+  private _alias?: string; 
   public get alias() {
     return this.getStringAttribute('alias');
   }
@@ -159,7 +159,7 @@ export class SagemakerImageVersion extends cdktn.TerraformResource {
   }
 
   // aliases - computed: true, optional: true, required: false
-  private _aliases?: string[];
+  private _aliases?: string[]; 
   public get aliases() {
     return this.getListAttribute('aliases');
   }
@@ -175,7 +175,7 @@ export class SagemakerImageVersion extends cdktn.TerraformResource {
   }
 
   // base_image - computed: false, optional: false, required: true
-  private _baseImage?: string;
+  private _baseImage?: string; 
   public get baseImage() {
     return this.getStringAttribute('base_image');
   }
@@ -193,7 +193,7 @@ export class SagemakerImageVersion extends cdktn.TerraformResource {
   }
 
   // horovod - computed: true, optional: true, required: false
-  private _horovod?: boolean | cdktn.IResolvable;
+  private _horovod?: boolean | cdktn.IResolvable; 
   public get horovod() {
     return this.getBooleanAttribute('horovod');
   }
@@ -219,7 +219,7 @@ export class SagemakerImageVersion extends cdktn.TerraformResource {
   }
 
   // image_name - computed: false, optional: false, required: true
-  private _imageName?: string;
+  private _imageName?: string; 
   public get imageName() {
     return this.getStringAttribute('image_name');
   }
@@ -237,7 +237,7 @@ export class SagemakerImageVersion extends cdktn.TerraformResource {
   }
 
   // job_type - computed: true, optional: true, required: false
-  private _jobType?: string;
+  private _jobType?: string; 
   public get jobType() {
     return this.getStringAttribute('job_type');
   }
@@ -253,7 +253,7 @@ export class SagemakerImageVersion extends cdktn.TerraformResource {
   }
 
   // ml_framework - computed: true, optional: true, required: false
-  private _mlFramework?: string;
+  private _mlFramework?: string; 
   public get mlFramework() {
     return this.getStringAttribute('ml_framework');
   }
@@ -269,7 +269,7 @@ export class SagemakerImageVersion extends cdktn.TerraformResource {
   }
 
   // processor - computed: true, optional: true, required: false
-  private _processor?: string;
+  private _processor?: string; 
   public get processor() {
     return this.getStringAttribute('processor');
   }
@@ -285,7 +285,7 @@ export class SagemakerImageVersion extends cdktn.TerraformResource {
   }
 
   // programming_lang - computed: true, optional: true, required: false
-  private _programmingLang?: string;
+  private _programmingLang?: string; 
   public get programmingLang() {
     return this.getStringAttribute('programming_lang');
   }
@@ -301,7 +301,7 @@ export class SagemakerImageVersion extends cdktn.TerraformResource {
   }
 
   // release_notes - computed: true, optional: true, required: false
-  private _releaseNotes?: string;
+  private _releaseNotes?: string; 
   public get releaseNotes() {
     return this.getStringAttribute('release_notes');
   }
@@ -317,7 +317,7 @@ export class SagemakerImageVersion extends cdktn.TerraformResource {
   }
 
   // vendor_guidance - computed: true, optional: true, required: false
-  private _vendorGuidance?: string;
+  private _vendorGuidance?: string; 
   public get vendorGuidance() {
     return this.getStringAttribute('vendor_guidance');
   }

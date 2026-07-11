@@ -134,7 +134,7 @@ export class EventsConnectionAuthParametersApiKeyAuthParametersOutputReference e
   }
 
   // api_key_name - computed: true, optional: true, required: false
-  private _apiKeyName?: string;
+  private _apiKeyName?: string; 
   public get apiKeyName() {
     return this.getStringAttribute('api_key_name');
   }
@@ -150,7 +150,7 @@ export class EventsConnectionAuthParametersApiKeyAuthParametersOutputReference e
   }
 
   // api_key_value - computed: true, optional: true, required: false
-  private _apiKeyValue?: string;
+  private _apiKeyValue?: string; 
   public get apiKeyValue() {
     return this.getStringAttribute('api_key_value');
   }
@@ -261,7 +261,7 @@ export class EventsConnectionAuthParametersBasicAuthParametersOutputReference ex
   }
 
   // password - computed: true, optional: true, required: false
-  private _password?: string;
+  private _password?: string; 
   public get password() {
     return this.getStringAttribute('password');
   }
@@ -277,7 +277,7 @@ export class EventsConnectionAuthParametersBasicAuthParametersOutputReference ex
   }
 
   // username - computed: true, optional: true, required: false
-  private _username?: string;
+  private _username?: string; 
   public get username() {
     return this.getStringAttribute('username');
   }
@@ -376,7 +376,7 @@ export class EventsConnectionAuthParametersConnectivityParametersResourceParamet
   }
 
   // resource_configuration_arn - computed: true, optional: true, required: false
-  private _resourceConfigurationArn?: string;
+  private _resourceConfigurationArn?: string; 
   public get resourceConfigurationArn() {
     return this.getStringAttribute('resource_configuration_arn');
   }
@@ -600,7 +600,7 @@ export class EventsConnectionAuthParametersInvocationHttpParametersBodyParameter
   }
 
   // is_value_secret - computed: true, optional: true, required: false
-  private _isValueSecret?: boolean | cdktn.IResolvable;
+  private _isValueSecret?: boolean | cdktn.IResolvable; 
   public get isValueSecret() {
     return this.getBooleanAttribute('is_value_secret');
   }
@@ -616,7 +616,7 @@ export class EventsConnectionAuthParametersInvocationHttpParametersBodyParameter
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -632,7 +632,7 @@ export class EventsConnectionAuthParametersInvocationHttpParametersBodyParameter
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -782,7 +782,7 @@ export class EventsConnectionAuthParametersInvocationHttpParametersHeaderParamet
   }
 
   // is_value_secret - computed: true, optional: true, required: false
-  private _isValueSecret?: boolean | cdktn.IResolvable;
+  private _isValueSecret?: boolean | cdktn.IResolvable; 
   public get isValueSecret() {
     return this.getBooleanAttribute('is_value_secret');
   }
@@ -798,7 +798,7 @@ export class EventsConnectionAuthParametersInvocationHttpParametersHeaderParamet
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -814,7 +814,7 @@ export class EventsConnectionAuthParametersInvocationHttpParametersHeaderParamet
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -964,7 +964,7 @@ export class EventsConnectionAuthParametersInvocationHttpParametersQueryStringPa
   }
 
   // is_value_secret - computed: true, optional: true, required: false
-  private _isValueSecret?: boolean | cdktn.IResolvable;
+  private _isValueSecret?: boolean | cdktn.IResolvable; 
   public get isValueSecret() {
     return this.getBooleanAttribute('is_value_secret');
   }
@@ -980,7 +980,7 @@ export class EventsConnectionAuthParametersInvocationHttpParametersQueryStringPa
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -996,7 +996,7 @@ export class EventsConnectionAuthParametersInvocationHttpParametersQueryStringPa
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1287,7 +1287,7 @@ export class EventsConnectionAuthParametersOAuthParametersClientParametersOutput
   }
 
   // client_id - computed: true, optional: true, required: false
-  private _clientId?: string;
+  private _clientId?: string; 
   public get clientId() {
     return this.getStringAttribute('client_id');
   }
@@ -1303,7 +1303,7 @@ export class EventsConnectionAuthParametersOAuthParametersClientParametersOutput
   }
 
   // client_secret - computed: true, optional: true, required: false
-  private _clientSecret?: string;
+  private _clientSecret?: string; 
   public get clientSecret() {
     return this.getStringAttribute('client_secret');
   }
@@ -1433,7 +1433,7 @@ export class EventsConnectionAuthParametersOAuthParametersOAuthHttpParametersBod
   }
 
   // is_value_secret - computed: true, optional: true, required: false
-  private _isValueSecret?: boolean | cdktn.IResolvable;
+  private _isValueSecret?: boolean | cdktn.IResolvable; 
   public get isValueSecret() {
     return this.getBooleanAttribute('is_value_secret');
   }
@@ -1449,7 +1449,7 @@ export class EventsConnectionAuthParametersOAuthParametersOAuthHttpParametersBod
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1465,7 +1465,7 @@ export class EventsConnectionAuthParametersOAuthParametersOAuthHttpParametersBod
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1615,7 +1615,7 @@ export class EventsConnectionAuthParametersOAuthParametersOAuthHttpParametersHea
   }
 
   // is_value_secret - computed: true, optional: true, required: false
-  private _isValueSecret?: boolean | cdktn.IResolvable;
+  private _isValueSecret?: boolean | cdktn.IResolvable; 
   public get isValueSecret() {
     return this.getBooleanAttribute('is_value_secret');
   }
@@ -1631,7 +1631,7 @@ export class EventsConnectionAuthParametersOAuthParametersOAuthHttpParametersHea
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1647,7 +1647,7 @@ export class EventsConnectionAuthParametersOAuthParametersOAuthHttpParametersHea
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1797,7 +1797,7 @@ export class EventsConnectionAuthParametersOAuthParametersOAuthHttpParametersQue
   }
 
   // is_value_secret - computed: true, optional: true, required: false
-  private _isValueSecret?: boolean | cdktn.IResolvable;
+  private _isValueSecret?: boolean | cdktn.IResolvable; 
   public get isValueSecret() {
     return this.getBooleanAttribute('is_value_secret');
   }
@@ -1813,7 +1813,7 @@ export class EventsConnectionAuthParametersOAuthParametersOAuthHttpParametersQue
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1829,7 +1829,7 @@ export class EventsConnectionAuthParametersOAuthParametersOAuthHttpParametersQue
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2154,7 +2154,7 @@ export class EventsConnectionAuthParametersOAuthParametersOutputReference extend
   }
 
   // authorization_endpoint - computed: true, optional: true, required: false
-  private _authorizationEndpoint?: string;
+  private _authorizationEndpoint?: string; 
   public get authorizationEndpoint() {
     return this.getStringAttribute('authorization_endpoint');
   }
@@ -2186,7 +2186,7 @@ export class EventsConnectionAuthParametersOAuthParametersOutputReference extend
   }
 
   // http_method - computed: true, optional: true, required: false
-  private _httpMethod?: string;
+  private _httpMethod?: string; 
   public get httpMethod() {
     return this.getStringAttribute('http_method');
   }
@@ -2527,7 +2527,7 @@ export class EventsConnectionInvocationConnectivityParametersResourceParametersO
   }
 
   // resource_configuration_arn - computed: true, optional: true, required: false
-  private _resourceConfigurationArn?: string;
+  private _resourceConfigurationArn?: string; 
   public get resourceConfigurationArn() {
     return this.getStringAttribute('resource_configuration_arn');
   }
@@ -2726,7 +2726,7 @@ export class EventsConnection extends cdktn.TerraformResource {
   }
 
   // authorization_type - computed: true, optional: true, required: false
-  private _authorizationType?: string;
+  private _authorizationType?: string; 
   public get authorizationType() {
     return this.getStringAttribute('authorization_type');
   }
@@ -2742,7 +2742,7 @@ export class EventsConnection extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -2779,7 +2779,7 @@ export class EventsConnection extends cdktn.TerraformResource {
   }
 
   // kms_key_identifier - computed: true, optional: true, required: false
-  private _kmsKeyIdentifier?: string;
+  private _kmsKeyIdentifier?: string; 
   public get kmsKeyIdentifier() {
     return this.getStringAttribute('kms_key_identifier');
   }
@@ -2795,7 +2795,7 @@ export class EventsConnection extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }

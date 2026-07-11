@@ -148,7 +148,7 @@ export class ServicecatalogTagOptionResourceAssociationTimeoutsOutputReference e
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -164,7 +164,7 @@ export class ServicecatalogTagOptionResourceAssociationTimeoutsOutputReference e
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -180,7 +180,7 @@ export class ServicecatalogTagOptionResourceAssociationTimeoutsOutputReference e
   }
 
   // read - computed: false, optional: true, required: false
-  private _read?: string;
+  private _read?: string; 
   public get read() {
     return this.getStringAttribute('read');
   }
@@ -258,7 +258,7 @@ export class ServicecatalogTagOptionResourceAssociation extends cdktn.TerraformR
   // ==========
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -274,7 +274,7 @@ export class ServicecatalogTagOptionResourceAssociation extends cdktn.TerraformR
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -305,7 +305,7 @@ export class ServicecatalogTagOptionResourceAssociation extends cdktn.TerraformR
   }
 
   // resource_id - computed: false, optional: false, required: true
-  private _resourceId?: string;
+  private _resourceId?: string; 
   public get resourceId() {
     return this.getStringAttribute('resource_id');
   }
@@ -323,7 +323,7 @@ export class ServicecatalogTagOptionResourceAssociation extends cdktn.TerraformR
   }
 
   // tag_option_id - computed: false, optional: false, required: true
-  private _tagOptionId?: string;
+  private _tagOptionId?: string; 
   public get tagOptionId() {
     return this.getStringAttribute('tag_option_id');
   }

@@ -20,13 +20,13 @@ export interface DetectiveGraphConfig extends cdktn.TerraformMetaArguments {
 }
 export interface DetectiveGraphTags {
   /**
-  * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. Valid characters are Unicode letters, digits, white space, and any of the following symbols: _ . : / = + - @
+  * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. Valid characters are Unicode letters, digits, white space, and any of the following symbols: _ . : / = + - @ 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/detective_graph#key DetectiveGraph#key}
   */
   readonly key?: string;
   /**
-  * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. Valid characters are Unicode letters, digits, white space, and any of the following symbols: _ . : / = + - @
+  * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. Valid characters are Unicode letters, digits, white space, and any of the following symbols: _ . : / = + - @ 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/detective_graph#value DetectiveGraph#value}
   */
@@ -120,7 +120,7 @@ export class DetectiveGraphTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -136,7 +136,7 @@ export class DetectiveGraphTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -236,7 +236,7 @@ export class DetectiveGraph extends cdktn.TerraformResource {
   }
 
   // auto_enable_members - computed: true, optional: true, required: false
-  private _autoEnableMembers?: boolean | cdktn.IResolvable;
+  private _autoEnableMembers?: boolean | cdktn.IResolvable; 
   public get autoEnableMembers() {
     return this.getBooleanAttribute('auto_enable_members');
   }

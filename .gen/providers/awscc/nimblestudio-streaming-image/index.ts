@@ -160,7 +160,7 @@ export class NimblestudioStreamingImage extends cdktn.TerraformResource {
   // ==========
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -176,7 +176,7 @@ export class NimblestudioStreamingImage extends cdktn.TerraformResource {
   }
 
   // ec_2_image_id - computed: false, optional: false, required: true
-  private _ec2ImageId?: string;
+  private _ec2ImageId?: string; 
   public get ec2ImageId() {
     return this.getStringAttribute('ec_2_image_id');
   }
@@ -195,7 +195,7 @@ export class NimblestudioStreamingImage extends cdktn.TerraformResource {
   }
 
   // encryption_configuration_key_arn - computed: true, optional: true, required: false
-  private _encryptionConfigurationKeyArn?: string;
+  private _encryptionConfigurationKeyArn?: string; 
   public get encryptionConfigurationKeyArn() {
     return this.getStringAttribute('encryption_configuration_key_arn');
   }
@@ -211,7 +211,7 @@ export class NimblestudioStreamingImage extends cdktn.TerraformResource {
   }
 
   // encryption_configuration_key_type - computed: true, optional: true, required: false
-  private _encryptionConfigurationKeyType?: string;
+  private _encryptionConfigurationKeyType?: string; 
   public get encryptionConfigurationKeyType() {
     return this.getStringAttribute('encryption_configuration_key_type');
   }
@@ -237,7 +237,7 @@ export class NimblestudioStreamingImage extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -265,7 +265,7 @@ export class NimblestudioStreamingImage extends cdktn.TerraformResource {
   }
 
   // studio_id - computed: false, optional: false, required: true
-  private _studioId?: string;
+  private _studioId?: string; 
   public get studioId() {
     return this.getStringAttribute('studio_id');
   }
@@ -278,7 +278,7 @@ export class NimblestudioStreamingImage extends cdktn.TerraformResource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

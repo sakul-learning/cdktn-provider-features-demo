@@ -124,7 +124,7 @@ export class CassandraTypeFieldsOutputReference extends cdktn.ComplexObject {
   }
 
   // field_name - computed: false, optional: false, required: true
-  private _fieldName?: string;
+  private _fieldName?: string; 
   public get fieldName() {
     return this.getStringAttribute('field_name');
   }
@@ -137,7 +137,7 @@ export class CassandraTypeFieldsOutputReference extends cdktn.ComplexObject {
   }
 
   // field_type - computed: false, optional: false, required: true
-  private _fieldType?: string;
+  private _fieldType?: string; 
   public get fieldType() {
     return this.getStringAttribute('field_type');
   }
@@ -263,7 +263,7 @@ export class CassandraType extends cdktn.TerraformResource {
   }
 
   // keyspace_name - computed: false, optional: false, required: true
-  private _keyspaceName?: string;
+  private _keyspaceName?: string; 
   public get keyspaceName() {
     return this.getStringAttribute('keyspace_name');
   }
@@ -286,7 +286,7 @@ export class CassandraType extends cdktn.TerraformResource {
   }
 
   // type_name - computed: false, optional: false, required: true
-  private _typeName?: string;
+  private _typeName?: string; 
   public get typeName() {
     return this.getStringAttribute('type_name');
   }

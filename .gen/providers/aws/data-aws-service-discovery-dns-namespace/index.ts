@@ -111,7 +111,7 @@ export class DataAwsServiceDiscoveryDnsNamespace extends cdktn.TerraformDataSour
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -127,7 +127,7 @@ export class DataAwsServiceDiscoveryDnsNamespace extends cdktn.TerraformDataSour
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -140,7 +140,7 @@ export class DataAwsServiceDiscoveryDnsNamespace extends cdktn.TerraformDataSour
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -156,7 +156,7 @@ export class DataAwsServiceDiscoveryDnsNamespace extends cdktn.TerraformDataSour
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -172,7 +172,7 @@ export class DataAwsServiceDiscoveryDnsNamespace extends cdktn.TerraformDataSour
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }

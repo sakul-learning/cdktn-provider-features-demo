@@ -14,7 +14,7 @@ export interface S3ObjectlambdaAccessPointPolicyConfig extends cdktn.TerraformMe
   */
   readonly objectLambdaAccessPoint: string;
   /**
-  * A policy document containing permissions to add to the specified ObjectLambdaAccessPoint. For more information, see Access Policy Language Overview (https://docs.aws.amazon.com/AmazonS3/latest/dev/access-policy-language-overview.html) in the Amazon Simple Storage Service Developer Guide.
+  * A policy document containing permissions to add to the specified ObjectLambdaAccessPoint. For more information, see Access Policy Language Overview (https://docs.aws.amazon.com/AmazonS3/latest/dev/access-policy-language-overview.html) in the Amazon Simple Storage Service Developer Guide. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3objectlambda_access_point_policy#policy_document S3ObjectlambdaAccessPointPolicy#policy_document}
   */
@@ -85,7 +85,7 @@ export class S3ObjectlambdaAccessPointPolicy extends cdktn.TerraformResource {
   }
 
   // object_lambda_access_point - computed: false, optional: false, required: true
-  private _objectLambdaAccessPoint?: string;
+  private _objectLambdaAccessPoint?: string; 
   public get objectLambdaAccessPoint() {
     return this.getStringAttribute('object_lambda_access_point');
   }
@@ -98,7 +98,7 @@ export class S3ObjectlambdaAccessPointPolicy extends cdktn.TerraformResource {
   }
 
   // policy_document - computed: false, optional: false, required: true
-  private _policyDocument?: string;
+  private _policyDocument?: string; 
   public get policyDocument() {
     return this.getStringAttribute('policy_document');
   }

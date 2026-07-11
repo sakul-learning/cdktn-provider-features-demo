@@ -91,7 +91,7 @@ export class CloudwatchEventBusPolicy extends cdktn.TerraformResource {
   // ==========
 
   // event_bus_name - computed: false, optional: true, required: false
-  private _eventBusName?: string;
+  private _eventBusName?: string; 
   public get eventBusName() {
     return this.getStringAttribute('event_bus_name');
   }
@@ -107,7 +107,7 @@ export class CloudwatchEventBusPolicy extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -123,7 +123,7 @@ export class CloudwatchEventBusPolicy extends cdktn.TerraformResource {
   }
 
   // policy - computed: false, optional: false, required: true
-  private _policy?: string;
+  private _policy?: string; 
   public get policy() {
     return this.getStringAttribute('policy');
   }
@@ -136,7 +136,7 @@ export class CloudwatchEventBusPolicy extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

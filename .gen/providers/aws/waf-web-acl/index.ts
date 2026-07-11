@@ -118,7 +118,7 @@ export class WafWebAclDefaultActionOutputReference extends cdktn.ComplexObject {
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -228,7 +228,7 @@ export class WafWebAclLoggingConfigurationRedactedFieldsFieldToMatchOutputRefere
   }
 
   // data - computed: false, optional: true, required: false
-  private _data?: string;
+  private _data?: string; 
   public get data() {
     return this.getStringAttribute('data');
   }
@@ -244,7 +244,7 @@ export class WafWebAclLoggingConfigurationRedactedFieldsFieldToMatchOutputRefere
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -447,7 +447,7 @@ export class WafWebAclLoggingConfigurationOutputReference extends cdktn.ComplexO
   }
 
   // log_destination - computed: false, optional: false, required: true
-  private _logDestination?: string;
+  private _logDestination?: string; 
   public get logDestination() {
     return this.getStringAttribute('log_destination');
   }
@@ -544,7 +544,7 @@ export class WafWebAclRulesActionOutputReference extends cdktn.ComplexObject {
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -625,7 +625,7 @@ export class WafWebAclRulesOverrideActionOutputReference extends cdktn.ComplexOb
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -790,7 +790,7 @@ export class WafWebAclRulesOutputReference extends cdktn.ComplexObject {
   }
 
   // priority - computed: false, optional: false, required: true
-  private _priority?: number;
+  private _priority?: number; 
   public get priority() {
     return this.getNumberAttribute('priority');
   }
@@ -803,7 +803,7 @@ export class WafWebAclRulesOutputReference extends cdktn.ComplexObject {
   }
 
   // rule_id - computed: false, optional: false, required: true
-  private _ruleId?: string;
+  private _ruleId?: string; 
   public get ruleId() {
     return this.getStringAttribute('rule_id');
   }
@@ -816,7 +816,7 @@ export class WafWebAclRulesOutputReference extends cdktn.ComplexObject {
   }
 
   // type - computed: false, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -954,7 +954,7 @@ export class WafWebAcl extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -970,7 +970,7 @@ export class WafWebAcl extends cdktn.TerraformResource {
   }
 
   // metric_name - computed: false, optional: false, required: true
-  private _metricName?: string;
+  private _metricName?: string; 
   public get metricName() {
     return this.getStringAttribute('metric_name');
   }
@@ -983,7 +983,7 @@ export class WafWebAcl extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -996,7 +996,7 @@ export class WafWebAcl extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -1012,7 +1012,7 @@ export class WafWebAcl extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

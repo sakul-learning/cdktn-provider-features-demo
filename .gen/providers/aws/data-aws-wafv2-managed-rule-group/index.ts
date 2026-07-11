@@ -1616,7 +1616,7 @@ export class DataAwsWafv2ManagedRuleGroup extends cdktn.TerraformDataSource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1629,7 +1629,7 @@ export class DataAwsWafv2ManagedRuleGroup extends cdktn.TerraformDataSource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1651,7 +1651,7 @@ export class DataAwsWafv2ManagedRuleGroup extends cdktn.TerraformDataSource {
   }
 
   // scope - computed: false, optional: false, required: true
-  private _scope?: string;
+  private _scope?: string; 
   public get scope() {
     return this.getStringAttribute('scope');
   }
@@ -1669,7 +1669,7 @@ export class DataAwsWafv2ManagedRuleGroup extends cdktn.TerraformDataSource {
   }
 
   // vendor_name - computed: false, optional: false, required: true
-  private _vendorName?: string;
+  private _vendorName?: string; 
   public get vendorName() {
     return this.getStringAttribute('vendor_name');
   }
@@ -1682,7 +1682,7 @@ export class DataAwsWafv2ManagedRuleGroup extends cdktn.TerraformDataSource {
   }
 
   // version_name - computed: false, optional: true, required: false
-  private _versionName?: string;
+  private _versionName?: string; 
   public get versionName() {
     return this.getStringAttribute('version_name');
   }

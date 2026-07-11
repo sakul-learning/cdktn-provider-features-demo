@@ -232,7 +232,7 @@ export class KendraExperienceConfigurationContentSourceConfigurationOutputRefere
   }
 
   // data_source_ids - computed: false, optional: true, required: false
-  private _dataSourceIds?: string[];
+  private _dataSourceIds?: string[]; 
   public get dataSourceIds() {
     return cdktn.Fn.tolist(this.getListAttribute('data_source_ids'));
   }
@@ -248,7 +248,7 @@ export class KendraExperienceConfigurationContentSourceConfigurationOutputRefere
   }
 
   // direct_put_content - computed: false, optional: true, required: false
-  private _directPutContent?: boolean | cdktn.IResolvable;
+  private _directPutContent?: boolean | cdktn.IResolvable; 
   public get directPutContent() {
     return this.getBooleanAttribute('direct_put_content');
   }
@@ -264,7 +264,7 @@ export class KendraExperienceConfigurationContentSourceConfigurationOutputRefere
   }
 
   // faq_ids - computed: false, optional: true, required: false
-  private _faqIds?: string[];
+  private _faqIds?: string[]; 
   public get faqIds() {
     return cdktn.Fn.tolist(this.getListAttribute('faq_ids'));
   }
@@ -348,7 +348,7 @@ export class KendraExperienceConfigurationUserIdentityConfigurationOutputReferen
   }
 
   // identity_attribute_name - computed: false, optional: false, required: true
-  private _identityAttributeName?: string;
+  private _identityAttributeName?: string; 
   public get identityAttributeName() {
     return this.getStringAttribute('identity_attribute_name');
   }
@@ -594,7 +594,7 @@ export class KendraExperienceTimeoutsOutputReference extends cdktn.ComplexObject
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -610,7 +610,7 @@ export class KendraExperienceTimeoutsOutputReference extends cdktn.ComplexObject
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -626,7 +626,7 @@ export class KendraExperienceTimeoutsOutputReference extends cdktn.ComplexObject
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -712,7 +712,7 @@ export class KendraExperience extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -739,7 +739,7 @@ export class KendraExperience extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -755,7 +755,7 @@ export class KendraExperience extends cdktn.TerraformResource {
   }
 
   // index_id - computed: false, optional: false, required: true
-  private _indexId?: string;
+  private _indexId?: string; 
   public get indexId() {
     return this.getStringAttribute('index_id');
   }
@@ -768,7 +768,7 @@ export class KendraExperience extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -781,7 +781,7 @@ export class KendraExperience extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -797,7 +797,7 @@ export class KendraExperience extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }

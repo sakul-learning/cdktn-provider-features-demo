@@ -149,7 +149,7 @@ export class InspectorAssessmentTemplateEventSubscriptionOutputReference extends
   }
 
   // event - computed: false, optional: false, required: true
-  private _event?: string;
+  private _event?: string; 
   public get event() {
     return this.getStringAttribute('event');
   }
@@ -162,7 +162,7 @@ export class InspectorAssessmentTemplateEventSubscriptionOutputReference extends
   }
 
   // topic_arn - computed: false, optional: false, required: true
-  private _topicArn?: string;
+  private _topicArn?: string; 
   public get topicArn() {
     return this.getStringAttribute('topic_arn');
   }
@@ -266,7 +266,7 @@ export class InspectorAssessmentTemplate extends cdktn.TerraformResource {
   }
 
   // duration - computed: false, optional: false, required: true
-  private _duration?: number;
+  private _duration?: number; 
   public get duration() {
     return this.getNumberAttribute('duration');
   }
@@ -279,7 +279,7 @@ export class InspectorAssessmentTemplate extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -295,7 +295,7 @@ export class InspectorAssessmentTemplate extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -308,7 +308,7 @@ export class InspectorAssessmentTemplate extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -324,7 +324,7 @@ export class InspectorAssessmentTemplate extends cdktn.TerraformResource {
   }
 
   // rules_package_arns - computed: false, optional: false, required: true
-  private _rulesPackageArns?: string[];
+  private _rulesPackageArns?: string[]; 
   public get rulesPackageArns() {
     return cdktn.Fn.tolist(this.getListAttribute('rules_package_arns'));
   }
@@ -337,7 +337,7 @@ export class InspectorAssessmentTemplate extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -353,7 +353,7 @@ export class InspectorAssessmentTemplate extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -369,7 +369,7 @@ export class InspectorAssessmentTemplate extends cdktn.TerraformResource {
   }
 
   // target_arn - computed: false, optional: false, required: true
-  private _targetArn?: string;
+  private _targetArn?: string; 
   public get targetArn() {
     return this.getStringAttribute('target_arn');
   }

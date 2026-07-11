@@ -122,7 +122,7 @@ export class ControltowerLandingZoneTagsOutputReference extends cdktn.ComplexObj
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -138,7 +138,7 @@ export class ControltowerLandingZoneTagsOutputReference extends cdktn.ComplexObj
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -260,7 +260,7 @@ export class ControltowerLandingZone extends cdktn.TerraformResource {
   }
 
   // manifest - computed: false, optional: false, required: true
-  private _manifest?: string;
+  private _manifest?: string; 
   public get manifest() {
     return this.getStringAttribute('manifest');
   }
@@ -273,7 +273,7 @@ export class ControltowerLandingZone extends cdktn.TerraformResource {
   }
 
   // remediation_types - computed: true, optional: true, required: false
-  private _remediationTypes?: string[];
+  private _remediationTypes?: string[]; 
   public get remediationTypes() {
     return this.getListAttribute('remediation_types');
   }
@@ -310,7 +310,7 @@ export class ControltowerLandingZone extends cdktn.TerraformResource {
   }
 
   // version - computed: false, optional: false, required: true
-  private _version?: string;
+  private _version?: string; 
   public get version() {
     return this.getStringAttribute('version');
   }

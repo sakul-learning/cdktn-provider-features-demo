@@ -143,7 +143,7 @@ export class QbusinessApplicationAttachmentsConfigurationOutputReference extends
   }
 
   // attachments_control_mode - computed: true, optional: true, required: false
-  private _attachmentsControlMode?: string;
+  private _attachmentsControlMode?: string; 
   public get attachmentsControlMode() {
     return this.getStringAttribute('attachments_control_mode');
   }
@@ -254,7 +254,7 @@ export class QbusinessApplicationAutoSubscriptionConfigurationOutputReference ex
   }
 
   // auto_subscribe - computed: true, optional: true, required: false
-  private _autoSubscribe?: string;
+  private _autoSubscribe?: string; 
   public get autoSubscribe() {
     return this.getStringAttribute('auto_subscribe');
   }
@@ -270,7 +270,7 @@ export class QbusinessApplicationAutoSubscriptionConfigurationOutputReference ex
   }
 
   // default_subscription_type - computed: true, optional: true, required: false
-  private _defaultSubscriptionType?: string;
+  private _defaultSubscriptionType?: string; 
   public get defaultSubscriptionType() {
     return this.getStringAttribute('default_subscription_type');
   }
@@ -364,7 +364,7 @@ export class QbusinessApplicationEncryptionConfigurationOutputReference extends 
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -458,7 +458,7 @@ export class QbusinessApplicationPersonalizationConfigurationOutputReference ext
   }
 
   // personalization_control_mode - computed: true, optional: true, required: false
-  private _personalizationControlMode?: string;
+  private _personalizationControlMode?: string; 
   public get personalizationControlMode() {
     return this.getStringAttribute('personalization_control_mode');
   }
@@ -552,7 +552,7 @@ export class QbusinessApplicationQAppsConfigurationOutputReference extends cdktn
   }
 
   // q_apps_control_mode - computed: true, optional: true, required: false
-  private _qAppsControlMode?: string;
+  private _qAppsControlMode?: string; 
   public get qAppsControlMode() {
     return this.getStringAttribute('q_apps_control_mode');
   }
@@ -646,7 +646,7 @@ export class QbusinessApplicationQuickSightConfigurationOutputReference extends 
   }
 
   // client_namespace - computed: true, optional: true, required: false
-  private _clientNamespace?: string;
+  private _clientNamespace?: string; 
   public get clientNamespace() {
     return this.getStringAttribute('client_namespace');
   }
@@ -759,7 +759,7 @@ export class QbusinessApplicationTagsOutputReference extends cdktn.ComplexObject
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -775,7 +775,7 @@ export class QbusinessApplicationTagsOutputReference extends cdktn.ComplexObject
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -924,7 +924,7 @@ export class QbusinessApplication extends cdktn.TerraformResource {
   }
 
   // client_ids_for_oidc - computed: true, optional: true, required: false
-  private _clientIdsForOidc?: string[];
+  private _clientIdsForOidc?: string[]; 
   public get clientIdsForOidc() {
     return this.getListAttribute('client_ids_for_oidc');
   }
@@ -945,7 +945,7 @@ export class QbusinessApplication extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -961,7 +961,7 @@ export class QbusinessApplication extends cdktn.TerraformResource {
   }
 
   // display_name - computed: false, optional: false, required: true
-  private _displayName?: string;
+  private _displayName?: string; 
   public get displayName() {
     return this.getStringAttribute('display_name');
   }
@@ -990,7 +990,7 @@ export class QbusinessApplication extends cdktn.TerraformResource {
   }
 
   // iam_identity_provider_arn - computed: true, optional: true, required: false
-  private _iamIdentityProviderArn?: string;
+  private _iamIdentityProviderArn?: string; 
   public get iamIdentityProviderArn() {
     return this.getStringAttribute('iam_identity_provider_arn');
   }
@@ -1016,7 +1016,7 @@ export class QbusinessApplication extends cdktn.TerraformResource {
   }
 
   // identity_center_instance_arn - computed: true, optional: true, required: false
-  private _identityCenterInstanceArn?: string;
+  private _identityCenterInstanceArn?: string; 
   public get identityCenterInstanceArn() {
     return this.getStringAttribute('identity_center_instance_arn');
   }
@@ -1032,7 +1032,7 @@ export class QbusinessApplication extends cdktn.TerraformResource {
   }
 
   // identity_type - computed: true, optional: true, required: false
-  private _identityType?: string;
+  private _identityType?: string; 
   public get identityType() {
     return this.getStringAttribute('identity_type');
   }
@@ -1096,7 +1096,7 @@ export class QbusinessApplication extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }

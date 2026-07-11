@@ -162,7 +162,7 @@ export class CodepipelineWebhookAuthenticationConfigurationOutputReference exten
   }
 
   // allowed_ip_range - computed: true, optional: true, required: false
-  private _allowedIpRange?: string;
+  private _allowedIpRange?: string; 
   public get allowedIpRange() {
     return this.getStringAttribute('allowed_ip_range');
   }
@@ -178,7 +178,7 @@ export class CodepipelineWebhookAuthenticationConfigurationOutputReference exten
   }
 
   // secret_token - computed: true, optional: true, required: false
-  private _secretToken?: string;
+  private _secretToken?: string; 
   public get secretToken() {
     return this.getStringAttribute('secret_token');
   }
@@ -295,7 +295,7 @@ export class CodepipelineWebhookFiltersOutputReference extends cdktn.ComplexObje
   }
 
   // json_path - computed: false, optional: false, required: true
-  private _jsonPath?: string;
+  private _jsonPath?: string; 
   public get jsonPath() {
     return this.getStringAttribute('json_path');
   }
@@ -308,7 +308,7 @@ export class CodepipelineWebhookFiltersOutputReference extends cdktn.ComplexObje
   }
 
   // match_equals - computed: true, optional: true, required: false
-  private _matchEquals?: string;
+  private _matchEquals?: string; 
   public get matchEquals() {
     return this.getStringAttribute('match_equals');
   }
@@ -445,7 +445,7 @@ export class CodepipelineWebhookTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -461,7 +461,7 @@ export class CodepipelineWebhookTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -563,7 +563,7 @@ export class CodepipelineWebhook extends cdktn.TerraformResource {
   // ==========
 
   // authentication - computed: false, optional: false, required: true
-  private _authentication?: string;
+  private _authentication?: string; 
   public get authentication() {
     return this.getStringAttribute('authentication');
   }
@@ -607,7 +607,7 @@ export class CodepipelineWebhook extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -623,7 +623,7 @@ export class CodepipelineWebhook extends cdktn.TerraformResource {
   }
 
   // register_with_third_party - computed: true, optional: true, required: false
-  private _registerWithThirdParty?: boolean | cdktn.IResolvable;
+  private _registerWithThirdParty?: boolean | cdktn.IResolvable; 
   public get registerWithThirdParty() {
     return this.getBooleanAttribute('register_with_third_party');
   }
@@ -655,7 +655,7 @@ export class CodepipelineWebhook extends cdktn.TerraformResource {
   }
 
   // target_action - computed: false, optional: false, required: true
-  private _targetAction?: string;
+  private _targetAction?: string; 
   public get targetAction() {
     return this.getStringAttribute('target_action');
   }
@@ -668,7 +668,7 @@ export class CodepipelineWebhook extends cdktn.TerraformResource {
   }
 
   // target_pipeline - computed: false, optional: false, required: true
-  private _targetPipeline?: string;
+  private _targetPipeline?: string; 
   public get targetPipeline() {
     return this.getStringAttribute('target_pipeline');
   }
@@ -681,7 +681,7 @@ export class CodepipelineWebhook extends cdktn.TerraformResource {
   }
 
   // target_pipeline_version - computed: true, optional: true, required: false
-  private _targetPipelineVersion?: number;
+  private _targetPipelineVersion?: number; 
   public get targetPipelineVersion() {
     return this.getNumberAttribute('target_pipeline_version');
   }

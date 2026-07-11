@@ -126,7 +126,7 @@ export class CodecommitRepository extends cdktn.TerraformResource {
   }
 
   // default_branch - computed: false, optional: true, required: false
-  private _defaultBranch?: string;
+  private _defaultBranch?: string; 
   public get defaultBranch() {
     return this.getStringAttribute('default_branch');
   }
@@ -142,7 +142,7 @@ export class CodecommitRepository extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -158,7 +158,7 @@ export class CodecommitRepository extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -174,7 +174,7 @@ export class CodecommitRepository extends cdktn.TerraformResource {
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -190,7 +190,7 @@ export class CodecommitRepository extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -211,7 +211,7 @@ export class CodecommitRepository extends cdktn.TerraformResource {
   }
 
   // repository_name - computed: false, optional: false, required: true
-  private _repositoryName?: string;
+  private _repositoryName?: string; 
   public get repositoryName() {
     return this.getStringAttribute('repository_name');
   }
@@ -224,7 +224,7 @@ export class CodecommitRepository extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -240,7 +240,7 @@ export class CodecommitRepository extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

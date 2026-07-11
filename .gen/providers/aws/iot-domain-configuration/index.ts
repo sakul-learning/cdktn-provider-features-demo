@@ -159,7 +159,7 @@ export class IotDomainConfigurationAuthorizerConfigOutputReference extends cdktn
   }
 
   // allow_authorizer_override - computed: false, optional: true, required: false
-  private _allowAuthorizerOverride?: boolean | cdktn.IResolvable;
+  private _allowAuthorizerOverride?: boolean | cdktn.IResolvable; 
   public get allowAuthorizerOverride() {
     return this.getBooleanAttribute('allow_authorizer_override');
   }
@@ -175,7 +175,7 @@ export class IotDomainConfigurationAuthorizerConfigOutputReference extends cdktn
   }
 
   // default_authorizer_name - computed: false, optional: true, required: false
-  private _defaultAuthorizerName?: string;
+  private _defaultAuthorizerName?: string; 
   public get defaultAuthorizerName() {
     return this.getStringAttribute('default_authorizer_name');
   }
@@ -259,7 +259,7 @@ export class IotDomainConfigurationTlsConfigOutputReference extends cdktn.Comple
   }
 
   // security_policy - computed: true, optional: true, required: false
-  private _securityPolicy?: string;
+  private _securityPolicy?: string; 
   public get securityPolicy() {
     return this.getStringAttribute('security_policy');
   }
@@ -346,7 +346,7 @@ export class IotDomainConfiguration extends cdktn.TerraformResource {
   // ==========
 
   // application_protocol - computed: true, optional: true, required: false
-  private _applicationProtocol?: string;
+  private _applicationProtocol?: string; 
   public get applicationProtocol() {
     return this.getStringAttribute('application_protocol');
   }
@@ -367,7 +367,7 @@ export class IotDomainConfiguration extends cdktn.TerraformResource {
   }
 
   // authentication_type - computed: true, optional: true, required: false
-  private _authenticationType?: string;
+  private _authenticationType?: string; 
   public get authenticationType() {
     return this.getStringAttribute('authentication_type');
   }
@@ -383,7 +383,7 @@ export class IotDomainConfiguration extends cdktn.TerraformResource {
   }
 
   // domain_name - computed: true, optional: true, required: false
-  private _domainName?: string;
+  private _domainName?: string; 
   public get domainName() {
     return this.getStringAttribute('domain_name');
   }
@@ -404,7 +404,7 @@ export class IotDomainConfiguration extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -420,7 +420,7 @@ export class IotDomainConfiguration extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -433,7 +433,7 @@ export class IotDomainConfiguration extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -449,7 +449,7 @@ export class IotDomainConfiguration extends cdktn.TerraformResource {
   }
 
   // server_certificate_arns - computed: false, optional: true, required: false
-  private _serverCertificateArns?: string[];
+  private _serverCertificateArns?: string[]; 
   public get serverCertificateArns() {
     return cdktn.Fn.tolist(this.getListAttribute('server_certificate_arns'));
   }
@@ -465,7 +465,7 @@ export class IotDomainConfiguration extends cdktn.TerraformResource {
   }
 
   // service_type - computed: false, optional: true, required: false
-  private _serviceType?: string;
+  private _serviceType?: string; 
   public get serviceType() {
     return this.getStringAttribute('service_type');
   }
@@ -481,7 +481,7 @@ export class IotDomainConfiguration extends cdktn.TerraformResource {
   }
 
   // status - computed: false, optional: true, required: false
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -497,7 +497,7 @@ export class IotDomainConfiguration extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -513,7 +513,7 @@ export class IotDomainConfiguration extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -529,7 +529,7 @@ export class IotDomainConfiguration extends cdktn.TerraformResource {
   }
 
   // validation_certificate_arn - computed: false, optional: true, required: false
-  private _validationCertificateArn?: string;
+  private _validationCertificateArn?: string; 
   public get validationCertificateArn() {
     return this.getStringAttribute('validation_certificate_arn');
   }

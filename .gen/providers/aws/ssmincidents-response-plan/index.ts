@@ -161,7 +161,7 @@ export class SsmincidentsResponsePlanActionSsmAutomationParameterOutputReference
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -174,7 +174,7 @@ export class SsmincidentsResponsePlanActionSsmAutomationParameterOutputReference
   }
 
   // values - computed: false, optional: false, required: true
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -374,7 +374,7 @@ export class SsmincidentsResponsePlanActionSsmAutomationOutputReference extends 
   }
 
   // document_name - computed: false, optional: false, required: true
-  private _documentName?: string;
+  private _documentName?: string; 
   public get documentName() {
     return this.getStringAttribute('document_name');
   }
@@ -387,7 +387,7 @@ export class SsmincidentsResponsePlanActionSsmAutomationOutputReference extends 
   }
 
   // document_version - computed: false, optional: true, required: false
-  private _documentVersion?: string;
+  private _documentVersion?: string; 
   public get documentVersion() {
     return this.getStringAttribute('document_version');
   }
@@ -403,7 +403,7 @@ export class SsmincidentsResponsePlanActionSsmAutomationOutputReference extends 
   }
 
   // dynamic_parameters - computed: false, optional: true, required: false
-  private _dynamicParameters?: { [key: string]: string };
+  private _dynamicParameters?: { [key: string]: string }; 
   public get dynamicParameters() {
     return this.getStringMapAttribute('dynamic_parameters');
   }
@@ -419,7 +419,7 @@ export class SsmincidentsResponsePlanActionSsmAutomationOutputReference extends 
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -432,7 +432,7 @@ export class SsmincidentsResponsePlanActionSsmAutomationOutputReference extends 
   }
 
   // target_account - computed: false, optional: true, required: false
-  private _targetAccount?: string;
+  private _targetAccount?: string; 
   public get targetAccount() {
     return this.getStringAttribute('target_account');
   }
@@ -650,7 +650,7 @@ export class SsmincidentsResponsePlanIncidentTemplateNotificationTargetOutputRef
   }
 
   // sns_topic_arn - computed: false, optional: false, required: true
-  private _snsTopicArn?: string;
+  private _snsTopicArn?: string; 
   public get snsTopicArn() {
     return this.getStringAttribute('sns_topic_arn');
   }
@@ -838,7 +838,7 @@ export class SsmincidentsResponsePlanIncidentTemplateOutputReference extends cdk
   }
 
   // dedupe_string - computed: false, optional: true, required: false
-  private _dedupeString?: string;
+  private _dedupeString?: string; 
   public get dedupeString() {
     return this.getStringAttribute('dedupe_string');
   }
@@ -854,7 +854,7 @@ export class SsmincidentsResponsePlanIncidentTemplateOutputReference extends cdk
   }
 
   // impact - computed: false, optional: false, required: true
-  private _impact?: number;
+  private _impact?: number; 
   public get impact() {
     return this.getNumberAttribute('impact');
   }
@@ -867,7 +867,7 @@ export class SsmincidentsResponsePlanIncidentTemplateOutputReference extends cdk
   }
 
   // incident_tags - computed: false, optional: true, required: false
-  private _incidentTags?: { [key: string]: string };
+  private _incidentTags?: { [key: string]: string }; 
   public get incidentTags() {
     return this.getStringMapAttribute('incident_tags');
   }
@@ -883,7 +883,7 @@ export class SsmincidentsResponsePlanIncidentTemplateOutputReference extends cdk
   }
 
   // summary - computed: false, optional: true, required: false
-  private _summary?: string;
+  private _summary?: string; 
   public get summary() {
     return this.getStringAttribute('summary');
   }
@@ -899,7 +899,7 @@ export class SsmincidentsResponsePlanIncidentTemplateOutputReference extends cdk
   }
 
   // title - computed: false, optional: false, required: true
-  private _title?: string;
+  private _title?: string; 
   public get title() {
     return this.getStringAttribute('title');
   }
@@ -1042,7 +1042,7 @@ export class SsmincidentsResponsePlanIntegrationPagerdutyOutputReference extends
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1055,7 +1055,7 @@ export class SsmincidentsResponsePlanIntegrationPagerdutyOutputReference extends
   }
 
   // secret_id - computed: false, optional: false, required: true
-  private _secretId?: string;
+  private _secretId?: string; 
   public get secretId() {
     return this.getStringAttribute('secret_id');
   }
@@ -1068,7 +1068,7 @@ export class SsmincidentsResponsePlanIntegrationPagerdutyOutputReference extends
   }
 
   // service_id - computed: false, optional: false, required: true
-  private _serviceId?: string;
+  private _serviceId?: string; 
   public get serviceId() {
     return this.getStringAttribute('service_id');
   }
@@ -1260,7 +1260,7 @@ export class SsmincidentsResponsePlan extends cdktn.TerraformResource {
   }
 
   // chat_channel - computed: false, optional: true, required: false
-  private _chatChannel?: string[];
+  private _chatChannel?: string[]; 
   public get chatChannel() {
     return cdktn.Fn.tolist(this.getListAttribute('chat_channel'));
   }
@@ -1276,7 +1276,7 @@ export class SsmincidentsResponsePlan extends cdktn.TerraformResource {
   }
 
   // display_name - computed: false, optional: true, required: false
-  private _displayName?: string;
+  private _displayName?: string; 
   public get displayName() {
     return this.getStringAttribute('display_name');
   }
@@ -1292,7 +1292,7 @@ export class SsmincidentsResponsePlan extends cdktn.TerraformResource {
   }
 
   // engagements - computed: false, optional: true, required: false
-  private _engagements?: string[];
+  private _engagements?: string[]; 
   public get engagements() {
     return cdktn.Fn.tolist(this.getListAttribute('engagements'));
   }
@@ -1308,7 +1308,7 @@ export class SsmincidentsResponsePlan extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -1324,7 +1324,7 @@ export class SsmincidentsResponsePlan extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1337,7 +1337,7 @@ export class SsmincidentsResponsePlan extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1353,7 +1353,7 @@ export class SsmincidentsResponsePlan extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -1369,7 +1369,7 @@ export class SsmincidentsResponsePlan extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

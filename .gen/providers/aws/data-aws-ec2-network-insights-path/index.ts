@@ -637,7 +637,7 @@ export class DataAwsEc2NetworkInsightsPathFilterOutputReference extends cdktn.Co
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -650,7 +650,7 @@ export class DataAwsEc2NetworkInsightsPathFilterOutputReference extends cdktn.Co
   }
 
   // values - computed: false, optional: false, required: true
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -782,7 +782,7 @@ export class DataAwsEc2NetworkInsightsPath extends cdktn.TerraformDataSource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -798,7 +798,7 @@ export class DataAwsEc2NetworkInsightsPath extends cdktn.TerraformDataSource {
   }
 
   // network_insights_path_id - computed: true, optional: true, required: false
-  private _networkInsightsPathId?: string;
+  private _networkInsightsPathId?: string; 
   public get networkInsightsPathId() {
     return this.getStringAttribute('network_insights_path_id');
   }
@@ -819,7 +819,7 @@ export class DataAwsEc2NetworkInsightsPath extends cdktn.TerraformDataSource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -850,7 +850,7 @@ export class DataAwsEc2NetworkInsightsPath extends cdktn.TerraformDataSource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

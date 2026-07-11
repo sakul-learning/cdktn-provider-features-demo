@@ -138,7 +138,7 @@ export class S3DirectoryBucketLocationOutputReference extends cdktn.ComplexObjec
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -151,7 +151,7 @@ export class S3DirectoryBucketLocationOutputReference extends cdktn.ComplexObjec
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -256,7 +256,7 @@ export class S3DirectoryBucket extends cdktn.TerraformResource {
   }
 
   // bucket - computed: false, optional: false, required: true
-  private _bucket?: string;
+  private _bucket?: string; 
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -269,7 +269,7 @@ export class S3DirectoryBucket extends cdktn.TerraformResource {
   }
 
   // data_redundancy - computed: true, optional: true, required: false
-  private _dataRedundancy?: string;
+  private _dataRedundancy?: string; 
   public get dataRedundancy() {
     return this.getStringAttribute('data_redundancy');
   }
@@ -285,7 +285,7 @@ export class S3DirectoryBucket extends cdktn.TerraformResource {
   }
 
   // force_destroy - computed: true, optional: true, required: false
-  private _forceDestroy?: boolean | cdktn.IResolvable;
+  private _forceDestroy?: boolean | cdktn.IResolvable; 
   public get forceDestroy() {
     return this.getBooleanAttribute('force_destroy');
   }
@@ -306,7 +306,7 @@ export class S3DirectoryBucket extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -322,7 +322,7 @@ export class S3DirectoryBucket extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -344,7 +344,7 @@ export class S3DirectoryBucket extends cdktn.TerraformResource {
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }

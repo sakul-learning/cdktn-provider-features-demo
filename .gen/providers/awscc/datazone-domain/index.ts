@@ -175,7 +175,7 @@ export class DatazoneDomainSingleSignOnOutputReference extends cdktn.ComplexObje
   }
 
   // idc_instance_arn - computed: true, optional: true, required: false
-  private _idcInstanceArn?: string;
+  private _idcInstanceArn?: string; 
   public get idcInstanceArn() {
     return this.getStringAttribute('idc_instance_arn');
   }
@@ -191,7 +191,7 @@ export class DatazoneDomainSingleSignOnOutputReference extends cdktn.ComplexObje
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -207,7 +207,7 @@ export class DatazoneDomainSingleSignOnOutputReference extends cdktn.ComplexObje
   }
 
   // user_assignment - computed: true, optional: true, required: false
-  private _userAssignment?: string;
+  private _userAssignment?: string; 
   public get userAssignment() {
     return this.getStringAttribute('user_assignment');
   }
@@ -324,7 +324,7 @@ export class DatazoneDomainTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -340,7 +340,7 @@ export class DatazoneDomainTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -451,7 +451,7 @@ export class DatazoneDomain extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -467,7 +467,7 @@ export class DatazoneDomain extends cdktn.TerraformResource {
   }
 
   // domain_execution_role - computed: true, optional: true, required: false
-  private _domainExecutionRole?: string;
+  private _domainExecutionRole?: string; 
   public get domainExecutionRole() {
     return this.getStringAttribute('domain_execution_role');
   }
@@ -488,7 +488,7 @@ export class DatazoneDomain extends cdktn.TerraformResource {
   }
 
   // domain_version - computed: true, optional: true, required: false
-  private _domainVersion?: string;
+  private _domainVersion?: string; 
   public get domainVersion() {
     return this.getStringAttribute('domain_version');
   }
@@ -509,7 +509,7 @@ export class DatazoneDomain extends cdktn.TerraformResource {
   }
 
   // kms_key_identifier - computed: true, optional: true, required: false
-  private _kmsKeyIdentifier?: string;
+  private _kmsKeyIdentifier?: string; 
   public get kmsKeyIdentifier() {
     return this.getStringAttribute('kms_key_identifier');
   }
@@ -535,7 +535,7 @@ export class DatazoneDomain extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -558,7 +558,7 @@ export class DatazoneDomain extends cdktn.TerraformResource {
   }
 
   // service_role - computed: true, optional: true, required: false
-  private _serviceRole?: string;
+  private _serviceRole?: string; 
   public get serviceRole() {
     return this.getStringAttribute('service_role');
   }

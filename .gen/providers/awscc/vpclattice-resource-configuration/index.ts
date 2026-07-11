@@ -156,7 +156,7 @@ export class VpclatticeResourceConfigurationResourceConfigurationDefinitionDnsRe
   }
 
   // domain_name - computed: true, optional: true, required: false
-  private _domainName?: string;
+  private _domainName?: string; 
   public get domainName() {
     return this.getStringAttribute('domain_name');
   }
@@ -172,7 +172,7 @@ export class VpclatticeResourceConfigurationResourceConfigurationDefinitionDnsRe
   }
 
   // ip_address_type - computed: true, optional: true, required: false
-  private _ipAddressType?: string;
+  private _ipAddressType?: string; 
   public get ipAddressType() {
     return this.getStringAttribute('ip_address_type');
   }
@@ -300,7 +300,7 @@ export class VpclatticeResourceConfigurationResourceConfigurationDefinitionOutpu
   }
 
   // arn_resource - computed: true, optional: true, required: false
-  private _arnResource?: string;
+  private _arnResource?: string; 
   public get arnResource() {
     return this.getStringAttribute('arn_resource');
   }
@@ -332,7 +332,7 @@ export class VpclatticeResourceConfigurationResourceConfigurationDefinitionOutpu
   }
 
   // ip_resource - computed: true, optional: true, required: false
-  private _ipResource?: string;
+  private _ipResource?: string; 
   public get ipResource() {
     return this.getStringAttribute('ip_resource');
   }
@@ -445,7 +445,7 @@ export class VpclatticeResourceConfigurationTagsOutputReference extends cdktn.Co
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -461,7 +461,7 @@ export class VpclatticeResourceConfigurationTagsOutputReference extends cdktn.Co
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -567,7 +567,7 @@ export class VpclatticeResourceConfiguration extends cdktn.TerraformResource {
   // ==========
 
   // allow_association_to_sharable_service_network - computed: true, optional: true, required: false
-  private _allowAssociationToSharableServiceNetwork?: boolean | cdktn.IResolvable;
+  private _allowAssociationToSharableServiceNetwork?: boolean | cdktn.IResolvable; 
   public get allowAssociationToSharableServiceNetwork() {
     return this.getBooleanAttribute('allow_association_to_sharable_service_network');
   }
@@ -588,7 +588,7 @@ export class VpclatticeResourceConfiguration extends cdktn.TerraformResource {
   }
 
   // custom_domain_name - computed: true, optional: true, required: false
-  private _customDomainName?: string;
+  private _customDomainName?: string; 
   public get customDomainName() {
     return this.getStringAttribute('custom_domain_name');
   }
@@ -604,7 +604,7 @@ export class VpclatticeResourceConfiguration extends cdktn.TerraformResource {
   }
 
   // domain_verification_id - computed: true, optional: true, required: false
-  private _domainVerificationId?: string;
+  private _domainVerificationId?: string; 
   public get domainVerificationId() {
     return this.getStringAttribute('domain_verification_id');
   }
@@ -620,7 +620,7 @@ export class VpclatticeResourceConfiguration extends cdktn.TerraformResource {
   }
 
   // group_domain - computed: true, optional: true, required: false
-  private _groupDomain?: string;
+  private _groupDomain?: string; 
   public get groupDomain() {
     return this.getStringAttribute('group_domain');
   }
@@ -641,7 +641,7 @@ export class VpclatticeResourceConfiguration extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -654,7 +654,7 @@ export class VpclatticeResourceConfiguration extends cdktn.TerraformResource {
   }
 
   // port_ranges - computed: true, optional: true, required: false
-  private _portRanges?: string[];
+  private _portRanges?: string[]; 
   public get portRanges() {
     return this.getListAttribute('port_ranges');
   }
@@ -670,7 +670,7 @@ export class VpclatticeResourceConfiguration extends cdktn.TerraformResource {
   }
 
   // protocol_type - computed: true, optional: true, required: false
-  private _protocolType?: string;
+  private _protocolType?: string; 
   public get protocolType() {
     return this.getStringAttribute('protocol_type');
   }
@@ -686,7 +686,7 @@ export class VpclatticeResourceConfiguration extends cdktn.TerraformResource {
   }
 
   // resource_configuration_auth_type - computed: true, optional: true, required: false
-  private _resourceConfigurationAuthType?: string;
+  private _resourceConfigurationAuthType?: string; 
   public get resourceConfigurationAuthType() {
     return this.getStringAttribute('resource_configuration_auth_type');
   }
@@ -718,7 +718,7 @@ export class VpclatticeResourceConfiguration extends cdktn.TerraformResource {
   }
 
   // resource_configuration_group_id - computed: true, optional: true, required: false
-  private _resourceConfigurationGroupId?: string;
+  private _resourceConfigurationGroupId?: string; 
   public get resourceConfigurationGroupId() {
     return this.getStringAttribute('resource_configuration_group_id');
   }
@@ -739,7 +739,7 @@ export class VpclatticeResourceConfiguration extends cdktn.TerraformResource {
   }
 
   // resource_configuration_type - computed: false, optional: false, required: true
-  private _resourceConfigurationType?: string;
+  private _resourceConfigurationType?: string; 
   public get resourceConfigurationType() {
     return this.getStringAttribute('resource_configuration_type');
   }
@@ -752,7 +752,7 @@ export class VpclatticeResourceConfiguration extends cdktn.TerraformResource {
   }
 
   // resource_gateway_id - computed: true, optional: true, required: false
-  private _resourceGatewayId?: string;
+  private _resourceGatewayId?: string; 
   public get resourceGatewayId() {
     return this.getStringAttribute('resource_gateway_id');
   }

@@ -159,7 +159,7 @@ export class LogsQueryDefinitionParametersOutputReference extends cdktn.ComplexO
   }
 
   // default_value - computed: true, optional: true, required: false
-  private _defaultValue?: string;
+  private _defaultValue?: string; 
   public get defaultValue() {
     return this.getStringAttribute('default_value');
   }
@@ -175,7 +175,7 @@ export class LogsQueryDefinitionParametersOutputReference extends cdktn.ComplexO
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -191,7 +191,7 @@ export class LogsQueryDefinitionParametersOutputReference extends cdktn.ComplexO
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -294,7 +294,7 @@ export class LogsQueryDefinition extends cdktn.TerraformResource {
   }
 
   // log_group_names - computed: true, optional: true, required: false
-  private _logGroupNames?: string[];
+  private _logGroupNames?: string[]; 
   public get logGroupNames() {
     return this.getListAttribute('log_group_names');
   }
@@ -310,7 +310,7 @@ export class LogsQueryDefinition extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -344,7 +344,7 @@ export class LogsQueryDefinition extends cdktn.TerraformResource {
   }
 
   // query_language - computed: true, optional: true, required: false
-  private _queryLanguage?: string;
+  private _queryLanguage?: string; 
   public get queryLanguage() {
     return this.getStringAttribute('query_language');
   }
@@ -360,7 +360,7 @@ export class LogsQueryDefinition extends cdktn.TerraformResource {
   }
 
   // query_string - computed: false, optional: false, required: true
-  private _queryString?: string;
+  private _queryString?: string; 
   public get queryString() {
     return this.getStringAttribute('query_string');
   }

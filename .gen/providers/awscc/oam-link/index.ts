@@ -109,7 +109,7 @@ export class OamLinkLinkConfigurationLogGroupConfigurationOutputReference extend
   }
 
   // filter - computed: true, optional: true, required: false
-  private _filter?: string;
+  private _filter?: string; 
   public get filter() {
     return this.getStringAttribute('filter');
   }
@@ -203,7 +203,7 @@ export class OamLinkLinkConfigurationMetricConfigurationOutputReference extends 
   }
 
   // filter - computed: true, optional: true, required: false
-  private _filter?: string;
+  private _filter?: string; 
   public get filter() {
     return this.getStringAttribute('filter');
   }
@@ -423,7 +423,7 @@ export class OamLink extends cdktn.TerraformResource {
   }
 
   // label_template - computed: true, optional: true, required: false
-  private _labelTemplate?: string;
+  private _labelTemplate?: string; 
   public get labelTemplate() {
     return this.getStringAttribute('label_template');
   }
@@ -455,7 +455,7 @@ export class OamLink extends cdktn.TerraformResource {
   }
 
   // resource_types - computed: false, optional: false, required: true
-  private _resourceTypes?: string[];
+  private _resourceTypes?: string[]; 
   public get resourceTypes() {
     return cdktn.Fn.tolist(this.getListAttribute('resource_types'));
   }
@@ -468,7 +468,7 @@ export class OamLink extends cdktn.TerraformResource {
   }
 
   // sink_identifier - computed: false, optional: false, required: true
-  private _sinkIdentifier?: string;
+  private _sinkIdentifier?: string; 
   public get sinkIdentifier() {
     return this.getStringAttribute('sink_identifier');
   }
@@ -481,7 +481,7 @@ export class OamLink extends cdktn.TerraformResource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

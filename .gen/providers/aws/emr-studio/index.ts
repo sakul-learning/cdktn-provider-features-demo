@@ -161,7 +161,7 @@ export class EmrStudio extends cdktn.TerraformResource {
   }
 
   // auth_mode - computed: false, optional: false, required: true
-  private _authMode?: string;
+  private _authMode?: string; 
   public get authMode() {
     return this.getStringAttribute('auth_mode');
   }
@@ -174,7 +174,7 @@ export class EmrStudio extends cdktn.TerraformResource {
   }
 
   // default_s3_location - computed: false, optional: false, required: true
-  private _defaultS3Location?: string;
+  private _defaultS3Location?: string; 
   public get defaultS3Location() {
     return this.getStringAttribute('default_s3_location');
   }
@@ -187,7 +187,7 @@ export class EmrStudio extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -203,7 +203,7 @@ export class EmrStudio extends cdktn.TerraformResource {
   }
 
   // encryption_key_arn - computed: false, optional: true, required: false
-  private _encryptionKeyArn?: string;
+  private _encryptionKeyArn?: string; 
   public get encryptionKeyArn() {
     return this.getStringAttribute('encryption_key_arn');
   }
@@ -219,7 +219,7 @@ export class EmrStudio extends cdktn.TerraformResource {
   }
 
   // engine_security_group_id - computed: false, optional: false, required: true
-  private _engineSecurityGroupId?: string;
+  private _engineSecurityGroupId?: string; 
   public get engineSecurityGroupId() {
     return this.getStringAttribute('engine_security_group_id');
   }
@@ -232,7 +232,7 @@ export class EmrStudio extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -248,7 +248,7 @@ export class EmrStudio extends cdktn.TerraformResource {
   }
 
   // idp_auth_url - computed: false, optional: true, required: false
-  private _idpAuthUrl?: string;
+  private _idpAuthUrl?: string; 
   public get idpAuthUrl() {
     return this.getStringAttribute('idp_auth_url');
   }
@@ -264,7 +264,7 @@ export class EmrStudio extends cdktn.TerraformResource {
   }
 
   // idp_relay_state_parameter_name - computed: false, optional: true, required: false
-  private _idpRelayStateParameterName?: string;
+  private _idpRelayStateParameterName?: string; 
   public get idpRelayStateParameterName() {
     return this.getStringAttribute('idp_relay_state_parameter_name');
   }
@@ -280,7 +280,7 @@ export class EmrStudio extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -293,7 +293,7 @@ export class EmrStudio extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -309,7 +309,7 @@ export class EmrStudio extends cdktn.TerraformResource {
   }
 
   // service_role - computed: false, optional: false, required: true
-  private _serviceRole?: string;
+  private _serviceRole?: string; 
   public get serviceRole() {
     return this.getStringAttribute('service_role');
   }
@@ -322,7 +322,7 @@ export class EmrStudio extends cdktn.TerraformResource {
   }
 
   // subnet_ids - computed: false, optional: false, required: true
-  private _subnetIds?: string[];
+  private _subnetIds?: string[]; 
   public get subnetIds() {
     return cdktn.Fn.tolist(this.getListAttribute('subnet_ids'));
   }
@@ -335,7 +335,7 @@ export class EmrStudio extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -351,7 +351,7 @@ export class EmrStudio extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -372,7 +372,7 @@ export class EmrStudio extends cdktn.TerraformResource {
   }
 
   // user_role - computed: false, optional: true, required: false
-  private _userRole?: string;
+  private _userRole?: string; 
   public get userRole() {
     return this.getStringAttribute('user_role');
   }
@@ -388,7 +388,7 @@ export class EmrStudio extends cdktn.TerraformResource {
   }
 
   // vpc_id - computed: false, optional: false, required: true
-  private _vpcId?: string;
+  private _vpcId?: string; 
   public get vpcId() {
     return this.getStringAttribute('vpc_id');
   }
@@ -401,7 +401,7 @@ export class EmrStudio extends cdktn.TerraformResource {
   }
 
   // workspace_security_group_id - computed: false, optional: false, required: true
-  private _workspaceSecurityGroupId?: string;
+  private _workspaceSecurityGroupId?: string; 
   public get workspaceSecurityGroupId() {
     return this.getStringAttribute('workspace_security_group_id');
   }

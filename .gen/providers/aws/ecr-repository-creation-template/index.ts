@@ -163,7 +163,7 @@ export class EcrRepositoryCreationTemplateEncryptionConfigurationOutputReference
   }
 
   // encryption_type - computed: false, optional: true, required: false
-  private _encryptionType?: string;
+  private _encryptionType?: string; 
   public get encryptionType() {
     return this.getStringAttribute('encryption_type');
   }
@@ -179,7 +179,7 @@ export class EcrRepositoryCreationTemplateEncryptionConfigurationOutputReference
   }
 
   // kms_key - computed: true, optional: true, required: false
-  private _kmsKey?: string;
+  private _kmsKey?: string; 
   public get kmsKey() {
     return this.getStringAttribute('kms_key');
   }
@@ -312,7 +312,7 @@ export class EcrRepositoryCreationTemplateImageTagMutabilityExclusionFilterOutpu
   }
 
   // filter - computed: false, optional: false, required: true
-  private _filter?: string;
+  private _filter?: string; 
   public get filter() {
     return this.getStringAttribute('filter');
   }
@@ -325,7 +325,7 @@ export class EcrRepositoryCreationTemplateImageTagMutabilityExclusionFilterOutpu
   }
 
   // filter_type - computed: false, optional: false, required: true
-  private _filterType?: string;
+  private _filterType?: string; 
   public get filterType() {
     return this.getStringAttribute('filter_type');
   }
@@ -427,7 +427,7 @@ export class EcrRepositoryCreationTemplate extends cdktn.TerraformResource {
   // ==========
 
   // applied_for - computed: false, optional: false, required: true
-  private _appliedFor?: string[];
+  private _appliedFor?: string[]; 
   public get appliedFor() {
     return cdktn.Fn.tolist(this.getListAttribute('applied_for'));
   }
@@ -440,7 +440,7 @@ export class EcrRepositoryCreationTemplate extends cdktn.TerraformResource {
   }
 
   // custom_role_arn - computed: false, optional: true, required: false
-  private _customRoleArn?: string;
+  private _customRoleArn?: string; 
   public get customRoleArn() {
     return this.getStringAttribute('custom_role_arn');
   }
@@ -456,7 +456,7 @@ export class EcrRepositoryCreationTemplate extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -472,7 +472,7 @@ export class EcrRepositoryCreationTemplate extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -488,7 +488,7 @@ export class EcrRepositoryCreationTemplate extends cdktn.TerraformResource {
   }
 
   // image_tag_mutability - computed: false, optional: true, required: false
-  private _imageTagMutability?: string;
+  private _imageTagMutability?: string; 
   public get imageTagMutability() {
     return this.getStringAttribute('image_tag_mutability');
   }
@@ -504,7 +504,7 @@ export class EcrRepositoryCreationTemplate extends cdktn.TerraformResource {
   }
 
   // lifecycle_policy - computed: false, optional: true, required: false
-  private _lifecyclePolicy?: string;
+  private _lifecyclePolicy?: string; 
   public get lifecyclePolicy() {
     return this.getStringAttribute('lifecycle_policy');
   }
@@ -520,7 +520,7 @@ export class EcrRepositoryCreationTemplate extends cdktn.TerraformResource {
   }
 
   // prefix - computed: false, optional: false, required: true
-  private _prefix?: string;
+  private _prefix?: string; 
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -533,7 +533,7 @@ export class EcrRepositoryCreationTemplate extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -554,7 +554,7 @@ export class EcrRepositoryCreationTemplate extends cdktn.TerraformResource {
   }
 
   // repository_policy - computed: false, optional: true, required: false
-  private _repositoryPolicy?: string;
+  private _repositoryPolicy?: string; 
   public get repositoryPolicy() {
     return this.getStringAttribute('repository_policy');
   }
@@ -570,7 +570,7 @@ export class EcrRepositoryCreationTemplate extends cdktn.TerraformResource {
   }
 
   // resource_tags - computed: false, optional: true, required: false
-  private _resourceTags?: { [key: string]: string };
+  private _resourceTags?: { [key: string]: string }; 
   public get resourceTags() {
     return this.getStringMapAttribute('resource_tags');
   }

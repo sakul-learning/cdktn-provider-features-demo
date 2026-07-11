@@ -108,7 +108,7 @@ export class SagemakerHumanTaskUiUiTemplateOutputReference extends cdktn.Complex
   }
 
   // content - computed: false, optional: true, required: false
-  private _content?: string;
+  private _content?: string; 
   public get content() {
     return this.getStringAttribute('content');
   }
@@ -202,7 +202,7 @@ export class SagemakerHumanTaskUi extends cdktn.TerraformResource {
   }
 
   // human_task_ui_name - computed: false, optional: false, required: true
-  private _humanTaskUiName?: string;
+  private _humanTaskUiName?: string; 
   public get humanTaskUiName() {
     return this.getStringAttribute('human_task_ui_name');
   }
@@ -215,7 +215,7 @@ export class SagemakerHumanTaskUi extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -231,7 +231,7 @@ export class SagemakerHumanTaskUi extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -247,7 +247,7 @@ export class SagemakerHumanTaskUi extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -263,7 +263,7 @@ export class SagemakerHumanTaskUi extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

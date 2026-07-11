@@ -148,7 +148,7 @@ export class EcsDaemonTaskDefinitionContainerDefinitionDependsOnOutputReference 
   }
 
   // condition - computed: false, optional: false, required: true
-  private _condition?: string;
+  private _condition?: string; 
   public get condition() {
     return this.getStringAttribute('condition');
   }
@@ -161,7 +161,7 @@ export class EcsDaemonTaskDefinitionContainerDefinitionDependsOnOutputReference 
   }
 
   // container_name - computed: false, optional: false, required: true
-  private _containerName?: string;
+  private _containerName?: string; 
   public get containerName() {
     return this.getStringAttribute('container_name');
   }
@@ -291,7 +291,7 @@ export class EcsDaemonTaskDefinitionContainerDefinitionEnvironmentOutputReferenc
   }
 
   // name - computed: false, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -307,7 +307,7 @@ export class EcsDaemonTaskDefinitionContainerDefinitionEnvironmentOutputReferenc
   }
 
   // value - computed: false, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -440,7 +440,7 @@ export class EcsDaemonTaskDefinitionContainerDefinitionEnvironmentFileOutputRefe
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -453,7 +453,7 @@ export class EcsDaemonTaskDefinitionContainerDefinitionEnvironmentFileOutputRefe
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -583,7 +583,7 @@ export class EcsDaemonTaskDefinitionContainerDefinitionFirelensConfigurationOutp
   }
 
   // options - computed: false, optional: true, required: false
-  private _options?: { [key: string]: string };
+  private _options?: { [key: string]: string }; 
   public get options() {
     return this.getStringMapAttribute('options');
   }
@@ -599,7 +599,7 @@ export class EcsDaemonTaskDefinitionContainerDefinitionFirelensConfigurationOutp
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -780,7 +780,7 @@ export class EcsDaemonTaskDefinitionContainerDefinitionHealthCheckOutputReferenc
   }
 
   // command - computed: false, optional: false, required: true
-  private _command?: string[];
+  private _command?: string[]; 
   public get command() {
     return this.getListAttribute('command');
   }
@@ -793,7 +793,7 @@ export class EcsDaemonTaskDefinitionContainerDefinitionHealthCheckOutputReferenc
   }
 
   // interval - computed: false, optional: true, required: false
-  private _interval?: number;
+  private _interval?: number; 
   public get interval() {
     return this.getNumberAttribute('interval');
   }
@@ -809,7 +809,7 @@ export class EcsDaemonTaskDefinitionContainerDefinitionHealthCheckOutputReferenc
   }
 
   // retries - computed: true, optional: true, required: false
-  private _retries?: number;
+  private _retries?: number; 
   public get retries() {
     return this.getNumberAttribute('retries');
   }
@@ -825,7 +825,7 @@ export class EcsDaemonTaskDefinitionContainerDefinitionHealthCheckOutputReferenc
   }
 
   // start_period - computed: false, optional: true, required: false
-  private _startPeriod?: number;
+  private _startPeriod?: number; 
   public get startPeriod() {
     return this.getNumberAttribute('start_period');
   }
@@ -841,7 +841,7 @@ export class EcsDaemonTaskDefinitionContainerDefinitionHealthCheckOutputReferenc
   }
 
   // timeout - computed: true, optional: true, required: false
-  private _timeout?: number;
+  private _timeout?: number; 
   public get timeout() {
     return this.getNumberAttribute('timeout');
   }
@@ -974,7 +974,7 @@ export class EcsDaemonTaskDefinitionContainerDefinitionLinuxParametersCapabiliti
   }
 
   // add - computed: false, optional: true, required: false
-  private _add?: string[];
+  private _add?: string[]; 
   public get add() {
     return this.getListAttribute('add');
   }
@@ -990,7 +990,7 @@ export class EcsDaemonTaskDefinitionContainerDefinitionLinuxParametersCapabiliti
   }
 
   // drop - computed: false, optional: true, required: false
-  private _drop?: string[];
+  private _drop?: string[]; 
   public get drop() {
     return this.getListAttribute('drop');
   }
@@ -1140,7 +1140,7 @@ export class EcsDaemonTaskDefinitionContainerDefinitionLinuxParametersDeviceOutp
   }
 
   // container_path - computed: false, optional: true, required: false
-  private _containerPath?: string;
+  private _containerPath?: string; 
   public get containerPath() {
     return this.getStringAttribute('container_path');
   }
@@ -1156,7 +1156,7 @@ export class EcsDaemonTaskDefinitionContainerDefinitionLinuxParametersDeviceOutp
   }
 
   // host_path - computed: false, optional: false, required: true
-  private _hostPath?: string;
+  private _hostPath?: string; 
   public get hostPath() {
     return this.getStringAttribute('host_path');
   }
@@ -1169,7 +1169,7 @@ export class EcsDaemonTaskDefinitionContainerDefinitionLinuxParametersDeviceOutp
   }
 
   // permissions - computed: false, optional: true, required: false
-  private _permissions?: string[];
+  private _permissions?: string[]; 
   public get permissions() {
     return this.getListAttribute('permissions');
   }
@@ -1319,7 +1319,7 @@ export class EcsDaemonTaskDefinitionContainerDefinitionLinuxParametersTmpfsOutpu
   }
 
   // container_path - computed: false, optional: false, required: true
-  private _containerPath?: string;
+  private _containerPath?: string; 
   public get containerPath() {
     return this.getStringAttribute('container_path');
   }
@@ -1332,7 +1332,7 @@ export class EcsDaemonTaskDefinitionContainerDefinitionLinuxParametersTmpfsOutpu
   }
 
   // mount_options - computed: false, optional: true, required: false
-  private _mountOptions?: string[];
+  private _mountOptions?: string[]; 
   public get mountOptions() {
     return this.getListAttribute('mount_options');
   }
@@ -1348,7 +1348,7 @@ export class EcsDaemonTaskDefinitionContainerDefinitionLinuxParametersTmpfsOutpu
   }
 
   // size - computed: false, optional: false, required: true
-  private _size?: number;
+  private _size?: number; 
   public get size() {
     return this.getNumberAttribute('size');
   }
@@ -1518,7 +1518,7 @@ export class EcsDaemonTaskDefinitionContainerDefinitionLinuxParametersOutputRefe
   }
 
   // init_process_enabled - computed: false, optional: true, required: false
-  private _initProcessEnabled?: boolean | cdktn.IResolvable;
+  private _initProcessEnabled?: boolean | cdktn.IResolvable; 
   public get initProcessEnabled() {
     return this.getBooleanAttribute('init_process_enabled');
   }
@@ -1699,7 +1699,7 @@ export class EcsDaemonTaskDefinitionContainerDefinitionLogConfigurationSecretOpt
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1712,7 +1712,7 @@ export class EcsDaemonTaskDefinitionContainerDefinitionLogConfigurationSecretOpt
   }
 
   // value_from - computed: false, optional: false, required: true
-  private _valueFrom?: string;
+  private _valueFrom?: string; 
   public get valueFrom() {
     return this.getStringAttribute('value_from');
   }
@@ -1861,7 +1861,7 @@ export class EcsDaemonTaskDefinitionContainerDefinitionLogConfigurationOutputRef
   }
 
   // log_driver - computed: false, optional: false, required: true
-  private _logDriver?: string;
+  private _logDriver?: string; 
   public get logDriver() {
     return this.getStringAttribute('log_driver');
   }
@@ -1874,7 +1874,7 @@ export class EcsDaemonTaskDefinitionContainerDefinitionLogConfigurationOutputRef
   }
 
   // options - computed: false, optional: true, required: false
-  private _options?: { [key: string]: string };
+  private _options?: { [key: string]: string }; 
   public get options() {
     return this.getStringMapAttribute('options');
   }
@@ -2040,7 +2040,7 @@ export class EcsDaemonTaskDefinitionContainerDefinitionMountPointOutputReference
   }
 
   // container_path - computed: false, optional: true, required: false
-  private _containerPath?: string;
+  private _containerPath?: string; 
   public get containerPath() {
     return this.getStringAttribute('container_path');
   }
@@ -2056,7 +2056,7 @@ export class EcsDaemonTaskDefinitionContainerDefinitionMountPointOutputReference
   }
 
   // read_only - computed: false, optional: true, required: false
-  private _readOnly?: boolean | cdktn.IResolvable;
+  private _readOnly?: boolean | cdktn.IResolvable; 
   public get readOnly() {
     return this.getBooleanAttribute('read_only');
   }
@@ -2072,7 +2072,7 @@ export class EcsDaemonTaskDefinitionContainerDefinitionMountPointOutputReference
   }
 
   // source_volume - computed: false, optional: true, required: false
-  private _sourceVolume?: string;
+  private _sourceVolume?: string; 
   public get sourceVolume() {
     return this.getStringAttribute('source_volume');
   }
@@ -2188,7 +2188,7 @@ export class EcsDaemonTaskDefinitionContainerDefinitionRepositoryCredentialsOutp
   }
 
   // credentials_parameter - computed: false, optional: false, required: true
-  private _credentialsParameter?: string;
+  private _credentialsParameter?: string; 
   public get credentialsParameter() {
     return this.getStringAttribute('credentials_parameter');
   }
@@ -2335,7 +2335,7 @@ export class EcsDaemonTaskDefinitionContainerDefinitionRestartPolicyOutputRefere
   }
 
   // enabled - computed: false, optional: false, required: true
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -2348,7 +2348,7 @@ export class EcsDaemonTaskDefinitionContainerDefinitionRestartPolicyOutputRefere
   }
 
   // ignored_exit_codes - computed: false, optional: true, required: false
-  private _ignoredExitCodes?: number[];
+  private _ignoredExitCodes?: number[]; 
   public get ignoredExitCodes() {
     return this.getNumberListAttribute('ignored_exit_codes');
   }
@@ -2364,7 +2364,7 @@ export class EcsDaemonTaskDefinitionContainerDefinitionRestartPolicyOutputRefere
   }
 
   // restart_attempt_period - computed: false, optional: true, required: false
-  private _restartAttemptPeriod?: number;
+  private _restartAttemptPeriod?: number; 
   public get restartAttemptPeriod() {
     return this.getNumberAttribute('restart_attempt_period');
   }
@@ -2497,7 +2497,7 @@ export class EcsDaemonTaskDefinitionContainerDefinitionSecretOutputReference ext
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2510,7 +2510,7 @@ export class EcsDaemonTaskDefinitionContainerDefinitionSecretOutputReference ext
   }
 
   // value_from - computed: false, optional: false, required: true
-  private _valueFrom?: string;
+  private _valueFrom?: string; 
   public get valueFrom() {
     return this.getStringAttribute('value_from');
   }
@@ -2640,7 +2640,7 @@ export class EcsDaemonTaskDefinitionContainerDefinitionSystemControlOutputRefere
   }
 
   // namespace - computed: false, optional: true, required: false
-  private _namespace?: string;
+  private _namespace?: string; 
   public get namespace() {
     return this.getStringAttribute('namespace');
   }
@@ -2656,7 +2656,7 @@ export class EcsDaemonTaskDefinitionContainerDefinitionSystemControlOutputRefere
   }
 
   // value - computed: false, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2806,7 +2806,7 @@ export class EcsDaemonTaskDefinitionContainerDefinitionUlimitOutputReference ext
   }
 
   // hard_limit - computed: false, optional: false, required: true
-  private _hardLimit?: number;
+  private _hardLimit?: number; 
   public get hardLimit() {
     return this.getNumberAttribute('hard_limit');
   }
@@ -2819,7 +2819,7 @@ export class EcsDaemonTaskDefinitionContainerDefinitionUlimitOutputReference ext
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2832,7 +2832,7 @@ export class EcsDaemonTaskDefinitionContainerDefinitionUlimitOutputReference ext
   }
 
   // soft_limit - computed: false, optional: false, required: true
-  private _softLimit?: number;
+  private _softLimit?: number; 
   public get softLimit() {
     return this.getNumberAttribute('soft_limit');
   }
@@ -3447,7 +3447,7 @@ export class EcsDaemonTaskDefinitionContainerDefinitionOutputReference extends c
   }
 
   // command - computed: false, optional: true, required: false
-  private _command?: string[];
+  private _command?: string[]; 
   public get command() {
     return this.getListAttribute('command');
   }
@@ -3463,7 +3463,7 @@ export class EcsDaemonTaskDefinitionContainerDefinitionOutputReference extends c
   }
 
   // cpu - computed: true, optional: true, required: false
-  private _cpu?: number;
+  private _cpu?: number; 
   public get cpu() {
     return this.getNumberAttribute('cpu');
   }
@@ -3479,7 +3479,7 @@ export class EcsDaemonTaskDefinitionContainerDefinitionOutputReference extends c
   }
 
   // entry_point - computed: false, optional: true, required: false
-  private _entryPoint?: string[];
+  private _entryPoint?: string[]; 
   public get entryPoint() {
     return this.getListAttribute('entry_point');
   }
@@ -3495,7 +3495,7 @@ export class EcsDaemonTaskDefinitionContainerDefinitionOutputReference extends c
   }
 
   // essential - computed: true, optional: true, required: false
-  private _essential?: boolean | cdktn.IResolvable;
+  private _essential?: boolean | cdktn.IResolvable; 
   public get essential() {
     return this.getBooleanAttribute('essential');
   }
@@ -3511,7 +3511,7 @@ export class EcsDaemonTaskDefinitionContainerDefinitionOutputReference extends c
   }
 
   // image - computed: false, optional: false, required: true
-  private _image?: string;
+  private _image?: string; 
   public get image() {
     return this.getStringAttribute('image');
   }
@@ -3524,7 +3524,7 @@ export class EcsDaemonTaskDefinitionContainerDefinitionOutputReference extends c
   }
 
   // interactive - computed: false, optional: true, required: false
-  private _interactive?: boolean | cdktn.IResolvable;
+  private _interactive?: boolean | cdktn.IResolvable; 
   public get interactive() {
     return this.getBooleanAttribute('interactive');
   }
@@ -3540,7 +3540,7 @@ export class EcsDaemonTaskDefinitionContainerDefinitionOutputReference extends c
   }
 
   // memory - computed: false, optional: true, required: false
-  private _memory?: number;
+  private _memory?: number; 
   public get memory() {
     return this.getNumberAttribute('memory');
   }
@@ -3556,7 +3556,7 @@ export class EcsDaemonTaskDefinitionContainerDefinitionOutputReference extends c
   }
 
   // memory_reservation - computed: false, optional: true, required: false
-  private _memoryReservation?: number;
+  private _memoryReservation?: number; 
   public get memoryReservation() {
     return this.getNumberAttribute('memory_reservation');
   }
@@ -3572,7 +3572,7 @@ export class EcsDaemonTaskDefinitionContainerDefinitionOutputReference extends c
   }
 
   // name - computed: false, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -3588,7 +3588,7 @@ export class EcsDaemonTaskDefinitionContainerDefinitionOutputReference extends c
   }
 
   // privileged - computed: false, optional: true, required: false
-  private _privileged?: boolean | cdktn.IResolvable;
+  private _privileged?: boolean | cdktn.IResolvable; 
   public get privileged() {
     return this.getBooleanAttribute('privileged');
   }
@@ -3604,7 +3604,7 @@ export class EcsDaemonTaskDefinitionContainerDefinitionOutputReference extends c
   }
 
   // pseudo_terminal - computed: false, optional: true, required: false
-  private _pseudoTerminal?: boolean | cdktn.IResolvable;
+  private _pseudoTerminal?: boolean | cdktn.IResolvable; 
   public get pseudoTerminal() {
     return this.getBooleanAttribute('pseudo_terminal');
   }
@@ -3620,7 +3620,7 @@ export class EcsDaemonTaskDefinitionContainerDefinitionOutputReference extends c
   }
 
   // readonly_root_filesystem - computed: false, optional: true, required: false
-  private _readonlyRootFilesystem?: boolean | cdktn.IResolvable;
+  private _readonlyRootFilesystem?: boolean | cdktn.IResolvable; 
   public get readonlyRootFilesystem() {
     return this.getBooleanAttribute('readonly_root_filesystem');
   }
@@ -3636,7 +3636,7 @@ export class EcsDaemonTaskDefinitionContainerDefinitionOutputReference extends c
   }
 
   // start_timeout - computed: false, optional: true, required: false
-  private _startTimeout?: number;
+  private _startTimeout?: number; 
   public get startTimeout() {
     return this.getNumberAttribute('start_timeout');
   }
@@ -3652,7 +3652,7 @@ export class EcsDaemonTaskDefinitionContainerDefinitionOutputReference extends c
   }
 
   // stop_timeout - computed: false, optional: true, required: false
-  private _stopTimeout?: number;
+  private _stopTimeout?: number; 
   public get stopTimeout() {
     return this.getNumberAttribute('stop_timeout');
   }
@@ -3668,7 +3668,7 @@ export class EcsDaemonTaskDefinitionContainerDefinitionOutputReference extends c
   }
 
   // user - computed: true, optional: true, required: false
-  private _user?: string;
+  private _user?: string; 
   public get user() {
     return this.getStringAttribute('user');
   }
@@ -3684,7 +3684,7 @@ export class EcsDaemonTaskDefinitionContainerDefinitionOutputReference extends c
   }
 
   // working_directory - computed: false, optional: true, required: false
-  private _workingDirectory?: string;
+  private _workingDirectory?: string; 
   public get workingDirectory() {
     return this.getStringAttribute('working_directory');
   }
@@ -4008,7 +4008,7 @@ export class EcsDaemonTaskDefinitionVolumeHostOutputReference extends cdktn.Comp
   }
 
   // source_path - computed: false, optional: true, required: false
-  private _sourcePath?: string;
+  private _sourcePath?: string; 
   public get sourcePath() {
     return this.getStringAttribute('source_path');
   }
@@ -4143,7 +4143,7 @@ export class EcsDaemonTaskDefinitionVolumeOutputReference extends cdktn.ComplexO
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -4263,7 +4263,7 @@ export class EcsDaemonTaskDefinition extends cdktn.TerraformResource {
   }
 
   // cpu - computed: false, optional: true, required: false
-  private _cpu?: string;
+  private _cpu?: string; 
   public get cpu() {
     return this.getStringAttribute('cpu');
   }
@@ -4279,7 +4279,7 @@ export class EcsDaemonTaskDefinition extends cdktn.TerraformResource {
   }
 
   // execution_role_arn - computed: false, optional: true, required: false
-  private _executionRoleArn?: string;
+  private _executionRoleArn?: string; 
   public get executionRoleArn() {
     return this.getStringAttribute('execution_role_arn');
   }
@@ -4295,7 +4295,7 @@ export class EcsDaemonTaskDefinition extends cdktn.TerraformResource {
   }
 
   // family - computed: false, optional: false, required: true
-  private _family?: string;
+  private _family?: string; 
   public get family() {
     return this.getStringAttribute('family');
   }
@@ -4308,7 +4308,7 @@ export class EcsDaemonTaskDefinition extends cdktn.TerraformResource {
   }
 
   // memory - computed: false, optional: true, required: false
-  private _memory?: string;
+  private _memory?: string; 
   public get memory() {
     return this.getStringAttribute('memory');
   }
@@ -4324,7 +4324,7 @@ export class EcsDaemonTaskDefinition extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -4350,7 +4350,7 @@ export class EcsDaemonTaskDefinition extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -4372,7 +4372,7 @@ export class EcsDaemonTaskDefinition extends cdktn.TerraformResource {
   }
 
   // task_role_arn - computed: false, optional: true, required: false
-  private _taskRoleArn?: string;
+  private _taskRoleArn?: string; 
   public get taskRoleArn() {
     return this.getStringAttribute('task_role_arn');
   }

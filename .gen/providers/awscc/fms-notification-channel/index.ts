@@ -85,7 +85,7 @@ export class FmsNotificationChannel extends cdktn.TerraformResource {
   }
 
   // sns_role_name - computed: false, optional: false, required: true
-  private _snsRoleName?: string;
+  private _snsRoleName?: string; 
   public get snsRoleName() {
     return this.getStringAttribute('sns_role_name');
   }
@@ -98,7 +98,7 @@ export class FmsNotificationChannel extends cdktn.TerraformResource {
   }
 
   // sns_topic_arn - computed: false, optional: false, required: true
-  private _snsTopicArn?: string;
+  private _snsTopicArn?: string; 
   public get snsTopicArn() {
     return this.getStringAttribute('sns_topic_arn');
   }

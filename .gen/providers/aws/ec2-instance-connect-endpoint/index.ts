@@ -140,7 +140,7 @@ export class Ec2InstanceConnectEndpointTimeoutsOutputReference extends cdktn.Com
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -156,7 +156,7 @@ export class Ec2InstanceConnectEndpointTimeoutsOutputReference extends cdktn.Com
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -261,7 +261,7 @@ export class Ec2InstanceConnectEndpoint extends cdktn.TerraformResource {
   }
 
   // ip_address_type - computed: true, optional: true, required: false
-  private _ipAddressType?: string;
+  private _ipAddressType?: string; 
   public get ipAddressType() {
     return this.getStringAttribute('ip_address_type');
   }
@@ -287,7 +287,7 @@ export class Ec2InstanceConnectEndpoint extends cdktn.TerraformResource {
   }
 
   // preserve_client_ip - computed: true, optional: true, required: false
-  private _preserveClientIp?: boolean | cdktn.IResolvable;
+  private _preserveClientIp?: boolean | cdktn.IResolvable; 
   public get preserveClientIp() {
     return this.getBooleanAttribute('preserve_client_ip');
   }
@@ -303,7 +303,7 @@ export class Ec2InstanceConnectEndpoint extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -319,7 +319,7 @@ export class Ec2InstanceConnectEndpoint extends cdktn.TerraformResource {
   }
 
   // security_group_ids - computed: true, optional: true, required: false
-  private _securityGroupIds?: string[];
+  private _securityGroupIds?: string[]; 
   public get securityGroupIds() {
     return cdktn.Fn.tolist(this.getListAttribute('security_group_ids'));
   }
@@ -335,7 +335,7 @@ export class Ec2InstanceConnectEndpoint extends cdktn.TerraformResource {
   }
 
   // subnet_id - computed: false, optional: false, required: true
-  private _subnetId?: string;
+  private _subnetId?: string; 
   public get subnetId() {
     return this.getStringAttribute('subnet_id');
   }
@@ -348,7 +348,7 @@ export class Ec2InstanceConnectEndpoint extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

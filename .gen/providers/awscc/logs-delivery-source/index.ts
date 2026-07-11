@@ -140,7 +140,7 @@ export class LogsDeliverySourceTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -156,7 +156,7 @@ export class LogsDeliverySourceTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -259,7 +259,7 @@ export class LogsDeliverySource extends cdktn.TerraformResource {
   }
 
   // delivery_source_configuration - computed: true, optional: true, required: false
-  private _deliverySourceConfiguration?: { [key: string]: string };
+  private _deliverySourceConfiguration?: { [key: string]: string }; 
   public get deliverySourceConfiguration() {
     return this.getStringMapAttribute('delivery_source_configuration');
   }
@@ -280,7 +280,7 @@ export class LogsDeliverySource extends cdktn.TerraformResource {
   }
 
   // log_type - computed: true, optional: true, required: false
-  private _logType?: string;
+  private _logType?: string; 
   public get logType() {
     return this.getStringAttribute('log_type');
   }
@@ -296,7 +296,7 @@ export class LogsDeliverySource extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -309,7 +309,7 @@ export class LogsDeliverySource extends cdktn.TerraformResource {
   }
 
   // resource_arn - computed: true, optional: true, required: false
-  private _resourceArn?: string;
+  private _resourceArn?: string; 
   public get resourceArn() {
     return this.getStringAttribute('resource_arn');
   }

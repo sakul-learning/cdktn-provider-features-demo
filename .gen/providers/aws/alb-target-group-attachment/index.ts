@@ -106,7 +106,7 @@ export class AlbTargetGroupAttachment extends cdktn.TerraformResource {
   // ==========
 
   // availability_zone - computed: false, optional: true, required: false
-  private _availabilityZone?: string;
+  private _availabilityZone?: string; 
   public get availabilityZone() {
     return this.getStringAttribute('availability_zone');
   }
@@ -122,7 +122,7 @@ export class AlbTargetGroupAttachment extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -138,7 +138,7 @@ export class AlbTargetGroupAttachment extends cdktn.TerraformResource {
   }
 
   // port - computed: false, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -154,7 +154,7 @@ export class AlbTargetGroupAttachment extends cdktn.TerraformResource {
   }
 
   // quic_server_id - computed: false, optional: true, required: false
-  private _quicServerId?: string;
+  private _quicServerId?: string; 
   public get quicServerId() {
     return this.getStringAttribute('quic_server_id');
   }
@@ -170,7 +170,7 @@ export class AlbTargetGroupAttachment extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -186,7 +186,7 @@ export class AlbTargetGroupAttachment extends cdktn.TerraformResource {
   }
 
   // target_group_arn - computed: false, optional: false, required: true
-  private _targetGroupArn?: string;
+  private _targetGroupArn?: string; 
   public get targetGroupArn() {
     return this.getStringAttribute('target_group_arn');
   }
@@ -199,7 +199,7 @@ export class AlbTargetGroupAttachment extends cdktn.TerraformResource {
   }
 
   // target_id - computed: false, optional: false, required: true
-  private _targetId?: string;
+  private _targetId?: string; 
   public get targetId() {
     return this.getStringAttribute('target_id');
   }

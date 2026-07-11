@@ -99,7 +99,7 @@ export class IamServiceSpecificCredential extends cdktn.TerraformResource {
   }
 
   // credential_age_days - computed: false, optional: true, required: false
-  private _credentialAgeDays?: number;
+  private _credentialAgeDays?: number; 
   public get credentialAgeDays() {
     return this.getNumberAttribute('credential_age_days');
   }
@@ -120,7 +120,7 @@ export class IamServiceSpecificCredential extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -146,7 +146,7 @@ export class IamServiceSpecificCredential extends cdktn.TerraformResource {
   }
 
   // service_name - computed: false, optional: false, required: true
-  private _serviceName?: string;
+  private _serviceName?: string; 
   public get serviceName() {
     return this.getStringAttribute('service_name');
   }
@@ -174,7 +174,7 @@ export class IamServiceSpecificCredential extends cdktn.TerraformResource {
   }
 
   // status - computed: false, optional: true, required: false
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -190,7 +190,7 @@ export class IamServiceSpecificCredential extends cdktn.TerraformResource {
   }
 
   // user_name - computed: false, optional: false, required: true
-  private _userName?: string;
+  private _userName?: string; 
   public get userName() {
     return this.getStringAttribute('user_name');
   }

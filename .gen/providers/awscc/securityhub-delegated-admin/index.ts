@@ -73,7 +73,7 @@ export class SecurityhubDelegatedAdmin extends cdktn.TerraformResource {
   // ==========
 
   // admin_account_id - computed: false, optional: false, required: true
-  private _adminAccountId?: string;
+  private _adminAccountId?: string; 
   public get adminAccountId() {
     return this.getStringAttribute('admin_account_id');
   }

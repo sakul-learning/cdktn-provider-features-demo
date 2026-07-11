@@ -126,7 +126,7 @@ export class S3BucketWebsiteConfigurationErrorDocumentOutputReference extends cd
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -207,7 +207,7 @@ export class S3BucketWebsiteConfigurationIndexDocumentOutputReference extends cd
   }
 
   // suffix - computed: false, optional: false, required: true
-  private _suffix?: string;
+  private _suffix?: string; 
   public get suffix() {
     return this.getStringAttribute('suffix');
   }
@@ -305,7 +305,7 @@ export class S3BucketWebsiteConfigurationRedirectAllRequestsToOutputReference ex
   }
 
   // host_name - computed: false, optional: false, required: true
-  private _hostName?: string;
+  private _hostName?: string; 
   public get hostName() {
     return this.getStringAttribute('host_name');
   }
@@ -318,7 +318,7 @@ export class S3BucketWebsiteConfigurationRedirectAllRequestsToOutputReference ex
   }
 
   // protocol - computed: false, optional: true, required: false
-  private _protocol?: string;
+  private _protocol?: string; 
   public get protocol() {
     return this.getStringAttribute('protocol');
   }
@@ -419,7 +419,7 @@ export class S3BucketWebsiteConfigurationRoutingRuleConditionOutputReference ext
   }
 
   // http_error_code_returned_equals - computed: false, optional: true, required: false
-  private _httpErrorCodeReturnedEquals?: string;
+  private _httpErrorCodeReturnedEquals?: string; 
   public get httpErrorCodeReturnedEquals() {
     return this.getStringAttribute('http_error_code_returned_equals');
   }
@@ -435,7 +435,7 @@ export class S3BucketWebsiteConfigurationRoutingRuleConditionOutputReference ext
   }
 
   // key_prefix_equals - computed: false, optional: true, required: false
-  private _keyPrefixEquals?: string;
+  private _keyPrefixEquals?: string; 
   public get keyPrefixEquals() {
     return this.getStringAttribute('key_prefix_equals');
   }
@@ -587,7 +587,7 @@ export class S3BucketWebsiteConfigurationRoutingRuleRedirectOutputReference exte
   }
 
   // host_name - computed: false, optional: true, required: false
-  private _hostName?: string;
+  private _hostName?: string; 
   public get hostName() {
     return this.getStringAttribute('host_name');
   }
@@ -603,7 +603,7 @@ export class S3BucketWebsiteConfigurationRoutingRuleRedirectOutputReference exte
   }
 
   // http_redirect_code - computed: false, optional: true, required: false
-  private _httpRedirectCode?: string;
+  private _httpRedirectCode?: string; 
   public get httpRedirectCode() {
     return this.getStringAttribute('http_redirect_code');
   }
@@ -619,7 +619,7 @@ export class S3BucketWebsiteConfigurationRoutingRuleRedirectOutputReference exte
   }
 
   // protocol - computed: false, optional: true, required: false
-  private _protocol?: string;
+  private _protocol?: string; 
   public get protocol() {
     return this.getStringAttribute('protocol');
   }
@@ -635,7 +635,7 @@ export class S3BucketWebsiteConfigurationRoutingRuleRedirectOutputReference exte
   }
 
   // replace_key_prefix_with - computed: false, optional: true, required: false
-  private _replaceKeyPrefixWith?: string;
+  private _replaceKeyPrefixWith?: string; 
   public get replaceKeyPrefixWith() {
     return this.getStringAttribute('replace_key_prefix_with');
   }
@@ -651,7 +651,7 @@ export class S3BucketWebsiteConfigurationRoutingRuleRedirectOutputReference exte
   }
 
   // replace_key_with - computed: false, optional: true, required: false
-  private _replaceKeyWith?: string;
+  private _replaceKeyWith?: string; 
   public get replaceKeyWith() {
     return this.getStringAttribute('replace_key_with');
   }
@@ -883,7 +883,7 @@ export class S3BucketWebsiteConfiguration extends cdktn.TerraformResource {
   // ==========
 
   // bucket - computed: false, optional: false, required: true
-  private _bucket?: string;
+  private _bucket?: string; 
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -896,7 +896,7 @@ export class S3BucketWebsiteConfiguration extends cdktn.TerraformResource {
   }
 
   // expected_bucket_owner - computed: false, optional: true, required: false
-  private _expectedBucketOwner?: string;
+  private _expectedBucketOwner?: string; 
   public get expectedBucketOwner() {
     return this.getStringAttribute('expected_bucket_owner');
   }
@@ -912,7 +912,7 @@ export class S3BucketWebsiteConfiguration extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -928,7 +928,7 @@ export class S3BucketWebsiteConfiguration extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -944,7 +944,7 @@ export class S3BucketWebsiteConfiguration extends cdktn.TerraformResource {
   }
 
   // routing_rules - computed: true, optional: true, required: false
-  private _routingRules?: string;
+  private _routingRules?: string; 
   public get routingRules() {
     return this.getStringAttribute('routing_rules');
   }

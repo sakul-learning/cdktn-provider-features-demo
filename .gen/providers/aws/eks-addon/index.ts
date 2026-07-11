@@ -148,7 +148,7 @@ export class EksAddonNamespaceConfigOutputReference extends cdktn.ComplexObject 
   }
 
   // namespace - computed: true, optional: true, required: false
-  private _namespace?: string;
+  private _namespace?: string; 
   public get namespace() {
     return this.getStringAttribute('namespace');
   }
@@ -261,7 +261,7 @@ export class EksAddonPodIdentityAssociationOutputReference extends cdktn.Complex
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -274,7 +274,7 @@ export class EksAddonPodIdentityAssociationOutputReference extends cdktn.Complex
   }
 
   // service_account - computed: false, optional: false, required: true
-  private _serviceAccount?: string;
+  private _serviceAccount?: string; 
   public get serviceAccount() {
     return this.getStringAttribute('service_account');
   }
@@ -419,7 +419,7 @@ export class EksAddonTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -435,7 +435,7 @@ export class EksAddonTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -451,7 +451,7 @@ export class EksAddonTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -539,7 +539,7 @@ export class EksAddon extends cdktn.TerraformResource {
   // ==========
 
   // addon_name - computed: false, optional: false, required: true
-  private _addonName?: string;
+  private _addonName?: string; 
   public get addonName() {
     return this.getStringAttribute('addon_name');
   }
@@ -552,7 +552,7 @@ export class EksAddon extends cdktn.TerraformResource {
   }
 
   // addon_version - computed: true, optional: true, required: false
-  private _addonVersion?: string;
+  private _addonVersion?: string; 
   public get addonVersion() {
     return this.getStringAttribute('addon_version');
   }
@@ -573,7 +573,7 @@ export class EksAddon extends cdktn.TerraformResource {
   }
 
   // cluster_name - computed: false, optional: false, required: true
-  private _clusterName?: string;
+  private _clusterName?: string; 
   public get clusterName() {
     return this.getStringAttribute('cluster_name');
   }
@@ -586,7 +586,7 @@ export class EksAddon extends cdktn.TerraformResource {
   }
 
   // configuration_values - computed: true, optional: true, required: false
-  private _configurationValues?: string;
+  private _configurationValues?: string; 
   public get configurationValues() {
     return this.getStringAttribute('configuration_values');
   }
@@ -607,7 +607,7 @@ export class EksAddon extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -628,7 +628,7 @@ export class EksAddon extends cdktn.TerraformResource {
   }
 
   // preserve - computed: false, optional: true, required: false
-  private _preserve?: boolean | cdktn.IResolvable;
+  private _preserve?: boolean | cdktn.IResolvable; 
   public get preserve() {
     return this.getBooleanAttribute('preserve');
   }
@@ -644,7 +644,7 @@ export class EksAddon extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -660,7 +660,7 @@ export class EksAddon extends cdktn.TerraformResource {
   }
 
   // resolve_conflicts_on_create - computed: false, optional: true, required: false
-  private _resolveConflictsOnCreate?: string;
+  private _resolveConflictsOnCreate?: string; 
   public get resolveConflictsOnCreate() {
     return this.getStringAttribute('resolve_conflicts_on_create');
   }
@@ -676,7 +676,7 @@ export class EksAddon extends cdktn.TerraformResource {
   }
 
   // resolve_conflicts_on_update - computed: false, optional: true, required: false
-  private _resolveConflictsOnUpdate?: string;
+  private _resolveConflictsOnUpdate?: string; 
   public get resolveConflictsOnUpdate() {
     return this.getStringAttribute('resolve_conflicts_on_update');
   }
@@ -692,7 +692,7 @@ export class EksAddon extends cdktn.TerraformResource {
   }
 
   // service_account_role_arn - computed: false, optional: true, required: false
-  private _serviceAccountRoleArn?: string;
+  private _serviceAccountRoleArn?: string; 
   public get serviceAccountRoleArn() {
     return this.getStringAttribute('service_account_role_arn');
   }
@@ -708,7 +708,7 @@ export class EksAddon extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -724,7 +724,7 @@ export class EksAddon extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

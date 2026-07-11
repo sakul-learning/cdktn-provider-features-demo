@@ -93,7 +93,7 @@ export class QuicksightRoleCustomPermission extends cdktn.TerraformResource {
   // ==========
 
   // aws_account_id - computed: true, optional: true, required: false
-  private _awsAccountId?: string;
+  private _awsAccountId?: string; 
   public get awsAccountId() {
     return this.getStringAttribute('aws_account_id');
   }
@@ -109,7 +109,7 @@ export class QuicksightRoleCustomPermission extends cdktn.TerraformResource {
   }
 
   // custom_permissions_name - computed: false, optional: false, required: true
-  private _customPermissionsName?: string;
+  private _customPermissionsName?: string; 
   public get customPermissionsName() {
     return this.getStringAttribute('custom_permissions_name');
   }
@@ -122,7 +122,7 @@ export class QuicksightRoleCustomPermission extends cdktn.TerraformResource {
   }
 
   // namespace - computed: true, optional: true, required: false
-  private _namespace?: string;
+  private _namespace?: string; 
   public get namespace() {
     return this.getStringAttribute('namespace');
   }
@@ -138,7 +138,7 @@ export class QuicksightRoleCustomPermission extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -154,7 +154,7 @@ export class QuicksightRoleCustomPermission extends cdktn.TerraformResource {
   }
 
   // role - computed: false, optional: false, required: true
-  private _role?: string;
+  private _role?: string; 
   public get role() {
     return this.getStringAttribute('role');
   }

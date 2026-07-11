@@ -158,7 +158,7 @@ export class RbinRuleExcludeResourceTagsOutputReference extends cdktn.ComplexObj
   }
 
   // resource_tag_key - computed: false, optional: false, required: true
-  private _resourceTagKey?: string;
+  private _resourceTagKey?: string; 
   public get resourceTagKey() {
     return this.getStringAttribute('resource_tag_key');
   }
@@ -171,7 +171,7 @@ export class RbinRuleExcludeResourceTagsOutputReference extends cdktn.ComplexObj
   }
 
   // resource_tag_value - computed: false, optional: true, required: false
-  private _resourceTagValue?: string;
+  private _resourceTagValue?: string; 
   public get resourceTagValue() {
     return this.getStringAttribute('resource_tag_value');
   }
@@ -292,7 +292,7 @@ export class RbinRuleLockConfigurationUnlockDelayOutputReference extends cdktn.C
   }
 
   // unlock_delay_unit - computed: false, optional: false, required: true
-  private _unlockDelayUnit?: string;
+  private _unlockDelayUnit?: string; 
   public get unlockDelayUnit() {
     return this.getStringAttribute('unlock_delay_unit');
   }
@@ -305,7 +305,7 @@ export class RbinRuleLockConfigurationUnlockDelayOutputReference extends cdktn.C
   }
 
   // unlock_delay_value - computed: false, optional: false, required: true
-  private _unlockDelayValue?: number;
+  private _unlockDelayValue?: number; 
   public get unlockDelayValue() {
     return this.getNumberAttribute('unlock_delay_value');
   }
@@ -498,7 +498,7 @@ export class RbinRuleResourceTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // resource_tag_key - computed: false, optional: false, required: true
-  private _resourceTagKey?: string;
+  private _resourceTagKey?: string; 
   public get resourceTagKey() {
     return this.getStringAttribute('resource_tag_key');
   }
@@ -511,7 +511,7 @@ export class RbinRuleResourceTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // resource_tag_value - computed: false, optional: true, required: false
-  private _resourceTagValue?: string;
+  private _resourceTagValue?: string; 
   public get resourceTagValue() {
     return this.getStringAttribute('resource_tag_value');
   }
@@ -632,7 +632,7 @@ export class RbinRuleRetentionPeriodOutputReference extends cdktn.ComplexObject 
   }
 
   // retention_period_unit - computed: false, optional: false, required: true
-  private _retentionPeriodUnit?: string;
+  private _retentionPeriodUnit?: string; 
   public get retentionPeriodUnit() {
     return this.getStringAttribute('retention_period_unit');
   }
@@ -645,7 +645,7 @@ export class RbinRuleRetentionPeriodOutputReference extends cdktn.ComplexObject 
   }
 
   // retention_period_value - computed: false, optional: false, required: true
-  private _retentionPeriodValue?: number;
+  private _retentionPeriodValue?: number; 
   public get retentionPeriodValue() {
     return this.getNumberAttribute('retention_period_value');
   }
@@ -770,7 +770,7 @@ export class RbinRuleTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -786,7 +786,7 @@ export class RbinRuleTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -802,7 +802,7 @@ export class RbinRuleTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -890,7 +890,7 @@ export class RbinRule extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -921,7 +921,7 @@ export class RbinRule extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -937,7 +937,7 @@ export class RbinRule extends cdktn.TerraformResource {
   }
 
   // resource_type - computed: false, optional: false, required: true
-  private _resourceType?: string;
+  private _resourceType?: string; 
   public get resourceType() {
     return this.getStringAttribute('resource_type');
   }
@@ -955,7 +955,7 @@ export class RbinRule extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -971,7 +971,7 @@ export class RbinRule extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

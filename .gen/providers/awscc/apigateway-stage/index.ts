@@ -169,7 +169,7 @@ export class ApigatewayStageAccessLogSettingOutputReference extends cdktn.Comple
   }
 
   // destination_arn - computed: true, optional: true, required: false
-  private _destinationArn?: string;
+  private _destinationArn?: string; 
   public get destinationArn() {
     return this.getStringAttribute('destination_arn');
   }
@@ -185,7 +185,7 @@ export class ApigatewayStageAccessLogSettingOutputReference extends cdktn.Comple
   }
 
   // format - computed: true, optional: true, required: false
-  private _format?: string;
+  private _format?: string; 
   public get format() {
     return this.getStringAttribute('format');
   }
@@ -330,7 +330,7 @@ export class ApigatewayStageCanarySettingOutputReference extends cdktn.ComplexOb
   }
 
   // deployment_id - computed: true, optional: true, required: false
-  private _deploymentId?: string;
+  private _deploymentId?: string; 
   public get deploymentId() {
     return this.getStringAttribute('deployment_id');
   }
@@ -346,7 +346,7 @@ export class ApigatewayStageCanarySettingOutputReference extends cdktn.ComplexOb
   }
 
   // percent_traffic - computed: true, optional: true, required: false
-  private _percentTraffic?: number;
+  private _percentTraffic?: number; 
   public get percentTraffic() {
     return this.getNumberAttribute('percent_traffic');
   }
@@ -362,7 +362,7 @@ export class ApigatewayStageCanarySettingOutputReference extends cdktn.ComplexOb
   }
 
   // stage_variable_overrides - computed: true, optional: true, required: false
-  private _stageVariableOverrides?: { [key: string]: string };
+  private _stageVariableOverrides?: { [key: string]: string }; 
   public get stageVariableOverrides() {
     return this.getStringMapAttribute('stage_variable_overrides');
   }
@@ -378,7 +378,7 @@ export class ApigatewayStageCanarySettingOutputReference extends cdktn.ComplexOb
   }
 
   // use_stage_cache - computed: true, optional: true, required: false
-  private _useStageCache?: boolean | cdktn.IResolvable;
+  private _useStageCache?: boolean | cdktn.IResolvable; 
   public get useStageCache() {
     return this.getBooleanAttribute('use_stage_cache');
   }
@@ -631,7 +631,7 @@ export class ApigatewayStageMethodSettingsOutputReference extends cdktn.ComplexO
   }
 
   // cache_data_encrypted - computed: true, optional: true, required: false
-  private _cacheDataEncrypted?: boolean | cdktn.IResolvable;
+  private _cacheDataEncrypted?: boolean | cdktn.IResolvable; 
   public get cacheDataEncrypted() {
     return this.getBooleanAttribute('cache_data_encrypted');
   }
@@ -647,7 +647,7 @@ export class ApigatewayStageMethodSettingsOutputReference extends cdktn.ComplexO
   }
 
   // cache_ttl_in_seconds - computed: true, optional: true, required: false
-  private _cacheTtlInSeconds?: number;
+  private _cacheTtlInSeconds?: number; 
   public get cacheTtlInSeconds() {
     return this.getNumberAttribute('cache_ttl_in_seconds');
   }
@@ -663,7 +663,7 @@ export class ApigatewayStageMethodSettingsOutputReference extends cdktn.ComplexO
   }
 
   // caching_enabled - computed: true, optional: true, required: false
-  private _cachingEnabled?: boolean | cdktn.IResolvable;
+  private _cachingEnabled?: boolean | cdktn.IResolvable; 
   public get cachingEnabled() {
     return this.getBooleanAttribute('caching_enabled');
   }
@@ -679,7 +679,7 @@ export class ApigatewayStageMethodSettingsOutputReference extends cdktn.ComplexO
   }
 
   // data_trace_enabled - computed: true, optional: true, required: false
-  private _dataTraceEnabled?: boolean | cdktn.IResolvable;
+  private _dataTraceEnabled?: boolean | cdktn.IResolvable; 
   public get dataTraceEnabled() {
     return this.getBooleanAttribute('data_trace_enabled');
   }
@@ -695,7 +695,7 @@ export class ApigatewayStageMethodSettingsOutputReference extends cdktn.ComplexO
   }
 
   // http_method - computed: true, optional: true, required: false
-  private _httpMethod?: string;
+  private _httpMethod?: string; 
   public get httpMethod() {
     return this.getStringAttribute('http_method');
   }
@@ -711,7 +711,7 @@ export class ApigatewayStageMethodSettingsOutputReference extends cdktn.ComplexO
   }
 
   // logging_level - computed: true, optional: true, required: false
-  private _loggingLevel?: string;
+  private _loggingLevel?: string; 
   public get loggingLevel() {
     return this.getStringAttribute('logging_level');
   }
@@ -727,7 +727,7 @@ export class ApigatewayStageMethodSettingsOutputReference extends cdktn.ComplexO
   }
 
   // metrics_enabled - computed: true, optional: true, required: false
-  private _metricsEnabled?: boolean | cdktn.IResolvable;
+  private _metricsEnabled?: boolean | cdktn.IResolvable; 
   public get metricsEnabled() {
     return this.getBooleanAttribute('metrics_enabled');
   }
@@ -743,7 +743,7 @@ export class ApigatewayStageMethodSettingsOutputReference extends cdktn.ComplexO
   }
 
   // resource_path - computed: true, optional: true, required: false
-  private _resourcePath?: string;
+  private _resourcePath?: string; 
   public get resourcePath() {
     return this.getStringAttribute('resource_path');
   }
@@ -759,7 +759,7 @@ export class ApigatewayStageMethodSettingsOutputReference extends cdktn.ComplexO
   }
 
   // throttling_burst_limit - computed: true, optional: true, required: false
-  private _throttlingBurstLimit?: number;
+  private _throttlingBurstLimit?: number; 
   public get throttlingBurstLimit() {
     return this.getNumberAttribute('throttling_burst_limit');
   }
@@ -775,7 +775,7 @@ export class ApigatewayStageMethodSettingsOutputReference extends cdktn.ComplexO
   }
 
   // throttling_rate_limit - computed: true, optional: true, required: false
-  private _throttlingRateLimit?: number;
+  private _throttlingRateLimit?: number; 
   public get throttlingRateLimit() {
     return this.getNumberAttribute('throttling_rate_limit');
   }
@@ -912,7 +912,7 @@ export class ApigatewayStageTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -928,7 +928,7 @@ export class ApigatewayStageTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1051,7 +1051,7 @@ export class ApigatewayStage extends cdktn.TerraformResource {
   }
 
   // cache_cluster_enabled - computed: true, optional: true, required: false
-  private _cacheClusterEnabled?: boolean | cdktn.IResolvable;
+  private _cacheClusterEnabled?: boolean | cdktn.IResolvable; 
   public get cacheClusterEnabled() {
     return this.getBooleanAttribute('cache_cluster_enabled');
   }
@@ -1067,7 +1067,7 @@ export class ApigatewayStage extends cdktn.TerraformResource {
   }
 
   // cache_cluster_size - computed: true, optional: true, required: false
-  private _cacheClusterSize?: string;
+  private _cacheClusterSize?: string; 
   public get cacheClusterSize() {
     return this.getStringAttribute('cache_cluster_size');
   }
@@ -1099,7 +1099,7 @@ export class ApigatewayStage extends cdktn.TerraformResource {
   }
 
   // client_certificate_id - computed: true, optional: true, required: false
-  private _clientCertificateId?: string;
+  private _clientCertificateId?: string; 
   public get clientCertificateId() {
     return this.getStringAttribute('client_certificate_id');
   }
@@ -1115,7 +1115,7 @@ export class ApigatewayStage extends cdktn.TerraformResource {
   }
 
   // deployment_id - computed: true, optional: true, required: false
-  private _deploymentId?: string;
+  private _deploymentId?: string; 
   public get deploymentId() {
     return this.getStringAttribute('deployment_id');
   }
@@ -1131,7 +1131,7 @@ export class ApigatewayStage extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1147,7 +1147,7 @@ export class ApigatewayStage extends cdktn.TerraformResource {
   }
 
   // documentation_version - computed: true, optional: true, required: false
-  private _documentationVersion?: string;
+  private _documentationVersion?: string; 
   public get documentationVersion() {
     return this.getStringAttribute('documentation_version');
   }
@@ -1184,7 +1184,7 @@ export class ApigatewayStage extends cdktn.TerraformResource {
   }
 
   // rest_api_id - computed: false, optional: false, required: true
-  private _restApiId?: string;
+  private _restApiId?: string; 
   public get restApiId() {
     return this.getStringAttribute('rest_api_id');
   }
@@ -1197,7 +1197,7 @@ export class ApigatewayStage extends cdktn.TerraformResource {
   }
 
   // stage_name - computed: true, optional: true, required: false
-  private _stageName?: string;
+  private _stageName?: string; 
   public get stageName() {
     return this.getStringAttribute('stage_name');
   }
@@ -1229,7 +1229,7 @@ export class ApigatewayStage extends cdktn.TerraformResource {
   }
 
   // tracing_enabled - computed: true, optional: true, required: false
-  private _tracingEnabled?: boolean | cdktn.IResolvable;
+  private _tracingEnabled?: boolean | cdktn.IResolvable; 
   public get tracingEnabled() {
     return this.getBooleanAttribute('tracing_enabled');
   }
@@ -1245,7 +1245,7 @@ export class ApigatewayStage extends cdktn.TerraformResource {
   }
 
   // variables - computed: true, optional: true, required: false
-  private _variables?: { [key: string]: string };
+  private _variables?: { [key: string]: string }; 
   public get variables() {
     return this.getStringMapAttribute('variables');
   }

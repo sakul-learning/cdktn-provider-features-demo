@@ -102,7 +102,7 @@ export class HealthimagingDatastore extends cdktn.TerraformResource {
   }
 
   // datastore_name - computed: true, optional: true, required: false
-  private _datastoreName?: string;
+  private _datastoreName?: string; 
   public get datastoreName() {
     return this.getStringAttribute('datastore_name');
   }
@@ -128,7 +128,7 @@ export class HealthimagingDatastore extends cdktn.TerraformResource {
   }
 
   // kms_key_arn - computed: true, optional: true, required: false
-  private _kmsKeyArn?: string;
+  private _kmsKeyArn?: string; 
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -144,7 +144,7 @@ export class HealthimagingDatastore extends cdktn.TerraformResource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

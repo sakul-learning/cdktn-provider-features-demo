@@ -162,7 +162,7 @@ export class KmsKeyTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -257,7 +257,7 @@ export class KmsKey extends cdktn.TerraformResource {
   }
 
   // bypass_policy_lockout_safety_check - computed: false, optional: true, required: false
-  private _bypassPolicyLockoutSafetyCheck?: boolean | cdktn.IResolvable;
+  private _bypassPolicyLockoutSafetyCheck?: boolean | cdktn.IResolvable; 
   public get bypassPolicyLockoutSafetyCheck() {
     return this.getBooleanAttribute('bypass_policy_lockout_safety_check');
   }
@@ -273,7 +273,7 @@ export class KmsKey extends cdktn.TerraformResource {
   }
 
   // custom_key_store_id - computed: false, optional: true, required: false
-  private _customKeyStoreId?: string;
+  private _customKeyStoreId?: string; 
   public get customKeyStoreId() {
     return this.getStringAttribute('custom_key_store_id');
   }
@@ -289,7 +289,7 @@ export class KmsKey extends cdktn.TerraformResource {
   }
 
   // customer_master_key_spec - computed: false, optional: true, required: false
-  private _customerMasterKeySpec?: string;
+  private _customerMasterKeySpec?: string; 
   public get customerMasterKeySpec() {
     return this.getStringAttribute('customer_master_key_spec');
   }
@@ -305,7 +305,7 @@ export class KmsKey extends cdktn.TerraformResource {
   }
 
   // deletion_window_in_days - computed: false, optional: true, required: false
-  private _deletionWindowInDays?: number;
+  private _deletionWindowInDays?: number; 
   public get deletionWindowInDays() {
     return this.getNumberAttribute('deletion_window_in_days');
   }
@@ -321,7 +321,7 @@ export class KmsKey extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -337,7 +337,7 @@ export class KmsKey extends cdktn.TerraformResource {
   }
 
   // enable_key_rotation - computed: false, optional: true, required: false
-  private _enableKeyRotation?: boolean | cdktn.IResolvable;
+  private _enableKeyRotation?: boolean | cdktn.IResolvable; 
   public get enableKeyRotation() {
     return this.getBooleanAttribute('enable_key_rotation');
   }
@@ -353,7 +353,7 @@ export class KmsKey extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -369,7 +369,7 @@ export class KmsKey extends cdktn.TerraformResource {
   }
 
   // is_enabled - computed: false, optional: true, required: false
-  private _isEnabled?: boolean | cdktn.IResolvable;
+  private _isEnabled?: boolean | cdktn.IResolvable; 
   public get isEnabled() {
     return this.getBooleanAttribute('is_enabled');
   }
@@ -390,7 +390,7 @@ export class KmsKey extends cdktn.TerraformResource {
   }
 
   // key_usage - computed: false, optional: true, required: false
-  private _keyUsage?: string;
+  private _keyUsage?: string; 
   public get keyUsage() {
     return this.getStringAttribute('key_usage');
   }
@@ -406,7 +406,7 @@ export class KmsKey extends cdktn.TerraformResource {
   }
 
   // multi_region - computed: true, optional: true, required: false
-  private _multiRegion?: boolean | cdktn.IResolvable;
+  private _multiRegion?: boolean | cdktn.IResolvable; 
   public get multiRegion() {
     return this.getBooleanAttribute('multi_region');
   }
@@ -422,7 +422,7 @@ export class KmsKey extends cdktn.TerraformResource {
   }
 
   // policy - computed: true, optional: true, required: false
-  private _policy?: string;
+  private _policy?: string; 
   public get policy() {
     return this.getStringAttribute('policy');
   }
@@ -438,7 +438,7 @@ export class KmsKey extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -454,7 +454,7 @@ export class KmsKey extends cdktn.TerraformResource {
   }
 
   // rotation_period_in_days - computed: true, optional: true, required: false
-  private _rotationPeriodInDays?: number;
+  private _rotationPeriodInDays?: number; 
   public get rotationPeriodInDays() {
     return this.getNumberAttribute('rotation_period_in_days');
   }
@@ -470,7 +470,7 @@ export class KmsKey extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -486,7 +486,7 @@ export class KmsKey extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -502,7 +502,7 @@ export class KmsKey extends cdktn.TerraformResource {
   }
 
   // xks_key_id - computed: false, optional: true, required: false
-  private _xksKeyId?: string;
+  private _xksKeyId?: string; 
   public get xksKeyId() {
     return this.getStringAttribute('xks_key_id');
   }

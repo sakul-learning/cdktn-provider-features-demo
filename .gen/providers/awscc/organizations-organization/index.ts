@@ -78,7 +78,7 @@ export class OrganizationsOrganization extends cdktn.TerraformResource {
   }
 
   // feature_set - computed: true, optional: true, required: false
-  private _featureSet?: string;
+  private _featureSet?: string; 
   public get featureSet() {
     return this.getStringAttribute('feature_set');
   }

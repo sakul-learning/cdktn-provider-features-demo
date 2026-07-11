@@ -85,7 +85,7 @@ export class Ec2RouteServerPropagation extends cdktn.TerraformResource {
   }
 
   // route_server_id - computed: false, optional: false, required: true
-  private _routeServerId?: string;
+  private _routeServerId?: string; 
   public get routeServerId() {
     return this.getStringAttribute('route_server_id');
   }
@@ -98,7 +98,7 @@ export class Ec2RouteServerPropagation extends cdktn.TerraformResource {
   }
 
   // route_table_id - computed: false, optional: false, required: true
-  private _routeTableId?: string;
+  private _routeTableId?: string; 
   public get routeTableId() {
     return this.getStringAttribute('route_table_id');
   }

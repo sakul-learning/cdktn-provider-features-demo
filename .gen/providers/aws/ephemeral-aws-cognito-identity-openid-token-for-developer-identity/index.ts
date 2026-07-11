@@ -82,7 +82,7 @@ export class EphemeralAwsCognitoIdentityOpenidTokenForDeveloperIdentity extends 
   // ==========
 
   // identity_id - computed: true, optional: true, required: false
-  private _identityId?: string;
+  private _identityId?: string; 
   public get identityId() {
     return this.getStringAttribute('identity_id');
   }
@@ -98,7 +98,7 @@ export class EphemeralAwsCognitoIdentityOpenidTokenForDeveloperIdentity extends 
   }
 
   // identity_pool_id - computed: false, optional: false, required: true
-  private _identityPoolId?: string;
+  private _identityPoolId?: string; 
   public get identityPoolId() {
     return this.getStringAttribute('identity_pool_id');
   }
@@ -111,7 +111,7 @@ export class EphemeralAwsCognitoIdentityOpenidTokenForDeveloperIdentity extends 
   }
 
   // logins - computed: false, optional: false, required: true
-  private _logins?: { [key: string]: string };
+  private _logins?: { [key: string]: string }; 
   public get logins() {
     return this.getStringMapAttribute('logins');
   }
@@ -124,7 +124,7 @@ export class EphemeralAwsCognitoIdentityOpenidTokenForDeveloperIdentity extends 
   }
 
   // principal_tags - computed: false, optional: true, required: false
-  private _principalTags?: { [key: string]: string };
+  private _principalTags?: { [key: string]: string }; 
   public get principalTags() {
     return this.getStringMapAttribute('principal_tags');
   }
@@ -140,7 +140,7 @@ export class EphemeralAwsCognitoIdentityOpenidTokenForDeveloperIdentity extends 
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -161,7 +161,7 @@ export class EphemeralAwsCognitoIdentityOpenidTokenForDeveloperIdentity extends 
   }
 
   // token_duration - computed: false, optional: true, required: false
-  private _tokenDuration?: number;
+  private _tokenDuration?: number; 
   public get tokenDuration() {
     return this.getNumberAttribute('token_duration');
   }

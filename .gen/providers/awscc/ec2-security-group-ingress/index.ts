@@ -27,7 +27,7 @@ export interface Ec2SecurityGroupIngressConfig extends cdktn.TerraformMetaArgume
   readonly description?: string;
   /**
   * The start of port range for the TCP and UDP protocols, or an ICMP/ICMPv6 type number. A value of -1 indicates all ICMP/ICMPv6 types. If you specify all ICMP/ICMPv6 types, you must specify all codes.
-  *
+  * 
   * Use this for ICMP and any protocol that uses ports.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_security_group_ingress#from_port Ec2SecurityGroupIngress#from_port}
@@ -35,7 +35,7 @@ export interface Ec2SecurityGroupIngressConfig extends cdktn.TerraformMetaArgume
   readonly fromPort?: number;
   /**
   * The ID of the security group. You must specify either the security group ID or the security group name in the request. For security groups in a nondefault VPC, you must specify the security group ID.
-  *
+  * 
   * You must specify the GroupName property or the GroupId property. For security groups that are in a VPC, you must use the GroupId property.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_security_group_ingress#group_id Ec2SecurityGroupIngress#group_id}
@@ -49,7 +49,7 @@ export interface Ec2SecurityGroupIngressConfig extends cdktn.TerraformMetaArgume
   readonly groupName?: string;
   /**
   * The IP protocol name (tcp, udp, icmp, icmpv6) or number (see Protocol Numbers).
-  *
+  * 
   * [VPC only] Use -1 to specify all protocols. When authorizing security group rules, specifying -1 or a protocol number other than tcp, udp, icmp, or icmpv6 allows traffic on all ports, regardless of any port range you specify. For tcp, udp, and icmp, you must specify a port range. For icmpv6, the port range is optional; if you omit the port range, traffic for all types and codes is allowed.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_security_group_ingress#ip_protocol Ec2SecurityGroupIngress#ip_protocol}
@@ -57,8 +57,8 @@ export interface Ec2SecurityGroupIngressConfig extends cdktn.TerraformMetaArgume
   readonly ipProtocol: string;
   /**
   * [EC2-VPC only] The ID of a prefix list.
-  *
-  *
+  * 
+  * 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_security_group_ingress#source_prefix_list_id Ec2SecurityGroupIngress#source_prefix_list_id}
   */
@@ -71,7 +71,7 @@ export interface Ec2SecurityGroupIngressConfig extends cdktn.TerraformMetaArgume
   readonly sourceSecurityGroupId?: string;
   /**
   * [EC2-Classic, default VPC] The name of the source security group.
-  *
+  * 
   * You must specify the GroupName property or the GroupId property. For security groups that are in a VPC, you must use the GroupId property.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_security_group_ingress#source_security_group_name Ec2SecurityGroupIngress#source_security_group_name}
@@ -79,7 +79,7 @@ export interface Ec2SecurityGroupIngressConfig extends cdktn.TerraformMetaArgume
   readonly sourceSecurityGroupName?: string;
   /**
   * [nondefault VPC] The AWS account ID that owns the source security group. You can't specify this property with an IP address range.
-  *
+  * 
   * If you specify SourceSecurityGroupName or SourceSecurityGroupId and that security group is owned by a different account than the account creating the stack, you must specify the SourceSecurityGroupOwnerId; otherwise, this property is optional.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_security_group_ingress#source_security_group_owner_id Ec2SecurityGroupIngress#source_security_group_owner_id}
@@ -87,7 +87,7 @@ export interface Ec2SecurityGroupIngressConfig extends cdktn.TerraformMetaArgume
   readonly sourceSecurityGroupOwnerId?: string;
   /**
   * The end of port range for the TCP and UDP protocols, or an ICMP/ICMPv6 code. A value of -1 indicates all ICMP/ICMPv6 codes for the specified ICMP type. If you specify all ICMP/ICMPv6 types, you must specify all codes.
-  *
+  * 
   * Use this for ICMP and any protocol that uses ports.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_security_group_ingress#to_port Ec2SecurityGroupIngress#to_port}
@@ -164,7 +164,7 @@ export class Ec2SecurityGroupIngress extends cdktn.TerraformResource {
   // ==========
 
   // cidr_ip - computed: true, optional: true, required: false
-  private _cidrIp?: string;
+  private _cidrIp?: string; 
   public get cidrIp() {
     return this.getStringAttribute('cidr_ip');
   }
@@ -180,7 +180,7 @@ export class Ec2SecurityGroupIngress extends cdktn.TerraformResource {
   }
 
   // cidr_ipv_6 - computed: true, optional: true, required: false
-  private _cidrIpv6?: string;
+  private _cidrIpv6?: string; 
   public get cidrIpv6() {
     return this.getStringAttribute('cidr_ipv_6');
   }
@@ -196,7 +196,7 @@ export class Ec2SecurityGroupIngress extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -212,7 +212,7 @@ export class Ec2SecurityGroupIngress extends cdktn.TerraformResource {
   }
 
   // from_port - computed: true, optional: true, required: false
-  private _fromPort?: number;
+  private _fromPort?: number; 
   public get fromPort() {
     return this.getNumberAttribute('from_port');
   }
@@ -228,7 +228,7 @@ export class Ec2SecurityGroupIngress extends cdktn.TerraformResource {
   }
 
   // group_id - computed: true, optional: true, required: false
-  private _groupId?: string;
+  private _groupId?: string; 
   public get groupId() {
     return this.getStringAttribute('group_id');
   }
@@ -244,7 +244,7 @@ export class Ec2SecurityGroupIngress extends cdktn.TerraformResource {
   }
 
   // group_name - computed: true, optional: true, required: false
-  private _groupName?: string;
+  private _groupName?: string; 
   public get groupName() {
     return this.getStringAttribute('group_name');
   }
@@ -265,7 +265,7 @@ export class Ec2SecurityGroupIngress extends cdktn.TerraformResource {
   }
 
   // ip_protocol - computed: false, optional: false, required: true
-  private _ipProtocol?: string;
+  private _ipProtocol?: string; 
   public get ipProtocol() {
     return this.getStringAttribute('ip_protocol');
   }
@@ -283,7 +283,7 @@ export class Ec2SecurityGroupIngress extends cdktn.TerraformResource {
   }
 
   // source_prefix_list_id - computed: true, optional: true, required: false
-  private _sourcePrefixListId?: string;
+  private _sourcePrefixListId?: string; 
   public get sourcePrefixListId() {
     return this.getStringAttribute('source_prefix_list_id');
   }
@@ -299,7 +299,7 @@ export class Ec2SecurityGroupIngress extends cdktn.TerraformResource {
   }
 
   // source_security_group_id - computed: true, optional: true, required: false
-  private _sourceSecurityGroupId?: string;
+  private _sourceSecurityGroupId?: string; 
   public get sourceSecurityGroupId() {
     return this.getStringAttribute('source_security_group_id');
   }
@@ -315,7 +315,7 @@ export class Ec2SecurityGroupIngress extends cdktn.TerraformResource {
   }
 
   // source_security_group_name - computed: true, optional: true, required: false
-  private _sourceSecurityGroupName?: string;
+  private _sourceSecurityGroupName?: string; 
   public get sourceSecurityGroupName() {
     return this.getStringAttribute('source_security_group_name');
   }
@@ -331,7 +331,7 @@ export class Ec2SecurityGroupIngress extends cdktn.TerraformResource {
   }
 
   // source_security_group_owner_id - computed: true, optional: true, required: false
-  private _sourceSecurityGroupOwnerId?: string;
+  private _sourceSecurityGroupOwnerId?: string; 
   public get sourceSecurityGroupOwnerId() {
     return this.getStringAttribute('source_security_group_owner_id');
   }
@@ -347,7 +347,7 @@ export class Ec2SecurityGroupIngress extends cdktn.TerraformResource {
   }
 
   // to_port - computed: true, optional: true, required: false
-  private _toPort?: number;
+  private _toPort?: number; 
   public get toPort() {
     return this.getNumberAttribute('to_port');
   }

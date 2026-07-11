@@ -129,7 +129,7 @@ export class GlacierVaultNotificationOutputReference extends cdktn.ComplexObject
   }
 
   // events - computed: false, optional: false, required: true
-  private _events?: string[];
+  private _events?: string[]; 
   public get events() {
     return cdktn.Fn.tolist(this.getListAttribute('events'));
   }
@@ -142,7 +142,7 @@ export class GlacierVaultNotificationOutputReference extends cdktn.ComplexObject
   }
 
   // sns_topic - computed: false, optional: false, required: true
-  private _snsTopic?: string;
+  private _snsTopic?: string; 
   public get snsTopic() {
     return this.getStringAttribute('sns_topic');
   }
@@ -219,7 +219,7 @@ export class GlacierVault extends cdktn.TerraformResource {
   // ==========
 
   // access_policy - computed: false, optional: true, required: false
-  private _accessPolicy?: string;
+  private _accessPolicy?: string; 
   public get accessPolicy() {
     return this.getStringAttribute('access_policy');
   }
@@ -240,7 +240,7 @@ export class GlacierVault extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -261,7 +261,7 @@ export class GlacierVault extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -274,7 +274,7 @@ export class GlacierVault extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -290,7 +290,7 @@ export class GlacierVault extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -306,7 +306,7 @@ export class GlacierVault extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

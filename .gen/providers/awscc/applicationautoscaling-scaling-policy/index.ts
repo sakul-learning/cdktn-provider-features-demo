@@ -16,7 +16,7 @@ export interface ApplicationautoscalingScalingPolicyConfig extends cdktn.Terrafo
   readonly policyName: string;
   /**
   * The scaling policy type.
-  *  The following policy types are supported:
+  *  The following policy types are supported: 
   *  ``TargetTrackingScaling``—Not supported for Amazon EMR
   *  ``StepScaling``—Not supported for DynamoDB, Amazon Comprehend, Lambda, Amazon Keyspaces, Amazon MSK, Amazon ElastiCache, or Neptune.
   *  ``PredictiveScaling``—Only supported for Amazon ECS
@@ -214,7 +214,7 @@ export class ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigura
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -230,7 +230,7 @@ export class ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigura
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -400,7 +400,7 @@ export class ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigura
   }
 
   // metric_name - computed: true, optional: true, required: false
-  private _metricName?: string;
+  private _metricName?: string; 
   public get metricName() {
     return this.getStringAttribute('metric_name');
   }
@@ -416,7 +416,7 @@ export class ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigura
   }
 
   // namespace - computed: true, optional: true, required: false
-  private _namespace?: string;
+  private _namespace?: string; 
   public get namespace() {
     return this.getStringAttribute('namespace');
   }
@@ -439,7 +439,7 @@ export interface ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfi
   */
   readonly metric?: ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedCapacityMetricSpecificationMetricDataQueriesMetricStatMetric;
   /**
-  * The statistic to return. It can include any CloudWatch statistic or extended statistic. For a list of valid values, see the table in [Statistics](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/cloudwatch_concepts.html#Statistic) in the *Amazon CloudWatch User Guide*.
+  * The statistic to return. It can include any CloudWatch statistic or extended statistic. For a list of valid values, see the table in [Statistics](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/cloudwatch_concepts.html#Statistic) in the *Amazon CloudWatch User Guide*. 
   *  The most commonly used metrics for predictive scaling are ``Average`` and ``Sum``.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/applicationautoscaling_scaling_policy#stat ApplicationautoscalingScalingPolicy#stat}
@@ -567,7 +567,7 @@ export class ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigura
   }
 
   // stat - computed: true, optional: true, required: false
-  private _stat?: string;
+  private _stat?: string; 
   public get stat() {
     return this.getStringAttribute('stat');
   }
@@ -583,7 +583,7 @@ export class ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigura
   }
 
   // unit - computed: true, optional: true, required: false
-  private _unit?: string;
+  private _unit?: string; 
   public get unit() {
     return this.getStringAttribute('unit');
   }
@@ -600,7 +600,7 @@ export class ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigura
 }
 export interface ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedCapacityMetricSpecificationMetricDataQueries {
   /**
-  * The math expression to perform on the returned data, if this object is performing a math expression. This expression can use the ``Id`` of the other metrics to refer to those metrics, and can also use the ``Id`` of other expressions to use the result of those expressions.
+  * The math expression to perform on the returned data, if this object is performing a math expression. This expression can use the ``Id`` of the other metrics to refer to those metrics, and can also use the ``Id`` of other expressions to use the result of those expressions. 
   *  Conditional: Within each ``MetricDataQuery`` object, you must specify either ``Expression`` or ``MetricStat``, but not both.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/applicationautoscaling_scaling_policy#expression ApplicationautoscalingScalingPolicy#expression}
@@ -622,14 +622,14 @@ export interface ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfi
   */
   readonly label?: string;
   /**
-  * Information about the metric data to return.
+  * Information about the metric data to return. 
   *  Conditional: Within each ``MetricDataQuery`` object, you must specify either ``Expression`` or ``MetricStat``, but not both.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/applicationautoscaling_scaling_policy#metric_stat ApplicationautoscalingScalingPolicy#metric_stat}
   */
   readonly metricStat?: ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedCapacityMetricSpecificationMetricDataQueriesMetricStat;
   /**
-  * Indicates whether to return the timestamps and raw data values of this metric.
+  * Indicates whether to return the timestamps and raw data values of this metric. 
   *  If you use any math expressions, specify ``true`` for this value for only the final math expression that the metric specification is based on. You must specify ``false`` for ``ReturnData`` for all the other metrics and expressions used in the metric specification.
   *  If you are only retrieving metrics and not performing any math expressions, do not specify anything for ``ReturnData``. This sets it to its default (``true``).
   *
@@ -764,7 +764,7 @@ export class ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigura
   }
 
   // expression - computed: true, optional: true, required: false
-  private _expression?: string;
+  private _expression?: string; 
   public get expression() {
     return this.getStringAttribute('expression');
   }
@@ -780,7 +780,7 @@ export class ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigura
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -796,7 +796,7 @@ export class ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigura
   }
 
   // label - computed: true, optional: true, required: false
-  private _label?: string;
+  private _label?: string; 
   public get label() {
     return this.getStringAttribute('label');
   }
@@ -828,7 +828,7 @@ export class ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigura
   }
 
   // return_data - computed: true, optional: true, required: false
-  private _returnData?: boolean | cdktn.IResolvable;
+  private _returnData?: boolean | cdktn.IResolvable; 
   public get returnData() {
     return this.getBooleanAttribute('return_data');
   }
@@ -1061,7 +1061,7 @@ export class ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigura
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1077,7 +1077,7 @@ export class ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigura
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1247,7 +1247,7 @@ export class ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigura
   }
 
   // metric_name - computed: true, optional: true, required: false
-  private _metricName?: string;
+  private _metricName?: string; 
   public get metricName() {
     return this.getStringAttribute('metric_name');
   }
@@ -1263,7 +1263,7 @@ export class ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigura
   }
 
   // namespace - computed: true, optional: true, required: false
-  private _namespace?: string;
+  private _namespace?: string; 
   public get namespace() {
     return this.getStringAttribute('namespace');
   }
@@ -1286,7 +1286,7 @@ export interface ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfi
   */
   readonly metric?: ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedLoadMetricSpecificationMetricDataQueriesMetricStatMetric;
   /**
-  * The statistic to return. It can include any CloudWatch statistic or extended statistic. For a list of valid values, see the table in [Statistics](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/cloudwatch_concepts.html#Statistic) in the *Amazon CloudWatch User Guide*.
+  * The statistic to return. It can include any CloudWatch statistic or extended statistic. For a list of valid values, see the table in [Statistics](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/cloudwatch_concepts.html#Statistic) in the *Amazon CloudWatch User Guide*. 
   *  The most commonly used metrics for predictive scaling are ``Average`` and ``Sum``.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/applicationautoscaling_scaling_policy#stat ApplicationautoscalingScalingPolicy#stat}
@@ -1414,7 +1414,7 @@ export class ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigura
   }
 
   // stat - computed: true, optional: true, required: false
-  private _stat?: string;
+  private _stat?: string; 
   public get stat() {
     return this.getStringAttribute('stat');
   }
@@ -1430,7 +1430,7 @@ export class ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigura
   }
 
   // unit - computed: true, optional: true, required: false
-  private _unit?: string;
+  private _unit?: string; 
   public get unit() {
     return this.getStringAttribute('unit');
   }
@@ -1447,7 +1447,7 @@ export class ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigura
 }
 export interface ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedLoadMetricSpecificationMetricDataQueries {
   /**
-  * The math expression to perform on the returned data, if this object is performing a math expression. This expression can use the ``Id`` of the other metrics to refer to those metrics, and can also use the ``Id`` of other expressions to use the result of those expressions.
+  * The math expression to perform on the returned data, if this object is performing a math expression. This expression can use the ``Id`` of the other metrics to refer to those metrics, and can also use the ``Id`` of other expressions to use the result of those expressions. 
   *  Conditional: Within each ``MetricDataQuery`` object, you must specify either ``Expression`` or ``MetricStat``, but not both.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/applicationautoscaling_scaling_policy#expression ApplicationautoscalingScalingPolicy#expression}
@@ -1469,14 +1469,14 @@ export interface ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfi
   */
   readonly label?: string;
   /**
-  * Information about the metric data to return.
+  * Information about the metric data to return. 
   *  Conditional: Within each ``MetricDataQuery`` object, you must specify either ``Expression`` or ``MetricStat``, but not both.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/applicationautoscaling_scaling_policy#metric_stat ApplicationautoscalingScalingPolicy#metric_stat}
   */
   readonly metricStat?: ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedLoadMetricSpecificationMetricDataQueriesMetricStat;
   /**
-  * Indicates whether to return the timestamps and raw data values of this metric.
+  * Indicates whether to return the timestamps and raw data values of this metric. 
   *  If you use any math expressions, specify ``true`` for this value for only the final math expression that the metric specification is based on. You must specify ``false`` for ``ReturnData`` for all the other metrics and expressions used in the metric specification.
   *  If you are only retrieving metrics and not performing any math expressions, do not specify anything for ``ReturnData``. This sets it to its default (``true``).
   *
@@ -1611,7 +1611,7 @@ export class ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigura
   }
 
   // expression - computed: true, optional: true, required: false
-  private _expression?: string;
+  private _expression?: string; 
   public get expression() {
     return this.getStringAttribute('expression');
   }
@@ -1627,7 +1627,7 @@ export class ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigura
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -1643,7 +1643,7 @@ export class ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigura
   }
 
   // label - computed: true, optional: true, required: false
-  private _label?: string;
+  private _label?: string; 
   public get label() {
     return this.getStringAttribute('label');
   }
@@ -1675,7 +1675,7 @@ export class ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigura
   }
 
   // return_data - computed: true, optional: true, required: false
-  private _returnData?: boolean | cdktn.IResolvable;
+  private _returnData?: boolean | cdktn.IResolvable; 
   public get returnData() {
     return this.getBooleanAttribute('return_data');
   }
@@ -1906,7 +1906,7 @@ export class ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigura
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1922,7 +1922,7 @@ export class ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigura
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2092,7 +2092,7 @@ export class ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigura
   }
 
   // metric_name - computed: true, optional: true, required: false
-  private _metricName?: string;
+  private _metricName?: string; 
   public get metricName() {
     return this.getStringAttribute('metric_name');
   }
@@ -2108,7 +2108,7 @@ export class ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigura
   }
 
   // namespace - computed: true, optional: true, required: false
-  private _namespace?: string;
+  private _namespace?: string; 
   public get namespace() {
     return this.getStringAttribute('namespace');
   }
@@ -2131,7 +2131,7 @@ export interface ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfi
   */
   readonly metric?: ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedScalingMetricSpecificationMetricDataQueriesMetricStatMetric;
   /**
-  * The statistic to return. It can include any CloudWatch statistic or extended statistic. For a list of valid values, see the table in [Statistics](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/cloudwatch_concepts.html#Statistic) in the *Amazon CloudWatch User Guide*.
+  * The statistic to return. It can include any CloudWatch statistic or extended statistic. For a list of valid values, see the table in [Statistics](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/cloudwatch_concepts.html#Statistic) in the *Amazon CloudWatch User Guide*. 
   *  The most commonly used metrics for predictive scaling are ``Average`` and ``Sum``.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/applicationautoscaling_scaling_policy#stat ApplicationautoscalingScalingPolicy#stat}
@@ -2259,7 +2259,7 @@ export class ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigura
   }
 
   // stat - computed: true, optional: true, required: false
-  private _stat?: string;
+  private _stat?: string; 
   public get stat() {
     return this.getStringAttribute('stat');
   }
@@ -2275,7 +2275,7 @@ export class ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigura
   }
 
   // unit - computed: true, optional: true, required: false
-  private _unit?: string;
+  private _unit?: string; 
   public get unit() {
     return this.getStringAttribute('unit');
   }
@@ -2292,7 +2292,7 @@ export class ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigura
 }
 export interface ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedScalingMetricSpecificationMetricDataQueries {
   /**
-  * The math expression to perform on the returned data, if this object is performing a math expression. This expression can use the ``Id`` of the other metrics to refer to those metrics, and can also use the ``Id`` of other expressions to use the result of those expressions.
+  * The math expression to perform on the returned data, if this object is performing a math expression. This expression can use the ``Id`` of the other metrics to refer to those metrics, and can also use the ``Id`` of other expressions to use the result of those expressions. 
   *  Conditional: Within each ``MetricDataQuery`` object, you must specify either ``Expression`` or ``MetricStat``, but not both.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/applicationautoscaling_scaling_policy#expression ApplicationautoscalingScalingPolicy#expression}
@@ -2314,14 +2314,14 @@ export interface ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfi
   */
   readonly label?: string;
   /**
-  * Information about the metric data to return.
+  * Information about the metric data to return. 
   *  Conditional: Within each ``MetricDataQuery`` object, you must specify either ``Expression`` or ``MetricStat``, but not both.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/applicationautoscaling_scaling_policy#metric_stat ApplicationautoscalingScalingPolicy#metric_stat}
   */
   readonly metricStat?: ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigurationMetricSpecificationsCustomizedScalingMetricSpecificationMetricDataQueriesMetricStat;
   /**
-  * Indicates whether to return the timestamps and raw data values of this metric.
+  * Indicates whether to return the timestamps and raw data values of this metric. 
   *  If you use any math expressions, specify ``true`` for this value for only the final math expression that the metric specification is based on. You must specify ``false`` for ``ReturnData`` for all the other metrics and expressions used in the metric specification.
   *  If you are only retrieving metrics and not performing any math expressions, do not specify anything for ``ReturnData``. This sets it to its default (``true``).
   *
@@ -2456,7 +2456,7 @@ export class ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigura
   }
 
   // expression - computed: true, optional: true, required: false
-  private _expression?: string;
+  private _expression?: string; 
   public get expression() {
     return this.getStringAttribute('expression');
   }
@@ -2472,7 +2472,7 @@ export class ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigura
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -2488,7 +2488,7 @@ export class ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigura
   }
 
   // label - computed: true, optional: true, required: false
-  private _label?: string;
+  private _label?: string; 
   public get label() {
     return this.getStringAttribute('label');
   }
@@ -2520,7 +2520,7 @@ export class ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigura
   }
 
   // return_data - computed: true, optional: true, required: false
-  private _returnData?: boolean | cdktn.IResolvable;
+  private _returnData?: boolean | cdktn.IResolvable; 
   public get returnData() {
     return this.getBooleanAttribute('return_data');
   }
@@ -2751,7 +2751,7 @@ export class ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigura
   }
 
   // predefined_metric_type - computed: true, optional: true, required: false
-  private _predefinedMetricType?: string;
+  private _predefinedMetricType?: string; 
   public get predefinedMetricType() {
     return this.getStringAttribute('predefined_metric_type');
   }
@@ -2767,7 +2767,7 @@ export class ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigura
   }
 
   // resource_label - computed: true, optional: true, required: false
-  private _resourceLabel?: string;
+  private _resourceLabel?: string; 
   public get resourceLabel() {
     return this.getStringAttribute('resource_label');
   }
@@ -2882,7 +2882,7 @@ export class ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigura
   }
 
   // predefined_metric_type - computed: true, optional: true, required: false
-  private _predefinedMetricType?: string;
+  private _predefinedMetricType?: string; 
   public get predefinedMetricType() {
     return this.getStringAttribute('predefined_metric_type');
   }
@@ -2898,7 +2898,7 @@ export class ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigura
   }
 
   // resource_label - computed: true, optional: true, required: false
-  private _resourceLabel?: string;
+  private _resourceLabel?: string; 
   public get resourceLabel() {
     return this.getStringAttribute('resource_label');
   }
@@ -3013,7 +3013,7 @@ export class ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigura
   }
 
   // predefined_metric_type - computed: true, optional: true, required: false
-  private _predefinedMetricType?: string;
+  private _predefinedMetricType?: string; 
   public get predefinedMetricType() {
     return this.getStringAttribute('predefined_metric_type');
   }
@@ -3029,7 +3029,7 @@ export class ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigura
   }
 
   // resource_label - computed: true, optional: true, required: false
-  private _resourceLabel?: string;
+  private _resourceLabel?: string; 
   public get resourceLabel() {
     return this.getStringAttribute('resource_label');
   }
@@ -3337,7 +3337,7 @@ export class ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigura
   }
 
   // target_value - computed: true, optional: true, required: false
-  private _targetValue?: number;
+  private _targetValue?: number; 
   public get targetValue() {
     return this.getNumberAttribute('target_value');
   }
@@ -3380,14 +3380,14 @@ export interface ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfi
   */
   readonly maxCapacityBreachBehavior?: string;
   /**
-  * The size of the capacity buffer to use when the forecast capacity is close to or exceeds the maximum capacity. The value is specified as a percentage relative to the forecast capacity. For example, if the buffer is 10, this means a 10 percent buffer, such that if the forecast capacity is 50, and the maximum capacity is 40, then the effective maximum capacity is 55.
+  * The size of the capacity buffer to use when the forecast capacity is close to or exceeds the maximum capacity. The value is specified as a percentage relative to the forecast capacity. For example, if the buffer is 10, this means a 10 percent buffer, such that if the forecast capacity is 50, and the maximum capacity is 40, then the effective maximum capacity is 55. 
   *  Required if the ``MaxCapacityBreachBehavior`` property is set to ``IncreaseMaxCapacity``, and cannot be used otherwise.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/applicationautoscaling_scaling_policy#max_capacity_buffer ApplicationautoscalingScalingPolicy#max_capacity_buffer}
   */
   readonly maxCapacityBuffer?: number;
   /**
-  * This structure includes the metrics and target utilization to use for predictive scaling.
+  * This structure includes the metrics and target utilization to use for predictive scaling. 
   *  This is an array, but we currently only support a single metric specification. That is, you can specify a target value and a single metric pair, or a target value and one scaling metric and one load metric.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/applicationautoscaling_scaling_policy#metric_specifications ApplicationautoscalingScalingPolicy#metric_specifications}
@@ -3400,7 +3400,7 @@ export interface ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfi
   */
   readonly mode?: string;
   /**
-  * The amount of time, in seconds, that the start time can be advanced.
+  * The amount of time, in seconds, that the start time can be advanced. 
   *  The value must be less than the forecast interval duration of 3600 seconds (60 minutes). Defaults to 300 seconds if not specified.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/applicationautoscaling_scaling_policy#scheduling_buffer_time ApplicationautoscalingScalingPolicy#scheduling_buffer_time}
@@ -3532,7 +3532,7 @@ export class ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigura
   }
 
   // max_capacity_breach_behavior - computed: true, optional: true, required: false
-  private _maxCapacityBreachBehavior?: string;
+  private _maxCapacityBreachBehavior?: string; 
   public get maxCapacityBreachBehavior() {
     return this.getStringAttribute('max_capacity_breach_behavior');
   }
@@ -3548,7 +3548,7 @@ export class ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigura
   }
 
   // max_capacity_buffer - computed: true, optional: true, required: false
-  private _maxCapacityBuffer?: number;
+  private _maxCapacityBuffer?: number; 
   public get maxCapacityBuffer() {
     return this.getNumberAttribute('max_capacity_buffer');
   }
@@ -3580,7 +3580,7 @@ export class ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigura
   }
 
   // mode - computed: true, optional: true, required: false
-  private _mode?: string;
+  private _mode?: string; 
   public get mode() {
     return this.getStringAttribute('mode');
   }
@@ -3596,7 +3596,7 @@ export class ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfigura
   }
 
   // scheduling_buffer_time - computed: true, optional: true, required: false
-  private _schedulingBufferTime?: number;
+  private _schedulingBufferTime?: number; 
   public get schedulingBufferTime() {
     return this.getNumberAttribute('scheduling_buffer_time');
   }
@@ -3734,7 +3734,7 @@ export class ApplicationautoscalingScalingPolicyStepScalingPolicyConfigurationSt
   }
 
   // metric_interval_lower_bound - computed: true, optional: true, required: false
-  private _metricIntervalLowerBound?: number;
+  private _metricIntervalLowerBound?: number; 
   public get metricIntervalLowerBound() {
     return this.getNumberAttribute('metric_interval_lower_bound');
   }
@@ -3750,7 +3750,7 @@ export class ApplicationautoscalingScalingPolicyStepScalingPolicyConfigurationSt
   }
 
   // metric_interval_upper_bound - computed: true, optional: true, required: false
-  private _metricIntervalUpperBound?: number;
+  private _metricIntervalUpperBound?: number; 
   public get metricIntervalUpperBound() {
     return this.getNumberAttribute('metric_interval_upper_bound');
   }
@@ -3766,7 +3766,7 @@ export class ApplicationautoscalingScalingPolicyStepScalingPolicyConfigurationSt
   }
 
   // scaling_adjustment - computed: true, optional: true, required: false
-  private _scalingAdjustment?: number;
+  private _scalingAdjustment?: number; 
   public get scalingAdjustment() {
     return this.getNumberAttribute('scaling_adjustment');
   }
@@ -3959,7 +3959,7 @@ export class ApplicationautoscalingScalingPolicyStepScalingPolicyConfigurationOu
   }
 
   // adjustment_type - computed: true, optional: true, required: false
-  private _adjustmentType?: string;
+  private _adjustmentType?: string; 
   public get adjustmentType() {
     return this.getStringAttribute('adjustment_type');
   }
@@ -3975,7 +3975,7 @@ export class ApplicationautoscalingScalingPolicyStepScalingPolicyConfigurationOu
   }
 
   // cooldown - computed: true, optional: true, required: false
-  private _cooldown?: number;
+  private _cooldown?: number; 
   public get cooldown() {
     return this.getNumberAttribute('cooldown');
   }
@@ -3991,7 +3991,7 @@ export class ApplicationautoscalingScalingPolicyStepScalingPolicyConfigurationOu
   }
 
   // metric_aggregation_type - computed: true, optional: true, required: false
-  private _metricAggregationType?: string;
+  private _metricAggregationType?: string; 
   public get metricAggregationType() {
     return this.getStringAttribute('metric_aggregation_type');
   }
@@ -4007,7 +4007,7 @@ export class ApplicationautoscalingScalingPolicyStepScalingPolicyConfigurationOu
   }
 
   // min_adjustment_magnitude - computed: true, optional: true, required: false
-  private _minAdjustmentMagnitude?: number;
+  private _minAdjustmentMagnitude?: number; 
   public get minAdjustmentMagnitude() {
     return this.getNumberAttribute('min_adjustment_magnitude');
   }
@@ -4140,7 +4140,7 @@ export class ApplicationautoscalingScalingPolicyTargetTrackingScalingPolicyConfi
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -4156,7 +4156,7 @@ export class ApplicationautoscalingScalingPolicyTargetTrackingScalingPolicyConfi
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -4293,7 +4293,7 @@ export class ApplicationautoscalingScalingPolicyTargetTrackingScalingPolicyConfi
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -4309,7 +4309,7 @@ export class ApplicationautoscalingScalingPolicyTargetTrackingScalingPolicyConfi
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -4346,7 +4346,7 @@ export class ApplicationautoscalingScalingPolicyTargetTrackingScalingPolicyConfi
 }
 export interface ApplicationautoscalingScalingPolicyTargetTrackingScalingPolicyConfigurationCustomizedMetricSpecificationMetricsMetricStatMetric {
   /**
-  * The dimensions for the metric. For the list of available dimensions, see the AWS documentation available from the table in [services that publish CloudWatch metrics](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/aws-services-cloudwatch-metrics.html) in the *Amazon CloudWatch User Guide*.
+  * The dimensions for the metric. For the list of available dimensions, see the AWS documentation available from the table in [services that publish CloudWatch metrics](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/aws-services-cloudwatch-metrics.html) in the *Amazon CloudWatch User Guide*. 
   *  Conditional: If you published your metric with dimensions, you must specify the same dimensions in your scaling policy.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/applicationautoscaling_scaling_policy#dimensions ApplicationautoscalingScalingPolicy#dimensions}
@@ -4480,7 +4480,7 @@ export class ApplicationautoscalingScalingPolicyTargetTrackingScalingPolicyConfi
   }
 
   // metric_name - computed: true, optional: true, required: false
-  private _metricName?: string;
+  private _metricName?: string; 
   public get metricName() {
     return this.getStringAttribute('metric_name');
   }
@@ -4496,7 +4496,7 @@ export class ApplicationautoscalingScalingPolicyTargetTrackingScalingPolicyConfi
   }
 
   // namespace - computed: true, optional: true, required: false
-  private _namespace?: string;
+  private _namespace?: string; 
   public get namespace() {
     return this.getStringAttribute('namespace');
   }
@@ -4647,7 +4647,7 @@ export class ApplicationautoscalingScalingPolicyTargetTrackingScalingPolicyConfi
   }
 
   // stat - computed: true, optional: true, required: false
-  private _stat?: string;
+  private _stat?: string; 
   public get stat() {
     return this.getStringAttribute('stat');
   }
@@ -4663,7 +4663,7 @@ export class ApplicationautoscalingScalingPolicyTargetTrackingScalingPolicyConfi
   }
 
   // unit - computed: true, optional: true, required: false
-  private _unit?: string;
+  private _unit?: string; 
   public get unit() {
     return this.getStringAttribute('unit');
   }
@@ -4680,7 +4680,7 @@ export class ApplicationautoscalingScalingPolicyTargetTrackingScalingPolicyConfi
 }
 export interface ApplicationautoscalingScalingPolicyTargetTrackingScalingPolicyConfigurationCustomizedMetricSpecificationMetrics {
   /**
-  * The math expression to perform on the returned data, if this object is performing a math expression. This expression can use the ``Id`` of the other metrics to refer to those metrics, and can also use the ``Id`` of other expressions to use the result of those expressions.
+  * The math expression to perform on the returned data, if this object is performing a math expression. This expression can use the ``Id`` of the other metrics to refer to those metrics, and can also use the ``Id`` of other expressions to use the result of those expressions. 
   *  Conditional: Within each ``TargetTrackingMetricDataQuery`` object, you must specify either ``Expression`` or ``MetricStat``, but not both.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/applicationautoscaling_scaling_policy#expression ApplicationautoscalingScalingPolicy#expression}
@@ -4709,7 +4709,7 @@ export interface ApplicationautoscalingScalingPolicyTargetTrackingScalingPolicyC
   */
   readonly metricStat?: ApplicationautoscalingScalingPolicyTargetTrackingScalingPolicyConfigurationCustomizedMetricSpecificationMetricsMetricStat;
   /**
-  * Indicates whether to return the timestamps and raw data values of this metric.
+  * Indicates whether to return the timestamps and raw data values of this metric. 
   *  If you use any math expressions, specify ``true`` for this value for only the final math expression that the metric specification is based on. You must specify ``false`` for ``ReturnData`` for all the other metrics and expressions used in the metric specification.
   *  If you are only retrieving metrics and not performing any math expressions, do not specify anything for ``ReturnData``. This sets it to its default (``true``).
   *
@@ -4844,7 +4844,7 @@ export class ApplicationautoscalingScalingPolicyTargetTrackingScalingPolicyConfi
   }
 
   // expression - computed: true, optional: true, required: false
-  private _expression?: string;
+  private _expression?: string; 
   public get expression() {
     return this.getStringAttribute('expression');
   }
@@ -4860,7 +4860,7 @@ export class ApplicationautoscalingScalingPolicyTargetTrackingScalingPolicyConfi
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -4876,7 +4876,7 @@ export class ApplicationautoscalingScalingPolicyTargetTrackingScalingPolicyConfi
   }
 
   // label - computed: true, optional: true, required: false
-  private _label?: string;
+  private _label?: string; 
   public get label() {
     return this.getStringAttribute('label');
   }
@@ -4908,7 +4908,7 @@ export class ApplicationautoscalingScalingPolicyTargetTrackingScalingPolicyConfi
   }
 
   // return_data - computed: true, optional: true, required: false
-  private _returnData?: boolean | cdktn.IResolvable;
+  private _returnData?: boolean | cdktn.IResolvable; 
   public get returnData() {
     return this.getBooleanAttribute('return_data');
   }
@@ -4945,7 +4945,7 @@ export class ApplicationautoscalingScalingPolicyTargetTrackingScalingPolicyConfi
 }
 export interface ApplicationautoscalingScalingPolicyTargetTrackingScalingPolicyConfigurationCustomizedMetricSpecification {
   /**
-  * The dimensions of the metric.
+  * The dimensions of the metric. 
   *  Conditional: If you published your metric with dimensions, you must specify the same dimensions in your scaling policy.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/applicationautoscaling_scaling_policy#dimensions ApplicationautoscalingScalingPolicy#dimensions}
@@ -5136,7 +5136,7 @@ export class ApplicationautoscalingScalingPolicyTargetTrackingScalingPolicyConfi
   }
 
   // metric_name - computed: true, optional: true, required: false
-  private _metricName?: string;
+  private _metricName?: string; 
   public get metricName() {
     return this.getStringAttribute('metric_name');
   }
@@ -5168,7 +5168,7 @@ export class ApplicationautoscalingScalingPolicyTargetTrackingScalingPolicyConfi
   }
 
   // namespace - computed: true, optional: true, required: false
-  private _namespace?: string;
+  private _namespace?: string; 
   public get namespace() {
     return this.getStringAttribute('namespace');
   }
@@ -5184,7 +5184,7 @@ export class ApplicationautoscalingScalingPolicyTargetTrackingScalingPolicyConfi
   }
 
   // statistic - computed: true, optional: true, required: false
-  private _statistic?: string;
+  private _statistic?: string; 
   public get statistic() {
     return this.getStringAttribute('statistic');
   }
@@ -5200,7 +5200,7 @@ export class ApplicationautoscalingScalingPolicyTargetTrackingScalingPolicyConfi
   }
 
   // unit - computed: true, optional: true, required: false
-  private _unit?: string;
+  private _unit?: string; 
   public get unit() {
     return this.getStringAttribute('unit');
   }
@@ -5229,7 +5229,7 @@ export interface ApplicationautoscalingScalingPolicyTargetTrackingScalingPolicyC
   *  Where:
   *   +  app/<load-balancer-name>/<load-balancer-id> is the final portion of the load balancer ARN
   *   +  targetgroup/<target-group-name>/<target-group-id> is the final portion of the target group ARN.
-  *
+  *   
   *  To find the ARN for an Application Load Balancer, use the [DescribeLoadBalancers](https://docs.aws.amazon.com/elasticloadbalancing/latest/APIReference/API_DescribeLoadBalancers.html) API operation. To find the ARN for the target group, use the [DescribeTargetGroups](https://docs.aws.amazon.com/elasticloadbalancing/latest/APIReference/API_DescribeTargetGroups.html) API operation.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/applicationautoscaling_scaling_policy#resource_label ApplicationautoscalingScalingPolicy#resource_label}
@@ -5322,7 +5322,7 @@ export class ApplicationautoscalingScalingPolicyTargetTrackingScalingPolicyConfi
   }
 
   // predefined_metric_type - computed: true, optional: true, required: false
-  private _predefinedMetricType?: string;
+  private _predefinedMetricType?: string; 
   public get predefinedMetricType() {
     return this.getStringAttribute('predefined_metric_type');
   }
@@ -5338,7 +5338,7 @@ export class ApplicationautoscalingScalingPolicyTargetTrackingScalingPolicyConfi
   }
 
   // resource_label - computed: true, optional: true, required: false
-  private _resourceLabel?: string;
+  private _resourceLabel?: string; 
   public get resourceLabel() {
     return this.getStringAttribute('resource_label');
   }
@@ -5545,7 +5545,7 @@ export class ApplicationautoscalingScalingPolicyTargetTrackingScalingPolicyConfi
   }
 
   // disable_scale_in - computed: true, optional: true, required: false
-  private _disableScaleIn?: boolean | cdktn.IResolvable;
+  private _disableScaleIn?: boolean | cdktn.IResolvable; 
   public get disableScaleIn() {
     return this.getBooleanAttribute('disable_scale_in');
   }
@@ -5577,7 +5577,7 @@ export class ApplicationautoscalingScalingPolicyTargetTrackingScalingPolicyConfi
   }
 
   // scale_in_cooldown - computed: true, optional: true, required: false
-  private _scaleInCooldown?: number;
+  private _scaleInCooldown?: number; 
   public get scaleInCooldown() {
     return this.getNumberAttribute('scale_in_cooldown');
   }
@@ -5593,7 +5593,7 @@ export class ApplicationautoscalingScalingPolicyTargetTrackingScalingPolicyConfi
   }
 
   // scale_out_cooldown - computed: true, optional: true, required: false
-  private _scaleOutCooldown?: number;
+  private _scaleOutCooldown?: number; 
   public get scaleOutCooldown() {
     return this.getNumberAttribute('scale_out_cooldown');
   }
@@ -5609,7 +5609,7 @@ export class ApplicationautoscalingScalingPolicyTargetTrackingScalingPolicyConfi
   }
 
   // target_value - computed: true, optional: true, required: false
-  private _targetValue?: number;
+  private _targetValue?: number; 
   public get targetValue() {
     return this.getNumberAttribute('target_value');
   }
@@ -5701,7 +5701,7 @@ export class ApplicationautoscalingScalingPolicy extends cdktn.TerraformResource
   }
 
   // policy_name - computed: false, optional: false, required: true
-  private _policyName?: string;
+  private _policyName?: string; 
   public get policyName() {
     return this.getStringAttribute('policy_name');
   }
@@ -5714,7 +5714,7 @@ export class ApplicationautoscalingScalingPolicy extends cdktn.TerraformResource
   }
 
   // policy_type - computed: false, optional: false, required: true
-  private _policyType?: string;
+  private _policyType?: string; 
   public get policyType() {
     return this.getStringAttribute('policy_type');
   }
@@ -5743,7 +5743,7 @@ export class ApplicationautoscalingScalingPolicy extends cdktn.TerraformResource
   }
 
   // resource_id - computed: true, optional: true, required: false
-  private _resourceId?: string;
+  private _resourceId?: string; 
   public get resourceId() {
     return this.getStringAttribute('resource_id');
   }
@@ -5759,7 +5759,7 @@ export class ApplicationautoscalingScalingPolicy extends cdktn.TerraformResource
   }
 
   // scalable_dimension - computed: true, optional: true, required: false
-  private _scalableDimension?: string;
+  private _scalableDimension?: string; 
   public get scalableDimension() {
     return this.getStringAttribute('scalable_dimension');
   }
@@ -5775,7 +5775,7 @@ export class ApplicationautoscalingScalingPolicy extends cdktn.TerraformResource
   }
 
   // scaling_target_id - computed: true, optional: true, required: false
-  private _scalingTargetId?: string;
+  private _scalingTargetId?: string; 
   public get scalingTargetId() {
     return this.getStringAttribute('scaling_target_id');
   }
@@ -5791,7 +5791,7 @@ export class ApplicationautoscalingScalingPolicy extends cdktn.TerraformResource
   }
 
   // service_namespace - computed: true, optional: true, required: false
-  private _serviceNamespace?: string;
+  private _serviceNamespace?: string; 
   public get serviceNamespace() {
     return this.getStringAttribute('service_namespace');
   }

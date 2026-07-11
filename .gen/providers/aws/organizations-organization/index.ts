@@ -496,7 +496,7 @@ export class OrganizationsOrganization extends cdktn.TerraformResource {
   }
 
   // aws_service_access_principals - computed: false, optional: true, required: false
-  private _awsServiceAccessPrincipals?: string[];
+  private _awsServiceAccessPrincipals?: string[]; 
   public get awsServiceAccessPrincipals() {
     return cdktn.Fn.tolist(this.getListAttribute('aws_service_access_principals'));
   }
@@ -512,7 +512,7 @@ export class OrganizationsOrganization extends cdktn.TerraformResource {
   }
 
   // enabled_policy_types - computed: false, optional: true, required: false
-  private _enabledPolicyTypes?: string[];
+  private _enabledPolicyTypes?: string[]; 
   public get enabledPolicyTypes() {
     return cdktn.Fn.tolist(this.getListAttribute('enabled_policy_types'));
   }
@@ -528,7 +528,7 @@ export class OrganizationsOrganization extends cdktn.TerraformResource {
   }
 
   // feature_set - computed: false, optional: true, required: false
-  private _featureSet?: string;
+  private _featureSet?: string; 
   public get featureSet() {
     return this.getStringAttribute('feature_set');
   }
@@ -544,7 +544,7 @@ export class OrganizationsOrganization extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -586,7 +586,7 @@ export class OrganizationsOrganization extends cdktn.TerraformResource {
   }
 
   // return_organization_only - computed: false, optional: true, required: false
-  private _returnOrganizationOnly?: boolean | cdktn.IResolvable;
+  private _returnOrganizationOnly?: boolean | cdktn.IResolvable; 
   public get returnOrganizationOnly() {
     return this.getBooleanAttribute('return_organization_only');
   }

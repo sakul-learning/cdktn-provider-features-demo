@@ -163,7 +163,7 @@ export class EcrRepositoryEncryptionConfigurationOutputReference extends cdktn.C
   }
 
   // encryption_type - computed: false, optional: true, required: false
-  private _encryptionType?: string;
+  private _encryptionType?: string; 
   public get encryptionType() {
     return this.getStringAttribute('encryption_type');
   }
@@ -179,7 +179,7 @@ export class EcrRepositoryEncryptionConfigurationOutputReference extends cdktn.C
   }
 
   // kms_key - computed: true, optional: true, required: false
-  private _kmsKey?: string;
+  private _kmsKey?: string; 
   public get kmsKey() {
     return this.getStringAttribute('kms_key');
   }
@@ -283,7 +283,7 @@ export class EcrRepositoryImageScanningConfigurationOutputReference extends cdkt
   }
 
   // scan_on_push - computed: false, optional: false, required: true
-  private _scanOnPush?: boolean | cdktn.IResolvable;
+  private _scanOnPush?: boolean | cdktn.IResolvable; 
   public get scanOnPush() {
     return this.getBooleanAttribute('scan_on_push');
   }
@@ -393,7 +393,7 @@ export class EcrRepositoryImageTagMutabilityExclusionFilterOutputReference exten
   }
 
   // filter - computed: false, optional: false, required: true
-  private _filter?: string;
+  private _filter?: string; 
   public get filter() {
     return this.getStringAttribute('filter');
   }
@@ -406,7 +406,7 @@ export class EcrRepositoryImageTagMutabilityExclusionFilterOutputReference exten
   }
 
   // filter_type - computed: false, optional: false, required: true
-  private _filterType?: string;
+  private _filterType?: string; 
   public get filterType() {
     return this.getStringAttribute('filter_type');
   }
@@ -517,7 +517,7 @@ export class EcrRepositoryTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -606,7 +606,7 @@ export class EcrRepository extends cdktn.TerraformResource {
   }
 
   // force_delete - computed: false, optional: true, required: false
-  private _forceDelete?: boolean | cdktn.IResolvable;
+  private _forceDelete?: boolean | cdktn.IResolvable; 
   public get forceDelete() {
     return this.getBooleanAttribute('force_delete');
   }
@@ -622,7 +622,7 @@ export class EcrRepository extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -638,7 +638,7 @@ export class EcrRepository extends cdktn.TerraformResource {
   }
 
   // image_tag_mutability - computed: false, optional: true, required: false
-  private _imageTagMutability?: string;
+  private _imageTagMutability?: string; 
   public get imageTagMutability() {
     return this.getStringAttribute('image_tag_mutability');
   }
@@ -654,7 +654,7 @@ export class EcrRepository extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -667,7 +667,7 @@ export class EcrRepository extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -693,7 +693,7 @@ export class EcrRepository extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -709,7 +709,7 @@ export class EcrRepository extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

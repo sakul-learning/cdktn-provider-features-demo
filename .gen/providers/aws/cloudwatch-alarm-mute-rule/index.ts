@@ -127,7 +127,7 @@ export class CloudwatchAlarmMuteRuleMuteTargetsOutputReference extends cdktn.Com
   }
 
   // alarm_names - computed: false, optional: false, required: true
-  private _alarmNames?: string[];
+  private _alarmNames?: string[]; 
   public get alarmNames() {
     return cdktn.Fn.tolist(this.getListAttribute('alarm_names'));
   }
@@ -274,7 +274,7 @@ export class CloudwatchAlarmMuteRuleRuleScheduleOutputReference extends cdktn.Co
   }
 
   // duration - computed: false, optional: false, required: true
-  private _duration?: string;
+  private _duration?: string; 
   public get duration() {
     return this.getStringAttribute('duration');
   }
@@ -287,7 +287,7 @@ export class CloudwatchAlarmMuteRuleRuleScheduleOutputReference extends cdktn.Co
   }
 
   // expression - computed: false, optional: false, required: true
-  private _expression?: string;
+  private _expression?: string; 
   public get expression() {
     return this.getStringAttribute('expression');
   }
@@ -300,7 +300,7 @@ export class CloudwatchAlarmMuteRuleRuleScheduleOutputReference extends cdktn.Co
   }
 
   // timezone - computed: true, optional: true, required: false
-  private _timezone?: string;
+  private _timezone?: string; 
   public get timezone() {
     return this.getStringAttribute('timezone');
   }
@@ -524,7 +524,7 @@ export class CloudwatchAlarmMuteRule extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -540,7 +540,7 @@ export class CloudwatchAlarmMuteRule extends cdktn.TerraformResource {
   }
 
   // expire_date - computed: false, optional: true, required: false
-  private _expireDate?: string;
+  private _expireDate?: string; 
   public get expireDate() {
     return this.getStringAttribute('expire_date');
   }
@@ -566,7 +566,7 @@ export class CloudwatchAlarmMuteRule extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -579,7 +579,7 @@ export class CloudwatchAlarmMuteRule extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -595,7 +595,7 @@ export class CloudwatchAlarmMuteRule extends cdktn.TerraformResource {
   }
 
   // start_date - computed: false, optional: true, required: false
-  private _startDate?: string;
+  private _startDate?: string; 
   public get startDate() {
     return this.getStringAttribute('start_date');
   }
@@ -616,7 +616,7 @@ export class CloudwatchAlarmMuteRule extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

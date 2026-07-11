@@ -137,7 +137,7 @@ export class ConnectHoursOfOperationConfigEndTimeOutputReference extends cdktn.C
   }
 
   // hours - computed: false, optional: false, required: true
-  private _hours?: number;
+  private _hours?: number; 
   public get hours() {
     return this.getNumberAttribute('hours');
   }
@@ -150,7 +150,7 @@ export class ConnectHoursOfOperationConfigEndTimeOutputReference extends cdktn.C
   }
 
   // minutes - computed: false, optional: false, required: true
-  private _minutes?: number;
+  private _minutes?: number; 
   public get minutes() {
     return this.getNumberAttribute('minutes');
   }
@@ -248,7 +248,7 @@ export class ConnectHoursOfOperationConfigStartTimeOutputReference extends cdktn
   }
 
   // hours - computed: false, optional: false, required: true
-  private _hours?: number;
+  private _hours?: number; 
   public get hours() {
     return this.getNumberAttribute('hours');
   }
@@ -261,7 +261,7 @@ export class ConnectHoursOfOperationConfigStartTimeOutputReference extends cdktn
   }
 
   // minutes - computed: false, optional: false, required: true
-  private _minutes?: number;
+  private _minutes?: number; 
   public get minutes() {
     return this.getNumberAttribute('minutes');
   }
@@ -392,7 +392,7 @@ export class ConnectHoursOfOperationConfigAOutputReference extends cdktn.Complex
   }
 
   // day - computed: false, optional: false, required: true
-  private _day?: string;
+  private _day?: string; 
   public get day() {
     return this.getStringAttribute('day');
   }
@@ -522,7 +522,7 @@ export class ConnectHoursOfOperation extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -543,7 +543,7 @@ export class ConnectHoursOfOperation extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -559,7 +559,7 @@ export class ConnectHoursOfOperation extends cdktn.TerraformResource {
   }
 
   // instance_id - computed: false, optional: false, required: true
-  private _instanceId?: string;
+  private _instanceId?: string; 
   public get instanceId() {
     return this.getStringAttribute('instance_id');
   }
@@ -572,7 +572,7 @@ export class ConnectHoursOfOperation extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -585,7 +585,7 @@ export class ConnectHoursOfOperation extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -601,7 +601,7 @@ export class ConnectHoursOfOperation extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -617,7 +617,7 @@ export class ConnectHoursOfOperation extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -633,7 +633,7 @@ export class ConnectHoursOfOperation extends cdktn.TerraformResource {
   }
 
   // time_zone - computed: false, optional: false, required: true
-  private _timeZone?: string;
+  private _timeZone?: string; 
   public get timeZone() {
     return this.getStringAttribute('time_zone');
   }

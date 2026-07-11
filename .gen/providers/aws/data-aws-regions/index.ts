@@ -123,7 +123,7 @@ export class DataAwsRegionsFilterOutputReference extends cdktn.ComplexObject {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -136,7 +136,7 @@ export class DataAwsRegionsFilterOutputReference extends cdktn.ComplexObject {
   }
 
   // values - computed: false, optional: false, required: true
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -229,7 +229,7 @@ export class DataAwsRegions extends cdktn.TerraformDataSource {
   // ==========
 
   // all_regions - computed: false, optional: true, required: false
-  private _allRegions?: boolean | cdktn.IResolvable;
+  private _allRegions?: boolean | cdktn.IResolvable; 
   public get allRegions() {
     return this.getBooleanAttribute('all_regions');
   }
@@ -245,7 +245,7 @@ export class DataAwsRegions extends cdktn.TerraformDataSource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }

@@ -167,7 +167,7 @@ export class RdsShardGroupTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -183,7 +183,7 @@ export class RdsShardGroupTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -199,7 +199,7 @@ export class RdsShardGroupTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -286,7 +286,7 @@ export class RdsShardGroup extends cdktn.TerraformResource {
   }
 
   // compute_redundancy - computed: true, optional: true, required: false
-  private _computeRedundancy?: number;
+  private _computeRedundancy?: number; 
   public get computeRedundancy() {
     return this.getNumberAttribute('compute_redundancy');
   }
@@ -302,7 +302,7 @@ export class RdsShardGroup extends cdktn.TerraformResource {
   }
 
   // db_cluster_identifier - computed: false, optional: false, required: true
-  private _dbClusterIdentifier?: string;
+  private _dbClusterIdentifier?: string; 
   public get dbClusterIdentifier() {
     return this.getStringAttribute('db_cluster_identifier');
   }
@@ -315,7 +315,7 @@ export class RdsShardGroup extends cdktn.TerraformResource {
   }
 
   // db_shard_group_identifier - computed: false, optional: false, required: true
-  private _dbShardGroupIdentifier?: string;
+  private _dbShardGroupIdentifier?: string; 
   public get dbShardGroupIdentifier() {
     return this.getStringAttribute('db_shard_group_identifier');
   }
@@ -338,7 +338,7 @@ export class RdsShardGroup extends cdktn.TerraformResource {
   }
 
   // max_acu - computed: false, optional: false, required: true
-  private _maxAcu?: number;
+  private _maxAcu?: number; 
   public get maxAcu() {
     return this.getNumberAttribute('max_acu');
   }
@@ -351,7 +351,7 @@ export class RdsShardGroup extends cdktn.TerraformResource {
   }
 
   // min_acu - computed: true, optional: true, required: false
-  private _minAcu?: number;
+  private _minAcu?: number; 
   public get minAcu() {
     return this.getNumberAttribute('min_acu');
   }
@@ -367,7 +367,7 @@ export class RdsShardGroup extends cdktn.TerraformResource {
   }
 
   // publicly_accessible - computed: true, optional: true, required: false
-  private _publiclyAccessible?: boolean | cdktn.IResolvable;
+  private _publiclyAccessible?: boolean | cdktn.IResolvable; 
   public get publiclyAccessible() {
     return this.getBooleanAttribute('publicly_accessible');
   }
@@ -383,7 +383,7 @@ export class RdsShardGroup extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -399,7 +399,7 @@ export class RdsShardGroup extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

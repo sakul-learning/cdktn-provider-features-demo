@@ -58,13 +58,13 @@ export interface SagemakerMlflowTrackingServerConfig extends cdktn.TerraformMeta
 }
 export interface SagemakerMlflowTrackingServerTags {
   /**
-  * The key name of the tag. You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
+  * The key name of the tag. You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_mlflow_tracking_server#key SagemakerMlflowTrackingServer#key}
   */
   readonly key?: string;
   /**
-  * The value for the tag. You can specify a value that is 1 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
+  * The value for the tag. You can specify a value that is 1 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_mlflow_tracking_server#value SagemakerMlflowTrackingServer#value}
   */
@@ -158,7 +158,7 @@ export class SagemakerMlflowTrackingServerTagsOutputReference extends cdktn.Comp
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -174,7 +174,7 @@ export class SagemakerMlflowTrackingServerTagsOutputReference extends cdktn.Comp
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -275,7 +275,7 @@ export class SagemakerMlflowTrackingServer extends cdktn.TerraformResource {
   // ==========
 
   // artifact_store_uri - computed: false, optional: false, required: true
-  private _artifactStoreUri?: string;
+  private _artifactStoreUri?: string; 
   public get artifactStoreUri() {
     return this.getStringAttribute('artifact_store_uri');
   }
@@ -288,7 +288,7 @@ export class SagemakerMlflowTrackingServer extends cdktn.TerraformResource {
   }
 
   // automatic_model_registration - computed: true, optional: true, required: false
-  private _automaticModelRegistration?: boolean | cdktn.IResolvable;
+  private _automaticModelRegistration?: boolean | cdktn.IResolvable; 
   public get automaticModelRegistration() {
     return this.getBooleanAttribute('automatic_model_registration');
   }
@@ -309,7 +309,7 @@ export class SagemakerMlflowTrackingServer extends cdktn.TerraformResource {
   }
 
   // mlflow_version - computed: true, optional: true, required: false
-  private _mlflowVersion?: string;
+  private _mlflowVersion?: string; 
   public get mlflowVersion() {
     return this.getStringAttribute('mlflow_version');
   }
@@ -325,7 +325,7 @@ export class SagemakerMlflowTrackingServer extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -359,7 +359,7 @@ export class SagemakerMlflowTrackingServer extends cdktn.TerraformResource {
   }
 
   // tracking_server_name - computed: false, optional: false, required: true
-  private _trackingServerName?: string;
+  private _trackingServerName?: string; 
   public get trackingServerName() {
     return this.getStringAttribute('tracking_server_name');
   }
@@ -372,7 +372,7 @@ export class SagemakerMlflowTrackingServer extends cdktn.TerraformResource {
   }
 
   // tracking_server_size - computed: true, optional: true, required: false
-  private _trackingServerSize?: string;
+  private _trackingServerSize?: string; 
   public get trackingServerSize() {
     return this.getStringAttribute('tracking_server_size');
   }
@@ -388,7 +388,7 @@ export class SagemakerMlflowTrackingServer extends cdktn.TerraformResource {
   }
 
   // weekly_maintenance_window_start - computed: true, optional: true, required: false
-  private _weeklyMaintenanceWindowStart?: string;
+  private _weeklyMaintenanceWindowStart?: string; 
   public get weeklyMaintenanceWindowStart() {
     return this.getStringAttribute('weekly_maintenance_window_start');
   }

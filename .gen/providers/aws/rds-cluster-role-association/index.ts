@@ -135,7 +135,7 @@ export class RdsClusterRoleAssociationTimeoutsOutputReference extends cdktn.Comp
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -151,7 +151,7 @@ export class RdsClusterRoleAssociationTimeoutsOutputReference extends cdktn.Comp
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -230,7 +230,7 @@ export class RdsClusterRoleAssociation extends cdktn.TerraformResource {
   // ==========
 
   // db_cluster_identifier - computed: false, optional: false, required: true
-  private _dbClusterIdentifier?: string;
+  private _dbClusterIdentifier?: string; 
   public get dbClusterIdentifier() {
     return this.getStringAttribute('db_cluster_identifier');
   }
@@ -243,7 +243,7 @@ export class RdsClusterRoleAssociation extends cdktn.TerraformResource {
   }
 
   // feature_name - computed: false, optional: true, required: false
-  private _featureName?: string;
+  private _featureName?: string; 
   public get featureName() {
     return this.getStringAttribute('feature_name');
   }
@@ -259,7 +259,7 @@ export class RdsClusterRoleAssociation extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -275,7 +275,7 @@ export class RdsClusterRoleAssociation extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -291,7 +291,7 @@ export class RdsClusterRoleAssociation extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }

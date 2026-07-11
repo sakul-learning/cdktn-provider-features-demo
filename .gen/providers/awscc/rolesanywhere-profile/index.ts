@@ -129,7 +129,7 @@ export class RolesanywhereProfileAttributeMappingsMappingRulesOutputReference ex
   }
 
   // specifier - computed: true, optional: true, required: false
-  private _specifier?: string;
+  private _specifier?: string; 
   public get specifier() {
     return this.getStringAttribute('specifier');
   }
@@ -262,7 +262,7 @@ export class RolesanywhereProfileAttributeMappingsOutputReference extends cdktn.
   }
 
   // certificate_field - computed: true, optional: true, required: false
-  private _certificateField?: string;
+  private _certificateField?: string; 
   public get certificateField() {
     return this.getStringAttribute('certificate_field');
   }
@@ -411,7 +411,7 @@ export class RolesanywhereProfileTagsOutputReference extends cdktn.ComplexObject
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -427,7 +427,7 @@ export class RolesanywhereProfileTagsOutputReference extends cdktn.ComplexObject
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -530,7 +530,7 @@ export class RolesanywhereProfile extends cdktn.TerraformResource {
   // ==========
 
   // accept_role_session_name - computed: true, optional: true, required: false
-  private _acceptRoleSessionName?: boolean | cdktn.IResolvable;
+  private _acceptRoleSessionName?: boolean | cdktn.IResolvable; 
   public get acceptRoleSessionName() {
     return this.getBooleanAttribute('accept_role_session_name');
   }
@@ -562,7 +562,7 @@ export class RolesanywhereProfile extends cdktn.TerraformResource {
   }
 
   // duration_seconds - computed: true, optional: true, required: false
-  private _durationSeconds?: number;
+  private _durationSeconds?: number; 
   public get durationSeconds() {
     return this.getNumberAttribute('duration_seconds');
   }
@@ -578,7 +578,7 @@ export class RolesanywhereProfile extends cdktn.TerraformResource {
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -599,7 +599,7 @@ export class RolesanywhereProfile extends cdktn.TerraformResource {
   }
 
   // managed_policy_arns - computed: true, optional: true, required: false
-  private _managedPolicyArns?: string[];
+  private _managedPolicyArns?: string[]; 
   public get managedPolicyArns() {
     return this.getListAttribute('managed_policy_arns');
   }
@@ -615,7 +615,7 @@ export class RolesanywhereProfile extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -638,7 +638,7 @@ export class RolesanywhereProfile extends cdktn.TerraformResource {
   }
 
   // require_instance_properties - computed: true, optional: true, required: false
-  private _requireInstanceProperties?: boolean | cdktn.IResolvable;
+  private _requireInstanceProperties?: boolean | cdktn.IResolvable; 
   public get requireInstanceProperties() {
     return this.getBooleanAttribute('require_instance_properties');
   }
@@ -654,7 +654,7 @@ export class RolesanywhereProfile extends cdktn.TerraformResource {
   }
 
   // role_arns - computed: false, optional: false, required: true
-  private _roleArns?: string[];
+  private _roleArns?: string[]; 
   public get roleArns() {
     return this.getListAttribute('role_arns');
   }
@@ -667,7 +667,7 @@ export class RolesanywhereProfile extends cdktn.TerraformResource {
   }
 
   // session_policy - computed: true, optional: true, required: false
-  private _sessionPolicy?: string;
+  private _sessionPolicy?: string; 
   public get sessionPolicy() {
     return this.getStringAttribute('session_policy');
   }

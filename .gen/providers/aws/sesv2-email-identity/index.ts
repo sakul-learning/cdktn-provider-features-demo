@@ -151,7 +151,7 @@ export class Sesv2EmailIdentityDkimSigningAttributesOutputReference extends cdkt
   }
 
   // domain_signing_private_key - computed: false, optional: true, required: false
-  private _domainSigningPrivateKey?: string;
+  private _domainSigningPrivateKey?: string; 
   public get domainSigningPrivateKey() {
     return this.getStringAttribute('domain_signing_private_key');
   }
@@ -167,7 +167,7 @@ export class Sesv2EmailIdentityDkimSigningAttributesOutputReference extends cdkt
   }
 
   // domain_signing_selector - computed: false, optional: true, required: false
-  private _domainSigningSelector?: string;
+  private _domainSigningSelector?: string; 
   public get domainSigningSelector() {
     return this.getStringAttribute('domain_signing_selector');
   }
@@ -188,7 +188,7 @@ export class Sesv2EmailIdentityDkimSigningAttributesOutputReference extends cdkt
   }
 
   // next_signing_key_length - computed: true, optional: true, required: false
-  private _nextSigningKeyLength?: string;
+  private _nextSigningKeyLength?: string; 
   public get nextSigningKeyLength() {
     return this.getStringAttribute('next_signing_key_length');
   }
@@ -288,7 +288,7 @@ export class Sesv2EmailIdentity extends cdktn.TerraformResource {
   }
 
   // configuration_set_name - computed: false, optional: true, required: false
-  private _configurationSetName?: string;
+  private _configurationSetName?: string; 
   public get configurationSetName() {
     return this.getStringAttribute('configuration_set_name');
   }
@@ -304,7 +304,7 @@ export class Sesv2EmailIdentity extends cdktn.TerraformResource {
   }
 
   // email_identity - computed: false, optional: false, required: true
-  private _emailIdentity?: string;
+  private _emailIdentity?: string; 
   public get emailIdentity() {
     return this.getStringAttribute('email_identity');
   }
@@ -317,7 +317,7 @@ export class Sesv2EmailIdentity extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -338,7 +338,7 @@ export class Sesv2EmailIdentity extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -354,7 +354,7 @@ export class Sesv2EmailIdentity extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -370,7 +370,7 @@ export class Sesv2EmailIdentity extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

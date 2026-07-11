@@ -142,7 +142,7 @@ export class LocationApiKeyRestrictionsAllowAndroidAppsOutputReference extends c
   }
 
   // certificate_fingerprint - computed: true, optional: true, required: false
-  private _certificateFingerprint?: string;
+  private _certificateFingerprint?: string; 
   public get certificateFingerprint() {
     return this.getStringAttribute('certificate_fingerprint');
   }
@@ -158,7 +158,7 @@ export class LocationApiKeyRestrictionsAllowAndroidAppsOutputReference extends c
   }
 
   // package - computed: true, optional: true, required: false
-  private _package?: string;
+  private _package?: string; 
   public get package() {
     return this.getStringAttribute('package');
   }
@@ -274,7 +274,7 @@ export class LocationApiKeyRestrictionsAllowAppleAppsOutputReference extends cdk
   }
 
   // bundle_id - computed: true, optional: true, required: false
-  private _bundleId?: string;
+  private _bundleId?: string; 
   public get bundleId() {
     return this.getStringAttribute('bundle_id');
   }
@@ -456,7 +456,7 @@ export class LocationApiKeyRestrictionsOutputReference extends cdktn.ComplexObje
   }
 
   // allow_actions - computed: false, optional: false, required: true
-  private _allowActions?: string[];
+  private _allowActions?: string[]; 
   public get allowActions() {
     return this.getListAttribute('allow_actions');
   }
@@ -501,7 +501,7 @@ export class LocationApiKeyRestrictionsOutputReference extends cdktn.ComplexObje
   }
 
   // allow_referers - computed: true, optional: true, required: false
-  private _allowReferers?: string[];
+  private _allowReferers?: string[]; 
   public get allowReferers() {
     return this.getListAttribute('allow_referers');
   }
@@ -517,7 +517,7 @@ export class LocationApiKeyRestrictionsOutputReference extends cdktn.ComplexObje
   }
 
   // allow_resources - computed: false, optional: false, required: true
-  private _allowResources?: string[];
+  private _allowResources?: string[]; 
   public get allowResources() {
     return this.getListAttribute('allow_resources');
   }
@@ -631,7 +631,7 @@ export class LocationApiKeyTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -647,7 +647,7 @@ export class LocationApiKeyTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -758,7 +758,7 @@ export class LocationApiKey extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -774,7 +774,7 @@ export class LocationApiKey extends cdktn.TerraformResource {
   }
 
   // expire_time - computed: true, optional: true, required: false
-  private _expireTime?: string;
+  private _expireTime?: string; 
   public get expireTime() {
     return this.getStringAttribute('expire_time');
   }
@@ -790,7 +790,7 @@ export class LocationApiKey extends cdktn.TerraformResource {
   }
 
   // force_delete - computed: true, optional: true, required: false
-  private _forceDelete?: boolean | cdktn.IResolvable;
+  private _forceDelete?: boolean | cdktn.IResolvable; 
   public get forceDelete() {
     return this.getBooleanAttribute('force_delete');
   }
@@ -806,7 +806,7 @@ export class LocationApiKey extends cdktn.TerraformResource {
   }
 
   // force_update - computed: true, optional: true, required: false
-  private _forceUpdate?: boolean | cdktn.IResolvable;
+  private _forceUpdate?: boolean | cdktn.IResolvable; 
   public get forceUpdate() {
     return this.getBooleanAttribute('force_update');
   }
@@ -832,7 +832,7 @@ export class LocationApiKey extends cdktn.TerraformResource {
   }
 
   // key_name - computed: false, optional: false, required: true
-  private _keyName?: string;
+  private _keyName?: string; 
   public get keyName() {
     return this.getStringAttribute('key_name');
   }
@@ -845,7 +845,7 @@ export class LocationApiKey extends cdktn.TerraformResource {
   }
 
   // no_expiry - computed: true, optional: true, required: false
-  private _noExpiry?: boolean | cdktn.IResolvable;
+  private _noExpiry?: boolean | cdktn.IResolvable; 
   public get noExpiry() {
     return this.getBooleanAttribute('no_expiry');
   }

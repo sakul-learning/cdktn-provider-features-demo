@@ -96,7 +96,7 @@ export class Sesv2EmailIdentityMailFromAttributes extends cdktn.TerraformResourc
   // ==========
 
   // behavior_on_mx_failure - computed: false, optional: true, required: false
-  private _behaviorOnMxFailure?: string;
+  private _behaviorOnMxFailure?: string; 
   public get behaviorOnMxFailure() {
     return this.getStringAttribute('behavior_on_mx_failure');
   }
@@ -112,7 +112,7 @@ export class Sesv2EmailIdentityMailFromAttributes extends cdktn.TerraformResourc
   }
 
   // email_identity - computed: false, optional: false, required: true
-  private _emailIdentity?: string;
+  private _emailIdentity?: string; 
   public get emailIdentity() {
     return this.getStringAttribute('email_identity');
   }
@@ -125,7 +125,7 @@ export class Sesv2EmailIdentityMailFromAttributes extends cdktn.TerraformResourc
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -141,7 +141,7 @@ export class Sesv2EmailIdentityMailFromAttributes extends cdktn.TerraformResourc
   }
 
   // mail_from_domain - computed: false, optional: true, required: false
-  private _mailFromDomain?: string;
+  private _mailFromDomain?: string; 
   public get mailFromDomain() {
     return this.getStringAttribute('mail_from_domain');
   }
@@ -157,7 +157,7 @@ export class Sesv2EmailIdentityMailFromAttributes extends cdktn.TerraformResourc
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

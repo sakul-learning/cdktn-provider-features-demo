@@ -81,7 +81,7 @@ export class VpclatticeAuthPolicy extends cdktn.TerraformResource {
   }
 
   // policy - computed: false, optional: false, required: true
-  private _policy?: string;
+  private _policy?: string; 
   public get policy() {
     return this.getStringAttribute('policy');
   }
@@ -94,7 +94,7 @@ export class VpclatticeAuthPolicy extends cdktn.TerraformResource {
   }
 
   // resource_identifier - computed: false, optional: false, required: true
-  private _resourceIdentifier?: string;
+  private _resourceIdentifier?: string; 
   public get resourceIdentifier() {
     return this.getStringAttribute('resource_identifier');
   }

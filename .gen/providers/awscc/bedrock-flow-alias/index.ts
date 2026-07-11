@@ -140,7 +140,7 @@ export class BedrockFlowAliasConcurrencyConfigurationOutputReference extends cdk
   }
 
   // max_concurrency - computed: true, optional: true, required: false
-  private _maxConcurrency?: number;
+  private _maxConcurrency?: number; 
   public get maxConcurrency() {
     return this.getNumberAttribute('max_concurrency');
   }
@@ -156,7 +156,7 @@ export class BedrockFlowAliasConcurrencyConfigurationOutputReference extends cdk
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -254,7 +254,7 @@ export class BedrockFlowAliasRoutingConfigurationOutputReference extends cdktn.C
   }
 
   // flow_version - computed: true, optional: true, required: false
-  private _flowVersion?: string;
+  private _flowVersion?: string; 
   public get flowVersion() {
     return this.getStringAttribute('flow_version');
   }
@@ -379,7 +379,7 @@ export class BedrockFlowAlias extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -400,7 +400,7 @@ export class BedrockFlowAlias extends cdktn.TerraformResource {
   }
 
   // flow_arn - computed: false, optional: false, required: true
-  private _flowArn?: string;
+  private _flowArn?: string; 
   public get flowArn() {
     return this.getStringAttribute('flow_arn');
   }
@@ -423,7 +423,7 @@ export class BedrockFlowAlias extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -449,7 +449,7 @@ export class BedrockFlowAlias extends cdktn.TerraformResource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

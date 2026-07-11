@@ -281,7 +281,7 @@ export class SyntheticsCanaryArtifactConfigS3EncryptionOutputReference extends c
   }
 
   // encryption_mode - computed: false, optional: true, required: false
-  private _encryptionMode?: string;
+  private _encryptionMode?: string; 
   public get encryptionMode() {
     return this.getStringAttribute('encryption_mode');
   }
@@ -297,7 +297,7 @@ export class SyntheticsCanaryArtifactConfigS3EncryptionOutputReference extends c
   }
 
   // kms_key_arn - computed: false, optional: true, required: false
-  private _kmsKeyArn?: string;
+  private _kmsKeyArn?: string; 
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -535,7 +535,7 @@ export class SyntheticsCanaryRunConfigOutputReference extends cdktn.ComplexObjec
   }
 
   // active_tracing - computed: false, optional: true, required: false
-  private _activeTracing?: boolean | cdktn.IResolvable;
+  private _activeTracing?: boolean | cdktn.IResolvable; 
   public get activeTracing() {
     return this.getBooleanAttribute('active_tracing');
   }
@@ -551,7 +551,7 @@ export class SyntheticsCanaryRunConfigOutputReference extends cdktn.ComplexObjec
   }
 
   // environment_variables - computed: false, optional: true, required: false
-  private _environmentVariables?: { [key: string]: string };
+  private _environmentVariables?: { [key: string]: string }; 
   public get environmentVariables() {
     return this.getStringMapAttribute('environment_variables');
   }
@@ -567,7 +567,7 @@ export class SyntheticsCanaryRunConfigOutputReference extends cdktn.ComplexObjec
   }
 
   // ephemeral_storage - computed: true, optional: true, required: false
-  private _ephemeralStorage?: number;
+  private _ephemeralStorage?: number; 
   public get ephemeralStorage() {
     return this.getNumberAttribute('ephemeral_storage');
   }
@@ -583,7 +583,7 @@ export class SyntheticsCanaryRunConfigOutputReference extends cdktn.ComplexObjec
   }
 
   // memory_in_mb - computed: true, optional: true, required: false
-  private _memoryInMb?: number;
+  private _memoryInMb?: number; 
   public get memoryInMb() {
     return this.getNumberAttribute('memory_in_mb');
   }
@@ -599,7 +599,7 @@ export class SyntheticsCanaryRunConfigOutputReference extends cdktn.ComplexObjec
   }
 
   // timeout_in_seconds - computed: true, optional: true, required: false
-  private _timeoutInSeconds?: number;
+  private _timeoutInSeconds?: number; 
   public get timeoutInSeconds() {
     return this.getNumberAttribute('timeout_in_seconds');
   }
@@ -683,7 +683,7 @@ export class SyntheticsCanaryScheduleRetryConfigOutputReference extends cdktn.Co
   }
 
   // max_retries - computed: false, optional: false, required: true
-  private _maxRetries?: number;
+  private _maxRetries?: number; 
   public get maxRetries() {
     return this.getNumberAttribute('max_retries');
   }
@@ -800,7 +800,7 @@ export class SyntheticsCanaryScheduleOutputReference extends cdktn.ComplexObject
   }
 
   // duration_in_seconds - computed: false, optional: true, required: false
-  private _durationInSeconds?: number;
+  private _durationInSeconds?: number; 
   public get durationInSeconds() {
     return this.getNumberAttribute('duration_in_seconds');
   }
@@ -816,7 +816,7 @@ export class SyntheticsCanaryScheduleOutputReference extends cdktn.ComplexObject
   }
 
   // expression - computed: false, optional: false, required: true
-  private _expression?: string;
+  private _expression?: string; 
   public get expression() {
     return this.getStringAttribute('expression');
   }
@@ -947,7 +947,7 @@ export class SyntheticsCanaryVpcConfigOutputReference extends cdktn.ComplexObjec
   }
 
   // ipv6_allowed_for_dual_stack - computed: false, optional: true, required: false
-  private _ipv6AllowedForDualStack?: boolean | cdktn.IResolvable;
+  private _ipv6AllowedForDualStack?: boolean | cdktn.IResolvable; 
   public get ipv6AllowedForDualStack() {
     return this.getBooleanAttribute('ipv6_allowed_for_dual_stack');
   }
@@ -963,7 +963,7 @@ export class SyntheticsCanaryVpcConfigOutputReference extends cdktn.ComplexObjec
   }
 
   // security_group_ids - computed: false, optional: true, required: false
-  private _securityGroupIds?: string[];
+  private _securityGroupIds?: string[]; 
   public get securityGroupIds() {
     return cdktn.Fn.tolist(this.getListAttribute('security_group_ids'));
   }
@@ -979,7 +979,7 @@ export class SyntheticsCanaryVpcConfigOutputReference extends cdktn.ComplexObjec
   }
 
   // subnet_ids - computed: false, optional: true, required: false
-  private _subnetIds?: string[];
+  private _subnetIds?: string[]; 
   public get subnetIds() {
     return cdktn.Fn.tolist(this.getListAttribute('subnet_ids'));
   }
@@ -1083,7 +1083,7 @@ export class SyntheticsCanary extends cdktn.TerraformResource {
   }
 
   // artifact_s3_location - computed: false, optional: false, required: true
-  private _artifactS3Location?: string;
+  private _artifactS3Location?: string; 
   public get artifactS3Location() {
     return this.getStringAttribute('artifact_s3_location');
   }
@@ -1096,7 +1096,7 @@ export class SyntheticsCanary extends cdktn.TerraformResource {
   }
 
   // delete_lambda - computed: false, optional: true, required: false
-  private _deleteLambda?: boolean | cdktn.IResolvable;
+  private _deleteLambda?: boolean | cdktn.IResolvable; 
   public get deleteLambda() {
     return this.getBooleanAttribute('delete_lambda');
   }
@@ -1117,7 +1117,7 @@ export class SyntheticsCanary extends cdktn.TerraformResource {
   }
 
   // execution_role_arn - computed: false, optional: false, required: true
-  private _executionRoleArn?: string;
+  private _executionRoleArn?: string; 
   public get executionRoleArn() {
     return this.getStringAttribute('execution_role_arn');
   }
@@ -1130,7 +1130,7 @@ export class SyntheticsCanary extends cdktn.TerraformResource {
   }
 
   // failure_retention_period - computed: false, optional: true, required: false
-  private _failureRetentionPeriod?: number;
+  private _failureRetentionPeriod?: number; 
   public get failureRetentionPeriod() {
     return this.getNumberAttribute('failure_retention_period');
   }
@@ -1146,7 +1146,7 @@ export class SyntheticsCanary extends cdktn.TerraformResource {
   }
 
   // handler - computed: false, optional: false, required: true
-  private _handler?: string;
+  private _handler?: string; 
   public get handler() {
     return this.getStringAttribute('handler');
   }
@@ -1159,7 +1159,7 @@ export class SyntheticsCanary extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -1175,7 +1175,7 @@ export class SyntheticsCanary extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1188,7 +1188,7 @@ export class SyntheticsCanary extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1204,7 +1204,7 @@ export class SyntheticsCanary extends cdktn.TerraformResource {
   }
 
   // runtime_version - computed: false, optional: false, required: true
-  private _runtimeVersion?: string;
+  private _runtimeVersion?: string; 
   public get runtimeVersion() {
     return this.getStringAttribute('runtime_version');
   }
@@ -1217,7 +1217,7 @@ export class SyntheticsCanary extends cdktn.TerraformResource {
   }
 
   // s3_bucket - computed: false, optional: true, required: false
-  private _s3Bucket?: string;
+  private _s3Bucket?: string; 
   public get s3Bucket() {
     return this.getStringAttribute('s3_bucket');
   }
@@ -1233,7 +1233,7 @@ export class SyntheticsCanary extends cdktn.TerraformResource {
   }
 
   // s3_key - computed: false, optional: true, required: false
-  private _s3Key?: string;
+  private _s3Key?: string; 
   public get s3Key() {
     return this.getStringAttribute('s3_key');
   }
@@ -1249,7 +1249,7 @@ export class SyntheticsCanary extends cdktn.TerraformResource {
   }
 
   // s3_version - computed: false, optional: true, required: false
-  private _s3Version?: string;
+  private _s3Version?: string; 
   public get s3Version() {
     return this.getStringAttribute('s3_version');
   }
@@ -1270,7 +1270,7 @@ export class SyntheticsCanary extends cdktn.TerraformResource {
   }
 
   // start_canary - computed: false, optional: true, required: false
-  private _startCanary?: boolean | cdktn.IResolvable;
+  private _startCanary?: boolean | cdktn.IResolvable; 
   public get startCanary() {
     return this.getBooleanAttribute('start_canary');
   }
@@ -1291,7 +1291,7 @@ export class SyntheticsCanary extends cdktn.TerraformResource {
   }
 
   // success_retention_period - computed: false, optional: true, required: false
-  private _successRetentionPeriod?: number;
+  private _successRetentionPeriod?: number; 
   public get successRetentionPeriod() {
     return this.getNumberAttribute('success_retention_period');
   }
@@ -1307,7 +1307,7 @@ export class SyntheticsCanary extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -1323,7 +1323,7 @@ export class SyntheticsCanary extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -1345,7 +1345,7 @@ export class SyntheticsCanary extends cdktn.TerraformResource {
   }
 
   // zip_file - computed: false, optional: true, required: false
-  private _zipFile?: string;
+  private _zipFile?: string; 
   public get zipFile() {
     return this.getStringAttribute('zip_file');
   }

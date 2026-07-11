@@ -940,7 +940,7 @@ export class DevopsagentServiceServiceDetailsAzureIdentityOutputReference extend
   }
 
   // client_id - computed: true, optional: true, required: false
-  private _clientId?: string;
+  private _clientId?: string; 
   public get clientId() {
     return this.getStringAttribute('client_id');
   }
@@ -956,7 +956,7 @@ export class DevopsagentServiceServiceDetailsAzureIdentityOutputReference extend
   }
 
   // tenant_id - computed: true, optional: true, required: false
-  private _tenantId?: string;
+  private _tenantId?: string; 
   public get tenantId() {
     return this.getStringAttribute('tenant_id');
   }
@@ -972,7 +972,7 @@ export class DevopsagentServiceServiceDetailsAzureIdentityOutputReference extend
   }
 
   // web_identity_role_arn - computed: true, optional: true, required: false
-  private _webIdentityRoleArn?: string;
+  private _webIdentityRoleArn?: string; 
   public get webIdentityRoleArn() {
     return this.getStringAttribute('web_identity_role_arn');
   }
@@ -988,7 +988,7 @@ export class DevopsagentServiceServiceDetailsAzureIdentityOutputReference extend
   }
 
   // web_identity_token_audiences - computed: true, optional: true, required: false
-  private _webIdentityTokenAudiences?: string[];
+  private _webIdentityTokenAudiences?: string[]; 
   public get webIdentityTokenAudiences() {
     return this.getListAttribute('web_identity_token_audiences');
   }
@@ -1141,7 +1141,7 @@ export class DevopsagentServiceServiceDetailsDynatraceAuthorizationConfigOAuthCl
   }
 
   // client_id - computed: true, optional: true, required: false
-  private _clientId?: string;
+  private _clientId?: string; 
   public get clientId() {
     return this.getStringAttribute('client_id');
   }
@@ -1157,7 +1157,7 @@ export class DevopsagentServiceServiceDetailsDynatraceAuthorizationConfigOAuthCl
   }
 
   // client_name - computed: true, optional: true, required: false
-  private _clientName?: string;
+  private _clientName?: string; 
   public get clientName() {
     return this.getStringAttribute('client_name');
   }
@@ -1173,7 +1173,7 @@ export class DevopsagentServiceServiceDetailsDynatraceAuthorizationConfigOAuthCl
   }
 
   // client_secret - computed: true, optional: true, required: false
-  private _clientSecret?: string;
+  private _clientSecret?: string; 
   public get clientSecret() {
     return this.getStringAttribute('client_secret');
   }
@@ -1189,7 +1189,7 @@ export class DevopsagentServiceServiceDetailsDynatraceAuthorizationConfigOAuthCl
   }
 
   // exchange_parameters - computed: true, optional: true, required: false
-  private _exchangeParameters?: string;
+  private _exchangeParameters?: string; 
   public get exchangeParameters() {
     return this.getStringAttribute('exchange_parameters');
   }
@@ -1400,7 +1400,7 @@ export class DevopsagentServiceServiceDetailsDynatraceOutputReference extends cd
   }
 
   // account_urn - computed: true, optional: true, required: false
-  private _accountUrn?: string;
+  private _accountUrn?: string; 
   public get accountUrn() {
     return this.getStringAttribute('account_urn');
   }
@@ -1569,7 +1569,7 @@ export class DevopsagentServiceServiceDetailsGitLabOutputReference extends cdktn
   }
 
   // group_id - computed: true, optional: true, required: false
-  private _groupId?: string;
+  private _groupId?: string; 
   public get groupId() {
     return this.getStringAttribute('group_id');
   }
@@ -1585,7 +1585,7 @@ export class DevopsagentServiceServiceDetailsGitLabOutputReference extends cdktn
   }
 
   // target_url - computed: true, optional: true, required: false
-  private _targetUrl?: string;
+  private _targetUrl?: string; 
   public get targetUrl() {
     return this.getStringAttribute('target_url');
   }
@@ -1601,7 +1601,7 @@ export class DevopsagentServiceServiceDetailsGitLabOutputReference extends cdktn
   }
 
   // token_type - computed: true, optional: true, required: false
-  private _tokenType?: string;
+  private _tokenType?: string; 
   public get tokenType() {
     return this.getStringAttribute('token_type');
   }
@@ -1617,7 +1617,7 @@ export class DevopsagentServiceServiceDetailsGitLabOutputReference extends cdktn
   }
 
   // token_value - computed: true, optional: true, required: false
-  private _tokenValue?: string;
+  private _tokenValue?: string; 
   public get tokenValue() {
     return this.getStringAttribute('token_value');
   }
@@ -1751,7 +1751,7 @@ export class DevopsagentServiceServiceDetailsMcpServerAuthorizationConfigApiKeyO
   }
 
   // api_key_header - computed: true, optional: true, required: false
-  private _apiKeyHeader?: string;
+  private _apiKeyHeader?: string; 
   public get apiKeyHeader() {
     return this.getStringAttribute('api_key_header');
   }
@@ -1767,7 +1767,7 @@ export class DevopsagentServiceServiceDetailsMcpServerAuthorizationConfigApiKeyO
   }
 
   // api_key_name - computed: true, optional: true, required: false
-  private _apiKeyName?: string;
+  private _apiKeyName?: string; 
   public get apiKeyName() {
     return this.getStringAttribute('api_key_name');
   }
@@ -1783,7 +1783,7 @@ export class DevopsagentServiceServiceDetailsMcpServerAuthorizationConfigApiKeyO
   }
 
   // api_key_value - computed: true, optional: true, required: false
-  private _apiKeyValue?: string;
+  private _apiKeyValue?: string; 
   public get apiKeyValue() {
     return this.getStringAttribute('api_key_value');
   }
@@ -1974,7 +1974,7 @@ export class DevopsagentServiceServiceDetailsMcpServerAuthorizationConfigOAuthCl
   }
 
   // client_id - computed: true, optional: true, required: false
-  private _clientId?: string;
+  private _clientId?: string; 
   public get clientId() {
     return this.getStringAttribute('client_id');
   }
@@ -1990,7 +1990,7 @@ export class DevopsagentServiceServiceDetailsMcpServerAuthorizationConfigOAuthCl
   }
 
   // client_name - computed: true, optional: true, required: false
-  private _clientName?: string;
+  private _clientName?: string; 
   public get clientName() {
     return this.getStringAttribute('client_name');
   }
@@ -2006,7 +2006,7 @@ export class DevopsagentServiceServiceDetailsMcpServerAuthorizationConfigOAuthCl
   }
 
   // client_secret - computed: true, optional: true, required: false
-  private _clientSecret?: string;
+  private _clientSecret?: string; 
   public get clientSecret() {
     return this.getStringAttribute('client_secret');
   }
@@ -2022,7 +2022,7 @@ export class DevopsagentServiceServiceDetailsMcpServerAuthorizationConfigOAuthCl
   }
 
   // exchange_parameters - computed: true, optional: true, required: false
-  private _exchangeParameters?: string;
+  private _exchangeParameters?: string; 
   public get exchangeParameters() {
     return this.getStringAttribute('exchange_parameters');
   }
@@ -2038,7 +2038,7 @@ export class DevopsagentServiceServiceDetailsMcpServerAuthorizationConfigOAuthCl
   }
 
   // exchange_url - computed: true, optional: true, required: false
-  private _exchangeUrl?: string;
+  private _exchangeUrl?: string; 
   public get exchangeUrl() {
     return this.getStringAttribute('exchange_url');
   }
@@ -2054,7 +2054,7 @@ export class DevopsagentServiceServiceDetailsMcpServerAuthorizationConfigOAuthCl
   }
 
   // scopes - computed: true, optional: true, required: false
-  private _scopes?: string[];
+  private _scopes?: string[]; 
   public get scopes() {
     return this.getListAttribute('scopes');
   }
@@ -2354,7 +2354,7 @@ export class DevopsagentServiceServiceDetailsMcpServerOutputReference extends cd
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -2370,7 +2370,7 @@ export class DevopsagentServiceServiceDetailsMcpServerOutputReference extends cd
   }
 
   // endpoint - computed: true, optional: true, required: false
-  private _endpoint?: string;
+  private _endpoint?: string; 
   public get endpoint() {
     return this.getStringAttribute('endpoint');
   }
@@ -2386,7 +2386,7 @@ export class DevopsagentServiceServiceDetailsMcpServerOutputReference extends cd
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2520,7 +2520,7 @@ export class DevopsagentServiceServiceDetailsMcpServerGrafanaAuthorizationConfig
   }
 
   // authorization_header - computed: true, optional: true, required: false
-  private _authorizationHeader?: string;
+  private _authorizationHeader?: string; 
   public get authorizationHeader() {
     return this.getStringAttribute('authorization_header');
   }
@@ -2536,7 +2536,7 @@ export class DevopsagentServiceServiceDetailsMcpServerGrafanaAuthorizationConfig
   }
 
   // token_name - computed: true, optional: true, required: false
-  private _tokenName?: string;
+  private _tokenName?: string; 
   public get tokenName() {
     return this.getStringAttribute('token_name');
   }
@@ -2552,7 +2552,7 @@ export class DevopsagentServiceServiceDetailsMcpServerGrafanaAuthorizationConfig
   }
 
   // token_value - computed: true, optional: true, required: false
-  private _tokenValue?: string;
+  private _tokenValue?: string; 
   public get tokenValue() {
     return this.getStringAttribute('token_value');
   }
@@ -2817,7 +2817,7 @@ export class DevopsagentServiceServiceDetailsMcpServerGrafanaOutputReference ext
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -2833,7 +2833,7 @@ export class DevopsagentServiceServiceDetailsMcpServerGrafanaOutputReference ext
   }
 
   // endpoint - computed: true, optional: true, required: false
-  private _endpoint?: string;
+  private _endpoint?: string; 
   public get endpoint() {
     return this.getStringAttribute('endpoint');
   }
@@ -2849,7 +2849,7 @@ export class DevopsagentServiceServiceDetailsMcpServerGrafanaOutputReference ext
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -3040,7 +3040,7 @@ export class DevopsagentServiceServiceDetailsMcpServerNewRelicAuthorizationConfi
   }
 
   // account_id - computed: true, optional: true, required: false
-  private _accountId?: string;
+  private _accountId?: string; 
   public get accountId() {
     return this.getStringAttribute('account_id');
   }
@@ -3056,7 +3056,7 @@ export class DevopsagentServiceServiceDetailsMcpServerNewRelicAuthorizationConfi
   }
 
   // alert_policy_ids - computed: true, optional: true, required: false
-  private _alertPolicyIds?: string[];
+  private _alertPolicyIds?: string[]; 
   public get alertPolicyIds() {
     return this.getListAttribute('alert_policy_ids');
   }
@@ -3072,7 +3072,7 @@ export class DevopsagentServiceServiceDetailsMcpServerNewRelicAuthorizationConfi
   }
 
   // api_key - computed: true, optional: true, required: false
-  private _apiKey?: string;
+  private _apiKey?: string; 
   public get apiKey() {
     return this.getStringAttribute('api_key');
   }
@@ -3088,7 +3088,7 @@ export class DevopsagentServiceServiceDetailsMcpServerNewRelicAuthorizationConfi
   }
 
   // application_ids - computed: true, optional: true, required: false
-  private _applicationIds?: string[];
+  private _applicationIds?: string[]; 
   public get applicationIds() {
     return this.getListAttribute('application_ids');
   }
@@ -3104,7 +3104,7 @@ export class DevopsagentServiceServiceDetailsMcpServerNewRelicAuthorizationConfi
   }
 
   // entity_guids - computed: true, optional: true, required: false
-  private _entityGuids?: string[];
+  private _entityGuids?: string[]; 
   public get entityGuids() {
     return this.getListAttribute('entity_guids');
   }
@@ -3120,7 +3120,7 @@ export class DevopsagentServiceServiceDetailsMcpServerNewRelicAuthorizationConfi
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -3465,7 +3465,7 @@ export class DevopsagentServiceServiceDetailsMcpServerSigV4AuthorizationConfigOu
   }
 
   // custom_headers - computed: true, optional: true, required: false
-  private _customHeaders?: { [key: string]: string };
+  private _customHeaders?: { [key: string]: string }; 
   public get customHeaders() {
     return this.getStringMapAttribute('custom_headers');
   }
@@ -3481,7 +3481,7 @@ export class DevopsagentServiceServiceDetailsMcpServerSigV4AuthorizationConfigOu
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -3497,7 +3497,7 @@ export class DevopsagentServiceServiceDetailsMcpServerSigV4AuthorizationConfigOu
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -3513,7 +3513,7 @@ export class DevopsagentServiceServiceDetailsMcpServerSigV4AuthorizationConfigOu
   }
 
   // service - computed: true, optional: true, required: false
-  private _service?: string;
+  private _service?: string; 
   public get service() {
     return this.getStringAttribute('service');
   }
@@ -3682,7 +3682,7 @@ export class DevopsagentServiceServiceDetailsMcpServerSigV4OutputReference exten
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -3698,7 +3698,7 @@ export class DevopsagentServiceServiceDetailsMcpServerSigV4OutputReference exten
   }
 
   // endpoint - computed: true, optional: true, required: false
-  private _endpoint?: string;
+  private _endpoint?: string; 
   public get endpoint() {
     return this.getStringAttribute('endpoint');
   }
@@ -3714,7 +3714,7 @@ export class DevopsagentServiceServiceDetailsMcpServerSigV4OutputReference exten
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -3848,7 +3848,7 @@ export class DevopsagentServiceServiceDetailsMcpServerSplunkAuthorizationConfigB
   }
 
   // authorization_header - computed: true, optional: true, required: false
-  private _authorizationHeader?: string;
+  private _authorizationHeader?: string; 
   public get authorizationHeader() {
     return this.getStringAttribute('authorization_header');
   }
@@ -3864,7 +3864,7 @@ export class DevopsagentServiceServiceDetailsMcpServerSplunkAuthorizationConfigB
   }
 
   // token_name - computed: true, optional: true, required: false
-  private _tokenName?: string;
+  private _tokenName?: string; 
   public get tokenName() {
     return this.getStringAttribute('token_name');
   }
@@ -3880,7 +3880,7 @@ export class DevopsagentServiceServiceDetailsMcpServerSplunkAuthorizationConfigB
   }
 
   // token_value - computed: true, optional: true, required: false
-  private _tokenValue?: string;
+  private _tokenValue?: string; 
   public get tokenValue() {
     return this.getStringAttribute('token_value');
   }
@@ -4145,7 +4145,7 @@ export class DevopsagentServiceServiceDetailsMcpServerSplunkOutputReference exte
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -4161,7 +4161,7 @@ export class DevopsagentServiceServiceDetailsMcpServerSplunkOutputReference exte
   }
 
   // endpoint - computed: true, optional: true, required: false
-  private _endpoint?: string;
+  private _endpoint?: string; 
   public get endpoint() {
     return this.getStringAttribute('endpoint');
   }
@@ -4177,7 +4177,7 @@ export class DevopsagentServiceServiceDetailsMcpServerSplunkOutputReference exte
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -4330,7 +4330,7 @@ export class DevopsagentServiceServiceDetailsPagerDutyAuthorizationConfigOAuthCl
   }
 
   // client_id - computed: true, optional: true, required: false
-  private _clientId?: string;
+  private _clientId?: string; 
   public get clientId() {
     return this.getStringAttribute('client_id');
   }
@@ -4346,7 +4346,7 @@ export class DevopsagentServiceServiceDetailsPagerDutyAuthorizationConfigOAuthCl
   }
 
   // client_name - computed: true, optional: true, required: false
-  private _clientName?: string;
+  private _clientName?: string; 
   public get clientName() {
     return this.getStringAttribute('client_name');
   }
@@ -4362,7 +4362,7 @@ export class DevopsagentServiceServiceDetailsPagerDutyAuthorizationConfigOAuthCl
   }
 
   // client_secret - computed: true, optional: true, required: false
-  private _clientSecret?: string;
+  private _clientSecret?: string; 
   public get clientSecret() {
     return this.getStringAttribute('client_secret');
   }
@@ -4378,7 +4378,7 @@ export class DevopsagentServiceServiceDetailsPagerDutyAuthorizationConfigOAuthCl
   }
 
   // exchange_parameters - computed: true, optional: true, required: false
-  private _exchangeParameters?: string;
+  private _exchangeParameters?: string; 
   public get exchangeParameters() {
     return this.getStringAttribute('exchange_parameters');
   }
@@ -4605,7 +4605,7 @@ export class DevopsagentServiceServiceDetailsPagerDutyOutputReference extends cd
   }
 
   // scopes - computed: true, optional: true, required: false
-  private _scopes?: string[];
+  private _scopes?: string[]; 
   public get scopes() {
     return this.getListAttribute('scopes');
   }
@@ -4758,7 +4758,7 @@ export class DevopsagentServiceServiceDetailsServiceNowAuthorizationConfigOAuthC
   }
 
   // client_id - computed: true, optional: true, required: false
-  private _clientId?: string;
+  private _clientId?: string; 
   public get clientId() {
     return this.getStringAttribute('client_id');
   }
@@ -4774,7 +4774,7 @@ export class DevopsagentServiceServiceDetailsServiceNowAuthorizationConfigOAuthC
   }
 
   // client_name - computed: true, optional: true, required: false
-  private _clientName?: string;
+  private _clientName?: string; 
   public get clientName() {
     return this.getStringAttribute('client_name');
   }
@@ -4790,7 +4790,7 @@ export class DevopsagentServiceServiceDetailsServiceNowAuthorizationConfigOAuthC
   }
 
   // client_secret - computed: true, optional: true, required: false
-  private _clientSecret?: string;
+  private _clientSecret?: string; 
   public get clientSecret() {
     return this.getStringAttribute('client_secret');
   }
@@ -4806,7 +4806,7 @@ export class DevopsagentServiceServiceDetailsServiceNowAuthorizationConfigOAuthC
   }
 
   // exchange_parameters - computed: true, optional: true, required: false
-  private _exchangeParameters?: string;
+  private _exchangeParameters?: string; 
   public get exchangeParameters() {
     return this.getStringAttribute('exchange_parameters');
   }
@@ -5033,7 +5033,7 @@ export class DevopsagentServiceServiceDetailsServiceNowOutputReference extends c
   }
 
   // instance_url - computed: true, optional: true, required: false
-  private _instanceUrl?: string;
+  private _instanceUrl?: string; 
   public get instanceUrl() {
     return this.getStringAttribute('instance_url');
   }
@@ -5561,7 +5561,7 @@ export class DevopsagentServiceTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -5577,7 +5577,7 @@ export class DevopsagentServiceTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -5696,7 +5696,7 @@ export class DevopsagentService extends cdktn.TerraformResource {
   }
 
   // kms_key_arn - computed: true, optional: true, required: false
-  private _kmsKeyArn?: string;
+  private _kmsKeyArn?: string; 
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -5733,7 +5733,7 @@ export class DevopsagentService extends cdktn.TerraformResource {
   }
 
   // service_type - computed: false, optional: false, required: true
-  private _serviceType?: string;
+  private _serviceType?: string; 
   public get serviceType() {
     return this.getStringAttribute('service_type');
   }

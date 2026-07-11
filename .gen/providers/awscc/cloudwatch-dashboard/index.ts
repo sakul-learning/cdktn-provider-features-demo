@@ -128,7 +128,7 @@ export class CloudwatchDashboardTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -144,7 +144,7 @@ export class CloudwatchDashboardTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -240,7 +240,7 @@ export class CloudwatchDashboard extends cdktn.TerraformResource {
   // ==========
 
   // dashboard_body - computed: false, optional: false, required: true
-  private _dashboardBody?: string;
+  private _dashboardBody?: string; 
   public get dashboardBody() {
     return this.getStringAttribute('dashboard_body');
   }
@@ -253,7 +253,7 @@ export class CloudwatchDashboard extends cdktn.TerraformResource {
   }
 
   // dashboard_name - computed: true, optional: true, required: false
-  private _dashboardName?: string;
+  private _dashboardName?: string; 
   public get dashboardName() {
     return this.getStringAttribute('dashboard_name');
   }

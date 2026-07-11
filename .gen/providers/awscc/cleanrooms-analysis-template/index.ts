@@ -171,7 +171,7 @@ export class CleanroomsAnalysisTemplateAnalysisParametersOutputReference extends
   }
 
   // default_value - computed: true, optional: true, required: false
-  private _defaultValue?: string;
+  private _defaultValue?: string; 
   public get defaultValue() {
     return this.getStringAttribute('default_value');
   }
@@ -187,7 +187,7 @@ export class CleanroomsAnalysisTemplateAnalysisParametersOutputReference extends
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -203,7 +203,7 @@ export class CleanroomsAnalysisTemplateAnalysisParametersOutputReference extends
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -317,7 +317,7 @@ export class CleanroomsAnalysisTemplateErrorMessageConfigurationOutputReference 
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -411,7 +411,7 @@ export class CleanroomsAnalysisTemplateSchemaOutputReference extends cdktn.Compl
   }
 
   // referenced_tables - computed: true, optional: true, required: false
-  private _referencedTables?: string[];
+  private _referencedTables?: string[]; 
   public get referencedTables() {
     return this.getListAttribute('referenced_tables');
   }
@@ -522,7 +522,7 @@ export class CleanroomsAnalysisTemplateSourceArtifactsAdditionalArtifactsLocatio
   }
 
   // bucket - computed: true, optional: true, required: false
-  private _bucket?: string;
+  private _bucket?: string; 
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -538,7 +538,7 @@ export class CleanroomsAnalysisTemplateSourceArtifactsAdditionalArtifactsLocatio
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -765,7 +765,7 @@ export class CleanroomsAnalysisTemplateSourceArtifactsEntryPointLocationOutputRe
   }
 
   // bucket - computed: true, optional: true, required: false
-  private _bucket?: string;
+  private _bucket?: string; 
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -781,7 +781,7 @@ export class CleanroomsAnalysisTemplateSourceArtifactsEntryPointLocationOutputRe
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1035,7 +1035,7 @@ export class CleanroomsAnalysisTemplateSourceArtifactsOutputReference extends cd
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -1162,7 +1162,7 @@ export class CleanroomsAnalysisTemplateSourceOutputReference extends cdktn.Compl
   }
 
   // text - computed: true, optional: true, required: false
-  private _text?: string;
+  private _text?: string; 
   public get text() {
     return this.getStringAttribute('text');
   }
@@ -1258,7 +1258,7 @@ export class CleanroomsAnalysisTemplateSourceMetadataArtifactsAdditionalArtifact
   }
 
   // sha_256 - computed: true, optional: true, required: false
-  private _sha256?: string;
+  private _sha256?: string; 
   public get sha256() {
     return this.getStringAttribute('sha_256');
   }
@@ -1372,7 +1372,7 @@ export class CleanroomsAnalysisTemplateSourceMetadataArtifactsEntryPointHashOutp
   }
 
   // sha_256 - computed: true, optional: true, required: false
-  private _sha256?: string;
+  private _sha256?: string; 
   public get sha256() {
     return this.getStringAttribute('sha_256');
   }
@@ -1723,7 +1723,7 @@ export class CleanroomsAnalysisTemplateSyntheticDataParametersMlSyntheticDataPar
   }
 
   // column_name - computed: true, optional: true, required: false
-  private _columnName?: string;
+  private _columnName?: string; 
   public get columnName() {
     return this.getStringAttribute('column_name');
   }
@@ -1739,7 +1739,7 @@ export class CleanroomsAnalysisTemplateSyntheticDataParametersMlSyntheticDataPar
   }
 
   // column_type - computed: true, optional: true, required: false
-  private _columnType?: string;
+  private _columnType?: string; 
   public get columnType() {
     return this.getStringAttribute('column_type');
   }
@@ -1755,7 +1755,7 @@ export class CleanroomsAnalysisTemplateSyntheticDataParametersMlSyntheticDataPar
   }
 
   // is_predictive_value - computed: true, optional: true, required: false
-  private _isPredictiveValue?: boolean | cdktn.IResolvable;
+  private _isPredictiveValue?: boolean | cdktn.IResolvable; 
   public get isPredictiveValue() {
     return this.getBooleanAttribute('is_predictive_value');
   }
@@ -2013,7 +2013,7 @@ export class CleanroomsAnalysisTemplateSyntheticDataParametersMlSyntheticDataPar
   }
 
   // epsilon - computed: true, optional: true, required: false
-  private _epsilon?: number;
+  private _epsilon?: number; 
   public get epsilon() {
     return this.getNumberAttribute('epsilon');
   }
@@ -2029,7 +2029,7 @@ export class CleanroomsAnalysisTemplateSyntheticDataParametersMlSyntheticDataPar
   }
 
   // max_membership_inference_attack_score - computed: true, optional: true, required: false
-  private _maxMembershipInferenceAttackScore?: number;
+  private _maxMembershipInferenceAttackScore?: number; 
   public get maxMembershipInferenceAttackScore() {
     return this.getNumberAttribute('max_membership_inference_attack_score');
   }
@@ -2236,7 +2236,7 @@ export class CleanroomsAnalysisTemplateTagsOutputReference extends cdktn.Complex
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -2252,7 +2252,7 @@ export class CleanroomsAnalysisTemplateTagsOutputReference extends cdktn.Complex
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2392,7 +2392,7 @@ export class CleanroomsAnalysisTemplate extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -2424,7 +2424,7 @@ export class CleanroomsAnalysisTemplate extends cdktn.TerraformResource {
   }
 
   // format - computed: false, optional: false, required: true
-  private _format?: string;
+  private _format?: string; 
   public get format() {
     return this.getStringAttribute('format');
   }
@@ -2447,7 +2447,7 @@ export class CleanroomsAnalysisTemplate extends cdktn.TerraformResource {
   }
 
   // membership_identifier - computed: false, optional: false, required: true
-  private _membershipIdentifier?: string;
+  private _membershipIdentifier?: string; 
   public get membershipIdentifier() {
     return this.getStringAttribute('membership_identifier');
   }
@@ -2460,7 +2460,7 @@ export class CleanroomsAnalysisTemplate extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }

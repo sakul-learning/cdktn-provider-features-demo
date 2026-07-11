@@ -134,7 +134,7 @@ export class CloudfrontRealtimeLogConfigEndPointsKinesisStreamConfigOutputRefere
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -147,7 +147,7 @@ export class CloudfrontRealtimeLogConfigEndPointsKinesisStreamConfigOutputRefere
   }
 
   // stream_arn - computed: false, optional: false, required: true
-  private _streamArn?: string;
+  private _streamArn?: string; 
   public get streamArn() {
     return this.getStringAttribute('stream_arn');
   }
@@ -274,7 +274,7 @@ export class CloudfrontRealtimeLogConfigEndPointsOutputReference extends cdktn.C
   }
 
   // stream_type - computed: false, optional: false, required: true
-  private _streamType?: string;
+  private _streamType?: string; 
   public get streamType() {
     return this.getStringAttribute('stream_type');
   }
@@ -386,7 +386,7 @@ export class CloudfrontRealtimeLogConfig extends cdktn.TerraformResource {
   }
 
   // fields - computed: false, optional: false, required: true
-  private _fields?: string[];
+  private _fields?: string[]; 
   public get fields() {
     return this.getListAttribute('fields');
   }
@@ -404,7 +404,7 @@ export class CloudfrontRealtimeLogConfig extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -417,7 +417,7 @@ export class CloudfrontRealtimeLogConfig extends cdktn.TerraformResource {
   }
 
   // sampling_rate - computed: false, optional: false, required: true
-  private _samplingRate?: number;
+  private _samplingRate?: number; 
   public get samplingRate() {
     return this.getNumberAttribute('sampling_rate');
   }

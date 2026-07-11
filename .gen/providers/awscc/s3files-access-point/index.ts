@@ -155,7 +155,7 @@ export class S3FilesAccessPointPosixUserOutputReference extends cdktn.ComplexObj
   }
 
   // gid - computed: true, optional: true, required: false
-  private _gid?: string;
+  private _gid?: string; 
   public get gid() {
     return this.getStringAttribute('gid');
   }
@@ -171,7 +171,7 @@ export class S3FilesAccessPointPosixUserOutputReference extends cdktn.ComplexObj
   }
 
   // secondary_gids - computed: true, optional: true, required: false
-  private _secondaryGids?: string[];
+  private _secondaryGids?: string[]; 
   public get secondaryGids() {
     return this.getListAttribute('secondary_gids');
   }
@@ -187,7 +187,7 @@ export class S3FilesAccessPointPosixUserOutputReference extends cdktn.ComplexObj
   }
 
   // uid - computed: true, optional: true, required: false
-  private _uid?: string;
+  private _uid?: string; 
   public get uid() {
     return this.getStringAttribute('uid');
   }
@@ -321,7 +321,7 @@ export class S3FilesAccessPointRootDirectoryCreationPermissionsOutputReference e
   }
 
   // owner_gid - computed: true, optional: true, required: false
-  private _ownerGid?: string;
+  private _ownerGid?: string; 
   public get ownerGid() {
     return this.getStringAttribute('owner_gid');
   }
@@ -337,7 +337,7 @@ export class S3FilesAccessPointRootDirectoryCreationPermissionsOutputReference e
   }
 
   // owner_uid - computed: true, optional: true, required: false
-  private _ownerUid?: string;
+  private _ownerUid?: string; 
   public get ownerUid() {
     return this.getStringAttribute('owner_uid');
   }
@@ -353,7 +353,7 @@ export class S3FilesAccessPointRootDirectoryCreationPermissionsOutputReference e
   }
 
   // permissions - computed: true, optional: true, required: false
-  private _permissions?: string;
+  private _permissions?: string; 
   public get permissions() {
     return this.getStringAttribute('permissions');
   }
@@ -370,7 +370,7 @@ export class S3FilesAccessPointRootDirectoryCreationPermissionsOutputReference e
 }
 export interface S3FilesAccessPointRootDirectory {
   /**
-  * (Optional) Specifies the POSIX IDs and permissions to apply to the access point's RootDirectory. If the RootDirectory>Path specified does not exist, EFS creates the root directory using the CreationPermissions settings when a client connects to an access point. When specifying the CreationPermissions, you must provide values for all properties.   If you do not provide CreationPermissions and the specified RootDirectory>Path does not exist, attempts to mount the file system using the access point will fail.
+  * (Optional) Specifies the POSIX IDs and permissions to apply to the access point's RootDirectory. If the RootDirectory>Path specified does not exist, EFS creates the root directory using the CreationPermissions settings when a client connects to an access point. When specifying the CreationPermissions, you must provide values for all properties.   If you do not provide CreationPermissions and the specified RootDirectory>Path does not exist, attempts to mount the file system using the access point will fail. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3files_access_point#creation_permissions S3FilesAccessPoint#creation_permissions}
   */
@@ -484,7 +484,7 @@ export class S3FilesAccessPointRootDirectoryOutputReference extends cdktn.Comple
   }
 
   // path - computed: true, optional: true, required: false
-  private _path?: string;
+  private _path?: string; 
   public get path() {
     return this.getStringAttribute('path');
   }
@@ -597,7 +597,7 @@ export class S3FilesAccessPointTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -613,7 +613,7 @@ export class S3FilesAccessPointTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -721,7 +721,7 @@ export class S3FilesAccessPoint extends cdktn.TerraformResource {
   }
 
   // client_token - computed: true, optional: true, required: false
-  private _clientToken?: string;
+  private _clientToken?: string; 
   public get clientToken() {
     return this.getStringAttribute('client_token');
   }
@@ -737,7 +737,7 @@ export class S3FilesAccessPoint extends cdktn.TerraformResource {
   }
 
   // file_system_id - computed: false, optional: false, required: true
-  private _fileSystemId?: string;
+  private _fileSystemId?: string; 
   public get fileSystemId() {
     return this.getStringAttribute('file_system_id');
   }

@@ -128,7 +128,7 @@ export class NeptunegraphGraphSnapshotTagsOutputReference extends cdktn.ComplexO
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -144,7 +144,7 @@ export class NeptunegraphGraphSnapshotTagsOutputReference extends cdktn.ComplexO
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -245,7 +245,7 @@ export class NeptunegraphGraphSnapshot extends cdktn.TerraformResource {
   }
 
   // graph_identifier - computed: false, optional: false, required: true
-  private _graphIdentifier?: string;
+  private _graphIdentifier?: string; 
   public get graphIdentifier() {
     return this.getStringAttribute('graph_identifier');
   }
@@ -278,7 +278,7 @@ export class NeptunegraphGraphSnapshot extends cdktn.TerraformResource {
   }
 
   // snapshot_name - computed: false, optional: false, required: true
-  private _snapshotName?: string;
+  private _snapshotName?: string; 
   public get snapshotName() {
     return this.getStringAttribute('snapshot_name');
   }

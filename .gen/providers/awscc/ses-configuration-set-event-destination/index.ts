@@ -141,7 +141,7 @@ export class SesConfigurationSetEventDestinationEventDestinationCloudwatchDestin
   }
 
   // default_dimension_value - computed: true, optional: true, required: false
-  private _defaultDimensionValue?: string;
+  private _defaultDimensionValue?: string; 
   public get defaultDimensionValue() {
     return this.getStringAttribute('default_dimension_value');
   }
@@ -157,7 +157,7 @@ export class SesConfigurationSetEventDestinationEventDestinationCloudwatchDestin
   }
 
   // dimension_name - computed: true, optional: true, required: false
-  private _dimensionName?: string;
+  private _dimensionName?: string; 
   public get dimensionName() {
     return this.getStringAttribute('dimension_name');
   }
@@ -173,7 +173,7 @@ export class SesConfigurationSetEventDestinationEventDestinationCloudwatchDestin
   }
 
   // dimension_value_source - computed: true, optional: true, required: false
-  private _dimensionValueSource?: string;
+  private _dimensionValueSource?: string; 
   public get dimensionValueSource() {
     return this.getStringAttribute('dimension_value_source');
   }
@@ -383,7 +383,7 @@ export class SesConfigurationSetEventDestinationEventDestinationEventBridgeDesti
   }
 
   // event_bus_arn - computed: true, optional: true, required: false
-  private _eventBusArn?: string;
+  private _eventBusArn?: string; 
   public get eventBusArn() {
     return this.getStringAttribute('event_bus_arn');
   }
@@ -498,7 +498,7 @@ export class SesConfigurationSetEventDestinationEventDestinationKinesisFirehoseD
   }
 
   // delivery_stream_arn - computed: true, optional: true, required: false
-  private _deliveryStreamArn?: string;
+  private _deliveryStreamArn?: string; 
   public get deliveryStreamArn() {
     return this.getStringAttribute('delivery_stream_arn');
   }
@@ -514,7 +514,7 @@ export class SesConfigurationSetEventDestinationEventDestinationKinesisFirehoseD
   }
 
   // iam_role_arn - computed: true, optional: true, required: false
-  private _iamRoleArn?: string;
+  private _iamRoleArn?: string; 
   public get iamRoleArn() {
     return this.getStringAttribute('iam_role_arn');
   }
@@ -608,7 +608,7 @@ export class SesConfigurationSetEventDestinationEventDestinationSnsDestinationOu
   }
 
   // topic_arn - computed: true, optional: true, required: false
-  private _topicArn?: string;
+  private _topicArn?: string; 
   public get topicArn() {
     return this.getStringAttribute('topic_arn');
   }
@@ -631,7 +631,7 @@ export interface SesConfigurationSetEventDestinationEventDestination {
   */
   readonly cloudwatchDestination?: SesConfigurationSetEventDestinationEventDestinationCloudwatchDestination;
   /**
-  * Sets whether Amazon SES publishes events to this destination when you send an email with the associated configuration set. Set to true to enable publishing to this destination; set to false to prevent publishing to this destination. The default value is false.
+  * Sets whether Amazon SES publishes events to this destination when you send an email with the associated configuration set. Set to true to enable publishing to this destination; set to false to prevent publishing to this destination. The default value is false.   
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_configuration_set_event_destination#enabled SesConfigurationSetEventDestination#enabled}
   */
@@ -834,7 +834,7 @@ export class SesConfigurationSetEventDestinationEventDestinationOutputReference 
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -882,7 +882,7 @@ export class SesConfigurationSetEventDestinationEventDestinationOutputReference 
   }
 
   // matching_event_types - computed: false, optional: false, required: true
-  private _matchingEventTypes?: string[];
+  private _matchingEventTypes?: string[]; 
   public get matchingEventTypes() {
     return this.getListAttribute('matching_event_types');
   }
@@ -895,7 +895,7 @@ export class SesConfigurationSetEventDestinationEventDestinationOutputReference 
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -991,7 +991,7 @@ export class SesConfigurationSetEventDestination extends cdktn.TerraformResource
   }
 
   // configuration_set_name - computed: false, optional: false, required: true
-  private _configurationSetName?: string;
+  private _configurationSetName?: string; 
   public get configurationSetName() {
     return this.getStringAttribute('configuration_set_name');
   }

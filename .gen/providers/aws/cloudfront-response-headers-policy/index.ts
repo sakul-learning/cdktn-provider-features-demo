@@ -122,7 +122,7 @@ export class CloudfrontResponseHeadersPolicyCorsConfigAccessControlAllowHeadersO
   }
 
   // items - computed: false, optional: true, required: false
-  private _items?: string[];
+  private _items?: string[]; 
   public get items() {
     return cdktn.Fn.tolist(this.getListAttribute('items'));
   }
@@ -206,7 +206,7 @@ export class CloudfrontResponseHeadersPolicyCorsConfigAccessControlAllowMethodsO
   }
 
   // items - computed: false, optional: true, required: false
-  private _items?: string[];
+  private _items?: string[]; 
   public get items() {
     return cdktn.Fn.tolist(this.getListAttribute('items'));
   }
@@ -290,7 +290,7 @@ export class CloudfrontResponseHeadersPolicyCorsConfigAccessControlAllowOriginsO
   }
 
   // items - computed: false, optional: true, required: false
-  private _items?: string[];
+  private _items?: string[]; 
   public get items() {
     return cdktn.Fn.tolist(this.getListAttribute('items'));
   }
@@ -374,7 +374,7 @@ export class CloudfrontResponseHeadersPolicyCorsConfigAccessControlExposeHeaders
   }
 
   // items - computed: false, optional: true, required: false
-  private _items?: string[];
+  private _items?: string[]; 
   public get items() {
     return cdktn.Fn.tolist(this.getListAttribute('items'));
   }
@@ -568,7 +568,7 @@ export class CloudfrontResponseHeadersPolicyCorsConfigOutputReference extends cd
   }
 
   // access_control_allow_credentials - computed: false, optional: false, required: true
-  private _accessControlAllowCredentials?: boolean | cdktn.IResolvable;
+  private _accessControlAllowCredentials?: boolean | cdktn.IResolvable; 
   public get accessControlAllowCredentials() {
     return this.getBooleanAttribute('access_control_allow_credentials');
   }
@@ -581,7 +581,7 @@ export class CloudfrontResponseHeadersPolicyCorsConfigOutputReference extends cd
   }
 
   // access_control_max_age_sec - computed: false, optional: true, required: false
-  private _accessControlMaxAgeSec?: number;
+  private _accessControlMaxAgeSec?: number; 
   public get accessControlMaxAgeSec() {
     return this.getNumberAttribute('access_control_max_age_sec');
   }
@@ -597,7 +597,7 @@ export class CloudfrontResponseHeadersPolicyCorsConfigOutputReference extends cd
   }
 
   // origin_override - computed: false, optional: false, required: true
-  private _originOverride?: boolean | cdktn.IResolvable;
+  private _originOverride?: boolean | cdktn.IResolvable; 
   public get originOverride() {
     return this.getBooleanAttribute('origin_override');
   }
@@ -779,7 +779,7 @@ export class CloudfrontResponseHeadersPolicyCustomHeadersConfigItemsOutputRefere
   }
 
   // header - computed: false, optional: false, required: true
-  private _header?: string;
+  private _header?: string; 
   public get header() {
     return this.getStringAttribute('header');
   }
@@ -792,7 +792,7 @@ export class CloudfrontResponseHeadersPolicyCustomHeadersConfigItemsOutputRefere
   }
 
   // override - computed: false, optional: false, required: true
-  private _override?: boolean | cdktn.IResolvable;
+  private _override?: boolean | cdktn.IResolvable; 
   public get override() {
     return this.getBooleanAttribute('override');
   }
@@ -805,7 +805,7 @@ export class CloudfrontResponseHeadersPolicyCustomHeadersConfigItemsOutputRefere
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1004,7 +1004,7 @@ export class CloudfrontResponseHeadersPolicyRemoveHeadersConfigItemsOutputRefere
   }
 
   // header - computed: false, optional: false, required: true
-  private _header?: string;
+  private _header?: string; 
   public get header() {
     return this.getStringAttribute('header');
   }
@@ -1208,7 +1208,7 @@ export class CloudfrontResponseHeadersPolicySecurityHeadersConfigContentSecurity
   }
 
   // content_security_policy - computed: false, optional: false, required: true
-  private _contentSecurityPolicy?: string;
+  private _contentSecurityPolicy?: string; 
   public get contentSecurityPolicy() {
     return this.getStringAttribute('content_security_policy');
   }
@@ -1221,7 +1221,7 @@ export class CloudfrontResponseHeadersPolicySecurityHeadersConfigContentSecurity
   }
 
   // override - computed: false, optional: false, required: true
-  private _override?: boolean | cdktn.IResolvable;
+  private _override?: boolean | cdktn.IResolvable; 
   public get override() {
     return this.getBooleanAttribute('override');
   }
@@ -1302,7 +1302,7 @@ export class CloudfrontResponseHeadersPolicySecurityHeadersConfigContentTypeOpti
   }
 
   // override - computed: false, optional: false, required: true
-  private _override?: boolean | cdktn.IResolvable;
+  private _override?: boolean | cdktn.IResolvable; 
   public get override() {
     return this.getBooleanAttribute('override');
   }
@@ -1400,7 +1400,7 @@ export class CloudfrontResponseHeadersPolicySecurityHeadersConfigFrameOptionsOut
   }
 
   // frame_option - computed: false, optional: false, required: true
-  private _frameOption?: string;
+  private _frameOption?: string; 
   public get frameOption() {
     return this.getStringAttribute('frame_option');
   }
@@ -1413,7 +1413,7 @@ export class CloudfrontResponseHeadersPolicySecurityHeadersConfigFrameOptionsOut
   }
 
   // override - computed: false, optional: false, required: true
-  private _override?: boolean | cdktn.IResolvable;
+  private _override?: boolean | cdktn.IResolvable; 
   public get override() {
     return this.getBooleanAttribute('override');
   }
@@ -1511,7 +1511,7 @@ export class CloudfrontResponseHeadersPolicySecurityHeadersConfigReferrerPolicyO
   }
 
   // override - computed: false, optional: false, required: true
-  private _override?: boolean | cdktn.IResolvable;
+  private _override?: boolean | cdktn.IResolvable; 
   public get override() {
     return this.getBooleanAttribute('override');
   }
@@ -1524,7 +1524,7 @@ export class CloudfrontResponseHeadersPolicySecurityHeadersConfigReferrerPolicyO
   }
 
   // referrer_policy - computed: false, optional: false, required: true
-  private _referrerPolicy?: string;
+  private _referrerPolicy?: string; 
   public get referrerPolicy() {
     return this.getStringAttribute('referrer_policy');
   }
@@ -1656,7 +1656,7 @@ export class CloudfrontResponseHeadersPolicySecurityHeadersConfigStrictTransport
   }
 
   // access_control_max_age_sec - computed: false, optional: false, required: true
-  private _accessControlMaxAgeSec?: number;
+  private _accessControlMaxAgeSec?: number; 
   public get accessControlMaxAgeSec() {
     return this.getNumberAttribute('access_control_max_age_sec');
   }
@@ -1669,7 +1669,7 @@ export class CloudfrontResponseHeadersPolicySecurityHeadersConfigStrictTransport
   }
 
   // include_subdomains - computed: false, optional: true, required: false
-  private _includeSubdomains?: boolean | cdktn.IResolvable;
+  private _includeSubdomains?: boolean | cdktn.IResolvable; 
   public get includeSubdomains() {
     return this.getBooleanAttribute('include_subdomains');
   }
@@ -1685,7 +1685,7 @@ export class CloudfrontResponseHeadersPolicySecurityHeadersConfigStrictTransport
   }
 
   // override - computed: false, optional: false, required: true
-  private _override?: boolean | cdktn.IResolvable;
+  private _override?: boolean | cdktn.IResolvable; 
   public get override() {
     return this.getBooleanAttribute('override');
   }
@@ -1698,7 +1698,7 @@ export class CloudfrontResponseHeadersPolicySecurityHeadersConfigStrictTransport
   }
 
   // preload - computed: false, optional: true, required: false
-  private _preload?: boolean | cdktn.IResolvable;
+  private _preload?: boolean | cdktn.IResolvable; 
   public get preload() {
     return this.getBooleanAttribute('preload');
   }
@@ -1833,7 +1833,7 @@ export class CloudfrontResponseHeadersPolicySecurityHeadersConfigXssProtectionOu
   }
 
   // mode_block - computed: false, optional: true, required: false
-  private _modeBlock?: boolean | cdktn.IResolvable;
+  private _modeBlock?: boolean | cdktn.IResolvable; 
   public get modeBlock() {
     return this.getBooleanAttribute('mode_block');
   }
@@ -1849,7 +1849,7 @@ export class CloudfrontResponseHeadersPolicySecurityHeadersConfigXssProtectionOu
   }
 
   // override - computed: false, optional: false, required: true
-  private _override?: boolean | cdktn.IResolvable;
+  private _override?: boolean | cdktn.IResolvable; 
   public get override() {
     return this.getBooleanAttribute('override');
   }
@@ -1862,7 +1862,7 @@ export class CloudfrontResponseHeadersPolicySecurityHeadersConfigXssProtectionOu
   }
 
   // protection - computed: false, optional: false, required: true
-  private _protection?: boolean | cdktn.IResolvable;
+  private _protection?: boolean | cdktn.IResolvable; 
   public get protection() {
     return this.getBooleanAttribute('protection');
   }
@@ -1875,7 +1875,7 @@ export class CloudfrontResponseHeadersPolicySecurityHeadersConfigXssProtectionOu
   }
 
   // report_uri - computed: false, optional: true, required: false
-  private _reportUri?: string;
+  private _reportUri?: string; 
   public get reportUri() {
     return this.getStringAttribute('report_uri');
   }
@@ -2237,7 +2237,7 @@ export class CloudfrontResponseHeadersPolicyServerTimingHeadersConfigOutputRefer
   }
 
   // enabled - computed: false, optional: false, required: true
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -2250,7 +2250,7 @@ export class CloudfrontResponseHeadersPolicyServerTimingHeadersConfigOutputRefer
   }
 
   // sampling_rate - computed: false, optional: false, required: true
-  private _samplingRate?: number;
+  private _samplingRate?: number; 
   public get samplingRate() {
     return this.getNumberAttribute('sampling_rate');
   }
@@ -2333,7 +2333,7 @@ export class CloudfrontResponseHeadersPolicy extends cdktn.TerraformResource {
   }
 
   // comment - computed: false, optional: true, required: false
-  private _comment?: string;
+  private _comment?: string; 
   public get comment() {
     return this.getStringAttribute('comment');
   }
@@ -2354,7 +2354,7 @@ export class CloudfrontResponseHeadersPolicy extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -2370,7 +2370,7 @@ export class CloudfrontResponseHeadersPolicy extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }

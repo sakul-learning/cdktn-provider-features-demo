@@ -246,7 +246,7 @@ export class Ec2TransitGatewayConnectPeerConnectPeerConfigurationOutputReference
   }
 
   // inside_cidr_blocks - computed: false, optional: false, required: true
-  private _insideCidrBlocks?: string[];
+  private _insideCidrBlocks?: string[]; 
   public get insideCidrBlocks() {
     return this.getListAttribute('inside_cidr_blocks');
   }
@@ -259,7 +259,7 @@ export class Ec2TransitGatewayConnectPeerConnectPeerConfigurationOutputReference
   }
 
   // peer_address - computed: false, optional: false, required: true
-  private _peerAddress?: string;
+  private _peerAddress?: string; 
   public get peerAddress() {
     return this.getStringAttribute('peer_address');
   }
@@ -277,7 +277,7 @@ export class Ec2TransitGatewayConnectPeerConnectPeerConfigurationOutputReference
   }
 
   // transit_gateway_address - computed: true, optional: true, required: false
-  private _transitGatewayAddress?: string;
+  private _transitGatewayAddress?: string; 
   public get transitGatewayAddress() {
     return this.getStringAttribute('transit_gateway_address');
   }
@@ -394,7 +394,7 @@ export class Ec2TransitGatewayConnectPeerTagsOutputReference extends cdktn.Compl
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -410,7 +410,7 @@ export class Ec2TransitGatewayConnectPeerTagsOutputReference extends cdktn.Compl
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -550,7 +550,7 @@ export class Ec2TransitGatewayConnectPeer extends cdktn.TerraformResource {
   }
 
   // transit_gateway_attachment_id - computed: false, optional: false, required: true
-  private _transitGatewayAttachmentId?: string;
+  private _transitGatewayAttachmentId?: string; 
   public get transitGatewayAttachmentId() {
     return this.getStringAttribute('transit_gateway_attachment_id');
   }

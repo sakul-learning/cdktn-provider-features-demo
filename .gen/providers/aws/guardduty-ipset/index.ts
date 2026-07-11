@@ -116,7 +116,7 @@ export class GuarddutyIpset extends cdktn.TerraformResource {
   // ==========
 
   // activate - computed: false, optional: false, required: true
-  private _activate?: boolean | cdktn.IResolvable;
+  private _activate?: boolean | cdktn.IResolvable; 
   public get activate() {
     return this.getBooleanAttribute('activate');
   }
@@ -134,7 +134,7 @@ export class GuarddutyIpset extends cdktn.TerraformResource {
   }
 
   // detector_id - computed: false, optional: false, required: true
-  private _detectorId?: string;
+  private _detectorId?: string; 
   public get detectorId() {
     return this.getStringAttribute('detector_id');
   }
@@ -147,7 +147,7 @@ export class GuarddutyIpset extends cdktn.TerraformResource {
   }
 
   // format - computed: false, optional: false, required: true
-  private _format?: string;
+  private _format?: string; 
   public get format() {
     return this.getStringAttribute('format');
   }
@@ -160,7 +160,7 @@ export class GuarddutyIpset extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -181,7 +181,7 @@ export class GuarddutyIpset extends cdktn.TerraformResource {
   }
 
   // location - computed: false, optional: false, required: true
-  private _location?: string;
+  private _location?: string; 
   public get location() {
     return this.getStringAttribute('location');
   }
@@ -194,7 +194,7 @@ export class GuarddutyIpset extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -207,7 +207,7 @@ export class GuarddutyIpset extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -223,7 +223,7 @@ export class GuarddutyIpset extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -239,7 +239,7 @@ export class GuarddutyIpset extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

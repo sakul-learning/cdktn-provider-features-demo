@@ -146,7 +146,7 @@ export class BedrockBlueprintTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -162,7 +162,7 @@ export class BedrockBlueprintTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -266,7 +266,7 @@ export class BedrockBlueprint extends cdktn.TerraformResource {
   }
 
   // blueprint_name - computed: false, optional: false, required: true
-  private _blueprintName?: string;
+  private _blueprintName?: string; 
   public get blueprintName() {
     return this.getStringAttribute('blueprint_name');
   }
@@ -294,7 +294,7 @@ export class BedrockBlueprint extends cdktn.TerraformResource {
   }
 
   // kms_encryption_context - computed: true, optional: true, required: false
-  private _kmsEncryptionContext?: { [key: string]: string };
+  private _kmsEncryptionContext?: { [key: string]: string }; 
   public get kmsEncryptionContext() {
     return this.getStringMapAttribute('kms_encryption_context');
   }
@@ -310,7 +310,7 @@ export class BedrockBlueprint extends cdktn.TerraformResource {
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -331,7 +331,7 @@ export class BedrockBlueprint extends cdktn.TerraformResource {
   }
 
   // schema - computed: false, optional: false, required: true
-  private _schema?: string;
+  private _schema?: string; 
   public get schema() {
     return this.getStringAttribute('schema');
   }
@@ -360,7 +360,7 @@ export class BedrockBlueprint extends cdktn.TerraformResource {
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }

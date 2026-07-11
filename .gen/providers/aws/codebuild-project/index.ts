@@ -367,7 +367,7 @@ export class CodebuildProjectArtifactsOutputReference extends cdktn.ComplexObjec
   }
 
   // artifact_identifier - computed: false, optional: true, required: false
-  private _artifactIdentifier?: string;
+  private _artifactIdentifier?: string; 
   public get artifactIdentifier() {
     return this.getStringAttribute('artifact_identifier');
   }
@@ -383,7 +383,7 @@ export class CodebuildProjectArtifactsOutputReference extends cdktn.ComplexObjec
   }
 
   // bucket_owner_access - computed: false, optional: true, required: false
-  private _bucketOwnerAccess?: string;
+  private _bucketOwnerAccess?: string; 
   public get bucketOwnerAccess() {
     return this.getStringAttribute('bucket_owner_access');
   }
@@ -399,7 +399,7 @@ export class CodebuildProjectArtifactsOutputReference extends cdktn.ComplexObjec
   }
 
   // encryption_disabled - computed: false, optional: true, required: false
-  private _encryptionDisabled?: boolean | cdktn.IResolvable;
+  private _encryptionDisabled?: boolean | cdktn.IResolvable; 
   public get encryptionDisabled() {
     return this.getBooleanAttribute('encryption_disabled');
   }
@@ -415,7 +415,7 @@ export class CodebuildProjectArtifactsOutputReference extends cdktn.ComplexObjec
   }
 
   // location - computed: false, optional: true, required: false
-  private _location?: string;
+  private _location?: string; 
   public get location() {
     return this.getStringAttribute('location');
   }
@@ -431,7 +431,7 @@ export class CodebuildProjectArtifactsOutputReference extends cdktn.ComplexObjec
   }
 
   // name - computed: false, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -447,7 +447,7 @@ export class CodebuildProjectArtifactsOutputReference extends cdktn.ComplexObjec
   }
 
   // namespace_type - computed: false, optional: true, required: false
-  private _namespaceType?: string;
+  private _namespaceType?: string; 
   public get namespaceType() {
     return this.getStringAttribute('namespace_type');
   }
@@ -463,7 +463,7 @@ export class CodebuildProjectArtifactsOutputReference extends cdktn.ComplexObjec
   }
 
   // override_artifact_name - computed: false, optional: true, required: false
-  private _overrideArtifactName?: boolean | cdktn.IResolvable;
+  private _overrideArtifactName?: boolean | cdktn.IResolvable; 
   public get overrideArtifactName() {
     return this.getBooleanAttribute('override_artifact_name');
   }
@@ -479,7 +479,7 @@ export class CodebuildProjectArtifactsOutputReference extends cdktn.ComplexObjec
   }
 
   // packaging - computed: false, optional: true, required: false
-  private _packaging?: string;
+  private _packaging?: string; 
   public get packaging() {
     return this.getStringAttribute('packaging');
   }
@@ -495,7 +495,7 @@ export class CodebuildProjectArtifactsOutputReference extends cdktn.ComplexObjec
   }
 
   // path - computed: false, optional: true, required: false
-  private _path?: string;
+  private _path?: string; 
   public get path() {
     return this.getStringAttribute('path');
   }
@@ -511,7 +511,7 @@ export class CodebuildProjectArtifactsOutputReference extends cdktn.ComplexObjec
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -609,7 +609,7 @@ export class CodebuildProjectBuildBatchConfigRestrictionsOutputReference extends
   }
 
   // compute_types_allowed - computed: false, optional: true, required: false
-  private _computeTypesAllowed?: string[];
+  private _computeTypesAllowed?: string[]; 
   public get computeTypesAllowed() {
     return this.getListAttribute('compute_types_allowed');
   }
@@ -625,7 +625,7 @@ export class CodebuildProjectBuildBatchConfigRestrictionsOutputReference extends
   }
 
   // maximum_builds_allowed - computed: false, optional: true, required: false
-  private _maximumBuildsAllowed?: number;
+  private _maximumBuildsAllowed?: number; 
   public get maximumBuildsAllowed() {
     return this.getNumberAttribute('maximum_builds_allowed');
   }
@@ -762,7 +762,7 @@ export class CodebuildProjectBuildBatchConfigOutputReference extends cdktn.Compl
   }
 
   // combine_artifacts - computed: false, optional: true, required: false
-  private _combineArtifacts?: boolean | cdktn.IResolvable;
+  private _combineArtifacts?: boolean | cdktn.IResolvable; 
   public get combineArtifacts() {
     return this.getBooleanAttribute('combine_artifacts');
   }
@@ -778,7 +778,7 @@ export class CodebuildProjectBuildBatchConfigOutputReference extends cdktn.Compl
   }
 
   // service_role - computed: false, optional: false, required: true
-  private _serviceRole?: string;
+  private _serviceRole?: string; 
   public get serviceRole() {
     return this.getStringAttribute('service_role');
   }
@@ -791,7 +791,7 @@ export class CodebuildProjectBuildBatchConfigOutputReference extends cdktn.Compl
   }
 
   // timeout_in_mins - computed: false, optional: true, required: false
-  private _timeoutInMins?: number;
+  private _timeoutInMins?: number; 
   public get timeoutInMins() {
     return this.getNumberAttribute('timeout_in_mins');
   }
@@ -942,7 +942,7 @@ export class CodebuildProjectCacheOutputReference extends cdktn.ComplexObject {
   }
 
   // cache_namespace - computed: false, optional: true, required: false
-  private _cacheNamespace?: string;
+  private _cacheNamespace?: string; 
   public get cacheNamespace() {
     return this.getStringAttribute('cache_namespace');
   }
@@ -958,7 +958,7 @@ export class CodebuildProjectCacheOutputReference extends cdktn.ComplexObject {
   }
 
   // location - computed: false, optional: true, required: false
-  private _location?: string;
+  private _location?: string; 
   public get location() {
     return this.getStringAttribute('location');
   }
@@ -974,7 +974,7 @@ export class CodebuildProjectCacheOutputReference extends cdktn.ComplexObject {
   }
 
   // modes - computed: false, optional: true, required: false
-  private _modes?: string[];
+  private _modes?: string[]; 
   public get modes() {
     return this.getListAttribute('modes');
   }
@@ -990,7 +990,7 @@ export class CodebuildProjectCacheOutputReference extends cdktn.ComplexObject {
   }
 
   // type - computed: false, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -1091,7 +1091,7 @@ export class CodebuildProjectEnvironmentDockerServerOutputReference extends cdkt
   }
 
   // compute_type - computed: false, optional: false, required: true
-  private _computeType?: string;
+  private _computeType?: string; 
   public get computeType() {
     return this.getStringAttribute('compute_type');
   }
@@ -1104,7 +1104,7 @@ export class CodebuildProjectEnvironmentDockerServerOutputReference extends cdkt
   }
 
   // security_group_ids - computed: false, optional: true, required: false
-  private _securityGroupIds?: string[];
+  private _securityGroupIds?: string[]; 
   public get securityGroupIds() {
     return this.getListAttribute('security_group_ids');
   }
@@ -1234,7 +1234,7 @@ export class CodebuildProjectEnvironmentEnvironmentVariableOutputReference exten
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1247,7 +1247,7 @@ export class CodebuildProjectEnvironmentEnvironmentVariableOutputReference exten
   }
 
   // type - computed: false, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -1263,7 +1263,7 @@ export class CodebuildProjectEnvironmentEnvironmentVariableOutputReference exten
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1364,7 +1364,7 @@ export class CodebuildProjectEnvironmentFleetOutputReference extends cdktn.Compl
   }
 
   // fleet_arn - computed: false, optional: true, required: false
-  private _fleetArn?: string;
+  private _fleetArn?: string; 
   public get fleetArn() {
     return this.getStringAttribute('fleet_arn');
   }
@@ -1465,7 +1465,7 @@ export class CodebuildProjectEnvironmentRegistryCredentialOutputReference extend
   }
 
   // credential - computed: false, optional: false, required: true
-  private _credential?: string;
+  private _credential?: string; 
   public get credential() {
     return this.getStringAttribute('credential');
   }
@@ -1478,7 +1478,7 @@ export class CodebuildProjectEnvironmentRegistryCredentialOutputReference extend
   }
 
   // credential_provider - computed: false, optional: false, required: true
-  private _credentialProvider?: string;
+  private _credentialProvider?: string; 
   public get credentialProvider() {
     return this.getStringAttribute('credential_provider');
   }
@@ -1737,7 +1737,7 @@ export class CodebuildProjectEnvironmentOutputReference extends cdktn.ComplexObj
   }
 
   // certificate - computed: false, optional: true, required: false
-  private _certificate?: string;
+  private _certificate?: string; 
   public get certificate() {
     return this.getStringAttribute('certificate');
   }
@@ -1753,7 +1753,7 @@ export class CodebuildProjectEnvironmentOutputReference extends cdktn.ComplexObj
   }
 
   // compute_type - computed: false, optional: false, required: true
-  private _computeType?: string;
+  private _computeType?: string; 
   public get computeType() {
     return this.getStringAttribute('compute_type');
   }
@@ -1766,7 +1766,7 @@ export class CodebuildProjectEnvironmentOutputReference extends cdktn.ComplexObj
   }
 
   // host_kernel - computed: true, optional: true, required: false
-  private _hostKernel?: string;
+  private _hostKernel?: string; 
   public get hostKernel() {
     return this.getStringAttribute('host_kernel');
   }
@@ -1782,7 +1782,7 @@ export class CodebuildProjectEnvironmentOutputReference extends cdktn.ComplexObj
   }
 
   // image - computed: false, optional: false, required: true
-  private _image?: string;
+  private _image?: string; 
   public get image() {
     return this.getStringAttribute('image');
   }
@@ -1795,7 +1795,7 @@ export class CodebuildProjectEnvironmentOutputReference extends cdktn.ComplexObj
   }
 
   // image_pull_credentials_type - computed: false, optional: true, required: false
-  private _imagePullCredentialsType?: string;
+  private _imagePullCredentialsType?: string; 
   public get imagePullCredentialsType() {
     return this.getStringAttribute('image_pull_credentials_type');
   }
@@ -1811,7 +1811,7 @@ export class CodebuildProjectEnvironmentOutputReference extends cdktn.ComplexObj
   }
 
   // privileged_mode - computed: false, optional: true, required: false
-  private _privilegedMode?: boolean | cdktn.IResolvable;
+  private _privilegedMode?: boolean | cdktn.IResolvable; 
   public get privilegedMode() {
     return this.getBooleanAttribute('privileged_mode');
   }
@@ -1827,7 +1827,7 @@ export class CodebuildProjectEnvironmentOutputReference extends cdktn.ComplexObj
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -2052,7 +2052,7 @@ export class CodebuildProjectFileSystemLocationsOutputReference extends cdktn.Co
   }
 
   // identifier - computed: false, optional: true, required: false
-  private _identifier?: string;
+  private _identifier?: string; 
   public get identifier() {
     return this.getStringAttribute('identifier');
   }
@@ -2068,7 +2068,7 @@ export class CodebuildProjectFileSystemLocationsOutputReference extends cdktn.Co
   }
 
   // location - computed: false, optional: true, required: false
-  private _location?: string;
+  private _location?: string; 
   public get location() {
     return this.getStringAttribute('location');
   }
@@ -2084,7 +2084,7 @@ export class CodebuildProjectFileSystemLocationsOutputReference extends cdktn.Co
   }
 
   // mount_options - computed: false, optional: true, required: false
-  private _mountOptions?: string;
+  private _mountOptions?: string; 
   public get mountOptions() {
     return this.getStringAttribute('mount_options');
   }
@@ -2100,7 +2100,7 @@ export class CodebuildProjectFileSystemLocationsOutputReference extends cdktn.Co
   }
 
   // mount_point - computed: false, optional: true, required: false
-  private _mountPoint?: string;
+  private _mountPoint?: string; 
   public get mountPoint() {
     return this.getStringAttribute('mount_point');
   }
@@ -2116,7 +2116,7 @@ export class CodebuildProjectFileSystemLocationsOutputReference extends cdktn.Co
   }
 
   // type - computed: false, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -2254,7 +2254,7 @@ export class CodebuildProjectLogsConfigCloudwatchLogsOutputReference extends cdk
   }
 
   // group_name - computed: false, optional: true, required: false
-  private _groupName?: string;
+  private _groupName?: string; 
   public get groupName() {
     return this.getStringAttribute('group_name');
   }
@@ -2270,7 +2270,7 @@ export class CodebuildProjectLogsConfigCloudwatchLogsOutputReference extends cdk
   }
 
   // status - computed: false, optional: true, required: false
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -2286,7 +2286,7 @@ export class CodebuildProjectLogsConfigCloudwatchLogsOutputReference extends cdk
   }
 
   // stream_name - computed: false, optional: true, required: false
-  private _streamName?: string;
+  private _streamName?: string; 
   public get streamName() {
     return this.getStringAttribute('stream_name');
   }
@@ -2421,7 +2421,7 @@ export class CodebuildProjectLogsConfigS3LogsOutputReference extends cdktn.Compl
   }
 
   // bucket_owner_access - computed: false, optional: true, required: false
-  private _bucketOwnerAccess?: string;
+  private _bucketOwnerAccess?: string; 
   public get bucketOwnerAccess() {
     return this.getStringAttribute('bucket_owner_access');
   }
@@ -2437,7 +2437,7 @@ export class CodebuildProjectLogsConfigS3LogsOutputReference extends cdktn.Compl
   }
 
   // encryption_disabled - computed: false, optional: true, required: false
-  private _encryptionDisabled?: boolean | cdktn.IResolvable;
+  private _encryptionDisabled?: boolean | cdktn.IResolvable; 
   public get encryptionDisabled() {
     return this.getBooleanAttribute('encryption_disabled');
   }
@@ -2453,7 +2453,7 @@ export class CodebuildProjectLogsConfigS3LogsOutputReference extends cdktn.Compl
   }
 
   // location - computed: false, optional: true, required: false
-  private _location?: string;
+  private _location?: string; 
   public get location() {
     return this.getStringAttribute('location');
   }
@@ -2469,7 +2469,7 @@ export class CodebuildProjectLogsConfigS3LogsOutputReference extends cdktn.Compl
   }
 
   // status - computed: false, optional: true, required: false
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -2839,7 +2839,7 @@ export class CodebuildProjectSecondaryArtifactsOutputReference extends cdktn.Com
   }
 
   // artifact_identifier - computed: false, optional: false, required: true
-  private _artifactIdentifier?: string;
+  private _artifactIdentifier?: string; 
   public get artifactIdentifier() {
     return this.getStringAttribute('artifact_identifier');
   }
@@ -2852,7 +2852,7 @@ export class CodebuildProjectSecondaryArtifactsOutputReference extends cdktn.Com
   }
 
   // bucket_owner_access - computed: false, optional: true, required: false
-  private _bucketOwnerAccess?: string;
+  private _bucketOwnerAccess?: string; 
   public get bucketOwnerAccess() {
     return this.getStringAttribute('bucket_owner_access');
   }
@@ -2868,7 +2868,7 @@ export class CodebuildProjectSecondaryArtifactsOutputReference extends cdktn.Com
   }
 
   // encryption_disabled - computed: false, optional: true, required: false
-  private _encryptionDisabled?: boolean | cdktn.IResolvable;
+  private _encryptionDisabled?: boolean | cdktn.IResolvable; 
   public get encryptionDisabled() {
     return this.getBooleanAttribute('encryption_disabled');
   }
@@ -2884,7 +2884,7 @@ export class CodebuildProjectSecondaryArtifactsOutputReference extends cdktn.Com
   }
 
   // location - computed: false, optional: true, required: false
-  private _location?: string;
+  private _location?: string; 
   public get location() {
     return this.getStringAttribute('location');
   }
@@ -2900,7 +2900,7 @@ export class CodebuildProjectSecondaryArtifactsOutputReference extends cdktn.Com
   }
 
   // name - computed: false, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2916,7 +2916,7 @@ export class CodebuildProjectSecondaryArtifactsOutputReference extends cdktn.Com
   }
 
   // namespace_type - computed: false, optional: true, required: false
-  private _namespaceType?: string;
+  private _namespaceType?: string; 
   public get namespaceType() {
     return this.getStringAttribute('namespace_type');
   }
@@ -2932,7 +2932,7 @@ export class CodebuildProjectSecondaryArtifactsOutputReference extends cdktn.Com
   }
 
   // override_artifact_name - computed: false, optional: true, required: false
-  private _overrideArtifactName?: boolean | cdktn.IResolvable;
+  private _overrideArtifactName?: boolean | cdktn.IResolvable; 
   public get overrideArtifactName() {
     return this.getBooleanAttribute('override_artifact_name');
   }
@@ -2948,7 +2948,7 @@ export class CodebuildProjectSecondaryArtifactsOutputReference extends cdktn.Com
   }
 
   // packaging - computed: false, optional: true, required: false
-  private _packaging?: string;
+  private _packaging?: string; 
   public get packaging() {
     return this.getStringAttribute('packaging');
   }
@@ -2964,7 +2964,7 @@ export class CodebuildProjectSecondaryArtifactsOutputReference extends cdktn.Com
   }
 
   // path - computed: false, optional: true, required: false
-  private _path?: string;
+  private _path?: string; 
   public get path() {
     return this.getStringAttribute('path');
   }
@@ -2980,7 +2980,7 @@ export class CodebuildProjectSecondaryArtifactsOutputReference extends cdktn.Com
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -3110,7 +3110,7 @@ export class CodebuildProjectSecondarySourceVersionOutputReference extends cdktn
   }
 
   // source_identifier - computed: false, optional: false, required: true
-  private _sourceIdentifier?: string;
+  private _sourceIdentifier?: string; 
   public get sourceIdentifier() {
     return this.getStringAttribute('source_identifier');
   }
@@ -3123,7 +3123,7 @@ export class CodebuildProjectSecondarySourceVersionOutputReference extends cdktn
   }
 
   // source_version - computed: false, optional: false, required: true
-  private _sourceVersion?: string;
+  private _sourceVersion?: string; 
   public get sourceVersion() {
     return this.getStringAttribute('source_version');
   }
@@ -3241,7 +3241,7 @@ export class CodebuildProjectSecondarySourcesAuthOutputReference extends cdktn.C
   }
 
   // resource - computed: false, optional: false, required: true
-  private _resource?: string;
+  private _resource?: string; 
   public get resource() {
     return this.getStringAttribute('resource');
   }
@@ -3254,7 +3254,7 @@ export class CodebuildProjectSecondarySourcesAuthOutputReference extends cdktn.C
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -3352,7 +3352,7 @@ export class CodebuildProjectSecondarySourcesBuildStatusConfigOutputReference ex
   }
 
   // context - computed: false, optional: true, required: false
-  private _context?: string;
+  private _context?: string; 
   public get context() {
     return this.getStringAttribute('context');
   }
@@ -3368,7 +3368,7 @@ export class CodebuildProjectSecondarySourcesBuildStatusConfigOutputReference ex
   }
 
   // target_url - computed: false, optional: true, required: false
-  private _targetUrl?: string;
+  private _targetUrl?: string; 
   public get targetUrl() {
     return this.getStringAttribute('target_url');
   }
@@ -3452,7 +3452,7 @@ export class CodebuildProjectSecondarySourcesGitSubmodulesConfigOutputReference 
   }
 
   // fetch_submodules - computed: false, optional: false, required: true
-  private _fetchSubmodules?: boolean | cdktn.IResolvable;
+  private _fetchSubmodules?: boolean | cdktn.IResolvable; 
   public get fetchSubmodules() {
     return this.getBooleanAttribute('fetch_submodules');
   }
@@ -3704,7 +3704,7 @@ export class CodebuildProjectSecondarySourcesOutputReference extends cdktn.Compl
   }
 
   // buildspec - computed: false, optional: true, required: false
-  private _buildspec?: string;
+  private _buildspec?: string; 
   public get buildspec() {
     return this.getStringAttribute('buildspec');
   }
@@ -3720,7 +3720,7 @@ export class CodebuildProjectSecondarySourcesOutputReference extends cdktn.Compl
   }
 
   // git_clone_depth - computed: false, optional: true, required: false
-  private _gitCloneDepth?: number;
+  private _gitCloneDepth?: number; 
   public get gitCloneDepth() {
     return this.getNumberAttribute('git_clone_depth');
   }
@@ -3736,7 +3736,7 @@ export class CodebuildProjectSecondarySourcesOutputReference extends cdktn.Compl
   }
 
   // insecure_ssl - computed: false, optional: true, required: false
-  private _insecureSsl?: boolean | cdktn.IResolvable;
+  private _insecureSsl?: boolean | cdktn.IResolvable; 
   public get insecureSsl() {
     return this.getBooleanAttribute('insecure_ssl');
   }
@@ -3752,7 +3752,7 @@ export class CodebuildProjectSecondarySourcesOutputReference extends cdktn.Compl
   }
 
   // location - computed: false, optional: true, required: false
-  private _location?: string;
+  private _location?: string; 
   public get location() {
     return this.getStringAttribute('location');
   }
@@ -3768,7 +3768,7 @@ export class CodebuildProjectSecondarySourcesOutputReference extends cdktn.Compl
   }
 
   // report_build_status - computed: false, optional: true, required: false
-  private _reportBuildStatus?: boolean | cdktn.IResolvable;
+  private _reportBuildStatus?: boolean | cdktn.IResolvable; 
   public get reportBuildStatus() {
     return this.getBooleanAttribute('report_build_status');
   }
@@ -3784,7 +3784,7 @@ export class CodebuildProjectSecondarySourcesOutputReference extends cdktn.Compl
   }
 
   // source_identifier - computed: false, optional: false, required: true
-  private _sourceIdentifier?: string;
+  private _sourceIdentifier?: string; 
   public get sourceIdentifier() {
     return this.getStringAttribute('source_identifier');
   }
@@ -3797,7 +3797,7 @@ export class CodebuildProjectSecondarySourcesOutputReference extends cdktn.Compl
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -3963,7 +3963,7 @@ export class CodebuildProjectSourceAuthOutputReference extends cdktn.ComplexObje
   }
 
   // resource - computed: false, optional: false, required: true
-  private _resource?: string;
+  private _resource?: string; 
   public get resource() {
     return this.getStringAttribute('resource');
   }
@@ -3976,7 +3976,7 @@ export class CodebuildProjectSourceAuthOutputReference extends cdktn.ComplexObje
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -4074,7 +4074,7 @@ export class CodebuildProjectSourceBuildStatusConfigOutputReference extends cdkt
   }
 
   // context - computed: false, optional: true, required: false
-  private _context?: string;
+  private _context?: string; 
   public get context() {
     return this.getStringAttribute('context');
   }
@@ -4090,7 +4090,7 @@ export class CodebuildProjectSourceBuildStatusConfigOutputReference extends cdkt
   }
 
   // target_url - computed: false, optional: true, required: false
-  private _targetUrl?: string;
+  private _targetUrl?: string; 
   public get targetUrl() {
     return this.getStringAttribute('target_url');
   }
@@ -4174,7 +4174,7 @@ export class CodebuildProjectSourceGitSubmodulesConfigOutputReference extends cd
   }
 
   // fetch_submodules - computed: false, optional: false, required: true
-  private _fetchSubmodules?: boolean | cdktn.IResolvable;
+  private _fetchSubmodules?: boolean | cdktn.IResolvable; 
   public get fetchSubmodules() {
     return this.getBooleanAttribute('fetch_submodules');
   }
@@ -4397,7 +4397,7 @@ export class CodebuildProjectSourceOutputReference extends cdktn.ComplexObject {
   }
 
   // buildspec - computed: false, optional: true, required: false
-  private _buildspec?: string;
+  private _buildspec?: string; 
   public get buildspec() {
     return this.getStringAttribute('buildspec');
   }
@@ -4413,7 +4413,7 @@ export class CodebuildProjectSourceOutputReference extends cdktn.ComplexObject {
   }
 
   // git_clone_depth - computed: false, optional: true, required: false
-  private _gitCloneDepth?: number;
+  private _gitCloneDepth?: number; 
   public get gitCloneDepth() {
     return this.getNumberAttribute('git_clone_depth');
   }
@@ -4429,7 +4429,7 @@ export class CodebuildProjectSourceOutputReference extends cdktn.ComplexObject {
   }
 
   // insecure_ssl - computed: false, optional: true, required: false
-  private _insecureSsl?: boolean | cdktn.IResolvable;
+  private _insecureSsl?: boolean | cdktn.IResolvable; 
   public get insecureSsl() {
     return this.getBooleanAttribute('insecure_ssl');
   }
@@ -4445,7 +4445,7 @@ export class CodebuildProjectSourceOutputReference extends cdktn.ComplexObject {
   }
 
   // location - computed: false, optional: true, required: false
-  private _location?: string;
+  private _location?: string; 
   public get location() {
     return this.getStringAttribute('location');
   }
@@ -4461,7 +4461,7 @@ export class CodebuildProjectSourceOutputReference extends cdktn.ComplexObject {
   }
 
   // report_build_status - computed: false, optional: true, required: false
-  private _reportBuildStatus?: boolean | cdktn.IResolvable;
+  private _reportBuildStatus?: boolean | cdktn.IResolvable; 
   public get reportBuildStatus() {
     return this.getBooleanAttribute('report_build_status');
   }
@@ -4477,7 +4477,7 @@ export class CodebuildProjectSourceOutputReference extends cdktn.ComplexObject {
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -4640,7 +4640,7 @@ export class CodebuildProjectVpcConfigOutputReference extends cdktn.ComplexObjec
   }
 
   // security_group_ids - computed: false, optional: false, required: true
-  private _securityGroupIds?: string[];
+  private _securityGroupIds?: string[]; 
   public get securityGroupIds() {
     return cdktn.Fn.tolist(this.getListAttribute('security_group_ids'));
   }
@@ -4653,7 +4653,7 @@ export class CodebuildProjectVpcConfigOutputReference extends cdktn.ComplexObjec
   }
 
   // subnets - computed: false, optional: false, required: true
-  private _subnets?: string[];
+  private _subnets?: string[]; 
   public get subnets() {
     return cdktn.Fn.tolist(this.getListAttribute('subnets'));
   }
@@ -4666,7 +4666,7 @@ export class CodebuildProjectVpcConfigOutputReference extends cdktn.ComplexObjec
   }
 
   // vpc_id - computed: false, optional: false, required: true
-  private _vpcId?: string;
+  private _vpcId?: string; 
   public get vpcId() {
     return this.getStringAttribute('vpc_id');
   }
@@ -4768,7 +4768,7 @@ export class CodebuildProject extends cdktn.TerraformResource {
   }
 
   // auto_retry_limit - computed: true, optional: true, required: false
-  private _autoRetryLimit?: number;
+  private _autoRetryLimit?: number; 
   public get autoRetryLimit() {
     return this.getNumberAttribute('auto_retry_limit');
   }
@@ -4784,7 +4784,7 @@ export class CodebuildProject extends cdktn.TerraformResource {
   }
 
   // badge_enabled - computed: false, optional: true, required: false
-  private _badgeEnabled?: boolean | cdktn.IResolvable;
+  private _badgeEnabled?: boolean | cdktn.IResolvable; 
   public get badgeEnabled() {
     return this.getBooleanAttribute('badge_enabled');
   }
@@ -4805,7 +4805,7 @@ export class CodebuildProject extends cdktn.TerraformResource {
   }
 
   // build_timeout - computed: false, optional: true, required: false
-  private _buildTimeout?: number;
+  private _buildTimeout?: number; 
   public get buildTimeout() {
     return this.getNumberAttribute('build_timeout');
   }
@@ -4821,7 +4821,7 @@ export class CodebuildProject extends cdktn.TerraformResource {
   }
 
   // concurrent_build_limit - computed: false, optional: true, required: false
-  private _concurrentBuildLimit?: number;
+  private _concurrentBuildLimit?: number; 
   public get concurrentBuildLimit() {
     return this.getNumberAttribute('concurrent_build_limit');
   }
@@ -4837,7 +4837,7 @@ export class CodebuildProject extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -4853,7 +4853,7 @@ export class CodebuildProject extends cdktn.TerraformResource {
   }
 
   // encryption_key - computed: true, optional: true, required: false
-  private _encryptionKey?: string;
+  private _encryptionKey?: string; 
   public get encryptionKey() {
     return this.getStringAttribute('encryption_key');
   }
@@ -4869,7 +4869,7 @@ export class CodebuildProject extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -4885,7 +4885,7 @@ export class CodebuildProject extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -4898,7 +4898,7 @@ export class CodebuildProject extends cdktn.TerraformResource {
   }
 
   // project_visibility - computed: false, optional: true, required: false
-  private _projectVisibility?: string;
+  private _projectVisibility?: string; 
   public get projectVisibility() {
     return this.getStringAttribute('project_visibility');
   }
@@ -4919,7 +4919,7 @@ export class CodebuildProject extends cdktn.TerraformResource {
   }
 
   // queued_timeout - computed: false, optional: true, required: false
-  private _queuedTimeout?: number;
+  private _queuedTimeout?: number; 
   public get queuedTimeout() {
     return this.getNumberAttribute('queued_timeout');
   }
@@ -4935,7 +4935,7 @@ export class CodebuildProject extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -4951,7 +4951,7 @@ export class CodebuildProject extends cdktn.TerraformResource {
   }
 
   // resource_access_role - computed: false, optional: true, required: false
-  private _resourceAccessRole?: string;
+  private _resourceAccessRole?: string; 
   public get resourceAccessRole() {
     return this.getStringAttribute('resource_access_role');
   }
@@ -4967,7 +4967,7 @@ export class CodebuildProject extends cdktn.TerraformResource {
   }
 
   // service_role - computed: false, optional: false, required: true
-  private _serviceRole?: string;
+  private _serviceRole?: string; 
   public get serviceRole() {
     return this.getStringAttribute('service_role');
   }
@@ -4980,7 +4980,7 @@ export class CodebuildProject extends cdktn.TerraformResource {
   }
 
   // source_version - computed: false, optional: true, required: false
-  private _sourceVersion?: string;
+  private _sourceVersion?: string; 
   public get sourceVersion() {
     return this.getStringAttribute('source_version');
   }
@@ -4996,7 +4996,7 @@ export class CodebuildProject extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -5012,7 +5012,7 @@ export class CodebuildProject extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

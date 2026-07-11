@@ -153,7 +153,7 @@ export class NetworkmanagerDxGatewayAttachmentTimeoutsOutputReference extends cd
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -169,7 +169,7 @@ export class NetworkmanagerDxGatewayAttachmentTimeoutsOutputReference extends cd
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -185,7 +185,7 @@ export class NetworkmanagerDxGatewayAttachmentTimeoutsOutputReference extends cd
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -284,7 +284,7 @@ export class NetworkmanagerDxGatewayAttachment extends cdktn.TerraformResource {
   }
 
   // core_network_id - computed: false, optional: false, required: true
-  private _coreNetworkId?: string;
+  private _coreNetworkId?: string; 
   public get coreNetworkId() {
     return this.getStringAttribute('core_network_id');
   }
@@ -297,7 +297,7 @@ export class NetworkmanagerDxGatewayAttachment extends cdktn.TerraformResource {
   }
 
   // direct_connect_gateway_arn - computed: false, optional: false, required: true
-  private _directConnectGatewayArn?: string;
+  private _directConnectGatewayArn?: string; 
   public get directConnectGatewayArn() {
     return this.getStringAttribute('direct_connect_gateway_arn');
   }
@@ -310,7 +310,7 @@ export class NetworkmanagerDxGatewayAttachment extends cdktn.TerraformResource {
   }
 
   // edge_locations - computed: false, optional: false, required: true
-  private _edgeLocations?: string[];
+  private _edgeLocations?: string[]; 
   public get edgeLocations() {
     return this.getListAttribute('edge_locations');
   }
@@ -333,7 +333,7 @@ export class NetworkmanagerDxGatewayAttachment extends cdktn.TerraformResource {
   }
 
   // routing_policy_label - computed: false, optional: true, required: false
-  private _routingPolicyLabel?: string;
+  private _routingPolicyLabel?: string; 
   public get routingPolicyLabel() {
     return this.getStringAttribute('routing_policy_label');
   }
@@ -359,7 +359,7 @@ export class NetworkmanagerDxGatewayAttachment extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

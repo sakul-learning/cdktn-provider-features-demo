@@ -101,7 +101,7 @@ export class VpcIpamPreviewNextCidr extends cdktn.TerraformResource {
   }
 
   // disallowed_cidrs - computed: false, optional: true, required: false
-  private _disallowedCidrs?: string[];
+  private _disallowedCidrs?: string[]; 
   public get disallowedCidrs() {
     return cdktn.Fn.tolist(this.getListAttribute('disallowed_cidrs'));
   }
@@ -117,7 +117,7 @@ export class VpcIpamPreviewNextCidr extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -133,7 +133,7 @@ export class VpcIpamPreviewNextCidr extends cdktn.TerraformResource {
   }
 
   // ipam_pool_id - computed: false, optional: false, required: true
-  private _ipamPoolId?: string;
+  private _ipamPoolId?: string; 
   public get ipamPoolId() {
     return this.getStringAttribute('ipam_pool_id');
   }
@@ -146,7 +146,7 @@ export class VpcIpamPreviewNextCidr extends cdktn.TerraformResource {
   }
 
   // netmask_length - computed: false, optional: true, required: false
-  private _netmaskLength?: number;
+  private _netmaskLength?: number; 
   public get netmaskLength() {
     return this.getNumberAttribute('netmask_length');
   }
@@ -162,7 +162,7 @@ export class VpcIpamPreviewNextCidr extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

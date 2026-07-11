@@ -150,7 +150,7 @@ export class Ec2VerifiedAccessInstanceLoggingConfigurationsCloudwatchLogsOutputR
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -166,7 +166,7 @@ export class Ec2VerifiedAccessInstanceLoggingConfigurationsCloudwatchLogsOutputR
   }
 
   // log_group - computed: true, optional: true, required: false
-  private _logGroup?: string;
+  private _logGroup?: string; 
   public get logGroup() {
     return this.getStringAttribute('log_group');
   }
@@ -281,7 +281,7 @@ export class Ec2VerifiedAccessInstanceLoggingConfigurationsKinesisDataFirehoseOu
   }
 
   // delivery_stream - computed: true, optional: true, required: false
-  private _deliveryStream?: string;
+  private _deliveryStream?: string; 
   public get deliveryStream() {
     return this.getStringAttribute('delivery_stream');
   }
@@ -297,7 +297,7 @@ export class Ec2VerifiedAccessInstanceLoggingConfigurationsKinesisDataFirehoseOu
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -450,7 +450,7 @@ export class Ec2VerifiedAccessInstanceLoggingConfigurationsS3OutputReference ext
   }
 
   // bucket_name - computed: true, optional: true, required: false
-  private _bucketName?: string;
+  private _bucketName?: string; 
   public get bucketName() {
     return this.getStringAttribute('bucket_name');
   }
@@ -466,7 +466,7 @@ export class Ec2VerifiedAccessInstanceLoggingConfigurationsS3OutputReference ext
   }
 
   // bucket_owner - computed: true, optional: true, required: false
-  private _bucketOwner?: string;
+  private _bucketOwner?: string; 
   public get bucketOwner() {
     return this.getStringAttribute('bucket_owner');
   }
@@ -482,7 +482,7 @@ export class Ec2VerifiedAccessInstanceLoggingConfigurationsS3OutputReference ext
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -498,7 +498,7 @@ export class Ec2VerifiedAccessInstanceLoggingConfigurationsS3OutputReference ext
   }
 
   // prefix - computed: true, optional: true, required: false
-  private _prefix?: string;
+  private _prefix?: string; 
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -686,7 +686,7 @@ export class Ec2VerifiedAccessInstanceLoggingConfigurationsOutputReference exten
   }
 
   // include_trust_context - computed: true, optional: true, required: false
-  private _includeTrustContext?: boolean | cdktn.IResolvable;
+  private _includeTrustContext?: boolean | cdktn.IResolvable; 
   public get includeTrustContext() {
     return this.getBooleanAttribute('include_trust_context');
   }
@@ -718,7 +718,7 @@ export class Ec2VerifiedAccessInstanceLoggingConfigurationsOutputReference exten
   }
 
   // log_version - computed: true, optional: true, required: false
-  private _logVersion?: string;
+  private _logVersion?: string; 
   public get logVersion() {
     return this.getStringAttribute('log_version');
   }
@@ -851,7 +851,7 @@ export class Ec2VerifiedAccessInstanceTagsOutputReference extends cdktn.ComplexO
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -867,7 +867,7 @@ export class Ec2VerifiedAccessInstanceTagsOutputReference extends cdktn.ComplexO
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1061,7 +1061,7 @@ export class Ec2VerifiedAccessInstanceVerifiedAccessTrustProvidersOutputReferenc
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1077,7 +1077,7 @@ export class Ec2VerifiedAccessInstanceVerifiedAccessTrustProvidersOutputReferenc
   }
 
   // device_trust_provider_type - computed: true, optional: true, required: false
-  private _deviceTrustProviderType?: string;
+  private _deviceTrustProviderType?: string; 
   public get deviceTrustProviderType() {
     return this.getStringAttribute('device_trust_provider_type');
   }
@@ -1093,7 +1093,7 @@ export class Ec2VerifiedAccessInstanceVerifiedAccessTrustProvidersOutputReferenc
   }
 
   // trust_provider_type - computed: true, optional: true, required: false
-  private _trustProviderType?: string;
+  private _trustProviderType?: string; 
   public get trustProviderType() {
     return this.getStringAttribute('trust_provider_type');
   }
@@ -1109,7 +1109,7 @@ export class Ec2VerifiedAccessInstanceVerifiedAccessTrustProvidersOutputReferenc
   }
 
   // user_trust_provider_type - computed: true, optional: true, required: false
-  private _userTrustProviderType?: string;
+  private _userTrustProviderType?: string; 
   public get userTrustProviderType() {
     return this.getStringAttribute('user_trust_provider_type');
   }
@@ -1125,7 +1125,7 @@ export class Ec2VerifiedAccessInstanceVerifiedAccessTrustProvidersOutputReferenc
   }
 
   // verified_access_trust_provider_id - computed: true, optional: true, required: false
-  private _verifiedAccessTrustProviderId?: string;
+  private _verifiedAccessTrustProviderId?: string; 
   public get verifiedAccessTrustProviderId() {
     return this.getStringAttribute('verified_access_trust_provider_id');
   }
@@ -1225,7 +1225,7 @@ export class Ec2VerifiedAccessInstance extends cdktn.TerraformResource {
   // ==========
 
   // cidr_endpoints_custom_sub_domain - computed: true, optional: true, required: false
-  private _cidrEndpointsCustomSubDomain?: string;
+  private _cidrEndpointsCustomSubDomain?: string; 
   public get cidrEndpointsCustomSubDomain() {
     return this.getStringAttribute('cidr_endpoints_custom_sub_domain');
   }
@@ -1251,7 +1251,7 @@ export class Ec2VerifiedAccessInstance extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1267,7 +1267,7 @@ export class Ec2VerifiedAccessInstance extends cdktn.TerraformResource {
   }
 
   // fips_enabled - computed: true, optional: true, required: false
-  private _fipsEnabled?: boolean | cdktn.IResolvable;
+  private _fipsEnabled?: boolean | cdktn.IResolvable; 
   public get fipsEnabled() {
     return this.getBooleanAttribute('fips_enabled');
   }
@@ -1330,7 +1330,7 @@ export class Ec2VerifiedAccessInstance extends cdktn.TerraformResource {
   }
 
   // verified_access_trust_provider_ids - computed: true, optional: true, required: false
-  private _verifiedAccessTrustProviderIds?: string[];
+  private _verifiedAccessTrustProviderIds?: string[]; 
   public get verifiedAccessTrustProviderIds() {
     return cdktn.Fn.tolist(this.getListAttribute('verified_access_trust_provider_ids'));
   }

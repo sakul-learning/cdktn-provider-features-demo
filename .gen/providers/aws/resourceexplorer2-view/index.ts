@@ -123,7 +123,7 @@ export class Resourceexplorer2ViewFiltersOutputReference extends cdktn.ComplexOb
   }
 
   // filter_string - computed: false, optional: false, required: true
-  private _filterString?: string;
+  private _filterString?: string; 
   public get filterString() {
     return this.getStringAttribute('filter_string');
   }
@@ -236,7 +236,7 @@ export class Resourceexplorer2ViewIncludedPropertyOutputReference extends cdktn.
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -338,7 +338,7 @@ export class Resourceexplorer2View extends cdktn.TerraformResource {
   }
 
   // default_view - computed: true, optional: true, required: false
-  private _defaultView?: boolean | cdktn.IResolvable;
+  private _defaultView?: boolean | cdktn.IResolvable; 
   public get defaultView() {
     return this.getBooleanAttribute('default_view');
   }
@@ -359,7 +359,7 @@ export class Resourceexplorer2View extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -372,7 +372,7 @@ export class Resourceexplorer2View extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -388,7 +388,7 @@ export class Resourceexplorer2View extends cdktn.TerraformResource {
   }
 
   // scope - computed: true, optional: true, required: false
-  private _scope?: string;
+  private _scope?: string; 
   public get scope() {
     return this.getStringAttribute('scope');
   }
@@ -404,7 +404,7 @@ export class Resourceexplorer2View extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

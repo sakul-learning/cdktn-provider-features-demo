@@ -98,7 +98,7 @@ export class AppfabricIngestion extends cdktn.TerraformResource {
   // ==========
 
   // app - computed: false, optional: false, required: true
-  private _app?: string;
+  private _app?: string; 
   public get app() {
     return this.getStringAttribute('app');
   }
@@ -111,7 +111,7 @@ export class AppfabricIngestion extends cdktn.TerraformResource {
   }
 
   // app_bundle_arn - computed: false, optional: false, required: true
-  private _appBundleArn?: string;
+  private _appBundleArn?: string; 
   public get appBundleArn() {
     return this.getStringAttribute('app_bundle_arn');
   }
@@ -134,7 +134,7 @@ export class AppfabricIngestion extends cdktn.TerraformResource {
   }
 
   // ingestion_type - computed: false, optional: false, required: true
-  private _ingestionType?: string;
+  private _ingestionType?: string; 
   public get ingestionType() {
     return this.getStringAttribute('ingestion_type');
   }
@@ -147,7 +147,7 @@ export class AppfabricIngestion extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -163,7 +163,7 @@ export class AppfabricIngestion extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -185,7 +185,7 @@ export class AppfabricIngestion extends cdktn.TerraformResource {
   }
 
   // tenant_id - computed: false, optional: false, required: true
-  private _tenantId?: string;
+  private _tenantId?: string; 
   public get tenantId() {
     return this.getStringAttribute('tenant_id');
   }

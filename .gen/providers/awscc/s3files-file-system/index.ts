@@ -121,7 +121,7 @@ export class S3FilesFileSystemSynchronizationConfigurationExpirationDataRulesOut
   }
 
   // days_after_last_access - computed: true, optional: true, required: false
-  private _daysAfterLastAccess?: number;
+  private _daysAfterLastAccess?: number; 
   public get daysAfterLastAccess() {
     return this.getNumberAttribute('days_after_last_access');
   }
@@ -271,7 +271,7 @@ export class S3FilesFileSystemSynchronizationConfigurationImportDataRulesOutputR
   }
 
   // prefix - computed: true, optional: true, required: false
-  private _prefix?: string;
+  private _prefix?: string; 
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -287,7 +287,7 @@ export class S3FilesFileSystemSynchronizationConfigurationImportDataRulesOutputR
   }
 
   // size_less_than - computed: true, optional: true, required: false
-  private _sizeLessThan?: number;
+  private _sizeLessThan?: number; 
   public get sizeLessThan() {
     return this.getNumberAttribute('size_less_than');
   }
@@ -303,7 +303,7 @@ export class S3FilesFileSystemSynchronizationConfigurationImportDataRulesOutputR
   }
 
   // trigger - computed: true, optional: true, required: false
-  private _trigger?: string;
+  private _trigger?: string; 
   public get trigger() {
     return this.getStringAttribute('trigger');
   }
@@ -568,7 +568,7 @@ export class S3FilesFileSystemTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -584,7 +584,7 @@ export class S3FilesFileSystemTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -685,7 +685,7 @@ export class S3FilesFileSystem extends cdktn.TerraformResource {
   // ==========
 
   // accept_bucket_warning - computed: true, optional: true, required: false
-  private _acceptBucketWarning?: boolean | cdktn.IResolvable;
+  private _acceptBucketWarning?: boolean | cdktn.IResolvable; 
   public get acceptBucketWarning() {
     return this.getBooleanAttribute('accept_bucket_warning');
   }
@@ -701,7 +701,7 @@ export class S3FilesFileSystem extends cdktn.TerraformResource {
   }
 
   // bucket - computed: false, optional: false, required: true
-  private _bucket?: string;
+  private _bucket?: string; 
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -714,7 +714,7 @@ export class S3FilesFileSystem extends cdktn.TerraformResource {
   }
 
   // client_token - computed: true, optional: true, required: false
-  private _clientToken?: string;
+  private _clientToken?: string; 
   public get clientToken() {
     return this.getStringAttribute('client_token');
   }
@@ -750,7 +750,7 @@ export class S3FilesFileSystem extends cdktn.TerraformResource {
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -771,7 +771,7 @@ export class S3FilesFileSystem extends cdktn.TerraformResource {
   }
 
   // prefix - computed: true, optional: true, required: false
-  private _prefix?: string;
+  private _prefix?: string; 
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -787,7 +787,7 @@ export class S3FilesFileSystem extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }

@@ -8,13 +8,13 @@ import * as cdktn from 'cdktn';
 
 export interface ServicecatalogappregistryApplicationConfig extends cdktn.TerraformMetaArguments {
   /**
-  * The description of the application.
+  * The description of the application. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/servicecatalogappregistry_application#description ServicecatalogappregistryApplication#description}
   */
   readonly description?: string;
   /**
-  * The name of the application.
+  * The name of the application. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/servicecatalogappregistry_application#name ServicecatalogappregistryApplication#name}
   */
@@ -110,7 +110,7 @@ export class ServicecatalogappregistryApplication extends cdktn.TerraformResourc
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -131,7 +131,7 @@ export class ServicecatalogappregistryApplication extends cdktn.TerraformResourc
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -144,7 +144,7 @@ export class ServicecatalogappregistryApplication extends cdktn.TerraformResourc
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

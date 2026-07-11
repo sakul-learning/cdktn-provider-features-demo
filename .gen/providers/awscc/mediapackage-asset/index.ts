@@ -152,7 +152,7 @@ export class MediapackageAssetEgressEndpointsOutputReference extends cdktn.Compl
   }
 
   // packaging_configuration_id - computed: true, optional: true, required: false
-  private _packagingConfigurationId?: string;
+  private _packagingConfigurationId?: string; 
   public get packagingConfigurationId() {
     return this.getStringAttribute('packaging_configuration_id');
   }
@@ -168,7 +168,7 @@ export class MediapackageAssetEgressEndpointsOutputReference extends cdktn.Compl
   }
 
   // url - computed: true, optional: true, required: false
-  private _url?: string;
+  private _url?: string; 
   public get url() {
     return this.getStringAttribute('url');
   }
@@ -301,7 +301,7 @@ export class MediapackageAssetTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -317,7 +317,7 @@ export class MediapackageAssetTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -422,7 +422,7 @@ export class MediapackageAsset extends cdktn.TerraformResource {
   }
 
   // asset_id - computed: false, optional: false, required: true
-  private _assetId?: string;
+  private _assetId?: string; 
   public get assetId() {
     return this.getStringAttribute('asset_id');
   }
@@ -461,7 +461,7 @@ export class MediapackageAsset extends cdktn.TerraformResource {
   }
 
   // packaging_group_id - computed: false, optional: false, required: true
-  private _packagingGroupId?: string;
+  private _packagingGroupId?: string; 
   public get packagingGroupId() {
     return this.getStringAttribute('packaging_group_id');
   }
@@ -474,7 +474,7 @@ export class MediapackageAsset extends cdktn.TerraformResource {
   }
 
   // resource_id - computed: true, optional: true, required: false
-  private _resourceId?: string;
+  private _resourceId?: string; 
   public get resourceId() {
     return this.getStringAttribute('resource_id');
   }
@@ -490,7 +490,7 @@ export class MediapackageAsset extends cdktn.TerraformResource {
   }
 
   // source_arn - computed: false, optional: false, required: true
-  private _sourceArn?: string;
+  private _sourceArn?: string; 
   public get sourceArn() {
     return this.getStringAttribute('source_arn');
   }
@@ -503,7 +503,7 @@ export class MediapackageAsset extends cdktn.TerraformResource {
   }
 
   // source_role_arn - computed: false, optional: false, required: true
-  private _sourceRoleArn?: string;
+  private _sourceRoleArn?: string; 
   public get sourceRoleArn() {
     return this.getStringAttribute('source_role_arn');
   }

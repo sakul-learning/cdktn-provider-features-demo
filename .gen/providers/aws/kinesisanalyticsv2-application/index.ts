@@ -178,7 +178,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationApplicationCod
   }
 
   // bucket_arn - computed: false, optional: false, required: true
-  private _bucketArn?: string;
+  private _bucketArn?: string; 
   public get bucketArn() {
     return this.getStringAttribute('bucket_arn');
   }
@@ -191,7 +191,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationApplicationCod
   }
 
   // file_key - computed: false, optional: false, required: true
-  private _fileKey?: string;
+  private _fileKey?: string; 
   public get fileKey() {
     return this.getStringAttribute('file_key');
   }
@@ -204,7 +204,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationApplicationCod
   }
 
   // object_version - computed: false, optional: true, required: false
-  private _objectVersion?: string;
+  private _objectVersion?: string; 
   public get objectVersion() {
     return this.getStringAttribute('object_version');
   }
@@ -307,7 +307,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationApplicationCod
   }
 
   // text_content - computed: false, optional: true, required: false
-  private _textContent?: string;
+  private _textContent?: string; 
   public get textContent() {
     return this.getStringAttribute('text_content');
   }
@@ -426,7 +426,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationApplicationCod
   }
 
   // code_content_type - computed: false, optional: false, required: true
-  private _codeContentType?: string;
+  private _codeContentType?: string; 
   public get codeContentType() {
     return this.getStringAttribute('code_content_type');
   }
@@ -540,7 +540,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationApplicationEnc
   }
 
   // key_id - computed: false, optional: true, required: false
-  private _keyId?: string;
+  private _keyId?: string; 
   public get keyId() {
     return this.getStringAttribute('key_id');
   }
@@ -556,7 +556,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationApplicationEnc
   }
 
   // key_type - computed: false, optional: false, required: true
-  private _keyType?: string;
+  private _keyType?: string; 
   public get keyType() {
     return this.getStringAttribute('key_type');
   }
@@ -637,7 +637,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationApplicationSna
   }
 
   // snapshots_enabled - computed: false, optional: false, required: true
-  private _snapshotsEnabled?: boolean | cdktn.IResolvable;
+  private _snapshotsEnabled?: boolean | cdktn.IResolvable; 
   public get snapshotsEnabled() {
     return this.getBooleanAttribute('snapshots_enabled');
   }
@@ -747,7 +747,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationEnvironmentPro
   }
 
   // property_group_id - computed: false, optional: false, required: true
-  private _propertyGroupId?: string;
+  private _propertyGroupId?: string; 
   public get propertyGroupId() {
     return this.getStringAttribute('property_group_id');
   }
@@ -760,7 +760,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationEnvironmentPro
   }
 
   // property_map - computed: false, optional: false, required: true
-  private _propertyMap?: { [key: string]: string };
+  private _propertyMap?: { [key: string]: string }; 
   public get propertyMap() {
     return this.getStringMapAttribute('property_map');
   }
@@ -995,7 +995,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationFlinkApplicati
   }
 
   // checkpoint_interval - computed: true, optional: true, required: false
-  private _checkpointInterval?: number;
+  private _checkpointInterval?: number; 
   public get checkpointInterval() {
     return this.getNumberAttribute('checkpoint_interval');
   }
@@ -1011,7 +1011,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationFlinkApplicati
   }
 
   // checkpointing_enabled - computed: true, optional: true, required: false
-  private _checkpointingEnabled?: boolean | cdktn.IResolvable;
+  private _checkpointingEnabled?: boolean | cdktn.IResolvable; 
   public get checkpointingEnabled() {
     return this.getBooleanAttribute('checkpointing_enabled');
   }
@@ -1027,7 +1027,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationFlinkApplicati
   }
 
   // configuration_type - computed: false, optional: false, required: true
-  private _configurationType?: string;
+  private _configurationType?: string; 
   public get configurationType() {
     return this.getStringAttribute('configuration_type');
   }
@@ -1040,7 +1040,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationFlinkApplicati
   }
 
   // min_pause_between_checkpoints - computed: true, optional: true, required: false
-  private _minPauseBetweenCheckpoints?: number;
+  private _minPauseBetweenCheckpoints?: number; 
   public get minPauseBetweenCheckpoints() {
     return this.getNumberAttribute('min_pause_between_checkpoints');
   }
@@ -1158,7 +1158,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationFlinkApplicati
   }
 
   // configuration_type - computed: false, optional: false, required: true
-  private _configurationType?: string;
+  private _configurationType?: string; 
   public get configurationType() {
     return this.getStringAttribute('configuration_type');
   }
@@ -1171,7 +1171,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationFlinkApplicati
   }
 
   // log_level - computed: true, optional: true, required: false
-  private _logLevel?: string;
+  private _logLevel?: string; 
   public get logLevel() {
     return this.getStringAttribute('log_level');
   }
@@ -1187,7 +1187,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationFlinkApplicati
   }
 
   // metrics_level - computed: true, optional: true, required: false
-  private _metricsLevel?: string;
+  private _metricsLevel?: string; 
   public get metricsLevel() {
     return this.getStringAttribute('metrics_level');
   }
@@ -1322,7 +1322,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationFlinkApplicati
   }
 
   // auto_scaling_enabled - computed: true, optional: true, required: false
-  private _autoScalingEnabled?: boolean | cdktn.IResolvable;
+  private _autoScalingEnabled?: boolean | cdktn.IResolvable; 
   public get autoScalingEnabled() {
     return this.getBooleanAttribute('auto_scaling_enabled');
   }
@@ -1338,7 +1338,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationFlinkApplicati
   }
 
   // configuration_type - computed: false, optional: false, required: true
-  private _configurationType?: string;
+  private _configurationType?: string; 
   public get configurationType() {
     return this.getStringAttribute('configuration_type');
   }
@@ -1351,7 +1351,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationFlinkApplicati
   }
 
   // parallelism - computed: true, optional: true, required: false
-  private _parallelism?: number;
+  private _parallelism?: number; 
   public get parallelism() {
     return this.getNumberAttribute('parallelism');
   }
@@ -1367,7 +1367,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationFlinkApplicati
   }
 
   // parallelism_per_kpu - computed: true, optional: true, required: false
-  private _parallelismPerKpu?: number;
+  private _parallelismPerKpu?: number; 
   public get parallelismPerKpu() {
     return this.getNumberAttribute('parallelism_per_kpu');
   }
@@ -1624,7 +1624,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationRunConfigurati
   }
 
   // application_restore_type - computed: true, optional: true, required: false
-  private _applicationRestoreType?: string;
+  private _applicationRestoreType?: string; 
   public get applicationRestoreType() {
     return this.getStringAttribute('application_restore_type');
   }
@@ -1640,7 +1640,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationRunConfigurati
   }
 
   // snapshot_name - computed: false, optional: true, required: false
-  private _snapshotName?: string;
+  private _snapshotName?: string; 
   public get snapshotName() {
     return this.getStringAttribute('snapshot_name');
   }
@@ -1724,7 +1724,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationRunConfigurati
   }
 
   // allow_non_restored_state - computed: true, optional: true, required: false
-  private _allowNonRestoredState?: boolean | cdktn.IResolvable;
+  private _allowNonRestoredState?: boolean | cdktn.IResolvable; 
   public get allowNonRestoredState() {
     return this.getBooleanAttribute('allow_non_restored_state');
   }
@@ -1929,7 +1929,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationSqlApplication
   }
 
   // count - computed: true, optional: true, required: false
-  private _count?: number;
+  private _count?: number; 
   public get count() {
     return this.getNumberAttribute('count');
   }
@@ -2013,7 +2013,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationSqlApplication
   }
 
   // resource_arn - computed: false, optional: false, required: true
-  private _resourceArn?: string;
+  private _resourceArn?: string; 
   public get resourceArn() {
     return this.getStringAttribute('resource_arn');
   }
@@ -2223,7 +2223,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationSqlApplication
   }
 
   // mapping - computed: false, optional: true, required: false
-  private _mapping?: string;
+  private _mapping?: string; 
   public get mapping() {
     return this.getStringAttribute('mapping');
   }
@@ -2239,7 +2239,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationSqlApplication
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2252,7 +2252,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationSqlApplication
   }
 
   // sql_type - computed: false, optional: false, required: true
-  private _sqlType?: string;
+  private _sqlType?: string; 
   public get sqlType() {
     return this.getStringAttribute('sql_type');
   }
@@ -2370,7 +2370,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationSqlApplication
   }
 
   // record_column_delimiter - computed: false, optional: false, required: true
-  private _recordColumnDelimiter?: string;
+  private _recordColumnDelimiter?: string; 
   public get recordColumnDelimiter() {
     return this.getStringAttribute('record_column_delimiter');
   }
@@ -2383,7 +2383,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationSqlApplication
   }
 
   // record_row_delimiter - computed: false, optional: false, required: true
-  private _recordRowDelimiter?: string;
+  private _recordRowDelimiter?: string; 
   public get recordRowDelimiter() {
     return this.getStringAttribute('record_row_delimiter');
   }
@@ -2464,7 +2464,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationSqlApplication
   }
 
   // record_row_path - computed: false, optional: false, required: true
-  private _recordRowPath?: string;
+  private _recordRowPath?: string; 
   public get recordRowPath() {
     return this.getStringAttribute('record_row_path');
   }
@@ -2685,7 +2685,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationSqlApplication
   }
 
   // record_format_type - computed: false, optional: false, required: true
-  private _recordFormatType?: string;
+  private _recordFormatType?: string; 
   public get recordFormatType() {
     return this.getStringAttribute('record_format_type');
   }
@@ -2817,7 +2817,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationSqlApplication
   }
 
   // record_encoding - computed: false, optional: true, required: false
-  private _recordEncoding?: string;
+  private _recordEncoding?: string; 
   public get recordEncoding() {
     return this.getStringAttribute('record_encoding');
   }
@@ -2939,7 +2939,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationSqlApplication
   }
 
   // input_starting_position - computed: true, optional: true, required: false
-  private _inputStartingPosition?: string;
+  private _inputStartingPosition?: string; 
   public get inputStartingPosition() {
     return this.getStringAttribute('input_starting_position');
   }
@@ -3043,7 +3043,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationSqlApplication
   }
 
   // resource_arn - computed: false, optional: false, required: true
-  private _resourceArn?: string;
+  private _resourceArn?: string; 
   public get resourceArn() {
     return this.getStringAttribute('resource_arn');
   }
@@ -3124,7 +3124,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationSqlApplication
   }
 
   // resource_arn - computed: false, optional: false, required: true
-  private _resourceArn?: string;
+  private _resourceArn?: string; 
   public get resourceArn() {
     return this.getStringAttribute('resource_arn');
   }
@@ -3329,7 +3329,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationSqlApplication
   }
 
   // name_prefix - computed: false, optional: false, required: true
-  private _namePrefix?: string;
+  private _namePrefix?: string; 
   public get namePrefix() {
     return this.getStringAttribute('name_prefix');
   }
@@ -3503,7 +3503,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationSqlApplication
   }
 
   // record_format_type - computed: false, optional: false, required: true
-  private _recordFormatType?: string;
+  private _recordFormatType?: string; 
   public get recordFormatType() {
     return this.getStringAttribute('record_format_type');
   }
@@ -3584,7 +3584,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationSqlApplication
   }
 
   // resource_arn - computed: false, optional: false, required: true
-  private _resourceArn?: string;
+  private _resourceArn?: string; 
   public get resourceArn() {
     return this.getStringAttribute('resource_arn');
   }
@@ -3665,7 +3665,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationSqlApplication
   }
 
   // resource_arn - computed: false, optional: false, required: true
-  private _resourceArn?: string;
+  private _resourceArn?: string; 
   public get resourceArn() {
     return this.getStringAttribute('resource_arn');
   }
@@ -3746,7 +3746,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationSqlApplication
   }
 
   // resource_arn - computed: false, optional: false, required: true
-  private _resourceArn?: string;
+  private _resourceArn?: string; 
   public get resourceArn() {
     return this.getStringAttribute('resource_arn');
   }
@@ -3915,7 +3915,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationSqlApplication
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -4128,7 +4128,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationSqlApplication
   }
 
   // mapping - computed: false, optional: true, required: false
-  private _mapping?: string;
+  private _mapping?: string; 
   public get mapping() {
     return this.getStringAttribute('mapping');
   }
@@ -4144,7 +4144,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationSqlApplication
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -4157,7 +4157,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationSqlApplication
   }
 
   // sql_type - computed: false, optional: false, required: true
-  private _sqlType?: string;
+  private _sqlType?: string; 
   public get sqlType() {
     return this.getStringAttribute('sql_type');
   }
@@ -4275,7 +4275,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationSqlApplication
   }
 
   // record_column_delimiter - computed: false, optional: false, required: true
-  private _recordColumnDelimiter?: string;
+  private _recordColumnDelimiter?: string; 
   public get recordColumnDelimiter() {
     return this.getStringAttribute('record_column_delimiter');
   }
@@ -4288,7 +4288,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationSqlApplication
   }
 
   // record_row_delimiter - computed: false, optional: false, required: true
-  private _recordRowDelimiter?: string;
+  private _recordRowDelimiter?: string; 
   public get recordRowDelimiter() {
     return this.getStringAttribute('record_row_delimiter');
   }
@@ -4369,7 +4369,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationSqlApplication
   }
 
   // record_row_path - computed: false, optional: false, required: true
-  private _recordRowPath?: string;
+  private _recordRowPath?: string; 
   public get recordRowPath() {
     return this.getStringAttribute('record_row_path');
   }
@@ -4590,7 +4590,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationSqlApplication
   }
 
   // record_format_type - computed: false, optional: false, required: true
-  private _recordFormatType?: string;
+  private _recordFormatType?: string; 
   public get recordFormatType() {
     return this.getStringAttribute('record_format_type');
   }
@@ -4722,7 +4722,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationSqlApplication
   }
 
   // record_encoding - computed: false, optional: true, required: false
-  private _recordEncoding?: string;
+  private _recordEncoding?: string; 
   public get recordEncoding() {
     return this.getStringAttribute('record_encoding');
   }
@@ -4849,7 +4849,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationSqlApplication
   }
 
   // bucket_arn - computed: false, optional: false, required: true
-  private _bucketArn?: string;
+  private _bucketArn?: string; 
   public get bucketArn() {
     return this.getStringAttribute('bucket_arn');
   }
@@ -4862,7 +4862,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationSqlApplication
   }
 
   // file_key - computed: false, optional: false, required: true
-  private _fileKey?: string;
+  private _fileKey?: string; 
   public get fileKey() {
     return this.getStringAttribute('file_key');
   }
@@ -4986,7 +4986,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationSqlApplication
   }
 
   // table_name - computed: false, optional: false, required: true
-  private _tableName?: string;
+  private _tableName?: string; 
   public get tableName() {
     return this.getStringAttribute('table_name');
   }
@@ -5266,7 +5266,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationVpcConfigurati
   }
 
   // security_group_ids - computed: false, optional: false, required: true
-  private _securityGroupIds?: string[];
+  private _securityGroupIds?: string[]; 
   public get securityGroupIds() {
     return cdktn.Fn.tolist(this.getListAttribute('security_group_ids'));
   }
@@ -5279,7 +5279,7 @@ export class Kinesisanalyticsv2ApplicationApplicationConfigurationVpcConfigurati
   }
 
   // subnet_ids - computed: false, optional: false, required: true
-  private _subnetIds?: string[];
+  private _subnetIds?: string[]; 
   public get subnetIds() {
     return cdktn.Fn.tolist(this.getListAttribute('subnet_ids'));
   }
@@ -5703,7 +5703,7 @@ export class Kinesisanalyticsv2ApplicationCloudwatchLoggingOptionsOutputReferenc
   }
 
   // log_stream_arn - computed: false, optional: false, required: true
-  private _logStreamArn?: string;
+  private _logStreamArn?: string; 
   public get logStreamArn() {
     return this.getStringAttribute('log_stream_arn');
   }
@@ -5828,7 +5828,7 @@ export class Kinesisanalyticsv2ApplicationTimeoutsOutputReference extends cdktn.
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -5844,7 +5844,7 @@ export class Kinesisanalyticsv2ApplicationTimeoutsOutputReference extends cdktn.
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -5860,7 +5860,7 @@ export class Kinesisanalyticsv2ApplicationTimeoutsOutputReference extends cdktn.
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -5947,7 +5947,7 @@ export class Kinesisanalyticsv2Application extends cdktn.TerraformResource {
   // ==========
 
   // application_mode - computed: true, optional: true, required: false
-  private _applicationMode?: string;
+  private _applicationMode?: string; 
   public get applicationMode() {
     return this.getStringAttribute('application_mode');
   }
@@ -5973,7 +5973,7 @@ export class Kinesisanalyticsv2Application extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -5989,7 +5989,7 @@ export class Kinesisanalyticsv2Application extends cdktn.TerraformResource {
   }
 
   // force_stop - computed: false, optional: true, required: false
-  private _forceStop?: boolean | cdktn.IResolvable;
+  private _forceStop?: boolean | cdktn.IResolvable; 
   public get forceStop() {
     return this.getBooleanAttribute('force_stop');
   }
@@ -6005,7 +6005,7 @@ export class Kinesisanalyticsv2Application extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -6026,7 +6026,7 @@ export class Kinesisanalyticsv2Application extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -6039,7 +6039,7 @@ export class Kinesisanalyticsv2Application extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -6055,7 +6055,7 @@ export class Kinesisanalyticsv2Application extends cdktn.TerraformResource {
   }
 
   // runtime_environment - computed: false, optional: false, required: true
-  private _runtimeEnvironment?: string;
+  private _runtimeEnvironment?: string; 
   public get runtimeEnvironment() {
     return this.getStringAttribute('runtime_environment');
   }
@@ -6068,7 +6068,7 @@ export class Kinesisanalyticsv2Application extends cdktn.TerraformResource {
   }
 
   // service_execution_role - computed: false, optional: false, required: true
-  private _serviceExecutionRole?: string;
+  private _serviceExecutionRole?: string; 
   public get serviceExecutionRole() {
     return this.getStringAttribute('service_execution_role');
   }
@@ -6081,7 +6081,7 @@ export class Kinesisanalyticsv2Application extends cdktn.TerraformResource {
   }
 
   // start_application - computed: false, optional: true, required: false
-  private _startApplication?: boolean | cdktn.IResolvable;
+  private _startApplication?: boolean | cdktn.IResolvable; 
   public get startApplication() {
     return this.getBooleanAttribute('start_application');
   }
@@ -6102,7 +6102,7 @@ export class Kinesisanalyticsv2Application extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -6118,7 +6118,7 @@ export class Kinesisanalyticsv2Application extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

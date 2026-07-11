@@ -126,7 +126,7 @@ export class IamOidcProviderTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -142,7 +142,7 @@ export class IamOidcProviderTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -244,7 +244,7 @@ export class IamOidcProvider extends cdktn.TerraformResource {
   }
 
   // client_id_list - computed: true, optional: true, required: false
-  private _clientIdList?: string[];
+  private _clientIdList?: string[]; 
   public get clientIdList() {
     return this.getListAttribute('client_id_list');
   }
@@ -281,7 +281,7 @@ export class IamOidcProvider extends cdktn.TerraformResource {
   }
 
   // thumbprint_list - computed: true, optional: true, required: false
-  private _thumbprintList?: string[];
+  private _thumbprintList?: string[]; 
   public get thumbprintList() {
     return this.getListAttribute('thumbprint_list');
   }
@@ -297,7 +297,7 @@ export class IamOidcProvider extends cdktn.TerraformResource {
   }
 
   // url - computed: true, optional: true, required: false
-  private _url?: string;
+  private _url?: string; 
   public get url() {
     return this.getStringAttribute('url');
   }

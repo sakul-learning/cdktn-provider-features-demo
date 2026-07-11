@@ -136,7 +136,7 @@ export class SsmcontactsContactPlanTargetsChannelTargetInfoOutputReference exten
   }
 
   // channel_id - computed: true, optional: true, required: false
-  private _channelId?: string;
+  private _channelId?: string; 
   public get channelId() {
     return this.getStringAttribute('channel_id');
   }
@@ -152,7 +152,7 @@ export class SsmcontactsContactPlanTargetsChannelTargetInfoOutputReference exten
   }
 
   // retry_interval_in_minutes - computed: true, optional: true, required: false
-  private _retryIntervalInMinutes?: number;
+  private _retryIntervalInMinutes?: number; 
   public get retryIntervalInMinutes() {
     return this.getNumberAttribute('retry_interval_in_minutes');
   }
@@ -267,7 +267,7 @@ export class SsmcontactsContactPlanTargetsContactTargetInfoOutputReference exten
   }
 
   // contact_id - computed: true, optional: true, required: false
-  private _contactId?: string;
+  private _contactId?: string; 
   public get contactId() {
     return this.getStringAttribute('contact_id');
   }
@@ -283,7 +283,7 @@ export class SsmcontactsContactPlanTargetsContactTargetInfoOutputReference exten
   }
 
   // is_essential - computed: true, optional: true, required: false
-  private _isEssential?: boolean | cdktn.IResolvable;
+  private _isEssential?: boolean | cdktn.IResolvable; 
   public get isEssential() {
     return this.getBooleanAttribute('is_essential');
   }
@@ -572,7 +572,7 @@ export class SsmcontactsContactPlanOutputReference extends cdktn.ComplexObject {
   }
 
   // duration_in_minutes - computed: true, optional: true, required: false
-  private _durationInMinutes?: number;
+  private _durationInMinutes?: number; 
   public get durationInMinutes() {
     return this.getNumberAttribute('duration_in_minutes');
   }
@@ -588,7 +588,7 @@ export class SsmcontactsContactPlanOutputReference extends cdktn.ComplexObject {
   }
 
   // rotation_ids - computed: true, optional: true, required: false
-  private _rotationIds?: string[];
+  private _rotationIds?: string[]; 
   public get rotationIds() {
     return this.getListAttribute('rotation_ids');
   }
@@ -741,7 +741,7 @@ export class SsmcontactsContactTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -757,7 +757,7 @@ export class SsmcontactsContactTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -855,7 +855,7 @@ export class SsmcontactsContact extends cdktn.TerraformResource {
   // ==========
 
   // alias - computed: false, optional: false, required: true
-  private _alias?: string;
+  private _alias?: string; 
   public get alias() {
     return this.getStringAttribute('alias');
   }
@@ -873,7 +873,7 @@ export class SsmcontactsContact extends cdktn.TerraformResource {
   }
 
   // display_name - computed: false, optional: false, required: true
-  private _displayName?: string;
+  private _displayName?: string; 
   public get displayName() {
     return this.getStringAttribute('display_name');
   }
@@ -923,7 +923,7 @@ export class SsmcontactsContact extends cdktn.TerraformResource {
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }

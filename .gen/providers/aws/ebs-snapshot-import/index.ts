@@ -195,7 +195,7 @@ export class EbsSnapshotImportClientDataOutputReference extends cdktn.ComplexObj
   }
 
   // comment - computed: false, optional: true, required: false
-  private _comment?: string;
+  private _comment?: string; 
   public get comment() {
     return this.getStringAttribute('comment');
   }
@@ -211,7 +211,7 @@ export class EbsSnapshotImportClientDataOutputReference extends cdktn.ComplexObj
   }
 
   // upload_end - computed: true, optional: true, required: false
-  private _uploadEnd?: string;
+  private _uploadEnd?: string; 
   public get uploadEnd() {
     return this.getStringAttribute('upload_end');
   }
@@ -227,7 +227,7 @@ export class EbsSnapshotImportClientDataOutputReference extends cdktn.ComplexObj
   }
 
   // upload_size - computed: true, optional: true, required: false
-  private _uploadSize?: number;
+  private _uploadSize?: number; 
   public get uploadSize() {
     return this.getNumberAttribute('upload_size');
   }
@@ -243,7 +243,7 @@ export class EbsSnapshotImportClientDataOutputReference extends cdktn.ComplexObj
   }
 
   // upload_start - computed: true, optional: true, required: false
-  private _uploadStart?: string;
+  private _uploadStart?: string; 
   public get uploadStart() {
     return this.getStringAttribute('upload_start');
   }
@@ -344,7 +344,7 @@ export class EbsSnapshotImportDiskContainerUserBucketOutputReference extends cdk
   }
 
   // s3_bucket - computed: false, optional: false, required: true
-  private _s3Bucket?: string;
+  private _s3Bucket?: string; 
   public get s3Bucket() {
     return this.getStringAttribute('s3_bucket');
   }
@@ -357,7 +357,7 @@ export class EbsSnapshotImportDiskContainerUserBucketOutputReference extends cdk
   }
 
   // s3_key - computed: false, optional: false, required: true
-  private _s3Key?: string;
+  private _s3Key?: string; 
   public get s3Key() {
     return this.getStringAttribute('s3_key');
   }
@@ -491,7 +491,7 @@ export class EbsSnapshotImportDiskContainerOutputReference extends cdktn.Complex
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -507,7 +507,7 @@ export class EbsSnapshotImportDiskContainerOutputReference extends cdktn.Complex
   }
 
   // format - computed: false, optional: false, required: true
-  private _format?: string;
+  private _format?: string; 
   public get format() {
     return this.getStringAttribute('format');
   }
@@ -520,7 +520,7 @@ export class EbsSnapshotImportDiskContainerOutputReference extends cdktn.Complex
   }
 
   // url - computed: false, optional: true, required: false
-  private _url?: string;
+  private _url?: string; 
   public get url() {
     return this.getStringAttribute('url');
   }
@@ -647,7 +647,7 @@ export class EbsSnapshotImportTimeoutsOutputReference extends cdktn.ComplexObjec
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -663,7 +663,7 @@ export class EbsSnapshotImportTimeoutsOutputReference extends cdktn.ComplexObjec
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -760,7 +760,7 @@ export class EbsSnapshotImport extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -776,7 +776,7 @@ export class EbsSnapshotImport extends cdktn.TerraformResource {
   }
 
   // encrypted - computed: false, optional: true, required: false
-  private _encrypted?: boolean | cdktn.IResolvable;
+  private _encrypted?: boolean | cdktn.IResolvable; 
   public get encrypted() {
     return this.getBooleanAttribute('encrypted');
   }
@@ -792,7 +792,7 @@ export class EbsSnapshotImport extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -808,7 +808,7 @@ export class EbsSnapshotImport extends cdktn.TerraformResource {
   }
 
   // kms_key_id - computed: false, optional: true, required: false
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -839,7 +839,7 @@ export class EbsSnapshotImport extends cdktn.TerraformResource {
   }
 
   // permanent_restore - computed: false, optional: true, required: false
-  private _permanentRestore?: boolean | cdktn.IResolvable;
+  private _permanentRestore?: boolean | cdktn.IResolvable; 
   public get permanentRestore() {
     return this.getBooleanAttribute('permanent_restore');
   }
@@ -855,7 +855,7 @@ export class EbsSnapshotImport extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -871,7 +871,7 @@ export class EbsSnapshotImport extends cdktn.TerraformResource {
   }
 
   // role_name - computed: false, optional: true, required: false
-  private _roleName?: string;
+  private _roleName?: string; 
   public get roleName() {
     return this.getStringAttribute('role_name');
   }
@@ -887,7 +887,7 @@ export class EbsSnapshotImport extends cdktn.TerraformResource {
   }
 
   // storage_tier - computed: true, optional: true, required: false
-  private _storageTier?: string;
+  private _storageTier?: string; 
   public get storageTier() {
     return this.getStringAttribute('storage_tier');
   }
@@ -903,7 +903,7 @@ export class EbsSnapshotImport extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -919,7 +919,7 @@ export class EbsSnapshotImport extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -935,7 +935,7 @@ export class EbsSnapshotImport extends cdktn.TerraformResource {
   }
 
   // temporary_restore_days - computed: false, optional: true, required: false
-  private _temporaryRestoreDays?: number;
+  private _temporaryRestoreDays?: number; 
   public get temporaryRestoreDays() {
     return this.getNumberAttribute('temporary_restore_days');
   }

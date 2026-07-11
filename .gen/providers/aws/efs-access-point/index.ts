@@ -148,7 +148,7 @@ export class EfsAccessPointPosixUserOutputReference extends cdktn.ComplexObject 
   }
 
   // gid - computed: false, optional: false, required: true
-  private _gid?: number;
+  private _gid?: number; 
   public get gid() {
     return this.getNumberAttribute('gid');
   }
@@ -161,7 +161,7 @@ export class EfsAccessPointPosixUserOutputReference extends cdktn.ComplexObject 
   }
 
   // secondary_gids - computed: false, optional: true, required: false
-  private _secondaryGids?: number[];
+  private _secondaryGids?: number[]; 
   public get secondaryGids() {
     return cdktn.Token.asNumberList(cdktn.Fn.tolist(this.getNumberListAttribute('secondary_gids')));
   }
@@ -177,7 +177,7 @@ export class EfsAccessPointPosixUserOutputReference extends cdktn.ComplexObject 
   }
 
   // uid - computed: false, optional: false, required: true
-  private _uid?: number;
+  private _uid?: number; 
   public get uid() {
     return this.getNumberAttribute('uid');
   }
@@ -292,7 +292,7 @@ export class EfsAccessPointRootDirectoryCreationInfoOutputReference extends cdkt
   }
 
   // owner_gid - computed: false, optional: false, required: true
-  private _ownerGid?: number;
+  private _ownerGid?: number; 
   public get ownerGid() {
     return this.getNumberAttribute('owner_gid');
   }
@@ -305,7 +305,7 @@ export class EfsAccessPointRootDirectoryCreationInfoOutputReference extends cdkt
   }
 
   // owner_uid - computed: false, optional: false, required: true
-  private _ownerUid?: number;
+  private _ownerUid?: number; 
   public get ownerUid() {
     return this.getNumberAttribute('owner_uid');
   }
@@ -318,7 +318,7 @@ export class EfsAccessPointRootDirectoryCreationInfoOutputReference extends cdkt
   }
 
   // permissions - computed: false, optional: false, required: true
-  private _permissions?: string;
+  private _permissions?: string; 
   public get permissions() {
     return this.getStringAttribute('permissions');
   }
@@ -418,7 +418,7 @@ export class EfsAccessPointRootDirectoryOutputReference extends cdktn.ComplexObj
   }
 
   // path - computed: true, optional: true, required: false
-  private _path?: string;
+  private _path?: string; 
   public get path() {
     return this.getStringAttribute('path');
   }
@@ -524,7 +524,7 @@ export class EfsAccessPoint extends cdktn.TerraformResource {
   }
 
   // file_system_id - computed: false, optional: false, required: true
-  private _fileSystemId?: string;
+  private _fileSystemId?: string; 
   public get fileSystemId() {
     return this.getStringAttribute('file_system_id');
   }
@@ -537,7 +537,7 @@ export class EfsAccessPoint extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -558,7 +558,7 @@ export class EfsAccessPoint extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -574,7 +574,7 @@ export class EfsAccessPoint extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -590,7 +590,7 @@ export class EfsAccessPoint extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

@@ -121,7 +121,7 @@ export class TransferAgreement extends cdktn.TerraformResource {
   // ==========
 
   // access_role - computed: false, optional: false, required: true
-  private _accessRole?: string;
+  private _accessRole?: string; 
   public get accessRole() {
     return this.getStringAttribute('access_role');
   }
@@ -144,7 +144,7 @@ export class TransferAgreement extends cdktn.TerraformResource {
   }
 
   // base_directory - computed: false, optional: false, required: true
-  private _baseDirectory?: string;
+  private _baseDirectory?: string; 
   public get baseDirectory() {
     return this.getStringAttribute('base_directory');
   }
@@ -157,7 +157,7 @@ export class TransferAgreement extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -173,7 +173,7 @@ export class TransferAgreement extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -189,7 +189,7 @@ export class TransferAgreement extends cdktn.TerraformResource {
   }
 
   // local_profile_id - computed: false, optional: false, required: true
-  private _localProfileId?: string;
+  private _localProfileId?: string; 
   public get localProfileId() {
     return this.getStringAttribute('local_profile_id');
   }
@@ -202,7 +202,7 @@ export class TransferAgreement extends cdktn.TerraformResource {
   }
 
   // partner_profile_id - computed: false, optional: false, required: true
-  private _partnerProfileId?: string;
+  private _partnerProfileId?: string; 
   public get partnerProfileId() {
     return this.getStringAttribute('partner_profile_id');
   }
@@ -215,7 +215,7 @@ export class TransferAgreement extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -231,7 +231,7 @@ export class TransferAgreement extends cdktn.TerraformResource {
   }
 
   // server_id - computed: false, optional: false, required: true
-  private _serverId?: string;
+  private _serverId?: string; 
   public get serverId() {
     return this.getStringAttribute('server_id');
   }
@@ -249,7 +249,7 @@ export class TransferAgreement extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -265,7 +265,7 @@ export class TransferAgreement extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

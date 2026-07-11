@@ -78,7 +78,7 @@ export class SecurityhubProductSubscription extends cdktn.TerraformResource {
   }
 
   // product_arn - computed: false, optional: false, required: true
-  private _productArn?: string;
+  private _productArn?: string; 
   public get productArn() {
     return this.getStringAttribute('product_arn');
   }

@@ -148,7 +148,7 @@ export class WorkmailOrganizationTimeoutsOutputReference extends cdktn.ComplexOb
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -164,7 +164,7 @@ export class WorkmailOrganizationTimeoutsOutputReference extends cdktn.ComplexOb
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -261,7 +261,7 @@ export class WorkmailOrganization extends cdktn.TerraformResource {
   }
 
   // delete_directory - computed: false, optional: true, required: false
-  private _deleteDirectory?: boolean | cdktn.IResolvable;
+  private _deleteDirectory?: boolean | cdktn.IResolvable; 
   public get deleteDirectory() {
     return this.getBooleanAttribute('delete_directory');
   }
@@ -277,7 +277,7 @@ export class WorkmailOrganization extends cdktn.TerraformResource {
   }
 
   // delete_identity_center_application - computed: false, optional: true, required: false
-  private _deleteIdentityCenterApplication?: boolean | cdktn.IResolvable;
+  private _deleteIdentityCenterApplication?: boolean | cdktn.IResolvable; 
   public get deleteIdentityCenterApplication() {
     return this.getBooleanAttribute('delete_identity_center_application');
   }
@@ -293,7 +293,7 @@ export class WorkmailOrganization extends cdktn.TerraformResource {
   }
 
   // directory_id - computed: true, optional: true, required: false
-  private _directoryId?: string;
+  private _directoryId?: string; 
   public get directoryId() {
     return this.getStringAttribute('directory_id');
   }
@@ -314,7 +314,7 @@ export class WorkmailOrganization extends cdktn.TerraformResource {
   }
 
   // interoperability_enabled - computed: true, optional: true, required: false
-  private _interoperabilityEnabled?: boolean | cdktn.IResolvable;
+  private _interoperabilityEnabled?: boolean | cdktn.IResolvable; 
   public get interoperabilityEnabled() {
     return this.getBooleanAttribute('interoperability_enabled');
   }
@@ -330,7 +330,7 @@ export class WorkmailOrganization extends cdktn.TerraformResource {
   }
 
   // kms_key_arn - computed: false, optional: true, required: false
-  private _kmsKeyArn?: string;
+  private _kmsKeyArn?: string; 
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -351,7 +351,7 @@ export class WorkmailOrganization extends cdktn.TerraformResource {
   }
 
   // organization_alias - computed: false, optional: false, required: true
-  private _organizationAlias?: string;
+  private _organizationAlias?: string; 
   public get organizationAlias() {
     return this.getStringAttribute('organization_alias');
   }
@@ -369,7 +369,7 @@ export class WorkmailOrganization extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -390,7 +390,7 @@ export class WorkmailOrganization extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

@@ -160,7 +160,7 @@ export class Ec2TrafficMirrorSessionTagsOutputReference extends cdktn.ComplexObj
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -176,7 +176,7 @@ export class Ec2TrafficMirrorSessionTagsOutputReference extends cdktn.ComplexObj
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -278,7 +278,7 @@ export class Ec2TrafficMirrorSession extends cdktn.TerraformResource {
   // ==========
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -299,7 +299,7 @@ export class Ec2TrafficMirrorSession extends cdktn.TerraformResource {
   }
 
   // network_interface_id - computed: false, optional: false, required: true
-  private _networkInterfaceId?: string;
+  private _networkInterfaceId?: string; 
   public get networkInterfaceId() {
     return this.getStringAttribute('network_interface_id');
   }
@@ -312,7 +312,7 @@ export class Ec2TrafficMirrorSession extends cdktn.TerraformResource {
   }
 
   // owner_id - computed: true, optional: true, required: false
-  private _ownerId?: string;
+  private _ownerId?: string; 
   public get ownerId() {
     return this.getStringAttribute('owner_id');
   }
@@ -328,7 +328,7 @@ export class Ec2TrafficMirrorSession extends cdktn.TerraformResource {
   }
 
   // packet_length - computed: true, optional: true, required: false
-  private _packetLength?: number;
+  private _packetLength?: number; 
   public get packetLength() {
     return this.getNumberAttribute('packet_length');
   }
@@ -344,7 +344,7 @@ export class Ec2TrafficMirrorSession extends cdktn.TerraformResource {
   }
 
   // session_number - computed: false, optional: false, required: true
-  private _sessionNumber?: number;
+  private _sessionNumber?: number; 
   public get sessionNumber() {
     return this.getNumberAttribute('session_number');
   }
@@ -373,7 +373,7 @@ export class Ec2TrafficMirrorSession extends cdktn.TerraformResource {
   }
 
   // traffic_mirror_filter_id - computed: false, optional: false, required: true
-  private _trafficMirrorFilterId?: string;
+  private _trafficMirrorFilterId?: string; 
   public get trafficMirrorFilterId() {
     return this.getStringAttribute('traffic_mirror_filter_id');
   }
@@ -391,7 +391,7 @@ export class Ec2TrafficMirrorSession extends cdktn.TerraformResource {
   }
 
   // traffic_mirror_target_id - computed: false, optional: false, required: true
-  private _trafficMirrorTargetId?: string;
+  private _trafficMirrorTargetId?: string; 
   public get trafficMirrorTargetId() {
     return this.getStringAttribute('traffic_mirror_target_id');
   }
@@ -404,7 +404,7 @@ export class Ec2TrafficMirrorSession extends cdktn.TerraformResource {
   }
 
   // virtual_network_id - computed: true, optional: true, required: false
-  private _virtualNetworkId?: number;
+  private _virtualNetworkId?: number; 
   public get virtualNetworkId() {
     return this.getNumberAttribute('virtual_network_id');
   }

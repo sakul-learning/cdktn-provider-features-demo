@@ -146,7 +146,7 @@ export class IotScheduledAuditTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -162,7 +162,7 @@ export class IotScheduledAuditTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -261,7 +261,7 @@ export class IotScheduledAudit extends cdktn.TerraformResource {
   // ==========
 
   // day_of_month - computed: true, optional: true, required: false
-  private _dayOfMonth?: string;
+  private _dayOfMonth?: string; 
   public get dayOfMonth() {
     return this.getStringAttribute('day_of_month');
   }
@@ -277,7 +277,7 @@ export class IotScheduledAudit extends cdktn.TerraformResource {
   }
 
   // day_of_week - computed: true, optional: true, required: false
-  private _dayOfWeek?: string;
+  private _dayOfWeek?: string; 
   public get dayOfWeek() {
     return this.getStringAttribute('day_of_week');
   }
@@ -293,7 +293,7 @@ export class IotScheduledAudit extends cdktn.TerraformResource {
   }
 
   // frequency - computed: false, optional: false, required: true
-  private _frequency?: string;
+  private _frequency?: string; 
   public get frequency() {
     return this.getStringAttribute('frequency');
   }
@@ -316,7 +316,7 @@ export class IotScheduledAudit extends cdktn.TerraformResource {
   }
 
   // scheduled_audit_name - computed: true, optional: true, required: false
-  private _scheduledAuditName?: string;
+  private _scheduledAuditName?: string; 
   public get scheduledAuditName() {
     return this.getStringAttribute('scheduled_audit_name');
   }
@@ -348,7 +348,7 @@ export class IotScheduledAudit extends cdktn.TerraformResource {
   }
 
   // target_check_names - computed: false, optional: false, required: true
-  private _targetCheckNames?: string[];
+  private _targetCheckNames?: string[]; 
   public get targetCheckNames() {
     return cdktn.Fn.tolist(this.getListAttribute('target_check_names'));
   }

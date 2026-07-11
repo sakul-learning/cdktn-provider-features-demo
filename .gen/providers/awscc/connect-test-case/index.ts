@@ -137,7 +137,7 @@ export class ConnectTestCaseEntryPointChatEntryPointParametersOutputReference ex
   }
 
   // flow_id - computed: true, optional: true, required: false
-  private _flowId?: string;
+  private _flowId?: string; 
   public get flowId() {
     return this.getStringAttribute('flow_id');
   }
@@ -271,7 +271,7 @@ export class ConnectTestCaseEntryPointVoiceCallEntryPointParametersOutputReferen
   }
 
   // destination_phone_number - computed: true, optional: true, required: false
-  private _destinationPhoneNumber?: string;
+  private _destinationPhoneNumber?: string; 
   public get destinationPhoneNumber() {
     return this.getStringAttribute('destination_phone_number');
   }
@@ -287,7 +287,7 @@ export class ConnectTestCaseEntryPointVoiceCallEntryPointParametersOutputReferen
   }
 
   // flow_id - computed: true, optional: true, required: false
-  private _flowId?: string;
+  private _flowId?: string; 
   public get flowId() {
     return this.getStringAttribute('flow_id');
   }
@@ -303,7 +303,7 @@ export class ConnectTestCaseEntryPointVoiceCallEntryPointParametersOutputReferen
   }
 
   // source_phone_number - computed: true, optional: true, required: false
-  private _sourcePhoneNumber?: string;
+  private _sourcePhoneNumber?: string; 
   public get sourcePhoneNumber() {
     return this.getStringAttribute('source_phone_number');
   }
@@ -453,7 +453,7 @@ export class ConnectTestCaseEntryPointOutputReference extends cdktn.ComplexObjec
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -486,7 +486,7 @@ export class ConnectTestCaseEntryPointOutputReference extends cdktn.ComplexObjec
 }
 export interface ConnectTestCaseTags {
   /**
-  * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
+  * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_test_case#key ConnectTestCase#key}
   */
@@ -586,7 +586,7 @@ export class ConnectTestCaseTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -602,7 +602,7 @@ export class ConnectTestCaseTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -703,7 +703,7 @@ export class ConnectTestCase extends cdktn.TerraformResource {
   // ==========
 
   // content - computed: false, optional: false, required: true
-  private _content?: string;
+  private _content?: string; 
   public get content() {
     return this.getStringAttribute('content');
   }
@@ -716,7 +716,7 @@ export class ConnectTestCase extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -753,7 +753,7 @@ export class ConnectTestCase extends cdktn.TerraformResource {
   }
 
   // initialization_data - computed: true, optional: true, required: false
-  private _initializationData?: string;
+  private _initializationData?: string; 
   public get initializationData() {
     return this.getStringAttribute('initialization_data');
   }
@@ -769,7 +769,7 @@ export class ConnectTestCase extends cdktn.TerraformResource {
   }
 
   // instance_arn - computed: false, optional: false, required: true
-  private _instanceArn?: string;
+  private _instanceArn?: string; 
   public get instanceArn() {
     return this.getStringAttribute('instance_arn');
   }
@@ -792,7 +792,7 @@ export class ConnectTestCase extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -805,7 +805,7 @@ export class ConnectTestCase extends cdktn.TerraformResource {
   }
 
   // status - computed: true, optional: true, required: false
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }

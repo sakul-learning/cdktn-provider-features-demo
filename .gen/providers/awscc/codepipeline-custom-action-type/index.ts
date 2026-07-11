@@ -58,7 +58,7 @@ export interface CodepipelineCustomActionTypeConfig extends cdktn.TerraformMetaA
 }
 export interface CodepipelineCustomActionTypeConfigurationProperties {
   /**
-  * The description of the action configuration property that is displayed to users.
+  * The description of the action configuration property that is displayed to users. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codepipeline_custom_action_type#description CodepipelineCustomActionType#description}
   */
@@ -76,7 +76,7 @@ export interface CodepipelineCustomActionTypeConfigurationProperties {
   */
   readonly name?: string;
   /**
-  * Indicates that the property is used with PollForJobs. When creating a custom action, an action can have up to one queryable property. If it has one, that property must be both required and not secret.If you create a pipeline with a custom action type, and that custom action contains a queryable property, the value for that configuration property is subject to other restrictions. The value must be less than or equal to twenty (20) characters. The value can contain only alphanumeric characters, underscores, and hyphens.
+  * Indicates that the property is used with PollForJobs. When creating a custom action, an action can have up to one queryable property. If it has one, that property must be both required and not secret.If you create a pipeline with a custom action type, and that custom action contains a queryable property, the value for that configuration property is subject to other restrictions. The value must be less than or equal to twenty (20) characters. The value can contain only alphanumeric characters, underscores, and hyphens. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codepipeline_custom_action_type#queryable CodepipelineCustomActionType#queryable}
   */
@@ -253,7 +253,7 @@ export class CodepipelineCustomActionTypeConfigurationPropertiesOutputReference 
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -269,7 +269,7 @@ export class CodepipelineCustomActionTypeConfigurationPropertiesOutputReference 
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: boolean | cdktn.IResolvable;
+  private _key?: boolean | cdktn.IResolvable; 
   public get key() {
     return this.getBooleanAttribute('key');
   }
@@ -285,7 +285,7 @@ export class CodepipelineCustomActionTypeConfigurationPropertiesOutputReference 
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -301,7 +301,7 @@ export class CodepipelineCustomActionTypeConfigurationPropertiesOutputReference 
   }
 
   // queryable - computed: true, optional: true, required: false
-  private _queryable?: boolean | cdktn.IResolvable;
+  private _queryable?: boolean | cdktn.IResolvable; 
   public get queryable() {
     return this.getBooleanAttribute('queryable');
   }
@@ -317,7 +317,7 @@ export class CodepipelineCustomActionTypeConfigurationPropertiesOutputReference 
   }
 
   // required - computed: true, optional: true, required: false
-  private _required?: boolean | cdktn.IResolvable;
+  private _required?: boolean | cdktn.IResolvable; 
   public get required() {
     return this.getBooleanAttribute('required');
   }
@@ -333,7 +333,7 @@ export class CodepipelineCustomActionTypeConfigurationPropertiesOutputReference 
   }
 
   // secret - computed: true, optional: true, required: false
-  private _secret?: boolean | cdktn.IResolvable;
+  private _secret?: boolean | cdktn.IResolvable; 
   public get secret() {
     return this.getBooleanAttribute('secret');
   }
@@ -349,7 +349,7 @@ export class CodepipelineCustomActionTypeConfigurationPropertiesOutputReference 
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -484,7 +484,7 @@ export class CodepipelineCustomActionTypeInputArtifactDetailsOutputReference ext
   }
 
   // maximum_count - computed: false, optional: false, required: true
-  private _maximumCount?: number;
+  private _maximumCount?: number; 
   public get maximumCount() {
     return this.getNumberAttribute('maximum_count');
   }
@@ -497,7 +497,7 @@ export class CodepipelineCustomActionTypeInputArtifactDetailsOutputReference ext
   }
 
   // minimum_count - computed: false, optional: false, required: true
-  private _minimumCount?: number;
+  private _minimumCount?: number; 
   public get minimumCount() {
     return this.getNumberAttribute('minimum_count');
   }
@@ -609,7 +609,7 @@ export class CodepipelineCustomActionTypeOutputArtifactDetailsOutputReference ex
   }
 
   // maximum_count - computed: false, optional: false, required: true
-  private _maximumCount?: number;
+  private _maximumCount?: number; 
   public get maximumCount() {
     return this.getNumberAttribute('maximum_count');
   }
@@ -622,7 +622,7 @@ export class CodepipelineCustomActionTypeOutputArtifactDetailsOutputReference ex
   }
 
   // minimum_count - computed: false, optional: false, required: true
-  private _minimumCount?: number;
+  private _minimumCount?: number; 
   public get minimumCount() {
     return this.getNumberAttribute('minimum_count');
   }
@@ -636,19 +636,19 @@ export class CodepipelineCustomActionTypeOutputArtifactDetailsOutputReference ex
 }
 export interface CodepipelineCustomActionTypeSettings {
   /**
-  * The URL returned to the AWS CodePipeline console that provides a deep link to the resources of the external system, such as the configuration page for an AWS CodeDeploy deployment group. This link is provided as part of the action display in the pipeline.
+  * The URL returned to the AWS CodePipeline console that provides a deep link to the resources of the external system, such as the configuration page for an AWS CodeDeploy deployment group. This link is provided as part of the action display in the pipeline. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codepipeline_custom_action_type#entity_url_template CodepipelineCustomActionType#entity_url_template}
   */
   readonly entityUrlTemplate?: string;
   /**
-  * The URL returned to the AWS CodePipeline console that contains a link to the top-level landing page for the external system, such as the console page for AWS CodeDeploy. This link is shown on the pipeline view page in the AWS CodePipeline console and provides a link to the execution entity of the external action.
+  * The URL returned to the AWS CodePipeline console that contains a link to the top-level landing page for the external system, such as the console page for AWS CodeDeploy. This link is shown on the pipeline view page in the AWS CodePipeline console and provides a link to the execution entity of the external action. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codepipeline_custom_action_type#execution_url_template CodepipelineCustomActionType#execution_url_template}
   */
   readonly executionUrlTemplate?: string;
   /**
-  * The URL returned to the AWS CodePipeline console that contains a link to the page where customers can update or change the configuration of the external action.
+  * The URL returned to the AWS CodePipeline console that contains a link to the page where customers can update or change the configuration of the external action. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codepipeline_custom_action_type#revision_url_template CodepipelineCustomActionType#revision_url_template}
   */
@@ -772,7 +772,7 @@ export class CodepipelineCustomActionTypeSettingsOutputReference extends cdktn.C
   }
 
   // entity_url_template - computed: true, optional: true, required: false
-  private _entityUrlTemplate?: string;
+  private _entityUrlTemplate?: string; 
   public get entityUrlTemplate() {
     return this.getStringAttribute('entity_url_template');
   }
@@ -788,7 +788,7 @@ export class CodepipelineCustomActionTypeSettingsOutputReference extends cdktn.C
   }
 
   // execution_url_template - computed: true, optional: true, required: false
-  private _executionUrlTemplate?: string;
+  private _executionUrlTemplate?: string; 
   public get executionUrlTemplate() {
     return this.getStringAttribute('execution_url_template');
   }
@@ -804,7 +804,7 @@ export class CodepipelineCustomActionTypeSettingsOutputReference extends cdktn.C
   }
 
   // revision_url_template - computed: true, optional: true, required: false
-  private _revisionUrlTemplate?: string;
+  private _revisionUrlTemplate?: string; 
   public get revisionUrlTemplate() {
     return this.getStringAttribute('revision_url_template');
   }
@@ -820,7 +820,7 @@ export class CodepipelineCustomActionTypeSettingsOutputReference extends cdktn.C
   }
 
   // third_party_configuration_url - computed: true, optional: true, required: false
-  private _thirdPartyConfigurationUrl?: string;
+  private _thirdPartyConfigurationUrl?: string; 
   public get thirdPartyConfigurationUrl() {
     return this.getStringAttribute('third_party_configuration_url');
   }
@@ -933,7 +933,7 @@ export class CodepipelineCustomActionTypeTagsOutputReference extends cdktn.Compl
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -949,7 +949,7 @@ export class CodepipelineCustomActionTypeTagsOutputReference extends cdktn.Compl
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1050,7 +1050,7 @@ export class CodepipelineCustomActionType extends cdktn.TerraformResource {
   // ==========
 
   // category - computed: false, optional: false, required: true
-  private _category?: string;
+  private _category?: string; 
   public get category() {
     return this.getStringAttribute('category');
   }
@@ -1115,7 +1115,7 @@ export class CodepipelineCustomActionType extends cdktn.TerraformResource {
   }
 
   // provider_name - computed: false, optional: false, required: true
-  private _providerName?: string;
+  private _providerName?: string; 
   public get providerName() {
     return this.getStringAttribute('provider_name');
   }
@@ -1160,7 +1160,7 @@ export class CodepipelineCustomActionType extends cdktn.TerraformResource {
   }
 
   // version - computed: false, optional: false, required: true
-  private _version?: string;
+  private _version?: string; 
   public get version() {
     return this.getStringAttribute('version');
   }

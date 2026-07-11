@@ -139,7 +139,7 @@ export class ConnectUserHierarchyStructureUserHierarchyStructureLevelFiveOutputR
   }
 
   // hierarchy_level_arn - computed: true, optional: true, required: false
-  private _hierarchyLevelArn?: string;
+  private _hierarchyLevelArn?: string; 
   public get hierarchyLevelArn() {
     return this.getStringAttribute('hierarchy_level_arn');
   }
@@ -155,7 +155,7 @@ export class ConnectUserHierarchyStructureUserHierarchyStructureLevelFiveOutputR
   }
 
   // hierarchy_level_id - computed: true, optional: true, required: false
-  private _hierarchyLevelId?: string;
+  private _hierarchyLevelId?: string; 
   public get hierarchyLevelId() {
     return this.getStringAttribute('hierarchy_level_id');
   }
@@ -171,7 +171,7 @@ export class ConnectUserHierarchyStructureUserHierarchyStructureLevelFiveOutputR
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -305,7 +305,7 @@ export class ConnectUserHierarchyStructureUserHierarchyStructureLevelFourOutputR
   }
 
   // hierarchy_level_arn - computed: true, optional: true, required: false
-  private _hierarchyLevelArn?: string;
+  private _hierarchyLevelArn?: string; 
   public get hierarchyLevelArn() {
     return this.getStringAttribute('hierarchy_level_arn');
   }
@@ -321,7 +321,7 @@ export class ConnectUserHierarchyStructureUserHierarchyStructureLevelFourOutputR
   }
 
   // hierarchy_level_id - computed: true, optional: true, required: false
-  private _hierarchyLevelId?: string;
+  private _hierarchyLevelId?: string; 
   public get hierarchyLevelId() {
     return this.getStringAttribute('hierarchy_level_id');
   }
@@ -337,7 +337,7 @@ export class ConnectUserHierarchyStructureUserHierarchyStructureLevelFourOutputR
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -471,7 +471,7 @@ export class ConnectUserHierarchyStructureUserHierarchyStructureLevelOneOutputRe
   }
 
   // hierarchy_level_arn - computed: true, optional: true, required: false
-  private _hierarchyLevelArn?: string;
+  private _hierarchyLevelArn?: string; 
   public get hierarchyLevelArn() {
     return this.getStringAttribute('hierarchy_level_arn');
   }
@@ -487,7 +487,7 @@ export class ConnectUserHierarchyStructureUserHierarchyStructureLevelOneOutputRe
   }
 
   // hierarchy_level_id - computed: true, optional: true, required: false
-  private _hierarchyLevelId?: string;
+  private _hierarchyLevelId?: string; 
   public get hierarchyLevelId() {
     return this.getStringAttribute('hierarchy_level_id');
   }
@@ -503,7 +503,7 @@ export class ConnectUserHierarchyStructureUserHierarchyStructureLevelOneOutputRe
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -637,7 +637,7 @@ export class ConnectUserHierarchyStructureUserHierarchyStructureLevelThreeOutput
   }
 
   // hierarchy_level_arn - computed: true, optional: true, required: false
-  private _hierarchyLevelArn?: string;
+  private _hierarchyLevelArn?: string; 
   public get hierarchyLevelArn() {
     return this.getStringAttribute('hierarchy_level_arn');
   }
@@ -653,7 +653,7 @@ export class ConnectUserHierarchyStructureUserHierarchyStructureLevelThreeOutput
   }
 
   // hierarchy_level_id - computed: true, optional: true, required: false
-  private _hierarchyLevelId?: string;
+  private _hierarchyLevelId?: string; 
   public get hierarchyLevelId() {
     return this.getStringAttribute('hierarchy_level_id');
   }
@@ -669,7 +669,7 @@ export class ConnectUserHierarchyStructureUserHierarchyStructureLevelThreeOutput
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -803,7 +803,7 @@ export class ConnectUserHierarchyStructureUserHierarchyStructureLevelTwoOutputRe
   }
 
   // hierarchy_level_arn - computed: true, optional: true, required: false
-  private _hierarchyLevelArn?: string;
+  private _hierarchyLevelArn?: string; 
   public get hierarchyLevelArn() {
     return this.getStringAttribute('hierarchy_level_arn');
   }
@@ -819,7 +819,7 @@ export class ConnectUserHierarchyStructureUserHierarchyStructureLevelTwoOutputRe
   }
 
   // hierarchy_level_id - computed: true, optional: true, required: false
-  private _hierarchyLevelId?: string;
+  private _hierarchyLevelId?: string; 
   public get hierarchyLevelId() {
     return this.getStringAttribute('hierarchy_level_id');
   }
@@ -835,7 +835,7 @@ export class ConnectUserHierarchyStructureUserHierarchyStructureLevelTwoOutputRe
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1151,7 +1151,7 @@ export class ConnectUserHierarchyStructure extends cdktn.TerraformResource {
   }
 
   // instance_arn - computed: false, optional: false, required: true
-  private _instanceArn?: string;
+  private _instanceArn?: string; 
   public get instanceArn() {
     return this.getStringAttribute('instance_arn');
   }

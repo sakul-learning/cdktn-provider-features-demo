@@ -116,7 +116,7 @@ export class DataAwsNeptuneOrderableDbInstance extends cdktn.TerraformDataSource
   }
 
   // engine - computed: false, optional: true, required: false
-  private _engine?: string;
+  private _engine?: string; 
   public get engine() {
     return this.getStringAttribute('engine');
   }
@@ -132,7 +132,7 @@ export class DataAwsNeptuneOrderableDbInstance extends cdktn.TerraformDataSource
   }
 
   // engine_version - computed: true, optional: true, required: false
-  private _engineVersion?: string;
+  private _engineVersion?: string; 
   public get engineVersion() {
     return this.getStringAttribute('engine_version');
   }
@@ -148,7 +148,7 @@ export class DataAwsNeptuneOrderableDbInstance extends cdktn.TerraformDataSource
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -164,7 +164,7 @@ export class DataAwsNeptuneOrderableDbInstance extends cdktn.TerraformDataSource
   }
 
   // instance_class - computed: true, optional: true, required: false
-  private _instanceClass?: string;
+  private _instanceClass?: string; 
   public get instanceClass() {
     return this.getStringAttribute('instance_class');
   }
@@ -180,7 +180,7 @@ export class DataAwsNeptuneOrderableDbInstance extends cdktn.TerraformDataSource
   }
 
   // license_model - computed: false, optional: true, required: false
-  private _licenseModel?: string;
+  private _licenseModel?: string; 
   public get licenseModel() {
     return this.getStringAttribute('license_model');
   }
@@ -231,7 +231,7 @@ export class DataAwsNeptuneOrderableDbInstance extends cdktn.TerraformDataSource
   }
 
   // preferred_instance_classes - computed: false, optional: true, required: false
-  private _preferredInstanceClasses?: string[];
+  private _preferredInstanceClasses?: string[]; 
   public get preferredInstanceClasses() {
     return this.getListAttribute('preferred_instance_classes');
   }
@@ -252,7 +252,7 @@ export class DataAwsNeptuneOrderableDbInstance extends cdktn.TerraformDataSource
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -298,7 +298,7 @@ export class DataAwsNeptuneOrderableDbInstance extends cdktn.TerraformDataSource
   }
 
   // vpc - computed: true, optional: true, required: false
-  private _vpc?: boolean | cdktn.IResolvable;
+  private _vpc?: boolean | cdktn.IResolvable; 
   public get vpc() {
     return this.getBooleanAttribute('vpc');
   }

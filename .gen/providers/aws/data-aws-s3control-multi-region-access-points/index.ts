@@ -361,7 +361,7 @@ export class DataAwsS3ControlMultiRegionAccessPoints extends cdktn.TerraformData
   }
 
   // account_id - computed: false, optional: true, required: false
-  private _accountId?: string;
+  private _accountId?: string; 
   public get accountId() {
     return this.getStringAttribute('account_id');
   }
@@ -377,7 +377,7 @@ export class DataAwsS3ControlMultiRegionAccessPoints extends cdktn.TerraformData
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

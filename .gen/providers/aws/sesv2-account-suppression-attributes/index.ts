@@ -83,7 +83,7 @@ export class Sesv2AccountSuppressionAttributes extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -99,7 +99,7 @@ export class Sesv2AccountSuppressionAttributes extends cdktn.TerraformResource {
   }
 
   // suppressed_reasons - computed: false, optional: false, required: true
-  private _suppressedReasons?: string[];
+  private _suppressedReasons?: string[]; 
   public get suppressedReasons() {
     return cdktn.Fn.tolist(this.getListAttribute('suppressed_reasons'));
   }

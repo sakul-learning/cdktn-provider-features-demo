@@ -901,7 +901,7 @@ export class CodepipelineArtifactStoreEncryptionKeyOutputReference extends cdktn
   }
 
   // id - computed: false, optional: false, required: true
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -914,7 +914,7 @@ export class CodepipelineArtifactStoreEncryptionKeyOutputReference extends cdktn
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -1060,7 +1060,7 @@ export class CodepipelineArtifactStoreOutputReference extends cdktn.ComplexObjec
   }
 
   // location - computed: false, optional: false, required: true
-  private _location?: string;
+  private _location?: string; 
   public get location() {
     return this.getStringAttribute('location');
   }
@@ -1073,7 +1073,7 @@ export class CodepipelineArtifactStoreOutputReference extends cdktn.ComplexObjec
   }
 
   // region - computed: false, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1089,7 +1089,7 @@ export class CodepipelineArtifactStoreOutputReference extends cdktn.ComplexObjec
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -1422,7 +1422,7 @@ export class CodepipelineStageActionOutputReference extends cdktn.ComplexObject 
   }
 
   // category - computed: false, optional: false, required: true
-  private _category?: string;
+  private _category?: string; 
   public get category() {
     return this.getStringAttribute('category');
   }
@@ -1435,7 +1435,7 @@ export class CodepipelineStageActionOutputReference extends cdktn.ComplexObject 
   }
 
   // configuration - computed: false, optional: true, required: false
-  private _configuration?: { [key: string]: string };
+  private _configuration?: { [key: string]: string }; 
   public get configuration() {
     return this.getStringMapAttribute('configuration');
   }
@@ -1451,7 +1451,7 @@ export class CodepipelineStageActionOutputReference extends cdktn.ComplexObject 
   }
 
   // input_artifacts - computed: false, optional: true, required: false
-  private _inputArtifacts?: string[];
+  private _inputArtifacts?: string[]; 
   public get inputArtifacts() {
     return this.getListAttribute('input_artifacts');
   }
@@ -1467,7 +1467,7 @@ export class CodepipelineStageActionOutputReference extends cdktn.ComplexObject 
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1480,7 +1480,7 @@ export class CodepipelineStageActionOutputReference extends cdktn.ComplexObject 
   }
 
   // namespace - computed: false, optional: true, required: false
-  private _namespace?: string;
+  private _namespace?: string; 
   public get namespace() {
     return this.getStringAttribute('namespace');
   }
@@ -1496,7 +1496,7 @@ export class CodepipelineStageActionOutputReference extends cdktn.ComplexObject 
   }
 
   // output_artifacts - computed: false, optional: true, required: false
-  private _outputArtifacts?: string[];
+  private _outputArtifacts?: string[]; 
   public get outputArtifacts() {
     return this.getListAttribute('output_artifacts');
   }
@@ -1512,7 +1512,7 @@ export class CodepipelineStageActionOutputReference extends cdktn.ComplexObject 
   }
 
   // owner - computed: false, optional: false, required: true
-  private _owner?: string;
+  private _owner?: string; 
   public get owner() {
     return this.getStringAttribute('owner');
   }
@@ -1525,7 +1525,7 @@ export class CodepipelineStageActionOutputReference extends cdktn.ComplexObject 
   }
 
   // provider - computed: false, optional: false, required: true
-  private _provider?: string;
+  private _provider?: string; 
   public get provider() {
     return this.getStringAttribute('provider');
   }
@@ -1538,7 +1538,7 @@ export class CodepipelineStageActionOutputReference extends cdktn.ComplexObject 
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1554,7 +1554,7 @@ export class CodepipelineStageActionOutputReference extends cdktn.ComplexObject 
   }
 
   // role_arn - computed: false, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -1570,7 +1570,7 @@ export class CodepipelineStageActionOutputReference extends cdktn.ComplexObject 
   }
 
   // run_order - computed: true, optional: true, required: false
-  private _runOrder?: number;
+  private _runOrder?: number; 
   public get runOrder() {
     return this.getNumberAttribute('run_order');
   }
@@ -1586,7 +1586,7 @@ export class CodepipelineStageActionOutputReference extends cdktn.ComplexObject 
   }
 
   // timeout_in_minutes - computed: false, optional: true, required: false
-  private _timeoutInMinutes?: number;
+  private _timeoutInMinutes?: number; 
   public get timeoutInMinutes() {
     return this.getNumberAttribute('timeout_in_minutes');
   }
@@ -1602,7 +1602,7 @@ export class CodepipelineStageActionOutputReference extends cdktn.ComplexObject 
   }
 
   // version - computed: false, optional: false, required: true
-  private _version?: string;
+  private _version?: string; 
   public get version() {
     return this.getStringAttribute('version');
   }
@@ -1754,7 +1754,7 @@ export class CodepipelineStageBeforeEntryConditionRuleRuleTypeIdOutputReference 
   }
 
   // category - computed: false, optional: false, required: true
-  private _category?: string;
+  private _category?: string; 
   public get category() {
     return this.getStringAttribute('category');
   }
@@ -1767,7 +1767,7 @@ export class CodepipelineStageBeforeEntryConditionRuleRuleTypeIdOutputReference 
   }
 
   // owner - computed: false, optional: true, required: false
-  private _owner?: string;
+  private _owner?: string; 
   public get owner() {
     return this.getStringAttribute('owner');
   }
@@ -1783,7 +1783,7 @@ export class CodepipelineStageBeforeEntryConditionRuleRuleTypeIdOutputReference 
   }
 
   // provider - computed: false, optional: false, required: true
-  private _provider?: string;
+  private _provider?: string; 
   public get provider() {
     return this.getStringAttribute('provider');
   }
@@ -1796,7 +1796,7 @@ export class CodepipelineStageBeforeEntryConditionRuleRuleTypeIdOutputReference 
   }
 
   // version - computed: false, optional: true, required: false
-  private _version?: string;
+  private _version?: string; 
   public get version() {
     return this.getStringAttribute('version');
   }
@@ -2013,7 +2013,7 @@ export class CodepipelineStageBeforeEntryConditionRuleOutputReference extends cd
   }
 
   // commands - computed: false, optional: true, required: false
-  private _commands?: string[];
+  private _commands?: string[]; 
   public get commands() {
     return this.getListAttribute('commands');
   }
@@ -2029,7 +2029,7 @@ export class CodepipelineStageBeforeEntryConditionRuleOutputReference extends cd
   }
 
   // configuration - computed: false, optional: true, required: false
-  private _configuration?: { [key: string]: string };
+  private _configuration?: { [key: string]: string }; 
   public get configuration() {
     return this.getStringMapAttribute('configuration');
   }
@@ -2045,7 +2045,7 @@ export class CodepipelineStageBeforeEntryConditionRuleOutputReference extends cd
   }
 
   // input_artifacts - computed: false, optional: true, required: false
-  private _inputArtifacts?: string[];
+  private _inputArtifacts?: string[]; 
   public get inputArtifacts() {
     return this.getListAttribute('input_artifacts');
   }
@@ -2061,7 +2061,7 @@ export class CodepipelineStageBeforeEntryConditionRuleOutputReference extends cd
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2074,7 +2074,7 @@ export class CodepipelineStageBeforeEntryConditionRuleOutputReference extends cd
   }
 
   // region - computed: false, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -2090,7 +2090,7 @@ export class CodepipelineStageBeforeEntryConditionRuleOutputReference extends cd
   }
 
   // role_arn - computed: false, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -2106,7 +2106,7 @@ export class CodepipelineStageBeforeEntryConditionRuleOutputReference extends cd
   }
 
   // timeout_in_minutes - computed: false, optional: true, required: false
-  private _timeoutInMinutes?: number;
+  private _timeoutInMinutes?: number; 
   public get timeoutInMinutes() {
     return this.getNumberAttribute('timeout_in_minutes');
   }
@@ -2242,7 +2242,7 @@ export class CodepipelineStageBeforeEntryConditionOutputReference extends cdktn.
   }
 
   // result - computed: false, optional: true, required: false
-  private _result?: string;
+  private _result?: string; 
   public get result() {
     return this.getStringAttribute('result');
   }
@@ -2473,7 +2473,7 @@ export class CodepipelineStageOnFailureConditionRuleRuleTypeIdOutputReference ex
   }
 
   // category - computed: false, optional: false, required: true
-  private _category?: string;
+  private _category?: string; 
   public get category() {
     return this.getStringAttribute('category');
   }
@@ -2486,7 +2486,7 @@ export class CodepipelineStageOnFailureConditionRuleRuleTypeIdOutputReference ex
   }
 
   // owner - computed: false, optional: true, required: false
-  private _owner?: string;
+  private _owner?: string; 
   public get owner() {
     return this.getStringAttribute('owner');
   }
@@ -2502,7 +2502,7 @@ export class CodepipelineStageOnFailureConditionRuleRuleTypeIdOutputReference ex
   }
 
   // provider - computed: false, optional: false, required: true
-  private _provider?: string;
+  private _provider?: string; 
   public get provider() {
     return this.getStringAttribute('provider');
   }
@@ -2515,7 +2515,7 @@ export class CodepipelineStageOnFailureConditionRuleRuleTypeIdOutputReference ex
   }
 
   // version - computed: false, optional: true, required: false
-  private _version?: string;
+  private _version?: string; 
   public get version() {
     return this.getStringAttribute('version');
   }
@@ -2732,7 +2732,7 @@ export class CodepipelineStageOnFailureConditionRuleOutputReference extends cdkt
   }
 
   // commands - computed: false, optional: true, required: false
-  private _commands?: string[];
+  private _commands?: string[]; 
   public get commands() {
     return this.getListAttribute('commands');
   }
@@ -2748,7 +2748,7 @@ export class CodepipelineStageOnFailureConditionRuleOutputReference extends cdkt
   }
 
   // configuration - computed: false, optional: true, required: false
-  private _configuration?: { [key: string]: string };
+  private _configuration?: { [key: string]: string }; 
   public get configuration() {
     return this.getStringMapAttribute('configuration');
   }
@@ -2764,7 +2764,7 @@ export class CodepipelineStageOnFailureConditionRuleOutputReference extends cdkt
   }
 
   // input_artifacts - computed: false, optional: true, required: false
-  private _inputArtifacts?: string[];
+  private _inputArtifacts?: string[]; 
   public get inputArtifacts() {
     return this.getListAttribute('input_artifacts');
   }
@@ -2780,7 +2780,7 @@ export class CodepipelineStageOnFailureConditionRuleOutputReference extends cdkt
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2793,7 +2793,7 @@ export class CodepipelineStageOnFailureConditionRuleOutputReference extends cdkt
   }
 
   // region - computed: false, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -2809,7 +2809,7 @@ export class CodepipelineStageOnFailureConditionRuleOutputReference extends cdkt
   }
 
   // role_arn - computed: false, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -2825,7 +2825,7 @@ export class CodepipelineStageOnFailureConditionRuleOutputReference extends cdkt
   }
 
   // timeout_in_minutes - computed: false, optional: true, required: false
-  private _timeoutInMinutes?: number;
+  private _timeoutInMinutes?: number; 
   public get timeoutInMinutes() {
     return this.getNumberAttribute('timeout_in_minutes');
   }
@@ -2961,7 +2961,7 @@ export class CodepipelineStageOnFailureConditionOutputReference extends cdktn.Co
   }
 
   // result - computed: false, optional: true, required: false
-  private _result?: string;
+  private _result?: string; 
   public get result() {
     return this.getStringAttribute('result');
   }
@@ -3058,7 +3058,7 @@ export class CodepipelineStageOnFailureRetryConfigurationOutputReference extends
   }
 
   // retry_mode - computed: false, optional: true, required: false
-  private _retryMode?: string;
+  private _retryMode?: string; 
   public get retryMode() {
     return this.getStringAttribute('retry_mode');
   }
@@ -3180,7 +3180,7 @@ export class CodepipelineStageOnFailureOutputReference extends cdktn.ComplexObje
   }
 
   // result - computed: false, optional: true, required: false
-  private _result?: string;
+  private _result?: string; 
   public get result() {
     return this.getStringAttribute('result');
   }
@@ -3347,7 +3347,7 @@ export class CodepipelineStageOnSuccessConditionRuleRuleTypeIdOutputReference ex
   }
 
   // category - computed: false, optional: false, required: true
-  private _category?: string;
+  private _category?: string; 
   public get category() {
     return this.getStringAttribute('category');
   }
@@ -3360,7 +3360,7 @@ export class CodepipelineStageOnSuccessConditionRuleRuleTypeIdOutputReference ex
   }
 
   // owner - computed: false, optional: true, required: false
-  private _owner?: string;
+  private _owner?: string; 
   public get owner() {
     return this.getStringAttribute('owner');
   }
@@ -3376,7 +3376,7 @@ export class CodepipelineStageOnSuccessConditionRuleRuleTypeIdOutputReference ex
   }
 
   // provider - computed: false, optional: false, required: true
-  private _provider?: string;
+  private _provider?: string; 
   public get provider() {
     return this.getStringAttribute('provider');
   }
@@ -3389,7 +3389,7 @@ export class CodepipelineStageOnSuccessConditionRuleRuleTypeIdOutputReference ex
   }
 
   // version - computed: false, optional: true, required: false
-  private _version?: string;
+  private _version?: string; 
   public get version() {
     return this.getStringAttribute('version');
   }
@@ -3606,7 +3606,7 @@ export class CodepipelineStageOnSuccessConditionRuleOutputReference extends cdkt
   }
 
   // commands - computed: false, optional: true, required: false
-  private _commands?: string[];
+  private _commands?: string[]; 
   public get commands() {
     return this.getListAttribute('commands');
   }
@@ -3622,7 +3622,7 @@ export class CodepipelineStageOnSuccessConditionRuleOutputReference extends cdkt
   }
 
   // configuration - computed: false, optional: true, required: false
-  private _configuration?: { [key: string]: string };
+  private _configuration?: { [key: string]: string }; 
   public get configuration() {
     return this.getStringMapAttribute('configuration');
   }
@@ -3638,7 +3638,7 @@ export class CodepipelineStageOnSuccessConditionRuleOutputReference extends cdkt
   }
 
   // input_artifacts - computed: false, optional: true, required: false
-  private _inputArtifacts?: string[];
+  private _inputArtifacts?: string[]; 
   public get inputArtifacts() {
     return this.getListAttribute('input_artifacts');
   }
@@ -3654,7 +3654,7 @@ export class CodepipelineStageOnSuccessConditionRuleOutputReference extends cdkt
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -3667,7 +3667,7 @@ export class CodepipelineStageOnSuccessConditionRuleOutputReference extends cdkt
   }
 
   // region - computed: false, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -3683,7 +3683,7 @@ export class CodepipelineStageOnSuccessConditionRuleOutputReference extends cdkt
   }
 
   // role_arn - computed: false, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -3699,7 +3699,7 @@ export class CodepipelineStageOnSuccessConditionRuleOutputReference extends cdkt
   }
 
   // timeout_in_minutes - computed: false, optional: true, required: false
-  private _timeoutInMinutes?: number;
+  private _timeoutInMinutes?: number; 
   public get timeoutInMinutes() {
     return this.getNumberAttribute('timeout_in_minutes');
   }
@@ -3835,7 +3835,7 @@ export class CodepipelineStageOnSuccessConditionOutputReference extends cdktn.Co
   }
 
   // result - computed: false, optional: true, required: false
-  private _result?: string;
+  private _result?: string; 
   public get result() {
     return this.getStringAttribute('result');
   }
@@ -4103,7 +4103,7 @@ export class CodepipelineStageOutputReference extends cdktn.ComplexObject {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -4282,7 +4282,7 @@ export class CodepipelineTriggerGitConfigurationPullRequestBranchesOutputReferen
   }
 
   // excludes - computed: false, optional: true, required: false
-  private _excludes?: string[];
+  private _excludes?: string[]; 
   public get excludes() {
     return this.getListAttribute('excludes');
   }
@@ -4298,7 +4298,7 @@ export class CodepipelineTriggerGitConfigurationPullRequestBranchesOutputReferen
   }
 
   // includes - computed: false, optional: true, required: false
-  private _includes?: string[];
+  private _includes?: string[]; 
   public get includes() {
     return this.getListAttribute('includes');
   }
@@ -4399,7 +4399,7 @@ export class CodepipelineTriggerGitConfigurationPullRequestFilePathsOutputRefere
   }
 
   // excludes - computed: false, optional: true, required: false
-  private _excludes?: string[];
+  private _excludes?: string[]; 
   public get excludes() {
     return this.getListAttribute('excludes');
   }
@@ -4415,7 +4415,7 @@ export class CodepipelineTriggerGitConfigurationPullRequestFilePathsOutputRefere
   }
 
   // includes - computed: false, optional: true, required: false
-  private _includes?: string[];
+  private _includes?: string[]; 
   public get includes() {
     return this.getListAttribute('includes');
   }
@@ -4549,7 +4549,7 @@ export class CodepipelineTriggerGitConfigurationPullRequestOutputReference exten
   }
 
   // events - computed: false, optional: true, required: false
-  private _events?: string[];
+  private _events?: string[]; 
   public get events() {
     return this.getListAttribute('events');
   }
@@ -4702,7 +4702,7 @@ export class CodepipelineTriggerGitConfigurationPushBranchesOutputReference exte
   }
 
   // excludes - computed: false, optional: true, required: false
-  private _excludes?: string[];
+  private _excludes?: string[]; 
   public get excludes() {
     return this.getListAttribute('excludes');
   }
@@ -4718,7 +4718,7 @@ export class CodepipelineTriggerGitConfigurationPushBranchesOutputReference exte
   }
 
   // includes - computed: false, optional: true, required: false
-  private _includes?: string[];
+  private _includes?: string[]; 
   public get includes() {
     return this.getListAttribute('includes');
   }
@@ -4819,7 +4819,7 @@ export class CodepipelineTriggerGitConfigurationPushFilePathsOutputReference ext
   }
 
   // excludes - computed: false, optional: true, required: false
-  private _excludes?: string[];
+  private _excludes?: string[]; 
   public get excludes() {
     return this.getListAttribute('excludes');
   }
@@ -4835,7 +4835,7 @@ export class CodepipelineTriggerGitConfigurationPushFilePathsOutputReference ext
   }
 
   // includes - computed: false, optional: true, required: false
-  private _includes?: string[];
+  private _includes?: string[]; 
   public get includes() {
     return this.getListAttribute('includes');
   }
@@ -4936,7 +4936,7 @@ export class CodepipelineTriggerGitConfigurationPushTagsOutputReference extends 
   }
 
   // excludes - computed: false, optional: true, required: false
-  private _excludes?: string[];
+  private _excludes?: string[]; 
   public get excludes() {
     return this.getListAttribute('excludes');
   }
@@ -4952,7 +4952,7 @@ export class CodepipelineTriggerGitConfigurationPushTagsOutputReference extends 
   }
 
   // includes - computed: false, optional: true, required: false
-  private _includes?: string[];
+  private _includes?: string[]; 
   public get includes() {
     return this.getListAttribute('includes');
   }
@@ -5262,7 +5262,7 @@ export class CodepipelineTriggerGitConfigurationOutputReference extends cdktn.Co
   }
 
   // source_action_name - computed: false, optional: false, required: true
-  private _sourceActionName?: string;
+  private _sourceActionName?: string; 
   public get sourceActionName() {
     return this.getStringAttribute('source_action_name');
   }
@@ -5406,7 +5406,7 @@ export class CodepipelineTriggerOutputReference extends cdktn.ComplexObject {
   }
 
   // provider_type - computed: false, optional: false, required: true
-  private _providerType?: string;
+  private _providerType?: string; 
   public get providerType() {
     return this.getStringAttribute('provider_type');
   }
@@ -5566,7 +5566,7 @@ export class CodepipelineVariableOutputReference extends cdktn.ComplexObject {
   }
 
   // default_value - computed: false, optional: true, required: false
-  private _defaultValue?: string;
+  private _defaultValue?: string; 
   public get defaultValue() {
     return this.getStringAttribute('default_value');
   }
@@ -5582,7 +5582,7 @@ export class CodepipelineVariableOutputReference extends cdktn.ComplexObject {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -5598,7 +5598,7 @@ export class CodepipelineVariableOutputReference extends cdktn.ComplexObject {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -5705,7 +5705,7 @@ export class Codepipeline extends cdktn.TerraformResource {
   }
 
   // execution_mode - computed: false, optional: true, required: false
-  private _executionMode?: string;
+  private _executionMode?: string; 
   public get executionMode() {
     return this.getStringAttribute('execution_mode');
   }
@@ -5721,7 +5721,7 @@ export class Codepipeline extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -5737,7 +5737,7 @@ export class Codepipeline extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -5750,7 +5750,7 @@ export class Codepipeline extends cdktn.TerraformResource {
   }
 
   // pipeline_type - computed: false, optional: true, required: false
-  private _pipelineType?: string;
+  private _pipelineType?: string; 
   public get pipelineType() {
     return this.getStringAttribute('pipeline_type');
   }
@@ -5766,7 +5766,7 @@ export class Codepipeline extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -5782,7 +5782,7 @@ export class Codepipeline extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -5795,7 +5795,7 @@ export class Codepipeline extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -5811,7 +5811,7 @@ export class Codepipeline extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

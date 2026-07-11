@@ -213,7 +213,7 @@ export class Ec2NetworkInsightsAccessScopeExcludePathsDestinationPacketHeaderSta
   }
 
   // destination_addresses - computed: false, optional: true, required: false
-  private _destinationAddresses?: string[];
+  private _destinationAddresses?: string[]; 
   public get destinationAddresses() {
     return this.getListAttribute('destination_addresses');
   }
@@ -229,7 +229,7 @@ export class Ec2NetworkInsightsAccessScopeExcludePathsDestinationPacketHeaderSta
   }
 
   // destination_ports - computed: false, optional: true, required: false
-  private _destinationPorts?: string[];
+  private _destinationPorts?: string[]; 
   public get destinationPorts() {
     return this.getListAttribute('destination_ports');
   }
@@ -245,7 +245,7 @@ export class Ec2NetworkInsightsAccessScopeExcludePathsDestinationPacketHeaderSta
   }
 
   // destination_prefix_lists - computed: false, optional: true, required: false
-  private _destinationPrefixLists?: string[];
+  private _destinationPrefixLists?: string[]; 
   public get destinationPrefixLists() {
     return this.getListAttribute('destination_prefix_lists');
   }
@@ -261,7 +261,7 @@ export class Ec2NetworkInsightsAccessScopeExcludePathsDestinationPacketHeaderSta
   }
 
   // protocols - computed: false, optional: true, required: false
-  private _protocols?: string[];
+  private _protocols?: string[]; 
   public get protocols() {
     return this.getListAttribute('protocols');
   }
@@ -277,7 +277,7 @@ export class Ec2NetworkInsightsAccessScopeExcludePathsDestinationPacketHeaderSta
   }
 
   // source_addresses - computed: false, optional: true, required: false
-  private _sourceAddresses?: string[];
+  private _sourceAddresses?: string[]; 
   public get sourceAddresses() {
     return this.getListAttribute('source_addresses');
   }
@@ -293,7 +293,7 @@ export class Ec2NetworkInsightsAccessScopeExcludePathsDestinationPacketHeaderSta
   }
 
   // source_ports - computed: false, optional: true, required: false
-  private _sourcePorts?: string[];
+  private _sourcePorts?: string[]; 
   public get sourcePorts() {
     return this.getListAttribute('source_ports');
   }
@@ -309,7 +309,7 @@ export class Ec2NetworkInsightsAccessScopeExcludePathsDestinationPacketHeaderSta
   }
 
   // source_prefix_lists - computed: false, optional: true, required: false
-  private _sourcePrefixLists?: string[];
+  private _sourcePrefixLists?: string[]; 
   public get sourcePrefixLists() {
     return this.getListAttribute('source_prefix_lists');
   }
@@ -442,7 +442,7 @@ export class Ec2NetworkInsightsAccessScopeExcludePathsDestinationResourceStateme
   }
 
   // resource_types - computed: false, optional: true, required: false
-  private _resourceTypes?: string[];
+  private _resourceTypes?: string[]; 
   public get resourceTypes() {
     return this.getListAttribute('resource_types');
   }
@@ -458,7 +458,7 @@ export class Ec2NetworkInsightsAccessScopeExcludePathsDestinationResourceStateme
   }
 
   // resources - computed: false, optional: true, required: false
-  private _resources?: string[];
+  private _resources?: string[]; 
   public get resources() {
     return this.getListAttribute('resources');
   }
@@ -829,7 +829,7 @@ export class Ec2NetworkInsightsAccessScopeExcludePathsSourcePacketHeaderStatemen
   }
 
   // destination_addresses - computed: false, optional: true, required: false
-  private _destinationAddresses?: string[];
+  private _destinationAddresses?: string[]; 
   public get destinationAddresses() {
     return this.getListAttribute('destination_addresses');
   }
@@ -845,7 +845,7 @@ export class Ec2NetworkInsightsAccessScopeExcludePathsSourcePacketHeaderStatemen
   }
 
   // destination_ports - computed: false, optional: true, required: false
-  private _destinationPorts?: string[];
+  private _destinationPorts?: string[]; 
   public get destinationPorts() {
     return this.getListAttribute('destination_ports');
   }
@@ -861,7 +861,7 @@ export class Ec2NetworkInsightsAccessScopeExcludePathsSourcePacketHeaderStatemen
   }
 
   // destination_prefix_lists - computed: false, optional: true, required: false
-  private _destinationPrefixLists?: string[];
+  private _destinationPrefixLists?: string[]; 
   public get destinationPrefixLists() {
     return this.getListAttribute('destination_prefix_lists');
   }
@@ -877,7 +877,7 @@ export class Ec2NetworkInsightsAccessScopeExcludePathsSourcePacketHeaderStatemen
   }
 
   // protocols - computed: false, optional: true, required: false
-  private _protocols?: string[];
+  private _protocols?: string[]; 
   public get protocols() {
     return this.getListAttribute('protocols');
   }
@@ -893,7 +893,7 @@ export class Ec2NetworkInsightsAccessScopeExcludePathsSourcePacketHeaderStatemen
   }
 
   // source_addresses - computed: false, optional: true, required: false
-  private _sourceAddresses?: string[];
+  private _sourceAddresses?: string[]; 
   public get sourceAddresses() {
     return this.getListAttribute('source_addresses');
   }
@@ -909,7 +909,7 @@ export class Ec2NetworkInsightsAccessScopeExcludePathsSourcePacketHeaderStatemen
   }
 
   // source_ports - computed: false, optional: true, required: false
-  private _sourcePorts?: string[];
+  private _sourcePorts?: string[]; 
   public get sourcePorts() {
     return this.getListAttribute('source_ports');
   }
@@ -925,7 +925,7 @@ export class Ec2NetworkInsightsAccessScopeExcludePathsSourcePacketHeaderStatemen
   }
 
   // source_prefix_lists - computed: false, optional: true, required: false
-  private _sourcePrefixLists?: string[];
+  private _sourcePrefixLists?: string[]; 
   public get sourcePrefixLists() {
     return this.getListAttribute('source_prefix_lists');
   }
@@ -1058,7 +1058,7 @@ export class Ec2NetworkInsightsAccessScopeExcludePathsSourceResourceStatementOut
   }
 
   // resource_types - computed: false, optional: true, required: false
-  private _resourceTypes?: string[];
+  private _resourceTypes?: string[]; 
   public get resourceTypes() {
     return this.getListAttribute('resource_types');
   }
@@ -1074,7 +1074,7 @@ export class Ec2NetworkInsightsAccessScopeExcludePathsSourceResourceStatementOut
   }
 
   // resources - computed: false, optional: true, required: false
-  private _resources?: string[];
+  private _resources?: string[]; 
   public get resources() {
     return this.getListAttribute('resources');
   }
@@ -1360,7 +1360,7 @@ export class Ec2NetworkInsightsAccessScopeExcludePathsThroughResourcesResourceSt
   }
 
   // resource_types - computed: false, optional: true, required: false
-  private _resourceTypes?: string[];
+  private _resourceTypes?: string[]; 
   public get resourceTypes() {
     return this.getListAttribute('resource_types');
   }
@@ -1376,7 +1376,7 @@ export class Ec2NetworkInsightsAccessScopeExcludePathsThroughResourcesResourceSt
   }
 
   // resources - computed: false, optional: true, required: false
-  private _resources?: string[];
+  private _resources?: string[]; 
   public get resources() {
     return this.getListAttribute('resources');
   }
@@ -1900,7 +1900,7 @@ export class Ec2NetworkInsightsAccessScopeMatchPathsDestinationPacketHeaderState
   }
 
   // destination_addresses - computed: false, optional: true, required: false
-  private _destinationAddresses?: string[];
+  private _destinationAddresses?: string[]; 
   public get destinationAddresses() {
     return this.getListAttribute('destination_addresses');
   }
@@ -1916,7 +1916,7 @@ export class Ec2NetworkInsightsAccessScopeMatchPathsDestinationPacketHeaderState
   }
 
   // destination_ports - computed: false, optional: true, required: false
-  private _destinationPorts?: string[];
+  private _destinationPorts?: string[]; 
   public get destinationPorts() {
     return this.getListAttribute('destination_ports');
   }
@@ -1932,7 +1932,7 @@ export class Ec2NetworkInsightsAccessScopeMatchPathsDestinationPacketHeaderState
   }
 
   // destination_prefix_lists - computed: false, optional: true, required: false
-  private _destinationPrefixLists?: string[];
+  private _destinationPrefixLists?: string[]; 
   public get destinationPrefixLists() {
     return this.getListAttribute('destination_prefix_lists');
   }
@@ -1948,7 +1948,7 @@ export class Ec2NetworkInsightsAccessScopeMatchPathsDestinationPacketHeaderState
   }
 
   // protocols - computed: false, optional: true, required: false
-  private _protocols?: string[];
+  private _protocols?: string[]; 
   public get protocols() {
     return this.getListAttribute('protocols');
   }
@@ -1964,7 +1964,7 @@ export class Ec2NetworkInsightsAccessScopeMatchPathsDestinationPacketHeaderState
   }
 
   // source_addresses - computed: false, optional: true, required: false
-  private _sourceAddresses?: string[];
+  private _sourceAddresses?: string[]; 
   public get sourceAddresses() {
     return this.getListAttribute('source_addresses');
   }
@@ -1980,7 +1980,7 @@ export class Ec2NetworkInsightsAccessScopeMatchPathsDestinationPacketHeaderState
   }
 
   // source_ports - computed: false, optional: true, required: false
-  private _sourcePorts?: string[];
+  private _sourcePorts?: string[]; 
   public get sourcePorts() {
     return this.getListAttribute('source_ports');
   }
@@ -1996,7 +1996,7 @@ export class Ec2NetworkInsightsAccessScopeMatchPathsDestinationPacketHeaderState
   }
 
   // source_prefix_lists - computed: false, optional: true, required: false
-  private _sourcePrefixLists?: string[];
+  private _sourcePrefixLists?: string[]; 
   public get sourcePrefixLists() {
     return this.getListAttribute('source_prefix_lists');
   }
@@ -2129,7 +2129,7 @@ export class Ec2NetworkInsightsAccessScopeMatchPathsDestinationResourceStatement
   }
 
   // resource_types - computed: false, optional: true, required: false
-  private _resourceTypes?: string[];
+  private _resourceTypes?: string[]; 
   public get resourceTypes() {
     return this.getListAttribute('resource_types');
   }
@@ -2145,7 +2145,7 @@ export class Ec2NetworkInsightsAccessScopeMatchPathsDestinationResourceStatement
   }
 
   // resources - computed: false, optional: true, required: false
-  private _resources?: string[];
+  private _resources?: string[]; 
   public get resources() {
     return this.getListAttribute('resources');
   }
@@ -2516,7 +2516,7 @@ export class Ec2NetworkInsightsAccessScopeMatchPathsSourcePacketHeaderStatementO
   }
 
   // destination_addresses - computed: false, optional: true, required: false
-  private _destinationAddresses?: string[];
+  private _destinationAddresses?: string[]; 
   public get destinationAddresses() {
     return this.getListAttribute('destination_addresses');
   }
@@ -2532,7 +2532,7 @@ export class Ec2NetworkInsightsAccessScopeMatchPathsSourcePacketHeaderStatementO
   }
 
   // destination_ports - computed: false, optional: true, required: false
-  private _destinationPorts?: string[];
+  private _destinationPorts?: string[]; 
   public get destinationPorts() {
     return this.getListAttribute('destination_ports');
   }
@@ -2548,7 +2548,7 @@ export class Ec2NetworkInsightsAccessScopeMatchPathsSourcePacketHeaderStatementO
   }
 
   // destination_prefix_lists - computed: false, optional: true, required: false
-  private _destinationPrefixLists?: string[];
+  private _destinationPrefixLists?: string[]; 
   public get destinationPrefixLists() {
     return this.getListAttribute('destination_prefix_lists');
   }
@@ -2564,7 +2564,7 @@ export class Ec2NetworkInsightsAccessScopeMatchPathsSourcePacketHeaderStatementO
   }
 
   // protocols - computed: false, optional: true, required: false
-  private _protocols?: string[];
+  private _protocols?: string[]; 
   public get protocols() {
     return this.getListAttribute('protocols');
   }
@@ -2580,7 +2580,7 @@ export class Ec2NetworkInsightsAccessScopeMatchPathsSourcePacketHeaderStatementO
   }
 
   // source_addresses - computed: false, optional: true, required: false
-  private _sourceAddresses?: string[];
+  private _sourceAddresses?: string[]; 
   public get sourceAddresses() {
     return this.getListAttribute('source_addresses');
   }
@@ -2596,7 +2596,7 @@ export class Ec2NetworkInsightsAccessScopeMatchPathsSourcePacketHeaderStatementO
   }
 
   // source_ports - computed: false, optional: true, required: false
-  private _sourcePorts?: string[];
+  private _sourcePorts?: string[]; 
   public get sourcePorts() {
     return this.getListAttribute('source_ports');
   }
@@ -2612,7 +2612,7 @@ export class Ec2NetworkInsightsAccessScopeMatchPathsSourcePacketHeaderStatementO
   }
 
   // source_prefix_lists - computed: false, optional: true, required: false
-  private _sourcePrefixLists?: string[];
+  private _sourcePrefixLists?: string[]; 
   public get sourcePrefixLists() {
     return this.getListAttribute('source_prefix_lists');
   }
@@ -2745,7 +2745,7 @@ export class Ec2NetworkInsightsAccessScopeMatchPathsSourceResourceStatementOutpu
   }
 
   // resource_types - computed: false, optional: true, required: false
-  private _resourceTypes?: string[];
+  private _resourceTypes?: string[]; 
   public get resourceTypes() {
     return this.getListAttribute('resource_types');
   }
@@ -2761,7 +2761,7 @@ export class Ec2NetworkInsightsAccessScopeMatchPathsSourceResourceStatementOutpu
   }
 
   // resources - computed: false, optional: true, required: false
-  private _resources?: string[];
+  private _resources?: string[]; 
   public get resources() {
     return this.getListAttribute('resources');
   }
@@ -3174,7 +3174,7 @@ export class Ec2NetworkInsightsAccessScope extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -3190,7 +3190,7 @@ export class Ec2NetworkInsightsAccessScope extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

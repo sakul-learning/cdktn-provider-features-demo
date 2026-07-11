@@ -125,7 +125,7 @@ export class BedrockagentcoreCodeInterpreterCustomCertificatesCertificateLocatio
   }
 
   // secret_arn - computed: true, optional: true, required: false
-  private _secretArn?: string;
+  private _secretArn?: string; 
   public get secretArn() {
     return this.getStringAttribute('secret_arn');
   }
@@ -358,7 +358,7 @@ export class BedrockagentcoreCodeInterpreterCustomNetworkConfigurationVpcConfigO
   }
 
   // security_groups - computed: true, optional: true, required: false
-  private _securityGroups?: string[];
+  private _securityGroups?: string[]; 
   public get securityGroups() {
     return this.getListAttribute('security_groups');
   }
@@ -374,7 +374,7 @@ export class BedrockagentcoreCodeInterpreterCustomNetworkConfigurationVpcConfigO
   }
 
   // subnets - computed: true, optional: true, required: false
-  private _subnets?: string[];
+  private _subnets?: string[]; 
   public get subnets() {
     return this.getListAttribute('subnets');
   }
@@ -489,7 +489,7 @@ export class BedrockagentcoreCodeInterpreterCustomNetworkConfigurationOutputRefe
   }
 
   // network_mode - computed: true, optional: true, required: false
-  private _networkMode?: string;
+  private _networkMode?: string; 
   public get networkMode() {
     return this.getStringAttribute('network_mode');
   }
@@ -615,7 +615,7 @@ export class BedrockagentcoreCodeInterpreterCustom extends cdktn.TerraformResour
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -631,7 +631,7 @@ export class BedrockagentcoreCodeInterpreterCustom extends cdktn.TerraformResour
   }
 
   // execution_role_arn - computed: true, optional: true, required: false
-  private _executionRoleArn?: string;
+  private _executionRoleArn?: string; 
   public get executionRoleArn() {
     return this.getStringAttribute('execution_role_arn');
   }
@@ -662,7 +662,7 @@ export class BedrockagentcoreCodeInterpreterCustom extends cdktn.TerraformResour
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -693,7 +693,7 @@ export class BedrockagentcoreCodeInterpreterCustom extends cdktn.TerraformResour
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

@@ -128,7 +128,7 @@ export class IvsEncoderConfigurationTagsOutputReference extends cdktn.ComplexObj
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -144,7 +144,7 @@ export class IvsEncoderConfigurationTagsOutputReference extends cdktn.ComplexObj
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -317,7 +317,7 @@ export class IvsEncoderConfigurationVideoOutputReference extends cdktn.ComplexOb
   }
 
   // bitrate - computed: true, optional: true, required: false
-  private _bitrate?: number;
+  private _bitrate?: number; 
   public get bitrate() {
     return this.getNumberAttribute('bitrate');
   }
@@ -333,7 +333,7 @@ export class IvsEncoderConfigurationVideoOutputReference extends cdktn.ComplexOb
   }
 
   // framerate - computed: true, optional: true, required: false
-  private _framerate?: number;
+  private _framerate?: number; 
   public get framerate() {
     return this.getNumberAttribute('framerate');
   }
@@ -349,7 +349,7 @@ export class IvsEncoderConfigurationVideoOutputReference extends cdktn.ComplexOb
   }
 
   // height - computed: true, optional: true, required: false
-  private _height?: number;
+  private _height?: number; 
   public get height() {
     return this.getNumberAttribute('height');
   }
@@ -365,7 +365,7 @@ export class IvsEncoderConfigurationVideoOutputReference extends cdktn.ComplexOb
   }
 
   // width - computed: true, optional: true, required: false
-  private _width?: number;
+  private _width?: number; 
   public get width() {
     return this.getNumberAttribute('width');
   }
@@ -451,7 +451,7 @@ export class IvsEncoderConfiguration extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }

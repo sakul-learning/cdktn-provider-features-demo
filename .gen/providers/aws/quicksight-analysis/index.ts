@@ -177,7 +177,7 @@ export class QuicksightAnalysisParametersDateTimeParametersOutputReference exten
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -190,7 +190,7 @@ export class QuicksightAnalysisParametersDateTimeParametersOutputReference exten
   }
 
   // values - computed: false, optional: false, required: true
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -320,7 +320,7 @@ export class QuicksightAnalysisParametersDecimalParametersOutputReference extend
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -333,7 +333,7 @@ export class QuicksightAnalysisParametersDecimalParametersOutputReference extend
   }
 
   // values - computed: false, optional: false, required: true
-  private _values?: number[];
+  private _values?: number[]; 
   public get values() {
     return this.getNumberListAttribute('values');
   }
@@ -463,7 +463,7 @@ export class QuicksightAnalysisParametersIntegerParametersOutputReference extend
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -476,7 +476,7 @@ export class QuicksightAnalysisParametersIntegerParametersOutputReference extend
   }
 
   // values - computed: false, optional: false, required: true
-  private _values?: number[];
+  private _values?: number[]; 
   public get values() {
     return this.getNumberListAttribute('values');
   }
@@ -606,7 +606,7 @@ export class QuicksightAnalysisParametersStringParametersOutputReference extends
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -619,7 +619,7 @@ export class QuicksightAnalysisParametersStringParametersOutputReference extends
   }
 
   // values - computed: false, optional: false, required: true
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -940,7 +940,7 @@ export class QuicksightAnalysisPermissionsOutputReference extends cdktn.ComplexO
   }
 
   // actions - computed: false, optional: false, required: true
-  private _actions?: string[];
+  private _actions?: string[]; 
   public get actions() {
     return cdktn.Fn.tolist(this.getListAttribute('actions'));
   }
@@ -953,7 +953,7 @@ export class QuicksightAnalysisPermissionsOutputReference extends cdktn.ComplexO
   }
 
   // principal - computed: false, optional: false, required: true
-  private _principal?: string;
+  private _principal?: string; 
   public get principal() {
     return this.getStringAttribute('principal');
   }
@@ -1083,7 +1083,7 @@ export class QuicksightAnalysisSourceEntitySourceTemplateDataSetReferencesOutput
   }
 
   // data_set_arn - computed: false, optional: false, required: true
-  private _dataSetArn?: string;
+  private _dataSetArn?: string; 
   public get dataSetArn() {
     return this.getStringAttribute('data_set_arn');
   }
@@ -1096,7 +1096,7 @@ export class QuicksightAnalysisSourceEntitySourceTemplateDataSetReferencesOutput
   }
 
   // data_set_placeholder - computed: false, optional: false, required: true
-  private _dataSetPlaceholder?: string;
+  private _dataSetPlaceholder?: string; 
   public get dataSetPlaceholder() {
     return this.getStringAttribute('data_set_placeholder');
   }
@@ -1216,7 +1216,7 @@ export class QuicksightAnalysisSourceEntitySourceTemplateOutputReference extends
   }
 
   // arn - computed: false, optional: false, required: true
-  private _arn?: string;
+  private _arn?: string; 
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -1440,7 +1440,7 @@ export class QuicksightAnalysisTimeoutsOutputReference extends cdktn.ComplexObje
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -1456,7 +1456,7 @@ export class QuicksightAnalysisTimeoutsOutputReference extends cdktn.ComplexObje
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -1472,7 +1472,7 @@ export class QuicksightAnalysisTimeoutsOutputReference extends cdktn.ComplexObje
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -1559,7 +1559,7 @@ export class QuicksightAnalysis extends cdktn.TerraformResource {
   // ==========
 
   // analysis_id - computed: false, optional: false, required: true
-  private _analysisId?: string;
+  private _analysisId?: string; 
   public get analysisId() {
     return this.getStringAttribute('analysis_id');
   }
@@ -1577,7 +1577,7 @@ export class QuicksightAnalysis extends cdktn.TerraformResource {
   }
 
   // aws_account_id - computed: true, optional: true, required: false
-  private _awsAccountId?: string;
+  private _awsAccountId?: string; 
   public get awsAccountId() {
     return this.getStringAttribute('aws_account_id');
   }
@@ -1598,7 +1598,7 @@ export class QuicksightAnalysis extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -1624,7 +1624,7 @@ export class QuicksightAnalysis extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1637,7 +1637,7 @@ export class QuicksightAnalysis extends cdktn.TerraformResource {
   }
 
   // recovery_window_in_days - computed: false, optional: true, required: false
-  private _recoveryWindowInDays?: number;
+  private _recoveryWindowInDays?: number; 
   public get recoveryWindowInDays() {
     return this.getNumberAttribute('recovery_window_in_days');
   }
@@ -1653,7 +1653,7 @@ export class QuicksightAnalysis extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1674,7 +1674,7 @@ export class QuicksightAnalysis extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -1690,7 +1690,7 @@ export class QuicksightAnalysis extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -1706,7 +1706,7 @@ export class QuicksightAnalysis extends cdktn.TerraformResource {
   }
 
   // theme_arn - computed: false, optional: true, required: false
-  private _themeArn?: string;
+  private _themeArn?: string; 
   public get themeArn() {
     return this.getStringAttribute('theme_arn');
   }
@@ -1722,7 +1722,7 @@ export class QuicksightAnalysis extends cdktn.TerraformResource {
   }
 
   // definition - computed: false, optional: true, required: false
-  private _definition?: any;
+  private _definition?: any; 
   public get definition() {
     return this.interpolationForAttribute('definition');
   }

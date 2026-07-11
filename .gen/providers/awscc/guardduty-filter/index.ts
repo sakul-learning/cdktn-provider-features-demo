@@ -303,7 +303,7 @@ export class GuarddutyFilterFindingCriteriaCriterionOutputReference extends cdkt
   }
 
   // eq - computed: true, optional: true, required: false
-  private _eq?: string[];
+  private _eq?: string[]; 
   public get eq() {
     return this.getListAttribute('eq');
   }
@@ -319,7 +319,7 @@ export class GuarddutyFilterFindingCriteriaCriterionOutputReference extends cdkt
   }
 
   // equals - computed: true, optional: true, required: false
-  private _equals?: string[];
+  private _equals?: string[]; 
   public get equalTo() {
     return this.getListAttribute('equals');
   }
@@ -335,7 +335,7 @@ export class GuarddutyFilterFindingCriteriaCriterionOutputReference extends cdkt
   }
 
   // greater_than - computed: true, optional: true, required: false
-  private _greaterThan?: number;
+  private _greaterThan?: number; 
   public get greaterThan() {
     return this.getNumberAttribute('greater_than');
   }
@@ -351,7 +351,7 @@ export class GuarddutyFilterFindingCriteriaCriterionOutputReference extends cdkt
   }
 
   // greater_than_or_equal - computed: true, optional: true, required: false
-  private _greaterThanOrEqual?: number;
+  private _greaterThanOrEqual?: number; 
   public get greaterThanOrEqual() {
     return this.getNumberAttribute('greater_than_or_equal');
   }
@@ -367,7 +367,7 @@ export class GuarddutyFilterFindingCriteriaCriterionOutputReference extends cdkt
   }
 
   // gt - computed: true, optional: true, required: false
-  private _gt?: number;
+  private _gt?: number; 
   public get gt() {
     return this.getNumberAttribute('gt');
   }
@@ -383,7 +383,7 @@ export class GuarddutyFilterFindingCriteriaCriterionOutputReference extends cdkt
   }
 
   // gte - computed: true, optional: true, required: false
-  private _gte?: number;
+  private _gte?: number; 
   public get gte() {
     return this.getNumberAttribute('gte');
   }
@@ -399,7 +399,7 @@ export class GuarddutyFilterFindingCriteriaCriterionOutputReference extends cdkt
   }
 
   // less_than - computed: true, optional: true, required: false
-  private _lessThan?: number;
+  private _lessThan?: number; 
   public get lessThan() {
     return this.getNumberAttribute('less_than');
   }
@@ -415,7 +415,7 @@ export class GuarddutyFilterFindingCriteriaCriterionOutputReference extends cdkt
   }
 
   // less_than_or_equal - computed: true, optional: true, required: false
-  private _lessThanOrEqual?: number;
+  private _lessThanOrEqual?: number; 
   public get lessThanOrEqual() {
     return this.getNumberAttribute('less_than_or_equal');
   }
@@ -431,7 +431,7 @@ export class GuarddutyFilterFindingCriteriaCriterionOutputReference extends cdkt
   }
 
   // lt - computed: true, optional: true, required: false
-  private _lt?: number;
+  private _lt?: number; 
   public get lt() {
     return this.getNumberAttribute('lt');
   }
@@ -447,7 +447,7 @@ export class GuarddutyFilterFindingCriteriaCriterionOutputReference extends cdkt
   }
 
   // lte - computed: true, optional: true, required: false
-  private _lte?: number;
+  private _lte?: number; 
   public get lte() {
     return this.getNumberAttribute('lte');
   }
@@ -463,7 +463,7 @@ export class GuarddutyFilterFindingCriteriaCriterionOutputReference extends cdkt
   }
 
   // neq - computed: true, optional: true, required: false
-  private _neq?: string[];
+  private _neq?: string[]; 
   public get neq() {
     return this.getListAttribute('neq');
   }
@@ -479,7 +479,7 @@ export class GuarddutyFilterFindingCriteriaCriterionOutputReference extends cdkt
   }
 
   // not_equals - computed: true, optional: true, required: false
-  private _notEquals?: string[];
+  private _notEquals?: string[]; 
   public get notEquals() {
     return this.getListAttribute('not_equals');
   }
@@ -705,7 +705,7 @@ export class GuarddutyFilterTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -721,7 +721,7 @@ export class GuarddutyFilterTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -821,7 +821,7 @@ export class GuarddutyFilter extends cdktn.TerraformResource {
   // ==========
 
   // action - computed: true, optional: true, required: false
-  private _action?: string;
+  private _action?: string; 
   public get action() {
     return this.getStringAttribute('action');
   }
@@ -837,7 +837,7 @@ export class GuarddutyFilter extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -853,7 +853,7 @@ export class GuarddutyFilter extends cdktn.TerraformResource {
   }
 
   // detector_id - computed: false, optional: false, required: true
-  private _detectorId?: string;
+  private _detectorId?: string; 
   public get detectorId() {
     return this.getStringAttribute('detector_id');
   }
@@ -884,7 +884,7 @@ export class GuarddutyFilter extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -897,7 +897,7 @@ export class GuarddutyFilter extends cdktn.TerraformResource {
   }
 
   // rank - computed: true, optional: true, required: false
-  private _rank?: number;
+  private _rank?: number; 
   public get rank() {
     return this.getNumberAttribute('rank');
   }

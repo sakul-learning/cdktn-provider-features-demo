@@ -104,7 +104,7 @@ export class DataAwsCurReportDefinition extends cdktn.TerraformDataSource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -125,7 +125,7 @@ export class DataAwsCurReportDefinition extends cdktn.TerraformDataSource {
   }
 
   // report_name - computed: false, optional: false, required: true
-  private _reportName?: string;
+  private _reportName?: string; 
   public get reportName() {
     return this.getStringAttribute('report_name');
   }
@@ -158,7 +158,7 @@ export class DataAwsCurReportDefinition extends cdktn.TerraformDataSource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

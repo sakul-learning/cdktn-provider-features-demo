@@ -132,7 +132,7 @@ export class AppconfigExtensionAssociationTagsOutputReference extends cdktn.Comp
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -148,7 +148,7 @@ export class AppconfigExtensionAssociationTagsOutputReference extends cdktn.Comp
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -261,7 +261,7 @@ export class AppconfigExtensionAssociation extends cdktn.TerraformResource {
   }
 
   // extension_identifier - computed: true, optional: true, required: false
-  private _extensionIdentifier?: string;
+  private _extensionIdentifier?: string; 
   public get extensionIdentifier() {
     return this.getStringAttribute('extension_identifier');
   }
@@ -277,7 +277,7 @@ export class AppconfigExtensionAssociation extends cdktn.TerraformResource {
   }
 
   // extension_version_number - computed: true, optional: true, required: false
-  private _extensionVersionNumber?: number;
+  private _extensionVersionNumber?: number; 
   public get extensionVersionNumber() {
     return this.getNumberAttribute('extension_version_number');
   }
@@ -298,7 +298,7 @@ export class AppconfigExtensionAssociation extends cdktn.TerraformResource {
   }
 
   // parameters - computed: true, optional: true, required: false
-  private _parameters?: { [key: string]: string };
+  private _parameters?: { [key: string]: string }; 
   public get parameters() {
     return this.getStringMapAttribute('parameters');
   }
@@ -319,7 +319,7 @@ export class AppconfigExtensionAssociation extends cdktn.TerraformResource {
   }
 
   // resource_identifier - computed: true, optional: true, required: false
-  private _resourceIdentifier?: string;
+  private _resourceIdentifier?: string; 
   public get resourceIdentifier() {
     return this.getStringAttribute('resource_identifier');
   }

@@ -76,7 +76,7 @@ export class PcaconnectoradDirectoryRegistration extends cdktn.TerraformResource
   // ==========
 
   // directory_id - computed: false, optional: false, required: true
-  private _directoryId?: string;
+  private _directoryId?: string; 
   public get directoryId() {
     return this.getStringAttribute('directory_id');
   }
@@ -99,7 +99,7 @@ export class PcaconnectoradDirectoryRegistration extends cdktn.TerraformResource
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

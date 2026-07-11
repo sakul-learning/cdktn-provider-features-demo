@@ -96,7 +96,7 @@ export class Ec2ManagedPrefixListEntryA extends cdktn.TerraformResource {
   // ==========
 
   // cidr - computed: false, optional: false, required: true
-  private _cidr?: string;
+  private _cidr?: string; 
   public get cidr() {
     return this.getStringAttribute('cidr');
   }
@@ -109,7 +109,7 @@ export class Ec2ManagedPrefixListEntryA extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -125,7 +125,7 @@ export class Ec2ManagedPrefixListEntryA extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -141,7 +141,7 @@ export class Ec2ManagedPrefixListEntryA extends cdktn.TerraformResource {
   }
 
   // prefix_list_id - computed: false, optional: false, required: true
-  private _prefixListId?: string;
+  private _prefixListId?: string; 
   public get prefixListId() {
     return this.getStringAttribute('prefix_list_id');
   }
@@ -154,7 +154,7 @@ export class Ec2ManagedPrefixListEntryA extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

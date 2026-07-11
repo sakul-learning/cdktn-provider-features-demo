@@ -176,7 +176,7 @@ export class GameliftScriptStorageLocationOutputReference extends cdktn.ComplexO
   }
 
   // bucket - computed: false, optional: false, required: true
-  private _bucket?: string;
+  private _bucket?: string; 
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -189,7 +189,7 @@ export class GameliftScriptStorageLocationOutputReference extends cdktn.ComplexO
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -202,7 +202,7 @@ export class GameliftScriptStorageLocationOutputReference extends cdktn.ComplexO
   }
 
   // object_version - computed: true, optional: true, required: false
-  private _objectVersion?: string;
+  private _objectVersion?: string; 
   public get objectVersion() {
     return this.getStringAttribute('object_version');
   }
@@ -218,7 +218,7 @@ export class GameliftScriptStorageLocationOutputReference extends cdktn.ComplexO
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -332,7 +332,7 @@ export class GameliftScriptTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -348,7 +348,7 @@ export class GameliftScriptTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -461,7 +461,7 @@ export class GameliftScript extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -477,7 +477,7 @@ export class GameliftScript extends cdktn.TerraformResource {
   }
 
   // node_js_version - computed: true, optional: true, required: false
-  private _nodeJsVersion?: string;
+  private _nodeJsVersion?: string; 
   public get nodeJsVersion() {
     return this.getStringAttribute('node_js_version');
   }
@@ -532,7 +532,7 @@ export class GameliftScript extends cdktn.TerraformResource {
   }
 
   // version - computed: true, optional: true, required: false
-  private _version?: string;
+  private _version?: string; 
   public get version() {
     return this.getStringAttribute('version');
   }

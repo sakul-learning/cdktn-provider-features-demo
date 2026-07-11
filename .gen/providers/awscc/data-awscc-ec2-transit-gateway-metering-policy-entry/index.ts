@@ -96,7 +96,7 @@ export class DataAwsccEc2TransitGatewayMeteringPolicyEntry extends cdktn.Terrafo
   }
 
   // id - computed: false, optional: false, required: true
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }

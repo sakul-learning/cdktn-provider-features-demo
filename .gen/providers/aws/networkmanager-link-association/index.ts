@@ -129,7 +129,7 @@ export class NetworkmanagerLinkAssociationTimeoutsOutputReference extends cdktn.
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -145,7 +145,7 @@ export class NetworkmanagerLinkAssociationTimeoutsOutputReference extends cdktn.
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -223,7 +223,7 @@ export class NetworkmanagerLinkAssociation extends cdktn.TerraformResource {
   // ==========
 
   // device_id - computed: false, optional: false, required: true
-  private _deviceId?: string;
+  private _deviceId?: string; 
   public get deviceId() {
     return this.getStringAttribute('device_id');
   }
@@ -236,7 +236,7 @@ export class NetworkmanagerLinkAssociation extends cdktn.TerraformResource {
   }
 
   // global_network_id - computed: false, optional: false, required: true
-  private _globalNetworkId?: string;
+  private _globalNetworkId?: string; 
   public get globalNetworkId() {
     return this.getStringAttribute('global_network_id');
   }
@@ -249,7 +249,7 @@ export class NetworkmanagerLinkAssociation extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -265,7 +265,7 @@ export class NetworkmanagerLinkAssociation extends cdktn.TerraformResource {
   }
 
   // link_id - computed: false, optional: false, required: true
-  private _linkId?: string;
+  private _linkId?: string; 
   public get linkId() {
     return this.getStringAttribute('link_id');
   }

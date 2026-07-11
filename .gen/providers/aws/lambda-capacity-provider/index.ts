@@ -150,7 +150,7 @@ export class LambdaCapacityProviderCapacityProviderScalingConfigScalingPoliciesO
   }
 
   // predefined_metric_type - computed: true, optional: true, required: false
-  private _predefinedMetricType?: string;
+  private _predefinedMetricType?: string; 
   public get predefinedMetricType() {
     return this.getStringAttribute('predefined_metric_type');
   }
@@ -166,7 +166,7 @@ export class LambdaCapacityProviderCapacityProviderScalingConfigScalingPoliciesO
   }
 
   // target_value - computed: true, optional: true, required: false
-  private _targetValue?: number;
+  private _targetValue?: number; 
   public get targetValue() {
     return this.getNumberAttribute('target_value');
   }
@@ -316,7 +316,7 @@ export class LambdaCapacityProviderCapacityProviderScalingConfigOutputReference 
   }
 
   // max_vcpu_count - computed: true, optional: true, required: false
-  private _maxVcpuCount?: number;
+  private _maxVcpuCount?: number; 
   public get maxVcpuCount() {
     return this.getNumberAttribute('max_vcpu_count');
   }
@@ -332,7 +332,7 @@ export class LambdaCapacityProviderCapacityProviderScalingConfigOutputReference 
   }
 
   // scaling_mode - computed: true, optional: true, required: false
-  private _scalingMode?: string;
+  private _scalingMode?: string; 
   public get scalingMode() {
     return this.getStringAttribute('scaling_mode');
   }
@@ -498,7 +498,7 @@ export class LambdaCapacityProviderInstanceRequirementsOutputReference extends c
   }
 
   // allowed_instance_types - computed: true, optional: true, required: false
-  private _allowedInstanceTypes?: string[];
+  private _allowedInstanceTypes?: string[]; 
   public get allowedInstanceTypes() {
     return this.getListAttribute('allowed_instance_types');
   }
@@ -514,7 +514,7 @@ export class LambdaCapacityProviderInstanceRequirementsOutputReference extends c
   }
 
   // architectures - computed: true, optional: true, required: false
-  private _architectures?: string[];
+  private _architectures?: string[]; 
   public get architectures() {
     return this.getListAttribute('architectures');
   }
@@ -530,7 +530,7 @@ export class LambdaCapacityProviderInstanceRequirementsOutputReference extends c
   }
 
   // excluded_instance_types - computed: true, optional: true, required: false
-  private _excludedInstanceTypes?: string[];
+  private _excludedInstanceTypes?: string[]; 
   public get excludedInstanceTypes() {
     return this.getListAttribute('excluded_instance_types');
   }
@@ -646,7 +646,7 @@ export class LambdaCapacityProviderPermissionsConfigOutputReference extends cdkt
   }
 
   // capacity_provider_operator_role_arn - computed: false, optional: false, required: true
-  private _capacityProviderOperatorRoleArn?: string;
+  private _capacityProviderOperatorRoleArn?: string; 
   public get capacityProviderOperatorRoleArn() {
     return this.getStringAttribute('capacity_provider_operator_role_arn');
   }
@@ -797,7 +797,7 @@ export class LambdaCapacityProviderTimeoutsOutputReference extends cdktn.Complex
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -813,7 +813,7 @@ export class LambdaCapacityProviderTimeoutsOutputReference extends cdktn.Complex
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -829,7 +829,7 @@ export class LambdaCapacityProviderTimeoutsOutputReference extends cdktn.Complex
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -942,7 +942,7 @@ export class LambdaCapacityProviderVpcConfigOutputReference extends cdktn.Comple
   }
 
   // security_group_ids - computed: false, optional: false, required: true
-  private _securityGroupIds?: string[];
+  private _securityGroupIds?: string[]; 
   public get securityGroupIds() {
     return cdktn.Fn.tolist(this.getListAttribute('security_group_ids'));
   }
@@ -955,7 +955,7 @@ export class LambdaCapacityProviderVpcConfigOutputReference extends cdktn.Comple
   }
 
   // subnet_ids - computed: false, optional: false, required: true
-  private _subnetIds?: string[];
+  private _subnetIds?: string[]; 
   public get subnetIds() {
     return cdktn.Fn.tolist(this.getListAttribute('subnet_ids'));
   }
@@ -1091,7 +1091,7 @@ export class LambdaCapacityProvider extends cdktn.TerraformResource {
   }
 
   // kms_key_arn - computed: false, optional: true, required: false
-  private _kmsKeyArn?: string;
+  private _kmsKeyArn?: string; 
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -1107,7 +1107,7 @@ export class LambdaCapacityProvider extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1120,7 +1120,7 @@ export class LambdaCapacityProvider extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1136,7 +1136,7 @@ export class LambdaCapacityProvider extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

@@ -180,7 +180,7 @@ export class EmrserverlessApplicationAutoStartConfigurationOutputReference exten
   }
 
   // enabled - computed: false, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -281,7 +281,7 @@ export class EmrserverlessApplicationAutoStopConfigurationOutputReference extend
   }
 
   // enabled - computed: false, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -297,7 +297,7 @@ export class EmrserverlessApplicationAutoStopConfigurationOutputReference extend
   }
 
   // idle_timeout_minutes - computed: false, optional: true, required: false
-  private _idleTimeoutMinutes?: number;
+  private _idleTimeoutMinutes?: number; 
   public get idleTimeoutMinutes() {
     return this.getNumberAttribute('idle_timeout_minutes');
   }
@@ -381,7 +381,7 @@ export class EmrserverlessApplicationImageConfigurationOutputReference extends c
   }
 
   // image_uri - computed: false, optional: false, required: true
-  private _imageUri?: string;
+  private _imageUri?: string; 
   public get imageUri() {
     return this.getStringAttribute('image_uri');
   }
@@ -496,7 +496,7 @@ export class EmrserverlessApplicationInitialCapacityInitialCapacityConfigWorkerC
   }
 
   // cpu - computed: false, optional: false, required: true
-  private _cpu?: string;
+  private _cpu?: string; 
   public get cpu() {
     return this.getStringAttribute('cpu');
   }
@@ -509,7 +509,7 @@ export class EmrserverlessApplicationInitialCapacityInitialCapacityConfigWorkerC
   }
 
   // disk - computed: true, optional: true, required: false
-  private _disk?: string;
+  private _disk?: string; 
   public get disk() {
     return this.getStringAttribute('disk');
   }
@@ -525,7 +525,7 @@ export class EmrserverlessApplicationInitialCapacityInitialCapacityConfigWorkerC
   }
 
   // memory - computed: false, optional: false, required: true
-  private _memory?: string;
+  private _memory?: string; 
   public get memory() {
     return this.getStringAttribute('memory');
   }
@@ -625,7 +625,7 @@ export class EmrserverlessApplicationInitialCapacityInitialCapacityConfigOutputR
   }
 
   // worker_count - computed: false, optional: false, required: true
-  private _workerCount?: number;
+  private _workerCount?: number; 
   public get workerCount() {
     return this.getNumberAttribute('worker_count');
   }
@@ -753,7 +753,7 @@ export class EmrserverlessApplicationInitialCapacityOutputReference extends cdkt
   }
 
   // initial_capacity_type - computed: false, optional: false, required: true
-  private _initialCapacityType?: string;
+  private _initialCapacityType?: string; 
   public get initialCapacityType() {
     return this.getStringAttribute('initial_capacity_type');
   }
@@ -887,7 +887,7 @@ export class EmrserverlessApplicationInteractiveConfigurationOutputReference ext
   }
 
   // livy_endpoint_enabled - computed: true, optional: true, required: false
-  private _livyEndpointEnabled?: boolean | cdktn.IResolvable;
+  private _livyEndpointEnabled?: boolean | cdktn.IResolvable; 
   public get livyEndpointEnabled() {
     return this.getBooleanAttribute('livy_endpoint_enabled');
   }
@@ -903,7 +903,7 @@ export class EmrserverlessApplicationInteractiveConfigurationOutputReference ext
   }
 
   // studio_enabled - computed: true, optional: true, required: false
-  private _studioEnabled?: boolean | cdktn.IResolvable;
+  private _studioEnabled?: boolean | cdktn.IResolvable; 
   public get studioEnabled() {
     return this.getBooleanAttribute('studio_enabled');
   }
@@ -987,7 +987,7 @@ export class EmrserverlessApplicationJobLevelCostAllocationConfigurationOutputRe
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -1105,7 +1105,7 @@ export class EmrserverlessApplicationMaximumCapacityOutputReference extends cdkt
   }
 
   // cpu - computed: false, optional: false, required: true
-  private _cpu?: string;
+  private _cpu?: string; 
   public get cpu() {
     return this.getStringAttribute('cpu');
   }
@@ -1118,7 +1118,7 @@ export class EmrserverlessApplicationMaximumCapacityOutputReference extends cdkt
   }
 
   // disk - computed: true, optional: true, required: false
-  private _disk?: string;
+  private _disk?: string; 
   public get disk() {
     return this.getStringAttribute('disk');
   }
@@ -1134,7 +1134,7 @@ export class EmrserverlessApplicationMaximumCapacityOutputReference extends cdkt
   }
 
   // memory - computed: false, optional: false, required: true
-  private _memory?: string;
+  private _memory?: string; 
   public get memory() {
     return this.getStringAttribute('memory');
   }
@@ -1244,7 +1244,7 @@ export class EmrserverlessApplicationMonitoringConfigurationCloudwatchLoggingCon
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1257,7 +1257,7 @@ export class EmrserverlessApplicationMonitoringConfigurationCloudwatchLoggingCon
   }
 
   // values - computed: false, optional: false, required: true
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -1428,7 +1428,7 @@ export class EmrserverlessApplicationMonitoringConfigurationCloudwatchLoggingCon
   }
 
   // enabled - computed: false, optional: false, required: true
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -1441,7 +1441,7 @@ export class EmrserverlessApplicationMonitoringConfigurationCloudwatchLoggingCon
   }
 
   // encryption_key_arn - computed: false, optional: true, required: false
-  private _encryptionKeyArn?: string;
+  private _encryptionKeyArn?: string; 
   public get encryptionKeyArn() {
     return this.getStringAttribute('encryption_key_arn');
   }
@@ -1457,7 +1457,7 @@ export class EmrserverlessApplicationMonitoringConfigurationCloudwatchLoggingCon
   }
 
   // log_group_name - computed: false, optional: true, required: false
-  private _logGroupName?: string;
+  private _logGroupName?: string; 
   public get logGroupName() {
     return this.getStringAttribute('log_group_name');
   }
@@ -1473,7 +1473,7 @@ export class EmrserverlessApplicationMonitoringConfigurationCloudwatchLoggingCon
   }
 
   // log_stream_name_prefix - computed: false, optional: true, required: false
-  private _logStreamNamePrefix?: string;
+  private _logStreamNamePrefix?: string; 
   public get logStreamNamePrefix() {
     return this.getStringAttribute('log_stream_name_prefix');
   }
@@ -1590,7 +1590,7 @@ export class EmrserverlessApplicationMonitoringConfigurationManagedPersistenceMo
   }
 
   // enabled - computed: false, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -1606,7 +1606,7 @@ export class EmrserverlessApplicationMonitoringConfigurationManagedPersistenceMo
   }
 
   // encryption_key_arn - computed: false, optional: true, required: false
-  private _encryptionKeyArn?: string;
+  private _encryptionKeyArn?: string; 
   public get encryptionKeyArn() {
     return this.getStringAttribute('encryption_key_arn');
   }
@@ -1690,7 +1690,7 @@ export class EmrserverlessApplicationMonitoringConfigurationPrometheusMonitoring
   }
 
   // remote_write_url - computed: false, optional: true, required: false
-  private _remoteWriteUrl?: string;
+  private _remoteWriteUrl?: string; 
   public get remoteWriteUrl() {
     return this.getStringAttribute('remote_write_url');
   }
@@ -1791,7 +1791,7 @@ export class EmrserverlessApplicationMonitoringConfigurationS3MonitoringConfigur
   }
 
   // encryption_key_arn - computed: false, optional: true, required: false
-  private _encryptionKeyArn?: string;
+  private _encryptionKeyArn?: string; 
   public get encryptionKeyArn() {
     return this.getStringAttribute('encryption_key_arn');
   }
@@ -1807,7 +1807,7 @@ export class EmrserverlessApplicationMonitoringConfigurationS3MonitoringConfigur
   }
 
   // log_uri - computed: false, optional: true, required: false
-  private _logUri?: string;
+  private _logUri?: string; 
   public get logUri() {
     return this.getStringAttribute('log_uri');
   }
@@ -2099,7 +2099,7 @@ export class EmrserverlessApplicationNetworkConfigurationOutputReference extends
   }
 
   // security_group_ids - computed: false, optional: true, required: false
-  private _securityGroupIds?: string[];
+  private _securityGroupIds?: string[]; 
   public get securityGroupIds() {
     return cdktn.Fn.tolist(this.getListAttribute('security_group_ids'));
   }
@@ -2115,7 +2115,7 @@ export class EmrserverlessApplicationNetworkConfigurationOutputReference extends
   }
 
   // subnet_ids - computed: false, optional: true, required: false
-  private _subnetIds?: string[];
+  private _subnetIds?: string[]; 
   public get subnetIds() {
     return cdktn.Fn.tolist(this.getListAttribute('subnet_ids'));
   }
@@ -2228,7 +2228,7 @@ export class EmrserverlessApplicationRuntimeConfigurationOutputReference extends
   }
 
   // classification - computed: false, optional: false, required: true
-  private _classification?: string;
+  private _classification?: string; 
   public get classification() {
     return this.getStringAttribute('classification');
   }
@@ -2241,7 +2241,7 @@ export class EmrserverlessApplicationRuntimeConfigurationOutputReference extends
   }
 
   // properties - computed: false, optional: true, required: false
-  private _properties?: { [key: string]: string };
+  private _properties?: { [key: string]: string }; 
   public get properties() {
     return this.getStringMapAttribute('properties');
   }
@@ -2362,7 +2362,7 @@ export class EmrserverlessApplicationSchedulerConfigurationOutputReference exten
   }
 
   // max_concurrent_runs - computed: true, optional: true, required: false
-  private _maxConcurrentRuns?: number;
+  private _maxConcurrentRuns?: number; 
   public get maxConcurrentRuns() {
     return this.getNumberAttribute('max_concurrent_runs');
   }
@@ -2378,7 +2378,7 @@ export class EmrserverlessApplicationSchedulerConfigurationOutputReference exten
   }
 
   // queue_timeout_minutes - computed: true, optional: true, required: false
-  private _queueTimeoutMinutes?: number;
+  private _queueTimeoutMinutes?: number; 
   public get queueTimeoutMinutes() {
     return this.getNumberAttribute('queue_timeout_minutes');
   }
@@ -2470,7 +2470,7 @@ export class EmrserverlessApplication extends cdktn.TerraformResource {
   // ==========
 
   // architecture - computed: false, optional: true, required: false
-  private _architecture?: string;
+  private _architecture?: string; 
   public get architecture() {
     return this.getStringAttribute('architecture');
   }
@@ -2491,7 +2491,7 @@ export class EmrserverlessApplication extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -2507,7 +2507,7 @@ export class EmrserverlessApplication extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2520,7 +2520,7 @@ export class EmrserverlessApplication extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -2536,7 +2536,7 @@ export class EmrserverlessApplication extends cdktn.TerraformResource {
   }
 
   // release_label - computed: false, optional: false, required: true
-  private _releaseLabel?: string;
+  private _releaseLabel?: string; 
   public get releaseLabel() {
     return this.getStringAttribute('release_label');
   }
@@ -2549,7 +2549,7 @@ export class EmrserverlessApplication extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -2565,7 +2565,7 @@ export class EmrserverlessApplication extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -2581,7 +2581,7 @@ export class EmrserverlessApplication extends cdktn.TerraformResource {
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }

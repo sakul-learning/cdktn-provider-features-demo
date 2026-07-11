@@ -119,7 +119,7 @@ export class ConnectcampaignsCampaignDialerConfigAgentlessDialerConfigOutputRefe
   }
 
   // dialing_capacity - computed: true, optional: true, required: false
-  private _dialingCapacity?: number;
+  private _dialingCapacity?: number; 
   public get dialingCapacity() {
     return this.getNumberAttribute('dialing_capacity');
   }
@@ -234,7 +234,7 @@ export class ConnectcampaignsCampaignDialerConfigPredictiveDialerConfigOutputRef
   }
 
   // bandwidth_allocation - computed: true, optional: true, required: false
-  private _bandwidthAllocation?: number;
+  private _bandwidthAllocation?: number; 
   public get bandwidthAllocation() {
     return this.getNumberAttribute('bandwidth_allocation');
   }
@@ -250,7 +250,7 @@ export class ConnectcampaignsCampaignDialerConfigPredictiveDialerConfigOutputRef
   }
 
   // dialing_capacity - computed: true, optional: true, required: false
-  private _dialingCapacity?: number;
+  private _dialingCapacity?: number; 
   public get dialingCapacity() {
     return this.getNumberAttribute('dialing_capacity');
   }
@@ -365,7 +365,7 @@ export class ConnectcampaignsCampaignDialerConfigProgressiveDialerConfigOutputRe
   }
 
   // bandwidth_allocation - computed: true, optional: true, required: false
-  private _bandwidthAllocation?: number;
+  private _bandwidthAllocation?: number; 
   public get bandwidthAllocation() {
     return this.getNumberAttribute('bandwidth_allocation');
   }
@@ -381,7 +381,7 @@ export class ConnectcampaignsCampaignDialerConfigProgressiveDialerConfigOutputRe
   }
 
   // dialing_capacity - computed: true, optional: true, required: false
-  private _dialingCapacity?: number;
+  private _dialingCapacity?: number; 
   public get dialingCapacity() {
     return this.getNumberAttribute('dialing_capacity');
   }
@@ -662,7 +662,7 @@ export class ConnectcampaignsCampaignOutboundCallConfigAnswerMachineDetectionCon
   }
 
   // await_answer_machine_prompt - computed: true, optional: true, required: false
-  private _awaitAnswerMachinePrompt?: boolean | cdktn.IResolvable;
+  private _awaitAnswerMachinePrompt?: boolean | cdktn.IResolvable; 
   public get awaitAnswerMachinePrompt() {
     return this.getBooleanAttribute('await_answer_machine_prompt');
   }
@@ -678,7 +678,7 @@ export class ConnectcampaignsCampaignOutboundCallConfigAnswerMachineDetectionCon
   }
 
   // enable_answer_machine_detection - computed: true, optional: true, required: false
-  private _enableAnswerMachineDetection?: boolean | cdktn.IResolvable;
+  private _enableAnswerMachineDetection?: boolean | cdktn.IResolvable; 
   public get enableAnswerMachineDetection() {
     return this.getBooleanAttribute('enable_answer_machine_detection');
   }
@@ -847,7 +847,7 @@ export class ConnectcampaignsCampaignOutboundCallConfigOutputReference extends c
   }
 
   // connect_contact_flow_arn - computed: false, optional: false, required: true
-  private _connectContactFlowArn?: string;
+  private _connectContactFlowArn?: string; 
   public get connectContactFlowArn() {
     return this.getStringAttribute('connect_contact_flow_arn');
   }
@@ -860,7 +860,7 @@ export class ConnectcampaignsCampaignOutboundCallConfigOutputReference extends c
   }
 
   // connect_queue_arn - computed: true, optional: true, required: false
-  private _connectQueueArn?: string;
+  private _connectQueueArn?: string; 
   public get connectQueueArn() {
     return this.getStringAttribute('connect_queue_arn');
   }
@@ -876,7 +876,7 @@ export class ConnectcampaignsCampaignOutboundCallConfigOutputReference extends c
   }
 
   // connect_source_phone_number - computed: true, optional: true, required: false
-  private _connectSourcePhoneNumber?: string;
+  private _connectSourcePhoneNumber?: string; 
   public get connectSourcePhoneNumber() {
     return this.getStringAttribute('connect_source_phone_number');
   }
@@ -893,7 +893,7 @@ export class ConnectcampaignsCampaignOutboundCallConfigOutputReference extends c
 }
 export interface ConnectcampaignsCampaignTags {
   /**
-  * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
+  * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connectcampaigns_campaign#key ConnectcampaignsCampaign#key}
   */
@@ -993,7 +993,7 @@ export class ConnectcampaignsCampaignTagsOutputReference extends cdktn.ComplexOb
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1009,7 +1009,7 @@ export class ConnectcampaignsCampaignTagsOutputReference extends cdktn.ComplexOb
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1112,7 +1112,7 @@ export class ConnectcampaignsCampaign extends cdktn.TerraformResource {
   }
 
   // connect_instance_arn - computed: false, optional: false, required: true
-  private _connectInstanceArn?: string;
+  private _connectInstanceArn?: string; 
   public get connectInstanceArn() {
     return this.getStringAttribute('connect_instance_arn');
   }
@@ -1143,7 +1143,7 @@ export class ConnectcampaignsCampaign extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }

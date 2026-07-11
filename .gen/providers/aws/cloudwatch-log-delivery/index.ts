@@ -136,7 +136,7 @@ export class CloudwatchLogDeliveryS3DeliveryConfigurationOutputReference extends
   }
 
   // enable_hive_compatible_path - computed: true, optional: true, required: false
-  private _enableHiveCompatiblePath?: boolean | cdktn.IResolvable;
+  private _enableHiveCompatiblePath?: boolean | cdktn.IResolvable; 
   public get enableHiveCompatiblePath() {
     return this.getBooleanAttribute('enable_hive_compatible_path');
   }
@@ -152,7 +152,7 @@ export class CloudwatchLogDeliveryS3DeliveryConfigurationOutputReference extends
   }
 
   // suffix_path - computed: true, optional: true, required: false
-  private _suffixPath?: string;
+  private _suffixPath?: string; 
   public get suffixPath() {
     return this.getStringAttribute('suffix_path');
   }
@@ -257,7 +257,7 @@ export class CloudwatchLogDelivery extends cdktn.TerraformResource {
   }
 
   // delivery_destination_arn - computed: false, optional: false, required: true
-  private _deliveryDestinationArn?: string;
+  private _deliveryDestinationArn?: string; 
   public get deliveryDestinationArn() {
     return this.getStringAttribute('delivery_destination_arn');
   }
@@ -270,7 +270,7 @@ export class CloudwatchLogDelivery extends cdktn.TerraformResource {
   }
 
   // delivery_source_name - computed: false, optional: false, required: true
-  private _deliverySourceName?: string;
+  private _deliverySourceName?: string; 
   public get deliverySourceName() {
     return this.getStringAttribute('delivery_source_name');
   }
@@ -283,7 +283,7 @@ export class CloudwatchLogDelivery extends cdktn.TerraformResource {
   }
 
   // field_delimiter - computed: true, optional: true, required: false
-  private _fieldDelimiter?: string;
+  private _fieldDelimiter?: string; 
   public get fieldDelimiter() {
     return this.getStringAttribute('field_delimiter');
   }
@@ -304,7 +304,7 @@ export class CloudwatchLogDelivery extends cdktn.TerraformResource {
   }
 
   // record_fields - computed: true, optional: true, required: false
-  private _recordFields?: string[];
+  private _recordFields?: string[]; 
   public get recordFields() {
     return this.getListAttribute('record_fields');
   }
@@ -320,7 +320,7 @@ export class CloudwatchLogDelivery extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -352,7 +352,7 @@ export class CloudwatchLogDelivery extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

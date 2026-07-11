@@ -96,7 +96,7 @@ export class DataAwsBackupSelection extends cdktn.TerraformDataSource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -117,7 +117,7 @@ export class DataAwsBackupSelection extends cdktn.TerraformDataSource {
   }
 
   // plan_id - computed: false, optional: false, required: true
-  private _planId?: string;
+  private _planId?: string; 
   public get planId() {
     return this.getStringAttribute('plan_id');
   }
@@ -130,7 +130,7 @@ export class DataAwsBackupSelection extends cdktn.TerraformDataSource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -151,7 +151,7 @@ export class DataAwsBackupSelection extends cdktn.TerraformDataSource {
   }
 
   // selection_id - computed: false, optional: false, required: true
-  private _selectionId?: string;
+  private _selectionId?: string; 
   public get selectionId() {
     return this.getStringAttribute('selection_id');
   }

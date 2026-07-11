@@ -91,7 +91,7 @@ export class RedshiftAuthenticationProfile extends cdktn.TerraformResource {
   // ==========
 
   // authentication_profile_content - computed: false, optional: false, required: true
-  private _authenticationProfileContent?: string;
+  private _authenticationProfileContent?: string; 
   public get authenticationProfileContent() {
     return this.getStringAttribute('authentication_profile_content');
   }
@@ -104,7 +104,7 @@ export class RedshiftAuthenticationProfile extends cdktn.TerraformResource {
   }
 
   // authentication_profile_name - computed: false, optional: false, required: true
-  private _authenticationProfileName?: string;
+  private _authenticationProfileName?: string; 
   public get authenticationProfileName() {
     return this.getStringAttribute('authentication_profile_name');
   }
@@ -117,7 +117,7 @@ export class RedshiftAuthenticationProfile extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -133,7 +133,7 @@ export class RedshiftAuthenticationProfile extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

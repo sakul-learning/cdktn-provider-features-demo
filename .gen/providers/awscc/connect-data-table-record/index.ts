@@ -118,7 +118,7 @@ export class ConnectDataTableRecordDataTableRecordPrimaryValuesOutputReference e
   }
 
   // attribute_id - computed: true, optional: true, required: false
-  private _attributeId?: string;
+  private _attributeId?: string; 
   public get attributeId() {
     return this.getStringAttribute('attribute_id');
   }
@@ -134,7 +134,7 @@ export class ConnectDataTableRecordDataTableRecordPrimaryValuesOutputReference e
   }
 
   // attribute_value - computed: true, optional: true, required: false
-  private _attributeValue?: string;
+  private _attributeValue?: string; 
   public get attributeValue() {
     return this.getStringAttribute('attribute_value');
   }
@@ -267,7 +267,7 @@ export class ConnectDataTableRecordDataTableRecordValuesOutputReference extends 
   }
 
   // attribute_id - computed: true, optional: true, required: false
-  private _attributeId?: string;
+  private _attributeId?: string; 
   public get attributeId() {
     return this.getStringAttribute('attribute_id');
   }
@@ -283,7 +283,7 @@ export class ConnectDataTableRecordDataTableRecordValuesOutputReference extends 
   }
 
   // attribute_value - computed: true, optional: true, required: false
-  private _attributeValue?: string;
+  private _attributeValue?: string; 
   public get attributeValue() {
     return this.getStringAttribute('attribute_value');
   }
@@ -506,7 +506,7 @@ export class ConnectDataTableRecord extends cdktn.TerraformResource {
   // ==========
 
   // data_table_arn - computed: true, optional: true, required: false
-  private _dataTableArn?: string;
+  private _dataTableArn?: string; 
   public get dataTableArn() {
     return this.getStringAttribute('data_table_arn');
   }
@@ -543,7 +543,7 @@ export class ConnectDataTableRecord extends cdktn.TerraformResource {
   }
 
   // instance_arn - computed: true, optional: true, required: false
-  private _instanceArn?: string;
+  private _instanceArn?: string; 
   public get instanceArn() {
     return this.getStringAttribute('instance_arn');
   }

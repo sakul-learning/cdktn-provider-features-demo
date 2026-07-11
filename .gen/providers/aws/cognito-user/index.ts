@@ -136,7 +136,7 @@ export class CognitoUser extends cdktn.TerraformResource {
   // ==========
 
   // attributes - computed: false, optional: true, required: false
-  private _attributes?: { [key: string]: string };
+  private _attributes?: { [key: string]: string }; 
   public get attributes() {
     return this.getStringMapAttribute('attributes');
   }
@@ -152,7 +152,7 @@ export class CognitoUser extends cdktn.TerraformResource {
   }
 
   // client_metadata - computed: false, optional: true, required: false
-  private _clientMetadata?: { [key: string]: string };
+  private _clientMetadata?: { [key: string]: string }; 
   public get clientMetadata() {
     return this.getStringMapAttribute('client_metadata');
   }
@@ -173,7 +173,7 @@ export class CognitoUser extends cdktn.TerraformResource {
   }
 
   // desired_delivery_mediums - computed: false, optional: true, required: false
-  private _desiredDeliveryMediums?: string[];
+  private _desiredDeliveryMediums?: string[]; 
   public get desiredDeliveryMediums() {
     return cdktn.Fn.tolist(this.getListAttribute('desired_delivery_mediums'));
   }
@@ -189,7 +189,7 @@ export class CognitoUser extends cdktn.TerraformResource {
   }
 
   // enabled - computed: false, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -205,7 +205,7 @@ export class CognitoUser extends cdktn.TerraformResource {
   }
 
   // force_alias_creation - computed: false, optional: true, required: false
-  private _forceAliasCreation?: boolean | cdktn.IResolvable;
+  private _forceAliasCreation?: boolean | cdktn.IResolvable; 
   public get forceAliasCreation() {
     return this.getBooleanAttribute('force_alias_creation');
   }
@@ -221,7 +221,7 @@ export class CognitoUser extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -242,7 +242,7 @@ export class CognitoUser extends cdktn.TerraformResource {
   }
 
   // message_action - computed: false, optional: true, required: false
-  private _messageAction?: string;
+  private _messageAction?: string; 
   public get messageAction() {
     return this.getStringAttribute('message_action');
   }
@@ -263,7 +263,7 @@ export class CognitoUser extends cdktn.TerraformResource {
   }
 
   // password - computed: false, optional: true, required: false
-  private _password?: string;
+  private _password?: string; 
   public get password() {
     return this.getStringAttribute('password');
   }
@@ -284,7 +284,7 @@ export class CognitoUser extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -310,7 +310,7 @@ export class CognitoUser extends cdktn.TerraformResource {
   }
 
   // temporary_password - computed: false, optional: true, required: false
-  private _temporaryPassword?: string;
+  private _temporaryPassword?: string; 
   public get temporaryPassword() {
     return this.getStringAttribute('temporary_password');
   }
@@ -326,7 +326,7 @@ export class CognitoUser extends cdktn.TerraformResource {
   }
 
   // user_pool_id - computed: false, optional: false, required: true
-  private _userPoolId?: string;
+  private _userPoolId?: string; 
   public get userPoolId() {
     return this.getStringAttribute('user_pool_id');
   }
@@ -339,7 +339,7 @@ export class CognitoUser extends cdktn.TerraformResource {
   }
 
   // username - computed: false, optional: false, required: true
-  private _username?: string;
+  private _username?: string; 
   public get username() {
     return this.getStringAttribute('username');
   }
@@ -352,7 +352,7 @@ export class CognitoUser extends cdktn.TerraformResource {
   }
 
   // validation_data - computed: false, optional: true, required: false
-  private _validationData?: { [key: string]: string };
+  private _validationData?: { [key: string]: string }; 
   public get validationData() {
     return this.getStringMapAttribute('validation_data');
   }

@@ -134,7 +134,7 @@ export class SagemakerDeviceDeviceOutputReference extends cdktn.ComplexObject {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -150,7 +150,7 @@ export class SagemakerDeviceDeviceOutputReference extends cdktn.ComplexObject {
   }
 
   // device_name - computed: false, optional: false, required: true
-  private _deviceName?: string;
+  private _deviceName?: string; 
   public get deviceName() {
     return this.getStringAttribute('device_name');
   }
@@ -163,7 +163,7 @@ export class SagemakerDeviceDeviceOutputReference extends cdktn.ComplexObject {
   }
 
   // iot_thing_name - computed: false, optional: true, required: false
-  private _iotThingName?: string;
+  private _iotThingName?: string; 
   public get iotThingName() {
     return this.getStringAttribute('iot_thing_name');
   }
@@ -250,7 +250,7 @@ export class SagemakerDevice extends cdktn.TerraformResource {
   }
 
   // device_fleet_name - computed: false, optional: false, required: true
-  private _deviceFleetName?: string;
+  private _deviceFleetName?: string; 
   public get deviceFleetName() {
     return this.getStringAttribute('device_fleet_name');
   }
@@ -263,7 +263,7 @@ export class SagemakerDevice extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -279,7 +279,7 @@ export class SagemakerDevice extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

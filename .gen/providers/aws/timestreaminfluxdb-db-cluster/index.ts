@@ -32,17 +32,17 @@ export interface TimestreaminfluxdbDbClusterConfig extends cdktn.TerraformMetaAr
   */
   readonly dbInstanceType: string;
   /**
-  * The ID of the DB parameter group to assign to your DB cluster.
-  * 					DB parameter groups specify how the database is configured. For example, DB parameter groups
+  * The ID of the DB parameter group to assign to your DB cluster. 
+  * 					DB parameter groups specify how the database is configured. For example, DB parameter groups 
   * 					can specify the limit for query concurrency.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/timestreaminfluxdb_db_cluster#db_parameter_group_identifier TimestreaminfluxdbDbCluster#db_parameter_group_identifier}
   */
   readonly dbParameterGroupIdentifier?: string;
   /**
-  * The Timestream for InfluxDB DB storage type to read and write InfluxDB data.
-  * 					You can choose between 3 different types of provisioned Influx IOPS included storage according
-  * 					to your workloads requirements: Influx IO Included 3000 IOPS, Influx IO Included 12000 IOPS,
+  * The Timestream for InfluxDB DB storage type to read and write InfluxDB data. 
+  * 					You can choose between 3 different types of provisioned Influx IOPS included storage according 
+  * 					to your workloads requirements: Influx IO Included 3000 IOPS, Influx IO Included 12000 IOPS, 
   * 					Influx IO Included 16000 IOPS.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/timestreaminfluxdb_db_cluster#db_storage_type TimestreaminfluxdbDbCluster#db_storage_type}
@@ -63,17 +63,17 @@ export interface TimestreaminfluxdbDbClusterConfig extends cdktn.TerraformMetaAr
   */
   readonly failoverMode?: string;
   /**
-  * The name that uniquely identifies the DB cluster when interacting with the
-  * 					Amazon Timestream for InfluxDB API and CLI commands. This name will also be a
-  * 					prefix included in the endpoint. DB cluster names must be unique per customer
+  * The name that uniquely identifies the DB cluster when interacting with the 
+  * 					Amazon Timestream for InfluxDB API and CLI commands. This name will also be a 
+  * 					prefix included in the endpoint. DB cluster names must be unique per customer 
   * 					and per region.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/timestreaminfluxdb_db_cluster#name TimestreaminfluxdbDbCluster#name}
   */
   readonly name: string;
   /**
-  * Specifies whether the networkType of the Timestream for InfluxDB cluster is
-  * 					IPV4, which can communicate over IPv4 protocol only, or DUAL, which can communicate
+  * Specifies whether the networkType of the Timestream for InfluxDB cluster is 
+  * 					IPV4, which can communicate over IPv4 protocol only, or DUAL, which can communicate 
   * 					over both IPv4 and IPv6 protocols.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/timestreaminfluxdb_db_cluster#network_type TimestreaminfluxdbDbCluster#network_type}
@@ -140,7 +140,7 @@ export interface TimestreaminfluxdbDbClusterConfig extends cdktn.TerraformMetaAr
   */
   readonly vpcSecurityGroupIds: string[];
   /**
-  * A list of VPC subnet IDs to associate with the DB cluster. Provide at least
+  * A list of VPC subnet IDs to associate with the DB cluster. Provide at least 
   * 					two VPC subnet IDs in different availability zones when deploying with a Multi-AZ standby.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/timestreaminfluxdb_db_cluster#vpc_subnet_ids TimestreaminfluxdbDbCluster#vpc_subnet_ids}
@@ -267,7 +267,7 @@ export class TimestreaminfluxdbDbClusterLogDeliveryConfigurationS3ConfigurationO
   }
 
   // bucket_name - computed: false, optional: false, required: true
-  private _bucketName?: string;
+  private _bucketName?: string; 
   public get bucketName() {
     return this.getStringAttribute('bucket_name');
   }
@@ -280,7 +280,7 @@ export class TimestreaminfluxdbDbClusterLogDeliveryConfigurationS3ConfigurationO
   }
 
   // enabled - computed: false, optional: false, required: true
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -535,7 +535,7 @@ export class TimestreaminfluxdbDbClusterMaintenanceScheduleOutputReference exten
   }
 
   // preferred_maintenance_window - computed: false, optional: false, required: true
-  private _preferredMaintenanceWindow?: string;
+  private _preferredMaintenanceWindow?: string; 
   public get preferredMaintenanceWindow() {
     return this.getStringAttribute('preferred_maintenance_window');
   }
@@ -548,7 +548,7 @@ export class TimestreaminfluxdbDbClusterMaintenanceScheduleOutputReference exten
   }
 
   // timezone - computed: false, optional: false, required: true
-  private _timezone?: string;
+  private _timezone?: string; 
   public get timezone() {
     return this.getStringAttribute('timezone');
   }
@@ -699,7 +699,7 @@ export class TimestreaminfluxdbDbClusterTimeoutsOutputReference extends cdktn.Co
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -715,7 +715,7 @@ export class TimestreaminfluxdbDbClusterTimeoutsOutputReference extends cdktn.Co
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -731,7 +731,7 @@ export class TimestreaminfluxdbDbClusterTimeoutsOutputReference extends cdktn.Co
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -825,7 +825,7 @@ export class TimestreaminfluxdbDbCluster extends cdktn.TerraformResource {
   // ==========
 
   // allocated_storage - computed: false, optional: true, required: false
-  private _allocatedStorage?: number;
+  private _allocatedStorage?: number; 
   public get allocatedStorage() {
     return this.getNumberAttribute('allocated_storage');
   }
@@ -846,7 +846,7 @@ export class TimestreaminfluxdbDbCluster extends cdktn.TerraformResource {
   }
 
   // bucket - computed: false, optional: true, required: false
-  private _bucket?: string;
+  private _bucket?: string; 
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -862,7 +862,7 @@ export class TimestreaminfluxdbDbCluster extends cdktn.TerraformResource {
   }
 
   // db_instance_type - computed: false, optional: false, required: true
-  private _dbInstanceType?: string;
+  private _dbInstanceType?: string; 
   public get dbInstanceType() {
     return this.getStringAttribute('db_instance_type');
   }
@@ -875,7 +875,7 @@ export class TimestreaminfluxdbDbCluster extends cdktn.TerraformResource {
   }
 
   // db_parameter_group_identifier - computed: false, optional: true, required: false
-  private _dbParameterGroupIdentifier?: string;
+  private _dbParameterGroupIdentifier?: string; 
   public get dbParameterGroupIdentifier() {
     return this.getStringAttribute('db_parameter_group_identifier');
   }
@@ -891,7 +891,7 @@ export class TimestreaminfluxdbDbCluster extends cdktn.TerraformResource {
   }
 
   // db_storage_type - computed: true, optional: true, required: false
-  private _dbStorageType?: string;
+  private _dbStorageType?: string; 
   public get dbStorageType() {
     return this.getStringAttribute('db_storage_type');
   }
@@ -907,7 +907,7 @@ export class TimestreaminfluxdbDbCluster extends cdktn.TerraformResource {
   }
 
   // deployment_type - computed: true, optional: true, required: false
-  private _deploymentType?: string;
+  private _deploymentType?: string; 
   public get deploymentType() {
     return this.getStringAttribute('deployment_type');
   }
@@ -933,7 +933,7 @@ export class TimestreaminfluxdbDbCluster extends cdktn.TerraformResource {
   }
 
   // failover_mode - computed: true, optional: true, required: false
-  private _failoverMode?: string;
+  private _failoverMode?: string; 
   public get failoverMode() {
     return this.getStringAttribute('failover_mode');
   }
@@ -959,7 +959,7 @@ export class TimestreaminfluxdbDbCluster extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -972,7 +972,7 @@ export class TimestreaminfluxdbDbCluster extends cdktn.TerraformResource {
   }
 
   // network_type - computed: true, optional: true, required: false
-  private _networkType?: string;
+  private _networkType?: string; 
   public get networkType() {
     return this.getStringAttribute('network_type');
   }
@@ -988,7 +988,7 @@ export class TimestreaminfluxdbDbCluster extends cdktn.TerraformResource {
   }
 
   // organization - computed: false, optional: true, required: false
-  private _organization?: string;
+  private _organization?: string; 
   public get organization() {
     return this.getStringAttribute('organization');
   }
@@ -1004,7 +1004,7 @@ export class TimestreaminfluxdbDbCluster extends cdktn.TerraformResource {
   }
 
   // password - computed: false, optional: true, required: false
-  private _password?: string;
+  private _password?: string; 
   public get password() {
     return this.getStringAttribute('password');
   }
@@ -1020,7 +1020,7 @@ export class TimestreaminfluxdbDbCluster extends cdktn.TerraformResource {
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -1036,7 +1036,7 @@ export class TimestreaminfluxdbDbCluster extends cdktn.TerraformResource {
   }
 
   // publicly_accessible - computed: true, optional: true, required: false
-  private _publiclyAccessible?: boolean | cdktn.IResolvable;
+  private _publiclyAccessible?: boolean | cdktn.IResolvable; 
   public get publiclyAccessible() {
     return this.getBooleanAttribute('publicly_accessible');
   }
@@ -1057,7 +1057,7 @@ export class TimestreaminfluxdbDbCluster extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1073,7 +1073,7 @@ export class TimestreaminfluxdbDbCluster extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -1095,7 +1095,7 @@ export class TimestreaminfluxdbDbCluster extends cdktn.TerraformResource {
   }
 
   // username - computed: false, optional: true, required: false
-  private _username?: string;
+  private _username?: string; 
   public get username() {
     return this.getStringAttribute('username');
   }
@@ -1111,7 +1111,7 @@ export class TimestreaminfluxdbDbCluster extends cdktn.TerraformResource {
   }
 
   // vpc_security_group_ids - computed: false, optional: false, required: true
-  private _vpcSecurityGroupIds?: string[];
+  private _vpcSecurityGroupIds?: string[]; 
   public get vpcSecurityGroupIds() {
     return cdktn.Fn.tolist(this.getListAttribute('vpc_security_group_ids'));
   }
@@ -1124,7 +1124,7 @@ export class TimestreaminfluxdbDbCluster extends cdktn.TerraformResource {
   }
 
   // vpc_subnet_ids - computed: false, optional: false, required: true
-  private _vpcSubnetIds?: string[];
+  private _vpcSubnetIds?: string[]; 
   public get vpcSubnetIds() {
     return cdktn.Fn.tolist(this.getListAttribute('vpc_subnet_ids'));
   }

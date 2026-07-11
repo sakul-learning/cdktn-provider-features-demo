@@ -144,7 +144,7 @@ export class IotwirelessMulticastGroupLoRaWanOutputReference extends cdktn.Compl
   }
 
   // dl_class - computed: false, optional: false, required: true
-  private _dlClass?: string;
+  private _dlClass?: string; 
   public get dlClass() {
     return this.getStringAttribute('dl_class');
   }
@@ -167,7 +167,7 @@ export class IotwirelessMulticastGroupLoRaWanOutputReference extends cdktn.Compl
   }
 
   // rf_region - computed: false, optional: false, required: true
-  private _rfRegion?: string;
+  private _rfRegion?: string; 
   public get rfRegion() {
     return this.getStringAttribute('rf_region');
   }
@@ -277,7 +277,7 @@ export class IotwirelessMulticastGroupTagsOutputReference extends cdktn.ComplexO
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -293,7 +293,7 @@ export class IotwirelessMulticastGroupTagsOutputReference extends cdktn.ComplexO
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -397,7 +397,7 @@ export class IotwirelessMulticastGroup extends cdktn.TerraformResource {
   }
 
   // associate_wireless_device - computed: true, optional: true, required: false
-  private _associateWirelessDevice?: string;
+  private _associateWirelessDevice?: string; 
   public get associateWirelessDevice() {
     return this.getStringAttribute('associate_wireless_device');
   }
@@ -413,7 +413,7 @@ export class IotwirelessMulticastGroup extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -429,7 +429,7 @@ export class IotwirelessMulticastGroup extends cdktn.TerraformResource {
   }
 
   // disassociate_wireless_device - computed: true, optional: true, required: false
-  private _disassociateWirelessDevice?: string;
+  private _disassociateWirelessDevice?: string; 
   public get disassociateWirelessDevice() {
     return this.getStringAttribute('disassociate_wireless_device');
   }
@@ -468,7 +468,7 @@ export class IotwirelessMulticastGroup extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }

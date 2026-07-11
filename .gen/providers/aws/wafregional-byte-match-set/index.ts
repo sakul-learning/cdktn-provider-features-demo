@@ -117,7 +117,7 @@ export class WafregionalByteMatchSetByteMatchTuplesFieldToMatchOutputReference e
   }
 
   // data - computed: false, optional: true, required: false
-  private _data?: string;
+  private _data?: string; 
   public get data() {
     return this.getStringAttribute('data');
   }
@@ -133,7 +133,7 @@ export class WafregionalByteMatchSetByteMatchTuplesFieldToMatchOutputReference e
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -279,7 +279,7 @@ export class WafregionalByteMatchSetByteMatchTuplesOutputReference extends cdktn
   }
 
   // positional_constraint - computed: false, optional: false, required: true
-  private _positionalConstraint?: string;
+  private _positionalConstraint?: string; 
   public get positionalConstraint() {
     return this.getStringAttribute('positional_constraint');
   }
@@ -292,7 +292,7 @@ export class WafregionalByteMatchSetByteMatchTuplesOutputReference extends cdktn
   }
 
   // target_string - computed: false, optional: true, required: false
-  private _targetString?: string;
+  private _targetString?: string; 
   public get targetString() {
     return this.getStringAttribute('target_string');
   }
@@ -308,7 +308,7 @@ export class WafregionalByteMatchSetByteMatchTuplesOutputReference extends cdktn
   }
 
   // text_transformation - computed: false, optional: false, required: true
-  private _textTransformation?: string;
+  private _textTransformation?: string; 
   public get textTransformation() {
     return this.getStringAttribute('text_transformation');
   }
@@ -415,7 +415,7 @@ export class WafregionalByteMatchSet extends cdktn.TerraformResource {
   // ==========
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -431,7 +431,7 @@ export class WafregionalByteMatchSet extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -444,7 +444,7 @@ export class WafregionalByteMatchSet extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

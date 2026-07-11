@@ -101,7 +101,7 @@ export class CognitoUserPoolUiCustomization extends cdktn.TerraformResource {
   // ==========
 
   // client_id - computed: false, optional: true, required: false
-  private _clientId?: string;
+  private _clientId?: string; 
   public get clientId() {
     return this.getStringAttribute('client_id');
   }
@@ -122,7 +122,7 @@ export class CognitoUserPoolUiCustomization extends cdktn.TerraformResource {
   }
 
   // css - computed: false, optional: true, required: false
-  private _css?: string;
+  private _css?: string; 
   public get css() {
     return this.getStringAttribute('css');
   }
@@ -143,7 +143,7 @@ export class CognitoUserPoolUiCustomization extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -159,7 +159,7 @@ export class CognitoUserPoolUiCustomization extends cdktn.TerraformResource {
   }
 
   // image_file - computed: false, optional: true, required: false
-  private _imageFile?: string;
+  private _imageFile?: string; 
   public get imageFile() {
     return this.getStringAttribute('image_file');
   }
@@ -185,7 +185,7 @@ export class CognitoUserPoolUiCustomization extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -201,7 +201,7 @@ export class CognitoUserPoolUiCustomization extends cdktn.TerraformResource {
   }
 
   // user_pool_id - computed: false, optional: false, required: true
-  private _userPoolId?: string;
+  private _userPoolId?: string; 
   public get userPoolId() {
     return this.getStringAttribute('user_pool_id');
   }

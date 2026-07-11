@@ -128,7 +128,7 @@ export class RefactorspacesEnvironmentTagsOutputReference extends cdktn.ComplexO
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -144,7 +144,7 @@ export class RefactorspacesEnvironmentTagsOutputReference extends cdktn.ComplexO
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -246,7 +246,7 @@ export class RefactorspacesEnvironment extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -272,7 +272,7 @@ export class RefactorspacesEnvironment extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -288,7 +288,7 @@ export class RefactorspacesEnvironment extends cdktn.TerraformResource {
   }
 
   // network_fabric_type - computed: true, optional: true, required: false
-  private _networkFabricType?: string;
+  private _networkFabricType?: string; 
   public get networkFabricType() {
     return this.getStringAttribute('network_fabric_type');
   }

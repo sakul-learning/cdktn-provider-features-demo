@@ -139,7 +139,7 @@ export class BackupTieringConfigurationResourceSelectionOutputReference extends 
   }
 
   // resource_type - computed: false, optional: false, required: true
-  private _resourceType?: string;
+  private _resourceType?: string; 
   public get resourceType() {
     return this.getStringAttribute('resource_type');
   }
@@ -152,7 +152,7 @@ export class BackupTieringConfigurationResourceSelectionOutputReference extends 
   }
 
   // resources - computed: false, optional: false, required: true
-  private _resources?: string[];
+  private _resources?: string[]; 
   public get resources() {
     return this.getListAttribute('resources');
   }
@@ -165,7 +165,7 @@ export class BackupTieringConfigurationResourceSelectionOutputReference extends 
   }
 
   // tiering_down_settings_in_days - computed: false, optional: false, required: true
-  private _tieringDownSettingsInDays?: number;
+  private _tieringDownSettingsInDays?: number; 
   public get tieringDownSettingsInDays() {
     return this.getNumberAttribute('tiering_down_settings_in_days');
   }
@@ -259,7 +259,7 @@ export class BackupTieringConfiguration extends cdktn.TerraformResource {
   // ==========
 
   // backup_vault_name - computed: false, optional: false, required: true
-  private _backupVaultName?: string;
+  private _backupVaultName?: string; 
   public get backupVaultName() {
     return this.getStringAttribute('backup_vault_name');
   }
@@ -305,7 +305,7 @@ export class BackupTieringConfiguration extends cdktn.TerraformResource {
   }
 
   // tiering_configuration_name - computed: false, optional: false, required: true
-  private _tieringConfigurationName?: string;
+  private _tieringConfigurationName?: string; 
   public get tieringConfigurationName() {
     return this.getStringAttribute('tiering_configuration_name');
   }
@@ -318,7 +318,7 @@ export class BackupTieringConfiguration extends cdktn.TerraformResource {
   }
 
   // tiering_configuration_tags - computed: true, optional: true, required: false
-  private _tieringConfigurationTags?: { [key: string]: string };
+  private _tieringConfigurationTags?: { [key: string]: string }; 
   public get tieringConfigurationTags() {
     return this.getStringMapAttribute('tiering_configuration_tags');
   }

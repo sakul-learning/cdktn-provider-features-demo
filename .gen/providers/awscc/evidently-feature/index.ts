@@ -140,7 +140,7 @@ export class EvidentlyFeatureEntityOverridesOutputReference extends cdktn.Comple
   }
 
   // entity_id - computed: true, optional: true, required: false
-  private _entityId?: string;
+  private _entityId?: string; 
   public get entityId() {
     return this.getStringAttribute('entity_id');
   }
@@ -156,7 +156,7 @@ export class EvidentlyFeatureEntityOverridesOutputReference extends cdktn.Comple
   }
 
   // variation - computed: true, optional: true, required: false
-  private _variation?: string;
+  private _variation?: string; 
   public get variation() {
     return this.getStringAttribute('variation');
   }
@@ -293,7 +293,7 @@ export class EvidentlyFeatureTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -309,7 +309,7 @@ export class EvidentlyFeatureTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -493,7 +493,7 @@ export class EvidentlyFeatureVariationsOutputReference extends cdktn.ComplexObje
   }
 
   // boolean_value - computed: true, optional: true, required: false
-  private _booleanValue?: boolean | cdktn.IResolvable;
+  private _booleanValue?: boolean | cdktn.IResolvable; 
   public get booleanValue() {
     return this.getBooleanAttribute('boolean_value');
   }
@@ -509,7 +509,7 @@ export class EvidentlyFeatureVariationsOutputReference extends cdktn.ComplexObje
   }
 
   // double_value - computed: true, optional: true, required: false
-  private _doubleValue?: number;
+  private _doubleValue?: number; 
   public get doubleValue() {
     return this.getNumberAttribute('double_value');
   }
@@ -525,7 +525,7 @@ export class EvidentlyFeatureVariationsOutputReference extends cdktn.ComplexObje
   }
 
   // long_value - computed: true, optional: true, required: false
-  private _longValue?: number;
+  private _longValue?: number; 
   public get longValue() {
     return this.getNumberAttribute('long_value');
   }
@@ -541,7 +541,7 @@ export class EvidentlyFeatureVariationsOutputReference extends cdktn.ComplexObje
   }
 
   // string_value - computed: true, optional: true, required: false
-  private _stringValue?: string;
+  private _stringValue?: string; 
   public get stringValue() {
     return this.getStringAttribute('string_value');
   }
@@ -557,7 +557,7 @@ export class EvidentlyFeatureVariationsOutputReference extends cdktn.ComplexObje
   }
 
   // variation_name - computed: true, optional: true, required: false
-  private _variationName?: string;
+  private _variationName?: string; 
   public get variationName() {
     return this.getStringAttribute('variation_name');
   }
@@ -663,7 +663,7 @@ export class EvidentlyFeature extends cdktn.TerraformResource {
   }
 
   // default_variation - computed: true, optional: true, required: false
-  private _defaultVariation?: string;
+  private _defaultVariation?: string; 
   public get defaultVariation() {
     return this.getStringAttribute('default_variation');
   }
@@ -679,7 +679,7 @@ export class EvidentlyFeature extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -711,7 +711,7 @@ export class EvidentlyFeature extends cdktn.TerraformResource {
   }
 
   // evaluation_strategy - computed: true, optional: true, required: false
-  private _evaluationStrategy?: string;
+  private _evaluationStrategy?: string; 
   public get evaluationStrategy() {
     return this.getStringAttribute('evaluation_strategy');
   }
@@ -732,7 +732,7 @@ export class EvidentlyFeature extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -745,7 +745,7 @@ export class EvidentlyFeature extends cdktn.TerraformResource {
   }
 
   // project - computed: false, optional: false, required: true
-  private _project?: string;
+  private _project?: string; 
   public get project() {
     return this.getStringAttribute('project');
   }

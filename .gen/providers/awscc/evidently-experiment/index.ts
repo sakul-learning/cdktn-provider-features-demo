@@ -232,7 +232,7 @@ export class EvidentlyExperimentMetricGoalsOutputReference extends cdktn.Complex
   }
 
   // desired_change - computed: false, optional: false, required: true
-  private _desiredChange?: string;
+  private _desiredChange?: string; 
   public get desiredChange() {
     return this.getStringAttribute('desired_change');
   }
@@ -245,7 +245,7 @@ export class EvidentlyExperimentMetricGoalsOutputReference extends cdktn.Complex
   }
 
   // entity_id_key - computed: false, optional: false, required: true
-  private _entityIdKey?: string;
+  private _entityIdKey?: string; 
   public get entityIdKey() {
     return this.getStringAttribute('entity_id_key');
   }
@@ -258,7 +258,7 @@ export class EvidentlyExperimentMetricGoalsOutputReference extends cdktn.Complex
   }
 
   // event_pattern - computed: true, optional: true, required: false
-  private _eventPattern?: string;
+  private _eventPattern?: string; 
   public get eventPattern() {
     return this.getStringAttribute('event_pattern');
   }
@@ -274,7 +274,7 @@ export class EvidentlyExperimentMetricGoalsOutputReference extends cdktn.Complex
   }
 
   // metric_name - computed: false, optional: false, required: true
-  private _metricName?: string;
+  private _metricName?: string; 
   public get metricName() {
     return this.getStringAttribute('metric_name');
   }
@@ -287,7 +287,7 @@ export class EvidentlyExperimentMetricGoalsOutputReference extends cdktn.Complex
   }
 
   // unit_label - computed: true, optional: true, required: false
-  private _unitLabel?: string;
+  private _unitLabel?: string; 
   public get unitLabel() {
     return this.getStringAttribute('unit_label');
   }
@@ -303,7 +303,7 @@ export class EvidentlyExperimentMetricGoalsOutputReference extends cdktn.Complex
   }
 
   // value_key - computed: false, optional: false, required: true
-  private _valueKey?: string;
+  private _valueKey?: string; 
   public get valueKey() {
     return this.getStringAttribute('value_key');
   }
@@ -433,7 +433,7 @@ export class EvidentlyExperimentOnlineAbConfigTreatmentWeightsOutputReference ex
   }
 
   // split_weight - computed: true, optional: true, required: false
-  private _splitWeight?: number;
+  private _splitWeight?: number; 
   public get splitWeight() {
     return this.getNumberAttribute('split_weight');
   }
@@ -449,7 +449,7 @@ export class EvidentlyExperimentOnlineAbConfigTreatmentWeightsOutputReference ex
   }
 
   // treatment - computed: true, optional: true, required: false
-  private _treatment?: string;
+  private _treatment?: string; 
   public get treatment() {
     return this.getStringAttribute('treatment');
   }
@@ -580,7 +580,7 @@ export class EvidentlyExperimentOnlineAbConfigOutputReference extends cdktn.Comp
   }
 
   // control_treatment_name - computed: true, optional: true, required: false
-  private _controlTreatmentName?: string;
+  private _controlTreatmentName?: string; 
   public get controlTreatmentName() {
     return this.getStringAttribute('control_treatment_name');
   }
@@ -749,7 +749,7 @@ export class EvidentlyExperimentRunningStatusOutputReference extends cdktn.Compl
   }
 
   // analysis_complete_time - computed: true, optional: true, required: false
-  private _analysisCompleteTime?: string;
+  private _analysisCompleteTime?: string; 
   public get analysisCompleteTime() {
     return this.getStringAttribute('analysis_complete_time');
   }
@@ -765,7 +765,7 @@ export class EvidentlyExperimentRunningStatusOutputReference extends cdktn.Compl
   }
 
   // desired_state - computed: true, optional: true, required: false
-  private _desiredState?: string;
+  private _desiredState?: string; 
   public get desiredState() {
     return this.getStringAttribute('desired_state');
   }
@@ -781,7 +781,7 @@ export class EvidentlyExperimentRunningStatusOutputReference extends cdktn.Compl
   }
 
   // reason - computed: true, optional: true, required: false
-  private _reason?: string;
+  private _reason?: string; 
   public get reason() {
     return this.getStringAttribute('reason');
   }
@@ -797,7 +797,7 @@ export class EvidentlyExperimentRunningStatusOutputReference extends cdktn.Compl
   }
 
   // status - computed: true, optional: true, required: false
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -914,7 +914,7 @@ export class EvidentlyExperimentTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -930,7 +930,7 @@ export class EvidentlyExperimentTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1097,7 +1097,7 @@ export class EvidentlyExperimentTreatmentsOutputReference extends cdktn.ComplexO
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1113,7 +1113,7 @@ export class EvidentlyExperimentTreatmentsOutputReference extends cdktn.ComplexO
   }
 
   // feature - computed: false, optional: false, required: true
-  private _feature?: string;
+  private _feature?: string; 
   public get feature() {
     return this.getStringAttribute('feature');
   }
@@ -1126,7 +1126,7 @@ export class EvidentlyExperimentTreatmentsOutputReference extends cdktn.ComplexO
   }
 
   // treatment_name - computed: false, optional: false, required: true
-  private _treatmentName?: string;
+  private _treatmentName?: string; 
   public get treatmentName() {
     return this.getStringAttribute('treatment_name');
   }
@@ -1139,7 +1139,7 @@ export class EvidentlyExperimentTreatmentsOutputReference extends cdktn.ComplexO
   }
 
   // variation - computed: false, optional: false, required: true
-  private _variation?: string;
+  private _variation?: string; 
   public get variation() {
     return this.getStringAttribute('variation');
   }
@@ -1246,7 +1246,7 @@ export class EvidentlyExperiment extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1280,7 +1280,7 @@ export class EvidentlyExperiment extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1306,7 +1306,7 @@ export class EvidentlyExperiment extends cdktn.TerraformResource {
   }
 
   // project - computed: false, optional: false, required: true
-  private _project?: string;
+  private _project?: string; 
   public get project() {
     return this.getStringAttribute('project');
   }
@@ -1319,7 +1319,7 @@ export class EvidentlyExperiment extends cdktn.TerraformResource {
   }
 
   // randomization_salt - computed: true, optional: true, required: false
-  private _randomizationSalt?: string;
+  private _randomizationSalt?: string; 
   public get randomizationSalt() {
     return this.getStringAttribute('randomization_salt');
   }
@@ -1335,7 +1335,7 @@ export class EvidentlyExperiment extends cdktn.TerraformResource {
   }
 
   // remove_segment - computed: true, optional: true, required: false
-  private _removeSegment?: boolean | cdktn.IResolvable;
+  private _removeSegment?: boolean | cdktn.IResolvable; 
   public get removeSegment() {
     return this.getBooleanAttribute('remove_segment');
   }
@@ -1367,7 +1367,7 @@ export class EvidentlyExperiment extends cdktn.TerraformResource {
   }
 
   // sampling_rate - computed: true, optional: true, required: false
-  private _samplingRate?: number;
+  private _samplingRate?: number; 
   public get samplingRate() {
     return this.getNumberAttribute('sampling_rate');
   }
@@ -1383,7 +1383,7 @@ export class EvidentlyExperiment extends cdktn.TerraformResource {
   }
 
   // segment - computed: true, optional: true, required: false
-  private _segment?: string;
+  private _segment?: string; 
   public get segment() {
     return this.getStringAttribute('segment');
   }

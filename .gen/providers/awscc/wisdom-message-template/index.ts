@@ -147,7 +147,7 @@ export class WisdomMessageTemplateContentEmailMessageTemplateContentBodyHtmlOutp
   }
 
   // content - computed: true, optional: true, required: false
-  private _content?: string;
+  private _content?: string; 
   public get content() {
     return this.getStringAttribute('content');
   }
@@ -241,7 +241,7 @@ export class WisdomMessageTemplateContentEmailMessageTemplateContentBodyPlainTex
   }
 
   // content - computed: true, optional: true, required: false
-  private _content?: string;
+  private _content?: string; 
   public get content() {
     return this.getStringAttribute('content');
   }
@@ -489,7 +489,7 @@ export class WisdomMessageTemplateContentEmailMessageTemplateContentHeadersOutpu
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -505,7 +505,7 @@ export class WisdomMessageTemplateContentEmailMessageTemplateContentHeadersOutpu
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -691,7 +691,7 @@ export class WisdomMessageTemplateContentEmailMessageTemplateContentOutputRefere
   }
 
   // subject - computed: true, optional: true, required: false
-  private _subject?: string;
+  private _subject?: string; 
   public get subject() {
     return this.getStringAttribute('subject');
   }
@@ -785,7 +785,7 @@ export class WisdomMessageTemplateContentSmsMessageTemplateContentBodyPlainTextO
   }
 
   // content - computed: true, optional: true, required: false
-  private _content?: string;
+  private _content?: string; 
   public get content() {
     return this.getStringAttribute('content');
   }
@@ -1223,7 +1223,7 @@ export class WisdomMessageTemplateDefaultAttributesAgentAttributesOutputReferenc
   }
 
   // first_name - computed: true, optional: true, required: false
-  private _firstName?: string;
+  private _firstName?: string; 
   public get firstName() {
     return this.getStringAttribute('first_name');
   }
@@ -1239,7 +1239,7 @@ export class WisdomMessageTemplateDefaultAttributesAgentAttributesOutputReferenc
   }
 
   // last_name - computed: true, optional: true, required: false
-  private _lastName?: string;
+  private _lastName?: string; 
   public get lastName() {
     return this.getStringAttribute('last_name');
   }
@@ -2418,7 +2418,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // account_number - computed: true, optional: true, required: false
-  private _accountNumber?: string;
+  private _accountNumber?: string; 
   public get accountNumber() {
     return this.getStringAttribute('account_number');
   }
@@ -2434,7 +2434,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // additional_information - computed: true, optional: true, required: false
-  private _additionalInformation?: string;
+  private _additionalInformation?: string; 
   public get additionalInformation() {
     return this.getStringAttribute('additional_information');
   }
@@ -2450,7 +2450,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // address_1 - computed: true, optional: true, required: false
-  private _address1?: string;
+  private _address1?: string; 
   public get address1() {
     return this.getStringAttribute('address_1');
   }
@@ -2466,7 +2466,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // address_2 - computed: true, optional: true, required: false
-  private _address2?: string;
+  private _address2?: string; 
   public get address2() {
     return this.getStringAttribute('address_2');
   }
@@ -2482,7 +2482,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // address_3 - computed: true, optional: true, required: false
-  private _address3?: string;
+  private _address3?: string; 
   public get address3() {
     return this.getStringAttribute('address_3');
   }
@@ -2498,7 +2498,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // address_4 - computed: true, optional: true, required: false
-  private _address4?: string;
+  private _address4?: string; 
   public get address4() {
     return this.getStringAttribute('address_4');
   }
@@ -2514,7 +2514,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // billing_address_1 - computed: true, optional: true, required: false
-  private _billingAddress1?: string;
+  private _billingAddress1?: string; 
   public get billingAddress1() {
     return this.getStringAttribute('billing_address_1');
   }
@@ -2530,7 +2530,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // billing_address_2 - computed: true, optional: true, required: false
-  private _billingAddress2?: string;
+  private _billingAddress2?: string; 
   public get billingAddress2() {
     return this.getStringAttribute('billing_address_2');
   }
@@ -2546,7 +2546,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // billing_address_3 - computed: true, optional: true, required: false
-  private _billingAddress3?: string;
+  private _billingAddress3?: string; 
   public get billingAddress3() {
     return this.getStringAttribute('billing_address_3');
   }
@@ -2562,7 +2562,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // billing_address_4 - computed: true, optional: true, required: false
-  private _billingAddress4?: string;
+  private _billingAddress4?: string; 
   public get billingAddress4() {
     return this.getStringAttribute('billing_address_4');
   }
@@ -2578,7 +2578,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // billing_city - computed: true, optional: true, required: false
-  private _billingCity?: string;
+  private _billingCity?: string; 
   public get billingCity() {
     return this.getStringAttribute('billing_city');
   }
@@ -2594,7 +2594,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // billing_country - computed: true, optional: true, required: false
-  private _billingCountry?: string;
+  private _billingCountry?: string; 
   public get billingCountry() {
     return this.getStringAttribute('billing_country');
   }
@@ -2610,7 +2610,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // billing_county - computed: true, optional: true, required: false
-  private _billingCounty?: string;
+  private _billingCounty?: string; 
   public get billingCounty() {
     return this.getStringAttribute('billing_county');
   }
@@ -2626,7 +2626,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // billing_postal_code - computed: true, optional: true, required: false
-  private _billingPostalCode?: string;
+  private _billingPostalCode?: string; 
   public get billingPostalCode() {
     return this.getStringAttribute('billing_postal_code');
   }
@@ -2642,7 +2642,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // billing_province - computed: true, optional: true, required: false
-  private _billingProvince?: string;
+  private _billingProvince?: string; 
   public get billingProvince() {
     return this.getStringAttribute('billing_province');
   }
@@ -2658,7 +2658,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // billing_state - computed: true, optional: true, required: false
-  private _billingState?: string;
+  private _billingState?: string; 
   public get billingState() {
     return this.getStringAttribute('billing_state');
   }
@@ -2674,7 +2674,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // birth_date - computed: true, optional: true, required: false
-  private _birthDate?: string;
+  private _birthDate?: string; 
   public get birthDate() {
     return this.getStringAttribute('birth_date');
   }
@@ -2690,7 +2690,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // business_email_address - computed: true, optional: true, required: false
-  private _businessEmailAddress?: string;
+  private _businessEmailAddress?: string; 
   public get businessEmailAddress() {
     return this.getStringAttribute('business_email_address');
   }
@@ -2706,7 +2706,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // business_name - computed: true, optional: true, required: false
-  private _businessName?: string;
+  private _businessName?: string; 
   public get businessName() {
     return this.getStringAttribute('business_name');
   }
@@ -2722,7 +2722,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // business_phone_number - computed: true, optional: true, required: false
-  private _businessPhoneNumber?: string;
+  private _businessPhoneNumber?: string; 
   public get businessPhoneNumber() {
     return this.getStringAttribute('business_phone_number');
   }
@@ -2738,7 +2738,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // city - computed: true, optional: true, required: false
-  private _city?: string;
+  private _city?: string; 
   public get city() {
     return this.getStringAttribute('city');
   }
@@ -2754,7 +2754,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // country - computed: true, optional: true, required: false
-  private _country?: string;
+  private _country?: string; 
   public get country() {
     return this.getStringAttribute('country');
   }
@@ -2770,7 +2770,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // county - computed: true, optional: true, required: false
-  private _county?: string;
+  private _county?: string; 
   public get county() {
     return this.getStringAttribute('county');
   }
@@ -2786,7 +2786,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // custom - computed: true, optional: true, required: false
-  private _custom?: { [key: string]: string };
+  private _custom?: { [key: string]: string }; 
   public get custom() {
     return this.getStringMapAttribute('custom');
   }
@@ -2802,7 +2802,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // email_address - computed: true, optional: true, required: false
-  private _emailAddress?: string;
+  private _emailAddress?: string; 
   public get emailAddress() {
     return this.getStringAttribute('email_address');
   }
@@ -2818,7 +2818,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // first_name - computed: true, optional: true, required: false
-  private _firstName?: string;
+  private _firstName?: string; 
   public get firstName() {
     return this.getStringAttribute('first_name');
   }
@@ -2834,7 +2834,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // gender - computed: true, optional: true, required: false
-  private _gender?: string;
+  private _gender?: string; 
   public get gender() {
     return this.getStringAttribute('gender');
   }
@@ -2850,7 +2850,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // home_phone_number - computed: true, optional: true, required: false
-  private _homePhoneNumber?: string;
+  private _homePhoneNumber?: string; 
   public get homePhoneNumber() {
     return this.getStringAttribute('home_phone_number');
   }
@@ -2866,7 +2866,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // last_name - computed: true, optional: true, required: false
-  private _lastName?: string;
+  private _lastName?: string; 
   public get lastName() {
     return this.getStringAttribute('last_name');
   }
@@ -2882,7 +2882,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // mailing_address_1 - computed: true, optional: true, required: false
-  private _mailingAddress1?: string;
+  private _mailingAddress1?: string; 
   public get mailingAddress1() {
     return this.getStringAttribute('mailing_address_1');
   }
@@ -2898,7 +2898,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // mailing_address_2 - computed: true, optional: true, required: false
-  private _mailingAddress2?: string;
+  private _mailingAddress2?: string; 
   public get mailingAddress2() {
     return this.getStringAttribute('mailing_address_2');
   }
@@ -2914,7 +2914,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // mailing_address_3 - computed: true, optional: true, required: false
-  private _mailingAddress3?: string;
+  private _mailingAddress3?: string; 
   public get mailingAddress3() {
     return this.getStringAttribute('mailing_address_3');
   }
@@ -2930,7 +2930,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // mailing_address_4 - computed: true, optional: true, required: false
-  private _mailingAddress4?: string;
+  private _mailingAddress4?: string; 
   public get mailingAddress4() {
     return this.getStringAttribute('mailing_address_4');
   }
@@ -2946,7 +2946,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // mailing_city - computed: true, optional: true, required: false
-  private _mailingCity?: string;
+  private _mailingCity?: string; 
   public get mailingCity() {
     return this.getStringAttribute('mailing_city');
   }
@@ -2962,7 +2962,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // mailing_country - computed: true, optional: true, required: false
-  private _mailingCountry?: string;
+  private _mailingCountry?: string; 
   public get mailingCountry() {
     return this.getStringAttribute('mailing_country');
   }
@@ -2978,7 +2978,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // mailing_county - computed: true, optional: true, required: false
-  private _mailingCounty?: string;
+  private _mailingCounty?: string; 
   public get mailingCounty() {
     return this.getStringAttribute('mailing_county');
   }
@@ -2994,7 +2994,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // mailing_postal_code - computed: true, optional: true, required: false
-  private _mailingPostalCode?: string;
+  private _mailingPostalCode?: string; 
   public get mailingPostalCode() {
     return this.getStringAttribute('mailing_postal_code');
   }
@@ -3010,7 +3010,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // mailing_province - computed: true, optional: true, required: false
-  private _mailingProvince?: string;
+  private _mailingProvince?: string; 
   public get mailingProvince() {
     return this.getStringAttribute('mailing_province');
   }
@@ -3026,7 +3026,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // mailing_state - computed: true, optional: true, required: false
-  private _mailingState?: string;
+  private _mailingState?: string; 
   public get mailingState() {
     return this.getStringAttribute('mailing_state');
   }
@@ -3042,7 +3042,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // middle_name - computed: true, optional: true, required: false
-  private _middleName?: string;
+  private _middleName?: string; 
   public get middleName() {
     return this.getStringAttribute('middle_name');
   }
@@ -3058,7 +3058,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // mobile_phone_number - computed: true, optional: true, required: false
-  private _mobilePhoneNumber?: string;
+  private _mobilePhoneNumber?: string; 
   public get mobilePhoneNumber() {
     return this.getStringAttribute('mobile_phone_number');
   }
@@ -3074,7 +3074,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // party_type - computed: true, optional: true, required: false
-  private _partyType?: string;
+  private _partyType?: string; 
   public get partyType() {
     return this.getStringAttribute('party_type');
   }
@@ -3090,7 +3090,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // phone_number - computed: true, optional: true, required: false
-  private _phoneNumber?: string;
+  private _phoneNumber?: string; 
   public get phoneNumber() {
     return this.getStringAttribute('phone_number');
   }
@@ -3106,7 +3106,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // postal_code - computed: true, optional: true, required: false
-  private _postalCode?: string;
+  private _postalCode?: string; 
   public get postalCode() {
     return this.getStringAttribute('postal_code');
   }
@@ -3122,7 +3122,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // profile_arn - computed: true, optional: true, required: false
-  private _profileArn?: string;
+  private _profileArn?: string; 
   public get profileArn() {
     return this.getStringAttribute('profile_arn');
   }
@@ -3138,7 +3138,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // profile_id - computed: true, optional: true, required: false
-  private _profileId?: string;
+  private _profileId?: string; 
   public get profileId() {
     return this.getStringAttribute('profile_id');
   }
@@ -3154,7 +3154,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // province - computed: true, optional: true, required: false
-  private _province?: string;
+  private _province?: string; 
   public get province() {
     return this.getStringAttribute('province');
   }
@@ -3170,7 +3170,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // shipping_address_1 - computed: true, optional: true, required: false
-  private _shippingAddress1?: string;
+  private _shippingAddress1?: string; 
   public get shippingAddress1() {
     return this.getStringAttribute('shipping_address_1');
   }
@@ -3186,7 +3186,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // shipping_address_2 - computed: true, optional: true, required: false
-  private _shippingAddress2?: string;
+  private _shippingAddress2?: string; 
   public get shippingAddress2() {
     return this.getStringAttribute('shipping_address_2');
   }
@@ -3202,7 +3202,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // shipping_address_3 - computed: true, optional: true, required: false
-  private _shippingAddress3?: string;
+  private _shippingAddress3?: string; 
   public get shippingAddress3() {
     return this.getStringAttribute('shipping_address_3');
   }
@@ -3218,7 +3218,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // shipping_address_4 - computed: true, optional: true, required: false
-  private _shippingAddress4?: string;
+  private _shippingAddress4?: string; 
   public get shippingAddress4() {
     return this.getStringAttribute('shipping_address_4');
   }
@@ -3234,7 +3234,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // shipping_city - computed: true, optional: true, required: false
-  private _shippingCity?: string;
+  private _shippingCity?: string; 
   public get shippingCity() {
     return this.getStringAttribute('shipping_city');
   }
@@ -3250,7 +3250,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // shipping_country - computed: true, optional: true, required: false
-  private _shippingCountry?: string;
+  private _shippingCountry?: string; 
   public get shippingCountry() {
     return this.getStringAttribute('shipping_country');
   }
@@ -3266,7 +3266,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // shipping_county - computed: true, optional: true, required: false
-  private _shippingCounty?: string;
+  private _shippingCounty?: string; 
   public get shippingCounty() {
     return this.getStringAttribute('shipping_county');
   }
@@ -3282,7 +3282,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // shipping_postal_code - computed: true, optional: true, required: false
-  private _shippingPostalCode?: string;
+  private _shippingPostalCode?: string; 
   public get shippingPostalCode() {
     return this.getStringAttribute('shipping_postal_code');
   }
@@ -3298,7 +3298,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // shipping_province - computed: true, optional: true, required: false
-  private _shippingProvince?: string;
+  private _shippingProvince?: string; 
   public get shippingProvince() {
     return this.getStringAttribute('shipping_province');
   }
@@ -3314,7 +3314,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // shipping_state - computed: true, optional: true, required: false
-  private _shippingState?: string;
+  private _shippingState?: string; 
   public get shippingState() {
     return this.getStringAttribute('shipping_state');
   }
@@ -3330,7 +3330,7 @@ export class WisdomMessageTemplateDefaultAttributesCustomerProfileAttributesOutp
   }
 
   // state - computed: true, optional: true, required: false
-  private _state?: string;
+  private _state?: string; 
   public get state() {
     return this.getStringAttribute('state');
   }
@@ -3426,7 +3426,7 @@ export class WisdomMessageTemplateDefaultAttributesSystemAttributesCustomerEndpo
   }
 
   // address - computed: true, optional: true, required: false
-  private _address?: string;
+  private _address?: string; 
   public get address() {
     return this.getStringAttribute('address');
   }
@@ -3522,7 +3522,7 @@ export class WisdomMessageTemplateDefaultAttributesSystemAttributesSystemEndpoin
   }
 
   // address - computed: true, optional: true, required: false
-  private _address?: string;
+  private _address?: string; 
   public get address() {
     return this.getStringAttribute('address');
   }
@@ -3672,7 +3672,7 @@ export class WisdomMessageTemplateDefaultAttributesSystemAttributesOutputReferen
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -3857,7 +3857,7 @@ export class WisdomMessageTemplateDefaultAttributesOutputReference extends cdktn
   }
 
   // custom_attributes - computed: true, optional: true, required: false
-  private _customAttributes?: { [key: string]: string };
+  private _customAttributes?: { [key: string]: string }; 
   public get customAttributes() {
     return this.getStringMapAttribute('custom_attributes');
   }
@@ -4004,7 +4004,7 @@ export class WisdomMessageTemplateGroupingConfigurationOutputReference extends c
   }
 
   // criteria - computed: true, optional: true, required: false
-  private _criteria?: string;
+  private _criteria?: string; 
   public get criteria() {
     return this.getStringAttribute('criteria');
   }
@@ -4020,7 +4020,7 @@ export class WisdomMessageTemplateGroupingConfigurationOutputReference extends c
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -4047,7 +4047,7 @@ export interface WisdomMessageTemplateMessageTemplateAttachments {
   */
   readonly attachmentName?: string;
   /**
-  * The S3 Presigned URL for the attachment file. When generating the PreSignedUrl, please ensure that the expires-in time is set to 30 minutes. The URL can be generated through the AWS Console or through the AWS CLI (https://docs.aws.amazon.com/AmazonS3/latest/userguide/ShareObjectPreSignedURL.html).
+  * The S3 Presigned URL for the attachment file. When generating the PreSignedUrl, please ensure that the expires-in time is set to 30 minutes. The URL can be generated through the AWS Console or through the AWS CLI (https://docs.aws.amazon.com/AmazonS3/latest/userguide/ShareObjectPreSignedURL.html). 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template#s3_presigned_url WisdomMessageTemplate#s3_presigned_url}
   */
@@ -4154,7 +4154,7 @@ export class WisdomMessageTemplateMessageTemplateAttachmentsOutputReference exte
   }
 
   // attachment_id - computed: true, optional: true, required: false
-  private _attachmentId?: string;
+  private _attachmentId?: string; 
   public get attachmentId() {
     return this.getStringAttribute('attachment_id');
   }
@@ -4170,7 +4170,7 @@ export class WisdomMessageTemplateMessageTemplateAttachmentsOutputReference exte
   }
 
   // attachment_name - computed: true, optional: true, required: false
-  private _attachmentName?: string;
+  private _attachmentName?: string; 
   public get attachmentName() {
     return this.getStringAttribute('attachment_name');
   }
@@ -4186,7 +4186,7 @@ export class WisdomMessageTemplateMessageTemplateAttachmentsOutputReference exte
   }
 
   // s3_presigned_url - computed: true, optional: true, required: false
-  private _s3PresignedUrl?: string;
+  private _s3PresignedUrl?: string; 
   public get s3PresignedUrl() {
     return this.getStringAttribute('s3_presigned_url');
   }
@@ -4323,7 +4323,7 @@ export class WisdomMessageTemplateTagsOutputReference extends cdktn.ComplexObjec
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -4339,7 +4339,7 @@ export class WisdomMessageTemplateTagsOutputReference extends cdktn.ComplexObjec
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -4442,7 +4442,7 @@ export class WisdomMessageTemplate extends cdktn.TerraformResource {
   // ==========
 
   // channel_subtype - computed: false, optional: false, required: true
-  private _channelSubtype?: string;
+  private _channelSubtype?: string; 
   public get channelSubtype() {
     return this.getStringAttribute('channel_subtype');
   }
@@ -4484,7 +4484,7 @@ export class WisdomMessageTemplate extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -4521,7 +4521,7 @@ export class WisdomMessageTemplate extends cdktn.TerraformResource {
   }
 
   // knowledge_base_arn - computed: false, optional: false, required: true
-  private _knowledgeBaseArn?: string;
+  private _knowledgeBaseArn?: string; 
   public get knowledgeBaseArn() {
     return this.getStringAttribute('knowledge_base_arn');
   }
@@ -4534,7 +4534,7 @@ export class WisdomMessageTemplate extends cdktn.TerraformResource {
   }
 
   // language - computed: true, optional: true, required: false
-  private _language?: string;
+  private _language?: string; 
   public get language() {
     return this.getStringAttribute('language');
   }
@@ -4581,7 +4581,7 @@ export class WisdomMessageTemplate extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }

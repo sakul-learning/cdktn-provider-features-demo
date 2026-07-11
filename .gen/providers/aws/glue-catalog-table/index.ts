@@ -229,7 +229,7 @@ export class GlueCatalogTableOpenTableFormatInputIcebergInputIcebergTableInputPa
   }
 
   // field_id - computed: false, optional: true, required: false
-  private _fieldId?: number;
+  private _fieldId?: number; 
   public get fieldId() {
     return this.getNumberAttribute('field_id');
   }
@@ -245,7 +245,7 @@ export class GlueCatalogTableOpenTableFormatInputIcebergInputIcebergTableInputPa
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -258,7 +258,7 @@ export class GlueCatalogTableOpenTableFormatInputIcebergInputIcebergTableInputPa
   }
 
   // source_id - computed: false, optional: false, required: true
-  private _sourceId?: number;
+  private _sourceId?: number; 
   public get sourceId() {
     return this.getNumberAttribute('source_id');
   }
@@ -271,7 +271,7 @@ export class GlueCatalogTableOpenTableFormatInputIcebergInputIcebergTableInputPa
   }
 
   // transform - computed: false, optional: false, required: true
-  private _transform?: string;
+  private _transform?: string; 
   public get transform() {
     return this.getStringAttribute('transform');
   }
@@ -391,7 +391,7 @@ export class GlueCatalogTableOpenTableFormatInputIcebergInputIcebergTableInputPa
   }
 
   // spec_id - computed: false, optional: true, required: false
-  private _specId?: number;
+  private _specId?: number; 
   public get specId() {
     return this.getNumberAttribute('spec_id');
   }
@@ -605,7 +605,7 @@ export class GlueCatalogTableOpenTableFormatInputIcebergInputIcebergTableInputSc
   }
 
   // doc - computed: false, optional: true, required: false
-  private _doc?: string;
+  private _doc?: string; 
   public get doc() {
     return this.getStringAttribute('doc');
   }
@@ -621,7 +621,7 @@ export class GlueCatalogTableOpenTableFormatInputIcebergInputIcebergTableInputSc
   }
 
   // id - computed: false, optional: false, required: true
-  private _id?: number;
+  private _id?: number; 
   public get id() {
     return this.getNumberAttribute('id');
   }
@@ -634,7 +634,7 @@ export class GlueCatalogTableOpenTableFormatInputIcebergInputIcebergTableInputSc
   }
 
   // initial_default - computed: false, optional: true, required: false
-  private _initialDefault?: string;
+  private _initialDefault?: string; 
   public get initialDefault() {
     return this.getStringAttribute('initial_default');
   }
@@ -650,7 +650,7 @@ export class GlueCatalogTableOpenTableFormatInputIcebergInputIcebergTableInputSc
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -663,7 +663,7 @@ export class GlueCatalogTableOpenTableFormatInputIcebergInputIcebergTableInputSc
   }
 
   // required - computed: false, optional: false, required: true
-  private _required?: boolean | cdktn.IResolvable;
+  private _required?: boolean | cdktn.IResolvable; 
   public get required() {
     return this.getBooleanAttribute('required');
   }
@@ -676,7 +676,7 @@ export class GlueCatalogTableOpenTableFormatInputIcebergInputIcebergTableInputSc
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -689,7 +689,7 @@ export class GlueCatalogTableOpenTableFormatInputIcebergInputIcebergTableInputSc
   }
 
   // write_default - computed: false, optional: true, required: false
-  private _writeDefault?: string;
+  private _writeDefault?: string; 
   public get writeDefault() {
     return this.getStringAttribute('write_default');
   }
@@ -846,7 +846,7 @@ export class GlueCatalogTableOpenTableFormatInputIcebergInputIcebergTableInputSc
   }
 
   // identifier_field_ids - computed: false, optional: true, required: false
-  private _identifierFieldIds?: number[];
+  private _identifierFieldIds?: number[]; 
   public get identifierFieldIds() {
     return this.getNumberListAttribute('identifier_field_ids');
   }
@@ -862,7 +862,7 @@ export class GlueCatalogTableOpenTableFormatInputIcebergInputIcebergTableInputSc
   }
 
   // schema_id - computed: false, optional: true, required: false
-  private _schemaId?: number;
+  private _schemaId?: number; 
   public get schemaId() {
     return this.getNumberAttribute('schema_id');
   }
@@ -878,7 +878,7 @@ export class GlueCatalogTableOpenTableFormatInputIcebergInputIcebergTableInputSc
   }
 
   // type - computed: false, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -1038,7 +1038,7 @@ export class GlueCatalogTableOpenTableFormatInputIcebergInputIcebergTableInputSo
   }
 
   // direction - computed: false, optional: false, required: true
-  private _direction?: string;
+  private _direction?: string; 
   public get direction() {
     return this.getStringAttribute('direction');
   }
@@ -1051,7 +1051,7 @@ export class GlueCatalogTableOpenTableFormatInputIcebergInputIcebergTableInputSo
   }
 
   // null_order - computed: false, optional: false, required: true
-  private _nullOrder?: string;
+  private _nullOrder?: string; 
   public get nullOrder() {
     return this.getStringAttribute('null_order');
   }
@@ -1064,7 +1064,7 @@ export class GlueCatalogTableOpenTableFormatInputIcebergInputIcebergTableInputSo
   }
 
   // source_id - computed: false, optional: false, required: true
-  private _sourceId?: number;
+  private _sourceId?: number; 
   public get sourceId() {
     return this.getNumberAttribute('source_id');
   }
@@ -1077,7 +1077,7 @@ export class GlueCatalogTableOpenTableFormatInputIcebergInputIcebergTableInputSo
   }
 
   // transform - computed: false, optional: false, required: true
-  private _transform?: string;
+  private _transform?: string; 
   public get transform() {
     return this.getStringAttribute('transform');
   }
@@ -1197,7 +1197,7 @@ export class GlueCatalogTableOpenTableFormatInputIcebergInputIcebergTableInputSo
   }
 
   // order_id - computed: false, optional: false, required: true
-  private _orderId?: number;
+  private _orderId?: number; 
   public get orderId() {
     return this.getNumberAttribute('order_id');
   }
@@ -1365,7 +1365,7 @@ export class GlueCatalogTableOpenTableFormatInputIcebergInputIcebergTableInputOu
   }
 
   // location - computed: false, optional: false, required: true
-  private _location?: string;
+  private _location?: string; 
   public get location() {
     return this.getStringAttribute('location');
   }
@@ -1378,7 +1378,7 @@ export class GlueCatalogTableOpenTableFormatInputIcebergInputIcebergTableInputOu
   }
 
   // properties - computed: false, optional: true, required: false
-  private _properties?: { [key: string]: string };
+  private _properties?: { [key: string]: string }; 
   public get properties() {
     return this.getStringMapAttribute('properties');
   }
@@ -1543,7 +1543,7 @@ export class GlueCatalogTableOpenTableFormatInputIcebergInputOutputReference ext
   }
 
   // metadata_operation - computed: false, optional: false, required: true
-  private _metadataOperation?: string;
+  private _metadataOperation?: string; 
   public get metadataOperation() {
     return this.getStringAttribute('metadata_operation');
   }
@@ -1556,7 +1556,7 @@ export class GlueCatalogTableOpenTableFormatInputIcebergInputOutputReference ext
   }
 
   // version - computed: false, optional: true, required: false
-  private _version?: string;
+  private _version?: string; 
   public get version() {
     return this.getStringAttribute('version');
   }
@@ -1768,7 +1768,7 @@ export class GlueCatalogTablePartitionIndexOutputReference extends cdktn.Complex
   }
 
   // index_name - computed: false, optional: false, required: true
-  private _indexName?: string;
+  private _indexName?: string; 
   public get indexName() {
     return this.getStringAttribute('index_name');
   }
@@ -1786,7 +1786,7 @@ export class GlueCatalogTablePartitionIndexOutputReference extends cdktn.Complex
   }
 
   // keys - computed: false, optional: false, required: true
-  private _keys?: string[];
+  private _keys?: string[]; 
   public get keys() {
     return this.getListAttribute('keys');
   }
@@ -1950,7 +1950,7 @@ export class GlueCatalogTablePartitionKeysOutputReference extends cdktn.ComplexO
   }
 
   // comment - computed: false, optional: true, required: false
-  private _comment?: string;
+  private _comment?: string; 
   public get comment() {
     return this.getStringAttribute('comment');
   }
@@ -1966,7 +1966,7 @@ export class GlueCatalogTablePartitionKeysOutputReference extends cdktn.ComplexO
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1979,7 +1979,7 @@ export class GlueCatalogTablePartitionKeysOutputReference extends cdktn.ComplexO
   }
 
   // parameters - computed: false, optional: true, required: false
-  private _parameters?: { [key: string]: string };
+  private _parameters?: { [key: string]: string }; 
   public get parameters() {
     return this.getStringMapAttribute('parameters');
   }
@@ -1995,7 +1995,7 @@ export class GlueCatalogTablePartitionKeysOutputReference extends cdktn.ComplexO
   }
 
   // type - computed: false, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -2162,7 +2162,7 @@ export class GlueCatalogTableStorageDescriptorColumnsOutputReference extends cdk
   }
 
   // comment - computed: false, optional: true, required: false
-  private _comment?: string;
+  private _comment?: string; 
   public get comment() {
     return this.getStringAttribute('comment');
   }
@@ -2178,7 +2178,7 @@ export class GlueCatalogTableStorageDescriptorColumnsOutputReference extends cdk
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2191,7 +2191,7 @@ export class GlueCatalogTableStorageDescriptorColumnsOutputReference extends cdk
   }
 
   // parameters - computed: false, optional: true, required: false
-  private _parameters?: { [key: string]: string };
+  private _parameters?: { [key: string]: string }; 
   public get parameters() {
     return this.getStringMapAttribute('parameters');
   }
@@ -2207,7 +2207,7 @@ export class GlueCatalogTableStorageDescriptorColumnsOutputReference extends cdk
   }
 
   // type - computed: false, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -2345,7 +2345,7 @@ export class GlueCatalogTableStorageDescriptorSchemaReferenceSchemaIdOutputRefer
   }
 
   // registry_name - computed: false, optional: true, required: false
-  private _registryName?: string;
+  private _registryName?: string; 
   public get registryName() {
     return this.getStringAttribute('registry_name');
   }
@@ -2361,7 +2361,7 @@ export class GlueCatalogTableStorageDescriptorSchemaReferenceSchemaIdOutputRefer
   }
 
   // schema_arn - computed: false, optional: true, required: false
-  private _schemaArn?: string;
+  private _schemaArn?: string; 
   public get schemaArn() {
     return this.getStringAttribute('schema_arn');
   }
@@ -2377,7 +2377,7 @@ export class GlueCatalogTableStorageDescriptorSchemaReferenceSchemaIdOutputRefer
   }
 
   // schema_name - computed: false, optional: true, required: false
-  private _schemaName?: string;
+  private _schemaName?: string; 
   public get schemaName() {
     return this.getStringAttribute('schema_name');
   }
@@ -2497,7 +2497,7 @@ export class GlueCatalogTableStorageDescriptorSchemaReferenceOutputReference ext
   }
 
   // schema_version_id - computed: false, optional: true, required: false
-  private _schemaVersionId?: string;
+  private _schemaVersionId?: string; 
   public get schemaVersionId() {
     return this.getStringAttribute('schema_version_id');
   }
@@ -2513,7 +2513,7 @@ export class GlueCatalogTableStorageDescriptorSchemaReferenceOutputReference ext
   }
 
   // schema_version_number - computed: false, optional: false, required: true
-  private _schemaVersionNumber?: number;
+  private _schemaVersionNumber?: number; 
   public get schemaVersionNumber() {
     return this.getNumberAttribute('schema_version_number');
   }
@@ -2644,7 +2644,7 @@ export class GlueCatalogTableStorageDescriptorSerDeInfoOutputReference extends c
   }
 
   // name - computed: false, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2660,7 +2660,7 @@ export class GlueCatalogTableStorageDescriptorSerDeInfoOutputReference extends c
   }
 
   // parameters - computed: false, optional: true, required: false
-  private _parameters?: { [key: string]: string };
+  private _parameters?: { [key: string]: string }; 
   public get parameters() {
     return this.getStringMapAttribute('parameters');
   }
@@ -2676,7 +2676,7 @@ export class GlueCatalogTableStorageDescriptorSerDeInfoOutputReference extends c
   }
 
   // serialization_library - computed: false, optional: true, required: false
-  private _serializationLibrary?: string;
+  private _serializationLibrary?: string; 
   public get serializationLibrary() {
     return this.getStringAttribute('serialization_library');
   }
@@ -2794,7 +2794,7 @@ export class GlueCatalogTableStorageDescriptorSkewedInfoOutputReference extends 
   }
 
   // skewed_column_names - computed: false, optional: true, required: false
-  private _skewedColumnNames?: string[];
+  private _skewedColumnNames?: string[]; 
   public get skewedColumnNames() {
     return this.getListAttribute('skewed_column_names');
   }
@@ -2810,7 +2810,7 @@ export class GlueCatalogTableStorageDescriptorSkewedInfoOutputReference extends 
   }
 
   // skewed_column_value_location_maps - computed: false, optional: true, required: false
-  private _skewedColumnValueLocationMaps?: { [key: string]: string };
+  private _skewedColumnValueLocationMaps?: { [key: string]: string }; 
   public get skewedColumnValueLocationMaps() {
     return this.getStringMapAttribute('skewed_column_value_location_maps');
   }
@@ -2826,7 +2826,7 @@ export class GlueCatalogTableStorageDescriptorSkewedInfoOutputReference extends 
   }
 
   // skewed_column_values - computed: false, optional: true, required: false
-  private _skewedColumnValues?: string[];
+  private _skewedColumnValues?: string[]; 
   public get skewedColumnValues() {
     return this.getListAttribute('skewed_column_values');
   }
@@ -2939,7 +2939,7 @@ export class GlueCatalogTableStorageDescriptorSortColumnsOutputReference extends
   }
 
   // column - computed: false, optional: false, required: true
-  private _column?: string;
+  private _column?: string; 
   public get column() {
     return this.getStringAttribute('column');
   }
@@ -2952,7 +2952,7 @@ export class GlueCatalogTableStorageDescriptorSortColumnsOutputReference extends
   }
 
   // sort_order - computed: false, optional: false, required: true
-  private _sortOrder?: number;
+  private _sortOrder?: number; 
   public get sortOrder() {
     return this.getNumberAttribute('sort_order');
   }
@@ -3284,7 +3284,7 @@ export class GlueCatalogTableStorageDescriptorOutputReference extends cdktn.Comp
   }
 
   // additional_locations - computed: false, optional: true, required: false
-  private _additionalLocations?: string[];
+  private _additionalLocations?: string[]; 
   public get additionalLocations() {
     return this.getListAttribute('additional_locations');
   }
@@ -3300,7 +3300,7 @@ export class GlueCatalogTableStorageDescriptorOutputReference extends cdktn.Comp
   }
 
   // bucket_columns - computed: false, optional: true, required: false
-  private _bucketColumns?: string[];
+  private _bucketColumns?: string[]; 
   public get bucketColumns() {
     return this.getListAttribute('bucket_columns');
   }
@@ -3316,7 +3316,7 @@ export class GlueCatalogTableStorageDescriptorOutputReference extends cdktn.Comp
   }
 
   // compressed - computed: false, optional: true, required: false
-  private _compressed?: boolean | cdktn.IResolvable;
+  private _compressed?: boolean | cdktn.IResolvable; 
   public get compressed() {
     return this.getBooleanAttribute('compressed');
   }
@@ -3332,7 +3332,7 @@ export class GlueCatalogTableStorageDescriptorOutputReference extends cdktn.Comp
   }
 
   // input_format - computed: false, optional: true, required: false
-  private _inputFormat?: string;
+  private _inputFormat?: string; 
   public get inputFormat() {
     return this.getStringAttribute('input_format');
   }
@@ -3348,7 +3348,7 @@ export class GlueCatalogTableStorageDescriptorOutputReference extends cdktn.Comp
   }
 
   // location - computed: false, optional: true, required: false
-  private _location?: string;
+  private _location?: string; 
   public get location() {
     return this.getStringAttribute('location');
   }
@@ -3364,7 +3364,7 @@ export class GlueCatalogTableStorageDescriptorOutputReference extends cdktn.Comp
   }
 
   // number_of_buckets - computed: false, optional: true, required: false
-  private _numberOfBuckets?: number;
+  private _numberOfBuckets?: number; 
   public get numberOfBuckets() {
     return this.getNumberAttribute('number_of_buckets');
   }
@@ -3380,7 +3380,7 @@ export class GlueCatalogTableStorageDescriptorOutputReference extends cdktn.Comp
   }
 
   // output_format - computed: false, optional: true, required: false
-  private _outputFormat?: string;
+  private _outputFormat?: string; 
   public get outputFormat() {
     return this.getStringAttribute('output_format');
   }
@@ -3396,7 +3396,7 @@ export class GlueCatalogTableStorageDescriptorOutputReference extends cdktn.Comp
   }
 
   // parameters - computed: false, optional: true, required: false
-  private _parameters?: { [key: string]: string };
+  private _parameters?: { [key: string]: string }; 
   public get parameters() {
     return this.getStringMapAttribute('parameters');
   }
@@ -3412,7 +3412,7 @@ export class GlueCatalogTableStorageDescriptorOutputReference extends cdktn.Comp
   }
 
   // stored_as_sub_directories - computed: false, optional: true, required: false
-  private _storedAsSubDirectories?: boolean | cdktn.IResolvable;
+  private _storedAsSubDirectories?: boolean | cdktn.IResolvable; 
   public get storedAsSubDirectories() {
     return this.getBooleanAttribute('stored_as_sub_directories');
   }
@@ -3627,7 +3627,7 @@ export class GlueCatalogTableTargetTableOutputReference extends cdktn.ComplexObj
   }
 
   // catalog_id - computed: false, optional: false, required: true
-  private _catalogId?: string;
+  private _catalogId?: string; 
   public get catalogId() {
     return this.getStringAttribute('catalog_id');
   }
@@ -3640,7 +3640,7 @@ export class GlueCatalogTableTargetTableOutputReference extends cdktn.ComplexObj
   }
 
   // database_name - computed: false, optional: false, required: true
-  private _databaseName?: string;
+  private _databaseName?: string; 
   public get databaseName() {
     return this.getStringAttribute('database_name');
   }
@@ -3653,7 +3653,7 @@ export class GlueCatalogTableTargetTableOutputReference extends cdktn.ComplexObj
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -3666,7 +3666,7 @@ export class GlueCatalogTableTargetTableOutputReference extends cdktn.ComplexObj
   }
 
   // region - computed: false, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -3830,7 +3830,7 @@ export class GlueCatalogTableViewDefinitionRepresentationsOutputReference extend
   }
 
   // dialect - computed: false, optional: true, required: false
-  private _dialect?: string;
+  private _dialect?: string; 
   public get dialect() {
     return this.getStringAttribute('dialect');
   }
@@ -3846,7 +3846,7 @@ export class GlueCatalogTableViewDefinitionRepresentationsOutputReference extend
   }
 
   // dialect_version - computed: false, optional: true, required: false
-  private _dialectVersion?: string;
+  private _dialectVersion?: string; 
   public get dialectVersion() {
     return this.getStringAttribute('dialect_version');
   }
@@ -3862,7 +3862,7 @@ export class GlueCatalogTableViewDefinitionRepresentationsOutputReference extend
   }
 
   // validation_connection - computed: false, optional: true, required: false
-  private _validationConnection?: string;
+  private _validationConnection?: string; 
   public get validationConnection() {
     return this.getStringAttribute('validation_connection');
   }
@@ -3878,7 +3878,7 @@ export class GlueCatalogTableViewDefinitionRepresentationsOutputReference extend
   }
 
   // view_expanded_text - computed: false, optional: true, required: false
-  private _viewExpandedText?: string;
+  private _viewExpandedText?: string; 
   public get viewExpandedText() {
     return this.getStringAttribute('view_expanded_text');
   }
@@ -3894,7 +3894,7 @@ export class GlueCatalogTableViewDefinitionRepresentationsOutputReference extend
   }
 
   // view_original_text - computed: false, optional: true, required: false
-  private _viewOriginalText?: string;
+  private _viewOriginalText?: string; 
   public get viewOriginalText() {
     return this.getStringAttribute('view_original_text');
   }
@@ -4136,7 +4136,7 @@ export class GlueCatalogTableViewDefinitionOutputReference extends cdktn.Complex
   }
 
   // definer - computed: true, optional: true, required: false
-  private _definer?: string;
+  private _definer?: string; 
   public get definer() {
     return this.getStringAttribute('definer');
   }
@@ -4152,7 +4152,7 @@ export class GlueCatalogTableViewDefinitionOutputReference extends cdktn.Complex
   }
 
   // is_protected - computed: true, optional: true, required: false
-  private _isProtected?: boolean | cdktn.IResolvable;
+  private _isProtected?: boolean | cdktn.IResolvable; 
   public get isProtected() {
     return this.getBooleanAttribute('is_protected');
   }
@@ -4168,7 +4168,7 @@ export class GlueCatalogTableViewDefinitionOutputReference extends cdktn.Complex
   }
 
   // last_refresh_type - computed: false, optional: true, required: false
-  private _lastRefreshType?: string;
+  private _lastRefreshType?: string; 
   public get lastRefreshType() {
     return this.getStringAttribute('last_refresh_type');
   }
@@ -4184,7 +4184,7 @@ export class GlueCatalogTableViewDefinitionOutputReference extends cdktn.Complex
   }
 
   // refresh_seconds - computed: false, optional: true, required: false
-  private _refreshSeconds?: number;
+  private _refreshSeconds?: number; 
   public get refreshSeconds() {
     return this.getNumberAttribute('refresh_seconds');
   }
@@ -4200,7 +4200,7 @@ export class GlueCatalogTableViewDefinitionOutputReference extends cdktn.Complex
   }
 
   // sub_object_version_ids - computed: false, optional: true, required: false
-  private _subObjectVersionIds?: number[];
+  private _subObjectVersionIds?: number[]; 
   public get subObjectVersionIds() {
     return this.getNumberListAttribute('sub_object_version_ids');
   }
@@ -4216,7 +4216,7 @@ export class GlueCatalogTableViewDefinitionOutputReference extends cdktn.Complex
   }
 
   // sub_objects - computed: false, optional: true, required: false
-  private _subObjects?: string[];
+  private _subObjects?: string[]; 
   public get subObjects() {
     return this.getListAttribute('sub_objects');
   }
@@ -4232,7 +4232,7 @@ export class GlueCatalogTableViewDefinitionOutputReference extends cdktn.Complex
   }
 
   // view_version_id - computed: false, optional: true, required: false
-  private _viewVersionId?: number;
+  private _viewVersionId?: number; 
   public get viewVersionId() {
     return this.getNumberAttribute('view_version_id');
   }
@@ -4248,7 +4248,7 @@ export class GlueCatalogTableViewDefinitionOutputReference extends cdktn.Complex
   }
 
   // view_version_token - computed: false, optional: true, required: false
-  private _viewVersionToken?: string;
+  private _viewVersionToken?: string; 
   public get viewVersionToken() {
     return this.getStringAttribute('view_version_token');
   }
@@ -4360,7 +4360,7 @@ export class GlueCatalogTable extends cdktn.TerraformResource {
   }
 
   // catalog_id - computed: true, optional: true, required: false
-  private _catalogId?: string;
+  private _catalogId?: string; 
   public get catalogId() {
     return this.getStringAttribute('catalog_id');
   }
@@ -4376,7 +4376,7 @@ export class GlueCatalogTable extends cdktn.TerraformResource {
   }
 
   // database_name - computed: false, optional: false, required: true
-  private _databaseName?: string;
+  private _databaseName?: string; 
   public get databaseName() {
     return this.getStringAttribute('database_name');
   }
@@ -4389,7 +4389,7 @@ export class GlueCatalogTable extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -4405,7 +4405,7 @@ export class GlueCatalogTable extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -4421,7 +4421,7 @@ export class GlueCatalogTable extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -4434,7 +4434,7 @@ export class GlueCatalogTable extends cdktn.TerraformResource {
   }
 
   // owner - computed: false, optional: true, required: false
-  private _owner?: string;
+  private _owner?: string; 
   public get owner() {
     return this.getStringAttribute('owner');
   }
@@ -4450,7 +4450,7 @@ export class GlueCatalogTable extends cdktn.TerraformResource {
   }
 
   // parameters - computed: true, optional: true, required: false
-  private _parameters?: { [key: string]: string };
+  private _parameters?: { [key: string]: string }; 
   public get parameters() {
     return this.getStringMapAttribute('parameters');
   }
@@ -4466,7 +4466,7 @@ export class GlueCatalogTable extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -4482,7 +4482,7 @@ export class GlueCatalogTable extends cdktn.TerraformResource {
   }
 
   // retention - computed: false, optional: true, required: false
-  private _retention?: number;
+  private _retention?: number; 
   public get retention() {
     return this.getNumberAttribute('retention');
   }
@@ -4498,7 +4498,7 @@ export class GlueCatalogTable extends cdktn.TerraformResource {
   }
 
   // table_type - computed: true, optional: true, required: false
-  private _tableType?: string;
+  private _tableType?: string; 
   public get tableType() {
     return this.getStringAttribute('table_type');
   }
@@ -4514,7 +4514,7 @@ export class GlueCatalogTable extends cdktn.TerraformResource {
   }
 
   // view_expanded_text - computed: false, optional: true, required: false
-  private _viewExpandedText?: string;
+  private _viewExpandedText?: string; 
   public get viewExpandedText() {
     return this.getStringAttribute('view_expanded_text');
   }
@@ -4530,7 +4530,7 @@ export class GlueCatalogTable extends cdktn.TerraformResource {
   }
 
   // view_original_text - computed: false, optional: true, required: false
-  private _viewOriginalText?: string;
+  private _viewOriginalText?: string; 
   public get viewOriginalText() {
     return this.getStringAttribute('view_original_text');
   }

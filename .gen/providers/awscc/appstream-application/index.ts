@@ -152,7 +152,7 @@ export class AppstreamApplicationIconS3LocationOutputReference extends cdktn.Com
   }
 
   // s3_bucket - computed: false, optional: false, required: true
-  private _s3Bucket?: string;
+  private _s3Bucket?: string; 
   public get s3Bucket() {
     return this.getStringAttribute('s3_bucket');
   }
@@ -165,7 +165,7 @@ export class AppstreamApplicationIconS3LocationOutputReference extends cdktn.Com
   }
 
   // s3_key - computed: false, optional: false, required: true
-  private _s3Key?: string;
+  private _s3Key?: string; 
   public get s3Key() {
     return this.getStringAttribute('s3_key');
   }
@@ -309,7 +309,7 @@ export class AppstreamApplicationTagsOutputReference extends cdktn.ComplexObject
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -325,7 +325,7 @@ export class AppstreamApplicationTagsOutputReference extends cdktn.ComplexObject
   }
 
   // tag_key - computed: true, optional: true, required: false
-  private _tagKey?: string;
+  private _tagKey?: string; 
   public get tagKey() {
     return this.getStringAttribute('tag_key');
   }
@@ -341,7 +341,7 @@ export class AppstreamApplicationTagsOutputReference extends cdktn.ComplexObject
   }
 
   // tag_value - computed: true, optional: true, required: false
-  private _tagValue?: string;
+  private _tagValue?: string; 
   public get tagValue() {
     return this.getStringAttribute('tag_value');
   }
@@ -357,7 +357,7 @@ export class AppstreamApplicationTagsOutputReference extends cdktn.ComplexObject
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -462,7 +462,7 @@ export class AppstreamApplication extends cdktn.TerraformResource {
   // ==========
 
   // app_block_arn - computed: false, optional: false, required: true
-  private _appBlockArn?: string;
+  private _appBlockArn?: string; 
   public get appBlockArn() {
     return this.getStringAttribute('app_block_arn');
   }
@@ -480,7 +480,7 @@ export class AppstreamApplication extends cdktn.TerraformResource {
   }
 
   // attributes_to_delete - computed: true, optional: true, required: false
-  private _attributesToDelete?: string[];
+  private _attributesToDelete?: string[]; 
   public get attributesToDelete() {
     return cdktn.Fn.tolist(this.getListAttribute('attributes_to_delete'));
   }
@@ -501,7 +501,7 @@ export class AppstreamApplication extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -517,7 +517,7 @@ export class AppstreamApplication extends cdktn.TerraformResource {
   }
 
   // display_name - computed: true, optional: true, required: false
-  private _displayName?: string;
+  private _displayName?: string; 
   public get displayName() {
     return this.getStringAttribute('display_name');
   }
@@ -551,7 +551,7 @@ export class AppstreamApplication extends cdktn.TerraformResource {
   }
 
   // instance_families - computed: false, optional: false, required: true
-  private _instanceFamilies?: string[];
+  private _instanceFamilies?: string[]; 
   public get instanceFamilies() {
     return cdktn.Fn.tolist(this.getListAttribute('instance_families'));
   }
@@ -564,7 +564,7 @@ export class AppstreamApplication extends cdktn.TerraformResource {
   }
 
   // launch_parameters - computed: true, optional: true, required: false
-  private _launchParameters?: string;
+  private _launchParameters?: string; 
   public get launchParameters() {
     return this.getStringAttribute('launch_parameters');
   }
@@ -580,7 +580,7 @@ export class AppstreamApplication extends cdktn.TerraformResource {
   }
 
   // launch_path - computed: false, optional: false, required: true
-  private _launchPath?: string;
+  private _launchPath?: string; 
   public get launchPath() {
     return this.getStringAttribute('launch_path');
   }
@@ -593,7 +593,7 @@ export class AppstreamApplication extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -606,7 +606,7 @@ export class AppstreamApplication extends cdktn.TerraformResource {
   }
 
   // platforms - computed: false, optional: false, required: true
-  private _platforms?: string[];
+  private _platforms?: string[]; 
   public get platforms() {
     return cdktn.Fn.tolist(this.getListAttribute('platforms'));
   }
@@ -635,7 +635,7 @@ export class AppstreamApplication extends cdktn.TerraformResource {
   }
 
   // working_directory - computed: true, optional: true, required: false
-  private _workingDirectory?: string;
+  private _workingDirectory?: string; 
   public get workingDirectory() {
     return this.getStringAttribute('working_directory');
   }

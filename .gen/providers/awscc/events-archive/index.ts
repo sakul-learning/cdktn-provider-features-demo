@@ -96,7 +96,7 @@ export class EventsArchive extends cdktn.TerraformResource {
   // ==========
 
   // archive_name - computed: true, optional: true, required: false
-  private _archiveName?: string;
+  private _archiveName?: string; 
   public get archiveName() {
     return this.getStringAttribute('archive_name');
   }
@@ -117,7 +117,7 @@ export class EventsArchive extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -133,7 +133,7 @@ export class EventsArchive extends cdktn.TerraformResource {
   }
 
   // event_pattern - computed: true, optional: true, required: false
-  private _eventPattern?: string;
+  private _eventPattern?: string; 
   public get eventPattern() {
     return this.getStringAttribute('event_pattern');
   }
@@ -154,7 +154,7 @@ export class EventsArchive extends cdktn.TerraformResource {
   }
 
   // kms_key_identifier - computed: true, optional: true, required: false
-  private _kmsKeyIdentifier?: string;
+  private _kmsKeyIdentifier?: string; 
   public get kmsKeyIdentifier() {
     return this.getStringAttribute('kms_key_identifier');
   }
@@ -170,7 +170,7 @@ export class EventsArchive extends cdktn.TerraformResource {
   }
 
   // retention_days - computed: true, optional: true, required: false
-  private _retentionDays?: number;
+  private _retentionDays?: number; 
   public get retentionDays() {
     return this.getNumberAttribute('retention_days');
   }
@@ -186,7 +186,7 @@ export class EventsArchive extends cdktn.TerraformResource {
   }
 
   // source_arn - computed: false, optional: false, required: true
-  private _sourceArn?: string;
+  private _sourceArn?: string; 
   public get sourceArn() {
     return this.getStringAttribute('source_arn');
   }

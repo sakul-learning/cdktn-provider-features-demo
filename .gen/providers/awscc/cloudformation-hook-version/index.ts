@@ -21,7 +21,7 @@ export interface CloudformationHookVersionConfig extends cdktn.TerraformMetaArgu
   readonly loggingConfig?: CloudformationHookVersionLoggingConfig;
   /**
   * A url to the S3 bucket containing the schema handler package that contains the schema, event handlers, and associated files for the type you want to register.
-  *
+  * 
   * For information on generating a schema handler package for the type you want to register, see submit in the CloudFormation CLI User Guide.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_hook_version#schema_handler_package CloudformationHookVersion#schema_handler_package}
@@ -29,7 +29,7 @@ export interface CloudformationHookVersionConfig extends cdktn.TerraformMetaArgu
   readonly schemaHandlerPackage: string;
   /**
   * The name of the type being registered.
-  *
+  * 
   * We recommend that type names adhere to the following pattern: company_or_organization::service::type.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_hook_version#type_name CloudformationHookVersion#type_name}
@@ -136,7 +136,7 @@ export class CloudformationHookVersionLoggingConfigOutputReference extends cdktn
   }
 
   // log_group_name - computed: true, optional: true, required: false
-  private _logGroupName?: string;
+  private _logGroupName?: string; 
   public get logGroupName() {
     return this.getStringAttribute('log_group_name');
   }
@@ -152,7 +152,7 @@ export class CloudformationHookVersionLoggingConfigOutputReference extends cdktn
   }
 
   // log_role_arn - computed: true, optional: true, required: false
-  private _logRoleArn?: string;
+  private _logRoleArn?: string; 
   public get logRoleArn() {
     return this.getStringAttribute('log_role_arn');
   }
@@ -234,7 +234,7 @@ export class CloudformationHookVersion extends cdktn.TerraformResource {
   }
 
   // execution_role_arn - computed: true, optional: true, required: false
-  private _executionRoleArn?: string;
+  private _executionRoleArn?: string; 
   public get executionRoleArn() {
     return this.getStringAttribute('execution_role_arn');
   }
@@ -276,7 +276,7 @@ export class CloudformationHookVersion extends cdktn.TerraformResource {
   }
 
   // schema_handler_package - computed: false, optional: false, required: true
-  private _schemaHandlerPackage?: string;
+  private _schemaHandlerPackage?: string; 
   public get schemaHandlerPackage() {
     return this.getStringAttribute('schema_handler_package');
   }
@@ -294,7 +294,7 @@ export class CloudformationHookVersion extends cdktn.TerraformResource {
   }
 
   // type_name - computed: false, optional: false, required: true
-  private _typeName?: string;
+  private _typeName?: string; 
   public get typeName() {
     return this.getStringAttribute('type_name');
   }

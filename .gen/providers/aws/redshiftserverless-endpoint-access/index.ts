@@ -292,7 +292,7 @@ export class RedshiftserverlessEndpointAccess extends cdktn.TerraformResource {
   }
 
   // endpoint_name - computed: false, optional: false, required: true
-  private _endpointName?: string;
+  private _endpointName?: string; 
   public get endpointName() {
     return this.getStringAttribute('endpoint_name');
   }
@@ -305,7 +305,7 @@ export class RedshiftserverlessEndpointAccess extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -321,7 +321,7 @@ export class RedshiftserverlessEndpointAccess extends cdktn.TerraformResource {
   }
 
   // owner_account - computed: false, optional: true, required: false
-  private _ownerAccount?: string;
+  private _ownerAccount?: string; 
   public get ownerAccount() {
     return this.getStringAttribute('owner_account');
   }
@@ -342,7 +342,7 @@ export class RedshiftserverlessEndpointAccess extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -358,7 +358,7 @@ export class RedshiftserverlessEndpointAccess extends cdktn.TerraformResource {
   }
 
   // subnet_ids - computed: false, optional: false, required: true
-  private _subnetIds?: string[];
+  private _subnetIds?: string[]; 
   public get subnetIds() {
     return cdktn.Fn.tolist(this.getListAttribute('subnet_ids'));
   }
@@ -377,7 +377,7 @@ export class RedshiftserverlessEndpointAccess extends cdktn.TerraformResource {
   }
 
   // vpc_security_group_ids - computed: true, optional: true, required: false
-  private _vpcSecurityGroupIds?: string[];
+  private _vpcSecurityGroupIds?: string[]; 
   public get vpcSecurityGroupIds() {
     return cdktn.Fn.tolist(this.getListAttribute('vpc_security_group_ids'));
   }
@@ -393,7 +393,7 @@ export class RedshiftserverlessEndpointAccess extends cdktn.TerraformResource {
   }
 
   // workgroup_name - computed: false, optional: false, required: true
-  private _workgroupName?: string;
+  private _workgroupName?: string; 
   public get workgroupName() {
     return this.getStringAttribute('workgroup_name');
   }

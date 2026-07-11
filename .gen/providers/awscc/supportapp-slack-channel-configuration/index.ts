@@ -122,7 +122,7 @@ export class SupportappSlackChannelConfiguration extends cdktn.TerraformResource
   // ==========
 
   // channel_id - computed: false, optional: false, required: true
-  private _channelId?: string;
+  private _channelId?: string; 
   public get channelId() {
     return this.getStringAttribute('channel_id');
   }
@@ -135,7 +135,7 @@ export class SupportappSlackChannelConfiguration extends cdktn.TerraformResource
   }
 
   // channel_name - computed: true, optional: true, required: false
-  private _channelName?: string;
+  private _channelName?: string; 
   public get channelName() {
     return this.getStringAttribute('channel_name');
   }
@@ -151,7 +151,7 @@ export class SupportappSlackChannelConfiguration extends cdktn.TerraformResource
   }
 
   // channel_role_arn - computed: false, optional: false, required: true
-  private _channelRoleArn?: string;
+  private _channelRoleArn?: string; 
   public get channelRoleArn() {
     return this.getStringAttribute('channel_role_arn');
   }
@@ -169,7 +169,7 @@ export class SupportappSlackChannelConfiguration extends cdktn.TerraformResource
   }
 
   // notify_on_add_correspondence_to_case - computed: true, optional: true, required: false
-  private _notifyOnAddCorrespondenceToCase?: boolean | cdktn.IResolvable;
+  private _notifyOnAddCorrespondenceToCase?: boolean | cdktn.IResolvable; 
   public get notifyOnAddCorrespondenceToCase() {
     return this.getBooleanAttribute('notify_on_add_correspondence_to_case');
   }
@@ -185,7 +185,7 @@ export class SupportappSlackChannelConfiguration extends cdktn.TerraformResource
   }
 
   // notify_on_case_severity - computed: false, optional: false, required: true
-  private _notifyOnCaseSeverity?: string;
+  private _notifyOnCaseSeverity?: string; 
   public get notifyOnCaseSeverity() {
     return this.getStringAttribute('notify_on_case_severity');
   }
@@ -198,7 +198,7 @@ export class SupportappSlackChannelConfiguration extends cdktn.TerraformResource
   }
 
   // notify_on_create_or_reopen_case - computed: true, optional: true, required: false
-  private _notifyOnCreateOrReopenCase?: boolean | cdktn.IResolvable;
+  private _notifyOnCreateOrReopenCase?: boolean | cdktn.IResolvable; 
   public get notifyOnCreateOrReopenCase() {
     return this.getBooleanAttribute('notify_on_create_or_reopen_case');
   }
@@ -214,7 +214,7 @@ export class SupportappSlackChannelConfiguration extends cdktn.TerraformResource
   }
 
   // notify_on_resolve_case - computed: true, optional: true, required: false
-  private _notifyOnResolveCase?: boolean | cdktn.IResolvable;
+  private _notifyOnResolveCase?: boolean | cdktn.IResolvable; 
   public get notifyOnResolveCase() {
     return this.getBooleanAttribute('notify_on_resolve_case');
   }
@@ -230,7 +230,7 @@ export class SupportappSlackChannelConfiguration extends cdktn.TerraformResource
   }
 
   // team_id - computed: false, optional: false, required: true
-  private _teamId?: string;
+  private _teamId?: string; 
   public get teamId() {
     return this.getStringAttribute('team_id');
   }

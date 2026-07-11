@@ -78,7 +78,7 @@ export class DataAwsGuarddutyFindingIds extends cdktn.TerraformDataSource {
   // ==========
 
   // detector_id - computed: false, optional: false, required: true
-  private _detectorId?: string;
+  private _detectorId?: string; 
   public get detectorId() {
     return this.getStringAttribute('detector_id');
   }
@@ -106,7 +106,7 @@ export class DataAwsGuarddutyFindingIds extends cdktn.TerraformDataSource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

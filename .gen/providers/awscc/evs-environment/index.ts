@@ -238,7 +238,7 @@ export class EvsEnvironmentConnectivityInfoOutputReference extends cdktn.Complex
   }
 
   // private_route_server_peerings - computed: true, optional: true, required: false
-  private _privateRouteServerPeerings?: string[];
+  private _privateRouteServerPeerings?: string[]; 
   public get privateRouteServerPeerings() {
     return this.getListAttribute('private_route_server_peerings');
   }
@@ -477,7 +477,7 @@ export class EvsEnvironmentHostsOutputReference extends cdktn.ComplexObject {
   }
 
   // dedicated_host_id - computed: true, optional: true, required: false
-  private _dedicatedHostId?: string;
+  private _dedicatedHostId?: string; 
   public get dedicatedHostId() {
     return this.getStringAttribute('dedicated_host_id');
   }
@@ -493,7 +493,7 @@ export class EvsEnvironmentHostsOutputReference extends cdktn.ComplexObject {
   }
 
   // host_name - computed: true, optional: true, required: false
-  private _hostName?: string;
+  private _hostName?: string; 
   public get hostName() {
     return this.getStringAttribute('host_name');
   }
@@ -509,7 +509,7 @@ export class EvsEnvironmentHostsOutputReference extends cdktn.ComplexObject {
   }
 
   // instance_type - computed: true, optional: true, required: false
-  private _instanceType?: string;
+  private _instanceType?: string; 
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -525,7 +525,7 @@ export class EvsEnvironmentHostsOutputReference extends cdktn.ComplexObject {
   }
 
   // key_name - computed: true, optional: true, required: false
-  private _keyName?: string;
+  private _keyName?: string; 
   public get keyName() {
     return this.getStringAttribute('key_name');
   }
@@ -541,7 +541,7 @@ export class EvsEnvironmentHostsOutputReference extends cdktn.ComplexObject {
   }
 
   // placement_group_id - computed: true, optional: true, required: false
-  private _placementGroupId?: string;
+  private _placementGroupId?: string; 
   public get placementGroupId() {
     return this.getStringAttribute('placement_group_id');
   }
@@ -655,7 +655,7 @@ export class EvsEnvironmentInitialVlansEdgeVTepOutputReference extends cdktn.Com
   }
 
   // cidr - computed: true, optional: true, required: false
-  private _cidr?: string;
+  private _cidr?: string; 
   public get cidr() {
     return this.getStringAttribute('cidr');
   }
@@ -749,7 +749,7 @@ export class EvsEnvironmentInitialVlansExpansionVlan1OutputReference extends cdk
   }
 
   // cidr - computed: true, optional: true, required: false
-  private _cidr?: string;
+  private _cidr?: string; 
   public get cidr() {
     return this.getStringAttribute('cidr');
   }
@@ -843,7 +843,7 @@ export class EvsEnvironmentInitialVlansExpansionVlan2OutputReference extends cdk
   }
 
   // cidr - computed: true, optional: true, required: false
-  private _cidr?: string;
+  private _cidr?: string; 
   public get cidr() {
     return this.getStringAttribute('cidr');
   }
@@ -937,7 +937,7 @@ export class EvsEnvironmentInitialVlansHcxOutputReference extends cdktn.ComplexO
   }
 
   // cidr - computed: true, optional: true, required: false
-  private _cidr?: string;
+  private _cidr?: string; 
   public get cidr() {
     return this.getStringAttribute('cidr');
   }
@@ -1031,7 +1031,7 @@ export class EvsEnvironmentInitialVlansNsxUpLinkOutputReference extends cdktn.Co
   }
 
   // cidr - computed: true, optional: true, required: false
-  private _cidr?: string;
+  private _cidr?: string; 
   public get cidr() {
     return this.getStringAttribute('cidr');
   }
@@ -1125,7 +1125,7 @@ export class EvsEnvironmentInitialVlansVMotionOutputReference extends cdktn.Comp
   }
 
   // cidr - computed: true, optional: true, required: false
-  private _cidr?: string;
+  private _cidr?: string; 
   public get cidr() {
     return this.getStringAttribute('cidr');
   }
@@ -1219,7 +1219,7 @@ export class EvsEnvironmentInitialVlansVSanOutputReference extends cdktn.Complex
   }
 
   // cidr - computed: true, optional: true, required: false
-  private _cidr?: string;
+  private _cidr?: string; 
   public get cidr() {
     return this.getStringAttribute('cidr');
   }
@@ -1313,7 +1313,7 @@ export class EvsEnvironmentInitialVlansVTepOutputReference extends cdktn.Complex
   }
 
   // cidr - computed: true, optional: true, required: false
-  private _cidr?: string;
+  private _cidr?: string; 
   public get cidr() {
     return this.getStringAttribute('cidr');
   }
@@ -1407,7 +1407,7 @@ export class EvsEnvironmentInitialVlansVmManagementOutputReference extends cdktn
   }
 
   // cidr - computed: true, optional: true, required: false
-  private _cidr?: string;
+  private _cidr?: string; 
   public get cidr() {
     return this.getStringAttribute('cidr');
   }
@@ -1501,7 +1501,7 @@ export class EvsEnvironmentInitialVlansVmkManagementOutputReference extends cdkt
   }
 
   // cidr - computed: true, optional: true, required: false
-  private _cidr?: string;
+  private _cidr?: string; 
   public get cidr() {
     return this.getStringAttribute('cidr');
   }
@@ -1846,7 +1846,7 @@ export class EvsEnvironmentInitialVlansOutputReference extends cdktn.ComplexObje
   }
 
   // hcx_network_acl_id - computed: true, optional: true, required: false
-  private _hcxNetworkAclId?: string;
+  private _hcxNetworkAclId?: string; 
   public get hcxNetworkAclId() {
     return this.getStringAttribute('hcx_network_acl_id');
   }
@@ -1862,7 +1862,7 @@ export class EvsEnvironmentInitialVlansOutputReference extends cdktn.ComplexObje
   }
 
   // is_hcx_public - computed: true, optional: true, required: false
-  private _isHcxPublic?: boolean | cdktn.IResolvable;
+  private _isHcxPublic?: boolean | cdktn.IResolvable; 
   public get isHcxPublic() {
     return this.getBooleanAttribute('is_hcx_public');
   }
@@ -2069,7 +2069,7 @@ export class EvsEnvironmentLicenseInfoOutputReference extends cdktn.ComplexObjec
   }
 
   // solution_key - computed: true, optional: true, required: false
-  private _solutionKey?: string;
+  private _solutionKey?: string; 
   public get solutionKey() {
     return this.getStringAttribute('solution_key');
   }
@@ -2085,7 +2085,7 @@ export class EvsEnvironmentLicenseInfoOutputReference extends cdktn.ComplexObjec
   }
 
   // vsan_key - computed: true, optional: true, required: false
-  private _vsanKey?: string;
+  private _vsanKey?: string; 
   public get vsanKey() {
     return this.getStringAttribute('vsan_key');
   }
@@ -2179,7 +2179,7 @@ export class EvsEnvironmentServiceAccessSecurityGroupsOutputReference extends cd
   }
 
   // security_groups - computed: true, optional: true, required: false
-  private _securityGroups?: string[];
+  private _securityGroups?: string[]; 
   public get securityGroups() {
     return this.getListAttribute('security_groups');
   }
@@ -2296,7 +2296,7 @@ export class EvsEnvironmentTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -2312,7 +2312,7 @@ export class EvsEnvironmentTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2562,7 +2562,7 @@ export class EvsEnvironmentVcfHostnamesOutputReference extends cdktn.ComplexObje
   }
 
   // cloud_builder - computed: true, optional: true, required: false
-  private _cloudBuilder?: string;
+  private _cloudBuilder?: string; 
   public get cloudBuilder() {
     return this.getStringAttribute('cloud_builder');
   }
@@ -2578,7 +2578,7 @@ export class EvsEnvironmentVcfHostnamesOutputReference extends cdktn.ComplexObje
   }
 
   // nsx - computed: true, optional: true, required: false
-  private _nsx?: string;
+  private _nsx?: string; 
   public get nsx() {
     return this.getStringAttribute('nsx');
   }
@@ -2594,7 +2594,7 @@ export class EvsEnvironmentVcfHostnamesOutputReference extends cdktn.ComplexObje
   }
 
   // nsx_edge_1 - computed: true, optional: true, required: false
-  private _nsxEdge1?: string;
+  private _nsxEdge1?: string; 
   public get nsxEdge1() {
     return this.getStringAttribute('nsx_edge_1');
   }
@@ -2610,7 +2610,7 @@ export class EvsEnvironmentVcfHostnamesOutputReference extends cdktn.ComplexObje
   }
 
   // nsx_edge_2 - computed: true, optional: true, required: false
-  private _nsxEdge2?: string;
+  private _nsxEdge2?: string; 
   public get nsxEdge2() {
     return this.getStringAttribute('nsx_edge_2');
   }
@@ -2626,7 +2626,7 @@ export class EvsEnvironmentVcfHostnamesOutputReference extends cdktn.ComplexObje
   }
 
   // nsx_manager_1 - computed: true, optional: true, required: false
-  private _nsxManager1?: string;
+  private _nsxManager1?: string; 
   public get nsxManager1() {
     return this.getStringAttribute('nsx_manager_1');
   }
@@ -2642,7 +2642,7 @@ export class EvsEnvironmentVcfHostnamesOutputReference extends cdktn.ComplexObje
   }
 
   // nsx_manager_2 - computed: true, optional: true, required: false
-  private _nsxManager2?: string;
+  private _nsxManager2?: string; 
   public get nsxManager2() {
     return this.getStringAttribute('nsx_manager_2');
   }
@@ -2658,7 +2658,7 @@ export class EvsEnvironmentVcfHostnamesOutputReference extends cdktn.ComplexObje
   }
 
   // nsx_manager_3 - computed: true, optional: true, required: false
-  private _nsxManager3?: string;
+  private _nsxManager3?: string; 
   public get nsxManager3() {
     return this.getStringAttribute('nsx_manager_3');
   }
@@ -2674,7 +2674,7 @@ export class EvsEnvironmentVcfHostnamesOutputReference extends cdktn.ComplexObje
   }
 
   // sddc_manager - computed: true, optional: true, required: false
-  private _sddcManager?: string;
+  private _sddcManager?: string; 
   public get sddcManager() {
     return this.getStringAttribute('sddc_manager');
   }
@@ -2690,7 +2690,7 @@ export class EvsEnvironmentVcfHostnamesOutputReference extends cdktn.ComplexObje
   }
 
   // v_center - computed: true, optional: true, required: false
-  private _vCenter?: string;
+  private _vCenter?: string; 
   public get vCenter() {
     return this.getStringAttribute('v_center');
   }
@@ -2820,7 +2820,7 @@ export class EvsEnvironment extends cdktn.TerraformResource {
   }
 
   // environment_name - computed: true, optional: true, required: false
-  private _environmentName?: string;
+  private _environmentName?: string; 
   public get environmentName() {
     return this.getStringAttribute('environment_name');
   }
@@ -2878,7 +2878,7 @@ export class EvsEnvironment extends cdktn.TerraformResource {
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -2931,7 +2931,7 @@ export class EvsEnvironment extends cdktn.TerraformResource {
   }
 
   // service_access_subnet_id - computed: false, optional: false, required: true
-  private _serviceAccessSubnetId?: string;
+  private _serviceAccessSubnetId?: string; 
   public get serviceAccessSubnetId() {
     return this.getStringAttribute('service_access_subnet_id');
   }
@@ -2944,7 +2944,7 @@ export class EvsEnvironment extends cdktn.TerraformResource {
   }
 
   // site_id - computed: true, optional: true, required: false
-  private _siteId?: string;
+  private _siteId?: string; 
   public get siteId() {
     return this.getStringAttribute('site_id');
   }
@@ -2981,7 +2981,7 @@ export class EvsEnvironment extends cdktn.TerraformResource {
   }
 
   // terms_accepted - computed: false, optional: false, required: true
-  private _termsAccepted?: boolean | cdktn.IResolvable;
+  private _termsAccepted?: boolean | cdktn.IResolvable; 
   public get termsAccepted() {
     return this.getBooleanAttribute('terms_accepted');
   }
@@ -3010,7 +3010,7 @@ export class EvsEnvironment extends cdktn.TerraformResource {
   }
 
   // vcf_version - computed: false, optional: false, required: true
-  private _vcfVersion?: string;
+  private _vcfVersion?: string; 
   public get vcfVersion() {
     return this.getStringAttribute('vcf_version');
   }
@@ -3023,7 +3023,7 @@ export class EvsEnvironment extends cdktn.TerraformResource {
   }
 
   // vpc_id - computed: false, optional: false, required: true
-  private _vpcId?: string;
+  private _vpcId?: string; 
   public get vpcId() {
     return this.getStringAttribute('vpc_id');
   }

@@ -98,7 +98,7 @@ export class CloudfrontFieldLevelEncryptionProfileEncryptionEntitiesItemsFieldPa
   }
 
   // items - computed: false, optional: true, required: false
-  private _items?: string[];
+  private _items?: string[]; 
   public get items() {
     return cdktn.Fn.tolist(this.getListAttribute('items'));
   }
@@ -230,7 +230,7 @@ export class CloudfrontFieldLevelEncryptionProfileEncryptionEntitiesItemsOutputR
   }
 
   // provider_id - computed: false, optional: false, required: true
-  private _providerId?: string;
+  private _providerId?: string; 
   public get providerId() {
     return this.getStringAttribute('provider_id');
   }
@@ -243,7 +243,7 @@ export class CloudfrontFieldLevelEncryptionProfileEncryptionEntitiesItemsOutputR
   }
 
   // public_key_id - computed: false, optional: false, required: true
-  private _publicKeyId?: string;
+  private _publicKeyId?: string; 
   public get publicKeyId() {
     return this.getStringAttribute('public_key_id');
   }
@@ -446,7 +446,7 @@ export class CloudfrontFieldLevelEncryptionProfile extends cdktn.TerraformResour
   }
 
   // comment - computed: false, optional: true, required: false
-  private _comment?: string;
+  private _comment?: string; 
   public get comment() {
     return this.getStringAttribute('comment');
   }
@@ -467,7 +467,7 @@ export class CloudfrontFieldLevelEncryptionProfile extends cdktn.TerraformResour
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -483,7 +483,7 @@ export class CloudfrontFieldLevelEncryptionProfile extends cdktn.TerraformResour
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }

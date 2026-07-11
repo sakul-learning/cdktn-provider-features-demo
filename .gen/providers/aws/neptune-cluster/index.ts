@@ -239,7 +239,7 @@ export class NeptuneClusterServerlessV2ScalingConfigurationOutputReference exten
   }
 
   // max_capacity - computed: false, optional: true, required: false
-  private _maxCapacity?: number;
+  private _maxCapacity?: number; 
   public get maxCapacity() {
     return this.getNumberAttribute('max_capacity');
   }
@@ -255,7 +255,7 @@ export class NeptuneClusterServerlessV2ScalingConfigurationOutputReference exten
   }
 
   // min_capacity - computed: false, optional: true, required: false
-  private _minCapacity?: number;
+  private _minCapacity?: number; 
   public get minCapacity() {
     return this.getNumberAttribute('min_capacity');
   }
@@ -383,7 +383,7 @@ export class NeptuneClusterTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -399,7 +399,7 @@ export class NeptuneClusterTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -415,7 +415,7 @@ export class NeptuneClusterTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -522,7 +522,7 @@ export class NeptuneCluster extends cdktn.TerraformResource {
   // ==========
 
   // allow_major_version_upgrade - computed: true, optional: true, required: false
-  private _allowMajorVersionUpgrade?: boolean | cdktn.IResolvable;
+  private _allowMajorVersionUpgrade?: boolean | cdktn.IResolvable; 
   public get allowMajorVersionUpgrade() {
     return this.getBooleanAttribute('allow_major_version_upgrade');
   }
@@ -538,7 +538,7 @@ export class NeptuneCluster extends cdktn.TerraformResource {
   }
 
   // apply_immediately - computed: true, optional: true, required: false
-  private _applyImmediately?: boolean | cdktn.IResolvable;
+  private _applyImmediately?: boolean | cdktn.IResolvable; 
   public get applyImmediately() {
     return this.getBooleanAttribute('apply_immediately');
   }
@@ -559,7 +559,7 @@ export class NeptuneCluster extends cdktn.TerraformResource {
   }
 
   // availability_zones - computed: true, optional: true, required: false
-  private _availabilityZones?: string[];
+  private _availabilityZones?: string[]; 
   public get availabilityZones() {
     return cdktn.Fn.tolist(this.getListAttribute('availability_zones'));
   }
@@ -575,7 +575,7 @@ export class NeptuneCluster extends cdktn.TerraformResource {
   }
 
   // backup_retention_period - computed: false, optional: true, required: false
-  private _backupRetentionPeriod?: number;
+  private _backupRetentionPeriod?: number; 
   public get backupRetentionPeriod() {
     return this.getNumberAttribute('backup_retention_period');
   }
@@ -591,7 +591,7 @@ export class NeptuneCluster extends cdktn.TerraformResource {
   }
 
   // cluster_identifier - computed: true, optional: true, required: false
-  private _clusterIdentifier?: string;
+  private _clusterIdentifier?: string; 
   public get clusterIdentifier() {
     return this.getStringAttribute('cluster_identifier');
   }
@@ -607,7 +607,7 @@ export class NeptuneCluster extends cdktn.TerraformResource {
   }
 
   // cluster_identifier_prefix - computed: true, optional: true, required: false
-  private _clusterIdentifierPrefix?: string;
+  private _clusterIdentifierPrefix?: string; 
   public get clusterIdentifierPrefix() {
     return this.getStringAttribute('cluster_identifier_prefix');
   }
@@ -633,7 +633,7 @@ export class NeptuneCluster extends cdktn.TerraformResource {
   }
 
   // copy_tags_to_snapshot - computed: false, optional: true, required: false
-  private _copyTagsToSnapshot?: boolean | cdktn.IResolvable;
+  private _copyTagsToSnapshot?: boolean | cdktn.IResolvable; 
   public get copyTagsToSnapshot() {
     return this.getBooleanAttribute('copy_tags_to_snapshot');
   }
@@ -649,7 +649,7 @@ export class NeptuneCluster extends cdktn.TerraformResource {
   }
 
   // deletion_protection - computed: false, optional: true, required: false
-  private _deletionProtection?: boolean | cdktn.IResolvable;
+  private _deletionProtection?: boolean | cdktn.IResolvable; 
   public get deletionProtection() {
     return this.getBooleanAttribute('deletion_protection');
   }
@@ -665,7 +665,7 @@ export class NeptuneCluster extends cdktn.TerraformResource {
   }
 
   // enable_cloudwatch_logs_exports - computed: false, optional: true, required: false
-  private _enableCloudwatchLogsExports?: string[];
+  private _enableCloudwatchLogsExports?: string[]; 
   public get enableCloudwatchLogsExports() {
     return cdktn.Fn.tolist(this.getListAttribute('enable_cloudwatch_logs_exports'));
   }
@@ -686,7 +686,7 @@ export class NeptuneCluster extends cdktn.TerraformResource {
   }
 
   // engine - computed: false, optional: true, required: false
-  private _engine?: string;
+  private _engine?: string; 
   public get engine() {
     return this.getStringAttribute('engine');
   }
@@ -702,7 +702,7 @@ export class NeptuneCluster extends cdktn.TerraformResource {
   }
 
   // engine_version - computed: true, optional: true, required: false
-  private _engineVersion?: string;
+  private _engineVersion?: string; 
   public get engineVersion() {
     return this.getStringAttribute('engine_version');
   }
@@ -718,7 +718,7 @@ export class NeptuneCluster extends cdktn.TerraformResource {
   }
 
   // final_snapshot_identifier - computed: false, optional: true, required: false
-  private _finalSnapshotIdentifier?: string;
+  private _finalSnapshotIdentifier?: string; 
   public get finalSnapshotIdentifier() {
     return this.getStringAttribute('final_snapshot_identifier');
   }
@@ -734,7 +734,7 @@ export class NeptuneCluster extends cdktn.TerraformResource {
   }
 
   // global_cluster_identifier - computed: false, optional: true, required: false
-  private _globalClusterIdentifier?: string;
+  private _globalClusterIdentifier?: string; 
   public get globalClusterIdentifier() {
     return this.getStringAttribute('global_cluster_identifier');
   }
@@ -755,7 +755,7 @@ export class NeptuneCluster extends cdktn.TerraformResource {
   }
 
   // iam_database_authentication_enabled - computed: false, optional: true, required: false
-  private _iamDatabaseAuthenticationEnabled?: boolean | cdktn.IResolvable;
+  private _iamDatabaseAuthenticationEnabled?: boolean | cdktn.IResolvable; 
   public get iamDatabaseAuthenticationEnabled() {
     return this.getBooleanAttribute('iam_database_authentication_enabled');
   }
@@ -771,7 +771,7 @@ export class NeptuneCluster extends cdktn.TerraformResource {
   }
 
   // iam_roles - computed: false, optional: true, required: false
-  private _iamRoles?: string[];
+  private _iamRoles?: string[]; 
   public get iamRoles() {
     return cdktn.Fn.tolist(this.getListAttribute('iam_roles'));
   }
@@ -787,7 +787,7 @@ export class NeptuneCluster extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -803,7 +803,7 @@ export class NeptuneCluster extends cdktn.TerraformResource {
   }
 
   // kms_key_arn - computed: true, optional: true, required: false
-  private _kmsKeyArn?: string;
+  private _kmsKeyArn?: string; 
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -819,7 +819,7 @@ export class NeptuneCluster extends cdktn.TerraformResource {
   }
 
   // neptune_cluster_parameter_group_name - computed: true, optional: true, required: false
-  private _neptuneClusterParameterGroupName?: string;
+  private _neptuneClusterParameterGroupName?: string; 
   public get neptuneClusterParameterGroupName() {
     return this.getStringAttribute('neptune_cluster_parameter_group_name');
   }
@@ -835,7 +835,7 @@ export class NeptuneCluster extends cdktn.TerraformResource {
   }
 
   // neptune_instance_parameter_group_name - computed: false, optional: true, required: false
-  private _neptuneInstanceParameterGroupName?: string;
+  private _neptuneInstanceParameterGroupName?: string; 
   public get neptuneInstanceParameterGroupName() {
     return this.getStringAttribute('neptune_instance_parameter_group_name');
   }
@@ -851,7 +851,7 @@ export class NeptuneCluster extends cdktn.TerraformResource {
   }
 
   // neptune_subnet_group_name - computed: true, optional: true, required: false
-  private _neptuneSubnetGroupName?: string;
+  private _neptuneSubnetGroupName?: string; 
   public get neptuneSubnetGroupName() {
     return this.getStringAttribute('neptune_subnet_group_name');
   }
@@ -867,7 +867,7 @@ export class NeptuneCluster extends cdktn.TerraformResource {
   }
 
   // port - computed: false, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -883,7 +883,7 @@ export class NeptuneCluster extends cdktn.TerraformResource {
   }
 
   // preferred_backup_window - computed: true, optional: true, required: false
-  private _preferredBackupWindow?: string;
+  private _preferredBackupWindow?: string; 
   public get preferredBackupWindow() {
     return this.getStringAttribute('preferred_backup_window');
   }
@@ -899,7 +899,7 @@ export class NeptuneCluster extends cdktn.TerraformResource {
   }
 
   // preferred_maintenance_window - computed: true, optional: true, required: false
-  private _preferredMaintenanceWindow?: string;
+  private _preferredMaintenanceWindow?: string; 
   public get preferredMaintenanceWindow() {
     return this.getStringAttribute('preferred_maintenance_window');
   }
@@ -920,7 +920,7 @@ export class NeptuneCluster extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -936,7 +936,7 @@ export class NeptuneCluster extends cdktn.TerraformResource {
   }
 
   // replication_source_identifier - computed: false, optional: true, required: false
-  private _replicationSourceIdentifier?: string;
+  private _replicationSourceIdentifier?: string; 
   public get replicationSourceIdentifier() {
     return this.getStringAttribute('replication_source_identifier');
   }
@@ -952,7 +952,7 @@ export class NeptuneCluster extends cdktn.TerraformResource {
   }
 
   // skip_final_snapshot - computed: false, optional: true, required: false
-  private _skipFinalSnapshot?: boolean | cdktn.IResolvable;
+  private _skipFinalSnapshot?: boolean | cdktn.IResolvable; 
   public get skipFinalSnapshot() {
     return this.getBooleanAttribute('skip_final_snapshot');
   }
@@ -968,7 +968,7 @@ export class NeptuneCluster extends cdktn.TerraformResource {
   }
 
   // snapshot_identifier - computed: false, optional: true, required: false
-  private _snapshotIdentifier?: string;
+  private _snapshotIdentifier?: string; 
   public get snapshotIdentifier() {
     return this.getStringAttribute('snapshot_identifier');
   }
@@ -984,7 +984,7 @@ export class NeptuneCluster extends cdktn.TerraformResource {
   }
 
   // storage_encrypted - computed: false, optional: true, required: false
-  private _storageEncrypted?: boolean | cdktn.IResolvable;
+  private _storageEncrypted?: boolean | cdktn.IResolvable; 
   public get storageEncrypted() {
     return this.getBooleanAttribute('storage_encrypted');
   }
@@ -1000,7 +1000,7 @@ export class NeptuneCluster extends cdktn.TerraformResource {
   }
 
   // storage_type - computed: true, optional: true, required: false
-  private _storageType?: string;
+  private _storageType?: string; 
   public get storageType() {
     return this.getStringAttribute('storage_type');
   }
@@ -1016,7 +1016,7 @@ export class NeptuneCluster extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -1032,7 +1032,7 @@ export class NeptuneCluster extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -1048,7 +1048,7 @@ export class NeptuneCluster extends cdktn.TerraformResource {
   }
 
   // vpc_security_group_ids - computed: true, optional: true, required: false
-  private _vpcSecurityGroupIds?: string[];
+  private _vpcSecurityGroupIds?: string[]; 
   public get vpcSecurityGroupIds() {
     return cdktn.Fn.tolist(this.getListAttribute('vpc_security_group_ids'));
   }

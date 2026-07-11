@@ -154,7 +154,7 @@ export class ServicecatalogCloudformationProvisionedProductProvisioningParameter
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -170,7 +170,7 @@ export class ServicecatalogCloudformationProvisionedProductProvisioningParameter
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -386,7 +386,7 @@ export class ServicecatalogCloudformationProvisionedProductProvisioningPreferenc
   }
 
   // stack_set_accounts - computed: true, optional: true, required: false
-  private _stackSetAccounts?: string[];
+  private _stackSetAccounts?: string[]; 
   public get stackSetAccounts() {
     return this.getListAttribute('stack_set_accounts');
   }
@@ -402,7 +402,7 @@ export class ServicecatalogCloudformationProvisionedProductProvisioningPreferenc
   }
 
   // stack_set_failure_tolerance_count - computed: true, optional: true, required: false
-  private _stackSetFailureToleranceCount?: number;
+  private _stackSetFailureToleranceCount?: number; 
   public get stackSetFailureToleranceCount() {
     return this.getNumberAttribute('stack_set_failure_tolerance_count');
   }
@@ -418,7 +418,7 @@ export class ServicecatalogCloudformationProvisionedProductProvisioningPreferenc
   }
 
   // stack_set_failure_tolerance_percentage - computed: true, optional: true, required: false
-  private _stackSetFailureTolerancePercentage?: number;
+  private _stackSetFailureTolerancePercentage?: number; 
   public get stackSetFailureTolerancePercentage() {
     return this.getNumberAttribute('stack_set_failure_tolerance_percentage');
   }
@@ -434,7 +434,7 @@ export class ServicecatalogCloudformationProvisionedProductProvisioningPreferenc
   }
 
   // stack_set_max_concurrency_count - computed: true, optional: true, required: false
-  private _stackSetMaxConcurrencyCount?: number;
+  private _stackSetMaxConcurrencyCount?: number; 
   public get stackSetMaxConcurrencyCount() {
     return this.getNumberAttribute('stack_set_max_concurrency_count');
   }
@@ -450,7 +450,7 @@ export class ServicecatalogCloudformationProvisionedProductProvisioningPreferenc
   }
 
   // stack_set_max_concurrency_percentage - computed: true, optional: true, required: false
-  private _stackSetMaxConcurrencyPercentage?: number;
+  private _stackSetMaxConcurrencyPercentage?: number; 
   public get stackSetMaxConcurrencyPercentage() {
     return this.getNumberAttribute('stack_set_max_concurrency_percentage');
   }
@@ -466,7 +466,7 @@ export class ServicecatalogCloudformationProvisionedProductProvisioningPreferenc
   }
 
   // stack_set_operation_type - computed: true, optional: true, required: false
-  private _stackSetOperationType?: string;
+  private _stackSetOperationType?: string; 
   public get stackSetOperationType() {
     return this.getStringAttribute('stack_set_operation_type');
   }
@@ -482,7 +482,7 @@ export class ServicecatalogCloudformationProvisionedProductProvisioningPreferenc
   }
 
   // stack_set_regions - computed: true, optional: true, required: false
-  private _stackSetRegions?: string[];
+  private _stackSetRegions?: string[]; 
   public get stackSetRegions() {
     return this.getListAttribute('stack_set_regions');
   }
@@ -595,7 +595,7 @@ export class ServicecatalogCloudformationProvisionedProductTagsOutputReference e
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -611,7 +611,7 @@ export class ServicecatalogCloudformationProvisionedProductTagsOutputReference e
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -716,7 +716,7 @@ export class ServicecatalogCloudformationProvisionedProduct extends cdktn.Terraf
   // ==========
 
   // accept_language - computed: true, optional: true, required: false
-  private _acceptLanguage?: string;
+  private _acceptLanguage?: string; 
   public get acceptLanguage() {
     return this.getStringAttribute('accept_language');
   }
@@ -742,7 +742,7 @@ export class ServicecatalogCloudformationProvisionedProduct extends cdktn.Terraf
   }
 
   // notification_arns - computed: true, optional: true, required: false
-  private _notificationArns?: string[];
+  private _notificationArns?: string[]; 
   public get notificationArns() {
     return this.getListAttribute('notification_arns');
   }
@@ -764,7 +764,7 @@ export class ServicecatalogCloudformationProvisionedProduct extends cdktn.Terraf
   }
 
   // path_id - computed: true, optional: true, required: false
-  private _pathId?: string;
+  private _pathId?: string; 
   public get pathId() {
     return this.getStringAttribute('path_id');
   }
@@ -780,7 +780,7 @@ export class ServicecatalogCloudformationProvisionedProduct extends cdktn.Terraf
   }
 
   // path_name - computed: true, optional: true, required: false
-  private _pathName?: string;
+  private _pathName?: string; 
   public get pathName() {
     return this.getStringAttribute('path_name');
   }
@@ -796,7 +796,7 @@ export class ServicecatalogCloudformationProvisionedProduct extends cdktn.Terraf
   }
 
   // product_id - computed: true, optional: true, required: false
-  private _productId?: string;
+  private _productId?: string; 
   public get productId() {
     return this.getStringAttribute('product_id');
   }
@@ -812,7 +812,7 @@ export class ServicecatalogCloudformationProvisionedProduct extends cdktn.Terraf
   }
 
   // product_name - computed: true, optional: true, required: false
-  private _productName?: string;
+  private _productName?: string; 
   public get productName() {
     return this.getStringAttribute('product_name');
   }
@@ -833,7 +833,7 @@ export class ServicecatalogCloudformationProvisionedProduct extends cdktn.Terraf
   }
 
   // provisioned_product_name - computed: true, optional: true, required: false
-  private _provisionedProductName?: string;
+  private _provisionedProductName?: string; 
   public get provisionedProductName() {
     return this.getStringAttribute('provisioned_product_name');
   }
@@ -849,7 +849,7 @@ export class ServicecatalogCloudformationProvisionedProduct extends cdktn.Terraf
   }
 
   // provisioning_artifact_id - computed: true, optional: true, required: false
-  private _provisioningArtifactId?: string;
+  private _provisioningArtifactId?: string; 
   public get provisioningArtifactId() {
     return this.getStringAttribute('provisioning_artifact_id');
   }
@@ -865,7 +865,7 @@ export class ServicecatalogCloudformationProvisionedProduct extends cdktn.Terraf
   }
 
   // provisioning_artifact_name - computed: true, optional: true, required: false
-  private _provisioningArtifactName?: string;
+  private _provisioningArtifactName?: string; 
   public get provisioningArtifactName() {
     return this.getStringAttribute('provisioning_artifact_name');
   }

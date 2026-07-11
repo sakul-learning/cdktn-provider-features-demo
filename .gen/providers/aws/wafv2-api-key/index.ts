@@ -92,7 +92,7 @@ export class Wafv2ApiKey extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -108,7 +108,7 @@ export class Wafv2ApiKey extends cdktn.TerraformResource {
   }
 
   // scope - computed: false, optional: false, required: true
-  private _scope?: string;
+  private _scope?: string; 
   public get scope() {
     return this.getStringAttribute('scope');
   }
@@ -121,7 +121,7 @@ export class Wafv2ApiKey extends cdktn.TerraformResource {
   }
 
   // token_domains - computed: false, optional: false, required: true
-  private _tokenDomains?: string[];
+  private _tokenDomains?: string[]; 
   public get tokenDomains() {
     return cdktn.Fn.tolist(this.getListAttribute('token_domains'));
   }

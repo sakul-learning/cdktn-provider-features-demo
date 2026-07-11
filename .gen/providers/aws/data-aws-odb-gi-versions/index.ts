@@ -161,7 +161,7 @@ export class DataAwsOdbGiVersions extends cdktn.TerraformDataSource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -177,7 +177,7 @@ export class DataAwsOdbGiVersions extends cdktn.TerraformDataSource {
   }
 
   // shape - computed: false, optional: true, required: false
-  private _shape?: string;
+  private _shape?: string; 
   public get shape() {
     return this.getStringAttribute('shape');
   }

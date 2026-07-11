@@ -2960,7 +2960,7 @@ export class DataAwsLbListenerRule extends cdktn.TerraformDataSource {
   // ==========
 
   // arn - computed: true, optional: true, required: false
-  private _arn?: string;
+  private _arn?: string; 
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -2976,7 +2976,7 @@ export class DataAwsLbListenerRule extends cdktn.TerraformDataSource {
   }
 
   // listener_arn - computed: true, optional: true, required: false
-  private _listenerArn?: string;
+  private _listenerArn?: string; 
   public get listenerArn() {
     return this.getStringAttribute('listener_arn');
   }
@@ -2992,7 +2992,7 @@ export class DataAwsLbListenerRule extends cdktn.TerraformDataSource {
   }
 
   // priority - computed: true, optional: true, required: false
-  private _priority?: number;
+  private _priority?: number; 
   public get priority() {
     return this.getNumberAttribute('priority');
   }
@@ -3008,7 +3008,7 @@ export class DataAwsLbListenerRule extends cdktn.TerraformDataSource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

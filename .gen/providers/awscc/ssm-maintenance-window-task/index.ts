@@ -205,7 +205,7 @@ export class SsmMaintenanceWindowTaskLoggingInfoOutputReference extends cdktn.Co
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -221,7 +221,7 @@ export class SsmMaintenanceWindowTaskLoggingInfoOutputReference extends cdktn.Co
   }
 
   // s3_bucket - computed: true, optional: true, required: false
-  private _s3Bucket?: string;
+  private _s3Bucket?: string; 
   public get s3Bucket() {
     return this.getStringAttribute('s3_bucket');
   }
@@ -237,7 +237,7 @@ export class SsmMaintenanceWindowTaskLoggingInfoOutputReference extends cdktn.Co
   }
 
   // s3_prefix - computed: true, optional: true, required: false
-  private _s3Prefix?: string;
+  private _s3Prefix?: string; 
   public get s3Prefix() {
     return this.getStringAttribute('s3_prefix');
   }
@@ -350,7 +350,7 @@ export class SsmMaintenanceWindowTaskTargetsOutputReference extends cdktn.Comple
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -366,7 +366,7 @@ export class SsmMaintenanceWindowTaskTargetsOutputReference extends cdktn.Comple
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -497,7 +497,7 @@ export class SsmMaintenanceWindowTaskTaskInvocationParametersMaintenanceWindowAu
   }
 
   // document_version - computed: true, optional: true, required: false
-  private _documentVersion?: string;
+  private _documentVersion?: string; 
   public get documentVersion() {
     return this.getStringAttribute('document_version');
   }
@@ -513,7 +513,7 @@ export class SsmMaintenanceWindowTaskTaskInvocationParametersMaintenanceWindowAu
   }
 
   // parameters - computed: true, optional: true, required: false
-  private _parameters?: string;
+  private _parameters?: string; 
   public get parameters() {
     return this.getStringAttribute('parameters');
   }
@@ -641,7 +641,7 @@ export class SsmMaintenanceWindowTaskTaskInvocationParametersMaintenanceWindowLa
   }
 
   // client_context - computed: true, optional: true, required: false
-  private _clientContext?: string;
+  private _clientContext?: string; 
   public get clientContext() {
     return this.getStringAttribute('client_context');
   }
@@ -657,7 +657,7 @@ export class SsmMaintenanceWindowTaskTaskInvocationParametersMaintenanceWindowLa
   }
 
   // payload - computed: true, optional: true, required: false
-  private _payload?: string;
+  private _payload?: string; 
   public get payload() {
     return this.getStringAttribute('payload');
   }
@@ -673,7 +673,7 @@ export class SsmMaintenanceWindowTaskTaskInvocationParametersMaintenanceWindowLa
   }
 
   // qualifier - computed: true, optional: true, required: false
-  private _qualifier?: string;
+  private _qualifier?: string; 
   public get qualifier() {
     return this.getStringAttribute('qualifier');
   }
@@ -788,7 +788,7 @@ export class SsmMaintenanceWindowTaskTaskInvocationParametersMaintenanceWindowRu
   }
 
   // cloudwatch_log_group_name - computed: true, optional: true, required: false
-  private _cloudwatchLogGroupName?: string;
+  private _cloudwatchLogGroupName?: string; 
   public get cloudwatchLogGroupName() {
     return this.getStringAttribute('cloudwatch_log_group_name');
   }
@@ -804,7 +804,7 @@ export class SsmMaintenanceWindowTaskTaskInvocationParametersMaintenanceWindowRu
   }
 
   // cloudwatch_output_enabled - computed: true, optional: true, required: false
-  private _cloudwatchOutputEnabled?: boolean | cdktn.IResolvable;
+  private _cloudwatchOutputEnabled?: boolean | cdktn.IResolvable; 
   public get cloudwatchOutputEnabled() {
     return this.getBooleanAttribute('cloudwatch_output_enabled');
   }
@@ -932,7 +932,7 @@ export class SsmMaintenanceWindowTaskTaskInvocationParametersMaintenanceWindowRu
   }
 
   // notification_arn - computed: true, optional: true, required: false
-  private _notificationArn?: string;
+  private _notificationArn?: string; 
   public get notificationArn() {
     return this.getStringAttribute('notification_arn');
   }
@@ -948,7 +948,7 @@ export class SsmMaintenanceWindowTaskTaskInvocationParametersMaintenanceWindowRu
   }
 
   // notification_events - computed: true, optional: true, required: false
-  private _notificationEvents?: string[];
+  private _notificationEvents?: string[]; 
   public get notificationEvents() {
     return this.getListAttribute('notification_events');
   }
@@ -964,7 +964,7 @@ export class SsmMaintenanceWindowTaskTaskInvocationParametersMaintenanceWindowRu
   }
 
   // notification_type - computed: true, optional: true, required: false
-  private _notificationType?: string;
+  private _notificationType?: string; 
   public get notificationType() {
     return this.getStringAttribute('notification_type');
   }
@@ -1244,7 +1244,7 @@ export class SsmMaintenanceWindowTaskTaskInvocationParametersMaintenanceWindowRu
   }
 
   // comment - computed: true, optional: true, required: false
-  private _comment?: string;
+  private _comment?: string; 
   public get comment() {
     return this.getStringAttribute('comment');
   }
@@ -1260,7 +1260,7 @@ export class SsmMaintenanceWindowTaskTaskInvocationParametersMaintenanceWindowRu
   }
 
   // document_hash - computed: true, optional: true, required: false
-  private _documentHash?: string;
+  private _documentHash?: string; 
   public get documentHash() {
     return this.getStringAttribute('document_hash');
   }
@@ -1276,7 +1276,7 @@ export class SsmMaintenanceWindowTaskTaskInvocationParametersMaintenanceWindowRu
   }
 
   // document_hash_type - computed: true, optional: true, required: false
-  private _documentHashType?: string;
+  private _documentHashType?: string; 
   public get documentHashType() {
     return this.getStringAttribute('document_hash_type');
   }
@@ -1292,7 +1292,7 @@ export class SsmMaintenanceWindowTaskTaskInvocationParametersMaintenanceWindowRu
   }
 
   // document_version - computed: true, optional: true, required: false
-  private _documentVersion?: string;
+  private _documentVersion?: string; 
   public get documentVersion() {
     return this.getStringAttribute('document_version');
   }
@@ -1324,7 +1324,7 @@ export class SsmMaintenanceWindowTaskTaskInvocationParametersMaintenanceWindowRu
   }
 
   // output_s3_bucket_name - computed: true, optional: true, required: false
-  private _outputS3BucketName?: string;
+  private _outputS3BucketName?: string; 
   public get outputS3BucketName() {
     return this.getStringAttribute('output_s3_bucket_name');
   }
@@ -1340,7 +1340,7 @@ export class SsmMaintenanceWindowTaskTaskInvocationParametersMaintenanceWindowRu
   }
 
   // output_s3_key_prefix - computed: true, optional: true, required: false
-  private _outputS3KeyPrefix?: string;
+  private _outputS3KeyPrefix?: string; 
   public get outputS3KeyPrefix() {
     return this.getStringAttribute('output_s3_key_prefix');
   }
@@ -1356,7 +1356,7 @@ export class SsmMaintenanceWindowTaskTaskInvocationParametersMaintenanceWindowRu
   }
 
   // parameters - computed: true, optional: true, required: false
-  private _parameters?: string;
+  private _parameters?: string; 
   public get parameters() {
     return this.getStringAttribute('parameters');
   }
@@ -1372,7 +1372,7 @@ export class SsmMaintenanceWindowTaskTaskInvocationParametersMaintenanceWindowRu
   }
 
   // service_role_arn - computed: true, optional: true, required: false
-  private _serviceRoleArn?: string;
+  private _serviceRoleArn?: string; 
   public get serviceRoleArn() {
     return this.getStringAttribute('service_role_arn');
   }
@@ -1388,7 +1388,7 @@ export class SsmMaintenanceWindowTaskTaskInvocationParametersMaintenanceWindowRu
   }
 
   // timeout_seconds - computed: true, optional: true, required: false
-  private _timeoutSeconds?: number;
+  private _timeoutSeconds?: number; 
   public get timeoutSeconds() {
     return this.getNumberAttribute('timeout_seconds');
   }
@@ -1499,7 +1499,7 @@ export class SsmMaintenanceWindowTaskTaskInvocationParametersMaintenanceWindowSt
   }
 
   // input - computed: true, optional: true, required: false
-  private _input?: string;
+  private _input?: string; 
   public get input() {
     return this.getStringAttribute('input');
   }
@@ -1515,7 +1515,7 @@ export class SsmMaintenanceWindowTaskTaskInvocationParametersMaintenanceWindowSt
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1795,7 +1795,7 @@ export class SsmMaintenanceWindowTask extends cdktn.TerraformResource {
   // ==========
 
   // cutoff_behavior - computed: true, optional: true, required: false
-  private _cutoffBehavior?: string;
+  private _cutoffBehavior?: string; 
   public get cutoffBehavior() {
     return this.getStringAttribute('cutoff_behavior');
   }
@@ -1811,7 +1811,7 @@ export class SsmMaintenanceWindowTask extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1848,7 +1848,7 @@ export class SsmMaintenanceWindowTask extends cdktn.TerraformResource {
   }
 
   // max_concurrency - computed: true, optional: true, required: false
-  private _maxConcurrency?: string;
+  private _maxConcurrency?: string; 
   public get maxConcurrency() {
     return this.getStringAttribute('max_concurrency');
   }
@@ -1864,7 +1864,7 @@ export class SsmMaintenanceWindowTask extends cdktn.TerraformResource {
   }
 
   // max_errors - computed: true, optional: true, required: false
-  private _maxErrors?: string;
+  private _maxErrors?: string; 
   public get maxErrors() {
     return this.getStringAttribute('max_errors');
   }
@@ -1880,7 +1880,7 @@ export class SsmMaintenanceWindowTask extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1896,7 +1896,7 @@ export class SsmMaintenanceWindowTask extends cdktn.TerraformResource {
   }
 
   // priority - computed: false, optional: false, required: true
-  private _priority?: number;
+  private _priority?: number; 
   public get priority() {
     return this.getNumberAttribute('priority');
   }
@@ -1909,7 +1909,7 @@ export class SsmMaintenanceWindowTask extends cdktn.TerraformResource {
   }
 
   // service_role_arn - computed: true, optional: true, required: false
-  private _serviceRoleArn?: string;
+  private _serviceRoleArn?: string; 
   public get serviceRoleArn() {
     return this.getStringAttribute('service_role_arn');
   }
@@ -1941,7 +1941,7 @@ export class SsmMaintenanceWindowTask extends cdktn.TerraformResource {
   }
 
   // task_arn - computed: false, optional: false, required: true
-  private _taskArn?: string;
+  private _taskArn?: string; 
   public get taskArn() {
     return this.getStringAttribute('task_arn');
   }
@@ -1970,7 +1970,7 @@ export class SsmMaintenanceWindowTask extends cdktn.TerraformResource {
   }
 
   // task_parameters - computed: true, optional: true, required: false
-  private _taskParameters?: string;
+  private _taskParameters?: string; 
   public get taskParameters() {
     return this.getStringAttribute('task_parameters');
   }
@@ -1986,7 +1986,7 @@ export class SsmMaintenanceWindowTask extends cdktn.TerraformResource {
   }
 
   // task_type - computed: false, optional: false, required: true
-  private _taskType?: string;
+  private _taskType?: string; 
   public get taskType() {
     return this.getStringAttribute('task_type');
   }
@@ -1999,7 +1999,7 @@ export class SsmMaintenanceWindowTask extends cdktn.TerraformResource {
   }
 
   // window_id - computed: false, optional: false, required: true
-  private _windowId?: string;
+  private _windowId?: string; 
   public get windowId() {
     return this.getStringAttribute('window_id');
   }

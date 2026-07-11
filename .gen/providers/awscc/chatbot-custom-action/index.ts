@@ -143,7 +143,7 @@ export class ChatbotCustomActionAttachmentsCriteriaOutputReference extends cdktn
   }
 
   // operator - computed: true, optional: true, required: false
-  private _operator?: string;
+  private _operator?: string; 
   public get operator() {
     return this.getStringAttribute('operator');
   }
@@ -159,7 +159,7 @@ export class ChatbotCustomActionAttachmentsCriteriaOutputReference extends cdktn
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -175,7 +175,7 @@ export class ChatbotCustomActionAttachmentsCriteriaOutputReference extends cdktn
   }
 
   // variable_name - computed: true, optional: true, required: false
-  private _variableName?: string;
+  private _variableName?: string; 
   public get variableName() {
     return this.getStringAttribute('variable_name');
   }
@@ -342,7 +342,7 @@ export class ChatbotCustomActionAttachmentsOutputReference extends cdktn.Complex
   }
 
   // button_text - computed: true, optional: true, required: false
-  private _buttonText?: string;
+  private _buttonText?: string; 
   public get buttonText() {
     return this.getStringAttribute('button_text');
   }
@@ -374,7 +374,7 @@ export class ChatbotCustomActionAttachmentsOutputReference extends cdktn.Complex
   }
 
   // notification_type - computed: true, optional: true, required: false
-  private _notificationType?: string;
+  private _notificationType?: string; 
   public get notificationType() {
     return this.getStringAttribute('notification_type');
   }
@@ -390,7 +390,7 @@ export class ChatbotCustomActionAttachmentsOutputReference extends cdktn.Complex
   }
 
   // variables - computed: true, optional: true, required: false
-  private _variables?: { [key: string]: string };
+  private _variables?: { [key: string]: string }; 
   public get variables() {
     return this.getStringMapAttribute('variables');
   }
@@ -504,7 +504,7 @@ export class ChatbotCustomActionDefinitionOutputReference extends cdktn.ComplexO
   }
 
   // command_text - computed: false, optional: false, required: true
-  private _commandText?: string;
+  private _commandText?: string; 
   public get commandText() {
     return this.getStringAttribute('command_text');
   }
@@ -614,7 +614,7 @@ export class ChatbotCustomActionTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -630,7 +630,7 @@ export class ChatbotCustomActionTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -728,7 +728,7 @@ export class ChatbotCustomAction extends cdktn.TerraformResource {
   // ==========
 
   // action_name - computed: false, optional: false, required: true
-  private _actionName?: string;
+  private _actionName?: string; 
   public get actionName() {
     return this.getStringAttribute('action_name');
   }
@@ -741,7 +741,7 @@ export class ChatbotCustomAction extends cdktn.TerraformResource {
   }
 
   // alias_name - computed: true, optional: true, required: false
-  private _aliasName?: string;
+  private _aliasName?: string; 
   public get aliasName() {
     return this.getStringAttribute('alias_name');
   }

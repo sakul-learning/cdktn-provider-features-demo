@@ -212,7 +212,7 @@ export class AppfabricAppAuthorizationConnectionAuthRequestOutputReference exten
   }
 
   // code - computed: false, optional: false, required: true
-  private _code?: string;
+  private _code?: string; 
   public get code() {
     return this.getStringAttribute('code');
   }
@@ -225,7 +225,7 @@ export class AppfabricAppAuthorizationConnectionAuthRequestOutputReference exten
   }
 
   // redirect_uri - computed: false, optional: false, required: true
-  private _redirectUri?: string;
+  private _redirectUri?: string; 
   public get redirectUri() {
     return this.getStringAttribute('redirect_uri');
   }
@@ -338,7 +338,7 @@ export class AppfabricAppAuthorizationConnectionTimeoutsOutputReference extends 
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -421,7 +421,7 @@ export class AppfabricAppAuthorizationConnection extends cdktn.TerraformResource
   }
 
   // app_authorization_arn - computed: false, optional: false, required: true
-  private _appAuthorizationArn?: string;
+  private _appAuthorizationArn?: string; 
   public get appAuthorizationArn() {
     return this.getStringAttribute('app_authorization_arn');
   }
@@ -434,7 +434,7 @@ export class AppfabricAppAuthorizationConnection extends cdktn.TerraformResource
   }
 
   // app_bundle_arn - computed: false, optional: false, required: true
-  private _appBundleArn?: string;
+  private _appBundleArn?: string; 
   public get appBundleArn() {
     return this.getStringAttribute('app_bundle_arn');
   }
@@ -452,7 +452,7 @@ export class AppfabricAppAuthorizationConnection extends cdktn.TerraformResource
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

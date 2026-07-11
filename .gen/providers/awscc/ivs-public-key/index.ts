@@ -124,7 +124,7 @@ export class IvsPublicKeyTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -140,7 +140,7 @@ export class IvsPublicKeyTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -251,7 +251,7 @@ export class IvsPublicKey extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -267,7 +267,7 @@ export class IvsPublicKey extends cdktn.TerraformResource {
   }
 
   // public_key_material - computed: true, optional: true, required: false
-  private _publicKeyMaterial?: string;
+  private _publicKeyMaterial?: string; 
   public get publicKeyMaterial() {
     return this.getStringAttribute('public_key_material');
   }

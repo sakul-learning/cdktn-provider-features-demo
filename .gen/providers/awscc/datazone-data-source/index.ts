@@ -226,7 +226,7 @@ export class DatazoneDataSourceAssetFormsInputOutputReference extends cdktn.Comp
   }
 
   // content - computed: true, optional: true, required: false
-  private _content?: string;
+  private _content?: string; 
   public get content() {
     return this.getStringAttribute('content');
   }
@@ -242,7 +242,7 @@ export class DatazoneDataSourceAssetFormsInputOutputReference extends cdktn.Comp
   }
 
   // form_name - computed: true, optional: true, required: false
-  private _formName?: string;
+  private _formName?: string; 
   public get formName() {
     return this.getStringAttribute('form_name');
   }
@@ -258,7 +258,7 @@ export class DatazoneDataSourceAssetFormsInputOutputReference extends cdktn.Comp
   }
 
   // type_identifier - computed: true, optional: true, required: false
-  private _typeIdentifier?: string;
+  private _typeIdentifier?: string; 
   public get typeIdentifier() {
     return this.getStringAttribute('type_identifier');
   }
@@ -274,7 +274,7 @@ export class DatazoneDataSourceAssetFormsInputOutputReference extends cdktn.Comp
   }
 
   // type_revision - computed: true, optional: true, required: false
-  private _typeRevision?: string;
+  private _typeRevision?: string; 
   public get typeRevision() {
     return this.getStringAttribute('type_revision');
   }
@@ -409,7 +409,7 @@ export class DatazoneDataSourceConfigurationGlueRunConfigurationRelationalFilter
   }
 
   // expression - computed: true, optional: true, required: false
-  private _expression?: string;
+  private _expression?: string; 
   public get expression() {
     return this.getStringAttribute('expression');
   }
@@ -425,7 +425,7 @@ export class DatazoneDataSourceConfigurationGlueRunConfigurationRelationalFilter
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -581,7 +581,7 @@ export class DatazoneDataSourceConfigurationGlueRunConfigurationRelationalFilter
   }
 
   // database_name - computed: true, optional: true, required: false
-  private _databaseName?: string;
+  private _databaseName?: string; 
   public get databaseName() {
     return this.getStringAttribute('database_name');
   }
@@ -613,7 +613,7 @@ export class DatazoneDataSourceConfigurationGlueRunConfigurationRelationalFilter
   }
 
   // schema_name - computed: true, optional: true, required: false
-  private _schemaName?: string;
+  private _schemaName?: string; 
   public get schemaName() {
     return this.getStringAttribute('schema_name');
   }
@@ -786,7 +786,7 @@ export class DatazoneDataSourceConfigurationGlueRunConfigurationOutputReference 
   }
 
   // auto_import_data_quality_result - computed: true, optional: true, required: false
-  private _autoImportDataQualityResult?: boolean | cdktn.IResolvable;
+  private _autoImportDataQualityResult?: boolean | cdktn.IResolvable; 
   public get autoImportDataQualityResult() {
     return this.getBooleanAttribute('auto_import_data_quality_result');
   }
@@ -802,7 +802,7 @@ export class DatazoneDataSourceConfigurationGlueRunConfigurationOutputReference 
   }
 
   // catalog_name - computed: true, optional: true, required: false
-  private _catalogName?: string;
+  private _catalogName?: string; 
   public get catalogName() {
     return this.getStringAttribute('catalog_name');
   }
@@ -818,7 +818,7 @@ export class DatazoneDataSourceConfigurationGlueRunConfigurationOutputReference 
   }
 
   // data_access_role - computed: true, optional: true, required: false
-  private _dataAccessRole?: string;
+  private _dataAccessRole?: string; 
   public get dataAccessRole() {
     return this.getStringAttribute('data_access_role');
   }
@@ -930,7 +930,7 @@ export class DatazoneDataSourceConfigurationRedshiftRunConfigurationRedshiftCred
   }
 
   // secret_manager_arn - computed: true, optional: true, required: false
-  private _secretManagerArn?: string;
+  private _secretManagerArn?: string; 
   public get secretManagerArn() {
     return this.getStringAttribute('secret_manager_arn');
   }
@@ -1026,7 +1026,7 @@ export class DatazoneDataSourceConfigurationRedshiftRunConfigurationRedshiftStor
   }
 
   // cluster_name - computed: true, optional: true, required: false
-  private _clusterName?: string;
+  private _clusterName?: string; 
   public get clusterName() {
     return this.getStringAttribute('cluster_name');
   }
@@ -1122,7 +1122,7 @@ export class DatazoneDataSourceConfigurationRedshiftRunConfigurationRedshiftStor
   }
 
   // workgroup_name - computed: true, optional: true, required: false
-  private _workgroupName?: string;
+  private _workgroupName?: string; 
   public get workgroupName() {
     return this.getStringAttribute('workgroup_name');
   }
@@ -1368,7 +1368,7 @@ export class DatazoneDataSourceConfigurationRedshiftRunConfigurationRelationalFi
   }
 
   // expression - computed: true, optional: true, required: false
-  private _expression?: string;
+  private _expression?: string; 
   public get expression() {
     return this.getStringAttribute('expression');
   }
@@ -1384,7 +1384,7 @@ export class DatazoneDataSourceConfigurationRedshiftRunConfigurationRelationalFi
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -1540,7 +1540,7 @@ export class DatazoneDataSourceConfigurationRedshiftRunConfigurationRelationalFi
   }
 
   // database_name - computed: true, optional: true, required: false
-  private _databaseName?: string;
+  private _databaseName?: string; 
   public get databaseName() {
     return this.getStringAttribute('database_name');
   }
@@ -1572,7 +1572,7 @@ export class DatazoneDataSourceConfigurationRedshiftRunConfigurationRelationalFi
   }
 
   // schema_name - computed: true, optional: true, required: false
-  private _schemaName?: string;
+  private _schemaName?: string; 
   public get schemaName() {
     return this.getStringAttribute('schema_name');
   }
@@ -1745,7 +1745,7 @@ export class DatazoneDataSourceConfigurationRedshiftRunConfigurationOutputRefere
   }
 
   // data_access_role - computed: true, optional: true, required: false
-  private _dataAccessRole?: string;
+  private _dataAccessRole?: string; 
   public get dataAccessRole() {
     return this.getStringAttribute('data_access_role');
   }
@@ -1889,7 +1889,7 @@ export class DatazoneDataSourceConfigurationSageMakerRunConfigurationOutputRefer
   }
 
   // tracking_assets - computed: true, optional: true, required: false
-  private _trackingAssets?: { [key: string]: string[] } | cdktn.IResolvable;
+  private _trackingAssets?: { [key: string]: string[] } | cdktn.IResolvable; 
   public get trackingAssets() {
     return this.interpolationForAttribute('tracking_assets');
   }
@@ -2149,7 +2149,7 @@ export class DatazoneDataSourceRecommendationOutputReference extends cdktn.Compl
   }
 
   // enable_business_name_generation - computed: true, optional: true, required: false
-  private _enableBusinessNameGeneration?: boolean | cdktn.IResolvable;
+  private _enableBusinessNameGeneration?: boolean | cdktn.IResolvable; 
   public get enableBusinessNameGeneration() {
     return this.getBooleanAttribute('enable_business_name_generation');
   }
@@ -2264,7 +2264,7 @@ export class DatazoneDataSourceScheduleOutputReference extends cdktn.ComplexObje
   }
 
   // schedule - computed: true, optional: true, required: false
-  private _schedule?: string;
+  private _schedule?: string; 
   public get schedule() {
     return this.getStringAttribute('schedule');
   }
@@ -2280,7 +2280,7 @@ export class DatazoneDataSourceScheduleOutputReference extends cdktn.ComplexObje
   }
 
   // timezone - computed: true, optional: true, required: false
-  private _timezone?: string;
+  private _timezone?: string; 
   public get timezone() {
     return this.getStringAttribute('timezone');
   }
@@ -2403,7 +2403,7 @@ export class DatazoneDataSource extends cdktn.TerraformResource {
   }
 
   // connection_identifier - computed: true, optional: true, required: false
-  private _connectionIdentifier?: string;
+  private _connectionIdentifier?: string; 
   public get connectionIdentifier() {
     return this.getStringAttribute('connection_identifier');
   }
@@ -2429,7 +2429,7 @@ export class DatazoneDataSource extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -2450,7 +2450,7 @@ export class DatazoneDataSource extends cdktn.TerraformResource {
   }
 
   // domain_identifier - computed: false, optional: false, required: true
-  private _domainIdentifier?: string;
+  private _domainIdentifier?: string; 
   public get domainIdentifier() {
     return this.getStringAttribute('domain_identifier');
   }
@@ -2463,7 +2463,7 @@ export class DatazoneDataSource extends cdktn.TerraformResource {
   }
 
   // enable_setting - computed: true, optional: true, required: false
-  private _enableSetting?: string;
+  private _enableSetting?: string; 
   public get enableSetting() {
     return this.getStringAttribute('enable_setting');
   }
@@ -2484,7 +2484,7 @@ export class DatazoneDataSource extends cdktn.TerraformResource {
   }
 
   // environment_identifier - computed: true, optional: true, required: false
-  private _environmentIdentifier?: string;
+  private _environmentIdentifier?: string; 
   public get environmentIdentifier() {
     return this.getStringAttribute('environment_identifier');
   }
@@ -2520,7 +2520,7 @@ export class DatazoneDataSource extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2538,7 +2538,7 @@ export class DatazoneDataSource extends cdktn.TerraformResource {
   }
 
   // project_identifier - computed: false, optional: false, required: true
-  private _projectIdentifier?: string;
+  private _projectIdentifier?: string; 
   public get projectIdentifier() {
     return this.getStringAttribute('project_identifier');
   }
@@ -2551,7 +2551,7 @@ export class DatazoneDataSource extends cdktn.TerraformResource {
   }
 
   // publish_on_import - computed: true, optional: true, required: false
-  private _publishOnImport?: boolean | cdktn.IResolvable;
+  private _publishOnImport?: boolean | cdktn.IResolvable; 
   public get publishOnImport() {
     return this.getBooleanAttribute('publish_on_import');
   }
@@ -2604,7 +2604,7 @@ export class DatazoneDataSource extends cdktn.TerraformResource {
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }

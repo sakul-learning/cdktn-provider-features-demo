@@ -130,7 +130,7 @@ export class Mediapackagev2OriginEndpointPolicyCdnAuthConfigurationOutputReferen
   }
 
   // cdn_identifier_secret_arns - computed: true, optional: true, required: false
-  private _cdnIdentifierSecretArns?: string[];
+  private _cdnIdentifierSecretArns?: string[]; 
   public get cdnIdentifierSecretArns() {
     return this.getListAttribute('cdn_identifier_secret_arns');
   }
@@ -146,7 +146,7 @@ export class Mediapackagev2OriginEndpointPolicyCdnAuthConfigurationOutputReferen
   }
 
   // secrets_role_arn - computed: true, optional: true, required: false
-  private _secretsRoleArn?: string;
+  private _secretsRoleArn?: string; 
   public get secretsRoleArn() {
     return this.getStringAttribute('secrets_role_arn');
   }
@@ -240,7 +240,7 @@ export class Mediapackagev2OriginEndpointPolicy extends cdktn.TerraformResource 
   }
 
   // channel_group_name - computed: false, optional: false, required: true
-  private _channelGroupName?: string;
+  private _channelGroupName?: string; 
   public get channelGroupName() {
     return this.getStringAttribute('channel_group_name');
   }
@@ -253,7 +253,7 @@ export class Mediapackagev2OriginEndpointPolicy extends cdktn.TerraformResource 
   }
 
   // channel_name - computed: false, optional: false, required: true
-  private _channelName?: string;
+  private _channelName?: string; 
   public get channelName() {
     return this.getStringAttribute('channel_name');
   }
@@ -271,7 +271,7 @@ export class Mediapackagev2OriginEndpointPolicy extends cdktn.TerraformResource 
   }
 
   // origin_endpoint_name - computed: false, optional: false, required: true
-  private _originEndpointName?: string;
+  private _originEndpointName?: string; 
   public get originEndpointName() {
     return this.getStringAttribute('origin_endpoint_name');
   }
@@ -284,7 +284,7 @@ export class Mediapackagev2OriginEndpointPolicy extends cdktn.TerraformResource 
   }
 
   // policy - computed: false, optional: false, required: true
-  private _policy?: string;
+  private _policy?: string; 
   public get policy() {
     return this.getStringAttribute('policy');
   }

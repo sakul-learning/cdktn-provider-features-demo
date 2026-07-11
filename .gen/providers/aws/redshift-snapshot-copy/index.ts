@@ -98,7 +98,7 @@ export class RedshiftSnapshotCopy extends cdktn.TerraformResource {
   // ==========
 
   // cluster_identifier - computed: false, optional: false, required: true
-  private _clusterIdentifier?: string;
+  private _clusterIdentifier?: string; 
   public get clusterIdentifier() {
     return this.getStringAttribute('cluster_identifier');
   }
@@ -111,7 +111,7 @@ export class RedshiftSnapshotCopy extends cdktn.TerraformResource {
   }
 
   // destination_region - computed: false, optional: false, required: true
-  private _destinationRegion?: string;
+  private _destinationRegion?: string; 
   public get destinationRegion() {
     return this.getStringAttribute('destination_region');
   }
@@ -129,7 +129,7 @@ export class RedshiftSnapshotCopy extends cdktn.TerraformResource {
   }
 
   // manual_snapshot_retention_period - computed: true, optional: true, required: false
-  private _manualSnapshotRetentionPeriod?: number;
+  private _manualSnapshotRetentionPeriod?: number; 
   public get manualSnapshotRetentionPeriod() {
     return this.getNumberAttribute('manual_snapshot_retention_period');
   }
@@ -145,7 +145,7 @@ export class RedshiftSnapshotCopy extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -161,7 +161,7 @@ export class RedshiftSnapshotCopy extends cdktn.TerraformResource {
   }
 
   // retention_period - computed: true, optional: true, required: false
-  private _retentionPeriod?: number;
+  private _retentionPeriod?: number; 
   public get retentionPeriod() {
     return this.getNumberAttribute('retention_period');
   }
@@ -177,7 +177,7 @@ export class RedshiftSnapshotCopy extends cdktn.TerraformResource {
   }
 
   // snapshot_copy_grant_name - computed: false, optional: true, required: false
-  private _snapshotCopyGrantName?: string;
+  private _snapshotCopyGrantName?: string; 
   public get snapshotCopyGrantName() {
     return this.getStringAttribute('snapshot_copy_grant_name');
   }

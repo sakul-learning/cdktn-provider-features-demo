@@ -134,7 +134,7 @@ export class IamServerCertificateTagsOutputReference extends cdktn.ComplexObject
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -150,7 +150,7 @@ export class IamServerCertificateTagsOutputReference extends cdktn.ComplexObject
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -254,7 +254,7 @@ export class IamServerCertificate extends cdktn.TerraformResource {
   }
 
   // certificate_body - computed: true, optional: true, required: false
-  private _certificateBody?: string;
+  private _certificateBody?: string; 
   public get certificateBody() {
     return this.getStringAttribute('certificate_body');
   }
@@ -270,7 +270,7 @@ export class IamServerCertificate extends cdktn.TerraformResource {
   }
 
   // certificate_chain - computed: true, optional: true, required: false
-  private _certificateChain?: string;
+  private _certificateChain?: string; 
   public get certificateChain() {
     return this.getStringAttribute('certificate_chain');
   }
@@ -291,7 +291,7 @@ export class IamServerCertificate extends cdktn.TerraformResource {
   }
 
   // path - computed: true, optional: true, required: false
-  private _path?: string;
+  private _path?: string; 
   public get path() {
     return this.getStringAttribute('path');
   }
@@ -307,7 +307,7 @@ export class IamServerCertificate extends cdktn.TerraformResource {
   }
 
   // private_key - computed: true, optional: true, required: false
-  private _privateKey?: string;
+  private _privateKey?: string; 
   public get privateKey() {
     return this.getStringAttribute('private_key');
   }
@@ -323,7 +323,7 @@ export class IamServerCertificate extends cdktn.TerraformResource {
   }
 
   // server_certificate_name - computed: true, optional: true, required: false
-  private _serverCertificateName?: string;
+  private _serverCertificateName?: string; 
   public get serverCertificateName() {
     return this.getStringAttribute('server_certificate_name');
   }

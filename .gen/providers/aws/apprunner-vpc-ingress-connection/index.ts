@@ -129,7 +129,7 @@ export class ApprunnerVpcIngressConnectionIngressVpcConfigurationOutputReference
   }
 
   // vpc_endpoint_id - computed: false, optional: true, required: false
-  private _vpcEndpointId?: string;
+  private _vpcEndpointId?: string; 
   public get vpcEndpointId() {
     return this.getStringAttribute('vpc_endpoint_id');
   }
@@ -145,7 +145,7 @@ export class ApprunnerVpcIngressConnectionIngressVpcConfigurationOutputReference
   }
 
   // vpc_id - computed: false, optional: true, required: false
-  private _vpcId?: string;
+  private _vpcId?: string; 
   public get vpcId() {
     return this.getStringAttribute('vpc_id');
   }
@@ -235,7 +235,7 @@ export class ApprunnerVpcIngressConnection extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -251,7 +251,7 @@ export class ApprunnerVpcIngressConnection extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -264,7 +264,7 @@ export class ApprunnerVpcIngressConnection extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -280,7 +280,7 @@ export class ApprunnerVpcIngressConnection extends cdktn.TerraformResource {
   }
 
   // service_arn - computed: false, optional: false, required: true
-  private _serviceArn?: string;
+  private _serviceArn?: string; 
   public get serviceArn() {
     return this.getStringAttribute('service_arn');
   }
@@ -298,7 +298,7 @@ export class ApprunnerVpcIngressConnection extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -314,7 +314,7 @@ export class ApprunnerVpcIngressConnection extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

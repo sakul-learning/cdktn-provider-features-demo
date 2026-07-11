@@ -113,7 +113,7 @@ export class OmicsRunGroup extends cdktn.TerraformResource {
   }
 
   // max_cpus - computed: true, optional: true, required: false
-  private _maxCpus?: number;
+  private _maxCpus?: number; 
   public get maxCpus() {
     return this.getNumberAttribute('max_cpus');
   }
@@ -129,7 +129,7 @@ export class OmicsRunGroup extends cdktn.TerraformResource {
   }
 
   // max_duration - computed: true, optional: true, required: false
-  private _maxDuration?: number;
+  private _maxDuration?: number; 
   public get maxDuration() {
     return this.getNumberAttribute('max_duration');
   }
@@ -145,7 +145,7 @@ export class OmicsRunGroup extends cdktn.TerraformResource {
   }
 
   // max_gpus - computed: true, optional: true, required: false
-  private _maxGpus?: number;
+  private _maxGpus?: number; 
   public get maxGpus() {
     return this.getNumberAttribute('max_gpus');
   }
@@ -161,7 +161,7 @@ export class OmicsRunGroup extends cdktn.TerraformResource {
   }
 
   // max_runs - computed: true, optional: true, required: false
-  private _maxRuns?: number;
+  private _maxRuns?: number; 
   public get maxRuns() {
     return this.getNumberAttribute('max_runs');
   }
@@ -177,7 +177,7 @@ export class OmicsRunGroup extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -198,7 +198,7 @@ export class OmicsRunGroup extends cdktn.TerraformResource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

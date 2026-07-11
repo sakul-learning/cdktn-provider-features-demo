@@ -270,7 +270,7 @@ export class Ec2ClientVpnEndpointAuthenticationOptionsOutputReference extends cd
   }
 
   // active_directory_id - computed: false, optional: true, required: false
-  private _activeDirectoryId?: string;
+  private _activeDirectoryId?: string; 
   public get activeDirectoryId() {
     return this.getStringAttribute('active_directory_id');
   }
@@ -286,7 +286,7 @@ export class Ec2ClientVpnEndpointAuthenticationOptionsOutputReference extends cd
   }
 
   // root_certificate_chain_arn - computed: false, optional: true, required: false
-  private _rootCertificateChainArn?: string;
+  private _rootCertificateChainArn?: string; 
   public get rootCertificateChainArn() {
     return this.getStringAttribute('root_certificate_chain_arn');
   }
@@ -302,7 +302,7 @@ export class Ec2ClientVpnEndpointAuthenticationOptionsOutputReference extends cd
   }
 
   // saml_provider_arn - computed: false, optional: true, required: false
-  private _samlProviderArn?: string;
+  private _samlProviderArn?: string; 
   public get samlProviderArn() {
     return this.getStringAttribute('saml_provider_arn');
   }
@@ -318,7 +318,7 @@ export class Ec2ClientVpnEndpointAuthenticationOptionsOutputReference extends cd
   }
 
   // self_service_saml_provider_arn - computed: false, optional: true, required: false
-  private _selfServiceSamlProviderArn?: string;
+  private _selfServiceSamlProviderArn?: string; 
   public get selfServiceSamlProviderArn() {
     return this.getStringAttribute('self_service_saml_provider_arn');
   }
@@ -334,7 +334,7 @@ export class Ec2ClientVpnEndpointAuthenticationOptionsOutputReference extends cd
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -452,7 +452,7 @@ export class Ec2ClientVpnEndpointClientConnectOptionsOutputReference extends cdk
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -468,7 +468,7 @@ export class Ec2ClientVpnEndpointClientConnectOptionsOutputReference extends cdk
   }
 
   // lambda_function_arn - computed: true, optional: true, required: false
-  private _lambdaFunctionArn?: string;
+  private _lambdaFunctionArn?: string; 
   public get lambdaFunctionArn() {
     return this.getStringAttribute('lambda_function_arn');
   }
@@ -569,7 +569,7 @@ export class Ec2ClientVpnEndpointClientLoginBannerOptionsOutputReference extends
   }
 
   // banner_text - computed: true, optional: true, required: false
-  private _bannerText?: string;
+  private _bannerText?: string; 
   public get bannerText() {
     return this.getStringAttribute('banner_text');
   }
@@ -585,7 +585,7 @@ export class Ec2ClientVpnEndpointClientLoginBannerOptionsOutputReference extends
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -669,7 +669,7 @@ export class Ec2ClientVpnEndpointClientRouteEnforcementOptionsOutputReference ex
   }
 
   // enforced - computed: true, optional: true, required: false
-  private _enforced?: boolean | cdktn.IResolvable;
+  private _enforced?: boolean | cdktn.IResolvable; 
   public get enforced() {
     return this.getBooleanAttribute('enforced');
   }
@@ -787,7 +787,7 @@ export class Ec2ClientVpnEndpointConnectionLogOptionsOutputReference extends cdk
   }
 
   // cloudwatch_log_group - computed: false, optional: true, required: false
-  private _cloudwatchLogGroup?: string;
+  private _cloudwatchLogGroup?: string; 
   public get cloudwatchLogGroup() {
     return this.getStringAttribute('cloudwatch_log_group');
   }
@@ -803,7 +803,7 @@ export class Ec2ClientVpnEndpointConnectionLogOptionsOutputReference extends cdk
   }
 
   // cloudwatch_log_stream - computed: true, optional: true, required: false
-  private _cloudwatchLogStream?: string;
+  private _cloudwatchLogStream?: string; 
   public get cloudwatchLogStream() {
     return this.getStringAttribute('cloudwatch_log_stream');
   }
@@ -819,7 +819,7 @@ export class Ec2ClientVpnEndpointConnectionLogOptionsOutputReference extends cdk
   }
 
   // enabled - computed: false, optional: false, required: true
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -934,7 +934,7 @@ export class Ec2ClientVpnEndpointTransitGatewayConfigurationOutputReference exte
   }
 
   // availability_zone_ids - computed: true, optional: true, required: false
-  private _availabilityZoneIds?: string[];
+  private _availabilityZoneIds?: string[]; 
   public get availabilityZoneIds() {
     return cdktn.Fn.tolist(this.getListAttribute('availability_zone_ids'));
   }
@@ -950,7 +950,7 @@ export class Ec2ClientVpnEndpointTransitGatewayConfigurationOutputReference exte
   }
 
   // availability_zones - computed: false, optional: true, required: false
-  private _availabilityZones?: string[];
+  private _availabilityZones?: string[]; 
   public get availabilityZones() {
     return cdktn.Fn.tolist(this.getListAttribute('availability_zones'));
   }
@@ -971,7 +971,7 @@ export class Ec2ClientVpnEndpointTransitGatewayConfigurationOutputReference exte
   }
 
   // transit_gateway_id - computed: false, optional: true, required: false
-  private _transitGatewayId?: string;
+  private _transitGatewayId?: string; 
   public get transitGatewayId() {
     return this.getStringAttribute('transit_gateway_id');
   }
@@ -1073,7 +1073,7 @@ export class Ec2ClientVpnEndpoint extends cdktn.TerraformResource {
   }
 
   // client_cidr_block - computed: false, optional: true, required: false
-  private _clientCidrBlock?: string;
+  private _clientCidrBlock?: string; 
   public get clientCidrBlock() {
     return this.getStringAttribute('client_cidr_block');
   }
@@ -1089,7 +1089,7 @@ export class Ec2ClientVpnEndpoint extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1105,7 +1105,7 @@ export class Ec2ClientVpnEndpoint extends cdktn.TerraformResource {
   }
 
   // disconnect_on_session_timeout - computed: true, optional: true, required: false
-  private _disconnectOnSessionTimeout?: boolean | cdktn.IResolvable;
+  private _disconnectOnSessionTimeout?: boolean | cdktn.IResolvable; 
   public get disconnectOnSessionTimeout() {
     return this.getBooleanAttribute('disconnect_on_session_timeout');
   }
@@ -1126,7 +1126,7 @@ export class Ec2ClientVpnEndpoint extends cdktn.TerraformResource {
   }
 
   // dns_servers - computed: false, optional: true, required: false
-  private _dnsServers?: string[];
+  private _dnsServers?: string[]; 
   public get dnsServers() {
     return this.getListAttribute('dns_servers');
   }
@@ -1142,7 +1142,7 @@ export class Ec2ClientVpnEndpoint extends cdktn.TerraformResource {
   }
 
   // endpoint_ip_address_type - computed: true, optional: true, required: false
-  private _endpointIpAddressType?: string;
+  private _endpointIpAddressType?: string; 
   public get endpointIpAddressType() {
     return this.getStringAttribute('endpoint_ip_address_type');
   }
@@ -1158,7 +1158,7 @@ export class Ec2ClientVpnEndpoint extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -1174,7 +1174,7 @@ export class Ec2ClientVpnEndpoint extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1190,7 +1190,7 @@ export class Ec2ClientVpnEndpoint extends cdktn.TerraformResource {
   }
 
   // security_group_ids - computed: true, optional: true, required: false
-  private _securityGroupIds?: string[];
+  private _securityGroupIds?: string[]; 
   public get securityGroupIds() {
     return cdktn.Fn.tolist(this.getListAttribute('security_group_ids'));
   }
@@ -1206,7 +1206,7 @@ export class Ec2ClientVpnEndpoint extends cdktn.TerraformResource {
   }
 
   // self_service_portal - computed: false, optional: true, required: false
-  private _selfServicePortal?: string;
+  private _selfServicePortal?: string; 
   public get selfServicePortal() {
     return this.getStringAttribute('self_service_portal');
   }
@@ -1227,7 +1227,7 @@ export class Ec2ClientVpnEndpoint extends cdktn.TerraformResource {
   }
 
   // server_certificate_arn - computed: false, optional: false, required: true
-  private _serverCertificateArn?: string;
+  private _serverCertificateArn?: string; 
   public get serverCertificateArn() {
     return this.getStringAttribute('server_certificate_arn');
   }
@@ -1240,7 +1240,7 @@ export class Ec2ClientVpnEndpoint extends cdktn.TerraformResource {
   }
 
   // session_timeout_hours - computed: false, optional: true, required: false
-  private _sessionTimeoutHours?: number;
+  private _sessionTimeoutHours?: number; 
   public get sessionTimeoutHours() {
     return this.getNumberAttribute('session_timeout_hours');
   }
@@ -1256,7 +1256,7 @@ export class Ec2ClientVpnEndpoint extends cdktn.TerraformResource {
   }
 
   // split_tunnel - computed: false, optional: true, required: false
-  private _splitTunnel?: boolean | cdktn.IResolvable;
+  private _splitTunnel?: boolean | cdktn.IResolvable; 
   public get splitTunnel() {
     return this.getBooleanAttribute('split_tunnel');
   }
@@ -1272,7 +1272,7 @@ export class Ec2ClientVpnEndpoint extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -1288,7 +1288,7 @@ export class Ec2ClientVpnEndpoint extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -1304,7 +1304,7 @@ export class Ec2ClientVpnEndpoint extends cdktn.TerraformResource {
   }
 
   // traffic_ip_address_type - computed: true, optional: true, required: false
-  private _trafficIpAddressType?: string;
+  private _trafficIpAddressType?: string; 
   public get trafficIpAddressType() {
     return this.getStringAttribute('traffic_ip_address_type');
   }
@@ -1320,7 +1320,7 @@ export class Ec2ClientVpnEndpoint extends cdktn.TerraformResource {
   }
 
   // transport_protocol - computed: false, optional: true, required: false
-  private _transportProtocol?: string;
+  private _transportProtocol?: string; 
   public get transportProtocol() {
     return this.getStringAttribute('transport_protocol');
   }
@@ -1336,7 +1336,7 @@ export class Ec2ClientVpnEndpoint extends cdktn.TerraformResource {
   }
 
   // vpc_id - computed: true, optional: true, required: false
-  private _vpcId?: string;
+  private _vpcId?: string; 
   public get vpcId() {
     return this.getStringAttribute('vpc_id');
   }
@@ -1352,7 +1352,7 @@ export class Ec2ClientVpnEndpoint extends cdktn.TerraformResource {
   }
 
   // vpn_port - computed: false, optional: true, required: false
-  private _vpnPort?: number;
+  private _vpnPort?: number; 
   public get vpnPort() {
     return this.getNumberAttribute('vpn_port');
   }

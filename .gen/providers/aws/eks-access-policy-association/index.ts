@@ -131,7 +131,7 @@ export class EksAccessPolicyAssociationAccessScopeOutputReference extends cdktn.
   }
 
   // namespaces - computed: false, optional: true, required: false
-  private _namespaces?: string[];
+  private _namespaces?: string[]; 
   public get namespaces() {
     return cdktn.Fn.tolist(this.getListAttribute('namespaces'));
   }
@@ -147,7 +147,7 @@ export class EksAccessPolicyAssociationAccessScopeOutputReference extends cdktn.
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -255,7 +255,7 @@ export class EksAccessPolicyAssociationTimeoutsOutputReference extends cdktn.Com
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -271,7 +271,7 @@ export class EksAccessPolicyAssociationTimeoutsOutputReference extends cdktn.Com
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -356,7 +356,7 @@ export class EksAccessPolicyAssociation extends cdktn.TerraformResource {
   }
 
   // cluster_name - computed: false, optional: false, required: true
-  private _clusterName?: string;
+  private _clusterName?: string; 
   public get clusterName() {
     return this.getStringAttribute('cluster_name');
   }
@@ -369,7 +369,7 @@ export class EksAccessPolicyAssociation extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -390,7 +390,7 @@ export class EksAccessPolicyAssociation extends cdktn.TerraformResource {
   }
 
   // policy_arn - computed: false, optional: false, required: true
-  private _policyArn?: string;
+  private _policyArn?: string; 
   public get policyArn() {
     return this.getStringAttribute('policy_arn');
   }
@@ -403,7 +403,7 @@ export class EksAccessPolicyAssociation extends cdktn.TerraformResource {
   }
 
   // principal_arn - computed: false, optional: false, required: true
-  private _principalArn?: string;
+  private _principalArn?: string; 
   public get principalArn() {
     return this.getStringAttribute('principal_arn');
   }
@@ -416,7 +416,7 @@ export class EksAccessPolicyAssociation extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

@@ -246,7 +246,7 @@ export class SecurityhubConfigurationPolicyConfigurationPolicySecurityHubSecurit
   }
 
   // boolean - computed: true, optional: true, required: false
-  private _boolean?: boolean | cdktn.IResolvable;
+  private _boolean?: boolean | cdktn.IResolvable; 
   public get boolean() {
     return this.getBooleanAttribute('boolean');
   }
@@ -262,7 +262,7 @@ export class SecurityhubConfigurationPolicyConfigurationPolicySecurityHubSecurit
   }
 
   // double - computed: true, optional: true, required: false
-  private _double?: number;
+  private _double?: number; 
   public get double() {
     return this.getNumberAttribute('double');
   }
@@ -278,7 +278,7 @@ export class SecurityhubConfigurationPolicyConfigurationPolicySecurityHubSecurit
   }
 
   // enum - computed: true, optional: true, required: false
-  private _enum?: string;
+  private _enum?: string; 
   public get enum() {
     return this.getStringAttribute('enum');
   }
@@ -294,7 +294,7 @@ export class SecurityhubConfigurationPolicyConfigurationPolicySecurityHubSecurit
   }
 
   // enum_list - computed: true, optional: true, required: false
-  private _enumList?: string[];
+  private _enumList?: string[]; 
   public get enumList() {
     return this.getListAttribute('enum_list');
   }
@@ -310,7 +310,7 @@ export class SecurityhubConfigurationPolicyConfigurationPolicySecurityHubSecurit
   }
 
   // integer - computed: true, optional: true, required: false
-  private _integer?: number;
+  private _integer?: number; 
   public get integer() {
     return this.getNumberAttribute('integer');
   }
@@ -326,7 +326,7 @@ export class SecurityhubConfigurationPolicyConfigurationPolicySecurityHubSecurit
   }
 
   // integer_list - computed: true, optional: true, required: false
-  private _integerList?: number[];
+  private _integerList?: number[]; 
   public get integerList() {
     return this.getNumberListAttribute('integer_list');
   }
@@ -342,7 +342,7 @@ export class SecurityhubConfigurationPolicyConfigurationPolicySecurityHubSecurit
   }
 
   // string - computed: true, optional: true, required: false
-  private _string?: string;
+  private _string?: string; 
   public get string() {
     return this.getStringAttribute('string');
   }
@@ -358,7 +358,7 @@ export class SecurityhubConfigurationPolicyConfigurationPolicySecurityHubSecurit
   }
 
   // string_list - computed: true, optional: true, required: false
-  private _stringList?: string[];
+  private _stringList?: string[]; 
   public get stringList() {
     return this.getListAttribute('string_list');
   }
@@ -490,7 +490,7 @@ export class SecurityhubConfigurationPolicyConfigurationPolicySecurityHubSecurit
   }
 
   // value_type - computed: true, optional: true, required: false
-  private _valueType?: string;
+  private _valueType?: string; 
   public get valueType() {
     return this.getStringAttribute('value_type');
   }
@@ -642,7 +642,7 @@ export class SecurityhubConfigurationPolicyConfigurationPolicySecurityHubSecurit
   }
 
   // security_control_id - computed: true, optional: true, required: false
-  private _securityControlId?: string;
+  private _securityControlId?: string; 
   public get securityControlId() {
     return this.getStringAttribute('security_control_id');
   }
@@ -796,7 +796,7 @@ export class SecurityhubConfigurationPolicyConfigurationPolicySecurityHubSecurit
   }
 
   // disabled_security_control_identifiers - computed: true, optional: true, required: false
-  private _disabledSecurityControlIdentifiers?: string[];
+  private _disabledSecurityControlIdentifiers?: string[]; 
   public get disabledSecurityControlIdentifiers() {
     return this.getListAttribute('disabled_security_control_identifiers');
   }
@@ -812,7 +812,7 @@ export class SecurityhubConfigurationPolicyConfigurationPolicySecurityHubSecurit
   }
 
   // enabled_security_control_identifiers - computed: true, optional: true, required: false
-  private _enabledSecurityControlIdentifiers?: string[];
+  private _enabledSecurityControlIdentifiers?: string[]; 
   public get enabledSecurityControlIdentifiers() {
     return this.getListAttribute('enabled_security_control_identifiers');
   }
@@ -962,7 +962,7 @@ export class SecurityhubConfigurationPolicyConfigurationPolicySecurityHubOutputR
   }
 
   // enabled_standard_identifiers - computed: true, optional: true, required: false
-  private _enabledStandardIdentifiers?: string[];
+  private _enabledStandardIdentifiers?: string[]; 
   public get enabledStandardIdentifiers() {
     return this.getListAttribute('enabled_standard_identifiers');
   }
@@ -994,7 +994,7 @@ export class SecurityhubConfigurationPolicyConfigurationPolicySecurityHubOutputR
   }
 
   // service_enabled - computed: true, optional: true, required: false
-  private _serviceEnabled?: boolean | cdktn.IResolvable;
+  private _serviceEnabled?: boolean | cdktn.IResolvable; 
   public get serviceEnabled() {
     return this.getBooleanAttribute('service_enabled');
   }
@@ -1195,7 +1195,7 @@ export class SecurityhubConfigurationPolicy extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1216,7 +1216,7 @@ export class SecurityhubConfigurationPolicy extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1234,7 +1234,7 @@ export class SecurityhubConfigurationPolicy extends cdktn.TerraformResource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

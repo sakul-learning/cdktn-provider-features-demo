@@ -745,7 +745,7 @@ export class Ec2VpcEncryptionControlTagsOutputReference extends cdktn.ComplexObj
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -761,7 +761,7 @@ export class Ec2VpcEncryptionControlTagsOutputReference extends cdktn.ComplexObj
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -865,7 +865,7 @@ export class Ec2VpcEncryptionControl extends cdktn.TerraformResource {
   // ==========
 
   // egress_only_internet_gateway_exclusion_input - computed: true, optional: true, required: false
-  private _egressOnlyInternetGatewayExclusionInput?: string;
+  private _egressOnlyInternetGatewayExclusionInput?: string; 
   public get egressOnlyInternetGatewayExclusionInput() {
     return this.getStringAttribute('egress_only_internet_gateway_exclusion_input');
   }
@@ -881,7 +881,7 @@ export class Ec2VpcEncryptionControl extends cdktn.TerraformResource {
   }
 
   // elastic_file_system_exclusion_input - computed: true, optional: true, required: false
-  private _elasticFileSystemExclusionInput?: string;
+  private _elasticFileSystemExclusionInput?: string; 
   public get elasticFileSystemExclusionInput() {
     return this.getStringAttribute('elastic_file_system_exclusion_input');
   }
@@ -902,7 +902,7 @@ export class Ec2VpcEncryptionControl extends cdktn.TerraformResource {
   }
 
   // internet_gateway_exclusion_input - computed: true, optional: true, required: false
-  private _internetGatewayExclusionInput?: string;
+  private _internetGatewayExclusionInput?: string; 
   public get internetGatewayExclusionInput() {
     return this.getStringAttribute('internet_gateway_exclusion_input');
   }
@@ -918,7 +918,7 @@ export class Ec2VpcEncryptionControl extends cdktn.TerraformResource {
   }
 
   // lambda_exclusion_input - computed: true, optional: true, required: false
-  private _lambdaExclusionInput?: string;
+  private _lambdaExclusionInput?: string; 
   public get lambdaExclusionInput() {
     return this.getStringAttribute('lambda_exclusion_input');
   }
@@ -934,7 +934,7 @@ export class Ec2VpcEncryptionControl extends cdktn.TerraformResource {
   }
 
   // mode - computed: true, optional: true, required: false
-  private _mode?: string;
+  private _mode?: string; 
   public get mode() {
     return this.getStringAttribute('mode');
   }
@@ -950,7 +950,7 @@ export class Ec2VpcEncryptionControl extends cdktn.TerraformResource {
   }
 
   // nat_gateway_exclusion_input - computed: true, optional: true, required: false
-  private _natGatewayExclusionInput?: string;
+  private _natGatewayExclusionInput?: string; 
   public get natGatewayExclusionInput() {
     return this.getStringAttribute('nat_gateway_exclusion_input');
   }
@@ -998,7 +998,7 @@ export class Ec2VpcEncryptionControl extends cdktn.TerraformResource {
   }
 
   // virtual_private_gateway_exclusion_input - computed: true, optional: true, required: false
-  private _virtualPrivateGatewayExclusionInput?: string;
+  private _virtualPrivateGatewayExclusionInput?: string; 
   public get virtualPrivateGatewayExclusionInput() {
     return this.getStringAttribute('virtual_private_gateway_exclusion_input');
   }
@@ -1019,7 +1019,7 @@ export class Ec2VpcEncryptionControl extends cdktn.TerraformResource {
   }
 
   // vpc_id - computed: true, optional: true, required: false
-  private _vpcId?: string;
+  private _vpcId?: string; 
   public get vpcId() {
     return this.getStringAttribute('vpc_id');
   }
@@ -1035,7 +1035,7 @@ export class Ec2VpcEncryptionControl extends cdktn.TerraformResource {
   }
 
   // vpc_lattice_exclusion_input - computed: true, optional: true, required: false
-  private _vpcLatticeExclusionInput?: string;
+  private _vpcLatticeExclusionInput?: string; 
   public get vpcLatticeExclusionInput() {
     return this.getStringAttribute('vpc_lattice_exclusion_input');
   }
@@ -1051,7 +1051,7 @@ export class Ec2VpcEncryptionControl extends cdktn.TerraformResource {
   }
 
   // vpc_peering_exclusion_input - computed: true, optional: true, required: false
-  private _vpcPeeringExclusionInput?: string;
+  private _vpcPeeringExclusionInput?: string; 
   public get vpcPeeringExclusionInput() {
     return this.getStringAttribute('vpc_peering_exclusion_input');
   }

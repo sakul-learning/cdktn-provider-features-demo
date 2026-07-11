@@ -148,7 +148,7 @@ export class NotificationsNotificationHub extends cdktn.TerraformResource {
   }
 
   // region - computed: false, optional: false, required: true
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

@@ -93,7 +93,7 @@ export class AuditmanagerFrameworkShare extends cdktn.TerraformResource {
   // ==========
 
   // comment - computed: false, optional: true, required: false
-  private _comment?: string;
+  private _comment?: string; 
   public get comment() {
     return this.getStringAttribute('comment');
   }
@@ -109,7 +109,7 @@ export class AuditmanagerFrameworkShare extends cdktn.TerraformResource {
   }
 
   // destination_account - computed: false, optional: false, required: true
-  private _destinationAccount?: string;
+  private _destinationAccount?: string; 
   public get destinationAccount() {
     return this.getStringAttribute('destination_account');
   }
@@ -122,7 +122,7 @@ export class AuditmanagerFrameworkShare extends cdktn.TerraformResource {
   }
 
   // destination_region - computed: false, optional: false, required: true
-  private _destinationRegion?: string;
+  private _destinationRegion?: string; 
   public get destinationRegion() {
     return this.getStringAttribute('destination_region');
   }
@@ -135,7 +135,7 @@ export class AuditmanagerFrameworkShare extends cdktn.TerraformResource {
   }
 
   // framework_id - computed: false, optional: false, required: true
-  private _frameworkId?: string;
+  private _frameworkId?: string; 
   public get frameworkId() {
     return this.getStringAttribute('framework_id');
   }
@@ -153,7 +153,7 @@ export class AuditmanagerFrameworkShare extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

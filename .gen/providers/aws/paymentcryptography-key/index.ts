@@ -263,7 +263,7 @@ export class PaymentcryptographyKeyKeyAttributesKeyModesOfUseOutputReference ext
   }
 
   // decrypt - computed: true, optional: true, required: false
-  private _decrypt?: boolean | cdktn.IResolvable;
+  private _decrypt?: boolean | cdktn.IResolvable; 
   public get decrypt() {
     return this.getBooleanAttribute('decrypt');
   }
@@ -279,7 +279,7 @@ export class PaymentcryptographyKeyKeyAttributesKeyModesOfUseOutputReference ext
   }
 
   // derive_key - computed: true, optional: true, required: false
-  private _deriveKey?: boolean | cdktn.IResolvable;
+  private _deriveKey?: boolean | cdktn.IResolvable; 
   public get deriveKey() {
     return this.getBooleanAttribute('derive_key');
   }
@@ -295,7 +295,7 @@ export class PaymentcryptographyKeyKeyAttributesKeyModesOfUseOutputReference ext
   }
 
   // encrypt - computed: true, optional: true, required: false
-  private _encrypt?: boolean | cdktn.IResolvable;
+  private _encrypt?: boolean | cdktn.IResolvable; 
   public get encrypt() {
     return this.getBooleanAttribute('encrypt');
   }
@@ -311,7 +311,7 @@ export class PaymentcryptographyKeyKeyAttributesKeyModesOfUseOutputReference ext
   }
 
   // generate - computed: true, optional: true, required: false
-  private _generate?: boolean | cdktn.IResolvable;
+  private _generate?: boolean | cdktn.IResolvable; 
   public get generate() {
     return this.getBooleanAttribute('generate');
   }
@@ -327,7 +327,7 @@ export class PaymentcryptographyKeyKeyAttributesKeyModesOfUseOutputReference ext
   }
 
   // no_restrictions - computed: true, optional: true, required: false
-  private _noRestrictions?: boolean | cdktn.IResolvable;
+  private _noRestrictions?: boolean | cdktn.IResolvable; 
   public get noRestrictions() {
     return this.getBooleanAttribute('no_restrictions');
   }
@@ -343,7 +343,7 @@ export class PaymentcryptographyKeyKeyAttributesKeyModesOfUseOutputReference ext
   }
 
   // sign - computed: true, optional: true, required: false
-  private _sign?: boolean | cdktn.IResolvable;
+  private _sign?: boolean | cdktn.IResolvable; 
   public get sign() {
     return this.getBooleanAttribute('sign');
   }
@@ -359,7 +359,7 @@ export class PaymentcryptographyKeyKeyAttributesKeyModesOfUseOutputReference ext
   }
 
   // unwrap - computed: true, optional: true, required: false
-  private _unwrap?: boolean | cdktn.IResolvable;
+  private _unwrap?: boolean | cdktn.IResolvable; 
   public get unwrap() {
     return this.getBooleanAttribute('unwrap');
   }
@@ -375,7 +375,7 @@ export class PaymentcryptographyKeyKeyAttributesKeyModesOfUseOutputReference ext
   }
 
   // verify - computed: true, optional: true, required: false
-  private _verify?: boolean | cdktn.IResolvable;
+  private _verify?: boolean | cdktn.IResolvable; 
   public get verify() {
     return this.getBooleanAttribute('verify');
   }
@@ -391,7 +391,7 @@ export class PaymentcryptographyKeyKeyAttributesKeyModesOfUseOutputReference ext
   }
 
   // wrap - computed: true, optional: true, required: false
-  private _wrap?: boolean | cdktn.IResolvable;
+  private _wrap?: boolean | cdktn.IResolvable; 
   public get wrap() {
     return this.getBooleanAttribute('wrap');
   }
@@ -560,7 +560,7 @@ export class PaymentcryptographyKeyKeyAttributesOutputReference extends cdktn.Co
   }
 
   // key_algorithm - computed: false, optional: false, required: true
-  private _keyAlgorithm?: string;
+  private _keyAlgorithm?: string; 
   public get keyAlgorithm() {
     return this.getStringAttribute('key_algorithm');
   }
@@ -573,7 +573,7 @@ export class PaymentcryptographyKeyKeyAttributesOutputReference extends cdktn.Co
   }
 
   // key_class - computed: false, optional: false, required: true
-  private _keyClass?: string;
+  private _keyClass?: string; 
   public get keyClass() {
     return this.getStringAttribute('key_class');
   }
@@ -586,7 +586,7 @@ export class PaymentcryptographyKeyKeyAttributesOutputReference extends cdktn.Co
   }
 
   // key_usage - computed: false, optional: false, required: true
-  private _keyUsage?: string;
+  private _keyUsage?: string; 
   public get keyUsage() {
     return this.getStringAttribute('key_usage');
   }
@@ -753,7 +753,7 @@ export class PaymentcryptographyKeyTimeoutsOutputReference extends cdktn.Complex
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -769,7 +769,7 @@ export class PaymentcryptographyKeyTimeoutsOutputReference extends cdktn.Complex
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -785,7 +785,7 @@ export class PaymentcryptographyKeyTimeoutsOutputReference extends cdktn.Complex
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -871,7 +871,7 @@ export class PaymentcryptographyKey extends cdktn.TerraformResource {
   }
 
   // deletion_window_in_days - computed: true, optional: true, required: false
-  private _deletionWindowInDays?: number;
+  private _deletionWindowInDays?: number; 
   public get deletionWindowInDays() {
     return this.getNumberAttribute('deletion_window_in_days');
   }
@@ -887,7 +887,7 @@ export class PaymentcryptographyKey extends cdktn.TerraformResource {
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -903,7 +903,7 @@ export class PaymentcryptographyKey extends cdktn.TerraformResource {
   }
 
   // exportable - computed: false, optional: false, required: true
-  private _exportable?: boolean | cdktn.IResolvable;
+  private _exportable?: boolean | cdktn.IResolvable; 
   public get exportable() {
     return this.getBooleanAttribute('exportable');
   }
@@ -926,7 +926,7 @@ export class PaymentcryptographyKey extends cdktn.TerraformResource {
   }
 
   // key_check_value_algorithm - computed: true, optional: true, required: false
-  private _keyCheckValueAlgorithm?: string;
+  private _keyCheckValueAlgorithm?: string; 
   public get keyCheckValueAlgorithm() {
     return this.getStringAttribute('key_check_value_algorithm');
   }
@@ -952,7 +952,7 @@ export class PaymentcryptographyKey extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -968,7 +968,7 @@ export class PaymentcryptographyKey extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

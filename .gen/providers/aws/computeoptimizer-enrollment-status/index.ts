@@ -128,7 +128,7 @@ export class ComputeoptimizerEnrollmentStatusTimeoutsOutputReference extends cdk
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -144,7 +144,7 @@ export class ComputeoptimizerEnrollmentStatusTimeoutsOutputReference extends cdk
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -226,7 +226,7 @@ export class ComputeoptimizerEnrollmentStatus extends cdktn.TerraformResource {
   }
 
   // include_member_accounts - computed: true, optional: true, required: false
-  private _includeMemberAccounts?: boolean | cdktn.IResolvable;
+  private _includeMemberAccounts?: boolean | cdktn.IResolvable; 
   public get includeMemberAccounts() {
     return this.getBooleanAttribute('include_member_accounts');
   }
@@ -247,7 +247,7 @@ export class ComputeoptimizerEnrollmentStatus extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -263,7 +263,7 @@ export class ComputeoptimizerEnrollmentStatus extends cdktn.TerraformResource {
   }
 
   // status - computed: false, optional: false, required: true
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }

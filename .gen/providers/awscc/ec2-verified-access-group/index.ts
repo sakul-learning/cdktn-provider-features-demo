@@ -144,7 +144,7 @@ export class Ec2VerifiedAccessGroupSseSpecificationOutputReference extends cdktn
   }
 
   // customer_managed_key_enabled - computed: true, optional: true, required: false
-  private _customerManagedKeyEnabled?: boolean | cdktn.IResolvable;
+  private _customerManagedKeyEnabled?: boolean | cdktn.IResolvable; 
   public get customerManagedKeyEnabled() {
     return this.getBooleanAttribute('customer_managed_key_enabled');
   }
@@ -160,7 +160,7 @@ export class Ec2VerifiedAccessGroupSseSpecificationOutputReference extends cdktn
   }
 
   // kms_key_arn - computed: true, optional: true, required: false
-  private _kmsKeyArn?: string;
+  private _kmsKeyArn?: string; 
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -277,7 +277,7 @@ export class Ec2VerifiedAccessGroupTagsOutputReference extends cdktn.ComplexObje
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -293,7 +293,7 @@ export class Ec2VerifiedAccessGroupTagsOutputReference extends cdktn.ComplexObje
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -397,7 +397,7 @@ export class Ec2VerifiedAccessGroup extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -428,7 +428,7 @@ export class Ec2VerifiedAccessGroup extends cdktn.TerraformResource {
   }
 
   // policy_document - computed: true, optional: true, required: false
-  private _policyDocument?: string;
+  private _policyDocument?: string; 
   public get policyDocument() {
     return this.getStringAttribute('policy_document');
   }
@@ -444,7 +444,7 @@ export class Ec2VerifiedAccessGroup extends cdktn.TerraformResource {
   }
 
   // policy_enabled - computed: true, optional: true, required: false
-  private _policyEnabled?: boolean | cdktn.IResolvable;
+  private _policyEnabled?: boolean | cdktn.IResolvable; 
   public get policyEnabled() {
     return this.getBooleanAttribute('policy_enabled');
   }
@@ -502,7 +502,7 @@ export class Ec2VerifiedAccessGroup extends cdktn.TerraformResource {
   }
 
   // verified_access_instance_id - computed: false, optional: false, required: true
-  private _verifiedAccessInstanceId?: string;
+  private _verifiedAccessInstanceId?: string; 
   public get verifiedAccessInstanceId() {
     return this.getStringAttribute('verified_access_instance_id');
   }

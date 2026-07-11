@@ -81,7 +81,7 @@ export class Mediapackagev2ChannelPolicy extends cdktn.TerraformResource {
   // ==========
 
   // channel_group_name - computed: false, optional: false, required: true
-  private _channelGroupName?: string;
+  private _channelGroupName?: string; 
   public get channelGroupName() {
     return this.getStringAttribute('channel_group_name');
   }
@@ -94,7 +94,7 @@ export class Mediapackagev2ChannelPolicy extends cdktn.TerraformResource {
   }
 
   // channel_name - computed: false, optional: false, required: true
-  private _channelName?: string;
+  private _channelName?: string; 
   public get channelName() {
     return this.getStringAttribute('channel_name');
   }
@@ -112,7 +112,7 @@ export class Mediapackagev2ChannelPolicy extends cdktn.TerraformResource {
   }
 
   // policy - computed: false, optional: false, required: true
-  private _policy?: string;
+  private _policy?: string; 
   public get policy() {
     return this.getStringAttribute('policy');
   }

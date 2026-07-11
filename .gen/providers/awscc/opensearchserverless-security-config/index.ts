@@ -144,7 +144,7 @@ export class OpensearchserverlessSecurityConfigIamFederationOptionsOutputReferen
   }
 
   // group_attribute - computed: true, optional: true, required: false
-  private _groupAttribute?: string;
+  private _groupAttribute?: string; 
   public get groupAttribute() {
     return this.getStringAttribute('group_attribute');
   }
@@ -160,7 +160,7 @@ export class OpensearchserverlessSecurityConfigIamFederationOptionsOutputReferen
   }
 
   // user_attribute - computed: true, optional: true, required: false
-  private _userAttribute?: string;
+  private _userAttribute?: string; 
   public get userAttribute() {
     return this.getStringAttribute('user_attribute');
   }
@@ -309,7 +309,7 @@ export class OpensearchserverlessSecurityConfigIamIdentityCenterOptionsOutputRef
   }
 
   // group_attribute - computed: true, optional: true, required: false
-  private _groupAttribute?: string;
+  private _groupAttribute?: string; 
   public get groupAttribute() {
     return this.getStringAttribute('group_attribute');
   }
@@ -325,7 +325,7 @@ export class OpensearchserverlessSecurityConfigIamIdentityCenterOptionsOutputRef
   }
 
   // instance_arn - computed: true, optional: true, required: false
-  private _instanceArn?: string;
+  private _instanceArn?: string; 
   public get instanceArn() {
     return this.getStringAttribute('instance_arn');
   }
@@ -341,7 +341,7 @@ export class OpensearchserverlessSecurityConfigIamIdentityCenterOptionsOutputRef
   }
 
   // user_attribute - computed: true, optional: true, required: false
-  private _userAttribute?: string;
+  private _userAttribute?: string; 
   public get userAttribute() {
     return this.getStringAttribute('user_attribute');
   }
@@ -513,7 +513,7 @@ export class OpensearchserverlessSecurityConfigSamlOptionsOutputReference extend
   }
 
   // group_attribute - computed: true, optional: true, required: false
-  private _groupAttribute?: string;
+  private _groupAttribute?: string; 
   public get groupAttribute() {
     return this.getStringAttribute('group_attribute');
   }
@@ -529,7 +529,7 @@ export class OpensearchserverlessSecurityConfigSamlOptionsOutputReference extend
   }
 
   // metadata - computed: true, optional: true, required: false
-  private _metadata?: string;
+  private _metadata?: string; 
   public get metadata() {
     return this.getStringAttribute('metadata');
   }
@@ -545,7 +545,7 @@ export class OpensearchserverlessSecurityConfigSamlOptionsOutputReference extend
   }
 
   // open_search_serverless_entity_id - computed: true, optional: true, required: false
-  private _openSearchServerlessEntityId?: string;
+  private _openSearchServerlessEntityId?: string; 
   public get openSearchServerlessEntityId() {
     return this.getStringAttribute('open_search_serverless_entity_id');
   }
@@ -561,7 +561,7 @@ export class OpensearchserverlessSecurityConfigSamlOptionsOutputReference extend
   }
 
   // session_timeout - computed: true, optional: true, required: false
-  private _sessionTimeout?: number;
+  private _sessionTimeout?: number; 
   public get sessionTimeout() {
     return this.getNumberAttribute('session_timeout');
   }
@@ -577,7 +577,7 @@ export class OpensearchserverlessSecurityConfigSamlOptionsOutputReference extend
   }
 
   // user_attribute - computed: true, optional: true, required: false
-  private _userAttribute?: string;
+  private _userAttribute?: string; 
   public get userAttribute() {
     return this.getStringAttribute('user_attribute');
   }
@@ -656,7 +656,7 @@ export class OpensearchserverlessSecurityConfig extends cdktn.TerraformResource 
   // ==========
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -709,7 +709,7 @@ export class OpensearchserverlessSecurityConfig extends cdktn.TerraformResource 
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -746,7 +746,7 @@ export class OpensearchserverlessSecurityConfig extends cdktn.TerraformResource 
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }

@@ -168,7 +168,7 @@ export class NetworkmanagerDeviceAwsLocationOutputReference extends cdktn.Comple
   }
 
   // subnet_arn - computed: true, optional: true, required: false
-  private _subnetArn?: string;
+  private _subnetArn?: string; 
   public get subnetArn() {
     return this.getStringAttribute('subnet_arn');
   }
@@ -184,7 +184,7 @@ export class NetworkmanagerDeviceAwsLocationOutputReference extends cdktn.Comple
   }
 
   // zone - computed: true, optional: true, required: false
-  private _zone?: string;
+  private _zone?: string; 
   public get zone() {
     return this.getStringAttribute('zone');
   }
@@ -318,7 +318,7 @@ export class NetworkmanagerDeviceLocationOutputReference extends cdktn.ComplexOb
   }
 
   // address - computed: true, optional: true, required: false
-  private _address?: string;
+  private _address?: string; 
   public get address() {
     return this.getStringAttribute('address');
   }
@@ -334,7 +334,7 @@ export class NetworkmanagerDeviceLocationOutputReference extends cdktn.ComplexOb
   }
 
   // latitude - computed: true, optional: true, required: false
-  private _latitude?: string;
+  private _latitude?: string; 
   public get latitude() {
     return this.getStringAttribute('latitude');
   }
@@ -350,7 +350,7 @@ export class NetworkmanagerDeviceLocationOutputReference extends cdktn.ComplexOb
   }
 
   // longitude - computed: true, optional: true, required: false
-  private _longitude?: string;
+  private _longitude?: string; 
   public get longitude() {
     return this.getStringAttribute('longitude');
   }
@@ -467,7 +467,7 @@ export class NetworkmanagerDeviceTagsOutputReference extends cdktn.ComplexObject
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -483,7 +483,7 @@ export class NetworkmanagerDeviceTagsOutputReference extends cdktn.ComplexObject
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -607,7 +607,7 @@ export class NetworkmanagerDevice extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -633,7 +633,7 @@ export class NetworkmanagerDevice extends cdktn.TerraformResource {
   }
 
   // global_network_id - computed: false, optional: false, required: true
-  private _globalNetworkId?: string;
+  private _globalNetworkId?: string; 
   public get globalNetworkId() {
     return this.getStringAttribute('global_network_id');
   }
@@ -667,7 +667,7 @@ export class NetworkmanagerDevice extends cdktn.TerraformResource {
   }
 
   // model - computed: true, optional: true, required: false
-  private _model?: string;
+  private _model?: string; 
   public get model() {
     return this.getStringAttribute('model');
   }
@@ -683,7 +683,7 @@ export class NetworkmanagerDevice extends cdktn.TerraformResource {
   }
 
   // serial_number - computed: true, optional: true, required: false
-  private _serialNumber?: string;
+  private _serialNumber?: string; 
   public get serialNumber() {
     return this.getStringAttribute('serial_number');
   }
@@ -699,7 +699,7 @@ export class NetworkmanagerDevice extends cdktn.TerraformResource {
   }
 
   // site_id - computed: true, optional: true, required: false
-  private _siteId?: string;
+  private _siteId?: string; 
   public get siteId() {
     return this.getStringAttribute('site_id');
   }
@@ -736,7 +736,7 @@ export class NetworkmanagerDevice extends cdktn.TerraformResource {
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -752,7 +752,7 @@ export class NetworkmanagerDevice extends cdktn.TerraformResource {
   }
 
   // vendor - computed: true, optional: true, required: false
-  private _vendor?: string;
+  private _vendor?: string; 
   public get vendor() {
     return this.getStringAttribute('vendor');
   }

@@ -134,7 +134,7 @@ export class ConnectIntegrationAssociationTagsOutputReference extends cdktn.Comp
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -150,7 +150,7 @@ export class ConnectIntegrationAssociationTagsOutputReference extends cdktn.Comp
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -252,7 +252,7 @@ export class ConnectIntegrationAssociation extends cdktn.TerraformResource {
   }
 
   // instance_id - computed: false, optional: false, required: true
-  private _instanceId?: string;
+  private _instanceId?: string; 
   public get instanceId() {
     return this.getStringAttribute('instance_id');
   }
@@ -265,7 +265,7 @@ export class ConnectIntegrationAssociation extends cdktn.TerraformResource {
   }
 
   // integration_arn - computed: false, optional: false, required: true
-  private _integrationArn?: string;
+  private _integrationArn?: string; 
   public get integrationArn() {
     return this.getStringAttribute('integration_arn');
   }
@@ -283,7 +283,7 @@ export class ConnectIntegrationAssociation extends cdktn.TerraformResource {
   }
 
   // integration_type - computed: false, optional: false, required: true
-  private _integrationType?: string;
+  private _integrationType?: string; 
   public get integrationType() {
     return this.getStringAttribute('integration_type');
   }

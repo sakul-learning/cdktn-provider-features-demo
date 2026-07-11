@@ -191,7 +191,7 @@ export class ConnectDataTableAttributeValidationEnumOutputReference extends cdkt
   }
 
   // strict - computed: true, optional: true, required: false
-  private _strict?: boolean | cdktn.IResolvable;
+  private _strict?: boolean | cdktn.IResolvable; 
   public get strict() {
     return this.getBooleanAttribute('strict');
   }
@@ -207,7 +207,7 @@ export class ConnectDataTableAttributeValidationEnumOutputReference extends cdkt
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -470,7 +470,7 @@ export class ConnectDataTableAttributeValidationOutputReference extends cdktn.Co
   }
 
   // exclusive_maximum - computed: true, optional: true, required: false
-  private _exclusiveMaximum?: number;
+  private _exclusiveMaximum?: number; 
   public get exclusiveMaximum() {
     return this.getNumberAttribute('exclusive_maximum');
   }
@@ -486,7 +486,7 @@ export class ConnectDataTableAttributeValidationOutputReference extends cdktn.Co
   }
 
   // exclusive_minimum - computed: true, optional: true, required: false
-  private _exclusiveMinimum?: number;
+  private _exclusiveMinimum?: number; 
   public get exclusiveMinimum() {
     return this.getNumberAttribute('exclusive_minimum');
   }
@@ -502,7 +502,7 @@ export class ConnectDataTableAttributeValidationOutputReference extends cdktn.Co
   }
 
   // max_length - computed: true, optional: true, required: false
-  private _maxLength?: number;
+  private _maxLength?: number; 
   public get maxLength() {
     return this.getNumberAttribute('max_length');
   }
@@ -518,7 +518,7 @@ export class ConnectDataTableAttributeValidationOutputReference extends cdktn.Co
   }
 
   // max_values - computed: true, optional: true, required: false
-  private _maxValues?: number;
+  private _maxValues?: number; 
   public get maxValues() {
     return this.getNumberAttribute('max_values');
   }
@@ -534,7 +534,7 @@ export class ConnectDataTableAttributeValidationOutputReference extends cdktn.Co
   }
 
   // maximum - computed: true, optional: true, required: false
-  private _maximum?: number;
+  private _maximum?: number; 
   public get maximum() {
     return this.getNumberAttribute('maximum');
   }
@@ -550,7 +550,7 @@ export class ConnectDataTableAttributeValidationOutputReference extends cdktn.Co
   }
 
   // min_length - computed: true, optional: true, required: false
-  private _minLength?: number;
+  private _minLength?: number; 
   public get minLength() {
     return this.getNumberAttribute('min_length');
   }
@@ -566,7 +566,7 @@ export class ConnectDataTableAttributeValidationOutputReference extends cdktn.Co
   }
 
   // min_values - computed: true, optional: true, required: false
-  private _minValues?: number;
+  private _minValues?: number; 
   public get minValues() {
     return this.getNumberAttribute('min_values');
   }
@@ -582,7 +582,7 @@ export class ConnectDataTableAttributeValidationOutputReference extends cdktn.Co
   }
 
   // minimum - computed: true, optional: true, required: false
-  private _minimum?: number;
+  private _minimum?: number; 
   public get minimum() {
     return this.getNumberAttribute('minimum');
   }
@@ -598,7 +598,7 @@ export class ConnectDataTableAttributeValidationOutputReference extends cdktn.Co
   }
 
   // multiple_of - computed: true, optional: true, required: false
-  private _multipleOf?: number;
+  private _multipleOf?: number; 
   public get multipleOf() {
     return this.getNumberAttribute('multiple_of');
   }
@@ -683,7 +683,7 @@ export class ConnectDataTableAttribute extends cdktn.TerraformResource {
   }
 
   // data_table_arn - computed: true, optional: true, required: false
-  private _dataTableArn?: string;
+  private _dataTableArn?: string; 
   public get dataTableArn() {
     return this.getStringAttribute('data_table_arn');
   }
@@ -699,7 +699,7 @@ export class ConnectDataTableAttribute extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -720,7 +720,7 @@ export class ConnectDataTableAttribute extends cdktn.TerraformResource {
   }
 
   // instance_arn - computed: true, optional: true, required: false
-  private _instanceArn?: string;
+  private _instanceArn?: string; 
   public get instanceArn() {
     return this.getStringAttribute('instance_arn');
   }
@@ -752,7 +752,7 @@ export class ConnectDataTableAttribute extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -768,7 +768,7 @@ export class ConnectDataTableAttribute extends cdktn.TerraformResource {
   }
 
   // primary - computed: true, optional: true, required: false
-  private _primary?: boolean | cdktn.IResolvable;
+  private _primary?: boolean | cdktn.IResolvable; 
   public get primary() {
     return this.getBooleanAttribute('primary');
   }
@@ -800,7 +800,7 @@ export class ConnectDataTableAttribute extends cdktn.TerraformResource {
   }
 
   // value_type - computed: true, optional: true, required: false
-  private _valueType?: string;
+  private _valueType?: string; 
   public get valueType() {
     return this.getStringAttribute('value_type');
   }

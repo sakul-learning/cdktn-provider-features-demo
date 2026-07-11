@@ -138,7 +138,7 @@ export class LocationGeofenceCollectionTagsOutputReference extends cdktn.Complex
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -154,7 +154,7 @@ export class LocationGeofenceCollectionTagsOutputReference extends cdktn.Complex
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -263,7 +263,7 @@ export class LocationGeofenceCollection extends cdktn.TerraformResource {
   }
 
   // collection_name - computed: false, optional: false, required: true
-  private _collectionName?: string;
+  private _collectionName?: string; 
   public get collectionName() {
     return this.getStringAttribute('collection_name');
   }
@@ -281,7 +281,7 @@ export class LocationGeofenceCollection extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -302,7 +302,7 @@ export class LocationGeofenceCollection extends cdktn.TerraformResource {
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -318,7 +318,7 @@ export class LocationGeofenceCollection extends cdktn.TerraformResource {
   }
 
   // pricing_plan - computed: true, optional: true, required: false
-  private _pricingPlan?: string;
+  private _pricingPlan?: string; 
   public get pricingPlan() {
     return this.getStringAttribute('pricing_plan');
   }
@@ -334,7 +334,7 @@ export class LocationGeofenceCollection extends cdktn.TerraformResource {
   }
 
   // pricing_plan_data_source - computed: true, optional: true, required: false
-  private _pricingPlanDataSource?: string;
+  private _pricingPlanDataSource?: string; 
   public get pricingPlanDataSource() {
     return this.getStringAttribute('pricing_plan_data_source');
   }

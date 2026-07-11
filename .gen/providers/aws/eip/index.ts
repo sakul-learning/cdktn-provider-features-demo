@@ -184,7 +184,7 @@ export class EipTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -200,7 +200,7 @@ export class EipTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // read - computed: false, optional: true, required: false
-  private _read?: string;
+  private _read?: string; 
   public get read() {
     return this.getStringAttribute('read');
   }
@@ -216,7 +216,7 @@ export class EipTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -303,7 +303,7 @@ export class Eip extends cdktn.TerraformResource {
   // ==========
 
   // address - computed: false, optional: true, required: false
-  private _address?: string;
+  private _address?: string; 
   public get address() {
     return this.getStringAttribute('address');
   }
@@ -329,7 +329,7 @@ export class Eip extends cdktn.TerraformResource {
   }
 
   // associate_with_private_ip - computed: false, optional: true, required: false
-  private _associateWithPrivateIp?: string;
+  private _associateWithPrivateIp?: string; 
   public get associateWithPrivateIp() {
     return this.getStringAttribute('associate_with_private_ip');
   }
@@ -360,7 +360,7 @@ export class Eip extends cdktn.TerraformResource {
   }
 
   // customer_owned_ipv4_pool - computed: false, optional: true, required: false
-  private _customerOwnedIpv4Pool?: string;
+  private _customerOwnedIpv4Pool?: string; 
   public get customerOwnedIpv4Pool() {
     return this.getStringAttribute('customer_owned_ipv4_pool');
   }
@@ -376,7 +376,7 @@ export class Eip extends cdktn.TerraformResource {
   }
 
   // domain - computed: true, optional: true, required: false
-  private _domain?: string;
+  private _domain?: string; 
   public get domain() {
     return this.getStringAttribute('domain');
   }
@@ -392,7 +392,7 @@ export class Eip extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -408,7 +408,7 @@ export class Eip extends cdktn.TerraformResource {
   }
 
   // instance - computed: true, optional: true, required: false
-  private _instance?: string;
+  private _instance?: string; 
   public get instance() {
     return this.getStringAttribute('instance');
   }
@@ -424,7 +424,7 @@ export class Eip extends cdktn.TerraformResource {
   }
 
   // ipam_pool_id - computed: true, optional: true, required: false
-  private _ipamPoolId?: string;
+  private _ipamPoolId?: string; 
   public get ipamPoolId() {
     return this.getStringAttribute('ipam_pool_id');
   }
@@ -440,7 +440,7 @@ export class Eip extends cdktn.TerraformResource {
   }
 
   // network_border_group - computed: true, optional: true, required: false
-  private _networkBorderGroup?: string;
+  private _networkBorderGroup?: string; 
   public get networkBorderGroup() {
     return this.getStringAttribute('network_border_group');
   }
@@ -456,7 +456,7 @@ export class Eip extends cdktn.TerraformResource {
   }
 
   // network_interface - computed: true, optional: true, required: false
-  private _networkInterface?: string;
+  private _networkInterface?: string; 
   public get networkInterface() {
     return this.getStringAttribute('network_interface');
   }
@@ -497,7 +497,7 @@ export class Eip extends cdktn.TerraformResource {
   }
 
   // public_ipv4_pool - computed: true, optional: true, required: false
-  private _publicIpv4Pool?: string;
+  private _publicIpv4Pool?: string; 
   public get publicIpv4Pool() {
     return this.getStringAttribute('public_ipv4_pool');
   }
@@ -513,7 +513,7 @@ export class Eip extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -529,7 +529,7 @@ export class Eip extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -545,7 +545,7 @@ export class Eip extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

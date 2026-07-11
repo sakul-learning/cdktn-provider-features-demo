@@ -138,7 +138,7 @@ export class LookoutmetricsAlertActionLambdaConfigurationOutputReference extends
   }
 
   // lambda_arn - computed: true, optional: true, required: false
-  private _lambdaArn?: string;
+  private _lambdaArn?: string; 
   public get lambdaArn() {
     return this.getStringAttribute('lambda_arn');
   }
@@ -154,7 +154,7 @@ export class LookoutmetricsAlertActionLambdaConfigurationOutputReference extends
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -269,7 +269,7 @@ export class LookoutmetricsAlertActionSnsConfigurationOutputReference extends cd
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -285,7 +285,7 @@ export class LookoutmetricsAlertActionSnsConfigurationOutputReference extends cd
   }
 
   // sns_topic_arn - computed: true, optional: true, required: false
-  private _snsTopicArn?: string;
+  private _snsTopicArn?: string; 
   public get snsTopicArn() {
     return this.getStringAttribute('sns_topic_arn');
   }
@@ -507,7 +507,7 @@ export class LookoutmetricsAlert extends cdktn.TerraformResource {
   }
 
   // alert_description - computed: true, optional: true, required: false
-  private _alertDescription?: string;
+  private _alertDescription?: string; 
   public get alertDescription() {
     return this.getStringAttribute('alert_description');
   }
@@ -523,7 +523,7 @@ export class LookoutmetricsAlert extends cdktn.TerraformResource {
   }
 
   // alert_name - computed: true, optional: true, required: false
-  private _alertName?: string;
+  private _alertName?: string; 
   public get alertName() {
     return this.getStringAttribute('alert_name');
   }
@@ -539,7 +539,7 @@ export class LookoutmetricsAlert extends cdktn.TerraformResource {
   }
 
   // alert_sensitivity_threshold - computed: false, optional: false, required: true
-  private _alertSensitivityThreshold?: number;
+  private _alertSensitivityThreshold?: number; 
   public get alertSensitivityThreshold() {
     return this.getNumberAttribute('alert_sensitivity_threshold');
   }
@@ -552,7 +552,7 @@ export class LookoutmetricsAlert extends cdktn.TerraformResource {
   }
 
   // anomaly_detector_arn - computed: false, optional: false, required: true
-  private _anomalyDetectorArn?: string;
+  private _anomalyDetectorArn?: string; 
   public get anomalyDetectorArn() {
     return this.getStringAttribute('anomaly_detector_arn');
   }

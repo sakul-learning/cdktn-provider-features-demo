@@ -102,7 +102,7 @@ export class GlueIdentityCenterConfiguration extends cdktn.TerraformResource {
   }
 
   // instance_arn - computed: false, optional: false, required: true
-  private _instanceArn?: string;
+  private _instanceArn?: string; 
   public get instanceArn() {
     return this.getStringAttribute('instance_arn');
   }
@@ -115,7 +115,7 @@ export class GlueIdentityCenterConfiguration extends cdktn.TerraformResource {
   }
 
   // scopes - computed: true, optional: true, required: false
-  private _scopes?: string[];
+  private _scopes?: string[]; 
   public get scopes() {
     return this.getListAttribute('scopes');
   }
@@ -131,7 +131,7 @@ export class GlueIdentityCenterConfiguration extends cdktn.TerraformResource {
   }
 
   // user_background_sessions_enabled - computed: true, optional: true, required: false
-  private _userBackgroundSessionsEnabled?: boolean | cdktn.IResolvable;
+  private _userBackgroundSessionsEnabled?: boolean | cdktn.IResolvable; 
   public get userBackgroundSessionsEnabled() {
     return this.getBooleanAttribute('user_background_sessions_enabled');
   }

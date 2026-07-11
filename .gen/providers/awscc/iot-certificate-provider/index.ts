@@ -128,7 +128,7 @@ export class IotCertificateProviderTagsOutputReference extends cdktn.ComplexObje
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -144,7 +144,7 @@ export class IotCertificateProviderTagsOutputReference extends cdktn.ComplexObje
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -241,7 +241,7 @@ export class IotCertificateProvider extends cdktn.TerraformResource {
   // ==========
 
   // account_default_for_operations - computed: false, optional: false, required: true
-  private _accountDefaultForOperations?: string[];
+  private _accountDefaultForOperations?: string[]; 
   public get accountDefaultForOperations() {
     return cdktn.Fn.tolist(this.getListAttribute('account_default_for_operations'));
   }
@@ -259,7 +259,7 @@ export class IotCertificateProvider extends cdktn.TerraformResource {
   }
 
   // certificate_provider_name - computed: true, optional: true, required: false
-  private _certificateProviderName?: string;
+  private _certificateProviderName?: string; 
   public get certificateProviderName() {
     return this.getStringAttribute('certificate_provider_name');
   }
@@ -280,7 +280,7 @@ export class IotCertificateProvider extends cdktn.TerraformResource {
   }
 
   // lambda_function_arn - computed: false, optional: false, required: true
-  private _lambdaFunctionArn?: string;
+  private _lambdaFunctionArn?: string; 
   public get lambdaFunctionArn() {
     return this.getStringAttribute('lambda_function_arn');
   }

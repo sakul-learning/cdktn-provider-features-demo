@@ -149,7 +149,7 @@ export class CleanroomsCollaborationCreatorMlMemberAbilitiesOutputReference exte
   }
 
   // custom_ml_member_abilities - computed: true, optional: true, required: false
-  private _customMlMemberAbilities?: string[];
+  private _customMlMemberAbilities?: string[]; 
   public get customMlMemberAbilities() {
     return cdktn.Fn.tolist(this.getListAttribute('custom_ml_member_abilities'));
   }
@@ -243,7 +243,7 @@ export class CleanroomsCollaborationCreatorPaymentConfigurationJobComputeOutputR
   }
 
   // is_responsible - computed: true, optional: true, required: false
-  private _isResponsible?: boolean | cdktn.IResolvable;
+  private _isResponsible?: boolean | cdktn.IResolvable; 
   public get isResponsible() {
     return this.getBooleanAttribute('is_responsible');
   }
@@ -337,7 +337,7 @@ export class CleanroomsCollaborationCreatorPaymentConfigurationMachineLearningMo
   }
 
   // is_responsible - computed: true, optional: true, required: false
-  private _isResponsible?: boolean | cdktn.IResolvable;
+  private _isResponsible?: boolean | cdktn.IResolvable; 
   public get isResponsible() {
     return this.getBooleanAttribute('is_responsible');
   }
@@ -431,7 +431,7 @@ export class CleanroomsCollaborationCreatorPaymentConfigurationMachineLearningMo
   }
 
   // is_responsible - computed: true, optional: true, required: false
-  private _isResponsible?: boolean | cdktn.IResolvable;
+  private _isResponsible?: boolean | cdktn.IResolvable; 
   public get isResponsible() {
     return this.getBooleanAttribute('is_responsible');
   }
@@ -525,7 +525,7 @@ export class CleanroomsCollaborationCreatorPaymentConfigurationMachineLearningSy
   }
 
   // is_responsible - computed: true, optional: true, required: false
-  private _isResponsible?: boolean | cdktn.IResolvable;
+  private _isResponsible?: boolean | cdktn.IResolvable; 
   public get isResponsible() {
     return this.getBooleanAttribute('is_responsible');
   }
@@ -779,7 +779,7 @@ export class CleanroomsCollaborationCreatorPaymentConfigurationQueryComputeOutpu
   }
 
   // is_responsible - computed: true, optional: true, required: false
-  private _isResponsible?: boolean | cdktn.IResolvable;
+  private _isResponsible?: boolean | cdktn.IResolvable; 
   public get isResponsible() {
     return this.getBooleanAttribute('is_responsible');
   }
@@ -1084,7 +1084,7 @@ export class CleanroomsCollaborationDataEncryptionMetadataOutputReference extend
   }
 
   // allow_cleartext - computed: true, optional: true, required: false
-  private _allowCleartext?: boolean | cdktn.IResolvable;
+  private _allowCleartext?: boolean | cdktn.IResolvable; 
   public get allowCleartext() {
     return this.getBooleanAttribute('allow_cleartext');
   }
@@ -1100,7 +1100,7 @@ export class CleanroomsCollaborationDataEncryptionMetadataOutputReference extend
   }
 
   // allow_duplicates - computed: true, optional: true, required: false
-  private _allowDuplicates?: boolean | cdktn.IResolvable;
+  private _allowDuplicates?: boolean | cdktn.IResolvable; 
   public get allowDuplicates() {
     return this.getBooleanAttribute('allow_duplicates');
   }
@@ -1116,7 +1116,7 @@ export class CleanroomsCollaborationDataEncryptionMetadataOutputReference extend
   }
 
   // allow_joins_on_columns_with_different_names - computed: true, optional: true, required: false
-  private _allowJoinsOnColumnsWithDifferentNames?: boolean | cdktn.IResolvable;
+  private _allowJoinsOnColumnsWithDifferentNames?: boolean | cdktn.IResolvable; 
   public get allowJoinsOnColumnsWithDifferentNames() {
     return this.getBooleanAttribute('allow_joins_on_columns_with_different_names');
   }
@@ -1132,7 +1132,7 @@ export class CleanroomsCollaborationDataEncryptionMetadataOutputReference extend
   }
 
   // preserve_nulls - computed: true, optional: true, required: false
-  private _preserveNulls?: boolean | cdktn.IResolvable;
+  private _preserveNulls?: boolean | cdktn.IResolvable; 
   public get preserveNulls() {
     return this.getBooleanAttribute('preserve_nulls');
   }
@@ -1226,7 +1226,7 @@ export class CleanroomsCollaborationMembersMlMemberAbilitiesOutputReference exte
   }
 
   // custom_ml_member_abilities - computed: true, optional: true, required: false
-  private _customMlMemberAbilities?: string[];
+  private _customMlMemberAbilities?: string[]; 
   public get customMlMemberAbilities() {
     return cdktn.Fn.tolist(this.getListAttribute('custom_ml_member_abilities'));
   }
@@ -1320,7 +1320,7 @@ export class CleanroomsCollaborationMembersPaymentConfigurationJobComputeOutputR
   }
 
   // is_responsible - computed: true, optional: true, required: false
-  private _isResponsible?: boolean | cdktn.IResolvable;
+  private _isResponsible?: boolean | cdktn.IResolvable; 
   public get isResponsible() {
     return this.getBooleanAttribute('is_responsible');
   }
@@ -1414,7 +1414,7 @@ export class CleanroomsCollaborationMembersPaymentConfigurationMachineLearningMo
   }
 
   // is_responsible - computed: true, optional: true, required: false
-  private _isResponsible?: boolean | cdktn.IResolvable;
+  private _isResponsible?: boolean | cdktn.IResolvable; 
   public get isResponsible() {
     return this.getBooleanAttribute('is_responsible');
   }
@@ -1508,7 +1508,7 @@ export class CleanroomsCollaborationMembersPaymentConfigurationMachineLearningMo
   }
 
   // is_responsible - computed: true, optional: true, required: false
-  private _isResponsible?: boolean | cdktn.IResolvable;
+  private _isResponsible?: boolean | cdktn.IResolvable; 
   public get isResponsible() {
     return this.getBooleanAttribute('is_responsible');
   }
@@ -1602,7 +1602,7 @@ export class CleanroomsCollaborationMembersPaymentConfigurationMachineLearningSy
   }
 
   // is_responsible - computed: true, optional: true, required: false
-  private _isResponsible?: boolean | cdktn.IResolvable;
+  private _isResponsible?: boolean | cdktn.IResolvable; 
   public get isResponsible() {
     return this.getBooleanAttribute('is_responsible');
   }
@@ -1856,7 +1856,7 @@ export class CleanroomsCollaborationMembersPaymentConfigurationQueryComputeOutpu
   }
 
   // is_responsible - computed: true, optional: true, required: false
-  private _isResponsible?: boolean | cdktn.IResolvable;
+  private _isResponsible?: boolean | cdktn.IResolvable; 
   public get isResponsible() {
     return this.getBooleanAttribute('is_responsible');
   }
@@ -2180,7 +2180,7 @@ export class CleanroomsCollaborationMembersOutputReference extends cdktn.Complex
   }
 
   // account_id - computed: true, optional: true, required: false
-  private _accountId?: string;
+  private _accountId?: string; 
   public get accountId() {
     return this.getStringAttribute('account_id');
   }
@@ -2196,7 +2196,7 @@ export class CleanroomsCollaborationMembersOutputReference extends cdktn.Complex
   }
 
   // display_name - computed: true, optional: true, required: false
-  private _displayName?: string;
+  private _displayName?: string; 
   public get displayName() {
     return this.getStringAttribute('display_name');
   }
@@ -2212,7 +2212,7 @@ export class CleanroomsCollaborationMembersOutputReference extends cdktn.Complex
   }
 
   // member_abilities - computed: true, optional: true, required: false
-  private _memberAbilities?: string[];
+  private _memberAbilities?: string[]; 
   public get memberAbilities() {
     return cdktn.Fn.tolist(this.getListAttribute('member_abilities'));
   }
@@ -2377,7 +2377,7 @@ export class CleanroomsCollaborationTagsOutputReference extends cdktn.ComplexObj
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -2393,7 +2393,7 @@ export class CleanroomsCollaborationTagsOutputReference extends cdktn.ComplexObj
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2501,7 +2501,7 @@ export class CleanroomsCollaboration extends cdktn.TerraformResource {
   // ==========
 
   // allowed_result_regions - computed: true, optional: true, required: false
-  private _allowedResultRegions?: string[];
+  private _allowedResultRegions?: string[]; 
   public get allowedResultRegions() {
     return cdktn.Fn.tolist(this.getListAttribute('allowed_result_regions'));
   }
@@ -2517,7 +2517,7 @@ export class CleanroomsCollaboration extends cdktn.TerraformResource {
   }
 
   // analytics_engine - computed: true, optional: true, required: false
-  private _analyticsEngine?: string;
+  private _analyticsEngine?: string; 
   public get analyticsEngine() {
     return this.getStringAttribute('analytics_engine');
   }
@@ -2538,7 +2538,7 @@ export class CleanroomsCollaboration extends cdktn.TerraformResource {
   }
 
   // auto_approved_change_types - computed: true, optional: true, required: false
-  private _autoApprovedChangeTypes?: string[];
+  private _autoApprovedChangeTypes?: string[]; 
   public get autoApprovedChangeTypes() {
     return cdktn.Fn.tolist(this.getListAttribute('auto_approved_change_types'));
   }
@@ -2559,7 +2559,7 @@ export class CleanroomsCollaboration extends cdktn.TerraformResource {
   }
 
   // creator_display_name - computed: false, optional: false, required: true
-  private _creatorDisplayName?: string;
+  private _creatorDisplayName?: string; 
   public get creatorDisplayName() {
     return this.getStringAttribute('creator_display_name');
   }
@@ -2572,7 +2572,7 @@ export class CleanroomsCollaboration extends cdktn.TerraformResource {
   }
 
   // creator_member_abilities - computed: true, optional: true, required: false
-  private _creatorMemberAbilities?: string[];
+  private _creatorMemberAbilities?: string[]; 
   public get creatorMemberAbilities() {
     return cdktn.Fn.tolist(this.getListAttribute('creator_member_abilities'));
   }
@@ -2636,7 +2636,7 @@ export class CleanroomsCollaboration extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: false, required: true
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -2654,7 +2654,7 @@ export class CleanroomsCollaboration extends cdktn.TerraformResource {
   }
 
   // is_metrics_enabled - computed: true, optional: true, required: false
-  private _isMetricsEnabled?: boolean | cdktn.IResolvable;
+  private _isMetricsEnabled?: boolean | cdktn.IResolvable; 
   public get isMetricsEnabled() {
     return this.getBooleanAttribute('is_metrics_enabled');
   }
@@ -2670,7 +2670,7 @@ export class CleanroomsCollaboration extends cdktn.TerraformResource {
   }
 
   // job_log_status - computed: true, optional: true, required: false
-  private _jobLogStatus?: string;
+  private _jobLogStatus?: string; 
   public get jobLogStatus() {
     return this.getStringAttribute('job_log_status');
   }
@@ -2702,7 +2702,7 @@ export class CleanroomsCollaboration extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2715,7 +2715,7 @@ export class CleanroomsCollaboration extends cdktn.TerraformResource {
   }
 
   // query_log_status - computed: false, optional: false, required: true
-  private _queryLogStatus?: string;
+  private _queryLogStatus?: string; 
   public get queryLogStatus() {
     return this.getStringAttribute('query_log_status');
   }

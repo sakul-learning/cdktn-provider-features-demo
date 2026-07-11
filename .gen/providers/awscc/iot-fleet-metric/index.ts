@@ -168,7 +168,7 @@ export class IotFleetMetricAggregationTypeOutputReference extends cdktn.ComplexO
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -184,7 +184,7 @@ export class IotFleetMetricAggregationTypeOutputReference extends cdktn.ComplexO
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -301,7 +301,7 @@ export class IotFleetMetricTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -317,7 +317,7 @@ export class IotFleetMetricTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -420,7 +420,7 @@ export class IotFleetMetric extends cdktn.TerraformResource {
   // ==========
 
   // aggregation_field - computed: true, optional: true, required: false
-  private _aggregationField?: string;
+  private _aggregationField?: string; 
   public get aggregationField() {
     return this.getStringAttribute('aggregation_field');
   }
@@ -457,7 +457,7 @@ export class IotFleetMetric extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -478,7 +478,7 @@ export class IotFleetMetric extends cdktn.TerraformResource {
   }
 
   // index_name - computed: true, optional: true, required: false
-  private _indexName?: string;
+  private _indexName?: string; 
   public get indexName() {
     return this.getStringAttribute('index_name');
   }
@@ -504,7 +504,7 @@ export class IotFleetMetric extends cdktn.TerraformResource {
   }
 
   // metric_name - computed: false, optional: false, required: true
-  private _metricName?: string;
+  private _metricName?: string; 
   public get metricName() {
     return this.getStringAttribute('metric_name');
   }
@@ -517,7 +517,7 @@ export class IotFleetMetric extends cdktn.TerraformResource {
   }
 
   // period - computed: true, optional: true, required: false
-  private _period?: number;
+  private _period?: number; 
   public get period() {
     return this.getNumberAttribute('period');
   }
@@ -533,7 +533,7 @@ export class IotFleetMetric extends cdktn.TerraformResource {
   }
 
   // query_string - computed: true, optional: true, required: false
-  private _queryString?: string;
+  private _queryString?: string; 
   public get queryString() {
     return this.getStringAttribute('query_string');
   }
@@ -549,7 +549,7 @@ export class IotFleetMetric extends cdktn.TerraformResource {
   }
 
   // query_version - computed: true, optional: true, required: false
-  private _queryVersion?: string;
+  private _queryVersion?: string; 
   public get queryVersion() {
     return this.getStringAttribute('query_version');
   }
@@ -581,7 +581,7 @@ export class IotFleetMetric extends cdktn.TerraformResource {
   }
 
   // unit - computed: true, optional: true, required: false
-  private _unit?: string;
+  private _unit?: string; 
   public get unit() {
     return this.getStringAttribute('unit');
   }

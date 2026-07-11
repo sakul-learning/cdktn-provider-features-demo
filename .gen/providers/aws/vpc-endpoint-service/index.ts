@@ -266,7 +266,7 @@ export class VpcEndpointServiceTimeoutsOutputReference extends cdktn.ComplexObje
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -282,7 +282,7 @@ export class VpcEndpointServiceTimeoutsOutputReference extends cdktn.ComplexObje
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -298,7 +298,7 @@ export class VpcEndpointServiceTimeoutsOutputReference extends cdktn.ComplexObje
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -383,7 +383,7 @@ export class VpcEndpointService extends cdktn.TerraformResource {
   // ==========
 
   // acceptance_required - computed: false, optional: false, required: true
-  private _acceptanceRequired?: boolean | cdktn.IResolvable;
+  private _acceptanceRequired?: boolean | cdktn.IResolvable; 
   public get acceptanceRequired() {
     return this.getBooleanAttribute('acceptance_required');
   }
@@ -396,7 +396,7 @@ export class VpcEndpointService extends cdktn.TerraformResource {
   }
 
   // allowed_principals - computed: true, optional: true, required: false
-  private _allowedPrincipals?: string[];
+  private _allowedPrincipals?: string[]; 
   public get allowedPrincipals() {
     return cdktn.Fn.tolist(this.getListAttribute('allowed_principals'));
   }
@@ -427,7 +427,7 @@ export class VpcEndpointService extends cdktn.TerraformResource {
   }
 
   // gateway_load_balancer_arns - computed: false, optional: true, required: false
-  private _gatewayLoadBalancerArns?: string[];
+  private _gatewayLoadBalancerArns?: string[]; 
   public get gatewayLoadBalancerArns() {
     return cdktn.Fn.tolist(this.getListAttribute('gateway_load_balancer_arns'));
   }
@@ -443,7 +443,7 @@ export class VpcEndpointService extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -464,7 +464,7 @@ export class VpcEndpointService extends cdktn.TerraformResource {
   }
 
   // network_load_balancer_arns - computed: false, optional: true, required: false
-  private _networkLoadBalancerArns?: string[];
+  private _networkLoadBalancerArns?: string[]; 
   public get networkLoadBalancerArns() {
     return cdktn.Fn.tolist(this.getListAttribute('network_load_balancer_arns'));
   }
@@ -480,7 +480,7 @@ export class VpcEndpointService extends cdktn.TerraformResource {
   }
 
   // private_dns_name - computed: true, optional: true, required: false
-  private _privateDnsName?: string;
+  private _privateDnsName?: string; 
   public get privateDnsName() {
     return this.getStringAttribute('private_dns_name');
   }
@@ -502,7 +502,7 @@ export class VpcEndpointService extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -533,7 +533,7 @@ export class VpcEndpointService extends cdktn.TerraformResource {
   }
 
   // supported_ip_address_types - computed: true, optional: true, required: false
-  private _supportedIpAddressTypes?: string[];
+  private _supportedIpAddressTypes?: string[]; 
   public get supportedIpAddressTypes() {
     return cdktn.Fn.tolist(this.getListAttribute('supported_ip_address_types'));
   }
@@ -549,7 +549,7 @@ export class VpcEndpointService extends cdktn.TerraformResource {
   }
 
   // supported_regions - computed: true, optional: true, required: false
-  private _supportedRegions?: string[];
+  private _supportedRegions?: string[]; 
   public get supportedRegions() {
     return cdktn.Fn.tolist(this.getListAttribute('supported_regions'));
   }
@@ -565,7 +565,7 @@ export class VpcEndpointService extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -581,7 +581,7 @@ export class VpcEndpointService extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

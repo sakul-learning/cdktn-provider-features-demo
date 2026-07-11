@@ -99,7 +99,7 @@ export class CloudfrontPublicKey extends cdktn.TerraformResource {
   }
 
   // comment - computed: false, optional: true, required: false
-  private _comment?: string;
+  private _comment?: string; 
   public get comment() {
     return this.getStringAttribute('comment');
   }
@@ -115,7 +115,7 @@ export class CloudfrontPublicKey extends cdktn.TerraformResource {
   }
 
   // encoded_key - computed: false, optional: false, required: true
-  private _encodedKey?: string;
+  private _encodedKey?: string; 
   public get encodedKey() {
     return this.getStringAttribute('encoded_key');
   }
@@ -133,7 +133,7 @@ export class CloudfrontPublicKey extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -149,7 +149,7 @@ export class CloudfrontPublicKey extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -165,7 +165,7 @@ export class CloudfrontPublicKey extends cdktn.TerraformResource {
   }
 
   // name_prefix - computed: true, optional: true, required: false
-  private _namePrefix?: string;
+  private _namePrefix?: string; 
   public get namePrefix() {
     return this.getStringAttribute('name_prefix');
   }

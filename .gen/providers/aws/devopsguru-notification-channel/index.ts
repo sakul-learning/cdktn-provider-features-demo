@@ -124,7 +124,7 @@ export class DevopsguruNotificationChannelFiltersOutputReference extends cdktn.C
   }
 
   // message_types - computed: false, optional: true, required: false
-  private _messageTypes?: string[];
+  private _messageTypes?: string[]; 
   public get messageTypes() {
     return cdktn.Fn.tolist(this.getListAttribute('message_types'));
   }
@@ -140,7 +140,7 @@ export class DevopsguruNotificationChannelFiltersOutputReference extends cdktn.C
   }
 
   // severities - computed: false, optional: true, required: false
-  private _severities?: string[];
+  private _severities?: string[]; 
   public get severities() {
     return cdktn.Fn.tolist(this.getListAttribute('severities'));
   }
@@ -256,7 +256,7 @@ export class DevopsguruNotificationChannelSnsOutputReference extends cdktn.Compl
   }
 
   // topic_arn - computed: false, optional: false, required: true
-  private _topicArn?: string;
+  private _topicArn?: string; 
   public get topicArn() {
     return this.getStringAttribute('topic_arn');
   }
@@ -354,7 +354,7 @@ export class DevopsguruNotificationChannel extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

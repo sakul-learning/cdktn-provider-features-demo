@@ -216,7 +216,7 @@ export class NeptuneClusterInstanceTimeoutsOutputReference extends cdktn.Complex
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -232,7 +232,7 @@ export class NeptuneClusterInstanceTimeoutsOutputReference extends cdktn.Complex
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -248,7 +248,7 @@ export class NeptuneClusterInstanceTimeoutsOutputReference extends cdktn.Complex
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -348,7 +348,7 @@ export class NeptuneClusterInstance extends cdktn.TerraformResource {
   }
 
   // apply_immediately - computed: true, optional: true, required: false
-  private _applyImmediately?: boolean | cdktn.IResolvable;
+  private _applyImmediately?: boolean | cdktn.IResolvable; 
   public get applyImmediately() {
     return this.getBooleanAttribute('apply_immediately');
   }
@@ -369,7 +369,7 @@ export class NeptuneClusterInstance extends cdktn.TerraformResource {
   }
 
   // auto_minor_version_upgrade - computed: false, optional: true, required: false
-  private _autoMinorVersionUpgrade?: boolean | cdktn.IResolvable;
+  private _autoMinorVersionUpgrade?: boolean | cdktn.IResolvable; 
   public get autoMinorVersionUpgrade() {
     return this.getBooleanAttribute('auto_minor_version_upgrade');
   }
@@ -385,7 +385,7 @@ export class NeptuneClusterInstance extends cdktn.TerraformResource {
   }
 
   // availability_zone - computed: true, optional: true, required: false
-  private _availabilityZone?: string;
+  private _availabilityZone?: string; 
   public get availabilityZone() {
     return this.getStringAttribute('availability_zone');
   }
@@ -401,7 +401,7 @@ export class NeptuneClusterInstance extends cdktn.TerraformResource {
   }
 
   // cluster_identifier - computed: false, optional: false, required: true
-  private _clusterIdentifier?: string;
+  private _clusterIdentifier?: string; 
   public get clusterIdentifier() {
     return this.getStringAttribute('cluster_identifier');
   }
@@ -424,7 +424,7 @@ export class NeptuneClusterInstance extends cdktn.TerraformResource {
   }
 
   // engine - computed: false, optional: true, required: false
-  private _engine?: string;
+  private _engine?: string; 
   public get engine() {
     return this.getStringAttribute('engine');
   }
@@ -440,7 +440,7 @@ export class NeptuneClusterInstance extends cdktn.TerraformResource {
   }
 
   // engine_version - computed: true, optional: true, required: false
-  private _engineVersion?: string;
+  private _engineVersion?: string; 
   public get engineVersion() {
     return this.getStringAttribute('engine_version');
   }
@@ -456,7 +456,7 @@ export class NeptuneClusterInstance extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -472,7 +472,7 @@ export class NeptuneClusterInstance extends cdktn.TerraformResource {
   }
 
   // identifier - computed: true, optional: true, required: false
-  private _identifier?: string;
+  private _identifier?: string; 
   public get identifier() {
     return this.getStringAttribute('identifier');
   }
@@ -488,7 +488,7 @@ export class NeptuneClusterInstance extends cdktn.TerraformResource {
   }
 
   // identifier_prefix - computed: true, optional: true, required: false
-  private _identifierPrefix?: string;
+  private _identifierPrefix?: string; 
   public get identifierPrefix() {
     return this.getStringAttribute('identifier_prefix');
   }
@@ -504,7 +504,7 @@ export class NeptuneClusterInstance extends cdktn.TerraformResource {
   }
 
   // instance_class - computed: false, optional: false, required: true
-  private _instanceClass?: string;
+  private _instanceClass?: string; 
   public get instanceClass() {
     return this.getStringAttribute('instance_class');
   }
@@ -522,7 +522,7 @@ export class NeptuneClusterInstance extends cdktn.TerraformResource {
   }
 
   // neptune_parameter_group_name - computed: true, optional: true, required: false
-  private _neptuneParameterGroupName?: string;
+  private _neptuneParameterGroupName?: string; 
   public get neptuneParameterGroupName() {
     return this.getStringAttribute('neptune_parameter_group_name');
   }
@@ -538,7 +538,7 @@ export class NeptuneClusterInstance extends cdktn.TerraformResource {
   }
 
   // neptune_subnet_group_name - computed: true, optional: true, required: false
-  private _neptuneSubnetGroupName?: string;
+  private _neptuneSubnetGroupName?: string; 
   public get neptuneSubnetGroupName() {
     return this.getStringAttribute('neptune_subnet_group_name');
   }
@@ -554,7 +554,7 @@ export class NeptuneClusterInstance extends cdktn.TerraformResource {
   }
 
   // port - computed: false, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -570,7 +570,7 @@ export class NeptuneClusterInstance extends cdktn.TerraformResource {
   }
 
   // preferred_backup_window - computed: true, optional: true, required: false
-  private _preferredBackupWindow?: string;
+  private _preferredBackupWindow?: string; 
   public get preferredBackupWindow() {
     return this.getStringAttribute('preferred_backup_window');
   }
@@ -586,7 +586,7 @@ export class NeptuneClusterInstance extends cdktn.TerraformResource {
   }
 
   // preferred_maintenance_window - computed: true, optional: true, required: false
-  private _preferredMaintenanceWindow?: string;
+  private _preferredMaintenanceWindow?: string; 
   public get preferredMaintenanceWindow() {
     return this.getStringAttribute('preferred_maintenance_window');
   }
@@ -602,7 +602,7 @@ export class NeptuneClusterInstance extends cdktn.TerraformResource {
   }
 
   // promotion_tier - computed: false, optional: true, required: false
-  private _promotionTier?: number;
+  private _promotionTier?: number; 
   public get promotionTier() {
     return this.getNumberAttribute('promotion_tier');
   }
@@ -618,7 +618,7 @@ export class NeptuneClusterInstance extends cdktn.TerraformResource {
   }
 
   // publicly_accessible - computed: false, optional: true, required: false
-  private _publiclyAccessible?: boolean | cdktn.IResolvable;
+  private _publiclyAccessible?: boolean | cdktn.IResolvable; 
   public get publiclyAccessible() {
     return this.getBooleanAttribute('publicly_accessible');
   }
@@ -634,7 +634,7 @@ export class NeptuneClusterInstance extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -650,7 +650,7 @@ export class NeptuneClusterInstance extends cdktn.TerraformResource {
   }
 
   // skip_final_snapshot - computed: false, optional: true, required: false
-  private _skipFinalSnapshot?: boolean | cdktn.IResolvable;
+  private _skipFinalSnapshot?: boolean | cdktn.IResolvable; 
   public get skipFinalSnapshot() {
     return this.getBooleanAttribute('skip_final_snapshot');
   }
@@ -676,7 +676,7 @@ export class NeptuneClusterInstance extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -692,7 +692,7 @@ export class NeptuneClusterInstance extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

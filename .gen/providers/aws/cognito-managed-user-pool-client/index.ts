@@ -261,7 +261,7 @@ export class CognitoManagedUserPoolClientAnalyticsConfigurationOutputReference e
   }
 
   // application_arn - computed: false, optional: true, required: false
-  private _applicationArn?: string;
+  private _applicationArn?: string; 
   public get applicationArn() {
     return this.getStringAttribute('application_arn');
   }
@@ -277,7 +277,7 @@ export class CognitoManagedUserPoolClientAnalyticsConfigurationOutputReference e
   }
 
   // application_id - computed: false, optional: true, required: false
-  private _applicationId?: string;
+  private _applicationId?: string; 
   public get applicationId() {
     return this.getStringAttribute('application_id');
   }
@@ -293,7 +293,7 @@ export class CognitoManagedUserPoolClientAnalyticsConfigurationOutputReference e
   }
 
   // external_id - computed: false, optional: true, required: false
-  private _externalId?: string;
+  private _externalId?: string; 
   public get externalId() {
     return this.getStringAttribute('external_id');
   }
@@ -309,7 +309,7 @@ export class CognitoManagedUserPoolClientAnalyticsConfigurationOutputReference e
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -325,7 +325,7 @@ export class CognitoManagedUserPoolClientAnalyticsConfigurationOutputReference e
   }
 
   // user_data_shared - computed: true, optional: true, required: false
-  private _userDataShared?: boolean | cdktn.IResolvable;
+  private _userDataShared?: boolean | cdktn.IResolvable; 
   public get userDataShared() {
     return this.getBooleanAttribute('user_data_shared');
   }
@@ -458,7 +458,7 @@ export class CognitoManagedUserPoolClientRefreshTokenRotationOutputReference ext
   }
 
   // feature - computed: false, optional: false, required: true
-  private _feature?: string;
+  private _feature?: string; 
   public get feature() {
     return this.getStringAttribute('feature');
   }
@@ -471,7 +471,7 @@ export class CognitoManagedUserPoolClientRefreshTokenRotationOutputReference ext
   }
 
   // retry_grace_period_seconds - computed: false, optional: true, required: false
-  private _retryGracePeriodSeconds?: number;
+  private _retryGracePeriodSeconds?: number; 
   public get retryGracePeriodSeconds() {
     return this.getNumberAttribute('retry_grace_period_seconds');
   }
@@ -621,7 +621,7 @@ export class CognitoManagedUserPoolClientTokenValidityUnitsOutputReference exten
   }
 
   // access_token - computed: true, optional: true, required: false
-  private _accessToken?: string;
+  private _accessToken?: string; 
   public get accessToken() {
     return this.getStringAttribute('access_token');
   }
@@ -637,7 +637,7 @@ export class CognitoManagedUserPoolClientTokenValidityUnitsOutputReference exten
   }
 
   // id_token - computed: true, optional: true, required: false
-  private _idToken?: string;
+  private _idToken?: string; 
   public get idToken() {
     return this.getStringAttribute('id_token');
   }
@@ -653,7 +653,7 @@ export class CognitoManagedUserPoolClientTokenValidityUnitsOutputReference exten
   }
 
   // refresh_token - computed: true, optional: true, required: false
-  private _refreshToken?: string;
+  private _refreshToken?: string; 
   public get refreshToken() {
     return this.getStringAttribute('refresh_token');
   }
@@ -770,7 +770,7 @@ export class CognitoManagedUserPoolClient extends cdktn.TerraformResource {
   // ==========
 
   // access_token_validity - computed: true, optional: true, required: false
-  private _accessTokenValidity?: number;
+  private _accessTokenValidity?: number; 
   public get accessTokenValidity() {
     return this.getNumberAttribute('access_token_validity');
   }
@@ -786,7 +786,7 @@ export class CognitoManagedUserPoolClient extends cdktn.TerraformResource {
   }
 
   // allowed_oauth_flows - computed: true, optional: true, required: false
-  private _allowedOauthFlows?: string[];
+  private _allowedOauthFlows?: string[]; 
   public get allowedOauthFlows() {
     return cdktn.Fn.tolist(this.getListAttribute('allowed_oauth_flows'));
   }
@@ -802,7 +802,7 @@ export class CognitoManagedUserPoolClient extends cdktn.TerraformResource {
   }
 
   // allowed_oauth_flows_user_pool_client - computed: true, optional: true, required: false
-  private _allowedOauthFlowsUserPoolClient?: boolean | cdktn.IResolvable;
+  private _allowedOauthFlowsUserPoolClient?: boolean | cdktn.IResolvable; 
   public get allowedOauthFlowsUserPoolClient() {
     return this.getBooleanAttribute('allowed_oauth_flows_user_pool_client');
   }
@@ -818,7 +818,7 @@ export class CognitoManagedUserPoolClient extends cdktn.TerraformResource {
   }
 
   // allowed_oauth_scopes - computed: true, optional: true, required: false
-  private _allowedOauthScopes?: string[];
+  private _allowedOauthScopes?: string[]; 
   public get allowedOauthScopes() {
     return cdktn.Fn.tolist(this.getListAttribute('allowed_oauth_scopes'));
   }
@@ -834,7 +834,7 @@ export class CognitoManagedUserPoolClient extends cdktn.TerraformResource {
   }
 
   // auth_session_validity - computed: true, optional: true, required: false
-  private _authSessionValidity?: number;
+  private _authSessionValidity?: number; 
   public get authSessionValidity() {
     return this.getNumberAttribute('auth_session_validity');
   }
@@ -850,7 +850,7 @@ export class CognitoManagedUserPoolClient extends cdktn.TerraformResource {
   }
 
   // callback_urls - computed: true, optional: true, required: false
-  private _callbackUrls?: string[];
+  private _callbackUrls?: string[]; 
   public get callbackUrls() {
     return cdktn.Fn.tolist(this.getListAttribute('callback_urls'));
   }
@@ -871,7 +871,7 @@ export class CognitoManagedUserPoolClient extends cdktn.TerraformResource {
   }
 
   // default_redirect_uri - computed: true, optional: true, required: false
-  private _defaultRedirectUri?: string;
+  private _defaultRedirectUri?: string; 
   public get defaultRedirectUri() {
     return this.getStringAttribute('default_redirect_uri');
   }
@@ -887,7 +887,7 @@ export class CognitoManagedUserPoolClient extends cdktn.TerraformResource {
   }
 
   // enable_propagate_additional_user_context_data - computed: true, optional: true, required: false
-  private _enablePropagateAdditionalUserContextData?: boolean | cdktn.IResolvable;
+  private _enablePropagateAdditionalUserContextData?: boolean | cdktn.IResolvable; 
   public get enablePropagateAdditionalUserContextData() {
     return this.getBooleanAttribute('enable_propagate_additional_user_context_data');
   }
@@ -903,7 +903,7 @@ export class CognitoManagedUserPoolClient extends cdktn.TerraformResource {
   }
 
   // enable_token_revocation - computed: true, optional: true, required: false
-  private _enableTokenRevocation?: boolean | cdktn.IResolvable;
+  private _enableTokenRevocation?: boolean | cdktn.IResolvable; 
   public get enableTokenRevocation() {
     return this.getBooleanAttribute('enable_token_revocation');
   }
@@ -919,7 +919,7 @@ export class CognitoManagedUserPoolClient extends cdktn.TerraformResource {
   }
 
   // explicit_auth_flows - computed: true, optional: true, required: false
-  private _explicitAuthFlows?: string[];
+  private _explicitAuthFlows?: string[]; 
   public get explicitAuthFlows() {
     return cdktn.Fn.tolist(this.getListAttribute('explicit_auth_flows'));
   }
@@ -940,7 +940,7 @@ export class CognitoManagedUserPoolClient extends cdktn.TerraformResource {
   }
 
   // id_token_validity - computed: true, optional: true, required: false
-  private _idTokenValidity?: number;
+  private _idTokenValidity?: number; 
   public get idTokenValidity() {
     return this.getNumberAttribute('id_token_validity');
   }
@@ -956,7 +956,7 @@ export class CognitoManagedUserPoolClient extends cdktn.TerraformResource {
   }
 
   // logout_urls - computed: true, optional: true, required: false
-  private _logoutUrls?: string[];
+  private _logoutUrls?: string[]; 
   public get logoutUrls() {
     return cdktn.Fn.tolist(this.getListAttribute('logout_urls'));
   }
@@ -977,7 +977,7 @@ export class CognitoManagedUserPoolClient extends cdktn.TerraformResource {
   }
 
   // name_pattern - computed: false, optional: true, required: false
-  private _namePattern?: string;
+  private _namePattern?: string; 
   public get namePattern() {
     return this.getStringAttribute('name_pattern');
   }
@@ -993,7 +993,7 @@ export class CognitoManagedUserPoolClient extends cdktn.TerraformResource {
   }
 
   // name_prefix - computed: false, optional: true, required: false
-  private _namePrefix?: string;
+  private _namePrefix?: string; 
   public get namePrefix() {
     return this.getStringAttribute('name_prefix');
   }
@@ -1009,7 +1009,7 @@ export class CognitoManagedUserPoolClient extends cdktn.TerraformResource {
   }
 
   // prevent_user_existence_errors - computed: true, optional: true, required: false
-  private _preventUserExistenceErrors?: string;
+  private _preventUserExistenceErrors?: string; 
   public get preventUserExistenceErrors() {
     return this.getStringAttribute('prevent_user_existence_errors');
   }
@@ -1025,7 +1025,7 @@ export class CognitoManagedUserPoolClient extends cdktn.TerraformResource {
   }
 
   // read_attributes - computed: true, optional: true, required: false
-  private _readAttributes?: string[];
+  private _readAttributes?: string[]; 
   public get readAttributes() {
     return cdktn.Fn.tolist(this.getListAttribute('read_attributes'));
   }
@@ -1041,7 +1041,7 @@ export class CognitoManagedUserPoolClient extends cdktn.TerraformResource {
   }
 
   // refresh_token_validity - computed: true, optional: true, required: false
-  private _refreshTokenValidity?: number;
+  private _refreshTokenValidity?: number; 
   public get refreshTokenValidity() {
     return this.getNumberAttribute('refresh_token_validity');
   }
@@ -1057,7 +1057,7 @@ export class CognitoManagedUserPoolClient extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1073,7 +1073,7 @@ export class CognitoManagedUserPoolClient extends cdktn.TerraformResource {
   }
 
   // supported_identity_providers - computed: true, optional: true, required: false
-  private _supportedIdentityProviders?: string[];
+  private _supportedIdentityProviders?: string[]; 
   public get supportedIdentityProviders() {
     return cdktn.Fn.tolist(this.getListAttribute('supported_identity_providers'));
   }
@@ -1089,7 +1089,7 @@ export class CognitoManagedUserPoolClient extends cdktn.TerraformResource {
   }
 
   // user_pool_id - computed: false, optional: false, required: true
-  private _userPoolId?: string;
+  private _userPoolId?: string; 
   public get userPoolId() {
     return this.getStringAttribute('user_pool_id');
   }
@@ -1102,7 +1102,7 @@ export class CognitoManagedUserPoolClient extends cdktn.TerraformResource {
   }
 
   // write_attributes - computed: true, optional: true, required: false
-  private _writeAttributes?: string[];
+  private _writeAttributes?: string[]; 
   public get writeAttributes() {
     return cdktn.Fn.tolist(this.getListAttribute('write_attributes'));
   }

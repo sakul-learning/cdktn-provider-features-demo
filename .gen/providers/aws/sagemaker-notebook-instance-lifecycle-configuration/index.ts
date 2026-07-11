@@ -111,7 +111,7 @@ export class SagemakerNotebookInstanceLifecycleConfiguration extends cdktn.Terra
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -127,7 +127,7 @@ export class SagemakerNotebookInstanceLifecycleConfiguration extends cdktn.Terra
   }
 
   // name - computed: false, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -143,7 +143,7 @@ export class SagemakerNotebookInstanceLifecycleConfiguration extends cdktn.Terra
   }
 
   // on_create - computed: false, optional: true, required: false
-  private _onCreate?: string;
+  private _onCreate?: string; 
   public get onCreate() {
     return this.getStringAttribute('on_create');
   }
@@ -159,7 +159,7 @@ export class SagemakerNotebookInstanceLifecycleConfiguration extends cdktn.Terra
   }
 
   // on_start - computed: false, optional: true, required: false
-  private _onStart?: string;
+  private _onStart?: string; 
   public get onStart() {
     return this.getStringAttribute('on_start');
   }
@@ -175,7 +175,7 @@ export class SagemakerNotebookInstanceLifecycleConfiguration extends cdktn.Terra
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -191,7 +191,7 @@ export class SagemakerNotebookInstanceLifecycleConfiguration extends cdktn.Terra
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -207,7 +207,7 @@ export class SagemakerNotebookInstanceLifecycleConfiguration extends cdktn.Terra
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

@@ -88,7 +88,7 @@ export class ConfigRetentionConfiguration extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -104,7 +104,7 @@ export class ConfigRetentionConfiguration extends cdktn.TerraformResource {
   }
 
   // retention_period_in_days - computed: false, optional: false, required: true
-  private _retentionPeriodInDays?: number;
+  private _retentionPeriodInDays?: number; 
   public get retentionPeriodInDays() {
     return this.getNumberAttribute('retention_period_in_days');
   }

@@ -88,7 +88,7 @@ export class Route53ResolverResolverDnssecConfig extends cdktn.TerraformResource
   }
 
   // resource_id - computed: true, optional: true, required: false
-  private _resourceId?: string;
+  private _resourceId?: string; 
   public get resourceId() {
     return this.getStringAttribute('resource_id');
   }

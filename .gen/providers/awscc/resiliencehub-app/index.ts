@@ -181,7 +181,7 @@ export class ResiliencehubAppEventSubscriptionsOutputReference extends cdktn.Com
   }
 
   // event_type - computed: true, optional: true, required: false
-  private _eventType?: string;
+  private _eventType?: string; 
   public get eventType() {
     return this.getStringAttribute('event_type');
   }
@@ -197,7 +197,7 @@ export class ResiliencehubAppEventSubscriptionsOutputReference extends cdktn.Com
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -213,7 +213,7 @@ export class ResiliencehubAppEventSubscriptionsOutputReference extends cdktn.Com
   }
 
   // sns_topic_arn - computed: true, optional: true, required: false
-  private _snsTopicArn?: string;
+  private _snsTopicArn?: string; 
   public get snsTopicArn() {
     return this.getStringAttribute('sns_topic_arn');
   }
@@ -367,7 +367,7 @@ export class ResiliencehubAppPermissionModelOutputReference extends cdktn.Comple
   }
 
   // cross_account_role_arns - computed: true, optional: true, required: false
-  private _crossAccountRoleArns?: string[];
+  private _crossAccountRoleArns?: string[]; 
   public get crossAccountRoleArns() {
     return this.getListAttribute('cross_account_role_arns');
   }
@@ -383,7 +383,7 @@ export class ResiliencehubAppPermissionModelOutputReference extends cdktn.Comple
   }
 
   // invoker_role_name - computed: true, optional: true, required: false
-  private _invokerRoleName?: string;
+  private _invokerRoleName?: string; 
   public get invokerRoleName() {
     return this.getStringAttribute('invoker_role_name');
   }
@@ -399,7 +399,7 @@ export class ResiliencehubAppPermissionModelOutputReference extends cdktn.Comple
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -544,7 +544,7 @@ export class ResiliencehubAppResourceMappingsPhysicalResourceIdOutputReference e
   }
 
   // aws_account_id - computed: true, optional: true, required: false
-  private _awsAccountId?: string;
+  private _awsAccountId?: string; 
   public get awsAccountId() {
     return this.getStringAttribute('aws_account_id');
   }
@@ -560,7 +560,7 @@ export class ResiliencehubAppResourceMappingsPhysicalResourceIdOutputReference e
   }
 
   // aws_region - computed: true, optional: true, required: false
-  private _awsRegion?: string;
+  private _awsRegion?: string; 
   public get awsRegion() {
     return this.getStringAttribute('aws_region');
   }
@@ -576,7 +576,7 @@ export class ResiliencehubAppResourceMappingsPhysicalResourceIdOutputReference e
   }
 
   // identifier - computed: false, optional: false, required: true
-  private _identifier?: string;
+  private _identifier?: string; 
   public get identifier() {
     return this.getStringAttribute('identifier');
   }
@@ -589,7 +589,7 @@ export class ResiliencehubAppResourceMappingsPhysicalResourceIdOutputReference e
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -767,7 +767,7 @@ export class ResiliencehubAppResourceMappingsOutputReference extends cdktn.Compl
   }
 
   // eks_source_name - computed: true, optional: true, required: false
-  private _eksSourceName?: string;
+  private _eksSourceName?: string; 
   public get eksSourceName() {
     return this.getStringAttribute('eks_source_name');
   }
@@ -783,7 +783,7 @@ export class ResiliencehubAppResourceMappingsOutputReference extends cdktn.Compl
   }
 
   // logical_stack_name - computed: true, optional: true, required: false
-  private _logicalStackName?: string;
+  private _logicalStackName?: string; 
   public get logicalStackName() {
     return this.getStringAttribute('logical_stack_name');
   }
@@ -799,7 +799,7 @@ export class ResiliencehubAppResourceMappingsOutputReference extends cdktn.Compl
   }
 
   // mapping_type - computed: false, optional: false, required: true
-  private _mappingType?: string;
+  private _mappingType?: string; 
   public get mappingType() {
     return this.getStringAttribute('mapping_type');
   }
@@ -825,7 +825,7 @@ export class ResiliencehubAppResourceMappingsOutputReference extends cdktn.Compl
   }
 
   // resource_name - computed: true, optional: true, required: false
-  private _resourceName?: string;
+  private _resourceName?: string; 
   public get resourceName() {
     return this.getStringAttribute('resource_name');
   }
@@ -841,7 +841,7 @@ export class ResiliencehubAppResourceMappingsOutputReference extends cdktn.Compl
   }
 
   // terraform_source_name - computed: true, optional: true, required: false
-  private _terraformSourceName?: string;
+  private _terraformSourceName?: string; 
   public get terraformSourceName() {
     return this.getStringAttribute('terraform_source_name');
   }
@@ -948,7 +948,7 @@ export class ResiliencehubApp extends cdktn.TerraformResource {
   }
 
   // app_assessment_schedule - computed: true, optional: true, required: false
-  private _appAssessmentSchedule?: string;
+  private _appAssessmentSchedule?: string; 
   public get appAssessmentSchedule() {
     return this.getStringAttribute('app_assessment_schedule');
   }
@@ -964,7 +964,7 @@ export class ResiliencehubApp extends cdktn.TerraformResource {
   }
 
   // app_template_body - computed: false, optional: false, required: true
-  private _appTemplateBody?: string;
+  private _appTemplateBody?: string; 
   public get appTemplateBody() {
     return this.getStringAttribute('app_template_body');
   }
@@ -977,7 +977,7 @@ export class ResiliencehubApp extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1019,7 +1019,7 @@ export class ResiliencehubApp extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1048,7 +1048,7 @@ export class ResiliencehubApp extends cdktn.TerraformResource {
   }
 
   // resiliency_policy_arn - computed: true, optional: true, required: false
-  private _resiliencyPolicyArn?: string;
+  private _resiliencyPolicyArn?: string; 
   public get resiliencyPolicyArn() {
     return this.getStringAttribute('resiliency_policy_arn');
   }
@@ -1077,7 +1077,7 @@ export class ResiliencehubApp extends cdktn.TerraformResource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

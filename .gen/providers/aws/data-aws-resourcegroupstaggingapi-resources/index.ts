@@ -313,7 +313,7 @@ export class DataAwsResourcegroupstaggingapiResourcesTagFilterOutputReference ex
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -326,7 +326,7 @@ export class DataAwsResourcegroupstaggingapiResourcesTagFilterOutputReference ex
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -426,7 +426,7 @@ export class DataAwsResourcegroupstaggingapiResources extends cdktn.TerraformDat
   // ==========
 
   // exclude_compliant_resources - computed: false, optional: true, required: false
-  private _excludeCompliantResources?: boolean | cdktn.IResolvable;
+  private _excludeCompliantResources?: boolean | cdktn.IResolvable; 
   public get excludeCompliantResources() {
     return this.getBooleanAttribute('exclude_compliant_resources');
   }
@@ -442,7 +442,7 @@ export class DataAwsResourcegroupstaggingapiResources extends cdktn.TerraformDat
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -458,7 +458,7 @@ export class DataAwsResourcegroupstaggingapiResources extends cdktn.TerraformDat
   }
 
   // include_compliance_details - computed: false, optional: true, required: false
-  private _includeComplianceDetails?: boolean | cdktn.IResolvable;
+  private _includeComplianceDetails?: boolean | cdktn.IResolvable; 
   public get includeComplianceDetails() {
     return this.getBooleanAttribute('include_compliance_details');
   }
@@ -474,7 +474,7 @@ export class DataAwsResourcegroupstaggingapiResources extends cdktn.TerraformDat
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -490,7 +490,7 @@ export class DataAwsResourcegroupstaggingapiResources extends cdktn.TerraformDat
   }
 
   // resource_arn_list - computed: false, optional: true, required: false
-  private _resourceArnList?: string[];
+  private _resourceArnList?: string[]; 
   public get resourceArnList() {
     return cdktn.Fn.tolist(this.getListAttribute('resource_arn_list'));
   }
@@ -512,7 +512,7 @@ export class DataAwsResourcegroupstaggingapiResources extends cdktn.TerraformDat
   }
 
   // resource_type_filters - computed: false, optional: true, required: false
-  private _resourceTypeFilters?: string[];
+  private _resourceTypeFilters?: string[]; 
   public get resourceTypeFilters() {
     return cdktn.Fn.tolist(this.getListAttribute('resource_type_filters'));
   }

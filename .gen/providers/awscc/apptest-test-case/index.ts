@@ -232,7 +232,7 @@ export class ApptestTestCaseStepsActionCompareActionInputFileFileMetadataDataSet
   }
 
   // ccsid - computed: true, optional: true, required: false
-  private _ccsid?: string;
+  private _ccsid?: string; 
   public get ccsid() {
     return this.getStringAttribute('ccsid');
   }
@@ -248,7 +248,7 @@ export class ApptestTestCaseStepsActionCompareActionInputFileFileMetadataDataSet
   }
 
   // format - computed: true, optional: true, required: false
-  private _format?: string;
+  private _format?: string; 
   public get format() {
     return this.getStringAttribute('format');
   }
@@ -264,7 +264,7 @@ export class ApptestTestCaseStepsActionCompareActionInputFileFileMetadataDataSet
   }
 
   // length - computed: true, optional: true, required: false
-  private _length?: number;
+  private _length?: number; 
   public get length() {
     return this.getNumberAttribute('length');
   }
@@ -280,7 +280,7 @@ export class ApptestTestCaseStepsActionCompareActionInputFileFileMetadataDataSet
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -296,7 +296,7 @@ export class ApptestTestCaseStepsActionCompareActionInputFileFileMetadataDataSet
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -427,7 +427,7 @@ export class ApptestTestCaseStepsActionCompareActionInputFileFileMetadataDatabas
   }
 
   // capture_tool - computed: true, optional: true, required: false
-  private _captureTool?: string;
+  private _captureTool?: string; 
   public get captureTool() {
     return this.getStringAttribute('capture_tool');
   }
@@ -443,7 +443,7 @@ export class ApptestTestCaseStepsActionCompareActionInputFileFileMetadataDatabas
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -554,7 +554,7 @@ export class ApptestTestCaseStepsActionCompareActionInputFileFileMetadataDatabas
   }
 
   // capture_tool - computed: true, optional: true, required: false
-  private _captureTool?: string;
+  private _captureTool?: string; 
   public get captureTool() {
     return this.getStringAttribute('capture_tool');
   }
@@ -570,7 +570,7 @@ export class ApptestTestCaseStepsActionCompareActionInputFileFileMetadataDatabas
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -968,7 +968,7 @@ export class ApptestTestCaseStepsActionCompareActionInputFileOutputReference ext
   }
 
   // source_location - computed: true, optional: true, required: false
-  private _sourceLocation?: string;
+  private _sourceLocation?: string; 
   public get sourceLocation() {
     return this.getStringAttribute('source_location');
   }
@@ -984,7 +984,7 @@ export class ApptestTestCaseStepsActionCompareActionInputFileOutputReference ext
   }
 
   // target_location - computed: true, optional: true, required: false
-  private _targetLocation?: string;
+  private _targetLocation?: string; 
   public get targetLocation() {
     return this.getStringAttribute('target_location');
   }
@@ -1172,7 +1172,7 @@ export class ApptestTestCaseStepsActionCompareActionOutputFileOutputReference ex
   }
 
   // file_location - computed: true, optional: true, required: false
-  private _fileLocation?: string;
+  private _fileLocation?: string; 
   public get fileLocation() {
     return this.getStringAttribute('file_location');
   }
@@ -1521,7 +1521,7 @@ export class ApptestTestCaseStepsActionMainframeActionActionTypeBatchOutputRefer
   }
 
   // batch_job_name - computed: true, optional: true, required: false
-  private _batchJobName?: string;
+  private _batchJobName?: string; 
   public get batchJobName() {
     return this.getStringAttribute('batch_job_name');
   }
@@ -1537,7 +1537,7 @@ export class ApptestTestCaseStepsActionMainframeActionActionTypeBatchOutputRefer
   }
 
   // batch_job_parameters - computed: true, optional: true, required: false
-  private _batchJobParameters?: { [key: string]: string };
+  private _batchJobParameters?: { [key: string]: string }; 
   public get batchJobParameters() {
     return this.getStringMapAttribute('batch_job_parameters');
   }
@@ -1553,7 +1553,7 @@ export class ApptestTestCaseStepsActionMainframeActionActionTypeBatchOutputRefer
   }
 
   // export_data_set_names - computed: true, optional: true, required: false
-  private _exportDataSetNames?: string[];
+  private _exportDataSetNames?: string[]; 
   public get exportDataSetNames() {
     return this.getListAttribute('export_data_set_names');
   }
@@ -1664,7 +1664,7 @@ export class ApptestTestCaseStepsActionMainframeActionActionTypeTn3270ScriptOutp
   }
 
   // script_location - computed: true, optional: true, required: false
-  private _scriptLocation?: string;
+  private _scriptLocation?: string; 
   public get scriptLocation() {
     return this.getStringAttribute('script_location');
   }
@@ -1680,7 +1680,7 @@ export class ApptestTestCaseStepsActionMainframeActionActionTypeTn3270ScriptOutp
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -1791,7 +1791,7 @@ export class ApptestTestCaseStepsActionMainframeActionActionTypeTn3270OutputRefe
   }
 
   // export_data_set_names - computed: true, optional: true, required: false
-  private _exportDataSetNames?: string[];
+  private _exportDataSetNames?: string[]; 
   public get exportDataSetNames() {
     return this.getListAttribute('export_data_set_names');
   }
@@ -2028,7 +2028,7 @@ export class ApptestTestCaseStepsActionMainframeActionPropertiesOutputReference 
   }
 
   // dms_task_arn - computed: true, optional: true, required: false
-  private _dmsTaskArn?: string;
+  private _dmsTaskArn?: string; 
   public get dmsTaskArn() {
     return this.getStringAttribute('dms_task_arn');
   }
@@ -2188,7 +2188,7 @@ export class ApptestTestCaseStepsActionMainframeActionOutputReference extends cd
   }
 
   // resource - computed: true, optional: true, required: false
-  private _resource?: string;
+  private _resource?: string; 
   public get resource() {
     return this.getStringAttribute('resource');
   }
@@ -2299,7 +2299,7 @@ export class ApptestTestCaseStepsActionResourceActionCloudformationActionOutputR
   }
 
   // action_type - computed: true, optional: true, required: false
-  private _actionType?: string;
+  private _actionType?: string; 
   public get actionType() {
     return this.getStringAttribute('action_type');
   }
@@ -2315,7 +2315,7 @@ export class ApptestTestCaseStepsActionResourceActionCloudformationActionOutputR
   }
 
   // resource - computed: true, optional: true, required: false
-  private _resource?: string;
+  private _resource?: string; 
   public get resource() {
     return this.getStringAttribute('resource');
   }
@@ -2426,7 +2426,7 @@ export class ApptestTestCaseStepsActionResourceActionM2ManagedApplicationActionP
   }
 
   // force_stop - computed: true, optional: true, required: false
-  private _forceStop?: boolean | cdktn.IResolvable;
+  private _forceStop?: boolean | cdktn.IResolvable; 
   public get forceStop() {
     return this.getBooleanAttribute('force_stop');
   }
@@ -2442,7 +2442,7 @@ export class ApptestTestCaseStepsActionResourceActionM2ManagedApplicationActionP
   }
 
   // import_data_set_location - computed: true, optional: true, required: false
-  private _importDataSetLocation?: string;
+  private _importDataSetLocation?: string; 
   public get importDataSetLocation() {
     return this.getStringAttribute('import_data_set_location');
   }
@@ -2570,7 +2570,7 @@ export class ApptestTestCaseStepsActionResourceActionM2ManagedApplicationActionO
   }
 
   // action_type - computed: true, optional: true, required: false
-  private _actionType?: string;
+  private _actionType?: string; 
   public get actionType() {
     return this.getStringAttribute('action_type');
   }
@@ -2602,7 +2602,7 @@ export class ApptestTestCaseStepsActionResourceActionM2ManagedApplicationActionO
   }
 
   // resource - computed: true, optional: true, required: false
-  private _resource?: string;
+  private _resource?: string; 
   public get resource() {
     return this.getStringAttribute('resource');
   }
@@ -2713,7 +2713,7 @@ export class ApptestTestCaseStepsActionResourceActionM2NonManagedApplicationActi
   }
 
   // action_type - computed: true, optional: true, required: false
-  private _actionType?: string;
+  private _actionType?: string; 
   public get actionType() {
     return this.getStringAttribute('action_type');
   }
@@ -2729,7 +2729,7 @@ export class ApptestTestCaseStepsActionResourceActionM2NonManagedApplicationActi
   }
 
   // resource - computed: true, optional: true, required: false
-  private _resource?: string;
+  private _resource?: string; 
   public get resource() {
     return this.getStringAttribute('resource');
   }
@@ -3192,7 +3192,7 @@ export class ApptestTestCaseStepsOutputReference extends cdktn.ComplexObject {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -3208,7 +3208,7 @@ export class ApptestTestCaseStepsOutputReference extends cdktn.ComplexObject {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -3307,7 +3307,7 @@ export class ApptestTestCase extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -3339,7 +3339,7 @@ export class ApptestTestCase extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -3370,7 +3370,7 @@ export class ApptestTestCase extends cdktn.TerraformResource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

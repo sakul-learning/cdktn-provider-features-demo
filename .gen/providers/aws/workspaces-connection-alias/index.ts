@@ -130,7 +130,7 @@ export class WorkspacesConnectionAliasTimeoutsOutputReference extends cdktn.Comp
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -146,7 +146,7 @@ export class WorkspacesConnectionAliasTimeoutsOutputReference extends cdktn.Comp
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -223,7 +223,7 @@ export class WorkspacesConnectionAlias extends cdktn.TerraformResource {
   // ==========
 
   // connection_string - computed: false, optional: false, required: true
-  private _connectionString?: string;
+  private _connectionString?: string; 
   public get connectionString() {
     return this.getStringAttribute('connection_string');
   }
@@ -246,7 +246,7 @@ export class WorkspacesConnectionAlias extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -267,7 +267,7 @@ export class WorkspacesConnectionAlias extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

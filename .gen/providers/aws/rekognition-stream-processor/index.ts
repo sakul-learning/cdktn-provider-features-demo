@@ -161,7 +161,7 @@ export class RekognitionStreamProcessorDataSharingPreferenceOutputReference exte
   }
 
   // opt_in - computed: false, optional: false, required: true
-  private _optIn?: boolean | cdktn.IResolvable;
+  private _optIn?: boolean | cdktn.IResolvable; 
   public get optIn() {
     return this.getBooleanAttribute('opt_in');
   }
@@ -276,7 +276,7 @@ export class RekognitionStreamProcessorInputKinesisVideoStreamOutputReference ex
   }
 
   // arn - computed: false, optional: false, required: true
-  private _arn?: string;
+  private _arn?: string; 
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -509,7 +509,7 @@ export class RekognitionStreamProcessorNotificationChannelOutputReference extend
   }
 
   // sns_topic_arn - computed: false, optional: true, required: false
-  private _snsTopicArn?: string;
+  private _snsTopicArn?: string; 
   public get snsTopicArn() {
     return this.getStringAttribute('sns_topic_arn');
   }
@@ -627,7 +627,7 @@ export class RekognitionStreamProcessorOutputKinesisDataStreamOutputReference ex
   }
 
   // arn - computed: false, optional: true, required: false
-  private _arn?: string;
+  private _arn?: string; 
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -764,7 +764,7 @@ export class RekognitionStreamProcessorOutputS3DestinationOutputReference extend
   }
 
   // bucket - computed: false, optional: true, required: false
-  private _bucket?: string;
+  private _bucket?: string; 
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -780,7 +780,7 @@ export class RekognitionStreamProcessorOutputS3DestinationOutputReference extend
   }
 
   // key_prefix - computed: false, optional: true, required: false
-  private _keyPrefix?: string;
+  private _keyPrefix?: string; 
   public get keyPrefix() {
     return this.getStringAttribute('key_prefix');
   }
@@ -1108,7 +1108,7 @@ export class RekognitionStreamProcessorRegionsOfInterestBoundingBoxOutputReferen
   }
 
   // height - computed: false, optional: true, required: false
-  private _height?: number;
+  private _height?: number; 
   public get height() {
     return this.getNumberAttribute('height');
   }
@@ -1124,7 +1124,7 @@ export class RekognitionStreamProcessorRegionsOfInterestBoundingBoxOutputReferen
   }
 
   // left - computed: false, optional: true, required: false
-  private _left?: number;
+  private _left?: number; 
   public get left() {
     return this.getNumberAttribute('left');
   }
@@ -1140,7 +1140,7 @@ export class RekognitionStreamProcessorRegionsOfInterestBoundingBoxOutputReferen
   }
 
   // top - computed: false, optional: true, required: false
-  private _top?: number;
+  private _top?: number; 
   public get top() {
     return this.getNumberAttribute('top');
   }
@@ -1156,7 +1156,7 @@ export class RekognitionStreamProcessorRegionsOfInterestBoundingBoxOutputReferen
   }
 
   // width - computed: false, optional: true, required: false
-  private _width?: number;
+  private _width?: number; 
   public get width() {
     return this.getNumberAttribute('width');
   }
@@ -1293,7 +1293,7 @@ export class RekognitionStreamProcessorRegionsOfInterestPolygonOutputReference e
   }
 
   // x - computed: false, optional: true, required: false
-  private _x?: number;
+  private _x?: number; 
   public get x() {
     return this.getNumberAttribute('x');
   }
@@ -1309,7 +1309,7 @@ export class RekognitionStreamProcessorRegionsOfInterestPolygonOutputReference e
   }
 
   // y - computed: false, optional: true, required: false
-  private _y?: number;
+  private _y?: number; 
   public get y() {
     return this.getNumberAttribute('y');
   }
@@ -1599,7 +1599,7 @@ export class RekognitionStreamProcessorSettingsConnectedHomeOutputReference exte
   }
 
   // labels - computed: false, optional: true, required: false
-  private _labels?: string[];
+  private _labels?: string[]; 
   public get labels() {
     return this.getListAttribute('labels');
   }
@@ -1615,7 +1615,7 @@ export class RekognitionStreamProcessorSettingsConnectedHomeOutputReference exte
   }
 
   // min_confidence - computed: true, optional: true, required: false
-  private _minConfidence?: number;
+  private _minConfidence?: number; 
   public get minConfidence() {
     return this.getNumberAttribute('min_confidence');
   }
@@ -1752,7 +1752,7 @@ export class RekognitionStreamProcessorSettingsFaceSearchOutputReference extends
   }
 
   // collection_id - computed: false, optional: false, required: true
-  private _collectionId?: string;
+  private _collectionId?: string; 
   public get collectionId() {
     return this.getStringAttribute('collection_id');
   }
@@ -1765,7 +1765,7 @@ export class RekognitionStreamProcessorSettingsFaceSearchOutputReference extends
   }
 
   // face_match_threshold - computed: true, optional: true, required: false
-  private _faceMatchThreshold?: number;
+  private _faceMatchThreshold?: number; 
   public get faceMatchThreshold() {
     return this.getNumberAttribute('face_match_threshold');
   }
@@ -2072,7 +2072,7 @@ export class RekognitionStreamProcessorTimeoutsOutputReference extends cdktn.Com
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -2088,7 +2088,7 @@ export class RekognitionStreamProcessorTimeoutsOutputReference extends cdktn.Com
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -2104,7 +2104,7 @@ export class RekognitionStreamProcessorTimeoutsOutputReference extends cdktn.Com
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -2194,7 +2194,7 @@ export class RekognitionStreamProcessor extends cdktn.TerraformResource {
   }
 
   // kms_key_id - computed: false, optional: true, required: false
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -2210,7 +2210,7 @@ export class RekognitionStreamProcessor extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2223,7 +2223,7 @@ export class RekognitionStreamProcessor extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -2239,7 +2239,7 @@ export class RekognitionStreamProcessor extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -2257,7 +2257,7 @@ export class RekognitionStreamProcessor extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

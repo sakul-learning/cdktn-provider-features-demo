@@ -129,7 +129,7 @@ export class S3AccessGrantAccessGrantsLocationConfigurationOutputReference exten
   }
 
   // s3_sub_prefix - computed: true, optional: true, required: false
-  private _s3SubPrefix?: string;
+  private _s3SubPrefix?: string; 
   public get s3SubPrefix() {
     return this.getStringAttribute('s3_sub_prefix');
   }
@@ -244,7 +244,7 @@ export class S3AccessGrantGranteeOutputReference extends cdktn.ComplexObject {
   }
 
   // grantee_identifier - computed: false, optional: false, required: true
-  private _granteeIdentifier?: string;
+  private _granteeIdentifier?: string; 
   public get granteeIdentifier() {
     return this.getStringAttribute('grantee_identifier');
   }
@@ -257,7 +257,7 @@ export class S3AccessGrantGranteeOutputReference extends cdktn.ComplexObject {
   }
 
   // grantee_type - computed: false, optional: false, required: true
-  private _granteeType?: string;
+  private _granteeType?: string; 
   public get granteeType() {
     return this.getStringAttribute('grantee_type');
   }
@@ -367,7 +367,7 @@ export class S3AccessGrantTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -383,7 +383,7 @@ export class S3AccessGrantTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -509,7 +509,7 @@ export class S3AccessGrant extends cdktn.TerraformResource {
   }
 
   // access_grants_location_id - computed: false, optional: false, required: true
-  private _accessGrantsLocationId?: string;
+  private _accessGrantsLocationId?: string; 
   public get accessGrantsLocationId() {
     return this.getStringAttribute('access_grants_location_id');
   }
@@ -522,7 +522,7 @@ export class S3AccessGrant extends cdktn.TerraformResource {
   }
 
   // application_arn - computed: true, optional: true, required: false
-  private _applicationArn?: string;
+  private _applicationArn?: string; 
   public get applicationArn() {
     return this.getStringAttribute('application_arn');
   }
@@ -561,7 +561,7 @@ export class S3AccessGrant extends cdktn.TerraformResource {
   }
 
   // permission - computed: false, optional: false, required: true
-  private _permission?: string;
+  private _permission?: string; 
   public get permission() {
     return this.getStringAttribute('permission');
   }
@@ -574,7 +574,7 @@ export class S3AccessGrant extends cdktn.TerraformResource {
   }
 
   // s3_prefix_type - computed: true, optional: true, required: false
-  private _s3PrefixType?: string;
+  private _s3PrefixType?: string; 
   public get s3PrefixType() {
     return this.getStringAttribute('s3_prefix_type');
   }

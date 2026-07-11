@@ -136,7 +136,7 @@ export class Ec2TrafficMirrorTargetTagsOutputReference extends cdktn.ComplexObje
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -152,7 +152,7 @@ export class Ec2TrafficMirrorTargetTagsOutputReference extends cdktn.ComplexObje
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -250,7 +250,7 @@ export class Ec2TrafficMirrorTarget extends cdktn.TerraformResource {
   // ==========
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -266,7 +266,7 @@ export class Ec2TrafficMirrorTarget extends cdktn.TerraformResource {
   }
 
   // gateway_load_balancer_endpoint_id - computed: true, optional: true, required: false
-  private _gatewayLoadBalancerEndpointId?: string;
+  private _gatewayLoadBalancerEndpointId?: string; 
   public get gatewayLoadBalancerEndpointId() {
     return this.getStringAttribute('gateway_load_balancer_endpoint_id');
   }
@@ -287,7 +287,7 @@ export class Ec2TrafficMirrorTarget extends cdktn.TerraformResource {
   }
 
   // network_interface_id - computed: true, optional: true, required: false
-  private _networkInterfaceId?: string;
+  private _networkInterfaceId?: string; 
   public get networkInterfaceId() {
     return this.getStringAttribute('network_interface_id');
   }
@@ -303,7 +303,7 @@ export class Ec2TrafficMirrorTarget extends cdktn.TerraformResource {
   }
 
   // network_load_balancer_arn - computed: true, optional: true, required: false
-  private _networkLoadBalancerArn?: string;
+  private _networkLoadBalancerArn?: string; 
   public get networkLoadBalancerArn() {
     return this.getStringAttribute('network_load_balancer_arn');
   }

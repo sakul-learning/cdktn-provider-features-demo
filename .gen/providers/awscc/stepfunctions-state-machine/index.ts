@@ -161,7 +161,7 @@ export class StepfunctionsStateMachineDefinitionS3LocationOutputReference extend
   }
 
   // bucket - computed: true, optional: true, required: false
-  private _bucket?: string;
+  private _bucket?: string; 
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -177,7 +177,7 @@ export class StepfunctionsStateMachineDefinitionS3LocationOutputReference extend
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -193,7 +193,7 @@ export class StepfunctionsStateMachineDefinitionS3LocationOutputReference extend
   }
 
   // version - computed: true, optional: true, required: false
-  private _version?: string;
+  private _version?: string; 
   public get version() {
     return this.getStringAttribute('version');
   }
@@ -287,7 +287,7 @@ export class StepfunctionsStateMachineLoggingConfigurationDestinationsCloudwatch
   }
 
   // log_group_arn - computed: true, optional: true, required: false
-  private _logGroupArn?: string;
+  private _logGroupArn?: string; 
   public get logGroupArn() {
     return this.getStringAttribute('log_group_arn');
   }
@@ -547,7 +547,7 @@ export class StepfunctionsStateMachineLoggingConfigurationOutputReference extend
   }
 
   // include_execution_data - computed: true, optional: true, required: false
-  private _includeExecutionData?: boolean | cdktn.IResolvable;
+  private _includeExecutionData?: boolean | cdktn.IResolvable; 
   public get includeExecutionData() {
     return this.getBooleanAttribute('include_execution_data');
   }
@@ -563,7 +563,7 @@ export class StepfunctionsStateMachineLoggingConfigurationOutputReference extend
   }
 
   // level - computed: true, optional: true, required: false
-  private _level?: string;
+  private _level?: string; 
   public get level() {
     return this.getStringAttribute('level');
   }
@@ -676,7 +676,7 @@ export class StepfunctionsStateMachineTagsOutputReference extends cdktn.ComplexO
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -692,7 +692,7 @@ export class StepfunctionsStateMachineTagsOutputReference extends cdktn.ComplexO
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -806,7 +806,7 @@ export class StepfunctionsStateMachineTracingConfigurationOutputReference extend
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -894,7 +894,7 @@ export class StepfunctionsStateMachine extends cdktn.TerraformResource {
   }
 
   // definition - computed: true, optional: true, required: false
-  private _definition?: string;
+  private _definition?: string; 
   public get definition() {
     return this.getStringAttribute('definition');
   }
@@ -926,7 +926,7 @@ export class StepfunctionsStateMachine extends cdktn.TerraformResource {
   }
 
   // definition_string - computed: true, optional: true, required: false
-  private _definitionString?: string;
+  private _definitionString?: string; 
   public get definitionString() {
     return this.getStringAttribute('definition_string');
   }
@@ -942,7 +942,7 @@ export class StepfunctionsStateMachine extends cdktn.TerraformResource {
   }
 
   // definition_substitutions - computed: true, optional: true, required: false
-  private _definitionSubstitutions?: { [key: string]: string };
+  private _definitionSubstitutions?: { [key: string]: string }; 
   public get definitionSubstitutions() {
     return this.getStringMapAttribute('definition_substitutions');
   }
@@ -984,7 +984,7 @@ export class StepfunctionsStateMachine extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -997,7 +997,7 @@ export class StepfunctionsStateMachine extends cdktn.TerraformResource {
   }
 
   // state_machine_name - computed: true, optional: true, required: false
-  private _stateMachineName?: string;
+  private _stateMachineName?: string; 
   public get stateMachineName() {
     return this.getStringAttribute('state_machine_name');
   }
@@ -1013,7 +1013,7 @@ export class StepfunctionsStateMachine extends cdktn.TerraformResource {
   }
 
   // state_machine_type - computed: true, optional: true, required: false
-  private _stateMachineType?: string;
+  private _stateMachineType?: string; 
   public get stateMachineType() {
     return this.getStringAttribute('state_machine_type');
   }

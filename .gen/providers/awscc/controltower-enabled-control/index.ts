@@ -80,7 +80,7 @@ export class ControltowerEnabledControl extends cdktn.TerraformResource {
   // ==========
 
   // control_identifier - computed: false, optional: false, required: true
-  private _controlIdentifier?: string;
+  private _controlIdentifier?: string; 
   public get controlIdentifier() {
     return this.getStringAttribute('control_identifier');
   }
@@ -98,7 +98,7 @@ export class ControltowerEnabledControl extends cdktn.TerraformResource {
   }
 
   // target_identifier - computed: false, optional: false, required: true
-  private _targetIdentifier?: string;
+  private _targetIdentifier?: string; 
   public get targetIdentifier() {
     return this.getStringAttribute('target_identifier');
   }

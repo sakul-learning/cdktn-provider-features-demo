@@ -151,7 +151,7 @@ export class Ec2TransitGatewayMeteringPolicyTimeoutsOutputReference extends cdkt
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -167,7 +167,7 @@ export class Ec2TransitGatewayMeteringPolicyTimeoutsOutputReference extends cdkt
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -183,7 +183,7 @@ export class Ec2TransitGatewayMeteringPolicyTimeoutsOutputReference extends cdkt
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -266,7 +266,7 @@ export class Ec2TransitGatewayMeteringPolicy extends cdktn.TerraformResource {
   }
 
   // middlebox_attachment_ids - computed: false, optional: true, required: false
-  private _middleboxAttachmentIds?: string[];
+  private _middleboxAttachmentIds?: string[]; 
   public get middleboxAttachmentIds() {
     return cdktn.Fn.tolist(this.getListAttribute('middlebox_attachment_ids'));
   }
@@ -282,7 +282,7 @@ export class Ec2TransitGatewayMeteringPolicy extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -298,7 +298,7 @@ export class Ec2TransitGatewayMeteringPolicy extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -320,7 +320,7 @@ export class Ec2TransitGatewayMeteringPolicy extends cdktn.TerraformResource {
   }
 
   // transit_gateway_id - computed: false, optional: false, required: true
-  private _transitGatewayId?: string;
+  private _transitGatewayId?: string; 
   public get transitGatewayId() {
     return this.getStringAttribute('transit_gateway_id');
   }

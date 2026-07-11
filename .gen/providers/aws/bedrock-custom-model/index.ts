@@ -307,7 +307,7 @@ export class BedrockCustomModelOutputDataConfigOutputReference extends cdktn.Com
   }
 
   // s3_uri - computed: false, optional: false, required: true
-  private _s3Uri?: string;
+  private _s3Uri?: string; 
   public get s3Uri() {
     return this.getStringAttribute('s3_uri');
   }
@@ -439,7 +439,7 @@ export class BedrockCustomModelTimeoutsOutputReference extends cdktn.ComplexObje
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -455,7 +455,7 @@ export class BedrockCustomModelTimeoutsOutputReference extends cdktn.ComplexObje
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -551,7 +551,7 @@ export class BedrockCustomModelTrainingDataConfigOutputReference extends cdktn.C
   }
 
   // s3_uri - computed: false, optional: false, required: true
-  private _s3Uri?: string;
+  private _s3Uri?: string; 
   public get s3Uri() {
     return this.getStringAttribute('s3_uri');
   }
@@ -664,7 +664,7 @@ export class BedrockCustomModelValidationDataConfigValidatorOutputReference exte
   }
 
   // s3_uri - computed: false, optional: false, required: true
-  private _s3Uri?: string;
+  private _s3Uri?: string; 
   public get s3Uri() {
     return this.getStringAttribute('s3_uri');
   }
@@ -912,7 +912,7 @@ export class BedrockCustomModelVpcConfigOutputReference extends cdktn.ComplexObj
   }
 
   // security_group_ids - computed: false, optional: false, required: true
-  private _securityGroupIds?: string[];
+  private _securityGroupIds?: string[]; 
   public get securityGroupIds() {
     return cdktn.Fn.tolist(this.getListAttribute('security_group_ids'));
   }
@@ -925,7 +925,7 @@ export class BedrockCustomModelVpcConfigOutputReference extends cdktn.ComplexObj
   }
 
   // subnet_ids - computed: false, optional: false, required: true
-  private _subnetIds?: string[];
+  private _subnetIds?: string[]; 
   public get subnetIds() {
     return cdktn.Fn.tolist(this.getListAttribute('subnet_ids'));
   }
@@ -1029,7 +1029,7 @@ export class BedrockCustomModel extends cdktn.TerraformResource {
   // ==========
 
   // base_model_identifier - computed: false, optional: false, required: true
-  private _baseModelIdentifier?: string;
+  private _baseModelIdentifier?: string; 
   public get baseModelIdentifier() {
     return this.getStringAttribute('base_model_identifier');
   }
@@ -1047,7 +1047,7 @@ export class BedrockCustomModel extends cdktn.TerraformResource {
   }
 
   // custom_model_kms_key_id - computed: false, optional: true, required: false
-  private _customModelKmsKeyId?: string;
+  private _customModelKmsKeyId?: string; 
   public get customModelKmsKeyId() {
     return this.getStringAttribute('custom_model_kms_key_id');
   }
@@ -1063,7 +1063,7 @@ export class BedrockCustomModel extends cdktn.TerraformResource {
   }
 
   // custom_model_name - computed: false, optional: false, required: true
-  private _customModelName?: string;
+  private _customModelName?: string; 
   public get customModelName() {
     return this.getStringAttribute('custom_model_name');
   }
@@ -1076,7 +1076,7 @@ export class BedrockCustomModel extends cdktn.TerraformResource {
   }
 
   // customization_type - computed: true, optional: true, required: false
-  private _customizationType?: string;
+  private _customizationType?: string; 
   public get customizationType() {
     return this.getStringAttribute('customization_type');
   }
@@ -1092,7 +1092,7 @@ export class BedrockCustomModel extends cdktn.TerraformResource {
   }
 
   // hyperparameters - computed: false, optional: false, required: true
-  private _hyperparameters?: { [key: string]: string };
+  private _hyperparameters?: { [key: string]: string }; 
   public get hyperparameters() {
     return this.getStringMapAttribute('hyperparameters');
   }
@@ -1115,7 +1115,7 @@ export class BedrockCustomModel extends cdktn.TerraformResource {
   }
 
   // job_name - computed: false, optional: false, required: true
-  private _jobName?: string;
+  private _jobName?: string; 
   public get jobName() {
     return this.getStringAttribute('job_name');
   }
@@ -1133,7 +1133,7 @@ export class BedrockCustomModel extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1149,7 +1149,7 @@ export class BedrockCustomModel extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -1162,7 +1162,7 @@ export class BedrockCustomModel extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

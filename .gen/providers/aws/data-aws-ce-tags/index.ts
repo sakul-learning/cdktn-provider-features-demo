@@ -144,7 +144,7 @@ export class DataAwsCeTagsFilterAndCostCategoryOutputReference extends cdktn.Com
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -160,7 +160,7 @@ export class DataAwsCeTagsFilterAndCostCategoryOutputReference extends cdktn.Com
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[];
+  private _matchOptions?: string[]; 
   public get matchOptions() {
     return cdktn.Fn.tolist(this.getListAttribute('match_options'));
   }
@@ -176,7 +176,7 @@ export class DataAwsCeTagsFilterAndCostCategoryOutputReference extends cdktn.Com
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -294,7 +294,7 @@ export class DataAwsCeTagsFilterAndDimensionOutputReference extends cdktn.Comple
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -310,7 +310,7 @@ export class DataAwsCeTagsFilterAndDimensionOutputReference extends cdktn.Comple
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[];
+  private _matchOptions?: string[]; 
   public get matchOptions() {
     return cdktn.Fn.tolist(this.getListAttribute('match_options'));
   }
@@ -326,7 +326,7 @@ export class DataAwsCeTagsFilterAndDimensionOutputReference extends cdktn.Comple
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -444,7 +444,7 @@ export class DataAwsCeTagsFilterAndTagsOutputReference extends cdktn.ComplexObje
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -460,7 +460,7 @@ export class DataAwsCeTagsFilterAndTagsOutputReference extends cdktn.ComplexObje
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[];
+  private _matchOptions?: string[]; 
   public get matchOptions() {
     return cdktn.Fn.tolist(this.getListAttribute('match_options'));
   }
@@ -476,7 +476,7 @@ export class DataAwsCeTagsFilterAndTagsOutputReference extends cdktn.ComplexObje
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -782,7 +782,7 @@ export class DataAwsCeTagsFilterCostCategoryOutputReference extends cdktn.Comple
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -798,7 +798,7 @@ export class DataAwsCeTagsFilterCostCategoryOutputReference extends cdktn.Comple
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[];
+  private _matchOptions?: string[]; 
   public get matchOptions() {
     return cdktn.Fn.tolist(this.getListAttribute('match_options'));
   }
@@ -814,7 +814,7 @@ export class DataAwsCeTagsFilterCostCategoryOutputReference extends cdktn.Comple
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -932,7 +932,7 @@ export class DataAwsCeTagsFilterDimensionOutputReference extends cdktn.ComplexOb
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -948,7 +948,7 @@ export class DataAwsCeTagsFilterDimensionOutputReference extends cdktn.ComplexOb
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[];
+  private _matchOptions?: string[]; 
   public get matchOptions() {
     return cdktn.Fn.tolist(this.getListAttribute('match_options'));
   }
@@ -964,7 +964,7 @@ export class DataAwsCeTagsFilterDimensionOutputReference extends cdktn.ComplexOb
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -1082,7 +1082,7 @@ export class DataAwsCeTagsFilterNotCostCategoryOutputReference extends cdktn.Com
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1098,7 +1098,7 @@ export class DataAwsCeTagsFilterNotCostCategoryOutputReference extends cdktn.Com
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[];
+  private _matchOptions?: string[]; 
   public get matchOptions() {
     return cdktn.Fn.tolist(this.getListAttribute('match_options'));
   }
@@ -1114,7 +1114,7 @@ export class DataAwsCeTagsFilterNotCostCategoryOutputReference extends cdktn.Com
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -1232,7 +1232,7 @@ export class DataAwsCeTagsFilterNotDimensionOutputReference extends cdktn.Comple
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1248,7 +1248,7 @@ export class DataAwsCeTagsFilterNotDimensionOutputReference extends cdktn.Comple
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[];
+  private _matchOptions?: string[]; 
   public get matchOptions() {
     return cdktn.Fn.tolist(this.getListAttribute('match_options'));
   }
@@ -1264,7 +1264,7 @@ export class DataAwsCeTagsFilterNotDimensionOutputReference extends cdktn.Comple
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -1382,7 +1382,7 @@ export class DataAwsCeTagsFilterNotTagsOutputReference extends cdktn.ComplexObje
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1398,7 +1398,7 @@ export class DataAwsCeTagsFilterNotTagsOutputReference extends cdktn.ComplexObje
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[];
+  private _matchOptions?: string[]; 
   public get matchOptions() {
     return cdktn.Fn.tolist(this.getListAttribute('match_options'));
   }
@@ -1414,7 +1414,7 @@ export class DataAwsCeTagsFilterNotTagsOutputReference extends cdktn.ComplexObje
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -1688,7 +1688,7 @@ export class DataAwsCeTagsFilterOrCostCategoryOutputReference extends cdktn.Comp
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1704,7 +1704,7 @@ export class DataAwsCeTagsFilterOrCostCategoryOutputReference extends cdktn.Comp
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[];
+  private _matchOptions?: string[]; 
   public get matchOptions() {
     return cdktn.Fn.tolist(this.getListAttribute('match_options'));
   }
@@ -1720,7 +1720,7 @@ export class DataAwsCeTagsFilterOrCostCategoryOutputReference extends cdktn.Comp
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -1838,7 +1838,7 @@ export class DataAwsCeTagsFilterOrDimensionOutputReference extends cdktn.Complex
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1854,7 +1854,7 @@ export class DataAwsCeTagsFilterOrDimensionOutputReference extends cdktn.Complex
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[];
+  private _matchOptions?: string[]; 
   public get matchOptions() {
     return cdktn.Fn.tolist(this.getListAttribute('match_options'));
   }
@@ -1870,7 +1870,7 @@ export class DataAwsCeTagsFilterOrDimensionOutputReference extends cdktn.Complex
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -1988,7 +1988,7 @@ export class DataAwsCeTagsFilterOrTagsOutputReference extends cdktn.ComplexObjec
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -2004,7 +2004,7 @@ export class DataAwsCeTagsFilterOrTagsOutputReference extends cdktn.ComplexObjec
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[];
+  private _matchOptions?: string[]; 
   public get matchOptions() {
     return cdktn.Fn.tolist(this.getListAttribute('match_options'));
   }
@@ -2020,7 +2020,7 @@ export class DataAwsCeTagsFilterOrTagsOutputReference extends cdktn.ComplexObjec
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -2326,7 +2326,7 @@ export class DataAwsCeTagsFilterTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -2342,7 +2342,7 @@ export class DataAwsCeTagsFilterTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[];
+  private _matchOptions?: string[]; 
   public get matchOptions() {
     return cdktn.Fn.tolist(this.getListAttribute('match_options'));
   }
@@ -2358,7 +2358,7 @@ export class DataAwsCeTagsFilterTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -2732,7 +2732,7 @@ export class DataAwsCeTagsSortByOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -2748,7 +2748,7 @@ export class DataAwsCeTagsSortByOutputReference extends cdktn.ComplexObject {
   }
 
   // sort_order - computed: false, optional: true, required: false
-  private _sortOrder?: string;
+  private _sortOrder?: string; 
   public get sortOrder() {
     return this.getStringAttribute('sort_order');
   }
@@ -2869,7 +2869,7 @@ export class DataAwsCeTagsTimePeriodOutputReference extends cdktn.ComplexObject 
   }
 
   // end - computed: false, optional: false, required: true
-  private _end?: string;
+  private _end?: string; 
   public get end() {
     return this.getStringAttribute('end');
   }
@@ -2882,7 +2882,7 @@ export class DataAwsCeTagsTimePeriodOutputReference extends cdktn.ComplexObject 
   }
 
   // start - computed: false, optional: false, required: true
-  private _start?: string;
+  private _start?: string; 
   public get start() {
     return this.getStringAttribute('start');
   }
@@ -2958,7 +2958,7 @@ export class DataAwsCeTags extends cdktn.TerraformDataSource {
   // ==========
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -2974,7 +2974,7 @@ export class DataAwsCeTags extends cdktn.TerraformDataSource {
   }
 
   // search_string - computed: false, optional: true, required: false
-  private _searchString?: string;
+  private _searchString?: string; 
   public get searchString() {
     return this.getStringAttribute('search_string');
   }
@@ -2990,7 +2990,7 @@ export class DataAwsCeTags extends cdktn.TerraformDataSource {
   }
 
   // tag_key - computed: false, optional: true, required: false
-  private _tagKey?: string;
+  private _tagKey?: string; 
   public get tagKey() {
     return this.getStringAttribute('tag_key');
   }

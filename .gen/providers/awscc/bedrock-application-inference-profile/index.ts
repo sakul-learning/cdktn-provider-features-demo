@@ -112,7 +112,7 @@ export class BedrockApplicationInferenceProfileModelSourceOutputReference extend
   }
 
   // copy_from - computed: true, optional: true, required: false
-  private _copyFrom?: string;
+  private _copyFrom?: string; 
   public get copyFrom() {
     return this.getStringAttribute('copy_from');
   }
@@ -304,7 +304,7 @@ export class BedrockApplicationInferenceProfileTagsOutputReference extends cdktn
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -320,7 +320,7 @@ export class BedrockApplicationInferenceProfileTagsOutputReference extends cdktn
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -422,7 +422,7 @@ export class BedrockApplicationInferenceProfile extends cdktn.TerraformResource 
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -458,7 +458,7 @@ export class BedrockApplicationInferenceProfile extends cdktn.TerraformResource 
   }
 
   // inference_profile_name - computed: false, optional: false, required: true
-  private _inferenceProfileName?: string;
+  private _inferenceProfileName?: string; 
   public get inferenceProfileName() {
     return this.getStringAttribute('inference_profile_name');
   }

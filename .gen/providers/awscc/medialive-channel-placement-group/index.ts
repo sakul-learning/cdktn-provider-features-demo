@@ -130,7 +130,7 @@ export class MedialiveChannelPlacementGroupTagsOutputReference extends cdktn.Com
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -146,7 +146,7 @@ export class MedialiveChannelPlacementGroupTagsOutputReference extends cdktn.Com
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -258,7 +258,7 @@ export class MedialiveChannelPlacementGroup extends cdktn.TerraformResource {
   }
 
   // cluster_id - computed: true, optional: true, required: false
-  private _clusterId?: string;
+  private _clusterId?: string; 
   public get clusterId() {
     return this.getStringAttribute('cluster_id');
   }
@@ -279,7 +279,7 @@ export class MedialiveChannelPlacementGroup extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -295,7 +295,7 @@ export class MedialiveChannelPlacementGroup extends cdktn.TerraformResource {
   }
 
   // nodes - computed: true, optional: true, required: false
-  private _nodes?: string[];
+  private _nodes?: string[]; 
   public get nodes() {
     return this.getListAttribute('nodes');
   }

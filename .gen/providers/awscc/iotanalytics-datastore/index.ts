@@ -111,7 +111,7 @@ export class IotanalyticsDatastoreDatastorePartitionsPartitionsPartitionOutputRe
   }
 
   // attribute_name - computed: true, optional: true, required: false
-  private _attributeName?: string;
+  private _attributeName?: string; 
   public get attributeName() {
     return this.getStringAttribute('attribute_name');
   }
@@ -222,7 +222,7 @@ export class IotanalyticsDatastoreDatastorePartitionsPartitionsTimestampPartitio
   }
 
   // attribute_name - computed: true, optional: true, required: false
-  private _attributeName?: string;
+  private _attributeName?: string; 
   public get attributeName() {
     return this.getStringAttribute('attribute_name');
   }
@@ -238,7 +238,7 @@ export class IotanalyticsDatastoreDatastorePartitionsPartitionsTimestampPartitio
   }
 
   // timestamp_format - computed: true, optional: true, required: false
-  private _timestampFormat?: string;
+  private _timestampFormat?: string; 
   public get timestampFormat() {
     return this.getStringAttribute('timestamp_format');
   }
@@ -609,7 +609,7 @@ export class IotanalyticsDatastoreDatastoreStorageCustomerManagedS3OutputReferen
   }
 
   // bucket - computed: true, optional: true, required: false
-  private _bucket?: string;
+  private _bucket?: string; 
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -625,7 +625,7 @@ export class IotanalyticsDatastoreDatastoreStorageCustomerManagedS3OutputReferen
   }
 
   // key_prefix - computed: true, optional: true, required: false
-  private _keyPrefix?: string;
+  private _keyPrefix?: string; 
   public get keyPrefix() {
     return this.getStringAttribute('key_prefix');
   }
@@ -641,7 +641,7 @@ export class IotanalyticsDatastoreDatastoreStorageCustomerManagedS3OutputReferen
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -752,7 +752,7 @@ export class IotanalyticsDatastoreDatastoreStorageIotSiteWiseMultiLayerStorageCu
   }
 
   // bucket - computed: true, optional: true, required: false
-  private _bucket?: string;
+  private _bucket?: string; 
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -768,7 +768,7 @@ export class IotanalyticsDatastoreDatastoreStorageIotSiteWiseMultiLayerStorageCu
   }
 
   // key_prefix - computed: true, optional: true, required: false
-  private _keyPrefix?: string;
+  private _keyPrefix?: string; 
   public get keyPrefix() {
     return this.getStringAttribute('key_prefix');
   }
@@ -1022,7 +1022,7 @@ export class IotanalyticsDatastoreDatastoreStorageOutputReference extends cdktn.
   }
 
   // service_managed_s3 - computed: true, optional: true, required: false
-  private _serviceManagedS3?: string;
+  private _serviceManagedS3?: string; 
   public get serviceManagedS3() {
     return this.getStringAttribute('service_managed_s3');
   }
@@ -1135,7 +1135,7 @@ export class IotanalyticsDatastoreFileFormatConfigurationParquetConfigurationSch
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1151,7 +1151,7 @@ export class IotanalyticsDatastoreFileFormatConfigurationParquetConfigurationSch
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -1470,7 +1470,7 @@ export class IotanalyticsDatastoreFileFormatConfigurationOutputReference extends
   }
 
   // json_configuration - computed: true, optional: true, required: false
-  private _jsonConfiguration?: string;
+  private _jsonConfiguration?: string; 
   public get jsonConfiguration() {
     return this.getStringAttribute('json_configuration');
   }
@@ -1597,7 +1597,7 @@ export class IotanalyticsDatastoreRetentionPeriodOutputReference extends cdktn.C
   }
 
   // number_of_days - computed: true, optional: true, required: false
-  private _numberOfDays?: number;
+  private _numberOfDays?: number; 
   public get numberOfDays() {
     return this.getNumberAttribute('number_of_days');
   }
@@ -1613,7 +1613,7 @@ export class IotanalyticsDatastoreRetentionPeriodOutputReference extends cdktn.C
   }
 
   // unlimited - computed: true, optional: true, required: false
-  private _unlimited?: boolean | cdktn.IResolvable;
+  private _unlimited?: boolean | cdktn.IResolvable; 
   public get unlimited() {
     return this.getBooleanAttribute('unlimited');
   }
@@ -1726,7 +1726,7 @@ export class IotanalyticsDatastoreTagsOutputReference extends cdktn.ComplexObjec
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1742,7 +1742,7 @@ export class IotanalyticsDatastoreTagsOutputReference extends cdktn.ComplexObjec
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1846,7 +1846,7 @@ export class IotanalyticsDatastore extends cdktn.TerraformResource {
   }
 
   // datastore_name - computed: true, optional: true, required: false
-  private _datastoreName?: string;
+  private _datastoreName?: string; 
   public get datastoreName() {
     return this.getStringAttribute('datastore_name');
   }

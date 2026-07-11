@@ -76,7 +76,7 @@ export class NotificationsOrganizationalUnitAssociation extends cdktn.TerraformR
   // ==========
 
   // notification_configuration_arn - computed: false, optional: false, required: true
-  private _notificationConfigurationArn?: string;
+  private _notificationConfigurationArn?: string; 
   public get notificationConfigurationArn() {
     return this.getStringAttribute('notification_configuration_arn');
   }
@@ -89,7 +89,7 @@ export class NotificationsOrganizationalUnitAssociation extends cdktn.TerraformR
   }
 
   // organizational_unit_id - computed: false, optional: false, required: true
-  private _organizationalUnitId?: string;
+  private _organizationalUnitId?: string; 
   public get organizationalUnitId() {
     return this.getStringAttribute('organizational_unit_id');
   }

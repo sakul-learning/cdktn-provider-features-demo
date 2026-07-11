@@ -1168,7 +1168,7 @@ export class DataAwsNetworkfirewallFirewallPolicy extends cdktn.TerraformDataSou
   // ==========
 
   // arn - computed: false, optional: true, required: false
-  private _arn?: string;
+  private _arn?: string; 
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -1195,7 +1195,7 @@ export class DataAwsNetworkfirewallFirewallPolicy extends cdktn.TerraformDataSou
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -1211,7 +1211,7 @@ export class DataAwsNetworkfirewallFirewallPolicy extends cdktn.TerraformDataSou
   }
 
   // name - computed: false, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1227,7 +1227,7 @@ export class DataAwsNetworkfirewallFirewallPolicy extends cdktn.TerraformDataSou
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1243,7 +1243,7 @@ export class DataAwsNetworkfirewallFirewallPolicy extends cdktn.TerraformDataSou
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

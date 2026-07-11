@@ -18,13 +18,13 @@ export interface EcsTaskSetConfig extends cdktn.TerraformMetaArguments {
   */
   readonly cluster: string;
   /**
-  * An optional non-unique tag that identifies this task set in external systems. If the task set is associated with a service discovery registry, the tasks in this task set will have the ECS_TASK_SET_EXTERNAL_ID AWS Cloud Map attribute set to the provided value.
+  * An optional non-unique tag that identifies this task set in external systems. If the task set is associated with a service discovery registry, the tasks in this task set will have the ECS_TASK_SET_EXTERNAL_ID AWS Cloud Map attribute set to the provided value. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_task_set#external_id EcsTaskSet#external_id}
   */
   readonly externalId?: string;
   /**
-  * The launch type that new tasks in the task set will use. For more information, see https://docs.aws.amazon.com/AmazonECS/latest/developerguide/launch_types.html in the Amazon Elastic Container Service Developer Guide.
+  * The launch type that new tasks in the task set will use. For more information, see https://docs.aws.amazon.com/AmazonECS/latest/developerguide/launch_types.html in the Amazon Elastic Container Service Developer Guide. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_task_set#launch_type EcsTaskSet#launch_type}
   */
@@ -189,7 +189,7 @@ export class EcsTaskSetCapacityProviderStrategyOutputReference extends cdktn.Com
   }
 
   // base - computed: true, optional: true, required: false
-  private _base?: number;
+  private _base?: number; 
   public get base() {
     return this.getNumberAttribute('base');
   }
@@ -205,7 +205,7 @@ export class EcsTaskSetCapacityProviderStrategyOutputReference extends cdktn.Com
   }
 
   // capacity_provider - computed: true, optional: true, required: false
-  private _capacityProvider?: string;
+  private _capacityProvider?: string; 
   public get capacityProvider() {
     return this.getStringAttribute('capacity_provider');
   }
@@ -221,7 +221,7 @@ export class EcsTaskSetCapacityProviderStrategyOutputReference extends cdktn.Com
   }
 
   // weight - computed: true, optional: true, required: false
-  private _weight?: number;
+  private _weight?: number; 
   public get weight() {
     return this.getNumberAttribute('weight');
   }
@@ -377,7 +377,7 @@ export class EcsTaskSetLoadBalancersOutputReference extends cdktn.ComplexObject 
   }
 
   // container_name - computed: true, optional: true, required: false
-  private _containerName?: string;
+  private _containerName?: string; 
   public get containerName() {
     return this.getStringAttribute('container_name');
   }
@@ -393,7 +393,7 @@ export class EcsTaskSetLoadBalancersOutputReference extends cdktn.ComplexObject 
   }
 
   // container_port - computed: true, optional: true, required: false
-  private _containerPort?: number;
+  private _containerPort?: number; 
   public get containerPort() {
     return this.getNumberAttribute('container_port');
   }
@@ -409,7 +409,7 @@ export class EcsTaskSetLoadBalancersOutputReference extends cdktn.ComplexObject 
   }
 
   // target_group_arn - computed: true, optional: true, required: false
-  private _targetGroupArn?: string;
+  private _targetGroupArn?: string; 
   public get targetGroupArn() {
     return this.getStringAttribute('target_group_arn');
   }
@@ -563,7 +563,7 @@ export class EcsTaskSetNetworkConfigurationAwsVpcConfigurationOutputReference ex
   }
 
   // assign_public_ip - computed: true, optional: true, required: false
-  private _assignPublicIp?: string;
+  private _assignPublicIp?: string; 
   public get assignPublicIp() {
     return this.getStringAttribute('assign_public_ip');
   }
@@ -579,7 +579,7 @@ export class EcsTaskSetNetworkConfigurationAwsVpcConfigurationOutputReference ex
   }
 
   // security_groups - computed: true, optional: true, required: false
-  private _securityGroups?: string[];
+  private _securityGroups?: string[]; 
   public get securityGroups() {
     return this.getListAttribute('security_groups');
   }
@@ -595,7 +595,7 @@ export class EcsTaskSetNetworkConfigurationAwsVpcConfigurationOutputReference ex
   }
 
   // subnets - computed: true, optional: true, required: false
-  private _subnets?: string[];
+  private _subnets?: string[]; 
   public get subnets() {
     return this.getListAttribute('subnets');
   }
@@ -806,7 +806,7 @@ export class EcsTaskSetScaleOutputReference extends cdktn.ComplexObject {
   }
 
   // unit - computed: true, optional: true, required: false
-  private _unit?: string;
+  private _unit?: string; 
   public get unit() {
     return this.getStringAttribute('unit');
   }
@@ -822,7 +822,7 @@ export class EcsTaskSetScaleOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: number;
+  private _value?: number; 
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -977,7 +977,7 @@ export class EcsTaskSetServiceRegistriesOutputReference extends cdktn.ComplexObj
   }
 
   // container_name - computed: true, optional: true, required: false
-  private _containerName?: string;
+  private _containerName?: string; 
   public get containerName() {
     return this.getStringAttribute('container_name');
   }
@@ -993,7 +993,7 @@ export class EcsTaskSetServiceRegistriesOutputReference extends cdktn.ComplexObj
   }
 
   // container_port - computed: true, optional: true, required: false
-  private _containerPort?: number;
+  private _containerPort?: number; 
   public get containerPort() {
     return this.getNumberAttribute('container_port');
   }
@@ -1009,7 +1009,7 @@ export class EcsTaskSetServiceRegistriesOutputReference extends cdktn.ComplexObj
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -1025,7 +1025,7 @@ export class EcsTaskSetServiceRegistriesOutputReference extends cdktn.ComplexObj
   }
 
   // registry_arn - computed: true, optional: true, required: false
-  private _registryArn?: string;
+  private _registryArn?: string; 
   public get registryArn() {
     return this.getStringAttribute('registry_arn');
   }
@@ -1158,7 +1158,7 @@ export class EcsTaskSetTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1174,7 +1174,7 @@ export class EcsTaskSetTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1295,7 +1295,7 @@ export class EcsTaskSet extends cdktn.TerraformResource {
   }
 
   // cluster - computed: false, optional: false, required: true
-  private _cluster?: string;
+  private _cluster?: string; 
   public get cluster() {
     return this.getStringAttribute('cluster');
   }
@@ -1308,7 +1308,7 @@ export class EcsTaskSet extends cdktn.TerraformResource {
   }
 
   // external_id - computed: true, optional: true, required: false
-  private _externalId?: string;
+  private _externalId?: string; 
   public get externalId() {
     return this.getStringAttribute('external_id');
   }
@@ -1329,7 +1329,7 @@ export class EcsTaskSet extends cdktn.TerraformResource {
   }
 
   // launch_type - computed: true, optional: true, required: false
-  private _launchType?: string;
+  private _launchType?: string; 
   public get launchType() {
     return this.getStringAttribute('launch_type');
   }
@@ -1377,7 +1377,7 @@ export class EcsTaskSet extends cdktn.TerraformResource {
   }
 
   // platform_version - computed: true, optional: true, required: false
-  private _platformVersion?: string;
+  private _platformVersion?: string; 
   public get platformVersion() {
     return this.getStringAttribute('platform_version');
   }
@@ -1409,7 +1409,7 @@ export class EcsTaskSet extends cdktn.TerraformResource {
   }
 
   // service - computed: false, optional: false, required: true
-  private _service?: string;
+  private _service?: string; 
   public get service() {
     return this.getStringAttribute('service');
   }
@@ -1454,7 +1454,7 @@ export class EcsTaskSet extends cdktn.TerraformResource {
   }
 
   // task_definition - computed: false, optional: false, required: true
-  private _taskDefinition?: string;
+  private _taskDefinition?: string; 
   public get taskDefinition() {
     return this.getStringAttribute('task_definition');
   }

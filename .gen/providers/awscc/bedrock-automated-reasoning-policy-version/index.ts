@@ -14,7 +14,7 @@ export interface BedrockAutomatedReasoningPolicyVersionConfig extends cdktn.Terr
   */
   readonly lastUpdatedDefinitionHash?: string;
   /**
-  * Arn of the policy
+  * Arn of the policy 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_automated_reasoning_policy_version#policy_arn BedrockAutomatedReasoningPolicyVersion#policy_arn}
   */
@@ -126,7 +126,7 @@ export class BedrockAutomatedReasoningPolicyVersionTagsOutputReference extends c
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -142,7 +142,7 @@ export class BedrockAutomatedReasoningPolicyVersionTagsOutputReference extends c
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -258,7 +258,7 @@ export class BedrockAutomatedReasoningPolicyVersion extends cdktn.TerraformResou
   }
 
   // last_updated_definition_hash - computed: true, optional: true, required: false
-  private _lastUpdatedDefinitionHash?: string;
+  private _lastUpdatedDefinitionHash?: string; 
   public get lastUpdatedDefinitionHash() {
     return this.getStringAttribute('last_updated_definition_hash');
   }
@@ -279,7 +279,7 @@ export class BedrockAutomatedReasoningPolicyVersion extends cdktn.TerraformResou
   }
 
   // policy_arn - computed: false, optional: false, required: true
-  private _policyArn?: string;
+  private _policyArn?: string; 
   public get policyArn() {
     return this.getStringAttribute('policy_arn');
   }

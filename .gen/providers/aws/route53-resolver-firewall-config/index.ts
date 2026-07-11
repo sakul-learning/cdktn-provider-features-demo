@@ -91,7 +91,7 @@ export class Route53ResolverFirewallConfig extends cdktn.TerraformResource {
   // ==========
 
   // firewall_fail_open - computed: true, optional: true, required: false
-  private _firewallFailOpen?: string;
+  private _firewallFailOpen?: string; 
   public get firewallFailOpen() {
     return this.getStringAttribute('firewall_fail_open');
   }
@@ -107,7 +107,7 @@ export class Route53ResolverFirewallConfig extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -128,7 +128,7 @@ export class Route53ResolverFirewallConfig extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -144,7 +144,7 @@ export class Route53ResolverFirewallConfig extends cdktn.TerraformResource {
   }
 
   // resource_id - computed: false, optional: false, required: true
-  private _resourceId?: string;
+  private _resourceId?: string; 
   public get resourceId() {
     return this.getStringAttribute('resource_id');
   }

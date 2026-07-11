@@ -135,7 +135,7 @@ export class EventsEventBusDeadLetterConfigOutputReference extends cdktn.Complex
   }
 
   // arn - computed: true, optional: true, required: false
-  private _arn?: string;
+  private _arn?: string; 
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -250,7 +250,7 @@ export class EventsEventBusLogConfigOutputReference extends cdktn.ComplexObject 
   }
 
   // include_detail - computed: true, optional: true, required: false
-  private _includeDetail?: string;
+  private _includeDetail?: string; 
   public get includeDetail() {
     return this.getStringAttribute('include_detail');
   }
@@ -266,7 +266,7 @@ export class EventsEventBusLogConfigOutputReference extends cdktn.ComplexObject 
   }
 
   // level - computed: true, optional: true, required: false
-  private _level?: string;
+  private _level?: string; 
   public get level() {
     return this.getStringAttribute('level');
   }
@@ -379,7 +379,7 @@ export class EventsEventBusTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -395,7 +395,7 @@ export class EventsEventBusTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -517,7 +517,7 @@ export class EventsEventBus extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -533,7 +533,7 @@ export class EventsEventBus extends cdktn.TerraformResource {
   }
 
   // event_source_name - computed: true, optional: true, required: false
-  private _eventSourceName?: string;
+  private _eventSourceName?: string; 
   public get eventSourceName() {
     return this.getStringAttribute('event_source_name');
   }
@@ -554,7 +554,7 @@ export class EventsEventBus extends cdktn.TerraformResource {
   }
 
   // kms_key_identifier - computed: true, optional: true, required: false
-  private _kmsKeyIdentifier?: string;
+  private _kmsKeyIdentifier?: string; 
   public get kmsKeyIdentifier() {
     return this.getStringAttribute('kms_key_identifier');
   }
@@ -586,7 +586,7 @@ export class EventsEventBus extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -599,7 +599,7 @@ export class EventsEventBus extends cdktn.TerraformResource {
   }
 
   // policy - computed: true, optional: true, required: false
-  private _policy?: string;
+  private _policy?: string; 
   public get policy() {
     return this.getStringAttribute('policy');
   }

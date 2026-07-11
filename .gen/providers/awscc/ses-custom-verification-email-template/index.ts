@@ -152,7 +152,7 @@ export class SesCustomVerificationEmailTemplateTagsOutputReference extends cdktn
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -168,7 +168,7 @@ export class SesCustomVerificationEmailTemplateTagsOutputReference extends cdktn
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -268,7 +268,7 @@ export class SesCustomVerificationEmailTemplate extends cdktn.TerraformResource 
   // ==========
 
   // failure_redirection_url - computed: false, optional: false, required: true
-  private _failureRedirectionUrl?: string;
+  private _failureRedirectionUrl?: string; 
   public get failureRedirectionUrl() {
     return this.getStringAttribute('failure_redirection_url');
   }
@@ -281,7 +281,7 @@ export class SesCustomVerificationEmailTemplate extends cdktn.TerraformResource 
   }
 
   // from_email_address - computed: false, optional: false, required: true
-  private _fromEmailAddress?: string;
+  private _fromEmailAddress?: string; 
   public get fromEmailAddress() {
     return this.getStringAttribute('from_email_address');
   }
@@ -299,7 +299,7 @@ export class SesCustomVerificationEmailTemplate extends cdktn.TerraformResource 
   }
 
   // success_redirection_url - computed: false, optional: false, required: true
-  private _successRedirectionUrl?: string;
+  private _successRedirectionUrl?: string; 
   public get successRedirectionUrl() {
     return this.getStringAttribute('success_redirection_url');
   }
@@ -328,7 +328,7 @@ export class SesCustomVerificationEmailTemplate extends cdktn.TerraformResource 
   }
 
   // template_content - computed: false, optional: false, required: true
-  private _templateContent?: string;
+  private _templateContent?: string; 
   public get templateContent() {
     return this.getStringAttribute('template_content');
   }
@@ -341,7 +341,7 @@ export class SesCustomVerificationEmailTemplate extends cdktn.TerraformResource 
   }
 
   // template_name - computed: false, optional: false, required: true
-  private _templateName?: string;
+  private _templateName?: string; 
   public get templateName() {
     return this.getStringAttribute('template_name');
   }
@@ -354,7 +354,7 @@ export class SesCustomVerificationEmailTemplate extends cdktn.TerraformResource 
   }
 
   // template_subject - computed: false, optional: false, required: true
-  private _templateSubject?: string;
+  private _templateSubject?: string; 
   public get templateSubject() {
     return this.getStringAttribute('template_subject');
   }

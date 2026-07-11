@@ -69,21 +69,21 @@ export interface RumAppMonitorConfig extends cdktn.TerraformMetaArguments {
 export interface RumAppMonitorAppMonitorConfigurationMetricDestinationsMetricDefinitions {
   /**
   * Use this field only if you are sending the metric to CloudWatch.
-  *
+  * 
   * This field is a map of field paths to dimension names. It defines the dimensions to associate with this metric in CloudWatch. For extended metrics, valid values for the entries in this field are the following:
-  *
+  * 
   * "metadata.pageId": "PageId"
-  *
+  * 
   * "metadata.browserName": "BrowserName"
-  *
+  * 
   * "metadata.deviceType": "DeviceType"
-  *
+  * 
   * "metadata.osName": "OSName"
-  *
+  * 
   * "metadata.countryCode": "CountryCode"
-  *
+  * 
   * "event_details.fileType": "FileType"
-  *
+  * 
   * All dimensions listed in this field must also be included in EventPattern.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rum_app_monitor#dimension_keys RumAppMonitor#dimension_keys}
@@ -91,17 +91,17 @@ export interface RumAppMonitorAppMonitorConfigurationMetricDestinationsMetricDef
   readonly dimensionKeys?: { [key: string]: string };
   /**
   * The pattern that defines the metric, specified as a JSON object. RUM checks events that happen in a user's session against the pattern, and events that match the pattern are sent to the metric destination.
-  *
+  * 
   * When you define extended metrics, the metric definition is not valid if EventPattern is omitted.
-  *
+  * 
   * Example event patterns:
-  *
+  * 
   * '{ "event_type": ["com.amazon.rum.js_error_event"], "metadata": { "browserName": [ "Chrome", "Safari" ], } }'
-  *
+  * 
   * '{ "event_type": ["com.amazon.rum.performance_navigation_event"], "metadata": { "browserName": [ "Chrome", "Firefox" ] }, "event_details": { "duration": [{ "numeric": [ "<", 2000 ] }] } }'
-  *
+  * 
   * '{ "event_type": ["com.amazon.rum.performance_navigation_event"], "metadata": { "browserName": [ "Chrome", "Safari" ], "countryCode": [ "US" ] }, "event_details": { "duration": [{ "numeric": [ ">=", 2000, "<", 8000 ] }] } }'
-  *
+  * 
   * If the metrics destination' is CloudWatch and the event also matches a value in DimensionKeys, then the metric is published with the specified dimensions.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rum_app_monitor#event_pattern RumAppMonitor#event_pattern}
@@ -109,73 +109,73 @@ export interface RumAppMonitorAppMonitorConfigurationMetricDestinationsMetricDef
   readonly eventPattern?: string;
   /**
   * The name for the metric that is defined in this structure. For extended metrics, valid values are the following:
-  *
+  * 
   * PerformanceNavigationDuration
-  *
+  * 
   * PerformanceResourceDuration
-  *
+  * 
   * NavigationSatisfiedTransaction
-  *
+  * 
   * NavigationToleratedTransaction
-  *
+  * 
   * NavigationFrustratedTransaction
-  *
+  * 
   * WebVitalsCumulativeLayoutShift
-  *
+  * 
   * WebVitalsFirstInputDelay
-  *
+  * 
   * WebVitalsLargestContentfulPaint
-  *
+  * 
   * WebVitalsInteractionToNextPaint
-  *
+  * 
   * JsErrorCount
-  *
+  * 
   * HttpErrorCount
-  *
+  * 
   * SessionCount
-  *
+  * 
   * PageViewCount
-  *
+  * 
   * Http4xxCount
-  *
+  * 
   * Http5xxCount
-  *
+  * 
   * SessionDuration
-  *
+  * 
   * PageViewCountPerSession
-  *
+  * 
   * JsErrorCountPerSession
-  *
+  * 
   * Http4xxCountPerSession
-  *
+  * 
   * Http5xxCountPerSession
-  *
+  * 
   * JsErrorCountPerPageView
-  *
+  * 
   * Http4xxCountPerPageView
-  *
+  * 
   * Http5xxCountPerPageView
-  *
+  * 
   * TimeOnPage
-  *
+  * 
   * ColdLaunchTime
-  *
+  * 
   * WarmLaunchTime
-  *
+  * 
   * CrashCount
-  *
+  * 
   * ANRCount
-  *
+  * 
   * AppHangCount
-  *
+  * 
   * ScreenLoadCount
-  *
+  * 
   * ScreenLoadTime
-  *
+  * 
   * NetworkLatency
-  *
+  * 
   * SpanPayloadSize
-  *
+  * 
   * LogEventPayloadSize
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rum_app_monitor#name RumAppMonitor#name}
@@ -195,9 +195,9 @@ export interface RumAppMonitorAppMonitorConfigurationMetricDestinationsMetricDef
   readonly unitLabel?: string;
   /**
   * The field within the event object that the metric value is sourced from.
-  *
+  * 
   * If you omit this field, a hardcoded value of 1 is pushed as the metric value. This is useful if you just want to count the number of events that the filter catches.
-  *
+  * 
   * If this metric is sent to Evidently, this field will be passed to Evidently raw and Evidently will handle data extraction from the event. Note: Evidently has been discontinued.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rum_app_monitor#value_key RumAppMonitor#value_key}
@@ -344,7 +344,7 @@ export class RumAppMonitorAppMonitorConfigurationMetricDestinationsMetricDefinit
   }
 
   // dimension_keys - computed: true, optional: true, required: false
-  private _dimensionKeys?: { [key: string]: string };
+  private _dimensionKeys?: { [key: string]: string }; 
   public get dimensionKeys() {
     return this.getStringMapAttribute('dimension_keys');
   }
@@ -360,7 +360,7 @@ export class RumAppMonitorAppMonitorConfigurationMetricDestinationsMetricDefinit
   }
 
   // event_pattern - computed: true, optional: true, required: false
-  private _eventPattern?: string;
+  private _eventPattern?: string; 
   public get eventPattern() {
     return this.getStringAttribute('event_pattern');
   }
@@ -376,7 +376,7 @@ export class RumAppMonitorAppMonitorConfigurationMetricDestinationsMetricDefinit
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -392,7 +392,7 @@ export class RumAppMonitorAppMonitorConfigurationMetricDestinationsMetricDefinit
   }
 
   // namespace - computed: true, optional: true, required: false
-  private _namespace?: string;
+  private _namespace?: string; 
   public get namespace() {
     return this.getStringAttribute('namespace');
   }
@@ -408,7 +408,7 @@ export class RumAppMonitorAppMonitorConfigurationMetricDestinationsMetricDefinit
   }
 
   // unit_label - computed: true, optional: true, required: false
-  private _unitLabel?: string;
+  private _unitLabel?: string; 
   public get unitLabel() {
     return this.getStringAttribute('unit_label');
   }
@@ -424,7 +424,7 @@ export class RumAppMonitorAppMonitorConfigurationMetricDestinationsMetricDefinit
   }
 
   // value_key - computed: true, optional: true, required: false
-  private _valueKey?: string;
+  private _valueKey?: string; 
   public get valueKey() {
     return this.getStringAttribute('value_key');
   }
@@ -467,16 +467,16 @@ export interface RumAppMonitorAppMonitorConfigurationMetricDestinations {
   */
   readonly destination?: string;
   /**
-  * Evidently has been discontinued and therefore this is no longer an acceptable field. If Destination is CloudWatch, do not use this parameter.
-  *
+  * Evidently has been discontinued and therefore this is no longer an acceptable field. If Destination is CloudWatch, do not use this parameter. 
+  * 
   * This parameter specifies the ARN of the Evidently experiment that will receive the extended metrics.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rum_app_monitor#destination_arn RumAppMonitor#destination_arn}
   */
   readonly destinationArn?: string;
   /**
-  * Evidently has been discontinued and therefore this is no longer an acceptable field. If Destination is CloudWatch, do not use this parameter.
-  *
+  * Evidently has been discontinued and therefore this is no longer an acceptable field. If Destination is CloudWatch, do not use this parameter. 
+  * 
   * This parameter specifies the ARN of an IAM role that RUM will assume to write to the Evidently experiment that you are sending metrics to. This role must have permission to write to that experiment.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rum_app_monitor#iam_role_arn RumAppMonitor#iam_role_arn}
@@ -603,7 +603,7 @@ export class RumAppMonitorAppMonitorConfigurationMetricDestinationsOutputReferen
   }
 
   // destination - computed: true, optional: true, required: false
-  private _destination?: string;
+  private _destination?: string; 
   public get destination() {
     return this.getStringAttribute('destination');
   }
@@ -619,7 +619,7 @@ export class RumAppMonitorAppMonitorConfigurationMetricDestinationsOutputReferen
   }
 
   // destination_arn - computed: true, optional: true, required: false
-  private _destinationArn?: string;
+  private _destinationArn?: string; 
   public get destinationArn() {
     return this.getStringAttribute('destination_arn');
   }
@@ -635,7 +635,7 @@ export class RumAppMonitorAppMonitorConfigurationMetricDestinationsOutputReferen
   }
 
   // iam_role_arn - computed: true, optional: true, required: false
-  private _iamRoleArn?: string;
+  private _iamRoleArn?: string; 
   public get iamRoleArn() {
     return this.getStringAttribute('iam_role_arn');
   }
@@ -938,7 +938,7 @@ export class RumAppMonitorAppMonitorConfigurationOutputReference extends cdktn.C
   }
 
   // allow_cookies - computed: true, optional: true, required: false
-  private _allowCookies?: boolean | cdktn.IResolvable;
+  private _allowCookies?: boolean | cdktn.IResolvable; 
   public get allowCookies() {
     return this.getBooleanAttribute('allow_cookies');
   }
@@ -954,7 +954,7 @@ export class RumAppMonitorAppMonitorConfigurationOutputReference extends cdktn.C
   }
 
   // enable_x_ray - computed: true, optional: true, required: false
-  private _enableXRay?: boolean | cdktn.IResolvable;
+  private _enableXRay?: boolean | cdktn.IResolvable; 
   public get enableXRay() {
     return this.getBooleanAttribute('enable_x_ray');
   }
@@ -970,7 +970,7 @@ export class RumAppMonitorAppMonitorConfigurationOutputReference extends cdktn.C
   }
 
   // excluded_pages - computed: true, optional: true, required: false
-  private _excludedPages?: string[];
+  private _excludedPages?: string[]; 
   public get excludedPages() {
     return this.getListAttribute('excluded_pages');
   }
@@ -986,7 +986,7 @@ export class RumAppMonitorAppMonitorConfigurationOutputReference extends cdktn.C
   }
 
   // favorite_pages - computed: true, optional: true, required: false
-  private _favoritePages?: string[];
+  private _favoritePages?: string[]; 
   public get favoritePages() {
     return this.getListAttribute('favorite_pages');
   }
@@ -1002,7 +1002,7 @@ export class RumAppMonitorAppMonitorConfigurationOutputReference extends cdktn.C
   }
 
   // guest_role_arn - computed: true, optional: true, required: false
-  private _guestRoleArn?: string;
+  private _guestRoleArn?: string; 
   public get guestRoleArn() {
     return this.getStringAttribute('guest_role_arn');
   }
@@ -1018,7 +1018,7 @@ export class RumAppMonitorAppMonitorConfigurationOutputReference extends cdktn.C
   }
 
   // identity_pool_id - computed: true, optional: true, required: false
-  private _identityPoolId?: string;
+  private _identityPoolId?: string; 
   public get identityPoolId() {
     return this.getStringAttribute('identity_pool_id');
   }
@@ -1034,7 +1034,7 @@ export class RumAppMonitorAppMonitorConfigurationOutputReference extends cdktn.C
   }
 
   // included_pages - computed: true, optional: true, required: false
-  private _includedPages?: string[];
+  private _includedPages?: string[]; 
   public get includedPages() {
     return this.getListAttribute('included_pages');
   }
@@ -1066,7 +1066,7 @@ export class RumAppMonitorAppMonitorConfigurationOutputReference extends cdktn.C
   }
 
   // session_sample_rate - computed: true, optional: true, required: false
-  private _sessionSampleRate?: number;
+  private _sessionSampleRate?: number; 
   public get sessionSampleRate() {
     return this.getNumberAttribute('session_sample_rate');
   }
@@ -1082,7 +1082,7 @@ export class RumAppMonitorAppMonitorConfigurationOutputReference extends cdktn.C
   }
 
   // telemetries - computed: true, optional: true, required: false
-  private _telemetries?: string[];
+  private _telemetries?: string[]; 
   public get telemetries() {
     return this.getListAttribute('telemetries');
   }
@@ -1178,7 +1178,7 @@ export class RumAppMonitorCustomEventsOutputReference extends cdktn.ComplexObjec
   }
 
   // status - computed: true, optional: true, required: false
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -1293,7 +1293,7 @@ export class RumAppMonitorDeobfuscationConfigurationJavaScriptSourceMapsOutputRe
   }
 
   // s3_uri - computed: true, optional: true, required: false
-  private _s3Uri?: string;
+  private _s3Uri?: string; 
   public get s3Uri() {
     return this.getStringAttribute('s3_uri');
   }
@@ -1309,7 +1309,7 @@ export class RumAppMonitorDeobfuscationConfigurationJavaScriptSourceMapsOutputRe
   }
 
   // status - computed: true, optional: true, required: false
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -1422,14 +1422,14 @@ export class RumAppMonitorDeobfuscationConfigurationOutputReference extends cdkt
 }
 export interface RumAppMonitorResourcePolicy {
   /**
-  * The JSON to use as the resource policy. The document can be up to 4 KB in size.
+  * The JSON to use as the resource policy. The document can be up to 4 KB in size. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rum_app_monitor#policy_document RumAppMonitor#policy_document}
   */
   readonly policyDocument?: string;
   /**
-  * A string value that you can use to conditionally update your policy. You can provide the revision ID of your existing policy to make mutating requests against that policy.
-  *
+  * A string value that you can use to conditionally update your policy. You can provide the revision ID of your existing policy to make mutating requests against that policy. 
+  * 
   *  When you assign a policy revision ID, then later requests about that policy will be rejected with an InvalidPolicyRevisionIdException error if they don't provide the correct current revision ID.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rum_app_monitor#policy_revision_id RumAppMonitor#policy_revision_id}
@@ -1522,7 +1522,7 @@ export class RumAppMonitorResourcePolicyOutputReference extends cdktn.ComplexObj
   }
 
   // policy_document - computed: true, optional: true, required: false
-  private _policyDocument?: string;
+  private _policyDocument?: string; 
   public get policyDocument() {
     return this.getStringAttribute('policy_document');
   }
@@ -1538,7 +1538,7 @@ export class RumAppMonitorResourcePolicyOutputReference extends cdktn.ComplexObj
   }
 
   // policy_revision_id - computed: true, optional: true, required: false
-  private _policyRevisionId?: string;
+  private _policyRevisionId?: string; 
   public get policyRevisionId() {
     return this.getStringAttribute('policy_revision_id');
   }
@@ -1555,13 +1555,13 @@ export class RumAppMonitorResourcePolicyOutputReference extends cdktn.ComplexObj
 }
 export interface RumAppMonitorTags {
   /**
-  * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
+  * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rum_app_monitor#key RumAppMonitor#key}
   */
   readonly key?: string;
   /**
-  * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
+  * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rum_app_monitor#value RumAppMonitor#value}
   */
@@ -1655,7 +1655,7 @@ export class RumAppMonitorTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1671,7 +1671,7 @@ export class RumAppMonitorTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1811,7 +1811,7 @@ export class RumAppMonitor extends cdktn.TerraformResource {
   }
 
   // cw_log_enabled - computed: true, optional: true, required: false
-  private _cwLogEnabled?: boolean | cdktn.IResolvable;
+  private _cwLogEnabled?: boolean | cdktn.IResolvable; 
   public get cwLogEnabled() {
     return this.getBooleanAttribute('cw_log_enabled');
   }
@@ -1843,7 +1843,7 @@ export class RumAppMonitor extends cdktn.TerraformResource {
   }
 
   // domain - computed: true, optional: true, required: false
-  private _domain?: string;
+  private _domain?: string; 
   public get domain() {
     return this.getStringAttribute('domain');
   }
@@ -1859,7 +1859,7 @@ export class RumAppMonitor extends cdktn.TerraformResource {
   }
 
   // domain_list - computed: true, optional: true, required: false
-  private _domainList?: string[];
+  private _domainList?: string[]; 
   public get domainList() {
     return this.getListAttribute('domain_list');
   }
@@ -1880,7 +1880,7 @@ export class RumAppMonitor extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1893,7 +1893,7 @@ export class RumAppMonitor extends cdktn.TerraformResource {
   }
 
   // platform - computed: true, optional: true, required: false
-  private _platform?: string;
+  private _platform?: string; 
   public get platform() {
     return this.getStringAttribute('platform');
   }

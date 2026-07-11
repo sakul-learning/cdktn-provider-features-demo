@@ -15,12 +15,12 @@ export interface NeptuneDbSubnetGroupConfig extends cdktn.TerraformMetaArguments
   readonly dbSubnetGroupDescription: string;
   /**
   * The name for the DB subnet group. This value is stored as a lowercase string.
-  *
+  * 
   * Constraints: Must contain no more than 255 lowercase alphanumeric characters or hyphens. Must not be "Default".
-  *
+  * 
   * Example: mysubnetgroup
-  *
-  *
+  * 
+  * 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/neptune_db_subnet_group#db_subnet_group_name NeptuneDbSubnetGroup#db_subnet_group_name}
   */
@@ -40,13 +40,13 @@ export interface NeptuneDbSubnetGroupConfig extends cdktn.TerraformMetaArguments
 }
 export interface NeptuneDbSubnetGroupTags {
   /**
-  * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
+  * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/neptune_db_subnet_group#key NeptuneDbSubnetGroup#key}
   */
   readonly key?: string;
   /**
-  * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
+  * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/neptune_db_subnet_group#value NeptuneDbSubnetGroup#value}
   */
@@ -140,7 +140,7 @@ export class NeptuneDbSubnetGroupTagsOutputReference extends cdktn.ComplexObject
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -156,7 +156,7 @@ export class NeptuneDbSubnetGroupTagsOutputReference extends cdktn.ComplexObject
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -253,7 +253,7 @@ export class NeptuneDbSubnetGroup extends cdktn.TerraformResource {
   // ==========
 
   // db_subnet_group_description - computed: false, optional: false, required: true
-  private _dbSubnetGroupDescription?: string;
+  private _dbSubnetGroupDescription?: string; 
   public get dbSubnetGroupDescription() {
     return this.getStringAttribute('db_subnet_group_description');
   }
@@ -266,7 +266,7 @@ export class NeptuneDbSubnetGroup extends cdktn.TerraformResource {
   }
 
   // db_subnet_group_name - computed: true, optional: true, required: false
-  private _dbSubnetGroupName?: string;
+  private _dbSubnetGroupName?: string; 
   public get dbSubnetGroupName() {
     return this.getStringAttribute('db_subnet_group_name');
   }
@@ -287,7 +287,7 @@ export class NeptuneDbSubnetGroup extends cdktn.TerraformResource {
   }
 
   // subnet_ids - computed: false, optional: false, required: true
-  private _subnetIds?: string[];
+  private _subnetIds?: string[]; 
   public get subnetIds() {
     return this.getListAttribute('subnet_ids');
   }

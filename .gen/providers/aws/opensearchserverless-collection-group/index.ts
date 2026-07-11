@@ -178,7 +178,7 @@ export class OpensearchserverlessCollectionGroupCapacityLimitsOutputReference ex
   }
 
   // max_indexing_capacity_in_ocu - computed: true, optional: true, required: false
-  private _maxIndexingCapacityInOcu?: number;
+  private _maxIndexingCapacityInOcu?: number; 
   public get maxIndexingCapacityInOcu() {
     return this.getNumberAttribute('max_indexing_capacity_in_ocu');
   }
@@ -194,7 +194,7 @@ export class OpensearchserverlessCollectionGroupCapacityLimitsOutputReference ex
   }
 
   // max_search_capacity_in_ocu - computed: true, optional: true, required: false
-  private _maxSearchCapacityInOcu?: number;
+  private _maxSearchCapacityInOcu?: number; 
   public get maxSearchCapacityInOcu() {
     return this.getNumberAttribute('max_search_capacity_in_ocu');
   }
@@ -210,7 +210,7 @@ export class OpensearchserverlessCollectionGroupCapacityLimitsOutputReference ex
   }
 
   // min_indexing_capacity_in_ocu - computed: true, optional: true, required: false
-  private _minIndexingCapacityInOcu?: number;
+  private _minIndexingCapacityInOcu?: number; 
   public get minIndexingCapacityInOcu() {
     return this.getNumberAttribute('min_indexing_capacity_in_ocu');
   }
@@ -226,7 +226,7 @@ export class OpensearchserverlessCollectionGroupCapacityLimitsOutputReference ex
   }
 
   // min_search_capacity_in_ocu - computed: true, optional: true, required: false
-  private _minSearchCapacityInOcu?: number;
+  private _minSearchCapacityInOcu?: number; 
   public get minSearchCapacityInOcu() {
     return this.getNumberAttribute('min_search_capacity_in_ocu');
   }
@@ -352,7 +352,7 @@ export class OpensearchserverlessCollectionGroup extends cdktn.TerraformResource
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -368,7 +368,7 @@ export class OpensearchserverlessCollectionGroup extends cdktn.TerraformResource
   }
 
   // generation - computed: true, optional: true, required: false
-  private _generation?: string;
+  private _generation?: string; 
   public get generation() {
     return this.getStringAttribute('generation');
   }
@@ -389,7 +389,7 @@ export class OpensearchserverlessCollectionGroup extends cdktn.TerraformResource
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -402,7 +402,7 @@ export class OpensearchserverlessCollectionGroup extends cdktn.TerraformResource
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -418,7 +418,7 @@ export class OpensearchserverlessCollectionGroup extends cdktn.TerraformResource
   }
 
   // standby_replicas - computed: false, optional: false, required: true
-  private _standbyReplicas?: string;
+  private _standbyReplicas?: string; 
   public get standbyReplicas() {
     return this.getStringAttribute('standby_replicas');
   }
@@ -431,7 +431,7 @@ export class OpensearchserverlessCollectionGroup extends cdktn.TerraformResource
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

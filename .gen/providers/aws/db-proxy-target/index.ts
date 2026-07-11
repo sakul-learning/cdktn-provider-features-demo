@@ -101,7 +101,7 @@ export class DbProxyTarget extends cdktn.TerraformResource {
   // ==========
 
   // db_cluster_identifier - computed: false, optional: true, required: false
-  private _dbClusterIdentifier?: string;
+  private _dbClusterIdentifier?: string; 
   public get dbClusterIdentifier() {
     return this.getStringAttribute('db_cluster_identifier');
   }
@@ -117,7 +117,7 @@ export class DbProxyTarget extends cdktn.TerraformResource {
   }
 
   // db_instance_identifier - computed: false, optional: true, required: false
-  private _dbInstanceIdentifier?: string;
+  private _dbInstanceIdentifier?: string; 
   public get dbInstanceIdentifier() {
     return this.getStringAttribute('db_instance_identifier');
   }
@@ -133,7 +133,7 @@ export class DbProxyTarget extends cdktn.TerraformResource {
   }
 
   // db_proxy_name - computed: false, optional: false, required: true
-  private _dbProxyName?: string;
+  private _dbProxyName?: string; 
   public get dbProxyName() {
     return this.getStringAttribute('db_proxy_name');
   }
@@ -151,7 +151,7 @@ export class DbProxyTarget extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -177,7 +177,7 @@ export class DbProxyTarget extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -198,7 +198,7 @@ export class DbProxyTarget extends cdktn.TerraformResource {
   }
 
   // target_group_name - computed: false, optional: false, required: true
-  private _targetGroupName?: string;
+  private _targetGroupName?: string; 
   public get targetGroupName() {
     return this.getStringAttribute('target_group_name');
   }

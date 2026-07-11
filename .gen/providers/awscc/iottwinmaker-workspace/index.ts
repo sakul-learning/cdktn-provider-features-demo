@@ -111,7 +111,7 @@ export class IottwinmakerWorkspace extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -132,7 +132,7 @@ export class IottwinmakerWorkspace extends cdktn.TerraformResource {
   }
 
   // role - computed: false, optional: false, required: true
-  private _role?: string;
+  private _role?: string; 
   public get role() {
     return this.getStringAttribute('role');
   }
@@ -145,7 +145,7 @@ export class IottwinmakerWorkspace extends cdktn.TerraformResource {
   }
 
   // s3_location - computed: false, optional: false, required: true
-  private _s3Location?: string;
+  private _s3Location?: string; 
   public get s3Location() {
     return this.getStringAttribute('s3_location');
   }
@@ -158,7 +158,7 @@ export class IottwinmakerWorkspace extends cdktn.TerraformResource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -179,7 +179,7 @@ export class IottwinmakerWorkspace extends cdktn.TerraformResource {
   }
 
   // workspace_id - computed: false, optional: false, required: true
-  private _workspaceId?: string;
+  private _workspaceId?: string; 
   public get workspaceId() {
     return this.getStringAttribute('workspace_id');
   }

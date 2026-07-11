@@ -96,7 +96,7 @@ export class VpcEndpointSecurityGroupAssociation extends cdktn.TerraformResource
   // ==========
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -112,7 +112,7 @@ export class VpcEndpointSecurityGroupAssociation extends cdktn.TerraformResource
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -128,7 +128,7 @@ export class VpcEndpointSecurityGroupAssociation extends cdktn.TerraformResource
   }
 
   // replace_default_association - computed: false, optional: true, required: false
-  private _replaceDefaultAssociation?: boolean | cdktn.IResolvable;
+  private _replaceDefaultAssociation?: boolean | cdktn.IResolvable; 
   public get replaceDefaultAssociation() {
     return this.getBooleanAttribute('replace_default_association');
   }
@@ -144,7 +144,7 @@ export class VpcEndpointSecurityGroupAssociation extends cdktn.TerraformResource
   }
 
   // security_group_id - computed: false, optional: false, required: true
-  private _securityGroupId?: string;
+  private _securityGroupId?: string; 
   public get securityGroupId() {
     return this.getStringAttribute('security_group_id');
   }
@@ -157,7 +157,7 @@ export class VpcEndpointSecurityGroupAssociation extends cdktn.TerraformResource
   }
 
   // vpc_endpoint_id - computed: false, optional: false, required: true
-  private _vpcEndpointId?: string;
+  private _vpcEndpointId?: string; 
   public get vpcEndpointId() {
     return this.getStringAttribute('vpc_endpoint_id');
   }

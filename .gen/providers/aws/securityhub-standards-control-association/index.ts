@@ -93,7 +93,7 @@ export class SecurityhubStandardsControlAssociation extends cdktn.TerraformResou
   // ==========
 
   // association_status - computed: false, optional: false, required: true
-  private _associationStatus?: string;
+  private _associationStatus?: string; 
   public get associationStatus() {
     return this.getStringAttribute('association_status');
   }
@@ -111,7 +111,7 @@ export class SecurityhubStandardsControlAssociation extends cdktn.TerraformResou
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -127,7 +127,7 @@ export class SecurityhubStandardsControlAssociation extends cdktn.TerraformResou
   }
 
   // security_control_id - computed: false, optional: false, required: true
-  private _securityControlId?: string;
+  private _securityControlId?: string; 
   public get securityControlId() {
     return this.getStringAttribute('security_control_id');
   }
@@ -140,7 +140,7 @@ export class SecurityhubStandardsControlAssociation extends cdktn.TerraformResou
   }
 
   // standards_arn - computed: false, optional: false, required: true
-  private _standardsArn?: string;
+  private _standardsArn?: string; 
   public get standardsArn() {
     return this.getStringAttribute('standards_arn');
   }
@@ -153,7 +153,7 @@ export class SecurityhubStandardsControlAssociation extends cdktn.TerraformResou
   }
 
   // updated_reason - computed: false, optional: true, required: false
-  private _updatedReason?: string;
+  private _updatedReason?: string; 
   public get updatedReason() {
     return this.getStringAttribute('updated_reason');
   }

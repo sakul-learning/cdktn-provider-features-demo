@@ -143,7 +143,7 @@ export class CustomerprofilesDomainMatchingAutoMergingConflictResolutionOutputRe
   }
 
   // conflict_resolving_model - computed: false, optional: false, required: true
-  private _conflictResolvingModel?: string;
+  private _conflictResolvingModel?: string; 
   public get conflictResolvingModel() {
     return this.getStringAttribute('conflict_resolving_model');
   }
@@ -156,7 +156,7 @@ export class CustomerprofilesDomainMatchingAutoMergingConflictResolutionOutputRe
   }
 
   // source_name - computed: false, optional: true, required: false
-  private _sourceName?: string;
+  private _sourceName?: string; 
   public get sourceName() {
     return this.getStringAttribute('source_name');
   }
@@ -240,7 +240,7 @@ export class CustomerprofilesDomainMatchingAutoMergingConsolidationOutputReferen
   }
 
   // matching_attributes_list - computed: false, optional: false, required: true
-  private _matchingAttributesList?: string[][] | cdktn.IResolvable;
+  private _matchingAttributesList?: string[][] | cdktn.IResolvable; 
   public get matchingAttributesList() {
     return this.interpolationForAttribute('matching_attributes_list');
   }
@@ -376,7 +376,7 @@ export class CustomerprofilesDomainMatchingAutoMergingOutputReference extends cd
   }
 
   // enabled - computed: false, optional: false, required: true
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -389,7 +389,7 @@ export class CustomerprofilesDomainMatchingAutoMergingOutputReference extends cd
   }
 
   // min_allowed_confidence_score_for_merging - computed: false, optional: true, required: false
-  private _minAllowedConfidenceScoreForMerging?: number;
+  private _minAllowedConfidenceScoreForMerging?: number; 
   public get minAllowedConfidenceScoreForMerging() {
     return this.getNumberAttribute('min_allowed_confidence_score_for_merging');
   }
@@ -522,7 +522,7 @@ export class CustomerprofilesDomainMatchingExportingConfigS3ExportingOutputRefer
   }
 
   // s3_bucket_name - computed: false, optional: false, required: true
-  private _s3BucketName?: string;
+  private _s3BucketName?: string; 
   public get s3BucketName() {
     return this.getStringAttribute('s3_bucket_name');
   }
@@ -535,7 +535,7 @@ export class CustomerprofilesDomainMatchingExportingConfigS3ExportingOutputRefer
   }
 
   // s3_key_name - computed: false, optional: true, required: false
-  private _s3KeyName?: string;
+  private _s3KeyName?: string; 
   public get s3KeyName() {
     return this.getStringAttribute('s3_key_name');
   }
@@ -722,7 +722,7 @@ export class CustomerprofilesDomainMatchingJobScheduleOutputReference extends cd
   }
 
   // day_of_the_week - computed: false, optional: false, required: true
-  private _dayOfTheWeek?: string;
+  private _dayOfTheWeek?: string; 
   public get dayOfTheWeek() {
     return this.getStringAttribute('day_of_the_week');
   }
@@ -735,7 +735,7 @@ export class CustomerprofilesDomainMatchingJobScheduleOutputReference extends cd
   }
 
   // time - computed: false, optional: false, required: true
-  private _time?: string;
+  private _time?: string; 
   public get time() {
     return this.getStringAttribute('time');
   }
@@ -873,7 +873,7 @@ export class CustomerprofilesDomainMatchingOutputReference extends cdktn.Complex
   }
 
   // enabled - computed: false, optional: false, required: true
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -1053,7 +1053,7 @@ export class CustomerprofilesDomainRuleBasedMatchingAttributeTypesSelectorOutput
   }
 
   // address - computed: false, optional: true, required: false
-  private _address?: string[];
+  private _address?: string[]; 
   public get address() {
     return this.getListAttribute('address');
   }
@@ -1069,7 +1069,7 @@ export class CustomerprofilesDomainRuleBasedMatchingAttributeTypesSelectorOutput
   }
 
   // attribute_matching_model - computed: false, optional: false, required: true
-  private _attributeMatchingModel?: string;
+  private _attributeMatchingModel?: string; 
   public get attributeMatchingModel() {
     return this.getStringAttribute('attribute_matching_model');
   }
@@ -1082,7 +1082,7 @@ export class CustomerprofilesDomainRuleBasedMatchingAttributeTypesSelectorOutput
   }
 
   // email_address - computed: false, optional: true, required: false
-  private _emailAddress?: string[];
+  private _emailAddress?: string[]; 
   public get emailAddress() {
     return this.getListAttribute('email_address');
   }
@@ -1098,7 +1098,7 @@ export class CustomerprofilesDomainRuleBasedMatchingAttributeTypesSelectorOutput
   }
 
   // phone_number - computed: false, optional: true, required: false
-  private _phoneNumber?: string[];
+  private _phoneNumber?: string[]; 
   public get phoneNumber() {
     return this.getListAttribute('phone_number');
   }
@@ -1199,7 +1199,7 @@ export class CustomerprofilesDomainRuleBasedMatchingConflictResolutionOutputRefe
   }
 
   // conflict_resolving_model - computed: false, optional: false, required: true
-  private _conflictResolvingModel?: string;
+  private _conflictResolvingModel?: string; 
   public get conflictResolvingModel() {
     return this.getStringAttribute('conflict_resolving_model');
   }
@@ -1212,7 +1212,7 @@ export class CustomerprofilesDomainRuleBasedMatchingConflictResolutionOutputRefe
   }
 
   // source_name - computed: false, optional: true, required: false
-  private _sourceName?: string;
+  private _sourceName?: string; 
   public get sourceName() {
     return this.getStringAttribute('source_name');
   }
@@ -1313,7 +1313,7 @@ export class CustomerprofilesDomainRuleBasedMatchingExportingConfigS3ExportingOu
   }
 
   // s3_bucket_name - computed: false, optional: false, required: true
-  private _s3BucketName?: string;
+  private _s3BucketName?: string; 
   public get s3BucketName() {
     return this.getStringAttribute('s3_bucket_name');
   }
@@ -1326,7 +1326,7 @@ export class CustomerprofilesDomainRuleBasedMatchingExportingConfigS3ExportingOu
   }
 
   // s3_key_name - computed: false, optional: true, required: false
-  private _s3KeyName?: string;
+  private _s3KeyName?: string; 
   public get s3KeyName() {
     return this.getStringAttribute('s3_key_name');
   }
@@ -1508,7 +1508,7 @@ export class CustomerprofilesDomainRuleBasedMatchingMatchingRulesOutputReference
   }
 
   // rule - computed: false, optional: false, required: true
-  private _rule?: string[];
+  private _rule?: string[]; 
   public get rule() {
     return this.getListAttribute('rule');
   }
@@ -1736,7 +1736,7 @@ export class CustomerprofilesDomainRuleBasedMatchingOutputReference extends cdkt
   }
 
   // enabled - computed: false, optional: false, required: true
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -1749,7 +1749,7 @@ export class CustomerprofilesDomainRuleBasedMatchingOutputReference extends cdkt
   }
 
   // max_allowed_rule_level_for_matching - computed: false, optional: true, required: false
-  private _maxAllowedRuleLevelForMatching?: number;
+  private _maxAllowedRuleLevelForMatching?: number; 
   public get maxAllowedRuleLevelForMatching() {
     return this.getNumberAttribute('max_allowed_rule_level_for_matching');
   }
@@ -1765,7 +1765,7 @@ export class CustomerprofilesDomainRuleBasedMatchingOutputReference extends cdkt
   }
 
   // max_allowed_rule_level_for_merging - computed: false, optional: true, required: false
-  private _maxAllowedRuleLevelForMerging?: number;
+  private _maxAllowedRuleLevelForMerging?: number; 
   public get maxAllowedRuleLevelForMerging() {
     return this.getNumberAttribute('max_allowed_rule_level_for_merging');
   }
@@ -1781,7 +1781,7 @@ export class CustomerprofilesDomainRuleBasedMatchingOutputReference extends cdkt
   }
 
   // status - computed: true, optional: true, required: false
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -1933,7 +1933,7 @@ export class CustomerprofilesDomain extends cdktn.TerraformResource {
   }
 
   // dead_letter_queue_url - computed: false, optional: true, required: false
-  private _deadLetterQueueUrl?: string;
+  private _deadLetterQueueUrl?: string; 
   public get deadLetterQueueUrl() {
     return this.getStringAttribute('dead_letter_queue_url');
   }
@@ -1949,7 +1949,7 @@ export class CustomerprofilesDomain extends cdktn.TerraformResource {
   }
 
   // default_encryption_key - computed: false, optional: true, required: false
-  private _defaultEncryptionKey?: string;
+  private _defaultEncryptionKey?: string; 
   public get defaultEncryptionKey() {
     return this.getStringAttribute('default_encryption_key');
   }
@@ -1965,7 +1965,7 @@ export class CustomerprofilesDomain extends cdktn.TerraformResource {
   }
 
   // default_expiration_days - computed: false, optional: false, required: true
-  private _defaultExpirationDays?: number;
+  private _defaultExpirationDays?: number; 
   public get defaultExpirationDays() {
     return this.getNumberAttribute('default_expiration_days');
   }
@@ -1978,7 +1978,7 @@ export class CustomerprofilesDomain extends cdktn.TerraformResource {
   }
 
   // domain_name - computed: false, optional: false, required: true
-  private _domainName?: string;
+  private _domainName?: string; 
   public get domainName() {
     return this.getStringAttribute('domain_name');
   }
@@ -1991,7 +1991,7 @@ export class CustomerprofilesDomain extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -2007,7 +2007,7 @@ export class CustomerprofilesDomain extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -2023,7 +2023,7 @@ export class CustomerprofilesDomain extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -2039,7 +2039,7 @@ export class CustomerprofilesDomain extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

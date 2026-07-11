@@ -135,7 +135,7 @@ export class SagemakerWorkforceCognitoConfigOutputReference extends cdktn.Comple
   }
 
   // client_id - computed: false, optional: false, required: true
-  private _clientId?: string;
+  private _clientId?: string; 
   public get clientId() {
     return this.getStringAttribute('client_id');
   }
@@ -148,7 +148,7 @@ export class SagemakerWorkforceCognitoConfigOutputReference extends cdktn.Comple
   }
 
   // user_pool - computed: false, optional: false, required: true
-  private _userPool?: string;
+  private _userPool?: string; 
   public get userPool() {
     return this.getStringAttribute('user_pool');
   }
@@ -382,7 +382,7 @@ export class SagemakerWorkforceOidcConfigOutputReference extends cdktn.ComplexOb
   }
 
   // authentication_request_extra_params - computed: false, optional: true, required: false
-  private _authenticationRequestExtraParams?: { [key: string]: string };
+  private _authenticationRequestExtraParams?: { [key: string]: string }; 
   public get authenticationRequestExtraParams() {
     return this.getStringMapAttribute('authentication_request_extra_params');
   }
@@ -398,7 +398,7 @@ export class SagemakerWorkforceOidcConfigOutputReference extends cdktn.ComplexOb
   }
 
   // authorization_endpoint - computed: false, optional: false, required: true
-  private _authorizationEndpoint?: string;
+  private _authorizationEndpoint?: string; 
   public get authorizationEndpoint() {
     return this.getStringAttribute('authorization_endpoint');
   }
@@ -411,7 +411,7 @@ export class SagemakerWorkforceOidcConfigOutputReference extends cdktn.ComplexOb
   }
 
   // client_id - computed: false, optional: false, required: true
-  private _clientId?: string;
+  private _clientId?: string; 
   public get clientId() {
     return this.getStringAttribute('client_id');
   }
@@ -424,7 +424,7 @@ export class SagemakerWorkforceOidcConfigOutputReference extends cdktn.ComplexOb
   }
 
   // client_secret - computed: false, optional: false, required: true
-  private _clientSecret?: string;
+  private _clientSecret?: string; 
   public get clientSecret() {
     return this.getStringAttribute('client_secret');
   }
@@ -437,7 +437,7 @@ export class SagemakerWorkforceOidcConfigOutputReference extends cdktn.ComplexOb
   }
 
   // issuer - computed: false, optional: false, required: true
-  private _issuer?: string;
+  private _issuer?: string; 
   public get issuer() {
     return this.getStringAttribute('issuer');
   }
@@ -450,7 +450,7 @@ export class SagemakerWorkforceOidcConfigOutputReference extends cdktn.ComplexOb
   }
 
   // jwks_uri - computed: false, optional: false, required: true
-  private _jwksUri?: string;
+  private _jwksUri?: string; 
   public get jwksUri() {
     return this.getStringAttribute('jwks_uri');
   }
@@ -463,7 +463,7 @@ export class SagemakerWorkforceOidcConfigOutputReference extends cdktn.ComplexOb
   }
 
   // logout_endpoint - computed: false, optional: false, required: true
-  private _logoutEndpoint?: string;
+  private _logoutEndpoint?: string; 
   public get logoutEndpoint() {
     return this.getStringAttribute('logout_endpoint');
   }
@@ -476,7 +476,7 @@ export class SagemakerWorkforceOidcConfigOutputReference extends cdktn.ComplexOb
   }
 
   // scope - computed: false, optional: true, required: false
-  private _scope?: string;
+  private _scope?: string; 
   public get scope() {
     return this.getStringAttribute('scope');
   }
@@ -492,7 +492,7 @@ export class SagemakerWorkforceOidcConfigOutputReference extends cdktn.ComplexOb
   }
 
   // token_endpoint - computed: false, optional: false, required: true
-  private _tokenEndpoint?: string;
+  private _tokenEndpoint?: string; 
   public get tokenEndpoint() {
     return this.getStringAttribute('token_endpoint');
   }
@@ -505,7 +505,7 @@ export class SagemakerWorkforceOidcConfigOutputReference extends cdktn.ComplexOb
   }
 
   // user_info_endpoint - computed: false, optional: false, required: true
-  private _userInfoEndpoint?: string;
+  private _userInfoEndpoint?: string; 
   public get userInfoEndpoint() {
     return this.getStringAttribute('user_info_endpoint');
   }
@@ -586,7 +586,7 @@ export class SagemakerWorkforceSourceIpConfigOutputReference extends cdktn.Compl
   }
 
   // cidrs - computed: false, optional: false, required: true
-  private _cidrs?: string[];
+  private _cidrs?: string[]; 
   public get cidrs() {
     return cdktn.Fn.tolist(this.getListAttribute('cidrs'));
   }
@@ -701,7 +701,7 @@ export class SagemakerWorkforceWorkforceVpcConfigOutputReference extends cdktn.C
   }
 
   // security_group_ids - computed: false, optional: true, required: false
-  private _securityGroupIds?: string[];
+  private _securityGroupIds?: string[]; 
   public get securityGroupIds() {
     return cdktn.Fn.tolist(this.getListAttribute('security_group_ids'));
   }
@@ -717,7 +717,7 @@ export class SagemakerWorkforceWorkforceVpcConfigOutputReference extends cdktn.C
   }
 
   // subnets - computed: false, optional: true, required: false
-  private _subnets?: string[];
+  private _subnets?: string[]; 
   public get subnets() {
     return cdktn.Fn.tolist(this.getListAttribute('subnets'));
   }
@@ -738,7 +738,7 @@ export class SagemakerWorkforceWorkforceVpcConfigOutputReference extends cdktn.C
   }
 
   // vpc_id - computed: false, optional: true, required: false
-  private _vpcId?: string;
+  private _vpcId?: string; 
   public get vpcId() {
     return this.getStringAttribute('vpc_id');
   }
@@ -823,7 +823,7 @@ export class SagemakerWorkforce extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -839,7 +839,7 @@ export class SagemakerWorkforce extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -860,7 +860,7 @@ export class SagemakerWorkforce extends cdktn.TerraformResource {
   }
 
   // workforce_name - computed: false, optional: false, required: true
-  private _workforceName?: string;
+  private _workforceName?: string; 
   public get workforceName() {
     return this.getStringAttribute('workforce_name');
   }

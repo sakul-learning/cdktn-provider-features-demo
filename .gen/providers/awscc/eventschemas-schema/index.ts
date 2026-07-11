@@ -142,7 +142,7 @@ export class EventschemasSchemaTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -158,7 +158,7 @@ export class EventschemasSchemaTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -257,7 +257,7 @@ export class EventschemasSchema extends cdktn.TerraformResource {
   // ==========
 
   // content - computed: false, optional: false, required: true
-  private _content?: string;
+  private _content?: string; 
   public get content() {
     return this.getStringAttribute('content');
   }
@@ -270,7 +270,7 @@ export class EventschemasSchema extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -296,7 +296,7 @@ export class EventschemasSchema extends cdktn.TerraformResource {
   }
 
   // registry_name - computed: false, optional: false, required: true
-  private _registryName?: string;
+  private _registryName?: string; 
   public get registryName() {
     return this.getStringAttribute('registry_name');
   }
@@ -314,7 +314,7 @@ export class EventschemasSchema extends cdktn.TerraformResource {
   }
 
   // schema_name - computed: true, optional: true, required: false
-  private _schemaName?: string;
+  private _schemaName?: string; 
   public get schemaName() {
     return this.getStringAttribute('schema_name');
   }
@@ -351,7 +351,7 @@ export class EventschemasSchema extends cdktn.TerraformResource {
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }

@@ -698,7 +698,7 @@ export class DataAwsIdentitystoreUsers extends cdktn.TerraformDataSource {
   // ==========
 
   // identity_store_id - computed: false, optional: false, required: true
-  private _identityStoreId?: string;
+  private _identityStoreId?: string; 
   public get identityStoreId() {
     return this.getStringAttribute('identity_store_id');
   }
@@ -711,7 +711,7 @@ export class DataAwsIdentitystoreUsers extends cdktn.TerraformDataSource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

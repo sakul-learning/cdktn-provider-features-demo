@@ -123,7 +123,7 @@ export class IvsRecordingConfigurationDestinationConfigurationS3OutputReference 
   }
 
   // bucket_name - computed: true, optional: true, required: false
-  private _bucketName?: string;
+  private _bucketName?: string; 
   public get bucketName() {
     return this.getStringAttribute('bucket_name');
   }
@@ -334,7 +334,7 @@ export class IvsRecordingConfigurationRenditionConfigurationOutputReference exte
   }
 
   // rendition_selection - computed: true, optional: true, required: false
-  private _renditionSelection?: string;
+  private _renditionSelection?: string; 
   public get renditionSelection() {
     return this.getStringAttribute('rendition_selection');
   }
@@ -350,7 +350,7 @@ export class IvsRecordingConfigurationRenditionConfigurationOutputReference exte
   }
 
   // renditions - computed: true, optional: true, required: false
-  private _renditions?: string[];
+  private _renditions?: string[]; 
   public get renditions() {
     return cdktn.Fn.tolist(this.getListAttribute('renditions'));
   }
@@ -467,7 +467,7 @@ export class IvsRecordingConfigurationTagsOutputReference extends cdktn.ComplexO
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -483,7 +483,7 @@ export class IvsRecordingConfigurationTagsOutputReference extends cdktn.ComplexO
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -656,7 +656,7 @@ export class IvsRecordingConfigurationThumbnailConfigurationOutputReference exte
   }
 
   // recording_mode - computed: true, optional: true, required: false
-  private _recordingMode?: string;
+  private _recordingMode?: string; 
   public get recordingMode() {
     return this.getStringAttribute('recording_mode');
   }
@@ -672,7 +672,7 @@ export class IvsRecordingConfigurationThumbnailConfigurationOutputReference exte
   }
 
   // resolution - computed: true, optional: true, required: false
-  private _resolution?: string;
+  private _resolution?: string; 
   public get resolution() {
     return this.getStringAttribute('resolution');
   }
@@ -688,7 +688,7 @@ export class IvsRecordingConfigurationThumbnailConfigurationOutputReference exte
   }
 
   // storage - computed: true, optional: true, required: false
-  private _storage?: string[];
+  private _storage?: string[]; 
   public get storage() {
     return cdktn.Fn.tolist(this.getListAttribute('storage'));
   }
@@ -704,7 +704,7 @@ export class IvsRecordingConfigurationThumbnailConfigurationOutputReference exte
   }
 
   // target_interval_seconds - computed: true, optional: true, required: false
-  private _targetIntervalSeconds?: number;
+  private _targetIntervalSeconds?: number; 
   public get targetIntervalSeconds() {
     return this.getNumberAttribute('target_interval_seconds');
   }
@@ -806,7 +806,7 @@ export class IvsRecordingConfiguration extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -822,7 +822,7 @@ export class IvsRecordingConfiguration extends cdktn.TerraformResource {
   }
 
   // recording_reconnect_window_seconds - computed: true, optional: true, required: false
-  private _recordingReconnectWindowSeconds?: number;
+  private _recordingReconnectWindowSeconds?: number; 
   public get recordingReconnectWindowSeconds() {
     return this.getNumberAttribute('recording_reconnect_window_seconds');
   }

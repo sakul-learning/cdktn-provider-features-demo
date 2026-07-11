@@ -368,7 +368,7 @@ export class SignerSigningJobDestinationS3OutputReference extends cdktn.ComplexO
   }
 
   // bucket - computed: false, optional: false, required: true
-  private _bucket?: string;
+  private _bucket?: string; 
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -381,7 +381,7 @@ export class SignerSigningJobDestinationS3OutputReference extends cdktn.ComplexO
   }
 
   // prefix - computed: false, optional: true, required: false
-  private _prefix?: string;
+  private _prefix?: string; 
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -582,7 +582,7 @@ export class SignerSigningJobSourceS3OutputReference extends cdktn.ComplexObject
   }
 
   // bucket - computed: false, optional: false, required: true
-  private _bucket?: string;
+  private _bucket?: string; 
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -595,7 +595,7 @@ export class SignerSigningJobSourceS3OutputReference extends cdktn.ComplexObject
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -608,7 +608,7 @@ export class SignerSigningJobSourceS3OutputReference extends cdktn.ComplexObject
   }
 
   // version - computed: false, optional: false, required: true
-  private _version?: string;
+  private _version?: string; 
   public get version() {
     return this.getStringAttribute('version');
   }
@@ -777,7 +777,7 @@ export class SignerSigningJob extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -793,7 +793,7 @@ export class SignerSigningJob extends cdktn.TerraformResource {
   }
 
   // ignore_signing_job_failure - computed: false, optional: true, required: false
-  private _ignoreSigningJobFailure?: boolean | cdktn.IResolvable;
+  private _ignoreSigningJobFailure?: boolean | cdktn.IResolvable; 
   public get ignoreSigningJobFailure() {
     return this.getBooleanAttribute('ignore_signing_job_failure');
   }
@@ -834,7 +834,7 @@ export class SignerSigningJob extends cdktn.TerraformResource {
   }
 
   // profile_name - computed: false, optional: false, required: true
-  private _profileName?: string;
+  private _profileName?: string; 
   public get profileName() {
     return this.getStringAttribute('profile_name');
   }
@@ -852,7 +852,7 @@ export class SignerSigningJob extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

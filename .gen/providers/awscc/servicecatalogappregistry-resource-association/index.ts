@@ -87,7 +87,7 @@ export class ServicecatalogappregistryResourceAssociation extends cdktn.Terrafor
   // ==========
 
   // application - computed: false, optional: false, required: true
-  private _application?: string;
+  private _application?: string; 
   public get application() {
     return this.getStringAttribute('application');
   }
@@ -110,7 +110,7 @@ export class ServicecatalogappregistryResourceAssociation extends cdktn.Terrafor
   }
 
   // resource - computed: false, optional: false, required: true
-  private _resource?: string;
+  private _resource?: string; 
   public get resource() {
     return this.getStringAttribute('resource');
   }
@@ -128,7 +128,7 @@ export class ServicecatalogappregistryResourceAssociation extends cdktn.Terrafor
   }
 
   // resource_type - computed: false, optional: false, required: true
-  private _resourceType?: string;
+  private _resourceType?: string; 
   public get resourceType() {
     return this.getStringAttribute('resource_type');
   }

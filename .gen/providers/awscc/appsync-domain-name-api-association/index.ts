@@ -81,7 +81,7 @@ export class AppsyncDomainNameApiAssociation extends cdktn.TerraformResource {
   }
 
   // api_id - computed: false, optional: false, required: true
-  private _apiId?: string;
+  private _apiId?: string; 
   public get apiId() {
     return this.getStringAttribute('api_id');
   }
@@ -94,7 +94,7 @@ export class AppsyncDomainNameApiAssociation extends cdktn.TerraformResource {
   }
 
   // domain_name - computed: false, optional: false, required: true
-  private _domainName?: string;
+  private _domainName?: string; 
   public get domainName() {
     return this.getStringAttribute('domain_name');
   }

@@ -35,7 +35,7 @@ export interface IoteventsInputConfig extends cdktn.TerraformMetaArguments {
 }
 export interface IoteventsInputInputDefinitionAttributes {
   /**
-  * An expression that specifies an attribute-value pair in a JSON structure. Use this to specify an attribute from the JSON payload that is made available by the input. Inputs are derived from messages sent to ITE (``BatchPutMessage``). Each such message contains a JSON payload. The attribute (and its paired value) specified here are available for use in the ``condition`` expressions used by detectors.
+  * An expression that specifies an attribute-value pair in a JSON structure. Use this to specify an attribute from the JSON payload that is made available by the input. Inputs are derived from messages sent to ITE (``BatchPutMessage``). Each such message contains a JSON payload. The attribute (and its paired value) specified here are available for use in the ``condition`` expressions used by detectors. 
   *  Syntax: ``<field-name>.<field-name>...``
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_input#json_path IoteventsInput#json_path}
@@ -117,7 +117,7 @@ export class IoteventsInputInputDefinitionAttributesOutputReference extends cdkt
   }
 
   // json_path - computed: false, optional: false, required: true
-  private _jsonPath?: string;
+  private _jsonPath?: string; 
   public get jsonPath() {
     return this.getStringAttribute('json_path');
   }
@@ -344,7 +344,7 @@ export class IoteventsInputTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -360,7 +360,7 @@ export class IoteventsInputTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -475,7 +475,7 @@ export class IoteventsInput extends cdktn.TerraformResource {
   }
 
   // input_description - computed: true, optional: true, required: false
-  private _inputDescription?: string;
+  private _inputDescription?: string; 
   public get inputDescription() {
     return this.getStringAttribute('input_description');
   }
@@ -491,7 +491,7 @@ export class IoteventsInput extends cdktn.TerraformResource {
   }
 
   // input_name - computed: true, optional: true, required: false
-  private _inputName?: string;
+  private _inputName?: string; 
   public get inputName() {
     return this.getStringAttribute('input_name');
   }

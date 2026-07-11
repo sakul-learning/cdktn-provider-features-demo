@@ -214,7 +214,7 @@ export class ApigatewayMethodIntegrationIntegrationResponsesOutputReference exte
   }
 
   // content_handling - computed: true, optional: true, required: false
-  private _contentHandling?: string;
+  private _contentHandling?: string; 
   public get contentHandling() {
     return this.getStringAttribute('content_handling');
   }
@@ -230,7 +230,7 @@ export class ApigatewayMethodIntegrationIntegrationResponsesOutputReference exte
   }
 
   // response_parameters - computed: true, optional: true, required: false
-  private _responseParameters?: { [key: string]: string };
+  private _responseParameters?: { [key: string]: string }; 
   public get responseParameters() {
     return this.getStringMapAttribute('response_parameters');
   }
@@ -246,7 +246,7 @@ export class ApigatewayMethodIntegrationIntegrationResponsesOutputReference exte
   }
 
   // response_templates - computed: true, optional: true, required: false
-  private _responseTemplates?: { [key: string]: string };
+  private _responseTemplates?: { [key: string]: string }; 
   public get responseTemplates() {
     return this.getStringMapAttribute('response_templates');
   }
@@ -262,7 +262,7 @@ export class ApigatewayMethodIntegrationIntegrationResponsesOutputReference exte
   }
 
   // selection_pattern - computed: true, optional: true, required: false
-  private _selectionPattern?: string;
+  private _selectionPattern?: string; 
   public get selectionPattern() {
     return this.getStringAttribute('selection_pattern');
   }
@@ -278,7 +278,7 @@ export class ApigatewayMethodIntegrationIntegrationResponsesOutputReference exte
   }
 
   // status_code - computed: true, optional: true, required: false
-  private _statusCode?: string;
+  private _statusCode?: string; 
   public get statusCode() {
     return this.getStringAttribute('status_code');
   }
@@ -647,7 +647,7 @@ export class ApigatewayMethodIntegrationOutputReference extends cdktn.ComplexObj
   }
 
   // cache_key_parameters - computed: true, optional: true, required: false
-  private _cacheKeyParameters?: string[];
+  private _cacheKeyParameters?: string[]; 
   public get cacheKeyParameters() {
     return this.getListAttribute('cache_key_parameters');
   }
@@ -663,7 +663,7 @@ export class ApigatewayMethodIntegrationOutputReference extends cdktn.ComplexObj
   }
 
   // cache_namespace - computed: true, optional: true, required: false
-  private _cacheNamespace?: string;
+  private _cacheNamespace?: string; 
   public get cacheNamespace() {
     return this.getStringAttribute('cache_namespace');
   }
@@ -679,7 +679,7 @@ export class ApigatewayMethodIntegrationOutputReference extends cdktn.ComplexObj
   }
 
   // connection_id - computed: true, optional: true, required: false
-  private _connectionId?: string;
+  private _connectionId?: string; 
   public get connectionId() {
     return this.getStringAttribute('connection_id');
   }
@@ -695,7 +695,7 @@ export class ApigatewayMethodIntegrationOutputReference extends cdktn.ComplexObj
   }
 
   // connection_type - computed: true, optional: true, required: false
-  private _connectionType?: string;
+  private _connectionType?: string; 
   public get connectionType() {
     return this.getStringAttribute('connection_type');
   }
@@ -711,7 +711,7 @@ export class ApigatewayMethodIntegrationOutputReference extends cdktn.ComplexObj
   }
 
   // content_handling - computed: true, optional: true, required: false
-  private _contentHandling?: string;
+  private _contentHandling?: string; 
   public get contentHandling() {
     return this.getStringAttribute('content_handling');
   }
@@ -727,7 +727,7 @@ export class ApigatewayMethodIntegrationOutputReference extends cdktn.ComplexObj
   }
 
   // credentials - computed: true, optional: true, required: false
-  private _credentials?: string;
+  private _credentials?: string; 
   public get credentials() {
     return this.getStringAttribute('credentials');
   }
@@ -743,7 +743,7 @@ export class ApigatewayMethodIntegrationOutputReference extends cdktn.ComplexObj
   }
 
   // integration_http_method - computed: true, optional: true, required: false
-  private _integrationHttpMethod?: string;
+  private _integrationHttpMethod?: string; 
   public get integrationHttpMethod() {
     return this.getStringAttribute('integration_http_method');
   }
@@ -775,7 +775,7 @@ export class ApigatewayMethodIntegrationOutputReference extends cdktn.ComplexObj
   }
 
   // integration_target - computed: true, optional: true, required: false
-  private _integrationTarget?: string;
+  private _integrationTarget?: string; 
   public get integrationTarget() {
     return this.getStringAttribute('integration_target');
   }
@@ -791,7 +791,7 @@ export class ApigatewayMethodIntegrationOutputReference extends cdktn.ComplexObj
   }
 
   // passthrough_behavior - computed: true, optional: true, required: false
-  private _passthroughBehavior?: string;
+  private _passthroughBehavior?: string; 
   public get passthroughBehavior() {
     return this.getStringAttribute('passthrough_behavior');
   }
@@ -807,7 +807,7 @@ export class ApigatewayMethodIntegrationOutputReference extends cdktn.ComplexObj
   }
 
   // request_parameters - computed: true, optional: true, required: false
-  private _requestParameters?: { [key: string]: string };
+  private _requestParameters?: { [key: string]: string }; 
   public get requestParameters() {
     return this.getStringMapAttribute('request_parameters');
   }
@@ -823,7 +823,7 @@ export class ApigatewayMethodIntegrationOutputReference extends cdktn.ComplexObj
   }
 
   // request_templates - computed: true, optional: true, required: false
-  private _requestTemplates?: { [key: string]: string };
+  private _requestTemplates?: { [key: string]: string }; 
   public get requestTemplates() {
     return this.getStringMapAttribute('request_templates');
   }
@@ -839,7 +839,7 @@ export class ApigatewayMethodIntegrationOutputReference extends cdktn.ComplexObj
   }
 
   // response_transfer_mode - computed: true, optional: true, required: false
-  private _responseTransferMode?: string;
+  private _responseTransferMode?: string; 
   public get responseTransferMode() {
     return this.getStringAttribute('response_transfer_mode');
   }
@@ -855,7 +855,7 @@ export class ApigatewayMethodIntegrationOutputReference extends cdktn.ComplexObj
   }
 
   // timeout_in_millis - computed: true, optional: true, required: false
-  private _timeoutInMillis?: number;
+  private _timeoutInMillis?: number; 
   public get timeoutInMillis() {
     return this.getNumberAttribute('timeout_in_millis');
   }
@@ -871,7 +871,7 @@ export class ApigatewayMethodIntegrationOutputReference extends cdktn.ComplexObj
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -887,7 +887,7 @@ export class ApigatewayMethodIntegrationOutputReference extends cdktn.ComplexObj
   }
 
   // uri - computed: true, optional: true, required: false
-  private _uri?: string;
+  private _uri?: string; 
   public get uri() {
     return this.getStringAttribute('uri');
   }
@@ -1017,7 +1017,7 @@ export class ApigatewayMethodMethodResponsesOutputReference extends cdktn.Comple
   }
 
   // response_models - computed: true, optional: true, required: false
-  private _responseModels?: { [key: string]: string };
+  private _responseModels?: { [key: string]: string }; 
   public get responseModels() {
     return this.getStringMapAttribute('response_models');
   }
@@ -1033,7 +1033,7 @@ export class ApigatewayMethodMethodResponsesOutputReference extends cdktn.Comple
   }
 
   // response_parameters - computed: true, optional: true, required: false
-  private _responseParameters?: { [key: string]: (boolean | cdktn.IResolvable) };
+  private _responseParameters?: { [key: string]: (boolean | cdktn.IResolvable) }; 
   public get responseParameters() {
     return this.getBooleanMapAttribute('response_parameters');
   }
@@ -1049,7 +1049,7 @@ export class ApigatewayMethodMethodResponsesOutputReference extends cdktn.Comple
   }
 
   // status_code - computed: true, optional: true, required: false
-  private _statusCode?: string;
+  private _statusCode?: string; 
   public get statusCode() {
     return this.getStringAttribute('status_code');
   }
@@ -1155,7 +1155,7 @@ export class ApigatewayMethod extends cdktn.TerraformResource {
   // ==========
 
   // api_key_required - computed: true, optional: true, required: false
-  private _apiKeyRequired?: boolean | cdktn.IResolvable;
+  private _apiKeyRequired?: boolean | cdktn.IResolvable; 
   public get apiKeyRequired() {
     return this.getBooleanAttribute('api_key_required');
   }
@@ -1171,7 +1171,7 @@ export class ApigatewayMethod extends cdktn.TerraformResource {
   }
 
   // authorization_scopes - computed: true, optional: true, required: false
-  private _authorizationScopes?: string[];
+  private _authorizationScopes?: string[]; 
   public get authorizationScopes() {
     return this.getListAttribute('authorization_scopes');
   }
@@ -1187,7 +1187,7 @@ export class ApigatewayMethod extends cdktn.TerraformResource {
   }
 
   // authorization_type - computed: true, optional: true, required: false
-  private _authorizationType?: string;
+  private _authorizationType?: string; 
   public get authorizationType() {
     return this.getStringAttribute('authorization_type');
   }
@@ -1203,7 +1203,7 @@ export class ApigatewayMethod extends cdktn.TerraformResource {
   }
 
   // authorizer_id - computed: true, optional: true, required: false
-  private _authorizerId?: string;
+  private _authorizerId?: string; 
   public get authorizerId() {
     return this.getStringAttribute('authorizer_id');
   }
@@ -1219,7 +1219,7 @@ export class ApigatewayMethod extends cdktn.TerraformResource {
   }
 
   // http_method - computed: false, optional: false, required: true
-  private _httpMethod?: string;
+  private _httpMethod?: string; 
   public get httpMethod() {
     return this.getStringAttribute('http_method');
   }
@@ -1269,7 +1269,7 @@ export class ApigatewayMethod extends cdktn.TerraformResource {
   }
 
   // operation_name - computed: true, optional: true, required: false
-  private _operationName?: string;
+  private _operationName?: string; 
   public get operationName() {
     return this.getStringAttribute('operation_name');
   }
@@ -1285,7 +1285,7 @@ export class ApigatewayMethod extends cdktn.TerraformResource {
   }
 
   // request_models - computed: true, optional: true, required: false
-  private _requestModels?: { [key: string]: string };
+  private _requestModels?: { [key: string]: string }; 
   public get requestModels() {
     return this.getStringMapAttribute('request_models');
   }
@@ -1301,7 +1301,7 @@ export class ApigatewayMethod extends cdktn.TerraformResource {
   }
 
   // request_parameters - computed: true, optional: true, required: false
-  private _requestParameters?: { [key: string]: (boolean | cdktn.IResolvable) };
+  private _requestParameters?: { [key: string]: (boolean | cdktn.IResolvable) }; 
   public get requestParameters() {
     return this.getBooleanMapAttribute('request_parameters');
   }
@@ -1317,7 +1317,7 @@ export class ApigatewayMethod extends cdktn.TerraformResource {
   }
 
   // request_validator_id - computed: true, optional: true, required: false
-  private _requestValidatorId?: string;
+  private _requestValidatorId?: string; 
   public get requestValidatorId() {
     return this.getStringAttribute('request_validator_id');
   }
@@ -1333,7 +1333,7 @@ export class ApigatewayMethod extends cdktn.TerraformResource {
   }
 
   // resource_id - computed: false, optional: false, required: true
-  private _resourceId?: string;
+  private _resourceId?: string; 
   public get resourceId() {
     return this.getStringAttribute('resource_id');
   }
@@ -1346,7 +1346,7 @@ export class ApigatewayMethod extends cdktn.TerraformResource {
   }
 
   // rest_api_id - computed: false, optional: false, required: true
-  private _restApiId?: string;
+  private _restApiId?: string; 
   public get restApiId() {
     return this.getStringAttribute('rest_api_id');
   }

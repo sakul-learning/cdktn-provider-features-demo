@@ -166,7 +166,7 @@ export class ChatbotSlackChannelConfigurationTagsOutputReference extends cdktn.C
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -182,7 +182,7 @@ export class ChatbotSlackChannelConfigurationTagsOutputReference extends cdktn.C
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -290,7 +290,7 @@ export class ChatbotSlackChannelConfiguration extends cdktn.TerraformResource {
   }
 
   // configuration_name - computed: false, optional: false, required: true
-  private _configurationName?: string;
+  private _configurationName?: string; 
   public get configurationName() {
     return this.getStringAttribute('configuration_name');
   }
@@ -303,7 +303,7 @@ export class ChatbotSlackChannelConfiguration extends cdktn.TerraformResource {
   }
 
   // customization_resource_arns - computed: true, optional: true, required: false
-  private _customizationResourceArns?: string[];
+  private _customizationResourceArns?: string[]; 
   public get customizationResourceArns() {
     return this.getListAttribute('customization_resource_arns');
   }
@@ -319,7 +319,7 @@ export class ChatbotSlackChannelConfiguration extends cdktn.TerraformResource {
   }
 
   // guardrail_policies - computed: true, optional: true, required: false
-  private _guardrailPolicies?: string[];
+  private _guardrailPolicies?: string[]; 
   public get guardrailPolicies() {
     return this.getListAttribute('guardrail_policies');
   }
@@ -335,7 +335,7 @@ export class ChatbotSlackChannelConfiguration extends cdktn.TerraformResource {
   }
 
   // iam_role_arn - computed: false, optional: false, required: true
-  private _iamRoleArn?: string;
+  private _iamRoleArn?: string; 
   public get iamRoleArn() {
     return this.getStringAttribute('iam_role_arn');
   }
@@ -353,7 +353,7 @@ export class ChatbotSlackChannelConfiguration extends cdktn.TerraformResource {
   }
 
   // logging_level - computed: true, optional: true, required: false
-  private _loggingLevel?: string;
+  private _loggingLevel?: string; 
   public get loggingLevel() {
     return this.getStringAttribute('logging_level');
   }
@@ -369,7 +369,7 @@ export class ChatbotSlackChannelConfiguration extends cdktn.TerraformResource {
   }
 
   // slack_channel_id - computed: false, optional: false, required: true
-  private _slackChannelId?: string;
+  private _slackChannelId?: string; 
   public get slackChannelId() {
     return this.getStringAttribute('slack_channel_id');
   }
@@ -382,7 +382,7 @@ export class ChatbotSlackChannelConfiguration extends cdktn.TerraformResource {
   }
 
   // slack_workspace_id - computed: false, optional: false, required: true
-  private _slackWorkspaceId?: string;
+  private _slackWorkspaceId?: string; 
   public get slackWorkspaceId() {
     return this.getStringAttribute('slack_workspace_id');
   }
@@ -395,7 +395,7 @@ export class ChatbotSlackChannelConfiguration extends cdktn.TerraformResource {
   }
 
   // sns_topic_arns - computed: true, optional: true, required: false
-  private _snsTopicArns?: string[];
+  private _snsTopicArns?: string[]; 
   public get snsTopicArns() {
     return this.getListAttribute('sns_topic_arns');
   }
@@ -427,7 +427,7 @@ export class ChatbotSlackChannelConfiguration extends cdktn.TerraformResource {
   }
 
   // user_role_required - computed: true, optional: true, required: false
-  private _userRoleRequired?: boolean | cdktn.IResolvable;
+  private _userRoleRequired?: boolean | cdktn.IResolvable; 
   public get userRoleRequired() {
     return this.getBooleanAttribute('user_role_required');
   }

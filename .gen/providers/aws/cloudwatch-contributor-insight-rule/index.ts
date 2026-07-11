@@ -93,7 +93,7 @@ export class CloudwatchContributorInsightRule extends cdktn.TerraformResource {
   // ==========
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -114,7 +114,7 @@ export class CloudwatchContributorInsightRule extends cdktn.TerraformResource {
   }
 
   // rule_definition - computed: false, optional: false, required: true
-  private _ruleDefinition?: string;
+  private _ruleDefinition?: string; 
   public get ruleDefinition() {
     return this.getStringAttribute('rule_definition');
   }
@@ -127,7 +127,7 @@ export class CloudwatchContributorInsightRule extends cdktn.TerraformResource {
   }
 
   // rule_name - computed: false, optional: false, required: true
-  private _ruleName?: string;
+  private _ruleName?: string; 
   public get ruleName() {
     return this.getStringAttribute('rule_name');
   }
@@ -140,7 +140,7 @@ export class CloudwatchContributorInsightRule extends cdktn.TerraformResource {
   }
 
   // rule_state - computed: true, optional: true, required: false
-  private _ruleState?: string;
+  private _ruleState?: string; 
   public get ruleState() {
     return this.getStringAttribute('rule_state');
   }
@@ -156,7 +156,7 @@ export class CloudwatchContributorInsightRule extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

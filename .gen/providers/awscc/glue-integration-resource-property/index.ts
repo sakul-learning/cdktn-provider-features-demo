@@ -113,7 +113,7 @@ export class GlueIntegrationResourcePropertySourceProcessingPropertiesOutputRefe
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -130,13 +130,13 @@ export class GlueIntegrationResourcePropertySourceProcessingPropertiesOutputRefe
 }
 export interface GlueIntegrationResourcePropertyTags {
   /**
-  * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
+  * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_integration_resource_property#key GlueIntegrationResourceProperty#key}
   */
   readonly key?: string;
   /**
-  * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
+  * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_integration_resource_property#value GlueIntegrationResourceProperty#value}
   */
@@ -230,7 +230,7 @@ export class GlueIntegrationResourcePropertyTagsOutputReference extends cdktn.Co
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -246,7 +246,7 @@ export class GlueIntegrationResourcePropertyTagsOutputReference extends cdktn.Co
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -419,7 +419,7 @@ export class GlueIntegrationResourcePropertyTargetProcessingPropertiesOutputRefe
   }
 
   // connection_name - computed: true, optional: true, required: false
-  private _connectionName?: string;
+  private _connectionName?: string; 
   public get connectionName() {
     return this.getStringAttribute('connection_name');
   }
@@ -435,7 +435,7 @@ export class GlueIntegrationResourcePropertyTargetProcessingPropertiesOutputRefe
   }
 
   // event_bus_arn - computed: true, optional: true, required: false
-  private _eventBusArn?: string;
+  private _eventBusArn?: string; 
   public get eventBusArn() {
     return this.getStringAttribute('event_bus_arn');
   }
@@ -451,7 +451,7 @@ export class GlueIntegrationResourcePropertyTargetProcessingPropertiesOutputRefe
   }
 
   // kms_arn - computed: true, optional: true, required: false
-  private _kmsArn?: string;
+  private _kmsArn?: string; 
   public get kmsArn() {
     return this.getStringAttribute('kms_arn');
   }
@@ -467,7 +467,7 @@ export class GlueIntegrationResourcePropertyTargetProcessingPropertiesOutputRefe
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -549,7 +549,7 @@ export class GlueIntegrationResourceProperty extends cdktn.TerraformResource {
   }
 
   // resource_arn - computed: false, optional: false, required: true
-  private _resourceArn?: string;
+  private _resourceArn?: string; 
   public get resourceArn() {
     return this.getStringAttribute('resource_arn');
   }

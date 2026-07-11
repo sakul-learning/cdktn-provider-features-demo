@@ -120,7 +120,7 @@ export class SagemakerUserProfileUserSettingsCanvasAppSettingsDirectDeploySettin
   }
 
   // status - computed: false, optional: true, required: false
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -221,7 +221,7 @@ export class SagemakerUserProfileUserSettingsCanvasAppSettingsEmrServerlessSetti
   }
 
   // execution_role_arn - computed: false, optional: true, required: false
-  private _executionRoleArn?: string;
+  private _executionRoleArn?: string; 
   public get executionRoleArn() {
     return this.getStringAttribute('execution_role_arn');
   }
@@ -237,7 +237,7 @@ export class SagemakerUserProfileUserSettingsCanvasAppSettingsEmrServerlessSetti
   }
 
   // status - computed: false, optional: true, required: false
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -321,7 +321,7 @@ export class SagemakerUserProfileUserSettingsCanvasAppSettingsGenerativeAiSettin
   }
 
   // amazon_bedrock_role_arn - computed: false, optional: true, required: false
-  private _amazonBedrockRoleArn?: string;
+  private _amazonBedrockRoleArn?: string; 
   public get amazonBedrockRoleArn() {
     return this.getStringAttribute('amazon_bedrock_role_arn');
   }
@@ -451,7 +451,7 @@ export class SagemakerUserProfileUserSettingsCanvasAppSettingsIdentityProviderOa
   }
 
   // data_source_name - computed: false, optional: true, required: false
-  private _dataSourceName?: string;
+  private _dataSourceName?: string; 
   public get dataSourceName() {
     return this.getStringAttribute('data_source_name');
   }
@@ -467,7 +467,7 @@ export class SagemakerUserProfileUserSettingsCanvasAppSettingsIdentityProviderOa
   }
 
   // secret_arn - computed: false, optional: false, required: true
-  private _secretArn?: string;
+  private _secretArn?: string; 
   public get secretArn() {
     return this.getStringAttribute('secret_arn');
   }
@@ -480,7 +480,7 @@ export class SagemakerUserProfileUserSettingsCanvasAppSettingsIdentityProviderOa
   }
 
   // status - computed: false, optional: true, required: false
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -584,7 +584,7 @@ export class SagemakerUserProfileUserSettingsCanvasAppSettingsKendraSettingsOutp
   }
 
   // status - computed: false, optional: true, required: false
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -685,7 +685,7 @@ export class SagemakerUserProfileUserSettingsCanvasAppSettingsModelRegisterSetti
   }
 
   // cross_account_model_register_role_arn - computed: false, optional: true, required: false
-  private _crossAccountModelRegisterRoleArn?: string;
+  private _crossAccountModelRegisterRoleArn?: string; 
   public get crossAccountModelRegisterRoleArn() {
     return this.getStringAttribute('cross_account_model_register_role_arn');
   }
@@ -701,7 +701,7 @@ export class SagemakerUserProfileUserSettingsCanvasAppSettingsModelRegisterSetti
   }
 
   // status - computed: false, optional: true, required: false
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -802,7 +802,7 @@ export class SagemakerUserProfileUserSettingsCanvasAppSettingsTimeSeriesForecast
   }
 
   // amazon_forecast_role_arn - computed: false, optional: true, required: false
-  private _amazonForecastRoleArn?: string;
+  private _amazonForecastRoleArn?: string; 
   public get amazonForecastRoleArn() {
     return this.getStringAttribute('amazon_forecast_role_arn');
   }
@@ -818,7 +818,7 @@ export class SagemakerUserProfileUserSettingsCanvasAppSettingsTimeSeriesForecast
   }
 
   // status - computed: false, optional: true, required: false
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -919,7 +919,7 @@ export class SagemakerUserProfileUserSettingsCanvasAppSettingsWorkspaceSettingsO
   }
 
   // s3_artifact_path - computed: false, optional: true, required: false
-  private _s3ArtifactPath?: string;
+  private _s3ArtifactPath?: string; 
   public get s3ArtifactPath() {
     return this.getStringAttribute('s3_artifact_path');
   }
@@ -935,7 +935,7 @@ export class SagemakerUserProfileUserSettingsCanvasAppSettingsWorkspaceSettingsO
   }
 
   // s3_kms_key_id - computed: false, optional: true, required: false
-  private _s3KmsKeyId?: string;
+  private _s3KmsKeyId?: string; 
   public get s3KmsKeyId() {
     return this.getStringAttribute('s3_kms_key_id');
   }
@@ -1401,7 +1401,7 @@ export class SagemakerUserProfileUserSettingsCodeEditorAppSettingsAppLifecycleMa
   }
 
   // idle_timeout_in_minutes - computed: false, optional: true, required: false
-  private _idleTimeoutInMinutes?: number;
+  private _idleTimeoutInMinutes?: number; 
   public get idleTimeoutInMinutes() {
     return this.getNumberAttribute('idle_timeout_in_minutes');
   }
@@ -1417,7 +1417,7 @@ export class SagemakerUserProfileUserSettingsCodeEditorAppSettingsAppLifecycleMa
   }
 
   // lifecycle_management - computed: false, optional: true, required: false
-  private _lifecycleManagement?: string;
+  private _lifecycleManagement?: string; 
   public get lifecycleManagement() {
     return this.getStringAttribute('lifecycle_management');
   }
@@ -1433,7 +1433,7 @@ export class SagemakerUserProfileUserSettingsCodeEditorAppSettingsAppLifecycleMa
   }
 
   // max_idle_timeout_in_minutes - computed: false, optional: true, required: false
-  private _maxIdleTimeoutInMinutes?: number;
+  private _maxIdleTimeoutInMinutes?: number; 
   public get maxIdleTimeoutInMinutes() {
     return this.getNumberAttribute('max_idle_timeout_in_minutes');
   }
@@ -1449,7 +1449,7 @@ export class SagemakerUserProfileUserSettingsCodeEditorAppSettingsAppLifecycleMa
   }
 
   // min_idle_timeout_in_minutes - computed: false, optional: true, required: false
-  private _minIdleTimeoutInMinutes?: number;
+  private _minIdleTimeoutInMinutes?: number; 
   public get minIdleTimeoutInMinutes() {
     return this.getNumberAttribute('min_idle_timeout_in_minutes');
   }
@@ -1665,7 +1665,7 @@ export class SagemakerUserProfileUserSettingsCodeEditorAppSettingsCustomImageOut
   }
 
   // app_image_config_name - computed: false, optional: false, required: true
-  private _appImageConfigName?: string;
+  private _appImageConfigName?: string; 
   public get appImageConfigName() {
     return this.getStringAttribute('app_image_config_name');
   }
@@ -1678,7 +1678,7 @@ export class SagemakerUserProfileUserSettingsCodeEditorAppSettingsCustomImageOut
   }
 
   // image_name - computed: false, optional: false, required: true
-  private _imageName?: string;
+  private _imageName?: string; 
   public get imageName() {
     return this.getStringAttribute('image_name');
   }
@@ -1691,7 +1691,7 @@ export class SagemakerUserProfileUserSettingsCodeEditorAppSettingsCustomImageOut
   }
 
   // image_version_number - computed: false, optional: true, required: false
-  private _imageVersionNumber?: number;
+  private _imageVersionNumber?: number; 
   public get imageVersionNumber() {
     return this.getNumberAttribute('image_version_number');
   }
@@ -1863,7 +1863,7 @@ export class SagemakerUserProfileUserSettingsCodeEditorAppSettingsDefaultResourc
   }
 
   // instance_type - computed: false, optional: true, required: false
-  private _instanceType?: string;
+  private _instanceType?: string; 
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -1879,7 +1879,7 @@ export class SagemakerUserProfileUserSettingsCodeEditorAppSettingsDefaultResourc
   }
 
   // lifecycle_config_arn - computed: false, optional: true, required: false
-  private _lifecycleConfigArn?: string;
+  private _lifecycleConfigArn?: string; 
   public get lifecycleConfigArn() {
     return this.getStringAttribute('lifecycle_config_arn');
   }
@@ -1895,7 +1895,7 @@ export class SagemakerUserProfileUserSettingsCodeEditorAppSettingsDefaultResourc
   }
 
   // sagemaker_image_arn - computed: false, optional: true, required: false
-  private _sagemakerImageArn?: string;
+  private _sagemakerImageArn?: string; 
   public get sagemakerImageArn() {
     return this.getStringAttribute('sagemaker_image_arn');
   }
@@ -1911,7 +1911,7 @@ export class SagemakerUserProfileUserSettingsCodeEditorAppSettingsDefaultResourc
   }
 
   // sagemaker_image_version_alias - computed: false, optional: true, required: false
-  private _sagemakerImageVersionAlias?: string;
+  private _sagemakerImageVersionAlias?: string; 
   public get sagemakerImageVersionAlias() {
     return this.getStringAttribute('sagemaker_image_version_alias');
   }
@@ -1927,7 +1927,7 @@ export class SagemakerUserProfileUserSettingsCodeEditorAppSettingsDefaultResourc
   }
 
   // sagemaker_image_version_arn - computed: false, optional: true, required: false
-  private _sagemakerImageVersionArn?: string;
+  private _sagemakerImageVersionArn?: string; 
   public get sagemakerImageVersionArn() {
     return this.getStringAttribute('sagemaker_image_version_arn');
   }
@@ -2085,7 +2085,7 @@ export class SagemakerUserProfileUserSettingsCodeEditorAppSettingsOutputReferenc
   }
 
   // built_in_lifecycle_config_arn - computed: false, optional: true, required: false
-  private _builtInLifecycleConfigArn?: string;
+  private _builtInLifecycleConfigArn?: string; 
   public get builtInLifecycleConfigArn() {
     return this.getStringAttribute('built_in_lifecycle_config_arn');
   }
@@ -2101,7 +2101,7 @@ export class SagemakerUserProfileUserSettingsCodeEditorAppSettingsOutputReferenc
   }
 
   // lifecycle_config_arns - computed: false, optional: true, required: false
-  private _lifecycleConfigArns?: string[];
+  private _lifecycleConfigArns?: string[]; 
   public get lifecycleConfigArns() {
     return cdktn.Fn.tolist(this.getListAttribute('lifecycle_config_arns'));
   }
@@ -2262,7 +2262,7 @@ export class SagemakerUserProfileUserSettingsCustomFileSystemConfigEfsFileSystem
   }
 
   // file_system_id - computed: false, optional: false, required: true
-  private _fileSystemId?: string;
+  private _fileSystemId?: string; 
   public get fileSystemId() {
     return this.getStringAttribute('file_system_id');
   }
@@ -2275,7 +2275,7 @@ export class SagemakerUserProfileUserSettingsCustomFileSystemConfigEfsFileSystem
   }
 
   // file_system_path - computed: false, optional: true, required: false
-  private _fileSystemPath?: string;
+  private _fileSystemPath?: string; 
   public get fileSystemPath() {
     return this.getStringAttribute('file_system_path');
   }
@@ -2514,7 +2514,7 @@ export class SagemakerUserProfileUserSettingsCustomPosixUserConfigOutputReferenc
   }
 
   // gid - computed: false, optional: false, required: true
-  private _gid?: number;
+  private _gid?: number; 
   public get gid() {
     return this.getNumberAttribute('gid');
   }
@@ -2527,7 +2527,7 @@ export class SagemakerUserProfileUserSettingsCustomPosixUserConfigOutputReferenc
   }
 
   // uid - computed: false, optional: false, required: true
-  private _uid?: number;
+  private _uid?: number; 
   public get uid() {
     return this.getNumberAttribute('uid');
   }
@@ -2659,7 +2659,7 @@ export class SagemakerUserProfileUserSettingsJupyterLabAppSettingsAppLifecycleMa
   }
 
   // idle_timeout_in_minutes - computed: false, optional: true, required: false
-  private _idleTimeoutInMinutes?: number;
+  private _idleTimeoutInMinutes?: number; 
   public get idleTimeoutInMinutes() {
     return this.getNumberAttribute('idle_timeout_in_minutes');
   }
@@ -2675,7 +2675,7 @@ export class SagemakerUserProfileUserSettingsJupyterLabAppSettingsAppLifecycleMa
   }
 
   // lifecycle_management - computed: false, optional: true, required: false
-  private _lifecycleManagement?: string;
+  private _lifecycleManagement?: string; 
   public get lifecycleManagement() {
     return this.getStringAttribute('lifecycle_management');
   }
@@ -2691,7 +2691,7 @@ export class SagemakerUserProfileUserSettingsJupyterLabAppSettingsAppLifecycleMa
   }
 
   // max_idle_timeout_in_minutes - computed: false, optional: true, required: false
-  private _maxIdleTimeoutInMinutes?: number;
+  private _maxIdleTimeoutInMinutes?: number; 
   public get maxIdleTimeoutInMinutes() {
     return this.getNumberAttribute('max_idle_timeout_in_minutes');
   }
@@ -2707,7 +2707,7 @@ export class SagemakerUserProfileUserSettingsJupyterLabAppSettingsAppLifecycleMa
   }
 
   // min_idle_timeout_in_minutes - computed: false, optional: true, required: false
-  private _minIdleTimeoutInMinutes?: number;
+  private _minIdleTimeoutInMinutes?: number; 
   public get minIdleTimeoutInMinutes() {
     return this.getNumberAttribute('min_idle_timeout_in_minutes');
   }
@@ -2889,7 +2889,7 @@ export class SagemakerUserProfileUserSettingsJupyterLabAppSettingsCodeRepository
   }
 
   // repository_url - computed: false, optional: false, required: true
-  private _repositoryUrl?: string;
+  private _repositoryUrl?: string; 
   public get repositoryUrl() {
     return this.getStringAttribute('repository_url');
   }
@@ -3036,7 +3036,7 @@ export class SagemakerUserProfileUserSettingsJupyterLabAppSettingsCustomImageOut
   }
 
   // app_image_config_name - computed: false, optional: false, required: true
-  private _appImageConfigName?: string;
+  private _appImageConfigName?: string; 
   public get appImageConfigName() {
     return this.getStringAttribute('app_image_config_name');
   }
@@ -3049,7 +3049,7 @@ export class SagemakerUserProfileUserSettingsJupyterLabAppSettingsCustomImageOut
   }
 
   // image_name - computed: false, optional: false, required: true
-  private _imageName?: string;
+  private _imageName?: string; 
   public get imageName() {
     return this.getStringAttribute('image_name');
   }
@@ -3062,7 +3062,7 @@ export class SagemakerUserProfileUserSettingsJupyterLabAppSettingsCustomImageOut
   }
 
   // image_version_number - computed: false, optional: true, required: false
-  private _imageVersionNumber?: number;
+  private _imageVersionNumber?: number; 
   public get imageVersionNumber() {
     return this.getNumberAttribute('image_version_number');
   }
@@ -3234,7 +3234,7 @@ export class SagemakerUserProfileUserSettingsJupyterLabAppSettingsDefaultResourc
   }
 
   // instance_type - computed: false, optional: true, required: false
-  private _instanceType?: string;
+  private _instanceType?: string; 
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -3250,7 +3250,7 @@ export class SagemakerUserProfileUserSettingsJupyterLabAppSettingsDefaultResourc
   }
 
   // lifecycle_config_arn - computed: false, optional: true, required: false
-  private _lifecycleConfigArn?: string;
+  private _lifecycleConfigArn?: string; 
   public get lifecycleConfigArn() {
     return this.getStringAttribute('lifecycle_config_arn');
   }
@@ -3266,7 +3266,7 @@ export class SagemakerUserProfileUserSettingsJupyterLabAppSettingsDefaultResourc
   }
 
   // sagemaker_image_arn - computed: false, optional: true, required: false
-  private _sagemakerImageArn?: string;
+  private _sagemakerImageArn?: string; 
   public get sagemakerImageArn() {
     return this.getStringAttribute('sagemaker_image_arn');
   }
@@ -3282,7 +3282,7 @@ export class SagemakerUserProfileUserSettingsJupyterLabAppSettingsDefaultResourc
   }
 
   // sagemaker_image_version_alias - computed: false, optional: true, required: false
-  private _sagemakerImageVersionAlias?: string;
+  private _sagemakerImageVersionAlias?: string; 
   public get sagemakerImageVersionAlias() {
     return this.getStringAttribute('sagemaker_image_version_alias');
   }
@@ -3298,7 +3298,7 @@ export class SagemakerUserProfileUserSettingsJupyterLabAppSettingsDefaultResourc
   }
 
   // sagemaker_image_version_arn - computed: false, optional: true, required: false
-  private _sagemakerImageVersionArn?: string;
+  private _sagemakerImageVersionArn?: string; 
   public get sagemakerImageVersionArn() {
     return this.getStringAttribute('sagemaker_image_version_arn');
   }
@@ -3399,7 +3399,7 @@ export class SagemakerUserProfileUserSettingsJupyterLabAppSettingsEmrSettingsOut
   }
 
   // assumable_role_arns - computed: false, optional: true, required: false
-  private _assumableRoleArns?: string[];
+  private _assumableRoleArns?: string[]; 
   public get assumableRoleArns() {
     return cdktn.Fn.tolist(this.getListAttribute('assumable_role_arns'));
   }
@@ -3415,7 +3415,7 @@ export class SagemakerUserProfileUserSettingsJupyterLabAppSettingsEmrSettingsOut
   }
 
   // execution_role_arns - computed: false, optional: true, required: false
-  private _executionRoleArns?: string[];
+  private _executionRoleArns?: string[]; 
   public get executionRoleArns() {
     return cdktn.Fn.tolist(this.getListAttribute('execution_role_arns'));
   }
@@ -3611,7 +3611,7 @@ export class SagemakerUserProfileUserSettingsJupyterLabAppSettingsOutputReferenc
   }
 
   // built_in_lifecycle_config_arn - computed: false, optional: true, required: false
-  private _builtInLifecycleConfigArn?: string;
+  private _builtInLifecycleConfigArn?: string; 
   public get builtInLifecycleConfigArn() {
     return this.getStringAttribute('built_in_lifecycle_config_arn');
   }
@@ -3627,7 +3627,7 @@ export class SagemakerUserProfileUserSettingsJupyterLabAppSettingsOutputReferenc
   }
 
   // lifecycle_config_arns - computed: false, optional: true, required: false
-  private _lifecycleConfigArns?: string[];
+  private _lifecycleConfigArns?: string[]; 
   public get lifecycleConfigArns() {
     return cdktn.Fn.tolist(this.getListAttribute('lifecycle_config_arns'));
   }
@@ -3803,7 +3803,7 @@ export class SagemakerUserProfileUserSettingsJupyterServerAppSettingsCodeReposit
   }
 
   // repository_url - computed: false, optional: false, required: true
-  private _repositoryUrl?: string;
+  private _repositoryUrl?: string; 
   public get repositoryUrl() {
     return this.getStringAttribute('repository_url');
   }
@@ -3972,7 +3972,7 @@ export class SagemakerUserProfileUserSettingsJupyterServerAppSettingsDefaultReso
   }
 
   // instance_type - computed: false, optional: true, required: false
-  private _instanceType?: string;
+  private _instanceType?: string; 
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -3988,7 +3988,7 @@ export class SagemakerUserProfileUserSettingsJupyterServerAppSettingsDefaultReso
   }
 
   // lifecycle_config_arn - computed: false, optional: true, required: false
-  private _lifecycleConfigArn?: string;
+  private _lifecycleConfigArn?: string; 
   public get lifecycleConfigArn() {
     return this.getStringAttribute('lifecycle_config_arn');
   }
@@ -4004,7 +4004,7 @@ export class SagemakerUserProfileUserSettingsJupyterServerAppSettingsDefaultReso
   }
 
   // sagemaker_image_arn - computed: false, optional: true, required: false
-  private _sagemakerImageArn?: string;
+  private _sagemakerImageArn?: string; 
   public get sagemakerImageArn() {
     return this.getStringAttribute('sagemaker_image_arn');
   }
@@ -4020,7 +4020,7 @@ export class SagemakerUserProfileUserSettingsJupyterServerAppSettingsDefaultReso
   }
 
   // sagemaker_image_version_alias - computed: false, optional: true, required: false
-  private _sagemakerImageVersionAlias?: string;
+  private _sagemakerImageVersionAlias?: string; 
   public get sagemakerImageVersionAlias() {
     return this.getStringAttribute('sagemaker_image_version_alias');
   }
@@ -4036,7 +4036,7 @@ export class SagemakerUserProfileUserSettingsJupyterServerAppSettingsDefaultReso
   }
 
   // sagemaker_image_version_arn - computed: false, optional: true, required: false
-  private _sagemakerImageVersionArn?: string;
+  private _sagemakerImageVersionArn?: string; 
   public get sagemakerImageVersionArn() {
     return this.getStringAttribute('sagemaker_image_version_arn');
   }
@@ -4158,7 +4158,7 @@ export class SagemakerUserProfileUserSettingsJupyterServerAppSettingsOutputRefer
   }
 
   // lifecycle_config_arns - computed: false, optional: true, required: false
-  private _lifecycleConfigArns?: string[];
+  private _lifecycleConfigArns?: string[]; 
   public get lifecycleConfigArns() {
     return cdktn.Fn.tolist(this.getListAttribute('lifecycle_config_arns'));
   }
@@ -4320,7 +4320,7 @@ export class SagemakerUserProfileUserSettingsKernelGatewayAppSettingsCustomImage
   }
 
   // app_image_config_name - computed: false, optional: false, required: true
-  private _appImageConfigName?: string;
+  private _appImageConfigName?: string; 
   public get appImageConfigName() {
     return this.getStringAttribute('app_image_config_name');
   }
@@ -4333,7 +4333,7 @@ export class SagemakerUserProfileUserSettingsKernelGatewayAppSettingsCustomImage
   }
 
   // image_name - computed: false, optional: false, required: true
-  private _imageName?: string;
+  private _imageName?: string; 
   public get imageName() {
     return this.getStringAttribute('image_name');
   }
@@ -4346,7 +4346,7 @@ export class SagemakerUserProfileUserSettingsKernelGatewayAppSettingsCustomImage
   }
 
   // image_version_number - computed: false, optional: true, required: false
-  private _imageVersionNumber?: number;
+  private _imageVersionNumber?: number; 
   public get imageVersionNumber() {
     return this.getNumberAttribute('image_version_number');
   }
@@ -4518,7 +4518,7 @@ export class SagemakerUserProfileUserSettingsKernelGatewayAppSettingsDefaultReso
   }
 
   // instance_type - computed: false, optional: true, required: false
-  private _instanceType?: string;
+  private _instanceType?: string; 
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -4534,7 +4534,7 @@ export class SagemakerUserProfileUserSettingsKernelGatewayAppSettingsDefaultReso
   }
 
   // lifecycle_config_arn - computed: false, optional: true, required: false
-  private _lifecycleConfigArn?: string;
+  private _lifecycleConfigArn?: string; 
   public get lifecycleConfigArn() {
     return this.getStringAttribute('lifecycle_config_arn');
   }
@@ -4550,7 +4550,7 @@ export class SagemakerUserProfileUserSettingsKernelGatewayAppSettingsDefaultReso
   }
 
   // sagemaker_image_arn - computed: false, optional: true, required: false
-  private _sagemakerImageArn?: string;
+  private _sagemakerImageArn?: string; 
   public get sagemakerImageArn() {
     return this.getStringAttribute('sagemaker_image_arn');
   }
@@ -4566,7 +4566,7 @@ export class SagemakerUserProfileUserSettingsKernelGatewayAppSettingsDefaultReso
   }
 
   // sagemaker_image_version_alias - computed: false, optional: true, required: false
-  private _sagemakerImageVersionAlias?: string;
+  private _sagemakerImageVersionAlias?: string; 
   public get sagemakerImageVersionAlias() {
     return this.getStringAttribute('sagemaker_image_version_alias');
   }
@@ -4582,7 +4582,7 @@ export class SagemakerUserProfileUserSettingsKernelGatewayAppSettingsDefaultReso
   }
 
   // sagemaker_image_version_arn - computed: false, optional: true, required: false
-  private _sagemakerImageVersionArn?: string;
+  private _sagemakerImageVersionArn?: string; 
   public get sagemakerImageVersionArn() {
     return this.getStringAttribute('sagemaker_image_version_arn');
   }
@@ -4704,7 +4704,7 @@ export class SagemakerUserProfileUserSettingsKernelGatewayAppSettingsOutputRefer
   }
 
   // lifecycle_config_arns - computed: false, optional: true, required: false
-  private _lifecycleConfigArns?: string[];
+  private _lifecycleConfigArns?: string[]; 
   public get lifecycleConfigArns() {
     return cdktn.Fn.tolist(this.getListAttribute('lifecycle_config_arns'));
   }
@@ -4866,7 +4866,7 @@ export class SagemakerUserProfileUserSettingsRSessionAppSettingsCustomImageOutpu
   }
 
   // app_image_config_name - computed: false, optional: false, required: true
-  private _appImageConfigName?: string;
+  private _appImageConfigName?: string; 
   public get appImageConfigName() {
     return this.getStringAttribute('app_image_config_name');
   }
@@ -4879,7 +4879,7 @@ export class SagemakerUserProfileUserSettingsRSessionAppSettingsCustomImageOutpu
   }
 
   // image_name - computed: false, optional: false, required: true
-  private _imageName?: string;
+  private _imageName?: string; 
   public get imageName() {
     return this.getStringAttribute('image_name');
   }
@@ -4892,7 +4892,7 @@ export class SagemakerUserProfileUserSettingsRSessionAppSettingsCustomImageOutpu
   }
 
   // image_version_number - computed: false, optional: true, required: false
-  private _imageVersionNumber?: number;
+  private _imageVersionNumber?: number; 
   public get imageVersionNumber() {
     return this.getNumberAttribute('image_version_number');
   }
@@ -5064,7 +5064,7 @@ export class SagemakerUserProfileUserSettingsRSessionAppSettingsDefaultResourceS
   }
 
   // instance_type - computed: false, optional: true, required: false
-  private _instanceType?: string;
+  private _instanceType?: string; 
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -5080,7 +5080,7 @@ export class SagemakerUserProfileUserSettingsRSessionAppSettingsDefaultResourceS
   }
 
   // lifecycle_config_arn - computed: false, optional: true, required: false
-  private _lifecycleConfigArn?: string;
+  private _lifecycleConfigArn?: string; 
   public get lifecycleConfigArn() {
     return this.getStringAttribute('lifecycle_config_arn');
   }
@@ -5096,7 +5096,7 @@ export class SagemakerUserProfileUserSettingsRSessionAppSettingsDefaultResourceS
   }
 
   // sagemaker_image_arn - computed: false, optional: true, required: false
-  private _sagemakerImageArn?: string;
+  private _sagemakerImageArn?: string; 
   public get sagemakerImageArn() {
     return this.getStringAttribute('sagemaker_image_arn');
   }
@@ -5112,7 +5112,7 @@ export class SagemakerUserProfileUserSettingsRSessionAppSettingsDefaultResourceS
   }
 
   // sagemaker_image_version_alias - computed: false, optional: true, required: false
-  private _sagemakerImageVersionAlias?: string;
+  private _sagemakerImageVersionAlias?: string; 
   public get sagemakerImageVersionAlias() {
     return this.getStringAttribute('sagemaker_image_version_alias');
   }
@@ -5128,7 +5128,7 @@ export class SagemakerUserProfileUserSettingsRSessionAppSettingsDefaultResourceS
   }
 
   // sagemaker_image_version_arn - computed: false, optional: true, required: false
-  private _sagemakerImageVersionArn?: string;
+  private _sagemakerImageVersionArn?: string; 
   public get sagemakerImageVersionArn() {
     return this.getStringAttribute('sagemaker_image_version_arn');
   }
@@ -5350,7 +5350,7 @@ export class SagemakerUserProfileUserSettingsRStudioServerProAppSettingsOutputRe
   }
 
   // access_status - computed: false, optional: true, required: false
-  private _accessStatus?: string;
+  private _accessStatus?: string; 
   public get accessStatus() {
     return this.getStringAttribute('access_status');
   }
@@ -5366,7 +5366,7 @@ export class SagemakerUserProfileUserSettingsRStudioServerProAppSettingsOutputRe
   }
 
   // user_group - computed: false, optional: true, required: false
-  private _userGroup?: string;
+  private _userGroup?: string; 
   public get userGroup() {
     return this.getStringAttribute('user_group');
   }
@@ -5484,7 +5484,7 @@ export class SagemakerUserProfileUserSettingsSharingSettingsOutputReference exte
   }
 
   // notebook_output_option - computed: false, optional: true, required: false
-  private _notebookOutputOption?: string;
+  private _notebookOutputOption?: string; 
   public get notebookOutputOption() {
     return this.getStringAttribute('notebook_output_option');
   }
@@ -5500,7 +5500,7 @@ export class SagemakerUserProfileUserSettingsSharingSettingsOutputReference exte
   }
 
   // s3_kms_key_id - computed: false, optional: true, required: false
-  private _s3KmsKeyId?: string;
+  private _s3KmsKeyId?: string; 
   public get s3KmsKeyId() {
     return this.getStringAttribute('s3_kms_key_id');
   }
@@ -5516,7 +5516,7 @@ export class SagemakerUserProfileUserSettingsSharingSettingsOutputReference exte
   }
 
   // s3_output_path - computed: false, optional: true, required: false
-  private _s3OutputPath?: string;
+  private _s3OutputPath?: string; 
   public get s3OutputPath() {
     return this.getStringAttribute('s3_output_path');
   }
@@ -5617,7 +5617,7 @@ export class SagemakerUserProfileUserSettingsSpaceStorageSettingsDefaultEbsStora
   }
 
   // default_ebs_volume_size_in_gb - computed: false, optional: false, required: true
-  private _defaultEbsVolumeSizeInGb?: number;
+  private _defaultEbsVolumeSizeInGb?: number; 
   public get defaultEbsVolumeSizeInGb() {
     return this.getNumberAttribute('default_ebs_volume_size_in_gb');
   }
@@ -5630,7 +5630,7 @@ export class SagemakerUserProfileUserSettingsSpaceStorageSettingsDefaultEbsStora
   }
 
   // maximum_ebs_volume_size_in_gb - computed: false, optional: false, required: true
-  private _maximumEbsVolumeSizeInGb?: number;
+  private _maximumEbsVolumeSizeInGb?: number; 
   public get maximumEbsVolumeSizeInGb() {
     return this.getNumberAttribute('maximum_ebs_volume_size_in_gb');
   }
@@ -5831,7 +5831,7 @@ export class SagemakerUserProfileUserSettingsStudioWebPortalSettingsOutputRefere
   }
 
   // hidden_app_types - computed: false, optional: true, required: false
-  private _hiddenAppTypes?: string[];
+  private _hiddenAppTypes?: string[]; 
   public get hiddenAppTypes() {
     return cdktn.Fn.tolist(this.getListAttribute('hidden_app_types'));
   }
@@ -5847,7 +5847,7 @@ export class SagemakerUserProfileUserSettingsStudioWebPortalSettingsOutputRefere
   }
 
   // hidden_instance_types - computed: false, optional: true, required: false
-  private _hiddenInstanceTypes?: string[];
+  private _hiddenInstanceTypes?: string[]; 
   public get hiddenInstanceTypes() {
     return cdktn.Fn.tolist(this.getListAttribute('hidden_instance_types'));
   }
@@ -5863,7 +5863,7 @@ export class SagemakerUserProfileUserSettingsStudioWebPortalSettingsOutputRefere
   }
 
   // hidden_ml_tools - computed: false, optional: true, required: false
-  private _hiddenMlTools?: string[];
+  private _hiddenMlTools?: string[]; 
   public get hiddenMlTools() {
     return cdktn.Fn.tolist(this.getListAttribute('hidden_ml_tools'));
   }
@@ -6015,7 +6015,7 @@ export class SagemakerUserProfileUserSettingsTensorBoardAppSettingsDefaultResour
   }
 
   // instance_type - computed: false, optional: true, required: false
-  private _instanceType?: string;
+  private _instanceType?: string; 
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -6031,7 +6031,7 @@ export class SagemakerUserProfileUserSettingsTensorBoardAppSettingsDefaultResour
   }
 
   // lifecycle_config_arn - computed: false, optional: true, required: false
-  private _lifecycleConfigArn?: string;
+  private _lifecycleConfigArn?: string; 
   public get lifecycleConfigArn() {
     return this.getStringAttribute('lifecycle_config_arn');
   }
@@ -6047,7 +6047,7 @@ export class SagemakerUserProfileUserSettingsTensorBoardAppSettingsDefaultResour
   }
 
   // sagemaker_image_arn - computed: false, optional: true, required: false
-  private _sagemakerImageArn?: string;
+  private _sagemakerImageArn?: string; 
   public get sagemakerImageArn() {
     return this.getStringAttribute('sagemaker_image_arn');
   }
@@ -6063,7 +6063,7 @@ export class SagemakerUserProfileUserSettingsTensorBoardAppSettingsDefaultResour
   }
 
   // sagemaker_image_version_alias - computed: false, optional: true, required: false
-  private _sagemakerImageVersionAlias?: string;
+  private _sagemakerImageVersionAlias?: string; 
   public get sagemakerImageVersionAlias() {
     return this.getStringAttribute('sagemaker_image_version_alias');
   }
@@ -6079,7 +6079,7 @@ export class SagemakerUserProfileUserSettingsTensorBoardAppSettingsDefaultResour
   }
 
   // sagemaker_image_version_arn - computed: false, optional: true, required: false
-  private _sagemakerImageVersionArn?: string;
+  private _sagemakerImageVersionArn?: string; 
   public get sagemakerImageVersionArn() {
     return this.getStringAttribute('sagemaker_image_version_arn');
   }
@@ -6564,7 +6564,7 @@ export class SagemakerUserProfileUserSettingsOutputReference extends cdktn.Compl
   }
 
   // auto_mount_home_efs - computed: true, optional: true, required: false
-  private _autoMountHomeEfs?: string;
+  private _autoMountHomeEfs?: string; 
   public get autoMountHomeEfs() {
     return this.getStringAttribute('auto_mount_home_efs');
   }
@@ -6580,7 +6580,7 @@ export class SagemakerUserProfileUserSettingsOutputReference extends cdktn.Compl
   }
 
   // default_landing_uri - computed: false, optional: true, required: false
-  private _defaultLandingUri?: string;
+  private _defaultLandingUri?: string; 
   public get defaultLandingUri() {
     return this.getStringAttribute('default_landing_uri');
   }
@@ -6596,7 +6596,7 @@ export class SagemakerUserProfileUserSettingsOutputReference extends cdktn.Compl
   }
 
   // execution_role - computed: false, optional: false, required: true
-  private _executionRole?: string;
+  private _executionRole?: string; 
   public get executionRole() {
     return this.getStringAttribute('execution_role');
   }
@@ -6609,7 +6609,7 @@ export class SagemakerUserProfileUserSettingsOutputReference extends cdktn.Compl
   }
 
   // security_groups - computed: false, optional: true, required: false
-  private _securityGroups?: string[];
+  private _securityGroups?: string[]; 
   public get securityGroups() {
     return cdktn.Fn.tolist(this.getListAttribute('security_groups'));
   }
@@ -6625,7 +6625,7 @@ export class SagemakerUserProfileUserSettingsOutputReference extends cdktn.Compl
   }
 
   // studio_web_portal - computed: true, optional: true, required: false
-  private _studioWebPortal?: string;
+  private _studioWebPortal?: string; 
   public get studioWebPortal() {
     return this.getStringAttribute('studio_web_portal');
   }
@@ -6920,7 +6920,7 @@ export class SagemakerUserProfile extends cdktn.TerraformResource {
   }
 
   // domain_id - computed: false, optional: false, required: true
-  private _domainId?: string;
+  private _domainId?: string; 
   public get domainId() {
     return this.getStringAttribute('domain_id');
   }
@@ -6938,7 +6938,7 @@ export class SagemakerUserProfile extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -6954,7 +6954,7 @@ export class SagemakerUserProfile extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -6970,7 +6970,7 @@ export class SagemakerUserProfile extends cdktn.TerraformResource {
   }
 
   // single_sign_on_user_identifier - computed: false, optional: true, required: false
-  private _singleSignOnUserIdentifier?: string;
+  private _singleSignOnUserIdentifier?: string; 
   public get singleSignOnUserIdentifier() {
     return this.getStringAttribute('single_sign_on_user_identifier');
   }
@@ -6986,7 +6986,7 @@ export class SagemakerUserProfile extends cdktn.TerraformResource {
   }
 
   // single_sign_on_user_value - computed: false, optional: true, required: false
-  private _singleSignOnUserValue?: string;
+  private _singleSignOnUserValue?: string; 
   public get singleSignOnUserValue() {
     return this.getStringAttribute('single_sign_on_user_value');
   }
@@ -7002,7 +7002,7 @@ export class SagemakerUserProfile extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -7018,7 +7018,7 @@ export class SagemakerUserProfile extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -7034,7 +7034,7 @@ export class SagemakerUserProfile extends cdktn.TerraformResource {
   }
 
   // user_profile_name - computed: false, optional: false, required: true
-  private _userProfileName?: string;
+  private _userProfileName?: string; 
   public get userProfileName() {
     return this.getStringAttribute('user_profile_name');
   }

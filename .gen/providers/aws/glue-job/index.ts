@@ -241,7 +241,7 @@ export class GlueJobCommandOutputReference extends cdktn.ComplexObject {
   }
 
   // name - computed: false, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -257,7 +257,7 @@ export class GlueJobCommandOutputReference extends cdktn.ComplexObject {
   }
 
   // python_version - computed: true, optional: true, required: false
-  private _pythonVersion?: string;
+  private _pythonVersion?: string; 
   public get pythonVersion() {
     return this.getStringAttribute('python_version');
   }
@@ -273,7 +273,7 @@ export class GlueJobCommandOutputReference extends cdktn.ComplexObject {
   }
 
   // runtime - computed: true, optional: true, required: false
-  private _runtime?: string;
+  private _runtime?: string; 
   public get runtime() {
     return this.getStringAttribute('runtime');
   }
@@ -289,7 +289,7 @@ export class GlueJobCommandOutputReference extends cdktn.ComplexObject {
   }
 
   // script_location - computed: false, optional: false, required: true
-  private _scriptLocation?: string;
+  private _scriptLocation?: string; 
   public get scriptLocation() {
     return this.getStringAttribute('script_location');
   }
@@ -370,7 +370,7 @@ export class GlueJobExecutionPropertyOutputReference extends cdktn.ComplexObject
   }
 
   // max_concurrent_runs - computed: false, optional: true, required: false
-  private _maxConcurrentRuns?: number;
+  private _maxConcurrentRuns?: number; 
   public get maxConcurrentRuns() {
     return this.getNumberAttribute('max_concurrent_runs');
   }
@@ -454,7 +454,7 @@ export class GlueJobNotificationPropertyOutputReference extends cdktn.ComplexObj
   }
 
   // notify_delay_after - computed: false, optional: true, required: false
-  private _notifyDelayAfter?: number;
+  private _notifyDelayAfter?: number; 
   public get notifyDelayAfter() {
     return this.getNumberAttribute('notify_delay_after');
   }
@@ -657,7 +657,7 @@ export class GlueJobSourceControlDetailsOutputReference extends cdktn.ComplexObj
   }
 
   // auth_strategy - computed: false, optional: true, required: false
-  private _authStrategy?: string;
+  private _authStrategy?: string; 
   public get authStrategy() {
     return this.getStringAttribute('auth_strategy');
   }
@@ -673,7 +673,7 @@ export class GlueJobSourceControlDetailsOutputReference extends cdktn.ComplexObj
   }
 
   // auth_token - computed: false, optional: true, required: false
-  private _authToken?: string;
+  private _authToken?: string; 
   public get authToken() {
     return this.getStringAttribute('auth_token');
   }
@@ -689,7 +689,7 @@ export class GlueJobSourceControlDetailsOutputReference extends cdktn.ComplexObj
   }
 
   // branch - computed: false, optional: true, required: false
-  private _branch?: string;
+  private _branch?: string; 
   public get branch() {
     return this.getStringAttribute('branch');
   }
@@ -705,7 +705,7 @@ export class GlueJobSourceControlDetailsOutputReference extends cdktn.ComplexObj
   }
 
   // folder - computed: false, optional: true, required: false
-  private _folder?: string;
+  private _folder?: string; 
   public get folder() {
     return this.getStringAttribute('folder');
   }
@@ -721,7 +721,7 @@ export class GlueJobSourceControlDetailsOutputReference extends cdktn.ComplexObj
   }
 
   // last_commit_id - computed: false, optional: true, required: false
-  private _lastCommitId?: string;
+  private _lastCommitId?: string; 
   public get lastCommitId() {
     return this.getStringAttribute('last_commit_id');
   }
@@ -737,7 +737,7 @@ export class GlueJobSourceControlDetailsOutputReference extends cdktn.ComplexObj
   }
 
   // owner - computed: false, optional: true, required: false
-  private _owner?: string;
+  private _owner?: string; 
   public get owner() {
     return this.getStringAttribute('owner');
   }
@@ -753,7 +753,7 @@ export class GlueJobSourceControlDetailsOutputReference extends cdktn.ComplexObj
   }
 
   // provider - computed: false, optional: true, required: false
-  private _provider?: string;
+  private _provider?: string; 
   public get provider() {
     return this.getStringAttribute('provider');
   }
@@ -769,7 +769,7 @@ export class GlueJobSourceControlDetailsOutputReference extends cdktn.ComplexObj
   }
 
   // repository - computed: false, optional: true, required: false
-  private _repository?: string;
+  private _repository?: string; 
   public get repository() {
     return this.getStringAttribute('repository');
   }
@@ -872,7 +872,7 @@ export class GlueJob extends cdktn.TerraformResource {
   }
 
   // connections - computed: false, optional: true, required: false
-  private _connections?: string[];
+  private _connections?: string[]; 
   public get connections() {
     return this.getListAttribute('connections');
   }
@@ -888,7 +888,7 @@ export class GlueJob extends cdktn.TerraformResource {
   }
 
   // default_arguments - computed: false, optional: true, required: false
-  private _defaultArguments?: { [key: string]: string };
+  private _defaultArguments?: { [key: string]: string }; 
   public get defaultArguments() {
     return this.getStringMapAttribute('default_arguments');
   }
@@ -904,7 +904,7 @@ export class GlueJob extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -920,7 +920,7 @@ export class GlueJob extends cdktn.TerraformResource {
   }
 
   // execution_class - computed: false, optional: true, required: false
-  private _executionClass?: string;
+  private _executionClass?: string; 
   public get executionClass() {
     return this.getStringAttribute('execution_class');
   }
@@ -936,7 +936,7 @@ export class GlueJob extends cdktn.TerraformResource {
   }
 
   // glue_version - computed: true, optional: true, required: false
-  private _glueVersion?: string;
+  private _glueVersion?: string; 
   public get glueVersion() {
     return this.getStringAttribute('glue_version');
   }
@@ -952,7 +952,7 @@ export class GlueJob extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -968,7 +968,7 @@ export class GlueJob extends cdktn.TerraformResource {
   }
 
   // job_mode - computed: true, optional: true, required: false
-  private _jobMode?: string;
+  private _jobMode?: string; 
   public get jobMode() {
     return this.getStringAttribute('job_mode');
   }
@@ -984,7 +984,7 @@ export class GlueJob extends cdktn.TerraformResource {
   }
 
   // job_run_queuing_enabled - computed: false, optional: true, required: false
-  private _jobRunQueuingEnabled?: boolean | cdktn.IResolvable;
+  private _jobRunQueuingEnabled?: boolean | cdktn.IResolvable; 
   public get jobRunQueuingEnabled() {
     return this.getBooleanAttribute('job_run_queuing_enabled');
   }
@@ -1000,7 +1000,7 @@ export class GlueJob extends cdktn.TerraformResource {
   }
 
   // maintenance_window - computed: false, optional: true, required: false
-  private _maintenanceWindow?: string;
+  private _maintenanceWindow?: string; 
   public get maintenanceWindow() {
     return this.getStringAttribute('maintenance_window');
   }
@@ -1016,7 +1016,7 @@ export class GlueJob extends cdktn.TerraformResource {
   }
 
   // max_capacity - computed: true, optional: true, required: false
-  private _maxCapacity?: number;
+  private _maxCapacity?: number; 
   public get maxCapacity() {
     return this.getNumberAttribute('max_capacity');
   }
@@ -1032,7 +1032,7 @@ export class GlueJob extends cdktn.TerraformResource {
   }
 
   // max_retries - computed: false, optional: true, required: false
-  private _maxRetries?: number;
+  private _maxRetries?: number; 
   public get maxRetries() {
     return this.getNumberAttribute('max_retries');
   }
@@ -1048,7 +1048,7 @@ export class GlueJob extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1061,7 +1061,7 @@ export class GlueJob extends cdktn.TerraformResource {
   }
 
   // non_overridable_arguments - computed: false, optional: true, required: false
-  private _nonOverridableArguments?: { [key: string]: string };
+  private _nonOverridableArguments?: { [key: string]: string }; 
   public get nonOverridableArguments() {
     return this.getStringMapAttribute('non_overridable_arguments');
   }
@@ -1077,7 +1077,7 @@ export class GlueJob extends cdktn.TerraformResource {
   }
 
   // number_of_workers - computed: true, optional: true, required: false
-  private _numberOfWorkers?: number;
+  private _numberOfWorkers?: number; 
   public get numberOfWorkers() {
     return this.getNumberAttribute('number_of_workers');
   }
@@ -1093,7 +1093,7 @@ export class GlueJob extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1109,7 +1109,7 @@ export class GlueJob extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -1122,7 +1122,7 @@ export class GlueJob extends cdktn.TerraformResource {
   }
 
   // security_configuration - computed: false, optional: true, required: false
-  private _securityConfiguration?: string;
+  private _securityConfiguration?: string; 
   public get securityConfiguration() {
     return this.getStringAttribute('security_configuration');
   }
@@ -1138,7 +1138,7 @@ export class GlueJob extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -1154,7 +1154,7 @@ export class GlueJob extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -1170,7 +1170,7 @@ export class GlueJob extends cdktn.TerraformResource {
   }
 
   // timeout - computed: true, optional: true, required: false
-  private _timeout?: number;
+  private _timeout?: number; 
   public get timeout() {
     return this.getNumberAttribute('timeout');
   }
@@ -1186,7 +1186,7 @@ export class GlueJob extends cdktn.TerraformResource {
   }
 
   // worker_type - computed: true, optional: true, required: false
-  private _workerType?: string;
+  private _workerType?: string; 
   public get workerType() {
     return this.getStringAttribute('worker_type');
   }

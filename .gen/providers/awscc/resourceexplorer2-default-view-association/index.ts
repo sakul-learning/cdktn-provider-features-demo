@@ -81,7 +81,7 @@ export class Resourceexplorer2DefaultViewAssociation extends cdktn.TerraformReso
   }
 
   // view_arn - computed: false, optional: false, required: true
-  private _viewArn?: string;
+  private _viewArn?: string; 
   public get viewArn() {
     return this.getStringAttribute('view_arn');
   }

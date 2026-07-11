@@ -106,7 +106,7 @@ export class AppconfigHostedConfigurationVersion extends cdktn.TerraformResource
   // ==========
 
   // application_id - computed: false, optional: false, required: true
-  private _applicationId?: string;
+  private _applicationId?: string; 
   public get applicationId() {
     return this.getStringAttribute('application_id');
   }
@@ -124,7 +124,7 @@ export class AppconfigHostedConfigurationVersion extends cdktn.TerraformResource
   }
 
   // configuration_profile_id - computed: false, optional: false, required: true
-  private _configurationProfileId?: string;
+  private _configurationProfileId?: string; 
   public get configurationProfileId() {
     return this.getStringAttribute('configuration_profile_id');
   }
@@ -137,7 +137,7 @@ export class AppconfigHostedConfigurationVersion extends cdktn.TerraformResource
   }
 
   // content - computed: false, optional: false, required: true
-  private _content?: string;
+  private _content?: string; 
   public get content() {
     return this.getStringAttribute('content');
   }
@@ -150,7 +150,7 @@ export class AppconfigHostedConfigurationVersion extends cdktn.TerraformResource
   }
 
   // content_type - computed: false, optional: false, required: true
-  private _contentType?: string;
+  private _contentType?: string; 
   public get contentType() {
     return this.getStringAttribute('content_type');
   }
@@ -163,7 +163,7 @@ export class AppconfigHostedConfigurationVersion extends cdktn.TerraformResource
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -179,7 +179,7 @@ export class AppconfigHostedConfigurationVersion extends cdktn.TerraformResource
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -195,7 +195,7 @@ export class AppconfigHostedConfigurationVersion extends cdktn.TerraformResource
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

@@ -150,7 +150,7 @@ export class S3TablesTableBucketEncryptionConfigurationOutputReference extends c
   }
 
   // kms_key_arn - computed: true, optional: true, required: false
-  private _kmsKeyArn?: string;
+  private _kmsKeyArn?: string; 
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -166,7 +166,7 @@ export class S3TablesTableBucketEncryptionConfigurationOutputReference extends c
   }
 
   // sse_algorithm - computed: true, optional: true, required: false
-  private _sseAlgorithm?: string;
+  private _sseAlgorithm?: string; 
   public get sseAlgorithm() {
     return this.getStringAttribute('sse_algorithm');
   }
@@ -262,7 +262,7 @@ export class S3TablesTableBucketMetricsConfigurationOutputReference extends cdkt
   }
 
   // status - computed: true, optional: true, required: false
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -360,7 +360,7 @@ export class S3TablesTableBucketReplicationConfigurationRulesDestinationsOutputR
   }
 
   // destination_table_bucket_arn - computed: true, optional: true, required: false
-  private _destinationTableBucketArn?: string;
+  private _destinationTableBucketArn?: string; 
   public get destinationTableBucketArn() {
     return this.getStringAttribute('destination_table_bucket_arn');
   }
@@ -613,7 +613,7 @@ export class S3TablesTableBucketReplicationConfigurationOutputReference extends 
   }
 
   // role - computed: true, optional: true, required: false
-  private _role?: string;
+  private _role?: string; 
   public get role() {
     return this.getStringAttribute('role');
   }
@@ -725,7 +725,7 @@ export class S3TablesTableBucketStorageClassConfigurationOutputReference extends
   }
 
   // storage_class - computed: true, optional: true, required: false
-  private _storageClass?: string;
+  private _storageClass?: string; 
   public get storageClass() {
     return this.getStringAttribute('storage_class');
   }
@@ -842,7 +842,7 @@ export class S3TablesTableBucketTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -858,7 +858,7 @@ export class S3TablesTableBucketTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1012,7 +1012,7 @@ export class S3TablesTableBucketUnreferencedFileRemovalOutputReference extends c
   }
 
   // noncurrent_days - computed: true, optional: true, required: false
-  private _noncurrentDays?: number;
+  private _noncurrentDays?: number; 
   public get noncurrentDays() {
     return this.getNumberAttribute('noncurrent_days');
   }
@@ -1028,7 +1028,7 @@ export class S3TablesTableBucketUnreferencedFileRemovalOutputReference extends c
   }
 
   // status - computed: true, optional: true, required: false
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -1044,7 +1044,7 @@ export class S3TablesTableBucketUnreferencedFileRemovalOutputReference extends c
   }
 
   // unreferenced_days - computed: true, optional: true, required: false
-  private _unreferencedDays?: number;
+  private _unreferencedDays?: number; 
   public get unreferencedDays() {
     return this.getNumberAttribute('unreferenced_days');
   }
@@ -1198,7 +1198,7 @@ export class S3TablesTableBucket extends cdktn.TerraformResource {
   }
 
   // table_bucket_name - computed: false, optional: false, required: true
-  private _tableBucketName?: string;
+  private _tableBucketName?: string; 
   public get tableBucketName() {
     return this.getStringAttribute('table_bucket_name');
   }

@@ -122,7 +122,7 @@ export class QuicksightKeyRegistrationKeyRegistrationOutputReference extends cdk
   }
 
   // default_key - computed: true, optional: true, required: false
-  private _defaultKey?: boolean | cdktn.IResolvable;
+  private _defaultKey?: boolean | cdktn.IResolvable; 
   public get defaultKey() {
     return this.getBooleanAttribute('default_key');
   }
@@ -138,7 +138,7 @@ export class QuicksightKeyRegistrationKeyRegistrationOutputReference extends cdk
   }
 
   // key_arn - computed: false, optional: false, required: true
-  private _keyArn?: string;
+  private _keyArn?: string; 
   public get keyArn() {
     return this.getStringAttribute('key_arn');
   }
@@ -231,7 +231,7 @@ export class QuicksightKeyRegistration extends cdktn.TerraformResource {
   // ==========
 
   // aws_account_id - computed: true, optional: true, required: false
-  private _awsAccountId?: string;
+  private _awsAccountId?: string; 
   public get awsAccountId() {
     return this.getStringAttribute('aws_account_id');
   }
@@ -247,7 +247,7 @@ export class QuicksightKeyRegistration extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

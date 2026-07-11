@@ -178,7 +178,7 @@ export class WorkspacesWorkspaceTimeoutsOutputReference extends cdktn.ComplexObj
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -194,7 +194,7 @@ export class WorkspacesWorkspaceTimeoutsOutputReference extends cdktn.ComplexObj
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -210,7 +210,7 @@ export class WorkspacesWorkspaceTimeoutsOutputReference extends cdktn.ComplexObj
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -362,7 +362,7 @@ export class WorkspacesWorkspaceWorkspacePropertiesOutputReference extends cdktn
   }
 
   // compute_type_name - computed: false, optional: true, required: false
-  private _computeTypeName?: string;
+  private _computeTypeName?: string; 
   public get computeTypeName() {
     return this.getStringAttribute('compute_type_name');
   }
@@ -378,7 +378,7 @@ export class WorkspacesWorkspaceWorkspacePropertiesOutputReference extends cdktn
   }
 
   // root_volume_size_gib - computed: false, optional: true, required: false
-  private _rootVolumeSizeGib?: number;
+  private _rootVolumeSizeGib?: number; 
   public get rootVolumeSizeGib() {
     return this.getNumberAttribute('root_volume_size_gib');
   }
@@ -394,7 +394,7 @@ export class WorkspacesWorkspaceWorkspacePropertiesOutputReference extends cdktn
   }
 
   // running_mode - computed: false, optional: true, required: false
-  private _runningMode?: string;
+  private _runningMode?: string; 
   public get runningMode() {
     return this.getStringAttribute('running_mode');
   }
@@ -410,7 +410,7 @@ export class WorkspacesWorkspaceWorkspacePropertiesOutputReference extends cdktn
   }
 
   // running_mode_auto_stop_timeout_in_minutes - computed: true, optional: true, required: false
-  private _runningModeAutoStopTimeoutInMinutes?: number;
+  private _runningModeAutoStopTimeoutInMinutes?: number; 
   public get runningModeAutoStopTimeoutInMinutes() {
     return this.getNumberAttribute('running_mode_auto_stop_timeout_in_minutes');
   }
@@ -426,7 +426,7 @@ export class WorkspacesWorkspaceWorkspacePropertiesOutputReference extends cdktn
   }
 
   // user_volume_size_gib - computed: false, optional: true, required: false
-  private _userVolumeSizeGib?: number;
+  private _userVolumeSizeGib?: number; 
   public get userVolumeSizeGib() {
     return this.getNumberAttribute('user_volume_size_gib');
   }
@@ -511,7 +511,7 @@ export class WorkspacesWorkspace extends cdktn.TerraformResource {
   // ==========
 
   // bundle_id - computed: false, optional: false, required: true
-  private _bundleId?: string;
+  private _bundleId?: string; 
   public get bundleId() {
     return this.getStringAttribute('bundle_id');
   }
@@ -529,7 +529,7 @@ export class WorkspacesWorkspace extends cdktn.TerraformResource {
   }
 
   // directory_id - computed: false, optional: false, required: true
-  private _directoryId?: string;
+  private _directoryId?: string; 
   public get directoryId() {
     return this.getStringAttribute('directory_id');
   }
@@ -542,7 +542,7 @@ export class WorkspacesWorkspace extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -563,7 +563,7 @@ export class WorkspacesWorkspace extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -579,7 +579,7 @@ export class WorkspacesWorkspace extends cdktn.TerraformResource {
   }
 
   // root_volume_encryption_enabled - computed: false, optional: true, required: false
-  private _rootVolumeEncryptionEnabled?: boolean | cdktn.IResolvable;
+  private _rootVolumeEncryptionEnabled?: boolean | cdktn.IResolvable; 
   public get rootVolumeEncryptionEnabled() {
     return this.getBooleanAttribute('root_volume_encryption_enabled');
   }
@@ -600,7 +600,7 @@ export class WorkspacesWorkspace extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -616,7 +616,7 @@ export class WorkspacesWorkspace extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -632,7 +632,7 @@ export class WorkspacesWorkspace extends cdktn.TerraformResource {
   }
 
   // user_name - computed: false, optional: false, required: true
-  private _userName?: string;
+  private _userName?: string; 
   public get userName() {
     return this.getStringAttribute('user_name');
   }
@@ -645,7 +645,7 @@ export class WorkspacesWorkspace extends cdktn.TerraformResource {
   }
 
   // user_volume_encryption_enabled - computed: false, optional: true, required: false
-  private _userVolumeEncryptionEnabled?: boolean | cdktn.IResolvable;
+  private _userVolumeEncryptionEnabled?: boolean | cdktn.IResolvable; 
   public get userVolumeEncryptionEnabled() {
     return this.getBooleanAttribute('user_volume_encryption_enabled');
   }
@@ -661,7 +661,7 @@ export class WorkspacesWorkspace extends cdktn.TerraformResource {
   }
 
   // volume_encryption_key - computed: false, optional: true, required: false
-  private _volumeEncryptionKey?: string;
+  private _volumeEncryptionKey?: string; 
   public get volumeEncryptionKey() {
     return this.getStringAttribute('volume_encryption_key');
   }

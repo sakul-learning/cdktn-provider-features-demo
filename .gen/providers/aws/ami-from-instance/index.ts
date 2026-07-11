@@ -397,7 +397,7 @@ export class AmiFromInstanceTimeoutsOutputReference extends cdktn.ComplexObject 
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -413,7 +413,7 @@ export class AmiFromInstanceTimeoutsOutputReference extends cdktn.ComplexObject 
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -429,7 +429,7 @@ export class AmiFromInstanceTimeoutsOutputReference extends cdktn.ComplexObject 
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -529,7 +529,7 @@ export class AmiFromInstance extends cdktn.TerraformResource {
   }
 
   // deprecation_time - computed: false, optional: true, required: false
-  private _deprecationTime?: string;
+  private _deprecationTime?: string; 
   public get deprecationTime() {
     return this.getStringAttribute('deprecation_time');
   }
@@ -545,7 +545,7 @@ export class AmiFromInstance extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -571,7 +571,7 @@ export class AmiFromInstance extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -622,7 +622,7 @@ export class AmiFromInstance extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -660,7 +660,7 @@ export class AmiFromInstance extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -686,7 +686,7 @@ export class AmiFromInstance extends cdktn.TerraformResource {
   }
 
   // snapshot_without_reboot - computed: false, optional: true, required: false
-  private _snapshotWithoutReboot?: boolean | cdktn.IResolvable;
+  private _snapshotWithoutReboot?: boolean | cdktn.IResolvable; 
   public get snapshotWithoutReboot() {
     return this.getBooleanAttribute('snapshot_without_reboot');
   }
@@ -702,7 +702,7 @@ export class AmiFromInstance extends cdktn.TerraformResource {
   }
 
   // source_instance_id - computed: false, optional: false, required: true
-  private _sourceInstanceId?: string;
+  private _sourceInstanceId?: string; 
   public get sourceInstanceId() {
     return this.getStringAttribute('source_instance_id');
   }
@@ -720,7 +720,7 @@ export class AmiFromInstance extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -736,7 +736,7 @@ export class AmiFromInstance extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

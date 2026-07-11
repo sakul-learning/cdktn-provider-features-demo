@@ -112,7 +112,7 @@ export class S3ControlStorageLensConfigurationStorageLensConfigurationAccountLev
   }
 
   // enabled - computed: false, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -196,7 +196,7 @@ export class S3ControlStorageLensConfigurationStorageLensConfigurationAccountLev
   }
 
   // enabled - computed: false, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -280,7 +280,7 @@ export class S3ControlStorageLensConfigurationStorageLensConfigurationAccountLev
   }
 
   // enabled - computed: false, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -364,7 +364,7 @@ export class S3ControlStorageLensConfigurationStorageLensConfigurationAccountLev
   }
 
   // enabled - computed: false, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -448,7 +448,7 @@ export class S3ControlStorageLensConfigurationStorageLensConfigurationAccountLev
   }
 
   // enabled - computed: false, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -532,7 +532,7 @@ export class S3ControlStorageLensConfigurationStorageLensConfigurationAccountLev
   }
 
   // enabled - computed: false, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -616,7 +616,7 @@ export class S3ControlStorageLensConfigurationStorageLensConfigurationAccountLev
   }
 
   // enabled - computed: false, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -700,7 +700,7 @@ export class S3ControlStorageLensConfigurationStorageLensConfigurationAccountLev
   }
 
   // enabled - computed: false, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -784,7 +784,7 @@ export class S3ControlStorageLensConfigurationStorageLensConfigurationAccountLev
   }
 
   // enabled - computed: false, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -902,7 +902,7 @@ export class S3ControlStorageLensConfigurationStorageLensConfigurationAccountLev
   }
 
   // delimiter - computed: false, optional: true, required: false
-  private _delimiter?: string;
+  private _delimiter?: string; 
   public get delimiter() {
     return this.getStringAttribute('delimiter');
   }
@@ -918,7 +918,7 @@ export class S3ControlStorageLensConfigurationStorageLensConfigurationAccountLev
   }
 
   // max_depth - computed: false, optional: true, required: false
-  private _maxDepth?: number;
+  private _maxDepth?: number; 
   public get maxDepth() {
     return this.getNumberAttribute('max_depth');
   }
@@ -934,7 +934,7 @@ export class S3ControlStorageLensConfigurationStorageLensConfigurationAccountLev
   }
 
   // min_storage_bytes_percentage - computed: false, optional: true, required: false
-  private _minStorageBytesPercentage?: number;
+  private _minStorageBytesPercentage?: number; 
   public get minStorageBytesPercentage() {
     return this.getNumberAttribute('min_storage_bytes_percentage');
   }
@@ -1037,7 +1037,7 @@ export class S3ControlStorageLensConfigurationStorageLensConfigurationAccountLev
   }
 
   // enabled - computed: false, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -1481,7 +1481,7 @@ export class S3ControlStorageLensConfigurationStorageLensConfigurationAccountLev
   }
 
   // enabled - computed: false, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -1823,7 +1823,7 @@ export class S3ControlStorageLensConfigurationStorageLensConfigurationAwsOrgOutp
   }
 
   // arn - computed: false, optional: false, required: true
-  private _arn?: string;
+  private _arn?: string; 
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -1904,7 +1904,7 @@ export class S3ControlStorageLensConfigurationStorageLensConfigurationDataExport
   }
 
   // enabled - computed: false, optional: false, required: true
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -1985,7 +1985,7 @@ export class S3ControlStorageLensConfigurationStorageLensConfigurationDataExport
   }
 
   // key_id - computed: false, optional: false, required: true
-  private _keyId?: string;
+  private _keyId?: string; 
   public get keyId() {
     return this.getStringAttribute('key_id');
   }
@@ -2355,7 +2355,7 @@ export class S3ControlStorageLensConfigurationStorageLensConfigurationDataExport
   }
 
   // account_id - computed: false, optional: false, required: true
-  private _accountId?: string;
+  private _accountId?: string; 
   public get accountId() {
     return this.getStringAttribute('account_id');
   }
@@ -2368,7 +2368,7 @@ export class S3ControlStorageLensConfigurationStorageLensConfigurationDataExport
   }
 
   // arn - computed: false, optional: false, required: true
-  private _arn?: string;
+  private _arn?: string; 
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -2381,7 +2381,7 @@ export class S3ControlStorageLensConfigurationStorageLensConfigurationDataExport
   }
 
   // format - computed: false, optional: false, required: true
-  private _format?: string;
+  private _format?: string; 
   public get format() {
     return this.getStringAttribute('format');
   }
@@ -2394,7 +2394,7 @@ export class S3ControlStorageLensConfigurationStorageLensConfigurationDataExport
   }
 
   // output_schema_version - computed: false, optional: false, required: true
-  private _outputSchemaVersion?: string;
+  private _outputSchemaVersion?: string; 
   public get outputSchemaVersion() {
     return this.getStringAttribute('output_schema_version');
   }
@@ -2407,7 +2407,7 @@ export class S3ControlStorageLensConfigurationStorageLensConfigurationDataExport
   }
 
   // prefix - computed: false, optional: true, required: false
-  private _prefix?: string;
+  private _prefix?: string; 
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -2507,7 +2507,7 @@ export class S3ControlStorageLensConfigurationStorageLensConfigurationDataExport
   }
 
   // key_id - computed: false, optional: false, required: true
-  private _keyId?: string;
+  private _keyId?: string; 
   public get keyId() {
     return this.getStringAttribute('key_id');
   }
@@ -2809,7 +2809,7 @@ export class S3ControlStorageLensConfigurationStorageLensConfigurationDataExport
   }
 
   // enabled - computed: false, optional: false, required: true
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -3079,7 +3079,7 @@ export class S3ControlStorageLensConfigurationStorageLensConfigurationExcludeOut
   }
 
   // buckets - computed: false, optional: true, required: false
-  private _buckets?: string[];
+  private _buckets?: string[]; 
   public get buckets() {
     return cdktn.Fn.tolist(this.getListAttribute('buckets'));
   }
@@ -3095,7 +3095,7 @@ export class S3ControlStorageLensConfigurationStorageLensConfigurationExcludeOut
   }
 
   // regions - computed: false, optional: true, required: false
-  private _regions?: string[];
+  private _regions?: string[]; 
   public get regions() {
     return cdktn.Fn.tolist(this.getListAttribute('regions'));
   }
@@ -3179,7 +3179,7 @@ export class S3ControlStorageLensConfigurationStorageLensConfigurationExpandedPr
   }
 
   // key_id - computed: false, optional: false, required: true
-  private _keyId?: string;
+  private _keyId?: string; 
   public get keyId() {
     return this.getStringAttribute('key_id');
   }
@@ -3549,7 +3549,7 @@ export class S3ControlStorageLensConfigurationStorageLensConfigurationExpandedPr
   }
 
   // account_id - computed: false, optional: false, required: true
-  private _accountId?: string;
+  private _accountId?: string; 
   public get accountId() {
     return this.getStringAttribute('account_id');
   }
@@ -3562,7 +3562,7 @@ export class S3ControlStorageLensConfigurationStorageLensConfigurationExpandedPr
   }
 
   // arn - computed: false, optional: false, required: true
-  private _arn?: string;
+  private _arn?: string; 
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -3575,7 +3575,7 @@ export class S3ControlStorageLensConfigurationStorageLensConfigurationExpandedPr
   }
 
   // format - computed: false, optional: false, required: true
-  private _format?: string;
+  private _format?: string; 
   public get format() {
     return this.getStringAttribute('format');
   }
@@ -3588,7 +3588,7 @@ export class S3ControlStorageLensConfigurationStorageLensConfigurationExpandedPr
   }
 
   // output_schema_version - computed: false, optional: false, required: true
-  private _outputSchemaVersion?: string;
+  private _outputSchemaVersion?: string; 
   public get outputSchemaVersion() {
     return this.getStringAttribute('output_schema_version');
   }
@@ -3601,7 +3601,7 @@ export class S3ControlStorageLensConfigurationStorageLensConfigurationExpandedPr
   }
 
   // prefix - computed: false, optional: true, required: false
-  private _prefix?: string;
+  private _prefix?: string; 
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -3701,7 +3701,7 @@ export class S3ControlStorageLensConfigurationStorageLensConfigurationExpandedPr
   }
 
   // key_id - computed: false, optional: false, required: true
-  private _keyId?: string;
+  private _keyId?: string; 
   public get keyId() {
     return this.getStringAttribute('key_id');
   }
@@ -4003,7 +4003,7 @@ export class S3ControlStorageLensConfigurationStorageLensConfigurationExpandedPr
   }
 
   // enabled - computed: false, optional: false, required: true
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -4238,7 +4238,7 @@ export class S3ControlStorageLensConfigurationStorageLensConfigurationIncludeOut
   }
 
   // buckets - computed: false, optional: true, required: false
-  private _buckets?: string[];
+  private _buckets?: string[]; 
   public get buckets() {
     return cdktn.Fn.tolist(this.getListAttribute('buckets'));
   }
@@ -4254,7 +4254,7 @@ export class S3ControlStorageLensConfigurationStorageLensConfigurationIncludeOut
   }
 
   // regions - computed: false, optional: true, required: false
-  private _regions?: string[];
+  private _regions?: string[]; 
   public get regions() {
     return cdktn.Fn.tolist(this.getListAttribute('regions'));
   }
@@ -4469,7 +4469,7 @@ export class S3ControlStorageLensConfigurationStorageLensConfigurationOutputRefe
   }
 
   // enabled - computed: false, optional: false, required: true
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -4482,7 +4482,7 @@ export class S3ControlStorageLensConfigurationStorageLensConfigurationOutputRefe
   }
 
   // prefix_delimiter - computed: false, optional: true, required: false
-  private _prefixDelimiter?: string;
+  private _prefixDelimiter?: string; 
   public get prefixDelimiter() {
     return this.getStringAttribute('prefix_delimiter');
   }
@@ -4655,7 +4655,7 @@ export class S3ControlStorageLensConfiguration extends cdktn.TerraformResource {
   // ==========
 
   // account_id - computed: true, optional: true, required: false
-  private _accountId?: string;
+  private _accountId?: string; 
   public get accountId() {
     return this.getStringAttribute('account_id');
   }
@@ -4676,7 +4676,7 @@ export class S3ControlStorageLensConfiguration extends cdktn.TerraformResource {
   }
 
   // config_id - computed: false, optional: false, required: true
-  private _configId?: string;
+  private _configId?: string; 
   public get configId() {
     return this.getStringAttribute('config_id');
   }
@@ -4689,7 +4689,7 @@ export class S3ControlStorageLensConfiguration extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -4705,7 +4705,7 @@ export class S3ControlStorageLensConfiguration extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -4721,7 +4721,7 @@ export class S3ControlStorageLensConfiguration extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -4737,7 +4737,7 @@ export class S3ControlStorageLensConfiguration extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

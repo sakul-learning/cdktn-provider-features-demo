@@ -145,7 +145,7 @@ export class SagemakerDeviceDeviceOutputReference extends cdktn.ComplexObject {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -161,7 +161,7 @@ export class SagemakerDeviceDeviceOutputReference extends cdktn.ComplexObject {
   }
 
   // device_name - computed: true, optional: true, required: false
-  private _deviceName?: string;
+  private _deviceName?: string; 
   public get deviceName() {
     return this.getStringAttribute('device_name');
   }
@@ -177,7 +177,7 @@ export class SagemakerDeviceDeviceOutputReference extends cdktn.ComplexObject {
   }
 
   // iot_thing_name - computed: true, optional: true, required: false
-  private _iotThingName?: string;
+  private _iotThingName?: string; 
   public get iotThingName() {
     return this.getStringAttribute('iot_thing_name');
   }
@@ -194,13 +194,13 @@ export class SagemakerDeviceDeviceOutputReference extends cdktn.ComplexObject {
 }
 export interface SagemakerDeviceTags {
   /**
-  * The key name of the tag. You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
+  * The key name of the tag. You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_device#key SagemakerDevice#key}
   */
   readonly key?: string;
   /**
-  * The key value of the tag. You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
+  * The key value of the tag. You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_device#value SagemakerDevice#value}
   */
@@ -294,7 +294,7 @@ export class SagemakerDeviceTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -310,7 +310,7 @@ export class SagemakerDeviceTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -422,7 +422,7 @@ export class SagemakerDevice extends cdktn.TerraformResource {
   }
 
   // device_fleet_name - computed: false, optional: false, required: true
-  private _deviceFleetName?: string;
+  private _deviceFleetName?: string; 
   public get deviceFleetName() {
     return this.getStringAttribute('device_fleet_name');
   }

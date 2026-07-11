@@ -111,7 +111,7 @@ export class WafByteMatchSetByteMatchTuplesFieldToMatchOutputReference extends c
   }
 
   // data - computed: false, optional: true, required: false
-  private _data?: string;
+  private _data?: string; 
   public get data() {
     return this.getStringAttribute('data');
   }
@@ -127,7 +127,7 @@ export class WafByteMatchSetByteMatchTuplesFieldToMatchOutputReference extends c
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -273,7 +273,7 @@ export class WafByteMatchSetByteMatchTuplesOutputReference extends cdktn.Complex
   }
 
   // positional_constraint - computed: false, optional: false, required: true
-  private _positionalConstraint?: string;
+  private _positionalConstraint?: string; 
   public get positionalConstraint() {
     return this.getStringAttribute('positional_constraint');
   }
@@ -286,7 +286,7 @@ export class WafByteMatchSetByteMatchTuplesOutputReference extends cdktn.Complex
   }
 
   // target_string - computed: false, optional: true, required: false
-  private _targetString?: string;
+  private _targetString?: string; 
   public get targetString() {
     return this.getStringAttribute('target_string');
   }
@@ -302,7 +302,7 @@ export class WafByteMatchSetByteMatchTuplesOutputReference extends cdktn.Complex
   }
 
   // text_transformation - computed: false, optional: false, required: true
-  private _textTransformation?: string;
+  private _textTransformation?: string; 
   public get textTransformation() {
     return this.getStringAttribute('text_transformation');
   }
@@ -413,7 +413,7 @@ export class WafByteMatchSet extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -429,7 +429,7 @@ export class WafByteMatchSet extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }

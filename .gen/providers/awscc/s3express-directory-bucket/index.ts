@@ -152,7 +152,7 @@ export class S3ExpressDirectoryBucketBucketEncryptionServerSideEncryptionConfigu
   }
 
   // kms_master_key_id - computed: true, optional: true, required: false
-  private _kmsMasterKeyId?: string;
+  private _kmsMasterKeyId?: string; 
   public get kmsMasterKeyId() {
     return this.getStringAttribute('kms_master_key_id');
   }
@@ -168,7 +168,7 @@ export class S3ExpressDirectoryBucketBucketEncryptionServerSideEncryptionConfigu
   }
 
   // sse_algorithm - computed: true, optional: true, required: false
-  private _sseAlgorithm?: string;
+  private _sseAlgorithm?: string; 
   public get sseAlgorithm() {
     return this.getStringAttribute('sse_algorithm');
   }
@@ -285,7 +285,7 @@ export class S3ExpressDirectoryBucketBucketEncryptionServerSideEncryptionConfigu
   }
 
   // bucket_key_enabled - computed: true, optional: true, required: false
-  private _bucketKeyEnabled?: boolean | cdktn.IResolvable;
+  private _bucketKeyEnabled?: boolean | cdktn.IResolvable; 
   public get bucketKeyEnabled() {
     return this.getBooleanAttribute('bucket_key_enabled');
   }
@@ -434,7 +434,7 @@ export class S3ExpressDirectoryBucketBucketEncryptionOutputReference extends cdk
 }
 export interface S3ExpressDirectoryBucketInventoryConfigurationsDestination {
   /**
-  * The account ID that owns the destination S3 bucket.
+  * The account ID that owns the destination S3 bucket. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3express_directory_bucket#bucket_account_id S3ExpressDirectoryBucket#bucket_account_id}
   */
@@ -570,7 +570,7 @@ export class S3ExpressDirectoryBucketInventoryConfigurationsDestinationOutputRef
   }
 
   // bucket_account_id - computed: true, optional: true, required: false
-  private _bucketAccountId?: string;
+  private _bucketAccountId?: string; 
   public get bucketAccountId() {
     return this.getStringAttribute('bucket_account_id');
   }
@@ -586,7 +586,7 @@ export class S3ExpressDirectoryBucketInventoryConfigurationsDestinationOutputRef
   }
 
   // bucket_arn - computed: true, optional: true, required: false
-  private _bucketArn?: string;
+  private _bucketArn?: string; 
   public get bucketArn() {
     return this.getStringAttribute('bucket_arn');
   }
@@ -602,7 +602,7 @@ export class S3ExpressDirectoryBucketInventoryConfigurationsDestinationOutputRef
   }
 
   // format - computed: true, optional: true, required: false
-  private _format?: string;
+  private _format?: string; 
   public get format() {
     return this.getStringAttribute('format');
   }
@@ -618,7 +618,7 @@ export class S3ExpressDirectoryBucketInventoryConfigurationsDestinationOutputRef
   }
 
   // prefix - computed: true, optional: true, required: false
-  private _prefix?: string;
+  private _prefix?: string; 
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -849,7 +849,7 @@ export class S3ExpressDirectoryBucketInventoryConfigurationsOutputReference exte
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -865,7 +865,7 @@ export class S3ExpressDirectoryBucketInventoryConfigurationsOutputReference exte
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -881,7 +881,7 @@ export class S3ExpressDirectoryBucketInventoryConfigurationsOutputReference exte
   }
 
   // included_object_versions - computed: true, optional: true, required: false
-  private _includedObjectVersions?: string;
+  private _includedObjectVersions?: string; 
   public get includedObjectVersions() {
     return this.getStringAttribute('included_object_versions');
   }
@@ -897,7 +897,7 @@ export class S3ExpressDirectoryBucketInventoryConfigurationsOutputReference exte
   }
 
   // optional_fields - computed: true, optional: true, required: false
-  private _optionalFields?: string[];
+  private _optionalFields?: string[]; 
   public get optionalFields() {
     return this.getListAttribute('optional_fields');
   }
@@ -913,7 +913,7 @@ export class S3ExpressDirectoryBucketInventoryConfigurationsOutputReference exte
   }
 
   // prefix - computed: true, optional: true, required: false
-  private _prefix?: string;
+  private _prefix?: string; 
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -929,7 +929,7 @@ export class S3ExpressDirectoryBucketInventoryConfigurationsOutputReference exte
   }
 
   // schedule_frequency - computed: true, optional: true, required: false
-  private _scheduleFrequency?: string;
+  private _scheduleFrequency?: string; 
   public get scheduleFrequency() {
     return this.getStringAttribute('schedule_frequency');
   }
@@ -1045,7 +1045,7 @@ export class S3ExpressDirectoryBucketLifecycleConfigurationRulesAbortIncompleteM
   }
 
   // days_after_initiation - computed: true, optional: true, required: false
-  private _daysAfterInitiation?: number;
+  private _daysAfterInitiation?: number; 
   public get daysAfterInitiation() {
     return this.getNumberAttribute('days_after_initiation');
   }
@@ -1264,7 +1264,7 @@ export class S3ExpressDirectoryBucketLifecycleConfigurationRulesOutputReference 
   }
 
   // expiration_in_days - computed: true, optional: true, required: false
-  private _expirationInDays?: number;
+  private _expirationInDays?: number; 
   public get expirationInDays() {
     return this.getNumberAttribute('expiration_in_days');
   }
@@ -1280,7 +1280,7 @@ export class S3ExpressDirectoryBucketLifecycleConfigurationRulesOutputReference 
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -1296,7 +1296,7 @@ export class S3ExpressDirectoryBucketLifecycleConfigurationRulesOutputReference 
   }
 
   // object_size_greater_than - computed: true, optional: true, required: false
-  private _objectSizeGreaterThan?: string;
+  private _objectSizeGreaterThan?: string; 
   public get objectSizeGreaterThan() {
     return this.getStringAttribute('object_size_greater_than');
   }
@@ -1312,7 +1312,7 @@ export class S3ExpressDirectoryBucketLifecycleConfigurationRulesOutputReference 
   }
 
   // object_size_less_than - computed: true, optional: true, required: false
-  private _objectSizeLessThan?: string;
+  private _objectSizeLessThan?: string; 
   public get objectSizeLessThan() {
     return this.getStringAttribute('object_size_less_than');
   }
@@ -1328,7 +1328,7 @@ export class S3ExpressDirectoryBucketLifecycleConfigurationRulesOutputReference 
   }
 
   // prefix - computed: true, optional: true, required: false
-  private _prefix?: string;
+  private _prefix?: string; 
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -1344,7 +1344,7 @@ export class S3ExpressDirectoryBucketLifecycleConfigurationRulesOutputReference 
   }
 
   // status - computed: true, optional: true, required: false
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -1599,7 +1599,7 @@ export class S3ExpressDirectoryBucketMetricsConfigurationsOutputReference extend
   }
 
   // access_point_arn - computed: true, optional: true, required: false
-  private _accessPointArn?: string;
+  private _accessPointArn?: string; 
   public get accessPointArn() {
     return this.getStringAttribute('access_point_arn');
   }
@@ -1615,7 +1615,7 @@ export class S3ExpressDirectoryBucketMetricsConfigurationsOutputReference extend
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -1631,7 +1631,7 @@ export class S3ExpressDirectoryBucketMetricsConfigurationsOutputReference extend
   }
 
   // prefix - computed: true, optional: true, required: false
-  private _prefix?: string;
+  private _prefix?: string; 
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -1764,7 +1764,7 @@ export class S3ExpressDirectoryBucketTagsOutputReference extends cdktn.ComplexOb
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1780,7 +1780,7 @@ export class S3ExpressDirectoryBucketTagsOutputReference extends cdktn.ComplexOb
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1907,7 +1907,7 @@ export class S3ExpressDirectoryBucket extends cdktn.TerraformResource {
   }
 
   // bucket_name - computed: true, optional: true, required: false
-  private _bucketName?: string;
+  private _bucketName?: string; 
   public get bucketName() {
     return this.getStringAttribute('bucket_name');
   }
@@ -1923,7 +1923,7 @@ export class S3ExpressDirectoryBucket extends cdktn.TerraformResource {
   }
 
   // data_redundancy - computed: false, optional: false, required: true
-  private _dataRedundancy?: string;
+  private _dataRedundancy?: string; 
   public get dataRedundancy() {
     return this.getStringAttribute('data_redundancy');
   }
@@ -1973,7 +1973,7 @@ export class S3ExpressDirectoryBucket extends cdktn.TerraformResource {
   }
 
   // location_name - computed: false, optional: false, required: true
-  private _locationName?: string;
+  private _locationName?: string; 
   public get locationName() {
     return this.getStringAttribute('location_name');
   }

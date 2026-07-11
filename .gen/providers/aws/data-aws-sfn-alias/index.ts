@@ -186,7 +186,7 @@ export class DataAwsSfnAlias extends cdktn.TerraformDataSource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -202,7 +202,7 @@ export class DataAwsSfnAlias extends cdktn.TerraformDataSource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -218,7 +218,7 @@ export class DataAwsSfnAlias extends cdktn.TerraformDataSource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -231,7 +231,7 @@ export class DataAwsSfnAlias extends cdktn.TerraformDataSource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -253,7 +253,7 @@ export class DataAwsSfnAlias extends cdktn.TerraformDataSource {
   }
 
   // statemachine_arn - computed: false, optional: false, required: true
-  private _statemachineArn?: string;
+  private _statemachineArn?: string; 
   public get statemachineArn() {
     return this.getStringAttribute('statemachine_arn');
   }

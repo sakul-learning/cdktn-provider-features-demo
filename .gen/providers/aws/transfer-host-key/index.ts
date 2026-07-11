@@ -104,7 +104,7 @@ export class TransferHostKey extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -120,7 +120,7 @@ export class TransferHostKey extends cdktn.TerraformResource {
   }
 
   // host_key_body - computed: false, optional: true, required: false
-  private _hostKeyBody?: string;
+  private _hostKeyBody?: string; 
   public get hostKeyBody() {
     return this.getStringAttribute('host_key_body');
   }
@@ -136,7 +136,7 @@ export class TransferHostKey extends cdktn.TerraformResource {
   }
 
   // host_key_body_wo - computed: false, optional: true, required: false
-  private _hostKeyBodyWo?: string;
+  private _hostKeyBodyWo?: string; 
   /**
   * @deprecated Write-only: the provider never returns this value; reading it always yields null by protocol contract. The getter remains for compatibility and will be removed in a future prebuilt-provider major.
   */
@@ -166,7 +166,7 @@ export class TransferHostKey extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -182,7 +182,7 @@ export class TransferHostKey extends cdktn.TerraformResource {
   }
 
   // server_id - computed: false, optional: false, required: true
-  private _serverId?: string;
+  private _serverId?: string; 
   public get serverId() {
     return this.getStringAttribute('server_id');
   }
@@ -195,7 +195,7 @@ export class TransferHostKey extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

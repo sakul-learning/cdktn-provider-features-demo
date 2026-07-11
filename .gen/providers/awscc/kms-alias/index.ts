@@ -8,7 +8,7 @@ import * as cdktn from 'cdktn';
 
 export interface KmsAliasConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Specifies the alias name. This value must begin with ``alias/`` followed by a name, such as ``alias/ExampleAlias``.
+  * Specifies the alias name. This value must begin with ``alias/`` followed by a name, such as ``alias/ExampleAlias``. 
   *   If you change the value of the ``AliasName`` property, the existing alias is deleted and a new alias is created for the specified KMS key. This change can disrupt applications that use the alias. It can also allow or deny access to a KMS key affected by attribute-based access control (ABAC).
   *   The alias must be string of 1-256 characters. It can contain only alphanumeric characters, forward slashes (/), underscores (_), and dashes (-). The alias name cannot begin with ``alias/aws/``. The ``alias/aws/`` prefix is reserved for [](https://docs.aws.amazon.com/kms/latest/developerguide/concepts.html#aws-managed-cmk).
   *
@@ -23,7 +23,7 @@ export interface KmsAliasConfig extends cdktn.TerraformMetaArguments {
   *  For example:
   *   +  Key ID: ``1234abcd-12ab-34cd-56ef-1234567890ab``
   *   +  Key ARN: ``arn:aws:kms:us-east-2:111122223333:key/1234abcd-12ab-34cd-56ef-1234567890ab``
-  *
+  *   
   *  To get the key ID and key ARN for a KMS key, use [ListKeys](https://docs.aws.amazon.com/kms/latest/APIReference/API_ListKeys.html) or [DescribeKey](https://docs.aws.amazon.com/kms/latest/APIReference/API_DescribeKey.html).
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kms_alias#target_key_id KmsAlias#target_key_id}
@@ -90,7 +90,7 @@ export class KmsAlias extends cdktn.TerraformResource {
   // ==========
 
   // alias_name - computed: false, optional: false, required: true
-  private _aliasName?: string;
+  private _aliasName?: string; 
   public get aliasName() {
     return this.getStringAttribute('alias_name');
   }
@@ -108,7 +108,7 @@ export class KmsAlias extends cdktn.TerraformResource {
   }
 
   // target_key_id - computed: false, optional: false, required: true
-  private _targetKeyId?: string;
+  private _targetKeyId?: string; 
   public get targetKeyId() {
     return this.getStringAttribute('target_key_id');
   }

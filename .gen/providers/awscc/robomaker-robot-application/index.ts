@@ -144,7 +144,7 @@ export class RobomakerRobotApplicationRobotSoftwareSuiteOutputReference extends 
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -157,7 +157,7 @@ export class RobomakerRobotApplicationRobotSoftwareSuiteOutputReference extends 
   }
 
   // version - computed: true, optional: true, required: false
-  private _version?: string;
+  private _version?: string; 
   public get version() {
     return this.getStringAttribute('version');
   }
@@ -293,7 +293,7 @@ export class RobomakerRobotApplicationSourcesOutputReference extends cdktn.Compl
   }
 
   // architecture - computed: true, optional: true, required: false
-  private _architecture?: string;
+  private _architecture?: string; 
   public get architecture() {
     return this.getStringAttribute('architecture');
   }
@@ -309,7 +309,7 @@ export class RobomakerRobotApplicationSourcesOutputReference extends cdktn.Compl
   }
 
   // s3_bucket - computed: true, optional: true, required: false
-  private _s3Bucket?: string;
+  private _s3Bucket?: string; 
   public get s3Bucket() {
     return this.getStringAttribute('s3_bucket');
   }
@@ -325,7 +325,7 @@ export class RobomakerRobotApplicationSourcesOutputReference extends cdktn.Compl
   }
 
   // s3_key - computed: true, optional: true, required: false
-  private _s3Key?: string;
+  private _s3Key?: string; 
   public get s3Key() {
     return this.getStringAttribute('s3_key');
   }
@@ -429,7 +429,7 @@ export class RobomakerRobotApplication extends cdktn.TerraformResource {
   }
 
   // current_revision_id - computed: true, optional: true, required: false
-  private _currentRevisionId?: string;
+  private _currentRevisionId?: string; 
   public get currentRevisionId() {
     return this.getStringAttribute('current_revision_id');
   }
@@ -445,7 +445,7 @@ export class RobomakerRobotApplication extends cdktn.TerraformResource {
   }
 
   // environment - computed: true, optional: true, required: false
-  private _environment?: string;
+  private _environment?: string; 
   public get environment() {
     return this.getStringAttribute('environment');
   }
@@ -466,7 +466,7 @@ export class RobomakerRobotApplication extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -511,7 +511,7 @@ export class RobomakerRobotApplication extends cdktn.TerraformResource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

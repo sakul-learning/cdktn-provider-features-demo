@@ -84,7 +84,7 @@ export class Route53DelegationSet extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -105,7 +105,7 @@ export class Route53DelegationSet extends cdktn.TerraformResource {
   }
 
   // reference_name - computed: false, optional: true, required: false
-  private _referenceName?: string;
+  private _referenceName?: string; 
   public get referenceName() {
     return this.getStringAttribute('reference_name');
   }

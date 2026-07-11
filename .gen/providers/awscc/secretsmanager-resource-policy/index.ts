@@ -87,7 +87,7 @@ export class SecretsmanagerResourcePolicy extends cdktn.TerraformResource {
   // ==========
 
   // block_public_policy - computed: true, optional: true, required: false
-  private _blockPublicPolicy?: boolean | cdktn.IResolvable;
+  private _blockPublicPolicy?: boolean | cdktn.IResolvable; 
   public get blockPublicPolicy() {
     return this.getBooleanAttribute('block_public_policy');
   }
@@ -108,7 +108,7 @@ export class SecretsmanagerResourcePolicy extends cdktn.TerraformResource {
   }
 
   // resource_policy - computed: false, optional: false, required: true
-  private _resourcePolicy?: string;
+  private _resourcePolicy?: string; 
   public get resourcePolicy() {
     return this.getStringAttribute('resource_policy');
   }
@@ -126,7 +126,7 @@ export class SecretsmanagerResourcePolicy extends cdktn.TerraformResource {
   }
 
   // secret_id - computed: false, optional: false, required: true
-  private _secretId?: string;
+  private _secretId?: string; 
   public get secretId() {
     return this.getStringAttribute('secret_id');
   }

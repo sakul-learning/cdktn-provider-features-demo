@@ -84,7 +84,7 @@ export class IamUserPolicyAttachment extends cdktn.TerraformResource {
   // ==========
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -100,7 +100,7 @@ export class IamUserPolicyAttachment extends cdktn.TerraformResource {
   }
 
   // policy_arn - computed: false, optional: false, required: true
-  private _policyArn?: string;
+  private _policyArn?: string; 
   public get policyArn() {
     return this.getStringAttribute('policy_arn');
   }
@@ -113,7 +113,7 @@ export class IamUserPolicyAttachment extends cdktn.TerraformResource {
   }
 
   // user - computed: false, optional: false, required: true
-  private _user?: string;
+  private _user?: string; 
   public get user() {
     return this.getStringAttribute('user');
   }

@@ -148,7 +148,7 @@ export class Inspector2EnablerTimeoutsOutputReference extends cdktn.ComplexObjec
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -164,7 +164,7 @@ export class Inspector2EnablerTimeoutsOutputReference extends cdktn.ComplexObjec
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -180,7 +180,7 @@ export class Inspector2EnablerTimeoutsOutputReference extends cdktn.ComplexObjec
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -258,7 +258,7 @@ export class Inspector2Enabler extends cdktn.TerraformResource {
   // ==========
 
   // account_ids - computed: false, optional: false, required: true
-  private _accountIds?: string[];
+  private _accountIds?: string[]; 
   public get accountIds() {
     return cdktn.Fn.tolist(this.getListAttribute('account_ids'));
   }
@@ -271,7 +271,7 @@ export class Inspector2Enabler extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -287,7 +287,7 @@ export class Inspector2Enabler extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -303,7 +303,7 @@ export class Inspector2Enabler extends cdktn.TerraformResource {
   }
 
   // resource_types - computed: false, optional: false, required: true
-  private _resourceTypes?: string[];
+  private _resourceTypes?: string[]; 
   public get resourceTypes() {
     return cdktn.Fn.tolist(this.getListAttribute('resource_types'));
   }

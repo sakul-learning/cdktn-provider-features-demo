@@ -196,7 +196,7 @@ export class CustomerprofilesEventTriggerEventTriggerConditionsEventTriggerDimen
   }
 
   // comparison_operator - computed: false, optional: false, required: true
-  private _comparisonOperator?: string;
+  private _comparisonOperator?: string; 
   public get comparisonOperator() {
     return this.getStringAttribute('comparison_operator');
   }
@@ -209,7 +209,7 @@ export class CustomerprofilesEventTriggerEventTriggerConditionsEventTriggerDimen
   }
 
   // field_name - computed: true, optional: true, required: false
-  private _fieldName?: string;
+  private _fieldName?: string; 
   public get fieldName() {
     return this.getStringAttribute('field_name');
   }
@@ -225,7 +225,7 @@ export class CustomerprofilesEventTriggerEventTriggerConditionsEventTriggerDimen
   }
 
   // source - computed: true, optional: true, required: false
-  private _source?: string;
+  private _source?: string; 
   public get source() {
     return this.getStringAttribute('source');
   }
@@ -241,7 +241,7 @@ export class CustomerprofilesEventTriggerEventTriggerConditionsEventTriggerDimen
   }
 
   // values - computed: false, optional: false, required: true
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -503,7 +503,7 @@ export class CustomerprofilesEventTriggerEventTriggerConditionsOutputReference e
   }
 
   // logical_operator - computed: false, optional: false, required: true
-  private _logicalOperator?: string;
+  private _logicalOperator?: string; 
   public get logicalOperator() {
     return this.getStringAttribute('logical_operator');
   }
@@ -675,7 +675,7 @@ export class CustomerprofilesEventTriggerEventTriggerLimitsPeriodsOutputReferenc
   }
 
   // max_invocations_per_profile - computed: true, optional: true, required: false
-  private _maxInvocationsPerProfile?: number;
+  private _maxInvocationsPerProfile?: number; 
   public get maxInvocationsPerProfile() {
     return this.getNumberAttribute('max_invocations_per_profile');
   }
@@ -691,7 +691,7 @@ export class CustomerprofilesEventTriggerEventTriggerLimitsPeriodsOutputReferenc
   }
 
   // unit - computed: true, optional: true, required: false
-  private _unit?: string;
+  private _unit?: string; 
   public get unit() {
     return this.getStringAttribute('unit');
   }
@@ -707,7 +707,7 @@ export class CustomerprofilesEventTriggerEventTriggerLimitsPeriodsOutputReferenc
   }
 
   // unlimited - computed: true, optional: true, required: false
-  private _unlimited?: boolean | cdktn.IResolvable;
+  private _unlimited?: boolean | cdktn.IResolvable; 
   public get unlimited() {
     return this.getBooleanAttribute('unlimited');
   }
@@ -723,7 +723,7 @@ export class CustomerprofilesEventTriggerEventTriggerLimitsPeriodsOutputReferenc
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: number;
+  private _value?: number; 
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -858,7 +858,7 @@ export class CustomerprofilesEventTriggerEventTriggerLimitsOutputReference exten
   }
 
   // event_expiration - computed: true, optional: true, required: false
-  private _eventExpiration?: number;
+  private _eventExpiration?: number; 
   public get eventExpiration() {
     return this.getNumberAttribute('event_expiration');
   }
@@ -991,7 +991,7 @@ export class CustomerprofilesEventTriggerTagsOutputReference extends cdktn.Compl
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1007,7 +1007,7 @@ export class CustomerprofilesEventTriggerTagsOutputReference extends cdktn.Compl
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1113,7 +1113,7 @@ export class CustomerprofilesEventTrigger extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1129,7 +1129,7 @@ export class CustomerprofilesEventTrigger extends cdktn.TerraformResource {
   }
 
   // domain_name - computed: false, optional: false, required: true
-  private _domainName?: string;
+  private _domainName?: string; 
   public get domainName() {
     return this.getStringAttribute('domain_name');
   }
@@ -1171,7 +1171,7 @@ export class CustomerprofilesEventTrigger extends cdktn.TerraformResource {
   }
 
   // event_trigger_name - computed: false, optional: false, required: true
-  private _eventTriggerName?: string;
+  private _eventTriggerName?: string; 
   public get eventTriggerName() {
     return this.getStringAttribute('event_trigger_name');
   }
@@ -1194,7 +1194,7 @@ export class CustomerprofilesEventTrigger extends cdktn.TerraformResource {
   }
 
   // object_type_name - computed: false, optional: false, required: true
-  private _objectTypeName?: string;
+  private _objectTypeName?: string; 
   public get objectTypeName() {
     return this.getStringAttribute('object_type_name');
   }
@@ -1207,7 +1207,7 @@ export class CustomerprofilesEventTrigger extends cdktn.TerraformResource {
   }
 
   // segment_filter - computed: true, optional: true, required: false
-  private _segmentFilter?: string;
+  private _segmentFilter?: string; 
   public get segmentFilter() {
     return this.getStringAttribute('segment_filter');
   }

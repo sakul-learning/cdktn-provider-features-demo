@@ -162,7 +162,7 @@ export class LookoutequipmentInferenceSchedulerDataInputConfigurationInferenceIn
   }
 
   // component_timestamp_delimiter - computed: true, optional: true, required: false
-  private _componentTimestampDelimiter?: string;
+  private _componentTimestampDelimiter?: string; 
   public get componentTimestampDelimiter() {
     return this.getStringAttribute('component_timestamp_delimiter');
   }
@@ -178,7 +178,7 @@ export class LookoutequipmentInferenceSchedulerDataInputConfigurationInferenceIn
   }
 
   // timestamp_format - computed: true, optional: true, required: false
-  private _timestampFormat?: string;
+  private _timestampFormat?: string; 
   public get timestampFormat() {
     return this.getStringAttribute('timestamp_format');
   }
@@ -289,7 +289,7 @@ export class LookoutequipmentInferenceSchedulerDataInputConfigurationS3InputConf
   }
 
   // bucket - computed: false, optional: false, required: true
-  private _bucket?: string;
+  private _bucket?: string; 
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -302,7 +302,7 @@ export class LookoutequipmentInferenceSchedulerDataInputConfigurationS3InputConf
   }
 
   // prefix - computed: true, optional: true, required: false
-  private _prefix?: string;
+  private _prefix?: string; 
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -452,7 +452,7 @@ export class LookoutequipmentInferenceSchedulerDataInputConfigurationOutputRefer
   }
 
   // input_time_zone_offset - computed: true, optional: true, required: false
-  private _inputTimeZoneOffset?: string;
+  private _inputTimeZoneOffset?: string; 
   public get inputTimeZoneOffset() {
     return this.getStringAttribute('input_time_zone_offset');
   }
@@ -576,7 +576,7 @@ export class LookoutequipmentInferenceSchedulerDataOutputConfigurationS3OutputCo
   }
 
   // bucket - computed: false, optional: false, required: true
-  private _bucket?: string;
+  private _bucket?: string; 
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -589,7 +589,7 @@ export class LookoutequipmentInferenceSchedulerDataOutputConfigurationS3OutputCo
   }
 
   // prefix - computed: true, optional: true, required: false
-  private _prefix?: string;
+  private _prefix?: string; 
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -704,7 +704,7 @@ export class LookoutequipmentInferenceSchedulerDataOutputConfigurationOutputRefe
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -834,7 +834,7 @@ export class LookoutequipmentInferenceSchedulerTagsOutputReference extends cdktn
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -850,7 +850,7 @@ export class LookoutequipmentInferenceSchedulerTagsOutputReference extends cdktn
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -952,7 +952,7 @@ export class LookoutequipmentInferenceScheduler extends cdktn.TerraformResource 
   // ==========
 
   // data_delay_offset_in_minutes - computed: true, optional: true, required: false
-  private _dataDelayOffsetInMinutes?: number;
+  private _dataDelayOffsetInMinutes?: number; 
   public get dataDelayOffsetInMinutes() {
     return this.getNumberAttribute('data_delay_offset_in_minutes');
   }
@@ -994,7 +994,7 @@ export class LookoutequipmentInferenceScheduler extends cdktn.TerraformResource 
   }
 
   // data_upload_frequency - computed: false, optional: false, required: true
-  private _dataUploadFrequency?: string;
+  private _dataUploadFrequency?: string; 
   public get dataUploadFrequency() {
     return this.getStringAttribute('data_upload_frequency');
   }
@@ -1017,7 +1017,7 @@ export class LookoutequipmentInferenceScheduler extends cdktn.TerraformResource 
   }
 
   // inference_scheduler_name - computed: true, optional: true, required: false
-  private _inferenceSchedulerName?: string;
+  private _inferenceSchedulerName?: string; 
   public get inferenceSchedulerName() {
     return this.getStringAttribute('inference_scheduler_name');
   }
@@ -1033,7 +1033,7 @@ export class LookoutequipmentInferenceScheduler extends cdktn.TerraformResource 
   }
 
   // model_name - computed: false, optional: false, required: true
-  private _modelName?: string;
+  private _modelName?: string; 
   public get modelName() {
     return this.getStringAttribute('model_name');
   }
@@ -1046,7 +1046,7 @@ export class LookoutequipmentInferenceScheduler extends cdktn.TerraformResource 
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -1059,7 +1059,7 @@ export class LookoutequipmentInferenceScheduler extends cdktn.TerraformResource 
   }
 
   // server_side_kms_key_id - computed: true, optional: true, required: false
-  private _serverSideKmsKeyId?: string;
+  private _serverSideKmsKeyId?: string; 
   public get serverSideKmsKeyId() {
     return this.getStringAttribute('server_side_kms_key_id');
   }

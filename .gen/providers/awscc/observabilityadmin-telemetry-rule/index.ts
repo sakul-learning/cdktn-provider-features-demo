@@ -308,7 +308,7 @@ export class ObservabilityadminTelemetryRuleRuleDestinationConfigurationCloudtra
   }
 
   // ends_with - computed: true, optional: true, required: false
-  private _endsWith?: string[];
+  private _endsWith?: string[]; 
   public get endsWith() {
     return cdktn.Fn.tolist(this.getListAttribute('ends_with'));
   }
@@ -324,7 +324,7 @@ export class ObservabilityadminTelemetryRuleRuleDestinationConfigurationCloudtra
   }
 
   // equals - computed: true, optional: true, required: false
-  private _equals?: string[];
+  private _equals?: string[]; 
   public get equalTo() {
     return cdktn.Fn.tolist(this.getListAttribute('equals'));
   }
@@ -340,7 +340,7 @@ export class ObservabilityadminTelemetryRuleRuleDestinationConfigurationCloudtra
   }
 
   // field - computed: true, optional: true, required: false
-  private _field?: string;
+  private _field?: string; 
   public get field() {
     return this.getStringAttribute('field');
   }
@@ -356,7 +356,7 @@ export class ObservabilityadminTelemetryRuleRuleDestinationConfigurationCloudtra
   }
 
   // not_ends_with - computed: true, optional: true, required: false
-  private _notEndsWith?: string[];
+  private _notEndsWith?: string[]; 
   public get notEndsWith() {
     return cdktn.Fn.tolist(this.getListAttribute('not_ends_with'));
   }
@@ -372,7 +372,7 @@ export class ObservabilityadminTelemetryRuleRuleDestinationConfigurationCloudtra
   }
 
   // not_equals - computed: true, optional: true, required: false
-  private _notEquals?: string[];
+  private _notEquals?: string[]; 
   public get notEquals() {
     return cdktn.Fn.tolist(this.getListAttribute('not_equals'));
   }
@@ -388,7 +388,7 @@ export class ObservabilityadminTelemetryRuleRuleDestinationConfigurationCloudtra
   }
 
   // not_starts_with - computed: true, optional: true, required: false
-  private _notStartsWith?: string[];
+  private _notStartsWith?: string[]; 
   public get notStartsWith() {
     return cdktn.Fn.tolist(this.getListAttribute('not_starts_with'));
   }
@@ -404,7 +404,7 @@ export class ObservabilityadminTelemetryRuleRuleDestinationConfigurationCloudtra
   }
 
   // starts_with - computed: true, optional: true, required: false
-  private _startsWith?: string[];
+  private _startsWith?: string[]; 
   public get startsWith() {
     return cdktn.Fn.tolist(this.getListAttribute('starts_with'));
   }
@@ -557,7 +557,7 @@ export class ObservabilityadminTelemetryRuleRuleDestinationConfigurationCloudtra
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -786,7 +786,7 @@ export class ObservabilityadminTelemetryRuleRuleDestinationConfigurationElbLoadB
   }
 
   // field_delimiter - computed: true, optional: true, required: false
-  private _fieldDelimiter?: string;
+  private _fieldDelimiter?: string; 
   public get fieldDelimiter() {
     return this.getStringAttribute('field_delimiter');
   }
@@ -802,7 +802,7 @@ export class ObservabilityadminTelemetryRuleRuleDestinationConfigurationElbLoadB
   }
 
   // output_format - computed: true, optional: true, required: false
-  private _outputFormat?: string;
+  private _outputFormat?: string; 
   public get outputFormat() {
     return this.getStringAttribute('output_format');
   }
@@ -898,7 +898,7 @@ export class ObservabilityadminTelemetryRuleRuleDestinationConfigurationLogDeliv
   }
 
   // log_types - computed: true, optional: true, required: false
-  private _logTypes?: string[];
+  private _logTypes?: string[]; 
   public get logTypes() {
     return cdktn.Fn.tolist(this.getListAttribute('log_types'));
   }
@@ -1032,7 +1032,7 @@ export class ObservabilityadminTelemetryRuleRuleDestinationConfigurationVpcFlowL
   }
 
   // log_format - computed: true, optional: true, required: false
-  private _logFormat?: string;
+  private _logFormat?: string; 
   public get logFormat() {
     return this.getStringAttribute('log_format');
   }
@@ -1048,7 +1048,7 @@ export class ObservabilityadminTelemetryRuleRuleDestinationConfigurationVpcFlowL
   }
 
   // max_aggregation_interval - computed: true, optional: true, required: false
-  private _maxAggregationInterval?: number;
+  private _maxAggregationInterval?: number; 
   public get maxAggregationInterval() {
     return this.getNumberAttribute('max_aggregation_interval');
   }
@@ -1064,7 +1064,7 @@ export class ObservabilityadminTelemetryRuleRuleDestinationConfigurationVpcFlowL
   }
 
   // traffic_type - computed: true, optional: true, required: false
-  private _trafficType?: string;
+  private _trafficType?: string; 
   public get trafficType() {
     return this.getStringAttribute('traffic_type');
   }
@@ -1160,7 +1160,7 @@ export class ObservabilityadminTelemetryRuleRuleDestinationConfigurationWafLoggi
   }
 
   // action - computed: true, optional: true, required: false
-  private _action?: string;
+  private _action?: string; 
   public get action() {
     return this.getStringAttribute('action');
   }
@@ -1256,7 +1256,7 @@ export class ObservabilityadminTelemetryRuleRuleDestinationConfigurationWafLoggi
   }
 
   // label_name - computed: true, optional: true, required: false
-  private _labelName?: string;
+  private _labelName?: string; 
   public get labelName() {
     return this.getStringAttribute('label_name');
   }
@@ -1545,7 +1545,7 @@ export class ObservabilityadminTelemetryRuleRuleDestinationConfigurationWafLoggi
   }
 
   // behavior - computed: true, optional: true, required: false
-  private _behavior?: string;
+  private _behavior?: string; 
   public get behavior() {
     return this.getStringAttribute('behavior');
   }
@@ -1577,7 +1577,7 @@ export class ObservabilityadminTelemetryRuleRuleDestinationConfigurationWafLoggi
   }
 
   // requirement - computed: true, optional: true, required: false
-  private _requirement?: string;
+  private _requirement?: string; 
   public get requirement() {
     return this.getStringAttribute('requirement');
   }
@@ -1712,7 +1712,7 @@ export class ObservabilityadminTelemetryRuleRuleDestinationConfigurationWafLoggi
   }
 
   // default_behavior - computed: true, optional: true, required: false
-  private _defaultBehavior?: string;
+  private _defaultBehavior?: string; 
   public get defaultBehavior() {
     return this.getStringAttribute('default_behavior');
   }
@@ -1824,7 +1824,7 @@ export class ObservabilityadminTelemetryRuleRuleDestinationConfigurationWafLoggi
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1979,7 +1979,7 @@ export class ObservabilityadminTelemetryRuleRuleDestinationConfigurationWafLoggi
   }
 
   // method - computed: true, optional: true, required: false
-  private _method?: string;
+  private _method?: string; 
   public get method() {
     return this.getStringAttribute('method');
   }
@@ -1995,7 +1995,7 @@ export class ObservabilityadminTelemetryRuleRuleDestinationConfigurationWafLoggi
   }
 
   // query_string - computed: true, optional: true, required: false
-  private _queryString?: string;
+  private _queryString?: string; 
   public get queryString() {
     return this.getStringAttribute('query_string');
   }
@@ -2027,7 +2027,7 @@ export class ObservabilityadminTelemetryRuleRuleDestinationConfigurationWafLoggi
   }
 
   // uri_path - computed: true, optional: true, required: false
-  private _uriPath?: string;
+  private _uriPath?: string; 
   public get uriPath() {
     return this.getStringAttribute('uri_path');
   }
@@ -2181,7 +2181,7 @@ export class ObservabilityadminTelemetryRuleRuleDestinationConfigurationWafLoggi
   }
 
   // log_type - computed: true, optional: true, required: false
-  private _logType?: string;
+  private _logType?: string; 
   public get logType() {
     return this.getStringAttribute('log_type');
   }
@@ -2458,7 +2458,7 @@ export class ObservabilityadminTelemetryRuleRuleDestinationConfigurationOutputRe
   }
 
   // destination_pattern - computed: true, optional: true, required: false
-  private _destinationPattern?: string;
+  private _destinationPattern?: string; 
   public get destinationPattern() {
     return this.getStringAttribute('destination_pattern');
   }
@@ -2474,7 +2474,7 @@ export class ObservabilityadminTelemetryRuleRuleDestinationConfigurationOutputRe
   }
 
   // destination_type - computed: true, optional: true, required: false
-  private _destinationType?: string;
+  private _destinationType?: string; 
   public get destinationType() {
     return this.getStringAttribute('destination_type');
   }
@@ -2522,7 +2522,7 @@ export class ObservabilityadminTelemetryRuleRuleDestinationConfigurationOutputRe
   }
 
   // retention_in_days - computed: true, optional: true, required: false
-  private _retentionInDays?: number;
+  private _retentionInDays?: number; 
   public get retentionInDays() {
     return this.getNumberAttribute('retention_in_days');
   }
@@ -2783,7 +2783,7 @@ export class ObservabilityadminTelemetryRuleRuleOutputReference extends cdktn.Co
   }
 
   // all_regions - computed: true, optional: true, required: false
-  private _allRegions?: boolean | cdktn.IResolvable;
+  private _allRegions?: boolean | cdktn.IResolvable; 
   public get allRegions() {
     return this.getBooleanAttribute('all_regions');
   }
@@ -2799,7 +2799,7 @@ export class ObservabilityadminTelemetryRuleRuleOutputReference extends cdktn.Co
   }
 
   // allow_field_updates - computed: true, optional: true, required: false
-  private _allowFieldUpdates?: boolean | cdktn.IResolvable;
+  private _allowFieldUpdates?: boolean | cdktn.IResolvable; 
   public get allowFieldUpdates() {
     return this.getBooleanAttribute('allow_field_updates');
   }
@@ -2831,7 +2831,7 @@ export class ObservabilityadminTelemetryRuleRuleOutputReference extends cdktn.Co
   }
 
   // regions - computed: true, optional: true, required: false
-  private _regions?: string[];
+  private _regions?: string[]; 
   public get regions() {
     return cdktn.Fn.tolist(this.getListAttribute('regions'));
   }
@@ -2847,7 +2847,7 @@ export class ObservabilityadminTelemetryRuleRuleOutputReference extends cdktn.Co
   }
 
   // resource_type - computed: false, optional: false, required: true
-  private _resourceType?: string;
+  private _resourceType?: string; 
   public get resourceType() {
     return this.getStringAttribute('resource_type');
   }
@@ -2860,7 +2860,7 @@ export class ObservabilityadminTelemetryRuleRuleOutputReference extends cdktn.Co
   }
 
   // selection_criteria - computed: true, optional: true, required: false
-  private _selectionCriteria?: string;
+  private _selectionCriteria?: string; 
   public get selectionCriteria() {
     return this.getStringAttribute('selection_criteria');
   }
@@ -2876,7 +2876,7 @@ export class ObservabilityadminTelemetryRuleRuleOutputReference extends cdktn.Co
   }
 
   // telemetry_source_types - computed: true, optional: true, required: false
-  private _telemetrySourceTypes?: string[];
+  private _telemetrySourceTypes?: string[]; 
   public get telemetrySourceTypes() {
     return cdktn.Fn.tolist(this.getListAttribute('telemetry_source_types'));
   }
@@ -2892,7 +2892,7 @@ export class ObservabilityadminTelemetryRuleRuleOutputReference extends cdktn.Co
   }
 
   // telemetry_type - computed: false, optional: false, required: true
-  private _telemetryType?: string;
+  private _telemetryType?: string; 
   public get telemetryType() {
     return this.getStringAttribute('telemetry_type');
   }
@@ -3006,7 +3006,7 @@ export class ObservabilityadminTelemetryRuleTagsOutputReference extends cdktn.Co
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -3022,7 +3022,7 @@ export class ObservabilityadminTelemetryRuleTagsOutputReference extends cdktn.Co
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -3147,7 +3147,7 @@ export class ObservabilityadminTelemetryRule extends cdktn.TerraformResource {
   }
 
   // rule_name - computed: false, optional: false, required: true
-  private _ruleName?: string;
+  private _ruleName?: string; 
   public get ruleName() {
     return this.getStringAttribute('rule_name');
   }

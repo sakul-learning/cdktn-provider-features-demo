@@ -156,7 +156,7 @@ export class GlueSchemaCheckpointVersionOutputReference extends cdktn.ComplexObj
   }
 
   // is_latest - computed: true, optional: true, required: false
-  private _isLatest?: boolean | cdktn.IResolvable;
+  private _isLatest?: boolean | cdktn.IResolvable; 
   public get isLatest() {
     return this.getBooleanAttribute('is_latest');
   }
@@ -172,7 +172,7 @@ export class GlueSchemaCheckpointVersionOutputReference extends cdktn.ComplexObj
   }
 
   // version_number - computed: true, optional: true, required: false
-  private _versionNumber?: number;
+  private _versionNumber?: number; 
   public get versionNumber() {
     return this.getNumberAttribute('version_number');
   }
@@ -287,7 +287,7 @@ export class GlueSchemaRegistryOutputReference extends cdktn.ComplexObject {
   }
 
   // arn - computed: true, optional: true, required: false
-  private _arn?: string;
+  private _arn?: string; 
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -303,7 +303,7 @@ export class GlueSchemaRegistryOutputReference extends cdktn.ComplexObject {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -420,7 +420,7 @@ export class GlueSchemaTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -436,7 +436,7 @@ export class GlueSchemaTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -558,7 +558,7 @@ export class GlueSchema extends cdktn.TerraformResource {
   }
 
   // compatibility - computed: false, optional: false, required: true
-  private _compatibility?: string;
+  private _compatibility?: string; 
   public get compatibility() {
     return this.getStringAttribute('compatibility');
   }
@@ -571,7 +571,7 @@ export class GlueSchema extends cdktn.TerraformResource {
   }
 
   // data_format - computed: false, optional: false, required: true
-  private _dataFormat?: string;
+  private _dataFormat?: string; 
   public get dataFormat() {
     return this.getStringAttribute('data_format');
   }
@@ -584,7 +584,7 @@ export class GlueSchema extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -610,7 +610,7 @@ export class GlueSchema extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -639,7 +639,7 @@ export class GlueSchema extends cdktn.TerraformResource {
   }
 
   // schema_definition - computed: true, optional: true, required: false
-  private _schemaDefinition?: string;
+  private _schemaDefinition?: string; 
   public get schemaDefinition() {
     return this.getStringAttribute('schema_definition');
   }

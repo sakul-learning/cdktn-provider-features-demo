@@ -121,7 +121,7 @@ export class BackupLogicallyAirGappedVaultTimeoutsOutputReference extends cdktn.
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -206,7 +206,7 @@ export class BackupLogicallyAirGappedVault extends cdktn.TerraformResource {
   }
 
   // encryption_key_arn - computed: true, optional: true, required: false
-  private _encryptionKeyArn?: string;
+  private _encryptionKeyArn?: string; 
   public get encryptionKeyArn() {
     return this.getStringAttribute('encryption_key_arn');
   }
@@ -227,7 +227,7 @@ export class BackupLogicallyAirGappedVault extends cdktn.TerraformResource {
   }
 
   // max_retention_days - computed: false, optional: false, required: true
-  private _maxRetentionDays?: number;
+  private _maxRetentionDays?: number; 
   public get maxRetentionDays() {
     return this.getNumberAttribute('max_retention_days');
   }
@@ -240,7 +240,7 @@ export class BackupLogicallyAirGappedVault extends cdktn.TerraformResource {
   }
 
   // min_retention_days - computed: false, optional: false, required: true
-  private _minRetentionDays?: number;
+  private _minRetentionDays?: number; 
   public get minRetentionDays() {
     return this.getNumberAttribute('min_retention_days');
   }
@@ -253,7 +253,7 @@ export class BackupLogicallyAirGappedVault extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -266,7 +266,7 @@ export class BackupLogicallyAirGappedVault extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -282,7 +282,7 @@ export class BackupLogicallyAirGappedVault extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

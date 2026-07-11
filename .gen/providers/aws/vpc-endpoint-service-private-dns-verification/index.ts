@@ -109,7 +109,7 @@ export class VpcEndpointServicePrivateDnsVerificationTimeoutsOutputReference ext
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -186,7 +186,7 @@ export class VpcEndpointServicePrivateDnsVerification extends cdktn.TerraformRes
   // ==========
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -202,7 +202,7 @@ export class VpcEndpointServicePrivateDnsVerification extends cdktn.TerraformRes
   }
 
   // service_id - computed: false, optional: false, required: true
-  private _serviceId?: string;
+  private _serviceId?: string; 
   public get serviceId() {
     return this.getStringAttribute('service_id');
   }
@@ -215,7 +215,7 @@ export class VpcEndpointServicePrivateDnsVerification extends cdktn.TerraformRes
   }
 
   // wait_for_verification - computed: false, optional: true, required: false
-  private _waitForVerification?: boolean | cdktn.IResolvable;
+  private _waitForVerification?: boolean | cdktn.IResolvable; 
   public get waitForVerification() {
     return this.getBooleanAttribute('wait_for_verification');
   }

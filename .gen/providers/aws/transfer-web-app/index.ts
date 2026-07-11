@@ -123,7 +123,7 @@ export class TransferWebAppWebAppUnitsOutputReference extends cdktn.ComplexObjec
   }
 
   // provisioned - computed: true, optional: true, required: false
-  private _provisioned?: number;
+  private _provisioned?: number; 
   public get provisioned() {
     return this.getNumberAttribute('provisioned');
   }
@@ -273,7 +273,7 @@ export class TransferWebAppEndpointDetailsVpcOutputReference extends cdktn.Compl
   }
 
   // security_group_ids - computed: true, optional: true, required: false
-  private _securityGroupIds?: string[];
+  private _securityGroupIds?: string[]; 
   public get securityGroupIds() {
     return cdktn.Fn.tolist(this.getListAttribute('security_group_ids'));
   }
@@ -289,7 +289,7 @@ export class TransferWebAppEndpointDetailsVpcOutputReference extends cdktn.Compl
   }
 
   // subnet_ids - computed: false, optional: false, required: true
-  private _subnetIds?: string[];
+  private _subnetIds?: string[]; 
   public get subnetIds() {
     return cdktn.Fn.tolist(this.getListAttribute('subnet_ids'));
   }
@@ -307,7 +307,7 @@ export class TransferWebAppEndpointDetailsVpcOutputReference extends cdktn.Compl
   }
 
   // vpc_id - computed: false, optional: false, required: true
-  private _vpcId?: string;
+  private _vpcId?: string; 
   public get vpcId() {
     return this.getStringAttribute('vpc_id');
   }
@@ -560,7 +560,7 @@ export class TransferWebAppIdentityProviderDetailsIdentityCenterConfigOutputRefe
   }
 
   // instance_arn - computed: false, optional: true, required: false
-  private _instanceArn?: string;
+  private _instanceArn?: string; 
   public get instanceArn() {
     return this.getStringAttribute('instance_arn');
   }
@@ -576,7 +576,7 @@ export class TransferWebAppIdentityProviderDetailsIdentityCenterConfigOutputRefe
   }
 
   // role - computed: false, optional: true, required: false
-  private _role?: string;
+  private _role?: string; 
   public get role() {
     return this.getStringAttribute('role');
   }
@@ -794,7 +794,7 @@ export class TransferWebApp extends cdktn.TerraformResource {
   // ==========
 
   // access_endpoint - computed: true, optional: true, required: false
-  private _accessEndpoint?: string;
+  private _accessEndpoint?: string; 
   public get accessEndpoint() {
     return this.getStringAttribute('access_endpoint');
   }
@@ -815,7 +815,7 @@ export class TransferWebApp extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -831,7 +831,7 @@ export class TransferWebApp extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -853,7 +853,7 @@ export class TransferWebApp extends cdktn.TerraformResource {
   }
 
   // web_app_endpoint_policy - computed: true, optional: true, required: false
-  private _webAppEndpointPolicy?: string;
+  private _webAppEndpointPolicy?: string; 
   public get webAppEndpointPolicy() {
     return this.getStringAttribute('web_app_endpoint_policy');
   }

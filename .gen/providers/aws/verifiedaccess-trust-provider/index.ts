@@ -148,7 +148,7 @@ export class VerifiedaccessTrustProviderDeviceOptionsOutputReference extends cdk
   }
 
   // tenant_id - computed: false, optional: true, required: false
-  private _tenantId?: string;
+  private _tenantId?: string; 
   public get tenantId() {
     return this.getStringAttribute('tenant_id');
   }
@@ -351,7 +351,7 @@ export class VerifiedaccessTrustProviderNativeApplicationOidcOptionsOutputRefere
   }
 
   // authorization_endpoint - computed: false, optional: true, required: false
-  private _authorizationEndpoint?: string;
+  private _authorizationEndpoint?: string; 
   public get authorizationEndpoint() {
     return this.getStringAttribute('authorization_endpoint');
   }
@@ -367,7 +367,7 @@ export class VerifiedaccessTrustProviderNativeApplicationOidcOptionsOutputRefere
   }
 
   // client_id - computed: false, optional: true, required: false
-  private _clientId?: string;
+  private _clientId?: string; 
   public get clientId() {
     return this.getStringAttribute('client_id');
   }
@@ -383,7 +383,7 @@ export class VerifiedaccessTrustProviderNativeApplicationOidcOptionsOutputRefere
   }
 
   // client_secret - computed: false, optional: false, required: true
-  private _clientSecret?: string;
+  private _clientSecret?: string; 
   public get clientSecret() {
     return this.getStringAttribute('client_secret');
   }
@@ -396,7 +396,7 @@ export class VerifiedaccessTrustProviderNativeApplicationOidcOptionsOutputRefere
   }
 
   // issuer - computed: false, optional: true, required: false
-  private _issuer?: string;
+  private _issuer?: string; 
   public get issuer() {
     return this.getStringAttribute('issuer');
   }
@@ -412,7 +412,7 @@ export class VerifiedaccessTrustProviderNativeApplicationOidcOptionsOutputRefere
   }
 
   // public_signing_key_endpoint - computed: false, optional: true, required: false
-  private _publicSigningKeyEndpoint?: string;
+  private _publicSigningKeyEndpoint?: string; 
   public get publicSigningKeyEndpoint() {
     return this.getStringAttribute('public_signing_key_endpoint');
   }
@@ -428,7 +428,7 @@ export class VerifiedaccessTrustProviderNativeApplicationOidcOptionsOutputRefere
   }
 
   // scope - computed: false, optional: true, required: false
-  private _scope?: string;
+  private _scope?: string; 
   public get scope() {
     return this.getStringAttribute('scope');
   }
@@ -444,7 +444,7 @@ export class VerifiedaccessTrustProviderNativeApplicationOidcOptionsOutputRefere
   }
 
   // token_endpoint - computed: false, optional: true, required: false
-  private _tokenEndpoint?: string;
+  private _tokenEndpoint?: string; 
   public get tokenEndpoint() {
     return this.getStringAttribute('token_endpoint');
   }
@@ -460,7 +460,7 @@ export class VerifiedaccessTrustProviderNativeApplicationOidcOptionsOutputRefere
   }
 
   // user_info_endpoint - computed: false, optional: true, required: false
-  private _userInfoEndpoint?: string;
+  private _userInfoEndpoint?: string; 
   public get userInfoEndpoint() {
     return this.getStringAttribute('user_info_endpoint');
   }
@@ -646,7 +646,7 @@ export class VerifiedaccessTrustProviderOidcOptionsOutputReference extends cdktn
   }
 
   // authorization_endpoint - computed: false, optional: true, required: false
-  private _authorizationEndpoint?: string;
+  private _authorizationEndpoint?: string; 
   public get authorizationEndpoint() {
     return this.getStringAttribute('authorization_endpoint');
   }
@@ -662,7 +662,7 @@ export class VerifiedaccessTrustProviderOidcOptionsOutputReference extends cdktn
   }
 
   // client_id - computed: false, optional: true, required: false
-  private _clientId?: string;
+  private _clientId?: string; 
   public get clientId() {
     return this.getStringAttribute('client_id');
   }
@@ -678,7 +678,7 @@ export class VerifiedaccessTrustProviderOidcOptionsOutputReference extends cdktn
   }
 
   // client_secret - computed: false, optional: false, required: true
-  private _clientSecret?: string;
+  private _clientSecret?: string; 
   public get clientSecret() {
     return this.getStringAttribute('client_secret');
   }
@@ -691,7 +691,7 @@ export class VerifiedaccessTrustProviderOidcOptionsOutputReference extends cdktn
   }
 
   // issuer - computed: false, optional: true, required: false
-  private _issuer?: string;
+  private _issuer?: string; 
   public get issuer() {
     return this.getStringAttribute('issuer');
   }
@@ -707,7 +707,7 @@ export class VerifiedaccessTrustProviderOidcOptionsOutputReference extends cdktn
   }
 
   // scope - computed: false, optional: true, required: false
-  private _scope?: string;
+  private _scope?: string; 
   public get scope() {
     return this.getStringAttribute('scope');
   }
@@ -723,7 +723,7 @@ export class VerifiedaccessTrustProviderOidcOptionsOutputReference extends cdktn
   }
 
   // token_endpoint - computed: false, optional: true, required: false
-  private _tokenEndpoint?: string;
+  private _tokenEndpoint?: string; 
   public get tokenEndpoint() {
     return this.getStringAttribute('token_endpoint');
   }
@@ -739,7 +739,7 @@ export class VerifiedaccessTrustProviderOidcOptionsOutputReference extends cdktn
   }
 
   // user_info_endpoint - computed: false, optional: true, required: false
-  private _userInfoEndpoint?: string;
+  private _userInfoEndpoint?: string; 
   public get userInfoEndpoint() {
     return this.getStringAttribute('user_info_endpoint');
   }
@@ -840,7 +840,7 @@ export class VerifiedaccessTrustProviderSseSpecificationOutputReference extends 
   }
 
   // customer_managed_key_enabled - computed: false, optional: true, required: false
-  private _customerManagedKeyEnabled?: boolean | cdktn.IResolvable;
+  private _customerManagedKeyEnabled?: boolean | cdktn.IResolvable; 
   public get customerManagedKeyEnabled() {
     return this.getBooleanAttribute('customer_managed_key_enabled');
   }
@@ -856,7 +856,7 @@ export class VerifiedaccessTrustProviderSseSpecificationOutputReference extends 
   }
 
   // kms_key_arn - computed: false, optional: true, required: false
-  private _kmsKeyArn?: string;
+  private _kmsKeyArn?: string; 
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -984,7 +984,7 @@ export class VerifiedaccessTrustProviderTimeoutsOutputReference extends cdktn.Co
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -1000,7 +1000,7 @@ export class VerifiedaccessTrustProviderTimeoutsOutputReference extends cdktn.Co
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -1016,7 +1016,7 @@ export class VerifiedaccessTrustProviderTimeoutsOutputReference extends cdktn.Co
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -1103,7 +1103,7 @@ export class VerifiedaccessTrustProvider extends cdktn.TerraformResource {
   // ==========
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1119,7 +1119,7 @@ export class VerifiedaccessTrustProvider extends cdktn.TerraformResource {
   }
 
   // device_trust_provider_type - computed: false, optional: true, required: false
-  private _deviceTrustProviderType?: string;
+  private _deviceTrustProviderType?: string; 
   public get deviceTrustProviderType() {
     return this.getStringAttribute('device_trust_provider_type');
   }
@@ -1135,7 +1135,7 @@ export class VerifiedaccessTrustProvider extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -1151,7 +1151,7 @@ export class VerifiedaccessTrustProvider extends cdktn.TerraformResource {
   }
 
   // policy_reference_name - computed: false, optional: false, required: true
-  private _policyReferenceName?: string;
+  private _policyReferenceName?: string; 
   public get policyReferenceName() {
     return this.getStringAttribute('policy_reference_name');
   }
@@ -1164,7 +1164,7 @@ export class VerifiedaccessTrustProvider extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1180,7 +1180,7 @@ export class VerifiedaccessTrustProvider extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -1196,7 +1196,7 @@ export class VerifiedaccessTrustProvider extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -1212,7 +1212,7 @@ export class VerifiedaccessTrustProvider extends cdktn.TerraformResource {
   }
 
   // trust_provider_type - computed: false, optional: false, required: true
-  private _trustProviderType?: string;
+  private _trustProviderType?: string; 
   public get trustProviderType() {
     return this.getStringAttribute('trust_provider_type');
   }
@@ -1225,7 +1225,7 @@ export class VerifiedaccessTrustProvider extends cdktn.TerraformResource {
   }
 
   // user_trust_provider_type - computed: false, optional: true, required: false
-  private _userTrustProviderType?: string;
+  private _userTrustProviderType?: string; 
   public get userTrustProviderType() {
     return this.getStringAttribute('user_trust_provider_type');
   }

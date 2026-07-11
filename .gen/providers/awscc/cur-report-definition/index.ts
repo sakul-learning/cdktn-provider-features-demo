@@ -182,7 +182,7 @@ export class CurReportDefinitionTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -198,7 +198,7 @@ export class CurReportDefinitionTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -304,7 +304,7 @@ export class CurReportDefinition extends cdktn.TerraformResource {
   // ==========
 
   // additional_artifacts - computed: true, optional: true, required: false
-  private _additionalArtifacts?: string[];
+  private _additionalArtifacts?: string[]; 
   public get additionalArtifacts() {
     return this.getListAttribute('additional_artifacts');
   }
@@ -320,7 +320,7 @@ export class CurReportDefinition extends cdktn.TerraformResource {
   }
 
   // additional_schema_elements - computed: true, optional: true, required: false
-  private _additionalSchemaElements?: string[];
+  private _additionalSchemaElements?: string[]; 
   public get additionalSchemaElements() {
     return this.getListAttribute('additional_schema_elements');
   }
@@ -336,7 +336,7 @@ export class CurReportDefinition extends cdktn.TerraformResource {
   }
 
   // billing_view_arn - computed: true, optional: true, required: false
-  private _billingViewArn?: string;
+  private _billingViewArn?: string; 
   public get billingViewArn() {
     return this.getStringAttribute('billing_view_arn');
   }
@@ -352,7 +352,7 @@ export class CurReportDefinition extends cdktn.TerraformResource {
   }
 
   // compression - computed: false, optional: false, required: true
-  private _compression?: string;
+  private _compression?: string; 
   public get compression() {
     return this.getStringAttribute('compression');
   }
@@ -365,7 +365,7 @@ export class CurReportDefinition extends cdktn.TerraformResource {
   }
 
   // format - computed: false, optional: false, required: true
-  private _format?: string;
+  private _format?: string; 
   public get format() {
     return this.getStringAttribute('format');
   }
@@ -383,7 +383,7 @@ export class CurReportDefinition extends cdktn.TerraformResource {
   }
 
   // refresh_closed_reports - computed: false, optional: false, required: true
-  private _refreshClosedReports?: boolean | cdktn.IResolvable;
+  private _refreshClosedReports?: boolean | cdktn.IResolvable; 
   public get refreshClosedReports() {
     return this.getBooleanAttribute('refresh_closed_reports');
   }
@@ -396,7 +396,7 @@ export class CurReportDefinition extends cdktn.TerraformResource {
   }
 
   // report_name - computed: false, optional: false, required: true
-  private _reportName?: string;
+  private _reportName?: string; 
   public get reportName() {
     return this.getStringAttribute('report_name');
   }
@@ -409,7 +409,7 @@ export class CurReportDefinition extends cdktn.TerraformResource {
   }
 
   // report_versioning - computed: false, optional: false, required: true
-  private _reportVersioning?: string;
+  private _reportVersioning?: string; 
   public get reportVersioning() {
     return this.getStringAttribute('report_versioning');
   }
@@ -422,7 +422,7 @@ export class CurReportDefinition extends cdktn.TerraformResource {
   }
 
   // s3_bucket - computed: false, optional: false, required: true
-  private _s3Bucket?: string;
+  private _s3Bucket?: string; 
   public get s3Bucket() {
     return this.getStringAttribute('s3_bucket');
   }
@@ -435,7 +435,7 @@ export class CurReportDefinition extends cdktn.TerraformResource {
   }
 
   // s3_prefix - computed: false, optional: false, required: true
-  private _s3Prefix?: string;
+  private _s3Prefix?: string; 
   public get s3Prefix() {
     return this.getStringAttribute('s3_prefix');
   }
@@ -448,7 +448,7 @@ export class CurReportDefinition extends cdktn.TerraformResource {
   }
 
   // s3_region - computed: false, optional: false, required: true
-  private _s3Region?: string;
+  private _s3Region?: string; 
   public get s3Region() {
     return this.getStringAttribute('s3_region');
   }
@@ -477,7 +477,7 @@ export class CurReportDefinition extends cdktn.TerraformResource {
   }
 
   // time_unit - computed: false, optional: false, required: true
-  private _timeUnit?: string;
+  private _timeUnit?: string; 
   public get timeUnit() {
     return this.getStringAttribute('time_unit');
   }

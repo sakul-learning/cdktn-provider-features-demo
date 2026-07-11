@@ -102,7 +102,7 @@ export class SecurityhubAggregatorV2 extends cdktn.TerraformResource {
   }
 
   // linked_regions - computed: false, optional: false, required: true
-  private _linkedRegions?: string[];
+  private _linkedRegions?: string[]; 
   public get linkedRegions() {
     return cdktn.Fn.tolist(this.getListAttribute('linked_regions'));
   }
@@ -115,7 +115,7 @@ export class SecurityhubAggregatorV2 extends cdktn.TerraformResource {
   }
 
   // region_linking_mode - computed: false, optional: false, required: true
-  private _regionLinkingMode?: string;
+  private _regionLinkingMode?: string; 
   public get regionLinkingMode() {
     return this.getStringAttribute('region_linking_mode');
   }
@@ -128,7 +128,7 @@ export class SecurityhubAggregatorV2 extends cdktn.TerraformResource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

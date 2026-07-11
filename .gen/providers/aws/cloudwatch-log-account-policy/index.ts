@@ -106,7 +106,7 @@ export class CloudwatchLogAccountPolicy extends cdktn.TerraformResource {
   // ==========
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -122,7 +122,7 @@ export class CloudwatchLogAccountPolicy extends cdktn.TerraformResource {
   }
 
   // policy_document - computed: false, optional: false, required: true
-  private _policyDocument?: string;
+  private _policyDocument?: string; 
   public get policyDocument() {
     return this.getStringAttribute('policy_document');
   }
@@ -135,7 +135,7 @@ export class CloudwatchLogAccountPolicy extends cdktn.TerraformResource {
   }
 
   // policy_name - computed: false, optional: false, required: true
-  private _policyName?: string;
+  private _policyName?: string; 
   public get policyName() {
     return this.getStringAttribute('policy_name');
   }
@@ -148,7 +148,7 @@ export class CloudwatchLogAccountPolicy extends cdktn.TerraformResource {
   }
 
   // policy_type - computed: false, optional: false, required: true
-  private _policyType?: string;
+  private _policyType?: string; 
   public get policyType() {
     return this.getStringAttribute('policy_type');
   }
@@ -161,7 +161,7 @@ export class CloudwatchLogAccountPolicy extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -177,7 +177,7 @@ export class CloudwatchLogAccountPolicy extends cdktn.TerraformResource {
   }
 
   // scope - computed: false, optional: true, required: false
-  private _scope?: string;
+  private _scope?: string; 
   public get scope() {
     return this.getStringAttribute('scope');
   }
@@ -193,7 +193,7 @@ export class CloudwatchLogAccountPolicy extends cdktn.TerraformResource {
   }
 
   // selection_criteria - computed: false, optional: true, required: false
-  private _selectionCriteria?: string;
+  private _selectionCriteria?: string; 
   public get selectionCriteria() {
     return this.getStringAttribute('selection_criteria');
   }

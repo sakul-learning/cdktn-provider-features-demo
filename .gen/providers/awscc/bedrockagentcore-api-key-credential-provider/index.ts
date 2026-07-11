@@ -192,7 +192,7 @@ export class BedrockagentcoreApiKeyCredentialProviderApiKeySecretConfigOutputRef
   }
 
   // json_key - computed: true, optional: true, required: false
-  private _jsonKey?: string;
+  private _jsonKey?: string; 
   public get jsonKey() {
     return this.getStringAttribute('json_key');
   }
@@ -208,7 +208,7 @@ export class BedrockagentcoreApiKeyCredentialProviderApiKeySecretConfigOutputRef
   }
 
   // secret_id - computed: true, optional: true, required: false
-  private _secretId?: string;
+  private _secretId?: string; 
   public get secretId() {
     return this.getStringAttribute('secret_id');
   }
@@ -321,7 +321,7 @@ export class BedrockagentcoreApiKeyCredentialProviderTagsOutputReference extends
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -337,7 +337,7 @@ export class BedrockagentcoreApiKeyCredentialProviderTagsOutputReference extends
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -435,7 +435,7 @@ export class BedrockagentcoreApiKeyCredentialProvider extends cdktn.TerraformRes
   // ==========
 
   // api_key - computed: true, optional: true, required: false
-  private _apiKey?: string;
+  private _apiKey?: string; 
   public get apiKey() {
     return this.getStringAttribute('api_key');
   }
@@ -478,7 +478,7 @@ export class BedrockagentcoreApiKeyCredentialProvider extends cdktn.TerraformRes
   }
 
   // api_key_secret_source - computed: true, optional: true, required: false
-  private _apiKeySecretSource?: string;
+  private _apiKeySecretSource?: string; 
   public get apiKeySecretSource() {
     return this.getStringAttribute('api_key_secret_source');
   }
@@ -514,7 +514,7 @@ export class BedrockagentcoreApiKeyCredentialProvider extends cdktn.TerraformRes
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }

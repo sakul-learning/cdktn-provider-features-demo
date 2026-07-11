@@ -280,7 +280,7 @@ export class DataAwsOdbDbNodes extends cdktn.TerraformDataSource {
   // ==========
 
   // cloud_vm_cluster_id - computed: false, optional: false, required: true
-  private _cloudVmClusterId?: string;
+  private _cloudVmClusterId?: string; 
   public get cloudVmClusterId() {
     return this.getStringAttribute('cloud_vm_cluster_id');
   }
@@ -299,7 +299,7 @@ export class DataAwsOdbDbNodes extends cdktn.TerraformDataSource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

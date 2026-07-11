@@ -318,7 +318,7 @@ export class LaunchConfigurationEbsBlockDeviceOutputReference extends cdktn.Comp
   }
 
   // delete_on_termination - computed: false, optional: true, required: false
-  private _deleteOnTermination?: boolean | cdktn.IResolvable;
+  private _deleteOnTermination?: boolean | cdktn.IResolvable; 
   public get deleteOnTermination() {
     return this.getBooleanAttribute('delete_on_termination');
   }
@@ -334,7 +334,7 @@ export class LaunchConfigurationEbsBlockDeviceOutputReference extends cdktn.Comp
   }
 
   // device_name - computed: false, optional: false, required: true
-  private _deviceName?: string;
+  private _deviceName?: string; 
   public get deviceName() {
     return this.getStringAttribute('device_name');
   }
@@ -347,7 +347,7 @@ export class LaunchConfigurationEbsBlockDeviceOutputReference extends cdktn.Comp
   }
 
   // encrypted - computed: true, optional: true, required: false
-  private _encrypted?: boolean | cdktn.IResolvable;
+  private _encrypted?: boolean | cdktn.IResolvable; 
   public get encrypted() {
     return this.getBooleanAttribute('encrypted');
   }
@@ -363,7 +363,7 @@ export class LaunchConfigurationEbsBlockDeviceOutputReference extends cdktn.Comp
   }
 
   // iops - computed: true, optional: true, required: false
-  private _iops?: number;
+  private _iops?: number; 
   public get iops() {
     return this.getNumberAttribute('iops');
   }
@@ -379,7 +379,7 @@ export class LaunchConfigurationEbsBlockDeviceOutputReference extends cdktn.Comp
   }
 
   // no_device - computed: false, optional: true, required: false
-  private _noDevice?: boolean | cdktn.IResolvable;
+  private _noDevice?: boolean | cdktn.IResolvable; 
   public get noDevice() {
     return this.getBooleanAttribute('no_device');
   }
@@ -395,7 +395,7 @@ export class LaunchConfigurationEbsBlockDeviceOutputReference extends cdktn.Comp
   }
 
   // snapshot_id - computed: true, optional: true, required: false
-  private _snapshotId?: string;
+  private _snapshotId?: string; 
   public get snapshotId() {
     return this.getStringAttribute('snapshot_id');
   }
@@ -411,7 +411,7 @@ export class LaunchConfigurationEbsBlockDeviceOutputReference extends cdktn.Comp
   }
 
   // throughput - computed: true, optional: true, required: false
-  private _throughput?: number;
+  private _throughput?: number; 
   public get throughput() {
     return this.getNumberAttribute('throughput');
   }
@@ -427,7 +427,7 @@ export class LaunchConfigurationEbsBlockDeviceOutputReference extends cdktn.Comp
   }
 
   // volume_size - computed: true, optional: true, required: false
-  private _volumeSize?: number;
+  private _volumeSize?: number; 
   public get volumeSize() {
     return this.getNumberAttribute('volume_size');
   }
@@ -443,7 +443,7 @@ export class LaunchConfigurationEbsBlockDeviceOutputReference extends cdktn.Comp
   }
 
   // volume_type - computed: true, optional: true, required: false
-  private _volumeType?: string;
+  private _volumeType?: string; 
   public get volumeType() {
     return this.getStringAttribute('volume_type');
   }
@@ -593,7 +593,7 @@ export class LaunchConfigurationEphemeralBlockDeviceOutputReference extends cdkt
   }
 
   // device_name - computed: false, optional: false, required: true
-  private _deviceName?: string;
+  private _deviceName?: string; 
   public get deviceName() {
     return this.getStringAttribute('device_name');
   }
@@ -606,7 +606,7 @@ export class LaunchConfigurationEphemeralBlockDeviceOutputReference extends cdkt
   }
 
   // no_device - computed: false, optional: true, required: false
-  private _noDevice?: boolean | cdktn.IResolvable;
+  private _noDevice?: boolean | cdktn.IResolvable; 
   public get noDevice() {
     return this.getBooleanAttribute('no_device');
   }
@@ -622,7 +622,7 @@ export class LaunchConfigurationEphemeralBlockDeviceOutputReference extends cdkt
   }
 
   // virtual_name - computed: false, optional: true, required: false
-  private _virtualName?: string;
+  private _virtualName?: string; 
   public get virtualName() {
     return this.getStringAttribute('virtual_name');
   }
@@ -760,7 +760,7 @@ export class LaunchConfigurationMetadataOptionsOutputReference extends cdktn.Com
   }
 
   // http_endpoint - computed: true, optional: true, required: false
-  private _httpEndpoint?: string;
+  private _httpEndpoint?: string; 
   public get httpEndpoint() {
     return this.getStringAttribute('http_endpoint');
   }
@@ -776,7 +776,7 @@ export class LaunchConfigurationMetadataOptionsOutputReference extends cdktn.Com
   }
 
   // http_put_response_hop_limit - computed: true, optional: true, required: false
-  private _httpPutResponseHopLimit?: number;
+  private _httpPutResponseHopLimit?: number; 
   public get httpPutResponseHopLimit() {
     return this.getNumberAttribute('http_put_response_hop_limit');
   }
@@ -792,7 +792,7 @@ export class LaunchConfigurationMetadataOptionsOutputReference extends cdktn.Com
   }
 
   // http_tokens - computed: true, optional: true, required: false
-  private _httpTokens?: string;
+  private _httpTokens?: string; 
   public get httpTokens() {
     return this.getStringAttribute('http_tokens');
   }
@@ -961,7 +961,7 @@ export class LaunchConfigurationRootBlockDeviceOutputReference extends cdktn.Com
   }
 
   // delete_on_termination - computed: false, optional: true, required: false
-  private _deleteOnTermination?: boolean | cdktn.IResolvable;
+  private _deleteOnTermination?: boolean | cdktn.IResolvable; 
   public get deleteOnTermination() {
     return this.getBooleanAttribute('delete_on_termination');
   }
@@ -977,7 +977,7 @@ export class LaunchConfigurationRootBlockDeviceOutputReference extends cdktn.Com
   }
 
   // encrypted - computed: true, optional: true, required: false
-  private _encrypted?: boolean | cdktn.IResolvable;
+  private _encrypted?: boolean | cdktn.IResolvable; 
   public get encrypted() {
     return this.getBooleanAttribute('encrypted');
   }
@@ -993,7 +993,7 @@ export class LaunchConfigurationRootBlockDeviceOutputReference extends cdktn.Com
   }
 
   // iops - computed: true, optional: true, required: false
-  private _iops?: number;
+  private _iops?: number; 
   public get iops() {
     return this.getNumberAttribute('iops');
   }
@@ -1009,7 +1009,7 @@ export class LaunchConfigurationRootBlockDeviceOutputReference extends cdktn.Com
   }
 
   // throughput - computed: true, optional: true, required: false
-  private _throughput?: number;
+  private _throughput?: number; 
   public get throughput() {
     return this.getNumberAttribute('throughput');
   }
@@ -1025,7 +1025,7 @@ export class LaunchConfigurationRootBlockDeviceOutputReference extends cdktn.Com
   }
 
   // volume_size - computed: true, optional: true, required: false
-  private _volumeSize?: number;
+  private _volumeSize?: number; 
   public get volumeSize() {
     return this.getNumberAttribute('volume_size');
   }
@@ -1041,7 +1041,7 @@ export class LaunchConfigurationRootBlockDeviceOutputReference extends cdktn.Com
   }
 
   // volume_type - computed: true, optional: true, required: false
-  private _volumeType?: string;
+  private _volumeType?: string; 
   public get volumeType() {
     return this.getStringAttribute('volume_type');
   }
@@ -1139,7 +1139,7 @@ export class LaunchConfiguration extends cdktn.TerraformResource {
   }
 
   // associate_public_ip_address - computed: true, optional: true, required: false
-  private _associatePublicIpAddress?: boolean | cdktn.IResolvable;
+  private _associatePublicIpAddress?: boolean | cdktn.IResolvable; 
   public get associatePublicIpAddress() {
     return this.getBooleanAttribute('associate_public_ip_address');
   }
@@ -1155,7 +1155,7 @@ export class LaunchConfiguration extends cdktn.TerraformResource {
   }
 
   // ebs_optimized - computed: true, optional: true, required: false
-  private _ebsOptimized?: boolean | cdktn.IResolvable;
+  private _ebsOptimized?: boolean | cdktn.IResolvable; 
   public get ebsOptimized() {
     return this.getBooleanAttribute('ebs_optimized');
   }
@@ -1171,7 +1171,7 @@ export class LaunchConfiguration extends cdktn.TerraformResource {
   }
 
   // enable_monitoring - computed: false, optional: true, required: false
-  private _enableMonitoring?: boolean | cdktn.IResolvable;
+  private _enableMonitoring?: boolean | cdktn.IResolvable; 
   public get enableMonitoring() {
     return this.getBooleanAttribute('enable_monitoring');
   }
@@ -1187,7 +1187,7 @@ export class LaunchConfiguration extends cdktn.TerraformResource {
   }
 
   // iam_instance_profile - computed: false, optional: true, required: false
-  private _iamInstanceProfile?: string;
+  private _iamInstanceProfile?: string; 
   public get iamInstanceProfile() {
     return this.getStringAttribute('iam_instance_profile');
   }
@@ -1203,7 +1203,7 @@ export class LaunchConfiguration extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -1219,7 +1219,7 @@ export class LaunchConfiguration extends cdktn.TerraformResource {
   }
 
   // image_id - computed: false, optional: false, required: true
-  private _imageId?: string;
+  private _imageId?: string; 
   public get imageId() {
     return this.getStringAttribute('image_id');
   }
@@ -1232,7 +1232,7 @@ export class LaunchConfiguration extends cdktn.TerraformResource {
   }
 
   // instance_type - computed: false, optional: false, required: true
-  private _instanceType?: string;
+  private _instanceType?: string; 
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -1245,7 +1245,7 @@ export class LaunchConfiguration extends cdktn.TerraformResource {
   }
 
   // key_name - computed: true, optional: true, required: false
-  private _keyName?: string;
+  private _keyName?: string; 
   public get keyName() {
     return this.getStringAttribute('key_name');
   }
@@ -1261,7 +1261,7 @@ export class LaunchConfiguration extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1277,7 +1277,7 @@ export class LaunchConfiguration extends cdktn.TerraformResource {
   }
 
   // name_prefix - computed: true, optional: true, required: false
-  private _namePrefix?: string;
+  private _namePrefix?: string; 
   public get namePrefix() {
     return this.getStringAttribute('name_prefix');
   }
@@ -1293,7 +1293,7 @@ export class LaunchConfiguration extends cdktn.TerraformResource {
   }
 
   // placement_tenancy - computed: false, optional: true, required: false
-  private _placementTenancy?: string;
+  private _placementTenancy?: string; 
   public get placementTenancy() {
     return this.getStringAttribute('placement_tenancy');
   }
@@ -1309,7 +1309,7 @@ export class LaunchConfiguration extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1325,7 +1325,7 @@ export class LaunchConfiguration extends cdktn.TerraformResource {
   }
 
   // security_groups - computed: false, optional: true, required: false
-  private _securityGroups?: string[];
+  private _securityGroups?: string[]; 
   public get securityGroups() {
     return cdktn.Fn.tolist(this.getListAttribute('security_groups'));
   }
@@ -1341,7 +1341,7 @@ export class LaunchConfiguration extends cdktn.TerraformResource {
   }
 
   // spot_price - computed: false, optional: true, required: false
-  private _spotPrice?: string;
+  private _spotPrice?: string; 
   public get spotPrice() {
     return this.getStringAttribute('spot_price');
   }
@@ -1357,7 +1357,7 @@ export class LaunchConfiguration extends cdktn.TerraformResource {
   }
 
   // user_data - computed: false, optional: true, required: false
-  private _userData?: string;
+  private _userData?: string; 
   public get userData() {
     return this.getStringAttribute('user_data');
   }
@@ -1373,7 +1373,7 @@ export class LaunchConfiguration extends cdktn.TerraformResource {
   }
 
   // user_data_base64 - computed: false, optional: true, required: false
-  private _userDataBase64?: string;
+  private _userDataBase64?: string; 
   public get userDataBase64() {
     return this.getStringAttribute('user_data_base64');
   }

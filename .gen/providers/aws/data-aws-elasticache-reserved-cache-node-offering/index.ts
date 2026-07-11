@@ -93,7 +93,7 @@ export class DataAwsElasticacheReservedCacheNodeOffering extends cdktn.Terraform
   // ==========
 
   // cache_node_type - computed: false, optional: false, required: true
-  private _cacheNodeType?: string;
+  private _cacheNodeType?: string; 
   public get cacheNodeType() {
     return this.getStringAttribute('cache_node_type');
   }
@@ -106,7 +106,7 @@ export class DataAwsElasticacheReservedCacheNodeOffering extends cdktn.Terraform
   }
 
   // duration - computed: false, optional: false, required: true
-  private _duration?: string;
+  private _duration?: string; 
   public get duration() {
     return this.getStringAttribute('duration');
   }
@@ -129,7 +129,7 @@ export class DataAwsElasticacheReservedCacheNodeOffering extends cdktn.Terraform
   }
 
   // offering_type - computed: false, optional: false, required: true
-  private _offeringType?: string;
+  private _offeringType?: string; 
   public get offeringType() {
     return this.getStringAttribute('offering_type');
   }
@@ -142,7 +142,7 @@ export class DataAwsElasticacheReservedCacheNodeOffering extends cdktn.Terraform
   }
 
   // product_description - computed: false, optional: false, required: true
-  private _productDescription?: string;
+  private _productDescription?: string; 
   public get productDescription() {
     return this.getStringAttribute('product_description');
   }
@@ -155,7 +155,7 @@ export class DataAwsElasticacheReservedCacheNodeOffering extends cdktn.Terraform
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

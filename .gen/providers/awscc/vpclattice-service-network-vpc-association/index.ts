@@ -128,7 +128,7 @@ export class VpclatticeServiceNetworkVpcAssociationDnsOptionsOutputReference ext
   }
 
   // private_dns_preference - computed: true, optional: true, required: false
-  private _privateDnsPreference?: string;
+  private _privateDnsPreference?: string; 
   public get privateDnsPreference() {
     return this.getStringAttribute('private_dns_preference');
   }
@@ -144,7 +144,7 @@ export class VpclatticeServiceNetworkVpcAssociationDnsOptionsOutputReference ext
   }
 
   // private_dns_specified_domains - computed: true, optional: true, required: false
-  private _privateDnsSpecifiedDomains?: string[];
+  private _privateDnsSpecifiedDomains?: string[]; 
   public get privateDnsSpecifiedDomains() {
     return cdktn.Fn.tolist(this.getListAttribute('private_dns_specified_domains'));
   }
@@ -257,7 +257,7 @@ export class VpclatticeServiceNetworkVpcAssociationTagsOutputReference extends c
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -273,7 +273,7 @@ export class VpclatticeServiceNetworkVpcAssociationTagsOutputReference extends c
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -403,7 +403,7 @@ export class VpclatticeServiceNetworkVpcAssociation extends cdktn.TerraformResou
   }
 
   // private_dns_enabled - computed: true, optional: true, required: false
-  private _privateDnsEnabled?: boolean | cdktn.IResolvable;
+  private _privateDnsEnabled?: boolean | cdktn.IResolvable; 
   public get privateDnsEnabled() {
     return this.getBooleanAttribute('private_dns_enabled');
   }
@@ -419,7 +419,7 @@ export class VpclatticeServiceNetworkVpcAssociation extends cdktn.TerraformResou
   }
 
   // security_group_ids - computed: true, optional: true, required: false
-  private _securityGroupIds?: string[];
+  private _securityGroupIds?: string[]; 
   public get securityGroupIds() {
     return cdktn.Fn.tolist(this.getListAttribute('security_group_ids'));
   }
@@ -445,7 +445,7 @@ export class VpclatticeServiceNetworkVpcAssociation extends cdktn.TerraformResou
   }
 
   // service_network_identifier - computed: true, optional: true, required: false
-  private _serviceNetworkIdentifier?: string;
+  private _serviceNetworkIdentifier?: string; 
   public get serviceNetworkIdentifier() {
     return this.getStringAttribute('service_network_identifier');
   }
@@ -497,7 +497,7 @@ export class VpclatticeServiceNetworkVpcAssociation extends cdktn.TerraformResou
   }
 
   // vpc_identifier - computed: true, optional: true, required: false
-  private _vpcIdentifier?: string;
+  private _vpcIdentifier?: string; 
   public get vpcIdentifier() {
     return this.getStringAttribute('vpc_identifier');
   }

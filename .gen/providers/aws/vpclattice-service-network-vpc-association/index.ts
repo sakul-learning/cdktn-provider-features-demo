@@ -143,7 +143,7 @@ export class VpclatticeServiceNetworkVpcAssociationDnsOptionsOutputReference ext
   }
 
   // private_dns_preference - computed: false, optional: true, required: false
-  private _privateDnsPreference?: string;
+  private _privateDnsPreference?: string; 
   public get privateDnsPreference() {
     return this.getStringAttribute('private_dns_preference');
   }
@@ -159,7 +159,7 @@ export class VpclatticeServiceNetworkVpcAssociationDnsOptionsOutputReference ext
   }
 
   // private_dns_specified_domains - computed: true, optional: true, required: false
-  private _privateDnsSpecifiedDomains?: string[];
+  private _privateDnsSpecifiedDomains?: string[]; 
   public get privateDnsSpecifiedDomains() {
     return cdktn.Fn.tolist(this.getListAttribute('private_dns_specified_domains'));
   }
@@ -287,7 +287,7 @@ export class VpclatticeServiceNetworkVpcAssociationTimeoutsOutputReference exten
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -303,7 +303,7 @@ export class VpclatticeServiceNetworkVpcAssociationTimeoutsOutputReference exten
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -319,7 +319,7 @@ export class VpclatticeServiceNetworkVpcAssociationTimeoutsOutputReference exten
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -412,7 +412,7 @@ export class VpclatticeServiceNetworkVpcAssociation extends cdktn.TerraformResou
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -428,7 +428,7 @@ export class VpclatticeServiceNetworkVpcAssociation extends cdktn.TerraformResou
   }
 
   // private_dns_enabled - computed: true, optional: true, required: false
-  private _privateDnsEnabled?: boolean | cdktn.IResolvable;
+  private _privateDnsEnabled?: boolean | cdktn.IResolvable; 
   public get privateDnsEnabled() {
     return this.getBooleanAttribute('private_dns_enabled');
   }
@@ -444,7 +444,7 @@ export class VpclatticeServiceNetworkVpcAssociation extends cdktn.TerraformResou
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -460,7 +460,7 @@ export class VpclatticeServiceNetworkVpcAssociation extends cdktn.TerraformResou
   }
 
   // security_group_ids - computed: false, optional: true, required: false
-  private _securityGroupIds?: string[];
+  private _securityGroupIds?: string[]; 
   public get securityGroupIds() {
     return this.getListAttribute('security_group_ids');
   }
@@ -476,7 +476,7 @@ export class VpclatticeServiceNetworkVpcAssociation extends cdktn.TerraformResou
   }
 
   // service_network_identifier - computed: false, optional: false, required: true
-  private _serviceNetworkIdentifier?: string;
+  private _serviceNetworkIdentifier?: string; 
   public get serviceNetworkIdentifier() {
     return this.getStringAttribute('service_network_identifier');
   }
@@ -494,7 +494,7 @@ export class VpclatticeServiceNetworkVpcAssociation extends cdktn.TerraformResou
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -510,7 +510,7 @@ export class VpclatticeServiceNetworkVpcAssociation extends cdktn.TerraformResou
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -526,7 +526,7 @@ export class VpclatticeServiceNetworkVpcAssociation extends cdktn.TerraformResou
   }
 
   // vpc_identifier - computed: false, optional: false, required: true
-  private _vpcIdentifier?: string;
+  private _vpcIdentifier?: string; 
   public get vpcIdentifier() {
     return this.getStringAttribute('vpc_identifier');
   }

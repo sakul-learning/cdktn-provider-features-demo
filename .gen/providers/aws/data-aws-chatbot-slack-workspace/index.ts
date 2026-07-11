@@ -78,7 +78,7 @@ export class DataAwsChatbotSlackWorkspace extends cdktn.TerraformDataSource {
   // ==========
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -99,7 +99,7 @@ export class DataAwsChatbotSlackWorkspace extends cdktn.TerraformDataSource {
   }
 
   // slack_team_name - computed: false, optional: false, required: true
-  private _slackTeamName?: string;
+  private _slackTeamName?: string; 
   public get slackTeamName() {
     return this.getStringAttribute('slack_team_name');
   }

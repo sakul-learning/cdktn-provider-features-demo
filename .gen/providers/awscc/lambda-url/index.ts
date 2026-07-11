@@ -210,7 +210,7 @@ export class LambdaUrlCorsOutputReference extends cdktn.ComplexObject {
   }
 
   // allow_credentials - computed: true, optional: true, required: false
-  private _allowCredentials?: boolean | cdktn.IResolvable;
+  private _allowCredentials?: boolean | cdktn.IResolvable; 
   public get allowCredentials() {
     return this.getBooleanAttribute('allow_credentials');
   }
@@ -226,7 +226,7 @@ export class LambdaUrlCorsOutputReference extends cdktn.ComplexObject {
   }
 
   // allow_headers - computed: true, optional: true, required: false
-  private _allowHeaders?: string[];
+  private _allowHeaders?: string[]; 
   public get allowHeaders() {
     return this.getListAttribute('allow_headers');
   }
@@ -242,7 +242,7 @@ export class LambdaUrlCorsOutputReference extends cdktn.ComplexObject {
   }
 
   // allow_methods - computed: true, optional: true, required: false
-  private _allowMethods?: string[];
+  private _allowMethods?: string[]; 
   public get allowMethods() {
     return this.getListAttribute('allow_methods');
   }
@@ -258,7 +258,7 @@ export class LambdaUrlCorsOutputReference extends cdktn.ComplexObject {
   }
 
   // allow_origins - computed: true, optional: true, required: false
-  private _allowOrigins?: string[];
+  private _allowOrigins?: string[]; 
   public get allowOrigins() {
     return this.getListAttribute('allow_origins');
   }
@@ -274,7 +274,7 @@ export class LambdaUrlCorsOutputReference extends cdktn.ComplexObject {
   }
 
   // expose_headers - computed: true, optional: true, required: false
-  private _exposeHeaders?: string[];
+  private _exposeHeaders?: string[]; 
   public get exposeHeaders() {
     return this.getListAttribute('expose_headers');
   }
@@ -290,7 +290,7 @@ export class LambdaUrlCorsOutputReference extends cdktn.ComplexObject {
   }
 
   // max_age - computed: true, optional: true, required: false
-  private _maxAge?: number;
+  private _maxAge?: number; 
   public get maxAge() {
     return this.getNumberAttribute('max_age');
   }
@@ -368,7 +368,7 @@ export class LambdaUrl extends cdktn.TerraformResource {
   // ==========
 
   // auth_type - computed: false, optional: false, required: true
-  private _authType?: string;
+  private _authType?: string; 
   public get authType() {
     return this.getStringAttribute('auth_type');
   }
@@ -412,7 +412,7 @@ export class LambdaUrl extends cdktn.TerraformResource {
   }
 
   // invoke_mode - computed: true, optional: true, required: false
-  private _invokeMode?: string;
+  private _invokeMode?: string; 
   public get invokeMode() {
     return this.getStringAttribute('invoke_mode');
   }
@@ -428,7 +428,7 @@ export class LambdaUrl extends cdktn.TerraformResource {
   }
 
   // qualifier - computed: true, optional: true, required: false
-  private _qualifier?: string;
+  private _qualifier?: string; 
   public get qualifier() {
     return this.getStringAttribute('qualifier');
   }
@@ -444,7 +444,7 @@ export class LambdaUrl extends cdktn.TerraformResource {
   }
 
   // target_function_arn - computed: false, optional: false, required: true
-  private _targetFunctionArn?: string;
+  private _targetFunctionArn?: string; 
   public get targetFunctionArn() {
     return this.getStringAttribute('target_function_arn');
   }

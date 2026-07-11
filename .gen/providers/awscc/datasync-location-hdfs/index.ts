@@ -179,7 +179,7 @@ export class DatasyncLocationHdfsCmkSecretConfigOutputReference extends cdktn.Co
   }
 
   // kms_key_arn - computed: true, optional: true, required: false
-  private _kmsKeyArn?: string;
+  private _kmsKeyArn?: string; 
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -299,7 +299,7 @@ export class DatasyncLocationHdfsCustomSecretConfigOutputReference extends cdktn
   }
 
   // secret_access_role_arn - computed: true, optional: true, required: false
-  private _secretAccessRoleArn?: string;
+  private _secretAccessRoleArn?: string; 
   public get secretAccessRoleArn() {
     return this.getStringAttribute('secret_access_role_arn');
   }
@@ -315,7 +315,7 @@ export class DatasyncLocationHdfsCustomSecretConfigOutputReference extends cdktn
   }
 
   // secret_arn - computed: true, optional: true, required: false
-  private _secretArn?: string;
+  private _secretArn?: string; 
   public get secretArn() {
     return this.getStringAttribute('secret_arn');
   }
@@ -486,7 +486,7 @@ export class DatasyncLocationHdfsNameNodesOutputReference extends cdktn.ComplexO
   }
 
   // hostname - computed: false, optional: false, required: true
-  private _hostname?: string;
+  private _hostname?: string; 
   public get hostname() {
     return this.getStringAttribute('hostname');
   }
@@ -499,7 +499,7 @@ export class DatasyncLocationHdfsNameNodesOutputReference extends cdktn.ComplexO
   }
 
   // port - computed: false, optional: false, required: true
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -631,7 +631,7 @@ export class DatasyncLocationHdfsQopConfigurationOutputReference extends cdktn.C
   }
 
   // data_transfer_protection - computed: true, optional: true, required: false
-  private _dataTransferProtection?: string;
+  private _dataTransferProtection?: string; 
   public get dataTransferProtection() {
     return this.getStringAttribute('data_transfer_protection');
   }
@@ -647,7 +647,7 @@ export class DatasyncLocationHdfsQopConfigurationOutputReference extends cdktn.C
   }
 
   // rpc_protection - computed: true, optional: true, required: false
-  private _rpcProtection?: string;
+  private _rpcProtection?: string; 
   public get rpcProtection() {
     return this.getStringAttribute('rpc_protection');
   }
@@ -764,7 +764,7 @@ export class DatasyncLocationHdfsTagsOutputReference extends cdktn.ComplexObject
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -780,7 +780,7 @@ export class DatasyncLocationHdfsTagsOutputReference extends cdktn.ComplexObject
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -888,7 +888,7 @@ export class DatasyncLocationHdfs extends cdktn.TerraformResource {
   // ==========
 
   // agent_arns - computed: false, optional: false, required: true
-  private _agentArns?: string[];
+  private _agentArns?: string[]; 
   public get agentArns() {
     return this.getListAttribute('agent_arns');
   }
@@ -901,7 +901,7 @@ export class DatasyncLocationHdfs extends cdktn.TerraformResource {
   }
 
   // authentication_type - computed: false, optional: false, required: true
-  private _authenticationType?: string;
+  private _authenticationType?: string; 
   public get authenticationType() {
     return this.getStringAttribute('authentication_type');
   }
@@ -914,7 +914,7 @@ export class DatasyncLocationHdfs extends cdktn.TerraformResource {
   }
 
   // block_size - computed: true, optional: true, required: false
-  private _blockSize?: number;
+  private _blockSize?: number; 
   public get blockSize() {
     return this.getNumberAttribute('block_size');
   }
@@ -967,7 +967,7 @@ export class DatasyncLocationHdfs extends cdktn.TerraformResource {
   }
 
   // kerberos_keytab - computed: true, optional: true, required: false
-  private _kerberosKeytab?: string;
+  private _kerberosKeytab?: string; 
   public get kerberosKeytab() {
     return this.getStringAttribute('kerberos_keytab');
   }
@@ -983,7 +983,7 @@ export class DatasyncLocationHdfs extends cdktn.TerraformResource {
   }
 
   // kerberos_krb_5_conf - computed: true, optional: true, required: false
-  private _kerberosKrb5Conf?: string;
+  private _kerberosKrb5Conf?: string; 
   public get kerberosKrb5Conf() {
     return this.getStringAttribute('kerberos_krb_5_conf');
   }
@@ -999,7 +999,7 @@ export class DatasyncLocationHdfs extends cdktn.TerraformResource {
   }
 
   // kerberos_principal - computed: true, optional: true, required: false
-  private _kerberosPrincipal?: string;
+  private _kerberosPrincipal?: string; 
   public get kerberosPrincipal() {
     return this.getStringAttribute('kerberos_principal');
   }
@@ -1015,7 +1015,7 @@ export class DatasyncLocationHdfs extends cdktn.TerraformResource {
   }
 
   // kms_key_provider_uri - computed: true, optional: true, required: false
-  private _kmsKeyProviderUri?: string;
+  private _kmsKeyProviderUri?: string; 
   public get kmsKeyProviderUri() {
     return this.getStringAttribute('kms_key_provider_uri');
   }
@@ -1076,7 +1076,7 @@ export class DatasyncLocationHdfs extends cdktn.TerraformResource {
   }
 
   // replication_factor - computed: true, optional: true, required: false
-  private _replicationFactor?: number;
+  private _replicationFactor?: number; 
   public get replicationFactor() {
     return this.getNumberAttribute('replication_factor');
   }
@@ -1092,7 +1092,7 @@ export class DatasyncLocationHdfs extends cdktn.TerraformResource {
   }
 
   // simple_user - computed: true, optional: true, required: false
-  private _simpleUser?: string;
+  private _simpleUser?: string; 
   public get simpleUser() {
     return this.getStringAttribute('simple_user');
   }
@@ -1108,7 +1108,7 @@ export class DatasyncLocationHdfs extends cdktn.TerraformResource {
   }
 
   // subdirectory - computed: true, optional: true, required: false
-  private _subdirectory?: string;
+  private _subdirectory?: string; 
   public get subdirectory() {
     return this.getStringAttribute('subdirectory');
   }

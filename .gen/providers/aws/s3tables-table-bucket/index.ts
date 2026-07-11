@@ -130,7 +130,7 @@ export class S3TablesTableBucketEncryptionConfigurationOutputReference extends c
   }
 
   // kms_key_arn - computed: true, optional: true, required: false
-  private _kmsKeyArn?: string;
+  private _kmsKeyArn?: string; 
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -146,7 +146,7 @@ export class S3TablesTableBucketEncryptionConfigurationOutputReference extends c
   }
 
   // sse_algorithm - computed: true, optional: true, required: false
-  private _sseAlgorithm?: string;
+  private _sseAlgorithm?: string; 
   public get sseAlgorithm() {
     return this.getStringAttribute('sse_algorithm');
   }
@@ -257,7 +257,7 @@ export class S3TablesTableBucketMaintenanceConfigurationIcebergUnreferencedFileR
   }
 
   // non_current_days - computed: true, optional: true, required: false
-  private _nonCurrentDays?: number;
+  private _nonCurrentDays?: number; 
   public get nonCurrentDays() {
     return this.getNumberAttribute('non_current_days');
   }
@@ -273,7 +273,7 @@ export class S3TablesTableBucketMaintenanceConfigurationIcebergUnreferencedFileR
   }
 
   // unreferenced_days - computed: true, optional: true, required: false
-  private _unreferencedDays?: number;
+  private _unreferencedDays?: number; 
   public get unreferencedDays() {
     return this.getNumberAttribute('unreferenced_days');
   }
@@ -400,7 +400,7 @@ export class S3TablesTableBucketMaintenanceConfigurationIcebergUnreferencedFileR
   }
 
   // status - computed: true, optional: true, required: false
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -599,7 +599,7 @@ export class S3TablesTableBucket extends cdktn.TerraformResource {
   }
 
   // force_destroy - computed: true, optional: true, required: false
-  private _forceDestroy?: boolean | cdktn.IResolvable;
+  private _forceDestroy?: boolean | cdktn.IResolvable; 
   public get forceDestroy() {
     return this.getBooleanAttribute('force_destroy');
   }
@@ -631,7 +631,7 @@ export class S3TablesTableBucket extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -649,7 +649,7 @@ export class S3TablesTableBucket extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -665,7 +665,7 @@ export class S3TablesTableBucket extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

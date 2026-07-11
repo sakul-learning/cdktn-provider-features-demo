@@ -151,7 +151,7 @@ export class LbTrustStoreTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -167,7 +167,7 @@ export class LbTrustStoreTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -260,7 +260,7 @@ export class LbTrustStore extends cdktn.TerraformResource {
   }
 
   // ca_certificates_bundle_s3_bucket - computed: false, optional: false, required: true
-  private _caCertificatesBundleS3Bucket?: string;
+  private _caCertificatesBundleS3Bucket?: string; 
   public get caCertificatesBundleS3Bucket() {
     return this.getStringAttribute('ca_certificates_bundle_s3_bucket');
   }
@@ -273,7 +273,7 @@ export class LbTrustStore extends cdktn.TerraformResource {
   }
 
   // ca_certificates_bundle_s3_key - computed: false, optional: false, required: true
-  private _caCertificatesBundleS3Key?: string;
+  private _caCertificatesBundleS3Key?: string; 
   public get caCertificatesBundleS3Key() {
     return this.getStringAttribute('ca_certificates_bundle_s3_key');
   }
@@ -286,7 +286,7 @@ export class LbTrustStore extends cdktn.TerraformResource {
   }
 
   // ca_certificates_bundle_s3_object_version - computed: false, optional: true, required: false
-  private _caCertificatesBundleS3ObjectVersion?: string;
+  private _caCertificatesBundleS3ObjectVersion?: string; 
   public get caCertificatesBundleS3ObjectVersion() {
     return this.getStringAttribute('ca_certificates_bundle_s3_object_version');
   }
@@ -302,7 +302,7 @@ export class LbTrustStore extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -318,7 +318,7 @@ export class LbTrustStore extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -334,7 +334,7 @@ export class LbTrustStore extends cdktn.TerraformResource {
   }
 
   // name_prefix - computed: true, optional: true, required: false
-  private _namePrefix?: string;
+  private _namePrefix?: string; 
   public get namePrefix() {
     return this.getStringAttribute('name_prefix');
   }
@@ -350,7 +350,7 @@ export class LbTrustStore extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -366,7 +366,7 @@ export class LbTrustStore extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -382,7 +382,7 @@ export class LbTrustStore extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

@@ -114,7 +114,7 @@ export class DevopsguruNotificationChannelConfigFiltersOutputReference extends c
   }
 
   // message_types - computed: true, optional: true, required: false
-  private _messageTypes?: string[];
+  private _messageTypes?: string[]; 
   public get messageTypes() {
     return this.getListAttribute('message_types');
   }
@@ -130,7 +130,7 @@ export class DevopsguruNotificationChannelConfigFiltersOutputReference extends c
   }
 
   // severities - computed: true, optional: true, required: false
-  private _severities?: string[];
+  private _severities?: string[]; 
   public get severities() {
     return this.getListAttribute('severities');
   }
@@ -224,7 +224,7 @@ export class DevopsguruNotificationChannelConfigSnsOutputReference extends cdktn
   }
 
   // topic_arn - computed: true, optional: true, required: false
-  private _topicArn?: string;
+  private _topicArn?: string; 
   public get topicArn() {
     return this.getStringAttribute('topic_arn');
   }

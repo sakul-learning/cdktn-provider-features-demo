@@ -138,7 +138,7 @@ export class BackupRestoreTestingSelectionProtectedResourceConditionsStringEqual
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -154,7 +154,7 @@ export class BackupRestoreTestingSelectionProtectedResourceConditionsStringEqual
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -287,7 +287,7 @@ export class BackupRestoreTestingSelectionProtectedResourceConditionsStringNotEq
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -303,7 +303,7 @@ export class BackupRestoreTestingSelectionProtectedResourceConditionsStringNotEq
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -531,7 +531,7 @@ export class BackupRestoreTestingSelection extends cdktn.TerraformResource {
   // ==========
 
   // iam_role_arn - computed: false, optional: false, required: true
-  private _iamRoleArn?: string;
+  private _iamRoleArn?: string; 
   public get iamRoleArn() {
     return this.getStringAttribute('iam_role_arn');
   }
@@ -549,7 +549,7 @@ export class BackupRestoreTestingSelection extends cdktn.TerraformResource {
   }
 
   // protected_resource_arns - computed: true, optional: true, required: false
-  private _protectedResourceArns?: string[];
+  private _protectedResourceArns?: string[]; 
   public get protectedResourceArns() {
     return this.getListAttribute('protected_resource_arns');
   }
@@ -581,7 +581,7 @@ export class BackupRestoreTestingSelection extends cdktn.TerraformResource {
   }
 
   // protected_resource_type - computed: false, optional: false, required: true
-  private _protectedResourceType?: string;
+  private _protectedResourceType?: string; 
   public get protectedResourceType() {
     return this.getStringAttribute('protected_resource_type');
   }
@@ -594,7 +594,7 @@ export class BackupRestoreTestingSelection extends cdktn.TerraformResource {
   }
 
   // restore_metadata_overrides - computed: true, optional: true, required: false
-  private _restoreMetadataOverrides?: { [key: string]: string };
+  private _restoreMetadataOverrides?: { [key: string]: string }; 
   public get restoreMetadataOverrides() {
     return this.getStringMapAttribute('restore_metadata_overrides');
   }
@@ -610,7 +610,7 @@ export class BackupRestoreTestingSelection extends cdktn.TerraformResource {
   }
 
   // restore_testing_plan_name - computed: false, optional: false, required: true
-  private _restoreTestingPlanName?: string;
+  private _restoreTestingPlanName?: string; 
   public get restoreTestingPlanName() {
     return this.getStringAttribute('restore_testing_plan_name');
   }
@@ -623,7 +623,7 @@ export class BackupRestoreTestingSelection extends cdktn.TerraformResource {
   }
 
   // restore_testing_selection_name - computed: false, optional: false, required: true
-  private _restoreTestingSelectionName?: string;
+  private _restoreTestingSelectionName?: string; 
   public get restoreTestingSelectionName() {
     return this.getStringAttribute('restore_testing_selection_name');
   }
@@ -636,7 +636,7 @@ export class BackupRestoreTestingSelection extends cdktn.TerraformResource {
   }
 
   // validation_window_hours - computed: true, optional: true, required: false
-  private _validationWindowHours?: number;
+  private _validationWindowHours?: number; 
   public get validationWindowHours() {
     return this.getNumberAttribute('validation_window_hours');
   }

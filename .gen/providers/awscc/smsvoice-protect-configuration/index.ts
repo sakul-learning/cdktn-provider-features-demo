@@ -128,7 +128,7 @@ export class SmsvoiceProtectConfigurationCountryRuleSetMmsOutputReference extend
   }
 
   // country_code - computed: true, optional: true, required: false
-  private _countryCode?: string;
+  private _countryCode?: string; 
   public get countryCode() {
     return this.getStringAttribute('country_code');
   }
@@ -144,7 +144,7 @@ export class SmsvoiceProtectConfigurationCountryRuleSetMmsOutputReference extend
   }
 
   // protect_status - computed: true, optional: true, required: false
-  private _protectStatus?: string;
+  private _protectStatus?: string; 
   public get protectStatus() {
     return this.getStringAttribute('protect_status');
   }
@@ -281,7 +281,7 @@ export class SmsvoiceProtectConfigurationCountryRuleSetSmsOutputReference extend
   }
 
   // country_code - computed: true, optional: true, required: false
-  private _countryCode?: string;
+  private _countryCode?: string; 
   public get countryCode() {
     return this.getStringAttribute('country_code');
   }
@@ -297,7 +297,7 @@ export class SmsvoiceProtectConfigurationCountryRuleSetSmsOutputReference extend
   }
 
   // protect_status - computed: true, optional: true, required: false
-  private _protectStatus?: string;
+  private _protectStatus?: string; 
   public get protectStatus() {
     return this.getStringAttribute('protect_status');
   }
@@ -434,7 +434,7 @@ export class SmsvoiceProtectConfigurationCountryRuleSetVoiceOutputReference exte
   }
 
   // country_code - computed: true, optional: true, required: false
-  private _countryCode?: string;
+  private _countryCode?: string; 
   public get countryCode() {
     return this.getStringAttribute('country_code');
   }
@@ -450,7 +450,7 @@ export class SmsvoiceProtectConfigurationCountryRuleSetVoiceOutputReference exte
   }
 
   // protect_status - computed: true, optional: true, required: false
-  private _protectStatus?: string;
+  private _protectStatus?: string; 
   public get protectStatus() {
     return this.getStringAttribute('protect_status');
   }
@@ -747,7 +747,7 @@ export class SmsvoiceProtectConfigurationTagsOutputReference extends cdktn.Compl
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -763,7 +763,7 @@ export class SmsvoiceProtectConfigurationTagsOutputReference extends cdktn.Compl
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -880,7 +880,7 @@ export class SmsvoiceProtectConfiguration extends cdktn.TerraformResource {
   }
 
   // deletion_protection_enabled - computed: true, optional: true, required: false
-  private _deletionProtectionEnabled?: boolean | cdktn.IResolvable;
+  private _deletionProtectionEnabled?: boolean | cdktn.IResolvable; 
   public get deletionProtectionEnabled() {
     return this.getBooleanAttribute('deletion_protection_enabled');
   }

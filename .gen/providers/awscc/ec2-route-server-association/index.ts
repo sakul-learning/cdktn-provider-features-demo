@@ -85,7 +85,7 @@ export class Ec2RouteServerAssociation extends cdktn.TerraformResource {
   }
 
   // route_server_id - computed: false, optional: false, required: true
-  private _routeServerId?: string;
+  private _routeServerId?: string; 
   public get routeServerId() {
     return this.getStringAttribute('route_server_id');
   }
@@ -98,7 +98,7 @@ export class Ec2RouteServerAssociation extends cdktn.TerraformResource {
   }
 
   // vpc_id - computed: false, optional: false, required: true
-  private _vpcId?: string;
+  private _vpcId?: string; 
   public get vpcId() {
     return this.getStringAttribute('vpc_id');
   }

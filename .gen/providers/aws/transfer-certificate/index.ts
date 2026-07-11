@@ -126,7 +126,7 @@ export class TransferCertificate extends cdktn.TerraformResource {
   }
 
   // certificate - computed: false, optional: false, required: true
-  private _certificate?: string;
+  private _certificate?: string; 
   public get certificate() {
     return this.getStringAttribute('certificate');
   }
@@ -139,7 +139,7 @@ export class TransferCertificate extends cdktn.TerraformResource {
   }
 
   // certificate_chain - computed: false, optional: true, required: false
-  private _certificateChain?: string;
+  private _certificateChain?: string; 
   public get certificateChain() {
     return this.getStringAttribute('certificate_chain');
   }
@@ -160,7 +160,7 @@ export class TransferCertificate extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -176,7 +176,7 @@ export class TransferCertificate extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -197,7 +197,7 @@ export class TransferCertificate extends cdktn.TerraformResource {
   }
 
   // private_key - computed: false, optional: true, required: false
-  private _privateKey?: string;
+  private _privateKey?: string; 
   public get privateKey() {
     return this.getStringAttribute('private_key');
   }
@@ -213,7 +213,7 @@ export class TransferCertificate extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -229,7 +229,7 @@ export class TransferCertificate extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -245,7 +245,7 @@ export class TransferCertificate extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -261,7 +261,7 @@ export class TransferCertificate extends cdktn.TerraformResource {
   }
 
   // usage - computed: false, optional: false, required: true
-  private _usage?: string;
+  private _usage?: string; 
   public get usage() {
     return this.getStringAttribute('usage');
   }

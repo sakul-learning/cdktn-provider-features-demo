@@ -98,7 +98,7 @@ export class RedshiftLogging extends cdktn.TerraformResource {
   // ==========
 
   // bucket_name - computed: false, optional: true, required: false
-  private _bucketName?: string;
+  private _bucketName?: string; 
   public get bucketName() {
     return this.getStringAttribute('bucket_name');
   }
@@ -114,7 +114,7 @@ export class RedshiftLogging extends cdktn.TerraformResource {
   }
 
   // cluster_identifier - computed: false, optional: false, required: true
-  private _clusterIdentifier?: string;
+  private _clusterIdentifier?: string; 
   public get clusterIdentifier() {
     return this.getStringAttribute('cluster_identifier');
   }
@@ -132,7 +132,7 @@ export class RedshiftLogging extends cdktn.TerraformResource {
   }
 
   // log_destination_type - computed: false, optional: true, required: false
-  private _logDestinationType?: string;
+  private _logDestinationType?: string; 
   public get logDestinationType() {
     return this.getStringAttribute('log_destination_type');
   }
@@ -148,7 +148,7 @@ export class RedshiftLogging extends cdktn.TerraformResource {
   }
 
   // log_exports - computed: false, optional: true, required: false
-  private _logExports?: string[];
+  private _logExports?: string[]; 
   public get logExports() {
     return cdktn.Fn.tolist(this.getListAttribute('log_exports'));
   }
@@ -164,7 +164,7 @@ export class RedshiftLogging extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -180,7 +180,7 @@ export class RedshiftLogging extends cdktn.TerraformResource {
   }
 
   // s3_key_prefix - computed: false, optional: true, required: false
-  private _s3KeyPrefix?: string;
+  private _s3KeyPrefix?: string; 
   public get s3KeyPrefix() {
     return this.getStringAttribute('s3_key_prefix');
   }

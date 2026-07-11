@@ -159,7 +159,7 @@ export class Ec2EipTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -175,7 +175,7 @@ export class Ec2EipTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -276,7 +276,7 @@ export class Ec2Eip extends cdktn.TerraformResource {
   // ==========
 
   // address - computed: true, optional: true, required: false
-  private _address?: string;
+  private _address?: string; 
   public get address() {
     return this.getStringAttribute('address');
   }
@@ -297,7 +297,7 @@ export class Ec2Eip extends cdktn.TerraformResource {
   }
 
   // domain - computed: true, optional: true, required: false
-  private _domain?: string;
+  private _domain?: string; 
   public get domain() {
     return this.getStringAttribute('domain');
   }
@@ -318,7 +318,7 @@ export class Ec2Eip extends cdktn.TerraformResource {
   }
 
   // instance_id - computed: true, optional: true, required: false
-  private _instanceId?: string;
+  private _instanceId?: string; 
   public get instanceId() {
     return this.getStringAttribute('instance_id');
   }
@@ -334,7 +334,7 @@ export class Ec2Eip extends cdktn.TerraformResource {
   }
 
   // ipam_pool_id - computed: true, optional: true, required: false
-  private _ipamPoolId?: string;
+  private _ipamPoolId?: string; 
   public get ipamPoolId() {
     return this.getStringAttribute('ipam_pool_id');
   }
@@ -350,7 +350,7 @@ export class Ec2Eip extends cdktn.TerraformResource {
   }
 
   // network_border_group - computed: true, optional: true, required: false
-  private _networkBorderGroup?: string;
+  private _networkBorderGroup?: string; 
   public get networkBorderGroup() {
     return this.getStringAttribute('network_border_group');
   }
@@ -371,7 +371,7 @@ export class Ec2Eip extends cdktn.TerraformResource {
   }
 
   // public_ipv_4_pool - computed: true, optional: true, required: false
-  private _publicIpv4Pool?: string;
+  private _publicIpv4Pool?: string; 
   public get publicIpv4Pool() {
     return this.getStringAttribute('public_ipv_4_pool');
   }
@@ -403,7 +403,7 @@ export class Ec2Eip extends cdktn.TerraformResource {
   }
 
   // transfer_address - computed: true, optional: true, required: false
-  private _transferAddress?: string;
+  private _transferAddress?: string; 
   public get transferAddress() {
     return this.getStringAttribute('transfer_address');
   }

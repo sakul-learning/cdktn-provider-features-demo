@@ -225,7 +225,7 @@ export class ArcregionswitchPlanAssociatedAlarmsOutputReference extends cdktn.Co
   }
 
   // alarm_type - computed: false, optional: false, required: true
-  private _alarmType?: string;
+  private _alarmType?: string; 
   public get alarmType() {
     return this.getStringAttribute('alarm_type');
   }
@@ -238,7 +238,7 @@ export class ArcregionswitchPlanAssociatedAlarmsOutputReference extends cdktn.Co
   }
 
   // cross_account_role - computed: false, optional: true, required: false
-  private _crossAccountRole?: string;
+  private _crossAccountRole?: string; 
   public get crossAccountRole() {
     return this.getStringAttribute('cross_account_role');
   }
@@ -254,7 +254,7 @@ export class ArcregionswitchPlanAssociatedAlarmsOutputReference extends cdktn.Co
   }
 
   // external_id - computed: false, optional: true, required: false
-  private _externalId?: string;
+  private _externalId?: string; 
   public get externalId() {
     return this.getStringAttribute('external_id');
   }
@@ -270,7 +270,7 @@ export class ArcregionswitchPlanAssociatedAlarmsOutputReference extends cdktn.Co
   }
 
   // map_block_key - computed: false, optional: false, required: true
-  private _mapBlockKey?: string;
+  private _mapBlockKey?: string; 
   public get mapBlockKey() {
     return this.getStringAttribute('map_block_key');
   }
@@ -283,7 +283,7 @@ export class ArcregionswitchPlanAssociatedAlarmsOutputReference extends cdktn.Co
   }
 
   // resource_identifier - computed: false, optional: false, required: true
-  private _resourceIdentifier?: string;
+  private _resourceIdentifier?: string; 
   public get resourceIdentifier() {
     return this.getStringAttribute('resource_identifier');
   }
@@ -413,7 +413,7 @@ export class ArcregionswitchPlanReportConfigurationReportOutputS3ConfigurationOu
   }
 
   // bucket_owner - computed: false, optional: false, required: true
-  private _bucketOwner?: string;
+  private _bucketOwner?: string; 
   public get bucketOwner() {
     return this.getStringAttribute('bucket_owner');
   }
@@ -426,7 +426,7 @@ export class ArcregionswitchPlanReportConfigurationReportOutputS3ConfigurationOu
   }
 
   // bucket_path - computed: false, optional: false, required: true
-  private _bucketPath?: string;
+  private _bucketPath?: string; 
   public get bucketPath() {
     return this.getStringAttribute('bucket_path');
   }
@@ -813,7 +813,7 @@ export class ArcregionswitchPlanTimeoutsOutputReference extends cdktn.ComplexObj
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -829,7 +829,7 @@ export class ArcregionswitchPlanTimeoutsOutputReference extends cdktn.ComplexObj
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -845,7 +845,7 @@ export class ArcregionswitchPlanTimeoutsOutputReference extends cdktn.ComplexObj
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -958,7 +958,7 @@ export class ArcregionswitchPlanTriggersConditionsOutputReference extends cdktn.
   }
 
   // associated_alarm_name - computed: false, optional: false, required: true
-  private _associatedAlarmName?: string;
+  private _associatedAlarmName?: string; 
   public get associatedAlarmName() {
     return this.getStringAttribute('associated_alarm_name');
   }
@@ -971,7 +971,7 @@ export class ArcregionswitchPlanTriggersConditionsOutputReference extends cdktn.
   }
 
   // condition - computed: false, optional: false, required: true
-  private _condition?: string;
+  private _condition?: string; 
   public get condition() {
     return this.getStringAttribute('condition');
   }
@@ -1154,7 +1154,7 @@ export class ArcregionswitchPlanTriggersOutputReference extends cdktn.ComplexObj
   }
 
   // action - computed: false, optional: false, required: true
-  private _action?: string;
+  private _action?: string; 
   public get action() {
     return this.getStringAttribute('action');
   }
@@ -1167,7 +1167,7 @@ export class ArcregionswitchPlanTriggersOutputReference extends cdktn.ComplexObj
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1183,7 +1183,7 @@ export class ArcregionswitchPlanTriggersOutputReference extends cdktn.ComplexObj
   }
 
   // min_delay_minutes_between_executions - computed: false, optional: false, required: true
-  private _minDelayMinutesBetweenExecutions?: number;
+  private _minDelayMinutesBetweenExecutions?: number; 
   public get minDelayMinutesBetweenExecutions() {
     return this.getNumberAttribute('min_delay_minutes_between_executions');
   }
@@ -1196,7 +1196,7 @@ export class ArcregionswitchPlanTriggersOutputReference extends cdktn.ComplexObj
   }
 
   // target_region - computed: false, optional: false, required: true
-  private _targetRegion?: string;
+  private _targetRegion?: string; 
   public get targetRegion() {
     return this.getStringAttribute('target_region');
   }
@@ -1342,7 +1342,7 @@ export class ArcregionswitchPlanWorkflowStepArcRoutingControlConfigRegionAndRout
   }
 
   // routing_control_arn - computed: false, optional: false, required: true
-  private _routingControlArn?: string;
+  private _routingControlArn?: string; 
   public get routingControlArn() {
     return this.getStringAttribute('routing_control_arn');
   }
@@ -1355,7 +1355,7 @@ export class ArcregionswitchPlanWorkflowStepArcRoutingControlConfigRegionAndRout
   }
 
   // state - computed: false, optional: false, required: true
-  private _state?: string;
+  private _state?: string; 
   public get state() {
     return this.getStringAttribute('state');
   }
@@ -1487,7 +1487,7 @@ export class ArcregionswitchPlanWorkflowStepArcRoutingControlConfigRegionAndRout
   }
 
   // region - computed: false, optional: false, required: true
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1669,7 +1669,7 @@ export class ArcregionswitchPlanWorkflowStepArcRoutingControlConfigOutputReferen
   }
 
   // cross_account_role - computed: false, optional: true, required: false
-  private _crossAccountRole?: string;
+  private _crossAccountRole?: string; 
   public get crossAccountRole() {
     return this.getStringAttribute('cross_account_role');
   }
@@ -1685,7 +1685,7 @@ export class ArcregionswitchPlanWorkflowStepArcRoutingControlConfigOutputReferen
   }
 
   // external_id - computed: false, optional: true, required: false
-  private _externalId?: string;
+  private _externalId?: string; 
   public get externalId() {
     return this.getStringAttribute('external_id');
   }
@@ -1701,7 +1701,7 @@ export class ArcregionswitchPlanWorkflowStepArcRoutingControlConfigOutputReferen
   }
 
   // timeout_minutes - computed: false, optional: true, required: false
-  private _timeoutMinutes?: number;
+  private _timeoutMinutes?: number; 
   public get timeoutMinutes() {
     return this.getNumberAttribute('timeout_minutes');
   }
@@ -1867,7 +1867,7 @@ export class ArcregionswitchPlanWorkflowStepCustomActionLambdaConfigLambdaOutput
   }
 
   // arn - computed: false, optional: false, required: true
-  private _arn?: string;
+  private _arn?: string; 
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -1880,7 +1880,7 @@ export class ArcregionswitchPlanWorkflowStepCustomActionLambdaConfigLambdaOutput
   }
 
   // cross_account_role - computed: false, optional: true, required: false
-  private _crossAccountRole?: string;
+  private _crossAccountRole?: string; 
   public get crossAccountRole() {
     return this.getStringAttribute('cross_account_role');
   }
@@ -1896,7 +1896,7 @@ export class ArcregionswitchPlanWorkflowStepCustomActionLambdaConfigLambdaOutput
   }
 
   // external_id - computed: false, optional: true, required: false
-  private _externalId?: string;
+  private _externalId?: string; 
   public get externalId() {
     return this.getStringAttribute('external_id');
   }
@@ -2012,7 +2012,7 @@ export class ArcregionswitchPlanWorkflowStepCustomActionLambdaConfigUngracefulOu
   }
 
   // behavior - computed: false, optional: false, required: true
-  private _behavior?: string;
+  private _behavior?: string; 
   public get behavior() {
     return this.getStringAttribute('behavior');
   }
@@ -2197,7 +2197,7 @@ export class ArcregionswitchPlanWorkflowStepCustomActionLambdaConfigOutputRefere
   }
 
   // region_to_run - computed: false, optional: false, required: true
-  private _regionToRun?: string;
+  private _regionToRun?: string; 
   public get regionToRun() {
     return this.getStringAttribute('region_to_run');
   }
@@ -2210,7 +2210,7 @@ export class ArcregionswitchPlanWorkflowStepCustomActionLambdaConfigOutputRefere
   }
 
   // retry_interval_minutes - computed: false, optional: false, required: true
-  private _retryIntervalMinutes?: number;
+  private _retryIntervalMinutes?: number; 
   public get retryIntervalMinutes() {
     return this.getNumberAttribute('retry_interval_minutes');
   }
@@ -2223,7 +2223,7 @@ export class ArcregionswitchPlanWorkflowStepCustomActionLambdaConfigOutputRefere
   }
 
   // timeout_minutes - computed: false, optional: true, required: false
-  private _timeoutMinutes?: number;
+  private _timeoutMinutes?: number; 
   public get timeoutMinutes() {
     return this.getNumberAttribute('timeout_minutes');
   }
@@ -2371,7 +2371,7 @@ export class ArcregionswitchPlanWorkflowStepDocumentDbConfigUngracefulOutputRefe
   }
 
   // ungraceful - computed: false, optional: false, required: true
-  private _ungraceful?: string;
+  private _ungraceful?: string; 
   public get ungraceful() {
     return this.getStringAttribute('ungraceful');
   }
@@ -2588,7 +2588,7 @@ export class ArcregionswitchPlanWorkflowStepDocumentDbConfigOutputReference exte
   }
 
   // behavior - computed: false, optional: false, required: true
-  private _behavior?: string;
+  private _behavior?: string; 
   public get behavior() {
     return this.getStringAttribute('behavior');
   }
@@ -2601,7 +2601,7 @@ export class ArcregionswitchPlanWorkflowStepDocumentDbConfigOutputReference exte
   }
 
   // cross_account_role - computed: false, optional: true, required: false
-  private _crossAccountRole?: string;
+  private _crossAccountRole?: string; 
   public get crossAccountRole() {
     return this.getStringAttribute('cross_account_role');
   }
@@ -2617,7 +2617,7 @@ export class ArcregionswitchPlanWorkflowStepDocumentDbConfigOutputReference exte
   }
 
   // database_cluster_arns - computed: false, optional: false, required: true
-  private _databaseClusterArns?: string[];
+  private _databaseClusterArns?: string[]; 
   public get databaseClusterArns() {
     return this.getListAttribute('database_cluster_arns');
   }
@@ -2630,7 +2630,7 @@ export class ArcregionswitchPlanWorkflowStepDocumentDbConfigOutputReference exte
   }
 
   // external_id - computed: false, optional: true, required: false
-  private _externalId?: string;
+  private _externalId?: string; 
   public get externalId() {
     return this.getStringAttribute('external_id');
   }
@@ -2646,7 +2646,7 @@ export class ArcregionswitchPlanWorkflowStepDocumentDbConfigOutputReference exte
   }
 
   // global_cluster_identifier - computed: false, optional: false, required: true
-  private _globalClusterIdentifier?: string;
+  private _globalClusterIdentifier?: string; 
   public get globalClusterIdentifier() {
     return this.getStringAttribute('global_cluster_identifier');
   }
@@ -2659,7 +2659,7 @@ export class ArcregionswitchPlanWorkflowStepDocumentDbConfigOutputReference exte
   }
 
   // timeout_minutes - computed: false, optional: true, required: false
-  private _timeoutMinutes?: number;
+  private _timeoutMinutes?: number; 
   public get timeoutMinutes() {
     return this.getNumberAttribute('timeout_minutes');
   }
@@ -2825,7 +2825,7 @@ export class ArcregionswitchPlanWorkflowStepEc2AsgCapacityIncreaseConfigAsgOutpu
   }
 
   // arn - computed: false, optional: false, required: true
-  private _arn?: string;
+  private _arn?: string; 
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -2838,7 +2838,7 @@ export class ArcregionswitchPlanWorkflowStepEc2AsgCapacityIncreaseConfigAsgOutpu
   }
 
   // cross_account_role - computed: false, optional: true, required: false
-  private _crossAccountRole?: string;
+  private _crossAccountRole?: string; 
   public get crossAccountRole() {
     return this.getStringAttribute('cross_account_role');
   }
@@ -2854,7 +2854,7 @@ export class ArcregionswitchPlanWorkflowStepEc2AsgCapacityIncreaseConfigAsgOutpu
   }
 
   // external_id - computed: false, optional: true, required: false
-  private _externalId?: string;
+  private _externalId?: string; 
   public get externalId() {
     return this.getStringAttribute('external_id');
   }
@@ -2970,7 +2970,7 @@ export class ArcregionswitchPlanWorkflowStepEc2AsgCapacityIncreaseConfigUngracef
   }
 
   // minimum_success_percentage - computed: false, optional: false, required: true
-  private _minimumSuccessPercentage?: number;
+  private _minimumSuccessPercentage?: number; 
   public get minimumSuccessPercentage() {
     return this.getNumberAttribute('minimum_success_percentage');
   }
@@ -3155,7 +3155,7 @@ export class ArcregionswitchPlanWorkflowStepEc2AsgCapacityIncreaseConfigOutputRe
   }
 
   // capacity_monitoring_approach - computed: false, optional: false, required: true
-  private _capacityMonitoringApproach?: string;
+  private _capacityMonitoringApproach?: string; 
   public get capacityMonitoringApproach() {
     return this.getStringAttribute('capacity_monitoring_approach');
   }
@@ -3168,7 +3168,7 @@ export class ArcregionswitchPlanWorkflowStepEc2AsgCapacityIncreaseConfigOutputRe
   }
 
   // target_percent - computed: false, optional: true, required: false
-  private _targetPercent?: number;
+  private _targetPercent?: number; 
   public get targetPercent() {
     return this.getNumberAttribute('target_percent');
   }
@@ -3184,7 +3184,7 @@ export class ArcregionswitchPlanWorkflowStepEc2AsgCapacityIncreaseConfigOutputRe
   }
 
   // timeout_minutes - computed: false, optional: true, required: false
-  private _timeoutMinutes?: number;
+  private _timeoutMinutes?: number; 
   public get timeoutMinutes() {
     return this.getNumberAttribute('timeout_minutes');
   }
@@ -3383,7 +3383,7 @@ export class ArcregionswitchPlanWorkflowStepEcsCapacityIncreaseConfigServiceOutp
   }
 
   // cluster_arn - computed: false, optional: false, required: true
-  private _clusterArn?: string;
+  private _clusterArn?: string; 
   public get clusterArn() {
     return this.getStringAttribute('cluster_arn');
   }
@@ -3396,7 +3396,7 @@ export class ArcregionswitchPlanWorkflowStepEcsCapacityIncreaseConfigServiceOutp
   }
 
   // cross_account_role - computed: false, optional: true, required: false
-  private _crossAccountRole?: string;
+  private _crossAccountRole?: string; 
   public get crossAccountRole() {
     return this.getStringAttribute('cross_account_role');
   }
@@ -3412,7 +3412,7 @@ export class ArcregionswitchPlanWorkflowStepEcsCapacityIncreaseConfigServiceOutp
   }
 
   // external_id - computed: false, optional: true, required: false
-  private _externalId?: string;
+  private _externalId?: string; 
   public get externalId() {
     return this.getStringAttribute('external_id');
   }
@@ -3428,7 +3428,7 @@ export class ArcregionswitchPlanWorkflowStepEcsCapacityIncreaseConfigServiceOutp
   }
 
   // service_arn - computed: false, optional: false, required: true
-  private _serviceArn?: string;
+  private _serviceArn?: string; 
   public get serviceArn() {
     return this.getStringAttribute('service_arn');
   }
@@ -3541,7 +3541,7 @@ export class ArcregionswitchPlanWorkflowStepEcsCapacityIncreaseConfigUngracefulO
   }
 
   // minimum_success_percentage - computed: false, optional: false, required: true
-  private _minimumSuccessPercentage?: number;
+  private _minimumSuccessPercentage?: number; 
   public get minimumSuccessPercentage() {
     return this.getNumberAttribute('minimum_success_percentage');
   }
@@ -3726,7 +3726,7 @@ export class ArcregionswitchPlanWorkflowStepEcsCapacityIncreaseConfigOutputRefer
   }
 
   // capacity_monitoring_approach - computed: false, optional: false, required: true
-  private _capacityMonitoringApproach?: string;
+  private _capacityMonitoringApproach?: string; 
   public get capacityMonitoringApproach() {
     return this.getStringAttribute('capacity_monitoring_approach');
   }
@@ -3739,7 +3739,7 @@ export class ArcregionswitchPlanWorkflowStepEcsCapacityIncreaseConfigOutputRefer
   }
 
   // target_percent - computed: false, optional: true, required: false
-  private _targetPercent?: number;
+  private _targetPercent?: number; 
   public get targetPercent() {
     return this.getNumberAttribute('target_percent');
   }
@@ -3755,7 +3755,7 @@ export class ArcregionswitchPlanWorkflowStepEcsCapacityIncreaseConfigOutputRefer
   }
 
   // timeout_minutes - computed: false, optional: true, required: false
-  private _timeoutMinutes?: number;
+  private _timeoutMinutes?: number; 
   public get timeoutMinutes() {
     return this.getNumberAttribute('timeout_minutes');
   }
@@ -3937,7 +3937,7 @@ export class ArcregionswitchPlanWorkflowStepEksResourceScalingConfigEksClustersO
   }
 
   // cluster_arn - computed: false, optional: false, required: true
-  private _clusterArn?: string;
+  private _clusterArn?: string; 
   public get clusterArn() {
     return this.getStringAttribute('cluster_arn');
   }
@@ -3950,7 +3950,7 @@ export class ArcregionswitchPlanWorkflowStepEksResourceScalingConfigEksClustersO
   }
 
   // cross_account_role - computed: false, optional: true, required: false
-  private _crossAccountRole?: string;
+  private _crossAccountRole?: string; 
   public get crossAccountRole() {
     return this.getStringAttribute('cross_account_role');
   }
@@ -3966,7 +3966,7 @@ export class ArcregionswitchPlanWorkflowStepEksResourceScalingConfigEksClustersO
   }
 
   // external_id - computed: false, optional: true, required: false
-  private _externalId?: string;
+  private _externalId?: string; 
   public get externalId() {
     return this.getStringAttribute('external_id');
   }
@@ -4099,7 +4099,7 @@ export class ArcregionswitchPlanWorkflowStepEksResourceScalingConfigKubernetesRe
   }
 
   // api_version - computed: false, optional: false, required: true
-  private _apiVersion?: string;
+  private _apiVersion?: string; 
   public get apiVersion() {
     return this.getStringAttribute('api_version');
   }
@@ -4112,7 +4112,7 @@ export class ArcregionswitchPlanWorkflowStepEksResourceScalingConfigKubernetesRe
   }
 
   // kind - computed: false, optional: false, required: true
-  private _kind?: string;
+  private _kind?: string; 
   public get kind() {
     return this.getStringAttribute('kind');
   }
@@ -4276,7 +4276,7 @@ export class ArcregionswitchPlanWorkflowStepEksResourceScalingConfigScalingResou
   }
 
   // hpa_name - computed: false, optional: true, required: false
-  private _hpaName?: string;
+  private _hpaName?: string; 
   public get hpaName() {
     return this.getStringAttribute('hpa_name');
   }
@@ -4292,7 +4292,7 @@ export class ArcregionswitchPlanWorkflowStepEksResourceScalingConfigScalingResou
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -4305,7 +4305,7 @@ export class ArcregionswitchPlanWorkflowStepEksResourceScalingConfigScalingResou
   }
 
   // namespace - computed: false, optional: false, required: true
-  private _namespace?: string;
+  private _namespace?: string; 
   public get namespace() {
     return this.getStringAttribute('namespace');
   }
@@ -4318,7 +4318,7 @@ export class ArcregionswitchPlanWorkflowStepEksResourceScalingConfigScalingResou
   }
 
   // resource_name - computed: false, optional: false, required: true
-  private _resourceName?: string;
+  private _resourceName?: string; 
   public get resourceName() {
     return this.getStringAttribute('resource_name');
   }
@@ -4450,7 +4450,7 @@ export class ArcregionswitchPlanWorkflowStepEksResourceScalingConfigScalingResou
   }
 
   // namespace - computed: false, optional: false, required: true
-  private _namespace?: string;
+  private _namespace?: string; 
   public get namespace() {
     return this.getStringAttribute('namespace');
   }
@@ -4579,7 +4579,7 @@ export class ArcregionswitchPlanWorkflowStepEksResourceScalingConfigUngracefulOu
   }
 
   // minimum_success_percentage - computed: false, optional: false, required: true
-  private _minimumSuccessPercentage?: number;
+  private _minimumSuccessPercentage?: number; 
   public get minimumSuccessPercentage() {
     return this.getNumberAttribute('minimum_success_percentage');
   }
@@ -4802,7 +4802,7 @@ export class ArcregionswitchPlanWorkflowStepEksResourceScalingConfigOutputRefere
   }
 
   // capacity_monitoring_approach - computed: false, optional: false, required: true
-  private _capacityMonitoringApproach?: string;
+  private _capacityMonitoringApproach?: string; 
   public get capacityMonitoringApproach() {
     return this.getStringAttribute('capacity_monitoring_approach');
   }
@@ -4815,7 +4815,7 @@ export class ArcregionswitchPlanWorkflowStepEksResourceScalingConfigOutputRefere
   }
 
   // target_percent - computed: false, optional: false, required: true
-  private _targetPercent?: number;
+  private _targetPercent?: number; 
   public get targetPercent() {
     return this.getNumberAttribute('target_percent');
   }
@@ -4828,7 +4828,7 @@ export class ArcregionswitchPlanWorkflowStepEksResourceScalingConfigOutputRefere
   }
 
   // timeout_minutes - computed: false, optional: true, required: false
-  private _timeoutMinutes?: number;
+  private _timeoutMinutes?: number; 
   public get timeoutMinutes() {
     return this.getNumberAttribute('timeout_minutes');
   }
@@ -5025,7 +5025,7 @@ export class ArcregionswitchPlanWorkflowStepExecutionApprovalConfigOutputReferen
   }
 
   // approval_role - computed: false, optional: false, required: true
-  private _approvalRole?: string;
+  private _approvalRole?: string; 
   public get approvalRole() {
     return this.getStringAttribute('approval_role');
   }
@@ -5038,7 +5038,7 @@ export class ArcregionswitchPlanWorkflowStepExecutionApprovalConfigOutputReferen
   }
 
   // timeout_minutes - computed: false, optional: true, required: false
-  private _timeoutMinutes?: number;
+  private _timeoutMinutes?: number; 
   public get timeoutMinutes() {
     return this.getNumberAttribute('timeout_minutes');
   }
@@ -5154,7 +5154,7 @@ export class ArcregionswitchPlanWorkflowStepGlobalAuroraConfigUngracefulOutputRe
   }
 
   // ungraceful - computed: false, optional: false, required: true
-  private _ungraceful?: string;
+  private _ungraceful?: string; 
   public get ungraceful() {
     return this.getStringAttribute('ungraceful');
   }
@@ -5371,7 +5371,7 @@ export class ArcregionswitchPlanWorkflowStepGlobalAuroraConfigOutputReference ex
   }
 
   // behavior - computed: false, optional: false, required: true
-  private _behavior?: string;
+  private _behavior?: string; 
   public get behavior() {
     return this.getStringAttribute('behavior');
   }
@@ -5384,7 +5384,7 @@ export class ArcregionswitchPlanWorkflowStepGlobalAuroraConfigOutputReference ex
   }
 
   // cross_account_role - computed: false, optional: true, required: false
-  private _crossAccountRole?: string;
+  private _crossAccountRole?: string; 
   public get crossAccountRole() {
     return this.getStringAttribute('cross_account_role');
   }
@@ -5400,7 +5400,7 @@ export class ArcregionswitchPlanWorkflowStepGlobalAuroraConfigOutputReference ex
   }
 
   // database_cluster_arns - computed: false, optional: false, required: true
-  private _databaseClusterArns?: string[];
+  private _databaseClusterArns?: string[]; 
   public get databaseClusterArns() {
     return this.getListAttribute('database_cluster_arns');
   }
@@ -5413,7 +5413,7 @@ export class ArcregionswitchPlanWorkflowStepGlobalAuroraConfigOutputReference ex
   }
 
   // external_id - computed: false, optional: true, required: false
-  private _externalId?: string;
+  private _externalId?: string; 
   public get externalId() {
     return this.getStringAttribute('external_id');
   }
@@ -5429,7 +5429,7 @@ export class ArcregionswitchPlanWorkflowStepGlobalAuroraConfigOutputReference ex
   }
 
   // global_cluster_identifier - computed: false, optional: false, required: true
-  private _globalClusterIdentifier?: string;
+  private _globalClusterIdentifier?: string; 
   public get globalClusterIdentifier() {
     return this.getStringAttribute('global_cluster_identifier');
   }
@@ -5442,7 +5442,7 @@ export class ArcregionswitchPlanWorkflowStepGlobalAuroraConfigOutputReference ex
   }
 
   // timeout_minutes - computed: false, optional: true, required: false
-  private _timeoutMinutes?: number;
+  private _timeoutMinutes?: number; 
   public get timeoutMinutes() {
     return this.getNumberAttribute('timeout_minutes');
   }
@@ -5591,7 +5591,7 @@ export class ArcregionswitchPlanWorkflowStepParallelConfigStepArcRoutingControlC
   }
 
   // routing_control_arn - computed: false, optional: false, required: true
-  private _routingControlArn?: string;
+  private _routingControlArn?: string; 
   public get routingControlArn() {
     return this.getStringAttribute('routing_control_arn');
   }
@@ -5604,7 +5604,7 @@ export class ArcregionswitchPlanWorkflowStepParallelConfigStepArcRoutingControlC
   }
 
   // state - computed: false, optional: false, required: true
-  private _state?: string;
+  private _state?: string; 
   public get state() {
     return this.getStringAttribute('state');
   }
@@ -5736,7 +5736,7 @@ export class ArcregionswitchPlanWorkflowStepParallelConfigStepArcRoutingControlC
   }
 
   // region - computed: false, optional: false, required: true
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -5918,7 +5918,7 @@ export class ArcregionswitchPlanWorkflowStepParallelConfigStepArcRoutingControlC
   }
 
   // cross_account_role - computed: false, optional: true, required: false
-  private _crossAccountRole?: string;
+  private _crossAccountRole?: string; 
   public get crossAccountRole() {
     return this.getStringAttribute('cross_account_role');
   }
@@ -5934,7 +5934,7 @@ export class ArcregionswitchPlanWorkflowStepParallelConfigStepArcRoutingControlC
   }
 
   // external_id - computed: false, optional: true, required: false
-  private _externalId?: string;
+  private _externalId?: string; 
   public get externalId() {
     return this.getStringAttribute('external_id');
   }
@@ -5950,7 +5950,7 @@ export class ArcregionswitchPlanWorkflowStepParallelConfigStepArcRoutingControlC
   }
 
   // timeout_minutes - computed: false, optional: true, required: false
-  private _timeoutMinutes?: number;
+  private _timeoutMinutes?: number; 
   public get timeoutMinutes() {
     return this.getNumberAttribute('timeout_minutes');
   }
@@ -6116,7 +6116,7 @@ export class ArcregionswitchPlanWorkflowStepParallelConfigStepCustomActionLambda
   }
 
   // arn - computed: false, optional: false, required: true
-  private _arn?: string;
+  private _arn?: string; 
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -6129,7 +6129,7 @@ export class ArcregionswitchPlanWorkflowStepParallelConfigStepCustomActionLambda
   }
 
   // cross_account_role - computed: false, optional: true, required: false
-  private _crossAccountRole?: string;
+  private _crossAccountRole?: string; 
   public get crossAccountRole() {
     return this.getStringAttribute('cross_account_role');
   }
@@ -6145,7 +6145,7 @@ export class ArcregionswitchPlanWorkflowStepParallelConfigStepCustomActionLambda
   }
 
   // external_id - computed: false, optional: true, required: false
-  private _externalId?: string;
+  private _externalId?: string; 
   public get externalId() {
     return this.getStringAttribute('external_id');
   }
@@ -6261,7 +6261,7 @@ export class ArcregionswitchPlanWorkflowStepParallelConfigStepCustomActionLambda
   }
 
   // behavior - computed: false, optional: false, required: true
-  private _behavior?: string;
+  private _behavior?: string; 
   public get behavior() {
     return this.getStringAttribute('behavior');
   }
@@ -6446,7 +6446,7 @@ export class ArcregionswitchPlanWorkflowStepParallelConfigStepCustomActionLambda
   }
 
   // region_to_run - computed: false, optional: false, required: true
-  private _regionToRun?: string;
+  private _regionToRun?: string; 
   public get regionToRun() {
     return this.getStringAttribute('region_to_run');
   }
@@ -6459,7 +6459,7 @@ export class ArcregionswitchPlanWorkflowStepParallelConfigStepCustomActionLambda
   }
 
   // retry_interval_minutes - computed: false, optional: false, required: true
-  private _retryIntervalMinutes?: number;
+  private _retryIntervalMinutes?: number; 
   public get retryIntervalMinutes() {
     return this.getNumberAttribute('retry_interval_minutes');
   }
@@ -6472,7 +6472,7 @@ export class ArcregionswitchPlanWorkflowStepParallelConfigStepCustomActionLambda
   }
 
   // timeout_minutes - computed: false, optional: true, required: false
-  private _timeoutMinutes?: number;
+  private _timeoutMinutes?: number; 
   public get timeoutMinutes() {
     return this.getNumberAttribute('timeout_minutes');
   }
@@ -6620,7 +6620,7 @@ export class ArcregionswitchPlanWorkflowStepParallelConfigStepDocumentDbConfigUn
   }
 
   // ungraceful - computed: false, optional: false, required: true
-  private _ungraceful?: string;
+  private _ungraceful?: string; 
   public get ungraceful() {
     return this.getStringAttribute('ungraceful');
   }
@@ -6837,7 +6837,7 @@ export class ArcregionswitchPlanWorkflowStepParallelConfigStepDocumentDbConfigOu
   }
 
   // behavior - computed: false, optional: false, required: true
-  private _behavior?: string;
+  private _behavior?: string; 
   public get behavior() {
     return this.getStringAttribute('behavior');
   }
@@ -6850,7 +6850,7 @@ export class ArcregionswitchPlanWorkflowStepParallelConfigStepDocumentDbConfigOu
   }
 
   // cross_account_role - computed: false, optional: true, required: false
-  private _crossAccountRole?: string;
+  private _crossAccountRole?: string; 
   public get crossAccountRole() {
     return this.getStringAttribute('cross_account_role');
   }
@@ -6866,7 +6866,7 @@ export class ArcregionswitchPlanWorkflowStepParallelConfigStepDocumentDbConfigOu
   }
 
   // database_cluster_arns - computed: false, optional: false, required: true
-  private _databaseClusterArns?: string[];
+  private _databaseClusterArns?: string[]; 
   public get databaseClusterArns() {
     return this.getListAttribute('database_cluster_arns');
   }
@@ -6879,7 +6879,7 @@ export class ArcregionswitchPlanWorkflowStepParallelConfigStepDocumentDbConfigOu
   }
 
   // external_id - computed: false, optional: true, required: false
-  private _externalId?: string;
+  private _externalId?: string; 
   public get externalId() {
     return this.getStringAttribute('external_id');
   }
@@ -6895,7 +6895,7 @@ export class ArcregionswitchPlanWorkflowStepParallelConfigStepDocumentDbConfigOu
   }
 
   // global_cluster_identifier - computed: false, optional: false, required: true
-  private _globalClusterIdentifier?: string;
+  private _globalClusterIdentifier?: string; 
   public get globalClusterIdentifier() {
     return this.getStringAttribute('global_cluster_identifier');
   }
@@ -6908,7 +6908,7 @@ export class ArcregionswitchPlanWorkflowStepParallelConfigStepDocumentDbConfigOu
   }
 
   // timeout_minutes - computed: false, optional: true, required: false
-  private _timeoutMinutes?: number;
+  private _timeoutMinutes?: number; 
   public get timeoutMinutes() {
     return this.getNumberAttribute('timeout_minutes');
   }
@@ -7074,7 +7074,7 @@ export class ArcregionswitchPlanWorkflowStepParallelConfigStepEc2AsgCapacityIncr
   }
 
   // arn - computed: false, optional: false, required: true
-  private _arn?: string;
+  private _arn?: string; 
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -7087,7 +7087,7 @@ export class ArcregionswitchPlanWorkflowStepParallelConfigStepEc2AsgCapacityIncr
   }
 
   // cross_account_role - computed: false, optional: true, required: false
-  private _crossAccountRole?: string;
+  private _crossAccountRole?: string; 
   public get crossAccountRole() {
     return this.getStringAttribute('cross_account_role');
   }
@@ -7103,7 +7103,7 @@ export class ArcregionswitchPlanWorkflowStepParallelConfigStepEc2AsgCapacityIncr
   }
 
   // external_id - computed: false, optional: true, required: false
-  private _externalId?: string;
+  private _externalId?: string; 
   public get externalId() {
     return this.getStringAttribute('external_id');
   }
@@ -7219,7 +7219,7 @@ export class ArcregionswitchPlanWorkflowStepParallelConfigStepEc2AsgCapacityIncr
   }
 
   // minimum_success_percentage - computed: false, optional: false, required: true
-  private _minimumSuccessPercentage?: number;
+  private _minimumSuccessPercentage?: number; 
   public get minimumSuccessPercentage() {
     return this.getNumberAttribute('minimum_success_percentage');
   }
@@ -7404,7 +7404,7 @@ export class ArcregionswitchPlanWorkflowStepParallelConfigStepEc2AsgCapacityIncr
   }
 
   // capacity_monitoring_approach - computed: false, optional: false, required: true
-  private _capacityMonitoringApproach?: string;
+  private _capacityMonitoringApproach?: string; 
   public get capacityMonitoringApproach() {
     return this.getStringAttribute('capacity_monitoring_approach');
   }
@@ -7417,7 +7417,7 @@ export class ArcregionswitchPlanWorkflowStepParallelConfigStepEc2AsgCapacityIncr
   }
 
   // target_percent - computed: false, optional: true, required: false
-  private _targetPercent?: number;
+  private _targetPercent?: number; 
   public get targetPercent() {
     return this.getNumberAttribute('target_percent');
   }
@@ -7433,7 +7433,7 @@ export class ArcregionswitchPlanWorkflowStepParallelConfigStepEc2AsgCapacityIncr
   }
 
   // timeout_minutes - computed: false, optional: true, required: false
-  private _timeoutMinutes?: number;
+  private _timeoutMinutes?: number; 
   public get timeoutMinutes() {
     return this.getNumberAttribute('timeout_minutes');
   }
@@ -7632,7 +7632,7 @@ export class ArcregionswitchPlanWorkflowStepParallelConfigStepEcsCapacityIncreas
   }
 
   // cluster_arn - computed: false, optional: false, required: true
-  private _clusterArn?: string;
+  private _clusterArn?: string; 
   public get clusterArn() {
     return this.getStringAttribute('cluster_arn');
   }
@@ -7645,7 +7645,7 @@ export class ArcregionswitchPlanWorkflowStepParallelConfigStepEcsCapacityIncreas
   }
 
   // cross_account_role - computed: false, optional: true, required: false
-  private _crossAccountRole?: string;
+  private _crossAccountRole?: string; 
   public get crossAccountRole() {
     return this.getStringAttribute('cross_account_role');
   }
@@ -7661,7 +7661,7 @@ export class ArcregionswitchPlanWorkflowStepParallelConfigStepEcsCapacityIncreas
   }
 
   // external_id - computed: false, optional: true, required: false
-  private _externalId?: string;
+  private _externalId?: string; 
   public get externalId() {
     return this.getStringAttribute('external_id');
   }
@@ -7677,7 +7677,7 @@ export class ArcregionswitchPlanWorkflowStepParallelConfigStepEcsCapacityIncreas
   }
 
   // service_arn - computed: false, optional: false, required: true
-  private _serviceArn?: string;
+  private _serviceArn?: string; 
   public get serviceArn() {
     return this.getStringAttribute('service_arn');
   }
@@ -7790,7 +7790,7 @@ export class ArcregionswitchPlanWorkflowStepParallelConfigStepEcsCapacityIncreas
   }
 
   // minimum_success_percentage - computed: false, optional: false, required: true
-  private _minimumSuccessPercentage?: number;
+  private _minimumSuccessPercentage?: number; 
   public get minimumSuccessPercentage() {
     return this.getNumberAttribute('minimum_success_percentage');
   }
@@ -7975,7 +7975,7 @@ export class ArcregionswitchPlanWorkflowStepParallelConfigStepEcsCapacityIncreas
   }
 
   // capacity_monitoring_approach - computed: false, optional: false, required: true
-  private _capacityMonitoringApproach?: string;
+  private _capacityMonitoringApproach?: string; 
   public get capacityMonitoringApproach() {
     return this.getStringAttribute('capacity_monitoring_approach');
   }
@@ -7988,7 +7988,7 @@ export class ArcregionswitchPlanWorkflowStepParallelConfigStepEcsCapacityIncreas
   }
 
   // target_percent - computed: false, optional: true, required: false
-  private _targetPercent?: number;
+  private _targetPercent?: number; 
   public get targetPercent() {
     return this.getNumberAttribute('target_percent');
   }
@@ -8004,7 +8004,7 @@ export class ArcregionswitchPlanWorkflowStepParallelConfigStepEcsCapacityIncreas
   }
 
   // timeout_minutes - computed: false, optional: true, required: false
-  private _timeoutMinutes?: number;
+  private _timeoutMinutes?: number; 
   public get timeoutMinutes() {
     return this.getNumberAttribute('timeout_minutes');
   }
@@ -8186,7 +8186,7 @@ export class ArcregionswitchPlanWorkflowStepParallelConfigStepEksResourceScaling
   }
 
   // cluster_arn - computed: false, optional: false, required: true
-  private _clusterArn?: string;
+  private _clusterArn?: string; 
   public get clusterArn() {
     return this.getStringAttribute('cluster_arn');
   }
@@ -8199,7 +8199,7 @@ export class ArcregionswitchPlanWorkflowStepParallelConfigStepEksResourceScaling
   }
 
   // cross_account_role - computed: false, optional: true, required: false
-  private _crossAccountRole?: string;
+  private _crossAccountRole?: string; 
   public get crossAccountRole() {
     return this.getStringAttribute('cross_account_role');
   }
@@ -8215,7 +8215,7 @@ export class ArcregionswitchPlanWorkflowStepParallelConfigStepEksResourceScaling
   }
 
   // external_id - computed: false, optional: true, required: false
-  private _externalId?: string;
+  private _externalId?: string; 
   public get externalId() {
     return this.getStringAttribute('external_id');
   }
@@ -8348,7 +8348,7 @@ export class ArcregionswitchPlanWorkflowStepParallelConfigStepEksResourceScaling
   }
 
   // api_version - computed: false, optional: false, required: true
-  private _apiVersion?: string;
+  private _apiVersion?: string; 
   public get apiVersion() {
     return this.getStringAttribute('api_version');
   }
@@ -8361,7 +8361,7 @@ export class ArcregionswitchPlanWorkflowStepParallelConfigStepEksResourceScaling
   }
 
   // kind - computed: false, optional: false, required: true
-  private _kind?: string;
+  private _kind?: string; 
   public get kind() {
     return this.getStringAttribute('kind');
   }
@@ -8525,7 +8525,7 @@ export class ArcregionswitchPlanWorkflowStepParallelConfigStepEksResourceScaling
   }
 
   // hpa_name - computed: false, optional: true, required: false
-  private _hpaName?: string;
+  private _hpaName?: string; 
   public get hpaName() {
     return this.getStringAttribute('hpa_name');
   }
@@ -8541,7 +8541,7 @@ export class ArcregionswitchPlanWorkflowStepParallelConfigStepEksResourceScaling
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -8554,7 +8554,7 @@ export class ArcregionswitchPlanWorkflowStepParallelConfigStepEksResourceScaling
   }
 
   // namespace - computed: false, optional: false, required: true
-  private _namespace?: string;
+  private _namespace?: string; 
   public get namespace() {
     return this.getStringAttribute('namespace');
   }
@@ -8567,7 +8567,7 @@ export class ArcregionswitchPlanWorkflowStepParallelConfigStepEksResourceScaling
   }
 
   // resource_name - computed: false, optional: false, required: true
-  private _resourceName?: string;
+  private _resourceName?: string; 
   public get resourceName() {
     return this.getStringAttribute('resource_name');
   }
@@ -8699,7 +8699,7 @@ export class ArcregionswitchPlanWorkflowStepParallelConfigStepEksResourceScaling
   }
 
   // namespace - computed: false, optional: false, required: true
-  private _namespace?: string;
+  private _namespace?: string; 
   public get namespace() {
     return this.getStringAttribute('namespace');
   }
@@ -8828,7 +8828,7 @@ export class ArcregionswitchPlanWorkflowStepParallelConfigStepEksResourceScaling
   }
 
   // minimum_success_percentage - computed: false, optional: false, required: true
-  private _minimumSuccessPercentage?: number;
+  private _minimumSuccessPercentage?: number; 
   public get minimumSuccessPercentage() {
     return this.getNumberAttribute('minimum_success_percentage');
   }
@@ -9051,7 +9051,7 @@ export class ArcregionswitchPlanWorkflowStepParallelConfigStepEksResourceScaling
   }
 
   // capacity_monitoring_approach - computed: false, optional: false, required: true
-  private _capacityMonitoringApproach?: string;
+  private _capacityMonitoringApproach?: string; 
   public get capacityMonitoringApproach() {
     return this.getStringAttribute('capacity_monitoring_approach');
   }
@@ -9064,7 +9064,7 @@ export class ArcregionswitchPlanWorkflowStepParallelConfigStepEksResourceScaling
   }
 
   // target_percent - computed: false, optional: false, required: true
-  private _targetPercent?: number;
+  private _targetPercent?: number; 
   public get targetPercent() {
     return this.getNumberAttribute('target_percent');
   }
@@ -9077,7 +9077,7 @@ export class ArcregionswitchPlanWorkflowStepParallelConfigStepEksResourceScaling
   }
 
   // timeout_minutes - computed: false, optional: true, required: false
-  private _timeoutMinutes?: number;
+  private _timeoutMinutes?: number; 
   public get timeoutMinutes() {
     return this.getNumberAttribute('timeout_minutes');
   }
@@ -9274,7 +9274,7 @@ export class ArcregionswitchPlanWorkflowStepParallelConfigStepExecutionApprovalC
   }
 
   // approval_role - computed: false, optional: false, required: true
-  private _approvalRole?: string;
+  private _approvalRole?: string; 
   public get approvalRole() {
     return this.getStringAttribute('approval_role');
   }
@@ -9287,7 +9287,7 @@ export class ArcregionswitchPlanWorkflowStepParallelConfigStepExecutionApprovalC
   }
 
   // timeout_minutes - computed: false, optional: true, required: false
-  private _timeoutMinutes?: number;
+  private _timeoutMinutes?: number; 
   public get timeoutMinutes() {
     return this.getNumberAttribute('timeout_minutes');
   }
@@ -9403,7 +9403,7 @@ export class ArcregionswitchPlanWorkflowStepParallelConfigStepGlobalAuroraConfig
   }
 
   // ungraceful - computed: false, optional: false, required: true
-  private _ungraceful?: string;
+  private _ungraceful?: string; 
   public get ungraceful() {
     return this.getStringAttribute('ungraceful');
   }
@@ -9620,7 +9620,7 @@ export class ArcregionswitchPlanWorkflowStepParallelConfigStepGlobalAuroraConfig
   }
 
   // behavior - computed: false, optional: false, required: true
-  private _behavior?: string;
+  private _behavior?: string; 
   public get behavior() {
     return this.getStringAttribute('behavior');
   }
@@ -9633,7 +9633,7 @@ export class ArcregionswitchPlanWorkflowStepParallelConfigStepGlobalAuroraConfig
   }
 
   // cross_account_role - computed: false, optional: true, required: false
-  private _crossAccountRole?: string;
+  private _crossAccountRole?: string; 
   public get crossAccountRole() {
     return this.getStringAttribute('cross_account_role');
   }
@@ -9649,7 +9649,7 @@ export class ArcregionswitchPlanWorkflowStepParallelConfigStepGlobalAuroraConfig
   }
 
   // database_cluster_arns - computed: false, optional: false, required: true
-  private _databaseClusterArns?: string[];
+  private _databaseClusterArns?: string[]; 
   public get databaseClusterArns() {
     return this.getListAttribute('database_cluster_arns');
   }
@@ -9662,7 +9662,7 @@ export class ArcregionswitchPlanWorkflowStepParallelConfigStepGlobalAuroraConfig
   }
 
   // external_id - computed: false, optional: true, required: false
-  private _externalId?: string;
+  private _externalId?: string; 
   public get externalId() {
     return this.getStringAttribute('external_id');
   }
@@ -9678,7 +9678,7 @@ export class ArcregionswitchPlanWorkflowStepParallelConfigStepGlobalAuroraConfig
   }
 
   // global_cluster_identifier - computed: false, optional: false, required: true
-  private _globalClusterIdentifier?: string;
+  private _globalClusterIdentifier?: string; 
   public get globalClusterIdentifier() {
     return this.getStringAttribute('global_cluster_identifier');
   }
@@ -9691,7 +9691,7 @@ export class ArcregionswitchPlanWorkflowStepParallelConfigStepGlobalAuroraConfig
   }
 
   // timeout_minutes - computed: false, optional: true, required: false
-  private _timeoutMinutes?: number;
+  private _timeoutMinutes?: number; 
   public get timeoutMinutes() {
     return this.getNumberAttribute('timeout_minutes');
   }
@@ -9874,7 +9874,7 @@ export class ArcregionswitchPlanWorkflowStepParallelConfigStepRdsCreateCrossRegi
   }
 
   // cross_account_role - computed: false, optional: true, required: false
-  private _crossAccountRole?: string;
+  private _crossAccountRole?: string; 
   public get crossAccountRole() {
     return this.getStringAttribute('cross_account_role');
   }
@@ -9890,7 +9890,7 @@ export class ArcregionswitchPlanWorkflowStepParallelConfigStepRdsCreateCrossRegi
   }
 
   // db_instance_arn_map - computed: false, optional: false, required: true
-  private _dbInstanceArnMap?: { [key: string]: string };
+  private _dbInstanceArnMap?: { [key: string]: string }; 
   public get dbInstanceArnMap() {
     return this.getStringMapAttribute('db_instance_arn_map');
   }
@@ -9903,7 +9903,7 @@ export class ArcregionswitchPlanWorkflowStepParallelConfigStepRdsCreateCrossRegi
   }
 
   // external_id - computed: false, optional: true, required: false
-  private _externalId?: string;
+  private _externalId?: string; 
   public get externalId() {
     return this.getStringAttribute('external_id');
   }
@@ -9919,7 +9919,7 @@ export class ArcregionswitchPlanWorkflowStepParallelConfigStepRdsCreateCrossRegi
   }
 
   // timeout_minutes - computed: false, optional: true, required: false
-  private _timeoutMinutes?: number;
+  private _timeoutMinutes?: number; 
   public get timeoutMinutes() {
     return this.getNumberAttribute('timeout_minutes');
   }
@@ -10086,7 +10086,7 @@ export class ArcregionswitchPlanWorkflowStepParallelConfigStepRdsPromoteReadRepl
   }
 
   // cross_account_role - computed: false, optional: true, required: false
-  private _crossAccountRole?: string;
+  private _crossAccountRole?: string; 
   public get crossAccountRole() {
     return this.getStringAttribute('cross_account_role');
   }
@@ -10102,7 +10102,7 @@ export class ArcregionswitchPlanWorkflowStepParallelConfigStepRdsPromoteReadRepl
   }
 
   // db_instance_arn_map - computed: false, optional: false, required: true
-  private _dbInstanceArnMap?: { [key: string]: string };
+  private _dbInstanceArnMap?: { [key: string]: string }; 
   public get dbInstanceArnMap() {
     return this.getStringMapAttribute('db_instance_arn_map');
   }
@@ -10115,7 +10115,7 @@ export class ArcregionswitchPlanWorkflowStepParallelConfigStepRdsPromoteReadRepl
   }
 
   // external_id - computed: false, optional: true, required: false
-  private _externalId?: string;
+  private _externalId?: string; 
   public get externalId() {
     return this.getStringAttribute('external_id');
   }
@@ -10131,7 +10131,7 @@ export class ArcregionswitchPlanWorkflowStepParallelConfigStepRdsPromoteReadRepl
   }
 
   // timeout_minutes - computed: false, optional: true, required: false
-  private _timeoutMinutes?: number;
+  private _timeoutMinutes?: number; 
   public get timeoutMinutes() {
     return this.getNumberAttribute('timeout_minutes');
   }
@@ -10281,7 +10281,7 @@ export class ArcregionswitchPlanWorkflowStepParallelConfigStepRegionSwitchPlanCo
   }
 
   // arn - computed: false, optional: false, required: true
-  private _arn?: string;
+  private _arn?: string; 
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -10294,7 +10294,7 @@ export class ArcregionswitchPlanWorkflowStepParallelConfigStepRegionSwitchPlanCo
   }
 
   // cross_account_role - computed: false, optional: true, required: false
-  private _crossAccountRole?: string;
+  private _crossAccountRole?: string; 
   public get crossAccountRole() {
     return this.getStringAttribute('cross_account_role');
   }
@@ -10310,7 +10310,7 @@ export class ArcregionswitchPlanWorkflowStepParallelConfigStepRegionSwitchPlanCo
   }
 
   // external_id - computed: false, optional: true, required: false
-  private _externalId?: string;
+  private _externalId?: string; 
   public get externalId() {
     return this.getStringAttribute('external_id');
   }
@@ -10443,7 +10443,7 @@ export class ArcregionswitchPlanWorkflowStepParallelConfigStepRoute53HealthCheck
   }
 
   // record_set_identifier - computed: false, optional: false, required: true
-  private _recordSetIdentifier?: string;
+  private _recordSetIdentifier?: string; 
   public get recordSetIdentifier() {
     return this.getStringAttribute('record_set_identifier');
   }
@@ -10456,7 +10456,7 @@ export class ArcregionswitchPlanWorkflowStepParallelConfigStepRoute53HealthCheck
   }
 
   // region - computed: false, optional: false, required: true
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -10656,7 +10656,7 @@ export class ArcregionswitchPlanWorkflowStepParallelConfigStepRoute53HealthCheck
   }
 
   // cross_account_role - computed: false, optional: true, required: false
-  private _crossAccountRole?: string;
+  private _crossAccountRole?: string; 
   public get crossAccountRole() {
     return this.getStringAttribute('cross_account_role');
   }
@@ -10672,7 +10672,7 @@ export class ArcregionswitchPlanWorkflowStepParallelConfigStepRoute53HealthCheck
   }
 
   // external_id - computed: false, optional: true, required: false
-  private _externalId?: string;
+  private _externalId?: string; 
   public get externalId() {
     return this.getStringAttribute('external_id');
   }
@@ -10688,7 +10688,7 @@ export class ArcregionswitchPlanWorkflowStepParallelConfigStepRoute53HealthCheck
   }
 
   // hosted_zone_id - computed: false, optional: false, required: true
-  private _hostedZoneId?: string;
+  private _hostedZoneId?: string; 
   public get hostedZoneId() {
     return this.getStringAttribute('hosted_zone_id');
   }
@@ -10701,7 +10701,7 @@ export class ArcregionswitchPlanWorkflowStepParallelConfigStepRoute53HealthCheck
   }
 
   // record_name - computed: false, optional: false, required: true
-  private _recordName?: string;
+  private _recordName?: string; 
   public get recordName() {
     return this.getStringAttribute('record_name');
   }
@@ -10714,7 +10714,7 @@ export class ArcregionswitchPlanWorkflowStepParallelConfigStepRoute53HealthCheck
   }
 
   // timeout_minutes - computed: false, optional: true, required: false
-  private _timeoutMinutes?: number;
+  private _timeoutMinutes?: number; 
   public get timeoutMinutes() {
     return this.getNumberAttribute('timeout_minutes');
   }
@@ -11108,7 +11108,7 @@ export class ArcregionswitchPlanWorkflowStepParallelConfigStepOutputReference ex
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -11124,7 +11124,7 @@ export class ArcregionswitchPlanWorkflowStepParallelConfigStepOutputReference ex
   }
 
   // execution_block_type - computed: false, optional: false, required: true
-  private _executionBlockType?: string;
+  private _executionBlockType?: string; 
   public get executionBlockType() {
     return this.getStringAttribute('execution_block_type');
   }
@@ -11137,7 +11137,7 @@ export class ArcregionswitchPlanWorkflowStepParallelConfigStepOutputReference ex
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -11611,7 +11611,7 @@ export class ArcregionswitchPlanWorkflowStepRdsCreateCrossRegionReadReplicaConfi
   }
 
   // cross_account_role - computed: false, optional: true, required: false
-  private _crossAccountRole?: string;
+  private _crossAccountRole?: string; 
   public get crossAccountRole() {
     return this.getStringAttribute('cross_account_role');
   }
@@ -11627,7 +11627,7 @@ export class ArcregionswitchPlanWorkflowStepRdsCreateCrossRegionReadReplicaConfi
   }
 
   // db_instance_arn_map - computed: false, optional: false, required: true
-  private _dbInstanceArnMap?: { [key: string]: string };
+  private _dbInstanceArnMap?: { [key: string]: string }; 
   public get dbInstanceArnMap() {
     return this.getStringMapAttribute('db_instance_arn_map');
   }
@@ -11640,7 +11640,7 @@ export class ArcregionswitchPlanWorkflowStepRdsCreateCrossRegionReadReplicaConfi
   }
 
   // external_id - computed: false, optional: true, required: false
-  private _externalId?: string;
+  private _externalId?: string; 
   public get externalId() {
     return this.getStringAttribute('external_id');
   }
@@ -11656,7 +11656,7 @@ export class ArcregionswitchPlanWorkflowStepRdsCreateCrossRegionReadReplicaConfi
   }
 
   // timeout_minutes - computed: false, optional: true, required: false
-  private _timeoutMinutes?: number;
+  private _timeoutMinutes?: number; 
   public get timeoutMinutes() {
     return this.getNumberAttribute('timeout_minutes');
   }
@@ -11823,7 +11823,7 @@ export class ArcregionswitchPlanWorkflowStepRdsPromoteReadReplicaConfigOutputRef
   }
 
   // cross_account_role - computed: false, optional: true, required: false
-  private _crossAccountRole?: string;
+  private _crossAccountRole?: string; 
   public get crossAccountRole() {
     return this.getStringAttribute('cross_account_role');
   }
@@ -11839,7 +11839,7 @@ export class ArcregionswitchPlanWorkflowStepRdsPromoteReadReplicaConfigOutputRef
   }
 
   // db_instance_arn_map - computed: false, optional: false, required: true
-  private _dbInstanceArnMap?: { [key: string]: string };
+  private _dbInstanceArnMap?: { [key: string]: string }; 
   public get dbInstanceArnMap() {
     return this.getStringMapAttribute('db_instance_arn_map');
   }
@@ -11852,7 +11852,7 @@ export class ArcregionswitchPlanWorkflowStepRdsPromoteReadReplicaConfigOutputRef
   }
 
   // external_id - computed: false, optional: true, required: false
-  private _externalId?: string;
+  private _externalId?: string; 
   public get externalId() {
     return this.getStringAttribute('external_id');
   }
@@ -11868,7 +11868,7 @@ export class ArcregionswitchPlanWorkflowStepRdsPromoteReadReplicaConfigOutputRef
   }
 
   // timeout_minutes - computed: false, optional: true, required: false
-  private _timeoutMinutes?: number;
+  private _timeoutMinutes?: number; 
   public get timeoutMinutes() {
     return this.getNumberAttribute('timeout_minutes');
   }
@@ -12018,7 +12018,7 @@ export class ArcregionswitchPlanWorkflowStepRegionSwitchPlanConfigOutputReferenc
   }
 
   // arn - computed: false, optional: false, required: true
-  private _arn?: string;
+  private _arn?: string; 
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -12031,7 +12031,7 @@ export class ArcregionswitchPlanWorkflowStepRegionSwitchPlanConfigOutputReferenc
   }
 
   // cross_account_role - computed: false, optional: true, required: false
-  private _crossAccountRole?: string;
+  private _crossAccountRole?: string; 
   public get crossAccountRole() {
     return this.getStringAttribute('cross_account_role');
   }
@@ -12047,7 +12047,7 @@ export class ArcregionswitchPlanWorkflowStepRegionSwitchPlanConfigOutputReferenc
   }
 
   // external_id - computed: false, optional: true, required: false
-  private _externalId?: string;
+  private _externalId?: string; 
   public get externalId() {
     return this.getStringAttribute('external_id');
   }
@@ -12180,7 +12180,7 @@ export class ArcregionswitchPlanWorkflowStepRoute53HealthCheckConfigRecordSetOut
   }
 
   // record_set_identifier - computed: false, optional: false, required: true
-  private _recordSetIdentifier?: string;
+  private _recordSetIdentifier?: string; 
   public get recordSetIdentifier() {
     return this.getStringAttribute('record_set_identifier');
   }
@@ -12193,7 +12193,7 @@ export class ArcregionswitchPlanWorkflowStepRoute53HealthCheckConfigRecordSetOut
   }
 
   // region - computed: false, optional: false, required: true
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -12393,7 +12393,7 @@ export class ArcregionswitchPlanWorkflowStepRoute53HealthCheckConfigOutputRefere
   }
 
   // cross_account_role - computed: false, optional: true, required: false
-  private _crossAccountRole?: string;
+  private _crossAccountRole?: string; 
   public get crossAccountRole() {
     return this.getStringAttribute('cross_account_role');
   }
@@ -12409,7 +12409,7 @@ export class ArcregionswitchPlanWorkflowStepRoute53HealthCheckConfigOutputRefere
   }
 
   // external_id - computed: false, optional: true, required: false
-  private _externalId?: string;
+  private _externalId?: string; 
   public get externalId() {
     return this.getStringAttribute('external_id');
   }
@@ -12425,7 +12425,7 @@ export class ArcregionswitchPlanWorkflowStepRoute53HealthCheckConfigOutputRefere
   }
 
   // hosted_zone_id - computed: false, optional: false, required: true
-  private _hostedZoneId?: string;
+  private _hostedZoneId?: string; 
   public get hostedZoneId() {
     return this.getStringAttribute('hosted_zone_id');
   }
@@ -12438,7 +12438,7 @@ export class ArcregionswitchPlanWorkflowStepRoute53HealthCheckConfigOutputRefere
   }
 
   // record_name - computed: false, optional: false, required: true
-  private _recordName?: string;
+  private _recordName?: string; 
   public get recordName() {
     return this.getStringAttribute('record_name');
   }
@@ -12451,7 +12451,7 @@ export class ArcregionswitchPlanWorkflowStepRoute53HealthCheckConfigOutputRefere
   }
 
   // timeout_minutes - computed: false, optional: true, required: false
-  private _timeoutMinutes?: number;
+  private _timeoutMinutes?: number; 
   public get timeoutMinutes() {
     return this.getNumberAttribute('timeout_minutes');
   }
@@ -12864,7 +12864,7 @@ export class ArcregionswitchPlanWorkflowStepOutputReference extends cdktn.Comple
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -12880,7 +12880,7 @@ export class ArcregionswitchPlanWorkflowStepOutputReference extends cdktn.Comple
   }
 
   // execution_block_type - computed: false, optional: false, required: true
-  private _executionBlockType?: string;
+  private _executionBlockType?: string; 
   public get executionBlockType() {
     return this.getStringAttribute('execution_block_type');
   }
@@ -12893,7 +12893,7 @@ export class ArcregionswitchPlanWorkflowStepOutputReference extends cdktn.Comple
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -13267,7 +13267,7 @@ export class ArcregionswitchPlanWorkflowOutputReference extends cdktn.ComplexObj
   }
 
   // workflow_description - computed: false, optional: true, required: false
-  private _workflowDescription?: string;
+  private _workflowDescription?: string; 
   public get workflowDescription() {
     return this.getStringAttribute('workflow_description');
   }
@@ -13283,7 +13283,7 @@ export class ArcregionswitchPlanWorkflowOutputReference extends cdktn.ComplexObj
   }
 
   // workflow_target_action - computed: false, optional: false, required: true
-  private _workflowTargetAction?: string;
+  private _workflowTargetAction?: string; 
   public get workflowTargetAction() {
     return this.getStringAttribute('workflow_target_action');
   }
@@ -13296,7 +13296,7 @@ export class ArcregionswitchPlanWorkflowOutputReference extends cdktn.ComplexObj
   }
 
   // workflow_target_region - computed: false, optional: true, required: false
-  private _workflowTargetRegion?: string;
+  private _workflowTargetRegion?: string; 
   public get workflowTargetRegion() {
     return this.getStringAttribute('workflow_target_region');
   }
@@ -13424,7 +13424,7 @@ export class ArcregionswitchPlan extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -13440,7 +13440,7 @@ export class ArcregionswitchPlan extends cdktn.TerraformResource {
   }
 
   // execution_role - computed: false, optional: false, required: true
-  private _executionRole?: string;
+  private _executionRole?: string; 
   public get executionRole() {
     return this.getStringAttribute('execution_role');
   }
@@ -13453,7 +13453,7 @@ export class ArcregionswitchPlan extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -13466,7 +13466,7 @@ export class ArcregionswitchPlan extends cdktn.TerraformResource {
   }
 
   // primary_region - computed: false, optional: true, required: false
-  private _primaryRegion?: string;
+  private _primaryRegion?: string; 
   public get primaryRegion() {
     return this.getStringAttribute('primary_region');
   }
@@ -13482,7 +13482,7 @@ export class ArcregionswitchPlan extends cdktn.TerraformResource {
   }
 
   // recovery_approach - computed: false, optional: false, required: true
-  private _recoveryApproach?: string;
+  private _recoveryApproach?: string; 
   public get recoveryApproach() {
     return this.getStringAttribute('recovery_approach');
   }
@@ -13495,7 +13495,7 @@ export class ArcregionswitchPlan extends cdktn.TerraformResource {
   }
 
   // recovery_time_objective_minutes - computed: false, optional: true, required: false
-  private _recoveryTimeObjectiveMinutes?: number;
+  private _recoveryTimeObjectiveMinutes?: number; 
   public get recoveryTimeObjectiveMinutes() {
     return this.getNumberAttribute('recovery_time_objective_minutes');
   }
@@ -13511,7 +13511,7 @@ export class ArcregionswitchPlan extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -13527,7 +13527,7 @@ export class ArcregionswitchPlan extends cdktn.TerraformResource {
   }
 
   // regions - computed: false, optional: false, required: true
-  private _regions?: string[];
+  private _regions?: string[]; 
   public get regions() {
     return this.getListAttribute('regions');
   }
@@ -13540,7 +13540,7 @@ export class ArcregionswitchPlan extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

@@ -106,7 +106,7 @@ export class CodebuildSourceCredential extends cdktn.TerraformResource {
   }
 
   // auth_type - computed: false, optional: false, required: true
-  private _authType?: string;
+  private _authType?: string; 
   public get authType() {
     return this.getStringAttribute('auth_type');
   }
@@ -119,7 +119,7 @@ export class CodebuildSourceCredential extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -135,7 +135,7 @@ export class CodebuildSourceCredential extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -151,7 +151,7 @@ export class CodebuildSourceCredential extends cdktn.TerraformResource {
   }
 
   // server_type - computed: false, optional: false, required: true
-  private _serverType?: string;
+  private _serverType?: string; 
   public get serverType() {
     return this.getStringAttribute('server_type');
   }
@@ -164,7 +164,7 @@ export class CodebuildSourceCredential extends cdktn.TerraformResource {
   }
 
   // token - computed: false, optional: false, required: true
-  private _token?: string;
+  private _token?: string; 
   public get token() {
     return this.getStringAttribute('token');
   }
@@ -177,7 +177,7 @@ export class CodebuildSourceCredential extends cdktn.TerraformResource {
   }
 
   // user_name - computed: false, optional: true, required: false
-  private _userName?: string;
+  private _userName?: string; 
   public get userName() {
     return this.getStringAttribute('user_name');
   }

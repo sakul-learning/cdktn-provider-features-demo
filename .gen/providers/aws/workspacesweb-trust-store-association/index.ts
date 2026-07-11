@@ -83,7 +83,7 @@ export class WorkspaceswebTrustStoreAssociation extends cdktn.TerraformResource 
   // ==========
 
   // portal_arn - computed: false, optional: false, required: true
-  private _portalArn?: string;
+  private _portalArn?: string; 
   public get portalArn() {
     return this.getStringAttribute('portal_arn');
   }
@@ -96,7 +96,7 @@ export class WorkspaceswebTrustStoreAssociation extends cdktn.TerraformResource 
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -112,7 +112,7 @@ export class WorkspaceswebTrustStoreAssociation extends cdktn.TerraformResource 
   }
 
   // trust_store_arn - computed: false, optional: false, required: true
-  private _trustStoreArn?: string;
+  private _trustStoreArn?: string; 
   public get trustStoreArn() {
     return this.getStringAttribute('trust_store_arn');
   }

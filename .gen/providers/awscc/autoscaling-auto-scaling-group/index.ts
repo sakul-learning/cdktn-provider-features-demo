@@ -58,7 +58,7 @@ export interface AutoscalingAutoScalingGroupConfig extends cdktn.TerraformMetaAr
   */
   readonly context?: string;
   /**
-  * *Only needed if you use simple scaling policies.*
+  * *Only needed if you use simple scaling policies.* 
   *  The amount of time, in seconds, between one scaling activity ending and another one starting due to simple scaling policies. For more information, see [Scaling cooldowns for Amazon EC2 Auto Scaling](https://docs.aws.amazon.com/autoscaling/ec2/userguide/ec2-auto-scaling-scaling-cooldowns.html) in the *Amazon EC2 Auto Scaling User Guide*.
   *  Default: ``300`` seconds
   *
@@ -66,7 +66,7 @@ export interface AutoscalingAutoScalingGroupConfig extends cdktn.TerraformMetaAr
   */
   readonly cooldown?: string;
   /**
-  * The amount of time, in seconds, until a new instance is considered to have finished initializing and resource consumption to become stable after it enters the ``InService`` state.
+  * The amount of time, in seconds, until a new instance is considered to have finished initializing and resource consumption to become stable after it enters the ``InService`` state. 
   *  During an instance refresh, Amazon EC2 Auto Scaling waits for the warm-up period after it replaces an instance before it moves on to replacing the next instance. Amazon EC2 Auto Scaling also waits for the warm-up period before aggregating the metrics for new instances with existing instances in the Amazon CloudWatch metrics that are used for scaling, resulting in more reliable usage data. For more information, see [Set the default instance warmup for an Auto Scaling group](https://docs.aws.amazon.com/autoscaling/ec2/userguide/ec2-auto-scaling-default-instance-warmup.html) in the *Amazon EC2 Auto Scaling User Guide*.
   *   To manage various warm-up settings at the group level, we recommend that you set the default instance warmup, *even if it is set to 0 seconds*. To remove a value that you previously set, include the property but specify ``-1`` for the value. However, we strongly recommend keeping the default instance warmup enabled by specifying a value of ``0`` or other nominal value.
   *   Default: None
@@ -263,7 +263,7 @@ export interface AutoscalingAutoScalingGroupConfig extends cdktn.TerraformMetaAr
 }
 export interface AutoscalingAutoScalingGroupAvailabilityZoneDistribution {
   /**
-  * If launches fail in an Availability Zone, the following strategies are available. The default is ``balanced-best-effort``.
+  * If launches fail in an Availability Zone, the following strategies are available. The default is ``balanced-best-effort``. 
   *   +  ``balanced-only`` - If launches fail in an Availability Zone, Auto Scaling will continue to attempt to launch in the unhealthy zone to preserve a balanced distribution.
   *   +  ``balanced-best-effort`` - If launches fail in an Availability Zone, Auto Scaling will attempt to launch in another healthy Availability Zone instead.
   *
@@ -344,7 +344,7 @@ export class AutoscalingAutoScalingGroupAvailabilityZoneDistributionOutputRefere
   }
 
   // capacity_distribution_strategy - computed: true, optional: true, required: false
-  private _capacityDistributionStrategy?: string;
+  private _capacityDistributionStrategy?: string; 
   public get capacityDistributionStrategy() {
     return this.getStringAttribute('capacity_distribution_strategy');
   }
@@ -459,7 +459,7 @@ export class AutoscalingAutoScalingGroupAvailabilityZoneImpairmentPolicyOutputRe
   }
 
   // impaired_zone_health_check_behavior - computed: true, optional: true, required: false
-  private _impairedZoneHealthCheckBehavior?: string;
+  private _impairedZoneHealthCheckBehavior?: string; 
   public get impairedZoneHealthCheckBehavior() {
     return this.getStringAttribute('impaired_zone_health_check_behavior');
   }
@@ -475,7 +475,7 @@ export class AutoscalingAutoScalingGroupAvailabilityZoneImpairmentPolicyOutputRe
   }
 
   // zonal_shift_enabled - computed: true, optional: true, required: false
-  private _zonalShiftEnabled?: boolean | cdktn.IResolvable;
+  private _zonalShiftEnabled?: boolean | cdktn.IResolvable; 
   public get zonalShiftEnabled() {
     return this.getBooleanAttribute('zonal_shift_enabled');
   }
@@ -590,7 +590,7 @@ export class AutoscalingAutoScalingGroupCapacityReservationSpecificationCapacity
   }
 
   // capacity_reservation_ids - computed: true, optional: true, required: false
-  private _capacityReservationIds?: string[];
+  private _capacityReservationIds?: string[]; 
   public get capacityReservationIds() {
     return this.getListAttribute('capacity_reservation_ids');
   }
@@ -606,7 +606,7 @@ export class AutoscalingAutoScalingGroupCapacityReservationSpecificationCapacity
   }
 
   // capacity_reservation_resource_group_arns - computed: true, optional: true, required: false
-  private _capacityReservationResourceGroupArns?: string[];
+  private _capacityReservationResourceGroupArns?: string[]; 
   public get capacityReservationResourceGroupArns() {
     return this.getListAttribute('capacity_reservation_resource_group_arns');
   }
@@ -623,10 +623,10 @@ export class AutoscalingAutoScalingGroupCapacityReservationSpecificationCapacity
 }
 export interface AutoscalingAutoScalingGroupCapacityReservationSpecification {
   /**
-  * The capacity reservation preference. The following options are available:
+  * The capacity reservation preference. The following options are available: 
   *   +  ``capacity-reservations-only`` - Auto Scaling will only launch instances into a Capacity Reservation or Capacity Reservation resource group. If capacity isn't available, instances will fail to launch.
   *   +  ``capacity-reservations-first`` - Auto Scaling will try to launch instances into a Capacity Reservation or Capacity Reservation resource group first. If capacity isn't available, instances will run in On-Demand capacity.
-  *   +  ``none`` - Auto Scaling will not launch instances into a Capacity Reservation. Instances will run in On-Demand capacity.
+  *   +  ``none`` - Auto Scaling will not launch instances into a Capacity Reservation. Instances will run in On-Demand capacity. 
   *   +  ``default`` - Auto Scaling uses the Capacity Reservation preference from your launch template or an open Capacity Reservation.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#capacity_reservation_preference AutoscalingAutoScalingGroup#capacity_reservation_preference}
@@ -725,7 +725,7 @@ export class AutoscalingAutoScalingGroupCapacityReservationSpecificationOutputRe
   }
 
   // capacity_reservation_preference - computed: true, optional: true, required: false
-  private _capacityReservationPreference?: string;
+  private _capacityReservationPreference?: string; 
   public get capacityReservationPreference() {
     return this.getStringAttribute('capacity_reservation_preference');
   }
@@ -758,8 +758,8 @@ export class AutoscalingAutoScalingGroupCapacityReservationSpecificationOutputRe
 }
 export interface AutoscalingAutoScalingGroupInstanceLifecyclePolicyRetentionTriggers {
   /**
-  * Specifies the action when a termination lifecycle hook is abandoned due to failure, timeout, or explicit abandonment (calling CompleteLifecycleAction).
-  *   Set to ``retain`` to move instances to a retained state. Set to ``terminate`` for default termination behavior.
+  * Specifies the action when a termination lifecycle hook is abandoned due to failure, timeout, or explicit abandonment (calling CompleteLifecycleAction). 
+  *   Set to ``retain`` to move instances to a retained state. Set to ``terminate`` for default termination behavior. 
   *   Retained instances don't count toward desired capacity and remain until you call ``TerminateInstanceInAutoScalingGroup``.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#terminate_hook_abandon AutoscalingAutoScalingGroup#terminate_hook_abandon}
@@ -839,7 +839,7 @@ export class AutoscalingAutoScalingGroupInstanceLifecyclePolicyRetentionTriggers
   }
 
   // terminate_hook_abandon - computed: true, optional: true, required: false
-  private _terminateHookAbandon?: string;
+  private _terminateHookAbandon?: string; 
   public get terminateHookAbandon() {
     return this.getStringAttribute('terminate_hook_abandon');
   }
@@ -1051,7 +1051,7 @@ export class AutoscalingAutoScalingGroupInstanceMaintenancePolicyOutputReference
   }
 
   // max_healthy_percentage - computed: true, optional: true, required: false
-  private _maxHealthyPercentage?: number;
+  private _maxHealthyPercentage?: number; 
   public get maxHealthyPercentage() {
     return this.getNumberAttribute('max_healthy_percentage');
   }
@@ -1067,7 +1067,7 @@ export class AutoscalingAutoScalingGroupInstanceMaintenancePolicyOutputReference
   }
 
   // min_healthy_percentage - computed: true, optional: true, required: false
-  private _minHealthyPercentage?: number;
+  private _minHealthyPercentage?: number; 
   public get minHealthyPercentage() {
     return this.getNumberAttribute('min_healthy_percentage');
   }
@@ -1205,7 +1205,7 @@ export class AutoscalingAutoScalingGroupLaunchTemplateOutputReference extends cd
   }
 
   // launch_template_id - computed: true, optional: true, required: false
-  private _launchTemplateId?: string;
+  private _launchTemplateId?: string; 
   public get launchTemplateId() {
     return this.getStringAttribute('launch_template_id');
   }
@@ -1221,7 +1221,7 @@ export class AutoscalingAutoScalingGroupLaunchTemplateOutputReference extends cd
   }
 
   // launch_template_name - computed: true, optional: true, required: false
-  private _launchTemplateName?: string;
+  private _launchTemplateName?: string; 
   public get launchTemplateName() {
     return this.getStringAttribute('launch_template_name');
   }
@@ -1237,7 +1237,7 @@ export class AutoscalingAutoScalingGroupLaunchTemplateOutputReference extends cd
   }
 
   // version - computed: true, optional: true, required: false
-  private _version?: string;
+  private _version?: string; 
   public get version() {
     return this.getStringAttribute('version');
   }
@@ -1453,7 +1453,7 @@ export class AutoscalingAutoScalingGroupLifecycleHookSpecificationListStructOutp
   }
 
   // default_result - computed: true, optional: true, required: false
-  private _defaultResult?: string;
+  private _defaultResult?: string; 
   public get defaultResult() {
     return this.getStringAttribute('default_result');
   }
@@ -1469,7 +1469,7 @@ export class AutoscalingAutoScalingGroupLifecycleHookSpecificationListStructOutp
   }
 
   // heartbeat_timeout - computed: true, optional: true, required: false
-  private _heartbeatTimeout?: number;
+  private _heartbeatTimeout?: number; 
   public get heartbeatTimeout() {
     return this.getNumberAttribute('heartbeat_timeout');
   }
@@ -1485,7 +1485,7 @@ export class AutoscalingAutoScalingGroupLifecycleHookSpecificationListStructOutp
   }
 
   // lifecycle_hook_name - computed: true, optional: true, required: false
-  private _lifecycleHookName?: string;
+  private _lifecycleHookName?: string; 
   public get lifecycleHookName() {
     return this.getStringAttribute('lifecycle_hook_name');
   }
@@ -1501,7 +1501,7 @@ export class AutoscalingAutoScalingGroupLifecycleHookSpecificationListStructOutp
   }
 
   // lifecycle_transition - computed: true, optional: true, required: false
-  private _lifecycleTransition?: string;
+  private _lifecycleTransition?: string; 
   public get lifecycleTransition() {
     return this.getStringAttribute('lifecycle_transition');
   }
@@ -1517,7 +1517,7 @@ export class AutoscalingAutoScalingGroupLifecycleHookSpecificationListStructOutp
   }
 
   // notification_metadata - computed: true, optional: true, required: false
-  private _notificationMetadata?: string;
+  private _notificationMetadata?: string; 
   public get notificationMetadata() {
     return this.getStringAttribute('notification_metadata');
   }
@@ -1533,7 +1533,7 @@ export class AutoscalingAutoScalingGroupLifecycleHookSpecificationListStructOutp
   }
 
   // notification_target_arn - computed: true, optional: true, required: false
-  private _notificationTargetArn?: string;
+  private _notificationTargetArn?: string; 
   public get notificationTargetArn() {
     return this.getStringAttribute('notification_target_arn');
   }
@@ -1549,7 +1549,7 @@ export class AutoscalingAutoScalingGroupLifecycleHookSpecificationListStructOutp
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -1594,27 +1594,27 @@ export interface AutoscalingAutoScalingGroupMetricsCollection {
   /**
   * Identifies the metrics to enable.
   *  You can specify one or more of the following metrics:
-  *   +   ``GroupMinSize``
-  *   +   ``GroupMaxSize``
-  *   +   ``GroupDesiredCapacity``
-  *   +   ``GroupInServiceInstances``
-  *   +   ``GroupPendingInstances``
-  *   +   ``GroupStandbyInstances``
-  *   +   ``GroupTerminatingInstances``
-  *   +   ``GroupTotalInstances``
-  *   +   ``GroupInServiceCapacity``
-  *   +   ``GroupPendingCapacity``
-  *   +   ``GroupStandbyCapacity``
-  *   +   ``GroupTerminatingCapacity``
-  *   +   ``GroupTotalCapacity``
-  *   +   ``WarmPoolDesiredCapacity``
-  *   +   ``WarmPoolWarmedCapacity``
-  *   +   ``WarmPoolPendingCapacity``
-  *   +   ``WarmPoolTerminatingCapacity``
-  *   +   ``WarmPoolTotalCapacity``
-  *   +   ``GroupAndWarmPoolDesiredCapacity``
-  *   +   ``GroupAndWarmPoolTotalCapacity``
-  *
+  *   +   ``GroupMinSize`` 
+  *   +   ``GroupMaxSize`` 
+  *   +   ``GroupDesiredCapacity`` 
+  *   +   ``GroupInServiceInstances`` 
+  *   +   ``GroupPendingInstances`` 
+  *   +   ``GroupStandbyInstances`` 
+  *   +   ``GroupTerminatingInstances`` 
+  *   +   ``GroupTotalInstances`` 
+  *   +   ``GroupInServiceCapacity`` 
+  *   +   ``GroupPendingCapacity`` 
+  *   +   ``GroupStandbyCapacity`` 
+  *   +   ``GroupTerminatingCapacity`` 
+  *   +   ``GroupTotalCapacity`` 
+  *   +   ``WarmPoolDesiredCapacity`` 
+  *   +   ``WarmPoolWarmedCapacity`` 
+  *   +   ``WarmPoolPendingCapacity`` 
+  *   +   ``WarmPoolTerminatingCapacity`` 
+  *   +   ``WarmPoolTotalCapacity`` 
+  *   +   ``GroupAndWarmPoolDesiredCapacity`` 
+  *   +   ``GroupAndWarmPoolTotalCapacity`` 
+  *   
   *  If you specify ``Granularity`` and don't specify any metrics, all metrics are enabled.
   *  For more information, see [Amazon CloudWatch metrics for Amazon EC2 Auto Scaling](https://docs.aws.amazon.com/autoscaling/ec2/userguide/ec2-auto-scaling-metrics.html) in the *Amazon EC2 Auto Scaling User Guide*.
   *
@@ -1710,7 +1710,7 @@ export class AutoscalingAutoScalingGroupMetricsCollectionOutputReference extends
   }
 
   // granularity - computed: true, optional: true, required: false
-  private _granularity?: string;
+  private _granularity?: string; 
   public get granularity() {
     return this.getStringAttribute('granularity');
   }
@@ -1726,7 +1726,7 @@ export class AutoscalingAutoScalingGroupMetricsCollectionOutputReference extends
   }
 
   // metrics - computed: true, optional: true, required: false
-  private _metrics?: string[];
+  private _metrics?: string[]; 
   public get metrics() {
     return this.getListAttribute('metrics');
   }
@@ -1949,7 +1949,7 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyInstancesDistributio
   }
 
   // on_demand_allocation_strategy - computed: true, optional: true, required: false
-  private _onDemandAllocationStrategy?: string;
+  private _onDemandAllocationStrategy?: string; 
   public get onDemandAllocationStrategy() {
     return this.getStringAttribute('on_demand_allocation_strategy');
   }
@@ -1965,7 +1965,7 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyInstancesDistributio
   }
 
   // on_demand_base_capacity - computed: true, optional: true, required: false
-  private _onDemandBaseCapacity?: number;
+  private _onDemandBaseCapacity?: number; 
   public get onDemandBaseCapacity() {
     return this.getNumberAttribute('on_demand_base_capacity');
   }
@@ -1981,7 +1981,7 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyInstancesDistributio
   }
 
   // on_demand_percentage_above_base_capacity - computed: true, optional: true, required: false
-  private _onDemandPercentageAboveBaseCapacity?: number;
+  private _onDemandPercentageAboveBaseCapacity?: number; 
   public get onDemandPercentageAboveBaseCapacity() {
     return this.getNumberAttribute('on_demand_percentage_above_base_capacity');
   }
@@ -1997,7 +1997,7 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyInstancesDistributio
   }
 
   // spot_allocation_strategy - computed: true, optional: true, required: false
-  private _spotAllocationStrategy?: string;
+  private _spotAllocationStrategy?: string; 
   public get spotAllocationStrategy() {
     return this.getStringAttribute('spot_allocation_strategy');
   }
@@ -2013,7 +2013,7 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyInstancesDistributio
   }
 
   // spot_instance_pools - computed: true, optional: true, required: false
-  private _spotInstancePools?: number;
+  private _spotInstancePools?: number; 
   public get spotInstancePools() {
     return this.getNumberAttribute('spot_instance_pools');
   }
@@ -2029,7 +2029,7 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyInstancesDistributio
   }
 
   // spot_max_price - computed: true, optional: true, required: false
-  private _spotMaxPrice?: string;
+  private _spotMaxPrice?: string; 
   public get spotMaxPrice() {
     return this.getStringAttribute('spot_max_price');
   }
@@ -2167,7 +2167,7 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateLaunch
   }
 
   // launch_template_id - computed: true, optional: true, required: false
-  private _launchTemplateId?: string;
+  private _launchTemplateId?: string; 
   public get launchTemplateId() {
     return this.getStringAttribute('launch_template_id');
   }
@@ -2183,7 +2183,7 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateLaunch
   }
 
   // launch_template_name - computed: true, optional: true, required: false
-  private _launchTemplateName?: string;
+  private _launchTemplateName?: string; 
   public get launchTemplateName() {
     return this.getStringAttribute('launch_template_name');
   }
@@ -2199,7 +2199,7 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateLaunch
   }
 
   // version - computed: true, optional: true, required: false
-  private _version?: string;
+  private _version?: string; 
   public get version() {
     return this.getStringAttribute('version');
   }
@@ -2314,7 +2314,7 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverri
   }
 
   // max - computed: true, optional: true, required: false
-  private _max?: number;
+  private _max?: number; 
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -2330,7 +2330,7 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverri
   }
 
   // min - computed: true, optional: true, required: false
-  private _min?: number;
+  private _min?: number; 
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -2445,7 +2445,7 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverri
   }
 
   // max - computed: true, optional: true, required: false
-  private _max?: number;
+  private _max?: number; 
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -2461,7 +2461,7 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverri
   }
 
   // min - computed: true, optional: true, required: false
-  private _min?: number;
+  private _min?: number; 
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -2576,7 +2576,7 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverri
   }
 
   // max - computed: true, optional: true, required: false
-  private _max?: number;
+  private _max?: number; 
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -2592,7 +2592,7 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverri
   }
 
   // min - computed: true, optional: true, required: false
-  private _min?: number;
+  private _min?: number; 
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -2609,18 +2609,18 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverri
 }
 export interface AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverridesInstanceRequirementsBaselinePerformanceFactorsCpuReferences {
   /**
-  * The instance family to use as a baseline reference.
+  * The instance family to use as a baseline reference. 
   *   Make sure that you specify the correct value for the instance family. The instance family is everything before the period (.) in the instance type name. For example, in the instance ``c6i.large``, the instance family is ``c6i``, not ``c6``. For more information, see [Amazon EC2 instance type naming conventions](https://docs.aws.amazon.com/ec2/latest/instancetypes/instance-type-names.html) in *Amazon EC2 Instance Types*.
   *   The following instance types are *not supported* for performance protection.
-  *   +   ``c1``
-  *   +   ``g3| g3s``
-  *   +   ``hpc7g``
-  *   +   ``m1| m2``
-  *   +   ``mac1 | mac2 | mac2-m1ultra | mac2-m2 | mac2-m2pro``
-  *   +   ``p3dn | p4d | p5``
-  *   +   ``t1``
-  *   +   ``u-12tb1 | u-18tb1 | u-24tb1 | u-3tb1 | u-6tb1 | u-9tb1 | u7i-12tb | u7in-16tb | u7in-24tb | u7in-32tb``
-  *
+  *   +   ``c1`` 
+  *   +   ``g3| g3s`` 
+  *   +   ``hpc7g`` 
+  *   +   ``m1| m2`` 
+  *   +   ``mac1 | mac2 | mac2-m1ultra | mac2-m2 | mac2-m2pro`` 
+  *   +   ``p3dn | p4d | p5`` 
+  *   +   ``t1`` 
+  *   +   ``u-12tb1 | u-18tb1 | u-24tb1 | u-3tb1 | u-6tb1 | u-9tb1 | u7i-12tb | u7in-16tb | u7in-24tb | u7in-32tb`` 
+  *   
   *  If you performance protection by specifying a supported instance family, the returned instance types will exclude the preceding unsupported instance families.
   *  If you specify an unsupported instance family as a value for baseline performance, the API returns an empty response.
   *
@@ -2703,7 +2703,7 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverri
   }
 
   // instance_family - computed: true, optional: true, required: false
-  private _instanceFamily?: string;
+  private _instanceFamily?: string; 
   public get instanceFamily() {
     return this.getStringAttribute('instance_family');
   }
@@ -2740,7 +2740,7 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverri
 }
 export interface AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverridesInstanceRequirementsBaselinePerformanceFactorsCpu {
   /**
-  * Specify an instance family to use as the baseline reference for CPU performance. All instance types that match your specified attributes will be compared against the CPU performance of the referenced instance family, regardless of CPU manufacturer or architecture differences.
+  * Specify an instance family to use as the baseline reference for CPU performance. All instance types that match your specified attributes will be compared against the CPU performance of the referenced instance family, regardless of CPU manufacturer or architecture differences. 
   *   Currently only one instance family can be specified in the list.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#references AutoscalingAutoScalingGroup#references}
@@ -3031,7 +3031,7 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverri
   }
 
   // max - computed: true, optional: true, required: false
-  private _max?: number;
+  private _max?: number; 
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -3047,7 +3047,7 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverri
   }
 
   // min - computed: true, optional: true, required: false
-  private _min?: number;
+  private _min?: number; 
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -3162,7 +3162,7 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverri
   }
 
   // max - computed: true, optional: true, required: false
-  private _max?: number;
+  private _max?: number; 
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -3178,7 +3178,7 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverri
   }
 
   // min - computed: true, optional: true, required: false
-  private _min?: number;
+  private _min?: number; 
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -3293,7 +3293,7 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverri
   }
 
   // max - computed: true, optional: true, required: false
-  private _max?: number;
+  private _max?: number; 
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -3309,7 +3309,7 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverri
   }
 
   // min - computed: true, optional: true, required: false
-  private _min?: number;
+  private _min?: number; 
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -3424,7 +3424,7 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverri
   }
 
   // max - computed: true, optional: true, required: false
-  private _max?: number;
+  private _max?: number; 
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -3440,7 +3440,7 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverri
   }
 
   // min - computed: true, optional: true, required: false
-  private _min?: number;
+  private _min?: number; 
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -3555,7 +3555,7 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverri
   }
 
   // max - computed: true, optional: true, required: false
-  private _max?: number;
+  private _max?: number; 
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -3571,7 +3571,7 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverri
   }
 
   // min - computed: true, optional: true, required: false
-  private _min?: number;
+  private _min?: number; 
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -3686,7 +3686,7 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverri
   }
 
   // max - computed: true, optional: true, required: false
-  private _max?: number;
+  private _max?: number; 
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -3702,7 +3702,7 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverri
   }
 
   // min - computed: true, optional: true, required: false
-  private _min?: number;
+  private _min?: number; 
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -3732,7 +3732,7 @@ export interface AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOv
   *   +  For instance types with AMD devices, specify ``amd``.
   *   +  For instance types with AWS devices, specify ``amazon-web-services``.
   *   +  For instance types with Xilinx devices, specify ``xilinx``.
-  *
+  *   
   *  Default: Any manufacturer
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#accelerator_manufacturers AutoscalingAutoScalingGroup#accelerator_manufacturers}
@@ -3747,7 +3747,7 @@ export interface AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOv
   *   +  For instance types with NVIDIA M60 GPUs, specify ``m60``.
   *   +  For instance types with AMD Radeon Pro V520 GPUs, specify ``radeon-pro-v520``.
   *   +  For instance types with Xilinx VU9P FPGAs, specify ``vu9p``.
-  *
+  *   
   *  Default: Any accelerator
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#accelerator_names AutoscalingAutoScalingGroup#accelerator_names}
@@ -3765,7 +3765,7 @@ export interface AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOv
   *   +  For instance types with GPU accelerators, specify ``gpu``.
   *   +  For instance types with FPGA accelerators, specify ``fpga``.
   *   +  For instance types with inference accelerators, specify ``inference``.
-  *
+  *   
   *  Default: Any accelerator type
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#accelerator_types AutoscalingAutoScalingGroup#accelerator_types}
@@ -3814,15 +3814,15 @@ export interface AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOv
   *   +  For instance types with AMD CPUs, specify ``amd``.
   *   +  For instance types with AWS CPUs, specify ``amazon-web-services``.
   *   +  For instance types with Apple CPUs, specify ``apple``.
-  *
-  *   Don't confuse the CPU hardware manufacturer with the CPU hardware architecture. Instances will be launched with a compatible CPU architecture based on the Amazon Machine Image (AMI) that you specify in your launch template.
+  *   
+  *   Don't confuse the CPU hardware manufacturer with the CPU hardware architecture. Instances will be launched with a compatible CPU architecture based on the Amazon Machine Image (AMI) that you specify in your launch template. 
   *   Default: Any manufacturer
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#cpu_manufacturers AutoscalingAutoScalingGroup#cpu_manufacturers}
   */
   readonly cpuManufacturers?: string[];
   /**
-  * The instance types to exclude. You can use strings with one or more wild cards, represented by an asterisk (``*``), to exclude an instance family, type, size, or generation. The following are examples: ``m5.8xlarge``, ``c5*.*``, ``m5a.*``, ``r*``, ``*3*``.
+  * The instance types to exclude. You can use strings with one or more wild cards, represented by an asterisk (``*``), to exclude an instance family, type, size, or generation. The following are examples: ``m5.8xlarge``, ``c5*.*``, ``m5a.*``, ``r*``, ``*3*``. 
   *  For example, if you specify ``c5*``, you are excluding the entire C5 instance family, which includes all C5a and C5n instance types. If you specify ``m5a.*``, Amazon EC2 Auto Scaling will exclude all the M5a instance types, but not the M5n instance types.
   *   If you specify ``ExcludedInstanceTypes``, you can't specify ``AllowedInstanceTypes``.
   *   Default: No excluded instance types
@@ -3834,7 +3834,7 @@ export interface AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOv
   * Indicates whether current or previous generation instance types are included.
   *   +  For current generation instance types, specify ``current``. The current generation includes EC2 instance types currently recommended for use. This typically includes the latest two to three generations in each instance family. For more information, see [Instance types](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instance-types.html) in the *Amazon EC2 User Guide*.
   *   +  For previous generation instance types, specify ``previous``.
-  *
+  *   
   *  Default: Any current or previous generation
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#instance_generations AutoscalingAutoScalingGroup#instance_generations}
@@ -3851,7 +3851,7 @@ export interface AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOv
   * Indicates the type of local storage that is required.
   *   +  For instance types with hard disk drive (HDD) storage, specify ``hdd``.
   *   +  For instance types with solid state drive (SSD) storage, specify ``ssd``.
-  *
+  *   
   *  Default: Any local storage type
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#local_storage_types AutoscalingAutoScalingGroup#local_storage_types}
@@ -3860,7 +3860,7 @@ export interface AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOv
   /**
   * [Price protection] The price protection threshold for Spot Instances, as a percentage of an identified On-Demand price. The identified On-Demand price is the price of the lowest priced current generation C, M, or R instance type with your specified attributes. If no current generation C, M, or R instance type matches your attributes, then the identified price is from either the lowest priced current generation instance types or, failing that, the lowest priced previous generation instance types that match your attributes. When Amazon EC2 Auto Scaling selects instance types with your attributes, we will exclude instance types whose price exceeds your specified threshold.
   *  The parameter accepts an integer, which Amazon EC2 Auto Scaling interprets as a percentage.
-  *  If you set ``DesiredCapacityType`` to ``vcpu`` or ``memory-mib``, the price protection threshold is based on the per-vCPU or per-memory price instead of the per instance price.
+  *  If you set ``DesiredCapacityType`` to ``vcpu`` or ``memory-mib``, the price protection threshold is based on the per-vCPU or per-memory price instead of the per instance price. 
   *   Only one of ``SpotMaxPricePercentageOverLowestPrice`` or ``MaxSpotPriceAsPercentageOfOptimalOnDemandPrice`` can be specified. If you don't specify either, Amazon EC2 Auto Scaling will automatically apply optimal price protection to consistently select from a wide range of instance types. To indicate no price protection threshold for Spot Instances, meaning you want to consider all instance types that match your attributes, include one of these parameters and specify a high value, such as ``999999``.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#max_spot_price_as_percentage_of_optimal_on_demand_price AutoscalingAutoScalingGroup#max_spot_price_as_percentage_of_optimal_on_demand_price}
@@ -3894,10 +3894,10 @@ export interface AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOv
   */
   readonly networkInterfaceCount?: AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverridesInstanceRequirementsNetworkInterfaceCount;
   /**
-  * [Price protection] The price protection threshold for On-Demand Instances, as a percentage higher than an identified On-Demand price. The identified On-Demand price is the price of the lowest priced current generation C, M, or R instance type with your specified attributes. If no current generation C, M, or R instance type matches your attributes, then the identified price is from either the lowest priced current generation instance types or, failing that, the lowest priced previous generation instance types that match your attributes. When Amazon EC2 Auto Scaling selects instance types with your attributes, we will exclude instance types whose price exceeds your specified threshold.
+  * [Price protection] The price protection threshold for On-Demand Instances, as a percentage higher than an identified On-Demand price. The identified On-Demand price is the price of the lowest priced current generation C, M, or R instance type with your specified attributes. If no current generation C, M, or R instance type matches your attributes, then the identified price is from either the lowest priced current generation instance types or, failing that, the lowest priced previous generation instance types that match your attributes. When Amazon EC2 Auto Scaling selects instance types with your attributes, we will exclude instance types whose price exceeds your specified threshold. 
   *  The parameter accepts an integer, which Amazon EC2 Auto Scaling interprets as a percentage.
-  *  To turn off price protection, specify a high value, such as ``999999``.
-  *  If you set ``DesiredCapacityType`` to ``vcpu`` or ``memory-mib``, the price protection threshold is applied based on the per-vCPU or per-memory price instead of the per instance price.
+  *  To turn off price protection, specify a high value, such as ``999999``. 
+  *  If you set ``DesiredCapacityType`` to ``vcpu`` or ``memory-mib``, the price protection threshold is applied based on the per-vCPU or per-memory price instead of the per instance price. 
   *  Default: ``20``
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#on_demand_max_price_percentage_over_lowest_price AutoscalingAutoScalingGroup#on_demand_max_price_percentage_over_lowest_price}
@@ -3912,8 +3912,8 @@ export interface AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOv
   readonly requireHibernateSupport?: boolean | cdktn.IResolvable;
   /**
   * [Price protection] The price protection threshold for Spot Instances, as a percentage higher than an identified Spot price. The identified Spot price is the price of the lowest priced current generation C, M, or R instance type with your specified attributes. If no current generation C, M, or R instance type matches your attributes, then the identified price is from either the lowest priced current generation instance types or, failing that, the lowest priced previous generation instance types that match your attributes. When Amazon EC2 Auto Scaling selects instance types with your attributes, we will exclude instance types whose price exceeds your specified threshold.
-  *  The parameter accepts an integer, which Amazon EC2 Auto Scaling interprets as a percentage.
-  *  If you set ``DesiredCapacityType`` to ``vcpu`` or ``memory-mib``, the price protection threshold is based on the per-vCPU or per-memory price instead of the per instance price.
+  *  The parameter accepts an integer, which Amazon EC2 Auto Scaling interprets as a percentage. 
+  *  If you set ``DesiredCapacityType`` to ``vcpu`` or ``memory-mib``, the price protection threshold is based on the per-vCPU or per-memory price instead of the per instance price. 
   *   Only one of ``SpotMaxPricePercentageOverLowestPrice`` or ``MaxSpotPriceAsPercentageOfOptimalOnDemandPrice`` can be specified. If you don't specify either, Amazon EC2 Auto Scaling will automatically apply optimal price protection to consistently select from a wide range of instance types. To indicate no price protection threshold for Spot Instances, meaning you want to consider all instance types that match your attributes, include one of these parameters and specify a high value, such as ``999999``.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#spot_max_price_percentage_over_lowest_price AutoscalingAutoScalingGroup#spot_max_price_percentage_over_lowest_price}
@@ -4334,7 +4334,7 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverri
   }
 
   // accelerator_manufacturers - computed: true, optional: true, required: false
-  private _acceleratorManufacturers?: string[];
+  private _acceleratorManufacturers?: string[]; 
   public get acceleratorManufacturers() {
     return cdktn.Fn.tolist(this.getListAttribute('accelerator_manufacturers'));
   }
@@ -4350,7 +4350,7 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverri
   }
 
   // accelerator_names - computed: true, optional: true, required: false
-  private _acceleratorNames?: string[];
+  private _acceleratorNames?: string[]; 
   public get acceleratorNames() {
     return cdktn.Fn.tolist(this.getListAttribute('accelerator_names'));
   }
@@ -4382,7 +4382,7 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverri
   }
 
   // accelerator_types - computed: true, optional: true, required: false
-  private _acceleratorTypes?: string[];
+  private _acceleratorTypes?: string[]; 
   public get acceleratorTypes() {
     return cdktn.Fn.tolist(this.getListAttribute('accelerator_types'));
   }
@@ -4398,7 +4398,7 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverri
   }
 
   // allowed_instance_types - computed: true, optional: true, required: false
-  private _allowedInstanceTypes?: string[];
+  private _allowedInstanceTypes?: string[]; 
   public get allowedInstanceTypes() {
     return this.getListAttribute('allowed_instance_types');
   }
@@ -4414,7 +4414,7 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverri
   }
 
   // bare_metal - computed: true, optional: true, required: false
-  private _bareMetal?: string;
+  private _bareMetal?: string; 
   public get bareMetal() {
     return this.getStringAttribute('bare_metal');
   }
@@ -4462,7 +4462,7 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverri
   }
 
   // burstable_performance - computed: true, optional: true, required: false
-  private _burstablePerformance?: string;
+  private _burstablePerformance?: string; 
   public get burstablePerformance() {
     return this.getStringAttribute('burstable_performance');
   }
@@ -4478,7 +4478,7 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverri
   }
 
   // cpu_manufacturers - computed: true, optional: true, required: false
-  private _cpuManufacturers?: string[];
+  private _cpuManufacturers?: string[]; 
   public get cpuManufacturers() {
     return cdktn.Fn.tolist(this.getListAttribute('cpu_manufacturers'));
   }
@@ -4494,7 +4494,7 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverri
   }
 
   // excluded_instance_types - computed: true, optional: true, required: false
-  private _excludedInstanceTypes?: string[];
+  private _excludedInstanceTypes?: string[]; 
   public get excludedInstanceTypes() {
     return this.getListAttribute('excluded_instance_types');
   }
@@ -4510,7 +4510,7 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverri
   }
 
   // instance_generations - computed: true, optional: true, required: false
-  private _instanceGenerations?: string[];
+  private _instanceGenerations?: string[]; 
   public get instanceGenerations() {
     return cdktn.Fn.tolist(this.getListAttribute('instance_generations'));
   }
@@ -4526,7 +4526,7 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverri
   }
 
   // local_storage - computed: true, optional: true, required: false
-  private _localStorage?: string;
+  private _localStorage?: string; 
   public get localStorage() {
     return this.getStringAttribute('local_storage');
   }
@@ -4542,7 +4542,7 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverri
   }
 
   // local_storage_types - computed: true, optional: true, required: false
-  private _localStorageTypes?: string[];
+  private _localStorageTypes?: string[]; 
   public get localStorageTypes() {
     return cdktn.Fn.tolist(this.getListAttribute('local_storage_types'));
   }
@@ -4558,7 +4558,7 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverri
   }
 
   // max_spot_price_as_percentage_of_optimal_on_demand_price - computed: true, optional: true, required: false
-  private _maxSpotPriceAsPercentageOfOptimalOnDemandPrice?: number;
+  private _maxSpotPriceAsPercentageOfOptimalOnDemandPrice?: number; 
   public get maxSpotPriceAsPercentageOfOptimalOnDemandPrice() {
     return this.getNumberAttribute('max_spot_price_as_percentage_of_optimal_on_demand_price');
   }
@@ -4638,7 +4638,7 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverri
   }
 
   // on_demand_max_price_percentage_over_lowest_price - computed: true, optional: true, required: false
-  private _onDemandMaxPricePercentageOverLowestPrice?: number;
+  private _onDemandMaxPricePercentageOverLowestPrice?: number; 
   public get onDemandMaxPricePercentageOverLowestPrice() {
     return this.getNumberAttribute('on_demand_max_price_percentage_over_lowest_price');
   }
@@ -4654,7 +4654,7 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverri
   }
 
   // require_hibernate_support - computed: true, optional: true, required: false
-  private _requireHibernateSupport?: boolean | cdktn.IResolvable;
+  private _requireHibernateSupport?: boolean | cdktn.IResolvable; 
   public get requireHibernateSupport() {
     return this.getBooleanAttribute('require_hibernate_support');
   }
@@ -4670,7 +4670,7 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverri
   }
 
   // spot_max_price_percentage_over_lowest_price - computed: true, optional: true, required: false
-  private _spotMaxPricePercentageOverLowestPrice?: number;
+  private _spotMaxPricePercentageOverLowestPrice?: number; 
   public get spotMaxPricePercentageOverLowestPrice() {
     return this.getNumberAttribute('spot_max_price_percentage_over_lowest_price');
   }
@@ -4840,7 +4840,7 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverri
   }
 
   // launch_template_id - computed: true, optional: true, required: false
-  private _launchTemplateId?: string;
+  private _launchTemplateId?: string; 
   public get launchTemplateId() {
     return this.getStringAttribute('launch_template_id');
   }
@@ -4856,7 +4856,7 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverri
   }
 
   // launch_template_name - computed: true, optional: true, required: false
-  private _launchTemplateName?: string;
+  private _launchTemplateName?: string; 
   public get launchTemplateName() {
     return this.getStringAttribute('launch_template_name');
   }
@@ -4872,7 +4872,7 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverri
   }
 
   // version - computed: true, optional: true, required: false
-  private _version?: string;
+  private _version?: string; 
   public get version() {
     return this.getStringAttribute('version');
   }
@@ -4889,8 +4889,8 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverri
 }
 export interface AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverrides {
   /**
-  * The ID of the Amazon Machine Image (AMI) to use for instances launched with this override. When using Instance Refresh with ``ReplaceRootVolume`` strategy, this specifies the AMI for root volume replacement operations.
-  *   For ``ReplaceRootVolume`` operations:
+  * The ID of the Amazon Machine Image (AMI) to use for instances launched with this override. When using Instance Refresh with ``ReplaceRootVolume`` strategy, this specifies the AMI for root volume replacement operations. 
+  *   For ``ReplaceRootVolume`` operations: 
   *   +  All overrides in the ``MixedInstancesPolicy`` must specify an ImageId
   *   +  The AMI must contain only a single root volume
   *   +  Root volume replacement doesn't support multi-volume AMIs
@@ -4900,7 +4900,7 @@ export interface AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOv
   readonly imageId?: string;
   /**
   * The instance requirements. Amazon EC2 Auto Scaling uses your specified requirements to identify instance types. Then, it uses your On-Demand and Spot allocation strategies to launch instances from these instance types.
-  *  You can specify up to four separate sets of instance requirements per Auto Scaling group. This is useful for provisioning instances from different Amazon Machine Images (AMIs) in the same Auto Scaling group. To do this, create the AMIs and create a new launch template for each AMI. Then, create a compatible set of instance requirements for each launch template.
+  *  You can specify up to four separate sets of instance requirements per Auto Scaling group. This is useful for provisioning instances from different Amazon Machine Images (AMIs) in the same Auto Scaling group. To do this, create the AMIs and create a new launch template for each AMI. Then, create a compatible set of instance requirements for each launch template. 
   *   If you specify ``InstanceRequirements``, you can't specify ``InstanceType``.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#instance_requirements AutoscalingAutoScalingGroup#instance_requirements}
@@ -4914,14 +4914,14 @@ export interface AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOv
   */
   readonly instanceType?: string;
   /**
-  * Provides a launch template for the specified instance type or set of instance requirements. For example, some instance types might require a launch template with a different AMI. If not provided, Amazon EC2 Auto Scaling uses the launch template that's specified in the ``LaunchTemplate`` definition. For more information, see [Specifying a different launch template for an instance type](https://docs.aws.amazon.com/autoscaling/ec2/userguide/ec2-auto-scaling-mixed-instances-groups-launch-template-overrides.html) in the *Amazon EC2 Auto Scaling User Guide*.
+  * Provides a launch template for the specified instance type or set of instance requirements. For example, some instance types might require a launch template with a different AMI. If not provided, Amazon EC2 Auto Scaling uses the launch template that's specified in the ``LaunchTemplate`` definition. For more information, see [Specifying a different launch template for an instance type](https://docs.aws.amazon.com/autoscaling/ec2/userguide/ec2-auto-scaling-mixed-instances-groups-launch-template-overrides.html) in the *Amazon EC2 Auto Scaling User Guide*. 
   *  You can specify up to 20 launch templates per Auto Scaling group. The launch templates specified in the overrides and in the ``LaunchTemplate`` definition count towards this limit.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#launch_template_specification AutoscalingAutoScalingGroup#launch_template_specification}
   */
   readonly launchTemplateSpecification?: AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverridesLaunchTemplateSpecification;
   /**
-  * If you provide a list of instance types to use, you can specify the number of capacity units provided by each instance type in terms of virtual CPUs, memory, storage, throughput, or other relative performance characteristic. When a Spot or On-Demand Instance is launched, the capacity units count toward the desired capacity. Amazon EC2 Auto Scaling launches instances until the desired capacity is totally fulfilled, even if this results in an overage. For example, if there are two units remaining to fulfill capacity, and Amazon EC2 Auto Scaling can only launch an instance with a ``WeightedCapacity`` of five units, the instance is launched, and the desired capacity is exceeded by three units. For more information, see [Configure instance weighting for Amazon EC2 Auto Scaling](https://docs.aws.amazon.com/autoscaling/ec2/userguide/ec2-auto-scaling-mixed-instances-groups-instance-weighting.html) in the *Amazon EC2 Auto Scaling User Guide*. Value must be in the range of 1-999.
+  * If you provide a list of instance types to use, you can specify the number of capacity units provided by each instance type in terms of virtual CPUs, memory, storage, throughput, or other relative performance characteristic. When a Spot or On-Demand Instance is launched, the capacity units count toward the desired capacity. Amazon EC2 Auto Scaling launches instances until the desired capacity is totally fulfilled, even if this results in an overage. For example, if there are two units remaining to fulfill capacity, and Amazon EC2 Auto Scaling can only launch an instance with a ``WeightedCapacity`` of five units, the instance is launched, and the desired capacity is exceeded by three units. For more information, see [Configure instance weighting for Amazon EC2 Auto Scaling](https://docs.aws.amazon.com/autoscaling/ec2/userguide/ec2-auto-scaling-mixed-instances-groups-instance-weighting.html) in the *Amazon EC2 Auto Scaling User Guide*. Value must be in the range of 1-999. 
   *  If you specify a value for ``WeightedCapacity`` for one instance type, you must specify a value for ``WeightedCapacity`` for all of them.
   *   Every Auto Scaling group has three size parameters (``DesiredCapacity``, ``MaxSize``, and ``MinSize``). Usually, you set these sizes based on a specific number of instances. However, if you configure a mixed instances policy that defines weights for the instance types, you must specify these sizes with the same units that you use for weighting instances.
   *
@@ -5056,7 +5056,7 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverri
   }
 
   // image_id - computed: true, optional: true, required: false
-  private _imageId?: string;
+  private _imageId?: string; 
   public get imageId() {
     return this.getStringAttribute('image_id');
   }
@@ -5088,7 +5088,7 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverri
   }
 
   // instance_type - computed: true, optional: true, required: false
-  private _instanceType?: string;
+  private _instanceType?: string; 
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -5120,7 +5120,7 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverri
   }
 
   // weighted_capacity - computed: true, optional: true, required: false
-  private _weightedCapacity?: string;
+  private _weightedCapacity?: string; 
   public get weightedCapacity() {
     return this.getStringAttribute('weighted_capacity');
   }
@@ -5419,12 +5419,12 @@ export class AutoscalingAutoScalingGroupMixedInstancesPolicyOutputReference exte
 }
 export interface AutoscalingAutoScalingGroupNotificationConfiguration {
   /**
-  * A list of event types that send a notification. Event types can include any of the following types.
+  * A list of event types that send a notification. Event types can include any of the following types. 
   *  *Allowed values*:
-  *   +   ``autoscaling:EC2_INSTANCE_LAUNCH``
-  *   +   ``autoscaling:EC2_INSTANCE_LAUNCH_ERROR``
-  *   +   ``autoscaling:EC2_INSTANCE_TERMINATE``
-  *   +   ``autoscaling:EC2_INSTANCE_TERMINATE_ERROR``
+  *   +   ``autoscaling:EC2_INSTANCE_LAUNCH`` 
+  *   +   ``autoscaling:EC2_INSTANCE_LAUNCH_ERROR`` 
+  *   +   ``autoscaling:EC2_INSTANCE_TERMINATE`` 
+  *   +   ``autoscaling:EC2_INSTANCE_TERMINATE_ERROR`` 
   *   +   ``autoscaling:TEST_NOTIFICATION``
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#notification_types AutoscalingAutoScalingGroup#notification_types}
@@ -5523,7 +5523,7 @@ export class AutoscalingAutoScalingGroupNotificationConfigurationOutputReference
   }
 
   // notification_types - computed: true, optional: true, required: false
-  private _notificationTypes?: string[];
+  private _notificationTypes?: string[]; 
   public get notificationTypes() {
     return this.getListAttribute('notification_types');
   }
@@ -5539,7 +5539,7 @@ export class AutoscalingAutoScalingGroupNotificationConfigurationOutputReference
   }
 
   // topic_arn - computed: true, optional: true, required: false
-  private _topicArn?: string;
+  private _topicArn?: string; 
   public get topicArn() {
     return this.getStringAttribute('topic_arn');
   }
@@ -5556,12 +5556,12 @@ export class AutoscalingAutoScalingGroupNotificationConfigurationOutputReference
 }
 export interface AutoscalingAutoScalingGroupNotificationConfigurations {
   /**
-  * A list of event types that send a notification. Event types can include any of the following types.
+  * A list of event types that send a notification. Event types can include any of the following types. 
   *  *Allowed values*:
-  *   +   ``autoscaling:EC2_INSTANCE_LAUNCH``
-  *   +   ``autoscaling:EC2_INSTANCE_LAUNCH_ERROR``
-  *   +   ``autoscaling:EC2_INSTANCE_TERMINATE``
-  *   +   ``autoscaling:EC2_INSTANCE_TERMINATE_ERROR``
+  *   +   ``autoscaling:EC2_INSTANCE_LAUNCH`` 
+  *   +   ``autoscaling:EC2_INSTANCE_LAUNCH_ERROR`` 
+  *   +   ``autoscaling:EC2_INSTANCE_TERMINATE`` 
+  *   +   ``autoscaling:EC2_INSTANCE_TERMINATE_ERROR`` 
   *   +   ``autoscaling:TEST_NOTIFICATION``
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#notification_types AutoscalingAutoScalingGroup#notification_types}
@@ -5662,7 +5662,7 @@ export class AutoscalingAutoScalingGroupNotificationConfigurationsOutputReferenc
   }
 
   // notification_types - computed: true, optional: true, required: false
-  private _notificationTypes?: string[];
+  private _notificationTypes?: string[]; 
   public get notificationTypes() {
     return this.getListAttribute('notification_types');
   }
@@ -5678,7 +5678,7 @@ export class AutoscalingAutoScalingGroupNotificationConfigurationsOutputReferenc
   }
 
   // topic_arn - computed: true, optional: true, required: false
-  private _topicArn?: string;
+  private _topicArn?: string; 
   public get topicArn() {
     return this.getStringAttribute('topic_arn');
   }
@@ -5834,7 +5834,7 @@ export class AutoscalingAutoScalingGroupTagsOutputReference extends cdktn.Comple
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -5850,7 +5850,7 @@ export class AutoscalingAutoScalingGroupTagsOutputReference extends cdktn.Comple
   }
 
   // propagate_at_launch - computed: true, optional: true, required: false
-  private _propagateAtLaunch?: boolean | cdktn.IResolvable;
+  private _propagateAtLaunch?: boolean | cdktn.IResolvable; 
   public get propagateAtLaunch() {
     return this.getBooleanAttribute('propagate_at_launch');
   }
@@ -5866,7 +5866,7 @@ export class AutoscalingAutoScalingGroupTagsOutputReference extends cdktn.Comple
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -5905,11 +5905,11 @@ export interface AutoscalingAutoScalingGroupTrafficSources {
   /**
   * Identifies the traffic source.
   *  For Application Load Balancers, Gateway Load Balancers, Network Load Balancers, and VPC Lattice, this will be the Amazon Resource Name (ARN) for a target group in this account and Region. For Classic Load Balancers, this will be the name of the Classic Load Balancer in this account and Region.
-  *  For example:
+  *  For example: 
   *   +  Application Load Balancer ARN: ``arn:aws:elasticloadbalancing:us-west-2:123456789012:targetgroup/my-targets/1234567890123456``
   *   +  Classic Load Balancer name: ``my-classic-load-balancer``
   *   +  VPC Lattice ARN: ``arn:aws:vpc-lattice:us-west-2:123456789012:targetgroup/tg-1234567890123456``
-  *
+  *   
   *  To get the ARN of a target group for a Application Load Balancer, Gateway Load Balancer, or Network Load Balancer, or the name of a Classic Load Balancer, use the Elastic Load Balancing [DescribeTargetGroups](https://docs.aws.amazon.com/elasticloadbalancing/latest/APIReference/API_DescribeTargetGroups.html) and [DescribeLoadBalancers](https://docs.aws.amazon.com/elasticloadbalancing/latest/APIReference/API_DescribeLoadBalancers.html) API operations.
   *  To get the ARN of a target group for VPC Lattice, use the VPC Lattice [GetTargetGroup](https://docs.aws.amazon.com/vpc-lattice/latest/APIReference/API_GetTargetGroup.html) API operation.
   *
@@ -5922,7 +5922,7 @@ export interface AutoscalingAutoScalingGroupTrafficSources {
   *   +  ``elb`` if ``Identifier`` is the name of a Classic Load Balancer.
   *   +  ``elbv2`` if ``Identifier`` is the ARN of an Application Load Balancer, Gateway Load Balancer, or Network Load Balancer target group.
   *   +  ``vpc-lattice`` if ``Identifier`` is the ARN of a VPC Lattice target group.
-  *
+  *   
   *  Required if the identifier is the name of a Classic Load Balancer.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/autoscaling_auto_scaling_group#type AutoscalingAutoScalingGroup#type}
@@ -6017,7 +6017,7 @@ export class AutoscalingAutoScalingGroupTrafficSourcesOutputReference extends cd
   }
 
   // identifier - computed: true, optional: true, required: false
-  private _identifier?: string;
+  private _identifier?: string; 
   public get identifier() {
     return this.getStringAttribute('identifier');
   }
@@ -6033,7 +6033,7 @@ export class AutoscalingAutoScalingGroupTrafficSourcesOutputReference extends cd
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -6169,7 +6169,7 @@ export class AutoscalingAutoScalingGroup extends cdktn.TerraformResource {
   }
 
   // auto_scaling_group_name - computed: true, optional: true, required: false
-  private _autoScalingGroupName?: string;
+  private _autoScalingGroupName?: string; 
   public get autoScalingGroupName() {
     return this.getStringAttribute('auto_scaling_group_name');
   }
@@ -6201,7 +6201,7 @@ export class AutoscalingAutoScalingGroup extends cdktn.TerraformResource {
   }
 
   // availability_zone_ids - computed: true, optional: true, required: false
-  private _availabilityZoneIds?: string[];
+  private _availabilityZoneIds?: string[]; 
   public get availabilityZoneIds() {
     return cdktn.Fn.tolist(this.getListAttribute('availability_zone_ids'));
   }
@@ -6233,7 +6233,7 @@ export class AutoscalingAutoScalingGroup extends cdktn.TerraformResource {
   }
 
   // availability_zones - computed: true, optional: true, required: false
-  private _availabilityZones?: string[];
+  private _availabilityZones?: string[]; 
   public get availabilityZones() {
     return this.getListAttribute('availability_zones');
   }
@@ -6249,7 +6249,7 @@ export class AutoscalingAutoScalingGroup extends cdktn.TerraformResource {
   }
 
   // capacity_rebalance - computed: true, optional: true, required: false
-  private _capacityRebalance?: boolean | cdktn.IResolvable;
+  private _capacityRebalance?: boolean | cdktn.IResolvable; 
   public get capacityRebalance() {
     return this.getBooleanAttribute('capacity_rebalance');
   }
@@ -6281,7 +6281,7 @@ export class AutoscalingAutoScalingGroup extends cdktn.TerraformResource {
   }
 
   // context - computed: true, optional: true, required: false
-  private _context?: string;
+  private _context?: string; 
   public get context() {
     return this.getStringAttribute('context');
   }
@@ -6297,7 +6297,7 @@ export class AutoscalingAutoScalingGroup extends cdktn.TerraformResource {
   }
 
   // cooldown - computed: true, optional: true, required: false
-  private _cooldown?: string;
+  private _cooldown?: string; 
   public get cooldown() {
     return this.getStringAttribute('cooldown');
   }
@@ -6313,7 +6313,7 @@ export class AutoscalingAutoScalingGroup extends cdktn.TerraformResource {
   }
 
   // default_instance_warmup - computed: true, optional: true, required: false
-  private _defaultInstanceWarmup?: number;
+  private _defaultInstanceWarmup?: number; 
   public get defaultInstanceWarmup() {
     return this.getNumberAttribute('default_instance_warmup');
   }
@@ -6329,7 +6329,7 @@ export class AutoscalingAutoScalingGroup extends cdktn.TerraformResource {
   }
 
   // deletion_protection - computed: true, optional: true, required: false
-  private _deletionProtection?: string;
+  private _deletionProtection?: string; 
   public get deletionProtection() {
     return this.getStringAttribute('deletion_protection');
   }
@@ -6345,7 +6345,7 @@ export class AutoscalingAutoScalingGroup extends cdktn.TerraformResource {
   }
 
   // desired_capacity - computed: true, optional: true, required: false
-  private _desiredCapacity?: string;
+  private _desiredCapacity?: string; 
   public get desiredCapacity() {
     return this.getStringAttribute('desired_capacity');
   }
@@ -6361,7 +6361,7 @@ export class AutoscalingAutoScalingGroup extends cdktn.TerraformResource {
   }
 
   // desired_capacity_type - computed: true, optional: true, required: false
-  private _desiredCapacityType?: string;
+  private _desiredCapacityType?: string; 
   public get desiredCapacityType() {
     return this.getStringAttribute('desired_capacity_type');
   }
@@ -6377,7 +6377,7 @@ export class AutoscalingAutoScalingGroup extends cdktn.TerraformResource {
   }
 
   // health_check_grace_period - computed: true, optional: true, required: false
-  private _healthCheckGracePeriod?: number;
+  private _healthCheckGracePeriod?: number; 
   public get healthCheckGracePeriod() {
     return this.getNumberAttribute('health_check_grace_period');
   }
@@ -6393,7 +6393,7 @@ export class AutoscalingAutoScalingGroup extends cdktn.TerraformResource {
   }
 
   // health_check_type - computed: true, optional: true, required: false
-  private _healthCheckType?: string;
+  private _healthCheckType?: string; 
   public get healthCheckType() {
     return this.getStringAttribute('health_check_type');
   }
@@ -6414,7 +6414,7 @@ export class AutoscalingAutoScalingGroup extends cdktn.TerraformResource {
   }
 
   // instance_id - computed: true, optional: true, required: false
-  private _instanceId?: string;
+  private _instanceId?: string; 
   public get instanceId() {
     return this.getStringAttribute('instance_id');
   }
@@ -6462,7 +6462,7 @@ export class AutoscalingAutoScalingGroup extends cdktn.TerraformResource {
   }
 
   // launch_configuration_name - computed: true, optional: true, required: false
-  private _launchConfigurationName?: string;
+  private _launchConfigurationName?: string; 
   public get launchConfigurationName() {
     return this.getStringAttribute('launch_configuration_name');
   }
@@ -6510,7 +6510,7 @@ export class AutoscalingAutoScalingGroup extends cdktn.TerraformResource {
   }
 
   // load_balancer_names - computed: true, optional: true, required: false
-  private _loadBalancerNames?: string[];
+  private _loadBalancerNames?: string[]; 
   public get loadBalancerNames() {
     return this.getListAttribute('load_balancer_names');
   }
@@ -6526,7 +6526,7 @@ export class AutoscalingAutoScalingGroup extends cdktn.TerraformResource {
   }
 
   // max_instance_lifetime - computed: true, optional: true, required: false
-  private _maxInstanceLifetime?: number;
+  private _maxInstanceLifetime?: number; 
   public get maxInstanceLifetime() {
     return this.getNumberAttribute('max_instance_lifetime');
   }
@@ -6542,7 +6542,7 @@ export class AutoscalingAutoScalingGroup extends cdktn.TerraformResource {
   }
 
   // max_size - computed: false, optional: false, required: true
-  private _maxSize?: string;
+  private _maxSize?: string; 
   public get maxSize() {
     return this.getStringAttribute('max_size');
   }
@@ -6571,7 +6571,7 @@ export class AutoscalingAutoScalingGroup extends cdktn.TerraformResource {
   }
 
   // min_size - computed: false, optional: false, required: true
-  private _minSize?: string;
+  private _minSize?: string; 
   public get minSize() {
     return this.getStringAttribute('min_size');
   }
@@ -6600,7 +6600,7 @@ export class AutoscalingAutoScalingGroup extends cdktn.TerraformResource {
   }
 
   // new_instances_protected_from_scale_in - computed: true, optional: true, required: false
-  private _newInstancesProtectedFromScaleIn?: boolean | cdktn.IResolvable;
+  private _newInstancesProtectedFromScaleIn?: boolean | cdktn.IResolvable; 
   public get newInstancesProtectedFromScaleIn() {
     return this.getBooleanAttribute('new_instances_protected_from_scale_in');
   }
@@ -6648,7 +6648,7 @@ export class AutoscalingAutoScalingGroup extends cdktn.TerraformResource {
   }
 
   // placement_group - computed: true, optional: true, required: false
-  private _placementGroup?: string;
+  private _placementGroup?: string; 
   public get placementGroup() {
     return this.getStringAttribute('placement_group');
   }
@@ -6664,7 +6664,7 @@ export class AutoscalingAutoScalingGroup extends cdktn.TerraformResource {
   }
 
   // service_linked_role_arn - computed: true, optional: true, required: false
-  private _serviceLinkedRoleArn?: string;
+  private _serviceLinkedRoleArn?: string; 
   public get serviceLinkedRoleArn() {
     return this.getStringAttribute('service_linked_role_arn');
   }
@@ -6680,7 +6680,7 @@ export class AutoscalingAutoScalingGroup extends cdktn.TerraformResource {
   }
 
   // skip_zonal_shift_validation - computed: true, optional: true, required: false
-  private _skipZonalShiftValidation?: boolean | cdktn.IResolvable;
+  private _skipZonalShiftValidation?: boolean | cdktn.IResolvable; 
   public get skipZonalShiftValidation() {
     return this.getBooleanAttribute('skip_zonal_shift_validation');
   }
@@ -6712,7 +6712,7 @@ export class AutoscalingAutoScalingGroup extends cdktn.TerraformResource {
   }
 
   // target_group_ar_ns - computed: true, optional: true, required: false
-  private _targetGroupArNs?: string[];
+  private _targetGroupArNs?: string[]; 
   public get targetGroupArNs() {
     return this.getListAttribute('target_group_ar_ns');
   }
@@ -6728,7 +6728,7 @@ export class AutoscalingAutoScalingGroup extends cdktn.TerraformResource {
   }
 
   // termination_policies - computed: true, optional: true, required: false
-  private _terminationPolicies?: string[];
+  private _terminationPolicies?: string[]; 
   public get terminationPolicies() {
     return this.getListAttribute('termination_policies');
   }
@@ -6760,7 +6760,7 @@ export class AutoscalingAutoScalingGroup extends cdktn.TerraformResource {
   }
 
   // vpc_zone_identifier - computed: true, optional: true, required: false
-  private _vpcZoneIdentifier?: string[];
+  private _vpcZoneIdentifier?: string[]; 
   public get vpcZoneIdentifier() {
     return this.getListAttribute('vpc_zone_identifier');
   }

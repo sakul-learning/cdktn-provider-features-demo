@@ -150,7 +150,7 @@ export class FinspaceKxEnvironmentCustomDnsConfigurationOutputReference extends 
   }
 
   // custom_dns_server_ip - computed: false, optional: false, required: true
-  private _customDnsServerIp?: string;
+  private _customDnsServerIp?: string; 
   public get customDnsServerIp() {
     return this.getStringAttribute('custom_dns_server_ip');
   }
@@ -163,7 +163,7 @@ export class FinspaceKxEnvironmentCustomDnsConfigurationOutputReference extends 
   }
 
   // custom_dns_server_name - computed: false, optional: false, required: true
-  private _customDnsServerName?: string;
+  private _customDnsServerName?: string; 
   public get customDnsServerName() {
     return this.getStringAttribute('custom_dns_server_name');
   }
@@ -308,7 +308,7 @@ export class FinspaceKxEnvironmentTimeoutsOutputReference extends cdktn.ComplexO
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -324,7 +324,7 @@ export class FinspaceKxEnvironmentTimeoutsOutputReference extends cdktn.ComplexO
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -340,7 +340,7 @@ export class FinspaceKxEnvironmentTimeoutsOutputReference extends cdktn.ComplexO
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -441,7 +441,7 @@ export class FinspaceKxEnvironmentTransitGatewayConfigurationAttachmentNetworkAc
   }
 
   // code - computed: false, optional: false, required: true
-  private _code?: number;
+  private _code?: number; 
   public get code() {
     return this.getNumberAttribute('code');
   }
@@ -454,7 +454,7 @@ export class FinspaceKxEnvironmentTransitGatewayConfigurationAttachmentNetworkAc
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: number;
+  private _type?: number; 
   public get type() {
     return this.getNumberAttribute('type');
   }
@@ -552,7 +552,7 @@ export class FinspaceKxEnvironmentTransitGatewayConfigurationAttachmentNetworkAc
   }
 
   // from - computed: false, optional: false, required: true
-  private _from?: number;
+  private _from?: number; 
   public get from() {
     return this.getNumberAttribute('from');
   }
@@ -565,7 +565,7 @@ export class FinspaceKxEnvironmentTransitGatewayConfigurationAttachmentNetworkAc
   }
 
   // to - computed: false, optional: false, required: true
-  private _to?: number;
+  private _to?: number; 
   public get to() {
     return this.getNumberAttribute('to');
   }
@@ -747,7 +747,7 @@ export class FinspaceKxEnvironmentTransitGatewayConfigurationAttachmentNetworkAc
   }
 
   // cidr_block - computed: false, optional: false, required: true
-  private _cidrBlock?: string;
+  private _cidrBlock?: string; 
   public get cidrBlock() {
     return this.getStringAttribute('cidr_block');
   }
@@ -760,7 +760,7 @@ export class FinspaceKxEnvironmentTransitGatewayConfigurationAttachmentNetworkAc
   }
 
   // protocol - computed: false, optional: false, required: true
-  private _protocol?: string;
+  private _protocol?: string; 
   public get protocol() {
     return this.getStringAttribute('protocol');
   }
@@ -773,7 +773,7 @@ export class FinspaceKxEnvironmentTransitGatewayConfigurationAttachmentNetworkAc
   }
 
   // rule_action - computed: false, optional: false, required: true
-  private _ruleAction?: string;
+  private _ruleAction?: string; 
   public get ruleAction() {
     return this.getStringAttribute('rule_action');
   }
@@ -786,7 +786,7 @@ export class FinspaceKxEnvironmentTransitGatewayConfigurationAttachmentNetworkAc
   }
 
   // rule_number - computed: false, optional: false, required: true
-  private _ruleNumber?: number;
+  private _ruleNumber?: number; 
   public get ruleNumber() {
     return this.getNumberAttribute('rule_number');
   }
@@ -955,7 +955,7 @@ export class FinspaceKxEnvironmentTransitGatewayConfigurationOutputReference ext
   }
 
   // routable_cidr_space - computed: false, optional: false, required: true
-  private _routableCidrSpace?: string;
+  private _routableCidrSpace?: string; 
   public get routableCidrSpace() {
     return this.getStringAttribute('routable_cidr_space');
   }
@@ -968,7 +968,7 @@ export class FinspaceKxEnvironmentTransitGatewayConfigurationOutputReference ext
   }
 
   // transit_gateway_id - computed: false, optional: false, required: true
-  private _transitGatewayId?: string;
+  private _transitGatewayId?: string; 
   public get transitGatewayId() {
     return this.getStringAttribute('transit_gateway_id');
   }
@@ -1078,7 +1078,7 @@ export class FinspaceKxEnvironment extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1104,7 +1104,7 @@ export class FinspaceKxEnvironment extends cdktn.TerraformResource {
   }
 
   // kms_key_id - computed: false, optional: false, required: true
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -1122,7 +1122,7 @@ export class FinspaceKxEnvironment extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1135,7 +1135,7 @@ export class FinspaceKxEnvironment extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1156,7 +1156,7 @@ export class FinspaceKxEnvironment extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -1172,7 +1172,7 @@ export class FinspaceKxEnvironment extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

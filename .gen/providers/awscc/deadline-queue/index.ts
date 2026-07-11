@@ -150,7 +150,7 @@ export class DeadlineQueueJobAttachmentSettingsOutputReference extends cdktn.Com
   }
 
   // root_prefix - computed: true, optional: true, required: false
-  private _rootPrefix?: string;
+  private _rootPrefix?: string; 
   public get rootPrefix() {
     return this.getStringAttribute('root_prefix');
   }
@@ -166,7 +166,7 @@ export class DeadlineQueueJobAttachmentSettingsOutputReference extends cdktn.Com
   }
 
   // s3_bucket_name - computed: true, optional: true, required: false
-  private _s3BucketName?: string;
+  private _s3BucketName?: string; 
   public get s3BucketName() {
     return this.getStringAttribute('s3_bucket_name');
   }
@@ -277,7 +277,7 @@ export class DeadlineQueueJobRunAsUserPosixOutputReference extends cdktn.Complex
   }
 
   // group - computed: true, optional: true, required: false
-  private _group?: string;
+  private _group?: string; 
   public get group() {
     return this.getStringAttribute('group');
   }
@@ -293,7 +293,7 @@ export class DeadlineQueueJobRunAsUserPosixOutputReference extends cdktn.Complex
   }
 
   // user - computed: true, optional: true, required: false
-  private _user?: string;
+  private _user?: string; 
   public get user() {
     return this.getStringAttribute('user');
   }
@@ -404,7 +404,7 @@ export class DeadlineQueueJobRunAsUserWindowsOutputReference extends cdktn.Compl
   }
 
   // password_arn - computed: true, optional: true, required: false
-  private _passwordArn?: string;
+  private _passwordArn?: string; 
   public get passwordArn() {
     return this.getStringAttribute('password_arn');
   }
@@ -420,7 +420,7 @@ export class DeadlineQueueJobRunAsUserWindowsOutputReference extends cdktn.Compl
   }
 
   // user - computed: true, optional: true, required: false
-  private _user?: string;
+  private _user?: string; 
   public get user() {
     return this.getStringAttribute('user');
   }
@@ -564,7 +564,7 @@ export class DeadlineQueueJobRunAsUserOutputReference extends cdktn.ComplexObjec
   }
 
   // run_as - computed: true, optional: true, required: false
-  private _runAs?: string;
+  private _runAs?: string; 
   public get runAs() {
     return this.getStringAttribute('run_as');
   }
@@ -674,7 +674,7 @@ export class DeadlineQueueSchedulingConfigurationPriorityBalancedOutputReference
   }
 
   // rendering_task_buffer - computed: true, optional: true, required: false
-  private _renderingTaskBuffer?: number;
+  private _renderingTaskBuffer?: number; 
   public get renderingTaskBuffer() {
     return this.getNumberAttribute('rendering_task_buffer');
   }
@@ -768,7 +768,7 @@ export class DeadlineQueueSchedulingConfigurationWeightedBalancedMaxPriorityOver
   }
 
   // always_schedule_first - computed: true, optional: true, required: false
-  private _alwaysScheduleFirst?: string;
+  private _alwaysScheduleFirst?: string; 
   public get alwaysScheduleFirst() {
     return this.getStringAttribute('always_schedule_first');
   }
@@ -862,7 +862,7 @@ export class DeadlineQueueSchedulingConfigurationWeightedBalancedMinPriorityOver
   }
 
   // always_schedule_last - computed: true, optional: true, required: false
-  private _alwaysScheduleLast?: string;
+  private _alwaysScheduleLast?: string; 
   public get alwaysScheduleLast() {
     return this.getStringAttribute('always_schedule_last');
   }
@@ -1058,7 +1058,7 @@ export class DeadlineQueueSchedulingConfigurationWeightedBalancedOutputReference
   }
 
   // error_weight - computed: true, optional: true, required: false
-  private _errorWeight?: number;
+  private _errorWeight?: number; 
   public get errorWeight() {
     return this.getNumberAttribute('error_weight');
   }
@@ -1106,7 +1106,7 @@ export class DeadlineQueueSchedulingConfigurationWeightedBalancedOutputReference
   }
 
   // priority_weight - computed: true, optional: true, required: false
-  private _priorityWeight?: number;
+  private _priorityWeight?: number; 
   public get priorityWeight() {
     return this.getNumberAttribute('priority_weight');
   }
@@ -1122,7 +1122,7 @@ export class DeadlineQueueSchedulingConfigurationWeightedBalancedOutputReference
   }
 
   // rendering_task_buffer - computed: true, optional: true, required: false
-  private _renderingTaskBuffer?: number;
+  private _renderingTaskBuffer?: number; 
   public get renderingTaskBuffer() {
     return this.getNumberAttribute('rendering_task_buffer');
   }
@@ -1138,7 +1138,7 @@ export class DeadlineQueueSchedulingConfigurationWeightedBalancedOutputReference
   }
 
   // rendering_task_weight - computed: true, optional: true, required: false
-  private _renderingTaskWeight?: number;
+  private _renderingTaskWeight?: number; 
   public get renderingTaskWeight() {
     return this.getNumberAttribute('rendering_task_weight');
   }
@@ -1154,7 +1154,7 @@ export class DeadlineQueueSchedulingConfigurationWeightedBalancedOutputReference
   }
 
   // submission_time_weight - computed: true, optional: true, required: false
-  private _submissionTimeWeight?: number;
+  private _submissionTimeWeight?: number; 
   public get submissionTimeWeight() {
     return this.getNumberAttribute('submission_time_weight');
   }
@@ -1298,7 +1298,7 @@ export class DeadlineQueueSchedulingConfigurationOutputReference extends cdktn.C
   }
 
   // priority_fifo - computed: true, optional: true, required: false
-  private _priorityFifo?: string;
+  private _priorityFifo?: string; 
   public get priorityFifo() {
     return this.getStringAttribute('priority_fifo');
   }
@@ -1331,13 +1331,13 @@ export class DeadlineQueueSchedulingConfigurationOutputReference extends cdktn.C
 }
 export interface DeadlineQueueTags {
   /**
-  * The key name of the tag. You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
+  * The key name of the tag. You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_queue#key DeadlineQueue#key}
   */
   readonly key?: string;
   /**
-  * The value for the tag. You can specify a value that is 1 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
+  * The value for the tag. You can specify a value that is 1 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_queue#value DeadlineQueue#value}
   */
@@ -1431,7 +1431,7 @@ export class DeadlineQueueTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1447,7 +1447,7 @@ export class DeadlineQueueTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1551,7 +1551,7 @@ export class DeadlineQueue extends cdktn.TerraformResource {
   // ==========
 
   // allowed_storage_profile_ids - computed: true, optional: true, required: false
-  private _allowedStorageProfileIds?: string[];
+  private _allowedStorageProfileIds?: string[]; 
   public get allowedStorageProfileIds() {
     return this.getListAttribute('allowed_storage_profile_ids');
   }
@@ -1572,7 +1572,7 @@ export class DeadlineQueue extends cdktn.TerraformResource {
   }
 
   // default_budget_action - computed: true, optional: true, required: false
-  private _defaultBudgetAction?: string;
+  private _defaultBudgetAction?: string; 
   public get defaultBudgetAction() {
     return this.getStringAttribute('default_budget_action');
   }
@@ -1588,7 +1588,7 @@ export class DeadlineQueue extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1604,7 +1604,7 @@ export class DeadlineQueue extends cdktn.TerraformResource {
   }
 
   // display_name - computed: false, optional: false, required: true
-  private _displayName?: string;
+  private _displayName?: string; 
   public get displayName() {
     return this.getStringAttribute('display_name');
   }
@@ -1617,7 +1617,7 @@ export class DeadlineQueue extends cdktn.TerraformResource {
   }
 
   // farm_id - computed: false, optional: false, required: true
-  private _farmId?: string;
+  private _farmId?: string; 
   public get farmId() {
     return this.getStringAttribute('farm_id');
   }
@@ -1672,7 +1672,7 @@ export class DeadlineQueue extends cdktn.TerraformResource {
   }
 
   // required_file_system_location_names - computed: true, optional: true, required: false
-  private _requiredFileSystemLocationNames?: string[];
+  private _requiredFileSystemLocationNames?: string[]; 
   public get requiredFileSystemLocationNames() {
     return this.getListAttribute('required_file_system_location_names');
   }
@@ -1688,7 +1688,7 @@ export class DeadlineQueue extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }

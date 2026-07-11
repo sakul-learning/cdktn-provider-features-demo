@@ -234,7 +234,7 @@ export class WorkspacesinstancesWorkspaceInstanceManagedInstanceBlockDeviceMappi
   }
 
   // encrypted - computed: true, optional: true, required: false
-  private _encrypted?: boolean | cdktn.IResolvable;
+  private _encrypted?: boolean | cdktn.IResolvable; 
   public get encrypted() {
     return this.getBooleanAttribute('encrypted');
   }
@@ -250,7 +250,7 @@ export class WorkspacesinstancesWorkspaceInstanceManagedInstanceBlockDeviceMappi
   }
 
   // iops - computed: true, optional: true, required: false
-  private _iops?: number;
+  private _iops?: number; 
   public get iops() {
     return this.getNumberAttribute('iops');
   }
@@ -266,7 +266,7 @@ export class WorkspacesinstancesWorkspaceInstanceManagedInstanceBlockDeviceMappi
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -282,7 +282,7 @@ export class WorkspacesinstancesWorkspaceInstanceManagedInstanceBlockDeviceMappi
   }
 
   // throughput - computed: true, optional: true, required: false
-  private _throughput?: number;
+  private _throughput?: number; 
   public get throughput() {
     return this.getNumberAttribute('throughput');
   }
@@ -298,7 +298,7 @@ export class WorkspacesinstancesWorkspaceInstanceManagedInstanceBlockDeviceMappi
   }
 
   // volume_size - computed: true, optional: true, required: false
-  private _volumeSize?: number;
+  private _volumeSize?: number; 
   public get volumeSize() {
     return this.getNumberAttribute('volume_size');
   }
@@ -314,7 +314,7 @@ export class WorkspacesinstancesWorkspaceInstanceManagedInstanceBlockDeviceMappi
   }
 
   // volume_type - computed: true, optional: true, required: false
-  private _volumeType?: string;
+  private _volumeType?: string; 
   public get volumeType() {
     return this.getStringAttribute('volume_type');
   }
@@ -461,7 +461,7 @@ export class WorkspacesinstancesWorkspaceInstanceManagedInstanceBlockDeviceMappi
   }
 
   // device_name - computed: true, optional: true, required: false
-  private _deviceName?: string;
+  private _deviceName?: string; 
   public get deviceName() {
     return this.getStringAttribute('device_name');
   }
@@ -493,7 +493,7 @@ export class WorkspacesinstancesWorkspaceInstanceManagedInstanceBlockDeviceMappi
   }
 
   // no_device - computed: true, optional: true, required: false
-  private _noDevice?: string;
+  private _noDevice?: string; 
   public get noDevice() {
     return this.getStringAttribute('no_device');
   }
@@ -509,7 +509,7 @@ export class WorkspacesinstancesWorkspaceInstanceManagedInstanceBlockDeviceMappi
   }
 
   // virtual_name - computed: true, optional: true, required: false
-  private _virtualName?: string;
+  private _virtualName?: string; 
   public get virtualName() {
     return this.getStringAttribute('virtual_name');
   }
@@ -640,7 +640,7 @@ export class WorkspacesinstancesWorkspaceInstanceManagedInstanceCapacityReservat
   }
 
   // capacity_reservation_id - computed: true, optional: true, required: false
-  private _capacityReservationId?: string;
+  private _capacityReservationId?: string; 
   public get capacityReservationId() {
     return this.getStringAttribute('capacity_reservation_id');
   }
@@ -656,7 +656,7 @@ export class WorkspacesinstancesWorkspaceInstanceManagedInstanceCapacityReservat
   }
 
   // capacity_reservation_resource_group_arn - computed: true, optional: true, required: false
-  private _capacityReservationResourceGroupArn?: string;
+  private _capacityReservationResourceGroupArn?: string; 
   public get capacityReservationResourceGroupArn() {
     return this.getStringAttribute('capacity_reservation_resource_group_arn');
   }
@@ -767,7 +767,7 @@ export class WorkspacesinstancesWorkspaceInstanceManagedInstanceCapacityReservat
   }
 
   // capacity_reservation_preference - computed: true, optional: true, required: false
-  private _capacityReservationPreference?: string;
+  private _capacityReservationPreference?: string; 
   public get capacityReservationPreference() {
     return this.getStringAttribute('capacity_reservation_preference');
   }
@@ -894,7 +894,7 @@ export class WorkspacesinstancesWorkspaceInstanceManagedInstanceCpuOptionsOutput
   }
 
   // core_count - computed: true, optional: true, required: false
-  private _coreCount?: number;
+  private _coreCount?: number; 
   public get coreCount() {
     return this.getNumberAttribute('core_count');
   }
@@ -910,7 +910,7 @@ export class WorkspacesinstancesWorkspaceInstanceManagedInstanceCpuOptionsOutput
   }
 
   // threads_per_core - computed: true, optional: true, required: false
-  private _threadsPerCore?: number;
+  private _threadsPerCore?: number; 
   public get threadsPerCore() {
     return this.getNumberAttribute('threads_per_core');
   }
@@ -1004,7 +1004,7 @@ export class WorkspacesinstancesWorkspaceInstanceManagedInstanceCreditSpecificat
   }
 
   // cpu_credits - computed: true, optional: true, required: false
-  private _cpuCredits?: string;
+  private _cpuCredits?: string; 
   public get cpuCredits() {
     return this.getStringAttribute('cpu_credits');
   }
@@ -1098,7 +1098,7 @@ export class WorkspacesinstancesWorkspaceInstanceManagedInstanceEnclaveOptionsOu
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -1192,7 +1192,7 @@ export class WorkspacesinstancesWorkspaceInstanceManagedInstanceHibernationOptio
   }
 
   // configured - computed: true, optional: true, required: false
-  private _configured?: boolean | cdktn.IResolvable;
+  private _configured?: boolean | cdktn.IResolvable; 
   public get configured() {
     return this.getBooleanAttribute('configured');
   }
@@ -1303,7 +1303,7 @@ export class WorkspacesinstancesWorkspaceInstanceManagedInstanceIamInstanceProfi
   }
 
   // arn - computed: true, optional: true, required: false
-  private _arn?: string;
+  private _arn?: string; 
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -1319,7 +1319,7 @@ export class WorkspacesinstancesWorkspaceInstanceManagedInstanceIamInstanceProfi
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1415,7 +1415,7 @@ export class WorkspacesinstancesWorkspaceInstanceManagedInstanceLicenseSpecifica
   }
 
   // license_configuration_arn - computed: true, optional: true, required: false
-  private _licenseConfigurationArn?: string;
+  private _licenseConfigurationArn?: string; 
   public get licenseConfigurationArn() {
     return this.getStringAttribute('license_configuration_arn');
   }
@@ -1529,7 +1529,7 @@ export class WorkspacesinstancesWorkspaceInstanceManagedInstanceMaintenanceOptio
   }
 
   // auto_recovery - computed: true, optional: true, required: false
-  private _autoRecovery?: string;
+  private _autoRecovery?: string; 
   public get autoRecovery() {
     return this.getStringAttribute('auto_recovery');
   }
@@ -1691,7 +1691,7 @@ export class WorkspacesinstancesWorkspaceInstanceManagedInstanceMetadataOptionsO
   }
 
   // http_endpoint - computed: true, optional: true, required: false
-  private _httpEndpoint?: string;
+  private _httpEndpoint?: string; 
   public get httpEndpoint() {
     return this.getStringAttribute('http_endpoint');
   }
@@ -1707,7 +1707,7 @@ export class WorkspacesinstancesWorkspaceInstanceManagedInstanceMetadataOptionsO
   }
 
   // http_protocol_ipv_6 - computed: true, optional: true, required: false
-  private _httpProtocolIpv6?: string;
+  private _httpProtocolIpv6?: string; 
   public get httpProtocolIpv6() {
     return this.getStringAttribute('http_protocol_ipv_6');
   }
@@ -1723,7 +1723,7 @@ export class WorkspacesinstancesWorkspaceInstanceManagedInstanceMetadataOptionsO
   }
 
   // http_put_response_hop_limit - computed: true, optional: true, required: false
-  private _httpPutResponseHopLimit?: number;
+  private _httpPutResponseHopLimit?: number; 
   public get httpPutResponseHopLimit() {
     return this.getNumberAttribute('http_put_response_hop_limit');
   }
@@ -1739,7 +1739,7 @@ export class WorkspacesinstancesWorkspaceInstanceManagedInstanceMetadataOptionsO
   }
 
   // http_tokens - computed: true, optional: true, required: false
-  private _httpTokens?: string;
+  private _httpTokens?: string; 
   public get httpTokens() {
     return this.getStringAttribute('http_tokens');
   }
@@ -1755,7 +1755,7 @@ export class WorkspacesinstancesWorkspaceInstanceManagedInstanceMetadataOptionsO
   }
 
   // instance_metadata_tags - computed: true, optional: true, required: false
-  private _instanceMetadataTags?: string;
+  private _instanceMetadataTags?: string; 
   public get instanceMetadataTags() {
     return this.getStringAttribute('instance_metadata_tags');
   }
@@ -1849,7 +1849,7 @@ export class WorkspacesinstancesWorkspaceInstanceManagedInstanceMonitoringOutput
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -1996,7 +1996,7 @@ export class WorkspacesinstancesWorkspaceInstanceManagedInstanceNetworkInterface
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -2012,7 +2012,7 @@ export class WorkspacesinstancesWorkspaceInstanceManagedInstanceNetworkInterface
   }
 
   // device_index - computed: true, optional: true, required: false
-  private _deviceIndex?: number;
+  private _deviceIndex?: number; 
   public get deviceIndex() {
     return this.getNumberAttribute('device_index');
   }
@@ -2028,7 +2028,7 @@ export class WorkspacesinstancesWorkspaceInstanceManagedInstanceNetworkInterface
   }
 
   // groups - computed: true, optional: true, required: false
-  private _groups?: string[];
+  private _groups?: string[]; 
   public get groups() {
     return this.getListAttribute('groups');
   }
@@ -2044,7 +2044,7 @@ export class WorkspacesinstancesWorkspaceInstanceManagedInstanceNetworkInterface
   }
 
   // subnet_id - computed: true, optional: true, required: false
-  private _subnetId?: string;
+  private _subnetId?: string; 
   public get subnetId() {
     return this.getStringAttribute('subnet_id');
   }
@@ -2158,7 +2158,7 @@ export class WorkspacesinstancesWorkspaceInstanceManagedInstanceNetworkPerforman
   }
 
   // bandwidth_weighting - computed: true, optional: true, required: false
-  private _bandwidthWeighting?: string;
+  private _bandwidthWeighting?: string; 
   public get bandwidthWeighting() {
     return this.getStringAttribute('bandwidth_weighting');
   }
@@ -2320,7 +2320,7 @@ export class WorkspacesinstancesWorkspaceInstanceManagedInstancePlacementOutputR
   }
 
   // availability_zone - computed: true, optional: true, required: false
-  private _availabilityZone?: string;
+  private _availabilityZone?: string; 
   public get availabilityZone() {
     return this.getStringAttribute('availability_zone');
   }
@@ -2336,7 +2336,7 @@ export class WorkspacesinstancesWorkspaceInstanceManagedInstancePlacementOutputR
   }
 
   // group_id - computed: true, optional: true, required: false
-  private _groupId?: string;
+  private _groupId?: string; 
   public get groupId() {
     return this.getStringAttribute('group_id');
   }
@@ -2352,7 +2352,7 @@ export class WorkspacesinstancesWorkspaceInstanceManagedInstancePlacementOutputR
   }
 
   // group_name - computed: true, optional: true, required: false
-  private _groupName?: string;
+  private _groupName?: string; 
   public get groupName() {
     return this.getStringAttribute('group_name');
   }
@@ -2368,7 +2368,7 @@ export class WorkspacesinstancesWorkspaceInstanceManagedInstancePlacementOutputR
   }
 
   // partition_number - computed: true, optional: true, required: false
-  private _partitionNumber?: number;
+  private _partitionNumber?: number; 
   public get partitionNumber() {
     return this.getNumberAttribute('partition_number');
   }
@@ -2384,7 +2384,7 @@ export class WorkspacesinstancesWorkspaceInstanceManagedInstancePlacementOutputR
   }
 
   // tenancy - computed: true, optional: true, required: false
-  private _tenancy?: string;
+  private _tenancy?: string; 
   public get tenancy() {
     return this.getStringAttribute('tenancy');
   }
@@ -2512,7 +2512,7 @@ export class WorkspacesinstancesWorkspaceInstanceManagedInstancePrivateDnsNameOp
   }
 
   // enable_resource_name_dns_a_record - computed: true, optional: true, required: false
-  private _enableResourceNameDnsARecord?: boolean | cdktn.IResolvable;
+  private _enableResourceNameDnsARecord?: boolean | cdktn.IResolvable; 
   public get enableResourceNameDnsARecord() {
     return this.getBooleanAttribute('enable_resource_name_dns_a_record');
   }
@@ -2528,7 +2528,7 @@ export class WorkspacesinstancesWorkspaceInstanceManagedInstancePrivateDnsNameOp
   }
 
   // enable_resource_name_dns_aaaa_record - computed: true, optional: true, required: false
-  private _enableResourceNameDnsAaaaRecord?: boolean | cdktn.IResolvable;
+  private _enableResourceNameDnsAaaaRecord?: boolean | cdktn.IResolvable; 
   public get enableResourceNameDnsAaaaRecord() {
     return this.getBooleanAttribute('enable_resource_name_dns_aaaa_record');
   }
@@ -2544,7 +2544,7 @@ export class WorkspacesinstancesWorkspaceInstanceManagedInstancePrivateDnsNameOp
   }
 
   // hostname_type - computed: true, optional: true, required: false
-  private _hostnameType?: string;
+  private _hostnameType?: string; 
   public get hostnameType() {
     return this.getStringAttribute('hostname_type');
   }
@@ -2657,7 +2657,7 @@ export class WorkspacesinstancesWorkspaceInstanceManagedInstanceTagSpecification
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -2673,7 +2673,7 @@ export class WorkspacesinstancesWorkspaceInstanceManagedInstanceTagSpecification
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2806,7 +2806,7 @@ export class WorkspacesinstancesWorkspaceInstanceManagedInstanceTagSpecification
   }
 
   // resource_type - computed: true, optional: true, required: false
-  private _resourceType?: string;
+  private _resourceType?: string; 
   public get resourceType() {
     return this.getStringAttribute('resource_type');
   }
@@ -3408,7 +3408,7 @@ export class WorkspacesinstancesWorkspaceInstanceManagedInstanceOutputReference 
   }
 
   // disable_api_stop - computed: true, optional: true, required: false
-  private _disableApiStop?: boolean | cdktn.IResolvable;
+  private _disableApiStop?: boolean | cdktn.IResolvable; 
   public get disableApiStop() {
     return this.getBooleanAttribute('disable_api_stop');
   }
@@ -3424,7 +3424,7 @@ export class WorkspacesinstancesWorkspaceInstanceManagedInstanceOutputReference 
   }
 
   // ebs_optimized - computed: true, optional: true, required: false
-  private _ebsOptimized?: boolean | cdktn.IResolvable;
+  private _ebsOptimized?: boolean | cdktn.IResolvable; 
   public get ebsOptimized() {
     return this.getBooleanAttribute('ebs_optimized');
   }
@@ -3440,7 +3440,7 @@ export class WorkspacesinstancesWorkspaceInstanceManagedInstanceOutputReference 
   }
 
   // enable_primary_ipv_6 - computed: true, optional: true, required: false
-  private _enablePrimaryIpv6?: boolean | cdktn.IResolvable;
+  private _enablePrimaryIpv6?: boolean | cdktn.IResolvable; 
   public get enablePrimaryIpv6() {
     return this.getBooleanAttribute('enable_primary_ipv_6');
   }
@@ -3504,7 +3504,7 @@ export class WorkspacesinstancesWorkspaceInstanceManagedInstanceOutputReference 
   }
 
   // image_id - computed: true, optional: true, required: false
-  private _imageId?: string;
+  private _imageId?: string; 
   public get imageId() {
     return this.getStringAttribute('image_id');
   }
@@ -3520,7 +3520,7 @@ export class WorkspacesinstancesWorkspaceInstanceManagedInstanceOutputReference 
   }
 
   // instance_type - computed: true, optional: true, required: false
-  private _instanceType?: string;
+  private _instanceType?: string; 
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -3536,7 +3536,7 @@ export class WorkspacesinstancesWorkspaceInstanceManagedInstanceOutputReference 
   }
 
   // ipv_6_address_count - computed: true, optional: true, required: false
-  private _ipv6AddressCount?: number;
+  private _ipv6AddressCount?: number; 
   public get ipv6AddressCount() {
     return this.getNumberAttribute('ipv_6_address_count');
   }
@@ -3552,7 +3552,7 @@ export class WorkspacesinstancesWorkspaceInstanceManagedInstanceOutputReference 
   }
 
   // key_name - computed: true, optional: true, required: false
-  private _keyName?: string;
+  private _keyName?: string; 
   public get keyName() {
     return this.getStringAttribute('key_name');
   }
@@ -3696,7 +3696,7 @@ export class WorkspacesinstancesWorkspaceInstanceManagedInstanceOutputReference 
   }
 
   // subnet_id - computed: true, optional: true, required: false
-  private _subnetId?: string;
+  private _subnetId?: string; 
   public get subnetId() {
     return this.getStringAttribute('subnet_id');
   }
@@ -3728,7 +3728,7 @@ export class WorkspacesinstancesWorkspaceInstanceManagedInstanceOutputReference 
   }
 
   // user_data - computed: true, optional: true, required: false
-  private _userData?: string;
+  private _userData?: string; 
   public get userData() {
     return this.getStringAttribute('user_data');
   }
@@ -3841,7 +3841,7 @@ export class WorkspacesinstancesWorkspaceInstanceTagsOutputReference extends cdk
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -3857,7 +3857,7 @@ export class WorkspacesinstancesWorkspaceInstanceTagsOutputReference extends cdk
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }

@@ -240,7 +240,7 @@ export class RdsReservedInstanceTimeoutsOutputReference extends cdktn.ComplexObj
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -256,7 +256,7 @@ export class RdsReservedInstanceTimeoutsOutputReference extends cdktn.ComplexObj
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -272,7 +272,7 @@ export class RdsReservedInstanceTimeoutsOutputReference extends cdktn.ComplexObj
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -378,7 +378,7 @@ export class RdsReservedInstance extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -394,7 +394,7 @@ export class RdsReservedInstance extends cdktn.TerraformResource {
   }
 
   // instance_count - computed: false, optional: true, required: false
-  private _instanceCount?: number;
+  private _instanceCount?: number; 
   public get instanceCount() {
     return this.getNumberAttribute('instance_count');
   }
@@ -420,7 +420,7 @@ export class RdsReservedInstance extends cdktn.TerraformResource {
   }
 
   // offering_id - computed: false, optional: false, required: true
-  private _offeringId?: string;
+  private _offeringId?: string; 
   public get offeringId() {
     return this.getStringAttribute('offering_id');
   }
@@ -449,7 +449,7 @@ export class RdsReservedInstance extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -465,7 +465,7 @@ export class RdsReservedInstance extends cdktn.TerraformResource {
   }
 
   // reservation_id - computed: false, optional: true, required: false
-  private _reservationId?: string;
+  private _reservationId?: string; 
   public get reservationId() {
     return this.getStringAttribute('reservation_id');
   }
@@ -491,7 +491,7 @@ export class RdsReservedInstance extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -507,7 +507,7 @@ export class RdsReservedInstance extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

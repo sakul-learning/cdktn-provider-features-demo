@@ -284,7 +284,7 @@ export class GlueJobCommandOutputReference extends cdktn.ComplexObject {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -300,7 +300,7 @@ export class GlueJobCommandOutputReference extends cdktn.ComplexObject {
   }
 
   // python_version - computed: true, optional: true, required: false
-  private _pythonVersion?: string;
+  private _pythonVersion?: string; 
   public get pythonVersion() {
     return this.getStringAttribute('python_version');
   }
@@ -316,7 +316,7 @@ export class GlueJobCommandOutputReference extends cdktn.ComplexObject {
   }
 
   // runtime - computed: true, optional: true, required: false
-  private _runtime?: string;
+  private _runtime?: string; 
   public get runtime() {
     return this.getStringAttribute('runtime');
   }
@@ -332,7 +332,7 @@ export class GlueJobCommandOutputReference extends cdktn.ComplexObject {
   }
 
   // script_location - computed: true, optional: true, required: false
-  private _scriptLocation?: string;
+  private _scriptLocation?: string; 
   public get scriptLocation() {
     return this.getStringAttribute('script_location');
   }
@@ -428,7 +428,7 @@ export class GlueJobConnectionsOutputReference extends cdktn.ComplexObject {
   }
 
   // connections - computed: true, optional: true, required: false
-  private _connections?: string[];
+  private _connections?: string[]; 
   public get connections() {
     return this.getListAttribute('connections');
   }
@@ -524,7 +524,7 @@ export class GlueJobExecutionPropertyOutputReference extends cdktn.ComplexObject
   }
 
   // max_concurrent_runs - computed: true, optional: true, required: false
-  private _maxConcurrentRuns?: number;
+  private _maxConcurrentRuns?: number; 
   public get maxConcurrentRuns() {
     return this.getNumberAttribute('max_concurrent_runs');
   }
@@ -620,7 +620,7 @@ export class GlueJobNotificationPropertyOutputReference extends cdktn.ComplexObj
   }
 
   // notify_delay_after - computed: true, optional: true, required: false
-  private _notifyDelayAfter?: number;
+  private _notifyDelayAfter?: number; 
   public get notifyDelayAfter() {
     return this.getNumberAttribute('notify_delay_after');
   }
@@ -716,7 +716,7 @@ export class GlueJob extends cdktn.TerraformResource {
   // ==========
 
   // allocated_capacity - computed: true, optional: true, required: false
-  private _allocatedCapacity?: number;
+  private _allocatedCapacity?: number; 
   public get allocatedCapacity() {
     return this.getNumberAttribute('allocated_capacity');
   }
@@ -761,7 +761,7 @@ export class GlueJob extends cdktn.TerraformResource {
   }
 
   // default_arguments - computed: true, optional: true, required: false
-  private _defaultArguments?: string;
+  private _defaultArguments?: string; 
   public get defaultArguments() {
     return this.getStringAttribute('default_arguments');
   }
@@ -777,7 +777,7 @@ export class GlueJob extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -793,7 +793,7 @@ export class GlueJob extends cdktn.TerraformResource {
   }
 
   // execution_class - computed: true, optional: true, required: false
-  private _executionClass?: string;
+  private _executionClass?: string; 
   public get executionClass() {
     return this.getStringAttribute('execution_class');
   }
@@ -825,7 +825,7 @@ export class GlueJob extends cdktn.TerraformResource {
   }
 
   // glue_version - computed: true, optional: true, required: false
-  private _glueVersion?: string;
+  private _glueVersion?: string; 
   public get glueVersion() {
     return this.getStringAttribute('glue_version');
   }
@@ -846,7 +846,7 @@ export class GlueJob extends cdktn.TerraformResource {
   }
 
   // job_mode - computed: true, optional: true, required: false
-  private _jobMode?: string;
+  private _jobMode?: string; 
   public get jobMode() {
     return this.getStringAttribute('job_mode');
   }
@@ -862,7 +862,7 @@ export class GlueJob extends cdktn.TerraformResource {
   }
 
   // job_run_queuing_enabled - computed: true, optional: true, required: false
-  private _jobRunQueuingEnabled?: boolean | cdktn.IResolvable;
+  private _jobRunQueuingEnabled?: boolean | cdktn.IResolvable; 
   public get jobRunQueuingEnabled() {
     return this.getBooleanAttribute('job_run_queuing_enabled');
   }
@@ -878,7 +878,7 @@ export class GlueJob extends cdktn.TerraformResource {
   }
 
   // log_uri - computed: true, optional: true, required: false
-  private _logUri?: string;
+  private _logUri?: string; 
   public get logUri() {
     return this.getStringAttribute('log_uri');
   }
@@ -894,7 +894,7 @@ export class GlueJob extends cdktn.TerraformResource {
   }
 
   // maintenance_window - computed: true, optional: true, required: false
-  private _maintenanceWindow?: string;
+  private _maintenanceWindow?: string; 
   public get maintenanceWindow() {
     return this.getStringAttribute('maintenance_window');
   }
@@ -910,7 +910,7 @@ export class GlueJob extends cdktn.TerraformResource {
   }
 
   // max_capacity - computed: true, optional: true, required: false
-  private _maxCapacity?: number;
+  private _maxCapacity?: number; 
   public get maxCapacity() {
     return this.getNumberAttribute('max_capacity');
   }
@@ -926,7 +926,7 @@ export class GlueJob extends cdktn.TerraformResource {
   }
 
   // max_retries - computed: true, optional: true, required: false
-  private _maxRetries?: number;
+  private _maxRetries?: number; 
   public get maxRetries() {
     return this.getNumberAttribute('max_retries');
   }
@@ -942,7 +942,7 @@ export class GlueJob extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -958,7 +958,7 @@ export class GlueJob extends cdktn.TerraformResource {
   }
 
   // non_overridable_arguments - computed: true, optional: true, required: false
-  private _nonOverridableArguments?: string;
+  private _nonOverridableArguments?: string; 
   public get nonOverridableArguments() {
     return this.getStringAttribute('non_overridable_arguments');
   }
@@ -990,7 +990,7 @@ export class GlueJob extends cdktn.TerraformResource {
   }
 
   // number_of_workers - computed: true, optional: true, required: false
-  private _numberOfWorkers?: number;
+  private _numberOfWorkers?: number; 
   public get numberOfWorkers() {
     return this.getNumberAttribute('number_of_workers');
   }
@@ -1006,7 +1006,7 @@ export class GlueJob extends cdktn.TerraformResource {
   }
 
   // role - computed: false, optional: false, required: true
-  private _role?: string;
+  private _role?: string; 
   public get role() {
     return this.getStringAttribute('role');
   }
@@ -1019,7 +1019,7 @@ export class GlueJob extends cdktn.TerraformResource {
   }
 
   // security_configuration - computed: true, optional: true, required: false
-  private _securityConfiguration?: string;
+  private _securityConfiguration?: string; 
   public get securityConfiguration() {
     return this.getStringAttribute('security_configuration');
   }
@@ -1035,7 +1035,7 @@ export class GlueJob extends cdktn.TerraformResource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: string;
+  private _tags?: string; 
   public get tags() {
     return this.getStringAttribute('tags');
   }
@@ -1051,7 +1051,7 @@ export class GlueJob extends cdktn.TerraformResource {
   }
 
   // timeout - computed: true, optional: true, required: false
-  private _timeout?: number;
+  private _timeout?: number; 
   public get timeout() {
     return this.getNumberAttribute('timeout');
   }
@@ -1067,7 +1067,7 @@ export class GlueJob extends cdktn.TerraformResource {
   }
 
   // worker_type - computed: true, optional: true, required: false
-  private _workerType?: string;
+  private _workerType?: string; 
   public get workerType() {
     return this.getStringAttribute('worker_type');
   }

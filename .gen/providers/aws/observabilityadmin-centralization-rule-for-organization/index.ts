@@ -132,7 +132,7 @@ export class ObservabilityadminCentralizationRuleForOrganizationRuleDestinationD
   }
 
   // kms_key_arn - computed: false, optional: true, required: false
-  private _kmsKeyArn?: string;
+  private _kmsKeyArn?: string; 
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -148,7 +148,7 @@ export class ObservabilityadminCentralizationRuleForOrganizationRuleDestinationD
   }
 
   // region - computed: false, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -264,7 +264,7 @@ export class ObservabilityadminCentralizationRuleForOrganizationRuleDestinationD
   }
 
   // log_group_name_pattern - computed: false, optional: false, required: true
-  private _logGroupNamePattern?: string;
+  private _logGroupNamePattern?: string; 
   public get logGroupNamePattern() {
     return this.getStringAttribute('log_group_name_pattern');
   }
@@ -411,7 +411,7 @@ export class ObservabilityadminCentralizationRuleForOrganizationRuleDestinationD
   }
 
   // encryption_conflict_resolution_strategy - computed: false, optional: true, required: false
-  private _encryptionConflictResolutionStrategy?: string;
+  private _encryptionConflictResolutionStrategy?: string; 
   public get encryptionConflictResolutionStrategy() {
     return this.getStringAttribute('encryption_conflict_resolution_strategy');
   }
@@ -427,7 +427,7 @@ export class ObservabilityadminCentralizationRuleForOrganizationRuleDestinationD
   }
 
   // encryption_strategy - computed: false, optional: false, required: true
-  private _encryptionStrategy?: string;
+  private _encryptionStrategy?: string; 
   public get encryptionStrategy() {
     return this.getStringAttribute('encryption_strategy');
   }
@@ -440,7 +440,7 @@ export class ObservabilityadminCentralizationRuleForOrganizationRuleDestinationD
   }
 
   // kms_key_arn - computed: false, optional: true, required: false
-  private _kmsKeyArn?: string;
+  private _kmsKeyArn?: string; 
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -744,7 +744,7 @@ export class ObservabilityadminCentralizationRuleForOrganizationRuleDestinationD
   }
 
   // region - computed: false, optional: false, required: true
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1030,7 +1030,7 @@ export class ObservabilityadminCentralizationRuleForOrganizationRuleDestinationO
   }
 
   // account - computed: false, optional: false, required: true
-  private _account?: string;
+  private _account?: string; 
   public get account() {
     return this.getStringAttribute('account');
   }
@@ -1043,7 +1043,7 @@ export class ObservabilityadminCentralizationRuleForOrganizationRuleDestinationO
   }
 
   // region - computed: false, optional: false, required: true
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1222,7 +1222,7 @@ export class ObservabilityadminCentralizationRuleForOrganizationRuleSourceSource
   }
 
   // data_source_selection_criteria - computed: true, optional: true, required: false
-  private _dataSourceSelectionCriteria?: string;
+  private _dataSourceSelectionCriteria?: string; 
   public get dataSourceSelectionCriteria() {
     return this.getStringAttribute('data_source_selection_criteria');
   }
@@ -1238,7 +1238,7 @@ export class ObservabilityadminCentralizationRuleForOrganizationRuleSourceSource
   }
 
   // encrypted_log_group_strategy - computed: false, optional: false, required: true
-  private _encryptedLogGroupStrategy?: string;
+  private _encryptedLogGroupStrategy?: string; 
   public get encryptedLogGroupStrategy() {
     return this.getStringAttribute('encrypted_log_group_strategy');
   }
@@ -1251,7 +1251,7 @@ export class ObservabilityadminCentralizationRuleForOrganizationRuleSourceSource
   }
 
   // log_group_selection_criteria - computed: true, optional: true, required: false
-  private _logGroupSelectionCriteria?: string;
+  private _logGroupSelectionCriteria?: string; 
   public get logGroupSelectionCriteria() {
     return this.getStringAttribute('log_group_selection_criteria');
   }
@@ -1367,7 +1367,7 @@ export class ObservabilityadminCentralizationRuleForOrganizationRuleSourceSource
   }
 
   // metrics_selection_criteria - computed: false, optional: false, required: true
-  private _metricsSelectionCriteria?: string;
+  private _metricsSelectionCriteria?: string; 
   public get metricsSelectionCriteria() {
     return this.getStringAttribute('metrics_selection_criteria');
   }
@@ -1535,7 +1535,7 @@ export class ObservabilityadminCentralizationRuleForOrganizationRuleSourceOutput
   }
 
   // regions - computed: false, optional: false, required: true
-  private _regions?: string[];
+  private _regions?: string[]; 
   public get regions() {
     return cdktn.Fn.tolist(this.getListAttribute('regions'));
   }
@@ -1548,7 +1548,7 @@ export class ObservabilityadminCentralizationRuleForOrganizationRuleSourceOutput
   }
 
   // scope - computed: false, optional: false, required: true
-  private _scope?: string;
+  private _scope?: string; 
   public get scope() {
     return this.getStringAttribute('scope');
   }
@@ -1865,7 +1865,7 @@ export class ObservabilityadminCentralizationRuleForOrganizationTimeoutsOutputRe
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -1881,7 +1881,7 @@ export class ObservabilityadminCentralizationRuleForOrganizationTimeoutsOutputRe
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -1959,7 +1959,7 @@ export class ObservabilityadminCentralizationRuleForOrganization extends cdktn.T
   // ==========
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1980,7 +1980,7 @@ export class ObservabilityadminCentralizationRuleForOrganization extends cdktn.T
   }
 
   // rule_name - computed: false, optional: false, required: true
-  private _ruleName?: string;
+  private _ruleName?: string; 
   public get ruleName() {
     return this.getStringAttribute('rule_name');
   }
@@ -1993,7 +1993,7 @@ export class ObservabilityadminCentralizationRuleForOrganization extends cdktn.T
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

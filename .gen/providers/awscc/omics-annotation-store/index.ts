@@ -115,7 +115,7 @@ export class OmicsAnnotationStoreReferenceOutputReference extends cdktn.ComplexO
   }
 
   // reference_arn - computed: true, optional: true, required: false
-  private _referenceArn?: string;
+  private _referenceArn?: string; 
   public get referenceArn() {
     return this.getStringAttribute('reference_arn');
   }
@@ -226,7 +226,7 @@ export class OmicsAnnotationStoreSseConfigOutputReference extends cdktn.ComplexO
   }
 
   // key_arn - computed: true, optional: true, required: false
-  private _keyArn?: string;
+  private _keyArn?: string; 
   public get keyArn() {
     return this.getStringAttribute('key_arn');
   }
@@ -242,7 +242,7 @@ export class OmicsAnnotationStoreSseConfigOutputReference extends cdktn.ComplexO
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -370,7 +370,7 @@ export class OmicsAnnotationStoreStoreOptionsTsvStoreOptionsOutputReference exte
   }
 
   // annotation_type - computed: true, optional: true, required: false
-  private _annotationType?: string;
+  private _annotationType?: string; 
   public get annotationType() {
     return this.getStringAttribute('annotation_type');
   }
@@ -386,7 +386,7 @@ export class OmicsAnnotationStoreStoreOptionsTsvStoreOptionsOutputReference exte
   }
 
   // format_to_header - computed: true, optional: true, required: false
-  private _formatToHeader?: { [key: string]: string };
+  private _formatToHeader?: { [key: string]: string }; 
   public get formatToHeader() {
     return this.getStringMapAttribute('format_to_header');
   }
@@ -402,7 +402,7 @@ export class OmicsAnnotationStoreStoreOptionsTsvStoreOptionsOutputReference exte
   }
 
   // schema - computed: true, optional: true, required: false
-  private _schema?: { [key: string]: string }[] | cdktn.IResolvable;
+  private _schema?: { [key: string]: string }[] | cdktn.IResolvable; 
   public get schema() {
     return this.interpolationForAttribute('schema');
   }
@@ -586,7 +586,7 @@ export class OmicsAnnotationStore extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -607,7 +607,7 @@ export class OmicsAnnotationStore extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -667,7 +667,7 @@ export class OmicsAnnotationStore extends cdktn.TerraformResource {
   }
 
   // store_format - computed: false, optional: false, required: true
-  private _storeFormat?: string;
+  private _storeFormat?: string; 
   public get storeFormat() {
     return this.getStringAttribute('store_format');
   }
@@ -701,7 +701,7 @@ export class OmicsAnnotationStore extends cdktn.TerraformResource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

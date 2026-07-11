@@ -112,7 +112,7 @@ export class SsoadminInstanceAccessControlAttributesAttributeValueOutputReferenc
   }
 
   // source - computed: false, optional: false, required: true
-  private _source?: string[];
+  private _source?: string[]; 
   public get source() {
     return cdktn.Fn.tolist(this.getListAttribute('source'));
   }
@@ -244,7 +244,7 @@ export class SsoadminInstanceAccessControlAttributesAttributeOutputReference ext
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -351,7 +351,7 @@ export class SsoadminInstanceAccessControlAttributes extends cdktn.TerraformReso
   // ==========
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -367,7 +367,7 @@ export class SsoadminInstanceAccessControlAttributes extends cdktn.TerraformReso
   }
 
   // instance_arn - computed: false, optional: false, required: true
-  private _instanceArn?: string;
+  private _instanceArn?: string; 
   public get instanceArn() {
     return this.getStringAttribute('instance_arn');
   }
@@ -380,7 +380,7 @@ export class SsoadminInstanceAccessControlAttributes extends cdktn.TerraformReso
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

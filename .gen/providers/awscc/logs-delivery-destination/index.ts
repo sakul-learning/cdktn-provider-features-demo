@@ -9,9 +9,9 @@ import * as cdktn from 'cdktn';
 export interface LogsDeliveryDestinationConfig extends cdktn.TerraformMetaArguments {
   /**
   * IAM policy that grants permissions to CloudWatch Logs to deliver logs cross-account to a specified destination in this account.
-  *
+  * 
   * The policy must be in JSON string format.
-  *
+  * 
   * Length Constraints: Maximum length of 51200
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/logs_delivery_destination#delivery_destination_policy LogsDeliveryDestination#delivery_destination_policy}
@@ -148,7 +148,7 @@ export class LogsDeliveryDestinationDeliveryDestinationPolicyOutputReference ext
   }
 
   // delivery_destination_name - computed: true, optional: true, required: false
-  private _deliveryDestinationName?: string;
+  private _deliveryDestinationName?: string; 
   public get deliveryDestinationName() {
     return this.getStringAttribute('delivery_destination_name');
   }
@@ -164,7 +164,7 @@ export class LogsDeliveryDestinationDeliveryDestinationPolicyOutputReference ext
   }
 
   // delivery_destination_policy - computed: true, optional: true, required: false
-  private _deliveryDestinationPolicy?: string;
+  private _deliveryDestinationPolicy?: string; 
   public get deliveryDestinationPolicy() {
     return this.getStringAttribute('delivery_destination_policy');
   }
@@ -281,7 +281,7 @@ export class LogsDeliveryDestinationTagsOutputReference extends cdktn.ComplexObj
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -297,7 +297,7 @@ export class LogsDeliveryDestinationTagsOutputReference extends cdktn.ComplexObj
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -417,7 +417,7 @@ export class LogsDeliveryDestination extends cdktn.TerraformResource {
   }
 
   // delivery_destination_type - computed: true, optional: true, required: false
-  private _deliveryDestinationType?: string;
+  private _deliveryDestinationType?: string; 
   public get deliveryDestinationType() {
     return this.getStringAttribute('delivery_destination_type');
   }
@@ -433,7 +433,7 @@ export class LogsDeliveryDestination extends cdktn.TerraformResource {
   }
 
   // destination_resource_arn - computed: true, optional: true, required: false
-  private _destinationResourceArn?: string;
+  private _destinationResourceArn?: string; 
   public get destinationResourceArn() {
     return this.getStringAttribute('destination_resource_arn');
   }
@@ -454,7 +454,7 @@ export class LogsDeliveryDestination extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -467,7 +467,7 @@ export class LogsDeliveryDestination extends cdktn.TerraformResource {
   }
 
   // output_format - computed: true, optional: true, required: false
-  private _outputFormat?: string;
+  private _outputFormat?: string; 
   public get outputFormat() {
     return this.getStringAttribute('output_format');
   }

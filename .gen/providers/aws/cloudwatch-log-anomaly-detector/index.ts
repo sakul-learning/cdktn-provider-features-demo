@@ -113,7 +113,7 @@ export class CloudwatchLogAnomalyDetector extends cdktn.TerraformResource {
   // ==========
 
   // anomaly_visibility_time - computed: true, optional: true, required: false
-  private _anomalyVisibilityTime?: number;
+  private _anomalyVisibilityTime?: number; 
   public get anomalyVisibilityTime() {
     return this.getNumberAttribute('anomaly_visibility_time');
   }
@@ -134,7 +134,7 @@ export class CloudwatchLogAnomalyDetector extends cdktn.TerraformResource {
   }
 
   // detector_name - computed: false, optional: true, required: false
-  private _detectorName?: string;
+  private _detectorName?: string; 
   public get detectorName() {
     return this.getStringAttribute('detector_name');
   }
@@ -150,7 +150,7 @@ export class CloudwatchLogAnomalyDetector extends cdktn.TerraformResource {
   }
 
   // enabled - computed: false, optional: false, required: true
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -163,7 +163,7 @@ export class CloudwatchLogAnomalyDetector extends cdktn.TerraformResource {
   }
 
   // evaluation_frequency - computed: false, optional: true, required: false
-  private _evaluationFrequency?: string;
+  private _evaluationFrequency?: string; 
   public get evaluationFrequency() {
     return this.getStringAttribute('evaluation_frequency');
   }
@@ -179,7 +179,7 @@ export class CloudwatchLogAnomalyDetector extends cdktn.TerraformResource {
   }
 
   // filter_pattern - computed: false, optional: true, required: false
-  private _filterPattern?: string;
+  private _filterPattern?: string; 
   public get filterPattern() {
     return this.getStringAttribute('filter_pattern');
   }
@@ -195,7 +195,7 @@ export class CloudwatchLogAnomalyDetector extends cdktn.TerraformResource {
   }
 
   // kms_key_id - computed: false, optional: true, required: false
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -211,7 +211,7 @@ export class CloudwatchLogAnomalyDetector extends cdktn.TerraformResource {
   }
 
   // log_group_arn_list - computed: false, optional: false, required: true
-  private _logGroupArnList?: string[];
+  private _logGroupArnList?: string[]; 
   public get logGroupArnList() {
     return this.getListAttribute('log_group_arn_list');
   }
@@ -224,7 +224,7 @@ export class CloudwatchLogAnomalyDetector extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -240,7 +240,7 @@ export class CloudwatchLogAnomalyDetector extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

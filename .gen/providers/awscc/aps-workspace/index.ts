@@ -131,7 +131,7 @@ export class ApsWorkspaceLoggingConfigurationOutputReference extends cdktn.Compl
   }
 
   // log_group_arn - computed: true, optional: true, required: false
-  private _logGroupArn?: string;
+  private _logGroupArn?: string; 
   public get logGroupArn() {
     return this.getStringAttribute('log_group_arn');
   }
@@ -227,7 +227,7 @@ export class ApsWorkspaceQueryLoggingConfigurationDestinationsCloudwatchLogsOutp
   }
 
   // log_group_arn - computed: true, optional: true, required: false
-  private _logGroupArn?: string;
+  private _logGroupArn?: string; 
   public get logGroupArn() {
     return this.getStringAttribute('log_group_arn');
   }
@@ -323,7 +323,7 @@ export class ApsWorkspaceQueryLoggingConfigurationDestinationsFiltersOutputRefer
   }
 
   // qsp_threshold - computed: true, optional: true, required: false
-  private _qspThreshold?: number;
+  private _qspThreshold?: number; 
   public get qspThreshold() {
     return this.getNumberAttribute('qsp_threshold');
   }
@@ -689,7 +689,7 @@ export class ApsWorkspaceTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -705,7 +705,7 @@ export class ApsWorkspaceTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -842,7 +842,7 @@ export class ApsWorkspaceWorkspaceConfigurationLimitsPerLabelSetsLabelSetOutputR
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -858,7 +858,7 @@ export class ApsWorkspaceWorkspaceConfigurationLimitsPerLabelSetsLabelSetOutputR
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -974,7 +974,7 @@ export class ApsWorkspaceWorkspaceConfigurationLimitsPerLabelSetsLimitsOutputRef
   }
 
   // max_series - computed: true, optional: true, required: false
-  private _maxSeries?: number;
+  private _maxSeries?: number; 
   public get maxSeries() {
     return this.getNumberAttribute('max_series');
   }
@@ -1296,7 +1296,7 @@ export class ApsWorkspaceWorkspaceConfigurationOutputReference extends cdktn.Com
   }
 
   // out_of_order_time_window_in_seconds - computed: true, optional: true, required: false
-  private _outOfOrderTimeWindowInSeconds?: number;
+  private _outOfOrderTimeWindowInSeconds?: number; 
   public get outOfOrderTimeWindowInSeconds() {
     return this.getNumberAttribute('out_of_order_time_window_in_seconds');
   }
@@ -1312,7 +1312,7 @@ export class ApsWorkspaceWorkspaceConfigurationOutputReference extends cdktn.Com
   }
 
   // retention_period_in_days - computed: true, optional: true, required: false
-  private _retentionPeriodInDays?: number;
+  private _retentionPeriodInDays?: number; 
   public get retentionPeriodInDays() {
     return this.getNumberAttribute('retention_period_in_days');
   }
@@ -1328,7 +1328,7 @@ export class ApsWorkspaceWorkspaceConfigurationOutputReference extends cdktn.Com
   }
 
   // rule_query_offset_in_seconds - computed: true, optional: true, required: false
-  private _ruleQueryOffsetInSeconds?: number;
+  private _ruleQueryOffsetInSeconds?: number; 
   public get ruleQueryOffsetInSeconds() {
     return this.getNumberAttribute('rule_query_offset_in_seconds');
   }
@@ -1408,7 +1408,7 @@ export class ApsWorkspace extends cdktn.TerraformResource {
   // ==========
 
   // alert_manager_definition - computed: true, optional: true, required: false
-  private _alertManagerDefinition?: string;
+  private _alertManagerDefinition?: string; 
   public get alertManagerDefinition() {
     return this.getStringAttribute('alert_manager_definition');
   }
@@ -1424,7 +1424,7 @@ export class ApsWorkspace extends cdktn.TerraformResource {
   }
 
   // alias - computed: true, optional: true, required: false
-  private _alias?: string;
+  private _alias?: string; 
   public get alias() {
     return this.getStringAttribute('alias');
   }
@@ -1450,7 +1450,7 @@ export class ApsWorkspace extends cdktn.TerraformResource {
   }
 
   // kms_key_arn - computed: true, optional: true, required: false
-  private _kmsKeyArn?: string;
+  private _kmsKeyArn?: string; 
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }

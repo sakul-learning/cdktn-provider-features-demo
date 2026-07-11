@@ -143,7 +143,7 @@ export class QbusinessApplicationAttachmentsConfigurationOutputReference extends
   }
 
   // attachments_control_mode - computed: false, optional: false, required: true
-  private _attachmentsControlMode?: string;
+  private _attachmentsControlMode?: string; 
   public get attachmentsControlMode() {
     return this.getStringAttribute('attachments_control_mode');
   }
@@ -258,7 +258,7 @@ export class QbusinessApplicationEncryptionConfigurationOutputReference extends 
   }
 
   // kms_key_id - computed: false, optional: false, required: true
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -409,7 +409,7 @@ export class QbusinessApplicationTimeoutsOutputReference extends cdktn.ComplexOb
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -425,7 +425,7 @@ export class QbusinessApplicationTimeoutsOutputReference extends cdktn.ComplexOb
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -441,7 +441,7 @@ export class QbusinessApplicationTimeoutsOutputReference extends cdktn.ComplexOb
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -528,7 +528,7 @@ export class QbusinessApplication extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -544,7 +544,7 @@ export class QbusinessApplication extends cdktn.TerraformResource {
   }
 
   // display_name - computed: false, optional: false, required: true
-  private _displayName?: string;
+  private _displayName?: string; 
   public get displayName() {
     return this.getStringAttribute('display_name');
   }
@@ -557,7 +557,7 @@ export class QbusinessApplication extends cdktn.TerraformResource {
   }
 
   // iam_service_role_arn - computed: false, optional: false, required: true
-  private _iamServiceRoleArn?: string;
+  private _iamServiceRoleArn?: string; 
   public get iamServiceRoleArn() {
     return this.getStringAttribute('iam_service_role_arn');
   }
@@ -580,7 +580,7 @@ export class QbusinessApplication extends cdktn.TerraformResource {
   }
 
   // identity_center_instance_arn - computed: false, optional: false, required: true
-  private _identityCenterInstanceArn?: string;
+  private _identityCenterInstanceArn?: string; 
   public get identityCenterInstanceArn() {
     return this.getStringAttribute('identity_center_instance_arn');
   }
@@ -593,7 +593,7 @@ export class QbusinessApplication extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -609,7 +609,7 @@ export class QbusinessApplication extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

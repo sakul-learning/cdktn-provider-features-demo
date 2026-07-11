@@ -146,7 +146,7 @@ export class IotwirelessNetworkAnalyzerConfigurationTagsOutputReference extends 
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -162,7 +162,7 @@ export class IotwirelessNetworkAnalyzerConfigurationTagsOutputReference extends 
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -293,7 +293,7 @@ export class IotwirelessNetworkAnalyzerConfigurationTraceContentOutputReference 
   }
 
   // log_level - computed: true, optional: true, required: false
-  private _logLevel?: string;
+  private _logLevel?: string; 
   public get logLevel() {
     return this.getStringAttribute('log_level');
   }
@@ -309,7 +309,7 @@ export class IotwirelessNetworkAnalyzerConfigurationTraceContentOutputReference 
   }
 
   // wireless_device_frame_info - computed: true, optional: true, required: false
-  private _wirelessDeviceFrameInfo?: string;
+  private _wirelessDeviceFrameInfo?: string; 
   public get wirelessDeviceFrameInfo() {
     return this.getStringAttribute('wireless_device_frame_info');
   }
@@ -393,7 +393,7 @@ export class IotwirelessNetworkAnalyzerConfiguration extends cdktn.TerraformReso
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -414,7 +414,7 @@ export class IotwirelessNetworkAnalyzerConfiguration extends cdktn.TerraformReso
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -459,7 +459,7 @@ export class IotwirelessNetworkAnalyzerConfiguration extends cdktn.TerraformReso
   }
 
   // wireless_devices - computed: true, optional: true, required: false
-  private _wirelessDevices?: string[];
+  private _wirelessDevices?: string[]; 
   public get wirelessDevices() {
     return this.getListAttribute('wireless_devices');
   }
@@ -475,7 +475,7 @@ export class IotwirelessNetworkAnalyzerConfiguration extends cdktn.TerraformReso
   }
 
   // wireless_gateways - computed: true, optional: true, required: false
-  private _wirelessGateways?: string[];
+  private _wirelessGateways?: string[]; 
   public get wirelessGateways() {
     return this.getListAttribute('wireless_gateways');
   }

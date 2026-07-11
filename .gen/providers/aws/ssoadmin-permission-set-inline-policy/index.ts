@@ -135,7 +135,7 @@ export class SsoadminPermissionSetInlinePolicyTimeoutsOutputReference extends cd
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -151,7 +151,7 @@ export class SsoadminPermissionSetInlinePolicyTimeoutsOutputReference extends cd
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -230,7 +230,7 @@ export class SsoadminPermissionSetInlinePolicy extends cdktn.TerraformResource {
   // ==========
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -246,7 +246,7 @@ export class SsoadminPermissionSetInlinePolicy extends cdktn.TerraformResource {
   }
 
   // inline_policy - computed: false, optional: false, required: true
-  private _inlinePolicy?: string;
+  private _inlinePolicy?: string; 
   public get inlinePolicy() {
     return this.getStringAttribute('inline_policy');
   }
@@ -259,7 +259,7 @@ export class SsoadminPermissionSetInlinePolicy extends cdktn.TerraformResource {
   }
 
   // instance_arn - computed: false, optional: false, required: true
-  private _instanceArn?: string;
+  private _instanceArn?: string; 
   public get instanceArn() {
     return this.getStringAttribute('instance_arn');
   }
@@ -272,7 +272,7 @@ export class SsoadminPermissionSetInlinePolicy extends cdktn.TerraformResource {
   }
 
   // permission_set_arn - computed: false, optional: false, required: true
-  private _permissionSetArn?: string;
+  private _permissionSetArn?: string; 
   public get permissionSetArn() {
     return this.getStringAttribute('permission_set_arn');
   }
@@ -285,7 +285,7 @@ export class SsoadminPermissionSetInlinePolicy extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

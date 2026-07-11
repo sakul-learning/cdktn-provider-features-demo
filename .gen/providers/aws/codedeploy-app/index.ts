@@ -111,7 +111,7 @@ export class CodedeployApp extends cdktn.TerraformResource {
   }
 
   // compute_platform - computed: false, optional: true, required: false
-  private _computePlatform?: string;
+  private _computePlatform?: string; 
   public get computePlatform() {
     return this.getStringAttribute('compute_platform');
   }
@@ -132,7 +132,7 @@ export class CodedeployApp extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -153,7 +153,7 @@ export class CodedeployApp extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -166,7 +166,7 @@ export class CodedeployApp extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -182,7 +182,7 @@ export class CodedeployApp extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -198,7 +198,7 @@ export class CodedeployApp extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

@@ -173,7 +173,7 @@ export class LogsIntegrationResourceConfigOpenSearchResourceConfigOutputReferenc
   }
 
   // application_arn - computed: true, optional: true, required: false
-  private _applicationArn?: string;
+  private _applicationArn?: string; 
   public get applicationArn() {
     return this.getStringAttribute('application_arn');
   }
@@ -189,7 +189,7 @@ export class LogsIntegrationResourceConfigOpenSearchResourceConfigOutputReferenc
   }
 
   // dashboard_viewer_principals - computed: true, optional: true, required: false
-  private _dashboardViewerPrincipals?: string[];
+  private _dashboardViewerPrincipals?: string[]; 
   public get dashboardViewerPrincipals() {
     return this.getListAttribute('dashboard_viewer_principals');
   }
@@ -205,7 +205,7 @@ export class LogsIntegrationResourceConfigOpenSearchResourceConfigOutputReferenc
   }
 
   // data_source_role_arn - computed: true, optional: true, required: false
-  private _dataSourceRoleArn?: string;
+  private _dataSourceRoleArn?: string; 
   public get dataSourceRoleArn() {
     return this.getStringAttribute('data_source_role_arn');
   }
@@ -221,7 +221,7 @@ export class LogsIntegrationResourceConfigOpenSearchResourceConfigOutputReferenc
   }
 
   // kms_key_arn - computed: true, optional: true, required: false
-  private _kmsKeyArn?: string;
+  private _kmsKeyArn?: string; 
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -237,7 +237,7 @@ export class LogsIntegrationResourceConfigOpenSearchResourceConfigOutputReferenc
   }
 
   // retention_days - computed: true, optional: true, required: false
-  private _retentionDays?: number;
+  private _retentionDays?: number; 
   public get retentionDays() {
     return this.getNumberAttribute('retention_days');
   }
@@ -412,7 +412,7 @@ export class LogsIntegration extends cdktn.TerraformResource {
   }
 
   // integration_name - computed: false, optional: false, required: true
-  private _integrationName?: string;
+  private _integrationName?: string; 
   public get integrationName() {
     return this.getStringAttribute('integration_name');
   }
@@ -430,7 +430,7 @@ export class LogsIntegration extends cdktn.TerraformResource {
   }
 
   // integration_type - computed: false, optional: false, required: true
-  private _integrationType?: string;
+  private _integrationType?: string; 
   public get integrationType() {
     return this.getStringAttribute('integration_type');
   }

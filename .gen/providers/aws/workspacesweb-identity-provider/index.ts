@@ -103,7 +103,7 @@ export class WorkspaceswebIdentityProvider extends cdktn.TerraformResource {
   }
 
   // identity_provider_details - computed: false, optional: false, required: true
-  private _identityProviderDetails?: { [key: string]: string };
+  private _identityProviderDetails?: { [key: string]: string }; 
   public get identityProviderDetails() {
     return this.getStringMapAttribute('identity_provider_details');
   }
@@ -116,7 +116,7 @@ export class WorkspaceswebIdentityProvider extends cdktn.TerraformResource {
   }
 
   // identity_provider_name - computed: false, optional: false, required: true
-  private _identityProviderName?: string;
+  private _identityProviderName?: string; 
   public get identityProviderName() {
     return this.getStringAttribute('identity_provider_name');
   }
@@ -129,7 +129,7 @@ export class WorkspaceswebIdentityProvider extends cdktn.TerraformResource {
   }
 
   // identity_provider_type - computed: false, optional: false, required: true
-  private _identityProviderType?: string;
+  private _identityProviderType?: string; 
   public get identityProviderType() {
     return this.getStringAttribute('identity_provider_type');
   }
@@ -142,7 +142,7 @@ export class WorkspaceswebIdentityProvider extends cdktn.TerraformResource {
   }
 
   // portal_arn - computed: false, optional: false, required: true
-  private _portalArn?: string;
+  private _portalArn?: string; 
   public get portalArn() {
     return this.getStringAttribute('portal_arn');
   }
@@ -155,7 +155,7 @@ export class WorkspaceswebIdentityProvider extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -171,7 +171,7 @@ export class WorkspaceswebIdentityProvider extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

@@ -91,7 +91,7 @@ export class DataAwsIotEndpoint extends cdktn.TerraformDataSource {
   }
 
   // endpoint_type - computed: false, optional: true, required: false
-  private _endpointType?: string;
+  private _endpointType?: string; 
   public get endpointType() {
     return this.getStringAttribute('endpoint_type');
   }
@@ -107,7 +107,7 @@ export class DataAwsIotEndpoint extends cdktn.TerraformDataSource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -123,7 +123,7 @@ export class DataAwsIotEndpoint extends cdktn.TerraformDataSource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

@@ -12,13 +12,13 @@ export interface ServicecatalogappregistryAttributeGroupConfig extends cdktn.Ter
   */
   readonly attributes: string;
   /**
-  * The description of the attribute group.
+  * The description of the attribute group. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/servicecatalogappregistry_attribute_group#description ServicecatalogappregistryAttributeGroup#description}
   */
   readonly description?: string;
   /**
-  * The name of the attribute group.
+  * The name of the attribute group. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/servicecatalogappregistry_attribute_group#name ServicecatalogappregistryAttributeGroup#name}
   */
@@ -100,7 +100,7 @@ export class ServicecatalogappregistryAttributeGroup extends cdktn.TerraformReso
   }
 
   // attributes - computed: false, optional: false, required: true
-  private _attributes?: string;
+  private _attributes?: string; 
   public get attributes() {
     return this.getStringAttribute('attributes');
   }
@@ -113,7 +113,7 @@ export class ServicecatalogappregistryAttributeGroup extends cdktn.TerraformReso
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -134,7 +134,7 @@ export class ServicecatalogappregistryAttributeGroup extends cdktn.TerraformReso
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -147,7 +147,7 @@ export class ServicecatalogappregistryAttributeGroup extends cdktn.TerraformReso
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

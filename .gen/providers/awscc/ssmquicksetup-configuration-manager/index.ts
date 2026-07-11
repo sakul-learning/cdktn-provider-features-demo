@@ -193,7 +193,7 @@ export class SsmquicksetupConfigurationManagerConfigurationDefinitionsOutputRefe
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -209,7 +209,7 @@ export class SsmquicksetupConfigurationManagerConfigurationDefinitionsOutputRefe
   }
 
   // local_deployment_administration_role_arn - computed: true, optional: true, required: false
-  private _localDeploymentAdministrationRoleArn?: string;
+  private _localDeploymentAdministrationRoleArn?: string; 
   public get localDeploymentAdministrationRoleArn() {
     return this.getStringAttribute('local_deployment_administration_role_arn');
   }
@@ -225,7 +225,7 @@ export class SsmquicksetupConfigurationManagerConfigurationDefinitionsOutputRefe
   }
 
   // local_deployment_execution_role_name - computed: true, optional: true, required: false
-  private _localDeploymentExecutionRoleName?: string;
+  private _localDeploymentExecutionRoleName?: string; 
   public get localDeploymentExecutionRoleName() {
     return this.getStringAttribute('local_deployment_execution_role_name');
   }
@@ -241,7 +241,7 @@ export class SsmquicksetupConfigurationManagerConfigurationDefinitionsOutputRefe
   }
 
   // parameters - computed: false, optional: false, required: true
-  private _parameters?: { [key: string]: string };
+  private _parameters?: { [key: string]: string }; 
   public get parameters() {
     return this.getStringMapAttribute('parameters');
   }
@@ -254,7 +254,7 @@ export class SsmquicksetupConfigurationManagerConfigurationDefinitionsOutputRefe
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -267,7 +267,7 @@ export class SsmquicksetupConfigurationManagerConfigurationDefinitionsOutputRefe
   }
 
   // type_version - computed: true, optional: true, required: false
-  private _typeVersion?: string;
+  private _typeVersion?: string; 
   public get typeVersion() {
     return this.getStringAttribute('type_version');
   }
@@ -478,7 +478,7 @@ export class SsmquicksetupConfigurationManager extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -509,7 +509,7 @@ export class SsmquicksetupConfigurationManager extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -531,7 +531,7 @@ export class SsmquicksetupConfigurationManager extends cdktn.TerraformResource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

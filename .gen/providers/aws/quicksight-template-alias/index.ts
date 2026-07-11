@@ -93,7 +93,7 @@ export class QuicksightTemplateAlias extends cdktn.TerraformResource {
   // ==========
 
   // alias_name - computed: false, optional: false, required: true
-  private _aliasName?: string;
+  private _aliasName?: string; 
   public get aliasName() {
     return this.getStringAttribute('alias_name');
   }
@@ -111,7 +111,7 @@ export class QuicksightTemplateAlias extends cdktn.TerraformResource {
   }
 
   // aws_account_id - computed: true, optional: true, required: false
-  private _awsAccountId?: string;
+  private _awsAccountId?: string; 
   public get awsAccountId() {
     return this.getStringAttribute('aws_account_id');
   }
@@ -132,7 +132,7 @@ export class QuicksightTemplateAlias extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -148,7 +148,7 @@ export class QuicksightTemplateAlias extends cdktn.TerraformResource {
   }
 
   // template_id - computed: false, optional: false, required: true
-  private _templateId?: string;
+  private _templateId?: string; 
   public get templateId() {
     return this.getStringAttribute('template_id');
   }
@@ -161,7 +161,7 @@ export class QuicksightTemplateAlias extends cdktn.TerraformResource {
   }
 
   // template_version_number - computed: false, optional: false, required: true
-  private _templateVersionNumber?: number;
+  private _templateVersionNumber?: number; 
   public get templateVersionNumber() {
     return this.getNumberAttribute('template_version_number');
   }

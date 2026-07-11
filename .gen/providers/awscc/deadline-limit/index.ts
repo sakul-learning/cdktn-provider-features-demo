@@ -91,7 +91,7 @@ export class DeadlineLimit extends cdktn.TerraformResource {
   // ==========
 
   // amount_requirement_name - computed: false, optional: false, required: true
-  private _amountRequirementName?: string;
+  private _amountRequirementName?: string; 
   public get amountRequirementName() {
     return this.getStringAttribute('amount_requirement_name');
   }
@@ -109,7 +109,7 @@ export class DeadlineLimit extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -125,7 +125,7 @@ export class DeadlineLimit extends cdktn.TerraformResource {
   }
 
   // display_name - computed: false, optional: false, required: true
-  private _displayName?: string;
+  private _displayName?: string; 
   public get displayName() {
     return this.getStringAttribute('display_name');
   }
@@ -138,7 +138,7 @@ export class DeadlineLimit extends cdktn.TerraformResource {
   }
 
   // farm_id - computed: false, optional: false, required: true
-  private _farmId?: string;
+  private _farmId?: string; 
   public get farmId() {
     return this.getStringAttribute('farm_id');
   }
@@ -161,7 +161,7 @@ export class DeadlineLimit extends cdktn.TerraformResource {
   }
 
   // max_count - computed: false, optional: false, required: true
-  private _maxCount?: number;
+  private _maxCount?: number; 
   public get maxCount() {
     return this.getNumberAttribute('max_count');
   }

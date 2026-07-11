@@ -87,7 +87,7 @@ export class Apigatewayv2Deployment extends cdktn.TerraformResource {
   // ==========
 
   // api_id - computed: false, optional: false, required: true
-  private _apiId?: string;
+  private _apiId?: string; 
   public get apiId() {
     return this.getStringAttribute('api_id');
   }
@@ -105,7 +105,7 @@ export class Apigatewayv2Deployment extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -126,7 +126,7 @@ export class Apigatewayv2Deployment extends cdktn.TerraformResource {
   }
 
   // stage_name - computed: true, optional: true, required: false
-  private _stageName?: string;
+  private _stageName?: string; 
   public get stageName() {
     return this.getStringAttribute('stage_name');
   }

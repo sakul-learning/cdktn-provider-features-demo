@@ -152,7 +152,7 @@ export class SecretsmanagerRotationScheduleExternalSecretRotationMetadataOutputR
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -168,7 +168,7 @@ export class SecretsmanagerRotationScheduleExternalSecretRotationMetadataOutputR
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -474,7 +474,7 @@ export class SecretsmanagerRotationScheduleHostedRotationLambdaOutputReference e
   }
 
   // exclude_characters - computed: true, optional: true, required: false
-  private _excludeCharacters?: string;
+  private _excludeCharacters?: string; 
   public get excludeCharacters() {
     return this.getStringAttribute('exclude_characters');
   }
@@ -490,7 +490,7 @@ export class SecretsmanagerRotationScheduleHostedRotationLambdaOutputReference e
   }
 
   // kms_key_arn - computed: true, optional: true, required: false
-  private _kmsKeyArn?: string;
+  private _kmsKeyArn?: string; 
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -506,7 +506,7 @@ export class SecretsmanagerRotationScheduleHostedRotationLambdaOutputReference e
   }
 
   // master_secret_arn - computed: true, optional: true, required: false
-  private _masterSecretArn?: string;
+  private _masterSecretArn?: string; 
   public get masterSecretArn() {
     return this.getStringAttribute('master_secret_arn');
   }
@@ -522,7 +522,7 @@ export class SecretsmanagerRotationScheduleHostedRotationLambdaOutputReference e
   }
 
   // master_secret_kms_key_arn - computed: true, optional: true, required: false
-  private _masterSecretKmsKeyArn?: string;
+  private _masterSecretKmsKeyArn?: string; 
   public get masterSecretKmsKeyArn() {
     return this.getStringAttribute('master_secret_kms_key_arn');
   }
@@ -538,7 +538,7 @@ export class SecretsmanagerRotationScheduleHostedRotationLambdaOutputReference e
   }
 
   // rotation_lambda_name - computed: true, optional: true, required: false
-  private _rotationLambdaName?: string;
+  private _rotationLambdaName?: string; 
   public get rotationLambdaName() {
     return this.getStringAttribute('rotation_lambda_name');
   }
@@ -554,7 +554,7 @@ export class SecretsmanagerRotationScheduleHostedRotationLambdaOutputReference e
   }
 
   // rotation_type - computed: true, optional: true, required: false
-  private _rotationType?: string;
+  private _rotationType?: string; 
   public get rotationType() {
     return this.getStringAttribute('rotation_type');
   }
@@ -570,7 +570,7 @@ export class SecretsmanagerRotationScheduleHostedRotationLambdaOutputReference e
   }
 
   // runtime - computed: true, optional: true, required: false
-  private _runtime?: string;
+  private _runtime?: string; 
   public get runtime() {
     return this.getStringAttribute('runtime');
   }
@@ -586,7 +586,7 @@ export class SecretsmanagerRotationScheduleHostedRotationLambdaOutputReference e
   }
 
   // superuser_secret_arn - computed: true, optional: true, required: false
-  private _superuserSecretArn?: string;
+  private _superuserSecretArn?: string; 
   public get superuserSecretArn() {
     return this.getStringAttribute('superuser_secret_arn');
   }
@@ -602,7 +602,7 @@ export class SecretsmanagerRotationScheduleHostedRotationLambdaOutputReference e
   }
 
   // superuser_secret_kms_key_arn - computed: true, optional: true, required: false
-  private _superuserSecretKmsKeyArn?: string;
+  private _superuserSecretKmsKeyArn?: string; 
   public get superuserSecretKmsKeyArn() {
     return this.getStringAttribute('superuser_secret_kms_key_arn');
   }
@@ -618,7 +618,7 @@ export class SecretsmanagerRotationScheduleHostedRotationLambdaOutputReference e
   }
 
   // vpc_security_group_ids - computed: true, optional: true, required: false
-  private _vpcSecurityGroupIds?: string;
+  private _vpcSecurityGroupIds?: string; 
   public get vpcSecurityGroupIds() {
     return this.getStringAttribute('vpc_security_group_ids');
   }
@@ -634,7 +634,7 @@ export class SecretsmanagerRotationScheduleHostedRotationLambdaOutputReference e
   }
 
   // vpc_subnet_ids - computed: true, optional: true, required: false
-  private _vpcSubnetIds?: string;
+  private _vpcSubnetIds?: string; 
   public get vpcSubnetIds() {
     return this.getStringAttribute('vpc_subnet_ids');
   }
@@ -768,7 +768,7 @@ export class SecretsmanagerRotationScheduleRotationRulesOutputReference extends 
   }
 
   // automatically_after_days - computed: true, optional: true, required: false
-  private _automaticallyAfterDays?: number;
+  private _automaticallyAfterDays?: number; 
   public get automaticallyAfterDays() {
     return this.getNumberAttribute('automatically_after_days');
   }
@@ -784,7 +784,7 @@ export class SecretsmanagerRotationScheduleRotationRulesOutputReference extends 
   }
 
   // duration - computed: true, optional: true, required: false
-  private _duration?: string;
+  private _duration?: string; 
   public get duration() {
     return this.getStringAttribute('duration');
   }
@@ -800,7 +800,7 @@ export class SecretsmanagerRotationScheduleRotationRulesOutputReference extends 
   }
 
   // schedule_expression - computed: true, optional: true, required: false
-  private _scheduleExpression?: string;
+  private _scheduleExpression?: string; 
   public get scheduleExpression() {
     return this.getStringAttribute('schedule_expression');
   }
@@ -896,7 +896,7 @@ export class SecretsmanagerRotationSchedule extends cdktn.TerraformResource {
   }
 
   // external_secret_rotation_role_arn - computed: true, optional: true, required: false
-  private _externalSecretRotationRoleArn?: string;
+  private _externalSecretRotationRoleArn?: string; 
   public get externalSecretRotationRoleArn() {
     return this.getStringAttribute('external_secret_rotation_role_arn');
   }
@@ -933,7 +933,7 @@ export class SecretsmanagerRotationSchedule extends cdktn.TerraformResource {
   }
 
   // rotate_immediately_on_update - computed: true, optional: true, required: false
-  private _rotateImmediatelyOnUpdate?: boolean | cdktn.IResolvable;
+  private _rotateImmediatelyOnUpdate?: boolean | cdktn.IResolvable; 
   public get rotateImmediatelyOnUpdate() {
     return this.getBooleanAttribute('rotate_immediately_on_update');
   }
@@ -949,7 +949,7 @@ export class SecretsmanagerRotationSchedule extends cdktn.TerraformResource {
   }
 
   // rotation_lambda_arn - computed: true, optional: true, required: false
-  private _rotationLambdaArn?: string;
+  private _rotationLambdaArn?: string; 
   public get rotationLambdaArn() {
     return this.getStringAttribute('rotation_lambda_arn');
   }
@@ -986,7 +986,7 @@ export class SecretsmanagerRotationSchedule extends cdktn.TerraformResource {
   }
 
   // secret_id - computed: false, optional: false, required: true
-  private _secretId?: string;
+  private _secretId?: string; 
   public get secretId() {
     return this.getStringAttribute('secret_id');
   }

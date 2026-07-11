@@ -157,7 +157,7 @@ export class AppautoscalingPolicyPredictiveScalingPolicyConfigurationMetricSpeci
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -170,7 +170,7 @@ export class AppautoscalingPolicyPredictiveScalingPolicyConfigurationMetricSpeci
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -307,7 +307,7 @@ export class AppautoscalingPolicyPredictiveScalingPolicyConfigurationMetricSpeci
   }
 
   // metric_name - computed: false, optional: true, required: false
-  private _metricName?: string;
+  private _metricName?: string; 
   public get metricName() {
     return this.getStringAttribute('metric_name');
   }
@@ -323,7 +323,7 @@ export class AppautoscalingPolicyPredictiveScalingPolicyConfigurationMetricSpeci
   }
 
   // namespace - computed: false, optional: true, required: false
-  private _namespace?: string;
+  private _namespace?: string; 
   public get namespace() {
     return this.getStringAttribute('namespace');
   }
@@ -459,7 +459,7 @@ export class AppautoscalingPolicyPredictiveScalingPolicyConfigurationMetricSpeci
   }
 
   // stat - computed: false, optional: false, required: true
-  private _stat?: string;
+  private _stat?: string; 
   public get stat() {
     return this.getStringAttribute('stat');
   }
@@ -472,7 +472,7 @@ export class AppautoscalingPolicyPredictiveScalingPolicyConfigurationMetricSpeci
   }
 
   // unit - computed: false, optional: true, required: false
-  private _unit?: string;
+  private _unit?: string; 
   public get unit() {
     return this.getStringAttribute('unit');
   }
@@ -654,7 +654,7 @@ export class AppautoscalingPolicyPredictiveScalingPolicyConfigurationMetricSpeci
   }
 
   // expression - computed: false, optional: true, required: false
-  private _expression?: string;
+  private _expression?: string; 
   public get expression() {
     return this.getStringAttribute('expression');
   }
@@ -670,7 +670,7 @@ export class AppautoscalingPolicyPredictiveScalingPolicyConfigurationMetricSpeci
   }
 
   // id - computed: false, optional: false, required: true
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -683,7 +683,7 @@ export class AppautoscalingPolicyPredictiveScalingPolicyConfigurationMetricSpeci
   }
 
   // label - computed: false, optional: true, required: false
-  private _label?: string;
+  private _label?: string; 
   public get label() {
     return this.getStringAttribute('label');
   }
@@ -699,7 +699,7 @@ export class AppautoscalingPolicyPredictiveScalingPolicyConfigurationMetricSpeci
   }
 
   // return_data - computed: false, optional: true, required: false
-  private _returnData?: boolean | cdktn.IResolvable;
+  private _returnData?: boolean | cdktn.IResolvable; 
   public get returnData() {
     return this.getBooleanAttribute('return_data');
   }
@@ -931,7 +931,7 @@ export class AppautoscalingPolicyPredictiveScalingPolicyConfigurationMetricSpeci
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -944,7 +944,7 @@ export class AppautoscalingPolicyPredictiveScalingPolicyConfigurationMetricSpeci
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1081,7 +1081,7 @@ export class AppautoscalingPolicyPredictiveScalingPolicyConfigurationMetricSpeci
   }
 
   // metric_name - computed: false, optional: true, required: false
-  private _metricName?: string;
+  private _metricName?: string; 
   public get metricName() {
     return this.getStringAttribute('metric_name');
   }
@@ -1097,7 +1097,7 @@ export class AppautoscalingPolicyPredictiveScalingPolicyConfigurationMetricSpeci
   }
 
   // namespace - computed: false, optional: true, required: false
-  private _namespace?: string;
+  private _namespace?: string; 
   public get namespace() {
     return this.getStringAttribute('namespace');
   }
@@ -1233,7 +1233,7 @@ export class AppautoscalingPolicyPredictiveScalingPolicyConfigurationMetricSpeci
   }
 
   // stat - computed: false, optional: false, required: true
-  private _stat?: string;
+  private _stat?: string; 
   public get stat() {
     return this.getStringAttribute('stat');
   }
@@ -1246,7 +1246,7 @@ export class AppautoscalingPolicyPredictiveScalingPolicyConfigurationMetricSpeci
   }
 
   // unit - computed: false, optional: true, required: false
-  private _unit?: string;
+  private _unit?: string; 
   public get unit() {
     return this.getStringAttribute('unit');
   }
@@ -1428,7 +1428,7 @@ export class AppautoscalingPolicyPredictiveScalingPolicyConfigurationMetricSpeci
   }
 
   // expression - computed: false, optional: true, required: false
-  private _expression?: string;
+  private _expression?: string; 
   public get expression() {
     return this.getStringAttribute('expression');
   }
@@ -1444,7 +1444,7 @@ export class AppautoscalingPolicyPredictiveScalingPolicyConfigurationMetricSpeci
   }
 
   // id - computed: false, optional: false, required: true
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -1457,7 +1457,7 @@ export class AppautoscalingPolicyPredictiveScalingPolicyConfigurationMetricSpeci
   }
 
   // label - computed: false, optional: true, required: false
-  private _label?: string;
+  private _label?: string; 
   public get label() {
     return this.getStringAttribute('label');
   }
@@ -1473,7 +1473,7 @@ export class AppautoscalingPolicyPredictiveScalingPolicyConfigurationMetricSpeci
   }
 
   // return_data - computed: false, optional: true, required: false
-  private _returnData?: boolean | cdktn.IResolvable;
+  private _returnData?: boolean | cdktn.IResolvable; 
   public get returnData() {
     return this.getBooleanAttribute('return_data');
   }
@@ -1705,7 +1705,7 @@ export class AppautoscalingPolicyPredictiveScalingPolicyConfigurationMetricSpeci
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1718,7 +1718,7 @@ export class AppautoscalingPolicyPredictiveScalingPolicyConfigurationMetricSpeci
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1855,7 +1855,7 @@ export class AppautoscalingPolicyPredictiveScalingPolicyConfigurationMetricSpeci
   }
 
   // metric_name - computed: false, optional: true, required: false
-  private _metricName?: string;
+  private _metricName?: string; 
   public get metricName() {
     return this.getStringAttribute('metric_name');
   }
@@ -1871,7 +1871,7 @@ export class AppautoscalingPolicyPredictiveScalingPolicyConfigurationMetricSpeci
   }
 
   // namespace - computed: false, optional: true, required: false
-  private _namespace?: string;
+  private _namespace?: string; 
   public get namespace() {
     return this.getStringAttribute('namespace');
   }
@@ -2007,7 +2007,7 @@ export class AppautoscalingPolicyPredictiveScalingPolicyConfigurationMetricSpeci
   }
 
   // stat - computed: false, optional: false, required: true
-  private _stat?: string;
+  private _stat?: string; 
   public get stat() {
     return this.getStringAttribute('stat');
   }
@@ -2020,7 +2020,7 @@ export class AppautoscalingPolicyPredictiveScalingPolicyConfigurationMetricSpeci
   }
 
   // unit - computed: false, optional: true, required: false
-  private _unit?: string;
+  private _unit?: string; 
   public get unit() {
     return this.getStringAttribute('unit');
   }
@@ -2202,7 +2202,7 @@ export class AppautoscalingPolicyPredictiveScalingPolicyConfigurationMetricSpeci
   }
 
   // expression - computed: false, optional: true, required: false
-  private _expression?: string;
+  private _expression?: string; 
   public get expression() {
     return this.getStringAttribute('expression');
   }
@@ -2218,7 +2218,7 @@ export class AppautoscalingPolicyPredictiveScalingPolicyConfigurationMetricSpeci
   }
 
   // id - computed: false, optional: false, required: true
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -2231,7 +2231,7 @@ export class AppautoscalingPolicyPredictiveScalingPolicyConfigurationMetricSpeci
   }
 
   // label - computed: false, optional: true, required: false
-  private _label?: string;
+  private _label?: string; 
   public get label() {
     return this.getStringAttribute('label');
   }
@@ -2247,7 +2247,7 @@ export class AppautoscalingPolicyPredictiveScalingPolicyConfigurationMetricSpeci
   }
 
   // return_data - computed: false, optional: true, required: false
-  private _returnData?: boolean | cdktn.IResolvable;
+  private _returnData?: boolean | cdktn.IResolvable; 
   public get returnData() {
     return this.getBooleanAttribute('return_data');
   }
@@ -2467,7 +2467,7 @@ export class AppautoscalingPolicyPredictiveScalingPolicyConfigurationMetricSpeci
   }
 
   // predefined_metric_type - computed: false, optional: false, required: true
-  private _predefinedMetricType?: string;
+  private _predefinedMetricType?: string; 
   public get predefinedMetricType() {
     return this.getStringAttribute('predefined_metric_type');
   }
@@ -2480,7 +2480,7 @@ export class AppautoscalingPolicyPredictiveScalingPolicyConfigurationMetricSpeci
   }
 
   // resource_label - computed: false, optional: true, required: false
-  private _resourceLabel?: string;
+  private _resourceLabel?: string; 
   public get resourceLabel() {
     return this.getStringAttribute('resource_label');
   }
@@ -2581,7 +2581,7 @@ export class AppautoscalingPolicyPredictiveScalingPolicyConfigurationMetricSpeci
   }
 
   // predefined_metric_type - computed: false, optional: false, required: true
-  private _predefinedMetricType?: string;
+  private _predefinedMetricType?: string; 
   public get predefinedMetricType() {
     return this.getStringAttribute('predefined_metric_type');
   }
@@ -2594,7 +2594,7 @@ export class AppautoscalingPolicyPredictiveScalingPolicyConfigurationMetricSpeci
   }
 
   // resource_label - computed: false, optional: true, required: false
-  private _resourceLabel?: string;
+  private _resourceLabel?: string; 
   public get resourceLabel() {
     return this.getStringAttribute('resource_label');
   }
@@ -2695,7 +2695,7 @@ export class AppautoscalingPolicyPredictiveScalingPolicyConfigurationMetricSpeci
   }
 
   // predefined_metric_type - computed: false, optional: false, required: true
-  private _predefinedMetricType?: string;
+  private _predefinedMetricType?: string; 
   public get predefinedMetricType() {
     return this.getStringAttribute('predefined_metric_type');
   }
@@ -2708,7 +2708,7 @@ export class AppautoscalingPolicyPredictiveScalingPolicyConfigurationMetricSpeci
   }
 
   // resource_label - computed: false, optional: true, required: false
-  private _resourceLabel?: string;
+  private _resourceLabel?: string; 
   public get resourceLabel() {
     return this.getStringAttribute('resource_label');
   }
@@ -2918,7 +2918,7 @@ export class AppautoscalingPolicyPredictiveScalingPolicyConfigurationMetricSpeci
   }
 
   // target_value - computed: false, optional: false, required: true
-  private _targetValue?: string;
+  private _targetValue?: string; 
   public get targetValue() {
     return this.getStringAttribute('target_value');
   }
@@ -3185,7 +3185,7 @@ export class AppautoscalingPolicyPredictiveScalingPolicyConfigurationOutputRefer
   }
 
   // max_capacity_breach_behavior - computed: false, optional: true, required: false
-  private _maxCapacityBreachBehavior?: string;
+  private _maxCapacityBreachBehavior?: string; 
   public get maxCapacityBreachBehavior() {
     return this.getStringAttribute('max_capacity_breach_behavior');
   }
@@ -3201,7 +3201,7 @@ export class AppautoscalingPolicyPredictiveScalingPolicyConfigurationOutputRefer
   }
 
   // max_capacity_buffer - computed: false, optional: true, required: false
-  private _maxCapacityBuffer?: number;
+  private _maxCapacityBuffer?: number; 
   public get maxCapacityBuffer() {
     return this.getNumberAttribute('max_capacity_buffer');
   }
@@ -3217,7 +3217,7 @@ export class AppautoscalingPolicyPredictiveScalingPolicyConfigurationOutputRefer
   }
 
   // mode - computed: true, optional: true, required: false
-  private _mode?: string;
+  private _mode?: string; 
   public get mode() {
     return this.getStringAttribute('mode');
   }
@@ -3233,7 +3233,7 @@ export class AppautoscalingPolicyPredictiveScalingPolicyConfigurationOutputRefer
   }
 
   // scheduling_buffer_time - computed: true, optional: true, required: false
-  private _schedulingBufferTime?: number;
+  private _schedulingBufferTime?: number; 
   public get schedulingBufferTime() {
     return this.getNumberAttribute('scheduling_buffer_time');
   }
@@ -3376,7 +3376,7 @@ export class AppautoscalingPolicyStepScalingPolicyConfigurationStepAdjustmentOut
   }
 
   // metric_interval_lower_bound - computed: false, optional: true, required: false
-  private _metricIntervalLowerBound?: string;
+  private _metricIntervalLowerBound?: string; 
   public get metricIntervalLowerBound() {
     return this.getStringAttribute('metric_interval_lower_bound');
   }
@@ -3392,7 +3392,7 @@ export class AppautoscalingPolicyStepScalingPolicyConfigurationStepAdjustmentOut
   }
 
   // metric_interval_upper_bound - computed: false, optional: true, required: false
-  private _metricIntervalUpperBound?: string;
+  private _metricIntervalUpperBound?: string; 
   public get metricIntervalUpperBound() {
     return this.getStringAttribute('metric_interval_upper_bound');
   }
@@ -3408,7 +3408,7 @@ export class AppautoscalingPolicyStepScalingPolicyConfigurationStepAdjustmentOut
   }
 
   // scaling_adjustment - computed: false, optional: false, required: true
-  private _scalingAdjustment?: number;
+  private _scalingAdjustment?: number; 
   public get scalingAdjustment() {
     return this.getNumberAttribute('scaling_adjustment');
   }
@@ -3579,7 +3579,7 @@ export class AppautoscalingPolicyStepScalingPolicyConfigurationOutputReference e
   }
 
   // adjustment_type - computed: false, optional: true, required: false
-  private _adjustmentType?: string;
+  private _adjustmentType?: string; 
   public get adjustmentType() {
     return this.getStringAttribute('adjustment_type');
   }
@@ -3595,7 +3595,7 @@ export class AppautoscalingPolicyStepScalingPolicyConfigurationOutputReference e
   }
 
   // cooldown - computed: false, optional: true, required: false
-  private _cooldown?: number;
+  private _cooldown?: number; 
   public get cooldown() {
     return this.getNumberAttribute('cooldown');
   }
@@ -3611,7 +3611,7 @@ export class AppautoscalingPolicyStepScalingPolicyConfigurationOutputReference e
   }
 
   // metric_aggregation_type - computed: false, optional: true, required: false
-  private _metricAggregationType?: string;
+  private _metricAggregationType?: string; 
   public get metricAggregationType() {
     return this.getStringAttribute('metric_aggregation_type');
   }
@@ -3627,7 +3627,7 @@ export class AppautoscalingPolicyStepScalingPolicyConfigurationOutputReference e
   }
 
   // min_adjustment_magnitude - computed: false, optional: true, required: false
-  private _minAdjustmentMagnitude?: number;
+  private _minAdjustmentMagnitude?: number; 
   public get minAdjustmentMagnitude() {
     return this.getNumberAttribute('min_adjustment_magnitude');
   }
@@ -3756,7 +3756,7 @@ export class AppautoscalingPolicyTargetTrackingScalingPolicyConfigurationCustomi
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -3769,7 +3769,7 @@ export class AppautoscalingPolicyTargetTrackingScalingPolicyConfigurationCustomi
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -3899,7 +3899,7 @@ export class AppautoscalingPolicyTargetTrackingScalingPolicyConfigurationCustomi
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -3912,7 +3912,7 @@ export class AppautoscalingPolicyTargetTrackingScalingPolicyConfigurationCustomi
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -4049,7 +4049,7 @@ export class AppautoscalingPolicyTargetTrackingScalingPolicyConfigurationCustomi
   }
 
   // metric_name - computed: false, optional: false, required: true
-  private _metricName?: string;
+  private _metricName?: string; 
   public get metricName() {
     return this.getStringAttribute('metric_name');
   }
@@ -4062,7 +4062,7 @@ export class AppautoscalingPolicyTargetTrackingScalingPolicyConfigurationCustomi
   }
 
   // namespace - computed: false, optional: false, required: true
-  private _namespace?: string;
+  private _namespace?: string; 
   public get namespace() {
     return this.getStringAttribute('namespace');
   }
@@ -4195,7 +4195,7 @@ export class AppautoscalingPolicyTargetTrackingScalingPolicyConfigurationCustomi
   }
 
   // stat - computed: false, optional: false, required: true
-  private _stat?: string;
+  private _stat?: string; 
   public get stat() {
     return this.getStringAttribute('stat');
   }
@@ -4208,7 +4208,7 @@ export class AppautoscalingPolicyTargetTrackingScalingPolicyConfigurationCustomi
   }
 
   // unit - computed: false, optional: true, required: false
-  private _unit?: string;
+  private _unit?: string; 
   public get unit() {
     return this.getStringAttribute('unit');
   }
@@ -4390,7 +4390,7 @@ export class AppautoscalingPolicyTargetTrackingScalingPolicyConfigurationCustomi
   }
 
   // expression - computed: false, optional: true, required: false
-  private _expression?: string;
+  private _expression?: string; 
   public get expression() {
     return this.getStringAttribute('expression');
   }
@@ -4406,7 +4406,7 @@ export class AppautoscalingPolicyTargetTrackingScalingPolicyConfigurationCustomi
   }
 
   // id - computed: false, optional: false, required: true
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -4419,7 +4419,7 @@ export class AppautoscalingPolicyTargetTrackingScalingPolicyConfigurationCustomi
   }
 
   // label - computed: false, optional: true, required: false
-  private _label?: string;
+  private _label?: string; 
   public get label() {
     return this.getStringAttribute('label');
   }
@@ -4435,7 +4435,7 @@ export class AppautoscalingPolicyTargetTrackingScalingPolicyConfigurationCustomi
   }
 
   // return_data - computed: false, optional: true, required: false
-  private _returnData?: boolean | cdktn.IResolvable;
+  private _returnData?: boolean | cdktn.IResolvable; 
   public get returnData() {
     return this.getBooleanAttribute('return_data');
   }
@@ -4644,7 +4644,7 @@ export class AppautoscalingPolicyTargetTrackingScalingPolicyConfigurationCustomi
   }
 
   // metric_name - computed: false, optional: true, required: false
-  private _metricName?: string;
+  private _metricName?: string; 
   public get metricName() {
     return this.getStringAttribute('metric_name');
   }
@@ -4660,7 +4660,7 @@ export class AppautoscalingPolicyTargetTrackingScalingPolicyConfigurationCustomi
   }
 
   // namespace - computed: false, optional: true, required: false
-  private _namespace?: string;
+  private _namespace?: string; 
   public get namespace() {
     return this.getStringAttribute('namespace');
   }
@@ -4676,7 +4676,7 @@ export class AppautoscalingPolicyTargetTrackingScalingPolicyConfigurationCustomi
   }
 
   // statistic - computed: false, optional: true, required: false
-  private _statistic?: string;
+  private _statistic?: string; 
   public get statistic() {
     return this.getStringAttribute('statistic');
   }
@@ -4692,7 +4692,7 @@ export class AppautoscalingPolicyTargetTrackingScalingPolicyConfigurationCustomi
   }
 
   // unit - computed: false, optional: true, required: false
-  private _unit?: string;
+  private _unit?: string; 
   public get unit() {
     return this.getStringAttribute('unit');
   }
@@ -4825,7 +4825,7 @@ export class AppautoscalingPolicyTargetTrackingScalingPolicyConfigurationPredefi
   }
 
   // predefined_metric_type - computed: false, optional: false, required: true
-  private _predefinedMetricType?: string;
+  private _predefinedMetricType?: string; 
   public get predefinedMetricType() {
     return this.getStringAttribute('predefined_metric_type');
   }
@@ -4838,7 +4838,7 @@ export class AppautoscalingPolicyTargetTrackingScalingPolicyConfigurationPredefi
   }
 
   // resource_label - computed: false, optional: true, required: false
-  private _resourceLabel?: string;
+  private _resourceLabel?: string; 
   public get resourceLabel() {
     return this.getStringAttribute('resource_label');
   }
@@ -5011,7 +5011,7 @@ export class AppautoscalingPolicyTargetTrackingScalingPolicyConfigurationOutputR
   }
 
   // disable_scale_in - computed: false, optional: true, required: false
-  private _disableScaleIn?: boolean | cdktn.IResolvable;
+  private _disableScaleIn?: boolean | cdktn.IResolvable; 
   public get disableScaleIn() {
     return this.getBooleanAttribute('disable_scale_in');
   }
@@ -5027,7 +5027,7 @@ export class AppautoscalingPolicyTargetTrackingScalingPolicyConfigurationOutputR
   }
 
   // scale_in_cooldown - computed: false, optional: true, required: false
-  private _scaleInCooldown?: number;
+  private _scaleInCooldown?: number; 
   public get scaleInCooldown() {
     return this.getNumberAttribute('scale_in_cooldown');
   }
@@ -5043,7 +5043,7 @@ export class AppautoscalingPolicyTargetTrackingScalingPolicyConfigurationOutputR
   }
 
   // scale_out_cooldown - computed: false, optional: true, required: false
-  private _scaleOutCooldown?: number;
+  private _scaleOutCooldown?: number; 
   public get scaleOutCooldown() {
     return this.getNumberAttribute('scale_out_cooldown');
   }
@@ -5059,7 +5059,7 @@ export class AppautoscalingPolicyTargetTrackingScalingPolicyConfigurationOutputR
   }
 
   // target_value - computed: false, optional: false, required: true
-  private _targetValue?: number;
+  private _targetValue?: number; 
   public get targetValue() {
     return this.getNumberAttribute('target_value');
   }
@@ -5181,7 +5181,7 @@ export class AppautoscalingPolicy extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -5197,7 +5197,7 @@ export class AppautoscalingPolicy extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -5210,7 +5210,7 @@ export class AppautoscalingPolicy extends cdktn.TerraformResource {
   }
 
   // policy_type - computed: false, optional: true, required: false
-  private _policyType?: string;
+  private _policyType?: string; 
   public get policyType() {
     return this.getStringAttribute('policy_type');
   }
@@ -5226,7 +5226,7 @@ export class AppautoscalingPolicy extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -5242,7 +5242,7 @@ export class AppautoscalingPolicy extends cdktn.TerraformResource {
   }
 
   // resource_id - computed: false, optional: false, required: true
-  private _resourceId?: string;
+  private _resourceId?: string; 
   public get resourceId() {
     return this.getStringAttribute('resource_id');
   }
@@ -5255,7 +5255,7 @@ export class AppautoscalingPolicy extends cdktn.TerraformResource {
   }
 
   // scalable_dimension - computed: false, optional: false, required: true
-  private _scalableDimension?: string;
+  private _scalableDimension?: string; 
   public get scalableDimension() {
     return this.getStringAttribute('scalable_dimension');
   }
@@ -5268,7 +5268,7 @@ export class AppautoscalingPolicy extends cdktn.TerraformResource {
   }
 
   // service_namespace - computed: false, optional: false, required: true
-  private _serviceNamespace?: string;
+  private _serviceNamespace?: string; 
   public get serviceNamespace() {
     return this.getStringAttribute('service_namespace');
   }

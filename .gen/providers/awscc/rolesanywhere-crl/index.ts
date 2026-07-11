@@ -126,7 +126,7 @@ export class RolesanywhereCrlTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -142,7 +142,7 @@ export class RolesanywhereCrlTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -240,7 +240,7 @@ export class RolesanywhereCrl extends cdktn.TerraformResource {
   // ==========
 
   // crl_data - computed: false, optional: false, required: true
-  private _crlData?: string;
+  private _crlData?: string; 
   public get crlData() {
     return this.getStringAttribute('crl_data');
   }
@@ -258,7 +258,7 @@ export class RolesanywhereCrl extends cdktn.TerraformResource {
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -279,7 +279,7 @@ export class RolesanywhereCrl extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -308,7 +308,7 @@ export class RolesanywhereCrl extends cdktn.TerraformResource {
   }
 
   // trust_anchor_arn - computed: true, optional: true, required: false
-  private _trustAnchorArn?: string;
+  private _trustAnchorArn?: string; 
   public get trustAnchorArn() {
     return this.getStringAttribute('trust_anchor_arn');
   }

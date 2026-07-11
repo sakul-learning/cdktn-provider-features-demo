@@ -84,7 +84,7 @@ export class Lexv2ModelsIntentConfirmationSettingConfirmationResponseMessageGrou
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -214,7 +214,7 @@ export class Lexv2ModelsIntentConfirmationSettingConfirmationResponseMessageGrou
   }
 
   // text - computed: false, optional: false, required: true
-  private _text?: string;
+  private _text?: string; 
   public get text() {
     return this.getStringAttribute('text');
   }
@@ -227,7 +227,7 @@ export class Lexv2ModelsIntentConfirmationSettingConfirmationResponseMessageGrou
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -393,7 +393,7 @@ export class Lexv2ModelsIntentConfirmationSettingConfirmationResponseMessageGrou
   }
 
   // image_url - computed: false, optional: true, required: false
-  private _imageUrl?: string;
+  private _imageUrl?: string; 
   public get imageUrl() {
     return this.getStringAttribute('image_url');
   }
@@ -409,7 +409,7 @@ export class Lexv2ModelsIntentConfirmationSettingConfirmationResponseMessageGrou
   }
 
   // subtitle - computed: false, optional: true, required: false
-  private _subtitle?: string;
+  private _subtitle?: string; 
   public get subtitle() {
     return this.getStringAttribute('subtitle');
   }
@@ -425,7 +425,7 @@ export class Lexv2ModelsIntentConfirmationSettingConfirmationResponseMessageGrou
   }
 
   // title - computed: false, optional: false, required: true
-  private _title?: string;
+  private _title?: string; 
   public get title() {
     return this.getStringAttribute('title');
   }
@@ -554,7 +554,7 @@ export class Lexv2ModelsIntentConfirmationSettingConfirmationResponseMessageGrou
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -667,7 +667,7 @@ export class Lexv2ModelsIntentConfirmationSettingConfirmationResponseMessageGrou
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1175,7 +1175,7 @@ export class Lexv2ModelsIntentConfirmationSettingConfirmationResponseOutputRefer
   }
 
   // allow_interrupt - computed: false, optional: true, required: false
-  private _allowInterrupt?: boolean | cdktn.IResolvable;
+  private _allowInterrupt?: boolean | cdktn.IResolvable; 
   public get allowInterrupt() {
     return this.getBooleanAttribute('allow_interrupt');
   }
@@ -1307,7 +1307,7 @@ export class Lexv2ModelsIntentConfirmationSettingDeclinationConditionalCondition
   }
 
   // expression_string - computed: false, optional: false, required: true
-  private _expressionString?: string;
+  private _expressionString?: string; 
   public get expressionString() {
     return this.getStringAttribute('expression_string');
   }
@@ -1454,7 +1454,7 @@ export class Lexv2ModelsIntentConfirmationSettingDeclinationConditionalCondition
   }
 
   // slot_to_elicit - computed: false, optional: true, required: false
-  private _slotToElicit?: string;
+  private _slotToElicit?: string; 
   public get slotToElicit() {
     return this.getStringAttribute('slot_to_elicit');
   }
@@ -1470,7 +1470,7 @@ export class Lexv2ModelsIntentConfirmationSettingDeclinationConditionalCondition
   }
 
   // suppress_next_message - computed: false, optional: true, required: false
-  private _suppressNextMessage?: boolean | cdktn.IResolvable;
+  private _suppressNextMessage?: boolean | cdktn.IResolvable; 
   public get suppressNextMessage() {
     return this.getBooleanAttribute('suppress_next_message');
   }
@@ -1486,7 +1486,7 @@ export class Lexv2ModelsIntentConfirmationSettingDeclinationConditionalCondition
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -1599,7 +1599,7 @@ export class Lexv2ModelsIntentConfirmationSettingDeclinationConditionalCondition
   }
 
   // interpreted_value - computed: false, optional: true, required: false
-  private _interpretedValue?: string;
+  private _interpretedValue?: string; 
   public get interpretedValue() {
     return this.getStringAttribute('interpreted_value');
   }
@@ -1751,7 +1751,7 @@ export class Lexv2ModelsIntentConfirmationSettingDeclinationConditionalCondition
   }
 
   // map_block_key - computed: false, optional: false, required: true
-  private _mapBlockKey?: string;
+  private _mapBlockKey?: string; 
   public get mapBlockKey() {
     return this.getStringAttribute('map_block_key');
   }
@@ -1764,7 +1764,7 @@ export class Lexv2ModelsIntentConfirmationSettingDeclinationConditionalCondition
   }
 
   // shape - computed: false, optional: true, required: false
-  private _shape?: string;
+  private _shape?: string; 
   public get shape() {
     return this.getStringAttribute('shape');
   }
@@ -1915,7 +1915,7 @@ export class Lexv2ModelsIntentConfirmationSettingDeclinationConditionalCondition
   }
 
   // name - computed: false, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2085,7 +2085,7 @@ export class Lexv2ModelsIntentConfirmationSettingDeclinationConditionalCondition
   }
 
   // session_attributes - computed: false, optional: true, required: false
-  private _sessionAttributes?: { [key: string]: string };
+  private _sessionAttributes?: { [key: string]: string }; 
   public get sessionAttributes() {
     return this.getStringMapAttribute('session_attributes');
   }
@@ -2233,7 +2233,7 @@ export class Lexv2ModelsIntentConfirmationSettingDeclinationConditionalCondition
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2363,7 +2363,7 @@ export class Lexv2ModelsIntentConfirmationSettingDeclinationConditionalCondition
   }
 
   // text - computed: false, optional: false, required: true
-  private _text?: string;
+  private _text?: string; 
   public get text() {
     return this.getStringAttribute('text');
   }
@@ -2376,7 +2376,7 @@ export class Lexv2ModelsIntentConfirmationSettingDeclinationConditionalCondition
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2542,7 +2542,7 @@ export class Lexv2ModelsIntentConfirmationSettingDeclinationConditionalCondition
   }
 
   // image_url - computed: false, optional: true, required: false
-  private _imageUrl?: string;
+  private _imageUrl?: string; 
   public get imageUrl() {
     return this.getStringAttribute('image_url');
   }
@@ -2558,7 +2558,7 @@ export class Lexv2ModelsIntentConfirmationSettingDeclinationConditionalCondition
   }
 
   // subtitle - computed: false, optional: true, required: false
-  private _subtitle?: string;
+  private _subtitle?: string; 
   public get subtitle() {
     return this.getStringAttribute('subtitle');
   }
@@ -2574,7 +2574,7 @@ export class Lexv2ModelsIntentConfirmationSettingDeclinationConditionalCondition
   }
 
   // title - computed: false, optional: false, required: true
-  private _title?: string;
+  private _title?: string; 
   public get title() {
     return this.getStringAttribute('title');
   }
@@ -2703,7 +2703,7 @@ export class Lexv2ModelsIntentConfirmationSettingDeclinationConditionalCondition
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2816,7 +2816,7 @@ export class Lexv2ModelsIntentConfirmationSettingDeclinationConditionalCondition
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -3152,7 +3152,7 @@ export class Lexv2ModelsIntentConfirmationSettingDeclinationConditionalCondition
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -3282,7 +3282,7 @@ export class Lexv2ModelsIntentConfirmationSettingDeclinationConditionalCondition
   }
 
   // text - computed: false, optional: false, required: true
-  private _text?: string;
+  private _text?: string; 
   public get text() {
     return this.getStringAttribute('text');
   }
@@ -3295,7 +3295,7 @@ export class Lexv2ModelsIntentConfirmationSettingDeclinationConditionalCondition
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -3461,7 +3461,7 @@ export class Lexv2ModelsIntentConfirmationSettingDeclinationConditionalCondition
   }
 
   // image_url - computed: false, optional: true, required: false
-  private _imageUrl?: string;
+  private _imageUrl?: string; 
   public get imageUrl() {
     return this.getStringAttribute('image_url');
   }
@@ -3477,7 +3477,7 @@ export class Lexv2ModelsIntentConfirmationSettingDeclinationConditionalCondition
   }
 
   // subtitle - computed: false, optional: true, required: false
-  private _subtitle?: string;
+  private _subtitle?: string; 
   public get subtitle() {
     return this.getStringAttribute('subtitle');
   }
@@ -3493,7 +3493,7 @@ export class Lexv2ModelsIntentConfirmationSettingDeclinationConditionalCondition
   }
 
   // title - computed: false, optional: false, required: true
-  private _title?: string;
+  private _title?: string; 
   public get title() {
     return this.getStringAttribute('title');
   }
@@ -3622,7 +3622,7 @@ export class Lexv2ModelsIntentConfirmationSettingDeclinationConditionalCondition
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -3735,7 +3735,7 @@ export class Lexv2ModelsIntentConfirmationSettingDeclinationConditionalCondition
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -4243,7 +4243,7 @@ export class Lexv2ModelsIntentConfirmationSettingDeclinationConditionalCondition
   }
 
   // allow_interrupt - computed: false, optional: true, required: false
-  private _allowInterrupt?: boolean | cdktn.IResolvable;
+  private _allowInterrupt?: boolean | cdktn.IResolvable; 
   public get allowInterrupt() {
     return this.getBooleanAttribute('allow_interrupt');
   }
@@ -4432,7 +4432,7 @@ export class Lexv2ModelsIntentConfirmationSettingDeclinationConditionalCondition
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -4627,7 +4627,7 @@ export class Lexv2ModelsIntentConfirmationSettingDeclinationConditionalDefaultBr
   }
 
   // slot_to_elicit - computed: false, optional: true, required: false
-  private _slotToElicit?: string;
+  private _slotToElicit?: string; 
   public get slotToElicit() {
     return this.getStringAttribute('slot_to_elicit');
   }
@@ -4643,7 +4643,7 @@ export class Lexv2ModelsIntentConfirmationSettingDeclinationConditionalDefaultBr
   }
 
   // suppress_next_message - computed: false, optional: true, required: false
-  private _suppressNextMessage?: boolean | cdktn.IResolvable;
+  private _suppressNextMessage?: boolean | cdktn.IResolvable; 
   public get suppressNextMessage() {
     return this.getBooleanAttribute('suppress_next_message');
   }
@@ -4659,7 +4659,7 @@ export class Lexv2ModelsIntentConfirmationSettingDeclinationConditionalDefaultBr
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -4772,7 +4772,7 @@ export class Lexv2ModelsIntentConfirmationSettingDeclinationConditionalDefaultBr
   }
 
   // interpreted_value - computed: false, optional: true, required: false
-  private _interpretedValue?: string;
+  private _interpretedValue?: string; 
   public get interpretedValue() {
     return this.getStringAttribute('interpreted_value');
   }
@@ -4924,7 +4924,7 @@ export class Lexv2ModelsIntentConfirmationSettingDeclinationConditionalDefaultBr
   }
 
   // map_block_key - computed: false, optional: false, required: true
-  private _mapBlockKey?: string;
+  private _mapBlockKey?: string; 
   public get mapBlockKey() {
     return this.getStringAttribute('map_block_key');
   }
@@ -4937,7 +4937,7 @@ export class Lexv2ModelsIntentConfirmationSettingDeclinationConditionalDefaultBr
   }
 
   // shape - computed: false, optional: true, required: false
-  private _shape?: string;
+  private _shape?: string; 
   public get shape() {
     return this.getStringAttribute('shape');
   }
@@ -5088,7 +5088,7 @@ export class Lexv2ModelsIntentConfirmationSettingDeclinationConditionalDefaultBr
   }
 
   // name - computed: false, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -5258,7 +5258,7 @@ export class Lexv2ModelsIntentConfirmationSettingDeclinationConditionalDefaultBr
   }
 
   // session_attributes - computed: false, optional: true, required: false
-  private _sessionAttributes?: { [key: string]: string };
+  private _sessionAttributes?: { [key: string]: string }; 
   public get sessionAttributes() {
     return this.getStringMapAttribute('session_attributes');
   }
@@ -5406,7 +5406,7 @@ export class Lexv2ModelsIntentConfirmationSettingDeclinationConditionalDefaultBr
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -5536,7 +5536,7 @@ export class Lexv2ModelsIntentConfirmationSettingDeclinationConditionalDefaultBr
   }
 
   // text - computed: false, optional: false, required: true
-  private _text?: string;
+  private _text?: string; 
   public get text() {
     return this.getStringAttribute('text');
   }
@@ -5549,7 +5549,7 @@ export class Lexv2ModelsIntentConfirmationSettingDeclinationConditionalDefaultBr
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -5715,7 +5715,7 @@ export class Lexv2ModelsIntentConfirmationSettingDeclinationConditionalDefaultBr
   }
 
   // image_url - computed: false, optional: true, required: false
-  private _imageUrl?: string;
+  private _imageUrl?: string; 
   public get imageUrl() {
     return this.getStringAttribute('image_url');
   }
@@ -5731,7 +5731,7 @@ export class Lexv2ModelsIntentConfirmationSettingDeclinationConditionalDefaultBr
   }
 
   // subtitle - computed: false, optional: true, required: false
-  private _subtitle?: string;
+  private _subtitle?: string; 
   public get subtitle() {
     return this.getStringAttribute('subtitle');
   }
@@ -5747,7 +5747,7 @@ export class Lexv2ModelsIntentConfirmationSettingDeclinationConditionalDefaultBr
   }
 
   // title - computed: false, optional: false, required: true
-  private _title?: string;
+  private _title?: string; 
   public get title() {
     return this.getStringAttribute('title');
   }
@@ -5876,7 +5876,7 @@ export class Lexv2ModelsIntentConfirmationSettingDeclinationConditionalDefaultBr
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -5989,7 +5989,7 @@ export class Lexv2ModelsIntentConfirmationSettingDeclinationConditionalDefaultBr
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -6325,7 +6325,7 @@ export class Lexv2ModelsIntentConfirmationSettingDeclinationConditionalDefaultBr
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -6455,7 +6455,7 @@ export class Lexv2ModelsIntentConfirmationSettingDeclinationConditionalDefaultBr
   }
 
   // text - computed: false, optional: false, required: true
-  private _text?: string;
+  private _text?: string; 
   public get text() {
     return this.getStringAttribute('text');
   }
@@ -6468,7 +6468,7 @@ export class Lexv2ModelsIntentConfirmationSettingDeclinationConditionalDefaultBr
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -6634,7 +6634,7 @@ export class Lexv2ModelsIntentConfirmationSettingDeclinationConditionalDefaultBr
   }
 
   // image_url - computed: false, optional: true, required: false
-  private _imageUrl?: string;
+  private _imageUrl?: string; 
   public get imageUrl() {
     return this.getStringAttribute('image_url');
   }
@@ -6650,7 +6650,7 @@ export class Lexv2ModelsIntentConfirmationSettingDeclinationConditionalDefaultBr
   }
 
   // subtitle - computed: false, optional: true, required: false
-  private _subtitle?: string;
+  private _subtitle?: string; 
   public get subtitle() {
     return this.getStringAttribute('subtitle');
   }
@@ -6666,7 +6666,7 @@ export class Lexv2ModelsIntentConfirmationSettingDeclinationConditionalDefaultBr
   }
 
   // title - computed: false, optional: false, required: true
-  private _title?: string;
+  private _title?: string; 
   public get title() {
     return this.getStringAttribute('title');
   }
@@ -6795,7 +6795,7 @@ export class Lexv2ModelsIntentConfirmationSettingDeclinationConditionalDefaultBr
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -6908,7 +6908,7 @@ export class Lexv2ModelsIntentConfirmationSettingDeclinationConditionalDefaultBr
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -7416,7 +7416,7 @@ export class Lexv2ModelsIntentConfirmationSettingDeclinationConditionalDefaultBr
   }
 
   // allow_interrupt - computed: false, optional: true, required: false
-  private _allowInterrupt?: boolean | cdktn.IResolvable;
+  private _allowInterrupt?: boolean | cdktn.IResolvable; 
   public get allowInterrupt() {
     return this.getBooleanAttribute('allow_interrupt');
   }
@@ -7739,7 +7739,7 @@ export class Lexv2ModelsIntentConfirmationSettingDeclinationConditionalOutputRef
   }
 
   // active - computed: false, optional: false, required: true
-  private _active?: boolean | cdktn.IResolvable;
+  private _active?: boolean | cdktn.IResolvable; 
   public get active() {
     return this.getBooleanAttribute('active');
   }
@@ -7918,7 +7918,7 @@ export class Lexv2ModelsIntentConfirmationSettingDeclinationNextStepDialogAction
   }
 
   // slot_to_elicit - computed: false, optional: true, required: false
-  private _slotToElicit?: string;
+  private _slotToElicit?: string; 
   public get slotToElicit() {
     return this.getStringAttribute('slot_to_elicit');
   }
@@ -7934,7 +7934,7 @@ export class Lexv2ModelsIntentConfirmationSettingDeclinationNextStepDialogAction
   }
 
   // suppress_next_message - computed: false, optional: true, required: false
-  private _suppressNextMessage?: boolean | cdktn.IResolvable;
+  private _suppressNextMessage?: boolean | cdktn.IResolvable; 
   public get suppressNextMessage() {
     return this.getBooleanAttribute('suppress_next_message');
   }
@@ -7950,7 +7950,7 @@ export class Lexv2ModelsIntentConfirmationSettingDeclinationNextStepDialogAction
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -8063,7 +8063,7 @@ export class Lexv2ModelsIntentConfirmationSettingDeclinationNextStepIntentSlotVa
   }
 
   // interpreted_value - computed: false, optional: true, required: false
-  private _interpretedValue?: string;
+  private _interpretedValue?: string; 
   public get interpretedValue() {
     return this.getStringAttribute('interpreted_value');
   }
@@ -8215,7 +8215,7 @@ export class Lexv2ModelsIntentConfirmationSettingDeclinationNextStepIntentSlotOu
   }
 
   // map_block_key - computed: false, optional: false, required: true
-  private _mapBlockKey?: string;
+  private _mapBlockKey?: string; 
   public get mapBlockKey() {
     return this.getStringAttribute('map_block_key');
   }
@@ -8228,7 +8228,7 @@ export class Lexv2ModelsIntentConfirmationSettingDeclinationNextStepIntentSlotOu
   }
 
   // shape - computed: false, optional: true, required: false
-  private _shape?: string;
+  private _shape?: string; 
   public get shape() {
     return this.getStringAttribute('shape');
   }
@@ -8379,7 +8379,7 @@ export class Lexv2ModelsIntentConfirmationSettingDeclinationNextStepIntentOutput
   }
 
   // name - computed: false, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -8549,7 +8549,7 @@ export class Lexv2ModelsIntentConfirmationSettingDeclinationNextStepOutputRefere
   }
 
   // session_attributes - computed: false, optional: true, required: false
-  private _sessionAttributes?: { [key: string]: string };
+  private _sessionAttributes?: { [key: string]: string }; 
   public get sessionAttributes() {
     return this.getStringMapAttribute('session_attributes');
   }
@@ -8697,7 +8697,7 @@ export class Lexv2ModelsIntentConfirmationSettingDeclinationResponseMessageGroup
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -8827,7 +8827,7 @@ export class Lexv2ModelsIntentConfirmationSettingDeclinationResponseMessageGroup
   }
 
   // text - computed: false, optional: false, required: true
-  private _text?: string;
+  private _text?: string; 
   public get text() {
     return this.getStringAttribute('text');
   }
@@ -8840,7 +8840,7 @@ export class Lexv2ModelsIntentConfirmationSettingDeclinationResponseMessageGroup
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -9006,7 +9006,7 @@ export class Lexv2ModelsIntentConfirmationSettingDeclinationResponseMessageGroup
   }
 
   // image_url - computed: false, optional: true, required: false
-  private _imageUrl?: string;
+  private _imageUrl?: string; 
   public get imageUrl() {
     return this.getStringAttribute('image_url');
   }
@@ -9022,7 +9022,7 @@ export class Lexv2ModelsIntentConfirmationSettingDeclinationResponseMessageGroup
   }
 
   // subtitle - computed: false, optional: true, required: false
-  private _subtitle?: string;
+  private _subtitle?: string; 
   public get subtitle() {
     return this.getStringAttribute('subtitle');
   }
@@ -9038,7 +9038,7 @@ export class Lexv2ModelsIntentConfirmationSettingDeclinationResponseMessageGroup
   }
 
   // title - computed: false, optional: false, required: true
-  private _title?: string;
+  private _title?: string; 
   public get title() {
     return this.getStringAttribute('title');
   }
@@ -9167,7 +9167,7 @@ export class Lexv2ModelsIntentConfirmationSettingDeclinationResponseMessageGroup
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -9280,7 +9280,7 @@ export class Lexv2ModelsIntentConfirmationSettingDeclinationResponseMessageGroup
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -9616,7 +9616,7 @@ export class Lexv2ModelsIntentConfirmationSettingDeclinationResponseMessageGroup
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -9746,7 +9746,7 @@ export class Lexv2ModelsIntentConfirmationSettingDeclinationResponseMessageGroup
   }
 
   // text - computed: false, optional: false, required: true
-  private _text?: string;
+  private _text?: string; 
   public get text() {
     return this.getStringAttribute('text');
   }
@@ -9759,7 +9759,7 @@ export class Lexv2ModelsIntentConfirmationSettingDeclinationResponseMessageGroup
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -9925,7 +9925,7 @@ export class Lexv2ModelsIntentConfirmationSettingDeclinationResponseMessageGroup
   }
 
   // image_url - computed: false, optional: true, required: false
-  private _imageUrl?: string;
+  private _imageUrl?: string; 
   public get imageUrl() {
     return this.getStringAttribute('image_url');
   }
@@ -9941,7 +9941,7 @@ export class Lexv2ModelsIntentConfirmationSettingDeclinationResponseMessageGroup
   }
 
   // subtitle - computed: false, optional: true, required: false
-  private _subtitle?: string;
+  private _subtitle?: string; 
   public get subtitle() {
     return this.getStringAttribute('subtitle');
   }
@@ -9957,7 +9957,7 @@ export class Lexv2ModelsIntentConfirmationSettingDeclinationResponseMessageGroup
   }
 
   // title - computed: false, optional: false, required: true
-  private _title?: string;
+  private _title?: string; 
   public get title() {
     return this.getStringAttribute('title');
   }
@@ -10086,7 +10086,7 @@ export class Lexv2ModelsIntentConfirmationSettingDeclinationResponseMessageGroup
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -10199,7 +10199,7 @@ export class Lexv2ModelsIntentConfirmationSettingDeclinationResponseMessageGroup
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -10707,7 +10707,7 @@ export class Lexv2ModelsIntentConfirmationSettingDeclinationResponseOutputRefere
   }
 
   // allow_interrupt - computed: false, optional: true, required: false
-  private _allowInterrupt?: boolean | cdktn.IResolvable;
+  private _allowInterrupt?: boolean | cdktn.IResolvable; 
   public get allowInterrupt() {
     return this.getBooleanAttribute('allow_interrupt');
   }
@@ -10856,7 +10856,7 @@ export class Lexv2ModelsIntentConfirmationSettingElicitationCodeHookOutputRefere
   }
 
   // enable_code_hook_invocation - computed: false, optional: true, required: false
-  private _enableCodeHookInvocation?: boolean | cdktn.IResolvable;
+  private _enableCodeHookInvocation?: boolean | cdktn.IResolvable; 
   public get enableCodeHookInvocation() {
     return this.getBooleanAttribute('enable_code_hook_invocation');
   }
@@ -10872,7 +10872,7 @@ export class Lexv2ModelsIntentConfirmationSettingElicitationCodeHookOutputRefere
   }
 
   // invocation_label - computed: false, optional: true, required: false
-  private _invocationLabel?: string;
+  private _invocationLabel?: string; 
   public get invocationLabel() {
     return this.getStringAttribute('invocation_label');
   }
@@ -10988,7 +10988,7 @@ export class Lexv2ModelsIntentConfirmationSettingFailureConditionalConditionalBr
   }
 
   // expression_string - computed: false, optional: false, required: true
-  private _expressionString?: string;
+  private _expressionString?: string; 
   public get expressionString() {
     return this.getStringAttribute('expression_string');
   }
@@ -11135,7 +11135,7 @@ export class Lexv2ModelsIntentConfirmationSettingFailureConditionalConditionalBr
   }
 
   // slot_to_elicit - computed: false, optional: true, required: false
-  private _slotToElicit?: string;
+  private _slotToElicit?: string; 
   public get slotToElicit() {
     return this.getStringAttribute('slot_to_elicit');
   }
@@ -11151,7 +11151,7 @@ export class Lexv2ModelsIntentConfirmationSettingFailureConditionalConditionalBr
   }
 
   // suppress_next_message - computed: false, optional: true, required: false
-  private _suppressNextMessage?: boolean | cdktn.IResolvable;
+  private _suppressNextMessage?: boolean | cdktn.IResolvable; 
   public get suppressNextMessage() {
     return this.getBooleanAttribute('suppress_next_message');
   }
@@ -11167,7 +11167,7 @@ export class Lexv2ModelsIntentConfirmationSettingFailureConditionalConditionalBr
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -11280,7 +11280,7 @@ export class Lexv2ModelsIntentConfirmationSettingFailureConditionalConditionalBr
   }
 
   // interpreted_value - computed: false, optional: true, required: false
-  private _interpretedValue?: string;
+  private _interpretedValue?: string; 
   public get interpretedValue() {
     return this.getStringAttribute('interpreted_value');
   }
@@ -11432,7 +11432,7 @@ export class Lexv2ModelsIntentConfirmationSettingFailureConditionalConditionalBr
   }
 
   // map_block_key - computed: false, optional: false, required: true
-  private _mapBlockKey?: string;
+  private _mapBlockKey?: string; 
   public get mapBlockKey() {
     return this.getStringAttribute('map_block_key');
   }
@@ -11445,7 +11445,7 @@ export class Lexv2ModelsIntentConfirmationSettingFailureConditionalConditionalBr
   }
 
   // shape - computed: false, optional: true, required: false
-  private _shape?: string;
+  private _shape?: string; 
   public get shape() {
     return this.getStringAttribute('shape');
   }
@@ -11596,7 +11596,7 @@ export class Lexv2ModelsIntentConfirmationSettingFailureConditionalConditionalBr
   }
 
   // name - computed: false, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -11766,7 +11766,7 @@ export class Lexv2ModelsIntentConfirmationSettingFailureConditionalConditionalBr
   }
 
   // session_attributes - computed: false, optional: true, required: false
-  private _sessionAttributes?: { [key: string]: string };
+  private _sessionAttributes?: { [key: string]: string }; 
   public get sessionAttributes() {
     return this.getStringMapAttribute('session_attributes');
   }
@@ -11914,7 +11914,7 @@ export class Lexv2ModelsIntentConfirmationSettingFailureConditionalConditionalBr
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -12044,7 +12044,7 @@ export class Lexv2ModelsIntentConfirmationSettingFailureConditionalConditionalBr
   }
 
   // text - computed: false, optional: false, required: true
-  private _text?: string;
+  private _text?: string; 
   public get text() {
     return this.getStringAttribute('text');
   }
@@ -12057,7 +12057,7 @@ export class Lexv2ModelsIntentConfirmationSettingFailureConditionalConditionalBr
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -12223,7 +12223,7 @@ export class Lexv2ModelsIntentConfirmationSettingFailureConditionalConditionalBr
   }
 
   // image_url - computed: false, optional: true, required: false
-  private _imageUrl?: string;
+  private _imageUrl?: string; 
   public get imageUrl() {
     return this.getStringAttribute('image_url');
   }
@@ -12239,7 +12239,7 @@ export class Lexv2ModelsIntentConfirmationSettingFailureConditionalConditionalBr
   }
 
   // subtitle - computed: false, optional: true, required: false
-  private _subtitle?: string;
+  private _subtitle?: string; 
   public get subtitle() {
     return this.getStringAttribute('subtitle');
   }
@@ -12255,7 +12255,7 @@ export class Lexv2ModelsIntentConfirmationSettingFailureConditionalConditionalBr
   }
 
   // title - computed: false, optional: false, required: true
-  private _title?: string;
+  private _title?: string; 
   public get title() {
     return this.getStringAttribute('title');
   }
@@ -12384,7 +12384,7 @@ export class Lexv2ModelsIntentConfirmationSettingFailureConditionalConditionalBr
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -12497,7 +12497,7 @@ export class Lexv2ModelsIntentConfirmationSettingFailureConditionalConditionalBr
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -12833,7 +12833,7 @@ export class Lexv2ModelsIntentConfirmationSettingFailureConditionalConditionalBr
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -12963,7 +12963,7 @@ export class Lexv2ModelsIntentConfirmationSettingFailureConditionalConditionalBr
   }
 
   // text - computed: false, optional: false, required: true
-  private _text?: string;
+  private _text?: string; 
   public get text() {
     return this.getStringAttribute('text');
   }
@@ -12976,7 +12976,7 @@ export class Lexv2ModelsIntentConfirmationSettingFailureConditionalConditionalBr
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -13142,7 +13142,7 @@ export class Lexv2ModelsIntentConfirmationSettingFailureConditionalConditionalBr
   }
 
   // image_url - computed: false, optional: true, required: false
-  private _imageUrl?: string;
+  private _imageUrl?: string; 
   public get imageUrl() {
     return this.getStringAttribute('image_url');
   }
@@ -13158,7 +13158,7 @@ export class Lexv2ModelsIntentConfirmationSettingFailureConditionalConditionalBr
   }
 
   // subtitle - computed: false, optional: true, required: false
-  private _subtitle?: string;
+  private _subtitle?: string; 
   public get subtitle() {
     return this.getStringAttribute('subtitle');
   }
@@ -13174,7 +13174,7 @@ export class Lexv2ModelsIntentConfirmationSettingFailureConditionalConditionalBr
   }
 
   // title - computed: false, optional: false, required: true
-  private _title?: string;
+  private _title?: string; 
   public get title() {
     return this.getStringAttribute('title');
   }
@@ -13303,7 +13303,7 @@ export class Lexv2ModelsIntentConfirmationSettingFailureConditionalConditionalBr
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -13416,7 +13416,7 @@ export class Lexv2ModelsIntentConfirmationSettingFailureConditionalConditionalBr
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -13924,7 +13924,7 @@ export class Lexv2ModelsIntentConfirmationSettingFailureConditionalConditionalBr
   }
 
   // allow_interrupt - computed: false, optional: true, required: false
-  private _allowInterrupt?: boolean | cdktn.IResolvable;
+  private _allowInterrupt?: boolean | cdktn.IResolvable; 
   public get allowInterrupt() {
     return this.getBooleanAttribute('allow_interrupt');
   }
@@ -14113,7 +14113,7 @@ export class Lexv2ModelsIntentConfirmationSettingFailureConditionalConditionalBr
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -14308,7 +14308,7 @@ export class Lexv2ModelsIntentConfirmationSettingFailureConditionalDefaultBranch
   }
 
   // slot_to_elicit - computed: false, optional: true, required: false
-  private _slotToElicit?: string;
+  private _slotToElicit?: string; 
   public get slotToElicit() {
     return this.getStringAttribute('slot_to_elicit');
   }
@@ -14324,7 +14324,7 @@ export class Lexv2ModelsIntentConfirmationSettingFailureConditionalDefaultBranch
   }
 
   // suppress_next_message - computed: false, optional: true, required: false
-  private _suppressNextMessage?: boolean | cdktn.IResolvable;
+  private _suppressNextMessage?: boolean | cdktn.IResolvable; 
   public get suppressNextMessage() {
     return this.getBooleanAttribute('suppress_next_message');
   }
@@ -14340,7 +14340,7 @@ export class Lexv2ModelsIntentConfirmationSettingFailureConditionalDefaultBranch
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -14453,7 +14453,7 @@ export class Lexv2ModelsIntentConfirmationSettingFailureConditionalDefaultBranch
   }
 
   // interpreted_value - computed: false, optional: true, required: false
-  private _interpretedValue?: string;
+  private _interpretedValue?: string; 
   public get interpretedValue() {
     return this.getStringAttribute('interpreted_value');
   }
@@ -14605,7 +14605,7 @@ export class Lexv2ModelsIntentConfirmationSettingFailureConditionalDefaultBranch
   }
 
   // map_block_key - computed: false, optional: false, required: true
-  private _mapBlockKey?: string;
+  private _mapBlockKey?: string; 
   public get mapBlockKey() {
     return this.getStringAttribute('map_block_key');
   }
@@ -14618,7 +14618,7 @@ export class Lexv2ModelsIntentConfirmationSettingFailureConditionalDefaultBranch
   }
 
   // shape - computed: false, optional: true, required: false
-  private _shape?: string;
+  private _shape?: string; 
   public get shape() {
     return this.getStringAttribute('shape');
   }
@@ -14769,7 +14769,7 @@ export class Lexv2ModelsIntentConfirmationSettingFailureConditionalDefaultBranch
   }
 
   // name - computed: false, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -14939,7 +14939,7 @@ export class Lexv2ModelsIntentConfirmationSettingFailureConditionalDefaultBranch
   }
 
   // session_attributes - computed: false, optional: true, required: false
-  private _sessionAttributes?: { [key: string]: string };
+  private _sessionAttributes?: { [key: string]: string }; 
   public get sessionAttributes() {
     return this.getStringMapAttribute('session_attributes');
   }
@@ -15087,7 +15087,7 @@ export class Lexv2ModelsIntentConfirmationSettingFailureConditionalDefaultBranch
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -15217,7 +15217,7 @@ export class Lexv2ModelsIntentConfirmationSettingFailureConditionalDefaultBranch
   }
 
   // text - computed: false, optional: false, required: true
-  private _text?: string;
+  private _text?: string; 
   public get text() {
     return this.getStringAttribute('text');
   }
@@ -15230,7 +15230,7 @@ export class Lexv2ModelsIntentConfirmationSettingFailureConditionalDefaultBranch
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -15396,7 +15396,7 @@ export class Lexv2ModelsIntentConfirmationSettingFailureConditionalDefaultBranch
   }
 
   // image_url - computed: false, optional: true, required: false
-  private _imageUrl?: string;
+  private _imageUrl?: string; 
   public get imageUrl() {
     return this.getStringAttribute('image_url');
   }
@@ -15412,7 +15412,7 @@ export class Lexv2ModelsIntentConfirmationSettingFailureConditionalDefaultBranch
   }
 
   // subtitle - computed: false, optional: true, required: false
-  private _subtitle?: string;
+  private _subtitle?: string; 
   public get subtitle() {
     return this.getStringAttribute('subtitle');
   }
@@ -15428,7 +15428,7 @@ export class Lexv2ModelsIntentConfirmationSettingFailureConditionalDefaultBranch
   }
 
   // title - computed: false, optional: false, required: true
-  private _title?: string;
+  private _title?: string; 
   public get title() {
     return this.getStringAttribute('title');
   }
@@ -15557,7 +15557,7 @@ export class Lexv2ModelsIntentConfirmationSettingFailureConditionalDefaultBranch
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }

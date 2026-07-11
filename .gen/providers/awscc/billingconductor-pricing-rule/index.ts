@@ -170,7 +170,7 @@ export class BillingconductorPricingRuleTagsOutputReference extends cdktn.Comple
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -186,7 +186,7 @@ export class BillingconductorPricingRuleTagsOutputReference extends cdktn.Comple
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -300,7 +300,7 @@ export class BillingconductorPricingRuleTieringFreeTierOutputReference extends c
   }
 
   // activated - computed: true, optional: true, required: false
-  private _activated?: boolean | cdktn.IResolvable;
+  private _activated?: boolean | cdktn.IResolvable; 
   public get activated() {
     return this.getBooleanAttribute('activated');
   }
@@ -490,7 +490,7 @@ export class BillingconductorPricingRule extends cdktn.TerraformResource {
   }
 
   // billing_entity - computed: true, optional: true, required: false
-  private _billingEntity?: string;
+  private _billingEntity?: string; 
   public get billingEntity() {
     return this.getStringAttribute('billing_entity');
   }
@@ -511,7 +511,7 @@ export class BillingconductorPricingRule extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -537,7 +537,7 @@ export class BillingconductorPricingRule extends cdktn.TerraformResource {
   }
 
   // modifier_percentage - computed: true, optional: true, required: false
-  private _modifierPercentage?: number;
+  private _modifierPercentage?: number; 
   public get modifierPercentage() {
     return this.getNumberAttribute('modifier_percentage');
   }
@@ -553,7 +553,7 @@ export class BillingconductorPricingRule extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -566,7 +566,7 @@ export class BillingconductorPricingRule extends cdktn.TerraformResource {
   }
 
   // operation - computed: true, optional: true, required: false
-  private _operation?: string;
+  private _operation?: string; 
   public get operation() {
     return this.getStringAttribute('operation');
   }
@@ -582,7 +582,7 @@ export class BillingconductorPricingRule extends cdktn.TerraformResource {
   }
 
   // scope - computed: false, optional: false, required: true
-  private _scope?: string;
+  private _scope?: string; 
   public get scope() {
     return this.getStringAttribute('scope');
   }
@@ -595,7 +595,7 @@ export class BillingconductorPricingRule extends cdktn.TerraformResource {
   }
 
   // service - computed: true, optional: true, required: false
-  private _service?: string;
+  private _service?: string; 
   public get service() {
     return this.getStringAttribute('service');
   }
@@ -643,7 +643,7 @@ export class BillingconductorPricingRule extends cdktn.TerraformResource {
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -656,7 +656,7 @@ export class BillingconductorPricingRule extends cdktn.TerraformResource {
   }
 
   // usage_type - computed: true, optional: true, required: false
-  private _usageType?: string;
+  private _usageType?: string; 
   public get usageType() {
     return this.getStringAttribute('usage_type');
   }

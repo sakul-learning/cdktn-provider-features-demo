@@ -129,7 +129,7 @@ export class NetworkmanagerConnectPeerBgpOptionsOutputReference extends cdktn.Co
   }
 
   // peer_asn - computed: true, optional: true, required: false
-  private _peerAsn?: number;
+  private _peerAsn?: number; 
   public get peerAsn() {
     return this.getNumberAttribute('peer_asn');
   }
@@ -411,7 +411,7 @@ export class NetworkmanagerConnectPeerTagsOutputReference extends cdktn.ComplexO
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -427,7 +427,7 @@ export class NetworkmanagerConnectPeerTagsOutputReference extends cdktn.ComplexO
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -549,7 +549,7 @@ export class NetworkmanagerConnectPeer extends cdktn.TerraformResource {
   }
 
   // connect_attachment_id - computed: false, optional: false, required: true
-  private _connectAttachmentId?: string;
+  private _connectAttachmentId?: string; 
   public get connectAttachmentId() {
     return this.getStringAttribute('connect_attachment_id');
   }
@@ -567,7 +567,7 @@ export class NetworkmanagerConnectPeer extends cdktn.TerraformResource {
   }
 
   // core_network_address - computed: true, optional: true, required: false
-  private _coreNetworkAddress?: string;
+  private _coreNetworkAddress?: string; 
   public get coreNetworkAddress() {
     return this.getStringAttribute('core_network_address');
   }
@@ -603,7 +603,7 @@ export class NetworkmanagerConnectPeer extends cdktn.TerraformResource {
   }
 
   // inside_cidr_blocks - computed: true, optional: true, required: false
-  private _insideCidrBlocks?: string[];
+  private _insideCidrBlocks?: string[]; 
   public get insideCidrBlocks() {
     return this.getListAttribute('inside_cidr_blocks');
   }
@@ -624,7 +624,7 @@ export class NetworkmanagerConnectPeer extends cdktn.TerraformResource {
   }
 
   // peer_address - computed: false, optional: false, required: true
-  private _peerAddress?: string;
+  private _peerAddress?: string; 
   public get peerAddress() {
     return this.getStringAttribute('peer_address');
   }
@@ -642,7 +642,7 @@ export class NetworkmanagerConnectPeer extends cdktn.TerraformResource {
   }
 
   // subnet_arn - computed: true, optional: true, required: false
-  private _subnetArn?: string;
+  private _subnetArn?: string; 
   public get subnetArn() {
     return this.getStringAttribute('subnet_arn');
   }

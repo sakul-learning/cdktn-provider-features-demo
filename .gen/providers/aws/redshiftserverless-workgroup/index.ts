@@ -447,7 +447,7 @@ export class RedshiftserverlessWorkgroupConfigParameterOutputReference extends c
   }
 
   // parameter_key - computed: false, optional: false, required: true
-  private _parameterKey?: string;
+  private _parameterKey?: string; 
   public get parameterKey() {
     return this.getStringAttribute('parameter_key');
   }
@@ -460,7 +460,7 @@ export class RedshiftserverlessWorkgroupConfigParameterOutputReference extends c
   }
 
   // parameter_value - computed: false, optional: false, required: true
-  private _parameterValue?: string;
+  private _parameterValue?: string; 
   public get parameterValue() {
     return this.getStringAttribute('parameter_value');
   }
@@ -578,7 +578,7 @@ export class RedshiftserverlessWorkgroupPricePerformanceTargetOutputReference ex
   }
 
   // enabled - computed: false, optional: false, required: true
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -591,7 +591,7 @@ export class RedshiftserverlessWorkgroupPricePerformanceTargetOutputReference ex
   }
 
   // level - computed: false, optional: true, required: false
-  private _level?: number;
+  private _level?: number; 
   public get level() {
     return this.getNumberAttribute('level');
   }
@@ -719,7 +719,7 @@ export class RedshiftserverlessWorkgroupTimeoutsOutputReference extends cdktn.Co
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -735,7 +735,7 @@ export class RedshiftserverlessWorkgroupTimeoutsOutputReference extends cdktn.Co
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -751,7 +751,7 @@ export class RedshiftserverlessWorkgroupTimeoutsOutputReference extends cdktn.Co
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -846,7 +846,7 @@ export class RedshiftserverlessWorkgroup extends cdktn.TerraformResource {
   }
 
   // base_capacity - computed: true, optional: true, required: false
-  private _baseCapacity?: number;
+  private _baseCapacity?: number; 
   public get baseCapacity() {
     return this.getNumberAttribute('base_capacity');
   }
@@ -868,7 +868,7 @@ export class RedshiftserverlessWorkgroup extends cdktn.TerraformResource {
   }
 
   // enhanced_vpc_routing - computed: false, optional: true, required: false
-  private _enhancedVpcRouting?: boolean | cdktn.IResolvable;
+  private _enhancedVpcRouting?: boolean | cdktn.IResolvable; 
   public get enhancedVpcRouting() {
     return this.getBooleanAttribute('enhanced_vpc_routing');
   }
@@ -884,7 +884,7 @@ export class RedshiftserverlessWorkgroup extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -900,7 +900,7 @@ export class RedshiftserverlessWorkgroup extends cdktn.TerraformResource {
   }
 
   // max_capacity - computed: false, optional: true, required: false
-  private _maxCapacity?: number;
+  private _maxCapacity?: number; 
   public get maxCapacity() {
     return this.getNumberAttribute('max_capacity');
   }
@@ -916,7 +916,7 @@ export class RedshiftserverlessWorkgroup extends cdktn.TerraformResource {
   }
 
   // namespace_name - computed: false, optional: false, required: true
-  private _namespaceName?: string;
+  private _namespaceName?: string; 
   public get namespaceName() {
     return this.getStringAttribute('namespace_name');
   }
@@ -929,7 +929,7 @@ export class RedshiftserverlessWorkgroup extends cdktn.TerraformResource {
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -945,7 +945,7 @@ export class RedshiftserverlessWorkgroup extends cdktn.TerraformResource {
   }
 
   // publicly_accessible - computed: false, optional: true, required: false
-  private _publiclyAccessible?: boolean | cdktn.IResolvable;
+  private _publiclyAccessible?: boolean | cdktn.IResolvable; 
   public get publiclyAccessible() {
     return this.getBooleanAttribute('publicly_accessible');
   }
@@ -961,7 +961,7 @@ export class RedshiftserverlessWorkgroup extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -977,7 +977,7 @@ export class RedshiftserverlessWorkgroup extends cdktn.TerraformResource {
   }
 
   // security_group_ids - computed: true, optional: true, required: false
-  private _securityGroupIds?: string[];
+  private _securityGroupIds?: string[]; 
   public get securityGroupIds() {
     return cdktn.Fn.tolist(this.getListAttribute('security_group_ids'));
   }
@@ -993,7 +993,7 @@ export class RedshiftserverlessWorkgroup extends cdktn.TerraformResource {
   }
 
   // subnet_ids - computed: true, optional: true, required: false
-  private _subnetIds?: string[];
+  private _subnetIds?: string[]; 
   public get subnetIds() {
     return cdktn.Fn.tolist(this.getListAttribute('subnet_ids'));
   }
@@ -1009,7 +1009,7 @@ export class RedshiftserverlessWorkgroup extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -1025,7 +1025,7 @@ export class RedshiftserverlessWorkgroup extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -1041,7 +1041,7 @@ export class RedshiftserverlessWorkgroup extends cdktn.TerraformResource {
   }
 
   // track_name - computed: true, optional: true, required: false
-  private _trackName?: string;
+  private _trackName?: string; 
   public get trackName() {
     return this.getStringAttribute('track_name');
   }
@@ -1062,7 +1062,7 @@ export class RedshiftserverlessWorkgroup extends cdktn.TerraformResource {
   }
 
   // workgroup_name - computed: false, optional: false, required: true
-  private _workgroupName?: string;
+  private _workgroupName?: string; 
   public get workgroupName() {
     return this.getStringAttribute('workgroup_name');
   }

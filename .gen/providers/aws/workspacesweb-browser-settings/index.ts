@@ -93,7 +93,7 @@ export class WorkspaceswebBrowserSettings extends cdktn.TerraformResource {
   // ==========
 
   // additional_encryption_context - computed: false, optional: true, required: false
-  private _additionalEncryptionContext?: { [key: string]: string };
+  private _additionalEncryptionContext?: { [key: string]: string }; 
   public get additionalEncryptionContext() {
     return this.getStringMapAttribute('additional_encryption_context');
   }
@@ -114,7 +114,7 @@ export class WorkspaceswebBrowserSettings extends cdktn.TerraformResource {
   }
 
   // browser_policy - computed: false, optional: false, required: true
-  private _browserPolicy?: string;
+  private _browserPolicy?: string; 
   public get browserPolicy() {
     return this.getStringAttribute('browser_policy');
   }
@@ -132,7 +132,7 @@ export class WorkspaceswebBrowserSettings extends cdktn.TerraformResource {
   }
 
   // customer_managed_key - computed: false, optional: true, required: false
-  private _customerManagedKey?: string;
+  private _customerManagedKey?: string; 
   public get customerManagedKey() {
     return this.getStringAttribute('customer_managed_key');
   }
@@ -148,7 +148,7 @@ export class WorkspaceswebBrowserSettings extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -164,7 +164,7 @@ export class WorkspaceswebBrowserSettings extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

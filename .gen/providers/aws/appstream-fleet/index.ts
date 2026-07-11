@@ -194,7 +194,7 @@ export class AppstreamFleetComputeCapacityOutputReference extends cdktn.ComplexO
   }
 
   // desired_instances - computed: false, optional: true, required: false
-  private _desiredInstances?: number;
+  private _desiredInstances?: number; 
   public get desiredInstances() {
     return this.getNumberAttribute('desired_instances');
   }
@@ -210,7 +210,7 @@ export class AppstreamFleetComputeCapacityOutputReference extends cdktn.ComplexO
   }
 
   // desired_sessions - computed: false, optional: true, required: false
-  private _desiredSessions?: number;
+  private _desiredSessions?: number; 
   public get desiredSessions() {
     return this.getNumberAttribute('desired_sessions');
   }
@@ -321,7 +321,7 @@ export class AppstreamFleetDomainJoinInfoOutputReference extends cdktn.ComplexOb
   }
 
   // directory_name - computed: true, optional: true, required: false
-  private _directoryName?: string;
+  private _directoryName?: string; 
   public get directoryName() {
     return this.getStringAttribute('directory_name');
   }
@@ -337,7 +337,7 @@ export class AppstreamFleetDomainJoinInfoOutputReference extends cdktn.ComplexOb
   }
 
   // organizational_unit_distinguished_name - computed: true, optional: true, required: false
-  private _organizationalUnitDistinguishedName?: string;
+  private _organizationalUnitDistinguishedName?: string; 
   public get organizationalUnitDistinguishedName() {
     return this.getStringAttribute('organizational_unit_distinguished_name');
   }
@@ -438,7 +438,7 @@ export class AppstreamFleetVpcConfigOutputReference extends cdktn.ComplexObject 
   }
 
   // security_group_ids - computed: true, optional: true, required: false
-  private _securityGroupIds?: string[];
+  private _securityGroupIds?: string[]; 
   public get securityGroupIds() {
     return this.getListAttribute('security_group_ids');
   }
@@ -454,7 +454,7 @@ export class AppstreamFleetVpcConfigOutputReference extends cdktn.ComplexObject 
   }
 
   // subnet_ids - computed: true, optional: true, required: false
-  private _subnetIds?: string[];
+  private _subnetIds?: string[]; 
   public get subnetIds() {
     return this.getListAttribute('subnet_ids');
   }
@@ -558,7 +558,7 @@ export class AppstreamFleet extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -574,7 +574,7 @@ export class AppstreamFleet extends cdktn.TerraformResource {
   }
 
   // disconnect_timeout_in_seconds - computed: true, optional: true, required: false
-  private _disconnectTimeoutInSeconds?: number;
+  private _disconnectTimeoutInSeconds?: number; 
   public get disconnectTimeoutInSeconds() {
     return this.getNumberAttribute('disconnect_timeout_in_seconds');
   }
@@ -590,7 +590,7 @@ export class AppstreamFleet extends cdktn.TerraformResource {
   }
 
   // display_name - computed: true, optional: true, required: false
-  private _displayName?: string;
+  private _displayName?: string; 
   public get displayName() {
     return this.getStringAttribute('display_name');
   }
@@ -606,7 +606,7 @@ export class AppstreamFleet extends cdktn.TerraformResource {
   }
 
   // enable_default_internet_access - computed: true, optional: true, required: false
-  private _enableDefaultInternetAccess?: boolean | cdktn.IResolvable;
+  private _enableDefaultInternetAccess?: boolean | cdktn.IResolvable; 
   public get enableDefaultInternetAccess() {
     return this.getBooleanAttribute('enable_default_internet_access');
   }
@@ -622,7 +622,7 @@ export class AppstreamFleet extends cdktn.TerraformResource {
   }
 
   // fleet_type - computed: true, optional: true, required: false
-  private _fleetType?: string;
+  private _fleetType?: string; 
   public get fleetType() {
     return this.getStringAttribute('fleet_type');
   }
@@ -638,7 +638,7 @@ export class AppstreamFleet extends cdktn.TerraformResource {
   }
 
   // iam_role_arn - computed: true, optional: true, required: false
-  private _iamRoleArn?: string;
+  private _iamRoleArn?: string; 
   public get iamRoleArn() {
     return this.getStringAttribute('iam_role_arn');
   }
@@ -654,7 +654,7 @@ export class AppstreamFleet extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -670,7 +670,7 @@ export class AppstreamFleet extends cdktn.TerraformResource {
   }
 
   // idle_disconnect_timeout_in_seconds - computed: false, optional: true, required: false
-  private _idleDisconnectTimeoutInSeconds?: number;
+  private _idleDisconnectTimeoutInSeconds?: number; 
   public get idleDisconnectTimeoutInSeconds() {
     return this.getNumberAttribute('idle_disconnect_timeout_in_seconds');
   }
@@ -686,7 +686,7 @@ export class AppstreamFleet extends cdktn.TerraformResource {
   }
 
   // image_arn - computed: true, optional: true, required: false
-  private _imageArn?: string;
+  private _imageArn?: string; 
   public get imageArn() {
     return this.getStringAttribute('image_arn');
   }
@@ -702,7 +702,7 @@ export class AppstreamFleet extends cdktn.TerraformResource {
   }
 
   // image_name - computed: true, optional: true, required: false
-  private _imageName?: string;
+  private _imageName?: string; 
   public get imageName() {
     return this.getStringAttribute('image_name');
   }
@@ -718,7 +718,7 @@ export class AppstreamFleet extends cdktn.TerraformResource {
   }
 
   // instance_type - computed: false, optional: false, required: true
-  private _instanceType?: string;
+  private _instanceType?: string; 
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -731,7 +731,7 @@ export class AppstreamFleet extends cdktn.TerraformResource {
   }
 
   // max_sessions_per_instance - computed: false, optional: true, required: false
-  private _maxSessionsPerInstance?: number;
+  private _maxSessionsPerInstance?: number; 
   public get maxSessionsPerInstance() {
     return this.getNumberAttribute('max_sessions_per_instance');
   }
@@ -747,7 +747,7 @@ export class AppstreamFleet extends cdktn.TerraformResource {
   }
 
   // max_user_duration_in_seconds - computed: true, optional: true, required: false
-  private _maxUserDurationInSeconds?: number;
+  private _maxUserDurationInSeconds?: number; 
   public get maxUserDurationInSeconds() {
     return this.getNumberAttribute('max_user_duration_in_seconds');
   }
@@ -763,7 +763,7 @@ export class AppstreamFleet extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -776,7 +776,7 @@ export class AppstreamFleet extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -797,7 +797,7 @@ export class AppstreamFleet extends cdktn.TerraformResource {
   }
 
   // stream_view - computed: true, optional: true, required: false
-  private _streamView?: string;
+  private _streamView?: string; 
   public get streamView() {
     return this.getStringAttribute('stream_view');
   }
@@ -813,7 +813,7 @@ export class AppstreamFleet extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -829,7 +829,7 @@ export class AppstreamFleet extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

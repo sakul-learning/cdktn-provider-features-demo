@@ -78,7 +78,7 @@ export class AuditmanagerOrganizationAdminAccountRegistration extends cdktn.Terr
   // ==========
 
   // admin_account_id - computed: false, optional: false, required: true
-  private _adminAccountId?: string;
+  private _adminAccountId?: string; 
   public get adminAccountId() {
     return this.getStringAttribute('admin_account_id');
   }
@@ -101,7 +101,7 @@ export class AuditmanagerOrganizationAdminAccountRegistration extends cdktn.Terr
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

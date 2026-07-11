@@ -119,7 +119,7 @@ export class DataAwsRoute53Zone extends cdktn.TerraformDataSource {
   }
 
   // enable_accelerated_recovery - computed: false, optional: true, required: false
-  private _enableAcceleratedRecovery?: boolean | cdktn.IResolvable;
+  private _enableAcceleratedRecovery?: boolean | cdktn.IResolvable; 
   public get enableAcceleratedRecovery() {
     return this.getBooleanAttribute('enable_accelerated_recovery');
   }
@@ -135,7 +135,7 @@ export class DataAwsRoute53Zone extends cdktn.TerraformDataSource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -161,7 +161,7 @@ export class DataAwsRoute53Zone extends cdktn.TerraformDataSource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -187,7 +187,7 @@ export class DataAwsRoute53Zone extends cdktn.TerraformDataSource {
   }
 
   // private_zone - computed: false, optional: true, required: false
-  private _privateZone?: boolean | cdktn.IResolvable;
+  private _privateZone?: boolean | cdktn.IResolvable; 
   public get privateZone() {
     return this.getBooleanAttribute('private_zone');
   }
@@ -208,7 +208,7 @@ export class DataAwsRoute53Zone extends cdktn.TerraformDataSource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -224,7 +224,7 @@ export class DataAwsRoute53Zone extends cdktn.TerraformDataSource {
   }
 
   // vpc_id - computed: false, optional: true, required: false
-  private _vpcId?: string;
+  private _vpcId?: string; 
   public get vpcId() {
     return this.getStringAttribute('vpc_id');
   }
@@ -240,7 +240,7 @@ export class DataAwsRoute53Zone extends cdktn.TerraformDataSource {
   }
 
   // zone_id - computed: true, optional: true, required: false
-  private _zoneId?: string;
+  private _zoneId?: string; 
   public get zoneId() {
     return this.getStringAttribute('zone_id');
   }

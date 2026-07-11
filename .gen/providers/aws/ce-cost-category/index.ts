@@ -137,7 +137,7 @@ export class CeCostCategoryRuleInheritedValueOutputReference extends cdktn.Compl
   }
 
   // dimension_key - computed: false, optional: true, required: false
-  private _dimensionKey?: string;
+  private _dimensionKey?: string; 
   public get dimensionKey() {
     return this.getStringAttribute('dimension_key');
   }
@@ -153,7 +153,7 @@ export class CeCostCategoryRuleInheritedValueOutputReference extends cdktn.Compl
   }
 
   // dimension_name - computed: false, optional: true, required: false
-  private _dimensionName?: string;
+  private _dimensionName?: string; 
   public get dimensionName() {
     return this.getStringAttribute('dimension_name');
   }
@@ -271,7 +271,7 @@ export class CeCostCategoryRuleRuleAndAndCostCategoryOutputReference extends cdk
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -287,7 +287,7 @@ export class CeCostCategoryRuleRuleAndAndCostCategoryOutputReference extends cdk
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[];
+  private _matchOptions?: string[]; 
   public get matchOptions() {
     return cdktn.Fn.tolist(this.getListAttribute('match_options'));
   }
@@ -303,7 +303,7 @@ export class CeCostCategoryRuleRuleAndAndCostCategoryOutputReference extends cdk
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -421,7 +421,7 @@ export class CeCostCategoryRuleRuleAndAndDimensionOutputReference extends cdktn.
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -437,7 +437,7 @@ export class CeCostCategoryRuleRuleAndAndDimensionOutputReference extends cdktn.
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[];
+  private _matchOptions?: string[]; 
   public get matchOptions() {
     return cdktn.Fn.tolist(this.getListAttribute('match_options'));
   }
@@ -453,7 +453,7 @@ export class CeCostCategoryRuleRuleAndAndDimensionOutputReference extends cdktn.
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -571,7 +571,7 @@ export class CeCostCategoryRuleRuleAndAndTagsOutputReference extends cdktn.Compl
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -587,7 +587,7 @@ export class CeCostCategoryRuleRuleAndAndTagsOutputReference extends cdktn.Compl
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[];
+  private _matchOptions?: string[]; 
   public get matchOptions() {
     return cdktn.Fn.tolist(this.getListAttribute('match_options'));
   }
@@ -603,7 +603,7 @@ export class CeCostCategoryRuleRuleAndAndTagsOutputReference extends cdktn.Compl
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -909,7 +909,7 @@ export class CeCostCategoryRuleRuleAndCostCategoryOutputReference extends cdktn.
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -925,7 +925,7 @@ export class CeCostCategoryRuleRuleAndCostCategoryOutputReference extends cdktn.
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[];
+  private _matchOptions?: string[]; 
   public get matchOptions() {
     return cdktn.Fn.tolist(this.getListAttribute('match_options'));
   }
@@ -941,7 +941,7 @@ export class CeCostCategoryRuleRuleAndCostCategoryOutputReference extends cdktn.
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -1059,7 +1059,7 @@ export class CeCostCategoryRuleRuleAndDimensionOutputReference extends cdktn.Com
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1075,7 +1075,7 @@ export class CeCostCategoryRuleRuleAndDimensionOutputReference extends cdktn.Com
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[];
+  private _matchOptions?: string[]; 
   public get matchOptions() {
     return cdktn.Fn.tolist(this.getListAttribute('match_options'));
   }
@@ -1091,7 +1091,7 @@ export class CeCostCategoryRuleRuleAndDimensionOutputReference extends cdktn.Com
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -1209,7 +1209,7 @@ export class CeCostCategoryRuleRuleAndNotCostCategoryOutputReference extends cdk
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1225,7 +1225,7 @@ export class CeCostCategoryRuleRuleAndNotCostCategoryOutputReference extends cdk
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[];
+  private _matchOptions?: string[]; 
   public get matchOptions() {
     return cdktn.Fn.tolist(this.getListAttribute('match_options'));
   }
@@ -1241,7 +1241,7 @@ export class CeCostCategoryRuleRuleAndNotCostCategoryOutputReference extends cdk
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -1359,7 +1359,7 @@ export class CeCostCategoryRuleRuleAndNotDimensionOutputReference extends cdktn.
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1375,7 +1375,7 @@ export class CeCostCategoryRuleRuleAndNotDimensionOutputReference extends cdktn.
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[];
+  private _matchOptions?: string[]; 
   public get matchOptions() {
     return cdktn.Fn.tolist(this.getListAttribute('match_options'));
   }
@@ -1391,7 +1391,7 @@ export class CeCostCategoryRuleRuleAndNotDimensionOutputReference extends cdktn.
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -1509,7 +1509,7 @@ export class CeCostCategoryRuleRuleAndNotTagsOutputReference extends cdktn.Compl
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1525,7 +1525,7 @@ export class CeCostCategoryRuleRuleAndNotTagsOutputReference extends cdktn.Compl
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[];
+  private _matchOptions?: string[]; 
   public get matchOptions() {
     return cdktn.Fn.tolist(this.getListAttribute('match_options'));
   }
@@ -1541,7 +1541,7 @@ export class CeCostCategoryRuleRuleAndNotTagsOutputReference extends cdktn.Compl
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -1815,7 +1815,7 @@ export class CeCostCategoryRuleRuleAndOrCostCategoryOutputReference extends cdkt
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1831,7 +1831,7 @@ export class CeCostCategoryRuleRuleAndOrCostCategoryOutputReference extends cdkt
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[];
+  private _matchOptions?: string[]; 
   public get matchOptions() {
     return cdktn.Fn.tolist(this.getListAttribute('match_options'));
   }
@@ -1847,7 +1847,7 @@ export class CeCostCategoryRuleRuleAndOrCostCategoryOutputReference extends cdkt
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -1965,7 +1965,7 @@ export class CeCostCategoryRuleRuleAndOrDimensionOutputReference extends cdktn.C
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1981,7 +1981,7 @@ export class CeCostCategoryRuleRuleAndOrDimensionOutputReference extends cdktn.C
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[];
+  private _matchOptions?: string[]; 
   public get matchOptions() {
     return cdktn.Fn.tolist(this.getListAttribute('match_options'));
   }
@@ -1997,7 +1997,7 @@ export class CeCostCategoryRuleRuleAndOrDimensionOutputReference extends cdktn.C
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -2115,7 +2115,7 @@ export class CeCostCategoryRuleRuleAndOrTagsOutputReference extends cdktn.Comple
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -2131,7 +2131,7 @@ export class CeCostCategoryRuleRuleAndOrTagsOutputReference extends cdktn.Comple
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[];
+  private _matchOptions?: string[]; 
   public get matchOptions() {
     return cdktn.Fn.tolist(this.getListAttribute('match_options'));
   }
@@ -2147,7 +2147,7 @@ export class CeCostCategoryRuleRuleAndOrTagsOutputReference extends cdktn.Comple
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -2453,7 +2453,7 @@ export class CeCostCategoryRuleRuleAndTagsOutputReference extends cdktn.ComplexO
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -2469,7 +2469,7 @@ export class CeCostCategoryRuleRuleAndTagsOutputReference extends cdktn.ComplexO
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[];
+  private _matchOptions?: string[]; 
   public get matchOptions() {
     return cdktn.Fn.tolist(this.getListAttribute('match_options'));
   }
@@ -2485,7 +2485,7 @@ export class CeCostCategoryRuleRuleAndTagsOutputReference extends cdktn.ComplexO
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -2896,7 +2896,7 @@ export class CeCostCategoryRuleRuleCostCategoryOutputReference extends cdktn.Com
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -2912,7 +2912,7 @@ export class CeCostCategoryRuleRuleCostCategoryOutputReference extends cdktn.Com
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[];
+  private _matchOptions?: string[]; 
   public get matchOptions() {
     return cdktn.Fn.tolist(this.getListAttribute('match_options'));
   }
@@ -2928,7 +2928,7 @@ export class CeCostCategoryRuleRuleCostCategoryOutputReference extends cdktn.Com
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -3046,7 +3046,7 @@ export class CeCostCategoryRuleRuleDimensionOutputReference extends cdktn.Comple
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -3062,7 +3062,7 @@ export class CeCostCategoryRuleRuleDimensionOutputReference extends cdktn.Comple
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[];
+  private _matchOptions?: string[]; 
   public get matchOptions() {
     return cdktn.Fn.tolist(this.getListAttribute('match_options'));
   }
@@ -3078,7 +3078,7 @@ export class CeCostCategoryRuleRuleDimensionOutputReference extends cdktn.Comple
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -3196,7 +3196,7 @@ export class CeCostCategoryRuleRuleNotAndCostCategoryOutputReference extends cdk
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -3212,7 +3212,7 @@ export class CeCostCategoryRuleRuleNotAndCostCategoryOutputReference extends cdk
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[];
+  private _matchOptions?: string[]; 
   public get matchOptions() {
     return cdktn.Fn.tolist(this.getListAttribute('match_options'));
   }
@@ -3228,7 +3228,7 @@ export class CeCostCategoryRuleRuleNotAndCostCategoryOutputReference extends cdk
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -3346,7 +3346,7 @@ export class CeCostCategoryRuleRuleNotAndDimensionOutputReference extends cdktn.
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -3362,7 +3362,7 @@ export class CeCostCategoryRuleRuleNotAndDimensionOutputReference extends cdktn.
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[];
+  private _matchOptions?: string[]; 
   public get matchOptions() {
     return cdktn.Fn.tolist(this.getListAttribute('match_options'));
   }
@@ -3378,7 +3378,7 @@ export class CeCostCategoryRuleRuleNotAndDimensionOutputReference extends cdktn.
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -3496,7 +3496,7 @@ export class CeCostCategoryRuleRuleNotAndTagsOutputReference extends cdktn.Compl
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -3512,7 +3512,7 @@ export class CeCostCategoryRuleRuleNotAndTagsOutputReference extends cdktn.Compl
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[];
+  private _matchOptions?: string[]; 
   public get matchOptions() {
     return cdktn.Fn.tolist(this.getListAttribute('match_options'));
   }
@@ -3528,7 +3528,7 @@ export class CeCostCategoryRuleRuleNotAndTagsOutputReference extends cdktn.Compl
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -3834,7 +3834,7 @@ export class CeCostCategoryRuleRuleNotCostCategoryOutputReference extends cdktn.
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -3850,7 +3850,7 @@ export class CeCostCategoryRuleRuleNotCostCategoryOutputReference extends cdktn.
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[];
+  private _matchOptions?: string[]; 
   public get matchOptions() {
     return cdktn.Fn.tolist(this.getListAttribute('match_options'));
   }
@@ -3866,7 +3866,7 @@ export class CeCostCategoryRuleRuleNotCostCategoryOutputReference extends cdktn.
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -3984,7 +3984,7 @@ export class CeCostCategoryRuleRuleNotDimensionOutputReference extends cdktn.Com
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -4000,7 +4000,7 @@ export class CeCostCategoryRuleRuleNotDimensionOutputReference extends cdktn.Com
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[];
+  private _matchOptions?: string[]; 
   public get matchOptions() {
     return cdktn.Fn.tolist(this.getListAttribute('match_options'));
   }
@@ -4016,7 +4016,7 @@ export class CeCostCategoryRuleRuleNotDimensionOutputReference extends cdktn.Com
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -4134,7 +4134,7 @@ export class CeCostCategoryRuleRuleNotNotCostCategoryOutputReference extends cdk
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -4150,7 +4150,7 @@ export class CeCostCategoryRuleRuleNotNotCostCategoryOutputReference extends cdk
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[];
+  private _matchOptions?: string[]; 
   public get matchOptions() {
     return cdktn.Fn.tolist(this.getListAttribute('match_options'));
   }
@@ -4166,7 +4166,7 @@ export class CeCostCategoryRuleRuleNotNotCostCategoryOutputReference extends cdk
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -4284,7 +4284,7 @@ export class CeCostCategoryRuleRuleNotNotDimensionOutputReference extends cdktn.
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -4300,7 +4300,7 @@ export class CeCostCategoryRuleRuleNotNotDimensionOutputReference extends cdktn.
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[];
+  private _matchOptions?: string[]; 
   public get matchOptions() {
     return cdktn.Fn.tolist(this.getListAttribute('match_options'));
   }
@@ -4316,7 +4316,7 @@ export class CeCostCategoryRuleRuleNotNotDimensionOutputReference extends cdktn.
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -4434,7 +4434,7 @@ export class CeCostCategoryRuleRuleNotNotTagsOutputReference extends cdktn.Compl
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -4450,7 +4450,7 @@ export class CeCostCategoryRuleRuleNotNotTagsOutputReference extends cdktn.Compl
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[];
+  private _matchOptions?: string[]; 
   public get matchOptions() {
     return cdktn.Fn.tolist(this.getListAttribute('match_options'));
   }
@@ -4466,7 +4466,7 @@ export class CeCostCategoryRuleRuleNotNotTagsOutputReference extends cdktn.Compl
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -4740,7 +4740,7 @@ export class CeCostCategoryRuleRuleNotOrCostCategoryOutputReference extends cdkt
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -4756,7 +4756,7 @@ export class CeCostCategoryRuleRuleNotOrCostCategoryOutputReference extends cdkt
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[];
+  private _matchOptions?: string[]; 
   public get matchOptions() {
     return cdktn.Fn.tolist(this.getListAttribute('match_options'));
   }
@@ -4772,7 +4772,7 @@ export class CeCostCategoryRuleRuleNotOrCostCategoryOutputReference extends cdkt
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -4890,7 +4890,7 @@ export class CeCostCategoryRuleRuleNotOrDimensionOutputReference extends cdktn.C
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -4906,7 +4906,7 @@ export class CeCostCategoryRuleRuleNotOrDimensionOutputReference extends cdktn.C
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[];
+  private _matchOptions?: string[]; 
   public get matchOptions() {
     return cdktn.Fn.tolist(this.getListAttribute('match_options'));
   }
@@ -4922,7 +4922,7 @@ export class CeCostCategoryRuleRuleNotOrDimensionOutputReference extends cdktn.C
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -5040,7 +5040,7 @@ export class CeCostCategoryRuleRuleNotOrTagsOutputReference extends cdktn.Comple
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -5056,7 +5056,7 @@ export class CeCostCategoryRuleRuleNotOrTagsOutputReference extends cdktn.Comple
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[];
+  private _matchOptions?: string[]; 
   public get matchOptions() {
     return cdktn.Fn.tolist(this.getListAttribute('match_options'));
   }
@@ -5072,7 +5072,7 @@ export class CeCostCategoryRuleRuleNotOrTagsOutputReference extends cdktn.Comple
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -5378,7 +5378,7 @@ export class CeCostCategoryRuleRuleNotTagsOutputReference extends cdktn.ComplexO
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -5394,7 +5394,7 @@ export class CeCostCategoryRuleRuleNotTagsOutputReference extends cdktn.ComplexO
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[];
+  private _matchOptions?: string[]; 
   public get matchOptions() {
     return cdktn.Fn.tolist(this.getListAttribute('match_options'));
   }
@@ -5410,7 +5410,7 @@ export class CeCostCategoryRuleRuleNotTagsOutputReference extends cdktn.ComplexO
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -5789,7 +5789,7 @@ export class CeCostCategoryRuleRuleOrAndCostCategoryOutputReference extends cdkt
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -5805,7 +5805,7 @@ export class CeCostCategoryRuleRuleOrAndCostCategoryOutputReference extends cdkt
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[];
+  private _matchOptions?: string[]; 
   public get matchOptions() {
     return cdktn.Fn.tolist(this.getListAttribute('match_options'));
   }
@@ -5821,7 +5821,7 @@ export class CeCostCategoryRuleRuleOrAndCostCategoryOutputReference extends cdkt
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -5939,7 +5939,7 @@ export class CeCostCategoryRuleRuleOrAndDimensionOutputReference extends cdktn.C
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -5955,7 +5955,7 @@ export class CeCostCategoryRuleRuleOrAndDimensionOutputReference extends cdktn.C
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[];
+  private _matchOptions?: string[]; 
   public get matchOptions() {
     return cdktn.Fn.tolist(this.getListAttribute('match_options'));
   }
@@ -5971,7 +5971,7 @@ export class CeCostCategoryRuleRuleOrAndDimensionOutputReference extends cdktn.C
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -6089,7 +6089,7 @@ export class CeCostCategoryRuleRuleOrAndTagsOutputReference extends cdktn.Comple
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -6105,7 +6105,7 @@ export class CeCostCategoryRuleRuleOrAndTagsOutputReference extends cdktn.Comple
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[];
+  private _matchOptions?: string[]; 
   public get matchOptions() {
     return cdktn.Fn.tolist(this.getListAttribute('match_options'));
   }
@@ -6121,7 +6121,7 @@ export class CeCostCategoryRuleRuleOrAndTagsOutputReference extends cdktn.Comple
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -6427,7 +6427,7 @@ export class CeCostCategoryRuleRuleOrCostCategoryOutputReference extends cdktn.C
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -6443,7 +6443,7 @@ export class CeCostCategoryRuleRuleOrCostCategoryOutputReference extends cdktn.C
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[];
+  private _matchOptions?: string[]; 
   public get matchOptions() {
     return cdktn.Fn.tolist(this.getListAttribute('match_options'));
   }
@@ -6459,7 +6459,7 @@ export class CeCostCategoryRuleRuleOrCostCategoryOutputReference extends cdktn.C
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -6577,7 +6577,7 @@ export class CeCostCategoryRuleRuleOrDimensionOutputReference extends cdktn.Comp
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -6593,7 +6593,7 @@ export class CeCostCategoryRuleRuleOrDimensionOutputReference extends cdktn.Comp
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[];
+  private _matchOptions?: string[]; 
   public get matchOptions() {
     return cdktn.Fn.tolist(this.getListAttribute('match_options'));
   }
@@ -6609,7 +6609,7 @@ export class CeCostCategoryRuleRuleOrDimensionOutputReference extends cdktn.Comp
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -6727,7 +6727,7 @@ export class CeCostCategoryRuleRuleOrNotCostCategoryOutputReference extends cdkt
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -6743,7 +6743,7 @@ export class CeCostCategoryRuleRuleOrNotCostCategoryOutputReference extends cdkt
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[];
+  private _matchOptions?: string[]; 
   public get matchOptions() {
     return cdktn.Fn.tolist(this.getListAttribute('match_options'));
   }
@@ -6759,7 +6759,7 @@ export class CeCostCategoryRuleRuleOrNotCostCategoryOutputReference extends cdkt
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -6877,7 +6877,7 @@ export class CeCostCategoryRuleRuleOrNotDimensionOutputReference extends cdktn.C
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -6893,7 +6893,7 @@ export class CeCostCategoryRuleRuleOrNotDimensionOutputReference extends cdktn.C
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[];
+  private _matchOptions?: string[]; 
   public get matchOptions() {
     return cdktn.Fn.tolist(this.getListAttribute('match_options'));
   }
@@ -6909,7 +6909,7 @@ export class CeCostCategoryRuleRuleOrNotDimensionOutputReference extends cdktn.C
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -7027,7 +7027,7 @@ export class CeCostCategoryRuleRuleOrNotTagsOutputReference extends cdktn.Comple
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -7043,7 +7043,7 @@ export class CeCostCategoryRuleRuleOrNotTagsOutputReference extends cdktn.Comple
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[];
+  private _matchOptions?: string[]; 
   public get matchOptions() {
     return cdktn.Fn.tolist(this.getListAttribute('match_options'));
   }
@@ -7059,7 +7059,7 @@ export class CeCostCategoryRuleRuleOrNotTagsOutputReference extends cdktn.Comple
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -7333,7 +7333,7 @@ export class CeCostCategoryRuleRuleOrOrCostCategoryOutputReference extends cdktn
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -7349,7 +7349,7 @@ export class CeCostCategoryRuleRuleOrOrCostCategoryOutputReference extends cdktn
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[];
+  private _matchOptions?: string[]; 
   public get matchOptions() {
     return cdktn.Fn.tolist(this.getListAttribute('match_options'));
   }
@@ -7365,7 +7365,7 @@ export class CeCostCategoryRuleRuleOrOrCostCategoryOutputReference extends cdktn
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -7483,7 +7483,7 @@ export class CeCostCategoryRuleRuleOrOrDimensionOutputReference extends cdktn.Co
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -7499,7 +7499,7 @@ export class CeCostCategoryRuleRuleOrOrDimensionOutputReference extends cdktn.Co
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[];
+  private _matchOptions?: string[]; 
   public get matchOptions() {
     return cdktn.Fn.tolist(this.getListAttribute('match_options'));
   }
@@ -7515,7 +7515,7 @@ export class CeCostCategoryRuleRuleOrOrDimensionOutputReference extends cdktn.Co
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -7633,7 +7633,7 @@ export class CeCostCategoryRuleRuleOrOrTagsOutputReference extends cdktn.Complex
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -7649,7 +7649,7 @@ export class CeCostCategoryRuleRuleOrOrTagsOutputReference extends cdktn.Complex
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[];
+  private _matchOptions?: string[]; 
   public get matchOptions() {
     return cdktn.Fn.tolist(this.getListAttribute('match_options'));
   }
@@ -7665,7 +7665,7 @@ export class CeCostCategoryRuleRuleOrOrTagsOutputReference extends cdktn.Complex
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -7971,7 +7971,7 @@ export class CeCostCategoryRuleRuleOrTagsOutputReference extends cdktn.ComplexOb
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -7987,7 +7987,7 @@ export class CeCostCategoryRuleRuleOrTagsOutputReference extends cdktn.ComplexOb
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[];
+  private _matchOptions?: string[]; 
   public get matchOptions() {
     return cdktn.Fn.tolist(this.getListAttribute('match_options'));
   }
@@ -8003,7 +8003,7 @@ export class CeCostCategoryRuleRuleOrTagsOutputReference extends cdktn.ComplexOb
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -8414,7 +8414,7 @@ export class CeCostCategoryRuleRuleTagsOutputReference extends cdktn.ComplexObje
   }
 
   // key - computed: false, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -8430,7 +8430,7 @@ export class CeCostCategoryRuleRuleTagsOutputReference extends cdktn.ComplexObje
   }
 
   // match_options - computed: false, optional: true, required: false
-  private _matchOptions?: string[];
+  private _matchOptions?: string[]; 
   public get matchOptions() {
     return cdktn.Fn.tolist(this.getListAttribute('match_options'));
   }
@@ -8446,7 +8446,7 @@ export class CeCostCategoryRuleRuleTagsOutputReference extends cdktn.ComplexObje
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -8858,7 +8858,7 @@ export class CeCostCategoryRuleOutputReference extends cdktn.ComplexObject {
   }
 
   // type - computed: false, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -8874,7 +8874,7 @@ export class CeCostCategoryRuleOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: false, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -9039,7 +9039,7 @@ export class CeCostCategorySplitChargeRuleParameterOutputReference extends cdktn
   }
 
   // type - computed: false, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -9055,7 +9055,7 @@ export class CeCostCategorySplitChargeRuleParameterOutputReference extends cdktn
   }
 
   // values - computed: false, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -9224,7 +9224,7 @@ export class CeCostCategorySplitChargeRuleOutputReference extends cdktn.ComplexO
   }
 
   // method - computed: false, optional: false, required: true
-  private _method?: string;
+  private _method?: string; 
   public get method() {
     return this.getStringAttribute('method');
   }
@@ -9237,7 +9237,7 @@ export class CeCostCategorySplitChargeRuleOutputReference extends cdktn.ComplexO
   }
 
   // source - computed: false, optional: false, required: true
-  private _source?: string;
+  private _source?: string; 
   public get source() {
     return this.getStringAttribute('source');
   }
@@ -9250,7 +9250,7 @@ export class CeCostCategorySplitChargeRuleOutputReference extends cdktn.ComplexO
   }
 
   // targets - computed: false, optional: false, required: true
-  private _targets?: string[];
+  private _targets?: string[]; 
   public get targets() {
     return this.getListAttribute('targets');
   }
@@ -9370,7 +9370,7 @@ export class CeCostCategory extends cdktn.TerraformResource {
   }
 
   // default_value - computed: false, optional: true, required: false
-  private _defaultValue?: string;
+  private _defaultValue?: string; 
   public get defaultValue() {
     return this.getStringAttribute('default_value');
   }
@@ -9391,7 +9391,7 @@ export class CeCostCategory extends cdktn.TerraformResource {
   }
 
   // effective_start - computed: true, optional: true, required: false
-  private _effectiveStart?: string;
+  private _effectiveStart?: string; 
   public get effectiveStart() {
     return this.getStringAttribute('effective_start');
   }
@@ -9407,7 +9407,7 @@ export class CeCostCategory extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -9423,7 +9423,7 @@ export class CeCostCategory extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -9436,7 +9436,7 @@ export class CeCostCategory extends cdktn.TerraformResource {
   }
 
   // rule_version - computed: false, optional: false, required: true
-  private _ruleVersion?: string;
+  private _ruleVersion?: string; 
   public get ruleVersion() {
     return this.getStringAttribute('rule_version');
   }
@@ -9449,7 +9449,7 @@ export class CeCostCategory extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -9465,7 +9465,7 @@ export class CeCostCategory extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

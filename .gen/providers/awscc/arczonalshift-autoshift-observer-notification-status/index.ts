@@ -86,7 +86,7 @@ export class ArczonalshiftAutoshiftObserverNotificationStatus extends cdktn.Terr
   }
 
   // status - computed: false, optional: false, required: true
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }

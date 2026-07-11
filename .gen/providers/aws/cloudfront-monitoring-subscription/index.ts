@@ -94,7 +94,7 @@ export class CloudfrontMonitoringSubscriptionMonitoringSubscriptionRealtimeMetri
   }
 
   // realtime_metrics_subscription_status - computed: false, optional: false, required: true
-  private _realtimeMetricsSubscriptionStatus?: string;
+  private _realtimeMetricsSubscriptionStatus?: string; 
   public get realtimeMetricsSubscriptionStatus() {
     return this.getStringAttribute('realtime_metrics_subscription_status');
   }
@@ -250,7 +250,7 @@ export class CloudfrontMonitoringSubscription extends cdktn.TerraformResource {
   // ==========
 
   // distribution_id - computed: false, optional: false, required: true
-  private _distributionId?: string;
+  private _distributionId?: string; 
   public get distributionId() {
     return this.getStringAttribute('distribution_id');
   }
@@ -263,7 +263,7 @@ export class CloudfrontMonitoringSubscription extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }

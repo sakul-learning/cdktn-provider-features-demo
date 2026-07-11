@@ -76,7 +76,7 @@ export class IamRolePoliciesExclusive extends cdktn.TerraformResource {
   // ==========
 
   // policy_names - computed: false, optional: false, required: true
-  private _policyNames?: string[];
+  private _policyNames?: string[]; 
   public get policyNames() {
     return cdktn.Fn.tolist(this.getListAttribute('policy_names'));
   }
@@ -89,7 +89,7 @@ export class IamRolePoliciesExclusive extends cdktn.TerraformResource {
   }
 
   // role_name - computed: false, optional: false, required: true
-  private _roleName?: string;
+  private _roleName?: string; 
   public get roleName() {
     return this.getStringAttribute('role_name');
   }

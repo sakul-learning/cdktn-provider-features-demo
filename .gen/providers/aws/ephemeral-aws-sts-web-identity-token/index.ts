@@ -76,7 +76,7 @@ export class EphemeralAwsStsWebIdentityToken extends cdktn.TerraformEphemeralRes
   // ==========
 
   // audience - computed: false, optional: false, required: true
-  private _audience?: string[];
+  private _audience?: string[]; 
   public get audience() {
     return cdktn.Fn.tolist(this.getListAttribute('audience'));
   }
@@ -89,7 +89,7 @@ export class EphemeralAwsStsWebIdentityToken extends cdktn.TerraformEphemeralRes
   }
 
   // duration_seconds - computed: false, optional: true, required: false
-  private _durationSeconds?: number;
+  private _durationSeconds?: number; 
   public get durationSeconds() {
     return this.getNumberAttribute('duration_seconds');
   }
@@ -110,7 +110,7 @@ export class EphemeralAwsStsWebIdentityToken extends cdktn.TerraformEphemeralRes
   }
 
   // signing_algorithm - computed: false, optional: false, required: true
-  private _signingAlgorithm?: string;
+  private _signingAlgorithm?: string; 
   public get signingAlgorithm() {
     return this.getStringAttribute('signing_algorithm');
   }
@@ -123,7 +123,7 @@ export class EphemeralAwsStsWebIdentityToken extends cdktn.TerraformEphemeralRes
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

@@ -113,7 +113,7 @@ export class IotAccountAuditConfigurationAuditCheckConfigurationsAuthenticatedCo
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -209,7 +209,7 @@ export class IotAccountAuditConfigurationAuditCheckConfigurationsCaCertificateEx
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -305,7 +305,7 @@ export class IotAccountAuditConfigurationAuditCheckConfigurationsCaCertificateKe
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -401,7 +401,7 @@ export class IotAccountAuditConfigurationAuditCheckConfigurationsConflictingClie
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -497,7 +497,7 @@ export class IotAccountAuditConfigurationAuditCheckConfigurationsDeviceCertifica
   }
 
   // cert_age_threshold_in_days - computed: true, optional: true, required: false
-  private _certAgeThresholdInDays?: string;
+  private _certAgeThresholdInDays?: string; 
   public get certAgeThresholdInDays() {
     return this.getStringAttribute('cert_age_threshold_in_days');
   }
@@ -628,7 +628,7 @@ export class IotAccountAuditConfigurationAuditCheckConfigurationsDeviceCertifica
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -724,7 +724,7 @@ export class IotAccountAuditConfigurationAuditCheckConfigurationsDeviceCertifica
   }
 
   // cert_expiration_threshold_in_days - computed: true, optional: true, required: false
-  private _certExpirationThresholdInDays?: string;
+  private _certExpirationThresholdInDays?: string; 
   public get certExpirationThresholdInDays() {
     return this.getStringAttribute('cert_expiration_threshold_in_days');
   }
@@ -855,7 +855,7 @@ export class IotAccountAuditConfigurationAuditCheckConfigurationsDeviceCertifica
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -951,7 +951,7 @@ export class IotAccountAuditConfigurationAuditCheckConfigurationsDeviceCertifica
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -1047,7 +1047,7 @@ export class IotAccountAuditConfigurationAuditCheckConfigurationsDeviceCertifica
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -1143,7 +1143,7 @@ export class IotAccountAuditConfigurationAuditCheckConfigurationsIntermediateCaR
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -1239,7 +1239,7 @@ export class IotAccountAuditConfigurationAuditCheckConfigurationsIoTPolicyPotent
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -1335,7 +1335,7 @@ export class IotAccountAuditConfigurationAuditCheckConfigurationsIotPolicyOverly
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -1431,7 +1431,7 @@ export class IotAccountAuditConfigurationAuditCheckConfigurationsIotRoleAliasAll
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -1527,7 +1527,7 @@ export class IotAccountAuditConfigurationAuditCheckConfigurationsIotRoleAliasOve
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -1623,7 +1623,7 @@ export class IotAccountAuditConfigurationAuditCheckConfigurationsLoggingDisabled
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -1719,7 +1719,7 @@ export class IotAccountAuditConfigurationAuditCheckConfigurationsRevokedCaCertif
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -1815,7 +1815,7 @@ export class IotAccountAuditConfigurationAuditCheckConfigurationsRevokedDeviceCe
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -1911,7 +1911,7 @@ export class IotAccountAuditConfigurationAuditCheckConfigurationsUnauthenticated
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -2701,7 +2701,7 @@ export class IotAccountAuditConfigurationAuditNotificationTargetConfigurationsSn
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -2717,7 +2717,7 @@ export class IotAccountAuditConfigurationAuditNotificationTargetConfigurationsSn
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -2733,7 +2733,7 @@ export class IotAccountAuditConfigurationAuditNotificationTargetConfigurationsSn
   }
 
   // target_arn - computed: true, optional: true, required: false
-  private _targetArn?: string;
+  private _targetArn?: string; 
   public get targetArn() {
     return this.getStringAttribute('target_arn');
   }
@@ -2904,7 +2904,7 @@ export class IotAccountAuditConfiguration extends cdktn.TerraformResource {
   // ==========
 
   // account_id - computed: false, optional: false, required: true
-  private _accountId?: string;
+  private _accountId?: string; 
   public get accountId() {
     return this.getStringAttribute('account_id');
   }
@@ -2951,7 +2951,7 @@ export class IotAccountAuditConfiguration extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }

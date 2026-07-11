@@ -376,7 +376,7 @@ export class DataAwsIamPrincipalPolicySimulationContextOutputReference extends c
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -389,7 +389,7 @@ export class DataAwsIamPrincipalPolicySimulationContextOutputReference extends c
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -402,7 +402,7 @@ export class DataAwsIamPrincipalPolicySimulationContextOutputReference extends c
   }
 
   // values - computed: false, optional: false, required: true
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -502,7 +502,7 @@ export class DataAwsIamPrincipalPolicySimulation extends cdktn.TerraformDataSour
   // ==========
 
   // action_names - computed: false, optional: false, required: true
-  private _actionNames?: string[];
+  private _actionNames?: string[]; 
   public get actionNames() {
     return cdktn.Fn.tolist(this.getListAttribute('action_names'));
   }
@@ -515,7 +515,7 @@ export class DataAwsIamPrincipalPolicySimulation extends cdktn.TerraformDataSour
   }
 
   // additional_policies_json - computed: false, optional: true, required: false
-  private _additionalPoliciesJson?: string[];
+  private _additionalPoliciesJson?: string[]; 
   public get additionalPoliciesJson() {
     return cdktn.Fn.tolist(this.getListAttribute('additional_policies_json'));
   }
@@ -536,7 +536,7 @@ export class DataAwsIamPrincipalPolicySimulation extends cdktn.TerraformDataSour
   }
 
   // caller_arn - computed: false, optional: true, required: false
-  private _callerArn?: string;
+  private _callerArn?: string; 
   public get callerArn() {
     return this.getStringAttribute('caller_arn');
   }
@@ -557,7 +557,7 @@ export class DataAwsIamPrincipalPolicySimulation extends cdktn.TerraformDataSour
   }
 
   // permissions_boundary_policies_json - computed: false, optional: true, required: false
-  private _permissionsBoundaryPoliciesJson?: string[];
+  private _permissionsBoundaryPoliciesJson?: string[]; 
   public get permissionsBoundaryPoliciesJson() {
     return cdktn.Fn.tolist(this.getListAttribute('permissions_boundary_policies_json'));
   }
@@ -573,7 +573,7 @@ export class DataAwsIamPrincipalPolicySimulation extends cdktn.TerraformDataSour
   }
 
   // policy_source_arn - computed: false, optional: false, required: true
-  private _policySourceArn?: string;
+  private _policySourceArn?: string; 
   public get policySourceArn() {
     return this.getStringAttribute('policy_source_arn');
   }
@@ -586,7 +586,7 @@ export class DataAwsIamPrincipalPolicySimulation extends cdktn.TerraformDataSour
   }
 
   // resource_arns - computed: false, optional: true, required: false
-  private _resourceArns?: string[];
+  private _resourceArns?: string[]; 
   public get resourceArns() {
     return cdktn.Fn.tolist(this.getListAttribute('resource_arns'));
   }
@@ -602,7 +602,7 @@ export class DataAwsIamPrincipalPolicySimulation extends cdktn.TerraformDataSour
   }
 
   // resource_handling_option - computed: false, optional: true, required: false
-  private _resourceHandlingOption?: string;
+  private _resourceHandlingOption?: string; 
   public get resourceHandlingOption() {
     return this.getStringAttribute('resource_handling_option');
   }
@@ -618,7 +618,7 @@ export class DataAwsIamPrincipalPolicySimulation extends cdktn.TerraformDataSour
   }
 
   // resource_owner_account_id - computed: false, optional: true, required: false
-  private _resourceOwnerAccountId?: string;
+  private _resourceOwnerAccountId?: string; 
   public get resourceOwnerAccountId() {
     return this.getStringAttribute('resource_owner_account_id');
   }
@@ -634,7 +634,7 @@ export class DataAwsIamPrincipalPolicySimulation extends cdktn.TerraformDataSour
   }
 
   // resource_policy_json - computed: false, optional: true, required: false
-  private _resourcePolicyJson?: string;
+  private _resourcePolicyJson?: string; 
   public get resourcePolicyJson() {
     return this.getStringAttribute('resource_policy_json');
   }

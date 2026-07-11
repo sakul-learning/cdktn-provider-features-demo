@@ -107,7 +107,7 @@ export class SecurityhubPolicyAssociation extends cdktn.TerraformResource {
   }
 
   // configuration_policy_id - computed: false, optional: false, required: true
-  private _configurationPolicyId?: string;
+  private _configurationPolicyId?: string; 
   public get configurationPolicyId() {
     return this.getStringAttribute('configuration_policy_id');
   }
@@ -125,7 +125,7 @@ export class SecurityhubPolicyAssociation extends cdktn.TerraformResource {
   }
 
   // target_id - computed: false, optional: false, required: true
-  private _targetId?: string;
+  private _targetId?: string; 
   public get targetId() {
     return this.getStringAttribute('target_id');
   }
@@ -138,7 +138,7 @@ export class SecurityhubPolicyAssociation extends cdktn.TerraformResource {
   }
 
   // target_type - computed: false, optional: false, required: true
-  private _targetType?: string;
+  private _targetType?: string; 
   public get targetType() {
     return this.getStringAttribute('target_type');
   }

@@ -188,7 +188,7 @@ export class EcsClusterConfigurationExecuteCommandConfigurationLogConfigurationO
   }
 
   // cloud_watch_encryption_enabled - computed: false, optional: true, required: false
-  private _cloudWatchEncryptionEnabled?: boolean | cdktn.IResolvable;
+  private _cloudWatchEncryptionEnabled?: boolean | cdktn.IResolvable; 
   public get cloudWatchEncryptionEnabled() {
     return this.getBooleanAttribute('cloud_watch_encryption_enabled');
   }
@@ -204,7 +204,7 @@ export class EcsClusterConfigurationExecuteCommandConfigurationLogConfigurationO
   }
 
   // cloud_watch_log_group_name - computed: false, optional: true, required: false
-  private _cloudWatchLogGroupName?: string;
+  private _cloudWatchLogGroupName?: string; 
   public get cloudWatchLogGroupName() {
     return this.getStringAttribute('cloud_watch_log_group_name');
   }
@@ -220,7 +220,7 @@ export class EcsClusterConfigurationExecuteCommandConfigurationLogConfigurationO
   }
 
   // s3_bucket_encryption_enabled - computed: false, optional: true, required: false
-  private _s3BucketEncryptionEnabled?: boolean | cdktn.IResolvable;
+  private _s3BucketEncryptionEnabled?: boolean | cdktn.IResolvable; 
   public get s3BucketEncryptionEnabled() {
     return this.getBooleanAttribute('s3_bucket_encryption_enabled');
   }
@@ -236,7 +236,7 @@ export class EcsClusterConfigurationExecuteCommandConfigurationLogConfigurationO
   }
 
   // s3_bucket_name - computed: false, optional: true, required: false
-  private _s3BucketName?: string;
+  private _s3BucketName?: string; 
   public get s3BucketName() {
     return this.getStringAttribute('s3_bucket_name');
   }
@@ -252,7 +252,7 @@ export class EcsClusterConfigurationExecuteCommandConfigurationLogConfigurationO
   }
 
   // s3_key_prefix - computed: false, optional: true, required: false
-  private _s3KeyPrefix?: string;
+  private _s3KeyPrefix?: string; 
   public get s3KeyPrefix() {
     return this.getStringAttribute('s3_key_prefix');
   }
@@ -372,7 +372,7 @@ export class EcsClusterConfigurationExecuteCommandConfigurationOutputReference e
   }
 
   // kms_key_id - computed: false, optional: true, required: false
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -388,7 +388,7 @@ export class EcsClusterConfigurationExecuteCommandConfigurationOutputReference e
   }
 
   // logging - computed: false, optional: true, required: false
-  private _logging?: string;
+  private _logging?: string; 
   public get logging() {
     return this.getStringAttribute('logging');
   }
@@ -505,7 +505,7 @@ export class EcsClusterConfigurationManagedStorageConfigurationOutputReference e
   }
 
   // fargate_ephemeral_storage_kms_key_id - computed: false, optional: true, required: false
-  private _fargateEphemeralStorageKmsKeyId?: string;
+  private _fargateEphemeralStorageKmsKeyId?: string; 
   public get fargateEphemeralStorageKmsKeyId() {
     return this.getStringAttribute('fargate_ephemeral_storage_kms_key_id');
   }
@@ -521,7 +521,7 @@ export class EcsClusterConfigurationManagedStorageConfigurationOutputReference e
   }
 
   // kms_key_id - computed: false, optional: true, required: false
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -726,7 +726,7 @@ export class EcsClusterServiceConnectDefaultsOutputReference extends cdktn.Compl
   }
 
   // namespace - computed: false, optional: false, required: true
-  private _namespace?: string;
+  private _namespace?: string; 
   public get namespace() {
     return this.getStringAttribute('namespace');
   }
@@ -836,7 +836,7 @@ export class EcsClusterSettingOutputReference extends cdktn.ComplexObject {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -849,7 +849,7 @@ export class EcsClusterSettingOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -952,7 +952,7 @@ export class EcsCluster extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -968,7 +968,7 @@ export class EcsCluster extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -981,7 +981,7 @@ export class EcsCluster extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -997,7 +997,7 @@ export class EcsCluster extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -1013,7 +1013,7 @@ export class EcsCluster extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

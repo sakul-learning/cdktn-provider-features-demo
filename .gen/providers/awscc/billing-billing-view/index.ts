@@ -128,7 +128,7 @@ export class BillingBillingViewDataFilterExpressionDimensionsOutputReference ext
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -144,7 +144,7 @@ export class BillingBillingViewDataFilterExpressionDimensionsOutputReference ext
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -255,7 +255,7 @@ export class BillingBillingViewDataFilterExpressionTagsOutputReference extends c
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -271,7 +271,7 @@ export class BillingBillingViewDataFilterExpressionTagsOutputReference extends c
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -386,7 +386,7 @@ export class BillingBillingViewDataFilterExpressionTimeRangeOutputReference exte
   }
 
   // begin_date_inclusive - computed: true, optional: true, required: false
-  private _beginDateInclusive?: string;
+  private _beginDateInclusive?: string; 
   public get beginDateInclusive() {
     return this.getStringAttribute('begin_date_inclusive');
   }
@@ -402,7 +402,7 @@ export class BillingBillingViewDataFilterExpressionTimeRangeOutputReference exte
   }
 
   // end_date_inclusive - computed: true, optional: true, required: false
-  private _endDateInclusive?: string;
+  private _endDateInclusive?: string; 
   public get endDateInclusive() {
     return this.getStringAttribute('end_date_inclusive');
   }
@@ -679,7 +679,7 @@ export class BillingBillingViewTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -695,7 +695,7 @@ export class BillingBillingViewTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -824,7 +824,7 @@ export class BillingBillingView extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -845,7 +845,7 @@ export class BillingBillingView extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -863,7 +863,7 @@ export class BillingBillingView extends cdktn.TerraformResource {
   }
 
   // source_views - computed: false, optional: false, required: true
-  private _sourceViews?: string[];
+  private _sourceViews?: string[]; 
   public get sourceViews() {
     return cdktn.Fn.tolist(this.getListAttribute('source_views'));
   }

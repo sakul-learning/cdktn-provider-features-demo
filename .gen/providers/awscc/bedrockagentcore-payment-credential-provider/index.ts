@@ -132,7 +132,7 @@ export class BedrockagentcorePaymentCredentialProviderProviderConfigurationInput
   }
 
   // json_key - computed: true, optional: true, required: false
-  private _jsonKey?: string;
+  private _jsonKey?: string; 
   public get jsonKey() {
     return this.getStringAttribute('json_key');
   }
@@ -148,7 +148,7 @@ export class BedrockagentcorePaymentCredentialProviderProviderConfigurationInput
   }
 
   // secret_id - computed: true, optional: true, required: false
-  private _secretId?: string;
+  private _secretId?: string; 
   public get secretId() {
     return this.getStringAttribute('secret_id');
   }
@@ -263,7 +263,7 @@ export class BedrockagentcorePaymentCredentialProviderProviderConfigurationInput
   }
 
   // json_key - computed: true, optional: true, required: false
-  private _jsonKey?: string;
+  private _jsonKey?: string; 
   public get jsonKey() {
     return this.getStringAttribute('json_key');
   }
@@ -279,7 +279,7 @@ export class BedrockagentcorePaymentCredentialProviderProviderConfigurationInput
   }
 
   // secret_id - computed: true, optional: true, required: false
-  private _secretId?: string;
+  private _secretId?: string; 
   public get secretId() {
     return this.getStringAttribute('secret_id');
   }
@@ -489,7 +489,7 @@ export class BedrockagentcorePaymentCredentialProviderProviderConfigurationInput
   }
 
   // api_key_id - computed: true, optional: true, required: false
-  private _apiKeyId?: string;
+  private _apiKeyId?: string; 
   public get apiKeyId() {
     return this.getStringAttribute('api_key_id');
   }
@@ -505,7 +505,7 @@ export class BedrockagentcorePaymentCredentialProviderProviderConfigurationInput
   }
 
   // api_key_secret - computed: true, optional: true, required: false
-  private _apiKeySecret?: string;
+  private _apiKeySecret?: string; 
   public get apiKeySecret() {
     return this.getStringAttribute('api_key_secret');
   }
@@ -537,7 +537,7 @@ export class BedrockagentcorePaymentCredentialProviderProviderConfigurationInput
   }
 
   // api_key_secret_source - computed: true, optional: true, required: false
-  private _apiKeySecretSource?: string;
+  private _apiKeySecretSource?: string; 
   public get apiKeySecretSource() {
     return this.getStringAttribute('api_key_secret_source');
   }
@@ -553,7 +553,7 @@ export class BedrockagentcorePaymentCredentialProviderProviderConfigurationInput
   }
 
   // wallet_secret - computed: true, optional: true, required: false
-  private _walletSecret?: string;
+  private _walletSecret?: string; 
   public get walletSecret() {
     return this.getStringAttribute('wallet_secret');
   }
@@ -585,7 +585,7 @@ export class BedrockagentcorePaymentCredentialProviderProviderConfigurationInput
   }
 
   // wallet_secret_source - computed: true, optional: true, required: false
-  private _walletSecretSource?: string;
+  private _walletSecretSource?: string; 
   public get walletSecretSource() {
     return this.getStringAttribute('wallet_secret_source');
   }
@@ -700,7 +700,7 @@ export class BedrockagentcorePaymentCredentialProviderProviderConfigurationInput
   }
 
   // json_key - computed: true, optional: true, required: false
-  private _jsonKey?: string;
+  private _jsonKey?: string; 
   public get jsonKey() {
     return this.getStringAttribute('json_key');
   }
@@ -716,7 +716,7 @@ export class BedrockagentcorePaymentCredentialProviderProviderConfigurationInput
   }
 
   // secret_id - computed: true, optional: true, required: false
-  private _secretId?: string;
+  private _secretId?: string; 
   public get secretId() {
     return this.getStringAttribute('secret_id');
   }
@@ -831,7 +831,7 @@ export class BedrockagentcorePaymentCredentialProviderProviderConfigurationInput
   }
 
   // json_key - computed: true, optional: true, required: false
-  private _jsonKey?: string;
+  private _jsonKey?: string; 
   public get jsonKey() {
     return this.getStringAttribute('json_key');
   }
@@ -847,7 +847,7 @@ export class BedrockagentcorePaymentCredentialProviderProviderConfigurationInput
   }
 
   // secret_id - computed: true, optional: true, required: false
-  private _secretId?: string;
+  private _secretId?: string; 
   public get secretId() {
     return this.getStringAttribute('secret_id');
   }
@@ -1076,7 +1076,7 @@ export class BedrockagentcorePaymentCredentialProviderProviderConfigurationInput
   }
 
   // app_id - computed: true, optional: true, required: false
-  private _appId?: string;
+  private _appId?: string; 
   public get appId() {
     return this.getStringAttribute('app_id');
   }
@@ -1092,7 +1092,7 @@ export class BedrockagentcorePaymentCredentialProviderProviderConfigurationInput
   }
 
   // app_secret - computed: true, optional: true, required: false
-  private _appSecret?: string;
+  private _appSecret?: string; 
   public get appSecret() {
     return this.getStringAttribute('app_secret');
   }
@@ -1124,7 +1124,7 @@ export class BedrockagentcorePaymentCredentialProviderProviderConfigurationInput
   }
 
   // app_secret_source - computed: true, optional: true, required: false
-  private _appSecretSource?: string;
+  private _appSecretSource?: string; 
   public get appSecretSource() {
     return this.getStringAttribute('app_secret_source');
   }
@@ -1140,7 +1140,7 @@ export class BedrockagentcorePaymentCredentialProviderProviderConfigurationInput
   }
 
   // authorization_id - computed: true, optional: true, required: false
-  private _authorizationId?: string;
+  private _authorizationId?: string; 
   public get authorizationId() {
     return this.getStringAttribute('authorization_id');
   }
@@ -1156,7 +1156,7 @@ export class BedrockagentcorePaymentCredentialProviderProviderConfigurationInput
   }
 
   // authorization_private_key - computed: true, optional: true, required: false
-  private _authorizationPrivateKey?: string;
+  private _authorizationPrivateKey?: string; 
   public get authorizationPrivateKey() {
     return this.getStringAttribute('authorization_private_key');
   }
@@ -1188,7 +1188,7 @@ export class BedrockagentcorePaymentCredentialProviderProviderConfigurationInput
   }
 
   // authorization_private_key_source - computed: true, optional: true, required: false
-  private _authorizationPrivateKeySource?: string;
+  private _authorizationPrivateKeySource?: string; 
   public get authorizationPrivateKeySource() {
     return this.getStringAttribute('authorization_private_key_source');
   }
@@ -1886,7 +1886,7 @@ export class BedrockagentcorePaymentCredentialProviderTagsOutputReference extend
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1902,7 +1902,7 @@ export class BedrockagentcorePaymentCredentialProviderTagsOutputReference extend
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2009,7 +2009,7 @@ export class BedrockagentcorePaymentCredentialProvider extends cdktn.TerraformRe
   }
 
   // credential_provider_vendor - computed: false, optional: false, required: true
-  private _credentialProviderVendor?: string;
+  private _credentialProviderVendor?: string; 
   public get credentialProviderVendor() {
     return this.getStringAttribute('credential_provider_vendor');
   }
@@ -2032,7 +2032,7 @@ export class BedrockagentcorePaymentCredentialProvider extends cdktn.TerraformRe
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }

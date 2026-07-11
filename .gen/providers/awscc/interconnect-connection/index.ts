@@ -156,7 +156,7 @@ export class InterconnectConnectionAttachPointOutputReference extends cdktn.Comp
   }
 
   // arn - computed: true, optional: true, required: false
-  private _arn?: string;
+  private _arn?: string; 
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -172,7 +172,7 @@ export class InterconnectConnectionAttachPointOutputReference extends cdktn.Comp
   }
 
   // direct_connect_gateway - computed: true, optional: true, required: false
-  private _directConnectGateway?: string;
+  private _directConnectGateway?: string; 
   public get directConnectGateway() {
     return this.getStringAttribute('direct_connect_gateway');
   }
@@ -327,7 +327,7 @@ export class InterconnectConnectionRemoteAccountOutputReference extends cdktn.Co
   }
 
   // identifier - computed: true, optional: true, required: false
-  private _identifier?: string;
+  private _identifier?: string; 
   public get identifier() {
     return this.getStringAttribute('identifier');
   }
@@ -444,7 +444,7 @@ export class InterconnectConnectionTagsOutputReference extends cdktn.ComplexObje
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -460,7 +460,7 @@ export class InterconnectConnectionTagsOutputReference extends cdktn.ComplexObje
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -561,7 +561,7 @@ export class InterconnectConnection extends cdktn.TerraformResource {
   // ==========
 
   // activation_key - computed: true, optional: true, required: false
-  private _activationKey?: string;
+  private _activationKey?: string; 
   public get activationKey() {
     return this.getStringAttribute('activation_key');
   }
@@ -595,7 +595,7 @@ export class InterconnectConnection extends cdktn.TerraformResource {
   }
 
   // bandwidth - computed: true, optional: true, required: false
-  private _bandwidth?: string;
+  private _bandwidth?: string; 
   public get bandwidth() {
     return this.getStringAttribute('bandwidth');
   }
@@ -621,7 +621,7 @@ export class InterconnectConnection extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -637,7 +637,7 @@ export class InterconnectConnection extends cdktn.TerraformResource {
   }
 
   // environment_id - computed: true, optional: true, required: false
-  private _environmentId?: string;
+  private _environmentId?: string; 
   public get environmentId() {
     return this.getStringAttribute('environment_id');
   }
@@ -685,7 +685,7 @@ export class InterconnectConnection extends cdktn.TerraformResource {
   }
 
   // remote_owner_account - computed: true, optional: true, required: false
-  private _remoteOwnerAccount?: string;
+  private _remoteOwnerAccount?: string; 
   public get remoteOwnerAccount() {
     return this.getStringAttribute('remote_owner_account');
   }

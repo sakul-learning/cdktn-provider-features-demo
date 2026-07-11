@@ -148,7 +148,7 @@ export class BedrockagentcoreMemoryStrategyConfigurationConsolidationOutputRefer
   }
 
   // append_to_prompt - computed: false, optional: false, required: true
-  private _appendToPrompt?: string;
+  private _appendToPrompt?: string; 
   public get appendToPrompt() {
     return this.getStringAttribute('append_to_prompt');
   }
@@ -161,7 +161,7 @@ export class BedrockagentcoreMemoryStrategyConfigurationConsolidationOutputRefer
   }
 
   // model_id - computed: false, optional: false, required: true
-  private _modelId?: string;
+  private _modelId?: string; 
   public get modelId() {
     return this.getStringAttribute('model_id');
   }
@@ -291,7 +291,7 @@ export class BedrockagentcoreMemoryStrategyConfigurationExtractionOutputReferenc
   }
 
   // append_to_prompt - computed: false, optional: false, required: true
-  private _appendToPrompt?: string;
+  private _appendToPrompt?: string; 
   public get appendToPrompt() {
     return this.getStringAttribute('append_to_prompt');
   }
@@ -304,7 +304,7 @@ export class BedrockagentcoreMemoryStrategyConfigurationExtractionOutputReferenc
   }
 
   // model_id - computed: false, optional: false, required: true
-  private _modelId?: string;
+  private _modelId?: string; 
   public get modelId() {
     return this.getStringAttribute('model_id');
   }
@@ -455,7 +455,7 @@ export class BedrockagentcoreMemoryStrategyConfigurationOutputReference extends 
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -638,7 +638,7 @@ export class BedrockagentcoreMemoryStrategyTimeoutsOutputReference extends cdktn
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -654,7 +654,7 @@ export class BedrockagentcoreMemoryStrategyTimeoutsOutputReference extends cdktn
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -670,7 +670,7 @@ export class BedrockagentcoreMemoryStrategyTimeoutsOutputReference extends cdktn
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -752,7 +752,7 @@ export class BedrockagentcoreMemoryStrategy extends cdktn.TerraformResource {
   // ==========
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -768,7 +768,7 @@ export class BedrockagentcoreMemoryStrategy extends cdktn.TerraformResource {
   }
 
   // memory_execution_role_arn - computed: false, optional: true, required: false
-  private _memoryExecutionRoleArn?: string;
+  private _memoryExecutionRoleArn?: string; 
   public get memoryExecutionRoleArn() {
     return this.getStringAttribute('memory_execution_role_arn');
   }
@@ -784,7 +784,7 @@ export class BedrockagentcoreMemoryStrategy extends cdktn.TerraformResource {
   }
 
   // memory_id - computed: false, optional: false, required: true
-  private _memoryId?: string;
+  private _memoryId?: string; 
   public get memoryId() {
     return this.getStringAttribute('memory_id');
   }
@@ -802,7 +802,7 @@ export class BedrockagentcoreMemoryStrategy extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -815,7 +815,7 @@ export class BedrockagentcoreMemoryStrategy extends cdktn.TerraformResource {
   }
 
   // namespaces - computed: false, optional: false, required: true
-  private _namespaces?: string[];
+  private _namespaces?: string[]; 
   public get namespaces() {
     return cdktn.Fn.tolist(this.getListAttribute('namespaces'));
   }
@@ -828,7 +828,7 @@ export class BedrockagentcoreMemoryStrategy extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -844,7 +844,7 @@ export class BedrockagentcoreMemoryStrategy extends cdktn.TerraformResource {
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }

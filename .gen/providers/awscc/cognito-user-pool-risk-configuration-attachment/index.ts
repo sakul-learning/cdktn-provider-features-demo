@@ -124,7 +124,7 @@ export class CognitoUserPoolRiskConfigurationAttachmentAccountTakeoverRiskConfig
   }
 
   // event_action - computed: true, optional: true, required: false
-  private _eventAction?: string;
+  private _eventAction?: string; 
   public get eventAction() {
     return this.getStringAttribute('event_action');
   }
@@ -140,7 +140,7 @@ export class CognitoUserPoolRiskConfigurationAttachmentAccountTakeoverRiskConfig
   }
 
   // notify - computed: true, optional: true, required: false
-  private _notify?: boolean | cdktn.IResolvable;
+  private _notify?: boolean | cdktn.IResolvable; 
   public get notify() {
     return this.getBooleanAttribute('notify');
   }
@@ -251,7 +251,7 @@ export class CognitoUserPoolRiskConfigurationAttachmentAccountTakeoverRiskConfig
   }
 
   // event_action - computed: true, optional: true, required: false
-  private _eventAction?: string;
+  private _eventAction?: string; 
   public get eventAction() {
     return this.getStringAttribute('event_action');
   }
@@ -267,7 +267,7 @@ export class CognitoUserPoolRiskConfigurationAttachmentAccountTakeoverRiskConfig
   }
 
   // notify - computed: true, optional: true, required: false
-  private _notify?: boolean | cdktn.IResolvable;
+  private _notify?: boolean | cdktn.IResolvable; 
   public get notify() {
     return this.getBooleanAttribute('notify');
   }
@@ -378,7 +378,7 @@ export class CognitoUserPoolRiskConfigurationAttachmentAccountTakeoverRiskConfig
   }
 
   // event_action - computed: true, optional: true, required: false
-  private _eventAction?: string;
+  private _eventAction?: string; 
   public get eventAction() {
     return this.getStringAttribute('event_action');
   }
@@ -394,7 +394,7 @@ export class CognitoUserPoolRiskConfigurationAttachmentAccountTakeoverRiskConfig
   }
 
   // notify - computed: true, optional: true, required: false
-  private _notify?: boolean | cdktn.IResolvable;
+  private _notify?: boolean | cdktn.IResolvable; 
   public get notify() {
     return this.getBooleanAttribute('notify');
   }
@@ -682,7 +682,7 @@ export class CognitoUserPoolRiskConfigurationAttachmentAccountTakeoverRiskConfig
   }
 
   // html_body - computed: true, optional: true, required: false
-  private _htmlBody?: string;
+  private _htmlBody?: string; 
   public get htmlBody() {
     return this.getStringAttribute('html_body');
   }
@@ -698,7 +698,7 @@ export class CognitoUserPoolRiskConfigurationAttachmentAccountTakeoverRiskConfig
   }
 
   // subject - computed: true, optional: true, required: false
-  private _subject?: string;
+  private _subject?: string; 
   public get subject() {
     return this.getStringAttribute('subject');
   }
@@ -714,7 +714,7 @@ export class CognitoUserPoolRiskConfigurationAttachmentAccountTakeoverRiskConfig
   }
 
   // text_body - computed: true, optional: true, required: false
-  private _textBody?: string;
+  private _textBody?: string; 
   public get textBody() {
     return this.getStringAttribute('text_body');
   }
@@ -842,7 +842,7 @@ export class CognitoUserPoolRiskConfigurationAttachmentAccountTakeoverRiskConfig
   }
 
   // html_body - computed: true, optional: true, required: false
-  private _htmlBody?: string;
+  private _htmlBody?: string; 
   public get htmlBody() {
     return this.getStringAttribute('html_body');
   }
@@ -858,7 +858,7 @@ export class CognitoUserPoolRiskConfigurationAttachmentAccountTakeoverRiskConfig
   }
 
   // subject - computed: true, optional: true, required: false
-  private _subject?: string;
+  private _subject?: string; 
   public get subject() {
     return this.getStringAttribute('subject');
   }
@@ -874,7 +874,7 @@ export class CognitoUserPoolRiskConfigurationAttachmentAccountTakeoverRiskConfig
   }
 
   // text_body - computed: true, optional: true, required: false
-  private _textBody?: string;
+  private _textBody?: string; 
   public get textBody() {
     return this.getStringAttribute('text_body');
   }
@@ -1002,7 +1002,7 @@ export class CognitoUserPoolRiskConfigurationAttachmentAccountTakeoverRiskConfig
   }
 
   // html_body - computed: true, optional: true, required: false
-  private _htmlBody?: string;
+  private _htmlBody?: string; 
   public get htmlBody() {
     return this.getStringAttribute('html_body');
   }
@@ -1018,7 +1018,7 @@ export class CognitoUserPoolRiskConfigurationAttachmentAccountTakeoverRiskConfig
   }
 
   // subject - computed: true, optional: true, required: false
-  private _subject?: string;
+  private _subject?: string; 
   public get subject() {
     return this.getStringAttribute('subject');
   }
@@ -1034,7 +1034,7 @@ export class CognitoUserPoolRiskConfigurationAttachmentAccountTakeoverRiskConfig
   }
 
   // text_body - computed: true, optional: true, required: false
-  private _textBody?: string;
+  private _textBody?: string; 
   public get textBody() {
     return this.getStringAttribute('text_body');
   }
@@ -1229,7 +1229,7 @@ export class CognitoUserPoolRiskConfigurationAttachmentAccountTakeoverRiskConfig
   }
 
   // from - computed: true, optional: true, required: false
-  private _from?: string;
+  private _from?: string; 
   public get from() {
     return this.getStringAttribute('from');
   }
@@ -1277,7 +1277,7 @@ export class CognitoUserPoolRiskConfigurationAttachmentAccountTakeoverRiskConfig
   }
 
   // reply_to - computed: true, optional: true, required: false
-  private _replyTo?: string;
+  private _replyTo?: string; 
   public get replyTo() {
     return this.getStringAttribute('reply_to');
   }
@@ -1293,7 +1293,7 @@ export class CognitoUserPoolRiskConfigurationAttachmentAccountTakeoverRiskConfig
   }
 
   // source_arn - computed: true, optional: true, required: false
-  private _sourceArn?: string;
+  private _sourceArn?: string; 
   public get sourceArn() {
     return this.getStringAttribute('source_arn');
   }
@@ -1514,7 +1514,7 @@ export class CognitoUserPoolRiskConfigurationAttachmentCompromisedCredentialsRis
   }
 
   // event_action - computed: true, optional: true, required: false
-  private _eventAction?: string;
+  private _eventAction?: string; 
   public get eventAction() {
     return this.getStringAttribute('event_action');
   }
@@ -1641,7 +1641,7 @@ export class CognitoUserPoolRiskConfigurationAttachmentCompromisedCredentialsRis
   }
 
   // event_filter - computed: true, optional: true, required: false
-  private _eventFilter?: string[];
+  private _eventFilter?: string[]; 
   public get eventFilter() {
     return this.getListAttribute('event_filter');
   }
@@ -1752,7 +1752,7 @@ export class CognitoUserPoolRiskConfigurationAttachmentRiskExceptionConfiguratio
   }
 
   // blocked_ip_range_list - computed: true, optional: true, required: false
-  private _blockedIpRangeList?: string[];
+  private _blockedIpRangeList?: string[]; 
   public get blockedIpRangeList() {
     return this.getListAttribute('blocked_ip_range_list');
   }
@@ -1768,7 +1768,7 @@ export class CognitoUserPoolRiskConfigurationAttachmentRiskExceptionConfiguratio
   }
 
   // skipped_ip_range_list - computed: true, optional: true, required: false
-  private _skippedIpRangeList?: string[];
+  private _skippedIpRangeList?: string[]; 
   public get skippedIpRangeList() {
     return this.getListAttribute('skipped_ip_range_list');
   }
@@ -1862,7 +1862,7 @@ export class CognitoUserPoolRiskConfigurationAttachment extends cdktn.TerraformR
   }
 
   // client_id - computed: false, optional: false, required: true
-  private _clientId?: string;
+  private _clientId?: string; 
   public get clientId() {
     return this.getStringAttribute('client_id');
   }
@@ -1912,7 +1912,7 @@ export class CognitoUserPoolRiskConfigurationAttachment extends cdktn.TerraformR
   }
 
   // user_pool_id - computed: false, optional: false, required: true
-  private _userPoolId?: string;
+  private _userPoolId?: string; 
   public get userPoolId() {
     return this.getStringAttribute('user_pool_id');
   }

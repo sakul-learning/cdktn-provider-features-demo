@@ -152,7 +152,7 @@ export class NetworkmanagerTransitGatewayRouteTableAttachmentProposedNetworkFunc
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -168,7 +168,7 @@ export class NetworkmanagerTransitGatewayRouteTableAttachmentProposedNetworkFunc
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -322,7 +322,7 @@ export class NetworkmanagerTransitGatewayRouteTableAttachmentProposedNetworkFunc
   }
 
   // attachment_policy_rule_number - computed: true, optional: true, required: false
-  private _attachmentPolicyRuleNumber?: number;
+  private _attachmentPolicyRuleNumber?: number; 
   public get attachmentPolicyRuleNumber() {
     return this.getNumberAttribute('attachment_policy_rule_number');
   }
@@ -338,7 +338,7 @@ export class NetworkmanagerTransitGatewayRouteTableAttachmentProposedNetworkFunc
   }
 
   // network_function_group_name - computed: true, optional: true, required: false
-  private _networkFunctionGroupName?: string;
+  private _networkFunctionGroupName?: string; 
   public get networkFunctionGroupName() {
     return this.getStringAttribute('network_function_group_name');
   }
@@ -471,7 +471,7 @@ export class NetworkmanagerTransitGatewayRouteTableAttachmentProposedSegmentChan
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -487,7 +487,7 @@ export class NetworkmanagerTransitGatewayRouteTableAttachmentProposedSegmentChan
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -641,7 +641,7 @@ export class NetworkmanagerTransitGatewayRouteTableAttachmentProposedSegmentChan
   }
 
   // attachment_policy_rule_number - computed: true, optional: true, required: false
-  private _attachmentPolicyRuleNumber?: number;
+  private _attachmentPolicyRuleNumber?: number; 
   public get attachmentPolicyRuleNumber() {
     return this.getNumberAttribute('attachment_policy_rule_number');
   }
@@ -657,7 +657,7 @@ export class NetworkmanagerTransitGatewayRouteTableAttachmentProposedSegmentChan
   }
 
   // segment_name - computed: true, optional: true, required: false
-  private _segmentName?: string;
+  private _segmentName?: string; 
   public get segmentName() {
     return this.getStringAttribute('segment_name');
   }
@@ -790,7 +790,7 @@ export class NetworkmanagerTransitGatewayRouteTableAttachmentTagsOutputReference
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -806,7 +806,7 @@ export class NetworkmanagerTransitGatewayRouteTableAttachmentTagsOutputReference
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -951,7 +951,7 @@ export class NetworkmanagerTransitGatewayRouteTableAttachment extends cdktn.Terr
   }
 
   // network_function_group_name - computed: true, optional: true, required: false
-  private _networkFunctionGroupName?: string;
+  private _networkFunctionGroupName?: string; 
   public get networkFunctionGroupName() {
     return this.getStringAttribute('network_function_group_name');
   }
@@ -972,7 +972,7 @@ export class NetworkmanagerTransitGatewayRouteTableAttachment extends cdktn.Terr
   }
 
   // peering_id - computed: false, optional: false, required: true
-  private _peeringId?: string;
+  private _peeringId?: string; 
   public get peeringId() {
     return this.getStringAttribute('peering_id');
   }
@@ -1022,7 +1022,7 @@ export class NetworkmanagerTransitGatewayRouteTableAttachment extends cdktn.Terr
   }
 
   // routing_policy_label - computed: true, optional: true, required: false
-  private _routingPolicyLabel?: string;
+  private _routingPolicyLabel?: string; 
   public get routingPolicyLabel() {
     return this.getStringAttribute('routing_policy_label');
   }
@@ -1064,7 +1064,7 @@ export class NetworkmanagerTransitGatewayRouteTableAttachment extends cdktn.Terr
   }
 
   // transit_gateway_route_table_arn - computed: false, optional: false, required: true
-  private _transitGatewayRouteTableArn?: string;
+  private _transitGatewayRouteTableArn?: string; 
   public get transitGatewayRouteTableArn() {
     return this.getStringAttribute('transit_gateway_route_table_arn');
   }

@@ -83,7 +83,7 @@ export class WorkspaceswebUserAccessLoggingSettingsAssociation extends cdktn.Ter
   // ==========
 
   // portal_arn - computed: false, optional: false, required: true
-  private _portalArn?: string;
+  private _portalArn?: string; 
   public get portalArn() {
     return this.getStringAttribute('portal_arn');
   }
@@ -96,7 +96,7 @@ export class WorkspaceswebUserAccessLoggingSettingsAssociation extends cdktn.Ter
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -112,7 +112,7 @@ export class WorkspaceswebUserAccessLoggingSettingsAssociation extends cdktn.Ter
   }
 
   // user_access_logging_settings_arn - computed: false, optional: false, required: true
-  private _userAccessLoggingSettingsArn?: string;
+  private _userAccessLoggingSettingsArn?: string; 
   public get userAccessLoggingSettingsArn() {
     return this.getStringAttribute('user_access_logging_settings_arn');
   }

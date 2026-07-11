@@ -76,7 +76,7 @@ export class CostoptimizationhubEnrollmentStatus extends cdktn.TerraformResource
   }
 
   // include_member_accounts - computed: true, optional: true, required: false
-  private _includeMemberAccounts?: boolean | cdktn.IResolvable;
+  private _includeMemberAccounts?: boolean | cdktn.IResolvable; 
   public get includeMemberAccounts() {
     return this.getBooleanAttribute('include_member_accounts');
   }

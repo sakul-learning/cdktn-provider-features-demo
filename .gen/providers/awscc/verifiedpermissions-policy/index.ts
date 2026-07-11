@@ -116,7 +116,7 @@ export class VerifiedpermissionsPolicyDefinitionStaticOutputReference extends cd
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -132,7 +132,7 @@ export class VerifiedpermissionsPolicyDefinitionStaticOutputReference extends cd
   }
 
   // statement - computed: true, optional: true, required: false
-  private _statement?: string;
+  private _statement?: string; 
   public get statement() {
     return this.getStringAttribute('statement');
   }
@@ -243,7 +243,7 @@ export class VerifiedpermissionsPolicyDefinitionTemplateLinkedPrincipalOutputRef
   }
 
   // entity_id - computed: true, optional: true, required: false
-  private _entityId?: string;
+  private _entityId?: string; 
   public get entityId() {
     return this.getStringAttribute('entity_id');
   }
@@ -259,7 +259,7 @@ export class VerifiedpermissionsPolicyDefinitionTemplateLinkedPrincipalOutputRef
   }
 
   // entity_type - computed: true, optional: true, required: false
-  private _entityType?: string;
+  private _entityType?: string; 
   public get entityType() {
     return this.getStringAttribute('entity_type');
   }
@@ -370,7 +370,7 @@ export class VerifiedpermissionsPolicyDefinitionTemplateLinkedResourceOutputRefe
   }
 
   // entity_id - computed: true, optional: true, required: false
-  private _entityId?: string;
+  private _entityId?: string; 
   public get entityId() {
     return this.getStringAttribute('entity_id');
   }
@@ -386,7 +386,7 @@ export class VerifiedpermissionsPolicyDefinitionTemplateLinkedResourceOutputRefe
   }
 
   // entity_type - computed: true, optional: true, required: false
-  private _entityType?: string;
+  private _entityType?: string; 
   public get entityType() {
     return this.getStringAttribute('entity_type');
   }
@@ -514,7 +514,7 @@ export class VerifiedpermissionsPolicyDefinitionTemplateLinkedOutputReference ex
   }
 
   // policy_template_id - computed: true, optional: true, required: false
-  private _policyTemplateId?: string;
+  private _policyTemplateId?: string; 
   public get policyTemplateId() {
     return this.getStringAttribute('policy_template_id');
   }
@@ -767,7 +767,7 @@ export class VerifiedpermissionsPolicy extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -788,7 +788,7 @@ export class VerifiedpermissionsPolicy extends cdktn.TerraformResource {
   }
 
   // policy_store_id - computed: false, optional: false, required: true
-  private _policyStoreId?: string;
+  private _policyStoreId?: string; 
   public get policyStoreId() {
     return this.getStringAttribute('policy_store_id');
   }

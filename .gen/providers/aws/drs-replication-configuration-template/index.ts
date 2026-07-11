@@ -231,7 +231,7 @@ export class DrsReplicationConfigurationTemplatePitPolicyOutputReference extends
   }
 
   // enabled - computed: false, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -247,7 +247,7 @@ export class DrsReplicationConfigurationTemplatePitPolicyOutputReference extends
   }
 
   // interval - computed: false, optional: false, required: true
-  private _interval?: number;
+  private _interval?: number; 
   public get interval() {
     return this.getNumberAttribute('interval');
   }
@@ -260,7 +260,7 @@ export class DrsReplicationConfigurationTemplatePitPolicyOutputReference extends
   }
 
   // retention_duration - computed: false, optional: false, required: true
-  private _retentionDuration?: number;
+  private _retentionDuration?: number; 
   public get retentionDuration() {
     return this.getNumberAttribute('retention_duration');
   }
@@ -273,7 +273,7 @@ export class DrsReplicationConfigurationTemplatePitPolicyOutputReference extends
   }
 
   // rule_id - computed: false, optional: true, required: false
-  private _ruleId?: number;
+  private _ruleId?: number; 
   public get ruleId() {
     return this.getNumberAttribute('rule_id');
   }
@@ -289,7 +289,7 @@ export class DrsReplicationConfigurationTemplatePitPolicyOutputReference extends
   }
 
   // units - computed: false, optional: false, required: true
-  private _units?: string;
+  private _units?: string; 
   public get units() {
     return this.getStringAttribute('units');
   }
@@ -440,7 +440,7 @@ export class DrsReplicationConfigurationTemplateTimeoutsOutputReference extends 
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -456,7 +456,7 @@ export class DrsReplicationConfigurationTemplateTimeoutsOutputReference extends 
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -472,7 +472,7 @@ export class DrsReplicationConfigurationTemplateTimeoutsOutputReference extends 
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -567,7 +567,7 @@ export class DrsReplicationConfigurationTemplate extends cdktn.TerraformResource
   }
 
   // associate_default_security_group - computed: false, optional: false, required: true
-  private _associateDefaultSecurityGroup?: boolean | cdktn.IResolvable;
+  private _associateDefaultSecurityGroup?: boolean | cdktn.IResolvable; 
   public get associateDefaultSecurityGroup() {
     return this.getBooleanAttribute('associate_default_security_group');
   }
@@ -580,7 +580,7 @@ export class DrsReplicationConfigurationTemplate extends cdktn.TerraformResource
   }
 
   // auto_replicate_new_disks - computed: true, optional: true, required: false
-  private _autoReplicateNewDisks?: boolean | cdktn.IResolvable;
+  private _autoReplicateNewDisks?: boolean | cdktn.IResolvable; 
   public get autoReplicateNewDisks() {
     return this.getBooleanAttribute('auto_replicate_new_disks');
   }
@@ -596,7 +596,7 @@ export class DrsReplicationConfigurationTemplate extends cdktn.TerraformResource
   }
 
   // bandwidth_throttling - computed: false, optional: false, required: true
-  private _bandwidthThrottling?: number;
+  private _bandwidthThrottling?: number; 
   public get bandwidthThrottling() {
     return this.getNumberAttribute('bandwidth_throttling');
   }
@@ -609,7 +609,7 @@ export class DrsReplicationConfigurationTemplate extends cdktn.TerraformResource
   }
 
   // create_public_ip - computed: false, optional: false, required: true
-  private _createPublicIp?: boolean | cdktn.IResolvable;
+  private _createPublicIp?: boolean | cdktn.IResolvable; 
   public get createPublicIp() {
     return this.getBooleanAttribute('create_public_ip');
   }
@@ -622,7 +622,7 @@ export class DrsReplicationConfigurationTemplate extends cdktn.TerraformResource
   }
 
   // data_plane_routing - computed: false, optional: false, required: true
-  private _dataPlaneRouting?: string;
+  private _dataPlaneRouting?: string; 
   public get dataPlaneRouting() {
     return this.getStringAttribute('data_plane_routing');
   }
@@ -635,7 +635,7 @@ export class DrsReplicationConfigurationTemplate extends cdktn.TerraformResource
   }
 
   // default_large_staging_disk_type - computed: false, optional: false, required: true
-  private _defaultLargeStagingDiskType?: string;
+  private _defaultLargeStagingDiskType?: string; 
   public get defaultLargeStagingDiskType() {
     return this.getStringAttribute('default_large_staging_disk_type');
   }
@@ -648,7 +648,7 @@ export class DrsReplicationConfigurationTemplate extends cdktn.TerraformResource
   }
 
   // ebs_encryption - computed: false, optional: false, required: true
-  private _ebsEncryption?: string;
+  private _ebsEncryption?: string; 
   public get ebsEncryption() {
     return this.getStringAttribute('ebs_encryption');
   }
@@ -661,7 +661,7 @@ export class DrsReplicationConfigurationTemplate extends cdktn.TerraformResource
   }
 
   // ebs_encryption_key_arn - computed: false, optional: true, required: false
-  private _ebsEncryptionKeyArn?: string;
+  private _ebsEncryptionKeyArn?: string; 
   public get ebsEncryptionKeyArn() {
     return this.getStringAttribute('ebs_encryption_key_arn');
   }
@@ -682,7 +682,7 @@ export class DrsReplicationConfigurationTemplate extends cdktn.TerraformResource
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -698,7 +698,7 @@ export class DrsReplicationConfigurationTemplate extends cdktn.TerraformResource
   }
 
   // replication_server_instance_type - computed: false, optional: false, required: true
-  private _replicationServerInstanceType?: string;
+  private _replicationServerInstanceType?: string; 
   public get replicationServerInstanceType() {
     return this.getStringAttribute('replication_server_instance_type');
   }
@@ -711,7 +711,7 @@ export class DrsReplicationConfigurationTemplate extends cdktn.TerraformResource
   }
 
   // replication_servers_security_groups_ids - computed: false, optional: false, required: true
-  private _replicationServersSecurityGroupsIds?: string[];
+  private _replicationServersSecurityGroupsIds?: string[]; 
   public get replicationServersSecurityGroupsIds() {
     return this.getListAttribute('replication_servers_security_groups_ids');
   }
@@ -724,7 +724,7 @@ export class DrsReplicationConfigurationTemplate extends cdktn.TerraformResource
   }
 
   // staging_area_subnet_id - computed: false, optional: false, required: true
-  private _stagingAreaSubnetId?: string;
+  private _stagingAreaSubnetId?: string; 
   public get stagingAreaSubnetId() {
     return this.getStringAttribute('staging_area_subnet_id');
   }
@@ -737,7 +737,7 @@ export class DrsReplicationConfigurationTemplate extends cdktn.TerraformResource
   }
 
   // staging_area_tags - computed: false, optional: false, required: true
-  private _stagingAreaTags?: { [key: string]: string };
+  private _stagingAreaTags?: { [key: string]: string }; 
   public get stagingAreaTags() {
     return this.getStringMapAttribute('staging_area_tags');
   }
@@ -750,7 +750,7 @@ export class DrsReplicationConfigurationTemplate extends cdktn.TerraformResource
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -772,7 +772,7 @@ export class DrsReplicationConfigurationTemplate extends cdktn.TerraformResource
   }
 
   // use_dedicated_replication_server - computed: false, optional: false, required: true
-  private _useDedicatedReplicationServer?: boolean | cdktn.IResolvable;
+  private _useDedicatedReplicationServer?: boolean | cdktn.IResolvable; 
   public get useDedicatedReplicationServer() {
     return this.getBooleanAttribute('use_dedicated_replication_server');
   }

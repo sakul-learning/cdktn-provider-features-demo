@@ -126,7 +126,7 @@ export class DataAwsAcmCertificate extends cdktn.TerraformDataSource {
   }
 
   // domain - computed: true, optional: true, required: false
-  private _domain?: string;
+  private _domain?: string; 
   public get domain() {
     return this.getStringAttribute('domain');
   }
@@ -142,7 +142,7 @@ export class DataAwsAcmCertificate extends cdktn.TerraformDataSource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -158,7 +158,7 @@ export class DataAwsAcmCertificate extends cdktn.TerraformDataSource {
   }
 
   // key_types - computed: false, optional: true, required: false
-  private _keyTypes?: string[];
+  private _keyTypes?: string[]; 
   public get keyTypes() {
     return cdktn.Fn.tolist(this.getListAttribute('key_types'));
   }
@@ -174,7 +174,7 @@ export class DataAwsAcmCertificate extends cdktn.TerraformDataSource {
   }
 
   // most_recent - computed: false, optional: true, required: false
-  private _mostRecent?: boolean | cdktn.IResolvable;
+  private _mostRecent?: boolean | cdktn.IResolvable; 
   public get mostRecent() {
     return this.getBooleanAttribute('most_recent');
   }
@@ -190,7 +190,7 @@ export class DataAwsAcmCertificate extends cdktn.TerraformDataSource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -211,7 +211,7 @@ export class DataAwsAcmCertificate extends cdktn.TerraformDataSource {
   }
 
   // statuses - computed: false, optional: true, required: false
-  private _statuses?: string[];
+  private _statuses?: string[]; 
   public get statuses() {
     return this.getListAttribute('statuses');
   }
@@ -227,7 +227,7 @@ export class DataAwsAcmCertificate extends cdktn.TerraformDataSource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -243,7 +243,7 @@ export class DataAwsAcmCertificate extends cdktn.TerraformDataSource {
   }
 
   // types - computed: false, optional: true, required: false
-  private _types?: string[];
+  private _types?: string[]; 
   public get types() {
     return this.getListAttribute('types');
   }

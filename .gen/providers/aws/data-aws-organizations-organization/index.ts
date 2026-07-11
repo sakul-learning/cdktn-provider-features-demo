@@ -496,7 +496,7 @@ export class DataAwsOrganizationsOrganization extends cdktn.TerraformDataSource 
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -538,7 +538,7 @@ export class DataAwsOrganizationsOrganization extends cdktn.TerraformDataSource 
   }
 
   // return_organization_only - computed: false, optional: true, required: false
-  private _returnOrganizationOnly?: boolean | cdktn.IResolvable;
+  private _returnOrganizationOnly?: boolean | cdktn.IResolvable; 
   public get returnOrganizationOnly() {
     return this.getBooleanAttribute('return_organization_only');
   }

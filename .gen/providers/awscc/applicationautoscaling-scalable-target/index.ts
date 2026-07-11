@@ -95,8 +95,8 @@ export interface ApplicationautoscalingScalableTargetConfig extends cdktn.Terraf
   */
   readonly serviceNamespace: string;
   /**
-  * An embedded object that contains attributes and attribute values that are used to suspend and resume automatic scaling. Setting the value of an attribute to ``true`` suspends the specified scaling activities. Setting it to ``false`` (default) resumes the specified scaling activities.
-  *   *Suspension Outcomes*
+  * An embedded object that contains attributes and attribute values that are used to suspend and resume automatic scaling. Setting the value of an attribute to ``true`` suspends the specified scaling activities. Setting it to ``false`` (default) resumes the specified scaling activities. 
+  *   *Suspension Outcomes* 
   *   +  For ``DynamicScalingInSuspended``, while a suspension is in effect, all scale-in activities that are triggered by a scaling policy are suspended.
   *   +  For ``DynamicScalingOutSuspended``, while a suspension is in effect, all scale-out activities that are triggered by a scaling policy are suspended.
   *   +  For ``ScheduledScalingSuspended``, while a suspension is in effect, all scaling activities that involve scheduled actions are suspended.
@@ -205,7 +205,7 @@ export class ApplicationautoscalingScalableTargetScheduledActionsScalableTargetA
   }
 
   // max_capacity - computed: true, optional: true, required: false
-  private _maxCapacity?: number;
+  private _maxCapacity?: number; 
   public get maxCapacity() {
     return this.getNumberAttribute('max_capacity');
   }
@@ -221,7 +221,7 @@ export class ApplicationautoscalingScalableTargetScheduledActionsScalableTargetA
   }
 
   // min_capacity - computed: true, optional: true, required: false
-  private _minCapacity?: number;
+  private _minCapacity?: number; 
   public get minCapacity() {
     return this.getNumberAttribute('min_capacity');
   }
@@ -254,7 +254,7 @@ export interface ApplicationautoscalingScalableTargetScheduledActions {
   *   +  At expressions - "``at(yyyy-mm-ddThh:mm:ss)``"
   *   +  Rate expressions - "``rate(valueunit)``"
   *   +  Cron expressions - "``cron(fields)``"
-  *
+  *   
   *  At expressions are useful for one-time schedules. Cron expressions are useful for scheduled actions that run periodically at a specified date and time, and rate expressions are useful for scheduled actions that run at a regular interval.
   *  At and cron expressions use Universal Coordinated Time (UTC) by default.
   *  The cron format consists of six fields separated by white spaces: [Minutes] [Hours] [Day_of_Month] [Month] [Day_of_Week] [Year].
@@ -422,7 +422,7 @@ export class ApplicationautoscalingScalableTargetScheduledActionsOutputReference
   }
 
   // end_time - computed: true, optional: true, required: false
-  private _endTime?: string;
+  private _endTime?: string; 
   public get endTime() {
     return this.getStringAttribute('end_time');
   }
@@ -454,7 +454,7 @@ export class ApplicationautoscalingScalableTargetScheduledActionsOutputReference
   }
 
   // schedule - computed: true, optional: true, required: false
-  private _schedule?: string;
+  private _schedule?: string; 
   public get schedule() {
     return this.getStringAttribute('schedule');
   }
@@ -470,7 +470,7 @@ export class ApplicationautoscalingScalableTargetScheduledActionsOutputReference
   }
 
   // scheduled_action_name - computed: true, optional: true, required: false
-  private _scheduledActionName?: string;
+  private _scheduledActionName?: string; 
   public get scheduledActionName() {
     return this.getStringAttribute('scheduled_action_name');
   }
@@ -486,7 +486,7 @@ export class ApplicationautoscalingScalableTargetScheduledActionsOutputReference
   }
 
   // start_time - computed: true, optional: true, required: false
-  private _startTime?: string;
+  private _startTime?: string; 
   public get startTime() {
     return this.getStringAttribute('start_time');
   }
@@ -502,7 +502,7 @@ export class ApplicationautoscalingScalableTargetScheduledActionsOutputReference
   }
 
   // timezone - computed: true, optional: true, required: false
-  private _timezone?: string;
+  private _timezone?: string; 
   public get timezone() {
     return this.getStringAttribute('timezone');
   }
@@ -656,7 +656,7 @@ export class ApplicationautoscalingScalableTargetSuspendedStateOutputReference e
   }
 
   // dynamic_scaling_in_suspended - computed: true, optional: true, required: false
-  private _dynamicScalingInSuspended?: boolean | cdktn.IResolvable;
+  private _dynamicScalingInSuspended?: boolean | cdktn.IResolvable; 
   public get dynamicScalingInSuspended() {
     return this.getBooleanAttribute('dynamic_scaling_in_suspended');
   }
@@ -672,7 +672,7 @@ export class ApplicationautoscalingScalableTargetSuspendedStateOutputReference e
   }
 
   // dynamic_scaling_out_suspended - computed: true, optional: true, required: false
-  private _dynamicScalingOutSuspended?: boolean | cdktn.IResolvable;
+  private _dynamicScalingOutSuspended?: boolean | cdktn.IResolvable; 
   public get dynamicScalingOutSuspended() {
     return this.getBooleanAttribute('dynamic_scaling_out_suspended');
   }
@@ -688,7 +688,7 @@ export class ApplicationautoscalingScalableTargetSuspendedStateOutputReference e
   }
 
   // scheduled_scaling_suspended - computed: true, optional: true, required: false
-  private _scheduledScalingSuspended?: boolean | cdktn.IResolvable;
+  private _scheduledScalingSuspended?: boolean | cdktn.IResolvable; 
   public get scheduledScalingSuspended() {
     return this.getBooleanAttribute('scheduled_scaling_suspended');
   }
@@ -774,7 +774,7 @@ export class ApplicationautoscalingScalableTarget extends cdktn.TerraformResourc
   }
 
   // max_capacity - computed: false, optional: false, required: true
-  private _maxCapacity?: number;
+  private _maxCapacity?: number; 
   public get maxCapacity() {
     return this.getNumberAttribute('max_capacity');
   }
@@ -787,7 +787,7 @@ export class ApplicationautoscalingScalableTarget extends cdktn.TerraformResourc
   }
 
   // min_capacity - computed: false, optional: false, required: true
-  private _minCapacity?: number;
+  private _minCapacity?: number; 
   public get minCapacity() {
     return this.getNumberAttribute('min_capacity');
   }
@@ -800,7 +800,7 @@ export class ApplicationautoscalingScalableTarget extends cdktn.TerraformResourc
   }
 
   // resource_id - computed: false, optional: false, required: true
-  private _resourceId?: string;
+  private _resourceId?: string; 
   public get resourceId() {
     return this.getStringAttribute('resource_id');
   }
@@ -813,7 +813,7 @@ export class ApplicationautoscalingScalableTarget extends cdktn.TerraformResourc
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -829,7 +829,7 @@ export class ApplicationautoscalingScalableTarget extends cdktn.TerraformResourc
   }
 
   // scalable_dimension - computed: false, optional: false, required: true
-  private _scalableDimension?: string;
+  private _scalableDimension?: string; 
   public get scalableDimension() {
     return this.getStringAttribute('scalable_dimension');
   }
@@ -863,7 +863,7 @@ export class ApplicationautoscalingScalableTarget extends cdktn.TerraformResourc
   }
 
   // service_namespace - computed: false, optional: false, required: true
-  private _serviceNamespace?: string;
+  private _serviceNamespace?: string; 
   public get serviceNamespace() {
     return this.getStringAttribute('service_namespace');
   }

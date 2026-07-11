@@ -156,7 +156,7 @@ export class SagemakerNotebookInstanceInstanceMetadataServiceConfigurationOutput
   }
 
   // minimum_instance_metadata_service_version - computed: true, optional: true, required: false
-  private _minimumInstanceMetadataServiceVersion?: string;
+  private _minimumInstanceMetadataServiceVersion?: string; 
   public get minimumInstanceMetadataServiceVersion() {
     return this.getStringAttribute('minimum_instance_metadata_service_version');
   }
@@ -247,7 +247,7 @@ export class SagemakerNotebookInstance extends cdktn.TerraformResource {
   // ==========
 
   // additional_code_repositories - computed: false, optional: true, required: false
-  private _additionalCodeRepositories?: string[];
+  private _additionalCodeRepositories?: string[]; 
   public get additionalCodeRepositories() {
     return cdktn.Fn.tolist(this.getListAttribute('additional_code_repositories'));
   }
@@ -268,7 +268,7 @@ export class SagemakerNotebookInstance extends cdktn.TerraformResource {
   }
 
   // default_code_repository - computed: false, optional: true, required: false
-  private _defaultCodeRepository?: string;
+  private _defaultCodeRepository?: string; 
   public get defaultCodeRepository() {
     return this.getStringAttribute('default_code_repository');
   }
@@ -284,7 +284,7 @@ export class SagemakerNotebookInstance extends cdktn.TerraformResource {
   }
 
   // direct_internet_access - computed: false, optional: true, required: false
-  private _directInternetAccess?: string;
+  private _directInternetAccess?: string; 
   public get directInternetAccess() {
     return this.getStringAttribute('direct_internet_access');
   }
@@ -300,7 +300,7 @@ export class SagemakerNotebookInstance extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -316,7 +316,7 @@ export class SagemakerNotebookInstance extends cdktn.TerraformResource {
   }
 
   // instance_type - computed: false, optional: false, required: true
-  private _instanceType?: string;
+  private _instanceType?: string; 
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -329,7 +329,7 @@ export class SagemakerNotebookInstance extends cdktn.TerraformResource {
   }
 
   // kms_key_id - computed: false, optional: true, required: false
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -345,7 +345,7 @@ export class SagemakerNotebookInstance extends cdktn.TerraformResource {
   }
 
   // lifecycle_config_name - computed: false, optional: true, required: false
-  private _lifecycleConfigName?: string;
+  private _lifecycleConfigName?: string; 
   public get lifecycleConfigName() {
     return this.getStringAttribute('lifecycle_config_name');
   }
@@ -361,7 +361,7 @@ export class SagemakerNotebookInstance extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -379,7 +379,7 @@ export class SagemakerNotebookInstance extends cdktn.TerraformResource {
   }
 
   // platform_identifier - computed: true, optional: true, required: false
-  private _platformIdentifier?: string;
+  private _platformIdentifier?: string; 
   public get platformIdentifier() {
     return this.getStringAttribute('platform_identifier');
   }
@@ -395,7 +395,7 @@ export class SagemakerNotebookInstance extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -411,7 +411,7 @@ export class SagemakerNotebookInstance extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -424,7 +424,7 @@ export class SagemakerNotebookInstance extends cdktn.TerraformResource {
   }
 
   // root_access - computed: false, optional: true, required: false
-  private _rootAccess?: string;
+  private _rootAccess?: string; 
   public get rootAccess() {
     return this.getStringAttribute('root_access');
   }
@@ -440,7 +440,7 @@ export class SagemakerNotebookInstance extends cdktn.TerraformResource {
   }
 
   // security_groups - computed: true, optional: true, required: false
-  private _securityGroups?: string[];
+  private _securityGroups?: string[]; 
   public get securityGroups() {
     return cdktn.Fn.tolist(this.getListAttribute('security_groups'));
   }
@@ -456,7 +456,7 @@ export class SagemakerNotebookInstance extends cdktn.TerraformResource {
   }
 
   // subnet_id - computed: false, optional: true, required: false
-  private _subnetId?: string;
+  private _subnetId?: string; 
   public get subnetId() {
     return this.getStringAttribute('subnet_id');
   }
@@ -472,7 +472,7 @@ export class SagemakerNotebookInstance extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -488,7 +488,7 @@ export class SagemakerNotebookInstance extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -509,7 +509,7 @@ export class SagemakerNotebookInstance extends cdktn.TerraformResource {
   }
 
   // volume_size - computed: false, optional: true, required: false
-  private _volumeSize?: number;
+  private _volumeSize?: number; 
   public get volumeSize() {
     return this.getNumberAttribute('volume_size');
   }

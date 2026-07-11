@@ -121,7 +121,7 @@ export class ApiGatewayRestApiPutTimeoutsOutputReference extends cdktn.ComplexOb
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -201,7 +201,7 @@ export class ApiGatewayRestApiPut extends cdktn.TerraformResource {
   // ==========
 
   // body - computed: false, optional: false, required: true
-  private _body?: string;
+  private _body?: string; 
   public get body() {
     return this.getStringAttribute('body');
   }
@@ -214,7 +214,7 @@ export class ApiGatewayRestApiPut extends cdktn.TerraformResource {
   }
 
   // fail_on_warnings - computed: true, optional: true, required: false
-  private _failOnWarnings?: boolean | cdktn.IResolvable;
+  private _failOnWarnings?: boolean | cdktn.IResolvable; 
   public get failOnWarnings() {
     return this.getBooleanAttribute('fail_on_warnings');
   }
@@ -230,7 +230,7 @@ export class ApiGatewayRestApiPut extends cdktn.TerraformResource {
   }
 
   // parameters - computed: false, optional: true, required: false
-  private _parameters?: { [key: string]: string };
+  private _parameters?: { [key: string]: string }; 
   public get parameters() {
     return this.getStringMapAttribute('parameters');
   }
@@ -246,7 +246,7 @@ export class ApiGatewayRestApiPut extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -262,7 +262,7 @@ export class ApiGatewayRestApiPut extends cdktn.TerraformResource {
   }
 
   // rest_api_id - computed: false, optional: false, required: true
-  private _restApiId?: string;
+  private _restApiId?: string; 
   public get restApiId() {
     return this.getStringAttribute('rest_api_id');
   }
@@ -275,7 +275,7 @@ export class ApiGatewayRestApiPut extends cdktn.TerraformResource {
   }
 
   // triggers - computed: false, optional: true, required: false
-  private _triggers?: { [key: string]: string };
+  private _triggers?: { [key: string]: string }; 
   public get triggers() {
     return this.getStringMapAttribute('triggers');
   }

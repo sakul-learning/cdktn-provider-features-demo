@@ -113,7 +113,7 @@ export class CodeguruprofilerProfilingGroupAgentOrchestrationConfigOutputReferen
   }
 
   // profiling_enabled - computed: false, optional: false, required: true
-  private _profilingEnabled?: boolean | cdktn.IResolvable;
+  private _profilingEnabled?: boolean | cdktn.IResolvable; 
   public get profilingEnabled() {
     return this.getBooleanAttribute('profiling_enabled');
   }
@@ -213,7 +213,7 @@ export class CodeguruprofilerProfilingGroup extends cdktn.TerraformResource {
   }
 
   // compute_platform - computed: true, optional: true, required: false
-  private _computePlatform?: string;
+  private _computePlatform?: string; 
   public get computePlatform() {
     return this.getStringAttribute('compute_platform');
   }
@@ -234,7 +234,7 @@ export class CodeguruprofilerProfilingGroup extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -247,7 +247,7 @@ export class CodeguruprofilerProfilingGroup extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -263,7 +263,7 @@ export class CodeguruprofilerProfilingGroup extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

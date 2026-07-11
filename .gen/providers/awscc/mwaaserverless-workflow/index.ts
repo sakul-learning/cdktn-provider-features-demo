@@ -159,7 +159,7 @@ export class MwaaserverlessWorkflowDefinitionS3LocationOutputReference extends c
   }
 
   // bucket - computed: false, optional: false, required: true
-  private _bucket?: string;
+  private _bucket?: string; 
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -172,7 +172,7 @@ export class MwaaserverlessWorkflowDefinitionS3LocationOutputReference extends c
   }
 
   // object_key - computed: false, optional: false, required: true
-  private _objectKey?: string;
+  private _objectKey?: string; 
   public get objectKey() {
     return this.getStringAttribute('object_key');
   }
@@ -185,7 +185,7 @@ export class MwaaserverlessWorkflowDefinitionS3LocationOutputReference extends c
   }
 
   // version_id - computed: true, optional: true, required: false
-  private _versionId?: string;
+  private _versionId?: string; 
   public get versionId() {
     return this.getStringAttribute('version_id');
   }
@@ -296,7 +296,7 @@ export class MwaaserverlessWorkflowEncryptionConfigurationOutputReference extend
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -312,7 +312,7 @@ export class MwaaserverlessWorkflowEncryptionConfigurationOutputReference extend
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -406,7 +406,7 @@ export class MwaaserverlessWorkflowLoggingConfigurationOutputReference extends c
   }
 
   // log_group_name - computed: true, optional: true, required: false
-  private _logGroupName?: string;
+  private _logGroupName?: string; 
   public get logGroupName() {
     return this.getStringAttribute('log_group_name');
   }
@@ -517,7 +517,7 @@ export class MwaaserverlessWorkflowNetworkConfigurationOutputReference extends c
   }
 
   // security_group_ids - computed: true, optional: true, required: false
-  private _securityGroupIds?: string[];
+  private _securityGroupIds?: string[]; 
   public get securityGroupIds() {
     return this.getListAttribute('security_group_ids');
   }
@@ -533,7 +533,7 @@ export class MwaaserverlessWorkflowNetworkConfigurationOutputReference extends c
   }
 
   // subnet_ids - computed: true, optional: true, required: false
-  private _subnetIds?: string[];
+  private _subnetIds?: string[]; 
   public get subnetIds() {
     return this.getListAttribute('subnet_ids');
   }
@@ -687,7 +687,7 @@ export class MwaaserverlessWorkflow extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -745,7 +745,7 @@ export class MwaaserverlessWorkflow extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -777,7 +777,7 @@ export class MwaaserverlessWorkflow extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -796,7 +796,7 @@ export class MwaaserverlessWorkflow extends cdktn.TerraformResource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -812,7 +812,7 @@ export class MwaaserverlessWorkflow extends cdktn.TerraformResource {
   }
 
   // trigger_mode - computed: true, optional: true, required: false
-  private _triggerMode?: string;
+  private _triggerMode?: string; 
   public get triggerMode() {
     return this.getStringAttribute('trigger_mode');
   }

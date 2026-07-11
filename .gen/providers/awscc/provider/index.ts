@@ -586,7 +586,7 @@ export class AwsccProvider extends cdktn.TerraformProvider {
   // ==========
 
   // access_key - computed: false, optional: true, required: false
-  private _accessKey?: string;
+  private _accessKey?: string; 
   public get accessKey() {
     return this._accessKey;
   }
@@ -602,7 +602,7 @@ export class AwsccProvider extends cdktn.TerraformProvider {
   }
 
   // assume_role - computed: false, optional: true, required: false
-  private _assumeRole?: AwsccProviderAssumeRole;
+  private _assumeRole?: AwsccProviderAssumeRole; 
   public get assumeRole() {
     return this._assumeRole;
   }
@@ -618,7 +618,7 @@ export class AwsccProvider extends cdktn.TerraformProvider {
   }
 
   // assume_role_with_web_identity - computed: false, optional: true, required: false
-  private _assumeRoleWithWebIdentity?: AwsccProviderAssumeRoleWithWebIdentity;
+  private _assumeRoleWithWebIdentity?: AwsccProviderAssumeRoleWithWebIdentity; 
   public get assumeRoleWithWebIdentity() {
     return this._assumeRoleWithWebIdentity;
   }
@@ -634,7 +634,7 @@ export class AwsccProvider extends cdktn.TerraformProvider {
   }
 
   // endpoints - computed: false, optional: true, required: false
-  private _endpoints?: AwsccProviderEndpoints;
+  private _endpoints?: AwsccProviderEndpoints; 
   public get endpoints() {
     return this._endpoints;
   }
@@ -650,7 +650,7 @@ export class AwsccProvider extends cdktn.TerraformProvider {
   }
 
   // http_proxy - computed: false, optional: true, required: false
-  private _httpProxy?: string;
+  private _httpProxy?: string; 
   public get httpProxy() {
     return this._httpProxy;
   }
@@ -666,7 +666,7 @@ export class AwsccProvider extends cdktn.TerraformProvider {
   }
 
   // https_proxy - computed: false, optional: true, required: false
-  private _httpsProxy?: string;
+  private _httpsProxy?: string; 
   public get httpsProxy() {
     return this._httpsProxy;
   }
@@ -682,7 +682,7 @@ export class AwsccProvider extends cdktn.TerraformProvider {
   }
 
   // insecure - computed: false, optional: true, required: false
-  private _insecure?: boolean | cdktn.IResolvable;
+  private _insecure?: boolean | cdktn.IResolvable; 
   public get insecure() {
     return this._insecure;
   }
@@ -698,7 +698,7 @@ export class AwsccProvider extends cdktn.TerraformProvider {
   }
 
   // max_retries - computed: false, optional: true, required: false
-  private _maxRetries?: number;
+  private _maxRetries?: number; 
   public get maxRetries() {
     return this._maxRetries;
   }
@@ -714,7 +714,7 @@ export class AwsccProvider extends cdktn.TerraformProvider {
   }
 
   // no_proxy - computed: false, optional: true, required: false
-  private _noProxy?: string;
+  private _noProxy?: string; 
   public get noProxy() {
     return this._noProxy;
   }
@@ -730,7 +730,7 @@ export class AwsccProvider extends cdktn.TerraformProvider {
   }
 
   // profile - computed: false, optional: true, required: false
-  private _profile?: string;
+  private _profile?: string; 
   public get profile() {
     return this._profile;
   }
@@ -746,7 +746,7 @@ export class AwsccProvider extends cdktn.TerraformProvider {
   }
 
   // region - computed: false, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this._region;
   }
@@ -762,7 +762,7 @@ export class AwsccProvider extends cdktn.TerraformProvider {
   }
 
   // role_arn - computed: false, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this._roleArn;
   }
@@ -778,7 +778,7 @@ export class AwsccProvider extends cdktn.TerraformProvider {
   }
 
   // secret_key - computed: false, optional: true, required: false
-  private _secretKey?: string;
+  private _secretKey?: string; 
   public get secretKey() {
     return this._secretKey;
   }
@@ -794,7 +794,7 @@ export class AwsccProvider extends cdktn.TerraformProvider {
   }
 
   // shared_config_files - computed: false, optional: true, required: false
-  private _sharedConfigFiles?: string[];
+  private _sharedConfigFiles?: string[]; 
   public get sharedConfigFiles() {
     return this._sharedConfigFiles;
   }
@@ -810,7 +810,7 @@ export class AwsccProvider extends cdktn.TerraformProvider {
   }
 
   // shared_credentials_files - computed: false, optional: true, required: false
-  private _sharedCredentialsFiles?: string[];
+  private _sharedCredentialsFiles?: string[]; 
   public get sharedCredentialsFiles() {
     return this._sharedCredentialsFiles;
   }
@@ -826,7 +826,7 @@ export class AwsccProvider extends cdktn.TerraformProvider {
   }
 
   // skip_medatadata_api_check - computed: false, optional: true, required: false
-  private _skipMedatadataApiCheck?: boolean | cdktn.IResolvable;
+  private _skipMedatadataApiCheck?: boolean | cdktn.IResolvable; 
   public get skipMedatadataApiCheck() {
     return this._skipMedatadataApiCheck;
   }
@@ -842,7 +842,7 @@ export class AwsccProvider extends cdktn.TerraformProvider {
   }
 
   // skip_metadata_api_check - computed: false, optional: true, required: false
-  private _skipMetadataApiCheck?: boolean | cdktn.IResolvable;
+  private _skipMetadataApiCheck?: boolean | cdktn.IResolvable; 
   public get skipMetadataApiCheck() {
     return this._skipMetadataApiCheck;
   }
@@ -858,7 +858,7 @@ export class AwsccProvider extends cdktn.TerraformProvider {
   }
 
   // token - computed: false, optional: true, required: false
-  private _token?: string;
+  private _token?: string; 
   public get token() {
     return this._token;
   }
@@ -874,7 +874,7 @@ export class AwsccProvider extends cdktn.TerraformProvider {
   }
 
   // user_agent - computed: false, optional: true, required: false
-  private _userAgent?: AwsccProviderUserAgent[] | cdktn.IResolvable;
+  private _userAgent?: AwsccProviderUserAgent[] | cdktn.IResolvable; 
   public get userAgent() {
     return this._userAgent;
   }
@@ -890,7 +890,7 @@ export class AwsccProvider extends cdktn.TerraformProvider {
   }
 
   // alias - computed: false, optional: true, required: false
-  private _alias?: string;
+  private _alias?: string; 
   public get alias() {
     return this._alias;
   }

@@ -159,7 +159,7 @@ export class M2DeploymentTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -175,7 +175,7 @@ export class M2DeploymentTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -191,7 +191,7 @@ export class M2DeploymentTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -271,7 +271,7 @@ export class M2Deployment extends cdktn.TerraformResource {
   // ==========
 
   // application_id - computed: false, optional: false, required: true
-  private _applicationId?: string;
+  private _applicationId?: string; 
   public get applicationId() {
     return this.getStringAttribute('application_id');
   }
@@ -284,7 +284,7 @@ export class M2Deployment extends cdktn.TerraformResource {
   }
 
   // application_version - computed: false, optional: false, required: true
-  private _applicationVersion?: number;
+  private _applicationVersion?: number; 
   public get applicationVersion() {
     return this.getNumberAttribute('application_version');
   }
@@ -302,7 +302,7 @@ export class M2Deployment extends cdktn.TerraformResource {
   }
 
   // environment_id - computed: false, optional: false, required: true
-  private _environmentId?: string;
+  private _environmentId?: string; 
   public get environmentId() {
     return this.getStringAttribute('environment_id');
   }
@@ -315,7 +315,7 @@ export class M2Deployment extends cdktn.TerraformResource {
   }
 
   // force_stop - computed: false, optional: true, required: false
-  private _forceStop?: boolean | cdktn.IResolvable;
+  private _forceStop?: boolean | cdktn.IResolvable; 
   public get forceStop() {
     return this.getBooleanAttribute('force_stop');
   }
@@ -336,7 +336,7 @@ export class M2Deployment extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -352,7 +352,7 @@ export class M2Deployment extends cdktn.TerraformResource {
   }
 
   // start - computed: false, optional: false, required: true
-  private _start?: boolean | cdktn.IResolvable;
+  private _start?: boolean | cdktn.IResolvable; 
   public get start() {
     return this.getBooleanAttribute('start');
   }

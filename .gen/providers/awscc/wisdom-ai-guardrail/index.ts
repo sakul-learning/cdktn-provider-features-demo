@@ -189,7 +189,7 @@ export class WisdomAiGuardrailContentPolicyConfigFiltersConfigOutputReference ex
   }
 
   // input_strength - computed: true, optional: true, required: false
-  private _inputStrength?: string;
+  private _inputStrength?: string; 
   public get inputStrength() {
     return this.getStringAttribute('input_strength');
   }
@@ -205,7 +205,7 @@ export class WisdomAiGuardrailContentPolicyConfigFiltersConfigOutputReference ex
   }
 
   // output_strength - computed: true, optional: true, required: false
-  private _outputStrength?: string;
+  private _outputStrength?: string; 
   public get outputStrength() {
     return this.getStringAttribute('output_strength');
   }
@@ -221,7 +221,7 @@ export class WisdomAiGuardrailContentPolicyConfigFiltersConfigOutputReference ex
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -454,7 +454,7 @@ export class WisdomAiGuardrailContextualGroundingPolicyConfigFiltersConfigOutput
   }
 
   // threshold - computed: true, optional: true, required: false
-  private _threshold?: number;
+  private _threshold?: number; 
   public get threshold() {
     return this.getNumberAttribute('threshold');
   }
@@ -470,7 +470,7 @@ export class WisdomAiGuardrailContextualGroundingPolicyConfigFiltersConfigOutput
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -703,7 +703,7 @@ export class WisdomAiGuardrailSensitiveInformationPolicyConfigPiiEntitiesConfigO
   }
 
   // action - computed: true, optional: true, required: false
-  private _action?: string;
+  private _action?: string; 
   public get action() {
     return this.getStringAttribute('action');
   }
@@ -719,7 +719,7 @@ export class WisdomAiGuardrailSensitiveInformationPolicyConfigPiiEntitiesConfigO
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -894,7 +894,7 @@ export class WisdomAiGuardrailSensitiveInformationPolicyConfigRegexesConfigOutpu
   }
 
   // action - computed: true, optional: true, required: false
-  private _action?: string;
+  private _action?: string; 
   public get action() {
     return this.getStringAttribute('action');
   }
@@ -910,7 +910,7 @@ export class WisdomAiGuardrailSensitiveInformationPolicyConfigRegexesConfigOutpu
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -926,7 +926,7 @@ export class WisdomAiGuardrailSensitiveInformationPolicyConfigRegexesConfigOutpu
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -942,7 +942,7 @@ export class WisdomAiGuardrailSensitiveInformationPolicyConfigRegexesConfigOutpu
   }
 
   // pattern - computed: true, optional: true, required: false
-  private _pattern?: string;
+  private _pattern?: string; 
   public get pattern() {
     return this.getStringAttribute('pattern');
   }
@@ -1248,7 +1248,7 @@ export class WisdomAiGuardrailTopicPolicyConfigTopicsConfigOutputReference exten
   }
 
   // definition - computed: true, optional: true, required: false
-  private _definition?: string;
+  private _definition?: string; 
   public get definition() {
     return this.getStringAttribute('definition');
   }
@@ -1264,7 +1264,7 @@ export class WisdomAiGuardrailTopicPolicyConfigTopicsConfigOutputReference exten
   }
 
   // examples - computed: true, optional: true, required: false
-  private _examples?: string[];
+  private _examples?: string[]; 
   public get examples() {
     return this.getListAttribute('examples');
   }
@@ -1280,7 +1280,7 @@ export class WisdomAiGuardrailTopicPolicyConfigTopicsConfigOutputReference exten
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1296,7 +1296,7 @@ export class WisdomAiGuardrailTopicPolicyConfigTopicsConfigOutputReference exten
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -1510,7 +1510,7 @@ export class WisdomAiGuardrailWordPolicyConfigManagedWordListsConfigOutputRefere
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -1628,7 +1628,7 @@ export class WisdomAiGuardrailWordPolicyConfigWordsConfigOutputReference extends
   }
 
   // text - computed: true, optional: true, required: false
-  private _text?: string;
+  private _text?: string; 
   public get text() {
     return this.getStringAttribute('text');
   }
@@ -1878,7 +1878,7 @@ export class WisdomAiGuardrail extends cdktn.TerraformResource {
   }
 
   // assistant_id - computed: false, optional: false, required: true
-  private _assistantId?: string;
+  private _assistantId?: string; 
   public get assistantId() {
     return this.getStringAttribute('assistant_id');
   }
@@ -1891,7 +1891,7 @@ export class WisdomAiGuardrail extends cdktn.TerraformResource {
   }
 
   // blocked_input_messaging - computed: false, optional: false, required: true
-  private _blockedInputMessaging?: string;
+  private _blockedInputMessaging?: string; 
   public get blockedInputMessaging() {
     return this.getStringAttribute('blocked_input_messaging');
   }
@@ -1904,7 +1904,7 @@ export class WisdomAiGuardrail extends cdktn.TerraformResource {
   }
 
   // blocked_outputs_messaging - computed: false, optional: false, required: true
-  private _blockedOutputsMessaging?: string;
+  private _blockedOutputsMessaging?: string; 
   public get blockedOutputsMessaging() {
     return this.getStringAttribute('blocked_outputs_messaging');
   }
@@ -1949,7 +1949,7 @@ export class WisdomAiGuardrail extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1975,7 +1975,7 @@ export class WisdomAiGuardrail extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2007,7 +2007,7 @@ export class WisdomAiGuardrail extends cdktn.TerraformResource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

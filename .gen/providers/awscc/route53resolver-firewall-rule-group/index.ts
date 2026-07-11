@@ -107,7 +107,7 @@ export class Route53ResolverFirewallRuleGroupFirewallRulesFirewallRuleTypeFirewa
   }
 
   // category - computed: true, optional: true, required: false
-  private _category?: string;
+  private _category?: string; 
   public get category() {
     return this.getStringAttribute('category');
   }
@@ -203,7 +203,7 @@ export class Route53ResolverFirewallRuleGroupFirewallRulesFirewallRuleTypeFirewa
   }
 
   // category - computed: true, optional: true, required: false
-  private _category?: string;
+  private _category?: string; 
   public get category() {
     return this.getStringAttribute('category');
   }
@@ -299,7 +299,7 @@ export class Route53ResolverFirewallRuleGroupFirewallRulesFirewallRuleTypePartne
   }
 
   // partner - computed: true, optional: true, required: false
-  private _partner?: string;
+  private _partner?: string; 
   public get partner() {
     return this.getStringAttribute('partner');
   }
@@ -810,7 +810,7 @@ export class Route53ResolverFirewallRuleGroupFirewallRulesOutputReference extend
   }
 
   // action - computed: true, optional: true, required: false
-  private _action?: string;
+  private _action?: string; 
   public get action() {
     return this.getStringAttribute('action');
   }
@@ -826,7 +826,7 @@ export class Route53ResolverFirewallRuleGroupFirewallRulesOutputReference extend
   }
 
   // block_override_dns_type - computed: true, optional: true, required: false
-  private _blockOverrideDnsType?: string;
+  private _blockOverrideDnsType?: string; 
   public get blockOverrideDnsType() {
     return this.getStringAttribute('block_override_dns_type');
   }
@@ -842,7 +842,7 @@ export class Route53ResolverFirewallRuleGroupFirewallRulesOutputReference extend
   }
 
   // block_override_domain - computed: true, optional: true, required: false
-  private _blockOverrideDomain?: string;
+  private _blockOverrideDomain?: string; 
   public get blockOverrideDomain() {
     return this.getStringAttribute('block_override_domain');
   }
@@ -858,7 +858,7 @@ export class Route53ResolverFirewallRuleGroupFirewallRulesOutputReference extend
   }
 
   // block_override_ttl - computed: true, optional: true, required: false
-  private _blockOverrideTtl?: number;
+  private _blockOverrideTtl?: number; 
   public get blockOverrideTtl() {
     return this.getNumberAttribute('block_override_ttl');
   }
@@ -874,7 +874,7 @@ export class Route53ResolverFirewallRuleGroupFirewallRulesOutputReference extend
   }
 
   // block_response - computed: true, optional: true, required: false
-  private _blockResponse?: string;
+  private _blockResponse?: string; 
   public get blockResponse() {
     return this.getStringAttribute('block_response');
   }
@@ -890,7 +890,7 @@ export class Route53ResolverFirewallRuleGroupFirewallRulesOutputReference extend
   }
 
   // confidence_threshold - computed: true, optional: true, required: false
-  private _confidenceThreshold?: string;
+  private _confidenceThreshold?: string; 
   public get confidenceThreshold() {
     return this.getStringAttribute('confidence_threshold');
   }
@@ -906,7 +906,7 @@ export class Route53ResolverFirewallRuleGroupFirewallRulesOutputReference extend
   }
 
   // dns_threat_protection - computed: true, optional: true, required: false
-  private _dnsThreatProtection?: string;
+  private _dnsThreatProtection?: string; 
   public get dnsThreatProtection() {
     return this.getStringAttribute('dns_threat_protection');
   }
@@ -922,7 +922,7 @@ export class Route53ResolverFirewallRuleGroupFirewallRulesOutputReference extend
   }
 
   // firewall_domain_list_id - computed: true, optional: true, required: false
-  private _firewallDomainListId?: string;
+  private _firewallDomainListId?: string; 
   public get firewallDomainListId() {
     return this.getStringAttribute('firewall_domain_list_id');
   }
@@ -938,7 +938,7 @@ export class Route53ResolverFirewallRuleGroupFirewallRulesOutputReference extend
   }
 
   // firewall_domain_redirection_action - computed: true, optional: true, required: false
-  private _firewallDomainRedirectionAction?: string;
+  private _firewallDomainRedirectionAction?: string; 
   public get firewallDomainRedirectionAction() {
     return this.getStringAttribute('firewall_domain_redirection_action');
   }
@@ -970,7 +970,7 @@ export class Route53ResolverFirewallRuleGroupFirewallRulesOutputReference extend
   }
 
   // firewall_threat_protection_id - computed: true, optional: true, required: false
-  private _firewallThreatProtectionId?: string;
+  private _firewallThreatProtectionId?: string; 
   public get firewallThreatProtectionId() {
     return this.getStringAttribute('firewall_threat_protection_id');
   }
@@ -986,7 +986,7 @@ export class Route53ResolverFirewallRuleGroupFirewallRulesOutputReference extend
   }
 
   // priority - computed: true, optional: true, required: false
-  private _priority?: number;
+  private _priority?: number; 
   public get priority() {
     return this.getNumberAttribute('priority');
   }
@@ -1002,7 +1002,7 @@ export class Route53ResolverFirewallRuleGroupFirewallRulesOutputReference extend
   }
 
   // qtype - computed: true, optional: true, required: false
-  private _qtype?: string;
+  private _qtype?: string; 
   public get qtype() {
     return this.getStringAttribute('qtype');
   }
@@ -1018,7 +1018,7 @@ export class Route53ResolverFirewallRuleGroupFirewallRulesOutputReference extend
   }
 
   // status - computed: true, optional: true, required: false
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -1155,7 +1155,7 @@ export class Route53ResolverFirewallRuleGroupTagsOutputReference extends cdktn.C
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1171,7 +1171,7 @@ export class Route53ResolverFirewallRuleGroupTagsOutputReference extends cdktn.C
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1313,7 +1313,7 @@ export class Route53ResolverFirewallRuleGroup extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }

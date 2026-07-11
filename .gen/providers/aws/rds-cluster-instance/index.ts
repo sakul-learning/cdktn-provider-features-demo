@@ -244,7 +244,7 @@ export class RdsClusterInstanceTimeoutsOutputReference extends cdktn.ComplexObje
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -260,7 +260,7 @@ export class RdsClusterInstanceTimeoutsOutputReference extends cdktn.ComplexObje
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -276,7 +276,7 @@ export class RdsClusterInstanceTimeoutsOutputReference extends cdktn.ComplexObje
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -378,7 +378,7 @@ export class RdsClusterInstance extends cdktn.TerraformResource {
   // ==========
 
   // apply_immediately - computed: true, optional: true, required: false
-  private _applyImmediately?: boolean | cdktn.IResolvable;
+  private _applyImmediately?: boolean | cdktn.IResolvable; 
   public get applyImmediately() {
     return this.getBooleanAttribute('apply_immediately');
   }
@@ -399,7 +399,7 @@ export class RdsClusterInstance extends cdktn.TerraformResource {
   }
 
   // auto_minor_version_upgrade - computed: false, optional: true, required: false
-  private _autoMinorVersionUpgrade?: boolean | cdktn.IResolvable;
+  private _autoMinorVersionUpgrade?: boolean | cdktn.IResolvable; 
   public get autoMinorVersionUpgrade() {
     return this.getBooleanAttribute('auto_minor_version_upgrade');
   }
@@ -415,7 +415,7 @@ export class RdsClusterInstance extends cdktn.TerraformResource {
   }
 
   // availability_zone - computed: true, optional: true, required: false
-  private _availabilityZone?: string;
+  private _availabilityZone?: string; 
   public get availabilityZone() {
     return this.getStringAttribute('availability_zone');
   }
@@ -431,7 +431,7 @@ export class RdsClusterInstance extends cdktn.TerraformResource {
   }
 
   // ca_cert_identifier - computed: true, optional: true, required: false
-  private _caCertIdentifier?: string;
+  private _caCertIdentifier?: string; 
   public get caCertIdentifier() {
     return this.getStringAttribute('ca_cert_identifier');
   }
@@ -447,7 +447,7 @@ export class RdsClusterInstance extends cdktn.TerraformResource {
   }
 
   // cluster_identifier - computed: false, optional: false, required: true
-  private _clusterIdentifier?: string;
+  private _clusterIdentifier?: string; 
   public get clusterIdentifier() {
     return this.getStringAttribute('cluster_identifier');
   }
@@ -460,7 +460,7 @@ export class RdsClusterInstance extends cdktn.TerraformResource {
   }
 
   // copy_tags_to_snapshot - computed: false, optional: true, required: false
-  private _copyTagsToSnapshot?: boolean | cdktn.IResolvable;
+  private _copyTagsToSnapshot?: boolean | cdktn.IResolvable; 
   public get copyTagsToSnapshot() {
     return this.getBooleanAttribute('copy_tags_to_snapshot');
   }
@@ -476,7 +476,7 @@ export class RdsClusterInstance extends cdktn.TerraformResource {
   }
 
   // custom_iam_instance_profile - computed: false, optional: true, required: false
-  private _customIamInstanceProfile?: string;
+  private _customIamInstanceProfile?: string; 
   public get customIamInstanceProfile() {
     return this.getStringAttribute('custom_iam_instance_profile');
   }
@@ -492,7 +492,7 @@ export class RdsClusterInstance extends cdktn.TerraformResource {
   }
 
   // db_parameter_group_name - computed: true, optional: true, required: false
-  private _dbParameterGroupName?: string;
+  private _dbParameterGroupName?: string; 
   public get dbParameterGroupName() {
     return this.getStringAttribute('db_parameter_group_name');
   }
@@ -508,7 +508,7 @@ export class RdsClusterInstance extends cdktn.TerraformResource {
   }
 
   // db_subnet_group_name - computed: true, optional: true, required: false
-  private _dbSubnetGroupName?: string;
+  private _dbSubnetGroupName?: string; 
   public get dbSubnetGroupName() {
     return this.getStringAttribute('db_subnet_group_name');
   }
@@ -534,7 +534,7 @@ export class RdsClusterInstance extends cdktn.TerraformResource {
   }
 
   // engine - computed: false, optional: false, required: true
-  private _engine?: string;
+  private _engine?: string; 
   public get engine() {
     return this.getStringAttribute('engine');
   }
@@ -547,7 +547,7 @@ export class RdsClusterInstance extends cdktn.TerraformResource {
   }
 
   // engine_version - computed: true, optional: true, required: false
-  private _engineVersion?: string;
+  private _engineVersion?: string; 
   public get engineVersion() {
     return this.getStringAttribute('engine_version');
   }
@@ -568,7 +568,7 @@ export class RdsClusterInstance extends cdktn.TerraformResource {
   }
 
   // force_destroy - computed: false, optional: true, required: false
-  private _forceDestroy?: boolean | cdktn.IResolvable;
+  private _forceDestroy?: boolean | cdktn.IResolvable; 
   public get forceDestroy() {
     return this.getBooleanAttribute('force_destroy');
   }
@@ -584,7 +584,7 @@ export class RdsClusterInstance extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -600,7 +600,7 @@ export class RdsClusterInstance extends cdktn.TerraformResource {
   }
 
   // identifier - computed: true, optional: true, required: false
-  private _identifier?: string;
+  private _identifier?: string; 
   public get identifier() {
     return this.getStringAttribute('identifier');
   }
@@ -616,7 +616,7 @@ export class RdsClusterInstance extends cdktn.TerraformResource {
   }
 
   // identifier_prefix - computed: true, optional: true, required: false
-  private _identifierPrefix?: string;
+  private _identifierPrefix?: string; 
   public get identifierPrefix() {
     return this.getStringAttribute('identifier_prefix');
   }
@@ -632,7 +632,7 @@ export class RdsClusterInstance extends cdktn.TerraformResource {
   }
 
   // instance_class - computed: false, optional: false, required: true
-  private _instanceClass?: string;
+  private _instanceClass?: string; 
   public get instanceClass() {
     return this.getStringAttribute('instance_class');
   }
@@ -650,7 +650,7 @@ export class RdsClusterInstance extends cdktn.TerraformResource {
   }
 
   // monitoring_interval - computed: false, optional: true, required: false
-  private _monitoringInterval?: number;
+  private _monitoringInterval?: number; 
   public get monitoringInterval() {
     return this.getNumberAttribute('monitoring_interval');
   }
@@ -666,7 +666,7 @@ export class RdsClusterInstance extends cdktn.TerraformResource {
   }
 
   // monitoring_role_arn - computed: true, optional: true, required: false
-  private _monitoringRoleArn?: string;
+  private _monitoringRoleArn?: string; 
   public get monitoringRoleArn() {
     return this.getStringAttribute('monitoring_role_arn');
   }
@@ -687,7 +687,7 @@ export class RdsClusterInstance extends cdktn.TerraformResource {
   }
 
   // performance_insights_enabled - computed: true, optional: true, required: false
-  private _performanceInsightsEnabled?: boolean | cdktn.IResolvable;
+  private _performanceInsightsEnabled?: boolean | cdktn.IResolvable; 
   public get performanceInsightsEnabled() {
     return this.getBooleanAttribute('performance_insights_enabled');
   }
@@ -703,7 +703,7 @@ export class RdsClusterInstance extends cdktn.TerraformResource {
   }
 
   // performance_insights_kms_key_id - computed: true, optional: true, required: false
-  private _performanceInsightsKmsKeyId?: string;
+  private _performanceInsightsKmsKeyId?: string; 
   public get performanceInsightsKmsKeyId() {
     return this.getStringAttribute('performance_insights_kms_key_id');
   }
@@ -719,7 +719,7 @@ export class RdsClusterInstance extends cdktn.TerraformResource {
   }
 
   // performance_insights_retention_period - computed: true, optional: true, required: false
-  private _performanceInsightsRetentionPeriod?: number;
+  private _performanceInsightsRetentionPeriod?: number; 
   public get performanceInsightsRetentionPeriod() {
     return this.getNumberAttribute('performance_insights_retention_period');
   }
@@ -740,7 +740,7 @@ export class RdsClusterInstance extends cdktn.TerraformResource {
   }
 
   // preferred_backup_window - computed: true, optional: true, required: false
-  private _preferredBackupWindow?: string;
+  private _preferredBackupWindow?: string; 
   public get preferredBackupWindow() {
     return this.getStringAttribute('preferred_backup_window');
   }
@@ -756,7 +756,7 @@ export class RdsClusterInstance extends cdktn.TerraformResource {
   }
 
   // preferred_maintenance_window - computed: true, optional: true, required: false
-  private _preferredMaintenanceWindow?: string;
+  private _preferredMaintenanceWindow?: string; 
   public get preferredMaintenanceWindow() {
     return this.getStringAttribute('preferred_maintenance_window');
   }
@@ -772,7 +772,7 @@ export class RdsClusterInstance extends cdktn.TerraformResource {
   }
 
   // promotion_tier - computed: false, optional: true, required: false
-  private _promotionTier?: number;
+  private _promotionTier?: number; 
   public get promotionTier() {
     return this.getNumberAttribute('promotion_tier');
   }
@@ -788,7 +788,7 @@ export class RdsClusterInstance extends cdktn.TerraformResource {
   }
 
   // publicly_accessible - computed: true, optional: true, required: false
-  private _publiclyAccessible?: boolean | cdktn.IResolvable;
+  private _publiclyAccessible?: boolean | cdktn.IResolvable; 
   public get publiclyAccessible() {
     return this.getBooleanAttribute('publicly_accessible');
   }
@@ -804,7 +804,7 @@ export class RdsClusterInstance extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -825,7 +825,7 @@ export class RdsClusterInstance extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -841,7 +841,7 @@ export class RdsClusterInstance extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

@@ -175,7 +175,7 @@ export class SecuritylakeSubscriberNotificationNotificationConfigurationHttpsNot
   }
 
   // authorization_api_key_name - computed: true, optional: true, required: false
-  private _authorizationApiKeyName?: string;
+  private _authorizationApiKeyName?: string; 
   public get authorizationApiKeyName() {
     return this.getStringAttribute('authorization_api_key_name');
   }
@@ -191,7 +191,7 @@ export class SecuritylakeSubscriberNotificationNotificationConfigurationHttpsNot
   }
 
   // authorization_api_key_value - computed: true, optional: true, required: false
-  private _authorizationApiKeyValue?: string;
+  private _authorizationApiKeyValue?: string; 
   public get authorizationApiKeyValue() {
     return this.getStringAttribute('authorization_api_key_value');
   }
@@ -207,7 +207,7 @@ export class SecuritylakeSubscriberNotificationNotificationConfigurationHttpsNot
   }
 
   // endpoint - computed: true, optional: true, required: false
-  private _endpoint?: string;
+  private _endpoint?: string; 
   public get endpoint() {
     return this.getStringAttribute('endpoint');
   }
@@ -223,7 +223,7 @@ export class SecuritylakeSubscriberNotificationNotificationConfigurationHttpsNot
   }
 
   // http_method - computed: true, optional: true, required: false
-  private _httpMethod?: string;
+  private _httpMethod?: string; 
   public get httpMethod() {
     return this.getStringAttribute('http_method');
   }
@@ -239,7 +239,7 @@ export class SecuritylakeSubscriberNotificationNotificationConfigurationHttpsNot
   }
 
   // target_role_arn - computed: true, optional: true, required: false
-  private _targetRoleArn?: string;
+  private _targetRoleArn?: string; 
   public get targetRoleArn() {
     return this.getStringAttribute('target_role_arn');
   }
@@ -370,7 +370,7 @@ export class SecuritylakeSubscriberNotificationNotificationConfigurationOutputRe
   }
 
   // sqs_notification_configuration - computed: true, optional: true, required: false
-  private _sqsNotificationConfiguration?: string;
+  private _sqsNotificationConfiguration?: string; 
   public get sqsNotificationConfiguration() {
     return this.getStringAttribute('sqs_notification_configuration');
   }
@@ -463,7 +463,7 @@ export class SecuritylakeSubscriberNotification extends cdktn.TerraformResource 
   }
 
   // subscriber_arn - computed: false, optional: false, required: true
-  private _subscriberArn?: string;
+  private _subscriberArn?: string; 
   public get subscriberArn() {
     return this.getStringAttribute('subscriber_arn');
   }

@@ -201,7 +201,7 @@ export class DataAwsKendraQuerySuggestionsBlockList extends cdktn.TerraformDataS
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -217,7 +217,7 @@ export class DataAwsKendraQuerySuggestionsBlockList extends cdktn.TerraformDataS
   }
 
   // index_id - computed: false, optional: false, required: true
-  private _indexId?: string;
+  private _indexId?: string; 
   public get indexId() {
     return this.getStringAttribute('index_id');
   }
@@ -240,7 +240,7 @@ export class DataAwsKendraQuerySuggestionsBlockList extends cdktn.TerraformDataS
   }
 
   // query_suggestions_block_list_id - computed: false, optional: false, required: true
-  private _querySuggestionsBlockListId?: string;
+  private _querySuggestionsBlockListId?: string; 
   public get querySuggestionsBlockListId() {
     return this.getStringAttribute('query_suggestions_block_list_id');
   }
@@ -253,7 +253,7 @@ export class DataAwsKendraQuerySuggestionsBlockList extends cdktn.TerraformDataS
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -285,7 +285,7 @@ export class DataAwsKendraQuerySuggestionsBlockList extends cdktn.TerraformDataS
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

@@ -183,7 +183,7 @@ export class MediaconnectBridgeOutputNetworkOutputOutputReference extends cdktn.
   }
 
   // ip_address - computed: false, optional: false, required: true
-  private _ipAddress?: string;
+  private _ipAddress?: string; 
   public get ipAddress() {
     return this.getStringAttribute('ip_address');
   }
@@ -196,7 +196,7 @@ export class MediaconnectBridgeOutputNetworkOutputOutputReference extends cdktn.
   }
 
   // network_name - computed: false, optional: false, required: true
-  private _networkName?: string;
+  private _networkName?: string; 
   public get networkName() {
     return this.getStringAttribute('network_name');
   }
@@ -209,7 +209,7 @@ export class MediaconnectBridgeOutputNetworkOutputOutputReference extends cdktn.
   }
 
   // port - computed: false, optional: false, required: true
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -222,7 +222,7 @@ export class MediaconnectBridgeOutputNetworkOutputOutputReference extends cdktn.
   }
 
   // protocol - computed: false, optional: false, required: true
-  private _protocol?: string;
+  private _protocol?: string; 
   public get protocol() {
     return this.getStringAttribute('protocol');
   }
@@ -235,7 +235,7 @@ export class MediaconnectBridgeOutputNetworkOutputOutputReference extends cdktn.
   }
 
   // ttl - computed: false, optional: false, required: true
-  private _ttl?: number;
+  private _ttl?: number; 
   public get ttl() {
     return this.getNumberAttribute('ttl');
   }
@@ -308,7 +308,7 @@ export class MediaconnectBridgeOutput extends cdktn.TerraformResource {
   // ==========
 
   // bridge_arn - computed: false, optional: false, required: true
-  private _bridgeArn?: string;
+  private _bridgeArn?: string; 
   public get bridgeArn() {
     return this.getStringAttribute('bridge_arn');
   }
@@ -326,7 +326,7 @@ export class MediaconnectBridgeOutput extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }

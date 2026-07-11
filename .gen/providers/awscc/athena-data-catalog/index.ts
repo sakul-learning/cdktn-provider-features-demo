@@ -14,7 +14,7 @@ export interface AthenaDataCatalogConfig extends cdktn.TerraformMetaArguments {
   */
   readonly connectionType?: string;
   /**
-  * A description of the data catalog to be created.
+  * A description of the data catalog to be created. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/athena_data_catalog#description AthenaDataCatalog#description}
   */
@@ -26,13 +26,13 @@ export interface AthenaDataCatalogConfig extends cdktn.TerraformMetaArguments {
   */
   readonly error?: string;
   /**
-  * The name of the data catalog to create. The catalog name must be unique for the AWS account and can use a maximum of 128 alphanumeric, underscore, at sign, or hyphen characters.
+  * The name of the data catalog to create. The catalog name must be unique for the AWS account and can use a maximum of 128 alphanumeric, underscore, at sign, or hyphen characters. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/athena_data_catalog#name AthenaDataCatalog#name}
   */
   readonly name: string;
   /**
-  * Specifies the Lambda function or functions to use for creating the data catalog. This is a mapping whose values depend on the catalog type.
+  * Specifies the Lambda function or functions to use for creating the data catalog. This is a mapping whose values depend on the catalog type. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/athena_data_catalog#parameters AthenaDataCatalog#parameters}
   */
@@ -44,7 +44,7 @@ export interface AthenaDataCatalogConfig extends cdktn.TerraformMetaArguments {
   */
   readonly status?: string;
   /**
-  * A list of comma separated tags to add to the data catalog that is created.
+  * A list of comma separated tags to add to the data catalog that is created. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/athena_data_catalog#tags AthenaDataCatalog#tags}
   */
@@ -154,7 +154,7 @@ export class AthenaDataCatalogTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -170,7 +170,7 @@ export class AthenaDataCatalogTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -271,7 +271,7 @@ export class AthenaDataCatalog extends cdktn.TerraformResource {
   // ==========
 
   // connection_type - computed: true, optional: true, required: false
-  private _connectionType?: string;
+  private _connectionType?: string; 
   public get connectionType() {
     return this.getStringAttribute('connection_type');
   }
@@ -287,7 +287,7 @@ export class AthenaDataCatalog extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -303,7 +303,7 @@ export class AthenaDataCatalog extends cdktn.TerraformResource {
   }
 
   // error - computed: true, optional: true, required: false
-  private _error?: string;
+  private _error?: string; 
   public get error() {
     return this.getStringAttribute('error');
   }
@@ -324,7 +324,7 @@ export class AthenaDataCatalog extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -337,7 +337,7 @@ export class AthenaDataCatalog extends cdktn.TerraformResource {
   }
 
   // parameters - computed: true, optional: true, required: false
-  private _parameters?: { [key: string]: string };
+  private _parameters?: { [key: string]: string }; 
   public get parameters() {
     return this.getStringMapAttribute('parameters');
   }
@@ -353,7 +353,7 @@ export class AthenaDataCatalog extends cdktn.TerraformResource {
   }
 
   // status - computed: true, optional: true, required: false
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -385,7 +385,7 @@ export class AthenaDataCatalog extends cdktn.TerraformResource {
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }

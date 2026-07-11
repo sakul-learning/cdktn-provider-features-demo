@@ -76,7 +76,7 @@ export class OrganizationsAwsServiceAccess extends cdktn.TerraformResource {
   }
 
   // service_principal - computed: false, optional: false, required: true
-  private _servicePrincipal?: string;
+  private _servicePrincipal?: string; 
   public get servicePrincipal() {
     return this.getStringAttribute('service_principal');
   }

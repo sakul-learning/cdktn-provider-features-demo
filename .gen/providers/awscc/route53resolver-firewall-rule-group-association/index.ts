@@ -146,7 +146,7 @@ export class Route53ResolverFirewallRuleGroupAssociationTagsOutputReference exte
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -162,7 +162,7 @@ export class Route53ResolverFirewallRuleGroupAssociationTagsOutputReference exte
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -281,7 +281,7 @@ export class Route53ResolverFirewallRuleGroupAssociation extends cdktn.Terraform
   }
 
   // firewall_rule_group_id - computed: false, optional: false, required: true
-  private _firewallRuleGroupId?: string;
+  private _firewallRuleGroupId?: string; 
   public get firewallRuleGroupId() {
     return this.getStringAttribute('firewall_rule_group_id');
   }
@@ -309,7 +309,7 @@ export class Route53ResolverFirewallRuleGroupAssociation extends cdktn.Terraform
   }
 
   // mutation_protection - computed: true, optional: true, required: false
-  private _mutationProtection?: string;
+  private _mutationProtection?: string; 
   public get mutationProtection() {
     return this.getStringAttribute('mutation_protection');
   }
@@ -325,7 +325,7 @@ export class Route53ResolverFirewallRuleGroupAssociation extends cdktn.Terraform
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -341,7 +341,7 @@ export class Route53ResolverFirewallRuleGroupAssociation extends cdktn.Terraform
   }
 
   // priority - computed: false, optional: false, required: true
-  private _priority?: number;
+  private _priority?: number; 
   public get priority() {
     return this.getNumberAttribute('priority');
   }
@@ -380,7 +380,7 @@ export class Route53ResolverFirewallRuleGroupAssociation extends cdktn.Terraform
   }
 
   // vpc_id - computed: false, optional: false, required: true
-  private _vpcId?: string;
+  private _vpcId?: string; 
   public get vpcId() {
     return this.getStringAttribute('vpc_id');
   }

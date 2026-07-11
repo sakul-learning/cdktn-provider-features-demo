@@ -38,13 +38,13 @@ export interface DeadlineMonitorConfig extends cdktn.TerraformMetaArguments {
 }
 export interface DeadlineMonitorTags {
   /**
-  * The key name of the tag. You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
+  * The key name of the tag. You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_monitor#key DeadlineMonitor#key}
   */
   readonly key?: string;
   /**
-  * The value for the tag. You can specify a value that is 1 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
+  * The value for the tag. You can specify a value that is 1 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_monitor#value DeadlineMonitor#value}
   */
@@ -138,7 +138,7 @@ export class DeadlineMonitorTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -154,7 +154,7 @@ export class DeadlineMonitorTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -258,7 +258,7 @@ export class DeadlineMonitor extends cdktn.TerraformResource {
   }
 
   // display_name - computed: false, optional: false, required: true
-  private _displayName?: string;
+  private _displayName?: string; 
   public get displayName() {
     return this.getStringAttribute('display_name');
   }
@@ -281,7 +281,7 @@ export class DeadlineMonitor extends cdktn.TerraformResource {
   }
 
   // identity_center_instance_arn - computed: false, optional: false, required: true
-  private _identityCenterInstanceArn?: string;
+  private _identityCenterInstanceArn?: string; 
   public get identityCenterInstanceArn() {
     return this.getStringAttribute('identity_center_instance_arn');
   }
@@ -294,7 +294,7 @@ export class DeadlineMonitor extends cdktn.TerraformResource {
   }
 
   // identity_center_region - computed: true, optional: true, required: false
-  private _identityCenterRegion?: string;
+  private _identityCenterRegion?: string; 
   public get identityCenterRegion() {
     return this.getStringAttribute('identity_center_region');
   }
@@ -315,7 +315,7 @@ export class DeadlineMonitor extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -328,7 +328,7 @@ export class DeadlineMonitor extends cdktn.TerraformResource {
   }
 
   // subdomain - computed: false, optional: false, required: true
-  private _subdomain?: string;
+  private _subdomain?: string; 
   public get subdomain() {
     return this.getStringAttribute('subdomain');
   }

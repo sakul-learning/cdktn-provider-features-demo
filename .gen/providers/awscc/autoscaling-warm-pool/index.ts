@@ -107,7 +107,7 @@ export class AutoscalingWarmPoolInstanceReusePolicyOutputReference extends cdktn
   }
 
   // reuse_on_scale_in - computed: true, optional: true, required: false
-  private _reuseOnScaleIn?: boolean | cdktn.IResolvable;
+  private _reuseOnScaleIn?: boolean | cdktn.IResolvable; 
   public get reuseOnScaleIn() {
     return this.getBooleanAttribute('reuse_on_scale_in');
   }
@@ -185,7 +185,7 @@ export class AutoscalingWarmPool extends cdktn.TerraformResource {
   // ==========
 
   // auto_scaling_group_name - computed: false, optional: false, required: true
-  private _autoScalingGroupName?: string;
+  private _autoScalingGroupName?: string; 
   public get autoScalingGroupName() {
     return this.getStringAttribute('auto_scaling_group_name');
   }
@@ -219,7 +219,7 @@ export class AutoscalingWarmPool extends cdktn.TerraformResource {
   }
 
   // max_group_prepared_capacity - computed: true, optional: true, required: false
-  private _maxGroupPreparedCapacity?: number;
+  private _maxGroupPreparedCapacity?: number; 
   public get maxGroupPreparedCapacity() {
     return this.getNumberAttribute('max_group_prepared_capacity');
   }
@@ -235,7 +235,7 @@ export class AutoscalingWarmPool extends cdktn.TerraformResource {
   }
 
   // min_size - computed: true, optional: true, required: false
-  private _minSize?: number;
+  private _minSize?: number; 
   public get minSize() {
     return this.getNumberAttribute('min_size');
   }
@@ -251,7 +251,7 @@ export class AutoscalingWarmPool extends cdktn.TerraformResource {
   }
 
   // pool_state - computed: true, optional: true, required: false
-  private _poolState?: string;
+  private _poolState?: string; 
   public get poolState() {
     return this.getStringAttribute('pool_state');
   }

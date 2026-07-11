@@ -136,7 +136,7 @@ export class IotsitewiseProjectTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -152,7 +152,7 @@ export class IotsitewiseProjectTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -250,7 +250,7 @@ export class IotsitewiseProject extends cdktn.TerraformResource {
   // ==========
 
   // asset_ids - computed: true, optional: true, required: false
-  private _assetIds?: string[];
+  private _assetIds?: string[]; 
   public get assetIds() {
     return this.getListAttribute('asset_ids');
   }
@@ -271,7 +271,7 @@ export class IotsitewiseProject extends cdktn.TerraformResource {
   }
 
   // portal_id - computed: false, optional: false, required: true
-  private _portalId?: string;
+  private _portalId?: string; 
   public get portalId() {
     return this.getStringAttribute('portal_id');
   }
@@ -289,7 +289,7 @@ export class IotsitewiseProject extends cdktn.TerraformResource {
   }
 
   // project_description - computed: true, optional: true, required: false
-  private _projectDescription?: string;
+  private _projectDescription?: string; 
   public get projectDescription() {
     return this.getStringAttribute('project_description');
   }
@@ -310,7 +310,7 @@ export class IotsitewiseProject extends cdktn.TerraformResource {
   }
 
   // project_name - computed: false, optional: false, required: true
-  private _projectName?: string;
+  private _projectName?: string; 
   public get projectName() {
     return this.getStringAttribute('project_name');
   }

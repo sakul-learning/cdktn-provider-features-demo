@@ -109,7 +109,7 @@ export class VerifiedpermissionsIdentitySourceConfigurationCognitoUserPoolConfig
   }
 
   // group_entity_type - computed: false, optional: false, required: true
-  private _groupEntityType?: string;
+  private _groupEntityType?: string; 
   public get groupEntityType() {
     return this.getStringAttribute('group_entity_type');
   }
@@ -258,7 +258,7 @@ export class VerifiedpermissionsIdentitySourceConfigurationCognitoUserPoolConfig
   }
 
   // client_ids - computed: true, optional: true, required: false
-  private _clientIds?: string[];
+  private _clientIds?: string[]; 
   public get clientIds() {
     return this.getListAttribute('client_ids');
   }
@@ -274,7 +274,7 @@ export class VerifiedpermissionsIdentitySourceConfigurationCognitoUserPoolConfig
   }
 
   // user_pool_arn - computed: false, optional: false, required: true
-  private _userPoolArn?: string;
+  private _userPoolArn?: string; 
   public get userPoolArn() {
     return this.getStringAttribute('user_pool_arn');
   }
@@ -420,7 +420,7 @@ export class VerifiedpermissionsIdentitySourceConfigurationOpenIdConnectConfigur
   }
 
   // group_claim - computed: false, optional: false, required: true
-  private _groupClaim?: string;
+  private _groupClaim?: string; 
   public get groupClaim() {
     return this.getStringAttribute('group_claim');
   }
@@ -433,7 +433,7 @@ export class VerifiedpermissionsIdentitySourceConfigurationOpenIdConnectConfigur
   }
 
   // group_entity_type - computed: false, optional: false, required: true
-  private _groupEntityType?: string;
+  private _groupEntityType?: string; 
   public get groupEntityType() {
     return this.getStringAttribute('group_entity_type');
   }
@@ -563,7 +563,7 @@ export class VerifiedpermissionsIdentitySourceConfigurationOpenIdConnectConfigur
   }
 
   // audiences - computed: false, optional: true, required: false
-  private _audiences?: string[];
+  private _audiences?: string[]; 
   public get audiences() {
     return this.getListAttribute('audiences');
   }
@@ -579,7 +579,7 @@ export class VerifiedpermissionsIdentitySourceConfigurationOpenIdConnectConfigur
   }
 
   // principal_id_claim - computed: false, optional: true, required: false
-  private _principalIdClaim?: string;
+  private _principalIdClaim?: string; 
   public get principalIdClaim() {
     return this.getStringAttribute('principal_id_claim');
   }
@@ -712,7 +712,7 @@ export class VerifiedpermissionsIdentitySourceConfigurationOpenIdConnectConfigur
   }
 
   // client_ids - computed: false, optional: true, required: false
-  private _clientIds?: string[];
+  private _clientIds?: string[]; 
   public get clientIds() {
     return this.getListAttribute('client_ids');
   }
@@ -728,7 +728,7 @@ export class VerifiedpermissionsIdentitySourceConfigurationOpenIdConnectConfigur
   }
 
   // principal_id_claim - computed: false, optional: true, required: false
-  private _principalIdClaim?: string;
+  private _principalIdClaim?: string; 
   public get principalIdClaim() {
     return this.getStringAttribute('principal_id_claim');
   }
@@ -1052,7 +1052,7 @@ export class VerifiedpermissionsIdentitySourceConfigurationOpenIdConnectConfigur
   }
 
   // entity_id_prefix - computed: false, optional: true, required: false
-  private _entityIdPrefix?: string;
+  private _entityIdPrefix?: string; 
   public get entityIdPrefix() {
     return this.getStringAttribute('entity_id_prefix');
   }
@@ -1068,7 +1068,7 @@ export class VerifiedpermissionsIdentitySourceConfigurationOpenIdConnectConfigur
   }
 
   // issuer - computed: false, optional: false, required: true
-  private _issuer?: string;
+  private _issuer?: string; 
   public get issuer() {
     return this.getStringAttribute('issuer');
   }
@@ -1352,7 +1352,7 @@ export class VerifiedpermissionsIdentitySource extends cdktn.TerraformResource {
   }
 
   // policy_store_id - computed: false, optional: false, required: true
-  private _policyStoreId?: string;
+  private _policyStoreId?: string; 
   public get policyStoreId() {
     return this.getStringAttribute('policy_store_id');
   }
@@ -1365,7 +1365,7 @@ export class VerifiedpermissionsIdentitySource extends cdktn.TerraformResource {
   }
 
   // principal_entity_type - computed: true, optional: true, required: false
-  private _principalEntityType?: string;
+  private _principalEntityType?: string; 
   public get principalEntityType() {
     return this.getStringAttribute('principal_entity_type');
   }
@@ -1381,7 +1381,7 @@ export class VerifiedpermissionsIdentitySource extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

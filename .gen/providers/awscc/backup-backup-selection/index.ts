@@ -114,7 +114,7 @@ export class BackupBackupSelectionBackupSelectionConditionsStringEqualsOutputRef
   }
 
   // condition_key - computed: true, optional: true, required: false
-  private _conditionKey?: string;
+  private _conditionKey?: string; 
   public get conditionKey() {
     return this.getStringAttribute('condition_key');
   }
@@ -130,7 +130,7 @@ export class BackupBackupSelectionBackupSelectionConditionsStringEqualsOutputRef
   }
 
   // condition_value - computed: true, optional: true, required: false
-  private _conditionValue?: string;
+  private _conditionValue?: string; 
   public get conditionValue() {
     return this.getStringAttribute('condition_value');
   }
@@ -263,7 +263,7 @@ export class BackupBackupSelectionBackupSelectionConditionsStringLikeOutputRefer
   }
 
   // condition_key - computed: true, optional: true, required: false
-  private _conditionKey?: string;
+  private _conditionKey?: string; 
   public get conditionKey() {
     return this.getStringAttribute('condition_key');
   }
@@ -279,7 +279,7 @@ export class BackupBackupSelectionBackupSelectionConditionsStringLikeOutputRefer
   }
 
   // condition_value - computed: true, optional: true, required: false
-  private _conditionValue?: string;
+  private _conditionValue?: string; 
   public get conditionValue() {
     return this.getStringAttribute('condition_value');
   }
@@ -412,7 +412,7 @@ export class BackupBackupSelectionBackupSelectionConditionsStringNotEqualsOutput
   }
 
   // condition_key - computed: true, optional: true, required: false
-  private _conditionKey?: string;
+  private _conditionKey?: string; 
   public get conditionKey() {
     return this.getStringAttribute('condition_key');
   }
@@ -428,7 +428,7 @@ export class BackupBackupSelectionBackupSelectionConditionsStringNotEqualsOutput
   }
 
   // condition_value - computed: true, optional: true, required: false
-  private _conditionValue?: string;
+  private _conditionValue?: string; 
   public get conditionValue() {
     return this.getStringAttribute('condition_value');
   }
@@ -561,7 +561,7 @@ export class BackupBackupSelectionBackupSelectionConditionsStringNotLikeOutputRe
   }
 
   // condition_key - computed: true, optional: true, required: false
-  private _conditionKey?: string;
+  private _conditionKey?: string; 
   public get conditionKey() {
     return this.getStringAttribute('condition_key');
   }
@@ -577,7 +577,7 @@ export class BackupBackupSelectionBackupSelectionConditionsStringNotLikeOutputRe
   }
 
   // condition_value - computed: true, optional: true, required: false
-  private _conditionValue?: string;
+  private _conditionValue?: string; 
   public get conditionValue() {
     return this.getStringAttribute('condition_value');
   }
@@ -920,7 +920,7 @@ export class BackupBackupSelectionBackupSelectionListOfTagsOutputReference exten
   }
 
   // condition_key - computed: true, optional: true, required: false
-  private _conditionKey?: string;
+  private _conditionKey?: string; 
   public get conditionKey() {
     return this.getStringAttribute('condition_key');
   }
@@ -936,7 +936,7 @@ export class BackupBackupSelectionBackupSelectionListOfTagsOutputReference exten
   }
 
   // condition_type - computed: true, optional: true, required: false
-  private _conditionType?: string;
+  private _conditionType?: string; 
   public get conditionType() {
     return this.getStringAttribute('condition_type');
   }
@@ -952,7 +952,7 @@ export class BackupBackupSelectionBackupSelectionListOfTagsOutputReference exten
   }
 
   // condition_value - computed: true, optional: true, required: false
-  private _conditionValue?: string;
+  private _conditionValue?: string; 
   public get conditionValue() {
     return this.getStringAttribute('condition_value');
   }
@@ -1167,7 +1167,7 @@ export class BackupBackupSelectionBackupSelectionOutputReference extends cdktn.C
   }
 
   // iam_role_arn - computed: false, optional: false, required: true
-  private _iamRoleArn?: string;
+  private _iamRoleArn?: string; 
   public get iamRoleArn() {
     return this.getStringAttribute('iam_role_arn');
   }
@@ -1196,7 +1196,7 @@ export class BackupBackupSelectionBackupSelectionOutputReference extends cdktn.C
   }
 
   // not_resources - computed: true, optional: true, required: false
-  private _notResources?: string[];
+  private _notResources?: string[]; 
   public get notResources() {
     return this.getListAttribute('not_resources');
   }
@@ -1212,7 +1212,7 @@ export class BackupBackupSelectionBackupSelectionOutputReference extends cdktn.C
   }
 
   // resources - computed: true, optional: true, required: false
-  private _resources?: string[];
+  private _resources?: string[]; 
   public get resources() {
     return this.getListAttribute('resources');
   }
@@ -1228,7 +1228,7 @@ export class BackupBackupSelectionBackupSelectionOutputReference extends cdktn.C
   }
 
   // selection_name - computed: false, optional: false, required: true
-  private _selectionName?: string;
+  private _selectionName?: string; 
   public get selectionName() {
     return this.getStringAttribute('selection_name');
   }
@@ -1300,7 +1300,7 @@ export class BackupBackupSelection extends cdktn.TerraformResource {
   // ==========
 
   // backup_plan_id - computed: false, optional: false, required: true
-  private _backupPlanId?: string;
+  private _backupPlanId?: string; 
   public get backupPlanId() {
     return this.getStringAttribute('backup_plan_id');
   }

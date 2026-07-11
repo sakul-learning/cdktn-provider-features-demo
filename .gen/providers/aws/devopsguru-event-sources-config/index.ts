@@ -101,7 +101,7 @@ export class DevopsguruEventSourcesConfigEventSourcesAmazonCodeGuruProfilerOutpu
   }
 
   // status - computed: false, optional: false, required: true
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -316,7 +316,7 @@ export class DevopsguruEventSourcesConfig extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

@@ -141,7 +141,7 @@ export class Lexv2ModelsBotDataPrivacyOutputReference extends cdktn.ComplexObjec
   }
 
   // child_directed - computed: false, optional: false, required: true
-  private _childDirected?: boolean | cdktn.IResolvable;
+  private _childDirected?: boolean | cdktn.IResolvable; 
   public get childDirected() {
     return this.getBooleanAttribute('child_directed');
   }
@@ -325,7 +325,7 @@ export class Lexv2ModelsBotMembersOutputReference extends cdktn.ComplexObject {
   }
 
   // alias_id - computed: false, optional: false, required: true
-  private _aliasId?: string;
+  private _aliasId?: string; 
   public get aliasId() {
     return this.getStringAttribute('alias_id');
   }
@@ -338,7 +338,7 @@ export class Lexv2ModelsBotMembersOutputReference extends cdktn.ComplexObject {
   }
 
   // alias_name - computed: false, optional: false, required: true
-  private _aliasName?: string;
+  private _aliasName?: string; 
   public get aliasName() {
     return this.getStringAttribute('alias_name');
   }
@@ -351,7 +351,7 @@ export class Lexv2ModelsBotMembersOutputReference extends cdktn.ComplexObject {
   }
 
   // id - computed: false, optional: false, required: true
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -364,7 +364,7 @@ export class Lexv2ModelsBotMembersOutputReference extends cdktn.ComplexObject {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -377,7 +377,7 @@ export class Lexv2ModelsBotMembersOutputReference extends cdktn.ComplexObject {
   }
 
   // version - computed: false, optional: false, required: true
-  private _version?: string;
+  private _version?: string; 
   public get version() {
     return this.getStringAttribute('version');
   }
@@ -528,7 +528,7 @@ export class Lexv2ModelsBotTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -544,7 +544,7 @@ export class Lexv2ModelsBotTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -560,7 +560,7 @@ export class Lexv2ModelsBotTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -649,7 +649,7 @@ export class Lexv2ModelsBot extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -670,7 +670,7 @@ export class Lexv2ModelsBot extends cdktn.TerraformResource {
   }
 
   // idle_session_ttl_in_seconds - computed: false, optional: false, required: true
-  private _idleSessionTtlInSeconds?: number;
+  private _idleSessionTtlInSeconds?: number; 
   public get idleSessionTtlInSeconds() {
     return this.getNumberAttribute('idle_session_ttl_in_seconds');
   }
@@ -683,7 +683,7 @@ export class Lexv2ModelsBot extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -696,7 +696,7 @@ export class Lexv2ModelsBot extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -712,7 +712,7 @@ export class Lexv2ModelsBot extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -725,7 +725,7 @@ export class Lexv2ModelsBot extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -747,7 +747,7 @@ export class Lexv2ModelsBot extends cdktn.TerraformResource {
   }
 
   // test_bot_alias_tags - computed: false, optional: true, required: false
-  private _testBotAliasTags?: { [key: string]: string };
+  private _testBotAliasTags?: { [key: string]: string }; 
   public get testBotAliasTags() {
     return this.getStringMapAttribute('test_bot_alias_tags');
   }
@@ -763,7 +763,7 @@ export class Lexv2ModelsBot extends cdktn.TerraformResource {
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }

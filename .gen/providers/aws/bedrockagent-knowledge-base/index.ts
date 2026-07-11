@@ -129,7 +129,7 @@ export class BedrockagentKnowledgeBaseKnowledgeBaseConfigurationKendraKnowledgeB
   }
 
   // kendra_index_arn - computed: false, optional: false, required: true
-  private _kendraIndexArn?: string;
+  private _kendraIndexArn?: string; 
   public get kendraIndexArn() {
     return this.getStringAttribute('kendra_index_arn');
   }
@@ -276,7 +276,7 @@ export class BedrockagentKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBase
   }
 
   // database_user - computed: false, optional: true, required: false
-  private _databaseUser?: string;
+  private _databaseUser?: string; 
   public get databaseUser() {
     return this.getStringAttribute('database_user');
   }
@@ -292,7 +292,7 @@ export class BedrockagentKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBase
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -305,7 +305,7 @@ export class BedrockagentKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBase
   }
 
   // username_password_secret_arn - computed: false, optional: true, required: false
-  private _usernamePasswordSecretArn?: string;
+  private _usernamePasswordSecretArn?: string; 
   public get usernamePasswordSecretArn() {
     return this.getStringAttribute('username_password_secret_arn');
   }
@@ -440,7 +440,7 @@ export class BedrockagentKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBase
   }
 
   // cluster_identifier - computed: false, optional: false, required: true
-  private _clusterIdentifier?: string;
+  private _clusterIdentifier?: string; 
   public get clusterIdentifier() {
     return this.getStringAttribute('cluster_identifier');
   }
@@ -586,7 +586,7 @@ export class BedrockagentKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBase
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -599,7 +599,7 @@ export class BedrockagentKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBase
   }
 
   // username_password_secret_arn - computed: false, optional: true, required: false
-  private _usernamePasswordSecretArn?: string;
+  private _usernamePasswordSecretArn?: string; 
   public get usernamePasswordSecretArn() {
     return this.getStringAttribute('username_password_secret_arn');
   }
@@ -734,7 +734,7 @@ export class BedrockagentKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBase
   }
 
   // workgroup_arn - computed: false, optional: false, required: true
-  private _workgroupArn?: string;
+  private _workgroupArn?: string; 
   public get workgroupArn() {
     return this.getStringAttribute('workgroup_arn');
   }
@@ -901,7 +901,7 @@ export class BedrockagentKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBase
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -1063,7 +1063,7 @@ export class BedrockagentKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBase
   }
 
   // natural_language - computed: false, optional: false, required: true
-  private _naturalLanguage?: string;
+  private _naturalLanguage?: string; 
   public get naturalLanguage() {
     return this.getStringAttribute('natural_language');
   }
@@ -1076,7 +1076,7 @@ export class BedrockagentKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBase
   }
 
   // sql - computed: false, optional: false, required: true
-  private _sql?: string;
+  private _sql?: string; 
   public get sql() {
     return this.getStringAttribute('sql');
   }
@@ -1223,7 +1223,7 @@ export class BedrockagentKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBase
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1239,7 +1239,7 @@ export class BedrockagentKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBase
   }
 
   // inclusion - computed: false, optional: true, required: false
-  private _inclusion?: string;
+  private _inclusion?: string; 
   public get inclusion() {
     return this.getStringAttribute('inclusion');
   }
@@ -1255,7 +1255,7 @@ export class BedrockagentKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBase
   }
 
   // name - computed: false, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1424,7 +1424,7 @@ export class BedrockagentKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBase
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1440,7 +1440,7 @@ export class BedrockagentKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBase
   }
 
   // inclusion - computed: false, optional: true, required: false
-  private _inclusion?: string;
+  private _inclusion?: string; 
   public get inclusion() {
     return this.getStringAttribute('inclusion');
   }
@@ -1456,7 +1456,7 @@ export class BedrockagentKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBase
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1757,7 +1757,7 @@ export class BedrockagentKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBase
   }
 
   // execution_timeout_seconds - computed: false, optional: true, required: false
-  private _executionTimeoutSeconds?: number;
+  private _executionTimeoutSeconds?: number; 
   public get executionTimeoutSeconds() {
     return this.getNumberAttribute('execution_timeout_seconds');
   }
@@ -1889,7 +1889,7 @@ export class BedrockagentKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBase
   }
 
   // table_names - computed: false, optional: false, required: true
-  private _tableNames?: string[];
+  private _tableNames?: string[]; 
   public get tableNames() {
     return cdktn.Fn.tolist(this.getListAttribute('table_names'));
   }
@@ -2002,7 +2002,7 @@ export class BedrockagentKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBase
   }
 
   // database_name - computed: false, optional: false, required: true
-  private _databaseName?: string;
+  private _databaseName?: string; 
   public get databaseName() {
     return this.getStringAttribute('database_name');
   }
@@ -2153,7 +2153,7 @@ export class BedrockagentKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBase
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -2505,7 +2505,7 @@ export class BedrockagentKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBase
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -2651,7 +2651,7 @@ export class BedrockagentKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeB
   }
 
   // dimensions - computed: false, optional: true, required: false
-  private _dimensions?: number;
+  private _dimensions?: number; 
   public get dimensions() {
     return this.getNumberAttribute('dimensions');
   }
@@ -2667,7 +2667,7 @@ export class BedrockagentKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeB
   }
 
   // embedding_data_type - computed: false, optional: true, required: false
-  private _embeddingDataType?: string;
+  private _embeddingDataType?: string; 
   public get embeddingDataType() {
     return this.getStringAttribute('embedding_data_type');
   }
@@ -2901,7 +2901,7 @@ export class BedrockagentKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeB
   }
 
   // uri - computed: false, optional: false, required: true
-  private _uri?: string;
+  private _uri?: string; 
   public get uri() {
     return this.getStringAttribute('uri');
   }
@@ -3033,7 +3033,7 @@ export class BedrockagentKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeB
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -3318,7 +3318,7 @@ export class BedrockagentKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeB
   }
 
   // embedding_model_arn - computed: false, optional: false, required: true
-  private _embeddingModelArn?: string;
+  private _embeddingModelArn?: string; 
   public get embeddingModelArn() {
     return this.getStringAttribute('embedding_model_arn');
   }
@@ -3520,7 +3520,7 @@ export class BedrockagentKnowledgeBaseKnowledgeBaseConfigurationOutputReference 
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -3715,7 +3715,7 @@ export class BedrockagentKnowledgeBaseStorageConfigurationMongoDbAtlasConfigurat
   }
 
   // metadata_field - computed: false, optional: false, required: true
-  private _metadataField?: string;
+  private _metadataField?: string; 
   public get metadataField() {
     return this.getStringAttribute('metadata_field');
   }
@@ -3728,7 +3728,7 @@ export class BedrockagentKnowledgeBaseStorageConfigurationMongoDbAtlasConfigurat
   }
 
   // text_field - computed: false, optional: false, required: true
-  private _textField?: string;
+  private _textField?: string; 
   public get textField() {
     return this.getStringAttribute('text_field');
   }
@@ -3741,7 +3741,7 @@ export class BedrockagentKnowledgeBaseStorageConfigurationMongoDbAtlasConfigurat
   }
 
   // vector_field - computed: false, optional: false, required: true
-  private _vectorField?: string;
+  private _vectorField?: string; 
   public get vectorField() {
     return this.getStringAttribute('vector_field');
   }
@@ -3975,7 +3975,7 @@ export class BedrockagentKnowledgeBaseStorageConfigurationMongoDbAtlasConfigurat
   }
 
   // collection_name - computed: false, optional: false, required: true
-  private _collectionName?: string;
+  private _collectionName?: string; 
   public get collectionName() {
     return this.getStringAttribute('collection_name');
   }
@@ -3988,7 +3988,7 @@ export class BedrockagentKnowledgeBaseStorageConfigurationMongoDbAtlasConfigurat
   }
 
   // credentials_secret_arn - computed: false, optional: false, required: true
-  private _credentialsSecretArn?: string;
+  private _credentialsSecretArn?: string; 
   public get credentialsSecretArn() {
     return this.getStringAttribute('credentials_secret_arn');
   }
@@ -4001,7 +4001,7 @@ export class BedrockagentKnowledgeBaseStorageConfigurationMongoDbAtlasConfigurat
   }
 
   // database_name - computed: false, optional: false, required: true
-  private _databaseName?: string;
+  private _databaseName?: string; 
   public get databaseName() {
     return this.getStringAttribute('database_name');
   }
@@ -4014,7 +4014,7 @@ export class BedrockagentKnowledgeBaseStorageConfigurationMongoDbAtlasConfigurat
   }
 
   // endpoint - computed: false, optional: false, required: true
-  private _endpoint?: string;
+  private _endpoint?: string; 
   public get endpoint() {
     return this.getStringAttribute('endpoint');
   }
@@ -4027,7 +4027,7 @@ export class BedrockagentKnowledgeBaseStorageConfigurationMongoDbAtlasConfigurat
   }
 
   // endpoint_service_name - computed: false, optional: true, required: false
-  private _endpointServiceName?: string;
+  private _endpointServiceName?: string; 
   public get endpointServiceName() {
     return this.getStringAttribute('endpoint_service_name');
   }
@@ -4043,7 +4043,7 @@ export class BedrockagentKnowledgeBaseStorageConfigurationMongoDbAtlasConfigurat
   }
 
   // text_index_name - computed: false, optional: true, required: false
-  private _textIndexName?: string;
+  private _textIndexName?: string; 
   public get textIndexName() {
     return this.getStringAttribute('text_index_name');
   }
@@ -4059,7 +4059,7 @@ export class BedrockagentKnowledgeBaseStorageConfigurationMongoDbAtlasConfigurat
   }
 
   // vector_index_name - computed: false, optional: false, required: true
-  private _vectorIndexName?: string;
+  private _vectorIndexName?: string; 
   public get vectorIndexName() {
     return this.getStringAttribute('vector_index_name');
   }
@@ -4205,7 +4205,7 @@ export class BedrockagentKnowledgeBaseStorageConfigurationNeptuneAnalyticsConfig
   }
 
   // metadata_field - computed: false, optional: false, required: true
-  private _metadataField?: string;
+  private _metadataField?: string; 
   public get metadataField() {
     return this.getStringAttribute('metadata_field');
   }
@@ -4218,7 +4218,7 @@ export class BedrockagentKnowledgeBaseStorageConfigurationNeptuneAnalyticsConfig
   }
 
   // text_field - computed: false, optional: false, required: true
-  private _textField?: string;
+  private _textField?: string; 
   public get textField() {
     return this.getStringAttribute('text_field');
   }
@@ -4350,7 +4350,7 @@ export class BedrockagentKnowledgeBaseStorageConfigurationNeptuneAnalyticsConfig
   }
 
   // graph_arn - computed: false, optional: false, required: true
-  private _graphArn?: string;
+  private _graphArn?: string; 
   public get graphArn() {
     return this.getStringAttribute('graph_arn');
   }
@@ -4513,7 +4513,7 @@ export class BedrockagentKnowledgeBaseStorageConfigurationOpensearchManagedClust
   }
 
   // metadata_field - computed: false, optional: false, required: true
-  private _metadataField?: string;
+  private _metadataField?: string; 
   public get metadataField() {
     return this.getStringAttribute('metadata_field');
   }
@@ -4526,7 +4526,7 @@ export class BedrockagentKnowledgeBaseStorageConfigurationOpensearchManagedClust
   }
 
   // text_field - computed: false, optional: false, required: true
-  private _textField?: string;
+  private _textField?: string; 
   public get textField() {
     return this.getStringAttribute('text_field');
   }
@@ -4539,7 +4539,7 @@ export class BedrockagentKnowledgeBaseStorageConfigurationOpensearchManagedClust
   }
 
   // vector_field - computed: false, optional: false, required: true
-  private _vectorField?: string;
+  private _vectorField?: string; 
   public get vectorField() {
     return this.getStringAttribute('vector_field');
   }
@@ -4705,7 +4705,7 @@ export class BedrockagentKnowledgeBaseStorageConfigurationOpensearchManagedClust
   }
 
   // domain_arn - computed: false, optional: false, required: true
-  private _domainArn?: string;
+  private _domainArn?: string; 
   public get domainArn() {
     return this.getStringAttribute('domain_arn');
   }
@@ -4718,7 +4718,7 @@ export class BedrockagentKnowledgeBaseStorageConfigurationOpensearchManagedClust
   }
 
   // domain_endpoint - computed: false, optional: false, required: true
-  private _domainEndpoint?: string;
+  private _domainEndpoint?: string; 
   public get domainEndpoint() {
     return this.getStringAttribute('domain_endpoint');
   }
@@ -4731,7 +4731,7 @@ export class BedrockagentKnowledgeBaseStorageConfigurationOpensearchManagedClust
   }
 
   // vector_index_name - computed: false, optional: false, required: true
-  private _vectorIndexName?: string;
+  private _vectorIndexName?: string; 
   public get vectorIndexName() {
     return this.getStringAttribute('vector_index_name');
   }
@@ -4894,7 +4894,7 @@ export class BedrockagentKnowledgeBaseStorageConfigurationOpensearchServerlessCo
   }
 
   // metadata_field - computed: false, optional: false, required: true
-  private _metadataField?: string;
+  private _metadataField?: string; 
   public get metadataField() {
     return this.getStringAttribute('metadata_field');
   }
@@ -4907,7 +4907,7 @@ export class BedrockagentKnowledgeBaseStorageConfigurationOpensearchServerlessCo
   }
 
   // text_field - computed: false, optional: false, required: true
-  private _textField?: string;
+  private _textField?: string; 
   public get textField() {
     return this.getStringAttribute('text_field');
   }
@@ -4920,7 +4920,7 @@ export class BedrockagentKnowledgeBaseStorageConfigurationOpensearchServerlessCo
   }
 
   // vector_field - computed: false, optional: false, required: true
-  private _vectorField?: string;
+  private _vectorField?: string; 
   public get vectorField() {
     return this.getStringAttribute('vector_field');
   }
@@ -5069,7 +5069,7 @@ export class BedrockagentKnowledgeBaseStorageConfigurationOpensearchServerlessCo
   }
 
   // collection_arn - computed: false, optional: false, required: true
-  private _collectionArn?: string;
+  private _collectionArn?: string; 
   public get collectionArn() {
     return this.getStringAttribute('collection_arn');
   }
@@ -5082,7 +5082,7 @@ export class BedrockagentKnowledgeBaseStorageConfigurationOpensearchServerlessCo
   }
 
   // vector_index_name - computed: false, optional: false, required: true
-  private _vectorIndexName?: string;
+  private _vectorIndexName?: string; 
   public get vectorIndexName() {
     return this.getStringAttribute('vector_index_name');
   }
@@ -5228,7 +5228,7 @@ export class BedrockagentKnowledgeBaseStorageConfigurationPineconeConfigurationF
   }
 
   // metadata_field - computed: false, optional: false, required: true
-  private _metadataField?: string;
+  private _metadataField?: string; 
   public get metadataField() {
     return this.getStringAttribute('metadata_field');
   }
@@ -5241,7 +5241,7 @@ export class BedrockagentKnowledgeBaseStorageConfigurationPineconeConfigurationF
   }
 
   // text_field - computed: false, optional: false, required: true
-  private _textField?: string;
+  private _textField?: string; 
   public get textField() {
     return this.getStringAttribute('text_field');
   }
@@ -5407,7 +5407,7 @@ export class BedrockagentKnowledgeBaseStorageConfigurationPineconeConfigurationO
   }
 
   // connection_string - computed: false, optional: false, required: true
-  private _connectionString?: string;
+  private _connectionString?: string; 
   public get connectionString() {
     return this.getStringAttribute('connection_string');
   }
@@ -5420,7 +5420,7 @@ export class BedrockagentKnowledgeBaseStorageConfigurationPineconeConfigurationO
   }
 
   // credentials_secret_arn - computed: false, optional: false, required: true
-  private _credentialsSecretArn?: string;
+  private _credentialsSecretArn?: string; 
   public get credentialsSecretArn() {
     return this.getStringAttribute('credentials_secret_arn');
   }
@@ -5433,7 +5433,7 @@ export class BedrockagentKnowledgeBaseStorageConfigurationPineconeConfigurationO
   }
 
   // namespace - computed: false, optional: true, required: false
-  private _namespace?: string;
+  private _namespace?: string; 
   public get namespace() {
     return this.getStringAttribute('namespace');
   }
@@ -5633,7 +5633,7 @@ export class BedrockagentKnowledgeBaseStorageConfigurationRdsConfigurationFieldM
   }
 
   // custom_metadata_field - computed: false, optional: true, required: false
-  private _customMetadataField?: string;
+  private _customMetadataField?: string; 
   public get customMetadataField() {
     return this.getStringAttribute('custom_metadata_field');
   }
@@ -5649,7 +5649,7 @@ export class BedrockagentKnowledgeBaseStorageConfigurationRdsConfigurationFieldM
   }
 
   // metadata_field - computed: false, optional: false, required: true
-  private _metadataField?: string;
+  private _metadataField?: string; 
   public get metadataField() {
     return this.getStringAttribute('metadata_field');
   }
@@ -5662,7 +5662,7 @@ export class BedrockagentKnowledgeBaseStorageConfigurationRdsConfigurationFieldM
   }
 
   // primary_key_field - computed: false, optional: false, required: true
-  private _primaryKeyField?: string;
+  private _primaryKeyField?: string; 
   public get primaryKeyField() {
     return this.getStringAttribute('primary_key_field');
   }
@@ -5675,7 +5675,7 @@ export class BedrockagentKnowledgeBaseStorageConfigurationRdsConfigurationFieldM
   }
 
   // text_field - computed: false, optional: false, required: true
-  private _textField?: string;
+  private _textField?: string; 
   public get textField() {
     return this.getStringAttribute('text_field');
   }
@@ -5688,7 +5688,7 @@ export class BedrockagentKnowledgeBaseStorageConfigurationRdsConfigurationFieldM
   }
 
   // vector_field - computed: false, optional: false, required: true
-  private _vectorField?: string;
+  private _vectorField?: string; 
   public get vectorField() {
     return this.getStringAttribute('vector_field');
   }
@@ -5871,7 +5871,7 @@ export class BedrockagentKnowledgeBaseStorageConfigurationRdsConfigurationOutput
   }
 
   // credentials_secret_arn - computed: false, optional: false, required: true
-  private _credentialsSecretArn?: string;
+  private _credentialsSecretArn?: string; 
   public get credentialsSecretArn() {
     return this.getStringAttribute('credentials_secret_arn');
   }
@@ -5884,7 +5884,7 @@ export class BedrockagentKnowledgeBaseStorageConfigurationRdsConfigurationOutput
   }
 
   // database_name - computed: false, optional: false, required: true
-  private _databaseName?: string;
+  private _databaseName?: string; 
   public get databaseName() {
     return this.getStringAttribute('database_name');
   }
@@ -5897,7 +5897,7 @@ export class BedrockagentKnowledgeBaseStorageConfigurationRdsConfigurationOutput
   }
 
   // resource_arn - computed: false, optional: false, required: true
-  private _resourceArn?: string;
+  private _resourceArn?: string; 
   public get resourceArn() {
     return this.getStringAttribute('resource_arn');
   }
@@ -5910,7 +5910,7 @@ export class BedrockagentKnowledgeBaseStorageConfigurationRdsConfigurationOutput
   }
 
   // table_name - computed: false, optional: false, required: true
-  private _tableName?: string;
+  private _tableName?: string; 
   public get tableName() {
     return this.getStringAttribute('table_name');
   }
@@ -6073,7 +6073,7 @@ export class BedrockagentKnowledgeBaseStorageConfigurationRedisEnterpriseCloudCo
   }
 
   // metadata_field - computed: false, optional: true, required: false
-  private _metadataField?: string;
+  private _metadataField?: string; 
   public get metadataField() {
     return this.getStringAttribute('metadata_field');
   }
@@ -6089,7 +6089,7 @@ export class BedrockagentKnowledgeBaseStorageConfigurationRedisEnterpriseCloudCo
   }
 
   // text_field - computed: false, optional: true, required: false
-  private _textField?: string;
+  private _textField?: string; 
   public get textField() {
     return this.getStringAttribute('text_field');
   }
@@ -6105,7 +6105,7 @@ export class BedrockagentKnowledgeBaseStorageConfigurationRedisEnterpriseCloudCo
   }
 
   // vector_field - computed: false, optional: true, required: false
-  private _vectorField?: string;
+  private _vectorField?: string; 
   public get vectorField() {
     return this.getStringAttribute('vector_field');
   }
@@ -6274,7 +6274,7 @@ export class BedrockagentKnowledgeBaseStorageConfigurationRedisEnterpriseCloudCo
   }
 
   // credentials_secret_arn - computed: false, optional: false, required: true
-  private _credentialsSecretArn?: string;
+  private _credentialsSecretArn?: string; 
   public get credentialsSecretArn() {
     return this.getStringAttribute('credentials_secret_arn');
   }
@@ -6287,7 +6287,7 @@ export class BedrockagentKnowledgeBaseStorageConfigurationRedisEnterpriseCloudCo
   }
 
   // endpoint - computed: false, optional: false, required: true
-  private _endpoint?: string;
+  private _endpoint?: string; 
   public get endpoint() {
     return this.getStringAttribute('endpoint');
   }
@@ -6300,7 +6300,7 @@ export class BedrockagentKnowledgeBaseStorageConfigurationRedisEnterpriseCloudCo
   }
 
   // vector_index_name - computed: false, optional: false, required: true
-  private _vectorIndexName?: string;
+  private _vectorIndexName?: string; 
   public get vectorIndexName() {
     return this.getStringAttribute('vector_index_name');
   }
@@ -6463,7 +6463,7 @@ export class BedrockagentKnowledgeBaseStorageConfigurationS3VectorsConfiguration
   }
 
   // index_arn - computed: false, optional: true, required: false
-  private _indexArn?: string;
+  private _indexArn?: string; 
   public get indexArn() {
     return this.getStringAttribute('index_arn');
   }
@@ -6479,7 +6479,7 @@ export class BedrockagentKnowledgeBaseStorageConfigurationS3VectorsConfiguration
   }
 
   // index_name - computed: false, optional: true, required: false
-  private _indexName?: string;
+  private _indexName?: string; 
   public get indexName() {
     return this.getStringAttribute('index_name');
   }
@@ -6495,7 +6495,7 @@ export class BedrockagentKnowledgeBaseStorageConfigurationS3VectorsConfiguration
   }
 
   // vector_bucket_arn - computed: false, optional: true, required: false
-  private _vectorBucketArn?: string;
+  private _vectorBucketArn?: string; 
   public get vectorBucketArn() {
     return this.getStringAttribute('vector_bucket_arn');
   }
@@ -6763,7 +6763,7 @@ export class BedrockagentKnowledgeBaseStorageConfigurationOutputReference extend
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -7042,7 +7042,7 @@ export class BedrockagentKnowledgeBaseTimeoutsOutputReference extends cdktn.Comp
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -7058,7 +7058,7 @@ export class BedrockagentKnowledgeBaseTimeoutsOutputReference extends cdktn.Comp
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -7074,7 +7074,7 @@ export class BedrockagentKnowledgeBaseTimeoutsOutputReference extends cdktn.Comp
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -7165,7 +7165,7 @@ export class BedrockagentKnowledgeBase extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -7191,7 +7191,7 @@ export class BedrockagentKnowledgeBase extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -7204,7 +7204,7 @@ export class BedrockagentKnowledgeBase extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -7220,7 +7220,7 @@ export class BedrockagentKnowledgeBase extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -7233,7 +7233,7 @@ export class BedrockagentKnowledgeBase extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

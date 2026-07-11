@@ -107,7 +107,7 @@ export class IdentitystoreGroupMembershipMemberIdOutputReference extends cdktn.C
   }
 
   // user_id - computed: false, optional: false, required: true
-  private _userId?: string;
+  private _userId?: string; 
   public get userId() {
     return this.getStringAttribute('user_id');
   }
@@ -180,7 +180,7 @@ export class IdentitystoreGroupMembership extends cdktn.TerraformResource {
   // ==========
 
   // group_id - computed: false, optional: false, required: true
-  private _groupId?: string;
+  private _groupId?: string; 
   public get groupId() {
     return this.getStringAttribute('group_id');
   }
@@ -198,7 +198,7 @@ export class IdentitystoreGroupMembership extends cdktn.TerraformResource {
   }
 
   // identity_store_id - computed: false, optional: false, required: true
-  private _identityStoreId?: string;
+  private _identityStoreId?: string; 
   public get identityStoreId() {
     return this.getStringAttribute('identity_store_id');
   }

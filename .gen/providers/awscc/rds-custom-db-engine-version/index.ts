@@ -32,7 +32,7 @@ export interface RdsCustomDbEngineVersionConfig extends cdktn.TerraformMetaArgum
   /**
   * The database engine to use for your custom engine version (CEV).
   *  Valid values:
-  *   +   ``custom-oracle-ee``
+  *   +   ``custom-oracle-ee`` 
   *   +   ``custom-oracle-ee-cdb``
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rds_custom_db_engine_version#engine RdsCustomDbEngineVersion#engine}
@@ -63,7 +63,7 @@ export interface RdsCustomDbEngineVersionConfig extends cdktn.TerraformMetaArgum
   /**
   * The CEV manifest, which is a JSON document that describes the installation .zip files stored in Amazon S3. Specify the name/value pairs in a file or a quoted string. RDS Custom applies the patches in the order in which they are listed.
   *  The following JSON fields are valid:
-  *   + MediaImportTemplateVersion Version of the CEV manifest. The date is in the format YYYY-MM-DD. + databaseInstallationFileNames Ordered list of installation files for the CEV. + opatchFileNames Ordered list of OPatch installers used for the Oracle DB engine. + psuRuPatchFileNames The PSU and RU patches for this CEV. + OtherPatchFileNames The patches that are not in the list of PSU and RU patches. Amazon RDS applies these patches after applying the PSU and RU patches.
+  *   + MediaImportTemplateVersion Version of the CEV manifest. The date is in the format YYYY-MM-DD. + databaseInstallationFileNames Ordered list of installation files for the CEV. + opatchFileNames Ordered list of OPatch installers used for the Oracle DB engine. + psuRuPatchFileNames The PSU and RU patches for this CEV. + OtherPatchFileNames The patches that are not in the list of PSU and RU patches. Amazon RDS applies these patches after applying the PSU and RU patches. 
   *  For more information, see [Creating the CEV manifest](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/custom-cev.html#custom-cev.preparing.manifest) in the *Amazon RDS User Guide*.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rds_custom_db_engine_version#manifest RdsCustomDbEngineVersion#manifest}
@@ -196,7 +196,7 @@ export class RdsCustomDbEngineVersionTagsOutputReference extends cdktn.ComplexOb
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -212,7 +212,7 @@ export class RdsCustomDbEngineVersionTagsOutputReference extends cdktn.ComplexOb
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -318,7 +318,7 @@ export class RdsCustomDbEngineVersion extends cdktn.TerraformResource {
   // ==========
 
   // database_installation_files - computed: true, optional: true, required: false
-  private _databaseInstallationFiles?: string[];
+  private _databaseInstallationFiles?: string[]; 
   public get databaseInstallationFiles() {
     return this.getListAttribute('database_installation_files');
   }
@@ -334,7 +334,7 @@ export class RdsCustomDbEngineVersion extends cdktn.TerraformResource {
   }
 
   // database_installation_files_s3_bucket_name - computed: true, optional: true, required: false
-  private _databaseInstallationFilesS3BucketName?: string;
+  private _databaseInstallationFilesS3BucketName?: string; 
   public get databaseInstallationFilesS3BucketName() {
     return this.getStringAttribute('database_installation_files_s3_bucket_name');
   }
@@ -350,7 +350,7 @@ export class RdsCustomDbEngineVersion extends cdktn.TerraformResource {
   }
 
   // database_installation_files_s3_prefix - computed: true, optional: true, required: false
-  private _databaseInstallationFilesS3Prefix?: string;
+  private _databaseInstallationFilesS3Prefix?: string; 
   public get databaseInstallationFilesS3Prefix() {
     return this.getStringAttribute('database_installation_files_s3_prefix');
   }
@@ -371,7 +371,7 @@ export class RdsCustomDbEngineVersion extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -387,7 +387,7 @@ export class RdsCustomDbEngineVersion extends cdktn.TerraformResource {
   }
 
   // engine - computed: false, optional: false, required: true
-  private _engine?: string;
+  private _engine?: string; 
   public get engine() {
     return this.getStringAttribute('engine');
   }
@@ -400,7 +400,7 @@ export class RdsCustomDbEngineVersion extends cdktn.TerraformResource {
   }
 
   // engine_version - computed: false, optional: false, required: true
-  private _engineVersion?: string;
+  private _engineVersion?: string; 
   public get engineVersion() {
     return this.getStringAttribute('engine_version');
   }
@@ -418,7 +418,7 @@ export class RdsCustomDbEngineVersion extends cdktn.TerraformResource {
   }
 
   // image_id - computed: true, optional: true, required: false
-  private _imageId?: string;
+  private _imageId?: string; 
   public get imageId() {
     return this.getStringAttribute('image_id');
   }
@@ -434,7 +434,7 @@ export class RdsCustomDbEngineVersion extends cdktn.TerraformResource {
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -450,7 +450,7 @@ export class RdsCustomDbEngineVersion extends cdktn.TerraformResource {
   }
 
   // manifest - computed: true, optional: true, required: false
-  private _manifest?: string;
+  private _manifest?: string; 
   public get manifest() {
     return this.getStringAttribute('manifest');
   }
@@ -466,7 +466,7 @@ export class RdsCustomDbEngineVersion extends cdktn.TerraformResource {
   }
 
   // source_custom_db_engine_version_identifier - computed: true, optional: true, required: false
-  private _sourceCustomDbEngineVersionIdentifier?: string;
+  private _sourceCustomDbEngineVersionIdentifier?: string; 
   public get sourceCustomDbEngineVersionIdentifier() {
     return this.getStringAttribute('source_custom_db_engine_version_identifier');
   }
@@ -482,7 +482,7 @@ export class RdsCustomDbEngineVersion extends cdktn.TerraformResource {
   }
 
   // status - computed: true, optional: true, required: false
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -514,7 +514,7 @@ export class RdsCustomDbEngineVersion extends cdktn.TerraformResource {
   }
 
   // use_aws_provided_latest_image - computed: true, optional: true, required: false
-  private _useAwsProvidedLatestImage?: boolean | cdktn.IResolvable;
+  private _useAwsProvidedLatestImage?: boolean | cdktn.IResolvable; 
   public get useAwsProvidedLatestImage() {
     return this.getBooleanAttribute('use_aws_provided_latest_image');
   }

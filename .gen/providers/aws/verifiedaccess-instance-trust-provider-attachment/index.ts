@@ -91,7 +91,7 @@ export class VerifiedaccessInstanceTrustProviderAttachment extends cdktn.Terrafo
   // ==========
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -107,7 +107,7 @@ export class VerifiedaccessInstanceTrustProviderAttachment extends cdktn.Terrafo
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -123,7 +123,7 @@ export class VerifiedaccessInstanceTrustProviderAttachment extends cdktn.Terrafo
   }
 
   // verifiedaccess_instance_id - computed: false, optional: false, required: true
-  private _verifiedaccessInstanceId?: string;
+  private _verifiedaccessInstanceId?: string; 
   public get verifiedaccessInstanceId() {
     return this.getStringAttribute('verifiedaccess_instance_id');
   }
@@ -136,7 +136,7 @@ export class VerifiedaccessInstanceTrustProviderAttachment extends cdktn.Terrafo
   }
 
   // verifiedaccess_trust_provider_id - computed: false, optional: false, required: true
-  private _verifiedaccessTrustProviderId?: string;
+  private _verifiedaccessTrustProviderId?: string; 
   public get verifiedaccessTrustProviderId() {
     return this.getStringAttribute('verifiedaccess_trust_provider_id');
   }

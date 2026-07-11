@@ -108,7 +108,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // s3_uri - computed: false, optional: true, required: false
-  private _s3Uri?: string;
+  private _s3Uri?: string; 
   public get s3Uri() {
     return this.getStringAttribute('s3_uri');
   }
@@ -192,7 +192,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // s3_uri - computed: false, optional: true, required: false
-  private _s3Uri?: string;
+  private _s3Uri?: string; 
   public get s3Uri() {
     return this.getStringAttribute('s3_uri');
   }
@@ -314,7 +314,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // baselining_job_name - computed: false, optional: true, required: false
-  private _baseliningJobName?: string;
+  private _baseliningJobName?: string; 
   public get baseliningJobName() {
     return this.getStringAttribute('baselining_job_name');
   }
@@ -498,7 +498,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // container_arguments - computed: false, optional: true, required: false
-  private _containerArguments?: string[];
+  private _containerArguments?: string[]; 
   public get containerArguments() {
     return this.getListAttribute('container_arguments');
   }
@@ -514,7 +514,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // container_entrypoint - computed: false, optional: true, required: false
-  private _containerEntrypoint?: string[];
+  private _containerEntrypoint?: string[]; 
   public get containerEntrypoint() {
     return this.getListAttribute('container_entrypoint');
   }
@@ -530,7 +530,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // image_uri - computed: false, optional: false, required: true
-  private _imageUri?: string;
+  private _imageUri?: string; 
   public get imageUri() {
     return this.getStringAttribute('image_uri');
   }
@@ -543,7 +543,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // post_analytics_processor_source_uri - computed: false, optional: true, required: false
-  private _postAnalyticsProcessorSourceUri?: string;
+  private _postAnalyticsProcessorSourceUri?: string; 
   public get postAnalyticsProcessorSourceUri() {
     return this.getStringAttribute('post_analytics_processor_source_uri');
   }
@@ -559,7 +559,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // record_preprocessor_source_uri - computed: false, optional: true, required: false
-  private _recordPreprocessorSourceUri?: string;
+  private _recordPreprocessorSourceUri?: string; 
   public get recordPreprocessorSourceUri() {
     return this.getStringAttribute('record_preprocessor_source_uri');
   }
@@ -643,7 +643,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // header - computed: false, optional: true, required: false
-  private _header?: boolean | cdktn.IResolvable;
+  private _header?: boolean | cdktn.IResolvable; 
   public get header() {
     return this.getBooleanAttribute('header');
   }
@@ -727,7 +727,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // line - computed: false, optional: true, required: false
-  private _line?: boolean | cdktn.IResolvable;
+  private _line?: boolean | cdktn.IResolvable; 
   public get line() {
     return this.getBooleanAttribute('line');
   }
@@ -1121,7 +1121,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // data_captured_destination_s3_uri - computed: false, optional: false, required: true
-  private _dataCapturedDestinationS3Uri?: string;
+  private _dataCapturedDestinationS3Uri?: string; 
   public get dataCapturedDestinationS3Uri() {
     return this.getStringAttribute('data_captured_destination_s3_uri');
   }
@@ -1134,7 +1134,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // end_time_offset - computed: false, optional: true, required: false
-  private _endTimeOffset?: string;
+  private _endTimeOffset?: string; 
   public get endTimeOffset() {
     return this.getStringAttribute('end_time_offset');
   }
@@ -1150,7 +1150,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // exclude_features_attribute - computed: false, optional: true, required: false
-  private _excludeFeaturesAttribute?: string;
+  private _excludeFeaturesAttribute?: string; 
   public get excludeFeaturesAttribute() {
     return this.getStringAttribute('exclude_features_attribute');
   }
@@ -1166,7 +1166,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // features_attribute - computed: false, optional: true, required: false
-  private _featuresAttribute?: string;
+  private _featuresAttribute?: string; 
   public get featuresAttribute() {
     return this.getStringAttribute('features_attribute');
   }
@@ -1182,7 +1182,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // inference_attribute - computed: false, optional: true, required: false
-  private _inferenceAttribute?: string;
+  private _inferenceAttribute?: string; 
   public get inferenceAttribute() {
     return this.getStringAttribute('inference_attribute');
   }
@@ -1198,7 +1198,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // local_path - computed: false, optional: false, required: true
-  private _localPath?: string;
+  private _localPath?: string; 
   public get localPath() {
     return this.getStringAttribute('local_path');
   }
@@ -1211,7 +1211,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // probability_attribute - computed: false, optional: true, required: false
-  private _probabilityAttribute?: string;
+  private _probabilityAttribute?: string; 
   public get probabilityAttribute() {
     return this.getStringAttribute('probability_attribute');
   }
@@ -1227,7 +1227,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // probability_threshold_attribute - computed: false, optional: true, required: false
-  private _probabilityThresholdAttribute?: number;
+  private _probabilityThresholdAttribute?: number; 
   public get probabilityThresholdAttribute() {
     return this.getNumberAttribute('probability_threshold_attribute');
   }
@@ -1243,7 +1243,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // s3_data_distribution_type - computed: true, optional: true, required: false
-  private _s3DataDistributionType?: string;
+  private _s3DataDistributionType?: string; 
   public get s3DataDistributionType() {
     return this.getStringAttribute('s3_data_distribution_type');
   }
@@ -1259,7 +1259,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // s3_input_mode - computed: true, optional: true, required: false
-  private _s3InputMode?: string;
+  private _s3InputMode?: string; 
   public get s3InputMode() {
     return this.getStringAttribute('s3_input_mode');
   }
@@ -1275,7 +1275,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // start_time_offset - computed: false, optional: true, required: false
-  private _startTimeOffset?: string;
+  private _startTimeOffset?: string; 
   public get startTimeOffset() {
     return this.getStringAttribute('start_time_offset');
   }
@@ -1542,7 +1542,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // end_time_offset - computed: false, optional: true, required: false
-  private _endTimeOffset?: string;
+  private _endTimeOffset?: string; 
   public get endTimeOffset() {
     return this.getStringAttribute('end_time_offset');
   }
@@ -1558,7 +1558,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // endpoint_name - computed: false, optional: false, required: true
-  private _endpointName?: string;
+  private _endpointName?: string; 
   public get endpointName() {
     return this.getStringAttribute('endpoint_name');
   }
@@ -1571,7 +1571,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // exclude_features_attribute - computed: false, optional: true, required: false
-  private _excludeFeaturesAttribute?: string;
+  private _excludeFeaturesAttribute?: string; 
   public get excludeFeaturesAttribute() {
     return this.getStringAttribute('exclude_features_attribute');
   }
@@ -1587,7 +1587,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // features_attribute - computed: false, optional: true, required: false
-  private _featuresAttribute?: string;
+  private _featuresAttribute?: string; 
   public get featuresAttribute() {
     return this.getStringAttribute('features_attribute');
   }
@@ -1603,7 +1603,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // inference_attribute - computed: false, optional: true, required: false
-  private _inferenceAttribute?: string;
+  private _inferenceAttribute?: string; 
   public get inferenceAttribute() {
     return this.getStringAttribute('inference_attribute');
   }
@@ -1619,7 +1619,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // local_path - computed: false, optional: false, required: true
-  private _localPath?: string;
+  private _localPath?: string; 
   public get localPath() {
     return this.getStringAttribute('local_path');
   }
@@ -1632,7 +1632,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // probability_attribute - computed: false, optional: true, required: false
-  private _probabilityAttribute?: string;
+  private _probabilityAttribute?: string; 
   public get probabilityAttribute() {
     return this.getStringAttribute('probability_attribute');
   }
@@ -1648,7 +1648,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // probability_threshold_attribute - computed: false, optional: true, required: false
-  private _probabilityThresholdAttribute?: number;
+  private _probabilityThresholdAttribute?: number; 
   public get probabilityThresholdAttribute() {
     return this.getNumberAttribute('probability_threshold_attribute');
   }
@@ -1664,7 +1664,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // s3_data_distribution_type - computed: true, optional: true, required: false
-  private _s3DataDistributionType?: string;
+  private _s3DataDistributionType?: string; 
   public get s3DataDistributionType() {
     return this.getStringAttribute('s3_data_distribution_type');
   }
@@ -1680,7 +1680,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // s3_input_mode - computed: true, optional: true, required: false
-  private _s3InputMode?: string;
+  private _s3InputMode?: string; 
   public get s3InputMode() {
     return this.getStringAttribute('s3_input_mode');
   }
@@ -1696,7 +1696,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // start_time_offset - computed: false, optional: true, required: false
-  private _startTimeOffset?: string;
+  private _startTimeOffset?: string; 
   public get startTimeOffset() {
     return this.getStringAttribute('start_time_offset');
   }
@@ -1935,7 +1935,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // local_path - computed: false, optional: false, required: true
-  private _localPath?: string;
+  private _localPath?: string; 
   public get localPath() {
     return this.getStringAttribute('local_path');
   }
@@ -1948,7 +1948,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // s3_upload_mode - computed: true, optional: true, required: false
-  private _s3UploadMode?: string;
+  private _s3UploadMode?: string; 
   public get s3UploadMode() {
     return this.getStringAttribute('s3_upload_mode');
   }
@@ -1964,7 +1964,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // s3_uri - computed: false, optional: false, required: true
-  private _s3Uri?: string;
+  private _s3Uri?: string; 
   public get s3Uri() {
     return this.getStringAttribute('s3_uri');
   }
@@ -2147,7 +2147,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // kms_key_id - computed: false, optional: true, required: false
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -2295,7 +2295,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // instance_count - computed: false, optional: false, required: true
-  private _instanceCount?: number;
+  private _instanceCount?: number; 
   public get instanceCount() {
     return this.getNumberAttribute('instance_count');
   }
@@ -2308,7 +2308,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // instance_type - computed: false, optional: false, required: true
-  private _instanceType?: string;
+  private _instanceType?: string; 
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -2321,7 +2321,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // volume_kms_key_id - computed: false, optional: true, required: false
-  private _volumeKmsKeyId?: string;
+  private _volumeKmsKeyId?: string; 
   public get volumeKmsKeyId() {
     return this.getStringAttribute('volume_kms_key_id');
   }
@@ -2337,7 +2337,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // volume_size_in_gb - computed: false, optional: false, required: true
-  private _volumeSizeInGb?: number;
+  private _volumeSizeInGb?: number; 
   public get volumeSizeInGb() {
     return this.getNumberAttribute('volume_size_in_gb');
   }
@@ -2518,7 +2518,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // security_group_ids - computed: false, optional: false, required: true
-  private _securityGroupIds?: string[];
+  private _securityGroupIds?: string[]; 
   public get securityGroupIds() {
     return cdktn.Fn.tolist(this.getListAttribute('security_group_ids'));
   }
@@ -2531,7 +2531,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // subnets - computed: false, optional: false, required: true
-  private _subnets?: string[];
+  private _subnets?: string[]; 
   public get subnets() {
     return cdktn.Fn.tolist(this.getListAttribute('subnets'));
   }
@@ -2648,7 +2648,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // enable_inter_container_traffic_encryption - computed: false, optional: true, required: false
-  private _enableInterContainerTrafficEncryption?: boolean | cdktn.IResolvable;
+  private _enableInterContainerTrafficEncryption?: boolean | cdktn.IResolvable; 
   public get enableInterContainerTrafficEncryption() {
     return this.getBooleanAttribute('enable_inter_container_traffic_encryption');
   }
@@ -2664,7 +2664,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // enable_network_isolation - computed: false, optional: true, required: false
-  private _enableNetworkIsolation?: boolean | cdktn.IResolvable;
+  private _enableNetworkIsolation?: boolean | cdktn.IResolvable; 
   public get enableNetworkIsolation() {
     return this.getBooleanAttribute('enable_network_isolation');
   }
@@ -2776,7 +2776,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // max_runtime_in_seconds - computed: true, optional: true, required: false
-  private _maxRuntimeInSeconds?: number;
+  private _maxRuntimeInSeconds?: number; 
   public get maxRuntimeInSeconds() {
     return this.getNumberAttribute('max_runtime_in_seconds');
   }
@@ -3030,7 +3030,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // environment - computed: false, optional: true, required: false
-  private _environment?: { [key: string]: string };
+  private _environment?: { [key: string]: string }; 
   public get environment() {
     return this.getStringMapAttribute('environment');
   }
@@ -3046,7 +3046,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -3227,7 +3227,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigScheduleConfigOu
   }
 
   // schedule_expression - computed: false, optional: false, required: true
-  private _scheduleExpression?: string;
+  private _scheduleExpression?: string; 
   public get scheduleExpression() {
     return this.getStringAttribute('schedule_expression');
   }
@@ -3363,7 +3363,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigOutputReference 
   }
 
   // monitoring_job_definition_name - computed: false, optional: true, required: false
-  private _monitoringJobDefinitionName?: string;
+  private _monitoringJobDefinitionName?: string; 
   public get monitoringJobDefinitionName() {
     return this.getStringAttribute('monitoring_job_definition_name');
   }
@@ -3379,7 +3379,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigOutputReference 
   }
 
   // monitoring_type - computed: false, optional: false, required: true
-  private _monitoringType?: string;
+  private _monitoringType?: string; 
   public get monitoringType() {
     return this.getStringAttribute('monitoring_type');
   }
@@ -3492,7 +3492,7 @@ export class SagemakerMonitoringSchedule extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -3508,7 +3508,7 @@ export class SagemakerMonitoringSchedule extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -3524,7 +3524,7 @@ export class SagemakerMonitoringSchedule extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -3540,7 +3540,7 @@ export class SagemakerMonitoringSchedule extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -3556,7 +3556,7 @@ export class SagemakerMonitoringSchedule extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

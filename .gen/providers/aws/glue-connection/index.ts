@@ -155,7 +155,7 @@ export class GlueConnectionAuthenticationConfigurationBasicAuthenticationCredent
   }
 
   // password - computed: false, optional: false, required: true
-  private _password?: string;
+  private _password?: string; 
   public get password() {
     return this.getStringAttribute('password');
   }
@@ -168,7 +168,7 @@ export class GlueConnectionAuthenticationConfigurationBasicAuthenticationCredent
   }
 
   // username - computed: false, optional: false, required: true
-  private _username?: string;
+  private _username?: string; 
   public get username() {
     return this.getStringAttribute('username');
   }
@@ -266,7 +266,7 @@ export class GlueConnectionAuthenticationConfigurationOauth2PropertiesAuthorizat
   }
 
   // authorization_code - computed: false, optional: false, required: true
-  private _authorizationCode?: string;
+  private _authorizationCode?: string; 
   public get authorizationCode() {
     return this.getStringAttribute('authorization_code');
   }
@@ -279,7 +279,7 @@ export class GlueConnectionAuthenticationConfigurationOauth2PropertiesAuthorizat
   }
 
   // redirect_uri - computed: false, optional: false, required: true
-  private _redirectUri?: string;
+  private _redirectUri?: string; 
   public get redirectUri() {
     return this.getStringAttribute('redirect_uri');
   }
@@ -377,7 +377,7 @@ export class GlueConnectionAuthenticationConfigurationOauth2PropertiesOauth2Clie
   }
 
   // aws_managed_client_application_reference - computed: false, optional: true, required: false
-  private _awsManagedClientApplicationReference?: string;
+  private _awsManagedClientApplicationReference?: string; 
   public get awsManagedClientApplicationReference() {
     return this.getStringAttribute('aws_managed_client_application_reference');
   }
@@ -393,7 +393,7 @@ export class GlueConnectionAuthenticationConfigurationOauth2PropertiesOauth2Clie
   }
 
   // user_managed_client_application_client_id - computed: false, optional: true, required: false
-  private _userManagedClientApplicationClientId?: string;
+  private _userManagedClientApplicationClientId?: string; 
   public get userManagedClientApplicationClientId() {
     return this.getStringAttribute('user_managed_client_application_client_id');
   }
@@ -528,7 +528,7 @@ export class GlueConnectionAuthenticationConfigurationOauth2PropertiesOauth2Cred
   }
 
   // access_token - computed: false, optional: true, required: false
-  private _accessToken?: string;
+  private _accessToken?: string; 
   public get accessToken() {
     return this.getStringAttribute('access_token');
   }
@@ -544,7 +544,7 @@ export class GlueConnectionAuthenticationConfigurationOauth2PropertiesOauth2Cred
   }
 
   // jwt_token - computed: false, optional: true, required: false
-  private _jwtToken?: string;
+  private _jwtToken?: string; 
   public get jwtToken() {
     return this.getStringAttribute('jwt_token');
   }
@@ -560,7 +560,7 @@ export class GlueConnectionAuthenticationConfigurationOauth2PropertiesOauth2Cred
   }
 
   // refresh_token - computed: false, optional: true, required: false
-  private _refreshToken?: string;
+  private _refreshToken?: string; 
   public get refreshToken() {
     return this.getStringAttribute('refresh_token');
   }
@@ -576,7 +576,7 @@ export class GlueConnectionAuthenticationConfigurationOauth2PropertiesOauth2Cred
   }
 
   // user_managed_client_application_client_secret - computed: false, optional: true, required: false
-  private _userManagedClientApplicationClientSecret?: string;
+  private _userManagedClientApplicationClientSecret?: string; 
   public get userManagedClientApplicationClientSecret() {
     return this.getStringAttribute('user_managed_client_application_client_secret');
   }
@@ -751,7 +751,7 @@ export class GlueConnectionAuthenticationConfigurationOauth2PropertiesOutputRefe
   }
 
   // oauth2_grant_type - computed: false, optional: true, required: false
-  private _oauth2GrantType?: string;
+  private _oauth2GrantType?: string; 
   public get oauth2GrantType() {
     return this.getStringAttribute('oauth2_grant_type');
   }
@@ -767,7 +767,7 @@ export class GlueConnectionAuthenticationConfigurationOauth2PropertiesOutputRefe
   }
 
   // token_url - computed: false, optional: true, required: false
-  private _tokenUrl?: string;
+  private _tokenUrl?: string; 
   public get tokenUrl() {
     return this.getStringAttribute('token_url');
   }
@@ -783,7 +783,7 @@ export class GlueConnectionAuthenticationConfigurationOauth2PropertiesOutputRefe
   }
 
   // token_url_parameters_map - computed: false, optional: true, required: false
-  private _tokenUrlParametersMap?: { [key: string]: string };
+  private _tokenUrlParametersMap?: { [key: string]: string }; 
   public get tokenUrlParametersMap() {
     return this.getStringMapAttribute('token_url_parameters_map');
   }
@@ -1004,7 +1004,7 @@ export class GlueConnectionAuthenticationConfigurationOutputReference extends cd
   }
 
   // authentication_type - computed: false, optional: false, required: true
-  private _authenticationType?: string;
+  private _authenticationType?: string; 
   public get authenticationType() {
     return this.getStringAttribute('authentication_type');
   }
@@ -1017,7 +1017,7 @@ export class GlueConnectionAuthenticationConfigurationOutputReference extends cd
   }
 
   // custom_authentication_credentials - computed: false, optional: true, required: false
-  private _customAuthenticationCredentials?: { [key: string]: string };
+  private _customAuthenticationCredentials?: { [key: string]: string }; 
   public get customAuthenticationCredentials() {
     return this.getStringMapAttribute('custom_authentication_credentials');
   }
@@ -1033,7 +1033,7 @@ export class GlueConnectionAuthenticationConfigurationOutputReference extends cd
   }
 
   // kms_key_arn - computed: false, optional: true, required: false
-  private _kmsKeyArn?: string;
+  private _kmsKeyArn?: string; 
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -1049,7 +1049,7 @@ export class GlueConnectionAuthenticationConfigurationOutputReference extends cd
   }
 
   // secret_arn - computed: false, optional: true, required: false
-  private _secretArn?: string;
+  private _secretArn?: string; 
   public get secretArn() {
     return this.getStringAttribute('secret_arn');
   }
@@ -1199,7 +1199,7 @@ export class GlueConnectionPhysicalConnectionRequirementsOutputReference extends
   }
 
   // availability_zone - computed: false, optional: true, required: false
-  private _availabilityZone?: string;
+  private _availabilityZone?: string; 
   public get availabilityZone() {
     return this.getStringAttribute('availability_zone');
   }
@@ -1215,7 +1215,7 @@ export class GlueConnectionPhysicalConnectionRequirementsOutputReference extends
   }
 
   // security_group_id_list - computed: false, optional: true, required: false
-  private _securityGroupIdList?: string[];
+  private _securityGroupIdList?: string[]; 
   public get securityGroupIdList() {
     return cdktn.Fn.tolist(this.getListAttribute('security_group_id_list'));
   }
@@ -1231,7 +1231,7 @@ export class GlueConnectionPhysicalConnectionRequirementsOutputReference extends
   }
 
   // subnet_id - computed: false, optional: true, required: false
-  private _subnetId?: string;
+  private _subnetId?: string; 
   public get subnetId() {
     return this.getStringAttribute('subnet_id');
   }
@@ -1322,7 +1322,7 @@ export class GlueConnection extends cdktn.TerraformResource {
   }
 
   // athena_properties - computed: false, optional: true, required: false
-  private _athenaProperties?: { [key: string]: string };
+  private _athenaProperties?: { [key: string]: string }; 
   public get athenaProperties() {
     return this.getStringMapAttribute('athena_properties');
   }
@@ -1338,7 +1338,7 @@ export class GlueConnection extends cdktn.TerraformResource {
   }
 
   // catalog_id - computed: true, optional: true, required: false
-  private _catalogId?: string;
+  private _catalogId?: string; 
   public get catalogId() {
     return this.getStringAttribute('catalog_id');
   }
@@ -1354,7 +1354,7 @@ export class GlueConnection extends cdktn.TerraformResource {
   }
 
   // connection_properties - computed: false, optional: true, required: false
-  private _connectionProperties?: { [key: string]: string };
+  private _connectionProperties?: { [key: string]: string }; 
   public get connectionProperties() {
     return this.getStringMapAttribute('connection_properties');
   }
@@ -1370,7 +1370,7 @@ export class GlueConnection extends cdktn.TerraformResource {
   }
 
   // connection_type - computed: false, optional: true, required: false
-  private _connectionType?: string;
+  private _connectionType?: string; 
   public get connectionType() {
     return this.getStringAttribute('connection_type');
   }
@@ -1386,7 +1386,7 @@ export class GlueConnection extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1402,7 +1402,7 @@ export class GlueConnection extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -1418,7 +1418,7 @@ export class GlueConnection extends cdktn.TerraformResource {
   }
 
   // match_criteria - computed: false, optional: true, required: false
-  private _matchCriteria?: string[];
+  private _matchCriteria?: string[]; 
   public get matchCriteria() {
     return this.getListAttribute('match_criteria');
   }
@@ -1434,7 +1434,7 @@ export class GlueConnection extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1447,7 +1447,7 @@ export class GlueConnection extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1463,7 +1463,7 @@ export class GlueConnection extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -1479,7 +1479,7 @@ export class GlueConnection extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

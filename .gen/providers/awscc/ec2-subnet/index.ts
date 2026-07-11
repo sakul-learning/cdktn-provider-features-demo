@@ -288,7 +288,7 @@ export class Ec2SubnetPrivateDnsNameOptionsOnLaunchOutputReference extends cdktn
   }
 
   // enable_resource_name_dns_a_record - computed: true, optional: true, required: false
-  private _enableResourceNameDnsARecord?: boolean | cdktn.IResolvable;
+  private _enableResourceNameDnsARecord?: boolean | cdktn.IResolvable; 
   public get enableResourceNameDnsARecord() {
     return this.getBooleanAttribute('enable_resource_name_dns_a_record');
   }
@@ -304,7 +304,7 @@ export class Ec2SubnetPrivateDnsNameOptionsOnLaunchOutputReference extends cdktn
   }
 
   // enable_resource_name_dns_aaaa_record - computed: true, optional: true, required: false
-  private _enableResourceNameDnsAaaaRecord?: boolean | cdktn.IResolvable;
+  private _enableResourceNameDnsAaaaRecord?: boolean | cdktn.IResolvable; 
   public get enableResourceNameDnsAaaaRecord() {
     return this.getBooleanAttribute('enable_resource_name_dns_aaaa_record');
   }
@@ -320,7 +320,7 @@ export class Ec2SubnetPrivateDnsNameOptionsOnLaunchOutputReference extends cdktn
   }
 
   // hostname_type - computed: true, optional: true, required: false
-  private _hostnameType?: string;
+  private _hostnameType?: string; 
   public get hostnameType() {
     return this.getStringAttribute('hostname_type');
   }
@@ -437,7 +437,7 @@ export class Ec2SubnetTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -453,7 +453,7 @@ export class Ec2SubnetTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -563,7 +563,7 @@ export class Ec2Subnet extends cdktn.TerraformResource {
   // ==========
 
   // assign_ipv_6_address_on_creation - computed: true, optional: true, required: false
-  private _assignIpv6AddressOnCreation?: boolean | cdktn.IResolvable;
+  private _assignIpv6AddressOnCreation?: boolean | cdktn.IResolvable; 
   public get assignIpv6AddressOnCreation() {
     return this.getBooleanAttribute('assign_ipv_6_address_on_creation');
   }
@@ -579,7 +579,7 @@ export class Ec2Subnet extends cdktn.TerraformResource {
   }
 
   // availability_zone - computed: true, optional: true, required: false
-  private _availabilityZone?: string;
+  private _availabilityZone?: string; 
   public get availabilityZone() {
     return this.getStringAttribute('availability_zone');
   }
@@ -595,7 +595,7 @@ export class Ec2Subnet extends cdktn.TerraformResource {
   }
 
   // availability_zone_id - computed: true, optional: true, required: false
-  private _availabilityZoneId?: string;
+  private _availabilityZoneId?: string; 
   public get availabilityZoneId() {
     return this.getStringAttribute('availability_zone_id');
   }
@@ -617,7 +617,7 @@ export class Ec2Subnet extends cdktn.TerraformResource {
   }
 
   // cidr_block - computed: true, optional: true, required: false
-  private _cidrBlock?: string;
+  private _cidrBlock?: string; 
   public get cidrBlock() {
     return this.getStringAttribute('cidr_block');
   }
@@ -633,7 +633,7 @@ export class Ec2Subnet extends cdktn.TerraformResource {
   }
 
   // enable_dns_64 - computed: true, optional: true, required: false
-  private _enableDns64?: boolean | cdktn.IResolvable;
+  private _enableDns64?: boolean | cdktn.IResolvable; 
   public get enableDns64() {
     return this.getBooleanAttribute('enable_dns_64');
   }
@@ -649,7 +649,7 @@ export class Ec2Subnet extends cdktn.TerraformResource {
   }
 
   // enable_lni_at_device_index - computed: true, optional: true, required: false
-  private _enableLniAtDeviceIndex?: number;
+  private _enableLniAtDeviceIndex?: number; 
   public get enableLniAtDeviceIndex() {
     return this.getNumberAttribute('enable_lni_at_device_index');
   }
@@ -670,7 +670,7 @@ export class Ec2Subnet extends cdktn.TerraformResource {
   }
 
   // ipv_4_ipam_pool_id - computed: true, optional: true, required: false
-  private _ipv4IpamPoolId?: string;
+  private _ipv4IpamPoolId?: string; 
   public get ipv4IpamPoolId() {
     return this.getStringAttribute('ipv_4_ipam_pool_id');
   }
@@ -686,7 +686,7 @@ export class Ec2Subnet extends cdktn.TerraformResource {
   }
 
   // ipv_4_netmask_length - computed: true, optional: true, required: false
-  private _ipv4NetmaskLength?: number;
+  private _ipv4NetmaskLength?: number; 
   public get ipv4NetmaskLength() {
     return this.getNumberAttribute('ipv_4_netmask_length');
   }
@@ -702,7 +702,7 @@ export class Ec2Subnet extends cdktn.TerraformResource {
   }
 
   // ipv_6_cidr_block - computed: true, optional: true, required: false
-  private _ipv6CidrBlock?: string;
+  private _ipv6CidrBlock?: string; 
   public get ipv6CidrBlock() {
     return this.getStringAttribute('ipv_6_cidr_block');
   }
@@ -723,7 +723,7 @@ export class Ec2Subnet extends cdktn.TerraformResource {
   }
 
   // ipv_6_ipam_pool_id - computed: true, optional: true, required: false
-  private _ipv6IpamPoolId?: string;
+  private _ipv6IpamPoolId?: string; 
   public get ipv6IpamPoolId() {
     return this.getStringAttribute('ipv_6_ipam_pool_id');
   }
@@ -739,7 +739,7 @@ export class Ec2Subnet extends cdktn.TerraformResource {
   }
 
   // ipv_6_native - computed: true, optional: true, required: false
-  private _ipv6Native?: boolean | cdktn.IResolvable;
+  private _ipv6Native?: boolean | cdktn.IResolvable; 
   public get ipv6Native() {
     return this.getBooleanAttribute('ipv_6_native');
   }
@@ -755,7 +755,7 @@ export class Ec2Subnet extends cdktn.TerraformResource {
   }
 
   // ipv_6_netmask_length - computed: true, optional: true, required: false
-  private _ipv6NetmaskLength?: number;
+  private _ipv6NetmaskLength?: number; 
   public get ipv6NetmaskLength() {
     return this.getNumberAttribute('ipv_6_netmask_length');
   }
@@ -771,7 +771,7 @@ export class Ec2Subnet extends cdktn.TerraformResource {
   }
 
   // map_public_ip_on_launch - computed: true, optional: true, required: false
-  private _mapPublicIpOnLaunch?: boolean | cdktn.IResolvable;
+  private _mapPublicIpOnLaunch?: boolean | cdktn.IResolvable; 
   public get mapPublicIpOnLaunch() {
     return this.getBooleanAttribute('map_public_ip_on_launch');
   }
@@ -792,7 +792,7 @@ export class Ec2Subnet extends cdktn.TerraformResource {
   }
 
   // outpost_arn - computed: true, optional: true, required: false
-  private _outpostArn?: string;
+  private _outpostArn?: string; 
   public get outpostArn() {
     return this.getStringAttribute('outpost_arn');
   }
@@ -845,7 +845,7 @@ export class Ec2Subnet extends cdktn.TerraformResource {
   }
 
   // vpc_id - computed: false, optional: false, required: true
-  private _vpcId?: string;
+  private _vpcId?: string; 
   public get vpcId() {
     return this.getStringAttribute('vpc_id');
   }

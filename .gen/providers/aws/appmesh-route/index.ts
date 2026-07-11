@@ -166,7 +166,7 @@ export class AppmeshRouteSpecGrpcRouteActionWeightedTargetOutputReference extend
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -182,7 +182,7 @@ export class AppmeshRouteSpecGrpcRouteActionWeightedTargetOutputReference extend
   }
 
   // virtual_node - computed: false, optional: false, required: true
-  private _virtualNode?: string;
+  private _virtualNode?: string; 
   public get virtualNode() {
     return this.getStringAttribute('virtual_node');
   }
@@ -195,7 +195,7 @@ export class AppmeshRouteSpecGrpcRouteActionWeightedTargetOutputReference extend
   }
 
   // weight - computed: false, optional: false, required: true
-  private _weight?: number;
+  private _weight?: number; 
   public get weight() {
     return this.getNumberAttribute('weight');
   }
@@ -396,7 +396,7 @@ export class AppmeshRouteSpecGrpcRouteMatchMetadataMatchRangeOutputReference ext
   }
 
   // end - computed: false, optional: false, required: true
-  private _end?: number;
+  private _end?: number; 
   public get end() {
     return this.getNumberAttribute('end');
   }
@@ -409,7 +409,7 @@ export class AppmeshRouteSpecGrpcRouteMatchMetadataMatchRangeOutputReference ext
   }
 
   // start - computed: false, optional: false, required: true
-  private _start?: number;
+  private _start?: number; 
   public get start() {
     return this.getNumberAttribute('start');
   }
@@ -560,7 +560,7 @@ export class AppmeshRouteSpecGrpcRouteMatchMetadataMatchOutputReference extends 
   }
 
   // exact - computed: false, optional: true, required: false
-  private _exact?: string;
+  private _exact?: string; 
   public get exact() {
     return this.getStringAttribute('exact');
   }
@@ -576,7 +576,7 @@ export class AppmeshRouteSpecGrpcRouteMatchMetadataMatchOutputReference extends 
   }
 
   // prefix - computed: false, optional: true, required: false
-  private _prefix?: string;
+  private _prefix?: string; 
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -592,7 +592,7 @@ export class AppmeshRouteSpecGrpcRouteMatchMetadataMatchOutputReference extends 
   }
 
   // regex - computed: false, optional: true, required: false
-  private _regex?: string;
+  private _regex?: string; 
   public get regex() {
     return this.getStringAttribute('regex');
   }
@@ -608,7 +608,7 @@ export class AppmeshRouteSpecGrpcRouteMatchMetadataMatchOutputReference extends 
   }
 
   // suffix - computed: false, optional: true, required: false
-  private _suffix?: string;
+  private _suffix?: string; 
   public get suffix() {
     return this.getStringAttribute('suffix');
   }
@@ -756,7 +756,7 @@ export class AppmeshRouteSpecGrpcRouteMatchMetadataOutputReference extends cdktn
   }
 
   // invert - computed: false, optional: true, required: false
-  private _invert?: boolean | cdktn.IResolvable;
+  private _invert?: boolean | cdktn.IResolvable; 
   public get invert() {
     return this.getBooleanAttribute('invert');
   }
@@ -772,7 +772,7 @@ export class AppmeshRouteSpecGrpcRouteMatchMetadataOutputReference extends cdktn
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -959,7 +959,7 @@ export class AppmeshRouteSpecGrpcRouteMatchOutputReference extends cdktn.Complex
   }
 
   // method_name - computed: false, optional: true, required: false
-  private _methodName?: string;
+  private _methodName?: string; 
   public get methodName() {
     return this.getStringAttribute('method_name');
   }
@@ -975,7 +975,7 @@ export class AppmeshRouteSpecGrpcRouteMatchOutputReference extends cdktn.Complex
   }
 
   // port - computed: false, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -991,7 +991,7 @@ export class AppmeshRouteSpecGrpcRouteMatchOutputReference extends cdktn.Complex
   }
 
   // prefix - computed: false, optional: true, required: false
-  private _prefix?: string;
+  private _prefix?: string; 
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -1007,7 +1007,7 @@ export class AppmeshRouteSpecGrpcRouteMatchOutputReference extends cdktn.Complex
   }
 
   // service_name - computed: false, optional: true, required: false
-  private _serviceName?: string;
+  private _serviceName?: string; 
   public get serviceName() {
     return this.getStringAttribute('service_name');
   }
@@ -1124,7 +1124,7 @@ export class AppmeshRouteSpecGrpcRouteRetryPolicyPerRetryTimeoutOutputReference 
   }
 
   // unit - computed: false, optional: false, required: true
-  private _unit?: string;
+  private _unit?: string; 
   public get unit() {
     return this.getStringAttribute('unit');
   }
@@ -1137,7 +1137,7 @@ export class AppmeshRouteSpecGrpcRouteRetryPolicyPerRetryTimeoutOutputReference 
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: number;
+  private _value?: number; 
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -1288,7 +1288,7 @@ export class AppmeshRouteSpecGrpcRouteRetryPolicyOutputReference extends cdktn.C
   }
 
   // grpc_retry_events - computed: false, optional: true, required: false
-  private _grpcRetryEvents?: string[];
+  private _grpcRetryEvents?: string[]; 
   public get grpcRetryEvents() {
     return cdktn.Fn.tolist(this.getListAttribute('grpc_retry_events'));
   }
@@ -1304,7 +1304,7 @@ export class AppmeshRouteSpecGrpcRouteRetryPolicyOutputReference extends cdktn.C
   }
 
   // http_retry_events - computed: false, optional: true, required: false
-  private _httpRetryEvents?: string[];
+  private _httpRetryEvents?: string[]; 
   public get httpRetryEvents() {
     return cdktn.Fn.tolist(this.getListAttribute('http_retry_events'));
   }
@@ -1320,7 +1320,7 @@ export class AppmeshRouteSpecGrpcRouteRetryPolicyOutputReference extends cdktn.C
   }
 
   // max_retries - computed: false, optional: false, required: true
-  private _maxRetries?: number;
+  private _maxRetries?: number; 
   public get maxRetries() {
     return this.getNumberAttribute('max_retries');
   }
@@ -1333,7 +1333,7 @@ export class AppmeshRouteSpecGrpcRouteRetryPolicyOutputReference extends cdktn.C
   }
 
   // tcp_retry_events - computed: false, optional: true, required: false
-  private _tcpRetryEvents?: string[];
+  private _tcpRetryEvents?: string[]; 
   public get tcpRetryEvents() {
     return cdktn.Fn.tolist(this.getListAttribute('tcp_retry_events'));
   }
@@ -1447,7 +1447,7 @@ export class AppmeshRouteSpecGrpcRouteTimeoutIdleOutputReference extends cdktn.C
   }
 
   // unit - computed: false, optional: false, required: true
-  private _unit?: string;
+  private _unit?: string; 
   public get unit() {
     return this.getStringAttribute('unit');
   }
@@ -1460,7 +1460,7 @@ export class AppmeshRouteSpecGrpcRouteTimeoutIdleOutputReference extends cdktn.C
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: number;
+  private _value?: number; 
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -1558,7 +1558,7 @@ export class AppmeshRouteSpecGrpcRouteTimeoutPerRequestOutputReference extends c
   }
 
   // unit - computed: false, optional: false, required: true
-  private _unit?: string;
+  private _unit?: string; 
   public get unit() {
     return this.getStringAttribute('unit');
   }
@@ -1571,7 +1571,7 @@ export class AppmeshRouteSpecGrpcRouteTimeoutPerRequestOutputReference extends c
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: number;
+  private _value?: number; 
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -2007,7 +2007,7 @@ export class AppmeshRouteSpecHttp2RouteActionWeightedTargetOutputReference exten
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -2023,7 +2023,7 @@ export class AppmeshRouteSpecHttp2RouteActionWeightedTargetOutputReference exten
   }
 
   // virtual_node - computed: false, optional: false, required: true
-  private _virtualNode?: string;
+  private _virtualNode?: string; 
   public get virtualNode() {
     return this.getStringAttribute('virtual_node');
   }
@@ -2036,7 +2036,7 @@ export class AppmeshRouteSpecHttp2RouteActionWeightedTargetOutputReference exten
   }
 
   // weight - computed: false, optional: false, required: true
-  private _weight?: number;
+  private _weight?: number; 
   public get weight() {
     return this.getNumberAttribute('weight');
   }
@@ -2237,7 +2237,7 @@ export class AppmeshRouteSpecHttp2RouteMatchHeaderMatchRangeOutputReference exte
   }
 
   // end - computed: false, optional: false, required: true
-  private _end?: number;
+  private _end?: number; 
   public get end() {
     return this.getNumberAttribute('end');
   }
@@ -2250,7 +2250,7 @@ export class AppmeshRouteSpecHttp2RouteMatchHeaderMatchRangeOutputReference exte
   }
 
   // start - computed: false, optional: false, required: true
-  private _start?: number;
+  private _start?: number; 
   public get start() {
     return this.getNumberAttribute('start');
   }
@@ -2401,7 +2401,7 @@ export class AppmeshRouteSpecHttp2RouteMatchHeaderMatchOutputReference extends c
   }
 
   // exact - computed: false, optional: true, required: false
-  private _exact?: string;
+  private _exact?: string; 
   public get exact() {
     return this.getStringAttribute('exact');
   }
@@ -2417,7 +2417,7 @@ export class AppmeshRouteSpecHttp2RouteMatchHeaderMatchOutputReference extends c
   }
 
   // prefix - computed: false, optional: true, required: false
-  private _prefix?: string;
+  private _prefix?: string; 
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -2433,7 +2433,7 @@ export class AppmeshRouteSpecHttp2RouteMatchHeaderMatchOutputReference extends c
   }
 
   // regex - computed: false, optional: true, required: false
-  private _regex?: string;
+  private _regex?: string; 
   public get regex() {
     return this.getStringAttribute('regex');
   }
@@ -2449,7 +2449,7 @@ export class AppmeshRouteSpecHttp2RouteMatchHeaderMatchOutputReference extends c
   }
 
   // suffix - computed: false, optional: true, required: false
-  private _suffix?: string;
+  private _suffix?: string; 
   public get suffix() {
     return this.getStringAttribute('suffix');
   }
@@ -2597,7 +2597,7 @@ export class AppmeshRouteSpecHttp2RouteMatchHeaderOutputReference extends cdktn.
   }
 
   // invert - computed: false, optional: true, required: false
-  private _invert?: boolean | cdktn.IResolvable;
+  private _invert?: boolean | cdktn.IResolvable; 
   public get invert() {
     return this.getBooleanAttribute('invert');
   }
@@ -2613,7 +2613,7 @@ export class AppmeshRouteSpecHttp2RouteMatchHeaderOutputReference extends cdktn.
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2747,7 +2747,7 @@ export class AppmeshRouteSpecHttp2RouteMatchPathOutputReference extends cdktn.Co
   }
 
   // exact - computed: false, optional: true, required: false
-  private _exact?: string;
+  private _exact?: string; 
   public get exact() {
     return this.getStringAttribute('exact');
   }
@@ -2763,7 +2763,7 @@ export class AppmeshRouteSpecHttp2RouteMatchPathOutputReference extends cdktn.Co
   }
 
   // regex - computed: false, optional: true, required: false
-  private _regex?: string;
+  private _regex?: string; 
   public get regex() {
     return this.getStringAttribute('regex');
   }
@@ -2847,7 +2847,7 @@ export class AppmeshRouteSpecHttp2RouteMatchQueryParameterMatchOutputReference e
   }
 
   // exact - computed: false, optional: true, required: false
-  private _exact?: string;
+  private _exact?: string; 
   public get exact() {
     return this.getStringAttribute('exact');
   }
@@ -2962,7 +2962,7 @@ export class AppmeshRouteSpecHttp2RouteMatchQueryParameterOutputReference extend
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -3187,7 +3187,7 @@ export class AppmeshRouteSpecHttp2RouteMatchOutputReference extends cdktn.Comple
   }
 
   // method - computed: false, optional: true, required: false
-  private _method?: string;
+  private _method?: string; 
   public get method() {
     return this.getStringAttribute('method');
   }
@@ -3203,7 +3203,7 @@ export class AppmeshRouteSpecHttp2RouteMatchOutputReference extends cdktn.Comple
   }
 
   // port - computed: false, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -3219,7 +3219,7 @@ export class AppmeshRouteSpecHttp2RouteMatchOutputReference extends cdktn.Comple
   }
 
   // prefix - computed: false, optional: true, required: false
-  private _prefix?: string;
+  private _prefix?: string; 
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -3235,7 +3235,7 @@ export class AppmeshRouteSpecHttp2RouteMatchOutputReference extends cdktn.Comple
   }
 
   // scheme - computed: false, optional: true, required: false
-  private _scheme?: string;
+  private _scheme?: string; 
   public get scheme() {
     return this.getStringAttribute('scheme');
   }
@@ -3384,7 +3384,7 @@ export class AppmeshRouteSpecHttp2RouteRetryPolicyPerRetryTimeoutOutputReference
   }
 
   // unit - computed: false, optional: false, required: true
-  private _unit?: string;
+  private _unit?: string; 
   public get unit() {
     return this.getStringAttribute('unit');
   }
@@ -3397,7 +3397,7 @@ export class AppmeshRouteSpecHttp2RouteRetryPolicyPerRetryTimeoutOutputReference
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: number;
+  private _value?: number; 
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -3531,7 +3531,7 @@ export class AppmeshRouteSpecHttp2RouteRetryPolicyOutputReference extends cdktn.
   }
 
   // http_retry_events - computed: false, optional: true, required: false
-  private _httpRetryEvents?: string[];
+  private _httpRetryEvents?: string[]; 
   public get httpRetryEvents() {
     return cdktn.Fn.tolist(this.getListAttribute('http_retry_events'));
   }
@@ -3547,7 +3547,7 @@ export class AppmeshRouteSpecHttp2RouteRetryPolicyOutputReference extends cdktn.
   }
 
   // max_retries - computed: false, optional: false, required: true
-  private _maxRetries?: number;
+  private _maxRetries?: number; 
   public get maxRetries() {
     return this.getNumberAttribute('max_retries');
   }
@@ -3560,7 +3560,7 @@ export class AppmeshRouteSpecHttp2RouteRetryPolicyOutputReference extends cdktn.
   }
 
   // tcp_retry_events - computed: false, optional: true, required: false
-  private _tcpRetryEvents?: string[];
+  private _tcpRetryEvents?: string[]; 
   public get tcpRetryEvents() {
     return cdktn.Fn.tolist(this.getListAttribute('tcp_retry_events'));
   }
@@ -3674,7 +3674,7 @@ export class AppmeshRouteSpecHttp2RouteTimeoutIdleOutputReference extends cdktn.
   }
 
   // unit - computed: false, optional: false, required: true
-  private _unit?: string;
+  private _unit?: string; 
   public get unit() {
     return this.getStringAttribute('unit');
   }
@@ -3687,7 +3687,7 @@ export class AppmeshRouteSpecHttp2RouteTimeoutIdleOutputReference extends cdktn.
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: number;
+  private _value?: number; 
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -3785,7 +3785,7 @@ export class AppmeshRouteSpecHttp2RouteTimeoutPerRequestOutputReference extends 
   }
 
   // unit - computed: false, optional: false, required: true
-  private _unit?: string;
+  private _unit?: string; 
   public get unit() {
     return this.getStringAttribute('unit');
   }
@@ -3798,7 +3798,7 @@ export class AppmeshRouteSpecHttp2RouteTimeoutPerRequestOutputReference extends 
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: number;
+  private _value?: number; 
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -4231,7 +4231,7 @@ export class AppmeshRouteSpecHttpRouteActionWeightedTargetOutputReference extend
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -4247,7 +4247,7 @@ export class AppmeshRouteSpecHttpRouteActionWeightedTargetOutputReference extend
   }
 
   // virtual_node - computed: false, optional: false, required: true
-  private _virtualNode?: string;
+  private _virtualNode?: string; 
   public get virtualNode() {
     return this.getStringAttribute('virtual_node');
   }
@@ -4260,7 +4260,7 @@ export class AppmeshRouteSpecHttpRouteActionWeightedTargetOutputReference extend
   }
 
   // weight - computed: false, optional: false, required: true
-  private _weight?: number;
+  private _weight?: number; 
   public get weight() {
     return this.getNumberAttribute('weight');
   }
@@ -4461,7 +4461,7 @@ export class AppmeshRouteSpecHttpRouteMatchHeaderMatchRangeOutputReference exten
   }
 
   // end - computed: false, optional: false, required: true
-  private _end?: number;
+  private _end?: number; 
   public get end() {
     return this.getNumberAttribute('end');
   }
@@ -4474,7 +4474,7 @@ export class AppmeshRouteSpecHttpRouteMatchHeaderMatchRangeOutputReference exten
   }
 
   // start - computed: false, optional: false, required: true
-  private _start?: number;
+  private _start?: number; 
   public get start() {
     return this.getNumberAttribute('start');
   }
@@ -4625,7 +4625,7 @@ export class AppmeshRouteSpecHttpRouteMatchHeaderMatchOutputReference extends cd
   }
 
   // exact - computed: false, optional: true, required: false
-  private _exact?: string;
+  private _exact?: string; 
   public get exact() {
     return this.getStringAttribute('exact');
   }
@@ -4641,7 +4641,7 @@ export class AppmeshRouteSpecHttpRouteMatchHeaderMatchOutputReference extends cd
   }
 
   // prefix - computed: false, optional: true, required: false
-  private _prefix?: string;
+  private _prefix?: string; 
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -4657,7 +4657,7 @@ export class AppmeshRouteSpecHttpRouteMatchHeaderMatchOutputReference extends cd
   }
 
   // regex - computed: false, optional: true, required: false
-  private _regex?: string;
+  private _regex?: string; 
   public get regex() {
     return this.getStringAttribute('regex');
   }
@@ -4673,7 +4673,7 @@ export class AppmeshRouteSpecHttpRouteMatchHeaderMatchOutputReference extends cd
   }
 
   // suffix - computed: false, optional: true, required: false
-  private _suffix?: string;
+  private _suffix?: string; 
   public get suffix() {
     return this.getStringAttribute('suffix');
   }
@@ -4821,7 +4821,7 @@ export class AppmeshRouteSpecHttpRouteMatchHeaderOutputReference extends cdktn.C
   }
 
   // invert - computed: false, optional: true, required: false
-  private _invert?: boolean | cdktn.IResolvable;
+  private _invert?: boolean | cdktn.IResolvable; 
   public get invert() {
     return this.getBooleanAttribute('invert');
   }
@@ -4837,7 +4837,7 @@ export class AppmeshRouteSpecHttpRouteMatchHeaderOutputReference extends cdktn.C
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -4971,7 +4971,7 @@ export class AppmeshRouteSpecHttpRouteMatchPathOutputReference extends cdktn.Com
   }
 
   // exact - computed: false, optional: true, required: false
-  private _exact?: string;
+  private _exact?: string; 
   public get exact() {
     return this.getStringAttribute('exact');
   }
@@ -4987,7 +4987,7 @@ export class AppmeshRouteSpecHttpRouteMatchPathOutputReference extends cdktn.Com
   }
 
   // regex - computed: false, optional: true, required: false
-  private _regex?: string;
+  private _regex?: string; 
   public get regex() {
     return this.getStringAttribute('regex');
   }
@@ -5071,7 +5071,7 @@ export class AppmeshRouteSpecHttpRouteMatchQueryParameterMatchOutputReference ex
   }
 
   // exact - computed: false, optional: true, required: false
-  private _exact?: string;
+  private _exact?: string; 
   public get exact() {
     return this.getStringAttribute('exact');
   }
@@ -5186,7 +5186,7 @@ export class AppmeshRouteSpecHttpRouteMatchQueryParameterOutputReference extends
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -5411,7 +5411,7 @@ export class AppmeshRouteSpecHttpRouteMatchOutputReference extends cdktn.Complex
   }
 
   // method - computed: false, optional: true, required: false
-  private _method?: string;
+  private _method?: string; 
   public get method() {
     return this.getStringAttribute('method');
   }
@@ -5427,7 +5427,7 @@ export class AppmeshRouteSpecHttpRouteMatchOutputReference extends cdktn.Complex
   }
 
   // port - computed: false, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -5443,7 +5443,7 @@ export class AppmeshRouteSpecHttpRouteMatchOutputReference extends cdktn.Complex
   }
 
   // prefix - computed: false, optional: true, required: false
-  private _prefix?: string;
+  private _prefix?: string; 
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -5459,7 +5459,7 @@ export class AppmeshRouteSpecHttpRouteMatchOutputReference extends cdktn.Complex
   }
 
   // scheme - computed: false, optional: true, required: false
-  private _scheme?: string;
+  private _scheme?: string; 
   public get scheme() {
     return this.getStringAttribute('scheme');
   }
@@ -5608,7 +5608,7 @@ export class AppmeshRouteSpecHttpRouteRetryPolicyPerRetryTimeoutOutputReference 
   }
 
   // unit - computed: false, optional: false, required: true
-  private _unit?: string;
+  private _unit?: string; 
   public get unit() {
     return this.getStringAttribute('unit');
   }
@@ -5621,7 +5621,7 @@ export class AppmeshRouteSpecHttpRouteRetryPolicyPerRetryTimeoutOutputReference 
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: number;
+  private _value?: number; 
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -5755,7 +5755,7 @@ export class AppmeshRouteSpecHttpRouteRetryPolicyOutputReference extends cdktn.C
   }
 
   // http_retry_events - computed: false, optional: true, required: false
-  private _httpRetryEvents?: string[];
+  private _httpRetryEvents?: string[]; 
   public get httpRetryEvents() {
     return cdktn.Fn.tolist(this.getListAttribute('http_retry_events'));
   }
@@ -5771,7 +5771,7 @@ export class AppmeshRouteSpecHttpRouteRetryPolicyOutputReference extends cdktn.C
   }
 
   // max_retries - computed: false, optional: false, required: true
-  private _maxRetries?: number;
+  private _maxRetries?: number; 
   public get maxRetries() {
     return this.getNumberAttribute('max_retries');
   }
@@ -5784,7 +5784,7 @@ export class AppmeshRouteSpecHttpRouteRetryPolicyOutputReference extends cdktn.C
   }
 
   // tcp_retry_events - computed: false, optional: true, required: false
-  private _tcpRetryEvents?: string[];
+  private _tcpRetryEvents?: string[]; 
   public get tcpRetryEvents() {
     return cdktn.Fn.tolist(this.getListAttribute('tcp_retry_events'));
   }
@@ -5898,7 +5898,7 @@ export class AppmeshRouteSpecHttpRouteTimeoutIdleOutputReference extends cdktn.C
   }
 
   // unit - computed: false, optional: false, required: true
-  private _unit?: string;
+  private _unit?: string; 
   public get unit() {
     return this.getStringAttribute('unit');
   }
@@ -5911,7 +5911,7 @@ export class AppmeshRouteSpecHttpRouteTimeoutIdleOutputReference extends cdktn.C
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: number;
+  private _value?: number; 
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -6009,7 +6009,7 @@ export class AppmeshRouteSpecHttpRouteTimeoutPerRequestOutputReference extends c
   }
 
   // unit - computed: false, optional: false, required: true
-  private _unit?: string;
+  private _unit?: string; 
   public get unit() {
     return this.getStringAttribute('unit');
   }
@@ -6022,7 +6022,7 @@ export class AppmeshRouteSpecHttpRouteTimeoutPerRequestOutputReference extends c
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: number;
+  private _value?: number; 
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -6455,7 +6455,7 @@ export class AppmeshRouteSpecTcpRouteActionWeightedTargetOutputReference extends
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -6471,7 +6471,7 @@ export class AppmeshRouteSpecTcpRouteActionWeightedTargetOutputReference extends
   }
 
   // virtual_node - computed: false, optional: false, required: true
-  private _virtualNode?: string;
+  private _virtualNode?: string; 
   public get virtualNode() {
     return this.getStringAttribute('virtual_node');
   }
@@ -6484,7 +6484,7 @@ export class AppmeshRouteSpecTcpRouteActionWeightedTargetOutputReference extends
   }
 
   // weight - computed: false, optional: false, required: true
-  private _weight?: number;
+  private _weight?: number; 
   public get weight() {
     return this.getNumberAttribute('weight');
   }
@@ -6668,7 +6668,7 @@ export class AppmeshRouteSpecTcpRouteMatchOutputReference extends cdktn.ComplexO
   }
 
   // port - computed: false, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -6769,7 +6769,7 @@ export class AppmeshRouteSpecTcpRouteTimeoutIdleOutputReference extends cdktn.Co
   }
 
   // unit - computed: false, optional: false, required: true
-  private _unit?: string;
+  private _unit?: string; 
   public get unit() {
     return this.getStringAttribute('unit');
   }
@@ -6782,7 +6782,7 @@ export class AppmeshRouteSpecTcpRouteTimeoutIdleOutputReference extends cdktn.Co
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: number;
+  private _value?: number; 
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -7178,7 +7178,7 @@ export class AppmeshRouteSpecOutputReference extends cdktn.ComplexObject {
   }
 
   // priority - computed: false, optional: true, required: false
-  private _priority?: number;
+  private _priority?: number; 
   public get priority() {
     return this.getNumberAttribute('priority');
   }
@@ -7334,7 +7334,7 @@ export class AppmeshRoute extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -7355,7 +7355,7 @@ export class AppmeshRoute extends cdktn.TerraformResource {
   }
 
   // mesh_name - computed: false, optional: false, required: true
-  private _meshName?: string;
+  private _meshName?: string; 
   public get meshName() {
     return this.getStringAttribute('mesh_name');
   }
@@ -7368,7 +7368,7 @@ export class AppmeshRoute extends cdktn.TerraformResource {
   }
 
   // mesh_owner - computed: true, optional: true, required: false
-  private _meshOwner?: string;
+  private _meshOwner?: string; 
   public get meshOwner() {
     return this.getStringAttribute('mesh_owner');
   }
@@ -7384,7 +7384,7 @@ export class AppmeshRoute extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -7397,7 +7397,7 @@ export class AppmeshRoute extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -7418,7 +7418,7 @@ export class AppmeshRoute extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -7434,7 +7434,7 @@ export class AppmeshRoute extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -7450,7 +7450,7 @@ export class AppmeshRoute extends cdktn.TerraformResource {
   }
 
   // virtual_router_name - computed: false, optional: false, required: true
-  private _virtualRouterName?: string;
+  private _virtualRouterName?: string; 
   public get virtualRouterName() {
     return this.getStringAttribute('virtual_router_name');
   }

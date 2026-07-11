@@ -129,7 +129,7 @@ export class ServicecatalogStackSetConstraint extends cdktn.TerraformResource {
   // ==========
 
   // accept_language - computed: true, optional: true, required: false
-  private _acceptLanguage?: string;
+  private _acceptLanguage?: string; 
   public get acceptLanguage() {
     return this.getStringAttribute('accept_language');
   }
@@ -145,7 +145,7 @@ export class ServicecatalogStackSetConstraint extends cdktn.TerraformResource {
   }
 
   // account_list - computed: false, optional: false, required: true
-  private _accountList?: string[];
+  private _accountList?: string[]; 
   public get accountList() {
     return this.getListAttribute('account_list');
   }
@@ -158,7 +158,7 @@ export class ServicecatalogStackSetConstraint extends cdktn.TerraformResource {
   }
 
   // admin_role - computed: false, optional: false, required: true
-  private _adminRole?: string;
+  private _adminRole?: string; 
   public get adminRole() {
     return this.getStringAttribute('admin_role');
   }
@@ -171,7 +171,7 @@ export class ServicecatalogStackSetConstraint extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: false, required: true
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -184,7 +184,7 @@ export class ServicecatalogStackSetConstraint extends cdktn.TerraformResource {
   }
 
   // execution_role - computed: false, optional: false, required: true
-  private _executionRole?: string;
+  private _executionRole?: string; 
   public get executionRole() {
     return this.getStringAttribute('execution_role');
   }
@@ -202,7 +202,7 @@ export class ServicecatalogStackSetConstraint extends cdktn.TerraformResource {
   }
 
   // portfolio_id - computed: false, optional: false, required: true
-  private _portfolioId?: string;
+  private _portfolioId?: string; 
   public get portfolioId() {
     return this.getStringAttribute('portfolio_id');
   }
@@ -215,7 +215,7 @@ export class ServicecatalogStackSetConstraint extends cdktn.TerraformResource {
   }
 
   // product_id - computed: false, optional: false, required: true
-  private _productId?: string;
+  private _productId?: string; 
   public get productId() {
     return this.getStringAttribute('product_id');
   }
@@ -228,7 +228,7 @@ export class ServicecatalogStackSetConstraint extends cdktn.TerraformResource {
   }
 
   // region_list - computed: false, optional: false, required: true
-  private _regionList?: string[];
+  private _regionList?: string[]; 
   public get regionList() {
     return this.getListAttribute('region_list');
   }
@@ -241,7 +241,7 @@ export class ServicecatalogStackSetConstraint extends cdktn.TerraformResource {
   }
 
   // stack_instance_control - computed: false, optional: false, required: true
-  private _stackInstanceControl?: string;
+  private _stackInstanceControl?: string; 
   public get stackInstanceControl() {
     return this.getStringAttribute('stack_instance_control');
   }

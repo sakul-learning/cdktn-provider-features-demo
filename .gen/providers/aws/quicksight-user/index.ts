@@ -126,7 +126,7 @@ export class QuicksightUser extends cdktn.TerraformResource {
   }
 
   // aws_account_id - computed: true, optional: true, required: false
-  private _awsAccountId?: string;
+  private _awsAccountId?: string; 
   public get awsAccountId() {
     return this.getStringAttribute('aws_account_id');
   }
@@ -142,7 +142,7 @@ export class QuicksightUser extends cdktn.TerraformResource {
   }
 
   // email - computed: false, optional: false, required: true
-  private _email?: string;
+  private _email?: string; 
   public get email() {
     return this.getStringAttribute('email');
   }
@@ -155,7 +155,7 @@ export class QuicksightUser extends cdktn.TerraformResource {
   }
 
   // iam_arn - computed: false, optional: true, required: false
-  private _iamArn?: string;
+  private _iamArn?: string; 
   public get iamArn() {
     return this.getStringAttribute('iam_arn');
   }
@@ -171,7 +171,7 @@ export class QuicksightUser extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -187,7 +187,7 @@ export class QuicksightUser extends cdktn.TerraformResource {
   }
 
   // identity_type - computed: false, optional: false, required: true
-  private _identityType?: string;
+  private _identityType?: string; 
   public get identityType() {
     return this.getStringAttribute('identity_type');
   }
@@ -200,7 +200,7 @@ export class QuicksightUser extends cdktn.TerraformResource {
   }
 
   // namespace - computed: false, optional: true, required: false
-  private _namespace?: string;
+  private _namespace?: string; 
   public get namespace() {
     return this.getStringAttribute('namespace');
   }
@@ -216,7 +216,7 @@ export class QuicksightUser extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -232,7 +232,7 @@ export class QuicksightUser extends cdktn.TerraformResource {
   }
 
   // session_name - computed: false, optional: true, required: false
-  private _sessionName?: string;
+  private _sessionName?: string; 
   public get sessionName() {
     return this.getStringAttribute('session_name');
   }
@@ -253,7 +253,7 @@ export class QuicksightUser extends cdktn.TerraformResource {
   }
 
   // user_name - computed: true, optional: true, required: false
-  private _userName?: string;
+  private _userName?: string; 
   public get userName() {
     return this.getStringAttribute('user_name');
   }
@@ -269,7 +269,7 @@ export class QuicksightUser extends cdktn.TerraformResource {
   }
 
   // user_role - computed: false, optional: false, required: true
-  private _userRole?: string;
+  private _userRole?: string; 
   public get userRole() {
     return this.getStringAttribute('user_role');
   }

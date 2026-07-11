@@ -88,7 +88,7 @@ export class SsoadminApplicationAccessScope extends cdktn.TerraformResource {
   // ==========
 
   // application_arn - computed: false, optional: false, required: true
-  private _applicationArn?: string;
+  private _applicationArn?: string; 
   public get applicationArn() {
     return this.getStringAttribute('application_arn');
   }
@@ -101,7 +101,7 @@ export class SsoadminApplicationAccessScope extends cdktn.TerraformResource {
   }
 
   // authorized_targets - computed: false, optional: true, required: false
-  private _authorizedTargets?: string[];
+  private _authorizedTargets?: string[]; 
   public get authorizedTargets() {
     return this.getListAttribute('authorized_targets');
   }
@@ -122,7 +122,7 @@ export class SsoadminApplicationAccessScope extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -138,7 +138,7 @@ export class SsoadminApplicationAccessScope extends cdktn.TerraformResource {
   }
 
   // scope - computed: false, optional: false, required: true
-  private _scope?: string;
+  private _scope?: string; 
   public get scope() {
     return this.getStringAttribute('scope');
   }

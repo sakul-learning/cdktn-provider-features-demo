@@ -167,7 +167,7 @@ export class S3BucketAclAccessControlPolicyGrantGranteeOutputReference extends c
   }
 
   // email_address - computed: false, optional: true, required: false
-  private _emailAddress?: string;
+  private _emailAddress?: string; 
   public get emailAddress() {
     return this.getStringAttribute('email_address');
   }
@@ -183,7 +183,7 @@ export class S3BucketAclAccessControlPolicyGrantGranteeOutputReference extends c
   }
 
   // id - computed: false, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -199,7 +199,7 @@ export class S3BucketAclAccessControlPolicyGrantGranteeOutputReference extends c
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -212,7 +212,7 @@ export class S3BucketAclAccessControlPolicyGrantGranteeOutputReference extends c
   }
 
   // uri - computed: false, optional: true, required: false
-  private _uri?: string;
+  private _uri?: string; 
   public get uri() {
     return this.getStringAttribute('uri');
   }
@@ -327,7 +327,7 @@ export class S3BucketAclAccessControlPolicyGrantOutputReference extends cdktn.Co
   }
 
   // permission - computed: false, optional: false, required: true
-  private _permission?: string;
+  private _permission?: string; 
   public get permission() {
     return this.getStringAttribute('permission');
   }
@@ -464,7 +464,7 @@ export class S3BucketAclAccessControlPolicyOwnerOutputReference extends cdktn.Co
   }
 
   // display_name - computed: true, optional: true, required: false
-  private _displayName?: string;
+  private _displayName?: string; 
   public get displayName() {
     return this.getStringAttribute('display_name');
   }
@@ -480,7 +480,7 @@ export class S3BucketAclAccessControlPolicyOwnerOutputReference extends cdktn.Co
   }
 
   // id - computed: false, optional: false, required: true
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -674,7 +674,7 @@ export class S3BucketAcl extends cdktn.TerraformResource {
   // ==========
 
   // acl - computed: false, optional: true, required: false
-  private _acl?: string;
+  private _acl?: string; 
   public get acl() {
     return this.getStringAttribute('acl');
   }
@@ -690,7 +690,7 @@ export class S3BucketAcl extends cdktn.TerraformResource {
   }
 
   // bucket - computed: false, optional: false, required: true
-  private _bucket?: string;
+  private _bucket?: string; 
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -703,7 +703,7 @@ export class S3BucketAcl extends cdktn.TerraformResource {
   }
 
   // expected_bucket_owner - computed: false, optional: true, required: false
-  private _expectedBucketOwner?: string;
+  private _expectedBucketOwner?: string; 
   public get expectedBucketOwner() {
     return this.getStringAttribute('expected_bucket_owner');
   }
@@ -719,7 +719,7 @@ export class S3BucketAcl extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -735,7 +735,7 @@ export class S3BucketAcl extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

@@ -132,7 +132,7 @@ export class IotfleetwiseVehicleStateTemplatesStateTemplateUpdateStrategyPeriodi
   }
 
   // unit - computed: true, optional: true, required: false
-  private _unit?: string;
+  private _unit?: string; 
   public get unit() {
     return this.getStringAttribute('unit');
   }
@@ -148,7 +148,7 @@ export class IotfleetwiseVehicleStateTemplatesStateTemplateUpdateStrategyPeriodi
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: number;
+  private _value?: number; 
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -353,7 +353,7 @@ export class IotfleetwiseVehicleStateTemplatesStateTemplateUpdateStrategyOutputR
   }
 
   // on_change - computed: true, optional: true, required: false
-  private _onChange?: string;
+  private _onChange?: string; 
   public get onChange() {
     return this.getStringAttribute('on_change');
   }
@@ -482,7 +482,7 @@ export class IotfleetwiseVehicleStateTemplatesOutputReference extends cdktn.Comp
   }
 
   // identifier - computed: true, optional: true, required: false
-  private _identifier?: string;
+  private _identifier?: string; 
   public get identifier() {
     return this.getStringAttribute('identifier');
   }
@@ -631,7 +631,7 @@ export class IotfleetwiseVehicleTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -647,7 +647,7 @@ export class IotfleetwiseVehicleTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -752,7 +752,7 @@ export class IotfleetwiseVehicle extends cdktn.TerraformResource {
   }
 
   // association_behavior - computed: true, optional: true, required: false
-  private _associationBehavior?: string;
+  private _associationBehavior?: string; 
   public get associationBehavior() {
     return this.getStringAttribute('association_behavior');
   }
@@ -768,7 +768,7 @@ export class IotfleetwiseVehicle extends cdktn.TerraformResource {
   }
 
   // attributes - computed: true, optional: true, required: false
-  private _attributes?: { [key: string]: string };
+  private _attributes?: { [key: string]: string }; 
   public get attributes() {
     return this.getStringMapAttribute('attributes');
   }
@@ -789,7 +789,7 @@ export class IotfleetwiseVehicle extends cdktn.TerraformResource {
   }
 
   // decoder_manifest_arn - computed: false, optional: false, required: true
-  private _decoderManifestArn?: string;
+  private _decoderManifestArn?: string; 
   public get decoderManifestArn() {
     return this.getStringAttribute('decoder_manifest_arn');
   }
@@ -812,7 +812,7 @@ export class IotfleetwiseVehicle extends cdktn.TerraformResource {
   }
 
   // model_manifest_arn - computed: false, optional: false, required: true
-  private _modelManifestArn?: string;
+  private _modelManifestArn?: string; 
   public get modelManifestArn() {
     return this.getStringAttribute('model_manifest_arn');
   }
@@ -825,7 +825,7 @@ export class IotfleetwiseVehicle extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }

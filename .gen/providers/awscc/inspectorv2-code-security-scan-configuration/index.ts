@@ -115,7 +115,7 @@ export class Inspectorv2CodeSecurityScanConfigurationConfigurationContinuousInte
   }
 
   // supported_events - computed: true, optional: true, required: false
-  private _supportedEvents?: string[];
+  private _supportedEvents?: string[]; 
   public get supportedEvents() {
     return this.getListAttribute('supported_events');
   }
@@ -226,7 +226,7 @@ export class Inspectorv2CodeSecurityScanConfigurationConfigurationPeriodicScanCo
   }
 
   // frequency - computed: true, optional: true, required: false
-  private _frequency?: string;
+  private _frequency?: string; 
   public get frequency() {
     return this.getStringAttribute('frequency');
   }
@@ -242,7 +242,7 @@ export class Inspectorv2CodeSecurityScanConfigurationConfigurationPeriodicScanCo
   }
 
   // frequency_expression - computed: true, optional: true, required: false
-  private _frequencyExpression?: string;
+  private _frequencyExpression?: string; 
   public get frequencyExpression() {
     return this.getStringAttribute('frequency_expression');
   }
@@ -402,7 +402,7 @@ export class Inspectorv2CodeSecurityScanConfigurationConfigurationOutputReferenc
   }
 
   // rule_set_categories - computed: true, optional: true, required: false
-  private _ruleSetCategories?: string[];
+  private _ruleSetCategories?: string[]; 
   public get ruleSetCategories() {
     return this.getListAttribute('rule_set_categories');
   }
@@ -496,7 +496,7 @@ export class Inspectorv2CodeSecurityScanConfigurationScopeSettingsOutputReferenc
   }
 
   // project_selection_scope - computed: true, optional: true, required: false
-  private _projectSelectionScope?: string;
+  private _projectSelectionScope?: string; 
   public get projectSelectionScope() {
     return this.getStringAttribute('project_selection_scope');
   }
@@ -600,7 +600,7 @@ export class Inspectorv2CodeSecurityScanConfiguration extends cdktn.TerraformRes
   }
 
   // level - computed: true, optional: true, required: false
-  private _level?: string;
+  private _level?: string; 
   public get level() {
     return this.getStringAttribute('level');
   }
@@ -616,7 +616,7 @@ export class Inspectorv2CodeSecurityScanConfiguration extends cdktn.TerraformRes
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -648,7 +648,7 @@ export class Inspectorv2CodeSecurityScanConfiguration extends cdktn.TerraformRes
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

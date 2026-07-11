@@ -116,7 +116,7 @@ export class DatasyncLocationFsxLustreFileSystem extends cdktn.TerraformResource
   }
 
   // fsx_filesystem_arn - computed: false, optional: false, required: true
-  private _fsxFilesystemArn?: string;
+  private _fsxFilesystemArn?: string; 
   public get fsxFilesystemArn() {
     return this.getStringAttribute('fsx_filesystem_arn');
   }
@@ -129,7 +129,7 @@ export class DatasyncLocationFsxLustreFileSystem extends cdktn.TerraformResource
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -145,7 +145,7 @@ export class DatasyncLocationFsxLustreFileSystem extends cdktn.TerraformResource
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -161,7 +161,7 @@ export class DatasyncLocationFsxLustreFileSystem extends cdktn.TerraformResource
   }
 
   // security_group_arns - computed: false, optional: false, required: true
-  private _securityGroupArns?: string[];
+  private _securityGroupArns?: string[]; 
   public get securityGroupArns() {
     return cdktn.Fn.tolist(this.getListAttribute('security_group_arns'));
   }
@@ -174,7 +174,7 @@ export class DatasyncLocationFsxLustreFileSystem extends cdktn.TerraformResource
   }
 
   // subdirectory - computed: true, optional: true, required: false
-  private _subdirectory?: string;
+  private _subdirectory?: string; 
   public get subdirectory() {
     return this.getStringAttribute('subdirectory');
   }
@@ -190,7 +190,7 @@ export class DatasyncLocationFsxLustreFileSystem extends cdktn.TerraformResource
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -206,7 +206,7 @@ export class DatasyncLocationFsxLustreFileSystem extends cdktn.TerraformResource
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

@@ -108,7 +108,7 @@ export class NetworkmanagerAttachmentAccepterTimeoutsOutputReference extends cdk
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -185,7 +185,7 @@ export class NetworkmanagerAttachmentAccepter extends cdktn.TerraformResource {
   // ==========
 
   // attachment_id - computed: false, optional: false, required: true
-  private _attachmentId?: string;
+  private _attachmentId?: string; 
   public get attachmentId() {
     return this.getStringAttribute('attachment_id');
   }
@@ -203,7 +203,7 @@ export class NetworkmanagerAttachmentAccepter extends cdktn.TerraformResource {
   }
 
   // attachment_type - computed: false, optional: false, required: true
-  private _attachmentType?: string;
+  private _attachmentType?: string; 
   public get attachmentType() {
     return this.getStringAttribute('attachment_type');
   }
@@ -236,7 +236,7 @@ export class NetworkmanagerAttachmentAccepter extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }

@@ -197,7 +197,7 @@ export class Ec2FlowLogDestinationOptionsOutputReference extends cdktn.ComplexOb
   }
 
   // file_format - computed: true, optional: true, required: false
-  private _fileFormat?: string;
+  private _fileFormat?: string; 
   public get fileFormat() {
     return this.getStringAttribute('file_format');
   }
@@ -213,7 +213,7 @@ export class Ec2FlowLogDestinationOptionsOutputReference extends cdktn.ComplexOb
   }
 
   // hive_compatible_partitions - computed: true, optional: true, required: false
-  private _hiveCompatiblePartitions?: boolean | cdktn.IResolvable;
+  private _hiveCompatiblePartitions?: boolean | cdktn.IResolvable; 
   public get hiveCompatiblePartitions() {
     return this.getBooleanAttribute('hive_compatible_partitions');
   }
@@ -229,7 +229,7 @@ export class Ec2FlowLogDestinationOptionsOutputReference extends cdktn.ComplexOb
   }
 
   // per_hour_partition - computed: true, optional: true, required: false
-  private _perHourPartition?: boolean | cdktn.IResolvable;
+  private _perHourPartition?: boolean | cdktn.IResolvable; 
   public get perHourPartition() {
     return this.getBooleanAttribute('per_hour_partition');
   }
@@ -342,7 +342,7 @@ export class Ec2FlowLogTagFieldSpecificationsOutputReference extends cdktn.Compl
   }
 
   // resource_type - computed: true, optional: true, required: false
-  private _resourceType?: string;
+  private _resourceType?: string; 
   public get resourceType() {
     return this.getStringAttribute('resource_type');
   }
@@ -358,7 +358,7 @@ export class Ec2FlowLogTagFieldSpecificationsOutputReference extends cdktn.Compl
   }
 
   // tag_keys - computed: true, optional: true, required: false
-  private _tagKeys?: string[];
+  private _tagKeys?: string[]; 
   public get tagKeys() {
     return this.getListAttribute('tag_keys');
   }
@@ -491,7 +491,7 @@ export class Ec2FlowLogTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -507,7 +507,7 @@ export class Ec2FlowLogTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -613,7 +613,7 @@ export class Ec2FlowLog extends cdktn.TerraformResource {
   // ==========
 
   // deliver_cross_account_role - computed: true, optional: true, required: false
-  private _deliverCrossAccountRole?: string;
+  private _deliverCrossAccountRole?: string; 
   public get deliverCrossAccountRole() {
     return this.getStringAttribute('deliver_cross_account_role');
   }
@@ -629,7 +629,7 @@ export class Ec2FlowLog extends cdktn.TerraformResource {
   }
 
   // deliver_logs_permission_arn - computed: true, optional: true, required: false
-  private _deliverLogsPermissionArn?: string;
+  private _deliverLogsPermissionArn?: string; 
   public get deliverLogsPermissionArn() {
     return this.getStringAttribute('deliver_logs_permission_arn');
   }
@@ -671,7 +671,7 @@ export class Ec2FlowLog extends cdktn.TerraformResource {
   }
 
   // log_destination - computed: true, optional: true, required: false
-  private _logDestination?: string;
+  private _logDestination?: string; 
   public get logDestination() {
     return this.getStringAttribute('log_destination');
   }
@@ -687,7 +687,7 @@ export class Ec2FlowLog extends cdktn.TerraformResource {
   }
 
   // log_destination_type - computed: true, optional: true, required: false
-  private _logDestinationType?: string;
+  private _logDestinationType?: string; 
   public get logDestinationType() {
     return this.getStringAttribute('log_destination_type');
   }
@@ -703,7 +703,7 @@ export class Ec2FlowLog extends cdktn.TerraformResource {
   }
 
   // log_format - computed: true, optional: true, required: false
-  private _logFormat?: string;
+  private _logFormat?: string; 
   public get logFormat() {
     return this.getStringAttribute('log_format');
   }
@@ -719,7 +719,7 @@ export class Ec2FlowLog extends cdktn.TerraformResource {
   }
 
   // log_group_name - computed: true, optional: true, required: false
-  private _logGroupName?: string;
+  private _logGroupName?: string; 
   public get logGroupName() {
     return this.getStringAttribute('log_group_name');
   }
@@ -735,7 +735,7 @@ export class Ec2FlowLog extends cdktn.TerraformResource {
   }
 
   // max_aggregation_interval - computed: true, optional: true, required: false
-  private _maxAggregationInterval?: number;
+  private _maxAggregationInterval?: number; 
   public get maxAggregationInterval() {
     return this.getNumberAttribute('max_aggregation_interval');
   }
@@ -751,7 +751,7 @@ export class Ec2FlowLog extends cdktn.TerraformResource {
   }
 
   // resource_id - computed: false, optional: false, required: true
-  private _resourceId?: string;
+  private _resourceId?: string; 
   public get resourceId() {
     return this.getStringAttribute('resource_id');
   }
@@ -764,7 +764,7 @@ export class Ec2FlowLog extends cdktn.TerraformResource {
   }
 
   // resource_type - computed: false, optional: false, required: true
-  private _resourceType?: string;
+  private _resourceType?: string; 
   public get resourceType() {
     return this.getStringAttribute('resource_type');
   }
@@ -809,7 +809,7 @@ export class Ec2FlowLog extends cdktn.TerraformResource {
   }
 
   // traffic_type - computed: true, optional: true, required: false
-  private _trafficType?: string;
+  private _trafficType?: string; 
   public get trafficType() {
     return this.getStringAttribute('traffic_type');
   }

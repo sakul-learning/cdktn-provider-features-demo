@@ -144,7 +144,7 @@ export class DatabrewDatasetFormatOptionsCsvOutputReference extends cdktn.Comple
   }
 
   // delimiter - computed: true, optional: true, required: false
-  private _delimiter?: string;
+  private _delimiter?: string; 
   public get delimiter() {
     return this.getStringAttribute('delimiter');
   }
@@ -160,7 +160,7 @@ export class DatabrewDatasetFormatOptionsCsvOutputReference extends cdktn.Comple
   }
 
   // header_row - computed: true, optional: true, required: false
-  private _headerRow?: boolean | cdktn.IResolvable;
+  private _headerRow?: boolean | cdktn.IResolvable; 
   public get headerRow() {
     return this.getBooleanAttribute('header_row');
   }
@@ -288,7 +288,7 @@ export class DatabrewDatasetFormatOptionsExcelOutputReference extends cdktn.Comp
   }
 
   // header_row - computed: true, optional: true, required: false
-  private _headerRow?: boolean | cdktn.IResolvable;
+  private _headerRow?: boolean | cdktn.IResolvable; 
   public get headerRow() {
     return this.getBooleanAttribute('header_row');
   }
@@ -304,7 +304,7 @@ export class DatabrewDatasetFormatOptionsExcelOutputReference extends cdktn.Comp
   }
 
   // sheet_indexes - computed: true, optional: true, required: false
-  private _sheetIndexes?: number[];
+  private _sheetIndexes?: number[]; 
   public get sheetIndexes() {
     return this.getNumberListAttribute('sheet_indexes');
   }
@@ -320,7 +320,7 @@ export class DatabrewDatasetFormatOptionsExcelOutputReference extends cdktn.Comp
   }
 
   // sheet_names - computed: true, optional: true, required: false
-  private _sheetNames?: string[];
+  private _sheetNames?: string[]; 
   public get sheetNames() {
     return this.getListAttribute('sheet_names');
   }
@@ -414,7 +414,7 @@ export class DatabrewDatasetFormatOptionsJsonOutputReference extends cdktn.Compl
   }
 
   // multi_line - computed: true, optional: true, required: false
-  private _multiLine?: boolean | cdktn.IResolvable;
+  private _multiLine?: boolean | cdktn.IResolvable; 
   public get multiLine() {
     return this.getBooleanAttribute('multi_line');
   }
@@ -708,7 +708,7 @@ export class DatabrewDatasetInputDataCatalogInputDefinitionTempDirectoryOutputRe
   }
 
   // bucket - computed: true, optional: true, required: false
-  private _bucket?: string;
+  private _bucket?: string; 
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -724,7 +724,7 @@ export class DatabrewDatasetInputDataCatalogInputDefinitionTempDirectoryOutputRe
   }
 
   // bucket_owner - computed: true, optional: true, required: false
-  private _bucketOwner?: string;
+  private _bucketOwner?: string; 
   public get bucketOwner() {
     return this.getStringAttribute('bucket_owner');
   }
@@ -740,7 +740,7 @@ export class DatabrewDatasetInputDataCatalogInputDefinitionTempDirectoryOutputRe
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -893,7 +893,7 @@ export class DatabrewDatasetInputDataCatalogInputDefinitionOutputReference exten
   }
 
   // catalog_id - computed: true, optional: true, required: false
-  private _catalogId?: string;
+  private _catalogId?: string; 
   public get catalogId() {
     return this.getStringAttribute('catalog_id');
   }
@@ -909,7 +909,7 @@ export class DatabrewDatasetInputDataCatalogInputDefinitionOutputReference exten
   }
 
   // database_name - computed: true, optional: true, required: false
-  private _databaseName?: string;
+  private _databaseName?: string; 
   public get databaseName() {
     return this.getStringAttribute('database_name');
   }
@@ -925,7 +925,7 @@ export class DatabrewDatasetInputDataCatalogInputDefinitionOutputReference exten
   }
 
   // table_name - computed: true, optional: true, required: false
-  private _tableName?: string;
+  private _tableName?: string; 
   public get tableName() {
     return this.getStringAttribute('table_name');
   }
@@ -1071,7 +1071,7 @@ export class DatabrewDatasetInputDatabaseInputDefinitionTempDirectoryOutputRefer
   }
 
   // bucket - computed: true, optional: true, required: false
-  private _bucket?: string;
+  private _bucket?: string; 
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -1087,7 +1087,7 @@ export class DatabrewDatasetInputDatabaseInputDefinitionTempDirectoryOutputRefer
   }
 
   // bucket_owner - computed: true, optional: true, required: false
-  private _bucketOwner?: string;
+  private _bucketOwner?: string; 
   public get bucketOwner() {
     return this.getStringAttribute('bucket_owner');
   }
@@ -1103,7 +1103,7 @@ export class DatabrewDatasetInputDatabaseInputDefinitionTempDirectoryOutputRefer
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1256,7 +1256,7 @@ export class DatabrewDatasetInputDatabaseInputDefinitionOutputReference extends 
   }
 
   // database_table_name - computed: true, optional: true, required: false
-  private _databaseTableName?: string;
+  private _databaseTableName?: string; 
   public get databaseTableName() {
     return this.getStringAttribute('database_table_name');
   }
@@ -1272,7 +1272,7 @@ export class DatabrewDatasetInputDatabaseInputDefinitionOutputReference extends 
   }
 
   // glue_connection_name - computed: true, optional: true, required: false
-  private _glueConnectionName?: string;
+  private _glueConnectionName?: string; 
   public get glueConnectionName() {
     return this.getStringAttribute('glue_connection_name');
   }
@@ -1288,7 +1288,7 @@ export class DatabrewDatasetInputDatabaseInputDefinitionOutputReference extends 
   }
 
   // query_string - computed: true, optional: true, required: false
-  private _queryString?: string;
+  private _queryString?: string; 
   public get queryString() {
     return this.getStringAttribute('query_string');
   }
@@ -1400,7 +1400,7 @@ export class DatabrewDatasetInputMetadataOutputReference extends cdktn.ComplexOb
   }
 
   // source_arn - computed: true, optional: true, required: false
-  private _sourceArn?: string;
+  private _sourceArn?: string; 
   public get sourceArn() {
     return this.getStringAttribute('source_arn');
   }
@@ -1530,7 +1530,7 @@ export class DatabrewDatasetInputS3InputDefinitionOutputReference extends cdktn.
   }
 
   // bucket - computed: true, optional: true, required: false
-  private _bucket?: string;
+  private _bucket?: string; 
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -1546,7 +1546,7 @@ export class DatabrewDatasetInputS3InputDefinitionOutputReference extends cdktn.
   }
 
   // bucket_owner - computed: true, optional: true, required: false
-  private _bucketOwner?: string;
+  private _bucketOwner?: string; 
   public get bucketOwner() {
     return this.getStringAttribute('bucket_owner');
   }
@@ -1562,7 +1562,7 @@ export class DatabrewDatasetInputS3InputDefinitionOutputReference extends cdktn.
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1891,7 +1891,7 @@ export class DatabrewDatasetPathOptionsFilesLimitOutputReference extends cdktn.C
   }
 
   // max_files - computed: true, optional: true, required: false
-  private _maxFiles?: number;
+  private _maxFiles?: number; 
   public get maxFiles() {
     return this.getNumberAttribute('max_files');
   }
@@ -1907,7 +1907,7 @@ export class DatabrewDatasetPathOptionsFilesLimitOutputReference extends cdktn.C
   }
 
   // order - computed: true, optional: true, required: false
-  private _order?: string;
+  private _order?: string; 
   public get order() {
     return this.getStringAttribute('order');
   }
@@ -1923,7 +1923,7 @@ export class DatabrewDatasetPathOptionsFilesLimitOutputReference extends cdktn.C
   }
 
   // ordered_by - computed: true, optional: true, required: false
-  private _orderedBy?: string;
+  private _orderedBy?: string; 
   public get orderedBy() {
     return this.getStringAttribute('ordered_by');
   }
@@ -2038,7 +2038,7 @@ export class DatabrewDatasetPathOptionsLastModifiedDateConditionValuesMapOutputR
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2054,7 +2054,7 @@ export class DatabrewDatasetPathOptionsLastModifiedDateConditionValuesMapOutputR
   }
 
   // value_reference - computed: true, optional: true, required: false
-  private _valueReference?: string;
+  private _valueReference?: string; 
   public get valueReference() {
     return this.getStringAttribute('value_reference');
   }
@@ -2187,7 +2187,7 @@ export class DatabrewDatasetPathOptionsLastModifiedDateConditionOutputReference 
   }
 
   // expression - computed: true, optional: true, required: false
-  private _expression?: string;
+  private _expression?: string; 
   public get expression() {
     return this.getStringAttribute('expression');
   }
@@ -2337,7 +2337,7 @@ export class DatabrewDatasetPathOptionsParametersDatasetParameterDatetimeOptions
   }
 
   // format - computed: true, optional: true, required: false
-  private _format?: string;
+  private _format?: string; 
   public get format() {
     return this.getStringAttribute('format');
   }
@@ -2353,7 +2353,7 @@ export class DatabrewDatasetPathOptionsParametersDatasetParameterDatetimeOptions
   }
 
   // locale_code - computed: true, optional: true, required: false
-  private _localeCode?: string;
+  private _localeCode?: string; 
   public get localeCode() {
     return this.getStringAttribute('locale_code');
   }
@@ -2369,7 +2369,7 @@ export class DatabrewDatasetPathOptionsParametersDatasetParameterDatetimeOptions
   }
 
   // timezone_offset - computed: true, optional: true, required: false
-  private _timezoneOffset?: string;
+  private _timezoneOffset?: string; 
   public get timezoneOffset() {
     return this.getStringAttribute('timezone_offset');
   }
@@ -2484,7 +2484,7 @@ export class DatabrewDatasetPathOptionsParametersDatasetParameterFilterValuesMap
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2500,7 +2500,7 @@ export class DatabrewDatasetPathOptionsParametersDatasetParameterFilterValuesMap
   }
 
   // value_reference - computed: true, optional: true, required: false
-  private _valueReference?: string;
+  private _valueReference?: string; 
   public get valueReference() {
     return this.getStringAttribute('value_reference');
   }
@@ -2633,7 +2633,7 @@ export class DatabrewDatasetPathOptionsParametersDatasetParameterFilterOutputRef
   }
 
   // expression - computed: true, optional: true, required: false
-  private _expression?: string;
+  private _expression?: string; 
   public get expression() {
     return this.getStringAttribute('expression');
   }
@@ -2817,7 +2817,7 @@ export class DatabrewDatasetPathOptionsParametersDatasetParameterOutputReference
   }
 
   // create_column - computed: true, optional: true, required: false
-  private _createColumn?: boolean | cdktn.IResolvable;
+  private _createColumn?: boolean | cdktn.IResolvable; 
   public get createColumn() {
     return this.getBooleanAttribute('create_column');
   }
@@ -2865,7 +2865,7 @@ export class DatabrewDatasetPathOptionsParametersDatasetParameterOutputReference
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2881,7 +2881,7 @@ export class DatabrewDatasetPathOptionsParametersDatasetParameterOutputReference
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -3012,7 +3012,7 @@ export class DatabrewDatasetPathOptionsParametersOutputReference extends cdktn.C
   }
 
   // path_parameter_name - computed: true, optional: true, required: false
-  private _pathParameterName?: string;
+  private _pathParameterName?: string; 
   public get pathParameterName() {
     return this.getStringAttribute('path_parameter_name');
   }
@@ -3305,7 +3305,7 @@ export class DatabrewDatasetTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -3321,7 +3321,7 @@ export class DatabrewDatasetTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -3421,7 +3421,7 @@ export class DatabrewDataset extends cdktn.TerraformResource {
   // ==========
 
   // format - computed: true, optional: true, required: false
-  private _format?: string;
+  private _format?: string; 
   public get format() {
     return this.getStringAttribute('format');
   }
@@ -3471,7 +3471,7 @@ export class DatabrewDataset extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -3500,7 +3500,7 @@ export class DatabrewDataset extends cdktn.TerraformResource {
   }
 
   // source - computed: true, optional: true, required: false
-  private _source?: string;
+  private _source?: string; 
   public get source() {
     return this.getStringAttribute('source');
   }

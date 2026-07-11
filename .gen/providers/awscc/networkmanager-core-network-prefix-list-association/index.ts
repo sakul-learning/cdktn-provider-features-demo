@@ -87,7 +87,7 @@ export class NetworkmanagerCoreNetworkPrefixListAssociation extends cdktn.Terraf
   // ==========
 
   // core_network_id - computed: false, optional: false, required: true
-  private _coreNetworkId?: string;
+  private _coreNetworkId?: string; 
   public get coreNetworkId() {
     return this.getStringAttribute('core_network_id');
   }
@@ -105,7 +105,7 @@ export class NetworkmanagerCoreNetworkPrefixListAssociation extends cdktn.Terraf
   }
 
   // prefix_list_alias - computed: false, optional: false, required: true
-  private _prefixListAlias?: string;
+  private _prefixListAlias?: string; 
   public get prefixListAlias() {
     return this.getStringAttribute('prefix_list_alias');
   }
@@ -118,7 +118,7 @@ export class NetworkmanagerCoreNetworkPrefixListAssociation extends cdktn.Terraf
   }
 
   // prefix_list_arn - computed: false, optional: false, required: true
-  private _prefixListArn?: string;
+  private _prefixListArn?: string; 
   public get prefixListArn() {
     return this.getStringAttribute('prefix_list_arn');
   }

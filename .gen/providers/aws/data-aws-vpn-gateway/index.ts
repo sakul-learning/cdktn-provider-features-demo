@@ -151,7 +151,7 @@ export class DataAwsVpnGatewayFilterOutputReference extends cdktn.ComplexObject 
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -164,7 +164,7 @@ export class DataAwsVpnGatewayFilterOutputReference extends cdktn.ComplexObject 
   }
 
   // values - computed: false, optional: false, required: true
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -275,7 +275,7 @@ export class DataAwsVpnGatewayTimeoutsOutputReference extends cdktn.ComplexObjec
   }
 
   // read - computed: false, optional: true, required: false
-  private _read?: string;
+  private _read?: string; 
   public get read() {
     return this.getStringAttribute('read');
   }
@@ -357,7 +357,7 @@ export class DataAwsVpnGateway extends cdktn.TerraformDataSource {
   // ==========
 
   // amazon_side_asn - computed: true, optional: true, required: false
-  private _amazonSideAsn?: string;
+  private _amazonSideAsn?: string; 
   public get amazonSideAsn() {
     return this.getStringAttribute('amazon_side_asn');
   }
@@ -378,7 +378,7 @@ export class DataAwsVpnGateway extends cdktn.TerraformDataSource {
   }
 
   // attached_vpc_id - computed: true, optional: true, required: false
-  private _attachedVpcId?: string;
+  private _attachedVpcId?: string; 
   public get attachedVpcId() {
     return this.getStringAttribute('attached_vpc_id');
   }
@@ -394,7 +394,7 @@ export class DataAwsVpnGateway extends cdktn.TerraformDataSource {
   }
 
   // availability_zone - computed: true, optional: true, required: false
-  private _availabilityZone?: string;
+  private _availabilityZone?: string; 
   public get availabilityZone() {
     return this.getStringAttribute('availability_zone');
   }
@@ -410,7 +410,7 @@ export class DataAwsVpnGateway extends cdktn.TerraformDataSource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -426,7 +426,7 @@ export class DataAwsVpnGateway extends cdktn.TerraformDataSource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -442,7 +442,7 @@ export class DataAwsVpnGateway extends cdktn.TerraformDataSource {
   }
 
   // state - computed: true, optional: true, required: false
-  private _state?: string;
+  private _state?: string; 
   public get state() {
     return this.getStringAttribute('state');
   }
@@ -458,7 +458,7 @@ export class DataAwsVpnGateway extends cdktn.TerraformDataSource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

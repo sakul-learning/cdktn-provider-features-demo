@@ -129,7 +129,7 @@ export class FsxDataRepositoryAssociationS3AutoExportPolicyOutputReference exten
   }
 
   // events - computed: true, optional: true, required: false
-  private _events?: string[];
+  private _events?: string[]; 
   public get events() {
     return cdktn.Fn.tolist(this.getListAttribute('events'));
   }
@@ -223,7 +223,7 @@ export class FsxDataRepositoryAssociationS3AutoImportPolicyOutputReference exten
   }
 
   // events - computed: true, optional: true, required: false
-  private _events?: string[];
+  private _events?: string[]; 
   public get events() {
     return cdktn.Fn.tolist(this.getListAttribute('events'));
   }
@@ -371,13 +371,13 @@ export class FsxDataRepositoryAssociationS3OutputReference extends cdktn.Complex
 }
 export interface FsxDataRepositoryAssociationTags {
   /**
-  * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
+  * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fsx_data_repository_association#key FsxDataRepositoryAssociation#key}
   */
   readonly key?: string;
   /**
-  * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
+  * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/fsx_data_repository_association#value FsxDataRepositoryAssociation#value}
   */
@@ -471,7 +471,7 @@ export class FsxDataRepositoryAssociationTagsOutputReference extends cdktn.Compl
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -487,7 +487,7 @@ export class FsxDataRepositoryAssociationTagsOutputReference extends cdktn.Compl
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -592,7 +592,7 @@ export class FsxDataRepositoryAssociation extends cdktn.TerraformResource {
   }
 
   // batch_import_meta_data_on_create - computed: true, optional: true, required: false
-  private _batchImportMetaDataOnCreate?: boolean | cdktn.IResolvable;
+  private _batchImportMetaDataOnCreate?: boolean | cdktn.IResolvable; 
   public get batchImportMetaDataOnCreate() {
     return this.getBooleanAttribute('batch_import_meta_data_on_create');
   }
@@ -608,7 +608,7 @@ export class FsxDataRepositoryAssociation extends cdktn.TerraformResource {
   }
 
   // data_repository_path - computed: false, optional: false, required: true
-  private _dataRepositoryPath?: string;
+  private _dataRepositoryPath?: string; 
   public get dataRepositoryPath() {
     return this.getStringAttribute('data_repository_path');
   }
@@ -621,7 +621,7 @@ export class FsxDataRepositoryAssociation extends cdktn.TerraformResource {
   }
 
   // file_system_id - computed: false, optional: false, required: true
-  private _fileSystemId?: string;
+  private _fileSystemId?: string; 
   public get fileSystemId() {
     return this.getStringAttribute('file_system_id');
   }
@@ -634,7 +634,7 @@ export class FsxDataRepositoryAssociation extends cdktn.TerraformResource {
   }
 
   // file_system_path - computed: false, optional: false, required: true
-  private _fileSystemPath?: string;
+  private _fileSystemPath?: string; 
   public get fileSystemPath() {
     return this.getStringAttribute('file_system_path');
   }
@@ -652,7 +652,7 @@ export class FsxDataRepositoryAssociation extends cdktn.TerraformResource {
   }
 
   // imported_file_chunk_size - computed: true, optional: true, required: false
-  private _importedFileChunkSize?: number;
+  private _importedFileChunkSize?: number; 
   public get importedFileChunkSize() {
     return this.getNumberAttribute('imported_file_chunk_size');
   }

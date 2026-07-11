@@ -223,7 +223,7 @@ export class WorkspaceswebSessionLoggerEventFilterOutputReference extends cdktn.
   }
 
   // include - computed: false, optional: true, required: false
-  private _include?: string[];
+  private _include?: string[]; 
   public get include() {
     return cdktn.Fn.tolist(this.getListAttribute('include'));
   }
@@ -423,7 +423,7 @@ export class WorkspaceswebSessionLoggerLogConfigurationS3OutputReference extends
   }
 
   // bucket - computed: false, optional: false, required: true
-  private _bucket?: string;
+  private _bucket?: string; 
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -436,7 +436,7 @@ export class WorkspaceswebSessionLoggerLogConfigurationS3OutputReference extends
   }
 
   // bucket_owner - computed: true, optional: true, required: false
-  private _bucketOwner?: string;
+  private _bucketOwner?: string; 
   public get bucketOwner() {
     return this.getStringAttribute('bucket_owner');
   }
@@ -452,7 +452,7 @@ export class WorkspaceswebSessionLoggerLogConfigurationS3OutputReference extends
   }
 
   // folder_structure - computed: false, optional: false, required: true
-  private _folderStructure?: string;
+  private _folderStructure?: string; 
   public get folderStructure() {
     return this.getStringAttribute('folder_structure');
   }
@@ -465,7 +465,7 @@ export class WorkspaceswebSessionLoggerLogConfigurationS3OutputReference extends
   }
 
   // key_prefix - computed: false, optional: true, required: false
-  private _keyPrefix?: string;
+  private _keyPrefix?: string; 
   public get keyPrefix() {
     return this.getStringAttribute('key_prefix');
   }
@@ -481,7 +481,7 @@ export class WorkspaceswebSessionLoggerLogConfigurationS3OutputReference extends
   }
 
   // log_file_format - computed: false, optional: false, required: true
-  private _logFileFormat?: string;
+  private _logFileFormat?: string; 
   public get logFileFormat() {
     return this.getStringAttribute('log_file_format');
   }
@@ -696,7 +696,7 @@ export class WorkspaceswebSessionLogger extends cdktn.TerraformResource {
   // ==========
 
   // additional_encryption_context - computed: false, optional: true, required: false
-  private _additionalEncryptionContext?: { [key: string]: string };
+  private _additionalEncryptionContext?: { [key: string]: string }; 
   public get additionalEncryptionContext() {
     return this.getStringMapAttribute('additional_encryption_context');
   }
@@ -717,7 +717,7 @@ export class WorkspaceswebSessionLogger extends cdktn.TerraformResource {
   }
 
   // customer_managed_key - computed: false, optional: true, required: false
-  private _customerManagedKey?: string;
+  private _customerManagedKey?: string; 
   public get customerManagedKey() {
     return this.getStringAttribute('customer_managed_key');
   }
@@ -733,7 +733,7 @@ export class WorkspaceswebSessionLogger extends cdktn.TerraformResource {
   }
 
   // display_name - computed: false, optional: true, required: false
-  private _displayName?: string;
+  private _displayName?: string; 
   public get displayName() {
     return this.getStringAttribute('display_name');
   }
@@ -749,7 +749,7 @@ export class WorkspaceswebSessionLogger extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -770,7 +770,7 @@ export class WorkspaceswebSessionLogger extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

@@ -87,7 +87,7 @@ export class XrayResourcePolicy extends cdktn.TerraformResource {
   // ==========
 
   // bypass_policy_lockout_check - computed: true, optional: true, required: false
-  private _bypassPolicyLockoutCheck?: boolean | cdktn.IResolvable;
+  private _bypassPolicyLockoutCheck?: boolean | cdktn.IResolvable; 
   public get bypassPolicyLockoutCheck() {
     return this.getBooleanAttribute('bypass_policy_lockout_check');
   }
@@ -108,7 +108,7 @@ export class XrayResourcePolicy extends cdktn.TerraformResource {
   }
 
   // policy_document - computed: false, optional: false, required: true
-  private _policyDocument?: string;
+  private _policyDocument?: string; 
   public get policyDocument() {
     return this.getStringAttribute('policy_document');
   }
@@ -121,7 +121,7 @@ export class XrayResourcePolicy extends cdktn.TerraformResource {
   }
 
   // policy_name - computed: false, optional: false, required: true
-  private _policyName?: string;
+  private _policyName?: string; 
   public get policyName() {
     return this.getStringAttribute('policy_name');
   }

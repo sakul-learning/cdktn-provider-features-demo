@@ -100,7 +100,7 @@ export interface ImagebuilderInfrastructureConfigurationInstanceMetadataOptions 
   */
   readonly httpPutResponseHopLimit?: number;
   /**
-  * Indicates whether a signed token header is required for instance metadata retrieval requests. The values affect the response as follows:
+  * Indicates whether a signed token header is required for instance metadata retrieval requests. The values affect the response as follows: 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/imagebuilder_infrastructure_configuration#http_tokens ImagebuilderInfrastructureConfiguration#http_tokens}
   */
@@ -192,7 +192,7 @@ export class ImagebuilderInfrastructureConfigurationInstanceMetadataOptionsOutpu
   }
 
   // http_put_response_hop_limit - computed: true, optional: true, required: false
-  private _httpPutResponseHopLimit?: number;
+  private _httpPutResponseHopLimit?: number; 
   public get httpPutResponseHopLimit() {
     return this.getNumberAttribute('http_put_response_hop_limit');
   }
@@ -208,7 +208,7 @@ export class ImagebuilderInfrastructureConfigurationInstanceMetadataOptionsOutpu
   }
 
   // http_tokens - computed: true, optional: true, required: false
-  private _httpTokens?: string;
+  private _httpTokens?: string; 
   public get httpTokens() {
     return this.getStringAttribute('http_tokens');
   }
@@ -323,7 +323,7 @@ export class ImagebuilderInfrastructureConfigurationLoggingS3LogsOutputReference
   }
 
   // s3_bucket_name - computed: true, optional: true, required: false
-  private _s3BucketName?: string;
+  private _s3BucketName?: string; 
   public get s3BucketName() {
     return this.getStringAttribute('s3_bucket_name');
   }
@@ -339,7 +339,7 @@ export class ImagebuilderInfrastructureConfigurationLoggingS3LogsOutputReference
   }
 
   // s3_key_prefix - computed: true, optional: true, required: false
-  private _s3KeyPrefix?: string;
+  private _s3KeyPrefix?: string; 
   public get s3KeyPrefix() {
     return this.getStringAttribute('s3_key_prefix');
   }
@@ -588,7 +588,7 @@ export class ImagebuilderInfrastructureConfigurationPlacementOutputReference ext
   }
 
   // availability_zone - computed: true, optional: true, required: false
-  private _availabilityZone?: string;
+  private _availabilityZone?: string; 
   public get availabilityZone() {
     return this.getStringAttribute('availability_zone');
   }
@@ -604,7 +604,7 @@ export class ImagebuilderInfrastructureConfigurationPlacementOutputReference ext
   }
 
   // host_id - computed: true, optional: true, required: false
-  private _hostId?: string;
+  private _hostId?: string; 
   public get hostId() {
     return this.getStringAttribute('host_id');
   }
@@ -620,7 +620,7 @@ export class ImagebuilderInfrastructureConfigurationPlacementOutputReference ext
   }
 
   // host_resource_group_arn - computed: true, optional: true, required: false
-  private _hostResourceGroupArn?: string;
+  private _hostResourceGroupArn?: string; 
   public get hostResourceGroupArn() {
     return this.getStringAttribute('host_resource_group_arn');
   }
@@ -636,7 +636,7 @@ export class ImagebuilderInfrastructureConfigurationPlacementOutputReference ext
   }
 
   // tenancy - computed: true, optional: true, required: false
-  private _tenancy?: string;
+  private _tenancy?: string; 
   public get tenancy() {
     return this.getStringAttribute('tenancy');
   }
@@ -728,7 +728,7 @@ export class ImagebuilderInfrastructureConfiguration extends cdktn.TerraformReso
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -765,7 +765,7 @@ export class ImagebuilderInfrastructureConfiguration extends cdktn.TerraformReso
   }
 
   // instance_profile_name - computed: false, optional: false, required: true
-  private _instanceProfileName?: string;
+  private _instanceProfileName?: string; 
   public get instanceProfileName() {
     return this.getStringAttribute('instance_profile_name');
   }
@@ -778,7 +778,7 @@ export class ImagebuilderInfrastructureConfiguration extends cdktn.TerraformReso
   }
 
   // instance_types - computed: true, optional: true, required: false
-  private _instanceTypes?: string[];
+  private _instanceTypes?: string[]; 
   public get instanceTypes() {
     return this.getListAttribute('instance_types');
   }
@@ -794,7 +794,7 @@ export class ImagebuilderInfrastructureConfiguration extends cdktn.TerraformReso
   }
 
   // key_pair - computed: true, optional: true, required: false
-  private _keyPair?: string;
+  private _keyPair?: string; 
   public get keyPair() {
     return this.getStringAttribute('key_pair');
   }
@@ -826,7 +826,7 @@ export class ImagebuilderInfrastructureConfiguration extends cdktn.TerraformReso
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -855,7 +855,7 @@ export class ImagebuilderInfrastructureConfiguration extends cdktn.TerraformReso
   }
 
   // resource_tags - computed: true, optional: true, required: false
-  private _resourceTags?: { [key: string]: string };
+  private _resourceTags?: { [key: string]: string }; 
   public get resourceTags() {
     return this.getStringMapAttribute('resource_tags');
   }
@@ -871,7 +871,7 @@ export class ImagebuilderInfrastructureConfiguration extends cdktn.TerraformReso
   }
 
   // security_group_ids - computed: true, optional: true, required: false
-  private _securityGroupIds?: string[];
+  private _securityGroupIds?: string[]; 
   public get securityGroupIds() {
     return this.getListAttribute('security_group_ids');
   }
@@ -887,7 +887,7 @@ export class ImagebuilderInfrastructureConfiguration extends cdktn.TerraformReso
   }
 
   // sns_topic_arn - computed: true, optional: true, required: false
-  private _snsTopicArn?: string;
+  private _snsTopicArn?: string; 
   public get snsTopicArn() {
     return this.getStringAttribute('sns_topic_arn');
   }
@@ -903,7 +903,7 @@ export class ImagebuilderInfrastructureConfiguration extends cdktn.TerraformReso
   }
 
   // subnet_id - computed: true, optional: true, required: false
-  private _subnetId?: string;
+  private _subnetId?: string; 
   public get subnetId() {
     return this.getStringAttribute('subnet_id');
   }
@@ -919,7 +919,7 @@ export class ImagebuilderInfrastructureConfiguration extends cdktn.TerraformReso
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -935,7 +935,7 @@ export class ImagebuilderInfrastructureConfiguration extends cdktn.TerraformReso
   }
 
   // terminate_instance_on_failure - computed: true, optional: true, required: false
-  private _terminateInstanceOnFailure?: boolean | cdktn.IResolvable;
+  private _terminateInstanceOnFailure?: boolean | cdktn.IResolvable; 
   public get terminateInstanceOnFailure() {
     return this.getBooleanAttribute('terminate_instance_on_failure');
   }

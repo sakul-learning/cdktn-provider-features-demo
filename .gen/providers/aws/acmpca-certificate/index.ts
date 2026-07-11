@@ -133,7 +133,7 @@ export class AcmpcaCertificateValidityOutputReference extends cdktn.ComplexObjec
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -146,7 +146,7 @@ export class AcmpcaCertificateValidityOutputReference extends cdktn.ComplexObjec
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -224,7 +224,7 @@ export class AcmpcaCertificate extends cdktn.TerraformResource {
   // ==========
 
   // api_passthrough - computed: false, optional: true, required: false
-  private _apiPassthrough?: string;
+  private _apiPassthrough?: string; 
   public get apiPassthrough() {
     return this.getStringAttribute('api_passthrough');
   }
@@ -250,7 +250,7 @@ export class AcmpcaCertificate extends cdktn.TerraformResource {
   }
 
   // certificate_authority_arn - computed: false, optional: false, required: true
-  private _certificateAuthorityArn?: string;
+  private _certificateAuthorityArn?: string; 
   public get certificateAuthorityArn() {
     return this.getStringAttribute('certificate_authority_arn');
   }
@@ -268,7 +268,7 @@ export class AcmpcaCertificate extends cdktn.TerraformResource {
   }
 
   // certificate_signing_request - computed: false, optional: false, required: true
-  private _certificateSigningRequest?: string;
+  private _certificateSigningRequest?: string; 
   public get certificateSigningRequest() {
     return this.getStringAttribute('certificate_signing_request');
   }
@@ -281,7 +281,7 @@ export class AcmpcaCertificate extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -297,7 +297,7 @@ export class AcmpcaCertificate extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -313,7 +313,7 @@ export class AcmpcaCertificate extends cdktn.TerraformResource {
   }
 
   // signing_algorithm - computed: false, optional: false, required: true
-  private _signingAlgorithm?: string;
+  private _signingAlgorithm?: string; 
   public get signingAlgorithm() {
     return this.getStringAttribute('signing_algorithm');
   }
@@ -326,7 +326,7 @@ export class AcmpcaCertificate extends cdktn.TerraformResource {
   }
 
   // template_arn - computed: false, optional: true, required: false
-  private _templateArn?: string;
+  private _templateArn?: string; 
   public get templateArn() {
     return this.getStringAttribute('template_arn');
   }

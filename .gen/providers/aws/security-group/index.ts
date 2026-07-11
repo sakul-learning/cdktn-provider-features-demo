@@ -280,7 +280,7 @@ export class SecurityGroupEgressOutputReference extends cdktn.ComplexObject {
   }
 
   // cidr_blocks - computed: true, optional: true, required: false
-  private _cidrBlocks?: string[];
+  private _cidrBlocks?: string[]; 
   public get cidrBlocks() {
     return this.getListAttribute('cidr_blocks');
   }
@@ -296,7 +296,7 @@ export class SecurityGroupEgressOutputReference extends cdktn.ComplexObject {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -312,7 +312,7 @@ export class SecurityGroupEgressOutputReference extends cdktn.ComplexObject {
   }
 
   // from_port - computed: true, optional: true, required: false
-  private _fromPort?: number;
+  private _fromPort?: number; 
   public get fromPort() {
     return this.getNumberAttribute('from_port');
   }
@@ -328,7 +328,7 @@ export class SecurityGroupEgressOutputReference extends cdktn.ComplexObject {
   }
 
   // ipv6_cidr_blocks - computed: true, optional: true, required: false
-  private _ipv6CidrBlocks?: string[];
+  private _ipv6CidrBlocks?: string[]; 
   public get ipv6CidrBlocks() {
     return this.getListAttribute('ipv6_cidr_blocks');
   }
@@ -344,7 +344,7 @@ export class SecurityGroupEgressOutputReference extends cdktn.ComplexObject {
   }
 
   // prefix_list_ids - computed: true, optional: true, required: false
-  private _prefixListIds?: string[];
+  private _prefixListIds?: string[]; 
   public get prefixListIds() {
     return this.getListAttribute('prefix_list_ids');
   }
@@ -360,7 +360,7 @@ export class SecurityGroupEgressOutputReference extends cdktn.ComplexObject {
   }
 
   // protocol - computed: true, optional: true, required: false
-  private _protocol?: string;
+  private _protocol?: string; 
   public get protocol() {
     return this.getStringAttribute('protocol');
   }
@@ -376,7 +376,7 @@ export class SecurityGroupEgressOutputReference extends cdktn.ComplexObject {
   }
 
   // security_groups - computed: true, optional: true, required: false
-  private _securityGroups?: string[];
+  private _securityGroups?: string[]; 
   public get securityGroups() {
     return cdktn.Fn.tolist(this.getListAttribute('security_groups'));
   }
@@ -392,7 +392,7 @@ export class SecurityGroupEgressOutputReference extends cdktn.ComplexObject {
   }
 
   // self - computed: true, optional: true, required: false
-  private _self?: boolean | cdktn.IResolvable;
+  private _self?: boolean | cdktn.IResolvable; 
   public get selfAttribute() {
     return this.getBooleanAttribute('self');
   }
@@ -408,7 +408,7 @@ export class SecurityGroupEgressOutputReference extends cdktn.ComplexObject {
   }
 
   // to_port - computed: true, optional: true, required: false
-  private _toPort?: number;
+  private _toPort?: number; 
   public get toPort() {
     return this.getNumberAttribute('to_port');
   }
@@ -660,7 +660,7 @@ export class SecurityGroupIngressOutputReference extends cdktn.ComplexObject {
   }
 
   // cidr_blocks - computed: true, optional: true, required: false
-  private _cidrBlocks?: string[];
+  private _cidrBlocks?: string[]; 
   public get cidrBlocks() {
     return this.getListAttribute('cidr_blocks');
   }
@@ -676,7 +676,7 @@ export class SecurityGroupIngressOutputReference extends cdktn.ComplexObject {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -692,7 +692,7 @@ export class SecurityGroupIngressOutputReference extends cdktn.ComplexObject {
   }
 
   // from_port - computed: true, optional: true, required: false
-  private _fromPort?: number;
+  private _fromPort?: number; 
   public get fromPort() {
     return this.getNumberAttribute('from_port');
   }
@@ -708,7 +708,7 @@ export class SecurityGroupIngressOutputReference extends cdktn.ComplexObject {
   }
 
   // ipv6_cidr_blocks - computed: true, optional: true, required: false
-  private _ipv6CidrBlocks?: string[];
+  private _ipv6CidrBlocks?: string[]; 
   public get ipv6CidrBlocks() {
     return this.getListAttribute('ipv6_cidr_blocks');
   }
@@ -724,7 +724,7 @@ export class SecurityGroupIngressOutputReference extends cdktn.ComplexObject {
   }
 
   // prefix_list_ids - computed: true, optional: true, required: false
-  private _prefixListIds?: string[];
+  private _prefixListIds?: string[]; 
   public get prefixListIds() {
     return this.getListAttribute('prefix_list_ids');
   }
@@ -740,7 +740,7 @@ export class SecurityGroupIngressOutputReference extends cdktn.ComplexObject {
   }
 
   // protocol - computed: true, optional: true, required: false
-  private _protocol?: string;
+  private _protocol?: string; 
   public get protocol() {
     return this.getStringAttribute('protocol');
   }
@@ -756,7 +756,7 @@ export class SecurityGroupIngressOutputReference extends cdktn.ComplexObject {
   }
 
   // security_groups - computed: true, optional: true, required: false
-  private _securityGroups?: string[];
+  private _securityGroups?: string[]; 
   public get securityGroups() {
     return cdktn.Fn.tolist(this.getListAttribute('security_groups'));
   }
@@ -772,7 +772,7 @@ export class SecurityGroupIngressOutputReference extends cdktn.ComplexObject {
   }
 
   // self - computed: true, optional: true, required: false
-  private _self?: boolean | cdktn.IResolvable;
+  private _self?: boolean | cdktn.IResolvable; 
   public get selfAttribute() {
     return this.getBooleanAttribute('self');
   }
@@ -788,7 +788,7 @@ export class SecurityGroupIngressOutputReference extends cdktn.ComplexObject {
   }
 
   // to_port - computed: true, optional: true, required: false
-  private _toPort?: number;
+  private _toPort?: number; 
   public get toPort() {
     return this.getNumberAttribute('to_port');
   }
@@ -919,7 +919,7 @@ export class SecurityGroupTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -935,7 +935,7 @@ export class SecurityGroupTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -1025,7 +1025,7 @@ export class SecurityGroup extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1057,7 +1057,7 @@ export class SecurityGroup extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -1089,7 +1089,7 @@ export class SecurityGroup extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1105,7 +1105,7 @@ export class SecurityGroup extends cdktn.TerraformResource {
   }
 
   // name_prefix - computed: true, optional: true, required: false
-  private _namePrefix?: string;
+  private _namePrefix?: string; 
   public get namePrefix() {
     return this.getStringAttribute('name_prefix');
   }
@@ -1126,7 +1126,7 @@ export class SecurityGroup extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1142,7 +1142,7 @@ export class SecurityGroup extends cdktn.TerraformResource {
   }
 
   // revoke_rules_on_delete - computed: false, optional: true, required: false
-  private _revokeRulesOnDelete?: boolean | cdktn.IResolvable;
+  private _revokeRulesOnDelete?: boolean | cdktn.IResolvable; 
   public get revokeRulesOnDelete() {
     return this.getBooleanAttribute('revoke_rules_on_delete');
   }
@@ -1158,7 +1158,7 @@ export class SecurityGroup extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -1174,7 +1174,7 @@ export class SecurityGroup extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -1190,7 +1190,7 @@ export class SecurityGroup extends cdktn.TerraformResource {
   }
 
   // vpc_id - computed: true, optional: true, required: false
-  private _vpcId?: string;
+  private _vpcId?: string; 
   public get vpcId() {
     return this.getStringAttribute('vpc_id');
   }

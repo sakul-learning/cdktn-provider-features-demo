@@ -94,7 +94,7 @@ export class ServicecatalogPortfolioShare extends cdktn.TerraformResource {
   // ==========
 
   // accept_language - computed: true, optional: true, required: false
-  private _acceptLanguage?: string;
+  private _acceptLanguage?: string; 
   public get acceptLanguage() {
     return this.getStringAttribute('accept_language');
   }
@@ -110,7 +110,7 @@ export class ServicecatalogPortfolioShare extends cdktn.TerraformResource {
   }
 
   // account_id - computed: false, optional: false, required: true
-  private _accountId?: string;
+  private _accountId?: string; 
   public get accountId() {
     return this.getStringAttribute('account_id');
   }
@@ -128,7 +128,7 @@ export class ServicecatalogPortfolioShare extends cdktn.TerraformResource {
   }
 
   // portfolio_id - computed: false, optional: false, required: true
-  private _portfolioId?: string;
+  private _portfolioId?: string; 
   public get portfolioId() {
     return this.getStringAttribute('portfolio_id');
   }
@@ -141,7 +141,7 @@ export class ServicecatalogPortfolioShare extends cdktn.TerraformResource {
   }
 
   // share_tag_options - computed: true, optional: true, required: false
-  private _shareTagOptions?: boolean | cdktn.IResolvable;
+  private _shareTagOptions?: boolean | cdktn.IResolvable; 
   public get shareTagOptions() {
     return this.getBooleanAttribute('share_tag_options');
   }

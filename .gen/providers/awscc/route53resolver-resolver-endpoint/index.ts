@@ -9,8 +9,8 @@ import * as cdktn from 'cdktn';
 export interface Route53ResolverResolverEndpointConfig extends cdktn.TerraformMetaArguments {
   /**
   * Indicates whether the Resolver endpoint allows inbound or outbound DNS queries:
-  * - INBOUND: allows DNS queries to your VPC from your network
-  * - OUTBOUND: allows DNS queries from your VPC to your network
+  * - INBOUND: allows DNS queries to your VPC from your network 
+  * - OUTBOUND: allows DNS queries from your VPC to your network 
   * - INBOUND_DELEGATION: allows DNS queries to your VPC from your network with authoritative answers from private hosted zones
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53resolver_resolver_endpoint#direction Route53ResolverResolverEndpoint#direction}
@@ -210,7 +210,7 @@ export class Route53ResolverResolverEndpointIpAddressesOutputReference extends c
   }
 
   // ip - computed: true, optional: true, required: false
-  private _ip?: string;
+  private _ip?: string; 
   public get ip() {
     return this.getStringAttribute('ip');
   }
@@ -226,7 +226,7 @@ export class Route53ResolverResolverEndpointIpAddressesOutputReference extends c
   }
 
   // ipv_6 - computed: true, optional: true, required: false
-  private _ipv6?: string;
+  private _ipv6?: string; 
   public get ipv6() {
     return this.getStringAttribute('ipv_6');
   }
@@ -242,7 +242,7 @@ export class Route53ResolverResolverEndpointIpAddressesOutputReference extends c
   }
 
   // subnet_id - computed: false, optional: false, required: true
-  private _subnetId?: string;
+  private _subnetId?: string; 
   public get subnetId() {
     return this.getStringAttribute('subnet_id');
   }
@@ -376,7 +376,7 @@ export class Route53ResolverResolverEndpointTagsOutputReference extends cdktn.Co
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -392,7 +392,7 @@ export class Route53ResolverResolverEndpointTagsOutputReference extends cdktn.Co
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -503,7 +503,7 @@ export class Route53ResolverResolverEndpoint extends cdktn.TerraformResource {
   }
 
   // direction - computed: false, optional: false, required: true
-  private _direction?: string;
+  private _direction?: string; 
   public get direction() {
     return this.getStringAttribute('direction');
   }
@@ -516,7 +516,7 @@ export class Route53ResolverResolverEndpoint extends cdktn.TerraformResource {
   }
 
   // dns_64_enabled - computed: true, optional: true, required: false
-  private _dns64Enabled?: boolean | cdktn.IResolvable;
+  private _dns64Enabled?: boolean | cdktn.IResolvable; 
   public get dns64Enabled() {
     return this.getBooleanAttribute('dns_64_enabled');
   }
@@ -560,7 +560,7 @@ export class Route53ResolverResolverEndpoint extends cdktn.TerraformResource {
   }
 
   // ipv_6_internet_access_enabled - computed: true, optional: true, required: false
-  private _ipv6InternetAccessEnabled?: boolean | cdktn.IResolvable;
+  private _ipv6InternetAccessEnabled?: boolean | cdktn.IResolvable; 
   public get ipv6InternetAccessEnabled() {
     return this.getBooleanAttribute('ipv_6_internet_access_enabled');
   }
@@ -576,7 +576,7 @@ export class Route53ResolverResolverEndpoint extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -592,7 +592,7 @@ export class Route53ResolverResolverEndpoint extends cdktn.TerraformResource {
   }
 
   // outpost_arn - computed: true, optional: true, required: false
-  private _outpostArn?: string;
+  private _outpostArn?: string; 
   public get outpostArn() {
     return this.getStringAttribute('outpost_arn');
   }
@@ -608,7 +608,7 @@ export class Route53ResolverResolverEndpoint extends cdktn.TerraformResource {
   }
 
   // preferred_instance_type - computed: true, optional: true, required: false
-  private _preferredInstanceType?: string;
+  private _preferredInstanceType?: string; 
   public get preferredInstanceType() {
     return this.getStringAttribute('preferred_instance_type');
   }
@@ -624,7 +624,7 @@ export class Route53ResolverResolverEndpoint extends cdktn.TerraformResource {
   }
 
   // protocols - computed: true, optional: true, required: false
-  private _protocols?: string[];
+  private _protocols?: string[]; 
   public get protocols() {
     return this.getListAttribute('protocols');
   }
@@ -645,7 +645,7 @@ export class Route53ResolverResolverEndpoint extends cdktn.TerraformResource {
   }
 
   // resolver_endpoint_type - computed: true, optional: true, required: false
-  private _resolverEndpointType?: string;
+  private _resolverEndpointType?: string; 
   public get resolverEndpointType() {
     return this.getStringAttribute('resolver_endpoint_type');
   }
@@ -661,7 +661,7 @@ export class Route53ResolverResolverEndpoint extends cdktn.TerraformResource {
   }
 
   // rni_enhanced_metrics_enabled - computed: true, optional: true, required: false
-  private _rniEnhancedMetricsEnabled?: boolean | cdktn.IResolvable;
+  private _rniEnhancedMetricsEnabled?: boolean | cdktn.IResolvable; 
   public get rniEnhancedMetricsEnabled() {
     return this.getBooleanAttribute('rni_enhanced_metrics_enabled');
   }
@@ -677,7 +677,7 @@ export class Route53ResolverResolverEndpoint extends cdktn.TerraformResource {
   }
 
   // security_group_ids - computed: false, optional: false, required: true
-  private _securityGroupIds?: string[];
+  private _securityGroupIds?: string[]; 
   public get securityGroupIds() {
     return this.getListAttribute('security_group_ids');
   }
@@ -706,7 +706,7 @@ export class Route53ResolverResolverEndpoint extends cdktn.TerraformResource {
   }
 
   // target_name_server_metrics_enabled - computed: true, optional: true, required: false
-  private _targetNameServerMetricsEnabled?: boolean | cdktn.IResolvable;
+  private _targetNameServerMetricsEnabled?: boolean | cdktn.IResolvable; 
   public get targetNameServerMetricsEnabled() {
     return this.getBooleanAttribute('target_name_server_metrics_enabled');
   }

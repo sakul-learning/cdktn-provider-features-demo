@@ -160,7 +160,7 @@ export class SagemakerFeatureGroupFeatureDefinitionsOutputReference extends cdkt
   }
 
   // feature_name - computed: false, optional: false, required: true
-  private _featureName?: string;
+  private _featureName?: string; 
   public get featureName() {
     return this.getStringAttribute('feature_name');
   }
@@ -173,7 +173,7 @@ export class SagemakerFeatureGroupFeatureDefinitionsOutputReference extends cdkt
   }
 
   // feature_type - computed: false, optional: false, required: true
-  private _featureType?: string;
+  private _featureType?: string; 
   public get featureType() {
     return this.getStringAttribute('feature_type');
   }
@@ -318,7 +318,7 @@ export class SagemakerFeatureGroupOfflineStoreConfigDataCatalogConfigOutputRefer
   }
 
   // catalog - computed: true, optional: true, required: false
-  private _catalog?: string;
+  private _catalog?: string; 
   public get catalog() {
     return this.getStringAttribute('catalog');
   }
@@ -334,7 +334,7 @@ export class SagemakerFeatureGroupOfflineStoreConfigDataCatalogConfigOutputRefer
   }
 
   // database - computed: true, optional: true, required: false
-  private _database?: string;
+  private _database?: string; 
   public get database() {
     return this.getStringAttribute('database');
   }
@@ -350,7 +350,7 @@ export class SagemakerFeatureGroupOfflineStoreConfigDataCatalogConfigOutputRefer
   }
 
   // table_name - computed: true, optional: true, required: false
-  private _tableName?: string;
+  private _tableName?: string; 
   public get tableName() {
     return this.getStringAttribute('table_name');
   }
@@ -461,7 +461,7 @@ export class SagemakerFeatureGroupOfflineStoreConfigS3StorageConfigOutputReferen
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -477,7 +477,7 @@ export class SagemakerFeatureGroupOfflineStoreConfigS3StorageConfigOutputReferen
   }
 
   // s3_uri - computed: true, optional: true, required: false
-  private _s3Uri?: string;
+  private _s3Uri?: string; 
   public get s3Uri() {
     return this.getStringAttribute('s3_uri');
   }
@@ -640,7 +640,7 @@ export class SagemakerFeatureGroupOfflineStoreConfigOutputReference extends cdkt
   }
 
   // disable_glue_table_creation - computed: true, optional: true, required: false
-  private _disableGlueTableCreation?: boolean | cdktn.IResolvable;
+  private _disableGlueTableCreation?: boolean | cdktn.IResolvable; 
   public get disableGlueTableCreation() {
     return this.getBooleanAttribute('disable_glue_table_creation');
   }
@@ -672,7 +672,7 @@ export class SagemakerFeatureGroupOfflineStoreConfigOutputReference extends cdkt
   }
 
   // table_format - computed: true, optional: true, required: false
-  private _tableFormat?: string;
+  private _tableFormat?: string; 
   public get tableFormat() {
     return this.getStringAttribute('table_format');
   }
@@ -766,7 +766,7 @@ export class SagemakerFeatureGroupOnlineStoreConfigSecurityConfigOutputReference
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -881,7 +881,7 @@ export class SagemakerFeatureGroupOnlineStoreConfigTtlDurationOutputReference ex
   }
 
   // unit - computed: true, optional: true, required: false
-  private _unit?: string;
+  private _unit?: string; 
   public get unit() {
     return this.getStringAttribute('unit');
   }
@@ -897,7 +897,7 @@ export class SagemakerFeatureGroupOnlineStoreConfigTtlDurationOutputReference ex
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: number;
+  private _value?: number; 
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -1044,7 +1044,7 @@ export class SagemakerFeatureGroupOnlineStoreConfigOutputReference extends cdktn
   }
 
   // enable_online_store - computed: true, optional: true, required: false
-  private _enableOnlineStore?: boolean | cdktn.IResolvable;
+  private _enableOnlineStore?: boolean | cdktn.IResolvable; 
   public get enableOnlineStore() {
     return this.getBooleanAttribute('enable_online_store');
   }
@@ -1076,7 +1076,7 @@ export class SagemakerFeatureGroupOnlineStoreConfigOutputReference extends cdktn
   }
 
   // storage_type - computed: true, optional: true, required: false
-  private _storageType?: string;
+  private _storageType?: string; 
   public get storageType() {
     return this.getStringAttribute('storage_type');
   }
@@ -1205,7 +1205,7 @@ export class SagemakerFeatureGroupTagsOutputReference extends cdktn.ComplexObjec
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1221,7 +1221,7 @@ export class SagemakerFeatureGroupTagsOutputReference extends cdktn.ComplexObjec
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1375,7 +1375,7 @@ export class SagemakerFeatureGroupThroughputConfigOutputReference extends cdktn.
   }
 
   // provisioned_read_capacity_units - computed: true, optional: true, required: false
-  private _provisionedReadCapacityUnits?: number;
+  private _provisionedReadCapacityUnits?: number; 
   public get provisionedReadCapacityUnits() {
     return this.getNumberAttribute('provisioned_read_capacity_units');
   }
@@ -1391,7 +1391,7 @@ export class SagemakerFeatureGroupThroughputConfigOutputReference extends cdktn.
   }
 
   // provisioned_write_capacity_units - computed: true, optional: true, required: false
-  private _provisionedWriteCapacityUnits?: number;
+  private _provisionedWriteCapacityUnits?: number; 
   public get provisionedWriteCapacityUnits() {
     return this.getNumberAttribute('provisioned_write_capacity_units');
   }
@@ -1407,7 +1407,7 @@ export class SagemakerFeatureGroupThroughputConfigOutputReference extends cdktn.
   }
 
   // throughput_mode - computed: true, optional: true, required: false
-  private _throughputMode?: string;
+  private _throughputMode?: string; 
   public get throughputMode() {
     return this.getStringAttribute('throughput_mode');
   }
@@ -1495,7 +1495,7 @@ export class SagemakerFeatureGroup extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1511,7 +1511,7 @@ export class SagemakerFeatureGroup extends cdktn.TerraformResource {
   }
 
   // event_time_feature_name - computed: false, optional: false, required: true
-  private _eventTimeFeatureName?: string;
+  private _eventTimeFeatureName?: string; 
   public get eventTimeFeatureName() {
     return this.getStringAttribute('event_time_feature_name');
   }
@@ -1537,7 +1537,7 @@ export class SagemakerFeatureGroup extends cdktn.TerraformResource {
   }
 
   // feature_group_name - computed: false, optional: false, required: true
-  private _featureGroupName?: string;
+  private _featureGroupName?: string; 
   public get featureGroupName() {
     return this.getStringAttribute('feature_group_name');
   }
@@ -1592,7 +1592,7 @@ export class SagemakerFeatureGroup extends cdktn.TerraformResource {
   }
 
   // record_identifier_feature_name - computed: false, optional: false, required: true
-  private _recordIdentifierFeatureName?: string;
+  private _recordIdentifierFeatureName?: string; 
   public get recordIdentifierFeatureName() {
     return this.getStringAttribute('record_identifier_feature_name');
   }
@@ -1605,7 +1605,7 @@ export class SagemakerFeatureGroup extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }

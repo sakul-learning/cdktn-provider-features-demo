@@ -27,7 +27,7 @@ export interface CloudformationHookTypeConfigConfig extends cdktn.TerraformMetaA
   readonly typeArn?: string;
   /**
   * The name of the type being registered.
-  *
+  * 
   * We recommend that type names adhere to the following pattern: company_or_organization::service::type.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_hook_type_config#type_name CloudformationHookTypeConfig#type_name}
@@ -96,7 +96,7 @@ export class CloudformationHookTypeConfig extends cdktn.TerraformResource {
   // ==========
 
   // configuration - computed: true, optional: true, required: false
-  private _configuration?: string;
+  private _configuration?: string; 
   public get configuration() {
     return this.getStringAttribute('configuration');
   }
@@ -112,7 +112,7 @@ export class CloudformationHookTypeConfig extends cdktn.TerraformResource {
   }
 
   // configuration_alias - computed: true, optional: true, required: false
-  private _configurationAlias?: string;
+  private _configurationAlias?: string; 
   public get configurationAlias() {
     return this.getStringAttribute('configuration_alias');
   }
@@ -138,7 +138,7 @@ export class CloudformationHookTypeConfig extends cdktn.TerraformResource {
   }
 
   // type_arn - computed: true, optional: true, required: false
-  private _typeArn?: string;
+  private _typeArn?: string; 
   public get typeArn() {
     return this.getStringAttribute('type_arn');
   }
@@ -154,7 +154,7 @@ export class CloudformationHookTypeConfig extends cdktn.TerraformResource {
   }
 
   // type_name - computed: true, optional: true, required: false
-  private _typeName?: string;
+  private _typeName?: string; 
   public get typeName() {
     return this.getStringAttribute('type_name');
   }

@@ -114,7 +114,7 @@ export class BackupBackupPlanBackupPlanAdvancedBackupSettingsOutputReference ext
   }
 
   // backup_options - computed: true, optional: true, required: false
-  private _backupOptions?: string;
+  private _backupOptions?: string; 
   public get backupOptions() {
     return this.getStringAttribute('backup_options');
   }
@@ -130,7 +130,7 @@ export class BackupBackupPlanBackupPlanAdvancedBackupSettingsOutputReference ext
   }
 
   // resource_type - computed: true, optional: true, required: false
-  private _resourceType?: string;
+  private _resourceType?: string; 
   public get resourceType() {
     return this.getStringAttribute('resource_type');
   }
@@ -278,7 +278,7 @@ export class BackupBackupPlanBackupPlanBackupPlanRuleCopyActionsLifecycleOutputR
   }
 
   // delete_after_days - computed: true, optional: true, required: false
-  private _deleteAfterDays?: number;
+  private _deleteAfterDays?: number; 
   public get deleteAfterDays() {
     return this.getNumberAttribute('delete_after_days');
   }
@@ -294,7 +294,7 @@ export class BackupBackupPlanBackupPlanBackupPlanRuleCopyActionsLifecycleOutputR
   }
 
   // move_to_cold_storage_after_days - computed: true, optional: true, required: false
-  private _moveToColdStorageAfterDays?: number;
+  private _moveToColdStorageAfterDays?: number; 
   public get moveToColdStorageAfterDays() {
     return this.getNumberAttribute('move_to_cold_storage_after_days');
   }
@@ -310,7 +310,7 @@ export class BackupBackupPlanBackupPlanBackupPlanRuleCopyActionsLifecycleOutputR
   }
 
   // opt_in_to_archive_for_supported_resources - computed: true, optional: true, required: false
-  private _optInToArchiveForSupportedResources?: boolean | cdktn.IResolvable;
+  private _optInToArchiveForSupportedResources?: boolean | cdktn.IResolvable; 
   public get optInToArchiveForSupportedResources() {
     return this.getBooleanAttribute('opt_in_to_archive_for_supported_resources');
   }
@@ -423,7 +423,7 @@ export class BackupBackupPlanBackupPlanBackupPlanRuleCopyActionsOutputReference 
   }
 
   // destination_backup_vault_arn - computed: true, optional: true, required: false
-  private _destinationBackupVaultArn?: string;
+  private _destinationBackupVaultArn?: string; 
   public get destinationBackupVaultArn() {
     return this.getStringAttribute('destination_backup_vault_arn');
   }
@@ -555,7 +555,7 @@ export class BackupBackupPlanBackupPlanBackupPlanRuleIndexActionsOutputReference
   }
 
   // resource_types - computed: true, optional: true, required: false
-  private _resourceTypes?: string[];
+  private _resourceTypes?: string[]; 
   public get resourceTypes() {
     return this.getListAttribute('resource_types');
   }
@@ -703,7 +703,7 @@ export class BackupBackupPlanBackupPlanBackupPlanRuleLifecycleOutputReference ex
   }
 
   // delete_after_days - computed: true, optional: true, required: false
-  private _deleteAfterDays?: number;
+  private _deleteAfterDays?: number; 
   public get deleteAfterDays() {
     return this.getNumberAttribute('delete_after_days');
   }
@@ -719,7 +719,7 @@ export class BackupBackupPlanBackupPlanBackupPlanRuleLifecycleOutputReference ex
   }
 
   // move_to_cold_storage_after_days - computed: true, optional: true, required: false
-  private _moveToColdStorageAfterDays?: number;
+  private _moveToColdStorageAfterDays?: number; 
   public get moveToColdStorageAfterDays() {
     return this.getNumberAttribute('move_to_cold_storage_after_days');
   }
@@ -735,7 +735,7 @@ export class BackupBackupPlanBackupPlanBackupPlanRuleLifecycleOutputReference ex
   }
 
   // opt_in_to_archive_for_supported_resources - computed: true, optional: true, required: false
-  private _optInToArchiveForSupportedResources?: boolean | cdktn.IResolvable;
+  private _optInToArchiveForSupportedResources?: boolean | cdktn.IResolvable; 
   public get optInToArchiveForSupportedResources() {
     return this.getBooleanAttribute('opt_in_to_archive_for_supported_resources');
   }
@@ -848,7 +848,7 @@ export class BackupBackupPlanBackupPlanBackupPlanRuleScanActionsOutputReference 
   }
 
   // malware_scanner - computed: true, optional: true, required: false
-  private _malwareScanner?: string;
+  private _malwareScanner?: string; 
   public get malwareScanner() {
     return this.getStringAttribute('malware_scanner');
   }
@@ -864,7 +864,7 @@ export class BackupBackupPlanBackupPlanBackupPlanRuleScanActionsOutputReference 
   }
 
   // scan_mode - computed: true, optional: true, required: false
-  private _scanMode?: string;
+  private _scanMode?: string; 
   public get scanMode() {
     return this.getStringAttribute('scan_mode');
   }
@@ -1184,7 +1184,7 @@ export class BackupBackupPlanBackupPlanBackupPlanRuleOutputReference extends cdk
   }
 
   // completion_window_minutes - computed: true, optional: true, required: false
-  private _completionWindowMinutes?: number;
+  private _completionWindowMinutes?: number; 
   public get completionWindowMinutes() {
     return this.getNumberAttribute('completion_window_minutes');
   }
@@ -1216,7 +1216,7 @@ export class BackupBackupPlanBackupPlanBackupPlanRuleOutputReference extends cdk
   }
 
   // enable_continuous_backup - computed: true, optional: true, required: false
-  private _enableContinuousBackup?: boolean | cdktn.IResolvable;
+  private _enableContinuousBackup?: boolean | cdktn.IResolvable; 
   public get enableContinuousBackup() {
     return this.getBooleanAttribute('enable_continuous_backup');
   }
@@ -1264,7 +1264,7 @@ export class BackupBackupPlanBackupPlanBackupPlanRuleOutputReference extends cdk
   }
 
   // recovery_point_tags - computed: true, optional: true, required: false
-  private _recoveryPointTags?: { [key: string]: string };
+  private _recoveryPointTags?: { [key: string]: string }; 
   public get recoveryPointTags() {
     return this.getStringMapAttribute('recovery_point_tags');
   }
@@ -1280,7 +1280,7 @@ export class BackupBackupPlanBackupPlanBackupPlanRuleOutputReference extends cdk
   }
 
   // rule_name - computed: false, optional: false, required: true
-  private _ruleName?: string;
+  private _ruleName?: string; 
   public get ruleName() {
     return this.getStringAttribute('rule_name');
   }
@@ -1309,7 +1309,7 @@ export class BackupBackupPlanBackupPlanBackupPlanRuleOutputReference extends cdk
   }
 
   // schedule_expression - computed: true, optional: true, required: false
-  private _scheduleExpression?: string;
+  private _scheduleExpression?: string; 
   public get scheduleExpression() {
     return this.getStringAttribute('schedule_expression');
   }
@@ -1325,7 +1325,7 @@ export class BackupBackupPlanBackupPlanBackupPlanRuleOutputReference extends cdk
   }
 
   // schedule_expression_timezone - computed: true, optional: true, required: false
-  private _scheduleExpressionTimezone?: string;
+  private _scheduleExpressionTimezone?: string; 
   public get scheduleExpressionTimezone() {
     return this.getStringAttribute('schedule_expression_timezone');
   }
@@ -1341,7 +1341,7 @@ export class BackupBackupPlanBackupPlanBackupPlanRuleOutputReference extends cdk
   }
 
   // start_window_minutes - computed: true, optional: true, required: false
-  private _startWindowMinutes?: number;
+  private _startWindowMinutes?: number; 
   public get startWindowMinutes() {
     return this.getNumberAttribute('start_window_minutes');
   }
@@ -1357,7 +1357,7 @@ export class BackupBackupPlanBackupPlanBackupPlanRuleOutputReference extends cdk
   }
 
   // target_backup_vault - computed: false, optional: false, required: true
-  private _targetBackupVault?: string;
+  private _targetBackupVault?: string; 
   public get targetBackupVault() {
     return this.getStringAttribute('target_backup_vault');
   }
@@ -1370,7 +1370,7 @@ export class BackupBackupPlanBackupPlanBackupPlanRuleOutputReference extends cdk
   }
 
   // target_logically_air_gapped_backup_vault_arn - computed: true, optional: true, required: false
-  private _targetLogicallyAirGappedBackupVaultArn?: string;
+  private _targetLogicallyAirGappedBackupVaultArn?: string; 
   public get targetLogicallyAirGappedBackupVaultArn() {
     return this.getStringAttribute('target_logically_air_gapped_backup_vault_arn');
   }
@@ -1520,7 +1520,7 @@ export class BackupBackupPlanBackupPlanScanSettingsOutputReference extends cdktn
   }
 
   // malware_scanner - computed: true, optional: true, required: false
-  private _malwareScanner?: string;
+  private _malwareScanner?: string; 
   public get malwareScanner() {
     return this.getStringAttribute('malware_scanner');
   }
@@ -1536,7 +1536,7 @@ export class BackupBackupPlanBackupPlanScanSettingsOutputReference extends cdktn
   }
 
   // resource_types - computed: true, optional: true, required: false
-  private _resourceTypes?: string[];
+  private _resourceTypes?: string[]; 
   public get resourceTypes() {
     return this.getListAttribute('resource_types');
   }
@@ -1552,7 +1552,7 @@ export class BackupBackupPlanBackupPlanScanSettingsOutputReference extends cdktn
   }
 
   // scanner_role_arn - computed: true, optional: true, required: false
-  private _scannerRoleArn?: string;
+  private _scannerRoleArn?: string; 
   public get scannerRoleArn() {
     return this.getStringAttribute('scanner_role_arn');
   }
@@ -1733,7 +1733,7 @@ export class BackupBackupPlanBackupPlanOutputReference extends cdktn.ComplexObje
   }
 
   // backup_plan_name - computed: false, optional: false, required: true
-  private _backupPlanName?: string;
+  private _backupPlanName?: string; 
   public get backupPlanName() {
     return this.getStringAttribute('backup_plan_name');
   }
@@ -1857,7 +1857,7 @@ export class BackupBackupPlan extends cdktn.TerraformResource {
   }
 
   // backup_plan_tags - computed: true, optional: true, required: false
-  private _backupPlanTags?: { [key: string]: string };
+  private _backupPlanTags?: { [key: string]: string }; 
   public get backupPlanTags() {
     return this.getStringMapAttribute('backup_plan_tags');
   }

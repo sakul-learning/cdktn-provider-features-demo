@@ -133,7 +133,7 @@ export class ShieldProactiveEngagementEmergencyContactOutputReference extends cd
   }
 
   // contact_notes - computed: false, optional: true, required: false
-  private _contactNotes?: string;
+  private _contactNotes?: string; 
   public get contactNotes() {
     return this.getStringAttribute('contact_notes');
   }
@@ -149,7 +149,7 @@ export class ShieldProactiveEngagementEmergencyContactOutputReference extends cd
   }
 
   // email_address - computed: false, optional: false, required: true
-  private _emailAddress?: string;
+  private _emailAddress?: string; 
   public get emailAddress() {
     return this.getStringAttribute('email_address');
   }
@@ -162,7 +162,7 @@ export class ShieldProactiveEngagementEmergencyContactOutputReference extends cd
   }
 
   // phone_number - computed: false, optional: true, required: false
-  private _phoneNumber?: string;
+  private _phoneNumber?: string; 
   public get phoneNumber() {
     return this.getStringAttribute('phone_number');
   }
@@ -257,7 +257,7 @@ export class ShieldProactiveEngagement extends cdktn.TerraformResource {
   // ==========
 
   // enabled - computed: false, optional: false, required: true
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }

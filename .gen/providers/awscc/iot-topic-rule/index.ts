@@ -118,7 +118,7 @@ export class IotTopicRuleTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -134,7 +134,7 @@ export class IotTopicRuleTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -299,7 +299,7 @@ export class IotTopicRuleTopicRulePayloadActionsCloudwatchAlarmOutputReference e
   }
 
   // alarm_name - computed: true, optional: true, required: false
-  private _alarmName?: string;
+  private _alarmName?: string; 
   public get alarmName() {
     return this.getStringAttribute('alarm_name');
   }
@@ -315,7 +315,7 @@ export class IotTopicRuleTopicRulePayloadActionsCloudwatchAlarmOutputReference e
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -331,7 +331,7 @@ export class IotTopicRuleTopicRulePayloadActionsCloudwatchAlarmOutputReference e
   }
 
   // state_reason - computed: true, optional: true, required: false
-  private _stateReason?: string;
+  private _stateReason?: string; 
   public get stateReason() {
     return this.getStringAttribute('state_reason');
   }
@@ -347,7 +347,7 @@ export class IotTopicRuleTopicRulePayloadActionsCloudwatchAlarmOutputReference e
   }
 
   // state_value - computed: true, optional: true, required: false
-  private _stateValue?: string;
+  private _stateValue?: string; 
   public get stateValue() {
     return this.getStringAttribute('state_value');
   }
@@ -475,7 +475,7 @@ export class IotTopicRuleTopicRulePayloadActionsCloudwatchLogsOutputReference ex
   }
 
   // batch_mode - computed: true, optional: true, required: false
-  private _batchMode?: boolean | cdktn.IResolvable;
+  private _batchMode?: boolean | cdktn.IResolvable; 
   public get batchMode() {
     return this.getBooleanAttribute('batch_mode');
   }
@@ -491,7 +491,7 @@ export class IotTopicRuleTopicRulePayloadActionsCloudwatchLogsOutputReference ex
   }
 
   // log_group_name - computed: true, optional: true, required: false
-  private _logGroupName?: string;
+  private _logGroupName?: string; 
   public get logGroupName() {
     return this.getStringAttribute('log_group_name');
   }
@@ -507,7 +507,7 @@ export class IotTopicRuleTopicRulePayloadActionsCloudwatchLogsOutputReference ex
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -686,7 +686,7 @@ export class IotTopicRuleTopicRulePayloadActionsCloudwatchMetricOutputReference 
   }
 
   // metric_name - computed: true, optional: true, required: false
-  private _metricName?: string;
+  private _metricName?: string; 
   public get metricName() {
     return this.getStringAttribute('metric_name');
   }
@@ -702,7 +702,7 @@ export class IotTopicRuleTopicRulePayloadActionsCloudwatchMetricOutputReference 
   }
 
   // metric_namespace - computed: true, optional: true, required: false
-  private _metricNamespace?: string;
+  private _metricNamespace?: string; 
   public get metricNamespace() {
     return this.getStringAttribute('metric_namespace');
   }
@@ -718,7 +718,7 @@ export class IotTopicRuleTopicRulePayloadActionsCloudwatchMetricOutputReference 
   }
 
   // metric_timestamp - computed: true, optional: true, required: false
-  private _metricTimestamp?: string;
+  private _metricTimestamp?: string; 
   public get metricTimestamp() {
     return this.getStringAttribute('metric_timestamp');
   }
@@ -734,7 +734,7 @@ export class IotTopicRuleTopicRulePayloadActionsCloudwatchMetricOutputReference 
   }
 
   // metric_unit - computed: true, optional: true, required: false
-  private _metricUnit?: string;
+  private _metricUnit?: string; 
   public get metricUnit() {
     return this.getStringAttribute('metric_unit');
   }
@@ -750,7 +750,7 @@ export class IotTopicRuleTopicRulePayloadActionsCloudwatchMetricOutputReference 
   }
 
   // metric_value - computed: true, optional: true, required: false
-  private _metricValue?: string;
+  private _metricValue?: string; 
   public get metricValue() {
     return this.getStringAttribute('metric_value');
   }
@@ -766,7 +766,7 @@ export class IotTopicRuleTopicRulePayloadActionsCloudwatchMetricOutputReference 
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -860,7 +860,7 @@ export class IotTopicRuleTopicRulePayloadActionsDynamoDBv2PutItemOutputReference
   }
 
   // table_name - computed: true, optional: true, required: false
-  private _tableName?: string;
+  private _tableName?: string; 
   public get tableName() {
     return this.getStringAttribute('table_name');
   }
@@ -987,7 +987,7 @@ export class IotTopicRuleTopicRulePayloadActionsDynamoDBv2OutputReference extend
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -1217,7 +1217,7 @@ export class IotTopicRuleTopicRulePayloadActionsDynamoDbOutputReference extends 
   }
 
   // hash_key_field - computed: true, optional: true, required: false
-  private _hashKeyField?: string;
+  private _hashKeyField?: string; 
   public get hashKeyField() {
     return this.getStringAttribute('hash_key_field');
   }
@@ -1233,7 +1233,7 @@ export class IotTopicRuleTopicRulePayloadActionsDynamoDbOutputReference extends 
   }
 
   // hash_key_type - computed: true, optional: true, required: false
-  private _hashKeyType?: string;
+  private _hashKeyType?: string; 
   public get hashKeyType() {
     return this.getStringAttribute('hash_key_type');
   }
@@ -1249,7 +1249,7 @@ export class IotTopicRuleTopicRulePayloadActionsDynamoDbOutputReference extends 
   }
 
   // hash_key_value - computed: true, optional: true, required: false
-  private _hashKeyValue?: string;
+  private _hashKeyValue?: string; 
   public get hashKeyValue() {
     return this.getStringAttribute('hash_key_value');
   }
@@ -1265,7 +1265,7 @@ export class IotTopicRuleTopicRulePayloadActionsDynamoDbOutputReference extends 
   }
 
   // payload_field - computed: true, optional: true, required: false
-  private _payloadField?: string;
+  private _payloadField?: string; 
   public get payloadField() {
     return this.getStringAttribute('payload_field');
   }
@@ -1281,7 +1281,7 @@ export class IotTopicRuleTopicRulePayloadActionsDynamoDbOutputReference extends 
   }
 
   // range_key_field - computed: true, optional: true, required: false
-  private _rangeKeyField?: string;
+  private _rangeKeyField?: string; 
   public get rangeKeyField() {
     return this.getStringAttribute('range_key_field');
   }
@@ -1297,7 +1297,7 @@ export class IotTopicRuleTopicRulePayloadActionsDynamoDbOutputReference extends 
   }
 
   // range_key_type - computed: true, optional: true, required: false
-  private _rangeKeyType?: string;
+  private _rangeKeyType?: string; 
   public get rangeKeyType() {
     return this.getStringAttribute('range_key_type');
   }
@@ -1313,7 +1313,7 @@ export class IotTopicRuleTopicRulePayloadActionsDynamoDbOutputReference extends 
   }
 
   // range_key_value - computed: true, optional: true, required: false
-  private _rangeKeyValue?: string;
+  private _rangeKeyValue?: string; 
   public get rangeKeyValue() {
     return this.getStringAttribute('range_key_value');
   }
@@ -1329,7 +1329,7 @@ export class IotTopicRuleTopicRulePayloadActionsDynamoDbOutputReference extends 
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -1345,7 +1345,7 @@ export class IotTopicRuleTopicRulePayloadActionsDynamoDbOutputReference extends 
   }
 
   // table_name - computed: true, optional: true, required: false
-  private _tableName?: string;
+  private _tableName?: string; 
   public get tableName() {
     return this.getStringAttribute('table_name');
   }
@@ -1510,7 +1510,7 @@ export class IotTopicRuleTopicRulePayloadActionsElasticsearchOutputReference ext
   }
 
   // endpoint - computed: true, optional: true, required: false
-  private _endpoint?: string;
+  private _endpoint?: string; 
   public get endpoint() {
     return this.getStringAttribute('endpoint');
   }
@@ -1526,7 +1526,7 @@ export class IotTopicRuleTopicRulePayloadActionsElasticsearchOutputReference ext
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -1542,7 +1542,7 @@ export class IotTopicRuleTopicRulePayloadActionsElasticsearchOutputReference ext
   }
 
   // index - computed: true, optional: true, required: false
-  private _index?: string;
+  private _index?: string; 
   public get index() {
     return this.getStringAttribute('index');
   }
@@ -1558,7 +1558,7 @@ export class IotTopicRuleTopicRulePayloadActionsElasticsearchOutputReference ext
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -1574,7 +1574,7 @@ export class IotTopicRuleTopicRulePayloadActionsElasticsearchOutputReference ext
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -1719,7 +1719,7 @@ export class IotTopicRuleTopicRulePayloadActionsFirehoseOutputReference extends 
   }
 
   // batch_mode - computed: true, optional: true, required: false
-  private _batchMode?: boolean | cdktn.IResolvable;
+  private _batchMode?: boolean | cdktn.IResolvable; 
   public get batchMode() {
     return this.getBooleanAttribute('batch_mode');
   }
@@ -1735,7 +1735,7 @@ export class IotTopicRuleTopicRulePayloadActionsFirehoseOutputReference extends 
   }
 
   // delivery_stream_name - computed: true, optional: true, required: false
-  private _deliveryStreamName?: string;
+  private _deliveryStreamName?: string; 
   public get deliveryStreamName() {
     return this.getStringAttribute('delivery_stream_name');
   }
@@ -1751,7 +1751,7 @@ export class IotTopicRuleTopicRulePayloadActionsFirehoseOutputReference extends 
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -1767,7 +1767,7 @@ export class IotTopicRuleTopicRulePayloadActionsFirehoseOutputReference extends 
   }
 
   // separator - computed: true, optional: true, required: false
-  private _separator?: string;
+  private _separator?: string; 
   public get separator() {
     return this.getStringAttribute('separator');
   }
@@ -1895,7 +1895,7 @@ export class IotTopicRuleTopicRulePayloadActionsHttpAuthSigv4OutputReference ext
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -1911,7 +1911,7 @@ export class IotTopicRuleTopicRulePayloadActionsHttpAuthSigv4OutputReference ext
   }
 
   // service_name - computed: true, optional: true, required: false
-  private _serviceName?: string;
+  private _serviceName?: string; 
   public get serviceName() {
     return this.getStringAttribute('service_name');
   }
@@ -1927,7 +1927,7 @@ export class IotTopicRuleTopicRulePayloadActionsHttpAuthSigv4OutputReference ext
   }
 
   // signing_region - computed: true, optional: true, required: false
-  private _signingRegion?: string;
+  private _signingRegion?: string; 
   public get signingRegion() {
     return this.getStringAttribute('signing_region');
   }
@@ -2166,7 +2166,7 @@ export class IotTopicRuleTopicRulePayloadActionsHttpBatchConfigOutputReference e
   }
 
   // batch_across_topics - computed: true, optional: true, required: false
-  private _batchAcrossTopics?: boolean | cdktn.IResolvable;
+  private _batchAcrossTopics?: boolean | cdktn.IResolvable; 
   public get batchAcrossTopics() {
     return this.getBooleanAttribute('batch_across_topics');
   }
@@ -2182,7 +2182,7 @@ export class IotTopicRuleTopicRulePayloadActionsHttpBatchConfigOutputReference e
   }
 
   // max_batch_open_ms - computed: true, optional: true, required: false
-  private _maxBatchOpenMs?: number;
+  private _maxBatchOpenMs?: number; 
   public get maxBatchOpenMs() {
     return this.getNumberAttribute('max_batch_open_ms');
   }
@@ -2198,7 +2198,7 @@ export class IotTopicRuleTopicRulePayloadActionsHttpBatchConfigOutputReference e
   }
 
   // max_batch_size - computed: true, optional: true, required: false
-  private _maxBatchSize?: number;
+  private _maxBatchSize?: number; 
   public get maxBatchSize() {
     return this.getNumberAttribute('max_batch_size');
   }
@@ -2214,7 +2214,7 @@ export class IotTopicRuleTopicRulePayloadActionsHttpBatchConfigOutputReference e
   }
 
   // max_batch_size_bytes - computed: true, optional: true, required: false
-  private _maxBatchSizeBytes?: number;
+  private _maxBatchSizeBytes?: number; 
   public get maxBatchSizeBytes() {
     return this.getNumberAttribute('max_batch_size_bytes');
   }
@@ -2327,7 +2327,7 @@ export class IotTopicRuleTopicRulePayloadActionsHttpHeadersOutputReference exten
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -2343,7 +2343,7 @@ export class IotTopicRuleTopicRulePayloadActionsHttpHeadersOutputReference exten
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2574,7 +2574,7 @@ export class IotTopicRuleTopicRulePayloadActionsHttpOutputReference extends cdkt
   }
 
   // confirmation_url - computed: true, optional: true, required: false
-  private _confirmationUrl?: string;
+  private _confirmationUrl?: string; 
   public get confirmationUrl() {
     return this.getStringAttribute('confirmation_url');
   }
@@ -2590,7 +2590,7 @@ export class IotTopicRuleTopicRulePayloadActionsHttpOutputReference extends cdkt
   }
 
   // enable_batching - computed: true, optional: true, required: false
-  private _enableBatching?: boolean | cdktn.IResolvable;
+  private _enableBatching?: boolean | cdktn.IResolvable; 
   public get enableBatching() {
     return this.getBooleanAttribute('enable_batching');
   }
@@ -2622,7 +2622,7 @@ export class IotTopicRuleTopicRulePayloadActionsHttpOutputReference extends cdkt
   }
 
   // url - computed: true, optional: true, required: false
-  private _url?: string;
+  private _url?: string; 
   public get url() {
     return this.getStringAttribute('url');
   }
@@ -2750,7 +2750,7 @@ export class IotTopicRuleTopicRulePayloadActionsIotAnalyticsOutputReference exte
   }
 
   // batch_mode - computed: true, optional: true, required: false
-  private _batchMode?: boolean | cdktn.IResolvable;
+  private _batchMode?: boolean | cdktn.IResolvable; 
   public get batchMode() {
     return this.getBooleanAttribute('batch_mode');
   }
@@ -2766,7 +2766,7 @@ export class IotTopicRuleTopicRulePayloadActionsIotAnalyticsOutputReference exte
   }
 
   // channel_name - computed: true, optional: true, required: false
-  private _channelName?: string;
+  private _channelName?: string; 
   public get channelName() {
     return this.getStringAttribute('channel_name');
   }
@@ -2782,7 +2782,7 @@ export class IotTopicRuleTopicRulePayloadActionsIotAnalyticsOutputReference exte
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -2927,7 +2927,7 @@ export class IotTopicRuleTopicRulePayloadActionsIotEventsOutputReference extends
   }
 
   // batch_mode - computed: true, optional: true, required: false
-  private _batchMode?: boolean | cdktn.IResolvable;
+  private _batchMode?: boolean | cdktn.IResolvable; 
   public get batchMode() {
     return this.getBooleanAttribute('batch_mode');
   }
@@ -2943,7 +2943,7 @@ export class IotTopicRuleTopicRulePayloadActionsIotEventsOutputReference extends
   }
 
   // input_name - computed: true, optional: true, required: false
-  private _inputName?: string;
+  private _inputName?: string; 
   public get inputName() {
     return this.getStringAttribute('input_name');
   }
@@ -2959,7 +2959,7 @@ export class IotTopicRuleTopicRulePayloadActionsIotEventsOutputReference extends
   }
 
   // message_id - computed: true, optional: true, required: false
-  private _messageId?: string;
+  private _messageId?: string; 
   public get messageId() {
     return this.getStringAttribute('message_id');
   }
@@ -2975,7 +2975,7 @@ export class IotTopicRuleTopicRulePayloadActionsIotEventsOutputReference extends
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -3086,7 +3086,7 @@ export class IotTopicRuleTopicRulePayloadActionsIotSiteWisePutAssetPropertyValue
   }
 
   // offset_in_nanos - computed: true, optional: true, required: false
-  private _offsetInNanos?: string;
+  private _offsetInNanos?: string; 
   public get offsetInNanos() {
     return this.getStringAttribute('offset_in_nanos');
   }
@@ -3102,7 +3102,7 @@ export class IotTopicRuleTopicRulePayloadActionsIotSiteWisePutAssetPropertyValue
   }
 
   // time_in_seconds - computed: true, optional: true, required: false
-  private _timeInSeconds?: string;
+  private _timeInSeconds?: string; 
   public get timeInSeconds() {
     return this.getStringAttribute('time_in_seconds');
   }
@@ -3247,7 +3247,7 @@ export class IotTopicRuleTopicRulePayloadActionsIotSiteWisePutAssetPropertyValue
   }
 
   // boolean_value - computed: true, optional: true, required: false
-  private _booleanValue?: string;
+  private _booleanValue?: string; 
   public get booleanValue() {
     return this.getStringAttribute('boolean_value');
   }
@@ -3263,7 +3263,7 @@ export class IotTopicRuleTopicRulePayloadActionsIotSiteWisePutAssetPropertyValue
   }
 
   // double_value - computed: true, optional: true, required: false
-  private _doubleValue?: string;
+  private _doubleValue?: string; 
   public get doubleValue() {
     return this.getStringAttribute('double_value');
   }
@@ -3279,7 +3279,7 @@ export class IotTopicRuleTopicRulePayloadActionsIotSiteWisePutAssetPropertyValue
   }
 
   // integer_value - computed: true, optional: true, required: false
-  private _integerValue?: string;
+  private _integerValue?: string; 
   public get integerValue() {
     return this.getStringAttribute('integer_value');
   }
@@ -3295,7 +3295,7 @@ export class IotTopicRuleTopicRulePayloadActionsIotSiteWisePutAssetPropertyValue
   }
 
   // string_value - computed: true, optional: true, required: false
-  private _stringValue?: string;
+  private _stringValue?: string; 
   public get stringValue() {
     return this.getStringAttribute('string_value');
   }
@@ -3425,7 +3425,7 @@ export class IotTopicRuleTopicRulePayloadActionsIotSiteWisePutAssetPropertyValue
   }
 
   // quality - computed: true, optional: true, required: false
-  private _quality?: string;
+  private _quality?: string; 
   public get quality() {
     return this.getStringAttribute('quality');
   }
@@ -3641,7 +3641,7 @@ export class IotTopicRuleTopicRulePayloadActionsIotSiteWisePutAssetPropertyValue
   }
 
   // asset_id - computed: true, optional: true, required: false
-  private _assetId?: string;
+  private _assetId?: string; 
   public get assetId() {
     return this.getStringAttribute('asset_id');
   }
@@ -3657,7 +3657,7 @@ export class IotTopicRuleTopicRulePayloadActionsIotSiteWisePutAssetPropertyValue
   }
 
   // entry_id - computed: true, optional: true, required: false
-  private _entryId?: string;
+  private _entryId?: string; 
   public get entryId() {
     return this.getStringAttribute('entry_id');
   }
@@ -3673,7 +3673,7 @@ export class IotTopicRuleTopicRulePayloadActionsIotSiteWisePutAssetPropertyValue
   }
 
   // property_alias - computed: true, optional: true, required: false
-  private _propertyAlias?: string;
+  private _propertyAlias?: string; 
   public get propertyAlias() {
     return this.getStringAttribute('property_alias');
   }
@@ -3689,7 +3689,7 @@ export class IotTopicRuleTopicRulePayloadActionsIotSiteWisePutAssetPropertyValue
   }
 
   // property_id - computed: true, optional: true, required: false
-  private _propertyId?: string;
+  private _propertyId?: string; 
   public get propertyId() {
     return this.getStringAttribute('property_id');
   }
@@ -3852,7 +3852,7 @@ export class IotTopicRuleTopicRulePayloadActionsIotSiteWiseOutputReference exten
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -3965,7 +3965,7 @@ export class IotTopicRuleTopicRulePayloadActionsKafkaHeadersOutputReference exte
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -3981,7 +3981,7 @@ export class IotTopicRuleTopicRulePayloadActionsKafkaHeadersOutputReference exte
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -4180,7 +4180,7 @@ export class IotTopicRuleTopicRulePayloadActionsKafkaOutputReference extends cdk
   }
 
   // client_properties - computed: true, optional: true, required: false
-  private _clientProperties?: { [key: string]: string };
+  private _clientProperties?: { [key: string]: string }; 
   public get clientProperties() {
     return this.getStringMapAttribute('client_properties');
   }
@@ -4196,7 +4196,7 @@ export class IotTopicRuleTopicRulePayloadActionsKafkaOutputReference extends cdk
   }
 
   // destination_arn - computed: true, optional: true, required: false
-  private _destinationArn?: string;
+  private _destinationArn?: string; 
   public get destinationArn() {
     return this.getStringAttribute('destination_arn');
   }
@@ -4228,7 +4228,7 @@ export class IotTopicRuleTopicRulePayloadActionsKafkaOutputReference extends cdk
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -4244,7 +4244,7 @@ export class IotTopicRuleTopicRulePayloadActionsKafkaOutputReference extends cdk
   }
 
   // partition - computed: true, optional: true, required: false
-  private _partition?: string;
+  private _partition?: string; 
   public get partition() {
     return this.getStringAttribute('partition');
   }
@@ -4260,7 +4260,7 @@ export class IotTopicRuleTopicRulePayloadActionsKafkaOutputReference extends cdk
   }
 
   // topic - computed: true, optional: true, required: false
-  private _topic?: string;
+  private _topic?: string; 
   public get topic() {
     return this.getStringAttribute('topic');
   }
@@ -4388,7 +4388,7 @@ export class IotTopicRuleTopicRulePayloadActionsKinesisOutputReference extends c
   }
 
   // partition_key - computed: true, optional: true, required: false
-  private _partitionKey?: string;
+  private _partitionKey?: string; 
   public get partitionKey() {
     return this.getStringAttribute('partition_key');
   }
@@ -4404,7 +4404,7 @@ export class IotTopicRuleTopicRulePayloadActionsKinesisOutputReference extends c
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -4420,7 +4420,7 @@ export class IotTopicRuleTopicRulePayloadActionsKinesisOutputReference extends c
   }
 
   // stream_name - computed: true, optional: true, required: false
-  private _streamName?: string;
+  private _streamName?: string; 
   public get streamName() {
     return this.getStringAttribute('stream_name');
   }
@@ -4514,7 +4514,7 @@ export class IotTopicRuleTopicRulePayloadActionsLambdaOutputReference extends cd
   }
 
   // function_arn - computed: true, optional: true, required: false
-  private _functionArn?: string;
+  private _functionArn?: string; 
   public get functionArn() {
     return this.getStringAttribute('function_arn');
   }
@@ -4625,7 +4625,7 @@ export class IotTopicRuleTopicRulePayloadActionsLocationTimestampOutputReference
   }
 
   // unit - computed: true, optional: true, required: false
-  private _unit?: string;
+  private _unit?: string; 
   public get unit() {
     return this.getStringAttribute('unit');
   }
@@ -4641,7 +4641,7 @@ export class IotTopicRuleTopicRulePayloadActionsLocationTimestampOutputReference
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -4820,7 +4820,7 @@ export class IotTopicRuleTopicRulePayloadActionsLocationOutputReference extends 
   }
 
   // device_id - computed: true, optional: true, required: false
-  private _deviceId?: string;
+  private _deviceId?: string; 
   public get deviceId() {
     return this.getStringAttribute('device_id');
   }
@@ -4836,7 +4836,7 @@ export class IotTopicRuleTopicRulePayloadActionsLocationOutputReference extends 
   }
 
   // latitude - computed: true, optional: true, required: false
-  private _latitude?: string;
+  private _latitude?: string; 
   public get latitude() {
     return this.getStringAttribute('latitude');
   }
@@ -4852,7 +4852,7 @@ export class IotTopicRuleTopicRulePayloadActionsLocationOutputReference extends 
   }
 
   // longitude - computed: true, optional: true, required: false
-  private _longitude?: string;
+  private _longitude?: string; 
   public get longitude() {
     return this.getStringAttribute('longitude');
   }
@@ -4868,7 +4868,7 @@ export class IotTopicRuleTopicRulePayloadActionsLocationOutputReference extends 
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -4900,7 +4900,7 @@ export class IotTopicRuleTopicRulePayloadActionsLocationOutputReference extends 
   }
 
   // tracker_name - computed: true, optional: true, required: false
-  private _trackerName?: string;
+  private _trackerName?: string; 
   public get trackerName() {
     return this.getStringAttribute('tracker_name');
   }
@@ -5065,7 +5065,7 @@ export class IotTopicRuleTopicRulePayloadActionsOpenSearchOutputReference extend
   }
 
   // endpoint - computed: true, optional: true, required: false
-  private _endpoint?: string;
+  private _endpoint?: string; 
   public get endpoint() {
     return this.getStringAttribute('endpoint');
   }
@@ -5081,7 +5081,7 @@ export class IotTopicRuleTopicRulePayloadActionsOpenSearchOutputReference extend
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -5097,7 +5097,7 @@ export class IotTopicRuleTopicRulePayloadActionsOpenSearchOutputReference extend
   }
 
   // index - computed: true, optional: true, required: false
-  private _index?: string;
+  private _index?: string; 
   public get index() {
     return this.getStringAttribute('index');
   }
@@ -5113,7 +5113,7 @@ export class IotTopicRuleTopicRulePayloadActionsOpenSearchOutputReference extend
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -5129,7 +5129,7 @@ export class IotTopicRuleTopicRulePayloadActionsOpenSearchOutputReference extend
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -5242,7 +5242,7 @@ export class IotTopicRuleTopicRulePayloadActionsRepublishHeadersUserPropertiesOu
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -5258,7 +5258,7 @@ export class IotTopicRuleTopicRulePayloadActionsRepublishHeadersUserPropertiesOu
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -5457,7 +5457,7 @@ export class IotTopicRuleTopicRulePayloadActionsRepublishHeadersOutputReference 
   }
 
   // content_type - computed: true, optional: true, required: false
-  private _contentType?: string;
+  private _contentType?: string; 
   public get contentType() {
     return this.getStringAttribute('content_type');
   }
@@ -5473,7 +5473,7 @@ export class IotTopicRuleTopicRulePayloadActionsRepublishHeadersOutputReference 
   }
 
   // correlation_data - computed: true, optional: true, required: false
-  private _correlationData?: string;
+  private _correlationData?: string; 
   public get correlationData() {
     return this.getStringAttribute('correlation_data');
   }
@@ -5489,7 +5489,7 @@ export class IotTopicRuleTopicRulePayloadActionsRepublishHeadersOutputReference 
   }
 
   // message_expiry - computed: true, optional: true, required: false
-  private _messageExpiry?: string;
+  private _messageExpiry?: string; 
   public get messageExpiry() {
     return this.getStringAttribute('message_expiry');
   }
@@ -5505,7 +5505,7 @@ export class IotTopicRuleTopicRulePayloadActionsRepublishHeadersOutputReference 
   }
 
   // payload_format_indicator - computed: true, optional: true, required: false
-  private _payloadFormatIndicator?: string;
+  private _payloadFormatIndicator?: string; 
   public get payloadFormatIndicator() {
     return this.getStringAttribute('payload_format_indicator');
   }
@@ -5521,7 +5521,7 @@ export class IotTopicRuleTopicRulePayloadActionsRepublishHeadersOutputReference 
   }
 
   // response_topic - computed: true, optional: true, required: false
-  private _responseTopic?: string;
+  private _responseTopic?: string; 
   public get responseTopic() {
     return this.getStringAttribute('response_topic');
   }
@@ -5698,7 +5698,7 @@ export class IotTopicRuleTopicRulePayloadActionsRepublishOutputReference extends
   }
 
   // qos - computed: true, optional: true, required: false
-  private _qos?: number;
+  private _qos?: number; 
   public get qos() {
     return this.getNumberAttribute('qos');
   }
@@ -5714,7 +5714,7 @@ export class IotTopicRuleTopicRulePayloadActionsRepublishOutputReference extends
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -5730,7 +5730,7 @@ export class IotTopicRuleTopicRulePayloadActionsRepublishOutputReference extends
   }
 
   // topic - computed: true, optional: true, required: false
-  private _topic?: string;
+  private _topic?: string; 
   public get topic() {
     return this.getStringAttribute('topic');
   }
@@ -5875,7 +5875,7 @@ export class IotTopicRuleTopicRulePayloadActionsS3OutputReference extends cdktn.
   }
 
   // bucket_name - computed: true, optional: true, required: false
-  private _bucketName?: string;
+  private _bucketName?: string; 
   public get bucketName() {
     return this.getStringAttribute('bucket_name');
   }
@@ -5891,7 +5891,7 @@ export class IotTopicRuleTopicRulePayloadActionsS3OutputReference extends cdktn.
   }
 
   // canned_acl - computed: true, optional: true, required: false
-  private _cannedAcl?: string;
+  private _cannedAcl?: string; 
   public get cannedAcl() {
     return this.getStringAttribute('canned_acl');
   }
@@ -5907,7 +5907,7 @@ export class IotTopicRuleTopicRulePayloadActionsS3OutputReference extends cdktn.
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -5923,7 +5923,7 @@ export class IotTopicRuleTopicRulePayloadActionsS3OutputReference extends cdktn.
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -6051,7 +6051,7 @@ export class IotTopicRuleTopicRulePayloadActionsSnsOutputReference extends cdktn
   }
 
   // message_format - computed: true, optional: true, required: false
-  private _messageFormat?: string;
+  private _messageFormat?: string; 
   public get messageFormat() {
     return this.getStringAttribute('message_format');
   }
@@ -6067,7 +6067,7 @@ export class IotTopicRuleTopicRulePayloadActionsSnsOutputReference extends cdktn
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -6083,7 +6083,7 @@ export class IotTopicRuleTopicRulePayloadActionsSnsOutputReference extends cdktn
   }
 
   // target_arn - computed: true, optional: true, required: false
-  private _targetArn?: string;
+  private _targetArn?: string; 
   public get targetArn() {
     return this.getStringAttribute('target_arn');
   }
@@ -6211,7 +6211,7 @@ export class IotTopicRuleTopicRulePayloadActionsSqsOutputReference extends cdktn
   }
 
   // queue_url - computed: true, optional: true, required: false
-  private _queueUrl?: string;
+  private _queueUrl?: string; 
   public get queueUrl() {
     return this.getStringAttribute('queue_url');
   }
@@ -6227,7 +6227,7 @@ export class IotTopicRuleTopicRulePayloadActionsSqsOutputReference extends cdktn
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -6243,7 +6243,7 @@ export class IotTopicRuleTopicRulePayloadActionsSqsOutputReference extends cdktn
   }
 
   // use_base_64 - computed: true, optional: true, required: false
-  private _useBase64?: boolean | cdktn.IResolvable;
+  private _useBase64?: boolean | cdktn.IResolvable; 
   public get useBase64() {
     return this.getBooleanAttribute('use_base_64');
   }
@@ -6371,7 +6371,7 @@ export class IotTopicRuleTopicRulePayloadActionsStepFunctionsOutputReference ext
   }
 
   // execution_name_prefix - computed: true, optional: true, required: false
-  private _executionNamePrefix?: string;
+  private _executionNamePrefix?: string; 
   public get executionNamePrefix() {
     return this.getStringAttribute('execution_name_prefix');
   }
@@ -6387,7 +6387,7 @@ export class IotTopicRuleTopicRulePayloadActionsStepFunctionsOutputReference ext
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -6403,7 +6403,7 @@ export class IotTopicRuleTopicRulePayloadActionsStepFunctionsOutputReference ext
   }
 
   // state_machine_name - computed: true, optional: true, required: false
-  private _stateMachineName?: string;
+  private _stateMachineName?: string; 
   public get stateMachineName() {
     return this.getStringAttribute('state_machine_name');
   }
@@ -6516,7 +6516,7 @@ export class IotTopicRuleTopicRulePayloadActionsTimestreamDimensionsOutputRefere
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -6532,7 +6532,7 @@ export class IotTopicRuleTopicRulePayloadActionsTimestreamDimensionsOutputRefere
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -6663,7 +6663,7 @@ export class IotTopicRuleTopicRulePayloadActionsTimestreamTimestampOutputReferen
   }
 
   // unit - computed: true, optional: true, required: false
-  private _unit?: string;
+  private _unit?: string; 
   public get unit() {
     return this.getStringAttribute('unit');
   }
@@ -6679,7 +6679,7 @@ export class IotTopicRuleTopicRulePayloadActionsTimestreamTimestampOutputReferen
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -6841,7 +6841,7 @@ export class IotTopicRuleTopicRulePayloadActionsTimestreamOutputReference extend
   }
 
   // database_name - computed: true, optional: true, required: false
-  private _databaseName?: string;
+  private _databaseName?: string; 
   public get databaseName() {
     return this.getStringAttribute('database_name');
   }
@@ -6873,7 +6873,7 @@ export class IotTopicRuleTopicRulePayloadActionsTimestreamOutputReference extend
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -6889,7 +6889,7 @@ export class IotTopicRuleTopicRulePayloadActionsTimestreamOutputReference extend
   }
 
   // table_name - computed: true, optional: true, required: false
-  private _tableName?: string;
+  private _tableName?: string; 
   public get tableName() {
     return this.getStringAttribute('table_name');
   }
@@ -7859,7 +7859,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionCloudwatchAlarmOutputReferen
   }
 
   // alarm_name - computed: true, optional: true, required: false
-  private _alarmName?: string;
+  private _alarmName?: string; 
   public get alarmName() {
     return this.getStringAttribute('alarm_name');
   }
@@ -7875,7 +7875,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionCloudwatchAlarmOutputReferen
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -7891,7 +7891,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionCloudwatchAlarmOutputReferen
   }
 
   // state_reason - computed: true, optional: true, required: false
-  private _stateReason?: string;
+  private _stateReason?: string; 
   public get stateReason() {
     return this.getStringAttribute('state_reason');
   }
@@ -7907,7 +7907,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionCloudwatchAlarmOutputReferen
   }
 
   // state_value - computed: true, optional: true, required: false
-  private _stateValue?: string;
+  private _stateValue?: string; 
   public get stateValue() {
     return this.getStringAttribute('state_value');
   }
@@ -8035,7 +8035,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionCloudwatchLogsOutputReferenc
   }
 
   // batch_mode - computed: true, optional: true, required: false
-  private _batchMode?: boolean | cdktn.IResolvable;
+  private _batchMode?: boolean | cdktn.IResolvable; 
   public get batchMode() {
     return this.getBooleanAttribute('batch_mode');
   }
@@ -8051,7 +8051,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionCloudwatchLogsOutputReferenc
   }
 
   // log_group_name - computed: true, optional: true, required: false
-  private _logGroupName?: string;
+  private _logGroupName?: string; 
   public get logGroupName() {
     return this.getStringAttribute('log_group_name');
   }
@@ -8067,7 +8067,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionCloudwatchLogsOutputReferenc
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -8246,7 +8246,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionCloudwatchMetricOutputRefere
   }
 
   // metric_name - computed: true, optional: true, required: false
-  private _metricName?: string;
+  private _metricName?: string; 
   public get metricName() {
     return this.getStringAttribute('metric_name');
   }
@@ -8262,7 +8262,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionCloudwatchMetricOutputRefere
   }
 
   // metric_namespace - computed: true, optional: true, required: false
-  private _metricNamespace?: string;
+  private _metricNamespace?: string; 
   public get metricNamespace() {
     return this.getStringAttribute('metric_namespace');
   }
@@ -8278,7 +8278,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionCloudwatchMetricOutputRefere
   }
 
   // metric_timestamp - computed: true, optional: true, required: false
-  private _metricTimestamp?: string;
+  private _metricTimestamp?: string; 
   public get metricTimestamp() {
     return this.getStringAttribute('metric_timestamp');
   }
@@ -8294,7 +8294,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionCloudwatchMetricOutputRefere
   }
 
   // metric_unit - computed: true, optional: true, required: false
-  private _metricUnit?: string;
+  private _metricUnit?: string; 
   public get metricUnit() {
     return this.getStringAttribute('metric_unit');
   }
@@ -8310,7 +8310,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionCloudwatchMetricOutputRefere
   }
 
   // metric_value - computed: true, optional: true, required: false
-  private _metricValue?: string;
+  private _metricValue?: string; 
   public get metricValue() {
     return this.getStringAttribute('metric_value');
   }
@@ -8326,7 +8326,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionCloudwatchMetricOutputRefere
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -8420,7 +8420,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionDynamoDBv2PutItemOutputRefer
   }
 
   // table_name - computed: true, optional: true, required: false
-  private _tableName?: string;
+  private _tableName?: string; 
   public get tableName() {
     return this.getStringAttribute('table_name');
   }
@@ -8547,7 +8547,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionDynamoDBv2OutputReference ex
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -8777,7 +8777,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionDynamoDbOutputReference exte
   }
 
   // hash_key_field - computed: true, optional: true, required: false
-  private _hashKeyField?: string;
+  private _hashKeyField?: string; 
   public get hashKeyField() {
     return this.getStringAttribute('hash_key_field');
   }
@@ -8793,7 +8793,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionDynamoDbOutputReference exte
   }
 
   // hash_key_type - computed: true, optional: true, required: false
-  private _hashKeyType?: string;
+  private _hashKeyType?: string; 
   public get hashKeyType() {
     return this.getStringAttribute('hash_key_type');
   }
@@ -8809,7 +8809,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionDynamoDbOutputReference exte
   }
 
   // hash_key_value - computed: true, optional: true, required: false
-  private _hashKeyValue?: string;
+  private _hashKeyValue?: string; 
   public get hashKeyValue() {
     return this.getStringAttribute('hash_key_value');
   }
@@ -8825,7 +8825,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionDynamoDbOutputReference exte
   }
 
   // payload_field - computed: true, optional: true, required: false
-  private _payloadField?: string;
+  private _payloadField?: string; 
   public get payloadField() {
     return this.getStringAttribute('payload_field');
   }
@@ -8841,7 +8841,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionDynamoDbOutputReference exte
   }
 
   // range_key_field - computed: true, optional: true, required: false
-  private _rangeKeyField?: string;
+  private _rangeKeyField?: string; 
   public get rangeKeyField() {
     return this.getStringAttribute('range_key_field');
   }
@@ -8857,7 +8857,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionDynamoDbOutputReference exte
   }
 
   // range_key_type - computed: true, optional: true, required: false
-  private _rangeKeyType?: string;
+  private _rangeKeyType?: string; 
   public get rangeKeyType() {
     return this.getStringAttribute('range_key_type');
   }
@@ -8873,7 +8873,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionDynamoDbOutputReference exte
   }
 
   // range_key_value - computed: true, optional: true, required: false
-  private _rangeKeyValue?: string;
+  private _rangeKeyValue?: string; 
   public get rangeKeyValue() {
     return this.getStringAttribute('range_key_value');
   }
@@ -8889,7 +8889,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionDynamoDbOutputReference exte
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -8905,7 +8905,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionDynamoDbOutputReference exte
   }
 
   // table_name - computed: true, optional: true, required: false
-  private _tableName?: string;
+  private _tableName?: string; 
   public get tableName() {
     return this.getStringAttribute('table_name');
   }
@@ -9070,7 +9070,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionElasticsearchOutputReference
   }
 
   // endpoint - computed: true, optional: true, required: false
-  private _endpoint?: string;
+  private _endpoint?: string; 
   public get endpoint() {
     return this.getStringAttribute('endpoint');
   }
@@ -9086,7 +9086,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionElasticsearchOutputReference
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -9102,7 +9102,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionElasticsearchOutputReference
   }
 
   // index - computed: true, optional: true, required: false
-  private _index?: string;
+  private _index?: string; 
   public get index() {
     return this.getStringAttribute('index');
   }
@@ -9118,7 +9118,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionElasticsearchOutputReference
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -9134,7 +9134,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionElasticsearchOutputReference
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -9279,7 +9279,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionFirehoseOutputReference exte
   }
 
   // batch_mode - computed: true, optional: true, required: false
-  private _batchMode?: boolean | cdktn.IResolvable;
+  private _batchMode?: boolean | cdktn.IResolvable; 
   public get batchMode() {
     return this.getBooleanAttribute('batch_mode');
   }
@@ -9295,7 +9295,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionFirehoseOutputReference exte
   }
 
   // delivery_stream_name - computed: true, optional: true, required: false
-  private _deliveryStreamName?: string;
+  private _deliveryStreamName?: string; 
   public get deliveryStreamName() {
     return this.getStringAttribute('delivery_stream_name');
   }
@@ -9311,7 +9311,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionFirehoseOutputReference exte
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -9327,7 +9327,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionFirehoseOutputReference exte
   }
 
   // separator - computed: true, optional: true, required: false
-  private _separator?: string;
+  private _separator?: string; 
   public get separator() {
     return this.getStringAttribute('separator');
   }
@@ -9455,7 +9455,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionHttpAuthSigv4OutputReference
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -9471,7 +9471,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionHttpAuthSigv4OutputReference
   }
 
   // service_name - computed: true, optional: true, required: false
-  private _serviceName?: string;
+  private _serviceName?: string; 
   public get serviceName() {
     return this.getStringAttribute('service_name');
   }
@@ -9487,7 +9487,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionHttpAuthSigv4OutputReference
   }
 
   // signing_region - computed: true, optional: true, required: false
-  private _signingRegion?: string;
+  private _signingRegion?: string; 
   public get signingRegion() {
     return this.getStringAttribute('signing_region');
   }
@@ -9726,7 +9726,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionHttpBatchConfigOutputReferen
   }
 
   // batch_across_topics - computed: true, optional: true, required: false
-  private _batchAcrossTopics?: boolean | cdktn.IResolvable;
+  private _batchAcrossTopics?: boolean | cdktn.IResolvable; 
   public get batchAcrossTopics() {
     return this.getBooleanAttribute('batch_across_topics');
   }
@@ -9742,7 +9742,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionHttpBatchConfigOutputReferen
   }
 
   // max_batch_open_ms - computed: true, optional: true, required: false
-  private _maxBatchOpenMs?: number;
+  private _maxBatchOpenMs?: number; 
   public get maxBatchOpenMs() {
     return this.getNumberAttribute('max_batch_open_ms');
   }
@@ -9758,7 +9758,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionHttpBatchConfigOutputReferen
   }
 
   // max_batch_size - computed: true, optional: true, required: false
-  private _maxBatchSize?: number;
+  private _maxBatchSize?: number; 
   public get maxBatchSize() {
     return this.getNumberAttribute('max_batch_size');
   }
@@ -9774,7 +9774,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionHttpBatchConfigOutputReferen
   }
 
   // max_batch_size_bytes - computed: true, optional: true, required: false
-  private _maxBatchSizeBytes?: number;
+  private _maxBatchSizeBytes?: number; 
   public get maxBatchSizeBytes() {
     return this.getNumberAttribute('max_batch_size_bytes');
   }
@@ -9887,7 +9887,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionHttpHeadersOutputReference e
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -9903,7 +9903,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionHttpHeadersOutputReference e
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -10134,7 +10134,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionHttpOutputReference extends 
   }
 
   // confirmation_url - computed: true, optional: true, required: false
-  private _confirmationUrl?: string;
+  private _confirmationUrl?: string; 
   public get confirmationUrl() {
     return this.getStringAttribute('confirmation_url');
   }
@@ -10150,7 +10150,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionHttpOutputReference extends 
   }
 
   // enable_batching - computed: true, optional: true, required: false
-  private _enableBatching?: boolean | cdktn.IResolvable;
+  private _enableBatching?: boolean | cdktn.IResolvable; 
   public get enableBatching() {
     return this.getBooleanAttribute('enable_batching');
   }
@@ -10182,7 +10182,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionHttpOutputReference extends 
   }
 
   // url - computed: true, optional: true, required: false
-  private _url?: string;
+  private _url?: string; 
   public get url() {
     return this.getStringAttribute('url');
   }
@@ -10310,7 +10310,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionIotAnalyticsOutputReference 
   }
 
   // batch_mode - computed: true, optional: true, required: false
-  private _batchMode?: boolean | cdktn.IResolvable;
+  private _batchMode?: boolean | cdktn.IResolvable; 
   public get batchMode() {
     return this.getBooleanAttribute('batch_mode');
   }
@@ -10326,7 +10326,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionIotAnalyticsOutputReference 
   }
 
   // channel_name - computed: true, optional: true, required: false
-  private _channelName?: string;
+  private _channelName?: string; 
   public get channelName() {
     return this.getStringAttribute('channel_name');
   }
@@ -10342,7 +10342,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionIotAnalyticsOutputReference 
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -10487,7 +10487,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionIotEventsOutputReference ext
   }
 
   // batch_mode - computed: true, optional: true, required: false
-  private _batchMode?: boolean | cdktn.IResolvable;
+  private _batchMode?: boolean | cdktn.IResolvable; 
   public get batchMode() {
     return this.getBooleanAttribute('batch_mode');
   }
@@ -10503,7 +10503,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionIotEventsOutputReference ext
   }
 
   // input_name - computed: true, optional: true, required: false
-  private _inputName?: string;
+  private _inputName?: string; 
   public get inputName() {
     return this.getStringAttribute('input_name');
   }
@@ -10519,7 +10519,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionIotEventsOutputReference ext
   }
 
   // message_id - computed: true, optional: true, required: false
-  private _messageId?: string;
+  private _messageId?: string; 
   public get messageId() {
     return this.getStringAttribute('message_id');
   }
@@ -10535,7 +10535,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionIotEventsOutputReference ext
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -10646,7 +10646,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionIotSiteWisePutAssetPropertyV
   }
 
   // offset_in_nanos - computed: true, optional: true, required: false
-  private _offsetInNanos?: string;
+  private _offsetInNanos?: string; 
   public get offsetInNanos() {
     return this.getStringAttribute('offset_in_nanos');
   }
@@ -10662,7 +10662,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionIotSiteWisePutAssetPropertyV
   }
 
   // time_in_seconds - computed: true, optional: true, required: false
-  private _timeInSeconds?: string;
+  private _timeInSeconds?: string; 
   public get timeInSeconds() {
     return this.getStringAttribute('time_in_seconds');
   }
@@ -10807,7 +10807,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionIotSiteWisePutAssetPropertyV
   }
 
   // boolean_value - computed: true, optional: true, required: false
-  private _booleanValue?: string;
+  private _booleanValue?: string; 
   public get booleanValue() {
     return this.getStringAttribute('boolean_value');
   }
@@ -10823,7 +10823,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionIotSiteWisePutAssetPropertyV
   }
 
   // double_value - computed: true, optional: true, required: false
-  private _doubleValue?: string;
+  private _doubleValue?: string; 
   public get doubleValue() {
     return this.getStringAttribute('double_value');
   }
@@ -10839,7 +10839,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionIotSiteWisePutAssetPropertyV
   }
 
   // integer_value - computed: true, optional: true, required: false
-  private _integerValue?: string;
+  private _integerValue?: string; 
   public get integerValue() {
     return this.getStringAttribute('integer_value');
   }
@@ -10855,7 +10855,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionIotSiteWisePutAssetPropertyV
   }
 
   // string_value - computed: true, optional: true, required: false
-  private _stringValue?: string;
+  private _stringValue?: string; 
   public get stringValue() {
     return this.getStringAttribute('string_value');
   }
@@ -10985,7 +10985,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionIotSiteWisePutAssetPropertyV
   }
 
   // quality - computed: true, optional: true, required: false
-  private _quality?: string;
+  private _quality?: string; 
   public get quality() {
     return this.getStringAttribute('quality');
   }
@@ -11201,7 +11201,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionIotSiteWisePutAssetPropertyV
   }
 
   // asset_id - computed: true, optional: true, required: false
-  private _assetId?: string;
+  private _assetId?: string; 
   public get assetId() {
     return this.getStringAttribute('asset_id');
   }
@@ -11217,7 +11217,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionIotSiteWisePutAssetPropertyV
   }
 
   // entry_id - computed: true, optional: true, required: false
-  private _entryId?: string;
+  private _entryId?: string; 
   public get entryId() {
     return this.getStringAttribute('entry_id');
   }
@@ -11233,7 +11233,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionIotSiteWisePutAssetPropertyV
   }
 
   // property_alias - computed: true, optional: true, required: false
-  private _propertyAlias?: string;
+  private _propertyAlias?: string; 
   public get propertyAlias() {
     return this.getStringAttribute('property_alias');
   }
@@ -11249,7 +11249,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionIotSiteWisePutAssetPropertyV
   }
 
   // property_id - computed: true, optional: true, required: false
-  private _propertyId?: string;
+  private _propertyId?: string; 
   public get propertyId() {
     return this.getStringAttribute('property_id');
   }
@@ -11412,7 +11412,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionIotSiteWiseOutputReference e
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -11525,7 +11525,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionKafkaHeadersOutputReference 
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -11541,7 +11541,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionKafkaHeadersOutputReference 
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -11740,7 +11740,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionKafkaOutputReference extends
   }
 
   // client_properties - computed: true, optional: true, required: false
-  private _clientProperties?: { [key: string]: string };
+  private _clientProperties?: { [key: string]: string }; 
   public get clientProperties() {
     return this.getStringMapAttribute('client_properties');
   }
@@ -11756,7 +11756,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionKafkaOutputReference extends
   }
 
   // destination_arn - computed: true, optional: true, required: false
-  private _destinationArn?: string;
+  private _destinationArn?: string; 
   public get destinationArn() {
     return this.getStringAttribute('destination_arn');
   }
@@ -11788,7 +11788,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionKafkaOutputReference extends
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -11804,7 +11804,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionKafkaOutputReference extends
   }
 
   // partition - computed: true, optional: true, required: false
-  private _partition?: string;
+  private _partition?: string; 
   public get partition() {
     return this.getStringAttribute('partition');
   }
@@ -11820,7 +11820,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionKafkaOutputReference extends
   }
 
   // topic - computed: true, optional: true, required: false
-  private _topic?: string;
+  private _topic?: string; 
   public get topic() {
     return this.getStringAttribute('topic');
   }
@@ -11948,7 +11948,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionKinesisOutputReference exten
   }
 
   // partition_key - computed: true, optional: true, required: false
-  private _partitionKey?: string;
+  private _partitionKey?: string; 
   public get partitionKey() {
     return this.getStringAttribute('partition_key');
   }
@@ -11964,7 +11964,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionKinesisOutputReference exten
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -11980,7 +11980,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionKinesisOutputReference exten
   }
 
   // stream_name - computed: true, optional: true, required: false
-  private _streamName?: string;
+  private _streamName?: string; 
   public get streamName() {
     return this.getStringAttribute('stream_name');
   }
@@ -12074,7 +12074,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionLambdaOutputReference extend
   }
 
   // function_arn - computed: true, optional: true, required: false
-  private _functionArn?: string;
+  private _functionArn?: string; 
   public get functionArn() {
     return this.getStringAttribute('function_arn');
   }
@@ -12185,7 +12185,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionLocationTimestampOutputRefer
   }
 
   // unit - computed: true, optional: true, required: false
-  private _unit?: string;
+  private _unit?: string; 
   public get unit() {
     return this.getStringAttribute('unit');
   }
@@ -12201,7 +12201,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionLocationTimestampOutputRefer
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -12380,7 +12380,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionLocationOutputReference exte
   }
 
   // device_id - computed: true, optional: true, required: false
-  private _deviceId?: string;
+  private _deviceId?: string; 
   public get deviceId() {
     return this.getStringAttribute('device_id');
   }
@@ -12396,7 +12396,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionLocationOutputReference exte
   }
 
   // latitude - computed: true, optional: true, required: false
-  private _latitude?: string;
+  private _latitude?: string; 
   public get latitude() {
     return this.getStringAttribute('latitude');
   }
@@ -12412,7 +12412,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionLocationOutputReference exte
   }
 
   // longitude - computed: true, optional: true, required: false
-  private _longitude?: string;
+  private _longitude?: string; 
   public get longitude() {
     return this.getStringAttribute('longitude');
   }
@@ -12428,7 +12428,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionLocationOutputReference exte
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -12460,7 +12460,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionLocationOutputReference exte
   }
 
   // tracker_name - computed: true, optional: true, required: false
-  private _trackerName?: string;
+  private _trackerName?: string; 
   public get trackerName() {
     return this.getStringAttribute('tracker_name');
   }
@@ -12625,7 +12625,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionOpenSearchOutputReference ex
   }
 
   // endpoint - computed: true, optional: true, required: false
-  private _endpoint?: string;
+  private _endpoint?: string; 
   public get endpoint() {
     return this.getStringAttribute('endpoint');
   }
@@ -12641,7 +12641,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionOpenSearchOutputReference ex
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -12657,7 +12657,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionOpenSearchOutputReference ex
   }
 
   // index - computed: true, optional: true, required: false
-  private _index?: string;
+  private _index?: string; 
   public get index() {
     return this.getStringAttribute('index');
   }
@@ -12673,7 +12673,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionOpenSearchOutputReference ex
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -12689,7 +12689,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionOpenSearchOutputReference ex
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -12802,7 +12802,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionRepublishHeadersUserProperti
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -12818,7 +12818,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionRepublishHeadersUserProperti
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -13017,7 +13017,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionRepublishHeadersOutputRefere
   }
 
   // content_type - computed: true, optional: true, required: false
-  private _contentType?: string;
+  private _contentType?: string; 
   public get contentType() {
     return this.getStringAttribute('content_type');
   }
@@ -13033,7 +13033,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionRepublishHeadersOutputRefere
   }
 
   // correlation_data - computed: true, optional: true, required: false
-  private _correlationData?: string;
+  private _correlationData?: string; 
   public get correlationData() {
     return this.getStringAttribute('correlation_data');
   }
@@ -13049,7 +13049,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionRepublishHeadersOutputRefere
   }
 
   // message_expiry - computed: true, optional: true, required: false
-  private _messageExpiry?: string;
+  private _messageExpiry?: string; 
   public get messageExpiry() {
     return this.getStringAttribute('message_expiry');
   }
@@ -13065,7 +13065,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionRepublishHeadersOutputRefere
   }
 
   // payload_format_indicator - computed: true, optional: true, required: false
-  private _payloadFormatIndicator?: string;
+  private _payloadFormatIndicator?: string; 
   public get payloadFormatIndicator() {
     return this.getStringAttribute('payload_format_indicator');
   }
@@ -13081,7 +13081,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionRepublishHeadersOutputRefere
   }
 
   // response_topic - computed: true, optional: true, required: false
-  private _responseTopic?: string;
+  private _responseTopic?: string; 
   public get responseTopic() {
     return this.getStringAttribute('response_topic');
   }
@@ -13258,7 +13258,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionRepublishOutputReference ext
   }
 
   // qos - computed: true, optional: true, required: false
-  private _qos?: number;
+  private _qos?: number; 
   public get qos() {
     return this.getNumberAttribute('qos');
   }
@@ -13274,7 +13274,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionRepublishOutputReference ext
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -13290,7 +13290,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionRepublishOutputReference ext
   }
 
   // topic - computed: true, optional: true, required: false
-  private _topic?: string;
+  private _topic?: string; 
   public get topic() {
     return this.getStringAttribute('topic');
   }
@@ -13435,7 +13435,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionS3OutputReference extends cd
   }
 
   // bucket_name - computed: true, optional: true, required: false
-  private _bucketName?: string;
+  private _bucketName?: string; 
   public get bucketName() {
     return this.getStringAttribute('bucket_name');
   }
@@ -13451,7 +13451,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionS3OutputReference extends cd
   }
 
   // canned_acl - computed: true, optional: true, required: false
-  private _cannedAcl?: string;
+  private _cannedAcl?: string; 
   public get cannedAcl() {
     return this.getStringAttribute('canned_acl');
   }
@@ -13467,7 +13467,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionS3OutputReference extends cd
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -13483,7 +13483,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionS3OutputReference extends cd
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -13611,7 +13611,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionSnsOutputReference extends c
   }
 
   // message_format - computed: true, optional: true, required: false
-  private _messageFormat?: string;
+  private _messageFormat?: string; 
   public get messageFormat() {
     return this.getStringAttribute('message_format');
   }
@@ -13627,7 +13627,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionSnsOutputReference extends c
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -13643,7 +13643,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionSnsOutputReference extends c
   }
 
   // target_arn - computed: true, optional: true, required: false
-  private _targetArn?: string;
+  private _targetArn?: string; 
   public get targetArn() {
     return this.getStringAttribute('target_arn');
   }
@@ -13771,7 +13771,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionSqsOutputReference extends c
   }
 
   // queue_url - computed: true, optional: true, required: false
-  private _queueUrl?: string;
+  private _queueUrl?: string; 
   public get queueUrl() {
     return this.getStringAttribute('queue_url');
   }
@@ -13787,7 +13787,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionSqsOutputReference extends c
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -13803,7 +13803,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionSqsOutputReference extends c
   }
 
   // use_base_64 - computed: true, optional: true, required: false
-  private _useBase64?: boolean | cdktn.IResolvable;
+  private _useBase64?: boolean | cdktn.IResolvable; 
   public get useBase64() {
     return this.getBooleanAttribute('use_base_64');
   }
@@ -13931,7 +13931,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionStepFunctionsOutputReference
   }
 
   // execution_name_prefix - computed: true, optional: true, required: false
-  private _executionNamePrefix?: string;
+  private _executionNamePrefix?: string; 
   public get executionNamePrefix() {
     return this.getStringAttribute('execution_name_prefix');
   }
@@ -13947,7 +13947,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionStepFunctionsOutputReference
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -13963,7 +13963,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionStepFunctionsOutputReference
   }
 
   // state_machine_name - computed: true, optional: true, required: false
-  private _stateMachineName?: string;
+  private _stateMachineName?: string; 
   public get stateMachineName() {
     return this.getStringAttribute('state_machine_name');
   }
@@ -14076,7 +14076,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionTimestreamDimensionsOutputRe
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -14092,7 +14092,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionTimestreamDimensionsOutputRe
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -14223,7 +14223,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionTimestreamTimestampOutputRef
   }
 
   // unit - computed: true, optional: true, required: false
-  private _unit?: string;
+  private _unit?: string; 
   public get unit() {
     return this.getStringAttribute('unit');
   }
@@ -14239,7 +14239,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionTimestreamTimestampOutputRef
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -14401,7 +14401,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionTimestreamOutputReference ex
   }
 
   // database_name - computed: true, optional: true, required: false
-  private _databaseName?: string;
+  private _databaseName?: string; 
   public get databaseName() {
     return this.getStringAttribute('database_name');
   }
@@ -14433,7 +14433,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionTimestreamOutputReference ex
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -14449,7 +14449,7 @@ export class IotTopicRuleTopicRulePayloadErrorActionTimestreamOutputReference ex
   }
 
   // table_name - computed: true, optional: true, required: false
-  private _tableName?: string;
+  private _tableName?: string; 
   public get tableName() {
     return this.getStringAttribute('table_name');
   }
@@ -15444,7 +15444,7 @@ export class IotTopicRuleTopicRulePayloadOutputReference extends cdktn.ComplexOb
   }
 
   // aws_iot_sql_version - computed: true, optional: true, required: false
-  private _awsIotSqlVersion?: string;
+  private _awsIotSqlVersion?: string; 
   public get awsIotSqlVersion() {
     return this.getStringAttribute('aws_iot_sql_version');
   }
@@ -15460,7 +15460,7 @@ export class IotTopicRuleTopicRulePayloadOutputReference extends cdktn.ComplexOb
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -15492,7 +15492,7 @@ export class IotTopicRuleTopicRulePayloadOutputReference extends cdktn.ComplexOb
   }
 
   // rule_disabled - computed: true, optional: true, required: false
-  private _ruleDisabled?: boolean | cdktn.IResolvable;
+  private _ruleDisabled?: boolean | cdktn.IResolvable; 
   public get ruleDisabled() {
     return this.getBooleanAttribute('rule_disabled');
   }
@@ -15508,7 +15508,7 @@ export class IotTopicRuleTopicRulePayloadOutputReference extends cdktn.ComplexOb
   }
 
   // sql - computed: false, optional: false, required: true
-  private _sql?: string;
+  private _sql?: string; 
   public get sql() {
     return this.getStringAttribute('sql');
   }
@@ -15591,7 +15591,7 @@ export class IotTopicRule extends cdktn.TerraformResource {
   }
 
   // rule_name - computed: true, optional: true, required: false
-  private _ruleName?: string;
+  private _ruleName?: string; 
   public get ruleName() {
     return this.getStringAttribute('rule_name');
   }

@@ -122,7 +122,7 @@ export class LbTrustStoreRevocationTimeoutsOutputReference extends cdktn.Complex
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -202,7 +202,7 @@ export class LbTrustStoreRevocation extends cdktn.TerraformResource {
   // ==========
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -218,7 +218,7 @@ export class LbTrustStoreRevocation extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -239,7 +239,7 @@ export class LbTrustStoreRevocation extends cdktn.TerraformResource {
   }
 
   // revocations_s3_bucket - computed: false, optional: false, required: true
-  private _revocationsS3Bucket?: string;
+  private _revocationsS3Bucket?: string; 
   public get revocationsS3Bucket() {
     return this.getStringAttribute('revocations_s3_bucket');
   }
@@ -252,7 +252,7 @@ export class LbTrustStoreRevocation extends cdktn.TerraformResource {
   }
 
   // revocations_s3_key - computed: false, optional: false, required: true
-  private _revocationsS3Key?: string;
+  private _revocationsS3Key?: string; 
   public get revocationsS3Key() {
     return this.getStringAttribute('revocations_s3_key');
   }
@@ -265,7 +265,7 @@ export class LbTrustStoreRevocation extends cdktn.TerraformResource {
   }
 
   // revocations_s3_object_version - computed: false, optional: true, required: false
-  private _revocationsS3ObjectVersion?: string;
+  private _revocationsS3ObjectVersion?: string; 
   public get revocationsS3ObjectVersion() {
     return this.getStringAttribute('revocations_s3_object_version');
   }
@@ -281,7 +281,7 @@ export class LbTrustStoreRevocation extends cdktn.TerraformResource {
   }
 
   // trust_store_arn - computed: false, optional: false, required: true
-  private _trustStoreArn?: string;
+  private _trustStoreArn?: string; 
   public get trustStoreArn() {
     return this.getStringAttribute('trust_store_arn');
   }

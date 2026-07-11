@@ -99,7 +99,7 @@ export class EmrStudioSessionMapping extends cdktn.TerraformResource {
   }
 
   // identity_name - computed: false, optional: false, required: true
-  private _identityName?: string;
+  private _identityName?: string; 
   public get identityName() {
     return this.getStringAttribute('identity_name');
   }
@@ -112,7 +112,7 @@ export class EmrStudioSessionMapping extends cdktn.TerraformResource {
   }
 
   // identity_type - computed: false, optional: false, required: true
-  private _identityType?: string;
+  private _identityType?: string; 
   public get identityType() {
     return this.getStringAttribute('identity_type');
   }
@@ -125,7 +125,7 @@ export class EmrStudioSessionMapping extends cdktn.TerraformResource {
   }
 
   // session_policy_arn - computed: false, optional: false, required: true
-  private _sessionPolicyArn?: string;
+  private _sessionPolicyArn?: string; 
   public get sessionPolicyArn() {
     return this.getStringAttribute('session_policy_arn');
   }
@@ -138,7 +138,7 @@ export class EmrStudioSessionMapping extends cdktn.TerraformResource {
   }
 
   // studio_id - computed: false, optional: false, required: true
-  private _studioId?: string;
+  private _studioId?: string; 
   public get studioId() {
     return this.getStringAttribute('studio_id');
   }

@@ -98,7 +98,7 @@ export class Pinpointsmsvoicev2ConfigurationSet extends cdktn.TerraformResource 
   }
 
   // default_message_type - computed: false, optional: true, required: false
-  private _defaultMessageType?: string;
+  private _defaultMessageType?: string; 
   public get defaultMessageType() {
     return this.getStringAttribute('default_message_type');
   }
@@ -114,7 +114,7 @@ export class Pinpointsmsvoicev2ConfigurationSet extends cdktn.TerraformResource 
   }
 
   // default_sender_id - computed: false, optional: true, required: false
-  private _defaultSenderId?: string;
+  private _defaultSenderId?: string; 
   public get defaultSenderId() {
     return this.getStringAttribute('default_sender_id');
   }
@@ -135,7 +135,7 @@ export class Pinpointsmsvoicev2ConfigurationSet extends cdktn.TerraformResource 
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -148,7 +148,7 @@ export class Pinpointsmsvoicev2ConfigurationSet extends cdktn.TerraformResource 
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -164,7 +164,7 @@ export class Pinpointsmsvoicev2ConfigurationSet extends cdktn.TerraformResource 
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

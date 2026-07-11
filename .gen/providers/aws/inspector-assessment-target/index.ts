@@ -96,7 +96,7 @@ export class InspectorAssessmentTarget extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -112,7 +112,7 @@ export class InspectorAssessmentTarget extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -125,7 +125,7 @@ export class InspectorAssessmentTarget extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -141,7 +141,7 @@ export class InspectorAssessmentTarget extends cdktn.TerraformResource {
   }
 
   // resource_group_arn - computed: false, optional: true, required: false
-  private _resourceGroupArn?: string;
+  private _resourceGroupArn?: string; 
   public get resourceGroupArn() {
     return this.getStringAttribute('resource_group_arn');
   }

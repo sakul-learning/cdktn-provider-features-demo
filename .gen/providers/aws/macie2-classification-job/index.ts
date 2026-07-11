@@ -267,7 +267,7 @@ export class Macie2ClassificationJobS3JobDefinitionBucketCriteriaExcludesAndSimp
   }
 
   // comparator - computed: true, optional: true, required: false
-  private _comparator?: string;
+  private _comparator?: string; 
   public get comparator() {
     return this.getStringAttribute('comparator');
   }
@@ -283,7 +283,7 @@ export class Macie2ClassificationJobS3JobDefinitionBucketCriteriaExcludesAndSimp
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -299,7 +299,7 @@ export class Macie2ClassificationJobS3JobDefinitionBucketCriteriaExcludesAndSimp
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -412,7 +412,7 @@ export class Macie2ClassificationJobS3JobDefinitionBucketCriteriaExcludesAndTagC
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -428,7 +428,7 @@ export class Macie2ClassificationJobS3JobDefinitionBucketCriteriaExcludesAndTagC
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -551,7 +551,7 @@ export class Macie2ClassificationJobS3JobDefinitionBucketCriteriaExcludesAndTagC
   }
 
   // comparator - computed: true, optional: true, required: false
-  private _comparator?: string;
+  private _comparator?: string; 
   public get comparator() {
     return this.getStringAttribute('comparator');
   }
@@ -924,7 +924,7 @@ export class Macie2ClassificationJobS3JobDefinitionBucketCriteriaIncludesAndSimp
   }
 
   // comparator - computed: true, optional: true, required: false
-  private _comparator?: string;
+  private _comparator?: string; 
   public get comparator() {
     return this.getStringAttribute('comparator');
   }
@@ -940,7 +940,7 @@ export class Macie2ClassificationJobS3JobDefinitionBucketCriteriaIncludesAndSimp
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -956,7 +956,7 @@ export class Macie2ClassificationJobS3JobDefinitionBucketCriteriaIncludesAndSimp
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -1069,7 +1069,7 @@ export class Macie2ClassificationJobS3JobDefinitionBucketCriteriaIncludesAndTagC
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1085,7 +1085,7 @@ export class Macie2ClassificationJobS3JobDefinitionBucketCriteriaIncludesAndTagC
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1208,7 +1208,7 @@ export class Macie2ClassificationJobS3JobDefinitionBucketCriteriaIncludesAndTagC
   }
 
   // comparator - computed: true, optional: true, required: false
-  private _comparator?: string;
+  private _comparator?: string; 
   public get comparator() {
     return this.getStringAttribute('comparator');
   }
@@ -1697,7 +1697,7 @@ export class Macie2ClassificationJobS3JobDefinitionBucketDefinitionsOutputRefere
   }
 
   // account_id - computed: false, optional: false, required: true
-  private _accountId?: string;
+  private _accountId?: string; 
   public get accountId() {
     return this.getStringAttribute('account_id');
   }
@@ -1710,7 +1710,7 @@ export class Macie2ClassificationJobS3JobDefinitionBucketDefinitionsOutputRefere
   }
 
   // buckets - computed: false, optional: false, required: true
-  private _buckets?: string[];
+  private _buckets?: string[]; 
   public get buckets() {
     return this.getListAttribute('buckets');
   }
@@ -1845,7 +1845,7 @@ export class Macie2ClassificationJobS3JobDefinitionScopingExcludesAndSimpleScope
   }
 
   // comparator - computed: true, optional: true, required: false
-  private _comparator?: string;
+  private _comparator?: string; 
   public get comparator() {
     return this.getStringAttribute('comparator');
   }
@@ -1861,7 +1861,7 @@ export class Macie2ClassificationJobS3JobDefinitionScopingExcludesAndSimpleScope
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1877,7 +1877,7 @@ export class Macie2ClassificationJobS3JobDefinitionScopingExcludesAndSimpleScope
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -1990,7 +1990,7 @@ export class Macie2ClassificationJobS3JobDefinitionScopingExcludesAndTagScopeTer
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -2006,7 +2006,7 @@ export class Macie2ClassificationJobS3JobDefinitionScopingExcludesAndTagScopeTer
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2163,7 +2163,7 @@ export class Macie2ClassificationJobS3JobDefinitionScopingExcludesAndTagScopeTer
   }
 
   // comparator - computed: true, optional: true, required: false
-  private _comparator?: string;
+  private _comparator?: string; 
   public get comparator() {
     return this.getStringAttribute('comparator');
   }
@@ -2179,7 +2179,7 @@ export class Macie2ClassificationJobS3JobDefinitionScopingExcludesAndTagScopeTer
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -2195,7 +2195,7 @@ export class Macie2ClassificationJobS3JobDefinitionScopingExcludesAndTagScopeTer
   }
 
   // target - computed: true, optional: true, required: false
-  private _target?: string;
+  private _target?: string; 
   public get target() {
     return this.getStringAttribute('target');
   }
@@ -2568,7 +2568,7 @@ export class Macie2ClassificationJobS3JobDefinitionScopingIncludesAndSimpleScope
   }
 
   // comparator - computed: true, optional: true, required: false
-  private _comparator?: string;
+  private _comparator?: string; 
   public get comparator() {
     return this.getStringAttribute('comparator');
   }
@@ -2584,7 +2584,7 @@ export class Macie2ClassificationJobS3JobDefinitionScopingIncludesAndSimpleScope
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -2600,7 +2600,7 @@ export class Macie2ClassificationJobS3JobDefinitionScopingIncludesAndSimpleScope
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -2713,7 +2713,7 @@ export class Macie2ClassificationJobS3JobDefinitionScopingIncludesAndTagScopeTer
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -2729,7 +2729,7 @@ export class Macie2ClassificationJobS3JobDefinitionScopingIncludesAndTagScopeTer
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2886,7 +2886,7 @@ export class Macie2ClassificationJobS3JobDefinitionScopingIncludesAndTagScopeTer
   }
 
   // comparator - computed: true, optional: true, required: false
-  private _comparator?: string;
+  private _comparator?: string; 
   public get comparator() {
     return this.getStringAttribute('comparator');
   }
@@ -2902,7 +2902,7 @@ export class Macie2ClassificationJobS3JobDefinitionScopingIncludesAndTagScopeTer
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -2918,7 +2918,7 @@ export class Macie2ClassificationJobS3JobDefinitionScopingIncludesAndTagScopeTer
   }
 
   // target - computed: true, optional: true, required: false
-  private _target?: string;
+  private _target?: string; 
   public get target() {
     return this.getStringAttribute('target');
   }
@@ -3568,7 +3568,7 @@ export class Macie2ClassificationJobScheduleFrequencyOutputReference extends cdk
   }
 
   // daily_schedule - computed: false, optional: true, required: false
-  private _dailySchedule?: boolean | cdktn.IResolvable;
+  private _dailySchedule?: boolean | cdktn.IResolvable; 
   public get dailySchedule() {
     return this.getBooleanAttribute('daily_schedule');
   }
@@ -3584,7 +3584,7 @@ export class Macie2ClassificationJobScheduleFrequencyOutputReference extends cdk
   }
 
   // monthly_schedule - computed: true, optional: true, required: false
-  private _monthlySchedule?: number;
+  private _monthlySchedule?: number; 
   public get monthlySchedule() {
     return this.getNumberAttribute('monthly_schedule');
   }
@@ -3600,7 +3600,7 @@ export class Macie2ClassificationJobScheduleFrequencyOutputReference extends cdk
   }
 
   // weekly_schedule - computed: true, optional: true, required: false
-  private _weeklySchedule?: string;
+  private _weeklySchedule?: string; 
   public get weeklySchedule() {
     return this.getStringAttribute('weekly_schedule');
   }
@@ -3711,7 +3711,7 @@ export class Macie2ClassificationJobTimeoutsOutputReference extends cdktn.Comple
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -3727,7 +3727,7 @@ export class Macie2ClassificationJobTimeoutsOutputReference extends cdktn.Comple
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -3820,7 +3820,7 @@ export class Macie2ClassificationJob extends cdktn.TerraformResource {
   }
 
   // custom_data_identifier_ids - computed: true, optional: true, required: false
-  private _customDataIdentifierIds?: string[];
+  private _customDataIdentifierIds?: string[]; 
   public get customDataIdentifierIds() {
     return this.getListAttribute('custom_data_identifier_ids');
   }
@@ -3836,7 +3836,7 @@ export class Macie2ClassificationJob extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -3852,7 +3852,7 @@ export class Macie2ClassificationJob extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -3868,7 +3868,7 @@ export class Macie2ClassificationJob extends cdktn.TerraformResource {
   }
 
   // initial_run - computed: false, optional: true, required: false
-  private _initialRun?: boolean | cdktn.IResolvable;
+  private _initialRun?: boolean | cdktn.IResolvable; 
   public get initialRun() {
     return this.getBooleanAttribute('initial_run');
   }
@@ -3894,7 +3894,7 @@ export class Macie2ClassificationJob extends cdktn.TerraformResource {
   }
 
   // job_status - computed: true, optional: true, required: false
-  private _jobStatus?: string;
+  private _jobStatus?: string; 
   public get jobStatus() {
     return this.getStringAttribute('job_status');
   }
@@ -3910,7 +3910,7 @@ export class Macie2ClassificationJob extends cdktn.TerraformResource {
   }
 
   // job_type - computed: false, optional: false, required: true
-  private _jobType?: string;
+  private _jobType?: string; 
   public get jobType() {
     return this.getStringAttribute('job_type');
   }
@@ -3923,7 +3923,7 @@ export class Macie2ClassificationJob extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -3939,7 +3939,7 @@ export class Macie2ClassificationJob extends cdktn.TerraformResource {
   }
 
   // name_prefix - computed: true, optional: true, required: false
-  private _namePrefix?: string;
+  private _namePrefix?: string; 
   public get namePrefix() {
     return this.getStringAttribute('name_prefix');
   }
@@ -3955,7 +3955,7 @@ export class Macie2ClassificationJob extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -3971,7 +3971,7 @@ export class Macie2ClassificationJob extends cdktn.TerraformResource {
   }
 
   // sampling_percentage - computed: true, optional: true, required: false
-  private _samplingPercentage?: number;
+  private _samplingPercentage?: number; 
   public get samplingPercentage() {
     return this.getNumberAttribute('sampling_percentage');
   }
@@ -3987,7 +3987,7 @@ export class Macie2ClassificationJob extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -4003,7 +4003,7 @@ export class Macie2ClassificationJob extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

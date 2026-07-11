@@ -150,7 +150,7 @@ export class GameliftGameServerGroupAutoScalingPolicyTargetTrackingConfiguration
   }
 
   // target_value - computed: false, optional: false, required: true
-  private _targetValue?: number;
+  private _targetValue?: number; 
   public get targetValue() {
     return this.getNumberAttribute('target_value');
   }
@@ -250,7 +250,7 @@ export class GameliftGameServerGroupAutoScalingPolicyOutputReference extends cdk
   }
 
   // estimated_instance_warmup - computed: true, optional: true, required: false
-  private _estimatedInstanceWarmup?: number;
+  private _estimatedInstanceWarmup?: number; 
   public get estimatedInstanceWarmup() {
     return this.getNumberAttribute('estimated_instance_warmup');
   }
@@ -376,7 +376,7 @@ export class GameliftGameServerGroupInstanceDefinitionOutputReference extends cd
   }
 
   // instance_type - computed: false, optional: false, required: true
-  private _instanceType?: string;
+  private _instanceType?: string; 
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -389,7 +389,7 @@ export class GameliftGameServerGroupInstanceDefinitionOutputReference extends cd
   }
 
   // weighted_capacity - computed: false, optional: true, required: false
-  private _weightedCapacity?: string;
+  private _weightedCapacity?: string; 
   public get weightedCapacity() {
     return this.getStringAttribute('weighted_capacity');
   }
@@ -530,7 +530,7 @@ export class GameliftGameServerGroupLaunchTemplateOutputReference extends cdktn.
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -546,7 +546,7 @@ export class GameliftGameServerGroupLaunchTemplateOutputReference extends cdktn.
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -562,7 +562,7 @@ export class GameliftGameServerGroupLaunchTemplateOutputReference extends cdktn.
   }
 
   // version - computed: false, optional: true, required: false
-  private _version?: string;
+  private _version?: string; 
   public get version() {
     return this.getStringAttribute('version');
   }
@@ -673,7 +673,7 @@ export class GameliftGameServerGroupTimeoutsOutputReference extends cdktn.Comple
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -689,7 +689,7 @@ export class GameliftGameServerGroupTimeoutsOutputReference extends cdktn.Comple
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -787,7 +787,7 @@ export class GameliftGameServerGroup extends cdktn.TerraformResource {
   }
 
   // balancing_strategy - computed: true, optional: true, required: false
-  private _balancingStrategy?: string;
+  private _balancingStrategy?: string; 
   public get balancingStrategy() {
     return this.getStringAttribute('balancing_strategy');
   }
@@ -803,7 +803,7 @@ export class GameliftGameServerGroup extends cdktn.TerraformResource {
   }
 
   // game_server_group_name - computed: false, optional: false, required: true
-  private _gameServerGroupName?: string;
+  private _gameServerGroupName?: string; 
   public get gameServerGroupName() {
     return this.getStringAttribute('game_server_group_name');
   }
@@ -816,7 +816,7 @@ export class GameliftGameServerGroup extends cdktn.TerraformResource {
   }
 
   // game_server_protection_policy - computed: true, optional: true, required: false
-  private _gameServerProtectionPolicy?: string;
+  private _gameServerProtectionPolicy?: string; 
   public get gameServerProtectionPolicy() {
     return this.getStringAttribute('game_server_protection_policy');
   }
@@ -832,7 +832,7 @@ export class GameliftGameServerGroup extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -848,7 +848,7 @@ export class GameliftGameServerGroup extends cdktn.TerraformResource {
   }
 
   // max_size - computed: false, optional: false, required: true
-  private _maxSize?: number;
+  private _maxSize?: number; 
   public get maxSize() {
     return this.getNumberAttribute('max_size');
   }
@@ -861,7 +861,7 @@ export class GameliftGameServerGroup extends cdktn.TerraformResource {
   }
 
   // min_size - computed: false, optional: false, required: true
-  private _minSize?: number;
+  private _minSize?: number; 
   public get minSize() {
     return this.getNumberAttribute('min_size');
   }
@@ -874,7 +874,7 @@ export class GameliftGameServerGroup extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -890,7 +890,7 @@ export class GameliftGameServerGroup extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -903,7 +903,7 @@ export class GameliftGameServerGroup extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -919,7 +919,7 @@ export class GameliftGameServerGroup extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -935,7 +935,7 @@ export class GameliftGameServerGroup extends cdktn.TerraformResource {
   }
 
   // vpc_subnets - computed: false, optional: true, required: false
-  private _vpcSubnets?: string[];
+  private _vpcSubnets?: string[]; 
   public get vpcSubnets() {
     return cdktn.Fn.tolist(this.getListAttribute('vpc_subnets'));
   }

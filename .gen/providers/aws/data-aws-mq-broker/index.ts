@@ -826,7 +826,7 @@ export class DataAwsMqBroker extends cdktn.TerraformDataSource {
   }
 
   // broker_id - computed: true, optional: true, required: false
-  private _brokerId?: string;
+  private _brokerId?: string; 
   public get brokerId() {
     return this.getStringAttribute('broker_id');
   }
@@ -842,7 +842,7 @@ export class DataAwsMqBroker extends cdktn.TerraformDataSource {
   }
 
   // broker_name - computed: true, optional: true, required: false
-  private _brokerName?: string;
+  private _brokerName?: string; 
   public get brokerName() {
     return this.getStringAttribute('broker_name');
   }
@@ -890,7 +890,7 @@ export class DataAwsMqBroker extends cdktn.TerraformDataSource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -935,7 +935,7 @@ export class DataAwsMqBroker extends cdktn.TerraformDataSource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -977,7 +977,7 @@ export class DataAwsMqBroker extends cdktn.TerraformDataSource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

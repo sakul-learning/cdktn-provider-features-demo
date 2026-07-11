@@ -155,7 +155,7 @@ export class EksFargateProfileSelectorOutputReference extends cdktn.ComplexObjec
   }
 
   // labels - computed: false, optional: true, required: false
-  private _labels?: { [key: string]: string };
+  private _labels?: { [key: string]: string }; 
   public get labels() {
     return this.getStringMapAttribute('labels');
   }
@@ -171,7 +171,7 @@ export class EksFargateProfileSelectorOutputReference extends cdktn.ComplexObjec
   }
 
   // namespace - computed: false, optional: false, required: true
-  private _namespace?: string;
+  private _namespace?: string; 
   public get namespace() {
     return this.getStringAttribute('namespace');
   }
@@ -299,7 +299,7 @@ export class EksFargateProfileTimeoutsOutputReference extends cdktn.ComplexObjec
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -315,7 +315,7 @@ export class EksFargateProfileTimeoutsOutputReference extends cdktn.ComplexObjec
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -403,7 +403,7 @@ export class EksFargateProfile extends cdktn.TerraformResource {
   }
 
   // cluster_name - computed: false, optional: false, required: true
-  private _clusterName?: string;
+  private _clusterName?: string; 
   public get clusterName() {
     return this.getStringAttribute('cluster_name');
   }
@@ -416,7 +416,7 @@ export class EksFargateProfile extends cdktn.TerraformResource {
   }
 
   // fargate_profile_name - computed: false, optional: false, required: true
-  private _fargateProfileName?: string;
+  private _fargateProfileName?: string; 
   public get fargateProfileName() {
     return this.getStringAttribute('fargate_profile_name');
   }
@@ -429,7 +429,7 @@ export class EksFargateProfile extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -445,7 +445,7 @@ export class EksFargateProfile extends cdktn.TerraformResource {
   }
 
   // pod_execution_role_arn - computed: false, optional: false, required: true
-  private _podExecutionRoleArn?: string;
+  private _podExecutionRoleArn?: string; 
   public get podExecutionRoleArn() {
     return this.getStringAttribute('pod_execution_role_arn');
   }
@@ -458,7 +458,7 @@ export class EksFargateProfile extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -479,7 +479,7 @@ export class EksFargateProfile extends cdktn.TerraformResource {
   }
 
   // subnet_ids - computed: false, optional: true, required: false
-  private _subnetIds?: string[];
+  private _subnetIds?: string[]; 
   public get subnetIds() {
     return cdktn.Fn.tolist(this.getListAttribute('subnet_ids'));
   }
@@ -495,7 +495,7 @@ export class EksFargateProfile extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -511,7 +511,7 @@ export class EksFargateProfile extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

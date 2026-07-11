@@ -182,7 +182,7 @@ export class GameliftBuildStorageLocationOutputReference extends cdktn.ComplexOb
   }
 
   // bucket - computed: true, optional: true, required: false
-  private _bucket?: string;
+  private _bucket?: string; 
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -198,7 +198,7 @@ export class GameliftBuildStorageLocationOutputReference extends cdktn.ComplexOb
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -214,7 +214,7 @@ export class GameliftBuildStorageLocationOutputReference extends cdktn.ComplexOb
   }
 
   // object_version - computed: true, optional: true, required: false
-  private _objectVersion?: string;
+  private _objectVersion?: string; 
   public get objectVersion() {
     return this.getStringAttribute('object_version');
   }
@@ -230,7 +230,7 @@ export class GameliftBuildStorageLocationOutputReference extends cdktn.ComplexOb
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -347,7 +347,7 @@ export class GameliftBuildTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -363,7 +363,7 @@ export class GameliftBuildTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -477,7 +477,7 @@ export class GameliftBuild extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -493,7 +493,7 @@ export class GameliftBuild extends cdktn.TerraformResource {
   }
 
   // operating_system - computed: true, optional: true, required: false
-  private _operatingSystem?: string;
+  private _operatingSystem?: string; 
   public get operatingSystem() {
     return this.getStringAttribute('operating_system');
   }
@@ -509,7 +509,7 @@ export class GameliftBuild extends cdktn.TerraformResource {
   }
 
   // server_sdk_version - computed: true, optional: true, required: false
-  private _serverSdkVersion?: string;
+  private _serverSdkVersion?: string; 
   public get serverSdkVersion() {
     return this.getStringAttribute('server_sdk_version');
   }
@@ -557,7 +557,7 @@ export class GameliftBuild extends cdktn.TerraformResource {
   }
 
   // version - computed: true, optional: true, required: false
-  private _version?: string;
+  private _version?: string; 
   public get version() {
     return this.getStringAttribute('version');
   }

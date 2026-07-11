@@ -126,7 +126,7 @@ export class CodeartifactRepositoryExternalConnectionsOutputReference extends cd
   }
 
   // external_connection_name - computed: false, optional: false, required: true
-  private _externalConnectionName?: string;
+  private _externalConnectionName?: string; 
   public get externalConnectionName() {
     return this.getStringAttribute('external_connection_name');
   }
@@ -229,7 +229,7 @@ export class CodeartifactRepositoryUpstreamOutputReference extends cdktn.Complex
   }
 
   // repository_name - computed: false, optional: false, required: true
-  private _repositoryName?: string;
+  private _repositoryName?: string; 
   public get repositoryName() {
     return this.getStringAttribute('repository_name');
   }
@@ -339,7 +339,7 @@ export class CodeartifactRepository extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -355,7 +355,7 @@ export class CodeartifactRepository extends cdktn.TerraformResource {
   }
 
   // domain - computed: false, optional: false, required: true
-  private _domain?: string;
+  private _domain?: string; 
   public get domain() {
     return this.getStringAttribute('domain');
   }
@@ -368,7 +368,7 @@ export class CodeartifactRepository extends cdktn.TerraformResource {
   }
 
   // domain_owner - computed: true, optional: true, required: false
-  private _domainOwner?: string;
+  private _domainOwner?: string; 
   public get domainOwner() {
     return this.getStringAttribute('domain_owner');
   }
@@ -384,7 +384,7 @@ export class CodeartifactRepository extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -400,7 +400,7 @@ export class CodeartifactRepository extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -416,7 +416,7 @@ export class CodeartifactRepository extends cdktn.TerraformResource {
   }
 
   // repository - computed: false, optional: false, required: true
-  private _repository?: string;
+  private _repository?: string; 
   public get repository() {
     return this.getStringAttribute('repository');
   }
@@ -429,7 +429,7 @@ export class CodeartifactRepository extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -445,7 +445,7 @@ export class CodeartifactRepository extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

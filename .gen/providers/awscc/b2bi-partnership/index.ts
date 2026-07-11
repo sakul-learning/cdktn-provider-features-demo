@@ -132,7 +132,7 @@ export class B2BiPartnershipCapabilityOptionsInboundEdiX12AcknowledgmentOptionsO
   }
 
   // functional_acknowledgment - computed: true, optional: true, required: false
-  private _functionalAcknowledgment?: string;
+  private _functionalAcknowledgment?: string; 
   public get functionalAcknowledgment() {
     return this.getStringAttribute('functional_acknowledgment');
   }
@@ -148,7 +148,7 @@ export class B2BiPartnershipCapabilityOptionsInboundEdiX12AcknowledgmentOptionsO
   }
 
   // technical_acknowledgment - computed: true, optional: true, required: false
-  private _technicalAcknowledgment?: string;
+  private _technicalAcknowledgment?: string; 
   public get technicalAcknowledgment() {
     return this.getStringAttribute('technical_acknowledgment');
   }
@@ -464,7 +464,7 @@ export class B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonControlNumbersO
   }
 
   // starting_functional_group_control_number - computed: true, optional: true, required: false
-  private _startingFunctionalGroupControlNumber?: number;
+  private _startingFunctionalGroupControlNumber?: number; 
   public get startingFunctionalGroupControlNumber() {
     return this.getNumberAttribute('starting_functional_group_control_number');
   }
@@ -480,7 +480,7 @@ export class B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonControlNumbersO
   }
 
   // starting_interchange_control_number - computed: true, optional: true, required: false
-  private _startingInterchangeControlNumber?: number;
+  private _startingInterchangeControlNumber?: number; 
   public get startingInterchangeControlNumber() {
     return this.getNumberAttribute('starting_interchange_control_number');
   }
@@ -496,7 +496,7 @@ export class B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonControlNumbersO
   }
 
   // starting_transaction_set_control_number - computed: true, optional: true, required: false
-  private _startingTransactionSetControlNumber?: number;
+  private _startingTransactionSetControlNumber?: number; 
   public get startingTransactionSetControlNumber() {
     return this.getNumberAttribute('starting_transaction_set_control_number');
   }
@@ -624,7 +624,7 @@ export class B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonDelimitersOutpu
   }
 
   // component_separator - computed: true, optional: true, required: false
-  private _componentSeparator?: string;
+  private _componentSeparator?: string; 
   public get componentSeparator() {
     return this.getStringAttribute('component_separator');
   }
@@ -640,7 +640,7 @@ export class B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonDelimitersOutpu
   }
 
   // data_element_separator - computed: true, optional: true, required: false
-  private _dataElementSeparator?: string;
+  private _dataElementSeparator?: string; 
   public get dataElementSeparator() {
     return this.getStringAttribute('data_element_separator');
   }
@@ -656,7 +656,7 @@ export class B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonDelimitersOutpu
   }
 
   // segment_terminator - computed: true, optional: true, required: false
-  private _segmentTerminator?: string;
+  private _segmentTerminator?: string; 
   public get segmentTerminator() {
     return this.getStringAttribute('segment_terminator');
   }
@@ -784,7 +784,7 @@ export class B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonFunctionalGroup
   }
 
   // application_receiver_code - computed: true, optional: true, required: false
-  private _applicationReceiverCode?: string;
+  private _applicationReceiverCode?: string; 
   public get applicationReceiverCode() {
     return this.getStringAttribute('application_receiver_code');
   }
@@ -800,7 +800,7 @@ export class B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonFunctionalGroup
   }
 
   // application_sender_code - computed: true, optional: true, required: false
-  private _applicationSenderCode?: string;
+  private _applicationSenderCode?: string; 
   public get applicationSenderCode() {
     return this.getStringAttribute('application_sender_code');
   }
@@ -816,7 +816,7 @@ export class B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonFunctionalGroup
   }
 
   // responsible_agency_code - computed: true, optional: true, required: false
-  private _responsibleAgencyCode?: string;
+  private _responsibleAgencyCode?: string; 
   public get responsibleAgencyCode() {
     return this.getStringAttribute('responsible_agency_code');
   }
@@ -1012,7 +1012,7 @@ export class B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonInterchangeCont
   }
 
   // acknowledgment_requested_code - computed: true, optional: true, required: false
-  private _acknowledgmentRequestedCode?: string;
+  private _acknowledgmentRequestedCode?: string; 
   public get acknowledgmentRequestedCode() {
     return this.getStringAttribute('acknowledgment_requested_code');
   }
@@ -1028,7 +1028,7 @@ export class B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonInterchangeCont
   }
 
   // receiver_id - computed: true, optional: true, required: false
-  private _receiverId?: string;
+  private _receiverId?: string; 
   public get receiverId() {
     return this.getStringAttribute('receiver_id');
   }
@@ -1044,7 +1044,7 @@ export class B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonInterchangeCont
   }
 
   // receiver_id_qualifier - computed: true, optional: true, required: false
-  private _receiverIdQualifier?: string;
+  private _receiverIdQualifier?: string; 
   public get receiverIdQualifier() {
     return this.getStringAttribute('receiver_id_qualifier');
   }
@@ -1060,7 +1060,7 @@ export class B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonInterchangeCont
   }
 
   // repetition_separator - computed: true, optional: true, required: false
-  private _repetitionSeparator?: string;
+  private _repetitionSeparator?: string; 
   public get repetitionSeparator() {
     return this.getStringAttribute('repetition_separator');
   }
@@ -1076,7 +1076,7 @@ export class B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonInterchangeCont
   }
 
   // sender_id - computed: true, optional: true, required: false
-  private _senderId?: string;
+  private _senderId?: string; 
   public get senderId() {
     return this.getStringAttribute('sender_id');
   }
@@ -1092,7 +1092,7 @@ export class B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonInterchangeCont
   }
 
   // sender_id_qualifier - computed: true, optional: true, required: false
-  private _senderIdQualifier?: string;
+  private _senderIdQualifier?: string; 
   public get senderIdQualifier() {
     return this.getStringAttribute('sender_id_qualifier');
   }
@@ -1108,7 +1108,7 @@ export class B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonInterchangeCont
   }
 
   // usage_indicator_code - computed: true, optional: true, required: false
-  private _usageIndicatorCode?: string;
+  private _usageIndicatorCode?: string; 
   public get usageIndicatorCode() {
     return this.getStringAttribute('usage_indicator_code');
   }
@@ -1335,7 +1335,7 @@ export class B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonOutputReference
   }
 
   // gs_05_time_format - computed: true, optional: true, required: false
-  private _gs05TimeFormat?: string;
+  private _gs05TimeFormat?: string; 
   public get gs05TimeFormat() {
     return this.getStringAttribute('gs_05_time_format');
   }
@@ -1367,7 +1367,7 @@ export class B2BiPartnershipCapabilityOptionsOutboundEdiX12CommonOutputReference
   }
 
   // validate_edi - computed: true, optional: true, required: false
-  private _validateEdi?: boolean | cdktn.IResolvable;
+  private _validateEdi?: boolean | cdktn.IResolvable; 
   public get validateEdi() {
     return this.getBooleanAttribute('validate_edi');
   }
@@ -1495,7 +1495,7 @@ export class B2BiPartnershipCapabilityOptionsOutboundEdiX12WrapOptionsOutputRefe
   }
 
   // line_length - computed: true, optional: true, required: false
-  private _lineLength?: number;
+  private _lineLength?: number; 
   public get lineLength() {
     return this.getNumberAttribute('line_length');
   }
@@ -1511,7 +1511,7 @@ export class B2BiPartnershipCapabilityOptionsOutboundEdiX12WrapOptionsOutputRefe
   }
 
   // line_terminator - computed: true, optional: true, required: false
-  private _lineTerminator?: string;
+  private _lineTerminator?: string; 
   public get lineTerminator() {
     return this.getStringAttribute('line_terminator');
   }
@@ -1527,7 +1527,7 @@ export class B2BiPartnershipCapabilityOptionsOutboundEdiX12WrapOptionsOutputRefe
   }
 
   // wrap_by - computed: true, optional: true, required: false
-  private _wrapBy?: string;
+  private _wrapBy?: string; 
   public get wrapBy() {
     return this.getStringAttribute('wrap_by');
   }
@@ -1988,7 +1988,7 @@ export class B2BiPartnershipTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -2004,7 +2004,7 @@ export class B2BiPartnershipTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2104,7 +2104,7 @@ export class B2BiPartnership extends cdktn.TerraformResource {
   // ==========
 
   // capabilities - computed: false, optional: false, required: true
-  private _capabilities?: string[];
+  private _capabilities?: string[]; 
   public get capabilities() {
     return this.getListAttribute('capabilities');
   }
@@ -2138,7 +2138,7 @@ export class B2BiPartnership extends cdktn.TerraformResource {
   }
 
   // email - computed: false, optional: false, required: true
-  private _email?: string;
+  private _email?: string; 
   public get email() {
     return this.getStringAttribute('email');
   }
@@ -2161,7 +2161,7 @@ export class B2BiPartnership extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2184,7 +2184,7 @@ export class B2BiPartnership extends cdktn.TerraformResource {
   }
 
   // phone - computed: true, optional: true, required: false
-  private _phone?: string;
+  private _phone?: string; 
   public get phone() {
     return this.getStringAttribute('phone');
   }
@@ -2200,7 +2200,7 @@ export class B2BiPartnership extends cdktn.TerraformResource {
   }
 
   // profile_id - computed: false, optional: false, required: true
-  private _profileId?: string;
+  private _profileId?: string; 
   public get profileId() {
     return this.getStringAttribute('profile_id');
   }

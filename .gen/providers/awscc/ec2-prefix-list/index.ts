@@ -136,7 +136,7 @@ export class Ec2PrefixListEntriesOutputReference extends cdktn.ComplexObject {
   }
 
   // cidr - computed: true, optional: true, required: false
-  private _cidr?: string;
+  private _cidr?: string; 
   public get cidr() {
     return this.getStringAttribute('cidr');
   }
@@ -152,7 +152,7 @@ export class Ec2PrefixListEntriesOutputReference extends cdktn.ComplexObject {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -285,7 +285,7 @@ export class Ec2PrefixListTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -301,7 +301,7 @@ export class Ec2PrefixListTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -399,7 +399,7 @@ export class Ec2PrefixList extends cdktn.TerraformResource {
   // ==========
 
   // address_family - computed: false, optional: false, required: true
-  private _addressFamily?: string;
+  private _addressFamily?: string; 
   public get addressFamily() {
     return this.getStringAttribute('address_family');
   }
@@ -438,7 +438,7 @@ export class Ec2PrefixList extends cdktn.TerraformResource {
   }
 
   // max_entries - computed: true, optional: true, required: false
-  private _maxEntries?: number;
+  private _maxEntries?: number; 
   public get maxEntries() {
     return this.getNumberAttribute('max_entries');
   }
@@ -464,7 +464,7 @@ export class Ec2PrefixList extends cdktn.TerraformResource {
   }
 
   // prefix_list_name - computed: false, optional: false, required: true
-  private _prefixListName?: string;
+  private _prefixListName?: string; 
   public get prefixListName() {
     return this.getStringAttribute('prefix_list_name');
   }

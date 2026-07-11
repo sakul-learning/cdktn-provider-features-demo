@@ -152,7 +152,7 @@ export class DataAwsGlueScriptDagEdgeOutputReference extends cdktn.ComplexObject
   }
 
   // source - computed: false, optional: false, required: true
-  private _source?: string;
+  private _source?: string; 
   public get source() {
     return this.getStringAttribute('source');
   }
@@ -165,7 +165,7 @@ export class DataAwsGlueScriptDagEdgeOutputReference extends cdktn.ComplexObject
   }
 
   // target - computed: false, optional: false, required: true
-  private _target?: string;
+  private _target?: string; 
   public get target() {
     return this.getStringAttribute('target');
   }
@@ -178,7 +178,7 @@ export class DataAwsGlueScriptDagEdgeOutputReference extends cdktn.ComplexObject
   }
 
   // target_parameter - computed: false, optional: true, required: false
-  private _targetParameter?: string;
+  private _targetParameter?: string; 
   public get targetParameter() {
     return this.getStringAttribute('target_parameter');
   }
@@ -328,7 +328,7 @@ export class DataAwsGlueScriptDagNodeArgsOutputReference extends cdktn.ComplexOb
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -341,7 +341,7 @@ export class DataAwsGlueScriptDagNodeArgsOutputReference extends cdktn.ComplexOb
   }
 
   // param - computed: false, optional: true, required: false
-  private _param?: boolean | cdktn.IResolvable;
+  private _param?: boolean | cdktn.IResolvable; 
   public get param() {
     return this.getBooleanAttribute('param');
   }
@@ -357,7 +357,7 @@ export class DataAwsGlueScriptDagNodeArgsOutputReference extends cdktn.ComplexOb
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -526,7 +526,7 @@ export class DataAwsGlueScriptDagNodeOutputReference extends cdktn.ComplexObject
   }
 
   // id - computed: false, optional: false, required: true
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -539,7 +539,7 @@ export class DataAwsGlueScriptDagNodeOutputReference extends cdktn.ComplexObject
   }
 
   // line_number - computed: false, optional: true, required: false
-  private _lineNumber?: number;
+  private _lineNumber?: number; 
   public get lineNumber() {
     return this.getNumberAttribute('line_number');
   }
@@ -555,7 +555,7 @@ export class DataAwsGlueScriptDagNodeOutputReference extends cdktn.ComplexObject
   }
 
   // node_type - computed: false, optional: false, required: true
-  private _nodeType?: string;
+  private _nodeType?: string; 
   public get nodeType() {
     return this.getStringAttribute('node_type');
   }
@@ -663,7 +663,7 @@ export class DataAwsGlueScript extends cdktn.TerraformDataSource {
   // ==========
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -679,7 +679,7 @@ export class DataAwsGlueScript extends cdktn.TerraformDataSource {
   }
 
   // language - computed: false, optional: true, required: false
-  private _language?: string;
+  private _language?: string; 
   public get language() {
     return this.getStringAttribute('language');
   }
@@ -700,7 +700,7 @@ export class DataAwsGlueScript extends cdktn.TerraformDataSource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

@@ -170,7 +170,7 @@ export class GameliftContainerGroupDefinitionGameServerContainerDefinitionDepend
   }
 
   // condition - computed: true, optional: true, required: false
-  private _condition?: string;
+  private _condition?: string; 
   public get condition() {
     return this.getStringAttribute('condition');
   }
@@ -186,7 +186,7 @@ export class GameliftContainerGroupDefinitionGameServerContainerDefinitionDepend
   }
 
   // container_name - computed: true, optional: true, required: false
-  private _containerName?: string;
+  private _containerName?: string; 
   public get containerName() {
     return this.getStringAttribute('container_name');
   }
@@ -323,7 +323,7 @@ export class GameliftContainerGroupDefinitionGameServerContainerDefinitionEnviro
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -339,7 +339,7 @@ export class GameliftContainerGroupDefinitionGameServerContainerDefinitionEnviro
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -455,7 +455,7 @@ export class GameliftContainerGroupDefinitionGameServerContainerDefinitionLinuxC
   }
 
   // include - computed: true, optional: true, required: false
-  private _include?: string[];
+  private _include?: string[]; 
   public get include() {
     return cdktn.Fn.tolist(this.getListAttribute('include'));
   }
@@ -591,7 +591,7 @@ export class GameliftContainerGroupDefinitionGameServerContainerDefinitionMountP
   }
 
   // access_level - computed: true, optional: true, required: false
-  private _accessLevel?: string;
+  private _accessLevel?: string; 
   public get accessLevel() {
     return this.getStringAttribute('access_level');
   }
@@ -607,7 +607,7 @@ export class GameliftContainerGroupDefinitionGameServerContainerDefinitionMountP
   }
 
   // container_path - computed: true, optional: true, required: false
-  private _containerPath?: string;
+  private _containerPath?: string; 
   public get containerPath() {
     return this.getStringAttribute('container_path');
   }
@@ -623,7 +623,7 @@ export class GameliftContainerGroupDefinitionGameServerContainerDefinitionMountP
   }
 
   // instance_path - computed: true, optional: true, required: false
-  private _instancePath?: string;
+  private _instancePath?: string; 
   public get instancePath() {
     return this.getStringAttribute('instance_path');
   }
@@ -779,7 +779,7 @@ export class GameliftContainerGroupDefinitionGameServerContainerDefinitionPortCo
   }
 
   // from_port - computed: true, optional: true, required: false
-  private _fromPort?: number;
+  private _fromPort?: number; 
   public get fromPort() {
     return this.getNumberAttribute('from_port');
   }
@@ -795,7 +795,7 @@ export class GameliftContainerGroupDefinitionGameServerContainerDefinitionPortCo
   }
 
   // protocol - computed: true, optional: true, required: false
-  private _protocol?: string;
+  private _protocol?: string; 
   public get protocol() {
     return this.getStringAttribute('protocol');
   }
@@ -811,7 +811,7 @@ export class GameliftContainerGroupDefinitionGameServerContainerDefinitionPortCo
   }
 
   // to_port - computed: true, optional: true, required: false
-  private _toPort?: number;
+  private _toPort?: number; 
   public get toPort() {
     return this.getNumberAttribute('to_port');
   }
@@ -1175,7 +1175,7 @@ export class GameliftContainerGroupDefinitionGameServerContainerDefinitionOutput
   }
 
   // container_name - computed: true, optional: true, required: false
-  private _containerName?: string;
+  private _containerName?: string; 
   public get containerName() {
     return this.getStringAttribute('container_name');
   }
@@ -1223,7 +1223,7 @@ export class GameliftContainerGroupDefinitionGameServerContainerDefinitionOutput
   }
 
   // image_uri - computed: true, optional: true, required: false
-  private _imageUri?: string;
+  private _imageUri?: string; 
   public get imageUri() {
     return this.getStringAttribute('image_uri');
   }
@@ -1287,7 +1287,7 @@ export class GameliftContainerGroupDefinitionGameServerContainerDefinitionOutput
   }
 
   // resolved_image_digest - computed: true, optional: true, required: false
-  private _resolvedImageDigest?: string;
+  private _resolvedImageDigest?: string; 
   public get resolvedImageDigest() {
     return this.getStringAttribute('resolved_image_digest');
   }
@@ -1303,7 +1303,7 @@ export class GameliftContainerGroupDefinitionGameServerContainerDefinitionOutput
   }
 
   // server_sdk_version - computed: true, optional: true, required: false
-  private _serverSdkVersion?: string;
+  private _serverSdkVersion?: string; 
   public get serverSdkVersion() {
     return this.getStringAttribute('server_sdk_version');
   }
@@ -1420,7 +1420,7 @@ export class GameliftContainerGroupDefinitionSupportContainerDefinitionsDependsO
   }
 
   // condition - computed: true, optional: true, required: false
-  private _condition?: string;
+  private _condition?: string; 
   public get condition() {
     return this.getStringAttribute('condition');
   }
@@ -1436,7 +1436,7 @@ export class GameliftContainerGroupDefinitionSupportContainerDefinitionsDependsO
   }
 
   // container_name - computed: true, optional: true, required: false
-  private _containerName?: string;
+  private _containerName?: string; 
   public get containerName() {
     return this.getStringAttribute('container_name');
   }
@@ -1573,7 +1573,7 @@ export class GameliftContainerGroupDefinitionSupportContainerDefinitionsEnvironm
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1589,7 +1589,7 @@ export class GameliftContainerGroupDefinitionSupportContainerDefinitionsEnvironm
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1781,7 +1781,7 @@ export class GameliftContainerGroupDefinitionSupportContainerDefinitionsHealthCh
   }
 
   // command - computed: true, optional: true, required: false
-  private _command?: string[];
+  private _command?: string[]; 
   public get command() {
     return this.getListAttribute('command');
   }
@@ -1797,7 +1797,7 @@ export class GameliftContainerGroupDefinitionSupportContainerDefinitionsHealthCh
   }
 
   // interval - computed: true, optional: true, required: false
-  private _interval?: number;
+  private _interval?: number; 
   public get interval() {
     return this.getNumberAttribute('interval');
   }
@@ -1813,7 +1813,7 @@ export class GameliftContainerGroupDefinitionSupportContainerDefinitionsHealthCh
   }
 
   // retries - computed: true, optional: true, required: false
-  private _retries?: number;
+  private _retries?: number; 
   public get retries() {
     return this.getNumberAttribute('retries');
   }
@@ -1829,7 +1829,7 @@ export class GameliftContainerGroupDefinitionSupportContainerDefinitionsHealthCh
   }
 
   // start_period - computed: true, optional: true, required: false
-  private _startPeriod?: number;
+  private _startPeriod?: number; 
   public get startPeriod() {
     return this.getNumberAttribute('start_period');
   }
@@ -1845,7 +1845,7 @@ export class GameliftContainerGroupDefinitionSupportContainerDefinitionsHealthCh
   }
 
   // timeout - computed: true, optional: true, required: false
-  private _timeout?: number;
+  private _timeout?: number; 
   public get timeout() {
     return this.getNumberAttribute('timeout');
   }
@@ -1941,7 +1941,7 @@ export class GameliftContainerGroupDefinitionSupportContainerDefinitionsLinuxCap
   }
 
   // include - computed: true, optional: true, required: false
-  private _include?: string[];
+  private _include?: string[]; 
   public get include() {
     return cdktn.Fn.tolist(this.getListAttribute('include'));
   }
@@ -2077,7 +2077,7 @@ export class GameliftContainerGroupDefinitionSupportContainerDefinitionsMountPoi
   }
 
   // access_level - computed: true, optional: true, required: false
-  private _accessLevel?: string;
+  private _accessLevel?: string; 
   public get accessLevel() {
     return this.getStringAttribute('access_level');
   }
@@ -2093,7 +2093,7 @@ export class GameliftContainerGroupDefinitionSupportContainerDefinitionsMountPoi
   }
 
   // container_path - computed: true, optional: true, required: false
-  private _containerPath?: string;
+  private _containerPath?: string; 
   public get containerPath() {
     return this.getStringAttribute('container_path');
   }
@@ -2109,7 +2109,7 @@ export class GameliftContainerGroupDefinitionSupportContainerDefinitionsMountPoi
   }
 
   // instance_path - computed: true, optional: true, required: false
-  private _instancePath?: string;
+  private _instancePath?: string; 
   public get instancePath() {
     return this.getStringAttribute('instance_path');
   }
@@ -2265,7 +2265,7 @@ export class GameliftContainerGroupDefinitionSupportContainerDefinitionsPortConf
   }
 
   // from_port - computed: true, optional: true, required: false
-  private _fromPort?: number;
+  private _fromPort?: number; 
   public get fromPort() {
     return this.getNumberAttribute('from_port');
   }
@@ -2281,7 +2281,7 @@ export class GameliftContainerGroupDefinitionSupportContainerDefinitionsPortConf
   }
 
   // protocol - computed: true, optional: true, required: false
-  private _protocol?: string;
+  private _protocol?: string; 
   public get protocol() {
     return this.getStringAttribute('protocol');
   }
@@ -2297,7 +2297,7 @@ export class GameliftContainerGroupDefinitionSupportContainerDefinitionsPortConf
   }
 
   // to_port - computed: true, optional: true, required: false
-  private _toPort?: number;
+  private _toPort?: number; 
   public get toPort() {
     return this.getNumberAttribute('to_port');
   }
@@ -2720,7 +2720,7 @@ export class GameliftContainerGroupDefinitionSupportContainerDefinitionsOutputRe
   }
 
   // container_name - computed: true, optional: true, required: false
-  private _containerName?: string;
+  private _containerName?: string; 
   public get containerName() {
     return this.getStringAttribute('container_name');
   }
@@ -2768,7 +2768,7 @@ export class GameliftContainerGroupDefinitionSupportContainerDefinitionsOutputRe
   }
 
   // essential - computed: true, optional: true, required: false
-  private _essential?: boolean | cdktn.IResolvable;
+  private _essential?: boolean | cdktn.IResolvable; 
   public get essential() {
     return this.getBooleanAttribute('essential');
   }
@@ -2800,7 +2800,7 @@ export class GameliftContainerGroupDefinitionSupportContainerDefinitionsOutputRe
   }
 
   // image_uri - computed: true, optional: true, required: false
-  private _imageUri?: string;
+  private _imageUri?: string; 
   public get imageUri() {
     return this.getStringAttribute('image_uri');
   }
@@ -2832,7 +2832,7 @@ export class GameliftContainerGroupDefinitionSupportContainerDefinitionsOutputRe
   }
 
   // memory_hard_limit_mebibytes - computed: true, optional: true, required: false
-  private _memoryHardLimitMebibytes?: number;
+  private _memoryHardLimitMebibytes?: number; 
   public get memoryHardLimitMebibytes() {
     return this.getNumberAttribute('memory_hard_limit_mebibytes');
   }
@@ -2880,7 +2880,7 @@ export class GameliftContainerGroupDefinitionSupportContainerDefinitionsOutputRe
   }
 
   // resolved_image_digest - computed: true, optional: true, required: false
-  private _resolvedImageDigest?: string;
+  private _resolvedImageDigest?: string; 
   public get resolvedImageDigest() {
     return this.getStringAttribute('resolved_image_digest');
   }
@@ -2896,7 +2896,7 @@ export class GameliftContainerGroupDefinitionSupportContainerDefinitionsOutputRe
   }
 
   // vcpu - computed: true, optional: true, required: false
-  private _vcpu?: number;
+  private _vcpu?: number; 
   public get vcpu() {
     return this.getNumberAttribute('vcpu');
   }
@@ -3033,7 +3033,7 @@ export class GameliftContainerGroupDefinitionTagsOutputReference extends cdktn.C
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -3049,7 +3049,7 @@ export class GameliftContainerGroupDefinitionTagsOutputReference extends cdktn.C
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -3157,7 +3157,7 @@ export class GameliftContainerGroupDefinition extends cdktn.TerraformResource {
   }
 
   // container_group_type - computed: true, optional: true, required: false
-  private _containerGroupType?: string;
+  private _containerGroupType?: string; 
   public get containerGroupType() {
     return this.getStringAttribute('container_group_type');
   }
@@ -3199,7 +3199,7 @@ export class GameliftContainerGroupDefinition extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -3212,7 +3212,7 @@ export class GameliftContainerGroupDefinition extends cdktn.TerraformResource {
   }
 
   // operating_system - computed: false, optional: false, required: true
-  private _operatingSystem?: string;
+  private _operatingSystem?: string; 
   public get operatingSystem() {
     return this.getStringAttribute('operating_system');
   }
@@ -3225,7 +3225,7 @@ export class GameliftContainerGroupDefinition extends cdktn.TerraformResource {
   }
 
   // source_version_number - computed: true, optional: true, required: false
-  private _sourceVersionNumber?: number;
+  private _sourceVersionNumber?: number; 
   public get sourceVersionNumber() {
     return this.getNumberAttribute('source_version_number');
   }
@@ -3283,7 +3283,7 @@ export class GameliftContainerGroupDefinition extends cdktn.TerraformResource {
   }
 
   // total_memory_limit_mebibytes - computed: false, optional: false, required: true
-  private _totalMemoryLimitMebibytes?: number;
+  private _totalMemoryLimitMebibytes?: number; 
   public get totalMemoryLimitMebibytes() {
     return this.getNumberAttribute('total_memory_limit_mebibytes');
   }
@@ -3296,7 +3296,7 @@ export class GameliftContainerGroupDefinition extends cdktn.TerraformResource {
   }
 
   // total_vcpu_limit - computed: false, optional: false, required: true
-  private _totalVcpuLimit?: number;
+  private _totalVcpuLimit?: number; 
   public get totalVcpuLimit() {
     return this.getNumberAttribute('total_vcpu_limit');
   }
@@ -3309,7 +3309,7 @@ export class GameliftContainerGroupDefinition extends cdktn.TerraformResource {
   }
 
   // version_description - computed: true, optional: true, required: false
-  private _versionDescription?: string;
+  private _versionDescription?: string; 
   public get versionDescription() {
     return this.getStringAttribute('version_description');
   }

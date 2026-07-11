@@ -141,7 +141,7 @@ export class LbSslNegotiationPolicyAttributeOutputReference extends cdktn.Comple
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -154,7 +154,7 @@ export class LbSslNegotiationPolicyAttributeOutputReference extends cdktn.Comple
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -251,7 +251,7 @@ export class LbSslNegotiationPolicy extends cdktn.TerraformResource {
   // ==========
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -267,7 +267,7 @@ export class LbSslNegotiationPolicy extends cdktn.TerraformResource {
   }
 
   // lb_port - computed: false, optional: false, required: true
-  private _lbPort?: number;
+  private _lbPort?: number; 
   public get lbPort() {
     return this.getNumberAttribute('lb_port');
   }
@@ -280,7 +280,7 @@ export class LbSslNegotiationPolicy extends cdktn.TerraformResource {
   }
 
   // load_balancer - computed: false, optional: false, required: true
-  private _loadBalancer?: string;
+  private _loadBalancer?: string; 
   public get loadBalancer() {
     return this.getStringAttribute('load_balancer');
   }
@@ -293,7 +293,7 @@ export class LbSslNegotiationPolicy extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -306,7 +306,7 @@ export class LbSslNegotiationPolicy extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -322,7 +322,7 @@ export class LbSslNegotiationPolicy extends cdktn.TerraformResource {
   }
 
   // triggers - computed: false, optional: true, required: false
-  private _triggers?: { [key: string]: string };
+  private _triggers?: { [key: string]: string }; 
   public get triggers() {
     return this.getStringMapAttribute('triggers');
   }

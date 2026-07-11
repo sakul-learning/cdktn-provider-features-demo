@@ -120,7 +120,7 @@ export class AthenaWorkgroupConfigurationCustomerContentEncryptionConfigurationO
   }
 
   // kms_key - computed: false, optional: true, required: false
-  private _kmsKey?: string;
+  private _kmsKey?: string; 
   public get kmsKey() {
     return this.getStringAttribute('kms_key');
   }
@@ -209,7 +209,7 @@ export class AthenaWorkgroupConfigurationEngineVersionOutputReference extends cd
   }
 
   // selected_engine_version - computed: false, optional: true, required: false
-  private _selectedEngineVersion?: string;
+  private _selectedEngineVersion?: string; 
   public get selectedEngineVersion() {
     return this.getStringAttribute('selected_engine_version');
   }
@@ -310,7 +310,7 @@ export class AthenaWorkgroupConfigurationIdentityCenterConfigurationOutputRefere
   }
 
   // enable_identity_center - computed: false, optional: true, required: false
-  private _enableIdentityCenter?: boolean | cdktn.IResolvable;
+  private _enableIdentityCenter?: boolean | cdktn.IResolvable; 
   public get enableIdentityCenter() {
     return this.getBooleanAttribute('enable_identity_center');
   }
@@ -326,7 +326,7 @@ export class AthenaWorkgroupConfigurationIdentityCenterConfigurationOutputRefere
   }
 
   // identity_center_instance_arn - computed: false, optional: true, required: false
-  private _identityCenterInstanceArn?: string;
+  private _identityCenterInstanceArn?: string; 
   public get identityCenterInstanceArn() {
     return this.getStringAttribute('identity_center_instance_arn');
   }
@@ -410,7 +410,7 @@ export class AthenaWorkgroupConfigurationManagedQueryResultsConfigurationEncrypt
   }
 
   // kms_key - computed: false, optional: true, required: false
-  private _kmsKey?: string;
+  private _kmsKey?: string; 
   public get kmsKey() {
     return this.getStringAttribute('kms_key');
   }
@@ -513,7 +513,7 @@ export class AthenaWorkgroupConfigurationManagedQueryResultsConfigurationOutputR
   }
 
   // enabled - computed: false, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -642,7 +642,7 @@ export class AthenaWorkgroupConfigurationMonitoringConfigurationCloudWatchLoggin
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -655,7 +655,7 @@ export class AthenaWorkgroupConfigurationMonitoringConfigurationCloudWatchLoggin
   }
 
   // values - computed: false, optional: false, required: true
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -809,7 +809,7 @@ export class AthenaWorkgroupConfigurationMonitoringConfigurationCloudWatchLoggin
   }
 
   // enabled - computed: false, optional: false, required: true
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -822,7 +822,7 @@ export class AthenaWorkgroupConfigurationMonitoringConfigurationCloudWatchLoggin
   }
 
   // log_group - computed: false, optional: true, required: false
-  private _logGroup?: string;
+  private _logGroup?: string; 
   public get logGroup() {
     return this.getStringAttribute('log_group');
   }
@@ -838,7 +838,7 @@ export class AthenaWorkgroupConfigurationMonitoringConfigurationCloudWatchLoggin
   }
 
   // log_stream_name_prefix - computed: false, optional: true, required: false
-  private _logStreamNamePrefix?: string;
+  private _logStreamNamePrefix?: string; 
   public get logStreamNamePrefix() {
     return this.getStringAttribute('log_stream_name_prefix');
   }
@@ -955,7 +955,7 @@ export class AthenaWorkgroupConfigurationMonitoringConfigurationManagedLoggingCo
   }
 
   // enabled - computed: false, optional: false, required: true
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -968,7 +968,7 @@ export class AthenaWorkgroupConfigurationMonitoringConfigurationManagedLoggingCo
   }
 
   // kms_key - computed: false, optional: true, required: false
-  private _kmsKey?: string;
+  private _kmsKey?: string; 
   public get kmsKey() {
     return this.getStringAttribute('kms_key');
   }
@@ -1086,7 +1086,7 @@ export class AthenaWorkgroupConfigurationMonitoringConfigurationS3LoggingConfigu
   }
 
   // enabled - computed: false, optional: false, required: true
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -1099,7 +1099,7 @@ export class AthenaWorkgroupConfigurationMonitoringConfigurationS3LoggingConfigu
   }
 
   // kms_key - computed: false, optional: true, required: false
-  private _kmsKey?: string;
+  private _kmsKey?: string; 
   public get kmsKey() {
     return this.getStringAttribute('kms_key');
   }
@@ -1115,7 +1115,7 @@ export class AthenaWorkgroupConfigurationMonitoringConfigurationS3LoggingConfigu
   }
 
   // log_location - computed: false, optional: true, required: false
-  private _logLocation?: string;
+  private _logLocation?: string; 
   public get logLocation() {
     return this.getStringAttribute('log_location');
   }
@@ -1389,7 +1389,7 @@ export class AthenaWorkgroupConfigurationQueryResultsS3AccessGrantsConfiguration
   }
 
   // authentication_type - computed: false, optional: false, required: true
-  private _authenticationType?: string;
+  private _authenticationType?: string; 
   public get authenticationType() {
     return this.getStringAttribute('authentication_type');
   }
@@ -1402,7 +1402,7 @@ export class AthenaWorkgroupConfigurationQueryResultsS3AccessGrantsConfiguration
   }
 
   // create_user_level_prefix - computed: false, optional: true, required: false
-  private _createUserLevelPrefix?: boolean | cdktn.IResolvable;
+  private _createUserLevelPrefix?: boolean | cdktn.IResolvable; 
   public get createUserLevelPrefix() {
     return this.getBooleanAttribute('create_user_level_prefix');
   }
@@ -1418,7 +1418,7 @@ export class AthenaWorkgroupConfigurationQueryResultsS3AccessGrantsConfiguration
   }
 
   // enable_s3_access_grants - computed: false, optional: false, required: true
-  private _enableS3AccessGrants?: boolean | cdktn.IResolvable;
+  private _enableS3AccessGrants?: boolean | cdktn.IResolvable; 
   public get enableS3AccessGrants() {
     return this.getBooleanAttribute('enable_s3_access_grants');
   }
@@ -1499,7 +1499,7 @@ export class AthenaWorkgroupConfigurationResultConfigurationAclConfigurationOutp
   }
 
   // s3_acl_option - computed: false, optional: false, required: true
-  private _s3AclOption?: string;
+  private _s3AclOption?: string; 
   public get s3AclOption() {
     return this.getStringAttribute('s3_acl_option');
   }
@@ -1597,7 +1597,7 @@ export class AthenaWorkgroupConfigurationResultConfigurationEncryptionConfigurat
   }
 
   // encryption_option - computed: false, optional: true, required: false
-  private _encryptionOption?: string;
+  private _encryptionOption?: string; 
   public get encryptionOption() {
     return this.getStringAttribute('encryption_option');
   }
@@ -1613,7 +1613,7 @@ export class AthenaWorkgroupConfigurationResultConfigurationEncryptionConfigurat
   }
 
   // kms_key_arn - computed: false, optional: true, required: false
-  private _kmsKeyArn?: string;
+  private _kmsKeyArn?: string; 
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -1752,7 +1752,7 @@ export class AthenaWorkgroupConfigurationResultConfigurationOutputReference exte
   }
 
   // expected_bucket_owner - computed: false, optional: true, required: false
-  private _expectedBucketOwner?: string;
+  private _expectedBucketOwner?: string; 
   public get expectedBucketOwner() {
     return this.getStringAttribute('expected_bucket_owner');
   }
@@ -1768,7 +1768,7 @@ export class AthenaWorkgroupConfigurationResultConfigurationOutputReference exte
   }
 
   // output_location - computed: false, optional: true, required: false
-  private _outputLocation?: string;
+  private _outputLocation?: string; 
   public get outputLocation() {
     return this.getStringAttribute('output_location');
   }
@@ -2102,7 +2102,7 @@ export class AthenaWorkgroupConfigurationOutputReference extends cdktn.ComplexOb
   }
 
   // bytes_scanned_cutoff_per_query - computed: false, optional: true, required: false
-  private _bytesScannedCutoffPerQuery?: number;
+  private _bytesScannedCutoffPerQuery?: number; 
   public get bytesScannedCutoffPerQuery() {
     return this.getNumberAttribute('bytes_scanned_cutoff_per_query');
   }
@@ -2118,7 +2118,7 @@ export class AthenaWorkgroupConfigurationOutputReference extends cdktn.ComplexOb
   }
 
   // enable_minimum_encryption_configuration - computed: true, optional: true, required: false
-  private _enableMinimumEncryptionConfiguration?: boolean | cdktn.IResolvable;
+  private _enableMinimumEncryptionConfiguration?: boolean | cdktn.IResolvable; 
   public get enableMinimumEncryptionConfiguration() {
     return this.getBooleanAttribute('enable_minimum_encryption_configuration');
   }
@@ -2134,7 +2134,7 @@ export class AthenaWorkgroupConfigurationOutputReference extends cdktn.ComplexOb
   }
 
   // enforce_workgroup_configuration - computed: false, optional: true, required: false
-  private _enforceWorkgroupConfiguration?: boolean | cdktn.IResolvable;
+  private _enforceWorkgroupConfiguration?: boolean | cdktn.IResolvable; 
   public get enforceWorkgroupConfiguration() {
     return this.getBooleanAttribute('enforce_workgroup_configuration');
   }
@@ -2150,7 +2150,7 @@ export class AthenaWorkgroupConfigurationOutputReference extends cdktn.ComplexOb
   }
 
   // execution_role - computed: false, optional: true, required: false
-  private _executionRole?: string;
+  private _executionRole?: string; 
   public get executionRole() {
     return this.getStringAttribute('execution_role');
   }
@@ -2166,7 +2166,7 @@ export class AthenaWorkgroupConfigurationOutputReference extends cdktn.ComplexOb
   }
 
   // publish_cloudwatch_metrics_enabled - computed: false, optional: true, required: false
-  private _publishCloudwatchMetricsEnabled?: boolean | cdktn.IResolvable;
+  private _publishCloudwatchMetricsEnabled?: boolean | cdktn.IResolvable; 
   public get publishCloudwatchMetricsEnabled() {
     return this.getBooleanAttribute('publish_cloudwatch_metrics_enabled');
   }
@@ -2182,7 +2182,7 @@ export class AthenaWorkgroupConfigurationOutputReference extends cdktn.ComplexOb
   }
 
   // requester_pays_enabled - computed: false, optional: true, required: false
-  private _requesterPaysEnabled?: boolean | cdktn.IResolvable;
+  private _requesterPaysEnabled?: boolean | cdktn.IResolvable; 
   public get requesterPaysEnabled() {
     return this.getBooleanAttribute('requester_pays_enabled');
   }
@@ -2381,7 +2381,7 @@ export class AthenaWorkgroup extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -2397,7 +2397,7 @@ export class AthenaWorkgroup extends cdktn.TerraformResource {
   }
 
   // force_destroy - computed: false, optional: true, required: false
-  private _forceDestroy?: boolean | cdktn.IResolvable;
+  private _forceDestroy?: boolean | cdktn.IResolvable; 
   public get forceDestroy() {
     return this.getBooleanAttribute('force_destroy');
   }
@@ -2413,7 +2413,7 @@ export class AthenaWorkgroup extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -2429,7 +2429,7 @@ export class AthenaWorkgroup extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2442,7 +2442,7 @@ export class AthenaWorkgroup extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -2458,7 +2458,7 @@ export class AthenaWorkgroup extends cdktn.TerraformResource {
   }
 
   // state - computed: false, optional: true, required: false
-  private _state?: string;
+  private _state?: string; 
   public get state() {
     return this.getStringAttribute('state');
   }
@@ -2474,7 +2474,7 @@ export class AthenaWorkgroup extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -2490,7 +2490,7 @@ export class AthenaWorkgroup extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

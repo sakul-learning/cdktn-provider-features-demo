@@ -154,7 +154,7 @@ export class LogsMetricFilterMetricTransformationsDimensionsOutputReference exte
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -170,7 +170,7 @@ export class LogsMetricFilterMetricTransformationsDimensionsOutputReference exte
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -214,7 +214,7 @@ export interface LogsMetricFilterMetricTransformations {
   readonly defaultValue?: number;
   /**
   * The fields to use as dimensions for the metric. One metric filter can include as many as three dimensions.
-  *   Metrics extracted from log events are charged as custom metrics. To prevent unexpected high charges, do not specify high-cardinality fields such as ``IPAddress`` or ``requestID`` as dimensions. Each different value found for a dimension is treated as a separate metric and accrues charges as a separate custom metric.
+  *   Metrics extracted from log events are charged as custom metrics. To prevent unexpected high charges, do not specify high-cardinality fields such as ``IPAddress`` or ``requestID`` as dimensions. Each different value found for a dimension is treated as a separate metric and accrues charges as a separate custom metric. 
   *  CloudWatch Logs disables a metric filter if it generates 1000 different name/value pairs for your specified dimensions within a certain amount of time. This helps to prevent accidental high charges.
   *  You can also set up a billing alarm to alert you if your charges are higher than expected. For more information, see [Creating a Billing Alarm to Monitor Your Estimated Charges](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/monitor_estimated_charges_with_cloudwatch.html).
   *
@@ -386,7 +386,7 @@ export class LogsMetricFilterMetricTransformationsOutputReference extends cdktn.
   }
 
   // default_value - computed: true, optional: true, required: false
-  private _defaultValue?: number;
+  private _defaultValue?: number; 
   public get defaultValue() {
     return this.getNumberAttribute('default_value');
   }
@@ -418,7 +418,7 @@ export class LogsMetricFilterMetricTransformationsOutputReference extends cdktn.
   }
 
   // metric_name - computed: false, optional: false, required: true
-  private _metricName?: string;
+  private _metricName?: string; 
   public get metricName() {
     return this.getStringAttribute('metric_name');
   }
@@ -431,7 +431,7 @@ export class LogsMetricFilterMetricTransformationsOutputReference extends cdktn.
   }
 
   // metric_namespace - computed: false, optional: false, required: true
-  private _metricNamespace?: string;
+  private _metricNamespace?: string; 
   public get metricNamespace() {
     return this.getStringAttribute('metric_namespace');
   }
@@ -444,7 +444,7 @@ export class LogsMetricFilterMetricTransformationsOutputReference extends cdktn.
   }
 
   // metric_value - computed: false, optional: false, required: true
-  private _metricValue?: string;
+  private _metricValue?: string; 
   public get metricValue() {
     return this.getStringAttribute('metric_value');
   }
@@ -457,7 +457,7 @@ export class LogsMetricFilterMetricTransformationsOutputReference extends cdktn.
   }
 
   // unit - computed: true, optional: true, required: false
-  private _unit?: string;
+  private _unit?: string; 
   public get unit() {
     return this.getStringAttribute('unit');
   }
@@ -557,7 +557,7 @@ export class LogsMetricFilter extends cdktn.TerraformResource {
   // ==========
 
   // apply_on_transformed_logs - computed: true, optional: true, required: false
-  private _applyOnTransformedLogs?: boolean | cdktn.IResolvable;
+  private _applyOnTransformedLogs?: boolean | cdktn.IResolvable; 
   public get applyOnTransformedLogs() {
     return this.getBooleanAttribute('apply_on_transformed_logs');
   }
@@ -573,7 +573,7 @@ export class LogsMetricFilter extends cdktn.TerraformResource {
   }
 
   // emit_system_field_dimensions - computed: true, optional: true, required: false
-  private _emitSystemFieldDimensions?: string[];
+  private _emitSystemFieldDimensions?: string[]; 
   public get emitSystemFieldDimensions() {
     return this.getListAttribute('emit_system_field_dimensions');
   }
@@ -589,7 +589,7 @@ export class LogsMetricFilter extends cdktn.TerraformResource {
   }
 
   // field_selection_criteria - computed: true, optional: true, required: false
-  private _fieldSelectionCriteria?: string;
+  private _fieldSelectionCriteria?: string; 
   public get fieldSelectionCriteria() {
     return this.getStringAttribute('field_selection_criteria');
   }
@@ -605,7 +605,7 @@ export class LogsMetricFilter extends cdktn.TerraformResource {
   }
 
   // filter_name - computed: true, optional: true, required: false
-  private _filterName?: string;
+  private _filterName?: string; 
   public get filterName() {
     return this.getStringAttribute('filter_name');
   }
@@ -621,7 +621,7 @@ export class LogsMetricFilter extends cdktn.TerraformResource {
   }
 
   // filter_pattern - computed: false, optional: false, required: true
-  private _filterPattern?: string;
+  private _filterPattern?: string; 
   public get filterPattern() {
     return this.getStringAttribute('filter_pattern');
   }
@@ -639,7 +639,7 @@ export class LogsMetricFilter extends cdktn.TerraformResource {
   }
 
   // log_group_name - computed: false, optional: false, required: true
-  private _logGroupName?: string;
+  private _logGroupName?: string; 
   public get logGroupName() {
     return this.getStringAttribute('log_group_name');
   }

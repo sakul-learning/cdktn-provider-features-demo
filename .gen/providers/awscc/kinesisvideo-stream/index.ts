@@ -131,7 +131,7 @@ export class KinesisvideoStreamStreamStorageConfigurationOutputReference extends
   }
 
   // default_storage_tier - computed: true, optional: true, required: false
-  private _defaultStorageTier?: string;
+  private _defaultStorageTier?: string; 
   public get defaultStorageTier() {
     return this.getStringAttribute('default_storage_tier');
   }
@@ -248,7 +248,7 @@ export class KinesisvideoStreamTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -264,7 +264,7 @@ export class KinesisvideoStreamTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -369,7 +369,7 @@ export class KinesisvideoStream extends cdktn.TerraformResource {
   }
 
   // data_retention_in_hours - computed: true, optional: true, required: false
-  private _dataRetentionInHours?: number;
+  private _dataRetentionInHours?: number; 
   public get dataRetentionInHours() {
     return this.getNumberAttribute('data_retention_in_hours');
   }
@@ -385,7 +385,7 @@ export class KinesisvideoStream extends cdktn.TerraformResource {
   }
 
   // device_name - computed: true, optional: true, required: false
-  private _deviceName?: string;
+  private _deviceName?: string; 
   public get deviceName() {
     return this.getStringAttribute('device_name');
   }
@@ -406,7 +406,7 @@ export class KinesisvideoStream extends cdktn.TerraformResource {
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -422,7 +422,7 @@ export class KinesisvideoStream extends cdktn.TerraformResource {
   }
 
   // media_type - computed: true, optional: true, required: false
-  private _mediaType?: string;
+  private _mediaType?: string; 
   public get mediaType() {
     return this.getStringAttribute('media_type');
   }
@@ -438,7 +438,7 @@ export class KinesisvideoStream extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }

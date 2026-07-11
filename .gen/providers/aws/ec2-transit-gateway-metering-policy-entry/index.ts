@@ -168,7 +168,7 @@ export class Ec2TransitGatewayMeteringPolicyEntryTimeoutsOutputReference extends
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -184,7 +184,7 @@ export class Ec2TransitGatewayMeteringPolicyEntryTimeoutsOutputReference extends
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -271,7 +271,7 @@ export class Ec2TransitGatewayMeteringPolicyEntry extends cdktn.TerraformResourc
   // ==========
 
   // destination_cidr_block - computed: false, optional: true, required: false
-  private _destinationCidrBlock?: string;
+  private _destinationCidrBlock?: string; 
   public get destinationCidrBlock() {
     return this.getStringAttribute('destination_cidr_block');
   }
@@ -287,7 +287,7 @@ export class Ec2TransitGatewayMeteringPolicyEntry extends cdktn.TerraformResourc
   }
 
   // destination_port_range - computed: false, optional: true, required: false
-  private _destinationPortRange?: string;
+  private _destinationPortRange?: string; 
   public get destinationPortRange() {
     return this.getStringAttribute('destination_port_range');
   }
@@ -303,7 +303,7 @@ export class Ec2TransitGatewayMeteringPolicyEntry extends cdktn.TerraformResourc
   }
 
   // destination_transit_gateway_attachment_id - computed: false, optional: true, required: false
-  private _destinationTransitGatewayAttachmentId?: string;
+  private _destinationTransitGatewayAttachmentId?: string; 
   public get destinationTransitGatewayAttachmentId() {
     return this.getStringAttribute('destination_transit_gateway_attachment_id');
   }
@@ -319,7 +319,7 @@ export class Ec2TransitGatewayMeteringPolicyEntry extends cdktn.TerraformResourc
   }
 
   // destination_transit_gateway_attachment_type - computed: false, optional: true, required: false
-  private _destinationTransitGatewayAttachmentType?: string;
+  private _destinationTransitGatewayAttachmentType?: string; 
   public get destinationTransitGatewayAttachmentType() {
     return this.getStringAttribute('destination_transit_gateway_attachment_type');
   }
@@ -335,7 +335,7 @@ export class Ec2TransitGatewayMeteringPolicyEntry extends cdktn.TerraformResourc
   }
 
   // metered_account - computed: false, optional: false, required: true
-  private _meteredAccount?: string;
+  private _meteredAccount?: string; 
   public get meteredAccount() {
     return this.getStringAttribute('metered_account');
   }
@@ -348,7 +348,7 @@ export class Ec2TransitGatewayMeteringPolicyEntry extends cdktn.TerraformResourc
   }
 
   // policy_rule_number - computed: false, optional: false, required: true
-  private _policyRuleNumber?: number;
+  private _policyRuleNumber?: number; 
   public get policyRuleNumber() {
     return this.getNumberAttribute('policy_rule_number');
   }
@@ -361,7 +361,7 @@ export class Ec2TransitGatewayMeteringPolicyEntry extends cdktn.TerraformResourc
   }
 
   // protocol - computed: false, optional: true, required: false
-  private _protocol?: string;
+  private _protocol?: string; 
   public get protocol() {
     return this.getStringAttribute('protocol');
   }
@@ -377,7 +377,7 @@ export class Ec2TransitGatewayMeteringPolicyEntry extends cdktn.TerraformResourc
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -393,7 +393,7 @@ export class Ec2TransitGatewayMeteringPolicyEntry extends cdktn.TerraformResourc
   }
 
   // source_cidr_block - computed: false, optional: true, required: false
-  private _sourceCidrBlock?: string;
+  private _sourceCidrBlock?: string; 
   public get sourceCidrBlock() {
     return this.getStringAttribute('source_cidr_block');
   }
@@ -409,7 +409,7 @@ export class Ec2TransitGatewayMeteringPolicyEntry extends cdktn.TerraformResourc
   }
 
   // source_port_range - computed: false, optional: true, required: false
-  private _sourcePortRange?: string;
+  private _sourcePortRange?: string; 
   public get sourcePortRange() {
     return this.getStringAttribute('source_port_range');
   }
@@ -425,7 +425,7 @@ export class Ec2TransitGatewayMeteringPolicyEntry extends cdktn.TerraformResourc
   }
 
   // source_transit_gateway_attachment_id - computed: false, optional: true, required: false
-  private _sourceTransitGatewayAttachmentId?: string;
+  private _sourceTransitGatewayAttachmentId?: string; 
   public get sourceTransitGatewayAttachmentId() {
     return this.getStringAttribute('source_transit_gateway_attachment_id');
   }
@@ -441,7 +441,7 @@ export class Ec2TransitGatewayMeteringPolicyEntry extends cdktn.TerraformResourc
   }
 
   // source_transit_gateway_attachment_type - computed: false, optional: true, required: false
-  private _sourceTransitGatewayAttachmentType?: string;
+  private _sourceTransitGatewayAttachmentType?: string; 
   public get sourceTransitGatewayAttachmentType() {
     return this.getStringAttribute('source_transit_gateway_attachment_type');
   }
@@ -457,7 +457,7 @@ export class Ec2TransitGatewayMeteringPolicyEntry extends cdktn.TerraformResourc
   }
 
   // transit_gateway_metering_policy_id - computed: false, optional: false, required: true
-  private _transitGatewayMeteringPolicyId?: string;
+  private _transitGatewayMeteringPolicyId?: string; 
   public get transitGatewayMeteringPolicyId() {
     return this.getStringAttribute('transit_gateway_metering_policy_id');
   }

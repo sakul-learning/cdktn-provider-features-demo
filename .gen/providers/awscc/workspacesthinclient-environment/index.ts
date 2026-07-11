@@ -170,7 +170,7 @@ export class WorkspacesthinclientEnvironmentDeviceCreationTagsOutputReference ex
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -186,7 +186,7 @@ export class WorkspacesthinclientEnvironmentDeviceCreationTagsOutputReference ex
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -416,7 +416,7 @@ export class WorkspacesthinclientEnvironmentMaintenanceWindowOutputReference ext
   }
 
   // apply_time_of - computed: true, optional: true, required: false
-  private _applyTimeOf?: string;
+  private _applyTimeOf?: string; 
   public get applyTimeOf() {
     return this.getStringAttribute('apply_time_of');
   }
@@ -432,7 +432,7 @@ export class WorkspacesthinclientEnvironmentMaintenanceWindowOutputReference ext
   }
 
   // days_of_the_week - computed: true, optional: true, required: false
-  private _daysOfTheWeek?: string[];
+  private _daysOfTheWeek?: string[]; 
   public get daysOfTheWeek() {
     return cdktn.Fn.tolist(this.getListAttribute('days_of_the_week'));
   }
@@ -448,7 +448,7 @@ export class WorkspacesthinclientEnvironmentMaintenanceWindowOutputReference ext
   }
 
   // end_time_hour - computed: true, optional: true, required: false
-  private _endTimeHour?: number;
+  private _endTimeHour?: number; 
   public get endTimeHour() {
     return this.getNumberAttribute('end_time_hour');
   }
@@ -464,7 +464,7 @@ export class WorkspacesthinclientEnvironmentMaintenanceWindowOutputReference ext
   }
 
   // end_time_minute - computed: true, optional: true, required: false
-  private _endTimeMinute?: number;
+  private _endTimeMinute?: number; 
   public get endTimeMinute() {
     return this.getNumberAttribute('end_time_minute');
   }
@@ -480,7 +480,7 @@ export class WorkspacesthinclientEnvironmentMaintenanceWindowOutputReference ext
   }
 
   // start_time_hour - computed: true, optional: true, required: false
-  private _startTimeHour?: number;
+  private _startTimeHour?: number; 
   public get startTimeHour() {
     return this.getNumberAttribute('start_time_hour');
   }
@@ -496,7 +496,7 @@ export class WorkspacesthinclientEnvironmentMaintenanceWindowOutputReference ext
   }
 
   // start_time_minute - computed: true, optional: true, required: false
-  private _startTimeMinute?: number;
+  private _startTimeMinute?: number; 
   public get startTimeMinute() {
     return this.getNumberAttribute('start_time_minute');
   }
@@ -512,7 +512,7 @@ export class WorkspacesthinclientEnvironmentMaintenanceWindowOutputReference ext
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -629,7 +629,7 @@ export class WorkspacesthinclientEnvironmentTagsOutputReference extends cdktn.Co
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -645,7 +645,7 @@ export class WorkspacesthinclientEnvironmentTagsOutputReference extends cdktn.Co
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -763,7 +763,7 @@ export class WorkspacesthinclientEnvironment extends cdktn.TerraformResource {
   }
 
   // desired_software_set_id - computed: true, optional: true, required: false
-  private _desiredSoftwareSetId?: string;
+  private _desiredSoftwareSetId?: string; 
   public get desiredSoftwareSetId() {
     return this.getStringAttribute('desired_software_set_id');
   }
@@ -779,7 +779,7 @@ export class WorkspacesthinclientEnvironment extends cdktn.TerraformResource {
   }
 
   // desktop_arn - computed: false, optional: false, required: true
-  private _desktopArn?: string;
+  private _desktopArn?: string; 
   public get desktopArn() {
     return this.getStringAttribute('desktop_arn');
   }
@@ -792,7 +792,7 @@ export class WorkspacesthinclientEnvironment extends cdktn.TerraformResource {
   }
 
   // desktop_endpoint - computed: true, optional: true, required: false
-  private _desktopEndpoint?: string;
+  private _desktopEndpoint?: string; 
   public get desktopEndpoint() {
     return this.getStringAttribute('desktop_endpoint');
   }
@@ -839,7 +839,7 @@ export class WorkspacesthinclientEnvironment extends cdktn.TerraformResource {
   }
 
   // kms_key_arn - computed: true, optional: true, required: false
-  private _kmsKeyArn?: string;
+  private _kmsKeyArn?: string; 
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -871,7 +871,7 @@ export class WorkspacesthinclientEnvironment extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -907,7 +907,7 @@ export class WorkspacesthinclientEnvironment extends cdktn.TerraformResource {
   }
 
   // software_set_update_mode - computed: true, optional: true, required: false
-  private _softwareSetUpdateMode?: string;
+  private _softwareSetUpdateMode?: string; 
   public get softwareSetUpdateMode() {
     return this.getStringAttribute('software_set_update_mode');
   }
@@ -923,7 +923,7 @@ export class WorkspacesthinclientEnvironment extends cdktn.TerraformResource {
   }
 
   // software_set_update_schedule - computed: true, optional: true, required: false
-  private _softwareSetUpdateSchedule?: string;
+  private _softwareSetUpdateSchedule?: string; 
   public get softwareSetUpdateSchedule() {
     return this.getStringAttribute('software_set_update_schedule');
   }

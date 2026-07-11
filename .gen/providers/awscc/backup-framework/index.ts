@@ -130,7 +130,7 @@ export class BackupFrameworkFrameworkControlsControlInputParametersOutputReferen
   }
 
   // parameter_name - computed: true, optional: true, required: false
-  private _parameterName?: string;
+  private _parameterName?: string; 
   public get parameterName() {
     return this.getStringAttribute('parameter_name');
   }
@@ -146,7 +146,7 @@ export class BackupFrameworkFrameworkControlsControlInputParametersOutputReferen
   }
 
   // parameter_value - computed: true, optional: true, required: false
-  private _parameterValue?: string;
+  private _parameterValue?: string; 
   public get parameterValue() {
     return this.getStringAttribute('parameter_value');
   }
@@ -283,7 +283,7 @@ export class BackupFrameworkFrameworkControlsControlScopeTagsOutputReference ext
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -299,7 +299,7 @@ export class BackupFrameworkFrameworkControlsControlScopeTagsOutputReference ext
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -453,7 +453,7 @@ export class BackupFrameworkFrameworkControlsControlScopeOutputReference extends
   }
 
   // compliance_resource_ids - computed: true, optional: true, required: false
-  private _complianceResourceIds?: string[];
+  private _complianceResourceIds?: string[]; 
   public get complianceResourceIds() {
     return this.getListAttribute('compliance_resource_ids');
   }
@@ -469,7 +469,7 @@ export class BackupFrameworkFrameworkControlsControlScopeOutputReference extends
   }
 
   // compliance_resource_types - computed: true, optional: true, required: false
-  private _complianceResourceTypes?: string[];
+  private _complianceResourceTypes?: string[]; 
   public get complianceResourceTypes() {
     return this.getListAttribute('compliance_resource_types');
   }
@@ -637,7 +637,7 @@ export class BackupFrameworkFrameworkControlsOutputReference extends cdktn.Compl
   }
 
   // control_name - computed: false, optional: false, required: true
-  private _controlName?: string;
+  private _controlName?: string; 
   public get controlName() {
     return this.getStringAttribute('control_name');
   }
@@ -787,7 +787,7 @@ export class BackupFrameworkFrameworkTagsOutputReference extends cdktn.ComplexOb
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -803,7 +803,7 @@ export class BackupFrameworkFrameworkTagsOutputReference extends cdktn.ComplexOb
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -928,7 +928,7 @@ export class BackupFramework extends cdktn.TerraformResource {
   }
 
   // framework_description - computed: true, optional: true, required: false
-  private _frameworkDescription?: string;
+  private _frameworkDescription?: string; 
   public get frameworkDescription() {
     return this.getStringAttribute('framework_description');
   }
@@ -944,7 +944,7 @@ export class BackupFramework extends cdktn.TerraformResource {
   }
 
   // framework_name - computed: true, optional: true, required: false
-  private _frameworkName?: string;
+  private _frameworkName?: string; 
   public get frameworkName() {
     return this.getStringAttribute('framework_name');
   }

@@ -161,7 +161,7 @@ export class GameliftGameServerGroupAutoScalingPolicyTargetTrackingConfiguration
   }
 
   // target_value - computed: true, optional: true, required: false
-  private _targetValue?: number;
+  private _targetValue?: number; 
   public get targetValue() {
     return this.getNumberAttribute('target_value');
   }
@@ -276,7 +276,7 @@ export class GameliftGameServerGroupAutoScalingPolicyOutputReference extends cdk
   }
 
   // estimated_instance_warmup - computed: true, optional: true, required: false
-  private _estimatedInstanceWarmup?: number;
+  private _estimatedInstanceWarmup?: number; 
   public get estimatedInstanceWarmup() {
     return this.getNumberAttribute('estimated_instance_warmup');
   }
@@ -409,7 +409,7 @@ export class GameliftGameServerGroupInstanceDefinitionsOutputReference extends c
   }
 
   // instance_type - computed: false, optional: false, required: true
-  private _instanceType?: string;
+  private _instanceType?: string; 
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -422,7 +422,7 @@ export class GameliftGameServerGroupInstanceDefinitionsOutputReference extends c
   }
 
   // weighted_capacity - computed: true, optional: true, required: false
-  private _weightedCapacity?: string;
+  private _weightedCapacity?: string; 
   public get weightedCapacity() {
     return this.getStringAttribute('weighted_capacity');
   }
@@ -576,7 +576,7 @@ export class GameliftGameServerGroupLaunchTemplateOutputReference extends cdktn.
   }
 
   // launch_template_id - computed: true, optional: true, required: false
-  private _launchTemplateId?: string;
+  private _launchTemplateId?: string; 
   public get launchTemplateId() {
     return this.getStringAttribute('launch_template_id');
   }
@@ -592,7 +592,7 @@ export class GameliftGameServerGroupLaunchTemplateOutputReference extends cdktn.
   }
 
   // launch_template_name - computed: true, optional: true, required: false
-  private _launchTemplateName?: string;
+  private _launchTemplateName?: string; 
   public get launchTemplateName() {
     return this.getStringAttribute('launch_template_name');
   }
@@ -608,7 +608,7 @@ export class GameliftGameServerGroupLaunchTemplateOutputReference extends cdktn.
   }
 
   // version - computed: true, optional: true, required: false
-  private _version?: string;
+  private _version?: string; 
   public get version() {
     return this.getStringAttribute('version');
   }
@@ -725,7 +725,7 @@ export class GameliftGameServerGroupTagsOutputReference extends cdktn.ComplexObj
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -741,7 +741,7 @@ export class GameliftGameServerGroupTagsOutputReference extends cdktn.ComplexObj
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -867,7 +867,7 @@ export class GameliftGameServerGroup extends cdktn.TerraformResource {
   }
 
   // balancing_strategy - computed: true, optional: true, required: false
-  private _balancingStrategy?: string;
+  private _balancingStrategy?: string; 
   public get balancingStrategy() {
     return this.getStringAttribute('balancing_strategy');
   }
@@ -883,7 +883,7 @@ export class GameliftGameServerGroup extends cdktn.TerraformResource {
   }
 
   // delete_option - computed: true, optional: true, required: false
-  private _deleteOption?: string;
+  private _deleteOption?: string; 
   public get deleteOption() {
     return this.getStringAttribute('delete_option');
   }
@@ -904,7 +904,7 @@ export class GameliftGameServerGroup extends cdktn.TerraformResource {
   }
 
   // game_server_group_name - computed: false, optional: false, required: true
-  private _gameServerGroupName?: string;
+  private _gameServerGroupName?: string; 
   public get gameServerGroupName() {
     return this.getStringAttribute('game_server_group_name');
   }
@@ -917,7 +917,7 @@ export class GameliftGameServerGroup extends cdktn.TerraformResource {
   }
 
   // game_server_protection_policy - computed: true, optional: true, required: false
-  private _gameServerProtectionPolicy?: string;
+  private _gameServerProtectionPolicy?: string; 
   public get gameServerProtectionPolicy() {
     return this.getStringAttribute('game_server_protection_policy');
   }
@@ -967,7 +967,7 @@ export class GameliftGameServerGroup extends cdktn.TerraformResource {
   }
 
   // max_size - computed: true, optional: true, required: false
-  private _maxSize?: number;
+  private _maxSize?: number; 
   public get maxSize() {
     return this.getNumberAttribute('max_size');
   }
@@ -983,7 +983,7 @@ export class GameliftGameServerGroup extends cdktn.TerraformResource {
   }
 
   // min_size - computed: true, optional: true, required: false
-  private _minSize?: number;
+  private _minSize?: number; 
   public get minSize() {
     return this.getNumberAttribute('min_size');
   }
@@ -999,7 +999,7 @@ export class GameliftGameServerGroup extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -1028,7 +1028,7 @@ export class GameliftGameServerGroup extends cdktn.TerraformResource {
   }
 
   // vpc_subnets - computed: true, optional: true, required: false
-  private _vpcSubnets?: string[];
+  private _vpcSubnets?: string[]; 
   public get vpcSubnets() {
     return this.getListAttribute('vpc_subnets');
   }

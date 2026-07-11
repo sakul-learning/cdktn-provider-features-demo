@@ -181,7 +181,7 @@ export class SsmPatchBaselineApprovalRulePatchFilterOutputReference extends cdkt
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -194,7 +194,7 @@ export class SsmPatchBaselineApprovalRulePatchFilterOutputReference extends cdkt
   }
 
   // values - computed: false, optional: false, required: true
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -377,7 +377,7 @@ export class SsmPatchBaselineApprovalRuleOutputReference extends cdktn.ComplexOb
   }
 
   // approve_after_days - computed: false, optional: true, required: false
-  private _approveAfterDays?: number;
+  private _approveAfterDays?: number; 
   public get approveAfterDays() {
     return this.getNumberAttribute('approve_after_days');
   }
@@ -393,7 +393,7 @@ export class SsmPatchBaselineApprovalRuleOutputReference extends cdktn.ComplexOb
   }
 
   // approve_until_date - computed: false, optional: true, required: false
-  private _approveUntilDate?: string;
+  private _approveUntilDate?: string; 
   public get approveUntilDate() {
     return this.getStringAttribute('approve_until_date');
   }
@@ -409,7 +409,7 @@ export class SsmPatchBaselineApprovalRuleOutputReference extends cdktn.ComplexOb
   }
 
   // compliance_level - computed: false, optional: true, required: false
-  private _complianceLevel?: string;
+  private _complianceLevel?: string; 
   public get complianceLevel() {
     return this.getStringAttribute('compliance_level');
   }
@@ -425,7 +425,7 @@ export class SsmPatchBaselineApprovalRuleOutputReference extends cdktn.ComplexOb
   }
 
   // enable_non_security - computed: false, optional: true, required: false
-  private _enableNonSecurity?: boolean | cdktn.IResolvable;
+  private _enableNonSecurity?: boolean | cdktn.IResolvable; 
   public get enableNonSecurity() {
     return this.getBooleanAttribute('enable_non_security');
   }
@@ -571,7 +571,7 @@ export class SsmPatchBaselineGlobalFilterOutputReference extends cdktn.ComplexOb
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -584,7 +584,7 @@ export class SsmPatchBaselineGlobalFilterOutputReference extends cdktn.ComplexOb
   }
 
   // values - computed: false, optional: false, required: true
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -731,7 +731,7 @@ export class SsmPatchBaselineSourceOutputReference extends cdktn.ComplexObject {
   }
 
   // configuration - computed: false, optional: false, required: true
-  private _configuration?: string;
+  private _configuration?: string; 
   public get configuration() {
     return this.getStringAttribute('configuration');
   }
@@ -744,7 +744,7 @@ export class SsmPatchBaselineSourceOutputReference extends cdktn.ComplexObject {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -757,7 +757,7 @@ export class SsmPatchBaselineSourceOutputReference extends cdktn.ComplexObject {
   }
 
   // products - computed: false, optional: false, required: true
-  private _products?: string[];
+  private _products?: string[]; 
   public get products() {
     return this.getListAttribute('products');
   }
@@ -863,7 +863,7 @@ export class SsmPatchBaseline extends cdktn.TerraformResource {
   // ==========
 
   // approved_patches - computed: false, optional: true, required: false
-  private _approvedPatches?: string[];
+  private _approvedPatches?: string[]; 
   public get approvedPatches() {
     return cdktn.Fn.tolist(this.getListAttribute('approved_patches'));
   }
@@ -879,7 +879,7 @@ export class SsmPatchBaseline extends cdktn.TerraformResource {
   }
 
   // approved_patches_compliance_level - computed: false, optional: true, required: false
-  private _approvedPatchesComplianceLevel?: string;
+  private _approvedPatchesComplianceLevel?: string; 
   public get approvedPatchesComplianceLevel() {
     return this.getStringAttribute('approved_patches_compliance_level');
   }
@@ -895,7 +895,7 @@ export class SsmPatchBaseline extends cdktn.TerraformResource {
   }
 
   // approved_patches_enable_non_security - computed: false, optional: true, required: false
-  private _approvedPatchesEnableNonSecurity?: boolean | cdktn.IResolvable;
+  private _approvedPatchesEnableNonSecurity?: boolean | cdktn.IResolvable; 
   public get approvedPatchesEnableNonSecurity() {
     return this.getBooleanAttribute('approved_patches_enable_non_security');
   }
@@ -916,7 +916,7 @@ export class SsmPatchBaseline extends cdktn.TerraformResource {
   }
 
   // available_security_updates_compliance_status - computed: true, optional: true, required: false
-  private _availableSecurityUpdatesComplianceStatus?: string;
+  private _availableSecurityUpdatesComplianceStatus?: string; 
   public get availableSecurityUpdatesComplianceStatus() {
     return this.getStringAttribute('available_security_updates_compliance_status');
   }
@@ -932,7 +932,7 @@ export class SsmPatchBaseline extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -948,7 +948,7 @@ export class SsmPatchBaseline extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -969,7 +969,7 @@ export class SsmPatchBaseline extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -982,7 +982,7 @@ export class SsmPatchBaseline extends cdktn.TerraformResource {
   }
 
   // operating_system - computed: false, optional: true, required: false
-  private _operatingSystem?: string;
+  private _operatingSystem?: string; 
   public get operatingSystem() {
     return this.getStringAttribute('operating_system');
   }
@@ -998,7 +998,7 @@ export class SsmPatchBaseline extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1014,7 +1014,7 @@ export class SsmPatchBaseline extends cdktn.TerraformResource {
   }
 
   // rejected_patches - computed: false, optional: true, required: false
-  private _rejectedPatches?: string[];
+  private _rejectedPatches?: string[]; 
   public get rejectedPatches() {
     return cdktn.Fn.tolist(this.getListAttribute('rejected_patches'));
   }
@@ -1030,7 +1030,7 @@ export class SsmPatchBaseline extends cdktn.TerraformResource {
   }
 
   // rejected_patches_action - computed: true, optional: true, required: false
-  private _rejectedPatchesAction?: string;
+  private _rejectedPatchesAction?: string; 
   public get rejectedPatchesAction() {
     return this.getStringAttribute('rejected_patches_action');
   }
@@ -1046,7 +1046,7 @@ export class SsmPatchBaseline extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -1062,7 +1062,7 @@ export class SsmPatchBaseline extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

@@ -98,7 +98,7 @@ export class QuicksightIpRestriction extends cdktn.TerraformResource {
   // ==========
 
   // aws_account_id - computed: true, optional: true, required: false
-  private _awsAccountId?: string;
+  private _awsAccountId?: string; 
   public get awsAccountId() {
     return this.getStringAttribute('aws_account_id');
   }
@@ -114,7 +114,7 @@ export class QuicksightIpRestriction extends cdktn.TerraformResource {
   }
 
   // enabled - computed: false, optional: false, required: true
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -127,7 +127,7 @@ export class QuicksightIpRestriction extends cdktn.TerraformResource {
   }
 
   // ip_restriction_rule_map - computed: false, optional: true, required: false
-  private _ipRestrictionRuleMap?: { [key: string]: string };
+  private _ipRestrictionRuleMap?: { [key: string]: string }; 
   public get ipRestrictionRuleMap() {
     return this.getStringMapAttribute('ip_restriction_rule_map');
   }
@@ -143,7 +143,7 @@ export class QuicksightIpRestriction extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -159,7 +159,7 @@ export class QuicksightIpRestriction extends cdktn.TerraformResource {
   }
 
   // vpc_endpoint_id_restriction_rule_map - computed: false, optional: true, required: false
-  private _vpcEndpointIdRestrictionRuleMap?: { [key: string]: string };
+  private _vpcEndpointIdRestrictionRuleMap?: { [key: string]: string }; 
   public get vpcEndpointIdRestrictionRuleMap() {
     return this.getStringMapAttribute('vpc_endpoint_id_restriction_rule_map');
   }
@@ -175,7 +175,7 @@ export class QuicksightIpRestriction extends cdktn.TerraformResource {
   }
 
   // vpc_id_restriction_rule_map - computed: false, optional: true, required: false
-  private _vpcIdRestrictionRuleMap?: { [key: string]: string };
+  private _vpcIdRestrictionRuleMap?: { [key: string]: string }; 
   public get vpcIdRestrictionRuleMap() {
     return this.getStringMapAttribute('vpc_id_restriction_rule_map');
   }

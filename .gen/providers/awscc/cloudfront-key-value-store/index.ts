@@ -132,7 +132,7 @@ export class CloudfrontKeyValueStoreImportSourceOutputReference extends cdktn.Co
   }
 
   // source_arn - computed: true, optional: true, required: false
-  private _sourceArn?: string;
+  private _sourceArn?: string; 
   public get sourceArn() {
     return this.getStringAttribute('source_arn');
   }
@@ -148,7 +148,7 @@ export class CloudfrontKeyValueStoreImportSourceOutputReference extends cdktn.Co
   }
 
   // source_type - computed: true, optional: true, required: false
-  private _sourceType?: string;
+  private _sourceType?: string; 
   public get sourceType() {
     return this.getStringAttribute('source_type');
   }
@@ -267,7 +267,7 @@ export class CloudfrontKeyValueStoreTagsOutputReference extends cdktn.ComplexObj
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -283,7 +283,7 @@ export class CloudfrontKeyValueStoreTagsOutputReference extends cdktn.ComplexObj
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -385,7 +385,7 @@ export class CloudfrontKeyValueStore extends cdktn.TerraformResource {
   }
 
   // comment - computed: true, optional: true, required: false
-  private _comment?: string;
+  private _comment?: string; 
   public get comment() {
     return this.getStringAttribute('comment');
   }
@@ -427,7 +427,7 @@ export class CloudfrontKeyValueStore extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }

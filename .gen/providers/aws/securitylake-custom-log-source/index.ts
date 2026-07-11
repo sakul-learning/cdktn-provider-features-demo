@@ -278,7 +278,7 @@ export class SecuritylakeCustomLogSourceConfigurationCrawlerConfigurationOutputR
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -408,7 +408,7 @@ export class SecuritylakeCustomLogSourceConfigurationProviderIdentityOutputRefer
   }
 
   // external_id - computed: false, optional: false, required: true
-  private _externalId?: string;
+  private _externalId?: string; 
   public get externalId() {
     return this.getStringAttribute('external_id');
   }
@@ -421,7 +421,7 @@ export class SecuritylakeCustomLogSourceConfigurationProviderIdentityOutputRefer
   }
 
   // principal - computed: false, optional: false, required: true
-  private _principal?: string;
+  private _principal?: string; 
   public get principal() {
     return this.getStringAttribute('principal');
   }
@@ -675,7 +675,7 @@ export class SecuritylakeCustomLogSource extends cdktn.TerraformResource {
   }
 
   // event_classes - computed: false, optional: true, required: false
-  private _eventClasses?: string[];
+  private _eventClasses?: string[]; 
   public get eventClasses() {
     return cdktn.Fn.tolist(this.getListAttribute('event_classes'));
   }
@@ -702,7 +702,7 @@ export class SecuritylakeCustomLogSource extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -718,7 +718,7 @@ export class SecuritylakeCustomLogSource extends cdktn.TerraformResource {
   }
 
   // source_name - computed: false, optional: false, required: true
-  private _sourceName?: string;
+  private _sourceName?: string; 
   public get sourceName() {
     return this.getStringAttribute('source_name');
   }
@@ -731,7 +731,7 @@ export class SecuritylakeCustomLogSource extends cdktn.TerraformResource {
   }
 
   // source_version - computed: true, optional: true, required: false
-  private _sourceVersion?: string;
+  private _sourceVersion?: string; 
   public get sourceVersion() {
     return this.getStringAttribute('source_version');
   }

@@ -129,7 +129,7 @@ export class OpensearchPackagePackageSourceOutputReference extends cdktn.Complex
   }
 
   // s3_bucket_name - computed: false, optional: false, required: true
-  private _s3BucketName?: string;
+  private _s3BucketName?: string; 
   public get s3BucketName() {
     return this.getStringAttribute('s3_bucket_name');
   }
@@ -142,7 +142,7 @@ export class OpensearchPackagePackageSourceOutputReference extends cdktn.Complex
   }
 
   // s3_key - computed: false, optional: false, required: true
-  private _s3Key?: string;
+  private _s3Key?: string; 
   public get s3Key() {
     return this.getStringAttribute('s3_key');
   }
@@ -224,7 +224,7 @@ export class OpensearchPackage extends cdktn.TerraformResource {
   }
 
   // engine_version - computed: false, optional: true, required: false
-  private _engineVersion?: string;
+  private _engineVersion?: string; 
   public get engineVersion() {
     return this.getStringAttribute('engine_version');
   }
@@ -240,7 +240,7 @@ export class OpensearchPackage extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -256,7 +256,7 @@ export class OpensearchPackage extends cdktn.TerraformResource {
   }
 
   // package_description - computed: false, optional: true, required: false
-  private _packageDescription?: string;
+  private _packageDescription?: string; 
   public get packageDescription() {
     return this.getStringAttribute('package_description');
   }
@@ -277,7 +277,7 @@ export class OpensearchPackage extends cdktn.TerraformResource {
   }
 
   // package_name - computed: false, optional: false, required: true
-  private _packageName?: string;
+  private _packageName?: string; 
   public get packageName() {
     return this.getStringAttribute('package_name');
   }
@@ -290,7 +290,7 @@ export class OpensearchPackage extends cdktn.TerraformResource {
   }
 
   // package_type - computed: false, optional: false, required: true
-  private _packageType?: string;
+  private _packageType?: string; 
   public get packageType() {
     return this.getStringAttribute('package_type');
   }
@@ -303,7 +303,7 @@ export class OpensearchPackage extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

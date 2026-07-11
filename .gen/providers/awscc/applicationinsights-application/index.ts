@@ -163,7 +163,7 @@ export class ApplicationinsightsApplicationComponentMonitoringSettingsCustomComp
   }
 
   // alarm_metric_name - computed: true, optional: true, required: false
-  private _alarmMetricName?: string;
+  private _alarmMetricName?: string; 
   public get alarmMetricName() {
     return this.getStringAttribute('alarm_metric_name');
   }
@@ -300,7 +300,7 @@ export class ApplicationinsightsApplicationComponentMonitoringSettingsCustomComp
   }
 
   // alarm_name - computed: true, optional: true, required: false
-  private _alarmName?: string;
+  private _alarmName?: string; 
   public get alarmName() {
     return this.getStringAttribute('alarm_name');
   }
@@ -316,7 +316,7 @@ export class ApplicationinsightsApplicationComponentMonitoringSettingsCustomComp
   }
 
   // severity - computed: true, optional: true, required: false
-  private _severity?: string;
+  private _severity?: string; 
   public get severity() {
     return this.getStringAttribute('severity');
   }
@@ -432,7 +432,7 @@ export class ApplicationinsightsApplicationComponentMonitoringSettingsCustomComp
   }
 
   // prometheus_port - computed: true, optional: true, required: false
-  private _prometheusPort?: string;
+  private _prometheusPort?: string; 
   public get prometheusPort() {
     return this.getStringAttribute('prometheus_port');
   }
@@ -607,7 +607,7 @@ export class ApplicationinsightsApplicationComponentMonitoringSettingsCustomComp
   }
 
   // agree_to_install_hanadb_client - computed: true, optional: true, required: false
-  private _agreeToInstallHanadbClient?: boolean | cdktn.IResolvable;
+  private _agreeToInstallHanadbClient?: boolean | cdktn.IResolvable; 
   public get agreeToInstallHanadbClient() {
     return this.getBooleanAttribute('agree_to_install_hanadb_client');
   }
@@ -623,7 +623,7 @@ export class ApplicationinsightsApplicationComponentMonitoringSettingsCustomComp
   }
 
   // hana_port - computed: true, optional: true, required: false
-  private _hanaPort?: string;
+  private _hanaPort?: string; 
   public get hanaPort() {
     return this.getStringAttribute('hana_port');
   }
@@ -639,7 +639,7 @@ export class ApplicationinsightsApplicationComponentMonitoringSettingsCustomComp
   }
 
   // hana_secret_name - computed: true, optional: true, required: false
-  private _hanaSecretName?: string;
+  private _hanaSecretName?: string; 
   public get hanaSecretName() {
     return this.getStringAttribute('hana_secret_name');
   }
@@ -655,7 +655,7 @@ export class ApplicationinsightsApplicationComponentMonitoringSettingsCustomComp
   }
 
   // hanasid - computed: true, optional: true, required: false
-  private _hanasid?: string;
+  private _hanasid?: string; 
   public get hanasid() {
     return this.getStringAttribute('hanasid');
   }
@@ -671,7 +671,7 @@ export class ApplicationinsightsApplicationComponentMonitoringSettingsCustomComp
   }
 
   // prometheus_port - computed: true, optional: true, required: false
-  private _prometheusPort?: string;
+  private _prometheusPort?: string; 
   public get prometheusPort() {
     return this.getStringAttribute('prometheus_port');
   }
@@ -805,7 +805,7 @@ export class ApplicationinsightsApplicationComponentMonitoringSettingsCustomComp
   }
 
   // host_port - computed: true, optional: true, required: false
-  private _hostPort?: string;
+  private _hostPort?: string; 
   public get hostPort() {
     return this.getStringAttribute('host_port');
   }
@@ -821,7 +821,7 @@ export class ApplicationinsightsApplicationComponentMonitoringSettingsCustomComp
   }
 
   // jmxurl - computed: true, optional: true, required: false
-  private _jmxurl?: string;
+  private _jmxurl?: string; 
   public get jmxurl() {
     return this.getStringAttribute('jmxurl');
   }
@@ -837,7 +837,7 @@ export class ApplicationinsightsApplicationComponentMonitoringSettingsCustomComp
   }
 
   // prometheus_port - computed: true, optional: true, required: false
-  private _prometheusPort?: string;
+  private _prometheusPort?: string; 
   public get prometheusPort() {
     return this.getStringAttribute('prometheus_port');
   }
@@ -1011,7 +1011,7 @@ export class ApplicationinsightsApplicationComponentMonitoringSettingsCustomComp
   }
 
   // encoding - computed: true, optional: true, required: false
-  private _encoding?: string;
+  private _encoding?: string; 
   public get encoding() {
     return this.getStringAttribute('encoding');
   }
@@ -1027,7 +1027,7 @@ export class ApplicationinsightsApplicationComponentMonitoringSettingsCustomComp
   }
 
   // log_group_name - computed: true, optional: true, required: false
-  private _logGroupName?: string;
+  private _logGroupName?: string; 
   public get logGroupName() {
     return this.getStringAttribute('log_group_name');
   }
@@ -1043,7 +1043,7 @@ export class ApplicationinsightsApplicationComponentMonitoringSettingsCustomComp
   }
 
   // log_path - computed: true, optional: true, required: false
-  private _logPath?: string;
+  private _logPath?: string; 
   public get logPath() {
     return this.getStringAttribute('log_path');
   }
@@ -1059,7 +1059,7 @@ export class ApplicationinsightsApplicationComponentMonitoringSettingsCustomComp
   }
 
   // log_type - computed: true, optional: true, required: false
-  private _logType?: string;
+  private _logType?: string; 
   public get logType() {
     return this.getStringAttribute('log_type');
   }
@@ -1075,7 +1075,7 @@ export class ApplicationinsightsApplicationComponentMonitoringSettingsCustomComp
   }
 
   // pattern_set - computed: true, optional: true, required: false
-  private _patternSet?: string;
+  private _patternSet?: string; 
   public get patternSet() {
     return this.getStringAttribute('pattern_set');
   }
@@ -1229,7 +1229,7 @@ export class ApplicationinsightsApplicationComponentMonitoringSettingsCustomComp
   }
 
   // instance_numbers - computed: true, optional: true, required: false
-  private _instanceNumbers?: string[];
+  private _instanceNumbers?: string[]; 
   public get instanceNumbers() {
     return this.getListAttribute('instance_numbers');
   }
@@ -1245,7 +1245,7 @@ export class ApplicationinsightsApplicationComponentMonitoringSettingsCustomComp
   }
 
   // prometheus_port - computed: true, optional: true, required: false
-  private _prometheusPort?: string;
+  private _prometheusPort?: string; 
   public get prometheusPort() {
     return this.getStringAttribute('prometheus_port');
   }
@@ -1261,7 +1261,7 @@ export class ApplicationinsightsApplicationComponentMonitoringSettingsCustomComp
   }
 
   // sapsid - computed: true, optional: true, required: false
-  private _sapsid?: string;
+  private _sapsid?: string; 
   public get sapsid() {
     return this.getStringAttribute('sapsid');
   }
@@ -1359,7 +1359,7 @@ export class ApplicationinsightsApplicationComponentMonitoringSettingsCustomComp
   }
 
   // alarm_metric_name - computed: true, optional: true, required: false
-  private _alarmMetricName?: string;
+  private _alarmMetricName?: string; 
   public get alarmMetricName() {
     return this.getStringAttribute('alarm_metric_name');
   }
@@ -1512,7 +1512,7 @@ export class ApplicationinsightsApplicationComponentMonitoringSettingsCustomComp
   }
 
   // process_name - computed: true, optional: true, required: false
-  private _processName?: string;
+  private _processName?: string; 
   public get processName() {
     return this.getStringAttribute('process_name');
   }
@@ -1647,7 +1647,7 @@ export class ApplicationinsightsApplicationComponentMonitoringSettingsCustomComp
   }
 
   // prometheus_port - computed: true, optional: true, required: false
-  private _prometheusPort?: string;
+  private _prometheusPort?: string; 
   public get prometheusPort() {
     return this.getStringAttribute('prometheus_port');
   }
@@ -1663,7 +1663,7 @@ export class ApplicationinsightsApplicationComponentMonitoringSettingsCustomComp
   }
 
   // sql_secret_name - computed: true, optional: true, required: false
-  private _sqlSecretName?: string;
+  private _sqlSecretName?: string; 
   public get sqlSecretName() {
     return this.getStringAttribute('sql_secret_name');
   }
@@ -1680,7 +1680,7 @@ export class ApplicationinsightsApplicationComponentMonitoringSettingsCustomComp
 }
 export interface ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationConfigurationDetailsWindowsEvents {
   /**
-  * The levels of event to log.
+  * The levels of event to log. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/applicationinsights_application#event_levels ApplicationinsightsApplication#event_levels}
   */
@@ -1818,7 +1818,7 @@ export class ApplicationinsightsApplicationComponentMonitoringSettingsCustomComp
   }
 
   // event_levels - computed: true, optional: true, required: false
-  private _eventLevels?: string[];
+  private _eventLevels?: string[]; 
   public get eventLevels() {
     return this.getListAttribute('event_levels');
   }
@@ -1834,7 +1834,7 @@ export class ApplicationinsightsApplicationComponentMonitoringSettingsCustomComp
   }
 
   // event_name - computed: true, optional: true, required: false
-  private _eventName?: string;
+  private _eventName?: string; 
   public get eventName() {
     return this.getStringAttribute('event_name');
   }
@@ -1850,7 +1850,7 @@ export class ApplicationinsightsApplicationComponentMonitoringSettingsCustomComp
   }
 
   // log_group_name - computed: true, optional: true, required: false
-  private _logGroupName?: string;
+  private _logGroupName?: string; 
   public get logGroupName() {
     return this.getStringAttribute('log_group_name');
   }
@@ -1866,7 +1866,7 @@ export class ApplicationinsightsApplicationComponentMonitoringSettingsCustomComp
   }
 
   // pattern_set - computed: true, optional: true, required: false
-  private _patternSet?: string;
+  private _patternSet?: string; 
   public get patternSet() {
     return this.getStringAttribute('pattern_set');
   }
@@ -2395,7 +2395,7 @@ export class ApplicationinsightsApplicationComponentMonitoringSettingsCustomComp
   }
 
   // alarm_metric_name - computed: true, optional: true, required: false
-  private _alarmMetricName?: string;
+  private _alarmMetricName?: string; 
   public get alarmMetricName() {
     return this.getStringAttribute('alarm_metric_name');
   }
@@ -2589,7 +2589,7 @@ export class ApplicationinsightsApplicationComponentMonitoringSettingsCustomComp
   }
 
   // encoding - computed: true, optional: true, required: false
-  private _encoding?: string;
+  private _encoding?: string; 
   public get encoding() {
     return this.getStringAttribute('encoding');
   }
@@ -2605,7 +2605,7 @@ export class ApplicationinsightsApplicationComponentMonitoringSettingsCustomComp
   }
 
   // log_group_name - computed: true, optional: true, required: false
-  private _logGroupName?: string;
+  private _logGroupName?: string; 
   public get logGroupName() {
     return this.getStringAttribute('log_group_name');
   }
@@ -2621,7 +2621,7 @@ export class ApplicationinsightsApplicationComponentMonitoringSettingsCustomComp
   }
 
   // log_path - computed: true, optional: true, required: false
-  private _logPath?: string;
+  private _logPath?: string; 
   public get logPath() {
     return this.getStringAttribute('log_path');
   }
@@ -2637,7 +2637,7 @@ export class ApplicationinsightsApplicationComponentMonitoringSettingsCustomComp
   }
 
   // log_type - computed: true, optional: true, required: false
-  private _logType?: string;
+  private _logType?: string; 
   public get logType() {
     return this.getStringAttribute('log_type');
   }
@@ -2653,7 +2653,7 @@ export class ApplicationinsightsApplicationComponentMonitoringSettingsCustomComp
   }
 
   // pattern_set - computed: true, optional: true, required: false
-  private _patternSet?: string;
+  private _patternSet?: string; 
   public get patternSet() {
     return this.getStringAttribute('pattern_set');
   }
@@ -2771,7 +2771,7 @@ export class ApplicationinsightsApplicationComponentMonitoringSettingsCustomComp
   }
 
   // alarm_metric_name - computed: true, optional: true, required: false
-  private _alarmMetricName?: string;
+  private _alarmMetricName?: string; 
   public get alarmMetricName() {
     return this.getStringAttribute('alarm_metric_name');
   }
@@ -2924,7 +2924,7 @@ export class ApplicationinsightsApplicationComponentMonitoringSettingsCustomComp
   }
 
   // process_name - computed: true, optional: true, required: false
-  private _processName?: string;
+  private _processName?: string; 
   public get processName() {
     return this.getStringAttribute('process_name');
   }
@@ -2961,7 +2961,7 @@ export class ApplicationinsightsApplicationComponentMonitoringSettingsCustomComp
 }
 export interface ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationSubComponentTypeConfigurationsSubComponentConfigurationDetailsWindowsEvents {
   /**
-  * The levels of event to log.
+  * The levels of event to log. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/applicationinsights_application#event_levels ApplicationinsightsApplication#event_levels}
   */
@@ -3099,7 +3099,7 @@ export class ApplicationinsightsApplicationComponentMonitoringSettingsCustomComp
   }
 
   // event_levels - computed: true, optional: true, required: false
-  private _eventLevels?: string[];
+  private _eventLevels?: string[]; 
   public get eventLevels() {
     return this.getListAttribute('event_levels');
   }
@@ -3115,7 +3115,7 @@ export class ApplicationinsightsApplicationComponentMonitoringSettingsCustomComp
   }
 
   // event_name - computed: true, optional: true, required: false
-  private _eventName?: string;
+  private _eventName?: string; 
   public get eventName() {
     return this.getStringAttribute('event_name');
   }
@@ -3131,7 +3131,7 @@ export class ApplicationinsightsApplicationComponentMonitoringSettingsCustomComp
   }
 
   // log_group_name - computed: true, optional: true, required: false
-  private _logGroupName?: string;
+  private _logGroupName?: string; 
   public get logGroupName() {
     return this.getStringAttribute('log_group_name');
   }
@@ -3147,7 +3147,7 @@ export class ApplicationinsightsApplicationComponentMonitoringSettingsCustomComp
   }
 
   // pattern_set - computed: true, optional: true, required: false
-  private _patternSet?: string;
+  private _patternSet?: string; 
   public get patternSet() {
     return this.getStringAttribute('pattern_set');
   }
@@ -3501,7 +3501,7 @@ export class ApplicationinsightsApplicationComponentMonitoringSettingsCustomComp
   }
 
   // sub_component_type - computed: true, optional: true, required: false
-  private _subComponentType?: string;
+  private _subComponentType?: string; 
   public get subComponentType() {
     return this.getStringAttribute('sub_component_type');
   }
@@ -3750,7 +3750,7 @@ export class ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOve
   }
 
   // alarm_metric_name - computed: true, optional: true, required: false
-  private _alarmMetricName?: string;
+  private _alarmMetricName?: string; 
   public get alarmMetricName() {
     return this.getStringAttribute('alarm_metric_name');
   }
@@ -3887,7 +3887,7 @@ export class ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOve
   }
 
   // alarm_name - computed: true, optional: true, required: false
-  private _alarmName?: string;
+  private _alarmName?: string; 
   public get alarmName() {
     return this.getStringAttribute('alarm_name');
   }
@@ -3903,7 +3903,7 @@ export class ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOve
   }
 
   // severity - computed: true, optional: true, required: false
-  private _severity?: string;
+  private _severity?: string; 
   public get severity() {
     return this.getStringAttribute('severity');
   }
@@ -4019,7 +4019,7 @@ export class ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOve
   }
 
   // prometheus_port - computed: true, optional: true, required: false
-  private _prometheusPort?: string;
+  private _prometheusPort?: string; 
   public get prometheusPort() {
     return this.getStringAttribute('prometheus_port');
   }
@@ -4194,7 +4194,7 @@ export class ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOve
   }
 
   // agree_to_install_hanadb_client - computed: true, optional: true, required: false
-  private _agreeToInstallHanadbClient?: boolean | cdktn.IResolvable;
+  private _agreeToInstallHanadbClient?: boolean | cdktn.IResolvable; 
   public get agreeToInstallHanadbClient() {
     return this.getBooleanAttribute('agree_to_install_hanadb_client');
   }
@@ -4210,7 +4210,7 @@ export class ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOve
   }
 
   // hana_port - computed: true, optional: true, required: false
-  private _hanaPort?: string;
+  private _hanaPort?: string; 
   public get hanaPort() {
     return this.getStringAttribute('hana_port');
   }
@@ -4226,7 +4226,7 @@ export class ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOve
   }
 
   // hana_secret_name - computed: true, optional: true, required: false
-  private _hanaSecretName?: string;
+  private _hanaSecretName?: string; 
   public get hanaSecretName() {
     return this.getStringAttribute('hana_secret_name');
   }
@@ -4242,7 +4242,7 @@ export class ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOve
   }
 
   // hanasid - computed: true, optional: true, required: false
-  private _hanasid?: string;
+  private _hanasid?: string; 
   public get hanasid() {
     return this.getStringAttribute('hanasid');
   }
@@ -4258,7 +4258,7 @@ export class ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOve
   }
 
   // prometheus_port - computed: true, optional: true, required: false
-  private _prometheusPort?: string;
+  private _prometheusPort?: string; 
   public get prometheusPort() {
     return this.getStringAttribute('prometheus_port');
   }
@@ -4392,7 +4392,7 @@ export class ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOve
   }
 
   // host_port - computed: true, optional: true, required: false
-  private _hostPort?: string;
+  private _hostPort?: string; 
   public get hostPort() {
     return this.getStringAttribute('host_port');
   }
@@ -4408,7 +4408,7 @@ export class ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOve
   }
 
   // jmxurl - computed: true, optional: true, required: false
-  private _jmxurl?: string;
+  private _jmxurl?: string; 
   public get jmxurl() {
     return this.getStringAttribute('jmxurl');
   }
@@ -4424,7 +4424,7 @@ export class ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOve
   }
 
   // prometheus_port - computed: true, optional: true, required: false
-  private _prometheusPort?: string;
+  private _prometheusPort?: string; 
   public get prometheusPort() {
     return this.getStringAttribute('prometheus_port');
   }
@@ -4598,7 +4598,7 @@ export class ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOve
   }
 
   // encoding - computed: true, optional: true, required: false
-  private _encoding?: string;
+  private _encoding?: string; 
   public get encoding() {
     return this.getStringAttribute('encoding');
   }
@@ -4614,7 +4614,7 @@ export class ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOve
   }
 
   // log_group_name - computed: true, optional: true, required: false
-  private _logGroupName?: string;
+  private _logGroupName?: string; 
   public get logGroupName() {
     return this.getStringAttribute('log_group_name');
   }
@@ -4630,7 +4630,7 @@ export class ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOve
   }
 
   // log_path - computed: true, optional: true, required: false
-  private _logPath?: string;
+  private _logPath?: string; 
   public get logPath() {
     return this.getStringAttribute('log_path');
   }
@@ -4646,7 +4646,7 @@ export class ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOve
   }
 
   // log_type - computed: true, optional: true, required: false
-  private _logType?: string;
+  private _logType?: string; 
   public get logType() {
     return this.getStringAttribute('log_type');
   }
@@ -4662,7 +4662,7 @@ export class ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOve
   }
 
   // pattern_set - computed: true, optional: true, required: false
-  private _patternSet?: string;
+  private _patternSet?: string; 
   public get patternSet() {
     return this.getStringAttribute('pattern_set');
   }
@@ -4816,7 +4816,7 @@ export class ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOve
   }
 
   // instance_numbers - computed: true, optional: true, required: false
-  private _instanceNumbers?: string[];
+  private _instanceNumbers?: string[]; 
   public get instanceNumbers() {
     return this.getListAttribute('instance_numbers');
   }
@@ -4832,7 +4832,7 @@ export class ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOve
   }
 
   // prometheus_port - computed: true, optional: true, required: false
-  private _prometheusPort?: string;
+  private _prometheusPort?: string; 
   public get prometheusPort() {
     return this.getStringAttribute('prometheus_port');
   }
@@ -4848,7 +4848,7 @@ export class ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOve
   }
 
   // sapsid - computed: true, optional: true, required: false
-  private _sapsid?: string;
+  private _sapsid?: string; 
   public get sapsid() {
     return this.getStringAttribute('sapsid');
   }
@@ -4946,7 +4946,7 @@ export class ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOve
   }
 
   // alarm_metric_name - computed: true, optional: true, required: false
-  private _alarmMetricName?: string;
+  private _alarmMetricName?: string; 
   public get alarmMetricName() {
     return this.getStringAttribute('alarm_metric_name');
   }
@@ -5099,7 +5099,7 @@ export class ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOve
   }
 
   // process_name - computed: true, optional: true, required: false
-  private _processName?: string;
+  private _processName?: string; 
   public get processName() {
     return this.getStringAttribute('process_name');
   }
@@ -5234,7 +5234,7 @@ export class ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOve
   }
 
   // prometheus_port - computed: true, optional: true, required: false
-  private _prometheusPort?: string;
+  private _prometheusPort?: string; 
   public get prometheusPort() {
     return this.getStringAttribute('prometheus_port');
   }
@@ -5250,7 +5250,7 @@ export class ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOve
   }
 
   // sql_secret_name - computed: true, optional: true, required: false
-  private _sqlSecretName?: string;
+  private _sqlSecretName?: string; 
   public get sqlSecretName() {
     return this.getStringAttribute('sql_secret_name');
   }
@@ -5267,7 +5267,7 @@ export class ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOve
 }
 export interface ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationConfigurationDetailsWindowsEvents {
   /**
-  * The levels of event to log.
+  * The levels of event to log. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/applicationinsights_application#event_levels ApplicationinsightsApplication#event_levels}
   */
@@ -5405,7 +5405,7 @@ export class ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOve
   }
 
   // event_levels - computed: true, optional: true, required: false
-  private _eventLevels?: string[];
+  private _eventLevels?: string[]; 
   public get eventLevels() {
     return this.getListAttribute('event_levels');
   }
@@ -5421,7 +5421,7 @@ export class ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOve
   }
 
   // event_name - computed: true, optional: true, required: false
-  private _eventName?: string;
+  private _eventName?: string; 
   public get eventName() {
     return this.getStringAttribute('event_name');
   }
@@ -5437,7 +5437,7 @@ export class ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOve
   }
 
   // log_group_name - computed: true, optional: true, required: false
-  private _logGroupName?: string;
+  private _logGroupName?: string; 
   public get logGroupName() {
     return this.getStringAttribute('log_group_name');
   }
@@ -5453,7 +5453,7 @@ export class ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOve
   }
 
   // pattern_set - computed: true, optional: true, required: false
-  private _patternSet?: string;
+  private _patternSet?: string; 
   public get patternSet() {
     return this.getStringAttribute('pattern_set');
   }
@@ -5982,7 +5982,7 @@ export class ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOve
   }
 
   // alarm_metric_name - computed: true, optional: true, required: false
-  private _alarmMetricName?: string;
+  private _alarmMetricName?: string; 
   public get alarmMetricName() {
     return this.getStringAttribute('alarm_metric_name');
   }
@@ -6176,7 +6176,7 @@ export class ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOve
   }
 
   // encoding - computed: true, optional: true, required: false
-  private _encoding?: string;
+  private _encoding?: string; 
   public get encoding() {
     return this.getStringAttribute('encoding');
   }
@@ -6192,7 +6192,7 @@ export class ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOve
   }
 
   // log_group_name - computed: true, optional: true, required: false
-  private _logGroupName?: string;
+  private _logGroupName?: string; 
   public get logGroupName() {
     return this.getStringAttribute('log_group_name');
   }
@@ -6208,7 +6208,7 @@ export class ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOve
   }
 
   // log_path - computed: true, optional: true, required: false
-  private _logPath?: string;
+  private _logPath?: string; 
   public get logPath() {
     return this.getStringAttribute('log_path');
   }
@@ -6224,7 +6224,7 @@ export class ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOve
   }
 
   // log_type - computed: true, optional: true, required: false
-  private _logType?: string;
+  private _logType?: string; 
   public get logType() {
     return this.getStringAttribute('log_type');
   }
@@ -6240,7 +6240,7 @@ export class ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOve
   }
 
   // pattern_set - computed: true, optional: true, required: false
-  private _patternSet?: string;
+  private _patternSet?: string; 
   public get patternSet() {
     return this.getStringAttribute('pattern_set');
   }
@@ -6358,7 +6358,7 @@ export class ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOve
   }
 
   // alarm_metric_name - computed: true, optional: true, required: false
-  private _alarmMetricName?: string;
+  private _alarmMetricName?: string; 
   public get alarmMetricName() {
     return this.getStringAttribute('alarm_metric_name');
   }
@@ -6511,7 +6511,7 @@ export class ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOve
   }
 
   // process_name - computed: true, optional: true, required: false
-  private _processName?: string;
+  private _processName?: string; 
   public get processName() {
     return this.getStringAttribute('process_name');
   }
@@ -6548,7 +6548,7 @@ export class ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOve
 }
 export interface ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOverwriteComponentConfigurationSubComponentTypeConfigurationsSubComponentConfigurationDetailsWindowsEvents {
   /**
-  * The levels of event to log.
+  * The levels of event to log. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/applicationinsights_application#event_levels ApplicationinsightsApplication#event_levels}
   */
@@ -6686,7 +6686,7 @@ export class ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOve
   }
 
   // event_levels - computed: true, optional: true, required: false
-  private _eventLevels?: string[];
+  private _eventLevels?: string[]; 
   public get eventLevels() {
     return this.getListAttribute('event_levels');
   }
@@ -6702,7 +6702,7 @@ export class ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOve
   }
 
   // event_name - computed: true, optional: true, required: false
-  private _eventName?: string;
+  private _eventName?: string; 
   public get eventName() {
     return this.getStringAttribute('event_name');
   }
@@ -6718,7 +6718,7 @@ export class ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOve
   }
 
   // log_group_name - computed: true, optional: true, required: false
-  private _logGroupName?: string;
+  private _logGroupName?: string; 
   public get logGroupName() {
     return this.getStringAttribute('log_group_name');
   }
@@ -6734,7 +6734,7 @@ export class ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOve
   }
 
   // pattern_set - computed: true, optional: true, required: false
-  private _patternSet?: string;
+  private _patternSet?: string; 
   public get patternSet() {
     return this.getStringAttribute('pattern_set');
   }
@@ -7088,7 +7088,7 @@ export class ApplicationinsightsApplicationComponentMonitoringSettingsDefaultOve
   }
 
   // sub_component_type - computed: true, optional: true, required: false
-  private _subComponentType?: string;
+  private _subComponentType?: string; 
   public get subComponentType() {
     return this.getStringAttribute('sub_component_type');
   }
@@ -7432,7 +7432,7 @@ export class ApplicationinsightsApplicationComponentMonitoringSettingsOutputRefe
   }
 
   // component_arn - computed: true, optional: true, required: false
-  private _componentArn?: string;
+  private _componentArn?: string; 
   public get componentArn() {
     return this.getStringAttribute('component_arn');
   }
@@ -7448,7 +7448,7 @@ export class ApplicationinsightsApplicationComponentMonitoringSettingsOutputRefe
   }
 
   // component_configuration_mode - computed: true, optional: true, required: false
-  private _componentConfigurationMode?: string;
+  private _componentConfigurationMode?: string; 
   public get componentConfigurationMode() {
     return this.getStringAttribute('component_configuration_mode');
   }
@@ -7464,7 +7464,7 @@ export class ApplicationinsightsApplicationComponentMonitoringSettingsOutputRefe
   }
 
   // component_name - computed: true, optional: true, required: false
-  private _componentName?: string;
+  private _componentName?: string; 
   public get componentName() {
     return this.getStringAttribute('component_name');
   }
@@ -7512,7 +7512,7 @@ export class ApplicationinsightsApplicationComponentMonitoringSettingsOutputRefe
   }
 
   // tier - computed: true, optional: true, required: false
-  private _tier?: string;
+  private _tier?: string; 
   public get tier() {
     return this.getStringAttribute('tier');
   }
@@ -7649,7 +7649,7 @@ export class ApplicationinsightsApplicationCustomComponentsOutputReference exten
   }
 
   // component_name - computed: true, optional: true, required: false
-  private _componentName?: string;
+  private _componentName?: string; 
   public get componentName() {
     return this.getStringAttribute('component_name');
   }
@@ -7665,7 +7665,7 @@ export class ApplicationinsightsApplicationCustomComponentsOutputReference exten
   }
 
   // resource_list - computed: true, optional: true, required: false
-  private _resourceList?: string[];
+  private _resourceList?: string[]; 
   public get resourceList() {
     return this.getListAttribute('resource_list');
   }
@@ -7821,7 +7821,7 @@ export class ApplicationinsightsApplicationLogPatternSetsLogPatternsOutputRefere
   }
 
   // pattern - computed: true, optional: true, required: false
-  private _pattern?: string;
+  private _pattern?: string; 
   public get pattern() {
     return this.getStringAttribute('pattern');
   }
@@ -7837,7 +7837,7 @@ export class ApplicationinsightsApplicationLogPatternSetsLogPatternsOutputRefere
   }
 
   // pattern_name - computed: true, optional: true, required: false
-  private _patternName?: string;
+  private _patternName?: string; 
   public get patternName() {
     return this.getStringAttribute('pattern_name');
   }
@@ -7853,7 +7853,7 @@ export class ApplicationinsightsApplicationLogPatternSetsLogPatternsOutputRefere
   }
 
   // rank - computed: true, optional: true, required: false
-  private _rank?: number;
+  private _rank?: number; 
   public get rank() {
     return this.getNumberAttribute('rank');
   }
@@ -8006,7 +8006,7 @@ export class ApplicationinsightsApplicationLogPatternSetsOutputReference extends
   }
 
   // pattern_set_name - computed: true, optional: true, required: false
-  private _patternSetName?: string;
+  private _patternSetName?: string; 
   public get patternSetName() {
     return this.getStringAttribute('pattern_set_name');
   }
@@ -8043,13 +8043,13 @@ export class ApplicationinsightsApplicationLogPatternSetsList extends cdktn.Comp
 }
 export interface ApplicationinsightsApplicationTags {
   /**
-  * The key name of the tag. You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
+  * The key name of the tag. You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/applicationinsights_application#key ApplicationinsightsApplication#key}
   */
   readonly key?: string;
   /**
-  * The value for the tag. You can specify a value that is 1 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
+  * The value for the tag. You can specify a value that is 1 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/applicationinsights_application#value ApplicationinsightsApplication#value}
   */
@@ -8143,7 +8143,7 @@ export class ApplicationinsightsApplicationTagsOutputReference extends cdktn.Com
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -8159,7 +8159,7 @@ export class ApplicationinsightsApplicationTagsOutputReference extends cdktn.Com
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -8269,7 +8269,7 @@ export class ApplicationinsightsApplication extends cdktn.TerraformResource {
   }
 
   // attach_missing_permission - computed: true, optional: true, required: false
-  private _attachMissingPermission?: boolean | cdktn.IResolvable;
+  private _attachMissingPermission?: boolean | cdktn.IResolvable; 
   public get attachMissingPermission() {
     return this.getBooleanAttribute('attach_missing_permission');
   }
@@ -8285,7 +8285,7 @@ export class ApplicationinsightsApplication extends cdktn.TerraformResource {
   }
 
   // auto_configuration_enabled - computed: true, optional: true, required: false
-  private _autoConfigurationEnabled?: boolean | cdktn.IResolvable;
+  private _autoConfigurationEnabled?: boolean | cdktn.IResolvable; 
   public get autoConfigurationEnabled() {
     return this.getBooleanAttribute('auto_configuration_enabled');
   }
@@ -8333,7 +8333,7 @@ export class ApplicationinsightsApplication extends cdktn.TerraformResource {
   }
 
   // cwe_monitor_enabled - computed: true, optional: true, required: false
-  private _cweMonitorEnabled?: boolean | cdktn.IResolvable;
+  private _cweMonitorEnabled?: boolean | cdktn.IResolvable; 
   public get cweMonitorEnabled() {
     return this.getBooleanAttribute('cwe_monitor_enabled');
   }
@@ -8349,7 +8349,7 @@ export class ApplicationinsightsApplication extends cdktn.TerraformResource {
   }
 
   // grouping_type - computed: true, optional: true, required: false
-  private _groupingType?: string;
+  private _groupingType?: string; 
   public get groupingType() {
     return this.getStringAttribute('grouping_type');
   }
@@ -8386,7 +8386,7 @@ export class ApplicationinsightsApplication extends cdktn.TerraformResource {
   }
 
   // ops_center_enabled - computed: true, optional: true, required: false
-  private _opsCenterEnabled?: boolean | cdktn.IResolvable;
+  private _opsCenterEnabled?: boolean | cdktn.IResolvable; 
   public get opsCenterEnabled() {
     return this.getBooleanAttribute('ops_center_enabled');
   }
@@ -8402,7 +8402,7 @@ export class ApplicationinsightsApplication extends cdktn.TerraformResource {
   }
 
   // ops_item_sns_topic_arn - computed: true, optional: true, required: false
-  private _opsItemSnsTopicArn?: string;
+  private _opsItemSnsTopicArn?: string; 
   public get opsItemSnsTopicArn() {
     return this.getStringAttribute('ops_item_sns_topic_arn');
   }
@@ -8418,7 +8418,7 @@ export class ApplicationinsightsApplication extends cdktn.TerraformResource {
   }
 
   // resource_group_name - computed: false, optional: false, required: true
-  private _resourceGroupName?: string;
+  private _resourceGroupName?: string; 
   public get resourceGroupName() {
     return this.getStringAttribute('resource_group_name');
   }
@@ -8431,7 +8431,7 @@ export class ApplicationinsightsApplication extends cdktn.TerraformResource {
   }
 
   // sns_notification_arn - computed: true, optional: true, required: false
-  private _snsNotificationArn?: string;
+  private _snsNotificationArn?: string; 
   public get snsNotificationArn() {
     return this.getStringAttribute('sns_notification_arn');
   }

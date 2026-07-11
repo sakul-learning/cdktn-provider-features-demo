@@ -163,7 +163,7 @@ export class EbsVolumeCopyTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -179,7 +179,7 @@ export class EbsVolumeCopyTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -195,7 +195,7 @@ export class EbsVolumeCopyTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -291,7 +291,7 @@ export class EbsVolumeCopy extends cdktn.TerraformResource {
   }
 
   // iops - computed: true, optional: true, required: false
-  private _iops?: number;
+  private _iops?: number; 
   public get iops() {
     return this.getNumberAttribute('iops');
   }
@@ -307,7 +307,7 @@ export class EbsVolumeCopy extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -323,7 +323,7 @@ export class EbsVolumeCopy extends cdktn.TerraformResource {
   }
 
   // size - computed: true, optional: true, required: false
-  private _size?: number;
+  private _size?: number; 
   public get size() {
     return this.getNumberAttribute('size');
   }
@@ -339,7 +339,7 @@ export class EbsVolumeCopy extends cdktn.TerraformResource {
   }
 
   // source_volume_id - computed: false, optional: false, required: true
-  private _sourceVolumeId?: string;
+  private _sourceVolumeId?: string; 
   public get sourceVolumeId() {
     return this.getStringAttribute('source_volume_id');
   }
@@ -352,7 +352,7 @@ export class EbsVolumeCopy extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -374,7 +374,7 @@ export class EbsVolumeCopy extends cdktn.TerraformResource {
   }
 
   // throughput - computed: true, optional: true, required: false
-  private _throughput?: number;
+  private _throughput?: number; 
   public get throughput() {
     return this.getNumberAttribute('throughput');
   }
@@ -390,7 +390,7 @@ export class EbsVolumeCopy extends cdktn.TerraformResource {
   }
 
   // volume_type - computed: true, optional: true, required: false
-  private _volumeType?: string;
+  private _volumeType?: string; 
   public get volumeType() {
     return this.getStringAttribute('volume_type');
   }

@@ -170,7 +170,7 @@ export class CloudfrontTrustStoreCaCertificatesBundleSourceCaCertificatesBundleS
   }
 
   // bucket - computed: true, optional: true, required: false
-  private _bucket?: string;
+  private _bucket?: string; 
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -186,7 +186,7 @@ export class CloudfrontTrustStoreCaCertificatesBundleSourceCaCertificatesBundleS
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -202,7 +202,7 @@ export class CloudfrontTrustStoreCaCertificatesBundleSourceCaCertificatesBundleS
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -218,7 +218,7 @@ export class CloudfrontTrustStoreCaCertificatesBundleSourceCaCertificatesBundleS
   }
 
   // version - computed: true, optional: true, required: false
-  private _version?: string;
+  private _version?: string; 
   public get version() {
     return this.getStringAttribute('version');
   }
@@ -433,7 +433,7 @@ export class CloudfrontTrustStoreTagsOutputReference extends cdktn.ComplexObject
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -449,7 +449,7 @@ export class CloudfrontTrustStoreTagsOutputReference extends cdktn.ComplexObject
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -582,7 +582,7 @@ export class CloudfrontTrustStore extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -626,7 +626,7 @@ export class CloudfrontTrustStore extends cdktn.TerraformResource {
   }
 
   // use_client_certificate_ocsp_endpoint - computed: true, optional: true, required: false
-  private _useClientCertificateOcspEndpoint?: boolean | cdktn.IResolvable;
+  private _useClientCertificateOcspEndpoint?: boolean | cdktn.IResolvable; 
   public get useClientCertificateOcspEndpoint() {
     return this.getBooleanAttribute('use_client_certificate_ocsp_endpoint');
   }

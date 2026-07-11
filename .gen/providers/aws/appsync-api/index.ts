@@ -147,7 +147,7 @@ export class AppsyncApiEventConfigAuthProviderCognitoConfigOutputReference exten
   }
 
   // app_id_client_regex - computed: false, optional: true, required: false
-  private _appIdClientRegex?: string;
+  private _appIdClientRegex?: string; 
   public get appIdClientRegex() {
     return this.getStringAttribute('app_id_client_regex');
   }
@@ -163,7 +163,7 @@ export class AppsyncApiEventConfigAuthProviderCognitoConfigOutputReference exten
   }
 
   // aws_region - computed: false, optional: false, required: true
-  private _awsRegion?: string;
+  private _awsRegion?: string; 
   public get awsRegion() {
     return this.getStringAttribute('aws_region');
   }
@@ -176,7 +176,7 @@ export class AppsyncApiEventConfigAuthProviderCognitoConfigOutputReference exten
   }
 
   // user_pool_id - computed: false, optional: false, required: true
-  private _userPoolId?: string;
+  private _userPoolId?: string; 
   public get userPoolId() {
     return this.getStringAttribute('user_pool_id');
   }
@@ -323,7 +323,7 @@ export class AppsyncApiEventConfigAuthProviderLambdaAuthorizerConfigOutputRefere
   }
 
   // authorizer_result_ttl_in_seconds - computed: true, optional: true, required: false
-  private _authorizerResultTtlInSeconds?: number;
+  private _authorizerResultTtlInSeconds?: number; 
   public get authorizerResultTtlInSeconds() {
     return this.getNumberAttribute('authorizer_result_ttl_in_seconds');
   }
@@ -339,7 +339,7 @@ export class AppsyncApiEventConfigAuthProviderLambdaAuthorizerConfigOutputRefere
   }
 
   // authorizer_uri - computed: false, optional: false, required: true
-  private _authorizerUri?: string;
+  private _authorizerUri?: string; 
   public get authorizerUri() {
     return this.getStringAttribute('authorizer_uri');
   }
@@ -352,7 +352,7 @@ export class AppsyncApiEventConfigAuthProviderLambdaAuthorizerConfigOutputRefere
   }
 
   // identity_validation_expression - computed: false, optional: true, required: false
-  private _identityValidationExpression?: string;
+  private _identityValidationExpression?: string; 
   public get identityValidationExpression() {
     return this.getStringAttribute('identity_validation_expression');
   }
@@ -519,7 +519,7 @@ export class AppsyncApiEventConfigAuthProviderOpenidConnectConfigOutputReference
   }
 
   // auth_ttl - computed: true, optional: true, required: false
-  private _authTtl?: number;
+  private _authTtl?: number; 
   public get authTtl() {
     return this.getNumberAttribute('auth_ttl');
   }
@@ -535,7 +535,7 @@ export class AppsyncApiEventConfigAuthProviderOpenidConnectConfigOutputReference
   }
 
   // client_id - computed: false, optional: true, required: false
-  private _clientId?: string;
+  private _clientId?: string; 
   public get clientId() {
     return this.getStringAttribute('client_id');
   }
@@ -551,7 +551,7 @@ export class AppsyncApiEventConfigAuthProviderOpenidConnectConfigOutputReference
   }
 
   // iat_ttl - computed: true, optional: true, required: false
-  private _iatTtl?: number;
+  private _iatTtl?: number; 
   public get iatTtl() {
     return this.getNumberAttribute('iat_ttl');
   }
@@ -567,7 +567,7 @@ export class AppsyncApiEventConfigAuthProviderOpenidConnectConfigOutputReference
   }
 
   // issuer - computed: false, optional: false, required: true
-  private _issuer?: string;
+  private _issuer?: string; 
   public get issuer() {
     return this.getStringAttribute('issuer');
   }
@@ -737,7 +737,7 @@ export class AppsyncApiEventConfigAuthProviderOutputReference extends cdktn.Comp
   }
 
   // auth_type - computed: false, optional: false, required: true
-  private _authType?: string;
+  private _authType?: string; 
   public get authType() {
     return this.getStringAttribute('auth_type');
   }
@@ -898,7 +898,7 @@ export class AppsyncApiEventConfigConnectionAuthModeOutputReference extends cdkt
   }
 
   // auth_type - computed: false, optional: false, required: true
-  private _authType?: string;
+  private _authType?: string; 
   public get authType() {
     return this.getStringAttribute('auth_type');
   }
@@ -1011,7 +1011,7 @@ export class AppsyncApiEventConfigDefaultPublishAuthModeOutputReference extends 
   }
 
   // auth_type - computed: false, optional: false, required: true
-  private _authType?: string;
+  private _authType?: string; 
   public get authType() {
     return this.getStringAttribute('auth_type');
   }
@@ -1124,7 +1124,7 @@ export class AppsyncApiEventConfigDefaultSubscribeAuthModeOutputReference extend
   }
 
   // auth_type - computed: false, optional: false, required: true
-  private _authType?: string;
+  private _authType?: string; 
   public get authType() {
     return this.getStringAttribute('auth_type');
   }
@@ -1254,7 +1254,7 @@ export class AppsyncApiEventConfigLogConfigOutputReference extends cdktn.Complex
   }
 
   // cloudwatch_logs_role_arn - computed: false, optional: false, required: true
-  private _cloudwatchLogsRoleArn?: string;
+  private _cloudwatchLogsRoleArn?: string; 
   public get cloudwatchLogsRoleArn() {
     return this.getStringAttribute('cloudwatch_logs_role_arn');
   }
@@ -1267,7 +1267,7 @@ export class AppsyncApiEventConfigLogConfigOutputReference extends cdktn.Complex
   }
 
   // log_level - computed: false, optional: false, required: true
-  private _logLevel?: string;
+  private _logLevel?: string; 
   public get logLevel() {
     return this.getStringAttribute('log_level');
   }
@@ -1636,7 +1636,7 @@ export class AppsyncApi extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1649,7 +1649,7 @@ export class AppsyncApi extends cdktn.TerraformResource {
   }
 
   // owner_contact - computed: false, optional: true, required: false
-  private _ownerContact?: string;
+  private _ownerContact?: string; 
   public get ownerContact() {
     return this.getStringAttribute('owner_contact');
   }
@@ -1665,7 +1665,7 @@ export class AppsyncApi extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1681,7 +1681,7 @@ export class AppsyncApi extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

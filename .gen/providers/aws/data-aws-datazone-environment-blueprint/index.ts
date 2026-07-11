@@ -98,7 +98,7 @@ export class DataAwsDatazoneEnvironmentBlueprint extends cdktn.TerraformDataSour
   }
 
   // domain_id - computed: false, optional: false, required: true
-  private _domainId?: string;
+  private _domainId?: string; 
   public get domainId() {
     return this.getStringAttribute('domain_id');
   }
@@ -116,7 +116,7 @@ export class DataAwsDatazoneEnvironmentBlueprint extends cdktn.TerraformDataSour
   }
 
   // managed - computed: false, optional: false, required: true
-  private _managed?: boolean | cdktn.IResolvable;
+  private _managed?: boolean | cdktn.IResolvable; 
   public get managed() {
     return this.getBooleanAttribute('managed');
   }
@@ -129,7 +129,7 @@ export class DataAwsDatazoneEnvironmentBlueprint extends cdktn.TerraformDataSour
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -142,7 +142,7 @@ export class DataAwsDatazoneEnvironmentBlueprint extends cdktn.TerraformDataSour
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

@@ -141,7 +141,7 @@ export class ShieldApplicationLayerAutomaticResponseTimeoutsOutputReference exte
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -157,7 +157,7 @@ export class ShieldApplicationLayerAutomaticResponseTimeoutsOutputReference exte
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -173,7 +173,7 @@ export class ShieldApplicationLayerAutomaticResponseTimeoutsOutputReference exte
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -249,7 +249,7 @@ export class ShieldApplicationLayerAutomaticResponse extends cdktn.TerraformReso
   // ==========
 
   // action - computed: false, optional: false, required: true
-  private _action?: string;
+  private _action?: string; 
   public get action() {
     return this.getStringAttribute('action');
   }
@@ -267,7 +267,7 @@ export class ShieldApplicationLayerAutomaticResponse extends cdktn.TerraformReso
   }
 
   // resource_arn - computed: false, optional: false, required: true
-  private _resourceArn?: string;
+  private _resourceArn?: string; 
   public get resourceArn() {
     return this.getStringAttribute('resource_arn');
   }

@@ -97,7 +97,7 @@ export class EphemeralAwsSecretsmanagerRandomPassword extends cdktn.TerraformEph
   // ==========
 
   // exclude_characters - computed: false, optional: true, required: false
-  private _excludeCharacters?: string;
+  private _excludeCharacters?: string; 
   public get excludeCharacters() {
     return this.getStringAttribute('exclude_characters');
   }
@@ -113,7 +113,7 @@ export class EphemeralAwsSecretsmanagerRandomPassword extends cdktn.TerraformEph
   }
 
   // exclude_lowercase - computed: false, optional: true, required: false
-  private _excludeLowercase?: boolean | cdktn.IResolvable;
+  private _excludeLowercase?: boolean | cdktn.IResolvable; 
   public get excludeLowercase() {
     return this.getBooleanAttribute('exclude_lowercase');
   }
@@ -129,7 +129,7 @@ export class EphemeralAwsSecretsmanagerRandomPassword extends cdktn.TerraformEph
   }
 
   // exclude_numbers - computed: false, optional: true, required: false
-  private _excludeNumbers?: boolean | cdktn.IResolvable;
+  private _excludeNumbers?: boolean | cdktn.IResolvable; 
   public get excludeNumbers() {
     return this.getBooleanAttribute('exclude_numbers');
   }
@@ -145,7 +145,7 @@ export class EphemeralAwsSecretsmanagerRandomPassword extends cdktn.TerraformEph
   }
 
   // exclude_punctuation - computed: false, optional: true, required: false
-  private _excludePunctuation?: boolean | cdktn.IResolvable;
+  private _excludePunctuation?: boolean | cdktn.IResolvable; 
   public get excludePunctuation() {
     return this.getBooleanAttribute('exclude_punctuation');
   }
@@ -161,7 +161,7 @@ export class EphemeralAwsSecretsmanagerRandomPassword extends cdktn.TerraformEph
   }
 
   // exclude_uppercase - computed: false, optional: true, required: false
-  private _excludeUppercase?: boolean | cdktn.IResolvable;
+  private _excludeUppercase?: boolean | cdktn.IResolvable; 
   public get excludeUppercase() {
     return this.getBooleanAttribute('exclude_uppercase');
   }
@@ -177,7 +177,7 @@ export class EphemeralAwsSecretsmanagerRandomPassword extends cdktn.TerraformEph
   }
 
   // include_space - computed: false, optional: true, required: false
-  private _includeSpace?: boolean | cdktn.IResolvable;
+  private _includeSpace?: boolean | cdktn.IResolvable; 
   public get includeSpace() {
     return this.getBooleanAttribute('include_space');
   }
@@ -193,7 +193,7 @@ export class EphemeralAwsSecretsmanagerRandomPassword extends cdktn.TerraformEph
   }
 
   // password_length - computed: false, optional: true, required: false
-  private _passwordLength?: number;
+  private _passwordLength?: number; 
   public get passwordLength() {
     return this.getNumberAttribute('password_length');
   }
@@ -214,7 +214,7 @@ export class EphemeralAwsSecretsmanagerRandomPassword extends cdktn.TerraformEph
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -230,7 +230,7 @@ export class EphemeralAwsSecretsmanagerRandomPassword extends cdktn.TerraformEph
   }
 
   // require_each_included_type - computed: false, optional: true, required: false
-  private _requireEachIncludedType?: boolean | cdktn.IResolvable;
+  private _requireEachIncludedType?: boolean | cdktn.IResolvable; 
   public get requireEachIncludedType() {
     return this.getBooleanAttribute('require_each_included_type');
   }

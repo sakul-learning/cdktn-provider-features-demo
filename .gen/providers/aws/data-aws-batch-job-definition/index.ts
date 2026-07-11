@@ -3787,7 +3787,7 @@ export class DataAwsBatchJobDefinition extends cdktn.TerraformDataSource {
   // ==========
 
   // arn - computed: false, optional: true, required: false
-  private _arn?: string;
+  private _arn?: string; 
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -3824,7 +3824,7 @@ export class DataAwsBatchJobDefinition extends cdktn.TerraformDataSource {
   }
 
   // name - computed: false, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -3846,7 +3846,7 @@ export class DataAwsBatchJobDefinition extends cdktn.TerraformDataSource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -3868,7 +3868,7 @@ export class DataAwsBatchJobDefinition extends cdktn.TerraformDataSource {
   }
 
   // revision - computed: false, optional: true, required: false
-  private _revision?: number;
+  private _revision?: number; 
   public get revision() {
     return this.getNumberAttribute('revision');
   }
@@ -3889,7 +3889,7 @@ export class DataAwsBatchJobDefinition extends cdktn.TerraformDataSource {
   }
 
   // status - computed: false, optional: true, required: false
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }

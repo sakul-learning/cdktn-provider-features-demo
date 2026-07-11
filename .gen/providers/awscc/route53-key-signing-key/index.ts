@@ -94,7 +94,7 @@ export class Route53KeySigningKey extends cdktn.TerraformResource {
   // ==========
 
   // hosted_zone_id - computed: false, optional: false, required: true
-  private _hostedZoneId?: string;
+  private _hostedZoneId?: string; 
   public get hostedZoneId() {
     return this.getStringAttribute('hosted_zone_id');
   }
@@ -112,7 +112,7 @@ export class Route53KeySigningKey extends cdktn.TerraformResource {
   }
 
   // key_management_service_arn - computed: false, optional: false, required: true
-  private _keyManagementServiceArn?: string;
+  private _keyManagementServiceArn?: string; 
   public get keyManagementServiceArn() {
     return this.getStringAttribute('key_management_service_arn');
   }
@@ -125,7 +125,7 @@ export class Route53KeySigningKey extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -138,7 +138,7 @@ export class Route53KeySigningKey extends cdktn.TerraformResource {
   }
 
   // status - computed: false, optional: false, required: true
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }

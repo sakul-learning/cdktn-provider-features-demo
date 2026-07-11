@@ -117,7 +117,7 @@ export class CloudwatchLogDeliveryDestinationDeliveryDestinationConfigurationOut
   }
 
   // destination_resource_arn - computed: false, optional: true, required: false
-  private _destinationResourceArn?: string;
+  private _destinationResourceArn?: string; 
   public get destinationResourceArn() {
     return this.getStringAttribute('destination_resource_arn');
   }
@@ -221,7 +221,7 @@ export class CloudwatchLogDeliveryDestination extends cdktn.TerraformResource {
   }
 
   // delivery_destination_type - computed: true, optional: true, required: false
-  private _deliveryDestinationType?: string;
+  private _deliveryDestinationType?: string; 
   public get deliveryDestinationType() {
     return this.getStringAttribute('delivery_destination_type');
   }
@@ -237,7 +237,7 @@ export class CloudwatchLogDeliveryDestination extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -250,7 +250,7 @@ export class CloudwatchLogDeliveryDestination extends cdktn.TerraformResource {
   }
 
   // output_format - computed: false, optional: true, required: false
-  private _outputFormat?: string;
+  private _outputFormat?: string; 
   public get outputFormat() {
     return this.getStringAttribute('output_format');
   }
@@ -266,7 +266,7 @@ export class CloudwatchLogDeliveryDestination extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -282,7 +282,7 @@ export class CloudwatchLogDeliveryDestination extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

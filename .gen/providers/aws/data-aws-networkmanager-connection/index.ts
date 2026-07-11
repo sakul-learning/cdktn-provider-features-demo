@@ -104,7 +104,7 @@ export class DataAwsNetworkmanagerConnection extends cdktn.TerraformDataSource {
   }
 
   // connection_id - computed: false, optional: false, required: true
-  private _connectionId?: string;
+  private _connectionId?: string; 
   public get connectionId() {
     return this.getStringAttribute('connection_id');
   }
@@ -127,7 +127,7 @@ export class DataAwsNetworkmanagerConnection extends cdktn.TerraformDataSource {
   }
 
   // global_network_id - computed: false, optional: false, required: true
-  private _globalNetworkId?: string;
+  private _globalNetworkId?: string; 
   public get globalNetworkId() {
     return this.getStringAttribute('global_network_id');
   }
@@ -140,7 +140,7 @@ export class DataAwsNetworkmanagerConnection extends cdktn.TerraformDataSource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -161,7 +161,7 @@ export class DataAwsNetworkmanagerConnection extends cdktn.TerraformDataSource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

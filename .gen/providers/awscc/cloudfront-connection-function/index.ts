@@ -121,7 +121,7 @@ export class CloudfrontConnectionFunctionConnectionFunctionConfigKeyValueStoreAs
   }
 
   // key_value_store_arn - computed: true, optional: true, required: false
-  private _keyValueStoreArn?: string;
+  private _keyValueStoreArn?: string; 
   public get keyValueStoreArn() {
     return this.getStringAttribute('key_value_store_arn');
   }
@@ -275,7 +275,7 @@ export class CloudfrontConnectionFunctionConnectionFunctionConfigOutputReference
   }
 
   // comment - computed: false, optional: false, required: true
-  private _comment?: string;
+  private _comment?: string; 
   public get comment() {
     return this.getStringAttribute('comment');
   }
@@ -304,7 +304,7 @@ export class CloudfrontConnectionFunctionConnectionFunctionConfigOutputReference
   }
 
   // runtime - computed: false, optional: false, required: true
-  private _runtime?: string;
+  private _runtime?: string; 
   public get runtime() {
     return this.getStringAttribute('runtime');
   }
@@ -420,7 +420,7 @@ export class CloudfrontConnectionFunctionTagsOutputReference extends cdktn.Compl
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -436,7 +436,7 @@ export class CloudfrontConnectionFunctionTagsOutputReference extends cdktn.Compl
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -534,7 +534,7 @@ export class CloudfrontConnectionFunction extends cdktn.TerraformResource {
   // ==========
 
   // auto_publish - computed: true, optional: true, required: false
-  private _autoPublish?: boolean | cdktn.IResolvable;
+  private _autoPublish?: boolean | cdktn.IResolvable; 
   public get autoPublish() {
     return this.getBooleanAttribute('auto_publish');
   }
@@ -555,7 +555,7 @@ export class CloudfrontConnectionFunction extends cdktn.TerraformResource {
   }
 
   // connection_function_code - computed: false, optional: false, required: true
-  private _connectionFunctionCode?: string;
+  private _connectionFunctionCode?: string; 
   public get connectionFunctionCode() {
     return this.getStringAttribute('connection_function_code');
   }
@@ -606,7 +606,7 @@ export class CloudfrontConnectionFunction extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }

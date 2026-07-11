@@ -128,7 +128,7 @@ export class MacieAllowListCriteriaS3WordsListStructOutputReference extends cdkt
   }
 
   // bucket_name - computed: true, optional: true, required: false
-  private _bucketName?: string;
+  private _bucketName?: string; 
   public get bucketName() {
     return this.getStringAttribute('bucket_name');
   }
@@ -144,7 +144,7 @@ export class MacieAllowListCriteriaS3WordsListStructOutputReference extends cdkt
   }
 
   // object_key - computed: true, optional: true, required: false
-  private _objectKey?: string;
+  private _objectKey?: string; 
   public get objectKey() {
     return this.getStringAttribute('object_key');
   }
@@ -259,7 +259,7 @@ export class MacieAllowListCriteriaOutputReference extends cdktn.ComplexObject {
   }
 
   // regex - computed: true, optional: true, required: false
-  private _regex?: string;
+  private _regex?: string; 
   public get regex() {
     return this.getStringAttribute('regex');
   }
@@ -392,7 +392,7 @@ export class MacieAllowListTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -408,7 +408,7 @@ export class MacieAllowListTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -528,7 +528,7 @@ export class MacieAllowList extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -549,7 +549,7 @@ export class MacieAllowList extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }

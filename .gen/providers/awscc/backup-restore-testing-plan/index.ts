@@ -179,7 +179,7 @@ export class BackupRestoreTestingPlanRecoveryPointSelectionOutputReference exten
   }
 
   // algorithm - computed: false, optional: false, required: true
-  private _algorithm?: string;
+  private _algorithm?: string; 
   public get algorithm() {
     return this.getStringAttribute('algorithm');
   }
@@ -192,7 +192,7 @@ export class BackupRestoreTestingPlanRecoveryPointSelectionOutputReference exten
   }
 
   // exclude_vaults - computed: true, optional: true, required: false
-  private _excludeVaults?: string[];
+  private _excludeVaults?: string[]; 
   public get excludeVaults() {
     return this.getListAttribute('exclude_vaults');
   }
@@ -208,7 +208,7 @@ export class BackupRestoreTestingPlanRecoveryPointSelectionOutputReference exten
   }
 
   // include_vaults - computed: false, optional: false, required: true
-  private _includeVaults?: string[];
+  private _includeVaults?: string[]; 
   public get includeVaults() {
     return this.getListAttribute('include_vaults');
   }
@@ -221,7 +221,7 @@ export class BackupRestoreTestingPlanRecoveryPointSelectionOutputReference exten
   }
 
   // recovery_point_types - computed: false, optional: false, required: true
-  private _recoveryPointTypes?: string[];
+  private _recoveryPointTypes?: string[]; 
   public get recoveryPointTypes() {
     return this.getListAttribute('recovery_point_types');
   }
@@ -234,7 +234,7 @@ export class BackupRestoreTestingPlanRecoveryPointSelectionOutputReference exten
   }
 
   // selection_window_days - computed: true, optional: true, required: false
-  private _selectionWindowDays?: number;
+  private _selectionWindowDays?: number; 
   public get selectionWindowDays() {
     return this.getNumberAttribute('selection_window_days');
   }
@@ -351,7 +351,7 @@ export class BackupRestoreTestingPlanTagsOutputReference extends cdktn.ComplexOb
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -367,7 +367,7 @@ export class BackupRestoreTestingPlanTagsOutputReference extends cdktn.ComplexOb
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -489,7 +489,7 @@ export class BackupRestoreTestingPlan extends cdktn.TerraformResource {
   }
 
   // restore_testing_plan_name - computed: false, optional: false, required: true
-  private _restoreTestingPlanName?: string;
+  private _restoreTestingPlanName?: string; 
   public get restoreTestingPlanName() {
     return this.getStringAttribute('restore_testing_plan_name');
   }
@@ -502,7 +502,7 @@ export class BackupRestoreTestingPlan extends cdktn.TerraformResource {
   }
 
   // schedule_expression - computed: false, optional: false, required: true
-  private _scheduleExpression?: string;
+  private _scheduleExpression?: string; 
   public get scheduleExpression() {
     return this.getStringAttribute('schedule_expression');
   }
@@ -515,7 +515,7 @@ export class BackupRestoreTestingPlan extends cdktn.TerraformResource {
   }
 
   // schedule_expression_timezone - computed: true, optional: true, required: false
-  private _scheduleExpressionTimezone?: string;
+  private _scheduleExpressionTimezone?: string; 
   public get scheduleExpressionTimezone() {
     return this.getStringAttribute('schedule_expression_timezone');
   }
@@ -531,7 +531,7 @@ export class BackupRestoreTestingPlan extends cdktn.TerraformResource {
   }
 
   // start_window_hours - computed: true, optional: true, required: false
-  private _startWindowHours?: number;
+  private _startWindowHours?: number; 
   public get startWindowHours() {
     return this.getNumberAttribute('start_window_hours');
   }

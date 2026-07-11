@@ -152,7 +152,7 @@ export class S3FilesFileSystemTimeoutsOutputReference extends cdktn.ComplexObjec
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -168,7 +168,7 @@ export class S3FilesFileSystemTimeoutsOutputReference extends cdktn.ComplexObjec
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -249,7 +249,7 @@ export class S3FilesFileSystem extends cdktn.TerraformResource {
   // ==========
 
   // accept_bucket_warning - computed: false, optional: true, required: false
-  private _acceptBucketWarning?: boolean | cdktn.IResolvable;
+  private _acceptBucketWarning?: boolean | cdktn.IResolvable; 
   public get acceptBucketWarning() {
     return this.getBooleanAttribute('accept_bucket_warning');
   }
@@ -270,7 +270,7 @@ export class S3FilesFileSystem extends cdktn.TerraformResource {
   }
 
   // bucket - computed: false, optional: false, required: true
-  private _bucket?: string;
+  private _bucket?: string; 
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -293,7 +293,7 @@ export class S3FilesFileSystem extends cdktn.TerraformResource {
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -319,7 +319,7 @@ export class S3FilesFileSystem extends cdktn.TerraformResource {
   }
 
   // prefix - computed: false, optional: true, required: false
-  private _prefix?: string;
+  private _prefix?: string; 
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -335,7 +335,7 @@ export class S3FilesFileSystem extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -351,7 +351,7 @@ export class S3FilesFileSystem extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -374,7 +374,7 @@ export class S3FilesFileSystem extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

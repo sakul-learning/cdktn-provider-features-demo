@@ -409,7 +409,7 @@ export class DataAwsSsmcontactsPlan extends cdktn.TerraformDataSource {
   // ==========
 
   // contact_id - computed: false, optional: false, required: true
-  private _contactId?: string;
+  private _contactId?: string; 
   public get contactId() {
     return this.getStringAttribute('contact_id');
   }
@@ -422,7 +422,7 @@ export class DataAwsSsmcontactsPlan extends cdktn.TerraformDataSource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -438,7 +438,7 @@ export class DataAwsSsmcontactsPlan extends cdktn.TerraformDataSource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

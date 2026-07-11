@@ -122,7 +122,7 @@ export class SecretsmanagerSecretVersion extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -138,7 +138,7 @@ export class SecretsmanagerSecretVersion extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -159,7 +159,7 @@ export class SecretsmanagerSecretVersion extends cdktn.TerraformResource {
   }
 
   // secret_binary - computed: false, optional: true, required: false
-  private _secretBinary?: string;
+  private _secretBinary?: string; 
   public get secretBinary() {
     return this.getStringAttribute('secret_binary');
   }
@@ -175,7 +175,7 @@ export class SecretsmanagerSecretVersion extends cdktn.TerraformResource {
   }
 
   // secret_id - computed: false, optional: false, required: true
-  private _secretId?: string;
+  private _secretId?: string; 
   public get secretId() {
     return this.getStringAttribute('secret_id');
   }
@@ -188,7 +188,7 @@ export class SecretsmanagerSecretVersion extends cdktn.TerraformResource {
   }
 
   // secret_string - computed: false, optional: true, required: false
-  private _secretString?: string;
+  private _secretString?: string; 
   public get secretString() {
     return this.getStringAttribute('secret_string');
   }
@@ -204,7 +204,7 @@ export class SecretsmanagerSecretVersion extends cdktn.TerraformResource {
   }
 
   // secret_string_wo - computed: false, optional: true, required: false
-  private _secretStringWo?: string;
+  private _secretStringWo?: string; 
   /**
   * @deprecated Write-only: the provider never returns this value; reading it always yields null by protocol contract. The getter remains for compatibility and will be removed in a future prebuilt-provider major.
   */
@@ -224,7 +224,7 @@ export class SecretsmanagerSecretVersion extends cdktn.TerraformResource {
   }
 
   // secret_string_wo_version - computed: false, optional: true, required: false
-  private _secretStringWoVersion?: number;
+  private _secretStringWoVersion?: number; 
   public get secretStringWoVersion() {
     return this.getNumberAttribute('secret_string_wo_version');
   }
@@ -245,7 +245,7 @@ export class SecretsmanagerSecretVersion extends cdktn.TerraformResource {
   }
 
   // version_stages - computed: true, optional: true, required: false
-  private _versionStages?: string[];
+  private _versionStages?: string[]; 
   public get versionStages() {
     return cdktn.Fn.tolist(this.getListAttribute('version_stages'));
   }

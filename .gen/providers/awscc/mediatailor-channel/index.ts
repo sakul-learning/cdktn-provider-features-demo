@@ -156,7 +156,7 @@ export class MediatailorChannelFillerSlateOutputReference extends cdktn.ComplexO
   }
 
   // source_location_name - computed: true, optional: true, required: false
-  private _sourceLocationName?: string;
+  private _sourceLocationName?: string; 
   public get sourceLocationName() {
     return this.getStringAttribute('source_location_name');
   }
@@ -172,7 +172,7 @@ export class MediatailorChannelFillerSlateOutputReference extends cdktn.ComplexO
   }
 
   // vod_source_name - computed: true, optional: true, required: false
-  private _vodSourceName?: string;
+  private _vodSourceName?: string; 
   public get vodSourceName() {
     return this.getStringAttribute('vod_source_name');
   }
@@ -268,7 +268,7 @@ export class MediatailorChannelLogConfigurationOutputReference extends cdktn.Com
   }
 
   // log_types - computed: true, optional: true, required: false
-  private _logTypes?: string[];
+  private _logTypes?: string[]; 
   public get logTypes() {
     return this.getListAttribute('log_types');
   }
@@ -421,7 +421,7 @@ export class MediatailorChannelOutputsDashPlaylistSettingsOutputReference extend
   }
 
   // manifest_window_seconds - computed: true, optional: true, required: false
-  private _manifestWindowSeconds?: number;
+  private _manifestWindowSeconds?: number; 
   public get manifestWindowSeconds() {
     return this.getNumberAttribute('manifest_window_seconds');
   }
@@ -437,7 +437,7 @@ export class MediatailorChannelOutputsDashPlaylistSettingsOutputReference extend
   }
 
   // min_buffer_time_seconds - computed: true, optional: true, required: false
-  private _minBufferTimeSeconds?: number;
+  private _minBufferTimeSeconds?: number; 
   public get minBufferTimeSeconds() {
     return this.getNumberAttribute('min_buffer_time_seconds');
   }
@@ -453,7 +453,7 @@ export class MediatailorChannelOutputsDashPlaylistSettingsOutputReference extend
   }
 
   // min_update_period_seconds - computed: true, optional: true, required: false
-  private _minUpdatePeriodSeconds?: number;
+  private _minUpdatePeriodSeconds?: number; 
   public get minUpdatePeriodSeconds() {
     return this.getNumberAttribute('min_update_period_seconds');
   }
@@ -469,7 +469,7 @@ export class MediatailorChannelOutputsDashPlaylistSettingsOutputReference extend
   }
 
   // suggested_presentation_delay_seconds - computed: true, optional: true, required: false
-  private _suggestedPresentationDelaySeconds?: number;
+  private _suggestedPresentationDelaySeconds?: number; 
   public get suggestedPresentationDelaySeconds() {
     return this.getNumberAttribute('suggested_presentation_delay_seconds');
   }
@@ -584,7 +584,7 @@ export class MediatailorChannelOutputsHlsPlaylistSettingsOutputReference extends
   }
 
   // ad_markup_type - computed: true, optional: true, required: false
-  private _adMarkupType?: string[];
+  private _adMarkupType?: string[]; 
   public get adMarkupType() {
     return this.getListAttribute('ad_markup_type');
   }
@@ -600,7 +600,7 @@ export class MediatailorChannelOutputsHlsPlaylistSettingsOutputReference extends
   }
 
   // manifest_window_seconds - computed: true, optional: true, required: false
-  private _manifestWindowSeconds?: number;
+  private _manifestWindowSeconds?: number; 
   public get manifestWindowSeconds() {
     return this.getNumberAttribute('manifest_window_seconds');
   }
@@ -787,7 +787,7 @@ export class MediatailorChannelOutputsOutputReference extends cdktn.ComplexObjec
   }
 
   // manifest_name - computed: false, optional: false, required: true
-  private _manifestName?: string;
+  private _manifestName?: string; 
   public get manifestName() {
     return this.getStringAttribute('manifest_name');
   }
@@ -800,7 +800,7 @@ export class MediatailorChannelOutputsOutputReference extends cdktn.ComplexObjec
   }
 
   // source_group - computed: false, optional: false, required: true
-  private _sourceGroup?: string;
+  private _sourceGroup?: string; 
   public get sourceGroup() {
     return this.getStringAttribute('source_group');
   }
@@ -930,7 +930,7 @@ export class MediatailorChannelTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -946,7 +946,7 @@ export class MediatailorChannelTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1062,7 +1062,7 @@ export class MediatailorChannelTimeShiftConfigurationOutputReference extends cdk
   }
 
   // max_time_delay_seconds - computed: true, optional: true, required: false
-  private _maxTimeDelaySeconds?: number;
+  private _maxTimeDelaySeconds?: number; 
   public get maxTimeDelaySeconds() {
     return this.getNumberAttribute('max_time_delay_seconds');
   }
@@ -1149,7 +1149,7 @@ export class MediatailorChannel extends cdktn.TerraformResource {
   }
 
   // audiences - computed: true, optional: true, required: false
-  private _audiences?: string[];
+  private _audiences?: string[]; 
   public get audiences() {
     return this.getListAttribute('audiences');
   }
@@ -1165,7 +1165,7 @@ export class MediatailorChannel extends cdktn.TerraformResource {
   }
 
   // channel_name - computed: false, optional: false, required: true
-  private _channelName?: string;
+  private _channelName?: string; 
   public get channelName() {
     return this.getStringAttribute('channel_name');
   }
@@ -1228,7 +1228,7 @@ export class MediatailorChannel extends cdktn.TerraformResource {
   }
 
   // playback_mode - computed: false, optional: false, required: true
-  private _playbackMode?: string;
+  private _playbackMode?: string; 
   public get playbackMode() {
     return this.getStringAttribute('playback_mode');
   }
@@ -1257,7 +1257,7 @@ export class MediatailorChannel extends cdktn.TerraformResource {
   }
 
   // tier - computed: true, optional: true, required: false
-  private _tier?: string;
+  private _tier?: string; 
   public get tier() {
     return this.getStringAttribute('tier');
   }

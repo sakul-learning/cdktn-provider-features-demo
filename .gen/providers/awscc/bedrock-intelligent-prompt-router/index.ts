@@ -125,7 +125,7 @@ export class BedrockIntelligentPromptRouterFallbackModelOutputReference extends 
   }
 
   // model_arn - computed: false, optional: false, required: true
-  private _modelArn?: string;
+  private _modelArn?: string; 
   public get modelArn() {
     return this.getStringAttribute('model_arn');
   }
@@ -220,7 +220,7 @@ export class BedrockIntelligentPromptRouterModelsOutputReference extends cdktn.C
   }
 
   // model_arn - computed: false, optional: false, required: true
-  private _modelArn?: string;
+  private _modelArn?: string; 
   public get modelArn() {
     return this.getStringAttribute('model_arn');
   }
@@ -331,7 +331,7 @@ export class BedrockIntelligentPromptRouterRoutingCriteriaOutputReference extend
   }
 
   // response_quality_difference - computed: false, optional: false, required: true
-  private _responseQualityDifference?: number;
+  private _responseQualityDifference?: number; 
   public get responseQualityDifference() {
     return this.getNumberAttribute('response_quality_difference');
   }
@@ -445,7 +445,7 @@ export class BedrockIntelligentPromptRouterTagsOutputReference extends cdktn.Com
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -461,7 +461,7 @@ export class BedrockIntelligentPromptRouterTagsOutputReference extends cdktn.Com
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -565,7 +565,7 @@ export class BedrockIntelligentPromptRouter extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -617,7 +617,7 @@ export class BedrockIntelligentPromptRouter extends cdktn.TerraformResource {
   }
 
   // prompt_router_name - computed: false, optional: false, required: true
-  private _promptRouterName?: string;
+  private _promptRouterName?: string; 
   public get promptRouterName() {
     return this.getStringAttribute('prompt_router_name');
   }

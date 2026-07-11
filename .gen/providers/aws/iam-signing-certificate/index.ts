@@ -89,7 +89,7 @@ export class IamSigningCertificate extends cdktn.TerraformResource {
   // ==========
 
   // certificate_body - computed: false, optional: false, required: true
-  private _certificateBody?: string;
+  private _certificateBody?: string; 
   public get certificateBody() {
     return this.getStringAttribute('certificate_body');
   }
@@ -107,7 +107,7 @@ export class IamSigningCertificate extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -123,7 +123,7 @@ export class IamSigningCertificate extends cdktn.TerraformResource {
   }
 
   // status - computed: false, optional: true, required: false
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -139,7 +139,7 @@ export class IamSigningCertificate extends cdktn.TerraformResource {
   }
 
   // user_name - computed: false, optional: false, required: true
-  private _userName?: string;
+  private _userName?: string; 
   public get userName() {
     return this.getStringAttribute('user_name');
   }

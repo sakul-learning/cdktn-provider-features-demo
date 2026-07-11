@@ -303,7 +303,7 @@ export class CloudtrailTrailAdvancedEventSelectorsFieldSelectorsOutputReference 
   }
 
   // ends_with - computed: true, optional: true, required: false
-  private _endsWith?: string[];
+  private _endsWith?: string[]; 
   public get endsWith() {
     return cdktn.Fn.tolist(this.getListAttribute('ends_with'));
   }
@@ -319,7 +319,7 @@ export class CloudtrailTrailAdvancedEventSelectorsFieldSelectorsOutputReference 
   }
 
   // equals - computed: true, optional: true, required: false
-  private _equals?: string[];
+  private _equals?: string[]; 
   public get equalTo() {
     return cdktn.Fn.tolist(this.getListAttribute('equals'));
   }
@@ -335,7 +335,7 @@ export class CloudtrailTrailAdvancedEventSelectorsFieldSelectorsOutputReference 
   }
 
   // field - computed: true, optional: true, required: false
-  private _field?: string;
+  private _field?: string; 
   public get field() {
     return this.getStringAttribute('field');
   }
@@ -351,7 +351,7 @@ export class CloudtrailTrailAdvancedEventSelectorsFieldSelectorsOutputReference 
   }
 
   // not_ends_with - computed: true, optional: true, required: false
-  private _notEndsWith?: string[];
+  private _notEndsWith?: string[]; 
   public get notEndsWith() {
     return cdktn.Fn.tolist(this.getListAttribute('not_ends_with'));
   }
@@ -367,7 +367,7 @@ export class CloudtrailTrailAdvancedEventSelectorsFieldSelectorsOutputReference 
   }
 
   // not_equals - computed: true, optional: true, required: false
-  private _notEquals?: string[];
+  private _notEquals?: string[]; 
   public get notEquals() {
     return cdktn.Fn.tolist(this.getListAttribute('not_equals'));
   }
@@ -383,7 +383,7 @@ export class CloudtrailTrailAdvancedEventSelectorsFieldSelectorsOutputReference 
   }
 
   // not_starts_with - computed: true, optional: true, required: false
-  private _notStartsWith?: string[];
+  private _notStartsWith?: string[]; 
   public get notStartsWith() {
     return cdktn.Fn.tolist(this.getListAttribute('not_starts_with'));
   }
@@ -399,7 +399,7 @@ export class CloudtrailTrailAdvancedEventSelectorsFieldSelectorsOutputReference 
   }
 
   // starts_with - computed: true, optional: true, required: false
-  private _startsWith?: string[];
+  private _startsWith?: string[]; 
   public get startsWith() {
     return cdktn.Fn.tolist(this.getListAttribute('starts_with'));
   }
@@ -552,7 +552,7 @@ export class CloudtrailTrailAdvancedEventSelectorsOutputReference extends cdktn.
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -689,7 +689,7 @@ export class CloudtrailTrailAggregationConfigurationsOutputReference extends cdk
   }
 
   // event_category - computed: true, optional: true, required: false
-  private _eventCategory?: string;
+  private _eventCategory?: string; 
   public get eventCategory() {
     return this.getStringAttribute('event_category');
   }
@@ -705,7 +705,7 @@ export class CloudtrailTrailAggregationConfigurationsOutputReference extends cdk
   }
 
   // templates - computed: true, optional: true, required: false
-  private _templates?: string[];
+  private _templates?: string[]; 
   public get templates() {
     return cdktn.Fn.tolist(this.getListAttribute('templates'));
   }
@@ -842,7 +842,7 @@ export class CloudtrailTrailEventSelectorsDataResourcesOutputReference extends c
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -858,7 +858,7 @@ export class CloudtrailTrailEventSelectorsDataResourcesOutputReference extends c
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -1047,7 +1047,7 @@ export class CloudtrailTrailEventSelectorsOutputReference extends cdktn.ComplexO
   }
 
   // exclude_management_event_sources - computed: true, optional: true, required: false
-  private _excludeManagementEventSources?: string[];
+  private _excludeManagementEventSources?: string[]; 
   public get excludeManagementEventSources() {
     return cdktn.Fn.tolist(this.getListAttribute('exclude_management_event_sources'));
   }
@@ -1063,7 +1063,7 @@ export class CloudtrailTrailEventSelectorsOutputReference extends cdktn.ComplexO
   }
 
   // include_management_events - computed: true, optional: true, required: false
-  private _includeManagementEvents?: boolean | cdktn.IResolvable;
+  private _includeManagementEvents?: boolean | cdktn.IResolvable; 
   public get includeManagementEvents() {
     return this.getBooleanAttribute('include_management_events');
   }
@@ -1079,7 +1079,7 @@ export class CloudtrailTrailEventSelectorsOutputReference extends cdktn.ComplexO
   }
 
   // read_write_type - computed: true, optional: true, required: false
-  private _readWriteType?: string;
+  private _readWriteType?: string; 
   public get readWriteType() {
     return this.getStringAttribute('read_write_type');
   }
@@ -1216,7 +1216,7 @@ export class CloudtrailTrailInsightSelectorsOutputReference extends cdktn.Comple
   }
 
   // event_categories - computed: true, optional: true, required: false
-  private _eventCategories?: string[];
+  private _eventCategories?: string[]; 
   public get eventCategories() {
     return cdktn.Fn.tolist(this.getListAttribute('event_categories'));
   }
@@ -1232,7 +1232,7 @@ export class CloudtrailTrailInsightSelectorsOutputReference extends cdktn.Comple
   }
 
   // insight_type - computed: true, optional: true, required: false
-  private _insightType?: string;
+  private _insightType?: string; 
   public get insightType() {
     return this.getStringAttribute('insight_type');
   }
@@ -1369,7 +1369,7 @@ export class CloudtrailTrailTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1385,7 +1385,7 @@ export class CloudtrailTrailTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1532,7 +1532,7 @@ export class CloudtrailTrail extends cdktn.TerraformResource {
   }
 
   // cloudwatch_logs_log_group_arn - computed: true, optional: true, required: false
-  private _cloudwatchLogsLogGroupArn?: string;
+  private _cloudwatchLogsLogGroupArn?: string; 
   public get cloudwatchLogsLogGroupArn() {
     return this.getStringAttribute('cloudwatch_logs_log_group_arn');
   }
@@ -1548,7 +1548,7 @@ export class CloudtrailTrail extends cdktn.TerraformResource {
   }
 
   // cloudwatch_logs_role_arn - computed: true, optional: true, required: false
-  private _cloudwatchLogsRoleArn?: string;
+  private _cloudwatchLogsRoleArn?: string; 
   public get cloudwatchLogsRoleArn() {
     return this.getStringAttribute('cloudwatch_logs_role_arn');
   }
@@ -1564,7 +1564,7 @@ export class CloudtrailTrail extends cdktn.TerraformResource {
   }
 
   // enable_log_file_validation - computed: true, optional: true, required: false
-  private _enableLogFileValidation?: boolean | cdktn.IResolvable;
+  private _enableLogFileValidation?: boolean | cdktn.IResolvable; 
   public get enableLogFileValidation() {
     return this.getBooleanAttribute('enable_log_file_validation');
   }
@@ -1601,7 +1601,7 @@ export class CloudtrailTrail extends cdktn.TerraformResource {
   }
 
   // include_global_service_events - computed: true, optional: true, required: false
-  private _includeGlobalServiceEvents?: boolean | cdktn.IResolvable;
+  private _includeGlobalServiceEvents?: boolean | cdktn.IResolvable; 
   public get includeGlobalServiceEvents() {
     return this.getBooleanAttribute('include_global_service_events');
   }
@@ -1633,7 +1633,7 @@ export class CloudtrailTrail extends cdktn.TerraformResource {
   }
 
   // is_logging - computed: false, optional: false, required: true
-  private _isLogging?: boolean | cdktn.IResolvable;
+  private _isLogging?: boolean | cdktn.IResolvable; 
   public get isLogging() {
     return this.getBooleanAttribute('is_logging');
   }
@@ -1646,7 +1646,7 @@ export class CloudtrailTrail extends cdktn.TerraformResource {
   }
 
   // is_multi_region_trail - computed: true, optional: true, required: false
-  private _isMultiRegionTrail?: boolean | cdktn.IResolvable;
+  private _isMultiRegionTrail?: boolean | cdktn.IResolvable; 
   public get isMultiRegionTrail() {
     return this.getBooleanAttribute('is_multi_region_trail');
   }
@@ -1662,7 +1662,7 @@ export class CloudtrailTrail extends cdktn.TerraformResource {
   }
 
   // is_organization_trail - computed: true, optional: true, required: false
-  private _isOrganizationTrail?: boolean | cdktn.IResolvable;
+  private _isOrganizationTrail?: boolean | cdktn.IResolvable; 
   public get isOrganizationTrail() {
     return this.getBooleanAttribute('is_organization_trail');
   }
@@ -1678,7 +1678,7 @@ export class CloudtrailTrail extends cdktn.TerraformResource {
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -1694,7 +1694,7 @@ export class CloudtrailTrail extends cdktn.TerraformResource {
   }
 
   // s3_bucket_name - computed: false, optional: false, required: true
-  private _s3BucketName?: string;
+  private _s3BucketName?: string; 
   public get s3BucketName() {
     return this.getStringAttribute('s3_bucket_name');
   }
@@ -1707,7 +1707,7 @@ export class CloudtrailTrail extends cdktn.TerraformResource {
   }
 
   // s3_key_prefix - computed: true, optional: true, required: false
-  private _s3KeyPrefix?: string;
+  private _s3KeyPrefix?: string; 
   public get s3KeyPrefix() {
     return this.getStringAttribute('s3_key_prefix');
   }
@@ -1728,7 +1728,7 @@ export class CloudtrailTrail extends cdktn.TerraformResource {
   }
 
   // sns_topic_name - computed: true, optional: true, required: false
-  private _snsTopicName?: string;
+  private _snsTopicName?: string; 
   public get snsTopicName() {
     return this.getStringAttribute('sns_topic_name');
   }
@@ -1760,7 +1760,7 @@ export class CloudtrailTrail extends cdktn.TerraformResource {
   }
 
   // trail_name - computed: true, optional: true, required: false
-  private _trailName?: string;
+  private _trailName?: string; 
   public get trailName() {
     return this.getStringAttribute('trail_name');
   }

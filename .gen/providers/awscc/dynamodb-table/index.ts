@@ -18,9 +18,9 @@ export interface DynamodbTableConfig extends cdktn.TerraformMetaArguments {
   /**
   * Specify how you are charged for read and write throughput and how you manage capacity.
   *  Valid values include:
-  *   +  ``PAY_PER_REQUEST`` - We recommend using ``PAY_PER_REQUEST`` for most DynamoDB workloads. ``PAY_PER_REQUEST`` sets the billing mode to [On-demand capacity mode](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/on-demand-capacity-mode.html).
+  *   +  ``PAY_PER_REQUEST`` - We recommend using ``PAY_PER_REQUEST`` for most DynamoDB workloads. ``PAY_PER_REQUEST`` sets the billing mode to [On-demand capacity mode](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/on-demand-capacity-mode.html). 
   *   +  ``PROVISIONED`` - We recommend using ``PROVISIONED`` for steady workloads with predictable growth where capacity requirements can be reliably forecasted. ``PROVISIONED`` sets the billing mode to [Provisioned capacity mode](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/provisioned-capacity-mode.html).
-  *
+  *   
   *  If not specified, the default is ``PROVISIONED``.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_table#billing_mode DynamodbTable#billing_mode}
@@ -41,7 +41,7 @@ export interface DynamodbTableConfig extends cdktn.TerraformMetaArguments {
   /**
   * Global secondary indexes to be created on the table. You can create up to 20 global secondary indexes.
   *   If you update a table to include a new global secondary index, CFNlong initiates the index creation and then proceeds with the stack update. CFNlong doesn't wait for the index to complete creation because the backfilling phase can take a long time, depending on the size of the table. You can't use the index or update the table until the index's status is ``ACTIVE``. You can track its status by using the DynamoDB [DescribeTable](https://docs.aws.amazon.com/cli/latest/reference/dynamodb/describe-table.html) command.
-  *  If you add or delete an index during an update, we recommend that you don't update any other resources. If your stack fails to update and is rolled back while adding a new index, you must manually delete the index.
+  *  If you add or delete an index during an update, we recommend that you don't update any other resources. If your stack fails to update and is rolled back while adding a new index, you must manually delete the index. 
   *  Updates are not supported. The following are exceptions:
   *   +  If you update either the contributor insights specification or the provisioned throughput values of global secondary indexes, you can update the table without interruption.
   *   +  You can delete or add one global secondary index without interruption. If you do both in the same update (for example, by changing the index's logical ID), the update fails.
@@ -87,7 +87,7 @@ export interface DynamodbTableConfig extends cdktn.TerraformMetaArguments {
   */
   readonly pointInTimeRecoverySpecification?: DynamodbTablePointInTimeRecoverySpecification;
   /**
-  * Throughput for the specified table, which consists of values for ``ReadCapacityUnits`` and ``WriteCapacityUnits``. For more information about the contents of a provisioned throughput structure, see [Amazon DynamoDB Table ProvisionedThroughput](https://docs.aws.amazon.com/amazondynamodb/latest/APIReference/API_ProvisionedThroughput.html).
+  * Throughput for the specified table, which consists of values for ``ReadCapacityUnits`` and ``WriteCapacityUnits``. For more information about the contents of a provisioned throughput structure, see [Amazon DynamoDB Table ProvisionedThroughput](https://docs.aws.amazon.com/amazondynamodb/latest/APIReference/API_ProvisionedThroughput.html). 
   *  If you set ``BillingMode`` as ``PROVISIONED``, you must specify this property. If you set ``BillingMode`` as ``PAY_PER_REQUEST``, you cannot specify this property.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_table#provisioned_throughput DynamodbTable#provisioned_throughput}
@@ -253,7 +253,7 @@ export class DynamodbTableAttributeDefinitionsOutputReference extends cdktn.Comp
   }
 
   // attribute_name - computed: true, optional: true, required: false
-  private _attributeName?: string;
+  private _attributeName?: string; 
   public get attributeName() {
     return this.getStringAttribute('attribute_name');
   }
@@ -269,7 +269,7 @@ export class DynamodbTableAttributeDefinitionsOutputReference extends cdktn.Comp
   }
 
   // attribute_type - computed: true, optional: true, required: false
-  private _attributeType?: string;
+  private _attributeType?: string; 
   public get attributeType() {
     return this.getStringAttribute('attribute_type');
   }
@@ -404,7 +404,7 @@ export class DynamodbTableContributorInsightsSpecificationOutputReference extend
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -420,7 +420,7 @@ export class DynamodbTableContributorInsightsSpecificationOutputReference extend
   }
 
   // mode - computed: true, optional: true, required: false
-  private _mode?: string;
+  private _mode?: string; 
   public get mode() {
     return this.getStringAttribute('mode');
   }
@@ -535,7 +535,7 @@ export class DynamodbTableGlobalSecondaryIndexesContributorInsightsSpecification
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -551,7 +551,7 @@ export class DynamodbTableGlobalSecondaryIndexesContributorInsightsSpecification
   }
 
   // mode - computed: true, optional: true, required: false
-  private _mode?: string;
+  private _mode?: string; 
   public get mode() {
     return this.getStringAttribute('mode');
   }
@@ -577,7 +577,7 @@ export interface DynamodbTableGlobalSecondaryIndexesKeySchema {
   * The role that this key attribute will assume:
   *   +  ``HASH`` - partition key
   *   +  ``RANGE`` - sort key
-  *
+  *   
   *   The partition key of an item is also known as its *hash attribute*. The term "hash attribute" derives from DynamoDB's usage of an internal hash function to evenly distribute data items across partitions, based on their partition key values.
   *  The sort key of an item is also known as its *range attribute*. The term "range attribute" derives from the way DynamoDB stores items with the same partition key physically close together, in sorted order by the sort key value.
   *
@@ -673,7 +673,7 @@ export class DynamodbTableGlobalSecondaryIndexesKeySchemaOutputReference extends
   }
 
   // attribute_name - computed: true, optional: true, required: false
-  private _attributeName?: string;
+  private _attributeName?: string; 
   public get attributeName() {
     return this.getStringAttribute('attribute_name');
   }
@@ -689,7 +689,7 @@ export class DynamodbTableGlobalSecondaryIndexesKeySchemaOutputReference extends
   }
 
   // key_type - computed: true, optional: true, required: false
-  private _keyType?: string;
+  private _keyType?: string; 
   public get keyType() {
     return this.getStringAttribute('key_type');
   }
@@ -826,7 +826,7 @@ export class DynamodbTableGlobalSecondaryIndexesOnDemandThroughputOutputReferenc
   }
 
   // max_read_request_units - computed: true, optional: true, required: false
-  private _maxReadRequestUnits?: number;
+  private _maxReadRequestUnits?: number; 
   public get maxReadRequestUnits() {
     return this.getNumberAttribute('max_read_request_units');
   }
@@ -842,7 +842,7 @@ export class DynamodbTableGlobalSecondaryIndexesOnDemandThroughputOutputReferenc
   }
 
   // max_write_request_units - computed: true, optional: true, required: false
-  private _maxWriteRequestUnits?: number;
+  private _maxWriteRequestUnits?: number; 
   public get maxWriteRequestUnits() {
     return this.getNumberAttribute('max_write_request_units');
   }
@@ -870,7 +870,7 @@ export interface DynamodbTableGlobalSecondaryIndexesProjection {
   *   +  ``KEYS_ONLY`` - Only the index and primary keys are projected into the index.
   *   +  ``INCLUDE`` - In addition to the attributes described in ``KEYS_ONLY``, the secondary index will include other non-key attributes that you specify.
   *   +  ``ALL`` - All of the table attributes are projected into the index.
-  *
+  *   
   *  When using the DynamoDB console, ``ALL`` is selected by default.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_table#projection_type DynamodbTable#projection_type}
@@ -963,7 +963,7 @@ export class DynamodbTableGlobalSecondaryIndexesProjectionOutputReference extend
   }
 
   // non_key_attributes - computed: true, optional: true, required: false
-  private _nonKeyAttributes?: string[];
+  private _nonKeyAttributes?: string[]; 
   public get nonKeyAttributes() {
     return this.getListAttribute('non_key_attributes');
   }
@@ -979,7 +979,7 @@ export class DynamodbTableGlobalSecondaryIndexesProjectionOutputReference extend
   }
 
   // projection_type - computed: true, optional: true, required: false
-  private _projectionType?: string;
+  private _projectionType?: string; 
   public get projectionType() {
     return this.getStringAttribute('projection_type');
   }
@@ -1096,7 +1096,7 @@ export class DynamodbTableGlobalSecondaryIndexesProvisionedThroughputOutputRefer
   }
 
   // read_capacity_units - computed: true, optional: true, required: false
-  private _readCapacityUnits?: number;
+  private _readCapacityUnits?: number; 
   public get readCapacityUnits() {
     return this.getNumberAttribute('read_capacity_units');
   }
@@ -1112,7 +1112,7 @@ export class DynamodbTableGlobalSecondaryIndexesProvisionedThroughputOutputRefer
   }
 
   // write_capacity_units - computed: true, optional: true, required: false
-  private _writeCapacityUnits?: number;
+  private _writeCapacityUnits?: number; 
   public get writeCapacityUnits() {
     return this.getNumberAttribute('write_capacity_units');
   }
@@ -1227,7 +1227,7 @@ export class DynamodbTableGlobalSecondaryIndexesWarmThroughputOutputReference ex
   }
 
   // read_units_per_second - computed: true, optional: true, required: false
-  private _readUnitsPerSecond?: number;
+  private _readUnitsPerSecond?: number; 
   public get readUnitsPerSecond() {
     return this.getNumberAttribute('read_units_per_second');
   }
@@ -1243,7 +1243,7 @@ export class DynamodbTableGlobalSecondaryIndexesWarmThroughputOutputReference ex
   }
 
   // write_units_per_second - computed: true, optional: true, required: false
-  private _writeUnitsPerSecond?: number;
+  private _writeUnitsPerSecond?: number; 
   public get writeUnitsPerSecond() {
     return this.getNumberAttribute('write_units_per_second');
   }
@@ -1275,7 +1275,7 @@ export interface DynamodbTableGlobalSecondaryIndexes {
   * The complete key schema for a global secondary index, which consists of one or more pairs of attribute names and key types:
   *   +  ``HASH`` - partition key
   *   +  ``RANGE`` - sort key
-  *
+  *   
   *   The partition key of an item is also known as its *hash attribute*. The term "hash attribute" derives from DynamoDB's usage of an internal hash function to evenly distribute data items across partitions, based on their partition key values.
   *  The sort key of an item is also known as its *range attribute*. The term "range attribute" derives from the way DynamoDB stores items with the same partition key physically close together, in sorted order by the sort key value.
   *
@@ -1477,7 +1477,7 @@ export class DynamodbTableGlobalSecondaryIndexesOutputReference extends cdktn.Co
   }
 
   // index_name - computed: true, optional: true, required: false
-  private _indexName?: string;
+  private _indexName?: string; 
   public get indexName() {
     return this.getStringAttribute('index_name');
   }
@@ -1692,7 +1692,7 @@ export class DynamodbTableImportSourceSpecificationInputFormatOptionsCsvOutputRe
   }
 
   // delimiter - computed: true, optional: true, required: false
-  private _delimiter?: string;
+  private _delimiter?: string; 
   public get delimiter() {
     return this.getStringAttribute('delimiter');
   }
@@ -1708,7 +1708,7 @@ export class DynamodbTableImportSourceSpecificationInputFormatOptionsCsvOutputRe
   }
 
   // header_list - computed: true, optional: true, required: false
-  private _headerList?: string[];
+  private _headerList?: string[]; 
   public get headerList() {
     return this.getListAttribute('header_list');
   }
@@ -1938,7 +1938,7 @@ export class DynamodbTableImportSourceSpecificationS3BucketSourceOutputReference
   }
 
   // s3_bucket - computed: true, optional: true, required: false
-  private _s3Bucket?: string;
+  private _s3Bucket?: string; 
   public get s3Bucket() {
     return this.getStringAttribute('s3_bucket');
   }
@@ -1954,7 +1954,7 @@ export class DynamodbTableImportSourceSpecificationS3BucketSourceOutputReference
   }
 
   // s3_bucket_owner - computed: true, optional: true, required: false
-  private _s3BucketOwner?: string;
+  private _s3BucketOwner?: string; 
   public get s3BucketOwner() {
     return this.getStringAttribute('s3_bucket_owner');
   }
@@ -1970,7 +1970,7 @@ export class DynamodbTableImportSourceSpecificationS3BucketSourceOutputReference
   }
 
   // s3_key_prefix - computed: true, optional: true, required: false
-  private _s3KeyPrefix?: string;
+  private _s3KeyPrefix?: string; 
   public get s3KeyPrefix() {
     return this.getStringAttribute('s3_key_prefix');
   }
@@ -2123,7 +2123,7 @@ export class DynamodbTableImportSourceSpecificationOutputReference extends cdktn
   }
 
   // input_compression_type - computed: true, optional: true, required: false
-  private _inputCompressionType?: string;
+  private _inputCompressionType?: string; 
   public get inputCompressionType() {
     return this.getStringAttribute('input_compression_type');
   }
@@ -2139,7 +2139,7 @@ export class DynamodbTableImportSourceSpecificationOutputReference extends cdktn
   }
 
   // input_format - computed: true, optional: true, required: false
-  private _inputFormat?: string;
+  private _inputFormat?: string; 
   public get inputFormat() {
     return this.getStringAttribute('input_format');
   }
@@ -2287,7 +2287,7 @@ export class DynamodbTableKinesisStreamSpecificationOutputReference extends cdkt
   }
 
   // approximate_creation_date_time_precision - computed: true, optional: true, required: false
-  private _approximateCreationDateTimePrecision?: string;
+  private _approximateCreationDateTimePrecision?: string; 
   public get approximateCreationDateTimePrecision() {
     return this.getStringAttribute('approximate_creation_date_time_precision');
   }
@@ -2303,7 +2303,7 @@ export class DynamodbTableKinesisStreamSpecificationOutputReference extends cdkt
   }
 
   // stream_arn - computed: true, optional: true, required: false
-  private _streamArn?: string;
+  private _streamArn?: string; 
   public get streamArn() {
     return this.getStringAttribute('stream_arn');
   }
@@ -2329,7 +2329,7 @@ export interface DynamodbTableLocalSecondaryIndexesKeySchema {
   * The role that this key attribute will assume:
   *   +  ``HASH`` - partition key
   *   +  ``RANGE`` - sort key
-  *
+  *   
   *   The partition key of an item is also known as its *hash attribute*. The term "hash attribute" derives from DynamoDB's usage of an internal hash function to evenly distribute data items across partitions, based on their partition key values.
   *  The sort key of an item is also known as its *range attribute*. The term "range attribute" derives from the way DynamoDB stores items with the same partition key physically close together, in sorted order by the sort key value.
   *
@@ -2425,7 +2425,7 @@ export class DynamodbTableLocalSecondaryIndexesKeySchemaOutputReference extends 
   }
 
   // attribute_name - computed: true, optional: true, required: false
-  private _attributeName?: string;
+  private _attributeName?: string; 
   public get attributeName() {
     return this.getStringAttribute('attribute_name');
   }
@@ -2441,7 +2441,7 @@ export class DynamodbTableLocalSecondaryIndexesKeySchemaOutputReference extends 
   }
 
   // key_type - computed: true, optional: true, required: false
-  private _keyType?: string;
+  private _keyType?: string; 
   public get keyType() {
     return this.getStringAttribute('key_type');
   }
@@ -2489,7 +2489,7 @@ export interface DynamodbTableLocalSecondaryIndexesProjection {
   *   +  ``KEYS_ONLY`` - Only the index and primary keys are projected into the index.
   *   +  ``INCLUDE`` - In addition to the attributes described in ``KEYS_ONLY``, the secondary index will include other non-key attributes that you specify.
   *   +  ``ALL`` - All of the table attributes are projected into the index.
-  *
+  *   
   *  When using the DynamoDB console, ``ALL`` is selected by default.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dynamodb_table#projection_type DynamodbTable#projection_type}
@@ -2582,7 +2582,7 @@ export class DynamodbTableLocalSecondaryIndexesProjectionOutputReference extends
   }
 
   // non_key_attributes - computed: true, optional: true, required: false
-  private _nonKeyAttributes?: string[];
+  private _nonKeyAttributes?: string[]; 
   public get nonKeyAttributes() {
     return this.getListAttribute('non_key_attributes');
   }
@@ -2598,7 +2598,7 @@ export class DynamodbTableLocalSecondaryIndexesProjectionOutputReference extends
   }
 
   // projection_type - computed: true, optional: true, required: false
-  private _projectionType?: string;
+  private _projectionType?: string; 
   public get projectionType() {
     return this.getStringAttribute('projection_type');
   }
@@ -2624,7 +2624,7 @@ export interface DynamodbTableLocalSecondaryIndexes {
   * The complete key schema for the local secondary index, consisting of one or more pairs of attribute names and key types:
   *   +  ``HASH`` - partition key
   *   +  ``RANGE`` - sort key
-  *
+  *   
   *   The partition key of an item is also known as its *hash attribute*. The term "hash attribute" derives from DynamoDB's usage of an internal hash function to evenly distribute data items across partitions, based on their partition key values.
   *  The sort key of an item is also known as its *range attribute*. The term "range attribute" derives from the way DynamoDB stores items with the same partition key physically close together, in sorted order by the sort key value.
   *
@@ -2739,7 +2739,7 @@ export class DynamodbTableLocalSecondaryIndexesOutputReference extends cdktn.Com
   }
 
   // index_name - computed: true, optional: true, required: false
-  private _indexName?: string;
+  private _indexName?: string; 
   public get indexName() {
     return this.getStringAttribute('index_name');
   }
@@ -2908,7 +2908,7 @@ export class DynamodbTableOnDemandThroughputOutputReference extends cdktn.Comple
   }
 
   // max_read_request_units - computed: true, optional: true, required: false
-  private _maxReadRequestUnits?: number;
+  private _maxReadRequestUnits?: number; 
   public get maxReadRequestUnits() {
     return this.getNumberAttribute('max_read_request_units');
   }
@@ -2924,7 +2924,7 @@ export class DynamodbTableOnDemandThroughputOutputReference extends cdktn.Comple
   }
 
   // max_write_request_units - computed: true, optional: true, required: false
-  private _maxWriteRequestUnits?: number;
+  private _maxWriteRequestUnits?: number; 
   public get maxWriteRequestUnits() {
     return this.getNumberAttribute('max_write_request_units');
   }
@@ -3039,7 +3039,7 @@ export class DynamodbTablePointInTimeRecoverySpecificationOutputReference extend
   }
 
   // point_in_time_recovery_enabled - computed: true, optional: true, required: false
-  private _pointInTimeRecoveryEnabled?: boolean | cdktn.IResolvable;
+  private _pointInTimeRecoveryEnabled?: boolean | cdktn.IResolvable; 
   public get pointInTimeRecoveryEnabled() {
     return this.getBooleanAttribute('point_in_time_recovery_enabled');
   }
@@ -3055,7 +3055,7 @@ export class DynamodbTablePointInTimeRecoverySpecificationOutputReference extend
   }
 
   // recovery_period_in_days - computed: true, optional: true, required: false
-  private _recoveryPeriodInDays?: number;
+  private _recoveryPeriodInDays?: number; 
   public get recoveryPeriodInDays() {
     return this.getNumberAttribute('recovery_period_in_days');
   }
@@ -3172,7 +3172,7 @@ export class DynamodbTableProvisionedThroughputOutputReference extends cdktn.Com
   }
 
   // read_capacity_units - computed: true, optional: true, required: false
-  private _readCapacityUnits?: number;
+  private _readCapacityUnits?: number; 
   public get readCapacityUnits() {
     return this.getNumberAttribute('read_capacity_units');
   }
@@ -3188,7 +3188,7 @@ export class DynamodbTableProvisionedThroughputOutputReference extends cdktn.Com
   }
 
   // write_capacity_units - computed: true, optional: true, required: false
-  private _writeCapacityUnits?: number;
+  private _writeCapacityUnits?: number; 
   public get writeCapacityUnits() {
     return this.getNumberAttribute('write_capacity_units');
   }
@@ -3284,7 +3284,7 @@ export class DynamodbTableResourcePolicyOutputReference extends cdktn.ComplexObj
   }
 
   // policy_document - computed: true, optional: true, required: false
-  private _policyDocument?: string;
+  private _policyDocument?: string; 
   public get policyDocument() {
     return this.getStringAttribute('policy_document');
   }
@@ -3419,7 +3419,7 @@ export class DynamodbTableSseSpecificationOutputReference extends cdktn.ComplexO
   }
 
   // kms_master_key_id - computed: true, optional: true, required: false
-  private _kmsMasterKeyId?: string;
+  private _kmsMasterKeyId?: string; 
   public get kmsMasterKeyId() {
     return this.getStringAttribute('kms_master_key_id');
   }
@@ -3435,7 +3435,7 @@ export class DynamodbTableSseSpecificationOutputReference extends cdktn.ComplexO
   }
 
   // sse_enabled - computed: true, optional: true, required: false
-  private _sseEnabled?: boolean | cdktn.IResolvable;
+  private _sseEnabled?: boolean | cdktn.IResolvable; 
   public get sseEnabled() {
     return this.getBooleanAttribute('sse_enabled');
   }
@@ -3451,7 +3451,7 @@ export class DynamodbTableSseSpecificationOutputReference extends cdktn.ComplexO
   }
 
   // sse_type - computed: true, optional: true, required: false
-  private _sseType?: string;
+  private _sseType?: string; 
   public get sseType() {
     return this.getStringAttribute('sse_type');
   }
@@ -3547,7 +3547,7 @@ export class DynamodbTableStreamSpecificationResourcePolicyOutputReference exten
   }
 
   // policy_document - computed: true, optional: true, required: false
-  private _policyDocument?: string;
+  private _policyDocument?: string; 
   public get policyDocument() {
     return this.getStringAttribute('policy_document');
   }
@@ -3684,7 +3684,7 @@ export class DynamodbTableStreamSpecificationOutputReference extends cdktn.Compl
   }
 
   // stream_view_type - computed: true, optional: true, required: false
-  private _streamViewType?: string;
+  private _streamViewType?: string; 
   public get streamViewType() {
     return this.getStringAttribute('stream_view_type');
   }
@@ -3801,7 +3801,7 @@ export class DynamodbTableTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -3817,7 +3817,7 @@ export class DynamodbTableTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -3954,7 +3954,7 @@ export class DynamodbTableTimeToLiveSpecificationOutputReference extends cdktn.C
   }
 
   // attribute_name - computed: true, optional: true, required: false
-  private _attributeName?: string;
+  private _attributeName?: string; 
   public get attributeName() {
     return this.getStringAttribute('attribute_name');
   }
@@ -3970,7 +3970,7 @@ export class DynamodbTableTimeToLiveSpecificationOutputReference extends cdktn.C
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -4085,7 +4085,7 @@ export class DynamodbTableWarmThroughputOutputReference extends cdktn.ComplexObj
   }
 
   // read_units_per_second - computed: true, optional: true, required: false
-  private _readUnitsPerSecond?: number;
+  private _readUnitsPerSecond?: number; 
   public get readUnitsPerSecond() {
     return this.getNumberAttribute('read_units_per_second');
   }
@@ -4101,7 +4101,7 @@ export class DynamodbTableWarmThroughputOutputReference extends cdktn.ComplexObj
   }
 
   // write_units_per_second - computed: true, optional: true, required: false
-  private _writeUnitsPerSecond?: number;
+  private _writeUnitsPerSecond?: number; 
   public get writeUnitsPerSecond() {
     return this.getNumberAttribute('write_units_per_second');
   }
@@ -4215,7 +4215,7 @@ export class DynamodbTable extends cdktn.TerraformResource {
   }
 
   // billing_mode - computed: true, optional: true, required: false
-  private _billingMode?: string;
+  private _billingMode?: string; 
   public get billingMode() {
     return this.getStringAttribute('billing_mode');
   }
@@ -4247,7 +4247,7 @@ export class DynamodbTable extends cdktn.TerraformResource {
   }
 
   // deletion_protection_enabled - computed: true, optional: true, required: false
-  private _deletionProtectionEnabled?: boolean | cdktn.IResolvable;
+  private _deletionProtectionEnabled?: boolean | cdktn.IResolvable; 
   public get deletionProtectionEnabled() {
     return this.getBooleanAttribute('deletion_protection_enabled');
   }
@@ -4300,7 +4300,7 @@ export class DynamodbTable extends cdktn.TerraformResource {
   }
 
   // key_schema - computed: false, optional: false, required: true
-  private _keySchema?: string;
+  private _keySchema?: string; 
   public get keySchema() {
     return this.getStringAttribute('key_schema');
   }
@@ -4446,7 +4446,7 @@ export class DynamodbTable extends cdktn.TerraformResource {
   }
 
   // table_class - computed: true, optional: true, required: false
-  private _tableClass?: string;
+  private _tableClass?: string; 
   public get tableClass() {
     return this.getStringAttribute('table_class');
   }
@@ -4462,7 +4462,7 @@ export class DynamodbTable extends cdktn.TerraformResource {
   }
 
   // table_name - computed: true, optional: true, required: false
-  private _tableName?: string;
+  private _tableName?: string; 
   public get tableName() {
     return this.getStringAttribute('table_name');
   }

@@ -138,7 +138,7 @@ export class SagemakerDeviceFleetOutputConfigOutputReference extends cdktn.Compl
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -154,7 +154,7 @@ export class SagemakerDeviceFleetOutputConfigOutputReference extends cdktn.Compl
   }
 
   // s3_output_location - computed: false, optional: false, required: true
-  private _s3OutputLocation?: string;
+  private _s3OutputLocation?: string; 
   public get s3OutputLocation() {
     return this.getStringAttribute('s3_output_location');
   }
@@ -168,13 +168,13 @@ export class SagemakerDeviceFleetOutputConfigOutputReference extends cdktn.Compl
 }
 export interface SagemakerDeviceFleetTags {
   /**
-  * The key name of the tag. You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
+  * The key name of the tag. You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_device_fleet#key SagemakerDeviceFleet#key}
   */
   readonly key?: string;
   /**
-  * The key value of the tag. You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
+  * The key value of the tag. You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_device_fleet#value SagemakerDeviceFleet#value}
   */
@@ -268,7 +268,7 @@ export class SagemakerDeviceFleetTagsOutputReference extends cdktn.ComplexObject
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -284,7 +284,7 @@ export class SagemakerDeviceFleetTagsOutputReference extends cdktn.ComplexObject
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -382,7 +382,7 @@ export class SagemakerDeviceFleet extends cdktn.TerraformResource {
   // ==========
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -398,7 +398,7 @@ export class SagemakerDeviceFleet extends cdktn.TerraformResource {
   }
 
   // device_fleet_name - computed: false, optional: false, required: true
-  private _deviceFleetName?: string;
+  private _deviceFleetName?: string; 
   public get deviceFleetName() {
     return this.getStringAttribute('device_fleet_name');
   }
@@ -429,7 +429,7 @@ export class SagemakerDeviceFleet extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }

@@ -117,7 +117,7 @@ export class SecuritylakeDataLakeEncryptionConfigurationOutputReference extends 
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -213,7 +213,7 @@ export class SecuritylakeDataLakeLifecycleConfigurationExpirationOutputReference
   }
 
   // days - computed: true, optional: true, required: false
-  private _days?: number;
+  private _days?: number; 
   public get days() {
     return this.getNumberAttribute('days');
   }
@@ -330,7 +330,7 @@ export class SecuritylakeDataLakeLifecycleConfigurationTransitionsOutputReferenc
   }
 
   // days - computed: true, optional: true, required: false
-  private _days?: number;
+  private _days?: number; 
   public get days() {
     return this.getNumberAttribute('days');
   }
@@ -346,7 +346,7 @@ export class SecuritylakeDataLakeLifecycleConfigurationTransitionsOutputReferenc
   }
 
   // storage_class - computed: true, optional: true, required: false
-  private _storageClass?: string;
+  private _storageClass?: string; 
   public get storageClass() {
     return this.getStringAttribute('storage_class');
   }
@@ -612,7 +612,7 @@ export class SecuritylakeDataLakeReplicationConfigurationOutputReference extends
   }
 
   // regions - computed: true, optional: true, required: false
-  private _regions?: string[];
+  private _regions?: string[]; 
   public get regions() {
     return cdktn.Fn.tolist(this.getListAttribute('regions'));
   }
@@ -628,7 +628,7 @@ export class SecuritylakeDataLakeReplicationConfigurationOutputReference extends
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -745,7 +745,7 @@ export class SecuritylakeDataLakeTagsOutputReference extends cdktn.ComplexObject
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -761,7 +761,7 @@ export class SecuritylakeDataLakeTagsOutputReference extends cdktn.ComplexObject
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -901,7 +901,7 @@ export class SecuritylakeDataLake extends cdktn.TerraformResource {
   }
 
   // meta_store_manager_role_arn - computed: true, optional: true, required: false
-  private _metaStoreManagerRoleArn?: string;
+  private _metaStoreManagerRoleArn?: string; 
   public get metaStoreManagerRoleArn() {
     return this.getStringAttribute('meta_store_manager_role_arn');
   }

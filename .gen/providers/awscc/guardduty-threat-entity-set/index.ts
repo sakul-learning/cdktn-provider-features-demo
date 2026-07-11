@@ -134,7 +134,7 @@ export class GuarddutyThreatEntitySetTagsOutputReference extends cdktn.ComplexOb
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -150,7 +150,7 @@ export class GuarddutyThreatEntitySetTagsOutputReference extends cdktn.ComplexOb
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -250,7 +250,7 @@ export class GuarddutyThreatEntitySet extends cdktn.TerraformResource {
   // ==========
 
   // activate - computed: true, optional: true, required: false
-  private _activate?: boolean | cdktn.IResolvable;
+  private _activate?: boolean | cdktn.IResolvable; 
   public get activate() {
     return this.getBooleanAttribute('activate');
   }
@@ -271,7 +271,7 @@ export class GuarddutyThreatEntitySet extends cdktn.TerraformResource {
   }
 
   // detector_id - computed: true, optional: true, required: false
-  private _detectorId?: string;
+  private _detectorId?: string; 
   public get detectorId() {
     return this.getStringAttribute('detector_id');
   }
@@ -292,7 +292,7 @@ export class GuarddutyThreatEntitySet extends cdktn.TerraformResource {
   }
 
   // expected_bucket_owner - computed: true, optional: true, required: false
-  private _expectedBucketOwner?: string;
+  private _expectedBucketOwner?: string; 
   public get expectedBucketOwner() {
     return this.getStringAttribute('expected_bucket_owner');
   }
@@ -308,7 +308,7 @@ export class GuarddutyThreatEntitySet extends cdktn.TerraformResource {
   }
 
   // format - computed: false, optional: false, required: true
-  private _format?: string;
+  private _format?: string; 
   public get format() {
     return this.getStringAttribute('format');
   }
@@ -326,7 +326,7 @@ export class GuarddutyThreatEntitySet extends cdktn.TerraformResource {
   }
 
   // location - computed: false, optional: false, required: true
-  private _location?: string;
+  private _location?: string; 
   public get location() {
     return this.getStringAttribute('location');
   }
@@ -339,7 +339,7 @@ export class GuarddutyThreatEntitySet extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }

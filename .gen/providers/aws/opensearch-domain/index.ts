@@ -288,7 +288,7 @@ export class OpensearchDomainAdvancedSecurityOptionsJwtOptionsOutputReference ex
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -304,7 +304,7 @@ export class OpensearchDomainAdvancedSecurityOptionsJwtOptionsOutputReference ex
   }
 
   // jwks_url - computed: false, optional: true, required: false
-  private _jwksUrl?: string;
+  private _jwksUrl?: string; 
   public get jwksUrl() {
     return this.getStringAttribute('jwks_url');
   }
@@ -320,7 +320,7 @@ export class OpensearchDomainAdvancedSecurityOptionsJwtOptionsOutputReference ex
   }
 
   // public_key - computed: true, optional: true, required: false
-  private _publicKey?: string;
+  private _publicKey?: string; 
   public get publicKey() {
     return this.getStringAttribute('public_key');
   }
@@ -336,7 +336,7 @@ export class OpensearchDomainAdvancedSecurityOptionsJwtOptionsOutputReference ex
   }
 
   // roles_key - computed: true, optional: true, required: false
-  private _rolesKey?: string;
+  private _rolesKey?: string; 
   public get rolesKey() {
     return this.getStringAttribute('roles_key');
   }
@@ -352,7 +352,7 @@ export class OpensearchDomainAdvancedSecurityOptionsJwtOptionsOutputReference ex
   }
 
   // subject_key - computed: true, optional: true, required: false
-  private _subjectKey?: string;
+  private _subjectKey?: string; 
   public get subjectKey() {
     return this.getStringAttribute('subject_key');
   }
@@ -470,7 +470,7 @@ export class OpensearchDomainAdvancedSecurityOptionsMasterUserOptionsOutputRefer
   }
 
   // master_user_arn - computed: false, optional: true, required: false
-  private _masterUserArn?: string;
+  private _masterUserArn?: string; 
   public get masterUserArn() {
     return this.getStringAttribute('master_user_arn');
   }
@@ -486,7 +486,7 @@ export class OpensearchDomainAdvancedSecurityOptionsMasterUserOptionsOutputRefer
   }
 
   // master_user_name - computed: false, optional: true, required: false
-  private _masterUserName?: string;
+  private _masterUserName?: string; 
   public get masterUserName() {
     return this.getStringAttribute('master_user_name');
   }
@@ -502,7 +502,7 @@ export class OpensearchDomainAdvancedSecurityOptionsMasterUserOptionsOutputRefer
   }
 
   // master_user_password - computed: false, optional: true, required: false
-  private _masterUserPassword?: string;
+  private _masterUserPassword?: string; 
   public get masterUserPassword() {
     return this.getStringAttribute('master_user_password');
   }
@@ -658,7 +658,7 @@ export class OpensearchDomainAdvancedSecurityOptionsOutputReference extends cdkt
   }
 
   // anonymous_auth_enabled - computed: true, optional: true, required: false
-  private _anonymousAuthEnabled?: boolean | cdktn.IResolvable;
+  private _anonymousAuthEnabled?: boolean | cdktn.IResolvable; 
   public get anonymousAuthEnabled() {
     return this.getBooleanAttribute('anonymous_auth_enabled');
   }
@@ -674,7 +674,7 @@ export class OpensearchDomainAdvancedSecurityOptionsOutputReference extends cdkt
   }
 
   // enabled - computed: false, optional: false, required: true
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -687,7 +687,7 @@ export class OpensearchDomainAdvancedSecurityOptionsOutputReference extends cdkt
   }
 
   // internal_user_database_enabled - computed: false, optional: true, required: false
-  private _internalUserDatabaseEnabled?: boolean | cdktn.IResolvable;
+  private _internalUserDatabaseEnabled?: boolean | cdktn.IResolvable; 
   public get internalUserDatabaseEnabled() {
     return this.getBooleanAttribute('internal_user_database_enabled');
   }
@@ -803,7 +803,7 @@ export class OpensearchDomainAimlOptionsNaturalLanguageQueryGenerationOptionsOut
   }
 
   // desired_state - computed: true, optional: true, required: false
-  private _desiredState?: string;
+  private _desiredState?: string; 
   public get desiredState() {
     return this.getStringAttribute('desired_state');
   }
@@ -887,7 +887,7 @@ export class OpensearchDomainAimlOptionsS3VectorsEngineOutputReference extends c
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -971,7 +971,7 @@ export class OpensearchDomainAimlOptionsServerlessVectorAccelerationOutputRefere
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -1228,7 +1228,7 @@ export class OpensearchDomainAutoTuneOptionsMaintenanceScheduleDurationOutputRef
   }
 
   // unit - computed: false, optional: false, required: true
-  private _unit?: string;
+  private _unit?: string; 
   public get unit() {
     return this.getStringAttribute('unit');
   }
@@ -1241,7 +1241,7 @@ export class OpensearchDomainAutoTuneOptionsMaintenanceScheduleDurationOutputRef
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: number;
+  private _value?: number; 
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -1370,7 +1370,7 @@ export class OpensearchDomainAutoTuneOptionsMaintenanceScheduleOutputReference e
   }
 
   // cron_expression_for_recurrence - computed: false, optional: false, required: true
-  private _cronExpressionForRecurrence?: string;
+  private _cronExpressionForRecurrence?: string; 
   public get cronExpressionForRecurrence() {
     return this.getStringAttribute('cron_expression_for_recurrence');
   }
@@ -1383,7 +1383,7 @@ export class OpensearchDomainAutoTuneOptionsMaintenanceScheduleOutputReference e
   }
 
   // start_at - computed: false, optional: false, required: true
-  private _startAt?: string;
+  private _startAt?: string; 
   public get startAt() {
     return this.getStringAttribute('start_at');
   }
@@ -1550,7 +1550,7 @@ export class OpensearchDomainAutoTuneOptionsOutputReference extends cdktn.Comple
   }
 
   // desired_state - computed: false, optional: false, required: true
-  private _desiredState?: string;
+  private _desiredState?: string; 
   public get desiredState() {
     return this.getStringAttribute('desired_state');
   }
@@ -1563,7 +1563,7 @@ export class OpensearchDomainAutoTuneOptionsOutputReference extends cdktn.Comple
   }
 
   // rollback_on_disable - computed: true, optional: true, required: false
-  private _rollbackOnDisable?: string;
+  private _rollbackOnDisable?: string; 
   public get rollbackOnDisable() {
     return this.getStringAttribute('rollback_on_disable');
   }
@@ -1579,7 +1579,7 @@ export class OpensearchDomainAutoTuneOptionsOutputReference extends cdktn.Comple
   }
 
   // use_off_peak_window - computed: false, optional: true, required: false
-  private _useOffPeakWindow?: boolean | cdktn.IResolvable;
+  private _useOffPeakWindow?: boolean | cdktn.IResolvable; 
   public get useOffPeakWindow() {
     return this.getBooleanAttribute('use_off_peak_window');
   }
@@ -1679,7 +1679,7 @@ export class OpensearchDomainClusterConfigColdStorageOptionsOutputReference exte
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -1797,7 +1797,7 @@ export class OpensearchDomainClusterConfigNodeOptionsNodeConfigOutputReference e
   }
 
   // count - computed: true, optional: true, required: false
-  private _count?: number;
+  private _count?: number; 
   public get count() {
     return this.getNumberAttribute('count');
   }
@@ -1813,7 +1813,7 @@ export class OpensearchDomainClusterConfigNodeOptionsNodeConfigOutputReference e
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -1829,7 +1829,7 @@ export class OpensearchDomainClusterConfigNodeOptionsNodeConfigOutputReference e
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -1944,7 +1944,7 @@ export class OpensearchDomainClusterConfigNodeOptionsOutputReference extends cdk
   }
 
   // node_type - computed: true, optional: true, required: false
-  private _nodeType?: string;
+  private _nodeType?: string; 
   public get nodeType() {
     return this.getStringAttribute('node_type');
   }
@@ -2064,7 +2064,7 @@ export class OpensearchDomainClusterConfigZoneAwarenessConfigOutputReference ext
   }
 
   // availability_zone_count - computed: false, optional: true, required: false
-  private _availabilityZoneCount?: number;
+  private _availabilityZoneCount?: number; 
   public get availabilityZoneCount() {
     return this.getNumberAttribute('availability_zone_count');
   }
@@ -2358,7 +2358,7 @@ export class OpensearchDomainClusterConfigOutputReference extends cdktn.ComplexO
   }
 
   // dedicated_master_count - computed: false, optional: true, required: false
-  private _dedicatedMasterCount?: number;
+  private _dedicatedMasterCount?: number; 
   public get dedicatedMasterCount() {
     return this.getNumberAttribute('dedicated_master_count');
   }
@@ -2374,7 +2374,7 @@ export class OpensearchDomainClusterConfigOutputReference extends cdktn.ComplexO
   }
 
   // dedicated_master_enabled - computed: false, optional: true, required: false
-  private _dedicatedMasterEnabled?: boolean | cdktn.IResolvable;
+  private _dedicatedMasterEnabled?: boolean | cdktn.IResolvable; 
   public get dedicatedMasterEnabled() {
     return this.getBooleanAttribute('dedicated_master_enabled');
   }
@@ -2390,7 +2390,7 @@ export class OpensearchDomainClusterConfigOutputReference extends cdktn.ComplexO
   }
 
   // dedicated_master_type - computed: false, optional: true, required: false
-  private _dedicatedMasterType?: string;
+  private _dedicatedMasterType?: string; 
   public get dedicatedMasterType() {
     return this.getStringAttribute('dedicated_master_type');
   }
@@ -2406,7 +2406,7 @@ export class OpensearchDomainClusterConfigOutputReference extends cdktn.ComplexO
   }
 
   // instance_count - computed: false, optional: true, required: false
-  private _instanceCount?: number;
+  private _instanceCount?: number; 
   public get instanceCount() {
     return this.getNumberAttribute('instance_count');
   }
@@ -2422,7 +2422,7 @@ export class OpensearchDomainClusterConfigOutputReference extends cdktn.ComplexO
   }
 
   // instance_type - computed: false, optional: true, required: false
-  private _instanceType?: string;
+  private _instanceType?: string; 
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -2438,7 +2438,7 @@ export class OpensearchDomainClusterConfigOutputReference extends cdktn.ComplexO
   }
 
   // multi_az_with_standby_enabled - computed: false, optional: true, required: false
-  private _multiAzWithStandbyEnabled?: boolean | cdktn.IResolvable;
+  private _multiAzWithStandbyEnabled?: boolean | cdktn.IResolvable; 
   public get multiAzWithStandbyEnabled() {
     return this.getBooleanAttribute('multi_az_with_standby_enabled');
   }
@@ -2454,7 +2454,7 @@ export class OpensearchDomainClusterConfigOutputReference extends cdktn.ComplexO
   }
 
   // warm_count - computed: false, optional: true, required: false
-  private _warmCount?: number;
+  private _warmCount?: number; 
   public get warmCount() {
     return this.getNumberAttribute('warm_count');
   }
@@ -2470,7 +2470,7 @@ export class OpensearchDomainClusterConfigOutputReference extends cdktn.ComplexO
   }
 
   // warm_enabled - computed: false, optional: true, required: false
-  private _warmEnabled?: boolean | cdktn.IResolvable;
+  private _warmEnabled?: boolean | cdktn.IResolvable; 
   public get warmEnabled() {
     return this.getBooleanAttribute('warm_enabled');
   }
@@ -2486,7 +2486,7 @@ export class OpensearchDomainClusterConfigOutputReference extends cdktn.ComplexO
   }
 
   // warm_type - computed: false, optional: true, required: false
-  private _warmType?: string;
+  private _warmType?: string; 
   public get warmType() {
     return this.getStringAttribute('warm_type');
   }
@@ -2502,7 +2502,7 @@ export class OpensearchDomainClusterConfigOutputReference extends cdktn.ComplexO
   }
 
   // zone_awareness_enabled - computed: false, optional: true, required: false
-  private _zoneAwarenessEnabled?: boolean | cdktn.IResolvable;
+  private _zoneAwarenessEnabled?: boolean | cdktn.IResolvable; 
   public get zoneAwarenessEnabled() {
     return this.getBooleanAttribute('zone_awareness_enabled');
   }
@@ -2685,7 +2685,7 @@ export class OpensearchDomainCognitoOptionsOutputReference extends cdktn.Complex
   }
 
   // enabled - computed: false, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -2701,7 +2701,7 @@ export class OpensearchDomainCognitoOptionsOutputReference extends cdktn.Complex
   }
 
   // identity_pool_id - computed: false, optional: false, required: true
-  private _identityPoolId?: string;
+  private _identityPoolId?: string; 
   public get identityPoolId() {
     return this.getStringAttribute('identity_pool_id');
   }
@@ -2714,7 +2714,7 @@ export class OpensearchDomainCognitoOptionsOutputReference extends cdktn.Complex
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -2727,7 +2727,7 @@ export class OpensearchDomainCognitoOptionsOutputReference extends cdktn.Complex
   }
 
   // user_pool_id - computed: false, optional: false, required: true
-  private _userPoolId?: string;
+  private _userPoolId?: string; 
   public get userPoolId() {
     return this.getStringAttribute('user_pool_id');
   }
@@ -2808,7 +2808,7 @@ export class OpensearchDomainDeploymentStrategyOptionsOutputReference extends cd
   }
 
   // deployment_strategy - computed: false, optional: false, required: true
-  private _deploymentStrategy?: string;
+  private _deploymentStrategy?: string; 
   public get deploymentStrategy() {
     return this.getStringAttribute('deployment_strategy');
   }
@@ -2957,7 +2957,7 @@ export class OpensearchDomainDomainEndpointOptionsOutputReference extends cdktn.
   }
 
   // custom_endpoint - computed: false, optional: true, required: false
-  private _customEndpoint?: string;
+  private _customEndpoint?: string; 
   public get customEndpoint() {
     return this.getStringAttribute('custom_endpoint');
   }
@@ -2973,7 +2973,7 @@ export class OpensearchDomainDomainEndpointOptionsOutputReference extends cdktn.
   }
 
   // custom_endpoint_certificate_arn - computed: false, optional: true, required: false
-  private _customEndpointCertificateArn?: string;
+  private _customEndpointCertificateArn?: string; 
   public get customEndpointCertificateArn() {
     return this.getStringAttribute('custom_endpoint_certificate_arn');
   }
@@ -2989,7 +2989,7 @@ export class OpensearchDomainDomainEndpointOptionsOutputReference extends cdktn.
   }
 
   // custom_endpoint_enabled - computed: false, optional: true, required: false
-  private _customEndpointEnabled?: boolean | cdktn.IResolvable;
+  private _customEndpointEnabled?: boolean | cdktn.IResolvable; 
   public get customEndpointEnabled() {
     return this.getBooleanAttribute('custom_endpoint_enabled');
   }
@@ -3005,7 +3005,7 @@ export class OpensearchDomainDomainEndpointOptionsOutputReference extends cdktn.
   }
 
   // enforce_https - computed: false, optional: true, required: false
-  private _enforceHttps?: boolean | cdktn.IResolvable;
+  private _enforceHttps?: boolean | cdktn.IResolvable; 
   public get enforceHttps() {
     return this.getBooleanAttribute('enforce_https');
   }
@@ -3021,7 +3021,7 @@ export class OpensearchDomainDomainEndpointOptionsOutputReference extends cdktn.
   }
 
   // tls_security_policy - computed: true, optional: true, required: false
-  private _tlsSecurityPolicy?: string;
+  private _tlsSecurityPolicy?: string; 
   public get tlsSecurityPolicy() {
     return this.getStringAttribute('tls_security_policy');
   }
@@ -3173,7 +3173,7 @@ export class OpensearchDomainEbsOptionsOutputReference extends cdktn.ComplexObje
   }
 
   // ebs_enabled - computed: false, optional: false, required: true
-  private _ebsEnabled?: boolean | cdktn.IResolvable;
+  private _ebsEnabled?: boolean | cdktn.IResolvable; 
   public get ebsEnabled() {
     return this.getBooleanAttribute('ebs_enabled');
   }
@@ -3186,7 +3186,7 @@ export class OpensearchDomainEbsOptionsOutputReference extends cdktn.ComplexObje
   }
 
   // iops - computed: true, optional: true, required: false
-  private _iops?: number;
+  private _iops?: number; 
   public get iops() {
     return this.getNumberAttribute('iops');
   }
@@ -3202,7 +3202,7 @@ export class OpensearchDomainEbsOptionsOutputReference extends cdktn.ComplexObje
   }
 
   // throughput - computed: true, optional: true, required: false
-  private _throughput?: number;
+  private _throughput?: number; 
   public get throughput() {
     return this.getNumberAttribute('throughput');
   }
@@ -3218,7 +3218,7 @@ export class OpensearchDomainEbsOptionsOutputReference extends cdktn.ComplexObje
   }
 
   // volume_size - computed: false, optional: true, required: false
-  private _volumeSize?: number;
+  private _volumeSize?: number; 
   public get volumeSize() {
     return this.getNumberAttribute('volume_size');
   }
@@ -3234,7 +3234,7 @@ export class OpensearchDomainEbsOptionsOutputReference extends cdktn.ComplexObje
   }
 
   // volume_type - computed: true, optional: true, required: false
-  private _volumeType?: string;
+  private _volumeType?: string; 
   public get volumeType() {
     return this.getStringAttribute('volume_type');
   }
@@ -3335,7 +3335,7 @@ export class OpensearchDomainEncryptAtRestOutputReference extends cdktn.ComplexO
   }
 
   // enabled - computed: false, optional: false, required: true
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -3348,7 +3348,7 @@ export class OpensearchDomainEncryptAtRestOutputReference extends cdktn.ComplexO
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -3483,7 +3483,7 @@ export class OpensearchDomainIdentityCenterOptionsOutputReference extends cdktn.
   }
 
   // enabled_api_access - computed: false, optional: true, required: false
-  private _enabledApiAccess?: boolean | cdktn.IResolvable;
+  private _enabledApiAccess?: boolean | cdktn.IResolvable; 
   public get enabledApiAccess() {
     return this.getBooleanAttribute('enabled_api_access');
   }
@@ -3499,7 +3499,7 @@ export class OpensearchDomainIdentityCenterOptionsOutputReference extends cdktn.
   }
 
   // identity_center_instance_arn - computed: false, optional: true, required: false
-  private _identityCenterInstanceArn?: string;
+  private _identityCenterInstanceArn?: string; 
   public get identityCenterInstanceArn() {
     return this.getStringAttribute('identity_center_instance_arn');
   }
@@ -3515,7 +3515,7 @@ export class OpensearchDomainIdentityCenterOptionsOutputReference extends cdktn.
   }
 
   // roles_key - computed: true, optional: true, required: false
-  private _rolesKey?: string;
+  private _rolesKey?: string; 
   public get rolesKey() {
     return this.getStringAttribute('roles_key');
   }
@@ -3531,7 +3531,7 @@ export class OpensearchDomainIdentityCenterOptionsOutputReference extends cdktn.
   }
 
   // subject_key - computed: true, optional: true, required: false
-  private _subjectKey?: string;
+  private _subjectKey?: string; 
   public get subjectKey() {
     return this.getStringAttribute('subject_key');
   }
@@ -3661,7 +3661,7 @@ export class OpensearchDomainLogPublishingOptionsOutputReference extends cdktn.C
   }
 
   // cloudwatch_log_group_arn - computed: false, optional: false, required: true
-  private _cloudwatchLogGroupArn?: string;
+  private _cloudwatchLogGroupArn?: string; 
   public get cloudwatchLogGroupArn() {
     return this.getStringAttribute('cloudwatch_log_group_arn');
   }
@@ -3674,7 +3674,7 @@ export class OpensearchDomainLogPublishingOptionsOutputReference extends cdktn.C
   }
 
   // enabled - computed: false, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -3690,7 +3690,7 @@ export class OpensearchDomainLogPublishingOptionsOutputReference extends cdktn.C
   }
 
   // log_type - computed: false, optional: false, required: true
-  private _logType?: string;
+  private _logType?: string; 
   public get logType() {
     return this.getStringAttribute('log_type');
   }
@@ -3791,7 +3791,7 @@ export class OpensearchDomainNodeToNodeEncryptionOutputReference extends cdktn.C
   }
 
   // enabled - computed: false, optional: false, required: true
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -3889,7 +3889,7 @@ export class OpensearchDomainOffPeakWindowOptionsOffPeakWindowWindowStartTimeOut
   }
 
   // hours - computed: true, optional: true, required: false
-  private _hours?: number;
+  private _hours?: number; 
   public get hours() {
     return this.getNumberAttribute('hours');
   }
@@ -3905,7 +3905,7 @@ export class OpensearchDomainOffPeakWindowOptionsOffPeakWindowWindowStartTimeOut
   }
 
   // minutes - computed: true, optional: true, required: false
-  private _minutes?: number;
+  private _minutes?: number; 
   public get minutes() {
     return this.getNumberAttribute('minutes');
   }
@@ -4094,7 +4094,7 @@ export class OpensearchDomainOffPeakWindowOptionsOutputReference extends cdktn.C
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -4194,7 +4194,7 @@ export class OpensearchDomainSnapshotOptionsOutputReference extends cdktn.Comple
   }
 
   // automated_snapshot_start_hour - computed: false, optional: false, required: true
-  private _automatedSnapshotStartHour?: number;
+  private _automatedSnapshotStartHour?: number; 
   public get automatedSnapshotStartHour() {
     return this.getNumberAttribute('automated_snapshot_start_hour');
   }
@@ -4275,7 +4275,7 @@ export class OpensearchDomainSoftwareUpdateOptionsOutputReference extends cdktn.
   }
 
   // auto_software_update_enabled - computed: true, optional: true, required: false
-  private _autoSoftwareUpdateEnabled?: boolean | cdktn.IResolvable;
+  private _autoSoftwareUpdateEnabled?: boolean | cdktn.IResolvable; 
   public get autoSoftwareUpdateEnabled() {
     return this.getBooleanAttribute('auto_software_update_enabled');
   }
@@ -4403,7 +4403,7 @@ export class OpensearchDomainTimeoutsOutputReference extends cdktn.ComplexObject
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -4419,7 +4419,7 @@ export class OpensearchDomainTimeoutsOutputReference extends cdktn.ComplexObject
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -4435,7 +4435,7 @@ export class OpensearchDomainTimeoutsOutputReference extends cdktn.ComplexObject
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -4541,7 +4541,7 @@ export class OpensearchDomainVpcOptionsOutputReference extends cdktn.ComplexObje
   }
 
   // security_group_ids - computed: false, optional: true, required: false
-  private _securityGroupIds?: string[];
+  private _securityGroupIds?: string[]; 
   public get securityGroupIds() {
     return cdktn.Fn.tolist(this.getListAttribute('security_group_ids'));
   }
@@ -4557,7 +4557,7 @@ export class OpensearchDomainVpcOptionsOutputReference extends cdktn.ComplexObje
   }
 
   // subnet_ids - computed: false, optional: true, required: false
-  private _subnetIds?: string[];
+  private _subnetIds?: string[]; 
   public get subnetIds() {
     return cdktn.Fn.tolist(this.getListAttribute('subnet_ids'));
   }
@@ -4661,7 +4661,7 @@ export class OpensearchDomain extends cdktn.TerraformResource {
   // ==========
 
   // access_policies - computed: true, optional: true, required: false
-  private _accessPolicies?: string;
+  private _accessPolicies?: string; 
   public get accessPolicies() {
     return this.getStringAttribute('access_policies');
   }
@@ -4677,7 +4677,7 @@ export class OpensearchDomain extends cdktn.TerraformResource {
   }
 
   // advanced_options - computed: true, optional: true, required: false
-  private _advancedOptions?: { [key: string]: string };
+  private _advancedOptions?: { [key: string]: string }; 
   public get advancedOptions() {
     return this.getStringMapAttribute('advanced_options');
   }
@@ -4718,7 +4718,7 @@ export class OpensearchDomain extends cdktn.TerraformResource {
   }
 
   // domain_name - computed: false, optional: false, required: true
-  private _domainName?: string;
+  private _domainName?: string; 
   public get domainName() {
     return this.getStringAttribute('domain_name');
   }
@@ -4741,7 +4741,7 @@ export class OpensearchDomain extends cdktn.TerraformResource {
   }
 
   // engine_version - computed: true, optional: true, required: false
-  private _engineVersion?: string;
+  private _engineVersion?: string; 
   public get engineVersion() {
     return this.getStringAttribute('engine_version');
   }
@@ -4757,7 +4757,7 @@ export class OpensearchDomain extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -4773,7 +4773,7 @@ export class OpensearchDomain extends cdktn.TerraformResource {
   }
 
   // ip_address_type - computed: true, optional: true, required: false
-  private _ipAddressType?: string;
+  private _ipAddressType?: string; 
   public get ipAddressType() {
     return this.getStringAttribute('ip_address_type');
   }
@@ -4789,7 +4789,7 @@ export class OpensearchDomain extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -4805,7 +4805,7 @@ export class OpensearchDomain extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -4821,7 +4821,7 @@ export class OpensearchDomain extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

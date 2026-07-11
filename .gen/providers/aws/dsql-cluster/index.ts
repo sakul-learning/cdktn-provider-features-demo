@@ -220,7 +220,7 @@ export class DsqlClusterMultiRegionPropertiesOutputReference extends cdktn.Compl
   }
 
   // clusters - computed: true, optional: true, required: false
-  private _clusters?: string[];
+  private _clusters?: string[]; 
   public get clusters() {
     return cdktn.Fn.tolist(this.getListAttribute('clusters'));
   }
@@ -236,7 +236,7 @@ export class DsqlClusterMultiRegionPropertiesOutputReference extends cdktn.Compl
   }
 
   // witness_region - computed: false, optional: true, required: false
-  private _witnessRegion?: string;
+  private _witnessRegion?: string; 
   public get witnessRegion() {
     return this.getStringAttribute('witness_region');
   }
@@ -390,7 +390,7 @@ export class DsqlClusterTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -406,7 +406,7 @@ export class DsqlClusterTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -422,7 +422,7 @@ export class DsqlClusterTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -507,7 +507,7 @@ export class DsqlCluster extends cdktn.TerraformResource {
   }
 
   // deletion_protection_enabled - computed: true, optional: true, required: false
-  private _deletionProtectionEnabled?: boolean | cdktn.IResolvable;
+  private _deletionProtectionEnabled?: boolean | cdktn.IResolvable; 
   public get deletionProtectionEnabled() {
     return this.getBooleanAttribute('deletion_protection_enabled');
   }
@@ -529,7 +529,7 @@ export class DsqlCluster extends cdktn.TerraformResource {
   }
 
   // force_destroy - computed: true, optional: true, required: false
-  private _forceDestroy?: boolean | cdktn.IResolvable;
+  private _forceDestroy?: boolean | cdktn.IResolvable; 
   public get forceDestroy() {
     return this.getBooleanAttribute('force_destroy');
   }
@@ -550,7 +550,7 @@ export class DsqlCluster extends cdktn.TerraformResource {
   }
 
   // kms_encryption_key - computed: true, optional: true, required: false
-  private _kmsEncryptionKey?: string;
+  private _kmsEncryptionKey?: string; 
   public get kmsEncryptionKey() {
     return this.getStringAttribute('kms_encryption_key');
   }
@@ -566,7 +566,7 @@ export class DsqlCluster extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -582,7 +582,7 @@ export class DsqlCluster extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

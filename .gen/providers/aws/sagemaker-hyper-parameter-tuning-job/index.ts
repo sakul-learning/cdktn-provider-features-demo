@@ -139,7 +139,7 @@ export class SagemakerHyperParameterTuningJobAutotuneOutputReference extends cdk
   }
 
   // mode - computed: false, optional: false, required: true
-  private _mode?: string;
+  private _mode?: string; 
   public get mode() {
     return this.getStringAttribute('mode');
   }
@@ -269,7 +269,7 @@ export class SagemakerHyperParameterTuningJobConfigObjectiveOutputReference exte
   }
 
   // metric_name - computed: false, optional: false, required: true
-  private _metricName?: string;
+  private _metricName?: string; 
   public get metricName() {
     return this.getStringAttribute('metric_name');
   }
@@ -282,7 +282,7 @@ export class SagemakerHyperParameterTuningJobConfigObjectiveOutputReference exte
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -412,7 +412,7 @@ export class SagemakerHyperParameterTuningJobConfigParameterRangesAutoParameters
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -425,7 +425,7 @@ export class SagemakerHyperParameterTuningJobConfigParameterRangesAutoParameters
   }
 
   // value_hint - computed: false, optional: false, required: true
-  private _valueHint?: string;
+  private _valueHint?: string; 
   public get valueHint() {
     return this.getStringAttribute('value_hint');
   }
@@ -555,7 +555,7 @@ export class SagemakerHyperParameterTuningJobConfigParameterRangesCategoricalPar
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -568,7 +568,7 @@ export class SagemakerHyperParameterTuningJobConfigParameterRangesCategoricalPar
   }
 
   // values - computed: false, optional: false, required: true
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -732,7 +732,7 @@ export class SagemakerHyperParameterTuningJobConfigParameterRangesContinuousPara
   }
 
   // max_value - computed: false, optional: false, required: true
-  private _maxValue?: string;
+  private _maxValue?: string; 
   public get maxValue() {
     return this.getStringAttribute('max_value');
   }
@@ -745,7 +745,7 @@ export class SagemakerHyperParameterTuningJobConfigParameterRangesContinuousPara
   }
 
   // min_value - computed: false, optional: false, required: true
-  private _minValue?: string;
+  private _minValue?: string; 
   public get minValue() {
     return this.getStringAttribute('min_value');
   }
@@ -758,7 +758,7 @@ export class SagemakerHyperParameterTuningJobConfigParameterRangesContinuousPara
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -771,7 +771,7 @@ export class SagemakerHyperParameterTuningJobConfigParameterRangesContinuousPara
   }
 
   // scaling_type - computed: true, optional: true, required: false
-  private _scalingType?: string;
+  private _scalingType?: string; 
   public get scalingType() {
     return this.getStringAttribute('scaling_type');
   }
@@ -938,7 +938,7 @@ export class SagemakerHyperParameterTuningJobConfigParameterRangesIntegerParamet
   }
 
   // max_value - computed: false, optional: false, required: true
-  private _maxValue?: string;
+  private _maxValue?: string; 
   public get maxValue() {
     return this.getStringAttribute('max_value');
   }
@@ -951,7 +951,7 @@ export class SagemakerHyperParameterTuningJobConfigParameterRangesIntegerParamet
   }
 
   // min_value - computed: false, optional: false, required: true
-  private _minValue?: string;
+  private _minValue?: string; 
   public get minValue() {
     return this.getStringAttribute('min_value');
   }
@@ -964,7 +964,7 @@ export class SagemakerHyperParameterTuningJobConfigParameterRangesIntegerParamet
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -977,7 +977,7 @@ export class SagemakerHyperParameterTuningJobConfigParameterRangesIntegerParamet
   }
 
   // scaling_type - computed: true, optional: true, required: false
-  private _scalingType?: string;
+  private _scalingType?: string; 
   public get scalingType() {
     return this.getStringAttribute('scaling_type');
   }
@@ -1350,7 +1350,7 @@ export class SagemakerHyperParameterTuningJobConfigResourceLimitsOutputReference
   }
 
   // max_number_of_training_jobs - computed: true, optional: true, required: false
-  private _maxNumberOfTrainingJobs?: number;
+  private _maxNumberOfTrainingJobs?: number; 
   public get maxNumberOfTrainingJobs() {
     return this.getNumberAttribute('max_number_of_training_jobs');
   }
@@ -1366,7 +1366,7 @@ export class SagemakerHyperParameterTuningJobConfigResourceLimitsOutputReference
   }
 
   // max_parallel_training_jobs - computed: false, optional: false, required: true
-  private _maxParallelTrainingJobs?: number;
+  private _maxParallelTrainingJobs?: number; 
   public get maxParallelTrainingJobs() {
     return this.getNumberAttribute('max_parallel_training_jobs');
   }
@@ -1379,7 +1379,7 @@ export class SagemakerHyperParameterTuningJobConfigResourceLimitsOutputReference
   }
 
   // max_runtime_in_seconds - computed: true, optional: true, required: false
-  private _maxRuntimeInSeconds?: number;
+  private _maxRuntimeInSeconds?: number; 
   public get maxRuntimeInSeconds() {
     return this.getNumberAttribute('max_runtime_in_seconds');
   }
@@ -1512,7 +1512,7 @@ export class SagemakerHyperParameterTuningJobConfigStrategyConfigHyperbandStrate
   }
 
   // max_resource - computed: false, optional: true, required: false
-  private _maxResource?: number;
+  private _maxResource?: number; 
   public get maxResource() {
     return this.getNumberAttribute('max_resource');
   }
@@ -1528,7 +1528,7 @@ export class SagemakerHyperParameterTuningJobConfigStrategyConfigHyperbandStrate
   }
 
   // min_resource - computed: false, optional: true, required: false
-  private _minResource?: number;
+  private _minResource?: number; 
   public get minResource() {
     return this.getNumberAttribute('min_resource');
   }
@@ -1762,7 +1762,7 @@ export class SagemakerHyperParameterTuningJobConfigTuningJobCompletionCriteriaBe
   }
 
   // max_number_of_training_jobs_not_improving - computed: true, optional: true, required: false
-  private _maxNumberOfTrainingJobsNotImproving?: number;
+  private _maxNumberOfTrainingJobsNotImproving?: number; 
   public get maxNumberOfTrainingJobsNotImproving() {
     return this.getNumberAttribute('max_number_of_training_jobs_not_improving');
   }
@@ -1878,7 +1878,7 @@ export class SagemakerHyperParameterTuningJobConfigTuningJobCompletionCriteriaCo
   }
 
   // complete_on_convergence - computed: false, optional: true, required: false
-  private _completeOnConvergence?: string;
+  private _completeOnConvergence?: string; 
   public get completeOnConvergence() {
     return this.getStringAttribute('complete_on_convergence');
   }
@@ -2032,7 +2032,7 @@ export class SagemakerHyperParameterTuningJobConfigTuningJobCompletionCriteriaOu
   }
 
   // target_objective_metric_value - computed: false, optional: true, required: false
-  private _targetObjectiveMetricValue?: number;
+  private _targetObjectiveMetricValue?: number; 
   public get targetObjectiveMetricValue() {
     return this.getNumberAttribute('target_objective_metric_value');
   }
@@ -2309,7 +2309,7 @@ export class SagemakerHyperParameterTuningJobConfigAOutputReference extends cdkt
   }
 
   // random_seed - computed: false, optional: true, required: false
-  private _randomSeed?: number;
+  private _randomSeed?: number; 
   public get randomSeed() {
     return this.getNumberAttribute('random_seed');
   }
@@ -2325,7 +2325,7 @@ export class SagemakerHyperParameterTuningJobConfigAOutputReference extends cdkt
   }
 
   // strategy - computed: false, optional: false, required: true
-  private _strategy?: string;
+  private _strategy?: string; 
   public get strategy() {
     return this.getStringAttribute('strategy');
   }
@@ -2338,7 +2338,7 @@ export class SagemakerHyperParameterTuningJobConfigAOutputReference extends cdkt
   }
 
   // training_job_early_stopping_type - computed: true, optional: true, required: false
-  private _trainingJobEarlyStoppingType?: string;
+  private _trainingJobEarlyStoppingType?: string; 
   public get trainingJobEarlyStoppingType() {
     return this.getStringAttribute('training_job_early_stopping_type');
   }
@@ -2553,7 +2553,7 @@ export class SagemakerHyperParameterTuningJobTimeoutsOutputReference extends cdk
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -2569,7 +2569,7 @@ export class SagemakerHyperParameterTuningJobTimeoutsOutputReference extends cdk
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -2665,7 +2665,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionRetryStrategyO
   }
 
   // maximum_retry_attempts - computed: true, optional: true, required: false
-  private _maximumRetryAttempts?: number;
+  private _maximumRetryAttempts?: number; 
   public get maximumRetryAttempts() {
     return this.getNumberAttribute('maximum_retry_attempts');
   }
@@ -2798,7 +2798,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionAlgorithmSpeci
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2811,7 +2811,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionAlgorithmSpeci
   }
 
   // regex - computed: false, optional: false, required: true
-  private _regex?: string;
+  private _regex?: string; 
   public get regex() {
     return this.getStringAttribute('regex');
   }
@@ -2977,7 +2977,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionAlgorithmSpeci
   }
 
   // algorithm_name - computed: true, optional: true, required: false
-  private _algorithmName?: string;
+  private _algorithmName?: string; 
   public get algorithmName() {
     return this.getStringAttribute('algorithm_name');
   }
@@ -2993,7 +2993,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionAlgorithmSpeci
   }
 
   // training_image - computed: true, optional: true, required: false
-  private _trainingImage?: string;
+  private _trainingImage?: string; 
   public get trainingImage() {
     return this.getStringAttribute('training_image');
   }
@@ -3009,7 +3009,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionAlgorithmSpeci
   }
 
   // training_input_mode - computed: false, optional: false, required: true
-  private _trainingInputMode?: string;
+  private _trainingInputMode?: string; 
   public get trainingInputMode() {
     return this.getStringAttribute('training_input_mode');
   }
@@ -3155,7 +3155,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionCheckpointConf
   }
 
   // local_path - computed: false, optional: true, required: false
-  private _localPath?: string;
+  private _localPath?: string; 
   public get localPath() {
     return this.getStringAttribute('local_path');
   }
@@ -3171,7 +3171,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionCheckpointConf
   }
 
   // s3_uri - computed: false, optional: false, required: true
-  private _s3Uri?: string;
+  private _s3Uri?: string; 
   public get s3Uri() {
     return this.getStringAttribute('s3_uri');
   }
@@ -3301,7 +3301,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionHyperParameter
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -3314,7 +3314,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionHyperParameter
   }
 
   // value_hint - computed: false, optional: false, required: true
-  private _valueHint?: string;
+  private _valueHint?: string; 
   public get valueHint() {
     return this.getStringAttribute('value_hint');
   }
@@ -3444,7 +3444,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionHyperParameter
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -3457,7 +3457,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionHyperParameter
   }
 
   // values - computed: false, optional: false, required: true
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -3621,7 +3621,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionHyperParameter
   }
 
   // max_value - computed: false, optional: false, required: true
-  private _maxValue?: string;
+  private _maxValue?: string; 
   public get maxValue() {
     return this.getStringAttribute('max_value');
   }
@@ -3634,7 +3634,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionHyperParameter
   }
 
   // min_value - computed: false, optional: false, required: true
-  private _minValue?: string;
+  private _minValue?: string; 
   public get minValue() {
     return this.getStringAttribute('min_value');
   }
@@ -3647,7 +3647,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionHyperParameter
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -3660,7 +3660,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionHyperParameter
   }
 
   // scaling_type - computed: true, optional: true, required: false
-  private _scalingType?: string;
+  private _scalingType?: string; 
   public get scalingType() {
     return this.getStringAttribute('scaling_type');
   }
@@ -3827,7 +3827,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionHyperParameter
   }
 
   // max_value - computed: false, optional: false, required: true
-  private _maxValue?: string;
+  private _maxValue?: string; 
   public get maxValue() {
     return this.getStringAttribute('max_value');
   }
@@ -3840,7 +3840,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionHyperParameter
   }
 
   // min_value - computed: false, optional: false, required: true
-  private _minValue?: string;
+  private _minValue?: string; 
   public get minValue() {
     return this.getStringAttribute('min_value');
   }
@@ -3853,7 +3853,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionHyperParameter
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -3866,7 +3866,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionHyperParameter
   }
 
   // scaling_type - computed: true, optional: true, required: false
-  private _scalingType?: string;
+  private _scalingType?: string; 
   public get scalingType() {
     return this.getStringAttribute('scaling_type');
   }
@@ -4239,7 +4239,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionHyperParameter
   }
 
   // instance_count - computed: false, optional: true, required: false
-  private _instanceCount?: number;
+  private _instanceCount?: number; 
   public get instanceCount() {
     return this.getNumberAttribute('instance_count');
   }
@@ -4255,7 +4255,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionHyperParameter
   }
 
   // instance_type - computed: false, optional: true, required: false
-  private _instanceType?: string;
+  private _instanceType?: string; 
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -4271,7 +4271,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionHyperParameter
   }
 
   // volume_size_in_gb - computed: false, optional: true, required: false
-  private _volumeSizeInGb?: number;
+  private _volumeSizeInGb?: number; 
   public get volumeSizeInGb() {
     return this.getNumberAttribute('volume_size_in_gb');
   }
@@ -4474,7 +4474,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionHyperParameter
   }
 
   // allocation_strategy - computed: false, optional: true, required: false
-  private _allocationStrategy?: string;
+  private _allocationStrategy?: string; 
   public get allocationStrategy() {
     return this.getStringAttribute('allocation_strategy');
   }
@@ -4490,7 +4490,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionHyperParameter
   }
 
   // instance_count - computed: false, optional: true, required: false
-  private _instanceCount?: number;
+  private _instanceCount?: number; 
   public get instanceCount() {
     return this.getNumberAttribute('instance_count');
   }
@@ -4506,7 +4506,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionHyperParameter
   }
 
   // instance_type - computed: false, optional: true, required: false
-  private _instanceType?: string;
+  private _instanceType?: string; 
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -4522,7 +4522,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionHyperParameter
   }
 
   // volume_kms_key_id - computed: false, optional: true, required: false
-  private _volumeKmsKeyId?: string;
+  private _volumeKmsKeyId?: string; 
   public get volumeKmsKeyId() {
     return this.getStringAttribute('volume_kms_key_id');
   }
@@ -4538,7 +4538,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionHyperParameter
   }
 
   // volume_size_in_gb - computed: false, optional: true, required: false
-  private _volumeSizeInGb?: number;
+  private _volumeSizeInGb?: number; 
   public get volumeSizeInGb() {
     return this.getNumberAttribute('volume_size_in_gb');
   }
@@ -4721,7 +4721,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionInputDataConfi
   }
 
   // directory_path - computed: false, optional: false, required: true
-  private _directoryPath?: string;
+  private _directoryPath?: string; 
   public get directoryPath() {
     return this.getStringAttribute('directory_path');
   }
@@ -4734,7 +4734,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionInputDataConfi
   }
 
   // file_system_access_mode - computed: false, optional: false, required: true
-  private _fileSystemAccessMode?: string;
+  private _fileSystemAccessMode?: string; 
   public get fileSystemAccessMode() {
     return this.getStringAttribute('file_system_access_mode');
   }
@@ -4747,7 +4747,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionInputDataConfi
   }
 
   // file_system_id - computed: false, optional: false, required: true
-  private _fileSystemId?: string;
+  private _fileSystemId?: string; 
   public get fileSystemId() {
     return this.getStringAttribute('file_system_id');
   }
@@ -4760,7 +4760,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionInputDataConfi
   }
 
   // file_system_type - computed: false, optional: false, required: true
-  private _fileSystemType?: string;
+  private _fileSystemType?: string; 
   public get fileSystemType() {
     return this.getStringAttribute('file_system_type');
   }
@@ -4873,7 +4873,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionInputDataConfi
   }
 
   // hub_content_arn - computed: false, optional: false, required: true
-  private _hubContentArn?: string;
+  private _hubContentArn?: string; 
   public get hubContentArn() {
     return this.getStringAttribute('hub_content_arn');
   }
@@ -4986,7 +4986,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionInputDataConfi
   }
 
   // accept_eula - computed: false, optional: false, required: true
-  private _acceptEula?: boolean | cdktn.IResolvable;
+  private _acceptEula?: boolean | cdktn.IResolvable; 
   public get acceptEula() {
     return this.getBooleanAttribute('accept_eula');
   }
@@ -5205,7 +5205,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionInputDataConfi
   }
 
   // attribute_names - computed: false, optional: true, required: false
-  private _attributeNames?: string[];
+  private _attributeNames?: string[]; 
   public get attributeNames() {
     return cdktn.Fn.tolist(this.getListAttribute('attribute_names'));
   }
@@ -5221,7 +5221,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionInputDataConfi
   }
 
   // instance_group_names - computed: false, optional: true, required: false
-  private _instanceGroupNames?: string[];
+  private _instanceGroupNames?: string[]; 
   public get instanceGroupNames() {
     return cdktn.Fn.tolist(this.getListAttribute('instance_group_names'));
   }
@@ -5237,7 +5237,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionInputDataConfi
   }
 
   // s3_data_distribution_type - computed: false, optional: true, required: false
-  private _s3DataDistributionType?: string;
+  private _s3DataDistributionType?: string; 
   public get s3DataDistributionType() {
     return this.getStringAttribute('s3_data_distribution_type');
   }
@@ -5253,7 +5253,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionInputDataConfi
   }
 
   // s3_data_type - computed: false, optional: false, required: true
-  private _s3DataType?: string;
+  private _s3DataType?: string; 
   public get s3DataType() {
     return this.getStringAttribute('s3_data_type');
   }
@@ -5266,7 +5266,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionInputDataConfi
   }
 
   // s3_uri - computed: false, optional: false, required: true
-  private _s3Uri?: string;
+  private _s3Uri?: string; 
   public get s3Uri() {
     return this.getStringAttribute('s3_uri');
   }
@@ -5564,7 +5564,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionInputDataConfi
   }
 
   // seed - computed: false, optional: false, required: true
-  private _seed?: number;
+  private _seed?: number; 
   public get seed() {
     return this.getNumberAttribute('seed');
   }
@@ -5783,7 +5783,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionInputDataConfi
   }
 
   // channel_name - computed: false, optional: false, required: true
-  private _channelName?: string;
+  private _channelName?: string; 
   public get channelName() {
     return this.getStringAttribute('channel_name');
   }
@@ -5796,7 +5796,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionInputDataConfi
   }
 
   // compression_type - computed: false, optional: true, required: false
-  private _compressionType?: string;
+  private _compressionType?: string; 
   public get compressionType() {
     return this.getStringAttribute('compression_type');
   }
@@ -5812,7 +5812,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionInputDataConfi
   }
 
   // content_type - computed: false, optional: true, required: false
-  private _contentType?: string;
+  private _contentType?: string; 
   public get contentType() {
     return this.getStringAttribute('content_type');
   }
@@ -5828,7 +5828,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionInputDataConfi
   }
 
   // input_mode - computed: false, optional: true, required: false
-  private _inputMode?: string;
+  private _inputMode?: string; 
   public get inputMode() {
     return this.getStringAttribute('input_mode');
   }
@@ -5844,7 +5844,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionInputDataConfi
   }
 
   // record_wrapper_type - computed: false, optional: true, required: false
-  private _recordWrapperType?: string;
+  private _recordWrapperType?: string; 
   public get recordWrapperType() {
     return this.getStringAttribute('record_wrapper_type');
   }
@@ -6026,7 +6026,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionOutputDataConf
   }
 
   // compression_type - computed: false, optional: true, required: false
-  private _compressionType?: string;
+  private _compressionType?: string; 
   public get compressionType() {
     return this.getStringAttribute('compression_type');
   }
@@ -6042,7 +6042,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionOutputDataConf
   }
 
   // kms_key_id - computed: false, optional: true, required: false
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -6058,7 +6058,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionOutputDataConf
   }
 
   // s3_output_path - computed: false, optional: false, required: true
-  private _s3OutputPath?: string;
+  private _s3OutputPath?: string; 
   public get s3OutputPath() {
     return this.getStringAttribute('s3_output_path');
   }
@@ -6205,7 +6205,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionResourceConfig
   }
 
   // instance_count - computed: false, optional: false, required: true
-  private _instanceCount?: number;
+  private _instanceCount?: number; 
   public get instanceCount() {
     return this.getNumberAttribute('instance_count');
   }
@@ -6218,7 +6218,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionResourceConfig
   }
 
   // instance_group_name - computed: false, optional: false, required: true
-  private _instanceGroupName?: string;
+  private _instanceGroupName?: string; 
   public get instanceGroupName() {
     return this.getStringAttribute('instance_group_name');
   }
@@ -6231,7 +6231,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionResourceConfig
   }
 
   // instance_type - computed: false, optional: false, required: true
-  private _instanceType?: string;
+  private _instanceType?: string; 
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -6361,7 +6361,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionResourceConfig
   }
 
   // instance_count - computed: false, optional: false, required: true
-  private _instanceCount?: number;
+  private _instanceCount?: number; 
   public get instanceCount() {
     return this.getNumberAttribute('instance_count');
   }
@@ -6374,7 +6374,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionResourceConfig
   }
 
   // ultra_server_id - computed: false, optional: true, required: false
-  private _ultraServerId?: string;
+  private _ultraServerId?: string; 
   public get ultraServerId() {
     return this.getStringAttribute('ultra_server_id');
   }
@@ -6509,7 +6509,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionResourceConfig
   }
 
   // enable_multiple_jobs - computed: false, optional: true, required: false
-  private _enableMultipleJobs?: boolean | cdktn.IResolvable;
+  private _enableMultipleJobs?: boolean | cdktn.IResolvable; 
   public get enableMultipleJobs() {
     return this.getBooleanAttribute('enable_multiple_jobs');
   }
@@ -6764,7 +6764,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionResourceConfig
   }
 
   // instance_count - computed: false, optional: true, required: false
-  private _instanceCount?: number;
+  private _instanceCount?: number; 
   public get instanceCount() {
     return this.getNumberAttribute('instance_count');
   }
@@ -6780,7 +6780,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionResourceConfig
   }
 
   // instance_type - computed: false, optional: true, required: false
-  private _instanceType?: string;
+  private _instanceType?: string; 
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -6796,7 +6796,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionResourceConfig
   }
 
   // keep_alive_period_in_seconds - computed: false, optional: true, required: false
-  private _keepAlivePeriodInSeconds?: number;
+  private _keepAlivePeriodInSeconds?: number; 
   public get keepAlivePeriodInSeconds() {
     return this.getNumberAttribute('keep_alive_period_in_seconds');
   }
@@ -6812,7 +6812,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionResourceConfig
   }
 
   // training_plan_arn - computed: false, optional: true, required: false
-  private _trainingPlanArn?: string;
+  private _trainingPlanArn?: string; 
   public get trainingPlanArn() {
     return this.getStringAttribute('training_plan_arn');
   }
@@ -6828,7 +6828,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionResourceConfig
   }
 
   // volume_kms_key_id - computed: false, optional: true, required: false
-  private _volumeKmsKeyId?: string;
+  private _volumeKmsKeyId?: string; 
   public get volumeKmsKeyId() {
     return this.getStringAttribute('volume_kms_key_id');
   }
@@ -6844,7 +6844,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionResourceConfig
   }
 
   // volume_size_in_gb - computed: false, optional: true, required: false
-  private _volumeSizeInGb?: number;
+  private _volumeSizeInGb?: number; 
   public get volumeSizeInGb() {
     return this.getNumberAttribute('volume_size_in_gb');
   }
@@ -7026,7 +7026,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionStoppingCondit
   }
 
   // max_pending_time_in_seconds - computed: false, optional: true, required: false
-  private _maxPendingTimeInSeconds?: number;
+  private _maxPendingTimeInSeconds?: number; 
   public get maxPendingTimeInSeconds() {
     return this.getNumberAttribute('max_pending_time_in_seconds');
   }
@@ -7042,7 +7042,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionStoppingCondit
   }
 
   // max_runtime_in_seconds - computed: false, optional: true, required: false
-  private _maxRuntimeInSeconds?: number;
+  private _maxRuntimeInSeconds?: number; 
   public get maxRuntimeInSeconds() {
     return this.getNumberAttribute('max_runtime_in_seconds');
   }
@@ -7058,7 +7058,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionStoppingCondit
   }
 
   // max_wait_time_in_seconds - computed: false, optional: true, required: false
-  private _maxWaitTimeInSeconds?: number;
+  private _maxWaitTimeInSeconds?: number; 
   public get maxWaitTimeInSeconds() {
     return this.getNumberAttribute('max_wait_time_in_seconds');
   }
@@ -7191,7 +7191,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionTuningObjectiv
   }
 
   // metric_name - computed: false, optional: false, required: true
-  private _metricName?: string;
+  private _metricName?: string; 
   public get metricName() {
     return this.getStringAttribute('metric_name');
   }
@@ -7204,7 +7204,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionTuningObjectiv
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -7334,7 +7334,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionVpcConfigOutpu
   }
 
   // security_group_ids - computed: false, optional: false, required: true
-  private _securityGroupIds?: string[];
+  private _securityGroupIds?: string[]; 
   public get securityGroupIds() {
     return cdktn.Fn.tolist(this.getListAttribute('security_group_ids'));
   }
@@ -7347,7 +7347,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionVpcConfigOutpu
   }
 
   // subnets - computed: false, optional: false, required: true
-  private _subnets?: string[];
+  private _subnets?: string[]; 
   public get subnets() {
     return cdktn.Fn.tolist(this.getListAttribute('subnets'));
   }
@@ -7769,7 +7769,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionOutputReferenc
   }
 
   // definition_name - computed: false, optional: true, required: false
-  private _definitionName?: string;
+  private _definitionName?: string; 
   public get definitionName() {
     return this.getStringAttribute('definition_name');
   }
@@ -7785,7 +7785,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionOutputReferenc
   }
 
   // enable_inter_container_traffic_encryption - computed: true, optional: true, required: false
-  private _enableInterContainerTrafficEncryption?: boolean | cdktn.IResolvable;
+  private _enableInterContainerTrafficEncryption?: boolean | cdktn.IResolvable; 
   public get enableInterContainerTrafficEncryption() {
     return this.getBooleanAttribute('enable_inter_container_traffic_encryption');
   }
@@ -7801,7 +7801,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionOutputReferenc
   }
 
   // enable_managed_spot_training - computed: true, optional: true, required: false
-  private _enableManagedSpotTraining?: boolean | cdktn.IResolvable;
+  private _enableManagedSpotTraining?: boolean | cdktn.IResolvable; 
   public get enableManagedSpotTraining() {
     return this.getBooleanAttribute('enable_managed_spot_training');
   }
@@ -7817,7 +7817,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionOutputReferenc
   }
 
   // enable_network_isolation - computed: true, optional: true, required: false
-  private _enableNetworkIsolation?: boolean | cdktn.IResolvable;
+  private _enableNetworkIsolation?: boolean | cdktn.IResolvable; 
   public get enableNetworkIsolation() {
     return this.getBooleanAttribute('enable_network_isolation');
   }
@@ -7833,7 +7833,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionOutputReferenc
   }
 
   // environment - computed: false, optional: true, required: false
-  private _environment?: { [key: string]: string };
+  private _environment?: { [key: string]: string }; 
   public get environment() {
     return this.getStringMapAttribute('environment');
   }
@@ -7865,7 +7865,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionOutputReferenc
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -7878,7 +7878,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionOutputReferenc
   }
 
   // static_hyper_parameters - computed: true, optional: true, required: false
-  private _staticHyperParameters?: { [key: string]: string };
+  private _staticHyperParameters?: { [key: string]: string }; 
   public get staticHyperParameters() {
     return this.getStringMapAttribute('static_hyper_parameters');
   }
@@ -8154,7 +8154,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsRetryStrategy
   }
 
   // maximum_retry_attempts - computed: true, optional: true, required: false
-  private _maximumRetryAttempts?: number;
+  private _maximumRetryAttempts?: number; 
   public get maximumRetryAttempts() {
     return this.getNumberAttribute('maximum_retry_attempts');
   }
@@ -8287,7 +8287,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsAlgorithmSpec
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -8300,7 +8300,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsAlgorithmSpec
   }
 
   // regex - computed: false, optional: false, required: true
-  private _regex?: string;
+  private _regex?: string; 
   public get regex() {
     return this.getStringAttribute('regex');
   }
@@ -8466,7 +8466,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsAlgorithmSpec
   }
 
   // algorithm_name - computed: true, optional: true, required: false
-  private _algorithmName?: string;
+  private _algorithmName?: string; 
   public get algorithmName() {
     return this.getStringAttribute('algorithm_name');
   }
@@ -8482,7 +8482,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsAlgorithmSpec
   }
 
   // training_image - computed: true, optional: true, required: false
-  private _trainingImage?: string;
+  private _trainingImage?: string; 
   public get trainingImage() {
     return this.getStringAttribute('training_image');
   }
@@ -8498,7 +8498,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsAlgorithmSpec
   }
 
   // training_input_mode - computed: false, optional: false, required: true
-  private _trainingInputMode?: string;
+  private _trainingInputMode?: string; 
   public get trainingInputMode() {
     return this.getStringAttribute('training_input_mode');
   }
@@ -8644,7 +8644,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsCheckpointCon
   }
 
   // local_path - computed: false, optional: true, required: false
-  private _localPath?: string;
+  private _localPath?: string; 
   public get localPath() {
     return this.getStringAttribute('local_path');
   }
@@ -8660,7 +8660,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsCheckpointCon
   }
 
   // s3_uri - computed: false, optional: false, required: true
-  private _s3Uri?: string;
+  private _s3Uri?: string; 
   public get s3Uri() {
     return this.getStringAttribute('s3_uri');
   }
@@ -8790,7 +8790,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsHyperParamete
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -8803,7 +8803,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsHyperParamete
   }
 
   // value_hint - computed: false, optional: false, required: true
-  private _valueHint?: string;
+  private _valueHint?: string; 
   public get valueHint() {
     return this.getStringAttribute('value_hint');
   }
@@ -8933,7 +8933,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsHyperParamete
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -8946,7 +8946,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsHyperParamete
   }
 
   // values - computed: false, optional: false, required: true
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -9110,7 +9110,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsHyperParamete
   }
 
   // max_value - computed: false, optional: false, required: true
-  private _maxValue?: string;
+  private _maxValue?: string; 
   public get maxValue() {
     return this.getStringAttribute('max_value');
   }
@@ -9123,7 +9123,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsHyperParamete
   }
 
   // min_value - computed: false, optional: false, required: true
-  private _minValue?: string;
+  private _minValue?: string; 
   public get minValue() {
     return this.getStringAttribute('min_value');
   }
@@ -9136,7 +9136,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsHyperParamete
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -9149,7 +9149,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsHyperParamete
   }
 
   // scaling_type - computed: true, optional: true, required: false
-  private _scalingType?: string;
+  private _scalingType?: string; 
   public get scalingType() {
     return this.getStringAttribute('scaling_type');
   }
@@ -9316,7 +9316,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsHyperParamete
   }
 
   // max_value - computed: false, optional: false, required: true
-  private _maxValue?: string;
+  private _maxValue?: string; 
   public get maxValue() {
     return this.getStringAttribute('max_value');
   }
@@ -9329,7 +9329,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsHyperParamete
   }
 
   // min_value - computed: false, optional: false, required: true
-  private _minValue?: string;
+  private _minValue?: string; 
   public get minValue() {
     return this.getStringAttribute('min_value');
   }
@@ -9342,7 +9342,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsHyperParamete
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -9355,7 +9355,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsHyperParamete
   }
 
   // scaling_type - computed: true, optional: true, required: false
-  private _scalingType?: string;
+  private _scalingType?: string; 
   public get scalingType() {
     return this.getStringAttribute('scaling_type');
   }
@@ -9728,7 +9728,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsHyperParamete
   }
 
   // instance_count - computed: false, optional: true, required: false
-  private _instanceCount?: number;
+  private _instanceCount?: number; 
   public get instanceCount() {
     return this.getNumberAttribute('instance_count');
   }
@@ -9744,7 +9744,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsHyperParamete
   }
 
   // instance_type - computed: false, optional: true, required: false
-  private _instanceType?: string;
+  private _instanceType?: string; 
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -9760,7 +9760,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsHyperParamete
   }
 
   // volume_size_in_gb - computed: false, optional: true, required: false
-  private _volumeSizeInGb?: number;
+  private _volumeSizeInGb?: number; 
   public get volumeSizeInGb() {
     return this.getNumberAttribute('volume_size_in_gb');
   }
@@ -9963,7 +9963,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsHyperParamete
   }
 
   // allocation_strategy - computed: false, optional: true, required: false
-  private _allocationStrategy?: string;
+  private _allocationStrategy?: string; 
   public get allocationStrategy() {
     return this.getStringAttribute('allocation_strategy');
   }
@@ -9979,7 +9979,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsHyperParamete
   }
 
   // instance_count - computed: false, optional: true, required: false
-  private _instanceCount?: number;
+  private _instanceCount?: number; 
   public get instanceCount() {
     return this.getNumberAttribute('instance_count');
   }
@@ -9995,7 +9995,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsHyperParamete
   }
 
   // instance_type - computed: false, optional: true, required: false
-  private _instanceType?: string;
+  private _instanceType?: string; 
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -10011,7 +10011,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsHyperParamete
   }
 
   // volume_kms_key_id - computed: false, optional: true, required: false
-  private _volumeKmsKeyId?: string;
+  private _volumeKmsKeyId?: string; 
   public get volumeKmsKeyId() {
     return this.getStringAttribute('volume_kms_key_id');
   }
@@ -10027,7 +10027,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsHyperParamete
   }
 
   // volume_size_in_gb - computed: false, optional: true, required: false
-  private _volumeSizeInGb?: number;
+  private _volumeSizeInGb?: number; 
   public get volumeSizeInGb() {
     return this.getNumberAttribute('volume_size_in_gb');
   }
@@ -10210,7 +10210,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsInputDataConf
   }
 
   // directory_path - computed: false, optional: false, required: true
-  private _directoryPath?: string;
+  private _directoryPath?: string; 
   public get directoryPath() {
     return this.getStringAttribute('directory_path');
   }
@@ -10223,7 +10223,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsInputDataConf
   }
 
   // file_system_access_mode - computed: false, optional: false, required: true
-  private _fileSystemAccessMode?: string;
+  private _fileSystemAccessMode?: string; 
   public get fileSystemAccessMode() {
     return this.getStringAttribute('file_system_access_mode');
   }
@@ -10236,7 +10236,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsInputDataConf
   }
 
   // file_system_id - computed: false, optional: false, required: true
-  private _fileSystemId?: string;
+  private _fileSystemId?: string; 
   public get fileSystemId() {
     return this.getStringAttribute('file_system_id');
   }
@@ -10249,7 +10249,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsInputDataConf
   }
 
   // file_system_type - computed: false, optional: false, required: true
-  private _fileSystemType?: string;
+  private _fileSystemType?: string; 
   public get fileSystemType() {
     return this.getStringAttribute('file_system_type');
   }
@@ -10362,7 +10362,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsInputDataConf
   }
 
   // hub_content_arn - computed: false, optional: false, required: true
-  private _hubContentArn?: string;
+  private _hubContentArn?: string; 
   public get hubContentArn() {
     return this.getStringAttribute('hub_content_arn');
   }
@@ -10475,7 +10475,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsInputDataConf
   }
 
   // accept_eula - computed: false, optional: false, required: true
-  private _acceptEula?: boolean | cdktn.IResolvable;
+  private _acceptEula?: boolean | cdktn.IResolvable; 
   public get acceptEula() {
     return this.getBooleanAttribute('accept_eula');
   }
@@ -10694,7 +10694,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsInputDataConf
   }
 
   // attribute_names - computed: false, optional: true, required: false
-  private _attributeNames?: string[];
+  private _attributeNames?: string[]; 
   public get attributeNames() {
     return cdktn.Fn.tolist(this.getListAttribute('attribute_names'));
   }
@@ -10710,7 +10710,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsInputDataConf
   }
 
   // instance_group_names - computed: false, optional: true, required: false
-  private _instanceGroupNames?: string[];
+  private _instanceGroupNames?: string[]; 
   public get instanceGroupNames() {
     return cdktn.Fn.tolist(this.getListAttribute('instance_group_names'));
   }
@@ -10726,7 +10726,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsInputDataConf
   }
 
   // s3_data_distribution_type - computed: false, optional: true, required: false
-  private _s3DataDistributionType?: string;
+  private _s3DataDistributionType?: string; 
   public get s3DataDistributionType() {
     return this.getStringAttribute('s3_data_distribution_type');
   }
@@ -10742,7 +10742,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsInputDataConf
   }
 
   // s3_data_type - computed: false, optional: false, required: true
-  private _s3DataType?: string;
+  private _s3DataType?: string; 
   public get s3DataType() {
     return this.getStringAttribute('s3_data_type');
   }
@@ -10755,7 +10755,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsInputDataConf
   }
 
   // s3_uri - computed: false, optional: false, required: true
-  private _s3Uri?: string;
+  private _s3Uri?: string; 
   public get s3Uri() {
     return this.getStringAttribute('s3_uri');
   }
@@ -11053,7 +11053,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsInputDataConf
   }
 
   // seed - computed: false, optional: false, required: true
-  private _seed?: number;
+  private _seed?: number; 
   public get seed() {
     return this.getNumberAttribute('seed');
   }
@@ -11272,7 +11272,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsInputDataConf
   }
 
   // channel_name - computed: false, optional: false, required: true
-  private _channelName?: string;
+  private _channelName?: string; 
   public get channelName() {
     return this.getStringAttribute('channel_name');
   }
@@ -11285,7 +11285,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsInputDataConf
   }
 
   // compression_type - computed: false, optional: true, required: false
-  private _compressionType?: string;
+  private _compressionType?: string; 
   public get compressionType() {
     return this.getStringAttribute('compression_type');
   }
@@ -11301,7 +11301,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsInputDataConf
   }
 
   // content_type - computed: false, optional: true, required: false
-  private _contentType?: string;
+  private _contentType?: string; 
   public get contentType() {
     return this.getStringAttribute('content_type');
   }
@@ -11317,7 +11317,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsInputDataConf
   }
 
   // input_mode - computed: false, optional: true, required: false
-  private _inputMode?: string;
+  private _inputMode?: string; 
   public get inputMode() {
     return this.getStringAttribute('input_mode');
   }
@@ -11333,7 +11333,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsInputDataConf
   }
 
   // record_wrapper_type - computed: false, optional: true, required: false
-  private _recordWrapperType?: string;
+  private _recordWrapperType?: string; 
   public get recordWrapperType() {
     return this.getStringAttribute('record_wrapper_type');
   }
@@ -11515,7 +11515,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsOutputDataCon
   }
 
   // compression_type - computed: false, optional: true, required: false
-  private _compressionType?: string;
+  private _compressionType?: string; 
   public get compressionType() {
     return this.getStringAttribute('compression_type');
   }
@@ -11531,7 +11531,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsOutputDataCon
   }
 
   // kms_key_id - computed: false, optional: true, required: false
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -11547,7 +11547,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsOutputDataCon
   }
 
   // s3_output_path - computed: false, optional: false, required: true
-  private _s3OutputPath?: string;
+  private _s3OutputPath?: string; 
   public get s3OutputPath() {
     return this.getStringAttribute('s3_output_path');
   }
@@ -11694,7 +11694,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsResourceConfi
   }
 
   // instance_count - computed: false, optional: false, required: true
-  private _instanceCount?: number;
+  private _instanceCount?: number; 
   public get instanceCount() {
     return this.getNumberAttribute('instance_count');
   }
@@ -11707,7 +11707,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsResourceConfi
   }
 
   // instance_group_name - computed: false, optional: false, required: true
-  private _instanceGroupName?: string;
+  private _instanceGroupName?: string; 
   public get instanceGroupName() {
     return this.getStringAttribute('instance_group_name');
   }
@@ -11720,7 +11720,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsResourceConfi
   }
 
   // instance_type - computed: false, optional: false, required: true
-  private _instanceType?: string;
+  private _instanceType?: string; 
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -11850,7 +11850,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsResourceConfi
   }
 
   // instance_count - computed: false, optional: false, required: true
-  private _instanceCount?: number;
+  private _instanceCount?: number; 
   public get instanceCount() {
     return this.getNumberAttribute('instance_count');
   }
@@ -11863,7 +11863,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsResourceConfi
   }
 
   // ultra_server_id - computed: false, optional: true, required: false
-  private _ultraServerId?: string;
+  private _ultraServerId?: string; 
   public get ultraServerId() {
     return this.getStringAttribute('ultra_server_id');
   }
@@ -11998,7 +11998,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsResourceConfi
   }
 
   // enable_multiple_jobs - computed: false, optional: true, required: false
-  private _enableMultipleJobs?: boolean | cdktn.IResolvable;
+  private _enableMultipleJobs?: boolean | cdktn.IResolvable; 
   public get enableMultipleJobs() {
     return this.getBooleanAttribute('enable_multiple_jobs');
   }
@@ -12253,7 +12253,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsResourceConfi
   }
 
   // instance_count - computed: false, optional: true, required: false
-  private _instanceCount?: number;
+  private _instanceCount?: number; 
   public get instanceCount() {
     return this.getNumberAttribute('instance_count');
   }
@@ -12269,7 +12269,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsResourceConfi
   }
 
   // instance_type - computed: false, optional: true, required: false
-  private _instanceType?: string;
+  private _instanceType?: string; 
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -12285,7 +12285,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsResourceConfi
   }
 
   // keep_alive_period_in_seconds - computed: false, optional: true, required: false
-  private _keepAlivePeriodInSeconds?: number;
+  private _keepAlivePeriodInSeconds?: number; 
   public get keepAlivePeriodInSeconds() {
     return this.getNumberAttribute('keep_alive_period_in_seconds');
   }
@@ -12301,7 +12301,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsResourceConfi
   }
 
   // training_plan_arn - computed: false, optional: true, required: false
-  private _trainingPlanArn?: string;
+  private _trainingPlanArn?: string; 
   public get trainingPlanArn() {
     return this.getStringAttribute('training_plan_arn');
   }
@@ -12317,7 +12317,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsResourceConfi
   }
 
   // volume_kms_key_id - computed: false, optional: true, required: false
-  private _volumeKmsKeyId?: string;
+  private _volumeKmsKeyId?: string; 
   public get volumeKmsKeyId() {
     return this.getStringAttribute('volume_kms_key_id');
   }
@@ -12333,7 +12333,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsResourceConfi
   }
 
   // volume_size_in_gb - computed: false, optional: true, required: false
-  private _volumeSizeInGb?: number;
+  private _volumeSizeInGb?: number; 
   public get volumeSizeInGb() {
     return this.getNumberAttribute('volume_size_in_gb');
   }
@@ -12515,7 +12515,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsStoppingCondi
   }
 
   // max_pending_time_in_seconds - computed: false, optional: true, required: false
-  private _maxPendingTimeInSeconds?: number;
+  private _maxPendingTimeInSeconds?: number; 
   public get maxPendingTimeInSeconds() {
     return this.getNumberAttribute('max_pending_time_in_seconds');
   }
@@ -12531,7 +12531,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsStoppingCondi
   }
 
   // max_runtime_in_seconds - computed: false, optional: true, required: false
-  private _maxRuntimeInSeconds?: number;
+  private _maxRuntimeInSeconds?: number; 
   public get maxRuntimeInSeconds() {
     return this.getNumberAttribute('max_runtime_in_seconds');
   }
@@ -12547,7 +12547,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsStoppingCondi
   }
 
   // max_wait_time_in_seconds - computed: false, optional: true, required: false
-  private _maxWaitTimeInSeconds?: number;
+  private _maxWaitTimeInSeconds?: number; 
   public get maxWaitTimeInSeconds() {
     return this.getNumberAttribute('max_wait_time_in_seconds');
   }
@@ -12680,7 +12680,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsTuningObjecti
   }
 
   // metric_name - computed: false, optional: false, required: true
-  private _metricName?: string;
+  private _metricName?: string; 
   public get metricName() {
     return this.getStringAttribute('metric_name');
   }
@@ -12693,7 +12693,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsTuningObjecti
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -12823,7 +12823,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsVpcConfigOutp
   }
 
   // security_group_ids - computed: false, optional: false, required: true
-  private _securityGroupIds?: string[];
+  private _securityGroupIds?: string[]; 
   public get securityGroupIds() {
     return cdktn.Fn.tolist(this.getListAttribute('security_group_ids'));
   }
@@ -12836,7 +12836,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsVpcConfigOutp
   }
 
   // subnets - computed: false, optional: false, required: true
-  private _subnets?: string[];
+  private _subnets?: string[]; 
   public get subnets() {
     return cdktn.Fn.tolist(this.getListAttribute('subnets'));
   }
@@ -13258,7 +13258,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsOutputReferen
   }
 
   // definition_name - computed: false, optional: true, required: false
-  private _definitionName?: string;
+  private _definitionName?: string; 
   public get definitionName() {
     return this.getStringAttribute('definition_name');
   }
@@ -13274,7 +13274,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsOutputReferen
   }
 
   // enable_inter_container_traffic_encryption - computed: true, optional: true, required: false
-  private _enableInterContainerTrafficEncryption?: boolean | cdktn.IResolvable;
+  private _enableInterContainerTrafficEncryption?: boolean | cdktn.IResolvable; 
   public get enableInterContainerTrafficEncryption() {
     return this.getBooleanAttribute('enable_inter_container_traffic_encryption');
   }
@@ -13290,7 +13290,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsOutputReferen
   }
 
   // enable_managed_spot_training - computed: true, optional: true, required: false
-  private _enableManagedSpotTraining?: boolean | cdktn.IResolvable;
+  private _enableManagedSpotTraining?: boolean | cdktn.IResolvable; 
   public get enableManagedSpotTraining() {
     return this.getBooleanAttribute('enable_managed_spot_training');
   }
@@ -13306,7 +13306,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsOutputReferen
   }
 
   // enable_network_isolation - computed: true, optional: true, required: false
-  private _enableNetworkIsolation?: boolean | cdktn.IResolvable;
+  private _enableNetworkIsolation?: boolean | cdktn.IResolvable; 
   public get enableNetworkIsolation() {
     return this.getBooleanAttribute('enable_network_isolation');
   }
@@ -13322,7 +13322,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsOutputReferen
   }
 
   // environment - computed: false, optional: true, required: false
-  private _environment?: { [key: string]: string };
+  private _environment?: { [key: string]: string }; 
   public get environment() {
     return this.getStringMapAttribute('environment');
   }
@@ -13354,7 +13354,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsOutputReferen
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -13367,7 +13367,7 @@ export class SagemakerHyperParameterTuningJobTrainingJobDefinitionsOutputReferen
   }
 
   // static_hyper_parameters - computed: true, optional: true, required: false
-  private _staticHyperParameters?: { [key: string]: string };
+  private _staticHyperParameters?: { [key: string]: string }; 
   public get staticHyperParameters() {
     return this.getStringMapAttribute('static_hyper_parameters');
   }
@@ -13643,7 +13643,7 @@ export class SagemakerHyperParameterTuningJobWarmStartConfigParentHyperParameter
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -13775,7 +13775,7 @@ export class SagemakerHyperParameterTuningJobWarmStartConfigOutputReference exte
   }
 
   // warm_start_type - computed: false, optional: true, required: false
-  private _warmStartType?: string;
+  private _warmStartType?: string; 
   public get warmStartType() {
     return this.getStringAttribute('warm_start_type');
   }
@@ -13903,7 +13903,7 @@ export class SagemakerHyperParameterTuningJob extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -13916,7 +13916,7 @@ export class SagemakerHyperParameterTuningJob extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -13937,7 +13937,7 @@ export class SagemakerHyperParameterTuningJob extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

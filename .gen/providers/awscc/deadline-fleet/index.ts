@@ -385,7 +385,7 @@ export class DeadlineFleetConfigurationCustomerManagedAutoScalingConfigurationOu
   }
 
   // scale_out_workers_per_minute - computed: true, optional: true, required: false
-  private _scaleOutWorkersPerMinute?: number;
+  private _scaleOutWorkersPerMinute?: number; 
   public get scaleOutWorkersPerMinute() {
     return this.getNumberAttribute('scale_out_workers_per_minute');
   }
@@ -401,7 +401,7 @@ export class DeadlineFleetConfigurationCustomerManagedAutoScalingConfigurationOu
   }
 
   // standby_worker_count - computed: true, optional: true, required: false
-  private _standbyWorkerCount?: number;
+  private _standbyWorkerCount?: number; 
   public get standbyWorkerCount() {
     return this.getNumberAttribute('standby_worker_count');
   }
@@ -417,7 +417,7 @@ export class DeadlineFleetConfigurationCustomerManagedAutoScalingConfigurationOu
   }
 
   // worker_idle_duration_seconds - computed: true, optional: true, required: false
-  private _workerIdleDurationSeconds?: number;
+  private _workerIdleDurationSeconds?: number; 
   public get workerIdleDurationSeconds() {
     return this.getNumberAttribute('worker_idle_duration_seconds');
   }
@@ -528,7 +528,7 @@ export class DeadlineFleetConfigurationCustomerManagedWorkerCapabilitiesAccelera
   }
 
   // max - computed: true, optional: true, required: false
-  private _max?: number;
+  private _max?: number; 
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -544,7 +544,7 @@ export class DeadlineFleetConfigurationCustomerManagedWorkerCapabilitiesAccelera
   }
 
   // min - computed: true, optional: true, required: false
-  private _min?: number;
+  private _min?: number; 
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -655,7 +655,7 @@ export class DeadlineFleetConfigurationCustomerManagedWorkerCapabilitiesAccelera
   }
 
   // max - computed: true, optional: true, required: false
-  private _max?: number;
+  private _max?: number; 
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -671,7 +671,7 @@ export class DeadlineFleetConfigurationCustomerManagedWorkerCapabilitiesAccelera
   }
 
   // min - computed: true, optional: true, required: false
-  private _min?: number;
+  private _min?: number; 
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -801,7 +801,7 @@ export class DeadlineFleetConfigurationCustomerManagedWorkerCapabilitiesCustomAm
   }
 
   // max - computed: true, optional: true, required: false
-  private _max?: number;
+  private _max?: number; 
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -817,7 +817,7 @@ export class DeadlineFleetConfigurationCustomerManagedWorkerCapabilitiesCustomAm
   }
 
   // min - computed: true, optional: true, required: false
-  private _min?: number;
+  private _min?: number; 
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -833,7 +833,7 @@ export class DeadlineFleetConfigurationCustomerManagedWorkerCapabilitiesCustomAm
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -966,7 +966,7 @@ export class DeadlineFleetConfigurationCustomerManagedWorkerCapabilitiesCustomAt
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -982,7 +982,7 @@ export class DeadlineFleetConfigurationCustomerManagedWorkerCapabilitiesCustomAt
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -1113,7 +1113,7 @@ export class DeadlineFleetConfigurationCustomerManagedWorkerCapabilitiesMemoryMi
   }
 
   // max - computed: true, optional: true, required: false
-  private _max?: number;
+  private _max?: number; 
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -1129,7 +1129,7 @@ export class DeadlineFleetConfigurationCustomerManagedWorkerCapabilitiesMemoryMi
   }
 
   // min - computed: true, optional: true, required: false
-  private _min?: number;
+  private _min?: number; 
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -1240,7 +1240,7 @@ export class DeadlineFleetConfigurationCustomerManagedWorkerCapabilitiesVCpuCoun
   }
 
   // max - computed: true, optional: true, required: false
-  private _max?: number;
+  private _max?: number; 
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -1256,7 +1256,7 @@ export class DeadlineFleetConfigurationCustomerManagedWorkerCapabilitiesVCpuCoun
   }
 
   // min - computed: true, optional: true, required: false
-  private _min?: number;
+  private _min?: number; 
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -1518,7 +1518,7 @@ export class DeadlineFleetConfigurationCustomerManagedWorkerCapabilitiesOutputRe
   }
 
   // accelerator_types - computed: true, optional: true, required: false
-  private _acceleratorTypes?: string[];
+  private _acceleratorTypes?: string[]; 
   public get acceleratorTypes() {
     return this.getListAttribute('accelerator_types');
   }
@@ -1534,7 +1534,7 @@ export class DeadlineFleetConfigurationCustomerManagedWorkerCapabilitiesOutputRe
   }
 
   // cpu_architecture_type - computed: true, optional: true, required: false
-  private _cpuArchitectureType?: string;
+  private _cpuArchitectureType?: string; 
   public get cpuArchitectureType() {
     return this.getStringAttribute('cpu_architecture_type');
   }
@@ -1598,7 +1598,7 @@ export class DeadlineFleetConfigurationCustomerManagedWorkerCapabilitiesOutputRe
   }
 
   // os_family - computed: true, optional: true, required: false
-  private _osFamily?: string;
+  private _osFamily?: string; 
   public get osFamily() {
     return this.getStringAttribute('os_family');
   }
@@ -1792,7 +1792,7 @@ export class DeadlineFleetConfigurationCustomerManagedOutputReference extends cd
   }
 
   // mode - computed: true, optional: true, required: false
-  private _mode?: string;
+  private _mode?: string; 
   public get mode() {
     return this.getStringAttribute('mode');
   }
@@ -1808,7 +1808,7 @@ export class DeadlineFleetConfigurationCustomerManagedOutputReference extends cd
   }
 
   // storage_profile_id - computed: true, optional: true, required: false
-  private _storageProfileId?: string;
+  private _storageProfileId?: string; 
   public get storageProfileId() {
     return this.getStringAttribute('storage_profile_id');
   }
@@ -1824,7 +1824,7 @@ export class DeadlineFleetConfigurationCustomerManagedOutputReference extends cd
   }
 
   // tag_propagation_mode - computed: true, optional: true, required: false
-  private _tagPropagationMode?: string;
+  private _tagPropagationMode?: string; 
   public get tagPropagationMode() {
     return this.getStringAttribute('tag_propagation_mode');
   }
@@ -1968,7 +1968,7 @@ export class DeadlineFleetConfigurationServiceManagedEc2AutoScalingConfiguration
   }
 
   // scale_out_workers_per_minute - computed: true, optional: true, required: false
-  private _scaleOutWorkersPerMinute?: number;
+  private _scaleOutWorkersPerMinute?: number; 
   public get scaleOutWorkersPerMinute() {
     return this.getNumberAttribute('scale_out_workers_per_minute');
   }
@@ -1984,7 +1984,7 @@ export class DeadlineFleetConfigurationServiceManagedEc2AutoScalingConfiguration
   }
 
   // standby_worker_count - computed: true, optional: true, required: false
-  private _standbyWorkerCount?: number;
+  private _standbyWorkerCount?: number; 
   public get standbyWorkerCount() {
     return this.getNumberAttribute('standby_worker_count');
   }
@@ -2000,7 +2000,7 @@ export class DeadlineFleetConfigurationServiceManagedEc2AutoScalingConfiguration
   }
 
   // worker_idle_duration_seconds - computed: true, optional: true, required: false
-  private _workerIdleDurationSeconds?: number;
+  private _workerIdleDurationSeconds?: number; 
   public get workerIdleDurationSeconds() {
     return this.getNumberAttribute('worker_idle_duration_seconds');
   }
@@ -2111,7 +2111,7 @@ export class DeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesAcce
   }
 
   // max - computed: true, optional: true, required: false
-  private _max?: number;
+  private _max?: number; 
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -2127,7 +2127,7 @@ export class DeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesAcce
   }
 
   // min - computed: true, optional: true, required: false
-  private _min?: number;
+  private _min?: number; 
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -2240,7 +2240,7 @@ export class DeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesAcce
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2256,7 +2256,7 @@ export class DeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesAcce
   }
 
   // runtime - computed: true, optional: true, required: false
-  private _runtime?: string;
+  private _runtime?: string; 
   public get runtime() {
     return this.getStringAttribute('runtime');
   }
@@ -2533,7 +2533,7 @@ export class DeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesCust
   }
 
   // max - computed: true, optional: true, required: false
-  private _max?: number;
+  private _max?: number; 
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -2549,7 +2549,7 @@ export class DeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesCust
   }
 
   // min - computed: true, optional: true, required: false
-  private _min?: number;
+  private _min?: number; 
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -2565,7 +2565,7 @@ export class DeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesCust
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2698,7 +2698,7 @@ export class DeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesCust
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2714,7 +2714,7 @@ export class DeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesCust
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -2845,7 +2845,7 @@ export class DeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesMemo
   }
 
   // max - computed: true, optional: true, required: false
-  private _max?: number;
+  private _max?: number; 
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -2861,7 +2861,7 @@ export class DeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesMemo
   }
 
   // min - computed: true, optional: true, required: false
-  private _min?: number;
+  private _min?: number; 
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -2989,7 +2989,7 @@ export class DeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesRoot
   }
 
   // iops - computed: true, optional: true, required: false
-  private _iops?: number;
+  private _iops?: number; 
   public get iops() {
     return this.getNumberAttribute('iops');
   }
@@ -3005,7 +3005,7 @@ export class DeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesRoot
   }
 
   // size_gi_b - computed: true, optional: true, required: false
-  private _sizeGiB?: number;
+  private _sizeGiB?: number; 
   public get sizeGiB() {
     return this.getNumberAttribute('size_gi_b');
   }
@@ -3021,7 +3021,7 @@ export class DeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesRoot
   }
 
   // throughput_mi_b - computed: true, optional: true, required: false
-  private _throughputMiB?: number;
+  private _throughputMiB?: number; 
   public get throughputMiB() {
     return this.getNumberAttribute('throughput_mi_b');
   }
@@ -3132,7 +3132,7 @@ export class DeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesVCpu
   }
 
   // max - computed: true, optional: true, required: false
-  private _max?: number;
+  private _max?: number; 
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -3148,7 +3148,7 @@ export class DeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesVCpu
   }
 
   // min - computed: true, optional: true, required: false
-  private _min?: number;
+  private _min?: number; 
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -3411,7 +3411,7 @@ export class DeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesOutp
   }
 
   // allowed_instance_types - computed: true, optional: true, required: false
-  private _allowedInstanceTypes?: string[];
+  private _allowedInstanceTypes?: string[]; 
   public get allowedInstanceTypes() {
     return this.getListAttribute('allowed_instance_types');
   }
@@ -3427,7 +3427,7 @@ export class DeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesOutp
   }
 
   // cpu_architecture_type - computed: true, optional: true, required: false
-  private _cpuArchitectureType?: string;
+  private _cpuArchitectureType?: string; 
   public get cpuArchitectureType() {
     return this.getStringAttribute('cpu_architecture_type');
   }
@@ -3475,7 +3475,7 @@ export class DeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesOutp
   }
 
   // excluded_instance_types - computed: true, optional: true, required: false
-  private _excludedInstanceTypes?: string[];
+  private _excludedInstanceTypes?: string[]; 
   public get excludedInstanceTypes() {
     return this.getListAttribute('excluded_instance_types');
   }
@@ -3507,7 +3507,7 @@ export class DeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesOutp
   }
 
   // os_family - computed: true, optional: true, required: false
-  private _osFamily?: string;
+  private _osFamily?: string; 
   public get osFamily() {
     return this.getStringAttribute('os_family');
   }
@@ -3633,7 +3633,7 @@ export class DeadlineFleetConfigurationServiceManagedEc2InstanceMarketOptionsOut
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -3795,7 +3795,7 @@ export class DeadlineFleetConfigurationServiceManagedEc2PersistentVolumeConfigur
   }
 
   // iops - computed: true, optional: true, required: false
-  private _iops?: number;
+  private _iops?: number; 
   public get iops() {
     return this.getNumberAttribute('iops');
   }
@@ -3811,7 +3811,7 @@ export class DeadlineFleetConfigurationServiceManagedEc2PersistentVolumeConfigur
   }
 
   // last_used_ttl_hours - computed: true, optional: true, required: false
-  private _lastUsedTtlHours?: number;
+  private _lastUsedTtlHours?: number; 
   public get lastUsedTtlHours() {
     return this.getNumberAttribute('last_used_ttl_hours');
   }
@@ -3827,7 +3827,7 @@ export class DeadlineFleetConfigurationServiceManagedEc2PersistentVolumeConfigur
   }
 
   // mount_path - computed: true, optional: true, required: false
-  private _mountPath?: string;
+  private _mountPath?: string; 
   public get mountPath() {
     return this.getStringAttribute('mount_path');
   }
@@ -3843,7 +3843,7 @@ export class DeadlineFleetConfigurationServiceManagedEc2PersistentVolumeConfigur
   }
 
   // size_gi_b - computed: true, optional: true, required: false
-  private _sizeGiB?: number;
+  private _sizeGiB?: number; 
   public get sizeGiB() {
     return this.getNumberAttribute('size_gi_b');
   }
@@ -3859,7 +3859,7 @@ export class DeadlineFleetConfigurationServiceManagedEc2PersistentVolumeConfigur
   }
 
   // throughput_mi_b - computed: true, optional: true, required: false
-  private _throughputMiB?: number;
+  private _throughputMiB?: number; 
   public get throughputMiB() {
     return this.getNumberAttribute('throughput_mi_b');
   }
@@ -3953,7 +3953,7 @@ export class DeadlineFleetConfigurationServiceManagedEc2VpcConfigurationOutputRe
   }
 
   // resource_configuration_arns - computed: true, optional: true, required: false
-  private _resourceConfigurationArns?: string[];
+  private _resourceConfigurationArns?: string[]; 
   public get resourceConfigurationArns() {
     return this.getListAttribute('resource_configuration_arns');
   }
@@ -4196,7 +4196,7 @@ export class DeadlineFleetConfigurationServiceManagedEc2OutputReference extends 
   }
 
   // storage_profile_id - computed: true, optional: true, required: false
-  private _storageProfileId?: string;
+  private _storageProfileId?: string; 
   public get storageProfileId() {
     return this.getStringAttribute('storage_profile_id');
   }
@@ -4450,7 +4450,7 @@ export class DeadlineFleetHostConfigurationOutputReference extends cdktn.Complex
   }
 
   // script_body - computed: true, optional: true, required: false
-  private _scriptBody?: string;
+  private _scriptBody?: string; 
   public get scriptBody() {
     return this.getStringAttribute('script_body');
   }
@@ -4466,7 +4466,7 @@ export class DeadlineFleetHostConfigurationOutputReference extends cdktn.Complex
   }
 
   // script_timeout_seconds - computed: true, optional: true, required: false
-  private _scriptTimeoutSeconds?: number;
+  private _scriptTimeoutSeconds?: number; 
   public get scriptTimeoutSeconds() {
     return this.getNumberAttribute('script_timeout_seconds');
   }
@@ -4483,13 +4483,13 @@ export class DeadlineFleetHostConfigurationOutputReference extends cdktn.Complex
 }
 export interface DeadlineFleetTags {
   /**
-  * The key name of the tag. You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
+  * The key name of the tag. You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_fleet#key DeadlineFleet#key}
   */
   readonly key?: string;
   /**
-  * The value for the tag. You can specify a value that is 1 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
+  * The value for the tag. You can specify a value that is 1 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_fleet#value DeadlineFleet#value}
   */
@@ -4583,7 +4583,7 @@ export class DeadlineFleetTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -4599,7 +4599,7 @@ export class DeadlineFleetTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -4725,7 +4725,7 @@ export class DeadlineFleet extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -4741,7 +4741,7 @@ export class DeadlineFleet extends cdktn.TerraformResource {
   }
 
   // display_name - computed: false, optional: false, required: true
-  private _displayName?: string;
+  private _displayName?: string; 
   public get displayName() {
     return this.getStringAttribute('display_name');
   }
@@ -4754,7 +4754,7 @@ export class DeadlineFleet extends cdktn.TerraformResource {
   }
 
   // farm_id - computed: false, optional: false, required: true
-  private _farmId?: string;
+  private _farmId?: string; 
   public get farmId() {
     return this.getStringAttribute('farm_id');
   }
@@ -4793,7 +4793,7 @@ export class DeadlineFleet extends cdktn.TerraformResource {
   }
 
   // max_worker_count - computed: false, optional: false, required: true
-  private _maxWorkerCount?: number;
+  private _maxWorkerCount?: number; 
   public get maxWorkerCount() {
     return this.getNumberAttribute('max_worker_count');
   }
@@ -4806,7 +4806,7 @@ export class DeadlineFleet extends cdktn.TerraformResource {
   }
 
   // min_worker_count - computed: true, optional: true, required: false
-  private _minWorkerCount?: number;
+  private _minWorkerCount?: number; 
   public get minWorkerCount() {
     return this.getNumberAttribute('min_worker_count');
   }
@@ -4822,7 +4822,7 @@ export class DeadlineFleet extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }

@@ -136,7 +136,7 @@ export class LakeformationLfTagExpressionExpressionOutputReference extends cdktn
   }
 
   // tag_key - computed: false, optional: false, required: true
-  private _tagKey?: string;
+  private _tagKey?: string; 
   public get tagKey() {
     return this.getStringAttribute('tag_key');
   }
@@ -149,7 +149,7 @@ export class LakeformationLfTagExpressionExpressionOutputReference extends cdktn
   }
 
   // tag_values - computed: false, optional: false, required: true
-  private _tagValues?: string[];
+  private _tagValues?: string[]; 
   public get tagValues() {
     return cdktn.Fn.tolist(this.getListAttribute('tag_values'));
   }
@@ -244,7 +244,7 @@ export class LakeformationLfTagExpression extends cdktn.TerraformResource {
   // ==========
 
   // catalog_id - computed: true, optional: true, required: false
-  private _catalogId?: string;
+  private _catalogId?: string; 
   public get catalogId() {
     return this.getStringAttribute('catalog_id');
   }
@@ -260,7 +260,7 @@ export class LakeformationLfTagExpression extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -276,7 +276,7 @@ export class LakeformationLfTagExpression extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -289,7 +289,7 @@ export class LakeformationLfTagExpression extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

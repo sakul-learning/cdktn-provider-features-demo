@@ -149,7 +149,7 @@ export class DataAwsElasticacheUserAuthenticationModeOutputReference extends cdk
   }
 
   // password_count - computed: false, optional: true, required: false
-  private _passwordCount?: number;
+  private _passwordCount?: number; 
   public get passwordCount() {
     return this.getNumberAttribute('password_count');
   }
@@ -165,7 +165,7 @@ export class DataAwsElasticacheUserAuthenticationModeOutputReference extends cdk
   }
 
   // type - computed: false, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -267,7 +267,7 @@ export class DataAwsElasticacheUser extends cdktn.TerraformDataSource {
   // ==========
 
   // access_string - computed: false, optional: true, required: false
-  private _accessString?: string;
+  private _accessString?: string; 
   public get accessString() {
     return this.getStringAttribute('access_string');
   }
@@ -283,7 +283,7 @@ export class DataAwsElasticacheUser extends cdktn.TerraformDataSource {
   }
 
   // engine - computed: false, optional: true, required: false
-  private _engine?: string;
+  private _engine?: string; 
   public get engine() {
     return this.getStringAttribute('engine');
   }
@@ -299,7 +299,7 @@ export class DataAwsElasticacheUser extends cdktn.TerraformDataSource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -315,7 +315,7 @@ export class DataAwsElasticacheUser extends cdktn.TerraformDataSource {
   }
 
   // no_password_required - computed: false, optional: true, required: false
-  private _noPasswordRequired?: boolean | cdktn.IResolvable;
+  private _noPasswordRequired?: boolean | cdktn.IResolvable; 
   public get noPasswordRequired() {
     return this.getBooleanAttribute('no_password_required');
   }
@@ -331,7 +331,7 @@ export class DataAwsElasticacheUser extends cdktn.TerraformDataSource {
   }
 
   // passwords - computed: false, optional: true, required: false
-  private _passwords?: string[];
+  private _passwords?: string[]; 
   public get passwords() {
     return cdktn.Fn.tolist(this.getListAttribute('passwords'));
   }
@@ -347,7 +347,7 @@ export class DataAwsElasticacheUser extends cdktn.TerraformDataSource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -363,7 +363,7 @@ export class DataAwsElasticacheUser extends cdktn.TerraformDataSource {
   }
 
   // user_id - computed: false, optional: false, required: true
-  private _userId?: string;
+  private _userId?: string; 
   public get userId() {
     return this.getStringAttribute('user_id');
   }
@@ -376,7 +376,7 @@ export class DataAwsElasticacheUser extends cdktn.TerraformDataSource {
   }
 
   // user_name - computed: false, optional: true, required: false
-  private _userName?: string;
+  private _userName?: string; 
   public get userName() {
     return this.getStringAttribute('user_name');
   }

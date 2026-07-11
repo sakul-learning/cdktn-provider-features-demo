@@ -96,7 +96,7 @@ export class GuarddutyMember extends cdktn.TerraformResource {
   // ==========
 
   // detector_id - computed: true, optional: true, required: false
-  private _detectorId?: string;
+  private _detectorId?: string; 
   public get detectorId() {
     return this.getStringAttribute('detector_id');
   }
@@ -112,7 +112,7 @@ export class GuarddutyMember extends cdktn.TerraformResource {
   }
 
   // disable_email_notification - computed: true, optional: true, required: false
-  private _disableEmailNotification?: boolean | cdktn.IResolvable;
+  private _disableEmailNotification?: boolean | cdktn.IResolvable; 
   public get disableEmailNotification() {
     return this.getBooleanAttribute('disable_email_notification');
   }
@@ -128,7 +128,7 @@ export class GuarddutyMember extends cdktn.TerraformResource {
   }
 
   // email - computed: false, optional: false, required: true
-  private _email?: string;
+  private _email?: string; 
   public get email() {
     return this.getStringAttribute('email');
   }
@@ -146,7 +146,7 @@ export class GuarddutyMember extends cdktn.TerraformResource {
   }
 
   // member_id - computed: true, optional: true, required: false
-  private _memberId?: string;
+  private _memberId?: string; 
   public get memberId() {
     return this.getStringAttribute('member_id');
   }
@@ -162,7 +162,7 @@ export class GuarddutyMember extends cdktn.TerraformResource {
   }
 
   // message - computed: true, optional: true, required: false
-  private _message?: string;
+  private _message?: string; 
   public get message() {
     return this.getStringAttribute('message');
   }
@@ -178,7 +178,7 @@ export class GuarddutyMember extends cdktn.TerraformResource {
   }
 
   // status - computed: true, optional: true, required: false
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }

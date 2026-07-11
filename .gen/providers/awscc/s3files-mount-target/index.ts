@@ -101,7 +101,7 @@ export class S3FilesMountTarget extends cdktn.TerraformResource {
   }
 
   // file_system_id - computed: false, optional: false, required: true
-  private _fileSystemId?: string;
+  private _fileSystemId?: string; 
   public get fileSystemId() {
     return this.getStringAttribute('file_system_id');
   }
@@ -119,7 +119,7 @@ export class S3FilesMountTarget extends cdktn.TerraformResource {
   }
 
   // ip_address_type - computed: true, optional: true, required: false
-  private _ipAddressType?: string;
+  private _ipAddressType?: string; 
   public get ipAddressType() {
     return this.getStringAttribute('ip_address_type');
   }
@@ -135,7 +135,7 @@ export class S3FilesMountTarget extends cdktn.TerraformResource {
   }
 
   // ipv_4_address - computed: true, optional: true, required: false
-  private _ipv4Address?: string;
+  private _ipv4Address?: string; 
   public get ipv4Address() {
     return this.getStringAttribute('ipv_4_address');
   }
@@ -151,7 +151,7 @@ export class S3FilesMountTarget extends cdktn.TerraformResource {
   }
 
   // ipv_6_address - computed: true, optional: true, required: false
-  private _ipv6Address?: string;
+  private _ipv6Address?: string; 
   public get ipv6Address() {
     return this.getStringAttribute('ipv_6_address');
   }
@@ -182,7 +182,7 @@ export class S3FilesMountTarget extends cdktn.TerraformResource {
   }
 
   // security_groups - computed: true, optional: true, required: false
-  private _securityGroups?: string[];
+  private _securityGroups?: string[]; 
   public get securityGroups() {
     return cdktn.Fn.tolist(this.getListAttribute('security_groups'));
   }
@@ -208,7 +208,7 @@ export class S3FilesMountTarget extends cdktn.TerraformResource {
   }
 
   // subnet_id - computed: false, optional: false, required: true
-  private _subnetId?: string;
+  private _subnetId?: string; 
   public get subnetId() {
     return this.getStringAttribute('subnet_id');
   }

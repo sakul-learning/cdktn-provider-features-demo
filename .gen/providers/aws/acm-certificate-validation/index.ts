@@ -114,7 +114,7 @@ export class AcmCertificateValidationTimeoutsOutputReference extends cdktn.Compl
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -192,7 +192,7 @@ export class AcmCertificateValidation extends cdktn.TerraformResource {
   // ==========
 
   // certificate_arn - computed: false, optional: false, required: true
-  private _certificateArn?: string;
+  private _certificateArn?: string; 
   public get certificateArn() {
     return this.getStringAttribute('certificate_arn');
   }
@@ -205,7 +205,7 @@ export class AcmCertificateValidation extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -221,7 +221,7 @@ export class AcmCertificateValidation extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -237,7 +237,7 @@ export class AcmCertificateValidation extends cdktn.TerraformResource {
   }
 
   // validation_record_fqdns - computed: false, optional: true, required: false
-  private _validationRecordFqdns?: string[];
+  private _validationRecordFqdns?: string[]; 
   public get validationRecordFqdns() {
     return cdktn.Fn.tolist(this.getListAttribute('validation_record_fqdns'));
   }

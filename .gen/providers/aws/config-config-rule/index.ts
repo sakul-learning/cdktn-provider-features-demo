@@ -144,7 +144,7 @@ export class ConfigConfigRuleEvaluationModeOutputReference extends cdktn.Complex
   }
 
   // mode - computed: true, optional: true, required: false
-  private _mode?: string;
+  private _mode?: string; 
   public get mode() {
     return this.getStringAttribute('mode');
   }
@@ -299,7 +299,7 @@ export class ConfigConfigRuleScopeOutputReference extends cdktn.ComplexObject {
   }
 
   // compliance_resource_id - computed: false, optional: true, required: false
-  private _complianceResourceId?: string;
+  private _complianceResourceId?: string; 
   public get complianceResourceId() {
     return this.getStringAttribute('compliance_resource_id');
   }
@@ -315,7 +315,7 @@ export class ConfigConfigRuleScopeOutputReference extends cdktn.ComplexObject {
   }
 
   // compliance_resource_types - computed: false, optional: true, required: false
-  private _complianceResourceTypes?: string[];
+  private _complianceResourceTypes?: string[]; 
   public get complianceResourceTypes() {
     return cdktn.Fn.tolist(this.getListAttribute('compliance_resource_types'));
   }
@@ -331,7 +331,7 @@ export class ConfigConfigRuleScopeOutputReference extends cdktn.ComplexObject {
   }
 
   // tag_key - computed: false, optional: true, required: false
-  private _tagKey?: string;
+  private _tagKey?: string; 
   public get tagKey() {
     return this.getStringAttribute('tag_key');
   }
@@ -347,7 +347,7 @@ export class ConfigConfigRuleScopeOutputReference extends cdktn.ComplexObject {
   }
 
   // tag_value - computed: false, optional: true, required: false
-  private _tagValue?: string;
+  private _tagValue?: string; 
   public get tagValue() {
     return this.getStringAttribute('tag_value');
   }
@@ -465,7 +465,7 @@ export class ConfigConfigRuleSourceCustomPolicyDetailsOutputReference extends cd
   }
 
   // enable_debug_log_delivery - computed: false, optional: true, required: false
-  private _enableDebugLogDelivery?: boolean | cdktn.IResolvable;
+  private _enableDebugLogDelivery?: boolean | cdktn.IResolvable; 
   public get enableDebugLogDelivery() {
     return this.getBooleanAttribute('enable_debug_log_delivery');
   }
@@ -481,7 +481,7 @@ export class ConfigConfigRuleSourceCustomPolicyDetailsOutputReference extends cd
   }
 
   // policy_runtime - computed: false, optional: false, required: true
-  private _policyRuntime?: string;
+  private _policyRuntime?: string; 
   public get policyRuntime() {
     return this.getStringAttribute('policy_runtime');
   }
@@ -494,7 +494,7 @@ export class ConfigConfigRuleSourceCustomPolicyDetailsOutputReference extends cd
   }
 
   // policy_text - computed: false, optional: false, required: true
-  private _policyText?: string;
+  private _policyText?: string; 
   public get policyText() {
     return this.getStringAttribute('policy_text');
   }
@@ -621,7 +621,7 @@ export class ConfigConfigRuleSourceSourceDetailOutputReference extends cdktn.Com
   }
 
   // event_source - computed: false, optional: true, required: false
-  private _eventSource?: string;
+  private _eventSource?: string; 
   public get eventSource() {
     return this.getStringAttribute('event_source');
   }
@@ -637,7 +637,7 @@ export class ConfigConfigRuleSourceSourceDetailOutputReference extends cdktn.Com
   }
 
   // maximum_execution_frequency - computed: false, optional: true, required: false
-  private _maximumExecutionFrequency?: string;
+  private _maximumExecutionFrequency?: string; 
   public get maximumExecutionFrequency() {
     return this.getStringAttribute('maximum_execution_frequency');
   }
@@ -653,7 +653,7 @@ export class ConfigConfigRuleSourceSourceDetailOutputReference extends cdktn.Com
   }
 
   // message_type - computed: false, optional: true, required: false
-  private _messageType?: string;
+  private _messageType?: string; 
   public get messageType() {
     return this.getStringAttribute('message_type');
   }
@@ -812,7 +812,7 @@ export class ConfigConfigRuleSourceOutputReference extends cdktn.ComplexObject {
   }
 
   // owner - computed: false, optional: false, required: true
-  private _owner?: string;
+  private _owner?: string; 
   public get owner() {
     return this.getStringAttribute('owner');
   }
@@ -825,7 +825,7 @@ export class ConfigConfigRuleSourceOutputReference extends cdktn.ComplexObject {
   }
 
   // source_identifier - computed: false, optional: true, required: false
-  private _sourceIdentifier?: string;
+  private _sourceIdentifier?: string; 
   public get sourceIdentifier() {
     return this.getStringAttribute('source_identifier');
   }
@@ -946,7 +946,7 @@ export class ConfigConfigRule extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -962,7 +962,7 @@ export class ConfigConfigRule extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -978,7 +978,7 @@ export class ConfigConfigRule extends cdktn.TerraformResource {
   }
 
   // input_parameters - computed: false, optional: true, required: false
-  private _inputParameters?: string;
+  private _inputParameters?: string; 
   public get inputParameters() {
     return this.getStringAttribute('input_parameters');
   }
@@ -994,7 +994,7 @@ export class ConfigConfigRule extends cdktn.TerraformResource {
   }
 
   // maximum_execution_frequency - computed: false, optional: true, required: false
-  private _maximumExecutionFrequency?: string;
+  private _maximumExecutionFrequency?: string; 
   public get maximumExecutionFrequency() {
     return this.getStringAttribute('maximum_execution_frequency');
   }
@@ -1010,7 +1010,7 @@ export class ConfigConfigRule extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1023,7 +1023,7 @@ export class ConfigConfigRule extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1044,7 +1044,7 @@ export class ConfigConfigRule extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -1060,7 +1060,7 @@ export class ConfigConfigRule extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

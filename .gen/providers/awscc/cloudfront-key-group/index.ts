@@ -133,7 +133,7 @@ export class CloudfrontKeyGroupKeyGroupConfigOutputReference extends cdktn.Compl
   }
 
   // comment - computed: true, optional: true, required: false
-  private _comment?: string;
+  private _comment?: string; 
   public get comment() {
     return this.getStringAttribute('comment');
   }
@@ -149,7 +149,7 @@ export class CloudfrontKeyGroupKeyGroupConfigOutputReference extends cdktn.Compl
   }
 
   // items - computed: false, optional: false, required: true
-  private _items?: string[];
+  private _items?: string[]; 
   public get items() {
     return this.getListAttribute('items');
   }
@@ -162,7 +162,7 @@ export class CloudfrontKeyGroupKeyGroupConfigOutputReference extends cdktn.Compl
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }

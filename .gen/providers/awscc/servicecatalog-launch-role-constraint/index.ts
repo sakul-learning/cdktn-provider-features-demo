@@ -108,7 +108,7 @@ export class ServicecatalogLaunchRoleConstraint extends cdktn.TerraformResource 
   // ==========
 
   // accept_language - computed: true, optional: true, required: false
-  private _acceptLanguage?: string;
+  private _acceptLanguage?: string; 
   public get acceptLanguage() {
     return this.getStringAttribute('accept_language');
   }
@@ -124,7 +124,7 @@ export class ServicecatalogLaunchRoleConstraint extends cdktn.TerraformResource 
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -150,7 +150,7 @@ export class ServicecatalogLaunchRoleConstraint extends cdktn.TerraformResource 
   }
 
   // local_role_name - computed: true, optional: true, required: false
-  private _localRoleName?: string;
+  private _localRoleName?: string; 
   public get localRoleName() {
     return this.getStringAttribute('local_role_name');
   }
@@ -166,7 +166,7 @@ export class ServicecatalogLaunchRoleConstraint extends cdktn.TerraformResource 
   }
 
   // portfolio_id - computed: false, optional: false, required: true
-  private _portfolioId?: string;
+  private _portfolioId?: string; 
   public get portfolioId() {
     return this.getStringAttribute('portfolio_id');
   }
@@ -179,7 +179,7 @@ export class ServicecatalogLaunchRoleConstraint extends cdktn.TerraformResource 
   }
 
   // product_id - computed: false, optional: false, required: true
-  private _productId?: string;
+  private _productId?: string; 
   public get productId() {
     return this.getStringAttribute('product_id');
   }
@@ -192,7 +192,7 @@ export class ServicecatalogLaunchRoleConstraint extends cdktn.TerraformResource 
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }

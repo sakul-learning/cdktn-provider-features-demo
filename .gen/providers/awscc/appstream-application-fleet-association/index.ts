@@ -76,7 +76,7 @@ export class AppstreamApplicationFleetAssociation extends cdktn.TerraformResourc
   // ==========
 
   // application_arn - computed: false, optional: false, required: true
-  private _applicationArn?: string;
+  private _applicationArn?: string; 
   public get applicationArn() {
     return this.getStringAttribute('application_arn');
   }
@@ -89,7 +89,7 @@ export class AppstreamApplicationFleetAssociation extends cdktn.TerraformResourc
   }
 
   // fleet_name - computed: false, optional: false, required: true
-  private _fleetName?: string;
+  private _fleetName?: string; 
   public get fleetName() {
     return this.getStringAttribute('fleet_name');
   }

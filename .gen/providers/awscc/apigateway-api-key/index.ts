@@ -141,7 +141,7 @@ export class ApigatewayApiKeyStageKeysOutputReference extends cdktn.ComplexObjec
   }
 
   // rest_api_id - computed: true, optional: true, required: false
-  private _restApiId?: string;
+  private _restApiId?: string; 
   public get restApiId() {
     return this.getStringAttribute('rest_api_id');
   }
@@ -157,7 +157,7 @@ export class ApigatewayApiKeyStageKeysOutputReference extends cdktn.ComplexObjec
   }
 
   // stage_name - computed: true, optional: true, required: false
-  private _stageName?: string;
+  private _stageName?: string; 
   public get stageName() {
     return this.getStringAttribute('stage_name');
   }
@@ -294,7 +294,7 @@ export class ApigatewayApiKeyTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -310,7 +310,7 @@ export class ApigatewayApiKeyTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -416,7 +416,7 @@ export class ApigatewayApiKey extends cdktn.TerraformResource {
   }
 
   // customer_id - computed: true, optional: true, required: false
-  private _customerId?: string;
+  private _customerId?: string; 
   public get customerId() {
     return this.getStringAttribute('customer_id');
   }
@@ -432,7 +432,7 @@ export class ApigatewayApiKey extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -448,7 +448,7 @@ export class ApigatewayApiKey extends cdktn.TerraformResource {
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -464,7 +464,7 @@ export class ApigatewayApiKey extends cdktn.TerraformResource {
   }
 
   // generate_distinct_id - computed: true, optional: true, required: false
-  private _generateDistinctId?: boolean | cdktn.IResolvable;
+  private _generateDistinctId?: boolean | cdktn.IResolvable; 
   public get generateDistinctId() {
     return this.getBooleanAttribute('generate_distinct_id');
   }
@@ -485,7 +485,7 @@ export class ApigatewayApiKey extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -533,7 +533,7 @@ export class ApigatewayApiKey extends cdktn.TerraformResource {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }

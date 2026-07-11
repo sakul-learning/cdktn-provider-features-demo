@@ -159,7 +159,7 @@ export class VpcRouteServerTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -175,7 +175,7 @@ export class VpcRouteServerTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -191,7 +191,7 @@ export class VpcRouteServerTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -271,7 +271,7 @@ export class VpcRouteServer extends cdktn.TerraformResource {
   // ==========
 
   // amazon_side_asn - computed: false, optional: false, required: true
-  private _amazonSideAsn?: number;
+  private _amazonSideAsn?: number; 
   public get amazonSideAsn() {
     return this.getNumberAttribute('amazon_side_asn');
   }
@@ -289,7 +289,7 @@ export class VpcRouteServer extends cdktn.TerraformResource {
   }
 
   // persist_routes - computed: true, optional: true, required: false
-  private _persistRoutes?: string;
+  private _persistRoutes?: string; 
   public get persistRoutes() {
     return this.getStringAttribute('persist_routes');
   }
@@ -305,7 +305,7 @@ export class VpcRouteServer extends cdktn.TerraformResource {
   }
 
   // persist_routes_duration - computed: false, optional: true, required: false
-  private _persistRoutesDuration?: number;
+  private _persistRoutesDuration?: number; 
   public get persistRoutesDuration() {
     return this.getNumberAttribute('persist_routes_duration');
   }
@@ -321,7 +321,7 @@ export class VpcRouteServer extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -342,7 +342,7 @@ export class VpcRouteServer extends cdktn.TerraformResource {
   }
 
   // sns_notifications_enabled - computed: true, optional: true, required: false
-  private _snsNotificationsEnabled?: boolean | cdktn.IResolvable;
+  private _snsNotificationsEnabled?: boolean | cdktn.IResolvable; 
   public get snsNotificationsEnabled() {
     return this.getBooleanAttribute('sns_notifications_enabled');
   }
@@ -363,7 +363,7 @@ export class VpcRouteServer extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

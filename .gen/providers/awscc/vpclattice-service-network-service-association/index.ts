@@ -191,7 +191,7 @@ export class VpclatticeServiceNetworkServiceAssociationTagsOutputReference exten
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -207,7 +207,7 @@ export class VpclatticeServiceNetworkServiceAssociationTagsOutputReference exten
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -345,7 +345,7 @@ export class VpclatticeServiceNetworkServiceAssociation extends cdktn.TerraformR
   }
 
   // service_identifier - computed: true, optional: true, required: false
-  private _serviceIdentifier?: string;
+  private _serviceIdentifier?: string; 
   public get serviceIdentifier() {
     return this.getStringAttribute('service_identifier');
   }
@@ -376,7 +376,7 @@ export class VpclatticeServiceNetworkServiceAssociation extends cdktn.TerraformR
   }
 
   // service_network_identifier - computed: true, optional: true, required: false
-  private _serviceNetworkIdentifier?: string;
+  private _serviceNetworkIdentifier?: string; 
   public get serviceNetworkIdentifier() {
     return this.getStringAttribute('service_network_identifier');
   }

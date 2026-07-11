@@ -244,7 +244,7 @@ export class DataAwsS3BucketObjectLockConfiguration extends cdktn.TerraformDataS
   // ==========
 
   // bucket - computed: false, optional: false, required: true
-  private _bucket?: string;
+  private _bucket?: string; 
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -257,7 +257,7 @@ export class DataAwsS3BucketObjectLockConfiguration extends cdktn.TerraformDataS
   }
 
   // expected_bucket_owner - computed: false, optional: true, required: false
-  private _expectedBucketOwner?: string;
+  private _expectedBucketOwner?: string; 
   public get expectedBucketOwner() {
     return this.getStringAttribute('expected_bucket_owner');
   }
@@ -278,7 +278,7 @@ export class DataAwsS3BucketObjectLockConfiguration extends cdktn.TerraformDataS
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

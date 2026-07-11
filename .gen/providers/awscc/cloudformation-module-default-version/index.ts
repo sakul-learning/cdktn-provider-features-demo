@@ -87,7 +87,7 @@ export class CloudformationModuleDefaultVersion extends cdktn.TerraformResource 
   // ==========
 
   // arn - computed: true, optional: true, required: false
-  private _arn?: string;
+  private _arn?: string; 
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -108,7 +108,7 @@ export class CloudformationModuleDefaultVersion extends cdktn.TerraformResource 
   }
 
   // module_name - computed: true, optional: true, required: false
-  private _moduleName?: string;
+  private _moduleName?: string; 
   public get moduleName() {
     return this.getStringAttribute('module_name');
   }
@@ -124,7 +124,7 @@ export class CloudformationModuleDefaultVersion extends cdktn.TerraformResource 
   }
 
   // version_id - computed: true, optional: true, required: false
-  private _versionId?: string;
+  private _versionId?: string; 
   public get versionId() {
     return this.getStringAttribute('version_id');
   }

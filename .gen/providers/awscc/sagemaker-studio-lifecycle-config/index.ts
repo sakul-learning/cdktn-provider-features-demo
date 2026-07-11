@@ -130,7 +130,7 @@ export class SagemakerStudioLifecycleConfigTagsOutputReference extends cdktn.Com
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -146,7 +146,7 @@ export class SagemakerStudioLifecycleConfigTagsOutputReference extends cdktn.Com
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -248,7 +248,7 @@ export class SagemakerStudioLifecycleConfig extends cdktn.TerraformResource {
   }
 
   // studio_lifecycle_config_app_type - computed: false, optional: false, required: true
-  private _studioLifecycleConfigAppType?: string;
+  private _studioLifecycleConfigAppType?: string; 
   public get studioLifecycleConfigAppType() {
     return this.getStringAttribute('studio_lifecycle_config_app_type');
   }
@@ -266,7 +266,7 @@ export class SagemakerStudioLifecycleConfig extends cdktn.TerraformResource {
   }
 
   // studio_lifecycle_config_content - computed: false, optional: false, required: true
-  private _studioLifecycleConfigContent?: string;
+  private _studioLifecycleConfigContent?: string; 
   public get studioLifecycleConfigContent() {
     return this.getStringAttribute('studio_lifecycle_config_content');
   }
@@ -279,7 +279,7 @@ export class SagemakerStudioLifecycleConfig extends cdktn.TerraformResource {
   }
 
   // studio_lifecycle_config_name - computed: false, optional: false, required: true
-  private _studioLifecycleConfigName?: string;
+  private _studioLifecycleConfigName?: string; 
   public get studioLifecycleConfigName() {
     return this.getStringAttribute('studio_lifecycle_config_name');
   }

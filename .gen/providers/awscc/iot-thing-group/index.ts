@@ -132,7 +132,7 @@ export class IotThingGroupTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -148,7 +148,7 @@ export class IotThingGroupTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -262,7 +262,7 @@ export class IotThingGroupThingGroupPropertiesAttributePayloadOutputReference ex
   }
 
   // attributes - computed: true, optional: true, required: false
-  private _attributes?: { [key: string]: string };
+  private _attributes?: { [key: string]: string }; 
   public get attributes() {
     return this.getStringMapAttribute('attributes');
   }
@@ -389,7 +389,7 @@ export class IotThingGroupThingGroupPropertiesOutputReference extends cdktn.Comp
   }
 
   // thing_group_description - computed: true, optional: true, required: false
-  private _thingGroupDescription?: string;
+  private _thingGroupDescription?: string; 
   public get thingGroupDescription() {
     return this.getStringAttribute('thing_group_description');
   }
@@ -477,7 +477,7 @@ export class IotThingGroup extends cdktn.TerraformResource {
   }
 
   // parent_group_name - computed: true, optional: true, required: false
-  private _parentGroupName?: string;
+  private _parentGroupName?: string; 
   public get parentGroupName() {
     return this.getStringAttribute('parent_group_name');
   }
@@ -493,7 +493,7 @@ export class IotThingGroup extends cdktn.TerraformResource {
   }
 
   // query_string - computed: true, optional: true, required: false
-  private _queryString?: string;
+  private _queryString?: string; 
   public get queryString() {
     return this.getStringAttribute('query_string');
   }
@@ -530,7 +530,7 @@ export class IotThingGroup extends cdktn.TerraformResource {
   }
 
   // thing_group_name - computed: true, optional: true, required: false
-  private _thingGroupName?: string;
+  private _thingGroupName?: string; 
   public get thingGroupName() {
     return this.getStringAttribute('thing_group_name');
   }

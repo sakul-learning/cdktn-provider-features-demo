@@ -166,7 +166,7 @@ export class Lexv2ModelsSlotTypeCompositeSlotTypeSettingSubSlotsOutputReference 
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -179,7 +179,7 @@ export class Lexv2ModelsSlotTypeCompositeSlotTypeSettingSubSlotsOutputReference 
   }
 
   // slot_type_id - computed: false, optional: false, required: true
-  private _slotTypeId?: string;
+  private _slotTypeId?: string; 
   public get slotTypeId() {
     return this.getStringAttribute('slot_type_id');
   }
@@ -444,7 +444,7 @@ export class Lexv2ModelsSlotTypeExternalSourceSettingGrammarSlotTypeSettingSourc
   }
 
   // kms_key_arn - computed: false, optional: false, required: true
-  private _kmsKeyArn?: string;
+  private _kmsKeyArn?: string; 
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -457,7 +457,7 @@ export class Lexv2ModelsSlotTypeExternalSourceSettingGrammarSlotTypeSettingSourc
   }
 
   // s3_bucket_name - computed: false, optional: false, required: true
-  private _s3BucketName?: string;
+  private _s3BucketName?: string; 
   public get s3BucketName() {
     return this.getStringAttribute('s3_bucket_name');
   }
@@ -470,7 +470,7 @@ export class Lexv2ModelsSlotTypeExternalSourceSettingGrammarSlotTypeSettingSourc
   }
 
   // s3_object_key - computed: false, optional: false, required: true
-  private _s3ObjectKey?: string;
+  private _s3ObjectKey?: string; 
   public get s3ObjectKey() {
     return this.getStringAttribute('s3_object_key');
   }
@@ -819,7 +819,7 @@ export class Lexv2ModelsSlotTypeSlotTypeValuesSampleValueOutputReference extends
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -932,7 +932,7 @@ export class Lexv2ModelsSlotTypeSlotTypeValuesSynonymsOutputReference extends cd
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1236,7 +1236,7 @@ export class Lexv2ModelsSlotTypeTimeoutsOutputReference extends cdktn.ComplexObj
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -1252,7 +1252,7 @@ export class Lexv2ModelsSlotTypeTimeoutsOutputReference extends cdktn.ComplexObj
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -1268,7 +1268,7 @@ export class Lexv2ModelsSlotTypeTimeoutsOutputReference extends cdktn.ComplexObj
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -1364,7 +1364,7 @@ export class Lexv2ModelsSlotTypeValueSelectionSettingAdvancedRecognitionSettingO
   }
 
   // audio_recognition_strategy - computed: false, optional: true, required: false
-  private _audioRecognitionStrategy?: string;
+  private _audioRecognitionStrategy?: string; 
   public get audioRecognitionStrategy() {
     return this.getStringAttribute('audio_recognition_strategy');
   }
@@ -1480,7 +1480,7 @@ export class Lexv2ModelsSlotTypeValueSelectionSettingRegexFilterOutputReference 
   }
 
   // pattern - computed: false, optional: false, required: true
-  private _pattern?: string;
+  private _pattern?: string; 
   public get pattern() {
     return this.getStringAttribute('pattern');
   }
@@ -1631,7 +1631,7 @@ export class Lexv2ModelsSlotTypeValueSelectionSettingOutputReference extends cdk
   }
 
   // resolution_strategy - computed: false, optional: false, required: true
-  private _resolutionStrategy?: string;
+  private _resolutionStrategy?: string; 
   public get resolutionStrategy() {
     return this.getStringAttribute('resolution_strategy');
   }
@@ -1765,7 +1765,7 @@ export class Lexv2ModelsSlotType extends cdktn.TerraformResource {
   // ==========
 
   // bot_id - computed: false, optional: false, required: true
-  private _botId?: string;
+  private _botId?: string; 
   public get botId() {
     return this.getStringAttribute('bot_id');
   }
@@ -1778,7 +1778,7 @@ export class Lexv2ModelsSlotType extends cdktn.TerraformResource {
   }
 
   // bot_version - computed: false, optional: false, required: true
-  private _botVersion?: string;
+  private _botVersion?: string; 
   public get botVersion() {
     return this.getStringAttribute('bot_version');
   }
@@ -1791,7 +1791,7 @@ export class Lexv2ModelsSlotType extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1812,7 +1812,7 @@ export class Lexv2ModelsSlotType extends cdktn.TerraformResource {
   }
 
   // locale_id - computed: false, optional: false, required: true
-  private _localeId?: string;
+  private _localeId?: string; 
   public get localeId() {
     return this.getStringAttribute('locale_id');
   }
@@ -1825,7 +1825,7 @@ export class Lexv2ModelsSlotType extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1838,7 +1838,7 @@ export class Lexv2ModelsSlotType extends cdktn.TerraformResource {
   }
 
   // parent_slot_type_signature - computed: false, optional: true, required: false
-  private _parentSlotTypeSignature?: string;
+  private _parentSlotTypeSignature?: string; 
   public get parentSlotTypeSignature() {
     return this.getStringAttribute('parent_slot_type_signature');
   }
@@ -1854,7 +1854,7 @@ export class Lexv2ModelsSlotType extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

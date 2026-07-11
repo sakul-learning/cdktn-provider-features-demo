@@ -161,7 +161,7 @@ export class LambdaMicrovmImageCodeArtifactOutputReference extends cdktn.Complex
   }
 
   // uri - computed: false, optional: false, required: true
-  private _uri?: string;
+  private _uri?: string; 
   public get uri() {
     return this.getStringAttribute('uri');
   }
@@ -254,7 +254,7 @@ export class LambdaMicrovmImageCpuConfigurationsOutputReference extends cdktn.Co
   }
 
   // architecture - computed: false, optional: false, required: true
-  private _architecture?: string;
+  private _architecture?: string; 
   public get architecture() {
     return this.getStringAttribute('architecture');
   }
@@ -384,7 +384,7 @@ export class LambdaMicrovmImageEnvironmentVariablesOutputReference extends cdktn
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -397,7 +397,7 @@ export class LambdaMicrovmImageEnvironmentVariablesOutputReference extends cdktn
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -627,7 +627,7 @@ export class LambdaMicrovmImageHooksMicrovmHooksOutputReference extends cdktn.Co
   }
 
   // resume - computed: true, optional: true, required: false
-  private _resume?: string;
+  private _resume?: string; 
   public get resume() {
     return this.getStringAttribute('resume');
   }
@@ -643,7 +643,7 @@ export class LambdaMicrovmImageHooksMicrovmHooksOutputReference extends cdktn.Co
   }
 
   // resume_timeout_in_seconds - computed: true, optional: true, required: false
-  private _resumeTimeoutInSeconds?: number;
+  private _resumeTimeoutInSeconds?: number; 
   public get resumeTimeoutInSeconds() {
     return this.getNumberAttribute('resume_timeout_in_seconds');
   }
@@ -659,7 +659,7 @@ export class LambdaMicrovmImageHooksMicrovmHooksOutputReference extends cdktn.Co
   }
 
   // run - computed: true, optional: true, required: false
-  private _run?: string;
+  private _run?: string; 
   public get run() {
     return this.getStringAttribute('run');
   }
@@ -675,7 +675,7 @@ export class LambdaMicrovmImageHooksMicrovmHooksOutputReference extends cdktn.Co
   }
 
   // run_timeout_in_seconds - computed: true, optional: true, required: false
-  private _runTimeoutInSeconds?: number;
+  private _runTimeoutInSeconds?: number; 
   public get runTimeoutInSeconds() {
     return this.getNumberAttribute('run_timeout_in_seconds');
   }
@@ -691,7 +691,7 @@ export class LambdaMicrovmImageHooksMicrovmHooksOutputReference extends cdktn.Co
   }
 
   // suspend - computed: true, optional: true, required: false
-  private _suspend?: string;
+  private _suspend?: string; 
   public get suspend() {
     return this.getStringAttribute('suspend');
   }
@@ -707,7 +707,7 @@ export class LambdaMicrovmImageHooksMicrovmHooksOutputReference extends cdktn.Co
   }
 
   // suspend_timeout_in_seconds - computed: true, optional: true, required: false
-  private _suspendTimeoutInSeconds?: number;
+  private _suspendTimeoutInSeconds?: number; 
   public get suspendTimeoutInSeconds() {
     return this.getNumberAttribute('suspend_timeout_in_seconds');
   }
@@ -723,7 +723,7 @@ export class LambdaMicrovmImageHooksMicrovmHooksOutputReference extends cdktn.Co
   }
 
   // terminate - computed: true, optional: true, required: false
-  private _terminate?: string;
+  private _terminate?: string; 
   public get terminate() {
     return this.getStringAttribute('terminate');
   }
@@ -739,7 +739,7 @@ export class LambdaMicrovmImageHooksMicrovmHooksOutputReference extends cdktn.Co
   }
 
   // terminate_timeout_in_seconds - computed: true, optional: true, required: false
-  private _terminateTimeoutInSeconds?: number;
+  private _terminateTimeoutInSeconds?: number; 
   public get terminateTimeoutInSeconds() {
     return this.getNumberAttribute('terminate_timeout_in_seconds');
   }
@@ -884,7 +884,7 @@ export class LambdaMicrovmImageHooksMicrovmImageHooksOutputReference extends cdk
   }
 
   // ready - computed: true, optional: true, required: false
-  private _ready?: string;
+  private _ready?: string; 
   public get ready() {
     return this.getStringAttribute('ready');
   }
@@ -900,7 +900,7 @@ export class LambdaMicrovmImageHooksMicrovmImageHooksOutputReference extends cdk
   }
 
   // ready_timeout_in_seconds - computed: true, optional: true, required: false
-  private _readyTimeoutInSeconds?: number;
+  private _readyTimeoutInSeconds?: number; 
   public get readyTimeoutInSeconds() {
     return this.getNumberAttribute('ready_timeout_in_seconds');
   }
@@ -916,7 +916,7 @@ export class LambdaMicrovmImageHooksMicrovmImageHooksOutputReference extends cdk
   }
 
   // validate - computed: true, optional: true, required: false
-  private _validate?: string;
+  private _validate?: string; 
   public get validate() {
     return this.getStringAttribute('validate');
   }
@@ -932,7 +932,7 @@ export class LambdaMicrovmImageHooksMicrovmImageHooksOutputReference extends cdk
   }
 
   // validate_timeout_in_seconds - computed: true, optional: true, required: false
-  private _validateTimeoutInSeconds?: number;
+  private _validateTimeoutInSeconds?: number; 
   public get validateTimeoutInSeconds() {
     return this.getNumberAttribute('validate_timeout_in_seconds');
   }
@@ -1092,7 +1092,7 @@ export class LambdaMicrovmImageHooksOutputReference extends cdktn.ComplexObject 
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -1203,7 +1203,7 @@ export class LambdaMicrovmImageLoggingCloudwatchOutputReference extends cdktn.Co
   }
 
   // log_group - computed: true, optional: true, required: false
-  private _logGroup?: string;
+  private _logGroup?: string; 
   public get logGroup() {
     return this.getStringAttribute('log_group');
   }
@@ -1219,7 +1219,7 @@ export class LambdaMicrovmImageLoggingCloudwatchOutputReference extends cdktn.Co
   }
 
   // log_stream - computed: true, optional: true, required: false
-  private _logStream?: string;
+  private _logStream?: string; 
   public get logStream() {
     return this.getStringAttribute('log_stream');
   }
@@ -1346,7 +1346,7 @@ export class LambdaMicrovmImageLoggingOutputReference extends cdktn.ComplexObjec
   }
 
   // disabled - computed: true, optional: true, required: false
-  private _disabled?: boolean | cdktn.IResolvable;
+  private _disabled?: boolean | cdktn.IResolvable; 
   public get disabled() {
     return this.getBooleanAttribute('disabled');
   }
@@ -1442,7 +1442,7 @@ export class LambdaMicrovmImageResourcesOutputReference extends cdktn.ComplexObj
   }
 
   // minimum_memory_in_mi_b - computed: false, optional: false, required: true
-  private _minimumMemoryInMiB?: number;
+  private _minimumMemoryInMiB?: number; 
   public get minimumMemoryInMiB() {
     return this.getNumberAttribute('minimum_memory_in_mi_b');
   }
@@ -1576,7 +1576,7 @@ export class LambdaMicrovmImageTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1592,7 +1592,7 @@ export class LambdaMicrovmImageTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1699,7 +1699,7 @@ export class LambdaMicrovmImage extends cdktn.TerraformResource {
   // ==========
 
   // additional_os_capabilities - computed: false, optional: false, required: true
-  private _additionalOsCapabilities?: string[];
+  private _additionalOsCapabilities?: string[]; 
   public get additionalOsCapabilities() {
     return cdktn.Fn.tolist(this.getListAttribute('additional_os_capabilities'));
   }
@@ -1712,7 +1712,7 @@ export class LambdaMicrovmImage extends cdktn.TerraformResource {
   }
 
   // base_image_arn - computed: false, optional: false, required: true
-  private _baseImageArn?: string;
+  private _baseImageArn?: string; 
   public get baseImageArn() {
     return this.getStringAttribute('base_image_arn');
   }
@@ -1725,7 +1725,7 @@ export class LambdaMicrovmImage extends cdktn.TerraformResource {
   }
 
   // base_image_version - computed: false, optional: false, required: true
-  private _baseImageVersion?: string;
+  private _baseImageVersion?: string; 
   public get baseImageVersion() {
     return this.getStringAttribute('base_image_version');
   }
@@ -1738,7 +1738,7 @@ export class LambdaMicrovmImage extends cdktn.TerraformResource {
   }
 
   // build_role_arn - computed: false, optional: false, required: true
-  private _buildRoleArn?: string;
+  private _buildRoleArn?: string; 
   public get buildRoleArn() {
     return this.getStringAttribute('build_role_arn');
   }
@@ -1782,7 +1782,7 @@ export class LambdaMicrovmImage extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: false, required: true
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1795,7 +1795,7 @@ export class LambdaMicrovmImage extends cdktn.TerraformResource {
   }
 
   // egress_network_connectors - computed: false, optional: false, required: true
-  private _egressNetworkConnectors?: string[];
+  private _egressNetworkConnectors?: string[]; 
   public get egressNetworkConnectors() {
     return cdktn.Fn.tolist(this.getListAttribute('egress_network_connectors'));
   }
@@ -1867,7 +1867,7 @@ export class LambdaMicrovmImage extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }

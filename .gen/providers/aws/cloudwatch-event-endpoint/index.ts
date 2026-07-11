@@ -132,7 +132,7 @@ export class CloudwatchEventEndpointEventBusOutputReference extends cdktn.Comple
   }
 
   // event_bus_arn - computed: false, optional: false, required: true
-  private _eventBusArn?: string;
+  private _eventBusArn?: string; 
   public get eventBusArn() {
     return this.getStringAttribute('event_bus_arn');
   }
@@ -233,7 +233,7 @@ export class CloudwatchEventEndpointReplicationConfigOutputReference extends cdk
   }
 
   // state - computed: false, optional: true, required: false
-  private _state?: string;
+  private _state?: string; 
   public get state() {
     return this.getStringAttribute('state');
   }
@@ -317,7 +317,7 @@ export class CloudwatchEventEndpointRoutingConfigFailoverConfigPrimaryOutputRefe
   }
 
   // health_check - computed: false, optional: true, required: false
-  private _healthCheck?: string;
+  private _healthCheck?: string; 
   public get healthCheck() {
     return this.getStringAttribute('health_check');
   }
@@ -401,7 +401,7 @@ export class CloudwatchEventEndpointRoutingConfigFailoverConfigSecondaryOutputRe
   }
 
   // route - computed: false, optional: true, required: false
-  private _route?: string;
+  private _route?: string; 
   public get route() {
     return this.getStringAttribute('route');
   }
@@ -685,7 +685,7 @@ export class CloudwatchEventEndpoint extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -706,7 +706,7 @@ export class CloudwatchEventEndpoint extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -722,7 +722,7 @@ export class CloudwatchEventEndpoint extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -735,7 +735,7 @@ export class CloudwatchEventEndpoint extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -751,7 +751,7 @@ export class CloudwatchEventEndpoint extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }

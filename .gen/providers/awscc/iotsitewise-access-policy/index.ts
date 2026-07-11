@@ -107,7 +107,7 @@ export class IotsitewiseAccessPolicyAccessPolicyIdentityIamRoleOutputReference e
   }
 
   // arn - computed: true, optional: true, required: false
-  private _arn?: string;
+  private _arn?: string; 
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -203,7 +203,7 @@ export class IotsitewiseAccessPolicyAccessPolicyIdentityIamUserOutputReference e
   }
 
   // arn - computed: true, optional: true, required: false
-  private _arn?: string;
+  private _arn?: string; 
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -302,7 +302,7 @@ export class IotsitewiseAccessPolicyAccessPolicyIdentityUserOutputReference exte
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -567,7 +567,7 @@ export class IotsitewiseAccessPolicyAccessPolicyResourcePortalOutputReference ex
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -666,7 +666,7 @@ export class IotsitewiseAccessPolicyAccessPolicyResourceProjectOutputReference e
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -896,7 +896,7 @@ export class IotsitewiseAccessPolicy extends cdktn.TerraformResource {
   }
 
   // access_policy_permission - computed: false, optional: false, required: true
-  private _accessPolicyPermission?: string;
+  private _accessPolicyPermission?: string; 
   public get accessPolicyPermission() {
     return this.getStringAttribute('access_policy_permission');
   }

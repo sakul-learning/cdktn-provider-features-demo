@@ -128,7 +128,7 @@ export class DatasyncLocationAzureBlobSasConfigurationOutputReference extends cd
   }
 
   // token - computed: false, optional: false, required: true
-  private _token?: string;
+  private _token?: string; 
   public get token() {
     return this.getStringAttribute('token');
   }
@@ -209,7 +209,7 @@ export class DatasyncLocationAzureBlob extends cdktn.TerraformResource {
   // ==========
 
   // access_tier - computed: false, optional: true, required: false
-  private _accessTier?: string;
+  private _accessTier?: string; 
   public get accessTier() {
     return this.getStringAttribute('access_tier');
   }
@@ -225,7 +225,7 @@ export class DatasyncLocationAzureBlob extends cdktn.TerraformResource {
   }
 
   // agent_arns - computed: false, optional: false, required: true
-  private _agentArns?: string[];
+  private _agentArns?: string[]; 
   public get agentArns() {
     return cdktn.Fn.tolist(this.getListAttribute('agent_arns'));
   }
@@ -243,7 +243,7 @@ export class DatasyncLocationAzureBlob extends cdktn.TerraformResource {
   }
 
   // authentication_type - computed: false, optional: false, required: true
-  private _authenticationType?: string;
+  private _authenticationType?: string; 
   public get authenticationType() {
     return this.getStringAttribute('authentication_type');
   }
@@ -256,7 +256,7 @@ export class DatasyncLocationAzureBlob extends cdktn.TerraformResource {
   }
 
   // blob_type - computed: false, optional: true, required: false
-  private _blobType?: string;
+  private _blobType?: string; 
   public get blobType() {
     return this.getStringAttribute('blob_type');
   }
@@ -272,7 +272,7 @@ export class DatasyncLocationAzureBlob extends cdktn.TerraformResource {
   }
 
   // container_url - computed: false, optional: false, required: true
-  private _containerUrl?: string;
+  private _containerUrl?: string; 
   public get containerUrl() {
     return this.getStringAttribute('container_url');
   }
@@ -285,7 +285,7 @@ export class DatasyncLocationAzureBlob extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -301,7 +301,7 @@ export class DatasyncLocationAzureBlob extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -317,7 +317,7 @@ export class DatasyncLocationAzureBlob extends cdktn.TerraformResource {
   }
 
   // subdirectory - computed: true, optional: true, required: false
-  private _subdirectory?: string;
+  private _subdirectory?: string; 
   public get subdirectory() {
     return this.getStringAttribute('subdirectory');
   }
@@ -333,7 +333,7 @@ export class DatasyncLocationAzureBlob extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -349,7 +349,7 @@ export class DatasyncLocationAzureBlob extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

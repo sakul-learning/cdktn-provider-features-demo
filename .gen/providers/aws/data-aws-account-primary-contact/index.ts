@@ -71,7 +71,7 @@ export class DataAwsAccountPrimaryContact extends cdktn.TerraformDataSource {
   // ==========
 
   // account_id - computed: true, optional: true, required: false
-  private _accountId?: string;
+  private _accountId?: string; 
   public get accountId() {
     return this.getStringAttribute('account_id');
   }

@@ -87,7 +87,7 @@ export class ServicecatalogTagOption extends cdktn.TerraformResource {
   // ==========
 
   // active - computed: true, optional: true, required: false
-  private _active?: boolean | cdktn.IResolvable;
+  private _active?: boolean | cdktn.IResolvable; 
   public get active() {
     return this.getBooleanAttribute('active');
   }
@@ -108,7 +108,7 @@ export class ServicecatalogTagOption extends cdktn.TerraformResource {
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -126,7 +126,7 @@ export class ServicecatalogTagOption extends cdktn.TerraformResource {
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }

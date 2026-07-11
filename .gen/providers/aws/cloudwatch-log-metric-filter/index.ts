@@ -197,7 +197,7 @@ export class CloudwatchLogMetricFilterMetricTransformationOutputReference extend
   }
 
   // default_value - computed: false, optional: true, required: false
-  private _defaultValue?: string;
+  private _defaultValue?: string; 
   public get defaultValue() {
     return this.getStringAttribute('default_value');
   }
@@ -213,7 +213,7 @@ export class CloudwatchLogMetricFilterMetricTransformationOutputReference extend
   }
 
   // dimensions - computed: false, optional: true, required: false
-  private _dimensions?: { [key: string]: string };
+  private _dimensions?: { [key: string]: string }; 
   public get dimensions() {
     return this.getStringMapAttribute('dimensions');
   }
@@ -229,7 +229,7 @@ export class CloudwatchLogMetricFilterMetricTransformationOutputReference extend
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -242,7 +242,7 @@ export class CloudwatchLogMetricFilterMetricTransformationOutputReference extend
   }
 
   // namespace - computed: false, optional: false, required: true
-  private _namespace?: string;
+  private _namespace?: string; 
   public get namespace() {
     return this.getStringAttribute('namespace');
   }
@@ -255,7 +255,7 @@ export class CloudwatchLogMetricFilterMetricTransformationOutputReference extend
   }
 
   // unit - computed: false, optional: true, required: false
-  private _unit?: string;
+  private _unit?: string; 
   public get unit() {
     return this.getStringAttribute('unit');
   }
@@ -271,7 +271,7 @@ export class CloudwatchLogMetricFilterMetricTransformationOutputReference extend
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -348,7 +348,7 @@ export class CloudwatchLogMetricFilter extends cdktn.TerraformResource {
   // ==========
 
   // apply_on_transformed_logs - computed: true, optional: true, required: false
-  private _applyOnTransformedLogs?: boolean | cdktn.IResolvable;
+  private _applyOnTransformedLogs?: boolean | cdktn.IResolvable; 
   public get applyOnTransformedLogs() {
     return this.getBooleanAttribute('apply_on_transformed_logs');
   }
@@ -364,7 +364,7 @@ export class CloudwatchLogMetricFilter extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -380,7 +380,7 @@ export class CloudwatchLogMetricFilter extends cdktn.TerraformResource {
   }
 
   // log_group_name - computed: false, optional: false, required: true
-  private _logGroupName?: string;
+  private _logGroupName?: string; 
   public get logGroupName() {
     return this.getStringAttribute('log_group_name');
   }
@@ -393,7 +393,7 @@ export class CloudwatchLogMetricFilter extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -406,7 +406,7 @@ export class CloudwatchLogMetricFilter extends cdktn.TerraformResource {
   }
 
   // pattern - computed: false, optional: false, required: true
-  private _pattern?: string;
+  private _pattern?: string; 
   public get pattern() {
     return this.getStringAttribute('pattern');
   }
@@ -419,7 +419,7 @@ export class CloudwatchLogMetricFilter extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

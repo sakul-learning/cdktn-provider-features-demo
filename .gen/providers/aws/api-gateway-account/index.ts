@@ -163,7 +163,7 @@ export class ApiGatewayAccount extends cdktn.TerraformResource {
   }
 
   // cloudwatch_role_arn - computed: true, optional: true, required: false
-  private _cloudwatchRoleArn?: string;
+  private _cloudwatchRoleArn?: string; 
   public get cloudwatchRoleArn() {
     return this.getStringAttribute('cloudwatch_role_arn');
   }
@@ -189,7 +189,7 @@ export class ApiGatewayAccount extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

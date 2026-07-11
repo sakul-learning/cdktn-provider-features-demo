@@ -128,7 +128,7 @@ export class Route53ResolverResolverQueryLoggingConfigTagsOutputReference extend
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -144,7 +144,7 @@ export class Route53ResolverResolverQueryLoggingConfigTagsOutputReference extend
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -260,7 +260,7 @@ export class Route53ResolverResolverQueryLoggingConfig extends cdktn.TerraformRe
   }
 
   // destination_arn - computed: true, optional: true, required: false
-  private _destinationArn?: string;
+  private _destinationArn?: string; 
   public get destinationArn() {
     return this.getStringAttribute('destination_arn');
   }
@@ -281,7 +281,7 @@ export class Route53ResolverResolverQueryLoggingConfig extends cdktn.TerraformRe
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }

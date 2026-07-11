@@ -194,7 +194,7 @@ export class KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigur
   }
 
   // date_value - computed: true, optional: true, required: false
-  private _dateValue?: string;
+  private _dateValue?: string; 
   public get dateValue() {
     return this.getStringAttribute('date_value');
   }
@@ -210,7 +210,7 @@ export class KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigur
   }
 
   // long_value - computed: true, optional: true, required: false
-  private _longValue?: number;
+  private _longValue?: number; 
   public get longValue() {
     return this.getNumberAttribute('long_value');
   }
@@ -226,7 +226,7 @@ export class KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigur
   }
 
   // string_list_value - computed: true, optional: true, required: false
-  private _stringListValue?: string[];
+  private _stringListValue?: string[]; 
   public get stringListValue() {
     return this.getListAttribute('string_list_value');
   }
@@ -242,7 +242,7 @@ export class KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigur
   }
 
   // string_value - computed: true, optional: true, required: false
-  private _stringValue?: string;
+  private _stringValue?: string; 
   public get stringValue() {
     return this.getStringAttribute('string_value');
   }
@@ -370,7 +370,7 @@ export class KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigur
   }
 
   // condition_document_attribute_key - computed: true, optional: true, required: false
-  private _conditionDocumentAttributeKey?: string;
+  private _conditionDocumentAttributeKey?: string; 
   public get conditionDocumentAttributeKey() {
     return this.getStringAttribute('condition_document_attribute_key');
   }
@@ -402,7 +402,7 @@ export class KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigur
   }
 
   // operator - computed: true, optional: true, required: false
-  private _operator?: string;
+  private _operator?: string; 
   public get operator() {
     return this.getStringAttribute('operator');
   }
@@ -547,7 +547,7 @@ export class KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigur
   }
 
   // date_value - computed: true, optional: true, required: false
-  private _dateValue?: string;
+  private _dateValue?: string; 
   public get dateValue() {
     return this.getStringAttribute('date_value');
   }
@@ -563,7 +563,7 @@ export class KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigur
   }
 
   // long_value - computed: true, optional: true, required: false
-  private _longValue?: number;
+  private _longValue?: number; 
   public get longValue() {
     return this.getNumberAttribute('long_value');
   }
@@ -579,7 +579,7 @@ export class KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigur
   }
 
   // string_list_value - computed: true, optional: true, required: false
-  private _stringListValue?: string[];
+  private _stringListValue?: string[]; 
   public get stringListValue() {
     return this.getListAttribute('string_list_value');
   }
@@ -595,7 +595,7 @@ export class KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigur
   }
 
   // string_value - computed: true, optional: true, required: false
-  private _stringValue?: string;
+  private _stringValue?: string; 
   public get stringValue() {
     return this.getStringAttribute('string_value');
   }
@@ -723,7 +723,7 @@ export class KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigur
   }
 
   // target_document_attribute_key - computed: true, optional: true, required: false
-  private _targetDocumentAttributeKey?: string;
+  private _targetDocumentAttributeKey?: string; 
   public get targetDocumentAttributeKey() {
     return this.getStringAttribute('target_document_attribute_key');
   }
@@ -755,7 +755,7 @@ export class KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigur
   }
 
   // target_document_attribute_value_deletion - computed: true, optional: true, required: false
-  private _targetDocumentAttributeValueDeletion?: boolean | cdktn.IResolvable;
+  private _targetDocumentAttributeValueDeletion?: boolean | cdktn.IResolvable; 
   public get targetDocumentAttributeValueDeletion() {
     return this.getBooleanAttribute('target_document_attribute_value_deletion');
   }
@@ -901,7 +901,7 @@ export class KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigur
   }
 
   // document_content_deletion - computed: true, optional: true, required: false
-  private _documentContentDeletion?: boolean | cdktn.IResolvable;
+  private _documentContentDeletion?: boolean | cdktn.IResolvable; 
   public get documentContentDeletion() {
     return this.getBooleanAttribute('document_content_deletion');
   }
@@ -1082,7 +1082,7 @@ export class KendraDataSourceCustomDocumentEnrichmentConfigurationPostExtraction
   }
 
   // date_value - computed: true, optional: true, required: false
-  private _dateValue?: string;
+  private _dateValue?: string; 
   public get dateValue() {
     return this.getStringAttribute('date_value');
   }
@@ -1098,7 +1098,7 @@ export class KendraDataSourceCustomDocumentEnrichmentConfigurationPostExtraction
   }
 
   // long_value - computed: true, optional: true, required: false
-  private _longValue?: number;
+  private _longValue?: number; 
   public get longValue() {
     return this.getNumberAttribute('long_value');
   }
@@ -1114,7 +1114,7 @@ export class KendraDataSourceCustomDocumentEnrichmentConfigurationPostExtraction
   }
 
   // string_list_value - computed: true, optional: true, required: false
-  private _stringListValue?: string[];
+  private _stringListValue?: string[]; 
   public get stringListValue() {
     return this.getListAttribute('string_list_value');
   }
@@ -1130,7 +1130,7 @@ export class KendraDataSourceCustomDocumentEnrichmentConfigurationPostExtraction
   }
 
   // string_value - computed: true, optional: true, required: false
-  private _stringValue?: string;
+  private _stringValue?: string; 
   public get stringValue() {
     return this.getStringAttribute('string_value');
   }
@@ -1258,7 +1258,7 @@ export class KendraDataSourceCustomDocumentEnrichmentConfigurationPostExtraction
   }
 
   // condition_document_attribute_key - computed: true, optional: true, required: false
-  private _conditionDocumentAttributeKey?: string;
+  private _conditionDocumentAttributeKey?: string; 
   public get conditionDocumentAttributeKey() {
     return this.getStringAttribute('condition_document_attribute_key');
   }
@@ -1290,7 +1290,7 @@ export class KendraDataSourceCustomDocumentEnrichmentConfigurationPostExtraction
   }
 
   // operator - computed: true, optional: true, required: false
-  private _operator?: string;
+  private _operator?: string; 
   public get operator() {
     return this.getStringAttribute('operator');
   }
@@ -1434,7 +1434,7 @@ export class KendraDataSourceCustomDocumentEnrichmentConfigurationPostExtraction
   }
 
   // lambda_arn - computed: true, optional: true, required: false
-  private _lambdaArn?: string;
+  private _lambdaArn?: string; 
   public get lambdaArn() {
     return this.getStringAttribute('lambda_arn');
   }
@@ -1450,7 +1450,7 @@ export class KendraDataSourceCustomDocumentEnrichmentConfigurationPostExtraction
   }
 
   // s3_bucket - computed: true, optional: true, required: false
-  private _s3Bucket?: string;
+  private _s3Bucket?: string; 
   public get s3Bucket() {
     return this.getStringAttribute('s3_bucket');
   }
@@ -1595,7 +1595,7 @@ export class KendraDataSourceCustomDocumentEnrichmentConfigurationPreExtractionH
   }
 
   // date_value - computed: true, optional: true, required: false
-  private _dateValue?: string;
+  private _dateValue?: string; 
   public get dateValue() {
     return this.getStringAttribute('date_value');
   }
@@ -1611,7 +1611,7 @@ export class KendraDataSourceCustomDocumentEnrichmentConfigurationPreExtractionH
   }
 
   // long_value - computed: true, optional: true, required: false
-  private _longValue?: number;
+  private _longValue?: number; 
   public get longValue() {
     return this.getNumberAttribute('long_value');
   }
@@ -1627,7 +1627,7 @@ export class KendraDataSourceCustomDocumentEnrichmentConfigurationPreExtractionH
   }
 
   // string_list_value - computed: true, optional: true, required: false
-  private _stringListValue?: string[];
+  private _stringListValue?: string[]; 
   public get stringListValue() {
     return this.getListAttribute('string_list_value');
   }
@@ -1643,7 +1643,7 @@ export class KendraDataSourceCustomDocumentEnrichmentConfigurationPreExtractionH
   }
 
   // string_value - computed: true, optional: true, required: false
-  private _stringValue?: string;
+  private _stringValue?: string; 
   public get stringValue() {
     return this.getStringAttribute('string_value');
   }
@@ -1771,7 +1771,7 @@ export class KendraDataSourceCustomDocumentEnrichmentConfigurationPreExtractionH
   }
 
   // condition_document_attribute_key - computed: true, optional: true, required: false
-  private _conditionDocumentAttributeKey?: string;
+  private _conditionDocumentAttributeKey?: string; 
   public get conditionDocumentAttributeKey() {
     return this.getStringAttribute('condition_document_attribute_key');
   }
@@ -1803,7 +1803,7 @@ export class KendraDataSourceCustomDocumentEnrichmentConfigurationPreExtractionH
   }
 
   // operator - computed: true, optional: true, required: false
-  private _operator?: string;
+  private _operator?: string; 
   public get operator() {
     return this.getStringAttribute('operator');
   }
@@ -1947,7 +1947,7 @@ export class KendraDataSourceCustomDocumentEnrichmentConfigurationPreExtractionH
   }
 
   // lambda_arn - computed: true, optional: true, required: false
-  private _lambdaArn?: string;
+  private _lambdaArn?: string; 
   public get lambdaArn() {
     return this.getStringAttribute('lambda_arn');
   }
@@ -1963,7 +1963,7 @@ export class KendraDataSourceCustomDocumentEnrichmentConfigurationPreExtractionH
   }
 
   // s3_bucket - computed: true, optional: true, required: false
-  private _s3Bucket?: string;
+  private _s3Bucket?: string; 
   public get s3Bucket() {
     return this.getStringAttribute('s3_bucket');
   }
@@ -2160,7 +2160,7 @@ export class KendraDataSourceCustomDocumentEnrichmentConfigurationOutputReferenc
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -2290,7 +2290,7 @@ export class KendraDataSourceDataSourceConfigurationConfluenceConfigurationAttac
   }
 
   // data_source_field_name - computed: true, optional: true, required: false
-  private _dataSourceFieldName?: string;
+  private _dataSourceFieldName?: string; 
   public get dataSourceFieldName() {
     return this.getStringAttribute('data_source_field_name');
   }
@@ -2306,7 +2306,7 @@ export class KendraDataSourceDataSourceConfigurationConfluenceConfigurationAttac
   }
 
   // date_field_format - computed: true, optional: true, required: false
-  private _dateFieldFormat?: string;
+  private _dateFieldFormat?: string; 
   public get dateFieldFormat() {
     return this.getStringAttribute('date_field_format');
   }
@@ -2322,7 +2322,7 @@ export class KendraDataSourceDataSourceConfigurationConfluenceConfigurationAttac
   }
 
   // index_field_name - computed: true, optional: true, required: false
-  private _indexFieldName?: string;
+  private _indexFieldName?: string; 
   public get indexFieldName() {
     return this.getStringAttribute('index_field_name');
   }
@@ -2469,7 +2469,7 @@ export class KendraDataSourceDataSourceConfigurationConfluenceConfigurationAttac
   }
 
   // crawl_attachments - computed: true, optional: true, required: false
-  private _crawlAttachments?: boolean | cdktn.IResolvable;
+  private _crawlAttachments?: boolean | cdktn.IResolvable; 
   public get crawlAttachments() {
     return this.getBooleanAttribute('crawl_attachments');
   }
@@ -2599,7 +2599,7 @@ export class KendraDataSourceDataSourceConfigurationConfluenceConfigurationBlogC
   }
 
   // data_source_field_name - computed: true, optional: true, required: false
-  private _dataSourceFieldName?: string;
+  private _dataSourceFieldName?: string; 
   public get dataSourceFieldName() {
     return this.getStringAttribute('data_source_field_name');
   }
@@ -2615,7 +2615,7 @@ export class KendraDataSourceDataSourceConfigurationConfluenceConfigurationBlogC
   }
 
   // date_field_format - computed: true, optional: true, required: false
-  private _dateFieldFormat?: string;
+  private _dateFieldFormat?: string; 
   public get dateFieldFormat() {
     return this.getStringAttribute('date_field_format');
   }
@@ -2631,7 +2631,7 @@ export class KendraDataSourceDataSourceConfigurationConfluenceConfigurationBlogC
   }
 
   // index_field_name - computed: true, optional: true, required: false
-  private _indexFieldName?: string;
+  private _indexFieldName?: string; 
   public get indexFieldName() {
     return this.getStringAttribute('index_field_name');
   }
@@ -2875,7 +2875,7 @@ export class KendraDataSourceDataSourceConfigurationConfluenceConfigurationPageC
   }
 
   // data_source_field_name - computed: true, optional: true, required: false
-  private _dataSourceFieldName?: string;
+  private _dataSourceFieldName?: string; 
   public get dataSourceFieldName() {
     return this.getStringAttribute('data_source_field_name');
   }
@@ -2891,7 +2891,7 @@ export class KendraDataSourceDataSourceConfigurationConfluenceConfigurationPageC
   }
 
   // date_field_format - computed: true, optional: true, required: false
-  private _dateFieldFormat?: string;
+  private _dateFieldFormat?: string; 
   public get dateFieldFormat() {
     return this.getStringAttribute('date_field_format');
   }
@@ -2907,7 +2907,7 @@ export class KendraDataSourceDataSourceConfigurationConfluenceConfigurationPageC
   }
 
   // index_field_name - computed: true, optional: true, required: false
-  private _indexFieldName?: string;
+  private _indexFieldName?: string; 
   public get indexFieldName() {
     return this.getStringAttribute('index_field_name');
   }
@@ -3151,7 +3151,7 @@ export class KendraDataSourceDataSourceConfigurationConfluenceConfigurationSpace
   }
 
   // data_source_field_name - computed: true, optional: true, required: false
-  private _dataSourceFieldName?: string;
+  private _dataSourceFieldName?: string; 
   public get dataSourceFieldName() {
     return this.getStringAttribute('data_source_field_name');
   }
@@ -3167,7 +3167,7 @@ export class KendraDataSourceDataSourceConfigurationConfluenceConfigurationSpace
   }
 
   // date_field_format - computed: true, optional: true, required: false
-  private _dateFieldFormat?: string;
+  private _dateFieldFormat?: string; 
   public get dateFieldFormat() {
     return this.getStringAttribute('date_field_format');
   }
@@ -3183,7 +3183,7 @@ export class KendraDataSourceDataSourceConfigurationConfluenceConfigurationSpace
   }
 
   // index_field_name - computed: true, optional: true, required: false
-  private _indexFieldName?: string;
+  private _indexFieldName?: string; 
   public get indexFieldName() {
     return this.getStringAttribute('index_field_name');
   }
@@ -3365,7 +3365,7 @@ export class KendraDataSourceDataSourceConfigurationConfluenceConfigurationSpace
   }
 
   // crawl_archived_spaces - computed: true, optional: true, required: false
-  private _crawlArchivedSpaces?: boolean | cdktn.IResolvable;
+  private _crawlArchivedSpaces?: boolean | cdktn.IResolvable; 
   public get crawlArchivedSpaces() {
     return this.getBooleanAttribute('crawl_archived_spaces');
   }
@@ -3381,7 +3381,7 @@ export class KendraDataSourceDataSourceConfigurationConfluenceConfigurationSpace
   }
 
   // crawl_personal_spaces - computed: true, optional: true, required: false
-  private _crawlPersonalSpaces?: boolean | cdktn.IResolvable;
+  private _crawlPersonalSpaces?: boolean | cdktn.IResolvable; 
   public get crawlPersonalSpaces() {
     return this.getBooleanAttribute('crawl_personal_spaces');
   }
@@ -3397,7 +3397,7 @@ export class KendraDataSourceDataSourceConfigurationConfluenceConfigurationSpace
   }
 
   // exclude_spaces - computed: true, optional: true, required: false
-  private _excludeSpaces?: string[];
+  private _excludeSpaces?: string[]; 
   public get excludeSpaces() {
     return this.getListAttribute('exclude_spaces');
   }
@@ -3413,7 +3413,7 @@ export class KendraDataSourceDataSourceConfigurationConfluenceConfigurationSpace
   }
 
   // include_spaces - computed: true, optional: true, required: false
-  private _includeSpaces?: string[];
+  private _includeSpaces?: string[]; 
   public get includeSpaces() {
     return this.getListAttribute('include_spaces');
   }
@@ -3540,7 +3540,7 @@ export class KendraDataSourceDataSourceConfigurationConfluenceConfigurationVpcCo
   }
 
   // security_group_ids - computed: true, optional: true, required: false
-  private _securityGroupIds?: string[];
+  private _securityGroupIds?: string[]; 
   public get securityGroupIds() {
     return this.getListAttribute('security_group_ids');
   }
@@ -3556,7 +3556,7 @@ export class KendraDataSourceDataSourceConfigurationConfluenceConfigurationVpcCo
   }
 
   // subnet_ids - computed: true, optional: true, required: false
-  private _subnetIds?: string[];
+  private _subnetIds?: string[]; 
   public get subnetIds() {
     return this.getListAttribute('subnet_ids');
   }
@@ -3835,7 +3835,7 @@ export class KendraDataSourceDataSourceConfigurationConfluenceConfigurationOutpu
   }
 
   // exclusion_patterns - computed: true, optional: true, required: false
-  private _exclusionPatterns?: string[];
+  private _exclusionPatterns?: string[]; 
   public get exclusionPatterns() {
     return this.getListAttribute('exclusion_patterns');
   }
@@ -3851,7 +3851,7 @@ export class KendraDataSourceDataSourceConfigurationConfluenceConfigurationOutpu
   }
 
   // inclusion_patterns - computed: true, optional: true, required: false
-  private _inclusionPatterns?: string[];
+  private _inclusionPatterns?: string[]; 
   public get inclusionPatterns() {
     return this.getListAttribute('inclusion_patterns');
   }
@@ -3883,7 +3883,7 @@ export class KendraDataSourceDataSourceConfigurationConfluenceConfigurationOutpu
   }
 
   // secret_arn - computed: true, optional: true, required: false
-  private _secretArn?: string;
+  private _secretArn?: string; 
   public get secretArn() {
     return this.getStringAttribute('secret_arn');
   }
@@ -3899,7 +3899,7 @@ export class KendraDataSourceDataSourceConfigurationConfluenceConfigurationOutpu
   }
 
   // server_url - computed: true, optional: true, required: false
-  private _serverUrl?: string;
+  private _serverUrl?: string; 
   public get serverUrl() {
     return this.getStringAttribute('server_url');
   }
@@ -3931,7 +3931,7 @@ export class KendraDataSourceDataSourceConfigurationConfluenceConfigurationOutpu
   }
 
   // version - computed: true, optional: true, required: false
-  private _version?: string;
+  private _version?: string; 
   public get version() {
     return this.getStringAttribute('version');
   }
@@ -4041,7 +4041,7 @@ export class KendraDataSourceDataSourceConfigurationDatabaseConfigurationAclConf
   }
 
   // allowed_groups_column_name - computed: true, optional: true, required: false
-  private _allowedGroupsColumnName?: string;
+  private _allowedGroupsColumnName?: string; 
   public get allowedGroupsColumnName() {
     return this.getStringAttribute('allowed_groups_column_name');
   }
@@ -4171,7 +4171,7 @@ export class KendraDataSourceDataSourceConfigurationDatabaseConfigurationColumnC
   }
 
   // data_source_field_name - computed: true, optional: true, required: false
-  private _dataSourceFieldName?: string;
+  private _dataSourceFieldName?: string; 
   public get dataSourceFieldName() {
     return this.getStringAttribute('data_source_field_name');
   }
@@ -4187,7 +4187,7 @@ export class KendraDataSourceDataSourceConfigurationDatabaseConfigurationColumnC
   }
 
   // date_field_format - computed: true, optional: true, required: false
-  private _dateFieldFormat?: string;
+  private _dateFieldFormat?: string; 
   public get dateFieldFormat() {
     return this.getStringAttribute('date_field_format');
   }
@@ -4203,7 +4203,7 @@ export class KendraDataSourceDataSourceConfigurationDatabaseConfigurationColumnC
   }
 
   // index_field_name - computed: true, optional: true, required: false
-  private _indexFieldName?: string;
+  private _indexFieldName?: string; 
   public get indexFieldName() {
     return this.getStringAttribute('index_field_name');
   }
@@ -4385,7 +4385,7 @@ export class KendraDataSourceDataSourceConfigurationDatabaseConfigurationColumnC
   }
 
   // change_detecting_columns - computed: true, optional: true, required: false
-  private _changeDetectingColumns?: string[];
+  private _changeDetectingColumns?: string[]; 
   public get changeDetectingColumns() {
     return this.getListAttribute('change_detecting_columns');
   }
@@ -4401,7 +4401,7 @@ export class KendraDataSourceDataSourceConfigurationDatabaseConfigurationColumnC
   }
 
   // document_data_column_name - computed: true, optional: true, required: false
-  private _documentDataColumnName?: string;
+  private _documentDataColumnName?: string; 
   public get documentDataColumnName() {
     return this.getStringAttribute('document_data_column_name');
   }
@@ -4417,7 +4417,7 @@ export class KendraDataSourceDataSourceConfigurationDatabaseConfigurationColumnC
   }
 
   // document_id_column_name - computed: true, optional: true, required: false
-  private _documentIdColumnName?: string;
+  private _documentIdColumnName?: string; 
   public get documentIdColumnName() {
     return this.getStringAttribute('document_id_column_name');
   }
@@ -4433,7 +4433,7 @@ export class KendraDataSourceDataSourceConfigurationDatabaseConfigurationColumnC
   }
 
   // document_title_column_name - computed: true, optional: true, required: false
-  private _documentTitleColumnName?: string;
+  private _documentTitleColumnName?: string; 
   public get documentTitleColumnName() {
     return this.getStringAttribute('document_title_column_name');
   }
@@ -4611,7 +4611,7 @@ export class KendraDataSourceDataSourceConfigurationDatabaseConfigurationConnect
   }
 
   // database_host - computed: true, optional: true, required: false
-  private _databaseHost?: string;
+  private _databaseHost?: string; 
   public get databaseHost() {
     return this.getStringAttribute('database_host');
   }
@@ -4627,7 +4627,7 @@ export class KendraDataSourceDataSourceConfigurationDatabaseConfigurationConnect
   }
 
   // database_name - computed: true, optional: true, required: false
-  private _databaseName?: string;
+  private _databaseName?: string; 
   public get databaseName() {
     return this.getStringAttribute('database_name');
   }
@@ -4643,7 +4643,7 @@ export class KendraDataSourceDataSourceConfigurationDatabaseConfigurationConnect
   }
 
   // database_port - computed: true, optional: true, required: false
-  private _databasePort?: number;
+  private _databasePort?: number; 
   public get databasePort() {
     return this.getNumberAttribute('database_port');
   }
@@ -4659,7 +4659,7 @@ export class KendraDataSourceDataSourceConfigurationDatabaseConfigurationConnect
   }
 
   // secret_arn - computed: true, optional: true, required: false
-  private _secretArn?: string;
+  private _secretArn?: string; 
   public get secretArn() {
     return this.getStringAttribute('secret_arn');
   }
@@ -4675,7 +4675,7 @@ export class KendraDataSourceDataSourceConfigurationDatabaseConfigurationConnect
   }
 
   // table_name - computed: true, optional: true, required: false
-  private _tableName?: string;
+  private _tableName?: string; 
   public get tableName() {
     return this.getStringAttribute('table_name');
   }
@@ -4769,7 +4769,7 @@ export class KendraDataSourceDataSourceConfigurationDatabaseConfigurationSqlConf
   }
 
   // query_identifiers_enclosing_option - computed: true, optional: true, required: false
-  private _queryIdentifiersEnclosingOption?: string;
+  private _queryIdentifiersEnclosingOption?: string; 
   public get queryIdentifiersEnclosingOption() {
     return this.getStringAttribute('query_identifiers_enclosing_option');
   }
@@ -4880,7 +4880,7 @@ export class KendraDataSourceDataSourceConfigurationDatabaseConfigurationVpcConf
   }
 
   // security_group_ids - computed: true, optional: true, required: false
-  private _securityGroupIds?: string[];
+  private _securityGroupIds?: string[]; 
   public get securityGroupIds() {
     return this.getListAttribute('security_group_ids');
   }
@@ -4896,7 +4896,7 @@ export class KendraDataSourceDataSourceConfigurationDatabaseConfigurationVpcConf
   }
 
   // subnet_ids - computed: true, optional: true, required: false
-  private _subnetIds?: string[];
+  private _subnetIds?: string[]; 
   public get subnetIds() {
     return this.getListAttribute('subnet_ids');
   }
@@ -5123,7 +5123,7 @@ export class KendraDataSourceDataSourceConfigurationDatabaseConfigurationOutputR
   }
 
   // database_engine_type - computed: true, optional: true, required: false
-  private _databaseEngineType?: string;
+  private _databaseEngineType?: string; 
   public get databaseEngineType() {
     return this.getStringAttribute('database_engine_type');
   }
@@ -5285,7 +5285,7 @@ export class KendraDataSourceDataSourceConfigurationGoogleDriveConfigurationFiel
   }
 
   // data_source_field_name - computed: true, optional: true, required: false
-  private _dataSourceFieldName?: string;
+  private _dataSourceFieldName?: string; 
   public get dataSourceFieldName() {
     return this.getStringAttribute('data_source_field_name');
   }
@@ -5301,7 +5301,7 @@ export class KendraDataSourceDataSourceConfigurationGoogleDriveConfigurationFiel
   }
 
   // date_field_format - computed: true, optional: true, required: false
-  private _dateFieldFormat?: string;
+  private _dateFieldFormat?: string; 
   public get dateFieldFormat() {
     return this.getStringAttribute('date_field_format');
   }
@@ -5317,7 +5317,7 @@ export class KendraDataSourceDataSourceConfigurationGoogleDriveConfigurationFiel
   }
 
   // index_field_name - computed: true, optional: true, required: false
-  private _indexFieldName?: string;
+  private _indexFieldName?: string; 
   public get indexFieldName() {
     return this.getStringAttribute('index_field_name');
   }
@@ -5533,7 +5533,7 @@ export class KendraDataSourceDataSourceConfigurationGoogleDriveConfigurationOutp
   }
 
   // exclude_mime_types - computed: true, optional: true, required: false
-  private _excludeMimeTypes?: string[];
+  private _excludeMimeTypes?: string[]; 
   public get excludeMimeTypes() {
     return this.getListAttribute('exclude_mime_types');
   }
@@ -5549,7 +5549,7 @@ export class KendraDataSourceDataSourceConfigurationGoogleDriveConfigurationOutp
   }
 
   // exclude_shared_drives - computed: true, optional: true, required: false
-  private _excludeSharedDrives?: string[];
+  private _excludeSharedDrives?: string[]; 
   public get excludeSharedDrives() {
     return this.getListAttribute('exclude_shared_drives');
   }
@@ -5565,7 +5565,7 @@ export class KendraDataSourceDataSourceConfigurationGoogleDriveConfigurationOutp
   }
 
   // exclude_user_accounts - computed: true, optional: true, required: false
-  private _excludeUserAccounts?: string[];
+  private _excludeUserAccounts?: string[]; 
   public get excludeUserAccounts() {
     return this.getListAttribute('exclude_user_accounts');
   }
@@ -5581,7 +5581,7 @@ export class KendraDataSourceDataSourceConfigurationGoogleDriveConfigurationOutp
   }
 
   // exclusion_patterns - computed: true, optional: true, required: false
-  private _exclusionPatterns?: string[];
+  private _exclusionPatterns?: string[]; 
   public get exclusionPatterns() {
     return this.getListAttribute('exclusion_patterns');
   }
@@ -5613,7 +5613,7 @@ export class KendraDataSourceDataSourceConfigurationGoogleDriveConfigurationOutp
   }
 
   // inclusion_patterns - computed: true, optional: true, required: false
-  private _inclusionPatterns?: string[];
+  private _inclusionPatterns?: string[]; 
   public get inclusionPatterns() {
     return this.getListAttribute('inclusion_patterns');
   }
@@ -5629,7 +5629,7 @@ export class KendraDataSourceDataSourceConfigurationGoogleDriveConfigurationOutp
   }
 
   // secret_arn - computed: true, optional: true, required: false
-  private _secretArn?: string;
+  private _secretArn?: string; 
   public get secretArn() {
     return this.getStringAttribute('secret_arn');
   }
@@ -5759,7 +5759,7 @@ export class KendraDataSourceDataSourceConfigurationOneDriveConfigurationFieldMa
   }
 
   // data_source_field_name - computed: true, optional: true, required: false
-  private _dataSourceFieldName?: string;
+  private _dataSourceFieldName?: string; 
   public get dataSourceFieldName() {
     return this.getStringAttribute('data_source_field_name');
   }
@@ -5775,7 +5775,7 @@ export class KendraDataSourceDataSourceConfigurationOneDriveConfigurationFieldMa
   }
 
   // date_field_format - computed: true, optional: true, required: false
-  private _dateFieldFormat?: string;
+  private _dateFieldFormat?: string; 
   public get dateFieldFormat() {
     return this.getStringAttribute('date_field_format');
   }
@@ -5791,7 +5791,7 @@ export class KendraDataSourceDataSourceConfigurationOneDriveConfigurationFieldMa
   }
 
   // index_field_name - computed: true, optional: true, required: false
-  private _indexFieldName?: string;
+  private _indexFieldName?: string; 
   public get indexFieldName() {
     return this.getStringAttribute('index_field_name');
   }
@@ -5922,7 +5922,7 @@ export class KendraDataSourceDataSourceConfigurationOneDriveConfigurationOneDriv
   }
 
   // bucket - computed: true, optional: true, required: false
-  private _bucket?: string;
+  private _bucket?: string; 
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -5938,7 +5938,7 @@ export class KendraDataSourceDataSourceConfigurationOneDriveConfigurationOneDriv
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -6049,7 +6049,7 @@ export class KendraDataSourceDataSourceConfigurationOneDriveConfigurationOneDriv
   }
 
   // one_drive_user_list - computed: true, optional: true, required: false
-  private _oneDriveUserList?: string[];
+  private _oneDriveUserList?: string[]; 
   public get oneDriveUserList() {
     return this.getListAttribute('one_drive_user_list');
   }
@@ -6261,7 +6261,7 @@ export class KendraDataSourceDataSourceConfigurationOneDriveConfigurationOutputR
   }
 
   // disable_local_groups - computed: true, optional: true, required: false
-  private _disableLocalGroups?: boolean | cdktn.IResolvable;
+  private _disableLocalGroups?: boolean | cdktn.IResolvable; 
   public get disableLocalGroups() {
     return this.getBooleanAttribute('disable_local_groups');
   }
@@ -6277,7 +6277,7 @@ export class KendraDataSourceDataSourceConfigurationOneDriveConfigurationOutputR
   }
 
   // exclusion_patterns - computed: true, optional: true, required: false
-  private _exclusionPatterns?: string[];
+  private _exclusionPatterns?: string[]; 
   public get exclusionPatterns() {
     return this.getListAttribute('exclusion_patterns');
   }
@@ -6309,7 +6309,7 @@ export class KendraDataSourceDataSourceConfigurationOneDriveConfigurationOutputR
   }
 
   // inclusion_patterns - computed: true, optional: true, required: false
-  private _inclusionPatterns?: string[];
+  private _inclusionPatterns?: string[]; 
   public get inclusionPatterns() {
     return this.getListAttribute('inclusion_patterns');
   }
@@ -6341,7 +6341,7 @@ export class KendraDataSourceDataSourceConfigurationOneDriveConfigurationOutputR
   }
 
   // secret_arn - computed: true, optional: true, required: false
-  private _secretArn?: string;
+  private _secretArn?: string; 
   public get secretArn() {
     return this.getStringAttribute('secret_arn');
   }
@@ -6357,7 +6357,7 @@ export class KendraDataSourceDataSourceConfigurationOneDriveConfigurationOutputR
   }
 
   // tenant_domain - computed: true, optional: true, required: false
-  private _tenantDomain?: string;
+  private _tenantDomain?: string; 
   public get tenantDomain() {
     return this.getStringAttribute('tenant_domain');
   }
@@ -6451,7 +6451,7 @@ export class KendraDataSourceDataSourceConfigurationS3ConfigurationAccessControl
   }
 
   // key_path - computed: true, optional: true, required: false
-  private _keyPath?: string;
+  private _keyPath?: string; 
   public get keyPath() {
     return this.getStringAttribute('key_path');
   }
@@ -6545,7 +6545,7 @@ export class KendraDataSourceDataSourceConfigurationS3ConfigurationDocumentsMeta
   }
 
   // s3_prefix - computed: true, optional: true, required: false
-  private _s3Prefix?: string;
+  private _s3Prefix?: string; 
   public get s3Prefix() {
     return this.getStringAttribute('s3_prefix');
   }
@@ -6740,7 +6740,7 @@ export class KendraDataSourceDataSourceConfigurationS3ConfigurationOutputReferen
   }
 
   // bucket_name - computed: true, optional: true, required: false
-  private _bucketName?: string;
+  private _bucketName?: string; 
   public get bucketName() {
     return this.getStringAttribute('bucket_name');
   }
@@ -6772,7 +6772,7 @@ export class KendraDataSourceDataSourceConfigurationS3ConfigurationOutputReferen
   }
 
   // exclusion_patterns - computed: true, optional: true, required: false
-  private _exclusionPatterns?: string[];
+  private _exclusionPatterns?: string[]; 
   public get exclusionPatterns() {
     return this.getListAttribute('exclusion_patterns');
   }
@@ -6788,7 +6788,7 @@ export class KendraDataSourceDataSourceConfigurationS3ConfigurationOutputReferen
   }
 
   // inclusion_patterns - computed: true, optional: true, required: false
-  private _inclusionPatterns?: string[];
+  private _inclusionPatterns?: string[]; 
   public get inclusionPatterns() {
     return this.getListAttribute('inclusion_patterns');
   }
@@ -6804,7 +6804,7 @@ export class KendraDataSourceDataSourceConfigurationS3ConfigurationOutputReferen
   }
 
   // inclusion_prefixes - computed: true, optional: true, required: false
-  private _inclusionPrefixes?: string[];
+  private _inclusionPrefixes?: string[]; 
   public get inclusionPrefixes() {
     return this.getListAttribute('inclusion_prefixes');
   }
@@ -6934,7 +6934,7 @@ export class KendraDataSourceDataSourceConfigurationSalesforceConfigurationChatt
   }
 
   // data_source_field_name - computed: true, optional: true, required: false
-  private _dataSourceFieldName?: string;
+  private _dataSourceFieldName?: string; 
   public get dataSourceFieldName() {
     return this.getStringAttribute('data_source_field_name');
   }
@@ -6950,7 +6950,7 @@ export class KendraDataSourceDataSourceConfigurationSalesforceConfigurationChatt
   }
 
   // date_field_format - computed: true, optional: true, required: false
-  private _dateFieldFormat?: string;
+  private _dateFieldFormat?: string; 
   public get dateFieldFormat() {
     return this.getStringAttribute('date_field_format');
   }
@@ -6966,7 +6966,7 @@ export class KendraDataSourceDataSourceConfigurationSalesforceConfigurationChatt
   }
 
   // index_field_name - computed: true, optional: true, required: false
-  private _indexFieldName?: string;
+  private _indexFieldName?: string; 
   public get indexFieldName() {
     return this.getStringAttribute('index_field_name');
   }
@@ -7131,7 +7131,7 @@ export class KendraDataSourceDataSourceConfigurationSalesforceConfigurationChatt
   }
 
   // document_data_field_name - computed: true, optional: true, required: false
-  private _documentDataFieldName?: string;
+  private _documentDataFieldName?: string; 
   public get documentDataFieldName() {
     return this.getStringAttribute('document_data_field_name');
   }
@@ -7147,7 +7147,7 @@ export class KendraDataSourceDataSourceConfigurationSalesforceConfigurationChatt
   }
 
   // document_title_field_name - computed: true, optional: true, required: false
-  private _documentTitleFieldName?: string;
+  private _documentTitleFieldName?: string; 
   public get documentTitleFieldName() {
     return this.getStringAttribute('document_title_field_name');
   }
@@ -7179,7 +7179,7 @@ export class KendraDataSourceDataSourceConfigurationSalesforceConfigurationChatt
   }
 
   // include_filter_types - computed: true, optional: true, required: false
-  private _includeFilterTypes?: string[];
+  private _includeFilterTypes?: string[]; 
   public get includeFilterTypes() {
     return this.getListAttribute('include_filter_types');
   }
@@ -7309,7 +7309,7 @@ export class KendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowl
   }
 
   // data_source_field_name - computed: true, optional: true, required: false
-  private _dataSourceFieldName?: string;
+  private _dataSourceFieldName?: string; 
   public get dataSourceFieldName() {
     return this.getStringAttribute('data_source_field_name');
   }
@@ -7325,7 +7325,7 @@ export class KendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowl
   }
 
   // date_field_format - computed: true, optional: true, required: false
-  private _dateFieldFormat?: string;
+  private _dateFieldFormat?: string; 
   public get dateFieldFormat() {
     return this.getStringAttribute('date_field_format');
   }
@@ -7341,7 +7341,7 @@ export class KendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowl
   }
 
   // index_field_name - computed: true, optional: true, required: false
-  private _indexFieldName?: string;
+  private _indexFieldName?: string; 
   public get indexFieldName() {
     return this.getStringAttribute('index_field_name');
   }
@@ -7508,7 +7508,7 @@ export class KendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowl
   }
 
   // document_data_field_name - computed: true, optional: true, required: false
-  private _documentDataFieldName?: string;
+  private _documentDataFieldName?: string; 
   public get documentDataFieldName() {
     return this.getStringAttribute('document_data_field_name');
   }
@@ -7524,7 +7524,7 @@ export class KendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowl
   }
 
   // document_title_field_name - computed: true, optional: true, required: false
-  private _documentTitleFieldName?: string;
+  private _documentTitleFieldName?: string; 
   public get documentTitleFieldName() {
     return this.getStringAttribute('document_title_field_name');
   }
@@ -7556,7 +7556,7 @@ export class KendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowl
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -7706,7 +7706,7 @@ export class KendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowl
   }
 
   // data_source_field_name - computed: true, optional: true, required: false
-  private _dataSourceFieldName?: string;
+  private _dataSourceFieldName?: string; 
   public get dataSourceFieldName() {
     return this.getStringAttribute('data_source_field_name');
   }
@@ -7722,7 +7722,7 @@ export class KendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowl
   }
 
   // date_field_format - computed: true, optional: true, required: false
-  private _dateFieldFormat?: string;
+  private _dateFieldFormat?: string; 
   public get dateFieldFormat() {
     return this.getStringAttribute('date_field_format');
   }
@@ -7738,7 +7738,7 @@ export class KendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowl
   }
 
   // index_field_name - computed: true, optional: true, required: false
-  private _indexFieldName?: string;
+  private _indexFieldName?: string; 
   public get indexFieldName() {
     return this.getStringAttribute('index_field_name');
   }
@@ -7886,7 +7886,7 @@ export class KendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowl
   }
 
   // document_data_field_name - computed: true, optional: true, required: false
-  private _documentDataFieldName?: string;
+  private _documentDataFieldName?: string; 
   public get documentDataFieldName() {
     return this.getStringAttribute('document_data_field_name');
   }
@@ -7902,7 +7902,7 @@ export class KendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowl
   }
 
   // document_title_field_name - computed: true, optional: true, required: false
-  private _documentTitleFieldName?: string;
+  private _documentTitleFieldName?: string; 
   public get documentTitleFieldName() {
     return this.getStringAttribute('document_title_field_name');
   }
@@ -8062,7 +8062,7 @@ export class KendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowl
   }
 
   // included_states - computed: true, optional: true, required: false
-  private _includedStates?: string[];
+  private _includedStates?: string[]; 
   public get includedStates() {
     return this.getListAttribute('included_states');
   }
@@ -8208,7 +8208,7 @@ export class KendraDataSourceDataSourceConfigurationSalesforceConfigurationStand
   }
 
   // data_source_field_name - computed: true, optional: true, required: false
-  private _dataSourceFieldName?: string;
+  private _dataSourceFieldName?: string; 
   public get dataSourceFieldName() {
     return this.getStringAttribute('data_source_field_name');
   }
@@ -8224,7 +8224,7 @@ export class KendraDataSourceDataSourceConfigurationSalesforceConfigurationStand
   }
 
   // date_field_format - computed: true, optional: true, required: false
-  private _dateFieldFormat?: string;
+  private _dateFieldFormat?: string; 
   public get dateFieldFormat() {
     return this.getStringAttribute('date_field_format');
   }
@@ -8240,7 +8240,7 @@ export class KendraDataSourceDataSourceConfigurationSalesforceConfigurationStand
   }
 
   // index_field_name - computed: true, optional: true, required: false
-  private _indexFieldName?: string;
+  private _indexFieldName?: string; 
   public get indexFieldName() {
     return this.getStringAttribute('index_field_name');
   }
@@ -8371,7 +8371,7 @@ export class KendraDataSourceDataSourceConfigurationSalesforceConfigurationStand
   }
 
   // document_title_field_name - computed: true, optional: true, required: false
-  private _documentTitleFieldName?: string;
+  private _documentTitleFieldName?: string; 
   public get documentTitleFieldName() {
     return this.getStringAttribute('document_title_field_name');
   }
@@ -8517,7 +8517,7 @@ export class KendraDataSourceDataSourceConfigurationSalesforceConfigurationStand
   }
 
   // data_source_field_name - computed: true, optional: true, required: false
-  private _dataSourceFieldName?: string;
+  private _dataSourceFieldName?: string; 
   public get dataSourceFieldName() {
     return this.getStringAttribute('data_source_field_name');
   }
@@ -8533,7 +8533,7 @@ export class KendraDataSourceDataSourceConfigurationSalesforceConfigurationStand
   }
 
   // date_field_format - computed: true, optional: true, required: false
-  private _dateFieldFormat?: string;
+  private _dateFieldFormat?: string; 
   public get dateFieldFormat() {
     return this.getStringAttribute('date_field_format');
   }
@@ -8549,7 +8549,7 @@ export class KendraDataSourceDataSourceConfigurationSalesforceConfigurationStand
   }
 
   // index_field_name - computed: true, optional: true, required: false
-  private _indexFieldName?: string;
+  private _indexFieldName?: string; 
   public get indexFieldName() {
     return this.getStringAttribute('index_field_name');
   }
@@ -8716,7 +8716,7 @@ export class KendraDataSourceDataSourceConfigurationSalesforceConfigurationStand
   }
 
   // document_data_field_name - computed: true, optional: true, required: false
-  private _documentDataFieldName?: string;
+  private _documentDataFieldName?: string; 
   public get documentDataFieldName() {
     return this.getStringAttribute('document_data_field_name');
   }
@@ -8732,7 +8732,7 @@ export class KendraDataSourceDataSourceConfigurationSalesforceConfigurationStand
   }
 
   // document_title_field_name - computed: true, optional: true, required: false
-  private _documentTitleFieldName?: string;
+  private _documentTitleFieldName?: string; 
   public get documentTitleFieldName() {
     return this.getStringAttribute('document_title_field_name');
   }
@@ -8764,7 +8764,7 @@ export class KendraDataSourceDataSourceConfigurationSalesforceConfigurationStand
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -9030,7 +9030,7 @@ export class KendraDataSourceDataSourceConfigurationSalesforceConfigurationOutpu
   }
 
   // crawl_attachments - computed: true, optional: true, required: false
-  private _crawlAttachments?: boolean | cdktn.IResolvable;
+  private _crawlAttachments?: boolean | cdktn.IResolvable; 
   public get crawlAttachments() {
     return this.getBooleanAttribute('crawl_attachments');
   }
@@ -9046,7 +9046,7 @@ export class KendraDataSourceDataSourceConfigurationSalesforceConfigurationOutpu
   }
 
   // exclude_attachment_file_patterns - computed: true, optional: true, required: false
-  private _excludeAttachmentFilePatterns?: string[];
+  private _excludeAttachmentFilePatterns?: string[]; 
   public get excludeAttachmentFilePatterns() {
     return this.getListAttribute('exclude_attachment_file_patterns');
   }
@@ -9062,7 +9062,7 @@ export class KendraDataSourceDataSourceConfigurationSalesforceConfigurationOutpu
   }
 
   // include_attachment_file_patterns - computed: true, optional: true, required: false
-  private _includeAttachmentFilePatterns?: string[];
+  private _includeAttachmentFilePatterns?: string[]; 
   public get includeAttachmentFilePatterns() {
     return this.getListAttribute('include_attachment_file_patterns');
   }
@@ -9094,7 +9094,7 @@ export class KendraDataSourceDataSourceConfigurationSalesforceConfigurationOutpu
   }
 
   // secret_arn - computed: true, optional: true, required: false
-  private _secretArn?: string;
+  private _secretArn?: string; 
   public get secretArn() {
     return this.getStringAttribute('secret_arn');
   }
@@ -9110,7 +9110,7 @@ export class KendraDataSourceDataSourceConfigurationSalesforceConfigurationOutpu
   }
 
   // server_url - computed: true, optional: true, required: false
-  private _serverUrl?: string;
+  private _serverUrl?: string; 
   public get serverUrl() {
     return this.getStringAttribute('server_url');
   }
@@ -9272,7 +9272,7 @@ export class KendraDataSourceDataSourceConfigurationServiceNowConfigurationKnowl
   }
 
   // data_source_field_name - computed: true, optional: true, required: false
-  private _dataSourceFieldName?: string;
+  private _dataSourceFieldName?: string; 
   public get dataSourceFieldName() {
     return this.getStringAttribute('data_source_field_name');
   }
@@ -9288,7 +9288,7 @@ export class KendraDataSourceDataSourceConfigurationServiceNowConfigurationKnowl
   }
 
   // date_field_format - computed: true, optional: true, required: false
-  private _dateFieldFormat?: string;
+  private _dateFieldFormat?: string; 
   public get dateFieldFormat() {
     return this.getStringAttribute('date_field_format');
   }
@@ -9304,7 +9304,7 @@ export class KendraDataSourceDataSourceConfigurationServiceNowConfigurationKnowl
   }
 
   // index_field_name - computed: true, optional: true, required: false
-  private _indexFieldName?: string;
+  private _indexFieldName?: string; 
   public get indexFieldName() {
     return this.getStringAttribute('index_field_name');
   }
@@ -9520,7 +9520,7 @@ export class KendraDataSourceDataSourceConfigurationServiceNowConfigurationKnowl
   }
 
   // crawl_attachments - computed: true, optional: true, required: false
-  private _crawlAttachments?: boolean | cdktn.IResolvable;
+  private _crawlAttachments?: boolean | cdktn.IResolvable; 
   public get crawlAttachments() {
     return this.getBooleanAttribute('crawl_attachments');
   }
@@ -9536,7 +9536,7 @@ export class KendraDataSourceDataSourceConfigurationServiceNowConfigurationKnowl
   }
 
   // document_data_field_name - computed: true, optional: true, required: false
-  private _documentDataFieldName?: string;
+  private _documentDataFieldName?: string; 
   public get documentDataFieldName() {
     return this.getStringAttribute('document_data_field_name');
   }
@@ -9552,7 +9552,7 @@ export class KendraDataSourceDataSourceConfigurationServiceNowConfigurationKnowl
   }
 
   // document_title_field_name - computed: true, optional: true, required: false
-  private _documentTitleFieldName?: string;
+  private _documentTitleFieldName?: string; 
   public get documentTitleFieldName() {
     return this.getStringAttribute('document_title_field_name');
   }
@@ -9568,7 +9568,7 @@ export class KendraDataSourceDataSourceConfigurationServiceNowConfigurationKnowl
   }
 
   // exclude_attachment_file_patterns - computed: true, optional: true, required: false
-  private _excludeAttachmentFilePatterns?: string[];
+  private _excludeAttachmentFilePatterns?: string[]; 
   public get excludeAttachmentFilePatterns() {
     return this.getListAttribute('exclude_attachment_file_patterns');
   }
@@ -9600,7 +9600,7 @@ export class KendraDataSourceDataSourceConfigurationServiceNowConfigurationKnowl
   }
 
   // filter_query - computed: true, optional: true, required: false
-  private _filterQuery?: string;
+  private _filterQuery?: string; 
   public get filterQuery() {
     return this.getStringAttribute('filter_query');
   }
@@ -9616,7 +9616,7 @@ export class KendraDataSourceDataSourceConfigurationServiceNowConfigurationKnowl
   }
 
   // include_attachment_file_patterns - computed: true, optional: true, required: false
-  private _includeAttachmentFilePatterns?: string[];
+  private _includeAttachmentFilePatterns?: string[]; 
   public get includeAttachmentFilePatterns() {
     return this.getListAttribute('include_attachment_file_patterns');
   }
@@ -9746,7 +9746,7 @@ export class KendraDataSourceDataSourceConfigurationServiceNowConfigurationServi
   }
 
   // data_source_field_name - computed: true, optional: true, required: false
-  private _dataSourceFieldName?: string;
+  private _dataSourceFieldName?: string; 
   public get dataSourceFieldName() {
     return this.getStringAttribute('data_source_field_name');
   }
@@ -9762,7 +9762,7 @@ export class KendraDataSourceDataSourceConfigurationServiceNowConfigurationServi
   }
 
   // date_field_format - computed: true, optional: true, required: false
-  private _dateFieldFormat?: string;
+  private _dateFieldFormat?: string; 
   public get dateFieldFormat() {
     return this.getStringAttribute('date_field_format');
   }
@@ -9778,7 +9778,7 @@ export class KendraDataSourceDataSourceConfigurationServiceNowConfigurationServi
   }
 
   // index_field_name - computed: true, optional: true, required: false
-  private _indexFieldName?: string;
+  private _indexFieldName?: string; 
   public get indexFieldName() {
     return this.getStringAttribute('index_field_name');
   }
@@ -9977,7 +9977,7 @@ export class KendraDataSourceDataSourceConfigurationServiceNowConfigurationServi
   }
 
   // crawl_attachments - computed: true, optional: true, required: false
-  private _crawlAttachments?: boolean | cdktn.IResolvable;
+  private _crawlAttachments?: boolean | cdktn.IResolvable; 
   public get crawlAttachments() {
     return this.getBooleanAttribute('crawl_attachments');
   }
@@ -9993,7 +9993,7 @@ export class KendraDataSourceDataSourceConfigurationServiceNowConfigurationServi
   }
 
   // document_data_field_name - computed: true, optional: true, required: false
-  private _documentDataFieldName?: string;
+  private _documentDataFieldName?: string; 
   public get documentDataFieldName() {
     return this.getStringAttribute('document_data_field_name');
   }
@@ -10009,7 +10009,7 @@ export class KendraDataSourceDataSourceConfigurationServiceNowConfigurationServi
   }
 
   // document_title_field_name - computed: true, optional: true, required: false
-  private _documentTitleFieldName?: string;
+  private _documentTitleFieldName?: string; 
   public get documentTitleFieldName() {
     return this.getStringAttribute('document_title_field_name');
   }
@@ -10025,7 +10025,7 @@ export class KendraDataSourceDataSourceConfigurationServiceNowConfigurationServi
   }
 
   // exclude_attachment_file_patterns - computed: true, optional: true, required: false
-  private _excludeAttachmentFilePatterns?: string[];
+  private _excludeAttachmentFilePatterns?: string[]; 
   public get excludeAttachmentFilePatterns() {
     return this.getListAttribute('exclude_attachment_file_patterns');
   }
@@ -10057,7 +10057,7 @@ export class KendraDataSourceDataSourceConfigurationServiceNowConfigurationServi
   }
 
   // include_attachment_file_patterns - computed: true, optional: true, required: false
-  private _includeAttachmentFilePatterns?: string[];
+  private _includeAttachmentFilePatterns?: string[]; 
   public get includeAttachmentFilePatterns() {
     return this.getListAttribute('include_attachment_file_patterns');
   }
@@ -10236,7 +10236,7 @@ export class KendraDataSourceDataSourceConfigurationServiceNowConfigurationOutpu
   }
 
   // authentication_type - computed: true, optional: true, required: false
-  private _authenticationType?: string;
+  private _authenticationType?: string; 
   public get authenticationType() {
     return this.getStringAttribute('authentication_type');
   }
@@ -10252,7 +10252,7 @@ export class KendraDataSourceDataSourceConfigurationServiceNowConfigurationOutpu
   }
 
   // host_url - computed: true, optional: true, required: false
-  private _hostUrl?: string;
+  private _hostUrl?: string; 
   public get hostUrl() {
     return this.getStringAttribute('host_url');
   }
@@ -10284,7 +10284,7 @@ export class KendraDataSourceDataSourceConfigurationServiceNowConfigurationOutpu
   }
 
   // secret_arn - computed: true, optional: true, required: false
-  private _secretArn?: string;
+  private _secretArn?: string; 
   public get secretArn() {
     return this.getStringAttribute('secret_arn');
   }
@@ -10316,7 +10316,7 @@ export class KendraDataSourceDataSourceConfigurationServiceNowConfigurationOutpu
   }
 
   // service_now_build_version - computed: true, optional: true, required: false
-  private _serviceNowBuildVersion?: string;
+  private _serviceNowBuildVersion?: string; 
   public get serviceNowBuildVersion() {
     return this.getStringAttribute('service_now_build_version');
   }
@@ -10446,7 +10446,7 @@ export class KendraDataSourceDataSourceConfigurationSharePointConfigurationField
   }
 
   // data_source_field_name - computed: true, optional: true, required: false
-  private _dataSourceFieldName?: string;
+  private _dataSourceFieldName?: string; 
   public get dataSourceFieldName() {
     return this.getStringAttribute('data_source_field_name');
   }
@@ -10462,7 +10462,7 @@ export class KendraDataSourceDataSourceConfigurationSharePointConfigurationField
   }
 
   // date_field_format - computed: true, optional: true, required: false
-  private _dateFieldFormat?: string;
+  private _dateFieldFormat?: string; 
   public get dateFieldFormat() {
     return this.getStringAttribute('date_field_format');
   }
@@ -10478,7 +10478,7 @@ export class KendraDataSourceDataSourceConfigurationSharePointConfigurationField
   }
 
   // index_field_name - computed: true, optional: true, required: false
-  private _indexFieldName?: string;
+  private _indexFieldName?: string; 
   public get indexFieldName() {
     return this.getStringAttribute('index_field_name');
   }
@@ -10609,7 +10609,7 @@ export class KendraDataSourceDataSourceConfigurationSharePointConfigurationSslCe
   }
 
   // bucket - computed: true, optional: true, required: false
-  private _bucket?: string;
+  private _bucket?: string; 
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -10625,7 +10625,7 @@ export class KendraDataSourceDataSourceConfigurationSharePointConfigurationSslCe
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -10736,7 +10736,7 @@ export class KendraDataSourceDataSourceConfigurationSharePointConfigurationVpcCo
   }
 
   // security_group_ids - computed: true, optional: true, required: false
-  private _securityGroupIds?: string[];
+  private _securityGroupIds?: string[]; 
   public get securityGroupIds() {
     return this.getListAttribute('security_group_ids');
   }
@@ -10752,7 +10752,7 @@ export class KendraDataSourceDataSourceConfigurationSharePointConfigurationVpcCo
   }
 
   // subnet_ids - computed: true, optional: true, required: false
-  private _subnetIds?: string[];
+  private _subnetIds?: string[]; 
   public get subnetIds() {
     return this.getListAttribute('subnet_ids');
   }
@@ -11033,7 +11033,7 @@ export class KendraDataSourceDataSourceConfigurationSharePointConfigurationOutpu
   }
 
   // crawl_attachments - computed: true, optional: true, required: false
-  private _crawlAttachments?: boolean | cdktn.IResolvable;
+  private _crawlAttachments?: boolean | cdktn.IResolvable; 
   public get crawlAttachments() {
     return this.getBooleanAttribute('crawl_attachments');
   }
@@ -11049,7 +11049,7 @@ export class KendraDataSourceDataSourceConfigurationSharePointConfigurationOutpu
   }
 
   // disable_local_groups - computed: true, optional: true, required: false
-  private _disableLocalGroups?: boolean | cdktn.IResolvable;
+  private _disableLocalGroups?: boolean | cdktn.IResolvable; 
   public get disableLocalGroups() {
     return this.getBooleanAttribute('disable_local_groups');
   }
@@ -11065,7 +11065,7 @@ export class KendraDataSourceDataSourceConfigurationSharePointConfigurationOutpu
   }
 
   // document_title_field_name - computed: true, optional: true, required: false
-  private _documentTitleFieldName?: string;
+  private _documentTitleFieldName?: string; 
   public get documentTitleFieldName() {
     return this.getStringAttribute('document_title_field_name');
   }
@@ -11081,7 +11081,7 @@ export class KendraDataSourceDataSourceConfigurationSharePointConfigurationOutpu
   }
 
   // exclusion_patterns - computed: true, optional: true, required: false
-  private _exclusionPatterns?: string[];
+  private _exclusionPatterns?: string[]; 
   public get exclusionPatterns() {
     return this.getListAttribute('exclusion_patterns');
   }
@@ -11113,7 +11113,7 @@ export class KendraDataSourceDataSourceConfigurationSharePointConfigurationOutpu
   }
 
   // inclusion_patterns - computed: true, optional: true, required: false
-  private _inclusionPatterns?: string[];
+  private _inclusionPatterns?: string[]; 
   public get inclusionPatterns() {
     return this.getListAttribute('inclusion_patterns');
   }
@@ -11129,7 +11129,7 @@ export class KendraDataSourceDataSourceConfigurationSharePointConfigurationOutpu
   }
 
   // secret_arn - computed: true, optional: true, required: false
-  private _secretArn?: string;
+  private _secretArn?: string; 
   public get secretArn() {
     return this.getStringAttribute('secret_arn');
   }
@@ -11145,7 +11145,7 @@ export class KendraDataSourceDataSourceConfigurationSharePointConfigurationOutpu
   }
 
   // share_point_version - computed: true, optional: true, required: false
-  private _sharePointVersion?: string;
+  private _sharePointVersion?: string; 
   public get sharePointVersion() {
     return this.getStringAttribute('share_point_version');
   }
@@ -11177,7 +11177,7 @@ export class KendraDataSourceDataSourceConfigurationSharePointConfigurationOutpu
   }
 
   // urls - computed: true, optional: true, required: false
-  private _urls?: string[];
+  private _urls?: string[]; 
   public get urls() {
     return this.getListAttribute('urls');
   }
@@ -11193,7 +11193,7 @@ export class KendraDataSourceDataSourceConfigurationSharePointConfigurationOutpu
   }
 
   // use_change_log - computed: true, optional: true, required: false
-  private _useChangeLog?: boolean | cdktn.IResolvable;
+  private _useChangeLog?: boolean | cdktn.IResolvable; 
   public get useChangeLog() {
     return this.getBooleanAttribute('use_change_log');
   }
@@ -11303,7 +11303,7 @@ export class KendraDataSourceDataSourceConfigurationTemplateConfigurationOutputR
   }
 
   // template - computed: true, optional: true, required: false
-  private _template?: string;
+  private _template?: string; 
   public get template() {
     return this.getStringAttribute('template');
   }
@@ -11433,7 +11433,7 @@ export class KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationAuthe
   }
 
   // credentials - computed: true, optional: true, required: false
-  private _credentials?: string;
+  private _credentials?: string; 
   public get credentials() {
     return this.getStringAttribute('credentials');
   }
@@ -11449,7 +11449,7 @@ export class KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationAuthe
   }
 
   // host - computed: true, optional: true, required: false
-  private _host?: string;
+  private _host?: string; 
   public get host() {
     return this.getStringAttribute('host');
   }
@@ -11465,7 +11465,7 @@ export class KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationAuthe
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -11707,7 +11707,7 @@ export class KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationProxy
   }
 
   // credentials - computed: true, optional: true, required: false
-  private _credentials?: string;
+  private _credentials?: string; 
   public get credentials() {
     return this.getStringAttribute('credentials');
   }
@@ -11723,7 +11723,7 @@ export class KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationProxy
   }
 
   // host - computed: true, optional: true, required: false
-  private _host?: string;
+  private _host?: string; 
   public get host() {
     return this.getStringAttribute('host');
   }
@@ -11739,7 +11739,7 @@ export class KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationProxy
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -11850,7 +11850,7 @@ export class KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationUrlsS
   }
 
   // seed_urls - computed: true, optional: true, required: false
-  private _seedUrls?: string[];
+  private _seedUrls?: string[]; 
   public get seedUrls() {
     return this.getListAttribute('seed_urls');
   }
@@ -11866,7 +11866,7 @@ export class KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationUrlsS
   }
 
   // web_crawler_mode - computed: true, optional: true, required: false
-  private _webCrawlerMode?: string;
+  private _webCrawlerMode?: string; 
   public get webCrawlerMode() {
     return this.getStringAttribute('web_crawler_mode');
   }
@@ -11960,7 +11960,7 @@ export class KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationUrlsS
   }
 
   // site_maps - computed: true, optional: true, required: false
-  private _siteMaps?: string[];
+  private _siteMaps?: string[]; 
   public get siteMaps() {
     return this.getListAttribute('site_maps');
   }
@@ -12333,7 +12333,7 @@ export class KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationOutpu
   }
 
   // crawl_depth - computed: true, optional: true, required: false
-  private _crawlDepth?: number;
+  private _crawlDepth?: number; 
   public get crawlDepth() {
     return this.getNumberAttribute('crawl_depth');
   }
@@ -12349,7 +12349,7 @@ export class KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationOutpu
   }
 
   // max_content_size_per_page_in_mega_bytes - computed: true, optional: true, required: false
-  private _maxContentSizePerPageInMegaBytes?: number;
+  private _maxContentSizePerPageInMegaBytes?: number; 
   public get maxContentSizePerPageInMegaBytes() {
     return this.getNumberAttribute('max_content_size_per_page_in_mega_bytes');
   }
@@ -12365,7 +12365,7 @@ export class KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationOutpu
   }
 
   // max_links_per_page - computed: true, optional: true, required: false
-  private _maxLinksPerPage?: number;
+  private _maxLinksPerPage?: number; 
   public get maxLinksPerPage() {
     return this.getNumberAttribute('max_links_per_page');
   }
@@ -12381,7 +12381,7 @@ export class KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationOutpu
   }
 
   // max_urls_per_minute_crawl_rate - computed: true, optional: true, required: false
-  private _maxUrlsPerMinuteCrawlRate?: number;
+  private _maxUrlsPerMinuteCrawlRate?: number; 
   public get maxUrlsPerMinuteCrawlRate() {
     return this.getNumberAttribute('max_urls_per_minute_crawl_rate');
   }
@@ -12413,7 +12413,7 @@ export class KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationOutpu
   }
 
   // url_exclusion_patterns - computed: true, optional: true, required: false
-  private _urlExclusionPatterns?: string[];
+  private _urlExclusionPatterns?: string[]; 
   public get urlExclusionPatterns() {
     return this.getListAttribute('url_exclusion_patterns');
   }
@@ -12429,7 +12429,7 @@ export class KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationOutpu
   }
 
   // url_inclusion_patterns - computed: true, optional: true, required: false
-  private _urlInclusionPatterns?: string[];
+  private _urlInclusionPatterns?: string[]; 
   public get urlInclusionPatterns() {
     return this.getListAttribute('url_inclusion_patterns');
   }
@@ -12575,7 +12575,7 @@ export class KendraDataSourceDataSourceConfigurationWorkDocsConfigurationFieldMa
   }
 
   // data_source_field_name - computed: true, optional: true, required: false
-  private _dataSourceFieldName?: string;
+  private _dataSourceFieldName?: string; 
   public get dataSourceFieldName() {
     return this.getStringAttribute('data_source_field_name');
   }
@@ -12591,7 +12591,7 @@ export class KendraDataSourceDataSourceConfigurationWorkDocsConfigurationFieldMa
   }
 
   // date_field_format - computed: true, optional: true, required: false
-  private _dateFieldFormat?: string;
+  private _dateFieldFormat?: string; 
   public get dateFieldFormat() {
     return this.getStringAttribute('date_field_format');
   }
@@ -12607,7 +12607,7 @@ export class KendraDataSourceDataSourceConfigurationWorkDocsConfigurationFieldMa
   }
 
   // index_field_name - computed: true, optional: true, required: false
-  private _indexFieldName?: string;
+  private _indexFieldName?: string; 
   public get indexFieldName() {
     return this.getStringAttribute('index_field_name');
   }
@@ -12806,7 +12806,7 @@ export class KendraDataSourceDataSourceConfigurationWorkDocsConfigurationOutputR
   }
 
   // crawl_comments - computed: true, optional: true, required: false
-  private _crawlComments?: boolean | cdktn.IResolvable;
+  private _crawlComments?: boolean | cdktn.IResolvable; 
   public get crawlComments() {
     return this.getBooleanAttribute('crawl_comments');
   }
@@ -12822,7 +12822,7 @@ export class KendraDataSourceDataSourceConfigurationWorkDocsConfigurationOutputR
   }
 
   // exclusion_patterns - computed: true, optional: true, required: false
-  private _exclusionPatterns?: string[];
+  private _exclusionPatterns?: string[]; 
   public get exclusionPatterns() {
     return this.getListAttribute('exclusion_patterns');
   }
@@ -12854,7 +12854,7 @@ export class KendraDataSourceDataSourceConfigurationWorkDocsConfigurationOutputR
   }
 
   // inclusion_patterns - computed: true, optional: true, required: false
-  private _inclusionPatterns?: string[];
+  private _inclusionPatterns?: string[]; 
   public get inclusionPatterns() {
     return this.getListAttribute('inclusion_patterns');
   }
@@ -12870,7 +12870,7 @@ export class KendraDataSourceDataSourceConfigurationWorkDocsConfigurationOutputR
   }
 
   // organization_id - computed: true, optional: true, required: false
-  private _organizationId?: string;
+  private _organizationId?: string; 
   public get organizationId() {
     return this.getStringAttribute('organization_id');
   }
@@ -12886,7 +12886,7 @@ export class KendraDataSourceDataSourceConfigurationWorkDocsConfigurationOutputR
   }
 
   // use_change_log - computed: true, optional: true, required: false
-  private _useChangeLog?: boolean | cdktn.IResolvable;
+  private _useChangeLog?: boolean | cdktn.IResolvable; 
   public get useChangeLog() {
     return this.getBooleanAttribute('use_change_log');
   }
@@ -13431,7 +13431,7 @@ export class KendraDataSourceTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -13447,7 +13447,7 @@ export class KendraDataSourceTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -13592,7 +13592,7 @@ export class KendraDataSource extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -13613,7 +13613,7 @@ export class KendraDataSource extends cdktn.TerraformResource {
   }
 
   // index_id - computed: false, optional: false, required: true
-  private _indexId?: string;
+  private _indexId?: string; 
   public get indexId() {
     return this.getStringAttribute('index_id');
   }
@@ -13626,7 +13626,7 @@ export class KendraDataSource extends cdktn.TerraformResource {
   }
 
   // language_code - computed: true, optional: true, required: false
-  private _languageCode?: string;
+  private _languageCode?: string; 
   public get languageCode() {
     return this.getStringAttribute('language_code');
   }
@@ -13642,7 +13642,7 @@ export class KendraDataSource extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -13655,7 +13655,7 @@ export class KendraDataSource extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -13671,7 +13671,7 @@ export class KendraDataSource extends cdktn.TerraformResource {
   }
 
   // schedule - computed: true, optional: true, required: false
-  private _schedule?: string;
+  private _schedule?: string; 
   public get schedule() {
     return this.getStringAttribute('schedule');
   }
@@ -13703,7 +13703,7 @@ export class KendraDataSource extends cdktn.TerraformResource {
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }

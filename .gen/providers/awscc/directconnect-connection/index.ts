@@ -152,7 +152,7 @@ export class DirectconnectConnectionTagsOutputReference extends cdktn.ComplexObj
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -168,7 +168,7 @@ export class DirectconnectConnectionTagsOutputReference extends cdktn.ComplexObj
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -268,7 +268,7 @@ export class DirectconnectConnection extends cdktn.TerraformResource {
   // ==========
 
   // bandwidth - computed: false, optional: false, required: true
-  private _bandwidth?: string;
+  private _bandwidth?: string; 
   public get bandwidth() {
     return this.getStringAttribute('bandwidth');
   }
@@ -291,7 +291,7 @@ export class DirectconnectConnection extends cdktn.TerraformResource {
   }
 
   // connection_name - computed: false, optional: false, required: true
-  private _connectionName?: string;
+  private _connectionName?: string; 
   public get connectionName() {
     return this.getStringAttribute('connection_name');
   }
@@ -314,7 +314,7 @@ export class DirectconnectConnection extends cdktn.TerraformResource {
   }
 
   // lag_id - computed: true, optional: true, required: false
-  private _lagId?: string;
+  private _lagId?: string; 
   public get lagId() {
     return this.getStringAttribute('lag_id');
   }
@@ -330,7 +330,7 @@ export class DirectconnectConnection extends cdktn.TerraformResource {
   }
 
   // location - computed: false, optional: false, required: true
-  private _location?: string;
+  private _location?: string; 
   public get location() {
     return this.getStringAttribute('location');
   }
@@ -343,7 +343,7 @@ export class DirectconnectConnection extends cdktn.TerraformResource {
   }
 
   // provider_name - computed: true, optional: true, required: false
-  private _providerName?: string;
+  private _providerName?: string; 
   public get providerName() {
     return this.getStringAttribute('provider_name');
   }
@@ -359,7 +359,7 @@ export class DirectconnectConnection extends cdktn.TerraformResource {
   }
 
   // request_mac_sec - computed: true, optional: true, required: false
-  private _requestMacSec?: boolean | cdktn.IResolvable;
+  private _requestMacSec?: boolean | cdktn.IResolvable; 
   public get requestMacSec() {
     return this.getBooleanAttribute('request_mac_sec');
   }

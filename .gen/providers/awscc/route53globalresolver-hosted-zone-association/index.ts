@@ -91,7 +91,7 @@ export class Route53GlobalresolverHostedZoneAssociation extends cdktn.TerraformR
   }
 
   // hosted_zone_id - computed: false, optional: false, required: true
-  private _hostedZoneId?: string;
+  private _hostedZoneId?: string; 
   public get hostedZoneId() {
     return this.getStringAttribute('hosted_zone_id');
   }
@@ -114,7 +114,7 @@ export class Route53GlobalresolverHostedZoneAssociation extends cdktn.TerraformR
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -127,7 +127,7 @@ export class Route53GlobalresolverHostedZoneAssociation extends cdktn.TerraformR
   }
 
   // resource_arn - computed: false, optional: false, required: true
-  private _resourceArn?: string;
+  private _resourceArn?: string; 
   public get resourceArn() {
     return this.getStringAttribute('resource_arn');
   }

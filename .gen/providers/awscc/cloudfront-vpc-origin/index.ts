@@ -124,7 +124,7 @@ export class CloudfrontVpcOriginTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -140,7 +140,7 @@ export class CloudfrontVpcOriginTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -352,7 +352,7 @@ export class CloudfrontVpcOriginVpcOriginEndpointConfigOutputReference extends c
   }
 
   // arn - computed: false, optional: false, required: true
-  private _arn?: string;
+  private _arn?: string; 
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -365,7 +365,7 @@ export class CloudfrontVpcOriginVpcOriginEndpointConfigOutputReference extends c
   }
 
   // http_port - computed: true, optional: true, required: false
-  private _httpPort?: number;
+  private _httpPort?: number; 
   public get httpPort() {
     return this.getNumberAttribute('http_port');
   }
@@ -381,7 +381,7 @@ export class CloudfrontVpcOriginVpcOriginEndpointConfigOutputReference extends c
   }
 
   // https_port - computed: true, optional: true, required: false
-  private _httpsPort?: number;
+  private _httpsPort?: number; 
   public get httpsPort() {
     return this.getNumberAttribute('https_port');
   }
@@ -397,7 +397,7 @@ export class CloudfrontVpcOriginVpcOriginEndpointConfigOutputReference extends c
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -410,7 +410,7 @@ export class CloudfrontVpcOriginVpcOriginEndpointConfigOutputReference extends c
   }
 
   // origin_protocol_policy - computed: true, optional: true, required: false
-  private _originProtocolPolicy?: string;
+  private _originProtocolPolicy?: string; 
   public get originProtocolPolicy() {
     return this.getStringAttribute('origin_protocol_policy');
   }
@@ -426,7 +426,7 @@ export class CloudfrontVpcOriginVpcOriginEndpointConfigOutputReference extends c
   }
 
   // origin_ssl_protocols - computed: true, optional: true, required: false
-  private _originSslProtocols?: string[];
+  private _originSslProtocols?: string[]; 
   public get originSslProtocols() {
     return this.getListAttribute('origin_ssl_protocols');
   }

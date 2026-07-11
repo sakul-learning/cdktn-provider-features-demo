@@ -119,7 +119,7 @@ export class SecurityhubConnectorV2ProviderNameJiraCloudOutputReference extends 
   }
 
   // project_key - computed: true, optional: true, required: false
-  private _projectKey?: string;
+  private _projectKey?: string; 
   public get projectKey() {
     return this.getStringAttribute('project_key');
   }
@@ -234,7 +234,7 @@ export class SecurityhubConnectorV2ProviderNameServiceNowOutputReference extends
   }
 
   // instance_name - computed: true, optional: true, required: false
-  private _instanceName?: string;
+  private _instanceName?: string; 
   public get instanceName() {
     return this.getStringAttribute('instance_name');
   }
@@ -250,7 +250,7 @@ export class SecurityhubConnectorV2ProviderNameServiceNowOutputReference extends
   }
 
   // secret_arn - computed: true, optional: true, required: false
-  private _secretArn?: string;
+  private _secretArn?: string; 
   public get secretArn() {
     return this.getStringAttribute('secret_arn');
   }
@@ -479,7 +479,7 @@ export class SecurityhubConnectorV2 extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -500,7 +500,7 @@ export class SecurityhubConnectorV2 extends cdktn.TerraformResource {
   }
 
   // kms_key_arn - computed: true, optional: true, required: false
-  private _kmsKeyArn?: string;
+  private _kmsKeyArn?: string; 
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -531,7 +531,7 @@ export class SecurityhubConnectorV2 extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -557,7 +557,7 @@ export class SecurityhubConnectorV2 extends cdktn.TerraformResource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

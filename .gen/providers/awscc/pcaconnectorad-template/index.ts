@@ -124,7 +124,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV2CertificateValidityRenewa
   }
 
   // period - computed: true, optional: true, required: false
-  private _period?: number;
+  private _period?: number; 
   public get period() {
     return this.getNumberAttribute('period');
   }
@@ -140,7 +140,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV2CertificateValidityRenewa
   }
 
   // period_type - computed: true, optional: true, required: false
-  private _periodType?: string;
+  private _periodType?: string; 
   public get periodType() {
     return this.getStringAttribute('period_type');
   }
@@ -251,7 +251,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV2CertificateValidityValidi
   }
 
   // period - computed: true, optional: true, required: false
-  private _period?: number;
+  private _period?: number; 
   public get period() {
     return this.getNumberAttribute('period');
   }
@@ -267,7 +267,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV2CertificateValidityValidi
   }
 
   // period_type - computed: true, optional: true, required: false
-  private _periodType?: string;
+  private _periodType?: string; 
   public get periodType() {
     return this.getStringAttribute('period_type');
   }
@@ -556,7 +556,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV2EnrollmentFlagsOutputRefe
   }
 
   // enable_key_reuse_on_nt_token_keyset_storage_full - computed: true, optional: true, required: false
-  private _enableKeyReuseOnNtTokenKeysetStorageFull?: boolean | cdktn.IResolvable;
+  private _enableKeyReuseOnNtTokenKeysetStorageFull?: boolean | cdktn.IResolvable; 
   public get enableKeyReuseOnNtTokenKeysetStorageFull() {
     return this.getBooleanAttribute('enable_key_reuse_on_nt_token_keyset_storage_full');
   }
@@ -572,7 +572,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV2EnrollmentFlagsOutputRefe
   }
 
   // include_symmetric_algorithms - computed: true, optional: true, required: false
-  private _includeSymmetricAlgorithms?: boolean | cdktn.IResolvable;
+  private _includeSymmetricAlgorithms?: boolean | cdktn.IResolvable; 
   public get includeSymmetricAlgorithms() {
     return this.getBooleanAttribute('include_symmetric_algorithms');
   }
@@ -588,7 +588,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV2EnrollmentFlagsOutputRefe
   }
 
   // no_security_extension - computed: true, optional: true, required: false
-  private _noSecurityExtension?: boolean | cdktn.IResolvable;
+  private _noSecurityExtension?: boolean | cdktn.IResolvable; 
   public get noSecurityExtension() {
     return this.getBooleanAttribute('no_security_extension');
   }
@@ -604,7 +604,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV2EnrollmentFlagsOutputRefe
   }
 
   // remove_invalid_certificate_from_personal_store - computed: true, optional: true, required: false
-  private _removeInvalidCertificateFromPersonalStore?: boolean | cdktn.IResolvable;
+  private _removeInvalidCertificateFromPersonalStore?: boolean | cdktn.IResolvable; 
   public get removeInvalidCertificateFromPersonalStore() {
     return this.getBooleanAttribute('remove_invalid_certificate_from_personal_store');
   }
@@ -620,7 +620,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV2EnrollmentFlagsOutputRefe
   }
 
   // user_interaction_required - computed: true, optional: true, required: false
-  private _userInteractionRequired?: boolean | cdktn.IResolvable;
+  private _userInteractionRequired?: boolean | cdktn.IResolvable; 
   public get userInteractionRequired() {
     return this.getBooleanAttribute('user_interaction_required');
   }
@@ -733,7 +733,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV2ExtensionsApplicationPoli
   }
 
   // policy_object_identifier - computed: true, optional: true, required: false
-  private _policyObjectIdentifier?: string;
+  private _policyObjectIdentifier?: string; 
   public get policyObjectIdentifier() {
     return this.getStringAttribute('policy_object_identifier');
   }
@@ -749,7 +749,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV2ExtensionsApplicationPoli
   }
 
   // policy_type - computed: true, optional: true, required: false
-  private _policyType?: string;
+  private _policyType?: string; 
   public get policyType() {
     return this.getStringAttribute('policy_type');
   }
@@ -880,7 +880,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV2ExtensionsApplicationPoli
   }
 
   // critical - computed: true, optional: true, required: false
-  private _critical?: boolean | cdktn.IResolvable;
+  private _critical?: boolean | cdktn.IResolvable; 
   public get critical() {
     return this.getBooleanAttribute('critical');
   }
@@ -1058,7 +1058,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV2ExtensionsKeyUsageUsageFl
   }
 
   // data_encipherment - computed: true, optional: true, required: false
-  private _dataEncipherment?: boolean | cdktn.IResolvable;
+  private _dataEncipherment?: boolean | cdktn.IResolvable; 
   public get dataEncipherment() {
     return this.getBooleanAttribute('data_encipherment');
   }
@@ -1074,7 +1074,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV2ExtensionsKeyUsageUsageFl
   }
 
   // digital_signature - computed: true, optional: true, required: false
-  private _digitalSignature?: boolean | cdktn.IResolvable;
+  private _digitalSignature?: boolean | cdktn.IResolvable; 
   public get digitalSignature() {
     return this.getBooleanAttribute('digital_signature');
   }
@@ -1090,7 +1090,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV2ExtensionsKeyUsageUsageFl
   }
 
   // key_agreement - computed: true, optional: true, required: false
-  private _keyAgreement?: boolean | cdktn.IResolvable;
+  private _keyAgreement?: boolean | cdktn.IResolvable; 
   public get keyAgreement() {
     return this.getBooleanAttribute('key_agreement');
   }
@@ -1106,7 +1106,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV2ExtensionsKeyUsageUsageFl
   }
 
   // key_encipherment - computed: true, optional: true, required: false
-  private _keyEncipherment?: boolean | cdktn.IResolvable;
+  private _keyEncipherment?: boolean | cdktn.IResolvable; 
   public get keyEncipherment() {
     return this.getBooleanAttribute('key_encipherment');
   }
@@ -1122,7 +1122,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV2ExtensionsKeyUsageUsageFl
   }
 
   // non_repudiation - computed: true, optional: true, required: false
-  private _nonRepudiation?: boolean | cdktn.IResolvable;
+  private _nonRepudiation?: boolean | cdktn.IResolvable; 
   public get nonRepudiation() {
     return this.getBooleanAttribute('non_repudiation');
   }
@@ -1233,7 +1233,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV2ExtensionsKeyUsageOutputR
   }
 
   // critical - computed: true, optional: true, required: false
-  private _critical?: boolean | cdktn.IResolvable;
+  private _critical?: boolean | cdktn.IResolvable; 
   public get critical() {
     return this.getBooleanAttribute('critical');
   }
@@ -1487,7 +1487,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV2GeneralFlagsOutputReferen
   }
 
   // auto_enrollment - computed: true, optional: true, required: false
-  private _autoEnrollment?: boolean | cdktn.IResolvable;
+  private _autoEnrollment?: boolean | cdktn.IResolvable; 
   public get autoEnrollment() {
     return this.getBooleanAttribute('auto_enrollment');
   }
@@ -1503,7 +1503,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV2GeneralFlagsOutputReferen
   }
 
   // machine_type - computed: true, optional: true, required: false
-  private _machineType?: boolean | cdktn.IResolvable;
+  private _machineType?: boolean | cdktn.IResolvable; 
   public get machineType() {
     return this.getBooleanAttribute('machine_type');
   }
@@ -1631,7 +1631,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV2PrivateKeyAttributesOutpu
   }
 
   // crypto_providers - computed: true, optional: true, required: false
-  private _cryptoProviders?: string[];
+  private _cryptoProviders?: string[]; 
   public get cryptoProviders() {
     return this.getListAttribute('crypto_providers');
   }
@@ -1647,7 +1647,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV2PrivateKeyAttributesOutpu
   }
 
   // key_spec - computed: true, optional: true, required: false
-  private _keySpec?: string;
+  private _keySpec?: string; 
   public get keySpec() {
     return this.getStringAttribute('key_spec');
   }
@@ -1663,7 +1663,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV2PrivateKeyAttributesOutpu
   }
 
   // minimal_key_length - computed: true, optional: true, required: false
-  private _minimalKeyLength?: number;
+  private _minimalKeyLength?: number; 
   public get minimalKeyLength() {
     return this.getNumberAttribute('minimal_key_length');
   }
@@ -1791,7 +1791,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV2PrivateKeyFlagsOutputRefe
   }
 
   // client_version - computed: true, optional: true, required: false
-  private _clientVersion?: string;
+  private _clientVersion?: string; 
   public get clientVersion() {
     return this.getStringAttribute('client_version');
   }
@@ -1807,7 +1807,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV2PrivateKeyFlagsOutputRefe
   }
 
   // exportable_key - computed: true, optional: true, required: false
-  private _exportableKey?: boolean | cdktn.IResolvable;
+  private _exportableKey?: boolean | cdktn.IResolvable; 
   public get exportableKey() {
     return this.getBooleanAttribute('exportable_key');
   }
@@ -1823,7 +1823,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV2PrivateKeyFlagsOutputRefe
   }
 
   // strong_key_protection_required - computed: true, optional: true, required: false
-  private _strongKeyProtectionRequired?: boolean | cdktn.IResolvable;
+  private _strongKeyProtectionRequired?: boolean | cdktn.IResolvable; 
   public get strongKeyProtectionRequired() {
     return this.getBooleanAttribute('strong_key_protection_required');
   }
@@ -2070,7 +2070,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV2SubjectNameFlagsOutputRef
   }
 
   // require_common_name - computed: true, optional: true, required: false
-  private _requireCommonName?: boolean | cdktn.IResolvable;
+  private _requireCommonName?: boolean | cdktn.IResolvable; 
   public get requireCommonName() {
     return this.getBooleanAttribute('require_common_name');
   }
@@ -2086,7 +2086,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV2SubjectNameFlagsOutputRef
   }
 
   // require_directory_path - computed: true, optional: true, required: false
-  private _requireDirectoryPath?: boolean | cdktn.IResolvable;
+  private _requireDirectoryPath?: boolean | cdktn.IResolvable; 
   public get requireDirectoryPath() {
     return this.getBooleanAttribute('require_directory_path');
   }
@@ -2102,7 +2102,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV2SubjectNameFlagsOutputRef
   }
 
   // require_dns_as_cn - computed: true, optional: true, required: false
-  private _requireDnsAsCn?: boolean | cdktn.IResolvable;
+  private _requireDnsAsCn?: boolean | cdktn.IResolvable; 
   public get requireDnsAsCn() {
     return this.getBooleanAttribute('require_dns_as_cn');
   }
@@ -2118,7 +2118,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV2SubjectNameFlagsOutputRef
   }
 
   // require_email - computed: true, optional: true, required: false
-  private _requireEmail?: boolean | cdktn.IResolvable;
+  private _requireEmail?: boolean | cdktn.IResolvable; 
   public get requireEmail() {
     return this.getBooleanAttribute('require_email');
   }
@@ -2134,7 +2134,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV2SubjectNameFlagsOutputRef
   }
 
   // san_require_directory_guid - computed: true, optional: true, required: false
-  private _sanRequireDirectoryGuid?: boolean | cdktn.IResolvable;
+  private _sanRequireDirectoryGuid?: boolean | cdktn.IResolvable; 
   public get sanRequireDirectoryGuid() {
     return this.getBooleanAttribute('san_require_directory_guid');
   }
@@ -2150,7 +2150,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV2SubjectNameFlagsOutputRef
   }
 
   // san_require_dns - computed: true, optional: true, required: false
-  private _sanRequireDns?: boolean | cdktn.IResolvable;
+  private _sanRequireDns?: boolean | cdktn.IResolvable; 
   public get sanRequireDns() {
     return this.getBooleanAttribute('san_require_dns');
   }
@@ -2166,7 +2166,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV2SubjectNameFlagsOutputRef
   }
 
   // san_require_domain_dns - computed: true, optional: true, required: false
-  private _sanRequireDomainDns?: boolean | cdktn.IResolvable;
+  private _sanRequireDomainDns?: boolean | cdktn.IResolvable; 
   public get sanRequireDomainDns() {
     return this.getBooleanAttribute('san_require_domain_dns');
   }
@@ -2182,7 +2182,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV2SubjectNameFlagsOutputRef
   }
 
   // san_require_email - computed: true, optional: true, required: false
-  private _sanRequireEmail?: boolean | cdktn.IResolvable;
+  private _sanRequireEmail?: boolean | cdktn.IResolvable; 
   public get sanRequireEmail() {
     return this.getBooleanAttribute('san_require_email');
   }
@@ -2198,7 +2198,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV2SubjectNameFlagsOutputRef
   }
 
   // san_require_spn - computed: true, optional: true, required: false
-  private _sanRequireSpn?: boolean | cdktn.IResolvable;
+  private _sanRequireSpn?: boolean | cdktn.IResolvable; 
   public get sanRequireSpn() {
     return this.getBooleanAttribute('san_require_spn');
   }
@@ -2214,7 +2214,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV2SubjectNameFlagsOutputRef
   }
 
   // san_require_upn - computed: true, optional: true, required: false
-  private _sanRequireUpn?: boolean | cdktn.IResolvable;
+  private _sanRequireUpn?: boolean | cdktn.IResolvable; 
   public get sanRequireUpn() {
     return this.getBooleanAttribute('san_require_upn');
   }
@@ -2539,7 +2539,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV2OutputReference extends c
   }
 
   // superseded_templates - computed: true, optional: true, required: false
-  private _supersededTemplates?: string[];
+  private _supersededTemplates?: string[]; 
   public get supersededTemplates() {
     return this.getListAttribute('superseded_templates');
   }
@@ -2650,7 +2650,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV3CertificateValidityRenewa
   }
 
   // period - computed: true, optional: true, required: false
-  private _period?: number;
+  private _period?: number; 
   public get period() {
     return this.getNumberAttribute('period');
   }
@@ -2666,7 +2666,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV3CertificateValidityRenewa
   }
 
   // period_type - computed: true, optional: true, required: false
-  private _periodType?: string;
+  private _periodType?: string; 
   public get periodType() {
     return this.getStringAttribute('period_type');
   }
@@ -2777,7 +2777,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV3CertificateValidityValidi
   }
 
   // period - computed: true, optional: true, required: false
-  private _period?: number;
+  private _period?: number; 
   public get period() {
     return this.getNumberAttribute('period');
   }
@@ -2793,7 +2793,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV3CertificateValidityValidi
   }
 
   // period_type - computed: true, optional: true, required: false
-  private _periodType?: string;
+  private _periodType?: string; 
   public get periodType() {
     return this.getStringAttribute('period_type');
   }
@@ -3082,7 +3082,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV3EnrollmentFlagsOutputRefe
   }
 
   // enable_key_reuse_on_nt_token_keyset_storage_full - computed: true, optional: true, required: false
-  private _enableKeyReuseOnNtTokenKeysetStorageFull?: boolean | cdktn.IResolvable;
+  private _enableKeyReuseOnNtTokenKeysetStorageFull?: boolean | cdktn.IResolvable; 
   public get enableKeyReuseOnNtTokenKeysetStorageFull() {
     return this.getBooleanAttribute('enable_key_reuse_on_nt_token_keyset_storage_full');
   }
@@ -3098,7 +3098,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV3EnrollmentFlagsOutputRefe
   }
 
   // include_symmetric_algorithms - computed: true, optional: true, required: false
-  private _includeSymmetricAlgorithms?: boolean | cdktn.IResolvable;
+  private _includeSymmetricAlgorithms?: boolean | cdktn.IResolvable; 
   public get includeSymmetricAlgorithms() {
     return this.getBooleanAttribute('include_symmetric_algorithms');
   }
@@ -3114,7 +3114,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV3EnrollmentFlagsOutputRefe
   }
 
   // no_security_extension - computed: true, optional: true, required: false
-  private _noSecurityExtension?: boolean | cdktn.IResolvable;
+  private _noSecurityExtension?: boolean | cdktn.IResolvable; 
   public get noSecurityExtension() {
     return this.getBooleanAttribute('no_security_extension');
   }
@@ -3130,7 +3130,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV3EnrollmentFlagsOutputRefe
   }
 
   // remove_invalid_certificate_from_personal_store - computed: true, optional: true, required: false
-  private _removeInvalidCertificateFromPersonalStore?: boolean | cdktn.IResolvable;
+  private _removeInvalidCertificateFromPersonalStore?: boolean | cdktn.IResolvable; 
   public get removeInvalidCertificateFromPersonalStore() {
     return this.getBooleanAttribute('remove_invalid_certificate_from_personal_store');
   }
@@ -3146,7 +3146,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV3EnrollmentFlagsOutputRefe
   }
 
   // user_interaction_required - computed: true, optional: true, required: false
-  private _userInteractionRequired?: boolean | cdktn.IResolvable;
+  private _userInteractionRequired?: boolean | cdktn.IResolvable; 
   public get userInteractionRequired() {
     return this.getBooleanAttribute('user_interaction_required');
   }
@@ -3259,7 +3259,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV3ExtensionsApplicationPoli
   }
 
   // policy_object_identifier - computed: true, optional: true, required: false
-  private _policyObjectIdentifier?: string;
+  private _policyObjectIdentifier?: string; 
   public get policyObjectIdentifier() {
     return this.getStringAttribute('policy_object_identifier');
   }
@@ -3275,7 +3275,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV3ExtensionsApplicationPoli
   }
 
   // policy_type - computed: true, optional: true, required: false
-  private _policyType?: string;
+  private _policyType?: string; 
   public get policyType() {
     return this.getStringAttribute('policy_type');
   }
@@ -3406,7 +3406,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV3ExtensionsApplicationPoli
   }
 
   // critical - computed: true, optional: true, required: false
-  private _critical?: boolean | cdktn.IResolvable;
+  private _critical?: boolean | cdktn.IResolvable; 
   public get critical() {
     return this.getBooleanAttribute('critical');
   }
@@ -3584,7 +3584,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV3ExtensionsKeyUsageUsageFl
   }
 
   // data_encipherment - computed: true, optional: true, required: false
-  private _dataEncipherment?: boolean | cdktn.IResolvable;
+  private _dataEncipherment?: boolean | cdktn.IResolvable; 
   public get dataEncipherment() {
     return this.getBooleanAttribute('data_encipherment');
   }
@@ -3600,7 +3600,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV3ExtensionsKeyUsageUsageFl
   }
 
   // digital_signature - computed: true, optional: true, required: false
-  private _digitalSignature?: boolean | cdktn.IResolvable;
+  private _digitalSignature?: boolean | cdktn.IResolvable; 
   public get digitalSignature() {
     return this.getBooleanAttribute('digital_signature');
   }
@@ -3616,7 +3616,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV3ExtensionsKeyUsageUsageFl
   }
 
   // key_agreement - computed: true, optional: true, required: false
-  private _keyAgreement?: boolean | cdktn.IResolvable;
+  private _keyAgreement?: boolean | cdktn.IResolvable; 
   public get keyAgreement() {
     return this.getBooleanAttribute('key_agreement');
   }
@@ -3632,7 +3632,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV3ExtensionsKeyUsageUsageFl
   }
 
   // key_encipherment - computed: true, optional: true, required: false
-  private _keyEncipherment?: boolean | cdktn.IResolvable;
+  private _keyEncipherment?: boolean | cdktn.IResolvable; 
   public get keyEncipherment() {
     return this.getBooleanAttribute('key_encipherment');
   }
@@ -3648,7 +3648,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV3ExtensionsKeyUsageUsageFl
   }
 
   // non_repudiation - computed: true, optional: true, required: false
-  private _nonRepudiation?: boolean | cdktn.IResolvable;
+  private _nonRepudiation?: boolean | cdktn.IResolvable; 
   public get nonRepudiation() {
     return this.getBooleanAttribute('non_repudiation');
   }
@@ -3759,7 +3759,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV3ExtensionsKeyUsageOutputR
   }
 
   // critical - computed: true, optional: true, required: false
-  private _critical?: boolean | cdktn.IResolvable;
+  private _critical?: boolean | cdktn.IResolvable; 
   public get critical() {
     return this.getBooleanAttribute('critical');
   }
@@ -4013,7 +4013,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV3GeneralFlagsOutputReferen
   }
 
   // auto_enrollment - computed: true, optional: true, required: false
-  private _autoEnrollment?: boolean | cdktn.IResolvable;
+  private _autoEnrollment?: boolean | cdktn.IResolvable; 
   public get autoEnrollment() {
     return this.getBooleanAttribute('auto_enrollment');
   }
@@ -4029,7 +4029,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV3GeneralFlagsOutputReferen
   }
 
   // machine_type - computed: true, optional: true, required: false
-  private _machineType?: boolean | cdktn.IResolvable;
+  private _machineType?: boolean | cdktn.IResolvable; 
   public get machineType() {
     return this.getBooleanAttribute('machine_type');
   }
@@ -4157,7 +4157,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV3PrivateKeyAttributesKeyUs
   }
 
   // decrypt - computed: true, optional: true, required: false
-  private _decrypt?: boolean | cdktn.IResolvable;
+  private _decrypt?: boolean | cdktn.IResolvable; 
   public get decrypt() {
     return this.getBooleanAttribute('decrypt');
   }
@@ -4173,7 +4173,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV3PrivateKeyAttributesKeyUs
   }
 
   // key_agreement - computed: true, optional: true, required: false
-  private _keyAgreement?: boolean | cdktn.IResolvable;
+  private _keyAgreement?: boolean | cdktn.IResolvable; 
   public get keyAgreement() {
     return this.getBooleanAttribute('key_agreement');
   }
@@ -4189,7 +4189,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV3PrivateKeyAttributesKeyUs
   }
 
   // sign - computed: true, optional: true, required: false
-  private _sign?: boolean | cdktn.IResolvable;
+  private _sign?: boolean | cdktn.IResolvable; 
   public get sign() {
     return this.getBooleanAttribute('sign');
   }
@@ -4316,7 +4316,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV3PrivateKeyAttributesKeyUs
   }
 
   // property_type - computed: true, optional: true, required: false
-  private _propertyType?: string;
+  private _propertyType?: string; 
   public get propertyType() {
     return this.getStringAttribute('property_type');
   }
@@ -4478,7 +4478,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV3PrivateKeyAttributesOutpu
   }
 
   // algorithm - computed: true, optional: true, required: false
-  private _algorithm?: string;
+  private _algorithm?: string; 
   public get algorithm() {
     return this.getStringAttribute('algorithm');
   }
@@ -4494,7 +4494,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV3PrivateKeyAttributesOutpu
   }
 
   // crypto_providers - computed: true, optional: true, required: false
-  private _cryptoProviders?: string[];
+  private _cryptoProviders?: string[]; 
   public get cryptoProviders() {
     return this.getListAttribute('crypto_providers');
   }
@@ -4510,7 +4510,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV3PrivateKeyAttributesOutpu
   }
 
   // key_spec - computed: true, optional: true, required: false
-  private _keySpec?: string;
+  private _keySpec?: string; 
   public get keySpec() {
     return this.getStringAttribute('key_spec');
   }
@@ -4542,7 +4542,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV3PrivateKeyAttributesOutpu
   }
 
   // minimal_key_length - computed: true, optional: true, required: false
-  private _minimalKeyLength?: number;
+  private _minimalKeyLength?: number; 
   public get minimalKeyLength() {
     return this.getNumberAttribute('minimal_key_length');
   }
@@ -4687,7 +4687,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV3PrivateKeyFlagsOutputRefe
   }
 
   // client_version - computed: true, optional: true, required: false
-  private _clientVersion?: string;
+  private _clientVersion?: string; 
   public get clientVersion() {
     return this.getStringAttribute('client_version');
   }
@@ -4703,7 +4703,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV3PrivateKeyFlagsOutputRefe
   }
 
   // exportable_key - computed: true, optional: true, required: false
-  private _exportableKey?: boolean | cdktn.IResolvable;
+  private _exportableKey?: boolean | cdktn.IResolvable; 
   public get exportableKey() {
     return this.getBooleanAttribute('exportable_key');
   }
@@ -4719,7 +4719,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV3PrivateKeyFlagsOutputRefe
   }
 
   // require_alternate_signature_algorithm - computed: true, optional: true, required: false
-  private _requireAlternateSignatureAlgorithm?: boolean | cdktn.IResolvable;
+  private _requireAlternateSignatureAlgorithm?: boolean | cdktn.IResolvable; 
   public get requireAlternateSignatureAlgorithm() {
     return this.getBooleanAttribute('require_alternate_signature_algorithm');
   }
@@ -4735,7 +4735,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV3PrivateKeyFlagsOutputRefe
   }
 
   // strong_key_protection_required - computed: true, optional: true, required: false
-  private _strongKeyProtectionRequired?: boolean | cdktn.IResolvable;
+  private _strongKeyProtectionRequired?: boolean | cdktn.IResolvable; 
   public get strongKeyProtectionRequired() {
     return this.getBooleanAttribute('strong_key_protection_required');
   }
@@ -4982,7 +4982,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV3SubjectNameFlagsOutputRef
   }
 
   // require_common_name - computed: true, optional: true, required: false
-  private _requireCommonName?: boolean | cdktn.IResolvable;
+  private _requireCommonName?: boolean | cdktn.IResolvable; 
   public get requireCommonName() {
     return this.getBooleanAttribute('require_common_name');
   }
@@ -4998,7 +4998,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV3SubjectNameFlagsOutputRef
   }
 
   // require_directory_path - computed: true, optional: true, required: false
-  private _requireDirectoryPath?: boolean | cdktn.IResolvable;
+  private _requireDirectoryPath?: boolean | cdktn.IResolvable; 
   public get requireDirectoryPath() {
     return this.getBooleanAttribute('require_directory_path');
   }
@@ -5014,7 +5014,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV3SubjectNameFlagsOutputRef
   }
 
   // require_dns_as_cn - computed: true, optional: true, required: false
-  private _requireDnsAsCn?: boolean | cdktn.IResolvable;
+  private _requireDnsAsCn?: boolean | cdktn.IResolvable; 
   public get requireDnsAsCn() {
     return this.getBooleanAttribute('require_dns_as_cn');
   }
@@ -5030,7 +5030,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV3SubjectNameFlagsOutputRef
   }
 
   // require_email - computed: true, optional: true, required: false
-  private _requireEmail?: boolean | cdktn.IResolvable;
+  private _requireEmail?: boolean | cdktn.IResolvable; 
   public get requireEmail() {
     return this.getBooleanAttribute('require_email');
   }
@@ -5046,7 +5046,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV3SubjectNameFlagsOutputRef
   }
 
   // san_require_directory_guid - computed: true, optional: true, required: false
-  private _sanRequireDirectoryGuid?: boolean | cdktn.IResolvable;
+  private _sanRequireDirectoryGuid?: boolean | cdktn.IResolvable; 
   public get sanRequireDirectoryGuid() {
     return this.getBooleanAttribute('san_require_directory_guid');
   }
@@ -5062,7 +5062,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV3SubjectNameFlagsOutputRef
   }
 
   // san_require_dns - computed: true, optional: true, required: false
-  private _sanRequireDns?: boolean | cdktn.IResolvable;
+  private _sanRequireDns?: boolean | cdktn.IResolvable; 
   public get sanRequireDns() {
     return this.getBooleanAttribute('san_require_dns');
   }
@@ -5078,7 +5078,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV3SubjectNameFlagsOutputRef
   }
 
   // san_require_domain_dns - computed: true, optional: true, required: false
-  private _sanRequireDomainDns?: boolean | cdktn.IResolvable;
+  private _sanRequireDomainDns?: boolean | cdktn.IResolvable; 
   public get sanRequireDomainDns() {
     return this.getBooleanAttribute('san_require_domain_dns');
   }
@@ -5094,7 +5094,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV3SubjectNameFlagsOutputRef
   }
 
   // san_require_email - computed: true, optional: true, required: false
-  private _sanRequireEmail?: boolean | cdktn.IResolvable;
+  private _sanRequireEmail?: boolean | cdktn.IResolvable; 
   public get sanRequireEmail() {
     return this.getBooleanAttribute('san_require_email');
   }
@@ -5110,7 +5110,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV3SubjectNameFlagsOutputRef
   }
 
   // san_require_spn - computed: true, optional: true, required: false
-  private _sanRequireSpn?: boolean | cdktn.IResolvable;
+  private _sanRequireSpn?: boolean | cdktn.IResolvable; 
   public get sanRequireSpn() {
     return this.getBooleanAttribute('san_require_spn');
   }
@@ -5126,7 +5126,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV3SubjectNameFlagsOutputRef
   }
 
   // san_require_upn - computed: true, optional: true, required: false
-  private _sanRequireUpn?: boolean | cdktn.IResolvable;
+  private _sanRequireUpn?: boolean | cdktn.IResolvable; 
   public get sanRequireUpn() {
     return this.getBooleanAttribute('san_require_upn');
   }
@@ -5420,7 +5420,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV3OutputReference extends c
   }
 
   // hash_algorithm - computed: true, optional: true, required: false
-  private _hashAlgorithm?: string;
+  private _hashAlgorithm?: string; 
   public get hashAlgorithm() {
     return this.getStringAttribute('hash_algorithm');
   }
@@ -5484,7 +5484,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV3OutputReference extends c
   }
 
   // superseded_templates - computed: true, optional: true, required: false
-  private _supersededTemplates?: string[];
+  private _supersededTemplates?: string[]; 
   public get supersededTemplates() {
     return this.getListAttribute('superseded_templates');
   }
@@ -5595,7 +5595,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV4CertificateValidityRenewa
   }
 
   // period - computed: true, optional: true, required: false
-  private _period?: number;
+  private _period?: number; 
   public get period() {
     return this.getNumberAttribute('period');
   }
@@ -5611,7 +5611,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV4CertificateValidityRenewa
   }
 
   // period_type - computed: true, optional: true, required: false
-  private _periodType?: string;
+  private _periodType?: string; 
   public get periodType() {
     return this.getStringAttribute('period_type');
   }
@@ -5722,7 +5722,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV4CertificateValidityValidi
   }
 
   // period - computed: true, optional: true, required: false
-  private _period?: number;
+  private _period?: number; 
   public get period() {
     return this.getNumberAttribute('period');
   }
@@ -5738,7 +5738,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV4CertificateValidityValidi
   }
 
   // period_type - computed: true, optional: true, required: false
-  private _periodType?: string;
+  private _periodType?: string; 
   public get periodType() {
     return this.getStringAttribute('period_type');
   }
@@ -6027,7 +6027,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV4EnrollmentFlagsOutputRefe
   }
 
   // enable_key_reuse_on_nt_token_keyset_storage_full - computed: true, optional: true, required: false
-  private _enableKeyReuseOnNtTokenKeysetStorageFull?: boolean | cdktn.IResolvable;
+  private _enableKeyReuseOnNtTokenKeysetStorageFull?: boolean | cdktn.IResolvable; 
   public get enableKeyReuseOnNtTokenKeysetStorageFull() {
     return this.getBooleanAttribute('enable_key_reuse_on_nt_token_keyset_storage_full');
   }
@@ -6043,7 +6043,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV4EnrollmentFlagsOutputRefe
   }
 
   // include_symmetric_algorithms - computed: true, optional: true, required: false
-  private _includeSymmetricAlgorithms?: boolean | cdktn.IResolvable;
+  private _includeSymmetricAlgorithms?: boolean | cdktn.IResolvable; 
   public get includeSymmetricAlgorithms() {
     return this.getBooleanAttribute('include_symmetric_algorithms');
   }
@@ -6059,7 +6059,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV4EnrollmentFlagsOutputRefe
   }
 
   // no_security_extension - computed: true, optional: true, required: false
-  private _noSecurityExtension?: boolean | cdktn.IResolvable;
+  private _noSecurityExtension?: boolean | cdktn.IResolvable; 
   public get noSecurityExtension() {
     return this.getBooleanAttribute('no_security_extension');
   }
@@ -6075,7 +6075,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV4EnrollmentFlagsOutputRefe
   }
 
   // remove_invalid_certificate_from_personal_store - computed: true, optional: true, required: false
-  private _removeInvalidCertificateFromPersonalStore?: boolean | cdktn.IResolvable;
+  private _removeInvalidCertificateFromPersonalStore?: boolean | cdktn.IResolvable; 
   public get removeInvalidCertificateFromPersonalStore() {
     return this.getBooleanAttribute('remove_invalid_certificate_from_personal_store');
   }
@@ -6091,7 +6091,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV4EnrollmentFlagsOutputRefe
   }
 
   // user_interaction_required - computed: true, optional: true, required: false
-  private _userInteractionRequired?: boolean | cdktn.IResolvable;
+  private _userInteractionRequired?: boolean | cdktn.IResolvable; 
   public get userInteractionRequired() {
     return this.getBooleanAttribute('user_interaction_required');
   }
@@ -6204,7 +6204,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV4ExtensionsApplicationPoli
   }
 
   // policy_object_identifier - computed: true, optional: true, required: false
-  private _policyObjectIdentifier?: string;
+  private _policyObjectIdentifier?: string; 
   public get policyObjectIdentifier() {
     return this.getStringAttribute('policy_object_identifier');
   }
@@ -6220,7 +6220,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV4ExtensionsApplicationPoli
   }
 
   // policy_type - computed: true, optional: true, required: false
-  private _policyType?: string;
+  private _policyType?: string; 
   public get policyType() {
     return this.getStringAttribute('policy_type');
   }
@@ -6351,7 +6351,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV4ExtensionsApplicationPoli
   }
 
   // critical - computed: true, optional: true, required: false
-  private _critical?: boolean | cdktn.IResolvable;
+  private _critical?: boolean | cdktn.IResolvable; 
   public get critical() {
     return this.getBooleanAttribute('critical');
   }
@@ -6529,7 +6529,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV4ExtensionsKeyUsageUsageFl
   }
 
   // data_encipherment - computed: true, optional: true, required: false
-  private _dataEncipherment?: boolean | cdktn.IResolvable;
+  private _dataEncipherment?: boolean | cdktn.IResolvable; 
   public get dataEncipherment() {
     return this.getBooleanAttribute('data_encipherment');
   }
@@ -6545,7 +6545,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV4ExtensionsKeyUsageUsageFl
   }
 
   // digital_signature - computed: true, optional: true, required: false
-  private _digitalSignature?: boolean | cdktn.IResolvable;
+  private _digitalSignature?: boolean | cdktn.IResolvable; 
   public get digitalSignature() {
     return this.getBooleanAttribute('digital_signature');
   }
@@ -6561,7 +6561,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV4ExtensionsKeyUsageUsageFl
   }
 
   // key_agreement - computed: true, optional: true, required: false
-  private _keyAgreement?: boolean | cdktn.IResolvable;
+  private _keyAgreement?: boolean | cdktn.IResolvable; 
   public get keyAgreement() {
     return this.getBooleanAttribute('key_agreement');
   }
@@ -6577,7 +6577,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV4ExtensionsKeyUsageUsageFl
   }
 
   // key_encipherment - computed: true, optional: true, required: false
-  private _keyEncipherment?: boolean | cdktn.IResolvable;
+  private _keyEncipherment?: boolean | cdktn.IResolvable; 
   public get keyEncipherment() {
     return this.getBooleanAttribute('key_encipherment');
   }
@@ -6593,7 +6593,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV4ExtensionsKeyUsageUsageFl
   }
 
   // non_repudiation - computed: true, optional: true, required: false
-  private _nonRepudiation?: boolean | cdktn.IResolvable;
+  private _nonRepudiation?: boolean | cdktn.IResolvable; 
   public get nonRepudiation() {
     return this.getBooleanAttribute('non_repudiation');
   }
@@ -6704,7 +6704,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV4ExtensionsKeyUsageOutputR
   }
 
   // critical - computed: true, optional: true, required: false
-  private _critical?: boolean | cdktn.IResolvable;
+  private _critical?: boolean | cdktn.IResolvable; 
   public get critical() {
     return this.getBooleanAttribute('critical');
   }
@@ -6958,7 +6958,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV4GeneralFlagsOutputReferen
   }
 
   // auto_enrollment - computed: true, optional: true, required: false
-  private _autoEnrollment?: boolean | cdktn.IResolvable;
+  private _autoEnrollment?: boolean | cdktn.IResolvable; 
   public get autoEnrollment() {
     return this.getBooleanAttribute('auto_enrollment');
   }
@@ -6974,7 +6974,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV4GeneralFlagsOutputReferen
   }
 
   // machine_type - computed: true, optional: true, required: false
-  private _machineType?: boolean | cdktn.IResolvable;
+  private _machineType?: boolean | cdktn.IResolvable; 
   public get machineType() {
     return this.getBooleanAttribute('machine_type');
   }
@@ -7102,7 +7102,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV4PrivateKeyAttributesKeyUs
   }
 
   // decrypt - computed: true, optional: true, required: false
-  private _decrypt?: boolean | cdktn.IResolvable;
+  private _decrypt?: boolean | cdktn.IResolvable; 
   public get decrypt() {
     return this.getBooleanAttribute('decrypt');
   }
@@ -7118,7 +7118,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV4PrivateKeyAttributesKeyUs
   }
 
   // key_agreement - computed: true, optional: true, required: false
-  private _keyAgreement?: boolean | cdktn.IResolvable;
+  private _keyAgreement?: boolean | cdktn.IResolvable; 
   public get keyAgreement() {
     return this.getBooleanAttribute('key_agreement');
   }
@@ -7134,7 +7134,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV4PrivateKeyAttributesKeyUs
   }
 
   // sign - computed: true, optional: true, required: false
-  private _sign?: boolean | cdktn.IResolvable;
+  private _sign?: boolean | cdktn.IResolvable; 
   public get sign() {
     return this.getBooleanAttribute('sign');
   }
@@ -7261,7 +7261,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV4PrivateKeyAttributesKeyUs
   }
 
   // property_type - computed: true, optional: true, required: false
-  private _propertyType?: string;
+  private _propertyType?: string; 
   public get propertyType() {
     return this.getStringAttribute('property_type');
   }
@@ -7423,7 +7423,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV4PrivateKeyAttributesOutpu
   }
 
   // algorithm - computed: true, optional: true, required: false
-  private _algorithm?: string;
+  private _algorithm?: string; 
   public get algorithm() {
     return this.getStringAttribute('algorithm');
   }
@@ -7439,7 +7439,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV4PrivateKeyAttributesOutpu
   }
 
   // crypto_providers - computed: true, optional: true, required: false
-  private _cryptoProviders?: string[];
+  private _cryptoProviders?: string[]; 
   public get cryptoProviders() {
     return this.getListAttribute('crypto_providers');
   }
@@ -7455,7 +7455,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV4PrivateKeyAttributesOutpu
   }
 
   // key_spec - computed: true, optional: true, required: false
-  private _keySpec?: string;
+  private _keySpec?: string; 
   public get keySpec() {
     return this.getStringAttribute('key_spec');
   }
@@ -7487,7 +7487,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV4PrivateKeyAttributesOutpu
   }
 
   // minimal_key_length - computed: true, optional: true, required: false
-  private _minimalKeyLength?: number;
+  private _minimalKeyLength?: number; 
   public get minimalKeyLength() {
     return this.getNumberAttribute('minimal_key_length');
   }
@@ -7666,7 +7666,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV4PrivateKeyFlagsOutputRefe
   }
 
   // client_version - computed: true, optional: true, required: false
-  private _clientVersion?: string;
+  private _clientVersion?: string; 
   public get clientVersion() {
     return this.getStringAttribute('client_version');
   }
@@ -7682,7 +7682,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV4PrivateKeyFlagsOutputRefe
   }
 
   // exportable_key - computed: true, optional: true, required: false
-  private _exportableKey?: boolean | cdktn.IResolvable;
+  private _exportableKey?: boolean | cdktn.IResolvable; 
   public get exportableKey() {
     return this.getBooleanAttribute('exportable_key');
   }
@@ -7698,7 +7698,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV4PrivateKeyFlagsOutputRefe
   }
 
   // require_alternate_signature_algorithm - computed: true, optional: true, required: false
-  private _requireAlternateSignatureAlgorithm?: boolean | cdktn.IResolvable;
+  private _requireAlternateSignatureAlgorithm?: boolean | cdktn.IResolvable; 
   public get requireAlternateSignatureAlgorithm() {
     return this.getBooleanAttribute('require_alternate_signature_algorithm');
   }
@@ -7714,7 +7714,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV4PrivateKeyFlagsOutputRefe
   }
 
   // require_same_key_renewal - computed: true, optional: true, required: false
-  private _requireSameKeyRenewal?: boolean | cdktn.IResolvable;
+  private _requireSameKeyRenewal?: boolean | cdktn.IResolvable; 
   public get requireSameKeyRenewal() {
     return this.getBooleanAttribute('require_same_key_renewal');
   }
@@ -7730,7 +7730,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV4PrivateKeyFlagsOutputRefe
   }
 
   // strong_key_protection_required - computed: true, optional: true, required: false
-  private _strongKeyProtectionRequired?: boolean | cdktn.IResolvable;
+  private _strongKeyProtectionRequired?: boolean | cdktn.IResolvable; 
   public get strongKeyProtectionRequired() {
     return this.getBooleanAttribute('strong_key_protection_required');
   }
@@ -7746,7 +7746,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV4PrivateKeyFlagsOutputRefe
   }
 
   // use_legacy_provider - computed: true, optional: true, required: false
-  private _useLegacyProvider?: boolean | cdktn.IResolvable;
+  private _useLegacyProvider?: boolean | cdktn.IResolvable; 
   public get useLegacyProvider() {
     return this.getBooleanAttribute('use_legacy_provider');
   }
@@ -7993,7 +7993,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV4SubjectNameFlagsOutputRef
   }
 
   // require_common_name - computed: true, optional: true, required: false
-  private _requireCommonName?: boolean | cdktn.IResolvable;
+  private _requireCommonName?: boolean | cdktn.IResolvable; 
   public get requireCommonName() {
     return this.getBooleanAttribute('require_common_name');
   }
@@ -8009,7 +8009,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV4SubjectNameFlagsOutputRef
   }
 
   // require_directory_path - computed: true, optional: true, required: false
-  private _requireDirectoryPath?: boolean | cdktn.IResolvable;
+  private _requireDirectoryPath?: boolean | cdktn.IResolvable; 
   public get requireDirectoryPath() {
     return this.getBooleanAttribute('require_directory_path');
   }
@@ -8025,7 +8025,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV4SubjectNameFlagsOutputRef
   }
 
   // require_dns_as_cn - computed: true, optional: true, required: false
-  private _requireDnsAsCn?: boolean | cdktn.IResolvable;
+  private _requireDnsAsCn?: boolean | cdktn.IResolvable; 
   public get requireDnsAsCn() {
     return this.getBooleanAttribute('require_dns_as_cn');
   }
@@ -8041,7 +8041,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV4SubjectNameFlagsOutputRef
   }
 
   // require_email - computed: true, optional: true, required: false
-  private _requireEmail?: boolean | cdktn.IResolvable;
+  private _requireEmail?: boolean | cdktn.IResolvable; 
   public get requireEmail() {
     return this.getBooleanAttribute('require_email');
   }
@@ -8057,7 +8057,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV4SubjectNameFlagsOutputRef
   }
 
   // san_require_directory_guid - computed: true, optional: true, required: false
-  private _sanRequireDirectoryGuid?: boolean | cdktn.IResolvable;
+  private _sanRequireDirectoryGuid?: boolean | cdktn.IResolvable; 
   public get sanRequireDirectoryGuid() {
     return this.getBooleanAttribute('san_require_directory_guid');
   }
@@ -8073,7 +8073,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV4SubjectNameFlagsOutputRef
   }
 
   // san_require_dns - computed: true, optional: true, required: false
-  private _sanRequireDns?: boolean | cdktn.IResolvable;
+  private _sanRequireDns?: boolean | cdktn.IResolvable; 
   public get sanRequireDns() {
     return this.getBooleanAttribute('san_require_dns');
   }
@@ -8089,7 +8089,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV4SubjectNameFlagsOutputRef
   }
 
   // san_require_domain_dns - computed: true, optional: true, required: false
-  private _sanRequireDomainDns?: boolean | cdktn.IResolvable;
+  private _sanRequireDomainDns?: boolean | cdktn.IResolvable; 
   public get sanRequireDomainDns() {
     return this.getBooleanAttribute('san_require_domain_dns');
   }
@@ -8105,7 +8105,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV4SubjectNameFlagsOutputRef
   }
 
   // san_require_email - computed: true, optional: true, required: false
-  private _sanRequireEmail?: boolean | cdktn.IResolvable;
+  private _sanRequireEmail?: boolean | cdktn.IResolvable; 
   public get sanRequireEmail() {
     return this.getBooleanAttribute('san_require_email');
   }
@@ -8121,7 +8121,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV4SubjectNameFlagsOutputRef
   }
 
   // san_require_spn - computed: true, optional: true, required: false
-  private _sanRequireSpn?: boolean | cdktn.IResolvable;
+  private _sanRequireSpn?: boolean | cdktn.IResolvable; 
   public get sanRequireSpn() {
     return this.getBooleanAttribute('san_require_spn');
   }
@@ -8137,7 +8137,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV4SubjectNameFlagsOutputRef
   }
 
   // san_require_upn - computed: true, optional: true, required: false
-  private _sanRequireUpn?: boolean | cdktn.IResolvable;
+  private _sanRequireUpn?: boolean | cdktn.IResolvable; 
   public get sanRequireUpn() {
     return this.getBooleanAttribute('san_require_upn');
   }
@@ -8431,7 +8431,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV4OutputReference extends c
   }
 
   // hash_algorithm - computed: true, optional: true, required: false
-  private _hashAlgorithm?: string;
+  private _hashAlgorithm?: string; 
   public get hashAlgorithm() {
     return this.getStringAttribute('hash_algorithm');
   }
@@ -8495,7 +8495,7 @@ export class PcaconnectoradTemplateDefinitionTemplateV4OutputReference extends c
   }
 
   // superseded_templates - computed: true, optional: true, required: false
-  private _supersededTemplates?: string[];
+  private _supersededTemplates?: string[]; 
   public get supersededTemplates() {
     return this.getListAttribute('superseded_templates');
   }
@@ -8733,7 +8733,7 @@ export class PcaconnectoradTemplate extends cdktn.TerraformResource {
   // ==========
 
   // connector_arn - computed: false, optional: false, required: true
-  private _connectorArn?: string;
+  private _connectorArn?: string; 
   public get connectorArn() {
     return this.getStringAttribute('connector_arn');
   }
@@ -8764,7 +8764,7 @@ export class PcaconnectoradTemplate extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -8777,7 +8777,7 @@ export class PcaconnectoradTemplate extends cdktn.TerraformResource {
   }
 
   // reenroll_all_certificate_holders - computed: true, optional: true, required: false
-  private _reenrollAllCertificateHolders?: boolean | cdktn.IResolvable;
+  private _reenrollAllCertificateHolders?: boolean | cdktn.IResolvable; 
   public get reenrollAllCertificateHolders() {
     return this.getBooleanAttribute('reenroll_all_certificate_holders');
   }
@@ -8793,7 +8793,7 @@ export class PcaconnectoradTemplate extends cdktn.TerraformResource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

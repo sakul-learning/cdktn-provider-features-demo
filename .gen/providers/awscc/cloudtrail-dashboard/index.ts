@@ -136,7 +136,7 @@ export class CloudtrailDashboardRefreshScheduleFrequencyOutputReference extends 
   }
 
   // unit - computed: true, optional: true, required: false
-  private _unit?: string;
+  private _unit?: string; 
   public get unit() {
     return this.getStringAttribute('unit');
   }
@@ -152,7 +152,7 @@ export class CloudtrailDashboardRefreshScheduleFrequencyOutputReference extends 
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: number;
+  private _value?: number; 
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -300,7 +300,7 @@ export class CloudtrailDashboardRefreshScheduleOutputReference extends cdktn.Com
   }
 
   // status - computed: true, optional: true, required: false
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -316,7 +316,7 @@ export class CloudtrailDashboardRefreshScheduleOutputReference extends cdktn.Com
   }
 
   // time_of_day - computed: true, optional: true, required: false
-  private _timeOfDay?: string;
+  private _timeOfDay?: string; 
   public get timeOfDay() {
     return this.getStringAttribute('time_of_day');
   }
@@ -433,7 +433,7 @@ export class CloudtrailDashboardTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -449,7 +449,7 @@ export class CloudtrailDashboardTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -605,7 +605,7 @@ export class CloudtrailDashboardWidgetsOutputReference extends cdktn.ComplexObje
   }
 
   // query_parameters - computed: true, optional: true, required: false
-  private _queryParameters?: string[];
+  private _queryParameters?: string[]; 
   public get queryParameters() {
     return this.getListAttribute('query_parameters');
   }
@@ -621,7 +621,7 @@ export class CloudtrailDashboardWidgetsOutputReference extends cdktn.ComplexObje
   }
 
   // query_statement - computed: true, optional: true, required: false
-  private _queryStatement?: string;
+  private _queryStatement?: string; 
   public get queryStatement() {
     return this.getStringAttribute('query_statement');
   }
@@ -637,7 +637,7 @@ export class CloudtrailDashboardWidgetsOutputReference extends cdktn.ComplexObje
   }
 
   // view_properties - computed: true, optional: true, required: false
-  private _viewProperties?: { [key: string]: string };
+  private _viewProperties?: { [key: string]: string }; 
   public get viewProperties() {
     return this.getStringMapAttribute('view_properties');
   }
@@ -750,7 +750,7 @@ export class CloudtrailDashboard extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -803,7 +803,7 @@ export class CloudtrailDashboard extends cdktn.TerraformResource {
   }
 
   // termination_protection_enabled - computed: true, optional: true, required: false
-  private _terminationProtectionEnabled?: boolean | cdktn.IResolvable;
+  private _terminationProtectionEnabled?: boolean | cdktn.IResolvable; 
   public get terminationProtectionEnabled() {
     return this.getBooleanAttribute('termination_protection_enabled');
   }

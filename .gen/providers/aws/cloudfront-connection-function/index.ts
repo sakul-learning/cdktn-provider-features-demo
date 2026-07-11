@@ -111,7 +111,7 @@ export class CloudfrontConnectionFunctionConnectionFunctionConfigKeyValueStoreAs
   }
 
   // key_value_store_arn - computed: false, optional: false, required: true
-  private _keyValueStoreArn?: string;
+  private _keyValueStoreArn?: string; 
   public get keyValueStoreArn() {
     return this.getStringAttribute('key_value_store_arn');
   }
@@ -260,7 +260,7 @@ export class CloudfrontConnectionFunctionConnectionFunctionConfigOutputReference
   }
 
   // comment - computed: false, optional: false, required: true
-  private _comment?: string;
+  private _comment?: string; 
   public get comment() {
     return this.getStringAttribute('comment');
   }
@@ -273,7 +273,7 @@ export class CloudfrontConnectionFunctionConnectionFunctionConfigOutputReference
   }
 
   // runtime - computed: false, optional: false, required: true
-  private _runtime?: string;
+  private _runtime?: string; 
   public get runtime() {
     return this.getStringAttribute('runtime');
   }
@@ -389,7 +389,7 @@ export class CloudfrontConnectionFunction extends cdktn.TerraformResource {
   }
 
   // connection_function_code - computed: false, optional: false, required: true
-  private _connectionFunctionCode?: string;
+  private _connectionFunctionCode?: string; 
   public get connectionFunctionCode() {
     return this.getStringAttribute('connection_function_code');
   }
@@ -417,7 +417,7 @@ export class CloudfrontConnectionFunction extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -430,7 +430,7 @@ export class CloudfrontConnectionFunction extends cdktn.TerraformResource {
   }
 
   // publish - computed: true, optional: true, required: false
-  private _publish?: boolean | cdktn.IResolvable;
+  private _publish?: boolean | cdktn.IResolvable; 
   public get publish() {
     return this.getBooleanAttribute('publish');
   }
@@ -451,7 +451,7 @@ export class CloudfrontConnectionFunction extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

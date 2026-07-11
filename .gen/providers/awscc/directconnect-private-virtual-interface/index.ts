@@ -244,7 +244,7 @@ export class DirectconnectPrivateVirtualInterfaceBgpPeersOutputReference extends
   }
 
   // address_family - computed: false, optional: false, required: true
-  private _addressFamily?: string;
+  private _addressFamily?: string; 
   public get addressFamily() {
     return this.getStringAttribute('address_family');
   }
@@ -257,7 +257,7 @@ export class DirectconnectPrivateVirtualInterfaceBgpPeersOutputReference extends
   }
 
   // amazon_address - computed: true, optional: true, required: false
-  private _amazonAddress?: string;
+  private _amazonAddress?: string; 
   public get amazonAddress() {
     return this.getStringAttribute('amazon_address');
   }
@@ -273,7 +273,7 @@ export class DirectconnectPrivateVirtualInterfaceBgpPeersOutputReference extends
   }
 
   // asn - computed: false, optional: false, required: true
-  private _asn?: string;
+  private _asn?: string; 
   public get asn() {
     return this.getStringAttribute('asn');
   }
@@ -286,7 +286,7 @@ export class DirectconnectPrivateVirtualInterfaceBgpPeersOutputReference extends
   }
 
   // auth_key - computed: true, optional: true, required: false
-  private _authKey?: string;
+  private _authKey?: string; 
   public get authKey() {
     return this.getStringAttribute('auth_key');
   }
@@ -302,7 +302,7 @@ export class DirectconnectPrivateVirtualInterfaceBgpPeersOutputReference extends
   }
 
   // bgp_peer_id - computed: true, optional: true, required: false
-  private _bgpPeerId?: string;
+  private _bgpPeerId?: string; 
   public get bgpPeerId() {
     return this.getStringAttribute('bgp_peer_id');
   }
@@ -318,7 +318,7 @@ export class DirectconnectPrivateVirtualInterfaceBgpPeersOutputReference extends
   }
 
   // customer_address - computed: true, optional: true, required: false
-  private _customerAddress?: string;
+  private _customerAddress?: string; 
   public get customerAddress() {
     return this.getStringAttribute('customer_address');
   }
@@ -455,7 +455,7 @@ export class DirectconnectPrivateVirtualInterfaceTagsOutputReference extends cdk
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -471,7 +471,7 @@ export class DirectconnectPrivateVirtualInterfaceTagsOutputReference extends cdk
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -574,7 +574,7 @@ export class DirectconnectPrivateVirtualInterface extends cdktn.TerraformResourc
   // ==========
 
   // allocate_private_virtual_interface_role_arn - computed: true, optional: true, required: false
-  private _allocatePrivateVirtualInterfaceRoleArn?: string;
+  private _allocatePrivateVirtualInterfaceRoleArn?: string; 
   public get allocatePrivateVirtualInterfaceRoleArn() {
     return this.getStringAttribute('allocate_private_virtual_interface_role_arn');
   }
@@ -603,7 +603,7 @@ export class DirectconnectPrivateVirtualInterface extends cdktn.TerraformResourc
   }
 
   // connection_id - computed: false, optional: false, required: true
-  private _connectionId?: string;
+  private _connectionId?: string; 
   public get connectionId() {
     return this.getStringAttribute('connection_id');
   }
@@ -616,7 +616,7 @@ export class DirectconnectPrivateVirtualInterface extends cdktn.TerraformResourc
   }
 
   // direct_connect_gateway_id - computed: true, optional: true, required: false
-  private _directConnectGatewayId?: string;
+  private _directConnectGatewayId?: string; 
   public get directConnectGatewayId() {
     return this.getStringAttribute('direct_connect_gateway_id');
   }
@@ -632,7 +632,7 @@ export class DirectconnectPrivateVirtualInterface extends cdktn.TerraformResourc
   }
 
   // enable_site_link - computed: true, optional: true, required: false
-  private _enableSiteLink?: boolean | cdktn.IResolvable;
+  private _enableSiteLink?: boolean | cdktn.IResolvable; 
   public get enableSiteLink() {
     return this.getBooleanAttribute('enable_site_link');
   }
@@ -653,7 +653,7 @@ export class DirectconnectPrivateVirtualInterface extends cdktn.TerraformResourc
   }
 
   // mtu - computed: true, optional: true, required: false
-  private _mtu?: number;
+  private _mtu?: number; 
   public get mtu() {
     return this.getNumberAttribute('mtu');
   }
@@ -685,7 +685,7 @@ export class DirectconnectPrivateVirtualInterface extends cdktn.TerraformResourc
   }
 
   // virtual_gateway_id - computed: true, optional: true, required: false
-  private _virtualGatewayId?: string;
+  private _virtualGatewayId?: string; 
   public get virtualGatewayId() {
     return this.getStringAttribute('virtual_gateway_id');
   }
@@ -711,7 +711,7 @@ export class DirectconnectPrivateVirtualInterface extends cdktn.TerraformResourc
   }
 
   // virtual_interface_name - computed: false, optional: false, required: true
-  private _virtualInterfaceName?: string;
+  private _virtualInterfaceName?: string; 
   public get virtualInterfaceName() {
     return this.getStringAttribute('virtual_interface_name');
   }
@@ -724,7 +724,7 @@ export class DirectconnectPrivateVirtualInterface extends cdktn.TerraformResourc
   }
 
   // vlan - computed: false, optional: false, required: true
-  private _vlan?: number;
+  private _vlan?: number; 
   public get vlan() {
     return this.getNumberAttribute('vlan');
   }

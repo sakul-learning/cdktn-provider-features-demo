@@ -79,7 +79,7 @@ export class DataAwsCloudfrontOriginAccessIdentities extends cdktn.TerraformData
   // ==========
 
   // comments - computed: false, optional: true, required: false
-  private _comments?: string[];
+  private _comments?: string[]; 
   public get comments() {
     return cdktn.Fn.tolist(this.getListAttribute('comments'));
   }
@@ -100,7 +100,7 @@ export class DataAwsCloudfrontOriginAccessIdentities extends cdktn.TerraformData
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }

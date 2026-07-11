@@ -117,7 +117,7 @@ export class DataAwsConnectBotAssociationLexBotOutputReference extends cdktn.Com
   }
 
   // lex_region - computed: true, optional: true, required: false
-  private _lexRegion?: string;
+  private _lexRegion?: string; 
   public get lexRegion() {
     return this.getStringAttribute('lex_region');
   }
@@ -133,7 +133,7 @@ export class DataAwsConnectBotAssociationLexBotOutputReference extends cdktn.Com
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -207,7 +207,7 @@ export class DataAwsConnectBotAssociation extends cdktn.TerraformDataSource {
   // ==========
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -223,7 +223,7 @@ export class DataAwsConnectBotAssociation extends cdktn.TerraformDataSource {
   }
 
   // instance_id - computed: false, optional: false, required: true
-  private _instanceId?: string;
+  private _instanceId?: string; 
   public get instanceId() {
     return this.getStringAttribute('instance_id');
   }
@@ -236,7 +236,7 @@ export class DataAwsConnectBotAssociation extends cdktn.TerraformDataSource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

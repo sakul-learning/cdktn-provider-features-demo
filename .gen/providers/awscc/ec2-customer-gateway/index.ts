@@ -155,7 +155,7 @@ export class Ec2CustomerGatewayTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -171,7 +171,7 @@ export class Ec2CustomerGatewayTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -271,7 +271,7 @@ export class Ec2CustomerGateway extends cdktn.TerraformResource {
   // ==========
 
   // bgp_asn - computed: true, optional: true, required: false
-  private _bgpAsn?: number;
+  private _bgpAsn?: number; 
   public get bgpAsn() {
     return this.getNumberAttribute('bgp_asn');
   }
@@ -287,7 +287,7 @@ export class Ec2CustomerGateway extends cdktn.TerraformResource {
   }
 
   // bgp_asn_extended - computed: true, optional: true, required: false
-  private _bgpAsnExtended?: number;
+  private _bgpAsnExtended?: number; 
   public get bgpAsnExtended() {
     return this.getNumberAttribute('bgp_asn_extended');
   }
@@ -303,7 +303,7 @@ export class Ec2CustomerGateway extends cdktn.TerraformResource {
   }
 
   // certificate_arn - computed: true, optional: true, required: false
-  private _certificateArn?: string;
+  private _certificateArn?: string; 
   public get certificateArn() {
     return this.getStringAttribute('certificate_arn');
   }
@@ -324,7 +324,7 @@ export class Ec2CustomerGateway extends cdktn.TerraformResource {
   }
 
   // device_name - computed: true, optional: true, required: false
-  private _deviceName?: string;
+  private _deviceName?: string; 
   public get deviceName() {
     return this.getStringAttribute('device_name');
   }
@@ -345,7 +345,7 @@ export class Ec2CustomerGateway extends cdktn.TerraformResource {
   }
 
   // ip_address - computed: false, optional: false, required: true
-  private _ipAddress?: string;
+  private _ipAddress?: string; 
   public get ipAddress() {
     return this.getStringAttribute('ip_address');
   }
@@ -374,7 +374,7 @@ export class Ec2CustomerGateway extends cdktn.TerraformResource {
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }

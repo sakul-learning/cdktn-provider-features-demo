@@ -251,7 +251,7 @@ export class DataAwsRoute53ResolverFirewallRules extends cdktn.TerraformDataSour
   // ==========
 
   // action - computed: false, optional: true, required: false
-  private _action?: string;
+  private _action?: string; 
   public get action() {
     return this.getStringAttribute('action');
   }
@@ -267,7 +267,7 @@ export class DataAwsRoute53ResolverFirewallRules extends cdktn.TerraformDataSour
   }
 
   // firewall_rule_group_id - computed: false, optional: false, required: true
-  private _firewallRuleGroupId?: string;
+  private _firewallRuleGroupId?: string; 
   public get firewallRuleGroupId() {
     return this.getStringAttribute('firewall_rule_group_id');
   }
@@ -286,7 +286,7 @@ export class DataAwsRoute53ResolverFirewallRules extends cdktn.TerraformDataSour
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -302,7 +302,7 @@ export class DataAwsRoute53ResolverFirewallRules extends cdktn.TerraformDataSour
   }
 
   // priority - computed: false, optional: true, required: false
-  private _priority?: number;
+  private _priority?: number; 
   public get priority() {
     return this.getNumberAttribute('priority');
   }
@@ -318,7 +318,7 @@ export class DataAwsRoute53ResolverFirewallRules extends cdktn.TerraformDataSour
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

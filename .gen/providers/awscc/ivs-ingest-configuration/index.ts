@@ -146,7 +146,7 @@ export class IvsIngestConfigurationTagsOutputReference extends cdktn.ComplexObje
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -162,7 +162,7 @@ export class IvsIngestConfigurationTagsOutputReference extends cdktn.ComplexObje
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -271,7 +271,7 @@ export class IvsIngestConfiguration extends cdktn.TerraformResource {
   }
 
   // ingest_protocol - computed: true, optional: true, required: false
-  private _ingestProtocol?: string;
+  private _ingestProtocol?: string; 
   public get ingestProtocol() {
     return this.getStringAttribute('ingest_protocol');
   }
@@ -287,7 +287,7 @@ export class IvsIngestConfiguration extends cdktn.TerraformResource {
   }
 
   // insecure_ingest - computed: true, optional: true, required: false
-  private _insecureIngest?: boolean | cdktn.IResolvable;
+  private _insecureIngest?: boolean | cdktn.IResolvable; 
   public get insecureIngest() {
     return this.getBooleanAttribute('insecure_ingest');
   }
@@ -303,7 +303,7 @@ export class IvsIngestConfiguration extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -324,7 +324,7 @@ export class IvsIngestConfiguration extends cdktn.TerraformResource {
   }
 
   // stage_arn - computed: true, optional: true, required: false
-  private _stageArn?: string;
+  private _stageArn?: string; 
   public get stageArn() {
     return this.getStringAttribute('stage_arn');
   }
@@ -366,7 +366,7 @@ export class IvsIngestConfiguration extends cdktn.TerraformResource {
   }
 
   // user_id - computed: true, optional: true, required: false
-  private _userId?: string;
+  private _userId?: string; 
   public get userId() {
     return this.getStringAttribute('user_id');
   }

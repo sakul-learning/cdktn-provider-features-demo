@@ -138,7 +138,7 @@ export class GlobalacceleratorAcceleratorTagsOutputReference extends cdktn.Compl
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -154,7 +154,7 @@ export class GlobalacceleratorAcceleratorTagsOutputReference extends cdktn.Compl
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -267,7 +267,7 @@ export class GlobalacceleratorAccelerator extends cdktn.TerraformResource {
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -288,7 +288,7 @@ export class GlobalacceleratorAccelerator extends cdktn.TerraformResource {
   }
 
   // ip_address_type - computed: true, optional: true, required: false
-  private _ipAddressType?: string;
+  private _ipAddressType?: string; 
   public get ipAddressType() {
     return this.getStringAttribute('ip_address_type');
   }
@@ -304,7 +304,7 @@ export class GlobalacceleratorAccelerator extends cdktn.TerraformResource {
   }
 
   // ip_addresses - computed: true, optional: true, required: false
-  private _ipAddresses?: string[];
+  private _ipAddresses?: string[]; 
   public get ipAddresses() {
     return this.getListAttribute('ip_addresses');
   }
@@ -330,7 +330,7 @@ export class GlobalacceleratorAccelerator extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }

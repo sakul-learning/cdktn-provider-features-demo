@@ -203,7 +203,7 @@ export class CodebuildFleetComputeConfigurationOutputReference extends cdktn.Com
   }
 
   // disk - computed: true, optional: true, required: false
-  private _disk?: number;
+  private _disk?: number; 
   public get disk() {
     return this.getNumberAttribute('disk');
   }
@@ -219,7 +219,7 @@ export class CodebuildFleetComputeConfigurationOutputReference extends cdktn.Com
   }
 
   // instance_type - computed: true, optional: true, required: false
-  private _instanceType?: string;
+  private _instanceType?: string; 
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -235,7 +235,7 @@ export class CodebuildFleetComputeConfigurationOutputReference extends cdktn.Com
   }
 
   // machine_type - computed: true, optional: true, required: false
-  private _machineType?: string;
+  private _machineType?: string; 
   public get machineType() {
     return this.getStringAttribute('machine_type');
   }
@@ -251,7 +251,7 @@ export class CodebuildFleetComputeConfigurationOutputReference extends cdktn.Com
   }
 
   // memory - computed: true, optional: true, required: false
-  private _memory?: number;
+  private _memory?: number; 
   public get memory() {
     return this.getNumberAttribute('memory');
   }
@@ -267,7 +267,7 @@ export class CodebuildFleetComputeConfigurationOutputReference extends cdktn.Com
   }
 
   // v_cpu - computed: true, optional: true, required: false
-  private _vCpu?: number;
+  private _vCpu?: number; 
   public get vCpu() {
     return this.getNumberAttribute('v_cpu');
   }
@@ -397,7 +397,7 @@ export class CodebuildFleetFleetProxyConfigurationOrderedProxyRulesOutputReferen
   }
 
   // effect - computed: true, optional: true, required: false
-  private _effect?: string;
+  private _effect?: string; 
   public get effect() {
     return this.getStringAttribute('effect');
   }
@@ -413,7 +413,7 @@ export class CodebuildFleetFleetProxyConfigurationOrderedProxyRulesOutputReferen
   }
 
   // entities - computed: true, optional: true, required: false
-  private _entities?: string[];
+  private _entities?: string[]; 
   public get entities() {
     return this.getListAttribute('entities');
   }
@@ -429,7 +429,7 @@ export class CodebuildFleetFleetProxyConfigurationOrderedProxyRulesOutputReferen
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -560,7 +560,7 @@ export class CodebuildFleetFleetProxyConfigurationOutputReference extends cdktn.
   }
 
   // default_behavior - computed: true, optional: true, required: false
-  private _defaultBehavior?: string;
+  private _defaultBehavior?: string; 
   public get defaultBehavior() {
     return this.getStringAttribute('default_behavior');
   }
@@ -704,7 +704,7 @@ export class CodebuildFleetFleetVpcConfigOutputReference extends cdktn.ComplexOb
   }
 
   // security_group_ids - computed: true, optional: true, required: false
-  private _securityGroupIds?: string[];
+  private _securityGroupIds?: string[]; 
   public get securityGroupIds() {
     return this.getListAttribute('security_group_ids');
   }
@@ -720,7 +720,7 @@ export class CodebuildFleetFleetVpcConfigOutputReference extends cdktn.ComplexOb
   }
 
   // subnets - computed: true, optional: true, required: false
-  private _subnets?: string[];
+  private _subnets?: string[]; 
   public get subnets() {
     return this.getListAttribute('subnets');
   }
@@ -736,7 +736,7 @@ export class CodebuildFleetFleetVpcConfigOutputReference extends cdktn.ComplexOb
   }
 
   // vpc_id - computed: true, optional: true, required: false
-  private _vpcId?: string;
+  private _vpcId?: string; 
   public get vpcId() {
     return this.getStringAttribute('vpc_id');
   }
@@ -849,7 +849,7 @@ export class CodebuildFleetScalingConfigurationTargetTrackingScalingConfigsOutpu
   }
 
   // metric_type - computed: true, optional: true, required: false
-  private _metricType?: string;
+  private _metricType?: string; 
   public get metricType() {
     return this.getStringAttribute('metric_type');
   }
@@ -865,7 +865,7 @@ export class CodebuildFleetScalingConfigurationTargetTrackingScalingConfigsOutpu
   }
 
   // target_value - computed: true, optional: true, required: false
-  private _targetValue?: number;
+  private _targetValue?: number; 
   public get targetValue() {
     return this.getNumberAttribute('target_value');
   }
@@ -1013,7 +1013,7 @@ export class CodebuildFleetScalingConfigurationOutputReference extends cdktn.Com
   }
 
   // max_capacity - computed: true, optional: true, required: false
-  private _maxCapacity?: number;
+  private _maxCapacity?: number; 
   public get maxCapacity() {
     return this.getNumberAttribute('max_capacity');
   }
@@ -1029,7 +1029,7 @@ export class CodebuildFleetScalingConfigurationOutputReference extends cdktn.Com
   }
 
   // scaling_type - computed: true, optional: true, required: false
-  private _scalingType?: string;
+  private _scalingType?: string; 
   public get scalingType() {
     return this.getStringAttribute('scaling_type');
   }
@@ -1062,13 +1062,13 @@ export class CodebuildFleetScalingConfigurationOutputReference extends cdktn.Com
 }
 export interface CodebuildFleetTags {
   /**
-  * The key name of the tag. You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
+  * The key name of the tag. You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codebuild_fleet#key CodebuildFleet#key}
   */
   readonly key?: string;
   /**
-  * The value for the tag. You can specify a value that is 0 to 255 Unicode characters in length. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
+  * The value for the tag. You can specify a value that is 0 to 255 Unicode characters in length. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codebuild_fleet#value CodebuildFleet#value}
   */
@@ -1162,7 +1162,7 @@ export class CodebuildFleetTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1178,7 +1178,7 @@ export class CodebuildFleetTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1288,7 +1288,7 @@ export class CodebuildFleet extends cdktn.TerraformResource {
   }
 
   // base_capacity - computed: true, optional: true, required: false
-  private _baseCapacity?: number;
+  private _baseCapacity?: number; 
   public get baseCapacity() {
     return this.getNumberAttribute('base_capacity');
   }
@@ -1320,7 +1320,7 @@ export class CodebuildFleet extends cdktn.TerraformResource {
   }
 
   // compute_type - computed: true, optional: true, required: false
-  private _computeType?: string;
+  private _computeType?: string; 
   public get computeType() {
     return this.getStringAttribute('compute_type');
   }
@@ -1336,7 +1336,7 @@ export class CodebuildFleet extends cdktn.TerraformResource {
   }
 
   // environment_type - computed: true, optional: true, required: false
-  private _environmentType?: string;
+  private _environmentType?: string; 
   public get environmentType() {
     return this.getStringAttribute('environment_type');
   }
@@ -1368,7 +1368,7 @@ export class CodebuildFleet extends cdktn.TerraformResource {
   }
 
   // fleet_service_role - computed: true, optional: true, required: false
-  private _fleetServiceRole?: string;
+  private _fleetServiceRole?: string; 
   public get fleetServiceRole() {
     return this.getStringAttribute('fleet_service_role');
   }
@@ -1405,7 +1405,7 @@ export class CodebuildFleet extends cdktn.TerraformResource {
   }
 
   // image_id - computed: true, optional: true, required: false
-  private _imageId?: string;
+  private _imageId?: string; 
   public get imageId() {
     return this.getStringAttribute('image_id');
   }
@@ -1421,7 +1421,7 @@ export class CodebuildFleet extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1437,7 +1437,7 @@ export class CodebuildFleet extends cdktn.TerraformResource {
   }
 
   // overflow_behavior - computed: true, optional: true, required: false
-  private _overflowBehavior?: string;
+  private _overflowBehavior?: string; 
   public get overflowBehavior() {
     return this.getStringAttribute('overflow_behavior');
   }

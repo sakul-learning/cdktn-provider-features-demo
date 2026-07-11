@@ -158,7 +158,7 @@ export class ChimesdkvoiceSipRuleTargetApplicationsOutputReference extends cdktn
   }
 
   // aws_region - computed: false, optional: false, required: true
-  private _awsRegion?: string;
+  private _awsRegion?: string; 
   public get awsRegion() {
     return this.getStringAttribute('aws_region');
   }
@@ -171,7 +171,7 @@ export class ChimesdkvoiceSipRuleTargetApplicationsOutputReference extends cdktn
   }
 
   // priority - computed: false, optional: false, required: true
-  private _priority?: number;
+  private _priority?: number; 
   public get priority() {
     return this.getNumberAttribute('priority');
   }
@@ -184,7 +184,7 @@ export class ChimesdkvoiceSipRuleTargetApplicationsOutputReference extends cdktn
   }
 
   // sip_media_application_id - computed: false, optional: false, required: true
-  private _sipMediaApplicationId?: string;
+  private _sipMediaApplicationId?: string; 
   public get sipMediaApplicationId() {
     return this.getStringAttribute('sip_media_application_id');
   }
@@ -281,7 +281,7 @@ export class ChimesdkvoiceSipRule extends cdktn.TerraformResource {
   // ==========
 
   // disabled - computed: false, optional: true, required: false
-  private _disabled?: boolean | cdktn.IResolvable;
+  private _disabled?: boolean | cdktn.IResolvable; 
   public get disabled() {
     return this.getBooleanAttribute('disabled');
   }
@@ -297,7 +297,7 @@ export class ChimesdkvoiceSipRule extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -313,7 +313,7 @@ export class ChimesdkvoiceSipRule extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -326,7 +326,7 @@ export class ChimesdkvoiceSipRule extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -342,7 +342,7 @@ export class ChimesdkvoiceSipRule extends cdktn.TerraformResource {
   }
 
   // trigger_type - computed: false, optional: false, required: true
-  private _triggerType?: string;
+  private _triggerType?: string; 
   public get triggerType() {
     return this.getStringAttribute('trigger_type');
   }
@@ -355,7 +355,7 @@ export class ChimesdkvoiceSipRule extends cdktn.TerraformResource {
   }
 
   // trigger_value - computed: false, optional: false, required: true
-  private _triggerValue?: string;
+  private _triggerValue?: string; 
   public get triggerValue() {
     return this.getStringAttribute('trigger_value');
   }

@@ -132,7 +132,7 @@ export class Inspectorv2CodeSecurityIntegrationCreateIntegrationDetailsGitlabSel
   }
 
   // access_token - computed: true, optional: true, required: false
-  private _accessToken?: string;
+  private _accessToken?: string; 
   public get accessToken() {
     return this.getStringAttribute('access_token');
   }
@@ -148,7 +148,7 @@ export class Inspectorv2CodeSecurityIntegrationCreateIntegrationDetailsGitlabSel
   }
 
   // instance_url - computed: true, optional: true, required: false
-  private _instanceUrl?: string;
+  private _instanceUrl?: string; 
   public get instanceUrl() {
     return this.getStringAttribute('instance_url');
   }
@@ -353,7 +353,7 @@ export class Inspectorv2CodeSecurityIntegrationUpdateIntegrationDetailsGithubOut
   }
 
   // code - computed: true, optional: true, required: false
-  private _code?: string;
+  private _code?: string; 
   public get code() {
     return this.getStringAttribute('code');
   }
@@ -369,7 +369,7 @@ export class Inspectorv2CodeSecurityIntegrationUpdateIntegrationDetailsGithubOut
   }
 
   // installation_id - computed: true, optional: true, required: false
-  private _installationId?: string;
+  private _installationId?: string; 
   public get installationId() {
     return this.getStringAttribute('installation_id');
   }
@@ -463,7 +463,7 @@ export class Inspectorv2CodeSecurityIntegrationUpdateIntegrationDetailsGitlabSel
   }
 
   // auth_code - computed: true, optional: true, required: false
-  private _authCode?: string;
+  private _authCode?: string; 
   public get authCode() {
     return this.getStringAttribute('auth_code');
   }
@@ -709,7 +709,7 @@ export class Inspectorv2CodeSecurityIntegration extends cdktn.TerraformResource 
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -735,7 +735,7 @@ export class Inspectorv2CodeSecurityIntegration extends cdktn.TerraformResource 
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -751,7 +751,7 @@ export class Inspectorv2CodeSecurityIntegration extends cdktn.TerraformResource 
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }

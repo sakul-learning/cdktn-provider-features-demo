@@ -140,7 +140,7 @@ export class IotsitewiseGatewayGatewayCapabilitySummariesOutputReference extends
   }
 
   // capability_configuration - computed: true, optional: true, required: false
-  private _capabilityConfiguration?: string;
+  private _capabilityConfiguration?: string; 
   public get capabilityConfiguration() {
     return this.getStringAttribute('capability_configuration');
   }
@@ -156,7 +156,7 @@ export class IotsitewiseGatewayGatewayCapabilitySummariesOutputReference extends
   }
 
   // capability_namespace - computed: true, optional: true, required: false
-  private _capabilityNamespace?: string;
+  private _capabilityNamespace?: string; 
   public get capabilityNamespace() {
     return this.getStringAttribute('capability_namespace');
   }
@@ -291,7 +291,7 @@ export class IotsitewiseGatewayGatewayPlatformGreengrassV2OutputReference extend
   }
 
   // core_device_operating_system - computed: true, optional: true, required: false
-  private _coreDeviceOperatingSystem?: string;
+  private _coreDeviceOperatingSystem?: string; 
   public get coreDeviceOperatingSystem() {
     return this.getStringAttribute('core_device_operating_system');
   }
@@ -307,7 +307,7 @@ export class IotsitewiseGatewayGatewayPlatformGreengrassV2OutputReference extend
   }
 
   // core_device_thing_name - computed: true, optional: true, required: false
-  private _coreDeviceThingName?: string;
+  private _coreDeviceThingName?: string; 
   public get coreDeviceThingName() {
     return this.getStringAttribute('core_device_thing_name');
   }
@@ -403,7 +403,7 @@ export class IotsitewiseGatewayGatewayPlatformSiemensIeOutputReference extends c
   }
 
   // iot_core_thing_name - computed: true, optional: true, required: false
-  private _iotCoreThingName?: string;
+  private _iotCoreThingName?: string; 
   public get iotCoreThingName() {
     return this.getStringAttribute('iot_core_thing_name');
   }
@@ -647,7 +647,7 @@ export class IotsitewiseGatewayTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -663,7 +663,7 @@ export class IotsitewiseGatewayTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -782,7 +782,7 @@ export class IotsitewiseGateway extends cdktn.TerraformResource {
   }
 
   // gateway_name - computed: false, optional: false, required: true
-  private _gatewayName?: string;
+  private _gatewayName?: string; 
   public get gatewayName() {
     return this.getStringAttribute('gateway_name');
   }
@@ -808,7 +808,7 @@ export class IotsitewiseGateway extends cdktn.TerraformResource {
   }
 
   // gateway_version - computed: true, optional: true, required: false
-  private _gatewayVersion?: string;
+  private _gatewayVersion?: string; 
   public get gatewayVersion() {
     return this.getStringAttribute('gateway_version');
   }

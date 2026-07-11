@@ -178,7 +178,7 @@ export class DataAwsSecretsmanagerSecretVersions extends cdktn.TerraformDataSour
   }
 
   // include_deprecated - computed: false, optional: true, required: false
-  private _includeDeprecated?: boolean | cdktn.IResolvable;
+  private _includeDeprecated?: boolean | cdktn.IResolvable; 
   public get includeDeprecated() {
     return this.getBooleanAttribute('include_deprecated');
   }
@@ -199,7 +199,7 @@ export class DataAwsSecretsmanagerSecretVersions extends cdktn.TerraformDataSour
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -220,7 +220,7 @@ export class DataAwsSecretsmanagerSecretVersions extends cdktn.TerraformDataSour
   }
 
   // secret_id - computed: false, optional: false, required: true
-  private _secretId?: string;
+  private _secretId?: string; 
   public get secretId() {
     return this.getStringAttribute('secret_id');
   }

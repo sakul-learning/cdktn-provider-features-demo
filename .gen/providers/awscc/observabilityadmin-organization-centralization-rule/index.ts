@@ -118,7 +118,7 @@ export class ObservabilityadminOrganizationCentralizationRuleRuleDestinationDest
   }
 
   // kms_key_arn - computed: true, optional: true, required: false
-  private _kmsKeyArn?: string;
+  private _kmsKeyArn?: string; 
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -134,7 +134,7 @@ export class ObservabilityadminOrganizationCentralizationRuleRuleDestinationDest
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -228,7 +228,7 @@ export class ObservabilityadminOrganizationCentralizationRuleRuleDestinationDest
   }
 
   // log_group_name_pattern - computed: true, optional: true, required: false
-  private _logGroupNamePattern?: string;
+  private _logGroupNamePattern?: string; 
   public get logGroupNamePattern() {
     return this.getStringAttribute('log_group_name_pattern');
   }
@@ -356,7 +356,7 @@ export class ObservabilityadminOrganizationCentralizationRuleRuleDestinationDest
   }
 
   // encryption_conflict_resolution_strategy - computed: true, optional: true, required: false
-  private _encryptionConflictResolutionStrategy?: string;
+  private _encryptionConflictResolutionStrategy?: string; 
   public get encryptionConflictResolutionStrategy() {
     return this.getStringAttribute('encryption_conflict_resolution_strategy');
   }
@@ -372,7 +372,7 @@ export class ObservabilityadminOrganizationCentralizationRuleRuleDestinationDest
   }
 
   // encryption_strategy - computed: true, optional: true, required: false
-  private _encryptionStrategy?: string;
+  private _encryptionStrategy?: string; 
   public get encryptionStrategy() {
     return this.getStringAttribute('encryption_strategy');
   }
@@ -388,7 +388,7 @@ export class ObservabilityadminOrganizationCentralizationRuleRuleDestinationDest
   }
 
   // kms_key_arn - computed: true, optional: true, required: false
-  private _kmsKeyArn?: string;
+  private _kmsKeyArn?: string; 
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -642,7 +642,7 @@ export class ObservabilityadminOrganizationCentralizationRuleRuleDestinationDest
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -881,7 +881,7 @@ export class ObservabilityadminOrganizationCentralizationRuleRuleDestinationOutp
   }
 
   // account - computed: true, optional: true, required: false
-  private _account?: string;
+  private _account?: string; 
   public get account() {
     return this.getStringAttribute('account');
   }
@@ -929,7 +929,7 @@ export class ObservabilityadminOrganizationCentralizationRuleRuleDestinationOutp
   }
 
   // region - computed: false, optional: false, required: true
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1054,7 +1054,7 @@ export class ObservabilityadminOrganizationCentralizationRuleRuleSourceSourceLog
   }
 
   // data_source_selection_criteria - computed: true, optional: true, required: false
-  private _dataSourceSelectionCriteria?: string;
+  private _dataSourceSelectionCriteria?: string; 
   public get dataSourceSelectionCriteria() {
     return this.getStringAttribute('data_source_selection_criteria');
   }
@@ -1070,7 +1070,7 @@ export class ObservabilityadminOrganizationCentralizationRuleRuleSourceSourceLog
   }
 
   // encrypted_log_group_strategy - computed: true, optional: true, required: false
-  private _encryptedLogGroupStrategy?: string;
+  private _encryptedLogGroupStrategy?: string; 
   public get encryptedLogGroupStrategy() {
     return this.getStringAttribute('encrypted_log_group_strategy');
   }
@@ -1086,7 +1086,7 @@ export class ObservabilityadminOrganizationCentralizationRuleRuleSourceSourceLog
   }
 
   // log_group_selection_criteria - computed: true, optional: true, required: false
-  private _logGroupSelectionCriteria?: string;
+  private _logGroupSelectionCriteria?: string; 
   public get logGroupSelectionCriteria() {
     return this.getStringAttribute('log_group_selection_criteria');
   }
@@ -1180,7 +1180,7 @@ export class ObservabilityadminOrganizationCentralizationRuleRuleSourceSourceMet
   }
 
   // metrics_selection_criteria - computed: true, optional: true, required: false
-  private _metricsSelectionCriteria?: string;
+  private _metricsSelectionCriteria?: string; 
   public get metricsSelectionCriteria() {
     return this.getStringAttribute('metrics_selection_criteria');
   }
@@ -1325,7 +1325,7 @@ export class ObservabilityadminOrganizationCentralizationRuleRuleSourceOutputRef
   }
 
   // regions - computed: false, optional: false, required: true
-  private _regions?: string[];
+  private _regions?: string[]; 
   public get regions() {
     return cdktn.Fn.tolist(this.getListAttribute('regions'));
   }
@@ -1338,7 +1338,7 @@ export class ObservabilityadminOrganizationCentralizationRuleRuleSourceOutputRef
   }
 
   // scope - computed: true, optional: true, required: false
-  private _scope?: string;
+  private _scope?: string; 
   public get scope() {
     return this.getStringAttribute('scope');
   }
@@ -1608,7 +1608,7 @@ export class ObservabilityadminOrganizationCentralizationRuleTagsOutputReference
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1624,7 +1624,7 @@ export class ObservabilityadminOrganizationCentralizationRuleTagsOutputReference
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1743,7 +1743,7 @@ export class ObservabilityadminOrganizationCentralizationRule extends cdktn.Terr
   }
 
   // rule_name - computed: false, optional: false, required: true
-  private _ruleName?: string;
+  private _ruleName?: string; 
   public get ruleName() {
     return this.getStringAttribute('rule_name');
   }

@@ -132,7 +132,7 @@ export class MediapackagePackagingGroupAuthorizationOutputReference extends cdkt
   }
 
   // cdn_identifier_secret - computed: true, optional: true, required: false
-  private _cdnIdentifierSecret?: string;
+  private _cdnIdentifierSecret?: string; 
   public get cdnIdentifierSecret() {
     return this.getStringAttribute('cdn_identifier_secret');
   }
@@ -148,7 +148,7 @@ export class MediapackagePackagingGroupAuthorizationOutputReference extends cdkt
   }
 
   // secrets_role_arn - computed: true, optional: true, required: false
-  private _secretsRoleArn?: string;
+  private _secretsRoleArn?: string; 
   public get secretsRoleArn() {
     return this.getStringAttribute('secrets_role_arn');
   }
@@ -244,7 +244,7 @@ export class MediapackagePackagingGroupEgressAccessLogsOutputReference extends c
   }
 
   // log_group_name - computed: true, optional: true, required: false
-  private _logGroupName?: string;
+  private _logGroupName?: string; 
   public get logGroupName() {
     return this.getStringAttribute('log_group_name');
   }
@@ -357,7 +357,7 @@ export class MediapackagePackagingGroupTagsOutputReference extends cdktn.Complex
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -373,7 +373,7 @@ export class MediapackagePackagingGroupTagsOutputReference extends cdktn.Complex
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -517,7 +517,7 @@ export class MediapackagePackagingGroup extends cdktn.TerraformResource {
   }
 
   // packaging_group_id - computed: false, optional: false, required: true
-  private _packagingGroupId?: string;
+  private _packagingGroupId?: string; 
   public get packagingGroupId() {
     return this.getStringAttribute('packaging_group_id');
   }

@@ -272,7 +272,7 @@ export class DataAwsEcrRepositoryCreationTemplate extends cdktn.TerraformDataSou
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -304,7 +304,7 @@ export class DataAwsEcrRepositoryCreationTemplate extends cdktn.TerraformDataSou
   }
 
   // prefix - computed: false, optional: false, required: true
-  private _prefix?: string;
+  private _prefix?: string; 
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -317,7 +317,7 @@ export class DataAwsEcrRepositoryCreationTemplate extends cdktn.TerraformDataSou
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -343,7 +343,7 @@ export class DataAwsEcrRepositoryCreationTemplate extends cdktn.TerraformDataSou
   }
 
   // resource_tags - computed: true, optional: true, required: false
-  private _resourceTags?: { [key: string]: string };
+  private _resourceTags?: { [key: string]: string }; 
   public get resourceTags() {
     return this.getStringMapAttribute('resource_tags');
   }

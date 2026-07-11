@@ -183,7 +183,7 @@ export class BedrockDataAutomationProjectCustomOutputConfigurationBlueprintsOutp
   }
 
   // blueprint_arn - computed: true, optional: true, required: false
-  private _blueprintArn?: string;
+  private _blueprintArn?: string; 
   public get blueprintArn() {
     return this.getStringAttribute('blueprint_arn');
   }
@@ -199,7 +199,7 @@ export class BedrockDataAutomationProjectCustomOutputConfigurationBlueprintsOutp
   }
 
   // blueprint_stage - computed: true, optional: true, required: false
-  private _blueprintStage?: string;
+  private _blueprintStage?: string; 
   public get blueprintStage() {
     return this.getStringAttribute('blueprint_stage');
   }
@@ -215,7 +215,7 @@ export class BedrockDataAutomationProjectCustomOutputConfigurationBlueprintsOutp
   }
 
   // blueprint_version - computed: true, optional: true, required: false
-  private _blueprintVersion?: string;
+  private _blueprintVersion?: string; 
   public get blueprintVersion() {
     return this.getStringAttribute('blueprint_version');
   }
@@ -457,7 +457,7 @@ export class BedrockDataAutomationProjectOverrideConfigurationAudioLanguageConfi
   }
 
   // generative_output_language - computed: true, optional: true, required: false
-  private _generativeOutputLanguage?: string;
+  private _generativeOutputLanguage?: string; 
   public get generativeOutputLanguage() {
     return this.getStringAttribute('generative_output_language');
   }
@@ -473,7 +473,7 @@ export class BedrockDataAutomationProjectOverrideConfigurationAudioLanguageConfi
   }
 
   // identify_multiple_languages - computed: true, optional: true, required: false
-  private _identifyMultipleLanguages?: boolean | cdktn.IResolvable;
+  private _identifyMultipleLanguages?: boolean | cdktn.IResolvable; 
   public get identifyMultipleLanguages() {
     return this.getBooleanAttribute('identify_multiple_languages');
   }
@@ -489,7 +489,7 @@ export class BedrockDataAutomationProjectOverrideConfigurationAudioLanguageConfi
   }
 
   // input_languages - computed: true, optional: true, required: false
-  private _inputLanguages?: string[];
+  private _inputLanguages?: string[]; 
   public get inputLanguages() {
     return this.getListAttribute('input_languages');
   }
@@ -583,7 +583,7 @@ export class BedrockDataAutomationProjectOverrideConfigurationAudioModalityProce
   }
 
   // state - computed: true, optional: true, required: false
-  private _state?: string;
+  private _state?: string; 
   public get state() {
     return this.getStringAttribute('state');
   }
@@ -694,7 +694,7 @@ export class BedrockDataAutomationProjectOverrideConfigurationAudioSensitiveData
   }
 
   // pii_entity_types - computed: true, optional: true, required: false
-  private _piiEntityTypes?: string[];
+  private _piiEntityTypes?: string[]; 
   public get piiEntityTypes() {
     return this.getListAttribute('pii_entity_types');
   }
@@ -710,7 +710,7 @@ export class BedrockDataAutomationProjectOverrideConfigurationAudioSensitiveData
   }
 
   // redaction_mask_mode - computed: true, optional: true, required: false
-  private _redactionMaskMode?: string;
+  private _redactionMaskMode?: string; 
   public get redactionMaskMode() {
     return this.getStringAttribute('redaction_mask_mode');
   }
@@ -838,7 +838,7 @@ export class BedrockDataAutomationProjectOverrideConfigurationAudioSensitiveData
   }
 
   // detection_mode - computed: true, optional: true, required: false
-  private _detectionMode?: string;
+  private _detectionMode?: string; 
   public get detectionMode() {
     return this.getStringAttribute('detection_mode');
   }
@@ -854,7 +854,7 @@ export class BedrockDataAutomationProjectOverrideConfigurationAudioSensitiveData
   }
 
   // detection_scope - computed: true, optional: true, required: false
-  private _detectionScope?: string[];
+  private _detectionScope?: string[]; 
   public get detectionScope() {
     return this.getListAttribute('detection_scope');
   }
@@ -1124,7 +1124,7 @@ export class BedrockDataAutomationProjectOverrideConfigurationDocumentModalityPr
   }
 
   // state - computed: true, optional: true, required: false
-  private _state?: string;
+  private _state?: string; 
   public get state() {
     return this.getStringAttribute('state');
   }
@@ -1235,7 +1235,7 @@ export class BedrockDataAutomationProjectOverrideConfigurationDocumentSensitiveD
   }
 
   // pii_entity_types - computed: true, optional: true, required: false
-  private _piiEntityTypes?: string[];
+  private _piiEntityTypes?: string[]; 
   public get piiEntityTypes() {
     return this.getListAttribute('pii_entity_types');
   }
@@ -1251,7 +1251,7 @@ export class BedrockDataAutomationProjectOverrideConfigurationDocumentSensitiveD
   }
 
   // redaction_mask_mode - computed: true, optional: true, required: false
-  private _redactionMaskMode?: string;
+  private _redactionMaskMode?: string; 
   public get redactionMaskMode() {
     return this.getStringAttribute('redaction_mask_mode');
   }
@@ -1379,7 +1379,7 @@ export class BedrockDataAutomationProjectOverrideConfigurationDocumentSensitiveD
   }
 
   // detection_mode - computed: true, optional: true, required: false
-  private _detectionMode?: string;
+  private _detectionMode?: string; 
   public get detectionMode() {
     return this.getStringAttribute('detection_mode');
   }
@@ -1395,7 +1395,7 @@ export class BedrockDataAutomationProjectOverrideConfigurationDocumentSensitiveD
   }
 
   // detection_scope - computed: true, optional: true, required: false
-  private _detectionScope?: string[];
+  private _detectionScope?: string[]; 
   public get detectionScope() {
     return this.getListAttribute('detection_scope');
   }
@@ -1505,7 +1505,7 @@ export class BedrockDataAutomationProjectOverrideConfigurationDocumentSplitterOu
   }
 
   // state - computed: true, optional: true, required: false
-  private _state?: string;
+  private _state?: string; 
   public get state() {
     return this.getStringAttribute('state');
   }
@@ -1759,7 +1759,7 @@ export class BedrockDataAutomationProjectOverrideConfigurationImageModalityProce
   }
 
   // state - computed: true, optional: true, required: false
-  private _state?: string;
+  private _state?: string; 
   public get state() {
     return this.getStringAttribute('state');
   }
@@ -1870,7 +1870,7 @@ export class BedrockDataAutomationProjectOverrideConfigurationImageSensitiveData
   }
 
   // pii_entity_types - computed: true, optional: true, required: false
-  private _piiEntityTypes?: string[];
+  private _piiEntityTypes?: string[]; 
   public get piiEntityTypes() {
     return this.getListAttribute('pii_entity_types');
   }
@@ -1886,7 +1886,7 @@ export class BedrockDataAutomationProjectOverrideConfigurationImageSensitiveData
   }
 
   // redaction_mask_mode - computed: true, optional: true, required: false
-  private _redactionMaskMode?: string;
+  private _redactionMaskMode?: string; 
   public get redactionMaskMode() {
     return this.getStringAttribute('redaction_mask_mode');
   }
@@ -2014,7 +2014,7 @@ export class BedrockDataAutomationProjectOverrideConfigurationImageSensitiveData
   }
 
   // detection_mode - computed: true, optional: true, required: false
-  private _detectionMode?: string;
+  private _detectionMode?: string; 
   public get detectionMode() {
     return this.getStringAttribute('detection_mode');
   }
@@ -2030,7 +2030,7 @@ export class BedrockDataAutomationProjectOverrideConfigurationImageSensitiveData
   }
 
   // detection_scope - computed: true, optional: true, required: false
-  private _detectionScope?: string[];
+  private _detectionScope?: string[]; 
   public get detectionScope() {
     return this.getListAttribute('detection_scope');
   }
@@ -2318,7 +2318,7 @@ export class BedrockDataAutomationProjectOverrideConfigurationModalityRoutingOut
   }
 
   // jpeg - computed: true, optional: true, required: false
-  private _jpeg?: string;
+  private _jpeg?: string; 
   public get jpeg() {
     return this.getStringAttribute('jpeg');
   }
@@ -2334,7 +2334,7 @@ export class BedrockDataAutomationProjectOverrideConfigurationModalityRoutingOut
   }
 
   // mov - computed: true, optional: true, required: false
-  private _mov?: string;
+  private _mov?: string; 
   public get mov() {
     return this.getStringAttribute('mov');
   }
@@ -2350,7 +2350,7 @@ export class BedrockDataAutomationProjectOverrideConfigurationModalityRoutingOut
   }
 
   // mp_4 - computed: true, optional: true, required: false
-  private _mp4?: string;
+  private _mp4?: string; 
   public get mp4() {
     return this.getStringAttribute('mp_4');
   }
@@ -2366,7 +2366,7 @@ export class BedrockDataAutomationProjectOverrideConfigurationModalityRoutingOut
   }
 
   // png - computed: true, optional: true, required: false
-  private _png?: string;
+  private _png?: string; 
   public get png() {
     return this.getStringAttribute('png');
   }
@@ -2460,7 +2460,7 @@ export class BedrockDataAutomationProjectOverrideConfigurationVideoModalityProce
   }
 
   // state - computed: true, optional: true, required: false
-  private _state?: string;
+  private _state?: string; 
   public get state() {
     return this.getStringAttribute('state');
   }
@@ -2571,7 +2571,7 @@ export class BedrockDataAutomationProjectOverrideConfigurationVideoSensitiveData
   }
 
   // pii_entity_types - computed: true, optional: true, required: false
-  private _piiEntityTypes?: string[];
+  private _piiEntityTypes?: string[]; 
   public get piiEntityTypes() {
     return this.getListAttribute('pii_entity_types');
   }
@@ -2587,7 +2587,7 @@ export class BedrockDataAutomationProjectOverrideConfigurationVideoSensitiveData
   }
 
   // redaction_mask_mode - computed: true, optional: true, required: false
-  private _redactionMaskMode?: string;
+  private _redactionMaskMode?: string; 
   public get redactionMaskMode() {
     return this.getStringAttribute('redaction_mask_mode');
   }
@@ -2715,7 +2715,7 @@ export class BedrockDataAutomationProjectOverrideConfigurationVideoSensitiveData
   }
 
   // detection_mode - computed: true, optional: true, required: false
-  private _detectionMode?: string;
+  private _detectionMode?: string; 
   public get detectionMode() {
     return this.getStringAttribute('detection_mode');
   }
@@ -2731,7 +2731,7 @@ export class BedrockDataAutomationProjectOverrideConfigurationVideoSensitiveData
   }
 
   // detection_scope - computed: true, optional: true, required: false
-  private _detectionScope?: string[];
+  private _detectionScope?: string[]; 
   public get detectionScope() {
     return this.getListAttribute('detection_scope');
   }
@@ -3196,7 +3196,7 @@ export class BedrockDataAutomationProjectStandardOutputConfigurationAudioExtract
   }
 
   // state - computed: true, optional: true, required: false
-  private _state?: string;
+  private _state?: string; 
   public get state() {
     return this.getStringAttribute('state');
   }
@@ -3290,7 +3290,7 @@ export class BedrockDataAutomationProjectStandardOutputConfigurationAudioExtract
   }
 
   // state - computed: true, optional: true, required: false
-  private _state?: string;
+  private _state?: string; 
   public get state() {
     return this.getStringAttribute('state');
   }
@@ -3639,7 +3639,7 @@ export class BedrockDataAutomationProjectStandardOutputConfigurationAudioExtract
   }
 
   // state - computed: true, optional: true, required: false
-  private _state?: string;
+  private _state?: string; 
   public get state() {
     return this.getStringAttribute('state');
   }
@@ -3671,7 +3671,7 @@ export class BedrockDataAutomationProjectStandardOutputConfigurationAudioExtract
   }
 
   // types - computed: true, optional: true, required: false
-  private _types?: string[];
+  private _types?: string[]; 
   public get types() {
     return this.getListAttribute('types');
   }
@@ -3876,7 +3876,7 @@ export class BedrockDataAutomationProjectStandardOutputConfigurationAudioGenerat
   }
 
   // state - computed: true, optional: true, required: false
-  private _state?: string;
+  private _state?: string; 
   public get state() {
     return this.getStringAttribute('state');
   }
@@ -3892,7 +3892,7 @@ export class BedrockDataAutomationProjectStandardOutputConfigurationAudioGenerat
   }
 
   // types - computed: true, optional: true, required: false
-  private _types?: string[];
+  private _types?: string[]; 
   public get types() {
     return this.getListAttribute('types');
   }
@@ -4113,7 +4113,7 @@ export class BedrockDataAutomationProjectStandardOutputConfigurationDocumentExtr
   }
 
   // state - computed: true, optional: true, required: false
-  private _state?: string;
+  private _state?: string; 
   public get state() {
     return this.getStringAttribute('state');
   }
@@ -4207,7 +4207,7 @@ export class BedrockDataAutomationProjectStandardOutputConfigurationDocumentExtr
   }
 
   // types - computed: true, optional: true, required: false
-  private _types?: string[];
+  private _types?: string[]; 
   public get types() {
     return this.getListAttribute('types');
   }
@@ -4428,7 +4428,7 @@ export class BedrockDataAutomationProjectStandardOutputConfigurationDocumentGene
   }
 
   // state - computed: true, optional: true, required: false
-  private _state?: string;
+  private _state?: string; 
   public get state() {
     return this.getStringAttribute('state');
   }
@@ -4522,7 +4522,7 @@ export class BedrockDataAutomationProjectStandardOutputConfigurationDocumentOutp
   }
 
   // state - computed: true, optional: true, required: false
-  private _state?: string;
+  private _state?: string; 
   public get state() {
     return this.getStringAttribute('state');
   }
@@ -4616,7 +4616,7 @@ export class BedrockDataAutomationProjectStandardOutputConfigurationDocumentOutp
   }
 
   // types - computed: true, optional: true, required: false
-  private _types?: string[];
+  private _types?: string[]; 
   public get types() {
     return this.getListAttribute('types');
   }
@@ -4997,7 +4997,7 @@ export class BedrockDataAutomationProjectStandardOutputConfigurationImageExtract
   }
 
   // state - computed: true, optional: true, required: false
-  private _state?: string;
+  private _state?: string; 
   public get state() {
     return this.getStringAttribute('state');
   }
@@ -5108,7 +5108,7 @@ export class BedrockDataAutomationProjectStandardOutputConfigurationImageExtract
   }
 
   // state - computed: true, optional: true, required: false
-  private _state?: string;
+  private _state?: string; 
   public get state() {
     return this.getStringAttribute('state');
   }
@@ -5124,7 +5124,7 @@ export class BedrockDataAutomationProjectStandardOutputConfigurationImageExtract
   }
 
   // types - computed: true, optional: true, required: false
-  private _types?: string[];
+  private _types?: string[]; 
   public get types() {
     return this.getListAttribute('types');
   }
@@ -5362,7 +5362,7 @@ export class BedrockDataAutomationProjectStandardOutputConfigurationImageGenerat
   }
 
   // state - computed: true, optional: true, required: false
-  private _state?: string;
+  private _state?: string; 
   public get state() {
     return this.getStringAttribute('state');
   }
@@ -5378,7 +5378,7 @@ export class BedrockDataAutomationProjectStandardOutputConfigurationImageGenerat
   }
 
   // types - computed: true, optional: true, required: false
-  private _types?: string[];
+  private _types?: string[]; 
   public get types() {
     return this.getListAttribute('types');
   }
@@ -5599,7 +5599,7 @@ export class BedrockDataAutomationProjectStandardOutputConfigurationVideoExtract
   }
 
   // state - computed: true, optional: true, required: false
-  private _state?: string;
+  private _state?: string; 
   public get state() {
     return this.getStringAttribute('state');
   }
@@ -5710,7 +5710,7 @@ export class BedrockDataAutomationProjectStandardOutputConfigurationVideoExtract
   }
 
   // state - computed: true, optional: true, required: false
-  private _state?: string;
+  private _state?: string; 
   public get state() {
     return this.getStringAttribute('state');
   }
@@ -5726,7 +5726,7 @@ export class BedrockDataAutomationProjectStandardOutputConfigurationVideoExtract
   }
 
   // types - computed: true, optional: true, required: false
-  private _types?: string[];
+  private _types?: string[]; 
   public get types() {
     return this.getListAttribute('types');
   }
@@ -5964,7 +5964,7 @@ export class BedrockDataAutomationProjectStandardOutputConfigurationVideoGenerat
   }
 
   // state - computed: true, optional: true, required: false
-  private _state?: string;
+  private _state?: string; 
   public get state() {
     return this.getStringAttribute('state');
   }
@@ -5980,7 +5980,7 @@ export class BedrockDataAutomationProjectStandardOutputConfigurationVideoGenerat
   }
 
   // types - computed: true, optional: true, required: false
-  private _types?: string[];
+  private _types?: string[]; 
   public get types() {
     return this.getListAttribute('types');
   }
@@ -6417,7 +6417,7 @@ export class BedrockDataAutomationProjectTagsOutputReference extends cdktn.Compl
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -6433,7 +6433,7 @@ export class BedrockDataAutomationProjectTagsOutputReference extends cdktn.Compl
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -6561,7 +6561,7 @@ export class BedrockDataAutomationProject extends cdktn.TerraformResource {
   }
 
   // kms_encryption_context - computed: true, optional: true, required: false
-  private _kmsEncryptionContext?: { [key: string]: string };
+  private _kmsEncryptionContext?: { [key: string]: string }; 
   public get kmsEncryptionContext() {
     return this.getStringMapAttribute('kms_encryption_context');
   }
@@ -6577,7 +6577,7 @@ export class BedrockDataAutomationProject extends cdktn.TerraformResource {
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -6619,7 +6619,7 @@ export class BedrockDataAutomationProject extends cdktn.TerraformResource {
   }
 
   // project_description - computed: true, optional: true, required: false
-  private _projectDescription?: string;
+  private _projectDescription?: string; 
   public get projectDescription() {
     return this.getStringAttribute('project_description');
   }
@@ -6635,7 +6635,7 @@ export class BedrockDataAutomationProject extends cdktn.TerraformResource {
   }
 
   // project_name - computed: false, optional: false, required: true
-  private _projectName?: string;
+  private _projectName?: string; 
   public get projectName() {
     return this.getStringAttribute('project_name');
   }
@@ -6653,7 +6653,7 @@ export class BedrockDataAutomationProject extends cdktn.TerraformResource {
   }
 
   // project_type - computed: true, optional: true, required: false
-  private _projectType?: string;
+  private _projectType?: string; 
   public get projectType() {
     return this.getStringAttribute('project_type');
   }

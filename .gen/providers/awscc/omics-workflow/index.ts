@@ -147,7 +147,7 @@ export class OmicsWorkflowParameterTemplateOutputReference extends cdktn.Complex
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -163,7 +163,7 @@ export class OmicsWorkflowParameterTemplateOutputReference extends cdktn.Complex
   }
 
   // optional - computed: true, optional: true, required: false
-  private _optional?: boolean | cdktn.IResolvable;
+  private _optional?: boolean | cdktn.IResolvable; 
   public get optional() {
     return this.getBooleanAttribute('optional');
   }
@@ -265,7 +265,7 @@ export class OmicsWorkflow extends cdktn.TerraformResource {
   // ==========
 
   // accelerators - computed: true, optional: true, required: false
-  private _accelerators?: string;
+  private _accelerators?: string; 
   public get accelerators() {
     return this.getStringAttribute('accelerators');
   }
@@ -291,7 +291,7 @@ export class OmicsWorkflow extends cdktn.TerraformResource {
   }
 
   // definition_uri - computed: true, optional: true, required: false
-  private _definitionUri?: string;
+  private _definitionUri?: string; 
   public get definitionUri() {
     return this.getStringAttribute('definition_uri');
   }
@@ -307,7 +307,7 @@ export class OmicsWorkflow extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -323,7 +323,7 @@ export class OmicsWorkflow extends cdktn.TerraformResource {
   }
 
   // engine - computed: true, optional: true, required: false
-  private _engine?: string;
+  private _engine?: string; 
   public get engine() {
     return this.getStringAttribute('engine');
   }
@@ -344,7 +344,7 @@ export class OmicsWorkflow extends cdktn.TerraformResource {
   }
 
   // main - computed: true, optional: true, required: false
-  private _main?: string;
+  private _main?: string; 
   public get main() {
     return this.getStringAttribute('main');
   }
@@ -360,7 +360,7 @@ export class OmicsWorkflow extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -397,7 +397,7 @@ export class OmicsWorkflow extends cdktn.TerraformResource {
   }
 
   // storage_capacity - computed: true, optional: true, required: false
-  private _storageCapacity?: number;
+  private _storageCapacity?: number; 
   public get storageCapacity() {
     return this.getNumberAttribute('storage_capacity');
   }
@@ -413,7 +413,7 @@ export class OmicsWorkflow extends cdktn.TerraformResource {
   }
 
   // storage_type - computed: true, optional: true, required: false
-  private _storageType?: string;
+  private _storageType?: string; 
   public get storageType() {
     return this.getStringAttribute('storage_type');
   }
@@ -429,7 +429,7 @@ export class OmicsWorkflow extends cdktn.TerraformResource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

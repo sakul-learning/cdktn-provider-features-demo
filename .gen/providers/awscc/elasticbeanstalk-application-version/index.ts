@@ -8,7 +8,7 @@ import * as cdktn from 'cdktn';
 
 export interface ElasticbeanstalkApplicationVersionConfig extends cdktn.TerraformMetaArguments {
   /**
-  * The name of the Elastic Beanstalk application that is associated with this application version.
+  * The name of the Elastic Beanstalk application that is associated with this application version. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticbeanstalk_application_version#application_name ElasticbeanstalkApplicationVersion#application_name}
   */
@@ -20,7 +20,7 @@ export interface ElasticbeanstalkApplicationVersionConfig extends cdktn.Terrafor
   */
   readonly description?: string;
   /**
-  * The Amazon S3 bucket and key that identify the location of the source bundle for this version.
+  * The Amazon S3 bucket and key that identify the location of the source bundle for this version. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticbeanstalk_application_version#source_bundle ElasticbeanstalkApplicationVersion#source_bundle}
   */
@@ -126,7 +126,7 @@ export class ElasticbeanstalkApplicationVersionSourceBundleOutputReference exten
   }
 
   // s3_bucket - computed: false, optional: false, required: true
-  private _s3Bucket?: string;
+  private _s3Bucket?: string; 
   public get s3Bucket() {
     return this.getStringAttribute('s3_bucket');
   }
@@ -139,7 +139,7 @@ export class ElasticbeanstalkApplicationVersionSourceBundleOutputReference exten
   }
 
   // s3_key - computed: false, optional: false, required: true
-  private _s3Key?: string;
+  private _s3Key?: string; 
   public get s3Key() {
     return this.getStringAttribute('s3_key');
   }
@@ -212,7 +212,7 @@ export class ElasticbeanstalkApplicationVersion extends cdktn.TerraformResource 
   // ==========
 
   // application_name - computed: false, optional: false, required: true
-  private _applicationName?: string;
+  private _applicationName?: string; 
   public get applicationName() {
     return this.getStringAttribute('application_name');
   }
@@ -230,7 +230,7 @@ export class ElasticbeanstalkApplicationVersion extends cdktn.TerraformResource 
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }

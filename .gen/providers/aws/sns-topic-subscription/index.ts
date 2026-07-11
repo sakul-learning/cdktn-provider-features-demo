@@ -146,7 +146,7 @@ export class SnsTopicSubscription extends cdktn.TerraformResource {
   }
 
   // confirmation_timeout_in_minutes - computed: false, optional: true, required: false
-  private _confirmationTimeoutInMinutes?: number;
+  private _confirmationTimeoutInMinutes?: number; 
   public get confirmationTimeoutInMinutes() {
     return this.getNumberAttribute('confirmation_timeout_in_minutes');
   }
@@ -167,7 +167,7 @@ export class SnsTopicSubscription extends cdktn.TerraformResource {
   }
 
   // delivery_policy - computed: false, optional: true, required: false
-  private _deliveryPolicy?: string;
+  private _deliveryPolicy?: string; 
   public get deliveryPolicy() {
     return this.getStringAttribute('delivery_policy');
   }
@@ -183,7 +183,7 @@ export class SnsTopicSubscription extends cdktn.TerraformResource {
   }
 
   // endpoint - computed: false, optional: false, required: true
-  private _endpoint?: string;
+  private _endpoint?: string; 
   public get endpoint() {
     return this.getStringAttribute('endpoint');
   }
@@ -196,7 +196,7 @@ export class SnsTopicSubscription extends cdktn.TerraformResource {
   }
 
   // endpoint_auto_confirms - computed: false, optional: true, required: false
-  private _endpointAutoConfirms?: boolean | cdktn.IResolvable;
+  private _endpointAutoConfirms?: boolean | cdktn.IResolvable; 
   public get endpointAutoConfirms() {
     return this.getBooleanAttribute('endpoint_auto_confirms');
   }
@@ -212,7 +212,7 @@ export class SnsTopicSubscription extends cdktn.TerraformResource {
   }
 
   // filter_policy - computed: false, optional: true, required: false
-  private _filterPolicy?: string;
+  private _filterPolicy?: string; 
   public get filterPolicy() {
     return this.getStringAttribute('filter_policy');
   }
@@ -228,7 +228,7 @@ export class SnsTopicSubscription extends cdktn.TerraformResource {
   }
 
   // filter_policy_scope - computed: true, optional: true, required: false
-  private _filterPolicyScope?: string;
+  private _filterPolicyScope?: string; 
   public get filterPolicyScope() {
     return this.getStringAttribute('filter_policy_scope');
   }
@@ -244,7 +244,7 @@ export class SnsTopicSubscription extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -270,7 +270,7 @@ export class SnsTopicSubscription extends cdktn.TerraformResource {
   }
 
   // protocol - computed: false, optional: false, required: true
-  private _protocol?: string;
+  private _protocol?: string; 
   public get protocol() {
     return this.getStringAttribute('protocol');
   }
@@ -283,7 +283,7 @@ export class SnsTopicSubscription extends cdktn.TerraformResource {
   }
 
   // raw_message_delivery - computed: false, optional: true, required: false
-  private _rawMessageDelivery?: boolean | cdktn.IResolvable;
+  private _rawMessageDelivery?: boolean | cdktn.IResolvable; 
   public get rawMessageDelivery() {
     return this.getBooleanAttribute('raw_message_delivery');
   }
@@ -299,7 +299,7 @@ export class SnsTopicSubscription extends cdktn.TerraformResource {
   }
 
   // redrive_policy - computed: false, optional: true, required: false
-  private _redrivePolicy?: string;
+  private _redrivePolicy?: string; 
   public get redrivePolicy() {
     return this.getStringAttribute('redrive_policy');
   }
@@ -315,7 +315,7 @@ export class SnsTopicSubscription extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -331,7 +331,7 @@ export class SnsTopicSubscription extends cdktn.TerraformResource {
   }
 
   // replay_policy - computed: false, optional: true, required: false
-  private _replayPolicy?: string;
+  private _replayPolicy?: string; 
   public get replayPolicy() {
     return this.getStringAttribute('replay_policy');
   }
@@ -347,7 +347,7 @@ export class SnsTopicSubscription extends cdktn.TerraformResource {
   }
 
   // subscription_role_arn - computed: false, optional: true, required: false
-  private _subscriptionRoleArn?: string;
+  private _subscriptionRoleArn?: string; 
   public get subscriptionRoleArn() {
     return this.getStringAttribute('subscription_role_arn');
   }
@@ -363,7 +363,7 @@ export class SnsTopicSubscription extends cdktn.TerraformResource {
   }
 
   // topic_arn - computed: false, optional: false, required: true
-  private _topicArn?: string;
+  private _topicArn?: string; 
   public get topicArn() {
     return this.getStringAttribute('topic_arn');
   }

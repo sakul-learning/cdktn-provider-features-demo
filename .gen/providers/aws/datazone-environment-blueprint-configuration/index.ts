@@ -108,7 +108,7 @@ export class DatazoneEnvironmentBlueprintConfiguration extends cdktn.TerraformRe
   // ==========
 
   // domain_id - computed: false, optional: false, required: true
-  private _domainId?: string;
+  private _domainId?: string; 
   public get domainId() {
     return this.getStringAttribute('domain_id');
   }
@@ -121,7 +121,7 @@ export class DatazoneEnvironmentBlueprintConfiguration extends cdktn.TerraformRe
   }
 
   // enabled_regions - computed: false, optional: false, required: true
-  private _enabledRegions?: string[];
+  private _enabledRegions?: string[]; 
   public get enabledRegions() {
     return this.getListAttribute('enabled_regions');
   }
@@ -134,7 +134,7 @@ export class DatazoneEnvironmentBlueprintConfiguration extends cdktn.TerraformRe
   }
 
   // environment_blueprint_id - computed: false, optional: false, required: true
-  private _environmentBlueprintId?: string;
+  private _environmentBlueprintId?: string; 
   public get environmentBlueprintId() {
     return this.getStringAttribute('environment_blueprint_id');
   }
@@ -147,7 +147,7 @@ export class DatazoneEnvironmentBlueprintConfiguration extends cdktn.TerraformRe
   }
 
   // global_parameters - computed: false, optional: true, required: false
-  private _globalParameters?: { [key: string]: string };
+  private _globalParameters?: { [key: string]: string }; 
   public get globalParameters() {
     return this.getStringMapAttribute('global_parameters');
   }
@@ -163,7 +163,7 @@ export class DatazoneEnvironmentBlueprintConfiguration extends cdktn.TerraformRe
   }
 
   // manage_access_role_arn - computed: false, optional: true, required: false
-  private _manageAccessRoleArn?: string;
+  private _manageAccessRoleArn?: string; 
   public get manageAccessRoleArn() {
     return this.getStringAttribute('manage_access_role_arn');
   }
@@ -179,7 +179,7 @@ export class DatazoneEnvironmentBlueprintConfiguration extends cdktn.TerraformRe
   }
 
   // provisioning_role_arn - computed: false, optional: true, required: false
-  private _provisioningRoleArn?: string;
+  private _provisioningRoleArn?: string; 
   public get provisioningRoleArn() {
     return this.getStringAttribute('provisioning_role_arn');
   }
@@ -195,7 +195,7 @@ export class DatazoneEnvironmentBlueprintConfiguration extends cdktn.TerraformRe
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -211,7 +211,7 @@ export class DatazoneEnvironmentBlueprintConfiguration extends cdktn.TerraformRe
   }
 
   // regional_parameters - computed: false, optional: true, required: false
-  private _regionalParameters?: { [key: string]: { [key: string]: string } } | cdktn.IResolvable;
+  private _regionalParameters?: { [key: string]: { [key: string]: string } } | cdktn.IResolvable; 
   public get regionalParameters() {
     return this.interpolationForAttribute('regional_parameters');
   }

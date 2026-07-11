@@ -654,7 +654,7 @@ export class DataAwsBedrockFoundationModelAgreementOffers extends cdktn.Terrafor
   // ==========
 
   // model_id - computed: false, optional: false, required: true
-  private _modelId?: string;
+  private _modelId?: string; 
   public get modelId() {
     return this.getStringAttribute('model_id');
   }
@@ -667,7 +667,7 @@ export class DataAwsBedrockFoundationModelAgreementOffers extends cdktn.Terrafor
   }
 
   // offer_type - computed: false, optional: true, required: false
-  private _offerType?: string;
+  private _offerType?: string; 
   public get offerType() {
     return this.getStringAttribute('offer_type');
   }
@@ -689,7 +689,7 @@ export class DataAwsBedrockFoundationModelAgreementOffers extends cdktn.Terrafor
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

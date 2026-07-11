@@ -164,7 +164,7 @@ export class LightsailLoadBalancerTagsOutputReference extends cdktn.ComplexObjec
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -180,7 +180,7 @@ export class LightsailLoadBalancerTagsOutputReference extends cdktn.ComplexObjec
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -282,7 +282,7 @@ export class LightsailLoadBalancer extends cdktn.TerraformResource {
   // ==========
 
   // attached_instances - computed: true, optional: true, required: false
-  private _attachedInstances?: string[];
+  private _attachedInstances?: string[]; 
   public get attachedInstances() {
     return cdktn.Fn.tolist(this.getListAttribute('attached_instances'));
   }
@@ -298,7 +298,7 @@ export class LightsailLoadBalancer extends cdktn.TerraformResource {
   }
 
   // health_check_path - computed: true, optional: true, required: false
-  private _healthCheckPath?: string;
+  private _healthCheckPath?: string; 
   public get healthCheckPath() {
     return this.getStringAttribute('health_check_path');
   }
@@ -319,7 +319,7 @@ export class LightsailLoadBalancer extends cdktn.TerraformResource {
   }
 
   // instance_port - computed: false, optional: false, required: true
-  private _instancePort?: number;
+  private _instancePort?: number; 
   public get instancePort() {
     return this.getNumberAttribute('instance_port');
   }
@@ -332,7 +332,7 @@ export class LightsailLoadBalancer extends cdktn.TerraformResource {
   }
 
   // ip_address_type - computed: true, optional: true, required: false
-  private _ipAddressType?: string;
+  private _ipAddressType?: string; 
   public get ipAddressType() {
     return this.getStringAttribute('ip_address_type');
   }
@@ -353,7 +353,7 @@ export class LightsailLoadBalancer extends cdktn.TerraformResource {
   }
 
   // load_balancer_name - computed: false, optional: false, required: true
-  private _loadBalancerName?: string;
+  private _loadBalancerName?: string; 
   public get loadBalancerName() {
     return this.getStringAttribute('load_balancer_name');
   }
@@ -366,7 +366,7 @@ export class LightsailLoadBalancer extends cdktn.TerraformResource {
   }
 
   // session_stickiness_enabled - computed: true, optional: true, required: false
-  private _sessionStickinessEnabled?: boolean | cdktn.IResolvable;
+  private _sessionStickinessEnabled?: boolean | cdktn.IResolvable; 
   public get sessionStickinessEnabled() {
     return this.getBooleanAttribute('session_stickiness_enabled');
   }
@@ -382,7 +382,7 @@ export class LightsailLoadBalancer extends cdktn.TerraformResource {
   }
 
   // session_stickiness_lb_cookie_duration_seconds - computed: true, optional: true, required: false
-  private _sessionStickinessLbCookieDurationSeconds?: string;
+  private _sessionStickinessLbCookieDurationSeconds?: string; 
   public get sessionStickinessLbCookieDurationSeconds() {
     return this.getStringAttribute('session_stickiness_lb_cookie_duration_seconds');
   }
@@ -414,7 +414,7 @@ export class LightsailLoadBalancer extends cdktn.TerraformResource {
   }
 
   // tls_policy_name - computed: true, optional: true, required: false
-  private _tlsPolicyName?: string;
+  private _tlsPolicyName?: string; 
   public get tlsPolicyName() {
     return this.getStringAttribute('tls_policy_name');
   }

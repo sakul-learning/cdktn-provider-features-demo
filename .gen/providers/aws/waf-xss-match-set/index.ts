@@ -111,7 +111,7 @@ export class WafXssMatchSetXssMatchTuplesFieldToMatchOutputReference extends cdk
   }
 
   // data - computed: false, optional: true, required: false
-  private _data?: string;
+  private _data?: string; 
   public get data() {
     return this.getStringAttribute('data');
   }
@@ -127,7 +127,7 @@ export class WafXssMatchSetXssMatchTuplesFieldToMatchOutputReference extends cdk
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -239,7 +239,7 @@ export class WafXssMatchSetXssMatchTuplesOutputReference extends cdktn.ComplexOb
   }
 
   // text_transformation - computed: false, optional: false, required: true
-  private _textTransformation?: string;
+  private _textTransformation?: string; 
   public get textTransformation() {
     return this.getStringAttribute('text_transformation');
   }
@@ -350,7 +350,7 @@ export class WafXssMatchSet extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -366,7 +366,7 @@ export class WafXssMatchSet extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }

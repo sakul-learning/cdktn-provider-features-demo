@@ -333,7 +333,7 @@ export class RedshiftserverlessNamespaceSnapshotCopyConfigurationsOutputReferenc
   }
 
   // destination_kms_key_id - computed: true, optional: true, required: false
-  private _destinationKmsKeyId?: string;
+  private _destinationKmsKeyId?: string; 
   public get destinationKmsKeyId() {
     return this.getStringAttribute('destination_kms_key_id');
   }
@@ -349,7 +349,7 @@ export class RedshiftserverlessNamespaceSnapshotCopyConfigurationsOutputReferenc
   }
 
   // destination_region - computed: true, optional: true, required: false
-  private _destinationRegion?: string;
+  private _destinationRegion?: string; 
   public get destinationRegion() {
     return this.getStringAttribute('destination_region');
   }
@@ -365,7 +365,7 @@ export class RedshiftserverlessNamespaceSnapshotCopyConfigurationsOutputReferenc
   }
 
   // snapshot_retention_period - computed: true, optional: true, required: false
-  private _snapshotRetentionPeriod?: number;
+  private _snapshotRetentionPeriod?: number; 
   public get snapshotRetentionPeriod() {
     return this.getNumberAttribute('snapshot_retention_period');
   }
@@ -498,7 +498,7 @@ export class RedshiftserverlessNamespaceTagsOutputReference extends cdktn.Comple
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -514,7 +514,7 @@ export class RedshiftserverlessNamespaceTagsOutputReference extends cdktn.Comple
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -623,7 +623,7 @@ export class RedshiftserverlessNamespace extends cdktn.TerraformResource {
   // ==========
 
   // admin_password_secret_kms_key_id - computed: true, optional: true, required: false
-  private _adminPasswordSecretKmsKeyId?: string;
+  private _adminPasswordSecretKmsKeyId?: string; 
   public get adminPasswordSecretKmsKeyId() {
     return this.getStringAttribute('admin_password_secret_kms_key_id');
   }
@@ -639,7 +639,7 @@ export class RedshiftserverlessNamespace extends cdktn.TerraformResource {
   }
 
   // admin_user_password - computed: true, optional: true, required: false
-  private _adminUserPassword?: string;
+  private _adminUserPassword?: string; 
   public get adminUserPassword() {
     return this.getStringAttribute('admin_user_password');
   }
@@ -655,7 +655,7 @@ export class RedshiftserverlessNamespace extends cdktn.TerraformResource {
   }
 
   // admin_username - computed: true, optional: true, required: false
-  private _adminUsername?: string;
+  private _adminUsername?: string; 
   public get adminUsername() {
     return this.getStringAttribute('admin_username');
   }
@@ -671,7 +671,7 @@ export class RedshiftserverlessNamespace extends cdktn.TerraformResource {
   }
 
   // db_name - computed: true, optional: true, required: false
-  private _dbName?: string;
+  private _dbName?: string; 
   public get dbName() {
     return this.getStringAttribute('db_name');
   }
@@ -687,7 +687,7 @@ export class RedshiftserverlessNamespace extends cdktn.TerraformResource {
   }
 
   // default_iam_role_arn - computed: true, optional: true, required: false
-  private _defaultIamRoleArn?: string;
+  private _defaultIamRoleArn?: string; 
   public get defaultIamRoleArn() {
     return this.getStringAttribute('default_iam_role_arn');
   }
@@ -703,7 +703,7 @@ export class RedshiftserverlessNamespace extends cdktn.TerraformResource {
   }
 
   // final_snapshot_name - computed: true, optional: true, required: false
-  private _finalSnapshotName?: string;
+  private _finalSnapshotName?: string; 
   public get finalSnapshotName() {
     return this.getStringAttribute('final_snapshot_name');
   }
@@ -719,7 +719,7 @@ export class RedshiftserverlessNamespace extends cdktn.TerraformResource {
   }
 
   // final_snapshot_retention_period - computed: true, optional: true, required: false
-  private _finalSnapshotRetentionPeriod?: number;
+  private _finalSnapshotRetentionPeriod?: number; 
   public get finalSnapshotRetentionPeriod() {
     return this.getNumberAttribute('final_snapshot_retention_period');
   }
@@ -735,7 +735,7 @@ export class RedshiftserverlessNamespace extends cdktn.TerraformResource {
   }
 
   // iam_roles - computed: true, optional: true, required: false
-  private _iamRoles?: string[];
+  private _iamRoles?: string[]; 
   public get iamRoles() {
     return this.getListAttribute('iam_roles');
   }
@@ -756,7 +756,7 @@ export class RedshiftserverlessNamespace extends cdktn.TerraformResource {
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -772,7 +772,7 @@ export class RedshiftserverlessNamespace extends cdktn.TerraformResource {
   }
 
   // log_exports - computed: true, optional: true, required: false
-  private _logExports?: string[];
+  private _logExports?: string[]; 
   public get logExports() {
     return this.getListAttribute('log_exports');
   }
@@ -788,7 +788,7 @@ export class RedshiftserverlessNamespace extends cdktn.TerraformResource {
   }
 
   // manage_admin_password - computed: true, optional: true, required: false
-  private _manageAdminPassword?: boolean | cdktn.IResolvable;
+  private _manageAdminPassword?: boolean | cdktn.IResolvable; 
   public get manageAdminPassword() {
     return this.getBooleanAttribute('manage_admin_password');
   }
@@ -810,7 +810,7 @@ export class RedshiftserverlessNamespace extends cdktn.TerraformResource {
   }
 
   // namespace_name - computed: false, optional: false, required: true
-  private _namespaceName?: string;
+  private _namespaceName?: string; 
   public get namespaceName() {
     return this.getStringAttribute('namespace_name');
   }
@@ -823,7 +823,7 @@ export class RedshiftserverlessNamespace extends cdktn.TerraformResource {
   }
 
   // namespace_resource_policy - computed: true, optional: true, required: false
-  private _namespaceResourcePolicy?: string;
+  private _namespaceResourcePolicy?: string; 
   public get namespaceResourcePolicy() {
     return this.getStringAttribute('namespace_resource_policy');
   }
@@ -839,7 +839,7 @@ export class RedshiftserverlessNamespace extends cdktn.TerraformResource {
   }
 
   // redshift_idc_application_arn - computed: true, optional: true, required: false
-  private _redshiftIdcApplicationArn?: string;
+  private _redshiftIdcApplicationArn?: string; 
   public get redshiftIdcApplicationArn() {
     return this.getStringAttribute('redshift_idc_application_arn');
   }

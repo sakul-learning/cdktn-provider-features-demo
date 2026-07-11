@@ -178,7 +178,7 @@ export class OpensearchserverlessSecurityConfigSamlOptionsOutputReference extend
   }
 
   // group_attribute - computed: false, optional: true, required: false
-  private _groupAttribute?: string;
+  private _groupAttribute?: string; 
   public get groupAttribute() {
     return this.getStringAttribute('group_attribute');
   }
@@ -194,7 +194,7 @@ export class OpensearchserverlessSecurityConfigSamlOptionsOutputReference extend
   }
 
   // metadata - computed: false, optional: false, required: true
-  private _metadata?: string;
+  private _metadata?: string; 
   public get metadata() {
     return this.getStringAttribute('metadata');
   }
@@ -207,7 +207,7 @@ export class OpensearchserverlessSecurityConfigSamlOptionsOutputReference extend
   }
 
   // session_timeout - computed: true, optional: true, required: false
-  private _sessionTimeout?: number;
+  private _sessionTimeout?: number; 
   public get sessionTimeout() {
     return this.getNumberAttribute('session_timeout');
   }
@@ -223,7 +223,7 @@ export class OpensearchserverlessSecurityConfigSamlOptionsOutputReference extend
   }
 
   // user_attribute - computed: false, optional: true, required: false
-  private _userAttribute?: string;
+  private _userAttribute?: string; 
   public get userAttribute() {
     return this.getStringAttribute('user_attribute');
   }
@@ -326,7 +326,7 @@ export class OpensearchserverlessSecurityConfig extends cdktn.TerraformResource 
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -347,7 +347,7 @@ export class OpensearchserverlessSecurityConfig extends cdktn.TerraformResource 
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -360,7 +360,7 @@ export class OpensearchserverlessSecurityConfig extends cdktn.TerraformResource 
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -376,7 +376,7 @@ export class OpensearchserverlessSecurityConfig extends cdktn.TerraformResource 
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }

@@ -208,7 +208,7 @@ export class DataAwsEmrSupportedInstanceTypes extends cdktn.TerraformDataSource 
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -224,7 +224,7 @@ export class DataAwsEmrSupportedInstanceTypes extends cdktn.TerraformDataSource 
   }
 
   // release_label - computed: false, optional: false, required: true
-  private _releaseLabel?: string;
+  private _releaseLabel?: string; 
   public get releaseLabel() {
     return this.getStringAttribute('release_label');
   }

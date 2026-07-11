@@ -111,7 +111,7 @@ export class DmsCertificate extends cdktn.TerraformResource {
   }
 
   // certificate_id - computed: false, optional: false, required: true
-  private _certificateId?: string;
+  private _certificateId?: string; 
   public get certificateId() {
     return this.getStringAttribute('certificate_id');
   }
@@ -124,7 +124,7 @@ export class DmsCertificate extends cdktn.TerraformResource {
   }
 
   // certificate_pem - computed: false, optional: true, required: false
-  private _certificatePem?: string;
+  private _certificatePem?: string; 
   public get certificatePem() {
     return this.getStringAttribute('certificate_pem');
   }
@@ -140,7 +140,7 @@ export class DmsCertificate extends cdktn.TerraformResource {
   }
 
   // certificate_wallet - computed: false, optional: true, required: false
-  private _certificateWallet?: string;
+  private _certificateWallet?: string; 
   public get certificateWallet() {
     return this.getStringAttribute('certificate_wallet');
   }
@@ -156,7 +156,7 @@ export class DmsCertificate extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -172,7 +172,7 @@ export class DmsCertificate extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -188,7 +188,7 @@ export class DmsCertificate extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -204,7 +204,7 @@ export class DmsCertificate extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

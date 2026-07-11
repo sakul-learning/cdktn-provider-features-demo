@@ -101,7 +101,7 @@ export class Ec2SubnetCidrReservation extends cdktn.TerraformResource {
   // ==========
 
   // cidr_block - computed: false, optional: false, required: true
-  private _cidrBlock?: string;
+  private _cidrBlock?: string; 
   public get cidrBlock() {
     return this.getStringAttribute('cidr_block');
   }
@@ -114,7 +114,7 @@ export class Ec2SubnetCidrReservation extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -130,7 +130,7 @@ export class Ec2SubnetCidrReservation extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -151,7 +151,7 @@ export class Ec2SubnetCidrReservation extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -167,7 +167,7 @@ export class Ec2SubnetCidrReservation extends cdktn.TerraformResource {
   }
 
   // reservation_type - computed: false, optional: false, required: true
-  private _reservationType?: string;
+  private _reservationType?: string; 
   public get reservationType() {
     return this.getStringAttribute('reservation_type');
   }
@@ -180,7 +180,7 @@ export class Ec2SubnetCidrReservation extends cdktn.TerraformResource {
   }
 
   // subnet_id - computed: false, optional: false, required: true
-  private _subnetId?: string;
+  private _subnetId?: string; 
   public get subnetId() {
     return this.getStringAttribute('subnet_id');
   }

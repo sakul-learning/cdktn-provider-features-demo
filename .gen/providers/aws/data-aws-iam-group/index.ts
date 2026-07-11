@@ -179,7 +179,7 @@ export class DataAwsIamGroup extends cdktn.TerraformDataSource {
   }
 
   // group_name - computed: false, optional: false, required: true
-  private _groupName?: string;
+  private _groupName?: string; 
   public get groupName() {
     return this.getStringAttribute('group_name');
   }
@@ -192,7 +192,7 @@ export class DataAwsIamGroup extends cdktn.TerraformDataSource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }

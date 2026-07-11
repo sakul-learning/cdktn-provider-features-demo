@@ -95,7 +95,7 @@ export class CognitoLogDeliveryConfigurationLogConfigurationsCloudwatchLogsConfi
   }
 
   // log_group_arn - computed: true, optional: true, required: false
-  private _logGroupArn?: string;
+  private _logGroupArn?: string; 
   public get logGroupArn() {
     return this.getStringAttribute('log_group_arn');
   }
@@ -189,7 +189,7 @@ export class CognitoLogDeliveryConfigurationLogConfigurationsFirehoseConfigurati
   }
 
   // stream_arn - computed: true, optional: true, required: false
-  private _streamArn?: string;
+  private _streamArn?: string; 
   public get streamArn() {
     return this.getStringAttribute('stream_arn');
   }
@@ -283,7 +283,7 @@ export class CognitoLogDeliveryConfigurationLogConfigurationsS3ConfigurationOutp
   }
 
   // bucket_arn - computed: true, optional: true, required: false
-  private _bucketArn?: string;
+  private _bucketArn?: string; 
   public get bucketArn() {
     return this.getStringAttribute('bucket_arn');
   }
@@ -463,7 +463,7 @@ export class CognitoLogDeliveryConfigurationLogConfigurationsOutputReference ext
   }
 
   // event_source - computed: true, optional: true, required: false
-  private _eventSource?: string;
+  private _eventSource?: string; 
   public get eventSource() {
     return this.getStringAttribute('event_source');
   }
@@ -495,7 +495,7 @@ export class CognitoLogDeliveryConfigurationLogConfigurationsOutputReference ext
   }
 
   // log_level - computed: true, optional: true, required: false
-  private _logLevel?: string;
+  private _logLevel?: string; 
   public get logLevel() {
     return this.getStringAttribute('log_level');
   }
@@ -632,7 +632,7 @@ export class CognitoLogDeliveryConfiguration extends cdktn.TerraformResource {
   }
 
   // user_pool_id - computed: false, optional: false, required: true
-  private _userPoolId?: string;
+  private _userPoolId?: string; 
   public get userPoolId() {
     return this.getStringAttribute('user_pool_id');
   }

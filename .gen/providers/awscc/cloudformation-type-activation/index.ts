@@ -51,7 +51,7 @@ export interface CloudformationTypeActivationConfig extends cdktn.TerraformMetaA
   readonly type?: string;
   /**
   * The name of the type being registered.
-  *
+  * 
   * We recommend that type names adhere to the following pattern: company_or_organization::service::type.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_type_activation#type_name CloudformationTypeActivation#type_name}
@@ -170,7 +170,7 @@ export class CloudformationTypeActivationLoggingConfigOutputReference extends cd
   }
 
   // log_group_name - computed: true, optional: true, required: false
-  private _logGroupName?: string;
+  private _logGroupName?: string; 
   public get logGroupName() {
     return this.getStringAttribute('log_group_name');
   }
@@ -186,7 +186,7 @@ export class CloudformationTypeActivationLoggingConfigOutputReference extends cd
   }
 
   // log_role_arn - computed: true, optional: true, required: false
-  private _logRoleArn?: string;
+  private _logRoleArn?: string; 
   public get logRoleArn() {
     return this.getStringAttribute('log_role_arn');
   }
@@ -274,7 +274,7 @@ export class CloudformationTypeActivation extends cdktn.TerraformResource {
   }
 
   // auto_update - computed: true, optional: true, required: false
-  private _autoUpdate?: boolean | cdktn.IResolvable;
+  private _autoUpdate?: boolean | cdktn.IResolvable; 
   public get autoUpdate() {
     return this.getBooleanAttribute('auto_update');
   }
@@ -290,7 +290,7 @@ export class CloudformationTypeActivation extends cdktn.TerraformResource {
   }
 
   // execution_role_arn - computed: true, optional: true, required: false
-  private _executionRoleArn?: string;
+  private _executionRoleArn?: string; 
   public get executionRoleArn() {
     return this.getStringAttribute('execution_role_arn');
   }
@@ -327,7 +327,7 @@ export class CloudformationTypeActivation extends cdktn.TerraformResource {
   }
 
   // major_version - computed: true, optional: true, required: false
-  private _majorVersion?: string;
+  private _majorVersion?: string; 
   public get majorVersion() {
     return this.getStringAttribute('major_version');
   }
@@ -343,7 +343,7 @@ export class CloudformationTypeActivation extends cdktn.TerraformResource {
   }
 
   // public_type_arn - computed: true, optional: true, required: false
-  private _publicTypeArn?: string;
+  private _publicTypeArn?: string; 
   public get publicTypeArn() {
     return this.getStringAttribute('public_type_arn');
   }
@@ -359,7 +359,7 @@ export class CloudformationTypeActivation extends cdktn.TerraformResource {
   }
 
   // publisher_id - computed: true, optional: true, required: false
-  private _publisherId?: string;
+  private _publisherId?: string; 
   public get publisherId() {
     return this.getStringAttribute('publisher_id');
   }
@@ -375,7 +375,7 @@ export class CloudformationTypeActivation extends cdktn.TerraformResource {
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -391,7 +391,7 @@ export class CloudformationTypeActivation extends cdktn.TerraformResource {
   }
 
   // type_name - computed: true, optional: true, required: false
-  private _typeName?: string;
+  private _typeName?: string; 
   public get typeName() {
     return this.getStringAttribute('type_name');
   }
@@ -407,7 +407,7 @@ export class CloudformationTypeActivation extends cdktn.TerraformResource {
   }
 
   // type_name_alias - computed: true, optional: true, required: false
-  private _typeNameAlias?: string;
+  private _typeNameAlias?: string; 
   public get typeNameAlias() {
     return this.getStringAttribute('type_name_alias');
   }
@@ -423,7 +423,7 @@ export class CloudformationTypeActivation extends cdktn.TerraformResource {
   }
 
   // version_bump - computed: true, optional: true, required: false
-  private _versionBump?: string;
+  private _versionBump?: string; 
   public get versionBump() {
     return this.getStringAttribute('version_bump');
   }

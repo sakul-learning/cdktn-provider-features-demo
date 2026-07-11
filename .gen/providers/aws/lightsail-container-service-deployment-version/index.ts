@@ -192,7 +192,7 @@ export class LightsailContainerServiceDeploymentVersionContainerOutputReference 
   }
 
   // command - computed: false, optional: true, required: false
-  private _command?: string[];
+  private _command?: string[]; 
   public get command() {
     return this.getListAttribute('command');
   }
@@ -208,7 +208,7 @@ export class LightsailContainerServiceDeploymentVersionContainerOutputReference 
   }
 
   // container_name - computed: false, optional: false, required: true
-  private _containerName?: string;
+  private _containerName?: string; 
   public get containerName() {
     return this.getStringAttribute('container_name');
   }
@@ -221,7 +221,7 @@ export class LightsailContainerServiceDeploymentVersionContainerOutputReference 
   }
 
   // environment - computed: false, optional: true, required: false
-  private _environment?: { [key: string]: string };
+  private _environment?: { [key: string]: string }; 
   public get environment() {
     return this.getStringMapAttribute('environment');
   }
@@ -237,7 +237,7 @@ export class LightsailContainerServiceDeploymentVersionContainerOutputReference 
   }
 
   // image - computed: false, optional: false, required: true
-  private _image?: string;
+  private _image?: string; 
   public get image() {
     return this.getStringAttribute('image');
   }
@@ -250,7 +250,7 @@ export class LightsailContainerServiceDeploymentVersionContainerOutputReference 
   }
 
   // ports - computed: false, optional: true, required: false
-  private _ports?: { [key: string]: string };
+  private _ports?: { [key: string]: string }; 
   public get ports() {
     return this.getStringMapAttribute('ports');
   }
@@ -439,7 +439,7 @@ export class LightsailContainerServiceDeploymentVersionPublicEndpointHealthCheck
   }
 
   // healthy_threshold - computed: false, optional: true, required: false
-  private _healthyThreshold?: number;
+  private _healthyThreshold?: number; 
   public get healthyThreshold() {
     return this.getNumberAttribute('healthy_threshold');
   }
@@ -455,7 +455,7 @@ export class LightsailContainerServiceDeploymentVersionPublicEndpointHealthCheck
   }
 
   // interval_seconds - computed: false, optional: true, required: false
-  private _intervalSeconds?: number;
+  private _intervalSeconds?: number; 
   public get intervalSeconds() {
     return this.getNumberAttribute('interval_seconds');
   }
@@ -471,7 +471,7 @@ export class LightsailContainerServiceDeploymentVersionPublicEndpointHealthCheck
   }
 
   // path - computed: false, optional: true, required: false
-  private _path?: string;
+  private _path?: string; 
   public get path() {
     return this.getStringAttribute('path');
   }
@@ -487,7 +487,7 @@ export class LightsailContainerServiceDeploymentVersionPublicEndpointHealthCheck
   }
 
   // success_codes - computed: false, optional: true, required: false
-  private _successCodes?: string;
+  private _successCodes?: string; 
   public get successCodes() {
     return this.getStringAttribute('success_codes');
   }
@@ -503,7 +503,7 @@ export class LightsailContainerServiceDeploymentVersionPublicEndpointHealthCheck
   }
 
   // timeout_seconds - computed: false, optional: true, required: false
-  private _timeoutSeconds?: number;
+  private _timeoutSeconds?: number; 
   public get timeoutSeconds() {
     return this.getNumberAttribute('timeout_seconds');
   }
@@ -519,7 +519,7 @@ export class LightsailContainerServiceDeploymentVersionPublicEndpointHealthCheck
   }
 
   // unhealthy_threshold - computed: false, optional: true, required: false
-  private _unhealthyThreshold?: number;
+  private _unhealthyThreshold?: number; 
   public get unhealthyThreshold() {
     return this.getNumberAttribute('unhealthy_threshold');
   }
@@ -639,7 +639,7 @@ export class LightsailContainerServiceDeploymentVersionPublicEndpointOutputRefer
   }
 
   // container_name - computed: false, optional: false, required: true
-  private _containerName?: string;
+  private _containerName?: string; 
   public get containerName() {
     return this.getStringAttribute('container_name');
   }
@@ -652,7 +652,7 @@ export class LightsailContainerServiceDeploymentVersionPublicEndpointOutputRefer
   }
 
   // container_port - computed: false, optional: false, required: true
-  private _containerPort?: number;
+  private _containerPort?: number; 
   public get containerPort() {
     return this.getNumberAttribute('container_port');
   }
@@ -756,7 +756,7 @@ export class LightsailContainerServiceDeploymentVersionTimeoutsOutputReference e
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -840,7 +840,7 @@ export class LightsailContainerServiceDeploymentVersion extends cdktn.TerraformR
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -856,7 +856,7 @@ export class LightsailContainerServiceDeploymentVersion extends cdktn.TerraformR
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -872,7 +872,7 @@ export class LightsailContainerServiceDeploymentVersion extends cdktn.TerraformR
   }
 
   // service_name - computed: false, optional: false, required: true
-  private _serviceName?: string;
+  private _serviceName?: string; 
   public get serviceName() {
     return this.getStringAttribute('service_name');
   }

@@ -246,7 +246,7 @@ export class SecurityhubSecurityControlParametersValueOutputReference extends cd
   }
 
   // boolean - computed: true, optional: true, required: false
-  private _boolean?: boolean | cdktn.IResolvable;
+  private _boolean?: boolean | cdktn.IResolvable; 
   public get boolean() {
     return this.getBooleanAttribute('boolean');
   }
@@ -262,7 +262,7 @@ export class SecurityhubSecurityControlParametersValueOutputReference extends cd
   }
 
   // double - computed: true, optional: true, required: false
-  private _double?: number;
+  private _double?: number; 
   public get double() {
     return this.getNumberAttribute('double');
   }
@@ -278,7 +278,7 @@ export class SecurityhubSecurityControlParametersValueOutputReference extends cd
   }
 
   // enum - computed: true, optional: true, required: false
-  private _enum?: string;
+  private _enum?: string; 
   public get enum() {
     return this.getStringAttribute('enum');
   }
@@ -294,7 +294,7 @@ export class SecurityhubSecurityControlParametersValueOutputReference extends cd
   }
 
   // enum_list - computed: true, optional: true, required: false
-  private _enumList?: string[];
+  private _enumList?: string[]; 
   public get enumList() {
     return this.getListAttribute('enum_list');
   }
@@ -310,7 +310,7 @@ export class SecurityhubSecurityControlParametersValueOutputReference extends cd
   }
 
   // integer - computed: true, optional: true, required: false
-  private _integer?: number;
+  private _integer?: number; 
   public get integer() {
     return this.getNumberAttribute('integer');
   }
@@ -326,7 +326,7 @@ export class SecurityhubSecurityControlParametersValueOutputReference extends cd
   }
 
   // integer_list - computed: true, optional: true, required: false
-  private _integerList?: number[];
+  private _integerList?: number[]; 
   public get integerList() {
     return this.getNumberListAttribute('integer_list');
   }
@@ -342,7 +342,7 @@ export class SecurityhubSecurityControlParametersValueOutputReference extends cd
   }
 
   // string - computed: true, optional: true, required: false
-  private _string?: string;
+  private _string?: string; 
   public get string() {
     return this.getStringAttribute('string');
   }
@@ -358,7 +358,7 @@ export class SecurityhubSecurityControlParametersValueOutputReference extends cd
   }
 
   // string_list - computed: true, optional: true, required: false
-  private _stringList?: string[];
+  private _stringList?: string[]; 
   public get stringList() {
     return this.getListAttribute('string_list');
   }
@@ -486,7 +486,7 @@ export class SecurityhubSecurityControlParametersOutputReference extends cdktn.C
   }
 
   // value_type - computed: true, optional: true, required: false
-  private _valueType?: string;
+  private _valueType?: string; 
   public get valueType() {
     return this.getStringAttribute('value_type');
   }
@@ -587,7 +587,7 @@ export class SecurityhubSecurityControl extends cdktn.TerraformResource {
   }
 
   // last_update_reason - computed: true, optional: true, required: false
-  private _lastUpdateReason?: string;
+  private _lastUpdateReason?: string; 
   public get lastUpdateReason() {
     return this.getStringAttribute('last_update_reason');
   }
@@ -616,7 +616,7 @@ export class SecurityhubSecurityControl extends cdktn.TerraformResource {
   }
 
   // security_control_arn - computed: true, optional: true, required: false
-  private _securityControlArn?: string;
+  private _securityControlArn?: string; 
   public get securityControlArn() {
     return this.getStringAttribute('security_control_arn');
   }
@@ -632,7 +632,7 @@ export class SecurityhubSecurityControl extends cdktn.TerraformResource {
   }
 
   // security_control_id - computed: true, optional: true, required: false
-  private _securityControlId?: string;
+  private _securityControlId?: string; 
   public get securityControlId() {
     return this.getStringAttribute('security_control_id');
   }

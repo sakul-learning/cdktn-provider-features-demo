@@ -196,7 +196,7 @@ export class DataAwsRdsOrderableDbInstance extends cdktn.TerraformDataSource {
   // ==========
 
   // availability_zone_group - computed: true, optional: true, required: false
-  private _availabilityZoneGroup?: string;
+  private _availabilityZoneGroup?: string; 
   public get availabilityZoneGroup() {
     return this.getStringAttribute('availability_zone_group');
   }
@@ -217,7 +217,7 @@ export class DataAwsRdsOrderableDbInstance extends cdktn.TerraformDataSource {
   }
 
   // engine - computed: false, optional: false, required: true
-  private _engine?: string;
+  private _engine?: string; 
   public get engine() {
     return this.getStringAttribute('engine');
   }
@@ -230,7 +230,7 @@ export class DataAwsRdsOrderableDbInstance extends cdktn.TerraformDataSource {
   }
 
   // engine_latest_version - computed: false, optional: true, required: false
-  private _engineLatestVersion?: boolean | cdktn.IResolvable;
+  private _engineLatestVersion?: boolean | cdktn.IResolvable; 
   public get engineLatestVersion() {
     return this.getBooleanAttribute('engine_latest_version');
   }
@@ -246,7 +246,7 @@ export class DataAwsRdsOrderableDbInstance extends cdktn.TerraformDataSource {
   }
 
   // engine_version - computed: true, optional: true, required: false
-  private _engineVersion?: string;
+  private _engineVersion?: string; 
   public get engineVersion() {
     return this.getStringAttribute('engine_version');
   }
@@ -262,7 +262,7 @@ export class DataAwsRdsOrderableDbInstance extends cdktn.TerraformDataSource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -278,7 +278,7 @@ export class DataAwsRdsOrderableDbInstance extends cdktn.TerraformDataSource {
   }
 
   // instance_class - computed: true, optional: true, required: false
-  private _instanceClass?: string;
+  private _instanceClass?: string; 
   public get instanceClass() {
     return this.getStringAttribute('instance_class');
   }
@@ -294,7 +294,7 @@ export class DataAwsRdsOrderableDbInstance extends cdktn.TerraformDataSource {
   }
 
   // license_model - computed: true, optional: true, required: false
-  private _licenseModel?: string;
+  private _licenseModel?: string; 
   public get licenseModel() {
     return this.getStringAttribute('license_model');
   }
@@ -350,7 +350,7 @@ export class DataAwsRdsOrderableDbInstance extends cdktn.TerraformDataSource {
   }
 
   // preferred_engine_versions - computed: false, optional: true, required: false
-  private _preferredEngineVersions?: string[];
+  private _preferredEngineVersions?: string[]; 
   public get preferredEngineVersions() {
     return this.getListAttribute('preferred_engine_versions');
   }
@@ -366,7 +366,7 @@ export class DataAwsRdsOrderableDbInstance extends cdktn.TerraformDataSource {
   }
 
   // preferred_instance_classes - computed: false, optional: true, required: false
-  private _preferredInstanceClasses?: string[];
+  private _preferredInstanceClasses?: string[]; 
   public get preferredInstanceClasses() {
     return this.getListAttribute('preferred_instance_classes');
   }
@@ -382,7 +382,7 @@ export class DataAwsRdsOrderableDbInstance extends cdktn.TerraformDataSource {
   }
 
   // read_replica_capable - computed: true, optional: true, required: false
-  private _readReplicaCapable?: boolean | cdktn.IResolvable;
+  private _readReplicaCapable?: boolean | cdktn.IResolvable; 
   public get readReplicaCapable() {
     return this.getBooleanAttribute('read_replica_capable');
   }
@@ -398,7 +398,7 @@ export class DataAwsRdsOrderableDbInstance extends cdktn.TerraformDataSource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -414,7 +414,7 @@ export class DataAwsRdsOrderableDbInstance extends cdktn.TerraformDataSource {
   }
 
   // storage_type - computed: true, optional: true, required: false
-  private _storageType?: string;
+  private _storageType?: string; 
   public get storageType() {
     return this.getStringAttribute('storage_type');
   }
@@ -430,7 +430,7 @@ export class DataAwsRdsOrderableDbInstance extends cdktn.TerraformDataSource {
   }
 
   // supported_engine_modes - computed: true, optional: true, required: false
-  private _supportedEngineModes?: string[];
+  private _supportedEngineModes?: string[]; 
   public get supportedEngineModes() {
     return this.getListAttribute('supported_engine_modes');
   }
@@ -446,7 +446,7 @@ export class DataAwsRdsOrderableDbInstance extends cdktn.TerraformDataSource {
   }
 
   // supported_network_types - computed: true, optional: true, required: false
-  private _supportedNetworkTypes?: string[];
+  private _supportedNetworkTypes?: string[]; 
   public get supportedNetworkTypes() {
     return this.getListAttribute('supported_network_types');
   }
@@ -462,7 +462,7 @@ export class DataAwsRdsOrderableDbInstance extends cdktn.TerraformDataSource {
   }
 
   // supports_clusters - computed: true, optional: true, required: false
-  private _supportsClusters?: boolean | cdktn.IResolvable;
+  private _supportsClusters?: boolean | cdktn.IResolvable; 
   public get supportsClusters() {
     return this.getBooleanAttribute('supports_clusters');
   }
@@ -478,7 +478,7 @@ export class DataAwsRdsOrderableDbInstance extends cdktn.TerraformDataSource {
   }
 
   // supports_enhanced_monitoring - computed: true, optional: true, required: false
-  private _supportsEnhancedMonitoring?: boolean | cdktn.IResolvable;
+  private _supportsEnhancedMonitoring?: boolean | cdktn.IResolvable; 
   public get supportsEnhancedMonitoring() {
     return this.getBooleanAttribute('supports_enhanced_monitoring');
   }
@@ -494,7 +494,7 @@ export class DataAwsRdsOrderableDbInstance extends cdktn.TerraformDataSource {
   }
 
   // supports_global_databases - computed: true, optional: true, required: false
-  private _supportsGlobalDatabases?: boolean | cdktn.IResolvable;
+  private _supportsGlobalDatabases?: boolean | cdktn.IResolvable; 
   public get supportsGlobalDatabases() {
     return this.getBooleanAttribute('supports_global_databases');
   }
@@ -510,7 +510,7 @@ export class DataAwsRdsOrderableDbInstance extends cdktn.TerraformDataSource {
   }
 
   // supports_iam_database_authentication - computed: true, optional: true, required: false
-  private _supportsIamDatabaseAuthentication?: boolean | cdktn.IResolvable;
+  private _supportsIamDatabaseAuthentication?: boolean | cdktn.IResolvable; 
   public get supportsIamDatabaseAuthentication() {
     return this.getBooleanAttribute('supports_iam_database_authentication');
   }
@@ -526,7 +526,7 @@ export class DataAwsRdsOrderableDbInstance extends cdktn.TerraformDataSource {
   }
 
   // supports_iops - computed: true, optional: true, required: false
-  private _supportsIops?: boolean | cdktn.IResolvable;
+  private _supportsIops?: boolean | cdktn.IResolvable; 
   public get supportsIops() {
     return this.getBooleanAttribute('supports_iops');
   }
@@ -542,7 +542,7 @@ export class DataAwsRdsOrderableDbInstance extends cdktn.TerraformDataSource {
   }
 
   // supports_kerberos_authentication - computed: true, optional: true, required: false
-  private _supportsKerberosAuthentication?: boolean | cdktn.IResolvable;
+  private _supportsKerberosAuthentication?: boolean | cdktn.IResolvable; 
   public get supportsKerberosAuthentication() {
     return this.getBooleanAttribute('supports_kerberos_authentication');
   }
@@ -558,7 +558,7 @@ export class DataAwsRdsOrderableDbInstance extends cdktn.TerraformDataSource {
   }
 
   // supports_multi_az - computed: true, optional: true, required: false
-  private _supportsMultiAz?: boolean | cdktn.IResolvable;
+  private _supportsMultiAz?: boolean | cdktn.IResolvable; 
   public get supportsMultiAz() {
     return this.getBooleanAttribute('supports_multi_az');
   }
@@ -574,7 +574,7 @@ export class DataAwsRdsOrderableDbInstance extends cdktn.TerraformDataSource {
   }
 
   // supports_performance_insights - computed: true, optional: true, required: false
-  private _supportsPerformanceInsights?: boolean | cdktn.IResolvable;
+  private _supportsPerformanceInsights?: boolean | cdktn.IResolvable; 
   public get supportsPerformanceInsights() {
     return this.getBooleanAttribute('supports_performance_insights');
   }
@@ -590,7 +590,7 @@ export class DataAwsRdsOrderableDbInstance extends cdktn.TerraformDataSource {
   }
 
   // supports_storage_autoscaling - computed: true, optional: true, required: false
-  private _supportsStorageAutoscaling?: boolean | cdktn.IResolvable;
+  private _supportsStorageAutoscaling?: boolean | cdktn.IResolvable; 
   public get supportsStorageAutoscaling() {
     return this.getBooleanAttribute('supports_storage_autoscaling');
   }
@@ -606,7 +606,7 @@ export class DataAwsRdsOrderableDbInstance extends cdktn.TerraformDataSource {
   }
 
   // supports_storage_encryption - computed: true, optional: true, required: false
-  private _supportsStorageEncryption?: boolean | cdktn.IResolvable;
+  private _supportsStorageEncryption?: boolean | cdktn.IResolvable; 
   public get supportsStorageEncryption() {
     return this.getBooleanAttribute('supports_storage_encryption');
   }
@@ -622,7 +622,7 @@ export class DataAwsRdsOrderableDbInstance extends cdktn.TerraformDataSource {
   }
 
   // vpc - computed: true, optional: true, required: false
-  private _vpc?: boolean | cdktn.IResolvable;
+  private _vpc?: boolean | cdktn.IResolvable; 
   public get vpc() {
     return this.getBooleanAttribute('vpc');
   }

@@ -126,7 +126,7 @@ export class DbSnapshotTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -217,7 +217,7 @@ export class DbSnapshot extends cdktn.TerraformResource {
   }
 
   // db_instance_identifier - computed: false, optional: false, required: true
-  private _dbInstanceIdentifier?: string;
+  private _dbInstanceIdentifier?: string; 
   public get dbInstanceIdentifier() {
     return this.getStringAttribute('db_instance_identifier');
   }
@@ -235,7 +235,7 @@ export class DbSnapshot extends cdktn.TerraformResource {
   }
 
   // db_snapshot_identifier - computed: false, optional: false, required: true
-  private _dbSnapshotIdentifier?: string;
+  private _dbSnapshotIdentifier?: string; 
   public get dbSnapshotIdentifier() {
     return this.getStringAttribute('db_snapshot_identifier');
   }
@@ -263,7 +263,7 @@ export class DbSnapshot extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -304,7 +304,7 @@ export class DbSnapshot extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -320,7 +320,7 @@ export class DbSnapshot extends cdktn.TerraformResource {
   }
 
   // shared_accounts - computed: false, optional: true, required: false
-  private _sharedAccounts?: string[];
+  private _sharedAccounts?: string[]; 
   public get sharedAccounts() {
     return cdktn.Fn.tolist(this.getListAttribute('shared_accounts'));
   }
@@ -361,7 +361,7 @@ export class DbSnapshot extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -377,7 +377,7 @@ export class DbSnapshot extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

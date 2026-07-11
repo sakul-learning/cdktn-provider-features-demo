@@ -237,7 +237,7 @@ export class NetworkInterfaceAttachmentOutputReference extends cdktn.ComplexObje
   }
 
   // device_index - computed: false, optional: false, required: true
-  private _deviceIndex?: number;
+  private _deviceIndex?: number; 
   public get deviceIndex() {
     return this.getNumberAttribute('device_index');
   }
@@ -250,7 +250,7 @@ export class NetworkInterfaceAttachmentOutputReference extends cdktn.ComplexObje
   }
 
   // instance - computed: false, optional: false, required: true
-  private _instance?: string;
+  private _instance?: string; 
   public get instance() {
     return this.getStringAttribute('instance');
   }
@@ -263,7 +263,7 @@ export class NetworkInterfaceAttachmentOutputReference extends cdktn.ComplexObje
   }
 
   // network_card_index - computed: true, optional: true, required: false
-  private _networkCardIndex?: number;
+  private _networkCardIndex?: number; 
   public get networkCardIndex() {
     return this.getNumberAttribute('network_card_index');
   }
@@ -367,7 +367,7 @@ export class NetworkInterfaceEnaSrdSpecificationEnaSrdUdpSpecificationOutputRefe
   }
 
   // ena_srd_udp_enabled - computed: false, optional: true, required: false
-  private _enaSrdUdpEnabled?: boolean | cdktn.IResolvable;
+  private _enaSrdUdpEnabled?: boolean | cdktn.IResolvable; 
   public get enaSrdUdpEnabled() {
     return this.getBooleanAttribute('ena_srd_udp_enabled');
   }
@@ -470,7 +470,7 @@ export class NetworkInterfaceEnaSrdSpecificationOutputReference extends cdktn.Co
   }
 
   // ena_srd_enabled - computed: false, optional: true, required: false
-  private _enaSrdEnabled?: boolean | cdktn.IResolvable;
+  private _enaSrdEnabled?: boolean | cdktn.IResolvable; 
   public get enaSrdEnabled() {
     return this.getBooleanAttribute('ena_srd_enabled');
   }
@@ -589,7 +589,7 @@ export class NetworkInterface extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -605,7 +605,7 @@ export class NetworkInterface extends cdktn.TerraformResource {
   }
 
   // enable_primary_ipv6 - computed: true, optional: true, required: false
-  private _enablePrimaryIpv6?: boolean | cdktn.IResolvable;
+  private _enablePrimaryIpv6?: boolean | cdktn.IResolvable; 
   public get enablePrimaryIpv6() {
     return this.getBooleanAttribute('enable_primary_ipv6');
   }
@@ -621,7 +621,7 @@ export class NetworkInterface extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -637,7 +637,7 @@ export class NetworkInterface extends cdktn.TerraformResource {
   }
 
   // interface_type - computed: true, optional: true, required: false
-  private _interfaceType?: string;
+  private _interfaceType?: string; 
   public get interfaceType() {
     return this.getStringAttribute('interface_type');
   }
@@ -653,7 +653,7 @@ export class NetworkInterface extends cdktn.TerraformResource {
   }
 
   // ipv4_prefix_count - computed: true, optional: true, required: false
-  private _ipv4PrefixCount?: number;
+  private _ipv4PrefixCount?: number; 
   public get ipv4PrefixCount() {
     return this.getNumberAttribute('ipv4_prefix_count');
   }
@@ -669,7 +669,7 @@ export class NetworkInterface extends cdktn.TerraformResource {
   }
 
   // ipv4_prefixes - computed: true, optional: true, required: false
-  private _ipv4Prefixes?: string[];
+  private _ipv4Prefixes?: string[]; 
   public get ipv4Prefixes() {
     return cdktn.Fn.tolist(this.getListAttribute('ipv4_prefixes'));
   }
@@ -685,7 +685,7 @@ export class NetworkInterface extends cdktn.TerraformResource {
   }
 
   // ipv6_address_count - computed: true, optional: true, required: false
-  private _ipv6AddressCount?: number;
+  private _ipv6AddressCount?: number; 
   public get ipv6AddressCount() {
     return this.getNumberAttribute('ipv6_address_count');
   }
@@ -701,7 +701,7 @@ export class NetworkInterface extends cdktn.TerraformResource {
   }
 
   // ipv6_address_list - computed: true, optional: true, required: false
-  private _ipv6AddressList?: string[];
+  private _ipv6AddressList?: string[]; 
   public get ipv6AddressList() {
     return this.getListAttribute('ipv6_address_list');
   }
@@ -717,7 +717,7 @@ export class NetworkInterface extends cdktn.TerraformResource {
   }
 
   // ipv6_address_list_enabled - computed: false, optional: true, required: false
-  private _ipv6AddressListEnabled?: boolean | cdktn.IResolvable;
+  private _ipv6AddressListEnabled?: boolean | cdktn.IResolvable; 
   public get ipv6AddressListEnabled() {
     return this.getBooleanAttribute('ipv6_address_list_enabled');
   }
@@ -733,7 +733,7 @@ export class NetworkInterface extends cdktn.TerraformResource {
   }
 
   // ipv6_addresses - computed: true, optional: true, required: false
-  private _ipv6Addresses?: string[];
+  private _ipv6Addresses?: string[]; 
   public get ipv6Addresses() {
     return cdktn.Fn.tolist(this.getListAttribute('ipv6_addresses'));
   }
@@ -749,7 +749,7 @@ export class NetworkInterface extends cdktn.TerraformResource {
   }
 
   // ipv6_prefix_count - computed: true, optional: true, required: false
-  private _ipv6PrefixCount?: number;
+  private _ipv6PrefixCount?: number; 
   public get ipv6PrefixCount() {
     return this.getNumberAttribute('ipv6_prefix_count');
   }
@@ -765,7 +765,7 @@ export class NetworkInterface extends cdktn.TerraformResource {
   }
 
   // ipv6_prefixes - computed: true, optional: true, required: false
-  private _ipv6Prefixes?: string[];
+  private _ipv6Prefixes?: string[]; 
   public get ipv6Prefixes() {
     return cdktn.Fn.tolist(this.getListAttribute('ipv6_prefixes'));
   }
@@ -801,7 +801,7 @@ export class NetworkInterface extends cdktn.TerraformResource {
   }
 
   // private_ip - computed: true, optional: true, required: false
-  private _privateIp?: string;
+  private _privateIp?: string; 
   public get privateIp() {
     return this.getStringAttribute('private_ip');
   }
@@ -817,7 +817,7 @@ export class NetworkInterface extends cdktn.TerraformResource {
   }
 
   // private_ip_list - computed: true, optional: true, required: false
-  private _privateIpList?: string[];
+  private _privateIpList?: string[]; 
   public get privateIpList() {
     return this.getListAttribute('private_ip_list');
   }
@@ -833,7 +833,7 @@ export class NetworkInterface extends cdktn.TerraformResource {
   }
 
   // private_ip_list_enabled - computed: false, optional: true, required: false
-  private _privateIpListEnabled?: boolean | cdktn.IResolvable;
+  private _privateIpListEnabled?: boolean | cdktn.IResolvable; 
   public get privateIpListEnabled() {
     return this.getBooleanAttribute('private_ip_list_enabled');
   }
@@ -849,7 +849,7 @@ export class NetworkInterface extends cdktn.TerraformResource {
   }
 
   // private_ips - computed: true, optional: true, required: false
-  private _privateIps?: string[];
+  private _privateIps?: string[]; 
   public get privateIps() {
     return cdktn.Fn.tolist(this.getListAttribute('private_ips'));
   }
@@ -865,7 +865,7 @@ export class NetworkInterface extends cdktn.TerraformResource {
   }
 
   // private_ips_count - computed: true, optional: true, required: false
-  private _privateIpsCount?: number;
+  private _privateIpsCount?: number; 
   public get privateIpsCount() {
     return this.getNumberAttribute('private_ips_count');
   }
@@ -881,7 +881,7 @@ export class NetworkInterface extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -897,7 +897,7 @@ export class NetworkInterface extends cdktn.TerraformResource {
   }
 
   // security_groups - computed: true, optional: true, required: false
-  private _securityGroups?: string[];
+  private _securityGroups?: string[]; 
   public get securityGroups() {
     return cdktn.Fn.tolist(this.getListAttribute('security_groups'));
   }
@@ -913,7 +913,7 @@ export class NetworkInterface extends cdktn.TerraformResource {
   }
 
   // source_dest_check - computed: false, optional: true, required: false
-  private _sourceDestCheck?: boolean | cdktn.IResolvable;
+  private _sourceDestCheck?: boolean | cdktn.IResolvable; 
   public get sourceDestCheck() {
     return this.getBooleanAttribute('source_dest_check');
   }
@@ -929,7 +929,7 @@ export class NetworkInterface extends cdktn.TerraformResource {
   }
 
   // subnet_id - computed: false, optional: false, required: true
-  private _subnetId?: string;
+  private _subnetId?: string; 
   public get subnetId() {
     return this.getStringAttribute('subnet_id');
   }
@@ -942,7 +942,7 @@ export class NetworkInterface extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -958,7 +958,7 @@ export class NetworkInterface extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

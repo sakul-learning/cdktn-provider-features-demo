@@ -151,7 +151,7 @@ export class PrometheusResourcePolicyTimeoutsOutputReference extends cdktn.Compl
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -167,7 +167,7 @@ export class PrometheusResourcePolicyTimeoutsOutputReference extends cdktn.Compl
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -183,7 +183,7 @@ export class PrometheusResourcePolicyTimeoutsOutputReference extends cdktn.Compl
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -261,7 +261,7 @@ export class PrometheusResourcePolicy extends cdktn.TerraformResource {
   // ==========
 
   // policy_document - computed: false, optional: false, required: true
-  private _policyDocument?: string;
+  private _policyDocument?: string; 
   public get policyDocument() {
     return this.getStringAttribute('policy_document');
   }
@@ -274,7 +274,7 @@ export class PrometheusResourcePolicy extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -290,7 +290,7 @@ export class PrometheusResourcePolicy extends cdktn.TerraformResource {
   }
 
   // revision_id - computed: true, optional: true, required: false
-  private _revisionId?: string;
+  private _revisionId?: string; 
   public get revisionId() {
     return this.getStringAttribute('revision_id');
   }
@@ -306,7 +306,7 @@ export class PrometheusResourcePolicy extends cdktn.TerraformResource {
   }
 
   // workspace_id - computed: false, optional: false, required: true
-  private _workspaceId?: string;
+  private _workspaceId?: string; 
   public get workspaceId() {
     return this.getStringAttribute('workspace_id');
   }

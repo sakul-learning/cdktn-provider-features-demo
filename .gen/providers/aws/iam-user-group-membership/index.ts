@@ -84,7 +84,7 @@ export class IamUserGroupMembership extends cdktn.TerraformResource {
   // ==========
 
   // groups - computed: false, optional: false, required: true
-  private _groups?: string[];
+  private _groups?: string[]; 
   public get groups() {
     return cdktn.Fn.tolist(this.getListAttribute('groups'));
   }
@@ -97,7 +97,7 @@ export class IamUserGroupMembership extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -113,7 +113,7 @@ export class IamUserGroupMembership extends cdktn.TerraformResource {
   }
 
   // user - computed: false, optional: false, required: true
-  private _user?: string;
+  private _user?: string; 
   public get user() {
     return this.getStringAttribute('user');
   }

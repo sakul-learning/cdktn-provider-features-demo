@@ -226,7 +226,7 @@ export class SyntheticsCanaryArtifactConfigS3EncryptionOutputReference extends c
   }
 
   // encryption_mode - computed: true, optional: true, required: false
-  private _encryptionMode?: string;
+  private _encryptionMode?: string; 
   public get encryptionMode() {
     return this.getStringAttribute('encryption_mode');
   }
@@ -242,7 +242,7 @@ export class SyntheticsCanaryArtifactConfigS3EncryptionOutputReference extends c
   }
 
   // kms_key_arn - computed: true, optional: true, required: false
-  private _kmsKeyArn?: string;
+  private _kmsKeyArn?: string; 
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -434,7 +434,7 @@ export class SyntheticsCanaryBrowserConfigsOutputReference extends cdktn.Complex
   }
 
   // browser_type - computed: true, optional: true, required: false
-  private _browserType?: string;
+  private _browserType?: string; 
   public get browserType() {
     return this.getStringAttribute('browser_type');
   }
@@ -571,7 +571,7 @@ export class SyntheticsCanaryCodeDependenciesOutputReference extends cdktn.Compl
   }
 
   // reference - computed: true, optional: true, required: false
-  private _reference?: string;
+  private _reference?: string; 
   public get reference() {
     return this.getStringAttribute('reference');
   }
@@ -587,7 +587,7 @@ export class SyntheticsCanaryCodeDependenciesOutputReference extends cdktn.Compl
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -805,7 +805,7 @@ export class SyntheticsCanaryCodeOutputReference extends cdktn.ComplexObject {
   }
 
   // blueprint_types - computed: true, optional: true, required: false
-  private _blueprintTypes?: string[];
+  private _blueprintTypes?: string[]; 
   public get blueprintTypes() {
     return this.getListAttribute('blueprint_types');
   }
@@ -837,7 +837,7 @@ export class SyntheticsCanaryCodeOutputReference extends cdktn.ComplexObject {
   }
 
   // handler - computed: true, optional: true, required: false
-  private _handler?: string;
+  private _handler?: string; 
   public get handler() {
     return this.getStringAttribute('handler');
   }
@@ -853,7 +853,7 @@ export class SyntheticsCanaryCodeOutputReference extends cdktn.ComplexObject {
   }
 
   // s3_bucket - computed: true, optional: true, required: false
-  private _s3Bucket?: string;
+  private _s3Bucket?: string; 
   public get s3Bucket() {
     return this.getStringAttribute('s3_bucket');
   }
@@ -869,7 +869,7 @@ export class SyntheticsCanaryCodeOutputReference extends cdktn.ComplexObject {
   }
 
   // s3_key - computed: true, optional: true, required: false
-  private _s3Key?: string;
+  private _s3Key?: string; 
   public get s3Key() {
     return this.getStringAttribute('s3_key');
   }
@@ -885,7 +885,7 @@ export class SyntheticsCanaryCodeOutputReference extends cdktn.ComplexObject {
   }
 
   // s3_object_version - computed: true, optional: true, required: false
-  private _s3ObjectVersion?: string;
+  private _s3ObjectVersion?: string; 
   public get s3ObjectVersion() {
     return this.getStringAttribute('s3_object_version');
   }
@@ -901,7 +901,7 @@ export class SyntheticsCanaryCodeOutputReference extends cdktn.ComplexObject {
   }
 
   // script - computed: true, optional: true, required: false
-  private _script?: string;
+  private _script?: string; 
   public get script() {
     return this.getStringAttribute('script');
   }
@@ -1078,7 +1078,7 @@ export class SyntheticsCanaryRunConfigOutputReference extends cdktn.ComplexObjec
   }
 
   // active_tracing - computed: true, optional: true, required: false
-  private _activeTracing?: boolean | cdktn.IResolvable;
+  private _activeTracing?: boolean | cdktn.IResolvable; 
   public get activeTracing() {
     return this.getBooleanAttribute('active_tracing');
   }
@@ -1094,7 +1094,7 @@ export class SyntheticsCanaryRunConfigOutputReference extends cdktn.ComplexObjec
   }
 
   // environment_variables - computed: true, optional: true, required: false
-  private _environmentVariables?: { [key: string]: string };
+  private _environmentVariables?: { [key: string]: string }; 
   public get environmentVariables() {
     return this.getStringMapAttribute('environment_variables');
   }
@@ -1110,7 +1110,7 @@ export class SyntheticsCanaryRunConfigOutputReference extends cdktn.ComplexObjec
   }
 
   // ephemeral_storage - computed: true, optional: true, required: false
-  private _ephemeralStorage?: number;
+  private _ephemeralStorage?: number; 
   public get ephemeralStorage() {
     return this.getNumberAttribute('ephemeral_storage');
   }
@@ -1126,7 +1126,7 @@ export class SyntheticsCanaryRunConfigOutputReference extends cdktn.ComplexObjec
   }
 
   // memory_in_mb - computed: true, optional: true, required: false
-  private _memoryInMb?: number;
+  private _memoryInMb?: number; 
   public get memoryInMb() {
     return this.getNumberAttribute('memory_in_mb');
   }
@@ -1142,7 +1142,7 @@ export class SyntheticsCanaryRunConfigOutputReference extends cdktn.ComplexObjec
   }
 
   // timeout_in_seconds - computed: true, optional: true, required: false
-  private _timeoutInSeconds?: number;
+  private _timeoutInSeconds?: number; 
   public get timeoutInSeconds() {
     return this.getNumberAttribute('timeout_in_seconds');
   }
@@ -1238,7 +1238,7 @@ export class SyntheticsCanaryScheduleRetryConfigOutputReference extends cdktn.Co
   }
 
   // max_retries - computed: true, optional: true, required: false
-  private _maxRetries?: number;
+  private _maxRetries?: number; 
   public get maxRetries() {
     return this.getNumberAttribute('max_retries');
   }
@@ -1368,7 +1368,7 @@ export class SyntheticsCanaryScheduleOutputReference extends cdktn.ComplexObject
   }
 
   // duration_in_seconds - computed: true, optional: true, required: false
-  private _durationInSeconds?: string;
+  private _durationInSeconds?: string; 
   public get durationInSeconds() {
     return this.getStringAttribute('duration_in_seconds');
   }
@@ -1384,7 +1384,7 @@ export class SyntheticsCanaryScheduleOutputReference extends cdktn.ComplexObject
   }
 
   // expression - computed: false, optional: false, required: true
-  private _expression?: string;
+  private _expression?: string; 
   public get expression() {
     return this.getStringAttribute('expression');
   }
@@ -1414,13 +1414,13 @@ export class SyntheticsCanaryScheduleOutputReference extends cdktn.ComplexObject
 }
 export interface SyntheticsCanaryTags {
   /**
-  * The key name of the tag. You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
+  * The key name of the tag. You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/synthetics_canary#key SyntheticsCanary#key}
   */
   readonly key?: string;
   /**
-  * The value for the tag. You can specify a value that is 1 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
+  * The value for the tag. You can specify a value that is 1 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/synthetics_canary#value SyntheticsCanary#value}
   */
@@ -1514,7 +1514,7 @@ export class SyntheticsCanaryTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1530,7 +1530,7 @@ export class SyntheticsCanaryTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1667,7 +1667,7 @@ export class SyntheticsCanaryVisualReferenceBaseScreenshotsOutputReference exten
   }
 
   // ignore_coordinates - computed: true, optional: true, required: false
-  private _ignoreCoordinates?: string[];
+  private _ignoreCoordinates?: string[]; 
   public get ignoreCoordinates() {
     return this.getListAttribute('ignore_coordinates');
   }
@@ -1683,7 +1683,7 @@ export class SyntheticsCanaryVisualReferenceBaseScreenshotsOutputReference exten
   }
 
   // screenshot_name - computed: true, optional: true, required: false
-  private _screenshotName?: string;
+  private _screenshotName?: string; 
   public get screenshotName() {
     return this.getStringAttribute('screenshot_name');
   }
@@ -1835,7 +1835,7 @@ export class SyntheticsCanaryVisualReferenceOutputReference extends cdktn.Comple
   }
 
   // base_canary_run_id - computed: true, optional: true, required: false
-  private _baseCanaryRunId?: string;
+  private _baseCanaryRunId?: string; 
   public get baseCanaryRunId() {
     return this.getStringAttribute('base_canary_run_id');
   }
@@ -1867,7 +1867,7 @@ export class SyntheticsCanaryVisualReferenceOutputReference extends cdktn.Comple
   }
 
   // browser_type - computed: true, optional: true, required: false
-  private _browserType?: string;
+  private _browserType?: string; 
   public get browserType() {
     return this.getStringAttribute('browser_type');
   }
@@ -1984,7 +1984,7 @@ export class SyntheticsCanaryVisualReferencesBaseScreenshotsOutputReference exte
   }
 
   // ignore_coordinates - computed: true, optional: true, required: false
-  private _ignoreCoordinates?: string[];
+  private _ignoreCoordinates?: string[]; 
   public get ignoreCoordinates() {
     return this.getListAttribute('ignore_coordinates');
   }
@@ -2000,7 +2000,7 @@ export class SyntheticsCanaryVisualReferencesBaseScreenshotsOutputReference exte
   }
 
   // screenshot_name - computed: true, optional: true, required: false
-  private _screenshotName?: string;
+  private _screenshotName?: string; 
   public get screenshotName() {
     return this.getStringAttribute('screenshot_name');
   }
@@ -2154,7 +2154,7 @@ export class SyntheticsCanaryVisualReferencesOutputReference extends cdktn.Compl
   }
 
   // base_canary_run_id - computed: true, optional: true, required: false
-  private _baseCanaryRunId?: string;
+  private _baseCanaryRunId?: string; 
   public get baseCanaryRunId() {
     return this.getStringAttribute('base_canary_run_id');
   }
@@ -2186,7 +2186,7 @@ export class SyntheticsCanaryVisualReferencesOutputReference extends cdktn.Compl
   }
 
   // browser_type - computed: true, optional: true, required: false
-  private _browserType?: string;
+  private _browserType?: string; 
   public get browserType() {
     return this.getStringAttribute('browser_type');
   }
@@ -2353,7 +2353,7 @@ export class SyntheticsCanaryVpcConfigOutputReference extends cdktn.ComplexObjec
   }
 
   // ipv_6_allowed_for_dual_stack - computed: true, optional: true, required: false
-  private _ipv6AllowedForDualStack?: boolean | cdktn.IResolvable;
+  private _ipv6AllowedForDualStack?: boolean | cdktn.IResolvable; 
   public get ipv6AllowedForDualStack() {
     return this.getBooleanAttribute('ipv_6_allowed_for_dual_stack');
   }
@@ -2369,7 +2369,7 @@ export class SyntheticsCanaryVpcConfigOutputReference extends cdktn.ComplexObjec
   }
 
   // security_group_ids - computed: true, optional: true, required: false
-  private _securityGroupIds?: string[];
+  private _securityGroupIds?: string[]; 
   public get securityGroupIds() {
     return this.getListAttribute('security_group_ids');
   }
@@ -2385,7 +2385,7 @@ export class SyntheticsCanaryVpcConfigOutputReference extends cdktn.ComplexObjec
   }
 
   // subnet_ids - computed: true, optional: true, required: false
-  private _subnetIds?: string[];
+  private _subnetIds?: string[]; 
   public get subnetIds() {
     return this.getListAttribute('subnet_ids');
   }
@@ -2401,7 +2401,7 @@ export class SyntheticsCanaryVpcConfigOutputReference extends cdktn.ComplexObjec
   }
 
   // vpc_id - computed: true, optional: true, required: false
-  private _vpcId?: string;
+  private _vpcId?: string; 
   public get vpcId() {
     return this.getStringAttribute('vpc_id');
   }
@@ -2510,7 +2510,7 @@ export class SyntheticsCanary extends cdktn.TerraformResource {
   }
 
   // artifact_s3_location - computed: false, optional: false, required: true
-  private _artifactS3Location?: string;
+  private _artifactS3Location?: string; 
   public get artifactS3Location() {
     return this.getStringAttribute('artifact_s3_location');
   }
@@ -2557,7 +2557,7 @@ export class SyntheticsCanary extends cdktn.TerraformResource {
   }
 
   // delete_lambda_resources_on_canary_deletion - computed: true, optional: true, required: false
-  private _deleteLambdaResourcesOnCanaryDeletion?: boolean | cdktn.IResolvable;
+  private _deleteLambdaResourcesOnCanaryDeletion?: boolean | cdktn.IResolvable; 
   public get deleteLambdaResourcesOnCanaryDeletion() {
     return this.getBooleanAttribute('delete_lambda_resources_on_canary_deletion');
   }
@@ -2573,7 +2573,7 @@ export class SyntheticsCanary extends cdktn.TerraformResource {
   }
 
   // dry_run_and_update - computed: true, optional: true, required: false
-  private _dryRunAndUpdate?: boolean | cdktn.IResolvable;
+  private _dryRunAndUpdate?: boolean | cdktn.IResolvable; 
   public get dryRunAndUpdate() {
     return this.getBooleanAttribute('dry_run_and_update');
   }
@@ -2589,7 +2589,7 @@ export class SyntheticsCanary extends cdktn.TerraformResource {
   }
 
   // execution_role_arn - computed: false, optional: false, required: true
-  private _executionRoleArn?: string;
+  private _executionRoleArn?: string; 
   public get executionRoleArn() {
     return this.getStringAttribute('execution_role_arn');
   }
@@ -2602,7 +2602,7 @@ export class SyntheticsCanary extends cdktn.TerraformResource {
   }
 
   // failure_retention_period - computed: true, optional: true, required: false
-  private _failureRetentionPeriod?: number;
+  private _failureRetentionPeriod?: number; 
   public get failureRetentionPeriod() {
     return this.getNumberAttribute('failure_retention_period');
   }
@@ -2623,7 +2623,7 @@ export class SyntheticsCanary extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2636,7 +2636,7 @@ export class SyntheticsCanary extends cdktn.TerraformResource {
   }
 
   // provisioned_resource_cleanup - computed: true, optional: true, required: false
-  private _provisionedResourceCleanup?: string;
+  private _provisionedResourceCleanup?: string; 
   public get provisionedResourceCleanup() {
     return this.getStringAttribute('provisioned_resource_cleanup');
   }
@@ -2652,7 +2652,7 @@ export class SyntheticsCanary extends cdktn.TerraformResource {
   }
 
   // resources_to_replicate_tags - computed: true, optional: true, required: false
-  private _resourcesToReplicateTags?: string[];
+  private _resourcesToReplicateTags?: string[]; 
   public get resourcesToReplicateTags() {
     return this.getListAttribute('resources_to_replicate_tags');
   }
@@ -2684,7 +2684,7 @@ export class SyntheticsCanary extends cdktn.TerraformResource {
   }
 
   // runtime_version - computed: false, optional: false, required: true
-  private _runtimeVersion?: string;
+  private _runtimeVersion?: string; 
   public get runtimeVersion() {
     return this.getStringAttribute('runtime_version');
   }
@@ -2710,7 +2710,7 @@ export class SyntheticsCanary extends cdktn.TerraformResource {
   }
 
   // start_canary_after_creation - computed: true, optional: true, required: false
-  private _startCanaryAfterCreation?: boolean | cdktn.IResolvable;
+  private _startCanaryAfterCreation?: boolean | cdktn.IResolvable; 
   public get startCanaryAfterCreation() {
     return this.getBooleanAttribute('start_canary_after_creation');
   }
@@ -2731,7 +2731,7 @@ export class SyntheticsCanary extends cdktn.TerraformResource {
   }
 
   // success_retention_period - computed: true, optional: true, required: false
-  private _successRetentionPeriod?: number;
+  private _successRetentionPeriod?: number; 
   public get successRetentionPeriod() {
     return this.getNumberAttribute('success_retention_period');
   }

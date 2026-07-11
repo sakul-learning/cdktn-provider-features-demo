@@ -145,7 +145,7 @@ export class ElasticbeanstalkApplicationResourceLifecycleConfigVersionLifecycleC
   }
 
   // delete_source_from_s3 - computed: true, optional: true, required: false
-  private _deleteSourceFromS3?: boolean | cdktn.IResolvable;
+  private _deleteSourceFromS3?: boolean | cdktn.IResolvable; 
   public get deleteSourceFromS3() {
     return this.getBooleanAttribute('delete_source_from_s3');
   }
@@ -161,7 +161,7 @@ export class ElasticbeanstalkApplicationResourceLifecycleConfigVersionLifecycleC
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -177,7 +177,7 @@ export class ElasticbeanstalkApplicationResourceLifecycleConfigVersionLifecycleC
   }
 
   // max_age_in_days - computed: true, optional: true, required: false
-  private _maxAgeInDays?: number;
+  private _maxAgeInDays?: number; 
   public get maxAgeInDays() {
     return this.getNumberAttribute('max_age_in_days');
   }
@@ -311,7 +311,7 @@ export class ElasticbeanstalkApplicationResourceLifecycleConfigVersionLifecycleC
   }
 
   // delete_source_from_s3 - computed: true, optional: true, required: false
-  private _deleteSourceFromS3?: boolean | cdktn.IResolvable;
+  private _deleteSourceFromS3?: boolean | cdktn.IResolvable; 
   public get deleteSourceFromS3() {
     return this.getBooleanAttribute('delete_source_from_s3');
   }
@@ -327,7 +327,7 @@ export class ElasticbeanstalkApplicationResourceLifecycleConfigVersionLifecycleC
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -343,7 +343,7 @@ export class ElasticbeanstalkApplicationResourceLifecycleConfigVersionLifecycleC
   }
 
   // max_count - computed: true, optional: true, required: false
-  private _maxCount?: number;
+  private _maxCount?: number; 
   public get maxCount() {
     return this.getNumberAttribute('max_count');
   }
@@ -589,7 +589,7 @@ export class ElasticbeanstalkApplicationResourceLifecycleConfigOutputReference e
   }
 
   // service_role - computed: true, optional: true, required: false
-  private _serviceRole?: string;
+  private _serviceRole?: string; 
   public get serviceRole() {
     return this.getStringAttribute('service_role');
   }
@@ -681,7 +681,7 @@ export class ElasticbeanstalkApplication extends cdktn.TerraformResource {
   // ==========
 
   // application_name - computed: true, optional: true, required: false
-  private _applicationName?: string;
+  private _applicationName?: string; 
   public get applicationName() {
     return this.getStringAttribute('application_name');
   }
@@ -697,7 +697,7 @@ export class ElasticbeanstalkApplication extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }

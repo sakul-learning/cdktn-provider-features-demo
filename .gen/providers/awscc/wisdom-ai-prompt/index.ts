@@ -123,7 +123,7 @@ export class WisdomAiPromptTemplateConfigurationTextFullAiPromptEditTemplateConf
   }
 
   // text - computed: true, optional: true, required: false
-  private _text?: string;
+  private _text?: string; 
   public get text() {
     return this.getStringAttribute('text');
   }
@@ -309,7 +309,7 @@ export class WisdomAiPrompt extends cdktn.TerraformResource {
   }
 
   // api_format - computed: false, optional: false, required: true
-  private _apiFormat?: string;
+  private _apiFormat?: string; 
   public get apiFormat() {
     return this.getStringAttribute('api_format');
   }
@@ -327,7 +327,7 @@ export class WisdomAiPrompt extends cdktn.TerraformResource {
   }
 
   // assistant_id - computed: true, optional: true, required: false
-  private _assistantId?: string;
+  private _assistantId?: string; 
   public get assistantId() {
     return this.getStringAttribute('assistant_id');
   }
@@ -343,7 +343,7 @@ export class WisdomAiPrompt extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -364,7 +364,7 @@ export class WisdomAiPrompt extends cdktn.TerraformResource {
   }
 
   // model_id - computed: false, optional: false, required: true
-  private _modelId?: string;
+  private _modelId?: string; 
   public get modelId() {
     return this.getStringAttribute('model_id');
   }
@@ -382,7 +382,7 @@ export class WisdomAiPrompt extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -398,7 +398,7 @@ export class WisdomAiPrompt extends cdktn.TerraformResource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -427,7 +427,7 @@ export class WisdomAiPrompt extends cdktn.TerraformResource {
   }
 
   // template_type - computed: false, optional: false, required: true
-  private _templateType?: string;
+  private _templateType?: string; 
   public get templateType() {
     return this.getStringAttribute('template_type');
   }
@@ -440,7 +440,7 @@ export class WisdomAiPrompt extends cdktn.TerraformResource {
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }

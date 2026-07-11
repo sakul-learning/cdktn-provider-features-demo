@@ -199,7 +199,7 @@ export class FsxOntapVolumeAggregateConfigurationOutputReference extends cdktn.C
   }
 
   // aggregates - computed: true, optional: true, required: false
-  private _aggregates?: string[];
+  private _aggregates?: string[]; 
   public get aggregates() {
     return this.getListAttribute('aggregates');
   }
@@ -215,7 +215,7 @@ export class FsxOntapVolumeAggregateConfigurationOutputReference extends cdktn.C
   }
 
   // constituents_per_aggregate - computed: true, optional: true, required: false
-  private _constituentsPerAggregate?: number;
+  private _constituentsPerAggregate?: number; 
   public get constituentsPerAggregate() {
     return this.getNumberAttribute('constituents_per_aggregate');
   }
@@ -321,7 +321,7 @@ export class FsxOntapVolumeSnaplockConfigurationAutocommitPeriodOutputReference 
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -337,7 +337,7 @@ export class FsxOntapVolumeSnaplockConfigurationAutocommitPeriodOutputReference 
   }
 
   // value - computed: false, optional: true, required: false
-  private _value?: number;
+  private _value?: number; 
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -438,7 +438,7 @@ export class FsxOntapVolumeSnaplockConfigurationRetentionPeriodDefaultRetentionO
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -454,7 +454,7 @@ export class FsxOntapVolumeSnaplockConfigurationRetentionPeriodDefaultRetentionO
   }
 
   // value - computed: false, optional: true, required: false
-  private _value?: number;
+  private _value?: number; 
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -555,7 +555,7 @@ export class FsxOntapVolumeSnaplockConfigurationRetentionPeriodMaximumRetentionO
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -571,7 +571,7 @@ export class FsxOntapVolumeSnaplockConfigurationRetentionPeriodMaximumRetentionO
   }
 
   // value - computed: false, optional: true, required: false
-  private _value?: number;
+  private _value?: number; 
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -672,7 +672,7 @@ export class FsxOntapVolumeSnaplockConfigurationRetentionPeriodMinimumRetentionO
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -688,7 +688,7 @@ export class FsxOntapVolumeSnaplockConfigurationRetentionPeriodMinimumRetentionO
   }
 
   // value - computed: false, optional: true, required: false
-  private _value?: number;
+  private _value?: number; 
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -1017,7 +1017,7 @@ export class FsxOntapVolumeSnaplockConfigurationOutputReference extends cdktn.Co
   }
 
   // audit_log_volume - computed: false, optional: true, required: false
-  private _auditLogVolume?: boolean | cdktn.IResolvable;
+  private _auditLogVolume?: boolean | cdktn.IResolvable; 
   public get auditLogVolume() {
     return this.getBooleanAttribute('audit_log_volume');
   }
@@ -1033,7 +1033,7 @@ export class FsxOntapVolumeSnaplockConfigurationOutputReference extends cdktn.Co
   }
 
   // privileged_delete - computed: false, optional: true, required: false
-  private _privilegedDelete?: string;
+  private _privilegedDelete?: string; 
   public get privilegedDelete() {
     return this.getStringAttribute('privileged_delete');
   }
@@ -1049,7 +1049,7 @@ export class FsxOntapVolumeSnaplockConfigurationOutputReference extends cdktn.Co
   }
 
   // snaplock_type - computed: false, optional: false, required: true
-  private _snaplockType?: string;
+  private _snaplockType?: string; 
   public get snaplockType() {
     return this.getStringAttribute('snaplock_type');
   }
@@ -1062,7 +1062,7 @@ export class FsxOntapVolumeSnaplockConfigurationOutputReference extends cdktn.Co
   }
 
   // volume_append_mode_enabled - computed: false, optional: true, required: false
-  private _volumeAppendModeEnabled?: boolean | cdktn.IResolvable;
+  private _volumeAppendModeEnabled?: boolean | cdktn.IResolvable; 
   public get volumeAppendModeEnabled() {
     return this.getBooleanAttribute('volume_append_mode_enabled');
   }
@@ -1195,7 +1195,7 @@ export class FsxOntapVolumeTieringPolicyOutputReference extends cdktn.ComplexObj
   }
 
   // cooling_period - computed: true, optional: true, required: false
-  private _coolingPeriod?: number;
+  private _coolingPeriod?: number; 
   public get coolingPeriod() {
     return this.getNumberAttribute('cooling_period');
   }
@@ -1211,7 +1211,7 @@ export class FsxOntapVolumeTieringPolicyOutputReference extends cdktn.ComplexObj
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1339,7 +1339,7 @@ export class FsxOntapVolumeTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -1355,7 +1355,7 @@ export class FsxOntapVolumeTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -1371,7 +1371,7 @@ export class FsxOntapVolumeTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -1472,7 +1472,7 @@ export class FsxOntapVolume extends cdktn.TerraformResource {
   }
 
   // bypass_snaplock_enterprise_retention - computed: false, optional: true, required: false
-  private _bypassSnaplockEnterpriseRetention?: boolean | cdktn.IResolvable;
+  private _bypassSnaplockEnterpriseRetention?: boolean | cdktn.IResolvable; 
   public get bypassSnaplockEnterpriseRetention() {
     return this.getBooleanAttribute('bypass_snaplock_enterprise_retention');
   }
@@ -1488,7 +1488,7 @@ export class FsxOntapVolume extends cdktn.TerraformResource {
   }
 
   // copy_tags_to_backups - computed: false, optional: true, required: false
-  private _copyTagsToBackups?: boolean | cdktn.IResolvable;
+  private _copyTagsToBackups?: boolean | cdktn.IResolvable; 
   public get copyTagsToBackups() {
     return this.getBooleanAttribute('copy_tags_to_backups');
   }
@@ -1509,7 +1509,7 @@ export class FsxOntapVolume extends cdktn.TerraformResource {
   }
 
   // final_backup_tags - computed: false, optional: true, required: false
-  private _finalBackupTags?: { [key: string]: string };
+  private _finalBackupTags?: { [key: string]: string }; 
   public get finalBackupTags() {
     return this.getStringMapAttribute('final_backup_tags');
   }
@@ -1530,7 +1530,7 @@ export class FsxOntapVolume extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -1546,7 +1546,7 @@ export class FsxOntapVolume extends cdktn.TerraformResource {
   }
 
   // junction_path - computed: false, optional: true, required: false
-  private _junctionPath?: string;
+  private _junctionPath?: string; 
   public get junctionPath() {
     return this.getStringAttribute('junction_path');
   }
@@ -1562,7 +1562,7 @@ export class FsxOntapVolume extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1575,7 +1575,7 @@ export class FsxOntapVolume extends cdktn.TerraformResource {
   }
 
   // ontap_volume_type - computed: true, optional: true, required: false
-  private _ontapVolumeType?: string;
+  private _ontapVolumeType?: string; 
   public get ontapVolumeType() {
     return this.getStringAttribute('ontap_volume_type');
   }
@@ -1591,7 +1591,7 @@ export class FsxOntapVolume extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1607,7 +1607,7 @@ export class FsxOntapVolume extends cdktn.TerraformResource {
   }
 
   // security_style - computed: true, optional: true, required: false
-  private _securityStyle?: string;
+  private _securityStyle?: string; 
   public get securityStyle() {
     return this.getStringAttribute('security_style');
   }
@@ -1623,7 +1623,7 @@ export class FsxOntapVolume extends cdktn.TerraformResource {
   }
 
   // size_in_bytes - computed: true, optional: true, required: false
-  private _sizeInBytes?: string;
+  private _sizeInBytes?: string; 
   public get sizeInBytes() {
     return this.getStringAttribute('size_in_bytes');
   }
@@ -1639,7 +1639,7 @@ export class FsxOntapVolume extends cdktn.TerraformResource {
   }
 
   // size_in_megabytes - computed: true, optional: true, required: false
-  private _sizeInMegabytes?: number;
+  private _sizeInMegabytes?: number; 
   public get sizeInMegabytes() {
     return this.getNumberAttribute('size_in_megabytes');
   }
@@ -1655,7 +1655,7 @@ export class FsxOntapVolume extends cdktn.TerraformResource {
   }
 
   // skip_final_backup - computed: false, optional: true, required: false
-  private _skipFinalBackup?: boolean | cdktn.IResolvable;
+  private _skipFinalBackup?: boolean | cdktn.IResolvable; 
   public get skipFinalBackup() {
     return this.getBooleanAttribute('skip_final_backup');
   }
@@ -1671,7 +1671,7 @@ export class FsxOntapVolume extends cdktn.TerraformResource {
   }
 
   // snapshot_policy - computed: true, optional: true, required: false
-  private _snapshotPolicy?: string;
+  private _snapshotPolicy?: string; 
   public get snapshotPolicy() {
     return this.getStringAttribute('snapshot_policy');
   }
@@ -1687,7 +1687,7 @@ export class FsxOntapVolume extends cdktn.TerraformResource {
   }
 
   // storage_efficiency_enabled - computed: false, optional: true, required: false
-  private _storageEfficiencyEnabled?: boolean | cdktn.IResolvable;
+  private _storageEfficiencyEnabled?: boolean | cdktn.IResolvable; 
   public get storageEfficiencyEnabled() {
     return this.getBooleanAttribute('storage_efficiency_enabled');
   }
@@ -1703,7 +1703,7 @@ export class FsxOntapVolume extends cdktn.TerraformResource {
   }
 
   // storage_virtual_machine_id - computed: false, optional: false, required: true
-  private _storageVirtualMachineId?: string;
+  private _storageVirtualMachineId?: string; 
   public get storageVirtualMachineId() {
     return this.getStringAttribute('storage_virtual_machine_id');
   }
@@ -1716,7 +1716,7 @@ export class FsxOntapVolume extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -1732,7 +1732,7 @@ export class FsxOntapVolume extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -1753,7 +1753,7 @@ export class FsxOntapVolume extends cdktn.TerraformResource {
   }
 
   // volume_style - computed: true, optional: true, required: false
-  private _volumeStyle?: string;
+  private _volumeStyle?: string; 
   public get volumeStyle() {
     return this.getStringAttribute('volume_style');
   }
@@ -1769,7 +1769,7 @@ export class FsxOntapVolume extends cdktn.TerraformResource {
   }
 
   // volume_type - computed: false, optional: true, required: false
-  private _volumeType?: string;
+  private _volumeType?: string; 
   public get volumeType() {
     return this.getStringAttribute('volume_type');
   }

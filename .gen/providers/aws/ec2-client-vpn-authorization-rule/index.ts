@@ -143,7 +143,7 @@ export class Ec2ClientVpnAuthorizationRuleTimeoutsOutputReference extends cdktn.
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -159,7 +159,7 @@ export class Ec2ClientVpnAuthorizationRuleTimeoutsOutputReference extends cdktn.
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -240,7 +240,7 @@ export class Ec2ClientVpnAuthorizationRule extends cdktn.TerraformResource {
   // ==========
 
   // access_group_id - computed: false, optional: true, required: false
-  private _accessGroupId?: string;
+  private _accessGroupId?: string; 
   public get accessGroupId() {
     return this.getStringAttribute('access_group_id');
   }
@@ -256,7 +256,7 @@ export class Ec2ClientVpnAuthorizationRule extends cdktn.TerraformResource {
   }
 
   // authorize_all_groups - computed: false, optional: true, required: false
-  private _authorizeAllGroups?: boolean | cdktn.IResolvable;
+  private _authorizeAllGroups?: boolean | cdktn.IResolvable; 
   public get authorizeAllGroups() {
     return this.getBooleanAttribute('authorize_all_groups');
   }
@@ -272,7 +272,7 @@ export class Ec2ClientVpnAuthorizationRule extends cdktn.TerraformResource {
   }
 
   // client_vpn_endpoint_id - computed: false, optional: false, required: true
-  private _clientVpnEndpointId?: string;
+  private _clientVpnEndpointId?: string; 
   public get clientVpnEndpointId() {
     return this.getStringAttribute('client_vpn_endpoint_id');
   }
@@ -285,7 +285,7 @@ export class Ec2ClientVpnAuthorizationRule extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -301,7 +301,7 @@ export class Ec2ClientVpnAuthorizationRule extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -317,7 +317,7 @@ export class Ec2ClientVpnAuthorizationRule extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -333,7 +333,7 @@ export class Ec2ClientVpnAuthorizationRule extends cdktn.TerraformResource {
   }
 
   // target_network_cidr - computed: false, optional: false, required: true
-  private _targetNetworkCidr?: string;
+  private _targetNetworkCidr?: string; 
   public get targetNetworkCidr() {
     return this.getStringAttribute('target_network_cidr');
   }

@@ -118,7 +118,7 @@ export class NetworkmonitorProbe extends cdktn.TerraformResource {
   }
 
   // destination - computed: false, optional: false, required: true
-  private _destination?: string;
+  private _destination?: string; 
   public get destination() {
     return this.getStringAttribute('destination');
   }
@@ -131,7 +131,7 @@ export class NetworkmonitorProbe extends cdktn.TerraformResource {
   }
 
   // destination_port - computed: false, optional: true, required: false
-  private _destinationPort?: number;
+  private _destinationPort?: number; 
   public get destinationPort() {
     return this.getNumberAttribute('destination_port');
   }
@@ -152,7 +152,7 @@ export class NetworkmonitorProbe extends cdktn.TerraformResource {
   }
 
   // monitor_name - computed: false, optional: false, required: true
-  private _monitorName?: string;
+  private _monitorName?: string; 
   public get monitorName() {
     return this.getStringAttribute('monitor_name');
   }
@@ -165,7 +165,7 @@ export class NetworkmonitorProbe extends cdktn.TerraformResource {
   }
 
   // packet_size - computed: true, optional: true, required: false
-  private _packetSize?: number;
+  private _packetSize?: number; 
   public get packetSize() {
     return this.getNumberAttribute('packet_size');
   }
@@ -186,7 +186,7 @@ export class NetworkmonitorProbe extends cdktn.TerraformResource {
   }
 
   // protocol - computed: false, optional: false, required: true
-  private _protocol?: string;
+  private _protocol?: string; 
   public get protocol() {
     return this.getStringAttribute('protocol');
   }
@@ -199,7 +199,7 @@ export class NetworkmonitorProbe extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -215,7 +215,7 @@ export class NetworkmonitorProbe extends cdktn.TerraformResource {
   }
 
   // source_arn - computed: false, optional: false, required: true
-  private _sourceArn?: string;
+  private _sourceArn?: string; 
   public get sourceArn() {
     return this.getStringAttribute('source_arn');
   }
@@ -228,7 +228,7 @@ export class NetworkmonitorProbe extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

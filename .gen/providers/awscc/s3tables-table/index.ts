@@ -168,7 +168,7 @@ export class S3TablesTableCompactionOutputReference extends cdktn.ComplexObject 
   }
 
   // status - computed: true, optional: true, required: false
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -184,7 +184,7 @@ export class S3TablesTableCompactionOutputReference extends cdktn.ComplexObject 
   }
 
   // target_file_size_mb - computed: true, optional: true, required: false
-  private _targetFileSizeMb?: number;
+  private _targetFileSizeMb?: number; 
   public get targetFileSizeMb() {
     return this.getNumberAttribute('target_file_size_mb');
   }
@@ -339,7 +339,7 @@ export class S3TablesTableIcebergMetadataIcebergPartitionSpecFieldsOutputReferen
   }
 
   // field_id - computed: true, optional: true, required: false
-  private _fieldId?: number;
+  private _fieldId?: number; 
   public get fieldId() {
     return this.getNumberAttribute('field_id');
   }
@@ -355,7 +355,7 @@ export class S3TablesTableIcebergMetadataIcebergPartitionSpecFieldsOutputReferen
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -371,7 +371,7 @@ export class S3TablesTableIcebergMetadataIcebergPartitionSpecFieldsOutputReferen
   }
 
   // source_id - computed: true, optional: true, required: false
-  private _sourceId?: number;
+  private _sourceId?: number; 
   public get sourceId() {
     return this.getNumberAttribute('source_id');
   }
@@ -387,7 +387,7 @@ export class S3TablesTableIcebergMetadataIcebergPartitionSpecFieldsOutputReferen
   }
 
   // transform - computed: true, optional: true, required: false
-  private _transform?: string;
+  private _transform?: string; 
   public get transform() {
     return this.getStringAttribute('transform');
   }
@@ -538,7 +538,7 @@ export class S3TablesTableIcebergMetadataIcebergPartitionSpecOutputReference ext
   }
 
   // spec_id - computed: true, optional: true, required: false
-  private _specId?: number;
+  private _specId?: number; 
   public get specId() {
     return this.getNumberAttribute('spec_id');
   }
@@ -696,7 +696,7 @@ export class S3TablesTableIcebergMetadataIcebergSchemaSchemaFieldListStructOutpu
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: number;
+  private _id?: number; 
   public get id() {
     return this.getNumberAttribute('id');
   }
@@ -712,7 +712,7 @@ export class S3TablesTableIcebergMetadataIcebergSchemaSchemaFieldListStructOutpu
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -728,7 +728,7 @@ export class S3TablesTableIcebergMetadataIcebergSchemaSchemaFieldListStructOutpu
   }
 
   // required - computed: true, optional: true, required: false
-  private _required?: boolean | cdktn.IResolvable;
+  private _required?: boolean | cdktn.IResolvable; 
   public get required() {
     return this.getBooleanAttribute('required');
   }
@@ -744,7 +744,7 @@ export class S3TablesTableIcebergMetadataIcebergSchemaSchemaFieldListStructOutpu
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -1037,7 +1037,7 @@ export class S3TablesTableIcebergMetadataIcebergSchemaV2SchemaV2FieldListStructO
   }
 
   // doc - computed: true, optional: true, required: false
-  private _doc?: string;
+  private _doc?: string; 
   public get doc() {
     return this.getStringAttribute('doc');
   }
@@ -1053,7 +1053,7 @@ export class S3TablesTableIcebergMetadataIcebergSchemaV2SchemaV2FieldListStructO
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: number;
+  private _id?: number; 
   public get id() {
     return this.getNumberAttribute('id');
   }
@@ -1069,7 +1069,7 @@ export class S3TablesTableIcebergMetadataIcebergSchemaV2SchemaV2FieldListStructO
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1085,7 +1085,7 @@ export class S3TablesTableIcebergMetadataIcebergSchemaV2SchemaV2FieldListStructO
   }
 
   // required - computed: true, optional: true, required: false
-  private _required?: boolean | cdktn.IResolvable;
+  private _required?: boolean | cdktn.IResolvable; 
   public get required() {
     return this.getBooleanAttribute('required');
   }
@@ -1101,7 +1101,7 @@ export class S3TablesTableIcebergMetadataIcebergSchemaV2SchemaV2FieldListStructO
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -1274,7 +1274,7 @@ export class S3TablesTableIcebergMetadataIcebergSchemaV2OutputReference extends 
   }
 
   // identifier_field_ids - computed: true, optional: true, required: false
-  private _identifierFieldIds?: number[];
+  private _identifierFieldIds?: number[]; 
   public get identifierFieldIds() {
     return this.getNumberListAttribute('identifier_field_ids');
   }
@@ -1290,7 +1290,7 @@ export class S3TablesTableIcebergMetadataIcebergSchemaV2OutputReference extends 
   }
 
   // schema_id - computed: true, optional: true, required: false
-  private _schemaId?: number;
+  private _schemaId?: number; 
   public get schemaId() {
     return this.getNumberAttribute('schema_id');
   }
@@ -1322,7 +1322,7 @@ export class S3TablesTableIcebergMetadataIcebergSchemaV2OutputReference extends 
   }
 
   // schema_v2_field_type - computed: true, optional: true, required: false
-  private _schemaV2FieldType?: string;
+  private _schemaV2FieldType?: string; 
   public get schemaV2FieldType() {
     return this.getStringAttribute('schema_v2_field_type');
   }
@@ -1477,7 +1477,7 @@ export class S3TablesTableIcebergMetadataIcebergSortOrderFieldsOutputReference e
   }
 
   // direction - computed: true, optional: true, required: false
-  private _direction?: string;
+  private _direction?: string; 
   public get direction() {
     return this.getStringAttribute('direction');
   }
@@ -1493,7 +1493,7 @@ export class S3TablesTableIcebergMetadataIcebergSortOrderFieldsOutputReference e
   }
 
   // null_order - computed: true, optional: true, required: false
-  private _nullOrder?: string;
+  private _nullOrder?: string; 
   public get nullOrder() {
     return this.getStringAttribute('null_order');
   }
@@ -1509,7 +1509,7 @@ export class S3TablesTableIcebergMetadataIcebergSortOrderFieldsOutputReference e
   }
 
   // source_id - computed: true, optional: true, required: false
-  private _sourceId?: number;
+  private _sourceId?: number; 
   public get sourceId() {
     return this.getNumberAttribute('source_id');
   }
@@ -1525,7 +1525,7 @@ export class S3TablesTableIcebergMetadataIcebergSortOrderFieldsOutputReference e
   }
 
   // transform - computed: true, optional: true, required: false
-  private _transform?: string;
+  private _transform?: string; 
   public get transform() {
     return this.getStringAttribute('transform');
   }
@@ -1676,7 +1676,7 @@ export class S3TablesTableIcebergMetadataIcebergSortOrderOutputReference extends
   }
 
   // order_id - computed: true, optional: true, required: false
-  private _orderId?: number;
+  private _orderId?: number; 
   public get orderId() {
     return this.getNumberAttribute('order_id');
   }
@@ -1912,7 +1912,7 @@ export class S3TablesTableIcebergMetadataOutputReference extends cdktn.ComplexOb
   }
 
   // table_properties - computed: true, optional: true, required: false
-  private _tableProperties?: { [key: string]: string };
+  private _tableProperties?: { [key: string]: string }; 
   public get tableProperties() {
     return this.getStringMapAttribute('table_properties');
   }
@@ -2046,7 +2046,7 @@ export class S3TablesTableSnapshotManagementOutputReference extends cdktn.Comple
   }
 
   // max_snapshot_age_hours - computed: true, optional: true, required: false
-  private _maxSnapshotAgeHours?: number;
+  private _maxSnapshotAgeHours?: number; 
   public get maxSnapshotAgeHours() {
     return this.getNumberAttribute('max_snapshot_age_hours');
   }
@@ -2062,7 +2062,7 @@ export class S3TablesTableSnapshotManagementOutputReference extends cdktn.Comple
   }
 
   // min_snapshots_to_keep - computed: true, optional: true, required: false
-  private _minSnapshotsToKeep?: number;
+  private _minSnapshotsToKeep?: number; 
   public get minSnapshotsToKeep() {
     return this.getNumberAttribute('min_snapshots_to_keep');
   }
@@ -2078,7 +2078,7 @@ export class S3TablesTableSnapshotManagementOutputReference extends cdktn.Comple
   }
 
   // status - computed: true, optional: true, required: false
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -2174,7 +2174,7 @@ export class S3TablesTableStorageClassConfigurationOutputReference extends cdktn
   }
 
   // storage_class - computed: true, optional: true, required: false
-  private _storageClass?: string;
+  private _storageClass?: string; 
   public get storageClass() {
     return this.getStringAttribute('storage_class');
   }
@@ -2291,7 +2291,7 @@ export class S3TablesTableTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -2307,7 +2307,7 @@ export class S3TablesTableTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2447,7 +2447,7 @@ export class S3TablesTable extends cdktn.TerraformResource {
   }
 
   // namespace - computed: false, optional: false, required: true
-  private _namespace?: string;
+  private _namespace?: string; 
   public get namespace() {
     return this.getStringAttribute('namespace');
   }
@@ -2460,7 +2460,7 @@ export class S3TablesTable extends cdktn.TerraformResource {
   }
 
   // open_table_format - computed: false, optional: false, required: true
-  private _openTableFormat?: string;
+  private _openTableFormat?: string; 
   public get openTableFormat() {
     return this.getStringAttribute('open_table_format');
   }
@@ -2510,7 +2510,7 @@ export class S3TablesTable extends cdktn.TerraformResource {
   }
 
   // table_bucket_arn - computed: false, optional: false, required: true
-  private _tableBucketArn?: string;
+  private _tableBucketArn?: string; 
   public get tableBucketArn() {
     return this.getStringAttribute('table_bucket_arn');
   }
@@ -2523,7 +2523,7 @@ export class S3TablesTable extends cdktn.TerraformResource {
   }
 
   // table_name - computed: false, optional: false, required: true
-  private _tableName?: string;
+  private _tableName?: string; 
   public get tableName() {
     return this.getStringAttribute('table_name');
   }
@@ -2562,7 +2562,7 @@ export class S3TablesTable extends cdktn.TerraformResource {
   }
 
   // without_metadata - computed: true, optional: true, required: false
-  private _withoutMetadata?: string;
+  private _withoutMetadata?: string; 
   public get withoutMetadata() {
     return this.getStringAttribute('without_metadata');
   }

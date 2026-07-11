@@ -148,7 +148,7 @@ export class AthenaWorkGroupTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -164,7 +164,7 @@ export class AthenaWorkGroupTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -201,7 +201,7 @@ export class AthenaWorkGroupTagsList extends cdktn.ComplexList {
 }
 export interface AthenaWorkGroupWorkGroupConfigurationCustomerContentEncryptionConfiguration {
   /**
-  * For SSE-KMS and CSE-KMS, this is the KMS key ARN or ID.
+  * For SSE-KMS and CSE-KMS, this is the KMS key ARN or ID. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/athena_work_group#kms_key AthenaWorkGroup#kms_key}
   */
@@ -280,7 +280,7 @@ export class AthenaWorkGroupWorkGroupConfigurationCustomerContentEncryptionConfi
   }
 
   // kms_key - computed: true, optional: true, required: false
-  private _kmsKey?: string;
+  private _kmsKey?: string; 
   public get kmsKey() {
     return this.getStringAttribute('kms_key');
   }
@@ -397,7 +397,7 @@ export class AthenaWorkGroupWorkGroupConfigurationEngineConfigurationClassificat
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -413,7 +413,7 @@ export class AthenaWorkGroupWorkGroupConfigurationEngineConfigurationClassificat
   }
 
   // properties - computed: true, optional: true, required: false
-  private _properties?: { [key: string]: string };
+  private _properties?: { [key: string]: string }; 
   public get properties() {
     return this.getStringMapAttribute('properties');
   }
@@ -624,7 +624,7 @@ export class AthenaWorkGroupWorkGroupConfigurationEngineConfigurationOutputRefer
   }
 
   // additional_configs - computed: true, optional: true, required: false
-  private _additionalConfigs?: { [key: string]: string };
+  private _additionalConfigs?: { [key: string]: string }; 
   public get additionalConfigs() {
     return this.getStringMapAttribute('additional_configs');
   }
@@ -656,7 +656,7 @@ export class AthenaWorkGroupWorkGroupConfigurationEngineConfigurationOutputRefer
   }
 
   // coordinator_dpu_size - computed: true, optional: true, required: false
-  private _coordinatorDpuSize?: number;
+  private _coordinatorDpuSize?: number; 
   public get coordinatorDpuSize() {
     return this.getNumberAttribute('coordinator_dpu_size');
   }
@@ -672,7 +672,7 @@ export class AthenaWorkGroupWorkGroupConfigurationEngineConfigurationOutputRefer
   }
 
   // default_executor_dpu_size - computed: true, optional: true, required: false
-  private _defaultExecutorDpuSize?: number;
+  private _defaultExecutorDpuSize?: number; 
   public get defaultExecutorDpuSize() {
     return this.getNumberAttribute('default_executor_dpu_size');
   }
@@ -688,7 +688,7 @@ export class AthenaWorkGroupWorkGroupConfigurationEngineConfigurationOutputRefer
   }
 
   // max_concurrent_dpus - computed: true, optional: true, required: false
-  private _maxConcurrentDpus?: number;
+  private _maxConcurrentDpus?: number; 
   public get maxConcurrentDpus() {
     return this.getNumberAttribute('max_concurrent_dpus');
   }
@@ -704,7 +704,7 @@ export class AthenaWorkGroupWorkGroupConfigurationEngineConfigurationOutputRefer
   }
 
   // spark_properties - computed: true, optional: true, required: false
-  private _sparkProperties?: { [key: string]: string };
+  private _sparkProperties?: { [key: string]: string }; 
   public get sparkProperties() {
     return this.getStringMapAttribute('spark_properties');
   }
@@ -805,7 +805,7 @@ export class AthenaWorkGroupWorkGroupConfigurationEngineVersionOutputReference e
   }
 
   // selected_engine_version - computed: true, optional: true, required: false
-  private _selectedEngineVersion?: string;
+  private _selectedEngineVersion?: string; 
   public get selectedEngineVersion() {
     return this.getStringAttribute('selected_engine_version');
   }
@@ -822,7 +822,7 @@ export class AthenaWorkGroupWorkGroupConfigurationEngineVersionOutputReference e
 }
 export interface AthenaWorkGroupWorkGroupConfigurationManagedQueryResultsConfigurationEncryptionConfiguration {
   /**
-  * For SSE-KMS and CSE-KMS, this is the KMS key ARN or ID.
+  * For SSE-KMS and CSE-KMS, this is the KMS key ARN or ID. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/athena_work_group#kms_key AthenaWorkGroup#kms_key}
   */
@@ -901,7 +901,7 @@ export class AthenaWorkGroupWorkGroupConfigurationManagedQueryResultsConfigurati
   }
 
   // kms_key - computed: true, optional: true, required: false
-  private _kmsKey?: string;
+  private _kmsKey?: string; 
   public get kmsKey() {
     return this.getStringAttribute('kms_key');
   }
@@ -1014,7 +1014,7 @@ export class AthenaWorkGroupWorkGroupConfigurationManagedQueryResultsConfigurati
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -1183,7 +1183,7 @@ export class AthenaWorkGroupWorkGroupConfigurationMonitoringConfigurationCloudwa
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -1199,7 +1199,7 @@ export class AthenaWorkGroupWorkGroupConfigurationMonitoringConfigurationCloudwa
   }
 
   // log_group - computed: true, optional: true, required: false
-  private _logGroup?: string;
+  private _logGroup?: string; 
   public get logGroup() {
     return this.getStringAttribute('log_group');
   }
@@ -1215,7 +1215,7 @@ export class AthenaWorkGroupWorkGroupConfigurationMonitoringConfigurationCloudwa
   }
 
   // log_stream_name_prefix - computed: true, optional: true, required: false
-  private _logStreamNamePrefix?: string;
+  private _logStreamNamePrefix?: string; 
   public get logStreamNamePrefix() {
     return this.getStringAttribute('log_stream_name_prefix');
   }
@@ -1231,7 +1231,7 @@ export class AthenaWorkGroupWorkGroupConfigurationMonitoringConfigurationCloudwa
   }
 
   // log_types - computed: true, optional: true, required: false
-  private _logTypes?: { [key: string]: string[] } | cdktn.IResolvable;
+  private _logTypes?: { [key: string]: string[] } | cdktn.IResolvable; 
   public get logTypes() {
     return this.interpolationForAttribute('log_types');
   }
@@ -1346,7 +1346,7 @@ export class AthenaWorkGroupWorkGroupConfigurationMonitoringConfigurationManaged
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -1362,7 +1362,7 @@ export class AthenaWorkGroupWorkGroupConfigurationMonitoringConfigurationManaged
   }
 
   // kms_key - computed: true, optional: true, required: false
-  private _kmsKey?: string;
+  private _kmsKey?: string; 
   public get kmsKey() {
     return this.getStringAttribute('kms_key');
   }
@@ -1496,7 +1496,7 @@ export class AthenaWorkGroupWorkGroupConfigurationMonitoringConfigurationS3Loggi
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -1512,7 +1512,7 @@ export class AthenaWorkGroupWorkGroupConfigurationMonitoringConfigurationS3Loggi
   }
 
   // kms_key - computed: true, optional: true, required: false
-  private _kmsKey?: string;
+  private _kmsKey?: string; 
   public get kmsKey() {
     return this.getStringAttribute('kms_key');
   }
@@ -1528,7 +1528,7 @@ export class AthenaWorkGroupWorkGroupConfigurationMonitoringConfigurationS3Loggi
   }
 
   // log_location - computed: true, optional: true, required: false
-  private _logLocation?: string;
+  private _logLocation?: string; 
   public get logLocation() {
     return this.getStringAttribute('log_location');
   }
@@ -1790,7 +1790,7 @@ export class AthenaWorkGroupWorkGroupConfigurationResultConfigurationAclConfigur
   }
 
   // s3_acl_option - computed: true, optional: true, required: false
-  private _s3AclOption?: string;
+  private _s3AclOption?: string; 
   public get s3AclOption() {
     return this.getStringAttribute('s3_acl_option');
   }
@@ -1813,7 +1813,7 @@ export interface AthenaWorkGroupWorkGroupConfigurationResultConfigurationEncrypt
   */
   readonly encryptionOption?: string;
   /**
-  * For SSE-KMS and CSE-KMS, this is the KMS key ARN or ID.
+  * For SSE-KMS and CSE-KMS, this is the KMS key ARN or ID. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/athena_work_group#kms_key AthenaWorkGroup#kms_key}
   */
@@ -1905,7 +1905,7 @@ export class AthenaWorkGroupWorkGroupConfigurationResultConfigurationEncryptionC
   }
 
   // encryption_option - computed: true, optional: true, required: false
-  private _encryptionOption?: string;
+  private _encryptionOption?: string; 
   public get encryptionOption() {
     return this.getStringAttribute('encryption_option');
   }
@@ -1921,7 +1921,7 @@ export class AthenaWorkGroupWorkGroupConfigurationResultConfigurationEncryptionC
   }
 
   // kms_key - computed: true, optional: true, required: false
-  private _kmsKey?: string;
+  private _kmsKey?: string; 
   public get kmsKey() {
     return this.getStringAttribute('kms_key');
   }
@@ -2106,7 +2106,7 @@ export class AthenaWorkGroupWorkGroupConfigurationResultConfigurationOutputRefer
   }
 
   // expected_bucket_owner - computed: true, optional: true, required: false
-  private _expectedBucketOwner?: string;
+  private _expectedBucketOwner?: string; 
   public get expectedBucketOwner() {
     return this.getStringAttribute('expected_bucket_owner');
   }
@@ -2122,7 +2122,7 @@ export class AthenaWorkGroupWorkGroupConfigurationResultConfigurationOutputRefer
   }
 
   // output_location - computed: true, optional: true, required: false
-  private _outputLocation?: string;
+  private _outputLocation?: string; 
   public get outputLocation() {
     return this.getStringAttribute('output_location');
   }
@@ -2199,14 +2199,14 @@ export interface AthenaWorkGroupWorkGroupConfiguration {
   */
   readonly publishCloudwatchMetricsEnabled?: boolean | cdktn.IResolvable;
   /**
-  * If set to true, allows members assigned to a workgroup to reference Amazon S3 Requester Pays buckets in queries. If set to false, workgroup members cannot query data from Requester Pays buckets, and queries that retrieve data from Requester Pays buckets cause an error.
+  * If set to true, allows members assigned to a workgroup to reference Amazon S3 Requester Pays buckets in queries. If set to false, workgroup members cannot query data from Requester Pays buckets, and queries that retrieve data from Requester Pays buckets cause an error. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/athena_work_group#requester_pays_enabled AthenaWorkGroup#requester_pays_enabled}
   */
   readonly requesterPaysEnabled?: boolean | cdktn.IResolvable;
   /**
   * The location in Amazon S3 where query results are stored and the encryption option, if any, used for query results. These are known as "client-side settings". If workgroup settings override client-side settings, then the query uses the workgroup settings.
-  *
+  * 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/athena_work_group#result_configuration AthenaWorkGroup#result_configuration}
   */
@@ -2428,7 +2428,7 @@ export class AthenaWorkGroupWorkGroupConfigurationOutputReference extends cdktn.
   }
 
   // additional_configuration - computed: true, optional: true, required: false
-  private _additionalConfiguration?: string;
+  private _additionalConfiguration?: string; 
   public get additionalConfiguration() {
     return this.getStringAttribute('additional_configuration');
   }
@@ -2444,7 +2444,7 @@ export class AthenaWorkGroupWorkGroupConfigurationOutputReference extends cdktn.
   }
 
   // bytes_scanned_cutoff_per_query - computed: true, optional: true, required: false
-  private _bytesScannedCutoffPerQuery?: number;
+  private _bytesScannedCutoffPerQuery?: number; 
   public get bytesScannedCutoffPerQuery() {
     return this.getNumberAttribute('bytes_scanned_cutoff_per_query');
   }
@@ -2476,7 +2476,7 @@ export class AthenaWorkGroupWorkGroupConfigurationOutputReference extends cdktn.
   }
 
   // enforce_work_group_configuration - computed: true, optional: true, required: false
-  private _enforceWorkGroupConfiguration?: boolean | cdktn.IResolvable;
+  private _enforceWorkGroupConfiguration?: boolean | cdktn.IResolvable; 
   public get enforceWorkGroupConfiguration() {
     return this.getBooleanAttribute('enforce_work_group_configuration');
   }
@@ -2524,7 +2524,7 @@ export class AthenaWorkGroupWorkGroupConfigurationOutputReference extends cdktn.
   }
 
   // execution_role - computed: true, optional: true, required: false
-  private _executionRole?: string;
+  private _executionRole?: string; 
   public get executionRole() {
     return this.getStringAttribute('execution_role');
   }
@@ -2572,7 +2572,7 @@ export class AthenaWorkGroupWorkGroupConfigurationOutputReference extends cdktn.
   }
 
   // publish_cloudwatch_metrics_enabled - computed: true, optional: true, required: false
-  private _publishCloudwatchMetricsEnabled?: boolean | cdktn.IResolvable;
+  private _publishCloudwatchMetricsEnabled?: boolean | cdktn.IResolvable; 
   public get publishCloudwatchMetricsEnabled() {
     return this.getBooleanAttribute('publish_cloudwatch_metrics_enabled');
   }
@@ -2588,7 +2588,7 @@ export class AthenaWorkGroupWorkGroupConfigurationOutputReference extends cdktn.
   }
 
   // requester_pays_enabled - computed: true, optional: true, required: false
-  private _requesterPaysEnabled?: boolean | cdktn.IResolvable;
+  private _requesterPaysEnabled?: boolean | cdktn.IResolvable; 
   public get requesterPaysEnabled() {
     return this.getBooleanAttribute('requester_pays_enabled');
   }
@@ -2621,7 +2621,7 @@ export class AthenaWorkGroupWorkGroupConfigurationOutputReference extends cdktn.
 }
 export interface AthenaWorkGroupWorkGroupConfigurationUpdatesCustomerContentEncryptionConfiguration {
   /**
-  * For SSE-KMS and CSE-KMS, this is the KMS key ARN or ID.
+  * For SSE-KMS and CSE-KMS, this is the KMS key ARN or ID. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/athena_work_group#kms_key AthenaWorkGroup#kms_key}
   */
@@ -2700,7 +2700,7 @@ export class AthenaWorkGroupWorkGroupConfigurationUpdatesCustomerContentEncrypti
   }
 
   // kms_key - computed: true, optional: true, required: false
-  private _kmsKey?: string;
+  private _kmsKey?: string; 
   public get kmsKey() {
     return this.getStringAttribute('kms_key');
   }
@@ -2817,7 +2817,7 @@ export class AthenaWorkGroupWorkGroupConfigurationUpdatesEngineConfigurationClas
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2833,7 +2833,7 @@ export class AthenaWorkGroupWorkGroupConfigurationUpdatesEngineConfigurationClas
   }
 
   // properties - computed: true, optional: true, required: false
-  private _properties?: { [key: string]: string };
+  private _properties?: { [key: string]: string }; 
   public get properties() {
     return this.getStringMapAttribute('properties');
   }
@@ -3044,7 +3044,7 @@ export class AthenaWorkGroupWorkGroupConfigurationUpdatesEngineConfigurationOutp
   }
 
   // additional_configs - computed: true, optional: true, required: false
-  private _additionalConfigs?: { [key: string]: string };
+  private _additionalConfigs?: { [key: string]: string }; 
   public get additionalConfigs() {
     return this.getStringMapAttribute('additional_configs');
   }
@@ -3076,7 +3076,7 @@ export class AthenaWorkGroupWorkGroupConfigurationUpdatesEngineConfigurationOutp
   }
 
   // coordinator_dpu_size - computed: true, optional: true, required: false
-  private _coordinatorDpuSize?: number;
+  private _coordinatorDpuSize?: number; 
   public get coordinatorDpuSize() {
     return this.getNumberAttribute('coordinator_dpu_size');
   }
@@ -3092,7 +3092,7 @@ export class AthenaWorkGroupWorkGroupConfigurationUpdatesEngineConfigurationOutp
   }
 
   // default_executor_dpu_size - computed: true, optional: true, required: false
-  private _defaultExecutorDpuSize?: number;
+  private _defaultExecutorDpuSize?: number; 
   public get defaultExecutorDpuSize() {
     return this.getNumberAttribute('default_executor_dpu_size');
   }
@@ -3108,7 +3108,7 @@ export class AthenaWorkGroupWorkGroupConfigurationUpdatesEngineConfigurationOutp
   }
 
   // max_concurrent_dpus - computed: true, optional: true, required: false
-  private _maxConcurrentDpus?: number;
+  private _maxConcurrentDpus?: number; 
   public get maxConcurrentDpus() {
     return this.getNumberAttribute('max_concurrent_dpus');
   }
@@ -3124,7 +3124,7 @@ export class AthenaWorkGroupWorkGroupConfigurationUpdatesEngineConfigurationOutp
   }
 
   // spark_properties - computed: true, optional: true, required: false
-  private _sparkProperties?: { [key: string]: string };
+  private _sparkProperties?: { [key: string]: string }; 
   public get sparkProperties() {
     return this.getStringMapAttribute('spark_properties');
   }
@@ -3225,7 +3225,7 @@ export class AthenaWorkGroupWorkGroupConfigurationUpdatesEngineVersionOutputRefe
   }
 
   // selected_engine_version - computed: true, optional: true, required: false
-  private _selectedEngineVersion?: string;
+  private _selectedEngineVersion?: string; 
   public get selectedEngineVersion() {
     return this.getStringAttribute('selected_engine_version');
   }
@@ -3242,7 +3242,7 @@ export class AthenaWorkGroupWorkGroupConfigurationUpdatesEngineVersionOutputRefe
 }
 export interface AthenaWorkGroupWorkGroupConfigurationUpdatesManagedQueryResultsConfigurationEncryptionConfiguration {
   /**
-  * For SSE-KMS and CSE-KMS, this is the KMS key ARN or ID.
+  * For SSE-KMS and CSE-KMS, this is the KMS key ARN or ID. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/athena_work_group#kms_key AthenaWorkGroup#kms_key}
   */
@@ -3321,7 +3321,7 @@ export class AthenaWorkGroupWorkGroupConfigurationUpdatesManagedQueryResultsConf
   }
 
   // kms_key - computed: true, optional: true, required: false
-  private _kmsKey?: string;
+  private _kmsKey?: string; 
   public get kmsKey() {
     return this.getStringAttribute('kms_key');
   }
@@ -3434,7 +3434,7 @@ export class AthenaWorkGroupWorkGroupConfigurationUpdatesManagedQueryResultsConf
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -3603,7 +3603,7 @@ export class AthenaWorkGroupWorkGroupConfigurationUpdatesMonitoringConfiguration
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -3619,7 +3619,7 @@ export class AthenaWorkGroupWorkGroupConfigurationUpdatesMonitoringConfiguration
   }
 
   // log_group - computed: true, optional: true, required: false
-  private _logGroup?: string;
+  private _logGroup?: string; 
   public get logGroup() {
     return this.getStringAttribute('log_group');
   }
@@ -3635,7 +3635,7 @@ export class AthenaWorkGroupWorkGroupConfigurationUpdatesMonitoringConfiguration
   }
 
   // log_stream_name_prefix - computed: true, optional: true, required: false
-  private _logStreamNamePrefix?: string;
+  private _logStreamNamePrefix?: string; 
   public get logStreamNamePrefix() {
     return this.getStringAttribute('log_stream_name_prefix');
   }
@@ -3651,7 +3651,7 @@ export class AthenaWorkGroupWorkGroupConfigurationUpdatesMonitoringConfiguration
   }
 
   // log_types - computed: true, optional: true, required: false
-  private _logTypes?: { [key: string]: string[] } | cdktn.IResolvable;
+  private _logTypes?: { [key: string]: string[] } | cdktn.IResolvable; 
   public get logTypes() {
     return this.interpolationForAttribute('log_types');
   }
@@ -3766,7 +3766,7 @@ export class AthenaWorkGroupWorkGroupConfigurationUpdatesMonitoringConfiguration
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -3782,7 +3782,7 @@ export class AthenaWorkGroupWorkGroupConfigurationUpdatesMonitoringConfiguration
   }
 
   // kms_key - computed: true, optional: true, required: false
-  private _kmsKey?: string;
+  private _kmsKey?: string; 
   public get kmsKey() {
     return this.getStringAttribute('kms_key');
   }
@@ -3916,7 +3916,7 @@ export class AthenaWorkGroupWorkGroupConfigurationUpdatesMonitoringConfiguration
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -3932,7 +3932,7 @@ export class AthenaWorkGroupWorkGroupConfigurationUpdatesMonitoringConfiguration
   }
 
   // kms_key - computed: true, optional: true, required: false
-  private _kmsKey?: string;
+  private _kmsKey?: string; 
   public get kmsKey() {
     return this.getStringAttribute('kms_key');
   }
@@ -3948,7 +3948,7 @@ export class AthenaWorkGroupWorkGroupConfigurationUpdatesMonitoringConfiguration
   }
 
   // log_location - computed: true, optional: true, required: false
-  private _logLocation?: string;
+  private _logLocation?: string; 
   public get logLocation() {
     return this.getStringAttribute('log_location');
   }
@@ -4210,7 +4210,7 @@ export class AthenaWorkGroupWorkGroupConfigurationUpdatesResultConfigurationUpda
   }
 
   // s3_acl_option - computed: true, optional: true, required: false
-  private _s3AclOption?: string;
+  private _s3AclOption?: string; 
   public get s3AclOption() {
     return this.getStringAttribute('s3_acl_option');
   }
@@ -4233,7 +4233,7 @@ export interface AthenaWorkGroupWorkGroupConfigurationUpdatesResultConfiguration
   */
   readonly encryptionOption?: string;
   /**
-  * For SSE-KMS and CSE-KMS, this is the KMS key ARN or ID.
+  * For SSE-KMS and CSE-KMS, this is the KMS key ARN or ID. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/athena_work_group#kms_key AthenaWorkGroup#kms_key}
   */
@@ -4325,7 +4325,7 @@ export class AthenaWorkGroupWorkGroupConfigurationUpdatesResultConfigurationUpda
   }
 
   // encryption_option - computed: true, optional: true, required: false
-  private _encryptionOption?: string;
+  private _encryptionOption?: string; 
   public get encryptionOption() {
     return this.getStringAttribute('encryption_option');
   }
@@ -4341,7 +4341,7 @@ export class AthenaWorkGroupWorkGroupConfigurationUpdatesResultConfigurationUpda
   }
 
   // kms_key - computed: true, optional: true, required: false
-  private _kmsKey?: string;
+  private _kmsKey?: string; 
   public get kmsKey() {
     return this.getStringAttribute('kms_key');
   }
@@ -4594,7 +4594,7 @@ export class AthenaWorkGroupWorkGroupConfigurationUpdatesResultConfigurationUpda
   }
 
   // expected_bucket_owner - computed: true, optional: true, required: false
-  private _expectedBucketOwner?: string;
+  private _expectedBucketOwner?: string; 
   public get expectedBucketOwner() {
     return this.getStringAttribute('expected_bucket_owner');
   }
@@ -4610,7 +4610,7 @@ export class AthenaWorkGroupWorkGroupConfigurationUpdatesResultConfigurationUpda
   }
 
   // output_location - computed: true, optional: true, required: false
-  private _outputLocation?: string;
+  private _outputLocation?: string; 
   public get outputLocation() {
     return this.getStringAttribute('output_location');
   }
@@ -4626,7 +4626,7 @@ export class AthenaWorkGroupWorkGroupConfigurationUpdatesResultConfigurationUpda
   }
 
   // remove_acl_configuration - computed: true, optional: true, required: false
-  private _removeAclConfiguration?: boolean | cdktn.IResolvable;
+  private _removeAclConfiguration?: boolean | cdktn.IResolvable; 
   public get removeAclConfiguration() {
     return this.getBooleanAttribute('remove_acl_configuration');
   }
@@ -4642,7 +4642,7 @@ export class AthenaWorkGroupWorkGroupConfigurationUpdatesResultConfigurationUpda
   }
 
   // remove_encryption_configuration - computed: true, optional: true, required: false
-  private _removeEncryptionConfiguration?: boolean | cdktn.IResolvable;
+  private _removeEncryptionConfiguration?: boolean | cdktn.IResolvable; 
   public get removeEncryptionConfiguration() {
     return this.getBooleanAttribute('remove_encryption_configuration');
   }
@@ -4658,7 +4658,7 @@ export class AthenaWorkGroupWorkGroupConfigurationUpdatesResultConfigurationUpda
   }
 
   // remove_expected_bucket_owner - computed: true, optional: true, required: false
-  private _removeExpectedBucketOwner?: boolean | cdktn.IResolvable;
+  private _removeExpectedBucketOwner?: boolean | cdktn.IResolvable; 
   public get removeExpectedBucketOwner() {
     return this.getBooleanAttribute('remove_expected_bucket_owner');
   }
@@ -4674,7 +4674,7 @@ export class AthenaWorkGroupWorkGroupConfigurationUpdatesResultConfigurationUpda
   }
 
   // remove_output_location - computed: true, optional: true, required: false
-  private _removeOutputLocation?: boolean | cdktn.IResolvable;
+  private _removeOutputLocation?: boolean | cdktn.IResolvable; 
   public get removeOutputLocation() {
     return this.getBooleanAttribute('remove_output_location');
   }
@@ -4761,13 +4761,13 @@ export interface AthenaWorkGroupWorkGroupConfigurationUpdates {
   */
   readonly removeCustomerContentEncryptionConfiguration?: boolean | cdktn.IResolvable;
   /**
-  * If set to true, allows members assigned to a workgroup to reference Amazon S3 Requester Pays buckets in queries. If set to false, workgroup members cannot query data from Requester Pays buckets, and queries that retrieve data from Requester Pays buckets cause an error.
+  * If set to true, allows members assigned to a workgroup to reference Amazon S3 Requester Pays buckets in queries. If set to false, workgroup members cannot query data from Requester Pays buckets, and queries that retrieve data from Requester Pays buckets cause an error. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/athena_work_group#requester_pays_enabled AthenaWorkGroup#requester_pays_enabled}
   */
   readonly requesterPaysEnabled?: boolean | cdktn.IResolvable;
   /**
-  * The result configuration information about the queries in this workgroup that will be updated. Includes the updated results location and an updated option for encrypting query results.
+  * The result configuration information about the queries in this workgroup that will be updated. Includes the updated results location and an updated option for encrypting query results. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/athena_work_group#result_configuration_updates AthenaWorkGroup#result_configuration_updates}
   */
@@ -5015,7 +5015,7 @@ export class AthenaWorkGroupWorkGroupConfigurationUpdatesOutputReference extends
   }
 
   // additional_configuration - computed: true, optional: true, required: false
-  private _additionalConfiguration?: string;
+  private _additionalConfiguration?: string; 
   public get additionalConfiguration() {
     return this.getStringAttribute('additional_configuration');
   }
@@ -5031,7 +5031,7 @@ export class AthenaWorkGroupWorkGroupConfigurationUpdatesOutputReference extends
   }
 
   // bytes_scanned_cutoff_per_query - computed: true, optional: true, required: false
-  private _bytesScannedCutoffPerQuery?: number;
+  private _bytesScannedCutoffPerQuery?: number; 
   public get bytesScannedCutoffPerQuery() {
     return this.getNumberAttribute('bytes_scanned_cutoff_per_query');
   }
@@ -5063,7 +5063,7 @@ export class AthenaWorkGroupWorkGroupConfigurationUpdatesOutputReference extends
   }
 
   // enforce_work_group_configuration - computed: true, optional: true, required: false
-  private _enforceWorkGroupConfiguration?: boolean | cdktn.IResolvable;
+  private _enforceWorkGroupConfiguration?: boolean | cdktn.IResolvable; 
   public get enforceWorkGroupConfiguration() {
     return this.getBooleanAttribute('enforce_work_group_configuration');
   }
@@ -5111,7 +5111,7 @@ export class AthenaWorkGroupWorkGroupConfigurationUpdatesOutputReference extends
   }
 
   // execution_role - computed: true, optional: true, required: false
-  private _executionRole?: string;
+  private _executionRole?: string; 
   public get executionRole() {
     return this.getStringAttribute('execution_role');
   }
@@ -5159,7 +5159,7 @@ export class AthenaWorkGroupWorkGroupConfigurationUpdatesOutputReference extends
   }
 
   // publish_cloudwatch_metrics_enabled - computed: true, optional: true, required: false
-  private _publishCloudwatchMetricsEnabled?: boolean | cdktn.IResolvable;
+  private _publishCloudwatchMetricsEnabled?: boolean | cdktn.IResolvable; 
   public get publishCloudwatchMetricsEnabled() {
     return this.getBooleanAttribute('publish_cloudwatch_metrics_enabled');
   }
@@ -5175,7 +5175,7 @@ export class AthenaWorkGroupWorkGroupConfigurationUpdatesOutputReference extends
   }
 
   // remove_bytes_scanned_cutoff_per_query - computed: true, optional: true, required: false
-  private _removeBytesScannedCutoffPerQuery?: boolean | cdktn.IResolvable;
+  private _removeBytesScannedCutoffPerQuery?: boolean | cdktn.IResolvable; 
   public get removeBytesScannedCutoffPerQuery() {
     return this.getBooleanAttribute('remove_bytes_scanned_cutoff_per_query');
   }
@@ -5191,7 +5191,7 @@ export class AthenaWorkGroupWorkGroupConfigurationUpdatesOutputReference extends
   }
 
   // remove_customer_content_encryption_configuration - computed: true, optional: true, required: false
-  private _removeCustomerContentEncryptionConfiguration?: boolean | cdktn.IResolvable;
+  private _removeCustomerContentEncryptionConfiguration?: boolean | cdktn.IResolvable; 
   public get removeCustomerContentEncryptionConfiguration() {
     return this.getBooleanAttribute('remove_customer_content_encryption_configuration');
   }
@@ -5207,7 +5207,7 @@ export class AthenaWorkGroupWorkGroupConfigurationUpdatesOutputReference extends
   }
 
   // requester_pays_enabled - computed: true, optional: true, required: false
-  private _requesterPaysEnabled?: boolean | cdktn.IResolvable;
+  private _requesterPaysEnabled?: boolean | cdktn.IResolvable; 
   public get requesterPaysEnabled() {
     return this.getBooleanAttribute('requester_pays_enabled');
   }
@@ -5308,7 +5308,7 @@ export class AthenaWorkGroup extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -5329,7 +5329,7 @@ export class AthenaWorkGroup extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -5342,7 +5342,7 @@ export class AthenaWorkGroup extends cdktn.TerraformResource {
   }
 
   // recursive_delete_option - computed: true, optional: true, required: false
-  private _recursiveDeleteOption?: boolean | cdktn.IResolvable;
+  private _recursiveDeleteOption?: boolean | cdktn.IResolvable; 
   public get recursiveDeleteOption() {
     return this.getBooleanAttribute('recursive_delete_option');
   }
@@ -5358,7 +5358,7 @@ export class AthenaWorkGroup extends cdktn.TerraformResource {
   }
 
   // state - computed: true, optional: true, required: false
-  private _state?: string;
+  private _state?: string; 
   public get state() {
     return this.getStringAttribute('state');
   }

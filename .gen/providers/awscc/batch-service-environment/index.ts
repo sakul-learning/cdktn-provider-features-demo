@@ -128,7 +128,7 @@ export class BatchServiceEnvironmentCapacityLimitsOutputReference extends cdktn.
   }
 
   // capacity_unit - computed: true, optional: true, required: false
-  private _capacityUnit?: string;
+  private _capacityUnit?: string; 
   public get capacityUnit() {
     return this.getStringAttribute('capacity_unit');
   }
@@ -144,7 +144,7 @@ export class BatchServiceEnvironmentCapacityLimitsOutputReference extends cdktn.
   }
 
   // max_capacity - computed: true, optional: true, required: false
-  private _maxCapacity?: number;
+  private _maxCapacity?: number; 
   public get maxCapacity() {
     return this.getNumberAttribute('max_capacity');
   }
@@ -265,7 +265,7 @@ export class BatchServiceEnvironment extends cdktn.TerraformResource {
   }
 
   // service_environment_name - computed: true, optional: true, required: false
-  private _serviceEnvironmentName?: string;
+  private _serviceEnvironmentName?: string; 
   public get serviceEnvironmentName() {
     return this.getStringAttribute('service_environment_name');
   }
@@ -281,7 +281,7 @@ export class BatchServiceEnvironment extends cdktn.TerraformResource {
   }
 
   // service_environment_type - computed: false, optional: false, required: true
-  private _serviceEnvironmentType?: string;
+  private _serviceEnvironmentType?: string; 
   public get serviceEnvironmentType() {
     return this.getStringAttribute('service_environment_type');
   }
@@ -294,7 +294,7 @@ export class BatchServiceEnvironment extends cdktn.TerraformResource {
   }
 
   // state - computed: true, optional: true, required: false
-  private _state?: string;
+  private _state?: string; 
   public get state() {
     return this.getStringAttribute('state');
   }
@@ -310,7 +310,7 @@ export class BatchServiceEnvironment extends cdktn.TerraformResource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

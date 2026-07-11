@@ -154,7 +154,7 @@ export class LightsailContainerContainerServiceDeploymentContainersEnvironmentOu
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -170,7 +170,7 @@ export class LightsailContainerContainerServiceDeploymentContainersEnvironmentOu
   }
 
   // variable - computed: true, optional: true, required: false
-  private _variable?: string;
+  private _variable?: string; 
   public get variable() {
     return this.getStringAttribute('variable');
   }
@@ -303,7 +303,7 @@ export class LightsailContainerContainerServiceDeploymentContainersPortsOutputRe
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: string;
+  private _port?: string; 
   public get port() {
     return this.getStringAttribute('port');
   }
@@ -319,7 +319,7 @@ export class LightsailContainerContainerServiceDeploymentContainersPortsOutputRe
   }
 
   // protocol - computed: true, optional: true, required: false
-  private _protocol?: string;
+  private _protocol?: string; 
   public get protocol() {
     return this.getStringAttribute('protocol');
   }
@@ -513,7 +513,7 @@ export class LightsailContainerContainerServiceDeploymentContainersOutputReferen
   }
 
   // command - computed: true, optional: true, required: false
-  private _command?: string[];
+  private _command?: string[]; 
   public get command() {
     return cdktn.Fn.tolist(this.getListAttribute('command'));
   }
@@ -529,7 +529,7 @@ export class LightsailContainerContainerServiceDeploymentContainersOutputReferen
   }
 
   // container_name - computed: true, optional: true, required: false
-  private _containerName?: string;
+  private _containerName?: string; 
   public get containerName() {
     return this.getStringAttribute('container_name');
   }
@@ -561,7 +561,7 @@ export class LightsailContainerContainerServiceDeploymentContainersOutputReferen
   }
 
   // image - computed: true, optional: true, required: false
-  private _image?: string;
+  private _image?: string; 
   public get image() {
     return this.getStringAttribute('image');
   }
@@ -788,7 +788,7 @@ export class LightsailContainerContainerServiceDeploymentPublicEndpointHealthChe
   }
 
   // healthy_threshold - computed: true, optional: true, required: false
-  private _healthyThreshold?: number;
+  private _healthyThreshold?: number; 
   public get healthyThreshold() {
     return this.getNumberAttribute('healthy_threshold');
   }
@@ -804,7 +804,7 @@ export class LightsailContainerContainerServiceDeploymentPublicEndpointHealthChe
   }
 
   // interval_seconds - computed: true, optional: true, required: false
-  private _intervalSeconds?: number;
+  private _intervalSeconds?: number; 
   public get intervalSeconds() {
     return this.getNumberAttribute('interval_seconds');
   }
@@ -820,7 +820,7 @@ export class LightsailContainerContainerServiceDeploymentPublicEndpointHealthChe
   }
 
   // path - computed: true, optional: true, required: false
-  private _path?: string;
+  private _path?: string; 
   public get path() {
     return this.getStringAttribute('path');
   }
@@ -836,7 +836,7 @@ export class LightsailContainerContainerServiceDeploymentPublicEndpointHealthChe
   }
 
   // success_codes - computed: true, optional: true, required: false
-  private _successCodes?: string;
+  private _successCodes?: string; 
   public get successCodes() {
     return this.getStringAttribute('success_codes');
   }
@@ -852,7 +852,7 @@ export class LightsailContainerContainerServiceDeploymentPublicEndpointHealthChe
   }
 
   // timeout_seconds - computed: true, optional: true, required: false
-  private _timeoutSeconds?: number;
+  private _timeoutSeconds?: number; 
   public get timeoutSeconds() {
     return this.getNumberAttribute('timeout_seconds');
   }
@@ -868,7 +868,7 @@ export class LightsailContainerContainerServiceDeploymentPublicEndpointHealthChe
   }
 
   // unhealthy_threshold - computed: true, optional: true, required: false
-  private _unhealthyThreshold?: number;
+  private _unhealthyThreshold?: number; 
   public get unhealthyThreshold() {
     return this.getNumberAttribute('unhealthy_threshold');
   }
@@ -1002,7 +1002,7 @@ export class LightsailContainerContainerServiceDeploymentPublicEndpointOutputRef
   }
 
   // container_name - computed: true, optional: true, required: false
-  private _containerName?: string;
+  private _containerName?: string; 
   public get containerName() {
     return this.getStringAttribute('container_name');
   }
@@ -1018,7 +1018,7 @@ export class LightsailContainerContainerServiceDeploymentPublicEndpointOutputRef
   }
 
   // container_port - computed: true, optional: true, required: false
-  private _containerPort?: number;
+  private _containerPort?: number; 
   public get containerPort() {
     return this.getNumberAttribute('container_port');
   }
@@ -1261,7 +1261,7 @@ export class LightsailContainerPrivateRegistryAccessEcrImagePullerRoleOutputRefe
   }
 
   // is_active - computed: true, optional: true, required: false
-  private _isActive?: boolean | cdktn.IResolvable;
+  private _isActive?: boolean | cdktn.IResolvable; 
   public get isActive() {
     return this.getBooleanAttribute('is_active');
   }
@@ -1477,7 +1477,7 @@ export class LightsailContainerPublicDomainNamesOutputReference extends cdktn.Co
   }
 
   // certificate_name - computed: true, optional: true, required: false
-  private _certificateName?: string;
+  private _certificateName?: string; 
   public get certificateName() {
     return this.getStringAttribute('certificate_name');
   }
@@ -1493,7 +1493,7 @@ export class LightsailContainerPublicDomainNamesOutputReference extends cdktn.Co
   }
 
   // domain_names - computed: true, optional: true, required: false
-  private _domainNames?: string[];
+  private _domainNames?: string[]; 
   public get domainNames() {
     return cdktn.Fn.tolist(this.getListAttribute('domain_names'));
   }
@@ -1630,7 +1630,7 @@ export class LightsailContainerTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1646,7 +1646,7 @@ export class LightsailContainerTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1773,7 +1773,7 @@ export class LightsailContainer extends cdktn.TerraformResource {
   }
 
   // is_disabled - computed: true, optional: true, required: false
-  private _isDisabled?: boolean | cdktn.IResolvable;
+  private _isDisabled?: boolean | cdktn.IResolvable; 
   public get isDisabled() {
     return this.getBooleanAttribute('is_disabled');
   }
@@ -1789,7 +1789,7 @@ export class LightsailContainer extends cdktn.TerraformResource {
   }
 
   // power - computed: false, optional: false, required: true
-  private _power?: string;
+  private _power?: string; 
   public get power() {
     return this.getStringAttribute('power');
   }
@@ -1839,7 +1839,7 @@ export class LightsailContainer extends cdktn.TerraformResource {
   }
 
   // scale - computed: false, optional: false, required: true
-  private _scale?: number;
+  private _scale?: number; 
   public get scale() {
     return this.getNumberAttribute('scale');
   }
@@ -1852,7 +1852,7 @@ export class LightsailContainer extends cdktn.TerraformResource {
   }
 
   // service_name - computed: false, optional: false, required: true
-  private _serviceName?: string;
+  private _serviceName?: string; 
   public get serviceName() {
     return this.getStringAttribute('service_name');
   }

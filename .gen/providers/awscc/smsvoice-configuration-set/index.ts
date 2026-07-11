@@ -144,7 +144,7 @@ export class SmsvoiceConfigurationSetEventDestinationsCloudwatchLogsDestinationO
   }
 
   // iam_role_arn - computed: true, optional: true, required: false
-  private _iamRoleArn?: string;
+  private _iamRoleArn?: string; 
   public get iamRoleArn() {
     return this.getStringAttribute('iam_role_arn');
   }
@@ -160,7 +160,7 @@ export class SmsvoiceConfigurationSetEventDestinationsCloudwatchLogsDestinationO
   }
 
   // log_group_arn - computed: true, optional: true, required: false
-  private _logGroupArn?: string;
+  private _logGroupArn?: string; 
   public get logGroupArn() {
     return this.getStringAttribute('log_group_arn');
   }
@@ -275,7 +275,7 @@ export class SmsvoiceConfigurationSetEventDestinationsKinesisFirehoseDestination
   }
 
   // delivery_stream_arn - computed: true, optional: true, required: false
-  private _deliveryStreamArn?: string;
+  private _deliveryStreamArn?: string; 
   public get deliveryStreamArn() {
     return this.getStringAttribute('delivery_stream_arn');
   }
@@ -291,7 +291,7 @@ export class SmsvoiceConfigurationSetEventDestinationsKinesisFirehoseDestination
   }
 
   // iam_role_arn - computed: true, optional: true, required: false
-  private _iamRoleArn?: string;
+  private _iamRoleArn?: string; 
   public get iamRoleArn() {
     return this.getStringAttribute('iam_role_arn');
   }
@@ -387,7 +387,7 @@ export class SmsvoiceConfigurationSetEventDestinationsSnsDestinationOutputRefere
   }
 
   // topic_arn - computed: true, optional: true, required: false
-  private _topicArn?: string;
+  private _topicArn?: string; 
   public get topicArn() {
     return this.getStringAttribute('topic_arn');
   }
@@ -596,7 +596,7 @@ export class SmsvoiceConfigurationSetEventDestinationsOutputReference extends cd
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -612,7 +612,7 @@ export class SmsvoiceConfigurationSetEventDestinationsOutputReference extends cd
   }
 
   // event_destination_name - computed: true, optional: true, required: false
-  private _eventDestinationName?: string;
+  private _eventDestinationName?: string; 
   public get eventDestinationName() {
     return this.getStringAttribute('event_destination_name');
   }
@@ -644,7 +644,7 @@ export class SmsvoiceConfigurationSetEventDestinationsOutputReference extends cd
   }
 
   // matching_event_types - computed: true, optional: true, required: false
-  private _matchingEventTypes?: string[];
+  private _matchingEventTypes?: string[]; 
   public get matchingEventTypes() {
     return cdktn.Fn.tolist(this.getListAttribute('matching_event_types'));
   }
@@ -797,7 +797,7 @@ export class SmsvoiceConfigurationSetTagsOutputReference extends cdktn.ComplexOb
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -813,7 +813,7 @@ export class SmsvoiceConfigurationSetTagsOutputReference extends cdktn.ComplexOb
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -917,7 +917,7 @@ export class SmsvoiceConfigurationSet extends cdktn.TerraformResource {
   }
 
   // configuration_set_name - computed: true, optional: true, required: false
-  private _configurationSetName?: string;
+  private _configurationSetName?: string; 
   public get configurationSetName() {
     return this.getStringAttribute('configuration_set_name');
   }
@@ -933,7 +933,7 @@ export class SmsvoiceConfigurationSet extends cdktn.TerraformResource {
   }
 
   // default_sender_id - computed: true, optional: true, required: false
-  private _defaultSenderId?: string;
+  private _defaultSenderId?: string; 
   public get defaultSenderId() {
     return this.getStringAttribute('default_sender_id');
   }
@@ -970,7 +970,7 @@ export class SmsvoiceConfigurationSet extends cdktn.TerraformResource {
   }
 
   // message_feedback_enabled - computed: true, optional: true, required: false
-  private _messageFeedbackEnabled?: boolean | cdktn.IResolvable;
+  private _messageFeedbackEnabled?: boolean | cdktn.IResolvable; 
   public get messageFeedbackEnabled() {
     return this.getBooleanAttribute('message_feedback_enabled');
   }
@@ -986,7 +986,7 @@ export class SmsvoiceConfigurationSet extends cdktn.TerraformResource {
   }
 
   // protect_configuration_id - computed: true, optional: true, required: false
-  private _protectConfigurationId?: string;
+  private _protectConfigurationId?: string; 
   public get protectConfigurationId() {
     return this.getStringAttribute('protect_configuration_id');
   }

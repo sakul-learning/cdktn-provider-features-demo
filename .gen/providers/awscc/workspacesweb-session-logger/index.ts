@@ -128,7 +128,7 @@ export class WorkspaceswebSessionLoggerEventFilterOutputReference extends cdktn.
   }
 
   // all - computed: true, optional: true, required: false
-  private _all?: string;
+  private _all?: string; 
   public get all() {
     return this.getStringAttribute('all');
   }
@@ -144,7 +144,7 @@ export class WorkspaceswebSessionLoggerEventFilterOutputReference extends cdktn.
   }
 
   // include - computed: true, optional: true, required: false
-  private _include?: string[];
+  private _include?: string[]; 
   public get include() {
     return this.getListAttribute('include');
   }
@@ -306,7 +306,7 @@ export class WorkspaceswebSessionLoggerLogConfigurationS3OutputReference extends
   }
 
   // bucket - computed: true, optional: true, required: false
-  private _bucket?: string;
+  private _bucket?: string; 
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -322,7 +322,7 @@ export class WorkspaceswebSessionLoggerLogConfigurationS3OutputReference extends
   }
 
   // bucket_owner - computed: true, optional: true, required: false
-  private _bucketOwner?: string;
+  private _bucketOwner?: string; 
   public get bucketOwner() {
     return this.getStringAttribute('bucket_owner');
   }
@@ -338,7 +338,7 @@ export class WorkspaceswebSessionLoggerLogConfigurationS3OutputReference extends
   }
 
   // folder_structure - computed: true, optional: true, required: false
-  private _folderStructure?: string;
+  private _folderStructure?: string; 
   public get folderStructure() {
     return this.getStringAttribute('folder_structure');
   }
@@ -354,7 +354,7 @@ export class WorkspaceswebSessionLoggerLogConfigurationS3OutputReference extends
   }
 
   // key_prefix - computed: true, optional: true, required: false
-  private _keyPrefix?: string;
+  private _keyPrefix?: string; 
   public get keyPrefix() {
     return this.getStringAttribute('key_prefix');
   }
@@ -370,7 +370,7 @@ export class WorkspaceswebSessionLoggerLogConfigurationS3OutputReference extends
   }
 
   // log_file_format - computed: true, optional: true, required: false
-  private _logFileFormat?: string;
+  private _logFileFormat?: string; 
   public get logFileFormat() {
     return this.getStringAttribute('log_file_format');
   }
@@ -577,7 +577,7 @@ export class WorkspaceswebSessionLoggerTagsOutputReference extends cdktn.Complex
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -593,7 +593,7 @@ export class WorkspaceswebSessionLoggerTagsOutputReference extends cdktn.Complex
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -692,7 +692,7 @@ export class WorkspaceswebSessionLogger extends cdktn.TerraformResource {
   // ==========
 
   // additional_encryption_context - computed: true, optional: true, required: false
-  private _additionalEncryptionContext?: { [key: string]: string };
+  private _additionalEncryptionContext?: { [key: string]: string }; 
   public get additionalEncryptionContext() {
     return this.getStringMapAttribute('additional_encryption_context');
   }
@@ -718,7 +718,7 @@ export class WorkspaceswebSessionLogger extends cdktn.TerraformResource {
   }
 
   // customer_managed_key - computed: true, optional: true, required: false
-  private _customerManagedKey?: string;
+  private _customerManagedKey?: string; 
   public get customerManagedKey() {
     return this.getStringAttribute('customer_managed_key');
   }
@@ -734,7 +734,7 @@ export class WorkspaceswebSessionLogger extends cdktn.TerraformResource {
   }
 
   // display_name - computed: true, optional: true, required: false
-  private _displayName?: string;
+  private _displayName?: string; 
   public get displayName() {
     return this.getStringAttribute('display_name');
   }

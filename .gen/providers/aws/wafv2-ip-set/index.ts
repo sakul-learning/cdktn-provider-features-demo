@@ -121,7 +121,7 @@ export class Wafv2IpSet extends cdktn.TerraformResource {
   // ==========
 
   // addresses - computed: false, optional: true, required: false
-  private _addresses?: string[];
+  private _addresses?: string[]; 
   public get addresses() {
     return cdktn.Fn.tolist(this.getListAttribute('addresses'));
   }
@@ -142,7 +142,7 @@ export class Wafv2IpSet extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -158,7 +158,7 @@ export class Wafv2IpSet extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -174,7 +174,7 @@ export class Wafv2IpSet extends cdktn.TerraformResource {
   }
 
   // ip_address_version - computed: false, optional: false, required: true
-  private _ipAddressVersion?: string;
+  private _ipAddressVersion?: string; 
   public get ipAddressVersion() {
     return this.getStringAttribute('ip_address_version');
   }
@@ -192,7 +192,7 @@ export class Wafv2IpSet extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -208,7 +208,7 @@ export class Wafv2IpSet extends cdktn.TerraformResource {
   }
 
   // name_prefix - computed: true, optional: true, required: false
-  private _namePrefix?: string;
+  private _namePrefix?: string; 
   public get namePrefix() {
     return this.getStringAttribute('name_prefix');
   }
@@ -224,7 +224,7 @@ export class Wafv2IpSet extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -240,7 +240,7 @@ export class Wafv2IpSet extends cdktn.TerraformResource {
   }
 
   // scope - computed: false, optional: false, required: true
-  private _scope?: string;
+  private _scope?: string; 
   public get scope() {
     return this.getStringAttribute('scope');
   }
@@ -253,7 +253,7 @@ export class Wafv2IpSet extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -269,7 +269,7 @@ export class Wafv2IpSet extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

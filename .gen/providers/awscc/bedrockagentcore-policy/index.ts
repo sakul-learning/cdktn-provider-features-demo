@@ -125,7 +125,7 @@ export class BedrockagentcorePolicyDefinitionCedarOutputReference extends cdktn.
   }
 
   // statement - computed: true, optional: true, required: false
-  private _statement?: string;
+  private _statement?: string; 
   public get statement() {
     return this.getStringAttribute('statement');
   }
@@ -221,7 +221,7 @@ export class BedrockagentcorePolicyDefinitionPolicyOutputReference extends cdktn
   }
 
   // statement - computed: true, optional: true, required: false
-  private _statement?: string;
+  private _statement?: string; 
   public get statement() {
     return this.getStringAttribute('statement');
   }
@@ -449,7 +449,7 @@ export class BedrockagentcorePolicy extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -465,7 +465,7 @@ export class BedrockagentcorePolicy extends cdktn.TerraformResource {
   }
 
   // enforcement_mode - computed: true, optional: true, required: false
-  private _enforcementMode?: string;
+  private _enforcementMode?: string; 
   public get enforcementMode() {
     return this.getStringAttribute('enforcement_mode');
   }
@@ -486,7 +486,7 @@ export class BedrockagentcorePolicy extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -504,7 +504,7 @@ export class BedrockagentcorePolicy extends cdktn.TerraformResource {
   }
 
   // policy_engine_id - computed: false, optional: false, required: true
-  private _policyEngineId?: string;
+  private _policyEngineId?: string; 
   public get policyEngineId() {
     return this.getStringAttribute('policy_engine_id');
   }
@@ -537,7 +537,7 @@ export class BedrockagentcorePolicy extends cdktn.TerraformResource {
   }
 
   // validation_mode - computed: true, optional: true, required: false
-  private _validationMode?: string;
+  private _validationMode?: string; 
   public get validationMode() {
     return this.getStringAttribute('validation_mode');
   }

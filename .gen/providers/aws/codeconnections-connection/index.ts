@@ -155,7 +155,7 @@ export class CodeconnectionsConnectionTimeoutsOutputReference extends cdktn.Comp
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -171,7 +171,7 @@ export class CodeconnectionsConnectionTimeoutsOutputReference extends cdktn.Comp
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -187,7 +187,7 @@ export class CodeconnectionsConnectionTimeoutsOutputReference extends cdktn.Comp
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -276,7 +276,7 @@ export class CodeconnectionsConnection extends cdktn.TerraformResource {
   }
 
   // host_arn - computed: false, optional: true, required: false
-  private _hostArn?: string;
+  private _hostArn?: string; 
   public get hostArn() {
     return this.getStringAttribute('host_arn');
   }
@@ -297,7 +297,7 @@ export class CodeconnectionsConnection extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -315,7 +315,7 @@ export class CodeconnectionsConnection extends cdktn.TerraformResource {
   }
 
   // provider_type - computed: true, optional: true, required: false
-  private _providerType?: string;
+  private _providerType?: string; 
   public get providerType() {
     return this.getStringAttribute('provider_type');
   }
@@ -331,7 +331,7 @@ export class CodeconnectionsConnection extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -347,7 +347,7 @@ export class CodeconnectionsConnection extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

@@ -144,7 +144,7 @@ export class Ec2KeyPairTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -160,7 +160,7 @@ export class Ec2KeyPairTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -268,7 +268,7 @@ export class Ec2KeyPair extends cdktn.TerraformResource {
   }
 
   // key_format - computed: true, optional: true, required: false
-  private _keyFormat?: string;
+  private _keyFormat?: string; 
   public get keyFormat() {
     return this.getStringAttribute('key_format');
   }
@@ -284,7 +284,7 @@ export class Ec2KeyPair extends cdktn.TerraformResource {
   }
 
   // key_name - computed: false, optional: false, required: true
-  private _keyName?: string;
+  private _keyName?: string; 
   public get keyName() {
     return this.getStringAttribute('key_name');
   }
@@ -302,7 +302,7 @@ export class Ec2KeyPair extends cdktn.TerraformResource {
   }
 
   // key_type - computed: true, optional: true, required: false
-  private _keyType?: string;
+  private _keyType?: string; 
   public get keyType() {
     return this.getStringAttribute('key_type');
   }
@@ -318,7 +318,7 @@ export class Ec2KeyPair extends cdktn.TerraformResource {
   }
 
   // public_key_material - computed: true, optional: true, required: false
-  private _publicKeyMaterial?: string;
+  private _publicKeyMaterial?: string; 
   public get publicKeyMaterial() {
     return this.getStringAttribute('public_key_material');
   }

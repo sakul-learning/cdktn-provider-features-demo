@@ -101,7 +101,7 @@ export class Wafv2WebAclRuleActionAllowCustomRequestHandlingInsertHeaderAOutputR
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -114,7 +114,7 @@ export class Wafv2WebAclRuleActionAllowCustomRequestHandlingInsertHeaderAOutputR
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -480,7 +480,7 @@ export class Wafv2WebAclRuleActionBlockCustomResponseResponseHeaderAOutputRefere
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -493,7 +493,7 @@ export class Wafv2WebAclRuleActionBlockCustomResponseResponseHeaderAOutputRefere
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -642,7 +642,7 @@ export class Wafv2WebAclRuleActionBlockCustomResponseAOutputReference extends cd
   }
 
   // custom_response_body_key - computed: false, optional: true, required: false
-  private _customResponseBodyKey?: string;
+  private _customResponseBodyKey?: string; 
   public get customResponseBodyKey() {
     return this.getStringAttribute('custom_response_body_key');
   }
@@ -658,7 +658,7 @@ export class Wafv2WebAclRuleActionBlockCustomResponseAOutputReference extends cd
   }
 
   // response_code - computed: false, optional: false, required: true
-  private _responseCode?: number;
+  private _responseCode?: number; 
   public get responseCode() {
     return this.getNumberAttribute('response_code');
   }
@@ -922,7 +922,7 @@ export class Wafv2WebAclRuleActionCaptchaCustomRequestHandlingInsertHeaderAOutpu
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -935,7 +935,7 @@ export class Wafv2WebAclRuleActionCaptchaCustomRequestHandlingInsertHeaderAOutpu
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1301,7 +1301,7 @@ export class Wafv2WebAclRuleActionChallengeCustomRequestHandlingInsertHeaderAOut
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1314,7 +1314,7 @@ export class Wafv2WebAclRuleActionChallengeCustomRequestHandlingInsertHeaderAOut
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1680,7 +1680,7 @@ export class Wafv2WebAclRuleActionCountCustomRequestHandlingInsertHeaderAOutputR
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1693,7 +1693,7 @@ export class Wafv2WebAclRuleActionCountCustomRequestHandlingInsertHeaderAOutputR
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2300,7 +2300,7 @@ export class Wafv2WebAclRuleCaptchaConfigImmunityTimePropertyAOutputReference ex
   }
 
   // immunity_time - computed: false, optional: true, required: false
-  private _immunityTime?: number;
+  private _immunityTime?: number; 
   public get immunityTime() {
     return this.getNumberAttribute('immunity_time');
   }
@@ -2534,7 +2534,7 @@ export class Wafv2WebAclRuleChallengeConfigImmunityTimePropertyAOutputReference 
   }
 
   // immunity_time - computed: false, optional: true, required: false
-  private _immunityTime?: number;
+  private _immunityTime?: number; 
   public get immunityTime() {
     return this.getNumberAttribute('immunity_time');
   }
@@ -3085,7 +3085,7 @@ export class Wafv2WebAclRuleRuleLabelAOutputReference extends cdktn.ComplexObjec
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -3333,7 +3333,7 @@ export class Wafv2WebAclRuleStatementAsnMatchStatementForwardedIpConfigOutputRef
   }
 
   // fallback_behavior - computed: false, optional: false, required: true
-  private _fallbackBehavior?: string;
+  private _fallbackBehavior?: string; 
   public get fallbackBehavior() {
     return this.getStringAttribute('fallback_behavior');
   }
@@ -3346,7 +3346,7 @@ export class Wafv2WebAclRuleStatementAsnMatchStatementForwardedIpConfigOutputRef
   }
 
   // header_name - computed: false, optional: false, required: true
-  private _headerName?: string;
+  private _headerName?: string; 
   public get headerName() {
     return this.getStringAttribute('header_name');
   }
@@ -3480,7 +3480,7 @@ export class Wafv2WebAclRuleStatementAsnMatchStatementOutputReference extends cd
   }
 
   // asn_list - computed: false, optional: false, required: true
-  private _asnList?: number[];
+  private _asnList?: number[]; 
   public get asnList() {
     return this.getNumberListAttribute('asn_list');
   }
@@ -3690,7 +3690,7 @@ export class Wafv2WebAclRuleStatementByteMatchStatementFieldToMatchBodyOutputRef
   }
 
   // oversize_handling - computed: true, optional: true, required: false
-  private _oversizeHandling?: string;
+  private _oversizeHandling?: string; 
   public get oversizeHandling() {
     return this.getStringAttribute('oversize_handling');
   }
@@ -3923,7 +3923,7 @@ export class Wafv2WebAclRuleStatementByteMatchStatementFieldToMatchCookiesMatchP
   }
 
   // excluded_cookies - computed: false, optional: true, required: false
-  private _excludedCookies?: string[];
+  private _excludedCookies?: string[]; 
   public get excludedCookies() {
     return this.getListAttribute('excluded_cookies');
   }
@@ -3939,7 +3939,7 @@ export class Wafv2WebAclRuleStatementByteMatchStatementFieldToMatchCookiesMatchP
   }
 
   // included_cookies - computed: false, optional: true, required: false
-  private _includedCookies?: string[];
+  private _includedCookies?: string[]; 
   public get includedCookies() {
     return this.getListAttribute('included_cookies');
   }
@@ -4107,7 +4107,7 @@ export class Wafv2WebAclRuleStatementByteMatchStatementFieldToMatchCookiesOutput
   }
 
   // match_scope - computed: false, optional: false, required: true
-  private _matchScope?: string;
+  private _matchScope?: string; 
   public get matchScope() {
     return this.getStringAttribute('match_scope');
   }
@@ -4120,7 +4120,7 @@ export class Wafv2WebAclRuleStatementByteMatchStatementFieldToMatchCookiesOutput
   }
 
   // oversize_handling - computed: false, optional: false, required: true
-  private _oversizeHandling?: string;
+  private _oversizeHandling?: string; 
   public get oversizeHandling() {
     return this.getStringAttribute('oversize_handling');
   }
@@ -4249,7 +4249,7 @@ export class Wafv2WebAclRuleStatementByteMatchStatementFieldToMatchHeaderOrderOu
   }
 
   // oversize_handling - computed: false, optional: false, required: true
-  private _oversizeHandling?: string;
+  private _oversizeHandling?: string; 
   public get oversizeHandling() {
     return this.getStringAttribute('oversize_handling');
   }
@@ -4479,7 +4479,7 @@ export class Wafv2WebAclRuleStatementByteMatchStatementFieldToMatchHeadersMatchP
   }
 
   // excluded_headers - computed: false, optional: true, required: false
-  private _excludedHeaders?: string[];
+  private _excludedHeaders?: string[]; 
   public get excludedHeaders() {
     return this.getListAttribute('excluded_headers');
   }
@@ -4495,7 +4495,7 @@ export class Wafv2WebAclRuleStatementByteMatchStatementFieldToMatchHeadersMatchP
   }
 
   // included_headers - computed: false, optional: true, required: false
-  private _includedHeaders?: string[];
+  private _includedHeaders?: string[]; 
   public get includedHeaders() {
     return this.getListAttribute('included_headers');
   }
@@ -4663,7 +4663,7 @@ export class Wafv2WebAclRuleStatementByteMatchStatementFieldToMatchHeadersOutput
   }
 
   // match_scope - computed: false, optional: false, required: true
-  private _matchScope?: string;
+  private _matchScope?: string; 
   public get matchScope() {
     return this.getStringAttribute('match_scope');
   }
@@ -4676,7 +4676,7 @@ export class Wafv2WebAclRuleStatementByteMatchStatementFieldToMatchHeadersOutput
   }
 
   // oversize_handling - computed: false, optional: false, required: true
-  private _oversizeHandling?: string;
+  private _oversizeHandling?: string; 
   public get oversizeHandling() {
     return this.getStringAttribute('oversize_handling');
   }
@@ -4805,7 +4805,7 @@ export class Wafv2WebAclRuleStatementByteMatchStatementFieldToMatchJa3Fingerprin
   }
 
   // fallback_behavior - computed: false, optional: false, required: true
-  private _fallbackBehavior?: string;
+  private _fallbackBehavior?: string; 
   public get fallbackBehavior() {
     return this.getStringAttribute('fallback_behavior');
   }
@@ -4918,7 +4918,7 @@ export class Wafv2WebAclRuleStatementByteMatchStatementFieldToMatchJa4Fingerprin
   }
 
   // fallback_behavior - computed: false, optional: false, required: true
-  private _fallbackBehavior?: string;
+  private _fallbackBehavior?: string; 
   public get fallbackBehavior() {
     return this.getStringAttribute('fallback_behavior');
   }
@@ -5131,7 +5131,7 @@ export class Wafv2WebAclRuleStatementByteMatchStatementFieldToMatchJsonBodyMatch
   }
 
   // included_paths - computed: true, optional: true, required: false
-  private _includedPaths?: string[];
+  private _includedPaths?: string[]; 
   public get includedPaths() {
     return this.getListAttribute('included_paths');
   }
@@ -5316,7 +5316,7 @@ export class Wafv2WebAclRuleStatementByteMatchStatementFieldToMatchJsonBodyOutpu
   }
 
   // invalid_fallback_behavior - computed: false, optional: true, required: false
-  private _invalidFallbackBehavior?: string;
+  private _invalidFallbackBehavior?: string; 
   public get invalidFallbackBehavior() {
     return this.getStringAttribute('invalid_fallback_behavior');
   }
@@ -5332,7 +5332,7 @@ export class Wafv2WebAclRuleStatementByteMatchStatementFieldToMatchJsonBodyOutpu
   }
 
   // match_scope - computed: false, optional: false, required: true
-  private _matchScope?: string;
+  private _matchScope?: string; 
   public get matchScope() {
     return this.getStringAttribute('match_scope');
   }
@@ -5345,7 +5345,7 @@ export class Wafv2WebAclRuleStatementByteMatchStatementFieldToMatchJsonBodyOutpu
   }
 
   // oversize_handling - computed: true, optional: true, required: false
-  private _oversizeHandling?: string;
+  private _oversizeHandling?: string; 
   public get oversizeHandling() {
     return this.getStringAttribute('oversize_handling');
   }
@@ -5641,7 +5641,7 @@ export class Wafv2WebAclRuleStatementByteMatchStatementFieldToMatchSingleHeaderO
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -5756,7 +5756,7 @@ export class Wafv2WebAclRuleStatementByteMatchStatementFieldToMatchSingleQueryAr
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -5869,7 +5869,7 @@ export class Wafv2WebAclRuleStatementByteMatchStatementFieldToMatchUriFragmentOu
   }
 
   // fallback_behavior - computed: true, optional: true, required: false
-  private _fallbackBehavior?: string;
+  private _fallbackBehavior?: string; 
   public get fallbackBehavior() {
     return this.getStringAttribute('fallback_behavior');
   }
@@ -6656,7 +6656,7 @@ export class Wafv2WebAclRuleStatementByteMatchStatementTextTransformationOutputR
   }
 
   // priority - computed: false, optional: false, required: true
-  private _priority?: number;
+  private _priority?: number; 
   public get priority() {
     return this.getNumberAttribute('priority');
   }
@@ -6669,7 +6669,7 @@ export class Wafv2WebAclRuleStatementByteMatchStatementTextTransformationOutputR
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -6841,7 +6841,7 @@ export class Wafv2WebAclRuleStatementByteMatchStatementOutputReference extends c
   }
 
   // positional_constraint - computed: false, optional: false, required: true
-  private _positionalConstraint?: string;
+  private _positionalConstraint?: string; 
   public get positionalConstraint() {
     return this.getStringAttribute('positional_constraint');
   }
@@ -6854,7 +6854,7 @@ export class Wafv2WebAclRuleStatementByteMatchStatementOutputReference extends c
   }
 
   // search_string - computed: false, optional: false, required: true
-  private _searchString?: string;
+  private _searchString?: string; 
   public get searchString() {
     return this.getStringAttribute('search_string');
   }
@@ -7016,7 +7016,7 @@ export class Wafv2WebAclRuleStatementGeoMatchStatementForwardedIpConfigOutputRef
   }
 
   // fallback_behavior - computed: false, optional: false, required: true
-  private _fallbackBehavior?: string;
+  private _fallbackBehavior?: string; 
   public get fallbackBehavior() {
     return this.getStringAttribute('fallback_behavior');
   }
@@ -7029,7 +7029,7 @@ export class Wafv2WebAclRuleStatementGeoMatchStatementForwardedIpConfigOutputRef
   }
 
   // header_name - computed: false, optional: false, required: true
-  private _headerName?: string;
+  private _headerName?: string; 
   public get headerName() {
     return this.getStringAttribute('header_name');
   }
@@ -7163,7 +7163,7 @@ export class Wafv2WebAclRuleStatementGeoMatchStatementOutputReference extends cd
   }
 
   // country_codes - computed: false, optional: false, required: true
-  private _countryCodes?: string[];
+  private _countryCodes?: string[]; 
   public get countryCodes() {
     return this.getListAttribute('country_codes');
   }
@@ -7326,7 +7326,7 @@ export class Wafv2WebAclRuleStatementIpSetReferenceStatementIpSetForwardedIpConf
   }
 
   // fallback_behavior - computed: false, optional: false, required: true
-  private _fallbackBehavior?: string;
+  private _fallbackBehavior?: string; 
   public get fallbackBehavior() {
     return this.getStringAttribute('fallback_behavior');
   }
@@ -7339,7 +7339,7 @@ export class Wafv2WebAclRuleStatementIpSetReferenceStatementIpSetForwardedIpConf
   }
 
   // header_name - computed: false, optional: false, required: true
-  private _headerName?: string;
+  private _headerName?: string; 
   public get headerName() {
     return this.getStringAttribute('header_name');
   }
@@ -7352,7 +7352,7 @@ export class Wafv2WebAclRuleStatementIpSetReferenceStatementIpSetForwardedIpConf
   }
 
   // position - computed: false, optional: false, required: true
-  private _position?: string;
+  private _position?: string; 
   public get position() {
     return this.getStringAttribute('position');
   }
@@ -7486,7 +7486,7 @@ export class Wafv2WebAclRuleStatementIpSetReferenceStatementOutputReference exte
   }
 
   // arn - computed: false, optional: false, required: true
-  private _arn?: string;
+  private _arn?: string; 
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -7636,7 +7636,7 @@ export class Wafv2WebAclRuleStatementLabelMatchStatementOutputReference extends 
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -7649,7 +7649,7 @@ export class Wafv2WebAclRuleStatementLabelMatchStatementOutputReference extends 
   }
 
   // scope - computed: false, optional: false, required: true
-  private _scope?: string;
+  private _scope?: string; 
   public get scope() {
     return this.getStringAttribute('scope');
   }
@@ -7762,7 +7762,7 @@ export class Wafv2WebAclRuleStatementManagedRuleGroupStatementManagedRuleGroupCo
   }
 
   // identifiers - computed: false, optional: false, required: true
-  private _identifiers?: string[];
+  private _identifiers?: string[]; 
   public get identifiers() {
     return this.getListAttribute('identifiers');
   }
@@ -7875,7 +7875,7 @@ export class Wafv2WebAclRuleStatementManagedRuleGroupStatementManagedRuleGroupCo
   }
 
   // identifier - computed: false, optional: false, required: true
-  private _identifier?: string;
+  private _identifier?: string; 
   public get identifier() {
     return this.getStringAttribute('identifier');
   }
@@ -7988,7 +7988,7 @@ export class Wafv2WebAclRuleStatementManagedRuleGroupStatementManagedRuleGroupCo
   }
 
   // identifier - computed: false, optional: false, required: true
-  private _identifier?: string;
+  private _identifier?: string; 
   public get identifier() {
     return this.getStringAttribute('identifier');
   }
@@ -8101,7 +8101,7 @@ export class Wafv2WebAclRuleStatementManagedRuleGroupStatementManagedRuleGroupCo
   }
 
   // identifiers - computed: false, optional: false, required: true
-  private _identifiers?: string[];
+  private _identifiers?: string[]; 
   public get identifiers() {
     return this.getListAttribute('identifiers');
   }
@@ -8214,7 +8214,7 @@ export class Wafv2WebAclRuleStatementManagedRuleGroupStatementManagedRuleGroupCo
   }
 
   // identifier - computed: false, optional: false, required: true
-  private _identifier?: string;
+  private _identifier?: string; 
   public get identifier() {
     return this.getStringAttribute('identifier');
   }
@@ -8422,7 +8422,7 @@ export class Wafv2WebAclRuleStatementManagedRuleGroupStatementManagedRuleGroupCo
   }
 
   // payload_type - computed: false, optional: false, required: true
-  private _payloadType?: string;
+  private _payloadType?: string; 
   public get payloadType() {
     return this.getStringAttribute('payload_type');
   }
@@ -8632,7 +8632,7 @@ export class Wafv2WebAclRuleStatementManagedRuleGroupStatementManagedRuleGroupCo
   }
 
   // failure_strings - computed: false, optional: false, required: true
-  private _failureStrings?: string[];
+  private _failureStrings?: string[]; 
   public get failureStrings() {
     return cdktn.Fn.tolist(this.getListAttribute('failure_strings'));
   }
@@ -8645,7 +8645,7 @@ export class Wafv2WebAclRuleStatementManagedRuleGroupStatementManagedRuleGroupCo
   }
 
   // success_strings - computed: false, optional: false, required: true
-  private _successStrings?: string[];
+  private _successStrings?: string[]; 
   public get successStrings() {
     return cdktn.Fn.tolist(this.getListAttribute('success_strings'));
   }
@@ -8792,7 +8792,7 @@ export class Wafv2WebAclRuleStatementManagedRuleGroupStatementManagedRuleGroupCo
   }
 
   // failure_values - computed: false, optional: false, required: true
-  private _failureValues?: string[];
+  private _failureValues?: string[]; 
   public get failureValues() {
     return cdktn.Fn.tolist(this.getListAttribute('failure_values'));
   }
@@ -8805,7 +8805,7 @@ export class Wafv2WebAclRuleStatementManagedRuleGroupStatementManagedRuleGroupCo
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -8818,7 +8818,7 @@ export class Wafv2WebAclRuleStatementManagedRuleGroupStatementManagedRuleGroupCo
   }
 
   // success_values - computed: false, optional: false, required: true
-  private _successValues?: string[];
+  private _successValues?: string[]; 
   public get successValues() {
     return cdktn.Fn.tolist(this.getListAttribute('success_values'));
   }
@@ -8965,7 +8965,7 @@ export class Wafv2WebAclRuleStatementManagedRuleGroupStatementManagedRuleGroupCo
   }
 
   // failure_values - computed: false, optional: false, required: true
-  private _failureValues?: string[];
+  private _failureValues?: string[]; 
   public get failureValues() {
     return cdktn.Fn.tolist(this.getListAttribute('failure_values'));
   }
@@ -8978,7 +8978,7 @@ export class Wafv2WebAclRuleStatementManagedRuleGroupStatementManagedRuleGroupCo
   }
 
   // identifier - computed: false, optional: false, required: true
-  private _identifier?: string;
+  private _identifier?: string; 
   public get identifier() {
     return this.getStringAttribute('identifier');
   }
@@ -8991,7 +8991,7 @@ export class Wafv2WebAclRuleStatementManagedRuleGroupStatementManagedRuleGroupCo
   }
 
   // success_values - computed: false, optional: false, required: true
-  private _successValues?: string[];
+  private _successValues?: string[]; 
   public get successValues() {
     return cdktn.Fn.tolist(this.getListAttribute('success_values'));
   }
@@ -9121,7 +9121,7 @@ export class Wafv2WebAclRuleStatementManagedRuleGroupStatementManagedRuleGroupCo
   }
 
   // failure_codes - computed: false, optional: false, required: true
-  private _failureCodes?: number[];
+  private _failureCodes?: number[]; 
   public get failureCodes() {
     return cdktn.Token.asNumberList(cdktn.Fn.tolist(this.getNumberListAttribute('failure_codes')));
   }
@@ -9134,7 +9134,7 @@ export class Wafv2WebAclRuleStatementManagedRuleGroupStatementManagedRuleGroupCo
   }
 
   // success_codes - computed: false, optional: false, required: true
-  private _successCodes?: number[];
+  private _successCodes?: number[]; 
   public get successCodes() {
     return cdktn.Token.asNumberList(cdktn.Fn.tolist(this.getNumberListAttribute('success_codes')));
   }
@@ -9542,7 +9542,7 @@ export class Wafv2WebAclRuleStatementManagedRuleGroupStatementManagedRuleGroupCo
   }
 
   // creation_path - computed: false, optional: false, required: true
-  private _creationPath?: string;
+  private _creationPath?: string; 
   public get creationPath() {
     return this.getStringAttribute('creation_path');
   }
@@ -9555,7 +9555,7 @@ export class Wafv2WebAclRuleStatementManagedRuleGroupStatementManagedRuleGroupCo
   }
 
   // enable_regex_in_path - computed: true, optional: true, required: false
-  private _enableRegexInPath?: boolean | cdktn.IResolvable;
+  private _enableRegexInPath?: boolean | cdktn.IResolvable; 
   public get enableRegexInPath() {
     return this.getBooleanAttribute('enable_regex_in_path');
   }
@@ -9571,7 +9571,7 @@ export class Wafv2WebAclRuleStatementManagedRuleGroupStatementManagedRuleGroupCo
   }
 
   // registration_page_path - computed: false, optional: false, required: true
-  private _registrationPagePath?: string;
+  private _registrationPagePath?: string; 
   public get registrationPagePath() {
     return this.getStringAttribute('registration_page_path');
   }
@@ -9716,7 +9716,7 @@ export class Wafv2WebAclRuleStatementManagedRuleGroupStatementManagedRuleGroupCo
   }
 
   // regex_string - computed: false, optional: true, required: false
-  private _regexString?: string;
+  private _regexString?: string; 
   public get regexString() {
     return this.getStringAttribute('regex_string');
   }
@@ -9868,7 +9868,7 @@ export class Wafv2WebAclRuleStatementManagedRuleGroupStatementManagedRuleGroupCo
   }
 
   // sensitivity - computed: true, optional: true, required: false
-  private _sensitivity?: string;
+  private _sensitivity?: string; 
   public get sensitivity() {
     return this.getStringAttribute('sensitivity');
   }
@@ -9884,7 +9884,7 @@ export class Wafv2WebAclRuleStatementManagedRuleGroupStatementManagedRuleGroupCo
   }
 
   // usage_of_action - computed: false, optional: false, required: true
-  private _usageOfAction?: string;
+  private _usageOfAction?: string; 
   public get usageOfAction() {
     return this.getStringAttribute('usage_of_action');
   }
@@ -10150,7 +10150,7 @@ export class Wafv2WebAclRuleStatementManagedRuleGroupStatementManagedRuleGroupCo
   }
 
   // sensitivity_to_block - computed: true, optional: true, required: false
-  private _sensitivityToBlock?: string;
+  private _sensitivityToBlock?: string; 
   public get sensitivityToBlock() {
     return this.getStringAttribute('sensitivity_to_block');
   }
@@ -10282,7 +10282,7 @@ export class Wafv2WebAclRuleStatementManagedRuleGroupStatementManagedRuleGroupCo
   }
 
   // identifier - computed: false, optional: false, required: true
-  private _identifier?: string;
+  private _identifier?: string; 
   public get identifier() {
     return this.getStringAttribute('identifier');
   }
@@ -10395,7 +10395,7 @@ export class Wafv2WebAclRuleStatementManagedRuleGroupStatementManagedRuleGroupCo
   }
 
   // identifier - computed: false, optional: false, required: true
-  private _identifier?: string;
+  private _identifier?: string; 
   public get identifier() {
     return this.getStringAttribute('identifier');
   }
@@ -10546,7 +10546,7 @@ export class Wafv2WebAclRuleStatementManagedRuleGroupStatementManagedRuleGroupCo
   }
 
   // payload_type - computed: false, optional: false, required: true
-  private _payloadType?: string;
+  private _payloadType?: string; 
   public get payloadType() {
     return this.getStringAttribute('payload_type');
   }
@@ -10708,7 +10708,7 @@ export class Wafv2WebAclRuleStatementManagedRuleGroupStatementManagedRuleGroupCo
   }
 
   // failure_strings - computed: false, optional: false, required: true
-  private _failureStrings?: string[];
+  private _failureStrings?: string[]; 
   public get failureStrings() {
     return cdktn.Fn.tolist(this.getListAttribute('failure_strings'));
   }
@@ -10721,7 +10721,7 @@ export class Wafv2WebAclRuleStatementManagedRuleGroupStatementManagedRuleGroupCo
   }
 
   // success_strings - computed: false, optional: false, required: true
-  private _successStrings?: string[];
+  private _successStrings?: string[]; 
   public get successStrings() {
     return cdktn.Fn.tolist(this.getListAttribute('success_strings'));
   }
@@ -10868,7 +10868,7 @@ export class Wafv2WebAclRuleStatementManagedRuleGroupStatementManagedRuleGroupCo
   }
 
   // failure_values - computed: false, optional: false, required: true
-  private _failureValues?: string[];
+  private _failureValues?: string[]; 
   public get failureValues() {
     return cdktn.Fn.tolist(this.getListAttribute('failure_values'));
   }
@@ -10881,7 +10881,7 @@ export class Wafv2WebAclRuleStatementManagedRuleGroupStatementManagedRuleGroupCo
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -10894,7 +10894,7 @@ export class Wafv2WebAclRuleStatementManagedRuleGroupStatementManagedRuleGroupCo
   }
 
   // success_values - computed: false, optional: false, required: true
-  private _successValues?: string[];
+  private _successValues?: string[]; 
   public get successValues() {
     return cdktn.Fn.tolist(this.getListAttribute('success_values'));
   }
@@ -11041,7 +11041,7 @@ export class Wafv2WebAclRuleStatementManagedRuleGroupStatementManagedRuleGroupCo
   }
 
   // failure_values - computed: false, optional: false, required: true
-  private _failureValues?: string[];
+  private _failureValues?: string[]; 
   public get failureValues() {
     return cdktn.Fn.tolist(this.getListAttribute('failure_values'));
   }
@@ -11054,7 +11054,7 @@ export class Wafv2WebAclRuleStatementManagedRuleGroupStatementManagedRuleGroupCo
   }
 
   // identifier - computed: false, optional: false, required: true
-  private _identifier?: string;
+  private _identifier?: string; 
   public get identifier() {
     return this.getStringAttribute('identifier');
   }
@@ -11067,7 +11067,7 @@ export class Wafv2WebAclRuleStatementManagedRuleGroupStatementManagedRuleGroupCo
   }
 
   // success_values - computed: false, optional: false, required: true
-  private _successValues?: string[];
+  private _successValues?: string[]; 
   public get successValues() {
     return cdktn.Fn.tolist(this.getListAttribute('success_values'));
   }
@@ -11197,7 +11197,7 @@ export class Wafv2WebAclRuleStatementManagedRuleGroupStatementManagedRuleGroupCo
   }
 
   // failure_codes - computed: false, optional: false, required: true
-  private _failureCodes?: number[];
+  private _failureCodes?: number[]; 
   public get failureCodes() {
     return cdktn.Token.asNumberList(cdktn.Fn.tolist(this.getNumberListAttribute('failure_codes')));
   }
@@ -11210,7 +11210,7 @@ export class Wafv2WebAclRuleStatementManagedRuleGroupStatementManagedRuleGroupCo
   }
 
   // success_codes - computed: false, optional: false, required: true
-  private _successCodes?: number[];
+  private _successCodes?: number[]; 
   public get successCodes() {
     return cdktn.Token.asNumberList(cdktn.Fn.tolist(this.getNumberListAttribute('success_codes')));
   }
@@ -11601,7 +11601,7 @@ export class Wafv2WebAclRuleStatementManagedRuleGroupStatementManagedRuleGroupCo
   }
 
   // enable_regex_in_path - computed: true, optional: true, required: false
-  private _enableRegexInPath?: boolean | cdktn.IResolvable;
+  private _enableRegexInPath?: boolean | cdktn.IResolvable; 
   public get enableRegexInPath() {
     return this.getBooleanAttribute('enable_regex_in_path');
   }
@@ -11617,7 +11617,7 @@ export class Wafv2WebAclRuleStatementManagedRuleGroupStatementManagedRuleGroupCo
   }
 
   // login_path - computed: false, optional: false, required: true
-  private _loginPath?: string;
+  private _loginPath?: string; 
   public get loginPath() {
     return this.getStringAttribute('login_path');
   }
@@ -11779,7 +11779,7 @@ export class Wafv2WebAclRuleStatementManagedRuleGroupStatementManagedRuleGroupCo
   }
 
   // enable_machine_learning - computed: true, optional: true, required: false
-  private _enableMachineLearning?: boolean | cdktn.IResolvable;
+  private _enableMachineLearning?: boolean | cdktn.IResolvable; 
   public get enableMachineLearning() {
     return this.getBooleanAttribute('enable_machine_learning');
   }
@@ -11795,7 +11795,7 @@ export class Wafv2WebAclRuleStatementManagedRuleGroupStatementManagedRuleGroupCo
   }
 
   // inspection_level - computed: false, optional: false, required: true
-  private _inspectionLevel?: string;
+  private _inspectionLevel?: string; 
   public get inspectionLevel() {
     return this.getStringAttribute('inspection_level');
   }
@@ -11908,7 +11908,7 @@ export class Wafv2WebAclRuleStatementManagedRuleGroupStatementManagedRuleGroupCo
   }
 
   // identifier - computed: false, optional: false, required: true
-  private _identifier?: string;
+  private _identifier?: string; 
   public get identifier() {
     return this.getStringAttribute('identifier');
   }
@@ -12021,7 +12021,7 @@ export class Wafv2WebAclRuleStatementManagedRuleGroupStatementManagedRuleGroupCo
   }
 
   // identifier - computed: false, optional: false, required: true
-  private _identifier?: string;
+  private _identifier?: string; 
   public get identifier() {
     return this.getStringAttribute('identifier');
   }
@@ -12265,7 +12265,7 @@ export class Wafv2WebAclRuleStatementManagedRuleGroupStatementManagedRuleGroupCo
   }
 
   // login_path - computed: false, optional: true, required: false
-  private _loginPath?: string;
+  private _loginPath?: string; 
   public get loginPath() {
     return this.getStringAttribute('login_path');
   }
@@ -12281,7 +12281,7 @@ export class Wafv2WebAclRuleStatementManagedRuleGroupStatementManagedRuleGroupCo
   }
 
   // payload_type - computed: true, optional: true, required: false
-  private _payloadType?: string;
+  private _payloadType?: string; 
   public get payloadType() {
     return this.getStringAttribute('payload_type');
   }
@@ -12510,7 +12510,7 @@ export class Wafv2WebAclRuleStatementManagedRuleGroupStatementRuleActionOverride
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -12523,7 +12523,7 @@ export class Wafv2WebAclRuleStatementManagedRuleGroupStatementRuleActionOverride
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -12889,7 +12889,7 @@ export class Wafv2WebAclRuleStatementManagedRuleGroupStatementRuleActionOverride
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -12902,7 +12902,7 @@ export class Wafv2WebAclRuleStatementManagedRuleGroupStatementRuleActionOverride
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -13051,7 +13051,7 @@ export class Wafv2WebAclRuleStatementManagedRuleGroupStatementRuleActionOverride
   }
 
   // custom_response_body_key - computed: false, optional: true, required: false
-  private _customResponseBodyKey?: string;
+  private _customResponseBodyKey?: string; 
   public get customResponseBodyKey() {
     return this.getStringAttribute('custom_response_body_key');
   }
@@ -13067,7 +13067,7 @@ export class Wafv2WebAclRuleStatementManagedRuleGroupStatementRuleActionOverride
   }
 
   // response_code - computed: false, optional: false, required: true
-  private _responseCode?: number;
+  private _responseCode?: number; 
   public get responseCode() {
     return this.getNumberAttribute('response_code');
   }
@@ -13331,7 +13331,7 @@ export class Wafv2WebAclRuleStatementManagedRuleGroupStatementRuleActionOverride
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -13344,7 +13344,7 @@ export class Wafv2WebAclRuleStatementManagedRuleGroupStatementRuleActionOverride
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -13710,7 +13710,7 @@ export class Wafv2WebAclRuleStatementManagedRuleGroupStatementRuleActionOverride
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -13723,7 +13723,7 @@ export class Wafv2WebAclRuleStatementManagedRuleGroupStatementRuleActionOverride
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -14089,7 +14089,7 @@ export class Wafv2WebAclRuleStatementManagedRuleGroupStatementRuleActionOverride
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -14102,7 +14102,7 @@ export class Wafv2WebAclRuleStatementManagedRuleGroupStatementRuleActionOverride
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }

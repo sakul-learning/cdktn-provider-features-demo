@@ -96,7 +96,7 @@ export class ChimeVoiceConnectorLogging extends cdktn.TerraformResource {
   // ==========
 
   // enable_media_metric_logs - computed: false, optional: true, required: false
-  private _enableMediaMetricLogs?: boolean | cdktn.IResolvable;
+  private _enableMediaMetricLogs?: boolean | cdktn.IResolvable; 
   public get enableMediaMetricLogs() {
     return this.getBooleanAttribute('enable_media_metric_logs');
   }
@@ -112,7 +112,7 @@ export class ChimeVoiceConnectorLogging extends cdktn.TerraformResource {
   }
 
   // enable_sip_logs - computed: false, optional: true, required: false
-  private _enableSipLogs?: boolean | cdktn.IResolvable;
+  private _enableSipLogs?: boolean | cdktn.IResolvable; 
   public get enableSipLogs() {
     return this.getBooleanAttribute('enable_sip_logs');
   }
@@ -128,7 +128,7 @@ export class ChimeVoiceConnectorLogging extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -144,7 +144,7 @@ export class ChimeVoiceConnectorLogging extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -160,7 +160,7 @@ export class ChimeVoiceConnectorLogging extends cdktn.TerraformResource {
   }
 
   // voice_connector_id - computed: false, optional: false, required: true
-  private _voiceConnectorId?: string;
+  private _voiceConnectorId?: string; 
   public get voiceConnectorId() {
     return this.getStringAttribute('voice_connector_id');
   }

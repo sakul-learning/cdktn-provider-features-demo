@@ -88,7 +88,7 @@ export class RedshiftDataShareAuthorization extends cdktn.TerraformResource {
   // ==========
 
   // allow_writes - computed: false, optional: true, required: false
-  private _allowWrites?: boolean | cdktn.IResolvable;
+  private _allowWrites?: boolean | cdktn.IResolvable; 
   public get allowWrites() {
     return this.getBooleanAttribute('allow_writes');
   }
@@ -104,7 +104,7 @@ export class RedshiftDataShareAuthorization extends cdktn.TerraformResource {
   }
 
   // consumer_identifier - computed: false, optional: false, required: true
-  private _consumerIdentifier?: string;
+  private _consumerIdentifier?: string; 
   public get consumerIdentifier() {
     return this.getStringAttribute('consumer_identifier');
   }
@@ -117,7 +117,7 @@ export class RedshiftDataShareAuthorization extends cdktn.TerraformResource {
   }
 
   // data_share_arn - computed: false, optional: false, required: true
-  private _dataShareArn?: string;
+  private _dataShareArn?: string; 
   public get dataShareArn() {
     return this.getStringAttribute('data_share_arn');
   }
@@ -145,7 +145,7 @@ export class RedshiftDataShareAuthorization extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

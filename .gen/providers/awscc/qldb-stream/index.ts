@@ -134,7 +134,7 @@ export class QldbStreamKinesisConfigurationOutputReference extends cdktn.Complex
   }
 
   // aggregation_enabled - computed: true, optional: true, required: false
-  private _aggregationEnabled?: boolean | cdktn.IResolvable;
+  private _aggregationEnabled?: boolean | cdktn.IResolvable; 
   public get aggregationEnabled() {
     return this.getBooleanAttribute('aggregation_enabled');
   }
@@ -150,7 +150,7 @@ export class QldbStreamKinesisConfigurationOutputReference extends cdktn.Complex
   }
 
   // stream_arn - computed: true, optional: true, required: false
-  private _streamArn?: string;
+  private _streamArn?: string; 
   public get streamArn() {
     return this.getStringAttribute('stream_arn');
   }
@@ -167,13 +167,13 @@ export class QldbStreamKinesisConfigurationOutputReference extends cdktn.Complex
 }
 export interface QldbStreamTags {
   /**
-  * The key name of the tag. You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
+  * The key name of the tag. You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qldb_stream#key QldbStream#key}
   */
   readonly key?: string;
   /**
-  * The value for the tag. You can specify a value that is 1 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
+  * The value for the tag. You can specify a value that is 1 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/qldb_stream#value QldbStream#value}
   */
@@ -267,7 +267,7 @@ export class QldbStreamTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -283,7 +283,7 @@ export class QldbStreamTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -388,7 +388,7 @@ export class QldbStream extends cdktn.TerraformResource {
   }
 
   // exclusive_end_time - computed: true, optional: true, required: false
-  private _exclusiveEndTime?: string;
+  private _exclusiveEndTime?: string; 
   public get exclusiveEndTime() {
     return this.getStringAttribute('exclusive_end_time');
   }
@@ -409,7 +409,7 @@ export class QldbStream extends cdktn.TerraformResource {
   }
 
   // inclusive_start_time - computed: false, optional: false, required: true
-  private _inclusiveStartTime?: string;
+  private _inclusiveStartTime?: string; 
   public get inclusiveStartTime() {
     return this.getStringAttribute('inclusive_start_time');
   }
@@ -435,7 +435,7 @@ export class QldbStream extends cdktn.TerraformResource {
   }
 
   // ledger_name - computed: false, optional: false, required: true
-  private _ledgerName?: string;
+  private _ledgerName?: string; 
   public get ledgerName() {
     return this.getStringAttribute('ledger_name');
   }
@@ -448,7 +448,7 @@ export class QldbStream extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -466,7 +466,7 @@ export class QldbStream extends cdktn.TerraformResource {
   }
 
   // stream_name - computed: false, optional: false, required: true
-  private _streamName?: string;
+  private _streamName?: string; 
   public get streamName() {
     return this.getStringAttribute('stream_name');
   }

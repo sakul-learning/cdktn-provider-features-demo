@@ -156,7 +156,7 @@ export class IotDomainConfigurationAuthorizerConfigOutputReference extends cdktn
   }
 
   // allow_authorizer_override - computed: true, optional: true, required: false
-  private _allowAuthorizerOverride?: boolean | cdktn.IResolvable;
+  private _allowAuthorizerOverride?: boolean | cdktn.IResolvable; 
   public get allowAuthorizerOverride() {
     return this.getBooleanAttribute('allow_authorizer_override');
   }
@@ -172,7 +172,7 @@ export class IotDomainConfigurationAuthorizerConfigOutputReference extends cdktn
   }
 
   // default_authorizer_name - computed: true, optional: true, required: false
-  private _defaultAuthorizerName?: string;
+  private _defaultAuthorizerName?: string; 
   public get defaultAuthorizerName() {
     return this.getStringAttribute('default_authorizer_name');
   }
@@ -266,7 +266,7 @@ export class IotDomainConfigurationClientCertificateConfigOutputReference extend
   }
 
   // client_certificate_callback_arn - computed: true, optional: true, required: false
-  private _clientCertificateCallbackArn?: string;
+  private _clientCertificateCallbackArn?: string; 
   public get clientCertificateCallbackArn() {
     return this.getStringAttribute('client_certificate_callback_arn');
   }
@@ -394,7 +394,7 @@ export class IotDomainConfigurationServerCertificateConfigOutputReference extend
   }
 
   // enable_ocsp_check - computed: true, optional: true, required: false
-  private _enableOcspCheck?: boolean | cdktn.IResolvable;
+  private _enableOcspCheck?: boolean | cdktn.IResolvable; 
   public get enableOcspCheck() {
     return this.getBooleanAttribute('enable_ocsp_check');
   }
@@ -410,7 +410,7 @@ export class IotDomainConfigurationServerCertificateConfigOutputReference extend
   }
 
   // ocsp_authorized_responder_arn - computed: true, optional: true, required: false
-  private _ocspAuthorizedResponderArn?: string;
+  private _ocspAuthorizedResponderArn?: string; 
   public get ocspAuthorizedResponderArn() {
     return this.getStringAttribute('ocsp_authorized_responder_arn');
   }
@@ -426,7 +426,7 @@ export class IotDomainConfigurationServerCertificateConfigOutputReference extend
   }
 
   // ocsp_lambda_arn - computed: true, optional: true, required: false
-  private _ocspLambdaArn?: string;
+  private _ocspLambdaArn?: string; 
   public get ocspLambdaArn() {
     return this.getStringAttribute('ocsp_lambda_arn');
   }
@@ -624,7 +624,7 @@ export class IotDomainConfigurationTagsOutputReference extends cdktn.ComplexObje
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -640,7 +640,7 @@ export class IotDomainConfigurationTagsOutputReference extends cdktn.ComplexObje
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -754,7 +754,7 @@ export class IotDomainConfigurationTlsConfigOutputReference extends cdktn.Comple
   }
 
   // security_policy - computed: true, optional: true, required: false
-  private _securityPolicy?: string;
+  private _securityPolicy?: string; 
   public get securityPolicy() {
     return this.getStringAttribute('security_policy');
   }
@@ -840,7 +840,7 @@ export class IotDomainConfiguration extends cdktn.TerraformResource {
   // ==========
 
   // application_protocol - computed: true, optional: true, required: false
-  private _applicationProtocol?: string;
+  private _applicationProtocol?: string; 
   public get applicationProtocol() {
     return this.getStringAttribute('application_protocol');
   }
@@ -861,7 +861,7 @@ export class IotDomainConfiguration extends cdktn.TerraformResource {
   }
 
   // authentication_type - computed: true, optional: true, required: false
-  private _authenticationType?: string;
+  private _authenticationType?: string; 
   public get authenticationType() {
     return this.getStringAttribute('authentication_type');
   }
@@ -909,7 +909,7 @@ export class IotDomainConfiguration extends cdktn.TerraformResource {
   }
 
   // domain_configuration_name - computed: true, optional: true, required: false
-  private _domainConfigurationName?: string;
+  private _domainConfigurationName?: string; 
   public get domainConfigurationName() {
     return this.getStringAttribute('domain_configuration_name');
   }
@@ -925,7 +925,7 @@ export class IotDomainConfiguration extends cdktn.TerraformResource {
   }
 
   // domain_configuration_status - computed: true, optional: true, required: false
-  private _domainConfigurationStatus?: string;
+  private _domainConfigurationStatus?: string; 
   public get domainConfigurationStatus() {
     return this.getStringAttribute('domain_configuration_status');
   }
@@ -941,7 +941,7 @@ export class IotDomainConfiguration extends cdktn.TerraformResource {
   }
 
   // domain_name - computed: true, optional: true, required: false
-  private _domainName?: string;
+  private _domainName?: string; 
   public get domainName() {
     return this.getStringAttribute('domain_name');
   }
@@ -967,7 +967,7 @@ export class IotDomainConfiguration extends cdktn.TerraformResource {
   }
 
   // server_certificate_arns - computed: true, optional: true, required: false
-  private _serverCertificateArns?: string[];
+  private _serverCertificateArns?: string[]; 
   public get serverCertificateArns() {
     return this.getListAttribute('server_certificate_arns');
   }
@@ -1005,7 +1005,7 @@ export class IotDomainConfiguration extends cdktn.TerraformResource {
   }
 
   // service_type - computed: true, optional: true, required: false
-  private _serviceType?: string;
+  private _serviceType?: string; 
   public get serviceType() {
     return this.getStringAttribute('service_type');
   }
@@ -1053,7 +1053,7 @@ export class IotDomainConfiguration extends cdktn.TerraformResource {
   }
 
   // validation_certificate_arn - computed: true, optional: true, required: false
-  private _validationCertificateArn?: string;
+  private _validationCertificateArn?: string; 
   public get validationCertificateArn() {
     return this.getStringAttribute('validation_certificate_arn');
   }

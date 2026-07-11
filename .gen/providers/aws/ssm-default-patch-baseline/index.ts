@@ -91,7 +91,7 @@ export class SsmDefaultPatchBaseline extends cdktn.TerraformResource {
   // ==========
 
   // baseline_id - computed: false, optional: false, required: true
-  private _baselineId?: string;
+  private _baselineId?: string; 
   public get baselineId() {
     return this.getStringAttribute('baseline_id');
   }
@@ -104,7 +104,7 @@ export class SsmDefaultPatchBaseline extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -120,7 +120,7 @@ export class SsmDefaultPatchBaseline extends cdktn.TerraformResource {
   }
 
   // operating_system - computed: false, optional: false, required: true
-  private _operatingSystem?: string;
+  private _operatingSystem?: string; 
   public get operatingSystem() {
     return this.getStringAttribute('operating_system');
   }
@@ -133,7 +133,7 @@ export class SsmDefaultPatchBaseline extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

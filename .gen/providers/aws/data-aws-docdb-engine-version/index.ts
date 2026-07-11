@@ -101,7 +101,7 @@ export class DataAwsDocdbEngineVersion extends cdktn.TerraformDataSource {
   // ==========
 
   // engine - computed: false, optional: true, required: false
-  private _engine?: string;
+  private _engine?: string; 
   public get engine() {
     return this.getStringAttribute('engine');
   }
@@ -127,7 +127,7 @@ export class DataAwsDocdbEngineVersion extends cdktn.TerraformDataSource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -143,7 +143,7 @@ export class DataAwsDocdbEngineVersion extends cdktn.TerraformDataSource {
   }
 
   // parameter_group_family - computed: true, optional: true, required: false
-  private _parameterGroupFamily?: string;
+  private _parameterGroupFamily?: string; 
   public get parameterGroupFamily() {
     return this.getStringAttribute('parameter_group_family');
   }
@@ -159,7 +159,7 @@ export class DataAwsDocdbEngineVersion extends cdktn.TerraformDataSource {
   }
 
   // preferred_versions - computed: false, optional: true, required: false
-  private _preferredVersions?: string[];
+  private _preferredVersions?: string[]; 
   public get preferredVersions() {
     return this.getListAttribute('preferred_versions');
   }
@@ -175,7 +175,7 @@ export class DataAwsDocdbEngineVersion extends cdktn.TerraformDataSource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -201,7 +201,7 @@ export class DataAwsDocdbEngineVersion extends cdktn.TerraformDataSource {
   }
 
   // version - computed: true, optional: true, required: false
-  private _version?: string;
+  private _version?: string; 
   public get version() {
     return this.getStringAttribute('version');
   }

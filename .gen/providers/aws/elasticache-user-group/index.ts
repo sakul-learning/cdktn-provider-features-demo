@@ -111,7 +111,7 @@ export class ElasticacheUserGroup extends cdktn.TerraformResource {
   }
 
   // engine - computed: false, optional: false, required: true
-  private _engine?: string;
+  private _engine?: string; 
   public get engine() {
     return this.getStringAttribute('engine');
   }
@@ -124,7 +124,7 @@ export class ElasticacheUserGroup extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -140,7 +140,7 @@ export class ElasticacheUserGroup extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -156,7 +156,7 @@ export class ElasticacheUserGroup extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -172,7 +172,7 @@ export class ElasticacheUserGroup extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -188,7 +188,7 @@ export class ElasticacheUserGroup extends cdktn.TerraformResource {
   }
 
   // user_group_id - computed: false, optional: false, required: true
-  private _userGroupId?: string;
+  private _userGroupId?: string; 
   public get userGroupId() {
     return this.getStringAttribute('user_group_id');
   }
@@ -201,7 +201,7 @@ export class ElasticacheUserGroup extends cdktn.TerraformResource {
   }
 
   // user_ids - computed: false, optional: true, required: false
-  private _userIds?: string[];
+  private _userIds?: string[]; 
   public get userIds() {
     return cdktn.Fn.tolist(this.getListAttribute('user_ids'));
   }

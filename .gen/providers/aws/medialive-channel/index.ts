@@ -1,36 +1,36 @@
 // generated from terraform resource schema
 
-import { MedialiveChannelCdiInputSpecification,
-medialiveChannelCdiInputSpecificationToTerraform,
-medialiveChannelCdiInputSpecificationToHclTerraform,
-MedialiveChannelCdiInputSpecificationOutputReference,
-MedialiveChannelDestinations,
-medialiveChannelDestinationsToTerraform,
-medialiveChannelDestinationsToHclTerraform,
-MedialiveChannelDestinationsList,
-MedialiveChannelEncoderSettings,
-medialiveChannelEncoderSettingsToTerraform,
-medialiveChannelEncoderSettingsToHclTerraform,
-MedialiveChannelEncoderSettingsOutputReference,
-MedialiveChannelInputAttachments,
-medialiveChannelInputAttachmentsToTerraform,
-medialiveChannelInputAttachmentsToHclTerraform,
-MedialiveChannelInputAttachmentsList,
-MedialiveChannelInputSpecification,
-medialiveChannelInputSpecificationToTerraform,
-medialiveChannelInputSpecificationToHclTerraform,
-MedialiveChannelInputSpecificationOutputReference,
-MedialiveChannelMaintenance,
-medialiveChannelMaintenanceToTerraform,
-medialiveChannelMaintenanceToHclTerraform,
-MedialiveChannelMaintenanceOutputReference,
-MedialiveChannelTimeouts,
-medialiveChannelTimeoutsToTerraform,
-medialiveChannelTimeoutsToHclTerraform,
-MedialiveChannelTimeoutsOutputReference,
-MedialiveChannelVpc,
-medialiveChannelVpcToTerraform,
-medialiveChannelVpcToHclTerraform,
+import { MedialiveChannelCdiInputSpecification, 
+medialiveChannelCdiInputSpecificationToTerraform, 
+medialiveChannelCdiInputSpecificationToHclTerraform, 
+MedialiveChannelCdiInputSpecificationOutputReference, 
+MedialiveChannelDestinations, 
+medialiveChannelDestinationsToTerraform, 
+medialiveChannelDestinationsToHclTerraform, 
+MedialiveChannelDestinationsList, 
+MedialiveChannelEncoderSettings, 
+medialiveChannelEncoderSettingsToTerraform, 
+medialiveChannelEncoderSettingsToHclTerraform, 
+MedialiveChannelEncoderSettingsOutputReference, 
+MedialiveChannelInputAttachments, 
+medialiveChannelInputAttachmentsToTerraform, 
+medialiveChannelInputAttachmentsToHclTerraform, 
+MedialiveChannelInputAttachmentsList, 
+MedialiveChannelInputSpecification, 
+medialiveChannelInputSpecificationToTerraform, 
+medialiveChannelInputSpecificationToHclTerraform, 
+MedialiveChannelInputSpecificationOutputReference, 
+MedialiveChannelMaintenance, 
+medialiveChannelMaintenanceToTerraform, 
+medialiveChannelMaintenanceToHclTerraform, 
+MedialiveChannelMaintenanceOutputReference, 
+MedialiveChannelTimeouts, 
+medialiveChannelTimeoutsToTerraform, 
+medialiveChannelTimeoutsToHclTerraform, 
+MedialiveChannelTimeoutsOutputReference, 
+MedialiveChannelVpc, 
+medialiveChannelVpcToTerraform, 
+medialiveChannelVpcToHclTerraform, 
 MedialiveChannelVpcOutputReference} from './index-structs/index.js';
 export * from './index-structs/index.js';
 import { Construct } from 'constructs';
@@ -206,7 +206,7 @@ export class MedialiveChannel extends cdktn.TerraformResource {
   }
 
   // channel_class - computed: false, optional: false, required: true
-  private _channelClass?: string;
+  private _channelClass?: string; 
   public get channelClass() {
     return this.getStringAttribute('channel_class');
   }
@@ -224,7 +224,7 @@ export class MedialiveChannel extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -240,7 +240,7 @@ export class MedialiveChannel extends cdktn.TerraformResource {
   }
 
   // log_level - computed: true, optional: true, required: false
-  private _logLevel?: string;
+  private _logLevel?: string; 
   public get logLevel() {
     return this.getStringAttribute('log_level');
   }
@@ -256,7 +256,7 @@ export class MedialiveChannel extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -269,7 +269,7 @@ export class MedialiveChannel extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -285,7 +285,7 @@ export class MedialiveChannel extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -301,7 +301,7 @@ export class MedialiveChannel extends cdktn.TerraformResource {
   }
 
   // start_channel - computed: false, optional: true, required: false
-  private _startChannel?: boolean | cdktn.IResolvable;
+  private _startChannel?: boolean | cdktn.IResolvable; 
   public get startChannel() {
     return this.getBooleanAttribute('start_channel');
   }
@@ -317,7 +317,7 @@ export class MedialiveChannel extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -333,7 +333,7 @@ export class MedialiveChannel extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

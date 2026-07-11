@@ -332,7 +332,7 @@ export class NetworkmanagerCoreNetworkTimeoutsOutputReference extends cdktn.Comp
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -348,7 +348,7 @@ export class NetworkmanagerCoreNetworkTimeoutsOutputReference extends cdktn.Comp
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -364,7 +364,7 @@ export class NetworkmanagerCoreNetworkTimeoutsOutputReference extends cdktn.Comp
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -451,7 +451,7 @@ export class NetworkmanagerCoreNetwork extends cdktn.TerraformResource {
   }
 
   // base_policy_document - computed: false, optional: true, required: false
-  private _basePolicyDocument?: string;
+  private _basePolicyDocument?: string; 
   public get basePolicyDocument() {
     return this.getStringAttribute('base_policy_document');
   }
@@ -467,7 +467,7 @@ export class NetworkmanagerCoreNetwork extends cdktn.TerraformResource {
   }
 
   // base_policy_regions - computed: false, optional: true, required: false
-  private _basePolicyRegions?: string[];
+  private _basePolicyRegions?: string[]; 
   public get basePolicyRegions() {
     return cdktn.Fn.tolist(this.getListAttribute('base_policy_regions'));
   }
@@ -483,7 +483,7 @@ export class NetworkmanagerCoreNetwork extends cdktn.TerraformResource {
   }
 
   // create_base_policy - computed: false, optional: true, required: false
-  private _createBasePolicy?: boolean | cdktn.IResolvable;
+  private _createBasePolicy?: boolean | cdktn.IResolvable; 
   public get createBasePolicy() {
     return this.getBooleanAttribute('create_base_policy');
   }
@@ -504,7 +504,7 @@ export class NetworkmanagerCoreNetwork extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -526,7 +526,7 @@ export class NetworkmanagerCoreNetwork extends cdktn.TerraformResource {
   }
 
   // global_network_id - computed: false, optional: false, required: true
-  private _globalNetworkId?: string;
+  private _globalNetworkId?: string; 
   public get globalNetworkId() {
     return this.getStringAttribute('global_network_id');
   }
@@ -539,7 +539,7 @@ export class NetworkmanagerCoreNetwork extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -566,7 +566,7 @@ export class NetworkmanagerCoreNetwork extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -582,7 +582,7 @@ export class NetworkmanagerCoreNetwork extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

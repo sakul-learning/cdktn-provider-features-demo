@@ -48,7 +48,7 @@ export interface EksFargateProfileSelectorsLabels {
   */
   readonly key?: string;
   /**
-  * The value for the label.
+  * The value for the label. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eks_fargate_profile#value EksFargateProfile#value}
   */
@@ -142,7 +142,7 @@ export class EksFargateProfileSelectorsLabelsOutputReference extends cdktn.Compl
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -158,7 +158,7 @@ export class EksFargateProfileSelectorsLabelsOutputReference extends cdktn.Compl
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -307,7 +307,7 @@ export class EksFargateProfileSelectorsOutputReference extends cdktn.ComplexObje
   }
 
   // namespace - computed: false, optional: false, required: true
-  private _namespace?: string;
+  private _namespace?: string; 
   public get namespace() {
     return this.getStringAttribute('namespace');
   }
@@ -341,13 +341,13 @@ export class EksFargateProfileSelectorsList extends cdktn.ComplexList {
 }
 export interface EksFargateProfileTags {
   /**
-  * The key name of the tag. You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
+  * The key name of the tag. You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eks_fargate_profile#key EksFargateProfile#key}
   */
   readonly key?: string;
   /**
-  * The value for the tag. You can specify a value that is 1 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
+  * The value for the tag. You can specify a value that is 1 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eks_fargate_profile#value EksFargateProfile#value}
   */
@@ -441,7 +441,7 @@ export class EksFargateProfileTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -457,7 +457,7 @@ export class EksFargateProfileTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -561,7 +561,7 @@ export class EksFargateProfile extends cdktn.TerraformResource {
   }
 
   // cluster_name - computed: false, optional: false, required: true
-  private _clusterName?: string;
+  private _clusterName?: string; 
   public get clusterName() {
     return this.getStringAttribute('cluster_name');
   }
@@ -574,7 +574,7 @@ export class EksFargateProfile extends cdktn.TerraformResource {
   }
 
   // fargate_profile_name - computed: true, optional: true, required: false
-  private _fargateProfileName?: string;
+  private _fargateProfileName?: string; 
   public get fargateProfileName() {
     return this.getStringAttribute('fargate_profile_name');
   }
@@ -595,7 +595,7 @@ export class EksFargateProfile extends cdktn.TerraformResource {
   }
 
   // pod_execution_role_arn - computed: false, optional: false, required: true
-  private _podExecutionRoleArn?: string;
+  private _podExecutionRoleArn?: string; 
   public get podExecutionRoleArn() {
     return this.getStringAttribute('pod_execution_role_arn');
   }
@@ -621,7 +621,7 @@ export class EksFargateProfile extends cdktn.TerraformResource {
   }
 
   // subnets - computed: true, optional: true, required: false
-  private _subnets?: string[];
+  private _subnets?: string[]; 
   public get subnets() {
     return this.getListAttribute('subnets');
   }

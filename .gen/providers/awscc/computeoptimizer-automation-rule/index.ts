@@ -166,7 +166,7 @@ export class ComputeoptimizerAutomationRuleCriteriaEbsVolumeSizeInGibOutputRefer
   }
 
   // comparison - computed: true, optional: true, required: false
-  private _comparison?: string;
+  private _comparison?: string; 
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -182,7 +182,7 @@ export class ComputeoptimizerAutomationRuleCriteriaEbsVolumeSizeInGibOutputRefer
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: number[];
+  private _values?: number[]; 
   public get values() {
     return this.getNumberListAttribute('values');
   }
@@ -315,7 +315,7 @@ export class ComputeoptimizerAutomationRuleCriteriaEbsVolumeTypeOutputReference 
   }
 
   // comparison - computed: true, optional: true, required: false
-  private _comparison?: string;
+  private _comparison?: string; 
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -331,7 +331,7 @@ export class ComputeoptimizerAutomationRuleCriteriaEbsVolumeTypeOutputReference 
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -464,7 +464,7 @@ export class ComputeoptimizerAutomationRuleCriteriaEstimatedMonthlySavingsOutput
   }
 
   // comparison - computed: true, optional: true, required: false
-  private _comparison?: string;
+  private _comparison?: string; 
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -480,7 +480,7 @@ export class ComputeoptimizerAutomationRuleCriteriaEstimatedMonthlySavingsOutput
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: number[];
+  private _values?: number[]; 
   public get values() {
     return this.getNumberListAttribute('values');
   }
@@ -613,7 +613,7 @@ export class ComputeoptimizerAutomationRuleCriteriaLookBackPeriodInDaysOutputRef
   }
 
   // comparison - computed: true, optional: true, required: false
-  private _comparison?: string;
+  private _comparison?: string; 
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -629,7 +629,7 @@ export class ComputeoptimizerAutomationRuleCriteriaLookBackPeriodInDaysOutputRef
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: number[];
+  private _values?: number[]; 
   public get values() {
     return this.getNumberListAttribute('values');
   }
@@ -762,7 +762,7 @@ export class ComputeoptimizerAutomationRuleCriteriaRegionOutputReference extends
   }
 
   // comparison - computed: true, optional: true, required: false
-  private _comparison?: string;
+  private _comparison?: string; 
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -778,7 +778,7 @@ export class ComputeoptimizerAutomationRuleCriteriaRegionOutputReference extends
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -911,7 +911,7 @@ export class ComputeoptimizerAutomationRuleCriteriaResourceArnOutputReference ex
   }
 
   // comparison - computed: true, optional: true, required: false
-  private _comparison?: string;
+  private _comparison?: string; 
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -927,7 +927,7 @@ export class ComputeoptimizerAutomationRuleCriteriaResourceArnOutputReference ex
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -1077,7 +1077,7 @@ export class ComputeoptimizerAutomationRuleCriteriaResourceTagOutputReference ex
   }
 
   // comparison - computed: true, optional: true, required: false
-  private _comparison?: string;
+  private _comparison?: string; 
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -1093,7 +1093,7 @@ export class ComputeoptimizerAutomationRuleCriteriaResourceTagOutputReference ex
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1109,7 +1109,7 @@ export class ComputeoptimizerAutomationRuleCriteriaResourceTagOutputReference ex
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -1242,7 +1242,7 @@ export class ComputeoptimizerAutomationRuleCriteriaRestartNeededOutputReference 
   }
 
   // comparison - computed: true, optional: true, required: false
-  private _comparison?: string;
+  private _comparison?: string; 
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -1258,7 +1258,7 @@ export class ComputeoptimizerAutomationRuleCriteriaRestartNeededOutputReference 
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -1718,7 +1718,7 @@ export class ComputeoptimizerAutomationRuleOrganizationConfigurationOutputRefere
   }
 
   // account_ids - computed: true, optional: true, required: false
-  private _accountIds?: string[];
+  private _accountIds?: string[]; 
   public get accountIds() {
     return this.getListAttribute('account_ids');
   }
@@ -1734,7 +1734,7 @@ export class ComputeoptimizerAutomationRuleOrganizationConfigurationOutputRefere
   }
 
   // rule_apply_order - computed: true, optional: true, required: false
-  private _ruleApplyOrder?: string;
+  private _ruleApplyOrder?: string; 
   public get ruleApplyOrder() {
     return this.getStringAttribute('rule_apply_order');
   }
@@ -1868,7 +1868,7 @@ export class ComputeoptimizerAutomationRuleScheduleOutputReference extends cdktn
   }
 
   // execution_window_in_minutes - computed: true, optional: true, required: false
-  private _executionWindowInMinutes?: number;
+  private _executionWindowInMinutes?: number; 
   public get executionWindowInMinutes() {
     return this.getNumberAttribute('execution_window_in_minutes');
   }
@@ -1884,7 +1884,7 @@ export class ComputeoptimizerAutomationRuleScheduleOutputReference extends cdktn
   }
 
   // schedule_expression - computed: true, optional: true, required: false
-  private _scheduleExpression?: string;
+  private _scheduleExpression?: string; 
   public get scheduleExpression() {
     return this.getStringAttribute('schedule_expression');
   }
@@ -1900,7 +1900,7 @@ export class ComputeoptimizerAutomationRuleScheduleOutputReference extends cdktn
   }
 
   // schedule_expression_timezone - computed: true, optional: true, required: false
-  private _scheduleExpressionTimezone?: string;
+  private _scheduleExpressionTimezone?: string; 
   public get scheduleExpressionTimezone() {
     return this.getStringAttribute('schedule_expression_timezone');
   }
@@ -2013,7 +2013,7 @@ export class ComputeoptimizerAutomationRuleTagsOutputReference extends cdktn.Com
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -2029,7 +2029,7 @@ export class ComputeoptimizerAutomationRuleTagsOutputReference extends cdktn.Com
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2158,7 +2158,7 @@ export class ComputeoptimizerAutomationRule extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -2184,7 +2184,7 @@ export class ComputeoptimizerAutomationRule extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2213,7 +2213,7 @@ export class ComputeoptimizerAutomationRule extends cdktn.TerraformResource {
   }
 
   // priority - computed: true, optional: true, required: false
-  private _priority?: string;
+  private _priority?: string; 
   public get priority() {
     return this.getStringAttribute('priority');
   }
@@ -2229,7 +2229,7 @@ export class ComputeoptimizerAutomationRule extends cdktn.TerraformResource {
   }
 
   // recommended_action_types - computed: false, optional: false, required: true
-  private _recommendedActionTypes?: string[];
+  private _recommendedActionTypes?: string[]; 
   public get recommendedActionTypes() {
     return this.getListAttribute('recommended_action_types');
   }
@@ -2257,7 +2257,7 @@ export class ComputeoptimizerAutomationRule extends cdktn.TerraformResource {
   }
 
   // rule_type - computed: false, optional: false, required: true
-  private _ruleType?: string;
+  private _ruleType?: string; 
   public get ruleType() {
     return this.getStringAttribute('rule_type');
   }
@@ -2283,7 +2283,7 @@ export class ComputeoptimizerAutomationRule extends cdktn.TerraformResource {
   }
 
   // status - computed: false, optional: false, required: true
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }

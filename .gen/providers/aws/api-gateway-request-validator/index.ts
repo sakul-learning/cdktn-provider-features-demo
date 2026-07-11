@@ -101,7 +101,7 @@ export class ApiGatewayRequestValidator extends cdktn.TerraformResource {
   // ==========
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -117,7 +117,7 @@ export class ApiGatewayRequestValidator extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -130,7 +130,7 @@ export class ApiGatewayRequestValidator extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -146,7 +146,7 @@ export class ApiGatewayRequestValidator extends cdktn.TerraformResource {
   }
 
   // rest_api_id - computed: false, optional: false, required: true
-  private _restApiId?: string;
+  private _restApiId?: string; 
   public get restApiId() {
     return this.getStringAttribute('rest_api_id');
   }
@@ -159,7 +159,7 @@ export class ApiGatewayRequestValidator extends cdktn.TerraformResource {
   }
 
   // validate_request_body - computed: false, optional: true, required: false
-  private _validateRequestBody?: boolean | cdktn.IResolvable;
+  private _validateRequestBody?: boolean | cdktn.IResolvable; 
   public get validateRequestBody() {
     return this.getBooleanAttribute('validate_request_body');
   }
@@ -175,7 +175,7 @@ export class ApiGatewayRequestValidator extends cdktn.TerraformResource {
   }
 
   // validate_request_parameters - computed: false, optional: true, required: false
-  private _validateRequestParameters?: boolean | cdktn.IResolvable;
+  private _validateRequestParameters?: boolean | cdktn.IResolvable; 
   public get validateRequestParameters() {
     return this.getBooleanAttribute('validate_request_parameters');
   }

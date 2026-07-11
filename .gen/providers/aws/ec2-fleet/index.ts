@@ -241,7 +241,7 @@ export class Ec2FleetFleetInstanceSetOutputReference extends cdktn.ComplexObject
   }
 
   // instance_ids - computed: true, optional: true, required: false
-  private _instanceIds?: string[];
+  private _instanceIds?: string[]; 
   public get instanceIds() {
     return this.getListAttribute('instance_ids');
   }
@@ -257,7 +257,7 @@ export class Ec2FleetFleetInstanceSetOutputReference extends cdktn.ComplexObject
   }
 
   // instance_type - computed: true, optional: true, required: false
-  private _instanceType?: string;
+  private _instanceType?: string; 
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -273,7 +273,7 @@ export class Ec2FleetFleetInstanceSetOutputReference extends cdktn.ComplexObject
   }
 
   // lifecycle - computed: true, optional: true, required: false
-  private _lifecycle?: string;
+  private _lifecycle?: string; 
   public get lifecycle() {
     return this.getStringAttribute('lifecycle');
   }
@@ -289,7 +289,7 @@ export class Ec2FleetFleetInstanceSetOutputReference extends cdktn.ComplexObject
   }
 
   // platform - computed: true, optional: true, required: false
-  private _platform?: string;
+  private _platform?: string; 
   public get platform() {
     return this.getStringAttribute('platform');
   }
@@ -427,7 +427,7 @@ export class Ec2FleetLaunchTemplateConfigLaunchTemplateSpecificationOutputRefere
   }
 
   // launch_template_id - computed: false, optional: true, required: false
-  private _launchTemplateId?: string;
+  private _launchTemplateId?: string; 
   public get launchTemplateId() {
     return this.getStringAttribute('launch_template_id');
   }
@@ -443,7 +443,7 @@ export class Ec2FleetLaunchTemplateConfigLaunchTemplateSpecificationOutputRefere
   }
 
   // launch_template_name - computed: false, optional: true, required: false
-  private _launchTemplateName?: string;
+  private _launchTemplateName?: string; 
   public get launchTemplateName() {
     return this.getStringAttribute('launch_template_name');
   }
@@ -459,7 +459,7 @@ export class Ec2FleetLaunchTemplateConfigLaunchTemplateSpecificationOutputRefere
   }
 
   // version - computed: false, optional: false, required: true
-  private _version?: string;
+  private _version?: string; 
   public get version() {
     return this.getStringAttribute('version');
   }
@@ -557,7 +557,7 @@ export class Ec2FleetLaunchTemplateConfigOverrideInstanceRequirementsAccelerator
   }
 
   // max - computed: false, optional: true, required: false
-  private _max?: number;
+  private _max?: number; 
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -573,7 +573,7 @@ export class Ec2FleetLaunchTemplateConfigOverrideInstanceRequirementsAccelerator
   }
 
   // min - computed: false, optional: true, required: false
-  private _min?: number;
+  private _min?: number; 
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -674,7 +674,7 @@ export class Ec2FleetLaunchTemplateConfigOverrideInstanceRequirementsAccelerator
   }
 
   // max - computed: false, optional: true, required: false
-  private _max?: number;
+  private _max?: number; 
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -690,7 +690,7 @@ export class Ec2FleetLaunchTemplateConfigOverrideInstanceRequirementsAccelerator
   }
 
   // min - computed: false, optional: true, required: false
-  private _min?: number;
+  private _min?: number; 
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -791,7 +791,7 @@ export class Ec2FleetLaunchTemplateConfigOverrideInstanceRequirementsBaselineEbs
   }
 
   // max - computed: false, optional: true, required: false
-  private _max?: number;
+  private _max?: number; 
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -807,7 +807,7 @@ export class Ec2FleetLaunchTemplateConfigOverrideInstanceRequirementsBaselineEbs
   }
 
   // min - computed: false, optional: true, required: false
-  private _min?: number;
+  private _min?: number; 
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -908,7 +908,7 @@ export class Ec2FleetLaunchTemplateConfigOverrideInstanceRequirementsMemoryGibPe
   }
 
   // max - computed: false, optional: true, required: false
-  private _max?: number;
+  private _max?: number; 
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -924,7 +924,7 @@ export class Ec2FleetLaunchTemplateConfigOverrideInstanceRequirementsMemoryGibPe
   }
 
   // min - computed: false, optional: true, required: false
-  private _min?: number;
+  private _min?: number; 
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -1025,7 +1025,7 @@ export class Ec2FleetLaunchTemplateConfigOverrideInstanceRequirementsMemoryMibOu
   }
 
   // max - computed: false, optional: true, required: false
-  private _max?: number;
+  private _max?: number; 
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -1041,7 +1041,7 @@ export class Ec2FleetLaunchTemplateConfigOverrideInstanceRequirementsMemoryMibOu
   }
 
   // min - computed: false, optional: false, required: true
-  private _min?: number;
+  private _min?: number; 
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -1139,7 +1139,7 @@ export class Ec2FleetLaunchTemplateConfigOverrideInstanceRequirementsNetworkBand
   }
 
   // max - computed: false, optional: true, required: false
-  private _max?: number;
+  private _max?: number; 
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -1155,7 +1155,7 @@ export class Ec2FleetLaunchTemplateConfigOverrideInstanceRequirementsNetworkBand
   }
 
   // min - computed: false, optional: true, required: false
-  private _min?: number;
+  private _min?: number; 
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -1256,7 +1256,7 @@ export class Ec2FleetLaunchTemplateConfigOverrideInstanceRequirementsNetworkInte
   }
 
   // max - computed: false, optional: true, required: false
-  private _max?: number;
+  private _max?: number; 
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -1272,7 +1272,7 @@ export class Ec2FleetLaunchTemplateConfigOverrideInstanceRequirementsNetworkInte
   }
 
   // min - computed: false, optional: true, required: false
-  private _min?: number;
+  private _min?: number; 
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -1373,7 +1373,7 @@ export class Ec2FleetLaunchTemplateConfigOverrideInstanceRequirementsTotalLocalS
   }
 
   // max - computed: false, optional: true, required: false
-  private _max?: number;
+  private _max?: number; 
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -1389,7 +1389,7 @@ export class Ec2FleetLaunchTemplateConfigOverrideInstanceRequirementsTotalLocalS
   }
 
   // min - computed: false, optional: true, required: false
-  private _min?: number;
+  private _min?: number; 
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -1490,7 +1490,7 @@ export class Ec2FleetLaunchTemplateConfigOverrideInstanceRequirementsVcpuCountOu
   }
 
   // max - computed: false, optional: true, required: false
-  private _max?: number;
+  private _max?: number; 
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -1506,7 +1506,7 @@ export class Ec2FleetLaunchTemplateConfigOverrideInstanceRequirementsVcpuCountOu
   }
 
   // min - computed: false, optional: false, required: true
-  private _min?: number;
+  private _min?: number; 
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -1996,7 +1996,7 @@ export class Ec2FleetLaunchTemplateConfigOverrideInstanceRequirementsOutputRefer
   }
 
   // accelerator_manufacturers - computed: false, optional: true, required: false
-  private _acceleratorManufacturers?: string[];
+  private _acceleratorManufacturers?: string[]; 
   public get acceleratorManufacturers() {
     return cdktn.Fn.tolist(this.getListAttribute('accelerator_manufacturers'));
   }
@@ -2012,7 +2012,7 @@ export class Ec2FleetLaunchTemplateConfigOverrideInstanceRequirementsOutputRefer
   }
 
   // accelerator_names - computed: false, optional: true, required: false
-  private _acceleratorNames?: string[];
+  private _acceleratorNames?: string[]; 
   public get acceleratorNames() {
     return cdktn.Fn.tolist(this.getListAttribute('accelerator_names'));
   }
@@ -2028,7 +2028,7 @@ export class Ec2FleetLaunchTemplateConfigOverrideInstanceRequirementsOutputRefer
   }
 
   // accelerator_types - computed: false, optional: true, required: false
-  private _acceleratorTypes?: string[];
+  private _acceleratorTypes?: string[]; 
   public get acceleratorTypes() {
     return cdktn.Fn.tolist(this.getListAttribute('accelerator_types'));
   }
@@ -2044,7 +2044,7 @@ export class Ec2FleetLaunchTemplateConfigOverrideInstanceRequirementsOutputRefer
   }
 
   // allowed_instance_types - computed: false, optional: true, required: false
-  private _allowedInstanceTypes?: string[];
+  private _allowedInstanceTypes?: string[]; 
   public get allowedInstanceTypes() {
     return cdktn.Fn.tolist(this.getListAttribute('allowed_instance_types'));
   }
@@ -2060,7 +2060,7 @@ export class Ec2FleetLaunchTemplateConfigOverrideInstanceRequirementsOutputRefer
   }
 
   // bare_metal - computed: false, optional: true, required: false
-  private _bareMetal?: string;
+  private _bareMetal?: string; 
   public get bareMetal() {
     return this.getStringAttribute('bare_metal');
   }
@@ -2076,7 +2076,7 @@ export class Ec2FleetLaunchTemplateConfigOverrideInstanceRequirementsOutputRefer
   }
 
   // burstable_performance - computed: false, optional: true, required: false
-  private _burstablePerformance?: string;
+  private _burstablePerformance?: string; 
   public get burstablePerformance() {
     return this.getStringAttribute('burstable_performance');
   }
@@ -2092,7 +2092,7 @@ export class Ec2FleetLaunchTemplateConfigOverrideInstanceRequirementsOutputRefer
   }
 
   // cpu_manufacturers - computed: false, optional: true, required: false
-  private _cpuManufacturers?: string[];
+  private _cpuManufacturers?: string[]; 
   public get cpuManufacturers() {
     return cdktn.Fn.tolist(this.getListAttribute('cpu_manufacturers'));
   }
@@ -2108,7 +2108,7 @@ export class Ec2FleetLaunchTemplateConfigOverrideInstanceRequirementsOutputRefer
   }
 
   // excluded_instance_types - computed: false, optional: true, required: false
-  private _excludedInstanceTypes?: string[];
+  private _excludedInstanceTypes?: string[]; 
   public get excludedInstanceTypes() {
     return cdktn.Fn.tolist(this.getListAttribute('excluded_instance_types'));
   }
@@ -2124,7 +2124,7 @@ export class Ec2FleetLaunchTemplateConfigOverrideInstanceRequirementsOutputRefer
   }
 
   // instance_generations - computed: false, optional: true, required: false
-  private _instanceGenerations?: string[];
+  private _instanceGenerations?: string[]; 
   public get instanceGenerations() {
     return cdktn.Fn.tolist(this.getListAttribute('instance_generations'));
   }
@@ -2140,7 +2140,7 @@ export class Ec2FleetLaunchTemplateConfigOverrideInstanceRequirementsOutputRefer
   }
 
   // local_storage - computed: false, optional: true, required: false
-  private _localStorage?: string;
+  private _localStorage?: string; 
   public get localStorage() {
     return this.getStringAttribute('local_storage');
   }
@@ -2156,7 +2156,7 @@ export class Ec2FleetLaunchTemplateConfigOverrideInstanceRequirementsOutputRefer
   }
 
   // local_storage_types - computed: false, optional: true, required: false
-  private _localStorageTypes?: string[];
+  private _localStorageTypes?: string[]; 
   public get localStorageTypes() {
     return cdktn.Fn.tolist(this.getListAttribute('local_storage_types'));
   }
@@ -2172,7 +2172,7 @@ export class Ec2FleetLaunchTemplateConfigOverrideInstanceRequirementsOutputRefer
   }
 
   // max_spot_price_as_percentage_of_optimal_on_demand_price - computed: false, optional: true, required: false
-  private _maxSpotPriceAsPercentageOfOptimalOnDemandPrice?: number;
+  private _maxSpotPriceAsPercentageOfOptimalOnDemandPrice?: number; 
   public get maxSpotPriceAsPercentageOfOptimalOnDemandPrice() {
     return this.getNumberAttribute('max_spot_price_as_percentage_of_optimal_on_demand_price');
   }
@@ -2188,7 +2188,7 @@ export class Ec2FleetLaunchTemplateConfigOverrideInstanceRequirementsOutputRefer
   }
 
   // on_demand_max_price_percentage_over_lowest_price - computed: false, optional: true, required: false
-  private _onDemandMaxPricePercentageOverLowestPrice?: number;
+  private _onDemandMaxPricePercentageOverLowestPrice?: number; 
   public get onDemandMaxPricePercentageOverLowestPrice() {
     return this.getNumberAttribute('on_demand_max_price_percentage_over_lowest_price');
   }
@@ -2204,7 +2204,7 @@ export class Ec2FleetLaunchTemplateConfigOverrideInstanceRequirementsOutputRefer
   }
 
   // require_hibernate_support - computed: false, optional: true, required: false
-  private _requireHibernateSupport?: boolean | cdktn.IResolvable;
+  private _requireHibernateSupport?: boolean | cdktn.IResolvable; 
   public get requireHibernateSupport() {
     return this.getBooleanAttribute('require_hibernate_support');
   }
@@ -2220,7 +2220,7 @@ export class Ec2FleetLaunchTemplateConfigOverrideInstanceRequirementsOutputRefer
   }
 
   // spot_max_price_percentage_over_lowest_price - computed: false, optional: true, required: false
-  private _spotMaxPricePercentageOverLowestPrice?: number;
+  private _spotMaxPricePercentageOverLowestPrice?: number; 
   public get spotMaxPricePercentageOverLowestPrice() {
     return this.getNumberAttribute('spot_max_price_percentage_over_lowest_price');
   }
@@ -2558,7 +2558,7 @@ export class Ec2FleetLaunchTemplateConfigOverrideOutputReference extends cdktn.C
   }
 
   // availability_zone - computed: false, optional: true, required: false
-  private _availabilityZone?: string;
+  private _availabilityZone?: string; 
   public get availabilityZone() {
     return this.getStringAttribute('availability_zone');
   }
@@ -2574,7 +2574,7 @@ export class Ec2FleetLaunchTemplateConfigOverrideOutputReference extends cdktn.C
   }
 
   // instance_type - computed: false, optional: true, required: false
-  private _instanceType?: string;
+  private _instanceType?: string; 
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -2590,7 +2590,7 @@ export class Ec2FleetLaunchTemplateConfigOverrideOutputReference extends cdktn.C
   }
 
   // max_price - computed: false, optional: true, required: false
-  private _maxPrice?: string;
+  private _maxPrice?: string; 
   public get maxPrice() {
     return this.getStringAttribute('max_price');
   }
@@ -2606,7 +2606,7 @@ export class Ec2FleetLaunchTemplateConfigOverrideOutputReference extends cdktn.C
   }
 
   // priority - computed: false, optional: true, required: false
-  private _priority?: number;
+  private _priority?: number; 
   public get priority() {
     return this.getNumberAttribute('priority');
   }
@@ -2622,7 +2622,7 @@ export class Ec2FleetLaunchTemplateConfigOverrideOutputReference extends cdktn.C
   }
 
   // subnet_id - computed: false, optional: true, required: false
-  private _subnetId?: string;
+  private _subnetId?: string; 
   public get subnetId() {
     return this.getStringAttribute('subnet_id');
   }
@@ -2638,7 +2638,7 @@ export class Ec2FleetLaunchTemplateConfigOverrideOutputReference extends cdktn.C
   }
 
   // weighted_capacity - computed: false, optional: true, required: false
-  private _weightedCapacity?: number;
+  private _weightedCapacity?: number; 
   public get weightedCapacity() {
     return this.getNumberAttribute('weighted_capacity');
   }
@@ -2911,7 +2911,7 @@ export class Ec2FleetOnDemandOptionsCapacityReservationOptionsOutputReference ex
   }
 
   // usage_strategy - computed: false, optional: true, required: false
-  private _usageStrategy?: string;
+  private _usageStrategy?: string; 
   public get usageStrategy() {
     return this.getStringAttribute('usage_strategy');
   }
@@ -3082,7 +3082,7 @@ export class Ec2FleetOnDemandOptionsOutputReference extends cdktn.ComplexObject 
   }
 
   // allocation_strategy - computed: false, optional: true, required: false
-  private _allocationStrategy?: string;
+  private _allocationStrategy?: string; 
   public get allocationStrategy() {
     return this.getStringAttribute('allocation_strategy');
   }
@@ -3098,7 +3098,7 @@ export class Ec2FleetOnDemandOptionsOutputReference extends cdktn.ComplexObject 
   }
 
   // max_total_price - computed: false, optional: true, required: false
-  private _maxTotalPrice?: string;
+  private _maxTotalPrice?: string; 
   public get maxTotalPrice() {
     return this.getStringAttribute('max_total_price');
   }
@@ -3114,7 +3114,7 @@ export class Ec2FleetOnDemandOptionsOutputReference extends cdktn.ComplexObject 
   }
 
   // min_target_capacity - computed: false, optional: true, required: false
-  private _minTargetCapacity?: number;
+  private _minTargetCapacity?: number; 
   public get minTargetCapacity() {
     return this.getNumberAttribute('min_target_capacity');
   }
@@ -3130,7 +3130,7 @@ export class Ec2FleetOnDemandOptionsOutputReference extends cdktn.ComplexObject 
   }
 
   // single_availability_zone - computed: false, optional: true, required: false
-  private _singleAvailabilityZone?: boolean | cdktn.IResolvable;
+  private _singleAvailabilityZone?: boolean | cdktn.IResolvable; 
   public get singleAvailabilityZone() {
     return this.getBooleanAttribute('single_availability_zone');
   }
@@ -3146,7 +3146,7 @@ export class Ec2FleetOnDemandOptionsOutputReference extends cdktn.ComplexObject 
   }
 
   // single_instance_type - computed: false, optional: true, required: false
-  private _singleInstanceType?: boolean | cdktn.IResolvable;
+  private _singleInstanceType?: boolean | cdktn.IResolvable; 
   public get singleInstanceType() {
     return this.getBooleanAttribute('single_instance_type');
   }
@@ -3263,7 +3263,7 @@ export class Ec2FleetSpotOptionsMaintenanceStrategiesCapacityRebalanceOutputRefe
   }
 
   // replacement_strategy - computed: false, optional: true, required: false
-  private _replacementStrategy?: string;
+  private _replacementStrategy?: string; 
   public get replacementStrategy() {
     return this.getStringAttribute('replacement_strategy');
   }
@@ -3279,7 +3279,7 @@ export class Ec2FleetSpotOptionsMaintenanceStrategiesCapacityRebalanceOutputRefe
   }
 
   // termination_delay - computed: false, optional: true, required: false
-  private _terminationDelay?: number;
+  private _terminationDelay?: number; 
   public get terminationDelay() {
     return this.getNumberAttribute('termination_delay');
   }
@@ -3570,7 +3570,7 @@ export class Ec2FleetSpotOptionsOutputReference extends cdktn.ComplexObject {
   }
 
   // allocation_strategy - computed: false, optional: true, required: false
-  private _allocationStrategy?: string;
+  private _allocationStrategy?: string; 
   public get allocationStrategy() {
     return this.getStringAttribute('allocation_strategy');
   }
@@ -3586,7 +3586,7 @@ export class Ec2FleetSpotOptionsOutputReference extends cdktn.ComplexObject {
   }
 
   // instance_interruption_behavior - computed: false, optional: true, required: false
-  private _instanceInterruptionBehavior?: string;
+  private _instanceInterruptionBehavior?: string; 
   public get instanceInterruptionBehavior() {
     return this.getStringAttribute('instance_interruption_behavior');
   }
@@ -3602,7 +3602,7 @@ export class Ec2FleetSpotOptionsOutputReference extends cdktn.ComplexObject {
   }
 
   // instance_pools_to_use_count - computed: false, optional: true, required: false
-  private _instancePoolsToUseCount?: number;
+  private _instancePoolsToUseCount?: number; 
   public get instancePoolsToUseCount() {
     return this.getNumberAttribute('instance_pools_to_use_count');
   }
@@ -3618,7 +3618,7 @@ export class Ec2FleetSpotOptionsOutputReference extends cdktn.ComplexObject {
   }
 
   // max_total_price - computed: false, optional: true, required: false
-  private _maxTotalPrice?: string;
+  private _maxTotalPrice?: string; 
   public get maxTotalPrice() {
     return this.getStringAttribute('max_total_price');
   }
@@ -3634,7 +3634,7 @@ export class Ec2FleetSpotOptionsOutputReference extends cdktn.ComplexObject {
   }
 
   // min_target_capacity - computed: false, optional: true, required: false
-  private _minTargetCapacity?: number;
+  private _minTargetCapacity?: number; 
   public get minTargetCapacity() {
     return this.getNumberAttribute('min_target_capacity');
   }
@@ -3650,7 +3650,7 @@ export class Ec2FleetSpotOptionsOutputReference extends cdktn.ComplexObject {
   }
 
   // single_availability_zone - computed: false, optional: true, required: false
-  private _singleAvailabilityZone?: boolean | cdktn.IResolvable;
+  private _singleAvailabilityZone?: boolean | cdktn.IResolvable; 
   public get singleAvailabilityZone() {
     return this.getBooleanAttribute('single_availability_zone');
   }
@@ -3666,7 +3666,7 @@ export class Ec2FleetSpotOptionsOutputReference extends cdktn.ComplexObject {
   }
 
   // single_instance_type - computed: false, optional: true, required: false
-  private _singleInstanceType?: boolean | cdktn.IResolvable;
+  private _singleInstanceType?: boolean | cdktn.IResolvable; 
   public get singleInstanceType() {
     return this.getBooleanAttribute('single_instance_type');
   }
@@ -3834,7 +3834,7 @@ export class Ec2FleetTargetCapacitySpecificationOutputReference extends cdktn.Co
   }
 
   // default_target_capacity_type - computed: false, optional: false, required: true
-  private _defaultTargetCapacityType?: string;
+  private _defaultTargetCapacityType?: string; 
   public get defaultTargetCapacityType() {
     return this.getStringAttribute('default_target_capacity_type');
   }
@@ -3847,7 +3847,7 @@ export class Ec2FleetTargetCapacitySpecificationOutputReference extends cdktn.Co
   }
 
   // on_demand_target_capacity - computed: false, optional: true, required: false
-  private _onDemandTargetCapacity?: number;
+  private _onDemandTargetCapacity?: number; 
   public get onDemandTargetCapacity() {
     return this.getNumberAttribute('on_demand_target_capacity');
   }
@@ -3863,7 +3863,7 @@ export class Ec2FleetTargetCapacitySpecificationOutputReference extends cdktn.Co
   }
 
   // spot_target_capacity - computed: false, optional: true, required: false
-  private _spotTargetCapacity?: number;
+  private _spotTargetCapacity?: number; 
   public get spotTargetCapacity() {
     return this.getNumberAttribute('spot_target_capacity');
   }
@@ -3879,7 +3879,7 @@ export class Ec2FleetTargetCapacitySpecificationOutputReference extends cdktn.Co
   }
 
   // target_capacity_unit_type - computed: false, optional: true, required: false
-  private _targetCapacityUnitType?: string;
+  private _targetCapacityUnitType?: string; 
   public get targetCapacityUnitType() {
     return this.getStringAttribute('target_capacity_unit_type');
   }
@@ -3895,7 +3895,7 @@ export class Ec2FleetTargetCapacitySpecificationOutputReference extends cdktn.Co
   }
 
   // total_target_capacity - computed: false, optional: false, required: true
-  private _totalTargetCapacity?: number;
+  private _totalTargetCapacity?: number; 
   public get totalTargetCapacity() {
     return this.getNumberAttribute('total_target_capacity');
   }
@@ -4020,7 +4020,7 @@ export class Ec2FleetTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -4036,7 +4036,7 @@ export class Ec2FleetTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -4052,7 +4052,7 @@ export class Ec2FleetTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -4151,7 +4151,7 @@ export class Ec2Fleet extends cdktn.TerraformResource {
   }
 
   // context - computed: false, optional: true, required: false
-  private _context?: string;
+  private _context?: string; 
   public get context() {
     return this.getStringAttribute('context');
   }
@@ -4167,7 +4167,7 @@ export class Ec2Fleet extends cdktn.TerraformResource {
   }
 
   // excess_capacity_termination_policy - computed: false, optional: true, required: false
-  private _excessCapacityTerminationPolicy?: string;
+  private _excessCapacityTerminationPolicy?: string; 
   public get excessCapacityTerminationPolicy() {
     return this.getStringAttribute('excess_capacity_termination_policy');
   }
@@ -4183,7 +4183,7 @@ export class Ec2Fleet extends cdktn.TerraformResource {
   }
 
   // fleet_state - computed: true, optional: true, required: false
-  private _fleetState?: string;
+  private _fleetState?: string; 
   public get fleetState() {
     return this.getStringAttribute('fleet_state');
   }
@@ -4199,7 +4199,7 @@ export class Ec2Fleet extends cdktn.TerraformResource {
   }
 
   // fulfilled_capacity - computed: true, optional: true, required: false
-  private _fulfilledCapacity?: number;
+  private _fulfilledCapacity?: number; 
   public get fulfilledCapacity() {
     return this.getNumberAttribute('fulfilled_capacity');
   }
@@ -4215,7 +4215,7 @@ export class Ec2Fleet extends cdktn.TerraformResource {
   }
 
   // fulfilled_on_demand_capacity - computed: true, optional: true, required: false
-  private _fulfilledOnDemandCapacity?: number;
+  private _fulfilledOnDemandCapacity?: number; 
   public get fulfilledOnDemandCapacity() {
     return this.getNumberAttribute('fulfilled_on_demand_capacity');
   }
@@ -4231,7 +4231,7 @@ export class Ec2Fleet extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -4247,7 +4247,7 @@ export class Ec2Fleet extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -4263,7 +4263,7 @@ export class Ec2Fleet extends cdktn.TerraformResource {
   }
 
   // replace_unhealthy_instances - computed: false, optional: true, required: false
-  private _replaceUnhealthyInstances?: boolean | cdktn.IResolvable;
+  private _replaceUnhealthyInstances?: boolean | cdktn.IResolvable; 
   public get replaceUnhealthyInstances() {
     return this.getBooleanAttribute('replace_unhealthy_instances');
   }
@@ -4279,7 +4279,7 @@ export class Ec2Fleet extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -4295,7 +4295,7 @@ export class Ec2Fleet extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -4311,7 +4311,7 @@ export class Ec2Fleet extends cdktn.TerraformResource {
   }
 
   // terminate_instances - computed: false, optional: true, required: false
-  private _terminateInstances?: boolean | cdktn.IResolvable;
+  private _terminateInstances?: boolean | cdktn.IResolvable; 
   public get terminateInstances() {
     return this.getBooleanAttribute('terminate_instances');
   }
@@ -4327,7 +4327,7 @@ export class Ec2Fleet extends cdktn.TerraformResource {
   }
 
   // terminate_instances_with_expiration - computed: false, optional: true, required: false
-  private _terminateInstancesWithExpiration?: boolean | cdktn.IResolvable;
+  private _terminateInstancesWithExpiration?: boolean | cdktn.IResolvable; 
   public get terminateInstancesWithExpiration() {
     return this.getBooleanAttribute('terminate_instances_with_expiration');
   }
@@ -4343,7 +4343,7 @@ export class Ec2Fleet extends cdktn.TerraformResource {
   }
 
   // type - computed: false, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -4359,7 +4359,7 @@ export class Ec2Fleet extends cdktn.TerraformResource {
   }
 
   // valid_from - computed: false, optional: true, required: false
-  private _validFrom?: string;
+  private _validFrom?: string; 
   public get validFrom() {
     return this.getStringAttribute('valid_from');
   }
@@ -4375,7 +4375,7 @@ export class Ec2Fleet extends cdktn.TerraformResource {
   }
 
   // valid_until - computed: false, optional: true, required: false
-  private _validUntil?: string;
+  private _validUntil?: string; 
   public get validUntil() {
     return this.getStringAttribute('valid_until');
   }

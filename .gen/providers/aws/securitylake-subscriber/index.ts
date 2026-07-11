@@ -146,7 +146,7 @@ export class SecuritylakeSubscriberSourceAwsLogSourceResourceOutputReference ext
   }
 
   // source_name - computed: false, optional: false, required: true
-  private _sourceName?: string;
+  private _sourceName?: string; 
   public get sourceName() {
     return this.getStringAttribute('source_name');
   }
@@ -159,7 +159,7 @@ export class SecuritylakeSubscriberSourceAwsLogSourceResourceOutputReference ext
   }
 
   // source_version - computed: true, optional: true, required: false
-  private _sourceVersion?: string;
+  private _sourceVersion?: string; 
   public get sourceVersion() {
     return this.getStringAttribute('source_version');
   }
@@ -469,7 +469,7 @@ export class SecuritylakeSubscriberSourceCustomLogSourceResourceOutputReference 
   }
 
   // source_name - computed: false, optional: false, required: true
-  private _sourceName?: string;
+  private _sourceName?: string; 
   public get sourceName() {
     return this.getStringAttribute('source_name');
   }
@@ -482,7 +482,7 @@ export class SecuritylakeSubscriberSourceCustomLogSourceResourceOutputReference 
   }
 
   // source_version - computed: true, optional: true, required: false
-  private _sourceVersion?: string;
+  private _sourceVersion?: string; 
   public get sourceVersion() {
     return this.getStringAttribute('source_version');
   }
@@ -768,7 +768,7 @@ export class SecuritylakeSubscriberSubscriberIdentityOutputReference extends cdk
   }
 
   // external_id - computed: false, optional: false, required: true
-  private _externalId?: string;
+  private _externalId?: string; 
   public get externalId() {
     return this.getStringAttribute('external_id');
   }
@@ -781,7 +781,7 @@ export class SecuritylakeSubscriberSubscriberIdentityOutputReference extends cdk
   }
 
   // principal - computed: false, optional: false, required: true
-  private _principal?: string;
+  private _principal?: string; 
   public get principal() {
     return this.getStringAttribute('principal');
   }
@@ -932,7 +932,7 @@ export class SecuritylakeSubscriberTimeoutsOutputReference extends cdktn.Complex
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -948,7 +948,7 @@ export class SecuritylakeSubscriberTimeoutsOutputReference extends cdktn.Complex
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -964,7 +964,7 @@ export class SecuritylakeSubscriberTimeoutsOutputReference extends cdktn.Complex
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -1045,7 +1045,7 @@ export class SecuritylakeSubscriber extends cdktn.TerraformResource {
   // ==========
 
   // access_type - computed: true, optional: true, required: false
-  private _accessType?: string;
+  private _accessType?: string; 
   public get accessType() {
     return this.getStringAttribute('access_type');
   }
@@ -1071,7 +1071,7 @@ export class SecuritylakeSubscriber extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1107,7 +1107,7 @@ export class SecuritylakeSubscriber extends cdktn.TerraformResource {
   }
 
   // subscriber_description - computed: false, optional: true, required: false
-  private _subscriberDescription?: string;
+  private _subscriberDescription?: string; 
   public get subscriberDescription() {
     return this.getStringAttribute('subscriber_description');
   }
@@ -1128,7 +1128,7 @@ export class SecuritylakeSubscriber extends cdktn.TerraformResource {
   }
 
   // subscriber_name - computed: false, optional: true, required: false
-  private _subscriberName?: string;
+  private _subscriberName?: string; 
   public get subscriberName() {
     return this.getStringAttribute('subscriber_name');
   }
@@ -1149,7 +1149,7 @@ export class SecuritylakeSubscriber extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

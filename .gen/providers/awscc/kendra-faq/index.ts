@@ -152,7 +152,7 @@ export class KendraFaqS3PathOutputReference extends cdktn.ComplexObject {
   }
 
   // bucket - computed: false, optional: false, required: true
-  private _bucket?: string;
+  private _bucket?: string; 
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -165,7 +165,7 @@ export class KendraFaqS3PathOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -279,7 +279,7 @@ export class KendraFaqTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -295,7 +295,7 @@ export class KendraFaqTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -401,7 +401,7 @@ export class KendraFaq extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -422,7 +422,7 @@ export class KendraFaq extends cdktn.TerraformResource {
   }
 
   // file_format - computed: true, optional: true, required: false
-  private _fileFormat?: string;
+  private _fileFormat?: string; 
   public get fileFormat() {
     return this.getStringAttribute('file_format');
   }
@@ -443,7 +443,7 @@ export class KendraFaq extends cdktn.TerraformResource {
   }
 
   // index_id - computed: false, optional: false, required: true
-  private _indexId?: string;
+  private _indexId?: string; 
   public get indexId() {
     return this.getStringAttribute('index_id');
   }
@@ -456,7 +456,7 @@ export class KendraFaq extends cdktn.TerraformResource {
   }
 
   // language_code - computed: true, optional: true, required: false
-  private _languageCode?: string;
+  private _languageCode?: string; 
   public get languageCode() {
     return this.getStringAttribute('language_code');
   }
@@ -472,7 +472,7 @@ export class KendraFaq extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -485,7 +485,7 @@ export class KendraFaq extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }

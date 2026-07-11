@@ -113,7 +113,7 @@ export class LocationPlaceIndexDataSourceConfigurationOutputReference extends cd
   }
 
   // intended_use - computed: true, optional: true, required: false
-  private _intendedUse?: string;
+  private _intendedUse?: string; 
   public get intendedUse() {
     return this.getStringAttribute('intended_use');
   }
@@ -230,7 +230,7 @@ export class LocationPlaceIndexTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -246,7 +246,7 @@ export class LocationPlaceIndexTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -355,7 +355,7 @@ export class LocationPlaceIndex extends cdktn.TerraformResource {
   }
 
   // data_source - computed: false, optional: false, required: true
-  private _dataSource?: string;
+  private _dataSource?: string; 
   public get dataSource() {
     return this.getStringAttribute('data_source');
   }
@@ -384,7 +384,7 @@ export class LocationPlaceIndex extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -410,7 +410,7 @@ export class LocationPlaceIndex extends cdktn.TerraformResource {
   }
 
   // index_name - computed: false, optional: false, required: true
-  private _indexName?: string;
+  private _indexName?: string; 
   public get indexName() {
     return this.getStringAttribute('index_name');
   }
@@ -423,7 +423,7 @@ export class LocationPlaceIndex extends cdktn.TerraformResource {
   }
 
   // pricing_plan - computed: true, optional: true, required: false
-  private _pricingPlan?: string;
+  private _pricingPlan?: string; 
   public get pricingPlan() {
     return this.getStringAttribute('pricing_plan');
   }

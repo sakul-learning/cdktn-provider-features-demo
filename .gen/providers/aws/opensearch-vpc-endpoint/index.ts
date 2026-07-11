@@ -150,7 +150,7 @@ export class OpensearchVpcEndpointTimeoutsOutputReference extends cdktn.ComplexO
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -166,7 +166,7 @@ export class OpensearchVpcEndpointTimeoutsOutputReference extends cdktn.ComplexO
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -182,7 +182,7 @@ export class OpensearchVpcEndpointTimeoutsOutputReference extends cdktn.ComplexO
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -288,7 +288,7 @@ export class OpensearchVpcEndpointVpcOptionsOutputReference extends cdktn.Comple
   }
 
   // security_group_ids - computed: true, optional: true, required: false
-  private _securityGroupIds?: string[];
+  private _securityGroupIds?: string[]; 
   public get securityGroupIds() {
     return cdktn.Fn.tolist(this.getListAttribute('security_group_ids'));
   }
@@ -304,7 +304,7 @@ export class OpensearchVpcEndpointVpcOptionsOutputReference extends cdktn.Comple
   }
 
   // subnet_ids - computed: false, optional: false, required: true
-  private _subnetIds?: string[];
+  private _subnetIds?: string[]; 
   public get subnetIds() {
     return cdktn.Fn.tolist(this.getListAttribute('subnet_ids'));
   }
@@ -384,7 +384,7 @@ export class OpensearchVpcEndpoint extends cdktn.TerraformResource {
   // ==========
 
   // domain_arn - computed: false, optional: false, required: true
-  private _domainArn?: string;
+  private _domainArn?: string; 
   public get domainArn() {
     return this.getStringAttribute('domain_arn');
   }
@@ -402,7 +402,7 @@ export class OpensearchVpcEndpoint extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -418,7 +418,7 @@ export class OpensearchVpcEndpoint extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

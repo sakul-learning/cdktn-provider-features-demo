@@ -45,7 +45,7 @@ export interface IamManagedPolicyConfig extends cdktn.TerraformMetaArguments {
   * The JSON policy document that you want to use as the content for the new policy.
   *  You must provide policies in JSON format in IAM. However, for CFN templates formatted in YAML, you can provide the policy in JSON or YAML format. CFN always converts a YAML policy to JSON format before submitting it to IAM.
   *  The maximum length of the policy document that you can pass in this operation, including whitespace, is listed below. To view the maximum character counts of a managed policy with no whitespaces, see [IAM and character quotas](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_iam-quotas.html#reference_iam-quotas-entity-length).
-  *  To learn more about JSON policy grammar, see [Grammar of the IAM JSON policy language](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_grammar.html) in the *IAM User Guide*.
+  *  To learn more about JSON policy grammar, see [Grammar of the IAM JSON policy language](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_grammar.html) in the *IAM User Guide*. 
   *  The [regex pattern](https://docs.aws.amazon.com/http://wikipedia.org/wiki/regex) used to validate this parameter is a string of characters consisting of the following:
   *   +  Any printable ASCII character ranging from the space character (``\u0020``) through the end of the ASCII character range
   *   +  The printable characters in the Basic Latin and Latin-1 Supplement character set (through ``\u00FF``)
@@ -150,7 +150,7 @@ export class IamManagedPolicy extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -166,7 +166,7 @@ export class IamManagedPolicy extends cdktn.TerraformResource {
   }
 
   // groups - computed: true, optional: true, required: false
-  private _groups?: string[];
+  private _groups?: string[]; 
   public get groups() {
     return cdktn.Fn.tolist(this.getListAttribute('groups'));
   }
@@ -192,7 +192,7 @@ export class IamManagedPolicy extends cdktn.TerraformResource {
   }
 
   // managed_policy_name - computed: true, optional: true, required: false
-  private _managedPolicyName?: string;
+  private _managedPolicyName?: string; 
   public get managedPolicyName() {
     return this.getStringAttribute('managed_policy_name');
   }
@@ -208,7 +208,7 @@ export class IamManagedPolicy extends cdktn.TerraformResource {
   }
 
   // path - computed: true, optional: true, required: false
-  private _path?: string;
+  private _path?: string; 
   public get path() {
     return this.getStringAttribute('path');
   }
@@ -234,7 +234,7 @@ export class IamManagedPolicy extends cdktn.TerraformResource {
   }
 
   // policy_document - computed: false, optional: false, required: true
-  private _policyDocument?: string;
+  private _policyDocument?: string; 
   public get policyDocument() {
     return this.getStringAttribute('policy_document');
   }
@@ -252,7 +252,7 @@ export class IamManagedPolicy extends cdktn.TerraformResource {
   }
 
   // roles - computed: true, optional: true, required: false
-  private _roles?: string[];
+  private _roles?: string[]; 
   public get roles() {
     return cdktn.Fn.tolist(this.getListAttribute('roles'));
   }
@@ -273,7 +273,7 @@ export class IamManagedPolicy extends cdktn.TerraformResource {
   }
 
   // users - computed: true, optional: true, required: false
-  private _users?: string[];
+  private _users?: string[]; 
   public get users() {
     return cdktn.Fn.tolist(this.getListAttribute('users'));
   }

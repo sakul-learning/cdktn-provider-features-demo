@@ -177,7 +177,7 @@ export class FisExperimentTemplateActionParameterOutputReference extends cdktn.C
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -190,7 +190,7 @@ export class FisExperimentTemplateActionParameterOutputReference extends cdktn.C
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -308,7 +308,7 @@ export class FisExperimentTemplateActionTargetOutputReference extends cdktn.Comp
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -321,7 +321,7 @@ export class FisExperimentTemplateActionTargetOutputReference extends cdktn.Comp
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -503,7 +503,7 @@ export class FisExperimentTemplateActionOutputReference extends cdktn.ComplexObj
   }
 
   // action_id - computed: false, optional: false, required: true
-  private _actionId?: string;
+  private _actionId?: string; 
   public get actionId() {
     return this.getStringAttribute('action_id');
   }
@@ -516,7 +516,7 @@ export class FisExperimentTemplateActionOutputReference extends cdktn.ComplexObj
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -532,7 +532,7 @@ export class FisExperimentTemplateActionOutputReference extends cdktn.ComplexObj
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -545,7 +545,7 @@ export class FisExperimentTemplateActionOutputReference extends cdktn.ComplexObj
   }
 
   // start_after - computed: false, optional: true, required: false
-  private _startAfter?: string[];
+  private _startAfter?: string[]; 
   public get startAfter() {
     return cdktn.Fn.tolist(this.getListAttribute('start_after'));
   }
@@ -698,7 +698,7 @@ export class FisExperimentTemplateExperimentOptionsOutputReference extends cdktn
   }
 
   // account_targeting - computed: false, optional: true, required: false
-  private _accountTargeting?: string;
+  private _accountTargeting?: string; 
   public get accountTargeting() {
     return this.getStringAttribute('account_targeting');
   }
@@ -714,7 +714,7 @@ export class FisExperimentTemplateExperimentOptionsOutputReference extends cdktn
   }
 
   // empty_target_resolution_mode - computed: false, optional: true, required: false
-  private _emptyTargetResolutionMode?: string;
+  private _emptyTargetResolutionMode?: string; 
   public get emptyTargetResolutionMode() {
     return this.getStringAttribute('empty_target_resolution_mode');
   }
@@ -810,7 +810,7 @@ export class FisExperimentTemplateExperimentReportConfigurationDataSourcesCloudw
   }
 
   // dashboard_arn - computed: false, optional: true, required: false
-  private _dashboardArn?: string;
+  private _dashboardArn?: string; 
   public get dashboardArn() {
     return this.getStringAttribute('dashboard_arn');
   }
@@ -1017,7 +1017,7 @@ export class FisExperimentTemplateExperimentReportConfigurationOutputsS3Configur
   }
 
   // bucket_name - computed: false, optional: false, required: true
-  private _bucketName?: string;
+  private _bucketName?: string; 
   public get bucketName() {
     return this.getStringAttribute('bucket_name');
   }
@@ -1030,7 +1030,7 @@ export class FisExperimentTemplateExperimentReportConfigurationOutputsS3Configur
   }
 
   // prefix - computed: false, optional: true, required: false
-  private _prefix?: string;
+  private _prefix?: string; 
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -1255,7 +1255,7 @@ export class FisExperimentTemplateExperimentReportConfigurationOutputReference e
   }
 
   // post_experiment_duration - computed: false, optional: true, required: false
-  private _postExperimentDuration?: string;
+  private _postExperimentDuration?: string; 
   public get postExperimentDuration() {
     return this.getStringAttribute('post_experiment_duration');
   }
@@ -1271,7 +1271,7 @@ export class FisExperimentTemplateExperimentReportConfigurationOutputReference e
   }
 
   // pre_experiment_duration - computed: false, optional: true, required: false
-  private _preExperimentDuration?: string;
+  private _preExperimentDuration?: string; 
   public get preExperimentDuration() {
     return this.getStringAttribute('pre_experiment_duration');
   }
@@ -1387,7 +1387,7 @@ export class FisExperimentTemplateLogConfigurationCloudwatchLogsConfigurationOut
   }
 
   // log_group_arn - computed: false, optional: false, required: true
-  private _logGroupArn?: string;
+  private _logGroupArn?: string; 
   public get logGroupArn() {
     return this.getStringAttribute('log_group_arn');
   }
@@ -1485,7 +1485,7 @@ export class FisExperimentTemplateLogConfigurationS3ConfigurationOutputReference
   }
 
   // bucket_name - computed: false, optional: false, required: true
-  private _bucketName?: string;
+  private _bucketName?: string; 
   public get bucketName() {
     return this.getStringAttribute('bucket_name');
   }
@@ -1498,7 +1498,7 @@ export class FisExperimentTemplateLogConfigurationS3ConfigurationOutputReference
   }
 
   // prefix - computed: false, optional: true, required: false
-  private _prefix?: string;
+  private _prefix?: string; 
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -1620,7 +1620,7 @@ export class FisExperimentTemplateLogConfigurationOutputReference extends cdktn.
   }
 
   // log_schema_version - computed: false, optional: false, required: true
-  private _logSchemaVersion?: number;
+  private _logSchemaVersion?: number; 
   public get logSchemaVersion() {
     return this.getNumberAttribute('log_schema_version');
   }
@@ -1762,7 +1762,7 @@ export class FisExperimentTemplateStopConditionOutputReference extends cdktn.Com
   }
 
   // source - computed: false, optional: false, required: true
-  private _source?: string;
+  private _source?: string; 
   public get source() {
     return this.getStringAttribute('source');
   }
@@ -1775,7 +1775,7 @@ export class FisExperimentTemplateStopConditionOutputReference extends cdktn.Com
   }
 
   // value - computed: false, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1908,7 +1908,7 @@ export class FisExperimentTemplateTargetFilterOutputReference extends cdktn.Comp
   }
 
   // path - computed: false, optional: false, required: true
-  private _path?: string;
+  private _path?: string; 
   public get path() {
     return this.getStringAttribute('path');
   }
@@ -1921,7 +1921,7 @@ export class FisExperimentTemplateTargetFilterOutputReference extends cdktn.Comp
   }
 
   // values - computed: false, optional: false, required: true
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -2051,7 +2051,7 @@ export class FisExperimentTemplateTargetResourceTagOutputReference extends cdktn
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -2064,7 +2064,7 @@ export class FisExperimentTemplateTargetResourceTagOutputReference extends cdktn
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2283,7 +2283,7 @@ export class FisExperimentTemplateTargetOutputReference extends cdktn.ComplexObj
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2296,7 +2296,7 @@ export class FisExperimentTemplateTargetOutputReference extends cdktn.ComplexObj
   }
 
   // parameters - computed: false, optional: true, required: false
-  private _parameters?: { [key: string]: string };
+  private _parameters?: { [key: string]: string }; 
   public get parameters() {
     return this.getStringMapAttribute('parameters');
   }
@@ -2312,7 +2312,7 @@ export class FisExperimentTemplateTargetOutputReference extends cdktn.ComplexObj
   }
 
   // resource_arns - computed: false, optional: true, required: false
-  private _resourceArns?: string[];
+  private _resourceArns?: string[]; 
   public get resourceArns() {
     return cdktn.Fn.tolist(this.getListAttribute('resource_arns'));
   }
@@ -2328,7 +2328,7 @@ export class FisExperimentTemplateTargetOutputReference extends cdktn.ComplexObj
   }
 
   // resource_type - computed: false, optional: false, required: true
-  private _resourceType?: string;
+  private _resourceType?: string; 
   public get resourceType() {
     return this.getStringAttribute('resource_type');
   }
@@ -2341,7 +2341,7 @@ export class FisExperimentTemplateTargetOutputReference extends cdktn.ComplexObj
   }
 
   // selection_mode - computed: false, optional: false, required: true
-  private _selectionMode?: string;
+  private _selectionMode?: string; 
   public get selectionMode() {
     return this.getStringAttribute('selection_mode');
   }
@@ -2518,7 +2518,7 @@ export class FisExperimentTemplateTimeoutsOutputReference extends cdktn.ComplexO
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -2534,7 +2534,7 @@ export class FisExperimentTemplateTimeoutsOutputReference extends cdktn.ComplexO
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -2550,7 +2550,7 @@ export class FisExperimentTemplateTimeoutsOutputReference extends cdktn.ComplexO
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -2636,7 +2636,7 @@ export class FisExperimentTemplate extends cdktn.TerraformResource {
   // ==========
 
   // description - computed: false, optional: false, required: true
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -2649,7 +2649,7 @@ export class FisExperimentTemplate extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -2665,7 +2665,7 @@ export class FisExperimentTemplate extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -2681,7 +2681,7 @@ export class FisExperimentTemplate extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -2694,7 +2694,7 @@ export class FisExperimentTemplate extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -2710,7 +2710,7 @@ export class FisExperimentTemplate extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

@@ -133,7 +133,7 @@ export class CodedeployDeploymentConfigMinimumHealthyHostsOutputReference extend
   }
 
   // type - computed: false, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -149,7 +149,7 @@ export class CodedeployDeploymentConfigMinimumHealthyHostsOutputReference extend
   }
 
   // value - computed: false, optional: true, required: false
-  private _value?: number;
+  private _value?: number; 
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -250,7 +250,7 @@ export class CodedeployDeploymentConfigTrafficRoutingConfigTimeBasedCanaryOutput
   }
 
   // interval - computed: false, optional: true, required: false
-  private _interval?: number;
+  private _interval?: number; 
   public get interval() {
     return this.getNumberAttribute('interval');
   }
@@ -266,7 +266,7 @@ export class CodedeployDeploymentConfigTrafficRoutingConfigTimeBasedCanaryOutput
   }
 
   // percentage - computed: false, optional: true, required: false
-  private _percentage?: number;
+  private _percentage?: number; 
   public get percentage() {
     return this.getNumberAttribute('percentage');
   }
@@ -367,7 +367,7 @@ export class CodedeployDeploymentConfigTrafficRoutingConfigTimeBasedLinearOutput
   }
 
   // interval - computed: false, optional: true, required: false
-  private _interval?: number;
+  private _interval?: number; 
   public get interval() {
     return this.getNumberAttribute('interval');
   }
@@ -383,7 +383,7 @@ export class CodedeployDeploymentConfigTrafficRoutingConfigTimeBasedLinearOutput
   }
 
   // percentage - computed: false, optional: true, required: false
-  private _percentage?: number;
+  private _percentage?: number; 
   public get percentage() {
     return this.getNumberAttribute('percentage');
   }
@@ -505,7 +505,7 @@ export class CodedeployDeploymentConfigTrafficRoutingConfigOutputReference exten
   }
 
   // type - computed: false, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -638,7 +638,7 @@ export class CodedeployDeploymentConfigZonalConfigMinimumHealthyHostsPerZoneOutp
   }
 
   // type - computed: false, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -654,7 +654,7 @@ export class CodedeployDeploymentConfigZonalConfigMinimumHealthyHostsPerZoneOutp
   }
 
   // value - computed: false, optional: true, required: false
-  private _value?: number;
+  private _value?: number; 
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -774,7 +774,7 @@ export class CodedeployDeploymentConfigZonalConfigOutputReference extends cdktn.
   }
 
   // first_zone_monitor_duration_in_seconds - computed: false, optional: true, required: false
-  private _firstZoneMonitorDurationInSeconds?: number;
+  private _firstZoneMonitorDurationInSeconds?: number; 
   public get firstZoneMonitorDurationInSeconds() {
     return this.getNumberAttribute('first_zone_monitor_duration_in_seconds');
   }
@@ -790,7 +790,7 @@ export class CodedeployDeploymentConfigZonalConfigOutputReference extends cdktn.
   }
 
   // monitor_duration_in_seconds - computed: false, optional: true, required: false
-  private _monitorDurationInSeconds?: number;
+  private _monitorDurationInSeconds?: number; 
   public get monitorDurationInSeconds() {
     return this.getNumberAttribute('monitor_duration_in_seconds');
   }
@@ -891,7 +891,7 @@ export class CodedeployDeploymentConfig extends cdktn.TerraformResource {
   }
 
   // compute_platform - computed: false, optional: true, required: false
-  private _computePlatform?: string;
+  private _computePlatform?: string; 
   public get computePlatform() {
     return this.getStringAttribute('compute_platform');
   }
@@ -912,7 +912,7 @@ export class CodedeployDeploymentConfig extends cdktn.TerraformResource {
   }
 
   // deployment_config_name - computed: false, optional: false, required: true
-  private _deploymentConfigName?: string;
+  private _deploymentConfigName?: string; 
   public get deploymentConfigName() {
     return this.getStringAttribute('deployment_config_name');
   }
@@ -925,7 +925,7 @@ export class CodedeployDeploymentConfig extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -941,7 +941,7 @@ export class CodedeployDeploymentConfig extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

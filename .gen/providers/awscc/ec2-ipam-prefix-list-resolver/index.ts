@@ -136,7 +136,7 @@ export class Ec2IpamPrefixListResolverRulesConditionsResourceTagOutputReference 
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -152,7 +152,7 @@ export class Ec2IpamPrefixListResolverRulesConditionsResourceTagOutputReference 
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -364,7 +364,7 @@ export class Ec2IpamPrefixListResolverRulesConditionsOutputReference extends cdk
   }
 
   // cidr - computed: true, optional: true, required: false
-  private _cidr?: string;
+  private _cidr?: string; 
   public get cidr() {
     return this.getStringAttribute('cidr');
   }
@@ -380,7 +380,7 @@ export class Ec2IpamPrefixListResolverRulesConditionsOutputReference extends cdk
   }
 
   // ipam_pool_id - computed: true, optional: true, required: false
-  private _ipamPoolId?: string;
+  private _ipamPoolId?: string; 
   public get ipamPoolId() {
     return this.getStringAttribute('ipam_pool_id');
   }
@@ -396,7 +396,7 @@ export class Ec2IpamPrefixListResolverRulesConditionsOutputReference extends cdk
   }
 
   // operation - computed: true, optional: true, required: false
-  private _operation?: string;
+  private _operation?: string; 
   public get operation() {
     return this.getStringAttribute('operation');
   }
@@ -412,7 +412,7 @@ export class Ec2IpamPrefixListResolverRulesConditionsOutputReference extends cdk
   }
 
   // resource_id - computed: true, optional: true, required: false
-  private _resourceId?: string;
+  private _resourceId?: string; 
   public get resourceId() {
     return this.getStringAttribute('resource_id');
   }
@@ -428,7 +428,7 @@ export class Ec2IpamPrefixListResolverRulesConditionsOutputReference extends cdk
   }
 
   // resource_owner - computed: true, optional: true, required: false
-  private _resourceOwner?: string;
+  private _resourceOwner?: string; 
   public get resourceOwner() {
     return this.getStringAttribute('resource_owner');
   }
@@ -444,7 +444,7 @@ export class Ec2IpamPrefixListResolverRulesConditionsOutputReference extends cdk
   }
 
   // resource_region - computed: true, optional: true, required: false
-  private _resourceRegion?: string;
+  private _resourceRegion?: string; 
   public get resourceRegion() {
     return this.getStringAttribute('resource_region');
   }
@@ -670,7 +670,7 @@ export class Ec2IpamPrefixListResolverRulesOutputReference extends cdktn.Complex
   }
 
   // ipam_scope_id - computed: true, optional: true, required: false
-  private _ipamScopeId?: string;
+  private _ipamScopeId?: string; 
   public get ipamScopeId() {
     return this.getStringAttribute('ipam_scope_id');
   }
@@ -686,7 +686,7 @@ export class Ec2IpamPrefixListResolverRulesOutputReference extends cdktn.Complex
   }
 
   // resource_type - computed: true, optional: true, required: false
-  private _resourceType?: string;
+  private _resourceType?: string; 
   public get resourceType() {
     return this.getStringAttribute('resource_type');
   }
@@ -702,7 +702,7 @@ export class Ec2IpamPrefixListResolverRulesOutputReference extends cdktn.Complex
   }
 
   // rule_type - computed: true, optional: true, required: false
-  private _ruleType?: string;
+  private _ruleType?: string; 
   public get ruleType() {
     return this.getStringAttribute('rule_type');
   }
@@ -718,7 +718,7 @@ export class Ec2IpamPrefixListResolverRulesOutputReference extends cdktn.Complex
   }
 
   // static_cidr - computed: true, optional: true, required: false
-  private _staticCidr?: string;
+  private _staticCidr?: string; 
   public get staticCidr() {
     return this.getStringAttribute('static_cidr');
   }
@@ -855,7 +855,7 @@ export class Ec2IpamPrefixListResolverTagsOutputReference extends cdktn.ComplexO
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -871,7 +871,7 @@ export class Ec2IpamPrefixListResolverTagsOutputReference extends cdktn.ComplexO
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -969,7 +969,7 @@ export class Ec2IpamPrefixListResolver extends cdktn.TerraformResource {
   // ==========
 
   // address_family - computed: false, optional: false, required: true
-  private _addressFamily?: string;
+  private _addressFamily?: string; 
   public get addressFamily() {
     return this.getStringAttribute('address_family');
   }
@@ -982,7 +982,7 @@ export class Ec2IpamPrefixListResolver extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1008,7 +1008,7 @@ export class Ec2IpamPrefixListResolver extends cdktn.TerraformResource {
   }
 
   // ipam_id - computed: true, optional: true, required: false
-  private _ipamId?: string;
+  private _ipamId?: string; 
   public get ipamId() {
     return this.getStringAttribute('ipam_id');
   }

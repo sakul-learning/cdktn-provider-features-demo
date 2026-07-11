@@ -87,7 +87,7 @@ export class GuarddutyMaster extends cdktn.TerraformResource {
   // ==========
 
   // detector_id - computed: false, optional: false, required: true
-  private _detectorId?: string;
+  private _detectorId?: string; 
   public get detectorId() {
     return this.getStringAttribute('detector_id');
   }
@@ -105,7 +105,7 @@ export class GuarddutyMaster extends cdktn.TerraformResource {
   }
 
   // invitation_id - computed: true, optional: true, required: false
-  private _invitationId?: string;
+  private _invitationId?: string; 
   public get invitationId() {
     return this.getStringAttribute('invitation_id');
   }
@@ -121,7 +121,7 @@ export class GuarddutyMaster extends cdktn.TerraformResource {
   }
 
   // master_id - computed: false, optional: false, required: true
-  private _masterId?: string;
+  private _masterId?: string; 
   public get masterId() {
     return this.getStringAttribute('master_id');
   }

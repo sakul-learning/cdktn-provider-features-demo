@@ -87,7 +87,7 @@ export class UxcAccountCustomization extends cdktn.TerraformResource {
   // ==========
 
   // account_color - computed: true, optional: true, required: false
-  private _accountColor?: string;
+  private _accountColor?: string; 
   public get accountColor() {
     return this.getStringAttribute('account_color');
   }
@@ -113,7 +113,7 @@ export class UxcAccountCustomization extends cdktn.TerraformResource {
   }
 
   // visible_regions - computed: true, optional: true, required: false
-  private _visibleRegions?: string[];
+  private _visibleRegions?: string[]; 
   public get visibleRegions() {
     return cdktn.Fn.tolist(this.getListAttribute('visible_regions'));
   }
@@ -129,7 +129,7 @@ export class UxcAccountCustomization extends cdktn.TerraformResource {
   }
 
   // visible_services - computed: true, optional: true, required: false
-  private _visibleServices?: string[];
+  private _visibleServices?: string[]; 
   public get visibleServices() {
     return cdktn.Fn.tolist(this.getListAttribute('visible_services'));
   }

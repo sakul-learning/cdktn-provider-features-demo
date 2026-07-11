@@ -144,7 +144,7 @@ export class Route53RecoverycontrolSafetyRuleAssertionRuleOutputReference extend
   }
 
   // asserted_controls - computed: true, optional: true, required: false
-  private _assertedControls?: string[];
+  private _assertedControls?: string[]; 
   public get assertedControls() {
     return this.getListAttribute('asserted_controls');
   }
@@ -160,7 +160,7 @@ export class Route53RecoverycontrolSafetyRuleAssertionRuleOutputReference extend
   }
 
   // wait_period_ms - computed: true, optional: true, required: false
-  private _waitPeriodMs?: number;
+  private _waitPeriodMs?: number; 
   public get waitPeriodMs() {
     return this.getNumberAttribute('wait_period_ms');
   }
@@ -183,7 +183,7 @@ export interface Route53RecoverycontrolSafetyRuleGatingRule {
   */
   readonly gatingControls?: string[];
   /**
-  * Routing controls that can only be set or unset if the specified RuleConfig evaluates to true for the specified GatingControls. For example, say you have three gating controls, one for each of three AWS Regions. Now you specify AtLeast 2 as your RuleConfig. With these settings, you can only change (set or unset) the routing controls that you have specified as TargetControls if that rule evaluates to true.
+  * Routing controls that can only be set or unset if the specified RuleConfig evaluates to true for the specified GatingControls. For example, say you have three gating controls, one for each of three AWS Regions. Now you specify AtLeast 2 as your RuleConfig. With these settings, you can only change (set or unset) the routing controls that you have specified as TargetControls if that rule evaluates to true. 
   * In other words, your ability to change the routing controls that you have specified as TargetControls is gated by the rule that you set for the routing controls in GatingControls.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53recoverycontrol_safety_rule#target_controls Route53RecoverycontrolSafetyRule#target_controls}
@@ -295,7 +295,7 @@ export class Route53RecoverycontrolSafetyRuleGatingRuleOutputReference extends c
   }
 
   // gating_controls - computed: true, optional: true, required: false
-  private _gatingControls?: string[];
+  private _gatingControls?: string[]; 
   public get gatingControls() {
     return this.getListAttribute('gating_controls');
   }
@@ -311,7 +311,7 @@ export class Route53RecoverycontrolSafetyRuleGatingRuleOutputReference extends c
   }
 
   // target_controls - computed: true, optional: true, required: false
-  private _targetControls?: string[];
+  private _targetControls?: string[]; 
   public get targetControls() {
     return this.getListAttribute('target_controls');
   }
@@ -327,7 +327,7 @@ export class Route53RecoverycontrolSafetyRuleGatingRuleOutputReference extends c
   }
 
   // wait_period_ms - computed: true, optional: true, required: false
-  private _waitPeriodMs?: number;
+  private _waitPeriodMs?: number; 
   public get waitPeriodMs() {
     return this.getNumberAttribute('wait_period_ms');
   }
@@ -461,7 +461,7 @@ export class Route53RecoverycontrolSafetyRuleRuleConfigOutputReference extends c
   }
 
   // inverted - computed: true, optional: true, required: false
-  private _inverted?: boolean | cdktn.IResolvable;
+  private _inverted?: boolean | cdktn.IResolvable; 
   public get inverted() {
     return this.getBooleanAttribute('inverted');
   }
@@ -477,7 +477,7 @@ export class Route53RecoverycontrolSafetyRuleRuleConfigOutputReference extends c
   }
 
   // threshold - computed: true, optional: true, required: false
-  private _threshold?: number;
+  private _threshold?: number; 
   public get threshold() {
     return this.getNumberAttribute('threshold');
   }
@@ -493,7 +493,7 @@ export class Route53RecoverycontrolSafetyRuleRuleConfigOutputReference extends c
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -606,7 +606,7 @@ export class Route53RecoverycontrolSafetyRuleTagsOutputReference extends cdktn.C
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -622,7 +622,7 @@ export class Route53RecoverycontrolSafetyRuleTagsOutputReference extends cdktn.C
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -737,7 +737,7 @@ export class Route53RecoverycontrolSafetyRule extends cdktn.TerraformResource {
   }
 
   // control_panel_arn - computed: true, optional: true, required: false
-  private _controlPanelArn?: string;
+  private _controlPanelArn?: string; 
   public get controlPanelArn() {
     return this.getStringAttribute('control_panel_arn');
   }
@@ -774,7 +774,7 @@ export class Route53RecoverycontrolSafetyRule extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }

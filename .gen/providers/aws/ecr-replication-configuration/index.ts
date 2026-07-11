@@ -125,7 +125,7 @@ export class EcrReplicationConfigurationReplicationConfigurationRuleDestinationO
   }
 
   // region - computed: false, optional: false, required: true
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -138,7 +138,7 @@ export class EcrReplicationConfigurationReplicationConfigurationRuleDestinationO
   }
 
   // registry_id - computed: false, optional: false, required: true
-  private _registryId?: string;
+  private _registryId?: string; 
   public get registryId() {
     return this.getStringAttribute('registry_id');
   }
@@ -268,7 +268,7 @@ export class EcrReplicationConfigurationReplicationConfigurationRuleRepositoryFi
   }
 
   // filter - computed: false, optional: false, required: true
-  private _filter?: string;
+  private _filter?: string; 
   public get filter() {
     return this.getStringAttribute('filter');
   }
@@ -281,7 +281,7 @@ export class EcrReplicationConfigurationReplicationConfigurationRuleRepositoryFi
   }
 
   // filter_type - computed: false, optional: false, required: true
-  private _filterType?: string;
+  private _filterType?: string; 
   public get filterType() {
     return this.getStringAttribute('filter_type');
   }
@@ -607,7 +607,7 @@ export class EcrReplicationConfiguration extends cdktn.TerraformResource {
   // ==========
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -623,7 +623,7 @@ export class EcrReplicationConfiguration extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

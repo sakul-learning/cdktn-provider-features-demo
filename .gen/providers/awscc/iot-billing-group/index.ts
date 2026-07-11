@@ -101,7 +101,7 @@ export class IotBillingGroupBillingGroupPropertiesOutputReference extends cdktn.
   }
 
   // billing_group_description - computed: true, optional: true, required: false
-  private _billingGroupDescription?: string;
+  private _billingGroupDescription?: string; 
   public get billingGroupDescription() {
     return this.getStringAttribute('billing_group_description');
   }
@@ -218,7 +218,7 @@ export class IotBillingGroupTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -234,7 +234,7 @@ export class IotBillingGroupTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -340,7 +340,7 @@ export class IotBillingGroup extends cdktn.TerraformResource {
   }
 
   // billing_group_name - computed: true, optional: true, required: false
-  private _billingGroupName?: string;
+  private _billingGroupName?: string; 
   public get billingGroupName() {
     return this.getStringAttribute('billing_group_name');
   }

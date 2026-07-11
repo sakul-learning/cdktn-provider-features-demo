@@ -96,7 +96,7 @@ export class DataAwsVpclatticeAuthPolicy extends cdktn.TerraformDataSource {
   // ==========
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -112,7 +112,7 @@ export class DataAwsVpclatticeAuthPolicy extends cdktn.TerraformDataSource {
   }
 
   // policy - computed: false, optional: true, required: false
-  private _policy?: string;
+  private _policy?: string; 
   public get policy() {
     return this.getStringAttribute('policy');
   }
@@ -128,7 +128,7 @@ export class DataAwsVpclatticeAuthPolicy extends cdktn.TerraformDataSource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -144,7 +144,7 @@ export class DataAwsVpclatticeAuthPolicy extends cdktn.TerraformDataSource {
   }
 
   // resource_identifier - computed: false, optional: false, required: true
-  private _resourceIdentifier?: string;
+  private _resourceIdentifier?: string; 
   public get resourceIdentifier() {
     return this.getStringAttribute('resource_identifier');
   }
@@ -157,7 +157,7 @@ export class DataAwsVpclatticeAuthPolicy extends cdktn.TerraformDataSource {
   }
 
   // state - computed: false, optional: true, required: false
-  private _state?: string;
+  private _state?: string; 
   public get state() {
     return this.getStringAttribute('state');
   }

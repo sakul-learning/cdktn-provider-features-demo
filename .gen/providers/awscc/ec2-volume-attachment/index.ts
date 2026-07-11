@@ -94,7 +94,7 @@ export class Ec2VolumeAttachment extends cdktn.TerraformResource {
   // ==========
 
   // device - computed: true, optional: true, required: false
-  private _device?: string;
+  private _device?: string; 
   public get device() {
     return this.getStringAttribute('device');
   }
@@ -110,7 +110,7 @@ export class Ec2VolumeAttachment extends cdktn.TerraformResource {
   }
 
   // ebs_card_index - computed: true, optional: true, required: false
-  private _ebsCardIndex?: number;
+  private _ebsCardIndex?: number; 
   public get ebsCardIndex() {
     return this.getNumberAttribute('ebs_card_index');
   }
@@ -131,7 +131,7 @@ export class Ec2VolumeAttachment extends cdktn.TerraformResource {
   }
 
   // instance_id - computed: false, optional: false, required: true
-  private _instanceId?: string;
+  private _instanceId?: string; 
   public get instanceId() {
     return this.getStringAttribute('instance_id');
   }
@@ -144,7 +144,7 @@ export class Ec2VolumeAttachment extends cdktn.TerraformResource {
   }
 
   // volume_id - computed: false, optional: false, required: true
-  private _volumeId?: string;
+  private _volumeId?: string; 
   public get volumeId() {
     return this.getStringAttribute('volume_id');
   }

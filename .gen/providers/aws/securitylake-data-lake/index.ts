@@ -115,7 +115,7 @@ export class SecuritylakeDataLakeConfigurationEncryptionConfigurationOutputRefer
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -231,7 +231,7 @@ export class SecuritylakeDataLakeConfigurationLifecycleConfigurationExpirationOu
   }
 
   // days - computed: false, optional: true, required: false
-  private _days?: number;
+  private _days?: number; 
   public get days() {
     return this.getNumberAttribute('days');
   }
@@ -364,7 +364,7 @@ export class SecuritylakeDataLakeConfigurationLifecycleConfigurationTransitionOu
   }
 
   // days - computed: false, optional: true, required: false
-  private _days?: number;
+  private _days?: number; 
   public get days() {
     return this.getNumberAttribute('days');
   }
@@ -380,7 +380,7 @@ export class SecuritylakeDataLakeConfigurationLifecycleConfigurationTransitionOu
   }
 
   // storage_class - computed: false, optional: true, required: false
-  private _storageClass?: string;
+  private _storageClass?: string; 
   public get storageClass() {
     return this.getStringAttribute('storage_class');
   }
@@ -666,7 +666,7 @@ export class SecuritylakeDataLakeConfigurationReplicationConfigurationOutputRefe
   }
 
   // regions - computed: false, optional: true, required: false
-  private _regions?: string[];
+  private _regions?: string[]; 
   public get regions() {
     return cdktn.Fn.tolist(this.getListAttribute('regions'));
   }
@@ -682,7 +682,7 @@ export class SecuritylakeDataLakeConfigurationReplicationConfigurationOutputRefe
   }
 
   // role_arn - computed: false, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -869,7 +869,7 @@ export class SecuritylakeDataLakeConfigurationOutputReference extends cdktn.Comp
   }
 
   // region - computed: false, optional: false, required: true
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1052,7 +1052,7 @@ export class SecuritylakeDataLakeTimeoutsOutputReference extends cdktn.ComplexOb
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -1068,7 +1068,7 @@ export class SecuritylakeDataLakeTimeoutsOutputReference extends cdktn.ComplexOb
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -1084,7 +1084,7 @@ export class SecuritylakeDataLakeTimeoutsOutputReference extends cdktn.ComplexOb
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -1172,7 +1172,7 @@ export class SecuritylakeDataLake extends cdktn.TerraformResource {
   }
 
   // meta_store_manager_role_arn - computed: false, optional: false, required: true
-  private _metaStoreManagerRoleArn?: string;
+  private _metaStoreManagerRoleArn?: string; 
   public get metaStoreManagerRoleArn() {
     return this.getStringAttribute('meta_store_manager_role_arn');
   }
@@ -1185,7 +1185,7 @@ export class SecuritylakeDataLake extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1206,7 +1206,7 @@ export class SecuritylakeDataLake extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

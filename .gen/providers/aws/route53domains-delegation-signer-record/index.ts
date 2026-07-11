@@ -139,7 +139,7 @@ export class Route53DomainsDelegationSignerRecordSigningAttributesOutputReferenc
   }
 
   // algorithm - computed: false, optional: false, required: true
-  private _algorithm?: number;
+  private _algorithm?: number; 
   public get algorithm() {
     return this.getNumberAttribute('algorithm');
   }
@@ -152,7 +152,7 @@ export class Route53DomainsDelegationSignerRecordSigningAttributesOutputReferenc
   }
 
   // flags - computed: false, optional: false, required: true
-  private _flags?: number;
+  private _flags?: number; 
   public get flags() {
     return this.getNumberAttribute('flags');
   }
@@ -165,7 +165,7 @@ export class Route53DomainsDelegationSignerRecordSigningAttributesOutputReferenc
   }
 
   // public_key - computed: false, optional: false, required: true
-  private _publicKey?: string;
+  private _publicKey?: string; 
   public get publicKey() {
     return this.getStringAttribute('public_key');
   }
@@ -297,7 +297,7 @@ export class Route53DomainsDelegationSignerRecordTimeoutsOutputReference extends
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -313,7 +313,7 @@ export class Route53DomainsDelegationSignerRecordTimeoutsOutputReference extends
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -394,7 +394,7 @@ export class Route53DomainsDelegationSignerRecord extends cdktn.TerraformResourc
   }
 
   // domain_name - computed: false, optional: false, required: true
-  private _domainName?: string;
+  private _domainName?: string; 
   public get domainName() {
     return this.getStringAttribute('domain_name');
   }

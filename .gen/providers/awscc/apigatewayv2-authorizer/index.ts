@@ -176,7 +176,7 @@ export class Apigatewayv2AuthorizerJwtConfigurationOutputReference extends cdktn
   }
 
   // audience - computed: true, optional: true, required: false
-  private _audience?: string[];
+  private _audience?: string[]; 
   public get audience() {
     return this.getListAttribute('audience');
   }
@@ -192,7 +192,7 @@ export class Apigatewayv2AuthorizerJwtConfigurationOutputReference extends cdktn
   }
 
   // issuer - computed: true, optional: true, required: false
-  private _issuer?: string;
+  private _issuer?: string; 
   public get issuer() {
     return this.getStringAttribute('issuer');
   }
@@ -276,7 +276,7 @@ export class Apigatewayv2Authorizer extends cdktn.TerraformResource {
   // ==========
 
   // api_id - computed: false, optional: false, required: true
-  private _apiId?: string;
+  private _apiId?: string; 
   public get apiId() {
     return this.getStringAttribute('api_id');
   }
@@ -289,7 +289,7 @@ export class Apigatewayv2Authorizer extends cdktn.TerraformResource {
   }
 
   // authorizer_credentials_arn - computed: true, optional: true, required: false
-  private _authorizerCredentialsArn?: string;
+  private _authorizerCredentialsArn?: string; 
   public get authorizerCredentialsArn() {
     return this.getStringAttribute('authorizer_credentials_arn');
   }
@@ -310,7 +310,7 @@ export class Apigatewayv2Authorizer extends cdktn.TerraformResource {
   }
 
   // authorizer_payload_format_version - computed: true, optional: true, required: false
-  private _authorizerPayloadFormatVersion?: string;
+  private _authorizerPayloadFormatVersion?: string; 
   public get authorizerPayloadFormatVersion() {
     return this.getStringAttribute('authorizer_payload_format_version');
   }
@@ -326,7 +326,7 @@ export class Apigatewayv2Authorizer extends cdktn.TerraformResource {
   }
 
   // authorizer_result_ttl_in_seconds - computed: true, optional: true, required: false
-  private _authorizerResultTtlInSeconds?: number;
+  private _authorizerResultTtlInSeconds?: number; 
   public get authorizerResultTtlInSeconds() {
     return this.getNumberAttribute('authorizer_result_ttl_in_seconds');
   }
@@ -342,7 +342,7 @@ export class Apigatewayv2Authorizer extends cdktn.TerraformResource {
   }
 
   // authorizer_type - computed: false, optional: false, required: true
-  private _authorizerType?: string;
+  private _authorizerType?: string; 
   public get authorizerType() {
     return this.getStringAttribute('authorizer_type');
   }
@@ -355,7 +355,7 @@ export class Apigatewayv2Authorizer extends cdktn.TerraformResource {
   }
 
   // authorizer_uri - computed: true, optional: true, required: false
-  private _authorizerUri?: string;
+  private _authorizerUri?: string; 
   public get authorizerUri() {
     return this.getStringAttribute('authorizer_uri');
   }
@@ -371,7 +371,7 @@ export class Apigatewayv2Authorizer extends cdktn.TerraformResource {
   }
 
   // enable_simple_responses - computed: true, optional: true, required: false
-  private _enableSimpleResponses?: boolean | cdktn.IResolvable;
+  private _enableSimpleResponses?: boolean | cdktn.IResolvable; 
   public get enableSimpleResponses() {
     return this.getBooleanAttribute('enable_simple_responses');
   }
@@ -392,7 +392,7 @@ export class Apigatewayv2Authorizer extends cdktn.TerraformResource {
   }
 
   // identity_source - computed: true, optional: true, required: false
-  private _identitySource?: string[];
+  private _identitySource?: string[]; 
   public get identitySource() {
     return this.getListAttribute('identity_source');
   }
@@ -408,7 +408,7 @@ export class Apigatewayv2Authorizer extends cdktn.TerraformResource {
   }
 
   // identity_validation_expression - computed: true, optional: true, required: false
-  private _identityValidationExpression?: string;
+  private _identityValidationExpression?: string; 
   public get identityValidationExpression() {
     return this.getStringAttribute('identity_validation_expression');
   }
@@ -440,7 +440,7 @@ export class Apigatewayv2Authorizer extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }

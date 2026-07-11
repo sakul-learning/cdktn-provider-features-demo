@@ -285,7 +285,7 @@ export class OutpostsSiteOperatingAddressOutputReference extends cdktn.ComplexOb
   }
 
   // address_line_1 - computed: true, optional: true, required: false
-  private _addressLine1?: string;
+  private _addressLine1?: string; 
   public get addressLine1() {
     return this.getStringAttribute('address_line_1');
   }
@@ -301,7 +301,7 @@ export class OutpostsSiteOperatingAddressOutputReference extends cdktn.ComplexOb
   }
 
   // address_line_2 - computed: true, optional: true, required: false
-  private _addressLine2?: string;
+  private _addressLine2?: string; 
   public get addressLine2() {
     return this.getStringAttribute('address_line_2');
   }
@@ -317,7 +317,7 @@ export class OutpostsSiteOperatingAddressOutputReference extends cdktn.ComplexOb
   }
 
   // address_line_3 - computed: true, optional: true, required: false
-  private _addressLine3?: string;
+  private _addressLine3?: string; 
   public get addressLine3() {
     return this.getStringAttribute('address_line_3');
   }
@@ -333,7 +333,7 @@ export class OutpostsSiteOperatingAddressOutputReference extends cdktn.ComplexOb
   }
 
   // city - computed: true, optional: true, required: false
-  private _city?: string;
+  private _city?: string; 
   public get city() {
     return this.getStringAttribute('city');
   }
@@ -349,7 +349,7 @@ export class OutpostsSiteOperatingAddressOutputReference extends cdktn.ComplexOb
   }
 
   // contact_name - computed: true, optional: true, required: false
-  private _contactName?: string;
+  private _contactName?: string; 
   public get contactName() {
     return this.getStringAttribute('contact_name');
   }
@@ -365,7 +365,7 @@ export class OutpostsSiteOperatingAddressOutputReference extends cdktn.ComplexOb
   }
 
   // contact_phone_number - computed: true, optional: true, required: false
-  private _contactPhoneNumber?: string;
+  private _contactPhoneNumber?: string; 
   public get contactPhoneNumber() {
     return this.getStringAttribute('contact_phone_number');
   }
@@ -381,7 +381,7 @@ export class OutpostsSiteOperatingAddressOutputReference extends cdktn.ComplexOb
   }
 
   // country_code - computed: true, optional: true, required: false
-  private _countryCode?: string;
+  private _countryCode?: string; 
   public get countryCode() {
     return this.getStringAttribute('country_code');
   }
@@ -397,7 +397,7 @@ export class OutpostsSiteOperatingAddressOutputReference extends cdktn.ComplexOb
   }
 
   // district_or_county - computed: true, optional: true, required: false
-  private _districtOrCounty?: string;
+  private _districtOrCounty?: string; 
   public get districtOrCounty() {
     return this.getStringAttribute('district_or_county');
   }
@@ -413,7 +413,7 @@ export class OutpostsSiteOperatingAddressOutputReference extends cdktn.ComplexOb
   }
 
   // municipality - computed: true, optional: true, required: false
-  private _municipality?: string;
+  private _municipality?: string; 
   public get municipality() {
     return this.getStringAttribute('municipality');
   }
@@ -429,7 +429,7 @@ export class OutpostsSiteOperatingAddressOutputReference extends cdktn.ComplexOb
   }
 
   // postal_code - computed: true, optional: true, required: false
-  private _postalCode?: string;
+  private _postalCode?: string; 
   public get postalCode() {
     return this.getStringAttribute('postal_code');
   }
@@ -445,7 +445,7 @@ export class OutpostsSiteOperatingAddressOutputReference extends cdktn.ComplexOb
   }
 
   // state_or_region - computed: true, optional: true, required: false
-  private _stateOrRegion?: string;
+  private _stateOrRegion?: string; 
   public get stateOrRegion() {
     return this.getStringAttribute('state_or_region');
   }
@@ -675,7 +675,7 @@ export class OutpostsSiteRackPhysicalPropertiesOutputReference extends cdktn.Com
   }
 
   // fiber_optic_cable_type - computed: true, optional: true, required: false
-  private _fiberOpticCableType?: string;
+  private _fiberOpticCableType?: string; 
   public get fiberOpticCableType() {
     return this.getStringAttribute('fiber_optic_cable_type');
   }
@@ -691,7 +691,7 @@ export class OutpostsSiteRackPhysicalPropertiesOutputReference extends cdktn.Com
   }
 
   // maximum_supported_weight_lbs - computed: true, optional: true, required: false
-  private _maximumSupportedWeightLbs?: string;
+  private _maximumSupportedWeightLbs?: string; 
   public get maximumSupportedWeightLbs() {
     return this.getStringAttribute('maximum_supported_weight_lbs');
   }
@@ -707,7 +707,7 @@ export class OutpostsSiteRackPhysicalPropertiesOutputReference extends cdktn.Com
   }
 
   // optical_standard - computed: true, optional: true, required: false
-  private _opticalStandard?: string;
+  private _opticalStandard?: string; 
   public get opticalStandard() {
     return this.getStringAttribute('optical_standard');
   }
@@ -723,7 +723,7 @@ export class OutpostsSiteRackPhysicalPropertiesOutputReference extends cdktn.Com
   }
 
   // power_connector - computed: true, optional: true, required: false
-  private _powerConnector?: string;
+  private _powerConnector?: string; 
   public get powerConnector() {
     return this.getStringAttribute('power_connector');
   }
@@ -739,7 +739,7 @@ export class OutpostsSiteRackPhysicalPropertiesOutputReference extends cdktn.Com
   }
 
   // power_draw_kva - computed: true, optional: true, required: false
-  private _powerDrawKva?: string;
+  private _powerDrawKva?: string; 
   public get powerDrawKva() {
     return this.getStringAttribute('power_draw_kva');
   }
@@ -755,7 +755,7 @@ export class OutpostsSiteRackPhysicalPropertiesOutputReference extends cdktn.Com
   }
 
   // power_feed_drop - computed: true, optional: true, required: false
-  private _powerFeedDrop?: string;
+  private _powerFeedDrop?: string; 
   public get powerFeedDrop() {
     return this.getStringAttribute('power_feed_drop');
   }
@@ -771,7 +771,7 @@ export class OutpostsSiteRackPhysicalPropertiesOutputReference extends cdktn.Com
   }
 
   // power_phase - computed: true, optional: true, required: false
-  private _powerPhase?: string;
+  private _powerPhase?: string; 
   public get powerPhase() {
     return this.getStringAttribute('power_phase');
   }
@@ -787,7 +787,7 @@ export class OutpostsSiteRackPhysicalPropertiesOutputReference extends cdktn.Com
   }
 
   // uplink_count - computed: true, optional: true, required: false
-  private _uplinkCount?: string;
+  private _uplinkCount?: string; 
   public get uplinkCount() {
     return this.getStringAttribute('uplink_count');
   }
@@ -803,7 +803,7 @@ export class OutpostsSiteRackPhysicalPropertiesOutputReference extends cdktn.Com
   }
 
   // uplink_gbps - computed: true, optional: true, required: false
-  private _uplinkGbps?: string;
+  private _uplinkGbps?: string; 
   public get uplinkGbps() {
     return this.getStringAttribute('uplink_gbps');
   }
@@ -1067,7 +1067,7 @@ export class OutpostsSiteShippingAddressOutputReference extends cdktn.ComplexObj
   }
 
   // address_line_1 - computed: true, optional: true, required: false
-  private _addressLine1?: string;
+  private _addressLine1?: string; 
   public get addressLine1() {
     return this.getStringAttribute('address_line_1');
   }
@@ -1083,7 +1083,7 @@ export class OutpostsSiteShippingAddressOutputReference extends cdktn.ComplexObj
   }
 
   // address_line_2 - computed: true, optional: true, required: false
-  private _addressLine2?: string;
+  private _addressLine2?: string; 
   public get addressLine2() {
     return this.getStringAttribute('address_line_2');
   }
@@ -1099,7 +1099,7 @@ export class OutpostsSiteShippingAddressOutputReference extends cdktn.ComplexObj
   }
 
   // address_line_3 - computed: true, optional: true, required: false
-  private _addressLine3?: string;
+  private _addressLine3?: string; 
   public get addressLine3() {
     return this.getStringAttribute('address_line_3');
   }
@@ -1115,7 +1115,7 @@ export class OutpostsSiteShippingAddressOutputReference extends cdktn.ComplexObj
   }
 
   // city - computed: true, optional: true, required: false
-  private _city?: string;
+  private _city?: string; 
   public get city() {
     return this.getStringAttribute('city');
   }
@@ -1131,7 +1131,7 @@ export class OutpostsSiteShippingAddressOutputReference extends cdktn.ComplexObj
   }
 
   // contact_name - computed: true, optional: true, required: false
-  private _contactName?: string;
+  private _contactName?: string; 
   public get contactName() {
     return this.getStringAttribute('contact_name');
   }
@@ -1147,7 +1147,7 @@ export class OutpostsSiteShippingAddressOutputReference extends cdktn.ComplexObj
   }
 
   // contact_phone_number - computed: true, optional: true, required: false
-  private _contactPhoneNumber?: string;
+  private _contactPhoneNumber?: string; 
   public get contactPhoneNumber() {
     return this.getStringAttribute('contact_phone_number');
   }
@@ -1163,7 +1163,7 @@ export class OutpostsSiteShippingAddressOutputReference extends cdktn.ComplexObj
   }
 
   // country_code - computed: true, optional: true, required: false
-  private _countryCode?: string;
+  private _countryCode?: string; 
   public get countryCode() {
     return this.getStringAttribute('country_code');
   }
@@ -1179,7 +1179,7 @@ export class OutpostsSiteShippingAddressOutputReference extends cdktn.ComplexObj
   }
 
   // district_or_county - computed: true, optional: true, required: false
-  private _districtOrCounty?: string;
+  private _districtOrCounty?: string; 
   public get districtOrCounty() {
     return this.getStringAttribute('district_or_county');
   }
@@ -1195,7 +1195,7 @@ export class OutpostsSiteShippingAddressOutputReference extends cdktn.ComplexObj
   }
 
   // municipality - computed: true, optional: true, required: false
-  private _municipality?: string;
+  private _municipality?: string; 
   public get municipality() {
     return this.getStringAttribute('municipality');
   }
@@ -1211,7 +1211,7 @@ export class OutpostsSiteShippingAddressOutputReference extends cdktn.ComplexObj
   }
 
   // postal_code - computed: true, optional: true, required: false
-  private _postalCode?: string;
+  private _postalCode?: string; 
   public get postalCode() {
     return this.getStringAttribute('postal_code');
   }
@@ -1227,7 +1227,7 @@ export class OutpostsSiteShippingAddressOutputReference extends cdktn.ComplexObj
   }
 
   // state_or_region - computed: true, optional: true, required: false
-  private _stateOrRegion?: string;
+  private _stateOrRegion?: string; 
   public get stateOrRegion() {
     return this.getStringAttribute('state_or_region');
   }
@@ -1340,7 +1340,7 @@ export class OutpostsSiteTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1356,7 +1356,7 @@ export class OutpostsSiteTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1456,7 +1456,7 @@ export class OutpostsSite extends cdktn.TerraformResource {
   // ==========
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1477,7 +1477,7 @@ export class OutpostsSite extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1490,7 +1490,7 @@ export class OutpostsSite extends cdktn.TerraformResource {
   }
 
   // notes - computed: true, optional: true, required: false
-  private _notes?: string;
+  private _notes?: string; 
   public get notes() {
     return this.getStringAttribute('notes');
   }

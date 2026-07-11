@@ -116,7 +116,7 @@ export class RedshiftserverlessSnapshot extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -142,7 +142,7 @@ export class RedshiftserverlessSnapshot extends cdktn.TerraformResource {
   }
 
   // namespace_name - computed: false, optional: false, required: true
-  private _namespaceName?: string;
+  private _namespaceName?: string; 
   public get namespaceName() {
     return this.getStringAttribute('namespace_name');
   }
@@ -160,7 +160,7 @@ export class RedshiftserverlessSnapshot extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -176,7 +176,7 @@ export class RedshiftserverlessSnapshot extends cdktn.TerraformResource {
   }
 
   // retention_period - computed: false, optional: true, required: false
-  private _retentionPeriod?: number;
+  private _retentionPeriod?: number; 
   public get retentionPeriod() {
     return this.getNumberAttribute('retention_period');
   }
@@ -192,7 +192,7 @@ export class RedshiftserverlessSnapshot extends cdktn.TerraformResource {
   }
 
   // snapshot_name - computed: false, optional: false, required: true
-  private _snapshotName?: string;
+  private _snapshotName?: string; 
   public get snapshotName() {
     return this.getStringAttribute('snapshot_name');
   }

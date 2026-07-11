@@ -141,7 +141,7 @@ export class SagemakerProjectServiceCatalogProvisioningDetailsProvisioningParame
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -154,7 +154,7 @@ export class SagemakerProjectServiceCatalogProvisioningDetailsProvisioningParame
   }
 
   // value - computed: false, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -311,7 +311,7 @@ export class SagemakerProjectServiceCatalogProvisioningDetailsOutputReference ex
   }
 
   // path_id - computed: false, optional: true, required: false
-  private _pathId?: string;
+  private _pathId?: string; 
   public get pathId() {
     return this.getStringAttribute('path_id');
   }
@@ -327,7 +327,7 @@ export class SagemakerProjectServiceCatalogProvisioningDetailsOutputReference ex
   }
 
   // product_id - computed: false, optional: false, required: true
-  private _productId?: string;
+  private _productId?: string; 
   public get productId() {
     return this.getStringAttribute('product_id');
   }
@@ -340,7 +340,7 @@ export class SagemakerProjectServiceCatalogProvisioningDetailsOutputReference ex
   }
 
   // provisioning_artifact_id - computed: true, optional: true, required: false
-  private _provisioningArtifactId?: string;
+  private _provisioningArtifactId?: string; 
   public get provisioningArtifactId() {
     return this.getStringAttribute('provisioning_artifact_id');
   }
@@ -441,7 +441,7 @@ export class SagemakerProject extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -457,7 +457,7 @@ export class SagemakerProject extends cdktn.TerraformResource {
   }
 
   // project_description - computed: false, optional: true, required: false
-  private _projectDescription?: string;
+  private _projectDescription?: string; 
   public get projectDescription() {
     return this.getStringAttribute('project_description');
   }
@@ -478,7 +478,7 @@ export class SagemakerProject extends cdktn.TerraformResource {
   }
 
   // project_name - computed: false, optional: false, required: true
-  private _projectName?: string;
+  private _projectName?: string; 
   public get projectName() {
     return this.getStringAttribute('project_name');
   }
@@ -491,7 +491,7 @@ export class SagemakerProject extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -507,7 +507,7 @@ export class SagemakerProject extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -523,7 +523,7 @@ export class SagemakerProject extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

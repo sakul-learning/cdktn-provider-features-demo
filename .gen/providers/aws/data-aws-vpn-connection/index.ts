@@ -302,7 +302,7 @@ export class DataAwsVpnConnectionFilterOutputReference extends cdktn.ComplexObje
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -315,7 +315,7 @@ export class DataAwsVpnConnectionFilterOutputReference extends cdktn.ComplexObje
   }
 
   // values - computed: false, optional: false, required: true
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -443,7 +443,7 @@ export class DataAwsVpnConnection extends cdktn.TerraformDataSource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -497,7 +497,7 @@ export class DataAwsVpnConnection extends cdktn.TerraformDataSource {
   }
 
   // vpn_connection_id - computed: true, optional: true, required: false
-  private _vpnConnectionId?: string;
+  private _vpnConnectionId?: string; 
   public get vpnConnectionId() {
     return this.getStringAttribute('vpn_connection_id');
   }

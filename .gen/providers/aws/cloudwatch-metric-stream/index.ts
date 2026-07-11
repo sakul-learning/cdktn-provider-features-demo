@@ -175,7 +175,7 @@ export class CloudwatchMetricStreamExcludeFilterOutputReference extends cdktn.Co
   }
 
   // metric_names - computed: false, optional: true, required: false
-  private _metricNames?: string[];
+  private _metricNames?: string[]; 
   public get metricNames() {
     return cdktn.Fn.tolist(this.getListAttribute('metric_names'));
   }
@@ -191,7 +191,7 @@ export class CloudwatchMetricStreamExcludeFilterOutputReference extends cdktn.Co
   }
 
   // namespace - computed: false, optional: false, required: true
-  private _namespace?: string;
+  private _namespace?: string; 
   public get namespace() {
     return this.getStringAttribute('namespace');
   }
@@ -321,7 +321,7 @@ export class CloudwatchMetricStreamIncludeFilterOutputReference extends cdktn.Co
   }
 
   // metric_names - computed: false, optional: true, required: false
-  private _metricNames?: string[];
+  private _metricNames?: string[]; 
   public get metricNames() {
     return cdktn.Fn.tolist(this.getListAttribute('metric_names'));
   }
@@ -337,7 +337,7 @@ export class CloudwatchMetricStreamIncludeFilterOutputReference extends cdktn.Co
   }
 
   // namespace - computed: false, optional: false, required: true
-  private _namespace?: string;
+  private _namespace?: string; 
   public get namespace() {
     return this.getStringAttribute('namespace');
   }
@@ -467,7 +467,7 @@ export class CloudwatchMetricStreamStatisticsConfigurationIncludeMetricOutputRef
   }
 
   // metric_name - computed: false, optional: false, required: true
-  private _metricName?: string;
+  private _metricName?: string; 
   public get metricName() {
     return this.getStringAttribute('metric_name');
   }
@@ -480,7 +480,7 @@ export class CloudwatchMetricStreamStatisticsConfigurationIncludeMetricOutputRef
   }
 
   // namespace - computed: false, optional: false, required: true
-  private _namespace?: string;
+  private _namespace?: string; 
   public get namespace() {
     return this.getStringAttribute('namespace');
   }
@@ -612,7 +612,7 @@ export class CloudwatchMetricStreamStatisticsConfigurationOutputReference extend
   }
 
   // additional_statistics - computed: false, optional: false, required: true
-  private _additionalStatistics?: string[];
+  private _additionalStatistics?: string[]; 
   public get additionalStatistics() {
     return cdktn.Fn.tolist(this.getListAttribute('additional_statistics'));
   }
@@ -770,7 +770,7 @@ export class CloudwatchMetricStreamTimeoutsOutputReference extends cdktn.Complex
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -786,7 +786,7 @@ export class CloudwatchMetricStreamTimeoutsOutputReference extends cdktn.Complex
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -802,7 +802,7 @@ export class CloudwatchMetricStreamTimeoutsOutputReference extends cdktn.Complex
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -899,7 +899,7 @@ export class CloudwatchMetricStream extends cdktn.TerraformResource {
   }
 
   // firehose_arn - computed: false, optional: false, required: true
-  private _firehoseArn?: string;
+  private _firehoseArn?: string; 
   public get firehoseArn() {
     return this.getStringAttribute('firehose_arn');
   }
@@ -912,7 +912,7 @@ export class CloudwatchMetricStream extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -928,7 +928,7 @@ export class CloudwatchMetricStream extends cdktn.TerraformResource {
   }
 
   // include_linked_accounts_metrics - computed: false, optional: true, required: false
-  private _includeLinkedAccountsMetrics?: boolean | cdktn.IResolvable;
+  private _includeLinkedAccountsMetrics?: boolean | cdktn.IResolvable; 
   public get includeLinkedAccountsMetrics() {
     return this.getBooleanAttribute('include_linked_accounts_metrics');
   }
@@ -949,7 +949,7 @@ export class CloudwatchMetricStream extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -965,7 +965,7 @@ export class CloudwatchMetricStream extends cdktn.TerraformResource {
   }
 
   // name_prefix - computed: true, optional: true, required: false
-  private _namePrefix?: string;
+  private _namePrefix?: string; 
   public get namePrefix() {
     return this.getStringAttribute('name_prefix');
   }
@@ -981,7 +981,7 @@ export class CloudwatchMetricStream extends cdktn.TerraformResource {
   }
 
   // output_format - computed: false, optional: false, required: true
-  private _outputFormat?: string;
+  private _outputFormat?: string; 
   public get outputFormat() {
     return this.getStringAttribute('output_format');
   }
@@ -994,7 +994,7 @@ export class CloudwatchMetricStream extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1010,7 +1010,7 @@ export class CloudwatchMetricStream extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -1028,7 +1028,7 @@ export class CloudwatchMetricStream extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -1044,7 +1044,7 @@ export class CloudwatchMetricStream extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

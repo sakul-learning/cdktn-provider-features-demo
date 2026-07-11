@@ -162,7 +162,7 @@ export class Ec2TransitGatewayTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -178,7 +178,7 @@ export class Ec2TransitGatewayTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -285,7 +285,7 @@ export class Ec2TransitGateway extends cdktn.TerraformResource {
   // ==========
 
   // amazon_side_asn - computed: true, optional: true, required: false
-  private _amazonSideAsn?: number;
+  private _amazonSideAsn?: number; 
   public get amazonSideAsn() {
     return this.getNumberAttribute('amazon_side_asn');
   }
@@ -301,7 +301,7 @@ export class Ec2TransitGateway extends cdktn.TerraformResource {
   }
 
   // association_default_route_table_id - computed: true, optional: true, required: false
-  private _associationDefaultRouteTableId?: string;
+  private _associationDefaultRouteTableId?: string; 
   public get associationDefaultRouteTableId() {
     return this.getStringAttribute('association_default_route_table_id');
   }
@@ -317,7 +317,7 @@ export class Ec2TransitGateway extends cdktn.TerraformResource {
   }
 
   // auto_accept_shared_attachments - computed: true, optional: true, required: false
-  private _autoAcceptSharedAttachments?: string;
+  private _autoAcceptSharedAttachments?: string; 
   public get autoAcceptSharedAttachments() {
     return this.getStringAttribute('auto_accept_shared_attachments');
   }
@@ -333,7 +333,7 @@ export class Ec2TransitGateway extends cdktn.TerraformResource {
   }
 
   // default_route_table_association - computed: true, optional: true, required: false
-  private _defaultRouteTableAssociation?: string;
+  private _defaultRouteTableAssociation?: string; 
   public get defaultRouteTableAssociation() {
     return this.getStringAttribute('default_route_table_association');
   }
@@ -349,7 +349,7 @@ export class Ec2TransitGateway extends cdktn.TerraformResource {
   }
 
   // default_route_table_propagation - computed: true, optional: true, required: false
-  private _defaultRouteTablePropagation?: string;
+  private _defaultRouteTablePropagation?: string; 
   public get defaultRouteTablePropagation() {
     return this.getStringAttribute('default_route_table_propagation');
   }
@@ -365,7 +365,7 @@ export class Ec2TransitGateway extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -381,7 +381,7 @@ export class Ec2TransitGateway extends cdktn.TerraformResource {
   }
 
   // dns_support - computed: true, optional: true, required: false
-  private _dnsSupport?: string;
+  private _dnsSupport?: string; 
   public get dnsSupport() {
     return this.getStringAttribute('dns_support');
   }
@@ -397,7 +397,7 @@ export class Ec2TransitGateway extends cdktn.TerraformResource {
   }
 
   // encryption_support - computed: true, optional: true, required: false
-  private _encryptionSupport?: string;
+  private _encryptionSupport?: string; 
   public get encryptionSupport() {
     return this.getStringAttribute('encryption_support');
   }
@@ -423,7 +423,7 @@ export class Ec2TransitGateway extends cdktn.TerraformResource {
   }
 
   // multicast_support - computed: true, optional: true, required: false
-  private _multicastSupport?: string;
+  private _multicastSupport?: string; 
   public get multicastSupport() {
     return this.getStringAttribute('multicast_support');
   }
@@ -439,7 +439,7 @@ export class Ec2TransitGateway extends cdktn.TerraformResource {
   }
 
   // propagation_default_route_table_id - computed: true, optional: true, required: false
-  private _propagationDefaultRouteTableId?: string;
+  private _propagationDefaultRouteTableId?: string; 
   public get propagationDefaultRouteTableId() {
     return this.getStringAttribute('propagation_default_route_table_id');
   }
@@ -455,7 +455,7 @@ export class Ec2TransitGateway extends cdktn.TerraformResource {
   }
 
   // security_group_referencing_support - computed: true, optional: true, required: false
-  private _securityGroupReferencingSupport?: string;
+  private _securityGroupReferencingSupport?: string; 
   public get securityGroupReferencingSupport() {
     return this.getStringAttribute('security_group_referencing_support');
   }
@@ -492,7 +492,7 @@ export class Ec2TransitGateway extends cdktn.TerraformResource {
   }
 
   // transit_gateway_cidr_blocks - computed: true, optional: true, required: false
-  private _transitGatewayCidrBlocks?: string[];
+  private _transitGatewayCidrBlocks?: string[]; 
   public get transitGatewayCidrBlocks() {
     return this.getListAttribute('transit_gateway_cidr_blocks');
   }
@@ -513,7 +513,7 @@ export class Ec2TransitGateway extends cdktn.TerraformResource {
   }
 
   // vpn_ecmp_support - computed: true, optional: true, required: false
-  private _vpnEcmpSupport?: string;
+  private _vpnEcmpSupport?: string; 
   public get vpnEcmpSupport() {
     return this.getStringAttribute('vpn_ecmp_support');
   }

@@ -90,7 +90,7 @@ export class ChimesdkvoiceGlobalSettingsVoiceConnectorOutputReference extends cd
   }
 
   // cdr_bucket - computed: false, optional: true, required: false
-  private _cdrBucket?: string;
+  private _cdrBucket?: string; 
   public get cdrBucket() {
     return this.getStringAttribute('cdr_bucket');
   }
@@ -165,7 +165,7 @@ export class ChimesdkvoiceGlobalSettings extends cdktn.TerraformResource {
   // ==========
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }

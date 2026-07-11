@@ -91,7 +91,7 @@ export class Sesv2EmailIdentityFeedbackAttributes extends cdktn.TerraformResourc
   // ==========
 
   // email_forwarding_enabled - computed: false, optional: true, required: false
-  private _emailForwardingEnabled?: boolean | cdktn.IResolvable;
+  private _emailForwardingEnabled?: boolean | cdktn.IResolvable; 
   public get emailForwardingEnabled() {
     return this.getBooleanAttribute('email_forwarding_enabled');
   }
@@ -107,7 +107,7 @@ export class Sesv2EmailIdentityFeedbackAttributes extends cdktn.TerraformResourc
   }
 
   // email_identity - computed: false, optional: false, required: true
-  private _emailIdentity?: string;
+  private _emailIdentity?: string; 
   public get emailIdentity() {
     return this.getStringAttribute('email_identity');
   }
@@ -120,7 +120,7 @@ export class Sesv2EmailIdentityFeedbackAttributes extends cdktn.TerraformResourc
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -136,7 +136,7 @@ export class Sesv2EmailIdentityFeedbackAttributes extends cdktn.TerraformResourc
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

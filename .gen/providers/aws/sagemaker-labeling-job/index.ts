@@ -255,7 +255,7 @@ export class SagemakerLabelingJobStoppingConditionsOutputReference extends cdktn
   }
 
   // max_human_labeled_object_count - computed: true, optional: true, required: false
-  private _maxHumanLabeledObjectCount?: number;
+  private _maxHumanLabeledObjectCount?: number; 
   public get maxHumanLabeledObjectCount() {
     return this.getNumberAttribute('max_human_labeled_object_count');
   }
@@ -271,7 +271,7 @@ export class SagemakerLabelingJobStoppingConditionsOutputReference extends cdktn
   }
 
   // max_percentage_of_input_dataset_labeled - computed: true, optional: true, required: false
-  private _maxPercentageOfInputDatasetLabeled?: number;
+  private _maxPercentageOfInputDatasetLabeled?: number; 
   public get maxPercentageOfInputDatasetLabeled() {
     return this.getNumberAttribute('max_percentage_of_input_dataset_labeled');
   }
@@ -387,7 +387,7 @@ export class SagemakerLabelingJobHumanTaskConfigAnnotationConsolidationConfigOut
   }
 
   // annotation_consolidation_lambda_arn - computed: false, optional: false, required: true
-  private _annotationConsolidationLambdaArn?: string;
+  private _annotationConsolidationLambdaArn?: string; 
   public get annotationConsolidationLambdaArn() {
     return this.getStringAttribute('annotation_consolidation_lambda_arn');
   }
@@ -534,7 +534,7 @@ export class SagemakerLabelingJobHumanTaskConfigPublicWorkforceTaskPriceAmountIn
   }
 
   // cents - computed: false, optional: true, required: false
-  private _cents?: number;
+  private _cents?: number; 
   public get cents() {
     return this.getNumberAttribute('cents');
   }
@@ -550,7 +550,7 @@ export class SagemakerLabelingJobHumanTaskConfigPublicWorkforceTaskPriceAmountIn
   }
 
   // dollars - computed: false, optional: true, required: false
-  private _dollars?: number;
+  private _dollars?: number; 
   public get dollars() {
     return this.getNumberAttribute('dollars');
   }
@@ -566,7 +566,7 @@ export class SagemakerLabelingJobHumanTaskConfigPublicWorkforceTaskPriceAmountIn
   }
 
   // tenth_fractions_of_a_cent - computed: false, optional: true, required: false
-  private _tenthFractionsOfACent?: number;
+  private _tenthFractionsOfACent?: number; 
   public get tenthFractionsOfACent() {
     return this.getNumberAttribute('tenth_fractions_of_a_cent');
   }
@@ -817,7 +817,7 @@ export class SagemakerLabelingJobHumanTaskConfigUiConfigOutputReference extends 
   }
 
   // human_task_ui_arn - computed: false, optional: true, required: false
-  private _humanTaskUiArn?: string;
+  private _humanTaskUiArn?: string; 
   public get humanTaskUiArn() {
     return this.getStringAttribute('human_task_ui_arn');
   }
@@ -833,7 +833,7 @@ export class SagemakerLabelingJobHumanTaskConfigUiConfigOutputReference extends 
   }
 
   // ui_template_s3_uri - computed: false, optional: true, required: false
-  private _uiTemplateS3Uri?: string;
+  private _uiTemplateS3Uri?: string; 
   public get uiTemplateS3Uri() {
     return this.getStringAttribute('ui_template_s3_uri');
   }
@@ -1142,7 +1142,7 @@ export class SagemakerLabelingJobHumanTaskConfigOutputReference extends cdktn.Co
   }
 
   // max_concurrent_task_count - computed: true, optional: true, required: false
-  private _maxConcurrentTaskCount?: number;
+  private _maxConcurrentTaskCount?: number; 
   public get maxConcurrentTaskCount() {
     return this.getNumberAttribute('max_concurrent_task_count');
   }
@@ -1158,7 +1158,7 @@ export class SagemakerLabelingJobHumanTaskConfigOutputReference extends cdktn.Co
   }
 
   // number_of_human_workers_per_data_object - computed: false, optional: false, required: true
-  private _numberOfHumanWorkersPerDataObject?: number;
+  private _numberOfHumanWorkersPerDataObject?: number; 
   public get numberOfHumanWorkersPerDataObject() {
     return this.getNumberAttribute('number_of_human_workers_per_data_object');
   }
@@ -1171,7 +1171,7 @@ export class SagemakerLabelingJobHumanTaskConfigOutputReference extends cdktn.Co
   }
 
   // pre_human_task_lambda_arn - computed: false, optional: true, required: false
-  private _preHumanTaskLambdaArn?: string;
+  private _preHumanTaskLambdaArn?: string; 
   public get preHumanTaskLambdaArn() {
     return this.getStringAttribute('pre_human_task_lambda_arn');
   }
@@ -1187,7 +1187,7 @@ export class SagemakerLabelingJobHumanTaskConfigOutputReference extends cdktn.Co
   }
 
   // task_availability_lifetime_in_seconds - computed: true, optional: true, required: false
-  private _taskAvailabilityLifetimeInSeconds?: number;
+  private _taskAvailabilityLifetimeInSeconds?: number; 
   public get taskAvailabilityLifetimeInSeconds() {
     return this.getNumberAttribute('task_availability_lifetime_in_seconds');
   }
@@ -1203,7 +1203,7 @@ export class SagemakerLabelingJobHumanTaskConfigOutputReference extends cdktn.Co
   }
 
   // task_description - computed: false, optional: false, required: true
-  private _taskDescription?: string;
+  private _taskDescription?: string; 
   public get taskDescription() {
     return this.getStringAttribute('task_description');
   }
@@ -1216,7 +1216,7 @@ export class SagemakerLabelingJobHumanTaskConfigOutputReference extends cdktn.Co
   }
 
   // task_keywords - computed: false, optional: true, required: false
-  private _taskKeywords?: string[];
+  private _taskKeywords?: string[]; 
   public get taskKeywords() {
     return cdktn.Fn.tolist(this.getListAttribute('task_keywords'));
   }
@@ -1232,7 +1232,7 @@ export class SagemakerLabelingJobHumanTaskConfigOutputReference extends cdktn.Co
   }
 
   // task_time_limit_in_seconds - computed: false, optional: false, required: true
-  private _taskTimeLimitInSeconds?: number;
+  private _taskTimeLimitInSeconds?: number; 
   public get taskTimeLimitInSeconds() {
     return this.getNumberAttribute('task_time_limit_in_seconds');
   }
@@ -1245,7 +1245,7 @@ export class SagemakerLabelingJobHumanTaskConfigOutputReference extends cdktn.Co
   }
 
   // task_title - computed: false, optional: false, required: true
-  private _taskTitle?: string;
+  private _taskTitle?: string; 
   public get taskTitle() {
     return this.getStringAttribute('task_title');
   }
@@ -1258,7 +1258,7 @@ export class SagemakerLabelingJobHumanTaskConfigOutputReference extends cdktn.Co
   }
 
   // workteam_arn - computed: false, optional: false, required: true
-  private _workteamArn?: string;
+  private _workteamArn?: string; 
   public get workteamArn() {
     return this.getStringAttribute('workteam_arn');
   }
@@ -1419,7 +1419,7 @@ export class SagemakerLabelingJobInputConfigDataAttributesOutputReference extend
   }
 
   // content_classifiers - computed: false, optional: true, required: false
-  private _contentClassifiers?: string[];
+  private _contentClassifiers?: string[]; 
   public get contentClassifiers() {
     return cdktn.Fn.tolist(this.getListAttribute('content_classifiers'));
   }
@@ -1535,7 +1535,7 @@ export class SagemakerLabelingJobInputConfigDataSourceS3DataSourceOutputReferenc
   }
 
   // manifest_s3_uri - computed: false, optional: false, required: true
-  private _manifestS3Uri?: string;
+  private _manifestS3Uri?: string; 
   public get manifestS3Uri() {
     return this.getStringAttribute('manifest_s3_uri');
   }
@@ -1648,7 +1648,7 @@ export class SagemakerLabelingJobInputConfigDataSourceSnsDataSourceOutputReferen
   }
 
   // sns_topic_arn - computed: false, optional: false, required: true
-  private _snsTopicArn?: string;
+  private _snsTopicArn?: string; 
   public get snsTopicArn() {
     return this.getStringAttribute('sns_topic_arn');
   }
@@ -2084,7 +2084,7 @@ export class SagemakerLabelingJobLabelingJobAlgorithmsConfigLabelingJobResourceC
   }
 
   // security_group_ids - computed: false, optional: false, required: true
-  private _securityGroupIds?: string[];
+  private _securityGroupIds?: string[]; 
   public get securityGroupIds() {
     return cdktn.Fn.tolist(this.getListAttribute('security_group_ids'));
   }
@@ -2097,7 +2097,7 @@ export class SagemakerLabelingJobLabelingJobAlgorithmsConfigLabelingJobResourceC
   }
 
   // subnets - computed: false, optional: false, required: true
-  private _subnets?: string[];
+  private _subnets?: string[]; 
   public get subnets() {
     return cdktn.Fn.tolist(this.getListAttribute('subnets'));
   }
@@ -2229,7 +2229,7 @@ export class SagemakerLabelingJobLabelingJobAlgorithmsConfigLabelingJobResourceC
   }
 
   // volume_kms_key_id - computed: false, optional: true, required: false
-  private _volumeKmsKeyId?: string;
+  private _volumeKmsKeyId?: string; 
   public get volumeKmsKeyId() {
     return this.getStringAttribute('volume_kms_key_id');
   }
@@ -2397,7 +2397,7 @@ export class SagemakerLabelingJobLabelingJobAlgorithmsConfigOutputReference exte
   }
 
   // initial_active_learning_model_arn - computed: false, optional: true, required: false
-  private _initialActiveLearningModelArn?: string;
+  private _initialActiveLearningModelArn?: string; 
   public get initialActiveLearningModelArn() {
     return this.getStringAttribute('initial_active_learning_model_arn');
   }
@@ -2413,7 +2413,7 @@ export class SagemakerLabelingJobLabelingJobAlgorithmsConfigOutputReference exte
   }
 
   // labeling_job_algorithm_specification_arn - computed: false, optional: false, required: true
-  private _labelingJobAlgorithmSpecificationArn?: string;
+  private _labelingJobAlgorithmSpecificationArn?: string; 
   public get labelingJobAlgorithmSpecificationArn() {
     return this.getStringAttribute('labeling_job_algorithm_specification_arn');
   }
@@ -2576,7 +2576,7 @@ export class SagemakerLabelingJobOutputConfigOutputReference extends cdktn.Compl
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -2592,7 +2592,7 @@ export class SagemakerLabelingJobOutputConfigOutputReference extends cdktn.Compl
   }
 
   // s3_output_path - computed: false, optional: false, required: true
-  private _s3OutputPath?: string;
+  private _s3OutputPath?: string; 
   public get s3OutputPath() {
     return this.getStringAttribute('s3_output_path');
   }
@@ -2605,7 +2605,7 @@ export class SagemakerLabelingJobOutputConfigOutputReference extends cdktn.Compl
   }
 
   // sns_topic_arn - computed: false, optional: true, required: false
-  private _snsTopicArn?: string;
+  private _snsTopicArn?: string; 
   public get snsTopicArn() {
     return this.getStringAttribute('sns_topic_arn');
   }
@@ -2719,7 +2719,7 @@ export class SagemakerLabelingJob extends cdktn.TerraformResource {
   }
 
   // label_attribute_name - computed: false, optional: false, required: true
-  private _labelAttributeName?: string;
+  private _labelAttributeName?: string; 
   public get labelAttributeName() {
     return this.getStringAttribute('label_attribute_name');
   }
@@ -2732,7 +2732,7 @@ export class SagemakerLabelingJob extends cdktn.TerraformResource {
   }
 
   // label_category_config_s3_uri - computed: false, optional: true, required: false
-  private _labelCategoryConfigS3Uri?: string;
+  private _labelCategoryConfigS3Uri?: string; 
   public get labelCategoryConfigS3Uri() {
     return this.getStringAttribute('label_category_config_s3_uri');
   }
@@ -2759,7 +2759,7 @@ export class SagemakerLabelingJob extends cdktn.TerraformResource {
   }
 
   // labeling_job_name - computed: false, optional: false, required: true
-  private _labelingJobName?: string;
+  private _labelingJobName?: string; 
   public get labelingJobName() {
     return this.getStringAttribute('labeling_job_name');
   }
@@ -2777,7 +2777,7 @@ export class SagemakerLabelingJob extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -2793,7 +2793,7 @@ export class SagemakerLabelingJob extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -2822,7 +2822,7 @@ export class SagemakerLabelingJob extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

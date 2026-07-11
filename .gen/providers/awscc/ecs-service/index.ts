@@ -235,11 +235,11 @@ export interface EcsServiceCapacityProviderStrategy {
   *   +  The valid range is 0 to 1,000
   *   +  At least one capacity provider must have a weight greater than zero
   *   +  Capacity providers with weight of ``0`` cannot place tasks
-  *
+  *   
   *  Task distribution logic:
   *   1.  Base satisfaction: The minimum number of tasks specified by the base value are placed on that capacity provider
   *   1.  Weight distribution: After base requirements are met, additional tasks are distributed according to weight ratios
-  *
+  *   
   *  Examples:
   *  Equal Distribution: Two capacity providers both with weight ``1`` will split tasks evenly after base requirements are met.
   *  Weighted Distribution: If capacityProviderA has weight ``1`` and capacityProviderB has weight ``4``, then for every 1 task on A, 4 tasks will run on B.
@@ -349,7 +349,7 @@ export class EcsServiceCapacityProviderStrategyOutputReference extends cdktn.Com
   }
 
   // base - computed: true, optional: true, required: false
-  private _base?: number;
+  private _base?: number; 
   public get base() {
     return this.getNumberAttribute('base');
   }
@@ -365,7 +365,7 @@ export class EcsServiceCapacityProviderStrategyOutputReference extends cdktn.Com
   }
 
   // capacity_provider - computed: true, optional: true, required: false
-  private _capacityProvider?: string;
+  private _capacityProvider?: string; 
   public get capacityProvider() {
     return this.getStringAttribute('capacity_provider');
   }
@@ -381,7 +381,7 @@ export class EcsServiceCapacityProviderStrategyOutputReference extends cdktn.Com
   }
 
   // weight - computed: true, optional: true, required: false
-  private _weight?: number;
+  private _weight?: number; 
   public get weight() {
     return this.getNumberAttribute('weight');
   }
@@ -535,7 +535,7 @@ export class EcsServiceDeploymentConfigurationAlarmsOutputReference extends cdkt
   }
 
   // alarm_names - computed: true, optional: true, required: false
-  private _alarmNames?: string[];
+  private _alarmNames?: string[]; 
   public get alarmNames() {
     return this.getListAttribute('alarm_names');
   }
@@ -551,7 +551,7 @@ export class EcsServiceDeploymentConfigurationAlarmsOutputReference extends cdkt
   }
 
   // enable - computed: true, optional: true, required: false
-  private _enable?: boolean | cdktn.IResolvable;
+  private _enable?: boolean | cdktn.IResolvable; 
   public get enable() {
     return this.getBooleanAttribute('enable');
   }
@@ -567,7 +567,7 @@ export class EcsServiceDeploymentConfigurationAlarmsOutputReference extends cdkt
   }
 
   // rollback - computed: true, optional: true, required: false
-  private _rollback?: boolean | cdktn.IResolvable;
+  private _rollback?: boolean | cdktn.IResolvable; 
   public get rollback() {
     return this.getBooleanAttribute('rollback');
   }
@@ -682,7 +682,7 @@ export class EcsServiceDeploymentConfigurationCanaryConfigurationOutputReference
   }
 
   // canary_bake_time_in_minutes - computed: true, optional: true, required: false
-  private _canaryBakeTimeInMinutes?: number;
+  private _canaryBakeTimeInMinutes?: number; 
   public get canaryBakeTimeInMinutes() {
     return this.getNumberAttribute('canary_bake_time_in_minutes');
   }
@@ -698,7 +698,7 @@ export class EcsServiceDeploymentConfigurationCanaryConfigurationOutputReference
   }
 
   // canary_percent - computed: true, optional: true, required: false
-  private _canaryPercent?: number;
+  private _canaryPercent?: number; 
   public get canaryPercent() {
     return this.getNumberAttribute('canary_percent');
   }
@@ -809,7 +809,7 @@ export class EcsServiceDeploymentConfigurationDeploymentCircuitBreakerThresholdC
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -825,7 +825,7 @@ export class EcsServiceDeploymentConfigurationDeploymentCircuitBreakerThresholdC
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: number;
+  private _value?: number; 
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -974,7 +974,7 @@ export class EcsServiceDeploymentConfigurationDeploymentCircuitBreakerOutputRefe
   }
 
   // enable - computed: true, optional: true, required: false
-  private _enable?: boolean | cdktn.IResolvable;
+  private _enable?: boolean | cdktn.IResolvable; 
   public get enable() {
     return this.getBooleanAttribute('enable');
   }
@@ -990,7 +990,7 @@ export class EcsServiceDeploymentConfigurationDeploymentCircuitBreakerOutputRefe
   }
 
   // reset_on_healthy_task - computed: true, optional: true, required: false
-  private _resetOnHealthyTask?: boolean | cdktn.IResolvable;
+  private _resetOnHealthyTask?: boolean | cdktn.IResolvable; 
   public get resetOnHealthyTask() {
     return this.getBooleanAttribute('reset_on_healthy_task');
   }
@@ -1006,7 +1006,7 @@ export class EcsServiceDeploymentConfigurationDeploymentCircuitBreakerOutputRefe
   }
 
   // rollback - computed: true, optional: true, required: false
-  private _rollback?: boolean | cdktn.IResolvable;
+  private _rollback?: boolean | cdktn.IResolvable; 
   public get rollback() {
     return this.getBooleanAttribute('rollback');
   }
@@ -1133,7 +1133,7 @@ export class EcsServiceDeploymentConfigurationLifecycleHooksTimeoutConfiguration
   }
 
   // action - computed: true, optional: true, required: false
-  private _action?: string;
+  private _action?: string; 
   public get action() {
     return this.getStringAttribute('action');
   }
@@ -1149,7 +1149,7 @@ export class EcsServiceDeploymentConfigurationLifecycleHooksTimeoutConfiguration
   }
 
   // timeout_in_minutes - computed: true, optional: true, required: false
-  private _timeoutInMinutes?: number;
+  private _timeoutInMinutes?: number; 
   public get timeoutInMinutes() {
     return this.getNumberAttribute('timeout_in_minutes');
   }
@@ -1205,7 +1205,7 @@ export interface EcsServiceDeploymentConfigurationLifecycleHooks {
   *   +  POST_PRODUCTION_TRAFFIC_SHIFT
   *  The production traffic shift is complete.
   *  You can use a lifecycle hook for this stage.
-  *
+  *   
   *   ``PAUSE`` hooks cannot be configured at ``TEST_TRAFFIC_SHIFT`` or ``PRODUCTION_TRAFFIC_SHIFT`` stages. These stages are only valid for ``AWS_LAMBDA`` hooks.
   *   You must provide this parameter when configuring a deployment lifecycle hook.
   *
@@ -1223,7 +1223,7 @@ export interface EcsServiceDeploymentConfigurationLifecycleHooks {
   * The type of action the lifecycle hook performs. Valid values are:
   *   +  ``AWS_LAMBDA`` - Invokes a Lambda function at the specified lifecycle stage. This is the default value.
   *   +  ``PAUSE`` - Pauses the deployment at the specified lifecycle stage until you call ``ContinueServiceDeployment`` to continue or roll back.
-  *
+  *   
   *  This field is optional. If not specified, the default value is ``AWS_LAMBDA``.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#target_type EcsService#target_type}
@@ -1376,7 +1376,7 @@ export class EcsServiceDeploymentConfigurationLifecycleHooksOutputReference exte
   }
 
   // hook_details - computed: true, optional: true, required: false
-  private _hookDetails?: string;
+  private _hookDetails?: string; 
   public get hookDetails() {
     return this.getStringAttribute('hook_details');
   }
@@ -1392,7 +1392,7 @@ export class EcsServiceDeploymentConfigurationLifecycleHooksOutputReference exte
   }
 
   // hook_target_arn - computed: true, optional: true, required: false
-  private _hookTargetArn?: string;
+  private _hookTargetArn?: string; 
   public get hookTargetArn() {
     return this.getStringAttribute('hook_target_arn');
   }
@@ -1408,7 +1408,7 @@ export class EcsServiceDeploymentConfigurationLifecycleHooksOutputReference exte
   }
 
   // lifecycle_stages - computed: true, optional: true, required: false
-  private _lifecycleStages?: string[];
+  private _lifecycleStages?: string[]; 
   public get lifecycleStages() {
     return this.getListAttribute('lifecycle_stages');
   }
@@ -1424,7 +1424,7 @@ export class EcsServiceDeploymentConfigurationLifecycleHooksOutputReference exte
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -1440,7 +1440,7 @@ export class EcsServiceDeploymentConfigurationLifecycleHooksOutputReference exte
   }
 
   // target_type - computed: true, optional: true, required: false
-  private _targetType?: string;
+  private _targetType?: string; 
   public get targetType() {
     return this.getStringAttribute('target_type');
   }
@@ -1591,7 +1591,7 @@ export class EcsServiceDeploymentConfigurationLinearConfigurationOutputReference
   }
 
   // step_bake_time_in_minutes - computed: true, optional: true, required: false
-  private _stepBakeTimeInMinutes?: number;
+  private _stepBakeTimeInMinutes?: number; 
   public get stepBakeTimeInMinutes() {
     return this.getNumberAttribute('step_bake_time_in_minutes');
   }
@@ -1607,7 +1607,7 @@ export class EcsServiceDeploymentConfigurationLinearConfigurationOutputReference
   }
 
   // step_percent - computed: true, optional: true, required: false
-  private _stepPercent?: number;
+  private _stepPercent?: number; 
   public get stepPercent() {
     return this.getNumberAttribute('step_percent');
   }
@@ -1635,7 +1635,7 @@ export interface EcsServiceDeploymentConfiguration {
   *   +  For blue/green, linear, and canary deployments, the value is set to 15 minutes.
   *   +  For rolling deployments, there is no bake time set by default.
   *   +  The external deployment controller (``EXTERNAL``) and the ACD blue/green deployment controller (``CODE_DEPLOY``) do not support the ``BakeTimeInMinutes`` parameter.
-  *
+  *   
   *   If you provide a bake time for a rolling deployment, the CloudFormation handler timeout is increased to the maximum of 36 hours, matching the timeout for blue/green, linear, and canary deployments.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#bake_time_in_minutes EcsService#bake_time_in_minutes}
@@ -1677,17 +1677,17 @@ export interface EcsServiceDeploymentConfiguration {
   */
   readonly maximumPercent?: number;
   /**
-  * If a service is using the rolling update (``ECS``) deployment type, the ``minimumHealthyPercent`` represents a lower limit on the number of your service's tasks that must remain in the ``RUNNING`` state during a deployment, as a percentage of the ``desiredCount`` (rounded up to the nearest integer). This parameter enables you to deploy without using additional cluster capacity. For example, if your service has a ``desiredCount`` of four tasks and a ``minimumHealthyPercent`` of 50%, the service scheduler may stop two existing tasks to free up cluster capacity before starting two new tasks.
-  *   If any tasks are unhealthy and if ``maximumPercent`` doesn't allow the Amazon ECS scheduler to start replacement tasks, the scheduler stops the unhealthy tasks one-by-one — using the ``minimumHealthyPercent`` as a constraint — to clear up capacity to launch replacement tasks. For more information about how the scheduler replaces unhealthy tasks, see [Amazon ECS services](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ecs_services.html).
+  * If a service is using the rolling update (``ECS``) deployment type, the ``minimumHealthyPercent`` represents a lower limit on the number of your service's tasks that must remain in the ``RUNNING`` state during a deployment, as a percentage of the ``desiredCount`` (rounded up to the nearest integer). This parameter enables you to deploy without using additional cluster capacity. For example, if your service has a ``desiredCount`` of four tasks and a ``minimumHealthyPercent`` of 50%, the service scheduler may stop two existing tasks to free up cluster capacity before starting two new tasks. 
+  *   If any tasks are unhealthy and if ``maximumPercent`` doesn't allow the Amazon ECS scheduler to start replacement tasks, the scheduler stops the unhealthy tasks one-by-one — using the ``minimumHealthyPercent`` as a constraint — to clear up capacity to launch replacement tasks. For more information about how the scheduler replaces unhealthy tasks, see [Amazon ECS services](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ecs_services.html). 
   *  For services that *do not* use a load balancer, the following should be noted:
   *   +  A service is considered healthy if all essential containers within the tasks in the service pass their health checks.
   *   +  If a task has no essential containers with a health check defined, the service scheduler will wait for 40 seconds after a task reaches a ``RUNNING`` state before the task is counted towards the minimum healthy percent total.
-  *   +  If a task has one or more essential containers with a health check defined, the service scheduler will wait for the task to reach a healthy status before counting it towards the minimum healthy percent total. A task is considered healthy when all essential containers within the task have passed their health checks. The amount of time the service scheduler can wait for is determined by the container health check settings.
-  *
+  *   +  If a task has one or more essential containers with a health check defined, the service scheduler will wait for the task to reach a healthy status before counting it towards the minimum healthy percent total. A task is considered healthy when all essential containers within the task have passed their health checks. The amount of time the service scheduler can wait for is determined by the container health check settings. 
+  *   
   *  For services that *do* use a load balancer, the following should be noted:
   *   +  If a task has no essential containers with a health check defined, the service scheduler will wait for the load balancer target group health check to return a healthy status before counting the task towards the minimum healthy percent total.
   *   +  If a task has an essential container with a health check defined, the service scheduler will wait for both the task to reach a healthy status and the load balancer target group health check to return a healthy status before counting the task towards the minimum healthy percent total.
-  *
+  *   
   *  The default value for a replica service for ``minimumHealthyPercent`` is 100%. The default ``minimumHealthyPercent`` value for a service using the ``DAEMON`` service schedule is 0% for the CLI, the AWS SDKs, and the APIs and 50% for the AWS Management Console.
   *  The minimum number of healthy tasks during a deployment is the ``desiredCount`` multiplied by the ``minimumHealthyPercent``/100, rounded up to the nearest integer value.
   *  If a service is using either the blue/green (``CODE_DEPLOY``) or ``EXTERNAL`` deployment types and is running tasks that use the EC2 launch type, the *minimum healthy percent* value is set to the default value. The *minimum healthy percent* value is used to define the lower limit on the number of the tasks in the service that remain in the ``RUNNING`` state while the container instances are in the ``DRAINING`` state.
@@ -1901,7 +1901,7 @@ export class EcsServiceDeploymentConfigurationOutputReference extends cdktn.Comp
   }
 
   // bake_time_in_minutes - computed: true, optional: true, required: false
-  private _bakeTimeInMinutes?: number;
+  private _bakeTimeInMinutes?: number; 
   public get bakeTimeInMinutes() {
     return this.getNumberAttribute('bake_time_in_minutes');
   }
@@ -1981,7 +1981,7 @@ export class EcsServiceDeploymentConfigurationOutputReference extends cdktn.Comp
   }
 
   // maximum_percent - computed: true, optional: true, required: false
-  private _maximumPercent?: number;
+  private _maximumPercent?: number; 
   public get maximumPercent() {
     return this.getNumberAttribute('maximum_percent');
   }
@@ -1997,7 +1997,7 @@ export class EcsServiceDeploymentConfigurationOutputReference extends cdktn.Comp
   }
 
   // minimum_healthy_percent - computed: true, optional: true, required: false
-  private _minimumHealthyPercent?: number;
+  private _minimumHealthyPercent?: number; 
   public get minimumHealthyPercent() {
     return this.getNumberAttribute('minimum_healthy_percent');
   }
@@ -2013,7 +2013,7 @@ export class EcsServiceDeploymentConfigurationOutputReference extends cdktn.Comp
   }
 
   // strategy - computed: true, optional: true, required: false
-  private _strategy?: string;
+  private _strategy?: string; 
   public get strategy() {
     return this.getStringAttribute('strategy');
   }
@@ -2034,7 +2034,7 @@ export interface EcsServiceDeploymentController {
   *  The deployment controller is the mechanism that determines how tasks are deployed for your service. The valid options are:
   *   +  ECS
   *  When you create a service which uses the ``ECS`` deployment controller, you can choose between the following deployment strategies:
-  *   +  ``ROLLING``: When you create a service which uses the *rolling update* (``ROLLING``) deployment strategy, the ECS service scheduler replaces the currently running tasks with new tasks. The number of tasks that ECS adds or removes from the service during a rolling update is controlled by the service deployment configuration.
+  *   +  ``ROLLING``: When you create a service which uses the *rolling update* (``ROLLING``) deployment strategy, the ECS service scheduler replaces the currently running tasks with new tasks. The number of tasks that ECS adds or removes from the service during a rolling update is controlled by the service deployment configuration. 
   *  Rolling update deployments are best suited for the following scenarios:
   *   +  Gradual service updates: You need to update your service incrementally without taking the entire service offline at once.
   *   +  Limited resource requirements: You want to avoid the additional resource costs of running two complete environments simultaneously (as required by blue/green deployments).
@@ -2044,7 +2044,7 @@ export interface EcsServiceDeploymentController {
   *   +  No load balancer requirement: Your service doesn't use or require a load balancer, ALB, NLB, or Service Connect (which are required for blue/green deployments).
   *   +  Stateful applications: Your application maintains state that makes it difficult to run two parallel environments.
   *   +  Cost sensitivity: You want to minimize deployment costs by not running duplicate environments during deployment.
-  *
+  *   
   *  Rolling updates are the default deployment strategy for services and provide a balance between deployment safety and resource efficiency for many common application scenarios.
   *   +  ``BLUE_GREEN``: A *blue/green* deployment strategy (``BLUE_GREEN``) is a release methodology that reduces downtime and risk by running two identical production environments called blue and green. With ECS blue/green deployments, you can validate new service revisions before directing production traffic to them. This approach provides a safer way to deploy changes with the ability to quickly roll back if needed.
   *  ECS blue/green deployments are best suited for the following scenarios:
@@ -2052,17 +2052,17 @@ export interface EcsServiceDeploymentController {
   *   +  Zero downtime: When your service requires zero-downtime deployments
   *   +  Instant roll back: When you need the ability to quickly roll back if issues are detected
   *   +  Load balancer requirement: When your service uses ALB, NLB, or Service Connect
-  *
-  *
+  *   
+  *   
   *   +  External
   *  Use a third-party deployment controller.
   *   +  Blue/green deployment (powered by ACD)
   *  ACD installs an updated version of the application as a new replacement task set and reroutes production traffic from the original application task set to the replacement task set. The original task set is terminated after a successful deployment. Use this deployment controller to verify a new deployment of a service before sending production traffic to it.
-  *
+  *   
   *  When updating the deployment controller for a service, consider the following depending on the type of migration you're performing.
   *   +  If you have a template that contains the ``EXTERNAL`` deployment controller information as well as ``TaskSet`` and ``PrimaryTaskSet`` resources, and you remove the task set resources from the template when updating from ``EXTERNAL`` to ``ECS``, the ``DescribeTaskSet`` and ``DeleteTaskSet`` API calls will return a 400 error after the deployment controller is updated to ``ECS``. This results in a delete failure on the task set resources, even though the stack transitions to ``UPDATE_COMPLETE`` status. For more information, see [Resource removed from stack but not deleted](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/troubleshooting.html#troubleshooting-errors-resource-removed-not-deleted) in the CFNlong User Guide. To fix this issue, delete the task sets directly using the ECS``DeleteTaskSet`` API. For more information about how to delete a task set, see [DeleteTaskSet](https://docs.aws.amazon.com/AmazonECS/latest/APIReference/API_DeleteTaskSet.html) in the ECSlong API Reference.
   *   +  If you're migrating from ``CODE_DEPLOY`` to ``ECS`` with a new task definition and CFN performs a rollback operation, the ECS``UpdateService`` request fails with the following error:
-  *  Resource handler returned message: "Invalid request provided: Unable to update task definition on services with a CODE_DEPLOY deployment controller.
+  *  Resource handler returned message: "Invalid request provided: Unable to update task definition on services with a CODE_DEPLOY deployment controller. 
   *   +  After a successful migration from ``ECS`` to ``EXTERNAL`` deployment controller, you need to manually remove the ``ACTIVE`` task set, because ECS no longer manages the deployment. For information about how to delete a task set, see [DeleteTaskSet](https://docs.aws.amazon.com/AmazonECS/latest/APIReference/API_DeleteTaskSet.html) in the ECSlong API Reference.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#type EcsService#type}
@@ -2142,7 +2142,7 @@ export class EcsServiceDeploymentControllerOutputReference extends cdktn.Complex
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -2257,7 +2257,7 @@ export class EcsServiceForceNewDeploymentOutputReference extends cdktn.ComplexOb
   }
 
   // enable_force_new_deployment - computed: true, optional: true, required: false
-  private _enableForceNewDeployment?: boolean | cdktn.IResolvable;
+  private _enableForceNewDeployment?: boolean | cdktn.IResolvable; 
   public get enableForceNewDeployment() {
     return this.getBooleanAttribute('enable_force_new_deployment');
   }
@@ -2273,7 +2273,7 @@ export class EcsServiceForceNewDeploymentOutputReference extends cdktn.ComplexOb
   }
 
   // force_new_deployment_nonce - computed: true, optional: true, required: false
-  private _forceNewDeploymentNonce?: string;
+  private _forceNewDeploymentNonce?: string; 
   public get forceNewDeploymentNonce() {
     return this.getStringAttribute('force_new_deployment_nonce');
   }
@@ -2426,7 +2426,7 @@ export class EcsServiceLoadBalancersAdvancedConfigurationOutputReference extends
   }
 
   // alternate_target_group_arn - computed: true, optional: true, required: false
-  private _alternateTargetGroupArn?: string;
+  private _alternateTargetGroupArn?: string; 
   public get alternateTargetGroupArn() {
     return this.getStringAttribute('alternate_target_group_arn');
   }
@@ -2442,7 +2442,7 @@ export class EcsServiceLoadBalancersAdvancedConfigurationOutputReference extends
   }
 
   // production_listener_rule - computed: true, optional: true, required: false
-  private _productionListenerRule?: string;
+  private _productionListenerRule?: string; 
   public get productionListenerRule() {
     return this.getStringAttribute('production_listener_rule');
   }
@@ -2458,7 +2458,7 @@ export class EcsServiceLoadBalancersAdvancedConfigurationOutputReference extends
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -2474,7 +2474,7 @@ export class EcsServiceLoadBalancersAdvancedConfigurationOutputReference extends
   }
 
   // test_listener_rule - computed: true, optional: true, required: false
-  private _testListenerRule?: string;
+  private _testListenerRule?: string; 
   public get testListenerRule() {
     return this.getStringAttribute('test_listener_rule');
   }
@@ -2518,7 +2518,7 @@ export interface EcsServiceLoadBalancers {
   readonly loadBalancerName?: string;
   /**
   * The full Amazon Resource Name (ARN) of the Elastic Load Balancing target group or groups associated with a service or task set.
-  *  A target group ARN is only specified when using an Application Load Balancer or Network Load Balancer.
+  *  A target group ARN is only specified when using an Application Load Balancer or Network Load Balancer. 
   *  For services using the ``ECS`` deployment controller, you can specify one or multiple target groups. For more information, see [Registering multiple target groups with a service](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/register-multiple-targetgroups.html) in the *Amazon Elastic Container Service Developer Guide*.
   *  For services using the ``CODE_DEPLOY`` deployment controller, you're required to define two target groups for the load balancer. For more information, see [Blue/green deployment with CodeDeploy](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/deployment-type-bluegreen.html) in the *Amazon Elastic Container Service Developer Guide*.
   *   If your service's task definition uses the ``awsvpc`` network mode, you must choose ``ip`` as the target type, not ``instance``. Do this when creating your target groups because tasks that use the ``awsvpc`` network mode are associated with an elastic network interface, not an Amazon EC2 instance. This network mode is required for the Fargate launch type.
@@ -2670,7 +2670,7 @@ export class EcsServiceLoadBalancersOutputReference extends cdktn.ComplexObject 
   }
 
   // container_name - computed: true, optional: true, required: false
-  private _containerName?: string;
+  private _containerName?: string; 
   public get containerName() {
     return this.getStringAttribute('container_name');
   }
@@ -2686,7 +2686,7 @@ export class EcsServiceLoadBalancersOutputReference extends cdktn.ComplexObject 
   }
 
   // container_port - computed: true, optional: true, required: false
-  private _containerPort?: number;
+  private _containerPort?: number; 
   public get containerPort() {
     return this.getNumberAttribute('container_port');
   }
@@ -2702,7 +2702,7 @@ export class EcsServiceLoadBalancersOutputReference extends cdktn.ComplexObject 
   }
 
   // load_balancer_name - computed: true, optional: true, required: false
-  private _loadBalancerName?: string;
+  private _loadBalancerName?: string; 
   public get loadBalancerName() {
     return this.getStringAttribute('load_balancer_name');
   }
@@ -2718,7 +2718,7 @@ export class EcsServiceLoadBalancersOutputReference extends cdktn.ComplexObject 
   }
 
   // target_group_arn - computed: true, optional: true, required: false
-  private _targetGroupArn?: string;
+  private _targetGroupArn?: string; 
   public get targetGroupArn() {
     return this.getStringAttribute('target_group_arn');
   }
@@ -2855,7 +2855,7 @@ export class EcsServiceMonitoringMetricConfigurationsOutputReference extends cdk
   }
 
   // metric_names - computed: true, optional: true, required: false
-  private _metricNames?: string[];
+  private _metricNames?: string[]; 
   public get metricNames() {
     return this.getListAttribute('metric_names');
   }
@@ -2871,7 +2871,7 @@ export class EcsServiceMonitoringMetricConfigurationsOutputReference extends cdk
   }
 
   // resolution_seconds - computed: true, optional: true, required: false
-  private _resolutionSeconds?: number;
+  private _resolutionSeconds?: number; 
   public get resolutionSeconds() {
     return this.getNumberAttribute('resolution_seconds');
   }
@@ -3004,9 +3004,9 @@ export class EcsServiceMonitoringOutputReference extends cdktn.ComplexObject {
 }
 export interface EcsServiceNetworkConfigurationAwsvpcConfiguration {
   /**
-  * Whether the task's elastic network interface receives a public IP address.
+  * Whether the task's elastic network interface receives a public IP address. 
   *  Consider the following when you set this value:
-  *   +  When you use ``create-service`` or ``update-service``, the default is ``DISABLED``.
+  *   +  When you use ``create-service`` or ``update-service``, the default is ``DISABLED``. 
   *   +  When the service ``deploymentController`` is ``ECS``, the value must be ``DISABLED``.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_service#assign_public_ip EcsService#assign_public_ip}
@@ -3126,7 +3126,7 @@ export class EcsServiceNetworkConfigurationAwsvpcConfigurationOutputReference ex
   }
 
   // assign_public_ip - computed: true, optional: true, required: false
-  private _assignPublicIp?: string;
+  private _assignPublicIp?: string; 
   public get assignPublicIp() {
     return this.getStringAttribute('assign_public_ip');
   }
@@ -3142,7 +3142,7 @@ export class EcsServiceNetworkConfigurationAwsvpcConfigurationOutputReference ex
   }
 
   // security_groups - computed: true, optional: true, required: false
-  private _securityGroups?: string[];
+  private _securityGroups?: string[]; 
   public get securityGroups() {
     return this.getListAttribute('security_groups');
   }
@@ -3158,7 +3158,7 @@ export class EcsServiceNetworkConfigurationAwsvpcConfigurationOutputReference ex
   }
 
   // subnets - computed: true, optional: true, required: false
-  private _subnets?: string[];
+  private _subnets?: string[]; 
   public get subnets() {
     return this.getListAttribute('subnets');
   }
@@ -3372,7 +3372,7 @@ export class EcsServicePlacementConstraintsOutputReference extends cdktn.Complex
   }
 
   // expression - computed: true, optional: true, required: false
-  private _expression?: string;
+  private _expression?: string; 
   public get expression() {
     return this.getStringAttribute('expression');
   }
@@ -3388,7 +3388,7 @@ export class EcsServicePlacementConstraintsOutputReference extends cdktn.Complex
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -3525,7 +3525,7 @@ export class EcsServicePlacementStrategiesOutputReference extends cdktn.ComplexO
   }
 
   // field - computed: true, optional: true, required: false
-  private _field?: string;
+  private _field?: string; 
   public get field() {
     return this.getStringAttribute('field');
   }
@@ -3541,7 +3541,7 @@ export class EcsServicePlacementStrategiesOutputReference extends cdktn.ComplexO
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -3677,7 +3677,7 @@ export class EcsServiceServiceConnectConfigurationAccessLogConfigurationOutputRe
   }
 
   // format - computed: true, optional: true, required: false
-  private _format?: string;
+  private _format?: string; 
   public get format() {
     return this.getStringAttribute('format');
   }
@@ -3693,7 +3693,7 @@ export class EcsServiceServiceConnectConfigurationAccessLogConfigurationOutputRe
   }
 
   // include_query_parameters - computed: true, optional: true, required: false
-  private _includeQueryParameters?: string;
+  private _includeQueryParameters?: string; 
   public get includeQueryParameters() {
     return this.getStringAttribute('include_query_parameters');
   }
@@ -3812,7 +3812,7 @@ export class EcsServiceServiceConnectConfigurationLogConfigurationSecretOptionsO
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -3828,7 +3828,7 @@ export class EcsServiceServiceConnectConfigurationLogConfigurationSecretOptionsO
   }
 
   // value_from - computed: true, optional: true, required: false
-  private _valueFrom?: string;
+  private _valueFrom?: string; 
   public get valueFrom() {
     return this.getStringAttribute('value_from');
   }
@@ -3878,9 +3878,9 @@ export interface EcsServiceServiceConnectConfigurationLogConfiguration {
   /**
   * The configuration options to send to the log driver.
   *  The options you can specify depend on the log driver. Some of the options you can specify when you use the ``awslogs`` log driver to route logs to Amazon CloudWatch include the following:
-  *   + awslogs-create-group Required: No Specify whether you want the log group to be created automatically. If this option isn't specified, it defaults to false. Your IAM policy must include the logs:CreateLogGroup permission before you attempt to use awslogs-create-group. + awslogs-region Required: Yes Specify the Region that the awslogs log driver is to send your Docker logs to. You can choose to send all of your logs from clusters in different Regions to a single region in CloudWatch Logs. This is so that they're all visible in one location. Otherwise, you can separate them by Region for more granularity. Make sure that the specified log group exists in the Region that you specify with this option. + awslogs-group Required: Yes Make sure to specify a log group that the awslogs log driver sends its log streams to. + awslogs-stream-prefix Required: Yes, when using Fargate.Optional when using EC2. Use the awslogs-stream-prefix option to associate a log stream with the specified prefix, the container name, and the ID of the Amazon ECS task that the container belongs to. If you specify a prefix with this option, then the log stream takes the format prefix-name/container-name/ecs-task-id. If you don't specify a prefix with this option, then the log stream is named after the container ID that's assigned by the Docker daemon on the container instance. Because it's difficult to trace logs back to the container that sent them with just the Docker container ID (which is only available on the container instance), we recommend that you specify a prefix with this option. For Amazon ECS services, you can use the service name as the prefix. Doing so, you can trace log streams to the service that the container belongs to, the name of the container that sent them, and the ID of the task that the container belongs to. You must specify a stream-prefix for your logs to have your logs appear in the Log pane when using the Amazon ECS console. + awslogs-datetime-format Required: No This option defines a multiline start pattern in Python strftime format. A log message consists of a line that matches the pattern and any following lines that don’t match the pattern. The matched line is the delimiter between log messages. One example of a use case for using this format is for parsing output such as a stack dump, which might otherwise be logged in multiple entries. The correct pattern allows it to be captured in a single entry. For more information, see awslogs-datetime-format. You cannot configure both the awslogs-datetime-format and awslogs-multiline-pattern options. Multiline logging performs regular expression parsing and matching of all log messages. This might have a negative impact on logging performance. + awslogs-multiline-pattern Required: No This option defines a multiline start pattern that uses a regular expression. A log message consists of a line that matches the pattern and any following lines that don’t match the pattern. The matched line is the delimiter between log messages. For more information, see awslogs-multiline-pattern. This option is ignored if awslogs-datetime-format is also configured. You cannot configure both the awslogs-datetime-format and awslogs-multiline-pattern options. Multiline logging performs regular expression parsing and matching of all log messages. This might have a negative impact on logging performance.
+  *   + awslogs-create-group Required: No Specify whether you want the log group to be created automatically. If this option isn't specified, it defaults to false. Your IAM policy must include the logs:CreateLogGroup permission before you attempt to use awslogs-create-group. + awslogs-region Required: Yes Specify the Region that the awslogs log driver is to send your Docker logs to. You can choose to send all of your logs from clusters in different Regions to a single region in CloudWatch Logs. This is so that they're all visible in one location. Otherwise, you can separate them by Region for more granularity. Make sure that the specified log group exists in the Region that you specify with this option. + awslogs-group Required: Yes Make sure to specify a log group that the awslogs log driver sends its log streams to. + awslogs-stream-prefix Required: Yes, when using Fargate.Optional when using EC2. Use the awslogs-stream-prefix option to associate a log stream with the specified prefix, the container name, and the ID of the Amazon ECS task that the container belongs to. If you specify a prefix with this option, then the log stream takes the format prefix-name/container-name/ecs-task-id. If you don't specify a prefix with this option, then the log stream is named after the container ID that's assigned by the Docker daemon on the container instance. Because it's difficult to trace logs back to the container that sent them with just the Docker container ID (which is only available on the container instance), we recommend that you specify a prefix with this option. For Amazon ECS services, you can use the service name as the prefix. Doing so, you can trace log streams to the service that the container belongs to, the name of the container that sent them, and the ID of the task that the container belongs to. You must specify a stream-prefix for your logs to have your logs appear in the Log pane when using the Amazon ECS console. + awslogs-datetime-format Required: No This option defines a multiline start pattern in Python strftime format. A log message consists of a line that matches the pattern and any following lines that don’t match the pattern. The matched line is the delimiter between log messages. One example of a use case for using this format is for parsing output such as a stack dump, which might otherwise be logged in multiple entries. The correct pattern allows it to be captured in a single entry. For more information, see awslogs-datetime-format. You cannot configure both the awslogs-datetime-format and awslogs-multiline-pattern options. Multiline logging performs regular expression parsing and matching of all log messages. This might have a negative impact on logging performance. + awslogs-multiline-pattern Required: No This option defines a multiline start pattern that uses a regular expression. A log message consists of a line that matches the pattern and any following lines that don’t match the pattern. The matched line is the delimiter between log messages. For more information, see awslogs-multiline-pattern. This option is ignored if awslogs-datetime-format is also configured. You cannot configure both the awslogs-datetime-format and awslogs-multiline-pattern options. Multiline logging performs regular expression parsing and matching of all log messages. This might have a negative impact on logging performance. 
   *  The following options apply to all supported log drivers.
-  *   + mode Required: No Valid values: non-blocking | blocking This option defines the delivery mode of log messages from the container to the log driver specified using logDriver. The delivery mode you choose affects application availability when the flow of logs from container is interrupted. If you use the blocking mode and the flow of logs is interrupted, calls from container code to write to the stdout and stderr streams will block. The logging thread of the application will block as a result. This may cause the application to become unresponsive and lead to container healthcheck failure. If you use the non-blocking mode, the container's logs are instead stored in an in-memory intermediate buffer configured with the max-buffer-size option. This prevents the application from becoming unresponsive when logs cannot be sent. We recommend using this mode if you want to ensure service availability and are okay with some log loss. For more information, see Preventing log loss with non-blocking mode in the awslogs container log driver. You can set a default mode for all containers in a specific Region by using the defaultLogDriverMode account setting. If you don't specify the mode option or configure the account setting, Amazon ECS will default to the non-blocking mode. For more information about the account setting, see Default log driver mode in the Amazon Elastic Container Service Developer Guide. On June 25, 2025, Amazon ECS changed the default log driver mode from blocking to non-blocking to prioritize task availability over logging. To continue using the blocking mode after this change, do one of the following: Set the mode option in your container definition's logConfiguration as blocking. Set the defaultLogDriverMode account setting to blocking. + max-buffer-size Required: No Default value: 10m When non-blocking mode is used, the max-buffer-size log option controls the size of the buffer that's used for intermediate message storage. Make sure to specify an adequate buffer size based on your application. When the buffer fills up, further logs cannot be stored. Logs that cannot be stored are lost.
+  *   + mode Required: No Valid values: non-blocking | blocking This option defines the delivery mode of log messages from the container to the log driver specified using logDriver. The delivery mode you choose affects application availability when the flow of logs from container is interrupted. If you use the blocking mode and the flow of logs is interrupted, calls from container code to write to the stdout and stderr streams will block. The logging thread of the application will block as a result. This may cause the application to become unresponsive and lead to container healthcheck failure. If you use the non-blocking mode, the container's logs are instead stored in an in-memory intermediate buffer configured with the max-buffer-size option. This prevents the application from becoming unresponsive when logs cannot be sent. We recommend using this mode if you want to ensure service availability and are okay with some log loss. For more information, see Preventing log loss with non-blocking mode in the awslogs container log driver. You can set a default mode for all containers in a specific Region by using the defaultLogDriverMode account setting. If you don't specify the mode option or configure the account setting, Amazon ECS will default to the non-blocking mode. For more information about the account setting, see Default log driver mode in the Amazon Elastic Container Service Developer Guide. On June 25, 2025, Amazon ECS changed the default log driver mode from blocking to non-blocking to prioritize task availability over logging. To continue using the blocking mode after this change, do one of the following: Set the mode option in your container definition's logConfiguration as blocking. Set the defaultLogDriverMode account setting to blocking. + max-buffer-size Required: No Default value: 10m When non-blocking mode is used, the max-buffer-size log option controls the size of the buffer that's used for intermediate message storage. Make sure to specify an adequate buffer size based on your application. When the buffer fills up, further logs cannot be stored. Logs that cannot be stored are lost. 
   *  To route logs using the ``splunk`` log router, you need to specify a ``splunk-token`` and a ``splunk-url``.
   *  When you use the ``awsfirelens`` log router to route logs to an AWS Service or AWS Partner Network destination for log storage and analytics, you can set the ``log-driver-buffer-limit`` option to limit the number of events that are buffered in memory, before being sent to the log router container. It can help to resolve potential log loss issue because high throughput might result in memory running out for the buffer inside of Docker.
   *  Other options you can specify when using ``awsfirelens`` to route logs depend on the destination. When you export logs to Amazon Data Firehose, you can specify the AWS Region with ``region`` and a name for the log stream with ``delivery_stream``.
@@ -3998,7 +3998,7 @@ export class EcsServiceServiceConnectConfigurationLogConfigurationOutputReferenc
   }
 
   // log_driver - computed: true, optional: true, required: false
-  private _logDriver?: string;
+  private _logDriver?: string; 
   public get logDriver() {
     return this.getStringAttribute('log_driver');
   }
@@ -4014,7 +4014,7 @@ export class EcsServiceServiceConnectConfigurationLogConfigurationOutputReferenc
   }
 
   // options - computed: true, optional: true, required: false
-  private _options?: { [key: string]: string };
+  private _options?: { [key: string]: string }; 
   public get options() {
     return this.getStringMapAttribute('options');
   }
@@ -4124,7 +4124,7 @@ export class EcsServiceServiceConnectConfigurationServicesClientAliasesTestTraff
   }
 
   // exact - computed: true, optional: true, required: false
-  private _exact?: string;
+  private _exact?: string; 
   public get exact() {
     return this.getStringAttribute('exact');
   }
@@ -4235,7 +4235,7 @@ export class EcsServiceServiceConnectConfigurationServicesClientAliasesTestTraff
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -4486,7 +4486,7 @@ export class EcsServiceServiceConnectConfigurationServicesClientAliasesOutputRef
   }
 
   // dns_name - computed: true, optional: true, required: false
-  private _dnsName?: string;
+  private _dnsName?: string; 
   public get dnsName() {
     return this.getStringAttribute('dns_name');
   }
@@ -4502,7 +4502,7 @@ export class EcsServiceServiceConnectConfigurationServicesClientAliasesOutputRef
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -4655,7 +4655,7 @@ export class EcsServiceServiceConnectConfigurationServicesTimeoutOutputReference
   }
 
   // idle_timeout_seconds - computed: true, optional: true, required: false
-  private _idleTimeoutSeconds?: number;
+  private _idleTimeoutSeconds?: number; 
   public get idleTimeoutSeconds() {
     return this.getNumberAttribute('idle_timeout_seconds');
   }
@@ -4671,7 +4671,7 @@ export class EcsServiceServiceConnectConfigurationServicesTimeoutOutputReference
   }
 
   // per_request_timeout_seconds - computed: true, optional: true, required: false
-  private _perRequestTimeoutSeconds?: number;
+  private _perRequestTimeoutSeconds?: number; 
   public get perRequestTimeoutSeconds() {
     return this.getNumberAttribute('per_request_timeout_seconds');
   }
@@ -4767,7 +4767,7 @@ export class EcsServiceServiceConnectConfigurationServicesTlsIssuerCertificateAu
   }
 
   // aws_pca_authority_arn - computed: true, optional: true, required: false
-  private _awsPcaAuthorityArn?: string;
+  private _awsPcaAuthorityArn?: string; 
   public get awsPcaAuthorityArn() {
     return this.getStringAttribute('aws_pca_authority_arn');
   }
@@ -4917,7 +4917,7 @@ export class EcsServiceServiceConnectConfigurationServicesTlsOutputReference ext
   }
 
   // kms_key - computed: true, optional: true, required: false
-  private _kmsKey?: string;
+  private _kmsKey?: string; 
   public get kmsKey() {
     return this.getStringAttribute('kms_key');
   }
@@ -4933,7 +4933,7 @@ export class EcsServiceServiceConnectConfigurationServicesTlsOutputReference ext
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -5148,7 +5148,7 @@ export class EcsServiceServiceConnectConfigurationServicesOutputReference extend
   }
 
   // discovery_name - computed: true, optional: true, required: false
-  private _discoveryName?: string;
+  private _discoveryName?: string; 
   public get discoveryName() {
     return this.getStringAttribute('discovery_name');
   }
@@ -5164,7 +5164,7 @@ export class EcsServiceServiceConnectConfigurationServicesOutputReference extend
   }
 
   // ingress_port_override - computed: true, optional: true, required: false
-  private _ingressPortOverride?: number;
+  private _ingressPortOverride?: number; 
   public get ingressPortOverride() {
     return this.getNumberAttribute('ingress_port_override');
   }
@@ -5180,7 +5180,7 @@ export class EcsServiceServiceConnectConfigurationServicesOutputReference extend
   }
 
   // port_name - computed: true, optional: true, required: false
-  private _portName?: string;
+  private _portName?: string; 
   public get portName() {
     return this.getStringAttribute('port_name');
   }
@@ -5282,7 +5282,7 @@ export interface EcsServiceServiceConnectConfiguration {
   */
   readonly namespace?: string;
   /**
-  * The list of Service Connect service objects. These are names and aliases (also known as endpoints) that are used by other Amazon ECS services to connect to this service.
+  * The list of Service Connect service objects. These are names and aliases (also known as endpoints) that are used by other Amazon ECS services to connect to this service. 
   *  This field is not required for a "client" Amazon ECS service that's a member of a namespace only to connect to other services within the namespace. An example of this would be a frontend application that accepts incoming requests from either a load balancer that's attached to the service or by other means.
   *  An object selects a port from the task definition, assigns a name for the CMAPlong service, and a list of aliases (endpoints) and ports for client applications to refer to this service.
   *
@@ -5431,7 +5431,7 @@ export class EcsServiceServiceConnectConfigurationOutputReference extends cdktn.
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -5463,7 +5463,7 @@ export class EcsServiceServiceConnectConfigurationOutputReference extends cdktn.
   }
 
   // namespace - computed: true, optional: true, required: false
-  private _namespace?: string;
+  private _namespace?: string; 
   public get namespace() {
     return this.getStringAttribute('namespace');
   }
@@ -5634,7 +5634,7 @@ export class EcsServiceServiceRegistriesOutputReference extends cdktn.ComplexObj
   }
 
   // container_name - computed: true, optional: true, required: false
-  private _containerName?: string;
+  private _containerName?: string; 
   public get containerName() {
     return this.getStringAttribute('container_name');
   }
@@ -5650,7 +5650,7 @@ export class EcsServiceServiceRegistriesOutputReference extends cdktn.ComplexObj
   }
 
   // container_port - computed: true, optional: true, required: false
-  private _containerPort?: number;
+  private _containerPort?: number; 
   public get containerPort() {
     return this.getNumberAttribute('container_port');
   }
@@ -5666,7 +5666,7 @@ export class EcsServiceServiceRegistriesOutputReference extends cdktn.ComplexObj
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -5682,7 +5682,7 @@ export class EcsServiceServiceRegistriesOutputReference extends cdktn.ComplexObj
   }
 
   // registry_arn - computed: true, optional: true, required: false
-  private _registryArn?: string;
+  private _registryArn?: string; 
   public get registryArn() {
     return this.getStringAttribute('registry_arn');
   }
@@ -5819,7 +5819,7 @@ export class EcsServiceTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -5835,7 +5835,7 @@ export class EcsServiceTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -5972,7 +5972,7 @@ export class EcsServiceVolumeConfigurationsManagedEbsVolumeTagSpecificationsTags
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -5988,7 +5988,7 @@ export class EcsServiceVolumeConfigurationsManagedEbsVolumeTagSpecificationsTags
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -6144,7 +6144,7 @@ export class EcsServiceVolumeConfigurationsManagedEbsVolumeTagSpecificationsOutp
   }
 
   // propagate_tags - computed: true, optional: true, required: false
-  private _propagateTags?: string;
+  private _propagateTags?: string; 
   public get propagateTags() {
     return this.getStringAttribute('propagate_tags');
   }
@@ -6160,7 +6160,7 @@ export class EcsServiceVolumeConfigurationsManagedEbsVolumeTagSpecificationsOutp
   }
 
   // resource_type - computed: true, optional: true, required: false
-  private _resourceType?: string;
+  private _resourceType?: string; 
   public get resourceType() {
     return this.getStringAttribute('resource_type');
   }
@@ -6232,7 +6232,7 @@ export interface EcsServiceVolumeConfigurationsManagedEbsVolume {
   *   +  ``gp3``: 3,000 - 16,000 IOPS
   *   +  ``io1``: 100 - 64,000 IOPS
   *   +  ``io2``: 100 - 256,000 IOPS
-  *
+  *   
   *  This parameter is required for ``io1`` and ``io2`` volume types. The default for ``gp3`` volumes is ``3,000 IOPS``. This parameter is not supported for ``st1``, ``sc1``, or ``standard`` volume types.
   *  This parameter maps 1:1 with the ``Iops`` parameter of the [CreateVolume API](https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_CreateVolume.html) in the *Amazon EC2 API Reference*.
   *
@@ -6505,7 +6505,7 @@ export class EcsServiceVolumeConfigurationsManagedEbsVolumeOutputReference exten
   }
 
   // encrypted - computed: true, optional: true, required: false
-  private _encrypted?: boolean | cdktn.IResolvable;
+  private _encrypted?: boolean | cdktn.IResolvable; 
   public get encrypted() {
     return this.getBooleanAttribute('encrypted');
   }
@@ -6521,7 +6521,7 @@ export class EcsServiceVolumeConfigurationsManagedEbsVolumeOutputReference exten
   }
 
   // filesystem_type - computed: true, optional: true, required: false
-  private _filesystemType?: string;
+  private _filesystemType?: string; 
   public get filesystemType() {
     return this.getStringAttribute('filesystem_type');
   }
@@ -6537,7 +6537,7 @@ export class EcsServiceVolumeConfigurationsManagedEbsVolumeOutputReference exten
   }
 
   // iops - computed: true, optional: true, required: false
-  private _iops?: number;
+  private _iops?: number; 
   public get iops() {
     return this.getNumberAttribute('iops');
   }
@@ -6553,7 +6553,7 @@ export class EcsServiceVolumeConfigurationsManagedEbsVolumeOutputReference exten
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -6569,7 +6569,7 @@ export class EcsServiceVolumeConfigurationsManagedEbsVolumeOutputReference exten
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -6585,7 +6585,7 @@ export class EcsServiceVolumeConfigurationsManagedEbsVolumeOutputReference exten
   }
 
   // size_in_gi_b - computed: true, optional: true, required: false
-  private _sizeInGiB?: number;
+  private _sizeInGiB?: number; 
   public get sizeInGiB() {
     return this.getNumberAttribute('size_in_gi_b');
   }
@@ -6601,7 +6601,7 @@ export class EcsServiceVolumeConfigurationsManagedEbsVolumeOutputReference exten
   }
 
   // snapshot_id - computed: true, optional: true, required: false
-  private _snapshotId?: string;
+  private _snapshotId?: string; 
   public get snapshotId() {
     return this.getStringAttribute('snapshot_id');
   }
@@ -6633,7 +6633,7 @@ export class EcsServiceVolumeConfigurationsManagedEbsVolumeOutputReference exten
   }
 
   // throughput - computed: true, optional: true, required: false
-  private _throughput?: number;
+  private _throughput?: number; 
   public get throughput() {
     return this.getNumberAttribute('throughput');
   }
@@ -6649,7 +6649,7 @@ export class EcsServiceVolumeConfigurationsManagedEbsVolumeOutputReference exten
   }
 
   // volume_initialization_rate - computed: true, optional: true, required: false
-  private _volumeInitializationRate?: number;
+  private _volumeInitializationRate?: number; 
   public get volumeInitializationRate() {
     return this.getNumberAttribute('volume_initialization_rate');
   }
@@ -6665,7 +6665,7 @@ export class EcsServiceVolumeConfigurationsManagedEbsVolumeOutputReference exten
   }
 
   // volume_type - computed: true, optional: true, required: false
-  private _volumeType?: string;
+  private _volumeType?: string; 
   public get volumeType() {
     return this.getStringAttribute('volume_type');
   }
@@ -6798,7 +6798,7 @@ export class EcsServiceVolumeConfigurationsOutputReference extends cdktn.Complex
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -6954,7 +6954,7 @@ export class EcsServiceVpcLatticeConfigurationsOutputReference extends cdktn.Com
   }
 
   // port_name - computed: true, optional: true, required: false
-  private _portName?: string;
+  private _portName?: string; 
   public get portName() {
     return this.getStringAttribute('port_name');
   }
@@ -6970,7 +6970,7 @@ export class EcsServiceVpcLatticeConfigurationsOutputReference extends cdktn.Com
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -6986,7 +6986,7 @@ export class EcsServiceVpcLatticeConfigurationsOutputReference extends cdktn.Com
   }
 
   // target_group_arn - computed: true, optional: true, required: false
-  private _targetGroupArn?: string;
+  private _targetGroupArn?: string; 
   public get targetGroupArn() {
     return this.getStringAttribute('target_group_arn');
   }
@@ -7106,7 +7106,7 @@ export class EcsService extends cdktn.TerraformResource {
   // ==========
 
   // availability_zone_rebalancing - computed: true, optional: true, required: false
-  private _availabilityZoneRebalancing?: string;
+  private _availabilityZoneRebalancing?: string; 
   public get availabilityZoneRebalancing() {
     return this.getStringAttribute('availability_zone_rebalancing');
   }
@@ -7138,7 +7138,7 @@ export class EcsService extends cdktn.TerraformResource {
   }
 
   // cluster - computed: true, optional: true, required: false
-  private _cluster?: string;
+  private _cluster?: string; 
   public get cluster() {
     return this.getStringAttribute('cluster');
   }
@@ -7186,7 +7186,7 @@ export class EcsService extends cdktn.TerraformResource {
   }
 
   // desired_count - computed: true, optional: true, required: false
-  private _desiredCount?: number;
+  private _desiredCount?: number; 
   public get desiredCount() {
     return this.getNumberAttribute('desired_count');
   }
@@ -7202,7 +7202,7 @@ export class EcsService extends cdktn.TerraformResource {
   }
 
   // enable_ecs_managed_tags - computed: true, optional: true, required: false
-  private _enableEcsManagedTags?: boolean | cdktn.IResolvable;
+  private _enableEcsManagedTags?: boolean | cdktn.IResolvable; 
   public get enableEcsManagedTags() {
     return this.getBooleanAttribute('enable_ecs_managed_tags');
   }
@@ -7218,7 +7218,7 @@ export class EcsService extends cdktn.TerraformResource {
   }
 
   // enable_execute_command - computed: true, optional: true, required: false
-  private _enableExecuteCommand?: boolean | cdktn.IResolvable;
+  private _enableExecuteCommand?: boolean | cdktn.IResolvable; 
   public get enableExecuteCommand() {
     return this.getBooleanAttribute('enable_execute_command');
   }
@@ -7250,7 +7250,7 @@ export class EcsService extends cdktn.TerraformResource {
   }
 
   // health_check_grace_period_seconds - computed: true, optional: true, required: false
-  private _healthCheckGracePeriodSeconds?: number;
+  private _healthCheckGracePeriodSeconds?: number; 
   public get healthCheckGracePeriodSeconds() {
     return this.getNumberAttribute('health_check_grace_period_seconds');
   }
@@ -7271,7 +7271,7 @@ export class EcsService extends cdktn.TerraformResource {
   }
 
   // launch_type - computed: true, optional: true, required: false
-  private _launchType?: string;
+  private _launchType?: string; 
   public get launchType() {
     return this.getStringAttribute('launch_type');
   }
@@ -7372,7 +7372,7 @@ export class EcsService extends cdktn.TerraformResource {
   }
 
   // platform_version - computed: true, optional: true, required: false
-  private _platformVersion?: string;
+  private _platformVersion?: string; 
   public get platformVersion() {
     return this.getStringAttribute('platform_version');
   }
@@ -7388,7 +7388,7 @@ export class EcsService extends cdktn.TerraformResource {
   }
 
   // propagate_tags - computed: true, optional: true, required: false
-  private _propagateTags?: string;
+  private _propagateTags?: string; 
   public get propagateTags() {
     return this.getStringAttribute('propagate_tags');
   }
@@ -7404,7 +7404,7 @@ export class EcsService extends cdktn.TerraformResource {
   }
 
   // role - computed: true, optional: true, required: false
-  private _role?: string;
+  private _role?: string; 
   public get role() {
     return this.getStringAttribute('role');
   }
@@ -7420,7 +7420,7 @@ export class EcsService extends cdktn.TerraformResource {
   }
 
   // scheduling_strategy - computed: true, optional: true, required: false
-  private _schedulingStrategy?: string;
+  private _schedulingStrategy?: string; 
   public get schedulingStrategy() {
     return this.getStringAttribute('scheduling_strategy');
   }
@@ -7457,7 +7457,7 @@ export class EcsService extends cdktn.TerraformResource {
   }
 
   // service_name - computed: true, optional: true, required: false
-  private _serviceName?: string;
+  private _serviceName?: string; 
   public get serviceName() {
     return this.getStringAttribute('service_name');
   }
@@ -7505,7 +7505,7 @@ export class EcsService extends cdktn.TerraformResource {
   }
 
   // task_definition - computed: true, optional: true, required: false
-  private _taskDefinition?: string;
+  private _taskDefinition?: string; 
   public get taskDefinition() {
     return this.getStringAttribute('task_definition');
   }

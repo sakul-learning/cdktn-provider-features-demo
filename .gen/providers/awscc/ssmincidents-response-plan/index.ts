@@ -137,7 +137,7 @@ export class SsmincidentsResponsePlanActionsSsmAutomationDynamicParametersValueO
   }
 
   // variable - computed: true, optional: true, required: false
-  private _variable?: string;
+  private _variable?: string; 
   public get variable() {
     return this.getStringAttribute('variable');
   }
@@ -252,7 +252,7 @@ export class SsmincidentsResponsePlanActionsSsmAutomationDynamicParametersOutput
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -401,7 +401,7 @@ export class SsmincidentsResponsePlanActionsSsmAutomationParametersOutputReferen
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -417,7 +417,7 @@ export class SsmincidentsResponsePlanActionsSsmAutomationParametersOutputReferen
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -628,7 +628,7 @@ export class SsmincidentsResponsePlanActionsSsmAutomationOutputReference extends
   }
 
   // document_name - computed: true, optional: true, required: false
-  private _documentName?: string;
+  private _documentName?: string; 
   public get documentName() {
     return this.getStringAttribute('document_name');
   }
@@ -644,7 +644,7 @@ export class SsmincidentsResponsePlanActionsSsmAutomationOutputReference extends
   }
 
   // document_version - computed: true, optional: true, required: false
-  private _documentVersion?: string;
+  private _documentVersion?: string; 
   public get documentVersion() {
     return this.getStringAttribute('document_version');
   }
@@ -692,7 +692,7 @@ export class SsmincidentsResponsePlanActionsSsmAutomationOutputReference extends
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -708,7 +708,7 @@ export class SsmincidentsResponsePlanActionsSsmAutomationOutputReference extends
   }
 
   // target_account - computed: true, optional: true, required: false
-  private _targetAccount?: string;
+  private _targetAccount?: string; 
   public get targetAccount() {
     return this.getStringAttribute('target_account');
   }
@@ -920,7 +920,7 @@ export class SsmincidentsResponsePlanChatChannelOutputReference extends cdktn.Co
   }
 
   // chatbot_sns - computed: true, optional: true, required: false
-  private _chatbotSns?: string[];
+  private _chatbotSns?: string[]; 
   public get chatbotSns() {
     return this.getListAttribute('chatbot_sns');
   }
@@ -1033,7 +1033,7 @@ export class SsmincidentsResponsePlanIncidentTemplateIncidentTagsOutputReference
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1049,7 +1049,7 @@ export class SsmincidentsResponsePlanIncidentTemplateIncidentTagsOutputReference
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1167,7 +1167,7 @@ export class SsmincidentsResponsePlanIncidentTemplateNotificationTargetsOutputRe
   }
 
   // sns_topic_arn - computed: true, optional: true, required: false
-  private _snsTopicArn?: string;
+  private _snsTopicArn?: string; 
   public get snsTopicArn() {
     return this.getStringAttribute('sns_topic_arn');
   }
@@ -1378,7 +1378,7 @@ export class SsmincidentsResponsePlanIncidentTemplateOutputReference extends cdk
   }
 
   // dedupe_string - computed: true, optional: true, required: false
-  private _dedupeString?: string;
+  private _dedupeString?: string; 
   public get dedupeString() {
     return this.getStringAttribute('dedupe_string');
   }
@@ -1394,7 +1394,7 @@ export class SsmincidentsResponsePlanIncidentTemplateOutputReference extends cdk
   }
 
   // impact - computed: false, optional: false, required: true
-  private _impact?: number;
+  private _impact?: number; 
   public get impact() {
     return this.getNumberAttribute('impact');
   }
@@ -1439,7 +1439,7 @@ export class SsmincidentsResponsePlanIncidentTemplateOutputReference extends cdk
   }
 
   // summary - computed: true, optional: true, required: false
-  private _summary?: string;
+  private _summary?: string; 
   public get summary() {
     return this.getStringAttribute('summary');
   }
@@ -1455,7 +1455,7 @@ export class SsmincidentsResponsePlanIncidentTemplateOutputReference extends cdk
   }
 
   // title - computed: false, optional: false, required: true
-  private _title?: string;
+  private _title?: string; 
   public get title() {
     return this.getStringAttribute('title');
   }
@@ -1548,7 +1548,7 @@ export class SsmincidentsResponsePlanIntegrationsPagerDutyConfigurationPagerDuty
   }
 
   // service_id - computed: true, optional: true, required: false
-  private _serviceId?: string;
+  private _serviceId?: string; 
   public get serviceId() {
     return this.getStringAttribute('service_id');
   }
@@ -1682,7 +1682,7 @@ export class SsmincidentsResponsePlanIntegrationsPagerDutyConfigurationOutputRef
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1714,7 +1714,7 @@ export class SsmincidentsResponsePlanIntegrationsPagerDutyConfigurationOutputRef
   }
 
   // secret_id - computed: true, optional: true, required: false
-  private _secretId?: string;
+  private _secretId?: string; 
   public get secretId() {
     return this.getStringAttribute('secret_id');
   }
@@ -1945,7 +1945,7 @@ export class SsmincidentsResponsePlanTagsOutputReference extends cdktn.ComplexOb
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1961,7 +1961,7 @@ export class SsmincidentsResponsePlanTagsOutputReference extends cdktn.ComplexOb
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2099,7 +2099,7 @@ export class SsmincidentsResponsePlan extends cdktn.TerraformResource {
   }
 
   // display_name - computed: true, optional: true, required: false
-  private _displayName?: string;
+  private _displayName?: string; 
   public get displayName() {
     return this.getStringAttribute('display_name');
   }
@@ -2115,7 +2115,7 @@ export class SsmincidentsResponsePlan extends cdktn.TerraformResource {
   }
 
   // engagements - computed: true, optional: true, required: false
-  private _engagements?: string[];
+  private _engagements?: string[]; 
   public get engagements() {
     return cdktn.Fn.tolist(this.getListAttribute('engagements'));
   }
@@ -2165,7 +2165,7 @@ export class SsmincidentsResponsePlan extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }

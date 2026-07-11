@@ -141,7 +141,7 @@ export class GlobalacceleratorCrossAccountAttachmentResourceOutputReference exte
   }
 
   // cidr_block - computed: false, optional: true, required: false
-  private _cidrBlock?: string;
+  private _cidrBlock?: string; 
   public get cidrBlock() {
     return this.getStringAttribute('cidr_block');
   }
@@ -157,7 +157,7 @@ export class GlobalacceleratorCrossAccountAttachmentResourceOutputReference exte
   }
 
   // endpoint_id - computed: false, optional: true, required: false
-  private _endpointId?: string;
+  private _endpointId?: string; 
   public get endpointId() {
     return this.getStringAttribute('endpoint_id');
   }
@@ -173,7 +173,7 @@ export class GlobalacceleratorCrossAccountAttachmentResourceOutputReference exte
   }
 
   // region - computed: false, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -290,7 +290,7 @@ export class GlobalacceleratorCrossAccountAttachment extends cdktn.TerraformReso
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -303,7 +303,7 @@ export class GlobalacceleratorCrossAccountAttachment extends cdktn.TerraformReso
   }
 
   // principals - computed: false, optional: true, required: false
-  private _principals?: string[];
+  private _principals?: string[]; 
   public get principals() {
     return cdktn.Fn.tolist(this.getListAttribute('principals'));
   }
@@ -319,7 +319,7 @@ export class GlobalacceleratorCrossAccountAttachment extends cdktn.TerraformReso
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

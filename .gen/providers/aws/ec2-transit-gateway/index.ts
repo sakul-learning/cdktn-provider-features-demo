@@ -192,7 +192,7 @@ export class Ec2TransitGatewayTimeoutsOutputReference extends cdktn.ComplexObjec
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -208,7 +208,7 @@ export class Ec2TransitGatewayTimeoutsOutputReference extends cdktn.ComplexObjec
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -224,7 +224,7 @@ export class Ec2TransitGatewayTimeoutsOutputReference extends cdktn.ComplexObjec
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -313,7 +313,7 @@ export class Ec2TransitGateway extends cdktn.TerraformResource {
   // ==========
 
   // amazon_side_asn - computed: false, optional: true, required: false
-  private _amazonSideAsn?: number;
+  private _amazonSideAsn?: number; 
   public get amazonSideAsn() {
     return this.getNumberAttribute('amazon_side_asn');
   }
@@ -339,7 +339,7 @@ export class Ec2TransitGateway extends cdktn.TerraformResource {
   }
 
   // auto_accept_shared_attachments - computed: false, optional: true, required: false
-  private _autoAcceptSharedAttachments?: string;
+  private _autoAcceptSharedAttachments?: string; 
   public get autoAcceptSharedAttachments() {
     return this.getStringAttribute('auto_accept_shared_attachments');
   }
@@ -355,7 +355,7 @@ export class Ec2TransitGateway extends cdktn.TerraformResource {
   }
 
   // default_route_table_association - computed: false, optional: true, required: false
-  private _defaultRouteTableAssociation?: string;
+  private _defaultRouteTableAssociation?: string; 
   public get defaultRouteTableAssociation() {
     return this.getStringAttribute('default_route_table_association');
   }
@@ -371,7 +371,7 @@ export class Ec2TransitGateway extends cdktn.TerraformResource {
   }
 
   // default_route_table_propagation - computed: false, optional: true, required: false
-  private _defaultRouteTablePropagation?: string;
+  private _defaultRouteTablePropagation?: string; 
   public get defaultRouteTablePropagation() {
     return this.getStringAttribute('default_route_table_propagation');
   }
@@ -387,7 +387,7 @@ export class Ec2TransitGateway extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -403,7 +403,7 @@ export class Ec2TransitGateway extends cdktn.TerraformResource {
   }
 
   // dns_support - computed: false, optional: true, required: false
-  private _dnsSupport?: string;
+  private _dnsSupport?: string; 
   public get dnsSupport() {
     return this.getStringAttribute('dns_support');
   }
@@ -419,7 +419,7 @@ export class Ec2TransitGateway extends cdktn.TerraformResource {
   }
 
   // encryption_support - computed: true, optional: true, required: false
-  private _encryptionSupport?: string;
+  private _encryptionSupport?: string; 
   public get encryptionSupport() {
     return this.getStringAttribute('encryption_support');
   }
@@ -435,7 +435,7 @@ export class Ec2TransitGateway extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -451,7 +451,7 @@ export class Ec2TransitGateway extends cdktn.TerraformResource {
   }
 
   // multicast_support - computed: false, optional: true, required: false
-  private _multicastSupport?: string;
+  private _multicastSupport?: string; 
   public get multicastSupport() {
     return this.getStringAttribute('multicast_support');
   }
@@ -477,7 +477,7 @@ export class Ec2TransitGateway extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -493,7 +493,7 @@ export class Ec2TransitGateway extends cdktn.TerraformResource {
   }
 
   // security_group_referencing_support - computed: false, optional: true, required: false
-  private _securityGroupReferencingSupport?: string;
+  private _securityGroupReferencingSupport?: string; 
   public get securityGroupReferencingSupport() {
     return this.getStringAttribute('security_group_referencing_support');
   }
@@ -509,7 +509,7 @@ export class Ec2TransitGateway extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -525,7 +525,7 @@ export class Ec2TransitGateway extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -541,7 +541,7 @@ export class Ec2TransitGateway extends cdktn.TerraformResource {
   }
 
   // transit_gateway_cidr_blocks - computed: false, optional: true, required: false
-  private _transitGatewayCidrBlocks?: string[];
+  private _transitGatewayCidrBlocks?: string[]; 
   public get transitGatewayCidrBlocks() {
     return cdktn.Fn.tolist(this.getListAttribute('transit_gateway_cidr_blocks'));
   }
@@ -557,7 +557,7 @@ export class Ec2TransitGateway extends cdktn.TerraformResource {
   }
 
   // vpn_ecmp_support - computed: false, optional: true, required: false
-  private _vpnEcmpSupport?: string;
+  private _vpnEcmpSupport?: string; 
   public get vpnEcmpSupport() {
     return this.getStringAttribute('vpn_ecmp_support');
   }

@@ -163,7 +163,7 @@ export class IamRoleInlinePolicyOutputReference extends cdktn.ComplexObject {
   }
 
   // name - computed: false, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -179,7 +179,7 @@ export class IamRoleInlinePolicyOutputReference extends cdktn.ComplexObject {
   }
 
   // policy - computed: false, optional: true, required: false
-  private _policy?: string;
+  private _policy?: string; 
   public get policy() {
     return this.getStringAttribute('policy');
   }
@@ -290,7 +290,7 @@ export class IamRole extends cdktn.TerraformResource {
   }
 
   // assume_role_policy - computed: false, optional: false, required: true
-  private _assumeRolePolicy?: string;
+  private _assumeRolePolicy?: string; 
   public get assumeRolePolicy() {
     return this.getStringAttribute('assume_role_policy');
   }
@@ -308,7 +308,7 @@ export class IamRole extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -324,7 +324,7 @@ export class IamRole extends cdktn.TerraformResource {
   }
 
   // force_detach_policies - computed: false, optional: true, required: false
-  private _forceDetachPolicies?: boolean | cdktn.IResolvable;
+  private _forceDetachPolicies?: boolean | cdktn.IResolvable; 
   public get forceDetachPolicies() {
     return this.getBooleanAttribute('force_detach_policies');
   }
@@ -340,7 +340,7 @@ export class IamRole extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -356,7 +356,7 @@ export class IamRole extends cdktn.TerraformResource {
   }
 
   // managed_policy_arns - computed: true, optional: true, required: false
-  private _managedPolicyArns?: string[];
+  private _managedPolicyArns?: string[]; 
   public get managedPolicyArns() {
     return cdktn.Fn.tolist(this.getListAttribute('managed_policy_arns'));
   }
@@ -372,7 +372,7 @@ export class IamRole extends cdktn.TerraformResource {
   }
 
   // max_session_duration - computed: false, optional: true, required: false
-  private _maxSessionDuration?: number;
+  private _maxSessionDuration?: number; 
   public get maxSessionDuration() {
     return this.getNumberAttribute('max_session_duration');
   }
@@ -388,7 +388,7 @@ export class IamRole extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -404,7 +404,7 @@ export class IamRole extends cdktn.TerraformResource {
   }
 
   // name_prefix - computed: true, optional: true, required: false
-  private _namePrefix?: string;
+  private _namePrefix?: string; 
   public get namePrefix() {
     return this.getStringAttribute('name_prefix');
   }
@@ -420,7 +420,7 @@ export class IamRole extends cdktn.TerraformResource {
   }
 
   // path - computed: false, optional: true, required: false
-  private _path?: string;
+  private _path?: string; 
   public get path() {
     return this.getStringAttribute('path');
   }
@@ -436,7 +436,7 @@ export class IamRole extends cdktn.TerraformResource {
   }
 
   // permissions_boundary - computed: false, optional: true, required: false
-  private _permissionsBoundary?: string;
+  private _permissionsBoundary?: string; 
   public get permissionsBoundary() {
     return this.getStringAttribute('permissions_boundary');
   }
@@ -452,7 +452,7 @@ export class IamRole extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -468,7 +468,7 @@ export class IamRole extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

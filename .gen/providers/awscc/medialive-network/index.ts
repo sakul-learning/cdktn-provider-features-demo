@@ -115,7 +115,7 @@ export class MedialiveNetworkIpPoolsOutputReference extends cdktn.ComplexObject 
   }
 
   // cidr - computed: true, optional: true, required: false
-  private _cidr?: string;
+  private _cidr?: string; 
   public get cidr() {
     return this.getStringAttribute('cidr');
   }
@@ -252,7 +252,7 @@ export class MedialiveNetworkRoutesOutputReference extends cdktn.ComplexObject {
   }
 
   // cidr - computed: true, optional: true, required: false
-  private _cidr?: string;
+  private _cidr?: string; 
   public get cidr() {
     return this.getStringAttribute('cidr');
   }
@@ -268,7 +268,7 @@ export class MedialiveNetworkRoutesOutputReference extends cdktn.ComplexObject {
   }
 
   // gateway - computed: true, optional: true, required: false
-  private _gateway?: string;
+  private _gateway?: string; 
   public get gateway() {
     return this.getStringAttribute('gateway');
   }
@@ -401,7 +401,7 @@ export class MedialiveNetworkTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -417,7 +417,7 @@ export class MedialiveNetworkTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -542,7 +542,7 @@ export class MedialiveNetwork extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }

@@ -91,7 +91,7 @@ export class SyntheticsGroupAssociation extends cdktn.TerraformResource {
   // ==========
 
   // canary_arn - computed: false, optional: false, required: true
-  private _canaryArn?: string;
+  private _canaryArn?: string; 
   public get canaryArn() {
     return this.getStringAttribute('canary_arn');
   }
@@ -114,7 +114,7 @@ export class SyntheticsGroupAssociation extends cdktn.TerraformResource {
   }
 
   // group_name - computed: false, optional: false, required: true
-  private _groupName?: string;
+  private _groupName?: string; 
   public get groupName() {
     return this.getStringAttribute('group_name');
   }
@@ -127,7 +127,7 @@ export class SyntheticsGroupAssociation extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -143,7 +143,7 @@ export class SyntheticsGroupAssociation extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

@@ -128,7 +128,7 @@ export class GuarddutyPublishingDestinationDestinationPropertiesOutputReference 
   }
 
   // destination_arn - computed: true, optional: true, required: false
-  private _destinationArn?: string;
+  private _destinationArn?: string; 
   public get destinationArn() {
     return this.getStringAttribute('destination_arn');
   }
@@ -144,7 +144,7 @@ export class GuarddutyPublishingDestinationDestinationPropertiesOutputReference 
   }
 
   // kms_key_arn - computed: true, optional: true, required: false
-  private _kmsKeyArn?: string;
+  private _kmsKeyArn?: string; 
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -257,7 +257,7 @@ export class GuarddutyPublishingDestinationTagsOutputReference extends cdktn.Com
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -273,7 +273,7 @@ export class GuarddutyPublishingDestinationTagsOutputReference extends cdktn.Com
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -383,7 +383,7 @@ export class GuarddutyPublishingDestination extends cdktn.TerraformResource {
   }
 
   // destination_type - computed: false, optional: false, required: true
-  private _destinationType?: string;
+  private _destinationType?: string; 
   public get destinationType() {
     return this.getStringAttribute('destination_type');
   }
@@ -396,7 +396,7 @@ export class GuarddutyPublishingDestination extends cdktn.TerraformResource {
   }
 
   // detector_id - computed: false, optional: false, required: true
-  private _detectorId?: string;
+  private _detectorId?: string; 
   public get detectorId() {
     return this.getStringAttribute('detector_id');
   }

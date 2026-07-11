@@ -109,7 +109,7 @@ export class ShieldProtectionGroup extends cdktn.TerraformResource {
   // ==========
 
   // aggregation - computed: false, optional: false, required: true
-  private _aggregation?: string;
+  private _aggregation?: string; 
   public get aggregation() {
     return this.getStringAttribute('aggregation');
   }
@@ -122,7 +122,7 @@ export class ShieldProtectionGroup extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -138,7 +138,7 @@ export class ShieldProtectionGroup extends cdktn.TerraformResource {
   }
 
   // members - computed: false, optional: true, required: false
-  private _members?: string[];
+  private _members?: string[]; 
   public get members() {
     return this.getListAttribute('members');
   }
@@ -154,7 +154,7 @@ export class ShieldProtectionGroup extends cdktn.TerraformResource {
   }
 
   // pattern - computed: false, optional: false, required: true
-  private _pattern?: string;
+  private _pattern?: string; 
   public get pattern() {
     return this.getStringAttribute('pattern');
   }
@@ -172,7 +172,7 @@ export class ShieldProtectionGroup extends cdktn.TerraformResource {
   }
 
   // protection_group_id - computed: false, optional: false, required: true
-  private _protectionGroupId?: string;
+  private _protectionGroupId?: string; 
   public get protectionGroupId() {
     return this.getStringAttribute('protection_group_id');
   }
@@ -185,7 +185,7 @@ export class ShieldProtectionGroup extends cdktn.TerraformResource {
   }
 
   // resource_type - computed: false, optional: true, required: false
-  private _resourceType?: string;
+  private _resourceType?: string; 
   public get resourceType() {
     return this.getStringAttribute('resource_type');
   }
@@ -201,7 +201,7 @@ export class ShieldProtectionGroup extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -217,7 +217,7 @@ export class ShieldProtectionGroup extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

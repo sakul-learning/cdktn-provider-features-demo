@@ -224,7 +224,7 @@ export class FsxWindowsFileSystemAuditLogConfigurationOutputReference extends cd
   }
 
   // audit_log_destination - computed: true, optional: true, required: false
-  private _auditLogDestination?: string;
+  private _auditLogDestination?: string; 
   public get auditLogDestination() {
     return this.getStringAttribute('audit_log_destination');
   }
@@ -240,7 +240,7 @@ export class FsxWindowsFileSystemAuditLogConfigurationOutputReference extends cd
   }
 
   // file_access_audit_log_level - computed: false, optional: true, required: false
-  private _fileAccessAuditLogLevel?: string;
+  private _fileAccessAuditLogLevel?: string; 
   public get fileAccessAuditLogLevel() {
     return this.getStringAttribute('file_access_audit_log_level');
   }
@@ -256,7 +256,7 @@ export class FsxWindowsFileSystemAuditLogConfigurationOutputReference extends cd
   }
 
   // file_share_access_audit_log_level - computed: false, optional: true, required: false
-  private _fileShareAccessAuditLogLevel?: string;
+  private _fileShareAccessAuditLogLevel?: string; 
   public get fileShareAccessAuditLogLevel() {
     return this.getStringAttribute('file_share_access_audit_log_level');
   }
@@ -357,7 +357,7 @@ export class FsxWindowsFileSystemDiskIopsConfigurationOutputReference extends cd
   }
 
   // iops - computed: true, optional: true, required: false
-  private _iops?: number;
+  private _iops?: number; 
   public get iops() {
     return this.getNumberAttribute('iops');
   }
@@ -373,7 +373,7 @@ export class FsxWindowsFileSystemDiskIopsConfigurationOutputReference extends cd
   }
 
   // mode - computed: false, optional: true, required: false
-  private _mode?: string;
+  private _mode?: string; 
   public get mode() {
     return this.getStringAttribute('mode');
   }
@@ -593,7 +593,7 @@ export class FsxWindowsFileSystemSelfManagedActiveDirectoryOutputReference exten
   }
 
   // dns_ips - computed: false, optional: false, required: true
-  private _dnsIps?: string[];
+  private _dnsIps?: string[]; 
   public get dnsIps() {
     return cdktn.Fn.tolist(this.getListAttribute('dns_ips'));
   }
@@ -606,7 +606,7 @@ export class FsxWindowsFileSystemSelfManagedActiveDirectoryOutputReference exten
   }
 
   // domain_join_service_account_secret - computed: false, optional: true, required: false
-  private _domainJoinServiceAccountSecret?: string;
+  private _domainJoinServiceAccountSecret?: string; 
   public get domainJoinServiceAccountSecret() {
     return this.getStringAttribute('domain_join_service_account_secret');
   }
@@ -622,7 +622,7 @@ export class FsxWindowsFileSystemSelfManagedActiveDirectoryOutputReference exten
   }
 
   // domain_name - computed: false, optional: false, required: true
-  private _domainName?: string;
+  private _domainName?: string; 
   public get domainName() {
     return this.getStringAttribute('domain_name');
   }
@@ -635,7 +635,7 @@ export class FsxWindowsFileSystemSelfManagedActiveDirectoryOutputReference exten
   }
 
   // file_system_administrators_group - computed: false, optional: true, required: false
-  private _fileSystemAdministratorsGroup?: string;
+  private _fileSystemAdministratorsGroup?: string; 
   public get fileSystemAdministratorsGroup() {
     return this.getStringAttribute('file_system_administrators_group');
   }
@@ -651,7 +651,7 @@ export class FsxWindowsFileSystemSelfManagedActiveDirectoryOutputReference exten
   }
 
   // organizational_unit_distinguished_name - computed: false, optional: true, required: false
-  private _organizationalUnitDistinguishedName?: string;
+  private _organizationalUnitDistinguishedName?: string; 
   public get organizationalUnitDistinguishedName() {
     return this.getStringAttribute('organizational_unit_distinguished_name');
   }
@@ -667,7 +667,7 @@ export class FsxWindowsFileSystemSelfManagedActiveDirectoryOutputReference exten
   }
 
   // password - computed: false, optional: true, required: false
-  private _password?: string;
+  private _password?: string; 
   public get password() {
     return this.getStringAttribute('password');
   }
@@ -683,7 +683,7 @@ export class FsxWindowsFileSystemSelfManagedActiveDirectoryOutputReference exten
   }
 
   // password_wo - computed: false, optional: true, required: false
-  private _passwordWo?: string;
+  private _passwordWo?: string; 
   /**
   * @deprecated Write-only: the provider never returns this value; reading it always yields null by protocol contract. The getter remains for compatibility and will be removed in a future prebuilt-provider major.
   */
@@ -702,7 +702,7 @@ export class FsxWindowsFileSystemSelfManagedActiveDirectoryOutputReference exten
   }
 
   // password_wo_version - computed: false, optional: true, required: false
-  private _passwordWoVersion?: number;
+  private _passwordWoVersion?: number; 
   public get passwordWoVersion() {
     return this.getNumberAttribute('password_wo_version');
   }
@@ -718,7 +718,7 @@ export class FsxWindowsFileSystemSelfManagedActiveDirectoryOutputReference exten
   }
 
   // username - computed: true, optional: true, required: false
-  private _username?: string;
+  private _username?: string; 
   public get username() {
     return this.getStringAttribute('username');
   }
@@ -846,7 +846,7 @@ export class FsxWindowsFileSystemTimeoutsOutputReference extends cdktn.ComplexOb
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -862,7 +862,7 @@ export class FsxWindowsFileSystemTimeoutsOutputReference extends cdktn.ComplexOb
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -878,7 +878,7 @@ export class FsxWindowsFileSystemTimeoutsOutputReference extends cdktn.ComplexOb
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -976,7 +976,7 @@ export class FsxWindowsFileSystem extends cdktn.TerraformResource {
   // ==========
 
   // active_directory_id - computed: false, optional: true, required: false
-  private _activeDirectoryId?: string;
+  private _activeDirectoryId?: string; 
   public get activeDirectoryId() {
     return this.getStringAttribute('active_directory_id');
   }
@@ -992,7 +992,7 @@ export class FsxWindowsFileSystem extends cdktn.TerraformResource {
   }
 
   // aliases - computed: false, optional: true, required: false
-  private _aliases?: string[];
+  private _aliases?: string[]; 
   public get aliases() {
     return cdktn.Fn.tolist(this.getListAttribute('aliases'));
   }
@@ -1013,7 +1013,7 @@ export class FsxWindowsFileSystem extends cdktn.TerraformResource {
   }
 
   // automatic_backup_retention_days - computed: false, optional: true, required: false
-  private _automaticBackupRetentionDays?: number;
+  private _automaticBackupRetentionDays?: number; 
   public get automaticBackupRetentionDays() {
     return this.getNumberAttribute('automatic_backup_retention_days');
   }
@@ -1029,7 +1029,7 @@ export class FsxWindowsFileSystem extends cdktn.TerraformResource {
   }
 
   // backup_id - computed: false, optional: true, required: false
-  private _backupId?: string;
+  private _backupId?: string; 
   public get backupId() {
     return this.getStringAttribute('backup_id');
   }
@@ -1045,7 +1045,7 @@ export class FsxWindowsFileSystem extends cdktn.TerraformResource {
   }
 
   // copy_tags_to_backups - computed: false, optional: true, required: false
-  private _copyTagsToBackups?: boolean | cdktn.IResolvable;
+  private _copyTagsToBackups?: boolean | cdktn.IResolvable; 
   public get copyTagsToBackups() {
     return this.getBooleanAttribute('copy_tags_to_backups');
   }
@@ -1061,7 +1061,7 @@ export class FsxWindowsFileSystem extends cdktn.TerraformResource {
   }
 
   // daily_automatic_backup_start_time - computed: true, optional: true, required: false
-  private _dailyAutomaticBackupStartTime?: string;
+  private _dailyAutomaticBackupStartTime?: string; 
   public get dailyAutomaticBackupStartTime() {
     return this.getStringAttribute('daily_automatic_backup_start_time');
   }
@@ -1077,7 +1077,7 @@ export class FsxWindowsFileSystem extends cdktn.TerraformResource {
   }
 
   // deployment_type - computed: false, optional: true, required: false
-  private _deploymentType?: string;
+  private _deploymentType?: string; 
   public get deploymentType() {
     return this.getStringAttribute('deployment_type');
   }
@@ -1098,7 +1098,7 @@ export class FsxWindowsFileSystem extends cdktn.TerraformResource {
   }
 
   // final_backup_tags - computed: false, optional: true, required: false
-  private _finalBackupTags?: { [key: string]: string };
+  private _finalBackupTags?: { [key: string]: string }; 
   public get finalBackupTags() {
     return this.getStringMapAttribute('final_backup_tags');
   }
@@ -1114,7 +1114,7 @@ export class FsxWindowsFileSystem extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -1130,7 +1130,7 @@ export class FsxWindowsFileSystem extends cdktn.TerraformResource {
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -1161,7 +1161,7 @@ export class FsxWindowsFileSystem extends cdktn.TerraformResource {
   }
 
   // preferred_subnet_id - computed: true, optional: true, required: false
-  private _preferredSubnetId?: string;
+  private _preferredSubnetId?: string; 
   public get preferredSubnetId() {
     return this.getStringAttribute('preferred_subnet_id');
   }
@@ -1177,7 +1177,7 @@ export class FsxWindowsFileSystem extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1198,7 +1198,7 @@ export class FsxWindowsFileSystem extends cdktn.TerraformResource {
   }
 
   // security_group_ids - computed: false, optional: true, required: false
-  private _securityGroupIds?: string[];
+  private _securityGroupIds?: string[]; 
   public get securityGroupIds() {
     return cdktn.Fn.tolist(this.getListAttribute('security_group_ids'));
   }
@@ -1214,7 +1214,7 @@ export class FsxWindowsFileSystem extends cdktn.TerraformResource {
   }
 
   // skip_final_backup - computed: false, optional: true, required: false
-  private _skipFinalBackup?: boolean | cdktn.IResolvable;
+  private _skipFinalBackup?: boolean | cdktn.IResolvable; 
   public get skipFinalBackup() {
     return this.getBooleanAttribute('skip_final_backup');
   }
@@ -1230,7 +1230,7 @@ export class FsxWindowsFileSystem extends cdktn.TerraformResource {
   }
 
   // storage_capacity - computed: true, optional: true, required: false
-  private _storageCapacity?: number;
+  private _storageCapacity?: number; 
   public get storageCapacity() {
     return this.getNumberAttribute('storage_capacity');
   }
@@ -1246,7 +1246,7 @@ export class FsxWindowsFileSystem extends cdktn.TerraformResource {
   }
 
   // storage_type - computed: false, optional: true, required: false
-  private _storageType?: string;
+  private _storageType?: string; 
   public get storageType() {
     return this.getStringAttribute('storage_type');
   }
@@ -1262,7 +1262,7 @@ export class FsxWindowsFileSystem extends cdktn.TerraformResource {
   }
 
   // subnet_ids - computed: false, optional: false, required: true
-  private _subnetIds?: string[];
+  private _subnetIds?: string[]; 
   public get subnetIds() {
     return this.getListAttribute('subnet_ids');
   }
@@ -1275,7 +1275,7 @@ export class FsxWindowsFileSystem extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -1291,7 +1291,7 @@ export class FsxWindowsFileSystem extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -1307,7 +1307,7 @@ export class FsxWindowsFileSystem extends cdktn.TerraformResource {
   }
 
   // throughput_capacity - computed: false, optional: false, required: true
-  private _throughputCapacity?: number;
+  private _throughputCapacity?: number; 
   public get throughputCapacity() {
     return this.getNumberAttribute('throughput_capacity');
   }
@@ -1325,7 +1325,7 @@ export class FsxWindowsFileSystem extends cdktn.TerraformResource {
   }
 
   // weekly_maintenance_start_time - computed: true, optional: true, required: false
-  private _weeklyMaintenanceStartTime?: string;
+  private _weeklyMaintenanceStartTime?: string; 
   public get weeklyMaintenanceStartTime() {
     return this.getStringAttribute('weekly_maintenance_start_time');
   }

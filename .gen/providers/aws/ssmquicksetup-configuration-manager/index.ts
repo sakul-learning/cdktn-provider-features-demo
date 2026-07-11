@@ -277,7 +277,7 @@ export class SsmquicksetupConfigurationManagerConfigurationDefinitionOutputRefer
   }
 
   // local_deployment_administration_role_arn - computed: false, optional: true, required: false
-  private _localDeploymentAdministrationRoleArn?: string;
+  private _localDeploymentAdministrationRoleArn?: string; 
   public get localDeploymentAdministrationRoleArn() {
     return this.getStringAttribute('local_deployment_administration_role_arn');
   }
@@ -293,7 +293,7 @@ export class SsmquicksetupConfigurationManagerConfigurationDefinitionOutputRefer
   }
 
   // local_deployment_execution_role_name - computed: false, optional: true, required: false
-  private _localDeploymentExecutionRoleName?: string;
+  private _localDeploymentExecutionRoleName?: string; 
   public get localDeploymentExecutionRoleName() {
     return this.getStringAttribute('local_deployment_execution_role_name');
   }
@@ -309,7 +309,7 @@ export class SsmquicksetupConfigurationManagerConfigurationDefinitionOutputRefer
   }
 
   // parameters - computed: false, optional: false, required: true
-  private _parameters?: { [key: string]: string };
+  private _parameters?: { [key: string]: string }; 
   public get parameters() {
     return this.getStringMapAttribute('parameters');
   }
@@ -322,7 +322,7 @@ export class SsmquicksetupConfigurationManagerConfigurationDefinitionOutputRefer
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -335,7 +335,7 @@ export class SsmquicksetupConfigurationManagerConfigurationDefinitionOutputRefer
   }
 
   // type_version - computed: true, optional: true, required: false
-  private _typeVersion?: string;
+  private _typeVersion?: string; 
   public get typeVersion() {
     return this.getStringAttribute('type_version');
   }
@@ -489,7 +489,7 @@ export class SsmquicksetupConfigurationManagerTimeoutsOutputReference extends cd
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -505,7 +505,7 @@ export class SsmquicksetupConfigurationManagerTimeoutsOutputReference extends cd
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -521,7 +521,7 @@ export class SsmquicksetupConfigurationManagerTimeoutsOutputReference extends cd
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -600,7 +600,7 @@ export class SsmquicksetupConfigurationManager extends cdktn.TerraformResource {
   // ==========
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -621,7 +621,7 @@ export class SsmquicksetupConfigurationManager extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -634,7 +634,7 @@ export class SsmquicksetupConfigurationManager extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -656,7 +656,7 @@ export class SsmquicksetupConfigurationManager extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

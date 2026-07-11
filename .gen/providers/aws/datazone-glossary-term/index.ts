@@ -148,7 +148,7 @@ export class DatazoneGlossaryTermTermRelationsOutputReference extends cdktn.Comp
   }
 
   // classifies - computed: false, optional: true, required: false
-  private _classifies?: string[];
+  private _classifies?: string[]; 
   public get classifies() {
     return cdktn.Fn.tolist(this.getListAttribute('classifies'));
   }
@@ -164,7 +164,7 @@ export class DatazoneGlossaryTermTermRelationsOutputReference extends cdktn.Comp
   }
 
   // is_a - computed: false, optional: true, required: false
-  private _isA?: string[];
+  private _isA?: string[]; 
   public get isA() {
     return cdktn.Fn.tolist(this.getListAttribute('is_a'));
   }
@@ -280,7 +280,7 @@ export class DatazoneGlossaryTermTimeoutsOutputReference extends cdktn.ComplexOb
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -372,7 +372,7 @@ export class DatazoneGlossaryTerm extends cdktn.TerraformResource {
   }
 
   // domain_identifier - computed: false, optional: true, required: false
-  private _domainIdentifier?: string;
+  private _domainIdentifier?: string; 
   public get domainIdentifier() {
     return this.getStringAttribute('domain_identifier');
   }
@@ -388,7 +388,7 @@ export class DatazoneGlossaryTerm extends cdktn.TerraformResource {
   }
 
   // glossary_identifier - computed: false, optional: false, required: true
-  private _glossaryIdentifier?: string;
+  private _glossaryIdentifier?: string; 
   public get glossaryIdentifier() {
     return this.getStringAttribute('glossary_identifier');
   }
@@ -406,7 +406,7 @@ export class DatazoneGlossaryTerm extends cdktn.TerraformResource {
   }
 
   // long_description - computed: false, optional: true, required: false
-  private _longDescription?: string;
+  private _longDescription?: string; 
   public get longDescription() {
     return this.getStringAttribute('long_description');
   }
@@ -422,7 +422,7 @@ export class DatazoneGlossaryTerm extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -435,7 +435,7 @@ export class DatazoneGlossaryTerm extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -451,7 +451,7 @@ export class DatazoneGlossaryTerm extends cdktn.TerraformResource {
   }
 
   // short_description - computed: false, optional: true, required: false
-  private _shortDescription?: string;
+  private _shortDescription?: string; 
   public get shortDescription() {
     return this.getStringAttribute('short_description');
   }
@@ -467,7 +467,7 @@ export class DatazoneGlossaryTerm extends cdktn.TerraformResource {
   }
 
   // status - computed: false, optional: true, required: false
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }

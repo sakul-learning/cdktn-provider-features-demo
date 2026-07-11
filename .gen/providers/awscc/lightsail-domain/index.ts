@@ -188,7 +188,7 @@ export class LightsailDomainDomainEntriesOutputReference extends cdktn.ComplexOb
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -204,7 +204,7 @@ export class LightsailDomainDomainEntriesOutputReference extends cdktn.ComplexOb
   }
 
   // is_alias - computed: true, optional: true, required: false
-  private _isAlias?: boolean | cdktn.IResolvable;
+  private _isAlias?: boolean | cdktn.IResolvable; 
   public get isAlias() {
     return this.getBooleanAttribute('is_alias');
   }
@@ -220,7 +220,7 @@ export class LightsailDomainDomainEntriesOutputReference extends cdktn.ComplexOb
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -236,7 +236,7 @@ export class LightsailDomainDomainEntriesOutputReference extends cdktn.ComplexOb
   }
 
   // target - computed: true, optional: true, required: false
-  private _target?: string;
+  private _target?: string; 
   public get target() {
     return this.getStringAttribute('target');
   }
@@ -252,7 +252,7 @@ export class LightsailDomainDomainEntriesOutputReference extends cdktn.ComplexOb
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -448,7 +448,7 @@ export class LightsailDomainTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -464,7 +464,7 @@ export class LightsailDomainTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -586,7 +586,7 @@ export class LightsailDomain extends cdktn.TerraformResource {
   }
 
   // domain_name - computed: false, optional: false, required: true
-  private _domainName?: string;
+  private _domainName?: string; 
   public get domainName() {
     return this.getStringAttribute('domain_name');
   }

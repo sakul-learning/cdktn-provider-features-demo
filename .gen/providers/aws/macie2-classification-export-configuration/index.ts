@@ -130,7 +130,7 @@ export class Macie2ClassificationExportConfigurationS3DestinationOutputReference
   }
 
   // bucket_name - computed: false, optional: false, required: true
-  private _bucketName?: string;
+  private _bucketName?: string; 
   public get bucketName() {
     return this.getStringAttribute('bucket_name');
   }
@@ -143,7 +143,7 @@ export class Macie2ClassificationExportConfigurationS3DestinationOutputReference
   }
 
   // key_prefix - computed: false, optional: true, required: false
-  private _keyPrefix?: string;
+  private _keyPrefix?: string; 
   public get keyPrefix() {
     return this.getStringAttribute('key_prefix');
   }
@@ -159,7 +159,7 @@ export class Macie2ClassificationExportConfigurationS3DestinationOutputReference
   }
 
   // kms_key_arn - computed: false, optional: false, required: true
-  private _kmsKeyArn?: string;
+  private _kmsKeyArn?: string; 
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -232,7 +232,7 @@ export class Macie2ClassificationExportConfiguration extends cdktn.TerraformReso
   // ==========
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -248,7 +248,7 @@ export class Macie2ClassificationExportConfiguration extends cdktn.TerraformReso
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

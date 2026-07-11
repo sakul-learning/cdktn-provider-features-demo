@@ -165,7 +165,7 @@ export class OdbCloudExadataInfrastructureCustomerContactsToSendToOciOutputRefer
   }
 
   // email - computed: false, optional: true, required: false
-  private _email?: string;
+  private _email?: string; 
   public get email() {
     return this.getStringAttribute('email');
   }
@@ -281,7 +281,7 @@ export class OdbCloudExadataInfrastructureMaintenanceWindowDaysOfWeekOutputRefer
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -397,7 +397,7 @@ export class OdbCloudExadataInfrastructureMaintenanceWindowMonthsOutputReference
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -649,7 +649,7 @@ export class OdbCloudExadataInfrastructureMaintenanceWindowOutputReference exten
   }
 
   // custom_action_timeout_in_mins - computed: false, optional: false, required: true
-  private _customActionTimeoutInMins?: number;
+  private _customActionTimeoutInMins?: number; 
   public get customActionTimeoutInMins() {
     return this.getNumberAttribute('custom_action_timeout_in_mins');
   }
@@ -678,7 +678,7 @@ export class OdbCloudExadataInfrastructureMaintenanceWindowOutputReference exten
   }
 
   // hours_of_day - computed: true, optional: true, required: false
-  private _hoursOfDay?: number[];
+  private _hoursOfDay?: number[]; 
   public get hoursOfDay() {
     return cdktn.Token.asNumberList(cdktn.Fn.tolist(this.getNumberListAttribute('hours_of_day')));
   }
@@ -694,7 +694,7 @@ export class OdbCloudExadataInfrastructureMaintenanceWindowOutputReference exten
   }
 
   // is_custom_action_timeout_enabled - computed: false, optional: false, required: true
-  private _isCustomActionTimeoutEnabled?: boolean | cdktn.IResolvable;
+  private _isCustomActionTimeoutEnabled?: boolean | cdktn.IResolvable; 
   public get isCustomActionTimeoutEnabled() {
     return this.getBooleanAttribute('is_custom_action_timeout_enabled');
   }
@@ -707,7 +707,7 @@ export class OdbCloudExadataInfrastructureMaintenanceWindowOutputReference exten
   }
 
   // lead_time_in_weeks - computed: true, optional: true, required: false
-  private _leadTimeInWeeks?: number;
+  private _leadTimeInWeeks?: number; 
   public get leadTimeInWeeks() {
     return this.getNumberAttribute('lead_time_in_weeks');
   }
@@ -739,7 +739,7 @@ export class OdbCloudExadataInfrastructureMaintenanceWindowOutputReference exten
   }
 
   // patching_mode - computed: false, optional: false, required: true
-  private _patchingMode?: string;
+  private _patchingMode?: string; 
   public get patchingMode() {
     return this.getStringAttribute('patching_mode');
   }
@@ -752,7 +752,7 @@ export class OdbCloudExadataInfrastructureMaintenanceWindowOutputReference exten
   }
 
   // preference - computed: false, optional: false, required: true
-  private _preference?: string;
+  private _preference?: string; 
   public get preference() {
     return this.getStringAttribute('preference');
   }
@@ -765,7 +765,7 @@ export class OdbCloudExadataInfrastructureMaintenanceWindowOutputReference exten
   }
 
   // weeks_of_month - computed: true, optional: true, required: false
-  private _weeksOfMonth?: number[];
+  private _weeksOfMonth?: number[]; 
   public get weeksOfMonth() {
     return cdktn.Token.asNumberList(cdktn.Fn.tolist(this.getNumberListAttribute('weeks_of_month')));
   }
@@ -919,7 +919,7 @@ export class OdbCloudExadataInfrastructureTimeoutsOutputReference extends cdktn.
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -935,7 +935,7 @@ export class OdbCloudExadataInfrastructureTimeoutsOutputReference extends cdktn.
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -951,7 +951,7 @@ export class OdbCloudExadataInfrastructureTimeoutsOutputReference extends cdktn.
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -1052,7 +1052,7 @@ export class OdbCloudExadataInfrastructure extends cdktn.TerraformResource {
   }
 
   // availability_zone - computed: true, optional: true, required: false
-  private _availabilityZone?: string;
+  private _availabilityZone?: string; 
   public get availabilityZone() {
     return this.getStringAttribute('availability_zone');
   }
@@ -1068,7 +1068,7 @@ export class OdbCloudExadataInfrastructure extends cdktn.TerraformResource {
   }
 
   // availability_zone_id - computed: false, optional: false, required: true
-  private _availabilityZoneId?: string;
+  private _availabilityZoneId?: string; 
   public get availabilityZoneId() {
     return this.getStringAttribute('availability_zone_id');
   }
@@ -1086,7 +1086,7 @@ export class OdbCloudExadataInfrastructure extends cdktn.TerraformResource {
   }
 
   // compute_count - computed: true, optional: true, required: false
-  private _computeCount?: number;
+  private _computeCount?: number; 
   public get computeCount() {
     return this.getNumberAttribute('compute_count');
   }
@@ -1138,7 +1138,7 @@ export class OdbCloudExadataInfrastructure extends cdktn.TerraformResource {
   }
 
   // database_server_type - computed: false, optional: true, required: false
-  private _databaseServerType?: string;
+  private _databaseServerType?: string; 
   public get databaseServerType() {
     return this.getStringAttribute('database_server_type');
   }
@@ -1164,7 +1164,7 @@ export class OdbCloudExadataInfrastructure extends cdktn.TerraformResource {
   }
 
   // display_name - computed: false, optional: false, required: true
-  private _displayName?: string;
+  private _displayName?: string; 
   public get displayName() {
     return this.getStringAttribute('display_name');
   }
@@ -1247,7 +1247,7 @@ export class OdbCloudExadataInfrastructure extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1263,7 +1263,7 @@ export class OdbCloudExadataInfrastructure extends cdktn.TerraformResource {
   }
 
   // shape - computed: false, optional: false, required: true
-  private _shape?: string;
+  private _shape?: string; 
   public get shape() {
     return this.getStringAttribute('shape');
   }
@@ -1286,7 +1286,7 @@ export class OdbCloudExadataInfrastructure extends cdktn.TerraformResource {
   }
 
   // storage_count - computed: true, optional: true, required: false
-  private _storageCount?: number;
+  private _storageCount?: number; 
   public get storageCount() {
     return this.getNumberAttribute('storage_count');
   }
@@ -1302,7 +1302,7 @@ export class OdbCloudExadataInfrastructure extends cdktn.TerraformResource {
   }
 
   // storage_server_type - computed: false, optional: true, required: false
-  private _storageServerType?: string;
+  private _storageServerType?: string; 
   public get storageServerType() {
     return this.getStringAttribute('storage_server_type');
   }
@@ -1323,7 +1323,7 @@ export class OdbCloudExadataInfrastructure extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

@@ -267,7 +267,7 @@ export class CognitoUserPoolAccountRecoverySettingRecoveryMechanismOutputReferen
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -280,7 +280,7 @@ export class CognitoUserPoolAccountRecoverySettingRecoveryMechanismOutputReferen
   }
 
   // priority - computed: false, optional: false, required: true
-  private _priority?: number;
+  private _priority?: number; 
   public get priority() {
     return this.getNumberAttribute('priority');
   }
@@ -501,7 +501,7 @@ export class CognitoUserPoolAdminCreateUserConfigInviteMessageTemplateOutputRefe
   }
 
   // email_message - computed: false, optional: true, required: false
-  private _emailMessage?: string;
+  private _emailMessage?: string; 
   public get emailMessage() {
     return this.getStringAttribute('email_message');
   }
@@ -517,7 +517,7 @@ export class CognitoUserPoolAdminCreateUserConfigInviteMessageTemplateOutputRefe
   }
 
   // email_subject - computed: false, optional: true, required: false
-  private _emailSubject?: string;
+  private _emailSubject?: string; 
   public get emailSubject() {
     return this.getStringAttribute('email_subject');
   }
@@ -533,7 +533,7 @@ export class CognitoUserPoolAdminCreateUserConfigInviteMessageTemplateOutputRefe
   }
 
   // sms_message - computed: false, optional: true, required: false
-  private _smsMessage?: string;
+  private _smsMessage?: string; 
   public get smsMessage() {
     return this.getStringAttribute('sms_message');
   }
@@ -636,7 +636,7 @@ export class CognitoUserPoolAdminCreateUserConfigOutputReference extends cdktn.C
   }
 
   // allow_admin_create_user_only - computed: false, optional: true, required: false
-  private _allowAdminCreateUserOnly?: boolean | cdktn.IResolvable;
+  private _allowAdminCreateUserOnly?: boolean | cdktn.IResolvable; 
   public get allowAdminCreateUserOnly() {
     return this.getBooleanAttribute('allow_admin_create_user_only');
   }
@@ -753,7 +753,7 @@ export class CognitoUserPoolDeviceConfigurationOutputReference extends cdktn.Com
   }
 
   // challenge_required_on_new_device - computed: false, optional: true, required: false
-  private _challengeRequiredOnNewDevice?: boolean | cdktn.IResolvable;
+  private _challengeRequiredOnNewDevice?: boolean | cdktn.IResolvable; 
   public get challengeRequiredOnNewDevice() {
     return this.getBooleanAttribute('challenge_required_on_new_device');
   }
@@ -769,7 +769,7 @@ export class CognitoUserPoolDeviceConfigurationOutputReference extends cdktn.Com
   }
 
   // device_only_remembered_on_user_prompt - computed: false, optional: true, required: false
-  private _deviceOnlyRememberedOnUserPrompt?: boolean | cdktn.IResolvable;
+  private _deviceOnlyRememberedOnUserPrompt?: boolean | cdktn.IResolvable; 
   public get deviceOnlyRememberedOnUserPrompt() {
     return this.getBooleanAttribute('device_only_remembered_on_user_prompt');
   }
@@ -921,7 +921,7 @@ export class CognitoUserPoolEmailConfigurationOutputReference extends cdktn.Comp
   }
 
   // configuration_set - computed: false, optional: true, required: false
-  private _configurationSet?: string;
+  private _configurationSet?: string; 
   public get configurationSet() {
     return this.getStringAttribute('configuration_set');
   }
@@ -937,7 +937,7 @@ export class CognitoUserPoolEmailConfigurationOutputReference extends cdktn.Comp
   }
 
   // email_sending_account - computed: false, optional: true, required: false
-  private _emailSendingAccount?: string;
+  private _emailSendingAccount?: string; 
   public get emailSendingAccount() {
     return this.getStringAttribute('email_sending_account');
   }
@@ -953,7 +953,7 @@ export class CognitoUserPoolEmailConfigurationOutputReference extends cdktn.Comp
   }
 
   // from_email_address - computed: false, optional: true, required: false
-  private _fromEmailAddress?: string;
+  private _fromEmailAddress?: string; 
   public get fromEmailAddress() {
     return this.getStringAttribute('from_email_address');
   }
@@ -969,7 +969,7 @@ export class CognitoUserPoolEmailConfigurationOutputReference extends cdktn.Comp
   }
 
   // reply_to_email_address - computed: false, optional: true, required: false
-  private _replyToEmailAddress?: string;
+  private _replyToEmailAddress?: string; 
   public get replyToEmailAddress() {
     return this.getStringAttribute('reply_to_email_address');
   }
@@ -985,7 +985,7 @@ export class CognitoUserPoolEmailConfigurationOutputReference extends cdktn.Comp
   }
 
   // source_arn - computed: false, optional: true, required: false
-  private _sourceArn?: string;
+  private _sourceArn?: string; 
   public get sourceArn() {
     return this.getStringAttribute('source_arn');
   }
@@ -1086,7 +1086,7 @@ export class CognitoUserPoolEmailMfaConfigurationOutputReference extends cdktn.C
   }
 
   // message - computed: false, optional: true, required: false
-  private _message?: string;
+  private _message?: string; 
   public get message() {
     return this.getStringAttribute('message');
   }
@@ -1102,7 +1102,7 @@ export class CognitoUserPoolEmailMfaConfigurationOutputReference extends cdktn.C
   }
 
   // subject - computed: false, optional: true, required: false
-  private _subject?: string;
+  private _subject?: string; 
   public get subject() {
     return this.getStringAttribute('subject');
   }
@@ -1203,7 +1203,7 @@ export class CognitoUserPoolLambdaConfigCustomEmailSenderOutputReference extends
   }
 
   // lambda_arn - computed: false, optional: false, required: true
-  private _lambdaArn?: string;
+  private _lambdaArn?: string; 
   public get lambdaArn() {
     return this.getStringAttribute('lambda_arn');
   }
@@ -1216,7 +1216,7 @@ export class CognitoUserPoolLambdaConfigCustomEmailSenderOutputReference extends
   }
 
   // lambda_version - computed: false, optional: false, required: true
-  private _lambdaVersion?: string;
+  private _lambdaVersion?: string; 
   public get lambdaVersion() {
     return this.getStringAttribute('lambda_version');
   }
@@ -1314,7 +1314,7 @@ export class CognitoUserPoolLambdaConfigCustomSmsSenderOutputReference extends c
   }
 
   // lambda_arn - computed: false, optional: false, required: true
-  private _lambdaArn?: string;
+  private _lambdaArn?: string; 
   public get lambdaArn() {
     return this.getStringAttribute('lambda_arn');
   }
@@ -1327,7 +1327,7 @@ export class CognitoUserPoolLambdaConfigCustomSmsSenderOutputReference extends c
   }
 
   // lambda_version - computed: false, optional: false, required: true
-  private _lambdaVersion?: string;
+  private _lambdaVersion?: string; 
   public get lambdaVersion() {
     return this.getStringAttribute('lambda_version');
   }
@@ -1425,7 +1425,7 @@ export class CognitoUserPoolLambdaConfigPreTokenGenerationConfigOutputReference 
   }
 
   // lambda_arn - computed: false, optional: false, required: true
-  private _lambdaArn?: string;
+  private _lambdaArn?: string; 
   public get lambdaArn() {
     return this.getStringAttribute('lambda_arn');
   }
@@ -1438,7 +1438,7 @@ export class CognitoUserPoolLambdaConfigPreTokenGenerationConfigOutputReference 
   }
 
   // lambda_version - computed: false, optional: false, required: true
-  private _lambdaVersion?: string;
+  private _lambdaVersion?: string; 
   public get lambdaVersion() {
     return this.getStringAttribute('lambda_version');
   }
@@ -1746,7 +1746,7 @@ export class CognitoUserPoolLambdaConfigOutputReference extends cdktn.ComplexObj
   }
 
   // create_auth_challenge - computed: false, optional: true, required: false
-  private _createAuthChallenge?: string;
+  private _createAuthChallenge?: string; 
   public get createAuthChallenge() {
     return this.getStringAttribute('create_auth_challenge');
   }
@@ -1762,7 +1762,7 @@ export class CognitoUserPoolLambdaConfigOutputReference extends cdktn.ComplexObj
   }
 
   // custom_message - computed: false, optional: true, required: false
-  private _customMessage?: string;
+  private _customMessage?: string; 
   public get customMessage() {
     return this.getStringAttribute('custom_message');
   }
@@ -1778,7 +1778,7 @@ export class CognitoUserPoolLambdaConfigOutputReference extends cdktn.ComplexObj
   }
 
   // define_auth_challenge - computed: false, optional: true, required: false
-  private _defineAuthChallenge?: string;
+  private _defineAuthChallenge?: string; 
   public get defineAuthChallenge() {
     return this.getStringAttribute('define_auth_challenge');
   }
@@ -1794,7 +1794,7 @@ export class CognitoUserPoolLambdaConfigOutputReference extends cdktn.ComplexObj
   }
 
   // kms_key_id - computed: false, optional: true, required: false
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -1810,7 +1810,7 @@ export class CognitoUserPoolLambdaConfigOutputReference extends cdktn.ComplexObj
   }
 
   // post_authentication - computed: false, optional: true, required: false
-  private _postAuthentication?: string;
+  private _postAuthentication?: string; 
   public get postAuthentication() {
     return this.getStringAttribute('post_authentication');
   }
@@ -1826,7 +1826,7 @@ export class CognitoUserPoolLambdaConfigOutputReference extends cdktn.ComplexObj
   }
 
   // post_confirmation - computed: false, optional: true, required: false
-  private _postConfirmation?: string;
+  private _postConfirmation?: string; 
   public get postConfirmation() {
     return this.getStringAttribute('post_confirmation');
   }
@@ -1842,7 +1842,7 @@ export class CognitoUserPoolLambdaConfigOutputReference extends cdktn.ComplexObj
   }
 
   // pre_authentication - computed: false, optional: true, required: false
-  private _preAuthentication?: string;
+  private _preAuthentication?: string; 
   public get preAuthentication() {
     return this.getStringAttribute('pre_authentication');
   }
@@ -1858,7 +1858,7 @@ export class CognitoUserPoolLambdaConfigOutputReference extends cdktn.ComplexObj
   }
 
   // pre_sign_up - computed: false, optional: true, required: false
-  private _preSignUp?: string;
+  private _preSignUp?: string; 
   public get preSignUp() {
     return this.getStringAttribute('pre_sign_up');
   }
@@ -1874,7 +1874,7 @@ export class CognitoUserPoolLambdaConfigOutputReference extends cdktn.ComplexObj
   }
 
   // pre_token_generation - computed: true, optional: true, required: false
-  private _preTokenGeneration?: string;
+  private _preTokenGeneration?: string; 
   public get preTokenGeneration() {
     return this.getStringAttribute('pre_token_generation');
   }
@@ -1890,7 +1890,7 @@ export class CognitoUserPoolLambdaConfigOutputReference extends cdktn.ComplexObj
   }
 
   // user_migration - computed: false, optional: true, required: false
-  private _userMigration?: string;
+  private _userMigration?: string; 
   public get userMigration() {
     return this.getStringAttribute('user_migration');
   }
@@ -1906,7 +1906,7 @@ export class CognitoUserPoolLambdaConfigOutputReference extends cdktn.ComplexObj
   }
 
   // verify_auth_challenge_response - computed: false, optional: true, required: false
-  private _verifyAuthChallengeResponse?: string;
+  private _verifyAuthChallengeResponse?: string; 
   public get verifyAuthChallengeResponse() {
     return this.getStringAttribute('verify_auth_challenge_response');
   }
@@ -2140,7 +2140,7 @@ export class CognitoUserPoolPasswordPolicyOutputReference extends cdktn.ComplexO
   }
 
   // minimum_length - computed: false, optional: true, required: false
-  private _minimumLength?: number;
+  private _minimumLength?: number; 
   public get minimumLength() {
     return this.getNumberAttribute('minimum_length');
   }
@@ -2156,7 +2156,7 @@ export class CognitoUserPoolPasswordPolicyOutputReference extends cdktn.ComplexO
   }
 
   // password_history_size - computed: false, optional: true, required: false
-  private _passwordHistorySize?: number;
+  private _passwordHistorySize?: number; 
   public get passwordHistorySize() {
     return this.getNumberAttribute('password_history_size');
   }
@@ -2172,7 +2172,7 @@ export class CognitoUserPoolPasswordPolicyOutputReference extends cdktn.ComplexO
   }
 
   // require_lowercase - computed: false, optional: true, required: false
-  private _requireLowercase?: boolean | cdktn.IResolvable;
+  private _requireLowercase?: boolean | cdktn.IResolvable; 
   public get requireLowercase() {
     return this.getBooleanAttribute('require_lowercase');
   }
@@ -2188,7 +2188,7 @@ export class CognitoUserPoolPasswordPolicyOutputReference extends cdktn.ComplexO
   }
 
   // require_numbers - computed: false, optional: true, required: false
-  private _requireNumbers?: boolean | cdktn.IResolvable;
+  private _requireNumbers?: boolean | cdktn.IResolvable; 
   public get requireNumbers() {
     return this.getBooleanAttribute('require_numbers');
   }
@@ -2204,7 +2204,7 @@ export class CognitoUserPoolPasswordPolicyOutputReference extends cdktn.ComplexO
   }
 
   // require_symbols - computed: false, optional: true, required: false
-  private _requireSymbols?: boolean | cdktn.IResolvable;
+  private _requireSymbols?: boolean | cdktn.IResolvable; 
   public get requireSymbols() {
     return this.getBooleanAttribute('require_symbols');
   }
@@ -2220,7 +2220,7 @@ export class CognitoUserPoolPasswordPolicyOutputReference extends cdktn.ComplexO
   }
 
   // require_uppercase - computed: false, optional: true, required: false
-  private _requireUppercase?: boolean | cdktn.IResolvable;
+  private _requireUppercase?: boolean | cdktn.IResolvable; 
   public get requireUppercase() {
     return this.getBooleanAttribute('require_uppercase');
   }
@@ -2236,7 +2236,7 @@ export class CognitoUserPoolPasswordPolicyOutputReference extends cdktn.ComplexO
   }
 
   // temporary_password_validity_days - computed: true, optional: true, required: false
-  private _temporaryPasswordValidityDays?: number;
+  private _temporaryPasswordValidityDays?: number; 
   public get temporaryPasswordValidityDays() {
     return this.getNumberAttribute('temporary_password_validity_days');
   }
@@ -2337,7 +2337,7 @@ export class CognitoUserPoolSchemaNumberAttributeConstraintsOutputReference exte
   }
 
   // max_value - computed: false, optional: true, required: false
-  private _maxValue?: string;
+  private _maxValue?: string; 
   public get maxValue() {
     return this.getStringAttribute('max_value');
   }
@@ -2353,7 +2353,7 @@ export class CognitoUserPoolSchemaNumberAttributeConstraintsOutputReference exte
   }
 
   // min_value - computed: false, optional: true, required: false
-  private _minValue?: string;
+  private _minValue?: string; 
   public get minValue() {
     return this.getStringAttribute('min_value');
   }
@@ -2454,7 +2454,7 @@ export class CognitoUserPoolSchemaStringAttributeConstraintsOutputReference exte
   }
 
   // max_length - computed: false, optional: true, required: false
-  private _maxLength?: string;
+  private _maxLength?: string; 
   public get maxLength() {
     return this.getStringAttribute('max_length');
   }
@@ -2470,7 +2470,7 @@ export class CognitoUserPoolSchemaStringAttributeConstraintsOutputReference exte
   }
 
   // min_length - computed: false, optional: true, required: false
-  private _minLength?: string;
+  private _minLength?: string; 
   public get minLength() {
     return this.getStringAttribute('min_length');
   }
@@ -2672,7 +2672,7 @@ export class CognitoUserPoolSchemaOutputReference extends cdktn.ComplexObject {
   }
 
   // attribute_data_type - computed: false, optional: false, required: true
-  private _attributeDataType?: string;
+  private _attributeDataType?: string; 
   public get attributeDataType() {
     return this.getStringAttribute('attribute_data_type');
   }
@@ -2685,7 +2685,7 @@ export class CognitoUserPoolSchemaOutputReference extends cdktn.ComplexObject {
   }
 
   // developer_only_attribute - computed: false, optional: true, required: false
-  private _developerOnlyAttribute?: boolean | cdktn.IResolvable;
+  private _developerOnlyAttribute?: boolean | cdktn.IResolvable; 
   public get developerOnlyAttribute() {
     return this.getBooleanAttribute('developer_only_attribute');
   }
@@ -2701,7 +2701,7 @@ export class CognitoUserPoolSchemaOutputReference extends cdktn.ComplexObject {
   }
 
   // mutable - computed: false, optional: true, required: false
-  private _mutable?: boolean | cdktn.IResolvable;
+  private _mutable?: boolean | cdktn.IResolvable; 
   public get mutable() {
     return this.getBooleanAttribute('mutable');
   }
@@ -2717,7 +2717,7 @@ export class CognitoUserPoolSchemaOutputReference extends cdktn.ComplexObject {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2730,7 +2730,7 @@ export class CognitoUserPoolSchemaOutputReference extends cdktn.ComplexObject {
   }
 
   // required - computed: false, optional: true, required: false
-  private _required?: boolean | cdktn.IResolvable;
+  private _required?: boolean | cdktn.IResolvable; 
   public get required() {
     return this.getBooleanAttribute('required');
   }
@@ -2866,7 +2866,7 @@ export class CognitoUserPoolSignInPolicyOutputReference extends cdktn.ComplexObj
   }
 
   // allowed_first_auth_factors - computed: false, optional: true, required: false
-  private _allowedFirstAuthFactors?: string[];
+  private _allowedFirstAuthFactors?: string[]; 
   public get allowedFirstAuthFactors() {
     return cdktn.Fn.tolist(this.getListAttribute('allowed_first_auth_factors'));
   }
@@ -2984,7 +2984,7 @@ export class CognitoUserPoolSmsConfigurationOutputReference extends cdktn.Comple
   }
 
   // external_id - computed: false, optional: false, required: true
-  private _externalId?: string;
+  private _externalId?: string; 
   public get externalId() {
     return this.getStringAttribute('external_id');
   }
@@ -2997,7 +2997,7 @@ export class CognitoUserPoolSmsConfigurationOutputReference extends cdktn.Comple
   }
 
   // sns_caller_arn - computed: false, optional: false, required: true
-  private _snsCallerArn?: string;
+  private _snsCallerArn?: string; 
   public get snsCallerArn() {
     return this.getStringAttribute('sns_caller_arn');
   }
@@ -3010,7 +3010,7 @@ export class CognitoUserPoolSmsConfigurationOutputReference extends cdktn.Comple
   }
 
   // sns_region - computed: true, optional: true, required: false
-  private _snsRegion?: string;
+  private _snsRegion?: string; 
   public get snsRegion() {
     return this.getStringAttribute('sns_region');
   }
@@ -3094,7 +3094,7 @@ export class CognitoUserPoolSoftwareTokenMfaConfigurationOutputReference extends
   }
 
   // enabled - computed: false, optional: false, required: true
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -3175,7 +3175,7 @@ export class CognitoUserPoolUserAttributeUpdateSettingsOutputReference extends c
   }
 
   // attributes_require_verification_before_update - computed: false, optional: false, required: true
-  private _attributesRequireVerificationBeforeUpdate?: string[];
+  private _attributesRequireVerificationBeforeUpdate?: string[]; 
   public get attributesRequireVerificationBeforeUpdate() {
     return cdktn.Fn.tolist(this.getListAttribute('attributes_require_verification_before_update'));
   }
@@ -3256,7 +3256,7 @@ export class CognitoUserPoolUserPoolAddOnsAdvancedSecurityAdditionalFlowsOutputR
   }
 
   // custom_auth_mode - computed: true, optional: true, required: false
-  private _customAuthMode?: string;
+  private _customAuthMode?: string; 
   public get customAuthMode() {
     return this.getStringAttribute('custom_auth_mode');
   }
@@ -3359,7 +3359,7 @@ export class CognitoUserPoolUserPoolAddOnsOutputReference extends cdktn.ComplexO
   }
 
   // advanced_security_mode - computed: false, optional: false, required: true
-  private _advancedSecurityMode?: string;
+  private _advancedSecurityMode?: string; 
   public get advancedSecurityMode() {
     return this.getStringAttribute('advanced_security_mode');
   }
@@ -3456,7 +3456,7 @@ export class CognitoUserPoolUsernameConfigurationOutputReference extends cdktn.C
   }
 
   // case_sensitive - computed: true, optional: true, required: false
-  private _caseSensitive?: boolean | cdktn.IResolvable;
+  private _caseSensitive?: boolean | cdktn.IResolvable; 
   public get caseSensitive() {
     return this.getBooleanAttribute('case_sensitive');
   }
@@ -3625,7 +3625,7 @@ export class CognitoUserPoolVerificationMessageTemplateOutputReference extends c
   }
 
   // default_email_option - computed: false, optional: true, required: false
-  private _defaultEmailOption?: string;
+  private _defaultEmailOption?: string; 
   public get defaultEmailOption() {
     return this.getStringAttribute('default_email_option');
   }
@@ -3641,7 +3641,7 @@ export class CognitoUserPoolVerificationMessageTemplateOutputReference extends c
   }
 
   // email_message - computed: true, optional: true, required: false
-  private _emailMessage?: string;
+  private _emailMessage?: string; 
   public get emailMessage() {
     return this.getStringAttribute('email_message');
   }
@@ -3657,7 +3657,7 @@ export class CognitoUserPoolVerificationMessageTemplateOutputReference extends c
   }
 
   // email_message_by_link - computed: true, optional: true, required: false
-  private _emailMessageByLink?: string;
+  private _emailMessageByLink?: string; 
   public get emailMessageByLink() {
     return this.getStringAttribute('email_message_by_link');
   }
@@ -3673,7 +3673,7 @@ export class CognitoUserPoolVerificationMessageTemplateOutputReference extends c
   }
 
   // email_subject - computed: true, optional: true, required: false
-  private _emailSubject?: string;
+  private _emailSubject?: string; 
   public get emailSubject() {
     return this.getStringAttribute('email_subject');
   }
@@ -3689,7 +3689,7 @@ export class CognitoUserPoolVerificationMessageTemplateOutputReference extends c
   }
 
   // email_subject_by_link - computed: true, optional: true, required: false
-  private _emailSubjectByLink?: string;
+  private _emailSubjectByLink?: string; 
   public get emailSubjectByLink() {
     return this.getStringAttribute('email_subject_by_link');
   }
@@ -3705,7 +3705,7 @@ export class CognitoUserPoolVerificationMessageTemplateOutputReference extends c
   }
 
   // sms_message - computed: true, optional: true, required: false
-  private _smsMessage?: string;
+  private _smsMessage?: string; 
   public get smsMessage() {
     return this.getStringAttribute('sms_message');
   }
@@ -3806,7 +3806,7 @@ export class CognitoUserPoolWebAuthnConfigurationOutputReference extends cdktn.C
   }
 
   // relying_party_id - computed: false, optional: true, required: false
-  private _relyingPartyId?: string;
+  private _relyingPartyId?: string; 
   public get relyingPartyId() {
     return this.getStringAttribute('relying_party_id');
   }
@@ -3822,7 +3822,7 @@ export class CognitoUserPoolWebAuthnConfigurationOutputReference extends cdktn.C
   }
 
   // user_verification - computed: false, optional: true, required: false
-  private _userVerification?: string;
+  private _userVerification?: string; 
   public get userVerification() {
     return this.getStringAttribute('user_verification');
   }
@@ -3926,7 +3926,7 @@ export class CognitoUserPool extends cdktn.TerraformResource {
   // ==========
 
   // alias_attributes - computed: false, optional: true, required: false
-  private _aliasAttributes?: string[];
+  private _aliasAttributes?: string[]; 
   public get aliasAttributes() {
     return cdktn.Fn.tolist(this.getListAttribute('alias_attributes'));
   }
@@ -3947,7 +3947,7 @@ export class CognitoUserPool extends cdktn.TerraformResource {
   }
 
   // auto_verified_attributes - computed: false, optional: true, required: false
-  private _autoVerifiedAttributes?: string[];
+  private _autoVerifiedAttributes?: string[]; 
   public get autoVerifiedAttributes() {
     return cdktn.Fn.tolist(this.getListAttribute('auto_verified_attributes'));
   }
@@ -3973,7 +3973,7 @@ export class CognitoUserPool extends cdktn.TerraformResource {
   }
 
   // deletion_protection - computed: false, optional: true, required: false
-  private _deletionProtection?: string;
+  private _deletionProtection?: string; 
   public get deletionProtection() {
     return this.getStringAttribute('deletion_protection');
   }
@@ -3994,7 +3994,7 @@ export class CognitoUserPool extends cdktn.TerraformResource {
   }
 
   // email_verification_message - computed: true, optional: true, required: false
-  private _emailVerificationMessage?: string;
+  private _emailVerificationMessage?: string; 
   public get emailVerificationMessage() {
     return this.getStringAttribute('email_verification_message');
   }
@@ -4010,7 +4010,7 @@ export class CognitoUserPool extends cdktn.TerraformResource {
   }
 
   // email_verification_subject - computed: true, optional: true, required: false
-  private _emailVerificationSubject?: string;
+  private _emailVerificationSubject?: string; 
   public get emailVerificationSubject() {
     return this.getStringAttribute('email_verification_subject');
   }
@@ -4036,7 +4036,7 @@ export class CognitoUserPool extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -4057,7 +4057,7 @@ export class CognitoUserPool extends cdktn.TerraformResource {
   }
 
   // mfa_configuration - computed: false, optional: true, required: false
-  private _mfaConfiguration?: string;
+  private _mfaConfiguration?: string; 
   public get mfaConfiguration() {
     return this.getStringAttribute('mfa_configuration');
   }
@@ -4073,7 +4073,7 @@ export class CognitoUserPool extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -4086,7 +4086,7 @@ export class CognitoUserPool extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -4102,7 +4102,7 @@ export class CognitoUserPool extends cdktn.TerraformResource {
   }
 
   // sms_authentication_message - computed: false, optional: true, required: false
-  private _smsAuthenticationMessage?: string;
+  private _smsAuthenticationMessage?: string; 
   public get smsAuthenticationMessage() {
     return this.getStringAttribute('sms_authentication_message');
   }
@@ -4118,7 +4118,7 @@ export class CognitoUserPool extends cdktn.TerraformResource {
   }
 
   // sms_verification_message - computed: true, optional: true, required: false
-  private _smsVerificationMessage?: string;
+  private _smsVerificationMessage?: string; 
   public get smsVerificationMessage() {
     return this.getStringAttribute('sms_verification_message');
   }
@@ -4134,7 +4134,7 @@ export class CognitoUserPool extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -4150,7 +4150,7 @@ export class CognitoUserPool extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -4166,7 +4166,7 @@ export class CognitoUserPool extends cdktn.TerraformResource {
   }
 
   // user_pool_tier - computed: true, optional: true, required: false
-  private _userPoolTier?: string;
+  private _userPoolTier?: string; 
   public get userPoolTier() {
     return this.getStringAttribute('user_pool_tier');
   }
@@ -4182,7 +4182,7 @@ export class CognitoUserPool extends cdktn.TerraformResource {
   }
 
   // username_attributes - computed: false, optional: true, required: false
-  private _usernameAttributes?: string[];
+  private _usernameAttributes?: string[]; 
   public get usernameAttributes() {
     return cdktn.Fn.tolist(this.getListAttribute('username_attributes'));
   }

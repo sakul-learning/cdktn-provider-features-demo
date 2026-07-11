@@ -94,7 +94,7 @@ export class ApigatewayBasePathMappingV2 extends cdktn.TerraformResource {
   // ==========
 
   // base_path - computed: true, optional: true, required: false
-  private _basePath?: string;
+  private _basePath?: string; 
   public get basePath() {
     return this.getStringAttribute('base_path');
   }
@@ -115,7 +115,7 @@ export class ApigatewayBasePathMappingV2 extends cdktn.TerraformResource {
   }
 
   // domain_name_arn - computed: false, optional: false, required: true
-  private _domainNameArn?: string;
+  private _domainNameArn?: string; 
   public get domainNameArn() {
     return this.getStringAttribute('domain_name_arn');
   }
@@ -133,7 +133,7 @@ export class ApigatewayBasePathMappingV2 extends cdktn.TerraformResource {
   }
 
   // rest_api_id - computed: false, optional: false, required: true
-  private _restApiId?: string;
+  private _restApiId?: string; 
   public get restApiId() {
     return this.getStringAttribute('rest_api_id');
   }
@@ -146,7 +146,7 @@ export class ApigatewayBasePathMappingV2 extends cdktn.TerraformResource {
   }
 
   // stage - computed: true, optional: true, required: false
-  private _stage?: string;
+  private _stage?: string; 
   public get stage() {
     return this.getStringAttribute('stage');
   }

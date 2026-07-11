@@ -126,7 +126,7 @@ export class CloudwatchInsightRuleTagsOutputReference extends cdktn.ComplexObjec
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -142,7 +142,7 @@ export class CloudwatchInsightRuleTagsOutputReference extends cdktn.ComplexObjec
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -240,7 +240,7 @@ export class CloudwatchInsightRule extends cdktn.TerraformResource {
   // ==========
 
   // apply_on_transformed_logs - computed: true, optional: true, required: false
-  private _applyOnTransformedLogs?: boolean | cdktn.IResolvable;
+  private _applyOnTransformedLogs?: boolean | cdktn.IResolvable; 
   public get applyOnTransformedLogs() {
     return this.getBooleanAttribute('apply_on_transformed_logs');
   }
@@ -266,7 +266,7 @@ export class CloudwatchInsightRule extends cdktn.TerraformResource {
   }
 
   // rule_body - computed: false, optional: false, required: true
-  private _ruleBody?: string;
+  private _ruleBody?: string; 
   public get ruleBody() {
     return this.getStringAttribute('rule_body');
   }
@@ -279,7 +279,7 @@ export class CloudwatchInsightRule extends cdktn.TerraformResource {
   }
 
   // rule_name - computed: false, optional: false, required: true
-  private _ruleName?: string;
+  private _ruleName?: string; 
   public get ruleName() {
     return this.getStringAttribute('rule_name');
   }
@@ -292,7 +292,7 @@ export class CloudwatchInsightRule extends cdktn.TerraformResource {
   }
 
   // rule_state - computed: false, optional: false, required: true
-  private _ruleState?: string;
+  private _ruleState?: string; 
   public get ruleState() {
     return this.getStringAttribute('rule_state');
   }

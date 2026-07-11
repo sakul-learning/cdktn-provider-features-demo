@@ -140,7 +140,7 @@ export class BedrockagentAgentKnowledgeBaseAssociationTimeoutsOutputReference ex
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -156,7 +156,7 @@ export class BedrockagentAgentKnowledgeBaseAssociationTimeoutsOutputReference ex
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -236,7 +236,7 @@ export class BedrockagentAgentKnowledgeBaseAssociation extends cdktn.TerraformRe
   // ==========
 
   // agent_id - computed: false, optional: false, required: true
-  private _agentId?: string;
+  private _agentId?: string; 
   public get agentId() {
     return this.getStringAttribute('agent_id');
   }
@@ -249,7 +249,7 @@ export class BedrockagentAgentKnowledgeBaseAssociation extends cdktn.TerraformRe
   }
 
   // agent_version - computed: true, optional: true, required: false
-  private _agentVersion?: string;
+  private _agentVersion?: string; 
   public get agentVersion() {
     return this.getStringAttribute('agent_version');
   }
@@ -265,7 +265,7 @@ export class BedrockagentAgentKnowledgeBaseAssociation extends cdktn.TerraformRe
   }
 
   // description - computed: false, optional: false, required: true
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -283,7 +283,7 @@ export class BedrockagentAgentKnowledgeBaseAssociation extends cdktn.TerraformRe
   }
 
   // knowledge_base_id - computed: false, optional: false, required: true
-  private _knowledgeBaseId?: string;
+  private _knowledgeBaseId?: string; 
   public get knowledgeBaseId() {
     return this.getStringAttribute('knowledge_base_id');
   }
@@ -296,7 +296,7 @@ export class BedrockagentAgentKnowledgeBaseAssociation extends cdktn.TerraformRe
   }
 
   // knowledge_base_state - computed: false, optional: false, required: true
-  private _knowledgeBaseState?: string;
+  private _knowledgeBaseState?: string; 
   public get knowledgeBaseState() {
     return this.getStringAttribute('knowledge_base_state');
   }
@@ -309,7 +309,7 @@ export class BedrockagentAgentKnowledgeBaseAssociation extends cdktn.TerraformRe
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

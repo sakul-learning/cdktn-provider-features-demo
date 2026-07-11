@@ -158,7 +158,7 @@ export class Pinpointsmsvoicev2EventDestinationCloudwatchLogsDestinationOutputRe
   }
 
   // iam_role_arn - computed: false, optional: false, required: true
-  private _iamRoleArn?: string;
+  private _iamRoleArn?: string; 
   public get iamRoleArn() {
     return this.getStringAttribute('iam_role_arn');
   }
@@ -171,7 +171,7 @@ export class Pinpointsmsvoicev2EventDestinationCloudwatchLogsDestinationOutputRe
   }
 
   // log_group_arn - computed: false, optional: false, required: true
-  private _logGroupArn?: string;
+  private _logGroupArn?: string; 
   public get logGroupArn() {
     return this.getStringAttribute('log_group_arn');
   }
@@ -305,7 +305,7 @@ export class Pinpointsmsvoicev2EventDestinationKinesisFirehoseDestinationOutputR
   }
 
   // delivery_stream_arn - computed: false, optional: false, required: true
-  private _deliveryStreamArn?: string;
+  private _deliveryStreamArn?: string; 
   public get deliveryStreamArn() {
     return this.getStringAttribute('delivery_stream_arn');
   }
@@ -318,7 +318,7 @@ export class Pinpointsmsvoicev2EventDestinationKinesisFirehoseDestinationOutputR
   }
 
   // iam_role_arn - computed: false, optional: false, required: true
-  private _iamRoleArn?: string;
+  private _iamRoleArn?: string; 
   public get iamRoleArn() {
     return this.getStringAttribute('iam_role_arn');
   }
@@ -433,7 +433,7 @@ export class Pinpointsmsvoicev2EventDestinationSnsDestinationOutputReference ext
   }
 
   // topic_arn - computed: false, optional: false, required: true
-  private _topicArn?: string;
+  private _topicArn?: string; 
   public get topicArn() {
     return this.getStringAttribute('topic_arn');
   }
@@ -536,7 +536,7 @@ export class Pinpointsmsvoicev2EventDestination extends cdktn.TerraformResource 
   }
 
   // configuration_set_name - computed: false, optional: false, required: true
-  private _configurationSetName?: string;
+  private _configurationSetName?: string; 
   public get configurationSetName() {
     return this.getStringAttribute('configuration_set_name');
   }
@@ -549,7 +549,7 @@ export class Pinpointsmsvoicev2EventDestination extends cdktn.TerraformResource 
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -565,7 +565,7 @@ export class Pinpointsmsvoicev2EventDestination extends cdktn.TerraformResource 
   }
 
   // event_destination_name - computed: false, optional: false, required: true
-  private _eventDestinationName?: string;
+  private _eventDestinationName?: string; 
   public get eventDestinationName() {
     return this.getStringAttribute('event_destination_name');
   }
@@ -578,7 +578,7 @@ export class Pinpointsmsvoicev2EventDestination extends cdktn.TerraformResource 
   }
 
   // matching_event_types - computed: false, optional: false, required: true
-  private _matchingEventTypes?: string[];
+  private _matchingEventTypes?: string[]; 
   public get matchingEventTypes() {
     return cdktn.Fn.tolist(this.getListAttribute('matching_event_types'));
   }
@@ -591,7 +591,7 @@ export class Pinpointsmsvoicev2EventDestination extends cdktn.TerraformResource 
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

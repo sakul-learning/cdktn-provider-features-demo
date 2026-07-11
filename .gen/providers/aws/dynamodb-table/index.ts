@@ -259,7 +259,7 @@ export class DynamodbTableAttributeOutputReference extends cdktn.ComplexObject {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -272,7 +272,7 @@ export class DynamodbTableAttributeOutputReference extends cdktn.ComplexObject {
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -402,7 +402,7 @@ export class DynamodbTableGlobalSecondaryIndexKeySchemaOutputReference extends c
   }
 
   // attribute_name - computed: false, optional: false, required: true
-  private _attributeName?: string;
+  private _attributeName?: string; 
   public get attributeName() {
     return this.getStringAttribute('attribute_name');
   }
@@ -415,7 +415,7 @@ export class DynamodbTableGlobalSecondaryIndexKeySchemaOutputReference extends c
   }
 
   // key_type - computed: false, optional: false, required: true
-  private _keyType?: string;
+  private _keyType?: string; 
   public get keyType() {
     return this.getStringAttribute('key_type');
   }
@@ -533,7 +533,7 @@ export class DynamodbTableGlobalSecondaryIndexOnDemandThroughputOutputReference 
   }
 
   // max_read_request_units - computed: true, optional: true, required: false
-  private _maxReadRequestUnits?: number;
+  private _maxReadRequestUnits?: number; 
   public get maxReadRequestUnits() {
     return this.getNumberAttribute('max_read_request_units');
   }
@@ -549,7 +549,7 @@ export class DynamodbTableGlobalSecondaryIndexOnDemandThroughputOutputReference 
   }
 
   // max_write_request_units - computed: true, optional: true, required: false
-  private _maxWriteRequestUnits?: number;
+  private _maxWriteRequestUnits?: number; 
   public get maxWriteRequestUnits() {
     return this.getNumberAttribute('max_write_request_units');
   }
@@ -650,7 +650,7 @@ export class DynamodbTableGlobalSecondaryIndexWarmThroughputOutputReference exte
   }
 
   // read_units_per_second - computed: true, optional: true, required: false
-  private _readUnitsPerSecond?: number;
+  private _readUnitsPerSecond?: number; 
   public get readUnitsPerSecond() {
     return this.getNumberAttribute('read_units_per_second');
   }
@@ -666,7 +666,7 @@ export class DynamodbTableGlobalSecondaryIndexWarmThroughputOutputReference exte
   }
 
   // write_units_per_second - computed: true, optional: true, required: false
-  private _writeUnitsPerSecond?: number;
+  private _writeUnitsPerSecond?: number; 
   public get writeUnitsPerSecond() {
     return this.getNumberAttribute('write_units_per_second');
   }
@@ -921,7 +921,7 @@ export class DynamodbTableGlobalSecondaryIndexOutputReference extends cdktn.Comp
   }
 
   // hash_key - computed: true, optional: true, required: false
-  private _hashKey?: string;
+  private _hashKey?: string; 
   public get hashKey() {
     return this.getStringAttribute('hash_key');
   }
@@ -937,7 +937,7 @@ export class DynamodbTableGlobalSecondaryIndexOutputReference extends cdktn.Comp
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -950,7 +950,7 @@ export class DynamodbTableGlobalSecondaryIndexOutputReference extends cdktn.Comp
   }
 
   // non_key_attributes - computed: false, optional: true, required: false
-  private _nonKeyAttributes?: string[];
+  private _nonKeyAttributes?: string[]; 
   public get nonKeyAttributes() {
     return cdktn.Fn.tolist(this.getListAttribute('non_key_attributes'));
   }
@@ -966,7 +966,7 @@ export class DynamodbTableGlobalSecondaryIndexOutputReference extends cdktn.Comp
   }
 
   // projection_type - computed: false, optional: false, required: true
-  private _projectionType?: string;
+  private _projectionType?: string; 
   public get projectionType() {
     return this.getStringAttribute('projection_type');
   }
@@ -979,7 +979,7 @@ export class DynamodbTableGlobalSecondaryIndexOutputReference extends cdktn.Comp
   }
 
   // range_key - computed: false, optional: true, required: false
-  private _rangeKey?: string;
+  private _rangeKey?: string; 
   public get rangeKey() {
     return this.getStringAttribute('range_key');
   }
@@ -995,7 +995,7 @@ export class DynamodbTableGlobalSecondaryIndexOutputReference extends cdktn.Comp
   }
 
   // read_capacity - computed: true, optional: true, required: false
-  private _readCapacity?: number;
+  private _readCapacity?: number; 
   public get readCapacity() {
     return this.getNumberAttribute('read_capacity');
   }
@@ -1011,7 +1011,7 @@ export class DynamodbTableGlobalSecondaryIndexOutputReference extends cdktn.Comp
   }
 
   // write_capacity - computed: true, optional: true, required: false
-  private _writeCapacity?: number;
+  private _writeCapacity?: number; 
   public get writeCapacity() {
     return this.getNumberAttribute('write_capacity');
   }
@@ -1163,7 +1163,7 @@ export class DynamodbTableGlobalTableWitnessOutputReference extends cdktn.Comple
   }
 
   // region_name - computed: true, optional: true, required: false
-  private _regionName?: string;
+  private _regionName?: string; 
   public get regionName() {
     return this.getStringAttribute('region_name');
   }
@@ -1264,7 +1264,7 @@ export class DynamodbTableImportTableInputFormatOptionsCsvOutputReference extend
   }
 
   // delimiter - computed: false, optional: true, required: false
-  private _delimiter?: string;
+  private _delimiter?: string; 
   public get delimiter() {
     return this.getStringAttribute('delimiter');
   }
@@ -1280,7 +1280,7 @@ export class DynamodbTableImportTableInputFormatOptionsCsvOutputReference extend
   }
 
   // header_list - computed: false, optional: true, required: false
-  private _headerList?: string[];
+  private _headerList?: string[]; 
   public get headerList() {
     return cdktn.Fn.tolist(this.getListAttribute('header_list'));
   }
@@ -1484,7 +1484,7 @@ export class DynamodbTableImportTableS3BucketSourceOutputReference extends cdktn
   }
 
   // bucket - computed: false, optional: false, required: true
-  private _bucket?: string;
+  private _bucket?: string; 
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -1497,7 +1497,7 @@ export class DynamodbTableImportTableS3BucketSourceOutputReference extends cdktn
   }
 
   // bucket_owner - computed: false, optional: true, required: false
-  private _bucketOwner?: string;
+  private _bucketOwner?: string; 
   public get bucketOwner() {
     return this.getStringAttribute('bucket_owner');
   }
@@ -1513,7 +1513,7 @@ export class DynamodbTableImportTableS3BucketSourceOutputReference extends cdktn
   }
 
   // key_prefix - computed: false, optional: true, required: false
-  private _keyPrefix?: string;
+  private _keyPrefix?: string; 
   public get keyPrefix() {
     return this.getStringAttribute('key_prefix');
   }
@@ -1652,7 +1652,7 @@ export class DynamodbTableImportTableOutputReference extends cdktn.ComplexObject
   }
 
   // input_compression_type - computed: false, optional: true, required: false
-  private _inputCompressionType?: string;
+  private _inputCompressionType?: string; 
   public get inputCompressionType() {
     return this.getStringAttribute('input_compression_type');
   }
@@ -1668,7 +1668,7 @@ export class DynamodbTableImportTableOutputReference extends cdktn.ComplexObject
   }
 
   // input_format - computed: false, optional: false, required: true
-  private _inputFormat?: string;
+  private _inputFormat?: string; 
   public get inputFormat() {
     return this.getStringAttribute('input_format');
   }
@@ -1841,7 +1841,7 @@ export class DynamodbTableLocalSecondaryIndexOutputReference extends cdktn.Compl
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1854,7 +1854,7 @@ export class DynamodbTableLocalSecondaryIndexOutputReference extends cdktn.Compl
   }
 
   // non_key_attributes - computed: false, optional: true, required: false
-  private _nonKeyAttributes?: string[];
+  private _nonKeyAttributes?: string[]; 
   public get nonKeyAttributes() {
     return this.getListAttribute('non_key_attributes');
   }
@@ -1870,7 +1870,7 @@ export class DynamodbTableLocalSecondaryIndexOutputReference extends cdktn.Compl
   }
 
   // projection_type - computed: false, optional: false, required: true
-  private _projectionType?: string;
+  private _projectionType?: string; 
   public get projectionType() {
     return this.getStringAttribute('projection_type');
   }
@@ -1883,7 +1883,7 @@ export class DynamodbTableLocalSecondaryIndexOutputReference extends cdktn.Compl
   }
 
   // range_key - computed: false, optional: false, required: true
-  private _rangeKey?: string;
+  private _rangeKey?: string; 
   public get rangeKey() {
     return this.getStringAttribute('range_key');
   }
@@ -2001,7 +2001,7 @@ export class DynamodbTableOnDemandThroughputOutputReference extends cdktn.Comple
   }
 
   // max_read_request_units - computed: true, optional: true, required: false
-  private _maxReadRequestUnits?: number;
+  private _maxReadRequestUnits?: number; 
   public get maxReadRequestUnits() {
     return this.getNumberAttribute('max_read_request_units');
   }
@@ -2017,7 +2017,7 @@ export class DynamodbTableOnDemandThroughputOutputReference extends cdktn.Comple
   }
 
   // max_write_request_units - computed: true, optional: true, required: false
-  private _maxWriteRequestUnits?: number;
+  private _maxWriteRequestUnits?: number; 
   public get maxWriteRequestUnits() {
     return this.getNumberAttribute('max_write_request_units');
   }
@@ -2118,7 +2118,7 @@ export class DynamodbTablePointInTimeRecoveryOutputReference extends cdktn.Compl
   }
 
   // enabled - computed: false, optional: false, required: true
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -2131,7 +2131,7 @@ export class DynamodbTablePointInTimeRecoveryOutputReference extends cdktn.Compl
   }
 
   // recovery_period_in_days - computed: true, optional: true, required: false
-  private _recoveryPeriodInDays?: number;
+  private _recoveryPeriodInDays?: number; 
   public get recoveryPeriodInDays() {
     return this.getNumberAttribute('recovery_period_in_days');
   }
@@ -2317,7 +2317,7 @@ export class DynamodbTableReplicaOutputReference extends cdktn.ComplexObject {
   }
 
   // consistency_mode - computed: false, optional: true, required: false
-  private _consistencyMode?: string;
+  private _consistencyMode?: string; 
   public get consistencyMode() {
     return this.getStringAttribute('consistency_mode');
   }
@@ -2333,7 +2333,7 @@ export class DynamodbTableReplicaOutputReference extends cdktn.ComplexObject {
   }
 
   // deletion_protection_enabled - computed: true, optional: true, required: false
-  private _deletionProtectionEnabled?: boolean | cdktn.IResolvable;
+  private _deletionProtectionEnabled?: boolean | cdktn.IResolvable; 
   public get deletionProtectionEnabled() {
     return this.getBooleanAttribute('deletion_protection_enabled');
   }
@@ -2349,7 +2349,7 @@ export class DynamodbTableReplicaOutputReference extends cdktn.ComplexObject {
   }
 
   // kms_key_arn - computed: true, optional: true, required: false
-  private _kmsKeyArn?: string;
+  private _kmsKeyArn?: string; 
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -2365,7 +2365,7 @@ export class DynamodbTableReplicaOutputReference extends cdktn.ComplexObject {
   }
 
   // point_in_time_recovery - computed: false, optional: true, required: false
-  private _pointInTimeRecovery?: boolean | cdktn.IResolvable;
+  private _pointInTimeRecovery?: boolean | cdktn.IResolvable; 
   public get pointInTimeRecovery() {
     return this.getBooleanAttribute('point_in_time_recovery');
   }
@@ -2381,7 +2381,7 @@ export class DynamodbTableReplicaOutputReference extends cdktn.ComplexObject {
   }
 
   // propagate_tags - computed: false, optional: true, required: false
-  private _propagateTags?: boolean | cdktn.IResolvable;
+  private _propagateTags?: boolean | cdktn.IResolvable; 
   public get propagateTags() {
     return this.getBooleanAttribute('propagate_tags');
   }
@@ -2397,7 +2397,7 @@ export class DynamodbTableReplicaOutputReference extends cdktn.ComplexObject {
   }
 
   // region_name - computed: false, optional: false, required: true
-  private _regionName?: string;
+  private _regionName?: string; 
   public get regionName() {
     return this.getStringAttribute('region_name');
   }
@@ -2525,7 +2525,7 @@ export class DynamodbTableServerSideEncryptionOutputReference extends cdktn.Comp
   }
 
   // enabled - computed: false, optional: false, required: true
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -2538,7 +2538,7 @@ export class DynamodbTableServerSideEncryptionOutputReference extends cdktn.Comp
   }
 
   // kms_key_arn - computed: true, optional: true, required: false
-  private _kmsKeyArn?: string;
+  private _kmsKeyArn?: string; 
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -2666,7 +2666,7 @@ export class DynamodbTableTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -2682,7 +2682,7 @@ export class DynamodbTableTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -2698,7 +2698,7 @@ export class DynamodbTableTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -2799,7 +2799,7 @@ export class DynamodbTableTtlOutputReference extends cdktn.ComplexObject {
   }
 
   // attribute_name - computed: false, optional: true, required: false
-  private _attributeName?: string;
+  private _attributeName?: string; 
   public get attributeName() {
     return this.getStringAttribute('attribute_name');
   }
@@ -2815,7 +2815,7 @@ export class DynamodbTableTtlOutputReference extends cdktn.ComplexObject {
   }
 
   // enabled - computed: false, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -2916,7 +2916,7 @@ export class DynamodbTableWarmThroughputOutputReference extends cdktn.ComplexObj
   }
 
   // read_units_per_second - computed: true, optional: true, required: false
-  private _readUnitsPerSecond?: number;
+  private _readUnitsPerSecond?: number; 
   public get readUnitsPerSecond() {
     return this.getNumberAttribute('read_units_per_second');
   }
@@ -2932,7 +2932,7 @@ export class DynamodbTableWarmThroughputOutputReference extends cdktn.ComplexObj
   }
 
   // write_units_per_second - computed: true, optional: true, required: false
-  private _writeUnitsPerSecond?: number;
+  private _writeUnitsPerSecond?: number; 
   public get writeUnitsPerSecond() {
     return this.getNumberAttribute('write_units_per_second');
   }
@@ -3041,7 +3041,7 @@ export class DynamodbTable extends cdktn.TerraformResource {
   }
 
   // billing_mode - computed: false, optional: true, required: false
-  private _billingMode?: string;
+  private _billingMode?: string; 
   public get billingMode() {
     return this.getStringAttribute('billing_mode');
   }
@@ -3057,7 +3057,7 @@ export class DynamodbTable extends cdktn.TerraformResource {
   }
 
   // deletion_protection_enabled - computed: false, optional: true, required: false
-  private _deletionProtectionEnabled?: boolean | cdktn.IResolvable;
+  private _deletionProtectionEnabled?: boolean | cdktn.IResolvable; 
   public get deletionProtectionEnabled() {
     return this.getBooleanAttribute('deletion_protection_enabled');
   }
@@ -3073,7 +3073,7 @@ export class DynamodbTable extends cdktn.TerraformResource {
   }
 
   // hash_key - computed: true, optional: true, required: false
-  private _hashKey?: string;
+  private _hashKey?: string; 
   public get hashKey() {
     return this.getStringAttribute('hash_key');
   }
@@ -3089,7 +3089,7 @@ export class DynamodbTable extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -3105,7 +3105,7 @@ export class DynamodbTable extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -3118,7 +3118,7 @@ export class DynamodbTable extends cdktn.TerraformResource {
   }
 
   // range_key - computed: false, optional: true, required: false
-  private _rangeKey?: string;
+  private _rangeKey?: string; 
   public get rangeKey() {
     return this.getStringAttribute('range_key');
   }
@@ -3134,7 +3134,7 @@ export class DynamodbTable extends cdktn.TerraformResource {
   }
 
   // read_capacity - computed: true, optional: true, required: false
-  private _readCapacity?: number;
+  private _readCapacity?: number; 
   public get readCapacity() {
     return this.getNumberAttribute('read_capacity');
   }
@@ -3150,7 +3150,7 @@ export class DynamodbTable extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -3166,7 +3166,7 @@ export class DynamodbTable extends cdktn.TerraformResource {
   }
 
   // restore_backup_arn - computed: false, optional: true, required: false
-  private _restoreBackupArn?: string;
+  private _restoreBackupArn?: string; 
   public get restoreBackupArn() {
     return this.getStringAttribute('restore_backup_arn');
   }
@@ -3182,7 +3182,7 @@ export class DynamodbTable extends cdktn.TerraformResource {
   }
 
   // restore_date_time - computed: false, optional: true, required: false
-  private _restoreDateTime?: string;
+  private _restoreDateTime?: string; 
   public get restoreDateTime() {
     return this.getStringAttribute('restore_date_time');
   }
@@ -3198,7 +3198,7 @@ export class DynamodbTable extends cdktn.TerraformResource {
   }
 
   // restore_source_name - computed: false, optional: true, required: false
-  private _restoreSourceName?: string;
+  private _restoreSourceName?: string; 
   public get restoreSourceName() {
     return this.getStringAttribute('restore_source_name');
   }
@@ -3214,7 +3214,7 @@ export class DynamodbTable extends cdktn.TerraformResource {
   }
 
   // restore_source_table_arn - computed: false, optional: true, required: false
-  private _restoreSourceTableArn?: string;
+  private _restoreSourceTableArn?: string; 
   public get restoreSourceTableArn() {
     return this.getStringAttribute('restore_source_table_arn');
   }
@@ -3230,7 +3230,7 @@ export class DynamodbTable extends cdktn.TerraformResource {
   }
 
   // restore_to_latest_time - computed: false, optional: true, required: false
-  private _restoreToLatestTime?: boolean | cdktn.IResolvable;
+  private _restoreToLatestTime?: boolean | cdktn.IResolvable; 
   public get restoreToLatestTime() {
     return this.getBooleanAttribute('restore_to_latest_time');
   }
@@ -3251,7 +3251,7 @@ export class DynamodbTable extends cdktn.TerraformResource {
   }
 
   // stream_enabled - computed: false, optional: true, required: false
-  private _streamEnabled?: boolean | cdktn.IResolvable;
+  private _streamEnabled?: boolean | cdktn.IResolvable; 
   public get streamEnabled() {
     return this.getBooleanAttribute('stream_enabled');
   }
@@ -3272,7 +3272,7 @@ export class DynamodbTable extends cdktn.TerraformResource {
   }
 
   // stream_view_type - computed: true, optional: true, required: false
-  private _streamViewType?: string;
+  private _streamViewType?: string; 
   public get streamViewType() {
     return this.getStringAttribute('stream_view_type');
   }
@@ -3288,7 +3288,7 @@ export class DynamodbTable extends cdktn.TerraformResource {
   }
 
   // table_class - computed: false, optional: true, required: false
-  private _tableClass?: string;
+  private _tableClass?: string; 
   public get tableClass() {
     return this.getStringAttribute('table_class');
   }
@@ -3304,7 +3304,7 @@ export class DynamodbTable extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -3320,7 +3320,7 @@ export class DynamodbTable extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -3336,7 +3336,7 @@ export class DynamodbTable extends cdktn.TerraformResource {
   }
 
   // write_capacity - computed: true, optional: true, required: false
-  private _writeCapacity?: number;
+  private _writeCapacity?: number; 
   public get writeCapacity() {
     return this.getNumberAttribute('write_capacity');
   }

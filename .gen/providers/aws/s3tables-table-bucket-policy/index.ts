@@ -83,7 +83,7 @@ export class S3TablesTableBucketPolicy extends cdktn.TerraformResource {
   // ==========
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -99,7 +99,7 @@ export class S3TablesTableBucketPolicy extends cdktn.TerraformResource {
   }
 
   // resource_policy - computed: false, optional: false, required: true
-  private _resourcePolicy?: string;
+  private _resourcePolicy?: string; 
   public get resourcePolicy() {
     return this.getStringAttribute('resource_policy');
   }
@@ -112,7 +112,7 @@ export class S3TablesTableBucketPolicy extends cdktn.TerraformResource {
   }
 
   // table_bucket_arn - computed: false, optional: false, required: true
-  private _tableBucketArn?: string;
+  private _tableBucketArn?: string; 
   public get tableBucketArn() {
     return this.getStringAttribute('table_bucket_arn');
   }

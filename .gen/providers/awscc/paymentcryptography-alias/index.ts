@@ -76,7 +76,7 @@ export class PaymentcryptographyAlias extends cdktn.TerraformResource {
   // ==========
 
   // alias_name - computed: false, optional: false, required: true
-  private _aliasName?: string;
+  private _aliasName?: string; 
   public get aliasName() {
     return this.getStringAttribute('alias_name');
   }
@@ -94,7 +94,7 @@ export class PaymentcryptographyAlias extends cdktn.TerraformResource {
   }
 
   // key_arn - computed: true, optional: true, required: false
-  private _keyArn?: string;
+  private _keyArn?: string; 
   public get keyArn() {
     return this.getStringAttribute('key_arn');
   }

@@ -192,7 +192,7 @@ export class SagemakerAppResourceSpecOutputReference extends cdktn.ComplexObject
   }
 
   // instance_type - computed: false, optional: true, required: false
-  private _instanceType?: string;
+  private _instanceType?: string; 
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -208,7 +208,7 @@ export class SagemakerAppResourceSpecOutputReference extends cdktn.ComplexObject
   }
 
   // lifecycle_config_arn - computed: false, optional: true, required: false
-  private _lifecycleConfigArn?: string;
+  private _lifecycleConfigArn?: string; 
   public get lifecycleConfigArn() {
     return this.getStringAttribute('lifecycle_config_arn');
   }
@@ -224,7 +224,7 @@ export class SagemakerAppResourceSpecOutputReference extends cdktn.ComplexObject
   }
 
   // sagemaker_image_arn - computed: true, optional: true, required: false
-  private _sagemakerImageArn?: string;
+  private _sagemakerImageArn?: string; 
   public get sagemakerImageArn() {
     return this.getStringAttribute('sagemaker_image_arn');
   }
@@ -240,7 +240,7 @@ export class SagemakerAppResourceSpecOutputReference extends cdktn.ComplexObject
   }
 
   // sagemaker_image_version_alias - computed: false, optional: true, required: false
-  private _sagemakerImageVersionAlias?: string;
+  private _sagemakerImageVersionAlias?: string; 
   public get sagemakerImageVersionAlias() {
     return this.getStringAttribute('sagemaker_image_version_alias');
   }
@@ -256,7 +256,7 @@ export class SagemakerAppResourceSpecOutputReference extends cdktn.ComplexObject
   }
 
   // sagemaker_image_version_arn - computed: false, optional: true, required: false
-  private _sagemakerImageVersionArn?: string;
+  private _sagemakerImageVersionArn?: string; 
   public get sagemakerImageVersionArn() {
     return this.getStringAttribute('sagemaker_image_version_arn');
   }
@@ -339,7 +339,7 @@ export class SagemakerApp extends cdktn.TerraformResource {
   // ==========
 
   // app_name - computed: false, optional: false, required: true
-  private _appName?: string;
+  private _appName?: string; 
   public get appName() {
     return this.getStringAttribute('app_name');
   }
@@ -352,7 +352,7 @@ export class SagemakerApp extends cdktn.TerraformResource {
   }
 
   // app_type - computed: false, optional: false, required: true
-  private _appType?: string;
+  private _appType?: string; 
   public get appType() {
     return this.getStringAttribute('app_type');
   }
@@ -370,7 +370,7 @@ export class SagemakerApp extends cdktn.TerraformResource {
   }
 
   // domain_id - computed: false, optional: false, required: true
-  private _domainId?: string;
+  private _domainId?: string; 
   public get domainId() {
     return this.getStringAttribute('domain_id');
   }
@@ -383,7 +383,7 @@ export class SagemakerApp extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -399,7 +399,7 @@ export class SagemakerApp extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -415,7 +415,7 @@ export class SagemakerApp extends cdktn.TerraformResource {
   }
 
   // space_name - computed: false, optional: true, required: false
-  private _spaceName?: string;
+  private _spaceName?: string; 
   public get spaceName() {
     return this.getStringAttribute('space_name');
   }
@@ -431,7 +431,7 @@ export class SagemakerApp extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -447,7 +447,7 @@ export class SagemakerApp extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -463,7 +463,7 @@ export class SagemakerApp extends cdktn.TerraformResource {
   }
 
   // user_profile_name - computed: false, optional: true, required: false
-  private _userProfileName?: string;
+  private _userProfileName?: string; 
   public get userProfileName() {
     return this.getStringAttribute('user_profile_name');
   }

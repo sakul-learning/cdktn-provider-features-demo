@@ -132,7 +132,7 @@ export class Ec2LocalGatewayRouteTableTimeoutsOutputReference extends cdktn.Comp
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -148,7 +148,7 @@ export class Ec2LocalGatewayRouteTableTimeoutsOutputReference extends cdktn.Comp
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -231,7 +231,7 @@ export class Ec2LocalGatewayRouteTable extends cdktn.TerraformResource {
   }
 
   // local_gateway_id - computed: false, optional: false, required: true
-  private _localGatewayId?: string;
+  private _localGatewayId?: string; 
   public get localGatewayId() {
     return this.getStringAttribute('local_gateway_id');
   }
@@ -249,7 +249,7 @@ export class Ec2LocalGatewayRouteTable extends cdktn.TerraformResource {
   }
 
   // mode - computed: false, optional: false, required: true
-  private _mode?: string;
+  private _mode?: string; 
   public get mode() {
     return this.getStringAttribute('mode');
   }
@@ -272,7 +272,7 @@ export class Ec2LocalGatewayRouteTable extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -293,7 +293,7 @@ export class Ec2LocalGatewayRouteTable extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

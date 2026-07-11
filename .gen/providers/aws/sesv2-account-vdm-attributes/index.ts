@@ -106,7 +106,7 @@ export class Sesv2AccountVdmAttributesDashboardAttributesOutputReference extends
   }
 
   // engagement_metrics - computed: false, optional: true, required: false
-  private _engagementMetrics?: string;
+  private _engagementMetrics?: string; 
   public get engagementMetrics() {
     return this.getStringAttribute('engagement_metrics');
   }
@@ -190,7 +190,7 @@ export class Sesv2AccountVdmAttributesGuardianAttributesOutputReference extends 
   }
 
   // optimized_shared_delivery - computed: false, optional: true, required: false
-  private _optimizedSharedDelivery?: string;
+  private _optimizedSharedDelivery?: string; 
   public get optimizedSharedDelivery() {
     return this.getStringAttribute('optimized_shared_delivery');
   }
@@ -268,7 +268,7 @@ export class Sesv2AccountVdmAttributes extends cdktn.TerraformResource {
   // ==========
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -284,7 +284,7 @@ export class Sesv2AccountVdmAttributes extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -300,7 +300,7 @@ export class Sesv2AccountVdmAttributes extends cdktn.TerraformResource {
   }
 
   // vdm_enabled - computed: false, optional: false, required: true
-  private _vdmEnabled?: string;
+  private _vdmEnabled?: string; 
   public get vdmEnabled() {
     return this.getStringAttribute('vdm_enabled');
   }

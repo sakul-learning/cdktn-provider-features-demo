@@ -122,7 +122,7 @@ export class VpclatticeServiceNetworkResourceAssociationTagsOutputReference exte
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -138,7 +138,7 @@ export class VpclatticeServiceNetworkResourceAssociationTagsOutputReference exte
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -245,7 +245,7 @@ export class VpclatticeServiceNetworkResourceAssociation extends cdktn.Terraform
   }
 
   // private_dns_enabled - computed: true, optional: true, required: false
-  private _privateDnsEnabled?: boolean | cdktn.IResolvable;
+  private _privateDnsEnabled?: boolean | cdktn.IResolvable; 
   public get privateDnsEnabled() {
     return this.getBooleanAttribute('private_dns_enabled');
   }
@@ -261,7 +261,7 @@ export class VpclatticeServiceNetworkResourceAssociation extends cdktn.Terraform
   }
 
   // resource_configuration_id - computed: true, optional: true, required: false
-  private _resourceConfigurationId?: string;
+  private _resourceConfigurationId?: string; 
   public get resourceConfigurationId() {
     return this.getStringAttribute('resource_configuration_id');
   }
@@ -277,7 +277,7 @@ export class VpclatticeServiceNetworkResourceAssociation extends cdktn.Terraform
   }
 
   // service_network_id - computed: true, optional: true, required: false
-  private _serviceNetworkId?: string;
+  private _serviceNetworkId?: string; 
   public get serviceNetworkId() {
     return this.getStringAttribute('service_network_id');
   }

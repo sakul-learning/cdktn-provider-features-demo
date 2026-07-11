@@ -178,7 +178,7 @@ export class CognitoIdentityPoolCognitoIdentityProvidersOutputReference extends 
   }
 
   // client_id - computed: false, optional: true, required: false
-  private _clientId?: string;
+  private _clientId?: string; 
   public get clientId() {
     return this.getStringAttribute('client_id');
   }
@@ -194,7 +194,7 @@ export class CognitoIdentityPoolCognitoIdentityProvidersOutputReference extends 
   }
 
   // provider_name - computed: false, optional: true, required: false
-  private _providerName?: string;
+  private _providerName?: string; 
   public get providerName() {
     return this.getStringAttribute('provider_name');
   }
@@ -210,7 +210,7 @@ export class CognitoIdentityPoolCognitoIdentityProvidersOutputReference extends 
   }
 
   // server_side_token_check - computed: false, optional: true, required: false
-  private _serverSideTokenCheck?: boolean | cdktn.IResolvable;
+  private _serverSideTokenCheck?: boolean | cdktn.IResolvable; 
   public get serverSideTokenCheck() {
     return this.getBooleanAttribute('server_side_token_check');
   }
@@ -315,7 +315,7 @@ export class CognitoIdentityPool extends cdktn.TerraformResource {
   // ==========
 
   // allow_classic_flow - computed: false, optional: true, required: false
-  private _allowClassicFlow?: boolean | cdktn.IResolvable;
+  private _allowClassicFlow?: boolean | cdktn.IResolvable; 
   public get allowClassicFlow() {
     return this.getBooleanAttribute('allow_classic_flow');
   }
@@ -331,7 +331,7 @@ export class CognitoIdentityPool extends cdktn.TerraformResource {
   }
 
   // allow_unauthenticated_identities - computed: false, optional: true, required: false
-  private _allowUnauthenticatedIdentities?: boolean | cdktn.IResolvable;
+  private _allowUnauthenticatedIdentities?: boolean | cdktn.IResolvable; 
   public get allowUnauthenticatedIdentities() {
     return this.getBooleanAttribute('allow_unauthenticated_identities');
   }
@@ -352,7 +352,7 @@ export class CognitoIdentityPool extends cdktn.TerraformResource {
   }
 
   // developer_provider_name - computed: false, optional: true, required: false
-  private _developerProviderName?: string;
+  private _developerProviderName?: string; 
   public get developerProviderName() {
     return this.getStringAttribute('developer_provider_name');
   }
@@ -368,7 +368,7 @@ export class CognitoIdentityPool extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -384,7 +384,7 @@ export class CognitoIdentityPool extends cdktn.TerraformResource {
   }
 
   // identity_pool_name - computed: false, optional: false, required: true
-  private _identityPoolName?: string;
+  private _identityPoolName?: string; 
   public get identityPoolName() {
     return this.getStringAttribute('identity_pool_name');
   }
@@ -397,7 +397,7 @@ export class CognitoIdentityPool extends cdktn.TerraformResource {
   }
 
   // openid_connect_provider_arns - computed: false, optional: true, required: false
-  private _openidConnectProviderArns?: string[];
+  private _openidConnectProviderArns?: string[]; 
   public get openidConnectProviderArns() {
     return cdktn.Fn.tolist(this.getListAttribute('openid_connect_provider_arns'));
   }
@@ -413,7 +413,7 @@ export class CognitoIdentityPool extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -429,7 +429,7 @@ export class CognitoIdentityPool extends cdktn.TerraformResource {
   }
 
   // saml_provider_arns - computed: false, optional: true, required: false
-  private _samlProviderArns?: string[];
+  private _samlProviderArns?: string[]; 
   public get samlProviderArns() {
     return this.getListAttribute('saml_provider_arns');
   }
@@ -445,7 +445,7 @@ export class CognitoIdentityPool extends cdktn.TerraformResource {
   }
 
   // supported_login_providers - computed: false, optional: true, required: false
-  private _supportedLoginProviders?: { [key: string]: string };
+  private _supportedLoginProviders?: { [key: string]: string }; 
   public get supportedLoginProviders() {
     return this.getStringMapAttribute('supported_login_providers');
   }
@@ -461,7 +461,7 @@ export class CognitoIdentityPool extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -477,7 +477,7 @@ export class CognitoIdentityPool extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

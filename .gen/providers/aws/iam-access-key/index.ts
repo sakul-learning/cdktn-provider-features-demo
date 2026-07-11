@@ -104,7 +104,7 @@ export class IamAccessKey extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -125,7 +125,7 @@ export class IamAccessKey extends cdktn.TerraformResource {
   }
 
   // pgp_key - computed: false, optional: true, required: false
-  private _pgpKey?: string;
+  private _pgpKey?: string; 
   public get pgpKey() {
     return this.getStringAttribute('pgp_key');
   }
@@ -151,7 +151,7 @@ export class IamAccessKey extends cdktn.TerraformResource {
   }
 
   // status - computed: false, optional: true, required: false
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -167,7 +167,7 @@ export class IamAccessKey extends cdktn.TerraformResource {
   }
 
   // user - computed: false, optional: false, required: true
-  private _user?: string;
+  private _user?: string; 
   public get user() {
     return this.getStringAttribute('user');
   }

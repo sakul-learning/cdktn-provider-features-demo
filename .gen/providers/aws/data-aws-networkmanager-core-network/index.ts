@@ -412,7 +412,7 @@ export class DataAwsNetworkmanagerCoreNetwork extends cdktn.TerraformDataSource 
   }
 
   // core_network_id - computed: false, optional: false, required: true
-  private _coreNetworkId?: string;
+  private _coreNetworkId?: string; 
   public get coreNetworkId() {
     return this.getStringAttribute('core_network_id');
   }

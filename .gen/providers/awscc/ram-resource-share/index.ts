@@ -27,15 +27,15 @@ export interface RamResourceShareConfig extends cdktn.TerraformMetaArguments {
   readonly permissionArns?: string[];
   /**
   * Specifies the principals to associate with the resource share. The possible values are:
-  *
+  * 
   * - An AWS account ID
-  *
+  * 
   * - An Amazon Resource Name (ARN) of an organization in AWS Organizations
-  *
+  * 
   * - An ARN of an organizational unit (OU) in AWS Organizations
-  *
+  * 
   * - An ARN of an IAM role
-  *
+  * 
   * - An ARN of an IAM user
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ram_resource_share#principals RamResourceShare#principals}
@@ -166,7 +166,7 @@ export class RamResourceShareResourceShareConfigurationOutputReference extends c
   }
 
   // exclusive_account_access - computed: true, optional: true, required: false
-  private _exclusiveAccountAccess?: boolean | cdktn.IResolvable;
+  private _exclusiveAccountAccess?: boolean | cdktn.IResolvable; 
   public get exclusiveAccountAccess() {
     return this.getBooleanAttribute('exclusive_account_access');
   }
@@ -182,7 +182,7 @@ export class RamResourceShareResourceShareConfigurationOutputReference extends c
   }
 
   // retain_sharing_on_account_leave_organization - computed: true, optional: true, required: false
-  private _retainSharingOnAccountLeaveOrganization?: boolean | cdktn.IResolvable;
+  private _retainSharingOnAccountLeaveOrganization?: boolean | cdktn.IResolvable; 
   public get retainSharingOnAccountLeaveOrganization() {
     return this.getBooleanAttribute('retain_sharing_on_account_leave_organization');
   }
@@ -299,7 +299,7 @@ export class RamResourceShareTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -315,7 +315,7 @@ export class RamResourceShareTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -416,7 +416,7 @@ export class RamResourceShare extends cdktn.TerraformResource {
   // ==========
 
   // allow_external_principals - computed: true, optional: true, required: false
-  private _allowExternalPrincipals?: boolean | cdktn.IResolvable;
+  private _allowExternalPrincipals?: boolean | cdktn.IResolvable; 
   public get allowExternalPrincipals() {
     return this.getBooleanAttribute('allow_external_principals');
   }
@@ -457,7 +457,7 @@ export class RamResourceShare extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -475,7 +475,7 @@ export class RamResourceShare extends cdktn.TerraformResource {
   }
 
   // permission_arns - computed: true, optional: true, required: false
-  private _permissionArns?: string[];
+  private _permissionArns?: string[]; 
   public get permissionArns() {
     return this.getListAttribute('permission_arns');
   }
@@ -491,7 +491,7 @@ export class RamResourceShare extends cdktn.TerraformResource {
   }
 
   // principals - computed: true, optional: true, required: false
-  private _principals?: string[];
+  private _principals?: string[]; 
   public get principals() {
     return this.getListAttribute('principals');
   }
@@ -507,7 +507,7 @@ export class RamResourceShare extends cdktn.TerraformResource {
   }
 
   // resource_arns - computed: true, optional: true, required: false
-  private _resourceArns?: string[];
+  private _resourceArns?: string[]; 
   public get resourceArns() {
     return this.getListAttribute('resource_arns');
   }
@@ -539,7 +539,7 @@ export class RamResourceShare extends cdktn.TerraformResource {
   }
 
   // sources - computed: true, optional: true, required: false
-  private _sources?: string[];
+  private _sources?: string[]; 
   public get sources() {
     return this.getListAttribute('sources');
   }

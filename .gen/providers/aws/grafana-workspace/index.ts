@@ -189,7 +189,7 @@ export class GrafanaWorkspaceNetworkAccessControlOutputReference extends cdktn.C
   }
 
   // prefix_list_ids - computed: false, optional: false, required: true
-  private _prefixListIds?: string[];
+  private _prefixListIds?: string[]; 
   public get prefixListIds() {
     return cdktn.Fn.tolist(this.getListAttribute('prefix_list_ids'));
   }
@@ -202,7 +202,7 @@ export class GrafanaWorkspaceNetworkAccessControlOutputReference extends cdktn.C
   }
 
   // vpce_ids - computed: false, optional: false, required: true
-  private _vpceIds?: string[];
+  private _vpceIds?: string[]; 
   public get vpceIds() {
     return cdktn.Fn.tolist(this.getListAttribute('vpce_ids'));
   }
@@ -310,7 +310,7 @@ export class GrafanaWorkspaceTimeoutsOutputReference extends cdktn.ComplexObject
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -326,7 +326,7 @@ export class GrafanaWorkspaceTimeoutsOutputReference extends cdktn.ComplexObject
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -427,7 +427,7 @@ export class GrafanaWorkspaceVpcConfigurationOutputReference extends cdktn.Compl
   }
 
   // security_group_ids - computed: false, optional: false, required: true
-  private _securityGroupIds?: string[];
+  private _securityGroupIds?: string[]; 
   public get securityGroupIds() {
     return cdktn.Fn.tolist(this.getListAttribute('security_group_ids'));
   }
@@ -440,7 +440,7 @@ export class GrafanaWorkspaceVpcConfigurationOutputReference extends cdktn.Compl
   }
 
   // subnet_ids - computed: false, optional: false, required: true
-  private _subnetIds?: string[];
+  private _subnetIds?: string[]; 
   public get subnetIds() {
     return cdktn.Fn.tolist(this.getListAttribute('subnet_ids'));
   }
@@ -531,7 +531,7 @@ export class GrafanaWorkspace extends cdktn.TerraformResource {
   // ==========
 
   // account_access_type - computed: false, optional: false, required: true
-  private _accountAccessType?: string;
+  private _accountAccessType?: string; 
   public get accountAccessType() {
     return this.getStringAttribute('account_access_type');
   }
@@ -549,7 +549,7 @@ export class GrafanaWorkspace extends cdktn.TerraformResource {
   }
 
   // authentication_providers - computed: false, optional: false, required: true
-  private _authenticationProviders?: string[];
+  private _authenticationProviders?: string[]; 
   public get authenticationProviders() {
     return this.getListAttribute('authentication_providers');
   }
@@ -562,7 +562,7 @@ export class GrafanaWorkspace extends cdktn.TerraformResource {
   }
 
   // configuration - computed: true, optional: true, required: false
-  private _configuration?: string;
+  private _configuration?: string; 
   public get configuration() {
     return this.getStringAttribute('configuration');
   }
@@ -578,7 +578,7 @@ export class GrafanaWorkspace extends cdktn.TerraformResource {
   }
 
   // data_sources - computed: false, optional: true, required: false
-  private _dataSources?: string[];
+  private _dataSources?: string[]; 
   public get dataSources() {
     return this.getListAttribute('data_sources');
   }
@@ -594,7 +594,7 @@ export class GrafanaWorkspace extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -615,7 +615,7 @@ export class GrafanaWorkspace extends cdktn.TerraformResource {
   }
 
   // grafana_version - computed: true, optional: true, required: false
-  private _grafanaVersion?: string;
+  private _grafanaVersion?: string; 
   public get grafanaVersion() {
     return this.getStringAttribute('grafana_version');
   }
@@ -631,7 +631,7 @@ export class GrafanaWorkspace extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -647,7 +647,7 @@ export class GrafanaWorkspace extends cdktn.TerraformResource {
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -663,7 +663,7 @@ export class GrafanaWorkspace extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -679,7 +679,7 @@ export class GrafanaWorkspace extends cdktn.TerraformResource {
   }
 
   // notification_destinations - computed: false, optional: true, required: false
-  private _notificationDestinations?: string[];
+  private _notificationDestinations?: string[]; 
   public get notificationDestinations() {
     return this.getListAttribute('notification_destinations');
   }
@@ -695,7 +695,7 @@ export class GrafanaWorkspace extends cdktn.TerraformResource {
   }
 
   // organization_role_name - computed: false, optional: true, required: false
-  private _organizationRoleName?: string;
+  private _organizationRoleName?: string; 
   public get organizationRoleName() {
     return this.getStringAttribute('organization_role_name');
   }
@@ -711,7 +711,7 @@ export class GrafanaWorkspace extends cdktn.TerraformResource {
   }
 
   // organizational_units - computed: false, optional: true, required: false
-  private _organizationalUnits?: string[];
+  private _organizationalUnits?: string[]; 
   public get organizationalUnits() {
     return this.getListAttribute('organizational_units');
   }
@@ -727,7 +727,7 @@ export class GrafanaWorkspace extends cdktn.TerraformResource {
   }
 
   // permission_type - computed: false, optional: false, required: true
-  private _permissionType?: string;
+  private _permissionType?: string; 
   public get permissionType() {
     return this.getStringAttribute('permission_type');
   }
@@ -740,7 +740,7 @@ export class GrafanaWorkspace extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -756,7 +756,7 @@ export class GrafanaWorkspace extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -777,7 +777,7 @@ export class GrafanaWorkspace extends cdktn.TerraformResource {
   }
 
   // stack_set_name - computed: false, optional: true, required: false
-  private _stackSetName?: string;
+  private _stackSetName?: string; 
   public get stackSetName() {
     return this.getStringAttribute('stack_set_name');
   }
@@ -793,7 +793,7 @@ export class GrafanaWorkspace extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -809,7 +809,7 @@ export class GrafanaWorkspace extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

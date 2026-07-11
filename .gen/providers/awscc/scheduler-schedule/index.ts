@@ -172,7 +172,7 @@ export class SchedulerScheduleFlexibleTimeWindowOutputReference extends cdktn.Co
   }
 
   // maximum_window_in_minutes - computed: true, optional: true, required: false
-  private _maximumWindowInMinutes?: number;
+  private _maximumWindowInMinutes?: number; 
   public get maximumWindowInMinutes() {
     return this.getNumberAttribute('maximum_window_in_minutes');
   }
@@ -188,7 +188,7 @@ export class SchedulerScheduleFlexibleTimeWindowOutputReference extends cdktn.Co
   }
 
   // mode - computed: false, optional: false, required: true
-  private _mode?: string;
+  private _mode?: string; 
   public get mode() {
     return this.getStringAttribute('mode');
   }
@@ -281,7 +281,7 @@ export class SchedulerScheduleTargetDeadLetterConfigOutputReference extends cdkt
   }
 
   // arn - computed: true, optional: true, required: false
-  private _arn?: string;
+  private _arn?: string; 
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -417,7 +417,7 @@ export class SchedulerScheduleTargetEcsParametersCapacityProviderStrategyOutputR
   }
 
   // base - computed: true, optional: true, required: false
-  private _base?: number;
+  private _base?: number; 
   public get base() {
     return this.getNumberAttribute('base');
   }
@@ -433,7 +433,7 @@ export class SchedulerScheduleTargetEcsParametersCapacityProviderStrategyOutputR
   }
 
   // capacity_provider - computed: true, optional: true, required: false
-  private _capacityProvider?: string;
+  private _capacityProvider?: string; 
   public get capacityProvider() {
     return this.getStringAttribute('capacity_provider');
   }
@@ -449,7 +449,7 @@ export class SchedulerScheduleTargetEcsParametersCapacityProviderStrategyOutputR
   }
 
   // weight - computed: true, optional: true, required: false
-  private _weight?: number;
+  private _weight?: number; 
   public get weight() {
     return this.getNumberAttribute('weight');
   }
@@ -603,7 +603,7 @@ export class SchedulerScheduleTargetEcsParametersNetworkConfigurationAwsvpcConfi
   }
 
   // assign_public_ip - computed: true, optional: true, required: false
-  private _assignPublicIp?: string;
+  private _assignPublicIp?: string; 
   public get assignPublicIp() {
     return this.getStringAttribute('assign_public_ip');
   }
@@ -619,7 +619,7 @@ export class SchedulerScheduleTargetEcsParametersNetworkConfigurationAwsvpcConfi
   }
 
   // security_groups - computed: true, optional: true, required: false
-  private _securityGroups?: string[];
+  private _securityGroups?: string[]; 
   public get securityGroups() {
     return this.getListAttribute('security_groups');
   }
@@ -635,7 +635,7 @@ export class SchedulerScheduleTargetEcsParametersNetworkConfigurationAwsvpcConfi
   }
 
   // subnets - computed: true, optional: true, required: false
-  private _subnets?: string[];
+  private _subnets?: string[]; 
   public get subnets() {
     return this.getListAttribute('subnets');
   }
@@ -848,7 +848,7 @@ export class SchedulerScheduleTargetEcsParametersPlacementConstraintsOutputRefer
   }
 
   // expression - computed: true, optional: true, required: false
-  private _expression?: string;
+  private _expression?: string; 
   public get expression() {
     return this.getStringAttribute('expression');
   }
@@ -864,7 +864,7 @@ export class SchedulerScheduleTargetEcsParametersPlacementConstraintsOutputRefer
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -1001,7 +1001,7 @@ export class SchedulerScheduleTargetEcsParametersPlacementStrategyOutputReferenc
   }
 
   // field - computed: true, optional: true, required: false
-  private _field?: string;
+  private _field?: string; 
   public get field() {
     return this.getStringAttribute('field');
   }
@@ -1017,7 +1017,7 @@ export class SchedulerScheduleTargetEcsParametersPlacementStrategyOutputReferenc
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -1396,7 +1396,7 @@ export class SchedulerScheduleTargetEcsParametersOutputReference extends cdktn.C
   }
 
   // enable_ecs_managed_tags - computed: true, optional: true, required: false
-  private _enableEcsManagedTags?: boolean | cdktn.IResolvable;
+  private _enableEcsManagedTags?: boolean | cdktn.IResolvable; 
   public get enableEcsManagedTags() {
     return this.getBooleanAttribute('enable_ecs_managed_tags');
   }
@@ -1412,7 +1412,7 @@ export class SchedulerScheduleTargetEcsParametersOutputReference extends cdktn.C
   }
 
   // enable_execute_command - computed: true, optional: true, required: false
-  private _enableExecuteCommand?: boolean | cdktn.IResolvable;
+  private _enableExecuteCommand?: boolean | cdktn.IResolvable; 
   public get enableExecuteCommand() {
     return this.getBooleanAttribute('enable_execute_command');
   }
@@ -1428,7 +1428,7 @@ export class SchedulerScheduleTargetEcsParametersOutputReference extends cdktn.C
   }
 
   // group - computed: true, optional: true, required: false
-  private _group?: string;
+  private _group?: string; 
   public get group() {
     return this.getStringAttribute('group');
   }
@@ -1444,7 +1444,7 @@ export class SchedulerScheduleTargetEcsParametersOutputReference extends cdktn.C
   }
 
   // launch_type - computed: true, optional: true, required: false
-  private _launchType?: string;
+  private _launchType?: string; 
   public get launchType() {
     return this.getStringAttribute('launch_type');
   }
@@ -1508,7 +1508,7 @@ export class SchedulerScheduleTargetEcsParametersOutputReference extends cdktn.C
   }
 
   // platform_version - computed: true, optional: true, required: false
-  private _platformVersion?: string;
+  private _platformVersion?: string; 
   public get platformVersion() {
     return this.getStringAttribute('platform_version');
   }
@@ -1524,7 +1524,7 @@ export class SchedulerScheduleTargetEcsParametersOutputReference extends cdktn.C
   }
 
   // propagate_tags - computed: true, optional: true, required: false
-  private _propagateTags?: string;
+  private _propagateTags?: string; 
   public get propagateTags() {
     return this.getStringAttribute('propagate_tags');
   }
@@ -1540,7 +1540,7 @@ export class SchedulerScheduleTargetEcsParametersOutputReference extends cdktn.C
   }
 
   // reference_id - computed: true, optional: true, required: false
-  private _referenceId?: string;
+  private _referenceId?: string; 
   public get referenceId() {
     return this.getStringAttribute('reference_id');
   }
@@ -1556,7 +1556,7 @@ export class SchedulerScheduleTargetEcsParametersOutputReference extends cdktn.C
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string }[] | cdktn.IResolvable;
+  private _tags?: { [key: string]: string }[] | cdktn.IResolvable; 
   public get tags() {
     return this.interpolationForAttribute('tags');
   }
@@ -1572,7 +1572,7 @@ export class SchedulerScheduleTargetEcsParametersOutputReference extends cdktn.C
   }
 
   // task_count - computed: true, optional: true, required: false
-  private _taskCount?: number;
+  private _taskCount?: number; 
   public get taskCount() {
     return this.getNumberAttribute('task_count');
   }
@@ -1588,7 +1588,7 @@ export class SchedulerScheduleTargetEcsParametersOutputReference extends cdktn.C
   }
 
   // task_definition_arn - computed: true, optional: true, required: false
-  private _taskDefinitionArn?: string;
+  private _taskDefinitionArn?: string; 
   public get taskDefinitionArn() {
     return this.getStringAttribute('task_definition_arn');
   }
@@ -1703,7 +1703,7 @@ export class SchedulerScheduleTargetEventBridgeParametersOutputReference extends
   }
 
   // detail_type - computed: true, optional: true, required: false
-  private _detailType?: string;
+  private _detailType?: string; 
   public get detailType() {
     return this.getStringAttribute('detail_type');
   }
@@ -1719,7 +1719,7 @@ export class SchedulerScheduleTargetEventBridgeParametersOutputReference extends
   }
 
   // source - computed: true, optional: true, required: false
-  private _source?: string;
+  private _source?: string; 
   public get source() {
     return this.getStringAttribute('source');
   }
@@ -1815,7 +1815,7 @@ export class SchedulerScheduleTargetKinesisParametersOutputReference extends cdk
   }
 
   // partition_key - computed: true, optional: true, required: false
-  private _partitionKey?: string;
+  private _partitionKey?: string; 
   public get partitionKey() {
     return this.getStringAttribute('partition_key');
   }
@@ -1930,7 +1930,7 @@ export class SchedulerScheduleTargetRetryPolicyOutputReference extends cdktn.Com
   }
 
   // maximum_event_age_in_seconds - computed: true, optional: true, required: false
-  private _maximumEventAgeInSeconds?: number;
+  private _maximumEventAgeInSeconds?: number; 
   public get maximumEventAgeInSeconds() {
     return this.getNumberAttribute('maximum_event_age_in_seconds');
   }
@@ -1946,7 +1946,7 @@ export class SchedulerScheduleTargetRetryPolicyOutputReference extends cdktn.Com
   }
 
   // maximum_retry_attempts - computed: true, optional: true, required: false
-  private _maximumRetryAttempts?: number;
+  private _maximumRetryAttempts?: number; 
   public get maximumRetryAttempts() {
     return this.getNumberAttribute('maximum_retry_attempts');
   }
@@ -2063,7 +2063,7 @@ export class SchedulerScheduleTargetSageMakerPipelineParametersPipelineParameter
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2079,7 +2079,7 @@ export class SchedulerScheduleTargetSageMakerPipelineParametersPipelineParameter
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2291,7 +2291,7 @@ export class SchedulerScheduleTargetSqsParametersOutputReference extends cdktn.C
   }
 
   // message_group_id - computed: true, optional: true, required: false
-  private _messageGroupId?: string;
+  private _messageGroupId?: string; 
   public get messageGroupId() {
     return this.getStringAttribute('message_group_id');
   }
@@ -2558,7 +2558,7 @@ export class SchedulerScheduleTargetOutputReference extends cdktn.ComplexObject 
   }
 
   // arn - computed: false, optional: false, required: true
-  private _arn?: string;
+  private _arn?: string; 
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -2619,7 +2619,7 @@ export class SchedulerScheduleTargetOutputReference extends cdktn.ComplexObject 
   }
 
   // input - computed: true, optional: true, required: false
-  private _input?: string;
+  private _input?: string; 
   public get input() {
     return this.getStringAttribute('input');
   }
@@ -2667,7 +2667,7 @@ export class SchedulerScheduleTargetOutputReference extends cdktn.ComplexObject 
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -2785,7 +2785,7 @@ export class SchedulerSchedule extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -2801,7 +2801,7 @@ export class SchedulerSchedule extends cdktn.TerraformResource {
   }
 
   // end_date - computed: true, optional: true, required: false
-  private _endDate?: string;
+  private _endDate?: string; 
   public get endDate() {
     return this.getStringAttribute('end_date');
   }
@@ -2830,7 +2830,7 @@ export class SchedulerSchedule extends cdktn.TerraformResource {
   }
 
   // group_name - computed: true, optional: true, required: false
-  private _groupName?: string;
+  private _groupName?: string; 
   public get groupName() {
     return this.getStringAttribute('group_name');
   }
@@ -2851,7 +2851,7 @@ export class SchedulerSchedule extends cdktn.TerraformResource {
   }
 
   // kms_key_arn - computed: true, optional: true, required: false
-  private _kmsKeyArn?: string;
+  private _kmsKeyArn?: string; 
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -2867,7 +2867,7 @@ export class SchedulerSchedule extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2883,7 +2883,7 @@ export class SchedulerSchedule extends cdktn.TerraformResource {
   }
 
   // schedule_expression - computed: false, optional: false, required: true
-  private _scheduleExpression?: string;
+  private _scheduleExpression?: string; 
   public get scheduleExpression() {
     return this.getStringAttribute('schedule_expression');
   }
@@ -2896,7 +2896,7 @@ export class SchedulerSchedule extends cdktn.TerraformResource {
   }
 
   // schedule_expression_timezone - computed: true, optional: true, required: false
-  private _scheduleExpressionTimezone?: string;
+  private _scheduleExpressionTimezone?: string; 
   public get scheduleExpressionTimezone() {
     return this.getStringAttribute('schedule_expression_timezone');
   }
@@ -2912,7 +2912,7 @@ export class SchedulerSchedule extends cdktn.TerraformResource {
   }
 
   // start_date - computed: true, optional: true, required: false
-  private _startDate?: string;
+  private _startDate?: string; 
   public get startDate() {
     return this.getStringAttribute('start_date');
   }
@@ -2928,7 +2928,7 @@ export class SchedulerSchedule extends cdktn.TerraformResource {
   }
 
   // state - computed: true, optional: true, required: false
-  private _state?: string;
+  private _state?: string; 
   public get state() {
     return this.getStringAttribute('state');
   }

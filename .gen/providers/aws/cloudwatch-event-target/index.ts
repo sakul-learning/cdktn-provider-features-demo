@@ -194,7 +194,7 @@ export class CloudwatchEventTargetAppsyncTargetOutputReference extends cdktn.Com
   }
 
   // graphql_operation - computed: false, optional: true, required: false
-  private _graphqlOperation?: string;
+  private _graphqlOperation?: string; 
   public get graphqlOperation() {
     return this.getStringAttribute('graphql_operation');
   }
@@ -329,7 +329,7 @@ export class CloudwatchEventTargetBatchTargetOutputReference extends cdktn.Compl
   }
 
   // array_size - computed: false, optional: true, required: false
-  private _arraySize?: number;
+  private _arraySize?: number; 
   public get arraySize() {
     return this.getNumberAttribute('array_size');
   }
@@ -345,7 +345,7 @@ export class CloudwatchEventTargetBatchTargetOutputReference extends cdktn.Compl
   }
 
   // job_attempts - computed: false, optional: true, required: false
-  private _jobAttempts?: number;
+  private _jobAttempts?: number; 
   public get jobAttempts() {
     return this.getNumberAttribute('job_attempts');
   }
@@ -361,7 +361,7 @@ export class CloudwatchEventTargetBatchTargetOutputReference extends cdktn.Compl
   }
 
   // job_definition - computed: false, optional: false, required: true
-  private _jobDefinition?: string;
+  private _jobDefinition?: string; 
   public get jobDefinition() {
     return this.getStringAttribute('job_definition');
   }
@@ -374,7 +374,7 @@ export class CloudwatchEventTargetBatchTargetOutputReference extends cdktn.Compl
   }
 
   // job_name - computed: false, optional: false, required: true
-  private _jobName?: string;
+  private _jobName?: string; 
   public get jobName() {
     return this.getStringAttribute('job_name');
   }
@@ -455,7 +455,7 @@ export class CloudwatchEventTargetDeadLetterConfigOutputReference extends cdktn.
   }
 
   // arn - computed: false, optional: true, required: false
-  private _arn?: string;
+  private _arn?: string; 
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -585,7 +585,7 @@ export class CloudwatchEventTargetEcsTargetCapacityProviderStrategyOutputReferen
   }
 
   // base - computed: false, optional: true, required: false
-  private _base?: number;
+  private _base?: number; 
   public get base() {
     return this.getNumberAttribute('base');
   }
@@ -601,7 +601,7 @@ export class CloudwatchEventTargetEcsTargetCapacityProviderStrategyOutputReferen
   }
 
   // capacity_provider - computed: false, optional: false, required: true
-  private _capacityProvider?: string;
+  private _capacityProvider?: string; 
   public get capacityProvider() {
     return this.getStringAttribute('capacity_provider');
   }
@@ -614,7 +614,7 @@ export class CloudwatchEventTargetEcsTargetCapacityProviderStrategyOutputReferen
   }
 
   // weight - computed: false, optional: true, required: false
-  private _weight?: number;
+  private _weight?: number; 
   public get weight() {
     return this.getNumberAttribute('weight');
   }
@@ -752,7 +752,7 @@ export class CloudwatchEventTargetEcsTargetNetworkConfigurationOutputReference e
   }
 
   // assign_public_ip - computed: false, optional: true, required: false
-  private _assignPublicIp?: boolean | cdktn.IResolvable;
+  private _assignPublicIp?: boolean | cdktn.IResolvable; 
   public get assignPublicIp() {
     return this.getBooleanAttribute('assign_public_ip');
   }
@@ -768,7 +768,7 @@ export class CloudwatchEventTargetEcsTargetNetworkConfigurationOutputReference e
   }
 
   // security_groups - computed: false, optional: true, required: false
-  private _securityGroups?: string[];
+  private _securityGroups?: string[]; 
   public get securityGroups() {
     return cdktn.Fn.tolist(this.getListAttribute('security_groups'));
   }
@@ -784,7 +784,7 @@ export class CloudwatchEventTargetEcsTargetNetworkConfigurationOutputReference e
   }
 
   // subnets - computed: false, optional: false, required: true
-  private _subnets?: string[];
+  private _subnets?: string[]; 
   public get subnets() {
     return cdktn.Fn.tolist(this.getListAttribute('subnets'));
   }
@@ -894,7 +894,7 @@ export class CloudwatchEventTargetEcsTargetOrderedPlacementStrategyOutputReferen
   }
 
   // field - computed: false, optional: true, required: false
-  private _field?: string;
+  private _field?: string; 
   public get field() {
     return this.getStringAttribute('field');
   }
@@ -910,7 +910,7 @@ export class CloudwatchEventTargetEcsTargetOrderedPlacementStrategyOutputReferen
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -1040,7 +1040,7 @@ export class CloudwatchEventTargetEcsTargetPlacementConstraintOutputReference ex
   }
 
   // expression - computed: false, optional: true, required: false
-  private _expression?: string;
+  private _expression?: string; 
   public get expression() {
     return this.getStringAttribute('expression');
   }
@@ -1056,7 +1056,7 @@ export class CloudwatchEventTargetEcsTargetPlacementConstraintOutputReference ex
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -1369,7 +1369,7 @@ export class CloudwatchEventTargetEcsTargetOutputReference extends cdktn.Complex
   }
 
   // enable_ecs_managed_tags - computed: false, optional: true, required: false
-  private _enableEcsManagedTags?: boolean | cdktn.IResolvable;
+  private _enableEcsManagedTags?: boolean | cdktn.IResolvable; 
   public get enableEcsManagedTags() {
     return this.getBooleanAttribute('enable_ecs_managed_tags');
   }
@@ -1385,7 +1385,7 @@ export class CloudwatchEventTargetEcsTargetOutputReference extends cdktn.Complex
   }
 
   // enable_execute_command - computed: false, optional: true, required: false
-  private _enableExecuteCommand?: boolean | cdktn.IResolvable;
+  private _enableExecuteCommand?: boolean | cdktn.IResolvable; 
   public get enableExecuteCommand() {
     return this.getBooleanAttribute('enable_execute_command');
   }
@@ -1401,7 +1401,7 @@ export class CloudwatchEventTargetEcsTargetOutputReference extends cdktn.Complex
   }
 
   // group - computed: false, optional: true, required: false
-  private _group?: string;
+  private _group?: string; 
   public get group() {
     return this.getStringAttribute('group');
   }
@@ -1417,7 +1417,7 @@ export class CloudwatchEventTargetEcsTargetOutputReference extends cdktn.Complex
   }
 
   // launch_type - computed: false, optional: true, required: false
-  private _launchType?: string;
+  private _launchType?: string; 
   public get launchType() {
     return this.getStringAttribute('launch_type');
   }
@@ -1433,7 +1433,7 @@ export class CloudwatchEventTargetEcsTargetOutputReference extends cdktn.Complex
   }
 
   // platform_version - computed: false, optional: true, required: false
-  private _platformVersion?: string;
+  private _platformVersion?: string; 
   public get platformVersion() {
     return this.getStringAttribute('platform_version');
   }
@@ -1449,7 +1449,7 @@ export class CloudwatchEventTargetEcsTargetOutputReference extends cdktn.Complex
   }
 
   // propagate_tags - computed: false, optional: true, required: false
-  private _propagateTags?: string;
+  private _propagateTags?: string; 
   public get propagateTags() {
     return this.getStringAttribute('propagate_tags');
   }
@@ -1465,7 +1465,7 @@ export class CloudwatchEventTargetEcsTargetOutputReference extends cdktn.Complex
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -1481,7 +1481,7 @@ export class CloudwatchEventTargetEcsTargetOutputReference extends cdktn.Complex
   }
 
   // task_count - computed: false, optional: true, required: false
-  private _taskCount?: number;
+  private _taskCount?: number; 
   public get taskCount() {
     return this.getNumberAttribute('task_count');
   }
@@ -1497,7 +1497,7 @@ export class CloudwatchEventTargetEcsTargetOutputReference extends cdktn.Complex
   }
 
   // task_definition_arn - computed: false, optional: false, required: true
-  private _taskDefinitionArn?: string;
+  private _taskDefinitionArn?: string; 
   public get taskDefinitionArn() {
     return this.getStringAttribute('task_definition_arn');
   }
@@ -1676,7 +1676,7 @@ export class CloudwatchEventTargetHttpTargetOutputReference extends cdktn.Comple
   }
 
   // header_parameters - computed: false, optional: true, required: false
-  private _headerParameters?: { [key: string]: string };
+  private _headerParameters?: { [key: string]: string }; 
   public get headerParameters() {
     return this.getStringMapAttribute('header_parameters');
   }
@@ -1692,7 +1692,7 @@ export class CloudwatchEventTargetHttpTargetOutputReference extends cdktn.Comple
   }
 
   // path_parameter_values - computed: false, optional: true, required: false
-  private _pathParameterValues?: string[];
+  private _pathParameterValues?: string[]; 
   public get pathParameterValues() {
     return this.getListAttribute('path_parameter_values');
   }
@@ -1708,7 +1708,7 @@ export class CloudwatchEventTargetHttpTargetOutputReference extends cdktn.Comple
   }
 
   // query_string_parameters - computed: false, optional: true, required: false
-  private _queryStringParameters?: { [key: string]: string };
+  private _queryStringParameters?: { [key: string]: string }; 
   public get queryStringParameters() {
     return this.getStringMapAttribute('query_string_parameters');
   }
@@ -1809,7 +1809,7 @@ export class CloudwatchEventTargetInputTransformerOutputReference extends cdktn.
   }
 
   // input_paths - computed: false, optional: true, required: false
-  private _inputPaths?: { [key: string]: string };
+  private _inputPaths?: { [key: string]: string }; 
   public get inputPaths() {
     return this.getStringMapAttribute('input_paths');
   }
@@ -1825,7 +1825,7 @@ export class CloudwatchEventTargetInputTransformerOutputReference extends cdktn.
   }
 
   // input_template - computed: false, optional: false, required: true
-  private _inputTemplate?: string;
+  private _inputTemplate?: string; 
   public get inputTemplate() {
     return this.getStringAttribute('input_template');
   }
@@ -1906,7 +1906,7 @@ export class CloudwatchEventTargetKinesisTargetOutputReference extends cdktn.Com
   }
 
   // partition_key_path - computed: false, optional: true, required: false
-  private _partitionKeyPath?: string;
+  private _partitionKeyPath?: string; 
   public get partitionKeyPath() {
     return this.getStringAttribute('partition_key_path');
   }
@@ -2075,7 +2075,7 @@ export class CloudwatchEventTargetRedshiftTargetOutputReference extends cdktn.Co
   }
 
   // database - computed: false, optional: false, required: true
-  private _database?: string;
+  private _database?: string; 
   public get database() {
     return this.getStringAttribute('database');
   }
@@ -2088,7 +2088,7 @@ export class CloudwatchEventTargetRedshiftTargetOutputReference extends cdktn.Co
   }
 
   // db_user - computed: false, optional: true, required: false
-  private _dbUser?: string;
+  private _dbUser?: string; 
   public get dbUser() {
     return this.getStringAttribute('db_user');
   }
@@ -2104,7 +2104,7 @@ export class CloudwatchEventTargetRedshiftTargetOutputReference extends cdktn.Co
   }
 
   // secrets_manager_arn - computed: false, optional: true, required: false
-  private _secretsManagerArn?: string;
+  private _secretsManagerArn?: string; 
   public get secretsManagerArn() {
     return this.getStringAttribute('secrets_manager_arn');
   }
@@ -2120,7 +2120,7 @@ export class CloudwatchEventTargetRedshiftTargetOutputReference extends cdktn.Co
   }
 
   // sql - computed: false, optional: true, required: false
-  private _sql?: string;
+  private _sql?: string; 
   public get sql() {
     return this.getStringAttribute('sql');
   }
@@ -2136,7 +2136,7 @@ export class CloudwatchEventTargetRedshiftTargetOutputReference extends cdktn.Co
   }
 
   // statement_name - computed: false, optional: true, required: false
-  private _statementName?: string;
+  private _statementName?: string; 
   public get statementName() {
     return this.getStringAttribute('statement_name');
   }
@@ -2152,7 +2152,7 @@ export class CloudwatchEventTargetRedshiftTargetOutputReference extends cdktn.Co
   }
 
   // with_event - computed: false, optional: true, required: false
-  private _withEvent?: boolean | cdktn.IResolvable;
+  private _withEvent?: boolean | cdktn.IResolvable; 
   public get withEvent() {
     return this.getBooleanAttribute('with_event');
   }
@@ -2253,7 +2253,7 @@ export class CloudwatchEventTargetRetryPolicyOutputReference extends cdktn.Compl
   }
 
   // maximum_event_age_in_seconds - computed: false, optional: true, required: false
-  private _maximumEventAgeInSeconds?: number;
+  private _maximumEventAgeInSeconds?: number; 
   public get maximumEventAgeInSeconds() {
     return this.getNumberAttribute('maximum_event_age_in_seconds');
   }
@@ -2269,7 +2269,7 @@ export class CloudwatchEventTargetRetryPolicyOutputReference extends cdktn.Compl
   }
 
   // maximum_retry_attempts - computed: false, optional: true, required: false
-  private _maximumRetryAttempts?: number;
+  private _maximumRetryAttempts?: number; 
   public get maximumRetryAttempts() {
     return this.getNumberAttribute('maximum_retry_attempts');
   }
@@ -2382,7 +2382,7 @@ export class CloudwatchEventTargetRunCommandTargetsOutputReference extends cdktn
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -2395,7 +2395,7 @@ export class CloudwatchEventTargetRunCommandTargetsOutputReference extends cdktn
   }
 
   // values - computed: false, optional: false, required: true
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -2525,7 +2525,7 @@ export class CloudwatchEventTargetSagemakerPipelineTargetPipelineParameterListSt
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2538,7 +2538,7 @@ export class CloudwatchEventTargetSagemakerPipelineTargetPipelineParameterListSt
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2725,7 +2725,7 @@ export class CloudwatchEventTargetSqsTargetOutputReference extends cdktn.Complex
   }
 
   // message_group_id - computed: false, optional: true, required: false
-  private _messageGroupId?: string;
+  private _messageGroupId?: string; 
   public get messageGroupId() {
     return this.getStringAttribute('message_group_id');
   }
@@ -2820,7 +2820,7 @@ export class CloudwatchEventTarget extends cdktn.TerraformResource {
   // ==========
 
   // arn - computed: false, optional: false, required: true
-  private _arn?: string;
+  private _arn?: string; 
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -2833,7 +2833,7 @@ export class CloudwatchEventTarget extends cdktn.TerraformResource {
   }
 
   // event_bus_name - computed: false, optional: true, required: false
-  private _eventBusName?: string;
+  private _eventBusName?: string; 
   public get eventBusName() {
     return this.getStringAttribute('event_bus_name');
   }
@@ -2849,7 +2849,7 @@ export class CloudwatchEventTarget extends cdktn.TerraformResource {
   }
 
   // force_destroy - computed: false, optional: true, required: false
-  private _forceDestroy?: boolean | cdktn.IResolvable;
+  private _forceDestroy?: boolean | cdktn.IResolvable; 
   public get forceDestroy() {
     return this.getBooleanAttribute('force_destroy');
   }
@@ -2865,7 +2865,7 @@ export class CloudwatchEventTarget extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -2881,7 +2881,7 @@ export class CloudwatchEventTarget extends cdktn.TerraformResource {
   }
 
   // input - computed: false, optional: true, required: false
-  private _input?: string;
+  private _input?: string; 
   public get input() {
     return this.getStringAttribute('input');
   }
@@ -2897,7 +2897,7 @@ export class CloudwatchEventTarget extends cdktn.TerraformResource {
   }
 
   // input_path - computed: false, optional: true, required: false
-  private _inputPath?: string;
+  private _inputPath?: string; 
   public get inputPath() {
     return this.getStringAttribute('input_path');
   }
@@ -2913,7 +2913,7 @@ export class CloudwatchEventTarget extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -2929,7 +2929,7 @@ export class CloudwatchEventTarget extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -2945,7 +2945,7 @@ export class CloudwatchEventTarget extends cdktn.TerraformResource {
   }
 
   // rule - computed: false, optional: false, required: true
-  private _rule?: string;
+  private _rule?: string; 
   public get rule() {
     return this.getStringAttribute('rule');
   }
@@ -2958,7 +2958,7 @@ export class CloudwatchEventTarget extends cdktn.TerraformResource {
   }
 
   // target_id - computed: true, optional: true, required: false
-  private _targetId?: string;
+  private _targetId?: string; 
   public get targetId() {
     return this.getStringAttribute('target_id');
   }

@@ -83,7 +83,7 @@ export class CloudwatchLogDeliveryDestinationPolicy extends cdktn.TerraformResou
   // ==========
 
   // delivery_destination_name - computed: false, optional: false, required: true
-  private _deliveryDestinationName?: string;
+  private _deliveryDestinationName?: string; 
   public get deliveryDestinationName() {
     return this.getStringAttribute('delivery_destination_name');
   }
@@ -96,7 +96,7 @@ export class CloudwatchLogDeliveryDestinationPolicy extends cdktn.TerraformResou
   }
 
   // delivery_destination_policy - computed: false, optional: false, required: true
-  private _deliveryDestinationPolicy?: string;
+  private _deliveryDestinationPolicy?: string; 
   public get deliveryDestinationPolicy() {
     return this.getStringAttribute('delivery_destination_policy');
   }
@@ -109,7 +109,7 @@ export class CloudwatchLogDeliveryDestinationPolicy extends cdktn.TerraformResou
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

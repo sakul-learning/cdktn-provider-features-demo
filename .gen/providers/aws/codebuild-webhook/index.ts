@@ -170,7 +170,7 @@ export class CodebuildWebhookFilterGroupFilterOutputReference extends cdktn.Comp
   }
 
   // exclude_matched_pattern - computed: false, optional: true, required: false
-  private _excludeMatchedPattern?: boolean | cdktn.IResolvable;
+  private _excludeMatchedPattern?: boolean | cdktn.IResolvable; 
   public get excludeMatchedPattern() {
     return this.getBooleanAttribute('exclude_matched_pattern');
   }
@@ -186,7 +186,7 @@ export class CodebuildWebhookFilterGroupFilterOutputReference extends cdktn.Comp
   }
 
   // pattern - computed: false, optional: false, required: true
-  private _pattern?: string;
+  private _pattern?: string; 
   public get pattern() {
     return this.getStringAttribute('pattern');
   }
@@ -199,7 +199,7 @@ export class CodebuildWebhookFilterGroupFilterOutputReference extends cdktn.Comp
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -435,7 +435,7 @@ export class CodebuildWebhookPullRequestBuildPolicyOutputReference extends cdktn
   }
 
   // approver_roles - computed: true, optional: true, required: false
-  private _approverRoles?: string[];
+  private _approverRoles?: string[]; 
   public get approverRoles() {
     return cdktn.Fn.tolist(this.getListAttribute('approver_roles'));
   }
@@ -451,7 +451,7 @@ export class CodebuildWebhookPullRequestBuildPolicyOutputReference extends cdktn
   }
 
   // requires_comment_approval - computed: false, optional: false, required: true
-  private _requiresCommentApproval?: string;
+  private _requiresCommentApproval?: string; 
   public get requiresCommentApproval() {
     return this.getStringAttribute('requires_comment_approval');
   }
@@ -566,7 +566,7 @@ export class CodebuildWebhookScopeConfigurationOutputReference extends cdktn.Com
   }
 
   // domain - computed: false, optional: true, required: false
-  private _domain?: string;
+  private _domain?: string; 
   public get domain() {
     return this.getStringAttribute('domain');
   }
@@ -582,7 +582,7 @@ export class CodebuildWebhookScopeConfigurationOutputReference extends cdktn.Com
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -595,7 +595,7 @@ export class CodebuildWebhookScopeConfigurationOutputReference extends cdktn.Com
   }
 
   // scope - computed: false, optional: false, required: true
-  private _scope?: string;
+  private _scope?: string; 
   public get scope() {
     return this.getStringAttribute('scope');
   }
@@ -674,7 +674,7 @@ export class CodebuildWebhook extends cdktn.TerraformResource {
   // ==========
 
   // branch_filter - computed: false, optional: true, required: false
-  private _branchFilter?: string;
+  private _branchFilter?: string; 
   public get branchFilter() {
     return this.getStringAttribute('branch_filter');
   }
@@ -690,7 +690,7 @@ export class CodebuildWebhook extends cdktn.TerraformResource {
   }
 
   // build_type - computed: false, optional: true, required: false
-  private _buildType?: string;
+  private _buildType?: string; 
   public get buildType() {
     return this.getStringAttribute('build_type');
   }
@@ -706,7 +706,7 @@ export class CodebuildWebhook extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -722,7 +722,7 @@ export class CodebuildWebhook extends cdktn.TerraformResource {
   }
 
   // manual_creation - computed: false, optional: true, required: false
-  private _manualCreation?: boolean | cdktn.IResolvable;
+  private _manualCreation?: boolean | cdktn.IResolvable; 
   public get manualCreation() {
     return this.getBooleanAttribute('manual_creation');
   }
@@ -743,7 +743,7 @@ export class CodebuildWebhook extends cdktn.TerraformResource {
   }
 
   // project_name - computed: false, optional: false, required: true
-  private _projectName?: string;
+  private _projectName?: string; 
   public get projectName() {
     return this.getStringAttribute('project_name');
   }
@@ -756,7 +756,7 @@ export class CodebuildWebhook extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

@@ -116,7 +116,7 @@ export class DataAwsLambdaLayerVersion extends cdktn.TerraformDataSource {
   }
 
   // compatible_architecture - computed: false, optional: true, required: false
-  private _compatibleArchitecture?: string;
+  private _compatibleArchitecture?: string; 
   public get compatibleArchitecture() {
     return this.getStringAttribute('compatible_architecture');
   }
@@ -137,7 +137,7 @@ export class DataAwsLambdaLayerVersion extends cdktn.TerraformDataSource {
   }
 
   // compatible_runtime - computed: false, optional: true, required: false
-  private _compatibleRuntime?: string;
+  private _compatibleRuntime?: string; 
   public get compatibleRuntime() {
     return this.getStringAttribute('compatible_runtime');
   }
@@ -168,7 +168,7 @@ export class DataAwsLambdaLayerVersion extends cdktn.TerraformDataSource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -189,7 +189,7 @@ export class DataAwsLambdaLayerVersion extends cdktn.TerraformDataSource {
   }
 
   // layer_name - computed: true, optional: true, required: false
-  private _layerName?: string;
+  private _layerName?: string; 
   public get layerName() {
     return this.getStringAttribute('layer_name');
   }
@@ -205,7 +205,7 @@ export class DataAwsLambdaLayerVersion extends cdktn.TerraformDataSource {
   }
 
   // layer_version_arn - computed: true, optional: true, required: false
-  private _layerVersionArn?: string;
+  private _layerVersionArn?: string; 
   public get layerVersionArn() {
     return this.getStringAttribute('layer_version_arn');
   }
@@ -226,7 +226,7 @@ export class DataAwsLambdaLayerVersion extends cdktn.TerraformDataSource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -262,7 +262,7 @@ export class DataAwsLambdaLayerVersion extends cdktn.TerraformDataSource {
   }
 
   // version - computed: true, optional: true, required: false
-  private _version?: number;
+  private _version?: number; 
   public get version() {
     return this.getNumberAttribute('version');
   }

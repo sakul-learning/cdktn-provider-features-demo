@@ -153,7 +153,7 @@ export class DevopsagentAssociationConfigurationAwsResourcesOutputReference exte
   }
 
   // resource_arn - computed: true, optional: true, required: false
-  private _resourceArn?: string;
+  private _resourceArn?: string; 
   public get resourceArn() {
     return this.getStringAttribute('resource_arn');
   }
@@ -169,7 +169,7 @@ export class DevopsagentAssociationConfigurationAwsResourcesOutputReference exte
   }
 
   // resource_metadata - computed: true, optional: true, required: false
-  private _resourceMetadata?: string;
+  private _resourceMetadata?: string; 
   public get resourceMetadata() {
     return this.getStringAttribute('resource_metadata');
   }
@@ -185,7 +185,7 @@ export class DevopsagentAssociationConfigurationAwsResourcesOutputReference exte
   }
 
   // resource_type - computed: true, optional: true, required: false
-  private _resourceType?: string;
+  private _resourceType?: string; 
   public get resourceType() {
     return this.getStringAttribute('resource_type');
   }
@@ -318,7 +318,7 @@ export class DevopsagentAssociationConfigurationAwsTagsOutputReference extends c
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -334,7 +334,7 @@ export class DevopsagentAssociationConfigurationAwsTagsOutputReference extends c
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -526,7 +526,7 @@ export class DevopsagentAssociationConfigurationAwsOutputReference extends cdktn
   }
 
   // account_id - computed: true, optional: true, required: false
-  private _accountId?: string;
+  private _accountId?: string; 
   public get accountId() {
     return this.getStringAttribute('account_id');
   }
@@ -542,7 +542,7 @@ export class DevopsagentAssociationConfigurationAwsOutputReference extends cdktn
   }
 
   // account_type - computed: true, optional: true, required: false
-  private _accountType?: string;
+  private _accountType?: string; 
   public get accountType() {
     return this.getStringAttribute('account_type');
   }
@@ -558,7 +558,7 @@ export class DevopsagentAssociationConfigurationAwsOutputReference extends cdktn
   }
 
   // assumable_role_arn - computed: true, optional: true, required: false
-  private _assumableRoleArn?: string;
+  private _assumableRoleArn?: string; 
   public get assumableRoleArn() {
     return this.getStringAttribute('assumable_role_arn');
   }
@@ -686,7 +686,7 @@ export class DevopsagentAssociationConfigurationAzureOutputReference extends cdk
   }
 
   // subscription_id - computed: true, optional: true, required: false
-  private _subscriptionId?: string;
+  private _subscriptionId?: string; 
   public get subscriptionId() {
     return this.getStringAttribute('subscription_id');
   }
@@ -820,7 +820,7 @@ export class DevopsagentAssociationConfigurationDynatraceOutputReference extends
   }
 
   // enable_webhook_updates - computed: true, optional: true, required: false
-  private _enableWebhookUpdates?: boolean | cdktn.IResolvable;
+  private _enableWebhookUpdates?: boolean | cdktn.IResolvable; 
   public get enableWebhookUpdates() {
     return this.getBooleanAttribute('enable_webhook_updates');
   }
@@ -836,7 +836,7 @@ export class DevopsagentAssociationConfigurationDynatraceOutputReference extends
   }
 
   // env_id - computed: true, optional: true, required: false
-  private _envId?: string;
+  private _envId?: string; 
   public get envId() {
     return this.getStringAttribute('env_id');
   }
@@ -852,7 +852,7 @@ export class DevopsagentAssociationConfigurationDynatraceOutputReference extends
   }
 
   // resources - computed: true, optional: true, required: false
-  private _resources?: string[];
+  private _resources?: string[]; 
   public get resources() {
     return this.getListAttribute('resources');
   }
@@ -948,7 +948,7 @@ export class DevopsagentAssociationConfigurationEventChannelOutputReference exte
   }
 
   // enable_webhook_updates - computed: true, optional: true, required: false
-  private _enableWebhookUpdates?: boolean | cdktn.IResolvable;
+  private _enableWebhookUpdates?: boolean | cdktn.IResolvable; 
   public get enableWebhookUpdates() {
     return this.getBooleanAttribute('enable_webhook_updates');
   }
@@ -1101,7 +1101,7 @@ export class DevopsagentAssociationConfigurationGitHubOutputReference extends cd
   }
 
   // owner - computed: true, optional: true, required: false
-  private _owner?: string;
+  private _owner?: string; 
   public get owner() {
     return this.getStringAttribute('owner');
   }
@@ -1117,7 +1117,7 @@ export class DevopsagentAssociationConfigurationGitHubOutputReference extends cd
   }
 
   // owner_type - computed: true, optional: true, required: false
-  private _ownerType?: string;
+  private _ownerType?: string; 
   public get ownerType() {
     return this.getStringAttribute('owner_type');
   }
@@ -1133,7 +1133,7 @@ export class DevopsagentAssociationConfigurationGitHubOutputReference extends cd
   }
 
   // repo_id - computed: true, optional: true, required: false
-  private _repoId?: string;
+  private _repoId?: string; 
   public get repoId() {
     return this.getStringAttribute('repo_id');
   }
@@ -1149,7 +1149,7 @@ export class DevopsagentAssociationConfigurationGitHubOutputReference extends cd
   }
 
   // repo_name - computed: true, optional: true, required: false
-  private _repoName?: string;
+  private _repoName?: string; 
   public get repoName() {
     return this.getStringAttribute('repo_name');
   }
@@ -1302,7 +1302,7 @@ export class DevopsagentAssociationConfigurationGitLabOutputReference extends cd
   }
 
   // enable_webhook_updates - computed: true, optional: true, required: false
-  private _enableWebhookUpdates?: boolean | cdktn.IResolvable;
+  private _enableWebhookUpdates?: boolean | cdktn.IResolvable; 
   public get enableWebhookUpdates() {
     return this.getBooleanAttribute('enable_webhook_updates');
   }
@@ -1318,7 +1318,7 @@ export class DevopsagentAssociationConfigurationGitLabOutputReference extends cd
   }
 
   // instance_identifier - computed: true, optional: true, required: false
-  private _instanceIdentifier?: string;
+  private _instanceIdentifier?: string; 
   public get instanceIdentifier() {
     return this.getStringAttribute('instance_identifier');
   }
@@ -1334,7 +1334,7 @@ export class DevopsagentAssociationConfigurationGitLabOutputReference extends cd
   }
 
   // project_id - computed: true, optional: true, required: false
-  private _projectId?: string;
+  private _projectId?: string; 
   public get projectId() {
     return this.getStringAttribute('project_id');
   }
@@ -1350,7 +1350,7 @@ export class DevopsagentAssociationConfigurationGitLabOutputReference extends cd
   }
 
   // project_path - computed: true, optional: true, required: false
-  private _projectPath?: string;
+  private _projectPath?: string; 
   public get projectPath() {
     return this.getStringAttribute('project_path');
   }
@@ -1522,7 +1522,7 @@ export class DevopsagentAssociationConfigurationMcpServerOutputReference extends
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1538,7 +1538,7 @@ export class DevopsagentAssociationConfigurationMcpServerOutputReference extends
   }
 
   // enable_webhook_updates - computed: true, optional: true, required: false
-  private _enableWebhookUpdates?: boolean | cdktn.IResolvable;
+  private _enableWebhookUpdates?: boolean | cdktn.IResolvable; 
   public get enableWebhookUpdates() {
     return this.getBooleanAttribute('enable_webhook_updates');
   }
@@ -1554,7 +1554,7 @@ export class DevopsagentAssociationConfigurationMcpServerOutputReference extends
   }
 
   // endpoint - computed: true, optional: true, required: false
-  private _endpoint?: string;
+  private _endpoint?: string; 
   public get endpoint() {
     return this.getStringAttribute('endpoint');
   }
@@ -1570,7 +1570,7 @@ export class DevopsagentAssociationConfigurationMcpServerOutputReference extends
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1586,7 +1586,7 @@ export class DevopsagentAssociationConfigurationMcpServerOutputReference extends
   }
 
   // tools - computed: true, optional: true, required: false
-  private _tools?: string[];
+  private _tools?: string[]; 
   public get tools() {
     return this.getListAttribute('tools');
   }
@@ -1739,7 +1739,7 @@ export class DevopsagentAssociationConfigurationMcpServerDatadogOutputReference 
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1755,7 +1755,7 @@ export class DevopsagentAssociationConfigurationMcpServerDatadogOutputReference 
   }
 
   // enable_webhook_updates - computed: true, optional: true, required: false
-  private _enableWebhookUpdates?: boolean | cdktn.IResolvable;
+  private _enableWebhookUpdates?: boolean | cdktn.IResolvable; 
   public get enableWebhookUpdates() {
     return this.getBooleanAttribute('enable_webhook_updates');
   }
@@ -1771,7 +1771,7 @@ export class DevopsagentAssociationConfigurationMcpServerDatadogOutputReference 
   }
 
   // endpoint - computed: true, optional: true, required: false
-  private _endpoint?: string;
+  private _endpoint?: string; 
   public get endpoint() {
     return this.getStringAttribute('endpoint');
   }
@@ -1787,7 +1787,7 @@ export class DevopsagentAssociationConfigurationMcpServerDatadogOutputReference 
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1921,7 +1921,7 @@ export class DevopsagentAssociationConfigurationMcpServerGrafanaOutputReference 
   }
 
   // enable_webhook_updates - computed: true, optional: true, required: false
-  private _enableWebhookUpdates?: boolean | cdktn.IResolvable;
+  private _enableWebhookUpdates?: boolean | cdktn.IResolvable; 
   public get enableWebhookUpdates() {
     return this.getBooleanAttribute('enable_webhook_updates');
   }
@@ -1937,7 +1937,7 @@ export class DevopsagentAssociationConfigurationMcpServerGrafanaOutputReference 
   }
 
   // endpoint - computed: true, optional: true, required: false
-  private _endpoint?: string;
+  private _endpoint?: string; 
   public get endpoint() {
     return this.getStringAttribute('endpoint');
   }
@@ -1953,7 +1953,7 @@ export class DevopsagentAssociationConfigurationMcpServerGrafanaOutputReference 
   }
 
   // tools - computed: true, optional: true, required: false
-  private _tools?: string[];
+  private _tools?: string[]; 
   public get tools() {
     return this.getListAttribute('tools');
   }
@@ -2068,7 +2068,7 @@ export class DevopsagentAssociationConfigurationMcpServerNewRelicOutputReference
   }
 
   // account_id - computed: true, optional: true, required: false
-  private _accountId?: string;
+  private _accountId?: string; 
   public get accountId() {
     return this.getStringAttribute('account_id');
   }
@@ -2084,7 +2084,7 @@ export class DevopsagentAssociationConfigurationMcpServerNewRelicOutputReference
   }
 
   // endpoint - computed: true, optional: true, required: false
-  private _endpoint?: string;
+  private _endpoint?: string; 
   public get endpoint() {
     return this.getStringAttribute('endpoint');
   }
@@ -2180,7 +2180,7 @@ export class DevopsagentAssociationConfigurationMcpServerSigV4OutputReference ex
   }
 
   // tools - computed: true, optional: true, required: false
-  private _tools?: string[];
+  private _tools?: string[]; 
   public get tools() {
     return this.getListAttribute('tools');
   }
@@ -2333,7 +2333,7 @@ export class DevopsagentAssociationConfigurationMcpServerSplunkOutputReference e
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -2349,7 +2349,7 @@ export class DevopsagentAssociationConfigurationMcpServerSplunkOutputReference e
   }
 
   // enable_webhook_updates - computed: true, optional: true, required: false
-  private _enableWebhookUpdates?: boolean | cdktn.IResolvable;
+  private _enableWebhookUpdates?: boolean | cdktn.IResolvable; 
   public get enableWebhookUpdates() {
     return this.getBooleanAttribute('enable_webhook_updates');
   }
@@ -2365,7 +2365,7 @@ export class DevopsagentAssociationConfigurationMcpServerSplunkOutputReference e
   }
 
   // endpoint - computed: true, optional: true, required: false
-  private _endpoint?: string;
+  private _endpoint?: string; 
   public get endpoint() {
     return this.getStringAttribute('endpoint');
   }
@@ -2381,7 +2381,7 @@ export class DevopsagentAssociationConfigurationMcpServerSplunkOutputReference e
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2515,7 +2515,7 @@ export class DevopsagentAssociationConfigurationPagerDutyOutputReference extends
   }
 
   // customer_email - computed: true, optional: true, required: false
-  private _customerEmail?: string;
+  private _customerEmail?: string; 
   public get customerEmail() {
     return this.getStringAttribute('customer_email');
   }
@@ -2531,7 +2531,7 @@ export class DevopsagentAssociationConfigurationPagerDutyOutputReference extends
   }
 
   // enable_webhook_updates - computed: true, optional: true, required: false
-  private _enableWebhookUpdates?: boolean | cdktn.IResolvable;
+  private _enableWebhookUpdates?: boolean | cdktn.IResolvable; 
   public get enableWebhookUpdates() {
     return this.getBooleanAttribute('enable_webhook_updates');
   }
@@ -2547,7 +2547,7 @@ export class DevopsagentAssociationConfigurationPagerDutyOutputReference extends
   }
 
   // services - computed: true, optional: true, required: false
-  private _services?: string[];
+  private _services?: string[]; 
   public get services() {
     return this.getListAttribute('services');
   }
@@ -2662,7 +2662,7 @@ export class DevopsagentAssociationConfigurationServiceNowOutputReference extend
   }
 
   // enable_webhook_updates - computed: true, optional: true, required: false
-  private _enableWebhookUpdates?: boolean | cdktn.IResolvable;
+  private _enableWebhookUpdates?: boolean | cdktn.IResolvable; 
   public get enableWebhookUpdates() {
     return this.getBooleanAttribute('enable_webhook_updates');
   }
@@ -2678,7 +2678,7 @@ export class DevopsagentAssociationConfigurationServiceNowOutputReference extend
   }
 
   // instance_id - computed: true, optional: true, required: false
-  private _instanceId?: string;
+  private _instanceId?: string; 
   public get instanceId() {
     return this.getStringAttribute('instance_id');
   }
@@ -2793,7 +2793,7 @@ export class DevopsagentAssociationConfigurationSlackTransmissionTargetIncidentR
   }
 
   // channel_id - computed: true, optional: true, required: false
-  private _channelId?: string;
+  private _channelId?: string; 
   public get channelId() {
     return this.getStringAttribute('channel_id');
   }
@@ -2809,7 +2809,7 @@ export class DevopsagentAssociationConfigurationSlackTransmissionTargetIncidentR
   }
 
   // channel_name - computed: true, optional: true, required: false
-  private _channelName?: string;
+  private _channelName?: string; 
   public get channelName() {
     return this.getStringAttribute('channel_name');
   }
@@ -3055,7 +3055,7 @@ export class DevopsagentAssociationConfigurationSlackOutputReference extends cdk
   }
 
   // workspace_id - computed: true, optional: true, required: false
-  private _workspaceId?: string;
+  private _workspaceId?: string; 
   public get workspaceId() {
     return this.getStringAttribute('workspace_id');
   }
@@ -3071,7 +3071,7 @@ export class DevopsagentAssociationConfigurationSlackOutputReference extends cdk
   }
 
   // workspace_name - computed: true, optional: true, required: false
-  private _workspaceName?: string;
+  private _workspaceName?: string; 
   public get workspaceName() {
     return this.getStringAttribute('workspace_name');
   }
@@ -3207,7 +3207,7 @@ export class DevopsagentAssociationConfigurationSourceAwsResourcesOutputReferenc
   }
 
   // resource_arn - computed: true, optional: true, required: false
-  private _resourceArn?: string;
+  private _resourceArn?: string; 
   public get resourceArn() {
     return this.getStringAttribute('resource_arn');
   }
@@ -3223,7 +3223,7 @@ export class DevopsagentAssociationConfigurationSourceAwsResourcesOutputReferenc
   }
 
   // resource_metadata - computed: true, optional: true, required: false
-  private _resourceMetadata?: string;
+  private _resourceMetadata?: string; 
   public get resourceMetadata() {
     return this.getStringAttribute('resource_metadata');
   }
@@ -3239,7 +3239,7 @@ export class DevopsagentAssociationConfigurationSourceAwsResourcesOutputReferenc
   }
 
   // resource_type - computed: true, optional: true, required: false
-  private _resourceType?: string;
+  private _resourceType?: string; 
   public get resourceType() {
     return this.getStringAttribute('resource_type');
   }
@@ -3372,7 +3372,7 @@ export class DevopsagentAssociationConfigurationSourceAwsTagsOutputReference ext
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -3388,7 +3388,7 @@ export class DevopsagentAssociationConfigurationSourceAwsTagsOutputReference ext
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -3580,7 +3580,7 @@ export class DevopsagentAssociationConfigurationSourceAwsOutputReference extends
   }
 
   // account_id - computed: true, optional: true, required: false
-  private _accountId?: string;
+  private _accountId?: string; 
   public get accountId() {
     return this.getStringAttribute('account_id');
   }
@@ -3596,7 +3596,7 @@ export class DevopsagentAssociationConfigurationSourceAwsOutputReference extends
   }
 
   // account_type - computed: true, optional: true, required: false
-  private _accountType?: string;
+  private _accountType?: string; 
   public get accountType() {
     return this.getStringAttribute('account_type');
   }
@@ -3612,7 +3612,7 @@ export class DevopsagentAssociationConfigurationSourceAwsOutputReference extends
   }
 
   // assumable_role_arn - computed: true, optional: true, required: false
-  private _assumableRoleArn?: string;
+  private _assumableRoleArn?: string; 
   public get assumableRoleArn() {
     return this.getStringAttribute('assumable_role_arn');
   }
@@ -4342,7 +4342,7 @@ export class DevopsagentAssociation extends cdktn.TerraformResource {
   // ==========
 
   // agent_space_id - computed: false, optional: false, required: true
-  private _agentSpaceId?: string;
+  private _agentSpaceId?: string; 
   public get agentSpaceId() {
     return this.getStringAttribute('agent_space_id');
   }
@@ -4383,7 +4383,7 @@ export class DevopsagentAssociation extends cdktn.TerraformResource {
   }
 
   // linked_association_ids - computed: true, optional: true, required: false
-  private _linkedAssociationIds?: string[];
+  private _linkedAssociationIds?: string[]; 
   public get linkedAssociationIds() {
     return this.getListAttribute('linked_association_ids');
   }
@@ -4399,7 +4399,7 @@ export class DevopsagentAssociation extends cdktn.TerraformResource {
   }
 
   // service_id - computed: false, optional: false, required: true
-  private _serviceId?: string;
+  private _serviceId?: string; 
   public get serviceId() {
     return this.getStringAttribute('service_id');
   }

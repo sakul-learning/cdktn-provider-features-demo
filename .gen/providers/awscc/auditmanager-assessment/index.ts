@@ -56,7 +56,7 @@ export interface AuditmanagerAssessmentConfig extends cdktn.TerraformMetaArgumen
   */
   readonly scope?: AuditmanagerAssessmentScope;
   /**
-  * The status of the specified assessment.
+  * The status of the specified assessment. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/auditmanager_assessment#status AuditmanagerAssessment#status}
   */
@@ -168,7 +168,7 @@ export class AuditmanagerAssessmentAssessmentReportsDestinationOutputReference e
   }
 
   // destination - computed: true, optional: true, required: false
-  private _destination?: string;
+  private _destination?: string; 
   public get destination() {
     return this.getStringAttribute('destination');
   }
@@ -184,7 +184,7 @@ export class AuditmanagerAssessmentAssessmentReportsDestinationOutputReference e
   }
 
   // destination_type - computed: true, optional: true, required: false
-  private _destinationType?: string;
+  private _destinationType?: string; 
   public get destinationType() {
     return this.getStringAttribute('destination_type');
   }
@@ -321,7 +321,7 @@ export class AuditmanagerAssessmentAwsAccountOutputReference extends cdktn.Compl
   }
 
   // email_address - computed: true, optional: true, required: false
-  private _emailAddress?: string;
+  private _emailAddress?: string; 
   public get emailAddress() {
     return this.getStringAttribute('email_address');
   }
@@ -337,7 +337,7 @@ export class AuditmanagerAssessmentAwsAccountOutputReference extends cdktn.Compl
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -353,7 +353,7 @@ export class AuditmanagerAssessmentAwsAccountOutputReference extends cdktn.Compl
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -640,7 +640,7 @@ export class AuditmanagerAssessmentDelegationsOutputReference extends cdktn.Comp
   }
 
   // assessment_id - computed: true, optional: true, required: false
-  private _assessmentId?: string;
+  private _assessmentId?: string; 
   public get assessmentId() {
     return this.getStringAttribute('assessment_id');
   }
@@ -656,7 +656,7 @@ export class AuditmanagerAssessmentDelegationsOutputReference extends cdktn.Comp
   }
 
   // assessment_name - computed: true, optional: true, required: false
-  private _assessmentName?: string;
+  private _assessmentName?: string; 
   public get assessmentName() {
     return this.getStringAttribute('assessment_name');
   }
@@ -672,7 +672,7 @@ export class AuditmanagerAssessmentDelegationsOutputReference extends cdktn.Comp
   }
 
   // comment - computed: true, optional: true, required: false
-  private _comment?: string;
+  private _comment?: string; 
   public get comment() {
     return this.getStringAttribute('comment');
   }
@@ -688,7 +688,7 @@ export class AuditmanagerAssessmentDelegationsOutputReference extends cdktn.Comp
   }
 
   // control_set_id - computed: true, optional: true, required: false
-  private _controlSetId?: string;
+  private _controlSetId?: string; 
   public get controlSetId() {
     return this.getStringAttribute('control_set_id');
   }
@@ -704,7 +704,7 @@ export class AuditmanagerAssessmentDelegationsOutputReference extends cdktn.Comp
   }
 
   // created_by - computed: true, optional: true, required: false
-  private _createdBy?: string;
+  private _createdBy?: string; 
   public get createdBy() {
     return this.getStringAttribute('created_by');
   }
@@ -720,7 +720,7 @@ export class AuditmanagerAssessmentDelegationsOutputReference extends cdktn.Comp
   }
 
   // creation_time - computed: true, optional: true, required: false
-  private _creationTime?: number;
+  private _creationTime?: number; 
   public get creationTime() {
     return this.getNumberAttribute('creation_time');
   }
@@ -736,7 +736,7 @@ export class AuditmanagerAssessmentDelegationsOutputReference extends cdktn.Comp
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -752,7 +752,7 @@ export class AuditmanagerAssessmentDelegationsOutputReference extends cdktn.Comp
   }
 
   // last_updated - computed: true, optional: true, required: false
-  private _lastUpdated?: number;
+  private _lastUpdated?: number; 
   public get lastUpdated() {
     return this.getNumberAttribute('last_updated');
   }
@@ -768,7 +768,7 @@ export class AuditmanagerAssessmentDelegationsOutputReference extends cdktn.Comp
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -784,7 +784,7 @@ export class AuditmanagerAssessmentDelegationsOutputReference extends cdktn.Comp
   }
 
   // role_type - computed: true, optional: true, required: false
-  private _roleType?: string;
+  private _roleType?: string; 
   public get roleType() {
     return this.getStringAttribute('role_type');
   }
@@ -800,7 +800,7 @@ export class AuditmanagerAssessmentDelegationsOutputReference extends cdktn.Comp
   }
 
   // status - computed: true, optional: true, required: false
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -937,7 +937,7 @@ export class AuditmanagerAssessmentRolesOutputReference extends cdktn.ComplexObj
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -953,7 +953,7 @@ export class AuditmanagerAssessmentRolesOutputReference extends cdktn.ComplexObj
   }
 
   // role_type - computed: true, optional: true, required: false
-  private _roleType?: string;
+  private _roleType?: string; 
   public get roleType() {
     return this.getStringAttribute('role_type');
   }
@@ -1112,7 +1112,7 @@ export class AuditmanagerAssessmentScopeAwsAccountsOutputReference extends cdktn
   }
 
   // email_address - computed: true, optional: true, required: false
-  private _emailAddress?: string;
+  private _emailAddress?: string; 
   public get emailAddress() {
     return this.getStringAttribute('email_address');
   }
@@ -1128,7 +1128,7 @@ export class AuditmanagerAssessmentScopeAwsAccountsOutputReference extends cdktn
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -1144,7 +1144,7 @@ export class AuditmanagerAssessmentScopeAwsAccountsOutputReference extends cdktn
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1262,7 +1262,7 @@ export class AuditmanagerAssessmentScopeAwsServicesOutputReference extends cdktn
   }
 
   // service_name - computed: true, optional: true, required: false
-  private _serviceName?: string;
+  private _serviceName?: string; 
   public get serviceName() {
     return this.getStringAttribute('service_name');
   }
@@ -1430,13 +1430,13 @@ export class AuditmanagerAssessmentScopeOutputReference extends cdktn.ComplexObj
 }
 export interface AuditmanagerAssessmentTags {
   /**
-  * The key name of the tag. You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
+  * The key name of the tag. You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/auditmanager_assessment#key AuditmanagerAssessment#key}
   */
   readonly key?: string;
   /**
-  * The value for the tag. You can specify a value that is 1 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
+  * The value for the tag. You can specify a value that is 1 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/auditmanager_assessment#value AuditmanagerAssessment#value}
   */
@@ -1530,7 +1530,7 @@ export class AuditmanagerAssessmentTagsOutputReference extends cdktn.ComplexObje
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1546,7 +1546,7 @@ export class AuditmanagerAssessmentTagsOutputReference extends cdktn.ComplexObje
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1712,7 +1712,7 @@ export class AuditmanagerAssessment extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1728,7 +1728,7 @@ export class AuditmanagerAssessment extends cdktn.TerraformResource {
   }
 
   // framework_id - computed: true, optional: true, required: false
-  private _frameworkId?: string;
+  private _frameworkId?: string; 
   public get frameworkId() {
     return this.getStringAttribute('framework_id');
   }
@@ -1749,7 +1749,7 @@ export class AuditmanagerAssessment extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1797,7 +1797,7 @@ export class AuditmanagerAssessment extends cdktn.TerraformResource {
   }
 
   // status - computed: true, optional: true, required: false
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }

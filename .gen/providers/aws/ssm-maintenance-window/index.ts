@@ -146,7 +146,7 @@ export class SsmMaintenanceWindow extends cdktn.TerraformResource {
   // ==========
 
   // allow_unassociated_targets - computed: false, optional: true, required: false
-  private _allowUnassociatedTargets?: boolean | cdktn.IResolvable;
+  private _allowUnassociatedTargets?: boolean | cdktn.IResolvable; 
   public get allowUnassociatedTargets() {
     return this.getBooleanAttribute('allow_unassociated_targets');
   }
@@ -162,7 +162,7 @@ export class SsmMaintenanceWindow extends cdktn.TerraformResource {
   }
 
   // cutoff - computed: false, optional: false, required: true
-  private _cutoff?: number;
+  private _cutoff?: number; 
   public get cutoff() {
     return this.getNumberAttribute('cutoff');
   }
@@ -175,7 +175,7 @@ export class SsmMaintenanceWindow extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -191,7 +191,7 @@ export class SsmMaintenanceWindow extends cdktn.TerraformResource {
   }
 
   // duration - computed: false, optional: false, required: true
-  private _duration?: number;
+  private _duration?: number; 
   public get duration() {
     return this.getNumberAttribute('duration');
   }
@@ -204,7 +204,7 @@ export class SsmMaintenanceWindow extends cdktn.TerraformResource {
   }
 
   // enabled - computed: false, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -220,7 +220,7 @@ export class SsmMaintenanceWindow extends cdktn.TerraformResource {
   }
 
   // end_date - computed: false, optional: true, required: false
-  private _endDate?: string;
+  private _endDate?: string; 
   public get endDate() {
     return this.getStringAttribute('end_date');
   }
@@ -236,7 +236,7 @@ export class SsmMaintenanceWindow extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -252,7 +252,7 @@ export class SsmMaintenanceWindow extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -265,7 +265,7 @@ export class SsmMaintenanceWindow extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -281,7 +281,7 @@ export class SsmMaintenanceWindow extends cdktn.TerraformResource {
   }
 
   // schedule - computed: false, optional: false, required: true
-  private _schedule?: string;
+  private _schedule?: string; 
   public get schedule() {
     return this.getStringAttribute('schedule');
   }
@@ -294,7 +294,7 @@ export class SsmMaintenanceWindow extends cdktn.TerraformResource {
   }
 
   // schedule_offset - computed: false, optional: true, required: false
-  private _scheduleOffset?: number;
+  private _scheduleOffset?: number; 
   public get scheduleOffset() {
     return this.getNumberAttribute('schedule_offset');
   }
@@ -310,7 +310,7 @@ export class SsmMaintenanceWindow extends cdktn.TerraformResource {
   }
 
   // schedule_timezone - computed: false, optional: true, required: false
-  private _scheduleTimezone?: string;
+  private _scheduleTimezone?: string; 
   public get scheduleTimezone() {
     return this.getStringAttribute('schedule_timezone');
   }
@@ -326,7 +326,7 @@ export class SsmMaintenanceWindow extends cdktn.TerraformResource {
   }
 
   // start_date - computed: false, optional: true, required: false
-  private _startDate?: string;
+  private _startDate?: string; 
   public get startDate() {
     return this.getStringAttribute('start_date');
   }
@@ -342,7 +342,7 @@ export class SsmMaintenanceWindow extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -358,7 +358,7 @@ export class SsmMaintenanceWindow extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

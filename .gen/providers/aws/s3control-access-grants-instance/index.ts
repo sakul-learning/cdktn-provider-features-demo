@@ -98,7 +98,7 @@ export class S3ControlAccessGrantsInstance extends cdktn.TerraformResource {
   }
 
   // account_id - computed: true, optional: true, required: false
-  private _accountId?: string;
+  private _accountId?: string; 
   public get accountId() {
     return this.getStringAttribute('account_id');
   }
@@ -124,7 +124,7 @@ export class S3ControlAccessGrantsInstance extends cdktn.TerraformResource {
   }
 
   // identity_center_arn - computed: false, optional: true, required: false
-  private _identityCenterArn?: string;
+  private _identityCenterArn?: string; 
   public get identityCenterArn() {
     return this.getStringAttribute('identity_center_arn');
   }
@@ -140,7 +140,7 @@ export class S3ControlAccessGrantsInstance extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -156,7 +156,7 @@ export class S3ControlAccessGrantsInstance extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

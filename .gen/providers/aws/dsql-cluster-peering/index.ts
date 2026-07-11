@@ -113,7 +113,7 @@ export class DsqlClusterPeeringTimeoutsOutputReference extends cdktn.ComplexObje
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -191,7 +191,7 @@ export class DsqlClusterPeering extends cdktn.TerraformResource {
   // ==========
 
   // clusters - computed: false, optional: false, required: true
-  private _clusters?: string[];
+  private _clusters?: string[]; 
   public get clusters() {
     return cdktn.Fn.tolist(this.getListAttribute('clusters'));
   }
@@ -204,7 +204,7 @@ export class DsqlClusterPeering extends cdktn.TerraformResource {
   }
 
   // identifier - computed: false, optional: false, required: true
-  private _identifier?: string;
+  private _identifier?: string; 
   public get identifier() {
     return this.getStringAttribute('identifier');
   }
@@ -217,7 +217,7 @@ export class DsqlClusterPeering extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -233,7 +233,7 @@ export class DsqlClusterPeering extends cdktn.TerraformResource {
   }
 
   // witness_region - computed: false, optional: false, required: true
-  private _witnessRegion?: string;
+  private _witnessRegion?: string; 
   public get witnessRegion() {
     return this.getStringAttribute('witness_region');
   }

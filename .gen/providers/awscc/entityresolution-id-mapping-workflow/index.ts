@@ -123,7 +123,7 @@ export class EntityresolutionIdMappingWorkflowIdMappingIncrementalRunConfigOutpu
   }
 
   // incremental_run_type - computed: true, optional: true, required: false
-  private _incrementalRunType?: string;
+  private _incrementalRunType?: string; 
   public get incrementalRunType() {
     return this.getStringAttribute('incremental_run_type');
   }
@@ -219,7 +219,7 @@ export class EntityresolutionIdMappingWorkflowIdMappingTechniquesProviderPropert
   }
 
   // intermediate_s3_path - computed: true, optional: true, required: false
-  private _intermediateS3Path?: string;
+  private _intermediateS3Path?: string; 
   public get intermediateS3Path() {
     return this.getStringAttribute('intermediate_s3_path');
   }
@@ -367,7 +367,7 @@ export class EntityresolutionIdMappingWorkflowIdMappingTechniquesProviderPropert
   }
 
   // provider_configuration - computed: true, optional: true, required: false
-  private _providerConfiguration?: { [key: string]: string };
+  private _providerConfiguration?: { [key: string]: string }; 
   public get providerConfiguration() {
     return this.getStringMapAttribute('provider_configuration');
   }
@@ -383,7 +383,7 @@ export class EntityresolutionIdMappingWorkflowIdMappingTechniquesProviderPropert
   }
 
   // provider_service_arn - computed: true, optional: true, required: false
-  private _providerServiceArn?: string;
+  private _providerServiceArn?: string; 
   public get providerServiceArn() {
     return this.getStringAttribute('provider_service_arn');
   }
@@ -496,7 +496,7 @@ export class EntityresolutionIdMappingWorkflowIdMappingTechniquesRuleBasedProper
   }
 
   // matching_keys - computed: true, optional: true, required: false
-  private _matchingKeys?: string[];
+  private _matchingKeys?: string[]; 
   public get matchingKeys() {
     return this.getListAttribute('matching_keys');
   }
@@ -512,7 +512,7 @@ export class EntityresolutionIdMappingWorkflowIdMappingTechniquesRuleBasedProper
   }
 
   // rule_name - computed: true, optional: true, required: false
-  private _ruleName?: string;
+  private _ruleName?: string; 
   public get ruleName() {
     return this.getStringAttribute('rule_name');
   }
@@ -677,7 +677,7 @@ export class EntityresolutionIdMappingWorkflowIdMappingTechniquesRuleBasedProper
   }
 
   // attribute_matching_model - computed: true, optional: true, required: false
-  private _attributeMatchingModel?: string;
+  private _attributeMatchingModel?: string; 
   public get attributeMatchingModel() {
     return this.getStringAttribute('attribute_matching_model');
   }
@@ -693,7 +693,7 @@ export class EntityresolutionIdMappingWorkflowIdMappingTechniquesRuleBasedProper
   }
 
   // record_matching_model - computed: true, optional: true, required: false
-  private _recordMatchingModel?: string;
+  private _recordMatchingModel?: string; 
   public get recordMatchingModel() {
     return this.getStringAttribute('record_matching_model');
   }
@@ -709,7 +709,7 @@ export class EntityresolutionIdMappingWorkflowIdMappingTechniquesRuleBasedProper
   }
 
   // rule_definition_type - computed: true, optional: true, required: false
-  private _ruleDefinitionType?: string;
+  private _ruleDefinitionType?: string; 
   public get ruleDefinitionType() {
     return this.getStringAttribute('rule_definition_type');
   }
@@ -870,7 +870,7 @@ export class EntityresolutionIdMappingWorkflowIdMappingTechniquesOutputReference
   }
 
   // id_mapping_type - computed: true, optional: true, required: false
-  private _idMappingType?: string;
+  private _idMappingType?: string; 
   public get idMappingType() {
     return this.getStringAttribute('id_mapping_type');
   }
@@ -886,7 +886,7 @@ export class EntityresolutionIdMappingWorkflowIdMappingTechniquesOutputReference
   }
 
   // normalization_version - computed: true, optional: true, required: false
-  private _normalizationVersion?: string;
+  private _normalizationVersion?: string; 
   public get normalizationVersion() {
     return this.getStringAttribute('normalization_version');
   }
@@ -1052,7 +1052,7 @@ export class EntityresolutionIdMappingWorkflowInputSourceConfigOutputReference e
   }
 
   // input_source_arn - computed: false, optional: false, required: true
-  private _inputSourceArn?: string;
+  private _inputSourceArn?: string; 
   public get inputSourceArn() {
     return this.getStringAttribute('input_source_arn');
   }
@@ -1065,7 +1065,7 @@ export class EntityresolutionIdMappingWorkflowInputSourceConfigOutputReference e
   }
 
   // schema_arn - computed: true, optional: true, required: false
-  private _schemaArn?: string;
+  private _schemaArn?: string; 
   public get schemaArn() {
     return this.getStringAttribute('schema_arn');
   }
@@ -1081,7 +1081,7 @@ export class EntityresolutionIdMappingWorkflowInputSourceConfigOutputReference e
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -1216,7 +1216,7 @@ export class EntityresolutionIdMappingWorkflowOutputSourceConfigOutputReference 
   }
 
   // kms_arn - computed: true, optional: true, required: false
-  private _kmsArn?: string;
+  private _kmsArn?: string; 
   public get kmsArn() {
     return this.getStringAttribute('kms_arn');
   }
@@ -1232,7 +1232,7 @@ export class EntityresolutionIdMappingWorkflowOutputSourceConfigOutputReference 
   }
 
   // output_s3_path - computed: true, optional: true, required: false
-  private _outputS3Path?: string;
+  private _outputS3Path?: string; 
   public get outputS3Path() {
     return this.getStringAttribute('output_s3_path');
   }
@@ -1369,7 +1369,7 @@ export class EntityresolutionIdMappingWorkflowTagsOutputReference extends cdktn.
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1385,7 +1385,7 @@ export class EntityresolutionIdMappingWorkflowTagsOutputReference extends cdktn.
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1491,7 +1491,7 @@ export class EntityresolutionIdMappingWorkflow extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1570,7 +1570,7 @@ export class EntityresolutionIdMappingWorkflow extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -1609,7 +1609,7 @@ export class EntityresolutionIdMappingWorkflow extends cdktn.TerraformResource {
   }
 
   // workflow_name - computed: false, optional: false, required: true
-  private _workflowName?: string;
+  private _workflowName?: string; 
   public get workflowName() {
     return this.getStringAttribute('workflow_name');
   }

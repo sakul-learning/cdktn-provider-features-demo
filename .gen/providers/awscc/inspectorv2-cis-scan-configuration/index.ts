@@ -128,7 +128,7 @@ export class Inspectorv2CisScanConfigurationScheduleDailyStartTimeOutputReferenc
   }
 
   // time_of_day - computed: true, optional: true, required: false
-  private _timeOfDay?: string;
+  private _timeOfDay?: string; 
   public get timeOfDay() {
     return this.getStringAttribute('time_of_day');
   }
@@ -144,7 +144,7 @@ export class Inspectorv2CisScanConfigurationScheduleDailyStartTimeOutputReferenc
   }
 
   // time_zone - computed: true, optional: true, required: false
-  private _timeZone?: string;
+  private _timeZone?: string; 
   public get timeZone() {
     return this.getStringAttribute('time_zone');
   }
@@ -349,7 +349,7 @@ export class Inspectorv2CisScanConfigurationScheduleMonthlyStartTimeOutputRefere
   }
 
   // time_of_day - computed: true, optional: true, required: false
-  private _timeOfDay?: string;
+  private _timeOfDay?: string; 
   public get timeOfDay() {
     return this.getStringAttribute('time_of_day');
   }
@@ -365,7 +365,7 @@ export class Inspectorv2CisScanConfigurationScheduleMonthlyStartTimeOutputRefere
   }
 
   // time_zone - computed: true, optional: true, required: false
-  private _timeZone?: string;
+  private _timeZone?: string; 
   public get timeZone() {
     return this.getStringAttribute('time_zone');
   }
@@ -476,7 +476,7 @@ export class Inspectorv2CisScanConfigurationScheduleMonthlyOutputReference exten
   }
 
   // day - computed: true, optional: true, required: false
-  private _day?: string;
+  private _day?: string; 
   public get day() {
     return this.getStringAttribute('day');
   }
@@ -603,7 +603,7 @@ export class Inspectorv2CisScanConfigurationScheduleWeeklyStartTimeOutputReferen
   }
 
   // time_of_day - computed: true, optional: true, required: false
-  private _timeOfDay?: string;
+  private _timeOfDay?: string; 
   public get timeOfDay() {
     return this.getStringAttribute('time_of_day');
   }
@@ -619,7 +619,7 @@ export class Inspectorv2CisScanConfigurationScheduleWeeklyStartTimeOutputReferen
   }
 
   // time_zone - computed: true, optional: true, required: false
-  private _timeZone?: string;
+  private _timeZone?: string; 
   public get timeZone() {
     return this.getStringAttribute('time_zone');
   }
@@ -730,7 +730,7 @@ export class Inspectorv2CisScanConfigurationScheduleWeeklyOutputReference extend
   }
 
   // days - computed: true, optional: true, required: false
-  private _days?: string[];
+  private _days?: string[]; 
   public get days() {
     return this.getListAttribute('days');
   }
@@ -923,7 +923,7 @@ export class Inspectorv2CisScanConfigurationScheduleOutputReference extends cdkt
   }
 
   // one_time - computed: true, optional: true, required: false
-  private _oneTime?: string;
+  private _oneTime?: string; 
   public get oneTime() {
     return this.getStringAttribute('one_time');
   }
@@ -1050,7 +1050,7 @@ export class Inspectorv2CisScanConfigurationTargetsOutputReference extends cdktn
   }
 
   // account_ids - computed: false, optional: false, required: true
-  private _accountIds?: string[];
+  private _accountIds?: string[]; 
   public get accountIds() {
     return this.getListAttribute('account_ids');
   }
@@ -1063,7 +1063,7 @@ export class Inspectorv2CisScanConfigurationTargetsOutputReference extends cdktn
   }
 
   // target_resource_tags - computed: false, optional: false, required: true
-  private _targetResourceTags?: { [key: string]: string[] } | cdktn.IResolvable;
+  private _targetResourceTags?: { [key: string]: string[] } | cdktn.IResolvable; 
   public get targetResourceTags() {
     return this.interpolationForAttribute('target_resource_tags');
   }
@@ -1148,7 +1148,7 @@ export class Inspectorv2CisScanConfiguration extends cdktn.TerraformResource {
   }
 
   // scan_name - computed: false, optional: false, required: true
-  private _scanName?: string;
+  private _scanName?: string; 
   public get scanName() {
     return this.getStringAttribute('scan_name');
   }
@@ -1174,7 +1174,7 @@ export class Inspectorv2CisScanConfiguration extends cdktn.TerraformResource {
   }
 
   // security_level - computed: false, optional: false, required: true
-  private _securityLevel?: string;
+  private _securityLevel?: string; 
   public get securityLevel() {
     return this.getStringAttribute('security_level');
   }
@@ -1187,7 +1187,7 @@ export class Inspectorv2CisScanConfiguration extends cdktn.TerraformResource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

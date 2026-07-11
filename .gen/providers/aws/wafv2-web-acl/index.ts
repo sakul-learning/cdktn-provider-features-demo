@@ -170,7 +170,7 @@ export class Wafv2WebAclAssociationConfigRequestBodyApiGatewayOutputReference ex
   }
 
   // default_size_inspection_limit - computed: false, optional: false, required: true
-  private _defaultSizeInspectionLimit?: string;
+  private _defaultSizeInspectionLimit?: string; 
   public get defaultSizeInspectionLimit() {
     return this.getStringAttribute('default_size_inspection_limit');
   }
@@ -251,7 +251,7 @@ export class Wafv2WebAclAssociationConfigRequestBodyAppRunnerServiceOutputRefere
   }
 
   // default_size_inspection_limit - computed: false, optional: false, required: true
-  private _defaultSizeInspectionLimit?: string;
+  private _defaultSizeInspectionLimit?: string; 
   public get defaultSizeInspectionLimit() {
     return this.getStringAttribute('default_size_inspection_limit');
   }
@@ -332,7 +332,7 @@ export class Wafv2WebAclAssociationConfigRequestBodyCloudfrontOutputReference ex
   }
 
   // default_size_inspection_limit - computed: false, optional: false, required: true
-  private _defaultSizeInspectionLimit?: string;
+  private _defaultSizeInspectionLimit?: string; 
   public get defaultSizeInspectionLimit() {
     return this.getStringAttribute('default_size_inspection_limit');
   }
@@ -413,7 +413,7 @@ export class Wafv2WebAclAssociationConfigRequestBodyCognitoUserPoolOutputReferen
   }
 
   // default_size_inspection_limit - computed: false, optional: false, required: true
-  private _defaultSizeInspectionLimit?: string;
+  private _defaultSizeInspectionLimit?: string; 
   public get defaultSizeInspectionLimit() {
     return this.getStringAttribute('default_size_inspection_limit');
   }
@@ -494,7 +494,7 @@ export class Wafv2WebAclAssociationConfigRequestBodyVerifiedAccessInstanceOutput
   }
 
   // default_size_inspection_limit - computed: false, optional: false, required: true
-  private _defaultSizeInspectionLimit?: string;
+  private _defaultSizeInspectionLimit?: string; 
   public get defaultSizeInspectionLimit() {
     return this.getStringAttribute('default_size_inspection_limit');
   }
@@ -919,7 +919,7 @@ export class Wafv2WebAclCaptchaConfigImmunityTimePropertyOutputReference extends
   }
 
   // immunity_time - computed: false, optional: true, required: false
-  private _immunityTime?: number;
+  private _immunityTime?: number; 
   public get immunityTime() {
     return this.getNumberAttribute('immunity_time');
   }
@@ -1089,7 +1089,7 @@ export class Wafv2WebAclChallengeConfigImmunityTimePropertyOutputReference exten
   }
 
   // immunity_time - computed: false, optional: true, required: false
-  private _immunityTime?: number;
+  private _immunityTime?: number; 
   public get immunityTime() {
     return this.getNumberAttribute('immunity_time');
   }
@@ -1305,7 +1305,7 @@ export class Wafv2WebAclCustomResponseBodyOutputReference extends cdktn.ComplexO
   }
 
   // content - computed: false, optional: false, required: true
-  private _content?: string;
+  private _content?: string; 
   public get content() {
     return this.getStringAttribute('content');
   }
@@ -1318,7 +1318,7 @@ export class Wafv2WebAclCustomResponseBodyOutputReference extends cdktn.ComplexO
   }
 
   // content_type - computed: false, optional: false, required: true
-  private _contentType?: string;
+  private _contentType?: string; 
   public get contentType() {
     return this.getStringAttribute('content_type');
   }
@@ -1331,7 +1331,7 @@ export class Wafv2WebAclCustomResponseBodyOutputReference extends cdktn.ComplexO
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1449,7 +1449,7 @@ export class Wafv2WebAclDataProtectionConfigDataProtectionFieldOutputReference e
   }
 
   // field_keys - computed: false, optional: true, required: false
-  private _fieldKeys?: string[];
+  private _fieldKeys?: string[]; 
   public get fieldKeys() {
     return this.getListAttribute('field_keys');
   }
@@ -1465,7 +1465,7 @@ export class Wafv2WebAclDataProtectionConfigDataProtectionFieldOutputReference e
   }
 
   // field_type - computed: false, optional: false, required: true
-  private _fieldType?: string;
+  private _fieldType?: string; 
   public get fieldType() {
     return this.getStringAttribute('field_type');
   }
@@ -1611,7 +1611,7 @@ export class Wafv2WebAclDataProtectionConfigDataProtectionOutputReference extend
   }
 
   // action - computed: false, optional: false, required: true
-  private _action?: string;
+  private _action?: string; 
   public get action() {
     return this.getStringAttribute('action');
   }
@@ -1624,7 +1624,7 @@ export class Wafv2WebAclDataProtectionConfigDataProtectionOutputReference extend
   }
 
   // exclude_rate_based_details - computed: false, optional: true, required: false
-  private _excludeRateBasedDetails?: boolean | cdktn.IResolvable;
+  private _excludeRateBasedDetails?: boolean | cdktn.IResolvable; 
   public get excludeRateBasedDetails() {
     return this.getBooleanAttribute('exclude_rate_based_details');
   }
@@ -1640,7 +1640,7 @@ export class Wafv2WebAclDataProtectionConfigDataProtectionOutputReference extend
   }
 
   // exclude_rule_match_details - computed: false, optional: true, required: false
-  private _excludeRuleMatchDetails?: boolean | cdktn.IResolvable;
+  private _excludeRuleMatchDetails?: boolean | cdktn.IResolvable; 
   public get excludeRuleMatchDetails() {
     return this.getBooleanAttribute('exclude_rule_match_details');
   }
@@ -1872,7 +1872,7 @@ export class Wafv2WebAclDefaultActionAllowCustomRequestHandlingInsertHeaderOutpu
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1885,7 +1885,7 @@ export class Wafv2WebAclDefaultActionAllowCustomRequestHandlingInsertHeaderOutpu
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2184,7 +2184,7 @@ export class Wafv2WebAclDefaultActionBlockCustomResponseResponseHeaderOutputRefe
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2197,7 +2197,7 @@ export class Wafv2WebAclDefaultActionBlockCustomResponseResponseHeaderOutputRefe
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2334,7 +2334,7 @@ export class Wafv2WebAclDefaultActionBlockCustomResponseOutputReference extends 
   }
 
   // custom_response_body_key - computed: false, optional: true, required: false
-  private _customResponseBodyKey?: string;
+  private _customResponseBodyKey?: string; 
   public get customResponseBodyKey() {
     return this.getStringAttribute('custom_response_body_key');
   }
@@ -2350,7 +2350,7 @@ export class Wafv2WebAclDefaultActionBlockCustomResponseOutputReference extends 
   }
 
   // response_code - computed: false, optional: false, required: true
-  private _responseCode?: number;
+  private _responseCode?: number; 
   public get responseCode() {
     return this.getNumberAttribute('response_code');
   }
@@ -2683,7 +2683,7 @@ export class Wafv2WebAclRuleActionAllowCustomRequestHandlingInsertHeaderOutputRe
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2696,7 +2696,7 @@ export class Wafv2WebAclRuleActionAllowCustomRequestHandlingInsertHeaderOutputRe
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2995,7 +2995,7 @@ export class Wafv2WebAclRuleActionBlockCustomResponseResponseHeaderOutputReferen
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -3008,7 +3008,7 @@ export class Wafv2WebAclRuleActionBlockCustomResponseResponseHeaderOutputReferen
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -3145,7 +3145,7 @@ export class Wafv2WebAclRuleActionBlockCustomResponseOutputReference extends cdk
   }
 
   // custom_response_body_key - computed: false, optional: true, required: false
-  private _customResponseBodyKey?: string;
+  private _customResponseBodyKey?: string; 
   public get customResponseBodyKey() {
     return this.getStringAttribute('custom_response_body_key');
   }
@@ -3161,7 +3161,7 @@ export class Wafv2WebAclRuleActionBlockCustomResponseOutputReference extends cdk
   }
 
   // response_code - computed: false, optional: false, required: true
-  private _responseCode?: number;
+  private _responseCode?: number; 
   public get responseCode() {
     return this.getNumberAttribute('response_code');
   }
@@ -3373,7 +3373,7 @@ export class Wafv2WebAclRuleActionCaptchaCustomRequestHandlingInsertHeaderOutput
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -3386,7 +3386,7 @@ export class Wafv2WebAclRuleActionCaptchaCustomRequestHandlingInsertHeaderOutput
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -3685,7 +3685,7 @@ export class Wafv2WebAclRuleActionChallengeCustomRequestHandlingInsertHeaderOutp
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -3698,7 +3698,7 @@ export class Wafv2WebAclRuleActionChallengeCustomRequestHandlingInsertHeaderOutp
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -3997,7 +3997,7 @@ export class Wafv2WebAclRuleActionCountCustomRequestHandlingInsertHeaderOutputRe
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -4010,7 +4010,7 @@ export class Wafv2WebAclRuleActionCountCustomRequestHandlingInsertHeaderOutputRe
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -4506,7 +4506,7 @@ export class Wafv2WebAclRuleCaptchaConfigImmunityTimePropertyOutputReference ext
   }
 
   // immunity_time - computed: false, optional: true, required: false
-  private _immunityTime?: number;
+  private _immunityTime?: number; 
   public get immunityTime() {
     return this.getNumberAttribute('immunity_time');
   }
@@ -4676,7 +4676,7 @@ export class Wafv2WebAclRuleChallengeConfigImmunityTimePropertyOutputReference e
   }
 
   // immunity_time - computed: false, optional: true, required: false
-  private _immunityTime?: number;
+  private _immunityTime?: number; 
   public get immunityTime() {
     return this.getNumberAttribute('immunity_time');
   }
@@ -5077,7 +5077,7 @@ export class Wafv2WebAclRuleRuleLabelOutputReference extends cdktn.ComplexObject
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -5212,7 +5212,7 @@ export class Wafv2WebAclRuleVisibilityConfigOutputReference extends cdktn.Comple
   }
 
   // cloudwatch_metrics_enabled - computed: false, optional: false, required: true
-  private _cloudwatchMetricsEnabled?: boolean | cdktn.IResolvable;
+  private _cloudwatchMetricsEnabled?: boolean | cdktn.IResolvable; 
   public get cloudwatchMetricsEnabled() {
     return this.getBooleanAttribute('cloudwatch_metrics_enabled');
   }
@@ -5225,7 +5225,7 @@ export class Wafv2WebAclRuleVisibilityConfigOutputReference extends cdktn.Comple
   }
 
   // metric_name - computed: false, optional: false, required: true
-  private _metricName?: string;
+  private _metricName?: string; 
   public get metricName() {
     return this.getStringAttribute('metric_name');
   }
@@ -5238,7 +5238,7 @@ export class Wafv2WebAclRuleVisibilityConfigOutputReference extends cdktn.Comple
   }
 
   // sampled_requests_enabled - computed: false, optional: false, required: true
-  private _sampledRequestsEnabled?: boolean | cdktn.IResolvable;
+  private _sampledRequestsEnabled?: boolean | cdktn.IResolvable; 
   public get sampledRequestsEnabled() {
     return this.getBooleanAttribute('sampled_requests_enabled');
   }
@@ -5481,7 +5481,7 @@ export class Wafv2WebAclRuleOutputReference extends cdktn.ComplexObject {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -5494,7 +5494,7 @@ export class Wafv2WebAclRuleOutputReference extends cdktn.ComplexObject {
   }
 
   // priority - computed: false, optional: false, required: true
-  private _priority?: number;
+  private _priority?: number; 
   public get priority() {
     return this.getNumberAttribute('priority');
   }
@@ -5587,7 +5587,7 @@ export class Wafv2WebAclRuleOutputReference extends cdktn.ComplexObject {
   }
 
   // statement - computed: false, optional: true, required: false
-  private _statement?: any;
+  private _statement?: any; 
   public get statement() {
     return this.interpolationForAttribute('statement');
   }
@@ -5738,7 +5738,7 @@ export class Wafv2WebAclVisibilityConfigOutputReference extends cdktn.ComplexObj
   }
 
   // cloudwatch_metrics_enabled - computed: false, optional: false, required: true
-  private _cloudwatchMetricsEnabled?: boolean | cdktn.IResolvable;
+  private _cloudwatchMetricsEnabled?: boolean | cdktn.IResolvable; 
   public get cloudwatchMetricsEnabled() {
     return this.getBooleanAttribute('cloudwatch_metrics_enabled');
   }
@@ -5751,7 +5751,7 @@ export class Wafv2WebAclVisibilityConfigOutputReference extends cdktn.ComplexObj
   }
 
   // metric_name - computed: false, optional: false, required: true
-  private _metricName?: string;
+  private _metricName?: string; 
   public get metricName() {
     return this.getStringAttribute('metric_name');
   }
@@ -5764,7 +5764,7 @@ export class Wafv2WebAclVisibilityConfigOutputReference extends cdktn.ComplexObj
   }
 
   // sampled_requests_enabled - computed: false, optional: false, required: true
-  private _sampledRequestsEnabled?: boolean | cdktn.IResolvable;
+  private _sampledRequestsEnabled?: boolean | cdktn.IResolvable; 
   public get sampledRequestsEnabled() {
     return this.getBooleanAttribute('sampled_requests_enabled');
   }
@@ -5867,7 +5867,7 @@ export class Wafv2WebAcl extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -5883,7 +5883,7 @@ export class Wafv2WebAcl extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -5904,7 +5904,7 @@ export class Wafv2WebAcl extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -5920,7 +5920,7 @@ export class Wafv2WebAcl extends cdktn.TerraformResource {
   }
 
   // name_prefix - computed: true, optional: true, required: false
-  private _namePrefix?: string;
+  private _namePrefix?: string; 
   public get namePrefix() {
     return this.getStringAttribute('name_prefix');
   }
@@ -5936,7 +5936,7 @@ export class Wafv2WebAcl extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -5952,7 +5952,7 @@ export class Wafv2WebAcl extends cdktn.TerraformResource {
   }
 
   // rule_json - computed: false, optional: true, required: false
-  private _ruleJson?: string;
+  private _ruleJson?: string; 
   public get ruleJson() {
     return this.getStringAttribute('rule_json');
   }
@@ -5968,7 +5968,7 @@ export class Wafv2WebAcl extends cdktn.TerraformResource {
   }
 
   // scope - computed: false, optional: false, required: true
-  private _scope?: string;
+  private _scope?: string; 
   public get scope() {
     return this.getStringAttribute('scope');
   }
@@ -5981,7 +5981,7 @@ export class Wafv2WebAcl extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -5997,7 +5997,7 @@ export class Wafv2WebAcl extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -6013,7 +6013,7 @@ export class Wafv2WebAcl extends cdktn.TerraformResource {
   }
 
   // token_domains - computed: false, optional: true, required: false
-  private _tokenDomains?: string[];
+  private _tokenDomains?: string[]; 
   public get tokenDomains() {
     return cdktn.Fn.tolist(this.getListAttribute('token_domains'));
   }

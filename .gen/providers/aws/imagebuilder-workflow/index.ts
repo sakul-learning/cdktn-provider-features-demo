@@ -136,7 +136,7 @@ export class ImagebuilderWorkflow extends cdktn.TerraformResource {
   }
 
   // change_description - computed: false, optional: true, required: false
-  private _changeDescription?: string;
+  private _changeDescription?: string; 
   public get changeDescription() {
     return this.getStringAttribute('change_description');
   }
@@ -152,7 +152,7 @@ export class ImagebuilderWorkflow extends cdktn.TerraformResource {
   }
 
   // data - computed: true, optional: true, required: false
-  private _data?: string;
+  private _data?: string; 
   public get data() {
     return this.getStringAttribute('data');
   }
@@ -173,7 +173,7 @@ export class ImagebuilderWorkflow extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -189,7 +189,7 @@ export class ImagebuilderWorkflow extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -205,7 +205,7 @@ export class ImagebuilderWorkflow extends cdktn.TerraformResource {
   }
 
   // kms_key_id - computed: false, optional: true, required: false
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -221,7 +221,7 @@ export class ImagebuilderWorkflow extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -239,7 +239,7 @@ export class ImagebuilderWorkflow extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -255,7 +255,7 @@ export class ImagebuilderWorkflow extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -271,7 +271,7 @@ export class ImagebuilderWorkflow extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -287,7 +287,7 @@ export class ImagebuilderWorkflow extends cdktn.TerraformResource {
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -300,7 +300,7 @@ export class ImagebuilderWorkflow extends cdktn.TerraformResource {
   }
 
   // uri - computed: false, optional: true, required: false
-  private _uri?: string;
+  private _uri?: string; 
   public get uri() {
     return this.getStringAttribute('uri');
   }
@@ -316,7 +316,7 @@ export class ImagebuilderWorkflow extends cdktn.TerraformResource {
   }
 
   // version - computed: false, optional: false, required: true
-  private _version?: string;
+  private _version?: string; 
   public get version() {
     return this.getStringAttribute('version');
   }

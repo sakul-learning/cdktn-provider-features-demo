@@ -115,14 +115,14 @@ export interface Elasticloadbalancingv2LoadBalancerLoadBalancerAttributes {
   *  The following attributes are supported by all load balancers:
   *   +  ``deletion_protection.enabled`` - Indicates whether deletion protection is enabled. The value is ``true`` or ``false``. The default is ``false``.
   *   +  ``load_balancing.cross_zone.enabled`` - Indicates whether cross-zone load balancing is enabled. The possible values are ``true`` and ``false``. The default for Network Load Balancers and Gateway Load Balancers is ``false``. The default for Application Load Balancers is ``true``, and can't be changed.
-  *
+  *   
   *  The following attributes are supported by both Application Load Balancers and Network Load Balancers:
   *   +  ``access_logs.s3.enabled`` - Indicates whether access logs are enabled. The value is ``true`` or ``false``. The default is ``false``.
   *   +  ``access_logs.s3.bucket`` - The name of the S3 bucket for the access logs. This attribute is required if access logs are enabled. The bucket must exist in the same region as the load balancer and have a bucket policy that grants Elastic Load Balancing permissions to write to the bucket.
   *   +  ``access_logs.s3.prefix`` - The prefix for the location in the S3 bucket for the access logs.
   *   +  ``ipv6.deny_all_igw_traffic`` - Blocks internet gateway (IGW) access to the load balancer. It is set to ``false`` for internet-facing load balancers and ``true`` for internal load balancers, preventing unintended access to your internal load balancer through an internet gateway.
   *   +  ``zonal_shift.config.enabled`` - Indicates whether zonal shift is enabled. The possible values are ``true`` and ``false``. The default is ``false``.
-  *
+  *   
   *  The following attributes are supported by only Application Load Balancers:
   *   +  ``idle_timeout.timeout_seconds`` - The idle timeout value, in seconds. The valid range is 1-4000 seconds. The default is 60 seconds.
   *   +  ``client_keep_alive.seconds`` - The client keep alive value, in seconds. The valid range is 60-604800 seconds. The default is 3600 seconds.
@@ -141,10 +141,10 @@ export interface Elasticloadbalancingv2LoadBalancerLoadBalancerAttributes {
   *   +  If the value is ``append``, the Application Load Balancer adds the client IP address (of the last hop) to the ``X-Forwarded-For`` header in the HTTP request before it sends it to targets.
   *   +  If the value is ``preserve`` the Application Load Balancer preserves the ``X-Forwarded-For`` header in the HTTP request, and sends it to targets without any change.
   *   +  If the value is ``remove``, the Application Load Balancer removes the ``X-Forwarded-For`` header in the HTTP request before it sends it to targets.
-  *
+  *   
   *   +  ``routing.http2.enabled`` - Indicates whether clients can connect to the load balancer using HTTP/2. If ``true``, clients can connect using HTTP/2 or HTTP/1.1. However, all client requests are subject to the stricter HTTP/2 header validation rules. For example, message header names must contain only alphanumeric characters and hyphens. If ``false``, clients must connect using HTTP/1.1. The default is ``true``.
   *   +  ``waf.fail_open.enabled`` - Indicates whether to allow a WAF-enabled load balancer to route requests to targets if it is unable to forward the request to AWS WAF. The possible values are ``true`` and ``false``. The default is ``false``.
-  *
+  *   
   *  The following attributes are supported by only Network Load Balancers:
   *   +  ``dns_record.client_routing_policy`` - Indicates how traffic is distributed among the load balancer Availability Zones. The possible values are ``availability_zone_affinity`` with 100 percent zonal affinity, ``partial_availability_zone_affinity`` with 85 percent zonal affinity, and ``any_availability_zone`` with 0 percent zonal affinity.
   *   +  ``secondary_ips.auto_assigned.per_subnet`` - The number of secondary IP addresses to configure for your load balancer nodes. Use to address port allocation errors if you can't add targets. The valid range is 0 to 7. The default is 0. After you set this value, you can't decrease it.
@@ -247,7 +247,7 @@ export class Elasticloadbalancingv2LoadBalancerLoadBalancerAttributesOutputRefer
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -263,7 +263,7 @@ export class Elasticloadbalancingv2LoadBalancerLoadBalancerAttributesOutputRefer
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -379,7 +379,7 @@ export class Elasticloadbalancingv2LoadBalancerMinimumLoadBalancerCapacityOutput
   }
 
   // capacity_units - computed: true, optional: true, required: false
-  private _capacityUnits?: number;
+  private _capacityUnits?: number; 
   public get capacityUnits() {
     return this.getNumberAttribute('capacity_units');
   }
@@ -553,7 +553,7 @@ export class Elasticloadbalancingv2LoadBalancerSubnetMappingsOutputReference ext
   }
 
   // allocation_id - computed: true, optional: true, required: false
-  private _allocationId?: string;
+  private _allocationId?: string; 
   public get allocationId() {
     return this.getStringAttribute('allocation_id');
   }
@@ -569,7 +569,7 @@ export class Elasticloadbalancingv2LoadBalancerSubnetMappingsOutputReference ext
   }
 
   // i_pv_6_address - computed: true, optional: true, required: false
-  private _iPv6Address?: string;
+  private _iPv6Address?: string; 
   public get iPv6Address() {
     return this.getStringAttribute('i_pv_6_address');
   }
@@ -585,7 +585,7 @@ export class Elasticloadbalancingv2LoadBalancerSubnetMappingsOutputReference ext
   }
 
   // private_i_pv_4_address - computed: true, optional: true, required: false
-  private _privateIPv4Address?: string;
+  private _privateIPv4Address?: string; 
   public get privateIPv4Address() {
     return this.getStringAttribute('private_i_pv_4_address');
   }
@@ -601,7 +601,7 @@ export class Elasticloadbalancingv2LoadBalancerSubnetMappingsOutputReference ext
   }
 
   // source_nat_ipv_6_prefix - computed: true, optional: true, required: false
-  private _sourceNatIpv6Prefix?: string;
+  private _sourceNatIpv6Prefix?: string; 
   public get sourceNatIpv6Prefix() {
     return this.getStringAttribute('source_nat_ipv_6_prefix');
   }
@@ -617,7 +617,7 @@ export class Elasticloadbalancingv2LoadBalancerSubnetMappingsOutputReference ext
   }
 
   // subnet_id - computed: true, optional: true, required: false
-  private _subnetId?: string;
+  private _subnetId?: string; 
   public get subnetId() {
     return this.getStringAttribute('subnet_id');
   }
@@ -754,7 +754,7 @@ export class Elasticloadbalancingv2LoadBalancerTagsOutputReference extends cdktn
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -770,7 +770,7 @@ export class Elasticloadbalancingv2LoadBalancerTagsOutputReference extends cdktn
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -887,7 +887,7 @@ export class Elasticloadbalancingv2LoadBalancer extends cdktn.TerraformResource 
   }
 
   // enable_capacity_reservation_provision_stabilize - computed: true, optional: true, required: false
-  private _enableCapacityReservationProvisionStabilize?: boolean | cdktn.IResolvable;
+  private _enableCapacityReservationProvisionStabilize?: boolean | cdktn.IResolvable; 
   public get enableCapacityReservationProvisionStabilize() {
     return this.getBooleanAttribute('enable_capacity_reservation_provision_stabilize');
   }
@@ -903,7 +903,7 @@ export class Elasticloadbalancingv2LoadBalancer extends cdktn.TerraformResource 
   }
 
   // enable_prefix_for_ipv_6_source_nat - computed: true, optional: true, required: false
-  private _enablePrefixForIpv6SourceNat?: string;
+  private _enablePrefixForIpv6SourceNat?: string; 
   public get enablePrefixForIpv6SourceNat() {
     return this.getStringAttribute('enable_prefix_for_ipv_6_source_nat');
   }
@@ -919,7 +919,7 @@ export class Elasticloadbalancingv2LoadBalancer extends cdktn.TerraformResource 
   }
 
   // enforce_security_group_inbound_rules_on_private_link_traffic - computed: true, optional: true, required: false
-  private _enforceSecurityGroupInboundRulesOnPrivateLinkTraffic?: string;
+  private _enforceSecurityGroupInboundRulesOnPrivateLinkTraffic?: string; 
   public get enforceSecurityGroupInboundRulesOnPrivateLinkTraffic() {
     return this.getStringAttribute('enforce_security_group_inbound_rules_on_private_link_traffic');
   }
@@ -940,7 +940,7 @@ export class Elasticloadbalancingv2LoadBalancer extends cdktn.TerraformResource 
   }
 
   // ip_address_type - computed: true, optional: true, required: false
-  private _ipAddressType?: string;
+  private _ipAddressType?: string; 
   public get ipAddressType() {
     return this.getStringAttribute('ip_address_type');
   }
@@ -956,7 +956,7 @@ export class Elasticloadbalancingv2LoadBalancer extends cdktn.TerraformResource 
   }
 
   // ipv_4_ipam_pool_id - computed: true, optional: true, required: false
-  private _ipv4IpamPoolId?: string;
+  private _ipv4IpamPoolId?: string; 
   public get ipv4IpamPoolId() {
     return this.getStringAttribute('ipv_4_ipam_pool_id');
   }
@@ -1019,7 +1019,7 @@ export class Elasticloadbalancingv2LoadBalancer extends cdktn.TerraformResource 
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1035,7 +1035,7 @@ export class Elasticloadbalancingv2LoadBalancer extends cdktn.TerraformResource 
   }
 
   // scheme - computed: true, optional: true, required: false
-  private _scheme?: string;
+  private _scheme?: string; 
   public get scheme() {
     return this.getStringAttribute('scheme');
   }
@@ -1051,7 +1051,7 @@ export class Elasticloadbalancingv2LoadBalancer extends cdktn.TerraformResource 
   }
 
   // security_groups - computed: true, optional: true, required: false
-  private _securityGroups?: string[];
+  private _securityGroups?: string[]; 
   public get securityGroups() {
     return cdktn.Fn.tolist(this.getListAttribute('security_groups'));
   }
@@ -1083,7 +1083,7 @@ export class Elasticloadbalancingv2LoadBalancer extends cdktn.TerraformResource 
   }
 
   // subnets - computed: true, optional: true, required: false
-  private _subnets?: string[];
+  private _subnets?: string[]; 
   public get subnets() {
     return cdktn.Fn.tolist(this.getListAttribute('subnets'));
   }
@@ -1115,7 +1115,7 @@ export class Elasticloadbalancingv2LoadBalancer extends cdktn.TerraformResource 
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }

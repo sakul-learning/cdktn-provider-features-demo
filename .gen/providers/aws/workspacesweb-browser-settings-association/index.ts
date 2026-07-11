@@ -83,7 +83,7 @@ export class WorkspaceswebBrowserSettingsAssociation extends cdktn.TerraformReso
   // ==========
 
   // browser_settings_arn - computed: false, optional: false, required: true
-  private _browserSettingsArn?: string;
+  private _browserSettingsArn?: string; 
   public get browserSettingsArn() {
     return this.getStringAttribute('browser_settings_arn');
   }
@@ -96,7 +96,7 @@ export class WorkspaceswebBrowserSettingsAssociation extends cdktn.TerraformReso
   }
 
   // portal_arn - computed: false, optional: false, required: true
-  private _portalArn?: string;
+  private _portalArn?: string; 
   public get portalArn() {
     return this.getStringAttribute('portal_arn');
   }
@@ -109,7 +109,7 @@ export class WorkspaceswebBrowserSettingsAssociation extends cdktn.TerraformReso
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

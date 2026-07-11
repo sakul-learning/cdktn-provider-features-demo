@@ -95,7 +95,7 @@ export class IotThingAttributePayloadOutputReference extends cdktn.ComplexObject
   }
 
   // attributes - computed: true, optional: true, required: false
-  private _attributes?: { [key: string]: string };
+  private _attributes?: { [key: string]: string }; 
   public get attributes() {
     return this.getStringMapAttribute('attributes');
   }
@@ -201,7 +201,7 @@ export class IotThing extends cdktn.TerraformResource {
   }
 
   // thing_name - computed: true, optional: true, required: false
-  private _thingName?: string;
+  private _thingName?: string; 
   public get thingName() {
     return this.getStringAttribute('thing_name');
   }

@@ -157,7 +157,7 @@ export class RedshiftserverlessNamespace extends cdktn.TerraformResource {
   }
 
   // admin_password_secret_kms_key_id - computed: true, optional: true, required: false
-  private _adminPasswordSecretKmsKeyId?: string;
+  private _adminPasswordSecretKmsKeyId?: string; 
   public get adminPasswordSecretKmsKeyId() {
     return this.getStringAttribute('admin_password_secret_kms_key_id');
   }
@@ -173,7 +173,7 @@ export class RedshiftserverlessNamespace extends cdktn.TerraformResource {
   }
 
   // admin_user_password - computed: false, optional: true, required: false
-  private _adminUserPassword?: string;
+  private _adminUserPassword?: string; 
   public get adminUserPassword() {
     return this.getStringAttribute('admin_user_password');
   }
@@ -189,7 +189,7 @@ export class RedshiftserverlessNamespace extends cdktn.TerraformResource {
   }
 
   // admin_user_password_wo - computed: false, optional: true, required: false
-  private _adminUserPasswordWo?: string;
+  private _adminUserPasswordWo?: string; 
   /**
   * @deprecated Write-only: the provider never returns this value; reading it always yields null by protocol contract. The getter remains for compatibility and will be removed in a future prebuilt-provider major.
   */
@@ -209,7 +209,7 @@ export class RedshiftserverlessNamespace extends cdktn.TerraformResource {
   }
 
   // admin_user_password_wo_version - computed: false, optional: true, required: false
-  private _adminUserPasswordWoVersion?: number;
+  private _adminUserPasswordWoVersion?: number; 
   public get adminUserPasswordWoVersion() {
     return this.getNumberAttribute('admin_user_password_wo_version');
   }
@@ -225,7 +225,7 @@ export class RedshiftserverlessNamespace extends cdktn.TerraformResource {
   }
 
   // admin_username - computed: true, optional: true, required: false
-  private _adminUsername?: string;
+  private _adminUsername?: string; 
   public get adminUsername() {
     return this.getStringAttribute('admin_username');
   }
@@ -246,7 +246,7 @@ export class RedshiftserverlessNamespace extends cdktn.TerraformResource {
   }
 
   // db_name - computed: true, optional: true, required: false
-  private _dbName?: string;
+  private _dbName?: string; 
   public get dbName() {
     return this.getStringAttribute('db_name');
   }
@@ -262,7 +262,7 @@ export class RedshiftserverlessNamespace extends cdktn.TerraformResource {
   }
 
   // default_iam_role_arn - computed: false, optional: true, required: false
-  private _defaultIamRoleArn?: string;
+  private _defaultIamRoleArn?: string; 
   public get defaultIamRoleArn() {
     return this.getStringAttribute('default_iam_role_arn');
   }
@@ -278,7 +278,7 @@ export class RedshiftserverlessNamespace extends cdktn.TerraformResource {
   }
 
   // iam_roles - computed: true, optional: true, required: false
-  private _iamRoles?: string[];
+  private _iamRoles?: string[]; 
   public get iamRoles() {
     return cdktn.Fn.tolist(this.getListAttribute('iam_roles'));
   }
@@ -294,7 +294,7 @@ export class RedshiftserverlessNamespace extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -310,7 +310,7 @@ export class RedshiftserverlessNamespace extends cdktn.TerraformResource {
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -326,7 +326,7 @@ export class RedshiftserverlessNamespace extends cdktn.TerraformResource {
   }
 
   // log_exports - computed: false, optional: true, required: false
-  private _logExports?: string[];
+  private _logExports?: string[]; 
   public get logExports() {
     return cdktn.Fn.tolist(this.getListAttribute('log_exports'));
   }
@@ -342,7 +342,7 @@ export class RedshiftserverlessNamespace extends cdktn.TerraformResource {
   }
 
   // manage_admin_password - computed: false, optional: true, required: false
-  private _manageAdminPassword?: boolean | cdktn.IResolvable;
+  private _manageAdminPassword?: boolean | cdktn.IResolvable; 
   public get manageAdminPassword() {
     return this.getBooleanAttribute('manage_admin_password');
   }
@@ -363,7 +363,7 @@ export class RedshiftserverlessNamespace extends cdktn.TerraformResource {
   }
 
   // namespace_name - computed: false, optional: false, required: true
-  private _namespaceName?: string;
+  private _namespaceName?: string; 
   public get namespaceName() {
     return this.getStringAttribute('namespace_name');
   }
@@ -376,7 +376,7 @@ export class RedshiftserverlessNamespace extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -392,7 +392,7 @@ export class RedshiftserverlessNamespace extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -408,7 +408,7 @@ export class RedshiftserverlessNamespace extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

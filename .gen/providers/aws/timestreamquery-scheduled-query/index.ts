@@ -191,7 +191,7 @@ export class TimestreamqueryScheduledQueryErrorReportConfigurationS3Configuratio
   }
 
   // bucket_name - computed: false, optional: false, required: true
-  private _bucketName?: string;
+  private _bucketName?: string; 
   public get bucketName() {
     return this.getStringAttribute('bucket_name');
   }
@@ -204,7 +204,7 @@ export class TimestreamqueryScheduledQueryErrorReportConfigurationS3Configuratio
   }
 
   // encryption_option - computed: true, optional: true, required: false
-  private _encryptionOption?: string;
+  private _encryptionOption?: string; 
   public get encryptionOption() {
     return this.getStringAttribute('encryption_option');
   }
@@ -220,7 +220,7 @@ export class TimestreamqueryScheduledQueryErrorReportConfigurationS3Configuratio
   }
 
   // object_key_prefix - computed: false, optional: true, required: false
-  private _objectKeyPrefix?: string;
+  private _objectKeyPrefix?: string; 
   public get objectKeyPrefix() {
     return this.getStringAttribute('object_key_prefix');
   }
@@ -1573,7 +1573,7 @@ export class TimestreamqueryScheduledQueryNotificationConfigurationSnsConfigurat
   }
 
   // topic_arn - computed: false, optional: false, required: true
-  private _topicArn?: string;
+  private _topicArn?: string; 
   public get topicArn() {
     return this.getStringAttribute('topic_arn');
   }
@@ -2923,7 +2923,7 @@ export class TimestreamqueryScheduledQueryScheduleConfigurationOutputReference e
   }
 
   // schedule_expression - computed: false, optional: false, required: true
-  private _scheduleExpression?: string;
+  private _scheduleExpression?: string; 
   public get scheduleExpression() {
     return this.getStringAttribute('schedule_expression');
   }
@@ -3053,7 +3053,7 @@ export class TimestreamqueryScheduledQueryTargetConfigurationTimestreamConfigura
   }
 
   // dimension_value_type - computed: false, optional: false, required: true
-  private _dimensionValueType?: string;
+  private _dimensionValueType?: string; 
   public get dimensionValueType() {
     return this.getStringAttribute('dimension_value_type');
   }
@@ -3066,7 +3066,7 @@ export class TimestreamqueryScheduledQueryTargetConfigurationTimestreamConfigura
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -3213,7 +3213,7 @@ export class TimestreamqueryScheduledQueryTargetConfigurationTimestreamConfigura
   }
 
   // measure_value_type - computed: false, optional: false, required: true
-  private _measureValueType?: string;
+  private _measureValueType?: string; 
   public get measureValueType() {
     return this.getStringAttribute('measure_value_type');
   }
@@ -3226,7 +3226,7 @@ export class TimestreamqueryScheduledQueryTargetConfigurationTimestreamConfigura
   }
 
   // source_column - computed: false, optional: false, required: true
-  private _sourceColumn?: string;
+  private _sourceColumn?: string; 
   public get sourceColumn() {
     return this.getStringAttribute('source_column');
   }
@@ -3239,7 +3239,7 @@ export class TimestreamqueryScheduledQueryTargetConfigurationTimestreamConfigura
   }
 
   // target_multi_measure_attribute_name - computed: false, optional: true, required: false
-  private _targetMultiMeasureAttributeName?: string;
+  private _targetMultiMeasureAttributeName?: string; 
   public get targetMultiMeasureAttributeName() {
     return this.getStringAttribute('target_multi_measure_attribute_name');
   }
@@ -3425,7 +3425,7 @@ export class TimestreamqueryScheduledQueryTargetConfigurationTimestreamConfigura
   }
 
   // measure_name - computed: false, optional: true, required: false
-  private _measureName?: string;
+  private _measureName?: string; 
   public get measureName() {
     return this.getStringAttribute('measure_name');
   }
@@ -3441,7 +3441,7 @@ export class TimestreamqueryScheduledQueryTargetConfigurationTimestreamConfigura
   }
 
   // measure_value_type - computed: false, optional: false, required: true
-  private _measureValueType?: string;
+  private _measureValueType?: string; 
   public get measureValueType() {
     return this.getStringAttribute('measure_value_type');
   }
@@ -3454,7 +3454,7 @@ export class TimestreamqueryScheduledQueryTargetConfigurationTimestreamConfigura
   }
 
   // source_column - computed: false, optional: true, required: false
-  private _sourceColumn?: string;
+  private _sourceColumn?: string; 
   public get sourceColumn() {
     return this.getStringAttribute('source_column');
   }
@@ -3470,7 +3470,7 @@ export class TimestreamqueryScheduledQueryTargetConfigurationTimestreamConfigura
   }
 
   // target_measure_name - computed: false, optional: true, required: false
-  private _targetMeasureName?: string;
+  private _targetMeasureName?: string; 
   public get targetMeasureName() {
     return this.getStringAttribute('target_measure_name');
   }
@@ -3636,7 +3636,7 @@ export class TimestreamqueryScheduledQueryTargetConfigurationTimestreamConfigura
   }
 
   // measure_value_type - computed: false, optional: false, required: true
-  private _measureValueType?: string;
+  private _measureValueType?: string; 
   public get measureValueType() {
     return this.getStringAttribute('measure_value_type');
   }
@@ -3649,7 +3649,7 @@ export class TimestreamqueryScheduledQueryTargetConfigurationTimestreamConfigura
   }
 
   // source_column - computed: false, optional: false, required: true
-  private _sourceColumn?: string;
+  private _sourceColumn?: string; 
   public get sourceColumn() {
     return this.getStringAttribute('source_column');
   }
@@ -3662,7 +3662,7 @@ export class TimestreamqueryScheduledQueryTargetConfigurationTimestreamConfigura
   }
 
   // target_multi_measure_attribute_name - computed: false, optional: true, required: false
-  private _targetMultiMeasureAttributeName?: string;
+  private _targetMultiMeasureAttributeName?: string; 
   public get targetMultiMeasureAttributeName() {
     return this.getStringAttribute('target_multi_measure_attribute_name');
   }
@@ -3797,7 +3797,7 @@ export class TimestreamqueryScheduledQueryTargetConfigurationTimestreamConfigura
   }
 
   // target_multi_measure_name - computed: false, optional: true, required: false
-  private _targetMultiMeasureName?: string;
+  private _targetMultiMeasureName?: string; 
   public get targetMultiMeasureName() {
     return this.getStringAttribute('target_multi_measure_name');
   }
@@ -4037,7 +4037,7 @@ export class TimestreamqueryScheduledQueryTargetConfigurationTimestreamConfigura
   }
 
   // database_name - computed: false, optional: false, required: true
-  private _databaseName?: string;
+  private _databaseName?: string; 
   public get databaseName() {
     return this.getStringAttribute('database_name');
   }
@@ -4050,7 +4050,7 @@ export class TimestreamqueryScheduledQueryTargetConfigurationTimestreamConfigura
   }
 
   // measure_name_column - computed: false, optional: true, required: false
-  private _measureNameColumn?: string;
+  private _measureNameColumn?: string; 
   public get measureNameColumn() {
     return this.getStringAttribute('measure_name_column');
   }
@@ -4066,7 +4066,7 @@ export class TimestreamqueryScheduledQueryTargetConfigurationTimestreamConfigura
   }
 
   // table_name - computed: false, optional: false, required: true
-  private _tableName?: string;
+  private _tableName?: string; 
   public get tableName() {
     return this.getStringAttribute('table_name');
   }
@@ -4079,7 +4079,7 @@ export class TimestreamqueryScheduledQueryTargetConfigurationTimestreamConfigura
   }
 
   // time_column - computed: false, optional: false, required: true
-  private _timeColumn?: string;
+  private _timeColumn?: string; 
   public get timeColumn() {
     return this.getStringAttribute('time_column');
   }
@@ -4396,7 +4396,7 @@ export class TimestreamqueryScheduledQueryTimeoutsOutputReference extends cdktn.
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -4412,7 +4412,7 @@ export class TimestreamqueryScheduledQueryTimeoutsOutputReference extends cdktn.
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -4428,7 +4428,7 @@ export class TimestreamqueryScheduledQueryTimeoutsOutputReference extends cdktn.
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -4524,7 +4524,7 @@ export class TimestreamqueryScheduledQuery extends cdktn.TerraformResource {
   }
 
   // execution_role_arn - computed: false, optional: false, required: true
-  private _executionRoleArn?: string;
+  private _executionRoleArn?: string; 
   public get executionRoleArn() {
     return this.getStringAttribute('execution_role_arn');
   }
@@ -4537,7 +4537,7 @@ export class TimestreamqueryScheduledQuery extends cdktn.TerraformResource {
   }
 
   // kms_key_id - computed: false, optional: true, required: false
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -4553,7 +4553,7 @@ export class TimestreamqueryScheduledQuery extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -4576,7 +4576,7 @@ export class TimestreamqueryScheduledQuery extends cdktn.TerraformResource {
   }
 
   // query_string - computed: false, optional: false, required: true
-  private _queryString?: string;
+  private _queryString?: string; 
   public get queryString() {
     return this.getStringAttribute('query_string');
   }
@@ -4589,7 +4589,7 @@ export class TimestreamqueryScheduledQuery extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -4610,7 +4610,7 @@ export class TimestreamqueryScheduledQuery extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

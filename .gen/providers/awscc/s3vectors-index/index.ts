@@ -162,7 +162,7 @@ export class S3VectorsIndexEncryptionConfigurationOutputReference extends cdktn.
   }
 
   // kms_key_arn - computed: true, optional: true, required: false
-  private _kmsKeyArn?: string;
+  private _kmsKeyArn?: string; 
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -178,7 +178,7 @@ export class S3VectorsIndexEncryptionConfigurationOutputReference extends cdktn.
   }
 
   // sse_type - computed: true, optional: true, required: false
-  private _sseType?: string;
+  private _sseType?: string; 
   public get sseType() {
     return this.getStringAttribute('sse_type');
   }
@@ -274,7 +274,7 @@ export class S3VectorsIndexMetadataConfigurationOutputReference extends cdktn.Co
   }
 
   // non_filterable_metadata_keys - computed: true, optional: true, required: false
-  private _nonFilterableMetadataKeys?: string[];
+  private _nonFilterableMetadataKeys?: string[]; 
   public get nonFilterableMetadataKeys() {
     return cdktn.Fn.tolist(this.getListAttribute('non_filterable_metadata_keys'));
   }
@@ -391,7 +391,7 @@ export class S3VectorsIndexTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -407,7 +407,7 @@ export class S3VectorsIndexTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -514,7 +514,7 @@ export class S3VectorsIndex extends cdktn.TerraformResource {
   }
 
   // data_type - computed: false, optional: false, required: true
-  private _dataType?: string;
+  private _dataType?: string; 
   public get dataType() {
     return this.getStringAttribute('data_type');
   }
@@ -527,7 +527,7 @@ export class S3VectorsIndex extends cdktn.TerraformResource {
   }
 
   // dimension - computed: false, optional: false, required: true
-  private _dimension?: number;
+  private _dimension?: number; 
   public get dimension() {
     return this.getNumberAttribute('dimension');
   }
@@ -540,7 +540,7 @@ export class S3VectorsIndex extends cdktn.TerraformResource {
   }
 
   // distance_metric - computed: false, optional: false, required: true
-  private _distanceMetric?: string;
+  private _distanceMetric?: string; 
   public get distanceMetric() {
     return this.getStringAttribute('distance_metric');
   }
@@ -579,7 +579,7 @@ export class S3VectorsIndex extends cdktn.TerraformResource {
   }
 
   // index_name - computed: true, optional: true, required: false
-  private _indexName?: string;
+  private _indexName?: string; 
   public get indexName() {
     return this.getStringAttribute('index_name');
   }
@@ -627,7 +627,7 @@ export class S3VectorsIndex extends cdktn.TerraformResource {
   }
 
   // vector_bucket_arn - computed: true, optional: true, required: false
-  private _vectorBucketArn?: string;
+  private _vectorBucketArn?: string; 
   public get vectorBucketArn() {
     return this.getStringAttribute('vector_bucket_arn');
   }
@@ -643,7 +643,7 @@ export class S3VectorsIndex extends cdktn.TerraformResource {
   }
 
   // vector_bucket_name - computed: true, optional: true, required: false
-  private _vectorBucketName?: string;
+  private _vectorBucketName?: string; 
   public get vectorBucketName() {
     return this.getStringAttribute('vector_bucket_name');
   }

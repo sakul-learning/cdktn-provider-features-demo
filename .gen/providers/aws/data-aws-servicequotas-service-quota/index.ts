@@ -297,7 +297,7 @@ export class DataAwsServicequotasServiceQuota extends cdktn.TerraformDataSource 
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -313,7 +313,7 @@ export class DataAwsServicequotasServiceQuota extends cdktn.TerraformDataSource 
   }
 
   // quota_code - computed: true, optional: true, required: false
-  private _quotaCode?: string;
+  private _quotaCode?: string; 
   public get quotaCode() {
     return this.getStringAttribute('quota_code');
   }
@@ -329,7 +329,7 @@ export class DataAwsServicequotasServiceQuota extends cdktn.TerraformDataSource 
   }
 
   // quota_name - computed: true, optional: true, required: false
-  private _quotaName?: string;
+  private _quotaName?: string; 
   public get quotaName() {
     return this.getStringAttribute('quota_name');
   }
@@ -345,7 +345,7 @@ export class DataAwsServicequotasServiceQuota extends cdktn.TerraformDataSource 
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -361,7 +361,7 @@ export class DataAwsServicequotasServiceQuota extends cdktn.TerraformDataSource 
   }
 
   // service_code - computed: false, optional: false, required: true
-  private _serviceCode?: string;
+  private _serviceCode?: string; 
   public get serviceCode() {
     return this.getStringAttribute('service_code');
   }

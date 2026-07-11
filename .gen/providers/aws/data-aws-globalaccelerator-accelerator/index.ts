@@ -241,7 +241,7 @@ export class DataAwsGlobalacceleratorAccelerator extends cdktn.TerraformDataSour
   // ==========
 
   // arn - computed: true, optional: true, required: false
-  private _arn?: string;
+  private _arn?: string; 
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -299,7 +299,7 @@ export class DataAwsGlobalacceleratorAccelerator extends cdktn.TerraformDataSour
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }

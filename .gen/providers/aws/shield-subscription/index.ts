@@ -78,7 +78,7 @@ export class ShieldSubscription extends cdktn.TerraformResource {
   // ==========
 
   // auto_renew - computed: true, optional: true, required: false
-  private _autoRenew?: string;
+  private _autoRenew?: string; 
   public get autoRenew() {
     return this.getStringAttribute('auto_renew');
   }
@@ -99,7 +99,7 @@ export class ShieldSubscription extends cdktn.TerraformResource {
   }
 
   // skip_destroy - computed: false, optional: true, required: false
-  private _skipDestroy?: boolean | cdktn.IResolvable;
+  private _skipDestroy?: boolean | cdktn.IResolvable; 
   public get skipDestroy() {
     return this.getBooleanAttribute('skip_destroy');
   }

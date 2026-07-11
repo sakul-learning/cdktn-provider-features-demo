@@ -170,7 +170,7 @@ export class RtbfabricLinkLinkAttributesResponderErrorMaskingOutputReference ext
   }
 
   // action - computed: true, optional: true, required: false
-  private _action?: string;
+  private _action?: string; 
   public get action() {
     return this.getStringAttribute('action');
   }
@@ -186,7 +186,7 @@ export class RtbfabricLinkLinkAttributesResponderErrorMaskingOutputReference ext
   }
 
   // http_code - computed: true, optional: true, required: false
-  private _httpCode?: string;
+  private _httpCode?: string; 
   public get httpCode() {
     return this.getStringAttribute('http_code');
   }
@@ -202,7 +202,7 @@ export class RtbfabricLinkLinkAttributesResponderErrorMaskingOutputReference ext
   }
 
   // logging_types - computed: true, optional: true, required: false
-  private _loggingTypes?: string[];
+  private _loggingTypes?: string[]; 
   public get loggingTypes() {
     return cdktn.Fn.tolist(this.getListAttribute('logging_types'));
   }
@@ -218,7 +218,7 @@ export class RtbfabricLinkLinkAttributesResponderErrorMaskingOutputReference ext
   }
 
   // response_logging_percentage - computed: true, optional: true, required: false
-  private _responseLoggingPercentage?: number;
+  private _responseLoggingPercentage?: number; 
   public get responseLoggingPercentage() {
     return this.getNumberAttribute('response_logging_percentage');
   }
@@ -349,7 +349,7 @@ export class RtbfabricLinkLinkAttributesOutputReference extends cdktn.ComplexObj
   }
 
   // customer_provided_id - computed: true, optional: true, required: false
-  private _customerProvidedId?: string;
+  private _customerProvidedId?: string; 
   public get customerProvidedId() {
     return this.getStringAttribute('customer_provided_id');
   }
@@ -476,7 +476,7 @@ export class RtbfabricLinkLinkLogSettingsApplicationLogsLinkApplicationLogSampli
   }
 
   // error_log - computed: false, optional: false, required: true
-  private _errorLog?: number;
+  private _errorLog?: number; 
   public get errorLog() {
     return this.getNumberAttribute('error_log');
   }
@@ -489,7 +489,7 @@ export class RtbfabricLinkLinkLogSettingsApplicationLogsLinkApplicationLogSampli
   }
 
   // filter_log - computed: false, optional: false, required: true
-  private _filterLog?: number;
+  private _filterLog?: number; 
   public get filterLog() {
     return this.getNumberAttribute('filter_log');
   }
@@ -796,7 +796,7 @@ export class RtbfabricLinkModuleConfigurationListModuleParametersNoBidOutputRefe
   }
 
   // pass_through_percentage - computed: true, optional: true, required: false
-  private _passThroughPercentage?: number;
+  private _passThroughPercentage?: number; 
   public get passThroughPercentage() {
     return this.getNumberAttribute('pass_through_percentage');
   }
@@ -812,7 +812,7 @@ export class RtbfabricLinkModuleConfigurationListModuleParametersNoBidOutputRefe
   }
 
   // reason - computed: true, optional: true, required: false
-  private _reason?: string;
+  private _reason?: string; 
   public get reason() {
     return this.getStringAttribute('reason');
   }
@@ -828,7 +828,7 @@ export class RtbfabricLinkModuleConfigurationListModuleParametersNoBidOutputRefe
   }
 
   // reason_code - computed: true, optional: true, required: false
-  private _reasonCode?: number;
+  private _reasonCode?: number; 
   public get reasonCode() {
     return this.getNumberAttribute('reason_code');
   }
@@ -939,7 +939,7 @@ export class RtbfabricLinkModuleConfigurationListModuleParametersOpenRtbAttribut
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -955,7 +955,7 @@ export class RtbfabricLinkModuleConfigurationListModuleParametersOpenRtbAttribut
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1049,7 +1049,7 @@ export class RtbfabricLinkModuleConfigurationListModuleParametersOpenRtbAttribut
   }
 
   // no_bid_reason_code - computed: true, optional: true, required: false
-  private _noBidReasonCode?: number;
+  private _noBidReasonCode?: number; 
   public get noBidReasonCode() {
     return this.getNumberAttribute('no_bid_reason_code');
   }
@@ -1289,7 +1289,7 @@ export class RtbfabricLinkModuleConfigurationListModuleParametersOpenRtbAttribut
   }
 
   // path - computed: true, optional: true, required: false
-  private _path?: string;
+  private _path?: string; 
   public get path() {
     return this.getStringAttribute('path');
   }
@@ -1305,7 +1305,7 @@ export class RtbfabricLinkModuleConfigurationListModuleParametersOpenRtbAttribut
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -1618,7 +1618,7 @@ export class RtbfabricLinkModuleConfigurationListModuleParametersOpenRtbAttribut
   }
 
   // filter_type - computed: true, optional: true, required: false
-  private _filterType?: string;
+  private _filterType?: string; 
   public get filterType() {
     return this.getStringAttribute('filter_type');
   }
@@ -1634,7 +1634,7 @@ export class RtbfabricLinkModuleConfigurationListModuleParametersOpenRtbAttribut
   }
 
   // holdback_percentage - computed: true, optional: true, required: false
-  private _holdbackPercentage?: number;
+  private _holdbackPercentage?: number; 
   public get holdbackPercentage() {
     return this.getNumberAttribute('holdback_percentage');
   }
@@ -1908,7 +1908,7 @@ export class RtbfabricLinkModuleConfigurationListStructOutputReference extends c
   }
 
   // depends_on - computed: true, optional: true, required: false
-  private _dependsOn?: string[];
+  private _dependsOn?: string[]; 
   public get dependsOn() {
     return this.getListAttribute('depends_on');
   }
@@ -1940,7 +1940,7 @@ export class RtbfabricLinkModuleConfigurationListStructOutputReference extends c
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1956,7 +1956,7 @@ export class RtbfabricLinkModuleConfigurationListStructOutputReference extends c
   }
 
   // version - computed: true, optional: true, required: false
-  private _version?: string;
+  private _version?: string; 
   public get version() {
     return this.getStringAttribute('version');
   }
@@ -1993,13 +1993,13 @@ export class RtbfabricLinkModuleConfigurationListStructList extends cdktn.Comple
 }
 export interface RtbfabricLinkTags {
   /**
-  * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
+  * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_link#key RtbfabricLink#key}
   */
   readonly key?: string;
   /**
-  * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
+  * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rtbfabric_link#value RtbfabricLink#value}
   */
@@ -2093,7 +2093,7 @@ export class RtbfabricLinkTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -2109,7 +2109,7 @@ export class RtbfabricLinkTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2219,7 +2219,7 @@ export class RtbfabricLink extends cdktn.TerraformResource {
   }
 
   // gateway_id - computed: false, optional: false, required: true
-  private _gatewayId?: string;
+  private _gatewayId?: string; 
   public get gatewayId() {
     return this.getStringAttribute('gateway_id');
   }
@@ -2232,7 +2232,7 @@ export class RtbfabricLink extends cdktn.TerraformResource {
   }
 
   // http_responder_allowed - computed: true, optional: true, required: false
-  private _httpResponderAllowed?: boolean | cdktn.IResolvable;
+  private _httpResponderAllowed?: boolean | cdktn.IResolvable; 
   public get httpResponderAllowed() {
     return this.getBooleanAttribute('http_responder_allowed');
   }
@@ -2313,7 +2313,7 @@ export class RtbfabricLink extends cdktn.TerraformResource {
   }
 
   // peer_gateway_id - computed: false, optional: false, required: true
-  private _peerGatewayId?: string;
+  private _peerGatewayId?: string; 
   public get peerGatewayId() {
     return this.getStringAttribute('peer_gateway_id');
   }

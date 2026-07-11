@@ -185,7 +185,7 @@ export class WorkspaceswebUserSettingsCookieSynchronizationConfigurationAllowlis
   }
 
   // domain - computed: false, optional: false, required: true
-  private _domain?: string;
+  private _domain?: string; 
   public get domain() {
     return this.getStringAttribute('domain');
   }
@@ -198,7 +198,7 @@ export class WorkspaceswebUserSettingsCookieSynchronizationConfigurationAllowlis
   }
 
   // name - computed: false, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -214,7 +214,7 @@ export class WorkspaceswebUserSettingsCookieSynchronizationConfigurationAllowlis
   }
 
   // path - computed: false, optional: true, required: false
-  private _path?: string;
+  private _path?: string; 
   public get path() {
     return this.getStringAttribute('path');
   }
@@ -364,7 +364,7 @@ export class WorkspaceswebUserSettingsCookieSynchronizationConfigurationBlocklis
   }
 
   // domain - computed: false, optional: false, required: true
-  private _domain?: string;
+  private _domain?: string; 
   public get domain() {
     return this.getStringAttribute('domain');
   }
@@ -377,7 +377,7 @@ export class WorkspaceswebUserSettingsCookieSynchronizationConfigurationBlocklis
   }
 
   // name - computed: false, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -393,7 +393,7 @@ export class WorkspaceswebUserSettingsCookieSynchronizationConfigurationBlocklis
   }
 
   // path - computed: false, optional: true, required: false
-  private _path?: string;
+  private _path?: string; 
   public get path() {
     return this.getStringAttribute('path');
   }
@@ -713,7 +713,7 @@ export class WorkspaceswebUserSettingsToolbarConfigurationOutputReference extend
   }
 
   // hidden_toolbar_items - computed: false, optional: true, required: false
-  private _hiddenToolbarItems?: string[];
+  private _hiddenToolbarItems?: string[]; 
   public get hiddenToolbarItems() {
     return this.getListAttribute('hidden_toolbar_items');
   }
@@ -729,7 +729,7 @@ export class WorkspaceswebUserSettingsToolbarConfigurationOutputReference extend
   }
 
   // max_display_resolution - computed: false, optional: true, required: false
-  private _maxDisplayResolution?: string;
+  private _maxDisplayResolution?: string; 
   public get maxDisplayResolution() {
     return this.getStringAttribute('max_display_resolution');
   }
@@ -745,7 +745,7 @@ export class WorkspaceswebUserSettingsToolbarConfigurationOutputReference extend
   }
 
   // toolbar_type - computed: false, optional: true, required: false
-  private _toolbarType?: string;
+  private _toolbarType?: string; 
   public get toolbarType() {
     return this.getStringAttribute('toolbar_type');
   }
@@ -761,7 +761,7 @@ export class WorkspaceswebUserSettingsToolbarConfigurationOutputReference extend
   }
 
   // visual_mode - computed: false, optional: true, required: false
-  private _visualMode?: string;
+  private _visualMode?: string; 
   public get visualMode() {
     return this.getStringAttribute('visual_mode');
   }
@@ -868,7 +868,7 @@ export class WorkspaceswebUserSettings extends cdktn.TerraformResource {
   // ==========
 
   // additional_encryption_context - computed: false, optional: true, required: false
-  private _additionalEncryptionContext?: { [key: string]: string };
+  private _additionalEncryptionContext?: { [key: string]: string }; 
   public get additionalEncryptionContext() {
     return this.getStringMapAttribute('additional_encryption_context');
   }
@@ -889,7 +889,7 @@ export class WorkspaceswebUserSettings extends cdktn.TerraformResource {
   }
 
   // copy_allowed - computed: false, optional: false, required: true
-  private _copyAllowed?: string;
+  private _copyAllowed?: string; 
   public get copyAllowed() {
     return this.getStringAttribute('copy_allowed');
   }
@@ -902,7 +902,7 @@ export class WorkspaceswebUserSettings extends cdktn.TerraformResource {
   }
 
   // customer_managed_key - computed: false, optional: true, required: false
-  private _customerManagedKey?: string;
+  private _customerManagedKey?: string; 
   public get customerManagedKey() {
     return this.getStringAttribute('customer_managed_key');
   }
@@ -918,7 +918,7 @@ export class WorkspaceswebUserSettings extends cdktn.TerraformResource {
   }
 
   // deep_link_allowed - computed: true, optional: true, required: false
-  private _deepLinkAllowed?: string;
+  private _deepLinkAllowed?: string; 
   public get deepLinkAllowed() {
     return this.getStringAttribute('deep_link_allowed');
   }
@@ -934,7 +934,7 @@ export class WorkspaceswebUserSettings extends cdktn.TerraformResource {
   }
 
   // disconnect_timeout_in_minutes - computed: false, optional: true, required: false
-  private _disconnectTimeoutInMinutes?: number;
+  private _disconnectTimeoutInMinutes?: number; 
   public get disconnectTimeoutInMinutes() {
     return this.getNumberAttribute('disconnect_timeout_in_minutes');
   }
@@ -950,7 +950,7 @@ export class WorkspaceswebUserSettings extends cdktn.TerraformResource {
   }
 
   // download_allowed - computed: false, optional: false, required: true
-  private _downloadAllowed?: string;
+  private _downloadAllowed?: string; 
   public get downloadAllowed() {
     return this.getStringAttribute('download_allowed');
   }
@@ -963,7 +963,7 @@ export class WorkspaceswebUserSettings extends cdktn.TerraformResource {
   }
 
   // idle_disconnect_timeout_in_minutes - computed: false, optional: true, required: false
-  private _idleDisconnectTimeoutInMinutes?: number;
+  private _idleDisconnectTimeoutInMinutes?: number; 
   public get idleDisconnectTimeoutInMinutes() {
     return this.getNumberAttribute('idle_disconnect_timeout_in_minutes');
   }
@@ -979,7 +979,7 @@ export class WorkspaceswebUserSettings extends cdktn.TerraformResource {
   }
 
   // paste_allowed - computed: false, optional: false, required: true
-  private _pasteAllowed?: string;
+  private _pasteAllowed?: string; 
   public get pasteAllowed() {
     return this.getStringAttribute('paste_allowed');
   }
@@ -992,7 +992,7 @@ export class WorkspaceswebUserSettings extends cdktn.TerraformResource {
   }
 
   // print_allowed - computed: false, optional: false, required: true
-  private _printAllowed?: string;
+  private _printAllowed?: string; 
   public get printAllowed() {
     return this.getStringAttribute('print_allowed');
   }
@@ -1005,7 +1005,7 @@ export class WorkspaceswebUserSettings extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1021,7 +1021,7 @@ export class WorkspaceswebUserSettings extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -1043,7 +1043,7 @@ export class WorkspaceswebUserSettings extends cdktn.TerraformResource {
   }
 
   // upload_allowed - computed: false, optional: false, required: true
-  private _uploadAllowed?: string;
+  private _uploadAllowed?: string; 
   public get uploadAllowed() {
     return this.getStringAttribute('upload_allowed');
   }

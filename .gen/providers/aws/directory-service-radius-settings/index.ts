@@ -159,7 +159,7 @@ export class DirectoryServiceRadiusSettingsTimeoutsOutputReference extends cdktn
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -175,7 +175,7 @@ export class DirectoryServiceRadiusSettingsTimeoutsOutputReference extends cdktn
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -260,7 +260,7 @@ export class DirectoryServiceRadiusSettings extends cdktn.TerraformResource {
   // ==========
 
   // authentication_protocol - computed: false, optional: false, required: true
-  private _authenticationProtocol?: string;
+  private _authenticationProtocol?: string; 
   public get authenticationProtocol() {
     return this.getStringAttribute('authentication_protocol');
   }
@@ -273,7 +273,7 @@ export class DirectoryServiceRadiusSettings extends cdktn.TerraformResource {
   }
 
   // directory_id - computed: false, optional: false, required: true
-  private _directoryId?: string;
+  private _directoryId?: string; 
   public get directoryId() {
     return this.getStringAttribute('directory_id');
   }
@@ -286,7 +286,7 @@ export class DirectoryServiceRadiusSettings extends cdktn.TerraformResource {
   }
 
   // display_label - computed: false, optional: false, required: true
-  private _displayLabel?: string;
+  private _displayLabel?: string; 
   public get displayLabel() {
     return this.getStringAttribute('display_label');
   }
@@ -299,7 +299,7 @@ export class DirectoryServiceRadiusSettings extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -315,7 +315,7 @@ export class DirectoryServiceRadiusSettings extends cdktn.TerraformResource {
   }
 
   // radius_port - computed: false, optional: false, required: true
-  private _radiusPort?: number;
+  private _radiusPort?: number; 
   public get radiusPort() {
     return this.getNumberAttribute('radius_port');
   }
@@ -328,7 +328,7 @@ export class DirectoryServiceRadiusSettings extends cdktn.TerraformResource {
   }
 
   // radius_retries - computed: false, optional: false, required: true
-  private _radiusRetries?: number;
+  private _radiusRetries?: number; 
   public get radiusRetries() {
     return this.getNumberAttribute('radius_retries');
   }
@@ -341,7 +341,7 @@ export class DirectoryServiceRadiusSettings extends cdktn.TerraformResource {
   }
 
   // radius_servers - computed: false, optional: false, required: true
-  private _radiusServers?: string[];
+  private _radiusServers?: string[]; 
   public get radiusServers() {
     return cdktn.Fn.tolist(this.getListAttribute('radius_servers'));
   }
@@ -354,7 +354,7 @@ export class DirectoryServiceRadiusSettings extends cdktn.TerraformResource {
   }
 
   // radius_timeout - computed: false, optional: false, required: true
-  private _radiusTimeout?: number;
+  private _radiusTimeout?: number; 
   public get radiusTimeout() {
     return this.getNumberAttribute('radius_timeout');
   }
@@ -367,7 +367,7 @@ export class DirectoryServiceRadiusSettings extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -383,7 +383,7 @@ export class DirectoryServiceRadiusSettings extends cdktn.TerraformResource {
   }
 
   // shared_secret - computed: false, optional: false, required: true
-  private _sharedSecret?: string;
+  private _sharedSecret?: string; 
   public get sharedSecret() {
     return this.getStringAttribute('shared_secret');
   }
@@ -396,7 +396,7 @@ export class DirectoryServiceRadiusSettings extends cdktn.TerraformResource {
   }
 
   // use_same_username - computed: false, optional: true, required: false
-  private _useSameUsername?: boolean | cdktn.IResolvable;
+  private _useSameUsername?: boolean | cdktn.IResolvable; 
   public get useSameUsername() {
     return this.getBooleanAttribute('use_same_username');
   }

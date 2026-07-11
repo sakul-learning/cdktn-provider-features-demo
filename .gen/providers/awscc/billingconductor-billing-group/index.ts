@@ -147,7 +147,7 @@ export class BillingconductorBillingGroupAccountGroupingOutputReference extends 
   }
 
   // auto_associate - computed: true, optional: true, required: false
-  private _autoAssociate?: boolean | cdktn.IResolvable;
+  private _autoAssociate?: boolean | cdktn.IResolvable; 
   public get autoAssociate() {
     return this.getBooleanAttribute('auto_associate');
   }
@@ -163,7 +163,7 @@ export class BillingconductorBillingGroupAccountGroupingOutputReference extends 
   }
 
   // linked_account_ids - computed: true, optional: true, required: false
-  private _linkedAccountIds?: string[];
+  private _linkedAccountIds?: string[]; 
   public get linkedAccountIds() {
     return cdktn.Fn.tolist(this.getListAttribute('linked_account_ids'));
   }
@@ -179,7 +179,7 @@ export class BillingconductorBillingGroupAccountGroupingOutputReference extends 
   }
 
   // responsibility_transfer_arn - computed: true, optional: true, required: false
-  private _responsibilityTransferArn?: string;
+  private _responsibilityTransferArn?: string; 
   public get responsibilityTransferArn() {
     return this.getStringAttribute('responsibility_transfer_arn');
   }
@@ -275,7 +275,7 @@ export class BillingconductorBillingGroupComputationPreferenceOutputReference ex
   }
 
   // pricing_plan_arn - computed: false, optional: false, required: true
-  private _pricingPlanArn?: string;
+  private _pricingPlanArn?: string; 
   public get pricingPlanArn() {
     return this.getStringAttribute('pricing_plan_arn');
   }
@@ -385,7 +385,7 @@ export class BillingconductorBillingGroupTagsOutputReference extends cdktn.Compl
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -401,7 +401,7 @@ export class BillingconductorBillingGroupTagsOutputReference extends cdktn.Compl
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -536,7 +536,7 @@ export class BillingconductorBillingGroup extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -562,7 +562,7 @@ export class BillingconductorBillingGroup extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -575,7 +575,7 @@ export class BillingconductorBillingGroup extends cdktn.TerraformResource {
   }
 
   // primary_account_id - computed: true, optional: true, required: false
-  private _primaryAccountId?: string;
+  private _primaryAccountId?: string; 
   public get primaryAccountId() {
     return this.getStringAttribute('primary_account_id');
   }

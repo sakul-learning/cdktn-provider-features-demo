@@ -92,7 +92,7 @@ export class CloudfrontkeyvaluestoreKey extends cdktn.TerraformResource {
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -105,7 +105,7 @@ export class CloudfrontkeyvaluestoreKey extends cdktn.TerraformResource {
   }
 
   // key_value_store_arn - computed: false, optional: false, required: true
-  private _keyValueStoreArn?: string;
+  private _keyValueStoreArn?: string; 
   public get keyValueStoreArn() {
     return this.getStringAttribute('key_value_store_arn');
   }
@@ -123,7 +123,7 @@ export class CloudfrontkeyvaluestoreKey extends cdktn.TerraformResource {
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }

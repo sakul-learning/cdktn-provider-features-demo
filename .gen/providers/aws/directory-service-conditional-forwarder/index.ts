@@ -96,7 +96,7 @@ export class DirectoryServiceConditionalForwarder extends cdktn.TerraformResourc
   // ==========
 
   // directory_id - computed: false, optional: false, required: true
-  private _directoryId?: string;
+  private _directoryId?: string; 
   public get directoryId() {
     return this.getStringAttribute('directory_id');
   }
@@ -109,7 +109,7 @@ export class DirectoryServiceConditionalForwarder extends cdktn.TerraformResourc
   }
 
   // dns_ips - computed: false, optional: false, required: true
-  private _dnsIps?: string[];
+  private _dnsIps?: string[]; 
   public get dnsIps() {
     return this.getListAttribute('dns_ips');
   }
@@ -122,7 +122,7 @@ export class DirectoryServiceConditionalForwarder extends cdktn.TerraformResourc
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -138,7 +138,7 @@ export class DirectoryServiceConditionalForwarder extends cdktn.TerraformResourc
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -154,7 +154,7 @@ export class DirectoryServiceConditionalForwarder extends cdktn.TerraformResourc
   }
 
   // remote_domain_name - computed: false, optional: false, required: true
-  private _remoteDomainName?: string;
+  private _remoteDomainName?: string; 
   public get remoteDomainName() {
     return this.getStringAttribute('remote_domain_name');
   }

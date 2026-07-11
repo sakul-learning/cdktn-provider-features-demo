@@ -94,7 +94,7 @@ export class AthenaPreparedStatement extends cdktn.TerraformResource {
   // ==========
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -115,7 +115,7 @@ export class AthenaPreparedStatement extends cdktn.TerraformResource {
   }
 
   // query_statement - computed: false, optional: false, required: true
-  private _queryStatement?: string;
+  private _queryStatement?: string; 
   public get queryStatement() {
     return this.getStringAttribute('query_statement');
   }
@@ -128,7 +128,7 @@ export class AthenaPreparedStatement extends cdktn.TerraformResource {
   }
 
   // statement_name - computed: false, optional: false, required: true
-  private _statementName?: string;
+  private _statementName?: string; 
   public get statementName() {
     return this.getStringAttribute('statement_name');
   }
@@ -141,7 +141,7 @@ export class AthenaPreparedStatement extends cdktn.TerraformResource {
   }
 
   // work_group - computed: false, optional: false, required: true
-  private _workGroup?: string;
+  private _workGroup?: string; 
   public get workGroup() {
     return this.getStringAttribute('work_group');
   }

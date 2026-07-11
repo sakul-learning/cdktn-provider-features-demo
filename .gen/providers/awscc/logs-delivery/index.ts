@@ -152,7 +152,7 @@ export class LogsDeliveryTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -168,7 +168,7 @@ export class LogsDeliveryTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -273,7 +273,7 @@ export class LogsDelivery extends cdktn.TerraformResource {
   }
 
   // delivery_destination_arn - computed: false, optional: false, required: true
-  private _deliveryDestinationArn?: string;
+  private _deliveryDestinationArn?: string; 
   public get deliveryDestinationArn() {
     return this.getStringAttribute('delivery_destination_arn');
   }
@@ -296,7 +296,7 @@ export class LogsDelivery extends cdktn.TerraformResource {
   }
 
   // delivery_source_name - computed: false, optional: false, required: true
-  private _deliverySourceName?: string;
+  private _deliverySourceName?: string; 
   public get deliverySourceName() {
     return this.getStringAttribute('delivery_source_name');
   }
@@ -309,7 +309,7 @@ export class LogsDelivery extends cdktn.TerraformResource {
   }
 
   // field_delimiter - computed: true, optional: true, required: false
-  private _fieldDelimiter?: string;
+  private _fieldDelimiter?: string; 
   public get fieldDelimiter() {
     return this.getStringAttribute('field_delimiter');
   }
@@ -330,7 +330,7 @@ export class LogsDelivery extends cdktn.TerraformResource {
   }
 
   // record_fields - computed: true, optional: true, required: false
-  private _recordFields?: string[];
+  private _recordFields?: string[]; 
   public get recordFields() {
     return this.getListAttribute('record_fields');
   }
@@ -346,7 +346,7 @@ export class LogsDelivery extends cdktn.TerraformResource {
   }
 
   // s3_enable_hive_compatible_path - computed: true, optional: true, required: false
-  private _s3EnableHiveCompatiblePath?: boolean | cdktn.IResolvable;
+  private _s3EnableHiveCompatiblePath?: boolean | cdktn.IResolvable; 
   public get s3EnableHiveCompatiblePath() {
     return this.getBooleanAttribute('s3_enable_hive_compatible_path');
   }
@@ -362,7 +362,7 @@ export class LogsDelivery extends cdktn.TerraformResource {
   }
 
   // s3_suffix_path - computed: true, optional: true, required: false
-  private _s3SuffixPath?: string;
+  private _s3SuffixPath?: string; 
   public get s3SuffixPath() {
     return this.getStringAttribute('s3_suffix_path');
   }

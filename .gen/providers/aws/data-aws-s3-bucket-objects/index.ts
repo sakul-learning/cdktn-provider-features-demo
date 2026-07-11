@@ -116,7 +116,7 @@ export class DataAwsS3BucketObjects extends cdktn.TerraformDataSource {
   // ==========
 
   // bucket - computed: false, optional: false, required: true
-  private _bucket?: string;
+  private _bucket?: string; 
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -134,7 +134,7 @@ export class DataAwsS3BucketObjects extends cdktn.TerraformDataSource {
   }
 
   // delimiter - computed: false, optional: true, required: false
-  private _delimiter?: string;
+  private _delimiter?: string; 
   public get delimiter() {
     return this.getStringAttribute('delimiter');
   }
@@ -150,7 +150,7 @@ export class DataAwsS3BucketObjects extends cdktn.TerraformDataSource {
   }
 
   // encoding_type - computed: false, optional: true, required: false
-  private _encodingType?: string;
+  private _encodingType?: string; 
   public get encodingType() {
     return this.getStringAttribute('encoding_type');
   }
@@ -166,7 +166,7 @@ export class DataAwsS3BucketObjects extends cdktn.TerraformDataSource {
   }
 
   // fetch_owner - computed: false, optional: true, required: false
-  private _fetchOwner?: boolean | cdktn.IResolvable;
+  private _fetchOwner?: boolean | cdktn.IResolvable; 
   public get fetchOwner() {
     return this.getBooleanAttribute('fetch_owner');
   }
@@ -182,7 +182,7 @@ export class DataAwsS3BucketObjects extends cdktn.TerraformDataSource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -203,7 +203,7 @@ export class DataAwsS3BucketObjects extends cdktn.TerraformDataSource {
   }
 
   // max_keys - computed: false, optional: true, required: false
-  private _maxKeys?: number;
+  private _maxKeys?: number; 
   public get maxKeys() {
     return this.getNumberAttribute('max_keys');
   }
@@ -224,7 +224,7 @@ export class DataAwsS3BucketObjects extends cdktn.TerraformDataSource {
   }
 
   // prefix - computed: false, optional: true, required: false
-  private _prefix?: string;
+  private _prefix?: string; 
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -240,7 +240,7 @@ export class DataAwsS3BucketObjects extends cdktn.TerraformDataSource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -256,7 +256,7 @@ export class DataAwsS3BucketObjects extends cdktn.TerraformDataSource {
   }
 
   // start_after - computed: false, optional: true, required: false
-  private _startAfter?: string;
+  private _startAfter?: string; 
   public get startAfter() {
     return this.getStringAttribute('start_after');
   }

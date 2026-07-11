@@ -107,7 +107,7 @@ export class OmicsVariantStoreReferenceOutputReference extends cdktn.ComplexObje
   }
 
   // reference_arn - computed: false, optional: false, required: true
-  private _referenceArn?: string;
+  private _referenceArn?: string; 
   public get referenceArn() {
     return this.getStringAttribute('reference_arn');
   }
@@ -215,7 +215,7 @@ export class OmicsVariantStoreSseConfigOutputReference extends cdktn.ComplexObje
   }
 
   // key_arn - computed: true, optional: true, required: false
-  private _keyArn?: string;
+  private _keyArn?: string; 
   public get keyArn() {
     return this.getStringAttribute('key_arn');
   }
@@ -231,7 +231,7 @@ export class OmicsVariantStoreSseConfigOutputReference extends cdktn.ComplexObje
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -314,7 +314,7 @@ export class OmicsVariantStore extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -335,7 +335,7 @@ export class OmicsVariantStore extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -397,7 +397,7 @@ export class OmicsVariantStore extends cdktn.TerraformResource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

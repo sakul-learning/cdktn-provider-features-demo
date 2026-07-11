@@ -111,7 +111,7 @@ export class DevopsguruResourceCollectionCloudformationOutputReference extends c
   }
 
   // stack_names - computed: false, optional: false, required: true
-  private _stackNames?: string[];
+  private _stackNames?: string[]; 
   public get stackNames() {
     return this.getListAttribute('stack_names');
   }
@@ -241,7 +241,7 @@ export class DevopsguruResourceCollectionTagsOutputReference extends cdktn.Compl
   }
 
   // app_boundary_key - computed: false, optional: false, required: true
-  private _appBoundaryKey?: string;
+  private _appBoundaryKey?: string; 
   public get appBoundaryKey() {
     return this.getStringAttribute('app_boundary_key');
   }
@@ -254,7 +254,7 @@ export class DevopsguruResourceCollectionTagsOutputReference extends cdktn.Compl
   }
 
   // tag_values - computed: false, optional: false, required: true
-  private _tagValues?: string[];
+  private _tagValues?: string[]; 
   public get tagValues() {
     return this.getListAttribute('tag_values');
   }
@@ -353,7 +353,7 @@ export class DevopsguruResourceCollection extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -369,7 +369,7 @@ export class DevopsguruResourceCollection extends cdktn.TerraformResource {
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }

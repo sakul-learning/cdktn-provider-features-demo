@@ -170,7 +170,7 @@ export class LambdaNetworkConnectorConfigurationVpcEgressConfigurationOutputRefe
   }
 
   // associated_compute_resource_types - computed: false, optional: false, required: true
-  private _associatedComputeResourceTypes?: string[];
+  private _associatedComputeResourceTypes?: string[]; 
   public get associatedComputeResourceTypes() {
     return this.getListAttribute('associated_compute_resource_types');
   }
@@ -183,7 +183,7 @@ export class LambdaNetworkConnectorConfigurationVpcEgressConfigurationOutputRefe
   }
 
   // network_protocol - computed: true, optional: true, required: false
-  private _networkProtocol?: string;
+  private _networkProtocol?: string; 
   public get networkProtocol() {
     return this.getStringAttribute('network_protocol');
   }
@@ -199,7 +199,7 @@ export class LambdaNetworkConnectorConfigurationVpcEgressConfigurationOutputRefe
   }
 
   // security_group_ids - computed: true, optional: true, required: false
-  private _securityGroupIds?: string[];
+  private _securityGroupIds?: string[]; 
   public get securityGroupIds() {
     return this.getListAttribute('security_group_ids');
   }
@@ -215,7 +215,7 @@ export class LambdaNetworkConnectorConfigurationVpcEgressConfigurationOutputRefe
   }
 
   // subnet_ids - computed: false, optional: false, required: true
-  private _subnetIds?: string[];
+  private _subnetIds?: string[]; 
   public get subnetIds() {
     return this.getListAttribute('subnet_ids');
   }
@@ -422,7 +422,7 @@ export class LambdaNetworkConnectorTagsOutputReference extends cdktn.ComplexObje
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -438,7 +438,7 @@ export class LambdaNetworkConnectorTagsOutputReference extends cdktn.ComplexObje
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -558,7 +558,7 @@ export class LambdaNetworkConnector extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -574,7 +574,7 @@ export class LambdaNetworkConnector extends cdktn.TerraformResource {
   }
 
   // operator_role - computed: true, optional: true, required: false
-  private _operatorRole?: string;
+  private _operatorRole?: string; 
   public get operatorRole() {
     return this.getStringAttribute('operator_role');
   }

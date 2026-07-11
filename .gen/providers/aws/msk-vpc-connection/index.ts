@@ -121,7 +121,7 @@ export class MskVpcConnection extends cdktn.TerraformResource {
   }
 
   // authentication - computed: false, optional: false, required: true
-  private _authentication?: string;
+  private _authentication?: string; 
   public get authentication() {
     return this.getStringAttribute('authentication');
   }
@@ -134,7 +134,7 @@ export class MskVpcConnection extends cdktn.TerraformResource {
   }
 
   // client_subnets - computed: false, optional: false, required: true
-  private _clientSubnets?: string[];
+  private _clientSubnets?: string[]; 
   public get clientSubnets() {
     return cdktn.Fn.tolist(this.getListAttribute('client_subnets'));
   }
@@ -147,7 +147,7 @@ export class MskVpcConnection extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -163,7 +163,7 @@ export class MskVpcConnection extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -179,7 +179,7 @@ export class MskVpcConnection extends cdktn.TerraformResource {
   }
 
   // security_groups - computed: false, optional: false, required: true
-  private _securityGroups?: string[];
+  private _securityGroups?: string[]; 
   public get securityGroups() {
     return cdktn.Fn.tolist(this.getListAttribute('security_groups'));
   }
@@ -192,7 +192,7 @@ export class MskVpcConnection extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -208,7 +208,7 @@ export class MskVpcConnection extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -224,7 +224,7 @@ export class MskVpcConnection extends cdktn.TerraformResource {
   }
 
   // target_cluster_arn - computed: false, optional: false, required: true
-  private _targetClusterArn?: string;
+  private _targetClusterArn?: string; 
   public get targetClusterArn() {
     return this.getStringAttribute('target_cluster_arn');
   }
@@ -237,7 +237,7 @@ export class MskVpcConnection extends cdktn.TerraformResource {
   }
 
   // vpc_id - computed: false, optional: false, required: true
-  private _vpcId?: string;
+  private _vpcId?: string; 
   public get vpcId() {
     return this.getStringAttribute('vpc_id');
   }

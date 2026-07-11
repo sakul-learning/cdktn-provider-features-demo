@@ -387,7 +387,7 @@ export class NetworkfirewallVpcEndpointAssociationSubnetMappingOutputReference e
   }
 
   // ip_address_type - computed: true, optional: true, required: false
-  private _ipAddressType?: string;
+  private _ipAddressType?: string; 
   public get ipAddressType() {
     return this.getStringAttribute('ip_address_type');
   }
@@ -403,7 +403,7 @@ export class NetworkfirewallVpcEndpointAssociationSubnetMappingOutputReference e
   }
 
   // subnet_id - computed: false, optional: false, required: true
-  private _subnetId?: string;
+  private _subnetId?: string; 
   public get subnetId() {
     return this.getStringAttribute('subnet_id');
   }
@@ -535,7 +535,7 @@ export class NetworkfirewallVpcEndpointAssociationTimeoutsOutputReference extend
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -551,7 +551,7 @@ export class NetworkfirewallVpcEndpointAssociationTimeoutsOutputReference extend
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -631,7 +631,7 @@ export class NetworkfirewallVpcEndpointAssociation extends cdktn.TerraformResour
   // ==========
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -647,7 +647,7 @@ export class NetworkfirewallVpcEndpointAssociation extends cdktn.TerraformResour
   }
 
   // firewall_arn - computed: false, optional: false, required: true
-  private _firewallArn?: string;
+  private _firewallArn?: string; 
   public get firewallArn() {
     return this.getStringAttribute('firewall_arn');
   }
@@ -660,7 +660,7 @@ export class NetworkfirewallVpcEndpointAssociation extends cdktn.TerraformResour
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -676,7 +676,7 @@ export class NetworkfirewallVpcEndpointAssociation extends cdktn.TerraformResour
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -714,7 +714,7 @@ export class NetworkfirewallVpcEndpointAssociation extends cdktn.TerraformResour
   }
 
   // vpc_id - computed: false, optional: false, required: true
-  private _vpcId?: string;
+  private _vpcId?: string; 
   public get vpcId() {
     return this.getStringAttribute('vpc_id');
   }

@@ -112,7 +112,7 @@ export class EventsApiDestination extends cdktn.TerraformResource {
   }
 
   // connection_arn - computed: false, optional: false, required: true
-  private _connectionArn?: string;
+  private _connectionArn?: string; 
   public get connectionArn() {
     return this.getStringAttribute('connection_arn');
   }
@@ -125,7 +125,7 @@ export class EventsApiDestination extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -141,7 +141,7 @@ export class EventsApiDestination extends cdktn.TerraformResource {
   }
 
   // http_method - computed: false, optional: false, required: true
-  private _httpMethod?: string;
+  private _httpMethod?: string; 
   public get httpMethod() {
     return this.getStringAttribute('http_method');
   }
@@ -159,7 +159,7 @@ export class EventsApiDestination extends cdktn.TerraformResource {
   }
 
   // invocation_endpoint - computed: false, optional: false, required: true
-  private _invocationEndpoint?: string;
+  private _invocationEndpoint?: string; 
   public get invocationEndpoint() {
     return this.getStringAttribute('invocation_endpoint');
   }
@@ -172,7 +172,7 @@ export class EventsApiDestination extends cdktn.TerraformResource {
   }
 
   // invocation_rate_limit_per_second - computed: true, optional: true, required: false
-  private _invocationRateLimitPerSecond?: number;
+  private _invocationRateLimitPerSecond?: number; 
   public get invocationRateLimitPerSecond() {
     return this.getNumberAttribute('invocation_rate_limit_per_second');
   }
@@ -188,7 +188,7 @@ export class EventsApiDestination extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }

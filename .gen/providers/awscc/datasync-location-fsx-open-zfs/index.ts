@@ -119,7 +119,7 @@ export class DatasyncLocationFsxOpenZfsProtocolNfsMountOptionsOutputReference ex
   }
 
   // version - computed: true, optional: true, required: false
-  private _version?: string;
+  private _version?: string; 
   public get version() {
     return this.getStringAttribute('version');
   }
@@ -428,7 +428,7 @@ export class DatasyncLocationFsxOpenZfsTagsOutputReference extends cdktn.Complex
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -444,7 +444,7 @@ export class DatasyncLocationFsxOpenZfsTagsOutputReference extends cdktn.Complex
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -542,7 +542,7 @@ export class DatasyncLocationFsxOpenZfs extends cdktn.TerraformResource {
   // ==========
 
   // fsx_filesystem_arn - computed: true, optional: true, required: false
-  private _fsxFilesystemArn?: string;
+  private _fsxFilesystemArn?: string; 
   public get fsxFilesystemArn() {
     return this.getStringAttribute('fsx_filesystem_arn');
   }
@@ -586,7 +586,7 @@ export class DatasyncLocationFsxOpenZfs extends cdktn.TerraformResource {
   }
 
   // security_group_arns - computed: false, optional: false, required: true
-  private _securityGroupArns?: string[];
+  private _securityGroupArns?: string[]; 
   public get securityGroupArns() {
     return this.getListAttribute('security_group_arns');
   }
@@ -599,7 +599,7 @@ export class DatasyncLocationFsxOpenZfs extends cdktn.TerraformResource {
   }
 
   // subdirectory - computed: true, optional: true, required: false
-  private _subdirectory?: string;
+  private _subdirectory?: string; 
   public get subdirectory() {
     return this.getStringAttribute('subdirectory');
   }

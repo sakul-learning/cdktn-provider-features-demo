@@ -120,7 +120,7 @@ export class PcaconnectoradTemplateGroupAccessControlEntryAccessRightsOutputRefe
   }
 
   // auto_enroll - computed: true, optional: true, required: false
-  private _autoEnroll?: string;
+  private _autoEnroll?: string; 
   public get autoEnroll() {
     return this.getStringAttribute('auto_enroll');
   }
@@ -136,7 +136,7 @@ export class PcaconnectoradTemplateGroupAccessControlEntryAccessRightsOutputRefe
   }
 
   // enroll - computed: true, optional: true, required: false
-  private _enroll?: string;
+  private _enroll?: string; 
   public get enroll() {
     return this.getStringAttribute('enroll');
   }
@@ -226,7 +226,7 @@ export class PcaconnectoradTemplateGroupAccessControlEntry extends cdktn.Terrafo
   }
 
   // group_display_name - computed: false, optional: false, required: true
-  private _groupDisplayName?: string;
+  private _groupDisplayName?: string; 
   public get groupDisplayName() {
     return this.getStringAttribute('group_display_name');
   }
@@ -239,7 +239,7 @@ export class PcaconnectoradTemplateGroupAccessControlEntry extends cdktn.Terrafo
   }
 
   // group_security_identifier - computed: false, optional: false, required: true
-  private _groupSecurityIdentifier?: string;
+  private _groupSecurityIdentifier?: string; 
   public get groupSecurityIdentifier() {
     return this.getStringAttribute('group_security_identifier');
   }
@@ -257,7 +257,7 @@ export class PcaconnectoradTemplateGroupAccessControlEntry extends cdktn.Terrafo
   }
 
   // template_arn - computed: false, optional: false, required: true
-  private _templateArn?: string;
+  private _templateArn?: string; 
   public get templateArn() {
     return this.getStringAttribute('template_arn');
   }

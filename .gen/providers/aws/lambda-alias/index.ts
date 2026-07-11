@@ -118,7 +118,7 @@ export class LambdaAliasRoutingConfigOutputReference extends cdktn.ComplexObject
   }
 
   // additional_version_weights - computed: false, optional: true, required: false
-  private _additionalVersionWeights?: { [key: string]: number };
+  private _additionalVersionWeights?: { [key: string]: number }; 
   public get additionalVersionWeights() {
     return this.getNumberMapAttribute('additional_version_weights');
   }
@@ -212,7 +212,7 @@ export class LambdaAliasTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -298,7 +298,7 @@ export class LambdaAlias extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -314,7 +314,7 @@ export class LambdaAlias extends cdktn.TerraformResource {
   }
 
   // function_name - computed: false, optional: false, required: true
-  private _functionName?: string;
+  private _functionName?: string; 
   public get functionName() {
     return this.getStringAttribute('function_name');
   }
@@ -327,7 +327,7 @@ export class LambdaAlias extends cdktn.TerraformResource {
   }
 
   // function_version - computed: false, optional: false, required: true
-  private _functionVersion?: string;
+  private _functionVersion?: string; 
   public get functionVersion() {
     return this.getStringAttribute('function_version');
   }
@@ -340,7 +340,7 @@ export class LambdaAlias extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -361,7 +361,7 @@ export class LambdaAlias extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -374,7 +374,7 @@ export class LambdaAlias extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

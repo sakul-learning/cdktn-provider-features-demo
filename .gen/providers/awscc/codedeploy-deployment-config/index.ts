@@ -134,7 +134,7 @@ export class CodedeployDeploymentConfigMinimumHealthyHostsOutputReference extend
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -150,7 +150,7 @@ export class CodedeployDeploymentConfigMinimumHealthyHostsOutputReference extend
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: number;
+  private _value?: number; 
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -261,7 +261,7 @@ export class CodedeployDeploymentConfigTrafficRoutingConfigTimeBasedCanaryOutput
   }
 
   // canary_interval - computed: true, optional: true, required: false
-  private _canaryInterval?: number;
+  private _canaryInterval?: number; 
   public get canaryInterval() {
     return this.getNumberAttribute('canary_interval');
   }
@@ -277,7 +277,7 @@ export class CodedeployDeploymentConfigTrafficRoutingConfigTimeBasedCanaryOutput
   }
 
   // canary_percentage - computed: true, optional: true, required: false
-  private _canaryPercentage?: number;
+  private _canaryPercentage?: number; 
   public get canaryPercentage() {
     return this.getNumberAttribute('canary_percentage');
   }
@@ -388,7 +388,7 @@ export class CodedeployDeploymentConfigTrafficRoutingConfigTimeBasedLinearOutput
   }
 
   // linear_interval - computed: true, optional: true, required: false
-  private _linearInterval?: number;
+  private _linearInterval?: number; 
   public get linearInterval() {
     return this.getNumberAttribute('linear_interval');
   }
@@ -404,7 +404,7 @@ export class CodedeployDeploymentConfigTrafficRoutingConfigTimeBasedLinearOutput
   }
 
   // linear_percentage - computed: true, optional: true, required: false
-  private _linearPercentage?: number;
+  private _linearPercentage?: number; 
   public get linearPercentage() {
     return this.getNumberAttribute('linear_percentage');
   }
@@ -564,7 +564,7 @@ export class CodedeployDeploymentConfigTrafficRoutingConfigOutputReference exten
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -675,7 +675,7 @@ export class CodedeployDeploymentConfigZonalConfigMinimumHealthyHostsPerZoneOutp
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -691,7 +691,7 @@ export class CodedeployDeploymentConfigZonalConfigMinimumHealthyHostsPerZoneOutp
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: number;
+  private _value?: number; 
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -819,7 +819,7 @@ export class CodedeployDeploymentConfigZonalConfigOutputReference extends cdktn.
   }
 
   // first_zone_monitor_duration_in_seconds - computed: true, optional: true, required: false
-  private _firstZoneMonitorDurationInSeconds?: number;
+  private _firstZoneMonitorDurationInSeconds?: number; 
   public get firstZoneMonitorDurationInSeconds() {
     return this.getNumberAttribute('first_zone_monitor_duration_in_seconds');
   }
@@ -851,7 +851,7 @@ export class CodedeployDeploymentConfigZonalConfigOutputReference extends cdktn.
   }
 
   // monitor_duration_in_seconds - computed: true, optional: true, required: false
-  private _monitorDurationInSeconds?: number;
+  private _monitorDurationInSeconds?: number; 
   public get monitorDurationInSeconds() {
     return this.getNumberAttribute('monitor_duration_in_seconds');
   }
@@ -929,7 +929,7 @@ export class CodedeployDeploymentConfig extends cdktn.TerraformResource {
   // ==========
 
   // compute_platform - computed: true, optional: true, required: false
-  private _computePlatform?: string;
+  private _computePlatform?: string; 
   public get computePlatform() {
     return this.getStringAttribute('compute_platform');
   }
@@ -945,7 +945,7 @@ export class CodedeployDeploymentConfig extends cdktn.TerraformResource {
   }
 
   // deployment_config_name - computed: true, optional: true, required: false
-  private _deploymentConfigName?: string;
+  private _deploymentConfigName?: string; 
   public get deploymentConfigName() {
     return this.getStringAttribute('deployment_config_name');
   }

@@ -204,7 +204,7 @@ export class DataAwsApiGatewayApiKeys extends cdktn.TerraformDataSource {
   // ==========
 
   // customer_id - computed: false, optional: true, required: false
-  private _customerId?: string;
+  private _customerId?: string; 
   public get customerId() {
     return this.getStringAttribute('customer_id');
   }
@@ -225,7 +225,7 @@ export class DataAwsApiGatewayApiKeys extends cdktn.TerraformDataSource {
   }
 
   // include_values - computed: false, optional: true, required: false
-  private _includeValues?: boolean | cdktn.IResolvable;
+  private _includeValues?: boolean | cdktn.IResolvable; 
   public get includeValues() {
     return this.getBooleanAttribute('include_values');
   }
@@ -247,7 +247,7 @@ export class DataAwsApiGatewayApiKeys extends cdktn.TerraformDataSource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

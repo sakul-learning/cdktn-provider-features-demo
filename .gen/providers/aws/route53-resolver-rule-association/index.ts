@@ -135,7 +135,7 @@ export class Route53ResolverRuleAssociationTimeoutsOutputReference extends cdktn
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -151,7 +151,7 @@ export class Route53ResolverRuleAssociationTimeoutsOutputReference extends cdktn
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -230,7 +230,7 @@ export class Route53ResolverRuleAssociation extends cdktn.TerraformResource {
   // ==========
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -246,7 +246,7 @@ export class Route53ResolverRuleAssociation extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -262,7 +262,7 @@ export class Route53ResolverRuleAssociation extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -278,7 +278,7 @@ export class Route53ResolverRuleAssociation extends cdktn.TerraformResource {
   }
 
   // resolver_rule_id - computed: false, optional: false, required: true
-  private _resolverRuleId?: string;
+  private _resolverRuleId?: string; 
   public get resolverRuleId() {
     return this.getStringAttribute('resolver_rule_id');
   }
@@ -291,7 +291,7 @@ export class Route53ResolverRuleAssociation extends cdktn.TerraformResource {
   }
 
   // vpc_id - computed: false, optional: false, required: true
-  private _vpcId?: string;
+  private _vpcId?: string; 
   public get vpcId() {
     return this.getStringAttribute('vpc_id');
   }

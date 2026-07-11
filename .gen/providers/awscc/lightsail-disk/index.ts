@@ -125,7 +125,7 @@ export class LightsailDiskAddOnsAutoSnapshotAddOnRequestOutputReference extends 
   }
 
   // snapshot_time_of_day - computed: true, optional: true, required: false
-  private _snapshotTimeOfDay?: string;
+  private _snapshotTimeOfDay?: string; 
   public get snapshotTimeOfDay() {
     return this.getStringAttribute('snapshot_time_of_day');
   }
@@ -261,7 +261,7 @@ export class LightsailDiskAddOnsOutputReference extends cdktn.ComplexObject {
   }
 
   // add_on_type - computed: true, optional: true, required: false
-  private _addOnType?: string;
+  private _addOnType?: string; 
   public get addOnType() {
     return this.getStringAttribute('add_on_type');
   }
@@ -293,7 +293,7 @@ export class LightsailDiskAddOnsOutputReference extends cdktn.ComplexObject {
   }
 
   // status - computed: true, optional: true, required: false
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -499,7 +499,7 @@ export class LightsailDiskTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -515,7 +515,7 @@ export class LightsailDiskTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -640,7 +640,7 @@ export class LightsailDisk extends cdktn.TerraformResource {
   }
 
   // availability_zone - computed: true, optional: true, required: false
-  private _availabilityZone?: string;
+  private _availabilityZone?: string; 
   public get availabilityZone() {
     return this.getStringAttribute('availability_zone');
   }
@@ -661,7 +661,7 @@ export class LightsailDisk extends cdktn.TerraformResource {
   }
 
   // disk_name - computed: false, optional: false, required: true
-  private _diskName?: string;
+  private _diskName?: string; 
   public get diskName() {
     return this.getStringAttribute('disk_name');
   }
@@ -715,7 +715,7 @@ export class LightsailDisk extends cdktn.TerraformResource {
   }
 
   // size_in_gb - computed: false, optional: false, required: true
-  private _sizeInGb?: number;
+  private _sizeInGb?: number; 
   public get sizeInGb() {
     return this.getNumberAttribute('size_in_gb');
   }

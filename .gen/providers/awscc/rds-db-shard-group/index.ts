@@ -48,7 +48,7 @@ export interface RdsDbShardGroupConfig extends cdktn.TerraformMetaArguments {
   *  If ``DBSubnetGroupName`` isn't specified, and ``PubliclyAccessible`` isn't specified, the following applies:
   *   +  If the default VPC in the target Region doesn?t have an internet gateway attached to it, the DB shard group is private.
   *   +  If the default VPC in the target Region has an internet gateway attached to it, the DB shard group is public.
-  *
+  *   
   *  If ``DBSubnetGroupName`` is specified, and ``PubliclyAccessible`` isn't specified, the following applies:
   *   +  If the subnets are part of a VPC that doesn?t have an internet gateway attached to it, the DB shard group is private.
   *   +  If the subnets are part of a VPC that has an internet gateway attached to it, the DB shard group is public.
@@ -165,7 +165,7 @@ export class RdsDbShardGroupTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -181,7 +181,7 @@ export class RdsDbShardGroupTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -281,7 +281,7 @@ export class RdsDbShardGroup extends cdktn.TerraformResource {
   // ==========
 
   // compute_redundancy - computed: true, optional: true, required: false
-  private _computeRedundancy?: number;
+  private _computeRedundancy?: number; 
   public get computeRedundancy() {
     return this.getNumberAttribute('compute_redundancy');
   }
@@ -297,7 +297,7 @@ export class RdsDbShardGroup extends cdktn.TerraformResource {
   }
 
   // db_cluster_identifier - computed: false, optional: false, required: true
-  private _dbClusterIdentifier?: string;
+  private _dbClusterIdentifier?: string; 
   public get dbClusterIdentifier() {
     return this.getStringAttribute('db_cluster_identifier');
   }
@@ -310,7 +310,7 @@ export class RdsDbShardGroup extends cdktn.TerraformResource {
   }
 
   // db_shard_group_identifier - computed: true, optional: true, required: false
-  private _dbShardGroupIdentifier?: string;
+  private _dbShardGroupIdentifier?: string; 
   public get dbShardGroupIdentifier() {
     return this.getStringAttribute('db_shard_group_identifier');
   }
@@ -341,7 +341,7 @@ export class RdsDbShardGroup extends cdktn.TerraformResource {
   }
 
   // max_acu - computed: false, optional: false, required: true
-  private _maxAcu?: number;
+  private _maxAcu?: number; 
   public get maxAcu() {
     return this.getNumberAttribute('max_acu');
   }
@@ -354,7 +354,7 @@ export class RdsDbShardGroup extends cdktn.TerraformResource {
   }
 
   // min_acu - computed: true, optional: true, required: false
-  private _minAcu?: number;
+  private _minAcu?: number; 
   public get minAcu() {
     return this.getNumberAttribute('min_acu');
   }
@@ -370,7 +370,7 @@ export class RdsDbShardGroup extends cdktn.TerraformResource {
   }
 
   // publicly_accessible - computed: true, optional: true, required: false
-  private _publiclyAccessible?: boolean | cdktn.IResolvable;
+  private _publiclyAccessible?: boolean | cdktn.IResolvable; 
   public get publiclyAccessible() {
     return this.getBooleanAttribute('publicly_accessible');
   }

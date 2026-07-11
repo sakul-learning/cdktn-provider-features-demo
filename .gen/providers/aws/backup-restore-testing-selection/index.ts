@@ -146,7 +146,7 @@ export class BackupRestoreTestingSelectionProtectedResourceConditionsStringEqual
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -159,7 +159,7 @@ export class BackupRestoreTestingSelectionProtectedResourceConditionsStringEqual
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -289,7 +289,7 @@ export class BackupRestoreTestingSelectionProtectedResourceConditionsStringNotEq
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -302,7 +302,7 @@ export class BackupRestoreTestingSelectionProtectedResourceConditionsStringNotEq
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -554,7 +554,7 @@ export class BackupRestoreTestingSelection extends cdktn.TerraformResource {
   // ==========
 
   // iam_role_arn - computed: false, optional: false, required: true
-  private _iamRoleArn?: string;
+  private _iamRoleArn?: string; 
   public get iamRoleArn() {
     return this.getStringAttribute('iam_role_arn');
   }
@@ -567,7 +567,7 @@ export class BackupRestoreTestingSelection extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -580,7 +580,7 @@ export class BackupRestoreTestingSelection extends cdktn.TerraformResource {
   }
 
   // protected_resource_arns - computed: true, optional: true, required: false
-  private _protectedResourceArns?: string[];
+  private _protectedResourceArns?: string[]; 
   public get protectedResourceArns() {
     return cdktn.Fn.tolist(this.getListAttribute('protected_resource_arns'));
   }
@@ -596,7 +596,7 @@ export class BackupRestoreTestingSelection extends cdktn.TerraformResource {
   }
 
   // protected_resource_type - computed: false, optional: false, required: true
-  private _protectedResourceType?: string;
+  private _protectedResourceType?: string; 
   public get protectedResourceType() {
     return this.getStringAttribute('protected_resource_type');
   }
@@ -609,7 +609,7 @@ export class BackupRestoreTestingSelection extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -625,7 +625,7 @@ export class BackupRestoreTestingSelection extends cdktn.TerraformResource {
   }
 
   // restore_metadata_overrides - computed: true, optional: true, required: false
-  private _restoreMetadataOverrides?: { [key: string]: string };
+  private _restoreMetadataOverrides?: { [key: string]: string }; 
   public get restoreMetadataOverrides() {
     return this.getStringMapAttribute('restore_metadata_overrides');
   }
@@ -641,7 +641,7 @@ export class BackupRestoreTestingSelection extends cdktn.TerraformResource {
   }
 
   // restore_testing_plan_name - computed: false, optional: false, required: true
-  private _restoreTestingPlanName?: string;
+  private _restoreTestingPlanName?: string; 
   public get restoreTestingPlanName() {
     return this.getStringAttribute('restore_testing_plan_name');
   }
@@ -654,7 +654,7 @@ export class BackupRestoreTestingSelection extends cdktn.TerraformResource {
   }
 
   // validation_window_hours - computed: true, optional: true, required: false
-  private _validationWindowHours?: number;
+  private _validationWindowHours?: number; 
   public get validationWindowHours() {
     return this.getNumberAttribute('validation_window_hours');
   }

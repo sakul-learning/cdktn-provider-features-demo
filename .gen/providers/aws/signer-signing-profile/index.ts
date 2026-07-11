@@ -228,7 +228,7 @@ export class SignerSigningProfileSignatureValidityPeriodOutputReference extends 
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -241,7 +241,7 @@ export class SignerSigningProfileSignatureValidityPeriodOutputReference extends 
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: number;
+  private _value?: number; 
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -322,7 +322,7 @@ export class SignerSigningProfileSigningMaterialOutputReference extends cdktn.Co
   }
 
   // certificate_arn - computed: false, optional: false, required: true
-  private _certificateArn?: string;
+  private _certificateArn?: string; 
   public get certificateArn() {
     return this.getStringAttribute('certificate_arn');
   }
@@ -407,7 +407,7 @@ export class SignerSigningProfile extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -423,7 +423,7 @@ export class SignerSigningProfile extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -439,7 +439,7 @@ export class SignerSigningProfile extends cdktn.TerraformResource {
   }
 
   // name_prefix - computed: true, optional: true, required: false
-  private _namePrefix?: string;
+  private _namePrefix?: string; 
   public get namePrefix() {
     return this.getStringAttribute('name_prefix');
   }
@@ -460,7 +460,7 @@ export class SignerSigningProfile extends cdktn.TerraformResource {
   }
 
   // platform_id - computed: false, optional: false, required: true
-  private _platformId?: string;
+  private _platformId?: string; 
   public get platformId() {
     return this.getStringAttribute('platform_id');
   }
@@ -473,7 +473,7 @@ export class SignerSigningProfile extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -495,7 +495,7 @@ export class SignerSigningProfile extends cdktn.TerraformResource {
   }
 
   // signing_parameters - computed: false, optional: true, required: false
-  private _signingParameters?: { [key: string]: string };
+  private _signingParameters?: { [key: string]: string }; 
   public get signingParameters() {
     return this.getStringMapAttribute('signing_parameters');
   }
@@ -516,7 +516,7 @@ export class SignerSigningProfile extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -532,7 +532,7 @@ export class SignerSigningProfile extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

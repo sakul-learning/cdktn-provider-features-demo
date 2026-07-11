@@ -344,7 +344,7 @@ export class DataAwsEmrcontainersVirtualCluster extends cdktn.TerraformDataSourc
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -365,7 +365,7 @@ export class DataAwsEmrcontainersVirtualCluster extends cdktn.TerraformDataSourc
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -386,7 +386,7 @@ export class DataAwsEmrcontainersVirtualCluster extends cdktn.TerraformDataSourc
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -402,7 +402,7 @@ export class DataAwsEmrcontainersVirtualCluster extends cdktn.TerraformDataSourc
   }
 
   // virtual_cluster_id - computed: false, optional: false, required: true
-  private _virtualClusterId?: string;
+  private _virtualClusterId?: string; 
   public get virtualClusterId() {
     return this.getStringAttribute('virtual_cluster_id');
   }

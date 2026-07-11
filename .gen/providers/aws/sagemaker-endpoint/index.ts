@@ -124,7 +124,7 @@ export class SagemakerEndpointDeploymentConfigAutoRollbackConfigurationAlarmsOut
   }
 
   // alarm_name - computed: false, optional: false, required: true
-  private _alarmName?: string;
+  private _alarmName?: string; 
   public get alarmName() {
     return this.getStringAttribute('alarm_name');
   }
@@ -328,7 +328,7 @@ export class SagemakerEndpointDeploymentConfigBlueGreenUpdatePolicyTrafficRoutin
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -341,7 +341,7 @@ export class SagemakerEndpointDeploymentConfigBlueGreenUpdatePolicyTrafficRoutin
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: number;
+  private _value?: number; 
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -439,7 +439,7 @@ export class SagemakerEndpointDeploymentConfigBlueGreenUpdatePolicyTrafficRoutin
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -452,7 +452,7 @@ export class SagemakerEndpointDeploymentConfigBlueGreenUpdatePolicyTrafficRoutin
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: number;
+  private _value?: number; 
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -588,7 +588,7 @@ export class SagemakerEndpointDeploymentConfigBlueGreenUpdatePolicyTrafficRoutin
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -601,7 +601,7 @@ export class SagemakerEndpointDeploymentConfigBlueGreenUpdatePolicyTrafficRoutin
   }
 
   // wait_interval_in_seconds - computed: false, optional: false, required: true
-  private _waitIntervalInSeconds?: number;
+  private _waitIntervalInSeconds?: number; 
   public get waitIntervalInSeconds() {
     return this.getNumberAttribute('wait_interval_in_seconds');
   }
@@ -750,7 +750,7 @@ export class SagemakerEndpointDeploymentConfigBlueGreenUpdatePolicyOutputReferen
   }
 
   // maximum_execution_timeout_in_seconds - computed: false, optional: true, required: false
-  private _maximumExecutionTimeoutInSeconds?: number;
+  private _maximumExecutionTimeoutInSeconds?: number; 
   public get maximumExecutionTimeoutInSeconds() {
     return this.getNumberAttribute('maximum_execution_timeout_in_seconds');
   }
@@ -766,7 +766,7 @@ export class SagemakerEndpointDeploymentConfigBlueGreenUpdatePolicyOutputReferen
   }
 
   // termination_wait_in_seconds - computed: false, optional: true, required: false
-  private _terminationWaitInSeconds?: number;
+  private _terminationWaitInSeconds?: number; 
   public get terminationWaitInSeconds() {
     return this.getNumberAttribute('termination_wait_in_seconds');
   }
@@ -880,7 +880,7 @@ export class SagemakerEndpointDeploymentConfigRollingUpdatePolicyMaximumBatchSiz
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -893,7 +893,7 @@ export class SagemakerEndpointDeploymentConfigRollingUpdatePolicyMaximumBatchSiz
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: number;
+  private _value?: number; 
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -991,7 +991,7 @@ export class SagemakerEndpointDeploymentConfigRollingUpdatePolicyRollbackMaximum
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -1004,7 +1004,7 @@ export class SagemakerEndpointDeploymentConfigRollingUpdatePolicyRollbackMaximum
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: number;
+  private _value?: number; 
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -1140,7 +1140,7 @@ export class SagemakerEndpointDeploymentConfigRollingUpdatePolicyOutputReference
   }
 
   // maximum_execution_timeout_in_seconds - computed: false, optional: true, required: false
-  private _maximumExecutionTimeoutInSeconds?: number;
+  private _maximumExecutionTimeoutInSeconds?: number; 
   public get maximumExecutionTimeoutInSeconds() {
     return this.getNumberAttribute('maximum_execution_timeout_in_seconds');
   }
@@ -1156,7 +1156,7 @@ export class SagemakerEndpointDeploymentConfigRollingUpdatePolicyOutputReference
   }
 
   // wait_interval_in_seconds - computed: false, optional: false, required: true
-  private _waitIntervalInSeconds?: number;
+  private _waitIntervalInSeconds?: number; 
   public get waitIntervalInSeconds() {
     return this.getNumberAttribute('wait_interval_in_seconds');
   }
@@ -1423,7 +1423,7 @@ export class SagemakerEndpoint extends cdktn.TerraformResource {
   }
 
   // endpoint_config_name - computed: false, optional: false, required: true
-  private _endpointConfigName?: string;
+  private _endpointConfigName?: string; 
   public get endpointConfigName() {
     return this.getStringAttribute('endpoint_config_name');
   }
@@ -1436,7 +1436,7 @@ export class SagemakerEndpoint extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -1452,7 +1452,7 @@ export class SagemakerEndpoint extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1468,7 +1468,7 @@ export class SagemakerEndpoint extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1484,7 +1484,7 @@ export class SagemakerEndpoint extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -1500,7 +1500,7 @@ export class SagemakerEndpoint extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

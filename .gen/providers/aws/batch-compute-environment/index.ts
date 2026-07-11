@@ -182,7 +182,7 @@ export class BatchComputeEnvironmentComputeResourcesEc2ConfigurationOutputRefere
   }
 
   // image_id_override - computed: true, optional: true, required: false
-  private _imageIdOverride?: string;
+  private _imageIdOverride?: string; 
   public get imageIdOverride() {
     return this.getStringAttribute('image_id_override');
   }
@@ -198,7 +198,7 @@ export class BatchComputeEnvironmentComputeResourcesEc2ConfigurationOutputRefere
   }
 
   // image_kubernetes_version - computed: false, optional: true, required: false
-  private _imageKubernetesVersion?: string;
+  private _imageKubernetesVersion?: string; 
   public get imageKubernetesVersion() {
     return this.getStringAttribute('image_kubernetes_version');
   }
@@ -214,7 +214,7 @@ export class BatchComputeEnvironmentComputeResourcesEc2ConfigurationOutputRefere
   }
 
   // image_type - computed: false, optional: true, required: false
-  private _imageType?: string;
+  private _imageType?: string; 
   public get imageType() {
     return this.getStringAttribute('image_type');
   }
@@ -352,7 +352,7 @@ export class BatchComputeEnvironmentComputeResourcesLaunchTemplateOutputReferenc
   }
 
   // launch_template_id - computed: false, optional: true, required: false
-  private _launchTemplateId?: string;
+  private _launchTemplateId?: string; 
   public get launchTemplateId() {
     return this.getStringAttribute('launch_template_id');
   }
@@ -368,7 +368,7 @@ export class BatchComputeEnvironmentComputeResourcesLaunchTemplateOutputReferenc
   }
 
   // launch_template_name - computed: false, optional: true, required: false
-  private _launchTemplateName?: string;
+  private _launchTemplateName?: string; 
   public get launchTemplateName() {
     return this.getStringAttribute('launch_template_name');
   }
@@ -384,7 +384,7 @@ export class BatchComputeEnvironmentComputeResourcesLaunchTemplateOutputReferenc
   }
 
   // version - computed: true, optional: true, required: false
-  private _version?: string;
+  private _version?: string; 
   public get version() {
     return this.getStringAttribute('version');
   }
@@ -744,7 +744,7 @@ export class BatchComputeEnvironmentComputeResourcesOutputReference extends cdkt
   }
 
   // allocation_strategy - computed: false, optional: true, required: false
-  private _allocationStrategy?: string;
+  private _allocationStrategy?: string; 
   public get allocationStrategy() {
     return this.getStringAttribute('allocation_strategy');
   }
@@ -760,7 +760,7 @@ export class BatchComputeEnvironmentComputeResourcesOutputReference extends cdkt
   }
 
   // bid_percentage - computed: false, optional: true, required: false
-  private _bidPercentage?: number;
+  private _bidPercentage?: number; 
   public get bidPercentage() {
     return this.getNumberAttribute('bid_percentage');
   }
@@ -776,7 +776,7 @@ export class BatchComputeEnvironmentComputeResourcesOutputReference extends cdkt
   }
 
   // desired_vcpus - computed: true, optional: true, required: false
-  private _desiredVcpus?: number;
+  private _desiredVcpus?: number; 
   public get desiredVcpus() {
     return this.getNumberAttribute('desired_vcpus');
   }
@@ -792,7 +792,7 @@ export class BatchComputeEnvironmentComputeResourcesOutputReference extends cdkt
   }
 
   // ec2_key_pair - computed: false, optional: true, required: false
-  private _ec2KeyPair?: string;
+  private _ec2KeyPair?: string; 
   public get ec2KeyPair() {
     return this.getStringAttribute('ec2_key_pair');
   }
@@ -808,7 +808,7 @@ export class BatchComputeEnvironmentComputeResourcesOutputReference extends cdkt
   }
 
   // image_id - computed: false, optional: true, required: false
-  private _imageId?: string;
+  private _imageId?: string; 
   public get imageId() {
     return this.getStringAttribute('image_id');
   }
@@ -824,7 +824,7 @@ export class BatchComputeEnvironmentComputeResourcesOutputReference extends cdkt
   }
 
   // instance_role - computed: false, optional: true, required: false
-  private _instanceRole?: string;
+  private _instanceRole?: string; 
   public get instanceRole() {
     return this.getStringAttribute('instance_role');
   }
@@ -840,7 +840,7 @@ export class BatchComputeEnvironmentComputeResourcesOutputReference extends cdkt
   }
 
   // instance_type - computed: false, optional: true, required: false
-  private _instanceType?: string[];
+  private _instanceType?: string[]; 
   public get instanceType() {
     return cdktn.Fn.tolist(this.getListAttribute('instance_type'));
   }
@@ -856,7 +856,7 @@ export class BatchComputeEnvironmentComputeResourcesOutputReference extends cdkt
   }
 
   // max_vcpus - computed: false, optional: false, required: true
-  private _maxVcpus?: number;
+  private _maxVcpus?: number; 
   public get maxVcpus() {
     return this.getNumberAttribute('max_vcpus');
   }
@@ -869,7 +869,7 @@ export class BatchComputeEnvironmentComputeResourcesOutputReference extends cdkt
   }
 
   // min_vcpus - computed: false, optional: true, required: false
-  private _minVcpus?: number;
+  private _minVcpus?: number; 
   public get minVcpus() {
     return this.getNumberAttribute('min_vcpus');
   }
@@ -885,7 +885,7 @@ export class BatchComputeEnvironmentComputeResourcesOutputReference extends cdkt
   }
 
   // placement_group - computed: false, optional: true, required: false
-  private _placementGroup?: string;
+  private _placementGroup?: string; 
   public get placementGroup() {
     return this.getStringAttribute('placement_group');
   }
@@ -901,7 +901,7 @@ export class BatchComputeEnvironmentComputeResourcesOutputReference extends cdkt
   }
 
   // security_group_ids - computed: false, optional: true, required: false
-  private _securityGroupIds?: string[];
+  private _securityGroupIds?: string[]; 
   public get securityGroupIds() {
     return cdktn.Fn.tolist(this.getListAttribute('security_group_ids'));
   }
@@ -917,7 +917,7 @@ export class BatchComputeEnvironmentComputeResourcesOutputReference extends cdkt
   }
 
   // spot_iam_fleet_role - computed: false, optional: true, required: false
-  private _spotIamFleetRole?: string;
+  private _spotIamFleetRole?: string; 
   public get spotIamFleetRole() {
     return this.getStringAttribute('spot_iam_fleet_role');
   }
@@ -933,7 +933,7 @@ export class BatchComputeEnvironmentComputeResourcesOutputReference extends cdkt
   }
 
   // subnets - computed: false, optional: false, required: true
-  private _subnets?: string[];
+  private _subnets?: string[]; 
   public get subnets() {
     return cdktn.Fn.tolist(this.getListAttribute('subnets'));
   }
@@ -946,7 +946,7 @@ export class BatchComputeEnvironmentComputeResourcesOutputReference extends cdkt
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -962,7 +962,7 @@ export class BatchComputeEnvironmentComputeResourcesOutputReference extends cdkt
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -1092,7 +1092,7 @@ export class BatchComputeEnvironmentEksConfigurationOutputReference extends cdkt
   }
 
   // eks_cluster_arn - computed: false, optional: false, required: true
-  private _eksClusterArn?: string;
+  private _eksClusterArn?: string; 
   public get eksClusterArn() {
     return this.getStringAttribute('eks_cluster_arn');
   }
@@ -1105,7 +1105,7 @@ export class BatchComputeEnvironmentEksConfigurationOutputReference extends cdkt
   }
 
   // kubernetes_namespace - computed: false, optional: false, required: true
-  private _kubernetesNamespace?: string;
+  private _kubernetesNamespace?: string; 
   public get kubernetesNamespace() {
     return this.getStringAttribute('kubernetes_namespace');
   }
@@ -1203,7 +1203,7 @@ export class BatchComputeEnvironmentUpdatePolicyOutputReference extends cdktn.Co
   }
 
   // job_execution_timeout_minutes - computed: true, optional: true, required: false
-  private _jobExecutionTimeoutMinutes?: number;
+  private _jobExecutionTimeoutMinutes?: number; 
   public get jobExecutionTimeoutMinutes() {
     return this.getNumberAttribute('job_execution_timeout_minutes');
   }
@@ -1219,7 +1219,7 @@ export class BatchComputeEnvironmentUpdatePolicyOutputReference extends cdktn.Co
   }
 
   // terminate_jobs_on_update - computed: true, optional: true, required: false
-  private _terminateJobsOnUpdate?: boolean | cdktn.IResolvable;
+  private _terminateJobsOnUpdate?: boolean | cdktn.IResolvable; 
   public get terminateJobsOnUpdate() {
     return this.getBooleanAttribute('terminate_jobs_on_update');
   }
@@ -1314,7 +1314,7 @@ export class BatchComputeEnvironment extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -1330,7 +1330,7 @@ export class BatchComputeEnvironment extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1346,7 +1346,7 @@ export class BatchComputeEnvironment extends cdktn.TerraformResource {
   }
 
   // name_prefix - computed: true, optional: true, required: false
-  private _namePrefix?: string;
+  private _namePrefix?: string; 
   public get namePrefix() {
     return this.getStringAttribute('name_prefix');
   }
@@ -1362,7 +1362,7 @@ export class BatchComputeEnvironment extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1378,7 +1378,7 @@ export class BatchComputeEnvironment extends cdktn.TerraformResource {
   }
 
   // service_role - computed: true, optional: true, required: false
-  private _serviceRole?: string;
+  private _serviceRole?: string; 
   public get serviceRole() {
     return this.getStringAttribute('service_role');
   }
@@ -1394,7 +1394,7 @@ export class BatchComputeEnvironment extends cdktn.TerraformResource {
   }
 
   // state - computed: false, optional: true, required: false
-  private _state?: string;
+  private _state?: string; 
   public get state() {
     return this.getStringAttribute('state');
   }
@@ -1420,7 +1420,7 @@ export class BatchComputeEnvironment extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -1436,7 +1436,7 @@ export class BatchComputeEnvironment extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -1452,7 +1452,7 @@ export class BatchComputeEnvironment extends cdktn.TerraformResource {
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }

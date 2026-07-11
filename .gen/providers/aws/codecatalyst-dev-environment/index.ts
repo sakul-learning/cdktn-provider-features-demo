@@ -151,7 +151,7 @@ export class CodecatalystDevEnvironmentIdesOutputReference extends cdktn.Complex
   }
 
   // name - computed: false, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -167,7 +167,7 @@ export class CodecatalystDevEnvironmentIdesOutputReference extends cdktn.Complex
   }
 
   // runtime - computed: false, optional: true, required: false
-  private _runtime?: string;
+  private _runtime?: string; 
   public get runtime() {
     return this.getStringAttribute('runtime');
   }
@@ -251,7 +251,7 @@ export class CodecatalystDevEnvironmentPersistentStorageOutputReference extends 
   }
 
   // size - computed: false, optional: false, required: true
-  private _size?: number;
+  private _size?: number; 
   public get size() {
     return this.getNumberAttribute('size');
   }
@@ -361,7 +361,7 @@ export class CodecatalystDevEnvironmentRepositoriesOutputReference extends cdktn
   }
 
   // branch_name - computed: false, optional: true, required: false
-  private _branchName?: string;
+  private _branchName?: string; 
   public get branchName() {
     return this.getStringAttribute('branch_name');
   }
@@ -377,7 +377,7 @@ export class CodecatalystDevEnvironmentRepositoriesOutputReference extends cdktn
   }
 
   // repository_name - computed: false, optional: false, required: true
-  private _repositoryName?: string;
+  private _repositoryName?: string; 
   public get repositoryName() {
     return this.getStringAttribute('repository_name');
   }
@@ -522,7 +522,7 @@ export class CodecatalystDevEnvironmentTimeoutsOutputReference extends cdktn.Com
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -538,7 +538,7 @@ export class CodecatalystDevEnvironmentTimeoutsOutputReference extends cdktn.Com
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -554,7 +554,7 @@ export class CodecatalystDevEnvironmentTimeoutsOutputReference extends cdktn.Com
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -638,7 +638,7 @@ export class CodecatalystDevEnvironment extends cdktn.TerraformResource {
   // ==========
 
   // alias - computed: false, optional: true, required: false
-  private _alias?: string;
+  private _alias?: string; 
   public get alias() {
     return this.getStringAttribute('alias');
   }
@@ -654,7 +654,7 @@ export class CodecatalystDevEnvironment extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -670,7 +670,7 @@ export class CodecatalystDevEnvironment extends cdktn.TerraformResource {
   }
 
   // inactivity_timeout_minutes - computed: false, optional: true, required: false
-  private _inactivityTimeoutMinutes?: number;
+  private _inactivityTimeoutMinutes?: number; 
   public get inactivityTimeoutMinutes() {
     return this.getNumberAttribute('inactivity_timeout_minutes');
   }
@@ -686,7 +686,7 @@ export class CodecatalystDevEnvironment extends cdktn.TerraformResource {
   }
 
   // instance_type - computed: false, optional: false, required: true
-  private _instanceType?: string;
+  private _instanceType?: string; 
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -699,7 +699,7 @@ export class CodecatalystDevEnvironment extends cdktn.TerraformResource {
   }
 
   // project_name - computed: false, optional: false, required: true
-  private _projectName?: string;
+  private _projectName?: string; 
   public get projectName() {
     return this.getStringAttribute('project_name');
   }
@@ -712,7 +712,7 @@ export class CodecatalystDevEnvironment extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -728,7 +728,7 @@ export class CodecatalystDevEnvironment extends cdktn.TerraformResource {
   }
 
   // space_name - computed: false, optional: false, required: true
-  private _spaceName?: string;
+  private _spaceName?: string; 
   public get spaceName() {
     return this.getStringAttribute('space_name');
   }

@@ -125,7 +125,7 @@ export class SagemakerPipelineParallelismConfigurationOutputReference extends cd
   }
 
   // max_parallel_execution_steps - computed: true, optional: true, required: false
-  private _maxParallelExecutionSteps?: number;
+  private _maxParallelExecutionSteps?: number; 
   public get maxParallelExecutionSteps() {
     return this.getNumberAttribute('max_parallel_execution_steps');
   }
@@ -278,7 +278,7 @@ export class SagemakerPipelinePipelineDefinitionPipelineDefinitionS3LocationOutp
   }
 
   // bucket - computed: true, optional: true, required: false
-  private _bucket?: string;
+  private _bucket?: string; 
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -294,7 +294,7 @@ export class SagemakerPipelinePipelineDefinitionPipelineDefinitionS3LocationOutp
   }
 
   // e_tag - computed: true, optional: true, required: false
-  private _eTag?: string;
+  private _eTag?: string; 
   public get eTag() {
     return this.getStringAttribute('e_tag');
   }
@@ -310,7 +310,7 @@ export class SagemakerPipelinePipelineDefinitionPipelineDefinitionS3LocationOutp
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -326,7 +326,7 @@ export class SagemakerPipelinePipelineDefinitionPipelineDefinitionS3LocationOutp
   }
 
   // version - computed: true, optional: true, required: false
-  private _version?: string;
+  private _version?: string; 
   public get version() {
     return this.getStringAttribute('version');
   }
@@ -439,7 +439,7 @@ export class SagemakerPipelinePipelineDefinitionOutputReference extends cdktn.Co
   }
 
   // pipeline_definition_body - computed: true, optional: true, required: false
-  private _pipelineDefinitionBody?: string;
+  private _pipelineDefinitionBody?: string; 
   public get pipelineDefinitionBody() {
     return this.getStringAttribute('pipeline_definition_body');
   }
@@ -568,7 +568,7 @@ export class SagemakerPipelineTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -584,7 +584,7 @@ export class SagemakerPipelineTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -718,7 +718,7 @@ export class SagemakerPipeline extends cdktn.TerraformResource {
   }
 
   // pipeline_description - computed: true, optional: true, required: false
-  private _pipelineDescription?: string;
+  private _pipelineDescription?: string; 
   public get pipelineDescription() {
     return this.getStringAttribute('pipeline_description');
   }
@@ -734,7 +734,7 @@ export class SagemakerPipeline extends cdktn.TerraformResource {
   }
 
   // pipeline_display_name - computed: true, optional: true, required: false
-  private _pipelineDisplayName?: string;
+  private _pipelineDisplayName?: string; 
   public get pipelineDisplayName() {
     return this.getStringAttribute('pipeline_display_name');
   }
@@ -750,7 +750,7 @@ export class SagemakerPipeline extends cdktn.TerraformResource {
   }
 
   // pipeline_name - computed: false, optional: false, required: true
-  private _pipelineName?: string;
+  private _pipelineName?: string; 
   public get pipelineName() {
     return this.getStringAttribute('pipeline_name');
   }
@@ -763,7 +763,7 @@ export class SagemakerPipeline extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }

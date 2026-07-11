@@ -315,7 +315,7 @@ export class ConnectNotificationContentOutputReference extends cdktn.ComplexObje
   }
 
   // de_de - computed: true, optional: true, required: false
-  private _deDe?: string;
+  private _deDe?: string; 
   public get deDe() {
     return this.getStringAttribute('de_de');
   }
@@ -331,7 +331,7 @@ export class ConnectNotificationContentOutputReference extends cdktn.ComplexObje
   }
 
   // en_us - computed: true, optional: true, required: false
-  private _enUs?: string;
+  private _enUs?: string; 
   public get enUs() {
     return this.getStringAttribute('en_us');
   }
@@ -347,7 +347,7 @@ export class ConnectNotificationContentOutputReference extends cdktn.ComplexObje
   }
 
   // es_es - computed: true, optional: true, required: false
-  private _esEs?: string;
+  private _esEs?: string; 
   public get esEs() {
     return this.getStringAttribute('es_es');
   }
@@ -363,7 +363,7 @@ export class ConnectNotificationContentOutputReference extends cdktn.ComplexObje
   }
 
   // fr_fr - computed: true, optional: true, required: false
-  private _frFr?: string;
+  private _frFr?: string; 
   public get frFr() {
     return this.getStringAttribute('fr_fr');
   }
@@ -379,7 +379,7 @@ export class ConnectNotificationContentOutputReference extends cdktn.ComplexObje
   }
 
   // id_id - computed: true, optional: true, required: false
-  private _idId?: string;
+  private _idId?: string; 
   public get idId() {
     return this.getStringAttribute('id_id');
   }
@@ -395,7 +395,7 @@ export class ConnectNotificationContentOutputReference extends cdktn.ComplexObje
   }
 
   // it_it - computed: true, optional: true, required: false
-  private _itIt?: string;
+  private _itIt?: string; 
   public get itIt() {
     return this.getStringAttribute('it_it');
   }
@@ -411,7 +411,7 @@ export class ConnectNotificationContentOutputReference extends cdktn.ComplexObje
   }
 
   // ja_jp - computed: true, optional: true, required: false
-  private _jaJp?: string;
+  private _jaJp?: string; 
   public get jaJp() {
     return this.getStringAttribute('ja_jp');
   }
@@ -427,7 +427,7 @@ export class ConnectNotificationContentOutputReference extends cdktn.ComplexObje
   }
 
   // ko_kr - computed: true, optional: true, required: false
-  private _koKr?: string;
+  private _koKr?: string; 
   public get koKr() {
     return this.getStringAttribute('ko_kr');
   }
@@ -443,7 +443,7 @@ export class ConnectNotificationContentOutputReference extends cdktn.ComplexObje
   }
 
   // pt_br - computed: true, optional: true, required: false
-  private _ptBr?: string;
+  private _ptBr?: string; 
   public get ptBr() {
     return this.getStringAttribute('pt_br');
   }
@@ -459,7 +459,7 @@ export class ConnectNotificationContentOutputReference extends cdktn.ComplexObje
   }
 
   // zh_cn - computed: true, optional: true, required: false
-  private _zhCn?: string;
+  private _zhCn?: string; 
   public get zhCn() {
     return this.getStringAttribute('zh_cn');
   }
@@ -475,7 +475,7 @@ export class ConnectNotificationContentOutputReference extends cdktn.ComplexObje
   }
 
   // zh_tw - computed: true, optional: true, required: false
-  private _zhTw?: string;
+  private _zhTw?: string; 
   public get zhTw() {
     return this.getStringAttribute('zh_tw');
   }
@@ -592,7 +592,7 @@ export class ConnectNotificationTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -608,7 +608,7 @@ export class ConnectNotificationTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -730,7 +730,7 @@ export class ConnectNotification extends cdktn.TerraformResource {
   }
 
   // expires_at - computed: true, optional: true, required: false
-  private _expiresAt?: string;
+  private _expiresAt?: string; 
   public get expiresAt() {
     return this.getStringAttribute('expires_at');
   }
@@ -751,7 +751,7 @@ export class ConnectNotification extends cdktn.TerraformResource {
   }
 
   // instance_arn - computed: false, optional: false, required: true
-  private _instanceArn?: string;
+  private _instanceArn?: string; 
   public get instanceArn() {
     return this.getStringAttribute('instance_arn');
   }
@@ -769,7 +769,7 @@ export class ConnectNotification extends cdktn.TerraformResource {
   }
 
   // priority - computed: true, optional: true, required: false
-  private _priority?: string;
+  private _priority?: string; 
   public get priority() {
     return this.getStringAttribute('priority');
   }
@@ -785,7 +785,7 @@ export class ConnectNotification extends cdktn.TerraformResource {
   }
 
   // recipients - computed: true, optional: true, required: false
-  private _recipients?: string[];
+  private _recipients?: string[]; 
   public get recipients() {
     return cdktn.Fn.tolist(this.getListAttribute('recipients'));
   }

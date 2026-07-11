@@ -170,7 +170,7 @@ export class SesEventDestinationCloudwatchDestinationOutputReference extends cdk
   }
 
   // default_value - computed: false, optional: false, required: true
-  private _defaultValue?: string;
+  private _defaultValue?: string; 
   public get defaultValue() {
     return this.getStringAttribute('default_value');
   }
@@ -183,7 +183,7 @@ export class SesEventDestinationCloudwatchDestinationOutputReference extends cdk
   }
 
   // dimension_name - computed: false, optional: false, required: true
-  private _dimensionName?: string;
+  private _dimensionName?: string; 
   public get dimensionName() {
     return this.getStringAttribute('dimension_name');
   }
@@ -196,7 +196,7 @@ export class SesEventDestinationCloudwatchDestinationOutputReference extends cdk
   }
 
   // value_source - computed: false, optional: false, required: true
-  private _valueSource?: string;
+  private _valueSource?: string; 
   public get valueSource() {
     return this.getStringAttribute('value_source');
   }
@@ -314,7 +314,7 @@ export class SesEventDestinationKinesisDestinationOutputReference extends cdktn.
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -327,7 +327,7 @@ export class SesEventDestinationKinesisDestinationOutputReference extends cdktn.
   }
 
   // stream_arn - computed: false, optional: false, required: true
-  private _streamArn?: string;
+  private _streamArn?: string; 
   public get streamArn() {
     return this.getStringAttribute('stream_arn');
   }
@@ -408,7 +408,7 @@ export class SesEventDestinationSnsDestinationOutputReference extends cdktn.Comp
   }
 
   // topic_arn - computed: false, optional: false, required: true
-  private _topicArn?: string;
+  private _topicArn?: string; 
   public get topicArn() {
     return this.getStringAttribute('topic_arn');
   }
@@ -492,7 +492,7 @@ export class SesEventDestination extends cdktn.TerraformResource {
   }
 
   // configuration_set_name - computed: false, optional: false, required: true
-  private _configurationSetName?: string;
+  private _configurationSetName?: string; 
   public get configurationSetName() {
     return this.getStringAttribute('configuration_set_name');
   }
@@ -505,7 +505,7 @@ export class SesEventDestination extends cdktn.TerraformResource {
   }
 
   // enabled - computed: false, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -521,7 +521,7 @@ export class SesEventDestination extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -537,7 +537,7 @@ export class SesEventDestination extends cdktn.TerraformResource {
   }
 
   // matching_types - computed: false, optional: false, required: true
-  private _matchingTypes?: string[];
+  private _matchingTypes?: string[]; 
   public get matchingTypes() {
     return cdktn.Fn.tolist(this.getListAttribute('matching_types'));
   }
@@ -550,7 +550,7 @@ export class SesEventDestination extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -563,7 +563,7 @@ export class SesEventDestination extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

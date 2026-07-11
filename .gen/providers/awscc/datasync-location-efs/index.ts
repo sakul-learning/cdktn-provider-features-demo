@@ -150,7 +150,7 @@ export class DatasyncLocationEfsEc2ConfigOutputReference extends cdktn.ComplexOb
   }
 
   // security_group_arns - computed: false, optional: false, required: true
-  private _securityGroupArns?: string[];
+  private _securityGroupArns?: string[]; 
   public get securityGroupArns() {
     return this.getListAttribute('security_group_arns');
   }
@@ -163,7 +163,7 @@ export class DatasyncLocationEfsEc2ConfigOutputReference extends cdktn.ComplexOb
   }
 
   // subnet_arn - computed: false, optional: false, required: true
-  private _subnetArn?: string;
+  private _subnetArn?: string; 
   public get subnetArn() {
     return this.getStringAttribute('subnet_arn');
   }
@@ -277,7 +277,7 @@ export class DatasyncLocationEfsTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -293,7 +293,7 @@ export class DatasyncLocationEfsTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -393,7 +393,7 @@ export class DatasyncLocationEfs extends cdktn.TerraformResource {
   // ==========
 
   // access_point_arn - computed: true, optional: true, required: false
-  private _accessPointArn?: string;
+  private _accessPointArn?: string; 
   public get accessPointArn() {
     return this.getStringAttribute('access_point_arn');
   }
@@ -422,7 +422,7 @@ export class DatasyncLocationEfs extends cdktn.TerraformResource {
   }
 
   // efs_filesystem_arn - computed: true, optional: true, required: false
-  private _efsFilesystemArn?: string;
+  private _efsFilesystemArn?: string; 
   public get efsFilesystemArn() {
     return this.getStringAttribute('efs_filesystem_arn');
   }
@@ -438,7 +438,7 @@ export class DatasyncLocationEfs extends cdktn.TerraformResource {
   }
 
   // file_system_access_role_arn - computed: true, optional: true, required: false
-  private _fileSystemAccessRoleArn?: string;
+  private _fileSystemAccessRoleArn?: string; 
   public get fileSystemAccessRoleArn() {
     return this.getStringAttribute('file_system_access_role_arn');
   }
@@ -459,7 +459,7 @@ export class DatasyncLocationEfs extends cdktn.TerraformResource {
   }
 
   // in_transit_encryption - computed: true, optional: true, required: false
-  private _inTransitEncryption?: string;
+  private _inTransitEncryption?: string; 
   public get inTransitEncryption() {
     return this.getStringAttribute('in_transit_encryption');
   }
@@ -485,7 +485,7 @@ export class DatasyncLocationEfs extends cdktn.TerraformResource {
   }
 
   // subdirectory - computed: true, optional: true, required: false
-  private _subdirectory?: string;
+  private _subdirectory?: string; 
   public get subdirectory() {
     return this.getStringAttribute('subdirectory');
   }

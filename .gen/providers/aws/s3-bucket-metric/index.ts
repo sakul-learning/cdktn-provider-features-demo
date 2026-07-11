@@ -138,7 +138,7 @@ export class S3BucketMetricFilterOutputReference extends cdktn.ComplexObject {
   }
 
   // access_point - computed: false, optional: true, required: false
-  private _accessPoint?: string;
+  private _accessPoint?: string; 
   public get accessPoint() {
     return this.getStringAttribute('access_point');
   }
@@ -154,7 +154,7 @@ export class S3BucketMetricFilterOutputReference extends cdktn.ComplexObject {
   }
 
   // prefix - computed: false, optional: true, required: false
-  private _prefix?: string;
+  private _prefix?: string; 
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -170,7 +170,7 @@ export class S3BucketMetricFilterOutputReference extends cdktn.ComplexObject {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -248,7 +248,7 @@ export class S3BucketMetric extends cdktn.TerraformResource {
   // ==========
 
   // bucket - computed: false, optional: false, required: true
-  private _bucket?: string;
+  private _bucket?: string; 
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -261,7 +261,7 @@ export class S3BucketMetric extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -277,7 +277,7 @@ export class S3BucketMetric extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -290,7 +290,7 @@ export class S3BucketMetric extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

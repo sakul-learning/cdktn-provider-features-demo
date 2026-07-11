@@ -120,7 +120,7 @@ export class SagemakerHubS3StorageConfigOutputReference extends cdktn.ComplexObj
   }
 
   // s3_output_path - computed: false, optional: true, required: false
-  private _s3OutputPath?: string;
+  private _s3OutputPath?: string; 
   public get s3OutputPath() {
     return this.getStringAttribute('s3_output_path');
   }
@@ -207,7 +207,7 @@ export class SagemakerHub extends cdktn.TerraformResource {
   }
 
   // hub_description - computed: false, optional: false, required: true
-  private _hubDescription?: string;
+  private _hubDescription?: string; 
   public get hubDescription() {
     return this.getStringAttribute('hub_description');
   }
@@ -220,7 +220,7 @@ export class SagemakerHub extends cdktn.TerraformResource {
   }
 
   // hub_display_name - computed: false, optional: true, required: false
-  private _hubDisplayName?: string;
+  private _hubDisplayName?: string; 
   public get hubDisplayName() {
     return this.getStringAttribute('hub_display_name');
   }
@@ -236,7 +236,7 @@ export class SagemakerHub extends cdktn.TerraformResource {
   }
 
   // hub_name - computed: false, optional: false, required: true
-  private _hubName?: string;
+  private _hubName?: string; 
   public get hubName() {
     return this.getStringAttribute('hub_name');
   }
@@ -249,7 +249,7 @@ export class SagemakerHub extends cdktn.TerraformResource {
   }
 
   // hub_search_keywords - computed: false, optional: true, required: false
-  private _hubSearchKeywords?: string[];
+  private _hubSearchKeywords?: string[]; 
   public get hubSearchKeywords() {
     return cdktn.Fn.tolist(this.getListAttribute('hub_search_keywords'));
   }
@@ -265,7 +265,7 @@ export class SagemakerHub extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -281,7 +281,7 @@ export class SagemakerHub extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -297,7 +297,7 @@ export class SagemakerHub extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -313,7 +313,7 @@ export class SagemakerHub extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

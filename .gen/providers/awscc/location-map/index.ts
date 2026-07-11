@@ -143,7 +143,7 @@ export class LocationMapConfigurationOutputReference extends cdktn.ComplexObject
   }
 
   // custom_layers - computed: true, optional: true, required: false
-  private _customLayers?: string[];
+  private _customLayers?: string[]; 
   public get customLayers() {
     return this.getListAttribute('custom_layers');
   }
@@ -159,7 +159,7 @@ export class LocationMapConfigurationOutputReference extends cdktn.ComplexObject
   }
 
   // political_view - computed: true, optional: true, required: false
-  private _politicalView?: string;
+  private _politicalView?: string; 
   public get politicalView() {
     return this.getStringAttribute('political_view');
   }
@@ -175,7 +175,7 @@ export class LocationMapConfigurationOutputReference extends cdktn.ComplexObject
   }
 
   // style - computed: false, optional: false, required: true
-  private _style?: string;
+  private _style?: string; 
   public get style() {
     return this.getStringAttribute('style');
   }
@@ -289,7 +289,7 @@ export class LocationMapTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -305,7 +305,7 @@ export class LocationMapTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -426,7 +426,7 @@ export class LocationMap extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -452,7 +452,7 @@ export class LocationMap extends cdktn.TerraformResource {
   }
 
   // map_name - computed: false, optional: false, required: true
-  private _mapName?: string;
+  private _mapName?: string; 
   public get mapName() {
     return this.getStringAttribute('map_name');
   }
@@ -465,7 +465,7 @@ export class LocationMap extends cdktn.TerraformResource {
   }
 
   // pricing_plan - computed: true, optional: true, required: false
-  private _pricingPlan?: string;
+  private _pricingPlan?: string; 
   public get pricingPlan() {
     return this.getStringAttribute('pricing_plan');
   }

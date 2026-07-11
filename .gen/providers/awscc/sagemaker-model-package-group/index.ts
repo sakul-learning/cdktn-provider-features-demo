@@ -32,13 +32,13 @@ export interface SagemakerModelPackageGroupConfig extends cdktn.TerraformMetaArg
 }
 export interface SagemakerModelPackageGroupTags {
   /**
-  * The key name of the tag. You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
+  * The key name of the tag. You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_package_group#key SagemakerModelPackageGroup#key}
   */
   readonly key?: string;
   /**
-  * The value for the tag. You can specify a value that is 1 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
+  * The value for the tag. You can specify a value that is 1 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_package_group#value SagemakerModelPackageGroup#value}
   */
@@ -132,7 +132,7 @@ export class SagemakerModelPackageGroupTagsOutputReference extends cdktn.Complex
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -148,7 +148,7 @@ export class SagemakerModelPackageGroupTagsOutputReference extends cdktn.Complex
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -260,7 +260,7 @@ export class SagemakerModelPackageGroup extends cdktn.TerraformResource {
   }
 
   // model_package_group_description - computed: true, optional: true, required: false
-  private _modelPackageGroupDescription?: string;
+  private _modelPackageGroupDescription?: string; 
   public get modelPackageGroupDescription() {
     return this.getStringAttribute('model_package_group_description');
   }
@@ -276,7 +276,7 @@ export class SagemakerModelPackageGroup extends cdktn.TerraformResource {
   }
 
   // model_package_group_name - computed: false, optional: false, required: true
-  private _modelPackageGroupName?: string;
+  private _modelPackageGroupName?: string; 
   public get modelPackageGroupName() {
     return this.getStringAttribute('model_package_group_name');
   }
@@ -289,7 +289,7 @@ export class SagemakerModelPackageGroup extends cdktn.TerraformResource {
   }
 
   // model_package_group_policy - computed: true, optional: true, required: false
-  private _modelPackageGroupPolicy?: string;
+  private _modelPackageGroupPolicy?: string; 
   public get modelPackageGroupPolicy() {
     return this.getStringAttribute('model_package_group_policy');
   }

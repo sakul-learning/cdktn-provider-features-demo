@@ -106,7 +106,7 @@ export class BackupVaultLockConfiguration extends cdktn.TerraformResource {
   }
 
   // backup_vault_name - computed: false, optional: false, required: true
-  private _backupVaultName?: string;
+  private _backupVaultName?: string; 
   public get backupVaultName() {
     return this.getStringAttribute('backup_vault_name');
   }
@@ -119,7 +119,7 @@ export class BackupVaultLockConfiguration extends cdktn.TerraformResource {
   }
 
   // changeable_for_days - computed: false, optional: true, required: false
-  private _changeableForDays?: number;
+  private _changeableForDays?: number; 
   public get changeableForDays() {
     return this.getNumberAttribute('changeable_for_days');
   }
@@ -135,7 +135,7 @@ export class BackupVaultLockConfiguration extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -151,7 +151,7 @@ export class BackupVaultLockConfiguration extends cdktn.TerraformResource {
   }
 
   // max_retention_days - computed: false, optional: true, required: false
-  private _maxRetentionDays?: number;
+  private _maxRetentionDays?: number; 
   public get maxRetentionDays() {
     return this.getNumberAttribute('max_retention_days');
   }
@@ -167,7 +167,7 @@ export class BackupVaultLockConfiguration extends cdktn.TerraformResource {
   }
 
   // min_retention_days - computed: false, optional: true, required: false
-  private _minRetentionDays?: number;
+  private _minRetentionDays?: number; 
   public get minRetentionDays() {
     return this.getNumberAttribute('min_retention_days');
   }
@@ -183,7 +183,7 @@ export class BackupVaultLockConfiguration extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

@@ -81,7 +81,7 @@ export class ApigatewayDocumentationVersion extends cdktn.TerraformResource {
   // ==========
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -97,7 +97,7 @@ export class ApigatewayDocumentationVersion extends cdktn.TerraformResource {
   }
 
   // documentation_version - computed: false, optional: false, required: true
-  private _documentationVersion?: string;
+  private _documentationVersion?: string; 
   public get documentationVersion() {
     return this.getStringAttribute('documentation_version');
   }
@@ -115,7 +115,7 @@ export class ApigatewayDocumentationVersion extends cdktn.TerraformResource {
   }
 
   // rest_api_id - computed: false, optional: false, required: true
-  private _restApiId?: string;
+  private _restApiId?: string; 
   public get restApiId() {
     return this.getStringAttribute('rest_api_id');
   }

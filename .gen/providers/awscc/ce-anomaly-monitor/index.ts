@@ -136,7 +136,7 @@ export class CeAnomalyMonitorResourceTagsOutputReference extends cdktn.ComplexOb
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -152,7 +152,7 @@ export class CeAnomalyMonitorResourceTagsOutputReference extends cdktn.ComplexOb
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -280,7 +280,7 @@ export class CeAnomalyMonitor extends cdktn.TerraformResource {
   }
 
   // monitor_dimension - computed: true, optional: true, required: false
-  private _monitorDimension?: string;
+  private _monitorDimension?: string; 
   public get monitorDimension() {
     return this.getStringAttribute('monitor_dimension');
   }
@@ -296,7 +296,7 @@ export class CeAnomalyMonitor extends cdktn.TerraformResource {
   }
 
   // monitor_name - computed: false, optional: false, required: true
-  private _monitorName?: string;
+  private _monitorName?: string; 
   public get monitorName() {
     return this.getStringAttribute('monitor_name');
   }
@@ -309,7 +309,7 @@ export class CeAnomalyMonitor extends cdktn.TerraformResource {
   }
 
   // monitor_specification - computed: true, optional: true, required: false
-  private _monitorSpecification?: string;
+  private _monitorSpecification?: string; 
   public get monitorSpecification() {
     return this.getStringAttribute('monitor_specification');
   }
@@ -325,7 +325,7 @@ export class CeAnomalyMonitor extends cdktn.TerraformResource {
   }
 
   // monitor_type - computed: false, optional: false, required: true
-  private _monitorType?: string;
+  private _monitorType?: string; 
   public get monitorType() {
     return this.getStringAttribute('monitor_type');
   }

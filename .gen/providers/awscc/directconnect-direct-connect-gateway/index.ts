@@ -128,7 +128,7 @@ export class DirectconnectDirectConnectGatewayTagsOutputReference extends cdktn.
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -144,7 +144,7 @@ export class DirectconnectDirectConnectGatewayTagsOutputReference extends cdktn.
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -240,7 +240,7 @@ export class DirectconnectDirectConnectGateway extends cdktn.TerraformResource {
   // ==========
 
   // amazon_side_asn - computed: true, optional: true, required: false
-  private _amazonSideAsn?: string;
+  private _amazonSideAsn?: string; 
   public get amazonSideAsn() {
     return this.getStringAttribute('amazon_side_asn');
   }
@@ -266,7 +266,7 @@ export class DirectconnectDirectConnectGateway extends cdktn.TerraformResource {
   }
 
   // direct_connect_gateway_name - computed: false, optional: false, required: true
-  private _directConnectGatewayName?: string;
+  private _directConnectGatewayName?: string; 
   public get directConnectGatewayName() {
     return this.getStringAttribute('direct_connect_gateway_name');
   }

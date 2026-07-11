@@ -130,7 +130,7 @@ export class SesContactListTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -146,7 +146,7 @@ export class SesContactListTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -319,7 +319,7 @@ export class SesContactListTopicsOutputReference extends cdktn.ComplexObject {
   }
 
   // default_subscription_status - computed: true, optional: true, required: false
-  private _defaultSubscriptionStatus?: string;
+  private _defaultSubscriptionStatus?: string; 
   public get defaultSubscriptionStatus() {
     return this.getStringAttribute('default_subscription_status');
   }
@@ -335,7 +335,7 @@ export class SesContactListTopicsOutputReference extends cdktn.ComplexObject {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -351,7 +351,7 @@ export class SesContactListTopicsOutputReference extends cdktn.ComplexObject {
   }
 
   // display_name - computed: true, optional: true, required: false
-  private _displayName?: string;
+  private _displayName?: string; 
   public get displayName() {
     return this.getStringAttribute('display_name');
   }
@@ -367,7 +367,7 @@ export class SesContactListTopicsOutputReference extends cdktn.ComplexObject {
   }
 
   // topic_name - computed: true, optional: true, required: false
-  private _topicName?: string;
+  private _topicName?: string; 
   public get topicName() {
     return this.getStringAttribute('topic_name');
   }
@@ -464,7 +464,7 @@ export class SesContactList extends cdktn.TerraformResource {
   // ==========
 
   // contact_list_name - computed: true, optional: true, required: false
-  private _contactListName?: string;
+  private _contactListName?: string; 
   public get contactListName() {
     return this.getStringAttribute('contact_list_name');
   }
@@ -480,7 +480,7 @@ export class SesContactList extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }

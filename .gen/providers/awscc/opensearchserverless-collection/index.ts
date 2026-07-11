@@ -33,13 +33,13 @@ export interface OpensearchserverlessCollectionConfig extends cdktn.TerraformMet
   readonly encryptionConfig?: OpensearchserverlessCollectionEncryptionConfig;
   /**
   * The name of the collection.
-  *
+  * 
   * The name must meet the following criteria:
   * Unique to your account and AWS Region
   * Starts with a lowercase letter
   * Contains only lowercase letters a-z, the numbers 0-9 and the hyphen (-)
   * Contains between 3 and 64 characters
-  *
+  * 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/opensearchserverless_collection#name OpensearchserverlessCollection#name}
   */
@@ -169,7 +169,7 @@ export class OpensearchserverlessCollectionEncryptionConfigOutputReference exten
   }
 
   // aws_owned_key - computed: true, optional: true, required: false
-  private _awsOwnedKey?: boolean | cdktn.IResolvable;
+  private _awsOwnedKey?: boolean | cdktn.IResolvable; 
   public get awsOwnedKey() {
     return this.getBooleanAttribute('aws_owned_key');
   }
@@ -185,7 +185,7 @@ export class OpensearchserverlessCollectionEncryptionConfigOutputReference exten
   }
 
   // kms_key_arn - computed: true, optional: true, required: false
-  private _kmsKeyArn?: string;
+  private _kmsKeyArn?: string; 
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -361,7 +361,7 @@ export class OpensearchserverlessCollectionTagsOutputReference extends cdktn.Com
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -377,7 +377,7 @@ export class OpensearchserverlessCollectionTagsOutputReference extends cdktn.Com
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -493,7 +493,7 @@ export class OpensearchserverlessCollectionVectorOptionsOutputReference extends 
   }
 
   // serverless_vector_acceleration - computed: true, optional: true, required: false
-  private _serverlessVectorAcceleration?: string;
+  private _serverlessVectorAcceleration?: string; 
   public get serverlessVectorAcceleration() {
     return this.getStringAttribute('serverless_vector_acceleration');
   }
@@ -585,7 +585,7 @@ export class OpensearchserverlessCollection extends cdktn.TerraformResource {
   }
 
   // collection_group_name - computed: true, optional: true, required: false
-  private _collectionGroupName?: string;
+  private _collectionGroupName?: string; 
   public get collectionGroupName() {
     return this.getStringAttribute('collection_group_name');
   }
@@ -611,7 +611,7 @@ export class OpensearchserverlessCollection extends cdktn.TerraformResource {
   }
 
   // deletion_protection - computed: true, optional: true, required: false
-  private _deletionProtection?: string;
+  private _deletionProtection?: string; 
   public get deletionProtection() {
     return this.getStringAttribute('deletion_protection');
   }
@@ -627,7 +627,7 @@ export class OpensearchserverlessCollection extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -675,7 +675,7 @@ export class OpensearchserverlessCollection extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -688,7 +688,7 @@ export class OpensearchserverlessCollection extends cdktn.TerraformResource {
   }
 
   // standby_replicas - computed: true, optional: true, required: false
-  private _standbyReplicas?: string;
+  private _standbyReplicas?: string; 
   public get standbyReplicas() {
     return this.getStringAttribute('standby_replicas');
   }
@@ -720,7 +720,7 @@ export class OpensearchserverlessCollection extends cdktn.TerraformResource {
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }

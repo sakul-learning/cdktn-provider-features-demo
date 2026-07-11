@@ -83,7 +83,7 @@ export class Ec2SnapshotBlockPublicAccess extends cdktn.TerraformResource {
   }
 
   // state - computed: false, optional: false, required: true
-  private _state?: string;
+  private _state?: string; 
   public get state() {
     return this.getStringAttribute('state');
   }

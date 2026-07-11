@@ -123,7 +123,7 @@ export class Ec2NetworkInterfaceAttachmentEnaSrdSpecificationEnaSrdUdpSpecificat
   }
 
   // ena_srd_udp_enabled - computed: true, optional: true, required: false
-  private _enaSrdUdpEnabled?: boolean | cdktn.IResolvable;
+  private _enaSrdUdpEnabled?: boolean | cdktn.IResolvable; 
   public get enaSrdUdpEnabled() {
     return this.getBooleanAttribute('ena_srd_udp_enabled');
   }
@@ -238,7 +238,7 @@ export class Ec2NetworkInterfaceAttachmentEnaSrdSpecificationOutputReference ext
   }
 
   // ena_srd_enabled - computed: true, optional: true, required: false
-  private _enaSrdEnabled?: boolean | cdktn.IResolvable;
+  private _enaSrdEnabled?: boolean | cdktn.IResolvable; 
   public get enaSrdEnabled() {
     return this.getBooleanAttribute('ena_srd_enabled');
   }
@@ -338,7 +338,7 @@ export class Ec2NetworkInterfaceAttachment extends cdktn.TerraformResource {
   }
 
   // delete_on_termination - computed: true, optional: true, required: false
-  private _deleteOnTermination?: boolean | cdktn.IResolvable;
+  private _deleteOnTermination?: boolean | cdktn.IResolvable; 
   public get deleteOnTermination() {
     return this.getBooleanAttribute('delete_on_termination');
   }
@@ -354,7 +354,7 @@ export class Ec2NetworkInterfaceAttachment extends cdktn.TerraformResource {
   }
 
   // device_index - computed: false, optional: false, required: true
-  private _deviceIndex?: string;
+  private _deviceIndex?: string; 
   public get deviceIndex() {
     return this.getStringAttribute('device_index');
   }
@@ -367,7 +367,7 @@ export class Ec2NetworkInterfaceAttachment extends cdktn.TerraformResource {
   }
 
   // ena_queue_count - computed: true, optional: true, required: false
-  private _enaQueueCount?: number;
+  private _enaQueueCount?: number; 
   public get enaQueueCount() {
     return this.getNumberAttribute('ena_queue_count');
   }
@@ -404,7 +404,7 @@ export class Ec2NetworkInterfaceAttachment extends cdktn.TerraformResource {
   }
 
   // instance_id - computed: false, optional: false, required: true
-  private _instanceId?: string;
+  private _instanceId?: string; 
   public get instanceId() {
     return this.getStringAttribute('instance_id');
   }
@@ -417,7 +417,7 @@ export class Ec2NetworkInterfaceAttachment extends cdktn.TerraformResource {
   }
 
   // network_interface_id - computed: false, optional: false, required: true
-  private _networkInterfaceId?: string;
+  private _networkInterfaceId?: string; 
   public get networkInterfaceId() {
     return this.getStringAttribute('network_interface_id');
   }

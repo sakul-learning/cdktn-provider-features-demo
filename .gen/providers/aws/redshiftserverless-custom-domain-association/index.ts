@@ -88,7 +88,7 @@ export class RedshiftserverlessCustomDomainAssociation extends cdktn.TerraformRe
   // ==========
 
   // custom_domain_certificate_arn - computed: false, optional: false, required: true
-  private _customDomainCertificateArn?: string;
+  private _customDomainCertificateArn?: string; 
   public get customDomainCertificateArn() {
     return this.getStringAttribute('custom_domain_certificate_arn');
   }
@@ -106,7 +106,7 @@ export class RedshiftserverlessCustomDomainAssociation extends cdktn.TerraformRe
   }
 
   // custom_domain_name - computed: false, optional: false, required: true
-  private _customDomainName?: string;
+  private _customDomainName?: string; 
   public get customDomainName() {
     return this.getStringAttribute('custom_domain_name');
   }
@@ -124,7 +124,7 @@ export class RedshiftserverlessCustomDomainAssociation extends cdktn.TerraformRe
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -140,7 +140,7 @@ export class RedshiftserverlessCustomDomainAssociation extends cdktn.TerraformRe
   }
 
   // workgroup_name - computed: false, optional: false, required: true
-  private _workgroupName?: string;
+  private _workgroupName?: string; 
   public get workgroupName() {
     return this.getStringAttribute('workgroup_name');
   }

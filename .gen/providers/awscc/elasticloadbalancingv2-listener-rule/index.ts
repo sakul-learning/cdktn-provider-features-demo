@@ -257,7 +257,7 @@ export class Elasticloadbalancingv2ListenerRuleActionsAuthenticateCognitoConfigO
   }
 
   // authentication_request_extra_params - computed: true, optional: true, required: false
-  private _authenticationRequestExtraParams?: { [key: string]: string };
+  private _authenticationRequestExtraParams?: { [key: string]: string }; 
   public get authenticationRequestExtraParams() {
     return this.getStringMapAttribute('authentication_request_extra_params');
   }
@@ -273,7 +273,7 @@ export class Elasticloadbalancingv2ListenerRuleActionsAuthenticateCognitoConfigO
   }
 
   // on_unauthenticated_request - computed: true, optional: true, required: false
-  private _onUnauthenticatedRequest?: string;
+  private _onUnauthenticatedRequest?: string; 
   public get onUnauthenticatedRequest() {
     return this.getStringAttribute('on_unauthenticated_request');
   }
@@ -289,7 +289,7 @@ export class Elasticloadbalancingv2ListenerRuleActionsAuthenticateCognitoConfigO
   }
 
   // scope - computed: true, optional: true, required: false
-  private _scope?: string;
+  private _scope?: string; 
   public get scope() {
     return this.getStringAttribute('scope');
   }
@@ -305,7 +305,7 @@ export class Elasticloadbalancingv2ListenerRuleActionsAuthenticateCognitoConfigO
   }
 
   // session_cookie_name - computed: true, optional: true, required: false
-  private _sessionCookieName?: string;
+  private _sessionCookieName?: string; 
   public get sessionCookieName() {
     return this.getStringAttribute('session_cookie_name');
   }
@@ -321,7 +321,7 @@ export class Elasticloadbalancingv2ListenerRuleActionsAuthenticateCognitoConfigO
   }
 
   // session_timeout - computed: true, optional: true, required: false
-  private _sessionTimeout?: number;
+  private _sessionTimeout?: number; 
   public get sessionTimeout() {
     return this.getNumberAttribute('session_timeout');
   }
@@ -337,7 +337,7 @@ export class Elasticloadbalancingv2ListenerRuleActionsAuthenticateCognitoConfigO
   }
 
   // user_pool_arn - computed: true, optional: true, required: false
-  private _userPoolArn?: string;
+  private _userPoolArn?: string; 
   public get userPoolArn() {
     return this.getStringAttribute('user_pool_arn');
   }
@@ -353,7 +353,7 @@ export class Elasticloadbalancingv2ListenerRuleActionsAuthenticateCognitoConfigO
   }
 
   // user_pool_client_id - computed: true, optional: true, required: false
-  private _userPoolClientId?: string;
+  private _userPoolClientId?: string; 
   public get userPoolClientId() {
     return this.getStringAttribute('user_pool_client_id');
   }
@@ -369,7 +369,7 @@ export class Elasticloadbalancingv2ListenerRuleActionsAuthenticateCognitoConfigO
   }
 
   // user_pool_domain - computed: true, optional: true, required: false
-  private _userPoolDomain?: string;
+  private _userPoolDomain?: string; 
   public get userPoolDomain() {
     return this.getStringAttribute('user_pool_domain');
   }
@@ -678,7 +678,7 @@ export class Elasticloadbalancingv2ListenerRuleActionsAuthenticateOidcConfigOutp
   }
 
   // authentication_request_extra_params - computed: true, optional: true, required: false
-  private _authenticationRequestExtraParams?: { [key: string]: string };
+  private _authenticationRequestExtraParams?: { [key: string]: string }; 
   public get authenticationRequestExtraParams() {
     return this.getStringMapAttribute('authentication_request_extra_params');
   }
@@ -694,7 +694,7 @@ export class Elasticloadbalancingv2ListenerRuleActionsAuthenticateOidcConfigOutp
   }
 
   // authorization_endpoint - computed: true, optional: true, required: false
-  private _authorizationEndpoint?: string;
+  private _authorizationEndpoint?: string; 
   public get authorizationEndpoint() {
     return this.getStringAttribute('authorization_endpoint');
   }
@@ -710,7 +710,7 @@ export class Elasticloadbalancingv2ListenerRuleActionsAuthenticateOidcConfigOutp
   }
 
   // client_id - computed: true, optional: true, required: false
-  private _clientId?: string;
+  private _clientId?: string; 
   public get clientId() {
     return this.getStringAttribute('client_id');
   }
@@ -726,7 +726,7 @@ export class Elasticloadbalancingv2ListenerRuleActionsAuthenticateOidcConfigOutp
   }
 
   // client_secret - computed: true, optional: true, required: false
-  private _clientSecret?: string;
+  private _clientSecret?: string; 
   public get clientSecret() {
     return this.getStringAttribute('client_secret');
   }
@@ -742,7 +742,7 @@ export class Elasticloadbalancingv2ListenerRuleActionsAuthenticateOidcConfigOutp
   }
 
   // issuer - computed: true, optional: true, required: false
-  private _issuer?: string;
+  private _issuer?: string; 
   public get issuer() {
     return this.getStringAttribute('issuer');
   }
@@ -758,7 +758,7 @@ export class Elasticloadbalancingv2ListenerRuleActionsAuthenticateOidcConfigOutp
   }
 
   // on_unauthenticated_request - computed: true, optional: true, required: false
-  private _onUnauthenticatedRequest?: string;
+  private _onUnauthenticatedRequest?: string; 
   public get onUnauthenticatedRequest() {
     return this.getStringAttribute('on_unauthenticated_request');
   }
@@ -774,7 +774,7 @@ export class Elasticloadbalancingv2ListenerRuleActionsAuthenticateOidcConfigOutp
   }
 
   // scope - computed: true, optional: true, required: false
-  private _scope?: string;
+  private _scope?: string; 
   public get scope() {
     return this.getStringAttribute('scope');
   }
@@ -790,7 +790,7 @@ export class Elasticloadbalancingv2ListenerRuleActionsAuthenticateOidcConfigOutp
   }
 
   // session_cookie_name - computed: true, optional: true, required: false
-  private _sessionCookieName?: string;
+  private _sessionCookieName?: string; 
   public get sessionCookieName() {
     return this.getStringAttribute('session_cookie_name');
   }
@@ -806,7 +806,7 @@ export class Elasticloadbalancingv2ListenerRuleActionsAuthenticateOidcConfigOutp
   }
 
   // session_timeout - computed: true, optional: true, required: false
-  private _sessionTimeout?: number;
+  private _sessionTimeout?: number; 
   public get sessionTimeout() {
     return this.getNumberAttribute('session_timeout');
   }
@@ -822,7 +822,7 @@ export class Elasticloadbalancingv2ListenerRuleActionsAuthenticateOidcConfigOutp
   }
 
   // token_endpoint - computed: true, optional: true, required: false
-  private _tokenEndpoint?: string;
+  private _tokenEndpoint?: string; 
   public get tokenEndpoint() {
     return this.getStringAttribute('token_endpoint');
   }
@@ -838,7 +838,7 @@ export class Elasticloadbalancingv2ListenerRuleActionsAuthenticateOidcConfigOutp
   }
 
   // use_existing_client_secret - computed: true, optional: true, required: false
-  private _useExistingClientSecret?: boolean | cdktn.IResolvable;
+  private _useExistingClientSecret?: boolean | cdktn.IResolvable; 
   public get useExistingClientSecret() {
     return this.getBooleanAttribute('use_existing_client_secret');
   }
@@ -854,7 +854,7 @@ export class Elasticloadbalancingv2ListenerRuleActionsAuthenticateOidcConfigOutp
   }
 
   // user_info_endpoint - computed: true, optional: true, required: false
-  private _userInfoEndpoint?: string;
+  private _userInfoEndpoint?: string; 
   public get userInfoEndpoint() {
     return this.getStringAttribute('user_info_endpoint');
   }
@@ -989,7 +989,7 @@ export class Elasticloadbalancingv2ListenerRuleActionsFixedResponseConfigOutputR
   }
 
   // content_type - computed: true, optional: true, required: false
-  private _contentType?: string;
+  private _contentType?: string; 
   public get contentType() {
     return this.getStringAttribute('content_type');
   }
@@ -1005,7 +1005,7 @@ export class Elasticloadbalancingv2ListenerRuleActionsFixedResponseConfigOutputR
   }
 
   // message_body - computed: true, optional: true, required: false
-  private _messageBody?: string;
+  private _messageBody?: string; 
   public get messageBody() {
     return this.getStringAttribute('message_body');
   }
@@ -1021,7 +1021,7 @@ export class Elasticloadbalancingv2ListenerRuleActionsFixedResponseConfigOutputR
   }
 
   // status_code - computed: true, optional: true, required: false
-  private _statusCode?: string;
+  private _statusCode?: string; 
   public get statusCode() {
     return this.getStringAttribute('status_code');
   }
@@ -1136,7 +1136,7 @@ export class Elasticloadbalancingv2ListenerRuleActionsForwardConfigTargetGroupSt
   }
 
   // duration_seconds - computed: true, optional: true, required: false
-  private _durationSeconds?: number;
+  private _durationSeconds?: number; 
   public get durationSeconds() {
     return this.getNumberAttribute('duration_seconds');
   }
@@ -1152,7 +1152,7 @@ export class Elasticloadbalancingv2ListenerRuleActionsForwardConfigTargetGroupSt
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -1269,7 +1269,7 @@ export class Elasticloadbalancingv2ListenerRuleActionsForwardConfigTargetGroupsO
   }
 
   // target_group_arn - computed: true, optional: true, required: false
-  private _targetGroupArn?: string;
+  private _targetGroupArn?: string; 
   public get targetGroupArn() {
     return this.getStringAttribute('target_group_arn');
   }
@@ -1285,7 +1285,7 @@ export class Elasticloadbalancingv2ListenerRuleActionsForwardConfigTargetGroupsO
   }
 
   // weight - computed: true, optional: true, required: false
-  private _weight?: number;
+  private _weight?: number; 
   public get weight() {
     return this.getNumberAttribute('weight');
   }
@@ -1572,7 +1572,7 @@ export class Elasticloadbalancingv2ListenerRuleActionsJwtValidationConfigAdditio
   }
 
   // format - computed: true, optional: true, required: false
-  private _format?: string;
+  private _format?: string; 
   public get format() {
     return this.getStringAttribute('format');
   }
@@ -1588,7 +1588,7 @@ export class Elasticloadbalancingv2ListenerRuleActionsJwtValidationConfigAdditio
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1604,7 +1604,7 @@ export class Elasticloadbalancingv2ListenerRuleActionsJwtValidationConfigAdditio
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -1768,7 +1768,7 @@ export class Elasticloadbalancingv2ListenerRuleActionsJwtValidationConfigOutputR
   }
 
   // issuer - computed: true, optional: true, required: false
-  private _issuer?: string;
+  private _issuer?: string; 
   public get issuer() {
     return this.getStringAttribute('issuer');
   }
@@ -1784,7 +1784,7 @@ export class Elasticloadbalancingv2ListenerRuleActionsJwtValidationConfigOutputR
   }
 
   // jwks_endpoint - computed: true, optional: true, required: false
-  private _jwksEndpoint?: string;
+  private _jwksEndpoint?: string; 
   public get jwksEndpoint() {
     return this.getStringAttribute('jwks_endpoint');
   }
@@ -1975,7 +1975,7 @@ export class Elasticloadbalancingv2ListenerRuleActionsRedirectConfigOutputRefere
   }
 
   // host - computed: true, optional: true, required: false
-  private _host?: string;
+  private _host?: string; 
   public get host() {
     return this.getStringAttribute('host');
   }
@@ -1991,7 +1991,7 @@ export class Elasticloadbalancingv2ListenerRuleActionsRedirectConfigOutputRefere
   }
 
   // path - computed: true, optional: true, required: false
-  private _path?: string;
+  private _path?: string; 
   public get path() {
     return this.getStringAttribute('path');
   }
@@ -2007,7 +2007,7 @@ export class Elasticloadbalancingv2ListenerRuleActionsRedirectConfigOutputRefere
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: string;
+  private _port?: string; 
   public get port() {
     return this.getStringAttribute('port');
   }
@@ -2023,7 +2023,7 @@ export class Elasticloadbalancingv2ListenerRuleActionsRedirectConfigOutputRefere
   }
 
   // protocol - computed: true, optional: true, required: false
-  private _protocol?: string;
+  private _protocol?: string; 
   public get protocol() {
     return this.getStringAttribute('protocol');
   }
@@ -2039,7 +2039,7 @@ export class Elasticloadbalancingv2ListenerRuleActionsRedirectConfigOutputRefere
   }
 
   // query - computed: true, optional: true, required: false
-  private _query?: string;
+  private _query?: string; 
   public get query() {
     return this.getStringAttribute('query');
   }
@@ -2055,7 +2055,7 @@ export class Elasticloadbalancingv2ListenerRuleActionsRedirectConfigOutputRefere
   }
 
   // status_code - computed: true, optional: true, required: false
-  private _statusCode?: string;
+  private _statusCode?: string; 
   public get statusCode() {
     return this.getStringAttribute('status_code');
   }
@@ -2386,7 +2386,7 @@ export class Elasticloadbalancingv2ListenerRuleActionsOutputReference extends cd
   }
 
   // order - computed: true, optional: true, required: false
-  private _order?: number;
+  private _order?: number; 
   public get order() {
     return this.getNumberAttribute('order');
   }
@@ -2418,7 +2418,7 @@ export class Elasticloadbalancingv2ListenerRuleActionsOutputReference extends cd
   }
 
   // target_group_arn - computed: true, optional: true, required: false
-  private _targetGroupArn?: string;
+  private _targetGroupArn?: string; 
   public get targetGroupArn() {
     return this.getStringAttribute('target_group_arn');
   }
@@ -2434,7 +2434,7 @@ export class Elasticloadbalancingv2ListenerRuleActionsOutputReference extends cd
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -2565,7 +2565,7 @@ export class Elasticloadbalancingv2ListenerRuleConditionsHostHeaderConfigOutputR
   }
 
   // regex_values - computed: true, optional: true, required: false
-  private _regexValues?: string[];
+  private _regexValues?: string[]; 
   public get regexValues() {
     return cdktn.Fn.tolist(this.getListAttribute('regex_values'));
   }
@@ -2581,7 +2581,7 @@ export class Elasticloadbalancingv2ListenerRuleConditionsHostHeaderConfigOutputR
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -2715,7 +2715,7 @@ export class Elasticloadbalancingv2ListenerRuleConditionsHttpHeaderConfigOutputR
   }
 
   // http_header_name - computed: true, optional: true, required: false
-  private _httpHeaderName?: string;
+  private _httpHeaderName?: string; 
   public get httpHeaderName() {
     return this.getStringAttribute('http_header_name');
   }
@@ -2731,7 +2731,7 @@ export class Elasticloadbalancingv2ListenerRuleConditionsHttpHeaderConfigOutputR
   }
 
   // regex_values - computed: true, optional: true, required: false
-  private _regexValues?: string[];
+  private _regexValues?: string[]; 
   public get regexValues() {
     return cdktn.Fn.tolist(this.getListAttribute('regex_values'));
   }
@@ -2747,7 +2747,7 @@ export class Elasticloadbalancingv2ListenerRuleConditionsHttpHeaderConfigOutputR
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -2844,7 +2844,7 @@ export class Elasticloadbalancingv2ListenerRuleConditionsHttpRequestMethodConfig
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -2958,7 +2958,7 @@ export class Elasticloadbalancingv2ListenerRuleConditionsPathPatternConfigOutput
   }
 
   // regex_values - computed: true, optional: true, required: false
-  private _regexValues?: string[];
+  private _regexValues?: string[]; 
   public get regexValues() {
     return cdktn.Fn.tolist(this.getListAttribute('regex_values'));
   }
@@ -2974,7 +2974,7 @@ export class Elasticloadbalancingv2ListenerRuleConditionsPathPatternConfigOutput
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -3091,7 +3091,7 @@ export class Elasticloadbalancingv2ListenerRuleConditionsQueryStringConfigValues
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -3107,7 +3107,7 @@ export class Elasticloadbalancingv2ListenerRuleConditionsQueryStringConfigValues
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -3321,7 +3321,7 @@ export class Elasticloadbalancingv2ListenerRuleConditionsSourceIpConfigOutputRef
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -3339,11 +3339,11 @@ export class Elasticloadbalancingv2ListenerRuleConditionsSourceIpConfigOutputRef
 export interface Elasticloadbalancingv2ListenerRuleConditions {
   /**
   * The field in the HTTP request. The following are the possible values:
-  *   +   ``http-header``
-  *   +   ``http-request-method``
-  *   +   ``host-header``
-  *   +   ``path-pattern``
-  *   +   ``query-string``
+  *   +   ``http-header`` 
+  *   +   ``http-request-method`` 
+  *   +   ``host-header`` 
+  *   +   ``path-pattern`` 
+  *   +   ``query-string`` 
   *   +   ``source-ip``
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_listener_rule#field Elasticloadbalancingv2ListenerRule#field}
@@ -3398,7 +3398,7 @@ export interface Elasticloadbalancingv2ListenerRuleConditions {
   *   +  - .
   *   +  * (matches 0 or more characters)
   *   +  ? (matches exactly 1 character)
-  *
+  *   
   *  If ``Field`` is ``path-pattern`` and you're not using ``PathPatternConfig``, you can specify a single path pattern (for example, /img/*). A path pattern is case-sensitive, can be up to 128 characters in length, and can contain any of the following characters.
   *   +  A-Z, a-z, 0-9
   *   +  _ - . $ / ~ " ' @ : +
@@ -3589,7 +3589,7 @@ export class Elasticloadbalancingv2ListenerRuleConditionsOutputReference extends
   }
 
   // field - computed: true, optional: true, required: false
-  private _field?: string;
+  private _field?: string; 
   public get field() {
     return this.getStringAttribute('field');
   }
@@ -3685,7 +3685,7 @@ export class Elasticloadbalancingv2ListenerRuleConditionsOutputReference extends
   }
 
   // regex_values - computed: true, optional: true, required: false
-  private _regexValues?: string[];
+  private _regexValues?: string[]; 
   public get regexValues() {
     return cdktn.Fn.tolist(this.getListAttribute('regex_values'));
   }
@@ -3717,7 +3717,7 @@ export class Elasticloadbalancingv2ListenerRuleConditionsOutputReference extends
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -3854,7 +3854,7 @@ export class Elasticloadbalancingv2ListenerRuleTransformsHostHeaderRewriteConfig
   }
 
   // regex - computed: true, optional: true, required: false
-  private _regex?: string;
+  private _regex?: string; 
   public get regex() {
     return this.getStringAttribute('regex');
   }
@@ -3870,7 +3870,7 @@ export class Elasticloadbalancingv2ListenerRuleTransformsHostHeaderRewriteConfig
   }
 
   // replace - computed: true, optional: true, required: false
-  private _replace?: string;
+  private _replace?: string; 
   public get replace() {
     return this.getStringAttribute('replace');
   }
@@ -4101,7 +4101,7 @@ export class Elasticloadbalancingv2ListenerRuleTransformsUrlRewriteConfigRewrite
   }
 
   // regex - computed: true, optional: true, required: false
-  private _regex?: string;
+  private _regex?: string; 
   public get regex() {
     return this.getStringAttribute('regex');
   }
@@ -4117,7 +4117,7 @@ export class Elasticloadbalancingv2ListenerRuleTransformsUrlRewriteConfigRewrite
   }
 
   // replace - computed: true, optional: true, required: false
-  private _replace?: string;
+  private _replace?: string; 
   public get replace() {
     return this.getStringAttribute('replace');
   }
@@ -4377,7 +4377,7 @@ export class Elasticloadbalancingv2ListenerRuleTransformsOutputReference extends
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -4527,7 +4527,7 @@ export class Elasticloadbalancingv2ListenerRule extends cdktn.TerraformResource 
   }
 
   // listener_arn - computed: true, optional: true, required: false
-  private _listenerArn?: string;
+  private _listenerArn?: string; 
   public get listenerArn() {
     return this.getStringAttribute('listener_arn');
   }
@@ -4543,7 +4543,7 @@ export class Elasticloadbalancingv2ListenerRule extends cdktn.TerraformResource 
   }
 
   // priority - computed: false, optional: false, required: true
-  private _priority?: number;
+  private _priority?: number; 
   public get priority() {
     return this.getNumberAttribute('priority');
   }

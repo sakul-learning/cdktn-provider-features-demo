@@ -86,7 +86,7 @@ export class StepfunctionsStateMachineVersion extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -107,7 +107,7 @@ export class StepfunctionsStateMachineVersion extends cdktn.TerraformResource {
   }
 
   // state_machine_arn - computed: false, optional: false, required: true
-  private _stateMachineArn?: string;
+  private _stateMachineArn?: string; 
   public get stateMachineArn() {
     return this.getStringAttribute('state_machine_arn');
   }
@@ -120,7 +120,7 @@ export class StepfunctionsStateMachineVersion extends cdktn.TerraformResource {
   }
 
   // state_machine_revision_id - computed: true, optional: true, required: false
-  private _stateMachineRevisionId?: string;
+  private _stateMachineRevisionId?: string; 
   public get stateMachineRevisionId() {
     return this.getStringAttribute('state_machine_revision_id');
   }

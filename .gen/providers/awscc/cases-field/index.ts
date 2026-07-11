@@ -125,7 +125,7 @@ export class CasesFieldAttributesTextOutputReference extends cdktn.ComplexObject
   }
 
   // is_multiline - computed: true, optional: true, required: false
-  private _isMultiline?: boolean | cdktn.IResolvable;
+  private _isMultiline?: boolean | cdktn.IResolvable; 
   public get isMultiline() {
     return this.getBooleanAttribute('is_multiline');
   }
@@ -338,7 +338,7 @@ export class CasesFieldTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -354,7 +354,7 @@ export class CasesFieldTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -474,7 +474,7 @@ export class CasesField extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -490,7 +490,7 @@ export class CasesField extends cdktn.TerraformResource {
   }
 
   // domain_id - computed: true, optional: true, required: false
-  private _domainId?: string;
+  private _domainId?: string; 
   public get domainId() {
     return this.getStringAttribute('domain_id');
   }
@@ -526,7 +526,7 @@ export class CasesField extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -560,7 +560,7 @@ export class CasesField extends cdktn.TerraformResource {
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }

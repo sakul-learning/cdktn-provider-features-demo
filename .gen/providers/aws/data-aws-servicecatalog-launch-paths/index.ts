@@ -286,7 +286,7 @@ export class DataAwsServicecatalogLaunchPathsTimeoutsOutputReference extends cdk
   }
 
   // read - computed: false, optional: true, required: false
-  private _read?: string;
+  private _read?: string; 
   public get read() {
     return this.getStringAttribute('read');
   }
@@ -364,7 +364,7 @@ export class DataAwsServicecatalogLaunchPaths extends cdktn.TerraformDataSource 
   // ==========
 
   // accept_language - computed: false, optional: true, required: false
-  private _acceptLanguage?: string;
+  private _acceptLanguage?: string; 
   public get acceptLanguage() {
     return this.getStringAttribute('accept_language');
   }
@@ -380,7 +380,7 @@ export class DataAwsServicecatalogLaunchPaths extends cdktn.TerraformDataSource 
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -396,7 +396,7 @@ export class DataAwsServicecatalogLaunchPaths extends cdktn.TerraformDataSource 
   }
 
   // product_id - computed: false, optional: false, required: true
-  private _productId?: string;
+  private _productId?: string; 
   public get productId() {
     return this.getStringAttribute('product_id');
   }
@@ -409,7 +409,7 @@ export class DataAwsServicecatalogLaunchPaths extends cdktn.TerraformDataSource 
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

@@ -179,7 +179,7 @@ export class DataAwsArcregionswitchRoute53HealthChecks extends cdktn.TerraformDa
   }
 
   // plan_arn - computed: false, optional: false, required: true
-  private _planArn?: string;
+  private _planArn?: string; 
   public get planArn() {
     return this.getStringAttribute('plan_arn');
   }
@@ -192,7 +192,7 @@ export class DataAwsArcregionswitchRoute53HealthChecks extends cdktn.TerraformDa
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

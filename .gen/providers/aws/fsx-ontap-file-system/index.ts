@@ -433,7 +433,7 @@ export class FsxOntapFileSystemDiskIopsConfigurationOutputReference extends cdkt
   }
 
   // iops - computed: true, optional: true, required: false
-  private _iops?: number;
+  private _iops?: number; 
   public get iops() {
     return this.getNumberAttribute('iops');
   }
@@ -449,7 +449,7 @@ export class FsxOntapFileSystemDiskIopsConfigurationOutputReference extends cdkt
   }
 
   // mode - computed: false, optional: true, required: false
-  private _mode?: string;
+  private _mode?: string; 
   public get mode() {
     return this.getStringAttribute('mode');
   }
@@ -577,7 +577,7 @@ export class FsxOntapFileSystemTimeoutsOutputReference extends cdktn.ComplexObje
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -593,7 +593,7 @@ export class FsxOntapFileSystemTimeoutsOutputReference extends cdktn.ComplexObje
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -609,7 +609,7 @@ export class FsxOntapFileSystemTimeoutsOutputReference extends cdktn.ComplexObje
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -709,7 +709,7 @@ export class FsxOntapFileSystem extends cdktn.TerraformResource {
   }
 
   // automatic_backup_retention_days - computed: false, optional: true, required: false
-  private _automaticBackupRetentionDays?: number;
+  private _automaticBackupRetentionDays?: number; 
   public get automaticBackupRetentionDays() {
     return this.getNumberAttribute('automatic_backup_retention_days');
   }
@@ -725,7 +725,7 @@ export class FsxOntapFileSystem extends cdktn.TerraformResource {
   }
 
   // daily_automatic_backup_start_time - computed: true, optional: true, required: false
-  private _dailyAutomaticBackupStartTime?: string;
+  private _dailyAutomaticBackupStartTime?: string; 
   public get dailyAutomaticBackupStartTime() {
     return this.getStringAttribute('daily_automatic_backup_start_time');
   }
@@ -741,7 +741,7 @@ export class FsxOntapFileSystem extends cdktn.TerraformResource {
   }
 
   // deployment_type - computed: false, optional: false, required: true
-  private _deploymentType?: string;
+  private _deploymentType?: string; 
   public get deploymentType() {
     return this.getStringAttribute('deployment_type');
   }
@@ -759,7 +759,7 @@ export class FsxOntapFileSystem extends cdktn.TerraformResource {
   }
 
   // endpoint_ip_address_range - computed: true, optional: true, required: false
-  private _endpointIpAddressRange?: string;
+  private _endpointIpAddressRange?: string; 
   public get endpointIpAddressRange() {
     return this.getStringAttribute('endpoint_ip_address_range');
   }
@@ -781,7 +781,7 @@ export class FsxOntapFileSystem extends cdktn.TerraformResource {
   }
 
   // fsx_admin_password - computed: false, optional: true, required: false
-  private _fsxAdminPassword?: string;
+  private _fsxAdminPassword?: string; 
   public get fsxAdminPassword() {
     return this.getStringAttribute('fsx_admin_password');
   }
@@ -797,7 +797,7 @@ export class FsxOntapFileSystem extends cdktn.TerraformResource {
   }
 
   // ha_pairs - computed: true, optional: true, required: false
-  private _haPairs?: number;
+  private _haPairs?: number; 
   public get haPairs() {
     return this.getNumberAttribute('ha_pairs');
   }
@@ -813,7 +813,7 @@ export class FsxOntapFileSystem extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -829,7 +829,7 @@ export class FsxOntapFileSystem extends cdktn.TerraformResource {
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -855,7 +855,7 @@ export class FsxOntapFileSystem extends cdktn.TerraformResource {
   }
 
   // preferred_subnet_id - computed: false, optional: false, required: true
-  private _preferredSubnetId?: string;
+  private _preferredSubnetId?: string; 
   public get preferredSubnetId() {
     return this.getStringAttribute('preferred_subnet_id');
   }
@@ -868,7 +868,7 @@ export class FsxOntapFileSystem extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -884,7 +884,7 @@ export class FsxOntapFileSystem extends cdktn.TerraformResource {
   }
 
   // route_table_ids - computed: true, optional: true, required: false
-  private _routeTableIds?: string[];
+  private _routeTableIds?: string[]; 
   public get routeTableIds() {
     return cdktn.Fn.tolist(this.getListAttribute('route_table_ids'));
   }
@@ -900,7 +900,7 @@ export class FsxOntapFileSystem extends cdktn.TerraformResource {
   }
 
   // security_group_ids - computed: false, optional: true, required: false
-  private _securityGroupIds?: string[];
+  private _securityGroupIds?: string[]; 
   public get securityGroupIds() {
     return cdktn.Fn.tolist(this.getListAttribute('security_group_ids'));
   }
@@ -916,7 +916,7 @@ export class FsxOntapFileSystem extends cdktn.TerraformResource {
   }
 
   // storage_capacity - computed: false, optional: false, required: true
-  private _storageCapacity?: number;
+  private _storageCapacity?: number; 
   public get storageCapacity() {
     return this.getNumberAttribute('storage_capacity');
   }
@@ -929,7 +929,7 @@ export class FsxOntapFileSystem extends cdktn.TerraformResource {
   }
 
   // storage_type - computed: false, optional: true, required: false
-  private _storageType?: string;
+  private _storageType?: string; 
   public get storageType() {
     return this.getStringAttribute('storage_type');
   }
@@ -945,7 +945,7 @@ export class FsxOntapFileSystem extends cdktn.TerraformResource {
   }
 
   // subnet_ids - computed: false, optional: false, required: true
-  private _subnetIds?: string[];
+  private _subnetIds?: string[]; 
   public get subnetIds() {
     return this.getListAttribute('subnet_ids');
   }
@@ -958,7 +958,7 @@ export class FsxOntapFileSystem extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -974,7 +974,7 @@ export class FsxOntapFileSystem extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -990,7 +990,7 @@ export class FsxOntapFileSystem extends cdktn.TerraformResource {
   }
 
   // throughput_capacity - computed: true, optional: true, required: false
-  private _throughputCapacity?: number;
+  private _throughputCapacity?: number; 
   public get throughputCapacity() {
     return this.getNumberAttribute('throughput_capacity');
   }
@@ -1006,7 +1006,7 @@ export class FsxOntapFileSystem extends cdktn.TerraformResource {
   }
 
   // throughput_capacity_per_ha_pair - computed: true, optional: true, required: false
-  private _throughputCapacityPerHaPair?: number;
+  private _throughputCapacityPerHaPair?: number; 
   public get throughputCapacityPerHaPair() {
     return this.getNumberAttribute('throughput_capacity_per_ha_pair');
   }
@@ -1027,7 +1027,7 @@ export class FsxOntapFileSystem extends cdktn.TerraformResource {
   }
 
   // weekly_maintenance_start_time - computed: true, optional: true, required: false
-  private _weeklyMaintenanceStartTime?: string;
+  private _weeklyMaintenanceStartTime?: string; 
   public get weeklyMaintenanceStartTime() {
     return this.getStringAttribute('weekly_maintenance_start_time');
   }

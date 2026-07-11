@@ -463,7 +463,7 @@ export class DataAwsKmsKey extends cdktn.TerraformDataSource {
   }
 
   // grant_tokens - computed: false, optional: true, required: false
-  private _grantTokens?: string[];
+  private _grantTokens?: string[]; 
   public get grantTokens() {
     return this.getListAttribute('grant_tokens');
   }
@@ -479,7 +479,7 @@ export class DataAwsKmsKey extends cdktn.TerraformDataSource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -495,7 +495,7 @@ export class DataAwsKmsKey extends cdktn.TerraformDataSource {
   }
 
   // key_id - computed: false, optional: false, required: true
-  private _keyId?: string;
+  private _keyId?: string; 
   public get keyId() {
     return this.getStringAttribute('key_id');
   }
@@ -549,7 +549,7 @@ export class DataAwsKmsKey extends cdktn.TerraformDataSource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

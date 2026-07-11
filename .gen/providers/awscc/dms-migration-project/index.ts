@@ -176,7 +176,7 @@ export class DmsMigrationProjectSchemaConversionApplicationAttributesOutputRefer
   }
 
   // s3_bucket_path - computed: true, optional: true, required: false
-  private _s3BucketPath?: string;
+  private _s3BucketPath?: string; 
   public get s3BucketPath() {
     return this.getStringAttribute('s3_bucket_path');
   }
@@ -192,7 +192,7 @@ export class DmsMigrationProjectSchemaConversionApplicationAttributesOutputRefer
   }
 
   // s3_bucket_role_arn - computed: true, optional: true, required: false
-  private _s3BucketRoleArn?: string;
+  private _s3BucketRoleArn?: string; 
   public get s3BucketRoleArn() {
     return this.getStringAttribute('s3_bucket_role_arn');
   }
@@ -356,7 +356,7 @@ export class DmsMigrationProjectSourceDataProviderDescriptorsOutputReference ext
   }
 
   // data_provider_arn - computed: true, optional: true, required: false
-  private _dataProviderArn?: string;
+  private _dataProviderArn?: string; 
   public get dataProviderArn() {
     return this.getStringAttribute('data_provider_arn');
   }
@@ -372,7 +372,7 @@ export class DmsMigrationProjectSourceDataProviderDescriptorsOutputReference ext
   }
 
   // data_provider_identifier - computed: true, optional: true, required: false
-  private _dataProviderIdentifier?: string;
+  private _dataProviderIdentifier?: string; 
   public get dataProviderIdentifier() {
     return this.getStringAttribute('data_provider_identifier');
   }
@@ -388,7 +388,7 @@ export class DmsMigrationProjectSourceDataProviderDescriptorsOutputReference ext
   }
 
   // data_provider_name - computed: true, optional: true, required: false
-  private _dataProviderName?: string;
+  private _dataProviderName?: string; 
   public get dataProviderName() {
     return this.getStringAttribute('data_provider_name');
   }
@@ -404,7 +404,7 @@ export class DmsMigrationProjectSourceDataProviderDescriptorsOutputReference ext
   }
 
   // secrets_manager_access_role_arn - computed: true, optional: true, required: false
-  private _secretsManagerAccessRoleArn?: string;
+  private _secretsManagerAccessRoleArn?: string; 
   public get secretsManagerAccessRoleArn() {
     return this.getStringAttribute('secrets_manager_access_role_arn');
   }
@@ -420,7 +420,7 @@ export class DmsMigrationProjectSourceDataProviderDescriptorsOutputReference ext
   }
 
   // secrets_manager_secret_id - computed: true, optional: true, required: false
-  private _secretsManagerSecretId?: string;
+  private _secretsManagerSecretId?: string; 
   public get secretsManagerSecretId() {
     return this.getStringAttribute('secrets_manager_secret_id');
   }
@@ -557,7 +557,7 @@ export class DmsMigrationProjectTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -573,7 +573,7 @@ export class DmsMigrationProjectTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -757,7 +757,7 @@ export class DmsMigrationProjectTargetDataProviderDescriptorsOutputReference ext
   }
 
   // data_provider_arn - computed: true, optional: true, required: false
-  private _dataProviderArn?: string;
+  private _dataProviderArn?: string; 
   public get dataProviderArn() {
     return this.getStringAttribute('data_provider_arn');
   }
@@ -773,7 +773,7 @@ export class DmsMigrationProjectTargetDataProviderDescriptorsOutputReference ext
   }
 
   // data_provider_identifier - computed: true, optional: true, required: false
-  private _dataProviderIdentifier?: string;
+  private _dataProviderIdentifier?: string; 
   public get dataProviderIdentifier() {
     return this.getStringAttribute('data_provider_identifier');
   }
@@ -789,7 +789,7 @@ export class DmsMigrationProjectTargetDataProviderDescriptorsOutputReference ext
   }
 
   // data_provider_name - computed: true, optional: true, required: false
-  private _dataProviderName?: string;
+  private _dataProviderName?: string; 
   public get dataProviderName() {
     return this.getStringAttribute('data_provider_name');
   }
@@ -805,7 +805,7 @@ export class DmsMigrationProjectTargetDataProviderDescriptorsOutputReference ext
   }
 
   // secrets_manager_access_role_arn - computed: true, optional: true, required: false
-  private _secretsManagerAccessRoleArn?: string;
+  private _secretsManagerAccessRoleArn?: string; 
   public get secretsManagerAccessRoleArn() {
     return this.getStringAttribute('secrets_manager_access_role_arn');
   }
@@ -821,7 +821,7 @@ export class DmsMigrationProjectTargetDataProviderDescriptorsOutputReference ext
   }
 
   // secrets_manager_secret_id - computed: true, optional: true, required: false
-  private _secretsManagerSecretId?: string;
+  private _secretsManagerSecretId?: string; 
   public get secretsManagerSecretId() {
     return this.getStringAttribute('secrets_manager_secret_id');
   }
@@ -926,7 +926,7 @@ export class DmsMigrationProject extends cdktn.TerraformResource {
   // ==========
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -947,7 +947,7 @@ export class DmsMigrationProject extends cdktn.TerraformResource {
   }
 
   // instance_profile_arn - computed: true, optional: true, required: false
-  private _instanceProfileArn?: string;
+  private _instanceProfileArn?: string; 
   public get instanceProfileArn() {
     return this.getStringAttribute('instance_profile_arn');
   }
@@ -963,7 +963,7 @@ export class DmsMigrationProject extends cdktn.TerraformResource {
   }
 
   // instance_profile_identifier - computed: true, optional: true, required: false
-  private _instanceProfileIdentifier?: string;
+  private _instanceProfileIdentifier?: string; 
   public get instanceProfileIdentifier() {
     return this.getStringAttribute('instance_profile_identifier');
   }
@@ -979,7 +979,7 @@ export class DmsMigrationProject extends cdktn.TerraformResource {
   }
 
   // instance_profile_name - computed: true, optional: true, required: false
-  private _instanceProfileName?: string;
+  private _instanceProfileName?: string; 
   public get instanceProfileName() {
     return this.getStringAttribute('instance_profile_name');
   }
@@ -1000,7 +1000,7 @@ export class DmsMigrationProject extends cdktn.TerraformResource {
   }
 
   // migration_project_creation_time - computed: true, optional: true, required: false
-  private _migrationProjectCreationTime?: string;
+  private _migrationProjectCreationTime?: string; 
   public get migrationProjectCreationTime() {
     return this.getStringAttribute('migration_project_creation_time');
   }
@@ -1016,7 +1016,7 @@ export class DmsMigrationProject extends cdktn.TerraformResource {
   }
 
   // migration_project_identifier - computed: true, optional: true, required: false
-  private _migrationProjectIdentifier?: string;
+  private _migrationProjectIdentifier?: string; 
   public get migrationProjectIdentifier() {
     return this.getStringAttribute('migration_project_identifier');
   }
@@ -1032,7 +1032,7 @@ export class DmsMigrationProject extends cdktn.TerraformResource {
   }
 
   // migration_project_name - computed: true, optional: true, required: false
-  private _migrationProjectName?: string;
+  private _migrationProjectName?: string; 
   public get migrationProjectName() {
     return this.getStringAttribute('migration_project_name');
   }
@@ -1112,7 +1112,7 @@ export class DmsMigrationProject extends cdktn.TerraformResource {
   }
 
   // transformation_rules - computed: true, optional: true, required: false
-  private _transformationRules?: string;
+  private _transformationRules?: string; 
   public get transformationRules() {
     return this.getStringAttribute('transformation_rules');
   }

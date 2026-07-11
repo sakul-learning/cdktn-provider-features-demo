@@ -81,7 +81,7 @@ export class Wafv2WebAclAssociation extends cdktn.TerraformResource {
   }
 
   // resource_arn - computed: false, optional: false, required: true
-  private _resourceArn?: string;
+  private _resourceArn?: string; 
   public get resourceArn() {
     return this.getStringAttribute('resource_arn');
   }
@@ -94,7 +94,7 @@ export class Wafv2WebAclAssociation extends cdktn.TerraformResource {
   }
 
   // web_acl_arn - computed: false, optional: false, required: true
-  private _webAclArn?: string;
+  private _webAclArn?: string; 
   public get webAclArn() {
     return this.getStringAttribute('web_acl_arn');
   }

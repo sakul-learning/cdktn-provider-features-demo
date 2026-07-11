@@ -131,7 +131,7 @@ export class S3BucketIntelligentTieringConfigurationFilterOutputReference extend
   }
 
   // prefix - computed: false, optional: true, required: false
-  private _prefix?: string;
+  private _prefix?: string; 
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -147,7 +147,7 @@ export class S3BucketIntelligentTieringConfigurationFilterOutputReference extend
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -260,7 +260,7 @@ export class S3BucketIntelligentTieringConfigurationTieringOutputReference exten
   }
 
   // access_tier - computed: false, optional: false, required: true
-  private _accessTier?: string;
+  private _accessTier?: string; 
   public get accessTier() {
     return this.getStringAttribute('access_tier');
   }
@@ -273,7 +273,7 @@ export class S3BucketIntelligentTieringConfigurationTieringOutputReference exten
   }
 
   // days - computed: false, optional: false, required: true
-  private _days?: number;
+  private _days?: number; 
   public get days() {
     return this.getNumberAttribute('days');
   }
@@ -370,7 +370,7 @@ export class S3BucketIntelligentTieringConfiguration extends cdktn.TerraformReso
   // ==========
 
   // bucket - computed: false, optional: false, required: true
-  private _bucket?: string;
+  private _bucket?: string; 
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -383,7 +383,7 @@ export class S3BucketIntelligentTieringConfiguration extends cdktn.TerraformReso
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -399,7 +399,7 @@ export class S3BucketIntelligentTieringConfiguration extends cdktn.TerraformReso
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -412,7 +412,7 @@ export class S3BucketIntelligentTieringConfiguration extends cdktn.TerraformReso
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -428,7 +428,7 @@ export class S3BucketIntelligentTieringConfiguration extends cdktn.TerraformReso
   }
 
   // status - computed: false, optional: true, required: false
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }

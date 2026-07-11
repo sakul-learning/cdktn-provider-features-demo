@@ -161,7 +161,7 @@ export class DatasyncLocationObjectStorageCmkSecretConfigOutputReference extends
   }
 
   // kms_key_arn - computed: true, optional: true, required: false
-  private _kmsKeyArn?: string;
+  private _kmsKeyArn?: string; 
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -281,7 +281,7 @@ export class DatasyncLocationObjectStorageCustomSecretConfigOutputReference exte
   }
 
   // secret_access_role_arn - computed: true, optional: true, required: false
-  private _secretAccessRoleArn?: string;
+  private _secretAccessRoleArn?: string; 
   public get secretAccessRoleArn() {
     return this.getStringAttribute('secret_access_role_arn');
   }
@@ -297,7 +297,7 @@ export class DatasyncLocationObjectStorageCustomSecretConfigOutputReference exte
   }
 
   // secret_arn - computed: true, optional: true, required: false
-  private _secretArn?: string;
+  private _secretArn?: string; 
   public get secretArn() {
     return this.getStringAttribute('secret_arn');
   }
@@ -468,7 +468,7 @@ export class DatasyncLocationObjectStorageTagsOutputReference extends cdktn.Comp
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -484,7 +484,7 @@ export class DatasyncLocationObjectStorageTagsOutputReference extends cdktn.Comp
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -589,7 +589,7 @@ export class DatasyncLocationObjectStorage extends cdktn.TerraformResource {
   // ==========
 
   // access_key - computed: true, optional: true, required: false
-  private _accessKey?: string;
+  private _accessKey?: string; 
   public get accessKey() {
     return this.getStringAttribute('access_key');
   }
@@ -605,7 +605,7 @@ export class DatasyncLocationObjectStorage extends cdktn.TerraformResource {
   }
 
   // agent_arns - computed: true, optional: true, required: false
-  private _agentArns?: string[];
+  private _agentArns?: string[]; 
   public get agentArns() {
     return this.getListAttribute('agent_arns');
   }
@@ -621,7 +621,7 @@ export class DatasyncLocationObjectStorage extends cdktn.TerraformResource {
   }
 
   // bucket_name - computed: true, optional: true, required: false
-  private _bucketName?: string;
+  private _bucketName?: string; 
   public get bucketName() {
     return this.getStringAttribute('bucket_name');
   }
@@ -690,7 +690,7 @@ export class DatasyncLocationObjectStorage extends cdktn.TerraformResource {
   }
 
   // secret_key - computed: true, optional: true, required: false
-  private _secretKey?: string;
+  private _secretKey?: string; 
   public get secretKey() {
     return this.getStringAttribute('secret_key');
   }
@@ -706,7 +706,7 @@ export class DatasyncLocationObjectStorage extends cdktn.TerraformResource {
   }
 
   // server_certificate - computed: true, optional: true, required: false
-  private _serverCertificate?: string;
+  private _serverCertificate?: string; 
   public get serverCertificate() {
     return this.getStringAttribute('server_certificate');
   }
@@ -722,7 +722,7 @@ export class DatasyncLocationObjectStorage extends cdktn.TerraformResource {
   }
 
   // server_hostname - computed: true, optional: true, required: false
-  private _serverHostname?: string;
+  private _serverHostname?: string; 
   public get serverHostname() {
     return this.getStringAttribute('server_hostname');
   }
@@ -738,7 +738,7 @@ export class DatasyncLocationObjectStorage extends cdktn.TerraformResource {
   }
 
   // server_port - computed: true, optional: true, required: false
-  private _serverPort?: number;
+  private _serverPort?: number; 
   public get serverPort() {
     return this.getNumberAttribute('server_port');
   }
@@ -754,7 +754,7 @@ export class DatasyncLocationObjectStorage extends cdktn.TerraformResource {
   }
 
   // server_protocol - computed: true, optional: true, required: false
-  private _serverProtocol?: string;
+  private _serverProtocol?: string; 
   public get serverProtocol() {
     return this.getStringAttribute('server_protocol');
   }
@@ -770,7 +770,7 @@ export class DatasyncLocationObjectStorage extends cdktn.TerraformResource {
   }
 
   // subdirectory - computed: true, optional: true, required: false
-  private _subdirectory?: string;
+  private _subdirectory?: string; 
   public get subdirectory() {
     return this.getStringAttribute('subdirectory');
   }

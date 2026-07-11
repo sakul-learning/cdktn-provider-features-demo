@@ -138,7 +138,7 @@ export class Route53GlobalresolverDnsViewTagsOutputReference extends cdktn.Compl
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -154,7 +154,7 @@ export class Route53GlobalresolverDnsViewTagsOutputReference extends cdktn.Compl
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -260,7 +260,7 @@ export class Route53GlobalresolverDnsView extends cdktn.TerraformResource {
   }
 
   // client_token - computed: true, optional: true, required: false
-  private _clientToken?: string;
+  private _clientToken?: string; 
   public get clientToken() {
     return this.getStringAttribute('client_token');
   }
@@ -281,7 +281,7 @@ export class Route53GlobalresolverDnsView extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -302,7 +302,7 @@ export class Route53GlobalresolverDnsView extends cdktn.TerraformResource {
   }
 
   // dnssec_validation - computed: true, optional: true, required: false
-  private _dnssecValidation?: string;
+  private _dnssecValidation?: string; 
   public get dnssecValidation() {
     return this.getStringAttribute('dnssec_validation');
   }
@@ -318,7 +318,7 @@ export class Route53GlobalresolverDnsView extends cdktn.TerraformResource {
   }
 
   // edns_client_subnet - computed: true, optional: true, required: false
-  private _ednsClientSubnet?: string;
+  private _ednsClientSubnet?: string; 
   public get ednsClientSubnet() {
     return this.getStringAttribute('edns_client_subnet');
   }
@@ -334,7 +334,7 @@ export class Route53GlobalresolverDnsView extends cdktn.TerraformResource {
   }
 
   // firewall_rules_fail_open - computed: true, optional: true, required: false
-  private _firewallRulesFailOpen?: string;
+  private _firewallRulesFailOpen?: string; 
   public get firewallRulesFailOpen() {
     return this.getStringAttribute('firewall_rules_fail_open');
   }
@@ -350,7 +350,7 @@ export class Route53GlobalresolverDnsView extends cdktn.TerraformResource {
   }
 
   // global_resolver_id - computed: false, optional: false, required: true
-  private _globalResolverId?: string;
+  private _globalResolverId?: string; 
   public get globalResolverId() {
     return this.getStringAttribute('global_resolver_id');
   }
@@ -368,7 +368,7 @@ export class Route53GlobalresolverDnsView extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }

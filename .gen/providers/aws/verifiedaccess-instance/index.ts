@@ -201,7 +201,7 @@ export class VerifiedaccessInstance extends cdktn.TerraformResource {
   // ==========
 
   // cidr_endpoints_custom_subdomain - computed: false, optional: true, required: false
-  private _cidrEndpointsCustomSubdomain?: string;
+  private _cidrEndpointsCustomSubdomain?: string; 
   public get cidrEndpointsCustomSubdomain() {
     return this.getStringAttribute('cidr_endpoints_custom_subdomain');
   }
@@ -222,7 +222,7 @@ export class VerifiedaccessInstance extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -238,7 +238,7 @@ export class VerifiedaccessInstance extends cdktn.TerraformResource {
   }
 
   // fips_enabled - computed: false, optional: true, required: false
-  private _fipsEnabled?: boolean | cdktn.IResolvable;
+  private _fipsEnabled?: boolean | cdktn.IResolvable; 
   public get fipsEnabled() {
     return this.getBooleanAttribute('fips_enabled');
   }
@@ -254,7 +254,7 @@ export class VerifiedaccessInstance extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -280,7 +280,7 @@ export class VerifiedaccessInstance extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -296,7 +296,7 @@ export class VerifiedaccessInstance extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -312,7 +312,7 @@ export class VerifiedaccessInstance extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

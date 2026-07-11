@@ -108,7 +108,7 @@ export class Lexv2ModelsSlotValueElicitationSettingWaitAndContinueSpecificationC
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -444,7 +444,7 @@ export class Lexv2ModelsSlotValueElicitationSettingWaitAndContinueSpecificationC
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -574,7 +574,7 @@ export class Lexv2ModelsSlotValueElicitationSettingWaitAndContinueSpecificationC
   }
 
   // text - computed: false, optional: false, required: true
-  private _text?: string;
+  private _text?: string; 
   public get text() {
     return this.getStringAttribute('text');
   }
@@ -587,7 +587,7 @@ export class Lexv2ModelsSlotValueElicitationSettingWaitAndContinueSpecificationC
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -753,7 +753,7 @@ export class Lexv2ModelsSlotValueElicitationSettingWaitAndContinueSpecificationC
   }
 
   // image_url - computed: false, optional: true, required: false
-  private _imageUrl?: string;
+  private _imageUrl?: string; 
   public get imageUrl() {
     return this.getStringAttribute('image_url');
   }
@@ -769,7 +769,7 @@ export class Lexv2ModelsSlotValueElicitationSettingWaitAndContinueSpecificationC
   }
 
   // subtitle - computed: false, optional: true, required: false
-  private _subtitle?: string;
+  private _subtitle?: string; 
   public get subtitle() {
     return this.getStringAttribute('subtitle');
   }
@@ -785,7 +785,7 @@ export class Lexv2ModelsSlotValueElicitationSettingWaitAndContinueSpecificationC
   }
 
   // title - computed: false, optional: false, required: true
-  private _title?: string;
+  private _title?: string; 
   public get title() {
     return this.getStringAttribute('title');
   }
@@ -914,7 +914,7 @@ export class Lexv2ModelsSlotValueElicitationSettingWaitAndContinueSpecificationC
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1027,7 +1027,7 @@ export class Lexv2ModelsSlotValueElicitationSettingWaitAndContinueSpecificationC
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1535,7 +1535,7 @@ export class Lexv2ModelsSlotValueElicitationSettingWaitAndContinueSpecificationC
   }
 
   // allow_interrupt - computed: false, optional: true, required: false
-  private _allowInterrupt?: boolean | cdktn.IResolvable;
+  private _allowInterrupt?: boolean | cdktn.IResolvable; 
   public get allowInterrupt() {
     return this.getBooleanAttribute('allow_interrupt');
   }
@@ -1667,7 +1667,7 @@ export class Lexv2ModelsSlotValueElicitationSettingWaitAndContinueSpecificationS
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1797,7 +1797,7 @@ export class Lexv2ModelsSlotValueElicitationSettingWaitAndContinueSpecificationS
   }
 
   // text - computed: false, optional: false, required: true
-  private _text?: string;
+  private _text?: string; 
   public get text() {
     return this.getStringAttribute('text');
   }
@@ -1810,7 +1810,7 @@ export class Lexv2ModelsSlotValueElicitationSettingWaitAndContinueSpecificationS
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1976,7 +1976,7 @@ export class Lexv2ModelsSlotValueElicitationSettingWaitAndContinueSpecificationS
   }
 
   // image_url - computed: false, optional: true, required: false
-  private _imageUrl?: string;
+  private _imageUrl?: string; 
   public get imageUrl() {
     return this.getStringAttribute('image_url');
   }
@@ -1992,7 +1992,7 @@ export class Lexv2ModelsSlotValueElicitationSettingWaitAndContinueSpecificationS
   }
 
   // subtitle - computed: false, optional: true, required: false
-  private _subtitle?: string;
+  private _subtitle?: string; 
   public get subtitle() {
     return this.getStringAttribute('subtitle');
   }
@@ -2008,7 +2008,7 @@ export class Lexv2ModelsSlotValueElicitationSettingWaitAndContinueSpecificationS
   }
 
   // title - computed: false, optional: false, required: true
-  private _title?: string;
+  private _title?: string; 
   public get title() {
     return this.getStringAttribute('title');
   }
@@ -2137,7 +2137,7 @@ export class Lexv2ModelsSlotValueElicitationSettingWaitAndContinueSpecificationS
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2250,7 +2250,7 @@ export class Lexv2ModelsSlotValueElicitationSettingWaitAndContinueSpecificationS
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2586,7 +2586,7 @@ export class Lexv2ModelsSlotValueElicitationSettingWaitAndContinueSpecificationS
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2716,7 +2716,7 @@ export class Lexv2ModelsSlotValueElicitationSettingWaitAndContinueSpecificationS
   }
 
   // text - computed: false, optional: false, required: true
-  private _text?: string;
+  private _text?: string; 
   public get text() {
     return this.getStringAttribute('text');
   }
@@ -2729,7 +2729,7 @@ export class Lexv2ModelsSlotValueElicitationSettingWaitAndContinueSpecificationS
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2895,7 +2895,7 @@ export class Lexv2ModelsSlotValueElicitationSettingWaitAndContinueSpecificationS
   }
 
   // image_url - computed: false, optional: true, required: false
-  private _imageUrl?: string;
+  private _imageUrl?: string; 
   public get imageUrl() {
     return this.getStringAttribute('image_url');
   }
@@ -2911,7 +2911,7 @@ export class Lexv2ModelsSlotValueElicitationSettingWaitAndContinueSpecificationS
   }
 
   // subtitle - computed: false, optional: true, required: false
-  private _subtitle?: string;
+  private _subtitle?: string; 
   public get subtitle() {
     return this.getStringAttribute('subtitle');
   }
@@ -2927,7 +2927,7 @@ export class Lexv2ModelsSlotValueElicitationSettingWaitAndContinueSpecificationS
   }
 
   // title - computed: false, optional: false, required: true
-  private _title?: string;
+  private _title?: string; 
   public get title() {
     return this.getStringAttribute('title');
   }
@@ -3056,7 +3056,7 @@ export class Lexv2ModelsSlotValueElicitationSettingWaitAndContinueSpecificationS
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -3169,7 +3169,7 @@ export class Lexv2ModelsSlotValueElicitationSettingWaitAndContinueSpecificationS
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -3711,7 +3711,7 @@ export class Lexv2ModelsSlotValueElicitationSettingWaitAndContinueSpecificationS
   }
 
   // allow_interrupt - computed: false, optional: true, required: false
-  private _allowInterrupt?: boolean | cdktn.IResolvable;
+  private _allowInterrupt?: boolean | cdktn.IResolvable; 
   public get allowInterrupt() {
     return this.getBooleanAttribute('allow_interrupt');
   }
@@ -3727,7 +3727,7 @@ export class Lexv2ModelsSlotValueElicitationSettingWaitAndContinueSpecificationS
   }
 
   // frequency_in_seconds - computed: false, optional: false, required: true
-  private _frequencyInSeconds?: number;
+  private _frequencyInSeconds?: number; 
   public get frequencyInSeconds() {
     return this.getNumberAttribute('frequency_in_seconds');
   }
@@ -3740,7 +3740,7 @@ export class Lexv2ModelsSlotValueElicitationSettingWaitAndContinueSpecificationS
   }
 
   // timeout_in_seconds - computed: false, optional: false, required: true
-  private _timeoutInSeconds?: number;
+  private _timeoutInSeconds?: number; 
   public get timeoutInSeconds() {
     return this.getNumberAttribute('timeout_in_seconds');
   }
@@ -3869,7 +3869,7 @@ export class Lexv2ModelsSlotValueElicitationSettingWaitAndContinueSpecificationW
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -3999,7 +3999,7 @@ export class Lexv2ModelsSlotValueElicitationSettingWaitAndContinueSpecificationW
   }
 
   // text - computed: false, optional: false, required: true
-  private _text?: string;
+  private _text?: string; 
   public get text() {
     return this.getStringAttribute('text');
   }
@@ -4012,7 +4012,7 @@ export class Lexv2ModelsSlotValueElicitationSettingWaitAndContinueSpecificationW
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -4178,7 +4178,7 @@ export class Lexv2ModelsSlotValueElicitationSettingWaitAndContinueSpecificationW
   }
 
   // image_url - computed: false, optional: true, required: false
-  private _imageUrl?: string;
+  private _imageUrl?: string; 
   public get imageUrl() {
     return this.getStringAttribute('image_url');
   }
@@ -4194,7 +4194,7 @@ export class Lexv2ModelsSlotValueElicitationSettingWaitAndContinueSpecificationW
   }
 
   // subtitle - computed: false, optional: true, required: false
-  private _subtitle?: string;
+  private _subtitle?: string; 
   public get subtitle() {
     return this.getStringAttribute('subtitle');
   }
@@ -4210,7 +4210,7 @@ export class Lexv2ModelsSlotValueElicitationSettingWaitAndContinueSpecificationW
   }
 
   // title - computed: false, optional: false, required: true
-  private _title?: string;
+  private _title?: string; 
   public get title() {
     return this.getStringAttribute('title');
   }
@@ -4339,7 +4339,7 @@ export class Lexv2ModelsSlotValueElicitationSettingWaitAndContinueSpecificationW
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -4452,7 +4452,7 @@ export class Lexv2ModelsSlotValueElicitationSettingWaitAndContinueSpecificationW
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -4788,7 +4788,7 @@ export class Lexv2ModelsSlotValueElicitationSettingWaitAndContinueSpecificationW
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -4918,7 +4918,7 @@ export class Lexv2ModelsSlotValueElicitationSettingWaitAndContinueSpecificationW
   }
 
   // text - computed: false, optional: false, required: true
-  private _text?: string;
+  private _text?: string; 
   public get text() {
     return this.getStringAttribute('text');
   }
@@ -4931,7 +4931,7 @@ export class Lexv2ModelsSlotValueElicitationSettingWaitAndContinueSpecificationW
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -5097,7 +5097,7 @@ export class Lexv2ModelsSlotValueElicitationSettingWaitAndContinueSpecificationW
   }
 
   // image_url - computed: false, optional: true, required: false
-  private _imageUrl?: string;
+  private _imageUrl?: string; 
   public get imageUrl() {
     return this.getStringAttribute('image_url');
   }
@@ -5113,7 +5113,7 @@ export class Lexv2ModelsSlotValueElicitationSettingWaitAndContinueSpecificationW
   }
 
   // subtitle - computed: false, optional: true, required: false
-  private _subtitle?: string;
+  private _subtitle?: string; 
   public get subtitle() {
     return this.getStringAttribute('subtitle');
   }
@@ -5129,7 +5129,7 @@ export class Lexv2ModelsSlotValueElicitationSettingWaitAndContinueSpecificationW
   }
 
   // title - computed: false, optional: false, required: true
-  private _title?: string;
+  private _title?: string; 
   public get title() {
     return this.getStringAttribute('title');
   }
@@ -5258,7 +5258,7 @@ export class Lexv2ModelsSlotValueElicitationSettingWaitAndContinueSpecificationW
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -5371,7 +5371,7 @@ export class Lexv2ModelsSlotValueElicitationSettingWaitAndContinueSpecificationW
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -5879,7 +5879,7 @@ export class Lexv2ModelsSlotValueElicitationSettingWaitAndContinueSpecificationW
   }
 
   // allow_interrupt - computed: false, optional: true, required: false
-  private _allowInterrupt?: boolean | cdktn.IResolvable;
+  private _allowInterrupt?: boolean | cdktn.IResolvable; 
   public get allowInterrupt() {
     return this.getBooleanAttribute('allow_interrupt');
   }
@@ -6068,7 +6068,7 @@ export class Lexv2ModelsSlotValueElicitationSettingWaitAndContinueSpecificationO
   }
 
   // active - computed: false, optional: true, required: false
-  private _active?: boolean | cdktn.IResolvable;
+  private _active?: boolean | cdktn.IResolvable; 
   public get active() {
     return this.getBooleanAttribute('active');
   }
@@ -6327,7 +6327,7 @@ export class Lexv2ModelsSlotValueElicitationSettingOutputReference extends cdktn
   }
 
   // slot_constraint - computed: false, optional: false, required: true
-  private _slotConstraint?: string;
+  private _slotConstraint?: string; 
   public get slotConstraint() {
     return this.getStringAttribute('slot_constraint');
   }

@@ -161,7 +161,7 @@ export class EventsRuleTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -177,7 +177,7 @@ export class EventsRuleTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -291,7 +291,7 @@ export class EventsRuleTargetsAppSyncParametersOutputReference extends cdktn.Com
   }
 
   // graph_ql_operation - computed: true, optional: true, required: false
-  private _graphQlOperation?: string;
+  private _graphQlOperation?: string; 
   public get graphQlOperation() {
     return this.getStringAttribute('graph_ql_operation');
   }
@@ -385,7 +385,7 @@ export class EventsRuleTargetsBatchParametersArrayPropertiesOutputReference exte
   }
 
   // size - computed: true, optional: true, required: false
-  private _size?: number;
+  private _size?: number; 
   public get size() {
     return this.getNumberAttribute('size');
   }
@@ -479,7 +479,7 @@ export class EventsRuleTargetsBatchParametersRetryStrategyOutputReference extend
   }
 
   // attempts - computed: true, optional: true, required: false
-  private _attempts?: number;
+  private _attempts?: number; 
   public get attempts() {
     return this.getNumberAttribute('attempts');
   }
@@ -640,7 +640,7 @@ export class EventsRuleTargetsBatchParametersOutputReference extends cdktn.Compl
   }
 
   // job_definition - computed: true, optional: true, required: false
-  private _jobDefinition?: string;
+  private _jobDefinition?: string; 
   public get jobDefinition() {
     return this.getStringAttribute('job_definition');
   }
@@ -656,7 +656,7 @@ export class EventsRuleTargetsBatchParametersOutputReference extends cdktn.Compl
   }
 
   // job_name - computed: true, optional: true, required: false
-  private _jobName?: string;
+  private _jobName?: string; 
   public get jobName() {
     return this.getStringAttribute('job_name');
   }
@@ -766,7 +766,7 @@ export class EventsRuleTargetsDeadLetterConfigOutputReference extends cdktn.Comp
   }
 
   // arn - computed: true, optional: true, required: false
-  private _arn?: string;
+  private _arn?: string; 
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -896,7 +896,7 @@ export class EventsRuleTargetsEcsParametersCapacityProviderStrategyOutputReferen
   }
 
   // base - computed: true, optional: true, required: false
-  private _base?: number;
+  private _base?: number; 
   public get base() {
     return this.getNumberAttribute('base');
   }
@@ -912,7 +912,7 @@ export class EventsRuleTargetsEcsParametersCapacityProviderStrategyOutputReferen
   }
 
   // capacity_provider - computed: true, optional: true, required: false
-  private _capacityProvider?: string;
+  private _capacityProvider?: string; 
   public get capacityProvider() {
     return this.getStringAttribute('capacity_provider');
   }
@@ -928,7 +928,7 @@ export class EventsRuleTargetsEcsParametersCapacityProviderStrategyOutputReferen
   }
 
   // weight - computed: true, optional: true, required: false
-  private _weight?: number;
+  private _weight?: number; 
   public get weight() {
     return this.getNumberAttribute('weight');
   }
@@ -1076,7 +1076,7 @@ export class EventsRuleTargetsEcsParametersNetworkConfigurationAwsVpcConfigurati
   }
 
   // assign_public_ip - computed: true, optional: true, required: false
-  private _assignPublicIp?: string;
+  private _assignPublicIp?: string; 
   public get assignPublicIp() {
     return this.getStringAttribute('assign_public_ip');
   }
@@ -1092,7 +1092,7 @@ export class EventsRuleTargetsEcsParametersNetworkConfigurationAwsVpcConfigurati
   }
 
   // security_groups - computed: true, optional: true, required: false
-  private _securityGroups?: string[];
+  private _securityGroups?: string[]; 
   public get securityGroups() {
     return this.getListAttribute('security_groups');
   }
@@ -1108,7 +1108,7 @@ export class EventsRuleTargetsEcsParametersNetworkConfigurationAwsVpcConfigurati
   }
 
   // subnets - computed: true, optional: true, required: false
-  private _subnets?: string[];
+  private _subnets?: string[]; 
   public get subnets() {
     return this.getListAttribute('subnets');
   }
@@ -1315,7 +1315,7 @@ export class EventsRuleTargetsEcsParametersPlacementConstraintsOutputReference e
   }
 
   // expression - computed: true, optional: true, required: false
-  private _expression?: string;
+  private _expression?: string; 
   public get expression() {
     return this.getStringAttribute('expression');
   }
@@ -1331,7 +1331,7 @@ export class EventsRuleTargetsEcsParametersPlacementConstraintsOutputReference e
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -1464,7 +1464,7 @@ export class EventsRuleTargetsEcsParametersPlacementStrategiesOutputReference ex
   }
 
   // field - computed: true, optional: true, required: false
-  private _field?: string;
+  private _field?: string; 
   public get field() {
     return this.getStringAttribute('field');
   }
@@ -1480,7 +1480,7 @@ export class EventsRuleTargetsEcsParametersPlacementStrategiesOutputReference ex
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -1613,7 +1613,7 @@ export class EventsRuleTargetsEcsParametersTagListStructOutputReference extends 
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1629,7 +1629,7 @@ export class EventsRuleTargetsEcsParametersTagListStructOutputReference extends 
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1980,7 +1980,7 @@ export class EventsRuleTargetsEcsParametersOutputReference extends cdktn.Complex
   }
 
   // enable_ecs_managed_tags - computed: true, optional: true, required: false
-  private _enableEcsManagedTags?: boolean | cdktn.IResolvable;
+  private _enableEcsManagedTags?: boolean | cdktn.IResolvable; 
   public get enableEcsManagedTags() {
     return this.getBooleanAttribute('enable_ecs_managed_tags');
   }
@@ -1996,7 +1996,7 @@ export class EventsRuleTargetsEcsParametersOutputReference extends cdktn.Complex
   }
 
   // enable_execute_command - computed: true, optional: true, required: false
-  private _enableExecuteCommand?: boolean | cdktn.IResolvable;
+  private _enableExecuteCommand?: boolean | cdktn.IResolvable; 
   public get enableExecuteCommand() {
     return this.getBooleanAttribute('enable_execute_command');
   }
@@ -2012,7 +2012,7 @@ export class EventsRuleTargetsEcsParametersOutputReference extends cdktn.Complex
   }
 
   // group - computed: true, optional: true, required: false
-  private _group?: string;
+  private _group?: string; 
   public get group() {
     return this.getStringAttribute('group');
   }
@@ -2028,7 +2028,7 @@ export class EventsRuleTargetsEcsParametersOutputReference extends cdktn.Complex
   }
 
   // launch_type - computed: true, optional: true, required: false
-  private _launchType?: string;
+  private _launchType?: string; 
   public get launchType() {
     return this.getStringAttribute('launch_type');
   }
@@ -2092,7 +2092,7 @@ export class EventsRuleTargetsEcsParametersOutputReference extends cdktn.Complex
   }
 
   // platform_version - computed: true, optional: true, required: false
-  private _platformVersion?: string;
+  private _platformVersion?: string; 
   public get platformVersion() {
     return this.getStringAttribute('platform_version');
   }
@@ -2108,7 +2108,7 @@ export class EventsRuleTargetsEcsParametersOutputReference extends cdktn.Complex
   }
 
   // propagate_tags - computed: true, optional: true, required: false
-  private _propagateTags?: string;
+  private _propagateTags?: string; 
   public get propagateTags() {
     return this.getStringAttribute('propagate_tags');
   }
@@ -2124,7 +2124,7 @@ export class EventsRuleTargetsEcsParametersOutputReference extends cdktn.Complex
   }
 
   // reference_id - computed: true, optional: true, required: false
-  private _referenceId?: string;
+  private _referenceId?: string; 
   public get referenceId() {
     return this.getStringAttribute('reference_id');
   }
@@ -2156,7 +2156,7 @@ export class EventsRuleTargetsEcsParametersOutputReference extends cdktn.Complex
   }
 
   // task_count - computed: true, optional: true, required: false
-  private _taskCount?: number;
+  private _taskCount?: number; 
   public get taskCount() {
     return this.getNumberAttribute('task_count');
   }
@@ -2172,7 +2172,7 @@ export class EventsRuleTargetsEcsParametersOutputReference extends cdktn.Complex
   }
 
   // task_definition_arn - computed: true, optional: true, required: false
-  private _taskDefinitionArn?: string;
+  private _taskDefinitionArn?: string; 
   public get taskDefinitionArn() {
     return this.getStringAttribute('task_definition_arn');
   }
@@ -2300,7 +2300,7 @@ export class EventsRuleTargetsHttpParametersOutputReference extends cdktn.Comple
   }
 
   // header_parameters - computed: true, optional: true, required: false
-  private _headerParameters?: { [key: string]: string };
+  private _headerParameters?: { [key: string]: string }; 
   public get headerParameters() {
     return this.getStringMapAttribute('header_parameters');
   }
@@ -2316,7 +2316,7 @@ export class EventsRuleTargetsHttpParametersOutputReference extends cdktn.Comple
   }
 
   // path_parameter_values - computed: true, optional: true, required: false
-  private _pathParameterValues?: string[];
+  private _pathParameterValues?: string[]; 
   public get pathParameterValues() {
     return this.getListAttribute('path_parameter_values');
   }
@@ -2332,7 +2332,7 @@ export class EventsRuleTargetsHttpParametersOutputReference extends cdktn.Comple
   }
 
   // query_string_parameters - computed: true, optional: true, required: false
-  private _queryStringParameters?: { [key: string]: string };
+  private _queryStringParameters?: { [key: string]: string }; 
   public get queryStringParameters() {
     return this.getStringMapAttribute('query_string_parameters');
   }
@@ -2443,7 +2443,7 @@ export class EventsRuleTargetsInputTransformerOutputReference extends cdktn.Comp
   }
 
   // input_paths_map - computed: true, optional: true, required: false
-  private _inputPathsMap?: { [key: string]: string };
+  private _inputPathsMap?: { [key: string]: string }; 
   public get inputPathsMap() {
     return this.getStringMapAttribute('input_paths_map');
   }
@@ -2459,7 +2459,7 @@ export class EventsRuleTargetsInputTransformerOutputReference extends cdktn.Comp
   }
 
   // input_template - computed: true, optional: true, required: false
-  private _inputTemplate?: string;
+  private _inputTemplate?: string; 
   public get inputTemplate() {
     return this.getStringAttribute('input_template');
   }
@@ -2553,7 +2553,7 @@ export class EventsRuleTargetsKinesisParametersOutputReference extends cdktn.Com
   }
 
   // partition_key_path - computed: true, optional: true, required: false
-  private _partitionKeyPath?: string;
+  private _partitionKeyPath?: string; 
   public get partitionKeyPath() {
     return this.getStringAttribute('partition_key_path');
   }
@@ -2749,7 +2749,7 @@ export class EventsRuleTargetsRedshiftDataParametersOutputReference extends cdkt
   }
 
   // database - computed: true, optional: true, required: false
-  private _database?: string;
+  private _database?: string; 
   public get database() {
     return this.getStringAttribute('database');
   }
@@ -2765,7 +2765,7 @@ export class EventsRuleTargetsRedshiftDataParametersOutputReference extends cdkt
   }
 
   // db_user - computed: true, optional: true, required: false
-  private _dbUser?: string;
+  private _dbUser?: string; 
   public get dbUser() {
     return this.getStringAttribute('db_user');
   }
@@ -2781,7 +2781,7 @@ export class EventsRuleTargetsRedshiftDataParametersOutputReference extends cdkt
   }
 
   // secret_manager_arn - computed: true, optional: true, required: false
-  private _secretManagerArn?: string;
+  private _secretManagerArn?: string; 
   public get secretManagerArn() {
     return this.getStringAttribute('secret_manager_arn');
   }
@@ -2797,7 +2797,7 @@ export class EventsRuleTargetsRedshiftDataParametersOutputReference extends cdkt
   }
 
   // sql - computed: true, optional: true, required: false
-  private _sql?: string;
+  private _sql?: string; 
   public get sql() {
     return this.getStringAttribute('sql');
   }
@@ -2813,7 +2813,7 @@ export class EventsRuleTargetsRedshiftDataParametersOutputReference extends cdkt
   }
 
   // sqls - computed: true, optional: true, required: false
-  private _sqls?: string[];
+  private _sqls?: string[]; 
   public get sqls() {
     return this.getListAttribute('sqls');
   }
@@ -2829,7 +2829,7 @@ export class EventsRuleTargetsRedshiftDataParametersOutputReference extends cdkt
   }
 
   // statement_name - computed: true, optional: true, required: false
-  private _statementName?: string;
+  private _statementName?: string; 
   public get statementName() {
     return this.getStringAttribute('statement_name');
   }
@@ -2845,7 +2845,7 @@ export class EventsRuleTargetsRedshiftDataParametersOutputReference extends cdkt
   }
 
   // with_event - computed: true, optional: true, required: false
-  private _withEvent?: boolean | cdktn.IResolvable;
+  private _withEvent?: boolean | cdktn.IResolvable; 
   public get withEvent() {
     return this.getBooleanAttribute('with_event');
   }
@@ -2956,7 +2956,7 @@ export class EventsRuleTargetsRetryPolicyOutputReference extends cdktn.ComplexOb
   }
 
   // maximum_event_age_in_seconds - computed: true, optional: true, required: false
-  private _maximumEventAgeInSeconds?: number;
+  private _maximumEventAgeInSeconds?: number; 
   public get maximumEventAgeInSeconds() {
     return this.getNumberAttribute('maximum_event_age_in_seconds');
   }
@@ -2972,7 +2972,7 @@ export class EventsRuleTargetsRetryPolicyOutputReference extends cdktn.ComplexOb
   }
 
   // maximum_retry_attempts - computed: true, optional: true, required: false
-  private _maximumRetryAttempts?: number;
+  private _maximumRetryAttempts?: number; 
   public get maximumRetryAttempts() {
     return this.getNumberAttribute('maximum_retry_attempts');
   }
@@ -3085,7 +3085,7 @@ export class EventsRuleTargetsRunCommandParametersRunCommandTargetsOutputReferen
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -3101,7 +3101,7 @@ export class EventsRuleTargetsRunCommandParametersRunCommandTargetsOutputReferen
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -3328,7 +3328,7 @@ export class EventsRuleTargetsSageMakerPipelineParametersPipelineParameterListSt
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -3344,7 +3344,7 @@ export class EventsRuleTargetsSageMakerPipelineParametersPipelineParameterListSt
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -3552,7 +3552,7 @@ export class EventsRuleTargetsSqsParametersOutputReference extends cdktn.Complex
   }
 
   // message_group_id - computed: true, optional: true, required: false
-  private _messageGroupId?: string;
+  private _messageGroupId?: string; 
   public get messageGroupId() {
     return this.getStringAttribute('message_group_id');
   }
@@ -3939,7 +3939,7 @@ export class EventsRuleTargetsOutputReference extends cdktn.ComplexObject {
   }
 
   // arn - computed: true, optional: true, required: false
-  private _arn?: string;
+  private _arn?: string; 
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -4019,7 +4019,7 @@ export class EventsRuleTargetsOutputReference extends cdktn.ComplexObject {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -4035,7 +4035,7 @@ export class EventsRuleTargetsOutputReference extends cdktn.ComplexObject {
   }
 
   // input - computed: true, optional: true, required: false
-  private _input?: string;
+  private _input?: string; 
   public get input() {
     return this.getStringAttribute('input');
   }
@@ -4051,7 +4051,7 @@ export class EventsRuleTargetsOutputReference extends cdktn.ComplexObject {
   }
 
   // input_path - computed: true, optional: true, required: false
-  private _inputPath?: string;
+  private _inputPath?: string; 
   public get inputPath() {
     return this.getStringAttribute('input_path');
   }
@@ -4131,7 +4131,7 @@ export class EventsRuleTargetsOutputReference extends cdktn.ComplexObject {
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -4286,7 +4286,7 @@ export class EventsRule extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -4302,7 +4302,7 @@ export class EventsRule extends cdktn.TerraformResource {
   }
 
   // event_bus_name - computed: true, optional: true, required: false
-  private _eventBusName?: string;
+  private _eventBusName?: string; 
   public get eventBusName() {
     return this.getStringAttribute('event_bus_name');
   }
@@ -4318,7 +4318,7 @@ export class EventsRule extends cdktn.TerraformResource {
   }
 
   // event_pattern - computed: true, optional: true, required: false
-  private _eventPattern?: string;
+  private _eventPattern?: string; 
   public get eventPattern() {
     return this.getStringAttribute('event_pattern');
   }
@@ -4339,7 +4339,7 @@ export class EventsRule extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -4355,7 +4355,7 @@ export class EventsRule extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -4371,7 +4371,7 @@ export class EventsRule extends cdktn.TerraformResource {
   }
 
   // schedule_expression - computed: true, optional: true, required: false
-  private _scheduleExpression?: string;
+  private _scheduleExpression?: string; 
   public get scheduleExpression() {
     return this.getStringAttribute('schedule_expression');
   }
@@ -4387,7 +4387,7 @@ export class EventsRule extends cdktn.TerraformResource {
   }
 
   // state - computed: true, optional: true, required: false
-  private _state?: string;
+  private _state?: string; 
   public get state() {
     return this.getStringAttribute('state');
   }

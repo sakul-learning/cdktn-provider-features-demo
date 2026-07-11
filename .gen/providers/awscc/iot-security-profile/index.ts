@@ -156,7 +156,7 @@ export class IotSecurityProfileAdditionalMetricsToRetainV2MetricDimensionOutputR
   }
 
   // dimension_name - computed: true, optional: true, required: false
-  private _dimensionName?: string;
+  private _dimensionName?: string; 
   public get dimensionName() {
     return this.getStringAttribute('dimension_name');
   }
@@ -172,7 +172,7 @@ export class IotSecurityProfileAdditionalMetricsToRetainV2MetricDimensionOutputR
   }
 
   // operator - computed: true, optional: true, required: false
-  private _operator?: string;
+  private _operator?: string; 
   public get operator() {
     return this.getStringAttribute('operator');
   }
@@ -308,7 +308,7 @@ export class IotSecurityProfileAdditionalMetricsToRetainV2OutputReference extend
   }
 
   // export_metric - computed: true, optional: true, required: false
-  private _exportMetric?: boolean | cdktn.IResolvable;
+  private _exportMetric?: boolean | cdktn.IResolvable; 
   public get exportMetric() {
     return this.getBooleanAttribute('export_metric');
   }
@@ -324,7 +324,7 @@ export class IotSecurityProfileAdditionalMetricsToRetainV2OutputReference extend
   }
 
   // metric - computed: true, optional: true, required: false
-  private _metric?: string;
+  private _metric?: string; 
   public get metric() {
     return this.getStringAttribute('metric');
   }
@@ -476,7 +476,7 @@ export class IotSecurityProfileAlertTargetsOutputReference extends cdktn.Complex
   }
 
   // alert_target_arn - computed: true, optional: true, required: false
-  private _alertTargetArn?: string;
+  private _alertTargetArn?: string; 
   public get alertTargetArn() {
     return this.getStringAttribute('alert_target_arn');
   }
@@ -492,7 +492,7 @@ export class IotSecurityProfileAlertTargetsOutputReference extends cdktn.Complex
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -607,7 +607,7 @@ export class IotSecurityProfileBehaviorsCriteriaMlDetectionConfigOutputReference
   }
 
   // confidence_level - computed: true, optional: true, required: false
-  private _confidenceLevel?: string;
+  private _confidenceLevel?: string; 
   public get confidenceLevel() {
     return this.getStringAttribute('confidence_level');
   }
@@ -703,7 +703,7 @@ export class IotSecurityProfileBehaviorsCriteriaStatisticalThresholdOutputRefere
   }
 
   // statistic - computed: true, optional: true, required: false
-  private _statistic?: string;
+  private _statistic?: string; 
   public get statistic() {
     return this.getStringAttribute('statistic');
   }
@@ -894,7 +894,7 @@ export class IotSecurityProfileBehaviorsCriteriaValueOutputReference extends cdk
   }
 
   // cidrs - computed: true, optional: true, required: false
-  private _cidrs?: string[];
+  private _cidrs?: string[]; 
   public get cidrs() {
     return cdktn.Fn.tolist(this.getListAttribute('cidrs'));
   }
@@ -910,7 +910,7 @@ export class IotSecurityProfileBehaviorsCriteriaValueOutputReference extends cdk
   }
 
   // count - computed: true, optional: true, required: false
-  private _count?: string;
+  private _count?: string; 
   public get count() {
     return this.getStringAttribute('count');
   }
@@ -926,7 +926,7 @@ export class IotSecurityProfileBehaviorsCriteriaValueOutputReference extends cdk
   }
 
   // number - computed: true, optional: true, required: false
-  private _number?: number;
+  private _number?: number; 
   public get number() {
     return this.getNumberAttribute('number');
   }
@@ -942,7 +942,7 @@ export class IotSecurityProfileBehaviorsCriteriaValueOutputReference extends cdk
   }
 
   // numbers - computed: true, optional: true, required: false
-  private _numbers?: number[];
+  private _numbers?: number[]; 
   public get numbers() {
     return cdktn.Token.asNumberList(cdktn.Fn.tolist(this.getNumberListAttribute('numbers')));
   }
@@ -958,7 +958,7 @@ export class IotSecurityProfileBehaviorsCriteriaValueOutputReference extends cdk
   }
 
   // ports - computed: true, optional: true, required: false
-  private _ports?: number[];
+  private _ports?: number[]; 
   public get ports() {
     return cdktn.Token.asNumberList(cdktn.Fn.tolist(this.getNumberListAttribute('ports')));
   }
@@ -974,7 +974,7 @@ export class IotSecurityProfileBehaviorsCriteriaValueOutputReference extends cdk
   }
 
   // strings - computed: true, optional: true, required: false
-  private _strings?: string[];
+  private _strings?: string[]; 
   public get strings() {
     return cdktn.Fn.tolist(this.getListAttribute('strings'));
   }
@@ -1184,7 +1184,7 @@ export class IotSecurityProfileBehaviorsCriteriaOutputReference extends cdktn.Co
   }
 
   // comparison_operator - computed: true, optional: true, required: false
-  private _comparisonOperator?: string;
+  private _comparisonOperator?: string; 
   public get comparisonOperator() {
     return this.getStringAttribute('comparison_operator');
   }
@@ -1200,7 +1200,7 @@ export class IotSecurityProfileBehaviorsCriteriaOutputReference extends cdktn.Co
   }
 
   // consecutive_datapoints_to_alarm - computed: true, optional: true, required: false
-  private _consecutiveDatapointsToAlarm?: number;
+  private _consecutiveDatapointsToAlarm?: number; 
   public get consecutiveDatapointsToAlarm() {
     return this.getNumberAttribute('consecutive_datapoints_to_alarm');
   }
@@ -1216,7 +1216,7 @@ export class IotSecurityProfileBehaviorsCriteriaOutputReference extends cdktn.Co
   }
 
   // consecutive_datapoints_to_clear - computed: true, optional: true, required: false
-  private _consecutiveDatapointsToClear?: number;
+  private _consecutiveDatapointsToClear?: number; 
   public get consecutiveDatapointsToClear() {
     return this.getNumberAttribute('consecutive_datapoints_to_clear');
   }
@@ -1232,7 +1232,7 @@ export class IotSecurityProfileBehaviorsCriteriaOutputReference extends cdktn.Co
   }
 
   // duration_seconds - computed: true, optional: true, required: false
-  private _durationSeconds?: number;
+  private _durationSeconds?: number; 
   public get durationSeconds() {
     return this.getNumberAttribute('duration_seconds');
   }
@@ -1395,7 +1395,7 @@ export class IotSecurityProfileBehaviorsMetricDimensionOutputReference extends c
   }
 
   // dimension_name - computed: true, optional: true, required: false
-  private _dimensionName?: string;
+  private _dimensionName?: string; 
   public get dimensionName() {
     return this.getStringAttribute('dimension_name');
   }
@@ -1411,7 +1411,7 @@ export class IotSecurityProfileBehaviorsMetricDimensionOutputReference extends c
   }
 
   // operator - computed: true, optional: true, required: false
-  private _operator?: string;
+  private _operator?: string; 
   public get operator() {
     return this.getStringAttribute('operator');
   }
@@ -1620,7 +1620,7 @@ export class IotSecurityProfileBehaviorsOutputReference extends cdktn.ComplexObj
   }
 
   // export_metric - computed: true, optional: true, required: false
-  private _exportMetric?: boolean | cdktn.IResolvable;
+  private _exportMetric?: boolean | cdktn.IResolvable; 
   public get exportMetric() {
     return this.getBooleanAttribute('export_metric');
   }
@@ -1636,7 +1636,7 @@ export class IotSecurityProfileBehaviorsOutputReference extends cdktn.ComplexObj
   }
 
   // metric - computed: true, optional: true, required: false
-  private _metric?: string;
+  private _metric?: string; 
   public get metric() {
     return this.getStringAttribute('metric');
   }
@@ -1668,7 +1668,7 @@ export class IotSecurityProfileBehaviorsOutputReference extends cdktn.ComplexObj
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1684,7 +1684,7 @@ export class IotSecurityProfileBehaviorsOutputReference extends cdktn.ComplexObj
   }
 
   // suppress_alerts - computed: true, optional: true, required: false
-  private _suppressAlerts?: boolean | cdktn.IResolvable;
+  private _suppressAlerts?: boolean | cdktn.IResolvable; 
   public get suppressAlerts() {
     return this.getBooleanAttribute('suppress_alerts');
   }
@@ -1819,7 +1819,7 @@ export class IotSecurityProfileMetricsExportConfigOutputReference extends cdktn.
   }
 
   // mqtt_topic - computed: true, optional: true, required: false
-  private _mqttTopic?: string;
+  private _mqttTopic?: string; 
   public get mqttTopic() {
     return this.getStringAttribute('mqtt_topic');
   }
@@ -1835,7 +1835,7 @@ export class IotSecurityProfileMetricsExportConfigOutputReference extends cdktn.
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -1952,7 +1952,7 @@ export class IotSecurityProfileTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1968,7 +1968,7 @@ export class IotSecurityProfileTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2143,7 +2143,7 @@ export class IotSecurityProfile extends cdktn.TerraformResource {
   }
 
   // security_profile_description - computed: true, optional: true, required: false
-  private _securityProfileDescription?: string;
+  private _securityProfileDescription?: string; 
   public get securityProfileDescription() {
     return this.getStringAttribute('security_profile_description');
   }
@@ -2159,7 +2159,7 @@ export class IotSecurityProfile extends cdktn.TerraformResource {
   }
 
   // security_profile_name - computed: true, optional: true, required: false
-  private _securityProfileName?: string;
+  private _securityProfileName?: string; 
   public get securityProfileName() {
     return this.getStringAttribute('security_profile_name');
   }
@@ -2191,7 +2191,7 @@ export class IotSecurityProfile extends cdktn.TerraformResource {
   }
 
   // target_arns - computed: true, optional: true, required: false
-  private _targetArns?: string[];
+  private _targetArns?: string[]; 
   public get targetArns() {
     return cdktn.Fn.tolist(this.getListAttribute('target_arns'));
   }

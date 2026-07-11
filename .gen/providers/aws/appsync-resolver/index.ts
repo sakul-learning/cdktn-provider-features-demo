@@ -167,7 +167,7 @@ export class AppsyncResolverCachingConfigOutputReference extends cdktn.ComplexOb
   }
 
   // caching_keys - computed: false, optional: true, required: false
-  private _cachingKeys?: string[];
+  private _cachingKeys?: string[]; 
   public get cachingKeys() {
     return cdktn.Fn.tolist(this.getListAttribute('caching_keys'));
   }
@@ -183,7 +183,7 @@ export class AppsyncResolverCachingConfigOutputReference extends cdktn.ComplexOb
   }
 
   // ttl - computed: false, optional: true, required: false
-  private _ttl?: number;
+  private _ttl?: number; 
   public get ttl() {
     return this.getNumberAttribute('ttl');
   }
@@ -267,7 +267,7 @@ export class AppsyncResolverPipelineConfigOutputReference extends cdktn.ComplexO
   }
 
   // functions - computed: false, optional: true, required: false
-  private _functions?: string[];
+  private _functions?: string[]; 
   public get functions() {
     return this.getListAttribute('functions');
   }
@@ -368,7 +368,7 @@ export class AppsyncResolverRuntimeOutputReference extends cdktn.ComplexObject {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -381,7 +381,7 @@ export class AppsyncResolverRuntimeOutputReference extends cdktn.ComplexObject {
   }
 
   // runtime_version - computed: false, optional: false, required: true
-  private _runtimeVersion?: string;
+  private _runtimeVersion?: string; 
   public get runtimeVersion() {
     return this.getStringAttribute('runtime_version');
   }
@@ -462,7 +462,7 @@ export class AppsyncResolverSyncConfigLambdaConflictHandlerConfigOutputReference
   }
 
   // lambda_conflict_handler_arn - computed: false, optional: true, required: false
-  private _lambdaConflictHandlerArn?: string;
+  private _lambdaConflictHandlerArn?: string; 
   public get lambdaConflictHandlerArn() {
     return this.getStringAttribute('lambda_conflict_handler_arn');
   }
@@ -582,7 +582,7 @@ export class AppsyncResolverSyncConfigOutputReference extends cdktn.ComplexObjec
   }
 
   // conflict_detection - computed: false, optional: true, required: false
-  private _conflictDetection?: string;
+  private _conflictDetection?: string; 
   public get conflictDetection() {
     return this.getStringAttribute('conflict_detection');
   }
@@ -598,7 +598,7 @@ export class AppsyncResolverSyncConfigOutputReference extends cdktn.ComplexObjec
   }
 
   // conflict_handler - computed: false, optional: true, required: false
-  private _conflictHandler?: string;
+  private _conflictHandler?: string; 
   public get conflictHandler() {
     return this.getStringAttribute('conflict_handler');
   }
@@ -702,7 +702,7 @@ export class AppsyncResolver extends cdktn.TerraformResource {
   // ==========
 
   // api_id - computed: false, optional: false, required: true
-  private _apiId?: string;
+  private _apiId?: string; 
   public get apiId() {
     return this.getStringAttribute('api_id');
   }
@@ -720,7 +720,7 @@ export class AppsyncResolver extends cdktn.TerraformResource {
   }
 
   // code - computed: false, optional: true, required: false
-  private _code?: string;
+  private _code?: string; 
   public get code() {
     return this.getStringAttribute('code');
   }
@@ -736,7 +736,7 @@ export class AppsyncResolver extends cdktn.TerraformResource {
   }
 
   // data_source - computed: false, optional: true, required: false
-  private _dataSource?: string;
+  private _dataSource?: string; 
   public get dataSource() {
     return this.getStringAttribute('data_source');
   }
@@ -752,7 +752,7 @@ export class AppsyncResolver extends cdktn.TerraformResource {
   }
 
   // field - computed: false, optional: false, required: true
-  private _field?: string;
+  private _field?: string; 
   public get field() {
     return this.getStringAttribute('field');
   }
@@ -765,7 +765,7 @@ export class AppsyncResolver extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -781,7 +781,7 @@ export class AppsyncResolver extends cdktn.TerraformResource {
   }
 
   // kind - computed: false, optional: true, required: false
-  private _kind?: string;
+  private _kind?: string; 
   public get kind() {
     return this.getStringAttribute('kind');
   }
@@ -797,7 +797,7 @@ export class AppsyncResolver extends cdktn.TerraformResource {
   }
 
   // max_batch_size - computed: false, optional: true, required: false
-  private _maxBatchSize?: number;
+  private _maxBatchSize?: number; 
   public get maxBatchSize() {
     return this.getNumberAttribute('max_batch_size');
   }
@@ -813,7 +813,7 @@ export class AppsyncResolver extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -829,7 +829,7 @@ export class AppsyncResolver extends cdktn.TerraformResource {
   }
 
   // request_template - computed: false, optional: true, required: false
-  private _requestTemplate?: string;
+  private _requestTemplate?: string; 
   public get requestTemplate() {
     return this.getStringAttribute('request_template');
   }
@@ -845,7 +845,7 @@ export class AppsyncResolver extends cdktn.TerraformResource {
   }
 
   // response_template - computed: false, optional: true, required: false
-  private _responseTemplate?: string;
+  private _responseTemplate?: string; 
   public get responseTemplate() {
     return this.getStringAttribute('response_template');
   }
@@ -861,7 +861,7 @@ export class AppsyncResolver extends cdktn.TerraformResource {
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }

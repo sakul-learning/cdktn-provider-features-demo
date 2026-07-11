@@ -91,7 +91,7 @@ export class SsmPatchGroup extends cdktn.TerraformResource {
   // ==========
 
   // baseline_id - computed: false, optional: false, required: true
-  private _baselineId?: string;
+  private _baselineId?: string; 
   public get baselineId() {
     return this.getStringAttribute('baseline_id');
   }
@@ -104,7 +104,7 @@ export class SsmPatchGroup extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -120,7 +120,7 @@ export class SsmPatchGroup extends cdktn.TerraformResource {
   }
 
   // patch_group - computed: false, optional: false, required: true
-  private _patchGroup?: string;
+  private _patchGroup?: string; 
   public get patchGroup() {
     return this.getStringAttribute('patch_group');
   }
@@ -133,7 +133,7 @@ export class SsmPatchGroup extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

@@ -79,7 +79,7 @@ export class IamSecurityTokenServicePreferences extends cdktn.TerraformResource 
   // ==========
 
   // global_endpoint_token_version - computed: false, optional: false, required: true
-  private _globalEndpointTokenVersion?: string;
+  private _globalEndpointTokenVersion?: string; 
   public get globalEndpointTokenVersion() {
     return this.getStringAttribute('global_endpoint_token_version');
   }
@@ -92,7 +92,7 @@ export class IamSecurityTokenServicePreferences extends cdktn.TerraformResource 
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }

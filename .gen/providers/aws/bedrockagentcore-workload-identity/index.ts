@@ -83,7 +83,7 @@ export class BedrockagentcoreWorkloadIdentity extends cdktn.TerraformResource {
   // ==========
 
   // allowed_resource_oauth2_return_urls - computed: false, optional: true, required: false
-  private _allowedResourceOauth2ReturnUrls?: string[];
+  private _allowedResourceOauth2ReturnUrls?: string[]; 
   public get allowedResourceOauth2ReturnUrls() {
     return cdktn.Fn.tolist(this.getListAttribute('allowed_resource_oauth2_return_urls'));
   }
@@ -99,7 +99,7 @@ export class BedrockagentcoreWorkloadIdentity extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -112,7 +112,7 @@ export class BedrockagentcoreWorkloadIdentity extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

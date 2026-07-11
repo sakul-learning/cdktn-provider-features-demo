@@ -143,7 +143,7 @@ export class EcsClusterCapacityProviderAssociationsDefaultCapacityProviderStrate
   }
 
   // base - computed: true, optional: true, required: false
-  private _base?: number;
+  private _base?: number; 
   public get base() {
     return this.getNumberAttribute('base');
   }
@@ -159,7 +159,7 @@ export class EcsClusterCapacityProviderAssociationsDefaultCapacityProviderStrate
   }
 
   // capacity_provider - computed: false, optional: false, required: true
-  private _capacityProvider?: string;
+  private _capacityProvider?: string; 
   public get capacityProvider() {
     return this.getStringAttribute('capacity_provider');
   }
@@ -172,7 +172,7 @@ export class EcsClusterCapacityProviderAssociationsDefaultCapacityProviderStrate
   }
 
   // weight - computed: true, optional: true, required: false
-  private _weight?: number;
+  private _weight?: number; 
   public get weight() {
     return this.getNumberAttribute('weight');
   }
@@ -268,7 +268,7 @@ export class EcsClusterCapacityProviderAssociations extends cdktn.TerraformResou
   // ==========
 
   // capacity_providers - computed: true, optional: true, required: false
-  private _capacityProviders?: string[];
+  private _capacityProviders?: string[]; 
   public get capacityProviders() {
     return this.getListAttribute('capacity_providers');
   }
@@ -284,7 +284,7 @@ export class EcsClusterCapacityProviderAssociations extends cdktn.TerraformResou
   }
 
   // cluster - computed: false, optional: false, required: true
-  private _cluster?: string;
+  private _cluster?: string; 
   public get cluster() {
     return this.getStringAttribute('cluster');
   }

@@ -128,7 +128,7 @@ export class MemorydbAclTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -144,7 +144,7 @@ export class MemorydbAclTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -240,7 +240,7 @@ export class MemorydbAcl extends cdktn.TerraformResource {
   // ==========
 
   // acl_name - computed: false, optional: false, required: true
-  private _aclName?: string;
+  private _aclName?: string; 
   public get aclName() {
     return this.getStringAttribute('acl_name');
   }
@@ -284,7 +284,7 @@ export class MemorydbAcl extends cdktn.TerraformResource {
   }
 
   // user_names - computed: true, optional: true, required: false
-  private _userNames?: string[];
+  private _userNames?: string[]; 
   public get userNames() {
     return this.getListAttribute('user_names');
   }

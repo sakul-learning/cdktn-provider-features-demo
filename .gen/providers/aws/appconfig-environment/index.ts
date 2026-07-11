@@ -134,7 +134,7 @@ export class AppconfigEnvironmentMonitorOutputReference extends cdktn.ComplexObj
   }
 
   // alarm_arn - computed: false, optional: false, required: true
-  private _alarmArn?: string;
+  private _alarmArn?: string; 
   public get alarmArn() {
     return this.getStringAttribute('alarm_arn');
   }
@@ -147,7 +147,7 @@ export class AppconfigEnvironmentMonitorOutputReference extends cdktn.ComplexObj
   }
 
   // alarm_role_arn - computed: false, optional: true, required: false
-  private _alarmRoleArn?: string;
+  private _alarmRoleArn?: string; 
   public get alarmRoleArn() {
     return this.getStringAttribute('alarm_role_arn');
   }
@@ -246,7 +246,7 @@ export class AppconfigEnvironment extends cdktn.TerraformResource {
   // ==========
 
   // application_id - computed: false, optional: false, required: true
-  private _applicationId?: string;
+  private _applicationId?: string; 
   public get applicationId() {
     return this.getStringAttribute('application_id');
   }
@@ -264,7 +264,7 @@ export class AppconfigEnvironment extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -290,7 +290,7 @@ export class AppconfigEnvironment extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -303,7 +303,7 @@ export class AppconfigEnvironment extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -324,7 +324,7 @@ export class AppconfigEnvironment extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

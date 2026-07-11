@@ -1724,7 +1724,7 @@ export class BedrockPromptVersion extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1750,7 +1750,7 @@ export class BedrockPromptVersion extends cdktn.TerraformResource {
   }
 
   // prompt_arn - computed: false, optional: false, required: true
-  private _promptArn?: string;
+  private _promptArn?: string; 
   public get promptArn() {
     return this.getStringAttribute('prompt_arn');
   }
@@ -1768,7 +1768,7 @@ export class BedrockPromptVersion extends cdktn.TerraformResource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

@@ -119,7 +119,7 @@ export class CodeguruprofilerProfilingGroupAgentPermissionsOutputReference exten
   }
 
   // principals - computed: true, optional: true, required: false
-  private _principals?: string[];
+  private _principals?: string[]; 
   public get principals() {
     return this.getListAttribute('principals');
   }
@@ -236,7 +236,7 @@ export class CodeguruprofilerProfilingGroupAnomalyDetectionNotificationConfigura
   }
 
   // channel_id - computed: true, optional: true, required: false
-  private _channelId?: string;
+  private _channelId?: string; 
   public get channelId() {
     return this.getStringAttribute('channel_id');
   }
@@ -252,7 +252,7 @@ export class CodeguruprofilerProfilingGroupAnomalyDetectionNotificationConfigura
   }
 
   // channel_uri - computed: true, optional: true, required: false
-  private _channelUri?: string;
+  private _channelUri?: string; 
   public get channelUri() {
     return this.getStringAttribute('channel_uri');
   }
@@ -389,7 +389,7 @@ export class CodeguruprofilerProfilingGroupTagsOutputReference extends cdktn.Com
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -405,7 +405,7 @@ export class CodeguruprofilerProfilingGroupTagsOutputReference extends cdktn.Com
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -540,7 +540,7 @@ export class CodeguruprofilerProfilingGroup extends cdktn.TerraformResource {
   }
 
   // compute_platform - computed: true, optional: true, required: false
-  private _computePlatform?: string;
+  private _computePlatform?: string; 
   public get computePlatform() {
     return this.getStringAttribute('compute_platform');
   }
@@ -561,7 +561,7 @@ export class CodeguruprofilerProfilingGroup extends cdktn.TerraformResource {
   }
 
   // profiling_group_name - computed: false, optional: false, required: true
-  private _profilingGroupName?: string;
+  private _profilingGroupName?: string; 
   public get profilingGroupName() {
     return this.getStringAttribute('profiling_group_name');
   }

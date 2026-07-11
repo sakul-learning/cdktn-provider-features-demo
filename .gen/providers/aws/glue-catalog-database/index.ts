@@ -136,7 +136,7 @@ export class GlueCatalogDatabaseCreateTableDefaultPermissionPrincipalOutputRefer
   }
 
   // data_lake_principal_identifier - computed: false, optional: true, required: false
-  private _dataLakePrincipalIdentifier?: string;
+  private _dataLakePrincipalIdentifier?: string; 
   public get dataLakePrincipalIdentifier() {
     return this.getStringAttribute('data_lake_principal_identifier');
   }
@@ -251,7 +251,7 @@ export class GlueCatalogDatabaseCreateTableDefaultPermissionOutputReference exte
   }
 
   // permissions - computed: false, optional: true, required: false
-  private _permissions?: string[];
+  private _permissions?: string[]; 
   public get permissions() {
     return cdktn.Fn.tolist(this.getListAttribute('permissions'));
   }
@@ -388,7 +388,7 @@ export class GlueCatalogDatabaseFederatedDatabaseOutputReference extends cdktn.C
   }
 
   // connection_name - computed: false, optional: true, required: false
-  private _connectionName?: string;
+  private _connectionName?: string; 
   public get connectionName() {
     return this.getStringAttribute('connection_name');
   }
@@ -404,7 +404,7 @@ export class GlueCatalogDatabaseFederatedDatabaseOutputReference extends cdktn.C
   }
 
   // identifier - computed: false, optional: true, required: false
-  private _identifier?: string;
+  private _identifier?: string; 
   public get identifier() {
     return this.getStringAttribute('identifier');
   }
@@ -522,7 +522,7 @@ export class GlueCatalogDatabaseTargetDatabaseOutputReference extends cdktn.Comp
   }
 
   // catalog_id - computed: false, optional: false, required: true
-  private _catalogId?: string;
+  private _catalogId?: string; 
   public get catalogId() {
     return this.getStringAttribute('catalog_id');
   }
@@ -535,7 +535,7 @@ export class GlueCatalogDatabaseTargetDatabaseOutputReference extends cdktn.Comp
   }
 
   // database_name - computed: false, optional: false, required: true
-  private _databaseName?: string;
+  private _databaseName?: string; 
   public get databaseName() {
     return this.getStringAttribute('database_name');
   }
@@ -548,7 +548,7 @@ export class GlueCatalogDatabaseTargetDatabaseOutputReference extends cdktn.Comp
   }
 
   // region - computed: false, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -638,7 +638,7 @@ export class GlueCatalogDatabase extends cdktn.TerraformResource {
   }
 
   // catalog_id - computed: true, optional: true, required: false
-  private _catalogId?: string;
+  private _catalogId?: string; 
   public get catalogId() {
     return this.getStringAttribute('catalog_id');
   }
@@ -654,7 +654,7 @@ export class GlueCatalogDatabase extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -670,7 +670,7 @@ export class GlueCatalogDatabase extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -686,7 +686,7 @@ export class GlueCatalogDatabase extends cdktn.TerraformResource {
   }
 
   // location_uri - computed: true, optional: true, required: false
-  private _locationUri?: string;
+  private _locationUri?: string; 
   public get locationUri() {
     return this.getStringAttribute('location_uri');
   }
@@ -702,7 +702,7 @@ export class GlueCatalogDatabase extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -715,7 +715,7 @@ export class GlueCatalogDatabase extends cdktn.TerraformResource {
   }
 
   // parameters - computed: false, optional: true, required: false
-  private _parameters?: { [key: string]: string };
+  private _parameters?: { [key: string]: string }; 
   public get parameters() {
     return this.getStringMapAttribute('parameters');
   }
@@ -731,7 +731,7 @@ export class GlueCatalogDatabase extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -747,7 +747,7 @@ export class GlueCatalogDatabase extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -763,7 +763,7 @@ export class GlueCatalogDatabase extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

@@ -86,7 +86,7 @@ export class WisdomAiAgentVersion extends cdktn.TerraformResource {
   }
 
   // ai_agent_id - computed: false, optional: false, required: true
-  private _aiAgentId?: string;
+  private _aiAgentId?: string; 
   public get aiAgentId() {
     return this.getStringAttribute('ai_agent_id');
   }
@@ -109,7 +109,7 @@ export class WisdomAiAgentVersion extends cdktn.TerraformResource {
   }
 
   // assistant_id - computed: false, optional: false, required: true
-  private _assistantId?: string;
+  private _assistantId?: string; 
   public get assistantId() {
     return this.getStringAttribute('assistant_id');
   }
@@ -127,7 +127,7 @@ export class WisdomAiAgentVersion extends cdktn.TerraformResource {
   }
 
   // modified_time_seconds - computed: true, optional: true, required: false
-  private _modifiedTimeSeconds?: number;
+  private _modifiedTimeSeconds?: number; 
   public get modifiedTimeSeconds() {
     return this.getNumberAttribute('modified_time_seconds');
   }

@@ -34,13 +34,13 @@ export interface ConnectUserHierarchyGroupConfig extends cdktn.TerraformMetaArgu
 }
 export interface ConnectUserHierarchyGroupTags {
   /**
-  * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
+  * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_user_hierarchy_group#key ConnectUserHierarchyGroup#key}
   */
   readonly key?: string;
   /**
-  * The value for the tag. You can specify a value that is maximum of 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
+  * The value for the tag. You can specify a value that is maximum of 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_user_hierarchy_group#value ConnectUserHierarchyGroup#value}
   */
@@ -134,7 +134,7 @@ export class ConnectUserHierarchyGroupTagsOutputReference extends cdktn.ComplexO
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -150,7 +150,7 @@ export class ConnectUserHierarchyGroupTagsOutputReference extends cdktn.ComplexO
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -252,7 +252,7 @@ export class ConnectUserHierarchyGroup extends cdktn.TerraformResource {
   }
 
   // instance_arn - computed: false, optional: false, required: true
-  private _instanceArn?: string;
+  private _instanceArn?: string; 
   public get instanceArn() {
     return this.getStringAttribute('instance_arn');
   }
@@ -265,7 +265,7 @@ export class ConnectUserHierarchyGroup extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -278,7 +278,7 @@ export class ConnectUserHierarchyGroup extends cdktn.TerraformResource {
   }
 
   // parent_group_arn - computed: true, optional: true, required: false
-  private _parentGroupArn?: string;
+  private _parentGroupArn?: string; 
   public get parentGroupArn() {
     return this.getStringAttribute('parent_group_arn');
   }

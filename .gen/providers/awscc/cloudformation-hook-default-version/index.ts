@@ -9,7 +9,7 @@ import * as cdktn from 'cdktn';
 export interface CloudformationHookDefaultVersionConfig extends cdktn.TerraformMetaArguments {
   /**
   * The name of the type being registered.
-  *
+  * 
   * We recommend that type names adhere to the following pattern: company_or_organization::service::type.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_hook_default_version#type_name CloudformationHookDefaultVersion#type_name}
@@ -99,7 +99,7 @@ export class CloudformationHookDefaultVersion extends cdktn.TerraformResource {
   }
 
   // type_name - computed: true, optional: true, required: false
-  private _typeName?: string;
+  private _typeName?: string; 
   public get typeName() {
     return this.getStringAttribute('type_name');
   }
@@ -115,7 +115,7 @@ export class CloudformationHookDefaultVersion extends cdktn.TerraformResource {
   }
 
   // type_version_arn - computed: true, optional: true, required: false
-  private _typeVersionArn?: string;
+  private _typeVersionArn?: string; 
   public get typeVersionArn() {
     return this.getStringAttribute('type_version_arn');
   }
@@ -131,7 +131,7 @@ export class CloudformationHookDefaultVersion extends cdktn.TerraformResource {
   }
 
   // version_id - computed: true, optional: true, required: false
-  private _versionId?: string;
+  private _versionId?: string; 
   public get versionId() {
     return this.getStringAttribute('version_id');
   }

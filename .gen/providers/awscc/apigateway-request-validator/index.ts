@@ -91,7 +91,7 @@ export class ApigatewayRequestValidator extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -112,7 +112,7 @@ export class ApigatewayRequestValidator extends cdktn.TerraformResource {
   }
 
   // rest_api_id - computed: false, optional: false, required: true
-  private _restApiId?: string;
+  private _restApiId?: string; 
   public get restApiId() {
     return this.getStringAttribute('rest_api_id');
   }
@@ -125,7 +125,7 @@ export class ApigatewayRequestValidator extends cdktn.TerraformResource {
   }
 
   // validate_request_body - computed: true, optional: true, required: false
-  private _validateRequestBody?: boolean | cdktn.IResolvable;
+  private _validateRequestBody?: boolean | cdktn.IResolvable; 
   public get validateRequestBody() {
     return this.getBooleanAttribute('validate_request_body');
   }
@@ -141,7 +141,7 @@ export class ApigatewayRequestValidator extends cdktn.TerraformResource {
   }
 
   // validate_request_parameters - computed: true, optional: true, required: false
-  private _validateRequestParameters?: boolean | cdktn.IResolvable;
+  private _validateRequestParameters?: boolean | cdktn.IResolvable; 
   public get validateRequestParameters() {
     return this.getBooleanAttribute('validate_request_parameters');
   }

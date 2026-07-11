@@ -107,7 +107,7 @@ export class SsmincidentsReplicationSetRegionsRegionConfigurationOutputReference
   }
 
   // sse_kms_key_id - computed: true, optional: true, required: false
-  private _sseKmsKeyId?: string;
+  private _sseKmsKeyId?: string; 
   public get sseKmsKeyId() {
     return this.getStringAttribute('sse_kms_key_id');
   }
@@ -240,7 +240,7 @@ export class SsmincidentsReplicationSetRegionsOutputReference extends cdktn.Comp
   }
 
   // region_name - computed: true, optional: true, required: false
-  private _regionName?: string;
+  private _regionName?: string; 
   public get regionName() {
     return this.getStringAttribute('region_name');
   }
@@ -373,7 +373,7 @@ export class SsmincidentsReplicationSetTagsOutputReference extends cdktn.Complex
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -389,7 +389,7 @@ export class SsmincidentsReplicationSetTagsOutputReference extends cdktn.Complex
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -490,7 +490,7 @@ export class SsmincidentsReplicationSet extends cdktn.TerraformResource {
   }
 
   // deletion_protected - computed: true, optional: true, required: false
-  private _deletionProtected?: boolean | cdktn.IResolvable;
+  private _deletionProtected?: boolean | cdktn.IResolvable; 
   public get deletionProtected() {
     return this.getBooleanAttribute('deletion_protected');
   }

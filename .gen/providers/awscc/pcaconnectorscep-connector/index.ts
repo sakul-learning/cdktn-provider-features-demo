@@ -120,7 +120,7 @@ export class PcaconnectorscepConnectorMobileDeviceManagementIntuneOutputReferenc
   }
 
   // azure_application_id - computed: true, optional: true, required: false
-  private _azureApplicationId?: string;
+  private _azureApplicationId?: string; 
   public get azureApplicationId() {
     return this.getStringAttribute('azure_application_id');
   }
@@ -136,7 +136,7 @@ export class PcaconnectorscepConnectorMobileDeviceManagementIntuneOutputReferenc
   }
 
   // domain - computed: true, optional: true, required: false
-  private _domain?: string;
+  private _domain?: string; 
   public get domain() {
     return this.getStringAttribute('domain');
   }
@@ -371,7 +371,7 @@ export class PcaconnectorscepConnector extends cdktn.TerraformResource {
   // ==========
 
   // certificate_authority_arn - computed: false, optional: false, required: true
-  private _certificateAuthorityArn?: string;
+  private _certificateAuthorityArn?: string; 
   public get certificateAuthorityArn() {
     return this.getStringAttribute('certificate_authority_arn');
   }
@@ -421,7 +421,7 @@ export class PcaconnectorscepConnector extends cdktn.TerraformResource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -442,7 +442,7 @@ export class PcaconnectorscepConnector extends cdktn.TerraformResource {
   }
 
   // vpc_endpoint_id - computed: true, optional: true, required: false
-  private _vpcEndpointId?: string;
+  private _vpcEndpointId?: string; 
   public get vpcEndpointId() {
     return this.getStringAttribute('vpc_endpoint_id');
   }

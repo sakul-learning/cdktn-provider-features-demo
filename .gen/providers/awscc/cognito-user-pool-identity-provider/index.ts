@@ -96,7 +96,7 @@ export class CognitoUserPoolIdentityProvider extends cdktn.TerraformResource {
   // ==========
 
   // attribute_mapping - computed: true, optional: true, required: false
-  private _attributeMapping?: { [key: string]: string };
+  private _attributeMapping?: { [key: string]: string }; 
   public get attributeMapping() {
     return this.getStringMapAttribute('attribute_mapping');
   }
@@ -117,7 +117,7 @@ export class CognitoUserPoolIdentityProvider extends cdktn.TerraformResource {
   }
 
   // idp_identifiers - computed: true, optional: true, required: false
-  private _idpIdentifiers?: string[];
+  private _idpIdentifiers?: string[]; 
   public get idpIdentifiers() {
     return this.getListAttribute('idp_identifiers');
   }
@@ -133,7 +133,7 @@ export class CognitoUserPoolIdentityProvider extends cdktn.TerraformResource {
   }
 
   // provider_details - computed: false, optional: false, required: true
-  private _providerDetails?: { [key: string]: string };
+  private _providerDetails?: { [key: string]: string }; 
   public get providerDetails() {
     return this.getStringMapAttribute('provider_details');
   }
@@ -146,7 +146,7 @@ export class CognitoUserPoolIdentityProvider extends cdktn.TerraformResource {
   }
 
   // provider_name - computed: false, optional: false, required: true
-  private _providerName?: string;
+  private _providerName?: string; 
   public get providerName() {
     return this.getStringAttribute('provider_name');
   }
@@ -159,7 +159,7 @@ export class CognitoUserPoolIdentityProvider extends cdktn.TerraformResource {
   }
 
   // provider_type - computed: false, optional: false, required: true
-  private _providerType?: string;
+  private _providerType?: string; 
   public get providerType() {
     return this.getStringAttribute('provider_type');
   }
@@ -172,7 +172,7 @@ export class CognitoUserPoolIdentityProvider extends cdktn.TerraformResource {
   }
 
   // user_pool_id - computed: false, optional: false, required: true
-  private _userPoolId?: string;
+  private _userPoolId?: string; 
   public get userPoolId() {
     return this.getStringAttribute('user_pool_id');
   }

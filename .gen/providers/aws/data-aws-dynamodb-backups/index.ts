@@ -219,7 +219,7 @@ export class DataAwsDynamodbBackups extends cdktn.TerraformDataSource {
   }
 
   // backup_type - computed: false, optional: true, required: false
-  private _backupType?: string;
+  private _backupType?: string; 
   public get backupType() {
     return this.getStringAttribute('backup_type');
   }
@@ -235,7 +235,7 @@ export class DataAwsDynamodbBackups extends cdktn.TerraformDataSource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -251,7 +251,7 @@ export class DataAwsDynamodbBackups extends cdktn.TerraformDataSource {
   }
 
   // table_name - computed: false, optional: true, required: false
-  private _tableName?: string;
+  private _tableName?: string; 
   public get tableName() {
     return this.getStringAttribute('table_name');
   }
@@ -267,7 +267,7 @@ export class DataAwsDynamodbBackups extends cdktn.TerraformDataSource {
   }
 
   // time_range_lower_bound - computed: false, optional: true, required: false
-  private _timeRangeLowerBound?: string;
+  private _timeRangeLowerBound?: string; 
   public get timeRangeLowerBound() {
     return this.getStringAttribute('time_range_lower_bound');
   }
@@ -283,7 +283,7 @@ export class DataAwsDynamodbBackups extends cdktn.TerraformDataSource {
   }
 
   // time_range_upper_bound - computed: false, optional: true, required: false
-  private _timeRangeUpperBound?: string;
+  private _timeRangeUpperBound?: string; 
   public get timeRangeUpperBound() {
     return this.getStringAttribute('time_range_upper_bound');
   }

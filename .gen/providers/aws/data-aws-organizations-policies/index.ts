@@ -79,7 +79,7 @@ export class DataAwsOrganizationsPolicies extends cdktn.TerraformDataSource {
   // ==========
 
   // filter - computed: false, optional: false, required: true
-  private _filter?: string;
+  private _filter?: string; 
   public get filter() {
     return this.getStringAttribute('filter');
   }
@@ -92,7 +92,7 @@ export class DataAwsOrganizationsPolicies extends cdktn.TerraformDataSource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }

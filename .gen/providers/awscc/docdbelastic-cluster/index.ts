@@ -162,7 +162,7 @@ export class DocdbelasticClusterTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -178,7 +178,7 @@ export class DocdbelasticClusterTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -285,7 +285,7 @@ export class DocdbelasticCluster extends cdktn.TerraformResource {
   // ==========
 
   // admin_user_name - computed: false, optional: false, required: true
-  private _adminUserName?: string;
+  private _adminUserName?: string; 
   public get adminUserName() {
     return this.getStringAttribute('admin_user_name');
   }
@@ -298,7 +298,7 @@ export class DocdbelasticCluster extends cdktn.TerraformResource {
   }
 
   // admin_user_password - computed: true, optional: true, required: false
-  private _adminUserPassword?: string;
+  private _adminUserPassword?: string; 
   public get adminUserPassword() {
     return this.getStringAttribute('admin_user_password');
   }
@@ -314,7 +314,7 @@ export class DocdbelasticCluster extends cdktn.TerraformResource {
   }
 
   // auth_type - computed: false, optional: false, required: true
-  private _authType?: string;
+  private _authType?: string; 
   public get authType() {
     return this.getStringAttribute('auth_type');
   }
@@ -327,7 +327,7 @@ export class DocdbelasticCluster extends cdktn.TerraformResource {
   }
 
   // backup_retention_period - computed: true, optional: true, required: false
-  private _backupRetentionPeriod?: number;
+  private _backupRetentionPeriod?: number; 
   public get backupRetentionPeriod() {
     return this.getNumberAttribute('backup_retention_period');
   }
@@ -353,7 +353,7 @@ export class DocdbelasticCluster extends cdktn.TerraformResource {
   }
 
   // cluster_name - computed: false, optional: false, required: true
-  private _clusterName?: string;
+  private _clusterName?: string; 
   public get clusterName() {
     return this.getStringAttribute('cluster_name');
   }
@@ -371,7 +371,7 @@ export class DocdbelasticCluster extends cdktn.TerraformResource {
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -387,7 +387,7 @@ export class DocdbelasticCluster extends cdktn.TerraformResource {
   }
 
   // preferred_backup_window - computed: true, optional: true, required: false
-  private _preferredBackupWindow?: string;
+  private _preferredBackupWindow?: string; 
   public get preferredBackupWindow() {
     return this.getStringAttribute('preferred_backup_window');
   }
@@ -403,7 +403,7 @@ export class DocdbelasticCluster extends cdktn.TerraformResource {
   }
 
   // preferred_maintenance_window - computed: true, optional: true, required: false
-  private _preferredMaintenanceWindow?: string;
+  private _preferredMaintenanceWindow?: string; 
   public get preferredMaintenanceWindow() {
     return this.getStringAttribute('preferred_maintenance_window');
   }
@@ -419,7 +419,7 @@ export class DocdbelasticCluster extends cdktn.TerraformResource {
   }
 
   // shard_capacity - computed: false, optional: false, required: true
-  private _shardCapacity?: number;
+  private _shardCapacity?: number; 
   public get shardCapacity() {
     return this.getNumberAttribute('shard_capacity');
   }
@@ -432,7 +432,7 @@ export class DocdbelasticCluster extends cdktn.TerraformResource {
   }
 
   // shard_count - computed: false, optional: false, required: true
-  private _shardCount?: number;
+  private _shardCount?: number; 
   public get shardCount() {
     return this.getNumberAttribute('shard_count');
   }
@@ -445,7 +445,7 @@ export class DocdbelasticCluster extends cdktn.TerraformResource {
   }
 
   // shard_instance_count - computed: true, optional: true, required: false
-  private _shardInstanceCount?: number;
+  private _shardInstanceCount?: number; 
   public get shardInstanceCount() {
     return this.getNumberAttribute('shard_instance_count');
   }
@@ -461,7 +461,7 @@ export class DocdbelasticCluster extends cdktn.TerraformResource {
   }
 
   // subnet_ids - computed: true, optional: true, required: false
-  private _subnetIds?: string[];
+  private _subnetIds?: string[]; 
   public get subnetIds() {
     return this.getListAttribute('subnet_ids');
   }
@@ -493,7 +493,7 @@ export class DocdbelasticCluster extends cdktn.TerraformResource {
   }
 
   // vpc_security_group_ids - computed: true, optional: true, required: false
-  private _vpcSecurityGroupIds?: string[];
+  private _vpcSecurityGroupIds?: string[]; 
   public get vpcSecurityGroupIds() {
     return this.getListAttribute('vpc_security_group_ids');
   }

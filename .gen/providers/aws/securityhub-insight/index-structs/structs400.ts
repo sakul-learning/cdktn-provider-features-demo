@@ -461,7 +461,7 @@ export class SecurityhubInsightFiltersVerificationStateOutputReference extends c
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string;
+  private _comparison?: string; 
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -474,7 +474,7 @@ export class SecurityhubInsightFiltersVerificationStateOutputReference extends c
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -604,7 +604,7 @@ export class SecurityhubInsightFiltersWorkflowStatusOutputReference extends cdkt
   }
 
   // comparison - computed: false, optional: false, required: true
-  private _comparison?: string;
+  private _comparison?: string; 
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -617,7 +617,7 @@ export class SecurityhubInsightFiltersWorkflowStatusOutputReference extends cdkt
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }

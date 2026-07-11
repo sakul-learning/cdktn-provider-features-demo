@@ -157,7 +157,7 @@ export class WisdomQuickResponseContentOutputReference extends cdktn.ComplexObje
   }
 
   // content - computed: true, optional: true, required: false
-  private _content?: string;
+  private _content?: string; 
   public get content() {
     return this.getStringAttribute('content');
   }
@@ -441,7 +441,7 @@ export class WisdomQuickResponseGroupingConfigurationOutputReference extends cdk
   }
 
   // criteria - computed: true, optional: true, required: false
-  private _criteria?: string;
+  private _criteria?: string; 
   public get criteria() {
     return this.getStringAttribute('criteria');
   }
@@ -457,7 +457,7 @@ export class WisdomQuickResponseGroupingConfigurationOutputReference extends cdk
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -574,7 +574,7 @@ export class WisdomQuickResponseTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -590,7 +590,7 @@ export class WisdomQuickResponseTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -694,7 +694,7 @@ export class WisdomQuickResponse extends cdktn.TerraformResource {
   // ==========
 
   // channels - computed: true, optional: true, required: false
-  private _channels?: string[];
+  private _channels?: string[]; 
   public get channels() {
     return this.getListAttribute('channels');
   }
@@ -723,7 +723,7 @@ export class WisdomQuickResponse extends cdktn.TerraformResource {
   }
 
   // content_type - computed: true, optional: true, required: false
-  private _contentType?: string;
+  private _contentType?: string; 
   public get contentType() {
     return this.getStringAttribute('content_type');
   }
@@ -745,7 +745,7 @@ export class WisdomQuickResponse extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -782,7 +782,7 @@ export class WisdomQuickResponse extends cdktn.TerraformResource {
   }
 
   // is_active - computed: true, optional: true, required: false
-  private _isActive?: boolean | cdktn.IResolvable;
+  private _isActive?: boolean | cdktn.IResolvable; 
   public get isActive() {
     return this.getBooleanAttribute('is_active');
   }
@@ -798,7 +798,7 @@ export class WisdomQuickResponse extends cdktn.TerraformResource {
   }
 
   // knowledge_base_arn - computed: false, optional: false, required: true
-  private _knowledgeBaseArn?: string;
+  private _knowledgeBaseArn?: string; 
   public get knowledgeBaseArn() {
     return this.getStringAttribute('knowledge_base_arn');
   }
@@ -811,7 +811,7 @@ export class WisdomQuickResponse extends cdktn.TerraformResource {
   }
 
   // language - computed: true, optional: true, required: false
-  private _language?: string;
+  private _language?: string; 
   public get language() {
     return this.getStringAttribute('language');
   }
@@ -827,7 +827,7 @@ export class WisdomQuickResponse extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -850,7 +850,7 @@ export class WisdomQuickResponse extends cdktn.TerraformResource {
   }
 
   // shortcut_key - computed: true, optional: true, required: false
-  private _shortcutKey?: string;
+  private _shortcutKey?: string; 
   public get shortcutKey() {
     return this.getStringAttribute('shortcut_key');
   }

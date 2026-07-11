@@ -146,7 +146,7 @@ export class CodeartifactPackageGroupOriginConfigurationRestrictionsExternalUpst
   }
 
   // repositories - computed: true, optional: true, required: false
-  private _repositories?: string[];
+  private _repositories?: string[]; 
   public get repositories() {
     return this.getListAttribute('repositories');
   }
@@ -162,7 +162,7 @@ export class CodeartifactPackageGroupOriginConfigurationRestrictionsExternalUpst
   }
 
   // restriction_mode - computed: true, optional: true, required: false
-  private _restrictionMode?: string;
+  private _restrictionMode?: string; 
   public get restrictionMode() {
     return this.getStringAttribute('restriction_mode');
   }
@@ -273,7 +273,7 @@ export class CodeartifactPackageGroupOriginConfigurationRestrictionsInternalUpst
   }
 
   // repositories - computed: true, optional: true, required: false
-  private _repositories?: string[];
+  private _repositories?: string[]; 
   public get repositories() {
     return this.getListAttribute('repositories');
   }
@@ -289,7 +289,7 @@ export class CodeartifactPackageGroupOriginConfigurationRestrictionsInternalUpst
   }
 
   // restriction_mode - computed: true, optional: true, required: false
-  private _restrictionMode?: string;
+  private _restrictionMode?: string; 
   public get restrictionMode() {
     return this.getStringAttribute('restriction_mode');
   }
@@ -400,7 +400,7 @@ export class CodeartifactPackageGroupOriginConfigurationRestrictionsPublishOutpu
   }
 
   // repositories - computed: true, optional: true, required: false
-  private _repositories?: string[];
+  private _repositories?: string[]; 
   public get repositories() {
     return this.getListAttribute('repositories');
   }
@@ -416,7 +416,7 @@ export class CodeartifactPackageGroupOriginConfigurationRestrictionsPublishOutpu
   }
 
   // restriction_mode - computed: true, optional: true, required: false
-  private _restrictionMode?: string;
+  private _restrictionMode?: string; 
   public get restrictionMode() {
     return this.getStringAttribute('restriction_mode');
   }
@@ -695,13 +695,13 @@ export class CodeartifactPackageGroupOriginConfigurationOutputReference extends 
 }
 export interface CodeartifactPackageGroupTags {
   /**
-  * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
+  * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codeartifact_package_group#key CodeartifactPackageGroup#key}
   */
   readonly key?: string;
   /**
-  * The value for the tag. You can specify a value that is 1 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
+  * The value for the tag. You can specify a value that is 1 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codeartifact_package_group#value CodeartifactPackageGroup#value}
   */
@@ -795,7 +795,7 @@ export class CodeartifactPackageGroupTagsOutputReference extends cdktn.ComplexOb
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -811,7 +811,7 @@ export class CodeartifactPackageGroupTagsOutputReference extends cdktn.ComplexOb
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -916,7 +916,7 @@ export class CodeartifactPackageGroup extends cdktn.TerraformResource {
   }
 
   // contact_info - computed: true, optional: true, required: false
-  private _contactInfo?: string;
+  private _contactInfo?: string; 
   public get contactInfo() {
     return this.getStringAttribute('contact_info');
   }
@@ -932,7 +932,7 @@ export class CodeartifactPackageGroup extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -948,7 +948,7 @@ export class CodeartifactPackageGroup extends cdktn.TerraformResource {
   }
 
   // domain_name - computed: false, optional: false, required: true
-  private _domainName?: string;
+  private _domainName?: string; 
   public get domainName() {
     return this.getStringAttribute('domain_name');
   }
@@ -961,7 +961,7 @@ export class CodeartifactPackageGroup extends cdktn.TerraformResource {
   }
 
   // domain_owner - computed: true, optional: true, required: false
-  private _domainOwner?: string;
+  private _domainOwner?: string; 
   public get domainOwner() {
     return this.getStringAttribute('domain_owner');
   }
@@ -998,7 +998,7 @@ export class CodeartifactPackageGroup extends cdktn.TerraformResource {
   }
 
   // pattern - computed: false, optional: false, required: true
-  private _pattern?: string;
+  private _pattern?: string; 
   public get pattern() {
     return this.getStringAttribute('pattern');
   }

@@ -140,7 +140,7 @@ export class CleanroomsConfiguredTableAnalysisRulesPolicyV1AggregationAggregateC
   }
 
   // column_names - computed: true, optional: true, required: false
-  private _columnNames?: string[];
+  private _columnNames?: string[]; 
   public get columnNames() {
     return this.getListAttribute('column_names');
   }
@@ -156,7 +156,7 @@ export class CleanroomsConfiguredTableAnalysisRulesPolicyV1AggregationAggregateC
   }
 
   // function - computed: true, optional: true, required: false
-  private _function?: string;
+  private _function?: string; 
   public get function() {
     return this.getStringAttribute('function');
   }
@@ -306,7 +306,7 @@ export class CleanroomsConfiguredTableAnalysisRulesPolicyV1AggregationOutputCons
   }
 
   // column_name - computed: true, optional: true, required: false
-  private _columnName?: string;
+  private _columnName?: string; 
   public get columnName() {
     return this.getStringAttribute('column_name');
   }
@@ -322,7 +322,7 @@ export class CleanroomsConfiguredTableAnalysisRulesPolicyV1AggregationOutputCons
   }
 
   // minimum - computed: true, optional: true, required: false
-  private _minimum?: number;
+  private _minimum?: number; 
   public get minimum() {
     return this.getNumberAttribute('minimum');
   }
@@ -338,7 +338,7 @@ export class CleanroomsConfiguredTableAnalysisRulesPolicyV1AggregationOutputCons
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -571,7 +571,7 @@ export class CleanroomsConfiguredTableAnalysisRulesPolicyV1AggregationOutputRefe
   }
 
   // additional_analyses - computed: true, optional: true, required: false
-  private _additionalAnalyses?: string;
+  private _additionalAnalyses?: string; 
   public get additionalAnalyses() {
     return this.getStringAttribute('additional_analyses');
   }
@@ -603,7 +603,7 @@ export class CleanroomsConfiguredTableAnalysisRulesPolicyV1AggregationOutputRefe
   }
 
   // allowed_join_operators - computed: true, optional: true, required: false
-  private _allowedJoinOperators?: string[];
+  private _allowedJoinOperators?: string[]; 
   public get allowedJoinOperators() {
     return this.getListAttribute('allowed_join_operators');
   }
@@ -619,7 +619,7 @@ export class CleanroomsConfiguredTableAnalysisRulesPolicyV1AggregationOutputRefe
   }
 
   // dimension_columns - computed: true, optional: true, required: false
-  private _dimensionColumns?: string[];
+  private _dimensionColumns?: string[]; 
   public get dimensionColumns() {
     return this.getListAttribute('dimension_columns');
   }
@@ -635,7 +635,7 @@ export class CleanroomsConfiguredTableAnalysisRulesPolicyV1AggregationOutputRefe
   }
 
   // join_columns - computed: true, optional: true, required: false
-  private _joinColumns?: string[];
+  private _joinColumns?: string[]; 
   public get joinColumns() {
     return this.getListAttribute('join_columns');
   }
@@ -651,7 +651,7 @@ export class CleanroomsConfiguredTableAnalysisRulesPolicyV1AggregationOutputRefe
   }
 
   // join_required - computed: true, optional: true, required: false
-  private _joinRequired?: string;
+  private _joinRequired?: string; 
   public get joinRequired() {
     return this.getStringAttribute('join_required');
   }
@@ -683,7 +683,7 @@ export class CleanroomsConfiguredTableAnalysisRulesPolicyV1AggregationOutputRefe
   }
 
   // scalar_functions - computed: true, optional: true, required: false
-  private _scalarFunctions?: string[];
+  private _scalarFunctions?: string[]; 
   public get scalarFunctions() {
     return this.getListAttribute('scalar_functions');
   }
@@ -779,7 +779,7 @@ export class CleanroomsConfiguredTableAnalysisRulesPolicyV1CustomDifferentialPri
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1055,7 +1055,7 @@ export class CleanroomsConfiguredTableAnalysisRulesPolicyV1CustomOutputReference
   }
 
   // additional_analyses - computed: true, optional: true, required: false
-  private _additionalAnalyses?: string;
+  private _additionalAnalyses?: string; 
   public get additionalAnalyses() {
     return this.getStringAttribute('additional_analyses');
   }
@@ -1071,7 +1071,7 @@ export class CleanroomsConfiguredTableAnalysisRulesPolicyV1CustomOutputReference
   }
 
   // allowed_analyses - computed: true, optional: true, required: false
-  private _allowedAnalyses?: string[];
+  private _allowedAnalyses?: string[]; 
   public get allowedAnalyses() {
     return this.getListAttribute('allowed_analyses');
   }
@@ -1087,7 +1087,7 @@ export class CleanroomsConfiguredTableAnalysisRulesPolicyV1CustomOutputReference
   }
 
   // allowed_analysis_providers - computed: true, optional: true, required: false
-  private _allowedAnalysisProviders?: string[];
+  private _allowedAnalysisProviders?: string[]; 
   public get allowedAnalysisProviders() {
     return this.getListAttribute('allowed_analysis_providers');
   }
@@ -1119,7 +1119,7 @@ export class CleanroomsConfiguredTableAnalysisRulesPolicyV1CustomOutputReference
   }
 
   // disallowed_output_columns - computed: true, optional: true, required: false
-  private _disallowedOutputColumns?: string[];
+  private _disallowedOutputColumns?: string[]; 
   public get disallowedOutputColumns() {
     return this.getListAttribute('disallowed_output_columns');
   }
@@ -1264,7 +1264,7 @@ export class CleanroomsConfiguredTableAnalysisRulesPolicyV1ListStructOutputRefer
   }
 
   // additional_analyses - computed: true, optional: true, required: false
-  private _additionalAnalyses?: string;
+  private _additionalAnalyses?: string; 
   public get additionalAnalyses() {
     return this.getStringAttribute('additional_analyses');
   }
@@ -1280,7 +1280,7 @@ export class CleanroomsConfiguredTableAnalysisRulesPolicyV1ListStructOutputRefer
   }
 
   // allowed_join_operators - computed: true, optional: true, required: false
-  private _allowedJoinOperators?: string[];
+  private _allowedJoinOperators?: string[]; 
   public get allowedJoinOperators() {
     return this.getListAttribute('allowed_join_operators');
   }
@@ -1296,7 +1296,7 @@ export class CleanroomsConfiguredTableAnalysisRulesPolicyV1ListStructOutputRefer
   }
 
   // join_columns - computed: true, optional: true, required: false
-  private _joinColumns?: string[];
+  private _joinColumns?: string[]; 
   public get joinColumns() {
     return this.getListAttribute('join_columns');
   }
@@ -1312,7 +1312,7 @@ export class CleanroomsConfiguredTableAnalysisRulesPolicyV1ListStructOutputRefer
   }
 
   // list_columns - computed: true, optional: true, required: false
-  private _listColumns?: string[];
+  private _listColumns?: string[]; 
   public get listColumns() {
     return this.getListAttribute('list_columns');
   }
@@ -1695,7 +1695,7 @@ export class CleanroomsConfiguredTableAnalysisRulesOutputReference extends cdktn
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -1894,7 +1894,7 @@ export class CleanroomsConfiguredTableTableReferenceAthenaOutputReference extend
   }
 
   // catalog_name - computed: true, optional: true, required: false
-  private _catalogName?: string;
+  private _catalogName?: string; 
   public get catalogName() {
     return this.getStringAttribute('catalog_name');
   }
@@ -1910,7 +1910,7 @@ export class CleanroomsConfiguredTableTableReferenceAthenaOutputReference extend
   }
 
   // database_name - computed: true, optional: true, required: false
-  private _databaseName?: string;
+  private _databaseName?: string; 
   public get databaseName() {
     return this.getStringAttribute('database_name');
   }
@@ -1926,7 +1926,7 @@ export class CleanroomsConfiguredTableTableReferenceAthenaOutputReference extend
   }
 
   // output_location - computed: true, optional: true, required: false
-  private _outputLocation?: string;
+  private _outputLocation?: string; 
   public get outputLocation() {
     return this.getStringAttribute('output_location');
   }
@@ -1942,7 +1942,7 @@ export class CleanroomsConfiguredTableTableReferenceAthenaOutputReference extend
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1958,7 +1958,7 @@ export class CleanroomsConfiguredTableTableReferenceAthenaOutputReference extend
   }
 
   // table_name - computed: true, optional: true, required: false
-  private _tableName?: string;
+  private _tableName?: string; 
   public get tableName() {
     return this.getStringAttribute('table_name');
   }
@@ -1974,7 +1974,7 @@ export class CleanroomsConfiguredTableTableReferenceAthenaOutputReference extend
   }
 
   // work_group - computed: true, optional: true, required: false
-  private _workGroup?: string;
+  private _workGroup?: string; 
   public get workGroup() {
     return this.getStringAttribute('work_group');
   }
@@ -2102,7 +2102,7 @@ export class CleanroomsConfiguredTableTableReferenceGlueOutputReference extends 
   }
 
   // database_name - computed: true, optional: true, required: false
-  private _databaseName?: string;
+  private _databaseName?: string; 
   public get databaseName() {
     return this.getStringAttribute('database_name');
   }
@@ -2118,7 +2118,7 @@ export class CleanroomsConfiguredTableTableReferenceGlueOutputReference extends 
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -2134,7 +2134,7 @@ export class CleanroomsConfiguredTableTableReferenceGlueOutputReference extends 
   }
 
   // table_name - computed: true, optional: true, required: false
-  private _tableName?: string;
+  private _tableName?: string; 
   public get tableName() {
     return this.getStringAttribute('table_name');
   }
@@ -2247,7 +2247,7 @@ export class CleanroomsConfiguredTableTableReferenceSnowflakeTableSchemaV1Output
   }
 
   // column_name - computed: true, optional: true, required: false
-  private _columnName?: string;
+  private _columnName?: string; 
   public get columnName() {
     return this.getStringAttribute('column_name');
   }
@@ -2263,7 +2263,7 @@ export class CleanroomsConfiguredTableTableReferenceSnowflakeTableSchemaV1Output
   }
 
   // column_type - computed: true, optional: true, required: false
-  private _columnType?: string;
+  private _columnType?: string; 
   public get columnType() {
     return this.getStringAttribute('column_type');
   }
@@ -2556,7 +2556,7 @@ export class CleanroomsConfiguredTableTableReferenceSnowflakeOutputReference ext
   }
 
   // account_identifier - computed: true, optional: true, required: false
-  private _accountIdentifier?: string;
+  private _accountIdentifier?: string; 
   public get accountIdentifier() {
     return this.getStringAttribute('account_identifier');
   }
@@ -2572,7 +2572,7 @@ export class CleanroomsConfiguredTableTableReferenceSnowflakeOutputReference ext
   }
 
   // database_name - computed: true, optional: true, required: false
-  private _databaseName?: string;
+  private _databaseName?: string; 
   public get databaseName() {
     return this.getStringAttribute('database_name');
   }
@@ -2588,7 +2588,7 @@ export class CleanroomsConfiguredTableTableReferenceSnowflakeOutputReference ext
   }
 
   // schema_name - computed: true, optional: true, required: false
-  private _schemaName?: string;
+  private _schemaName?: string; 
   public get schemaName() {
     return this.getStringAttribute('schema_name');
   }
@@ -2604,7 +2604,7 @@ export class CleanroomsConfiguredTableTableReferenceSnowflakeOutputReference ext
   }
 
   // secret_arn - computed: true, optional: true, required: false
-  private _secretArn?: string;
+  private _secretArn?: string; 
   public get secretArn() {
     return this.getStringAttribute('secret_arn');
   }
@@ -2620,7 +2620,7 @@ export class CleanroomsConfiguredTableTableReferenceSnowflakeOutputReference ext
   }
 
   // table_name - computed: true, optional: true, required: false
-  private _tableName?: string;
+  private _tableName?: string; 
   public get tableName() {
     return this.getStringAttribute('table_name');
   }
@@ -2909,7 +2909,7 @@ export class CleanroomsConfiguredTableTagsOutputReference extends cdktn.ComplexO
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -2925,7 +2925,7 @@ export class CleanroomsConfiguredTableTagsOutputReference extends cdktn.ComplexO
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -3026,7 +3026,7 @@ export class CleanroomsConfiguredTable extends cdktn.TerraformResource {
   // ==========
 
   // allowed_columns - computed: false, optional: false, required: true
-  private _allowedColumns?: string[];
+  private _allowedColumns?: string[]; 
   public get allowedColumns() {
     return this.getListAttribute('allowed_columns');
   }
@@ -3039,7 +3039,7 @@ export class CleanroomsConfiguredTable extends cdktn.TerraformResource {
   }
 
   // analysis_method - computed: false, optional: false, required: true
-  private _analysisMethod?: string;
+  private _analysisMethod?: string; 
   public get analysisMethod() {
     return this.getStringAttribute('analysis_method');
   }
@@ -3078,7 +3078,7 @@ export class CleanroomsConfiguredTable extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -3099,7 +3099,7 @@ export class CleanroomsConfiguredTable extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -3112,7 +3112,7 @@ export class CleanroomsConfiguredTable extends cdktn.TerraformResource {
   }
 
   // selected_analysis_methods - computed: true, optional: true, required: false
-  private _selectedAnalysisMethods?: string[];
+  private _selectedAnalysisMethods?: string[]; 
   public get selectedAnalysisMethods() {
     return this.getListAttribute('selected_analysis_methods');
   }

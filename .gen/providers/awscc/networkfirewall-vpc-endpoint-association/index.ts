@@ -130,7 +130,7 @@ export class NetworkfirewallVpcEndpointAssociationSubnetMappingOutputReference e
   }
 
   // ip_address_type - computed: true, optional: true, required: false
-  private _ipAddressType?: string;
+  private _ipAddressType?: string; 
   public get ipAddressType() {
     return this.getStringAttribute('ip_address_type');
   }
@@ -146,7 +146,7 @@ export class NetworkfirewallVpcEndpointAssociationSubnetMappingOutputReference e
   }
 
   // subnet_id - computed: false, optional: false, required: true
-  private _subnetId?: string;
+  private _subnetId?: string; 
   public get subnetId() {
     return this.getStringAttribute('subnet_id');
   }
@@ -256,7 +256,7 @@ export class NetworkfirewallVpcEndpointAssociationTagsOutputReference extends cd
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -272,7 +272,7 @@ export class NetworkfirewallVpcEndpointAssociationTagsOutputReference extends cd
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -370,7 +370,7 @@ export class NetworkfirewallVpcEndpointAssociation extends cdktn.TerraformResour
   // ==========
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -391,7 +391,7 @@ export class NetworkfirewallVpcEndpointAssociation extends cdktn.TerraformResour
   }
 
   // firewall_arn - computed: false, optional: false, required: true
-  private _firewallArn?: string;
+  private _firewallArn?: string; 
   public get firewallArn() {
     return this.getStringAttribute('firewall_arn');
   }
@@ -448,7 +448,7 @@ export class NetworkfirewallVpcEndpointAssociation extends cdktn.TerraformResour
   }
 
   // vpc_id - computed: false, optional: false, required: true
-  private _vpcId?: string;
+  private _vpcId?: string; 
   public get vpcId() {
     return this.getStringAttribute('vpc_id');
   }

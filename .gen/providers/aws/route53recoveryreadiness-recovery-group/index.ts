@@ -116,7 +116,7 @@ export class Route53RecoveryreadinessRecoveryGroupTimeoutsOutputReference extend
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -200,7 +200,7 @@ export class Route53RecoveryreadinessRecoveryGroup extends cdktn.TerraformResour
   }
 
   // cells - computed: false, optional: true, required: false
-  private _cells?: string[];
+  private _cells?: string[]; 
   public get cells() {
     return this.getListAttribute('cells');
   }
@@ -216,7 +216,7 @@ export class Route53RecoveryreadinessRecoveryGroup extends cdktn.TerraformResour
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -232,7 +232,7 @@ export class Route53RecoveryreadinessRecoveryGroup extends cdktn.TerraformResour
   }
 
   // recovery_group_name - computed: false, optional: false, required: true
-  private _recoveryGroupName?: string;
+  private _recoveryGroupName?: string; 
   public get recoveryGroupName() {
     return this.getStringAttribute('recovery_group_name');
   }
@@ -245,7 +245,7 @@ export class Route53RecoveryreadinessRecoveryGroup extends cdktn.TerraformResour
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -261,7 +261,7 @@ export class Route53RecoveryreadinessRecoveryGroup extends cdktn.TerraformResour
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

@@ -147,7 +147,7 @@ export class InternetmonitorMonitorHealthEventsConfigOutputReference extends cdk
   }
 
   // availability_score_threshold - computed: false, optional: true, required: false
-  private _availabilityScoreThreshold?: number;
+  private _availabilityScoreThreshold?: number; 
   public get availabilityScoreThreshold() {
     return this.getNumberAttribute('availability_score_threshold');
   }
@@ -163,7 +163,7 @@ export class InternetmonitorMonitorHealthEventsConfigOutputReference extends cdk
   }
 
   // performance_score_threshold - computed: false, optional: true, required: false
-  private _performanceScoreThreshold?: number;
+  private _performanceScoreThreshold?: number; 
   public get performanceScoreThreshold() {
     return this.getNumberAttribute('performance_score_threshold');
   }
@@ -281,7 +281,7 @@ export class InternetmonitorMonitorInternetMeasurementsLogDeliveryS3ConfigOutput
   }
 
   // bucket_name - computed: false, optional: false, required: true
-  private _bucketName?: string;
+  private _bucketName?: string; 
   public get bucketName() {
     return this.getStringAttribute('bucket_name');
   }
@@ -294,7 +294,7 @@ export class InternetmonitorMonitorInternetMeasurementsLogDeliveryS3ConfigOutput
   }
 
   // bucket_prefix - computed: false, optional: true, required: false
-  private _bucketPrefix?: string;
+  private _bucketPrefix?: string; 
   public get bucketPrefix() {
     return this.getStringAttribute('bucket_prefix');
   }
@@ -310,7 +310,7 @@ export class InternetmonitorMonitorInternetMeasurementsLogDeliveryS3ConfigOutput
   }
 
   // log_delivery_status - computed: false, optional: true, required: false
-  private _logDeliveryStatus?: string;
+  private _logDeliveryStatus?: string; 
   public get logDeliveryStatus() {
     return this.getStringAttribute('log_delivery_status');
   }
@@ -485,7 +485,7 @@ export class InternetmonitorMonitor extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -501,7 +501,7 @@ export class InternetmonitorMonitor extends cdktn.TerraformResource {
   }
 
   // max_city_networks_to_monitor - computed: false, optional: true, required: false
-  private _maxCityNetworksToMonitor?: number;
+  private _maxCityNetworksToMonitor?: number; 
   public get maxCityNetworksToMonitor() {
     return this.getNumberAttribute('max_city_networks_to_monitor');
   }
@@ -517,7 +517,7 @@ export class InternetmonitorMonitor extends cdktn.TerraformResource {
   }
 
   // monitor_name - computed: false, optional: false, required: true
-  private _monitorName?: string;
+  private _monitorName?: string; 
   public get monitorName() {
     return this.getStringAttribute('monitor_name');
   }
@@ -530,7 +530,7 @@ export class InternetmonitorMonitor extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -546,7 +546,7 @@ export class InternetmonitorMonitor extends cdktn.TerraformResource {
   }
 
   // resources - computed: false, optional: true, required: false
-  private _resources?: string[];
+  private _resources?: string[]; 
   public get resources() {
     return cdktn.Fn.tolist(this.getListAttribute('resources'));
   }
@@ -562,7 +562,7 @@ export class InternetmonitorMonitor extends cdktn.TerraformResource {
   }
 
   // status - computed: false, optional: true, required: false
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -578,7 +578,7 @@ export class InternetmonitorMonitor extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -594,7 +594,7 @@ export class InternetmonitorMonitor extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -610,7 +610,7 @@ export class InternetmonitorMonitor extends cdktn.TerraformResource {
   }
 
   // traffic_percentage_to_monitor - computed: false, optional: true, required: false
-  private _trafficPercentageToMonitor?: number;
+  private _trafficPercentageToMonitor?: number; 
   public get trafficPercentageToMonitor() {
     return this.getNumberAttribute('traffic_percentage_to_monitor');
   }

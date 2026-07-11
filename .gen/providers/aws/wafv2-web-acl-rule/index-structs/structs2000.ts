@@ -855,7 +855,7 @@ export class Wafv2WebAclRuleStatementSizeConstraintStatementTextTransformationOu
   }
 
   // priority - computed: false, optional: false, required: true
-  private _priority?: number;
+  private _priority?: number; 
   public get priority() {
     return this.getNumberAttribute('priority');
   }
@@ -868,7 +868,7 @@ export class Wafv2WebAclRuleStatementSizeConstraintStatementTextTransformationOu
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -1036,7 +1036,7 @@ export class Wafv2WebAclRuleStatementSizeConstraintStatementOutputReference exte
   }
 
   // comparison_operator - computed: false, optional: false, required: true
-  private _comparisonOperator?: string;
+  private _comparisonOperator?: string; 
   public get comparisonOperator() {
     return this.getStringAttribute('comparison_operator');
   }
@@ -1049,7 +1049,7 @@ export class Wafv2WebAclRuleStatementSizeConstraintStatementOutputReference exte
   }
 
   // size - computed: false, optional: false, required: true
-  private _size?: number;
+  private _size?: number; 
   public get size() {
     return this.getNumberAttribute('size');
   }
@@ -1275,7 +1275,7 @@ export class Wafv2WebAclRuleStatementSqliMatchStatementFieldToMatchBodyOutputRef
   }
 
   // oversize_handling - computed: true, optional: true, required: false
-  private _oversizeHandling?: string;
+  private _oversizeHandling?: string; 
   public get oversizeHandling() {
     return this.getStringAttribute('oversize_handling');
   }
@@ -1508,7 +1508,7 @@ export class Wafv2WebAclRuleStatementSqliMatchStatementFieldToMatchCookiesMatchP
   }
 
   // excluded_cookies - computed: false, optional: true, required: false
-  private _excludedCookies?: string[];
+  private _excludedCookies?: string[]; 
   public get excludedCookies() {
     return this.getListAttribute('excluded_cookies');
   }
@@ -1524,7 +1524,7 @@ export class Wafv2WebAclRuleStatementSqliMatchStatementFieldToMatchCookiesMatchP
   }
 
   // included_cookies - computed: false, optional: true, required: false
-  private _includedCookies?: string[];
+  private _includedCookies?: string[]; 
   public get includedCookies() {
     return this.getListAttribute('included_cookies');
   }
@@ -1692,7 +1692,7 @@ export class Wafv2WebAclRuleStatementSqliMatchStatementFieldToMatchCookiesOutput
   }
 
   // match_scope - computed: false, optional: false, required: true
-  private _matchScope?: string;
+  private _matchScope?: string; 
   public get matchScope() {
     return this.getStringAttribute('match_scope');
   }
@@ -1705,7 +1705,7 @@ export class Wafv2WebAclRuleStatementSqliMatchStatementFieldToMatchCookiesOutput
   }
 
   // oversize_handling - computed: false, optional: false, required: true
-  private _oversizeHandling?: string;
+  private _oversizeHandling?: string; 
   public get oversizeHandling() {
     return this.getStringAttribute('oversize_handling');
   }
@@ -1834,7 +1834,7 @@ export class Wafv2WebAclRuleStatementSqliMatchStatementFieldToMatchHeaderOrderOu
   }
 
   // oversize_handling - computed: false, optional: false, required: true
-  private _oversizeHandling?: string;
+  private _oversizeHandling?: string; 
   public get oversizeHandling() {
     return this.getStringAttribute('oversize_handling');
   }
@@ -2064,7 +2064,7 @@ export class Wafv2WebAclRuleStatementSqliMatchStatementFieldToMatchHeadersMatchP
   }
 
   // excluded_headers - computed: false, optional: true, required: false
-  private _excludedHeaders?: string[];
+  private _excludedHeaders?: string[]; 
   public get excludedHeaders() {
     return this.getListAttribute('excluded_headers');
   }
@@ -2080,7 +2080,7 @@ export class Wafv2WebAclRuleStatementSqliMatchStatementFieldToMatchHeadersMatchP
   }
 
   // included_headers - computed: false, optional: true, required: false
-  private _includedHeaders?: string[];
+  private _includedHeaders?: string[]; 
   public get includedHeaders() {
     return this.getListAttribute('included_headers');
   }
@@ -2248,7 +2248,7 @@ export class Wafv2WebAclRuleStatementSqliMatchStatementFieldToMatchHeadersOutput
   }
 
   // match_scope - computed: false, optional: false, required: true
-  private _matchScope?: string;
+  private _matchScope?: string; 
   public get matchScope() {
     return this.getStringAttribute('match_scope');
   }
@@ -2261,7 +2261,7 @@ export class Wafv2WebAclRuleStatementSqliMatchStatementFieldToMatchHeadersOutput
   }
 
   // oversize_handling - computed: false, optional: false, required: true
-  private _oversizeHandling?: string;
+  private _oversizeHandling?: string; 
   public get oversizeHandling() {
     return this.getStringAttribute('oversize_handling');
   }
@@ -2390,7 +2390,7 @@ export class Wafv2WebAclRuleStatementSqliMatchStatementFieldToMatchJa3Fingerprin
   }
 
   // fallback_behavior - computed: false, optional: false, required: true
-  private _fallbackBehavior?: string;
+  private _fallbackBehavior?: string; 
   public get fallbackBehavior() {
     return this.getStringAttribute('fallback_behavior');
   }
@@ -2503,7 +2503,7 @@ export class Wafv2WebAclRuleStatementSqliMatchStatementFieldToMatchJa4Fingerprin
   }
 
   // fallback_behavior - computed: false, optional: false, required: true
-  private _fallbackBehavior?: string;
+  private _fallbackBehavior?: string; 
   public get fallbackBehavior() {
     return this.getStringAttribute('fallback_behavior');
   }
@@ -2716,7 +2716,7 @@ export class Wafv2WebAclRuleStatementSqliMatchStatementFieldToMatchJsonBodyMatch
   }
 
   // included_paths - computed: true, optional: true, required: false
-  private _includedPaths?: string[];
+  private _includedPaths?: string[]; 
   public get includedPaths() {
     return this.getListAttribute('included_paths');
   }
@@ -2901,7 +2901,7 @@ export class Wafv2WebAclRuleStatementSqliMatchStatementFieldToMatchJsonBodyOutpu
   }
 
   // invalid_fallback_behavior - computed: false, optional: true, required: false
-  private _invalidFallbackBehavior?: string;
+  private _invalidFallbackBehavior?: string; 
   public get invalidFallbackBehavior() {
     return this.getStringAttribute('invalid_fallback_behavior');
   }
@@ -2917,7 +2917,7 @@ export class Wafv2WebAclRuleStatementSqliMatchStatementFieldToMatchJsonBodyOutpu
   }
 
   // match_scope - computed: false, optional: false, required: true
-  private _matchScope?: string;
+  private _matchScope?: string; 
   public get matchScope() {
     return this.getStringAttribute('match_scope');
   }
@@ -2930,7 +2930,7 @@ export class Wafv2WebAclRuleStatementSqliMatchStatementFieldToMatchJsonBodyOutpu
   }
 
   // oversize_handling - computed: true, optional: true, required: false
-  private _oversizeHandling?: string;
+  private _oversizeHandling?: string; 
   public get oversizeHandling() {
     return this.getStringAttribute('oversize_handling');
   }
@@ -3226,7 +3226,7 @@ export class Wafv2WebAclRuleStatementSqliMatchStatementFieldToMatchSingleHeaderO
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -3341,7 +3341,7 @@ export class Wafv2WebAclRuleStatementSqliMatchStatementFieldToMatchSingleQueryAr
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -3454,7 +3454,7 @@ export class Wafv2WebAclRuleStatementSqliMatchStatementFieldToMatchUriFragmentOu
   }
 
   // fallback_behavior - computed: true, optional: true, required: false
-  private _fallbackBehavior?: string;
+  private _fallbackBehavior?: string; 
   public get fallbackBehavior() {
     return this.getStringAttribute('fallback_behavior');
   }
@@ -4241,7 +4241,7 @@ export class Wafv2WebAclRuleStatementSqliMatchStatementTextTransformationOutputR
   }
 
   // priority - computed: false, optional: false, required: true
-  private _priority?: number;
+  private _priority?: number; 
   public get priority() {
     return this.getNumberAttribute('priority');
   }
@@ -4254,7 +4254,7 @@ export class Wafv2WebAclRuleStatementSqliMatchStatementTextTransformationOutputR
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -4407,7 +4407,7 @@ export class Wafv2WebAclRuleStatementSqliMatchStatementOutputReference extends c
   }
 
   // sensitivity_level - computed: true, optional: true, required: false
-  private _sensitivityLevel?: string;
+  private _sensitivityLevel?: string; 
   public get sensitivityLevel() {
     return this.getStringAttribute('sensitivity_level');
   }
@@ -4636,7 +4636,7 @@ export class Wafv2WebAclRuleStatementXssMatchStatementFieldToMatchBodyOutputRefe
   }
 
   // oversize_handling - computed: true, optional: true, required: false
-  private _oversizeHandling?: string;
+  private _oversizeHandling?: string; 
   public get oversizeHandling() {
     return this.getStringAttribute('oversize_handling');
   }
@@ -4869,7 +4869,7 @@ export class Wafv2WebAclRuleStatementXssMatchStatementFieldToMatchCookiesMatchPa
   }
 
   // excluded_cookies - computed: false, optional: true, required: false
-  private _excludedCookies?: string[];
+  private _excludedCookies?: string[]; 
   public get excludedCookies() {
     return this.getListAttribute('excluded_cookies');
   }
@@ -4885,7 +4885,7 @@ export class Wafv2WebAclRuleStatementXssMatchStatementFieldToMatchCookiesMatchPa
   }
 
   // included_cookies - computed: false, optional: true, required: false
-  private _includedCookies?: string[];
+  private _includedCookies?: string[]; 
   public get includedCookies() {
     return this.getListAttribute('included_cookies');
   }
@@ -5053,7 +5053,7 @@ export class Wafv2WebAclRuleStatementXssMatchStatementFieldToMatchCookiesOutputR
   }
 
   // match_scope - computed: false, optional: false, required: true
-  private _matchScope?: string;
+  private _matchScope?: string; 
   public get matchScope() {
     return this.getStringAttribute('match_scope');
   }
@@ -5066,7 +5066,7 @@ export class Wafv2WebAclRuleStatementXssMatchStatementFieldToMatchCookiesOutputR
   }
 
   // oversize_handling - computed: false, optional: false, required: true
-  private _oversizeHandling?: string;
+  private _oversizeHandling?: string; 
   public get oversizeHandling() {
     return this.getStringAttribute('oversize_handling');
   }
@@ -5195,7 +5195,7 @@ export class Wafv2WebAclRuleStatementXssMatchStatementFieldToMatchHeaderOrderOut
   }
 
   // oversize_handling - computed: false, optional: false, required: true
-  private _oversizeHandling?: string;
+  private _oversizeHandling?: string; 
   public get oversizeHandling() {
     return this.getStringAttribute('oversize_handling');
   }
@@ -5425,7 +5425,7 @@ export class Wafv2WebAclRuleStatementXssMatchStatementFieldToMatchHeadersMatchPa
   }
 
   // excluded_headers - computed: false, optional: true, required: false
-  private _excludedHeaders?: string[];
+  private _excludedHeaders?: string[]; 
   public get excludedHeaders() {
     return this.getListAttribute('excluded_headers');
   }
@@ -5441,7 +5441,7 @@ export class Wafv2WebAclRuleStatementXssMatchStatementFieldToMatchHeadersMatchPa
   }
 
   // included_headers - computed: false, optional: true, required: false
-  private _includedHeaders?: string[];
+  private _includedHeaders?: string[]; 
   public get includedHeaders() {
     return this.getListAttribute('included_headers');
   }
@@ -5609,7 +5609,7 @@ export class Wafv2WebAclRuleStatementXssMatchStatementFieldToMatchHeadersOutputR
   }
 
   // match_scope - computed: false, optional: false, required: true
-  private _matchScope?: string;
+  private _matchScope?: string; 
   public get matchScope() {
     return this.getStringAttribute('match_scope');
   }
@@ -5622,7 +5622,7 @@ export class Wafv2WebAclRuleStatementXssMatchStatementFieldToMatchHeadersOutputR
   }
 
   // oversize_handling - computed: false, optional: false, required: true
-  private _oversizeHandling?: string;
+  private _oversizeHandling?: string; 
   public get oversizeHandling() {
     return this.getStringAttribute('oversize_handling');
   }
@@ -5751,7 +5751,7 @@ export class Wafv2WebAclRuleStatementXssMatchStatementFieldToMatchJa3Fingerprint
   }
 
   // fallback_behavior - computed: false, optional: false, required: true
-  private _fallbackBehavior?: string;
+  private _fallbackBehavior?: string; 
   public get fallbackBehavior() {
     return this.getStringAttribute('fallback_behavior');
   }
@@ -5864,7 +5864,7 @@ export class Wafv2WebAclRuleStatementXssMatchStatementFieldToMatchJa4Fingerprint
   }
 
   // fallback_behavior - computed: false, optional: false, required: true
-  private _fallbackBehavior?: string;
+  private _fallbackBehavior?: string; 
   public get fallbackBehavior() {
     return this.getStringAttribute('fallback_behavior');
   }
@@ -6077,7 +6077,7 @@ export class Wafv2WebAclRuleStatementXssMatchStatementFieldToMatchJsonBodyMatchP
   }
 
   // included_paths - computed: true, optional: true, required: false
-  private _includedPaths?: string[];
+  private _includedPaths?: string[]; 
   public get includedPaths() {
     return this.getListAttribute('included_paths');
   }
@@ -6262,7 +6262,7 @@ export class Wafv2WebAclRuleStatementXssMatchStatementFieldToMatchJsonBodyOutput
   }
 
   // invalid_fallback_behavior - computed: false, optional: true, required: false
-  private _invalidFallbackBehavior?: string;
+  private _invalidFallbackBehavior?: string; 
   public get invalidFallbackBehavior() {
     return this.getStringAttribute('invalid_fallback_behavior');
   }
@@ -6278,7 +6278,7 @@ export class Wafv2WebAclRuleStatementXssMatchStatementFieldToMatchJsonBodyOutput
   }
 
   // match_scope - computed: false, optional: false, required: true
-  private _matchScope?: string;
+  private _matchScope?: string; 
   public get matchScope() {
     return this.getStringAttribute('match_scope');
   }
@@ -6291,7 +6291,7 @@ export class Wafv2WebAclRuleStatementXssMatchStatementFieldToMatchJsonBodyOutput
   }
 
   // oversize_handling - computed: true, optional: true, required: false
-  private _oversizeHandling?: string;
+  private _oversizeHandling?: string; 
   public get oversizeHandling() {
     return this.getStringAttribute('oversize_handling');
   }
@@ -6587,7 +6587,7 @@ export class Wafv2WebAclRuleStatementXssMatchStatementFieldToMatchSingleHeaderOu
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -6702,7 +6702,7 @@ export class Wafv2WebAclRuleStatementXssMatchStatementFieldToMatchSingleQueryArg
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -6815,7 +6815,7 @@ export class Wafv2WebAclRuleStatementXssMatchStatementFieldToMatchUriFragmentOut
   }
 
   // fallback_behavior - computed: true, optional: true, required: false
-  private _fallbackBehavior?: string;
+  private _fallbackBehavior?: string; 
   public get fallbackBehavior() {
     return this.getStringAttribute('fallback_behavior');
   }
@@ -7602,7 +7602,7 @@ export class Wafv2WebAclRuleStatementXssMatchStatementTextTransformationOutputRe
   }
 
   // priority - computed: false, optional: false, required: true
-  private _priority?: number;
+  private _priority?: number; 
   public get priority() {
     return this.getNumberAttribute('priority');
   }
@@ -7615,7 +7615,7 @@ export class Wafv2WebAclRuleStatementXssMatchStatementTextTransformationOutputRe
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -8562,7 +8562,7 @@ export class Wafv2WebAclRuleTimeoutsOutputReference extends cdktn.ComplexObject 
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -8578,7 +8578,7 @@ export class Wafv2WebAclRuleTimeoutsOutputReference extends cdktn.ComplexObject 
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -8594,7 +8594,7 @@ export class Wafv2WebAclRuleTimeoutsOutputReference extends cdktn.ComplexObject 
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -8724,7 +8724,7 @@ export class Wafv2WebAclRuleVisibilityConfigAOutputReference extends cdktn.Compl
   }
 
   // cloudwatch_metrics_enabled - computed: false, optional: false, required: true
-  private _cloudwatchMetricsEnabled?: boolean | cdktn.IResolvable;
+  private _cloudwatchMetricsEnabled?: boolean | cdktn.IResolvable; 
   public get cloudwatchMetricsEnabled() {
     return this.getBooleanAttribute('cloudwatch_metrics_enabled');
   }
@@ -8737,7 +8737,7 @@ export class Wafv2WebAclRuleVisibilityConfigAOutputReference extends cdktn.Compl
   }
 
   // metric_name - computed: false, optional: false, required: true
-  private _metricName?: string;
+  private _metricName?: string; 
   public get metricName() {
     return this.getStringAttribute('metric_name');
   }
@@ -8750,7 +8750,7 @@ export class Wafv2WebAclRuleVisibilityConfigAOutputReference extends cdktn.Compl
   }
 
   // sampled_requests_enabled - computed: false, optional: false, required: true
-  private _sampledRequestsEnabled?: boolean | cdktn.IResolvable;
+  private _sampledRequestsEnabled?: boolean | cdktn.IResolvable; 
   public get sampledRequestsEnabled() {
     return this.getBooleanAttribute('sampled_requests_enabled');
   }

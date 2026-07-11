@@ -181,7 +181,7 @@ export class AppconfigExtensionActionPointActionOutputReference extends cdktn.Co
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -197,7 +197,7 @@ export class AppconfigExtensionActionPointActionOutputReference extends cdktn.Co
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -210,7 +210,7 @@ export class AppconfigExtensionActionPointActionOutputReference extends cdktn.Co
   }
 
   // role_arn - computed: false, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -226,7 +226,7 @@ export class AppconfigExtensionActionPointActionOutputReference extends cdktn.Co
   }
 
   // uri - computed: false, optional: false, required: true
-  private _uri?: string;
+  private _uri?: string; 
   public get uri() {
     return this.getStringAttribute('uri');
   }
@@ -358,7 +358,7 @@ export class AppconfigExtensionActionPointOutputReference extends cdktn.ComplexO
   }
 
   // point - computed: false, optional: false, required: true
-  private _point?: string;
+  private _point?: string; 
   public get point() {
     return this.getStringAttribute('point');
   }
@@ -518,7 +518,7 @@ export class AppconfigExtensionParameterOutputReference extends cdktn.ComplexObj
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -534,7 +534,7 @@ export class AppconfigExtensionParameterOutputReference extends cdktn.ComplexObj
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -547,7 +547,7 @@ export class AppconfigExtensionParameterOutputReference extends cdktn.ComplexObj
   }
 
   // required - computed: false, optional: true, required: false
-  private _required?: boolean | cdktn.IResolvable;
+  private _required?: boolean | cdktn.IResolvable; 
   public get required() {
     return this.getBooleanAttribute('required');
   }
@@ -653,7 +653,7 @@ export class AppconfigExtension extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -669,7 +669,7 @@ export class AppconfigExtension extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -685,7 +685,7 @@ export class AppconfigExtension extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -698,7 +698,7 @@ export class AppconfigExtension extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -714,7 +714,7 @@ export class AppconfigExtension extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -730,7 +730,7 @@ export class AppconfigExtension extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

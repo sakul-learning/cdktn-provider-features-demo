@@ -107,7 +107,7 @@ export class GuarddutyDetectorDataSourcesKubernetesAuditLogsOutputReference exte
   }
 
   // enable - computed: true, optional: true, required: false
-  private _enable?: boolean | cdktn.IResolvable;
+  private _enable?: boolean | cdktn.IResolvable; 
   public get enable() {
     return this.getBooleanAttribute('enable');
   }
@@ -295,7 +295,7 @@ export class GuarddutyDetectorDataSourcesMalwareProtectionScanEc2InstanceWithFin
   }
 
   // ebs_volumes - computed: true, optional: true, required: false
-  private _ebsVolumes?: boolean | cdktn.IResolvable;
+  private _ebsVolumes?: boolean | cdktn.IResolvable; 
   public get ebsVolumes() {
     return this.getBooleanAttribute('ebs_volumes');
   }
@@ -483,7 +483,7 @@ export class GuarddutyDetectorDataSourcesS3LogsOutputReference extends cdktn.Com
   }
 
   // enable - computed: true, optional: true, required: false
-  private _enable?: boolean | cdktn.IResolvable;
+  private _enable?: boolean | cdktn.IResolvable; 
   public get enable() {
     return this.getBooleanAttribute('enable');
   }
@@ -756,7 +756,7 @@ export class GuarddutyDetectorFeaturesAdditionalConfigurationOutputReference ext
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -772,7 +772,7 @@ export class GuarddutyDetectorFeaturesAdditionalConfigurationOutputReference ext
   }
 
   // status - computed: true, optional: true, required: false
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -938,7 +938,7 @@ export class GuarddutyDetectorFeaturesOutputReference extends cdktn.ComplexObjec
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -954,7 +954,7 @@ export class GuarddutyDetectorFeaturesOutputReference extends cdktn.ComplexObjec
   }
 
   // status - computed: true, optional: true, required: false
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -1087,7 +1087,7 @@ export class GuarddutyDetectorTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1103,7 +1103,7 @@ export class GuarddutyDetectorTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1222,7 +1222,7 @@ export class GuarddutyDetector extends cdktn.TerraformResource {
   }
 
   // enable - computed: false, optional: false, required: true
-  private _enable?: boolean | cdktn.IResolvable;
+  private _enable?: boolean | cdktn.IResolvable; 
   public get enable() {
     return this.getBooleanAttribute('enable');
   }
@@ -1251,7 +1251,7 @@ export class GuarddutyDetector extends cdktn.TerraformResource {
   }
 
   // finding_publishing_frequency - computed: true, optional: true, required: false
-  private _findingPublishingFrequency?: string;
+  private _findingPublishingFrequency?: string; 
   public get findingPublishingFrequency() {
     return this.getStringAttribute('finding_publishing_frequency');
   }

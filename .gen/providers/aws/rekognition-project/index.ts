@@ -136,7 +136,7 @@ export class RekognitionProjectTimeoutsOutputReference extends cdktn.ComplexObje
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -152,7 +152,7 @@ export class RekognitionProjectTimeoutsOutputReference extends cdktn.ComplexObje
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -236,7 +236,7 @@ export class RekognitionProject extends cdktn.TerraformResource {
   }
 
   // auto_update - computed: true, optional: true, required: false
-  private _autoUpdate?: string;
+  private _autoUpdate?: string; 
   public get autoUpdate() {
     return this.getStringAttribute('auto_update');
   }
@@ -252,7 +252,7 @@ export class RekognitionProject extends cdktn.TerraformResource {
   }
 
   // feature - computed: false, optional: true, required: false
-  private _feature?: string;
+  private _feature?: string; 
   public get feature() {
     return this.getStringAttribute('feature');
   }
@@ -273,7 +273,7 @@ export class RekognitionProject extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -286,7 +286,7 @@ export class RekognitionProject extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -302,7 +302,7 @@ export class RekognitionProject extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

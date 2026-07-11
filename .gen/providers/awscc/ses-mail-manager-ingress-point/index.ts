@@ -157,7 +157,7 @@ export class SesMailManagerIngressPointIngressPointConfigurationTlsAuthConfigura
   }
 
   // ca_content - computed: true, optional: true, required: false
-  private _caContent?: string;
+  private _caContent?: string; 
   public get caContent() {
     return this.getStringAttribute('ca_content');
   }
@@ -173,7 +173,7 @@ export class SesMailManagerIngressPointIngressPointConfigurationTlsAuthConfigura
   }
 
   // crl_content - computed: true, optional: true, required: false
-  private _crlContent?: string;
+  private _crlContent?: string; 
   public get crlContent() {
     return this.getStringAttribute('crl_content');
   }
@@ -189,7 +189,7 @@ export class SesMailManagerIngressPointIngressPointConfigurationTlsAuthConfigura
   }
 
   // kms_key_arn - computed: true, optional: true, required: false
-  private _kmsKeyArn?: string;
+  private _kmsKeyArn?: string; 
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -411,7 +411,7 @@ export class SesMailManagerIngressPointIngressPointConfigurationOutputReference 
   }
 
   // secret_arn - computed: true, optional: true, required: false
-  private _secretArn?: string;
+  private _secretArn?: string; 
   public get secretArn() {
     return this.getStringAttribute('secret_arn');
   }
@@ -427,7 +427,7 @@ export class SesMailManagerIngressPointIngressPointConfigurationOutputReference 
   }
 
   // smtp_password - computed: true, optional: true, required: false
-  private _smtpPassword?: string;
+  private _smtpPassword?: string; 
   public get smtpPassword() {
     return this.getStringAttribute('smtp_password');
   }
@@ -537,7 +537,7 @@ export class SesMailManagerIngressPointNetworkConfigurationPrivateNetworkConfigu
   }
 
   // vpc_endpoint_id - computed: true, optional: true, required: false
-  private _vpcEndpointId?: string;
+  private _vpcEndpointId?: string; 
   public get vpcEndpointId() {
     return this.getStringAttribute('vpc_endpoint_id');
   }
@@ -631,7 +631,7 @@ export class SesMailManagerIngressPointNetworkConfigurationPublicNetworkConfigur
   }
 
   // ip_type - computed: true, optional: true, required: false
-  private _ipType?: string;
+  private _ipType?: string; 
   public get ipType() {
     return this.getStringAttribute('ip_type');
   }
@@ -871,7 +871,7 @@ export class SesMailManagerIngressPointTagsOutputReference extends cdktn.Complex
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -887,7 +887,7 @@ export class SesMailManagerIngressPointTagsOutputReference extends cdktn.Complex
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1025,7 +1025,7 @@ export class SesMailManagerIngressPoint extends cdktn.TerraformResource {
   }
 
   // ingress_point_name - computed: true, optional: true, required: false
-  private _ingressPointName?: string;
+  private _ingressPointName?: string; 
   public get ingressPointName() {
     return this.getStringAttribute('ingress_point_name');
   }
@@ -1057,7 +1057,7 @@ export class SesMailManagerIngressPoint extends cdktn.TerraformResource {
   }
 
   // rule_set_id - computed: false, optional: false, required: true
-  private _ruleSetId?: string;
+  private _ruleSetId?: string; 
   public get ruleSetId() {
     return this.getStringAttribute('rule_set_id');
   }
@@ -1075,7 +1075,7 @@ export class SesMailManagerIngressPoint extends cdktn.TerraformResource {
   }
 
   // status_to_update - computed: true, optional: true, required: false
-  private _statusToUpdate?: string;
+  private _statusToUpdate?: string; 
   public get statusToUpdate() {
     return this.getStringAttribute('status_to_update');
   }
@@ -1107,7 +1107,7 @@ export class SesMailManagerIngressPoint extends cdktn.TerraformResource {
   }
 
   // tls_policy - computed: true, optional: true, required: false
-  private _tlsPolicy?: string;
+  private _tlsPolicy?: string; 
   public get tlsPolicy() {
     return this.getStringAttribute('tls_policy');
   }
@@ -1123,7 +1123,7 @@ export class SesMailManagerIngressPoint extends cdktn.TerraformResource {
   }
 
   // traffic_policy_id - computed: false, optional: false, required: true
-  private _trafficPolicyId?: string;
+  private _trafficPolicyId?: string; 
   public get trafficPolicyId() {
     return this.getStringAttribute('traffic_policy_id');
   }
@@ -1136,7 +1136,7 @@ export class SesMailManagerIngressPoint extends cdktn.TerraformResource {
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }

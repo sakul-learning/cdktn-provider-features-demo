@@ -107,7 +107,7 @@ export class LexBotVersionBotVersionLocaleSpecificationBotVersionLocaleDetailsOu
   }
 
   // source_bot_version - computed: false, optional: false, required: true
-  private _sourceBotVersion?: string;
+  private _sourceBotVersion?: string; 
   public get sourceBotVersion() {
     return this.getStringAttribute('source_bot_version');
   }
@@ -234,7 +234,7 @@ export class LexBotVersionBotVersionLocaleSpecificationOutputReference extends c
   }
 
   // locale_id - computed: false, optional: false, required: true
-  private _localeId?: string;
+  private _localeId?: string; 
   public get localeId() {
     return this.getStringAttribute('locale_id');
   }
@@ -327,7 +327,7 @@ export class LexBotVersion extends cdktn.TerraformResource {
   // ==========
 
   // bot_id - computed: false, optional: false, required: true
-  private _botId?: string;
+  private _botId?: string; 
   public get botId() {
     return this.getStringAttribute('bot_id');
   }
@@ -358,7 +358,7 @@ export class LexBotVersion extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }

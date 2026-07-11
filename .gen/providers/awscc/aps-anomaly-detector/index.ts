@@ -146,7 +146,7 @@ export class ApsAnomalyDetectorConfigurationRandomCutForestIgnoreNearExpectedFro
   }
 
   // amount - computed: true, optional: true, required: false
-  private _amount?: number;
+  private _amount?: number; 
   public get amount() {
     return this.getNumberAttribute('amount');
   }
@@ -162,7 +162,7 @@ export class ApsAnomalyDetectorConfigurationRandomCutForestIgnoreNearExpectedFro
   }
 
   // ratio - computed: true, optional: true, required: false
-  private _ratio?: number;
+  private _ratio?: number; 
   public get ratio() {
     return this.getNumberAttribute('ratio');
   }
@@ -273,7 +273,7 @@ export class ApsAnomalyDetectorConfigurationRandomCutForestIgnoreNearExpectedFro
   }
 
   // amount - computed: true, optional: true, required: false
-  private _amount?: number;
+  private _amount?: number; 
   public get amount() {
     return this.getNumberAttribute('amount');
   }
@@ -289,7 +289,7 @@ export class ApsAnomalyDetectorConfigurationRandomCutForestIgnoreNearExpectedFro
   }
 
   // ratio - computed: true, optional: true, required: false
-  private _ratio?: number;
+  private _ratio?: number; 
   public get ratio() {
     return this.getNumberAttribute('ratio');
   }
@@ -483,7 +483,7 @@ export class ApsAnomalyDetectorConfigurationRandomCutForestOutputReference exten
   }
 
   // query - computed: false, optional: false, required: true
-  private _query?: string;
+  private _query?: string; 
   public get query() {
     return this.getStringAttribute('query');
   }
@@ -496,7 +496,7 @@ export class ApsAnomalyDetectorConfigurationRandomCutForestOutputReference exten
   }
 
   // sample_size - computed: true, optional: true, required: false
-  private _sampleSize?: number;
+  private _sampleSize?: number; 
   public get sampleSize() {
     return this.getNumberAttribute('sample_size');
   }
@@ -512,7 +512,7 @@ export class ApsAnomalyDetectorConfigurationRandomCutForestOutputReference exten
   }
 
   // shingle_size - computed: true, optional: true, required: false
-  private _shingleSize?: number;
+  private _shingleSize?: number; 
   public get shingleSize() {
     return this.getNumberAttribute('shingle_size');
   }
@@ -720,7 +720,7 @@ export class ApsAnomalyDetectorLabelsOutputReference extends cdktn.ComplexObject
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -736,7 +736,7 @@ export class ApsAnomalyDetectorLabelsOutputReference extends cdktn.ComplexObject
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -867,7 +867,7 @@ export class ApsAnomalyDetectorMissingDataActionOutputReference extends cdktn.Co
   }
 
   // mark_as_anomaly - computed: true, optional: true, required: false
-  private _markAsAnomaly?: boolean | cdktn.IResolvable;
+  private _markAsAnomaly?: boolean | cdktn.IResolvable; 
   public get markAsAnomaly() {
     return this.getBooleanAttribute('mark_as_anomaly');
   }
@@ -883,7 +883,7 @@ export class ApsAnomalyDetectorMissingDataActionOutputReference extends cdktn.Co
   }
 
   // skip - computed: true, optional: true, required: false
-  private _skip?: boolean | cdktn.IResolvable;
+  private _skip?: boolean | cdktn.IResolvable; 
   public get skip() {
     return this.getBooleanAttribute('skip');
   }
@@ -1000,7 +1000,7 @@ export class ApsAnomalyDetectorTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1016,7 +1016,7 @@ export class ApsAnomalyDetectorTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1116,7 +1116,7 @@ export class ApsAnomalyDetector extends cdktn.TerraformResource {
   // ==========
 
   // alias - computed: false, optional: false, required: true
-  private _alias?: string;
+  private _alias?: string; 
   public get alias() {
     return this.getStringAttribute('alias');
   }
@@ -1147,7 +1147,7 @@ export class ApsAnomalyDetector extends cdktn.TerraformResource {
   }
 
   // evaluation_interval_in_seconds - computed: true, optional: true, required: false
-  private _evaluationIntervalInSeconds?: number;
+  private _evaluationIntervalInSeconds?: number; 
   public get evaluationIntervalInSeconds() {
     return this.getNumberAttribute('evaluation_interval_in_seconds');
   }
@@ -1216,7 +1216,7 @@ export class ApsAnomalyDetector extends cdktn.TerraformResource {
   }
 
   // workspace - computed: false, optional: false, required: true
-  private _workspace?: string;
+  private _workspace?: string; 
   public get workspace() {
     return this.getStringAttribute('workspace');
   }

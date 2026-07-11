@@ -203,7 +203,7 @@ export class EcrpublicRepositoryCatalogDataOutputReference extends cdktn.Complex
   }
 
   // about_text - computed: false, optional: true, required: false
-  private _aboutText?: string;
+  private _aboutText?: string; 
   public get aboutText() {
     return this.getStringAttribute('about_text');
   }
@@ -219,7 +219,7 @@ export class EcrpublicRepositoryCatalogDataOutputReference extends cdktn.Complex
   }
 
   // architectures - computed: false, optional: true, required: false
-  private _architectures?: string[];
+  private _architectures?: string[]; 
   public get architectures() {
     return cdktn.Fn.tolist(this.getListAttribute('architectures'));
   }
@@ -235,7 +235,7 @@ export class EcrpublicRepositoryCatalogDataOutputReference extends cdktn.Complex
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -251,7 +251,7 @@ export class EcrpublicRepositoryCatalogDataOutputReference extends cdktn.Complex
   }
 
   // logo_image_blob - computed: true, optional: true, required: false
-  private _logoImageBlob?: string;
+  private _logoImageBlob?: string; 
   public get logoImageBlob() {
     return this.getStringAttribute('logo_image_blob');
   }
@@ -267,7 +267,7 @@ export class EcrpublicRepositoryCatalogDataOutputReference extends cdktn.Complex
   }
 
   // operating_systems - computed: false, optional: true, required: false
-  private _operatingSystems?: string[];
+  private _operatingSystems?: string[]; 
   public get operatingSystems() {
     return cdktn.Fn.tolist(this.getListAttribute('operating_systems'));
   }
@@ -283,7 +283,7 @@ export class EcrpublicRepositoryCatalogDataOutputReference extends cdktn.Complex
   }
 
   // usage_text - computed: false, optional: true, required: false
-  private _usageText?: string;
+  private _usageText?: string; 
   public get usageText() {
     return this.getStringAttribute('usage_text');
   }
@@ -377,7 +377,7 @@ export class EcrpublicRepositoryTimeoutsOutputReference extends cdktn.ComplexObj
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -463,7 +463,7 @@ export class EcrpublicRepository extends cdktn.TerraformResource {
   }
 
   // force_destroy - computed: false, optional: true, required: false
-  private _forceDestroy?: boolean | cdktn.IResolvable;
+  private _forceDestroy?: boolean | cdktn.IResolvable; 
   public get forceDestroy() {
     return this.getBooleanAttribute('force_destroy');
   }
@@ -479,7 +479,7 @@ export class EcrpublicRepository extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -495,7 +495,7 @@ export class EcrpublicRepository extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -516,7 +516,7 @@ export class EcrpublicRepository extends cdktn.TerraformResource {
   }
 
   // repository_name - computed: false, optional: false, required: true
-  private _repositoryName?: string;
+  private _repositoryName?: string; 
   public get repositoryName() {
     return this.getStringAttribute('repository_name');
   }
@@ -534,7 +534,7 @@ export class EcrpublicRepository extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -550,7 +550,7 @@ export class EcrpublicRepository extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

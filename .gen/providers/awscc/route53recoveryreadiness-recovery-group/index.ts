@@ -124,7 +124,7 @@ export class Route53RecoveryreadinessRecoveryGroupTagsOutputReference extends cd
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -140,7 +140,7 @@ export class Route53RecoveryreadinessRecoveryGroupTagsOutputReference extends cd
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -236,7 +236,7 @@ export class Route53RecoveryreadinessRecoveryGroup extends cdktn.TerraformResour
   // ==========
 
   // cells - computed: true, optional: true, required: false
-  private _cells?: string[];
+  private _cells?: string[]; 
   public get cells() {
     return this.getListAttribute('cells');
   }
@@ -262,7 +262,7 @@ export class Route53RecoveryreadinessRecoveryGroup extends cdktn.TerraformResour
   }
 
   // recovery_group_name - computed: true, optional: true, required: false
-  private _recoveryGroupName?: string;
+  private _recoveryGroupName?: string; 
   public get recoveryGroupName() {
     return this.getStringAttribute('recovery_group_name');
   }

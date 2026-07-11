@@ -134,7 +134,7 @@ export class TransferProfileTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -150,7 +150,7 @@ export class TransferProfileTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -252,7 +252,7 @@ export class TransferProfile extends cdktn.TerraformResource {
   }
 
   // as_2_id - computed: false, optional: false, required: true
-  private _as2Id?: string;
+  private _as2Id?: string; 
   public get as2Id() {
     return this.getStringAttribute('as_2_id');
   }
@@ -265,7 +265,7 @@ export class TransferProfile extends cdktn.TerraformResource {
   }
 
   // certificate_ids - computed: true, optional: true, required: false
-  private _certificateIds?: string[];
+  private _certificateIds?: string[]; 
   public get certificateIds() {
     return this.getListAttribute('certificate_ids');
   }
@@ -291,7 +291,7 @@ export class TransferProfile extends cdktn.TerraformResource {
   }
 
   // profile_type - computed: false, optional: false, required: true
-  private _profileType?: string;
+  private _profileType?: string; 
   public get profileType() {
     return this.getStringAttribute('profile_type');
   }

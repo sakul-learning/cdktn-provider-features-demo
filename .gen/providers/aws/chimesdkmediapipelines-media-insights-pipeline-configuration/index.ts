@@ -168,7 +168,7 @@ export class ChimesdkmediapipelinesMediaInsightsPipelineConfigurationElementsAma
   }
 
   // content_redaction_output - computed: false, optional: true, required: false
-  private _contentRedactionOutput?: string;
+  private _contentRedactionOutput?: string; 
   public get contentRedactionOutput() {
     return this.getStringAttribute('content_redaction_output');
   }
@@ -184,7 +184,7 @@ export class ChimesdkmediapipelinesMediaInsightsPipelineConfigurationElementsAma
   }
 
   // data_access_role_arn - computed: false, optional: false, required: true
-  private _dataAccessRoleArn?: string;
+  private _dataAccessRoleArn?: string; 
   public get dataAccessRoleArn() {
     return this.getStringAttribute('data_access_role_arn');
   }
@@ -197,7 +197,7 @@ export class ChimesdkmediapipelinesMediaInsightsPipelineConfigurationElementsAma
   }
 
   // output_encryption_kms_key_id - computed: false, optional: true, required: false
-  private _outputEncryptionKmsKeyId?: string;
+  private _outputEncryptionKmsKeyId?: string; 
   public get outputEncryptionKmsKeyId() {
     return this.getStringAttribute('output_encryption_kms_key_id');
   }
@@ -213,7 +213,7 @@ export class ChimesdkmediapipelinesMediaInsightsPipelineConfigurationElementsAma
   }
 
   // output_location - computed: false, optional: false, required: true
-  private _outputLocation?: string;
+  private _outputLocation?: string; 
   public get outputLocation() {
     return this.getStringAttribute('output_location');
   }
@@ -500,7 +500,7 @@ export class ChimesdkmediapipelinesMediaInsightsPipelineConfigurationElementsAma
   }
 
   // call_analytics_stream_categories - computed: false, optional: true, required: false
-  private _callAnalyticsStreamCategories?: string[];
+  private _callAnalyticsStreamCategories?: string[]; 
   public get callAnalyticsStreamCategories() {
     return this.getListAttribute('call_analytics_stream_categories');
   }
@@ -516,7 +516,7 @@ export class ChimesdkmediapipelinesMediaInsightsPipelineConfigurationElementsAma
   }
 
   // content_identification_type - computed: false, optional: true, required: false
-  private _contentIdentificationType?: string;
+  private _contentIdentificationType?: string; 
   public get contentIdentificationType() {
     return this.getStringAttribute('content_identification_type');
   }
@@ -532,7 +532,7 @@ export class ChimesdkmediapipelinesMediaInsightsPipelineConfigurationElementsAma
   }
 
   // content_redaction_type - computed: false, optional: true, required: false
-  private _contentRedactionType?: string;
+  private _contentRedactionType?: string; 
   public get contentRedactionType() {
     return this.getStringAttribute('content_redaction_type');
   }
@@ -548,7 +548,7 @@ export class ChimesdkmediapipelinesMediaInsightsPipelineConfigurationElementsAma
   }
 
   // enable_partial_results_stabilization - computed: false, optional: true, required: false
-  private _enablePartialResultsStabilization?: boolean | cdktn.IResolvable;
+  private _enablePartialResultsStabilization?: boolean | cdktn.IResolvable; 
   public get enablePartialResultsStabilization() {
     return this.getBooleanAttribute('enable_partial_results_stabilization');
   }
@@ -564,7 +564,7 @@ export class ChimesdkmediapipelinesMediaInsightsPipelineConfigurationElementsAma
   }
 
   // filter_partial_results - computed: false, optional: true, required: false
-  private _filterPartialResults?: boolean | cdktn.IResolvable;
+  private _filterPartialResults?: boolean | cdktn.IResolvable; 
   public get filterPartialResults() {
     return this.getBooleanAttribute('filter_partial_results');
   }
@@ -580,7 +580,7 @@ export class ChimesdkmediapipelinesMediaInsightsPipelineConfigurationElementsAma
   }
 
   // language_code - computed: false, optional: false, required: true
-  private _languageCode?: string;
+  private _languageCode?: string; 
   public get languageCode() {
     return this.getStringAttribute('language_code');
   }
@@ -593,7 +593,7 @@ export class ChimesdkmediapipelinesMediaInsightsPipelineConfigurationElementsAma
   }
 
   // language_model_name - computed: false, optional: true, required: false
-  private _languageModelName?: string;
+  private _languageModelName?: string; 
   public get languageModelName() {
     return this.getStringAttribute('language_model_name');
   }
@@ -609,7 +609,7 @@ export class ChimesdkmediapipelinesMediaInsightsPipelineConfigurationElementsAma
   }
 
   // partial_results_stability - computed: false, optional: true, required: false
-  private _partialResultsStability?: string;
+  private _partialResultsStability?: string; 
   public get partialResultsStability() {
     return this.getStringAttribute('partial_results_stability');
   }
@@ -625,7 +625,7 @@ export class ChimesdkmediapipelinesMediaInsightsPipelineConfigurationElementsAma
   }
 
   // pii_entity_types - computed: false, optional: true, required: false
-  private _piiEntityTypes?: string;
+  private _piiEntityTypes?: string; 
   public get piiEntityTypes() {
     return this.getStringAttribute('pii_entity_types');
   }
@@ -641,7 +641,7 @@ export class ChimesdkmediapipelinesMediaInsightsPipelineConfigurationElementsAma
   }
 
   // vocabulary_filter_method - computed: false, optional: true, required: false
-  private _vocabularyFilterMethod?: string;
+  private _vocabularyFilterMethod?: string; 
   public get vocabularyFilterMethod() {
     return this.getStringAttribute('vocabulary_filter_method');
   }
@@ -657,7 +657,7 @@ export class ChimesdkmediapipelinesMediaInsightsPipelineConfigurationElementsAma
   }
 
   // vocabulary_filter_name - computed: false, optional: true, required: false
-  private _vocabularyFilterName?: string;
+  private _vocabularyFilterName?: string; 
   public get vocabularyFilterName() {
     return this.getStringAttribute('vocabulary_filter_name');
   }
@@ -673,7 +673,7 @@ export class ChimesdkmediapipelinesMediaInsightsPipelineConfigurationElementsAma
   }
 
   // vocabulary_name - computed: false, optional: true, required: false
-  private _vocabularyName?: string;
+  private _vocabularyName?: string; 
   public get vocabularyName() {
     return this.getStringAttribute('vocabulary_name');
   }
@@ -960,7 +960,7 @@ export class ChimesdkmediapipelinesMediaInsightsPipelineConfigurationElementsAma
   }
 
   // content_identification_type - computed: false, optional: true, required: false
-  private _contentIdentificationType?: string;
+  private _contentIdentificationType?: string; 
   public get contentIdentificationType() {
     return this.getStringAttribute('content_identification_type');
   }
@@ -976,7 +976,7 @@ export class ChimesdkmediapipelinesMediaInsightsPipelineConfigurationElementsAma
   }
 
   // content_redaction_type - computed: false, optional: true, required: false
-  private _contentRedactionType?: string;
+  private _contentRedactionType?: string; 
   public get contentRedactionType() {
     return this.getStringAttribute('content_redaction_type');
   }
@@ -992,7 +992,7 @@ export class ChimesdkmediapipelinesMediaInsightsPipelineConfigurationElementsAma
   }
 
   // enable_partial_results_stabilization - computed: false, optional: true, required: false
-  private _enablePartialResultsStabilization?: boolean | cdktn.IResolvable;
+  private _enablePartialResultsStabilization?: boolean | cdktn.IResolvable; 
   public get enablePartialResultsStabilization() {
     return this.getBooleanAttribute('enable_partial_results_stabilization');
   }
@@ -1008,7 +1008,7 @@ export class ChimesdkmediapipelinesMediaInsightsPipelineConfigurationElementsAma
   }
 
   // filter_partial_results - computed: false, optional: true, required: false
-  private _filterPartialResults?: boolean | cdktn.IResolvable;
+  private _filterPartialResults?: boolean | cdktn.IResolvable; 
   public get filterPartialResults() {
     return this.getBooleanAttribute('filter_partial_results');
   }
@@ -1024,7 +1024,7 @@ export class ChimesdkmediapipelinesMediaInsightsPipelineConfigurationElementsAma
   }
 
   // language_code - computed: false, optional: false, required: true
-  private _languageCode?: string;
+  private _languageCode?: string; 
   public get languageCode() {
     return this.getStringAttribute('language_code');
   }
@@ -1037,7 +1037,7 @@ export class ChimesdkmediapipelinesMediaInsightsPipelineConfigurationElementsAma
   }
 
   // language_model_name - computed: false, optional: true, required: false
-  private _languageModelName?: string;
+  private _languageModelName?: string; 
   public get languageModelName() {
     return this.getStringAttribute('language_model_name');
   }
@@ -1053,7 +1053,7 @@ export class ChimesdkmediapipelinesMediaInsightsPipelineConfigurationElementsAma
   }
 
   // partial_results_stability - computed: false, optional: true, required: false
-  private _partialResultsStability?: string;
+  private _partialResultsStability?: string; 
   public get partialResultsStability() {
     return this.getStringAttribute('partial_results_stability');
   }
@@ -1069,7 +1069,7 @@ export class ChimesdkmediapipelinesMediaInsightsPipelineConfigurationElementsAma
   }
 
   // pii_entity_types - computed: false, optional: true, required: false
-  private _piiEntityTypes?: string;
+  private _piiEntityTypes?: string; 
   public get piiEntityTypes() {
     return this.getStringAttribute('pii_entity_types');
   }
@@ -1085,7 +1085,7 @@ export class ChimesdkmediapipelinesMediaInsightsPipelineConfigurationElementsAma
   }
 
   // show_speaker_label - computed: false, optional: true, required: false
-  private _showSpeakerLabel?: boolean | cdktn.IResolvable;
+  private _showSpeakerLabel?: boolean | cdktn.IResolvable; 
   public get showSpeakerLabel() {
     return this.getBooleanAttribute('show_speaker_label');
   }
@@ -1101,7 +1101,7 @@ export class ChimesdkmediapipelinesMediaInsightsPipelineConfigurationElementsAma
   }
 
   // vocabulary_filter_method - computed: false, optional: true, required: false
-  private _vocabularyFilterMethod?: string;
+  private _vocabularyFilterMethod?: string; 
   public get vocabularyFilterMethod() {
     return this.getStringAttribute('vocabulary_filter_method');
   }
@@ -1117,7 +1117,7 @@ export class ChimesdkmediapipelinesMediaInsightsPipelineConfigurationElementsAma
   }
 
   // vocabulary_filter_name - computed: false, optional: true, required: false
-  private _vocabularyFilterName?: string;
+  private _vocabularyFilterName?: string; 
   public get vocabularyFilterName() {
     return this.getStringAttribute('vocabulary_filter_name');
   }
@@ -1133,7 +1133,7 @@ export class ChimesdkmediapipelinesMediaInsightsPipelineConfigurationElementsAma
   }
 
   // vocabulary_name - computed: false, optional: true, required: false
-  private _vocabularyName?: string;
+  private _vocabularyName?: string; 
   public get vocabularyName() {
     return this.getStringAttribute('vocabulary_name');
   }
@@ -1217,7 +1217,7 @@ export class ChimesdkmediapipelinesMediaInsightsPipelineConfigurationElementsKin
   }
 
   // insights_target - computed: false, optional: false, required: true
-  private _insightsTarget?: string;
+  private _insightsTarget?: string; 
   public get insightsTarget() {
     return this.getStringAttribute('insights_target');
   }
@@ -1298,7 +1298,7 @@ export class ChimesdkmediapipelinesMediaInsightsPipelineConfigurationElementsLam
   }
 
   // insights_target - computed: false, optional: false, required: true
-  private _insightsTarget?: string;
+  private _insightsTarget?: string; 
   public get insightsTarget() {
     return this.getStringAttribute('insights_target');
   }
@@ -1379,7 +1379,7 @@ export class ChimesdkmediapipelinesMediaInsightsPipelineConfigurationElementsS3R
   }
 
   // destination - computed: false, optional: true, required: false
-  private _destination?: string;
+  private _destination?: string; 
   public get destination() {
     return this.getStringAttribute('destination');
   }
@@ -1463,7 +1463,7 @@ export class ChimesdkmediapipelinesMediaInsightsPipelineConfigurationElementsSns
   }
 
   // insights_target - computed: false, optional: false, required: true
-  private _insightsTarget?: string;
+  private _insightsTarget?: string; 
   public get insightsTarget() {
     return this.getStringAttribute('insights_target');
   }
@@ -1544,7 +1544,7 @@ export class ChimesdkmediapipelinesMediaInsightsPipelineConfigurationElementsSqs
   }
 
   // insights_target - computed: false, optional: false, required: true
-  private _insightsTarget?: string;
+  private _insightsTarget?: string; 
   public get insightsTarget() {
     return this.getStringAttribute('insights_target');
   }
@@ -1642,7 +1642,7 @@ export class ChimesdkmediapipelinesMediaInsightsPipelineConfigurationElementsVoi
   }
 
   // speaker_search_status - computed: false, optional: false, required: true
-  private _speakerSearchStatus?: string;
+  private _speakerSearchStatus?: string; 
   public get speakerSearchStatus() {
     return this.getStringAttribute('speaker_search_status');
   }
@@ -1655,7 +1655,7 @@ export class ChimesdkmediapipelinesMediaInsightsPipelineConfigurationElementsVoi
   }
 
   // voice_tone_analysis_status - computed: false, optional: false, required: true
-  private _voiceToneAnalysisStatus?: string;
+  private _voiceToneAnalysisStatus?: string; 
   public get voiceToneAnalysisStatus() {
     return this.getStringAttribute('voice_tone_analysis_status');
   }
@@ -1900,7 +1900,7 @@ export class ChimesdkmediapipelinesMediaInsightsPipelineConfigurationElementsOut
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -2129,7 +2129,7 @@ export class ChimesdkmediapipelinesMediaInsightsPipelineConfigurationRealTimeAle
   }
 
   // rule_name - computed: false, optional: false, required: true
-  private _ruleName?: string;
+  private _ruleName?: string; 
   public get ruleName() {
     return this.getStringAttribute('rule_name');
   }
@@ -2244,7 +2244,7 @@ export class ChimesdkmediapipelinesMediaInsightsPipelineConfigurationRealTimeAle
   }
 
   // keywords - computed: false, optional: false, required: true
-  private _keywords?: string[];
+  private _keywords?: string[]; 
   public get keywords() {
     return this.getListAttribute('keywords');
   }
@@ -2257,7 +2257,7 @@ export class ChimesdkmediapipelinesMediaInsightsPipelineConfigurationRealTimeAle
   }
 
   // negate - computed: true, optional: true, required: false
-  private _negate?: boolean | cdktn.IResolvable;
+  private _negate?: boolean | cdktn.IResolvable; 
   public get negate() {
     return this.getBooleanAttribute('negate');
   }
@@ -2273,7 +2273,7 @@ export class ChimesdkmediapipelinesMediaInsightsPipelineConfigurationRealTimeAle
   }
 
   // rule_name - computed: false, optional: false, required: true
-  private _ruleName?: string;
+  private _ruleName?: string; 
   public get ruleName() {
     return this.getStringAttribute('rule_name');
   }
@@ -2388,7 +2388,7 @@ export class ChimesdkmediapipelinesMediaInsightsPipelineConfigurationRealTimeAle
   }
 
   // rule_name - computed: false, optional: false, required: true
-  private _ruleName?: string;
+  private _ruleName?: string; 
   public get ruleName() {
     return this.getStringAttribute('rule_name');
   }
@@ -2401,7 +2401,7 @@ export class ChimesdkmediapipelinesMediaInsightsPipelineConfigurationRealTimeAle
   }
 
   // sentiment_type - computed: false, optional: false, required: true
-  private _sentimentType?: string;
+  private _sentimentType?: string; 
   public get sentimentType() {
     return this.getStringAttribute('sentiment_type');
   }
@@ -2414,7 +2414,7 @@ export class ChimesdkmediapipelinesMediaInsightsPipelineConfigurationRealTimeAle
   }
 
   // time_period - computed: false, optional: false, required: true
-  private _timePeriod?: number;
+  private _timePeriod?: number; 
   public get timePeriod() {
     return this.getNumberAttribute('time_period');
   }
@@ -2564,7 +2564,7 @@ export class ChimesdkmediapipelinesMediaInsightsPipelineConfigurationRealTimeAle
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -2732,7 +2732,7 @@ export class ChimesdkmediapipelinesMediaInsightsPipelineConfigurationRealTimeAle
   }
 
   // disabled - computed: true, optional: true, required: false
-  private _disabled?: boolean | cdktn.IResolvable;
+  private _disabled?: boolean | cdktn.IResolvable; 
   public get disabled() {
     return this.getBooleanAttribute('disabled');
   }
@@ -2873,7 +2873,7 @@ export class ChimesdkmediapipelinesMediaInsightsPipelineConfigurationTimeoutsOut
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -2889,7 +2889,7 @@ export class ChimesdkmediapipelinesMediaInsightsPipelineConfigurationTimeoutsOut
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -2905,7 +2905,7 @@ export class ChimesdkmediapipelinesMediaInsightsPipelineConfigurationTimeoutsOut
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -2996,7 +2996,7 @@ export class ChimesdkmediapipelinesMediaInsightsPipelineConfiguration extends cd
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -3009,7 +3009,7 @@ export class ChimesdkmediapipelinesMediaInsightsPipelineConfiguration extends cd
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -3025,7 +3025,7 @@ export class ChimesdkmediapipelinesMediaInsightsPipelineConfiguration extends cd
   }
 
   // resource_access_role_arn - computed: false, optional: false, required: true
-  private _resourceAccessRoleArn?: string;
+  private _resourceAccessRoleArn?: string; 
   public get resourceAccessRoleArn() {
     return this.getStringAttribute('resource_access_role_arn');
   }
@@ -3038,7 +3038,7 @@ export class ChimesdkmediapipelinesMediaInsightsPipelineConfiguration extends cd
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -3054,7 +3054,7 @@ export class ChimesdkmediapipelinesMediaInsightsPipelineConfiguration extends cd
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

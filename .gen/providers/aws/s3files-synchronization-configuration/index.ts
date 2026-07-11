@@ -121,7 +121,7 @@ export class S3FilesSynchronizationConfigurationExpirationDataRuleOutputReferenc
   }
 
   // days_after_last_access - computed: false, optional: false, required: true
-  private _daysAfterLastAccess?: number;
+  private _daysAfterLastAccess?: number; 
   public get daysAfterLastAccess() {
     return this.getNumberAttribute('days_after_last_access');
   }
@@ -274,7 +274,7 @@ export class S3FilesSynchronizationConfigurationImportDataRuleOutputReference ex
   }
 
   // prefix - computed: false, optional: false, required: true
-  private _prefix?: string;
+  private _prefix?: string; 
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -287,7 +287,7 @@ export class S3FilesSynchronizationConfigurationImportDataRuleOutputReference ex
   }
 
   // size_less_than - computed: false, optional: false, required: true
-  private _sizeLessThan?: number;
+  private _sizeLessThan?: number; 
   public get sizeLessThan() {
     return this.getNumberAttribute('size_less_than');
   }
@@ -300,7 +300,7 @@ export class S3FilesSynchronizationConfigurationImportDataRuleOutputReference ex
   }
 
   // trigger - computed: false, optional: false, required: true
-  private _trigger?: string;
+  private _trigger?: string; 
   public get trigger() {
     return this.getStringAttribute('trigger');
   }
@@ -395,7 +395,7 @@ export class S3FilesSynchronizationConfiguration extends cdktn.TerraformResource
   // ==========
 
   // file_system_id - computed: false, optional: false, required: true
-  private _fileSystemId?: string;
+  private _fileSystemId?: string; 
   public get fileSystemId() {
     return this.getStringAttribute('file_system_id');
   }
@@ -408,7 +408,7 @@ export class S3FilesSynchronizationConfiguration extends cdktn.TerraformResource
   }
 
   // latest_version_number - computed: true, optional: true, required: false
-  private _latestVersionNumber?: number;
+  private _latestVersionNumber?: number; 
   public get latestVersionNumber() {
     return this.getNumberAttribute('latest_version_number');
   }
@@ -424,7 +424,7 @@ export class S3FilesSynchronizationConfiguration extends cdktn.TerraformResource
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

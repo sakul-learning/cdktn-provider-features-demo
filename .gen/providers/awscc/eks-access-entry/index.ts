@@ -150,7 +150,7 @@ export class EksAccessEntryAccessPoliciesAccessScopeOutputReference extends cdkt
   }
 
   // namespaces - computed: true, optional: true, required: false
-  private _namespaces?: string[];
+  private _namespaces?: string[]; 
   public get namespaces() {
     return cdktn.Fn.tolist(this.getListAttribute('namespaces'));
   }
@@ -166,7 +166,7 @@ export class EksAccessEntryAccessPoliciesAccessScopeOutputReference extends cdkt
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -299,7 +299,7 @@ export class EksAccessEntryAccessPoliciesOutputReference extends cdktn.ComplexOb
   }
 
   // policy_arn - computed: true, optional: true, required: false
-  private _policyArn?: string;
+  private _policyArn?: string; 
   public get policyArn() {
     return this.getStringAttribute('policy_arn');
   }
@@ -436,7 +436,7 @@ export class EksAccessEntryTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -452,7 +452,7 @@ export class EksAccessEntryTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -573,7 +573,7 @@ export class EksAccessEntry extends cdktn.TerraformResource {
   }
 
   // cluster_name - computed: false, optional: false, required: true
-  private _clusterName?: string;
+  private _clusterName?: string; 
   public get clusterName() {
     return this.getStringAttribute('cluster_name');
   }
@@ -591,7 +591,7 @@ export class EksAccessEntry extends cdktn.TerraformResource {
   }
 
   // kubernetes_groups - computed: true, optional: true, required: false
-  private _kubernetesGroups?: string[];
+  private _kubernetesGroups?: string[]; 
   public get kubernetesGroups() {
     return cdktn.Fn.tolist(this.getListAttribute('kubernetes_groups'));
   }
@@ -607,7 +607,7 @@ export class EksAccessEntry extends cdktn.TerraformResource {
   }
 
   // principal_arn - computed: false, optional: false, required: true
-  private _principalArn?: string;
+  private _principalArn?: string; 
   public get principalArn() {
     return this.getStringAttribute('principal_arn');
   }
@@ -636,7 +636,7 @@ export class EksAccessEntry extends cdktn.TerraformResource {
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -652,7 +652,7 @@ export class EksAccessEntry extends cdktn.TerraformResource {
   }
 
   // username - computed: true, optional: true, required: false
-  private _username?: string;
+  private _username?: string; 
   public get username() {
     return this.getStringAttribute('username');
   }

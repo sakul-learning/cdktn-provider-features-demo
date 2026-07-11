@@ -146,7 +146,7 @@ export class DatasyncAgentTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -162,7 +162,7 @@ export class DatasyncAgentTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -261,7 +261,7 @@ export class DatasyncAgent extends cdktn.TerraformResource {
   // ==========
 
   // activation_key - computed: true, optional: true, required: false
-  private _activationKey?: string;
+  private _activationKey?: string; 
   public get activationKey() {
     return this.getStringAttribute('activation_key');
   }
@@ -282,7 +282,7 @@ export class DatasyncAgent extends cdktn.TerraformResource {
   }
 
   // agent_name - computed: true, optional: true, required: false
-  private _agentName?: string;
+  private _agentName?: string; 
   public get agentName() {
     return this.getStringAttribute('agent_name');
   }
@@ -308,7 +308,7 @@ export class DatasyncAgent extends cdktn.TerraformResource {
   }
 
   // security_group_arns - computed: true, optional: true, required: false
-  private _securityGroupArns?: string[];
+  private _securityGroupArns?: string[]; 
   public get securityGroupArns() {
     return this.getListAttribute('security_group_arns');
   }
@@ -324,7 +324,7 @@ export class DatasyncAgent extends cdktn.TerraformResource {
   }
 
   // subnet_arns - computed: true, optional: true, required: false
-  private _subnetArns?: string[];
+  private _subnetArns?: string[]; 
   public get subnetArns() {
     return this.getListAttribute('subnet_arns');
   }
@@ -356,7 +356,7 @@ export class DatasyncAgent extends cdktn.TerraformResource {
   }
 
   // vpc_endpoint_id - computed: true, optional: true, required: false
-  private _vpcEndpointId?: string;
+  private _vpcEndpointId?: string; 
   public get vpcEndpointId() {
     return this.getStringAttribute('vpc_endpoint_id');
   }

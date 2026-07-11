@@ -341,7 +341,7 @@ export class RedshiftEndpointAccess extends cdktn.TerraformResource {
   }
 
   // cluster_identifier - computed: false, optional: false, required: true
-  private _clusterIdentifier?: string;
+  private _clusterIdentifier?: string; 
   public get clusterIdentifier() {
     return this.getStringAttribute('cluster_identifier');
   }
@@ -359,7 +359,7 @@ export class RedshiftEndpointAccess extends cdktn.TerraformResource {
   }
 
   // endpoint_name - computed: false, optional: false, required: true
-  private _endpointName?: string;
+  private _endpointName?: string; 
   public get endpointName() {
     return this.getStringAttribute('endpoint_name');
   }
@@ -387,7 +387,7 @@ export class RedshiftEndpointAccess extends cdktn.TerraformResource {
   }
 
   // resource_owner - computed: true, optional: true, required: false
-  private _resourceOwner?: string;
+  private _resourceOwner?: string; 
   public get resourceOwner() {
     return this.getStringAttribute('resource_owner');
   }
@@ -403,7 +403,7 @@ export class RedshiftEndpointAccess extends cdktn.TerraformResource {
   }
 
   // subnet_group_name - computed: false, optional: false, required: true
-  private _subnetGroupName?: string;
+  private _subnetGroupName?: string; 
   public get subnetGroupName() {
     return this.getStringAttribute('subnet_group_name');
   }
@@ -422,7 +422,7 @@ export class RedshiftEndpointAccess extends cdktn.TerraformResource {
   }
 
   // vpc_security_group_ids - computed: false, optional: false, required: true
-  private _vpcSecurityGroupIds?: string[];
+  private _vpcSecurityGroupIds?: string[]; 
   public get vpcSecurityGroupIds() {
     return this.getListAttribute('vpc_security_group_ids');
   }

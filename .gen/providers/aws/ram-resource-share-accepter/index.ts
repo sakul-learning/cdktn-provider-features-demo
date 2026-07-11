@@ -127,7 +127,7 @@ export class RamResourceShareAccepterTimeoutsOutputReference extends cdktn.Compl
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -143,7 +143,7 @@ export class RamResourceShareAccepterTimeoutsOutputReference extends cdktn.Compl
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -220,7 +220,7 @@ export class RamResourceShareAccepter extends cdktn.TerraformResource {
   // ==========
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -246,7 +246,7 @@ export class RamResourceShareAccepter extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -272,7 +272,7 @@ export class RamResourceShareAccepter extends cdktn.TerraformResource {
   }
 
   // share_arn - computed: false, optional: false, required: true
-  private _shareArn?: string;
+  private _shareArn?: string; 
   public get shareArn() {
     return this.getStringAttribute('share_arn');
   }

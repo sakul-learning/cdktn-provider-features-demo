@@ -106,7 +106,7 @@ export class DataAwsRoute53ResolverRules extends cdktn.TerraformDataSource {
   // ==========
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -122,7 +122,7 @@ export class DataAwsRoute53ResolverRules extends cdktn.TerraformDataSource {
   }
 
   // name_regex - computed: false, optional: true, required: false
-  private _nameRegex?: string;
+  private _nameRegex?: string; 
   public get nameRegex() {
     return this.getStringAttribute('name_regex');
   }
@@ -138,7 +138,7 @@ export class DataAwsRoute53ResolverRules extends cdktn.TerraformDataSource {
   }
 
   // owner_id - computed: false, optional: true, required: false
-  private _ownerId?: string;
+  private _ownerId?: string; 
   public get ownerId() {
     return this.getStringAttribute('owner_id');
   }
@@ -154,7 +154,7 @@ export class DataAwsRoute53ResolverRules extends cdktn.TerraformDataSource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -170,7 +170,7 @@ export class DataAwsRoute53ResolverRules extends cdktn.TerraformDataSource {
   }
 
   // resolver_endpoint_id - computed: false, optional: true, required: false
-  private _resolverEndpointId?: string;
+  private _resolverEndpointId?: string; 
   public get resolverEndpointId() {
     return this.getStringAttribute('resolver_endpoint_id');
   }
@@ -191,7 +191,7 @@ export class DataAwsRoute53ResolverRules extends cdktn.TerraformDataSource {
   }
 
   // rule_type - computed: false, optional: true, required: false
-  private _ruleType?: string;
+  private _ruleType?: string; 
   public get ruleType() {
     return this.getStringAttribute('rule_type');
   }
@@ -207,7 +207,7 @@ export class DataAwsRoute53ResolverRules extends cdktn.TerraformDataSource {
   }
 
   // share_status - computed: false, optional: true, required: false
-  private _shareStatus?: string;
+  private _shareStatus?: string; 
   public get shareStatus() {
     return this.getStringAttribute('share_status');
   }

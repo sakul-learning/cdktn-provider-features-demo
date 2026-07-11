@@ -184,7 +184,7 @@ export class CleanroomsCollaborationDataEncryptionMetadataOutputReference extend
   }
 
   // allow_clear_text - computed: false, optional: false, required: true
-  private _allowClearText?: boolean | cdktn.IResolvable;
+  private _allowClearText?: boolean | cdktn.IResolvable; 
   public get allowClearText() {
     return this.getBooleanAttribute('allow_clear_text');
   }
@@ -197,7 +197,7 @@ export class CleanroomsCollaborationDataEncryptionMetadataOutputReference extend
   }
 
   // allow_duplicates - computed: false, optional: false, required: true
-  private _allowDuplicates?: boolean | cdktn.IResolvable;
+  private _allowDuplicates?: boolean | cdktn.IResolvable; 
   public get allowDuplicates() {
     return this.getBooleanAttribute('allow_duplicates');
   }
@@ -210,7 +210,7 @@ export class CleanroomsCollaborationDataEncryptionMetadataOutputReference extend
   }
 
   // allow_joins_on_columns_with_different_names - computed: false, optional: false, required: true
-  private _allowJoinsOnColumnsWithDifferentNames?: boolean | cdktn.IResolvable;
+  private _allowJoinsOnColumnsWithDifferentNames?: boolean | cdktn.IResolvable; 
   public get allowJoinsOnColumnsWithDifferentNames() {
     return this.getBooleanAttribute('allow_joins_on_columns_with_different_names');
   }
@@ -223,7 +223,7 @@ export class CleanroomsCollaborationDataEncryptionMetadataOutputReference extend
   }
 
   // preserve_nulls - computed: false, optional: false, required: true
-  private _preserveNulls?: boolean | cdktn.IResolvable;
+  private _preserveNulls?: boolean | cdktn.IResolvable; 
   public get preserveNulls() {
     return this.getBooleanAttribute('preserve_nulls');
   }
@@ -350,7 +350,7 @@ export class CleanroomsCollaborationMemberOutputReference extends cdktn.ComplexO
   }
 
   // account_id - computed: false, optional: false, required: true
-  private _accountId?: string;
+  private _accountId?: string; 
   public get accountId() {
     return this.getStringAttribute('account_id');
   }
@@ -363,7 +363,7 @@ export class CleanroomsCollaborationMemberOutputReference extends cdktn.ComplexO
   }
 
   // display_name - computed: false, optional: false, required: true
-  private _displayName?: string;
+  private _displayName?: string; 
   public get displayName() {
     return this.getStringAttribute('display_name');
   }
@@ -376,7 +376,7 @@ export class CleanroomsCollaborationMemberOutputReference extends cdktn.ComplexO
   }
 
   // member_abilities - computed: false, optional: false, required: true
-  private _memberAbilities?: string[];
+  private _memberAbilities?: string[]; 
   public get memberAbilities() {
     return this.getListAttribute('member_abilities');
   }
@@ -526,7 +526,7 @@ export class CleanroomsCollaborationTimeoutsOutputReference extends cdktn.Comple
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -542,7 +542,7 @@ export class CleanroomsCollaborationTimeoutsOutputReference extends cdktn.Comple
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -558,7 +558,7 @@ export class CleanroomsCollaborationTimeoutsOutputReference extends cdktn.Comple
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -643,7 +643,7 @@ export class CleanroomsCollaboration extends cdktn.TerraformResource {
   // ==========
 
   // analytics_engine - computed: false, optional: true, required: false
-  private _analyticsEngine?: string;
+  private _analyticsEngine?: string; 
   public get analyticsEngine() {
     return this.getStringAttribute('analytics_engine');
   }
@@ -669,7 +669,7 @@ export class CleanroomsCollaboration extends cdktn.TerraformResource {
   }
 
   // creator_display_name - computed: false, optional: false, required: true
-  private _creatorDisplayName?: string;
+  private _creatorDisplayName?: string; 
   public get creatorDisplayName() {
     return this.getStringAttribute('creator_display_name');
   }
@@ -682,7 +682,7 @@ export class CleanroomsCollaboration extends cdktn.TerraformResource {
   }
 
   // creator_member_abilities - computed: false, optional: false, required: true
-  private _creatorMemberAbilities?: string[];
+  private _creatorMemberAbilities?: string[]; 
   public get creatorMemberAbilities() {
     return this.getListAttribute('creator_member_abilities');
   }
@@ -695,7 +695,7 @@ export class CleanroomsCollaboration extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: false, required: true
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -713,7 +713,7 @@ export class CleanroomsCollaboration extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -726,7 +726,7 @@ export class CleanroomsCollaboration extends cdktn.TerraformResource {
   }
 
   // query_log_status - computed: false, optional: false, required: true
-  private _queryLogStatus?: string;
+  private _queryLogStatus?: string; 
   public get queryLogStatus() {
     return this.getStringAttribute('query_log_status');
   }
@@ -739,7 +739,7 @@ export class CleanroomsCollaboration extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -755,7 +755,7 @@ export class CleanroomsCollaboration extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -771,7 +771,7 @@ export class CleanroomsCollaboration extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

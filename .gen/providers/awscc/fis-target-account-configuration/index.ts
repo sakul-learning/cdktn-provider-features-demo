@@ -94,7 +94,7 @@ export class FisTargetAccountConfiguration extends cdktn.TerraformResource {
   // ==========
 
   // account_id - computed: false, optional: false, required: true
-  private _accountId?: string;
+  private _accountId?: string; 
   public get accountId() {
     return this.getStringAttribute('account_id');
   }
@@ -107,7 +107,7 @@ export class FisTargetAccountConfiguration extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -123,7 +123,7 @@ export class FisTargetAccountConfiguration extends cdktn.TerraformResource {
   }
 
   // experiment_template_id - computed: false, optional: false, required: true
-  private _experimentTemplateId?: string;
+  private _experimentTemplateId?: string; 
   public get experimentTemplateId() {
     return this.getStringAttribute('experiment_template_id');
   }
@@ -141,7 +141,7 @@ export class FisTargetAccountConfiguration extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }

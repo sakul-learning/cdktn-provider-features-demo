@@ -141,7 +141,7 @@ export class IotwirelessWirelessDeviceImportTaskSidewalkOutputReference extends 
   }
 
   // device_creation_file - computed: true, optional: true, required: false
-  private _deviceCreationFile?: string;
+  private _deviceCreationFile?: string; 
   public get deviceCreationFile() {
     return this.getStringAttribute('device_creation_file');
   }
@@ -162,7 +162,7 @@ export class IotwirelessWirelessDeviceImportTaskSidewalkOutputReference extends 
   }
 
   // role - computed: true, optional: true, required: false
-  private _role?: string;
+  private _role?: string; 
   public get role() {
     return this.getStringAttribute('role');
   }
@@ -178,7 +178,7 @@ export class IotwirelessWirelessDeviceImportTaskSidewalkOutputReference extends 
   }
 
   // sidewalk_manufacturing_sn - computed: true, optional: true, required: false
-  private _sidewalkManufacturingSn?: string;
+  private _sidewalkManufacturingSn?: string; 
   public get sidewalkManufacturingSn() {
     return this.getStringAttribute('sidewalk_manufacturing_sn');
   }
@@ -295,7 +295,7 @@ export class IotwirelessWirelessDeviceImportTaskTagsOutputReference extends cdkt
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -311,7 +311,7 @@ export class IotwirelessWirelessDeviceImportTaskTagsOutputReference extends cdkt
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -417,7 +417,7 @@ export class IotwirelessWirelessDeviceImportTask extends cdktn.TerraformResource
   }
 
   // destination_name - computed: false, optional: false, required: true
-  private _destinationName?: string;
+  private _destinationName?: string; 
   public get destinationName() {
     return this.getStringAttribute('destination_name');
   }

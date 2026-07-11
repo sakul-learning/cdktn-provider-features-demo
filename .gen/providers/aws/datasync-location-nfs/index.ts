@@ -118,7 +118,7 @@ export class DatasyncLocationNfsMountOptionsOutputReference extends cdktn.Comple
   }
 
   // version - computed: false, optional: true, required: false
-  private _version?: string;
+  private _version?: string; 
   public get version() {
     return this.getStringAttribute('version');
   }
@@ -202,7 +202,7 @@ export class DatasyncLocationNfsOnPremConfigOutputReference extends cdktn.Comple
   }
 
   // agent_arns - computed: false, optional: false, required: true
-  private _agentArns?: string[];
+  private _agentArns?: string[]; 
   public get agentArns() {
     return cdktn.Fn.tolist(this.getListAttribute('agent_arns'));
   }
@@ -285,7 +285,7 @@ export class DatasyncLocationNfs extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -301,7 +301,7 @@ export class DatasyncLocationNfs extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -317,7 +317,7 @@ export class DatasyncLocationNfs extends cdktn.TerraformResource {
   }
 
   // server_hostname - computed: false, optional: false, required: true
-  private _serverHostname?: string;
+  private _serverHostname?: string; 
   public get serverHostname() {
     return this.getStringAttribute('server_hostname');
   }
@@ -330,7 +330,7 @@ export class DatasyncLocationNfs extends cdktn.TerraformResource {
   }
 
   // subdirectory - computed: false, optional: false, required: true
-  private _subdirectory?: string;
+  private _subdirectory?: string; 
   public get subdirectory() {
     return this.getStringAttribute('subdirectory');
   }
@@ -343,7 +343,7 @@ export class DatasyncLocationNfs extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -359,7 +359,7 @@ export class DatasyncLocationNfs extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

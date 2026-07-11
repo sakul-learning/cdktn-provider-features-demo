@@ -116,7 +116,7 @@ export class WorkspaceswebUserAccessLoggingSettingsTagsOutputReference extends c
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -132,7 +132,7 @@ export class WorkspaceswebUserAccessLoggingSettingsTagsOutputReference extends c
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -237,7 +237,7 @@ export class WorkspaceswebUserAccessLoggingSettings extends cdktn.TerraformResou
   }
 
   // kinesis_stream_arn - computed: false, optional: false, required: true
-  private _kinesisStreamArn?: string;
+  private _kinesisStreamArn?: string; 
   public get kinesisStreamArn() {
     return this.getStringAttribute('kinesis_stream_arn');
   }

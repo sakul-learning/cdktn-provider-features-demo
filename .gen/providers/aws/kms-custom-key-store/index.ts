@@ -182,7 +182,7 @@ export class KmsCustomKeyStoreTimeoutsOutputReference extends cdktn.ComplexObjec
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -198,7 +198,7 @@ export class KmsCustomKeyStoreTimeoutsOutputReference extends cdktn.ComplexObjec
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -214,7 +214,7 @@ export class KmsCustomKeyStoreTimeoutsOutputReference extends cdktn.ComplexObjec
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -315,7 +315,7 @@ export class KmsCustomKeyStoreXksProxyAuthenticationCredentialOutputReference ex
   }
 
   // access_key_id - computed: false, optional: false, required: true
-  private _accessKeyId?: string;
+  private _accessKeyId?: string; 
   public get accessKeyId() {
     return this.getStringAttribute('access_key_id');
   }
@@ -328,7 +328,7 @@ export class KmsCustomKeyStoreXksProxyAuthenticationCredentialOutputReference ex
   }
 
   // raw_secret_access_key - computed: false, optional: false, required: true
-  private _rawSecretAccessKey?: string;
+  private _rawSecretAccessKey?: string; 
   public get rawSecretAccessKey() {
     return this.getStringAttribute('raw_secret_access_key');
   }
@@ -411,7 +411,7 @@ export class KmsCustomKeyStore extends cdktn.TerraformResource {
   // ==========
 
   // cloud_hsm_cluster_id - computed: false, optional: true, required: false
-  private _cloudHsmClusterId?: string;
+  private _cloudHsmClusterId?: string; 
   public get cloudHsmClusterId() {
     return this.getStringAttribute('cloud_hsm_cluster_id');
   }
@@ -427,7 +427,7 @@ export class KmsCustomKeyStore extends cdktn.TerraformResource {
   }
 
   // custom_key_store_name - computed: false, optional: false, required: true
-  private _customKeyStoreName?: string;
+  private _customKeyStoreName?: string; 
   public get customKeyStoreName() {
     return this.getStringAttribute('custom_key_store_name');
   }
@@ -440,7 +440,7 @@ export class KmsCustomKeyStore extends cdktn.TerraformResource {
   }
 
   // custom_key_store_type - computed: true, optional: true, required: false
-  private _customKeyStoreType?: string;
+  private _customKeyStoreType?: string; 
   public get customKeyStoreType() {
     return this.getStringAttribute('custom_key_store_type');
   }
@@ -456,7 +456,7 @@ export class KmsCustomKeyStore extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -472,7 +472,7 @@ export class KmsCustomKeyStore extends cdktn.TerraformResource {
   }
 
   // key_store_password - computed: false, optional: true, required: false
-  private _keyStorePassword?: string;
+  private _keyStorePassword?: string; 
   public get keyStorePassword() {
     return this.getStringAttribute('key_store_password');
   }
@@ -488,7 +488,7 @@ export class KmsCustomKeyStore extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -504,7 +504,7 @@ export class KmsCustomKeyStore extends cdktn.TerraformResource {
   }
 
   // trust_anchor_certificate - computed: false, optional: true, required: false
-  private _trustAnchorCertificate?: string;
+  private _trustAnchorCertificate?: string; 
   public get trustAnchorCertificate() {
     return this.getStringAttribute('trust_anchor_certificate');
   }
@@ -520,7 +520,7 @@ export class KmsCustomKeyStore extends cdktn.TerraformResource {
   }
 
   // xks_proxy_connectivity - computed: false, optional: true, required: false
-  private _xksProxyConnectivity?: string;
+  private _xksProxyConnectivity?: string; 
   public get xksProxyConnectivity() {
     return this.getStringAttribute('xks_proxy_connectivity');
   }
@@ -536,7 +536,7 @@ export class KmsCustomKeyStore extends cdktn.TerraformResource {
   }
 
   // xks_proxy_uri_endpoint - computed: false, optional: true, required: false
-  private _xksProxyUriEndpoint?: string;
+  private _xksProxyUriEndpoint?: string; 
   public get xksProxyUriEndpoint() {
     return this.getStringAttribute('xks_proxy_uri_endpoint');
   }
@@ -552,7 +552,7 @@ export class KmsCustomKeyStore extends cdktn.TerraformResource {
   }
 
   // xks_proxy_uri_path - computed: false, optional: true, required: false
-  private _xksProxyUriPath?: string;
+  private _xksProxyUriPath?: string; 
   public get xksProxyUriPath() {
     return this.getStringAttribute('xks_proxy_uri_path');
   }
@@ -568,7 +568,7 @@ export class KmsCustomKeyStore extends cdktn.TerraformResource {
   }
 
   // xks_proxy_vpc_endpoint_service_name - computed: false, optional: true, required: false
-  private _xksProxyVpcEndpointServiceName?: string;
+  private _xksProxyVpcEndpointServiceName?: string; 
   public get xksProxyVpcEndpointServiceName() {
     return this.getStringAttribute('xks_proxy_vpc_endpoint_service_name');
   }

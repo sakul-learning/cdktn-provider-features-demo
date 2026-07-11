@@ -146,7 +146,7 @@ export class CloudfrontFieldLevelEncryptionConfigContentTypeProfileConfigContent
   }
 
   // content_type - computed: false, optional: false, required: true
-  private _contentType?: string;
+  private _contentType?: string; 
   public get contentType() {
     return this.getStringAttribute('content_type');
   }
@@ -159,7 +159,7 @@ export class CloudfrontFieldLevelEncryptionConfigContentTypeProfileConfigContent
   }
 
   // format - computed: false, optional: false, required: true
-  private _format?: string;
+  private _format?: string; 
   public get format() {
     return this.getStringAttribute('format');
   }
@@ -172,7 +172,7 @@ export class CloudfrontFieldLevelEncryptionConfigContentTypeProfileConfigContent
   }
 
   // profile_id - computed: false, optional: true, required: false
-  private _profileId?: string;
+  private _profileId?: string; 
   public get profileId() {
     return this.getStringAttribute('profile_id');
   }
@@ -378,7 +378,7 @@ export class CloudfrontFieldLevelEncryptionConfigContentTypeProfileConfigOutputR
   }
 
   // forward_when_content_type_is_unknown - computed: false, optional: false, required: true
-  private _forwardWhenContentTypeIsUnknown?: boolean | cdktn.IResolvable;
+  private _forwardWhenContentTypeIsUnknown?: boolean | cdktn.IResolvable; 
   public get forwardWhenContentTypeIsUnknown() {
     return this.getBooleanAttribute('forward_when_content_type_is_unknown');
   }
@@ -501,7 +501,7 @@ export class CloudfrontFieldLevelEncryptionConfigQueryArgProfileConfigQueryArgPr
   }
 
   // profile_id - computed: false, optional: false, required: true
-  private _profileId?: string;
+  private _profileId?: string; 
   public get profileId() {
     return this.getStringAttribute('profile_id');
   }
@@ -514,7 +514,7 @@ export class CloudfrontFieldLevelEncryptionConfigQueryArgProfileConfigQueryArgPr
   }
 
   // query_arg - computed: false, optional: false, required: true
-  private _queryArg?: string;
+  private _queryArg?: string; 
   public get queryArg() {
     return this.getStringAttribute('query_arg');
   }
@@ -720,7 +720,7 @@ export class CloudfrontFieldLevelEncryptionConfigQueryArgProfileConfigOutputRefe
   }
 
   // forward_when_query_arg_profile_is_unknown - computed: false, optional: false, required: true
-  private _forwardWhenQueryArgProfileIsUnknown?: boolean | cdktn.IResolvable;
+  private _forwardWhenQueryArgProfileIsUnknown?: boolean | cdktn.IResolvable; 
   public get forwardWhenQueryArgProfileIsUnknown() {
     return this.getBooleanAttribute('forward_when_query_arg_profile_is_unknown');
   }
@@ -820,7 +820,7 @@ export class CloudfrontFieldLevelEncryptionConfig extends cdktn.TerraformResourc
   }
 
   // comment - computed: false, optional: true, required: false
-  private _comment?: string;
+  private _comment?: string; 
   public get comment() {
     return this.getStringAttribute('comment');
   }
@@ -841,7 +841,7 @@ export class CloudfrontFieldLevelEncryptionConfig extends cdktn.TerraformResourc
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }

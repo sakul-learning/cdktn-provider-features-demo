@@ -26,13 +26,13 @@ export interface Elasticloadbalancingv2TargetGroupConfig extends cdktn.Terraform
   */
   readonly healthCheckPath?: string;
   /**
-  * The port the load balancer uses when performing health checks on targets.
+  * The port the load balancer uses when performing health checks on targets. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_target_group#health_check_port Elasticloadbalancingv2TargetGroup#health_check_port}
   */
   readonly healthCheckPort?: string;
   /**
-  * The protocol the load balancer uses when performing health checks on targets.
+  * The protocol the load balancer uses when performing health checks on targets. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_target_group#health_check_protocol Elasticloadbalancingv2TargetGroup#health_check_protocol}
   */
@@ -44,13 +44,13 @@ export interface Elasticloadbalancingv2TargetGroupConfig extends cdktn.Terraform
   */
   readonly healthCheckTimeoutSeconds?: number;
   /**
-  * The number of consecutive health checks successes required before considering an unhealthy target healthy.
+  * The number of consecutive health checks successes required before considering an unhealthy target healthy. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_target_group#healthy_threshold_count Elasticloadbalancingv2TargetGroup#healthy_threshold_count}
   */
   readonly healthyThresholdCount?: number;
   /**
-  * The type of IP address used for this target group. The possible values are ipv4 and ipv6.
+  * The type of IP address used for this target group. The possible values are ipv4 and ipv6. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_target_group#ip_address_type Elasticloadbalancingv2TargetGroup#ip_address_type}
   */
@@ -136,7 +136,7 @@ export interface Elasticloadbalancingv2TargetGroupMatcher {
   */
   readonly grpcCode?: string;
   /**
-  * For Application Load Balancers, you can specify values between 200 and 499, and the default value is 200. You can specify multiple values or a range of values.
+  * For Application Load Balancers, you can specify values between 200 and 499, and the default value is 200. You can specify multiple values or a range of values. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_target_group#http_code Elasticloadbalancingv2TargetGroup#http_code}
   */
@@ -228,7 +228,7 @@ export class Elasticloadbalancingv2TargetGroupMatcherOutputReference extends cdk
   }
 
   // grpc_code - computed: true, optional: true, required: false
-  private _grpcCode?: string;
+  private _grpcCode?: string; 
   public get grpcCode() {
     return this.getStringAttribute('grpc_code');
   }
@@ -244,7 +244,7 @@ export class Elasticloadbalancingv2TargetGroupMatcherOutputReference extends cdk
   }
 
   // http_code - computed: true, optional: true, required: false
-  private _httpCode?: string;
+  private _httpCode?: string; 
   public get httpCode() {
     return this.getStringAttribute('http_code');
   }
@@ -261,13 +261,13 @@ export class Elasticloadbalancingv2TargetGroupMatcherOutputReference extends cdk
 }
 export interface Elasticloadbalancingv2TargetGroupTags {
   /**
-  * The value for the tag.
+  * The value for the tag. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_target_group#key Elasticloadbalancingv2TargetGroup#key}
   */
   readonly key?: string;
   /**
-  * The key name of the tag.
+  * The key name of the tag. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_target_group#value Elasticloadbalancingv2TargetGroup#value}
   */
@@ -361,7 +361,7 @@ export class Elasticloadbalancingv2TargetGroupTagsOutputReference extends cdktn.
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -377,7 +377,7 @@ export class Elasticloadbalancingv2TargetGroupTagsOutputReference extends cdktn.
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -514,7 +514,7 @@ export class Elasticloadbalancingv2TargetGroupTargetGroupAttributesOutputReferen
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -530,7 +530,7 @@ export class Elasticloadbalancingv2TargetGroupTargetGroupAttributesOutputReferen
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -573,7 +573,7 @@ export interface Elasticloadbalancingv2TargetGroupTargets {
   */
   readonly availabilityZone?: string;
   /**
-  * The ID of the target. If the target type of the target group is instance, specify an instance ID. If the target type is ip, specify an IP address. If the target type is lambda, specify the ARN of the Lambda function. If the target type is alb, specify the ARN of the Application Load Balancer target.
+  * The ID of the target. If the target type of the target group is instance, specify an instance ID. If the target type is ip, specify an IP address. If the target type is lambda, specify the ARN of the Lambda function. If the target type is alb, specify the ARN of the Application Load Balancer target. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticloadbalancingv2_target_group#id Elasticloadbalancingv2TargetGroup#id}
   *
@@ -708,7 +708,7 @@ export class Elasticloadbalancingv2TargetGroupTargetsOutputReference extends cdk
   }
 
   // availability_zone - computed: true, optional: true, required: false
-  private _availabilityZone?: string;
+  private _availabilityZone?: string; 
   public get availabilityZone() {
     return this.getStringAttribute('availability_zone');
   }
@@ -724,7 +724,7 @@ export class Elasticloadbalancingv2TargetGroupTargetsOutputReference extends cdk
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -740,7 +740,7 @@ export class Elasticloadbalancingv2TargetGroupTargetsOutputReference extends cdk
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -756,7 +756,7 @@ export class Elasticloadbalancingv2TargetGroupTargetsOutputReference extends cdk
   }
 
   // quic_server_id - computed: true, optional: true, required: false
-  private _quicServerId?: string;
+  private _quicServerId?: string; 
   public get quicServerId() {
     return this.getStringAttribute('quic_server_id');
   }
@@ -869,7 +869,7 @@ export class Elasticloadbalancingv2TargetGroup extends cdktn.TerraformResource {
   // ==========
 
   // health_check_enabled - computed: true, optional: true, required: false
-  private _healthCheckEnabled?: boolean | cdktn.IResolvable;
+  private _healthCheckEnabled?: boolean | cdktn.IResolvable; 
   public get healthCheckEnabled() {
     return this.getBooleanAttribute('health_check_enabled');
   }
@@ -885,7 +885,7 @@ export class Elasticloadbalancingv2TargetGroup extends cdktn.TerraformResource {
   }
 
   // health_check_interval_seconds - computed: true, optional: true, required: false
-  private _healthCheckIntervalSeconds?: number;
+  private _healthCheckIntervalSeconds?: number; 
   public get healthCheckIntervalSeconds() {
     return this.getNumberAttribute('health_check_interval_seconds');
   }
@@ -901,7 +901,7 @@ export class Elasticloadbalancingv2TargetGroup extends cdktn.TerraformResource {
   }
 
   // health_check_path - computed: true, optional: true, required: false
-  private _healthCheckPath?: string;
+  private _healthCheckPath?: string; 
   public get healthCheckPath() {
     return this.getStringAttribute('health_check_path');
   }
@@ -917,7 +917,7 @@ export class Elasticloadbalancingv2TargetGroup extends cdktn.TerraformResource {
   }
 
   // health_check_port - computed: true, optional: true, required: false
-  private _healthCheckPort?: string;
+  private _healthCheckPort?: string; 
   public get healthCheckPort() {
     return this.getStringAttribute('health_check_port');
   }
@@ -933,7 +933,7 @@ export class Elasticloadbalancingv2TargetGroup extends cdktn.TerraformResource {
   }
 
   // health_check_protocol - computed: true, optional: true, required: false
-  private _healthCheckProtocol?: string;
+  private _healthCheckProtocol?: string; 
   public get healthCheckProtocol() {
     return this.getStringAttribute('health_check_protocol');
   }
@@ -949,7 +949,7 @@ export class Elasticloadbalancingv2TargetGroup extends cdktn.TerraformResource {
   }
 
   // health_check_timeout_seconds - computed: true, optional: true, required: false
-  private _healthCheckTimeoutSeconds?: number;
+  private _healthCheckTimeoutSeconds?: number; 
   public get healthCheckTimeoutSeconds() {
     return this.getNumberAttribute('health_check_timeout_seconds');
   }
@@ -965,7 +965,7 @@ export class Elasticloadbalancingv2TargetGroup extends cdktn.TerraformResource {
   }
 
   // healthy_threshold_count - computed: true, optional: true, required: false
-  private _healthyThresholdCount?: number;
+  private _healthyThresholdCount?: number; 
   public get healthyThresholdCount() {
     return this.getNumberAttribute('healthy_threshold_count');
   }
@@ -986,7 +986,7 @@ export class Elasticloadbalancingv2TargetGroup extends cdktn.TerraformResource {
   }
 
   // ip_address_type - computed: true, optional: true, required: false
-  private _ipAddressType?: string;
+  private _ipAddressType?: string; 
   public get ipAddressType() {
     return this.getStringAttribute('ip_address_type');
   }
@@ -1023,7 +1023,7 @@ export class Elasticloadbalancingv2TargetGroup extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1039,7 +1039,7 @@ export class Elasticloadbalancingv2TargetGroup extends cdktn.TerraformResource {
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -1055,7 +1055,7 @@ export class Elasticloadbalancingv2TargetGroup extends cdktn.TerraformResource {
   }
 
   // protocol - computed: true, optional: true, required: false
-  private _protocol?: string;
+  private _protocol?: string; 
   public get protocol() {
     return this.getStringAttribute('protocol');
   }
@@ -1071,7 +1071,7 @@ export class Elasticloadbalancingv2TargetGroup extends cdktn.TerraformResource {
   }
 
   // protocol_version - computed: true, optional: true, required: false
-  private _protocolVersion?: string;
+  private _protocolVersion?: string; 
   public get protocolVersion() {
     return this.getStringAttribute('protocol_version');
   }
@@ -1103,7 +1103,7 @@ export class Elasticloadbalancingv2TargetGroup extends cdktn.TerraformResource {
   }
 
   // target_control_port - computed: true, optional: true, required: false
-  private _targetControlPort?: number;
+  private _targetControlPort?: number; 
   public get targetControlPort() {
     return this.getNumberAttribute('target_control_port');
   }
@@ -1150,7 +1150,7 @@ export class Elasticloadbalancingv2TargetGroup extends cdktn.TerraformResource {
   }
 
   // target_type - computed: true, optional: true, required: false
-  private _targetType?: string;
+  private _targetType?: string; 
   public get targetType() {
     return this.getStringAttribute('target_type');
   }
@@ -1182,7 +1182,7 @@ export class Elasticloadbalancingv2TargetGroup extends cdktn.TerraformResource {
   }
 
   // unhealthy_threshold_count - computed: true, optional: true, required: false
-  private _unhealthyThresholdCount?: number;
+  private _unhealthyThresholdCount?: number; 
   public get unhealthyThresholdCount() {
     return this.getNumberAttribute('unhealthy_threshold_count');
   }
@@ -1198,7 +1198,7 @@ export class Elasticloadbalancingv2TargetGroup extends cdktn.TerraformResource {
   }
 
   // vpc_id - computed: true, optional: true, required: false
-  private _vpcId?: string;
+  private _vpcId?: string; 
   public get vpcId() {
     return this.getStringAttribute('vpc_id');
   }

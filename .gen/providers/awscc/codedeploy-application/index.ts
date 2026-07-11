@@ -20,7 +20,7 @@ export interface CodedeployApplicationConfig extends cdktn.TerraformMetaArgument
   */
   readonly computePlatform?: string;
   /**
-  * The metadata that you apply to CodeDeploy applications to help you organize and categorize them. Each tag consists of a key and an optional value, both of which you define.
+  * The metadata that you apply to CodeDeploy applications to help you organize and categorize them. Each tag consists of a key and an optional value, both of which you define. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codedeploy_application#tags CodedeployApplication#tags}
   */
@@ -124,7 +124,7 @@ export class CodedeployApplicationTagsOutputReference extends cdktn.ComplexObjec
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -140,7 +140,7 @@ export class CodedeployApplicationTagsOutputReference extends cdktn.ComplexObjec
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -236,7 +236,7 @@ export class CodedeployApplication extends cdktn.TerraformResource {
   // ==========
 
   // application_name - computed: true, optional: true, required: false
-  private _applicationName?: string;
+  private _applicationName?: string; 
   public get applicationName() {
     return this.getStringAttribute('application_name');
   }
@@ -252,7 +252,7 @@ export class CodedeployApplication extends cdktn.TerraformResource {
   }
 
   // compute_platform - computed: true, optional: true, required: false
-  private _computePlatform?: string;
+  private _computePlatform?: string; 
   public get computePlatform() {
     return this.getStringAttribute('compute_platform');
   }

@@ -213,7 +213,7 @@ export class WorkmailUser extends cdktn.TerraformResource {
   // ==========
 
   // city - computed: false, optional: true, required: false
-  private _city?: string;
+  private _city?: string; 
   public get city() {
     return this.getStringAttribute('city');
   }
@@ -229,7 +229,7 @@ export class WorkmailUser extends cdktn.TerraformResource {
   }
 
   // company - computed: false, optional: true, required: false
-  private _company?: string;
+  private _company?: string; 
   public get company() {
     return this.getStringAttribute('company');
   }
@@ -245,7 +245,7 @@ export class WorkmailUser extends cdktn.TerraformResource {
   }
 
   // country - computed: false, optional: true, required: false
-  private _country?: string;
+  private _country?: string; 
   public get country() {
     return this.getStringAttribute('country');
   }
@@ -261,7 +261,7 @@ export class WorkmailUser extends cdktn.TerraformResource {
   }
 
   // department - computed: false, optional: true, required: false
-  private _department?: string;
+  private _department?: string; 
   public get department() {
     return this.getStringAttribute('department');
   }
@@ -282,7 +282,7 @@ export class WorkmailUser extends cdktn.TerraformResource {
   }
 
   // display_name - computed: false, optional: false, required: true
-  private _displayName?: string;
+  private _displayName?: string; 
   public get displayName() {
     return this.getStringAttribute('display_name');
   }
@@ -295,7 +295,7 @@ export class WorkmailUser extends cdktn.TerraformResource {
   }
 
   // email - computed: false, optional: false, required: true
-  private _email?: string;
+  private _email?: string; 
   public get email() {
     return this.getStringAttribute('email');
   }
@@ -313,7 +313,7 @@ export class WorkmailUser extends cdktn.TerraformResource {
   }
 
   // first_name - computed: false, optional: true, required: false
-  private _firstName?: string;
+  private _firstName?: string; 
   public get firstName() {
     return this.getStringAttribute('first_name');
   }
@@ -329,7 +329,7 @@ export class WorkmailUser extends cdktn.TerraformResource {
   }
 
   // hidden_from_global_address_list - computed: true, optional: true, required: false
-  private _hiddenFromGlobalAddressList?: boolean | cdktn.IResolvable;
+  private _hiddenFromGlobalAddressList?: boolean | cdktn.IResolvable; 
   public get hiddenFromGlobalAddressList() {
     return this.getBooleanAttribute('hidden_from_global_address_list');
   }
@@ -350,7 +350,7 @@ export class WorkmailUser extends cdktn.TerraformResource {
   }
 
   // identity_provider_user_id - computed: false, optional: true, required: false
-  private _identityProviderUserId?: string;
+  private _identityProviderUserId?: string; 
   public get identityProviderUserId() {
     return this.getStringAttribute('identity_provider_user_id');
   }
@@ -366,7 +366,7 @@ export class WorkmailUser extends cdktn.TerraformResource {
   }
 
   // initials - computed: false, optional: true, required: false
-  private _initials?: string;
+  private _initials?: string; 
   public get initials() {
     return this.getStringAttribute('initials');
   }
@@ -382,7 +382,7 @@ export class WorkmailUser extends cdktn.TerraformResource {
   }
 
   // job_title - computed: false, optional: true, required: false
-  private _jobTitle?: string;
+  private _jobTitle?: string; 
   public get jobTitle() {
     return this.getStringAttribute('job_title');
   }
@@ -398,7 +398,7 @@ export class WorkmailUser extends cdktn.TerraformResource {
   }
 
   // last_name - computed: false, optional: true, required: false
-  private _lastName?: string;
+  private _lastName?: string; 
   public get lastName() {
     return this.getStringAttribute('last_name');
   }
@@ -424,7 +424,7 @@ export class WorkmailUser extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -437,7 +437,7 @@ export class WorkmailUser extends cdktn.TerraformResource {
   }
 
   // office - computed: false, optional: true, required: false
-  private _office?: string;
+  private _office?: string; 
   public get office() {
     return this.getStringAttribute('office');
   }
@@ -453,7 +453,7 @@ export class WorkmailUser extends cdktn.TerraformResource {
   }
 
   // organization_id - computed: false, optional: false, required: true
-  private _organizationId?: string;
+  private _organizationId?: string; 
   public get organizationId() {
     return this.getStringAttribute('organization_id');
   }
@@ -466,7 +466,7 @@ export class WorkmailUser extends cdktn.TerraformResource {
   }
 
   // password - computed: false, optional: true, required: false
-  private _password?: string;
+  private _password?: string; 
   public get password() {
     return this.getStringAttribute('password');
   }
@@ -482,7 +482,7 @@ export class WorkmailUser extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -503,7 +503,7 @@ export class WorkmailUser extends cdktn.TerraformResource {
   }
 
   // street - computed: false, optional: true, required: false
-  private _street?: string;
+  private _street?: string; 
   public get street() {
     return this.getStringAttribute('street');
   }
@@ -519,7 +519,7 @@ export class WorkmailUser extends cdktn.TerraformResource {
   }
 
   // telephone - computed: false, optional: true, required: false
-  private _telephone?: string;
+  private _telephone?: string; 
   public get telephone() {
     return this.getStringAttribute('telephone');
   }
@@ -540,7 +540,7 @@ export class WorkmailUser extends cdktn.TerraformResource {
   }
 
   // user_role - computed: true, optional: true, required: false
-  private _userRole?: string;
+  private _userRole?: string; 
   public get userRole() {
     return this.getStringAttribute('user_role');
   }
@@ -556,7 +556,7 @@ export class WorkmailUser extends cdktn.TerraformResource {
   }
 
   // zip_code - computed: false, optional: true, required: false
-  private _zipCode?: string;
+  private _zipCode?: string; 
   public get zipCode() {
     return this.getStringAttribute('zip_code');
   }

@@ -34,13 +34,13 @@ export interface CodeconnectionsConnectionConfig extends cdktn.TerraformMetaArgu
 }
 export interface CodeconnectionsConnectionTags {
   /**
-  * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
+  * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codeconnections_connection#key CodeconnectionsConnection#key}
   */
   readonly key?: string;
   /**
-  * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
+  * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codeconnections_connection#value CodeconnectionsConnection#value}
   */
@@ -134,7 +134,7 @@ export class CodeconnectionsConnectionTagsOutputReference extends cdktn.ComplexO
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -150,7 +150,7 @@ export class CodeconnectionsConnectionTagsOutputReference extends cdktn.ComplexO
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -252,7 +252,7 @@ export class CodeconnectionsConnection extends cdktn.TerraformResource {
   }
 
   // connection_name - computed: false, optional: false, required: true
-  private _connectionName?: string;
+  private _connectionName?: string; 
   public get connectionName() {
     return this.getStringAttribute('connection_name');
   }
@@ -270,7 +270,7 @@ export class CodeconnectionsConnection extends cdktn.TerraformResource {
   }
 
   // host_arn - computed: true, optional: true, required: false
-  private _hostArn?: string;
+  private _hostArn?: string; 
   public get hostArn() {
     return this.getStringAttribute('host_arn');
   }
@@ -296,7 +296,7 @@ export class CodeconnectionsConnection extends cdktn.TerraformResource {
   }
 
   // provider_type - computed: true, optional: true, required: false
-  private _providerType?: string;
+  private _providerType?: string; 
   public get providerType() {
     return this.getStringAttribute('provider_type');
   }

@@ -76,7 +76,7 @@ export class VerifiedpermissionsPolicyStoreAlias extends cdktn.TerraformResource
   // ==========
 
   // alias_name - computed: false, optional: false, required: true
-  private _aliasName?: string;
+  private _aliasName?: string; 
   public get aliasName() {
     return this.getStringAttribute('alias_name');
   }
@@ -94,7 +94,7 @@ export class VerifiedpermissionsPolicyStoreAlias extends cdktn.TerraformResource
   }
 
   // policy_store_id - computed: false, optional: false, required: true
-  private _policyStoreId?: string;
+  private _policyStoreId?: string; 
   public get policyStoreId() {
     return this.getStringAttribute('policy_store_id');
   }

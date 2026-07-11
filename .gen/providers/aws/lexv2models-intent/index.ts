@@ -1,52 +1,52 @@
 // generated from terraform resource schema
 
-import { Lexv2ModelsIntentClosingSetting,
-lexv2ModelsIntentClosingSettingToTerraform,
-lexv2ModelsIntentClosingSettingToHclTerraform,
-Lexv2ModelsIntentClosingSettingList,
-Lexv2ModelsIntentConfirmationSetting,
-lexv2ModelsIntentConfirmationSettingToTerraform,
-lexv2ModelsIntentConfirmationSettingToHclTerraform,
-Lexv2ModelsIntentConfirmationSettingList,
-Lexv2ModelsIntentDialogCodeHook,
-lexv2ModelsIntentDialogCodeHookToTerraform,
-lexv2ModelsIntentDialogCodeHookToHclTerraform,
-Lexv2ModelsIntentDialogCodeHookList,
-Lexv2ModelsIntentFulfillmentCodeHook,
-lexv2ModelsIntentFulfillmentCodeHookToTerraform,
-lexv2ModelsIntentFulfillmentCodeHookToHclTerraform,
-Lexv2ModelsIntentFulfillmentCodeHookList,
-Lexv2ModelsIntentInitialResponseSetting,
-lexv2ModelsIntentInitialResponseSettingToTerraform,
-lexv2ModelsIntentInitialResponseSettingToHclTerraform,
-Lexv2ModelsIntentInitialResponseSettingList,
-Lexv2ModelsIntentInputContext,
-lexv2ModelsIntentInputContextToTerraform,
-lexv2ModelsIntentInputContextToHclTerraform,
-Lexv2ModelsIntentInputContextList,
-Lexv2ModelsIntentKendraConfiguration,
-lexv2ModelsIntentKendraConfigurationToTerraform,
-lexv2ModelsIntentKendraConfigurationToHclTerraform,
-Lexv2ModelsIntentKendraConfigurationList,
-Lexv2ModelsIntentOutputContext,
-lexv2ModelsIntentOutputContextToTerraform,
-lexv2ModelsIntentOutputContextToHclTerraform,
-Lexv2ModelsIntentOutputContextList,
-Lexv2ModelsIntentQnaIntentConfiguration,
-lexv2ModelsIntentQnaIntentConfigurationToTerraform,
-lexv2ModelsIntentQnaIntentConfigurationToHclTerraform,
-Lexv2ModelsIntentQnaIntentConfigurationList,
-Lexv2ModelsIntentSampleUtterance,
-lexv2ModelsIntentSampleUtteranceToTerraform,
-lexv2ModelsIntentSampleUtteranceToHclTerraform,
-Lexv2ModelsIntentSampleUtteranceList,
-Lexv2ModelsIntentSlotPriority,
-lexv2ModelsIntentSlotPriorityToTerraform,
-lexv2ModelsIntentSlotPriorityToHclTerraform,
-Lexv2ModelsIntentSlotPriorityList,
-Lexv2ModelsIntentTimeouts,
-lexv2ModelsIntentTimeoutsToTerraform,
-lexv2ModelsIntentTimeoutsToHclTerraform,
+import { Lexv2ModelsIntentClosingSetting, 
+lexv2ModelsIntentClosingSettingToTerraform, 
+lexv2ModelsIntentClosingSettingToHclTerraform, 
+Lexv2ModelsIntentClosingSettingList, 
+Lexv2ModelsIntentConfirmationSetting, 
+lexv2ModelsIntentConfirmationSettingToTerraform, 
+lexv2ModelsIntentConfirmationSettingToHclTerraform, 
+Lexv2ModelsIntentConfirmationSettingList, 
+Lexv2ModelsIntentDialogCodeHook, 
+lexv2ModelsIntentDialogCodeHookToTerraform, 
+lexv2ModelsIntentDialogCodeHookToHclTerraform, 
+Lexv2ModelsIntentDialogCodeHookList, 
+Lexv2ModelsIntentFulfillmentCodeHook, 
+lexv2ModelsIntentFulfillmentCodeHookToTerraform, 
+lexv2ModelsIntentFulfillmentCodeHookToHclTerraform, 
+Lexv2ModelsIntentFulfillmentCodeHookList, 
+Lexv2ModelsIntentInitialResponseSetting, 
+lexv2ModelsIntentInitialResponseSettingToTerraform, 
+lexv2ModelsIntentInitialResponseSettingToHclTerraform, 
+Lexv2ModelsIntentInitialResponseSettingList, 
+Lexv2ModelsIntentInputContext, 
+lexv2ModelsIntentInputContextToTerraform, 
+lexv2ModelsIntentInputContextToHclTerraform, 
+Lexv2ModelsIntentInputContextList, 
+Lexv2ModelsIntentKendraConfiguration, 
+lexv2ModelsIntentKendraConfigurationToTerraform, 
+lexv2ModelsIntentKendraConfigurationToHclTerraform, 
+Lexv2ModelsIntentKendraConfigurationList, 
+Lexv2ModelsIntentOutputContext, 
+lexv2ModelsIntentOutputContextToTerraform, 
+lexv2ModelsIntentOutputContextToHclTerraform, 
+Lexv2ModelsIntentOutputContextList, 
+Lexv2ModelsIntentQnaIntentConfiguration, 
+lexv2ModelsIntentQnaIntentConfigurationToTerraform, 
+lexv2ModelsIntentQnaIntentConfigurationToHclTerraform, 
+Lexv2ModelsIntentQnaIntentConfigurationList, 
+Lexv2ModelsIntentSampleUtterance, 
+lexv2ModelsIntentSampleUtteranceToTerraform, 
+lexv2ModelsIntentSampleUtteranceToHclTerraform, 
+Lexv2ModelsIntentSampleUtteranceList, 
+Lexv2ModelsIntentSlotPriority, 
+lexv2ModelsIntentSlotPriorityToTerraform, 
+lexv2ModelsIntentSlotPriorityToHclTerraform, 
+Lexv2ModelsIntentSlotPriorityList, 
+Lexv2ModelsIntentTimeouts, 
+lexv2ModelsIntentTimeoutsToTerraform, 
+lexv2ModelsIntentTimeoutsToHclTerraform, 
 Lexv2ModelsIntentTimeoutsOutputReference} from './index-structs/index.js';
 export * from './index-structs/index.js';
 import { Construct } from 'constructs';
@@ -232,7 +232,7 @@ export class Lexv2ModelsIntent extends cdktn.TerraformResource {
   // ==========
 
   // bot_id - computed: false, optional: false, required: true
-  private _botId?: string;
+  private _botId?: string; 
   public get botId() {
     return this.getStringAttribute('bot_id');
   }
@@ -245,7 +245,7 @@ export class Lexv2ModelsIntent extends cdktn.TerraformResource {
   }
 
   // bot_version - computed: false, optional: false, required: true
-  private _botVersion?: string;
+  private _botVersion?: string; 
   public get botVersion() {
     return this.getStringAttribute('bot_version');
   }
@@ -263,7 +263,7 @@ export class Lexv2ModelsIntent extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -294,7 +294,7 @@ export class Lexv2ModelsIntent extends cdktn.TerraformResource {
   }
 
   // locale_id - computed: false, optional: false, required: true
-  private _localeId?: string;
+  private _localeId?: string; 
   public get localeId() {
     return this.getStringAttribute('locale_id');
   }
@@ -307,7 +307,7 @@ export class Lexv2ModelsIntent extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -320,7 +320,7 @@ export class Lexv2ModelsIntent extends cdktn.TerraformResource {
   }
 
   // parent_intent_signature - computed: false, optional: true, required: false
-  private _parentIntentSignature?: string;
+  private _parentIntentSignature?: string; 
   public get parentIntentSignature() {
     return this.getStringAttribute('parent_intent_signature');
   }
@@ -336,7 +336,7 @@ export class Lexv2ModelsIntent extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

@@ -126,7 +126,7 @@ export class DevopsagentAgentSpaceOperatorAppIamOutputReference extends cdktn.Co
   }
 
   // operator_app_role_arn - computed: true, optional: true, required: false
-  private _operatorAppRoleArn?: string;
+  private _operatorAppRoleArn?: string; 
   public get operatorAppRoleArn() {
     return this.getStringAttribute('operator_app_role_arn');
   }
@@ -252,7 +252,7 @@ export class DevopsagentAgentSpaceOperatorAppIdcOutputReference extends cdktn.Co
   }
 
   // idc_instance_arn - computed: true, optional: true, required: false
-  private _idcInstanceArn?: string;
+  private _idcInstanceArn?: string; 
   public get idcInstanceArn() {
     return this.getStringAttribute('idc_instance_arn');
   }
@@ -268,7 +268,7 @@ export class DevopsagentAgentSpaceOperatorAppIdcOutputReference extends cdktn.Co
   }
 
   // operator_app_role_arn - computed: true, optional: true, required: false
-  private _operatorAppRoleArn?: string;
+  private _operatorAppRoleArn?: string; 
   public get operatorAppRoleArn() {
     return this.getStringAttribute('operator_app_role_arn');
   }
@@ -517,7 +517,7 @@ export class DevopsagentAgentSpaceTagsOutputReference extends cdktn.ComplexObjec
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -533,7 +533,7 @@ export class DevopsagentAgentSpaceTagsOutputReference extends cdktn.ComplexObjec
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -647,7 +647,7 @@ export class DevopsagentAgentSpace extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -668,7 +668,7 @@ export class DevopsagentAgentSpace extends cdktn.TerraformResource {
   }
 
   // kms_key_arn - computed: true, optional: true, required: false
-  private _kmsKeyArn?: string;
+  private _kmsKeyArn?: string; 
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -684,7 +684,7 @@ export class DevopsagentAgentSpace extends cdktn.TerraformResource {
   }
 
   // locale - computed: true, optional: true, required: false
-  private _locale?: string;
+  private _locale?: string; 
   public get locale() {
     return this.getStringAttribute('locale');
   }
@@ -700,7 +700,7 @@ export class DevopsagentAgentSpace extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }

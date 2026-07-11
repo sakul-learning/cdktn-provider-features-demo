@@ -122,7 +122,7 @@ export class ConfigConfigurationRecorderRecordingGroupExclusionByResourceTypesOu
   }
 
   // resource_types - computed: false, optional: true, required: false
-  private _resourceTypes?: string[];
+  private _resourceTypes?: string[]; 
   public get resourceTypes() {
     return cdktn.Fn.tolist(this.getListAttribute('resource_types'));
   }
@@ -238,7 +238,7 @@ export class ConfigConfigurationRecorderRecordingGroupRecordingStrategyOutputRef
   }
 
   // use_only - computed: false, optional: true, required: false
-  private _useOnly?: string;
+  private _useOnly?: string; 
   public get useOnly() {
     return this.getStringAttribute('use_only');
   }
@@ -414,7 +414,7 @@ export class ConfigConfigurationRecorderRecordingGroupOutputReference extends cd
   }
 
   // all_supported - computed: false, optional: true, required: false
-  private _allSupported?: boolean | cdktn.IResolvable;
+  private _allSupported?: boolean | cdktn.IResolvable; 
   public get allSupported() {
     return this.getBooleanAttribute('all_supported');
   }
@@ -430,7 +430,7 @@ export class ConfigConfigurationRecorderRecordingGroupOutputReference extends cd
   }
 
   // include_global_resource_types - computed: false, optional: true, required: false
-  private _includeGlobalResourceTypes?: boolean | cdktn.IResolvable;
+  private _includeGlobalResourceTypes?: boolean | cdktn.IResolvable; 
   public get includeGlobalResourceTypes() {
     return this.getBooleanAttribute('include_global_resource_types');
   }
@@ -446,7 +446,7 @@ export class ConfigConfigurationRecorderRecordingGroupOutputReference extends cd
   }
 
   // resource_types - computed: false, optional: true, required: false
-  private _resourceTypes?: string[];
+  private _resourceTypes?: string[]; 
   public get resourceTypes() {
     return cdktn.Fn.tolist(this.getListAttribute('resource_types'));
   }
@@ -596,7 +596,7 @@ export class ConfigConfigurationRecorderRecordingModeRecordingModeOverrideOutput
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -612,7 +612,7 @@ export class ConfigConfigurationRecorderRecordingModeRecordingModeOverrideOutput
   }
 
   // recording_frequency - computed: false, optional: false, required: true
-  private _recordingFrequency?: string;
+  private _recordingFrequency?: string; 
   public get recordingFrequency() {
     return this.getStringAttribute('recording_frequency');
   }
@@ -625,7 +625,7 @@ export class ConfigConfigurationRecorderRecordingModeRecordingModeOverrideOutput
   }
 
   // resource_types - computed: false, optional: false, required: true
-  private _resourceTypes?: string[];
+  private _resourceTypes?: string[]; 
   public get resourceTypes() {
     return cdktn.Fn.tolist(this.getListAttribute('resource_types'));
   }
@@ -725,7 +725,7 @@ export class ConfigConfigurationRecorderRecordingModeOutputReference extends cdk
   }
 
   // recording_frequency - computed: false, optional: true, required: false
-  private _recordingFrequency?: string;
+  private _recordingFrequency?: string; 
   public get recordingFrequency() {
     return this.getStringAttribute('recording_frequency');
   }
@@ -820,7 +820,7 @@ export class ConfigConfigurationRecorder extends cdktn.TerraformResource {
   // ==========
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -836,7 +836,7 @@ export class ConfigConfigurationRecorder extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -852,7 +852,7 @@ export class ConfigConfigurationRecorder extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -868,7 +868,7 @@ export class ConfigConfigurationRecorder extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }

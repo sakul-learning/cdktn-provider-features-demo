@@ -99,7 +99,7 @@ export class Route53RecoverycontrolconfigControlPanel extends cdktn.TerraformRes
   }
 
   // cluster_arn - computed: false, optional: false, required: true
-  private _clusterArn?: string;
+  private _clusterArn?: string; 
   public get clusterArn() {
     return this.getStringAttribute('cluster_arn');
   }
@@ -117,7 +117,7 @@ export class Route53RecoverycontrolconfigControlPanel extends cdktn.TerraformRes
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -133,7 +133,7 @@ export class Route53RecoverycontrolconfigControlPanel extends cdktn.TerraformRes
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -156,7 +156,7 @@ export class Route53RecoverycontrolconfigControlPanel extends cdktn.TerraformRes
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -172,7 +172,7 @@ export class Route53RecoverycontrolconfigControlPanel extends cdktn.TerraformRes
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

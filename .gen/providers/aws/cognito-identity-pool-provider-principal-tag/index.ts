@@ -101,7 +101,7 @@ export class CognitoIdentityPoolProviderPrincipalTag extends cdktn.TerraformReso
   // ==========
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -117,7 +117,7 @@ export class CognitoIdentityPoolProviderPrincipalTag extends cdktn.TerraformReso
   }
 
   // identity_pool_id - computed: false, optional: false, required: true
-  private _identityPoolId?: string;
+  private _identityPoolId?: string; 
   public get identityPoolId() {
     return this.getStringAttribute('identity_pool_id');
   }
@@ -130,7 +130,7 @@ export class CognitoIdentityPoolProviderPrincipalTag extends cdktn.TerraformReso
   }
 
   // identity_provider_name - computed: false, optional: false, required: true
-  private _identityProviderName?: string;
+  private _identityProviderName?: string; 
   public get identityProviderName() {
     return this.getStringAttribute('identity_provider_name');
   }
@@ -143,7 +143,7 @@ export class CognitoIdentityPoolProviderPrincipalTag extends cdktn.TerraformReso
   }
 
   // principal_tags - computed: false, optional: true, required: false
-  private _principalTags?: { [key: string]: string };
+  private _principalTags?: { [key: string]: string }; 
   public get principalTags() {
     return this.getStringMapAttribute('principal_tags');
   }
@@ -159,7 +159,7 @@ export class CognitoIdentityPoolProviderPrincipalTag extends cdktn.TerraformReso
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -175,7 +175,7 @@ export class CognitoIdentityPoolProviderPrincipalTag extends cdktn.TerraformReso
   }
 
   // use_defaults - computed: false, optional: true, required: false
-  private _useDefaults?: boolean | cdktn.IResolvable;
+  private _useDefaults?: boolean | cdktn.IResolvable; 
   public get useDefaults() {
     return this.getBooleanAttribute('use_defaults');
   }

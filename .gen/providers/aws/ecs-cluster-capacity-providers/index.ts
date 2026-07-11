@@ -150,7 +150,7 @@ export class EcsClusterCapacityProvidersDefaultCapacityProviderStrategyOutputRef
   }
 
   // base - computed: false, optional: true, required: false
-  private _base?: number;
+  private _base?: number; 
   public get base() {
     return this.getNumberAttribute('base');
   }
@@ -166,7 +166,7 @@ export class EcsClusterCapacityProvidersDefaultCapacityProviderStrategyOutputRef
   }
 
   // capacity_provider - computed: false, optional: false, required: true
-  private _capacityProvider?: string;
+  private _capacityProvider?: string; 
   public get capacityProvider() {
     return this.getStringAttribute('capacity_provider');
   }
@@ -179,7 +179,7 @@ export class EcsClusterCapacityProvidersDefaultCapacityProviderStrategyOutputRef
   }
 
   // weight - computed: false, optional: true, required: false
-  private _weight?: number;
+  private _weight?: number; 
   public get weight() {
     return this.getNumberAttribute('weight');
   }
@@ -277,7 +277,7 @@ export class EcsClusterCapacityProviders extends cdktn.TerraformResource {
   // ==========
 
   // capacity_providers - computed: false, optional: true, required: false
-  private _capacityProviders?: string[];
+  private _capacityProviders?: string[]; 
   public get capacityProviders() {
     return cdktn.Fn.tolist(this.getListAttribute('capacity_providers'));
   }
@@ -293,7 +293,7 @@ export class EcsClusterCapacityProviders extends cdktn.TerraformResource {
   }
 
   // cluster_name - computed: false, optional: false, required: true
-  private _clusterName?: string;
+  private _clusterName?: string; 
   public get clusterName() {
     return this.getStringAttribute('cluster_name');
   }
@@ -306,7 +306,7 @@ export class EcsClusterCapacityProviders extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -322,7 +322,7 @@ export class EcsClusterCapacityProviders extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

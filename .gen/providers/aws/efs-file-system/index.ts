@@ -269,7 +269,7 @@ export class EfsFileSystemLifecyclePolicyOutputReference extends cdktn.ComplexOb
   }
 
   // transition_to_archive - computed: false, optional: true, required: false
-  private _transitionToArchive?: string;
+  private _transitionToArchive?: string; 
   public get transitionToArchive() {
     return this.getStringAttribute('transition_to_archive');
   }
@@ -285,7 +285,7 @@ export class EfsFileSystemLifecyclePolicyOutputReference extends cdktn.ComplexOb
   }
 
   // transition_to_ia - computed: false, optional: true, required: false
-  private _transitionToIa?: string;
+  private _transitionToIa?: string; 
   public get transitionToIa() {
     return this.getStringAttribute('transition_to_ia');
   }
@@ -301,7 +301,7 @@ export class EfsFileSystemLifecyclePolicyOutputReference extends cdktn.ComplexOb
   }
 
   // transition_to_primary_storage_class - computed: false, optional: true, required: false
-  private _transitionToPrimaryStorageClass?: string;
+  private _transitionToPrimaryStorageClass?: string; 
   public get transitionToPrimaryStorageClass() {
     return this.getStringAttribute('transition_to_primary_storage_class');
   }
@@ -405,7 +405,7 @@ export class EfsFileSystemProtectionOutputReference extends cdktn.ComplexObject 
   }
 
   // replication_overwrite - computed: true, optional: true, required: false
-  private _replicationOverwrite?: string;
+  private _replicationOverwrite?: string; 
   public get replicationOverwrite() {
     return this.getStringAttribute('replication_overwrite');
   }
@@ -501,7 +501,7 @@ export class EfsFileSystem extends cdktn.TerraformResource {
   }
 
   // availability_zone_name - computed: true, optional: true, required: false
-  private _availabilityZoneName?: string;
+  private _availabilityZoneName?: string; 
   public get availabilityZoneName() {
     return this.getStringAttribute('availability_zone_name');
   }
@@ -517,7 +517,7 @@ export class EfsFileSystem extends cdktn.TerraformResource {
   }
 
   // creation_token - computed: true, optional: true, required: false
-  private _creationToken?: string;
+  private _creationToken?: string; 
   public get creationToken() {
     return this.getStringAttribute('creation_token');
   }
@@ -538,7 +538,7 @@ export class EfsFileSystem extends cdktn.TerraformResource {
   }
 
   // encrypted - computed: true, optional: true, required: false
-  private _encrypted?: boolean | cdktn.IResolvable;
+  private _encrypted?: boolean | cdktn.IResolvable; 
   public get encrypted() {
     return this.getBooleanAttribute('encrypted');
   }
@@ -554,7 +554,7 @@ export class EfsFileSystem extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -570,7 +570,7 @@ export class EfsFileSystem extends cdktn.TerraformResource {
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -601,7 +601,7 @@ export class EfsFileSystem extends cdktn.TerraformResource {
   }
 
   // performance_mode - computed: true, optional: true, required: false
-  private _performanceMode?: string;
+  private _performanceMode?: string; 
   public get performanceMode() {
     return this.getStringAttribute('performance_mode');
   }
@@ -617,7 +617,7 @@ export class EfsFileSystem extends cdktn.TerraformResource {
   }
 
   // provisioned_throughput_in_mibps - computed: false, optional: true, required: false
-  private _provisionedThroughputInMibps?: number;
+  private _provisionedThroughputInMibps?: number; 
   public get provisionedThroughputInMibps() {
     return this.getNumberAttribute('provisioned_throughput_in_mibps');
   }
@@ -633,7 +633,7 @@ export class EfsFileSystem extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -655,7 +655,7 @@ export class EfsFileSystem extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -671,7 +671,7 @@ export class EfsFileSystem extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -687,7 +687,7 @@ export class EfsFileSystem extends cdktn.TerraformResource {
   }
 
   // throughput_mode - computed: false, optional: true, required: false
-  private _throughputMode?: string;
+  private _throughputMode?: string; 
   public get throughputMode() {
     return this.getStringAttribute('throughput_mode');
   }

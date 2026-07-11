@@ -108,7 +108,7 @@ export class NetworkmanagerCoreNetworkPolicyAttachmentTimeoutsOutputReference ex
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -185,7 +185,7 @@ export class NetworkmanagerCoreNetworkPolicyAttachment extends cdktn.TerraformRe
   // ==========
 
   // core_network_id - computed: false, optional: false, required: true
-  private _coreNetworkId?: string;
+  private _coreNetworkId?: string; 
   public get coreNetworkId() {
     return this.getStringAttribute('core_network_id');
   }
@@ -198,7 +198,7 @@ export class NetworkmanagerCoreNetworkPolicyAttachment extends cdktn.TerraformRe
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -214,7 +214,7 @@ export class NetworkmanagerCoreNetworkPolicyAttachment extends cdktn.TerraformRe
   }
 
   // policy_document - computed: false, optional: false, required: true
-  private _policyDocument?: string;
+  private _policyDocument?: string; 
   public get policyDocument() {
     return this.getStringAttribute('policy_document');
   }

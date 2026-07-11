@@ -339,7 +339,7 @@ export class CustomerprofilesProfileAddressOutputReference extends cdktn.Complex
   }
 
   // address_1 - computed: false, optional: true, required: false
-  private _address1?: string;
+  private _address1?: string; 
   public get address1() {
     return this.getStringAttribute('address_1');
   }
@@ -355,7 +355,7 @@ export class CustomerprofilesProfileAddressOutputReference extends cdktn.Complex
   }
 
   // address_2 - computed: false, optional: true, required: false
-  private _address2?: string;
+  private _address2?: string; 
   public get address2() {
     return this.getStringAttribute('address_2');
   }
@@ -371,7 +371,7 @@ export class CustomerprofilesProfileAddressOutputReference extends cdktn.Complex
   }
 
   // address_3 - computed: false, optional: true, required: false
-  private _address3?: string;
+  private _address3?: string; 
   public get address3() {
     return this.getStringAttribute('address_3');
   }
@@ -387,7 +387,7 @@ export class CustomerprofilesProfileAddressOutputReference extends cdktn.Complex
   }
 
   // address_4 - computed: false, optional: true, required: false
-  private _address4?: string;
+  private _address4?: string; 
   public get address4() {
     return this.getStringAttribute('address_4');
   }
@@ -403,7 +403,7 @@ export class CustomerprofilesProfileAddressOutputReference extends cdktn.Complex
   }
 
   // city - computed: false, optional: true, required: false
-  private _city?: string;
+  private _city?: string; 
   public get city() {
     return this.getStringAttribute('city');
   }
@@ -419,7 +419,7 @@ export class CustomerprofilesProfileAddressOutputReference extends cdktn.Complex
   }
 
   // country - computed: false, optional: true, required: false
-  private _country?: string;
+  private _country?: string; 
   public get country() {
     return this.getStringAttribute('country');
   }
@@ -435,7 +435,7 @@ export class CustomerprofilesProfileAddressOutputReference extends cdktn.Complex
   }
 
   // county - computed: false, optional: true, required: false
-  private _county?: string;
+  private _county?: string; 
   public get county() {
     return this.getStringAttribute('county');
   }
@@ -451,7 +451,7 @@ export class CustomerprofilesProfileAddressOutputReference extends cdktn.Complex
   }
 
   // postal_code - computed: false, optional: true, required: false
-  private _postalCode?: string;
+  private _postalCode?: string; 
   public get postalCode() {
     return this.getStringAttribute('postal_code');
   }
@@ -467,7 +467,7 @@ export class CustomerprofilesProfileAddressOutputReference extends cdktn.Complex
   }
 
   // province - computed: false, optional: true, required: false
-  private _province?: string;
+  private _province?: string; 
   public get province() {
     return this.getStringAttribute('province');
   }
@@ -483,7 +483,7 @@ export class CustomerprofilesProfileAddressOutputReference extends cdktn.Complex
   }
 
   // state - computed: false, optional: true, required: false
-  private _state?: string;
+  private _state?: string; 
   public get state() {
     return this.getStringAttribute('state');
   }
@@ -720,7 +720,7 @@ export class CustomerprofilesProfileBillingAddressOutputReference extends cdktn.
   }
 
   // address_1 - computed: false, optional: true, required: false
-  private _address1?: string;
+  private _address1?: string; 
   public get address1() {
     return this.getStringAttribute('address_1');
   }
@@ -736,7 +736,7 @@ export class CustomerprofilesProfileBillingAddressOutputReference extends cdktn.
   }
 
   // address_2 - computed: false, optional: true, required: false
-  private _address2?: string;
+  private _address2?: string; 
   public get address2() {
     return this.getStringAttribute('address_2');
   }
@@ -752,7 +752,7 @@ export class CustomerprofilesProfileBillingAddressOutputReference extends cdktn.
   }
 
   // address_3 - computed: false, optional: true, required: false
-  private _address3?: string;
+  private _address3?: string; 
   public get address3() {
     return this.getStringAttribute('address_3');
   }
@@ -768,7 +768,7 @@ export class CustomerprofilesProfileBillingAddressOutputReference extends cdktn.
   }
 
   // address_4 - computed: false, optional: true, required: false
-  private _address4?: string;
+  private _address4?: string; 
   public get address4() {
     return this.getStringAttribute('address_4');
   }
@@ -784,7 +784,7 @@ export class CustomerprofilesProfileBillingAddressOutputReference extends cdktn.
   }
 
   // city - computed: false, optional: true, required: false
-  private _city?: string;
+  private _city?: string; 
   public get city() {
     return this.getStringAttribute('city');
   }
@@ -800,7 +800,7 @@ export class CustomerprofilesProfileBillingAddressOutputReference extends cdktn.
   }
 
   // country - computed: false, optional: true, required: false
-  private _country?: string;
+  private _country?: string; 
   public get country() {
     return this.getStringAttribute('country');
   }
@@ -816,7 +816,7 @@ export class CustomerprofilesProfileBillingAddressOutputReference extends cdktn.
   }
 
   // county - computed: false, optional: true, required: false
-  private _county?: string;
+  private _county?: string; 
   public get county() {
     return this.getStringAttribute('county');
   }
@@ -832,7 +832,7 @@ export class CustomerprofilesProfileBillingAddressOutputReference extends cdktn.
   }
 
   // postal_code - computed: false, optional: true, required: false
-  private _postalCode?: string;
+  private _postalCode?: string; 
   public get postalCode() {
     return this.getStringAttribute('postal_code');
   }
@@ -848,7 +848,7 @@ export class CustomerprofilesProfileBillingAddressOutputReference extends cdktn.
   }
 
   // province - computed: false, optional: true, required: false
-  private _province?: string;
+  private _province?: string; 
   public get province() {
     return this.getStringAttribute('province');
   }
@@ -864,7 +864,7 @@ export class CustomerprofilesProfileBillingAddressOutputReference extends cdktn.
   }
 
   // state - computed: false, optional: true, required: false
-  private _state?: string;
+  private _state?: string; 
   public get state() {
     return this.getStringAttribute('state');
   }
@@ -1101,7 +1101,7 @@ export class CustomerprofilesProfileMailingAddressOutputReference extends cdktn.
   }
 
   // address_1 - computed: false, optional: true, required: false
-  private _address1?: string;
+  private _address1?: string; 
   public get address1() {
     return this.getStringAttribute('address_1');
   }
@@ -1117,7 +1117,7 @@ export class CustomerprofilesProfileMailingAddressOutputReference extends cdktn.
   }
 
   // address_2 - computed: false, optional: true, required: false
-  private _address2?: string;
+  private _address2?: string; 
   public get address2() {
     return this.getStringAttribute('address_2');
   }
@@ -1133,7 +1133,7 @@ export class CustomerprofilesProfileMailingAddressOutputReference extends cdktn.
   }
 
   // address_3 - computed: false, optional: true, required: false
-  private _address3?: string;
+  private _address3?: string; 
   public get address3() {
     return this.getStringAttribute('address_3');
   }
@@ -1149,7 +1149,7 @@ export class CustomerprofilesProfileMailingAddressOutputReference extends cdktn.
   }
 
   // address_4 - computed: false, optional: true, required: false
-  private _address4?: string;
+  private _address4?: string; 
   public get address4() {
     return this.getStringAttribute('address_4');
   }
@@ -1165,7 +1165,7 @@ export class CustomerprofilesProfileMailingAddressOutputReference extends cdktn.
   }
 
   // city - computed: false, optional: true, required: false
-  private _city?: string;
+  private _city?: string; 
   public get city() {
     return this.getStringAttribute('city');
   }
@@ -1181,7 +1181,7 @@ export class CustomerprofilesProfileMailingAddressOutputReference extends cdktn.
   }
 
   // country - computed: false, optional: true, required: false
-  private _country?: string;
+  private _country?: string; 
   public get country() {
     return this.getStringAttribute('country');
   }
@@ -1197,7 +1197,7 @@ export class CustomerprofilesProfileMailingAddressOutputReference extends cdktn.
   }
 
   // county - computed: false, optional: true, required: false
-  private _county?: string;
+  private _county?: string; 
   public get county() {
     return this.getStringAttribute('county');
   }
@@ -1213,7 +1213,7 @@ export class CustomerprofilesProfileMailingAddressOutputReference extends cdktn.
   }
 
   // postal_code - computed: false, optional: true, required: false
-  private _postalCode?: string;
+  private _postalCode?: string; 
   public get postalCode() {
     return this.getStringAttribute('postal_code');
   }
@@ -1229,7 +1229,7 @@ export class CustomerprofilesProfileMailingAddressOutputReference extends cdktn.
   }
 
   // province - computed: false, optional: true, required: false
-  private _province?: string;
+  private _province?: string; 
   public get province() {
     return this.getStringAttribute('province');
   }
@@ -1245,7 +1245,7 @@ export class CustomerprofilesProfileMailingAddressOutputReference extends cdktn.
   }
 
   // state - computed: false, optional: true, required: false
-  private _state?: string;
+  private _state?: string; 
   public get state() {
     return this.getStringAttribute('state');
   }
@@ -1482,7 +1482,7 @@ export class CustomerprofilesProfileShippingAddressOutputReference extends cdktn
   }
 
   // address_1 - computed: false, optional: true, required: false
-  private _address1?: string;
+  private _address1?: string; 
   public get address1() {
     return this.getStringAttribute('address_1');
   }
@@ -1498,7 +1498,7 @@ export class CustomerprofilesProfileShippingAddressOutputReference extends cdktn
   }
 
   // address_2 - computed: false, optional: true, required: false
-  private _address2?: string;
+  private _address2?: string; 
   public get address2() {
     return this.getStringAttribute('address_2');
   }
@@ -1514,7 +1514,7 @@ export class CustomerprofilesProfileShippingAddressOutputReference extends cdktn
   }
 
   // address_3 - computed: false, optional: true, required: false
-  private _address3?: string;
+  private _address3?: string; 
   public get address3() {
     return this.getStringAttribute('address_3');
   }
@@ -1530,7 +1530,7 @@ export class CustomerprofilesProfileShippingAddressOutputReference extends cdktn
   }
 
   // address_4 - computed: false, optional: true, required: false
-  private _address4?: string;
+  private _address4?: string; 
   public get address4() {
     return this.getStringAttribute('address_4');
   }
@@ -1546,7 +1546,7 @@ export class CustomerprofilesProfileShippingAddressOutputReference extends cdktn
   }
 
   // city - computed: false, optional: true, required: false
-  private _city?: string;
+  private _city?: string; 
   public get city() {
     return this.getStringAttribute('city');
   }
@@ -1562,7 +1562,7 @@ export class CustomerprofilesProfileShippingAddressOutputReference extends cdktn
   }
 
   // country - computed: false, optional: true, required: false
-  private _country?: string;
+  private _country?: string; 
   public get country() {
     return this.getStringAttribute('country');
   }
@@ -1578,7 +1578,7 @@ export class CustomerprofilesProfileShippingAddressOutputReference extends cdktn
   }
 
   // county - computed: false, optional: true, required: false
-  private _county?: string;
+  private _county?: string; 
   public get county() {
     return this.getStringAttribute('county');
   }
@@ -1594,7 +1594,7 @@ export class CustomerprofilesProfileShippingAddressOutputReference extends cdktn
   }
 
   // postal_code - computed: false, optional: true, required: false
-  private _postalCode?: string;
+  private _postalCode?: string; 
   public get postalCode() {
     return this.getStringAttribute('postal_code');
   }
@@ -1610,7 +1610,7 @@ export class CustomerprofilesProfileShippingAddressOutputReference extends cdktn
   }
 
   // province - computed: false, optional: true, required: false
-  private _province?: string;
+  private _province?: string; 
   public get province() {
     return this.getStringAttribute('province');
   }
@@ -1626,7 +1626,7 @@ export class CustomerprofilesProfileShippingAddressOutputReference extends cdktn
   }
 
   // state - computed: false, optional: true, required: false
-  private _state?: string;
+  private _state?: string; 
   public get state() {
     return this.getStringAttribute('state');
   }
@@ -1723,7 +1723,7 @@ export class CustomerprofilesProfile extends cdktn.TerraformResource {
   // ==========
 
   // account_number - computed: false, optional: true, required: false
-  private _accountNumber?: string;
+  private _accountNumber?: string; 
   public get accountNumber() {
     return this.getStringAttribute('account_number');
   }
@@ -1739,7 +1739,7 @@ export class CustomerprofilesProfile extends cdktn.TerraformResource {
   }
 
   // additional_information - computed: false, optional: true, required: false
-  private _additionalInformation?: string;
+  private _additionalInformation?: string; 
   public get additionalInformation() {
     return this.getStringAttribute('additional_information');
   }
@@ -1755,7 +1755,7 @@ export class CustomerprofilesProfile extends cdktn.TerraformResource {
   }
 
   // attributes - computed: false, optional: true, required: false
-  private _attributes?: { [key: string]: string };
+  private _attributes?: { [key: string]: string }; 
   public get attributes() {
     return this.getStringMapAttribute('attributes');
   }
@@ -1771,7 +1771,7 @@ export class CustomerprofilesProfile extends cdktn.TerraformResource {
   }
 
   // birth_date - computed: false, optional: true, required: false
-  private _birthDate?: string;
+  private _birthDate?: string; 
   public get birthDate() {
     return this.getStringAttribute('birth_date');
   }
@@ -1787,7 +1787,7 @@ export class CustomerprofilesProfile extends cdktn.TerraformResource {
   }
 
   // business_email_address - computed: false, optional: true, required: false
-  private _businessEmailAddress?: string;
+  private _businessEmailAddress?: string; 
   public get businessEmailAddress() {
     return this.getStringAttribute('business_email_address');
   }
@@ -1803,7 +1803,7 @@ export class CustomerprofilesProfile extends cdktn.TerraformResource {
   }
 
   // business_name - computed: false, optional: true, required: false
-  private _businessName?: string;
+  private _businessName?: string; 
   public get businessName() {
     return this.getStringAttribute('business_name');
   }
@@ -1819,7 +1819,7 @@ export class CustomerprofilesProfile extends cdktn.TerraformResource {
   }
 
   // business_phone_number - computed: false, optional: true, required: false
-  private _businessPhoneNumber?: string;
+  private _businessPhoneNumber?: string; 
   public get businessPhoneNumber() {
     return this.getStringAttribute('business_phone_number');
   }
@@ -1835,7 +1835,7 @@ export class CustomerprofilesProfile extends cdktn.TerraformResource {
   }
 
   // domain_name - computed: false, optional: false, required: true
-  private _domainName?: string;
+  private _domainName?: string; 
   public get domainName() {
     return this.getStringAttribute('domain_name');
   }
@@ -1848,7 +1848,7 @@ export class CustomerprofilesProfile extends cdktn.TerraformResource {
   }
 
   // email_address - computed: false, optional: true, required: false
-  private _emailAddress?: string;
+  private _emailAddress?: string; 
   public get emailAddress() {
     return this.getStringAttribute('email_address');
   }
@@ -1864,7 +1864,7 @@ export class CustomerprofilesProfile extends cdktn.TerraformResource {
   }
 
   // first_name - computed: false, optional: true, required: false
-  private _firstName?: string;
+  private _firstName?: string; 
   public get firstName() {
     return this.getStringAttribute('first_name');
   }
@@ -1880,7 +1880,7 @@ export class CustomerprofilesProfile extends cdktn.TerraformResource {
   }
 
   // gender_string - computed: false, optional: true, required: false
-  private _genderString?: string;
+  private _genderString?: string; 
   public get genderString() {
     return this.getStringAttribute('gender_string');
   }
@@ -1896,7 +1896,7 @@ export class CustomerprofilesProfile extends cdktn.TerraformResource {
   }
 
   // home_phone_number - computed: false, optional: true, required: false
-  private _homePhoneNumber?: string;
+  private _homePhoneNumber?: string; 
   public get homePhoneNumber() {
     return this.getStringAttribute('home_phone_number');
   }
@@ -1912,7 +1912,7 @@ export class CustomerprofilesProfile extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -1928,7 +1928,7 @@ export class CustomerprofilesProfile extends cdktn.TerraformResource {
   }
 
   // last_name - computed: false, optional: true, required: false
-  private _lastName?: string;
+  private _lastName?: string; 
   public get lastName() {
     return this.getStringAttribute('last_name');
   }
@@ -1944,7 +1944,7 @@ export class CustomerprofilesProfile extends cdktn.TerraformResource {
   }
 
   // middle_name - computed: false, optional: true, required: false
-  private _middleName?: string;
+  private _middleName?: string; 
   public get middleName() {
     return this.getStringAttribute('middle_name');
   }
@@ -1960,7 +1960,7 @@ export class CustomerprofilesProfile extends cdktn.TerraformResource {
   }
 
   // mobile_phone_number - computed: false, optional: true, required: false
-  private _mobilePhoneNumber?: string;
+  private _mobilePhoneNumber?: string; 
   public get mobilePhoneNumber() {
     return this.getStringAttribute('mobile_phone_number');
   }
@@ -1976,7 +1976,7 @@ export class CustomerprofilesProfile extends cdktn.TerraformResource {
   }
 
   // party_type_string - computed: false, optional: true, required: false
-  private _partyTypeString?: string;
+  private _partyTypeString?: string; 
   public get partyTypeString() {
     return this.getStringAttribute('party_type_string');
   }
@@ -1992,7 +1992,7 @@ export class CustomerprofilesProfile extends cdktn.TerraformResource {
   }
 
   // personal_email_address - computed: false, optional: true, required: false
-  private _personalEmailAddress?: string;
+  private _personalEmailAddress?: string; 
   public get personalEmailAddress() {
     return this.getStringAttribute('personal_email_address');
   }
@@ -2008,7 +2008,7 @@ export class CustomerprofilesProfile extends cdktn.TerraformResource {
   }
 
   // phone_number - computed: false, optional: true, required: false
-  private _phoneNumber?: string;
+  private _phoneNumber?: string; 
   public get phoneNumber() {
     return this.getStringAttribute('phone_number');
   }
@@ -2024,7 +2024,7 @@ export class CustomerprofilesProfile extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

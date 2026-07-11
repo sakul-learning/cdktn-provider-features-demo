@@ -138,7 +138,7 @@ export class ApigatewayDomainNameV2EndpointConfigurationOutputReference extends 
   }
 
   // ip_address_type - computed: true, optional: true, required: false
-  private _ipAddressType?: string;
+  private _ipAddressType?: string; 
   public get ipAddressType() {
     return this.getStringAttribute('ip_address_type');
   }
@@ -154,7 +154,7 @@ export class ApigatewayDomainNameV2EndpointConfigurationOutputReference extends 
   }
 
   // types - computed: true, optional: true, required: false
-  private _types?: string[];
+  private _types?: string[]; 
   public get types() {
     return this.getListAttribute('types');
   }
@@ -267,7 +267,7 @@ export class ApigatewayDomainNameV2TagsOutputReference extends cdktn.ComplexObje
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -283,7 +283,7 @@ export class ApigatewayDomainNameV2TagsOutputReference extends cdktn.ComplexObje
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -384,7 +384,7 @@ export class ApigatewayDomainNameV2 extends cdktn.TerraformResource {
   // ==========
 
   // certificate_arn - computed: true, optional: true, required: false
-  private _certificateArn?: string;
+  private _certificateArn?: string; 
   public get certificateArn() {
     return this.getStringAttribute('certificate_arn');
   }
@@ -400,7 +400,7 @@ export class ApigatewayDomainNameV2 extends cdktn.TerraformResource {
   }
 
   // domain_name - computed: true, optional: true, required: false
-  private _domainName?: string;
+  private _domainName?: string; 
   public get domainName() {
     return this.getStringAttribute('domain_name');
   }
@@ -426,7 +426,7 @@ export class ApigatewayDomainNameV2 extends cdktn.TerraformResource {
   }
 
   // endpoint_access_mode - computed: true, optional: true, required: false
-  private _endpointAccessMode?: string;
+  private _endpointAccessMode?: string; 
   public get endpointAccessMode() {
     return this.getStringAttribute('endpoint_access_mode');
   }
@@ -463,7 +463,7 @@ export class ApigatewayDomainNameV2 extends cdktn.TerraformResource {
   }
 
   // policy - computed: true, optional: true, required: false
-  private _policy?: string;
+  private _policy?: string; 
   public get policy() {
     return this.getStringAttribute('policy');
   }
@@ -479,7 +479,7 @@ export class ApigatewayDomainNameV2 extends cdktn.TerraformResource {
   }
 
   // routing_mode - computed: true, optional: true, required: false
-  private _routingMode?: string;
+  private _routingMode?: string; 
   public get routingMode() {
     return this.getStringAttribute('routing_mode');
   }
@@ -495,7 +495,7 @@ export class ApigatewayDomainNameV2 extends cdktn.TerraformResource {
   }
 
   // security_policy - computed: true, optional: true, required: false
-  private _securityPolicy?: string;
+  private _securityPolicy?: string; 
   public get securityPolicy() {
     return this.getStringAttribute('security_policy');
   }

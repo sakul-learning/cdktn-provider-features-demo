@@ -132,7 +132,7 @@ export class QuicksightAccountSettingsTimeoutsOutputReference extends cdktn.Comp
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -148,7 +148,7 @@ export class QuicksightAccountSettingsTimeoutsOutputReference extends cdktn.Comp
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -226,7 +226,7 @@ export class QuicksightAccountSettings extends cdktn.TerraformResource {
   // ==========
 
   // aws_account_id - computed: true, optional: true, required: false
-  private _awsAccountId?: string;
+  private _awsAccountId?: string; 
   public get awsAccountId() {
     return this.getStringAttribute('aws_account_id');
   }
@@ -242,7 +242,7 @@ export class QuicksightAccountSettings extends cdktn.TerraformResource {
   }
 
   // default_namespace - computed: true, optional: true, required: false
-  private _defaultNamespace?: string;
+  private _defaultNamespace?: string; 
   public get defaultNamespace() {
     return this.getStringAttribute('default_namespace');
   }
@@ -258,7 +258,7 @@ export class QuicksightAccountSettings extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -274,7 +274,7 @@ export class QuicksightAccountSettings extends cdktn.TerraformResource {
   }
 
   // termination_protection_enabled - computed: true, optional: true, required: false
-  private _terminationProtectionEnabled?: boolean | cdktn.IResolvable;
+  private _terminationProtectionEnabled?: boolean | cdktn.IResolvable; 
   public get terminationProtectionEnabled() {
     return this.getBooleanAttribute('termination_protection_enabled');
   }

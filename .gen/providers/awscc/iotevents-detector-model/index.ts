@@ -32,7 +32,7 @@ export interface IoteventsDetectorModelConfig extends cdktn.TerraformMetaArgumen
   */
   readonly evaluationMethod?: string;
   /**
-  * The value used to identify a detector instance. When a device or system sends input, a new detector instance with a unique key value is created. ITE can continue to route input to its corresponding detector instance based on this identifying information.
+  * The value used to identify a detector instance. When a device or system sends input, a new detector instance with a unique key value is created. ITE can continue to route input to its corresponding detector instance based on this identifying information. 
   *  This parameter uses a JSON-path expression to select the attribute-value pair in the message payload that is used for identification. To route the message to the correct detector instance, the device must send a message payload that contains the same attribute-value.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_detector_model#key IoteventsDetectorModel#key}
@@ -133,7 +133,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsAct
   }
 
   // timer_name - computed: true, optional: true, required: false
-  private _timerName?: string;
+  private _timerName?: string; 
   public get timerName() {
     return this.getStringAttribute('timer_name');
   }
@@ -248,7 +248,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsAct
   }
 
   // content_expression - computed: true, optional: true, required: false
-  private _contentExpression?: string;
+  private _contentExpression?: string; 
   public get contentExpression() {
     return this.getStringAttribute('content_expression');
   }
@@ -264,7 +264,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsAct
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -396,7 +396,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsAct
   }
 
   // table_name - computed: true, optional: true, required: false
-  private _tableName?: string;
+  private _tableName?: string; 
   public get tableName() {
     return this.getStringAttribute('table_name');
   }
@@ -511,7 +511,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsAct
   }
 
   // content_expression - computed: true, optional: true, required: false
-  private _contentExpression?: string;
+  private _contentExpression?: string; 
   public get contentExpression() {
     return this.getStringAttribute('content_expression');
   }
@@ -527,7 +527,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsAct
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -553,7 +553,7 @@ export interface IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEvent
   * The data type for the hash key (also called the partition key). You can specify the following values:
   *   +  ``'STRING'`` - The hash key is a string.
   *   +  ``'NUMBER'`` - The hash key is a number.
-  *
+  *   
   *  If you don't specify ``hashKeyType``, the default value is ``'STRING'``.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_detector_model#hash_key_type IoteventsDetectorModel#hash_key_type}
@@ -566,11 +566,11 @@ export interface IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEvent
   */
   readonly hashKeyValue?: string;
   /**
-  * The type of operation to perform. You can specify the following values:
+  * The type of operation to perform. You can specify the following values: 
   *   +  ``'INSERT'`` - Insert data as a new item into the DynamoDB table. This item uses the specified hash key as a partition key. If you specified a range key, the item uses the range key as a sort key.
   *   +  ``'UPDATE'`` - Update an existing item of the DynamoDB table with new data. This item's partition key must match the specified hash key. If you specified a range key, the range key must match the item's sort key.
   *   +  ``'DELETE'`` - Delete an existing item of the DynamoDB table. This item's partition key must match the specified hash key. If you specified a range key, the range key must match the item's sort key.
-  *
+  *   
   *  If you don't specify this parameter, ITE triggers the ``'INSERT'`` operation.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_detector_model#operation IoteventsDetectorModel#operation}
@@ -600,7 +600,7 @@ export interface IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEvent
   * The data type for the range key (also called the sort key), You can specify the following values:
   *   +  ``'STRING'`` - The range key is a string.
   *   +  ``'NUMBER'`` - The range key is number.
-  *
+  *   
   *  If you don't specify ``rangeKeyField``, the default value is ``'STRING'``.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_detector_model#range_key_type IoteventsDetectorModel#range_key_type}
@@ -809,7 +809,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsAct
   }
 
   // hash_key_field - computed: true, optional: true, required: false
-  private _hashKeyField?: string;
+  private _hashKeyField?: string; 
   public get hashKeyField() {
     return this.getStringAttribute('hash_key_field');
   }
@@ -825,7 +825,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsAct
   }
 
   // hash_key_type - computed: true, optional: true, required: false
-  private _hashKeyType?: string;
+  private _hashKeyType?: string; 
   public get hashKeyType() {
     return this.getStringAttribute('hash_key_type');
   }
@@ -841,7 +841,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsAct
   }
 
   // hash_key_value - computed: true, optional: true, required: false
-  private _hashKeyValue?: string;
+  private _hashKeyValue?: string; 
   public get hashKeyValue() {
     return this.getStringAttribute('hash_key_value');
   }
@@ -857,7 +857,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsAct
   }
 
   // operation - computed: true, optional: true, required: false
-  private _operation?: string;
+  private _operation?: string; 
   public get operation() {
     return this.getStringAttribute('operation');
   }
@@ -889,7 +889,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsAct
   }
 
   // payload_field - computed: true, optional: true, required: false
-  private _payloadField?: string;
+  private _payloadField?: string; 
   public get payloadField() {
     return this.getStringAttribute('payload_field');
   }
@@ -905,7 +905,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsAct
   }
 
   // range_key_field - computed: true, optional: true, required: false
-  private _rangeKeyField?: string;
+  private _rangeKeyField?: string; 
   public get rangeKeyField() {
     return this.getStringAttribute('range_key_field');
   }
@@ -921,7 +921,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsAct
   }
 
   // range_key_type - computed: true, optional: true, required: false
-  private _rangeKeyType?: string;
+  private _rangeKeyType?: string; 
   public get rangeKeyType() {
     return this.getStringAttribute('range_key_type');
   }
@@ -937,7 +937,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsAct
   }
 
   // range_key_value - computed: true, optional: true, required: false
-  private _rangeKeyValue?: string;
+  private _rangeKeyValue?: string; 
   public get rangeKeyValue() {
     return this.getStringAttribute('range_key_value');
   }
@@ -953,7 +953,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsAct
   }
 
   // table_name - computed: true, optional: true, required: false
-  private _tableName?: string;
+  private _tableName?: string; 
   public get tableName() {
     return this.getStringAttribute('table_name');
   }
@@ -1068,7 +1068,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsAct
   }
 
   // content_expression - computed: true, optional: true, required: false
-  private _contentExpression?: string;
+  private _contentExpression?: string; 
   public get contentExpression() {
     return this.getStringAttribute('content_expression');
   }
@@ -1084,7 +1084,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsAct
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -1218,7 +1218,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsAct
   }
 
   // delivery_stream_name - computed: true, optional: true, required: false
-  private _deliveryStreamName?: string;
+  private _deliveryStreamName?: string; 
   public get deliveryStreamName() {
     return this.getStringAttribute('delivery_stream_name');
   }
@@ -1250,7 +1250,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsAct
   }
 
   // separator - computed: true, optional: true, required: false
-  private _separator?: string;
+  private _separator?: string; 
   public get separator() {
     return this.getStringAttribute('separator');
   }
@@ -1365,7 +1365,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsAct
   }
 
   // content_expression - computed: true, optional: true, required: false
-  private _contentExpression?: string;
+  private _contentExpression?: string; 
   public get contentExpression() {
     return this.getStringAttribute('content_expression');
   }
@@ -1381,7 +1381,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsAct
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -1496,7 +1496,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsAct
   }
 
   // input_name - computed: true, optional: true, required: false
-  private _inputName?: string;
+  private _inputName?: string; 
   public get inputName() {
     return this.getStringAttribute('input_name');
   }
@@ -1627,7 +1627,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsAct
   }
 
   // offset_in_nanos - computed: true, optional: true, required: false
-  private _offsetInNanos?: string;
+  private _offsetInNanos?: string; 
   public get offsetInNanos() {
     return this.getStringAttribute('offset_in_nanos');
   }
@@ -1643,7 +1643,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsAct
   }
 
   // time_in_seconds - computed: true, optional: true, required: false
-  private _timeInSeconds?: string;
+  private _timeInSeconds?: string; 
   public get timeInSeconds() {
     return this.getStringAttribute('time_in_seconds');
   }
@@ -1796,7 +1796,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsAct
   }
 
   // boolean_value - computed: true, optional: true, required: false
-  private _booleanValue?: string;
+  private _booleanValue?: string; 
   public get booleanValue() {
     return this.getStringAttribute('boolean_value');
   }
@@ -1812,7 +1812,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsAct
   }
 
   // double_value - computed: true, optional: true, required: false
-  private _doubleValue?: string;
+  private _doubleValue?: string; 
   public get doubleValue() {
     return this.getStringAttribute('double_value');
   }
@@ -1828,7 +1828,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsAct
   }
 
   // integer_value - computed: true, optional: true, required: false
-  private _integerValue?: string;
+  private _integerValue?: string; 
   public get integerValue() {
     return this.getStringAttribute('integer_value');
   }
@@ -1844,7 +1844,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsAct
   }
 
   // string_value - computed: true, optional: true, required: false
-  private _stringValue?: string;
+  private _stringValue?: string; 
   public get stringValue() {
     return this.getStringAttribute('string_value');
   }
@@ -1978,7 +1978,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsAct
   }
 
   // quality - computed: true, optional: true, required: false
-  private _quality?: string;
+  private _quality?: string; 
   public get quality() {
     return this.getStringAttribute('quality');
   }
@@ -2182,7 +2182,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsAct
   }
 
   // asset_id - computed: true, optional: true, required: false
-  private _assetId?: string;
+  private _assetId?: string; 
   public get assetId() {
     return this.getStringAttribute('asset_id');
   }
@@ -2198,7 +2198,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsAct
   }
 
   // entry_id - computed: true, optional: true, required: false
-  private _entryId?: string;
+  private _entryId?: string; 
   public get entryId() {
     return this.getStringAttribute('entry_id');
   }
@@ -2214,7 +2214,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsAct
   }
 
   // property_alias - computed: true, optional: true, required: false
-  private _propertyAlias?: string;
+  private _propertyAlias?: string; 
   public get propertyAlias() {
     return this.getStringAttribute('property_alias');
   }
@@ -2230,7 +2230,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsAct
   }
 
   // property_id - computed: true, optional: true, required: false
-  private _propertyId?: string;
+  private _propertyId?: string; 
   public get propertyId() {
     return this.getStringAttribute('property_id');
   }
@@ -2361,7 +2361,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsAct
   }
 
   // content_expression - computed: true, optional: true, required: false
-  private _contentExpression?: string;
+  private _contentExpression?: string; 
   public get contentExpression() {
     return this.getStringAttribute('content_expression');
   }
@@ -2377,7 +2377,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsAct
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -2492,7 +2492,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsAct
   }
 
   // mqtt_topic - computed: true, optional: true, required: false
-  private _mqttTopic?: string;
+  private _mqttTopic?: string; 
   public get mqttTopic() {
     return this.getStringAttribute('mqtt_topic');
   }
@@ -2623,7 +2623,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsAct
   }
 
   // content_expression - computed: true, optional: true, required: false
-  private _contentExpression?: string;
+  private _contentExpression?: string; 
   public get contentExpression() {
     return this.getStringAttribute('content_expression');
   }
@@ -2639,7 +2639,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsAct
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -2754,7 +2754,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsAct
   }
 
   // function_arn - computed: true, optional: true, required: false
-  private _functionArn?: string;
+  private _functionArn?: string; 
   public get functionArn() {
     return this.getStringAttribute('function_arn');
   }
@@ -2866,7 +2866,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsAct
   }
 
   // timer_name - computed: true, optional: true, required: false
-  private _timerName?: string;
+  private _timerName?: string; 
   public get timerName() {
     return this.getStringAttribute('timer_name');
   }
@@ -3000,7 +3000,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsAct
   }
 
   // duration_expression - computed: true, optional: true, required: false
-  private _durationExpression?: string;
+  private _durationExpression?: string; 
   public get durationExpression() {
     return this.getStringAttribute('duration_expression');
   }
@@ -3016,7 +3016,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsAct
   }
 
   // seconds - computed: true, optional: true, required: false
-  private _seconds?: number;
+  private _seconds?: number; 
   public get seconds() {
     return this.getNumberAttribute('seconds');
   }
@@ -3032,7 +3032,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsAct
   }
 
   // timer_name - computed: true, optional: true, required: false
-  private _timerName?: string;
+  private _timerName?: string; 
   public get timerName() {
     return this.getStringAttribute('timer_name');
   }
@@ -3147,7 +3147,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsAct
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -3163,7 +3163,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsAct
   }
 
   // variable_name - computed: true, optional: true, required: false
-  private _variableName?: string;
+  private _variableName?: string; 
   public get variableName() {
     return this.getStringAttribute('variable_name');
   }
@@ -3278,7 +3278,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsAct
   }
 
   // content_expression - computed: true, optional: true, required: false
-  private _contentExpression?: string;
+  private _contentExpression?: string; 
   public get contentExpression() {
     return this.getStringAttribute('content_expression');
   }
@@ -3294,7 +3294,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsAct
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -3425,7 +3425,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsAct
   }
 
   // target_arn - computed: true, optional: true, required: false
-  private _targetArn?: string;
+  private _targetArn?: string; 
   public get targetArn() {
     return this.getStringAttribute('target_arn');
   }
@@ -3540,7 +3540,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsAct
   }
 
   // content_expression - computed: true, optional: true, required: false
-  private _contentExpression?: string;
+  private _contentExpression?: string; 
   public get contentExpression() {
     return this.getStringAttribute('content_expression');
   }
@@ -3556,7 +3556,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsAct
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -3706,7 +3706,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsAct
   }
 
   // queue_url - computed: true, optional: true, required: false
-  private _queueUrl?: string;
+  private _queueUrl?: string; 
   public get queueUrl() {
     return this.getStringAttribute('queue_url');
   }
@@ -3722,7 +3722,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsAct
   }
 
   // use_base_64 - computed: true, optional: true, required: false
-  private _useBase64?: boolean | cdktn.IResolvable;
+  private _useBase64?: boolean | cdktn.IResolvable; 
   public get useBase64() {
     return this.getBooleanAttribute('use_base_64');
   }
@@ -4412,7 +4412,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsOut
   }
 
   // condition - computed: true, optional: true, required: false
-  private _condition?: string;
+  private _condition?: string; 
   public get condition() {
     return this.getStringAttribute('condition');
   }
@@ -4428,7 +4428,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnEnterEventsOut
   }
 
   // event_name - computed: true, optional: true, required: false
-  private _eventName?: string;
+  private _eventName?: string; 
   public get eventName() {
     return this.getStringAttribute('event_name');
   }
@@ -4640,7 +4640,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActi
   }
 
   // timer_name - computed: true, optional: true, required: false
-  private _timerName?: string;
+  private _timerName?: string; 
   public get timerName() {
     return this.getStringAttribute('timer_name');
   }
@@ -4755,7 +4755,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActi
   }
 
   // content_expression - computed: true, optional: true, required: false
-  private _contentExpression?: string;
+  private _contentExpression?: string; 
   public get contentExpression() {
     return this.getStringAttribute('content_expression');
   }
@@ -4771,7 +4771,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActi
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -4903,7 +4903,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActi
   }
 
   // table_name - computed: true, optional: true, required: false
-  private _tableName?: string;
+  private _tableName?: string; 
   public get tableName() {
     return this.getStringAttribute('table_name');
   }
@@ -5018,7 +5018,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActi
   }
 
   // content_expression - computed: true, optional: true, required: false
-  private _contentExpression?: string;
+  private _contentExpression?: string; 
   public get contentExpression() {
     return this.getStringAttribute('content_expression');
   }
@@ -5034,7 +5034,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActi
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -5060,7 +5060,7 @@ export interface IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEvents
   * The data type for the hash key (also called the partition key). You can specify the following values:
   *   +  ``'STRING'`` - The hash key is a string.
   *   +  ``'NUMBER'`` - The hash key is a number.
-  *
+  *   
   *  If you don't specify ``hashKeyType``, the default value is ``'STRING'``.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_detector_model#hash_key_type IoteventsDetectorModel#hash_key_type}
@@ -5073,11 +5073,11 @@ export interface IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEvents
   */
   readonly hashKeyValue?: string;
   /**
-  * The type of operation to perform. You can specify the following values:
+  * The type of operation to perform. You can specify the following values: 
   *   +  ``'INSERT'`` - Insert data as a new item into the DynamoDB table. This item uses the specified hash key as a partition key. If you specified a range key, the item uses the range key as a sort key.
   *   +  ``'UPDATE'`` - Update an existing item of the DynamoDB table with new data. This item's partition key must match the specified hash key. If you specified a range key, the range key must match the item's sort key.
   *   +  ``'DELETE'`` - Delete an existing item of the DynamoDB table. This item's partition key must match the specified hash key. If you specified a range key, the range key must match the item's sort key.
-  *
+  *   
   *  If you don't specify this parameter, ITE triggers the ``'INSERT'`` operation.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_detector_model#operation IoteventsDetectorModel#operation}
@@ -5107,7 +5107,7 @@ export interface IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEvents
   * The data type for the range key (also called the sort key), You can specify the following values:
   *   +  ``'STRING'`` - The range key is a string.
   *   +  ``'NUMBER'`` - The range key is number.
-  *
+  *   
   *  If you don't specify ``rangeKeyField``, the default value is ``'STRING'``.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_detector_model#range_key_type IoteventsDetectorModel#range_key_type}
@@ -5316,7 +5316,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActi
   }
 
   // hash_key_field - computed: true, optional: true, required: false
-  private _hashKeyField?: string;
+  private _hashKeyField?: string; 
   public get hashKeyField() {
     return this.getStringAttribute('hash_key_field');
   }
@@ -5332,7 +5332,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActi
   }
 
   // hash_key_type - computed: true, optional: true, required: false
-  private _hashKeyType?: string;
+  private _hashKeyType?: string; 
   public get hashKeyType() {
     return this.getStringAttribute('hash_key_type');
   }
@@ -5348,7 +5348,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActi
   }
 
   // hash_key_value - computed: true, optional: true, required: false
-  private _hashKeyValue?: string;
+  private _hashKeyValue?: string; 
   public get hashKeyValue() {
     return this.getStringAttribute('hash_key_value');
   }
@@ -5364,7 +5364,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActi
   }
 
   // operation - computed: true, optional: true, required: false
-  private _operation?: string;
+  private _operation?: string; 
   public get operation() {
     return this.getStringAttribute('operation');
   }
@@ -5396,7 +5396,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActi
   }
 
   // payload_field - computed: true, optional: true, required: false
-  private _payloadField?: string;
+  private _payloadField?: string; 
   public get payloadField() {
     return this.getStringAttribute('payload_field');
   }
@@ -5412,7 +5412,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActi
   }
 
   // range_key_field - computed: true, optional: true, required: false
-  private _rangeKeyField?: string;
+  private _rangeKeyField?: string; 
   public get rangeKeyField() {
     return this.getStringAttribute('range_key_field');
   }
@@ -5428,7 +5428,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActi
   }
 
   // range_key_type - computed: true, optional: true, required: false
-  private _rangeKeyType?: string;
+  private _rangeKeyType?: string; 
   public get rangeKeyType() {
     return this.getStringAttribute('range_key_type');
   }
@@ -5444,7 +5444,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActi
   }
 
   // range_key_value - computed: true, optional: true, required: false
-  private _rangeKeyValue?: string;
+  private _rangeKeyValue?: string; 
   public get rangeKeyValue() {
     return this.getStringAttribute('range_key_value');
   }
@@ -5460,7 +5460,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActi
   }
 
   // table_name - computed: true, optional: true, required: false
-  private _tableName?: string;
+  private _tableName?: string; 
   public get tableName() {
     return this.getStringAttribute('table_name');
   }
@@ -5575,7 +5575,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActi
   }
 
   // content_expression - computed: true, optional: true, required: false
-  private _contentExpression?: string;
+  private _contentExpression?: string; 
   public get contentExpression() {
     return this.getStringAttribute('content_expression');
   }
@@ -5591,7 +5591,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActi
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -5725,7 +5725,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActi
   }
 
   // delivery_stream_name - computed: true, optional: true, required: false
-  private _deliveryStreamName?: string;
+  private _deliveryStreamName?: string; 
   public get deliveryStreamName() {
     return this.getStringAttribute('delivery_stream_name');
   }
@@ -5757,7 +5757,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActi
   }
 
   // separator - computed: true, optional: true, required: false
-  private _separator?: string;
+  private _separator?: string; 
   public get separator() {
     return this.getStringAttribute('separator');
   }
@@ -5872,7 +5872,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActi
   }
 
   // content_expression - computed: true, optional: true, required: false
-  private _contentExpression?: string;
+  private _contentExpression?: string; 
   public get contentExpression() {
     return this.getStringAttribute('content_expression');
   }
@@ -5888,7 +5888,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActi
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -6003,7 +6003,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActi
   }
 
   // input_name - computed: true, optional: true, required: false
-  private _inputName?: string;
+  private _inputName?: string; 
   public get inputName() {
     return this.getStringAttribute('input_name');
   }
@@ -6134,7 +6134,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActi
   }
 
   // offset_in_nanos - computed: true, optional: true, required: false
-  private _offsetInNanos?: string;
+  private _offsetInNanos?: string; 
   public get offsetInNanos() {
     return this.getStringAttribute('offset_in_nanos');
   }
@@ -6150,7 +6150,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActi
   }
 
   // time_in_seconds - computed: true, optional: true, required: false
-  private _timeInSeconds?: string;
+  private _timeInSeconds?: string; 
   public get timeInSeconds() {
     return this.getStringAttribute('time_in_seconds');
   }
@@ -6303,7 +6303,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActi
   }
 
   // boolean_value - computed: true, optional: true, required: false
-  private _booleanValue?: string;
+  private _booleanValue?: string; 
   public get booleanValue() {
     return this.getStringAttribute('boolean_value');
   }
@@ -6319,7 +6319,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActi
   }
 
   // double_value - computed: true, optional: true, required: false
-  private _doubleValue?: string;
+  private _doubleValue?: string; 
   public get doubleValue() {
     return this.getStringAttribute('double_value');
   }
@@ -6335,7 +6335,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActi
   }
 
   // integer_value - computed: true, optional: true, required: false
-  private _integerValue?: string;
+  private _integerValue?: string; 
   public get integerValue() {
     return this.getStringAttribute('integer_value');
   }
@@ -6351,7 +6351,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActi
   }
 
   // string_value - computed: true, optional: true, required: false
-  private _stringValue?: string;
+  private _stringValue?: string; 
   public get stringValue() {
     return this.getStringAttribute('string_value');
   }
@@ -6485,7 +6485,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActi
   }
 
   // quality - computed: true, optional: true, required: false
-  private _quality?: string;
+  private _quality?: string; 
   public get quality() {
     return this.getStringAttribute('quality');
   }
@@ -6689,7 +6689,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActi
   }
 
   // asset_id - computed: true, optional: true, required: false
-  private _assetId?: string;
+  private _assetId?: string; 
   public get assetId() {
     return this.getStringAttribute('asset_id');
   }
@@ -6705,7 +6705,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActi
   }
 
   // entry_id - computed: true, optional: true, required: false
-  private _entryId?: string;
+  private _entryId?: string; 
   public get entryId() {
     return this.getStringAttribute('entry_id');
   }
@@ -6721,7 +6721,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActi
   }
 
   // property_alias - computed: true, optional: true, required: false
-  private _propertyAlias?: string;
+  private _propertyAlias?: string; 
   public get propertyAlias() {
     return this.getStringAttribute('property_alias');
   }
@@ -6737,7 +6737,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActi
   }
 
   // property_id - computed: true, optional: true, required: false
-  private _propertyId?: string;
+  private _propertyId?: string; 
   public get propertyId() {
     return this.getStringAttribute('property_id');
   }
@@ -6868,7 +6868,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActi
   }
 
   // content_expression - computed: true, optional: true, required: false
-  private _contentExpression?: string;
+  private _contentExpression?: string; 
   public get contentExpression() {
     return this.getStringAttribute('content_expression');
   }
@@ -6884,7 +6884,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActi
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -6999,7 +6999,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActi
   }
 
   // mqtt_topic - computed: true, optional: true, required: false
-  private _mqttTopic?: string;
+  private _mqttTopic?: string; 
   public get mqttTopic() {
     return this.getStringAttribute('mqtt_topic');
   }
@@ -7130,7 +7130,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActi
   }
 
   // content_expression - computed: true, optional: true, required: false
-  private _contentExpression?: string;
+  private _contentExpression?: string; 
   public get contentExpression() {
     return this.getStringAttribute('content_expression');
   }
@@ -7146,7 +7146,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActi
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -7261,7 +7261,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActi
   }
 
   // function_arn - computed: true, optional: true, required: false
-  private _functionArn?: string;
+  private _functionArn?: string; 
   public get functionArn() {
     return this.getStringAttribute('function_arn');
   }
@@ -7373,7 +7373,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActi
   }
 
   // timer_name - computed: true, optional: true, required: false
-  private _timerName?: string;
+  private _timerName?: string; 
   public get timerName() {
     return this.getStringAttribute('timer_name');
   }
@@ -7507,7 +7507,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActi
   }
 
   // duration_expression - computed: true, optional: true, required: false
-  private _durationExpression?: string;
+  private _durationExpression?: string; 
   public get durationExpression() {
     return this.getStringAttribute('duration_expression');
   }
@@ -7523,7 +7523,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActi
   }
 
   // seconds - computed: true, optional: true, required: false
-  private _seconds?: number;
+  private _seconds?: number; 
   public get seconds() {
     return this.getNumberAttribute('seconds');
   }
@@ -7539,7 +7539,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActi
   }
 
   // timer_name - computed: true, optional: true, required: false
-  private _timerName?: string;
+  private _timerName?: string; 
   public get timerName() {
     return this.getStringAttribute('timer_name');
   }
@@ -7654,7 +7654,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActi
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -7670,7 +7670,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActi
   }
 
   // variable_name - computed: true, optional: true, required: false
-  private _variableName?: string;
+  private _variableName?: string; 
   public get variableName() {
     return this.getStringAttribute('variable_name');
   }
@@ -7785,7 +7785,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActi
   }
 
   // content_expression - computed: true, optional: true, required: false
-  private _contentExpression?: string;
+  private _contentExpression?: string; 
   public get contentExpression() {
     return this.getStringAttribute('content_expression');
   }
@@ -7801,7 +7801,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActi
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -7932,7 +7932,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActi
   }
 
   // target_arn - computed: true, optional: true, required: false
-  private _targetArn?: string;
+  private _targetArn?: string; 
   public get targetArn() {
     return this.getStringAttribute('target_arn');
   }
@@ -8047,7 +8047,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActi
   }
 
   // content_expression - computed: true, optional: true, required: false
-  private _contentExpression?: string;
+  private _contentExpression?: string; 
   public get contentExpression() {
     return this.getStringAttribute('content_expression');
   }
@@ -8063,7 +8063,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActi
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -8213,7 +8213,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActi
   }
 
   // queue_url - computed: true, optional: true, required: false
-  private _queueUrl?: string;
+  private _queueUrl?: string; 
   public get queueUrl() {
     return this.getStringAttribute('queue_url');
   }
@@ -8229,7 +8229,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActi
   }
 
   // use_base_64 - computed: true, optional: true, required: false
-  private _useBase64?: boolean | cdktn.IResolvable;
+  private _useBase64?: boolean | cdktn.IResolvable; 
   public get useBase64() {
     return this.getBooleanAttribute('use_base_64');
   }
@@ -8919,7 +8919,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsOutp
   }
 
   // condition - computed: true, optional: true, required: false
-  private _condition?: string;
+  private _condition?: string; 
   public get condition() {
     return this.getStringAttribute('condition');
   }
@@ -8935,7 +8935,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsOutp
   }
 
   // event_name - computed: true, optional: true, required: false
-  private _eventName?: string;
+  private _eventName?: string; 
   public get eventName() {
     return this.getStringAttribute('event_name');
   }
@@ -9147,7 +9147,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsAct
   }
 
   // timer_name - computed: true, optional: true, required: false
-  private _timerName?: string;
+  private _timerName?: string; 
   public get timerName() {
     return this.getStringAttribute('timer_name');
   }
@@ -9262,7 +9262,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsAct
   }
 
   // content_expression - computed: true, optional: true, required: false
-  private _contentExpression?: string;
+  private _contentExpression?: string; 
   public get contentExpression() {
     return this.getStringAttribute('content_expression');
   }
@@ -9278,7 +9278,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsAct
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -9410,7 +9410,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsAct
   }
 
   // table_name - computed: true, optional: true, required: false
-  private _tableName?: string;
+  private _tableName?: string; 
   public get tableName() {
     return this.getStringAttribute('table_name');
   }
@@ -9525,7 +9525,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsAct
   }
 
   // content_expression - computed: true, optional: true, required: false
-  private _contentExpression?: string;
+  private _contentExpression?: string; 
   public get contentExpression() {
     return this.getStringAttribute('content_expression');
   }
@@ -9541,7 +9541,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsAct
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -9567,7 +9567,7 @@ export interface IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEvent
   * The data type for the hash key (also called the partition key). You can specify the following values:
   *   +  ``'STRING'`` - The hash key is a string.
   *   +  ``'NUMBER'`` - The hash key is a number.
-  *
+  *   
   *  If you don't specify ``hashKeyType``, the default value is ``'STRING'``.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_detector_model#hash_key_type IoteventsDetectorModel#hash_key_type}
@@ -9580,11 +9580,11 @@ export interface IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEvent
   */
   readonly hashKeyValue?: string;
   /**
-  * The type of operation to perform. You can specify the following values:
+  * The type of operation to perform. You can specify the following values: 
   *   +  ``'INSERT'`` - Insert data as a new item into the DynamoDB table. This item uses the specified hash key as a partition key. If you specified a range key, the item uses the range key as a sort key.
   *   +  ``'UPDATE'`` - Update an existing item of the DynamoDB table with new data. This item's partition key must match the specified hash key. If you specified a range key, the range key must match the item's sort key.
   *   +  ``'DELETE'`` - Delete an existing item of the DynamoDB table. This item's partition key must match the specified hash key. If you specified a range key, the range key must match the item's sort key.
-  *
+  *   
   *  If you don't specify this parameter, ITE triggers the ``'INSERT'`` operation.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_detector_model#operation IoteventsDetectorModel#operation}
@@ -9614,7 +9614,7 @@ export interface IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEvent
   * The data type for the range key (also called the sort key), You can specify the following values:
   *   +  ``'STRING'`` - The range key is a string.
   *   +  ``'NUMBER'`` - The range key is number.
-  *
+  *   
   *  If you don't specify ``rangeKeyField``, the default value is ``'STRING'``.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_detector_model#range_key_type IoteventsDetectorModel#range_key_type}
@@ -9823,7 +9823,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsAct
   }
 
   // hash_key_field - computed: true, optional: true, required: false
-  private _hashKeyField?: string;
+  private _hashKeyField?: string; 
   public get hashKeyField() {
     return this.getStringAttribute('hash_key_field');
   }
@@ -9839,7 +9839,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsAct
   }
 
   // hash_key_type - computed: true, optional: true, required: false
-  private _hashKeyType?: string;
+  private _hashKeyType?: string; 
   public get hashKeyType() {
     return this.getStringAttribute('hash_key_type');
   }
@@ -9855,7 +9855,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsAct
   }
 
   // hash_key_value - computed: true, optional: true, required: false
-  private _hashKeyValue?: string;
+  private _hashKeyValue?: string; 
   public get hashKeyValue() {
     return this.getStringAttribute('hash_key_value');
   }
@@ -9871,7 +9871,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsAct
   }
 
   // operation - computed: true, optional: true, required: false
-  private _operation?: string;
+  private _operation?: string; 
   public get operation() {
     return this.getStringAttribute('operation');
   }
@@ -9903,7 +9903,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsAct
   }
 
   // payload_field - computed: true, optional: true, required: false
-  private _payloadField?: string;
+  private _payloadField?: string; 
   public get payloadField() {
     return this.getStringAttribute('payload_field');
   }
@@ -9919,7 +9919,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsAct
   }
 
   // range_key_field - computed: true, optional: true, required: false
-  private _rangeKeyField?: string;
+  private _rangeKeyField?: string; 
   public get rangeKeyField() {
     return this.getStringAttribute('range_key_field');
   }
@@ -9935,7 +9935,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsAct
   }
 
   // range_key_type - computed: true, optional: true, required: false
-  private _rangeKeyType?: string;
+  private _rangeKeyType?: string; 
   public get rangeKeyType() {
     return this.getStringAttribute('range_key_type');
   }
@@ -9951,7 +9951,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsAct
   }
 
   // range_key_value - computed: true, optional: true, required: false
-  private _rangeKeyValue?: string;
+  private _rangeKeyValue?: string; 
   public get rangeKeyValue() {
     return this.getStringAttribute('range_key_value');
   }
@@ -9967,7 +9967,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsAct
   }
 
   // table_name - computed: true, optional: true, required: false
-  private _tableName?: string;
+  private _tableName?: string; 
   public get tableName() {
     return this.getStringAttribute('table_name');
   }
@@ -10082,7 +10082,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsAct
   }
 
   // content_expression - computed: true, optional: true, required: false
-  private _contentExpression?: string;
+  private _contentExpression?: string; 
   public get contentExpression() {
     return this.getStringAttribute('content_expression');
   }
@@ -10098,7 +10098,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsAct
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -10232,7 +10232,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsAct
   }
 
   // delivery_stream_name - computed: true, optional: true, required: false
-  private _deliveryStreamName?: string;
+  private _deliveryStreamName?: string; 
   public get deliveryStreamName() {
     return this.getStringAttribute('delivery_stream_name');
   }
@@ -10264,7 +10264,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsAct
   }
 
   // separator - computed: true, optional: true, required: false
-  private _separator?: string;
+  private _separator?: string; 
   public get separator() {
     return this.getStringAttribute('separator');
   }
@@ -10379,7 +10379,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsAct
   }
 
   // content_expression - computed: true, optional: true, required: false
-  private _contentExpression?: string;
+  private _contentExpression?: string; 
   public get contentExpression() {
     return this.getStringAttribute('content_expression');
   }
@@ -10395,7 +10395,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsAct
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -10510,7 +10510,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsAct
   }
 
   // input_name - computed: true, optional: true, required: false
-  private _inputName?: string;
+  private _inputName?: string; 
   public get inputName() {
     return this.getStringAttribute('input_name');
   }
@@ -10641,7 +10641,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsAct
   }
 
   // offset_in_nanos - computed: true, optional: true, required: false
-  private _offsetInNanos?: string;
+  private _offsetInNanos?: string; 
   public get offsetInNanos() {
     return this.getStringAttribute('offset_in_nanos');
   }
@@ -10657,7 +10657,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsAct
   }
 
   // time_in_seconds - computed: true, optional: true, required: false
-  private _timeInSeconds?: string;
+  private _timeInSeconds?: string; 
   public get timeInSeconds() {
     return this.getStringAttribute('time_in_seconds');
   }
@@ -10810,7 +10810,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsAct
   }
 
   // boolean_value - computed: true, optional: true, required: false
-  private _booleanValue?: string;
+  private _booleanValue?: string; 
   public get booleanValue() {
     return this.getStringAttribute('boolean_value');
   }
@@ -10826,7 +10826,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsAct
   }
 
   // double_value - computed: true, optional: true, required: false
-  private _doubleValue?: string;
+  private _doubleValue?: string; 
   public get doubleValue() {
     return this.getStringAttribute('double_value');
   }
@@ -10842,7 +10842,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsAct
   }
 
   // integer_value - computed: true, optional: true, required: false
-  private _integerValue?: string;
+  private _integerValue?: string; 
   public get integerValue() {
     return this.getStringAttribute('integer_value');
   }
@@ -10858,7 +10858,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsAct
   }
 
   // string_value - computed: true, optional: true, required: false
-  private _stringValue?: string;
+  private _stringValue?: string; 
   public get stringValue() {
     return this.getStringAttribute('string_value');
   }
@@ -10992,7 +10992,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsAct
   }
 
   // quality - computed: true, optional: true, required: false
-  private _quality?: string;
+  private _quality?: string; 
   public get quality() {
     return this.getStringAttribute('quality');
   }
@@ -11196,7 +11196,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsAct
   }
 
   // asset_id - computed: true, optional: true, required: false
-  private _assetId?: string;
+  private _assetId?: string; 
   public get assetId() {
     return this.getStringAttribute('asset_id');
   }
@@ -11212,7 +11212,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsAct
   }
 
   // entry_id - computed: true, optional: true, required: false
-  private _entryId?: string;
+  private _entryId?: string; 
   public get entryId() {
     return this.getStringAttribute('entry_id');
   }
@@ -11228,7 +11228,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsAct
   }
 
   // property_alias - computed: true, optional: true, required: false
-  private _propertyAlias?: string;
+  private _propertyAlias?: string; 
   public get propertyAlias() {
     return this.getStringAttribute('property_alias');
   }
@@ -11244,7 +11244,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsAct
   }
 
   // property_id - computed: true, optional: true, required: false
-  private _propertyId?: string;
+  private _propertyId?: string; 
   public get propertyId() {
     return this.getStringAttribute('property_id');
   }
@@ -11375,7 +11375,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsAct
   }
 
   // content_expression - computed: true, optional: true, required: false
-  private _contentExpression?: string;
+  private _contentExpression?: string; 
   public get contentExpression() {
     return this.getStringAttribute('content_expression');
   }
@@ -11391,7 +11391,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsAct
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -11506,7 +11506,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsAct
   }
 
   // mqtt_topic - computed: true, optional: true, required: false
-  private _mqttTopic?: string;
+  private _mqttTopic?: string; 
   public get mqttTopic() {
     return this.getStringAttribute('mqtt_topic');
   }
@@ -11637,7 +11637,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsAct
   }
 
   // content_expression - computed: true, optional: true, required: false
-  private _contentExpression?: string;
+  private _contentExpression?: string; 
   public get contentExpression() {
     return this.getStringAttribute('content_expression');
   }
@@ -11653,7 +11653,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsAct
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -11768,7 +11768,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsAct
   }
 
   // function_arn - computed: true, optional: true, required: false
-  private _functionArn?: string;
+  private _functionArn?: string; 
   public get functionArn() {
     return this.getStringAttribute('function_arn');
   }
@@ -11880,7 +11880,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsAct
   }
 
   // timer_name - computed: true, optional: true, required: false
-  private _timerName?: string;
+  private _timerName?: string; 
   public get timerName() {
     return this.getStringAttribute('timer_name');
   }
@@ -12014,7 +12014,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsAct
   }
 
   // duration_expression - computed: true, optional: true, required: false
-  private _durationExpression?: string;
+  private _durationExpression?: string; 
   public get durationExpression() {
     return this.getStringAttribute('duration_expression');
   }
@@ -12030,7 +12030,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsAct
   }
 
   // seconds - computed: true, optional: true, required: false
-  private _seconds?: number;
+  private _seconds?: number; 
   public get seconds() {
     return this.getNumberAttribute('seconds');
   }
@@ -12046,7 +12046,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsAct
   }
 
   // timer_name - computed: true, optional: true, required: false
-  private _timerName?: string;
+  private _timerName?: string; 
   public get timerName() {
     return this.getStringAttribute('timer_name');
   }
@@ -12161,7 +12161,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsAct
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -12177,7 +12177,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsAct
   }
 
   // variable_name - computed: true, optional: true, required: false
-  private _variableName?: string;
+  private _variableName?: string; 
   public get variableName() {
     return this.getStringAttribute('variable_name');
   }
@@ -12292,7 +12292,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsAct
   }
 
   // content_expression - computed: true, optional: true, required: false
-  private _contentExpression?: string;
+  private _contentExpression?: string; 
   public get contentExpression() {
     return this.getStringAttribute('content_expression');
   }
@@ -12308,7 +12308,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsAct
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -12439,7 +12439,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsAct
   }
 
   // target_arn - computed: true, optional: true, required: false
-  private _targetArn?: string;
+  private _targetArn?: string; 
   public get targetArn() {
     return this.getStringAttribute('target_arn');
   }
@@ -12554,7 +12554,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsAct
   }
 
   // content_expression - computed: true, optional: true, required: false
-  private _contentExpression?: string;
+  private _contentExpression?: string; 
   public get contentExpression() {
     return this.getStringAttribute('content_expression');
   }
@@ -12570,7 +12570,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsAct
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -12720,7 +12720,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsAct
   }
 
   // queue_url - computed: true, optional: true, required: false
-  private _queueUrl?: string;
+  private _queueUrl?: string; 
   public get queueUrl() {
     return this.getStringAttribute('queue_url');
   }
@@ -12736,7 +12736,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsAct
   }
 
   // use_base_64 - computed: true, optional: true, required: false
-  private _useBase64?: boolean | cdktn.IResolvable;
+  private _useBase64?: boolean | cdktn.IResolvable; 
   public get useBase64() {
     return this.getBooleanAttribute('use_base_64');
   }
@@ -13426,7 +13426,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsOut
   }
 
   // condition - computed: true, optional: true, required: false
-  private _condition?: string;
+  private _condition?: string; 
   public get condition() {
     return this.getStringAttribute('condition');
   }
@@ -13442,7 +13442,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsOut
   }
 
   // event_name - computed: true, optional: true, required: false
-  private _eventName?: string;
+  private _eventName?: string; 
   public get eventName() {
     return this.getStringAttribute('event_name');
   }
@@ -13558,7 +13558,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitio
   }
 
   // timer_name - computed: true, optional: true, required: false
-  private _timerName?: string;
+  private _timerName?: string; 
   public get timerName() {
     return this.getStringAttribute('timer_name');
   }
@@ -13673,7 +13673,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitio
   }
 
   // content_expression - computed: true, optional: true, required: false
-  private _contentExpression?: string;
+  private _contentExpression?: string; 
   public get contentExpression() {
     return this.getStringAttribute('content_expression');
   }
@@ -13689,7 +13689,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitio
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -13821,7 +13821,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitio
   }
 
   // table_name - computed: true, optional: true, required: false
-  private _tableName?: string;
+  private _tableName?: string; 
   public get tableName() {
     return this.getStringAttribute('table_name');
   }
@@ -13936,7 +13936,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitio
   }
 
   // content_expression - computed: true, optional: true, required: false
-  private _contentExpression?: string;
+  private _contentExpression?: string; 
   public get contentExpression() {
     return this.getStringAttribute('content_expression');
   }
@@ -13952,7 +13952,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitio
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -13978,7 +13978,7 @@ export interface IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTrans
   * The data type for the hash key (also called the partition key). You can specify the following values:
   *   +  ``'STRING'`` - The hash key is a string.
   *   +  ``'NUMBER'`` - The hash key is a number.
-  *
+  *   
   *  If you don't specify ``hashKeyType``, the default value is ``'STRING'``.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_detector_model#hash_key_type IoteventsDetectorModel#hash_key_type}
@@ -13991,11 +13991,11 @@ export interface IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTrans
   */
   readonly hashKeyValue?: string;
   /**
-  * The type of operation to perform. You can specify the following values:
+  * The type of operation to perform. You can specify the following values: 
   *   +  ``'INSERT'`` - Insert data as a new item into the DynamoDB table. This item uses the specified hash key as a partition key. If you specified a range key, the item uses the range key as a sort key.
   *   +  ``'UPDATE'`` - Update an existing item of the DynamoDB table with new data. This item's partition key must match the specified hash key. If you specified a range key, the range key must match the item's sort key.
   *   +  ``'DELETE'`` - Delete an existing item of the DynamoDB table. This item's partition key must match the specified hash key. If you specified a range key, the range key must match the item's sort key.
-  *
+  *   
   *  If you don't specify this parameter, ITE triggers the ``'INSERT'`` operation.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_detector_model#operation IoteventsDetectorModel#operation}
@@ -14025,7 +14025,7 @@ export interface IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTrans
   * The data type for the range key (also called the sort key), You can specify the following values:
   *   +  ``'STRING'`` - The range key is a string.
   *   +  ``'NUMBER'`` - The range key is number.
-  *
+  *   
   *  If you don't specify ``rangeKeyField``, the default value is ``'STRING'``.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_detector_model#range_key_type IoteventsDetectorModel#range_key_type}
@@ -14234,7 +14234,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitio
   }
 
   // hash_key_field - computed: true, optional: true, required: false
-  private _hashKeyField?: string;
+  private _hashKeyField?: string; 
   public get hashKeyField() {
     return this.getStringAttribute('hash_key_field');
   }
@@ -14250,7 +14250,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitio
   }
 
   // hash_key_type - computed: true, optional: true, required: false
-  private _hashKeyType?: string;
+  private _hashKeyType?: string; 
   public get hashKeyType() {
     return this.getStringAttribute('hash_key_type');
   }
@@ -14266,7 +14266,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitio
   }
 
   // hash_key_value - computed: true, optional: true, required: false
-  private _hashKeyValue?: string;
+  private _hashKeyValue?: string; 
   public get hashKeyValue() {
     return this.getStringAttribute('hash_key_value');
   }
@@ -14282,7 +14282,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitio
   }
 
   // operation - computed: true, optional: true, required: false
-  private _operation?: string;
+  private _operation?: string; 
   public get operation() {
     return this.getStringAttribute('operation');
   }
@@ -14314,7 +14314,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitio
   }
 
   // payload_field - computed: true, optional: true, required: false
-  private _payloadField?: string;
+  private _payloadField?: string; 
   public get payloadField() {
     return this.getStringAttribute('payload_field');
   }
@@ -14330,7 +14330,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitio
   }
 
   // range_key_field - computed: true, optional: true, required: false
-  private _rangeKeyField?: string;
+  private _rangeKeyField?: string; 
   public get rangeKeyField() {
     return this.getStringAttribute('range_key_field');
   }
@@ -14346,7 +14346,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitio
   }
 
   // range_key_type - computed: true, optional: true, required: false
-  private _rangeKeyType?: string;
+  private _rangeKeyType?: string; 
   public get rangeKeyType() {
     return this.getStringAttribute('range_key_type');
   }
@@ -14362,7 +14362,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitio
   }
 
   // range_key_value - computed: true, optional: true, required: false
-  private _rangeKeyValue?: string;
+  private _rangeKeyValue?: string; 
   public get rangeKeyValue() {
     return this.getStringAttribute('range_key_value');
   }
@@ -14378,7 +14378,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitio
   }
 
   // table_name - computed: true, optional: true, required: false
-  private _tableName?: string;
+  private _tableName?: string; 
   public get tableName() {
     return this.getStringAttribute('table_name');
   }
@@ -14493,7 +14493,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitio
   }
 
   // content_expression - computed: true, optional: true, required: false
-  private _contentExpression?: string;
+  private _contentExpression?: string; 
   public get contentExpression() {
     return this.getStringAttribute('content_expression');
   }
@@ -14509,7 +14509,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitio
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -14643,7 +14643,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitio
   }
 
   // delivery_stream_name - computed: true, optional: true, required: false
-  private _deliveryStreamName?: string;
+  private _deliveryStreamName?: string; 
   public get deliveryStreamName() {
     return this.getStringAttribute('delivery_stream_name');
   }
@@ -14675,7 +14675,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitio
   }
 
   // separator - computed: true, optional: true, required: false
-  private _separator?: string;
+  private _separator?: string; 
   public get separator() {
     return this.getStringAttribute('separator');
   }
@@ -14790,7 +14790,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitio
   }
 
   // content_expression - computed: true, optional: true, required: false
-  private _contentExpression?: string;
+  private _contentExpression?: string; 
   public get contentExpression() {
     return this.getStringAttribute('content_expression');
   }
@@ -14806,7 +14806,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitio
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -14921,7 +14921,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitio
   }
 
   // input_name - computed: true, optional: true, required: false
-  private _inputName?: string;
+  private _inputName?: string; 
   public get inputName() {
     return this.getStringAttribute('input_name');
   }
@@ -15052,7 +15052,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitio
   }
 
   // offset_in_nanos - computed: true, optional: true, required: false
-  private _offsetInNanos?: string;
+  private _offsetInNanos?: string; 
   public get offsetInNanos() {
     return this.getStringAttribute('offset_in_nanos');
   }
@@ -15068,7 +15068,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitio
   }
 
   // time_in_seconds - computed: true, optional: true, required: false
-  private _timeInSeconds?: string;
+  private _timeInSeconds?: string; 
   public get timeInSeconds() {
     return this.getStringAttribute('time_in_seconds');
   }
@@ -15221,7 +15221,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitio
   }
 
   // boolean_value - computed: true, optional: true, required: false
-  private _booleanValue?: string;
+  private _booleanValue?: string; 
   public get booleanValue() {
     return this.getStringAttribute('boolean_value');
   }
@@ -15237,7 +15237,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitio
   }
 
   // double_value - computed: true, optional: true, required: false
-  private _doubleValue?: string;
+  private _doubleValue?: string; 
   public get doubleValue() {
     return this.getStringAttribute('double_value');
   }
@@ -15253,7 +15253,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitio
   }
 
   // integer_value - computed: true, optional: true, required: false
-  private _integerValue?: string;
+  private _integerValue?: string; 
   public get integerValue() {
     return this.getStringAttribute('integer_value');
   }
@@ -15269,7 +15269,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitio
   }
 
   // string_value - computed: true, optional: true, required: false
-  private _stringValue?: string;
+  private _stringValue?: string; 
   public get stringValue() {
     return this.getStringAttribute('string_value');
   }
@@ -15403,7 +15403,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitio
   }
 
   // quality - computed: true, optional: true, required: false
-  private _quality?: string;
+  private _quality?: string; 
   public get quality() {
     return this.getStringAttribute('quality');
   }
@@ -15607,7 +15607,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitio
   }
 
   // asset_id - computed: true, optional: true, required: false
-  private _assetId?: string;
+  private _assetId?: string; 
   public get assetId() {
     return this.getStringAttribute('asset_id');
   }
@@ -15623,7 +15623,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitio
   }
 
   // entry_id - computed: true, optional: true, required: false
-  private _entryId?: string;
+  private _entryId?: string; 
   public get entryId() {
     return this.getStringAttribute('entry_id');
   }
@@ -15639,7 +15639,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitio
   }
 
   // property_alias - computed: true, optional: true, required: false
-  private _propertyAlias?: string;
+  private _propertyAlias?: string; 
   public get propertyAlias() {
     return this.getStringAttribute('property_alias');
   }
@@ -15655,7 +15655,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitio
   }
 
   // property_id - computed: true, optional: true, required: false
-  private _propertyId?: string;
+  private _propertyId?: string; 
   public get propertyId() {
     return this.getStringAttribute('property_id');
   }
@@ -15786,7 +15786,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitio
   }
 
   // content_expression - computed: true, optional: true, required: false
-  private _contentExpression?: string;
+  private _contentExpression?: string; 
   public get contentExpression() {
     return this.getStringAttribute('content_expression');
   }
@@ -15802,7 +15802,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitio
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -15917,7 +15917,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitio
   }
 
   // mqtt_topic - computed: true, optional: true, required: false
-  private _mqttTopic?: string;
+  private _mqttTopic?: string; 
   public get mqttTopic() {
     return this.getStringAttribute('mqtt_topic');
   }
@@ -16048,7 +16048,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitio
   }
 
   // content_expression - computed: true, optional: true, required: false
-  private _contentExpression?: string;
+  private _contentExpression?: string; 
   public get contentExpression() {
     return this.getStringAttribute('content_expression');
   }
@@ -16064,7 +16064,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitio
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -16179,7 +16179,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitio
   }
 
   // function_arn - computed: true, optional: true, required: false
-  private _functionArn?: string;
+  private _functionArn?: string; 
   public get functionArn() {
     return this.getStringAttribute('function_arn');
   }
@@ -16291,7 +16291,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitio
   }
 
   // timer_name - computed: true, optional: true, required: false
-  private _timerName?: string;
+  private _timerName?: string; 
   public get timerName() {
     return this.getStringAttribute('timer_name');
   }
@@ -16425,7 +16425,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitio
   }
 
   // duration_expression - computed: true, optional: true, required: false
-  private _durationExpression?: string;
+  private _durationExpression?: string; 
   public get durationExpression() {
     return this.getStringAttribute('duration_expression');
   }
@@ -16441,7 +16441,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitio
   }
 
   // seconds - computed: true, optional: true, required: false
-  private _seconds?: number;
+  private _seconds?: number; 
   public get seconds() {
     return this.getNumberAttribute('seconds');
   }
@@ -16457,7 +16457,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitio
   }
 
   // timer_name - computed: true, optional: true, required: false
-  private _timerName?: string;
+  private _timerName?: string; 
   public get timerName() {
     return this.getStringAttribute('timer_name');
   }
@@ -16572,7 +16572,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitio
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -16588,7 +16588,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitio
   }
 
   // variable_name - computed: true, optional: true, required: false
-  private _variableName?: string;
+  private _variableName?: string; 
   public get variableName() {
     return this.getStringAttribute('variable_name');
   }
@@ -16703,7 +16703,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitio
   }
 
   // content_expression - computed: true, optional: true, required: false
-  private _contentExpression?: string;
+  private _contentExpression?: string; 
   public get contentExpression() {
     return this.getStringAttribute('content_expression');
   }
@@ -16719,7 +16719,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitio
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -16850,7 +16850,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitio
   }
 
   // target_arn - computed: true, optional: true, required: false
-  private _targetArn?: string;
+  private _targetArn?: string; 
   public get targetArn() {
     return this.getStringAttribute('target_arn');
   }
@@ -16965,7 +16965,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitio
   }
 
   // content_expression - computed: true, optional: true, required: false
-  private _contentExpression?: string;
+  private _contentExpression?: string; 
   public get contentExpression() {
     return this.getStringAttribute('content_expression');
   }
@@ -16981,7 +16981,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitio
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -17131,7 +17131,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitio
   }
 
   // queue_url - computed: true, optional: true, required: false
-  private _queueUrl?: string;
+  private _queueUrl?: string; 
   public get queueUrl() {
     return this.getStringAttribute('queue_url');
   }
@@ -17147,7 +17147,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitio
   }
 
   // use_base_64 - computed: true, optional: true, required: false
-  private _useBase64?: boolean | cdktn.IResolvable;
+  private _useBase64?: boolean | cdktn.IResolvable; 
   public get useBase64() {
     return this.getBooleanAttribute('use_base_64');
   }
@@ -17856,7 +17856,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitio
   }
 
   // condition - computed: true, optional: true, required: false
-  private _condition?: string;
+  private _condition?: string; 
   public get condition() {
     return this.getStringAttribute('condition');
   }
@@ -17872,7 +17872,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitio
   }
 
   // event_name - computed: true, optional: true, required: false
-  private _eventName?: string;
+  private _eventName?: string; 
   public get eventName() {
     return this.getStringAttribute('event_name');
   }
@@ -17888,7 +17888,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOnInputTransitio
   }
 
   // next_state - computed: true, optional: true, required: false
-  private _nextState?: string;
+  private _nextState?: string; 
   public get nextState() {
     return this.getStringAttribute('next_state');
   }
@@ -18242,7 +18242,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionStatesOutputReference 
   }
 
   // state_name - computed: false, optional: false, required: true
-  private _stateName?: string;
+  private _stateName?: string; 
   public get stateName() {
     return this.getStringAttribute('state_name');
   }
@@ -18374,7 +18374,7 @@ export class IoteventsDetectorModelDetectorModelDefinitionOutputReference extend
   }
 
   // initial_state_name - computed: false, optional: false, required: true
-  private _initialStateName?: string;
+  private _initialStateName?: string; 
   public get initialStateName() {
     return this.getStringAttribute('initial_state_name');
   }
@@ -18501,7 +18501,7 @@ export class IoteventsDetectorModelTagsOutputReference extends cdktn.ComplexObje
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -18517,7 +18517,7 @@ export class IoteventsDetectorModelTagsOutputReference extends cdktn.ComplexObje
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -18630,7 +18630,7 @@ export class IoteventsDetectorModel extends cdktn.TerraformResource {
   }
 
   // detector_model_description - computed: true, optional: true, required: false
-  private _detectorModelDescription?: string;
+  private _detectorModelDescription?: string; 
   public get detectorModelDescription() {
     return this.getStringAttribute('detector_model_description');
   }
@@ -18646,7 +18646,7 @@ export class IoteventsDetectorModel extends cdktn.TerraformResource {
   }
 
   // detector_model_name - computed: true, optional: true, required: false
-  private _detectorModelName?: string;
+  private _detectorModelName?: string; 
   public get detectorModelName() {
     return this.getStringAttribute('detector_model_name');
   }
@@ -18662,7 +18662,7 @@ export class IoteventsDetectorModel extends cdktn.TerraformResource {
   }
 
   // evaluation_method - computed: true, optional: true, required: false
-  private _evaluationMethod?: string;
+  private _evaluationMethod?: string; 
   public get evaluationMethod() {
     return this.getStringAttribute('evaluation_method');
   }
@@ -18683,7 +18683,7 @@ export class IoteventsDetectorModel extends cdktn.TerraformResource {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -18699,7 +18699,7 @@ export class IoteventsDetectorModel extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }

@@ -149,7 +149,7 @@ export class GlueTriggerActionsNotificationPropertyOutputReference extends cdktn
   }
 
   // notify_delay_after - computed: true, optional: true, required: false
-  private _notifyDelayAfter?: number;
+  private _notifyDelayAfter?: number; 
   public get notifyDelayAfter() {
     return this.getNumberAttribute('notify_delay_after');
   }
@@ -342,7 +342,7 @@ export class GlueTriggerActionsOutputReference extends cdktn.ComplexObject {
   }
 
   // arguments - computed: true, optional: true, required: false
-  private _arguments?: string;
+  private _arguments?: string; 
   public get arguments() {
     return this.getStringAttribute('arguments');
   }
@@ -358,7 +358,7 @@ export class GlueTriggerActionsOutputReference extends cdktn.ComplexObject {
   }
 
   // crawler_name - computed: true, optional: true, required: false
-  private _crawlerName?: string;
+  private _crawlerName?: string; 
   public get crawlerName() {
     return this.getStringAttribute('crawler_name');
   }
@@ -374,7 +374,7 @@ export class GlueTriggerActionsOutputReference extends cdktn.ComplexObject {
   }
 
   // job_name - computed: true, optional: true, required: false
-  private _jobName?: string;
+  private _jobName?: string; 
   public get jobName() {
     return this.getStringAttribute('job_name');
   }
@@ -406,7 +406,7 @@ export class GlueTriggerActionsOutputReference extends cdktn.ComplexObject {
   }
 
   // security_configuration - computed: true, optional: true, required: false
-  private _securityConfiguration?: string;
+  private _securityConfiguration?: string; 
   public get securityConfiguration() {
     return this.getStringAttribute('security_configuration');
   }
@@ -422,7 +422,7 @@ export class GlueTriggerActionsOutputReference extends cdktn.ComplexObject {
   }
 
   // timeout - computed: true, optional: true, required: false
-  private _timeout?: number;
+  private _timeout?: number; 
   public get timeout() {
     return this.getNumberAttribute('timeout');
   }
@@ -557,7 +557,7 @@ export class GlueTriggerEventBatchingConditionOutputReference extends cdktn.Comp
   }
 
   // batch_size - computed: true, optional: true, required: false
-  private _batchSize?: number;
+  private _batchSize?: number; 
   public get batchSize() {
     return this.getNumberAttribute('batch_size');
   }
@@ -573,7 +573,7 @@ export class GlueTriggerEventBatchingConditionOutputReference extends cdktn.Comp
   }
 
   // batch_window - computed: true, optional: true, required: false
-  private _batchWindow?: number;
+  private _batchWindow?: number; 
   public get batchWindow() {
     return this.getNumberAttribute('batch_window');
   }
@@ -747,7 +747,7 @@ export class GlueTriggerPredicateConditionsOutputReference extends cdktn.Complex
   }
 
   // crawl_state - computed: true, optional: true, required: false
-  private _crawlState?: string;
+  private _crawlState?: string; 
   public get crawlState() {
     return this.getStringAttribute('crawl_state');
   }
@@ -763,7 +763,7 @@ export class GlueTriggerPredicateConditionsOutputReference extends cdktn.Complex
   }
 
   // crawler_name - computed: true, optional: true, required: false
-  private _crawlerName?: string;
+  private _crawlerName?: string; 
   public get crawlerName() {
     return this.getStringAttribute('crawler_name');
   }
@@ -779,7 +779,7 @@ export class GlueTriggerPredicateConditionsOutputReference extends cdktn.Complex
   }
 
   // job_name - computed: true, optional: true, required: false
-  private _jobName?: string;
+  private _jobName?: string; 
   public get jobName() {
     return this.getStringAttribute('job_name');
   }
@@ -795,7 +795,7 @@ export class GlueTriggerPredicateConditionsOutputReference extends cdktn.Complex
   }
 
   // logical_operator - computed: true, optional: true, required: false
-  private _logicalOperator?: string;
+  private _logicalOperator?: string; 
   public get logicalOperator() {
     return this.getStringAttribute('logical_operator');
   }
@@ -811,7 +811,7 @@ export class GlueTriggerPredicateConditionsOutputReference extends cdktn.Complex
   }
 
   // state - computed: true, optional: true, required: false
-  private _state?: string;
+  private _state?: string; 
   public get state() {
     return this.getStringAttribute('state');
   }
@@ -962,7 +962,7 @@ export class GlueTriggerPredicateOutputReference extends cdktn.ComplexObject {
   }
 
   // logical - computed: true, optional: true, required: false
-  private _logical?: string;
+  private _logical?: string; 
   public get logical() {
     return this.getStringAttribute('logical');
   }
@@ -1058,7 +1058,7 @@ export class GlueTrigger extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1095,7 +1095,7 @@ export class GlueTrigger extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1127,7 +1127,7 @@ export class GlueTrigger extends cdktn.TerraformResource {
   }
 
   // schedule - computed: true, optional: true, required: false
-  private _schedule?: string;
+  private _schedule?: string; 
   public get schedule() {
     return this.getStringAttribute('schedule');
   }
@@ -1143,7 +1143,7 @@ export class GlueTrigger extends cdktn.TerraformResource {
   }
 
   // start_on_creation - computed: true, optional: true, required: false
-  private _startOnCreation?: boolean | cdktn.IResolvable;
+  private _startOnCreation?: boolean | cdktn.IResolvable; 
   public get startOnCreation() {
     return this.getBooleanAttribute('start_on_creation');
   }
@@ -1159,7 +1159,7 @@ export class GlueTrigger extends cdktn.TerraformResource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: string;
+  private _tags?: string; 
   public get tags() {
     return this.getStringAttribute('tags');
   }
@@ -1175,7 +1175,7 @@ export class GlueTrigger extends cdktn.TerraformResource {
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -1188,7 +1188,7 @@ export class GlueTrigger extends cdktn.TerraformResource {
   }
 
   // workflow_name - computed: true, optional: true, required: false
-  private _workflowName?: string;
+  private _workflowName?: string; 
   public get workflowName() {
     return this.getStringAttribute('workflow_name');
   }

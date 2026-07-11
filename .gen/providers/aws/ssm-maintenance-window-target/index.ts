@@ -145,7 +145,7 @@ export class SsmMaintenanceWindowTargetTargetsOutputReference extends cdktn.Comp
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -158,7 +158,7 @@ export class SsmMaintenanceWindowTargetTargetsOutputReference extends cdktn.Comp
   }
 
   // values - computed: false, optional: false, required: true
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -256,7 +256,7 @@ export class SsmMaintenanceWindowTarget extends cdktn.TerraformResource {
   // ==========
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -272,7 +272,7 @@ export class SsmMaintenanceWindowTarget extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -288,7 +288,7 @@ export class SsmMaintenanceWindowTarget extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -304,7 +304,7 @@ export class SsmMaintenanceWindowTarget extends cdktn.TerraformResource {
   }
 
   // owner_information - computed: false, optional: true, required: false
-  private _ownerInformation?: string;
+  private _ownerInformation?: string; 
   public get ownerInformation() {
     return this.getStringAttribute('owner_information');
   }
@@ -320,7 +320,7 @@ export class SsmMaintenanceWindowTarget extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -336,7 +336,7 @@ export class SsmMaintenanceWindowTarget extends cdktn.TerraformResource {
   }
 
   // resource_type - computed: false, optional: false, required: true
-  private _resourceType?: string;
+  private _resourceType?: string; 
   public get resourceType() {
     return this.getStringAttribute('resource_type');
   }
@@ -349,7 +349,7 @@ export class SsmMaintenanceWindowTarget extends cdktn.TerraformResource {
   }
 
   // window_id - computed: false, optional: false, required: true
-  private _windowId?: string;
+  private _windowId?: string; 
   public get windowId() {
     return this.getStringAttribute('window_id');
   }

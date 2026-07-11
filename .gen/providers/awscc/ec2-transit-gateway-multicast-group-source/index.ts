@@ -87,7 +87,7 @@ export class Ec2TransitGatewayMulticastGroupSource extends cdktn.TerraformResour
   // ==========
 
   // group_ip_address - computed: false, optional: false, required: true
-  private _groupIpAddress?: string;
+  private _groupIpAddress?: string; 
   public get groupIpAddress() {
     return this.getStringAttribute('group_ip_address');
   }
@@ -115,7 +115,7 @@ export class Ec2TransitGatewayMulticastGroupSource extends cdktn.TerraformResour
   }
 
   // network_interface_id - computed: false, optional: false, required: true
-  private _networkInterfaceId?: string;
+  private _networkInterfaceId?: string; 
   public get networkInterfaceId() {
     return this.getStringAttribute('network_interface_id');
   }
@@ -153,7 +153,7 @@ export class Ec2TransitGatewayMulticastGroupSource extends cdktn.TerraformResour
   }
 
   // transit_gateway_multicast_domain_id - computed: false, optional: false, required: true
-  private _transitGatewayMulticastDomainId?: string;
+  private _transitGatewayMulticastDomainId?: string; 
   public get transitGatewayMulticastDomainId() {
     return this.getStringAttribute('transit_gateway_multicast_domain_id');
   }

@@ -158,7 +158,7 @@ export class ConnectAgentStatusTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -174,7 +174,7 @@ export class ConnectAgentStatusTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -280,7 +280,7 @@ export class ConnectAgentStatus extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -296,7 +296,7 @@ export class ConnectAgentStatus extends cdktn.TerraformResource {
   }
 
   // display_order - computed: true, optional: true, required: false
-  private _displayOrder?: number;
+  private _displayOrder?: number; 
   public get displayOrder() {
     return this.getNumberAttribute('display_order');
   }
@@ -317,7 +317,7 @@ export class ConnectAgentStatus extends cdktn.TerraformResource {
   }
 
   // instance_arn - computed: false, optional: false, required: true
-  private _instanceArn?: string;
+  private _instanceArn?: string; 
   public get instanceArn() {
     return this.getStringAttribute('instance_arn');
   }
@@ -340,7 +340,7 @@ export class ConnectAgentStatus extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -353,7 +353,7 @@ export class ConnectAgentStatus extends cdktn.TerraformResource {
   }
 
   // reset_order_number - computed: true, optional: true, required: false
-  private _resetOrderNumber?: boolean | cdktn.IResolvable;
+  private _resetOrderNumber?: boolean | cdktn.IResolvable; 
   public get resetOrderNumber() {
     return this.getBooleanAttribute('reset_order_number');
   }
@@ -369,7 +369,7 @@ export class ConnectAgentStatus extends cdktn.TerraformResource {
   }
 
   // state - computed: false, optional: false, required: true
-  private _state?: string;
+  private _state?: string; 
   public get state() {
     return this.getStringAttribute('state');
   }
@@ -398,7 +398,7 @@ export class ConnectAgentStatus extends cdktn.TerraformResource {
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }

@@ -128,7 +128,7 @@ export class NimblestudioStudioStudioEncryptionConfigurationOutputReference exte
   }
 
   // key_arn - computed: true, optional: true, required: false
-  private _keyArn?: string;
+  private _keyArn?: string; 
   public get keyArn() {
     return this.getStringAttribute('key_arn');
   }
@@ -144,7 +144,7 @@ export class NimblestudioStudioStudioEncryptionConfigurationOutputReference exte
   }
 
   // key_type - computed: true, optional: true, required: false
-  private _keyType?: string;
+  private _keyType?: string; 
   public get keyType() {
     return this.getStringAttribute('key_type');
   }
@@ -223,7 +223,7 @@ export class NimblestudioStudio extends cdktn.TerraformResource {
   // ==========
 
   // admin_role_arn - computed: false, optional: false, required: true
-  private _adminRoleArn?: string;
+  private _adminRoleArn?: string; 
   public get adminRoleArn() {
     return this.getStringAttribute('admin_role_arn');
   }
@@ -236,7 +236,7 @@ export class NimblestudioStudio extends cdktn.TerraformResource {
   }
 
   // display_name - computed: false, optional: false, required: true
-  private _displayName?: string;
+  private _displayName?: string; 
   public get displayName() {
     return this.getStringAttribute('display_name');
   }
@@ -285,7 +285,7 @@ export class NimblestudioStudio extends cdktn.TerraformResource {
   }
 
   // studio_name - computed: false, optional: false, required: true
-  private _studioName?: string;
+  private _studioName?: string; 
   public get studioName() {
     return this.getStringAttribute('studio_name');
   }
@@ -303,7 +303,7 @@ export class NimblestudioStudio extends cdktn.TerraformResource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -319,7 +319,7 @@ export class NimblestudioStudio extends cdktn.TerraformResource {
   }
 
   // user_role_arn - computed: false, optional: false, required: true
-  private _userRoleArn?: string;
+  private _userRoleArn?: string; 
   public get userRoleArn() {
     return this.getStringAttribute('user_role_arn');
   }

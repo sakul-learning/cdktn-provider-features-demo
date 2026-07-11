@@ -134,7 +134,7 @@ export class AutoscalingGroupTagTagOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -147,7 +147,7 @@ export class AutoscalingGroupTagTagOutputReference extends cdktn.ComplexObject {
   }
 
   // propagate_at_launch - computed: false, optional: false, required: true
-  private _propagateAtLaunch?: boolean | cdktn.IResolvable;
+  private _propagateAtLaunch?: boolean | cdktn.IResolvable; 
   public get propagateAtLaunch() {
     return this.getBooleanAttribute('propagate_at_launch');
   }
@@ -160,7 +160,7 @@ export class AutoscalingGroupTagTagOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -234,7 +234,7 @@ export class AutoscalingGroupTagA extends cdktn.TerraformResource {
   // ==========
 
   // autoscaling_group_name - computed: false, optional: false, required: true
-  private _autoscalingGroupName?: string;
+  private _autoscalingGroupName?: string; 
   public get autoscalingGroupName() {
     return this.getStringAttribute('autoscaling_group_name');
   }
@@ -247,7 +247,7 @@ export class AutoscalingGroupTagA extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -263,7 +263,7 @@ export class AutoscalingGroupTagA extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

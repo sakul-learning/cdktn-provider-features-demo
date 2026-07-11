@@ -409,7 +409,7 @@ export class AmiCopyTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -425,7 +425,7 @@ export class AmiCopyTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -441,7 +441,7 @@ export class AmiCopyTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -544,7 +544,7 @@ export class AmiCopy extends cdktn.TerraformResource {
   }
 
   // deprecation_time - computed: false, optional: true, required: false
-  private _deprecationTime?: string;
+  private _deprecationTime?: string; 
   public get deprecationTime() {
     return this.getStringAttribute('deprecation_time');
   }
@@ -560,7 +560,7 @@ export class AmiCopy extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -576,7 +576,7 @@ export class AmiCopy extends cdktn.TerraformResource {
   }
 
   // destination_outpost_arn - computed: false, optional: true, required: false
-  private _destinationOutpostArn?: string;
+  private _destinationOutpostArn?: string; 
   public get destinationOutpostArn() {
     return this.getStringAttribute('destination_outpost_arn');
   }
@@ -597,7 +597,7 @@ export class AmiCopy extends cdktn.TerraformResource {
   }
 
   // encrypted - computed: false, optional: true, required: false
-  private _encrypted?: boolean | cdktn.IResolvable;
+  private _encrypted?: boolean | cdktn.IResolvable; 
   public get encrypted() {
     return this.getBooleanAttribute('encrypted');
   }
@@ -618,7 +618,7 @@ export class AmiCopy extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -659,7 +659,7 @@ export class AmiCopy extends cdktn.TerraformResource {
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -685,7 +685,7 @@ export class AmiCopy extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -723,7 +723,7 @@ export class AmiCopy extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -749,7 +749,7 @@ export class AmiCopy extends cdktn.TerraformResource {
   }
 
   // source_ami_id - computed: false, optional: false, required: true
-  private _sourceAmiId?: string;
+  private _sourceAmiId?: string; 
   public get sourceAmiId() {
     return this.getStringAttribute('source_ami_id');
   }
@@ -762,7 +762,7 @@ export class AmiCopy extends cdktn.TerraformResource {
   }
 
   // source_ami_region - computed: false, optional: false, required: true
-  private _sourceAmiRegion?: string;
+  private _sourceAmiRegion?: string; 
   public get sourceAmiRegion() {
     return this.getStringAttribute('source_ami_region');
   }
@@ -780,7 +780,7 @@ export class AmiCopy extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -796,7 +796,7 @@ export class AmiCopy extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

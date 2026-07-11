@@ -101,7 +101,7 @@ export class DetectiveMemberInvitation extends cdktn.TerraformResource {
   // ==========
 
   // disable_email_notification - computed: true, optional: true, required: false
-  private _disableEmailNotification?: boolean | cdktn.IResolvable;
+  private _disableEmailNotification?: boolean | cdktn.IResolvable; 
   public get disableEmailNotification() {
     return this.getBooleanAttribute('disable_email_notification');
   }
@@ -117,7 +117,7 @@ export class DetectiveMemberInvitation extends cdktn.TerraformResource {
   }
 
   // graph_arn - computed: false, optional: false, required: true
-  private _graphArn?: string;
+  private _graphArn?: string; 
   public get graphArn() {
     return this.getStringAttribute('graph_arn');
   }
@@ -135,7 +135,7 @@ export class DetectiveMemberInvitation extends cdktn.TerraformResource {
   }
 
   // member_email_address - computed: false, optional: false, required: true
-  private _memberEmailAddress?: string;
+  private _memberEmailAddress?: string; 
   public get memberEmailAddress() {
     return this.getStringAttribute('member_email_address');
   }
@@ -148,7 +148,7 @@ export class DetectiveMemberInvitation extends cdktn.TerraformResource {
   }
 
   // member_id - computed: false, optional: false, required: true
-  private _memberId?: string;
+  private _memberId?: string; 
   public get memberId() {
     return this.getStringAttribute('member_id');
   }
@@ -161,7 +161,7 @@ export class DetectiveMemberInvitation extends cdktn.TerraformResource {
   }
 
   // message - computed: true, optional: true, required: false
-  private _message?: string;
+  private _message?: string; 
   public get message() {
     return this.getStringAttribute('message');
   }

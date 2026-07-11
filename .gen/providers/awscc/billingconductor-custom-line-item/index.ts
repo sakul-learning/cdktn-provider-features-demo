@@ -146,7 +146,7 @@ export class BillingconductorCustomLineItemBillingPeriodRangeOutputReference ext
   }
 
   // exclusive_end_billing_period - computed: true, optional: true, required: false
-  private _exclusiveEndBillingPeriod?: string;
+  private _exclusiveEndBillingPeriod?: string; 
   public get exclusiveEndBillingPeriod() {
     return this.getStringAttribute('exclusive_end_billing_period');
   }
@@ -162,7 +162,7 @@ export class BillingconductorCustomLineItemBillingPeriodRangeOutputReference ext
   }
 
   // inclusive_start_billing_period - computed: true, optional: true, required: false
-  private _inclusiveStartBillingPeriod?: string;
+  private _inclusiveStartBillingPeriod?: string; 
   public get inclusiveStartBillingPeriod() {
     return this.getStringAttribute('inclusive_start_billing_period');
   }
@@ -256,7 +256,7 @@ export class BillingconductorCustomLineItemCustomLineItemChargeDetailsFlatOutput
   }
 
   // charge_value - computed: true, optional: true, required: false
-  private _chargeValue?: number;
+  private _chargeValue?: number; 
   public get chargeValue() {
     return this.getNumberAttribute('charge_value');
   }
@@ -403,7 +403,7 @@ export class BillingconductorCustomLineItemCustomLineItemChargeDetailsLineItemFi
   }
 
   // attribute - computed: true, optional: true, required: false
-  private _attribute?: string;
+  private _attribute?: string; 
   public get attribute() {
     return this.getStringAttribute('attribute');
   }
@@ -419,7 +419,7 @@ export class BillingconductorCustomLineItemCustomLineItemChargeDetailsLineItemFi
   }
 
   // attribute_values - computed: true, optional: true, required: false
-  private _attributeValues?: string[];
+  private _attributeValues?: string[]; 
   public get attributeValues() {
     return cdktn.Fn.tolist(this.getListAttribute('attribute_values'));
   }
@@ -435,7 +435,7 @@ export class BillingconductorCustomLineItemCustomLineItemChargeDetailsLineItemFi
   }
 
   // match_option - computed: true, optional: true, required: false
-  private _matchOption?: string;
+  private _matchOption?: string; 
   public get matchOption() {
     return this.getStringAttribute('match_option');
   }
@@ -451,7 +451,7 @@ export class BillingconductorCustomLineItemCustomLineItemChargeDetailsLineItemFi
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -582,7 +582,7 @@ export class BillingconductorCustomLineItemCustomLineItemChargeDetailsPercentage
   }
 
   // child_associated_resources - computed: true, optional: true, required: false
-  private _childAssociatedResources?: string[];
+  private _childAssociatedResources?: string[]; 
   public get childAssociatedResources() {
     return cdktn.Fn.tolist(this.getListAttribute('child_associated_resources'));
   }
@@ -598,7 +598,7 @@ export class BillingconductorCustomLineItemCustomLineItemChargeDetailsPercentage
   }
 
   // percentage_value - computed: true, optional: true, required: false
-  private _percentageValue?: number;
+  private _percentageValue?: number; 
   public get percentageValue() {
     return this.getNumberAttribute('percentage_value');
   }
@@ -791,7 +791,7 @@ export class BillingconductorCustomLineItemCustomLineItemChargeDetailsOutputRefe
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -885,7 +885,7 @@ export class BillingconductorCustomLineItemPresentationDetailsOutputReference ex
   }
 
   // service - computed: true, optional: true, required: false
-  private _service?: string;
+  private _service?: string; 
   public get service() {
     return this.getStringAttribute('service');
   }
@@ -998,7 +998,7 @@ export class BillingconductorCustomLineItemTagsOutputReference extends cdktn.Com
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1014,7 +1014,7 @@ export class BillingconductorCustomLineItemTagsOutputReference extends cdktn.Com
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1116,7 +1116,7 @@ export class BillingconductorCustomLineItem extends cdktn.TerraformResource {
   // ==========
 
   // account_id - computed: true, optional: true, required: false
-  private _accountId?: string;
+  private _accountId?: string; 
   public get accountId() {
     return this.getStringAttribute('account_id');
   }
@@ -1142,7 +1142,7 @@ export class BillingconductorCustomLineItem extends cdktn.TerraformResource {
   }
 
   // billing_group_arn - computed: false, optional: false, required: true
-  private _billingGroupArn?: string;
+  private _billingGroupArn?: string; 
   public get billingGroupArn() {
     return this.getStringAttribute('billing_group_arn');
   }
@@ -1171,7 +1171,7 @@ export class BillingconductorCustomLineItem extends cdktn.TerraformResource {
   }
 
   // computation_rule - computed: true, optional: true, required: false
-  private _computationRule?: string;
+  private _computationRule?: string; 
   public get computationRule() {
     return this.getStringAttribute('computation_rule');
   }
@@ -1213,7 +1213,7 @@ export class BillingconductorCustomLineItem extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1239,7 +1239,7 @@ export class BillingconductorCustomLineItem extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }

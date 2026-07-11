@@ -121,7 +121,7 @@ export class PcsQueueComputeNodeGroupConfigurationsOutputReference extends cdktn
   }
 
   // compute_node_group_id - computed: true, optional: true, required: false
-  private _computeNodeGroupId?: string;
+  private _computeNodeGroupId?: string; 
   public get computeNodeGroupId() {
     return this.getStringAttribute('compute_node_group_id');
   }
@@ -338,7 +338,7 @@ export class PcsQueueSlurmConfigurationSlurmCustomSettingsOutputReference extend
   }
 
   // parameter_name - computed: true, optional: true, required: false
-  private _parameterName?: string;
+  private _parameterName?: string; 
   public get parameterName() {
     return this.getStringAttribute('parameter_name');
   }
@@ -354,7 +354,7 @@ export class PcsQueueSlurmConfigurationSlurmCustomSettingsOutputReference extend
   }
 
   // parameter_value - computed: true, optional: true, required: false
-  private _parameterValue?: string;
+  private _parameterValue?: string; 
   public get parameterValue() {
     return this.getStringAttribute('parameter_value');
   }
@@ -553,7 +553,7 @@ export class PcsQueue extends cdktn.TerraformResource {
   }
 
   // cluster_id - computed: false, optional: false, required: true
-  private _clusterId?: string;
+  private _clusterId?: string; 
   public get clusterId() {
     return this.getStringAttribute('cluster_id');
   }
@@ -593,7 +593,7 @@ export class PcsQueue extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -635,7 +635,7 @@ export class PcsQueue extends cdktn.TerraformResource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

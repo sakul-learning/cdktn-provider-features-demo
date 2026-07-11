@@ -143,7 +143,7 @@ export class SesConfigurationSetArchivingOptionsOutputReference extends cdktn.Co
   }
 
   // archive_arn - computed: true, optional: true, required: false
-  private _archiveArn?: string;
+  private _archiveArn?: string; 
   public get archiveArn() {
     return this.getStringAttribute('archive_arn');
   }
@@ -277,7 +277,7 @@ export class SesConfigurationSetDeliveryOptionsOutputReference extends cdktn.Com
   }
 
   // max_delivery_seconds - computed: true, optional: true, required: false
-  private _maxDeliverySeconds?: number;
+  private _maxDeliverySeconds?: number; 
   public get maxDeliverySeconds() {
     return this.getNumberAttribute('max_delivery_seconds');
   }
@@ -293,7 +293,7 @@ export class SesConfigurationSetDeliveryOptionsOutputReference extends cdktn.Com
   }
 
   // sending_pool_name - computed: true, optional: true, required: false
-  private _sendingPoolName?: string;
+  private _sendingPoolName?: string; 
   public get sendingPoolName() {
     return this.getStringAttribute('sending_pool_name');
   }
@@ -309,7 +309,7 @@ export class SesConfigurationSetDeliveryOptionsOutputReference extends cdktn.Com
   }
 
   // tls_policy - computed: true, optional: true, required: false
-  private _tlsPolicy?: string;
+  private _tlsPolicy?: string; 
   public get tlsPolicy() {
     return this.getStringAttribute('tls_policy');
   }
@@ -405,7 +405,7 @@ export class SesConfigurationSetReputationOptionsOutputReference extends cdktn.C
   }
 
   // reputation_metrics_enabled - computed: true, optional: true, required: false
-  private _reputationMetricsEnabled?: boolean | cdktn.IResolvable;
+  private _reputationMetricsEnabled?: boolean | cdktn.IResolvable; 
   public get reputationMetricsEnabled() {
     return this.getBooleanAttribute('reputation_metrics_enabled');
   }
@@ -499,7 +499,7 @@ export class SesConfigurationSetSendingOptionsOutputReference extends cdktn.Comp
   }
 
   // sending_enabled - computed: true, optional: true, required: false
-  private _sendingEnabled?: boolean | cdktn.IResolvable;
+  private _sendingEnabled?: boolean | cdktn.IResolvable; 
   public get sendingEnabled() {
     return this.getBooleanAttribute('sending_enabled');
   }
@@ -595,7 +595,7 @@ export class SesConfigurationSetSuppressionOptionsValidationOptionsConditionThre
   }
 
   // confidence_verdict_threshold - computed: true, optional: true, required: false
-  private _confidenceVerdictThreshold?: string;
+  private _confidenceVerdictThreshold?: string; 
   public get confidenceVerdictThreshold() {
     return this.getStringAttribute('confidence_verdict_threshold');
   }
@@ -710,7 +710,7 @@ export class SesConfigurationSetSuppressionOptionsValidationOptionsConditionThre
   }
 
   // condition_threshold_enabled - computed: true, optional: true, required: false
-  private _conditionThresholdEnabled?: string;
+  private _conditionThresholdEnabled?: string; 
   public get conditionThresholdEnabled() {
     return this.getStringAttribute('condition_threshold_enabled');
   }
@@ -937,7 +937,7 @@ export class SesConfigurationSetSuppressionOptionsOutputReference extends cdktn.
   }
 
   // suppressed_reasons - computed: true, optional: true, required: false
-  private _suppressedReasons?: string[];
+  private _suppressedReasons?: string[]; 
   public get suppressedReasons() {
     return this.getListAttribute('suppressed_reasons');
   }
@@ -1066,7 +1066,7 @@ export class SesConfigurationSetTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1082,7 +1082,7 @@ export class SesConfigurationSetTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1217,7 +1217,7 @@ export class SesConfigurationSetTrackingOptionsOutputReference extends cdktn.Com
   }
 
   // custom_redirect_domain - computed: true, optional: true, required: false
-  private _customRedirectDomain?: string;
+  private _customRedirectDomain?: string; 
   public get customRedirectDomain() {
     return this.getStringAttribute('custom_redirect_domain');
   }
@@ -1233,7 +1233,7 @@ export class SesConfigurationSetTrackingOptionsOutputReference extends cdktn.Com
   }
 
   // https_policy - computed: true, optional: true, required: false
-  private _httpsPolicy?: string;
+  private _httpsPolicy?: string; 
   public get httpsPolicy() {
     return this.getStringAttribute('https_policy');
   }
@@ -1329,7 +1329,7 @@ export class SesConfigurationSetVdmOptionsDashboardOptionsOutputReference extend
   }
 
   // engagement_metrics - computed: true, optional: true, required: false
-  private _engagementMetrics?: string;
+  private _engagementMetrics?: string; 
   public get engagementMetrics() {
     return this.getStringAttribute('engagement_metrics');
   }
@@ -1425,7 +1425,7 @@ export class SesConfigurationSetVdmOptionsGuardianOptionsOutputReference extends
   }
 
   // optimized_shared_delivery - computed: true, optional: true, required: false
-  private _optimizedSharedDelivery?: string;
+  private _optimizedSharedDelivery?: string; 
   public get optimizedSharedDelivery() {
     return this.getStringAttribute('optimized_shared_delivery');
   }
@@ -1675,7 +1675,7 @@ export class SesConfigurationSet extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }

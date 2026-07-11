@@ -81,7 +81,7 @@ export class AppstreamApplicationEntitlementAssociation extends cdktn.TerraformR
   // ==========
 
   // application_identifier - computed: false, optional: false, required: true
-  private _applicationIdentifier?: string;
+  private _applicationIdentifier?: string; 
   public get applicationIdentifier() {
     return this.getStringAttribute('application_identifier');
   }
@@ -94,7 +94,7 @@ export class AppstreamApplicationEntitlementAssociation extends cdktn.TerraformR
   }
 
   // entitlement_name - computed: false, optional: false, required: true
-  private _entitlementName?: string;
+  private _entitlementName?: string; 
   public get entitlementName() {
     return this.getStringAttribute('entitlement_name');
   }
@@ -112,7 +112,7 @@ export class AppstreamApplicationEntitlementAssociation extends cdktn.TerraformR
   }
 
   // stack_name - computed: false, optional: false, required: true
-  private _stackName?: string;
+  private _stackName?: string; 
   public get stackName() {
     return this.getStringAttribute('stack_name');
   }

@@ -182,7 +182,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsBlockDevi
   }
 
   // delete_on_termination - computed: true, optional: true, required: false
-  private _deleteOnTermination?: boolean | cdktn.IResolvable;
+  private _deleteOnTermination?: boolean | cdktn.IResolvable; 
   public get deleteOnTermination() {
     return this.getBooleanAttribute('delete_on_termination');
   }
@@ -198,7 +198,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsBlockDevi
   }
 
   // encrypted - computed: true, optional: true, required: false
-  private _encrypted?: boolean | cdktn.IResolvable;
+  private _encrypted?: boolean | cdktn.IResolvable; 
   public get encrypted() {
     return this.getBooleanAttribute('encrypted');
   }
@@ -214,7 +214,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsBlockDevi
   }
 
   // iops - computed: true, optional: true, required: false
-  private _iops?: number;
+  private _iops?: number; 
   public get iops() {
     return this.getNumberAttribute('iops');
   }
@@ -230,7 +230,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsBlockDevi
   }
 
   // snapshot_id - computed: true, optional: true, required: false
-  private _snapshotId?: string;
+  private _snapshotId?: string; 
   public get snapshotId() {
     return this.getStringAttribute('snapshot_id');
   }
@@ -246,7 +246,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsBlockDevi
   }
 
   // volume_size - computed: true, optional: true, required: false
-  private _volumeSize?: number;
+  private _volumeSize?: number; 
   public get volumeSize() {
     return this.getNumberAttribute('volume_size');
   }
@@ -262,7 +262,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsBlockDevi
   }
 
   // volume_type - computed: true, optional: true, required: false
-  private _volumeType?: string;
+  private _volumeType?: string; 
   public get volumeType() {
     return this.getStringAttribute('volume_type');
   }
@@ -409,7 +409,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsBlockDevi
   }
 
   // device_name - computed: true, optional: true, required: false
-  private _deviceName?: string;
+  private _deviceName?: string; 
   public get deviceName() {
     return this.getStringAttribute('device_name');
   }
@@ -441,7 +441,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsBlockDevi
   }
 
   // no_device - computed: true, optional: true, required: false
-  private _noDevice?: string;
+  private _noDevice?: string; 
   public get noDevice() {
     return this.getStringAttribute('no_device');
   }
@@ -457,7 +457,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsBlockDevi
   }
 
   // virtual_name - computed: true, optional: true, required: false
-  private _virtualName?: string;
+  private _virtualName?: string; 
   public get virtualName() {
     return this.getStringAttribute('virtual_name');
   }
@@ -571,7 +571,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsIamInstan
   }
 
   // arn - computed: true, optional: true, required: false
-  private _arn?: string;
+  private _arn?: string; 
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -682,7 +682,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceR
   }
 
   // max - computed: true, optional: true, required: false
-  private _max?: number;
+  private _max?: number; 
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -698,7 +698,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceR
   }
 
   // min - computed: true, optional: true, required: false
-  private _min?: number;
+  private _min?: number; 
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -809,7 +809,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceR
   }
 
   // max - computed: true, optional: true, required: false
-  private _max?: number;
+  private _max?: number; 
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -825,7 +825,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceR
   }
 
   // min - computed: true, optional: true, required: false
-  private _min?: number;
+  private _min?: number; 
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -936,7 +936,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceR
   }
 
   // max - computed: true, optional: true, required: false
-  private _max?: number;
+  private _max?: number; 
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -952,7 +952,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceR
   }
 
   // min - computed: true, optional: true, required: false
-  private _min?: number;
+  private _min?: number; 
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -1048,7 +1048,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceR
   }
 
   // instance_family - computed: true, optional: true, required: false
-  private _instanceFamily?: string;
+  private _instanceFamily?: string; 
   public get instanceFamily() {
     return this.getStringAttribute('instance_family');
   }
@@ -1367,7 +1367,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceR
   }
 
   // max - computed: true, optional: true, required: false
-  private _max?: number;
+  private _max?: number; 
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -1383,7 +1383,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceR
   }
 
   // min - computed: true, optional: true, required: false
-  private _min?: number;
+  private _min?: number; 
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -1494,7 +1494,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceR
   }
 
   // max - computed: true, optional: true, required: false
-  private _max?: number;
+  private _max?: number; 
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -1510,7 +1510,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceR
   }
 
   // min - computed: true, optional: true, required: false
-  private _min?: number;
+  private _min?: number; 
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -1621,7 +1621,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceR
   }
 
   // max - computed: true, optional: true, required: false
-  private _max?: number;
+  private _max?: number; 
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -1637,7 +1637,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceR
   }
 
   // min - computed: true, optional: true, required: false
-  private _min?: number;
+  private _min?: number; 
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -1748,7 +1748,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceR
   }
 
   // max - computed: true, optional: true, required: false
-  private _max?: number;
+  private _max?: number; 
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -1764,7 +1764,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceR
   }
 
   // min - computed: true, optional: true, required: false
-  private _min?: number;
+  private _min?: number; 
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -1875,7 +1875,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceR
   }
 
   // max - computed: true, optional: true, required: false
-  private _max?: number;
+  private _max?: number; 
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -1891,7 +1891,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceR
   }
 
   // min - computed: true, optional: true, required: false
-  private _min?: number;
+  private _min?: number; 
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -2002,7 +2002,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceR
   }
 
   // max - computed: true, optional: true, required: false
-  private _max?: number;
+  private _max?: number; 
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -2018,7 +2018,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceR
   }
 
   // min - computed: true, optional: true, required: false
-  private _min?: number;
+  private _min?: number; 
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -2553,7 +2553,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceR
   }
 
   // accelerator_manufacturers - computed: true, optional: true, required: false
-  private _acceleratorManufacturers?: string[];
+  private _acceleratorManufacturers?: string[]; 
   public get acceleratorManufacturers() {
     return this.getListAttribute('accelerator_manufacturers');
   }
@@ -2569,7 +2569,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceR
   }
 
   // accelerator_names - computed: true, optional: true, required: false
-  private _acceleratorNames?: string[];
+  private _acceleratorNames?: string[]; 
   public get acceleratorNames() {
     return this.getListAttribute('accelerator_names');
   }
@@ -2601,7 +2601,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceR
   }
 
   // accelerator_types - computed: true, optional: true, required: false
-  private _acceleratorTypes?: string[];
+  private _acceleratorTypes?: string[]; 
   public get acceleratorTypes() {
     return this.getListAttribute('accelerator_types');
   }
@@ -2617,7 +2617,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceR
   }
 
   // allowed_instance_types - computed: true, optional: true, required: false
-  private _allowedInstanceTypes?: string[];
+  private _allowedInstanceTypes?: string[]; 
   public get allowedInstanceTypes() {
     return this.getListAttribute('allowed_instance_types');
   }
@@ -2633,7 +2633,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceR
   }
 
   // bare_metal - computed: true, optional: true, required: false
-  private _bareMetal?: string;
+  private _bareMetal?: string; 
   public get bareMetal() {
     return this.getStringAttribute('bare_metal');
   }
@@ -2681,7 +2681,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceR
   }
 
   // burstable_performance - computed: true, optional: true, required: false
-  private _burstablePerformance?: string;
+  private _burstablePerformance?: string; 
   public get burstablePerformance() {
     return this.getStringAttribute('burstable_performance');
   }
@@ -2697,7 +2697,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceR
   }
 
   // cpu_manufacturers - computed: true, optional: true, required: false
-  private _cpuManufacturers?: string[];
+  private _cpuManufacturers?: string[]; 
   public get cpuManufacturers() {
     return this.getListAttribute('cpu_manufacturers');
   }
@@ -2713,7 +2713,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceR
   }
 
   // excluded_instance_types - computed: true, optional: true, required: false
-  private _excludedInstanceTypes?: string[];
+  private _excludedInstanceTypes?: string[]; 
   public get excludedInstanceTypes() {
     return this.getListAttribute('excluded_instance_types');
   }
@@ -2729,7 +2729,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceR
   }
 
   // instance_generations - computed: true, optional: true, required: false
-  private _instanceGenerations?: string[];
+  private _instanceGenerations?: string[]; 
   public get instanceGenerations() {
     return this.getListAttribute('instance_generations');
   }
@@ -2745,7 +2745,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceR
   }
 
   // local_storage - computed: true, optional: true, required: false
-  private _localStorage?: string;
+  private _localStorage?: string; 
   public get localStorage() {
     return this.getStringAttribute('local_storage');
   }
@@ -2761,7 +2761,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceR
   }
 
   // local_storage_types - computed: true, optional: true, required: false
-  private _localStorageTypes?: string[];
+  private _localStorageTypes?: string[]; 
   public get localStorageTypes() {
     return this.getListAttribute('local_storage_types');
   }
@@ -2777,7 +2777,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceR
   }
 
   // max_spot_price_as_percentage_of_optimal_on_demand_price - computed: true, optional: true, required: false
-  private _maxSpotPriceAsPercentageOfOptimalOnDemandPrice?: number;
+  private _maxSpotPriceAsPercentageOfOptimalOnDemandPrice?: number; 
   public get maxSpotPriceAsPercentageOfOptimalOnDemandPrice() {
     return this.getNumberAttribute('max_spot_price_as_percentage_of_optimal_on_demand_price');
   }
@@ -2857,7 +2857,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceR
   }
 
   // on_demand_max_price_percentage_over_lowest_price - computed: true, optional: true, required: false
-  private _onDemandMaxPricePercentageOverLowestPrice?: number;
+  private _onDemandMaxPricePercentageOverLowestPrice?: number; 
   public get onDemandMaxPricePercentageOverLowestPrice() {
     return this.getNumberAttribute('on_demand_max_price_percentage_over_lowest_price');
   }
@@ -2873,7 +2873,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceR
   }
 
   // require_encryption_in_transit - computed: true, optional: true, required: false
-  private _requireEncryptionInTransit?: boolean | cdktn.IResolvable;
+  private _requireEncryptionInTransit?: boolean | cdktn.IResolvable; 
   public get requireEncryptionInTransit() {
     return this.getBooleanAttribute('require_encryption_in_transit');
   }
@@ -2889,7 +2889,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceR
   }
 
   // require_hibernate_support - computed: true, optional: true, required: false
-  private _requireHibernateSupport?: boolean | cdktn.IResolvable;
+  private _requireHibernateSupport?: boolean | cdktn.IResolvable; 
   public get requireHibernateSupport() {
     return this.getBooleanAttribute('require_hibernate_support');
   }
@@ -2905,7 +2905,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsInstanceR
   }
 
   // spot_max_price_percentage_over_lowest_price - computed: true, optional: true, required: false
-  private _spotMaxPricePercentageOverLowestPrice?: number;
+  private _spotMaxPricePercentageOverLowestPrice?: number; 
   public get spotMaxPricePercentageOverLowestPrice() {
     return this.getNumberAttribute('spot_max_price_percentage_over_lowest_price');
   }
@@ -3031,7 +3031,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsMonitorin
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -3127,7 +3127,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkIn
   }
 
   // ipv_6_address - computed: true, optional: true, required: false
-  private _ipv6Address?: string;
+  private _ipv6Address?: string; 
   public get ipv6Address() {
     return this.getStringAttribute('ipv_6_address');
   }
@@ -3260,7 +3260,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkIn
   }
 
   // primary - computed: true, optional: true, required: false
-  private _primary?: boolean | cdktn.IResolvable;
+  private _primary?: boolean | cdktn.IResolvable; 
   public get primary() {
     return this.getBooleanAttribute('primary');
   }
@@ -3276,7 +3276,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkIn
   }
 
   // private_ip_address - computed: true, optional: true, required: false
-  private _privateIpAddress?: string;
+  private _privateIpAddress?: string; 
   public get privateIpAddress() {
     return this.getStringAttribute('private_ip_address');
   }
@@ -3562,7 +3562,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkIn
   }
 
   // associate_public_ip_address - computed: true, optional: true, required: false
-  private _associatePublicIpAddress?: boolean | cdktn.IResolvable;
+  private _associatePublicIpAddress?: boolean | cdktn.IResolvable; 
   public get associatePublicIpAddress() {
     return this.getBooleanAttribute('associate_public_ip_address');
   }
@@ -3578,7 +3578,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkIn
   }
 
   // delete_on_termination - computed: true, optional: true, required: false
-  private _deleteOnTermination?: boolean | cdktn.IResolvable;
+  private _deleteOnTermination?: boolean | cdktn.IResolvable; 
   public get deleteOnTermination() {
     return this.getBooleanAttribute('delete_on_termination');
   }
@@ -3594,7 +3594,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkIn
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -3610,7 +3610,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkIn
   }
 
   // device_index - computed: true, optional: true, required: false
-  private _deviceIndex?: number;
+  private _deviceIndex?: number; 
   public get deviceIndex() {
     return this.getNumberAttribute('device_index');
   }
@@ -3626,7 +3626,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkIn
   }
 
   // groups - computed: true, optional: true, required: false
-  private _groups?: string[];
+  private _groups?: string[]; 
   public get groups() {
     return this.getListAttribute('groups');
   }
@@ -3642,7 +3642,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkIn
   }
 
   // ipv_6_address_count - computed: true, optional: true, required: false
-  private _ipv6AddressCount?: number;
+  private _ipv6AddressCount?: number; 
   public get ipv6AddressCount() {
     return this.getNumberAttribute('ipv_6_address_count');
   }
@@ -3674,7 +3674,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkIn
   }
 
   // network_interface_id - computed: true, optional: true, required: false
-  private _networkInterfaceId?: string;
+  private _networkInterfaceId?: string; 
   public get networkInterfaceId() {
     return this.getStringAttribute('network_interface_id');
   }
@@ -3706,7 +3706,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkIn
   }
 
   // secondary_private_ip_address_count - computed: true, optional: true, required: false
-  private _secondaryPrivateIpAddressCount?: number;
+  private _secondaryPrivateIpAddressCount?: number; 
   public get secondaryPrivateIpAddressCount() {
     return this.getNumberAttribute('secondary_private_ip_address_count');
   }
@@ -3722,7 +3722,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsNetworkIn
   }
 
   // subnet_id - computed: true, optional: true, required: false
-  private _subnetId?: string;
+  private _subnetId?: string; 
   public get subnetId() {
     return this.getStringAttribute('subnet_id');
   }
@@ -3887,7 +3887,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsPlacement
   }
 
   // availability_zone - computed: true, optional: true, required: false
-  private _availabilityZone?: string;
+  private _availabilityZone?: string; 
   public get availabilityZone() {
     return this.getStringAttribute('availability_zone');
   }
@@ -3903,7 +3903,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsPlacement
   }
 
   // availability_zone_id - computed: true, optional: true, required: false
-  private _availabilityZoneId?: string;
+  private _availabilityZoneId?: string; 
   public get availabilityZoneId() {
     return this.getStringAttribute('availability_zone_id');
   }
@@ -3919,7 +3919,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsPlacement
   }
 
   // group_name - computed: true, optional: true, required: false
-  private _groupName?: string;
+  private _groupName?: string; 
   public get groupName() {
     return this.getStringAttribute('group_name');
   }
@@ -3935,7 +3935,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsPlacement
   }
 
   // tenancy - computed: true, optional: true, required: false
-  private _tenancy?: string;
+  private _tenancy?: string; 
   public get tenancy() {
     return this.getStringAttribute('tenancy');
   }
@@ -4031,7 +4031,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsSecurityG
   }
 
   // group_id - computed: true, optional: true, required: false
-  private _groupId?: string;
+  private _groupId?: string; 
   public get groupId() {
     return this.getStringAttribute('group_id');
   }
@@ -4164,7 +4164,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsTagSpecif
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -4180,7 +4180,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsTagSpecif
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -4313,7 +4313,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsTagSpecif
   }
 
   // resource_type - computed: true, optional: true, required: false
-  private _resourceType?: string;
+  private _resourceType?: string; 
   public get resourceType() {
     return this.getStringAttribute('resource_type');
   }
@@ -4750,7 +4750,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsOutputRef
   }
 
   // ebs_optimized - computed: true, optional: true, required: false
-  private _ebsOptimized?: boolean | cdktn.IResolvable;
+  private _ebsOptimized?: boolean | cdktn.IResolvable; 
   public get ebsOptimized() {
     return this.getBooleanAttribute('ebs_optimized');
   }
@@ -4782,7 +4782,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsOutputRef
   }
 
   // image_id - computed: true, optional: true, required: false
-  private _imageId?: string;
+  private _imageId?: string; 
   public get imageId() {
     return this.getStringAttribute('image_id');
   }
@@ -4814,7 +4814,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsOutputRef
   }
 
   // instance_type - computed: true, optional: true, required: false
-  private _instanceType?: string;
+  private _instanceType?: string; 
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -4830,7 +4830,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsOutputRef
   }
 
   // kernel_id - computed: true, optional: true, required: false
-  private _kernelId?: string;
+  private _kernelId?: string; 
   public get kernelId() {
     return this.getStringAttribute('kernel_id');
   }
@@ -4846,7 +4846,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsOutputRef
   }
 
   // key_name - computed: true, optional: true, required: false
-  private _keyName?: string;
+  private _keyName?: string; 
   public get keyName() {
     return this.getStringAttribute('key_name');
   }
@@ -4910,7 +4910,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsOutputRef
   }
 
   // ramdisk_id - computed: true, optional: true, required: false
-  private _ramdiskId?: string;
+  private _ramdiskId?: string; 
   public get ramdiskId() {
     return this.getStringAttribute('ramdisk_id');
   }
@@ -4942,7 +4942,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsOutputRef
   }
 
   // spot_price - computed: true, optional: true, required: false
-  private _spotPrice?: string;
+  private _spotPrice?: string; 
   public get spotPrice() {
     return this.getStringAttribute('spot_price');
   }
@@ -4958,7 +4958,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsOutputRef
   }
 
   // subnet_id - computed: true, optional: true, required: false
-  private _subnetId?: string;
+  private _subnetId?: string; 
   public get subnetId() {
     return this.getStringAttribute('subnet_id');
   }
@@ -4990,7 +4990,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsOutputRef
   }
 
   // user_data - computed: true, optional: true, required: false
-  private _userData?: string;
+  private _userData?: string; 
   public get userData() {
     return this.getStringAttribute('user_data');
   }
@@ -5006,7 +5006,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsOutputRef
   }
 
   // weighted_capacity - computed: true, optional: true, required: false
-  private _weightedCapacity?: number;
+  private _weightedCapacity?: number; 
   public get weightedCapacity() {
     return this.getNumberAttribute('weighted_capacity');
   }
@@ -5154,7 +5154,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsLaunchTe
   }
 
   // launch_template_id - computed: true, optional: true, required: false
-  private _launchTemplateId?: string;
+  private _launchTemplateId?: string; 
   public get launchTemplateId() {
     return this.getStringAttribute('launch_template_id');
   }
@@ -5170,7 +5170,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsLaunchTe
   }
 
   // launch_template_name - computed: true, optional: true, required: false
-  private _launchTemplateName?: string;
+  private _launchTemplateName?: string; 
   public get launchTemplateName() {
     return this.getStringAttribute('launch_template_name');
   }
@@ -5186,7 +5186,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsLaunchTe
   }
 
   // version - computed: true, optional: true, required: false
-  private _version?: string;
+  private _version?: string; 
   public get version() {
     return this.getStringAttribute('version');
   }
@@ -5297,7 +5297,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
   }
 
   // max - computed: true, optional: true, required: false
-  private _max?: number;
+  private _max?: number; 
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -5313,7 +5313,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
   }
 
   // min - computed: true, optional: true, required: false
-  private _min?: number;
+  private _min?: number; 
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -5424,7 +5424,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
   }
 
   // max - computed: true, optional: true, required: false
-  private _max?: number;
+  private _max?: number; 
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -5440,7 +5440,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
   }
 
   // min - computed: true, optional: true, required: false
-  private _min?: number;
+  private _min?: number; 
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -5551,7 +5551,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
   }
 
   // max - computed: true, optional: true, required: false
-  private _max?: number;
+  private _max?: number; 
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -5567,7 +5567,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
   }
 
   // min - computed: true, optional: true, required: false
-  private _min?: number;
+  private _min?: number; 
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -5663,7 +5663,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
   }
 
   // instance_family - computed: true, optional: true, required: false
-  private _instanceFamily?: string;
+  private _instanceFamily?: string; 
   public get instanceFamily() {
     return this.getStringAttribute('instance_family');
   }
@@ -5982,7 +5982,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
   }
 
   // max - computed: true, optional: true, required: false
-  private _max?: number;
+  private _max?: number; 
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -5998,7 +5998,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
   }
 
   // min - computed: true, optional: true, required: false
-  private _min?: number;
+  private _min?: number; 
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -6109,7 +6109,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
   }
 
   // max - computed: true, optional: true, required: false
-  private _max?: number;
+  private _max?: number; 
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -6125,7 +6125,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
   }
 
   // min - computed: true, optional: true, required: false
-  private _min?: number;
+  private _min?: number; 
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -6236,7 +6236,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
   }
 
   // max - computed: true, optional: true, required: false
-  private _max?: number;
+  private _max?: number; 
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -6252,7 +6252,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
   }
 
   // min - computed: true, optional: true, required: false
-  private _min?: number;
+  private _min?: number; 
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -6363,7 +6363,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
   }
 
   // max - computed: true, optional: true, required: false
-  private _max?: number;
+  private _max?: number; 
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -6379,7 +6379,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
   }
 
   // min - computed: true, optional: true, required: false
-  private _min?: number;
+  private _min?: number; 
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -6490,7 +6490,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
   }
 
   // max - computed: true, optional: true, required: false
-  private _max?: number;
+  private _max?: number; 
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -6506,7 +6506,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
   }
 
   // min - computed: true, optional: true, required: false
-  private _min?: number;
+  private _min?: number; 
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -6617,7 +6617,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
   }
 
   // max - computed: true, optional: true, required: false
-  private _max?: number;
+  private _max?: number; 
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -6633,7 +6633,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
   }
 
   // min - computed: true, optional: true, required: false
-  private _min?: number;
+  private _min?: number; 
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -7168,7 +7168,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
   }
 
   // accelerator_manufacturers - computed: true, optional: true, required: false
-  private _acceleratorManufacturers?: string[];
+  private _acceleratorManufacturers?: string[]; 
   public get acceleratorManufacturers() {
     return this.getListAttribute('accelerator_manufacturers');
   }
@@ -7184,7 +7184,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
   }
 
   // accelerator_names - computed: true, optional: true, required: false
-  private _acceleratorNames?: string[];
+  private _acceleratorNames?: string[]; 
   public get acceleratorNames() {
     return this.getListAttribute('accelerator_names');
   }
@@ -7216,7 +7216,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
   }
 
   // accelerator_types - computed: true, optional: true, required: false
-  private _acceleratorTypes?: string[];
+  private _acceleratorTypes?: string[]; 
   public get acceleratorTypes() {
     return this.getListAttribute('accelerator_types');
   }
@@ -7232,7 +7232,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
   }
 
   // allowed_instance_types - computed: true, optional: true, required: false
-  private _allowedInstanceTypes?: string[];
+  private _allowedInstanceTypes?: string[]; 
   public get allowedInstanceTypes() {
     return this.getListAttribute('allowed_instance_types');
   }
@@ -7248,7 +7248,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
   }
 
   // bare_metal - computed: true, optional: true, required: false
-  private _bareMetal?: string;
+  private _bareMetal?: string; 
   public get bareMetal() {
     return this.getStringAttribute('bare_metal');
   }
@@ -7296,7 +7296,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
   }
 
   // burstable_performance - computed: true, optional: true, required: false
-  private _burstablePerformance?: string;
+  private _burstablePerformance?: string; 
   public get burstablePerformance() {
     return this.getStringAttribute('burstable_performance');
   }
@@ -7312,7 +7312,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
   }
 
   // cpu_manufacturers - computed: true, optional: true, required: false
-  private _cpuManufacturers?: string[];
+  private _cpuManufacturers?: string[]; 
   public get cpuManufacturers() {
     return this.getListAttribute('cpu_manufacturers');
   }
@@ -7328,7 +7328,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
   }
 
   // excluded_instance_types - computed: true, optional: true, required: false
-  private _excludedInstanceTypes?: string[];
+  private _excludedInstanceTypes?: string[]; 
   public get excludedInstanceTypes() {
     return this.getListAttribute('excluded_instance_types');
   }
@@ -7344,7 +7344,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
   }
 
   // instance_generations - computed: true, optional: true, required: false
-  private _instanceGenerations?: string[];
+  private _instanceGenerations?: string[]; 
   public get instanceGenerations() {
     return this.getListAttribute('instance_generations');
   }
@@ -7360,7 +7360,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
   }
 
   // local_storage - computed: true, optional: true, required: false
-  private _localStorage?: string;
+  private _localStorage?: string; 
   public get localStorage() {
     return this.getStringAttribute('local_storage');
   }
@@ -7376,7 +7376,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
   }
 
   // local_storage_types - computed: true, optional: true, required: false
-  private _localStorageTypes?: string[];
+  private _localStorageTypes?: string[]; 
   public get localStorageTypes() {
     return this.getListAttribute('local_storage_types');
   }
@@ -7392,7 +7392,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
   }
 
   // max_spot_price_as_percentage_of_optimal_on_demand_price - computed: true, optional: true, required: false
-  private _maxSpotPriceAsPercentageOfOptimalOnDemandPrice?: number;
+  private _maxSpotPriceAsPercentageOfOptimalOnDemandPrice?: number; 
   public get maxSpotPriceAsPercentageOfOptimalOnDemandPrice() {
     return this.getNumberAttribute('max_spot_price_as_percentage_of_optimal_on_demand_price');
   }
@@ -7472,7 +7472,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
   }
 
   // on_demand_max_price_percentage_over_lowest_price - computed: true, optional: true, required: false
-  private _onDemandMaxPricePercentageOverLowestPrice?: number;
+  private _onDemandMaxPricePercentageOverLowestPrice?: number; 
   public get onDemandMaxPricePercentageOverLowestPrice() {
     return this.getNumberAttribute('on_demand_max_price_percentage_over_lowest_price');
   }
@@ -7488,7 +7488,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
   }
 
   // require_encryption_in_transit - computed: true, optional: true, required: false
-  private _requireEncryptionInTransit?: boolean | cdktn.IResolvable;
+  private _requireEncryptionInTransit?: boolean | cdktn.IResolvable; 
   public get requireEncryptionInTransit() {
     return this.getBooleanAttribute('require_encryption_in_transit');
   }
@@ -7504,7 +7504,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
   }
 
   // require_hibernate_support - computed: true, optional: true, required: false
-  private _requireHibernateSupport?: boolean | cdktn.IResolvable;
+  private _requireHibernateSupport?: boolean | cdktn.IResolvable; 
   public get requireHibernateSupport() {
     return this.getBooleanAttribute('require_hibernate_support');
   }
@@ -7520,7 +7520,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
   }
 
   // spot_max_price_percentage_over_lowest_price - computed: true, optional: true, required: false
-  private _spotMaxPricePercentageOverLowestPrice?: number;
+  private _spotMaxPricePercentageOverLowestPrice?: number; 
   public get spotMaxPricePercentageOverLowestPrice() {
     return this.getNumberAttribute('spot_max_price_percentage_over_lowest_price');
   }
@@ -7767,7 +7767,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
   }
 
   // availability_zone - computed: true, optional: true, required: false
-  private _availabilityZone?: string;
+  private _availabilityZone?: string; 
   public get availabilityZone() {
     return this.getStringAttribute('availability_zone');
   }
@@ -7783,7 +7783,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
   }
 
   // availability_zone_id - computed: true, optional: true, required: false
-  private _availabilityZoneId?: string;
+  private _availabilityZoneId?: string; 
   public get availabilityZoneId() {
     return this.getStringAttribute('availability_zone_id');
   }
@@ -7815,7 +7815,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
   }
 
   // instance_type - computed: true, optional: true, required: false
-  private _instanceType?: string;
+  private _instanceType?: string; 
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -7831,7 +7831,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
   }
 
   // priority - computed: true, optional: true, required: false
-  private _priority?: number;
+  private _priority?: number; 
   public get priority() {
     return this.getNumberAttribute('priority');
   }
@@ -7847,7 +7847,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
   }
 
   // spot_price - computed: true, optional: true, required: false
-  private _spotPrice?: string;
+  private _spotPrice?: string; 
   public get spotPrice() {
     return this.getStringAttribute('spot_price');
   }
@@ -7863,7 +7863,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
   }
 
   // subnet_id - computed: true, optional: true, required: false
-  private _subnetId?: string;
+  private _subnetId?: string; 
   public get subnetId() {
     return this.getStringAttribute('subnet_id');
   }
@@ -7879,7 +7879,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverride
   }
 
   // weighted_capacity - computed: true, optional: true, required: false
-  private _weightedCapacity?: number;
+  private _weightedCapacity?: number; 
   public get weightedCapacity() {
     return this.getNumberAttribute('weighted_capacity');
   }
@@ -8144,7 +8144,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfigClassicLoa
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -8354,7 +8354,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataLoadBalancersConfigTargetGrou
   }
 
   // arn - computed: true, optional: true, required: false
-  private _arn?: string;
+  private _arn?: string; 
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -8706,7 +8706,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataSpotMaintenanceStrategiesCapa
   }
 
   // replacement_strategy - computed: true, optional: true, required: false
-  private _replacementStrategy?: string;
+  private _replacementStrategy?: string; 
   public get replacementStrategy() {
     return this.getStringAttribute('replacement_strategy');
   }
@@ -8722,7 +8722,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataSpotMaintenanceStrategiesCapa
   }
 
   // termination_delay - computed: true, optional: true, required: false
-  private _terminationDelay?: number;
+  private _terminationDelay?: number; 
   public get terminationDelay() {
     return this.getNumberAttribute('termination_delay');
   }
@@ -8929,7 +8929,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataTagSpecificationsTagsOutputRe
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -8945,7 +8945,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataTagSpecificationsTagsOutputRe
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -9078,7 +9078,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataTagSpecificationsOutputRefere
   }
 
   // resource_type - computed: true, optional: true, required: false
-  private _resourceType?: string;
+  private _resourceType?: string; 
   public get resourceType() {
     return this.getStringAttribute('resource_type');
   }
@@ -9582,7 +9582,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataOutputReference extends cdktn
   }
 
   // allocation_strategy - computed: true, optional: true, required: false
-  private _allocationStrategy?: string;
+  private _allocationStrategy?: string; 
   public get allocationStrategy() {
     return this.getStringAttribute('allocation_strategy');
   }
@@ -9598,7 +9598,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataOutputReference extends cdktn
   }
 
   // context - computed: true, optional: true, required: false
-  private _context?: string;
+  private _context?: string; 
   public get context() {
     return this.getStringAttribute('context');
   }
@@ -9614,7 +9614,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataOutputReference extends cdktn
   }
 
   // excess_capacity_termination_policy - computed: true, optional: true, required: false
-  private _excessCapacityTerminationPolicy?: string;
+  private _excessCapacityTerminationPolicy?: string; 
   public get excessCapacityTerminationPolicy() {
     return this.getStringAttribute('excess_capacity_termination_policy');
   }
@@ -9630,7 +9630,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataOutputReference extends cdktn
   }
 
   // iam_fleet_role - computed: false, optional: false, required: true
-  private _iamFleetRole?: string;
+  private _iamFleetRole?: string; 
   public get iamFleetRole() {
     return this.getStringAttribute('iam_fleet_role');
   }
@@ -9643,7 +9643,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataOutputReference extends cdktn
   }
 
   // instance_interruption_behavior - computed: true, optional: true, required: false
-  private _instanceInterruptionBehavior?: string;
+  private _instanceInterruptionBehavior?: string; 
   public get instanceInterruptionBehavior() {
     return this.getStringAttribute('instance_interruption_behavior');
   }
@@ -9659,7 +9659,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataOutputReference extends cdktn
   }
 
   // instance_pools_to_use_count - computed: true, optional: true, required: false
-  private _instancePoolsToUseCount?: number;
+  private _instancePoolsToUseCount?: number; 
   public get instancePoolsToUseCount() {
     return this.getNumberAttribute('instance_pools_to_use_count');
   }
@@ -9723,7 +9723,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataOutputReference extends cdktn
   }
 
   // on_demand_allocation_strategy - computed: true, optional: true, required: false
-  private _onDemandAllocationStrategy?: string;
+  private _onDemandAllocationStrategy?: string; 
   public get onDemandAllocationStrategy() {
     return this.getStringAttribute('on_demand_allocation_strategy');
   }
@@ -9739,7 +9739,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataOutputReference extends cdktn
   }
 
   // on_demand_max_total_price - computed: true, optional: true, required: false
-  private _onDemandMaxTotalPrice?: string;
+  private _onDemandMaxTotalPrice?: string; 
   public get onDemandMaxTotalPrice() {
     return this.getStringAttribute('on_demand_max_total_price');
   }
@@ -9755,7 +9755,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataOutputReference extends cdktn
   }
 
   // on_demand_target_capacity - computed: true, optional: true, required: false
-  private _onDemandTargetCapacity?: number;
+  private _onDemandTargetCapacity?: number; 
   public get onDemandTargetCapacity() {
     return this.getNumberAttribute('on_demand_target_capacity');
   }
@@ -9771,7 +9771,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataOutputReference extends cdktn
   }
 
   // replace_unhealthy_instances - computed: true, optional: true, required: false
-  private _replaceUnhealthyInstances?: boolean | cdktn.IResolvable;
+  private _replaceUnhealthyInstances?: boolean | cdktn.IResolvable; 
   public get replaceUnhealthyInstances() {
     return this.getBooleanAttribute('replace_unhealthy_instances');
   }
@@ -9803,7 +9803,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataOutputReference extends cdktn
   }
 
   // spot_max_total_price - computed: true, optional: true, required: false
-  private _spotMaxTotalPrice?: string;
+  private _spotMaxTotalPrice?: string; 
   public get spotMaxTotalPrice() {
     return this.getStringAttribute('spot_max_total_price');
   }
@@ -9819,7 +9819,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataOutputReference extends cdktn
   }
 
   // spot_price - computed: true, optional: true, required: false
-  private _spotPrice?: string;
+  private _spotPrice?: string; 
   public get spotPrice() {
     return this.getStringAttribute('spot_price');
   }
@@ -9851,7 +9851,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataOutputReference extends cdktn
   }
 
   // target_capacity - computed: false, optional: false, required: true
-  private _targetCapacity?: number;
+  private _targetCapacity?: number; 
   public get targetCapacity() {
     return this.getNumberAttribute('target_capacity');
   }
@@ -9864,7 +9864,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataOutputReference extends cdktn
   }
 
   // target_capacity_unit_type - computed: true, optional: true, required: false
-  private _targetCapacityUnitType?: string;
+  private _targetCapacityUnitType?: string; 
   public get targetCapacityUnitType() {
     return this.getStringAttribute('target_capacity_unit_type');
   }
@@ -9880,7 +9880,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataOutputReference extends cdktn
   }
 
   // terminate_instances_with_expiration - computed: true, optional: true, required: false
-  private _terminateInstancesWithExpiration?: boolean | cdktn.IResolvable;
+  private _terminateInstancesWithExpiration?: boolean | cdktn.IResolvable; 
   public get terminateInstancesWithExpiration() {
     return this.getBooleanAttribute('terminate_instances_with_expiration');
   }
@@ -9896,7 +9896,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataOutputReference extends cdktn
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -9912,7 +9912,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataOutputReference extends cdktn
   }
 
   // valid_from - computed: true, optional: true, required: false
-  private _validFrom?: string;
+  private _validFrom?: string; 
   public get validFrom() {
     return this.getStringAttribute('valid_from');
   }
@@ -9928,7 +9928,7 @@ export class Ec2SpotFleetSpotFleetRequestConfigDataOutputReference extends cdktn
   }
 
   // valid_until - computed: true, optional: true, required: false
-  private _validUntil?: string;
+  private _validUntil?: string; 
   public get validUntil() {
     return this.getStringAttribute('valid_until');
   }
@@ -10041,7 +10041,7 @@ export class Ec2SpotFleetTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -10057,7 +10057,7 @@ export class Ec2SpotFleetTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }

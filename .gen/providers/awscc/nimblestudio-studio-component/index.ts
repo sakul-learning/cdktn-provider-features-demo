@@ -146,7 +146,7 @@ export class NimblestudioStudioComponentConfigurationActiveDirectoryConfiguratio
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -162,7 +162,7 @@ export class NimblestudioStudioComponentConfigurationActiveDirectoryConfiguratio
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -326,7 +326,7 @@ export class NimblestudioStudioComponentConfigurationActiveDirectoryConfiguratio
   }
 
   // directory_id - computed: true, optional: true, required: false
-  private _directoryId?: string;
+  private _directoryId?: string; 
   public get directoryId() {
     return this.getStringAttribute('directory_id');
   }
@@ -342,7 +342,7 @@ export class NimblestudioStudioComponentConfigurationActiveDirectoryConfiguratio
   }
 
   // organizational_unit_distinguished_name - computed: true, optional: true, required: false
-  private _organizationalUnitDistinguishedName?: string;
+  private _organizationalUnitDistinguishedName?: string; 
   public get organizationalUnitDistinguishedName() {
     return this.getStringAttribute('organizational_unit_distinguished_name');
   }
@@ -453,7 +453,7 @@ export class NimblestudioStudioComponentConfigurationComputeFarmConfigurationOut
   }
 
   // active_directory_user - computed: true, optional: true, required: false
-  private _activeDirectoryUser?: string;
+  private _activeDirectoryUser?: string; 
   public get activeDirectoryUser() {
     return this.getStringAttribute('active_directory_user');
   }
@@ -469,7 +469,7 @@ export class NimblestudioStudioComponentConfigurationComputeFarmConfigurationOut
   }
 
   // endpoint - computed: true, optional: true, required: false
-  private _endpoint?: string;
+  private _endpoint?: string; 
   public get endpoint() {
     return this.getStringAttribute('endpoint');
   }
@@ -563,7 +563,7 @@ export class NimblestudioStudioComponentConfigurationLicenseServiceConfiguration
   }
 
   // endpoint - computed: true, optional: true, required: false
-  private _endpoint?: string;
+  private _endpoint?: string; 
   public get endpoint() {
     return this.getStringAttribute('endpoint');
   }
@@ -725,7 +725,7 @@ export class NimblestudioStudioComponentConfigurationSharedFileSystemConfigurati
   }
 
   // endpoint - computed: true, optional: true, required: false
-  private _endpoint?: string;
+  private _endpoint?: string; 
   public get endpoint() {
     return this.getStringAttribute('endpoint');
   }
@@ -741,7 +741,7 @@ export class NimblestudioStudioComponentConfigurationSharedFileSystemConfigurati
   }
 
   // file_system_id - computed: true, optional: true, required: false
-  private _fileSystemId?: string;
+  private _fileSystemId?: string; 
   public get fileSystemId() {
     return this.getStringAttribute('file_system_id');
   }
@@ -757,7 +757,7 @@ export class NimblestudioStudioComponentConfigurationSharedFileSystemConfigurati
   }
 
   // linux_mount_point - computed: true, optional: true, required: false
-  private _linuxMountPoint?: string;
+  private _linuxMountPoint?: string; 
   public get linuxMountPoint() {
     return this.getStringAttribute('linux_mount_point');
   }
@@ -773,7 +773,7 @@ export class NimblestudioStudioComponentConfigurationSharedFileSystemConfigurati
   }
 
   // share_name - computed: true, optional: true, required: false
-  private _shareName?: string;
+  private _shareName?: string; 
   public get shareName() {
     return this.getStringAttribute('share_name');
   }
@@ -789,7 +789,7 @@ export class NimblestudioStudioComponentConfigurationSharedFileSystemConfigurati
   }
 
   // windows_mount_drive - computed: true, optional: true, required: false
-  private _windowsMountDrive?: string;
+  private _windowsMountDrive?: string; 
   public get windowsMountDrive() {
     return this.getStringAttribute('windows_mount_drive');
   }
@@ -1129,7 +1129,7 @@ export class NimblestudioStudioComponentInitializationScriptsOutputReference ext
   }
 
   // launch_profile_protocol_version - computed: true, optional: true, required: false
-  private _launchProfileProtocolVersion?: string;
+  private _launchProfileProtocolVersion?: string; 
   public get launchProfileProtocolVersion() {
     return this.getStringAttribute('launch_profile_protocol_version');
   }
@@ -1145,7 +1145,7 @@ export class NimblestudioStudioComponentInitializationScriptsOutputReference ext
   }
 
   // platform - computed: true, optional: true, required: false
-  private _platform?: string;
+  private _platform?: string; 
   public get platform() {
     return this.getStringAttribute('platform');
   }
@@ -1161,7 +1161,7 @@ export class NimblestudioStudioComponentInitializationScriptsOutputReference ext
   }
 
   // run_context - computed: true, optional: true, required: false
-  private _runContext?: string;
+  private _runContext?: string; 
   public get runContext() {
     return this.getStringAttribute('run_context');
   }
@@ -1177,7 +1177,7 @@ export class NimblestudioStudioComponentInitializationScriptsOutputReference ext
   }
 
   // script - computed: true, optional: true, required: false
-  private _script?: string;
+  private _script?: string; 
   public get script() {
     return this.getStringAttribute('script');
   }
@@ -1310,7 +1310,7 @@ export class NimblestudioStudioComponentScriptParametersOutputReference extends 
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1326,7 +1326,7 @@ export class NimblestudioStudioComponentScriptParametersOutputReference extends 
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1445,7 +1445,7 @@ export class NimblestudioStudioComponent extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1461,7 +1461,7 @@ export class NimblestudioStudioComponent extends cdktn.TerraformResource {
   }
 
   // ec_2_security_group_ids - computed: true, optional: true, required: false
-  private _ec2SecurityGroupIds?: string[];
+  private _ec2SecurityGroupIds?: string[]; 
   public get ec2SecurityGroupIds() {
     return this.getListAttribute('ec_2_security_group_ids');
   }
@@ -1498,7 +1498,7 @@ export class NimblestudioStudioComponent extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1532,7 +1532,7 @@ export class NimblestudioStudioComponent extends cdktn.TerraformResource {
   }
 
   // studio_id - computed: false, optional: false, required: true
-  private _studioId?: string;
+  private _studioId?: string; 
   public get studioId() {
     return this.getStringAttribute('studio_id');
   }
@@ -1545,7 +1545,7 @@ export class NimblestudioStudioComponent extends cdktn.TerraformResource {
   }
 
   // subtype - computed: true, optional: true, required: false
-  private _subtype?: string;
+  private _subtype?: string; 
   public get subtype() {
     return this.getStringAttribute('subtype');
   }
@@ -1561,7 +1561,7 @@ export class NimblestudioStudioComponent extends cdktn.TerraformResource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -1577,7 +1577,7 @@ export class NimblestudioStudioComponent extends cdktn.TerraformResource {
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }

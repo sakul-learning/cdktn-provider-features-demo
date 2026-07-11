@@ -105,7 +105,7 @@ export class ApprunnerDeploymentTimeoutsOutputReference extends cdktn.ComplexObj
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -191,7 +191,7 @@ export class ApprunnerDeployment extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -207,7 +207,7 @@ export class ApprunnerDeployment extends cdktn.TerraformResource {
   }
 
   // service_arn - computed: false, optional: false, required: true
-  private _serviceArn?: string;
+  private _serviceArn?: string; 
   public get serviceArn() {
     return this.getStringAttribute('service_arn');
   }

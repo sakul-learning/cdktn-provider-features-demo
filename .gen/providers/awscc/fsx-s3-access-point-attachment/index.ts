@@ -119,7 +119,7 @@ export class FsxS3AccessPointAttachmentOntapConfigurationFileSystemIdentityUnixU
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -215,7 +215,7 @@ export class FsxS3AccessPointAttachmentOntapConfigurationFileSystemIdentityWindo
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -349,7 +349,7 @@ export class FsxS3AccessPointAttachmentOntapConfigurationFileSystemIdentityOutpu
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -512,7 +512,7 @@ export class FsxS3AccessPointAttachmentOntapConfigurationOutputReference extends
   }
 
   // volume_id - computed: true, optional: true, required: false
-  private _volumeId?: string;
+  private _volumeId?: string; 
   public get volumeId() {
     return this.getStringAttribute('volume_id');
   }
@@ -610,7 +610,7 @@ export class FsxS3AccessPointAttachmentOpenZfsConfigurationFileSystemIdentityPos
   }
 
   // gid - computed: true, optional: true, required: false
-  private _gid?: number;
+  private _gid?: number; 
   public get gid() {
     return this.getNumberAttribute('gid');
   }
@@ -764,7 +764,7 @@ export class FsxS3AccessPointAttachmentOpenZfsConfigurationFileSystemIdentityPos
   }
 
   // gid - computed: true, optional: true, required: false
-  private _gid?: number;
+  private _gid?: number; 
   public get gid() {
     return this.getNumberAttribute('gid');
   }
@@ -796,7 +796,7 @@ export class FsxS3AccessPointAttachmentOpenZfsConfigurationFileSystemIdentityPos
   }
 
   // uid - computed: true, optional: true, required: false
-  private _uid?: number;
+  private _uid?: number; 
   public get uid() {
     return this.getNumberAttribute('uid');
   }
@@ -927,7 +927,7 @@ export class FsxS3AccessPointAttachmentOpenZfsConfigurationFileSystemIdentityOut
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -1058,7 +1058,7 @@ export class FsxS3AccessPointAttachmentOpenZfsConfigurationOutputReference exten
   }
 
   // volume_id - computed: true, optional: true, required: false
-  private _volumeId?: string;
+  private _volumeId?: string; 
   public get volumeId() {
     return this.getStringAttribute('volume_id');
   }
@@ -1154,7 +1154,7 @@ export class FsxS3AccessPointAttachmentS3AccessPointVpcConfigurationOutputRefere
   }
 
   // vpc_id - computed: true, optional: true, required: false
-  private _vpcId?: string;
+  private _vpcId?: string; 
   public get vpcId() {
     return this.getStringAttribute('vpc_id');
   }
@@ -1274,7 +1274,7 @@ export class FsxS3AccessPointAttachmentS3AccessPointOutputReference extends cdkt
   }
 
   // policy - computed: true, optional: true, required: false
-  private _policy?: string;
+  private _policy?: string; 
   public get policy() {
     return this.getStringAttribute('policy');
   }
@@ -1378,7 +1378,7 @@ export class FsxS3AccessPointAttachment extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1439,7 +1439,7 @@ export class FsxS3AccessPointAttachment extends cdktn.TerraformResource {
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }

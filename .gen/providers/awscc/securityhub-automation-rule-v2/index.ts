@@ -131,7 +131,7 @@ export class SecurityhubAutomationRuleV2ActionsExternalIntegrationConfigurationO
   }
 
   // connector_arn - computed: true, optional: true, required: false
-  private _connectorArn?: string;
+  private _connectorArn?: string; 
   public get connectorArn() {
     return this.getStringAttribute('connector_arn');
   }
@@ -265,7 +265,7 @@ export class SecurityhubAutomationRuleV2ActionsFindingFieldsUpdateOutputReferenc
   }
 
   // comment - computed: true, optional: true, required: false
-  private _comment?: string;
+  private _comment?: string; 
   public get comment() {
     return this.getStringAttribute('comment');
   }
@@ -281,7 +281,7 @@ export class SecurityhubAutomationRuleV2ActionsFindingFieldsUpdateOutputReferenc
   }
 
   // severity_id - computed: true, optional: true, required: false
-  private _severityId?: number;
+  private _severityId?: number; 
   public get severityId() {
     return this.getNumberAttribute('severity_id');
   }
@@ -297,7 +297,7 @@ export class SecurityhubAutomationRuleV2ActionsFindingFieldsUpdateOutputReferenc
   }
 
   // status_id - computed: true, optional: true, required: false
-  private _statusId?: number;
+  private _statusId?: number; 
   public get statusId() {
     return this.getNumberAttribute('status_id');
   }
@@ -465,7 +465,7 @@ export class SecurityhubAutomationRuleV2ActionsOutputReference extends cdktn.Com
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -578,7 +578,7 @@ export class SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFilt
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: boolean | cdktn.IResolvable;
+  private _value?: boolean | cdktn.IResolvable; 
   public get value() {
     return this.getBooleanAttribute('value');
   }
@@ -695,7 +695,7 @@ export class SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFilt
   }
 
   // field_name - computed: true, optional: true, required: false
-  private _fieldName?: string;
+  private _fieldName?: string; 
   public get fieldName() {
     return this.getStringAttribute('field_name');
   }
@@ -846,7 +846,7 @@ export class SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFilt
   }
 
   // unit - computed: true, optional: true, required: false
-  private _unit?: string;
+  private _unit?: string; 
   public get unit() {
     return this.getStringAttribute('unit');
   }
@@ -862,7 +862,7 @@ export class SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFilt
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: number;
+  private _value?: number; 
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -1012,7 +1012,7 @@ export class SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFilt
   }
 
   // end - computed: true, optional: true, required: false
-  private _end?: string;
+  private _end?: string; 
   public get end() {
     return this.getStringAttribute('end');
   }
@@ -1028,7 +1028,7 @@ export class SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFilt
   }
 
   // start - computed: true, optional: true, required: false
-  private _start?: string;
+  private _start?: string; 
   public get start() {
     return this.getStringAttribute('start');
   }
@@ -1145,7 +1145,7 @@ export class SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFilt
   }
 
   // field_name - computed: true, optional: true, required: false
-  private _fieldName?: string;
+  private _fieldName?: string; 
   public get fieldName() {
     return this.getStringAttribute('field_name');
   }
@@ -1315,7 +1315,7 @@ export class SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFilt
   }
 
   // comparison - computed: true, optional: true, required: false
-  private _comparison?: string;
+  private _comparison?: string; 
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -1331,7 +1331,7 @@ export class SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFilt
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1347,7 +1347,7 @@ export class SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFilt
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1464,7 +1464,7 @@ export class SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFilt
   }
 
   // field_name - computed: true, optional: true, required: false
-  private _fieldName?: string;
+  private _fieldName?: string; 
   public get fieldName() {
     return this.getStringAttribute('field_name');
   }
@@ -1634,7 +1634,7 @@ export class SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFilt
   }
 
   // eq - computed: true, optional: true, required: false
-  private _eq?: number;
+  private _eq?: number; 
   public get eq() {
     return this.getNumberAttribute('eq');
   }
@@ -1650,7 +1650,7 @@ export class SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFilt
   }
 
   // gte - computed: true, optional: true, required: false
-  private _gte?: number;
+  private _gte?: number; 
   public get gte() {
     return this.getNumberAttribute('gte');
   }
@@ -1666,7 +1666,7 @@ export class SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFilt
   }
 
   // lte - computed: true, optional: true, required: false
-  private _lte?: number;
+  private _lte?: number; 
   public get lte() {
     return this.getNumberAttribute('lte');
   }
@@ -1783,7 +1783,7 @@ export class SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFilt
   }
 
   // field_name - computed: true, optional: true, required: false
-  private _fieldName?: string;
+  private _fieldName?: string; 
   public get fieldName() {
     return this.getStringAttribute('field_name');
   }
@@ -1934,7 +1934,7 @@ export class SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFilt
   }
 
   // comparison - computed: true, optional: true, required: false
-  private _comparison?: string;
+  private _comparison?: string; 
   public get comparison() {
     return this.getStringAttribute('comparison');
   }
@@ -1950,7 +1950,7 @@ export class SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFilt
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2067,7 +2067,7 @@ export class SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFilt
   }
 
   // field_name - computed: true, optional: true, required: false
-  private _fieldName?: string;
+  private _fieldName?: string; 
   public get fieldName() {
     return this.getStringAttribute('field_name');
   }
@@ -2360,7 +2360,7 @@ export class SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFilt
   }
 
   // operator - computed: true, optional: true, required: false
-  private _operator?: string;
+  private _operator?: string; 
   public get operator() {
     return this.getStringAttribute('operator');
   }
@@ -2527,7 +2527,7 @@ export class SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaOutputReferen
   }
 
   // composite_operator - computed: true, optional: true, required: false
-  private _compositeOperator?: string;
+  private _compositeOperator?: string; 
   public get compositeOperator() {
     return this.getStringAttribute('composite_operator');
   }
@@ -2734,7 +2734,7 @@ export class SecurityhubAutomationRuleV2 extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: false, required: true
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -2762,7 +2762,7 @@ export class SecurityhubAutomationRuleV2 extends cdktn.TerraformResource {
   }
 
   // rule_name - computed: false, optional: false, required: true
-  private _ruleName?: string;
+  private _ruleName?: string; 
   public get ruleName() {
     return this.getStringAttribute('rule_name');
   }
@@ -2775,7 +2775,7 @@ export class SecurityhubAutomationRuleV2 extends cdktn.TerraformResource {
   }
 
   // rule_order - computed: false, optional: false, required: true
-  private _ruleOrder?: number;
+  private _ruleOrder?: number; 
   public get ruleOrder() {
     return this.getNumberAttribute('rule_order');
   }
@@ -2788,7 +2788,7 @@ export class SecurityhubAutomationRuleV2 extends cdktn.TerraformResource {
   }
 
   // rule_status - computed: true, optional: true, required: false
-  private _ruleStatus?: string;
+  private _ruleStatus?: string; 
   public get ruleStatus() {
     return this.getStringAttribute('rule_status');
   }
@@ -2804,7 +2804,7 @@ export class SecurityhubAutomationRuleV2 extends cdktn.TerraformResource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

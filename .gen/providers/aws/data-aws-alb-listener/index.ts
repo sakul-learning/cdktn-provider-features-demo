@@ -1168,7 +1168,7 @@ export class DataAwsAlbListenerTimeoutsOutputReference extends cdktn.ComplexObje
   }
 
   // read - computed: false, optional: true, required: false
-  private _read?: string;
+  private _read?: string; 
   public get read() {
     return this.getStringAttribute('read');
   }
@@ -1253,7 +1253,7 @@ export class DataAwsAlbListener extends cdktn.TerraformDataSource {
   }
 
   // arn - computed: true, optional: true, required: false
-  private _arn?: string;
+  private _arn?: string; 
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -1280,7 +1280,7 @@ export class DataAwsAlbListener extends cdktn.TerraformDataSource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -1296,7 +1296,7 @@ export class DataAwsAlbListener extends cdktn.TerraformDataSource {
   }
 
   // load_balancer_arn - computed: true, optional: true, required: false
-  private _loadBalancerArn?: string;
+  private _loadBalancerArn?: string; 
   public get loadBalancerArn() {
     return this.getStringAttribute('load_balancer_arn');
   }
@@ -1318,7 +1318,7 @@ export class DataAwsAlbListener extends cdktn.TerraformDataSource {
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -1339,7 +1339,7 @@ export class DataAwsAlbListener extends cdktn.TerraformDataSource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1360,7 +1360,7 @@ export class DataAwsAlbListener extends cdktn.TerraformDataSource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

@@ -157,7 +157,7 @@ export class EfsReplicationConfigurationDestinationOutputReference extends cdktn
   }
 
   // availability_zone_name - computed: false, optional: true, required: false
-  private _availabilityZoneName?: string;
+  private _availabilityZoneName?: string; 
   public get availabilityZoneName() {
     return this.getStringAttribute('availability_zone_name');
   }
@@ -173,7 +173,7 @@ export class EfsReplicationConfigurationDestinationOutputReference extends cdktn
   }
 
   // file_system_id - computed: true, optional: true, required: false
-  private _fileSystemId?: string;
+  private _fileSystemId?: string; 
   public get fileSystemId() {
     return this.getStringAttribute('file_system_id');
   }
@@ -189,7 +189,7 @@ export class EfsReplicationConfigurationDestinationOutputReference extends cdktn
   }
 
   // kms_key_id - computed: false, optional: true, required: false
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -205,7 +205,7 @@ export class EfsReplicationConfigurationDestinationOutputReference extends cdktn
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -321,7 +321,7 @@ export class EfsReplicationConfigurationTimeoutsOutputReference extends cdktn.Co
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -337,7 +337,7 @@ export class EfsReplicationConfigurationTimeoutsOutputReference extends cdktn.Co
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -420,7 +420,7 @@ export class EfsReplicationConfiguration extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -441,7 +441,7 @@ export class EfsReplicationConfiguration extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -462,7 +462,7 @@ export class EfsReplicationConfiguration extends cdktn.TerraformResource {
   }
 
   // source_file_system_id - computed: false, optional: false, required: true
-  private _sourceFileSystemId?: string;
+  private _sourceFileSystemId?: string; 
   public get sourceFileSystemId() {
     return this.getStringAttribute('source_file_system_id');
   }

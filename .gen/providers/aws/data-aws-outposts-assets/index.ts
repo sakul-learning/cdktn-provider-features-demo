@@ -96,7 +96,7 @@ export class DataAwsOutpostsAssets extends cdktn.TerraformDataSource {
   // ==========
 
   // arn - computed: false, optional: false, required: true
-  private _arn?: string;
+  private _arn?: string; 
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -114,7 +114,7 @@ export class DataAwsOutpostsAssets extends cdktn.TerraformDataSource {
   }
 
   // host_id_filter - computed: false, optional: true, required: false
-  private _hostIdFilter?: string[];
+  private _hostIdFilter?: string[]; 
   public get hostIdFilter() {
     return cdktn.Fn.tolist(this.getListAttribute('host_id_filter'));
   }
@@ -130,7 +130,7 @@ export class DataAwsOutpostsAssets extends cdktn.TerraformDataSource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -146,7 +146,7 @@ export class DataAwsOutpostsAssets extends cdktn.TerraformDataSource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -162,7 +162,7 @@ export class DataAwsOutpostsAssets extends cdktn.TerraformDataSource {
   }
 
   // status_id_filter - computed: false, optional: true, required: false
-  private _statusIdFilter?: string[];
+  private _statusIdFilter?: string[]; 
   public get statusIdFilter() {
     return cdktn.Fn.tolist(this.getListAttribute('status_id_filter'));
   }

@@ -128,7 +128,7 @@ export class VpcRouteServerPropagationTimeoutsOutputReference extends cdktn.Comp
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -144,7 +144,7 @@ export class VpcRouteServerPropagationTimeoutsOutputReference extends cdktn.Comp
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -221,7 +221,7 @@ export class VpcRouteServerPropagation extends cdktn.TerraformResource {
   // ==========
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -237,7 +237,7 @@ export class VpcRouteServerPropagation extends cdktn.TerraformResource {
   }
 
   // route_server_id - computed: false, optional: false, required: true
-  private _routeServerId?: string;
+  private _routeServerId?: string; 
   public get routeServerId() {
     return this.getStringAttribute('route_server_id');
   }
@@ -250,7 +250,7 @@ export class VpcRouteServerPropagation extends cdktn.TerraformResource {
   }
 
   // route_table_id - computed: false, optional: false, required: true
-  private _routeTableId?: string;
+  private _routeTableId?: string; 
   public get routeTableId() {
     return this.getStringAttribute('route_table_id');
   }

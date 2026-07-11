@@ -152,7 +152,7 @@ export class RedshiftIdcApplicationAuthorizedTokenIssuerOutputReference extends 
   }
 
   // authorized_audiences_list - computed: false, optional: true, required: false
-  private _authorizedAudiencesList?: string[];
+  private _authorizedAudiencesList?: string[]; 
   public get authorizedAudiencesList() {
     return this.getListAttribute('authorized_audiences_list');
   }
@@ -168,7 +168,7 @@ export class RedshiftIdcApplicationAuthorizedTokenIssuerOutputReference extends 
   }
 
   // trusted_token_issuer_arn - computed: false, optional: true, required: false
-  private _trustedTokenIssuerArn?: string;
+  private _trustedTokenIssuerArn?: string; 
   public get trustedTokenIssuerArn() {
     return this.getStringAttribute('trusted_token_issuer_arn');
   }
@@ -284,7 +284,7 @@ export class RedshiftIdcApplicationServiceIntegrationLakeFormationLakeFormationQ
   }
 
   // authorization - computed: false, optional: false, required: true
-  private _authorization?: string;
+  private _authorization?: string; 
   public get authorization() {
     return this.getStringAttribute('authorization');
   }
@@ -515,7 +515,7 @@ export class RedshiftIdcApplicationServiceIntegrationRedshiftConnectOutputRefere
   }
 
   // authorization - computed: false, optional: false, required: true
-  private _authorization?: string;
+  private _authorization?: string; 
   public get authorization() {
     return this.getStringAttribute('authorization');
   }
@@ -746,7 +746,7 @@ export class RedshiftIdcApplicationServiceIntegrationS3AccessGrantsReadWriteAcce
   }
 
   // authorization - computed: false, optional: false, required: true
-  private _authorization?: string;
+  private _authorization?: string; 
   public get authorization() {
     return this.getStringAttribute('authorization');
   }
@@ -1152,7 +1152,7 @@ export class RedshiftIdcApplication extends cdktn.TerraformResource {
   // ==========
 
   // application_type - computed: true, optional: true, required: false
-  private _applicationType?: string;
+  private _applicationType?: string; 
   public get applicationType() {
     return this.getStringAttribute('application_type');
   }
@@ -1168,7 +1168,7 @@ export class RedshiftIdcApplication extends cdktn.TerraformResource {
   }
 
   // iam_role_arn - computed: false, optional: false, required: true
-  private _iamRoleArn?: string;
+  private _iamRoleArn?: string; 
   public get iamRoleArn() {
     return this.getStringAttribute('iam_role_arn');
   }
@@ -1181,7 +1181,7 @@ export class RedshiftIdcApplication extends cdktn.TerraformResource {
   }
 
   // idc_display_name - computed: false, optional: false, required: true
-  private _idcDisplayName?: string;
+  private _idcDisplayName?: string; 
   public get idcDisplayName() {
     return this.getStringAttribute('idc_display_name');
   }
@@ -1194,7 +1194,7 @@ export class RedshiftIdcApplication extends cdktn.TerraformResource {
   }
 
   // idc_instance_arn - computed: false, optional: false, required: true
-  private _idcInstanceArn?: string;
+  private _idcInstanceArn?: string; 
   public get idcInstanceArn() {
     return this.getStringAttribute('idc_instance_arn');
   }
@@ -1212,7 +1212,7 @@ export class RedshiftIdcApplication extends cdktn.TerraformResource {
   }
 
   // identity_namespace - computed: true, optional: true, required: false
-  private _identityNamespace?: string;
+  private _identityNamespace?: string; 
   public get identityNamespace() {
     return this.getStringAttribute('identity_namespace');
   }
@@ -1233,7 +1233,7 @@ export class RedshiftIdcApplication extends cdktn.TerraformResource {
   }
 
   // redshift_idc_application_name - computed: false, optional: false, required: true
-  private _redshiftIdcApplicationName?: string;
+  private _redshiftIdcApplicationName?: string; 
   public get redshiftIdcApplicationName() {
     return this.getStringAttribute('redshift_idc_application_name');
   }
@@ -1246,7 +1246,7 @@ export class RedshiftIdcApplication extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1262,7 +1262,7 @@ export class RedshiftIdcApplication extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

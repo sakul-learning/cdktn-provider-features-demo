@@ -104,7 +104,7 @@ export class NetworkfirewallFirewallPolicyFirewallPolicyPolicyVariablesRuleVaria
   }
 
   // definition - computed: true, optional: true, required: false
-  private _definition?: string[];
+  private _definition?: string[]; 
   public get definition() {
     return this.getListAttribute('definition');
   }
@@ -311,7 +311,7 @@ export class NetworkfirewallFirewallPolicyFirewallPolicyStatefulEngineOptionsFlo
   }
 
   // tcp_idle_timeout_seconds - computed: true, optional: true, required: false
-  private _tcpIdleTimeoutSeconds?: number;
+  private _tcpIdleTimeoutSeconds?: number; 
   public get tcpIdleTimeoutSeconds() {
     return this.getNumberAttribute('tcp_idle_timeout_seconds');
   }
@@ -455,7 +455,7 @@ export class NetworkfirewallFirewallPolicyFirewallPolicyStatefulEngineOptionsOut
   }
 
   // rule_order - computed: true, optional: true, required: false
-  private _ruleOrder?: string;
+  private _ruleOrder?: string; 
   public get ruleOrder() {
     return this.getStringAttribute('rule_order');
   }
@@ -471,7 +471,7 @@ export class NetworkfirewallFirewallPolicyFirewallPolicyStatefulEngineOptionsOut
   }
 
   // stream_exception_policy - computed: true, optional: true, required: false
-  private _streamExceptionPolicy?: string;
+  private _streamExceptionPolicy?: string; 
   public get streamExceptionPolicy() {
     return this.getStringAttribute('stream_exception_policy');
   }
@@ -565,7 +565,7 @@ export class NetworkfirewallFirewallPolicyFirewallPolicyStatefulRuleGroupReferen
   }
 
   // action - computed: true, optional: true, required: false
-  private _action?: string;
+  private _action?: string; 
   public get action() {
     return this.getStringAttribute('action');
   }
@@ -714,7 +714,7 @@ export class NetworkfirewallFirewallPolicyFirewallPolicyStatefulRuleGroupReferen
   }
 
   // deep_threat_inspection - computed: true, optional: true, required: false
-  private _deepThreatInspection?: boolean | cdktn.IResolvable;
+  private _deepThreatInspection?: boolean | cdktn.IResolvable; 
   public get deepThreatInspection() {
     return this.getBooleanAttribute('deep_threat_inspection');
   }
@@ -746,7 +746,7 @@ export class NetworkfirewallFirewallPolicyFirewallPolicyStatefulRuleGroupReferen
   }
 
   // priority - computed: true, optional: true, required: false
-  private _priority?: number;
+  private _priority?: number; 
   public get priority() {
     return this.getNumberAttribute('priority');
   }
@@ -762,7 +762,7 @@ export class NetworkfirewallFirewallPolicyFirewallPolicyStatefulRuleGroupReferen
   }
 
   // resource_arn - computed: true, optional: true, required: false
-  private _resourceArn?: string;
+  private _resourceArn?: string; 
   public get resourceArn() {
     return this.getStringAttribute('resource_arn');
   }
@@ -878,7 +878,7 @@ export class NetworkfirewallFirewallPolicyFirewallPolicyStatelessCustomActionsAc
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1215,7 +1215,7 @@ export class NetworkfirewallFirewallPolicyFirewallPolicyStatelessCustomActionsOu
   }
 
   // action_name - computed: true, optional: true, required: false
-  private _actionName?: string;
+  private _actionName?: string; 
   public get actionName() {
     return this.getStringAttribute('action_name');
   }
@@ -1350,7 +1350,7 @@ export class NetworkfirewallFirewallPolicyFirewallPolicyStatelessRuleGroupRefere
   }
 
   // priority - computed: true, optional: true, required: false
-  private _priority?: number;
+  private _priority?: number; 
   public get priority() {
     return this.getNumberAttribute('priority');
   }
@@ -1366,7 +1366,7 @@ export class NetworkfirewallFirewallPolicyFirewallPolicyStatelessRuleGroupRefere
   }
 
   // resource_arn - computed: true, optional: true, required: false
-  private _resourceArn?: string;
+  private _resourceArn?: string; 
   public get resourceArn() {
     return this.getStringAttribute('resource_arn');
   }
@@ -1635,7 +1635,7 @@ export class NetworkfirewallFirewallPolicyFirewallPolicyOutputReference extends 
   }
 
   // enable_tls_session_holding - computed: true, optional: true, required: false
-  private _enableTlsSessionHolding?: boolean | cdktn.IResolvable;
+  private _enableTlsSessionHolding?: boolean | cdktn.IResolvable; 
   public get enableTlsSessionHolding() {
     return this.getBooleanAttribute('enable_tls_session_holding');
   }
@@ -1667,7 +1667,7 @@ export class NetworkfirewallFirewallPolicyFirewallPolicyOutputReference extends 
   }
 
   // stateful_default_actions - computed: true, optional: true, required: false
-  private _statefulDefaultActions?: string[];
+  private _statefulDefaultActions?: string[]; 
   public get statefulDefaultActions() {
     return this.getListAttribute('stateful_default_actions');
   }
@@ -1731,7 +1731,7 @@ export class NetworkfirewallFirewallPolicyFirewallPolicyOutputReference extends 
   }
 
   // stateless_default_actions - computed: false, optional: false, required: true
-  private _statelessDefaultActions?: string[];
+  private _statelessDefaultActions?: string[]; 
   public get statelessDefaultActions() {
     return this.getListAttribute('stateless_default_actions');
   }
@@ -1744,7 +1744,7 @@ export class NetworkfirewallFirewallPolicyFirewallPolicyOutputReference extends 
   }
 
   // stateless_fragment_default_actions - computed: false, optional: false, required: true
-  private _statelessFragmentDefaultActions?: string[];
+  private _statelessFragmentDefaultActions?: string[]; 
   public get statelessFragmentDefaultActions() {
     return this.getListAttribute('stateless_fragment_default_actions');
   }
@@ -1773,7 +1773,7 @@ export class NetworkfirewallFirewallPolicyFirewallPolicyOutputReference extends 
   }
 
   // tls_inspection_configuration_arn - computed: true, optional: true, required: false
-  private _tlsInspectionConfigurationArn?: string;
+  private _tlsInspectionConfigurationArn?: string; 
   public get tlsInspectionConfigurationArn() {
     return this.getStringAttribute('tls_inspection_configuration_arn');
   }
@@ -1886,7 +1886,7 @@ export class NetworkfirewallFirewallPolicyTagsOutputReference extends cdktn.Comp
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1902,7 +1902,7 @@ export class NetworkfirewallFirewallPolicyTagsOutputReference extends cdktn.Comp
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1999,7 +1999,7 @@ export class NetworkfirewallFirewallPolicy extends cdktn.TerraformResource {
   // ==========
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -2038,7 +2038,7 @@ export class NetworkfirewallFirewallPolicy extends cdktn.TerraformResource {
   }
 
   // firewall_policy_name - computed: false, optional: false, required: true
-  private _firewallPolicyName?: string;
+  private _firewallPolicyName?: string; 
   public get firewallPolicyName() {
     return this.getStringAttribute('firewall_policy_name');
   }

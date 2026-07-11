@@ -104,7 +104,7 @@ export class DxHostedConnection extends cdktn.TerraformResource {
   }
 
   // bandwidth - computed: false, optional: false, required: true
-  private _bandwidth?: string;
+  private _bandwidth?: string; 
   public get bandwidth() {
     return this.getStringAttribute('bandwidth');
   }
@@ -117,7 +117,7 @@ export class DxHostedConnection extends cdktn.TerraformResource {
   }
 
   // connection_id - computed: false, optional: false, required: true
-  private _connectionId?: string;
+  private _connectionId?: string; 
   public get connectionId() {
     return this.getStringAttribute('connection_id');
   }
@@ -140,7 +140,7 @@ export class DxHostedConnection extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -176,7 +176,7 @@ export class DxHostedConnection extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -189,7 +189,7 @@ export class DxHostedConnection extends cdktn.TerraformResource {
   }
 
   // owner_account_id - computed: false, optional: false, required: true
-  private _ownerAccountId?: string;
+  private _ownerAccountId?: string; 
   public get ownerAccountId() {
     return this.getStringAttribute('owner_account_id');
   }
@@ -222,7 +222,7 @@ export class DxHostedConnection extends cdktn.TerraformResource {
   }
 
   // vlan - computed: false, optional: false, required: true
-  private _vlan?: number;
+  private _vlan?: number; 
   public get vlan() {
     return this.getNumberAttribute('vlan');
   }

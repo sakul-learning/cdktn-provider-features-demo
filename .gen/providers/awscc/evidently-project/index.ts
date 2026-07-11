@@ -128,7 +128,7 @@ export class EvidentlyProjectAppConfigResourceOutputReference extends cdktn.Comp
   }
 
   // application_id - computed: true, optional: true, required: false
-  private _applicationId?: string;
+  private _applicationId?: string; 
   public get applicationId() {
     return this.getStringAttribute('application_id');
   }
@@ -144,7 +144,7 @@ export class EvidentlyProjectAppConfigResourceOutputReference extends cdktn.Comp
   }
 
   // environment_id - computed: true, optional: true, required: false
-  private _environmentId?: string;
+  private _environmentId?: string; 
   public get environmentId() {
     return this.getStringAttribute('environment_id');
   }
@@ -255,7 +255,7 @@ export class EvidentlyProjectDataDeliveryS3OutputReference extends cdktn.Complex
   }
 
   // bucket_name - computed: true, optional: true, required: false
-  private _bucketName?: string;
+  private _bucketName?: string; 
   public get bucketName() {
     return this.getStringAttribute('bucket_name');
   }
@@ -271,7 +271,7 @@ export class EvidentlyProjectDataDeliveryS3OutputReference extends cdktn.Complex
   }
 
   // prefix - computed: true, optional: true, required: false
-  private _prefix?: string;
+  private _prefix?: string; 
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -382,7 +382,7 @@ export class EvidentlyProjectDataDeliveryOutputReference extends cdktn.ComplexOb
   }
 
   // log_group - computed: true, optional: true, required: false
-  private _logGroup?: string;
+  private _logGroup?: string; 
   public get logGroup() {
     return this.getStringAttribute('log_group');
   }
@@ -515,7 +515,7 @@ export class EvidentlyProjectTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -531,7 +531,7 @@ export class EvidentlyProjectTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -666,7 +666,7 @@ export class EvidentlyProject extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -687,7 +687,7 @@ export class EvidentlyProject extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }

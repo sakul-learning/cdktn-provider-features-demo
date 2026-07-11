@@ -134,7 +134,7 @@ export class SsmParameter extends cdktn.TerraformResource {
   // ==========
 
   // allowed_pattern - computed: true, optional: true, required: false
-  private _allowedPattern?: string;
+  private _allowedPattern?: string; 
   public get allowedPattern() {
     return this.getStringAttribute('allowed_pattern');
   }
@@ -155,7 +155,7 @@ export class SsmParameter extends cdktn.TerraformResource {
   }
 
   // data_type - computed: true, optional: true, required: false
-  private _dataType?: string;
+  private _dataType?: string; 
   public get dataType() {
     return this.getStringAttribute('data_type');
   }
@@ -171,7 +171,7 @@ export class SsmParameter extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -192,7 +192,7 @@ export class SsmParameter extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -208,7 +208,7 @@ export class SsmParameter extends cdktn.TerraformResource {
   }
 
   // policies - computed: true, optional: true, required: false
-  private _policies?: string;
+  private _policies?: string; 
   public get policies() {
     return this.getStringAttribute('policies');
   }
@@ -224,7 +224,7 @@ export class SsmParameter extends cdktn.TerraformResource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -240,7 +240,7 @@ export class SsmParameter extends cdktn.TerraformResource {
   }
 
   // tier - computed: true, optional: true, required: false
-  private _tier?: string;
+  private _tier?: string; 
   public get tier() {
     return this.getStringAttribute('tier');
   }
@@ -256,7 +256,7 @@ export class SsmParameter extends cdktn.TerraformResource {
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -269,7 +269,7 @@ export class SsmParameter extends cdktn.TerraformResource {
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }

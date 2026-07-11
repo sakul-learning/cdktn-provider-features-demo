@@ -37,7 +37,7 @@ export interface QuicksightDashboardConfig extends cdktn.TerraformMetaArguments 
   * <p>A structure that contains the permissions of the dashboard. You can use this structure
   *             for granting permissions by providing a list of IAM action information for each
   *             principal ARN. </p>
-  *
+  * 
   *         <p>To specify no permissions, omit the permissions list.</p>
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_dashboard#permissions QuicksightDashboard#permissions}
@@ -151,7 +151,7 @@ export class QuicksightDashboardDashboardPublishOptionsAdHocFilteringOptionOutpu
   }
 
   // availability_status - computed: true, optional: true, required: false
-  private _availabilityStatus?: string;
+  private _availabilityStatus?: string; 
   public get availabilityStatus() {
     return this.getStringAttribute('availability_status');
   }
@@ -245,7 +245,7 @@ export class QuicksightDashboardDashboardPublishOptionsExportToCsvOptionOutputRe
   }
 
   // availability_status - computed: true, optional: true, required: false
-  private _availabilityStatus?: string;
+  private _availabilityStatus?: string; 
   public get availabilityStatus() {
     return this.getStringAttribute('availability_status');
   }
@@ -339,7 +339,7 @@ export class QuicksightDashboardDashboardPublishOptionsSheetControlsOptionOutput
   }
 
   // visibility_state - computed: true, optional: true, required: false
-  private _visibilityState?: string;
+  private _visibilityState?: string; 
   public get visibilityState() {
     return this.getStringAttribute('visibility_state');
   }
@@ -622,7 +622,7 @@ export class QuicksightDashboardParametersDateTimeParametersOutputReference exte
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -638,7 +638,7 @@ export class QuicksightDashboardParametersDateTimeParametersOutputReference exte
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -775,7 +775,7 @@ export class QuicksightDashboardParametersDecimalParametersOutputReference exten
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -791,7 +791,7 @@ export class QuicksightDashboardParametersDecimalParametersOutputReference exten
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: number[];
+  private _values?: number[]; 
   public get values() {
     return this.getNumberListAttribute('values');
   }
@@ -928,7 +928,7 @@ export class QuicksightDashboardParametersIntegerParametersOutputReference exten
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -944,7 +944,7 @@ export class QuicksightDashboardParametersIntegerParametersOutputReference exten
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: number[];
+  private _values?: number[]; 
   public get values() {
     return this.getNumberListAttribute('values');
   }
@@ -1081,7 +1081,7 @@ export class QuicksightDashboardParametersStringParametersOutputReference extend
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1097,7 +1097,7 @@ export class QuicksightDashboardParametersStringParametersOutputReference extend
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -1449,7 +1449,7 @@ export class QuicksightDashboardPermissionsOutputReference extends cdktn.Complex
   }
 
   // actions - computed: true, optional: true, required: false
-  private _actions?: string[];
+  private _actions?: string[]; 
   public get actions() {
     return this.getListAttribute('actions');
   }
@@ -1465,7 +1465,7 @@ export class QuicksightDashboardPermissionsOutputReference extends cdktn.Complex
   }
 
   // principal - computed: true, optional: true, required: false
-  private _principal?: string;
+  private _principal?: string; 
   public get principal() {
     return this.getStringAttribute('principal');
   }
@@ -1602,7 +1602,7 @@ export class QuicksightDashboardSourceEntitySourceTemplateDataSetReferencesOutpu
   }
 
   // data_set_arn - computed: true, optional: true, required: false
-  private _dataSetArn?: string;
+  private _dataSetArn?: string; 
   public get dataSetArn() {
     return this.getStringAttribute('data_set_arn');
   }
@@ -1618,7 +1618,7 @@ export class QuicksightDashboardSourceEntitySourceTemplateDataSetReferencesOutpu
   }
 
   // data_set_placeholder - computed: true, optional: true, required: false
-  private _dataSetPlaceholder?: string;
+  private _dataSetPlaceholder?: string; 
   public get dataSetPlaceholder() {
     return this.getStringAttribute('data_set_placeholder');
   }
@@ -1753,7 +1753,7 @@ export class QuicksightDashboardSourceEntitySourceTemplateOutputReference extend
   }
 
   // arn - computed: true, optional: true, required: false
-  private _arn?: string;
+  private _arn?: string; 
   public get arn() {
     return this.getStringAttribute('arn');
   }
@@ -1982,7 +1982,7 @@ export class QuicksightDashboardTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1998,7 +1998,7 @@ export class QuicksightDashboardTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2367,7 +2367,7 @@ export class QuicksightDashboard extends cdktn.TerraformResource {
   }
 
   // aws_account_id - computed: false, optional: false, required: true
-  private _awsAccountId?: string;
+  private _awsAccountId?: string; 
   public get awsAccountId() {
     return this.getStringAttribute('aws_account_id');
   }
@@ -2385,7 +2385,7 @@ export class QuicksightDashboard extends cdktn.TerraformResource {
   }
 
   // dashboard_id - computed: false, optional: false, required: true
-  private _dashboardId?: string;
+  private _dashboardId?: string; 
   public get dashboardId() {
     return this.getStringAttribute('dashboard_id');
   }
@@ -2429,7 +2429,7 @@ export class QuicksightDashboard extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2506,7 +2506,7 @@ export class QuicksightDashboard extends cdktn.TerraformResource {
   }
 
   // theme_arn - computed: true, optional: true, required: false
-  private _themeArn?: string;
+  private _themeArn?: string; 
   public get themeArn() {
     return this.getStringAttribute('theme_arn');
   }
@@ -2528,7 +2528,7 @@ export class QuicksightDashboard extends cdktn.TerraformResource {
   }
 
   // version_description - computed: true, optional: true, required: false
-  private _versionDescription?: string;
+  private _versionDescription?: string; 
   public get versionDescription() {
     return this.getStringAttribute('version_description');
   }

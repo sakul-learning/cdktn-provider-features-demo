@@ -149,7 +149,7 @@ export class Elasticloadbalancingv2ListenerCertificatesOutputReference extends c
   }
 
   // certificate_arn - computed: true, optional: true, required: false
-  private _certificateArn?: string;
+  private _certificateArn?: string; 
   public get certificateArn() {
     return this.getStringAttribute('certificate_arn');
   }
@@ -402,7 +402,7 @@ export class Elasticloadbalancingv2ListenerDefaultActionsAuthenticateCognitoConf
   }
 
   // authentication_request_extra_params - computed: true, optional: true, required: false
-  private _authenticationRequestExtraParams?: { [key: string]: string };
+  private _authenticationRequestExtraParams?: { [key: string]: string }; 
   public get authenticationRequestExtraParams() {
     return this.getStringMapAttribute('authentication_request_extra_params');
   }
@@ -418,7 +418,7 @@ export class Elasticloadbalancingv2ListenerDefaultActionsAuthenticateCognitoConf
   }
 
   // on_unauthenticated_request - computed: true, optional: true, required: false
-  private _onUnauthenticatedRequest?: string;
+  private _onUnauthenticatedRequest?: string; 
   public get onUnauthenticatedRequest() {
     return this.getStringAttribute('on_unauthenticated_request');
   }
@@ -434,7 +434,7 @@ export class Elasticloadbalancingv2ListenerDefaultActionsAuthenticateCognitoConf
   }
 
   // scope - computed: true, optional: true, required: false
-  private _scope?: string;
+  private _scope?: string; 
   public get scope() {
     return this.getStringAttribute('scope');
   }
@@ -450,7 +450,7 @@ export class Elasticloadbalancingv2ListenerDefaultActionsAuthenticateCognitoConf
   }
 
   // session_cookie_name - computed: true, optional: true, required: false
-  private _sessionCookieName?: string;
+  private _sessionCookieName?: string; 
   public get sessionCookieName() {
     return this.getStringAttribute('session_cookie_name');
   }
@@ -466,7 +466,7 @@ export class Elasticloadbalancingv2ListenerDefaultActionsAuthenticateCognitoConf
   }
 
   // session_timeout - computed: true, optional: true, required: false
-  private _sessionTimeout?: string;
+  private _sessionTimeout?: string; 
   public get sessionTimeout() {
     return this.getStringAttribute('session_timeout');
   }
@@ -482,7 +482,7 @@ export class Elasticloadbalancingv2ListenerDefaultActionsAuthenticateCognitoConf
   }
 
   // user_pool_arn - computed: true, optional: true, required: false
-  private _userPoolArn?: string;
+  private _userPoolArn?: string; 
   public get userPoolArn() {
     return this.getStringAttribute('user_pool_arn');
   }
@@ -498,7 +498,7 @@ export class Elasticloadbalancingv2ListenerDefaultActionsAuthenticateCognitoConf
   }
 
   // user_pool_client_id - computed: true, optional: true, required: false
-  private _userPoolClientId?: string;
+  private _userPoolClientId?: string; 
   public get userPoolClientId() {
     return this.getStringAttribute('user_pool_client_id');
   }
@@ -514,7 +514,7 @@ export class Elasticloadbalancingv2ListenerDefaultActionsAuthenticateCognitoConf
   }
 
   // user_pool_domain - computed: true, optional: true, required: false
-  private _userPoolDomain?: string;
+  private _userPoolDomain?: string; 
   public get userPoolDomain() {
     return this.getStringAttribute('user_pool_domain');
   }
@@ -823,7 +823,7 @@ export class Elasticloadbalancingv2ListenerDefaultActionsAuthenticateOidcConfigO
   }
 
   // authentication_request_extra_params - computed: true, optional: true, required: false
-  private _authenticationRequestExtraParams?: { [key: string]: string };
+  private _authenticationRequestExtraParams?: { [key: string]: string }; 
   public get authenticationRequestExtraParams() {
     return this.getStringMapAttribute('authentication_request_extra_params');
   }
@@ -839,7 +839,7 @@ export class Elasticloadbalancingv2ListenerDefaultActionsAuthenticateOidcConfigO
   }
 
   // authorization_endpoint - computed: true, optional: true, required: false
-  private _authorizationEndpoint?: string;
+  private _authorizationEndpoint?: string; 
   public get authorizationEndpoint() {
     return this.getStringAttribute('authorization_endpoint');
   }
@@ -855,7 +855,7 @@ export class Elasticloadbalancingv2ListenerDefaultActionsAuthenticateOidcConfigO
   }
 
   // client_id - computed: true, optional: true, required: false
-  private _clientId?: string;
+  private _clientId?: string; 
   public get clientId() {
     return this.getStringAttribute('client_id');
   }
@@ -871,7 +871,7 @@ export class Elasticloadbalancingv2ListenerDefaultActionsAuthenticateOidcConfigO
   }
 
   // client_secret - computed: true, optional: true, required: false
-  private _clientSecret?: string;
+  private _clientSecret?: string; 
   public get clientSecret() {
     return this.getStringAttribute('client_secret');
   }
@@ -887,7 +887,7 @@ export class Elasticloadbalancingv2ListenerDefaultActionsAuthenticateOidcConfigO
   }
 
   // issuer - computed: true, optional: true, required: false
-  private _issuer?: string;
+  private _issuer?: string; 
   public get issuer() {
     return this.getStringAttribute('issuer');
   }
@@ -903,7 +903,7 @@ export class Elasticloadbalancingv2ListenerDefaultActionsAuthenticateOidcConfigO
   }
 
   // on_unauthenticated_request - computed: true, optional: true, required: false
-  private _onUnauthenticatedRequest?: string;
+  private _onUnauthenticatedRequest?: string; 
   public get onUnauthenticatedRequest() {
     return this.getStringAttribute('on_unauthenticated_request');
   }
@@ -919,7 +919,7 @@ export class Elasticloadbalancingv2ListenerDefaultActionsAuthenticateOidcConfigO
   }
 
   // scope - computed: true, optional: true, required: false
-  private _scope?: string;
+  private _scope?: string; 
   public get scope() {
     return this.getStringAttribute('scope');
   }
@@ -935,7 +935,7 @@ export class Elasticloadbalancingv2ListenerDefaultActionsAuthenticateOidcConfigO
   }
 
   // session_cookie_name - computed: true, optional: true, required: false
-  private _sessionCookieName?: string;
+  private _sessionCookieName?: string; 
   public get sessionCookieName() {
     return this.getStringAttribute('session_cookie_name');
   }
@@ -951,7 +951,7 @@ export class Elasticloadbalancingv2ListenerDefaultActionsAuthenticateOidcConfigO
   }
 
   // session_timeout - computed: true, optional: true, required: false
-  private _sessionTimeout?: string;
+  private _sessionTimeout?: string; 
   public get sessionTimeout() {
     return this.getStringAttribute('session_timeout');
   }
@@ -967,7 +967,7 @@ export class Elasticloadbalancingv2ListenerDefaultActionsAuthenticateOidcConfigO
   }
 
   // token_endpoint - computed: true, optional: true, required: false
-  private _tokenEndpoint?: string;
+  private _tokenEndpoint?: string; 
   public get tokenEndpoint() {
     return this.getStringAttribute('token_endpoint');
   }
@@ -983,7 +983,7 @@ export class Elasticloadbalancingv2ListenerDefaultActionsAuthenticateOidcConfigO
   }
 
   // use_existing_client_secret - computed: true, optional: true, required: false
-  private _useExistingClientSecret?: boolean | cdktn.IResolvable;
+  private _useExistingClientSecret?: boolean | cdktn.IResolvable; 
   public get useExistingClientSecret() {
     return this.getBooleanAttribute('use_existing_client_secret');
   }
@@ -999,7 +999,7 @@ export class Elasticloadbalancingv2ListenerDefaultActionsAuthenticateOidcConfigO
   }
 
   // user_info_endpoint - computed: true, optional: true, required: false
-  private _userInfoEndpoint?: string;
+  private _userInfoEndpoint?: string; 
   public get userInfoEndpoint() {
     return this.getStringAttribute('user_info_endpoint');
   }
@@ -1134,7 +1134,7 @@ export class Elasticloadbalancingv2ListenerDefaultActionsFixedResponseConfigOutp
   }
 
   // content_type - computed: true, optional: true, required: false
-  private _contentType?: string;
+  private _contentType?: string; 
   public get contentType() {
     return this.getStringAttribute('content_type');
   }
@@ -1150,7 +1150,7 @@ export class Elasticloadbalancingv2ListenerDefaultActionsFixedResponseConfigOutp
   }
 
   // message_body - computed: true, optional: true, required: false
-  private _messageBody?: string;
+  private _messageBody?: string; 
   public get messageBody() {
     return this.getStringAttribute('message_body');
   }
@@ -1166,7 +1166,7 @@ export class Elasticloadbalancingv2ListenerDefaultActionsFixedResponseConfigOutp
   }
 
   // status_code - computed: true, optional: true, required: false
-  private _statusCode?: string;
+  private _statusCode?: string; 
   public get statusCode() {
     return this.getStringAttribute('status_code');
   }
@@ -1281,7 +1281,7 @@ export class Elasticloadbalancingv2ListenerDefaultActionsForwardConfigTargetGrou
   }
 
   // duration_seconds - computed: true, optional: true, required: false
-  private _durationSeconds?: number;
+  private _durationSeconds?: number; 
   public get durationSeconds() {
     return this.getNumberAttribute('duration_seconds');
   }
@@ -1297,7 +1297,7 @@ export class Elasticloadbalancingv2ListenerDefaultActionsForwardConfigTargetGrou
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -1414,7 +1414,7 @@ export class Elasticloadbalancingv2ListenerDefaultActionsForwardConfigTargetGrou
   }
 
   // target_group_arn - computed: true, optional: true, required: false
-  private _targetGroupArn?: string;
+  private _targetGroupArn?: string; 
   public get targetGroupArn() {
     return this.getStringAttribute('target_group_arn');
   }
@@ -1430,7 +1430,7 @@ export class Elasticloadbalancingv2ListenerDefaultActionsForwardConfigTargetGrou
   }
 
   // weight - computed: true, optional: true, required: false
-  private _weight?: number;
+  private _weight?: number; 
   public get weight() {
     return this.getNumberAttribute('weight');
   }
@@ -1717,7 +1717,7 @@ export class Elasticloadbalancingv2ListenerDefaultActionsJwtValidationConfigAddi
   }
 
   // format - computed: true, optional: true, required: false
-  private _format?: string;
+  private _format?: string; 
   public get format() {
     return this.getStringAttribute('format');
   }
@@ -1733,7 +1733,7 @@ export class Elasticloadbalancingv2ListenerDefaultActionsJwtValidationConfigAddi
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1749,7 +1749,7 @@ export class Elasticloadbalancingv2ListenerDefaultActionsJwtValidationConfigAddi
   }
 
   // values - computed: true, optional: true, required: false
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
   }
@@ -1913,7 +1913,7 @@ export class Elasticloadbalancingv2ListenerDefaultActionsJwtValidationConfigOutp
   }
 
   // issuer - computed: true, optional: true, required: false
-  private _issuer?: string;
+  private _issuer?: string; 
   public get issuer() {
     return this.getStringAttribute('issuer');
   }
@@ -1929,7 +1929,7 @@ export class Elasticloadbalancingv2ListenerDefaultActionsJwtValidationConfigOutp
   }
 
   // jwks_endpoint - computed: true, optional: true, required: false
-  private _jwksEndpoint?: string;
+  private _jwksEndpoint?: string; 
   public get jwksEndpoint() {
     return this.getStringAttribute('jwks_endpoint');
   }
@@ -2120,7 +2120,7 @@ export class Elasticloadbalancingv2ListenerDefaultActionsRedirectConfigOutputRef
   }
 
   // host - computed: true, optional: true, required: false
-  private _host?: string;
+  private _host?: string; 
   public get host() {
     return this.getStringAttribute('host');
   }
@@ -2136,7 +2136,7 @@ export class Elasticloadbalancingv2ListenerDefaultActionsRedirectConfigOutputRef
   }
 
   // path - computed: true, optional: true, required: false
-  private _path?: string;
+  private _path?: string; 
   public get path() {
     return this.getStringAttribute('path');
   }
@@ -2152,7 +2152,7 @@ export class Elasticloadbalancingv2ListenerDefaultActionsRedirectConfigOutputRef
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: string;
+  private _port?: string; 
   public get port() {
     return this.getStringAttribute('port');
   }
@@ -2168,7 +2168,7 @@ export class Elasticloadbalancingv2ListenerDefaultActionsRedirectConfigOutputRef
   }
 
   // protocol - computed: true, optional: true, required: false
-  private _protocol?: string;
+  private _protocol?: string; 
   public get protocol() {
     return this.getStringAttribute('protocol');
   }
@@ -2184,7 +2184,7 @@ export class Elasticloadbalancingv2ListenerDefaultActionsRedirectConfigOutputRef
   }
 
   // query - computed: true, optional: true, required: false
-  private _query?: string;
+  private _query?: string; 
   public get query() {
     return this.getStringAttribute('query');
   }
@@ -2200,7 +2200,7 @@ export class Elasticloadbalancingv2ListenerDefaultActionsRedirectConfigOutputRef
   }
 
   // status_code - computed: true, optional: true, required: false
-  private _statusCode?: string;
+  private _statusCode?: string; 
   public get statusCode() {
     return this.getStringAttribute('status_code');
   }
@@ -2531,7 +2531,7 @@ export class Elasticloadbalancingv2ListenerDefaultActionsOutputReference extends
   }
 
   // order - computed: true, optional: true, required: false
-  private _order?: number;
+  private _order?: number; 
   public get order() {
     return this.getNumberAttribute('order');
   }
@@ -2563,7 +2563,7 @@ export class Elasticloadbalancingv2ListenerDefaultActionsOutputReference extends
   }
 
   // target_group_arn - computed: true, optional: true, required: false
-  private _targetGroupArn?: string;
+  private _targetGroupArn?: string; 
   public get targetGroupArn() {
     return this.getStringAttribute('target_group_arn');
   }
@@ -2579,7 +2579,7 @@ export class Elasticloadbalancingv2ListenerDefaultActionsOutputReference extends
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -2616,7 +2616,7 @@ export interface Elasticloadbalancingv2ListenerListenerAttributes {
   * The name of the attribute.
   *  The following attribute is supported by Network Load Balancers, and Gateway Load Balancers.
   *   +  ``tcp.idle_timeout.seconds`` - The tcp idle timeout value, in seconds. The valid range is 60-6000 seconds. The default is 350 seconds.
-  *
+  *   
   *  The following attributes are only supported by Application Load Balancers.
   *   +  ``routing.http.request.x_amzn_mtls_clientcert_serial_number.header_name`` - Enables you to modify the header name of the *X-Amzn-Mtls-Clientcert-Serial-Number* HTTP request header.
   *   +  ``routing.http.request.x_amzn_mtls_clientcert_issuer.header_name`` - Enables you to modify the header name of the *X-Amzn-Mtls-Clientcert-Issuer* HTTP request header.
@@ -2736,7 +2736,7 @@ export class Elasticloadbalancingv2ListenerListenerAttributesOutputReference ext
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -2752,7 +2752,7 @@ export class Elasticloadbalancingv2ListenerListenerAttributesOutputReference ext
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2925,7 +2925,7 @@ export class Elasticloadbalancingv2ListenerMutualAuthenticationOutputReference e
   }
 
   // advertise_trust_store_ca_names - computed: true, optional: true, required: false
-  private _advertiseTrustStoreCaNames?: string;
+  private _advertiseTrustStoreCaNames?: string; 
   public get advertiseTrustStoreCaNames() {
     return this.getStringAttribute('advertise_trust_store_ca_names');
   }
@@ -2941,7 +2941,7 @@ export class Elasticloadbalancingv2ListenerMutualAuthenticationOutputReference e
   }
 
   // ignore_client_certificate_expiry - computed: true, optional: true, required: false
-  private _ignoreClientCertificateExpiry?: boolean | cdktn.IResolvable;
+  private _ignoreClientCertificateExpiry?: boolean | cdktn.IResolvable; 
   public get ignoreClientCertificateExpiry() {
     return this.getBooleanAttribute('ignore_client_certificate_expiry');
   }
@@ -2957,7 +2957,7 @@ export class Elasticloadbalancingv2ListenerMutualAuthenticationOutputReference e
   }
 
   // mode - computed: true, optional: true, required: false
-  private _mode?: string;
+  private _mode?: string; 
   public get mode() {
     return this.getStringAttribute('mode');
   }
@@ -2973,7 +2973,7 @@ export class Elasticloadbalancingv2ListenerMutualAuthenticationOutputReference e
   }
 
   // trust_store_arn - computed: true, optional: true, required: false
-  private _trustStoreArn?: string;
+  private _trustStoreArn?: string; 
   public get trustStoreArn() {
     return this.getStringAttribute('trust_store_arn');
   }
@@ -3055,7 +3055,7 @@ export class Elasticloadbalancingv2Listener extends cdktn.TerraformResource {
   // ==========
 
   // alpn_policy - computed: true, optional: true, required: false
-  private _alpnPolicy?: string[];
+  private _alpnPolicy?: string[]; 
   public get alpnPolicy() {
     return this.getListAttribute('alpn_policy');
   }
@@ -3126,7 +3126,7 @@ export class Elasticloadbalancingv2Listener extends cdktn.TerraformResource {
   }
 
   // load_balancer_arn - computed: false, optional: false, required: true
-  private _loadBalancerArn?: string;
+  private _loadBalancerArn?: string; 
   public get loadBalancerArn() {
     return this.getStringAttribute('load_balancer_arn');
   }
@@ -3155,7 +3155,7 @@ export class Elasticloadbalancingv2Listener extends cdktn.TerraformResource {
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -3171,7 +3171,7 @@ export class Elasticloadbalancingv2Listener extends cdktn.TerraformResource {
   }
 
   // protocol - computed: true, optional: true, required: false
-  private _protocol?: string;
+  private _protocol?: string; 
   public get protocol() {
     return this.getStringAttribute('protocol');
   }
@@ -3187,7 +3187,7 @@ export class Elasticloadbalancingv2Listener extends cdktn.TerraformResource {
   }
 
   // ssl_policy - computed: true, optional: true, required: false
-  private _sslPolicy?: string;
+  private _sslPolicy?: string; 
   public get sslPolicy() {
     return this.getStringAttribute('ssl_policy');
   }

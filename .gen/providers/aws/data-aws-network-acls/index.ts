@@ -139,7 +139,7 @@ export class DataAwsNetworkAclsFilterOutputReference extends cdktn.ComplexObject
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -152,7 +152,7 @@ export class DataAwsNetworkAclsFilterOutputReference extends cdktn.ComplexObject
   }
 
   // values - computed: false, optional: false, required: true
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -263,7 +263,7 @@ export class DataAwsNetworkAclsTimeoutsOutputReference extends cdktn.ComplexObje
   }
 
   // read - computed: false, optional: true, required: false
-  private _read?: string;
+  private _read?: string; 
   public get read() {
     return this.getStringAttribute('read');
   }
@@ -342,7 +342,7 @@ export class DataAwsNetworkAcls extends cdktn.TerraformDataSource {
   // ==========
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -363,7 +363,7 @@ export class DataAwsNetworkAcls extends cdktn.TerraformDataSource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -379,7 +379,7 @@ export class DataAwsNetworkAcls extends cdktn.TerraformDataSource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -395,7 +395,7 @@ export class DataAwsNetworkAcls extends cdktn.TerraformDataSource {
   }
 
   // vpc_id - computed: false, optional: true, required: false
-  private _vpcId?: string;
+  private _vpcId?: string; 
   public get vpcId() {
     return this.getStringAttribute('vpc_id');
   }

@@ -347,7 +347,7 @@ export class ConnectInstanceAttributesOutputReference extends cdktn.ComplexObjec
   }
 
   // auto_resolve_best_voices - computed: true, optional: true, required: false
-  private _autoResolveBestVoices?: boolean | cdktn.IResolvable;
+  private _autoResolveBestVoices?: boolean | cdktn.IResolvable; 
   public get autoResolveBestVoices() {
     return this.getBooleanAttribute('auto_resolve_best_voices');
   }
@@ -363,7 +363,7 @@ export class ConnectInstanceAttributesOutputReference extends cdktn.ComplexObjec
   }
 
   // contact_lens - computed: true, optional: true, required: false
-  private _contactLens?: boolean | cdktn.IResolvable;
+  private _contactLens?: boolean | cdktn.IResolvable; 
   public get contactLens() {
     return this.getBooleanAttribute('contact_lens');
   }
@@ -379,7 +379,7 @@ export class ConnectInstanceAttributesOutputReference extends cdktn.ComplexObjec
   }
 
   // contactflow_logs - computed: true, optional: true, required: false
-  private _contactflowLogs?: boolean | cdktn.IResolvable;
+  private _contactflowLogs?: boolean | cdktn.IResolvable; 
   public get contactflowLogs() {
     return this.getBooleanAttribute('contactflow_logs');
   }
@@ -395,7 +395,7 @@ export class ConnectInstanceAttributesOutputReference extends cdktn.ComplexObjec
   }
 
   // early_media - computed: true, optional: true, required: false
-  private _earlyMedia?: boolean | cdktn.IResolvable;
+  private _earlyMedia?: boolean | cdktn.IResolvable; 
   public get earlyMedia() {
     return this.getBooleanAttribute('early_media');
   }
@@ -411,7 +411,7 @@ export class ConnectInstanceAttributesOutputReference extends cdktn.ComplexObjec
   }
 
   // enhanced_chat_monitoring - computed: true, optional: true, required: false
-  private _enhancedChatMonitoring?: boolean | cdktn.IResolvable;
+  private _enhancedChatMonitoring?: boolean | cdktn.IResolvable; 
   public get enhancedChatMonitoring() {
     return this.getBooleanAttribute('enhanced_chat_monitoring');
   }
@@ -427,7 +427,7 @@ export class ConnectInstanceAttributesOutputReference extends cdktn.ComplexObjec
   }
 
   // enhanced_contact_monitoring - computed: true, optional: true, required: false
-  private _enhancedContactMonitoring?: boolean | cdktn.IResolvable;
+  private _enhancedContactMonitoring?: boolean | cdktn.IResolvable; 
   public get enhancedContactMonitoring() {
     return this.getBooleanAttribute('enhanced_contact_monitoring');
   }
@@ -443,7 +443,7 @@ export class ConnectInstanceAttributesOutputReference extends cdktn.ComplexObjec
   }
 
   // high_volume_out_bound - computed: true, optional: true, required: false
-  private _highVolumeOutBound?: boolean | cdktn.IResolvable;
+  private _highVolumeOutBound?: boolean | cdktn.IResolvable; 
   public get highVolumeOutBound() {
     return this.getBooleanAttribute('high_volume_out_bound');
   }
@@ -459,7 +459,7 @@ export class ConnectInstanceAttributesOutputReference extends cdktn.ComplexObjec
   }
 
   // inbound_calls - computed: false, optional: false, required: true
-  private _inboundCalls?: boolean | cdktn.IResolvable;
+  private _inboundCalls?: boolean | cdktn.IResolvable; 
   public get inboundCalls() {
     return this.getBooleanAttribute('inbound_calls');
   }
@@ -472,7 +472,7 @@ export class ConnectInstanceAttributesOutputReference extends cdktn.ComplexObjec
   }
 
   // message_streaming - computed: true, optional: true, required: false
-  private _messageStreaming?: boolean | cdktn.IResolvable;
+  private _messageStreaming?: boolean | cdktn.IResolvable; 
   public get messageStreaming() {
     return this.getBooleanAttribute('message_streaming');
   }
@@ -488,7 +488,7 @@ export class ConnectInstanceAttributesOutputReference extends cdktn.ComplexObjec
   }
 
   // multi_party_chat_conference - computed: true, optional: true, required: false
-  private _multiPartyChatConference?: boolean | cdktn.IResolvable;
+  private _multiPartyChatConference?: boolean | cdktn.IResolvable; 
   public get multiPartyChatConference() {
     return this.getBooleanAttribute('multi_party_chat_conference');
   }
@@ -504,7 +504,7 @@ export class ConnectInstanceAttributesOutputReference extends cdktn.ComplexObjec
   }
 
   // multi_party_conference - computed: true, optional: true, required: false
-  private _multiPartyConference?: boolean | cdktn.IResolvable;
+  private _multiPartyConference?: boolean | cdktn.IResolvable; 
   public get multiPartyConference() {
     return this.getBooleanAttribute('multi_party_conference');
   }
@@ -520,7 +520,7 @@ export class ConnectInstanceAttributesOutputReference extends cdktn.ComplexObjec
   }
 
   // outbound_calls - computed: false, optional: false, required: true
-  private _outboundCalls?: boolean | cdktn.IResolvable;
+  private _outboundCalls?: boolean | cdktn.IResolvable; 
   public get outboundCalls() {
     return this.getBooleanAttribute('outbound_calls');
   }
@@ -533,7 +533,7 @@ export class ConnectInstanceAttributesOutputReference extends cdktn.ComplexObjec
   }
 
   // use_custom_tts_voices - computed: true, optional: true, required: false
-  private _useCustomTtsVoices?: boolean | cdktn.IResolvable;
+  private _useCustomTtsVoices?: boolean | cdktn.IResolvable; 
   public get useCustomTtsVoices() {
     return this.getBooleanAttribute('use_custom_tts_voices');
   }
@@ -650,7 +650,7 @@ export class ConnectInstanceTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -666,7 +666,7 @@ export class ConnectInstanceTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -787,7 +787,7 @@ export class ConnectInstance extends cdktn.TerraformResource {
   }
 
   // directory_id - computed: true, optional: true, required: false
-  private _directoryId?: string;
+  private _directoryId?: string; 
   public get directoryId() {
     return this.getStringAttribute('directory_id');
   }
@@ -808,7 +808,7 @@ export class ConnectInstance extends cdktn.TerraformResource {
   }
 
   // identity_management_type - computed: false, optional: false, required: true
-  private _identityManagementType?: string;
+  private _identityManagementType?: string; 
   public get identityManagementType() {
     return this.getStringAttribute('identity_management_type');
   }
@@ -821,7 +821,7 @@ export class ConnectInstance extends cdktn.TerraformResource {
   }
 
   // instance_alias - computed: true, optional: true, required: false
-  private _instanceAlias?: string;
+  private _instanceAlias?: string; 
   public get instanceAlias() {
     return this.getStringAttribute('instance_alias');
   }

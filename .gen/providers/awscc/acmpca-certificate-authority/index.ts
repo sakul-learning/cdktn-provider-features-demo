@@ -275,7 +275,7 @@ export class AcmpcaCertificateAuthorityCsrExtensionsKeyUsageOutputReference exte
   }
 
   // crl_sign - computed: true, optional: true, required: false
-  private _crlSign?: boolean | cdktn.IResolvable;
+  private _crlSign?: boolean | cdktn.IResolvable; 
   public get crlSign() {
     return this.getBooleanAttribute('crl_sign');
   }
@@ -291,7 +291,7 @@ export class AcmpcaCertificateAuthorityCsrExtensionsKeyUsageOutputReference exte
   }
 
   // data_encipherment - computed: true, optional: true, required: false
-  private _dataEncipherment?: boolean | cdktn.IResolvable;
+  private _dataEncipherment?: boolean | cdktn.IResolvable; 
   public get dataEncipherment() {
     return this.getBooleanAttribute('data_encipherment');
   }
@@ -307,7 +307,7 @@ export class AcmpcaCertificateAuthorityCsrExtensionsKeyUsageOutputReference exte
   }
 
   // decipher_only - computed: true, optional: true, required: false
-  private _decipherOnly?: boolean | cdktn.IResolvable;
+  private _decipherOnly?: boolean | cdktn.IResolvable; 
   public get decipherOnly() {
     return this.getBooleanAttribute('decipher_only');
   }
@@ -323,7 +323,7 @@ export class AcmpcaCertificateAuthorityCsrExtensionsKeyUsageOutputReference exte
   }
 
   // digital_signature - computed: true, optional: true, required: false
-  private _digitalSignature?: boolean | cdktn.IResolvable;
+  private _digitalSignature?: boolean | cdktn.IResolvable; 
   public get digitalSignature() {
     return this.getBooleanAttribute('digital_signature');
   }
@@ -339,7 +339,7 @@ export class AcmpcaCertificateAuthorityCsrExtensionsKeyUsageOutputReference exte
   }
 
   // encipher_only - computed: true, optional: true, required: false
-  private _encipherOnly?: boolean | cdktn.IResolvable;
+  private _encipherOnly?: boolean | cdktn.IResolvable; 
   public get encipherOnly() {
     return this.getBooleanAttribute('encipher_only');
   }
@@ -355,7 +355,7 @@ export class AcmpcaCertificateAuthorityCsrExtensionsKeyUsageOutputReference exte
   }
 
   // key_agreement - computed: true, optional: true, required: false
-  private _keyAgreement?: boolean | cdktn.IResolvable;
+  private _keyAgreement?: boolean | cdktn.IResolvable; 
   public get keyAgreement() {
     return this.getBooleanAttribute('key_agreement');
   }
@@ -371,7 +371,7 @@ export class AcmpcaCertificateAuthorityCsrExtensionsKeyUsageOutputReference exte
   }
 
   // key_cert_sign - computed: true, optional: true, required: false
-  private _keyCertSign?: boolean | cdktn.IResolvable;
+  private _keyCertSign?: boolean | cdktn.IResolvable; 
   public get keyCertSign() {
     return this.getBooleanAttribute('key_cert_sign');
   }
@@ -387,7 +387,7 @@ export class AcmpcaCertificateAuthorityCsrExtensionsKeyUsageOutputReference exte
   }
 
   // key_encipherment - computed: true, optional: true, required: false
-  private _keyEncipherment?: boolean | cdktn.IResolvable;
+  private _keyEncipherment?: boolean | cdktn.IResolvable; 
   public get keyEncipherment() {
     return this.getBooleanAttribute('key_encipherment');
   }
@@ -403,7 +403,7 @@ export class AcmpcaCertificateAuthorityCsrExtensionsKeyUsageOutputReference exte
   }
 
   // non_repudiation - computed: true, optional: true, required: false
-  private _nonRepudiation?: boolean | cdktn.IResolvable;
+  private _nonRepudiation?: boolean | cdktn.IResolvable; 
   public get nonRepudiation() {
     return this.getBooleanAttribute('non_repudiation');
   }
@@ -518,7 +518,7 @@ export class AcmpcaCertificateAuthorityCsrExtensionsSubjectInformationAccessAcce
   }
 
   // object_identifier - computed: true, optional: true, required: false
-  private _objectIdentifier?: string;
+  private _objectIdentifier?: string; 
   public get objectIdentifier() {
     return this.getStringAttribute('object_identifier');
   }
@@ -534,7 +534,7 @@ export class AcmpcaCertificateAuthorityCsrExtensionsSubjectInformationAccessAcce
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -888,7 +888,7 @@ export class AcmpcaCertificateAuthorityCsrExtensionsSubjectInformationAccessAcce
   }
 
   // common_name - computed: true, optional: true, required: false
-  private _commonName?: string;
+  private _commonName?: string; 
   public get commonName() {
     return this.getStringAttribute('common_name');
   }
@@ -904,7 +904,7 @@ export class AcmpcaCertificateAuthorityCsrExtensionsSubjectInformationAccessAcce
   }
 
   // country - computed: true, optional: true, required: false
-  private _country?: string;
+  private _country?: string; 
   public get country() {
     return this.getStringAttribute('country');
   }
@@ -936,7 +936,7 @@ export class AcmpcaCertificateAuthorityCsrExtensionsSubjectInformationAccessAcce
   }
 
   // distinguished_name_qualifier - computed: true, optional: true, required: false
-  private _distinguishedNameQualifier?: string;
+  private _distinguishedNameQualifier?: string; 
   public get distinguishedNameQualifier() {
     return this.getStringAttribute('distinguished_name_qualifier');
   }
@@ -952,7 +952,7 @@ export class AcmpcaCertificateAuthorityCsrExtensionsSubjectInformationAccessAcce
   }
 
   // generation_qualifier - computed: true, optional: true, required: false
-  private _generationQualifier?: string;
+  private _generationQualifier?: string; 
   public get generationQualifier() {
     return this.getStringAttribute('generation_qualifier');
   }
@@ -968,7 +968,7 @@ export class AcmpcaCertificateAuthorityCsrExtensionsSubjectInformationAccessAcce
   }
 
   // given_name - computed: true, optional: true, required: false
-  private _givenName?: string;
+  private _givenName?: string; 
   public get givenName() {
     return this.getStringAttribute('given_name');
   }
@@ -984,7 +984,7 @@ export class AcmpcaCertificateAuthorityCsrExtensionsSubjectInformationAccessAcce
   }
 
   // initials - computed: true, optional: true, required: false
-  private _initials?: string;
+  private _initials?: string; 
   public get initials() {
     return this.getStringAttribute('initials');
   }
@@ -1000,7 +1000,7 @@ export class AcmpcaCertificateAuthorityCsrExtensionsSubjectInformationAccessAcce
   }
 
   // locality - computed: true, optional: true, required: false
-  private _locality?: string;
+  private _locality?: string; 
   public get locality() {
     return this.getStringAttribute('locality');
   }
@@ -1016,7 +1016,7 @@ export class AcmpcaCertificateAuthorityCsrExtensionsSubjectInformationAccessAcce
   }
 
   // organization - computed: true, optional: true, required: false
-  private _organization?: string;
+  private _organization?: string; 
   public get organization() {
     return this.getStringAttribute('organization');
   }
@@ -1032,7 +1032,7 @@ export class AcmpcaCertificateAuthorityCsrExtensionsSubjectInformationAccessAcce
   }
 
   // organizational_unit - computed: true, optional: true, required: false
-  private _organizationalUnit?: string;
+  private _organizationalUnit?: string; 
   public get organizationalUnit() {
     return this.getStringAttribute('organizational_unit');
   }
@@ -1048,7 +1048,7 @@ export class AcmpcaCertificateAuthorityCsrExtensionsSubjectInformationAccessAcce
   }
 
   // pseudonym - computed: true, optional: true, required: false
-  private _pseudonym?: string;
+  private _pseudonym?: string; 
   public get pseudonym() {
     return this.getStringAttribute('pseudonym');
   }
@@ -1064,7 +1064,7 @@ export class AcmpcaCertificateAuthorityCsrExtensionsSubjectInformationAccessAcce
   }
 
   // serial_number - computed: true, optional: true, required: false
-  private _serialNumber?: string;
+  private _serialNumber?: string; 
   public get serialNumber() {
     return this.getStringAttribute('serial_number');
   }
@@ -1080,7 +1080,7 @@ export class AcmpcaCertificateAuthorityCsrExtensionsSubjectInformationAccessAcce
   }
 
   // state - computed: true, optional: true, required: false
-  private _state?: string;
+  private _state?: string; 
   public get state() {
     return this.getStringAttribute('state');
   }
@@ -1096,7 +1096,7 @@ export class AcmpcaCertificateAuthorityCsrExtensionsSubjectInformationAccessAcce
   }
 
   // surname - computed: true, optional: true, required: false
-  private _surname?: string;
+  private _surname?: string; 
   public get surname() {
     return this.getStringAttribute('surname');
   }
@@ -1112,7 +1112,7 @@ export class AcmpcaCertificateAuthorityCsrExtensionsSubjectInformationAccessAcce
   }
 
   // title - computed: true, optional: true, required: false
-  private _title?: string;
+  private _title?: string; 
   public get title() {
     return this.getStringAttribute('title');
   }
@@ -1223,7 +1223,7 @@ export class AcmpcaCertificateAuthorityCsrExtensionsSubjectInformationAccessAcce
   }
 
   // name_assigner - computed: true, optional: true, required: false
-  private _nameAssigner?: string;
+  private _nameAssigner?: string; 
   public get nameAssigner() {
     return this.getStringAttribute('name_assigner');
   }
@@ -1239,7 +1239,7 @@ export class AcmpcaCertificateAuthorityCsrExtensionsSubjectInformationAccessAcce
   }
 
   // party_name - computed: true, optional: true, required: false
-  private _partyName?: string;
+  private _partyName?: string; 
   public get partyName() {
     return this.getStringAttribute('party_name');
   }
@@ -1352,7 +1352,7 @@ export class AcmpcaCertificateAuthorityCsrExtensionsSubjectInformationAccessAcce
   }
 
   // type_id - computed: true, optional: true, required: false
-  private _typeId?: string;
+  private _typeId?: string; 
   public get typeId() {
     return this.getStringAttribute('type_id');
   }
@@ -1368,7 +1368,7 @@ export class AcmpcaCertificateAuthorityCsrExtensionsSubjectInformationAccessAcce
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1613,7 +1613,7 @@ export class AcmpcaCertificateAuthorityCsrExtensionsSubjectInformationAccessAcce
   }
 
   // dns_name - computed: true, optional: true, required: false
-  private _dnsName?: string;
+  private _dnsName?: string; 
   public get dnsName() {
     return this.getStringAttribute('dns_name');
   }
@@ -1645,7 +1645,7 @@ export class AcmpcaCertificateAuthorityCsrExtensionsSubjectInformationAccessAcce
   }
 
   // ip_address - computed: true, optional: true, required: false
-  private _ipAddress?: string;
+  private _ipAddress?: string; 
   public get ipAddress() {
     return this.getStringAttribute('ip_address');
   }
@@ -1677,7 +1677,7 @@ export class AcmpcaCertificateAuthorityCsrExtensionsSubjectInformationAccessAcce
   }
 
   // registered_id - computed: true, optional: true, required: false
-  private _registeredId?: string;
+  private _registeredId?: string; 
   public get registeredId() {
     return this.getStringAttribute('registered_id');
   }
@@ -1693,7 +1693,7 @@ export class AcmpcaCertificateAuthorityCsrExtensionsSubjectInformationAccessAcce
   }
 
   // rfc_822_name - computed: true, optional: true, required: false
-  private _rfc822Name?: string;
+  private _rfc822Name?: string; 
   public get rfc822Name() {
     return this.getStringAttribute('rfc_822_name');
   }
@@ -1709,7 +1709,7 @@ export class AcmpcaCertificateAuthorityCsrExtensionsSubjectInformationAccessAcce
   }
 
   // uniform_resource_identifier - computed: true, optional: true, required: false
-  private _uniformResourceIdentifier?: string;
+  private _uniformResourceIdentifier?: string; 
   public get uniformResourceIdentifier() {
     return this.getStringAttribute('uniform_resource_identifier');
   }
@@ -1824,7 +1824,7 @@ export class AcmpcaCertificateAuthorityCsrExtensionsSubjectInformationAccessAcce
   }
 
   // access_method_type - computed: true, optional: true, required: false
-  private _accessMethodType?: string;
+  private _accessMethodType?: string; 
   public get accessMethodType() {
     return this.getStringAttribute('access_method_type');
   }
@@ -1840,7 +1840,7 @@ export class AcmpcaCertificateAuthorityCsrExtensionsSubjectInformationAccessAcce
   }
 
   // custom_object_identifier - computed: true, optional: true, required: false
-  private _customObjectIdentifier?: string;
+  private _customObjectIdentifier?: string; 
   public get customObjectIdentifier() {
     return this.getStringAttribute('custom_object_identifier');
   }
@@ -2218,7 +2218,7 @@ export class AcmpcaCertificateAuthorityRevocationConfigurationCrlConfigurationCr
   }
 
   // omit_extension - computed: true, optional: true, required: false
-  private _omitExtension?: boolean | cdktn.IResolvable;
+  private _omitExtension?: boolean | cdktn.IResolvable; 
   public get omitExtension() {
     return this.getBooleanAttribute('omit_extension');
   }
@@ -2449,7 +2449,7 @@ export class AcmpcaCertificateAuthorityRevocationConfigurationCrlConfigurationOu
   }
 
   // crl_type - computed: true, optional: true, required: false
-  private _crlType?: string;
+  private _crlType?: string; 
   public get crlType() {
     return this.getStringAttribute('crl_type');
   }
@@ -2465,7 +2465,7 @@ export class AcmpcaCertificateAuthorityRevocationConfigurationCrlConfigurationOu
   }
 
   // custom_cname - computed: true, optional: true, required: false
-  private _customCname?: string;
+  private _customCname?: string; 
   public get customCname() {
     return this.getStringAttribute('custom_cname');
   }
@@ -2481,7 +2481,7 @@ export class AcmpcaCertificateAuthorityRevocationConfigurationCrlConfigurationOu
   }
 
   // custom_path - computed: true, optional: true, required: false
-  private _customPath?: string;
+  private _customPath?: string; 
   public get customPath() {
     return this.getStringAttribute('custom_path');
   }
@@ -2497,7 +2497,7 @@ export class AcmpcaCertificateAuthorityRevocationConfigurationCrlConfigurationOu
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -2513,7 +2513,7 @@ export class AcmpcaCertificateAuthorityRevocationConfigurationCrlConfigurationOu
   }
 
   // expiration_in_days - computed: true, optional: true, required: false
-  private _expirationInDays?: number;
+  private _expirationInDays?: number; 
   public get expirationInDays() {
     return this.getNumberAttribute('expiration_in_days');
   }
@@ -2529,7 +2529,7 @@ export class AcmpcaCertificateAuthorityRevocationConfigurationCrlConfigurationOu
   }
 
   // s3_bucket_name - computed: true, optional: true, required: false
-  private _s3BucketName?: string;
+  private _s3BucketName?: string; 
   public get s3BucketName() {
     return this.getStringAttribute('s3_bucket_name');
   }
@@ -2545,7 +2545,7 @@ export class AcmpcaCertificateAuthorityRevocationConfigurationCrlConfigurationOu
   }
 
   // s3_object_acl - computed: true, optional: true, required: false
-  private _s3ObjectAcl?: string;
+  private _s3ObjectAcl?: string; 
   public get s3ObjectAcl() {
     return this.getStringAttribute('s3_object_acl');
   }
@@ -2656,7 +2656,7 @@ export class AcmpcaCertificateAuthorityRevocationConfigurationOcspConfigurationO
   }
 
   // enabled - computed: true, optional: true, required: false
-  private _enabled?: boolean | cdktn.IResolvable;
+  private _enabled?: boolean | cdktn.IResolvable; 
   public get enabled() {
     return this.getBooleanAttribute('enabled');
   }
@@ -2672,7 +2672,7 @@ export class AcmpcaCertificateAuthorityRevocationConfigurationOcspConfigurationO
   }
 
   // ocsp_custom_cname - computed: true, optional: true, required: false
-  private _ocspCustomCname?: string;
+  private _ocspCustomCname?: string; 
   public get ocspCustomCname() {
     return this.getStringAttribute('ocsp_custom_cname');
   }
@@ -2918,7 +2918,7 @@ export class AcmpcaCertificateAuthoritySubjectCustomAttributesOutputReference ex
   }
 
   // object_identifier - computed: true, optional: true, required: false
-  private _objectIdentifier?: string;
+  private _objectIdentifier?: string; 
   public get objectIdentifier() {
     return this.getStringAttribute('object_identifier');
   }
@@ -2934,7 +2934,7 @@ export class AcmpcaCertificateAuthoritySubjectCustomAttributesOutputReference ex
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -3288,7 +3288,7 @@ export class AcmpcaCertificateAuthoritySubjectOutputReference extends cdktn.Comp
   }
 
   // common_name - computed: true, optional: true, required: false
-  private _commonName?: string;
+  private _commonName?: string; 
   public get commonName() {
     return this.getStringAttribute('common_name');
   }
@@ -3304,7 +3304,7 @@ export class AcmpcaCertificateAuthoritySubjectOutputReference extends cdktn.Comp
   }
 
   // country - computed: true, optional: true, required: false
-  private _country?: string;
+  private _country?: string; 
   public get country() {
     return this.getStringAttribute('country');
   }
@@ -3336,7 +3336,7 @@ export class AcmpcaCertificateAuthoritySubjectOutputReference extends cdktn.Comp
   }
 
   // distinguished_name_qualifier - computed: true, optional: true, required: false
-  private _distinguishedNameQualifier?: string;
+  private _distinguishedNameQualifier?: string; 
   public get distinguishedNameQualifier() {
     return this.getStringAttribute('distinguished_name_qualifier');
   }
@@ -3352,7 +3352,7 @@ export class AcmpcaCertificateAuthoritySubjectOutputReference extends cdktn.Comp
   }
 
   // generation_qualifier - computed: true, optional: true, required: false
-  private _generationQualifier?: string;
+  private _generationQualifier?: string; 
   public get generationQualifier() {
     return this.getStringAttribute('generation_qualifier');
   }
@@ -3368,7 +3368,7 @@ export class AcmpcaCertificateAuthoritySubjectOutputReference extends cdktn.Comp
   }
 
   // given_name - computed: true, optional: true, required: false
-  private _givenName?: string;
+  private _givenName?: string; 
   public get givenName() {
     return this.getStringAttribute('given_name');
   }
@@ -3384,7 +3384,7 @@ export class AcmpcaCertificateAuthoritySubjectOutputReference extends cdktn.Comp
   }
 
   // initials - computed: true, optional: true, required: false
-  private _initials?: string;
+  private _initials?: string; 
   public get initials() {
     return this.getStringAttribute('initials');
   }
@@ -3400,7 +3400,7 @@ export class AcmpcaCertificateAuthoritySubjectOutputReference extends cdktn.Comp
   }
 
   // locality - computed: true, optional: true, required: false
-  private _locality?: string;
+  private _locality?: string; 
   public get locality() {
     return this.getStringAttribute('locality');
   }
@@ -3416,7 +3416,7 @@ export class AcmpcaCertificateAuthoritySubjectOutputReference extends cdktn.Comp
   }
 
   // organization - computed: true, optional: true, required: false
-  private _organization?: string;
+  private _organization?: string; 
   public get organization() {
     return this.getStringAttribute('organization');
   }
@@ -3432,7 +3432,7 @@ export class AcmpcaCertificateAuthoritySubjectOutputReference extends cdktn.Comp
   }
 
   // organizational_unit - computed: true, optional: true, required: false
-  private _organizationalUnit?: string;
+  private _organizationalUnit?: string; 
   public get organizationalUnit() {
     return this.getStringAttribute('organizational_unit');
   }
@@ -3448,7 +3448,7 @@ export class AcmpcaCertificateAuthoritySubjectOutputReference extends cdktn.Comp
   }
 
   // pseudonym - computed: true, optional: true, required: false
-  private _pseudonym?: string;
+  private _pseudonym?: string; 
   public get pseudonym() {
     return this.getStringAttribute('pseudonym');
   }
@@ -3464,7 +3464,7 @@ export class AcmpcaCertificateAuthoritySubjectOutputReference extends cdktn.Comp
   }
 
   // serial_number - computed: true, optional: true, required: false
-  private _serialNumber?: string;
+  private _serialNumber?: string; 
   public get serialNumber() {
     return this.getStringAttribute('serial_number');
   }
@@ -3480,7 +3480,7 @@ export class AcmpcaCertificateAuthoritySubjectOutputReference extends cdktn.Comp
   }
 
   // state - computed: true, optional: true, required: false
-  private _state?: string;
+  private _state?: string; 
   public get state() {
     return this.getStringAttribute('state');
   }
@@ -3496,7 +3496,7 @@ export class AcmpcaCertificateAuthoritySubjectOutputReference extends cdktn.Comp
   }
 
   // surname - computed: true, optional: true, required: false
-  private _surname?: string;
+  private _surname?: string; 
   public get surname() {
     return this.getStringAttribute('surname');
   }
@@ -3512,7 +3512,7 @@ export class AcmpcaCertificateAuthoritySubjectOutputReference extends cdktn.Comp
   }
 
   // title - computed: true, optional: true, required: false
-  private _title?: string;
+  private _title?: string; 
   public get title() {
     return this.getStringAttribute('title');
   }
@@ -3625,7 +3625,7 @@ export class AcmpcaCertificateAuthorityTagsOutputReference extends cdktn.Complex
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -3641,7 +3641,7 @@ export class AcmpcaCertificateAuthorityTagsOutputReference extends cdktn.Complex
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -3774,7 +3774,7 @@ export class AcmpcaCertificateAuthority extends cdktn.TerraformResource {
   }
 
   // key_algorithm - computed: false, optional: false, required: true
-  private _keyAlgorithm?: string;
+  private _keyAlgorithm?: string; 
   public get keyAlgorithm() {
     return this.getStringAttribute('key_algorithm');
   }
@@ -3787,7 +3787,7 @@ export class AcmpcaCertificateAuthority extends cdktn.TerraformResource {
   }
 
   // key_storage_security_standard - computed: true, optional: true, required: false
-  private _keyStorageSecurityStandard?: string;
+  private _keyStorageSecurityStandard?: string; 
   public get keyStorageSecurityStandard() {
     return this.getStringAttribute('key_storage_security_standard');
   }
@@ -3819,7 +3819,7 @@ export class AcmpcaCertificateAuthority extends cdktn.TerraformResource {
   }
 
   // signing_algorithm - computed: false, optional: false, required: true
-  private _signingAlgorithm?: string;
+  private _signingAlgorithm?: string; 
   public get signingAlgorithm() {
     return this.getStringAttribute('signing_algorithm');
   }
@@ -3861,7 +3861,7 @@ export class AcmpcaCertificateAuthority extends cdktn.TerraformResource {
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -3874,7 +3874,7 @@ export class AcmpcaCertificateAuthority extends cdktn.TerraformResource {
   }
 
   // usage_mode - computed: true, optional: true, required: false
-  private _usageMode?: string;
+  private _usageMode?: string; 
   public get usageMode() {
     return this.getStringAttribute('usage_mode');
   }

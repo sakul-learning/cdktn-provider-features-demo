@@ -116,7 +116,7 @@ export class S3AccessGrantsInstanceTagsOutputReference extends cdktn.ComplexObje
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -132,7 +132,7 @@ export class S3AccessGrantsInstanceTagsOutputReference extends cdktn.ComplexObje
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -242,7 +242,7 @@ export class S3AccessGrantsInstance extends cdktn.TerraformResource {
   }
 
   // identity_center_arn - computed: true, optional: true, required: false
-  private _identityCenterArn?: string;
+  private _identityCenterArn?: string; 
   public get identityCenterArn() {
     return this.getStringAttribute('identity_center_arn');
   }

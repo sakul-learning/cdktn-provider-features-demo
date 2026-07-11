@@ -157,7 +157,7 @@ export class ElastictranscoderPipelineContentConfigOutputReference extends cdktn
   }
 
   // bucket - computed: true, optional: true, required: false
-  private _bucket?: string;
+  private _bucket?: string; 
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -173,7 +173,7 @@ export class ElastictranscoderPipelineContentConfigOutputReference extends cdktn
   }
 
   // storage_class - computed: false, optional: true, required: false
-  private _storageClass?: string;
+  private _storageClass?: string; 
   public get storageClass() {
     return this.getStringAttribute('storage_class');
   }
@@ -303,7 +303,7 @@ export class ElastictranscoderPipelineContentConfigPermissionsOutputReference ex
   }
 
   // access - computed: false, optional: true, required: false
-  private _access?: string[];
+  private _access?: string[]; 
   public get access() {
     return this.getListAttribute('access');
   }
@@ -319,7 +319,7 @@ export class ElastictranscoderPipelineContentConfigPermissionsOutputReference ex
   }
 
   // grantee - computed: false, optional: true, required: false
-  private _grantee?: string;
+  private _grantee?: string; 
   public get grantee() {
     return this.getStringAttribute('grantee');
   }
@@ -335,7 +335,7 @@ export class ElastictranscoderPipelineContentConfigPermissionsOutputReference ex
   }
 
   // grantee_type - computed: false, optional: true, required: false
-  private _granteeType?: string;
+  private _granteeType?: string; 
   public get granteeType() {
     return this.getStringAttribute('grantee_type');
   }
@@ -490,7 +490,7 @@ export class ElastictranscoderPipelineNotificationsOutputReference extends cdktn
   }
 
   // completed - computed: false, optional: true, required: false
-  private _completed?: string;
+  private _completed?: string; 
   public get completed() {
     return this.getStringAttribute('completed');
   }
@@ -506,7 +506,7 @@ export class ElastictranscoderPipelineNotificationsOutputReference extends cdktn
   }
 
   // error - computed: false, optional: true, required: false
-  private _error?: string;
+  private _error?: string; 
   public get error() {
     return this.getStringAttribute('error');
   }
@@ -522,7 +522,7 @@ export class ElastictranscoderPipelineNotificationsOutputReference extends cdktn
   }
 
   // progressing - computed: false, optional: true, required: false
-  private _progressing?: string;
+  private _progressing?: string; 
   public get progressing() {
     return this.getStringAttribute('progressing');
   }
@@ -538,7 +538,7 @@ export class ElastictranscoderPipelineNotificationsOutputReference extends cdktn
   }
 
   // warning - computed: false, optional: true, required: false
-  private _warning?: string;
+  private _warning?: string; 
   public get warning() {
     return this.getStringAttribute('warning');
   }
@@ -639,7 +639,7 @@ export class ElastictranscoderPipelineThumbnailConfigOutputReference extends cdk
   }
 
   // bucket - computed: true, optional: true, required: false
-  private _bucket?: string;
+  private _bucket?: string; 
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -655,7 +655,7 @@ export class ElastictranscoderPipelineThumbnailConfigOutputReference extends cdk
   }
 
   // storage_class - computed: false, optional: true, required: false
-  private _storageClass?: string;
+  private _storageClass?: string; 
   public get storageClass() {
     return this.getStringAttribute('storage_class');
   }
@@ -785,7 +785,7 @@ export class ElastictranscoderPipelineThumbnailConfigPermissionsOutputReference 
   }
 
   // access - computed: false, optional: true, required: false
-  private _access?: string[];
+  private _access?: string[]; 
   public get access() {
     return this.getListAttribute('access');
   }
@@ -801,7 +801,7 @@ export class ElastictranscoderPipelineThumbnailConfigPermissionsOutputReference 
   }
 
   // grantee - computed: false, optional: true, required: false
-  private _grantee?: string;
+  private _grantee?: string; 
   public get grantee() {
     return this.getStringAttribute('grantee');
   }
@@ -817,7 +817,7 @@ export class ElastictranscoderPipelineThumbnailConfigPermissionsOutputReference 
   }
 
   // grantee_type - computed: false, optional: true, required: false
-  private _granteeType?: string;
+  private _granteeType?: string; 
   public get granteeType() {
     return this.getStringAttribute('grantee_type');
   }
@@ -927,7 +927,7 @@ export class ElastictranscoderPipeline extends cdktn.TerraformResource {
   }
 
   // aws_kms_key_arn - computed: false, optional: true, required: false
-  private _awsKmsKeyArn?: string;
+  private _awsKmsKeyArn?: string; 
   public get awsKmsKeyArn() {
     return this.getStringAttribute('aws_kms_key_arn');
   }
@@ -943,7 +943,7 @@ export class ElastictranscoderPipeline extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -959,7 +959,7 @@ export class ElastictranscoderPipeline extends cdktn.TerraformResource {
   }
 
   // input_bucket - computed: false, optional: false, required: true
-  private _inputBucket?: string;
+  private _inputBucket?: string; 
   public get inputBucket() {
     return this.getStringAttribute('input_bucket');
   }
@@ -972,7 +972,7 @@ export class ElastictranscoderPipeline extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -988,7 +988,7 @@ export class ElastictranscoderPipeline extends cdktn.TerraformResource {
   }
 
   // output_bucket - computed: true, optional: true, required: false
-  private _outputBucket?: string;
+  private _outputBucket?: string; 
   public get outputBucket() {
     return this.getStringAttribute('output_bucket');
   }
@@ -1004,7 +1004,7 @@ export class ElastictranscoderPipeline extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1020,7 +1020,7 @@ export class ElastictranscoderPipeline extends cdktn.TerraformResource {
   }
 
   // role - computed: false, optional: false, required: true
-  private _role?: string;
+  private _role?: string; 
   public get role() {
     return this.getStringAttribute('role');
   }

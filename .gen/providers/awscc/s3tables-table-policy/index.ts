@@ -90,7 +90,7 @@ export class S3TablesTablePolicy extends cdktn.TerraformResource {
   }
 
   // resource_policy - computed: false, optional: false, required: true
-  private _resourcePolicy?: string;
+  private _resourcePolicy?: string; 
   public get resourcePolicy() {
     return this.getStringAttribute('resource_policy');
   }
@@ -103,7 +103,7 @@ export class S3TablesTablePolicy extends cdktn.TerraformResource {
   }
 
   // table_arn - computed: false, optional: false, required: true
-  private _tableArn?: string;
+  private _tableArn?: string; 
   public get tableArn() {
     return this.getStringAttribute('table_arn');
   }

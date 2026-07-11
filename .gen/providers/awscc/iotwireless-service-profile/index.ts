@@ -139,7 +139,7 @@ export class IotwirelessServiceProfileLoRaWanOutputReference extends cdktn.Compl
   }
 
   // add_gw_metadata - computed: true, optional: true, required: false
-  private _addGwMetadata?: boolean | cdktn.IResolvable;
+  private _addGwMetadata?: boolean | cdktn.IResolvable; 
   public get addGwMetadata() {
     return this.getBooleanAttribute('add_gw_metadata');
   }
@@ -205,7 +205,7 @@ export class IotwirelessServiceProfileLoRaWanOutputReference extends cdktn.Compl
   }
 
   // pr_allowed - computed: true, optional: true, required: false
-  private _prAllowed?: boolean | cdktn.IResolvable;
+  private _prAllowed?: boolean | cdktn.IResolvable; 
   public get prAllowed() {
     return this.getBooleanAttribute('pr_allowed');
   }
@@ -221,7 +221,7 @@ export class IotwirelessServiceProfileLoRaWanOutputReference extends cdktn.Compl
   }
 
   // ra_allowed - computed: true, optional: true, required: false
-  private _raAllowed?: boolean | cdktn.IResolvable;
+  private _raAllowed?: boolean | cdktn.IResolvable; 
   public get raAllowed() {
     return this.getBooleanAttribute('ra_allowed');
   }
@@ -364,7 +364,7 @@ export class IotwirelessServiceProfileTagsOutputReference extends cdktn.ComplexO
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -380,7 +380,7 @@ export class IotwirelessServiceProfileTagsOutputReference extends cdktn.ComplexO
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -502,7 +502,7 @@ export class IotwirelessServiceProfile extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }

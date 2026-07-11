@@ -151,7 +151,7 @@ export class CertificatemanagerAcmeDomainValidationPrevalidationOptionsDnsPreval
   }
 
   // exact_domain - computed: true, optional: true, required: false
-  private _exactDomain?: string;
+  private _exactDomain?: string; 
   public get exactDomain() {
     return this.getStringAttribute('exact_domain');
   }
@@ -167,7 +167,7 @@ export class CertificatemanagerAcmeDomainValidationPrevalidationOptionsDnsPreval
   }
 
   // subdomains - computed: true, optional: true, required: false
-  private _subdomains?: string;
+  private _subdomains?: string; 
   public get subdomains() {
     return this.getStringAttribute('subdomains');
   }
@@ -183,7 +183,7 @@ export class CertificatemanagerAcmeDomainValidationPrevalidationOptionsDnsPreval
   }
 
   // wildcards - computed: true, optional: true, required: false
-  private _wildcards?: string;
+  private _wildcards?: string; 
   public get wildcards() {
     return this.getStringAttribute('wildcards');
   }
@@ -314,7 +314,7 @@ export class CertificatemanagerAcmeDomainValidationPrevalidationOptionsDnsPreval
   }
 
   // hosted_zone_id - computed: true, optional: true, required: false
-  private _hostedZoneId?: string;
+  private _hostedZoneId?: string; 
   public get hostedZoneId() {
     return this.getStringAttribute('hosted_zone_id');
   }
@@ -524,7 +524,7 @@ export class CertificatemanagerAcmeDomainValidationTagsOutputReference extends c
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -540,7 +540,7 @@ export class CertificatemanagerAcmeDomainValidationTagsOutputReference extends c
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -637,7 +637,7 @@ export class CertificatemanagerAcmeDomainValidation extends cdktn.TerraformResou
   // ==========
 
   // acme_endpoint_arn - computed: false, optional: false, required: true
-  private _acmeEndpointArn?: string;
+  private _acmeEndpointArn?: string; 
   public get acmeEndpointArn() {
     return this.getStringAttribute('acme_endpoint_arn');
   }
@@ -655,7 +655,7 @@ export class CertificatemanagerAcmeDomainValidation extends cdktn.TerraformResou
   }
 
   // domain_name - computed: false, optional: false, required: true
-  private _domainName?: string;
+  private _domainName?: string; 
   public get domainName() {
     return this.getStringAttribute('domain_name');
   }

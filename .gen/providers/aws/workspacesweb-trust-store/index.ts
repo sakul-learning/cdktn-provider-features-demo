@@ -105,7 +105,7 @@ export class WorkspaceswebTrustStoreCertificateOutputReference extends cdktn.Com
   }
 
   // body - computed: false, optional: false, required: true
-  private _body?: string;
+  private _body?: string; 
   public get body() {
     return this.getStringAttribute('body');
   }
@@ -228,7 +228,7 @@ export class WorkspaceswebTrustStore extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -244,7 +244,7 @@ export class WorkspaceswebTrustStore extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

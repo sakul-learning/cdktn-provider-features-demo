@@ -1,28 +1,28 @@
 // generated from terraform resource schema
 
-import { LexBotBotFileS3Location,
-lexBotBotFileS3LocationToTerraform,
-lexBotBotFileS3LocationToHclTerraform,
-LexBotBotFileS3LocationOutputReference,
-LexBotBotLocales,
-lexBotBotLocalesToTerraform,
-lexBotBotLocalesToHclTerraform,
-LexBotBotLocalesList,
-LexBotBotTags,
-lexBotBotTagsToTerraform,
-lexBotBotTagsToHclTerraform,
-LexBotBotTagsList,
-LexBotDataPrivacy,
-lexBotDataPrivacyToTerraform,
-lexBotDataPrivacyToHclTerraform,
-LexBotDataPrivacyOutputReference,
-LexBotTestBotAliasSettings,
-lexBotTestBotAliasSettingsToTerraform,
-lexBotTestBotAliasSettingsToHclTerraform,
-LexBotTestBotAliasSettingsOutputReference,
-LexBotTestBotAliasTags,
-lexBotTestBotAliasTagsToTerraform,
-lexBotTestBotAliasTagsToHclTerraform,
+import { LexBotBotFileS3Location, 
+lexBotBotFileS3LocationToTerraform, 
+lexBotBotFileS3LocationToHclTerraform, 
+LexBotBotFileS3LocationOutputReference, 
+LexBotBotLocales, 
+lexBotBotLocalesToTerraform, 
+lexBotBotLocalesToHclTerraform, 
+LexBotBotLocalesList, 
+LexBotBotTags, 
+lexBotBotTagsToTerraform, 
+lexBotBotTagsToHclTerraform, 
+LexBotBotTagsList, 
+LexBotDataPrivacy, 
+lexBotDataPrivacyToTerraform, 
+lexBotDataPrivacyToHclTerraform, 
+LexBotDataPrivacyOutputReference, 
+LexBotTestBotAliasSettings, 
+lexBotTestBotAliasSettingsToTerraform, 
+lexBotTestBotAliasSettingsToHclTerraform, 
+LexBotTestBotAliasSettingsOutputReference, 
+LexBotTestBotAliasTags, 
+lexBotTestBotAliasTagsToTerraform, 
+lexBotTestBotAliasTagsToHclTerraform, 
 LexBotTestBotAliasTagsList} from './index-structs/index.js';
 export * from './index-structs/index.js';
 import { Construct } from 'constructs';
@@ -169,7 +169,7 @@ export class LexBot extends cdktn.TerraformResource {
   }
 
   // auto_build_bot_locales - computed: true, optional: true, required: false
-  private _autoBuildBotLocales?: boolean | cdktn.IResolvable;
+  private _autoBuildBotLocales?: boolean | cdktn.IResolvable; 
   public get autoBuildBotLocales() {
     return this.getBooleanAttribute('auto_build_bot_locales');
   }
@@ -251,7 +251,7 @@ export class LexBot extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -272,7 +272,7 @@ export class LexBot extends cdktn.TerraformResource {
   }
 
   // idle_session_ttl_in_seconds - computed: false, optional: false, required: true
-  private _idleSessionTtlInSeconds?: number;
+  private _idleSessionTtlInSeconds?: number; 
   public get idleSessionTtlInSeconds() {
     return this.getNumberAttribute('idle_session_ttl_in_seconds');
   }
@@ -285,7 +285,7 @@ export class LexBot extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -298,7 +298,7 @@ export class LexBot extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }

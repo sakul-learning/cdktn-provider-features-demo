@@ -665,7 +665,7 @@ export class DataAwsCloudfrontCachePolicy extends cdktn.TerraformDataSource {
   }
 
   // id - computed: false, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -691,7 +691,7 @@ export class DataAwsCloudfrontCachePolicy extends cdktn.TerraformDataSource {
   }
 
   // name - computed: false, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }

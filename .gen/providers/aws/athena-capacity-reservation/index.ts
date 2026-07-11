@@ -151,7 +151,7 @@ export class AthenaCapacityReservationTimeoutsOutputReference extends cdktn.Comp
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -167,7 +167,7 @@ export class AthenaCapacityReservationTimeoutsOutputReference extends cdktn.Comp
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -183,7 +183,7 @@ export class AthenaCapacityReservationTimeoutsOutputReference extends cdktn.Comp
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -271,7 +271,7 @@ export class AthenaCapacityReservation extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -284,7 +284,7 @@ export class AthenaCapacityReservation extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -305,7 +305,7 @@ export class AthenaCapacityReservation extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -327,7 +327,7 @@ export class AthenaCapacityReservation extends cdktn.TerraformResource {
   }
 
   // target_dpus - computed: false, optional: false, required: true
-  private _targetDpus?: number;
+  private _targetDpus?: number; 
   public get targetDpus() {
     return this.getNumberAttribute('target_dpus');
   }

@@ -118,7 +118,7 @@ export class PanoramaPackageVersion extends cdktn.TerraformResource {
   }
 
   // mark_latest - computed: true, optional: true, required: false
-  private _markLatest?: boolean | cdktn.IResolvable;
+  private _markLatest?: boolean | cdktn.IResolvable; 
   public get markLatest() {
     return this.getBooleanAttribute('mark_latest');
   }
@@ -134,7 +134,7 @@ export class PanoramaPackageVersion extends cdktn.TerraformResource {
   }
 
   // owner_account - computed: true, optional: true, required: false
-  private _ownerAccount?: string;
+  private _ownerAccount?: string; 
   public get ownerAccount() {
     return this.getStringAttribute('owner_account');
   }
@@ -155,7 +155,7 @@ export class PanoramaPackageVersion extends cdktn.TerraformResource {
   }
 
   // package_id - computed: false, optional: false, required: true
-  private _packageId?: string;
+  private _packageId?: string; 
   public get packageId() {
     return this.getStringAttribute('package_id');
   }
@@ -173,7 +173,7 @@ export class PanoramaPackageVersion extends cdktn.TerraformResource {
   }
 
   // package_version - computed: false, optional: false, required: true
-  private _packageVersion?: string;
+  private _packageVersion?: string; 
   public get packageVersion() {
     return this.getStringAttribute('package_version');
   }
@@ -186,7 +186,7 @@ export class PanoramaPackageVersion extends cdktn.TerraformResource {
   }
 
   // patch_version - computed: false, optional: false, required: true
-  private _patchVersion?: string;
+  private _patchVersion?: string; 
   public get patchVersion() {
     return this.getStringAttribute('patch_version');
   }
@@ -214,7 +214,7 @@ export class PanoramaPackageVersion extends cdktn.TerraformResource {
   }
 
   // updated_latest_patch_version - computed: true, optional: true, required: false
-  private _updatedLatestPatchVersion?: string;
+  private _updatedLatestPatchVersion?: string; 
   public get updatedLatestPatchVersion() {
     return this.getStringAttribute('updated_latest_patch_version');
   }

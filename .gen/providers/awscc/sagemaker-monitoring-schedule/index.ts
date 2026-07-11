@@ -264,7 +264,7 @@ export class SagemakerMonitoringScheduleLastMonitoringExecutionSummaryOutputRefe
   }
 
   // creation_time - computed: true, optional: true, required: false
-  private _creationTime?: string;
+  private _creationTime?: string; 
   public get creationTime() {
     return this.getStringAttribute('creation_time');
   }
@@ -280,7 +280,7 @@ export class SagemakerMonitoringScheduleLastMonitoringExecutionSummaryOutputRefe
   }
 
   // endpoint_name - computed: true, optional: true, required: false
-  private _endpointName?: string;
+  private _endpointName?: string; 
   public get endpointName() {
     return this.getStringAttribute('endpoint_name');
   }
@@ -296,7 +296,7 @@ export class SagemakerMonitoringScheduleLastMonitoringExecutionSummaryOutputRefe
   }
 
   // failure_reason - computed: true, optional: true, required: false
-  private _failureReason?: string;
+  private _failureReason?: string; 
   public get failureReason() {
     return this.getStringAttribute('failure_reason');
   }
@@ -312,7 +312,7 @@ export class SagemakerMonitoringScheduleLastMonitoringExecutionSummaryOutputRefe
   }
 
   // last_modified_time - computed: true, optional: true, required: false
-  private _lastModifiedTime?: string;
+  private _lastModifiedTime?: string; 
   public get lastModifiedTime() {
     return this.getStringAttribute('last_modified_time');
   }
@@ -328,7 +328,7 @@ export class SagemakerMonitoringScheduleLastMonitoringExecutionSummaryOutputRefe
   }
 
   // monitoring_execution_status - computed: true, optional: true, required: false
-  private _monitoringExecutionStatus?: string;
+  private _monitoringExecutionStatus?: string; 
   public get monitoringExecutionStatus() {
     return this.getStringAttribute('monitoring_execution_status');
   }
@@ -344,7 +344,7 @@ export class SagemakerMonitoringScheduleLastMonitoringExecutionSummaryOutputRefe
   }
 
   // monitoring_schedule_name - computed: true, optional: true, required: false
-  private _monitoringScheduleName?: string;
+  private _monitoringScheduleName?: string; 
   public get monitoringScheduleName() {
     return this.getStringAttribute('monitoring_schedule_name');
   }
@@ -360,7 +360,7 @@ export class SagemakerMonitoringScheduleLastMonitoringExecutionSummaryOutputRefe
   }
 
   // processing_job_arn - computed: true, optional: true, required: false
-  private _processingJobArn?: string;
+  private _processingJobArn?: string; 
   public get processingJobArn() {
     return this.getStringAttribute('processing_job_arn');
   }
@@ -376,7 +376,7 @@ export class SagemakerMonitoringScheduleLastMonitoringExecutionSummaryOutputRefe
   }
 
   // scheduled_time - computed: true, optional: true, required: false
-  private _scheduledTime?: string;
+  private _scheduledTime?: string; 
   public get scheduledTime() {
     return this.getStringAttribute('scheduled_time');
   }
@@ -472,7 +472,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // s3_uri - computed: true, optional: true, required: false
-  private _s3Uri?: string;
+  private _s3Uri?: string; 
   public get s3Uri() {
     return this.getStringAttribute('s3_uri');
   }
@@ -568,7 +568,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // s3_uri - computed: true, optional: true, required: false
-  private _s3Uri?: string;
+  private _s3Uri?: string; 
   public get s3Uri() {
     return this.getStringAttribute('s3_uri');
   }
@@ -871,7 +871,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // container_arguments - computed: true, optional: true, required: false
-  private _containerArguments?: string[];
+  private _containerArguments?: string[]; 
   public get containerArguments() {
     return this.getListAttribute('container_arguments');
   }
@@ -887,7 +887,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // container_entrypoint - computed: true, optional: true, required: false
-  private _containerEntrypoint?: string[];
+  private _containerEntrypoint?: string[]; 
   public get containerEntrypoint() {
     return this.getListAttribute('container_entrypoint');
   }
@@ -903,7 +903,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // image_uri - computed: true, optional: true, required: false
-  private _imageUri?: string;
+  private _imageUri?: string; 
   public get imageUri() {
     return this.getStringAttribute('image_uri');
   }
@@ -919,7 +919,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // post_analytics_processor_source_uri - computed: true, optional: true, required: false
-  private _postAnalyticsProcessorSourceUri?: string;
+  private _postAnalyticsProcessorSourceUri?: string; 
   public get postAnalyticsProcessorSourceUri() {
     return this.getStringAttribute('post_analytics_processor_source_uri');
   }
@@ -935,7 +935,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // record_preprocessor_source_uri - computed: true, optional: true, required: false
-  private _recordPreprocessorSourceUri?: string;
+  private _recordPreprocessorSourceUri?: string; 
   public get recordPreprocessorSourceUri() {
     return this.getStringAttribute('record_preprocessor_source_uri');
   }
@@ -1031,7 +1031,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // header - computed: true, optional: true, required: false
-  private _header?: boolean | cdktn.IResolvable;
+  private _header?: boolean | cdktn.IResolvable; 
   public get header() {
     return this.getBooleanAttribute('header');
   }
@@ -1127,7 +1127,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // line - computed: true, optional: true, required: false
-  private _line?: boolean | cdktn.IResolvable;
+  private _line?: boolean | cdktn.IResolvable; 
   public get line() {
     return this.getBooleanAttribute('line');
   }
@@ -1293,7 +1293,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // parquet - computed: true, optional: true, required: false
-  private _parquet?: boolean | cdktn.IResolvable;
+  private _parquet?: boolean | cdktn.IResolvable; 
   public get parquet() {
     return this.getBooleanAttribute('parquet');
   }
@@ -1484,7 +1484,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // data_captured_destination_s3_uri - computed: true, optional: true, required: false
-  private _dataCapturedDestinationS3Uri?: string;
+  private _dataCapturedDestinationS3Uri?: string; 
   public get dataCapturedDestinationS3Uri() {
     return this.getStringAttribute('data_captured_destination_s3_uri');
   }
@@ -1516,7 +1516,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // exclude_features_attribute - computed: true, optional: true, required: false
-  private _excludeFeaturesAttribute?: string;
+  private _excludeFeaturesAttribute?: string; 
   public get excludeFeaturesAttribute() {
     return this.getStringAttribute('exclude_features_attribute');
   }
@@ -1532,7 +1532,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // local_path - computed: true, optional: true, required: false
-  private _localPath?: string;
+  private _localPath?: string; 
   public get localPath() {
     return this.getStringAttribute('local_path');
   }
@@ -1548,7 +1548,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // s3_data_distribution_type - computed: true, optional: true, required: false
-  private _s3DataDistributionType?: string;
+  private _s3DataDistributionType?: string; 
   public get s3DataDistributionType() {
     return this.getStringAttribute('s3_data_distribution_type');
   }
@@ -1564,7 +1564,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // s3_input_mode - computed: true, optional: true, required: false
-  private _s3InputMode?: string;
+  private _s3InputMode?: string; 
   public get s3InputMode() {
     return this.getStringAttribute('s3_input_mode');
   }
@@ -1736,7 +1736,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // endpoint_name - computed: true, optional: true, required: false
-  private _endpointName?: string;
+  private _endpointName?: string; 
   public get endpointName() {
     return this.getStringAttribute('endpoint_name');
   }
@@ -1752,7 +1752,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // exclude_features_attribute - computed: true, optional: true, required: false
-  private _excludeFeaturesAttribute?: string;
+  private _excludeFeaturesAttribute?: string; 
   public get excludeFeaturesAttribute() {
     return this.getStringAttribute('exclude_features_attribute');
   }
@@ -1768,7 +1768,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // local_path - computed: true, optional: true, required: false
-  private _localPath?: string;
+  private _localPath?: string; 
   public get localPath() {
     return this.getStringAttribute('local_path');
   }
@@ -1784,7 +1784,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // s3_data_distribution_type - computed: true, optional: true, required: false
-  private _s3DataDistributionType?: string;
+  private _s3DataDistributionType?: string; 
   public get s3DataDistributionType() {
     return this.getStringAttribute('s3_data_distribution_type');
   }
@@ -1800,7 +1800,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // s3_input_mode - computed: true, optional: true, required: false
-  private _s3InputMode?: string;
+  private _s3InputMode?: string; 
   public get s3InputMode() {
     return this.getStringAttribute('s3_input_mode');
   }
@@ -2087,7 +2087,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // local_path - computed: true, optional: true, required: false
-  private _localPath?: string;
+  private _localPath?: string; 
   public get localPath() {
     return this.getStringAttribute('local_path');
   }
@@ -2103,7 +2103,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // s3_upload_mode - computed: true, optional: true, required: false
-  private _s3UploadMode?: string;
+  private _s3UploadMode?: string; 
   public get s3UploadMode() {
     return this.getStringAttribute('s3_upload_mode');
   }
@@ -2119,7 +2119,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // s3_uri - computed: true, optional: true, required: false
-  private _s3Uri?: string;
+  private _s3Uri?: string; 
   public get s3Uri() {
     return this.getStringAttribute('s3_uri');
   }
@@ -2352,7 +2352,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -2521,7 +2521,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // instance_count - computed: true, optional: true, required: false
-  private _instanceCount?: number;
+  private _instanceCount?: number; 
   public get instanceCount() {
     return this.getNumberAttribute('instance_count');
   }
@@ -2537,7 +2537,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // instance_type - computed: true, optional: true, required: false
-  private _instanceType?: string;
+  private _instanceType?: string; 
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -2553,7 +2553,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // volume_kms_key_id - computed: true, optional: true, required: false
-  private _volumeKmsKeyId?: string;
+  private _volumeKmsKeyId?: string; 
   public get volumeKmsKeyId() {
     return this.getStringAttribute('volume_kms_key_id');
   }
@@ -2569,7 +2569,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // volume_size_in_gb - computed: true, optional: true, required: false
-  private _volumeSizeInGb?: number;
+  private _volumeSizeInGb?: number; 
   public get volumeSizeInGb() {
     return this.getNumberAttribute('volume_size_in_gb');
   }
@@ -2780,7 +2780,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // security_group_ids - computed: true, optional: true, required: false
-  private _securityGroupIds?: string[];
+  private _securityGroupIds?: string[]; 
   public get securityGroupIds() {
     return this.getListAttribute('security_group_ids');
   }
@@ -2796,7 +2796,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // subnets - computed: true, optional: true, required: false
-  private _subnets?: string[];
+  private _subnets?: string[]; 
   public get subnets() {
     return this.getListAttribute('subnets');
   }
@@ -2930,7 +2930,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // enable_inter_container_traffic_encryption - computed: true, optional: true, required: false
-  private _enableInterContainerTrafficEncryption?: boolean | cdktn.IResolvable;
+  private _enableInterContainerTrafficEncryption?: boolean | cdktn.IResolvable; 
   public get enableInterContainerTrafficEncryption() {
     return this.getBooleanAttribute('enable_inter_container_traffic_encryption');
   }
@@ -2946,7 +2946,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // enable_network_isolation - computed: true, optional: true, required: false
-  private _enableNetworkIsolation?: boolean | cdktn.IResolvable;
+  private _enableNetworkIsolation?: boolean | cdktn.IResolvable; 
   public get enableNetworkIsolation() {
     return this.getBooleanAttribute('enable_network_isolation');
   }
@@ -3058,7 +3058,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // max_runtime_in_seconds - computed: true, optional: true, required: false
-  private _maxRuntimeInSeconds?: number;
+  private _maxRuntimeInSeconds?: number; 
   public get maxRuntimeInSeconds() {
     return this.getNumberAttribute('max_runtime_in_seconds');
   }
@@ -3322,7 +3322,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // environment - computed: true, optional: true, required: false
-  private _environment?: { [key: string]: string };
+  private _environment?: { [key: string]: string }; 
   public get environment() {
     return this.getStringMapAttribute('environment');
   }
@@ -3418,7 +3418,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigMonitoringJobDef
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -3568,7 +3568,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigScheduleConfigOu
   }
 
   // data_analysis_end_time - computed: true, optional: true, required: false
-  private _dataAnalysisEndTime?: string;
+  private _dataAnalysisEndTime?: string; 
   public get dataAnalysisEndTime() {
     return this.getStringAttribute('data_analysis_end_time');
   }
@@ -3584,7 +3584,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigScheduleConfigOu
   }
 
   // data_analysis_start_time - computed: true, optional: true, required: false
-  private _dataAnalysisStartTime?: string;
+  private _dataAnalysisStartTime?: string; 
   public get dataAnalysisStartTime() {
     return this.getStringAttribute('data_analysis_start_time');
   }
@@ -3600,7 +3600,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigScheduleConfigOu
   }
 
   // schedule_expression - computed: true, optional: true, required: false
-  private _scheduleExpression?: string;
+  private _scheduleExpression?: string; 
   public get scheduleExpression() {
     return this.getStringAttribute('schedule_expression');
   }
@@ -3769,7 +3769,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigOutputReference 
   }
 
   // monitoring_job_definition_name - computed: true, optional: true, required: false
-  private _monitoringJobDefinitionName?: string;
+  private _monitoringJobDefinitionName?: string; 
   public get monitoringJobDefinitionName() {
     return this.getStringAttribute('monitoring_job_definition_name');
   }
@@ -3785,7 +3785,7 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigOutputReference 
   }
 
   // monitoring_type - computed: true, optional: true, required: false
-  private _monitoringType?: string;
+  private _monitoringType?: string; 
   public get monitoringType() {
     return this.getStringAttribute('monitoring_type');
   }
@@ -3818,13 +3818,13 @@ export class SagemakerMonitoringScheduleMonitoringScheduleConfigOutputReference 
 }
 export interface SagemakerMonitoringScheduleTags {
   /**
-  * The key name of the tag. You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
+  * The key name of the tag. You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_monitoring_schedule#key SagemakerMonitoringSchedule#key}
   */
   readonly key?: string;
   /**
-  * The value for the tag. You can specify a value that is 1 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
+  * The value for the tag. You can specify a value that is 1 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_monitoring_schedule#value SagemakerMonitoringSchedule#value}
   */
@@ -3918,7 +3918,7 @@ export class SagemakerMonitoringScheduleTagsOutputReference extends cdktn.Comple
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -3934,7 +3934,7 @@ export class SagemakerMonitoringScheduleTagsOutputReference extends cdktn.Comple
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -4039,7 +4039,7 @@ export class SagemakerMonitoringSchedule extends cdktn.TerraformResource {
   }
 
   // endpoint_name - computed: true, optional: true, required: false
-  private _endpointName?: string;
+  private _endpointName?: string; 
   public get endpointName() {
     return this.getStringAttribute('endpoint_name');
   }
@@ -4055,7 +4055,7 @@ export class SagemakerMonitoringSchedule extends cdktn.TerraformResource {
   }
 
   // failure_reason - computed: true, optional: true, required: false
-  private _failureReason?: string;
+  private _failureReason?: string; 
   public get failureReason() {
     return this.getStringAttribute('failure_reason');
   }
@@ -4115,7 +4115,7 @@ export class SagemakerMonitoringSchedule extends cdktn.TerraformResource {
   }
 
   // monitoring_schedule_name - computed: false, optional: false, required: true
-  private _monitoringScheduleName?: string;
+  private _monitoringScheduleName?: string; 
   public get monitoringScheduleName() {
     return this.getStringAttribute('monitoring_schedule_name');
   }
@@ -4128,7 +4128,7 @@ export class SagemakerMonitoringSchedule extends cdktn.TerraformResource {
   }
 
   // monitoring_schedule_status - computed: true, optional: true, required: false
-  private _monitoringScheduleStatus?: string;
+  private _monitoringScheduleStatus?: string; 
   public get monitoringScheduleStatus() {
     return this.getStringAttribute('monitoring_schedule_status');
   }

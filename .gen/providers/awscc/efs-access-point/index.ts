@@ -141,7 +141,7 @@ export class EfsAccessPointAccessPointTagsOutputReference extends cdktn.ComplexO
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -157,7 +157,7 @@ export class EfsAccessPointAccessPointTagsOutputReference extends cdktn.ComplexO
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -311,7 +311,7 @@ export class EfsAccessPointPosixUserOutputReference extends cdktn.ComplexObject 
   }
 
   // gid - computed: true, optional: true, required: false
-  private _gid?: string;
+  private _gid?: string; 
   public get gid() {
     return this.getStringAttribute('gid');
   }
@@ -327,7 +327,7 @@ export class EfsAccessPointPosixUserOutputReference extends cdktn.ComplexObject 
   }
 
   // secondary_gids - computed: true, optional: true, required: false
-  private _secondaryGids?: string[];
+  private _secondaryGids?: string[]; 
   public get secondaryGids() {
     return this.getListAttribute('secondary_gids');
   }
@@ -343,7 +343,7 @@ export class EfsAccessPointPosixUserOutputReference extends cdktn.ComplexObject 
   }
 
   // uid - computed: true, optional: true, required: false
-  private _uid?: string;
+  private _uid?: string; 
   public get uid() {
     return this.getStringAttribute('uid');
   }
@@ -477,7 +477,7 @@ export class EfsAccessPointRootDirectoryCreationInfoOutputReference extends cdkt
   }
 
   // owner_gid - computed: true, optional: true, required: false
-  private _ownerGid?: string;
+  private _ownerGid?: string; 
   public get ownerGid() {
     return this.getStringAttribute('owner_gid');
   }
@@ -493,7 +493,7 @@ export class EfsAccessPointRootDirectoryCreationInfoOutputReference extends cdkt
   }
 
   // owner_uid - computed: true, optional: true, required: false
-  private _ownerUid?: string;
+  private _ownerUid?: string; 
   public get ownerUid() {
     return this.getStringAttribute('owner_uid');
   }
@@ -509,7 +509,7 @@ export class EfsAccessPointRootDirectoryCreationInfoOutputReference extends cdkt
   }
 
   // permissions - computed: true, optional: true, required: false
-  private _permissions?: string;
+  private _permissions?: string; 
   public get permissions() {
     return this.getStringAttribute('permissions');
   }
@@ -526,7 +526,7 @@ export class EfsAccessPointRootDirectoryCreationInfoOutputReference extends cdkt
 }
 export interface EfsAccessPointRootDirectory {
   /**
-  * (Optional) Specifies the POSIX IDs and permissions to apply to the access point's ``RootDirectory``. If the ``RootDirectory`` > ``Path`` specified does not exist, EFS creates the root directory using the ``CreationInfo`` settings when a client connects to an access point. When specifying the ``CreationInfo``, you must provide values for all properties.
+  * (Optional) Specifies the POSIX IDs and permissions to apply to the access point's ``RootDirectory``. If the ``RootDirectory`` > ``Path`` specified does not exist, EFS creates the root directory using the ``CreationInfo`` settings when a client connects to an access point. When specifying the ``CreationInfo``, you must provide values for all properties. 
   *   If you do not provide ``CreationInfo`` and the specified ``RootDirectory`` > ``Path`` does not exist, attempts to mount the file system using the access point will fail.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/efs_access_point#creation_info EfsAccessPoint#creation_info}
@@ -641,7 +641,7 @@ export class EfsAccessPointRootDirectoryOutputReference extends cdktn.ComplexObj
   }
 
   // path - computed: true, optional: true, required: false
-  private _path?: string;
+  private _path?: string; 
   public get path() {
     return this.getStringAttribute('path');
   }
@@ -745,7 +745,7 @@ export class EfsAccessPoint extends cdktn.TerraformResource {
   }
 
   // client_token - computed: true, optional: true, required: false
-  private _clientToken?: string;
+  private _clientToken?: string; 
   public get clientToken() {
     return this.getStringAttribute('client_token');
   }
@@ -761,7 +761,7 @@ export class EfsAccessPoint extends cdktn.TerraformResource {
   }
 
   // file_system_id - computed: false, optional: false, required: true
-  private _fileSystemId?: string;
+  private _fileSystemId?: string; 
   public get fileSystemId() {
     return this.getStringAttribute('file_system_id');
   }

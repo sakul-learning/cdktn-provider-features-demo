@@ -84,7 +84,7 @@ export class DataAwsIamInstanceProfiles extends cdktn.TerraformDataSource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -110,7 +110,7 @@ export class DataAwsIamInstanceProfiles extends cdktn.TerraformDataSource {
   }
 
   // role_name - computed: false, optional: false, required: true
-  private _roleName?: string;
+  private _roleName?: string; 
   public get roleName() {
     return this.getStringAttribute('role_name');
   }

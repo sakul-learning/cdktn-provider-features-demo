@@ -146,7 +146,7 @@ export class LicensemanagerGrantTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -162,7 +162,7 @@ export class LicensemanagerGrantTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -262,7 +262,7 @@ export class LicensemanagerGrant extends cdktn.TerraformResource {
   // ==========
 
   // allowed_operations - computed: true, optional: true, required: false
-  private _allowedOperations?: string[];
+  private _allowedOperations?: string[]; 
   public get allowedOperations() {
     return this.getListAttribute('allowed_operations');
   }
@@ -283,7 +283,7 @@ export class LicensemanagerGrant extends cdktn.TerraformResource {
   }
 
   // grant_name - computed: true, optional: true, required: false
-  private _grantName?: string;
+  private _grantName?: string; 
   public get grantName() {
     return this.getStringAttribute('grant_name');
   }
@@ -299,7 +299,7 @@ export class LicensemanagerGrant extends cdktn.TerraformResource {
   }
 
   // home_region - computed: true, optional: true, required: false
-  private _homeRegion?: string;
+  private _homeRegion?: string; 
   public get homeRegion() {
     return this.getStringAttribute('home_region');
   }
@@ -320,7 +320,7 @@ export class LicensemanagerGrant extends cdktn.TerraformResource {
   }
 
   // license_arn - computed: true, optional: true, required: false
-  private _licenseArn?: string;
+  private _licenseArn?: string; 
   public get licenseArn() {
     return this.getStringAttribute('license_arn');
   }
@@ -336,7 +336,7 @@ export class LicensemanagerGrant extends cdktn.TerraformResource {
   }
 
   // principals - computed: true, optional: true, required: false
-  private _principals?: string[];
+  private _principals?: string[]; 
   public get principals() {
     return this.getListAttribute('principals');
   }
@@ -352,7 +352,7 @@ export class LicensemanagerGrant extends cdktn.TerraformResource {
   }
 
   // status - computed: true, optional: true, required: false
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }

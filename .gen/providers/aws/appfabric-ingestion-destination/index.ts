@@ -125,7 +125,7 @@ export class AppfabricIngestionDestinationDestinationConfigurationAuditLogDestin
   }
 
   // stream_name - computed: false, optional: false, required: true
-  private _streamName?: string;
+  private _streamName?: string; 
   public get streamName() {
     return this.getStringAttribute('stream_name');
   }
@@ -255,7 +255,7 @@ export class AppfabricIngestionDestinationDestinationConfigurationAuditLogDestin
   }
 
   // bucket_name - computed: false, optional: false, required: true
-  private _bucketName?: string;
+  private _bucketName?: string; 
   public get bucketName() {
     return this.getStringAttribute('bucket_name');
   }
@@ -268,7 +268,7 @@ export class AppfabricIngestionDestinationDestinationConfigurationAuditLogDestin
   }
 
   // prefix - computed: false, optional: true, required: false
-  private _prefix?: string;
+  private _prefix?: string; 
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -790,7 +790,7 @@ export class AppfabricIngestionDestinationProcessingConfigurationAuditLogOutputR
   }
 
   // format - computed: false, optional: false, required: true
-  private _format?: string;
+  private _format?: string; 
   public get format() {
     return this.getStringAttribute('format');
   }
@@ -803,7 +803,7 @@ export class AppfabricIngestionDestinationProcessingConfigurationAuditLogOutputR
   }
 
   // schema - computed: false, optional: false, required: true
-  private _schema?: string;
+  private _schema?: string; 
   public get schema() {
     return this.getStringAttribute('schema');
   }
@@ -1072,7 +1072,7 @@ export class AppfabricIngestionDestinationTimeoutsOutputReference extends cdktn.
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -1088,7 +1088,7 @@ export class AppfabricIngestionDestinationTimeoutsOutputReference extends cdktn.
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -1104,7 +1104,7 @@ export class AppfabricIngestionDestinationTimeoutsOutputReference extends cdktn.
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -1184,7 +1184,7 @@ export class AppfabricIngestionDestination extends cdktn.TerraformResource {
   // ==========
 
   // app_bundle_arn - computed: false, optional: false, required: true
-  private _appBundleArn?: string;
+  private _appBundleArn?: string; 
   public get appBundleArn() {
     return this.getStringAttribute('app_bundle_arn');
   }
@@ -1207,7 +1207,7 @@ export class AppfabricIngestionDestination extends cdktn.TerraformResource {
   }
 
   // ingestion_arn - computed: false, optional: false, required: true
-  private _ingestionArn?: string;
+  private _ingestionArn?: string; 
   public get ingestionArn() {
     return this.getStringAttribute('ingestion_arn');
   }
@@ -1220,7 +1220,7 @@ export class AppfabricIngestionDestination extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1236,7 +1236,7 @@ export class AppfabricIngestionDestination extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

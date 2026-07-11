@@ -96,7 +96,7 @@ export class StoragegatewayUploadBuffer extends cdktn.TerraformResource {
   // ==========
 
   // disk_id - computed: true, optional: true, required: false
-  private _diskId?: string;
+  private _diskId?: string; 
   public get diskId() {
     return this.getStringAttribute('disk_id');
   }
@@ -112,7 +112,7 @@ export class StoragegatewayUploadBuffer extends cdktn.TerraformResource {
   }
 
   // disk_path - computed: true, optional: true, required: false
-  private _diskPath?: string;
+  private _diskPath?: string; 
   public get diskPath() {
     return this.getStringAttribute('disk_path');
   }
@@ -128,7 +128,7 @@ export class StoragegatewayUploadBuffer extends cdktn.TerraformResource {
   }
 
   // gateway_arn - computed: false, optional: false, required: true
-  private _gatewayArn?: string;
+  private _gatewayArn?: string; 
   public get gatewayArn() {
     return this.getStringAttribute('gateway_arn');
   }
@@ -141,7 +141,7 @@ export class StoragegatewayUploadBuffer extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -157,7 +157,7 @@ export class StoragegatewayUploadBuffer extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

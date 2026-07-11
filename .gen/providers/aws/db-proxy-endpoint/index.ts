@@ -168,7 +168,7 @@ export class DbProxyEndpointTimeoutsOutputReference extends cdktn.ComplexObject 
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -184,7 +184,7 @@ export class DbProxyEndpointTimeoutsOutputReference extends cdktn.ComplexObject 
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -200,7 +200,7 @@ export class DbProxyEndpointTimeoutsOutputReference extends cdktn.ComplexObject 
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -288,7 +288,7 @@ export class DbProxyEndpoint extends cdktn.TerraformResource {
   }
 
   // db_proxy_endpoint_name - computed: false, optional: false, required: true
-  private _dbProxyEndpointName?: string;
+  private _dbProxyEndpointName?: string; 
   public get dbProxyEndpointName() {
     return this.getStringAttribute('db_proxy_endpoint_name');
   }
@@ -301,7 +301,7 @@ export class DbProxyEndpoint extends cdktn.TerraformResource {
   }
 
   // db_proxy_name - computed: false, optional: false, required: true
-  private _dbProxyName?: string;
+  private _dbProxyName?: string; 
   public get dbProxyName() {
     return this.getStringAttribute('db_proxy_name');
   }
@@ -319,7 +319,7 @@ export class DbProxyEndpoint extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -340,7 +340,7 @@ export class DbProxyEndpoint extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -356,7 +356,7 @@ export class DbProxyEndpoint extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -372,7 +372,7 @@ export class DbProxyEndpoint extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -388,7 +388,7 @@ export class DbProxyEndpoint extends cdktn.TerraformResource {
   }
 
   // target_role - computed: false, optional: true, required: false
-  private _targetRole?: string;
+  private _targetRole?: string; 
   public get targetRole() {
     return this.getStringAttribute('target_role');
   }
@@ -409,7 +409,7 @@ export class DbProxyEndpoint extends cdktn.TerraformResource {
   }
 
   // vpc_security_group_ids - computed: true, optional: true, required: false
-  private _vpcSecurityGroupIds?: string[];
+  private _vpcSecurityGroupIds?: string[]; 
   public get vpcSecurityGroupIds() {
     return cdktn.Fn.tolist(this.getListAttribute('vpc_security_group_ids'));
   }
@@ -425,7 +425,7 @@ export class DbProxyEndpoint extends cdktn.TerraformResource {
   }
 
   // vpc_subnet_ids - computed: false, optional: false, required: true
-  private _vpcSubnetIds?: string[];
+  private _vpcSubnetIds?: string[]; 
   public get vpcSubnetIds() {
     return cdktn.Fn.tolist(this.getListAttribute('vpc_subnet_ids'));
   }

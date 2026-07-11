@@ -91,7 +91,7 @@ export class CodecommitApprovalRuleTemplateAssociation extends cdktn.TerraformRe
   // ==========
 
   // approval_rule_template_name - computed: false, optional: false, required: true
-  private _approvalRuleTemplateName?: string;
+  private _approvalRuleTemplateName?: string; 
   public get approvalRuleTemplateName() {
     return this.getStringAttribute('approval_rule_template_name');
   }
@@ -104,7 +104,7 @@ export class CodecommitApprovalRuleTemplateAssociation extends cdktn.TerraformRe
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -120,7 +120,7 @@ export class CodecommitApprovalRuleTemplateAssociation extends cdktn.TerraformRe
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -136,7 +136,7 @@ export class CodecommitApprovalRuleTemplateAssociation extends cdktn.TerraformRe
   }
 
   // repository_name - computed: false, optional: false, required: true
-  private _repositoryName?: string;
+  private _repositoryName?: string; 
   public get repositoryName() {
     return this.getStringAttribute('repository_name');
   }

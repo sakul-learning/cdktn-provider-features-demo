@@ -198,7 +198,7 @@ export class EntityresolutionSchemaMappingMappedInputFieldsOutputReference exten
   }
 
   // field_name - computed: false, optional: false, required: true
-  private _fieldName?: string;
+  private _fieldName?: string; 
   public get fieldName() {
     return this.getStringAttribute('field_name');
   }
@@ -211,7 +211,7 @@ export class EntityresolutionSchemaMappingMappedInputFieldsOutputReference exten
   }
 
   // group_name - computed: true, optional: true, required: false
-  private _groupName?: string;
+  private _groupName?: string; 
   public get groupName() {
     return this.getStringAttribute('group_name');
   }
@@ -227,7 +227,7 @@ export class EntityresolutionSchemaMappingMappedInputFieldsOutputReference exten
   }
 
   // hashed - computed: true, optional: true, required: false
-  private _hashed?: boolean | cdktn.IResolvable;
+  private _hashed?: boolean | cdktn.IResolvable; 
   public get hashed() {
     return this.getBooleanAttribute('hashed');
   }
@@ -243,7 +243,7 @@ export class EntityresolutionSchemaMappingMappedInputFieldsOutputReference exten
   }
 
   // match_key - computed: true, optional: true, required: false
-  private _matchKey?: string;
+  private _matchKey?: string; 
   public get matchKey() {
     return this.getStringAttribute('match_key');
   }
@@ -259,7 +259,7 @@ export class EntityresolutionSchemaMappingMappedInputFieldsOutputReference exten
   }
 
   // sub_type - computed: true, optional: true, required: false
-  private _subType?: string;
+  private _subType?: string; 
   public get subType() {
     return this.getStringAttribute('sub_type');
   }
@@ -275,7 +275,7 @@ export class EntityresolutionSchemaMappingMappedInputFieldsOutputReference exten
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -409,7 +409,7 @@ export class EntityresolutionSchemaMappingTagsOutputReference extends cdktn.Comp
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -425,7 +425,7 @@ export class EntityresolutionSchemaMappingTagsOutputReference extends cdktn.Comp
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -527,7 +527,7 @@ export class EntityresolutionSchemaMapping extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -571,7 +571,7 @@ export class EntityresolutionSchemaMapping extends cdktn.TerraformResource {
   }
 
   // schema_name - computed: false, optional: false, required: true
-  private _schemaName?: string;
+  private _schemaName?: string; 
   public get schemaName() {
     return this.getStringAttribute('schema_name');
   }

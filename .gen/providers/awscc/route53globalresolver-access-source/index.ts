@@ -134,7 +134,7 @@ export class Route53GlobalresolverAccessSourceTagsOutputReference extends cdktn.
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -150,7 +150,7 @@ export class Route53GlobalresolverAccessSourceTagsOutputReference extends cdktn.
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -260,7 +260,7 @@ export class Route53GlobalresolverAccessSource extends cdktn.TerraformResource {
   }
 
   // cidr - computed: false, optional: false, required: true
-  private _cidr?: string;
+  private _cidr?: string; 
   public get cidr() {
     return this.getStringAttribute('cidr');
   }
@@ -273,7 +273,7 @@ export class Route53GlobalresolverAccessSource extends cdktn.TerraformResource {
   }
 
   // client_token - computed: true, optional: true, required: false
-  private _clientToken?: string;
+  private _clientToken?: string; 
   public get clientToken() {
     return this.getStringAttribute('client_token');
   }
@@ -294,7 +294,7 @@ export class Route53GlobalresolverAccessSource extends cdktn.TerraformResource {
   }
 
   // dns_view_id - computed: false, optional: false, required: true
-  private _dnsViewId?: string;
+  private _dnsViewId?: string; 
   public get dnsViewId() {
     return this.getStringAttribute('dns_view_id');
   }
@@ -312,7 +312,7 @@ export class Route53GlobalresolverAccessSource extends cdktn.TerraformResource {
   }
 
   // ip_address_type - computed: true, optional: true, required: false
-  private _ipAddressType?: string;
+  private _ipAddressType?: string; 
   public get ipAddressType() {
     return this.getStringAttribute('ip_address_type');
   }
@@ -328,7 +328,7 @@ export class Route53GlobalresolverAccessSource extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -344,7 +344,7 @@ export class Route53GlobalresolverAccessSource extends cdktn.TerraformResource {
   }
 
   // protocol - computed: false, optional: false, required: true
-  private _protocol?: string;
+  private _protocol?: string; 
   public get protocol() {
     return this.getStringAttribute('protocol');
   }

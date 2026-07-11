@@ -108,7 +108,7 @@ export class S3BucketReplicationConfigurationRuleDeleteMarkerReplicationOutputRe
   }
 
   // status - computed: false, optional: false, required: true
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -189,7 +189,7 @@ export class S3BucketReplicationConfigurationRuleDestinationAccessControlTransla
   }
 
   // owner - computed: false, optional: false, required: true
-  private _owner?: string;
+  private _owner?: string; 
   public get owner() {
     return this.getStringAttribute('owner');
   }
@@ -270,7 +270,7 @@ export class S3BucketReplicationConfigurationRuleDestinationEncryptionConfigurat
   }
 
   // replica_kms_key_id - computed: false, optional: false, required: true
-  private _replicaKmsKeyId?: string;
+  private _replicaKmsKeyId?: string; 
   public get replicaKmsKeyId() {
     return this.getStringAttribute('replica_kms_key_id');
   }
@@ -351,7 +351,7 @@ export class S3BucketReplicationConfigurationRuleDestinationMetricsEventThreshol
   }
 
   // minutes - computed: false, optional: false, required: true
-  private _minutes?: number;
+  private _minutes?: number; 
   public get minutes() {
     return this.getNumberAttribute('minutes');
   }
@@ -451,7 +451,7 @@ export class S3BucketReplicationConfigurationRuleDestinationMetricsOutputReferen
   }
 
   // status - computed: false, optional: false, required: true
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -548,7 +548,7 @@ export class S3BucketReplicationConfigurationRuleDestinationReplicationTimeTimeO
   }
 
   // minutes - computed: false, optional: false, required: true
-  private _minutes?: number;
+  private _minutes?: number; 
   public get minutes() {
     return this.getNumberAttribute('minutes');
   }
@@ -648,7 +648,7 @@ export class S3BucketReplicationConfigurationRuleDestinationReplicationTimeOutpu
   }
 
   // status - computed: false, optional: false, required: true
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -852,7 +852,7 @@ export class S3BucketReplicationConfigurationRuleDestinationOutputReference exte
   }
 
   // account - computed: false, optional: true, required: false
-  private _account?: string;
+  private _account?: string; 
   public get account() {
     return this.getStringAttribute('account');
   }
@@ -868,7 +868,7 @@ export class S3BucketReplicationConfigurationRuleDestinationOutputReference exte
   }
 
   // bucket - computed: false, optional: false, required: true
-  private _bucket?: string;
+  private _bucket?: string; 
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -881,7 +881,7 @@ export class S3BucketReplicationConfigurationRuleDestinationOutputReference exte
   }
 
   // storage_class - computed: false, optional: true, required: false
-  private _storageClass?: string;
+  private _storageClass?: string; 
   public get storageClass() {
     return this.getStringAttribute('storage_class');
   }
@@ -1029,7 +1029,7 @@ export class S3BucketReplicationConfigurationRuleExistingObjectReplicationOutput
   }
 
   // status - computed: false, optional: false, required: true
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -1127,7 +1127,7 @@ export class S3BucketReplicationConfigurationRuleFilterAndOutputReference extend
   }
 
   // prefix - computed: false, optional: true, required: false
-  private _prefix?: string;
+  private _prefix?: string; 
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -1143,7 +1143,7 @@ export class S3BucketReplicationConfigurationRuleFilterAndOutputReference extend
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -1244,7 +1244,7 @@ export class S3BucketReplicationConfigurationRuleFilterTagOutputReference extend
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1257,7 +1257,7 @@ export class S3BucketReplicationConfigurationRuleFilterTagOutputReference extend
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1376,7 +1376,7 @@ export class S3BucketReplicationConfigurationRuleFilterOutputReference extends c
   }
 
   // prefix - computed: false, optional: true, required: false
-  private _prefix?: string;
+  private _prefix?: string; 
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -1492,7 +1492,7 @@ export class S3BucketReplicationConfigurationRuleSourceSelectionCriteriaReplicaM
   }
 
   // status - computed: false, optional: false, required: true
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -1573,7 +1573,7 @@ export class S3BucketReplicationConfigurationRuleSourceSelectionCriteriaSseKmsEn
   }
 
   // status - computed: false, optional: false, required: true
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -1936,7 +1936,7 @@ export class S3BucketReplicationConfigurationRuleOutputReference extends cdktn.C
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -1952,7 +1952,7 @@ export class S3BucketReplicationConfigurationRuleOutputReference extends cdktn.C
   }
 
   // prefix - computed: false, optional: true, required: false
-  private _prefix?: string;
+  private _prefix?: string; 
   public get prefix() {
     return this.getStringAttribute('prefix');
   }
@@ -1968,7 +1968,7 @@ export class S3BucketReplicationConfigurationRuleOutputReference extends cdktn.C
   }
 
   // priority - computed: false, optional: true, required: false
-  private _priority?: number;
+  private _priority?: number; 
   public get priority() {
     return this.getNumberAttribute('priority');
   }
@@ -1984,7 +1984,7 @@ export class S3BucketReplicationConfigurationRuleOutputReference extends cdktn.C
   }
 
   // status - computed: false, optional: false, required: true
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -2157,7 +2157,7 @@ export class S3BucketReplicationConfigurationA extends cdktn.TerraformResource {
   // ==========
 
   // bucket - computed: false, optional: false, required: true
-  private _bucket?: string;
+  private _bucket?: string; 
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -2170,7 +2170,7 @@ export class S3BucketReplicationConfigurationA extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -2186,7 +2186,7 @@ export class S3BucketReplicationConfigurationA extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -2202,7 +2202,7 @@ export class S3BucketReplicationConfigurationA extends cdktn.TerraformResource {
   }
 
   // role - computed: false, optional: false, required: true
-  private _role?: string;
+  private _role?: string; 
   public get role() {
     return this.getStringAttribute('role');
   }
@@ -2215,7 +2215,7 @@ export class S3BucketReplicationConfigurationA extends cdktn.TerraformResource {
   }
 
   // token - computed: false, optional: true, required: false
-  private _token?: string;
+  private _token?: string; 
   public get token() {
     return this.getStringAttribute('token');
   }

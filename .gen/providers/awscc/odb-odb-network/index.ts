@@ -787,7 +787,7 @@ export class OdbOdbNetworkTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -803,7 +803,7 @@ export class OdbOdbNetworkTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -913,7 +913,7 @@ export class OdbOdbNetwork extends cdktn.TerraformResource {
   // ==========
 
   // availability_zone - computed: true, optional: true, required: false
-  private _availabilityZone?: string;
+  private _availabilityZone?: string; 
   public get availabilityZone() {
     return this.getStringAttribute('availability_zone');
   }
@@ -929,7 +929,7 @@ export class OdbOdbNetwork extends cdktn.TerraformResource {
   }
 
   // availability_zone_id - computed: true, optional: true, required: false
-  private _availabilityZoneId?: string;
+  private _availabilityZoneId?: string; 
   public get availabilityZoneId() {
     return this.getStringAttribute('availability_zone_id');
   }
@@ -945,7 +945,7 @@ export class OdbOdbNetwork extends cdktn.TerraformResource {
   }
 
   // backup_subnet_cidr - computed: true, optional: true, required: false
-  private _backupSubnetCidr?: string;
+  private _backupSubnetCidr?: string; 
   public get backupSubnetCidr() {
     return this.getStringAttribute('backup_subnet_cidr');
   }
@@ -961,7 +961,7 @@ export class OdbOdbNetwork extends cdktn.TerraformResource {
   }
 
   // client_subnet_cidr - computed: true, optional: true, required: false
-  private _clientSubnetCidr?: string;
+  private _clientSubnetCidr?: string; 
   public get clientSubnetCidr() {
     return this.getStringAttribute('client_subnet_cidr');
   }
@@ -977,7 +977,7 @@ export class OdbOdbNetwork extends cdktn.TerraformResource {
   }
 
   // cross_region_s3_restore_sources - computed: true, optional: true, required: false
-  private _crossRegionS3RestoreSources?: string[];
+  private _crossRegionS3RestoreSources?: string[]; 
   public get crossRegionS3RestoreSources() {
     return cdktn.Fn.tolist(this.getListAttribute('cross_region_s3_restore_sources'));
   }
@@ -993,7 +993,7 @@ export class OdbOdbNetwork extends cdktn.TerraformResource {
   }
 
   // custom_domain_name - computed: true, optional: true, required: false
-  private _customDomainName?: string;
+  private _customDomainName?: string; 
   public get customDomainName() {
     return this.getStringAttribute('custom_domain_name');
   }
@@ -1009,7 +1009,7 @@ export class OdbOdbNetwork extends cdktn.TerraformResource {
   }
 
   // default_dns_prefix - computed: true, optional: true, required: false
-  private _defaultDnsPrefix?: string;
+  private _defaultDnsPrefix?: string; 
   public get defaultDnsPrefix() {
     return this.getStringAttribute('default_dns_prefix');
   }
@@ -1025,7 +1025,7 @@ export class OdbOdbNetwork extends cdktn.TerraformResource {
   }
 
   // delete_associated_resources - computed: true, optional: true, required: false
-  private _deleteAssociatedResources?: boolean | cdktn.IResolvable;
+  private _deleteAssociatedResources?: boolean | cdktn.IResolvable; 
   public get deleteAssociatedResources() {
     return this.getBooleanAttribute('delete_associated_resources');
   }
@@ -1041,7 +1041,7 @@ export class OdbOdbNetwork extends cdktn.TerraformResource {
   }
 
   // display_name - computed: true, optional: true, required: false
-  private _displayName?: string;
+  private _displayName?: string; 
   public get displayName() {
     return this.getStringAttribute('display_name');
   }
@@ -1067,7 +1067,7 @@ export class OdbOdbNetwork extends cdktn.TerraformResource {
   }
 
   // kms_access - computed: true, optional: true, required: false
-  private _kmsAccess?: string;
+  private _kmsAccess?: string; 
   public get kmsAccess() {
     return this.getStringAttribute('kms_access');
   }
@@ -1083,7 +1083,7 @@ export class OdbOdbNetwork extends cdktn.TerraformResource {
   }
 
   // kms_policy_document - computed: true, optional: true, required: false
-  private _kmsPolicyDocument?: string;
+  private _kmsPolicyDocument?: string; 
   public get kmsPolicyDocument() {
     return this.getStringAttribute('kms_policy_document');
   }
@@ -1130,7 +1130,7 @@ export class OdbOdbNetwork extends cdktn.TerraformResource {
   }
 
   // s3_access - computed: true, optional: true, required: false
-  private _s3Access?: string;
+  private _s3Access?: string; 
   public get s3Access() {
     return this.getStringAttribute('s3_access');
   }
@@ -1146,7 +1146,7 @@ export class OdbOdbNetwork extends cdktn.TerraformResource {
   }
 
   // s3_policy_document - computed: true, optional: true, required: false
-  private _s3PolicyDocument?: string;
+  private _s3PolicyDocument?: string; 
   public get s3PolicyDocument() {
     return this.getStringAttribute('s3_policy_document');
   }
@@ -1162,7 +1162,7 @@ export class OdbOdbNetwork extends cdktn.TerraformResource {
   }
 
   // sts_access - computed: true, optional: true, required: false
-  private _stsAccess?: string;
+  private _stsAccess?: string; 
   public get stsAccess() {
     return this.getStringAttribute('sts_access');
   }
@@ -1178,7 +1178,7 @@ export class OdbOdbNetwork extends cdktn.TerraformResource {
   }
 
   // sts_policy_document - computed: true, optional: true, required: false
-  private _stsPolicyDocument?: string;
+  private _stsPolicyDocument?: string; 
   public get stsPolicyDocument() {
     return this.getStringAttribute('sts_policy_document');
   }
@@ -1210,7 +1210,7 @@ export class OdbOdbNetwork extends cdktn.TerraformResource {
   }
 
   // zero_etl_access - computed: true, optional: true, required: false
-  private _zeroEtlAccess?: string;
+  private _zeroEtlAccess?: string; 
   public get zeroEtlAccess() {
     return this.getStringAttribute('zero_etl_access');
   }

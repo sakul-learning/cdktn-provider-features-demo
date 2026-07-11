@@ -91,7 +91,7 @@ export class CertificatemanagerAccountExpiryEventsConfigurationOutputReference e
   }
 
   // days_before_expiry - computed: true, optional: true, required: false
-  private _daysBeforeExpiry?: number;
+  private _daysBeforeExpiry?: number; 
   public get daysBeforeExpiry() {
     return this.getNumberAttribute('days_before_expiry');
   }

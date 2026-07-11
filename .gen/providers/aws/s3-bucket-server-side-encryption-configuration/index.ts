@@ -121,7 +121,7 @@ export class S3BucketServerSideEncryptionConfigurationRuleApplyServerSideEncrypt
   }
 
   // kms_master_key_id - computed: true, optional: true, required: false
-  private _kmsMasterKeyId?: string;
+  private _kmsMasterKeyId?: string; 
   public get kmsMasterKeyId() {
     return this.getStringAttribute('kms_master_key_id');
   }
@@ -137,7 +137,7 @@ export class S3BucketServerSideEncryptionConfigurationRuleApplyServerSideEncrypt
   }
 
   // sse_algorithm - computed: false, optional: false, required: true
-  private _sseAlgorithm?: string;
+  private _sseAlgorithm?: string; 
   public get sseAlgorithm() {
     return this.getStringAttribute('sse_algorithm');
   }
@@ -266,7 +266,7 @@ export class S3BucketServerSideEncryptionConfigurationRuleAOutputReference exten
   }
 
   // blocked_encryption_types - computed: true, optional: true, required: false
-  private _blockedEncryptionTypes?: string[];
+  private _blockedEncryptionTypes?: string[]; 
   public get blockedEncryptionTypes() {
     return this.getListAttribute('blocked_encryption_types');
   }
@@ -282,7 +282,7 @@ export class S3BucketServerSideEncryptionConfigurationRuleAOutputReference exten
   }
 
   // bucket_key_enabled - computed: true, optional: true, required: false
-  private _bucketKeyEnabled?: boolean | cdktn.IResolvable;
+  private _bucketKeyEnabled?: boolean | cdktn.IResolvable; 
   public get bucketKeyEnabled() {
     return this.getBooleanAttribute('bucket_key_enabled');
   }
@@ -396,7 +396,7 @@ export class S3BucketServerSideEncryptionConfigurationA extends cdktn.TerraformR
   // ==========
 
   // bucket - computed: false, optional: false, required: true
-  private _bucket?: string;
+  private _bucket?: string; 
   public get bucket() {
     return this.getStringAttribute('bucket');
   }
@@ -409,7 +409,7 @@ export class S3BucketServerSideEncryptionConfigurationA extends cdktn.TerraformR
   }
 
   // expected_bucket_owner - computed: false, optional: true, required: false
-  private _expectedBucketOwner?: string;
+  private _expectedBucketOwner?: string; 
   public get expectedBucketOwner() {
     return this.getStringAttribute('expected_bucket_owner');
   }
@@ -425,7 +425,7 @@ export class S3BucketServerSideEncryptionConfigurationA extends cdktn.TerraformR
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -441,7 +441,7 @@ export class S3BucketServerSideEncryptionConfigurationA extends cdktn.TerraformR
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

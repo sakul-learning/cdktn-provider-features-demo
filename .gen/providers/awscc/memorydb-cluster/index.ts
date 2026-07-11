@@ -15,7 +15,7 @@ export interface MemorydbClusterConfig extends cdktn.TerraformMetaArguments {
   readonly aclName: string;
   /**
   * A flag that enables automatic minor version upgrade when set to true.
-  *
+  * 
   * You cannot modify the value of AutoMinorVersionUpgrade after the cluster is created. To enable AutoMinorVersionUpgrade on a cluster you must set AutoMinorVersionUpgrade to true when you create a cluster.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/memorydb_cluster#auto_minor_version_upgrade MemorydbCluster#auto_minor_version_upgrade}
@@ -179,7 +179,7 @@ export interface MemorydbClusterConfig extends cdktn.TerraformMetaArguments {
   readonly tags?: MemorydbClusterTags[] | cdktn.IResolvable;
   /**
   * A flag that enables in-transit encryption when set to true.
-  *
+  * 
   * You cannot modify the value of TransitEncryptionEnabled after the cluster is created. To enable in-transit encryption on a cluster you must set TransitEncryptionEnabled to true when you create a cluster.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/memorydb_cluster#tls_enabled MemorydbCluster#tls_enabled}
@@ -357,7 +357,7 @@ export class MemorydbClusterTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -373,7 +373,7 @@ export class MemorydbClusterTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -495,7 +495,7 @@ export class MemorydbCluster extends cdktn.TerraformResource {
   // ==========
 
   // acl_name - computed: false, optional: false, required: true
-  private _aclName?: string;
+  private _aclName?: string; 
   public get aclName() {
     return this.getStringAttribute('acl_name');
   }
@@ -513,7 +513,7 @@ export class MemorydbCluster extends cdktn.TerraformResource {
   }
 
   // auto_minor_version_upgrade - computed: true, optional: true, required: false
-  private _autoMinorVersionUpgrade?: boolean | cdktn.IResolvable;
+  private _autoMinorVersionUpgrade?: boolean | cdktn.IResolvable; 
   public get autoMinorVersionUpgrade() {
     return this.getBooleanAttribute('auto_minor_version_upgrade');
   }
@@ -545,7 +545,7 @@ export class MemorydbCluster extends cdktn.TerraformResource {
   }
 
   // cluster_name - computed: false, optional: false, required: true
-  private _clusterName?: string;
+  private _clusterName?: string; 
   public get clusterName() {
     return this.getStringAttribute('cluster_name');
   }
@@ -558,7 +558,7 @@ export class MemorydbCluster extends cdktn.TerraformResource {
   }
 
   // data_tiering - computed: true, optional: true, required: false
-  private _dataTiering?: string;
+  private _dataTiering?: string; 
   public get dataTiering() {
     return this.getStringAttribute('data_tiering');
   }
@@ -574,7 +574,7 @@ export class MemorydbCluster extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -590,7 +590,7 @@ export class MemorydbCluster extends cdktn.TerraformResource {
   }
 
   // engine - computed: true, optional: true, required: false
-  private _engine?: string;
+  private _engine?: string; 
   public get engine() {
     return this.getStringAttribute('engine');
   }
@@ -606,7 +606,7 @@ export class MemorydbCluster extends cdktn.TerraformResource {
   }
 
   // engine_version - computed: true, optional: true, required: false
-  private _engineVersion?: string;
+  private _engineVersion?: string; 
   public get engineVersion() {
     return this.getStringAttribute('engine_version');
   }
@@ -622,7 +622,7 @@ export class MemorydbCluster extends cdktn.TerraformResource {
   }
 
   // final_snapshot_name - computed: true, optional: true, required: false
-  private _finalSnapshotName?: string;
+  private _finalSnapshotName?: string; 
   public get finalSnapshotName() {
     return this.getStringAttribute('final_snapshot_name');
   }
@@ -643,7 +643,7 @@ export class MemorydbCluster extends cdktn.TerraformResource {
   }
 
   // ip_discovery - computed: true, optional: true, required: false
-  private _ipDiscovery?: string;
+  private _ipDiscovery?: string; 
   public get ipDiscovery() {
     return this.getStringAttribute('ip_discovery');
   }
@@ -659,7 +659,7 @@ export class MemorydbCluster extends cdktn.TerraformResource {
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -675,7 +675,7 @@ export class MemorydbCluster extends cdktn.TerraformResource {
   }
 
   // maintenance_window - computed: true, optional: true, required: false
-  private _maintenanceWindow?: string;
+  private _maintenanceWindow?: string; 
   public get maintenanceWindow() {
     return this.getStringAttribute('maintenance_window');
   }
@@ -691,7 +691,7 @@ export class MemorydbCluster extends cdktn.TerraformResource {
   }
 
   // multi_region_cluster_name - computed: true, optional: true, required: false
-  private _multiRegionClusterName?: string;
+  private _multiRegionClusterName?: string; 
   public get multiRegionClusterName() {
     return this.getStringAttribute('multi_region_cluster_name');
   }
@@ -707,7 +707,7 @@ export class MemorydbCluster extends cdktn.TerraformResource {
   }
 
   // network_type - computed: true, optional: true, required: false
-  private _networkType?: string;
+  private _networkType?: string; 
   public get networkType() {
     return this.getStringAttribute('network_type');
   }
@@ -723,7 +723,7 @@ export class MemorydbCluster extends cdktn.TerraformResource {
   }
 
   // node_type - computed: false, optional: false, required: true
-  private _nodeType?: string;
+  private _nodeType?: string; 
   public get nodeType() {
     return this.getStringAttribute('node_type');
   }
@@ -736,7 +736,7 @@ export class MemorydbCluster extends cdktn.TerraformResource {
   }
 
   // num_replicas_per_shard - computed: true, optional: true, required: false
-  private _numReplicasPerShard?: number;
+  private _numReplicasPerShard?: number; 
   public get numReplicasPerShard() {
     return this.getNumberAttribute('num_replicas_per_shard');
   }
@@ -752,7 +752,7 @@ export class MemorydbCluster extends cdktn.TerraformResource {
   }
 
   // num_shards - computed: true, optional: true, required: false
-  private _numShards?: number;
+  private _numShards?: number; 
   public get numShards() {
     return this.getNumberAttribute('num_shards');
   }
@@ -768,7 +768,7 @@ export class MemorydbCluster extends cdktn.TerraformResource {
   }
 
   // parameter_group_name - computed: true, optional: true, required: false
-  private _parameterGroupName?: string;
+  private _parameterGroupName?: string; 
   public get parameterGroupName() {
     return this.getStringAttribute('parameter_group_name');
   }
@@ -789,7 +789,7 @@ export class MemorydbCluster extends cdktn.TerraformResource {
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -805,7 +805,7 @@ export class MemorydbCluster extends cdktn.TerraformResource {
   }
 
   // security_group_ids - computed: true, optional: true, required: false
-  private _securityGroupIds?: string[];
+  private _securityGroupIds?: string[]; 
   public get securityGroupIds() {
     return this.getListAttribute('security_group_ids');
   }
@@ -821,7 +821,7 @@ export class MemorydbCluster extends cdktn.TerraformResource {
   }
 
   // snapshot_arns - computed: true, optional: true, required: false
-  private _snapshotArns?: string[];
+  private _snapshotArns?: string[]; 
   public get snapshotArns() {
     return this.getListAttribute('snapshot_arns');
   }
@@ -837,7 +837,7 @@ export class MemorydbCluster extends cdktn.TerraformResource {
   }
 
   // snapshot_name - computed: true, optional: true, required: false
-  private _snapshotName?: string;
+  private _snapshotName?: string; 
   public get snapshotName() {
     return this.getStringAttribute('snapshot_name');
   }
@@ -853,7 +853,7 @@ export class MemorydbCluster extends cdktn.TerraformResource {
   }
 
   // snapshot_retention_limit - computed: true, optional: true, required: false
-  private _snapshotRetentionLimit?: number;
+  private _snapshotRetentionLimit?: number; 
   public get snapshotRetentionLimit() {
     return this.getNumberAttribute('snapshot_retention_limit');
   }
@@ -869,7 +869,7 @@ export class MemorydbCluster extends cdktn.TerraformResource {
   }
 
   // snapshot_window - computed: true, optional: true, required: false
-  private _snapshotWindow?: string;
+  private _snapshotWindow?: string; 
   public get snapshotWindow() {
     return this.getStringAttribute('snapshot_window');
   }
@@ -885,7 +885,7 @@ export class MemorydbCluster extends cdktn.TerraformResource {
   }
 
   // sns_topic_arn - computed: true, optional: true, required: false
-  private _snsTopicArn?: string;
+  private _snsTopicArn?: string; 
   public get snsTopicArn() {
     return this.getStringAttribute('sns_topic_arn');
   }
@@ -901,7 +901,7 @@ export class MemorydbCluster extends cdktn.TerraformResource {
   }
 
   // sns_topic_status - computed: true, optional: true, required: false
-  private _snsTopicStatus?: string;
+  private _snsTopicStatus?: string; 
   public get snsTopicStatus() {
     return this.getStringAttribute('sns_topic_status');
   }
@@ -922,7 +922,7 @@ export class MemorydbCluster extends cdktn.TerraformResource {
   }
 
   // subnet_group_name - computed: true, optional: true, required: false
-  private _subnetGroupName?: string;
+  private _subnetGroupName?: string; 
   public get subnetGroupName() {
     return this.getStringAttribute('subnet_group_name');
   }
@@ -954,7 +954,7 @@ export class MemorydbCluster extends cdktn.TerraformResource {
   }
 
   // tls_enabled - computed: true, optional: true, required: false
-  private _tlsEnabled?: boolean | cdktn.IResolvable;
+  private _tlsEnabled?: boolean | cdktn.IResolvable; 
   public get tlsEnabled() {
     return this.getBooleanAttribute('tls_enabled');
   }

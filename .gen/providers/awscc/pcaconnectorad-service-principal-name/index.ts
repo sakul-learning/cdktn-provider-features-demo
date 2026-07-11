@@ -76,7 +76,7 @@ export class PcaconnectoradServicePrincipalName extends cdktn.TerraformResource 
   // ==========
 
   // connector_arn - computed: false, optional: false, required: true
-  private _connectorArn?: string;
+  private _connectorArn?: string; 
   public get connectorArn() {
     return this.getStringAttribute('connector_arn');
   }
@@ -89,7 +89,7 @@ export class PcaconnectoradServicePrincipalName extends cdktn.TerraformResource 
   }
 
   // directory_registration_arn - computed: false, optional: false, required: true
-  private _directoryRegistrationArn?: string;
+  private _directoryRegistrationArn?: string; 
   public get directoryRegistrationArn() {
     return this.getStringAttribute('directory_registration_arn');
   }

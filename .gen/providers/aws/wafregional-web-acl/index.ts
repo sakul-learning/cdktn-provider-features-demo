@@ -124,7 +124,7 @@ export class WafregionalWebAclDefaultActionOutputReference extends cdktn.Complex
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -234,7 +234,7 @@ export class WafregionalWebAclLoggingConfigurationRedactedFieldsFieldToMatchOutp
   }
 
   // data - computed: false, optional: true, required: false
-  private _data?: string;
+  private _data?: string; 
   public get data() {
     return this.getStringAttribute('data');
   }
@@ -250,7 +250,7 @@ export class WafregionalWebAclLoggingConfigurationRedactedFieldsFieldToMatchOutp
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -453,7 +453,7 @@ export class WafregionalWebAclLoggingConfigurationOutputReference extends cdktn.
   }
 
   // log_destination - computed: false, optional: false, required: true
-  private _logDestination?: string;
+  private _logDestination?: string; 
   public get logDestination() {
     return this.getStringAttribute('log_destination');
   }
@@ -550,7 +550,7 @@ export class WafregionalWebAclRuleActionOutputReference extends cdktn.ComplexObj
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -631,7 +631,7 @@ export class WafregionalWebAclRuleOverrideActionOutputReference extends cdktn.Co
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -796,7 +796,7 @@ export class WafregionalWebAclRuleOutputReference extends cdktn.ComplexObject {
   }
 
   // priority - computed: false, optional: false, required: true
-  private _priority?: number;
+  private _priority?: number; 
   public get priority() {
     return this.getNumberAttribute('priority');
   }
@@ -809,7 +809,7 @@ export class WafregionalWebAclRuleOutputReference extends cdktn.ComplexObject {
   }
 
   // rule_id - computed: false, optional: false, required: true
-  private _ruleId?: string;
+  private _ruleId?: string; 
   public get ruleId() {
     return this.getStringAttribute('rule_id');
   }
@@ -822,7 +822,7 @@ export class WafregionalWebAclRuleOutputReference extends cdktn.ComplexObject {
   }
 
   // type - computed: false, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -961,7 +961,7 @@ export class WafregionalWebAcl extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -977,7 +977,7 @@ export class WafregionalWebAcl extends cdktn.TerraformResource {
   }
 
   // metric_name - computed: false, optional: false, required: true
-  private _metricName?: string;
+  private _metricName?: string; 
   public get metricName() {
     return this.getStringAttribute('metric_name');
   }
@@ -990,7 +990,7 @@ export class WafregionalWebAcl extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1003,7 +1003,7 @@ export class WafregionalWebAcl extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1019,7 +1019,7 @@ export class WafregionalWebAcl extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -1035,7 +1035,7 @@ export class WafregionalWebAcl extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

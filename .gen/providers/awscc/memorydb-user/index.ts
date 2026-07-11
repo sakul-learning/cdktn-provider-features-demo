@@ -130,7 +130,7 @@ export class MemorydbUserAuthenticationModeOutputReference extends cdktn.Complex
   }
 
   // passwords - computed: true, optional: true, required: false
-  private _passwords?: string[];
+  private _passwords?: string[]; 
   public get passwords() {
     return this.getListAttribute('passwords');
   }
@@ -146,7 +146,7 @@ export class MemorydbUserAuthenticationModeOutputReference extends cdktn.Complex
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -263,7 +263,7 @@ export class MemorydbUserTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -279,7 +279,7 @@ export class MemorydbUserTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -376,7 +376,7 @@ export class MemorydbUser extends cdktn.TerraformResource {
   // ==========
 
   // access_string - computed: true, optional: true, required: false
-  private _accessString?: string;
+  private _accessString?: string; 
   public get accessString() {
     return this.getStringAttribute('access_string');
   }
@@ -439,7 +439,7 @@ export class MemorydbUser extends cdktn.TerraformResource {
   }
 
   // user_name - computed: false, optional: false, required: true
-  private _userName?: string;
+  private _userName?: string; 
   public get userName() {
     return this.getStringAttribute('user_name');
   }

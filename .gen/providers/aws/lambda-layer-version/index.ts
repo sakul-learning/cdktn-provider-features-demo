@@ -146,7 +146,7 @@ export class LambdaLayerVersion extends cdktn.TerraformResource {
   }
 
   // compatible_architectures - computed: false, optional: true, required: false
-  private _compatibleArchitectures?: string[];
+  private _compatibleArchitectures?: string[]; 
   public get compatibleArchitectures() {
     return cdktn.Fn.tolist(this.getListAttribute('compatible_architectures'));
   }
@@ -162,7 +162,7 @@ export class LambdaLayerVersion extends cdktn.TerraformResource {
   }
 
   // compatible_runtimes - computed: false, optional: true, required: false
-  private _compatibleRuntimes?: string[];
+  private _compatibleRuntimes?: string[]; 
   public get compatibleRuntimes() {
     return cdktn.Fn.tolist(this.getListAttribute('compatible_runtimes'));
   }
@@ -183,7 +183,7 @@ export class LambdaLayerVersion extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -199,7 +199,7 @@ export class LambdaLayerVersion extends cdktn.TerraformResource {
   }
 
   // filename - computed: false, optional: true, required: false
-  private _filename?: string;
+  private _filename?: string; 
   public get filename() {
     return this.getStringAttribute('filename');
   }
@@ -215,7 +215,7 @@ export class LambdaLayerVersion extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -236,7 +236,7 @@ export class LambdaLayerVersion extends cdktn.TerraformResource {
   }
 
   // layer_name - computed: false, optional: false, required: true
-  private _layerName?: string;
+  private _layerName?: string; 
   public get layerName() {
     return this.getStringAttribute('layer_name');
   }
@@ -249,7 +249,7 @@ export class LambdaLayerVersion extends cdktn.TerraformResource {
   }
 
   // license_info - computed: false, optional: true, required: false
-  private _licenseInfo?: string;
+  private _licenseInfo?: string; 
   public get licenseInfo() {
     return this.getStringAttribute('license_info');
   }
@@ -265,7 +265,7 @@ export class LambdaLayerVersion extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -281,7 +281,7 @@ export class LambdaLayerVersion extends cdktn.TerraformResource {
   }
 
   // s3_bucket - computed: false, optional: true, required: false
-  private _s3Bucket?: string;
+  private _s3Bucket?: string; 
   public get s3Bucket() {
     return this.getStringAttribute('s3_bucket');
   }
@@ -297,7 +297,7 @@ export class LambdaLayerVersion extends cdktn.TerraformResource {
   }
 
   // s3_key - computed: false, optional: true, required: false
-  private _s3Key?: string;
+  private _s3Key?: string; 
   public get s3Key() {
     return this.getStringAttribute('s3_key');
   }
@@ -313,7 +313,7 @@ export class LambdaLayerVersion extends cdktn.TerraformResource {
   }
 
   // s3_object_version - computed: false, optional: true, required: false
-  private _s3ObjectVersion?: string;
+  private _s3ObjectVersion?: string; 
   public get s3ObjectVersion() {
     return this.getStringAttribute('s3_object_version');
   }
@@ -339,7 +339,7 @@ export class LambdaLayerVersion extends cdktn.TerraformResource {
   }
 
   // skip_destroy - computed: false, optional: true, required: false
-  private _skipDestroy?: boolean | cdktn.IResolvable;
+  private _skipDestroy?: boolean | cdktn.IResolvable; 
   public get skipDestroy() {
     return this.getBooleanAttribute('skip_destroy');
   }
@@ -355,7 +355,7 @@ export class LambdaLayerVersion extends cdktn.TerraformResource {
   }
 
   // source_code_hash - computed: true, optional: true, required: false
-  private _sourceCodeHash?: string;
+  private _sourceCodeHash?: string; 
   public get sourceCodeHash() {
     return this.getStringAttribute('source_code_hash');
   }

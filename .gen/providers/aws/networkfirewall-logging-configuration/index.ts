@@ -150,7 +150,7 @@ export class NetworkfirewallLoggingConfigurationLoggingConfigurationLogDestinati
   }
 
   // log_destination - computed: false, optional: false, required: true
-  private _logDestination?: { [key: string]: string };
+  private _logDestination?: { [key: string]: string }; 
   public get logDestination() {
     return this.getStringMapAttribute('log_destination');
   }
@@ -163,7 +163,7 @@ export class NetworkfirewallLoggingConfigurationLoggingConfigurationLogDestinati
   }
 
   // log_destination_type - computed: false, optional: false, required: true
-  private _logDestinationType?: string;
+  private _logDestinationType?: string; 
   public get logDestinationType() {
     return this.getStringAttribute('log_destination_type');
   }
@@ -176,7 +176,7 @@ export class NetworkfirewallLoggingConfigurationLoggingConfigurationLogDestinati
   }
 
   // log_type - computed: false, optional: false, required: true
-  private _logType?: string;
+  private _logType?: string; 
   public get logType() {
     return this.getStringAttribute('log_type');
   }
@@ -354,7 +354,7 @@ export class NetworkfirewallLoggingConfiguration extends cdktn.TerraformResource
   // ==========
 
   // enable_monitoring_dashboard - computed: true, optional: true, required: false
-  private _enableMonitoringDashboard?: boolean | cdktn.IResolvable;
+  private _enableMonitoringDashboard?: boolean | cdktn.IResolvable; 
   public get enableMonitoringDashboard() {
     return this.getBooleanAttribute('enable_monitoring_dashboard');
   }
@@ -370,7 +370,7 @@ export class NetworkfirewallLoggingConfiguration extends cdktn.TerraformResource
   }
 
   // firewall_arn - computed: false, optional: false, required: true
-  private _firewallArn?: string;
+  private _firewallArn?: string; 
   public get firewallArn() {
     return this.getStringAttribute('firewall_arn');
   }
@@ -383,7 +383,7 @@ export class NetworkfirewallLoggingConfiguration extends cdktn.TerraformResource
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -399,7 +399,7 @@ export class NetworkfirewallLoggingConfiguration extends cdktn.TerraformResource
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

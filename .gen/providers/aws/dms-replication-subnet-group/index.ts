@@ -106,7 +106,7 @@ export class DmsReplicationSubnetGroup extends cdktn.TerraformResource {
   // ==========
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -122,7 +122,7 @@ export class DmsReplicationSubnetGroup extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -143,7 +143,7 @@ export class DmsReplicationSubnetGroup extends cdktn.TerraformResource {
   }
 
   // replication_subnet_group_description - computed: false, optional: false, required: true
-  private _replicationSubnetGroupDescription?: string;
+  private _replicationSubnetGroupDescription?: string; 
   public get replicationSubnetGroupDescription() {
     return this.getStringAttribute('replication_subnet_group_description');
   }
@@ -156,7 +156,7 @@ export class DmsReplicationSubnetGroup extends cdktn.TerraformResource {
   }
 
   // replication_subnet_group_id - computed: false, optional: false, required: true
-  private _replicationSubnetGroupId?: string;
+  private _replicationSubnetGroupId?: string; 
   public get replicationSubnetGroupId() {
     return this.getStringAttribute('replication_subnet_group_id');
   }
@@ -169,7 +169,7 @@ export class DmsReplicationSubnetGroup extends cdktn.TerraformResource {
   }
 
   // subnet_ids - computed: false, optional: false, required: true
-  private _subnetIds?: string[];
+  private _subnetIds?: string[]; 
   public get subnetIds() {
     return cdktn.Fn.tolist(this.getListAttribute('subnet_ids'));
   }
@@ -182,7 +182,7 @@ export class DmsReplicationSubnetGroup extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -198,7 +198,7 @@ export class DmsReplicationSubnetGroup extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

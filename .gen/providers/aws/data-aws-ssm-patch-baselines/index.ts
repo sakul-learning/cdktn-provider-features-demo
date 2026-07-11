@@ -217,7 +217,7 @@ export class DataAwsSsmPatchBaselinesFilterOutputReference extends cdktn.Complex
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -230,7 +230,7 @@ export class DataAwsSsmPatchBaselinesFilterOutputReference extends cdktn.Complex
   }
 
   // values - computed: false, optional: false, required: true
-  private _values?: string[];
+  private _values?: string[]; 
   public get values() {
     return cdktn.Fn.tolist(this.getListAttribute('values'));
   }
@@ -329,7 +329,7 @@ export class DataAwsSsmPatchBaselines extends cdktn.TerraformDataSource {
   }
 
   // default_baselines - computed: false, optional: true, required: false
-  private _defaultBaselines?: boolean | cdktn.IResolvable;
+  private _defaultBaselines?: boolean | cdktn.IResolvable; 
   public get defaultBaselines() {
     return this.getBooleanAttribute('default_baselines');
   }
@@ -345,7 +345,7 @@ export class DataAwsSsmPatchBaselines extends cdktn.TerraformDataSource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

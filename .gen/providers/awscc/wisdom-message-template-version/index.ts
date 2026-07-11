@@ -85,7 +85,7 @@ export class WisdomMessageTemplateVersion extends cdktn.TerraformResource {
   }
 
   // message_template_arn - computed: false, optional: false, required: true
-  private _messageTemplateArn?: string;
+  private _messageTemplateArn?: string; 
   public get messageTemplateArn() {
     return this.getStringAttribute('message_template_arn');
   }
@@ -98,7 +98,7 @@ export class WisdomMessageTemplateVersion extends cdktn.TerraformResource {
   }
 
   // message_template_content_sha_256 - computed: true, optional: true, required: false
-  private _messageTemplateContentSha256?: string;
+  private _messageTemplateContentSha256?: string; 
   public get messageTemplateContentSha256() {
     return this.getStringAttribute('message_template_content_sha_256');
   }

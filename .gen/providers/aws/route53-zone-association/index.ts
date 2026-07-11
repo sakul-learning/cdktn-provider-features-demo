@@ -129,7 +129,7 @@ export class Route53ZoneAssociationTimeoutsOutputReference extends cdktn.Complex
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -145,7 +145,7 @@ export class Route53ZoneAssociationTimeoutsOutputReference extends cdktn.Complex
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -223,7 +223,7 @@ export class Route53ZoneAssociation extends cdktn.TerraformResource {
   // ==========
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -244,7 +244,7 @@ export class Route53ZoneAssociation extends cdktn.TerraformResource {
   }
 
   // vpc_id - computed: false, optional: false, required: true
-  private _vpcId?: string;
+  private _vpcId?: string; 
   public get vpcId() {
     return this.getStringAttribute('vpc_id');
   }
@@ -257,7 +257,7 @@ export class Route53ZoneAssociation extends cdktn.TerraformResource {
   }
 
   // vpc_region - computed: true, optional: true, required: false
-  private _vpcRegion?: string;
+  private _vpcRegion?: string; 
   public get vpcRegion() {
     return this.getStringAttribute('vpc_region');
   }
@@ -273,7 +273,7 @@ export class Route53ZoneAssociation extends cdktn.TerraformResource {
   }
 
   // zone_id - computed: false, optional: false, required: true
-  private _zoneId?: string;
+  private _zoneId?: string; 
   public get zoneId() {
     return this.getStringAttribute('zone_id');
   }

@@ -151,7 +151,7 @@ export class Ec2TrafficMirrorFilterRuleDestinationPortRangeOutputReference exten
   }
 
   // from_port - computed: false, optional: true, required: false
-  private _fromPort?: number;
+  private _fromPort?: number; 
   public get fromPort() {
     return this.getNumberAttribute('from_port');
   }
@@ -167,7 +167,7 @@ export class Ec2TrafficMirrorFilterRuleDestinationPortRangeOutputReference exten
   }
 
   // to_port - computed: false, optional: true, required: false
-  private _toPort?: number;
+  private _toPort?: number; 
   public get toPort() {
     return this.getNumberAttribute('to_port');
   }
@@ -268,7 +268,7 @@ export class Ec2TrafficMirrorFilterRuleSourcePortRangeOutputReference extends cd
   }
 
   // from_port - computed: false, optional: true, required: false
-  private _fromPort?: number;
+  private _fromPort?: number; 
   public get fromPort() {
     return this.getNumberAttribute('from_port');
   }
@@ -284,7 +284,7 @@ export class Ec2TrafficMirrorFilterRuleSourcePortRangeOutputReference extends cd
   }
 
   // to_port - computed: false, optional: true, required: false
-  private _toPort?: number;
+  private _toPort?: number; 
   public get toPort() {
     return this.getNumberAttribute('to_port');
   }
@@ -374,7 +374,7 @@ export class Ec2TrafficMirrorFilterRule extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -390,7 +390,7 @@ export class Ec2TrafficMirrorFilterRule extends cdktn.TerraformResource {
   }
 
   // destination_cidr_block - computed: false, optional: false, required: true
-  private _destinationCidrBlock?: string;
+  private _destinationCidrBlock?: string; 
   public get destinationCidrBlock() {
     return this.getStringAttribute('destination_cidr_block');
   }
@@ -403,7 +403,7 @@ export class Ec2TrafficMirrorFilterRule extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -419,7 +419,7 @@ export class Ec2TrafficMirrorFilterRule extends cdktn.TerraformResource {
   }
 
   // protocol - computed: false, optional: true, required: false
-  private _protocol?: number;
+  private _protocol?: number; 
   public get protocol() {
     return this.getNumberAttribute('protocol');
   }
@@ -435,7 +435,7 @@ export class Ec2TrafficMirrorFilterRule extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -451,7 +451,7 @@ export class Ec2TrafficMirrorFilterRule extends cdktn.TerraformResource {
   }
 
   // rule_action - computed: false, optional: false, required: true
-  private _ruleAction?: string;
+  private _ruleAction?: string; 
   public get ruleAction() {
     return this.getStringAttribute('rule_action');
   }
@@ -464,7 +464,7 @@ export class Ec2TrafficMirrorFilterRule extends cdktn.TerraformResource {
   }
 
   // rule_number - computed: false, optional: false, required: true
-  private _ruleNumber?: number;
+  private _ruleNumber?: number; 
   public get ruleNumber() {
     return this.getNumberAttribute('rule_number');
   }
@@ -477,7 +477,7 @@ export class Ec2TrafficMirrorFilterRule extends cdktn.TerraformResource {
   }
 
   // source_cidr_block - computed: false, optional: false, required: true
-  private _sourceCidrBlock?: string;
+  private _sourceCidrBlock?: string; 
   public get sourceCidrBlock() {
     return this.getStringAttribute('source_cidr_block');
   }
@@ -490,7 +490,7 @@ export class Ec2TrafficMirrorFilterRule extends cdktn.TerraformResource {
   }
 
   // traffic_direction - computed: false, optional: false, required: true
-  private _trafficDirection?: string;
+  private _trafficDirection?: string; 
   public get trafficDirection() {
     return this.getStringAttribute('traffic_direction');
   }
@@ -503,7 +503,7 @@ export class Ec2TrafficMirrorFilterRule extends cdktn.TerraformResource {
   }
 
   // traffic_mirror_filter_id - computed: false, optional: false, required: true
-  private _trafficMirrorFilterId?: string;
+  private _trafficMirrorFilterId?: string; 
   public get trafficMirrorFilterId() {
     return this.getStringAttribute('traffic_mirror_filter_id');
   }

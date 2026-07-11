@@ -85,7 +85,7 @@ export class CloudtrailResourcePolicy extends cdktn.TerraformResource {
   }
 
   // resource_arn - computed: false, optional: false, required: true
-  private _resourceArn?: string;
+  private _resourceArn?: string; 
   public get resourceArn() {
     return this.getStringAttribute('resource_arn');
   }
@@ -98,7 +98,7 @@ export class CloudtrailResourcePolicy extends cdktn.TerraformResource {
   }
 
   // resource_policy - computed: false, optional: false, required: true
-  private _resourcePolicy?: string;
+  private _resourcePolicy?: string; 
   public get resourcePolicy() {
     return this.getStringAttribute('resource_policy');
   }

@@ -173,7 +173,7 @@ export class DataAwsEcrImages extends cdktn.TerraformDataSource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -189,7 +189,7 @@ export class DataAwsEcrImages extends cdktn.TerraformDataSource {
   }
 
   // registry_id - computed: false, optional: true, required: false
-  private _registryId?: string;
+  private _registryId?: string; 
   public get registryId() {
     return this.getStringAttribute('registry_id');
   }
@@ -205,7 +205,7 @@ export class DataAwsEcrImages extends cdktn.TerraformDataSource {
   }
 
   // repository_name - computed: false, optional: false, required: true
-  private _repositoryName?: string;
+  private _repositoryName?: string; 
   public get repositoryName() {
     return this.getStringAttribute('repository_name');
   }

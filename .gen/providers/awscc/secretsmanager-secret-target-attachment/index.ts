@@ -86,7 +86,7 @@ export class SecretsmanagerSecretTargetAttachment extends cdktn.TerraformResourc
   }
 
   // secret_id - computed: false, optional: false, required: true
-  private _secretId?: string;
+  private _secretId?: string; 
   public get secretId() {
     return this.getStringAttribute('secret_id');
   }
@@ -104,7 +104,7 @@ export class SecretsmanagerSecretTargetAttachment extends cdktn.TerraformResourc
   }
 
   // target_id - computed: false, optional: false, required: true
-  private _targetId?: string;
+  private _targetId?: string; 
   public get targetId() {
     return this.getStringAttribute('target_id');
   }
@@ -117,7 +117,7 @@ export class SecretsmanagerSecretTargetAttachment extends cdktn.TerraformResourc
   }
 
   // target_type - computed: false, optional: false, required: true
-  private _targetType?: string;
+  private _targetType?: string; 
   public get targetType() {
     return this.getStringAttribute('target_type');
   }

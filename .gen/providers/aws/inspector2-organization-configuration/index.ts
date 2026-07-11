@@ -170,7 +170,7 @@ export class Inspector2OrganizationConfigurationAutoEnableOutputReference extend
   }
 
   // code_repository - computed: false, optional: true, required: false
-  private _codeRepository?: boolean | cdktn.IResolvable;
+  private _codeRepository?: boolean | cdktn.IResolvable; 
   public get codeRepository() {
     return this.getBooleanAttribute('code_repository');
   }
@@ -186,7 +186,7 @@ export class Inspector2OrganizationConfigurationAutoEnableOutputReference extend
   }
 
   // ec2 - computed: false, optional: false, required: true
-  private _ec2?: boolean | cdktn.IResolvable;
+  private _ec2?: boolean | cdktn.IResolvable; 
   public get ec2() {
     return this.getBooleanAttribute('ec2');
   }
@@ -199,7 +199,7 @@ export class Inspector2OrganizationConfigurationAutoEnableOutputReference extend
   }
 
   // ecr - computed: false, optional: false, required: true
-  private _ecr?: boolean | cdktn.IResolvable;
+  private _ecr?: boolean | cdktn.IResolvable; 
   public get ecr() {
     return this.getBooleanAttribute('ecr');
   }
@@ -212,7 +212,7 @@ export class Inspector2OrganizationConfigurationAutoEnableOutputReference extend
   }
 
   // lambda - computed: false, optional: true, required: false
-  private _lambda?: boolean | cdktn.IResolvable;
+  private _lambda?: boolean | cdktn.IResolvable; 
   public get lambda() {
     return this.getBooleanAttribute('lambda');
   }
@@ -228,7 +228,7 @@ export class Inspector2OrganizationConfigurationAutoEnableOutputReference extend
   }
 
   // lambda_code - computed: false, optional: true, required: false
-  private _lambdaCode?: boolean | cdktn.IResolvable;
+  private _lambdaCode?: boolean | cdktn.IResolvable; 
   public get lambdaCode() {
     return this.getBooleanAttribute('lambda_code');
   }
@@ -356,7 +356,7 @@ export class Inspector2OrganizationConfigurationTimeoutsOutputReference extends 
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -372,7 +372,7 @@ export class Inspector2OrganizationConfigurationTimeoutsOutputReference extends 
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -388,7 +388,7 @@ export class Inspector2OrganizationConfigurationTimeoutsOutputReference extends 
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -465,7 +465,7 @@ export class Inspector2OrganizationConfiguration extends cdktn.TerraformResource
   // ==========
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -486,7 +486,7 @@ export class Inspector2OrganizationConfiguration extends cdktn.TerraformResource
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

@@ -94,7 +94,7 @@ export class Ec2NetworkPerformanceMetricSubscription extends cdktn.TerraformReso
   // ==========
 
   // destination - computed: false, optional: false, required: true
-  private _destination?: string;
+  private _destination?: string; 
   public get destination() {
     return this.getStringAttribute('destination');
   }
@@ -112,7 +112,7 @@ export class Ec2NetworkPerformanceMetricSubscription extends cdktn.TerraformReso
   }
 
   // metric - computed: false, optional: false, required: true
-  private _metric?: string;
+  private _metric?: string; 
   public get metric() {
     return this.getStringAttribute('metric');
   }
@@ -125,7 +125,7 @@ export class Ec2NetworkPerformanceMetricSubscription extends cdktn.TerraformReso
   }
 
   // source - computed: false, optional: false, required: true
-  private _source?: string;
+  private _source?: string; 
   public get source() {
     return this.getStringAttribute('source');
   }
@@ -138,7 +138,7 @@ export class Ec2NetworkPerformanceMetricSubscription extends cdktn.TerraformReso
   }
 
   // statistic - computed: false, optional: false, required: true
-  private _statistic?: string;
+  private _statistic?: string; 
   public get statistic() {
     return this.getStringAttribute('statistic');
   }

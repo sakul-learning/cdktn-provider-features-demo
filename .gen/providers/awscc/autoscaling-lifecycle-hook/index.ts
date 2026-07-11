@@ -122,7 +122,7 @@ export class AutoscalingLifecycleHook extends cdktn.TerraformResource {
   // ==========
 
   // auto_scaling_group_name - computed: false, optional: false, required: true
-  private _autoScalingGroupName?: string;
+  private _autoScalingGroupName?: string; 
   public get autoScalingGroupName() {
     return this.getStringAttribute('auto_scaling_group_name');
   }
@@ -135,7 +135,7 @@ export class AutoscalingLifecycleHook extends cdktn.TerraformResource {
   }
 
   // default_result - computed: true, optional: true, required: false
-  private _defaultResult?: string;
+  private _defaultResult?: string; 
   public get defaultResult() {
     return this.getStringAttribute('default_result');
   }
@@ -151,7 +151,7 @@ export class AutoscalingLifecycleHook extends cdktn.TerraformResource {
   }
 
   // heartbeat_timeout - computed: true, optional: true, required: false
-  private _heartbeatTimeout?: number;
+  private _heartbeatTimeout?: number; 
   public get heartbeatTimeout() {
     return this.getNumberAttribute('heartbeat_timeout');
   }
@@ -172,7 +172,7 @@ export class AutoscalingLifecycleHook extends cdktn.TerraformResource {
   }
 
   // lifecycle_hook_name - computed: true, optional: true, required: false
-  private _lifecycleHookName?: string;
+  private _lifecycleHookName?: string; 
   public get lifecycleHookName() {
     return this.getStringAttribute('lifecycle_hook_name');
   }
@@ -188,7 +188,7 @@ export class AutoscalingLifecycleHook extends cdktn.TerraformResource {
   }
 
   // lifecycle_transition - computed: false, optional: false, required: true
-  private _lifecycleTransition?: string;
+  private _lifecycleTransition?: string; 
   public get lifecycleTransition() {
     return this.getStringAttribute('lifecycle_transition');
   }
@@ -201,7 +201,7 @@ export class AutoscalingLifecycleHook extends cdktn.TerraformResource {
   }
 
   // notification_metadata - computed: true, optional: true, required: false
-  private _notificationMetadata?: string;
+  private _notificationMetadata?: string; 
   public get notificationMetadata() {
     return this.getStringAttribute('notification_metadata');
   }
@@ -217,7 +217,7 @@ export class AutoscalingLifecycleHook extends cdktn.TerraformResource {
   }
 
   // notification_target_arn - computed: true, optional: true, required: false
-  private _notificationTargetArn?: string;
+  private _notificationTargetArn?: string; 
   public get notificationTargetArn() {
     return this.getStringAttribute('notification_target_arn');
   }
@@ -233,7 +233,7 @@ export class AutoscalingLifecycleHook extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }

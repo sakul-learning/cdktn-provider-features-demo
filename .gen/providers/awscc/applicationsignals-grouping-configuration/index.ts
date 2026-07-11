@@ -127,7 +127,7 @@ export class ApplicationsignalsGroupingConfigurationGroupingAttributeDefinitions
   }
 
   // default_grouping_value - computed: true, optional: true, required: false
-  private _defaultGroupingValue?: string;
+  private _defaultGroupingValue?: string; 
   public get defaultGroupingValue() {
     return this.getStringAttribute('default_grouping_value');
   }
@@ -143,7 +143,7 @@ export class ApplicationsignalsGroupingConfigurationGroupingAttributeDefinitions
   }
 
   // grouping_name - computed: false, optional: false, required: true
-  private _groupingName?: string;
+  private _groupingName?: string; 
   public get groupingName() {
     return this.getStringAttribute('grouping_name');
   }
@@ -156,7 +156,7 @@ export class ApplicationsignalsGroupingConfigurationGroupingAttributeDefinitions
   }
 
   // grouping_source_keys - computed: false, optional: false, required: true
-  private _groupingSourceKeys?: string[];
+  private _groupingSourceKeys?: string[]; 
   public get groupingSourceKeys() {
     return this.getListAttribute('grouping_source_keys');
   }

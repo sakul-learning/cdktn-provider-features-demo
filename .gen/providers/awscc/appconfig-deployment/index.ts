@@ -175,7 +175,7 @@ export class AppconfigDeploymentDynamicExtensionParametersOutputReference extend
   }
 
   // extension_reference - computed: true, optional: true, required: false
-  private _extensionReference?: string;
+  private _extensionReference?: string; 
   public get extensionReference() {
     return this.getStringAttribute('extension_reference');
   }
@@ -191,7 +191,7 @@ export class AppconfigDeploymentDynamicExtensionParametersOutputReference extend
   }
 
   // parameter_name - computed: true, optional: true, required: false
-  private _parameterName?: string;
+  private _parameterName?: string; 
   public get parameterName() {
     return this.getStringAttribute('parameter_name');
   }
@@ -207,7 +207,7 @@ export class AppconfigDeploymentDynamicExtensionParametersOutputReference extend
   }
 
   // parameter_value - computed: true, optional: true, required: false
-  private _parameterValue?: string;
+  private _parameterValue?: string; 
   public get parameterValue() {
     return this.getStringAttribute('parameter_value');
   }
@@ -344,7 +344,7 @@ export class AppconfigDeploymentTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -360,7 +360,7 @@ export class AppconfigDeploymentTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -462,7 +462,7 @@ export class AppconfigDeployment extends cdktn.TerraformResource {
   // ==========
 
   // application_id - computed: false, optional: false, required: true
-  private _applicationId?: string;
+  private _applicationId?: string; 
   public get applicationId() {
     return this.getStringAttribute('application_id');
   }
@@ -475,7 +475,7 @@ export class AppconfigDeployment extends cdktn.TerraformResource {
   }
 
   // configuration_profile_id - computed: false, optional: false, required: true
-  private _configurationProfileId?: string;
+  private _configurationProfileId?: string; 
   public get configurationProfileId() {
     return this.getStringAttribute('configuration_profile_id');
   }
@@ -488,7 +488,7 @@ export class AppconfigDeployment extends cdktn.TerraformResource {
   }
 
   // configuration_version - computed: false, optional: false, required: true
-  private _configurationVersion?: string;
+  private _configurationVersion?: string; 
   public get configurationVersion() {
     return this.getStringAttribute('configuration_version');
   }
@@ -506,7 +506,7 @@ export class AppconfigDeployment extends cdktn.TerraformResource {
   }
 
   // deployment_strategy_id - computed: false, optional: false, required: true
-  private _deploymentStrategyId?: string;
+  private _deploymentStrategyId?: string; 
   public get deploymentStrategyId() {
     return this.getStringAttribute('deployment_strategy_id');
   }
@@ -519,7 +519,7 @@ export class AppconfigDeployment extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -551,7 +551,7 @@ export class AppconfigDeployment extends cdktn.TerraformResource {
   }
 
   // environment_id - computed: false, optional: false, required: true
-  private _environmentId?: string;
+  private _environmentId?: string; 
   public get environmentId() {
     return this.getStringAttribute('environment_id');
   }
@@ -569,7 +569,7 @@ export class AppconfigDeployment extends cdktn.TerraformResource {
   }
 
   // kms_key_identifier - computed: true, optional: true, required: false
-  private _kmsKeyIdentifier?: string;
+  private _kmsKeyIdentifier?: string; 
   public get kmsKeyIdentifier() {
     return this.getStringAttribute('kms_key_identifier');
   }

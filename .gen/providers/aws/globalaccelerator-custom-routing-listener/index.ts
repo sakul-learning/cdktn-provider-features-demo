@@ -129,7 +129,7 @@ export class GlobalacceleratorCustomRoutingListenerPortRangeOutputReference exte
   }
 
   // from_port - computed: false, optional: true, required: false
-  private _fromPort?: number;
+  private _fromPort?: number; 
   public get fromPort() {
     return this.getNumberAttribute('from_port');
   }
@@ -145,7 +145,7 @@ export class GlobalacceleratorCustomRoutingListenerPortRangeOutputReference exte
   }
 
   // to_port - computed: false, optional: true, required: false
-  private _toPort?: number;
+  private _toPort?: number; 
   public get toPort() {
     return this.getNumberAttribute('to_port');
   }
@@ -293,7 +293,7 @@ export class GlobalacceleratorCustomRoutingListenerTimeoutsOutputReference exten
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -309,7 +309,7 @@ export class GlobalacceleratorCustomRoutingListenerTimeoutsOutputReference exten
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -325,7 +325,7 @@ export class GlobalacceleratorCustomRoutingListenerTimeoutsOutputReference exten
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -402,7 +402,7 @@ export class GlobalacceleratorCustomRoutingListener extends cdktn.TerraformResou
   // ==========
 
   // accelerator_arn - computed: false, optional: false, required: true
-  private _acceleratorArn?: string;
+  private _acceleratorArn?: string; 
   public get acceleratorArn() {
     return this.getStringAttribute('accelerator_arn');
   }
@@ -420,7 +420,7 @@ export class GlobalacceleratorCustomRoutingListener extends cdktn.TerraformResou
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }

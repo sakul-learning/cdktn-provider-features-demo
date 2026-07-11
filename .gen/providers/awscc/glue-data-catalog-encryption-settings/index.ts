@@ -120,7 +120,7 @@ export class GlueDataCatalogEncryptionSettingsDataCatalogEncryptionSettingsConne
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -136,7 +136,7 @@ export class GlueDataCatalogEncryptionSettingsDataCatalogEncryptionSettingsConne
   }
 
   // return_connection_password_encrypted - computed: true, optional: true, required: false
-  private _returnConnectionPasswordEncrypted?: boolean | cdktn.IResolvable;
+  private _returnConnectionPasswordEncrypted?: boolean | cdktn.IResolvable; 
   public get returnConnectionPasswordEncrypted() {
     return this.getBooleanAttribute('return_connection_password_encrypted');
   }
@@ -270,7 +270,7 @@ export class GlueDataCatalogEncryptionSettingsDataCatalogEncryptionSettingsEncry
   }
 
   // catalog_encryption_mode - computed: true, optional: true, required: false
-  private _catalogEncryptionMode?: string;
+  private _catalogEncryptionMode?: string; 
   public get catalogEncryptionMode() {
     return this.getStringAttribute('catalog_encryption_mode');
   }
@@ -286,7 +286,7 @@ export class GlueDataCatalogEncryptionSettingsDataCatalogEncryptionSettingsEncry
   }
 
   // catalog_encryption_service_role - computed: true, optional: true, required: false
-  private _catalogEncryptionServiceRole?: string;
+  private _catalogEncryptionServiceRole?: string; 
   public get catalogEncryptionServiceRole() {
     return this.getStringAttribute('catalog_encryption_service_role');
   }
@@ -302,7 +302,7 @@ export class GlueDataCatalogEncryptionSettingsDataCatalogEncryptionSettingsEncry
   }
 
   // sse_aws_kms_key_id - computed: true, optional: true, required: false
-  private _sseAwsKmsKeyId?: string;
+  private _sseAwsKmsKeyId?: string; 
   public get sseAwsKmsKeyId() {
     return this.getStringAttribute('sse_aws_kms_key_id');
   }
@@ -508,7 +508,7 @@ export class GlueDataCatalogEncryptionSettings extends cdktn.TerraformResource {
   // ==========
 
   // catalog_id - computed: false, optional: false, required: true
-  private _catalogId?: string;
+  private _catalogId?: string; 
   public get catalogId() {
     return this.getStringAttribute('catalog_id');
   }

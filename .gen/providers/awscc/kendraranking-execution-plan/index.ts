@@ -111,7 +111,7 @@ export class KendrarankingExecutionPlanCapacityUnitsOutputReference extends cdkt
   }
 
   // rescore_capacity_units - computed: true, optional: true, required: false
-  private _rescoreCapacityUnits?: number;
+  private _rescoreCapacityUnits?: number; 
   public get rescoreCapacityUnits() {
     return this.getNumberAttribute('rescore_capacity_units');
   }
@@ -228,7 +228,7 @@ export class KendrarankingExecutionPlanTagsOutputReference extends cdktn.Complex
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -244,7 +244,7 @@ export class KendrarankingExecutionPlanTagsOutputReference extends cdktn.Complex
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -362,7 +362,7 @@ export class KendrarankingExecutionPlan extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -388,7 +388,7 @@ export class KendrarankingExecutionPlan extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }

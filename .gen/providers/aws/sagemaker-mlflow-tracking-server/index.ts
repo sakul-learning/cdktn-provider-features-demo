@@ -131,7 +131,7 @@ export class SagemakerMlflowTrackingServer extends cdktn.TerraformResource {
   }
 
   // artifact_store_uri - computed: false, optional: false, required: true
-  private _artifactStoreUri?: string;
+  private _artifactStoreUri?: string; 
   public get artifactStoreUri() {
     return this.getStringAttribute('artifact_store_uri');
   }
@@ -144,7 +144,7 @@ export class SagemakerMlflowTrackingServer extends cdktn.TerraformResource {
   }
 
   // automatic_model_registration - computed: false, optional: true, required: false
-  private _automaticModelRegistration?: boolean | cdktn.IResolvable;
+  private _automaticModelRegistration?: boolean | cdktn.IResolvable; 
   public get automaticModelRegistration() {
     return this.getBooleanAttribute('automatic_model_registration');
   }
@@ -160,7 +160,7 @@ export class SagemakerMlflowTrackingServer extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -176,7 +176,7 @@ export class SagemakerMlflowTrackingServer extends cdktn.TerraformResource {
   }
 
   // mlflow_version - computed: true, optional: true, required: false
-  private _mlflowVersion?: string;
+  private _mlflowVersion?: string; 
   public get mlflowVersion() {
     return this.getStringAttribute('mlflow_version');
   }
@@ -192,7 +192,7 @@ export class SagemakerMlflowTrackingServer extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -208,7 +208,7 @@ export class SagemakerMlflowTrackingServer extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -221,7 +221,7 @@ export class SagemakerMlflowTrackingServer extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -237,7 +237,7 @@ export class SagemakerMlflowTrackingServer extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -253,7 +253,7 @@ export class SagemakerMlflowTrackingServer extends cdktn.TerraformResource {
   }
 
   // tracking_server_name - computed: false, optional: false, required: true
-  private _trackingServerName?: string;
+  private _trackingServerName?: string; 
   public get trackingServerName() {
     return this.getStringAttribute('tracking_server_name');
   }
@@ -266,7 +266,7 @@ export class SagemakerMlflowTrackingServer extends cdktn.TerraformResource {
   }
 
   // tracking_server_size - computed: false, optional: true, required: false
-  private _trackingServerSize?: string;
+  private _trackingServerSize?: string; 
   public get trackingServerSize() {
     return this.getStringAttribute('tracking_server_size');
   }
@@ -287,7 +287,7 @@ export class SagemakerMlflowTrackingServer extends cdktn.TerraformResource {
   }
 
   // weekly_maintenance_window_start - computed: true, optional: true, required: false
-  private _weeklyMaintenanceWindowStart?: string;
+  private _weeklyMaintenanceWindowStart?: string; 
   public get weeklyMaintenanceWindowStart() {
     return this.getStringAttribute('weekly_maintenance_window_start');
   }

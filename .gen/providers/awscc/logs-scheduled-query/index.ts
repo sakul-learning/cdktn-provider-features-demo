@@ -160,7 +160,7 @@ export class LogsScheduledQueryDestinationConfigurationS3ConfigurationOutputRefe
   }
 
   // destination_identifier - computed: true, optional: true, required: false
-  private _destinationIdentifier?: string;
+  private _destinationIdentifier?: string; 
   public get destinationIdentifier() {
     return this.getStringAttribute('destination_identifier');
   }
@@ -176,7 +176,7 @@ export class LogsScheduledQueryDestinationConfigurationS3ConfigurationOutputRefe
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -383,7 +383,7 @@ export class LogsScheduledQueryTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -399,7 +399,7 @@ export class LogsScheduledQueryTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -511,7 +511,7 @@ export class LogsScheduledQuery extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -543,7 +543,7 @@ export class LogsScheduledQuery extends cdktn.TerraformResource {
   }
 
   // execution_role_arn - computed: false, optional: false, required: true
-  private _executionRoleArn?: string;
+  private _executionRoleArn?: string; 
   public get executionRoleArn() {
     return this.getStringAttribute('execution_role_arn');
   }
@@ -576,7 +576,7 @@ export class LogsScheduledQuery extends cdktn.TerraformResource {
   }
 
   // log_group_identifiers - computed: true, optional: true, required: false
-  private _logGroupIdentifiers?: string[];
+  private _logGroupIdentifiers?: string[]; 
   public get logGroupIdentifiers() {
     return this.getListAttribute('log_group_identifiers');
   }
@@ -592,7 +592,7 @@ export class LogsScheduledQuery extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -605,7 +605,7 @@ export class LogsScheduledQuery extends cdktn.TerraformResource {
   }
 
   // query_language - computed: false, optional: false, required: true
-  private _queryLanguage?: string;
+  private _queryLanguage?: string; 
   public get queryLanguage() {
     return this.getStringAttribute('query_language');
   }
@@ -618,7 +618,7 @@ export class LogsScheduledQuery extends cdktn.TerraformResource {
   }
 
   // query_string - computed: false, optional: false, required: true
-  private _queryString?: string;
+  private _queryString?: string; 
   public get queryString() {
     return this.getStringAttribute('query_string');
   }
@@ -631,7 +631,7 @@ export class LogsScheduledQuery extends cdktn.TerraformResource {
   }
 
   // schedule_end_time - computed: true, optional: true, required: false
-  private _scheduleEndTime?: number;
+  private _scheduleEndTime?: number; 
   public get scheduleEndTime() {
     return this.getNumberAttribute('schedule_end_time');
   }
@@ -647,7 +647,7 @@ export class LogsScheduledQuery extends cdktn.TerraformResource {
   }
 
   // schedule_expression - computed: false, optional: false, required: true
-  private _scheduleExpression?: string;
+  private _scheduleExpression?: string; 
   public get scheduleExpression() {
     return this.getStringAttribute('schedule_expression');
   }
@@ -660,7 +660,7 @@ export class LogsScheduledQuery extends cdktn.TerraformResource {
   }
 
   // schedule_start_time - computed: true, optional: true, required: false
-  private _scheduleStartTime?: number;
+  private _scheduleStartTime?: number; 
   public get scheduleStartTime() {
     return this.getNumberAttribute('schedule_start_time');
   }
@@ -681,7 +681,7 @@ export class LogsScheduledQuery extends cdktn.TerraformResource {
   }
 
   // start_time_offset - computed: true, optional: true, required: false
-  private _startTimeOffset?: number;
+  private _startTimeOffset?: number; 
   public get startTimeOffset() {
     return this.getNumberAttribute('start_time_offset');
   }
@@ -697,7 +697,7 @@ export class LogsScheduledQuery extends cdktn.TerraformResource {
   }
 
   // state - computed: true, optional: true, required: false
-  private _state?: string;
+  private _state?: string; 
   public get state() {
     return this.getStringAttribute('state');
   }
@@ -729,7 +729,7 @@ export class LogsScheduledQuery extends cdktn.TerraformResource {
   }
 
   // timezone - computed: true, optional: true, required: false
-  private _timezone?: string;
+  private _timezone?: string; 
   public get timezone() {
     return this.getStringAttribute('timezone');
   }

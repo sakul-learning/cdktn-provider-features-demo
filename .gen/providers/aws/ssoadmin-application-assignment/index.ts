@@ -88,7 +88,7 @@ export class SsoadminApplicationAssignment extends cdktn.TerraformResource {
   // ==========
 
   // application_arn - computed: false, optional: false, required: true
-  private _applicationArn?: string;
+  private _applicationArn?: string; 
   public get applicationArn() {
     return this.getStringAttribute('application_arn');
   }
@@ -106,7 +106,7 @@ export class SsoadminApplicationAssignment extends cdktn.TerraformResource {
   }
 
   // principal_id - computed: false, optional: false, required: true
-  private _principalId?: string;
+  private _principalId?: string; 
   public get principalId() {
     return this.getStringAttribute('principal_id');
   }
@@ -119,7 +119,7 @@ export class SsoadminApplicationAssignment extends cdktn.TerraformResource {
   }
 
   // principal_type - computed: false, optional: false, required: true
-  private _principalType?: string;
+  private _principalType?: string; 
   public get principalType() {
     return this.getStringAttribute('principal_type');
   }
@@ -132,7 +132,7 @@ export class SsoadminApplicationAssignment extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

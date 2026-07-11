@@ -156,7 +156,7 @@ export class AppintegrationsDataIntegrationFileConfigurationOutputReference exte
   }
 
   // filters - computed: true, optional: true, required: false
-  private _filters?: { [key: string]: string[] } | cdktn.IResolvable;
+  private _filters?: { [key: string]: string[] } | cdktn.IResolvable; 
   public get filters() {
     return this.interpolationForAttribute('filters');
   }
@@ -172,7 +172,7 @@ export class AppintegrationsDataIntegrationFileConfigurationOutputReference exte
   }
 
   // folders - computed: true, optional: true, required: false
-  private _folders?: string[];
+  private _folders?: string[]; 
   public get folders() {
     return this.getListAttribute('folders');
   }
@@ -306,7 +306,7 @@ export class AppintegrationsDataIntegrationScheduleConfigOutputReference extends
   }
 
   // first_execution_from - computed: true, optional: true, required: false
-  private _firstExecutionFrom?: string;
+  private _firstExecutionFrom?: string; 
   public get firstExecutionFrom() {
     return this.getStringAttribute('first_execution_from');
   }
@@ -322,7 +322,7 @@ export class AppintegrationsDataIntegrationScheduleConfigOutputReference extends
   }
 
   // object - computed: true, optional: true, required: false
-  private _object?: string;
+  private _object?: string; 
   public get object() {
     return this.getStringAttribute('object');
   }
@@ -338,7 +338,7 @@ export class AppintegrationsDataIntegrationScheduleConfigOutputReference extends
   }
 
   // schedule_expression - computed: true, optional: true, required: false
-  private _scheduleExpression?: string;
+  private _scheduleExpression?: string; 
   public get scheduleExpression() {
     return this.getStringAttribute('schedule_expression');
   }
@@ -455,7 +455,7 @@ export class AppintegrationsDataIntegrationTagsOutputReference extends cdktn.Com
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -471,7 +471,7 @@ export class AppintegrationsDataIntegrationTagsOutputReference extends cdktn.Com
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -582,7 +582,7 @@ export class AppintegrationsDataIntegration extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -619,7 +619,7 @@ export class AppintegrationsDataIntegration extends cdktn.TerraformResource {
   }
 
   // kms_key - computed: false, optional: false, required: true
-  private _kmsKey?: string;
+  private _kmsKey?: string; 
   public get kmsKey() {
     return this.getStringAttribute('kms_key');
   }
@@ -632,7 +632,7 @@ export class AppintegrationsDataIntegration extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -645,7 +645,7 @@ export class AppintegrationsDataIntegration extends cdktn.TerraformResource {
   }
 
   // object_configuration - computed: true, optional: true, required: false
-  private _objectConfiguration?: { [key: string]: { [key: string]: string[] } | cdktn.IResolvable } | cdktn.IResolvable;
+  private _objectConfiguration?: { [key: string]: { [key: string]: string[] } | cdktn.IResolvable } | cdktn.IResolvable; 
   public get objectConfiguration() {
     return this.interpolationForAttribute('object_configuration');
   }
@@ -677,7 +677,7 @@ export class AppintegrationsDataIntegration extends cdktn.TerraformResource {
   }
 
   // source_uri - computed: false, optional: false, required: true
-  private _sourceUri?: string;
+  private _sourceUri?: string; 
   public get sourceUri() {
     return this.getStringAttribute('source_uri');
   }

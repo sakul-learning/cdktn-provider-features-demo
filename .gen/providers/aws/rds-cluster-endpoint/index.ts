@@ -121,7 +121,7 @@ export class RdsClusterEndpoint extends cdktn.TerraformResource {
   }
 
   // cluster_endpoint_identifier - computed: false, optional: false, required: true
-  private _clusterEndpointIdentifier?: string;
+  private _clusterEndpointIdentifier?: string; 
   public get clusterEndpointIdentifier() {
     return this.getStringAttribute('cluster_endpoint_identifier');
   }
@@ -134,7 +134,7 @@ export class RdsClusterEndpoint extends cdktn.TerraformResource {
   }
 
   // cluster_identifier - computed: false, optional: false, required: true
-  private _clusterIdentifier?: string;
+  private _clusterIdentifier?: string; 
   public get clusterIdentifier() {
     return this.getStringAttribute('cluster_identifier');
   }
@@ -147,7 +147,7 @@ export class RdsClusterEndpoint extends cdktn.TerraformResource {
   }
 
   // custom_endpoint_type - computed: false, optional: false, required: true
-  private _customEndpointType?: string;
+  private _customEndpointType?: string; 
   public get customEndpointType() {
     return this.getStringAttribute('custom_endpoint_type');
   }
@@ -165,7 +165,7 @@ export class RdsClusterEndpoint extends cdktn.TerraformResource {
   }
 
   // excluded_members - computed: false, optional: true, required: false
-  private _excludedMembers?: string[];
+  private _excludedMembers?: string[]; 
   public get excludedMembers() {
     return cdktn.Fn.tolist(this.getListAttribute('excluded_members'));
   }
@@ -181,7 +181,7 @@ export class RdsClusterEndpoint extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -197,7 +197,7 @@ export class RdsClusterEndpoint extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -213,7 +213,7 @@ export class RdsClusterEndpoint extends cdktn.TerraformResource {
   }
 
   // static_members - computed: false, optional: true, required: false
-  private _staticMembers?: string[];
+  private _staticMembers?: string[]; 
   public get staticMembers() {
     return cdktn.Fn.tolist(this.getListAttribute('static_members'));
   }
@@ -229,7 +229,7 @@ export class RdsClusterEndpoint extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -245,7 +245,7 @@ export class RdsClusterEndpoint extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

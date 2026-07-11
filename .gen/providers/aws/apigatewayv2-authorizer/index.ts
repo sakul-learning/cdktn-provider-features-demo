@@ -155,7 +155,7 @@ export class Apigatewayv2AuthorizerJwtConfigurationOutputReference extends cdktn
   }
 
   // audience - computed: false, optional: true, required: false
-  private _audience?: string[];
+  private _audience?: string[]; 
   public get audience() {
     return cdktn.Fn.tolist(this.getListAttribute('audience'));
   }
@@ -171,7 +171,7 @@ export class Apigatewayv2AuthorizerJwtConfigurationOutputReference extends cdktn
   }
 
   // issuer - computed: false, optional: true, required: false
-  private _issuer?: string;
+  private _issuer?: string; 
   public get issuer() {
     return this.getStringAttribute('issuer');
   }
@@ -265,7 +265,7 @@ export class Apigatewayv2AuthorizerTimeoutsOutputReference extends cdktn.Complex
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -351,7 +351,7 @@ export class Apigatewayv2Authorizer extends cdktn.TerraformResource {
   // ==========
 
   // api_id - computed: false, optional: false, required: true
-  private _apiId?: string;
+  private _apiId?: string; 
   public get apiId() {
     return this.getStringAttribute('api_id');
   }
@@ -364,7 +364,7 @@ export class Apigatewayv2Authorizer extends cdktn.TerraformResource {
   }
 
   // authorizer_credentials_arn - computed: false, optional: true, required: false
-  private _authorizerCredentialsArn?: string;
+  private _authorizerCredentialsArn?: string; 
   public get authorizerCredentialsArn() {
     return this.getStringAttribute('authorizer_credentials_arn');
   }
@@ -380,7 +380,7 @@ export class Apigatewayv2Authorizer extends cdktn.TerraformResource {
   }
 
   // authorizer_payload_format_version - computed: false, optional: true, required: false
-  private _authorizerPayloadFormatVersion?: string;
+  private _authorizerPayloadFormatVersion?: string; 
   public get authorizerPayloadFormatVersion() {
     return this.getStringAttribute('authorizer_payload_format_version');
   }
@@ -396,7 +396,7 @@ export class Apigatewayv2Authorizer extends cdktn.TerraformResource {
   }
 
   // authorizer_result_ttl_in_seconds - computed: true, optional: true, required: false
-  private _authorizerResultTtlInSeconds?: number;
+  private _authorizerResultTtlInSeconds?: number; 
   public get authorizerResultTtlInSeconds() {
     return this.getNumberAttribute('authorizer_result_ttl_in_seconds');
   }
@@ -412,7 +412,7 @@ export class Apigatewayv2Authorizer extends cdktn.TerraformResource {
   }
 
   // authorizer_type - computed: false, optional: false, required: true
-  private _authorizerType?: string;
+  private _authorizerType?: string; 
   public get authorizerType() {
     return this.getStringAttribute('authorizer_type');
   }
@@ -425,7 +425,7 @@ export class Apigatewayv2Authorizer extends cdktn.TerraformResource {
   }
 
   // authorizer_uri - computed: false, optional: true, required: false
-  private _authorizerUri?: string;
+  private _authorizerUri?: string; 
   public get authorizerUri() {
     return this.getStringAttribute('authorizer_uri');
   }
@@ -441,7 +441,7 @@ export class Apigatewayv2Authorizer extends cdktn.TerraformResource {
   }
 
   // enable_simple_responses - computed: false, optional: true, required: false
-  private _enableSimpleResponses?: boolean | cdktn.IResolvable;
+  private _enableSimpleResponses?: boolean | cdktn.IResolvable; 
   public get enableSimpleResponses() {
     return this.getBooleanAttribute('enable_simple_responses');
   }
@@ -457,7 +457,7 @@ export class Apigatewayv2Authorizer extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -473,7 +473,7 @@ export class Apigatewayv2Authorizer extends cdktn.TerraformResource {
   }
 
   // identity_sources - computed: false, optional: true, required: false
-  private _identitySources?: string[];
+  private _identitySources?: string[]; 
   public get identitySources() {
     return cdktn.Fn.tolist(this.getListAttribute('identity_sources'));
   }
@@ -489,7 +489,7 @@ export class Apigatewayv2Authorizer extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -502,7 +502,7 @@ export class Apigatewayv2Authorizer extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

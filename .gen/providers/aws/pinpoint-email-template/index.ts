@@ -126,7 +126,7 @@ export class PinpointEmailTemplateEmailTemplateHeaderOutputReference extends cdk
   }
 
   // name - computed: false, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -142,7 +142,7 @@ export class PinpointEmailTemplateEmailTemplateHeaderOutputReference extends cdk
   }
 
   // value - computed: false, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -362,7 +362,7 @@ export class PinpointEmailTemplateEmailTemplateOutputReference extends cdktn.Com
   }
 
   // default_substitutions - computed: false, optional: true, required: false
-  private _defaultSubstitutions?: string;
+  private _defaultSubstitutions?: string; 
   public get defaultSubstitutions() {
     return this.getStringAttribute('default_substitutions');
   }
@@ -378,7 +378,7 @@ export class PinpointEmailTemplateEmailTemplateOutputReference extends cdktn.Com
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -394,7 +394,7 @@ export class PinpointEmailTemplateEmailTemplateOutputReference extends cdktn.Com
   }
 
   // html_part - computed: false, optional: true, required: false
-  private _htmlPart?: string;
+  private _htmlPart?: string; 
   public get htmlPart() {
     return this.getStringAttribute('html_part');
   }
@@ -410,7 +410,7 @@ export class PinpointEmailTemplateEmailTemplateOutputReference extends cdktn.Com
   }
 
   // recommender_id - computed: false, optional: true, required: false
-  private _recommenderId?: string;
+  private _recommenderId?: string; 
   public get recommenderId() {
     return this.getStringAttribute('recommender_id');
   }
@@ -426,7 +426,7 @@ export class PinpointEmailTemplateEmailTemplateOutputReference extends cdktn.Com
   }
 
   // subject - computed: false, optional: true, required: false
-  private _subject?: string;
+  private _subject?: string; 
   public get subject() {
     return this.getStringAttribute('subject');
   }
@@ -442,7 +442,7 @@ export class PinpointEmailTemplateEmailTemplateOutputReference extends cdktn.Com
   }
 
   // text_part - computed: false, optional: true, required: false
-  private _textPart?: string;
+  private _textPart?: string; 
   public get textPart() {
     return this.getStringAttribute('text_part');
   }
@@ -560,7 +560,7 @@ export class PinpointEmailTemplate extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -576,7 +576,7 @@ export class PinpointEmailTemplate extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -598,7 +598,7 @@ export class PinpointEmailTemplate extends cdktn.TerraformResource {
   }
 
   // template_name - computed: false, optional: false, required: true
-  private _templateName?: string;
+  private _templateName?: string; 
   public get templateName() {
     return this.getStringAttribute('template_name');
   }

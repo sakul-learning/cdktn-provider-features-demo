@@ -91,7 +91,7 @@ export class ElbAttachment extends cdktn.TerraformResource {
   // ==========
 
   // elb - computed: false, optional: false, required: true
-  private _elb?: string;
+  private _elb?: string; 
   public get elb() {
     return this.getStringAttribute('elb');
   }
@@ -104,7 +104,7 @@ export class ElbAttachment extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -120,7 +120,7 @@ export class ElbAttachment extends cdktn.TerraformResource {
   }
 
   // instance - computed: false, optional: false, required: true
-  private _instance?: string;
+  private _instance?: string; 
   public get instance() {
     return this.getStringAttribute('instance');
   }
@@ -133,7 +133,7 @@ export class ElbAttachment extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

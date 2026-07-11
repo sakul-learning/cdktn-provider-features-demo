@@ -212,7 +212,7 @@ export class SagemakerModelBiasJobDefinitionJobResourcesClusterConfigOutputRefer
   }
 
   // instance_count - computed: false, optional: false, required: true
-  private _instanceCount?: number;
+  private _instanceCount?: number; 
   public get instanceCount() {
     return this.getNumberAttribute('instance_count');
   }
@@ -225,7 +225,7 @@ export class SagemakerModelBiasJobDefinitionJobResourcesClusterConfigOutputRefer
   }
 
   // instance_type - computed: false, optional: false, required: true
-  private _instanceType?: string;
+  private _instanceType?: string; 
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -238,7 +238,7 @@ export class SagemakerModelBiasJobDefinitionJobResourcesClusterConfigOutputRefer
   }
 
   // volume_kms_key_id - computed: true, optional: true, required: false
-  private _volumeKmsKeyId?: string;
+  private _volumeKmsKeyId?: string; 
   public get volumeKmsKeyId() {
     return this.getStringAttribute('volume_kms_key_id');
   }
@@ -254,7 +254,7 @@ export class SagemakerModelBiasJobDefinitionJobResourcesClusterConfigOutputRefer
   }
 
   // volume_size_in_gb - computed: false, optional: false, required: true
-  private _volumeSizeInGb?: number;
+  private _volumeSizeInGb?: number; 
   public get volumeSizeInGb() {
     return this.getNumberAttribute('volume_size_in_gb');
   }
@@ -478,7 +478,7 @@ export class SagemakerModelBiasJobDefinitionModelBiasAppSpecificationOutputRefer
   }
 
   // config_uri - computed: false, optional: false, required: true
-  private _configUri?: string;
+  private _configUri?: string; 
   public get configUri() {
     return this.getStringAttribute('config_uri');
   }
@@ -491,7 +491,7 @@ export class SagemakerModelBiasJobDefinitionModelBiasAppSpecificationOutputRefer
   }
 
   // environment - computed: true, optional: true, required: false
-  private _environment?: { [key: string]: string };
+  private _environment?: { [key: string]: string }; 
   public get environment() {
     return this.getStringMapAttribute('environment');
   }
@@ -507,7 +507,7 @@ export class SagemakerModelBiasJobDefinitionModelBiasAppSpecificationOutputRefer
   }
 
   // image_uri - computed: false, optional: false, required: true
-  private _imageUri?: string;
+  private _imageUri?: string; 
   public get imageUri() {
     return this.getStringAttribute('image_uri');
   }
@@ -600,7 +600,7 @@ export class SagemakerModelBiasJobDefinitionModelBiasBaselineConfigConstraintsRe
   }
 
   // s3_uri - computed: true, optional: true, required: false
-  private _s3Uri?: string;
+  private _s3Uri?: string; 
   public get s3Uri() {
     return this.getStringAttribute('s3_uri');
   }
@@ -715,7 +715,7 @@ export class SagemakerModelBiasJobDefinitionModelBiasBaselineConfigOutputReferen
   }
 
   // baselining_job_name - computed: true, optional: true, required: false
-  private _baseliningJobName?: string;
+  private _baseliningJobName?: string; 
   public get baseliningJobName() {
     return this.getStringAttribute('baselining_job_name');
   }
@@ -827,7 +827,7 @@ export class SagemakerModelBiasJobDefinitionModelBiasJobInputBatchTransformInput
   }
 
   // header - computed: true, optional: true, required: false
-  private _header?: boolean | cdktn.IResolvable;
+  private _header?: boolean | cdktn.IResolvable; 
   public get header() {
     return this.getBooleanAttribute('header');
   }
@@ -923,7 +923,7 @@ export class SagemakerModelBiasJobDefinitionModelBiasJobInputBatchTransformInput
   }
 
   // line - computed: true, optional: true, required: false
-  private _line?: boolean | cdktn.IResolvable;
+  private _line?: boolean | cdktn.IResolvable; 
   public get line() {
     return this.getBooleanAttribute('line');
   }
@@ -1089,7 +1089,7 @@ export class SagemakerModelBiasJobDefinitionModelBiasJobInputBatchTransformInput
   }
 
   // parquet - computed: true, optional: true, required: false
-  private _parquet?: boolean | cdktn.IResolvable;
+  private _parquet?: boolean | cdktn.IResolvable; 
   public get parquet() {
     return this.getBooleanAttribute('parquet');
   }
@@ -1373,7 +1373,7 @@ export class SagemakerModelBiasJobDefinitionModelBiasJobInputBatchTransformInput
   }
 
   // data_captured_destination_s3_uri - computed: true, optional: true, required: false
-  private _dataCapturedDestinationS3Uri?: string;
+  private _dataCapturedDestinationS3Uri?: string; 
   public get dataCapturedDestinationS3Uri() {
     return this.getStringAttribute('data_captured_destination_s3_uri');
   }
@@ -1405,7 +1405,7 @@ export class SagemakerModelBiasJobDefinitionModelBiasJobInputBatchTransformInput
   }
 
   // end_time_offset - computed: true, optional: true, required: false
-  private _endTimeOffset?: string;
+  private _endTimeOffset?: string; 
   public get endTimeOffset() {
     return this.getStringAttribute('end_time_offset');
   }
@@ -1421,7 +1421,7 @@ export class SagemakerModelBiasJobDefinitionModelBiasJobInputBatchTransformInput
   }
 
   // features_attribute - computed: true, optional: true, required: false
-  private _featuresAttribute?: string;
+  private _featuresAttribute?: string; 
   public get featuresAttribute() {
     return this.getStringAttribute('features_attribute');
   }
@@ -1437,7 +1437,7 @@ export class SagemakerModelBiasJobDefinitionModelBiasJobInputBatchTransformInput
   }
 
   // inference_attribute - computed: true, optional: true, required: false
-  private _inferenceAttribute?: string;
+  private _inferenceAttribute?: string; 
   public get inferenceAttribute() {
     return this.getStringAttribute('inference_attribute');
   }
@@ -1453,7 +1453,7 @@ export class SagemakerModelBiasJobDefinitionModelBiasJobInputBatchTransformInput
   }
 
   // local_path - computed: true, optional: true, required: false
-  private _localPath?: string;
+  private _localPath?: string; 
   public get localPath() {
     return this.getStringAttribute('local_path');
   }
@@ -1469,7 +1469,7 @@ export class SagemakerModelBiasJobDefinitionModelBiasJobInputBatchTransformInput
   }
 
   // probability_attribute - computed: true, optional: true, required: false
-  private _probabilityAttribute?: string;
+  private _probabilityAttribute?: string; 
   public get probabilityAttribute() {
     return this.getStringAttribute('probability_attribute');
   }
@@ -1485,7 +1485,7 @@ export class SagemakerModelBiasJobDefinitionModelBiasJobInputBatchTransformInput
   }
 
   // probability_threshold_attribute - computed: true, optional: true, required: false
-  private _probabilityThresholdAttribute?: number;
+  private _probabilityThresholdAttribute?: number; 
   public get probabilityThresholdAttribute() {
     return this.getNumberAttribute('probability_threshold_attribute');
   }
@@ -1501,7 +1501,7 @@ export class SagemakerModelBiasJobDefinitionModelBiasJobInputBatchTransformInput
   }
 
   // s3_data_distribution_type - computed: true, optional: true, required: false
-  private _s3DataDistributionType?: string;
+  private _s3DataDistributionType?: string; 
   public get s3DataDistributionType() {
     return this.getStringAttribute('s3_data_distribution_type');
   }
@@ -1517,7 +1517,7 @@ export class SagemakerModelBiasJobDefinitionModelBiasJobInputBatchTransformInput
   }
 
   // s3_input_mode - computed: true, optional: true, required: false
-  private _s3InputMode?: string;
+  private _s3InputMode?: string; 
   public get s3InputMode() {
     return this.getStringAttribute('s3_input_mode');
   }
@@ -1533,7 +1533,7 @@ export class SagemakerModelBiasJobDefinitionModelBiasJobInputBatchTransformInput
   }
 
   // start_time_offset - computed: true, optional: true, required: false
-  private _startTimeOffset?: string;
+  private _startTimeOffset?: string; 
   public get startTimeOffset() {
     return this.getStringAttribute('start_time_offset');
   }
@@ -1798,7 +1798,7 @@ export class SagemakerModelBiasJobDefinitionModelBiasJobInputEndpointInputOutput
   }
 
   // end_time_offset - computed: true, optional: true, required: false
-  private _endTimeOffset?: string;
+  private _endTimeOffset?: string; 
   public get endTimeOffset() {
     return this.getStringAttribute('end_time_offset');
   }
@@ -1814,7 +1814,7 @@ export class SagemakerModelBiasJobDefinitionModelBiasJobInputEndpointInputOutput
   }
 
   // endpoint_name - computed: true, optional: true, required: false
-  private _endpointName?: string;
+  private _endpointName?: string; 
   public get endpointName() {
     return this.getStringAttribute('endpoint_name');
   }
@@ -1830,7 +1830,7 @@ export class SagemakerModelBiasJobDefinitionModelBiasJobInputEndpointInputOutput
   }
 
   // features_attribute - computed: true, optional: true, required: false
-  private _featuresAttribute?: string;
+  private _featuresAttribute?: string; 
   public get featuresAttribute() {
     return this.getStringAttribute('features_attribute');
   }
@@ -1846,7 +1846,7 @@ export class SagemakerModelBiasJobDefinitionModelBiasJobInputEndpointInputOutput
   }
 
   // inference_attribute - computed: true, optional: true, required: false
-  private _inferenceAttribute?: string;
+  private _inferenceAttribute?: string; 
   public get inferenceAttribute() {
     return this.getStringAttribute('inference_attribute');
   }
@@ -1862,7 +1862,7 @@ export class SagemakerModelBiasJobDefinitionModelBiasJobInputEndpointInputOutput
   }
 
   // local_path - computed: true, optional: true, required: false
-  private _localPath?: string;
+  private _localPath?: string; 
   public get localPath() {
     return this.getStringAttribute('local_path');
   }
@@ -1878,7 +1878,7 @@ export class SagemakerModelBiasJobDefinitionModelBiasJobInputEndpointInputOutput
   }
 
   // probability_attribute - computed: true, optional: true, required: false
-  private _probabilityAttribute?: string;
+  private _probabilityAttribute?: string; 
   public get probabilityAttribute() {
     return this.getStringAttribute('probability_attribute');
   }
@@ -1894,7 +1894,7 @@ export class SagemakerModelBiasJobDefinitionModelBiasJobInputEndpointInputOutput
   }
 
   // probability_threshold_attribute - computed: true, optional: true, required: false
-  private _probabilityThresholdAttribute?: number;
+  private _probabilityThresholdAttribute?: number; 
   public get probabilityThresholdAttribute() {
     return this.getNumberAttribute('probability_threshold_attribute');
   }
@@ -1910,7 +1910,7 @@ export class SagemakerModelBiasJobDefinitionModelBiasJobInputEndpointInputOutput
   }
 
   // s3_data_distribution_type - computed: true, optional: true, required: false
-  private _s3DataDistributionType?: string;
+  private _s3DataDistributionType?: string; 
   public get s3DataDistributionType() {
     return this.getStringAttribute('s3_data_distribution_type');
   }
@@ -1926,7 +1926,7 @@ export class SagemakerModelBiasJobDefinitionModelBiasJobInputEndpointInputOutput
   }
 
   // s3_input_mode - computed: true, optional: true, required: false
-  private _s3InputMode?: string;
+  private _s3InputMode?: string; 
   public get s3InputMode() {
     return this.getStringAttribute('s3_input_mode');
   }
@@ -1942,7 +1942,7 @@ export class SagemakerModelBiasJobDefinitionModelBiasJobInputEndpointInputOutput
   }
 
   // start_time_offset - computed: true, optional: true, required: false
-  private _startTimeOffset?: string;
+  private _startTimeOffset?: string; 
   public get startTimeOffset() {
     return this.getStringAttribute('start_time_offset');
   }
@@ -2038,7 +2038,7 @@ export class SagemakerModelBiasJobDefinitionModelBiasJobInputGroundTruthS3InputO
   }
 
   // s3_uri - computed: false, optional: false, required: true
-  private _s3Uri?: string;
+  private _s3Uri?: string; 
   public get s3Uri() {
     return this.getStringAttribute('s3_uri');
   }
@@ -2064,7 +2064,7 @@ export interface SagemakerModelBiasJobDefinitionModelBiasJobInput {
   */
   readonly endpointInput?: SagemakerModelBiasJobDefinitionModelBiasJobInputEndpointInput;
   /**
-  * Ground truth input provided in S3
+  * Ground truth input provided in S3 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_bias_job_definition#ground_truth_s3_input SagemakerModelBiasJobDefinition#ground_truth_s3_input}
   */
@@ -2332,7 +2332,7 @@ export class SagemakerModelBiasJobDefinitionModelBiasJobOutputConfigMonitoringOu
   }
 
   // local_path - computed: false, optional: false, required: true
-  private _localPath?: string;
+  private _localPath?: string; 
   public get localPath() {
     return this.getStringAttribute('local_path');
   }
@@ -2345,7 +2345,7 @@ export class SagemakerModelBiasJobDefinitionModelBiasJobOutputConfigMonitoringOu
   }
 
   // s3_upload_mode - computed: true, optional: true, required: false
-  private _s3UploadMode?: string;
+  private _s3UploadMode?: string; 
   public get s3UploadMode() {
     return this.getStringAttribute('s3_upload_mode');
   }
@@ -2361,7 +2361,7 @@ export class SagemakerModelBiasJobDefinitionModelBiasJobOutputConfigMonitoringOu
   }
 
   // s3_uri - computed: false, optional: false, required: true
-  private _s3Uri?: string;
+  private _s3Uri?: string; 
   public get s3Uri() {
     return this.getStringAttribute('s3_uri');
   }
@@ -2588,7 +2588,7 @@ export class SagemakerModelBiasJobDefinitionModelBiasJobOutputConfigOutputRefere
   }
 
   // kms_key_id - computed: true, optional: true, required: false
-  private _kmsKeyId?: string;
+  private _kmsKeyId?: string; 
   public get kmsKeyId() {
     return this.getStringAttribute('kms_key_id');
   }
@@ -2716,7 +2716,7 @@ export class SagemakerModelBiasJobDefinitionNetworkConfigVpcConfigOutputReferenc
   }
 
   // security_group_ids - computed: true, optional: true, required: false
-  private _securityGroupIds?: string[];
+  private _securityGroupIds?: string[]; 
   public get securityGroupIds() {
     return this.getListAttribute('security_group_ids');
   }
@@ -2732,7 +2732,7 @@ export class SagemakerModelBiasJobDefinitionNetworkConfigVpcConfigOutputReferenc
   }
 
   // subnets - computed: true, optional: true, required: false
-  private _subnets?: string[];
+  private _subnets?: string[]; 
   public get subnets() {
     return this.getListAttribute('subnets');
   }
@@ -2866,7 +2866,7 @@ export class SagemakerModelBiasJobDefinitionNetworkConfigOutputReference extends
   }
 
   // enable_inter_container_traffic_encryption - computed: true, optional: true, required: false
-  private _enableInterContainerTrafficEncryption?: boolean | cdktn.IResolvable;
+  private _enableInterContainerTrafficEncryption?: boolean | cdktn.IResolvable; 
   public get enableInterContainerTrafficEncryption() {
     return this.getBooleanAttribute('enable_inter_container_traffic_encryption');
   }
@@ -2882,7 +2882,7 @@ export class SagemakerModelBiasJobDefinitionNetworkConfigOutputReference extends
   }
 
   // enable_network_isolation - computed: true, optional: true, required: false
-  private _enableNetworkIsolation?: boolean | cdktn.IResolvable;
+  private _enableNetworkIsolation?: boolean | cdktn.IResolvable; 
   public get enableNetworkIsolation() {
     return this.getBooleanAttribute('enable_network_isolation');
   }
@@ -2994,7 +2994,7 @@ export class SagemakerModelBiasJobDefinitionStoppingConditionOutputReference ext
   }
 
   // max_runtime_in_seconds - computed: true, optional: true, required: false
-  private _maxRuntimeInSeconds?: number;
+  private _maxRuntimeInSeconds?: number; 
   public get maxRuntimeInSeconds() {
     return this.getNumberAttribute('max_runtime_in_seconds');
   }
@@ -3011,13 +3011,13 @@ export class SagemakerModelBiasJobDefinitionStoppingConditionOutputReference ext
 }
 export interface SagemakerModelBiasJobDefinitionTags {
   /**
-  * The key name of the tag. You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
+  * The key name of the tag. You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_bias_job_definition#key SagemakerModelBiasJobDefinition#key}
   */
   readonly key?: string;
   /**
-  * The value for the tag. You can specify a value that is 1 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
+  * The value for the tag. You can specify a value that is 1 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_model_bias_job_definition#value SagemakerModelBiasJobDefinition#value}
   */
@@ -3111,7 +3111,7 @@ export class SagemakerModelBiasJobDefinitionTagsOutputReference extends cdktn.Co
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -3127,7 +3127,7 @@ export class SagemakerModelBiasJobDefinitionTagsOutputReference extends cdktn.Co
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -3236,7 +3236,7 @@ export class SagemakerModelBiasJobDefinition extends cdktn.TerraformResource {
   }
 
   // endpoint_name - computed: true, optional: true, required: false
-  private _endpointName?: string;
+  private _endpointName?: string; 
   public get endpointName() {
     return this.getStringAttribute('endpoint_name');
   }
@@ -3262,7 +3262,7 @@ export class SagemakerModelBiasJobDefinition extends cdktn.TerraformResource {
   }
 
   // job_definition_name - computed: true, optional: true, required: false
-  private _jobDefinitionName?: string;
+  private _jobDefinitionName?: string; 
   public get jobDefinitionName() {
     return this.getStringAttribute('job_definition_name');
   }
@@ -3362,7 +3362,7 @@ export class SagemakerModelBiasJobDefinition extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }

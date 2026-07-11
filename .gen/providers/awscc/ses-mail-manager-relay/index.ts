@@ -124,7 +124,7 @@ export class SesMailManagerRelayAuthenticationOutputReference extends cdktn.Comp
   }
 
   // no_authentication - computed: true, optional: true, required: false
-  private _noAuthentication?: string;
+  private _noAuthentication?: string; 
   public get noAuthentication() {
     return this.getStringAttribute('no_authentication');
   }
@@ -140,7 +140,7 @@ export class SesMailManagerRelayAuthenticationOutputReference extends cdktn.Comp
   }
 
   // secret_arn - computed: true, optional: true, required: false
-  private _secretArn?: string;
+  private _secretArn?: string; 
   public get secretArn() {
     return this.getStringAttribute('secret_arn');
   }
@@ -253,7 +253,7 @@ export class SesMailManagerRelayTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -269,7 +269,7 @@ export class SesMailManagerRelayTagsOutputReference extends cdktn.ComplexObject 
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -395,7 +395,7 @@ export class SesMailManagerRelay extends cdktn.TerraformResource {
   }
 
   // relay_name - computed: true, optional: true, required: false
-  private _relayName?: string;
+  private _relayName?: string; 
   public get relayName() {
     return this.getStringAttribute('relay_name');
   }
@@ -411,7 +411,7 @@ export class SesMailManagerRelay extends cdktn.TerraformResource {
   }
 
   // server_name - computed: false, optional: false, required: true
-  private _serverName?: string;
+  private _serverName?: string; 
   public get serverName() {
     return this.getStringAttribute('server_name');
   }
@@ -424,7 +424,7 @@ export class SesMailManagerRelay extends cdktn.TerraformResource {
   }
 
   // server_port - computed: false, optional: false, required: true
-  private _serverPort?: number;
+  private _serverPort?: number; 
   public get serverPort() {
     return this.getNumberAttribute('server_port');
   }

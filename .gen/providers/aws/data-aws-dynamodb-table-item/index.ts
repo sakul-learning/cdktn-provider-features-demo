@@ -101,7 +101,7 @@ export class DataAwsDynamodbTableItem extends cdktn.TerraformDataSource {
   // ==========
 
   // expression_attribute_names - computed: false, optional: true, required: false
-  private _expressionAttributeNames?: { [key: string]: string };
+  private _expressionAttributeNames?: { [key: string]: string }; 
   public get expressionAttributeNames() {
     return this.getStringMapAttribute('expression_attribute_names');
   }
@@ -117,7 +117,7 @@ export class DataAwsDynamodbTableItem extends cdktn.TerraformDataSource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -138,7 +138,7 @@ export class DataAwsDynamodbTableItem extends cdktn.TerraformDataSource {
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -151,7 +151,7 @@ export class DataAwsDynamodbTableItem extends cdktn.TerraformDataSource {
   }
 
   // projection_expression - computed: false, optional: true, required: false
-  private _projectionExpression?: string;
+  private _projectionExpression?: string; 
   public get projectionExpression() {
     return this.getStringAttribute('projection_expression');
   }
@@ -167,7 +167,7 @@ export class DataAwsDynamodbTableItem extends cdktn.TerraformDataSource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -183,7 +183,7 @@ export class DataAwsDynamodbTableItem extends cdktn.TerraformDataSource {
   }
 
   // table_name - computed: false, optional: false, required: true
-  private _tableName?: string;
+  private _tableName?: string; 
   public get tableName() {
     return this.getStringAttribute('table_name');
   }

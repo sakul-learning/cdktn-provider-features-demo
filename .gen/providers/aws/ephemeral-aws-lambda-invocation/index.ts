@@ -82,7 +82,7 @@ export class EphemeralAwsLambdaInvocation extends cdktn.TerraformEphemeralResour
   // ==========
 
   // client_context - computed: false, optional: true, required: false
-  private _clientContext?: string;
+  private _clientContext?: string; 
   public get clientContext() {
     return this.getStringAttribute('client_context');
   }
@@ -108,7 +108,7 @@ export class EphemeralAwsLambdaInvocation extends cdktn.TerraformEphemeralResour
   }
 
   // function_name - computed: false, optional: false, required: true
-  private _functionName?: string;
+  private _functionName?: string; 
   public get functionName() {
     return this.getStringAttribute('function_name');
   }
@@ -126,7 +126,7 @@ export class EphemeralAwsLambdaInvocation extends cdktn.TerraformEphemeralResour
   }
 
   // log_type - computed: false, optional: true, required: false
-  private _logType?: string;
+  private _logType?: string; 
   public get logType() {
     return this.getStringAttribute('log_type');
   }
@@ -142,7 +142,7 @@ export class EphemeralAwsLambdaInvocation extends cdktn.TerraformEphemeralResour
   }
 
   // payload - computed: false, optional: false, required: true
-  private _payload?: string;
+  private _payload?: string; 
   public get payload() {
     return this.getStringAttribute('payload');
   }
@@ -155,7 +155,7 @@ export class EphemeralAwsLambdaInvocation extends cdktn.TerraformEphemeralResour
   }
 
   // qualifier - computed: false, optional: true, required: false
-  private _qualifier?: string;
+  private _qualifier?: string; 
   public get qualifier() {
     return this.getStringAttribute('qualifier');
   }
@@ -171,7 +171,7 @@ export class EphemeralAwsLambdaInvocation extends cdktn.TerraformEphemeralResour
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

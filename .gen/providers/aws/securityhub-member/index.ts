@@ -96,7 +96,7 @@ export class SecurityhubMember extends cdktn.TerraformResource {
   // ==========
 
   // account_id - computed: false, optional: false, required: true
-  private _accountId?: string;
+  private _accountId?: string; 
   public get accountId() {
     return this.getStringAttribute('account_id');
   }
@@ -109,7 +109,7 @@ export class SecurityhubMember extends cdktn.TerraformResource {
   }
 
   // email - computed: false, optional: true, required: false
-  private _email?: string;
+  private _email?: string; 
   public get email() {
     return this.getStringAttribute('email');
   }
@@ -125,7 +125,7 @@ export class SecurityhubMember extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -141,7 +141,7 @@ export class SecurityhubMember extends cdktn.TerraformResource {
   }
 
   // invite - computed: false, optional: true, required: false
-  private _invite?: boolean | cdktn.IResolvable;
+  private _invite?: boolean | cdktn.IResolvable; 
   public get invite() {
     return this.getBooleanAttribute('invite');
   }
@@ -167,7 +167,7 @@ export class SecurityhubMember extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

@@ -71,7 +71,7 @@ export class IamOrganizationsFeatures extends cdktn.TerraformResource {
   // ==========
 
   // enabled_features - computed: false, optional: false, required: true
-  private _enabledFeatures?: string[];
+  private _enabledFeatures?: string[]; 
   public get enabledFeatures() {
     return cdktn.Fn.tolist(this.getListAttribute('enabled_features'));
   }

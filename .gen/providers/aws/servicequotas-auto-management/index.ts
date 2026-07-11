@@ -93,7 +93,7 @@ export class ServicequotasAutoManagement extends cdktn.TerraformResource {
   // ==========
 
   // exclusion_list - computed: false, optional: true, required: false
-  private _exclusionList?: { [key: string]: string[] } | cdktn.IResolvable;
+  private _exclusionList?: { [key: string]: string[] } | cdktn.IResolvable; 
   public get exclusionList() {
     return this.interpolationForAttribute('exclusion_list');
   }
@@ -114,7 +114,7 @@ export class ServicequotasAutoManagement extends cdktn.TerraformResource {
   }
 
   // notification_arn - computed: false, optional: true, required: false
-  private _notificationArn?: string;
+  private _notificationArn?: string; 
   public get notificationArn() {
     return this.getStringAttribute('notification_arn');
   }
@@ -130,7 +130,7 @@ export class ServicequotasAutoManagement extends cdktn.TerraformResource {
   }
 
   // opt_in_level - computed: false, optional: false, required: true
-  private _optInLevel?: string;
+  private _optInLevel?: string; 
   public get optInLevel() {
     return this.getStringAttribute('opt_in_level');
   }
@@ -143,7 +143,7 @@ export class ServicequotasAutoManagement extends cdktn.TerraformResource {
   }
 
   // opt_in_type - computed: false, optional: false, required: true
-  private _optInType?: string;
+  private _optInType?: string; 
   public get optInType() {
     return this.getStringAttribute('opt_in_type');
   }
@@ -156,7 +156,7 @@ export class ServicequotasAutoManagement extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

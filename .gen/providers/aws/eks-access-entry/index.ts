@@ -151,7 +151,7 @@ export class EksAccessEntryTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -167,7 +167,7 @@ export class EksAccessEntryTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -255,7 +255,7 @@ export class EksAccessEntry extends cdktn.TerraformResource {
   }
 
   // cluster_name - computed: false, optional: false, required: true
-  private _clusterName?: string;
+  private _clusterName?: string; 
   public get clusterName() {
     return this.getStringAttribute('cluster_name');
   }
@@ -273,7 +273,7 @@ export class EksAccessEntry extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -289,7 +289,7 @@ export class EksAccessEntry extends cdktn.TerraformResource {
   }
 
   // kubernetes_groups - computed: true, optional: true, required: false
-  private _kubernetesGroups?: string[];
+  private _kubernetesGroups?: string[]; 
   public get kubernetesGroups() {
     return cdktn.Fn.tolist(this.getListAttribute('kubernetes_groups'));
   }
@@ -310,7 +310,7 @@ export class EksAccessEntry extends cdktn.TerraformResource {
   }
 
   // principal_arn - computed: false, optional: false, required: true
-  private _principalArn?: string;
+  private _principalArn?: string; 
   public get principalArn() {
     return this.getStringAttribute('principal_arn');
   }
@@ -323,7 +323,7 @@ export class EksAccessEntry extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -339,7 +339,7 @@ export class EksAccessEntry extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -355,7 +355,7 @@ export class EksAccessEntry extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -371,7 +371,7 @@ export class EksAccessEntry extends cdktn.TerraformResource {
   }
 
   // type - computed: false, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -387,7 +387,7 @@ export class EksAccessEntry extends cdktn.TerraformResource {
   }
 
   // user_name - computed: true, optional: true, required: false
-  private _userName?: string;
+  private _userName?: string; 
   public get userName() {
     return this.getStringAttribute('user_name');
   }

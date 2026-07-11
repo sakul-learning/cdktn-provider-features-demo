@@ -148,7 +148,7 @@ export class ConfigConfigurationAggregatorAccountAggregationSourceOutputReferenc
   }
 
   // account_ids - computed: false, optional: false, required: true
-  private _accountIds?: string[];
+  private _accountIds?: string[]; 
   public get accountIds() {
     return this.getListAttribute('account_ids');
   }
@@ -161,7 +161,7 @@ export class ConfigConfigurationAggregatorAccountAggregationSourceOutputReferenc
   }
 
   // all_regions - computed: false, optional: true, required: false
-  private _allRegions?: boolean | cdktn.IResolvable;
+  private _allRegions?: boolean | cdktn.IResolvable; 
   public get allRegions() {
     return this.getBooleanAttribute('all_regions');
   }
@@ -177,7 +177,7 @@ export class ConfigConfigurationAggregatorAccountAggregationSourceOutputReferenc
   }
 
   // regions - computed: false, optional: true, required: false
-  private _regions?: string[];
+  private _regions?: string[]; 
   public get regions() {
     return this.getListAttribute('regions');
   }
@@ -295,7 +295,7 @@ export class ConfigConfigurationAggregatorOrganizationAggregationSourceOutputRef
   }
 
   // all_regions - computed: false, optional: true, required: false
-  private _allRegions?: boolean | cdktn.IResolvable;
+  private _allRegions?: boolean | cdktn.IResolvable; 
   public get allRegions() {
     return this.getBooleanAttribute('all_regions');
   }
@@ -311,7 +311,7 @@ export class ConfigConfigurationAggregatorOrganizationAggregationSourceOutputRef
   }
 
   // regions - computed: false, optional: true, required: false
-  private _regions?: string[];
+  private _regions?: string[]; 
   public get regions() {
     return this.getListAttribute('regions');
   }
@@ -327,7 +327,7 @@ export class ConfigConfigurationAggregatorOrganizationAggregationSourceOutputRef
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -409,7 +409,7 @@ export class ConfigConfigurationAggregator extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -425,7 +425,7 @@ export class ConfigConfigurationAggregator extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -438,7 +438,7 @@ export class ConfigConfigurationAggregator extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -454,7 +454,7 @@ export class ConfigConfigurationAggregator extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -470,7 +470,7 @@ export class ConfigConfigurationAggregator extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

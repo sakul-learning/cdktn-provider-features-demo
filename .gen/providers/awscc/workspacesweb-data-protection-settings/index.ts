@@ -162,7 +162,7 @@ export class WorkspaceswebDataProtectionSettingsInlineRedactionConfigurationInli
   }
 
   // keyword_regex - computed: true, optional: true, required: false
-  private _keywordRegex?: string;
+  private _keywordRegex?: string; 
   public get keywordRegex() {
     return this.getStringAttribute('keyword_regex');
   }
@@ -178,7 +178,7 @@ export class WorkspaceswebDataProtectionSettingsInlineRedactionConfigurationInli
   }
 
   // pattern_description - computed: true, optional: true, required: false
-  private _patternDescription?: string;
+  private _patternDescription?: string; 
   public get patternDescription() {
     return this.getStringAttribute('pattern_description');
   }
@@ -194,7 +194,7 @@ export class WorkspaceswebDataProtectionSettingsInlineRedactionConfigurationInli
   }
 
   // pattern_name - computed: true, optional: true, required: false
-  private _patternName?: string;
+  private _patternName?: string; 
   public get patternName() {
     return this.getStringAttribute('pattern_name');
   }
@@ -210,7 +210,7 @@ export class WorkspaceswebDataProtectionSettingsInlineRedactionConfigurationInli
   }
 
   // pattern_regex - computed: true, optional: true, required: false
-  private _patternRegex?: string;
+  private _patternRegex?: string; 
   public get patternRegex() {
     return this.getStringAttribute('pattern_regex');
   }
@@ -321,7 +321,7 @@ export class WorkspaceswebDataProtectionSettingsInlineRedactionConfigurationInli
   }
 
   // redaction_place_holder_text - computed: true, optional: true, required: false
-  private _redactionPlaceHolderText?: string;
+  private _redactionPlaceHolderText?: string; 
   public get redactionPlaceHolderText() {
     return this.getStringAttribute('redaction_place_holder_text');
   }
@@ -337,7 +337,7 @@ export class WorkspaceswebDataProtectionSettingsInlineRedactionConfigurationInli
   }
 
   // redaction_place_holder_type - computed: true, optional: true, required: false
-  private _redactionPlaceHolderType?: string;
+  private _redactionPlaceHolderType?: string; 
   public get redactionPlaceHolderType() {
     return this.getStringAttribute('redaction_place_holder_type');
   }
@@ -518,7 +518,7 @@ export class WorkspaceswebDataProtectionSettingsInlineRedactionConfigurationInli
   }
 
   // built_in_pattern_id - computed: true, optional: true, required: false
-  private _builtInPatternId?: string;
+  private _builtInPatternId?: string; 
   public get builtInPatternId() {
     return this.getStringAttribute('built_in_pattern_id');
   }
@@ -534,7 +534,7 @@ export class WorkspaceswebDataProtectionSettingsInlineRedactionConfigurationInli
   }
 
   // confidence_level - computed: true, optional: true, required: false
-  private _confidenceLevel?: number;
+  private _confidenceLevel?: number; 
   public get confidenceLevel() {
     return this.getNumberAttribute('confidence_level');
   }
@@ -566,7 +566,7 @@ export class WorkspaceswebDataProtectionSettingsInlineRedactionConfigurationInli
   }
 
   // enforced_urls - computed: true, optional: true, required: false
-  private _enforcedUrls?: string[];
+  private _enforcedUrls?: string[]; 
   public get enforcedUrls() {
     return this.getListAttribute('enforced_urls');
   }
@@ -582,7 +582,7 @@ export class WorkspaceswebDataProtectionSettingsInlineRedactionConfigurationInli
   }
 
   // exempt_urls - computed: true, optional: true, required: false
-  private _exemptUrls?: string[];
+  private _exemptUrls?: string[]; 
   public get exemptUrls() {
     return this.getListAttribute('exempt_urls');
   }
@@ -763,7 +763,7 @@ export class WorkspaceswebDataProtectionSettingsInlineRedactionConfigurationOutp
   }
 
   // global_confidence_level - computed: true, optional: true, required: false
-  private _globalConfidenceLevel?: number;
+  private _globalConfidenceLevel?: number; 
   public get globalConfidenceLevel() {
     return this.getNumberAttribute('global_confidence_level');
   }
@@ -779,7 +779,7 @@ export class WorkspaceswebDataProtectionSettingsInlineRedactionConfigurationOutp
   }
 
   // global_enforced_urls - computed: true, optional: true, required: false
-  private _globalEnforcedUrls?: string[];
+  private _globalEnforcedUrls?: string[]; 
   public get globalEnforcedUrls() {
     return this.getListAttribute('global_enforced_urls');
   }
@@ -795,7 +795,7 @@ export class WorkspaceswebDataProtectionSettingsInlineRedactionConfigurationOutp
   }
 
   // global_exempt_urls - computed: true, optional: true, required: false
-  private _globalExemptUrls?: string[];
+  private _globalExemptUrls?: string[]; 
   public get globalExemptUrls() {
     return this.getListAttribute('global_exempt_urls');
   }
@@ -924,7 +924,7 @@ export class WorkspaceswebDataProtectionSettingsTagsOutputReference extends cdkt
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -940,7 +940,7 @@ export class WorkspaceswebDataProtectionSettingsTagsOutputReference extends cdkt
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1039,7 +1039,7 @@ export class WorkspaceswebDataProtectionSettings extends cdktn.TerraformResource
   // ==========
 
   // additional_encryption_context - computed: true, optional: true, required: false
-  private _additionalEncryptionContext?: { [key: string]: string };
+  private _additionalEncryptionContext?: { [key: string]: string }; 
   public get additionalEncryptionContext() {
     return this.getStringMapAttribute('additional_encryption_context');
   }
@@ -1065,7 +1065,7 @@ export class WorkspaceswebDataProtectionSettings extends cdktn.TerraformResource
   }
 
   // customer_managed_key - computed: true, optional: true, required: false
-  private _customerManagedKey?: string;
+  private _customerManagedKey?: string; 
   public get customerManagedKey() {
     return this.getStringAttribute('customer_managed_key');
   }
@@ -1086,7 +1086,7 @@ export class WorkspaceswebDataProtectionSettings extends cdktn.TerraformResource
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1102,7 +1102,7 @@ export class WorkspaceswebDataProtectionSettings extends cdktn.TerraformResource
   }
 
   // display_name - computed: true, optional: true, required: false
-  private _displayName?: string;
+  private _displayName?: string; 
   public get displayName() {
     return this.getStringAttribute('display_name');
   }

@@ -310,7 +310,7 @@ export class IotfleetwiseSignalCatalogNodesActuatorOutputReference extends cdktn
   }
 
   // allowed_values - computed: true, optional: true, required: false
-  private _allowedValues?: string[];
+  private _allowedValues?: string[]; 
   public get allowedValues() {
     return this.getListAttribute('allowed_values');
   }
@@ -326,7 +326,7 @@ export class IotfleetwiseSignalCatalogNodesActuatorOutputReference extends cdktn
   }
 
   // assigned_value - computed: true, optional: true, required: false
-  private _assignedValue?: string;
+  private _assignedValue?: string; 
   public get assignedValue() {
     return this.getStringAttribute('assigned_value');
   }
@@ -342,7 +342,7 @@ export class IotfleetwiseSignalCatalogNodesActuatorOutputReference extends cdktn
   }
 
   // data_type - computed: true, optional: true, required: false
-  private _dataType?: string;
+  private _dataType?: string; 
   public get dataType() {
     return this.getStringAttribute('data_type');
   }
@@ -358,7 +358,7 @@ export class IotfleetwiseSignalCatalogNodesActuatorOutputReference extends cdktn
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -374,7 +374,7 @@ export class IotfleetwiseSignalCatalogNodesActuatorOutputReference extends cdktn
   }
 
   // fully_qualified_name - computed: true, optional: true, required: false
-  private _fullyQualifiedName?: string;
+  private _fullyQualifiedName?: string; 
   public get fullyQualifiedName() {
     return this.getStringAttribute('fully_qualified_name');
   }
@@ -390,7 +390,7 @@ export class IotfleetwiseSignalCatalogNodesActuatorOutputReference extends cdktn
   }
 
   // max - computed: true, optional: true, required: false
-  private _max?: number;
+  private _max?: number; 
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -406,7 +406,7 @@ export class IotfleetwiseSignalCatalogNodesActuatorOutputReference extends cdktn
   }
 
   // min - computed: true, optional: true, required: false
-  private _min?: number;
+  private _min?: number; 
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -422,7 +422,7 @@ export class IotfleetwiseSignalCatalogNodesActuatorOutputReference extends cdktn
   }
 
   // unit - computed: true, optional: true, required: false
-  private _unit?: string;
+  private _unit?: string; 
   public get unit() {
     return this.getStringAttribute('unit');
   }
@@ -652,7 +652,7 @@ export class IotfleetwiseSignalCatalogNodesAttributeOutputReference extends cdkt
   }
 
   // allowed_values - computed: true, optional: true, required: false
-  private _allowedValues?: string[];
+  private _allowedValues?: string[]; 
   public get allowedValues() {
     return this.getListAttribute('allowed_values');
   }
@@ -668,7 +668,7 @@ export class IotfleetwiseSignalCatalogNodesAttributeOutputReference extends cdkt
   }
 
   // assigned_value - computed: true, optional: true, required: false
-  private _assignedValue?: string;
+  private _assignedValue?: string; 
   public get assignedValue() {
     return this.getStringAttribute('assigned_value');
   }
@@ -684,7 +684,7 @@ export class IotfleetwiseSignalCatalogNodesAttributeOutputReference extends cdkt
   }
 
   // data_type - computed: true, optional: true, required: false
-  private _dataType?: string;
+  private _dataType?: string; 
   public get dataType() {
     return this.getStringAttribute('data_type');
   }
@@ -700,7 +700,7 @@ export class IotfleetwiseSignalCatalogNodesAttributeOutputReference extends cdkt
   }
 
   // default_value - computed: true, optional: true, required: false
-  private _defaultValue?: string;
+  private _defaultValue?: string; 
   public get defaultValue() {
     return this.getStringAttribute('default_value');
   }
@@ -716,7 +716,7 @@ export class IotfleetwiseSignalCatalogNodesAttributeOutputReference extends cdkt
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -732,7 +732,7 @@ export class IotfleetwiseSignalCatalogNodesAttributeOutputReference extends cdkt
   }
 
   // fully_qualified_name - computed: true, optional: true, required: false
-  private _fullyQualifiedName?: string;
+  private _fullyQualifiedName?: string; 
   public get fullyQualifiedName() {
     return this.getStringAttribute('fully_qualified_name');
   }
@@ -748,7 +748,7 @@ export class IotfleetwiseSignalCatalogNodesAttributeOutputReference extends cdkt
   }
 
   // max - computed: true, optional: true, required: false
-  private _max?: number;
+  private _max?: number; 
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -764,7 +764,7 @@ export class IotfleetwiseSignalCatalogNodesAttributeOutputReference extends cdkt
   }
 
   // min - computed: true, optional: true, required: false
-  private _min?: number;
+  private _min?: number; 
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -780,7 +780,7 @@ export class IotfleetwiseSignalCatalogNodesAttributeOutputReference extends cdkt
   }
 
   // unit - computed: true, optional: true, required: false
-  private _unit?: string;
+  private _unit?: string; 
   public get unit() {
     return this.getStringAttribute('unit');
   }
@@ -891,7 +891,7 @@ export class IotfleetwiseSignalCatalogNodesBranchOutputReference extends cdktn.C
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -907,7 +907,7 @@ export class IotfleetwiseSignalCatalogNodesBranchOutputReference extends cdktn.C
   }
 
   // fully_qualified_name - computed: true, optional: true, required: false
-  private _fullyQualifiedName?: string;
+  private _fullyQualifiedName?: string; 
   public get fullyQualifiedName() {
     return this.getStringAttribute('fully_qualified_name');
   }
@@ -1103,7 +1103,7 @@ export class IotfleetwiseSignalCatalogNodesSensorOutputReference extends cdktn.C
   }
 
   // allowed_values - computed: true, optional: true, required: false
-  private _allowedValues?: string[];
+  private _allowedValues?: string[]; 
   public get allowedValues() {
     return this.getListAttribute('allowed_values');
   }
@@ -1119,7 +1119,7 @@ export class IotfleetwiseSignalCatalogNodesSensorOutputReference extends cdktn.C
   }
 
   // data_type - computed: true, optional: true, required: false
-  private _dataType?: string;
+  private _dataType?: string; 
   public get dataType() {
     return this.getStringAttribute('data_type');
   }
@@ -1135,7 +1135,7 @@ export class IotfleetwiseSignalCatalogNodesSensorOutputReference extends cdktn.C
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1151,7 +1151,7 @@ export class IotfleetwiseSignalCatalogNodesSensorOutputReference extends cdktn.C
   }
 
   // fully_qualified_name - computed: true, optional: true, required: false
-  private _fullyQualifiedName?: string;
+  private _fullyQualifiedName?: string; 
   public get fullyQualifiedName() {
     return this.getStringAttribute('fully_qualified_name');
   }
@@ -1167,7 +1167,7 @@ export class IotfleetwiseSignalCatalogNodesSensorOutputReference extends cdktn.C
   }
 
   // max - computed: true, optional: true, required: false
-  private _max?: number;
+  private _max?: number; 
   public get max() {
     return this.getNumberAttribute('max');
   }
@@ -1183,7 +1183,7 @@ export class IotfleetwiseSignalCatalogNodesSensorOutputReference extends cdktn.C
   }
 
   // min - computed: true, optional: true, required: false
-  private _min?: number;
+  private _min?: number; 
   public get min() {
     return this.getNumberAttribute('min');
   }
@@ -1199,7 +1199,7 @@ export class IotfleetwiseSignalCatalogNodesSensorOutputReference extends cdktn.C
   }
 
   // unit - computed: true, optional: true, required: false
-  private _unit?: string;
+  private _unit?: string; 
   public get unit() {
     return this.getStringAttribute('unit');
   }
@@ -1527,7 +1527,7 @@ export class IotfleetwiseSignalCatalogTagsOutputReference extends cdktn.ComplexO
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1543,7 +1543,7 @@ export class IotfleetwiseSignalCatalogTagsOutputReference extends cdktn.ComplexO
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1651,7 +1651,7 @@ export class IotfleetwiseSignalCatalog extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1677,7 +1677,7 @@ export class IotfleetwiseSignalCatalog extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }

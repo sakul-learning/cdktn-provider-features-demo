@@ -152,7 +152,7 @@ export class DatapipelinePipelineParameterObjectsAttributesOutputReference exten
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -168,7 +168,7 @@ export class DatapipelinePipelineParameterObjectsAttributesOutputReference exten
   }
 
   // string_value - computed: true, optional: true, required: false
-  private _stringValue?: string;
+  private _stringValue?: string; 
   public get stringValue() {
     return this.getStringAttribute('string_value');
   }
@@ -324,7 +324,7 @@ export class DatapipelinePipelineParameterObjectsOutputReference extends cdktn.C
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -464,7 +464,7 @@ export class DatapipelinePipelineParameterValuesOutputReference extends cdktn.Co
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -480,7 +480,7 @@ export class DatapipelinePipelineParameterValuesOutputReference extends cdktn.Co
   }
 
   // string_value - computed: true, optional: true, required: false
-  private _stringValue?: string;
+  private _stringValue?: string; 
   public get stringValue() {
     return this.getStringAttribute('string_value');
   }
@@ -636,7 +636,7 @@ export class DatapipelinePipelinePipelineObjectsFieldsOutputReference extends cd
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -652,7 +652,7 @@ export class DatapipelinePipelinePipelineObjectsFieldsOutputReference extends cd
   }
 
   // ref_value - computed: true, optional: true, required: false
-  private _refValue?: string;
+  private _refValue?: string; 
   public get refValue() {
     return this.getStringAttribute('ref_value');
   }
@@ -668,7 +668,7 @@ export class DatapipelinePipelinePipelineObjectsFieldsOutputReference extends cd
   }
 
   // string_value - computed: true, optional: true, required: false
-  private _stringValue?: string;
+  private _stringValue?: string; 
   public get stringValue() {
     return this.getStringAttribute('string_value');
   }
@@ -843,7 +843,7 @@ export class DatapipelinePipelinePipelineObjectsOutputReference extends cdktn.Co
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -859,7 +859,7 @@ export class DatapipelinePipelinePipelineObjectsOutputReference extends cdktn.Co
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -996,7 +996,7 @@ export class DatapipelinePipelinePipelineTagsOutputReference extends cdktn.Compl
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -1012,7 +1012,7 @@ export class DatapipelinePipelinePipelineTagsOutputReference extends cdktn.Compl
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -1112,7 +1112,7 @@ export class DatapipelinePipeline extends cdktn.TerraformResource {
   // ==========
 
   // activate - computed: true, optional: true, required: false
-  private _activate?: boolean | cdktn.IResolvable;
+  private _activate?: boolean | cdktn.IResolvable; 
   public get activate() {
     return this.getBooleanAttribute('activate');
   }
@@ -1128,7 +1128,7 @@ export class DatapipelinePipeline extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1149,7 +1149,7 @@ export class DatapipelinePipeline extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }

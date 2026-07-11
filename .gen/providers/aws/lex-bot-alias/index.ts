@@ -181,7 +181,7 @@ export class LexBotAliasConversationLogsLogSettingsOutputReference extends cdktn
   }
 
   // destination - computed: false, optional: false, required: true
-  private _destination?: string;
+  private _destination?: string; 
   public get destination() {
     return this.getStringAttribute('destination');
   }
@@ -194,7 +194,7 @@ export class LexBotAliasConversationLogsLogSettingsOutputReference extends cdktn
   }
 
   // kms_key_arn - computed: false, optional: true, required: false
-  private _kmsKeyArn?: string;
+  private _kmsKeyArn?: string; 
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -210,7 +210,7 @@ export class LexBotAliasConversationLogsLogSettingsOutputReference extends cdktn
   }
 
   // log_type - computed: false, optional: false, required: true
-  private _logType?: string;
+  private _logType?: string; 
   public get logType() {
     return this.getStringAttribute('log_type');
   }
@@ -223,7 +223,7 @@ export class LexBotAliasConversationLogsLogSettingsOutputReference extends cdktn
   }
 
   // resource_arn - computed: false, optional: false, required: true
-  private _resourceArn?: string;
+  private _resourceArn?: string; 
   public get resourceArn() {
     return this.getStringAttribute('resource_arn');
   }
@@ -348,7 +348,7 @@ export class LexBotAliasConversationLogsOutputReference extends cdktn.ComplexObj
   }
 
   // iam_role_arn - computed: false, optional: false, required: true
-  private _iamRoleArn?: string;
+  private _iamRoleArn?: string; 
   public get iamRoleArn() {
     return this.getStringAttribute('iam_role_arn');
   }
@@ -489,7 +489,7 @@ export class LexBotAliasTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -505,7 +505,7 @@ export class LexBotAliasTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -521,7 +521,7 @@ export class LexBotAliasTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -607,7 +607,7 @@ export class LexBotAlias extends cdktn.TerraformResource {
   }
 
   // bot_name - computed: false, optional: false, required: true
-  private _botName?: string;
+  private _botName?: string; 
   public get botName() {
     return this.getStringAttribute('bot_name');
   }
@@ -620,7 +620,7 @@ export class LexBotAlias extends cdktn.TerraformResource {
   }
 
   // bot_version - computed: false, optional: false, required: true
-  private _botVersion?: string;
+  private _botVersion?: string; 
   public get botVersion() {
     return this.getStringAttribute('bot_version');
   }
@@ -643,7 +643,7 @@ export class LexBotAlias extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -659,7 +659,7 @@ export class LexBotAlias extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -680,7 +680,7 @@ export class LexBotAlias extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -693,7 +693,7 @@ export class LexBotAlias extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

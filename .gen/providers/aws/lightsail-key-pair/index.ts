@@ -131,7 +131,7 @@ export class LightsailKeyPair extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -147,7 +147,7 @@ export class LightsailKeyPair extends cdktn.TerraformResource {
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -163,7 +163,7 @@ export class LightsailKeyPair extends cdktn.TerraformResource {
   }
 
   // name_prefix - computed: true, optional: true, required: false
-  private _namePrefix?: string;
+  private _namePrefix?: string; 
   public get namePrefix() {
     return this.getStringAttribute('name_prefix');
   }
@@ -179,7 +179,7 @@ export class LightsailKeyPair extends cdktn.TerraformResource {
   }
 
   // pgp_key - computed: false, optional: true, required: false
-  private _pgpKey?: string;
+  private _pgpKey?: string; 
   public get pgpKey() {
     return this.getStringAttribute('pgp_key');
   }
@@ -200,7 +200,7 @@ export class LightsailKeyPair extends cdktn.TerraformResource {
   }
 
   // public_key - computed: true, optional: true, required: false
-  private _publicKey?: string;
+  private _publicKey?: string; 
   public get publicKey() {
     return this.getStringAttribute('public_key');
   }
@@ -216,7 +216,7 @@ export class LightsailKeyPair extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -232,7 +232,7 @@ export class LightsailKeyPair extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -248,7 +248,7 @@ export class LightsailKeyPair extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

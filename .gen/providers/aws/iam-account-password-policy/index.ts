@@ -119,7 +119,7 @@ export class IamAccountPasswordPolicy extends cdktn.TerraformResource {
   // ==========
 
   // allow_users_to_change_password - computed: false, optional: true, required: false
-  private _allowUsersToChangePassword?: boolean | cdktn.IResolvable;
+  private _allowUsersToChangePassword?: boolean | cdktn.IResolvable; 
   public get allowUsersToChangePassword() {
     return this.getBooleanAttribute('allow_users_to_change_password');
   }
@@ -140,7 +140,7 @@ export class IamAccountPasswordPolicy extends cdktn.TerraformResource {
   }
 
   // hard_expiry - computed: true, optional: true, required: false
-  private _hardExpiry?: boolean | cdktn.IResolvable;
+  private _hardExpiry?: boolean | cdktn.IResolvable; 
   public get hardExpiry() {
     return this.getBooleanAttribute('hard_expiry');
   }
@@ -156,7 +156,7 @@ export class IamAccountPasswordPolicy extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -172,7 +172,7 @@ export class IamAccountPasswordPolicy extends cdktn.TerraformResource {
   }
 
   // max_password_age - computed: true, optional: true, required: false
-  private _maxPasswordAge?: number;
+  private _maxPasswordAge?: number; 
   public get maxPasswordAge() {
     return this.getNumberAttribute('max_password_age');
   }
@@ -188,7 +188,7 @@ export class IamAccountPasswordPolicy extends cdktn.TerraformResource {
   }
 
   // minimum_password_length - computed: false, optional: true, required: false
-  private _minimumPasswordLength?: number;
+  private _minimumPasswordLength?: number; 
   public get minimumPasswordLength() {
     return this.getNumberAttribute('minimum_password_length');
   }
@@ -204,7 +204,7 @@ export class IamAccountPasswordPolicy extends cdktn.TerraformResource {
   }
 
   // password_reuse_prevention - computed: true, optional: true, required: false
-  private _passwordReusePrevention?: number;
+  private _passwordReusePrevention?: number; 
   public get passwordReusePrevention() {
     return this.getNumberAttribute('password_reuse_prevention');
   }
@@ -220,7 +220,7 @@ export class IamAccountPasswordPolicy extends cdktn.TerraformResource {
   }
 
   // require_lowercase_characters - computed: true, optional: true, required: false
-  private _requireLowercaseCharacters?: boolean | cdktn.IResolvable;
+  private _requireLowercaseCharacters?: boolean | cdktn.IResolvable; 
   public get requireLowercaseCharacters() {
     return this.getBooleanAttribute('require_lowercase_characters');
   }
@@ -236,7 +236,7 @@ export class IamAccountPasswordPolicy extends cdktn.TerraformResource {
   }
 
   // require_numbers - computed: true, optional: true, required: false
-  private _requireNumbers?: boolean | cdktn.IResolvable;
+  private _requireNumbers?: boolean | cdktn.IResolvable; 
   public get requireNumbers() {
     return this.getBooleanAttribute('require_numbers');
   }
@@ -252,7 +252,7 @@ export class IamAccountPasswordPolicy extends cdktn.TerraformResource {
   }
 
   // require_symbols - computed: true, optional: true, required: false
-  private _requireSymbols?: boolean | cdktn.IResolvable;
+  private _requireSymbols?: boolean | cdktn.IResolvable; 
   public get requireSymbols() {
     return this.getBooleanAttribute('require_symbols');
   }
@@ -268,7 +268,7 @@ export class IamAccountPasswordPolicy extends cdktn.TerraformResource {
   }
 
   // require_uppercase_characters - computed: true, optional: true, required: false
-  private _requireUppercaseCharacters?: boolean | cdktn.IResolvable;
+  private _requireUppercaseCharacters?: boolean | cdktn.IResolvable; 
   public get requireUppercaseCharacters() {
     return this.getBooleanAttribute('require_uppercase_characters');
   }

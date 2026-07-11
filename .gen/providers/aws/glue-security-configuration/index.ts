@@ -117,7 +117,7 @@ export class GlueSecurityConfigurationEncryptionConfigurationCloudwatchEncryptio
   }
 
   // cloudwatch_encryption_mode - computed: false, optional: true, required: false
-  private _cloudwatchEncryptionMode?: string;
+  private _cloudwatchEncryptionMode?: string; 
   public get cloudwatchEncryptionMode() {
     return this.getStringAttribute('cloudwatch_encryption_mode');
   }
@@ -133,7 +133,7 @@ export class GlueSecurityConfigurationEncryptionConfigurationCloudwatchEncryptio
   }
 
   // kms_key_arn - computed: false, optional: true, required: false
-  private _kmsKeyArn?: string;
+  private _kmsKeyArn?: string; 
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -234,7 +234,7 @@ export class GlueSecurityConfigurationEncryptionConfigurationJobBookmarksEncrypt
   }
 
   // job_bookmarks_encryption_mode - computed: false, optional: true, required: false
-  private _jobBookmarksEncryptionMode?: string;
+  private _jobBookmarksEncryptionMode?: string; 
   public get jobBookmarksEncryptionMode() {
     return this.getStringAttribute('job_bookmarks_encryption_mode');
   }
@@ -250,7 +250,7 @@ export class GlueSecurityConfigurationEncryptionConfigurationJobBookmarksEncrypt
   }
 
   // kms_key_arn - computed: false, optional: true, required: false
-  private _kmsKeyArn?: string;
+  private _kmsKeyArn?: string; 
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -351,7 +351,7 @@ export class GlueSecurityConfigurationEncryptionConfigurationS3EncryptionOutputR
   }
 
   // kms_key_arn - computed: false, optional: true, required: false
-  private _kmsKeyArn?: string;
+  private _kmsKeyArn?: string; 
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
   }
@@ -367,7 +367,7 @@ export class GlueSecurityConfigurationEncryptionConfigurationS3EncryptionOutputR
   }
 
   // s3_encryption_mode - computed: false, optional: true, required: false
-  private _s3EncryptionMode?: string;
+  private _s3EncryptionMode?: string; 
   public get s3EncryptionMode() {
     return this.getStringAttribute('s3_encryption_mode');
   }
@@ -591,7 +591,7 @@ export class GlueSecurityConfiguration extends cdktn.TerraformResource {
   // ==========
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -607,7 +607,7 @@ export class GlueSecurityConfiguration extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -620,7 +620,7 @@ export class GlueSecurityConfiguration extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

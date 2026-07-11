@@ -156,7 +156,7 @@ export class OmicsSequenceStoreSseConfigOutputReference extends cdktn.ComplexObj
   }
 
   // key_arn - computed: true, optional: true, required: false
-  private _keyArn?: string;
+  private _keyArn?: string; 
   public get keyArn() {
     return this.getStringAttribute('key_arn');
   }
@@ -172,7 +172,7 @@ export class OmicsSequenceStoreSseConfigOutputReference extends cdktn.ComplexObj
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -254,7 +254,7 @@ export class OmicsSequenceStore extends cdktn.TerraformResource {
   // ==========
 
   // access_log_location - computed: true, optional: true, required: false
-  private _accessLogLocation?: string;
+  private _accessLogLocation?: string; 
   public get accessLogLocation() {
     return this.getStringAttribute('access_log_location');
   }
@@ -280,7 +280,7 @@ export class OmicsSequenceStore extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -296,7 +296,7 @@ export class OmicsSequenceStore extends cdktn.TerraformResource {
   }
 
   // e_tag_algorithm_family - computed: true, optional: true, required: false
-  private _eTagAlgorithmFamily?: string;
+  private _eTagAlgorithmFamily?: string; 
   public get eTagAlgorithmFamily() {
     return this.getStringAttribute('e_tag_algorithm_family');
   }
@@ -312,7 +312,7 @@ export class OmicsSequenceStore extends cdktn.TerraformResource {
   }
 
   // fallback_location - computed: true, optional: true, required: false
-  private _fallbackLocation?: string;
+  private _fallbackLocation?: string; 
   public get fallbackLocation() {
     return this.getStringAttribute('fallback_location');
   }
@@ -333,7 +333,7 @@ export class OmicsSequenceStore extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -346,7 +346,7 @@ export class OmicsSequenceStore extends cdktn.TerraformResource {
   }
 
   // propagated_set_level_tags - computed: true, optional: true, required: false
-  private _propagatedSetLevelTags?: string[];
+  private _propagatedSetLevelTags?: string[]; 
   public get propagatedSetLevelTags() {
     return this.getListAttribute('propagated_set_level_tags');
   }
@@ -367,7 +367,7 @@ export class OmicsSequenceStore extends cdktn.TerraformResource {
   }
 
   // s3_access_policy - computed: true, optional: true, required: false
-  private _s3AccessPolicy?: string;
+  private _s3AccessPolicy?: string; 
   public get s3AccessPolicy() {
     return this.getStringAttribute('s3_access_policy');
   }
@@ -419,7 +419,7 @@ export class OmicsSequenceStore extends cdktn.TerraformResource {
   }
 
   // tags - computed: true, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

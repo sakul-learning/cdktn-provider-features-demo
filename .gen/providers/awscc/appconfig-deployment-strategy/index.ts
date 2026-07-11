@@ -33,17 +33,17 @@ export interface AppconfigDeploymentStrategyConfig extends cdktn.TerraformMetaAr
   readonly growthFactor: number;
   /**
   * The algorithm used to define how percentage grows over time. AWS AppConfig supports the following growth types:
-  *
+  * 
   * Linear: For this type, AWS AppConfig processes the deployment by dividing the total number of targets by the value specified for Step percentage. For example, a linear deployment that uses a Step percentage of 10 deploys the configuration to 10 percent of the hosts. After those deployments are complete, the system deploys the configuration to the next 10 percent. This continues until 100% of the targets have successfully received the configuration.
-  *
+  * 
   * Exponential: For this type, AWS AppConfig processes the deployment exponentially using the following formula: G*(2^N). In this formula, G is the growth factor specified by the user and N is the number of steps until the configuration is deployed to all targets. For example, if you specify a growth factor of 2, then the system rolls out the configuration as follows:
-  *
+  * 
   * 2*(2^0)
-  *
+  * 
   * 2*(2^1)
-  *
+  * 
   * 2*(2^2)
-  *
+  * 
   * Expressed numerically, the deployment rolls out as follows: 2% of the targets, 4% of the targets, 8% of the targets, and continues until the configuration has been deployed to all targets.
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appconfig_deployment_strategy#growth_type AppconfigDeploymentStrategy#growth_type}
@@ -170,7 +170,7 @@ export class AppconfigDeploymentStrategyTagsOutputReference extends cdktn.Comple
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -186,7 +186,7 @@ export class AppconfigDeploymentStrategyTagsOutputReference extends cdktn.Comple
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -287,7 +287,7 @@ export class AppconfigDeploymentStrategy extends cdktn.TerraformResource {
   // ==========
 
   // deployment_duration_in_minutes - computed: false, optional: false, required: true
-  private _deploymentDurationInMinutes?: number;
+  private _deploymentDurationInMinutes?: number; 
   public get deploymentDurationInMinutes() {
     return this.getNumberAttribute('deployment_duration_in_minutes');
   }
@@ -305,7 +305,7 @@ export class AppconfigDeploymentStrategy extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -321,7 +321,7 @@ export class AppconfigDeploymentStrategy extends cdktn.TerraformResource {
   }
 
   // final_bake_time_in_minutes - computed: true, optional: true, required: false
-  private _finalBakeTimeInMinutes?: number;
+  private _finalBakeTimeInMinutes?: number; 
   public get finalBakeTimeInMinutes() {
     return this.getNumberAttribute('final_bake_time_in_minutes');
   }
@@ -337,7 +337,7 @@ export class AppconfigDeploymentStrategy extends cdktn.TerraformResource {
   }
 
   // growth_factor - computed: false, optional: false, required: true
-  private _growthFactor?: number;
+  private _growthFactor?: number; 
   public get growthFactor() {
     return this.getNumberAttribute('growth_factor');
   }
@@ -350,7 +350,7 @@ export class AppconfigDeploymentStrategy extends cdktn.TerraformResource {
   }
 
   // growth_type - computed: true, optional: true, required: false
-  private _growthType?: string;
+  private _growthType?: string; 
   public get growthType() {
     return this.getStringAttribute('growth_type');
   }
@@ -371,7 +371,7 @@ export class AppconfigDeploymentStrategy extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -384,7 +384,7 @@ export class AppconfigDeploymentStrategy extends cdktn.TerraformResource {
   }
 
   // replicate_to - computed: false, optional: false, required: true
-  private _replicateTo?: string;
+  private _replicateTo?: string; 
   public get replicateTo() {
     return this.getStringAttribute('replicate_to');
   }

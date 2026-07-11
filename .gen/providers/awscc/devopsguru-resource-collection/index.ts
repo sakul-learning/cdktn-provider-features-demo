@@ -95,7 +95,7 @@ export class DevopsguruResourceCollectionResourceCollectionFilterCloudformationO
   }
 
   // stack_names - computed: true, optional: true, required: false
-  private _stackNames?: string[];
+  private _stackNames?: string[]; 
   public get stackNames() {
     return this.getListAttribute('stack_names');
   }
@@ -212,7 +212,7 @@ export class DevopsguruResourceCollectionResourceCollectionFilterTagsOutputRefer
   }
 
   // app_boundary_key - computed: true, optional: true, required: false
-  private _appBoundaryKey?: string;
+  private _appBoundaryKey?: string; 
   public get appBoundaryKey() {
     return this.getStringAttribute('app_boundary_key');
   }
@@ -228,7 +228,7 @@ export class DevopsguruResourceCollectionResourceCollectionFilterTagsOutputRefer
   }
 
   // tag_values - computed: true, optional: true, required: false
-  private _tagValues?: string[];
+  private _tagValues?: string[]; 
   public get tagValues() {
     return this.getListAttribute('tag_values');
   }

@@ -1178,7 +1178,7 @@ export class GroundstationDataflowEndpointGroupV2EndpointsDownlinkAwsGroundStati
   }
 
   // maximum - computed: true, optional: true, required: false
-  private _maximum?: number;
+  private _maximum?: number; 
   public get maximum() {
     return this.getNumberAttribute('maximum');
   }
@@ -1194,7 +1194,7 @@ export class GroundstationDataflowEndpointGroupV2EndpointsDownlinkAwsGroundStati
   }
 
   // minimum - computed: true, optional: true, required: false
-  private _minimum?: number;
+  private _minimum?: number; 
   public get minimum() {
     return this.getNumberAttribute('minimum');
   }
@@ -1309,7 +1309,7 @@ export class GroundstationDataflowEndpointGroupV2EndpointsDownlinkAwsGroundStati
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1440,7 +1440,7 @@ export class GroundstationDataflowEndpointGroupV2EndpointsDownlinkAwsGroundStati
   }
 
   // mtu - computed: true, optional: true, required: false
-  private _mtu?: number;
+  private _mtu?: number; 
   public get mtu() {
     return this.getNumberAttribute('mtu');
   }
@@ -1571,7 +1571,7 @@ export class GroundstationDataflowEndpointGroupV2EndpointsDownlinkAwsGroundStati
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1587,7 +1587,7 @@ export class GroundstationDataflowEndpointGroupV2EndpointsDownlinkAwsGroundStati
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -1700,7 +1700,7 @@ export class GroundstationDataflowEndpointGroupV2EndpointsDownlinkAwsGroundStati
   }
 
   // mtu - computed: true, optional: true, required: false
-  private _mtu?: number;
+  private _mtu?: number; 
   public get mtu() {
     return this.getNumberAttribute('mtu');
   }
@@ -2072,7 +2072,7 @@ export class GroundstationDataflowEndpointGroupV2EndpointsDownlinkAwsGroundStati
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2187,7 +2187,7 @@ export class GroundstationDataflowEndpointGroupV2EndpointsUplinkAwsGroundStation
   }
 
   // maximum - computed: true, optional: true, required: false
-  private _maximum?: number;
+  private _maximum?: number; 
   public get maximum() {
     return this.getNumberAttribute('maximum');
   }
@@ -2203,7 +2203,7 @@ export class GroundstationDataflowEndpointGroupV2EndpointsUplinkAwsGroundStation
   }
 
   // minimum - computed: true, optional: true, required: false
-  private _minimum?: number;
+  private _minimum?: number; 
   public get minimum() {
     return this.getNumberAttribute('minimum');
   }
@@ -2318,7 +2318,7 @@ export class GroundstationDataflowEndpointGroupV2EndpointsUplinkAwsGroundStation
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2449,7 +2449,7 @@ export class GroundstationDataflowEndpointGroupV2EndpointsUplinkAwsGroundStation
   }
 
   // mtu - computed: true, optional: true, required: false
-  private _mtu?: number;
+  private _mtu?: number; 
   public get mtu() {
     return this.getNumberAttribute('mtu');
   }
@@ -2580,7 +2580,7 @@ export class GroundstationDataflowEndpointGroupV2EndpointsUplinkAwsGroundStation
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -2596,7 +2596,7 @@ export class GroundstationDataflowEndpointGroupV2EndpointsUplinkAwsGroundStation
   }
 
   // port - computed: true, optional: true, required: false
-  private _port?: number;
+  private _port?: number; 
   public get port() {
     return this.getNumberAttribute('port');
   }
@@ -2709,7 +2709,7 @@ export class GroundstationDataflowEndpointGroupV2EndpointsUplinkAwsGroundStation
   }
 
   // mtu - computed: true, optional: true, required: false
-  private _mtu?: number;
+  private _mtu?: number; 
   public get mtu() {
     return this.getNumberAttribute('mtu');
   }
@@ -3081,7 +3081,7 @@ export class GroundstationDataflowEndpointGroupV2EndpointsUplinkAwsGroundStation
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -3347,7 +3347,7 @@ export class GroundstationDataflowEndpointGroupV2TagsOutputReference extends cdk
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -3363,7 +3363,7 @@ export class GroundstationDataflowEndpointGroupV2TagsOutputReference extends cdk
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -3465,7 +3465,7 @@ export class GroundstationDataflowEndpointGroupV2 extends cdktn.TerraformResourc
   }
 
   // contact_post_pass_duration_seconds - computed: true, optional: true, required: false
-  private _contactPostPassDurationSeconds?: number;
+  private _contactPostPassDurationSeconds?: number; 
   public get contactPostPassDurationSeconds() {
     return this.getNumberAttribute('contact_post_pass_duration_seconds');
   }
@@ -3481,7 +3481,7 @@ export class GroundstationDataflowEndpointGroupV2 extends cdktn.TerraformResourc
   }
 
   // contact_pre_pass_duration_seconds - computed: true, optional: true, required: false
-  private _contactPrePassDurationSeconds?: number;
+  private _contactPrePassDurationSeconds?: number; 
   public get contactPrePassDurationSeconds() {
     return this.getNumberAttribute('contact_pre_pass_duration_seconds');
   }

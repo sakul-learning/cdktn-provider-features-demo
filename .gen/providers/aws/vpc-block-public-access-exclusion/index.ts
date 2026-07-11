@@ -155,7 +155,7 @@ export class VpcBlockPublicAccessExclusionTimeoutsOutputReference extends cdktn.
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -171,7 +171,7 @@ export class VpcBlockPublicAccessExclusionTimeoutsOutputReference extends cdktn.
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -187,7 +187,7 @@ export class VpcBlockPublicAccessExclusionTimeoutsOutputReference extends cdktn.
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -271,7 +271,7 @@ export class VpcBlockPublicAccessExclusion extends cdktn.TerraformResource {
   }
 
   // internet_gateway_exclusion_mode - computed: false, optional: false, required: true
-  private _internetGatewayExclusionMode?: string;
+  private _internetGatewayExclusionMode?: string; 
   public get internetGatewayExclusionMode() {
     return this.getStringAttribute('internet_gateway_exclusion_mode');
   }
@@ -284,7 +284,7 @@ export class VpcBlockPublicAccessExclusion extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -305,7 +305,7 @@ export class VpcBlockPublicAccessExclusion extends cdktn.TerraformResource {
   }
 
   // subnet_id - computed: false, optional: true, required: false
-  private _subnetId?: string;
+  private _subnetId?: string; 
   public get subnetId() {
     return this.getStringAttribute('subnet_id');
   }
@@ -321,7 +321,7 @@ export class VpcBlockPublicAccessExclusion extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -343,7 +343,7 @@ export class VpcBlockPublicAccessExclusion extends cdktn.TerraformResource {
   }
 
   // vpc_id - computed: false, optional: true, required: false
-  private _vpcId?: string;
+  private _vpcId?: string; 
   public get vpcId() {
     return this.getStringAttribute('vpc_id');
   }

@@ -85,7 +85,7 @@ export class LogsLogStream extends cdktn.TerraformResource {
   }
 
   // log_group_name - computed: false, optional: false, required: true
-  private _logGroupName?: string;
+  private _logGroupName?: string; 
   public get logGroupName() {
     return this.getStringAttribute('log_group_name');
   }
@@ -98,7 +98,7 @@ export class LogsLogStream extends cdktn.TerraformResource {
   }
 
   // log_stream_name - computed: true, optional: true, required: false
-  private _logStreamName?: string;
+  private _logStreamName?: string; 
   public get logStreamName() {
     return this.getStringAttribute('log_stream_name');
   }

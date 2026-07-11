@@ -156,7 +156,7 @@ export class XraySamplingRule extends cdktn.TerraformResource {
   }
 
   // attributes - computed: false, optional: true, required: false
-  private _attributes?: { [key: string]: string };
+  private _attributes?: { [key: string]: string }; 
   public get attributes() {
     return this.getStringMapAttribute('attributes');
   }
@@ -172,7 +172,7 @@ export class XraySamplingRule extends cdktn.TerraformResource {
   }
 
   // fixed_rate - computed: false, optional: false, required: true
-  private _fixedRate?: number;
+  private _fixedRate?: number; 
   public get fixedRate() {
     return this.getNumberAttribute('fixed_rate');
   }
@@ -185,7 +185,7 @@ export class XraySamplingRule extends cdktn.TerraformResource {
   }
 
   // host - computed: false, optional: false, required: true
-  private _host?: string;
+  private _host?: string; 
   public get host() {
     return this.getStringAttribute('host');
   }
@@ -198,7 +198,7 @@ export class XraySamplingRule extends cdktn.TerraformResource {
   }
 
   // http_method - computed: false, optional: false, required: true
-  private _httpMethod?: string;
+  private _httpMethod?: string; 
   public get httpMethod() {
     return this.getStringAttribute('http_method');
   }
@@ -211,7 +211,7 @@ export class XraySamplingRule extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -227,7 +227,7 @@ export class XraySamplingRule extends cdktn.TerraformResource {
   }
 
   // priority - computed: false, optional: false, required: true
-  private _priority?: number;
+  private _priority?: number; 
   public get priority() {
     return this.getNumberAttribute('priority');
   }
@@ -240,7 +240,7 @@ export class XraySamplingRule extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -256,7 +256,7 @@ export class XraySamplingRule extends cdktn.TerraformResource {
   }
 
   // reservoir_size - computed: false, optional: false, required: true
-  private _reservoirSize?: number;
+  private _reservoirSize?: number; 
   public get reservoirSize() {
     return this.getNumberAttribute('reservoir_size');
   }
@@ -269,7 +269,7 @@ export class XraySamplingRule extends cdktn.TerraformResource {
   }
 
   // resource_arn - computed: false, optional: false, required: true
-  private _resourceArn?: string;
+  private _resourceArn?: string; 
   public get resourceArn() {
     return this.getStringAttribute('resource_arn');
   }
@@ -282,7 +282,7 @@ export class XraySamplingRule extends cdktn.TerraformResource {
   }
 
   // rule_name - computed: false, optional: true, required: false
-  private _ruleName?: string;
+  private _ruleName?: string; 
   public get ruleName() {
     return this.getStringAttribute('rule_name');
   }
@@ -298,7 +298,7 @@ export class XraySamplingRule extends cdktn.TerraformResource {
   }
 
   // service_name - computed: false, optional: false, required: true
-  private _serviceName?: string;
+  private _serviceName?: string; 
   public get serviceName() {
     return this.getStringAttribute('service_name');
   }
@@ -311,7 +311,7 @@ export class XraySamplingRule extends cdktn.TerraformResource {
   }
 
   // service_type - computed: false, optional: false, required: true
-  private _serviceType?: string;
+  private _serviceType?: string; 
   public get serviceType() {
     return this.getStringAttribute('service_type');
   }
@@ -324,7 +324,7 @@ export class XraySamplingRule extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -340,7 +340,7 @@ export class XraySamplingRule extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }
@@ -356,7 +356,7 @@ export class XraySamplingRule extends cdktn.TerraformResource {
   }
 
   // url_path - computed: false, optional: false, required: true
-  private _urlPath?: string;
+  private _urlPath?: string; 
   public get urlPath() {
     return this.getStringAttribute('url_path');
   }
@@ -369,7 +369,7 @@ export class XraySamplingRule extends cdktn.TerraformResource {
   }
 
   // version - computed: false, optional: false, required: true
-  private _version?: number;
+  private _version?: number; 
   public get version() {
     return this.getNumberAttribute('version');
   }

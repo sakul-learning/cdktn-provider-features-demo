@@ -204,7 +204,7 @@ export class DataAwsIdentitystoreGroupAlternateIdentifierExternalIdOutputReferen
   }
 
   // id - computed: false, optional: false, required: true
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -217,7 +217,7 @@ export class DataAwsIdentitystoreGroupAlternateIdentifierExternalIdOutputReferen
   }
 
   // issuer - computed: false, optional: false, required: true
-  private _issuer?: string;
+  private _issuer?: string; 
   public get issuer() {
     return this.getStringAttribute('issuer');
   }
@@ -315,7 +315,7 @@ export class DataAwsIdentitystoreGroupAlternateIdentifierUniqueAttributeOutputRe
   }
 
   // attribute_path - computed: false, optional: false, required: true
-  private _attributePath?: string;
+  private _attributePath?: string; 
   public get attributePath() {
     return this.getStringAttribute('attribute_path');
   }
@@ -328,7 +328,7 @@ export class DataAwsIdentitystoreGroupAlternateIdentifierUniqueAttributeOutputRe
   }
 
   // attribute_value - computed: false, optional: false, required: true
-  private _attributeValue?: string;
+  private _attributeValue?: string; 
   public get attributeValue() {
     return this.getStringAttribute('attribute_value');
   }
@@ -540,7 +540,7 @@ export class DataAwsIdentitystoreGroup extends cdktn.TerraformDataSource {
   }
 
   // group_id - computed: true, optional: true, required: false
-  private _groupId?: string;
+  private _groupId?: string; 
   public get groupId() {
     return this.getStringAttribute('group_id');
   }
@@ -556,7 +556,7 @@ export class DataAwsIdentitystoreGroup extends cdktn.TerraformDataSource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -572,7 +572,7 @@ export class DataAwsIdentitystoreGroup extends cdktn.TerraformDataSource {
   }
 
   // identity_store_id - computed: false, optional: false, required: true
-  private _identityStoreId?: string;
+  private _identityStoreId?: string; 
   public get identityStoreId() {
     return this.getStringAttribute('identity_store_id');
   }
@@ -585,7 +585,7 @@ export class DataAwsIdentitystoreGroup extends cdktn.TerraformDataSource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

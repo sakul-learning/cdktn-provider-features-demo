@@ -19,7 +19,7 @@ export interface RdsDbSubnetGroupConfig extends cdktn.TerraformMetaArguments {
   *   +  Must contain no more than 255 letters, numbers, periods, underscores, spaces, or hyphens.
   *   +  Must not be default.
   *   +  First character must be a letter.
-  *
+  *   
   *  Example: ``mydbsubnetgroup``
   *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/rds_db_subnet_group#db_subnet_group_name RdsDbSubnetGroup#db_subnet_group_name}
@@ -140,7 +140,7 @@ export class RdsDbSubnetGroupTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -156,7 +156,7 @@ export class RdsDbSubnetGroupTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -253,7 +253,7 @@ export class RdsDbSubnetGroup extends cdktn.TerraformResource {
   // ==========
 
   // db_subnet_group_description - computed: false, optional: false, required: true
-  private _dbSubnetGroupDescription?: string;
+  private _dbSubnetGroupDescription?: string; 
   public get dbSubnetGroupDescription() {
     return this.getStringAttribute('db_subnet_group_description');
   }
@@ -266,7 +266,7 @@ export class RdsDbSubnetGroup extends cdktn.TerraformResource {
   }
 
   // db_subnet_group_name - computed: true, optional: true, required: false
-  private _dbSubnetGroupName?: string;
+  private _dbSubnetGroupName?: string; 
   public get dbSubnetGroupName() {
     return this.getStringAttribute('db_subnet_group_name');
   }
@@ -287,7 +287,7 @@ export class RdsDbSubnetGroup extends cdktn.TerraformResource {
   }
 
   // subnet_ids - computed: false, optional: false, required: true
-  private _subnetIds?: string[];
+  private _subnetIds?: string[]; 
   public get subnetIds() {
     return this.getListAttribute('subnet_ids');
   }

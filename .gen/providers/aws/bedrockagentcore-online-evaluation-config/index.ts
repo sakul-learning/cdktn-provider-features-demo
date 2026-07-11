@@ -311,7 +311,7 @@ export class BedrockagentcoreOnlineEvaluationConfigDataSourceConfigCloudwatchLog
   }
 
   // log_group_names - computed: false, optional: false, required: true
-  private _logGroupNames?: string[];
+  private _logGroupNames?: string[]; 
   public get logGroupNames() {
     return this.getListAttribute('log_group_names');
   }
@@ -324,7 +324,7 @@ export class BedrockagentcoreOnlineEvaluationConfigDataSourceConfigCloudwatchLog
   }
 
   // service_names - computed: false, optional: false, required: true
-  private _serviceNames?: string[];
+  private _serviceNames?: string[]; 
   public get serviceNames() {
     return this.getListAttribute('service_names');
   }
@@ -555,7 +555,7 @@ export class BedrockagentcoreOnlineEvaluationConfigEvaluatorOutputReference exte
   }
 
   // evaluator_id - computed: false, optional: false, required: true
-  private _evaluatorId?: string;
+  private _evaluatorId?: string; 
   public get evaluatorId() {
     return this.getStringAttribute('evaluator_id');
   }
@@ -702,7 +702,7 @@ export class BedrockagentcoreOnlineEvaluationConfigRuleFilterValueOutputReferenc
   }
 
   // boolean_value - computed: false, optional: true, required: false
-  private _booleanValue?: boolean | cdktn.IResolvable;
+  private _booleanValue?: boolean | cdktn.IResolvable; 
   public get booleanValue() {
     return this.getBooleanAttribute('boolean_value');
   }
@@ -718,7 +718,7 @@ export class BedrockagentcoreOnlineEvaluationConfigRuleFilterValueOutputReferenc
   }
 
   // double_value - computed: false, optional: true, required: false
-  private _doubleValue?: number;
+  private _doubleValue?: number; 
   public get doubleValue() {
     return this.getNumberAttribute('double_value');
   }
@@ -734,7 +734,7 @@ export class BedrockagentcoreOnlineEvaluationConfigRuleFilterValueOutputReferenc
   }
 
   // string_value - computed: false, optional: true, required: false
-  private _stringValue?: string;
+  private _stringValue?: string; 
   public get stringValue() {
     return this.getStringAttribute('string_value');
   }
@@ -886,7 +886,7 @@ export class BedrockagentcoreOnlineEvaluationConfigRuleFilterOutputReference ext
   }
 
   // key - computed: false, optional: false, required: true
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -899,7 +899,7 @@ export class BedrockagentcoreOnlineEvaluationConfigRuleFilterOutputReference ext
   }
 
   // operator - computed: false, optional: false, required: true
-  private _operator?: string;
+  private _operator?: string; 
   public get operator() {
     return this.getStringAttribute('operator');
   }
@@ -1028,7 +1028,7 @@ export class BedrockagentcoreOnlineEvaluationConfigRuleSamplingConfigOutputRefer
   }
 
   // sampling_percentage - computed: false, optional: false, required: true
-  private _samplingPercentage?: number;
+  private _samplingPercentage?: number; 
   public get samplingPercentage() {
     return this.getNumberAttribute('sampling_percentage');
   }
@@ -1141,7 +1141,7 @@ export class BedrockagentcoreOnlineEvaluationConfigRuleSessionConfigOutputRefere
   }
 
   // session_timeout_minutes - computed: false, optional: false, required: true
-  private _sessionTimeoutMinutes?: number;
+  private _sessionTimeoutMinutes?: number; 
   public get sessionTimeoutMinutes() {
     return this.getNumberAttribute('session_timeout_minutes');
   }
@@ -1480,7 +1480,7 @@ export class BedrockagentcoreOnlineEvaluationConfigTimeoutsOutputReference exten
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -1496,7 +1496,7 @@ export class BedrockagentcoreOnlineEvaluationConfigTimeoutsOutputReference exten
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -1512,7 +1512,7 @@ export class BedrockagentcoreOnlineEvaluationConfigTimeoutsOutputReference exten
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -1596,7 +1596,7 @@ export class BedrockagentcoreOnlineEvaluationConfig extends cdktn.TerraformResou
   // ==========
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1612,7 +1612,7 @@ export class BedrockagentcoreOnlineEvaluationConfig extends cdktn.TerraformResou
   }
 
   // enable_on_create - computed: false, optional: false, required: true
-  private _enableOnCreate?: boolean | cdktn.IResolvable;
+  private _enableOnCreate?: boolean | cdktn.IResolvable; 
   public get enableOnCreate() {
     return this.getBooleanAttribute('enable_on_create');
   }
@@ -1625,7 +1625,7 @@ export class BedrockagentcoreOnlineEvaluationConfig extends cdktn.TerraformResou
   }
 
   // evaluation_execution_role_arn - computed: false, optional: false, required: true
-  private _evaluationExecutionRoleArn?: string;
+  private _evaluationExecutionRoleArn?: string; 
   public get evaluationExecutionRoleArn() {
     return this.getStringAttribute('evaluation_execution_role_arn');
   }
@@ -1638,7 +1638,7 @@ export class BedrockagentcoreOnlineEvaluationConfig extends cdktn.TerraformResou
   }
 
   // execution_status - computed: true, optional: true, required: false
-  private _executionStatus?: string;
+  private _executionStatus?: string; 
   public get executionStatus() {
     return this.getStringAttribute('execution_status');
   }
@@ -1664,7 +1664,7 @@ export class BedrockagentcoreOnlineEvaluationConfig extends cdktn.TerraformResou
   }
 
   // online_evaluation_config_name - computed: false, optional: false, required: true
-  private _onlineEvaluationConfigName?: string;
+  private _onlineEvaluationConfigName?: string; 
   public get onlineEvaluationConfigName() {
     return this.getStringAttribute('online_evaluation_config_name');
   }
@@ -1683,7 +1683,7 @@ export class BedrockagentcoreOnlineEvaluationConfig extends cdktn.TerraformResou
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1699,7 +1699,7 @@ export class BedrockagentcoreOnlineEvaluationConfig extends cdktn.TerraformResou
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

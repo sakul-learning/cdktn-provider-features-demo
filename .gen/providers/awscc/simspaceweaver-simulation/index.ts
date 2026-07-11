@@ -134,7 +134,7 @@ export class SimspaceweaverSimulationSchemaS3LocationOutputReference extends cdk
   }
 
   // bucket_name - computed: true, optional: true, required: false
-  private _bucketName?: string;
+  private _bucketName?: string; 
   public get bucketName() {
     return this.getStringAttribute('bucket_name');
   }
@@ -150,7 +150,7 @@ export class SimspaceweaverSimulationSchemaS3LocationOutputReference extends cdk
   }
 
   // object_key - computed: true, optional: true, required: false
-  private _objectKey?: string;
+  private _objectKey?: string; 
   public get objectKey() {
     return this.getStringAttribute('object_key');
   }
@@ -265,7 +265,7 @@ export class SimspaceweaverSimulationSnapshotS3LocationOutputReference extends c
   }
 
   // bucket_name - computed: true, optional: true, required: false
-  private _bucketName?: string;
+  private _bucketName?: string; 
   public get bucketName() {
     return this.getStringAttribute('bucket_name');
   }
@@ -281,7 +281,7 @@ export class SimspaceweaverSimulationSnapshotS3LocationOutputReference extends c
   }
 
   // object_key - computed: true, optional: true, required: false
-  private _objectKey?: string;
+  private _objectKey?: string; 
   public get objectKey() {
     return this.getStringAttribute('object_key');
   }
@@ -369,7 +369,7 @@ export class SimspaceweaverSimulation extends cdktn.TerraformResource {
   }
 
   // maximum_duration - computed: true, optional: true, required: false
-  private _maximumDuration?: string;
+  private _maximumDuration?: string; 
   public get maximumDuration() {
     return this.getStringAttribute('maximum_duration');
   }
@@ -385,7 +385,7 @@ export class SimspaceweaverSimulation extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -398,7 +398,7 @@ export class SimspaceweaverSimulation extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }

@@ -80,7 +80,7 @@ export class Macie2OrganizationConfiguration extends cdktn.TerraformResource {
   // ==========
 
   // auto_enable - computed: false, optional: false, required: true
-  private _autoEnable?: boolean | cdktn.IResolvable;
+  private _autoEnable?: boolean | cdktn.IResolvable; 
   public get autoEnable() {
     return this.getBooleanAttribute('auto_enable');
   }
@@ -93,7 +93,7 @@ export class Macie2OrganizationConfiguration extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

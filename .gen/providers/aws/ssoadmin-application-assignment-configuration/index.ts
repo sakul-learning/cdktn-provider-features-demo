@@ -83,7 +83,7 @@ export class SsoadminApplicationAssignmentConfiguration extends cdktn.TerraformR
   // ==========
 
   // application_arn - computed: false, optional: false, required: true
-  private _applicationArn?: string;
+  private _applicationArn?: string; 
   public get applicationArn() {
     return this.getStringAttribute('application_arn');
   }
@@ -96,7 +96,7 @@ export class SsoadminApplicationAssignmentConfiguration extends cdktn.TerraformR
   }
 
   // assignment_required - computed: false, optional: false, required: true
-  private _assignmentRequired?: boolean | cdktn.IResolvable;
+  private _assignmentRequired?: boolean | cdktn.IResolvable; 
   public get assignmentRequired() {
     return this.getBooleanAttribute('assignment_required');
   }
@@ -114,7 +114,7 @@ export class SsoadminApplicationAssignmentConfiguration extends cdktn.TerraformR
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

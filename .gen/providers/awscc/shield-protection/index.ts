@@ -140,7 +140,7 @@ export class ShieldProtectionApplicationLayerAutomaticResponseConfigurationActio
   }
 
   // block - computed: true, optional: true, required: false
-  private _block?: string;
+  private _block?: string; 
   public get block() {
     return this.getStringAttribute('block');
   }
@@ -156,7 +156,7 @@ export class ShieldProtectionApplicationLayerAutomaticResponseConfigurationActio
   }
 
   // count - computed: true, optional: true, required: false
-  private _count?: string;
+  private _count?: string; 
   public get count() {
     return this.getStringAttribute('count');
   }
@@ -287,7 +287,7 @@ export class ShieldProtectionApplicationLayerAutomaticResponseConfigurationOutpu
   }
 
   // status - computed: true, optional: true, required: false
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -404,7 +404,7 @@ export class ShieldProtectionTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -420,7 +420,7 @@ export class ShieldProtectionTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -534,7 +534,7 @@ export class ShieldProtection extends cdktn.TerraformResource {
   }
 
   // health_check_arns - computed: true, optional: true, required: false
-  private _healthCheckArns?: string[];
+  private _healthCheckArns?: string[]; 
   public get healthCheckArns() {
     return this.getListAttribute('health_check_arns');
   }
@@ -555,7 +555,7 @@ export class ShieldProtection extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -578,7 +578,7 @@ export class ShieldProtection extends cdktn.TerraformResource {
   }
 
   // resource_arn - computed: false, optional: false, required: true
-  private _resourceArn?: string;
+  private _resourceArn?: string; 
   public get resourceArn() {
     return this.getStringAttribute('resource_arn');
   }

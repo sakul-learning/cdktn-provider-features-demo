@@ -122,7 +122,7 @@ export class CodestarconnectionsSyncConfiguration extends cdktn.TerraformResourc
   // ==========
 
   // branch - computed: false, optional: false, required: true
-  private _branch?: string;
+  private _branch?: string; 
   public get branch() {
     return this.getStringAttribute('branch');
   }
@@ -135,7 +135,7 @@ export class CodestarconnectionsSyncConfiguration extends cdktn.TerraformResourc
   }
 
   // config_file - computed: false, optional: false, required: true
-  private _configFile?: string;
+  private _configFile?: string; 
   public get configFile() {
     return this.getStringAttribute('config_file');
   }
@@ -163,7 +163,7 @@ export class CodestarconnectionsSyncConfiguration extends cdktn.TerraformResourc
   }
 
   // publish_deployment_status - computed: true, optional: true, required: false
-  private _publishDeploymentStatus?: string;
+  private _publishDeploymentStatus?: string; 
   public get publishDeploymentStatus() {
     return this.getStringAttribute('publish_deployment_status');
   }
@@ -179,7 +179,7 @@ export class CodestarconnectionsSyncConfiguration extends cdktn.TerraformResourc
   }
 
   // repository_link_id - computed: false, optional: false, required: true
-  private _repositoryLinkId?: string;
+  private _repositoryLinkId?: string; 
   public get repositoryLinkId() {
     return this.getStringAttribute('repository_link_id');
   }
@@ -197,7 +197,7 @@ export class CodestarconnectionsSyncConfiguration extends cdktn.TerraformResourc
   }
 
   // resource_name - computed: false, optional: false, required: true
-  private _resourceName?: string;
+  private _resourceName?: string; 
   public get resourceName() {
     return this.getStringAttribute('resource_name');
   }
@@ -210,7 +210,7 @@ export class CodestarconnectionsSyncConfiguration extends cdktn.TerraformResourc
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -223,7 +223,7 @@ export class CodestarconnectionsSyncConfiguration extends cdktn.TerraformResourc
   }
 
   // sync_type - computed: false, optional: false, required: true
-  private _syncType?: string;
+  private _syncType?: string; 
   public get syncType() {
     return this.getStringAttribute('sync_type');
   }
@@ -236,7 +236,7 @@ export class CodestarconnectionsSyncConfiguration extends cdktn.TerraformResourc
   }
 
   // trigger_resource_update_on - computed: true, optional: true, required: false
-  private _triggerResourceUpdateOn?: string;
+  private _triggerResourceUpdateOn?: string; 
   public get triggerResourceUpdateOn() {
     return this.getStringAttribute('trigger_resource_update_on');
   }

@@ -165,7 +165,7 @@ export class ImagebuilderLifecyclePolicyPolicyDetailActionIncludeResourcesOutput
   }
 
   // amis - computed: true, optional: true, required: false
-  private _amis?: boolean | cdktn.IResolvable;
+  private _amis?: boolean | cdktn.IResolvable; 
   public get amis() {
     return this.getBooleanAttribute('amis');
   }
@@ -181,7 +181,7 @@ export class ImagebuilderLifecyclePolicyPolicyDetailActionIncludeResourcesOutput
   }
 
   // containers - computed: true, optional: true, required: false
-  private _containers?: boolean | cdktn.IResolvable;
+  private _containers?: boolean | cdktn.IResolvable; 
   public get containers() {
     return this.getBooleanAttribute('containers');
   }
@@ -197,7 +197,7 @@ export class ImagebuilderLifecyclePolicyPolicyDetailActionIncludeResourcesOutput
   }
 
   // snapshots - computed: true, optional: true, required: false
-  private _snapshots?: boolean | cdktn.IResolvable;
+  private _snapshots?: boolean | cdktn.IResolvable; 
   public get snapshots() {
     return this.getBooleanAttribute('snapshots');
   }
@@ -332,7 +332,7 @@ export class ImagebuilderLifecyclePolicyPolicyDetailActionOutputReference extend
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -478,7 +478,7 @@ export class ImagebuilderLifecyclePolicyPolicyDetailExclusionRulesAmisLastLaunch
   }
 
   // unit - computed: false, optional: false, required: true
-  private _unit?: string;
+  private _unit?: string; 
   public get unit() {
     return this.getStringAttribute('unit');
   }
@@ -491,7 +491,7 @@ export class ImagebuilderLifecyclePolicyPolicyDetailExclusionRulesAmisLastLaunch
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: number;
+  private _value?: number; 
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -674,7 +674,7 @@ export class ImagebuilderLifecyclePolicyPolicyDetailExclusionRulesAmisOutputRefe
   }
 
   // is_public - computed: true, optional: true, required: false
-  private _isPublic?: boolean | cdktn.IResolvable;
+  private _isPublic?: boolean | cdktn.IResolvable; 
   public get isPublic() {
     return this.getBooleanAttribute('is_public');
   }
@@ -690,7 +690,7 @@ export class ImagebuilderLifecyclePolicyPolicyDetailExclusionRulesAmisOutputRefe
   }
 
   // regions - computed: false, optional: true, required: false
-  private _regions?: string[];
+  private _regions?: string[]; 
   public get regions() {
     return this.getListAttribute('regions');
   }
@@ -706,7 +706,7 @@ export class ImagebuilderLifecyclePolicyPolicyDetailExclusionRulesAmisOutputRefe
   }
 
   // shared_accounts - computed: false, optional: true, required: false
-  private _sharedAccounts?: string[];
+  private _sharedAccounts?: string[]; 
   public get sharedAccounts() {
     return this.getListAttribute('shared_accounts');
   }
@@ -722,7 +722,7 @@ export class ImagebuilderLifecyclePolicyPolicyDetailExclusionRulesAmisOutputRefe
   }
 
   // tag_map - computed: false, optional: true, required: false
-  private _tagMap?: { [key: string]: string };
+  private _tagMap?: { [key: string]: string }; 
   public get tagMap() {
     return this.getStringMapAttribute('tag_map');
   }
@@ -873,7 +873,7 @@ export class ImagebuilderLifecyclePolicyPolicyDetailExclusionRulesOutputReferenc
   }
 
   // tag_map - computed: false, optional: true, required: false
-  private _tagMap?: { [key: string]: string };
+  private _tagMap?: { [key: string]: string }; 
   public get tagMap() {
     return this.getStringMapAttribute('tag_map');
   }
@@ -1056,7 +1056,7 @@ export class ImagebuilderLifecyclePolicyPolicyDetailFilterOutputReference extend
   }
 
   // retain_at_least - computed: false, optional: true, required: false
-  private _retainAtLeast?: number;
+  private _retainAtLeast?: number; 
   public get retainAtLeast() {
     return this.getNumberAttribute('retain_at_least');
   }
@@ -1072,7 +1072,7 @@ export class ImagebuilderLifecyclePolicyPolicyDetailFilterOutputReference extend
   }
 
   // type - computed: false, optional: false, required: true
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -1085,7 +1085,7 @@ export class ImagebuilderLifecyclePolicyPolicyDetailFilterOutputReference extend
   }
 
   // unit - computed: false, optional: true, required: false
-  private _unit?: string;
+  private _unit?: string; 
   public get unit() {
     return this.getStringAttribute('unit');
   }
@@ -1101,7 +1101,7 @@ export class ImagebuilderLifecyclePolicyPolicyDetailFilterOutputReference extend
   }
 
   // value - computed: false, optional: false, required: true
-  private _value?: number;
+  private _value?: number; 
   public get value() {
     return this.getNumberAttribute('value');
   }
@@ -1419,7 +1419,7 @@ export class ImagebuilderLifecyclePolicyResourceSelectionRecipeOutputReference e
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1432,7 +1432,7 @@ export class ImagebuilderLifecyclePolicyResourceSelectionRecipeOutputReference e
   }
 
   // semantic_version - computed: false, optional: false, required: true
-  private _semanticVersion?: string;
+  private _semanticVersion?: string; 
   public get semanticVersion() {
     return this.getStringAttribute('semantic_version');
   }
@@ -1564,7 +1564,7 @@ export class ImagebuilderLifecyclePolicyResourceSelectionOutputReference extends
   }
 
   // tag_map - computed: false, optional: true, required: false
-  private _tagMap?: { [key: string]: string };
+  private _tagMap?: { [key: string]: string }; 
   public get tagMap() {
     return this.getStringMapAttribute('tag_map');
   }
@@ -1687,7 +1687,7 @@ export class ImagebuilderLifecyclePolicy extends cdktn.TerraformResource {
   }
 
   // description - computed: false, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -1703,7 +1703,7 @@ export class ImagebuilderLifecyclePolicy extends cdktn.TerraformResource {
   }
 
   // execution_role - computed: false, optional: false, required: true
-  private _executionRole?: string;
+  private _executionRole?: string; 
   public get executionRole() {
     return this.getStringAttribute('execution_role');
   }
@@ -1721,7 +1721,7 @@ export class ImagebuilderLifecyclePolicy extends cdktn.TerraformResource {
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -1734,7 +1734,7 @@ export class ImagebuilderLifecyclePolicy extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -1750,7 +1750,7 @@ export class ImagebuilderLifecyclePolicy extends cdktn.TerraformResource {
   }
 
   // resource_type - computed: false, optional: false, required: true
-  private _resourceType?: string;
+  private _resourceType?: string; 
   public get resourceType() {
     return this.getStringAttribute('resource_type');
   }
@@ -1763,7 +1763,7 @@ export class ImagebuilderLifecyclePolicy extends cdktn.TerraformResource {
   }
 
   // status - computed: true, optional: true, required: false
-  private _status?: string;
+  private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }
@@ -1779,7 +1779,7 @@ export class ImagebuilderLifecyclePolicy extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }

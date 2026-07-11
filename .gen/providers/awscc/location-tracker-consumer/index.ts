@@ -76,7 +76,7 @@ export class LocationTrackerConsumer extends cdktn.TerraformResource {
   // ==========
 
   // consumer_arn - computed: false, optional: false, required: true
-  private _consumerArn?: string;
+  private _consumerArn?: string; 
   public get consumerArn() {
     return this.getStringAttribute('consumer_arn');
   }
@@ -94,7 +94,7 @@ export class LocationTrackerConsumer extends cdktn.TerraformResource {
   }
 
   // tracker_name - computed: false, optional: false, required: true
-  private _trackerName?: string;
+  private _trackerName?: string; 
   public get trackerName() {
     return this.getStringAttribute('tracker_name');
   }

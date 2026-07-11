@@ -190,7 +190,7 @@ export class OpsworkscmServerEngineAttributesOutputReference extends cdktn.Compl
   }
 
   // name - computed: true, optional: true, required: false
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -206,7 +206,7 @@ export class OpsworkscmServerEngineAttributesOutputReference extends cdktn.Compl
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -339,7 +339,7 @@ export class OpsworkscmServerTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -355,7 +355,7 @@ export class OpsworkscmServerTagsOutputReference extends cdktn.ComplexObject {
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -474,7 +474,7 @@ export class OpsworkscmServer extends cdktn.TerraformResource {
   }
 
   // associate_public_ip_address - computed: true, optional: true, required: false
-  private _associatePublicIpAddress?: boolean | cdktn.IResolvable;
+  private _associatePublicIpAddress?: boolean | cdktn.IResolvable; 
   public get associatePublicIpAddress() {
     return this.getBooleanAttribute('associate_public_ip_address');
   }
@@ -490,7 +490,7 @@ export class OpsworkscmServer extends cdktn.TerraformResource {
   }
 
   // backup_id - computed: true, optional: true, required: false
-  private _backupId?: string;
+  private _backupId?: string; 
   public get backupId() {
     return this.getStringAttribute('backup_id');
   }
@@ -506,7 +506,7 @@ export class OpsworkscmServer extends cdktn.TerraformResource {
   }
 
   // backup_retention_count - computed: true, optional: true, required: false
-  private _backupRetentionCount?: number;
+  private _backupRetentionCount?: number; 
   public get backupRetentionCount() {
     return this.getNumberAttribute('backup_retention_count');
   }
@@ -522,7 +522,7 @@ export class OpsworkscmServer extends cdktn.TerraformResource {
   }
 
   // custom_certificate - computed: true, optional: true, required: false
-  private _customCertificate?: string;
+  private _customCertificate?: string; 
   public get customCertificate() {
     return this.getStringAttribute('custom_certificate');
   }
@@ -538,7 +538,7 @@ export class OpsworkscmServer extends cdktn.TerraformResource {
   }
 
   // custom_domain - computed: true, optional: true, required: false
-  private _customDomain?: string;
+  private _customDomain?: string; 
   public get customDomain() {
     return this.getStringAttribute('custom_domain');
   }
@@ -554,7 +554,7 @@ export class OpsworkscmServer extends cdktn.TerraformResource {
   }
 
   // custom_private_key - computed: true, optional: true, required: false
-  private _customPrivateKey?: string;
+  private _customPrivateKey?: string; 
   public get customPrivateKey() {
     return this.getStringAttribute('custom_private_key');
   }
@@ -570,7 +570,7 @@ export class OpsworkscmServer extends cdktn.TerraformResource {
   }
 
   // disable_automated_backup - computed: true, optional: true, required: false
-  private _disableAutomatedBackup?: boolean | cdktn.IResolvable;
+  private _disableAutomatedBackup?: boolean | cdktn.IResolvable; 
   public get disableAutomatedBackup() {
     return this.getBooleanAttribute('disable_automated_backup');
   }
@@ -591,7 +591,7 @@ export class OpsworkscmServer extends cdktn.TerraformResource {
   }
 
   // engine - computed: true, optional: true, required: false
-  private _engine?: string;
+  private _engine?: string; 
   public get engine() {
     return this.getStringAttribute('engine');
   }
@@ -623,7 +623,7 @@ export class OpsworkscmServer extends cdktn.TerraformResource {
   }
 
   // engine_model - computed: true, optional: true, required: false
-  private _engineModel?: string;
+  private _engineModel?: string; 
   public get engineModel() {
     return this.getStringAttribute('engine_model');
   }
@@ -639,7 +639,7 @@ export class OpsworkscmServer extends cdktn.TerraformResource {
   }
 
   // engine_version - computed: true, optional: true, required: false
-  private _engineVersion?: string;
+  private _engineVersion?: string; 
   public get engineVersion() {
     return this.getStringAttribute('engine_version');
   }
@@ -660,7 +660,7 @@ export class OpsworkscmServer extends cdktn.TerraformResource {
   }
 
   // instance_profile_arn - computed: false, optional: false, required: true
-  private _instanceProfileArn?: string;
+  private _instanceProfileArn?: string; 
   public get instanceProfileArn() {
     return this.getStringAttribute('instance_profile_arn');
   }
@@ -673,7 +673,7 @@ export class OpsworkscmServer extends cdktn.TerraformResource {
   }
 
   // instance_type - computed: false, optional: false, required: true
-  private _instanceType?: string;
+  private _instanceType?: string; 
   public get instanceType() {
     return this.getStringAttribute('instance_type');
   }
@@ -686,7 +686,7 @@ export class OpsworkscmServer extends cdktn.TerraformResource {
   }
 
   // key_pair - computed: true, optional: true, required: false
-  private _keyPair?: string;
+  private _keyPair?: string; 
   public get keyPair() {
     return this.getStringAttribute('key_pair');
   }
@@ -702,7 +702,7 @@ export class OpsworkscmServer extends cdktn.TerraformResource {
   }
 
   // preferred_backup_window - computed: true, optional: true, required: false
-  private _preferredBackupWindow?: string;
+  private _preferredBackupWindow?: string; 
   public get preferredBackupWindow() {
     return this.getStringAttribute('preferred_backup_window');
   }
@@ -718,7 +718,7 @@ export class OpsworkscmServer extends cdktn.TerraformResource {
   }
 
   // preferred_maintenance_window - computed: true, optional: true, required: false
-  private _preferredMaintenanceWindow?: string;
+  private _preferredMaintenanceWindow?: string; 
   public get preferredMaintenanceWindow() {
     return this.getStringAttribute('preferred_maintenance_window');
   }
@@ -734,7 +734,7 @@ export class OpsworkscmServer extends cdktn.TerraformResource {
   }
 
   // security_group_ids - computed: true, optional: true, required: false
-  private _securityGroupIds?: string[];
+  private _securityGroupIds?: string[]; 
   public get securityGroupIds() {
     return this.getListAttribute('security_group_ids');
   }
@@ -755,7 +755,7 @@ export class OpsworkscmServer extends cdktn.TerraformResource {
   }
 
   // server_name - computed: true, optional: true, required: false
-  private _serverName?: string;
+  private _serverName?: string; 
   public get serverName() {
     return this.getStringAttribute('server_name');
   }
@@ -771,7 +771,7 @@ export class OpsworkscmServer extends cdktn.TerraformResource {
   }
 
   // service_role_arn - computed: false, optional: false, required: true
-  private _serviceRoleArn?: string;
+  private _serviceRoleArn?: string; 
   public get serviceRoleArn() {
     return this.getStringAttribute('service_role_arn');
   }
@@ -784,7 +784,7 @@ export class OpsworkscmServer extends cdktn.TerraformResource {
   }
 
   // subnet_ids - computed: true, optional: true, required: false
-  private _subnetIds?: string[];
+  private _subnetIds?: string[]; 
   public get subnetIds() {
     return this.getListAttribute('subnet_ids');
   }

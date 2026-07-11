@@ -152,7 +152,7 @@ export class CognitoIdentityPoolRoleAttachmentRoleMappingsRulesConfigurationRule
   }
 
   // claim - computed: true, optional: true, required: false
-  private _claim?: string;
+  private _claim?: string; 
   public get claim() {
     return this.getStringAttribute('claim');
   }
@@ -168,7 +168,7 @@ export class CognitoIdentityPoolRoleAttachmentRoleMappingsRulesConfigurationRule
   }
 
   // match_type - computed: true, optional: true, required: false
-  private _matchType?: string;
+  private _matchType?: string; 
   public get matchType() {
     return this.getStringAttribute('match_type');
   }
@@ -184,7 +184,7 @@ export class CognitoIdentityPoolRoleAttachmentRoleMappingsRulesConfigurationRule
   }
 
   // role_arn - computed: true, optional: true, required: false
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -200,7 +200,7 @@ export class CognitoIdentityPoolRoleAttachmentRoleMappingsRulesConfigurationRule
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -460,7 +460,7 @@ export class CognitoIdentityPoolRoleAttachmentRoleMappingsOutputReference extend
   }
 
   // ambiguous_role_resolution - computed: true, optional: true, required: false
-  private _ambiguousRoleResolution?: string;
+  private _ambiguousRoleResolution?: string; 
   public get ambiguousRoleResolution() {
     return this.getStringAttribute('ambiguous_role_resolution');
   }
@@ -476,7 +476,7 @@ export class CognitoIdentityPoolRoleAttachmentRoleMappingsOutputReference extend
   }
 
   // identity_provider - computed: true, optional: true, required: false
-  private _identityProvider?: string;
+  private _identityProvider?: string; 
   public get identityProvider() {
     return this.getStringAttribute('identity_provider');
   }
@@ -508,7 +508,7 @@ export class CognitoIdentityPoolRoleAttachmentRoleMappingsOutputReference extend
   }
 
   // type - computed: true, optional: true, required: false
-  private _type?: string;
+  private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
   }
@@ -608,7 +608,7 @@ export class CognitoIdentityPoolRoleAttachment extends cdktn.TerraformResource {
   }
 
   // identity_pool_id - computed: false, optional: false, required: true
-  private _identityPoolId?: string;
+  private _identityPoolId?: string; 
   public get identityPoolId() {
     return this.getStringAttribute('identity_pool_id');
   }
@@ -642,7 +642,7 @@ export class CognitoIdentityPoolRoleAttachment extends cdktn.TerraformResource {
   }
 
   // roles - computed: true, optional: true, required: false
-  private _roles?: { [key: string]: string };
+  private _roles?: { [key: string]: string }; 
   public get roles() {
     return this.getStringMapAttribute('roles');
   }

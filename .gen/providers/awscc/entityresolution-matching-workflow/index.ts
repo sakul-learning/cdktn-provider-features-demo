@@ -123,7 +123,7 @@ export class EntityresolutionMatchingWorkflowIncrementalRunConfigOutputReference
   }
 
   // incremental_run_type - computed: true, optional: true, required: false
-  private _incrementalRunType?: string;
+  private _incrementalRunType?: string; 
   public get incrementalRunType() {
     return this.getStringAttribute('incremental_run_type');
   }
@@ -257,7 +257,7 @@ export class EntityresolutionMatchingWorkflowInputSourceConfigOutputReference ex
   }
 
   // apply_normalization - computed: true, optional: true, required: false
-  private _applyNormalization?: boolean | cdktn.IResolvable;
+  private _applyNormalization?: boolean | cdktn.IResolvable; 
   public get applyNormalization() {
     return this.getBooleanAttribute('apply_normalization');
   }
@@ -273,7 +273,7 @@ export class EntityresolutionMatchingWorkflowInputSourceConfigOutputReference ex
   }
 
   // input_source_arn - computed: false, optional: false, required: true
-  private _inputSourceArn?: string;
+  private _inputSourceArn?: string; 
   public get inputSourceArn() {
     return this.getStringAttribute('input_source_arn');
   }
@@ -286,7 +286,7 @@ export class EntityresolutionMatchingWorkflowInputSourceConfigOutputReference ex
   }
 
   // schema_arn - computed: false, optional: false, required: true
-  private _schemaArn?: string;
+  private _schemaArn?: string; 
   public get schemaArn() {
     return this.getStringAttribute('schema_arn');
   }
@@ -418,7 +418,7 @@ export class EntityresolutionMatchingWorkflowOutputSourceConfigCustomerProfilesI
   }
 
   // domain_arn - computed: true, optional: true, required: false
-  private _domainArn?: string;
+  private _domainArn?: string; 
   public get domainArn() {
     return this.getStringAttribute('domain_arn');
   }
@@ -434,7 +434,7 @@ export class EntityresolutionMatchingWorkflowOutputSourceConfigCustomerProfilesI
   }
 
   // object_type_arn - computed: true, optional: true, required: false
-  private _objectTypeArn?: string;
+  private _objectTypeArn?: string; 
   public get objectTypeArn() {
     return this.getStringAttribute('object_type_arn');
   }
@@ -547,7 +547,7 @@ export class EntityresolutionMatchingWorkflowOutputSourceConfigOutputOutputRefer
   }
 
   // hashed - computed: true, optional: true, required: false
-  private _hashed?: boolean | cdktn.IResolvable;
+  private _hashed?: boolean | cdktn.IResolvable; 
   public get hashed() {
     return this.getBooleanAttribute('hashed');
   }
@@ -563,7 +563,7 @@ export class EntityresolutionMatchingWorkflowOutputSourceConfigOutputOutputRefer
   }
 
   // name - computed: false, optional: false, required: true
-  private _name?: string;
+  private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
   }
@@ -748,7 +748,7 @@ export class EntityresolutionMatchingWorkflowOutputSourceConfigOutputReference e
   }
 
   // apply_normalization - computed: true, optional: true, required: false
-  private _applyNormalization?: boolean | cdktn.IResolvable;
+  private _applyNormalization?: boolean | cdktn.IResolvable; 
   public get applyNormalization() {
     return this.getBooleanAttribute('apply_normalization');
   }
@@ -780,7 +780,7 @@ export class EntityresolutionMatchingWorkflowOutputSourceConfigOutputReference e
   }
 
   // kms_arn - computed: true, optional: true, required: false
-  private _kmsArn?: string;
+  private _kmsArn?: string; 
   public get kmsArn() {
     return this.getStringAttribute('kms_arn');
   }
@@ -809,7 +809,7 @@ export class EntityresolutionMatchingWorkflowOutputSourceConfigOutputReference e
   }
 
   // output_s3_path - computed: true, optional: true, required: false
-  private _outputS3Path?: string;
+  private _outputS3Path?: string; 
   public get outputS3Path() {
     return this.getStringAttribute('output_s3_path');
   }
@@ -925,7 +925,7 @@ export class EntityresolutionMatchingWorkflowResolutionTechniquesProviderPropert
   }
 
   // intermediate_s3_path - computed: true, optional: true, required: false
-  private _intermediateS3Path?: string;
+  private _intermediateS3Path?: string; 
   public get intermediateS3Path() {
     return this.getStringAttribute('intermediate_s3_path');
   }
@@ -1073,7 +1073,7 @@ export class EntityresolutionMatchingWorkflowResolutionTechniquesProviderPropert
   }
 
   // provider_configuration - computed: true, optional: true, required: false
-  private _providerConfiguration?: { [key: string]: string };
+  private _providerConfiguration?: { [key: string]: string }; 
   public get providerConfiguration() {
     return this.getStringMapAttribute('provider_configuration');
   }
@@ -1089,7 +1089,7 @@ export class EntityresolutionMatchingWorkflowResolutionTechniquesProviderPropert
   }
 
   // provider_service_arn - computed: true, optional: true, required: false
-  private _providerServiceArn?: string;
+  private _providerServiceArn?: string; 
   public get providerServiceArn() {
     return this.getStringAttribute('provider_service_arn');
   }
@@ -1202,7 +1202,7 @@ export class EntityresolutionMatchingWorkflowResolutionTechniquesRuleBasedProper
   }
 
   // matching_keys - computed: true, optional: true, required: false
-  private _matchingKeys?: string[];
+  private _matchingKeys?: string[]; 
   public get matchingKeys() {
     return this.getListAttribute('matching_keys');
   }
@@ -1218,7 +1218,7 @@ export class EntityresolutionMatchingWorkflowResolutionTechniquesRuleBasedProper
   }
 
   // rule_name - computed: true, optional: true, required: false
-  private _ruleName?: string;
+  private _ruleName?: string; 
   public get ruleName() {
     return this.getStringAttribute('rule_name');
   }
@@ -1366,7 +1366,7 @@ export class EntityresolutionMatchingWorkflowResolutionTechniquesRuleBasedProper
   }
 
   // attribute_matching_model - computed: true, optional: true, required: false
-  private _attributeMatchingModel?: string;
+  private _attributeMatchingModel?: string; 
   public get attributeMatchingModel() {
     return this.getStringAttribute('attribute_matching_model');
   }
@@ -1382,7 +1382,7 @@ export class EntityresolutionMatchingWorkflowResolutionTechniquesRuleBasedProper
   }
 
   // match_purpose - computed: true, optional: true, required: false
-  private _matchPurpose?: string;
+  private _matchPurpose?: string; 
   public get matchPurpose() {
     return this.getStringAttribute('match_purpose');
   }
@@ -1494,7 +1494,7 @@ export class EntityresolutionMatchingWorkflowResolutionTechniquesRuleConditionPr
   }
 
   // enable_transitive_matching - computed: true, optional: true, required: false
-  private _enableTransitiveMatching?: boolean | cdktn.IResolvable;
+  private _enableTransitiveMatching?: boolean | cdktn.IResolvable; 
   public get enableTransitiveMatching() {
     return this.getBooleanAttribute('enable_transitive_matching');
   }
@@ -1607,7 +1607,7 @@ export class EntityresolutionMatchingWorkflowResolutionTechniquesRuleConditionPr
   }
 
   // condition - computed: true, optional: true, required: false
-  private _condition?: string;
+  private _condition?: string; 
   public get condition() {
     return this.getStringAttribute('condition');
   }
@@ -1623,7 +1623,7 @@ export class EntityresolutionMatchingWorkflowResolutionTechniquesRuleConditionPr
   }
 
   // rule_name - computed: true, optional: true, required: false
-  private _ruleName?: string;
+  private _ruleName?: string; 
   public get ruleName() {
     return this.getStringAttribute('rule_name');
   }
@@ -1933,7 +1933,7 @@ export class EntityresolutionMatchingWorkflowResolutionTechniquesOutputReference
   }
 
   // resolution_type - computed: true, optional: true, required: false
-  private _resolutionType?: string;
+  private _resolutionType?: string; 
   public get resolutionType() {
     return this.getStringAttribute('resolution_type');
   }
@@ -2082,7 +2082,7 @@ export class EntityresolutionMatchingWorkflowTagsOutputReference extends cdktn.C
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -2098,7 +2098,7 @@ export class EntityresolutionMatchingWorkflowTagsOutputReference extends cdktn.C
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -2204,7 +2204,7 @@ export class EntityresolutionMatchingWorkflow extends cdktn.TerraformResource {
   }
 
   // description - computed: true, optional: true, required: false
-  private _description?: string;
+  private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
   }
@@ -2280,7 +2280,7 @@ export class EntityresolutionMatchingWorkflow extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -2319,7 +2319,7 @@ export class EntityresolutionMatchingWorkflow extends cdktn.TerraformResource {
   }
 
   // workflow_name - computed: false, optional: false, required: true
-  private _workflowName?: string;
+  private _workflowName?: string; 
   public get workflowName() {
     return this.getStringAttribute('workflow_name');
   }

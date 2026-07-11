@@ -193,7 +193,7 @@ export class CustomerprofilesEventStreamTagsOutputReference extends cdktn.Comple
   }
 
   // key - computed: true, optional: true, required: false
-  private _key?: string;
+  private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
   }
@@ -209,7 +209,7 @@ export class CustomerprofilesEventStreamTagsOutputReference extends cdktn.Comple
   }
 
   // value - computed: true, optional: true, required: false
-  private _value?: string;
+  private _value?: string; 
   public get value() {
     return this.getStringAttribute('value');
   }
@@ -317,7 +317,7 @@ export class CustomerprofilesEventStream extends cdktn.TerraformResource {
   }
 
   // domain_name - computed: false, optional: false, required: true
-  private _domainName?: string;
+  private _domainName?: string; 
   public get domainName() {
     return this.getStringAttribute('domain_name');
   }
@@ -335,7 +335,7 @@ export class CustomerprofilesEventStream extends cdktn.TerraformResource {
   }
 
   // event_stream_name - computed: false, optional: false, required: true
-  private _eventStreamName?: string;
+  private _eventStreamName?: string; 
   public get eventStreamName() {
     return this.getStringAttribute('event_stream_name');
   }
@@ -374,7 +374,7 @@ export class CustomerprofilesEventStream extends cdktn.TerraformResource {
   }
 
   // uri - computed: false, optional: false, required: true
-  private _uri?: string;
+  private _uri?: string; 
   public get uri() {
     return this.getStringAttribute('uri');
   }

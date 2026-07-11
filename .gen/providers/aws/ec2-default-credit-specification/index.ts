@@ -128,7 +128,7 @@ export class Ec2DefaultCreditSpecificationTimeoutsOutputReference extends cdktn.
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -144,7 +144,7 @@ export class Ec2DefaultCreditSpecificationTimeoutsOutputReference extends cdktn.
   }
 
   // update - computed: false, optional: true, required: false
-  private _update?: string;
+  private _update?: string; 
   public get update() {
     return this.getStringAttribute('update');
   }
@@ -221,7 +221,7 @@ export class Ec2DefaultCreditSpecification extends cdktn.TerraformResource {
   // ==========
 
   // cpu_credits - computed: false, optional: false, required: true
-  private _cpuCredits?: string;
+  private _cpuCredits?: string; 
   public get cpuCredits() {
     return this.getStringAttribute('cpu_credits');
   }
@@ -234,7 +234,7 @@ export class Ec2DefaultCreditSpecification extends cdktn.TerraformResource {
   }
 
   // instance_family - computed: false, optional: false, required: true
-  private _instanceFamily?: string;
+  private _instanceFamily?: string; 
   public get instanceFamily() {
     return this.getStringAttribute('instance_family');
   }
@@ -247,7 +247,7 @@ export class Ec2DefaultCreditSpecification extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }

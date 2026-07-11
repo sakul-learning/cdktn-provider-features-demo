@@ -147,7 +147,7 @@ export class QldbStreamKinesisConfigurationOutputReference extends cdktn.Complex
   }
 
   // aggregation_enabled - computed: false, optional: true, required: false
-  private _aggregationEnabled?: boolean | cdktn.IResolvable;
+  private _aggregationEnabled?: boolean | cdktn.IResolvable; 
   public get aggregationEnabled() {
     return this.getBooleanAttribute('aggregation_enabled');
   }
@@ -163,7 +163,7 @@ export class QldbStreamKinesisConfigurationOutputReference extends cdktn.Complex
   }
 
   // stream_arn - computed: false, optional: false, required: true
-  private _streamArn?: string;
+  private _streamArn?: string; 
   public get streamArn() {
     return this.getStringAttribute('stream_arn');
   }
@@ -271,7 +271,7 @@ export class QldbStreamTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // create - computed: false, optional: true, required: false
-  private _create?: string;
+  private _create?: string; 
   public get create() {
     return this.getStringAttribute('create');
   }
@@ -287,7 +287,7 @@ export class QldbStreamTimeoutsOutputReference extends cdktn.ComplexObject {
   }
 
   // delete - computed: false, optional: true, required: false
-  private _delete?: string;
+  private _delete?: string; 
   public get delete() {
     return this.getStringAttribute('delete');
   }
@@ -376,7 +376,7 @@ export class QldbStream extends cdktn.TerraformResource {
   }
 
   // exclusive_end_time - computed: false, optional: true, required: false
-  private _exclusiveEndTime?: string;
+  private _exclusiveEndTime?: string; 
   public get exclusiveEndTime() {
     return this.getStringAttribute('exclusive_end_time');
   }
@@ -392,7 +392,7 @@ export class QldbStream extends cdktn.TerraformResource {
   }
 
   // id - computed: true, optional: true, required: false
-  private _id?: string;
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
@@ -408,7 +408,7 @@ export class QldbStream extends cdktn.TerraformResource {
   }
 
   // inclusive_start_time - computed: false, optional: false, required: true
-  private _inclusiveStartTime?: string;
+  private _inclusiveStartTime?: string; 
   public get inclusiveStartTime() {
     return this.getStringAttribute('inclusive_start_time');
   }
@@ -421,7 +421,7 @@ export class QldbStream extends cdktn.TerraformResource {
   }
 
   // ledger_name - computed: false, optional: false, required: true
-  private _ledgerName?: string;
+  private _ledgerName?: string; 
   public get ledgerName() {
     return this.getStringAttribute('ledger_name');
   }
@@ -434,7 +434,7 @@ export class QldbStream extends cdktn.TerraformResource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -450,7 +450,7 @@ export class QldbStream extends cdktn.TerraformResource {
   }
 
   // role_arn - computed: false, optional: false, required: true
-  private _roleArn?: string;
+  private _roleArn?: string; 
   public get roleArn() {
     return this.getStringAttribute('role_arn');
   }
@@ -463,7 +463,7 @@ export class QldbStream extends cdktn.TerraformResource {
   }
 
   // stream_name - computed: false, optional: false, required: true
-  private _streamName?: string;
+  private _streamName?: string; 
   public get streamName() {
     return this.getStringAttribute('stream_name');
   }
@@ -476,7 +476,7 @@ export class QldbStream extends cdktn.TerraformResource {
   }
 
   // tags - computed: false, optional: true, required: false
-  private _tags?: { [key: string]: string };
+  private _tags?: { [key: string]: string }; 
   public get tags() {
     return this.getStringMapAttribute('tags');
   }
@@ -492,7 +492,7 @@ export class QldbStream extends cdktn.TerraformResource {
   }
 
   // tags_all - computed: true, optional: true, required: false
-  private _tagsAll?: { [key: string]: string };
+  private _tagsAll?: { [key: string]: string }; 
   public get tagsAll() {
     return this.getStringMapAttribute('tags_all');
   }

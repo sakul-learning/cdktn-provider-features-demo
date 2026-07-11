@@ -76,7 +76,7 @@ export class Ec2VpcEndpointServicePermissions extends cdktn.TerraformResource {
   // ==========
 
   // allowed_principals - computed: true, optional: true, required: false
-  private _allowedPrincipals?: string[];
+  private _allowedPrincipals?: string[]; 
   public get allowedPrincipals() {
     return this.getListAttribute('allowed_principals');
   }
@@ -97,7 +97,7 @@ export class Ec2VpcEndpointServicePermissions extends cdktn.TerraformResource {
   }
 
   // service_id - computed: false, optional: false, required: true
-  private _serviceId?: string;
+  private _serviceId?: string; 
   public get serviceId() {
     return this.getStringAttribute('service_id');
   }

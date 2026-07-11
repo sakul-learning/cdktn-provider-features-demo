@@ -244,7 +244,7 @@ export class DataAwsEcrpublicImagesImageIdsOutputReference extends cdktn.Complex
   }
 
   // image_digest - computed: false, optional: true, required: false
-  private _imageDigest?: string;
+  private _imageDigest?: string; 
   public get imageDigest() {
     return this.getStringAttribute('image_digest');
   }
@@ -260,7 +260,7 @@ export class DataAwsEcrpublicImagesImageIdsOutputReference extends cdktn.Complex
   }
 
   // image_tag - computed: false, optional: true, required: false
-  private _imageTag?: string;
+  private _imageTag?: string; 
   public get imageTag() {
     return this.getStringAttribute('image_tag');
   }
@@ -363,7 +363,7 @@ export class DataAwsEcrpublicImages extends cdktn.TerraformDataSource {
   }
 
   // region - computed: true, optional: true, required: false
-  private _region?: string;
+  private _region?: string; 
   public get region() {
     return this.getStringAttribute('region');
   }
@@ -379,7 +379,7 @@ export class DataAwsEcrpublicImages extends cdktn.TerraformDataSource {
   }
 
   // registry_id - computed: false, optional: true, required: false
-  private _registryId?: string;
+  private _registryId?: string; 
   public get registryId() {
     return this.getStringAttribute('registry_id');
   }
@@ -395,7 +395,7 @@ export class DataAwsEcrpublicImages extends cdktn.TerraformDataSource {
   }
 
   // repository_name - computed: false, optional: false, required: true
-  private _repositoryName?: string;
+  private _repositoryName?: string; 
   public get repositoryName() {
     return this.getStringAttribute('repository_name');
   }
